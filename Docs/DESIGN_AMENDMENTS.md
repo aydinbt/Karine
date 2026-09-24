@@ -142,3 +142,20 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 `Desk()` üst %11'e opak bir şerit çizip `desk.brandLocation` yazdığı için **1. madde yalnız masa ekranında gizleniyor**; giriş klasörünün kaydığı sahnede ve `CaseOffer()` ekranında ham görsel açıkta. 2. ve 3. maddeler her ekranda görünür.
 
 **Çözüm görsel işidir** — metin denetimi bunu yakalayamaz. `DeskV2.png` depoda mevcut ve tertemiz (metin ve arma yok), ama kompozisyonu farklı: masa nesnelerinin yerleri `Desk()` içindeki yüzdelik `Hotspot` koordinatlarıyla eşleşmez.
+
+## 25 Eylül 2026 — Vaka teklifi tam ekran değil, masadaki evrak
+
+**Karar (kullanıcı):** Dosyayı sunan ayrı tam ekran (`CaseOffer()`) kaldırıldı. Masa zaten arkada duruyordu; dosya artık **gelen evrak tepsisinde** bulunur. Rozet kırmızı yanıp söner, oyuncu tepsiye kendisi dokunur, dosyanın önizlemesini okur ve kabul eder.
+
+**Neden doğru:** Değişmeyen oynanış kuralıyla birebir örtüşüyor — oyun oyuncunun önüne ekran koymuyor, kaynağı **erişilebilir yapıyor**; fark etmek ve açmak oyuncunun işi. Ayrıca tam ekran teklif, `DeskReference.png`'nin ham hâlini üst şeridiyle birlikte gösteren tek yerdi.
+
+**Uygulama:**
+- `CaseOffer()` tamamen kaldırıldı. `Home()` "Yeni Oyun", `RestartPage()` onayı ve `OpenAssignment()` artık doğrudan `Desk()`'e gider.
+- `Desk()` kabul edilmemiş vakada **yalnız tepsi ve ana ekran** kısayolunu açar; dosya, görüşme ve terminal kapalıdır.
+- `InboxPage()` kabul edilmemiş vakayı en üstteki okunmamış evrak olarak listeler; sağ sütunda `offer.subtitle` + `offer.summary` önizlemesi ve `offer.accept` düğmesi vardır. **Yeni metin anahtarı gerekmedi.**
+- Gelen evrak rozeti kabul edilmemiş dosyayı da sayar ve `schedule.Execute(...).Every(520)` ile yanıp söner. Zamanlayıcı rozetin paneline bağlı olduğu için ekran değişince kendiliğinden durur.
+- `FirstDeskArrival()` (klasörün kayarak geldiği açılış) artık ayrı bir masa görseli çizmiyor; `Desk()`'i arka plan olarak kullanıyor. Kaplayan gölge animasyon boyunca dokunmaları tutuyor.
+
+**Kurum adı üzerindeki etkisi:** `DeskReference.png` artık yalnız `Desk()` içinden yükleniyor ve orası üst %11'e opak şerit çizdiği için **"İSTANBUL EMNİYET MÜDÜRLÜĞÜ" şeridi hiçbir ekranda görünmüyor.** Ama görselin içindeki **terminal ekranındaki `EMNİYET SİSTEMİ` yazısı ve armalar hâlâ duruyor** — onlar örtülü değil. Görsel yine de yenilenmeli; bu değişiklik ihlali küçülttü, bitirmedi.
+
+**Doğrulama:** `Assets/Bube/Tests/PlayMode/CaseOfferFlowTests.cs` — başsız Play Mode'da akış gerçekten koşturuldu: kabul edilmeden masada yalnız tepsi açık, tepside önizleme okunuyor, kabul düğmesine basılınca dosya kabul ediliyor ve masa tamamen açılıyor. `CaseOffer()`'ın geri gelmediği de sabitlendi.

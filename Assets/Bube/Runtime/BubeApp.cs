@@ -17,6 +17,7 @@ public sealed class BubeApp : MonoBehaviour {
   public string status;
   public Node document;
   public FaxReview review;
+  public CaseData offer;
   public bool unread;
   public bool pending;
   public bool sealedFax;
@@ -210,7 +211,8 @@ public sealed class BubeApp : MonoBehaviour {
 
  void RefreshInboxBadge() {
   if(inboxBadge==null || inboxBadge.panel==null)return;
-  int count=game.Data.nodes.Count(incomingDocumentPredicate)+(HasIncomingFax?1:0)+(AvailableAssignment()!=null?1:0);
+  int count=game.Data.nodes.Count(incomingDocumentPredicate)+(HasIncomingFax?1:0)+(AvailableAssignment()!=null?1:0)
+   +(game.State.caseAccepted?0:1);
   // Rozet yeniden kurulduğunda öge kimliği değişir; o durumda sayı aynı olsa da yeniden yazılır.
   if(count==lastInboxBadgeCount && ReferenceEquals(inboxBadge,lastBadgedElement))return;
   lastInboxBadgeCount=count; lastBadgedElement=inboxBadge;
@@ -390,7 +392,7 @@ public sealed class BubeApp : MonoBehaviour {
   var menuGap=new VisualElement();menuGap.style.height=18;left.Add(menuGap);
   if(game.State.caseAccepted)Button(left,"▣  "+T("home.continue")+"   ›",Desk,true);
   if(game.State.caseAccepted)Button(left,"↺  "+T("home.new"),()=>{confirmRestart=true;RestartPage();});
-  else Button(left,"↺  "+T("home.new"),()=>MaybeWorldIntro(CaseOffer),true);
+  else Button(left,"↺  "+T("home.new"),()=>MaybeWorldIntro(Desk),true);
   Button(left,"⚙  "+T("menu.settings"),SettingsPage);
   Button(left,"▥  "+T("menu.stats"),StatisticsPage);
   Button(left,"▤  "+T("archive.menu"),ArchivePage);
@@ -799,15 +801,10 @@ public sealed class BubeApp : MonoBehaviour {
   else after();
  }
  IEnumerator FirstDeskArrival(Action after) {
-  EnsureScene("OfficeScene");
-  root.Clear();
-  var desk=Resources.Load<Texture2D>("Bube/DeskReference");
-  if(desk!=null) {
-   var image=new Image {image=desk,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
-   image.style.position=Position.Absolute;
-   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
-   root.Add(image);
-  }
+  // Masanin kendisi arka plandir: ayri bir tam ekran gorsel cizilmez, boylece
+  // `Desk()` ust seridi de dahil her sey yerli yerinde kalir. Kaplayan golge
+  // animasyon boyunca tiklamalari da tutar.
+  Desk();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
   shade.style.backgroundColor=Color.black;shade.style.opacity=1;root.Add(shade);
@@ -832,38 +829,6 @@ public sealed class BubeApp : MonoBehaviour {
   yield return new WaitForSecondsRealtime(.65f);
   after();
  }
- void CaseOffer() {
-  EnsureScene("OfficeScene");
-  showingInterviewList=false;
-  root.Clear();
-  var desk=Resources.Load<Texture2D>("Bube/DeskReference");
-  if(desk!=null) {
-   var backdrop=new Image {image=desk,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
-   backdrop.style.position=Position.Absolute;
-   backdrop.style.left=0;backdrop.style.right=0;backdrop.style.top=0;backdrop.style.bottom=0;
-   root.Add(backdrop);
-  }
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.025f,.03f,.035f,.72f);root.Add(shade);
-  var folder=new VisualElement();folder.style.position=Position.Absolute;
-  folder.style.left=Length.Percent(23);folder.style.right=Length.Percent(23);
-  folder.style.top=Length.Percent(12);folder.style.bottom=Length.Percent(12);
-  folder.style.backgroundColor=new Color(.87f,.80f,.67f);
-  folder.style.paddingLeft=36;folder.style.paddingRight=36;folder.style.paddingTop=30;
-  root.Add(folder);
-  var dark=new Color(.15f,.17f,.17f);
-  Text(folder,T("offer.kicker"),new Color(.46f,.24f,.19f),16);
-  Text(folder,CaseText("offer.title","offer.title"),dark,38);
-  Text(folder,CaseText("offer.subtitle","offer.subtitle"),dark,18);
-  var line=new VisualElement();line.style.height=2;line.style.backgroundColor=new Color(.55f,.48f,.39f);
-  line.style.marginTop=10;line.style.marginBottom=18;folder.Add(line);
-  Text(folder,CaseText("offer.summary","offer.summary"),dark,20);
-  var spacer=new VisualElement();spacer.style.flexGrow=1;folder.Add(spacer);
-  Button(folder,T("offer.accept"),()=>{if(game.AcceptCase()){Save();Desk();}},true);
-  Button(folder,T("offer.back"),Home);
-  FadeIn(folder);
- }
  void RestartPage() {
   if(!confirmRestart){Home();return;}
   Frame(T("home.new"),T("restart.title"),T("restart.body"));
@@ -872,7 +837,7 @@ public sealed class BubeApp : MonoBehaviour {
    game=new Investigation(Load<CaseData>("Bube/Cases/"+config.initialCase),null,null,careerRules);
    game.Career.activeCaseId=game.Data.id; selectedSuspect=selectedMethod=selectedEvidence=null;
    selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=null;
-   Save(); confirmRestart=false; MaybeWorldIntro(CaseOffer);
+   Save(); confirmRestart=false; MaybeWorldIntro(Desk);
   },true);
   Button(card,T("restart.cancel"),()=>{confirmRestart=false;Home();});
  }
@@ -909,6 +874,11 @@ public sealed class BubeApp : MonoBehaviour {
  void InboxPage() { InboxPage(null,"all"); }
  void InboxPage(string selectedId,string filter) {
   var entries=new List<InboxEntry>();
+  // Kabul edilmemis vaka artik ayri bir tam ekran yerine masadaki tepside durur.
+  if(!game.State.caseAccepted)entries.Add(new InboxEntry {
+   id="offer:"+game.Data.id,title=CaseText("offer.title","offer.title"),
+   status=T("inbox.status.new"),unread=true,offer=game.Data
+  });
   var assignment=AvailableAssignment();
   if(assignment!=null)entries.Add(new InboxEntry {
    id="assignment:"+assignment.id,title=T("next.assignment"),
@@ -1024,10 +994,14 @@ public sealed class BubeApp : MonoBehaviour {
   Text(paperBody,T("inbox.brand"),dark,14);
   var title=Text(paperBody,selected.title,dark,22);
   if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  Text(paperBody,selected.review!=null || selected.assignment!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,dark,14);
+  Text(paperBody,selected.review!=null || selected.assignment!=null || selected.offer!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,dark,14);
   var line=new VisualElement();line.style.height=1;line.style.marginBottom=15;
   line.style.backgroundColor=new Color(.58f,.51f,.43f);paperBody.Add(line);
-  if(selected.assignment!=null) {
+  if(selected.offer!=null) {
+   Text(paperBody,CaseText("offer.subtitle","offer.subtitle"),dark,18);
+   Text(paperBody,CaseText("offer.summary","offer.summary"),dark,18);
+   Button(paperBody,T("offer.accept"),()=>{ if(game.AcceptCase()){Save();Desk();} },true);
+  } else if(selected.assignment!=null) {
    Text(paperBody,T("next.assignment.sender"),dark,16);
    Text(paperBody,T("next.assignment.body"),dark,18);
    Text(paperBody,T(selected.assignment.titleKey),dark,21);
@@ -1118,6 +1092,13 @@ public sealed class BubeApp : MonoBehaviour {
   inboxBadgeLabel.style.flexGrow=1;
   inboxBadgeLabel.pickingMode=PickingMode.Ignore;
   RefreshInboxBadge();
+  // Okunmamis evrak varken rozet yanip soner. Zamanlayici rozetin paneline bagli
+  // oldugu icin ekran degisince kendiliginden durur.
+  badge.schedule.Execute(()=>{
+   if(inboxBadge==null)return;
+   bool dim=inboxBadge.style.opacity.value>.6f;
+   inboxBadge.style.opacity=dim?.3f:1f;
+  }).Every(520);
   var header=new VisualElement();
   header.style.position=Position.Absolute;header.style.left=0;header.style.right=0;
   header.style.top=0;header.style.height=Length.Percent(11);
@@ -1138,6 +1119,10 @@ public sealed class BubeApp : MonoBehaviour {
    var end=Panel(root);end.style.position=Position.Absolute;end.style.left=Length.Percent(30);end.style.top=Length.Percent(42);
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
    if(game.State.closed)Button(end,T("result.summaryOpen"),CaseSummary);
+  } else if(!game.State.caseAccepted) {
+   // Dosya kabul edilene kadar masadaki tek etkilesim gelen evrak tepsisidir;
+   // oyuncuya sirada ne yapacagi soylenmez, yalnizca evrak fark edilir.
+   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
   } else if(!game.State.closed) {
    Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
    Hotspot(T(game.Data.titleKey),36,42,30,51,FilePage);
@@ -2785,7 +2770,7 @@ public sealed class BubeApp : MonoBehaviour {
    selectedSuspect=selectedMethod=selectedEvidence=null;
    selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=null;
    Save();
-   if(game.State.caseAccepted)Desk();else MaybeWorldIntro(CaseOffer);
+   if(game.State.caseAccepted)Desk();else MaybeWorldIntro(Desk);
  }
  void FaxPage() {
   if(!HasIncomingFax){Desk();return;}

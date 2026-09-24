@@ -36,7 +36,7 @@
 - Türkçe metin: 577 anahtar, eksik 0, yinelenen 0, ölü ~10
 - Diller: 1 (tr)
 - Assembly: 3 (`Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode`) — hepsi 0 hatayla derleniyor
-- Test: **42, hepsi geçiyor** — 40 EditMode (8 içerik/metin, 12 Dosya #001 akış, 8 kapı/zaman çizelgesi, 7 doğrulama raporu, 6 kayıt şeması, 1 config) + 2 PlayMode duman testi. Tek komut: `Tools/run-tests.sh`
+- Test: **48, hepsi geçiyor** — 40 EditMode (8 içerik/metin, 12 Dosya #001 akış, 8 kapı/zaman çizelgesi, 7 doğrulama raporu, 6 kayıt şeması, 1 config) + 5 PlayMode (2 duman + 3 vaka kabul akışı). Tek komut: `Tools/run-tests.sh`
 - Doğrulayıcı: 9 dosya `Assets/Bube/Editor/Validation/` altında; `ProjectSetup.cs` 285 → 37 satır
 
 ## Faz 0'da yapılanlar (25 Eylül 2026)
@@ -54,6 +54,7 @@
 
 ## Açık kritik maddeler
 
+1. **`DeskReference.png` görselinde gerçek kurum adı ve arma gömülü** — "İSTANBUL EMNİYET MÜDÜRLÜĞÜ", terminalde "EMNİYET SİSTEMİ", polis armasına benzer rozet. Üst şerit artık her ekranda örtülüyor, geri kalanı **görselin yenilenmesini bekliyor**. Oyun içi kurum kurgusaldır (bube Polis / BPS).
 1. **Dosya #001 hiç baştan sona oynanmadı** — M1 ve M2'nin bitiş ölçütleri buna bağlı (Faz 2). **Asıl darboğaz budur.**
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. **Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor (Faz 3).

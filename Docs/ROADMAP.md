@@ -5,7 +5,7 @@
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 42 test)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 48 test)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -35,6 +35,9 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [ ] Kayıt şeması göçü yok; `version != 1` olduğunda ilerleme **sessizce siliniyor**. Bugünkü davranış `SaveSchemaTests` ile sabitlendi; göç yazılınca o test bilinçli olarak kırılacak. (Faz 3)
 - [~] `Update()` her karede tam vaka JSON'u ayrıştırıyordu ve `Locale.Get` 577 girişte doğrusal arama yapıyordu. **Faz 2'de beş düzeltme kodlandı** (görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`); üç assembly sıfır hata/uyarı ile derlendi ve `Locale.Get` davranışı beş EditMode testiyle sabitlendi. Güvenli alan yazımları ve açılış **PlayMode duman testiyle gözlendi** `[x]`; görev önbelleği, rozet yazımları ve temsilciler yalnız statik olarak doğrulandı `[~]` → `Docs/PLAYTEST_001.md` §5.
 - [x] Oyun adı **Karine** olarak belirlendi ve `config.json`, `productName`, paket kimliği ile `about.body`'ye uygulandı. (Faz 0)
+
+- [x] **Vaka teklifi tam ekran olmaktan çıkıp masadaki gelen evrak tepsisine taşındı.** Rozet yanıp söner, oyuncu tepsiyi kendisi açar, önizlemeyi okur ve kabul eder; kabul edilmeden masada başka hiçbir şey açılmaz. Başsız **Play Mode testiyle akış uçtan uca koşturuldu ve gözlendi**.
+- [ ] **`DeskReference.png` görselinin içinde gerçek kurum adı ve arma var.** Üst şerit artık her ekranda `Desk()` tarafından örtülüyor, ama terminaldeki `EMNİYET SİSTEMİ` yazısı ve armalar duruyor. **Görselin yenilenmesi gerekiyor**; metin denetimi bunu yakalayamaz. Ayrıntı: `Docs/DESIGN_AMENDMENTS.md`.
 
 ## Her vaka için değişmeyen kabul kuralı
 
