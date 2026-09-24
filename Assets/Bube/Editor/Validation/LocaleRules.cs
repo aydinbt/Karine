@@ -18,6 +18,21 @@ public static class LocaleRules {
  // `T("kind."+n.kind)` — sabit önek kullanılıyor, tam anahtar kodda görünmüyor.
  static readonly Regex PrefixKey = new Regex(@"(?:\bT|\.Get)\(""([^""]+)""\s*\+", RegexOptions.Compiled);
 
+ // Oyun içinde gerçek resmî kurum, kuruluş ve mevzuat adları **kullanılmaz**.
+ // Kurgusal kurum "bube Polis / BPS"tir; kurumsal gönderici "ilgili birim" gibi
+ // genel ifadelerle anılır. Bu liste yalnız tam sözcük eşleşmesine bakar, böylece
+ // "birim" ya da "müdür" gibi genel sözcükler yanlış alarm üretmez.
+ static readonly string[] ForbiddenInstitutions = {
+  "emniyet", "emniyet müdürlüğü", "emniyet genel müdürlüğü", "egm",
+  "jandarma", "jandarma genel komutanlığı", "polis merkezi", "karakol",
+  "asayiş şube", "asayiş şubesi", "savcılık", "başsavcılık", "cumhuriyet savcısı",
+  "adalet bakanlığı", "içişleri bakanlığı", "valilik", "kaymakamlık",
+  "interpol", "europol", "fbi", "türk polis teşkilatı",
+  "türk ceza kanunu", "tck", "cmk", "kvkk", "türkiye cumhuriyeti",
+ };
+
+ static readonly Regex WordBreak = new Regex(@"[^\p{L}\p{N}]+", RegexOptions.Compiled);
+
  public static void Validate(Locale locale, IReadOnlyList<CaseData> cases, ValidationReport report) {
   report.Scope("metin");
   if (!report.Step(locale?.entries != null, "Metin dosyası okunamadı.")) return;
@@ -27,6 +42,9 @@ public static class LocaleRules {
    if (entry == null || string.IsNullOrEmpty(entry.key)) { report.Problem("Anahtarı olmayan metin girişi var."); continue; }
    if (!seen.Add(entry.key))
     report.Problem("Yinelenen anahtar (ikinci değer sessizce yok sayılır): " + entry.key);
+   var institution = ForbiddenInstitution(entry.value);
+   if (institution != null)
+    report.Problem("Gerçek kurum/mevzuat adı kullanılamaz (\"" + institution + "\"): " + entry.key);
   }
 
   var used = new HashSet<string>();
@@ -74,5 +92,16 @@ public static class LocaleRules {
    } else CollectKeys(content, into);
   }
  }
+ // Oyuncuya görünen metinde yasaklı kurum adı var mı? Tam sözcük dizisi arar;
+ // Türkçe büyük/küçük harf farkı ve noktalama önemsizdir.
+ public static string ForbiddenInstitution(string text) {
+  if (string.IsNullOrEmpty(text)) return null;
+  var words = WordBreak.Split(text.ToLowerInvariant()).Where(word => word.Length > 0).ToArray();
+  var normalized = " " + string.Join(" ", words) + " ";
+  foreach (var name in ForbiddenInstitutions)
+   if (normalized.Contains(" " + name + " ")) return name;
+  return null;
+ }
+
 }
 }

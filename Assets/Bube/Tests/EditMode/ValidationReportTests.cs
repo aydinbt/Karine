@@ -119,6 +119,42 @@ public sealed class ValidationReportTests {
   Assert.IsFalse(report.HasProblems, report.Summary());
  }
 
+ // Oyun içinde gerçek resmî kurum adı kullanılmaz; kurum kurgusaldır (bube Polis / BPS).
+ [Test]
+ public void RealInstitutionNames_AreRejected() {
+  var locale = new Locale { entries = new[] {
+   new Entry { key = "faks.gonderen", value = "Gönderen: İstanbul Emniyet Müdürlüğü" },
+  } };
+  var report = new ValidationReport();
+  LocaleRules.Validate(locale, new CaseData[0], report);
+  Assert.IsTrue(report.Problems.Any(p => p.Contains("faks.gonderen")),
+   "Gerçek kurum adı bildirilmeli:\n" + report.Summary());
+ }
+
+ [Test]
+ public void GenericWords_AreNotFalseAlarms() {
+  // "birim", "müdür", "kurumsal" gibi genel sözcükler oyunda bilinçli kullanılıyor.
+  foreach (var text in new[] {
+   "İlgili birim, sunduğunuz sonuç ile dayanaklarını değerlendirdi.",
+   "bube Polis · İstanbul / Beşiktaş Şubesi",
+   "KURUMSAL DEĞERLENDİRME",
+   "Birim güveni tükendi.",
+  }) Assert.IsNull(LocaleRules.ForbiddenInstitution(text), "Yanlış alarm: " + text);
+ }
+
+ // DİKKAT: bu test yalnız `tr.json` metnini tarar. Görsellerin içine çizilmiş
+ // yazıyı göremez — `DeskReference.png`'de gerçek kurum adı ve arma gömülüdür
+ // (25 Eylül 2026'da bulundu). Görseller elle denetlenmelidir.
+ [Test]
+ public void ShippedText_UsesNoRealInstitutionName() {
+  var config = JsonUtility.FromJson<GameConfig>(Resources.Load<TextAsset>("Bube/config").text);
+  var locale = JsonUtility.FromJson<Locale>(Resources.Load<TextAsset>("Bube/Locales/" + config.locale).text);
+  var offenders = locale.entries
+   .Where(e => LocaleRules.ForbiddenInstitution(e.value) != null)
+   .Select(e => e.key + " → " + LocaleRules.ForbiddenInstitution(e.value)).ToArray();
+  Assert.IsEmpty(offenders, "Gerçek kurum adı geçen metinler:\n" + string.Join("\n", offenders));
+ }
+
  // Asıl içerik her koşuda bu yolla doğrulanır; tek çağrıda tüm vakalar gezilir.
  [Test]
  public void ShippedContent_HasNoProblems() {

@@ -126,3 +126,19 @@ Görüşme sırasında o kişiyle gerçekten kaydedilmiş soru-cevaplar, sağ s�
 ## CCTV video oynatıcısının yerleşimi (24 Eylül 2026)
 
 Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlığı ve döküm görünümü arka planda kalır. Ayrı kamera başlığı kaldırılır: kamera adı ve REC görüntü üstünde, Döküme dön sağ üstte, filigranı örten Geç sağ altta durur. Alt şeritte yalnız saatli kayıt açıklaması ve Oynat/Duraklat, Kare ileri, Başa al kontrolleri bulunur. Video kırpılmadan 16:9 oranında mümkün olan en geniş alana oturur; sahnedeki kişiler ve kanıt olabilecek ayrıntılar kesilmez. Bu yerleşim farklı yatay telefon oranlarında ve gerçek dokunmayla ayrıca doğrulanacaktır.
+
+## 25 Eylül 2026 — Gerçek resmî kurum adı kullanılmaz
+
+**Karar (kullanıcı):** Oyun içinde **hiçbir yerde** gerçek resmî kurum, kuruluş veya mevzuat adı kullanılmaz. Kurum kurgusaldır: **bube Polis / BPS**. Kurumsal gönderici "ilgili birim", "kurumsal değerlendirme" gibi genel ifadelerle anılır.
+
+**Metin durumu:** `tr.json`'daki 577 anahtarın hiçbirinde gerçek kurum adı yok; kural zaten uygulanıyordu. `LocaleRules` artık yasaklı ad listesini her koşumda denetliyor (`ValidationReportTests.RealInstitutionNames_AreRejected`). Liste tam sözcük eşleşmesine bakar, böylece "birim", "müdür", "kurumsal" gibi genel sözcükler yanlış alarm üretmez.
+
+**Açık ihlal — görsel:** `Assets/Bube/Resources/Bube/DeskReference.png` görselinin **içine çizilmiş** hâlde:
+
+1. Üst şerit: `İSTANBUL EMNİYET MÜDÜRLÜĞÜ` / `CİNAYET BÜRO AMİRLİĞİ` / `GERÇEKLER ŞEHRİ KORUR` + "POLİS" yazılı gerçek polis armasına benzer rozet.
+2. Masadaki terminal ekranı: `EMNİYET SİSTEMİ` + aynı arma.
+3. Dosya kapağı: aynı arma.
+
+`Desk()` üst %11'e opak bir şerit çizip `desk.brandLocation` yazdığı için **1. madde yalnız masa ekranında gizleniyor**; giriş klasörünün kaydığı sahnede ve `CaseOffer()` ekranında ham görsel açıkta. 2. ve 3. maddeler her ekranda görünür.
+
+**Çözüm görsel işidir** — metin denetimi bunu yakalayamaz. `DeskV2.png` depoda mevcut ve tertemiz (metin ve arma yok), ama kompozisyonu farklı: masa nesnelerinin yerleri `Desk()` içindeki yüzdelik `Hotspot` koordinatlarıyla eşleşmez.
