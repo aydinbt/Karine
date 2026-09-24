@@ -245,17 +245,6 @@ public sealed class CaseFlowTests {
    "Yeniden yüklenen kayıtla doğru rapor gönderilemedi.");
  }
 
- // Bilinen teknik borcu sabitler: şema sürümü değişince ilerleme sessizce silinir.
- // Faz 3'te göç yazılınca bu test kasıtlı olarak kırılacak ve güncellenecek.
- [Test] public void SaveWithUnknownVersion_IsSilentlyDiscarded_KnownDebt() {
-  var game = WalkToReportReady();
-  var progress = JsonUtility.FromJson<Progress>(JsonUtility.ToJson(game.State));
-  progress.version = 2;
-  var reloaded = new Investigation(Case001(), progress);
-  Assert.IsEmpty(reloaded.State.read, "Bugünkü davranış: bilinmeyen sürümde kayıt atılıyor.");
-  Assert.IsFalse(reloaded.State.caseAccepted);
- }
-
  [Test] public void WrongSuspect_IsScoredAsFalseAccusation() {
   var game = WalkToReportReady();
   Assert.IsTrue(game.SubmitFinalReport("elif", "spare", "recovery", "recovery", "mert_follow", "recovery"));

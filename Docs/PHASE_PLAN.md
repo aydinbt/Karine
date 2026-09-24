@@ -34,18 +34,18 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 ---
 
-## Faz 1 — Doğrulamayı otomatikleştir (2–3 oturum)
+## Faz 1 — Doğrulamayı otomatikleştir — **bitti (25 Eylül 2026)**
 
 **Neden:** `ProjectSetup.Validate()` (menü: `Bube/Validate Content`) zaten güçlü bir doğrulayıcı — sarkan referans, eksik metin/görsel, erişilebilirlik ve Dosya #001 rota simülasyonu dahil. Faz 0'da test koşucusuna bağlandı. Bu fazın işi onu **yeniden yazmak değil**, dört boşluğunu kapatmak ve ölçeklenebilir hâle getirmek.
 
-- [ ] **Doğrulayıcıyı vaka başına ayır.** Bugün `data.id=="case001"` blokları genel doğrulayıcının içine gömülü; üçüncü vakada bu dosya okunamaz olur. Genel kurallar ayrı, vakaya özel iddialar ayrı test sınıflarına.
-- [ ] **İlk hatada durmayı bırak.** Bugün `throw` ile ilk sorunda kesiliyor; tüm bulgular tek koşuda toplanıp raporlanmalı.
-- [ ] **Kapsanmayan dört kontrol:** `tr.json` yinelenen/ölü anahtar raporu; `nextCaseId` zincirinin geçerliliği; her vakada **tam olarak bir** `correct` şüpheli/yöntem/kanıt; kayıt şeması yuvarlak yolculuğu. *(Bu dördü 25 Eylül denetiminde elle kontrol edildi ve temiz çıktı — kalıcılaştırılacak olan o kontrollerdir.)*
-- [ ] **Kayıt yuvarlak yolculuğu testi.** `Progress`/`CareerProgress` → JSON → geri; bozuk/eksik/eski kayıtla yükleme.
-- [ ] **Soruşturma mantığı testleri.** `Investigation` üzerinde: önkoşul kapıları, `PinTimeline`, soru açılma koşulları, kapanış gereksinimleri. Dosya #001'in bilinen iki alternatif rotası test olarak sabitlenir.
-- [ ] Bu maddelerden geçen her ROADMAP satırı `[~]` işaretine çekilir.
+- [x] **Doğrulayıcı vaka başına ayrıldı.** `Assets/Bube/Editor/Validation/` altında: `ValidationReport` (bulgu toplayıcı), `ProjectRules`, `CaseChainRules`, `LocaleRules`, `CaseRules` (genel yapı), `WalkRules` (otomatik gezinti), `Case001Rules`, `Case002Rules`, `ContentValidator` (orkestratör). `ProjectSetup.cs` 285 → 37 satır. Vakaya özel kancalar kimlik → yöntem sözlüğünde; üçüncü vaka genel yolda hiçbir değişiklik gerektirmez.
+- [x] **İlk hatada durma kalktı.** `throw` yerine `ValidationReport`: sorunlar koşumu düşürür, notlar (ölü dil anahtarı, yedek portre) düşürmez. `ProjectSetup.Validate()` hâlâ tek `throw` atıyor ama içinde **tüm** bulguların özeti var. Bilerek bozulmuş bellek içi vakayla sekiz ayrı bulgunun aynı koşuda toplandığı test edildi.
+- [x] **Dört kontrol eklendi:** yinelenen dil anahtarı (sorun — `Locale.Get` ilki döndürdüğü için ikinci çeviri sessizce yok sayılır) ve ölü anahtar (not — kod bazı anahtarları birleştirerek ürettiği için kesin değil); `nextCaseId` zinciri (eksik hedef, kendine gönderme, döngü, erişilemeyen vaka); her sütunda **tam olarak bir** `correct`; kayıt şeması yuvarlak yolculuğu.
+- [x] **Kayıt yuvarlak yolculuğu testi.** `SaveSchemaTests` — `Progress`/`CareerProgress` tüm listeleriyle gidip geliyor; eksik, boş, başka vakaya ait ve bilinmeyen sürümlü kayıtla yükleme. Son madde Faz 3'ün göç borcunu sabitliyor.
+- [x] **Soruşturma mantığı testleri.** `CaseFlowTests` (12) + `TimelineAndGatingTests` (8): önkoşul kapıları, `PinTimeline`/`UnpinTimeline`, soru açılma koşulları, kapanış gereksinimleri, Dosya #001'in iki alternatif rotası.
+- [x] ROADMAP satırları çekildi.
 
-**Bitiş ölçütü:** Tek komutla çalışan test paketi yeşil; yeni vaka eklerken bozulan bir şey varsa test söylüyor.
+**Bitiş ölçütü karşılandı.** `Tools/run-tests.sh` tek komutla 42 testi koşuyor (40 EditMode + 2 PlayMode), hepsi geçiyor. Yeni vaka eklerken bozulan bir şey varsa genel kurallar söylüyor.
 
 ---
 
