@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-Dosya #001'in tüm soruşturma döngüsü **kodlanmış ve içerik doğrulamasından geçmiş** durumda; henüz **bir kez bile Play Mode'da baştan sona oynanmadı**. Faz 0 tamamlandı; **Faz 2 başladı** — performans düzeltmeleri girildi, oynanış betiği hazır ([PLAYTEST_001.md](PLAYTEST_001.md)).
+Dosya #001'in soruşturma **mantığı** artık uçtan uca otomatik testlerle doğrulanıyor ve `BubeApp` Play Mode'da hatasız açılıyor. Kalan boşluk **görsel/cihaz doğrulaması**: oyun hâlâ bir insan tarafından baştan sona oynanmadı ve hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md)).
 
 ## Kimlik
 
@@ -18,7 +18,7 @@ Dosya #001'in tüm soruşturma döngüsü **kodlanmış ve içerik doğrulaması
 | Aşama | Durum |
 | --- | --- |
 | **Faz 0 — Zemin** | **Bitti ve doğrulandı** |
-| **Faz 2 — Gerçekten oyna** | **Başladı** — perf düzeltmeleri kodlandı `[~]`, oynanış bekliyor |
+| **Faz 2 — Gerçekten oyna** | **İlerliyor** — perf düzeltmeleri + 15 yeni otomatik test; elle oynanış ve cihaz adımı açık |
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | Kod ~tamam, **Play Mode doğrulaması açık** |
 | M2 — Soruşturmayı oyuna çevirme | Kod büyük ölçüde tamam, doğrulama açık |
@@ -35,7 +35,7 @@ Dosya #001'in tüm soruşturma döngüsü **kodlanmış ve içerik doğrulaması
 - Türkçe metin: 577 anahtar, eksik 0, yinelenen 0, ölü ~10
 - Diller: 1 (tr)
 - Assembly: 3 (`Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode`) — hepsi 0 hatayla derleniyor
-- EditMode testi: 8 (3 duman + 5 `Locale.Get` testi; asıl kapsam Faz 1)
+- Test: **23, hepsi geçiyor** — 21 EditMode (8 içerik/metin + 13 Dosya #001 akış testi) + 2 PlayMode duman testi. Tek komut: `Tools/run-tests.sh`
 
 ## Faz 0'da yapılanlar (25 Eylül 2026)
 
@@ -56,8 +56,8 @@ Dosya #001'in tüm soruşturma döngüsü **kodlanmış ve içerik doğrulaması
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. **Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor (Faz 3).
 4. ~~**Performans:** `Update()` her karede tam vaka JSON'u ayrıştırıyor; `Locale.Get` doğrusal arama yapıyor.~~ **Kodlandı (Faz 2), Play Mode'da gözlenmedi `[~]`** — beş düzeltme: görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`.
-5. **Unity batchmode lisansı bu makinede çalışmıyor** — testler yalnız Editor'dan koşturulabiliyor; ileride CI kurulacaksa bu çözülmeli.
+5. ~~**Unity batchmode lisansı bu makinede çalışmıyor.**~~ **Yanlış teşhisti, düzeltildi.** Testler `Tools/run-tests.sh` ile komut satırından koşuyor (EditMode + PlayMode). Gereken tek şey Unity Hub'ın açık olması. Ayrıntı: [Architecture.md](Architecture.md) → "Testleri başsız koşmak".
 
 ## Sıradaki iş
 
-[PLAYTEST_001.md](PLAYTEST_001.md) betiğini Unity Play Mode'da baştan sona koş, sonra bir Android telefonda yinele. Bu benim yapamadığım tek adım: Play Mode Editor gerektiriyor ve bu makinede batchmode lisansı bağlanmıyor. Betikteki sonuç sütunları doldurulunca `[~]` satırları `[x]` olur ve M1/M2 kapanabilir.
+[PLAYTEST_001.md](PLAYTEST_001.md) §2–4'ü elle koş: oyunu bir kez baştan sona oyna, sonra bir Android telefonda yinele. Betikteki otomatikleşmiş satırlar işaretli; kalanlar gözle doğrulanacak şeyler — video, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik. Bunlar doldurulunca M1/M2 kapanabilir.

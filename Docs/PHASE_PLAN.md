@@ -61,14 +61,16 @@ Bundan sonra `ROADMAP.md`'de ve burada:
   - [~] Gelen kutusu rozeti yalnız sayı ya da öge değiştiğinde yazılıyor.
   - [~] LINQ yüklemleri (`Pending`, `IncomingDocument`) bir kez kurulan temsilcilere alındı — kare başına `Func` ayırması kalktı.
   - [~] `Locale.Get` `Dictionary` ile indeksli; ilk-kazanır ve `[anahtar]` davranışı beş EditMode testiyle korunuyor.
-- [ ] **Uçtan uca oynanış:** betik hazır → [PLAYTEST_001.md](PLAYTEST_001.md). yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
+  - [x] Güvenli alan kenar boşlukları ve `BubeApp` açılışı **PlayMode duman testiyle Unity'de gözlendi**.
+- [x] **Otomatik test altyapısı:** `Tools/run-tests.sh` EditMode + PlayMode testlerini komut satırından koşuyor (23 test, hepsi geçiyor). Dosya #001'in kilit zinciri, iki rotası, yanlış kaynak sunma, talep gecikmesi, kayıt gidiş-dönüşü ve rapor değerlendirmesinin üç sonucu otomatik.
+- [ ] **Elle uçtan uca oynanış:** betik hazır → [PLAYTEST_001.md](PLAYTEST_001.md). yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
 - [ ] **Ters sıra ve çıkmaz avı:** her ekrandan masaya dönüş, yanlış kaynak sunma, yarıda bırakıp çıkma, uygulamayı kapatıp açma.
 - [ ] **Gerçek cihaz:** bir Android telefon yeter. 16:9 / 19.5:9 / 20:9, güvenli alan, 48 birim dokunma hedefleri, Türkçe karakterler, klavye, arka plana alma.
 - [ ] Doğrulanan her ROADMAP satırı `[~]` → `[x]`.
 
 **Bitiş ölçütü:** Bir telefonda, baştan sona, kayıt kaybetmeden, okunabilir şekilde oynanan bir Dosya #001 kaydı (video veya ekran görüntüsü serisi).
 
-**Kim ne yapıyor:** kod ve betik hazırlanabiliyor; **Play Mode ve cihaz adımı kullanıcıya ait**, çünkü bu makinede Unity batchmode lisansı bağlanmıyor ve Play Mode Editor gerektiriyor.
+**Kim ne yapıyor:** mantık otomatik testlerle kapatıldı (`Tools/run-tests.sh`, PlayMode dahil). **Kalan iş gözle doğrulama:** video, düzen, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik ve oyunun bir insan tarafından bir kez baştan sona oynanması. Otomatik test mantığın tutarlı olduğunu söyler, oyunun iyi olduğunu söylemez.
 
 ---
 

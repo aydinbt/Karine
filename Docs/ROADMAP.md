@@ -5,6 +5,7 @@
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 23 test)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -31,7 +32,7 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [ ] Android keystore yok → imzalı **mağaza** sürümü üretilemez. *(Faz 5'e taşındı: cihaza geliştirme derlemesi kurmak için gerekmiyor, Unity hata ayıklama anahtarıyla imzalar. Keystore dosyaları `.gitignore`'da; parola kullanıcıya ait.)*
 - [x] `com.unity.test-framework` eklendi; `Bube.Runtime` / `Bube.Editor` / `Bube.Tests.EditMode` asmdef'leri kuruldu; var olan `Bube/Validate Content` doğrulayıcısı artık EditMode testinden çağrılıyor. **Testler Unity Editor'da koşturuldu ve geçti** (`BUBE VALIDATION PASSED`). (Faz 0)
 - [ ] Kayıt şeması göçü yok; `version != 1` olduğunda ilerleme **sessizce siliniyor**.
-- [~] `Update()` her karede tam vaka JSON'u ayrıştırıyordu ve `Locale.Get` 577 girişte doğrusal arama yapıyordu. **Faz 2'de beş düzeltme kodlandı** (görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`); üç assembly sıfır hata/uyarı ile derlendi ve `Locale.Get` davranışı beş EditMode testiyle sabitlendi. **Play Mode'da gözlenmedi** → `Docs/PLAYTEST_001.md` §5.
+- [~] `Update()` her karede tam vaka JSON'u ayrıştırıyordu ve `Locale.Get` 577 girişte doğrusal arama yapıyordu. **Faz 2'de beş düzeltme kodlandı** (görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`); üç assembly sıfır hata/uyarı ile derlendi ve `Locale.Get` davranışı beş EditMode testiyle sabitlendi. Güvenli alan yazımları ve açılış **PlayMode duman testiyle gözlendi** `[x]`; görev önbelleği, rozet yazımları ve temsilciler yalnız statik olarak doğrulandı `[~]` → `Docs/PLAYTEST_001.md` §5.
 - [x] Oyun adı **Karine** olarak belirlendi ve `config.json`, `productName`, paket kimliği ile `about.body`'ye uygulandı. (Faz 0)
 
 ## Her vaka için değişmeyen kabul kuralı

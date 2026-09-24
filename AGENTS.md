@@ -33,8 +33,17 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 **Sıradaki darboğaz:** Dosya #001 bugüne kadar bir kez bile Play Mode'da baştan sona oynanmadı; **bu adım kullanıcıya ait**, Play Mode Editor gerektiriyor. M1 ve M2'nin bitiş ölçütleri buna bağlıdır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
 
-**Bu makinede Unity batchmode lisans istemcisi bağlanmıyor** (`LicenseClient-<kullanıcı>` kanalı açılmıyor, 60 sn timeout döngüsü). `-runTests` ile komut satırından test koşturulamaz; testler Unity Editor'da `Window > General > Test Runner` üzerinden çalıştırılır.
+## Testleri koşmak
 
-**Ama derleme doğrulaması başsız yapılabilir** — lisans gerektirmiyor. Unity'nin gömülü Roslyn'i + Bee yanıt dosyaları; komut `Docs/Architecture.md` → "Bu makinede başsız derleme doğrulaması". Her kod değişikliğinden sonra bu koşulur. Yine de en fazla `[~]` hak eder.
+```bash
+Tools/run-tests.sh            # EditMode + PlayMode
+Tools/run-tests.sh EditMode   # yalnız biri
+```
+
+Unity Hub'ın (ya da Editor'ün) açık olması gerekir: batchmode kendi lisans istemcisini kuramıyor, betik çalışan Unity süreçlerinden oturum kanalını okuyup ona bağlanıyor. Proje geçici bir kopyaya alınır, böylece Editor açıkken de koşar.
+
+**Önceki bir notu düzeltmek gerekiyor:** "bu makinede batchmode lisansı çalışmıyor" iddiası yanlıştı. İki ayrı hata vardı — varsayılan lisans kanalı adı aranıyordu (Hub oturum kanalı geçirilmeli) ve `-runTests` ile `-quit` birlikte kullanılıyordu (`-quit`, testler başlamadan Unity'yi kapatır ve sonuç dosyası hiç yazılmaz).
+
+Salt derleme kontrolü lisans bile gerektirmez: `Docs/Architecture.md` → "Başsız derleme doğrulaması".
 
 Ayrıntı ve teknik borç: `Docs/AUDIT_2026-09-25.md`.

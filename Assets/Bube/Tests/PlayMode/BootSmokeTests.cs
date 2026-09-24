@@ -1,0 +1,70 @@
+using System.Collections;
+using System.Collections.Generic;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.TestTools;
+using UnityEngine.UIElements;
+
+namespace Bube.Tests {
+
+// Play Mode duman testi: BubeApp gerçekten açılıyor mu, arayüz kuruluyor mu,
+// Update() kare başına hata üretmeden koşuyor mu. Faz 2 perf düzeltmeleri
+// Update() ve kök ögenin stil yazımlarına dokunduğu için burası onları da yakalar.
+// Görsel doğrulama (video, düzen, glif, dokunma hedefi) bu testin kapsamı dışında.
+public sealed class BootSmokeTests {
+
+ readonly List<string> errors = new List<string>();
+
+ void OnLog(string message, string stack, LogType type) {
+  if (type == LogType.Error || type == LogType.Exception || type == LogType.Assert)
+   errors.Add(type + ": " + message);
+ }
+
+ [SetUp] public void Setup() { errors.Clear(); Application.logMessageReceived += OnLog; }
+ [TearDown] public void Teardown() { Application.logMessageReceived -= OnLog; }
+
+ [UnityTest] public IEnumerator BootScene_BuildsUiWithoutErrors() {
+  SceneManager.LoadScene("BootScene", LoadSceneMode.Single);
+  yield return null;
+  for (int frame = 0; frame < 30; frame++) yield return null;
+
+  var app = Object.FindFirstObjectByType<BubeApp>();
+  Assert.IsNotNull(app, "BubeApp sahnede bulunamadı.");
+  // Kalıcılığı doğrudan sına: sahne değişince aynı örnek ayakta kalmalı.
+  int id = app.GetInstanceID();
+  SceneManager.LoadScene("MainMenuScene", LoadSceneMode.Single);
+  for (int frame = 0; frame < 10; frame++) yield return null;
+  var survivor = Object.FindFirstObjectByType<BubeApp>();
+  Assert.IsNotNull(survivor, "BubeApp sahne geçişinde yok oldu.");
+  Assert.AreEqual(id, survivor.GetInstanceID(),
+   "BubeApp sahne başına yeniden kuruluyor — DontDestroyOnLoad beklenir.");
+  Assert.AreEqual(1, Object.FindObjectsByType<BubeApp>(FindObjectsSortMode.None).Length,
+   "Birden fazla BubeApp örneği oluştu.");
+  app = survivor;
+
+  var doc = app.GetComponent<UIDocument>();
+  Assert.IsNotNull(doc, "UIDocument kurulmadı.");
+  Assert.IsNotNull(doc.rootVisualElement, "Kök görsel öge yok.");
+  Assert.Greater(doc.rootVisualElement.childCount, 0, "Arayüz hiç öge üretmedi.");
+
+  CollectionAssert.IsEmpty(errors, "Açılışta hata/özel durum oluştu: " + string.Join(" | ", errors));
+ }
+
+ // Faz 2: güvenli alan yazımları artık koşullu. Kök ögenin kenar boşlukları
+ // yine de kurulmuş olmalı — koşul yanlışsa burada çıplak kalırlar.
+ [UnityTest] public IEnumerator SafeAreaInsets_AreAppliedToRoot() {
+  SceneManager.LoadScene("BootScene", LoadSceneMode.Single);
+  for (int frame = 0; frame < 30; frame++) yield return null;
+
+  var doc = Object.FindFirstObjectByType<BubeApp>().GetComponent<UIDocument>();
+  var root = doc.rootVisualElement;
+  Assert.AreEqual(StyleKeyword.Undefined, root.style.left.keyword,
+   "Güvenli alan sol kenarı yazılmamış — koşullu yazım hiç tetiklenmemiş olabilir.");
+  Assert.AreEqual(LengthUnit.Percent, root.style.left.value.unit);
+  Assert.AreEqual(LengthUnit.Percent, root.style.bottom.value.unit);
+
+  CollectionAssert.IsEmpty(errors, "Hata oluştu: " + string.Join(" | ", errors));
+ }
+}
+}
