@@ -6,7 +6,13 @@ Oyunun mağazada görünecek adı **Karine** olarak karara bağlandı. Karine, h
 
 `bube` çalışma adı olarak sona erdi. Stüdyo adı **bubeGames**, oyun içi kurmaca kurum adı **bube Police / bube Polis / BPS** olduğu gibi kalır — bunlar oyun adı değil, dünya kurgusunun parçasıdır. Arayüzdeki "bube Polis" metinleri değişmez.
 
-Uygulanan yerler: `config.json` `title`, `ProjectSettings` `productName`, `applicationIdentifier` (`com.bubeGames.karine`), `tr.json` `about.body`. Depo: `github.com/aydinbt/Karine`. Aday havuzu, eleme ölçütleri ve müsaitlik kontrol listesi [NAMING.md](NAMING.md) içinde saklanır.
+Uygulanan yerler: `config.json` `title`, `ProjectSettings` `productName`, `applicationIdentifier` (`com.bubedigital.karine`), `tr.json` `about.body`. Depo: `github.com/aydinbt/Karine`; çalışma klasörü `bubeGame/karine-mobile`. Aday havuzu, eleme ölçütleri ve müsaitlik kontrol listesi [NAMING.md](NAMING.md) içinde saklanır.
+
+### Oyun içi kurum adı değişmiyor (25 Eylül 2026)
+
+Oyun adının Karine olması üzerine, oyun içindeki 16 "bube Polis / bube Police" metninin de Karine'ye çevrilmesi değerlendirildi ve **çevrilmemesine karar verildi**. Kurmaca kurum **bube Polis / bube Police**, terminal **BPS — bube Police System** olduğu gibi kalır.
+
+Gerekçe: Karine soyut bir hukuk terimidir ("dolaylı kanıttan çıkarılan sonuç"); oyun başlığı olarak tezi taşır ama kurum adı olarak kuruluş hissi vermez. Oyun başlığının kurumu adlandırmak zorunda olmadığı kabul edildi. Kurum adı sorusu kapanmış değildir; ileride yeniden açılırsa bu madde güncellenir.
 
 ## Dünya açılışları ve yedi ülke (24 Eylül 2026)
 

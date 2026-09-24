@@ -1,4 +1,4 @@
-# Karine (bubeGame/dedektif) — project context
+# Karine — project context
 
 ## Önce oku
 
@@ -27,4 +27,10 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 ## Bilinen durum (25 Eylül 2026)
 
-Depo git'te izlenmiyor (0 takipli dosya) ve mobil derleme ayarları eksik. Oyun adı belirlenmedi (`Docs/NAMING.md`). Ayrıntı: `Docs/AUDIT_2026-09-25.md`.
+**Faz 0 bitti.** Oyun adı **Karine** (`Docs/NAMING.md`); depo `github.com/aydinbt/Karine`, çalışma klasörü `bubeGame/karine-mobile`; paket kimliği `com.bubedigital.karine`; IL2CPP + Android target SDK 35; `com.unity.test-framework` ve üç asmdef kurulu; EditMode testleri Editor'da koşturuldu ve geçti.
+
+**Sıradaki darboğaz:** Dosya #001 bugüne kadar bir kez bile Play Mode'da baştan sona oynanmadı. `Docs/PHASE_PLAN.md` Faz 2 bu işi tanımlar; M1 ve M2'nin bitiş ölçütleri buna bağlıdır.
+
+**Bu makinede Unity batchmode lisans istemcisi bağlanmıyor** (`LicenseClient-<kullanıcı>` kanalı açılmıyor, 60 sn timeout döngüsü). `-runTests` ile komut satırından test koşturulamaz; testler Unity Editor'da `Window > General > Test Runner` üzerinden çalıştırılır.
+
+Ayrıntı ve teknik borç: `Docs/AUDIT_2026-09-25.md`.

@@ -19,16 +19,18 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 ---
 
-## Faz 0 — Zemini sabitle (1–2 oturum)
+## Faz 0 — Zemini sabitle — **BİTTİ (25 Eylül 2026)**
 
 **Neden önce bu:** Bundan sonraki her iş, geri alınabilir ve tekrar çalıştırılabilir bir zemin olmadan risk üretir.
 
-- [ ] **İsim kararı.** Mağazada çakışmayan, dedektif çağrışımlı ad. Aday listesi ve eleme ölçütleri: [NAMING.md](NAMING.md). Karar verilince `config.json` `title`, `ProjectSettings` `productName` ve paket kimliği aynı anda ayarlanır.
-- [ ] **Depoyu izlemeye al.** `dedektif/` commit edilir, `origin/main`'e push edilir. Video/CCTV binary'leri için Git LFS kararı verilir (16 MB; LFS önerilir). Depo adı isimden bağımsızdır, sonradan değiştirilebilir — isim kararı bunu beklemek zorunda değil.
-- [ ] **Unity Test Framework paketi** (`com.unity.test-framework`) eklenir.
-- [ ] **Assembly tanımları:** `Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode`. `Investigation.cs` ve `CaseSearch.cs` zaten Unity'den bağımsız — test yüzeyi hazır.
+- [x] **İsim kararı: Karine.** `config.json` `title`, `productName`, `about.body` güncellendi. Oyun içi kurmaca kurum adı `bube Polis` / `BPS` bilinçli olarak korundu ([DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md)).
+- [x] **Depo izlemeye alındı.** `github.com/aydinbt/Karine`, `main` dalı; `.mp4` ve `.ttf` **Git LFS**'te (7 nesne, 17 MB). Çalışma klasörü `bubeGame/karine-mobile`.
+- [x] **Mobil derleme engelleri kapandı.** `applicationIdentifier` = `com.bubedigital.karine`; `scriptingBackend` = IL2CPP; API seviyesi .NET Standard 2.1; `AndroidTargetSdkVersion` = 35.
+- [x] **Unity Test Framework** 1.4.6 eklendi.
+- [x] **Assembly tanımları:** `Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode` — üçü de sıfır CS hatasıyla derleniyor.
+- [x] **EditMode testleri Editor'da koşturuldu ve geçti** (`BUBE VALIDATION PASSED`).
 
-**Bitiş ölçütü:** Temiz bir makinede depo klonlanır, Unity açılır, proje derlenir.
+**Bitiş ölçütü karşılandı.** Kalan tek Faz 0 kalıntısı: Android keystore (Faz 2'ye taşındı; keystore desenleri `.gitignore`'da).
 
 ---
 

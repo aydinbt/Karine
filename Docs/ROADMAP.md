@@ -24,11 +24,11 @@
 Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ayrıntı: `AUDIT_2026-09-25.md` A1–A3.
 
 - [x] Depo git'e alındı ve `github.com/aydinbt/Karine`'e bağlandı; video/font dosyaları Git LFS'te. (Faz 0)
-- [x] `applicationIdentifier` = `com.bubeGames.karine` (Android/iPhone/Standalone). (Faz 0)
+- [x] `applicationIdentifier` = `com.bubedigital.karine` (Android/iPhone/Standalone). (Faz 0)
 - [x] `scriptingBackend` = IL2CPP (Android/iPhone/Standalone); API seviyesi .NET Standard 2.1. (Faz 0)
 - [x] `AndroidTargetSdkVersion` = 35 olarak sabitlendi. (Faz 0)
 - [ ] Android keystore yok → imzalı sürüm üretilemez. *(Faz 2'de üretilecek; keystore dosyaları `.gitignore`'da.)*
-- [x] `com.unity.test-framework` eklendi; `Bube.Runtime` / `Bube.Editor` / `Bube.Tests.EditMode` asmdef'leri kuruldu; var olan `Bube/Validate Content` doğrulayıcısı artık EditMode testinden çağrılıyor. (Faz 0)
+- [x] `com.unity.test-framework` eklendi; `Bube.Runtime` / `Bube.Editor` / `Bube.Tests.EditMode` asmdef'leri kuruldu; var olan `Bube/Validate Content` doğrulayıcısı artık EditMode testinden çağrılıyor. **Testler Unity Editor'da koşturuldu ve geçti** (`BUBE VALIDATION PASSED`). (Faz 0)
 - [ ] Kayıt şeması göçü yok; `version != 1` olduğunda ilerleme **sessizce siliniyor**.
 - [ ] `Update()` her karede tam vaka JSON'u ayrıştırıyor (`AvailableAssignment()`), `Locale.Get` 577 girişte doğrusal arama yapıyor → mobil performans riski.
 - [x] Oyun adı **Karine** olarak belirlendi ve `config.json`, `productName`, paket kimliği ile `about.body`'ye uygulandı. (Faz 0)

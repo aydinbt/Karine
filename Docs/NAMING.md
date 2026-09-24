@@ -59,7 +59,7 @@ Ana ad + vaka numarası, seriye açık bir yapı kurar: **`Karine — Dosya #001
 Ad tek bir yerde değil, **dört yerde birden** değişir:
 1. `Assets/Bube/Resources/Bube/config.json` → `title`
 2. `ProjectSettings/ProjectSettings.asset` → `productName`
-3. `ProjectSettings` → `applicationIdentifier` (ör. `com.bubeGames.<ad>`)
+3. `ProjectSettings` → `applicationIdentifier` (ör. `com.bubedigital.<ad>`)
 4. `tr.json` içindeki oyuncuya görünen başlık anahtarları
 
-Depo adı (`bubeGame/dedektif`) ve stüdyo adı (`bubeGames`) **değişmek zorunda değildir**. Depo adı istenirse GitHub üzerinden tek tıkla sonradan değiştirilebilir — bu yüzden **isim kararı, projeyi git'e almayı beklememeli** (bkz. [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md) A1).
+Stüdyo adı (`bubeGames`) ve oyun içi kurmaca kurum adı (`bube Polis` / `BPS`) **değişmez** — 25 Eylül 2026 kararı, bkz. [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md). Çalışma klasörü `bubeGame/karine-mobile`, depo `github.com/aydinbt/Karine`.
