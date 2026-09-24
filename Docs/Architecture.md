@@ -49,11 +49,39 @@ Vaka verisi bütünlüğü (25 Eylül 2026 denetimi): case001 ve case002'de **sa
 
 Ayrıntı ve kanıt: [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md).
 
-1. `Update()` her karede `RefreshInboxBadge()` → `AvailableAssignment()` → `Resources.Load` + `JsonUtility.FromJson<CaseData>` çalıştırır. Vaka kapandıktan sonra **her karede tam vaka JSON'u ayrıştırılır**.
-2. `Locale.Get` 577 girişlik dizide `FirstOrDefault` ile doğrusal arama yapar; sayfa başına yüzlerce çağrı.
-3. `BubeApp.cs` 2788 satırlık tek sınıf.
-4. Kayıt şeması göçü yok.
-5. Android/iOS için `applicationIdentifier` boş, `scriptingBackend` seçilmemiş, `AndroidTargetSdkVersion: 0` — mobil derleme bugün yapılamaz.
+1. ~~`Update()` her karede tam vaka JSON'u ayrıştırır.~~ **Düzeltildi (Faz 2, 25 Eylül 2026).** Aşağıya bakın.
+2. ~~`Locale.Get` doğrusal arama yapar.~~ **Düzeltildi (Faz 2).** Aşağıya bakın.
+3. `BubeApp.cs` ~2800 satırlık tek sınıf. (Faz 4)
+4. Kayıt şeması göçü yok. (Faz 3)
+5. ~~Android/iOS derleme ayarları eksik.~~ **Düzeltildi (Faz 0).**
+
+## Kare başına iş — Faz 2 düzeltmeleri (25 Eylül 2026)
+
+`Update()` her karede koşar ve tek kalıcı `MonoBehaviour` olduğu için her ekranda etkindir. Beş düzeltme girildi; hiçbiri davranış değiştirmez, yalnız yazma/ayırma sıklığını düşürür.
+
+- **Görev önbelleği.** `AvailableAssignment()` sonucu `nextCaseId` başına bir kez ayrıştırılır (`assignmentCacheId` / `assignmentCache`). `Resources` içeriği çalışma anında değişmediği için önbellek eskimez; `null` sonuç da önbelleklenir.
+- **Güvenli alan yazımları.** Dört `root.style.*` yazımı yalnız `Screen.safeArea`, ekran ölçüsü **ya da kök öge** değiştiğinde yapılır. Kök öge sahne başına yeniden kurulduğu için referans karşılaştırması şart — yoksa sahne geçişinde kenar boşlukları kaybolurdu.
+- **Rozet yazımları.** `RefreshInboxBadge()` sayı ve rozet ögesi aynıysa hiçbir şey yazmaz. Rozet yeniden kurulduğunda öge referansı değişir, o yüzden sayı aynı olsa da yeniden yazılır — çağıranların hiçbiri değişmedi.
+- **Yüklem temsilcileri.** `nodes.Count(game.IncomingDocument)` gibi çağrılar kare başına yeni `Func<Node,bool>` ayırıyordu. Temsilciler `Awake()`'te bir kez kurulur ve `game` alanını okur, bu yüzden `game` yeniden kurulduğunda (yeni kariyer, sıradaki vaka) geçerli kalır.
+- **Sahne adı.** `SceneManager.GetActiveScene().name` kare başına iki kez okunuyordu; artık en fazla bir kez, o da gelen faks/belge varken.
+
+`Locale.Get` artık tembel kurulan `Dictionary` kullanır (`Investigation.cs`). `[NonSerialized]` alan `JsonUtility` ile çakışmaz. Eski `FirstOrDefault` davranışı bilinçli korundu: yinelenen anahtarda **ilk giriş kazanır**, eksik anahtar ve `null` değer `[anahtar]` döndürür. Beşi `Locale.Get` için olmak üzere sekiz EditMode testi bunu sabitler.
+
+## Bu makinede başsız derleme doğrulaması
+
+Unity batchmode lisans istemcisi bağlanmadığı için `-runTests` çalışmıyor, ama **derleme doğrulaması lisans gerektirmiyor**. Unity'nin kendi Roslyn'i ve Bee'nin ürettiği yanıt dosyaları doğrudan kullanılabilir:
+
+```bash
+S=/tmp/karine-compile; mkdir -p $S
+D="/Applications/Unity/Hub/Editor/6000.3.17f1/Unity.app/Contents/Resources/Scripting"
+for a in Bube.Runtime Bube.Editor Bube.Tests.EditMode; do
+  R=$(find Library/Bee/artifacts -name "$a.rsp" | head -1)
+  sed -e "s#^-out:.*#-out:\"$S/$a.dll\"#" -e "s#^-refout:.*#-refout:\"$S/$a.ref.dll\"#" "$R" > $S/$a.rsp
+  "$D/NetCoreRuntime/dotnet" "$D/DotNetSdkRoslyn/csc.dll" "@$S/$a.rsp"
+done
+```
+
+`-out`/`-refout` yönlendirilmezse çıktı `Library/Bee/artifacts` içine yazılır ve Unity'nin önbelleğine dokunur — her zaman yönlendirin. Bu yol **yalnız derlemeyi** doğrular; test koşumu ve Play Mode hâlâ Editor gerektirir, bu yüzden bir madde `[x]` olmaz.
 
 ## Yeni vaka ekleme
 

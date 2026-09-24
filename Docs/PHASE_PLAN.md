@@ -53,17 +53,22 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 **Neden:** Dosya #001 bugüne kadar **bir kez bile** baştan sona oynanmadı. M1 ve M2'nin bitiş ölçütleri tek tek bu adıma bağlı. Bu faz bitene kadar hiçbir yeni özellik başlamamalı.
 
-- [ ] **Faz 0 mobil derleme ayarları:** `applicationIdentifier` (ör. `com.bubeGames.<ad>`), Android/iOS için **IL2CPP**, `AndroidTargetSdkVersion` sabitlenir (ARM64-only ile Mono desteklenmez), geliştirme keystore'u üretilir.
-- [ ] **Perf düzeltmeleri (Play Mode'a girmeden önce):**
-  - `AvailableAssignment()` sonucunu önbelleğe al — bugün her karede tam vaka JSON'u ayrıştırılıyor.
-  - `Update()` içindeki LINQ `Count` çağrılarını ve koşulsuz `style.*` yazımlarını olaya bağla.
-  - `Locale`'i `Dictionary` ile indeksle.
-- [ ] **Uçtan uca oynanış:** yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
+- [x] **Mobil derleme ayarları** Faz 0'da bitti: `com.bubedigital.karine`, IL2CPP, `AndroidTargetSdkVersion` 35.
+  - **Keystore maddesi Faz 5'e taşındı.** Cihaza geliştirme derlemesi kurmak için özel keystore gerekmez — Unity hata ayıklama anahtarıyla imzalar. Kendi keystore'u yalnız mağaza sürümü için gerekir ve parolası kullanıcıya aittir.
+- [~] **Perf düzeltmeleri (Play Mode'a girmeden önce)** — kodlandı, üç assembly sıfır hata/uyarı ile derlendi, **Play Mode'da gözlenmedi:**
+  - [~] `AvailableAssignment()` sonucu vaka kimliği başına önbelleğe alındı — kare başına tam vaka JSON'u ayrıştırması kalktı.
+  - [~] Güvenli alan `style.*` yazımları ekran ölçüsü/güvenli alan/kök öge değişimine bağlandı.
+  - [~] Gelen kutusu rozeti yalnız sayı ya da öge değiştiğinde yazılıyor.
+  - [~] LINQ yüklemleri (`Pending`, `IncomingDocument`) bir kez kurulan temsilcilere alındı — kare başına `Func` ayırması kalktı.
+  - [~] `Locale.Get` `Dictionary` ile indeksli; ilk-kazanır ve `[anahtar]` davranışı beş EditMode testiyle korunuyor.
+- [ ] **Uçtan uca oynanış:** betik hazır → [PLAYTEST_001.md](PLAYTEST_001.md). yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
 - [ ] **Ters sıra ve çıkmaz avı:** her ekrandan masaya dönüş, yanlış kaynak sunma, yarıda bırakıp çıkma, uygulamayı kapatıp açma.
 - [ ] **Gerçek cihaz:** bir Android telefon yeter. 16:9 / 19.5:9 / 20:9, güvenli alan, 48 birim dokunma hedefleri, Türkçe karakterler, klavye, arka plana alma.
 - [ ] Doğrulanan her ROADMAP satırı `[~]` → `[x]`.
 
 **Bitiş ölçütü:** Bir telefonda, baştan sona, kayıt kaybetmeden, okunabilir şekilde oynanan bir Dosya #001 kaydı (video veya ekran görüntüsü serisi).
+
+**Kim ne yapıyor:** kod ve betik hazırlanabiliyor; **Play Mode ve cihaz adımı kullanıcıya ait**, çünkü bu makinede Unity batchmode lisansı bağlanmıyor ve Play Mode Editor gerektiriyor.
 
 ---
 

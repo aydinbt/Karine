@@ -51,6 +51,17 @@ public sealed class BubeApp : MonoBehaviour {
  bool showingInvestigationRequests;
  int lastPendingCount=-1;
  int lastIncomingDocumentCount=-1;
+ // Yüklem temsilcileri bir kez kurulur; her karede `game.IncomingDocument` geçmek kare başına Func ayırır.
+ // Lambda'lar `game` alanını okur, örnek yeniden kurulduğunda da geçerli kalır.
+ Func<Node,bool> pendingPredicate;
+ Func<Node,bool> incomingDocumentPredicate;
+ string assignmentCacheId;
+ CaseData assignmentCache;
+ int lastInboxBadgeCount=-1;
+ VisualElement lastBadgedElement;
+ VisualElement lastSafeAreaRoot;
+ Rect lastSafeArea;
+ int lastSafeAreaWidth,lastSafeAreaHeight;
  VisualElement faxNotice;
  VisualElement documentNotice;
  VisualElement inboxBadge;
@@ -83,12 +94,18 @@ public sealed class BubeApp : MonoBehaviour {
  string CareerSavePath => Path.Combine(Application.persistentDataPath,"bube-career-v1.json");
  bool HasIncomingFax => game.HasIncomingFax;
  bool HasIncomingDocument => game.HasIncomingDocument;
+ // Resources içeriği çalışma anında değişmez; sonuç vaka kimliği başına bir kez ayrıştırılır.
+ // Önbellek yoksa Update() her karede tam vaka JSON'unu ayrıştırır.
  CaseData AvailableAssignment() {
   if(!game.State.closed || game.Career.retired || string.IsNullOrEmpty(game.Data.nextCaseId))return null;
-  var asset=Resources.Load<TextAsset>("Bube/Cases/"+game.Data.nextCaseId);
-  if(asset==null)return null;
-  var data=JsonUtility.FromJson<CaseData>(asset.text);
-  return data!=null && !data.draft?data:null;
+  var nextId=game.Data.nextCaseId;
+  if(assignmentCacheId!=nextId) {
+   assignmentCacheId=nextId;
+   var asset=Resources.Load<TextAsset>("Bube/Cases/"+nextId);
+   var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
+   assignmentCache=data!=null && !data.draft?data:null;
+  }
+  return assignmentCache;
  }
  string T(string key) => locale.Get(key);
  string CaseText(string suffix,string fallbackKey) {
@@ -119,6 +136,8 @@ public sealed class BubeApp : MonoBehaviour {
   Progress progress=null;
   try { if(File.Exists(CaseSavePath(caseId))) progress=JsonUtility.FromJson<Progress>(File.ReadAllText(CaseSavePath(caseId))); }
   catch(Exception e) { Debug.LogWarning("Save could not be loaded: "+e.Message); }
+  pendingPredicate=n=>game.Pending(n);
+  incomingDocumentPredicate=n=>game.IncomingDocument(n);
   game=new Investigation(caseData,progress,career,careerRules);
   game.Career.activeCaseId=caseId;
   instantText=PlayerPrefs.GetInt("bube.instantText",0)==1;
@@ -164,27 +183,37 @@ public sealed class BubeApp : MonoBehaviour {
    }
   }
   if(showingInterviewList) {
-   int pending=game.Data.nodes.Count(n=>game.Pending(n));
+   int pending=game.Data.nodes.Count(pendingPredicate);
    if(pending!=lastPendingCount) { lastPendingCount=pending; InterviewRequests(false); }
   }
   if(showingInvestigationRequests) {
-   int incoming=game.Data.nodes.Count(game.IncomingDocument);
+   int incoming=game.Data.nodes.Count(incomingDocumentPredicate);
    if(incoming!=lastIncomingDocumentCount) { lastIncomingDocumentCount=incoming; InvestigationRequests(false); }
   }
   var safe=Screen.safeArea;
   if(Screen.width<=0 || Screen.height<=0)return;
-  root.style.left=Length.Percent(safe.xMin/Screen.width*100);
-  root.style.right=Length.Percent((Screen.width-safe.xMax)/Screen.width*100);
-  root.style.top=Length.Percent((Screen.height-safe.yMax)/Screen.height*100);
-  root.style.bottom=Length.Percent(safe.yMin/Screen.height*100);
-  if(HasIncomingFax && SceneManager.GetActiveScene().name=="OfficeScene")AddFaxNotice();
-  if(HasIncomingDocument && SceneManager.GetActiveScene().name=="OfficeScene")AddDocumentNotice();
+  // Güvenli alan kenar boşlukları yalnız ekran ölçüsü, güvenli alan ya da kök öge değiştiğinde yazılır.
+  if(!ReferenceEquals(root,lastSafeAreaRoot) || safe!=lastSafeArea || Screen.width!=lastSafeAreaWidth || Screen.height!=lastSafeAreaHeight) {
+   lastSafeAreaRoot=root; lastSafeArea=safe; lastSafeAreaWidth=Screen.width; lastSafeAreaHeight=Screen.height;
+   root.style.left=Length.Percent(safe.xMin/Screen.width*100);
+   root.style.right=Length.Percent((Screen.width-safe.xMax)/Screen.width*100);
+   root.style.top=Length.Percent((Screen.height-safe.yMax)/Screen.height*100);
+   root.style.bottom=Length.Percent(safe.yMin/Screen.height*100);
+  }
+  if(HasIncomingFax || HasIncomingDocument) {
+   bool atOffice=SceneManager.GetActiveScene().name=="OfficeScene";
+   if(HasIncomingFax && atOffice)AddFaxNotice();
+   if(HasIncomingDocument && atOffice)AddDocumentNotice();
+  }
   RefreshInboxBadge();
  }
 
  void RefreshInboxBadge() {
   if(inboxBadge==null || inboxBadge.panel==null)return;
-  int count=game.Data.nodes.Count(game.IncomingDocument)+(HasIncomingFax?1:0)+(AvailableAssignment()!=null?1:0);
+  int count=game.Data.nodes.Count(incomingDocumentPredicate)+(HasIncomingFax?1:0)+(AvailableAssignment()!=null?1:0);
+  // Rozet yeniden kurulduğunda öge kimliği değişir; o durumda sayı aynı olsa da yeniden yazılır.
+  if(count==lastInboxBadgeCount && ReferenceEquals(inboxBadge,lastBadgedElement))return;
+  lastInboxBadgeCount=count; lastBadgedElement=inboxBadge;
   inboxBadge.style.display=count>0?DisplayStyle.Flex:DisplayStyle.None;
   inboxBadgeLabel.text=count>0?count.ToString():string.Empty;
  }
@@ -1238,7 +1267,7 @@ public sealed class BubeApp : MonoBehaviour {
   }
  }
  void InterviewRequests(bool lift=true) {
-  lastPendingCount=game.Data.nodes.Count(n=>game.Pending(n));
+  lastPendingCount=game.Data.nodes.Count(pendingPredicate);
   VisualElement content;
   BpsTablet("tablet.interviews",out content,lift);
   showingInterviewList=true;
@@ -1292,7 +1321,7 @@ public sealed class BubeApp : MonoBehaviour {
   }
  }
  void InvestigationRequests(bool lift=true) {
-  lastIncomingDocumentCount=game.Data.nodes.Count(game.IncomingDocument);
+  lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);
   VisualElement content;
   BpsTablet("tablet.investigations",out content,lift);
   showingInvestigationRequests=true;

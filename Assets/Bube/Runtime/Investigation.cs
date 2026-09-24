@@ -3,7 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 namespace Bube {
 [Serializable] public class Entry { public string key; public string value; }
-[Serializable] public class Locale { public Entry[] entries; public string Get(string key) => entries.FirstOrDefault(e => e.key == key)?.value ?? "[" + key + "]"; }
+[Serializable] public class Locale {
+ public Entry[] entries;
+ [NonSerialized] Dictionary<string,string> index;
+ public string Get(string key) {
+  if (index == null) {
+   index = new Dictionary<string,string>(entries != null ? entries.Length : 0);
+   if (entries != null) foreach (var entry in entries) if (entry != null && entry.key != null && !index.ContainsKey(entry.key)) index[entry.key] = entry.value;
+  }
+  return index.TryGetValue(key, out var value) && value != null ? value : "[" + key + "]";
+ }
+}
 [Serializable] public class GameConfig { public string title; public string locale; public string initialCase; public string investigatorKey; public WorldIntro[] worldIntros; }
 [Serializable] public class WorldIntro { public string id; public string firstCaseId; public string countryKey; public string locationKey; public string flagResource; public string videoPath; public bool graphicsEmbedded; public bool skipCoversCornerMark; public bool deskArrival; }
 [Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public CaseSummary summary; }

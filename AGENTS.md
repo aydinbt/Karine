@@ -29,8 +29,12 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 **Faz 0 bitti.** Oyun adı **Karine** (`Docs/NAMING.md`); depo `github.com/aydinbt/Karine`, çalışma klasörü `bubeGame/karine-mobile`; paket kimliği `com.bubedigital.karine`; IL2CPP + Android target SDK 35; `com.unity.test-framework` ve üç asmdef kurulu; EditMode testleri Editor'da koşturuldu ve geçti.
 
-**Sıradaki darboğaz:** Dosya #001 bugüne kadar bir kez bile Play Mode'da baştan sona oynanmadı. `Docs/PHASE_PLAN.md` Faz 2 bu işi tanımlar; M1 ve M2'nin bitiş ölçütleri buna bağlıdır.
+**Faz 2 başladı.** Beş performans düzeltmesi girildi (görev önbelleği, güvenli alan ve rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`) — hepsi `[~]`. Oynanış betiği: `Docs/PLAYTEST_001.md`.
+
+**Sıradaki darboğaz:** Dosya #001 bugüne kadar bir kez bile Play Mode'da baştan sona oynanmadı; **bu adım kullanıcıya ait**, Play Mode Editor gerektiriyor. M1 ve M2'nin bitiş ölçütleri buna bağlıdır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
 
 **Bu makinede Unity batchmode lisans istemcisi bağlanmıyor** (`LicenseClient-<kullanıcı>` kanalı açılmıyor, 60 sn timeout döngüsü). `-runTests` ile komut satırından test koşturulamaz; testler Unity Editor'da `Window > General > Test Runner` üzerinden çalıştırılır.
+
+**Ama derleme doğrulaması başsız yapılabilir** — lisans gerektirmiyor. Unity'nin gömülü Roslyn'i + Bee yanıt dosyaları; komut `Docs/Architecture.md` → "Bu makinede başsız derleme doğrulaması". Her kod değişikliğinden sonra bu koşulur. Yine de en fazla `[~]` hak eder.
 
 Ayrıntı ve teknik borç: `Docs/AUDIT_2026-09-25.md`.
