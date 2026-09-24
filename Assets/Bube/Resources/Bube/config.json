@@ -1,0 +1,19 @@
+{
+  "title": "Karine",
+  "locale": "tr",
+  "initialCase": "case001",
+  "investigatorKey": "bora",
+  "worldIntros": [
+    {
+      "id": "world01",
+      "firstCaseId": "case001",
+      "countryKey": "world01.country",
+      "locationKey": "intro.world01.city",
+      "flagResource": "Bube/TurkiyeFlag",
+      "videoPath": "Bube/world01_intro.mp4",
+      "graphicsEmbedded": true,
+      "skipCoversCornerMark": true,
+      "deskArrival": true
+    }
+  ]
+}

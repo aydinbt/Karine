@@ -1,0 +1,358 @@
+{
+  "id": "case002",
+  "titleKey": "case002.title",
+  "nodes": [
+    {
+      "id": "report",
+      "kind": "document",
+      "titleKey": "case002.report.title",
+      "bodyKey": "case002.report.body",
+      "requires": [],
+      "fileMeta": [
+        {
+          "labelKey": "case002.meta.number",
+          "valueKey": "case002.meta.numberValue"
+        },
+        {
+          "labelKey": "case002.meta.place",
+          "valueKey": "case002.meta.placeValue"
+        },
+        {
+          "labelKey": "case002.meta.reporter",
+          "valueKey": "case002.meta.reporterValue"
+        }
+      ]
+    },
+    {
+      "id": "arda",
+      "kind": "interview",
+      "titleKey": "case002.arda.title",
+      "bodyKey": "case002.arda.body",
+      "requires": [
+        "report"
+      ],
+      "personId": "arda",
+      "personNameKey": "case002.arda.name",
+      "personInfoKey": "case002.arda.info",
+      "personQuoteKey": "case002.arda.quote",
+      "questions": [
+        {
+          "id": "arda.last",
+          "promptKey": "case002.arda.last.question",
+          "answerKey": "case002.arda.last.answer",
+          "topicKey": "interview.topic.day"
+        },
+        {
+          "id": "arda.access",
+          "promptKey": "case002.arda.access.question",
+          "answerKey": "case002.arda.access.answer",
+          "topicKey": "interview.topic.home",
+          "requiresAsked": [
+            "arda.last"
+          ]
+        },
+        {
+          "id": "arda.shipment",
+          "promptKey": "case002.arda.shipment.question",
+          "answerKey": "case002.arda.shipment.answer",
+          "topicKey": "interview.topic.belongings",
+          "requiresAsked": [
+            "arda.last"
+          ]
+        },
+        {
+          "id": "arda.log",
+          "promptKey": "case002.arda.log.question",
+          "answerKey": "case002.arda.log.answer",
+          "topicKey": "interview.topic.day",
+          "requiresRead": [
+            "access"
+          ],
+          "presentedSourceId": "access"
+        }
+      ],
+      "completionQuestionIds": [
+        "arda.last"
+      ]
+    },
+    {
+      "id": "ece",
+      "kind": "interview",
+      "titleKey": "case002.ece.title",
+      "bodyKey": "case002.ece.body",
+      "requires": [
+        "report"
+      ],
+      "personId": "ece",
+      "personNameKey": "case002.ece.name",
+      "personInfoKey": "case002.ece.info",
+      "personQuoteKey": "case002.ece.quote",
+      "questions": [
+        {
+          "id": "ece.inventory",
+          "promptKey": "case002.ece.inventory.question",
+          "answerKey": "case002.ece.inventory.answer",
+          "topicKey": "interview.topic.belongings"
+        },
+        {
+          "id": "ece.keys",
+          "promptKey": "case002.ece.keys.question",
+          "answerKey": "case002.ece.keys.answer",
+          "topicKey": "interview.topic.home",
+          "requiresAsked": [
+            "ece.inventory"
+          ]
+        },
+        {
+          "id": "ece.deadline",
+          "promptKey": "case002.ece.deadline.question",
+          "answerKey": "case002.ece.deadline.answer",
+          "topicKey": "interview.topic.belongings",
+          "requiresAsked": [
+            "ece.inventory"
+          ]
+        }
+      ],
+      "completionQuestionIds": [
+        "ece.inventory"
+      ]
+    },
+    {
+      "id": "deniz",
+      "kind": "interview",
+      "titleKey": "case002.deniz.title",
+      "bodyKey": "case002.deniz.body",
+      "requires": [
+        "report"
+      ],
+      "personId": "deniz",
+      "personNameKey": "case002.deniz.name",
+      "personInfoKey": "case002.deniz.info",
+      "personQuoteKey": "case002.deniz.quote",
+      "questions": [
+        {
+          "id": "deniz.desk",
+          "promptKey": "case002.deniz.desk.question",
+          "answerKey": "case002.deniz.desk.answer",
+          "topicKey": "interview.topic.day"
+        },
+        {
+          "id": "deniz.courier",
+          "promptKey": "case002.deniz.courier.question",
+          "answerKey": "case002.deniz.courier.answer",
+          "topicKey": "interview.topic.belongings",
+          "requiresAsked": [
+            "deniz.desk"
+          ]
+        },
+        {
+          "id": "deniz.gap",
+          "promptKey": "case002.deniz.gap.question",
+          "answerKey": "case002.deniz.gap.answer",
+          "topicKey": "interview.topic.day",
+          "requiresRead": [
+            "access"
+          ],
+          "presentedSourceId": "access"
+        }
+      ],
+      "completionQuestionIds": [
+        "deniz.desk"
+      ]
+    },
+    {
+      "id": "access",
+      "kind": "bps",
+      "titleKey": "case002.access.title",
+      "bodyKey": "case002.access.body",
+      "requires": [
+        "report"
+      ]
+    },
+    {
+      "id": "arda_follow",
+      "kind": "interview",
+      "titleKey": "case002.arda_follow.title",
+      "bodyKey": "case002.arda_follow.body",
+      "requires": [
+        "arda",
+        "access"
+      ],
+      "personId": "arda",
+      "personNameKey": "case002.arda.name",
+      "personInfoKey": "case002.arda.info",
+      "questions": [
+        {
+          "id": "arda_follow.card",
+          "promptKey": "case002.arda_follow.card.question",
+          "answerKey": "case002.arda_follow.card.answer",
+          "topicKey": "interview.topic.day",
+          "requiresRead": [
+            "access"
+          ],
+          "presentedSourceId": "access"
+        },
+        {
+          "id": "arda_follow.parcel",
+          "promptKey": "case002.arda_follow.parcel.question",
+          "answerKey": "case002.arda_follow.parcel.answer",
+          "topicKey": "interview.topic.belongings",
+          "requiresRead": [
+            "parcel"
+          ],
+          "presentedSourceId": "parcel"
+        }
+      ],
+      "completionQuestionIds": [
+        "arda_follow.card"
+      ]
+    },
+    {
+      "id": "parcel",
+      "kind": "document",
+      "titleKey": "case002.parcel.title",
+      "bodyKey": "case002.parcel.body",
+      "requires": [
+        "report"
+      ],
+      "requiresAnyAsked": [
+        "ece.inventory",
+        "deniz.courier"
+      ],
+      "requestable": true,
+      "requestLabelKey": "case002.parcel.request",
+      "requestDelaySeconds": 6
+    }
+  ],
+  "timelineClues": [
+    {
+      "id": "backup",
+      "timeKey": "case002.timeline.backup.time",
+      "noteKey": "case002.timeline.backup.note",
+      "sourceKey": "case002.ece.title",
+      "sortMinute": 938,
+      "requiresAsked": [
+        "ece.inventory"
+      ]
+    },
+    {
+      "id": "entry",
+      "timeKey": "case002.timeline.entry.time",
+      "noteKey": "case002.timeline.entry.note",
+      "sourceKey": "case002.access.title",
+      "sortMinute": 971,
+      "requiresRead": [
+        "access"
+      ]
+    },
+    {
+      "id": "pickup",
+      "timeKey": "case002.timeline.pickup.time",
+      "noteKey": "case002.timeline.pickup.note",
+      "sourceKey": "case002.access.title",
+      "sortMinute": 991,
+      "requiresRead": [
+        "access"
+      ]
+    },
+    {
+      "id": "report",
+      "timeKey": "case002.timeline.report.time",
+      "noteKey": "case002.timeline.report.note",
+      "sourceKey": "case002.report.title",
+      "sortMinute": 1085,
+      "requiresRead": [
+        "report"
+      ]
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "arda",
+      "labelKey": "case002.verdict.arda",
+      "feedbackKey": "case002.feedback.arda",
+      "correct": true,
+      "supportingSourceIds": [
+        "parcel",
+        "arda_follow"
+      ]
+    },
+    {
+      "id": "ece",
+      "labelKey": "case002.verdict.ece",
+      "feedbackKey": "case002.feedback.ece",
+      "correct": false
+    },
+    {
+      "id": "deniz",
+      "labelKey": "case002.verdict.deniz",
+      "feedbackKey": "case002.feedback.deniz",
+      "correct": false
+    }
+  ],
+  "methods": [
+    {
+      "id": "shipment",
+      "labelKey": "case002.method.shipment",
+      "correct": true,
+      "supportingSourceIds": [
+        "access",
+        "parcel",
+        "arda_follow"
+      ]
+    },
+    {
+      "id": "forced",
+      "labelKey": "case002.method.forced",
+      "correct": false
+    },
+    {
+      "id": "borrowed",
+      "labelKey": "case002.method.borrowed",
+      "correct": false
+    },
+    {
+      "id": "unknown",
+      "labelKey": "case002.method.unknown",
+      "correct": false
+    }
+  ],
+  "evidence": [
+    {
+      "id": "report",
+      "labelKey": "case002.evidence.report",
+      "correct": false
+    },
+    {
+      "id": "access",
+      "labelKey": "case002.evidence.access",
+      "correct": false
+    },
+    {
+      "id": "arda_follow",
+      "labelKey": "case002.evidence.arda",
+      "correct": false
+    },
+    {
+      "id": "parcel",
+      "labelKey": "case002.evidence.parcel",
+      "correct": true,
+      "supportingSourceIds": [
+        "parcel"
+      ]
+    }
+  ],
+  "conclusionRequires": [
+    "report"
+  ],
+  "summary": {
+    "locationKey": "case002.summary.location",
+    "truthKey": "case002.summary.truth",
+    "evidenceKey": "case002.summary.evidence",
+    "lessonKey": "case002.summary.lesson"
+  },
+  "successfulReportTrustGain": 5,
+  "failedReportTrustLoss": 15,
+  "nextCaseId": "",
+  "draft": true
+}

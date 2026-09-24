@@ -1,0 +1,15 @@
+{
+  "initialTrust": 60,
+  "strongGain": 5,
+  "incompleteLoss": 5,
+  "falseAccusationLoss": 15,
+  "unsolvedLoss": 2,
+  "endThreshold": 0,
+  "statusThresholds": [
+    80,
+    60,
+    40,
+    20,
+    1
+  ]
+}

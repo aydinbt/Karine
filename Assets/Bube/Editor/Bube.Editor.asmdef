@@ -1,0 +1,18 @@
+{
+    "name": "Bube.Editor",
+    "rootNamespace": "Bube.Editor",
+    "references": [
+        "Bube.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,56 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Never commit the auto-generated Burst/IL2CPP output
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files for ignored folders
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.ipa
+*.unitypackage
+*.app
+
+# Gradle / Xcode intermediates
+.gradle/
+*.xcuserdatad/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Signing — never commit keystores or their passwords
+*.keystore
+*.jks
+keystore.properties
