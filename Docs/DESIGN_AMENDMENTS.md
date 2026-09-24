@@ -159,3 +159,25 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 **Kurum adı üzerindeki etkisi:** `DeskReference.png` artık yalnız `Desk()` içinden yükleniyor ve orası üst %11'e opak şerit çizdiği için **"İSTANBUL EMNİYET MÜDÜRLÜĞÜ" şeridi hiçbir ekranda görünmüyor.** Ama görselin içindeki **terminal ekranındaki `EMNİYET SİSTEMİ` yazısı ve armalar hâlâ duruyor** — onlar örtülü değil. Görsel yine de yenilenmeli; bu değişiklik ihlali küçülttü, bitirmedi.
 
 **Doğrulama:** `Assets/Bube/Tests/PlayMode/CaseOfferFlowTests.cs` — başsız Play Mode'da akış gerçekten koşturuldu: kabul edilmeden masada yalnız tepsi açık, tepside önizleme okunuyor, kabul düğmesine basılınca dosya kabul ediliyor ve masa tamamen açılıyor. `CaseOffer()`'ın geri gelmediği de sabitlendi.
+
+## 25 Eylül 2026 — Tek yazı ölçeği
+
+**Sorun (kullanıcı):** "Oyun içerisindeki yazıların font eşitsizliği var, hiçbiri aynı değil."
+
+**Ölçüm:** Yazı **tipi** zaten tekti — her şey kök öğeden IBM Plex Mono'yu miras alıyor. Tutarsızlık **puntodaydı**: 12'den 76'ya **yirmi iki ayrı değer**, çoğu birbirinden bir punto farkla (14/15/16/17, 20/21/22/23/24, 26/27/28/29/31), ekrandan ekrana rastgele seçilmişti.
+
+**Karar:** Dokuz basamaklı tek ölçek — `13, 15, 17, 19, 21, 24, 28, 40, 76`. Eşit uzaklıkta iki basamak varsa **büyüğü** seçilir; telefonda okunaklılık sıkışıklıktan değerlidir.
+
+**Uygulama — çağrı yerlerini elle düzeltmek yerine tek kapı:** `Typography.Snap` ölçek dışı her puntoyu en yakın basamağa oturtur ve `Text(...)`/`Button(...)` yardımcıları boyutu ondan geçirir. Böylece yarın yazılan `Text(parent,"...",Ink,18)` de kendiliğinden uyar; ölçek dışı bir punto ekrana **ulaşamaz**. Doğrudan `style.fontSize=` atayan 51 yer de `Snap`'ten geçirildi.
+
+**Doğrulama:** `TypographyTests` — `Snap` eşgüçlü ve hep ölçeğe oturuyor, eşitlikte büyüğü seçiyor, ve `BubeApp.cs` içinde ölçeği atlayan çıplak punto kalmadığı kaynak taramasıyla sabitlendi.
+
+## 25 Eylül 2026 — Kurgusal departman adı; arma sorun değil
+
+**Kullanıcı kararları:**
+1. Terminaldeki "EMNİYET SİSTEMİ" **değişmeli** — dedektifin bağlı olduğu departmanın **uydurma** adı yazılmalı.
+2. **Arma sorun değil:** gerçek bir rozet değil, uydurma görünüyor. Kurum adı yasağı armayı kapsamaz.
+
+**Önerilen kurgusal ad:** Kurum **bube POLİS (BPS)**, departman **3. SORUŞTURMA MASASI**, terminal yazısı **"BPS KAYIT SİSTEMİ"**. Üst şeritteki "bube POLİS / İSTANBUL · BEŞİKTAŞ" olduğu gibi kalır.
+
+**Durum:** Bu yazı `DeskReference.png`'nin **içine gömülü**, kodda değil; ancak yeni görselle değişir.

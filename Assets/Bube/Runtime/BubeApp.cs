@@ -156,7 +156,7 @@ public sealed class BubeApp : MonoBehaviour {
   if(dossierFont!=null)root.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   root.style.backgroundColor=Base;
   root.style.color=Ink;
-  root.style.fontSize=20;
+  root.style.fontSize=Typography.Snap(20);
   root.style.paddingLeft=36;
   root.style.paddingRight=36;
   root.style.paddingTop=26;
@@ -235,7 +235,7 @@ public sealed class BubeApp : MonoBehaviour {
   var label=new Label(value);
   label.style.whiteSpace=WhiteSpace.Normal;
   label.style.color=color;
-  label.style.fontSize=size;
+  label.style.fontSize=Typography.Snap(size);
   if(dossierFont!=null)label.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   label.style.marginBottom=12;
   parent.Add(label);
@@ -244,7 +244,7 @@ public sealed class BubeApp : MonoBehaviour {
  void Button(VisualElement parent,string value,Action onClick,bool primary=false) {
   var button=new Button(onClick){text=value};
   button.style.minHeight=54;
-  button.style.fontSize=20;
+  button.style.fontSize=Typography.Snap(20);
   if(dossierFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   button.style.unityTextAlign=TextAnchor.MiddleLeft;
   button.style.paddingLeft=18;
@@ -341,14 +341,14 @@ public sealed class BubeApp : MonoBehaviour {
   rule.style.marginBottom=9;paper.Add(rule);
   body=Scroll(paper);
   var back=new Button(backAction ?? (Action)FilePage){text=T(backAction==null?"back.file":"back.desk")};
-  back.style.minHeight=42;back.style.fontSize=16;back.style.backgroundColor=new Color(.76f,.69f,.58f);
+  back.style.minHeight=42;back.style.fontSize=Typography.Snap(16);back.style.backgroundColor=new Color(.76f,.69f,.58f);
   back.style.color=dark;
   if(dossierFont!=null)back.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   paper.Add(back);
  }
  Button ReportChoice(VisualElement parent,string label,bool selected,Action choose) {
   var option=new Button(choose){text=(selected?"✓  ":"□  ")+label};
-  option.style.minHeight=40;option.style.fontSize=17;
+  option.style.minHeight=40;option.style.fontSize=Typography.Snap(17);
   option.style.unityTextAlign=TextAnchor.MiddleLeft;
   option.style.paddingLeft=12;option.style.marginBottom=4;
   option.style.backgroundColor=selected?new Color(.74f,.60f,.40f):new Color(.82f,.76f,.65f);
@@ -524,7 +524,7 @@ public sealed class BubeApp : MonoBehaviour {
   var link=new Button(()=>ArchiveCasePage(item.data.id,source.id,reference)){text=label+"  →"};
   link.style.minHeight=42;link.style.whiteSpace=WhiteSpace.Normal;
   link.style.unityTextAlign=TextAnchor.MiddleLeft;
-  link.style.fontSize=13;link.style.paddingLeft=9;link.style.paddingRight=8;
+  link.style.fontSize=Typography.Snap(13);link.style.paddingLeft=9;link.style.paddingRight=8;
   link.style.marginBottom=10;
   link.style.backgroundColor=new Color(.82f,.76f,.65f);
   link.style.color=new Color(.13f,.16f,.20f);
@@ -730,7 +730,7 @@ public sealed class BubeApp : MonoBehaviour {
   skip.style.position=Position.Absolute;skip.style.right=Length.Percent(4);
   skip.style.bottom=Length.Percent(5);skip.style.minWidth=150;
   skip.style.minHeight=MinimumTouchTarget;skip.style.backgroundColor=Card;
-  skip.style.color=Ink;skip.style.fontSize=16;root.Add(skip);
+  skip.style.color=Ink;skip.style.fontSize=Typography.Snap(16);root.Add(skip);
   if(activeIntro.skipCoversCornerMark) {
    introSkip=skip;
    root.RegisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
@@ -858,7 +858,7 @@ public sealed class BubeApp : MonoBehaviour {
   var notice=new Button(InboxPage){text=T("inbox.faxNotice")};
   notice.style.position=Position.Absolute;notice.style.left=Length.Percent(1);notice.style.top=Length.Percent(13);
   notice.style.width=Length.Percent(29);notice.style.minHeight=44;
-  notice.style.backgroundColor=new Color(.69f,.23f,.18f);notice.style.color=Ink;notice.style.fontSize=16;
+  notice.style.backgroundColor=new Color(.69f,.23f,.18f);notice.style.color=Ink;notice.style.fontSize=Typography.Snap(16);
   if(dossierBoldFont!=null)notice.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   root.Add(notice);faxNotice=notice;
  }
@@ -867,7 +867,7 @@ public sealed class BubeApp : MonoBehaviour {
   var notice=new Button(InboxPage){text=T("inbox.newDocument")};
   notice.style.position=Position.Absolute;notice.style.left=Length.Percent(1);notice.style.top=Length.Percent(21);
   notice.style.width=Length.Percent(29);notice.style.minHeight=44;
-  notice.style.backgroundColor=new Color(.69f,.48f,.20f);notice.style.color=Base;notice.style.fontSize=16;
+  notice.style.backgroundColor=new Color(.69f,.48f,.20f);notice.style.color=Base;notice.style.fontSize=Typography.Snap(16);
   if(dossierBoldFont!=null)notice.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   root.Add(notice);documentNotice=notice;
  }
@@ -940,7 +940,7 @@ public sealed class BubeApp : MonoBehaviour {
   headingText.style.flexGrow=1;headingText.style.marginBottom=3;
   if(dossierBoldFont!=null)headingText.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   var close=new Button(Desk){text="×"};close.tooltip=T("back.desk");
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=28;
+  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=Typography.Snap(28);
   close.style.backgroundColor=Paper;close.style.color=Ink;heading.Add(close);
   Text(left,T("desk.brandLocation"),Muted,13).style.marginBottom=12;
   var filters=new VisualElement();filters.style.flexDirection=FlexDirection.Row;
@@ -949,7 +949,7 @@ public sealed class BubeApp : MonoBehaviour {
    var selectedFilter=choice;
    var button=new Button(()=>InboxPage(null,selectedFilter)) {text=T("inbox.filter."+choice)};
    button.style.flexGrow=1;button.style.minHeight=MinimumTouchTarget;button.style.marginRight=5;
-   button.style.fontSize=14;button.style.color=choice==filter?Base:Ink;
+   button.style.fontSize=Typography.Snap(14);button.style.color=choice==filter?Base:Ink;
    button.style.backgroundColor=choice==filter?Gold:Paper;
    if(dossierFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
    filters.Add(button);
@@ -966,7 +966,7 @@ public sealed class BubeApp : MonoBehaviour {
    };
    row.style.minHeight=78;row.style.marginBottom=7;
    row.style.paddingLeft=13;row.style.paddingRight=8;
-   row.style.fontSize=16;row.style.whiteSpace=WhiteSpace.Normal;
+   row.style.fontSize=Typography.Snap(16);row.style.whiteSpace=WhiteSpace.Normal;
    row.style.unityTextAlign=TextAnchor.MiddleLeft;
    row.style.color=item.id==selected?.id?Base:Ink;
    row.style.backgroundColor=item.id==selected?.id?new Color(.84f,.72f,.53f):new Color(.13f,.16f,.17f);
@@ -1185,7 +1185,7 @@ public sealed class BubeApp : MonoBehaviour {
   var title=Text(header,T(game.Data.titleKey)+" / "+T(titleKey),Ink,17);title.style.flexGrow=1;title.style.marginBottom=0;
   GlitchHeading(title,T(titleKey));
   var close=new Button(Desk){text="×"};close.tooltip=T("cctv.back");
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=26;
+  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=Typography.Snap(26);
   close.style.backgroundColor=Paper;close.style.color=Ink;
   header.Add(close);
   var rule=new VisualElement();rule.style.height=2;rule.style.backgroundColor=new Color(.25f,.35f,.42f);
@@ -1228,7 +1228,7 @@ public sealed class BubeApp : MonoBehaviour {
   foreach(var source in sources) {
    var node=source;
    var button=new Button(()=>{if(node.kind=="cctv")CctvScreen(node);else ReadPage(node);}){text=T(node.titleKey)};
-   button.style.flexGrow=1;button.style.minHeight=MinimumTouchTarget;button.style.fontSize=15;
+   button.style.flexGrow=1;button.style.minHeight=MinimumTouchTarget;button.style.fontSize=Typography.Snap(15);
    button.style.whiteSpace=WhiteSpace.Normal;
    button.style.backgroundColor=node.id==selected.id?Gold:Paper;
    button.style.color=node.id==selected.id?Base:Ink;
@@ -1244,7 +1244,7 @@ public sealed class BubeApp : MonoBehaviour {
   foreach(var tab in new[]{interviewTab,documentTab}) {
    bool active=tab==interviewTab?interviews:!interviews;
    tab.style.flexGrow=1;tab.style.minHeight=MinimumTouchTarget;
-   tab.style.marginRight=7;tab.style.fontSize=16;
+   tab.style.marginRight=7;tab.style.fontSize=Typography.Snap(16);
    tab.style.backgroundColor=active?Gold:Paper;
    tab.style.color=active?Base:Ink;
    if(dossierBoldFont!=null)tab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
@@ -1336,7 +1336,7 @@ public sealed class BubeApp : MonoBehaviour {
     var request=new Button(()=>{
      if(game.RequestDocument(current.id)){Save();InvestigationRequests(false);}
     }){text=T(node.requestLabelKey)};
-    request.style.minHeight=MinimumTouchTarget;request.style.fontSize=16;
+    request.style.minHeight=MinimumTouchTarget;request.style.fontSize=Typography.Snap(16);
     request.style.backgroundColor=Gold;request.style.color=Base;
     if(dossierBoldFont!=null)request.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
     card.Add(request);
@@ -1357,7 +1357,7 @@ public sealed class BubeApp : MonoBehaviour {
   if(action==null)return;
   var button=new Button(action){text=T(actionKey)};
   button.style.width=80;button.style.minHeight=40;
-  button.style.marginLeft=7;button.style.fontSize=13;
+  button.style.marginLeft=7;button.style.fontSize=Typography.Snap(13);
   button.style.backgroundColor=new Color(.30f,.23f,.19f);button.style.color=Ink;
   if(dossierBoldFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   row.Add(button);
@@ -1526,33 +1526,33 @@ public sealed class BubeApp : MonoBehaviour {
    tab.style.minHeight=54;tab.style.marginBottom=5;tab.style.paddingLeft=10;
    tab.style.whiteSpace=WhiteSpace.Normal;tab.style.unityTextAlign=TextAnchor.MiddleLeft;
    tab.style.backgroundColor=choice==selectedFileSection?new Color(.91f,.85f,.73f):new Color(.49f,.46f,.42f);
-   tab.style.color=fileInk;tab.style.fontSize=15;
+   tab.style.color=fileInk;tab.style.fontSize=Typography.Snap(15);
    if(dossierBoldFont!=null)tab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
    tabs.Add(tab);
   }
   var compareTab=new Button(()=>{comparePicker=-1;ComparePage();}) {text=T("file.tab.compare")};
   compareTab.style.minHeight=54;compareTab.style.marginBottom=5;compareTab.style.paddingLeft=10;
   compareTab.style.whiteSpace=WhiteSpace.Normal;compareTab.style.unityTextAlign=TextAnchor.MiddleLeft;
-  compareTab.style.backgroundColor=new Color(.49f,.46f,.42f);compareTab.style.color=fileInk;compareTab.style.fontSize=15;
+  compareTab.style.backgroundColor=new Color(.49f,.46f,.42f);compareTab.style.color=fileInk;compareTab.style.fontSize=Typography.Snap(15);
   if(dossierBoldFont!=null)compareTab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   tabs.Add(compareTab);
   var searchTab=new Button(FileSearchPage){text=T("file.tab.search")};
   searchTab.style.minHeight=54;searchTab.style.marginBottom=5;searchTab.style.paddingLeft=10;
   searchTab.style.whiteSpace=WhiteSpace.Normal;searchTab.style.unityTextAlign=TextAnchor.MiddleLeft;
-  searchTab.style.backgroundColor=new Color(.49f,.46f,.42f);searchTab.style.color=fileInk;searchTab.style.fontSize=15;
+  searchTab.style.backgroundColor=new Color(.49f,.46f,.42f);searchTab.style.color=fileInk;searchTab.style.fontSize=Typography.Snap(15);
   if(dossierBoldFont!=null)searchTab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   tabs.Add(searchTab);
   if(game.CanConclude) {
    var reportTab=new Button(Conclusion){text=T("conclude.tab")};
    reportTab.style.minHeight=54;reportTab.style.marginBottom=5;reportTab.style.paddingLeft=10;
    reportTab.style.backgroundColor=new Color(.79f,.63f,.40f);reportTab.style.color=fileInk;
-   reportTab.style.unityTextAlign=TextAnchor.MiddleLeft;reportTab.style.fontSize=15;
+   reportTab.style.unityTextAlign=TextAnchor.MiddleLeft;reportTab.style.fontSize=Typography.Snap(15);
    if(dossierBoldFont!=null)reportTab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
    tabs.Add(reportTab);
   }
   var close=new Button(Desk){text="×"};close.tooltip=T("back.desk");
   close.style.position=Position.Absolute;close.style.right=Length.Percent(8);close.style.top=Length.Percent(7);
-  close.style.width=58;close.style.height=58;close.style.fontSize=36;
+  close.style.width=58;close.style.height=58;close.style.fontSize=Typography.Snap(36);
   close.style.color=Ink;close.style.backgroundColor=new Color(.08f,.09f,.10f);root.Add(close);
  }
  void FileSearchPage() {
@@ -1583,7 +1583,7 @@ public sealed class BubeApp : MonoBehaviour {
   Text(paper,T("search.help"),muted,15);
   var input=new TextField();input.value=fileSearchQuery;
   input.style.height=51;input.style.marginTop=5;input.style.marginBottom=14;
-  input.style.paddingLeft=10;input.style.fontSize=20;input.style.color=dark;
+  input.style.paddingLeft=10;input.style.fontSize=Typography.Snap(20);input.style.color=dark;
   input.style.backgroundColor=new Color(.98f,.94f,.85f);paper.Add(input);
   var count=Text(paper,"",muted,14);count.style.marginBottom=6;
   var results=Scroll(paper);
@@ -1607,7 +1607,7 @@ public sealed class BubeApp : MonoBehaviour {
     if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
     var excerpt=Text(row,hit.excerpt,dark,15);excerpt.style.marginBottom=4;
     var open=new Button(()=>OpenSearchSource(selected)){text=T("search.open")+"  ›"};
-    open.style.minHeight=37;open.style.fontSize=15;open.style.unityTextAlign=TextAnchor.MiddleRight;
+    open.style.minHeight=37;open.style.fontSize=Typography.Snap(15);open.style.unityTextAlign=TextAnchor.MiddleRight;
     open.style.color=dark;open.style.backgroundColor=new Color(.91f,.85f,.73f);row.Add(open);
    }
   };
@@ -1664,7 +1664,7 @@ public sealed class BubeApp : MonoBehaviour {
    var picker=new Button(()=>{comparePicker=comparePicker==selectedSide?-1:selectedSide;ComparePage();})
     {text=(current==null?T("compare.choose"):T(current.titleKey))+"  ▾"};
    picker.style.minHeight=50;picker.style.paddingLeft=12;picker.style.unityTextAlign=TextAnchor.MiddleLeft;
-   picker.style.fontSize=17;picker.style.color=ink;picker.style.backgroundColor=new Color(.79f,.72f,.60f);
+   picker.style.fontSize=Typography.Snap(17);picker.style.color=ink;picker.style.backgroundColor=new Color(.79f,.72f,.60f);
    sheet.Add(picker);
    if(comparePicker==side) {
     var choices=Scroll(sheet);choices.style.maxHeight=240;
@@ -1674,7 +1674,7 @@ public sealed class BubeApp : MonoBehaviour {
       if(selectedSide==0)compareLeftId=choice.id;else compareRightId=choice.id;
       comparePicker=-1;ComparePage();
      }){text=T(source.titleKey)};
-     option.style.minHeight=44;option.style.marginTop=4;option.style.fontSize=15;
+     option.style.minHeight=44;option.style.marginTop=4;option.style.fontSize=Typography.Snap(15);
      option.style.unityTextAlign=TextAnchor.MiddleLeft;
      option.style.color=ink;option.style.backgroundColor=new Color(.84f,.78f,.67f);
      choices.Add(option);
@@ -1811,7 +1811,7 @@ public sealed class BubeApp : MonoBehaviour {
      })
       {text=T(topic.Key)+"  ·  "+topicCount};
      header.style.minHeight=MinimumTouchTarget;header.style.marginBottom=6;header.style.paddingLeft=12;
-     header.style.unityTextAlign=TextAnchor.MiddleLeft;header.style.fontSize=16;
+     header.style.unityTextAlign=TextAnchor.MiddleLeft;header.style.fontSize=Typography.Snap(16);
      header.style.color=Ink;header.style.backgroundColor=new Color(.14f,.20f,.20f);
      section.Insert(0,header);
     }
@@ -1820,7 +1820,7 @@ public sealed class BubeApp : MonoBehaviour {
      Button(choices,"›  "+(game.State.asked.Contains(q.id)?T("interview.repeatPrefix")+"  ":"")+T(q.promptKey),()=>InterviewPage(node,question,1));
      var choiceButton=choices.Children().Last() as Button;
      choiceButton.style.whiteSpace=WhiteSpace.Normal;
-     choiceButton.style.fontSize=16;
+     choiceButton.style.fontSize=Typography.Snap(16);
      choiceButton.style.minHeight=66;
      choiceButton.style.backgroundColor=new Color(.09f,.13f,.14f);
      choiceButton.style.borderLeftWidth=3;
@@ -1856,7 +1856,7 @@ public sealed class BubeApp : MonoBehaviour {
    var historyTab=new Button(){text=T("interview.history")+"  ·  "+turns.Length};
    foreach(var tab in new[]{questionTab,historyTab}) {
     tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.minWidth=0;
-    tab.style.minHeight=MinimumTouchTarget;tab.style.fontSize=15;tab.style.color=Ink;
+    tab.style.minHeight=MinimumTouchTarget;tab.style.fontSize=Typography.Snap(15);tab.style.color=Ink;
     tab.style.marginBottom=4;historyTabs.Add(tab);
    }
    questionTab.style.marginRight=4;
@@ -1939,10 +1939,10 @@ public sealed class BubeApp : MonoBehaviour {
   if(rows.Count==0) {Text(questions,T("interview.noSource"),Muted,15);return;}
   var searchRow=new VisualElement();searchRow.style.flexDirection=FlexDirection.Row;searchRow.style.alignItems=Align.Center;controls.Add(searchRow);
   var search=new TextField(){label=T("conclude.search"),value=interviewSourceQuery};
-  search.style.flexGrow=1;search.style.minWidth=0;search.style.height=MinimumTouchTarget;search.style.fontSize=18;
+  search.style.flexGrow=1;search.style.minWidth=0;search.style.height=MinimumTouchTarget;search.style.fontSize=Typography.Snap(18);
   search.style.backgroundColor=new Color(.09f,.13f,.14f);search.style.color=Ink;searchRow.Add(search);
   var clear=new Button(()=>search.value=""){text="×"};clear.style.width=MinimumTouchTarget;clear.style.height=MinimumTouchTarget;
-  clear.style.marginLeft=5;clear.style.fontSize=24;clear.style.color=Ink;clear.style.backgroundColor=new Color(.14f,.20f,.20f);searchRow.Add(clear);
+  clear.style.marginLeft=5;clear.style.fontSize=Typography.Snap(24);clear.style.color=Ink;clear.style.backgroundColor=new Color(.14f,.20f,.20f);searchRow.Add(clear);
   var tabs=new VisualElement();tabs.style.marginTop=5;controls.Add(tabs);
   var count=Text(controls,"",Muted,13);
   var empty=Text(questions,T("conclude.noMatches"),Muted,15);empty.style.display=DisplayStyle.None;
@@ -1965,11 +1965,11 @@ public sealed class BubeApp : MonoBehaviour {
    if(i%2==0){tabRow=new VisualElement();tabRow.style.flexDirection=FlexDirection.Row;tabs.Add(tabRow);}
    int filter=i;var tab=new Button(()=>{interviewSourceFilter=filter;update();}){text=T(labels[i])};
    tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.minWidth=0;tab.style.minHeight=MinimumTouchTarget;
-   tab.style.fontSize=14;tab.style.color=Ink;tab.style.marginRight=3;tab.style.marginBottom=3;
+   tab.style.fontSize=Typography.Snap(14);tab.style.color=Ink;tab.style.marginRight=3;tab.style.marginBottom=3;
    tab.SetEnabled(i==0 || categoryCounts[i]>0);
    tabRow.Add(tab);tabButtons.Add(tab);
   }
-  foreach(var row in rows) {row.style.minHeight=MinimumTouchTarget;row.style.whiteSpace=WhiteSpace.Normal;row.style.fontSize=15;}
+  foreach(var row in rows) {row.style.minHeight=MinimumTouchTarget;row.style.whiteSpace=WhiteSpace.Normal;row.style.fontSize=Typography.Snap(15);}
   search.RegisterValueChangedCallback(evt=>update());update();
  }
  VisualElement InterviewReferenceCard(string sourceId) {
@@ -1991,7 +1991,7 @@ public sealed class BubeApp : MonoBehaviour {
   var title=Text(header,T("interview.referenceCard"),muted,13);
   title.style.flexGrow=1;title.style.marginBottom=0;
   var close=new Button(()=>card.style.display=DisplayStyle.None){text="×"};
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=22;
+  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=Typography.Snap(22);
   close.style.color=ink;close.style.backgroundColor=new Color(.79f,.72f,.61f);header.Add(close);
   var name=Text(card,T(source.titleKey),ink,17);name.style.marginBottom=8;
   if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
@@ -2173,12 +2173,12 @@ public sealed class BubeApp : MonoBehaviour {
   var skipVideo=new Button(StopCctvVideo){text=T("intro.skip")};
   skipVideo.style.position=Position.Absolute;
   skipVideo.style.backgroundColor=Card;skipVideo.style.color=Ink;
-  skipVideo.style.fontSize=15;skipVideo.style.minHeight=MinimumTouchTarget;
+  skipVideo.style.fontSize=Typography.Snap(15);skipVideo.style.minHeight=MinimumTouchTarget;
   videoFrame.Add(skipVideo);
   var close=new Button(StopCctvVideo){text=T("cctv.videoClose")};
   close.style.position=Position.Absolute;close.style.right=10;close.style.top=10;
   close.style.minHeight=MinimumTouchTarget;close.style.backgroundColor=Card;
-  close.style.color=Ink;close.style.fontSize=14;videoFrame.Add(close);
+  close.style.color=Ink;close.style.fontSize=Typography.Snap(14);videoFrame.Add(close);
   videoFrame.RegisterCallback<GeometryChangedEvent>(evt=>{
    float width=videoFrame.resolvedStyle.width,height=videoFrame.resolvedStyle.height;
    if(float.IsNaN(width)||float.IsNaN(height)||width<=0||height<=0)return;
@@ -2216,7 +2216,7 @@ public sealed class BubeApp : MonoBehaviour {
   var replay=new Button(ReplayCctvVideo){text=T("cctv.videoReplay")};
   foreach(var button in new[]{cctvPlaybackButton,cctvStepButton,replay}) {
    button.style.width=118;button.style.flexShrink=0;
-   button.style.minHeight=MinimumTouchTarget;button.style.fontSize=14;
+   button.style.minHeight=MinimumTouchTarget;button.style.fontSize=Typography.Snap(14);
    button.style.backgroundColor=Paper;button.style.color=Ink;
    button.style.marginRight=4;controls.Add(button);
   }
@@ -2285,7 +2285,7 @@ public sealed class BubeApp : MonoBehaviour {
    watch.tooltip=T("cctv.watch");
    watch.style.minWidth=88;watch.style.height=MinimumTouchTarget;
    watch.style.backgroundColor=Paper;watch.style.color=Gold;
-   watch.style.fontSize=15;actions[index].Add(watch);
+   watch.style.fontSize=Typography.Snap(15);actions[index].Add(watch);
   };
   var controls=new VisualElement();content.Add(controls);
   if(!string.IsNullOrEmpty(focusEventId) && game.State.read.Contains(node.id)) {
@@ -2335,7 +2335,7 @@ public sealed class BubeApp : MonoBehaviour {
         content.schedule.Execute(()=>{line.text=T(record.textKey);}).ExecuteLater(360);
        }){text="↻"};
        clarify.tooltip=T("cctv.clarify");
-       clarify.style.width=MinimumTouchTarget;clarify.style.height=MinimumTouchTarget;clarify.style.fontSize=25;
+       clarify.style.width=MinimumTouchTarget;clarify.style.height=MinimumTouchTarget;clarify.style.fontSize=Typography.Snap(25);
        clarify.style.backgroundColor=Paper;clarify.style.color=Gold;
        actions[current].Add(clarify);
       }
@@ -2410,7 +2410,7 @@ public sealed class BubeApp : MonoBehaviour {
   nav.style.marginTop=12;nav.style.marginBottom=12;scroll.Add(nav);
   if(step>0) {
    var previous=new Button(()=>ConclusionStep(step-1)){text="‹  "+T("conclude.previous")};
-   previous.style.flexGrow=1;previous.style.minHeight=50;previous.style.fontSize=17;
+   previous.style.flexGrow=1;previous.style.minHeight=50;previous.style.fontSize=Typography.Snap(17);
    previous.style.backgroundColor=new Color(.76f,.69f,.58f);previous.style.color=dark;
    previous.style.marginRight=7;nav.Add(previous);
   }
@@ -2418,7 +2418,7 @@ public sealed class BubeApp : MonoBehaviour {
    :new Button(()=>ConclusionStep(step+1)){text=T("conclude.next")+"  ›"};
   next.style.flexGrow=1;next.style.minHeight=50;
   next.style.backgroundColor=new Color(.32f,.20f,.17f);next.style.color=Ink;
-  next.style.fontSize=18;
+  next.style.fontSize=Typography.Snap(18);
   if(dossierBoldFont!=null)next.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   nav.Add(next);refresh();
  }
@@ -2432,7 +2432,7 @@ public sealed class BubeApp : MonoBehaviour {
   var source=new Button(()=>ShowReportSourceCard(sourceId))
    {text=T("conclude.openSource")+"  ›  "+CompactReportSourceLabel(sourceId)};
   source.style.minHeight=50;source.style.whiteSpace=WhiteSpace.Normal;
-  source.style.unityTextAlign=TextAnchor.MiddleLeft;source.style.fontSize=15;
+  source.style.unityTextAlign=TextAnchor.MiddleLeft;source.style.fontSize=Typography.Snap(15);
   source.style.backgroundColor=new Color(.92f,.86f,.75f);source.style.color=ink;
   card.Add(source);
  }
@@ -2477,7 +2477,7 @@ public sealed class BubeApp : MonoBehaviour {
   title.style.flexGrow=1;title.style.whiteSpace=WhiteSpace.Normal;
   var close=new Button(()=>shade.RemoveFromHierarchy()){text="×"};
   close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;
-  close.style.fontSize=23;close.style.backgroundColor=new Color(.76f,.69f,.58f);
+  close.style.fontSize=Typography.Snap(23);close.style.backgroundColor=new Color(.76f,.69f,.58f);
   close.style.color=ink;header.Add(close);
   var content=Scroll(paper);
   if(source.kind=="cctv" && separator>=0) {
@@ -2512,7 +2512,7 @@ public sealed class BubeApp : MonoBehaviour {
   Text(parent,T(promptKey),new Color(.39f,.36f,.31f),14).style.marginBottom=3;
   var opener=new Button{ text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(selected())+"  ▾" };
   opener.style.minHeight=MinimumTouchTarget;opener.style.marginBottom=5;opener.style.paddingLeft=12;
-  opener.style.unityTextAlign=TextAnchor.MiddleLeft;opener.style.fontSize=15;
+  opener.style.unityTextAlign=TextAnchor.MiddleLeft;opener.style.fontSize=Typography.Snap(15);
   opener.style.whiteSpace=WhiteSpace.Normal;
   opener.style.color=dark;opener.style.backgroundColor=new Color(.78f,.71f,.61f);parent.Add(opener);
   var panel=new VisualElement();panel.style.display=DisplayStyle.None;
@@ -2523,13 +2523,13 @@ public sealed class BubeApp : MonoBehaviour {
   var searchBar=new VisualElement();searchBar.style.flexDirection=FlexDirection.Row;
   searchBar.style.alignItems=Align.Center;searchBar.style.marginBottom=5;panel.Add(searchBar);
   var search=new TextField(){label=T("conclude.search")};search.style.flexGrow=1;search.style.minWidth=0;
-  search.style.height=MinimumTouchTarget;search.style.fontSize=18;
+  search.style.height=MinimumTouchTarget;search.style.fontSize=Typography.Snap(18);
   search.style.paddingLeft=8;search.style.color=dark;
   search.style.backgroundColor=new Color(.98f,.94f,.85f);
   searchBar.Add(search);
   var clear=new Button(()=>search.value=""){text="×"};
   clear.style.width=MinimumTouchTarget;clear.style.height=MinimumTouchTarget;
-  clear.style.fontSize=24;clear.style.marginLeft=5;
+  clear.style.fontSize=Typography.Snap(24);clear.style.marginLeft=5;
   clear.style.color=dark;clear.style.backgroundColor=new Color(.78f,.71f,.61f);
   searchBar.Add(clear);
   var count=Text(panel,"",new Color(.39f,.36f,.31f),13);
@@ -2552,7 +2552,7 @@ public sealed class BubeApp : MonoBehaviour {
       panel.style.display=DisplayStyle.None;refresh();
      }){text=label};
      option.style.minHeight=58;option.style.whiteSpace=WhiteSpace.Normal;
-     option.style.fontSize=15;option.style.unityTextAlign=TextAnchor.MiddleLeft;
+     option.style.fontSize=Typography.Snap(15);option.style.unityTextAlign=TextAnchor.MiddleLeft;
      option.style.color=dark;option.style.backgroundColor=new Color(.85f,.79f,.69f);
      option.style.marginBottom=5;choices.Add(option);
      rows.Add(option);categories.Add(category);searchTexts.Add(normalize(label));categoryCounts[category]++;
@@ -2567,7 +2567,7 @@ public sealed class BubeApp : MonoBehaviour {
       panel.style.display=DisplayStyle.None;refresh();
      }){text=label};
      option.style.minHeight=64;option.style.whiteSpace=WhiteSpace.Normal;
-     option.style.fontSize=15;option.style.unityTextAlign=TextAnchor.MiddleLeft;
+     option.style.fontSize=Typography.Snap(15);option.style.unityTextAlign=TextAnchor.MiddleLeft;
      option.style.color=dark;option.style.backgroundColor=new Color(.85f,.79f,.69f);
      option.style.marginBottom=5;choices.Add(option);
      rows.Add(option);categories.Add(category);searchTexts.Add(normalize(label));categoryCounts[category]++;
@@ -2579,7 +2579,7 @@ public sealed class BubeApp : MonoBehaviour {
      panel.style.display=DisplayStyle.None;refresh();
     }){text=label};
     option.style.minHeight=64;option.style.whiteSpace=WhiteSpace.Normal;
-    option.style.fontSize=15;option.style.unityTextAlign=TextAnchor.MiddleLeft;
+    option.style.fontSize=Typography.Snap(15);option.style.unityTextAlign=TextAnchor.MiddleLeft;
     option.style.color=dark;option.style.backgroundColor=new Color(.85f,.79f,.69f);
     option.style.marginBottom=5;choices.Add(option);
     var fullText=T(item.titleKey)+" "+T(item.bodyKey);
@@ -2613,7 +2613,7 @@ public sealed class BubeApp : MonoBehaviour {
    int category=i;
    var tab=new Button(()=>{activeFilter=category;updateFilter();}){text=T(labels[i])};
    tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.minWidth=0;
-   tab.style.minHeight=MinimumTouchTarget;tab.style.fontSize=14;
+   tab.style.minHeight=MinimumTouchTarget;tab.style.fontSize=Typography.Snap(14);
    tab.style.marginLeft=2;tab.style.marginRight=2;
    tab.SetEnabled(i==0 || categoryCounts[i]>0);
    tabs.Add(tab);tabButtons.Add(tab);
@@ -2736,10 +2736,10 @@ public sealed class BubeApp : MonoBehaviour {
   var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;actions.style.marginTop=10;paper.Add(actions);
   var back=new Button(Desk){text=T("back.desk")};back.style.flexGrow=1;back.style.minHeight=48;
   back.style.backgroundColor=new Color(.77f,.69f,.57f);back.style.color=dark;
-  back.style.fontSize=17;if(dossierFont!=null)back.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);actions.Add(back);
+  back.style.fontSize=Typography.Snap(17);if(dossierFont!=null)back.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);actions.Add(back);
   var next=new Button(ContinueToNextCase){text=T("result.continue")+"  →"};next.style.flexGrow=1;next.style.minHeight=48;
   next.style.marginLeft=12;next.style.backgroundColor=new Color(.32f,.20f,.17f);next.style.color=Ink;
-  next.style.fontSize=17;if(dossierBoldFont!=null)next.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);actions.Add(next);
+  next.style.fontSize=Typography.Snap(17);if(dossierBoldFont!=null)next.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);actions.Add(next);
   FadeIn(paper);
  }
  void Result() {

@@ -5,7 +5,7 @@
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 48 test)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 51 test)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  

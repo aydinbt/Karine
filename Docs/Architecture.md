@@ -6,7 +6,7 @@
 # Karine — teknik mimari (mevcut hâl)
 
 Unity **6000.3.17f1**. Paketler yalnızca: `uielements`, `jsonserialize`, `video`, `imgui`, `ugui`.
-`com.unity.test-framework` kuruludur; depoda tek komutla koşan 48 test vardır (`Tools/run-tests.sh`).
+`com.unity.test-framework` kuruludur; depoda tek komutla koşan 51 test vardır (`Tools/run-tests.sh`).
 
 ## Çalıştırma
 
@@ -120,15 +120,20 @@ done
 
 - `Assets/Bube/Tests/EditMode/ContentValidationTests.cs` — `Bube/Validate Content` doğrulayıcısı, `config.json` kimliği, metin anahtarları ve `Locale.Get` davranışı.
 - `Assets/Bube/Tests/EditMode/ValidationReportTests.cs` — doğrulayıcının kendisi: bilerek bozulmuş bellek içi vakada **tüm** bulguların toplandığı, sütun başına tam bir `correct`, yinelenen dil anahtarı, `nextCaseId` zinciri (eksik hedef, döngü, kendine gönderme) ve yayımlanan içeriğin temiz geçmesi.
+- `Assets/Bube/Tests/EditMode/TypographyTests.cs` — yazı ölçeği: `Snap` eşgüçlülüğü, eşitlikte büyük basamak, ve arayüzde ölçeği atlayan çıplak punto kalmaması.
 - `Assets/Bube/Tests/EditMode/SaveSchemaTests.cs` — `Progress`/`CareerProgress` JSON gidiş-dönüşü; eksik, boş, başka vakaya ait ve bilinmeyen sürümlü kayıtla yükleme.
 - `Assets/Bube/Tests/EditMode/TimelineAndGatingTests.cs` — zaman çizelgesi kilitleri, `PinTimeline`/`UnpinTimeline` eşgüçlülüğü ve kayıttan sağ çıkması, soru ve kaynak açılma koşulları.
 - `Assets/Bube/Tests/EditMode/CaseFlowTests.cs` — Dosya #001'in soruşturma mantığı: kilit zinciri, takip görüşmelerine giden iki rota, yarım görüşme, yanlış kaynak sunma, talep gecikmesi, kayıt gidiş-dönüşü, rapor değerlendirmesinin üç sonucu, kapanmış vaka. `Investigation.cs` Unity'den bağımsız olduğu için bunların hiçbiri Play Mode gerektirmiyor.
 - `Assets/Bube/Tests/PlayMode/CaseOfferFlowTests.cs` — vaka teklifinin masadaki akışı: kabul edilmemiş vakada masada yalnız gelen evrak tepsisi açık, tepside önizleme okunuyor, kabul düğmesine gerçek bir tıklamayla basılınca vaka kabul edilip masa tamamen açılıyor. Eski tam ekran `CaseOffer()`'ın geri gelmediği de sabitlendi. Testler `BubeApp`'in özel üyelerine yansımayla erişiyor; `InboxPage`'in iki aşırı yüklemesi olduğu için parametre sayısına göre seçiliyor.
 - `Assets/Bube/Tests/PlayMode/BootSmokeTests.cs` — `BootScene` açılıyor, `BubeApp` arayüzü kuruyor, sahne geçişinde tek örnek olarak hayatta kalıyor, güvenli alan kenar boşlukları yazılıyor, konsolda hata yok.
 
-Toplam 48 test: 43 EditMode + 5 PlayMode.
+Toplam 51 test: 46 EditMode + 5 PlayMode.
 
 Kapsam dışı ve gözle doğrulanması gerekenler: video oynatma, çentik/güvenli alan görünümü, dokunma hedefi boyutları, Türkçe glifler, klavye davranışı, kare hızı ve okunabilirlik. Bunlar `Docs/PLAYTEST_001.md`'de.
+
+## Yazı ölçeği
+
+Yazı tipi tektir (IBM Plex Mono, kök öğeden miras). Punto da tektir: `Typography.Steps` dokuz basamaktır ve `Typography.Snap` ölçek dışı her değeri en yakın basamağa oturtur. `Text(...)` ve `Button(...)` boyutu **her zaman** `Snap`'ten geçirir, yani ölçek dışı bir punto ekrana ulaşamaz — yeni bir çağrı yeri eklerken ölçeği hatırlamak gerekmez. `TypographyTests` çıplak `style.fontSize=<sayı>` kalmadığını kaynak taramasıyla sabitler.
 
 ## Vaka teklifi akışı
 
