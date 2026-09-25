@@ -44,6 +44,7 @@ public sealed class CaseOfferFlowTests {
   for (int frame = 0; frame < 20; frame++) yield return null;
   app = Object.FindFirstObjectByType<BubeApp>();
   Assert.IsNotNull(app, "BubeApp açılmadı.");
+  SaveSandbox.ResetToInitialCase(app);
   game = Field(app, "game");
   Assert.IsNotNull(game, "Investigation kurulmadı.");
  }
