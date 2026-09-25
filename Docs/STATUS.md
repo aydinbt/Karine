@@ -28,7 +28,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — işareti
 
 Senaryo kullanıcıdan geldi ve eski "Kayıp Yedek" taslağının yerine geçti; taslak tamamen kaldırıldı. Büro **BPS Asayiş Masası**, nitelik yağma/gasp ve yaralama. Vakanın yeni olan yanı mekanik değil **yapı**: tek olay → iki ayrı eylem → iki ayrı sorumluluk. Yaralayan ile parayı alan farklı kişiler, bu yüzden sonuç raporu bu vakada dört sütunlu ([CASE002_DESIGN.md](CASE002_DESIGN.md)). Sütun motorda isteğe bağlıdır; Dosya #001 üç sütunlu kalır.
 
-Durum `[~]`: 13 düğüm, 31 soru, 170 metin anahtarı; doğrulayıcı vakayı baştan sona otomatik oynuyor ve desteklenen raporu gönderiyor. **Play Mode'da oynanmadı.** Açık iş: Selçuk, Deniz, Emre ve Kerem için piksel portreler.
+Durum `[~]`: 13 düğüm, 31 soru, 170 metin anahtarı; doğrulayıcı vakayı baştan sona otomatik oynuyor ve desteklenen raporu gönderiyor. **Play Mode'da oynanmadı.** Dört kişinin portreleri kullanıcıdan geldi ve depoda.
 
 ## Kimlik
 

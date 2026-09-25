@@ -49,4 +49,4 @@ Yanlış kişi yazmak — fail sütununda da para sütununda da — asılsız su
 
 ## Üretim notu
 
-Yeni mekanik yok: Dosya #001'in sistemleri (dosya → görüşme → CCTV metin dökümü → gelen evrak → yeniden görüşme → yeni evrak → sonuç raporu) yeniden kullanılır. Yeni olan tek şey soruşturmanın yapısıdır. Selçuk, Deniz, Emre ve Kerem için piksel portre üretimi **açık iştir**; şimdilik veri içindeki portre renkleriyle çizilir.
+Yeni mekanik yok: Dosya #001'in sistemleri (dosya → görüşme → CCTV metin dökümü → gelen evrak → yeniden görüşme → yeni evrak → sonuç raporu) yeniden kullanılır. Yeni olan tek şey soruşturmanın yapısıdır. Selçuk, Deniz, Emre ve Kerem'in portreleri 26 Eylül 2026'da kullanıcıdan geldi ve `Resources/Bube/Characters/` altına girdi; veri içindeki portre renkleri yalnız yedek olarak duruyor.
