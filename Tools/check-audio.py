@@ -10,11 +10,11 @@ import array, math, os, sys, wave
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 AUDIO = os.path.normpath(os.path.join(HERE, "..", "Assets", "Bube", "Resources", "Bube", "Audio"))
-LOOPS = {"room_office", "room_interview", "menu_theme"}
+LOOPS = {"room_interview", "menu_theme", "desk_theme"}
 # Beklenen seviye aralığı (dBFS, RMS). Arayüz sesi alçak, ortam çok daha alçak.
 # Arayüz sesi alçak, oda ortamı çok daha alçak. Ürkütmeme kararından sonra
 # odaların üst sınırı indirildi: bir oda ortamı fark edilirse zaten gürültüdür.
-BANDS = {"ui": (-30.0, -11.0),
+BANDS = {"ui": (-30.0, -11.0), "desk": (-34.0, -16.0),
          "room": (-44.0, -26.0), "menu": (-26.0, -11.0)}
 
 def db(v): return 20 * math.log10(max(v, 1e-9))
@@ -74,7 +74,7 @@ def check(name, path):
   if step > 1.5: problems.append("dikişte örnek atlaması (%.2f)" % step)
   # Seviye basamağı ortam sesi için kusurdur, müzik için değil: dördüncü akor
   # bilerek nefes alır, yani menü müziğinde sonda alçalmak tasarımın parçası.
-  if name != "menu_theme":
+  if name not in CHORDS:
    if abs(head - whole) > 1.5: problems.append("döngü başında seviye kamburu %+.1f dB" % (head-whole))
    if abs(tail - whole) > 1.5: problems.append("döngü sonunda seviye düşüşü %+.1f dB" % (tail-whole))
 
@@ -94,13 +94,17 @@ def goertzel(x, freq, rate, i0, n):
 
 # Menü müziğinin dört akoru. Akor gerçekten duyuluyorsa kökün gücü, akora
 # yabancı bir aralıktan (triton) belirgin biçimde yüksek olmalı.
-CHORDS = [(0.0, 220.00, 311.13), (8.0, 174.61, 246.94),
-          (16.0, 146.83, 207.65), (24.0, 164.81, 233.08)]
+CHORDS = {
+ "menu_theme": [(0.0, 220.00, 311.13), (8.0, 174.61, 246.94),
+                (16.0, 146.83, 207.65), (24.0, 164.81, 233.08)],
+ "desk_theme": [(0.0, 146.83, 207.65), (10.0, 196.00, 277.18),
+                (20.0, 233.08, 329.63), (30.0, 220.00, 311.13)],
+}
 
-def check_chords(path):
+def check_chords(name, path):
  x, rate = read(path)
  problems = []
- for start, root, tritone in CHORDS:
+ for start, root, tritone in CHORDS[name]:
   i0 = int((start + 4.0) * rate); n = int(0.75 * rate)
   strong, weak = goertzel(x, root, rate, i0, n), goertzel(x, tritone, rate, i0, n)
   ratio = db(strong) - db(weak)
@@ -119,8 +123,8 @@ if __name__ == "__main__":
   found += 1
   name = file[:-4]
   failed += len(check(name, os.path.join(AUDIO, file)))
-  if name == "menu_theme":
-   found_problems = check_chords(os.path.join(AUDIO, file))
+  if name in CHORDS:
+   found_problems = check_chords(name, os.path.join(AUDIO, file))
    for problem in found_problems: print("      ! " + problem)
    failed += len(found_problems)
  print("  %d dosya, %d bulgu" % (found, failed))

@@ -166,20 +166,20 @@ public sealed partial class BubeApp {
   var caption=Text(controls,T(record.textKey),Ink,15);
   caption.style.flexGrow=1;caption.style.minWidth=0;
   caption.style.marginBottom=0;caption.style.marginRight=8;
-  cctvPlaybackButton=new Button(()=>{
+  cctvPlaybackButton=new Button(KarineUI.Sounded(()=>{
    if(cctvPlayer==null || !cctvPlayer.isPrepared)return;
    if(cctvReachedEnd){ReplayCctvVideo();return;}
    if(cctvPlayer.isPlaying){cctvPlayer.Pause();cctvPlaybackButton.text=T("cctv.videoPlay");}
    else {cctvPlayer.Play();cctvPlaybackButton.text=T("cctv.videoPause");}
-  }){text=T("cctv.videoPlay")};
-  cctvStepButton=new Button(()=>{
+  })){text=T("cctv.videoPlay")};
+  cctvStepButton=new Button(KarineUI.Sounded(()=>{
    if(cctvPlayer==null || !cctvPlayer.isPrepared || cctvReachedEnd)return;
    if(cctvPlayer.isPlaying)cctvPlayer.Pause();
    cctvPlaybackButton.text=T("cctv.videoPlay");
    if(cctvPlayer.canStep)cctvPlayer.StepForward();
    else if(cctvPlayer.canSetTime)cctvPlayer.frame=Math.Max(0L,cctvPlayer.frame)+1L;
-  }){text=T("cctv.videoStep")};
-  var replay=new Button(ReplayCctvVideo){text=T("cctv.videoReplay")};
+  })){text=T("cctv.videoStep")};
+  var replay=new Button(KarineUI.Sounded(ReplayCctvVideo)){text=T("cctv.videoReplay")};
   // Bu üçünün metni oynatma durumuna göre değişiyor, o yüzden düğme elle
   // kuruluyor; biçimi yine kit'ten geliyor.
   foreach(var button in new[]{cctvPlaybackButton,cctvStepButton,replay}) {

@@ -28,7 +28,9 @@ public sealed partial class BubeApp {
   },true);
  }
  void Hotspot(string label,float x,float y,float w,float h,Action action) {
-  var button=new Button(action){text=string.Empty,tooltip=label};
+  // Masadaki nesne de bir düğmedir: basıldığında duyulmalı. Kit dışında
+  // kurulduğu için ses kapısı elle geçirilir.
+  var button=new Button(KarineUI.Sounded(action)){text=string.Empty,tooltip=label};
   button.style.position=Position.Absolute;
   button.style.left=Length.Percent(x);button.style.top=Length.Percent(y);
   button.style.width=Length.Percent(w);button.style.height=Length.Percent(h);

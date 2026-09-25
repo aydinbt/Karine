@@ -20,7 +20,7 @@ public static class SoundSettings {
  public static SoundLevel Sfx   { get; private set; } = SoundLevel.Full;
 
  public static float Gain(SoundLevel level) =>
-  level == SoundLevel.Off ? 0f : level == SoundLevel.Low ? .35f : 1f;
+  level == SoundLevel.Off ? 0f : level == SoundLevel.Low ? .55f : 1f;
 
  public static float MusicGain => Gain(Music);
  public static float SfxGain   => Gain(Sfx);

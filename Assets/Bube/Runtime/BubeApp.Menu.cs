@@ -78,7 +78,7 @@ public sealed partial class BubeApp {
  // Menü satırı: solda simge sütunu, ortada etiket, seçili satırda sağda ok.
  // Tek dokunuşluk hedef yüksekliği `MinimumTouchTarget`in üstünde tutulur.
  void MenuRow(VisualElement parent,string icon,string label,Action open,bool primary) {
-  var row=new Button(open);
+  var row=new Button(KarineUI.Sounded(open));
   row.style.flexDirection=FlexDirection.Row;
   row.style.alignItems=Align.Center;
   row.style.minHeight=MinimumTouchTarget;
@@ -169,55 +169,77 @@ public sealed partial class BubeApp {
   if(menuTexture!=null){menuTexture.Release();Destroy(menuTexture);menuTexture=null;}
  }
 
+ // Menü üstü kart. Eskiden kenarlardan %27 içeriydi: geniş bir ekranda
+ // makuldü, telefonda dikey tutulduğunda kart daracık bir şerit oluyor ve
+ // ayarlar sıkışıyordu. Artık kenar payı ekranın biçimine göre; içerik de
+ // kaydırılabilir, çünkü ayarlar kartın boyundan uzun olabilir.
  void MenuOverlay(string title,out VisualElement card) {
   Back(Home);
   Home();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
   shade.style.backgroundColor=KarineTheme.Veil(.72f);root.Add(shade);
-  card=KarineUI.Panel(root,true);
-  card.style.position=Position.Absolute;
-  card.style.left=Length.Percent(27);card.style.right=Length.Percent(27);
-  card.style.top=Length.Percent(20);card.style.bottom=Length.Percent(20);
-  card.style.marginBottom=0;card.style.marginRight=0;
-  KarineUI.Title(card,title,24);
-  KarineUI.Rule(card);
+  bool tall=Screen.height>=Screen.width;
+  var frame=KarineUI.Panel(root,true);
+  frame.style.position=Position.Absolute;
+  frame.style.left=Length.Percent(tall?5:24);frame.style.right=Length.Percent(tall?5:24);
+  frame.style.top=Length.Percent(tall?7:12);frame.style.bottom=Length.Percent(tall?6:12);
+  frame.style.marginBottom=0;frame.style.marginRight=0;
+  KarineUI.Title(frame,title,24);
+  KarineUI.Rule(frame);
+  // Kaydırma kartın **içinde**: başlık sabit kalır, içerik akar.
+  var scroll=new ScrollView(ScrollViewMode.Vertical);
+  scroll.style.flexGrow=1;
+  scroll.verticalScrollerVisibility=ScrollerVisibility.Auto;
+  frame.Add(scroll);
+  card=scroll.contentContainer;
+  card.style.flexGrow=1;
  }
  void SettingsPage() {
   VisualElement card;MenuOverlay(T("menu.settings"),out card);
-  // Birbirini dışlayan iki seçenek: kit'in radyo grubu. Eskiden ikisi de
-  // birincil düğmeydi, yani ekranda iki dominant eylem görünüyordu.
-  KarineUI.Subtitle(card,T("settings.textSpeed"),17);
+  // Ayarlar üç bölüm: metin, ses, reklam. Her bölüm kendi alt başlığıyla
+  // açılıyor ve aralarına çizgi giriyor — eskiden hepsi tek sütunda üst üste
+  // yığılıydı ve nerede bittiği belli olmuyordu.
+  SettingsSection(card,T("settings.textSpeed"),false);
   KarineUI.Radio(card,T("settings.instant"),instantText,()=>{
    instantText=true;PlayerPrefs.SetInt("bube.instantText",1);PlayerPrefs.Save();SettingsPage();
   });
   KarineUI.Radio(card,T("settings.normal"),!instantText,()=>{
    instantText=false;PlayerPrefs.SetInt("bube.instantText",0);PlayerPrefs.Save();SettingsPage();
   });
-  // Ses üç kademedir; kit'te kaydırıcı yok, o yüzden radyo grubu.
-  KarineUI.Subtitle(card,T("settings.music"),17);
+
+  // Ses üç kademedir; kit'te kaydırıcı yok. Üç radyoyu tek satıra sıkıştırmak
+  // yerine kit'in **sekme şeridi** kullanılıyor: üç kademe eşit genişlikte,
+  // seçili olan dolu. Dokunma hedefi de böylece satır boyunca açılıyor.
+  SettingsSection(card,T("settings.music"),true);
   SoundRow(card,SoundSettings.Music,level=>{SoundSettings.SetMusic(level);ApplySound();});
-  KarineUI.Subtitle(card,T("settings.sfx"),17);
+  SettingsSection(card,T("settings.sfx"),false);
   SoundRow(card,SoundSettings.Sfx,level=>{SoundSettings.SetSfx(level);ApplySound();});
+
   // Reklam onayı ayarlarda durur ve **her zaman geri alınabilir**; onay bir kez
   // alınıp kilitlenen bir şey değildir.
-  KarineUI.Subtitle(card,T("settings.ads"),17);
+  SettingsSection(card,T("settings.ads"),true);
   Text(card,T("settings.ads.status."+
    (AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),Muted,15);
   Button(card,T("settings.ads.change"),AskForAdConsent);
-  var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
+
   // Hakkında da menüden çıktı; ayarların içinde duruyor.
+  KarineUI.Rule(card);
   Button(card,T("menu.about"),AboutPage);
   Button(card,T("offer.back"),Home);
  }
- // Üç kademe tek satırda: kapalı / kısık / açık.
+ // Bölüm başlığı: ilkinin üstüne çizgi gerekmez, sonrakiler ayrılır.
+ void SettingsSection(VisualElement card,string title,bool separated) {
+  if(separated)KarineUI.Rule(card);
+  var label=KarineUI.Subtitle(card,title,17);
+  label.style.marginTop=separated?KarineTheme.SpaceSm:0;
+  label.style.marginBottom=KarineTheme.SpaceSm;
+ }
+ // Üç kademe tek şerit: kapalı / kısık / açık.
  void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {
-  var row=KarineUI.Row(card);
-  foreach(var level in new[]{SoundLevel.Off,SoundLevel.Low,SoundLevel.Full}) {
-   var captured=level;
-   var cell=new VisualElement();cell.style.flexGrow=1;row.Add(cell);
-   KarineUI.Radio(cell,T(SoundSettings.LabelKey(captured)),current==captured,()=>{onPick(captured);SettingsPage();});
-  }
+  var levels=new[]{SoundLevel.Off,SoundLevel.Low,SoundLevel.Full};
+  KarineUI.Tabs(card,levels.Select(level=>T(SoundSettings.LabelKey(level))).ToArray(),
+   Array.IndexOf(levels,current),index=>{onPick(levels[index]);SettingsPage();},true);
  }
  void ApplySound() { if(audio!=null)audio.ApplyLevels(); }
 

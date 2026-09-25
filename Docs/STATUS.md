@@ -1,22 +1,22 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (UI Kit taşımasının kapanışı + vakadan bağımsız temeller: ses, geri tuşu, reklam dikişi)
+**Son güncelleme:** 25 Eylül 2026 (Dosya #001 baştan sona oynandı; oynanıştan gelen ses ve ayarlar düzeltmeleri)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
 
-İçerik doğrulayıcısı vaka başına ayrıldı ve tüm bulguları tek koşuda raporluyor; Dosya #001'in soruşturma **mantığı** uçtan uca otomatik testlerle doğrulanıyor ve `BubeApp` Play Mode'da hatasız açılıyor. Açılış (masaya varış sinematiği, vaka teklifi, masa yerleşimi) 25 Eylül 2026'da Play Mode'da **gözlendi**. Kalan boşluk **oynanışın gerisi ve cihaz doğrulaması**: soruşturmanın tamamı hâlâ bir insan tarafından baştan sona oynanmadı ve hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md)).
+**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı ve kapatıldı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3).
 
 ## Dosya #001 hakkında (25 Eylül 2026 kullanıcı kararı)
 
-**Vaka #001'in içeriği şimdilik tamam sayılıyor.** Yeni ifade, kaynak, kanıt veya tur eklenmeyecek; vakanın tasarımı üstünde yeni iş açılmaz. Bu **doğrulamanın yapıldığı anlamına gelmez**: soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları hâlâ bir insan tarafından baştan sona oynanmadı ([PLAYTEST_001.md](PLAYTEST_001.md) §2-4), bu yüzden M1 ve M2 maddeleri `[~]` kalır. İçerik kapandığına göre sıradaki iş ya elle oynanış doğrulaması ya da başka bir eksen (cihaz derlemesi, case002) olur.
+**Vaka #001'in içeriği şimdilik tamam sayılıyor.** Yeni ifade, kaynak, kanıt veya tur eklenmeyecek; vakanın tasarımı üstünde yeni iş açılmaz. **Oynanış doğrulaması yapıldı:** kullanıcı vakayı 25 Eylül 2026'da baştan kapanışa kadar oynadı ve içerikte sorun bulunmadı ([PLAYTEST_001.md](PLAYTEST_001.md) §2, §4). Geriye cihaz adımı (§3) kaldı; M1 ve M2'nin bitiş ölçütleri buna bağlı. Sıradaki eksen cihaz derlemesi ya da case002.
 
 ## Vakadan bağımsız temeller (25 Eylül 2026)
 
 Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[~]`, hiçbiri Play Mode'da görülmedi:
 
 - **Vaka eklemek koddan koptu:** yeni vaka = `caseXXX.json` + `tr.caseXXX.json` + varlıklar. Portre tonları veride, doğrulayıcı vakaya özel C# istemiyor.
-- **Ses sistemi kurulu ve dokuz klip depoda.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede yumuşak bir sohbet blibi (konuşma taklidi yok), ana menü müziği (32 s döngü) ve iki oda ortamı (24 s döngü, bilerek neredeyse sessiz). Doğrulayıcı dokuzunun varlığını kilitliyor. **Duyulmadı** — kulakla sınamak sana ait.
+- **Ses sistemi kurulu, dokuz klip depoda ve sesler duyuldu.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede yumuşak bir sohbet blibi (konuşma taklidi yok), ana menü müziği (32 s döngü), masa müziği (`desk_theme`, 40 s — oda gürültüsünün yerini aldı) ve görüşme odası ortamı. Doğrulayıcı dokuzunun varlığını kilitliyor.
 - **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 
@@ -34,10 +34,10 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[
 | --- | --- |
 | **Faz 0 — Zemin** | **Bitti ve doğrulandı** |
 | **Faz 1 — Doğrulamayı otomatikleştir** | **Bitti** — doğrulayıcı vaka başına ayrıldı, ilk hatada durmuyor, 42 test yeşil |
-| **Faz 2 — Gerçekten oyna** | **İlerliyor** — kit taşıması, ses, geri tuşu ve reklam dikişi kodlandı (105 test yeşil); elle oynanış ve cihaz adımı açık |
+| **Faz 2 — Gerçekten oyna** | **İlerliyor** — Dosya #001 elle oynandı ve oynanıştan gelen dört düzeltme girildi (105 test yeşil); **cihaz adımı açık** |
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
-| M1 — Dosya #001 döngüsü | Kod ~tamam, **Play Mode doğrulaması açık** |
-| M2 — Soruşturmayı oyuna çevirme | Kod büyük ölçüde tamam, doğrulama açık |
+| M1 — Dosya #001 döngüsü | **Baştan sona oynandı**; cihaz adımı açık |
+| M2 — Soruşturmayı oyuna çevirme | Oynanarak doğrulandı; cihaz adımı açık |
 | M3 — Vaka ekleme & kayıt | case002 taslak hâlde çalışıyor; kayıt göçü kodlandı `[~]` |
 | M4 — Mobil kalite kapısı | Derleme ayarları hazır; cihaz testi başlamadı |
 | M5 — Görsel ve ses | Ertelendi |
@@ -70,7 +70,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[
 ## Açık kritik maddeler
 
 1. **Terminal ekranındaki arma yaması görünüyor** — armanın yeri tek düz renkle dolduruldu, ekranın gradyanından ayrılıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcı kararıyla sonraya bırakıldı. Kurum adı ve terminal arması hem masa görselinden hem videodan temizlendi; dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
-1. **Dosya #001 hiç baştan sona oynanmadı** (açılışı gözlendi, gerisi değil) — M1 ve M2'nin bitiş ölçütleri buna bağlı (Faz 2). **Asıl darboğaz budur.**
+1. ~~**Dosya #001 hiç baştan sona oynanmadı.**~~ **Oynandı (kullanıcı, 25 Eylül 2026), sorun çıkmadı.** Kalan darboğaz **cihaz**: oyun hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3) — M1/M2'nin bitiş ölçütleri artık buna bağlı. **Asıl darboğaz budur.**
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. ~~**Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor.~~ **Kodlandı, cihazda denenmedi `[~]`** — eski kayıt yükseltilir, gelecekten gelen kayıt silinmeyip yana kaldırılır ve oyuncuya söylenir.
 4. ~~**Performans:** `Update()` her karede tam vaka JSON'u ayrıştırıyor; `Locale.Get` doğrusal arama yapıyor.~~ **Kodlandı (Faz 2), Play Mode'da gözlenmedi `[~]`** — beş düzeltme: görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`.
@@ -91,4 +91,4 @@ Ayrıntı ve gerekçeler: [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md), işaretl
 
 ## Sıradaki iş
 
-[PLAYTEST_001.md](PLAYTEST_001.md) §2–4'ü elle koş: oyunu bir kez baştan sona oyna, sonra bir Android telefonda yinele. Betikteki otomatikleşmiş satırlar işaretli; kalanlar gözle doğrulanacak şeyler — video, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik. Bunlar doldurulunca M1/M2 kapanabilir.
+[PLAYTEST_001.md](PLAYTEST_001.md) §3'ü koş: oyunu bir Android telefonda oyna (§2 ve §4 masaüstünde yapıldı). Betikteki otomatikleşmiş satırlar işaretli; kalanlar gözle doğrulanacak şeyler — video, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik. Bunlar doldurulunca M1/M2 kapanabilir.

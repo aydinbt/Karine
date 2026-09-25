@@ -31,7 +31,7 @@ public static class ProjectRules {
  public static readonly string[] RequiredClips = new[] {
   AudioDirector.Press, AudioDirector.Typewriter,
   AudioDirector.Stamp, AudioDirector.Notification,
-  "menu_theme", "room_office", "room_interview",
+  "menu_theme", "desk_theme", "room_interview",
  }.Concat(AudioDirector.Chat).ToArray();
 
  // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 8'e indi.
@@ -127,15 +127,17 @@ public static class ProjectRules {
    report.Note("Ham renk borcu azalmış (" + rawColors + "/" + RawColorBudget +
     "); `RawColorBudget` bu sayıya çekilebilir.");
 
-  // Kit'in düğmesi ses kapısını atlamamalı: `Runtime/UI` içindeki her
-  // `new Button(` çağrısı `Sounded(` ile sarılır. Aksi hâlde yeni bir kit
-  // bileşeni sessiz kalır ve bunu kimse fark etmez.
-  foreach (var path in Directory.GetFiles("Assets/Bube/Runtime/UI", "*.cs", SearchOption.AllDirectories)) {
+  // Hiçbir düğme ses kapısını atlamamalı: `Runtime` içindeki her `new Button(`
+  // çağrısı `Sounded(` ile sarılır. Kural önce yalnız `Runtime/UI` içindi ve
+  // bu yüzden masadaki nesneler, menü satırı ve CCTV oynatma düğmeleri
+  // sessiz kaldı — kimse fark etmedi, ta ki oyuncu basana kadar.
+  foreach (var path in Directory.GetFiles("Assets/Bube/Runtime", "*.cs", SearchOption.AllDirectories)) {
    var lines = File.ReadAllLines(path);
    for (int index = 0; index < lines.Length; index++) {
     if (!lines[index].Contains("new Button(")) continue;
-    report.Require(lines[index].Contains("new Button(Sounded("),
-     "Kit düğmesi ses kapısını atlıyor: " + path.Replace('\\', '/') + ":" + (index + 1) +
+    report.Require(lines[index].Contains("new Button(Sounded(") ||
+     lines[index].Contains("new Button(KarineUI.Sounded("),
+     "Düğme ses kapısını atlıyor: " + path.Replace('\\', '/') + ":" + (index + 1) +
      ". `new Button(Sounded(...))` kullan.");
    }
   }

@@ -230,16 +230,18 @@ public sealed partial class BubeApp : MonoBehaviour {
    SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
  }
 
- // Odanın sesi sahneden gelir; vaka kendi ortam sesini söyleyebilir
- // (`CaseData.ambienceId`), söylemezse odanın varsayılanı çalar. Ses dosyası
- // yoksa sessizdir — ekranlar bunu bilmek zorunda değil.
+ // Odanın sesi sahneden gelir. Masada **müzik** çalar, oda gürültüsü değil:
+ // hava hışırtısı bir süre sonra yorucu ve masada oyuncu okuyor, okumaya
+ // eşlik eden şey müziktir. Vaka kendi ortam sesini söylerse (`ambienceId`)
+ // o müziğin altında durur. Ses dosyası yoksa sessizdir — ekranlar bunu
+ // bilmek zorunda değil.
  void SetRoomSound(string sceneName) {
   if(audio==null)return;
   string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
   switch(sceneName) {
    case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); break;
    case "InterviewScene": audio.StopMusic(); audio.PlayAmbience("room_interview"); break;
-   default: audio.StopMusic(); audio.PlayAmbience(caseAmbience ?? "room_office"); break;
+   default: audio.PlayMusic("desk_theme"); audio.PlayAmbience(caseAmbience); break;
   }
  }
 

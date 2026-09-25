@@ -596,3 +596,15 @@ Görüşmedeki satır sesinin dördüncü sürümü. Üçü de düştü ve düş
 Bu yüzden yeni ses hiçbir şeyi taklit etmiyor: `ui_chat` / `ui_chat_low`, yumuşak bir sinüs ve üstünde küçük bir çıngırak kısmisi (1:2,01 — tam oktav değil, yoksa organ gibi durur), rampalı açılış (tık yok), kısa sönme, çok az hava. İki varyant karışık çalıyor; alçak olan biraz daha uzun sönüyor, böylece ikisi aynı sesin iki vuruşu gibi durmuyor. Tepe 0,22: bir cümle boyunca düzinelerce kez duyulacak bir ses dikkat isterse yorgunluk yapar.
 
 Kural olarak not: **bir sesin gerekçesi ne kadar sağlam olursa olsun, ölçüt kulaktır.** Kâğıt sesi de böyle gitti. Dokuz klip, 0 bulgu, 98 EditMode + 7 PlayMode yeşil. **Yine kulakla dinlenmedi.**
+
+## Oynanıştan gelen dört bulgu (25 Eylül 2026, oyun baştan sona oynandıktan sonra)
+
+Kullanıcı Dosya #001'i baştan kapanışa kadar oynadı, içerikte sorun çıkmadı ve sesler duyuldu. Dört bulgu oynanışın kendisinden geldi — hiçbiri masa başında görülebilecek şeyler değildi.
+
+**1. Masadaki nesneler sessizdi.** Gelen evrak, dosya, terminal ve görüşme masada görünmez birer düğme (`Hotspot`); basınca ses gelmiyordu. Sebep kuralın kapsamıydı: "her `new Button(` `Sounded(` ile sarılır" kilidi yalnız `Runtime/UI` klasörüne bakıyordu, ekranların içinde elle kurulan beş düğme kapsam dışındaydı. Kural artık bütün `Runtime`e bakıyor; masadaki nesneler, menü satırı ve CCTV'nin üç oynatma düğmesi sesli. **Ders:** bir kilidin değeri kapsamı kadardır.
+
+**2. Ana menü müziği hiç duyulmuyordu.** Akış klibi (`loadType: 2`, arkaplan yüklemesi) `Play()` anında hazır değildi ve Unity bunu **sessizce** geçiyor — ne hata, ne uyarı. İçe aktarım artık önceden yüklüyor (`preloadAudioData: 1`, `loadInBackground: 0`) ve `AudioDirector` yüklenmemiş klibi kendisi yüklüyor. Ayrıca "kısık" kademesi 0,35'ten 0,55'e çıktı: 0,35'te müzik varsayılan ayarda duyulmuyordu. Ölçüm dosyayı ölçer, çalmayı ölçmez — bu yüzden dokuz klip "0 bulgu" verirken müzik sessizdi.
+
+**3. Masada gürültü yerine müzik.** Oda havası (`room_office`) bir süre sonra yoruyor, üstelik masada oyuncu **okuyor** ve okumaya eşlik eden şey müziktir. Masa artık `desk_theme` çalıyor: 40 saniye, Dm–Gm–B♭–A, menü parçasından yavaş (akor başına 10 s), kırk saniyede yalnız iki nota ve belirgin biçimde alçak — metnin üstünde durmaması gerekiyor. `room_office` silindi. Görüşme odası ortam sesiyle kalıyor: orada oyuncu okumuyor, konuşuyor.
+
+**4. Ayarlar sayfası telefonda sıkışıktı.** `MenuOverlay` kartı kenarlardan sabit %27 içeriydi — geniş ekranda makul, dikey telefonda daracık bir şerit. Pay artık ekranın biçiminden geliyor (dikeyde %5, yatayda %24), kartın içi kaydırılabilir (başlık sabit, içerik akar), ses kademeleri üç sıkışık radyo yerine kit'in sekme şeridiyle seçiliyor ve bölümler alt başlık + çizgiyle ayrılıyor. Kit'e yeni bileşen **eklenmedi**; var olanlar doğru yerde kullanıldı.

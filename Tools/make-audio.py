@@ -236,25 +236,6 @@ def ui_notification():
 # İkisi de döngü. Olay yok, gelişme yok: oda ne yaparsan yapsın aynı kalır.
 # Bilinçli olarak **çok alçak** — ortam sesi fark edilmemek için vardır.
 
-def room_office():
- # İlk sürüm duvar saati, floresan uğultusu ve trafikle "gerilim odası"ydı:
- # oyuncuyu ürkütüyordu. Karar tersine çevrildi — oda **sıcak** ve neredeyse
- # sessiz. Saat yok (tik tak baskı kurar), floresan uğultusu yok (uğultu
- # rahatsız eder). Kalan: kapalı bir odanın kendi havası.
- LOOP = 24.0
- out = buf(LOOP)
- n = len(out)
-
- warm = loop_noise(LOOP, 101, cutoff=70, poles=3)     # odanın alçak sıcaklığı
- room = loop_noise(LOOP, 102, cutoff=340, poles=3, hp=60)  # havanın hareketi
- for i in range(n):
-  t = i / RATE
-  # Çok yavaş nefes: odanın canlı olduğunu söyler, dikkat çekmez
-  breath = 0.80 + 0.20 * math.sin(2*math.pi*t/LOOP + 0.4)
-  out[i] = warm[i] * 0.52 + room[i] * 0.13 * breath
-
- return normalize(steady_reverb(out, mix=0.12, room=0.66), 0.22)
-
 def room_interview():
  # Görüşme odası ofisten **daha kapalı**, daha sıcak değil daha derin. Yine
  # ürkütmeyecek: tavandaki ince çınlama ve floresan titremesi kaldırıldı,
@@ -369,6 +350,56 @@ def menu_theme():
   out[i] += hiss[i] * 0.010
  return normalize(out, 0.62)
 
+def desk_theme():
+ """Masanın müziği. Oda gürültüsünün yerini aldı: hava hışırtısı bir süre
+ sonra yorucu, üstelik masada oyuncu **okuyor** — okumaya eşlik eden şey
+ gürültü değil müzik olmalı. Menü parçasından üç farkı var: daha yavaş (akor
+ başına 8 s yerine 10 s), tel yok denecek kadar seyrek (dört akorda iki nota)
+ ve belirgin biçimde alçak, çünkü metnin üstünde durmayacak."""
+ LOOP, TAIL = 40.0, 5.0
+ BAR = 10.0
+ out = buf(LOOP + TAIL)
+
+ # Dm – Gm – B♭ – A: menünün Am'sinden bir adım uzak, aynı dünyada.
+ chords = [
+  ( 73.42, (146.83, 174.61, 220.00)),  # Dm
+  ( 98.00, (196.00, 233.08, 293.66)),  # Gm
+  (116.54, (233.08, 293.66, 349.23)),  # B♭
+  (110.00, (220.00, 277.18, 329.63)),  # A  (gerilim, başa döner)
+ ]
+
+ pad = buf(LOOP + TAIL)
+ for index, (root, triad) in enumerate(chords):
+  t0 = index * BAR
+  dur = BAR + 1.6
+  sine(pad, root,          0.22, dur, start=t0, env=swell(3.0, dur))
+  sine(pad, root * 1.0012, 0.16, dur, start=t0, env=swell(3.4, dur))
+  sine(pad, root * 0.5,    0.14, dur, start=t0, env=swell(4.0, dur))
+  for note in triad:
+   for harmonic, amp in ((1, 0.085), (2, 0.032), (3, 0.014)):
+    sine(pad, note * harmonic, amp, dur, start=t0,
+         phase=(note * harmonic) % 3.0, env=swell(4.2, dur, release=0.38))
+ lowpass(pad, 1050, poles=2)   # menüden daha kapalı: masa lambası ışığı gibi
+
+ # İki nota, kırk saniyede. Masada müzik olay değil zemin.
+ lead = buf(LOOP + TAIL)
+ for start, freq in ((6.5, 293.66), (26.0, 349.23)):
+  sine(lead, freq,       0.10, 4.0, start=start, env=decay(1.2))
+  sine(lead, freq * 2.0, 0.026, 2.4, start=start, env=decay(2.6))
+ lowpass(lead, 3400)
+ reverb(lead, mix=0.46, room=0.86, damp=0.30)
+
+ for i in range(len(out)):
+  out[i] = pad[i] * 0.80 + lead[i] * 0.80
+ soft(out, 1.1)
+ reverb(out, mix=0.12, room=0.78)
+ out = wrap_tail(out, LOOP)
+
+ hiss = loop_noise(LOOP, 307, band=(2600, 0.6))
+ for i in range(len(out)):
+  out[i] += hiss[i] * 0.008
+ return normalize(out, 0.42)
+
 # --- üretim ------------------------------------------------------------------
 
 SOUNDS = [
@@ -378,9 +409,9 @@ SOUNDS = [
  ("ui_notification", ui_notification),
  ("ui_chat",         ui_chat),
  ("ui_chat_low",     ui_chat_low),
- ("room_office",     room_office),
  ("room_interview",  room_interview),
  ("menu_theme",      menu_theme),
+ ("desk_theme",      desk_theme),
 ]
 
 if __name__ == "__main__":

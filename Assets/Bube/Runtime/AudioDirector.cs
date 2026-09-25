@@ -92,7 +92,12 @@ public sealed class AudioDirector : MonoBehaviour {
   if (channel == null || current == id) return;
   current = id;
   channel.Stop();
-  channel.clip = string.IsNullOrEmpty(id) ? null : Clip(id);
+  var next = string.IsNullOrEmpty(id) ? null : Clip(id);
+  // Akış klibi yüklenmeden `Play()` çağrılırsa ses **hiç** gelmez ve hata da
+  // düşmez: ana menü müziğinin duyulmamasının sebebi buydu. İçe aktarım artık
+  // önceden yüklüyor, bu satır da ikinci kapı.
+  if (next != null && next.loadState != AudioDataLoadState.Loaded) next.LoadAudioData();
+  channel.clip = next;
   channel.volume = SoundSettings.MusicGain;
   if (channel.clip != null && SoundSettings.MusicGain > 0f) channel.Play();
  }

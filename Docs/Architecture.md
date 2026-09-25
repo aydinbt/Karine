@@ -34,7 +34,7 @@ Eski `Bootstrap.unity` build listesinde **değildir**; `BootScene` ile byte düz
 - `Resources/Bube/Cases/case001.json` — 9 düğüm, 30 soru. Yayımlanmış.
 - `Resources/Bube/Cases/case002.json` — 7 düğüm, 12 soru, `draft: true`. Oyuncuya açılmaz (kod `draft` bayrağına uyuyor: `BubeApp.cs:91`, `:2748`).
 - `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (86 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
-- `Resources/Bube/Audio/` — **henüz boş.** `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `menu_theme`, `room_office`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
+- `Resources/Bube/Audio/` — dokuz klip. `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `ui_chat`/`ui_chat_low`, `menu_theme`, `desk_theme`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
 - `StreamingAssets/Bube/` — `world01_intro.mp4` (4.1 MB) + 4 CCTV klibi (12 MB).
 
 Vaka verisi bütünlüğü her test koşumunda otomatik doğrulanır (aşağıdaki "İçerik doğrulama"). case001 ve case002'de sarkan referans, erişilemeyen düğüm veya erişilemeyen soru yoktur.
@@ -171,6 +171,12 @@ Bu hedef case002 taslağıyla **veri düzeyinde** doğrulandı; oyuncu akışın
 
 `SoundSettings` sesin kararlarını (üç kademe: kapalı/kısık/açık, kazançları ve `PlayerPrefs` anahtarları) tutar; `AudioDirector` çalar. Ayrım kasıtlı: düzey mantığı Editor testinde `AudioSource` olmadan sınanıyor. Üç kanal karışmaz — müzik ve oda ortamı döngülü, efekt üst üste binebilir. Oda sesi `EnsureScene`ten gelir; vaka kendi ortamını söyleyebilir (`CaseData.ambienceId`).
 
+**Menü üstü kart telefon biçimine göre ölçülür.** `MenuOverlay` (ayarlar, hakkında, yeniden deneme, yönlendirme) kartı kenarlardan sabit %27 içeride kuruyordu: geniş ekranda makul, telefon dikey tutulduğunda daracık bir şerit. Artık pay ekranın biçiminden geliyor (dikeyde %5, yatayda %24) ve kartın içi `ScrollView` — başlık sabit kalır, içerik akar, uzun ayar listesi kesilmez. Ayarlarda ses kademeleri üç sıkışık radyo yerine kit'in **sekme şeridi** (`KarineUI.Tabs`, eşit genişlik) ile seçiliyor; bölümler alt başlık ve çizgiyle ayrılıyor.
+
+**Masada müzik çalar, oda gürültüsü değil.** İlk kurulum masaya bir hava hışırtısı koyuyordu (`room_office`); oyun baştan sona oynandığında bunun yorucu olduğu görüldü, üstelik masada oyuncu **okuyor** ve okumaya eşlik eden şey gürültü değil müziktir. Masa artık `desk_theme` çalıyor, `room_office` silindi. Görüşme odası ortam sesiyle kalıyor: orada oyuncu okumuyor, konuşuyor.
+
+**Akış klibi yüklenmeden çalmaz ve hata da vermez.** Ana menü müziğinin hiç duyulmamasının sebebi buydu: `menu_theme` akış (`loadType: 2`) + arkaplan yüklemesiyle içe aktarılıyordu, `Play()` klip hazır olmadan çağrılıyordu ve Unity bunu **sessizce** geçiyordu. İki kapı kondu: döngü kliplerinin metası artık `preloadAudioData: 1` / `loadInBackground: 0`, `AudioDirector.Loop` da yüklenmemiş klibi `LoadAudioData()` ile yüklüyor. Ayrıca "kısık" kademesi 0,35'ten 0,55'e çıktı — 0,35'te müzik varsayılan ayarda duyulmuyordu.
+
 Düğme sesi ekranların içine yazılmaz: `KarineUI.Sounded` kit düğmesinin kurucusunda durur, `KarineUI.Sound` temsilcisini `BubeApp` `AudioDirector`a bağlar. `ProjectRules` `Runtime/UI` içindeki her `new Button(` çağrısının `Sounded(` ile sarılı olmasını kilitler, yoksa yeni bir kit bileşeni sessiz kalır.
 
 ### Ses varlıkları sentezlenir
@@ -192,16 +198,16 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 | `ui_notification` | faksın küçük zili: anharmonik kısmiler + mekanizma tıkı | ADPCM |
 | `menu_theme` | 32 s neo-noir döngü, Am–F–Dm–E | Vorbis, akış |
 | `ui_chat` `ui_chat_low` | sohbet blibi: yumuşak sinüs + küçük çıngırak, iki varyant | ADPCM |
-| `room_office` | 24 s döngü: kapalı bir odanın sıcak havası | Vorbis, akış |
-| `room_interview` | 24 s döngü: aynısı ama daha kapalı, üst frekans yok | Vorbis, akış |
+| `desk_theme` | 40 s masa müziği, Dm–Gm–B♭–A: menüden yavaş ve alçak | Vorbis, akış |
+| `room_interview` | 24 s döngü: kapalı bir odanın havası, üst frekans yok | Vorbis, akış |
 
 **Döngü dikişi** iki ayrı teknikle kapatılır, çünkü iki ayrı sorun var. Sürekli katmanlar (gürültü yatağı) `loop_noise` ile **çapraz geçirilir**; kuyruğu başa eklemek o bölgede seviyeyi 1,4 katına çıkarır. Çınlayan katmanlar (yankı, nota kuyruğu) `wrap_tail` ile başa **eklenir**, böylece döngü kendi kuyruğunun üstüne biner. Yankı ise iki kopya sürülüp ikincisi alınarak kararlı hâle getirilir (`steady_reverb`), yoksa oda döngü başında boş, sonunda dolu olur. Periyodik bileşenlerin frekansı döngü boyunda tam çevrim yapar (100 Hz × 24 s = 2400 çevrim), yoksa dikişte faz atlar.
 
-`check-audio.py` kırpma, DC kayması, ölü sessizlik, seviye aralığı, dikişteki örnek atlaması ve döngü başındaki seviye kamburunu ölçer; menü müziğinde ayrıca dört akorun kökünü Goertzel ile ölçüp akora yabancı bir aralıktan yüksek olduğunu doğrular. Darbeli arayüz seslerinde seviye dosya boyu değil **en gürültülü 100 ms penceresi** üzerinden ölçülür, yoksa kuyruk sessizliği ölçümü yanıltır.
+`check-audio.py` kırpma, DC kayması, ölü sessizlik, seviye aralığı, dikişteki örnek atlaması ve döngü başındaki seviye kamburunu ölçer; menü ve masa müziğinde ayrıca dört akorun kökünü Goertzel ile ölçüp akora yabancı bir aralıktan yüksek olduğunu doğrular. Darbeli arayüz seslerinde seviye dosya boyu değil **en gürültülü 100 ms penceresi** üzerinden ölçülür, yoksa kuyruk sessizliği ölçümü yanıltır.
 
 **Hangi ses nerede çalar** — bu eşleme sesin kendisi kadar önemli, çünkü doğru ses yanlış yerde yanlış sestir:
 
-- `ui_press` her kit düğmesi (`KarineUI.Sounded`ın varsayılanı).
+- `ui_press` her düğme (`KarineUI.Sounded`ın varsayılanı) — masadaki görünmez `Hotspot`lar, menü satırı ve CCTV'nin oynatma düğmeleri dâhil. Bu üçü bir süre **sessizdi**, çünkü ses kilidi yalnız `Runtime/UI` içine bakıyordu; kural artık bütün `Runtime`e bakıyor.
 - `ui_typewriter` yalnız faks basılırken (`FaxPage`'in değerlendirme satırı). Arayüz düğmelerinde hiç yoktu.
 - `AudioDirector.Chat` (iki blip varyantı) görüşmede karşıdakinin cümlesi belirirken, beş karakterde bir, karışık sırayla ve alçak (0,55 kazanç).
 
