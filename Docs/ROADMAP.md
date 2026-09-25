@@ -1,11 +1,11 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 25 Eylül 2026 (soruşturma dokusu + mobil erişilebilirlik oturumu)  
+**Son durum:** 25 Eylül 2026 (kit taşımasının kapanışı: düğme, renk ve punto tek kapıda)  
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 51 test)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 84 test)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -255,4 +255,5 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **Ekranlar kit bileşenlerine taşındı** — dört sekme şeridi, iki masa uyarısı, iki onay modalı, ayarlar radyoları, kariyer durum göstergeleri, sinematik kontroller (duraklat/ilerleme/süre/İLERİ SAR/GEÇ) ve teknik metinler `KarineUI`ye geçti. Kâğıt tonları beşe indi, ham renk borcu 156 → 65. **Ekranlara gözle bakılmadı** → `[~]`.
 - [~] **Kit ikon dili kesildi** — 13 ortak ikon doğrudan kit görselinden; menüye özel dört ikon silindi (aynı işlev = tek ikon). Varlıkları doğrulayıcıda aranıyor.
 - [~] **Menü simgeleri maketten kesildi** — beş PNG (`Bube/Art/Icons/menu_*`), satır tonuyla boyanıyor; font glifleri kalktı. Simgelerin ekrana geldiği Play Mode testiyle doğrulandı, **gözle bakılmadı** → `[~]`.
+- [~] **Kit taşıması kapandı** — elle kurulan 41 düğmeden 5'i kaldı (CCTV'nin metni çalışma anında değişen üç düğmesi kit boyasını `KarineUI.Paint`ten alıyor, masadaki görünmez `Hotspot`, menünün kendine özgü satırı). Kâğıt katmanı için `PaperButton`, iki katman için `CloseButton` eklendi. Ham renk borcu 65 → 16; kalan 16 bilerek kalıyor (piksel portre tonları ve CCTV efektleri = oyun sanatı). Perde/cam/dosya kabı için `Veil`, `GlassDeep`/`Glass`/`GlassLift`, `Alpha`, `HotspotHover`, `Paper.Folder`/`FolderEdge`/`FolderDeep`/`Board`/`Approved` token'ları eklendi. Ekranlardaki her punto `Typography.Snap`ten geçiyor; iki yeni kilit de kaldırılıp denendi, beklenen hatayı verdi. 77 EditMode + 7 PlayMode yeşil. **Ekranlara Play Mode'da bakılmadı** → `[~]`.
 - [x] Arşiv kariyer ekranına, Hakkında ayarlara taşındı — menü maketteki beş satıra indi, iki işlev kaybolmadı.

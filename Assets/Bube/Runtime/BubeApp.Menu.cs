@@ -85,8 +85,8 @@ public sealed partial class BubeApp {
   row.style.width=330;
   row.style.borderTopWidth=0;row.style.borderBottomWidth=0;
   row.style.borderLeftWidth=0;row.style.borderRightWidth=0;
-  row.style.backgroundColor=primary?Ink:new Color(0,0,0,0);
-  var tone=primary?new Color(.10f,.12f,.14f):Ink;
+  row.style.backgroundColor=primary?Ink:Color.clear;
+  var tone=primary?KarineTheme.Glass:Ink;
   parent.Add(row);
 
   row.Add(MenuIcon(icon,tone));
@@ -171,7 +171,7 @@ public sealed partial class BubeApp {
   Home();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(0,0,0,.72f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.72f);root.Add(shade);
   card=KarineUI.Panel(root,true);
   card.style.position=Position.Absolute;
   card.style.left=Length.Percent(27);card.style.right=Length.Percent(27);
@@ -230,11 +230,11 @@ public sealed partial class BubeApp {
   Home();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.02f,.025f,.03f,.82f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.82f);root.Add(shade);
   var backing=new VisualElement();backing.style.position=Position.Absolute;
   backing.style.left=Length.Percent(8);backing.style.right=Length.Percent(8);
   backing.style.top=Length.Percent(6);backing.style.bottom=Length.Percent(5);
-  backing.style.backgroundColor=new Color(.28f,.17f,.13f);root.Add(backing);
+  backing.style.backgroundColor=KarineTheme.Paper.Folder;root.Add(backing);
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(9);paper.style.right=Length.Percent(9);
   paper.style.top=Length.Percent(5);paper.style.bottom=Length.Percent(6);
@@ -243,7 +243,7 @@ public sealed partial class BubeApp {
   paper.style.backgroundColor=KarineTheme.Paper.Sheet;root.Add(paper);
   var dark=KarineTheme.Paper.Ink;
   // Vaka secici basligi: sol ustte kompakt marka, altinda cizgi.
-  KarineLogo.Header(paper,150,KarineTheme.Paper.Stamp,new Color(.31f,.20f,.16f));
+  KarineLogo.Header(paper,150,KarineTheme.Paper.Stamp,KarineTheme.Paper.FolderEdge);
   Text(paper,T("archive.kicker"),KarineTheme.Paper.Stamp,14).style.marginBottom=2;
   var archiveHeading=Text(paper,heading,dark,27);archiveHeading.style.marginBottom=8;
   if(fonts!=null && fonts.Heading!=null)archiveHeading.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
@@ -266,8 +266,7 @@ public sealed partial class BubeApp {
     :T("summary.unknownDate");
    Button(list,T(item.data.titleKey)+"  ·  "+stamp+"   ›",()=>ArchiveCasePage(item.data.id,null));
   }
-  var back=new Button(Home){text=T("offer.back")};back.style.minHeight=45;
-  back.style.backgroundColor=KarineTheme.Paper.Tint;back.style.color=dark;paper.Add(back);
+  KarineUI.PaperButton(paper,T("offer.back"),Home).style.minHeight=45;
  }
  bool ArchiveReferenceAvailable(ArchivedCase item,string reference,out Node node) {
   node=null;
@@ -299,14 +298,10 @@ public sealed partial class BubeApp {
    Text(parent,label,KarineTheme.Paper.Faded,13);
    return;
   }
-  var link=new Button(()=>ArchiveCasePage(item.data.id,source.id,reference)){text=label+"  →"};
-  link.style.minHeight=42;link.style.whiteSpace=WhiteSpace.Normal;
-  link.style.unityTextAlign=TextAnchor.MiddleLeft;
-  link.style.fontSize=Typography.Snap(13);link.style.paddingLeft=9;link.style.paddingRight=8;
-  link.style.marginBottom=10;
-  link.style.backgroundColor=KarineTheme.Paper.Tint;
-  link.style.color=KarineTheme.Paper.Ink;
-  if(dossierFont!=null)link.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
+  var link=KarineUI.PaperButton(null,label+"  →",()=>ArchiveCasePage(item.data.id,source.id,reference),
+   KarinePaperKind.Choice,true);
+  link.style.minHeight=42;link.style.fontSize=Typography.Snap(13);
+  link.style.paddingLeft=9;link.style.paddingRight=8;link.style.marginBottom=10;
   parent.Add(link);
  }
  void ArchiveCasePage(string caseId,string sourceId,string focusReference=null) {
@@ -393,8 +388,7 @@ public sealed partial class BubeApp {
     }
    } else Text(detail,T(selected.bodyKey),dark,16);
   }
-  var back=new Button(ArchivePage){text=T("archive.back")};back.style.minHeight=45;
-  back.style.backgroundColor=KarineTheme.Paper.Tint;back.style.color=dark;paper.Add(back);
+  KarineUI.PaperButton(paper,T("archive.back"),ArchivePage).style.minHeight=45;
  }
  void ArchiveFocus(ScrollView scroll,VisualElement target) {
   target.style.backgroundColor=KarineTheme.Paper.Tint;

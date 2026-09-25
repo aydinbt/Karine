@@ -37,7 +37,7 @@ public sealed partial class BubeApp {
   introPlace.style.flexDirection=FlexDirection.Row;introPlace.style.alignItems=Align.Center;
   introPlace.style.paddingLeft=12;introPlace.style.paddingRight=16;
   introPlace.style.paddingTop=9;introPlace.style.paddingBottom=7;
-  introPlace.style.backgroundColor=new Color(.04f,.06f,.08f,.70f);
+  introPlace.style.backgroundColor=KarineTheme.Veil(.70f);
   introPlace.style.opacity=0;root.Add(introPlace);
   var flag=string.IsNullOrEmpty(activeIntro.flagResource)?null:Resources.Load<Texture2D>(activeIntro.flagResource);
   if(flag!=null) {
@@ -57,7 +57,7 @@ public sealed partial class BubeApp {
   introBrand.style.right=Length.Percent(6);introBrand.style.top=Length.Percent(42);
   introBrand.style.paddingLeft=22;introBrand.style.paddingRight=22;
   introBrand.style.paddingTop=14;introBrand.style.paddingBottom=12;
-  introBrand.style.backgroundColor=new Color(.04f,.06f,.08f,.64f);
+  introBrand.style.backgroundColor=KarineTheme.Veil(.64f);
   introBrand.style.opacity=0;root.Add(introBrand);
   var studio=Text(introBrand,"bubeGames",Ink,31);studio.style.marginBottom=1;
   if(dossierBoldFont!=null)studio.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
@@ -229,7 +229,7 @@ public sealed partial class BubeApp {
   folder.style.left=Length.Percent(32);folder.style.width=Length.Percent(36);
   folder.style.height=Length.Percent(29);folder.style.top=Length.Percent(-35);
   folder.style.backgroundColor=KarineTheme.Paper.Tint;
-  folder.style.borderBottomWidth=7;folder.style.borderBottomColor=new Color(.31f,.18f,.13f);
+  folder.style.borderBottomWidth=7;folder.style.borderBottomColor=KarineTheme.Paper.FolderEdge;
   folder.style.paddingLeft=24;folder.style.paddingTop=20;root.Add(folder);
   Text(folder,T("intro.firstFile"),Base,17);
   var label=Text(folder,T(game.Data.titleKey),Base,24);

@@ -32,12 +32,12 @@ public sealed partial class BubeApp {
   }
   var top=new VisualElement();top.style.position=Position.Absolute;
   top.style.left=0;top.style.right=0;top.style.top=0;top.style.height=64;
-  top.style.backgroundColor=new Color(.055f,.075f,.09f,.98f);
+  top.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.98f);
   top.style.paddingLeft=26;top.style.paddingTop=12;root.Add(top);
   Text(top,"bube POLİS  /  "+T("kind.interview")+"  /  "+T(game.Data.titleKey),Ink,17);
   var identity=new VisualElement();identity.style.position=Position.Absolute;
   identity.style.left=Length.Percent(2);identity.style.top=Length.Percent(17);
-  identity.style.width=Length.Percent(23);identity.style.backgroundColor=new Color(.055f,.075f,.09f,.94f);
+  identity.style.width=Length.Percent(23);identity.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.94f);
   identity.style.paddingLeft=16;identity.style.paddingRight=12;identity.style.paddingTop=14;
   root.Add(identity);
   Text(identity,T("interview.identity"),Gold,14);
@@ -47,7 +47,7 @@ public sealed partial class BubeApp {
   var dialogue=new VisualElement();dialogue.style.position=Position.Absolute;
   dialogue.style.left=Length.Percent(62);dialogue.style.right=Length.Percent(2);
   dialogue.style.top=Length.Percent(16);dialogue.style.height=Length.Percent(19);
-  dialogue.style.backgroundColor=new Color(.055f,.075f,.09f,.95f);
+  dialogue.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.95f);
   dialogue.style.paddingLeft=18;dialogue.style.paddingRight=16;dialogue.style.paddingTop=13;
   dialogue.style.overflow=Overflow.Hidden;
   root.Add(dialogue);
@@ -95,14 +95,13 @@ public sealed partial class BubeApp {
     if(topics.Length>1) {
      choices.style.display=topic.Key==initiallyOpen?DisplayStyle.Flex:DisplayStyle.None;
      var topicKey=topic.Key;
-     var header=new Button(()=>{
+     var header=KarineUI.Button_(null,T(topic.Key)+"  ·  "+topic.Count(),()=>{
       choices.style.display=choices.style.display==DisplayStyle.None?DisplayStyle.Flex:DisplayStyle.None;
       selectedInterviewTopic=topicKey;
-     })
-      {text=T(topic.Key)+"  ·  "+topic.Count()};
-     header.style.minHeight=MinimumTouchTarget;header.style.marginBottom=6;header.style.paddingLeft=12;
+     });
+     header.style.backgroundColor=KarineTheme.Panel2;
+     header.style.marginBottom=6;header.style.marginRight=0;header.style.paddingLeft=12;
      header.style.unityTextAlign=TextAnchor.MiddleLeft;header.style.fontSize=Typography.Snap(16);
-     header.style.color=Ink;header.style.backgroundColor=KarineTheme.Panel2;
      section.Insert(0,header);
     }
     foreach(var q in topic) {
@@ -112,7 +111,7 @@ public sealed partial class BubeApp {
      choiceButton.style.whiteSpace=WhiteSpace.Normal;
      choiceButton.style.fontSize=Typography.Snap(16);
      choiceButton.style.minHeight=66;
-     choiceButton.style.backgroundColor=new Color(.09f,.13f,.14f);
+     choiceButton.style.backgroundColor=KarineTheme.GlassLift;
      choiceButton.style.borderLeftWidth=3;
      choiceButton.style.borderLeftColor=KarineTheme.Active;
     }
@@ -278,7 +277,7 @@ public sealed partial class BubeApp {
   var source=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
   if(source==null)return null;
   var ink=KarineTheme.Paper.Ink;
-  var muted=new Color(.37f,.36f,.33f);
+  var muted=KarineTheme.Paper.Faded;
   var card=new VisualElement();card.style.position=Position.Absolute;
   card.style.left=Length.Percent(2);card.style.width=Length.Percent(27);
   card.style.top=Length.Percent(45);card.style.bottom=Length.Percent(15);
@@ -291,9 +290,7 @@ public sealed partial class BubeApp {
   header.style.alignItems=Align.Center;card.Add(header);
   var title=Text(header,T("interview.referenceCard"),muted,13);
   title.style.flexGrow=1;title.style.marginBottom=0;
-  var close=new Button(()=>card.style.display=DisplayStyle.None){text="×"};
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=Typography.Snap(22);
-  close.style.color=ink;close.style.backgroundColor=KarineTheme.Paper.Tint;header.Add(close);
+  KarineUI.CloseButton(header,()=>card.style.display=DisplayStyle.None,null,true);
   var name=Text(card,T(source.titleKey),ink,17);name.style.marginBottom=8;
   if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   var body=Scroll(card);
@@ -334,6 +331,9 @@ public sealed partial class BubeApp {
    ".....hhssssssh......","......hsssssh.......",".......sssss........","......ttssstt.......",
    "....tttttttttttt....","...tttttttttttttt...","..tttttttttttttttt..",".tttttttttttttttttt."
   };
+  // Buradan aşağısı **arayüz değil, oyun resmidir**: piksel portrenin ten, saç
+  // ve giysi tonları. Kit paletinden gelmezler, gelmemeleri gerekir — bir yüzü
+  // arayüz kremine boyamak portreyi bozar. `KarineTheme` bu yüzden aranmaz.
   var hair=personId=="hasan"?new Color(.38f,.36f,.33f):personId=="mert"?new Color(.16f,.13f,.12f):new Color(.18f,.13f,.12f);
   var skin=personId=="hasan"?new Color(.64f,.46f,.34f):new Color(.68f,.47f,.35f);
   var shirt=personId=="mert"?new Color(.30f,.37f,.39f):personId=="hasan"?new Color(.31f,.29f,.25f):new Color(.12f,.14f,.15f);

@@ -97,13 +97,9 @@ public sealed partial class BubeApp {
     requested?"tablet.investigationPending":"tablet.investigationAvailable";
    Text(card,T(statusKey),filed?Muted:arrived?Gold:Muted,15).style.marginBottom=8;
    if(game.CanRequestDocument(node)) {
-    var request=new Button(()=>{
+    KarineUI.Button_(card,T(node.requestLabelKey),()=>{
      if(game.RequestDocument(current.id)){Save();InvestigationRequests(false);}
-    }){text=T(node.requestLabelKey)};
-    request.style.minHeight=MinimumTouchTarget;request.style.fontSize=Typography.Snap(16);
-    request.style.backgroundColor=Gold;request.style.color=Base;
-    if(dossierBoldFont!=null)request.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-    card.Add(request);
+    },KarineButtonKind.Primary);
    }
   }
  }
@@ -121,12 +117,9 @@ public sealed partial class BubeApp {
   Text(details,T(clue.noteKey),ink,15).style.marginBottom=2;
   Text(details,T(clue.sourceKey),muted,12).style.marginBottom=0;
   if(action==null)return;
-  var button=new Button(action){text=T(actionKey)};
+  var button=KarineUI.PaperButton(row,T(actionKey),action,KarinePaperKind.Action);
   button.style.width=80;button.style.minHeight=40;
   button.style.marginLeft=7;button.style.fontSize=Typography.Snap(13);
-  button.style.backgroundColor=new Color(.30f,.23f,.19f);button.style.color=Ink;
-  if(dossierBoldFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  row.Add(button);
  }
  void TimelineContents(VisualElement paper,Color ink,Color muted) {
   var title=Text(paper,T("timeline.title"),ink,21);
@@ -165,14 +158,9 @@ public sealed partial class BubeApp {
   refresh();
  }
  void FileTab(VisualElement column,string label,Action open,Color background) {
-  var tab=new Button(open){text=label};
-  tab.style.flexGrow=1;tab.style.minHeight=MinimumTouchTarget;tab.style.marginBottom=5;
-  tab.style.paddingLeft=12;tab.style.paddingRight=8;
-  tab.style.whiteSpace=WhiteSpace.Normal;tab.style.unityTextAlign=TextAnchor.MiddleLeft;
-  tab.style.backgroundColor=background;tab.style.color=KarineTheme.Paper.Ink;
-  tab.style.fontSize=Typography.Snap(15);
-  if(dossierBoldFont!=null)tab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  column.Add(tab);
+  var tab=KarineUI.PaperButton(column,label,open,KarinePaperKind.Choice,true);
+  tab.style.flexGrow=1;tab.style.marginBottom=5;tab.style.paddingRight=8;
+  tab.style.backgroundColor=background;tab.style.fontSize=Typography.Snap(15);
  }
  void FilePage() {
   showingInterviewList=false;
@@ -193,12 +181,12 @@ public sealed partial class BubeApp {
   Desk();
   var shade=new VisualElement();
   shade.style.position=Position.Absolute;shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.025f,.025f,.025f,.78f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.78f);root.Add(shade);
   var folder=new VisualElement();folder.style.position=Position.Absolute;
   folder.style.left=Length.Percent(14);folder.style.right=Length.Percent(21);
   folder.style.top=Length.Percent(9);folder.style.bottom=Length.Percent(8);
-  folder.style.backgroundColor=new Color(.30f,.16f,.14f);
-  folder.style.borderBottomWidth=8;folder.style.borderBottomColor=new Color(.13f,.09f,.08f);
+  folder.style.backgroundColor=KarineTheme.Paper.Folder;
+  folder.style.borderBottomWidth=8;folder.style.borderBottomColor=KarineTheme.Paper.FolderDeep;
   root.Add(folder);
   for(int i=0;i<3;i++) {
    var sheet=new VisualElement();sheet.style.position=Position.Absolute;
@@ -293,12 +281,10 @@ public sealed partial class BubeApp {
    footer.contentContainer.style.flexDirection=FlexDirection.Row;paper.Add(footer);
    foreach(var page in pages) {
     var target=page;
-    var chip=new Button(()=>{selectedFileNode=target.id;FilePage();}){text=T(target.titleKey)};
-    chip.style.minHeight=MinimumTouchTarget;chip.style.marginRight=6;
-    chip.style.paddingLeft=14;chip.style.paddingRight=14;
-    chip.style.fontSize=Typography.Snap(15);chip.style.color=fileInk;
-    chip.style.backgroundColor=target==current?KarineTheme.Paper.Stamp:KarineTheme.Paper.Tint;
-    footer.Add(chip);
+    var chip=KarineUI.PaperButton(footer,T(target.titleKey),()=>{selectedFileNode=target.id;FilePage();},
+     target==current?KarinePaperKind.Action:KarinePaperKind.Choice);
+    chip.style.marginRight=6;chip.style.paddingLeft=14;chip.style.paddingRight=14;
+    chip.style.fontSize=Typography.Snap(15);
    }
   }
   // Sekme şeridi kendi içinde kayıyordu: dar bir sütuna sekiz sekme sığmadığı
@@ -319,23 +305,22 @@ public sealed partial class BubeApp {
   FileTab(tabs,T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();},KarineTheme.Paper.Edge);
   FileTab(tabs,T("file.tab.search"),FileSearchPage,KarineTheme.Paper.Edge);
   if(game.CanConclude)FileTab(tabs,T("conclude.tab"),Conclusion,KarineTheme.Paper.Stamp);
-  var close=new Button(Desk){text="×"};close.tooltip=T("back.desk");
+  var close=KarineUI.CloseButton(root,Desk,T("back.desk"));
   close.style.position=Position.Absolute;close.style.right=Length.Percent(8);close.style.top=Length.Percent(7);
   close.style.width=58;close.style.height=58;close.style.fontSize=Typography.Snap(36);
-  close.style.color=Ink;close.style.backgroundColor=new Color(.08f,.09f,.10f);root.Add(close);
  }
  void FileSearchPage() {
   showingInterviewList=false;
   Desk();
   var dark=KarineTheme.Paper.Ink;
-  var muted=new Color(.36f,.35f,.33f);
+  var muted=KarineTheme.Paper.Faded;
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.025f,.025f,.025f,.82f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.82f);root.Add(shade);
   var folder=new VisualElement();folder.style.position=Position.Absolute;
   folder.style.left=Length.Percent(11);folder.style.right=Length.Percent(11);
   folder.style.top=Length.Percent(5);folder.style.bottom=Length.Percent(5);
-  folder.style.backgroundColor=new Color(.29f,.16f,.14f);root.Add(folder);
+  folder.style.backgroundColor=KarineTheme.Paper.Folder;root.Add(folder);
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(12);paper.style.right=Length.Percent(12);
   paper.style.top=Length.Percent(6);paper.style.bottom=Length.Percent(7);
@@ -346,9 +331,8 @@ public sealed partial class BubeApp {
   header.style.alignItems=Align.Center;paper.Add(header);
   var title=Text(header,T("search.title"),dark,24);title.style.flexGrow=1;
   if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var back=new Button(FilePage){text=T("compare.back")};back.style.minHeight=43;
-  back.style.paddingLeft=12;back.style.paddingRight=12;back.style.color=Ink;
-  back.style.backgroundColor=new Color(.30f,.19f,.17f);header.Add(back);
+  var back=KarineUI.PaperButton(header,T("compare.back"),FilePage,KarinePaperKind.Action);
+  back.style.minHeight=43;back.style.paddingLeft=12;back.style.paddingRight=12;
   Text(paper,T("search.help"),muted,15);
   // Yazı alanı kaldırıldı: telefonda klavye ekranın yarısını kaplıyordu ve
   // aranacak sözcüğü bilmek oyuncunun işi değil. Yerine iki dokunulur eksen —
@@ -367,11 +351,11 @@ public sealed partial class BubeApp {
    row.contentContainer.style.flexDirection=FlexDirection.Row;filters.Add(row);return row;
   };
   Action<VisualElement,List<Button>,string,Action> chip=(row,group,label,pick)=>{
-   var button=new Button(()=>{pick();render();}){text=label};
-   button.style.minHeight=MinimumTouchTarget;button.style.marginRight=6;button.style.marginBottom=6;
+   var button=KarineUI.PaperButton(row,label,()=>{pick();render();});
+   button.style.marginRight=6;button.style.marginBottom=6;
    button.style.paddingLeft=16;button.style.paddingRight=16;
-   button.style.fontSize=Typography.Snap(15);button.style.color=dark;
-   row.Add(button);group.Add(button);
+   button.style.fontSize=Typography.Snap(15);
+   group.Add(button);
   };
   var kindRow=shelf();
   string[] kindLabels={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
@@ -409,9 +393,9 @@ public sealed partial class BubeApp {
     var name=Text(row,T(source.titleKey),dark,16);name.style.marginBottom=3;
     if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
     var excerpt=Text(row,hit.excerpt,dark,15);excerpt.style.marginBottom=4;
-    var open=new Button(()=>OpenSearchSource(selected)){text=T("search.open")+"  ›"};
-    open.style.minHeight=37;open.style.fontSize=Typography.Snap(15);open.style.unityTextAlign=TextAnchor.MiddleRight;
-    open.style.color=dark;open.style.backgroundColor=KarineTheme.Paper.Sheet;row.Add(open);
+    var open=KarineUI.PaperButton(row,T("search.open")+"  ›",()=>OpenSearchSource(selected),KarinePaperKind.Quiet);
+    open.style.minHeight=37;open.style.fontSize=Typography.Snap(15);
+    open.style.unityTextAlign=TextAnchor.MiddleRight;
    }
   };
   render();
@@ -438,21 +422,21 @@ public sealed partial class BubeApp {
   if(!sources.Any(n=>n.id==compareRightId))compareRightId=null;
   Desk();
   var ink=KarineTheme.Paper.Ink;
-  var muted=new Color(.34f,.34f,.32f);
+  var muted=KarineTheme.Paper.Faded;
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.025f,.025f,.025f,.84f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.84f);root.Add(shade);
   var folder=new VisualElement();folder.style.position=Position.Absolute;
   folder.style.left=Length.Percent(4);folder.style.right=Length.Percent(4);
   folder.style.top=Length.Percent(5);folder.style.bottom=Length.Percent(5);
-  folder.style.backgroundColor=new Color(.28f,.16f,.14f);root.Add(folder);
+  folder.style.backgroundColor=KarineTheme.Paper.Folder;root.Add(folder);
   var heading=new VisualElement();heading.style.flexDirection=FlexDirection.Row;
   heading.style.alignItems=Align.Center;heading.style.paddingLeft=20;heading.style.paddingRight=20;
   heading.style.height=62;folder.Add(heading);
   var title=Text(heading,T("compare.title"),Ink,21);title.style.flexGrow=1;title.style.marginBottom=0;
-  var back=new Button(()=>{comparePicker=-1;FilePage();}){text=T("compare.back")};
-  back.style.height=42;back.style.paddingLeft=15;back.style.paddingRight=15;
-  back.style.color=Ink;back.style.backgroundColor=Card;heading.Add(back);
+  var back=KarineUI.Button_(heading,T("compare.back"),()=>{comparePicker=-1;FilePage();});
+  back.style.height=42;back.style.minHeight=42;
+  back.style.paddingLeft=15;back.style.paddingRight=15;
   var spread=new VisualElement();spread.style.flexDirection=FlexDirection.Row;spread.style.flexGrow=1;
   spread.style.paddingLeft=12;spread.style.paddingRight=12;spread.style.paddingBottom=12;folder.Add(spread);
   for(int side=0;side<2;side++) {
@@ -463,23 +447,18 @@ public sealed partial class BubeApp {
    sheet.style.marginLeft=4;sheet.style.marginRight=4;sheet.style.paddingLeft=22;
    sheet.style.paddingRight=22;sheet.style.paddingTop=18;sheet.style.paddingBottom=15;
    sheet.style.backgroundColor=KarineTheme.Paper.Sheet;spread.Add(sheet);
-   var picker=new Button(()=>{comparePicker=comparePicker==selectedSide?-1:selectedSide;ComparePage();})
-    {text=(current==null?T("compare.choose"):T(current.titleKey))+"  ▾"};
-   picker.style.minHeight=50;picker.style.paddingLeft=12;picker.style.unityTextAlign=TextAnchor.MiddleLeft;
-   picker.style.fontSize=Typography.Snap(17);picker.style.color=ink;picker.style.backgroundColor=KarineTheme.Paper.Tint;
-   sheet.Add(picker);
+   var picker=KarineUI.PaperButton(sheet,(current==null?T("compare.choose"):T(current.titleKey))+"  ▾",
+    ()=>{comparePicker=comparePicker==selectedSide?-1:selectedSide;ComparePage();},KarinePaperKind.Choice,true);
+   picker.style.minHeight=50;
    if(comparePicker==side) {
     var choices=Scroll(sheet);choices.style.maxHeight=240;
     foreach(var source in sources) {
      var choice=source;
-     var option=new Button(()=>{
+     var option=KarineUI.PaperButton(choices,T(source.titleKey),()=>{
       if(selectedSide==0)compareLeftId=choice.id;else compareRightId=choice.id;
       comparePicker=-1;ComparePage();
-     }){text=T(source.titleKey)};
+     },KarinePaperKind.Choice,true);
      option.style.minHeight=44;option.style.marginTop=4;option.style.fontSize=Typography.Snap(15);
-     option.style.unityTextAlign=TextAnchor.MiddleLeft;
-     option.style.color=ink;option.style.backgroundColor=KarineTheme.Paper.Tint;
-     choices.Add(option);
     }
     if(sources.Length==0)Text(choices,T("compare.noSources"),muted,16);
    } else if(current==null) {

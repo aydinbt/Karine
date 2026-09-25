@@ -35,7 +35,7 @@ public sealed partial class BubeApp {
   button.style.backgroundColor=Color.clear;
   button.style.borderTopWidth=0;button.style.borderBottomWidth=0;
   button.style.borderLeftWidth=0;button.style.borderRightWidth=0;
-  button.RegisterCallback<PointerEnterEvent>(_=>button.style.backgroundColor=new Color(1f,.8f,.45f,.12f));
+  button.RegisterCallback<PointerEnterEvent>(_=>button.style.backgroundColor=KarineTheme.HotspotHover);
   button.RegisterCallback<PointerLeaveEvent>(_=>button.style.backgroundColor=Color.clear);
   root.Add(button);
  }
@@ -105,12 +105,12 @@ public sealed partial class BubeApp {
   Desk();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.015f,.02f,.025f,.84f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.84f);root.Add(shade);
   var binder=new VisualElement();binder.style.position=Position.Absolute;
   binder.style.left=Length.Percent(5);binder.style.right=Length.Percent(5);
   binder.style.top=Length.Percent(6);binder.style.bottom=Length.Percent(6);
   binder.style.flexDirection=FlexDirection.Row;
-  binder.style.backgroundColor=new Color(.12f,.11f,.10f);
+  binder.style.backgroundColor=KarineTheme.Paper.FolderDeep;
   binder.style.borderTopWidth=5;binder.style.borderBottomWidth=7;
   binder.style.borderLeftWidth=5;binder.style.borderRightWidth=5;
   binder.style.borderTopColor=KarineTheme.Paper.Stamp;
@@ -119,7 +119,7 @@ public sealed partial class BubeApp {
   binder.style.borderRightColor=KarineTheme.Background;
   root.Add(binder);
   var left=new VisualElement();left.style.width=Length.Percent(44);
-  left.style.backgroundColor=new Color(.075f,.09f,.10f);
+  left.style.backgroundColor=KarineTheme.Glass;
   left.style.paddingLeft=18;left.style.paddingRight=18;
   left.style.paddingTop=14;left.style.paddingBottom=14;
   binder.Add(left);
@@ -128,20 +128,16 @@ public sealed partial class BubeApp {
   var headingText=Text(heading,T("inbox.title"),Ink,23);
   headingText.style.flexGrow=1;headingText.style.marginBottom=3;
   if(dossierBoldFont!=null)headingText.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var close=new Button(Desk){text="×"};close.tooltip=T("back.desk");
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=Typography.Snap(28);
-  close.style.backgroundColor=Paper;close.style.color=Ink;heading.Add(close);
+  KarineUI.CloseButton(heading,Desk,T("back.desk"));
   Text(left,T("desk.brandLocation"),Muted,13).style.marginBottom=12;
   var filters=new VisualElement();filters.style.flexDirection=FlexDirection.Row;
   filters.style.marginBottom=12;left.Add(filters);
   foreach(var choice in new[]{"all","unread","archive"}) {
    var selectedFilter=choice;
-   var button=new Button(()=>InboxPage(null,selectedFilter)) {text=T("inbox.filter."+choice)};
-   button.style.flexGrow=1;button.style.minHeight=MinimumTouchTarget;button.style.marginRight=5;
-   button.style.fontSize=Typography.Snap(14);button.style.color=choice==filter?Base:Ink;
-   button.style.backgroundColor=choice==filter?Gold:Paper;
-   if(dossierFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
-   filters.Add(button);
+   var button=KarineUI.Button_(filters,T("inbox.filter."+choice),()=>InboxPage(null,selectedFilter),
+    choice==filter?KarineButtonKind.Primary:KarineButtonKind.Secondary);
+   button.style.flexGrow=1;button.style.marginRight=5;button.style.marginBottom=0;
+   button.style.fontSize=Typography.Snap(14);
   }
   var list=Scroll(left);
   if(visible.Length==0) {
@@ -150,23 +146,21 @@ public sealed partial class BubeApp {
   }
   foreach(var item in visible) {
    var current=item;
-   var row=new Button(()=>InboxPage(current.id,filter)) {
-    text=(item.unread?"●  ":"")+item.title+"\n"+item.status
-   };
-   row.style.minHeight=78;row.style.marginBottom=7;
+   // Tepsideki satır bir liste seçimidir: seçili olan kit'in birincil dolgusunu
+   // alır, okunmamış olan solunda vurgu taşır.
+   bool chosen=item.id==selected?.id;
+   var row=KarineUI.Button_(list,(item.unread?"●  ":"")+item.title+"\n"+item.status,
+    ()=>InboxPage(current.id,filter),chosen?KarineButtonKind.Primary:KarineButtonKind.Secondary);
+   row.style.minHeight=78;row.style.marginBottom=7;row.style.marginRight=0;
    row.style.paddingLeft=13;row.style.paddingRight=8;
    row.style.fontSize=Typography.Snap(16);row.style.whiteSpace=WhiteSpace.Normal;
    row.style.unityTextAlign=TextAnchor.MiddleLeft;
-   row.style.color=item.id==selected?.id?Base:Ink;
-   row.style.backgroundColor=item.id==selected?.id?KarineTheme.Paper.Tint:KarineTheme.Panel;
-   row.style.borderLeftWidth=3;row.style.borderLeftColor=item.unread?Gold:Muted;
-   if(dossierFont!=null)row.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
-   list.Add(row);
+   row.style.borderLeftWidth=3;row.style.borderLeftColor=item.unread?KarineTheme.Secondary:KarineTheme.Muted;
   }
   var right=new VisualElement();right.style.flexGrow=1;
   right.style.paddingLeft=15;right.style.paddingRight=15;
   right.style.paddingTop=13;right.style.paddingBottom=13;
-  right.style.backgroundColor=new Color(.16f,.12f,.10f);
+  right.style.backgroundColor=KarineTheme.Paper.Board;
   binder.Add(right);
   var paper=new VisualElement();paper.style.flexGrow=1;
   paper.style.backgroundColor=KarineTheme.Paper.Sheet;
@@ -248,7 +242,7 @@ public sealed partial class BubeApp {
   Text(block,T("fax.submittedSource")+": "+ReviewSourceTitle(data,sourceId),dark,14).style.marginBottom=4;
   var sourceIdOnly=string.IsNullOrEmpty(sourceId)?string.Empty:sourceId.Split('#')[0];
   var reasonKey=supported?"fax.reason.supported":sourceIdOnly=="report"?"fax.reason."+claim+".report":"fax.reason."+claim+".other";
-  Text(block,T(reasonKey),new Color(.35f,.31f,.27f),14).style.marginBottom=0;
+  Text(block,T(reasonKey),KarineTheme.Paper.Faded,14).style.marginBottom=0;
  }
  void Desk() {
   StopCctvVideo();
@@ -292,7 +286,7 @@ public sealed partial class BubeApp {
   var header=new VisualElement();
   header.style.position=Position.Absolute;header.style.left=0;header.style.right=0;
   header.style.top=0;header.style.height=Length.Percent(11);
-  header.style.backgroundColor=new Color(.055f,.075f,.09f,1f);
+  header.style.backgroundColor=KarineTheme.Glass;
   header.style.paddingLeft=36;header.style.paddingTop=12;
   root.Add(header);
   var brand=Text(header,T("desk.brandLocation"),Ink,21);brand.style.marginBottom=2;
@@ -301,7 +295,7 @@ public sealed partial class BubeApp {
   patch.style.position=Position.Absolute;patch.style.left=Length.Percent(44);
   patch.style.top=Length.Percent(79);patch.style.width=Length.Percent(17);
   patch.style.height=Length.Percent(7);
-  patch.style.backgroundColor=new Color(.67f,.53f,.40f);
+  patch.style.backgroundColor=KarineTheme.Accent;
   patch.style.unityTextAlign=TextAnchor.MiddleCenter;
   root.Add(patch);
   Text(patch,T("desk.location"),Base,16);
@@ -359,7 +353,7 @@ public sealed partial class BubeApp {
    image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
    tablet.Add(image);
   } else {
-   tablet.style.backgroundColor=new Color(.035f,.055f,.075f);
+   tablet.style.backgroundColor=KarineTheme.GlassDeep;
   }
   var screen=new VisualElement();
   screen.style.position=Position.Absolute;
@@ -374,11 +368,8 @@ public sealed partial class BubeApp {
   var brand=Text(header,"BPS",Ink,29);brand.style.marginRight=16;brand.style.marginBottom=0;
   var title=Text(header,T(game.Data.titleKey)+" / "+T(titleKey),Ink,17);title.style.flexGrow=1;title.style.marginBottom=0;
   GlitchHeading(title,T(titleKey));
-  var close=new Button(Desk){text="×"};close.tooltip=T("cctv.back");
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;close.style.fontSize=Typography.Snap(26);
-  close.style.backgroundColor=Paper;close.style.color=Ink;
-  header.Add(close);
-  var rule=new VisualElement();rule.style.height=2;rule.style.backgroundColor=new Color(.25f,.35f,.42f);
+  KarineUI.CloseButton(header,Desk,T("cctv.back"));
+  var rule=new VisualElement();rule.style.height=2;rule.style.backgroundColor=KarineTheme.Panel2;
   rule.style.marginTop=7;rule.style.marginBottom=8;screen.Add(rule);
   content=new VisualElement();content.style.flexGrow=1;screen.Add(content);
   if(lift) {

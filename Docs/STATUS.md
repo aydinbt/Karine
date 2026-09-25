@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu, mobil erişilebilirlik, kayıt göçü, ana menü maketi, UI Kit)
+**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu, mobil erişilebilirlik, kayıt göçü, ana menü maketi, UI Kit taşımasının kapanışı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -19,7 +19,7 @@
 | --- | --- |
 | **Faz 0 — Zemin** | **Bitti ve doğrulandı** |
 | **Faz 1 — Doğrulamayı otomatikleştir** | **Bitti** — doğrulayıcı vaka başına ayrıldı, ilk hatada durmuyor, 42 test yeşil |
-| **Faz 2 — Gerçekten oyna** | **İlerliyor** — perf düzeltmeleri kodlandı; elle oynanış ve cihaz adımı açık |
+| **Faz 2 — Gerçekten oyna** | **İlerliyor** — perf düzeltmeleri ve kit taşıması kodlandı (84 test yeşil); elle oynanış ve cihaz adımı açık |
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | Kod ~tamam, **Play Mode doğrulaması açık** |
 | M2 — Soruşturmayı oyuna çevirme | Kod büyük ölçüde tamam, doğrulama açık |

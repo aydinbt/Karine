@@ -373,12 +373,12 @@ public sealed partial class BubeApp : MonoBehaviour {
   Desk();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.02f,.025f,.03f,.84f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.84f);root.Add(shade);
   var backing=new VisualElement();backing.style.position=Position.Absolute;
   backing.style.left=Length.Percent(wide?6:20);backing.style.right=Length.Percent(wide?6:19);
   backing.style.top=Length.Percent(7);backing.style.bottom=Length.Percent(5);
-  backing.style.backgroundColor=new Color(.29f,.15f,.13f);
-  backing.style.borderBottomWidth=7;backing.style.borderBottomColor=new Color(.12f,.08f,.07f);root.Add(backing);
+  backing.style.backgroundColor=KarineTheme.Paper.Folder;
+  backing.style.borderBottomWidth=7;backing.style.borderBottomColor=KarineTheme.Paper.FolderDeep;root.Add(backing);
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(wide?8:22);paper.style.right=Length.Percent(wide?8:21);
   paper.style.top=Length.Percent(5);paper.style.bottom=Length.Percent(7);
@@ -393,21 +393,14 @@ public sealed partial class BubeApp : MonoBehaviour {
   var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Paper.Edge;
   rule.style.marginBottom=9;paper.Add(rule);
   body=Scroll(paper);
-  var back=new Button(backAction ?? (Action)FilePage){text=T(backAction==null?"back.file":"back.desk")};
-  back.style.minHeight=42;back.style.fontSize=Typography.Snap(16);back.style.backgroundColor=KarineTheme.Paper.Tint;
-  back.style.color=dark;
-  if(dossierFont!=null)back.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
-  paper.Add(back);
+  var back=KarineUI.PaperButton(paper,T(backAction==null?"back.file":"back.desk"),backAction ?? (Action)FilePage);
+  back.style.minHeight=42;back.style.fontSize=Typography.Snap(16);
  }
  Button ReportChoice(VisualElement parent,string label,bool selected,Action choose) {
-  var option=new Button(choose){text=(selected?"✓  ":"□  ")+label};
+  var option=KarineUI.PaperButton(parent,(selected?"✓  ":"□  ")+label,choose,
+   selected?KarinePaperKind.Action:KarinePaperKind.Choice,true);
   option.style.minHeight=40;option.style.fontSize=Typography.Snap(17);
-  option.style.unityTextAlign=TextAnchor.MiddleLeft;
-  option.style.paddingLeft=12;option.style.marginBottom=4;
-  option.style.backgroundColor=selected?KarineTheme.Paper.Stamp:KarineTheme.Paper.Tint;
-  option.style.color=KarineTheme.Paper.Ink;
-  if(dossierFont!=null)option.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
-  parent.Add(option);
+  option.style.marginBottom=4;
   return option;
  }
  void RefreshReportChoices(List<Button> buttons,List<string> labels,List<string> ids,string selected) {
@@ -415,6 +408,7 @@ public sealed partial class BubeApp : MonoBehaviour {
    bool active=ids[i]==selected;
    buttons[i].text=(active?"✓  ":"□  ")+labels[i];
    buttons[i].style.backgroundColor=active?KarineTheme.Paper.Stamp:KarineTheme.Paper.Tint;
+   buttons[i].style.color=active?KarineTheme.Primary:KarineTheme.Paper.Ink;
   }
  }
 

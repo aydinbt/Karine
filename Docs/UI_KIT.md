@@ -95,6 +95,8 @@ Ekranlar kit bileşenlerine taşındı:
 | Dünya girişi ve masaya varış filmleri | `KarineUI.SkipButton` — tek denetim: GEÇ |
 | Saat, tarih, damga, sayfa sayacı, kayıt numarası | `KarineUI.Technical` (monospace) |
 | Menü örtüsü, ayarlar/hakkında kartı | `KarineUI.Panel` + `Title` + `Rule` |
+| Kâğıt/dosya katmanındaki seçim, eylem ve sessiz düğmeler | `KarineUI.PaperButton` (`Action`/`Choice`/`Quiet`) |
+| Katman kapatma ve alan temizleme `×` | `KarineUI.CloseButton` (`paper: true` kâğıt üstünde) |
 
 **Sinematikte tek denetim GEÇ'tir.** Duraklatma, ilerleme çubuğu, süre ve hızlandırma **yoktur**: film ya izlenir ya geçilir. Ara kademeler oyuncuya karar verdirmez, yalnız kareyi kalabalıklaştırır. Duraklatma ve kare ilerletme **CCTV izlemede** anlamlıdır ve orada kendi denetimleri vardır (oynat/duraklat, kare ilerlet, baştan al).
 
@@ -102,6 +104,16 @@ Ekranlar kit bileşenlerine taşındı:
 
 **Kâğıt tonları birleştirildi.** Kâğıt katmanında birbirinden bir iki basamak farklı otuzdan fazla bej vardı (`.82/.76/.65`, `.79/.72/.61`, `.78/.71/.61` …). Hepsi `KarineTheme.Paper` altındaki beş tona indi: `Sheet`, `Light`, `Tint`, `Edge`, `Stamp`, `Ink`, `Faded`. Kit "kendi başına yeni bir stil icat etme" dediği için bu tonlar tek yerde durur.
 
+## Örtü, cam ve dosya kabı
+
+Ekranlar kendi koyusunu da seçmez. Bir katman açıldığında altındaki sahneyi örten perde `KarineTheme.Veil(alpha)`dan gelir — yoğunluk sahneye göre değişir, renk değişmez. Terminalin ve tabletin cam yüzeyi paletin koyu ucundan türeyen üç duraktır: `GlassDeep` (tablet, kayıt listesi), `Glass` (sorgu şeridi, başlık), `GlassLift` (üstteki kart, seçim satırı). Masadaki dokunulabilir noktanın üstüne gelince görünen iz `HotspotHover`dır ve kit'in vurgu kahvesinden üretilir. Saydamlık gerekiyorsa ekran kendi RGB'sini yazmaz, `KarineTheme.Alpha(token, a)` kullanır.
+
+Kâğıdın **altındaki** fiziksel malzeme de tek yerden gelir: `Paper.Folder` (dosya kabının yüzü), `Paper.FolderEdge` (üst kenar, logo gölgesi), `Paper.FolderDeep` (sırt gölgesi), `Paper.Board` (mukavva/pano), `Paper.Approved` (kabul mührünün yeşili). Bunlar HUD paletinin dışındadır ama uydurma da değildir — diegetik katmanın kendi beş durağıdır (kit §13).
+
 ## Ham renk borcu
 
-Kit'ten **önce** yazılmış ekranlarda 156 doğrudan `new Color(...)` çağrısı vardı; taşıma sonrası **65** kaldı. Kalanlar çoğunlukla CCTV taraması gibi saydamlıklı efektler ve piksel portrelerin ten tonlarıdır — bunlar oyun sanatıdır, arayüz paleti değil. Doğrulayıcıda bir **kilit** var: sayı 65'i aşarsa doğrulama düşer. Yeni kod rengi `KarineTheme`den alır; bu sayı ancak aşağı çekilir.
+Kit'ten **önce** yazılmış ekranlarda 156 doğrudan `new Color(...)` çağrısı vardı; taşıma sonrası **16** kaldı. Kalanların hepsi oyun **sanatıdır**, arayüz paleti değil: piksel portrenin ten/saç/giysi tonları (`BubeApp.Interview.cs`) ve CCTV'nin cam, tarama çizgisi, parazit bandı ve köşe işareti efektleri (`BubeApp.Cctv.cs`). Bir yüzü arayüz kremine boyamak portreyi bozar; ikisi de kit paletinden gelmemeli ve kodda böyle yazılıdır. Doğrulayıcıda bir **kilit** var: sayı 16'yı aşarsa doğrulama düşer. Yeni kod rengi `KarineTheme`den alır; bu sayı ancak aşağı çekilir.
+
+## Punto borcu
+
+Punto da ekranın içine elle yazılmaz: ekranlardaki her `style.fontSize` ataması `Typography.Snap`ten geçer (tek istisna CCTV'nin görüntüyle ölçeklenen kamera yazısıdır, o `Mathf.Clamp` ile kendi ölçeğini kullanır). Doğrulayıcı satır satır bakar ve kapıdan geçmeyen ilk atamayı dosya:satır olarak bildirir.

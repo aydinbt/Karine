@@ -77,18 +77,14 @@ public sealed partial class BubeApp {
   var nav=new VisualElement();nav.style.flexDirection=FlexDirection.Row;
   nav.style.marginTop=12;nav.style.marginBottom=12;scroll.Add(nav);
   if(step>0) {
-   var previous=new Button(()=>ConclusionStep(step-1)){text="‹  "+T("conclude.previous")};
-   previous.style.flexGrow=1;previous.style.minHeight=50;previous.style.fontSize=Typography.Snap(17);
-   previous.style.backgroundColor=KarineTheme.Paper.Tint;previous.style.color=dark;
-   previous.style.marginRight=7;nav.Add(previous);
+   var previous=KarineUI.PaperButton(nav,"‹  "+T("conclude.previous"),()=>ConclusionStep(step-1));
+   previous.style.flexGrow=1;previous.style.minHeight=50;previous.style.marginRight=7;
   }
-  next=step==3?new Button(ConfirmSubmit){text=T("conclude.submit")}
-   :new Button(()=>ConclusionStep(step+1)){text=T("conclude.next")+"  ›"};
+  next=step==3
+   ?KarineUI.PaperButton(nav,T("conclude.submit"),ConfirmSubmit,KarinePaperKind.Action)
+   :KarineUI.PaperButton(nav,T("conclude.next")+"  ›",()=>ConclusionStep(step+1),KarinePaperKind.Action);
   next.style.flexGrow=1;next.style.minHeight=50;
-  next.style.backgroundColor=KarineTheme.Paper.Stamp;next.style.color=Ink;
-  next.style.fontSize=Typography.Snap(18);
-  if(dossierBoldFont!=null)next.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  nav.Add(next);refresh();
+  refresh();
  }
  // Gönderilen rapor geri alınamaz; kit'in onay modalının var olma sebebi tam
  // olarak budur. Modal yalnız kararı sorar, ne seçileceğini söylemez.
@@ -105,12 +101,9 @@ public sealed partial class BubeApp {
   card.style.paddingTop=9;card.style.paddingBottom=9;card.style.marginBottom=8;
   parent.Add(card);
   Text(card,T(headingKey)+"  ·  "+T(choiceKey),ink,17).style.marginBottom=5;
-  var source=new Button(()=>ShowReportSourceCard(sourceId))
-   {text=T("conclude.openSource")+"  ›  "+CompactReportSourceLabel(sourceId)};
-  source.style.minHeight=50;source.style.whiteSpace=WhiteSpace.Normal;
-  source.style.unityTextAlign=TextAnchor.MiddleLeft;source.style.fontSize=Typography.Snap(15);
-  source.style.backgroundColor=KarineTheme.Paper.Light;source.style.color=ink;
-  card.Add(source);
+  var source=KarineUI.PaperButton(card,T("conclude.openSource")+"  ›  "+CompactReportSourceLabel(sourceId),
+   ()=>ShowReportSourceCard(sourceId),KarinePaperKind.Quiet,true);
+  source.style.minHeight=50;source.style.fontSize=Typography.Snap(15);
  }
  string ReportSourceLabel(string id) {
   if(string.IsNullOrEmpty(id))return T("conclude.chooseSource");
@@ -140,7 +133,7 @@ public sealed partial class BubeApp {
   var muted=KarineTheme.Paper.Faded;
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.02f,.025f,.03f,.80f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.80f);root.Add(shade);
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(10);paper.style.right=Length.Percent(10);
   paper.style.top=Length.Percent(9);paper.style.bottom=Length.Percent(9);
@@ -151,10 +144,7 @@ public sealed partial class BubeApp {
   header.style.alignItems=Align.Center;paper.Add(header);
   var title=Text(header,CompactReportSourceLabel(sourceId),ink,18);
   title.style.flexGrow=1;title.style.whiteSpace=WhiteSpace.Normal;
-  var close=new Button(()=>shade.RemoveFromHierarchy()){text="×"};
-  close.style.width=MinimumTouchTarget;close.style.height=MinimumTouchTarget;
-  close.style.fontSize=Typography.Snap(23);close.style.backgroundColor=KarineTheme.Paper.Tint;
-  close.style.color=ink;header.Add(close);
+  KarineUI.CloseButton(header,()=>shade.RemoveFromHierarchy(),null,true);
   var content=Scroll(paper);
   if(source.kind=="cctv" && separator>=0) {
    if(!string.IsNullOrEmpty(source.cctvPeriodKey))Text(content,T(source.cctvPeriodKey),muted,14);
@@ -203,11 +193,8 @@ public sealed partial class BubeApp {
   search.style.paddingLeft=8;search.style.color=dark;
   search.style.backgroundColor=KarineTheme.Paper.Light;
   searchBar.Add(search);
-  var clear=new Button(()=>search.value=""){text="×"};
-  clear.style.width=MinimumTouchTarget;clear.style.height=MinimumTouchTarget;
-  clear.style.fontSize=Typography.Snap(24);clear.style.marginLeft=5;
-  clear.style.color=dark;clear.style.backgroundColor=KarineTheme.Paper.Tint;
-  searchBar.Add(clear);
+  var clear=KarineUI.CloseButton(searchBar,()=>search.value="",null,true);
+  clear.style.marginLeft=5;
   var count=Text(panel,"",KarineTheme.Paper.Faded,13);
   count.style.marginBottom=4;
   var choices=new ScrollView();choices.style.maxHeight=210;panel.Add(choices);
@@ -223,13 +210,11 @@ public sealed partial class BubeApp {
      var chosen=record;
      var reference=item.id+"#"+chosen.id;
      var label=T(item.titleKey)+"  ·  "+T(chosen.textKey);
-     var option=new Button(()=>{
+     var option=KarineUI.PaperButton(null,label,()=>{
       setSelected(reference);opener.text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(reference)+"  ▾";
       panel.style.display=DisplayStyle.None;refresh();
-     }){text=label};
-     option.style.minHeight=58;option.style.whiteSpace=WhiteSpace.Normal;
-     option.style.fontSize=Typography.Snap(15);option.style.unityTextAlign=TextAnchor.MiddleLeft;
-     option.style.color=dark;option.style.backgroundColor=KarineTheme.Paper.Tint;
+     },KarinePaperKind.Choice,true);
+     option.style.minHeight=58;option.style.fontSize=Typography.Snap(15);
      option.style.marginBottom=5;choices.Add(option);
      rows.Add(option);categories.Add(category);searchTexts.Add(normalize(label));categoryCounts[category]++;
     }
@@ -238,25 +223,21 @@ public sealed partial class BubeApp {
      var chosen=turn;
      var reference=game.InterviewTurnReference(chosen);
      var label=T(item.personNameKey)+"  ·  "+T(chosen.promptKey)+"\n"+T(chosen.answerKey);
-     var option=new Button(()=>{
+     var option=KarineUI.PaperButton(null,label,()=>{
       setSelected(reference);opener.text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(reference)+"  ▾";
       panel.style.display=DisplayStyle.None;refresh();
-     }){text=label};
-     option.style.minHeight=64;option.style.whiteSpace=WhiteSpace.Normal;
-     option.style.fontSize=Typography.Snap(15);option.style.unityTextAlign=TextAnchor.MiddleLeft;
-     option.style.color=dark;option.style.backgroundColor=KarineTheme.Paper.Tint;
+     },KarinePaperKind.Choice,true);
+     option.style.minHeight=64;option.style.fontSize=Typography.Snap(15);
      option.style.marginBottom=5;choices.Add(option);
      rows.Add(option);categories.Add(category);searchTexts.Add(normalize(label));categoryCounts[category]++;
     }
    } else {
     var label=T(item.titleKey)+"\n"+ReportSourcePreview(item);
-    var option=new Button(()=>{
+    var option=KarineUI.PaperButton(null,label,()=>{
      setSelected(item.id);opener.text=T("conclude.source")+"  ·  "+T(item.titleKey)+"  ▾";
      panel.style.display=DisplayStyle.None;refresh();
-    }){text=label};
-    option.style.minHeight=64;option.style.whiteSpace=WhiteSpace.Normal;
-    option.style.fontSize=Typography.Snap(15);option.style.unityTextAlign=TextAnchor.MiddleLeft;
-    option.style.color=dark;option.style.backgroundColor=KarineTheme.Paper.Tint;
+    },KarinePaperKind.Choice,true);
+    option.style.minHeight=64;option.style.fontSize=Typography.Snap(15);
     option.style.marginBottom=5;choices.Add(option);
     var fullText=T(item.titleKey)+" "+T(item.bodyKey);
     if(item.fileMeta!=null)foreach(var field in item.fileMeta)
@@ -287,12 +268,12 @@ public sealed partial class BubeApp {
   };
   for(int i=0;i<labels.Length;i++) {
    int category=i;
-   var tab=new Button(()=>{activeFilter=category;updateFilter();}){text=T(labels[i])};
+   var tab=KarineUI.PaperButton(tabs,T(labels[i]),()=>{activeFilter=category;updateFilter();});
    tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.minWidth=0;
-   tab.style.minHeight=MinimumTouchTarget;tab.style.fontSize=Typography.Snap(14);
+   tab.style.fontSize=Typography.Snap(14);
    tab.style.marginLeft=2;tab.style.marginRight=2;
    tab.SetEnabled(i==0 || categoryCounts[i]>0);
-   tabs.Add(tab);tabButtons.Add(tab);
+   tabButtons.Add(tab);
   }
   search.RegisterValueChangedCallback(evt=>updateFilter());
   updateFilter();
@@ -338,7 +319,7 @@ public sealed partial class BubeApp {
  void SummaryField(VisualElement parent,string label,string value) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.marginBottom=6;parent.Add(row);
   var dark=KarineTheme.Paper.Ink;
-  var name=Text(row,label, new Color(.36f,.34f,.31f),15);name.style.width=150;name.style.marginBottom=0;
+  var name=Text(row,label, KarineTheme.Paper.Faded,15);name.style.width=150;name.style.marginBottom=0;
   var detail=Text(row,":  "+value,dark,15);detail.style.flexGrow=1;detail.style.marginBottom=0;
  }
  void CaseSummary() {
@@ -346,12 +327,12 @@ public sealed partial class BubeApp {
   Desk();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=new Color(.025f,.025f,.025f,.80f);root.Add(shade);
+  shade.style.backgroundColor=KarineTheme.Veil(.80f);root.Add(shade);
   var folder=new VisualElement();folder.style.position=Position.Absolute;
   folder.style.left=Length.Percent(9);folder.style.right=Length.Percent(9);
   folder.style.top=Length.Percent(5);folder.style.bottom=Length.Percent(4);
-  folder.style.backgroundColor=new Color(.27f,.16f,.13f);
-  folder.style.borderBottomWidth=8;folder.style.borderBottomColor=new Color(.11f,.07f,.06f);root.Add(folder);
+  folder.style.backgroundColor=KarineTheme.Paper.Folder;
+  folder.style.borderBottomWidth=8;folder.style.borderBottomColor=KarineTheme.Paper.FolderDeep;root.Add(folder);
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(10);paper.style.right=Length.Percent(10);
   paper.style.top=Length.Percent(6);paper.style.bottom=Length.Percent(6);
@@ -360,7 +341,7 @@ public sealed partial class BubeApp {
   paper.style.paddingTop=18;paper.style.paddingBottom=16;root.Add(paper);
   var dark=KarineTheme.Paper.Ink;var muted=KarineTheme.Paper.Faded;
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;paper.Add(header);
-  var mark=Text(header,"✓",new Color(.16f,.39f,.31f),42);mark.style.width=64;mark.style.marginBottom=0;
+  var mark=Text(header,"✓",KarineTheme.Paper.Approved,42);mark.style.width=64;mark.style.marginBottom=0;
   var titles=new VisualElement();titles.style.flexGrow=1;header.Add(titles);
   var kicker=Text(titles,T(game.Data.titleKey),muted,15);kicker.style.marginBottom=1;
   var title=Text(titles,T("result.summary"),dark,28);title.style.marginBottom=2;
@@ -371,7 +352,7 @@ public sealed partial class BubeApp {
   line.style.backgroundColor=KarineTheme.Paper.Edge;paper.Add(line);
   bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
   var status=new VisualElement();status.style.flexDirection=FlexDirection.Row;status.style.alignItems=Align.Center;
-  status.style.backgroundColor=new Color(.11f,.16f,.17f);
+  status.style.backgroundColor=KarineTheme.GlassLift;
   status.style.paddingLeft=14;status.style.paddingRight=14;status.style.paddingTop=7;status.style.paddingBottom=6;
   status.style.marginBottom=12;paper.Add(status);
   var statusTitle=Text(status,T(reviewed?"summary.reviewReceived":"summary.reviewPending"),Ink,16);
@@ -410,12 +391,10 @@ public sealed partial class BubeApp {
   foreach(var name in sourceNames)Text(content,"•  "+name,dark,14);
   if(sourceNames.Length==0)Text(content,T("summary.noSources"),muted,14);
   var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;actions.style.marginTop=10;paper.Add(actions);
-  var back=new Button(Desk){text=T("back.desk")};back.style.flexGrow=1;back.style.minHeight=48;
-  back.style.backgroundColor=KarineTheme.Paper.Tint;back.style.color=dark;
-  back.style.fontSize=Typography.Snap(17);if(dossierFont!=null)back.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);actions.Add(back);
-  var next=new Button(ContinueToNextCase){text=T("result.continue")+"  →"};next.style.flexGrow=1;next.style.minHeight=48;
-  next.style.marginLeft=12;next.style.backgroundColor=KarineTheme.Paper.Stamp;next.style.color=Ink;
-  next.style.fontSize=Typography.Snap(17);if(dossierBoldFont!=null)next.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);actions.Add(next);
+  var back=KarineUI.PaperButton(actions,T("back.desk"),Desk);
+  back.style.flexGrow=1;back.style.minHeight=48;
+  var next=KarineUI.PaperButton(actions,T("result.continue")+"  →",ContinueToNextCase,KarinePaperKind.Action);
+  next.style.flexGrow=1;next.style.minHeight=48;next.style.marginLeft=12;
   FadeIn(paper);
  }
  void Result() {

@@ -68,6 +68,9 @@ public sealed partial class BubeApp {
   viewer.style.flexDirection=FlexDirection.Column;
   viewer.style.paddingLeft=8;viewer.style.paddingRight=8;
   viewer.style.paddingTop=5;viewer.style.paddingBottom=5;
+  // CCTV görüntüsünün kendisi arayüz yüzeyi değil, **kameranın resmidir**:
+  // yeşile çalan cam, tarama çizgisi, parazit bandı ve köşe işaretleri kit
+  // paletinden gelmez; kamera görüntüsü gibi görünmeleri gerekir.
   viewer.style.backgroundColor=new Color(.035f,.065f,.085f);
   content.parent.Add(viewer);
   cctvTexture=new RenderTexture(1280,720,0,RenderTextureFormat.ARGB32);
@@ -177,6 +180,8 @@ public sealed partial class BubeApp {
    else if(cctvPlayer.canSetTime)cctvPlayer.frame=Math.Max(0L,cctvPlayer.frame)+1L;
   }){text=T("cctv.videoStep")};
   var replay=new Button(ReplayCctvVideo){text=T("cctv.videoReplay")};
+  // Bu üçünün metni oynatma durumuna göre değişiyor, o yüzden düğme elle
+  // kuruluyor; biçimi yine kit'ten geliyor.
   foreach(var button in new[]{cctvPlaybackButton,cctvStepButton,replay}) {
    KarineUI.Paint(button,KarineButtonKind.Secondary,true);
    button.style.width=118;button.style.flexShrink=0;
@@ -216,7 +221,7 @@ public sealed partial class BubeApp {
   var status=Text(meta,T("cctv.signal"),Gold,14);status.style.marginBottom=0;
   var period=Text(content,T(node.cctvPeriodKey),Muted,14);period.style.marginBottom=7;
   var recordPanel=new VisualElement();recordPanel.style.flexGrow=1;
-  recordPanel.style.backgroundColor=new Color(.045f,.08f,.105f);
+  recordPanel.style.backgroundColor=KarineTheme.GlassDeep;
   recordPanel.style.borderTopWidth=1;recordPanel.style.borderBottomWidth=1;
   recordPanel.style.borderLeftWidth=1;recordPanel.style.borderRightWidth=1;
   recordPanel.style.borderTopColor=Muted;recordPanel.style.borderBottomColor=Muted;
@@ -234,8 +239,8 @@ public sealed partial class BubeApp {
    row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
    row.style.minHeight=44;row.style.paddingLeft=10;row.style.paddingRight=8;
    row.style.marginBottom=3;row.style.borderBottomWidth=1;
-   row.style.borderBottomColor=new Color(.19f,.26f,.28f);
-   row.style.backgroundColor=new Color(.055f,.10f,.12f);
+   row.style.borderBottomColor=KarineTheme.Panel2;
+   row.style.backgroundColor=KarineTheme.Glass;
    stream.Add(row);rows.Add(row);
    var label=Text(row,string.Empty,Ink,22);label.style.flexGrow=1;
    label.style.marginBottom=0;lines.Add(label);
@@ -244,11 +249,11 @@ public sealed partial class BubeApp {
   Action<int> addFootageButton=index=>{
    var record=records[index];
    if(string.IsNullOrEmpty(record.videoPath))return;
-   var watch=new Button(()=>OpenCctvVideo(node,record,content)){text="▶ "+T("cctv.watch")};
+   var watch=KarineUI.Button_(actions[index],"▶ "+T("cctv.watch"),()=>OpenCctvVideo(node,record,content));
    watch.tooltip=T("cctv.watch");
    watch.style.minWidth=88;watch.style.height=MinimumTouchTarget;
-   watch.style.backgroundColor=Paper;watch.style.color=Gold;
-   watch.style.fontSize=Typography.Snap(15);actions[index].Add(watch);
+   watch.style.marginRight=0;watch.style.marginBottom=0;
+   watch.style.fontSize=Typography.Snap(15);
   };
   var controls=new VisualElement();content.Add(controls);
   if(!string.IsNullOrEmpty(focusEventId) && game.State.read.Contains(node.id)) {
@@ -292,15 +297,16 @@ public sealed partial class BubeApp {
       addFootageButton(current);
       if(!string.IsNullOrEmpty(record.glitchKey)) {
        Button clarify=null;
-       clarify=new Button(()=>{
+       clarify=KarineUI.Button_(actions[current],"↻",()=>{
         clarify.RemoveFromHierarchy();
         line.text=T("cctv.syncing");
         content.schedule.Execute(()=>{line.text=T(record.textKey);}).ExecuteLater(360);
-       }){text="↻"};
+       });
        clarify.tooltip=T("cctv.clarify");
-       clarify.style.width=MinimumTouchTarget;clarify.style.height=MinimumTouchTarget;clarify.style.fontSize=Typography.Snap(25);
-       clarify.style.backgroundColor=Paper;clarify.style.color=Gold;
-       actions[current].Add(clarify);
+       clarify.style.width=KarineTheme.IconButtonSize;clarify.style.height=KarineTheme.IconButtonSize;
+       clarify.style.paddingLeft=0;clarify.style.paddingRight=0;
+       clarify.style.marginRight=0;clarify.style.marginBottom=0;
+       clarify.style.fontSize=Typography.Snap(25);
       }
       next();
      }).ExecuteLater(110+current%3*70);

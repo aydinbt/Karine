@@ -481,3 +481,19 @@ Kötü görünmesinin asıl sebebi bulundu: kök öğenin yazı tipi **IBM Plex 
 
 3.125 satırlık tek dosya sekiz `partial` parçaya ayrıldı: çekirdek, menü, sinematik, masa, soruşturma, görüşme, CCTV, rapor. Bölünme **mekaniktir** — tek satır davranış değişmedi, 84 test bölünmeden sonra da geçiyor. Amaç yeni ekranların tek dosyaya yığılmasını durdurmak; doğrulayıcıda 560 satır kilidi var ve kaldırılıp denendi, beklenen hatayı verdi.
 
+
+## Renk ve punto tek kapıya alındı (25 Eylül 2026)
+
+**Kullanıcı:** "UI/UX ile yapman gereken bütün her şeyi bitir."
+
+Kit taşımasının kalan iki borcu kapandı.
+
+**Düğmeler.** Elle kurulan 41 düğmeden 5 kaldı ve beşi de gerekçeli: CCTV'nin metni çalışma anında değişen üç düğmesi (elle kurulur ama `KarineUI.Paint` ile kit boyasını alır), masadaki görünmez `Hotspot` ve menünün kendine özgü satırı. Kâğıt katmanı için `KarineUI.PaperButton` (`Action`/`Choice`/`Quiet`) ve her iki katman için `KarineUI.CloseButton` eklendi. Kâğıt düğmesi HUD renklerini kâğıda taşımamak için ayrı bir bileşen — diegetik/HUD ayrımı bilerek korundu (kit §13).
+
+**Renk.** Ekranlardaki 65 ham renk 16'ya indi. Yeni durak yaratmak yerine anlamı olan token'lar eklendi: `Veil(alpha)` (katman perdesi), `GlassDeep`/`Glass`/`GlassLift` (terminal camı, paletin koyu ucundan türer), `HotspotHover` (vurgu kahvesinden), `Alpha(token, a)` (saydamlık için ekran kendi RGB'sini yazmasın), `Paper.Folder`/`FolderEdge`/`FolderDeep`/`Board`/`Approved` (kâğıdın altındaki fiziksel malzeme). Birbirinden bir iki basamak farklı onlarca kahve ve koyu bu duraklara toplandı; bu bir **birleştirmedir**, tek tek piksellerin eski değeri korunmadı.
+
+**Kalan 16 renk bilerek kalıyor** ve kodda öyle yazılı: piksel portrenin ten/saç/giysi tonları ile CCTV'nin cam, tarama, parazit ve köşe işareti efektleri oyun sanatıdır, arayüz paleti değil. Bir yüzü kit kremine boyamak portreyi bozar.
+
+**Punto.** Ekranlardaki her `style.fontSize` artık `Typography.Snap`ten geçiyor; doğrulayıcı geçmeyeni dosya:satır olarak bildiriyor. Tek istisna CCTV'nin görüntüyle ölçeklenen kamera yazısı.
+
+Her iki kilit de kaldırılıp denendi ve beklenen hatayı verdi. 77 EditMode + 7 PlayMode testi geçiyor. **Ama bu statik doğrulamadır:** ekranların yeni renklerle nasıl göründüğü Play Mode'da görülmedi, madde `[~]`.

@@ -38,6 +38,21 @@ public static class KarineTheme {
  // dark text" kuralı buradan gelir, ekranlar kendi koyusunu seçmez.
  public static readonly Color OnPrimary = Background;
 
+ // --- Örtü ve cam ----------------------------------------------------------
+ // Ekranlar kendi koyusunu seçmez. Bir katman açıldığında altındaki sahneyi
+ // örten perde tek yerden gelir; yoğunluk (alfa) sahneye göre değişir.
+ public static Color Veil(float alpha) => new Color(.02f, .025f, .03f, alpha);
+
+ // Terminalin/tabletin cam yüzeyi. Paletin koyu ucundan türer, ayrı bir renk
+ // ailesi değildir: Background ile Panel arasında üç durak.
+ public static readonly Color GlassDeep = Mix(Background, Panel, .25f); // en dip: tablet, kayıt listesi
+ public static readonly Color Glass     = Mix(Background, Panel, .55f); // gövde: sorgu şeridi, başlık
+ public static readonly Color GlassLift = Mix(Panel, Panel2, .45f);     // üstteki kart, seçim satırı
+
+ // Masadaki dokunulabilir noktanın üstüne gelince görünen sıcak iz. Kit'in
+ // vurgu kahvesinden üretilir, kendi sarısını uydurmaz.
+ public static Color HotspotHover => Alpha(Accent, .18f);
+
  // --- Boşluk ---------------------------------------------------------------
  // Tek ölçek; ara değer kullanılmaz.
  public const int SpaceXs = 4;
@@ -79,6 +94,14 @@ public static class KarineTheme {
   public static readonly Color Light = Hex("#FAEDD4"); // kâğıdın aydınlık yeri
   public static readonly Color Tint  = Hex("#D1C2A6"); // kâğıdın üstündeki kart/şerit
   public static readonly Color Edge  = Hex("#9E927C"); // kâğıt üstü çizgi ve kenar
+
+  // Kâğıdın altındaki fiziksel malzeme: dosya kabı, klasör sırtı, mukavva.
+  // Ekranlar bu kahveleri tek tek uydurmasın diye üç durak yeter.
+  public static readonly Color Folder     = Hex("#4A2921"); // dosya kabının yüzü
+  public static readonly Color FolderEdge = Hex("#4F3024"); // kabın üst kenarı, logo gölgesi
+  public static readonly Color FolderDeep = Hex("#1F1411"); // sırtın gölgesi, klasör dibi
+  public static readonly Color Board      = Hex("#291F1A"); // mukavva/pano yüzeyi
+  public static readonly Color Approved   = Hex("#29634F"); // kabul mührünün yeşili
  }
 
  // "#RRGGBB" → Color. Ayrıştırılamayan değer sessizce siyaha düşmez, magenta
@@ -87,5 +110,9 @@ public static class KarineTheme {
   ColorUtility.TryParseHtmlString(value, out var color) ? color : Color.magenta;
 
  static Color Mix(Color a, Color b, float t) => Color.Lerp(a, b, t);
+
+ // Paletteki bir rengi saydamlaştırmak için: ekran kendi RGB'sini yazmasın.
+ public static Color Alpha(Color value, float alpha) =>
+  new Color(value.r, value.g, value.b, alpha);
 }
 }

@@ -10,13 +10,14 @@ public enum KarineButtonKind { Primary, Secondary, Ghost, Danger }
 // Rozet/durum göstergesi tonu: kit'te kırmızı yalnız "yeni/kritik", teal
 // "sistem/aktif", krem "nötr".
 public enum KarineTone { Neutral, Active, Danger }
+public enum KarinePaperKind { Action, Choice, Quiet }
 
 // KARINE UI/UX Kit'in ortak bileşenleri. Yeni ekran yazarken önce buraya
 // bakılır; buradaki bir bileşen işi görüyorsa yenisi yazılmaz.
 //
 // Prefab yok (proje arayüzü kodla kurar), bu yüzden "prefab" burada
 // `VisualElement` döndüren yeniden kullanılabilir üretici demektir.
-public static class KarineUI {
+public static partial class KarineUI {
 
  // Yazı tipi rolleri bir kez kurulur; her bileşen buradan okur. Kurulmamışsa
  // bileşenler yine çizilir, yalnız panelin varsayılan yazı tipiyle.
@@ -29,6 +30,7 @@ public static class KarineUI {
  static Font Display => Fonts != null ? Fonts.Display : null;
  static Font Heading => Fonts != null ? Fonts.Heading : null;
  static Font Body => Fonts != null ? Fonts.Body : null;
+ static Font BodyBold => Fonts != null ? Fonts.BodyBold : null;
  static Font Mono => Fonts != null ? Fonts.Mono : null;
 
  // --- Yazı -----------------------------------------------------------------
@@ -215,272 +217,6 @@ public static class KarineUI {
  public static Color Tone(KarineTone tone) =>
   tone == KarineTone.Danger ? KarineTheme.Danger :
   tone == KarineTone.Active ? KarineTheme.Active : KarineTheme.Primary;
-
- // --- Sekme ----------------------------------------------------------------
-
- public static VisualElement Tabs(VisualElement parent, string[] labels, int selected, Action<int> onSelect,
-                                 bool stretch = false) {
-  var strip = Row(parent);
-  strip.style.backgroundColor = KarineTheme.Panel;
-  strip.style.marginBottom = KarineTheme.SpaceMd;
-  Border(strip, KarineTheme.BorderWidth, KarineTheme.Panel2);
-  for (int index = 0; index < labels.Length; index++) {
-   int captured = index;
-   var tab = new Button(() => onSelect?.Invoke(captured)) { text = labels[index] };
-   tab.style.minHeight = KarineTheme.TouchTarget;
-   tab.style.fontSize = Typography.Snap(15);
-   if (stretch) { tab.style.flexGrow = 1; tab.style.whiteSpace = WhiteSpace.Normal; }
-   tab.style.marginLeft = 0; tab.style.marginRight = 0;
-   tab.style.marginTop = 0; tab.style.marginBottom = 0;
-   Border(tab, 0, Color.clear);
-   Round(tab, KarineTheme.Radius);
-   bool active = index == selected;
-   tab.style.backgroundColor = active ? KarineTheme.Primary : Color.clear;
-   tab.style.color = active ? KarineTheme.OnPrimary : KarineTheme.Secondary;
-   ApplyFont(tab, Body);
-   strip.Add(tab);
-  }
-  return strip;
- }
-
- // --- Seçim: radyo ve anahtar ----------------------------------------------
-
- // Kit'teki SEÇİM RADYO: dolu halka seçili, boş halka değil. Birbirini dışlayan
- // ayarlar için; iki düğmeyi birden birincil yapmak yerine bu kullanılır.
- public static Button Radio(VisualElement parent, string label, bool selected, Action onSelect) {
-  var row = new Button(onSelect);
-  row.style.flexDirection = FlexDirection.Row;
-  row.style.alignItems = Align.Center;
-  row.style.minHeight = KarineTheme.TouchTarget;
-  row.style.backgroundColor = Color.clear;
-  row.style.marginLeft = 0; row.style.marginRight = 0;
-  row.style.marginTop = 0; row.style.marginBottom = KarineTheme.SpaceXs;
-  row.style.paddingLeft = 0;
-  row.style.unityTextAlign = TextAnchor.MiddleLeft;
-  Border(row, 0, Color.clear);
-  parent?.Add(row);
-
-  var ring = new VisualElement();
-  ring.style.width = 20; ring.style.height = 20; ring.style.flexShrink = 0;
-  ring.style.alignItems = Align.Center; ring.style.justifyContent = Justify.Center;
-  ring.style.marginRight = KarineTheme.SpaceMd;
-  Border(ring, KarineTheme.BorderWidth, selected ? KarineTheme.Primary : KarineTheme.Muted);
-  Round(ring, 10);
-  row.Add(ring);
-  if (selected) {
-   var core = new VisualElement();
-   core.style.width = 10; core.style.height = 10;
-   core.style.backgroundColor = KarineTheme.Primary;
-   Round(core, 5);
-   ring.Add(core);
-  }
-
-  var text = new Label(label);
-  text.style.color = selected ? KarineTheme.Primary : KarineTheme.Secondary;
-  text.style.fontSize = Typography.Snap(17);
-  ApplyFont(text, Body);
-  row.Add(text);
-  return row;
- }
-
- // --- Durum göstergesi -----------------------------------------------------
-
- // Kit'in "DURUM GÖSTERGELERİ" kutusu: ikon + etiket + çubuk (Kurum Güveni)
- // ya da ikon + etiket + sayı (Tamamlanan Vaka 3 / 70). Sayı monospace'tir.
- public static VisualElement Meter(VisualElement parent, string icon, string label, float ratio) {
-  var card = Panel(parent, true);
-  card.style.flexDirection = FlexDirection.Row;
-  card.style.alignItems = Align.Center;
-  Icon(card, icon, KarineTheme.Primary).style.marginRight = KarineTheme.SpaceMd;
-  var column = new VisualElement();
-  column.style.flexGrow = 1;
-  card.Add(column);
-  var name = Technical(column, label, 13);
-  name.style.marginBottom = KarineTheme.SpaceXs;
-  Progress(column, ratio);
-  return card;
- }
-
- public static VisualElement Counter(VisualElement parent, string icon, string label, string value) {
-  var card = Panel(parent, true);
-  card.style.flexDirection = FlexDirection.Row;
-  card.style.alignItems = Align.Center;
-  Icon(card, icon, KarineTheme.Primary).style.marginRight = KarineTheme.SpaceMd;
-  var column = new VisualElement();
-  column.style.flexGrow = 1;
-  card.Add(column);
-  Technical(column, label, 13).style.marginBottom = KarineTheme.SpaceXs;
-  var number = Technical(column, value, 19);
-  number.style.color = KarineTheme.Primary;
-  number.style.marginBottom = 0;
-  return card;
- }
-
- // --- Evrak gezintisi ------------------------------------------------------
-
- // `<  03 / 07  >` — sayfa sayacı monospace, oklar ikon düğme.
- public static VisualElement DocumentNav(VisualElement parent, int index, int count,
-                                         Action onPrev, Action onNext) {
-  var nav = Row(parent);
-  nav.style.justifyContent = Justify.Center;
-  var back = IconButton(nav, "nav_prev", onPrev);
-  back.SetEnabled(index > 1);
-  var counter = Technical(nav, index.ToString("00") + " / " + count.ToString("00"), 21);
-  counter.style.marginBottom = 0;
-  counter.style.marginLeft = KarineTheme.SpaceLg;
-  counter.style.marginRight = KarineTheme.SpaceLg;
-  counter.style.color = KarineTheme.Primary;
-  var next = IconButton(nav, "nav_next", onNext);
-  next.SetEnabled(index < count);
-  next.style.marginRight = 0;
-  return nav;
- }
-
- // --- Sinematik ---------------------------------------------------------
-
- // Sinematikte tek bir denetim vardır: GEÇ. Duraklatma, ilerleme çubuğu ve
- // hızlandırma **yoktur** — film ya izlenir ya geçilir; ara kademeler oyuncuya
- // karar verdirmez, yalnız kareyi kalabalıklaştırır. Kare ilerletme ve
- // duraklatma CCTV izlemede anlamlıdır ve orada kendi denetimleri vardır.
- //
- // Düğme kit'in **birincil** eylemidir: sinematikte tek eylem odur. Kit'in
- // birincil dili birebir uygulanır — dolu krem zemin, koyu yazı, sol eylem
- // kenarı. Zemin **saydam değildir**: filmin üstünde bile düğme düğme gibi
- // durur. Metin düğmenin kendi `text`i değil, ayrı bir etikettir — UI
- // Toolkit'te bir `Button`un metni ile çocukları **üst üste biner**, simge
- // ancak böyle yanına oturur.
- public static Button SkipButton(VisualElement parent, string label, Action onClick) {
-  var button = new Button(onClick);
-  button.text = null;
-  button.style.flexDirection = FlexDirection.Row;
-  button.style.alignItems = Align.Center;
-  button.style.justifyContent = Justify.Center;
-  button.style.minHeight = KarineTheme.TouchTargetComfortable;
-  button.style.paddingLeft = KarineTheme.SpaceLg; button.style.paddingRight = KarineTheme.SpaceLg;
-  button.style.paddingTop = KarineTheme.SpaceSm; button.style.paddingBottom = KarineTheme.SpaceSm;
-  button.style.marginLeft = 0; button.style.marginRight = 0;
-  button.style.marginTop = 0; button.style.marginBottom = 0;
-  var fill = KarineTheme.Primary;
-  button.style.backgroundColor = fill;
-  Round(button, KarineTheme.Radius);
-  Border(button, KarineTheme.BorderWidth, KarineTheme.Accent);
-  button.style.borderLeftWidth = KarineTheme.PrimaryEdgeWidth;
-  button.style.borderLeftColor = KarineTheme.Accent;
-
-  var text = new Label(label);
-  text.style.color = KarineTheme.OnPrimary;
-  text.style.fontSize = Typography.Snap(19);
-  text.style.letterSpacing = 2;
-  text.style.marginBottom = 0; text.style.marginRight = KarineTheme.SpaceSm;
-  ApplyFont(text, Body);
-  button.Add(text);
-  button.Add(Icon(null, "cine_skip", KarineTheme.OnPrimary));
-
-  var pressed = Color.Lerp(fill, KarineTheme.Accent, .35f);
-  button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
-  button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = fill);
-  button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = fill);
-  parent?.Add(button);
-  return button;
- }
-
- // --- Modal ----------------------------------------------------------------
-
- // Başlık → açıklama → ikincil eylem → birincil eylem. Kit'in sırası budur;
- // onay düğmesi hep sağda ve tek birincil eylemdir.
- public static VisualElement Modal(VisualElement parent, string title, string explanation,
-                                   string cancelLabel, Action onCancel,
-                                   string confirmLabel, Action onConfirm,
-                                   bool destructive = false) {
-  var veil = new VisualElement();
-  veil.style.position = Position.Absolute;
-  veil.style.left = 0; veil.style.top = 0; veil.style.right = 0; veil.style.bottom = 0;
-  veil.style.backgroundColor = new Color(0, 0, 0, .72f);
-  veil.style.alignItems = Align.Center;
-  veil.style.justifyContent = Justify.Center;
-  parent?.Add(veil);
-
-  var card = Panel(veil, true);
-  card.style.width = Length.Percent(56);
-  card.style.maxWidth = 640;
-  Border(card, KarineTheme.BorderWidth, destructive ? KarineTheme.Danger : KarineTheme.Accent);
-
-  var head = Row(card);
-  if (destructive) Icon(head, "alert", KarineTheme.Danger).style.marginRight = KarineTheme.SpaceMd;
-  Title(head, title, 21).style.marginBottom = 0;
-  Body_(card, explanation, 15).style.color = KarineTheme.Muted;
-
-  var actions = Row(card);
-  actions.style.justifyContent = Justify.FlexEnd;
-  Button_(actions, cancelLabel, onCancel, KarineButtonKind.Secondary);
-  var confirm = Button_(actions, confirmLabel, onConfirm,
-   destructive ? KarineButtonKind.Danger : KarineButtonKind.Primary);
-  confirm.style.marginRight = 0;
-
-  Enter(veil, KarineTheme.ModalMs);
-  return veil;
- }
-
- // --- Bildirim -------------------------------------------------------------
-
- // "YENİ EVRAK VAR / Masana yeni bir dosya gönderildi. [GÖRÜNTÜLE]" — ekranın
- // küçük bir köşesi; tam ekran kaplamaz.
- public static VisualElement Notification(VisualElement parent, string title, string detail,
-                                          string actionLabel, Action onAction, Action onDismiss) {
-  var card = Panel(parent, true);
-  card.style.flexDirection = FlexDirection.Row;
-  card.style.maxWidth = 420;
-  Border(card, KarineTheme.BorderWidth, KarineTheme.Accent);
-
-  Icon(card, "document", KarineTheme.Primary, 34).style.marginRight = KarineTheme.SpaceMd;
-
-  var column = new VisualElement();
-  column.style.flexGrow = 1;
-  card.Add(column);
-  Title(column, title, 17).style.marginBottom = KarineTheme.SpaceXs;
-  Body_(column, detail, 13).style.color = KarineTheme.Muted;
-  if (!string.IsNullOrEmpty(actionLabel)) {
-   var action = Button_(column, actionLabel, onAction, KarineButtonKind.Primary);
-   action.style.minHeight = KarineTheme.TouchTarget;
-   action.style.alignSelf = Align.FlexStart;
-  }
-  if (onDismiss != null) {
-   var close = IconButton(card, "close", onDismiss);
-   close.style.width = KarineTheme.TouchTarget; close.style.height = KarineTheme.TouchTarget;
-   close.style.marginRight = 0;
-  }
-  Enter(card, KarineTheme.NoticeMs);
-  return card;
- }
-
- // --- Yükleme ve ilerleme --------------------------------------------------
-
- public static VisualElement Progress(VisualElement parent, float ratio, KarineTone tone = KarineTone.Active) {
-  var track = new VisualElement();
-  track.style.height = 6;
-  track.style.backgroundColor = KarineTheme.Panel2;
-  Round(track, KarineTheme.Radius);
-  var fill = new VisualElement();
-  fill.style.height = 6;
-  fill.style.width = Length.Percent(Mathf.Clamp01(ratio) * 100f);
-  fill.style.backgroundColor = Tone(tone);
-  Round(fill, KarineTheme.Radius);
-  track.Add(fill);
-  parent?.Add(track);
-  return track;
- }
-
- // --- Tooltip --------------------------------------------------------------
-
- public static VisualElement Tooltip(VisualElement parent, string text) {
-  var tip = Panel(parent, true);
-  tip.style.flexDirection = FlexDirection.Row;
-  tip.style.maxWidth = 380;
-  tip.style.paddingTop = KarineTheme.SpaceMd; tip.style.paddingBottom = KarineTheme.SpaceMd;
-  Icon(tip, "info", KarineTheme.Active).style.marginRight = KarineTheme.SpaceMd;
-  Body_(tip, text, 13).style.marginBottom = 0;
-  return tip;
- }
 
  // --- Ortak biçim yardımcıları ---------------------------------------------
 

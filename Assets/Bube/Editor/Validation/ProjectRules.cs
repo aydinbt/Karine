@@ -26,11 +26,12 @@ public static class ProjectRules {
   "cine_skip",
  };
 
- // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 65'e indi.
- // Kalanlar çoğunlukla CCTV taraması gibi saydamlıklı efektler ve piksel
- // portre ten tonlarıdır — bunlar oyun sanatı, arayüz paleti değil.
- // Yalnız aşağı çekilir.
- const int RawColorBudget = 65;
+ // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 16'ya indi.
+ // Kalan on altı renk oyun **sanatıdır**, arayüz paleti değil: piksel portrenin
+ // ten/saç/giysi tonları (`BubeApp.Interview.cs`) ve CCTV'nin cam, tarama,
+ // parazit ve köşe işareti efektleri (`BubeApp.Cctv.cs`). İkisi de kit
+ // paletinden gelmemeli. Yalnız aşağı çekilir.
+ const int RawColorBudget = 16;
 
  public static void Validate(ValidationReport report) {
   report.Scope("proje");
@@ -109,6 +110,21 @@ public static class ProjectRules {
   if (rawColors < RawColorBudget)
    report.Note("Ham renk borcu azalmış (" + rawColors + "/" + RawColorBudget +
     "); `RawColorBudget` bu sayıya çekilebilir.");
+
+  // Punto da ekranın içine elle yazılmaz: her `style.fontSize` ataması tek
+  // kapıdan, `Typography.Snap`ten geçer (CCTV'nin görüntüyle ölçeklenen kamera
+  // yazısı `Mathf.Clamp` ile kendi ölçeğini kullanır).
+  foreach (var path in Directory.GetFiles("Assets/Bube/Runtime", "*.cs", SearchOption.AllDirectories)) {
+   var file = path.Replace('\\', '/');
+   if (file.Contains("Runtime/UI/")) continue;
+   var lines = File.ReadAllLines(path);
+   for (int index = 0; index < lines.Length; index++) {
+    if (!lines[index].Contains("style.fontSize=") && !lines[index].Contains("style.fontSize =")) continue;
+    if (lines[index].Contains("Typography.Snap") || lines[index].Contains("Mathf.Clamp")) continue;
+    report.Require(false, "Elle punto yazılmış: " + file + ":" + (index + 1) +
+     ". Punto `Typography.Snap`ten geçer.");
+   }
+  }
 
   // Sinematikler Resources'ta degil StreamingAssets'ta durur; eksik bir video
   // oyunu durdurmaz ama o anin sessizce kaybolmasi fark edilmelidir.
