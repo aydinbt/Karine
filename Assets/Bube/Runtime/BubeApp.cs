@@ -37,7 +37,9 @@ public sealed class BubeApp : MonoBehaviour {
  bool instantText;
  string selectedFileNode="report";
  string selectedFileSection="report";
- string fileSearchQuery="";
+ // Dosyada gezinme süzgeçleri: tür (0 tümü, 1 belge, 2 ifade, 3 kamera) ve kişi.
+ int fileFilterKind;
+ string fileFilterPerson="";
  string selectedSearchTurn;
  string compareLeftId, compareRightId;
  int comparePicker=-1;
@@ -1672,19 +1674,50 @@ public sealed class BubeApp : MonoBehaviour {
   back.style.paddingLeft=12;back.style.paddingRight=12;back.style.color=Ink;
   back.style.backgroundColor=new Color(.30f,.19f,.17f);header.Add(back);
   Text(paper,T("search.help"),muted,15);
-  var input=new TextField();input.value=fileSearchQuery;
-  input.style.height=51;input.style.marginTop=5;input.style.marginBottom=14;
-  input.style.paddingLeft=10;input.style.fontSize=Typography.Snap(20);input.style.color=dark;
-  input.style.backgroundColor=new Color(.98f,.94f,.85f);paper.Add(input);
-  var count=Text(paper,"",muted,14);count.style.marginBottom=6;
+  // Yazı alanı kaldırıldı: telefonda klavye ekranın yarısını kaplıyordu ve
+  // aranacak sözcüğü bilmek oyuncunun işi değil. Yerine iki dokunulur eksen —
+  // kayıt türü ve kişi. Kişi süzgeci vakaya özel liste tutmaz, "adı geçtiyse"
+  // kuralının aynısını kullanır, yani yeni vakalarda kendiliğinden işler.
+  var lines=CaseSearch.Lines(game,locale);
+  var people=game.Data.nodes.Where(n=>n.kind=="interview" && !string.IsNullOrEmpty(n.personId))
+   .GroupBy(n=>n.personId).Select(g=>g.First()).ToArray();
+  var filters=new VisualElement();filters.style.marginTop=6;paper.Add(filters);
+  var count=Text(paper,"",muted,14);count.style.marginTop=4;count.style.marginBottom=6;
   var results=Scroll(paper);
-  Action<string> render=value=>{
-   fileSearchQuery=value ?? "";
+  var kindButtons=new List<Button>();var personButtons=new List<Button>();
+  Action render=null;
+  Func<VisualElement> shelf=()=>{
+   var row=new ScrollView(ScrollViewMode.Horizontal);row.style.flexShrink=0;
+   row.contentContainer.style.flexDirection=FlexDirection.Row;filters.Add(row);return row;
+  };
+  Action<VisualElement,List<Button>,string,Action> chip=(row,group,label,pick)=>{
+   var button=new Button(()=>{pick();render();}){text=label};
+   button.style.minHeight=MinimumTouchTarget;button.style.marginRight=6;button.style.marginBottom=6;
+   button.style.paddingLeft=16;button.style.paddingRight=16;
+   button.style.fontSize=Typography.Snap(15);button.style.color=dark;
+   row.Add(button);group.Add(button);
+  };
+  var kindRow=shelf();
+  string[] kindLabels={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
+  for(int i=0;i<kindLabels.Length;i++){var pick=i;chip(kindRow,kindButtons,T(kindLabels[i]),()=>fileFilterKind=pick);}
+  var personRow=shelf();
+  chip(personRow,personButtons,T("search.everyone"),()=>fileFilterPerson="");
+  foreach(var person in people){var pick=person.personId;chip(personRow,personButtons,T(person.personNameKey),()=>fileFilterPerson=pick);}
+  render=()=>{
    results.Clear();
-   if(fileSearchQuery.Trim().Length<2) {
-    count.text="";Text(results,T("search.enter"),muted,16);return;
+   for(int i=0;i<kindButtons.Count;i++)
+    kindButtons[i].style.backgroundColor=i==fileFilterKind?new Color(.79f,.63f,.40f):new Color(.79f,.72f,.61f);
+   for(int i=0;i<personButtons.Count;i++) {
+    var chosen=i==0?fileFilterPerson=="":people[i-1].personId==fileFilterPerson;
+    personButtons[i].style.backgroundColor=chosen?new Color(.79f,.63f,.40f):new Color(.79f,.72f,.61f);
    }
-   var hits=CaseSearch.Find(game,locale,fileSearchQuery);
+   var hits=lines.Where(line=>{
+    var source=game.Data.nodes.FirstOrDefault(n=>n.id==line.nodeId);
+    if(source==null)return false;
+    int kind=source.kind=="cctv"?3:source.kind=="interview"?2:1;
+    if(fileFilterKind!=0 && fileFilterKind!=kind)return false;
+    return string.IsNullOrEmpty(fileFilterPerson) || game.MentionsPerson(fileFilterPerson,line.text);
+   }).ToArray();
    count.text=T("search.count")+"  "+hits.Length;
    if(hits.Length==0){Text(results,T("search.empty"),muted,16);return;}
    foreach(var hit in hits) {
@@ -1702,8 +1735,7 @@ public sealed class BubeApp : MonoBehaviour {
     open.style.color=dark;open.style.backgroundColor=new Color(.91f,.85f,.73f);row.Add(open);
    }
   };
-  input.RegisterValueChangedCallback(evt=>render(evt.newValue));
-  render(fileSearchQuery);
+  render();
  }
  void OpenSearchSource(SearchHit hit) {
   var source=game.Data.nodes.FirstOrDefault(n=>n.id==hit.nodeId);

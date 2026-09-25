@@ -352,3 +352,16 @@ Dosya telefonda karmaşıktı. Dört ayrı sebep vardı, dördü de düzeltildi:
 4. **Sürdürülebilirlik.** Sekme biçimi dört ayrı yerde kopyalanmıştı (her biri yedi satır). `FileTab` yardımcısına toplandı; yeni sekme eklemek artık tek satır.
 
 **Açık kalan:** "DOSYADA ARA" hâlâ yazmayı gerektiriyor. Görüşmedeki arama alanı telefonda klavye ekranın yarısını kapattığı için kaldırılmıştı; dosyadaki arama da aynı gerekçeyle gözden geçirilmeli, ama yerine ne konacağı (kişiye/türe göre dokunulur süzgeç) ayrı bir karar.
+
+## "Dosyada ara" yerine dokunulur süzgeç (25 Eylül 2026)
+
+Arama yazı alanıydı: telefonda klavye ekranın yarısını kaplıyor, üstelik hangi sözcüğü arayacağını bilmek oyuncunun işi değil — bilmediğini arayamaz. Yerine iki dokunulur eksen kondu, sekme adı da **"DOSYADA GEZİN"** oldu:
+
+- **Tür:** Tümü · Belgeler · İfadeler · Kamera kaydı (görüşme kaynak seçicisindeki sekmelerin aynısı).
+- **Kişi:** Herkes · Mert · Elif · Hasan. Bu liste vakaya elle yazılmaz; görüşme düğümlerinden türer. Eşleşme de elle etiketlenmez: **"adı geçtiyse" kuralının aynısını** (`Investigation.MentionsPerson`) kullanır, yani yeni vakalarda kendiliğinden işler ve oyunun geri kalanıyla aynı mantığı konuşur.
+
+Süzgeç kalkınca ekran, kayda geçmiş bütün satırların gezilebilir listesi hâline geliyor — oyuncu ne aradığını bilmeden de dosyayı tarayabiliyor.
+
+**Sızıntı kapısı korundu.** `CaseSearch` ikiye ayrıldı: `Lines` okunmuş kaynakların satırlarını toplar (tek kapı), `Find` onun üstünde metin süzer. Okunmamış kaynağın aramaya sızmadığını doğrulayan `Case001Rules` iddiaları `Find` üzerinden aynı kapıyı denetlediği için gezinme listesi de kendiliğinden kapsanıyor.
+
+Ölü anahtar `search.enter` ("Aramak için en az iki karakter yaz") kaldırıldı.
