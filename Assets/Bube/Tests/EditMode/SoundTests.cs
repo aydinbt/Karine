@@ -17,29 +17,35 @@ public sealed class SoundTests {
 
  [TearDown] public void TearDown() => KarineUI.Sound = null;
 
- // Kit'te kaydırıcı yok; ses üç kademedir ve kademeler kazanç değerlerine
+ // Kit'te kaydırıcı yok; ses beş kademedir ve kademeler kazanç değerlerine
  // karşılık gelir. Kapalı gerçekten sıfır olmalı, "çok kısık" değil.
  [Test]
- public void ThreeLevels_MapToGains_AndOffIsSilent() {
+ public void Levels_MapToGains_AndOffIsSilent() {
   Assert.AreEqual(0f, SoundSettings.Gain(SoundLevel.Off), "Kapalı sessiz olmalı.");
-  Assert.Less(SoundSettings.Gain(SoundLevel.Low), SoundSettings.Gain(SoundLevel.Full), "Kısık, açıktan düşük olmalı.");
-  Assert.AreEqual(1f, SoundSettings.Gain(SoundLevel.Full), "Açık tam olmalı.");
+  Assert.AreEqual(1f, SoundSettings.Gain(SoundLevel.Full), "Tam, tam olmalı.");
+  Assert.AreEqual(0.5f, SoundSettings.Gain(SoundLevel.Half), 1e-4f, "Yüzde elli, yarım kazanç olmalı.");
+  // Kademeler ekranda gösterildiği sırada gerçekten artmalı.
+  for (int index = 1; index < SoundSettings.Levels.Length; index++)
+   Assert.Less(SoundSettings.Gain(SoundSettings.Levels[index - 1]),
+               SoundSettings.Gain(SoundSettings.Levels[index]),
+               "Kademeler artan sırada olmalı.");
  }
 
- // Varsayılan: müzik kısık, efekt açık. Dedektiflik oyunu sessiz odada oynanır.
+ // Varsayılan: müzik yarım, efekt tam. Dedektiflik oyunu sessiz odada oynanır;
+ // müzik öne çıkmaz ama duyulur (0,35'te duyulmuyordu).
  [Test]
  public void Defaults_KeepMusicQuiet() {
-  Assert.AreEqual(SoundLevel.Low, SoundSettings.Music);
+  Assert.AreEqual(SoundLevel.Half, SoundSettings.Music);
   Assert.AreEqual(SoundLevel.Full, SoundSettings.Sfx);
  }
 
  [Test]
  public void Level_SurvivesReload() {
   SoundSettings.SetMusic(SoundLevel.Off);
-  SoundSettings.SetSfx(SoundLevel.Low);
+  SoundSettings.SetSfx(SoundLevel.Quarter);
   SoundSettings.Load();
   Assert.AreEqual(SoundLevel.Off, SoundSettings.Music);
-  Assert.AreEqual(SoundLevel.Low, SoundSettings.Sfx);
+  Assert.AreEqual(SoundLevel.Quarter, SoundSettings.Sfx);
  }
 
  // Kayıtta saçma bir sayı varsa ses ayarı yüzünden oyun açılmaz olmamalı.
@@ -47,7 +53,18 @@ public sealed class SoundTests {
  public void BrokenPreference_FallsBackToDefault() {
   PlayerPrefs.SetInt(SoundSettings.MusicKey, 99);
   SoundSettings.Load();
-  Assert.AreEqual(SoundLevel.Low, SoundSettings.Music);
+  Assert.AreEqual(SoundLevel.Half, SoundSettings.Music);
+ }
+
+ // Üç kademeden beşe geçildi ve kayıtta eski değerler duruyor. Oyuncunun ses
+ // ayarı göç yüzünden sıfırlanmamalı: 1 "kısık" yarıma, 2 "açık" tama döner.
+ [Test]
+ public void OldThreeStepPreference_BecomesTheNearestLevel() {
+  PlayerPrefs.SetInt(SoundSettings.MusicKey, 1);
+  PlayerPrefs.SetInt(SoundSettings.SfxKey, 2);
+  SoundSettings.Load();
+  Assert.AreEqual(SoundLevel.Half, SoundSettings.Music, "Eski \"kısık\" yarım olmalı.");
+  Assert.AreEqual(SoundLevel.Full, SoundSettings.Sfx, "Eski \"açık\" tam olmalı.");
  }
 
  // Asıl kilit bu: ekranlar ses çalmayı unutamasın diye ses kit düğmesinin

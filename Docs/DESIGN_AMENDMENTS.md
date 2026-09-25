@@ -608,3 +608,13 @@ Kullanıcı Dosya #001'i baştan kapanışa kadar oynadı, içerikte sorun çık
 **3. Masada gürültü yerine müzik.** Oda havası (`room_office`) bir süre sonra yoruyor, üstelik masada oyuncu **okuyor** ve okumaya eşlik eden şey müziktir. Masa artık `desk_theme` çalıyor: 40 saniye, Dm–Gm–B♭–A, menü parçasından yavaş (akor başına 10 s), kırk saniyede yalnız iki nota ve belirgin biçimde alçak — metnin üstünde durmaması gerekiyor. `room_office` silindi. Görüşme odası ortam sesiyle kalıyor: orada oyuncu okumuyor, konuşuyor.
 
 **4. Ayarlar sayfası telefonda sıkışıktı.** `MenuOverlay` kartı kenarlardan sabit %27 içeriydi — geniş ekranda makul, dikey telefonda daracık bir şerit. Pay artık ekranın biçiminden geliyor (dikeyde %5, yatayda %24), kartın içi kaydırılabilir (başlık sabit, içerik akar), ses kademeleri üç sıkışık radyo yerine kit'in sekme şeridiyle seçiliyor ve bölümler alt başlık + çizgiyle ayrılıyor. Kit'e yeni bileşen **eklenmedi**; var olanlar doğru yerde kullanıldı.
+
+## Ses beş kademe ve radyo listesi (26 Eylül 2026)
+
+**Kullanıcı:** "Şimdi bu seslerin ayarlar kısmında ayarlanması lazım; kısık, kapalı, yüksek falan diye değil, radio button şeklinde olmalı." Sorulan seçenekten **beş kademeli radyo listesi** seçildi.
+
+Üç kademe (kapalı/kısık/açık) ince ayar için yetmiyordu: "kısık" kelimesi oyuncuya ne kadar olduğunu söylemiyor ve iki uç arasında tek durak var. Artık beş kademe var — **kapalı, %25, %50, %75, tam** — ve ayarlarda alt alta radyo satırı olarak duruyor, yukarıdan aşağı azalarak (önce istenen genelde en yüksek olan). Kit'te kaydırıcı yok ve icat edilmiyor; yüzde de çevrilecek bir metin değil, o yüzden yalnız uçların sözü dil dosyasında ("Kapalı", "Tam").
+
+**Bir gün önce koyduğum sekme şeridi geri alındı** ve gerekçesi kayda değer: beş hücre tek satıra sığmıyor, üstelik ayarların geri kalanı (metin hızı) radyo — aynı soru ekranda iki farklı biçimde sorulmamalı.
+
+Kademe değeri artık **doğrudan yüzde** (`Off = 0 … Full = 100`), kazanç ondan türüyor. Böylece kayıtta duran sayı okunduğunda ne olduğu belli ve yeni bir kademe eklemek eski kaydı bozmuyor. Eski üç kademeli kayıt okunurken çevriliyor (1 → %50, 2 → tam), yani hiç kimsenin ses ayarı göç yüzünden sıfırlanmıyor — bunun kendi testi var. Varsayılan: müzik %50, efektler tam.

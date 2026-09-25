@@ -235,11 +235,17 @@ public sealed partial class BubeApp {
   label.style.marginTop=separated?KarineTheme.SpaceSm:0;
   label.style.marginBottom=KarineTheme.SpaceSm;
  }
- // Üç kademe tek şerit: kapalı / kısık / açık.
+ // Beş kademe, alt alta radyo satırı. Şerit denendi ve bırakıldı: beş hücre
+ // tek satıra sığmıyor, üstelik ayarların geri kalanı da radyo — aynı soru
+ // ekranda iki farklı biçimde sorulmamalı. Kademeler yukarıdan aşağı **azalır**,
+ // çünkü önce istenen genelde en yüksek olan.
  void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {
-  var levels=new[]{SoundLevel.Off,SoundLevel.Low,SoundLevel.Full};
-  KarineUI.Tabs(card,levels.Select(level=>T(SoundSettings.LabelKey(level))).ToArray(),
-   Array.IndexOf(levels,current),index=>{onPick(levels[index]);SettingsPage();},true);
+  foreach(var level in SoundSettings.Levels.Reverse()) {
+   var captured=level;
+   var key=SoundSettings.LabelKey(captured);
+   KarineUI.Radio(card,key!=null?T(key):"%"+(int)captured,
+    current==captured,()=>{onPick(captured);SettingsPage();});
+  }
  }
  void ApplySound() { if(audio!=null)audio.ApplyLevels(); }
 
