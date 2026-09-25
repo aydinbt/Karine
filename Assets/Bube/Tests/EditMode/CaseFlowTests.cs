@@ -229,8 +229,15 @@ public sealed class CaseFlowTests {
   Assert.IsFalse(game.ReportSourceAvailable(null));
   Assert.IsFalse(game.ReportSourceAvailable("yokBoyleDugum"));
   game.Read("report");
-  Assert.IsTrue(game.ReportSourceAvailable("report"));
-  Assert.IsFalse(game.ReportSourceAvailable("report#birSey"),
+  // Vakayı açan tutanak okunsa da rapora gerekçe olamaz: soruşturmanın
+  // başlangıcıdır, bulgusu yoktur.
+  Assert.IsFalse(game.ReportSourceAvailable("report"),
+   "Olay tespit tutanağı rapora kaynak olmamalı.");
+  // Kurtarma tutanağı kamera olmadan açılmaz; burada sınanan kaynak biçimi
+  // olduğu için kayıt doğrudan okunmuş sayılıyor.
+  game.State.read.Add("recovery");
+  Assert.IsTrue(game.ReportSourceAvailable("recovery"));
+  Assert.IsFalse(game.ReportSourceAvailable("recovery#birSey"),
    "Belge kaynağı alt kimlik almamalı.");
  }
 }

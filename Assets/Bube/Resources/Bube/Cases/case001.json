@@ -24,7 +24,8 @@
    ],
    "imageResource": "Bube/Case001Building",
    "imageCaptionKey": "file.imageCaption",
-   "notPresentable": true
+   "notPresentable": true,
+   "notReportSource": true
   },
   {
    "id": "mert",

@@ -24,6 +24,12 @@ public static class CaseRules {
   report.Require(data.failedReportTrustLoss >= 0 && data.successfulReportTrustGain >= 0,
    "Kariyer etkisi negatif olamaz.");
 
+  // Vakayi acan tutanak soruşturmanin baslangicidir: rapora gerekce olarak
+  // yazilamaz. Isaret veride durur, kod vaka kimligi bilmez.
+  foreach (var opener in nodes.Where(n => n.kind == "document" && (n.requires == null || n.requires.Length == 0)))
+   report.Require(opener.notReportSource,
+    "Vakayı açan tutanak rapora kaynak olamaz, `notReportSource` eksik: " + opener.id);
+
   // Gelen evrak tepsisindeki teklif metni vakaya özeldir. Anahtar yoksa oyun
   // genel yedeğe düşer; o yedek bir zamanlar Dosya #001'i anlatıyordu, yani
   // ikinci vakayı kabul eden oyuncu birincinin özetini okuyordu. Artık her

@@ -699,3 +699,11 @@ Rapor adımının içindeki kaynak paneli iç içe iki kaydırma, bir arama alan
 dört filtre taşıyordu; telefonda okunmuyor ve yönetilemiyordu. Liste tam ekrana
 çıktı, arama alanı kaldırıldı — liste zaten bu vakada okunmuş kayıtlardan
 oluşuyor ve dört filtre onu bölmeye yetiyor. Ekranda her an tek bir iş var.
+
+## 26 Eylül 2026 — Açılış tutanağı rapora gerekçe olamaz
+
+Olay tespit tutanağı soruşturmanın başlangıcıdır: failin adını, yöntemi ya da
+parayı kimin aldığını göstermez. Oyuncu gerekçesini ifadelerden, kameradan ve
+belgelerden kurmalıdır. Düğüm artık `notReportSource` taşıyor; işaretli kayıt
+kaynak listesinde görünmüyor ve gönderimde de reddediliyor. Doğrulayıcı her
+vakanın açılış tutanağından bu işareti istiyor.

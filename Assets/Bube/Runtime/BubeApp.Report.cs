@@ -232,6 +232,7 @@ public sealed partial class BubeApp {
   };
   foreach(var source in ComparisonSources()) {
    var item=source;
+   if(item.notReportSource)continue;
    if(item.kind=="cctv") {
     foreach(var record in item.cctvEvents ?? new CctvEvent[0])
      add(T(item.titleKey)+"  ·  "+T(record.textKey),item.id+"#"+record.id,3,58);

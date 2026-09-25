@@ -176,8 +176,15 @@ public static class Case001Rules {
     rightFax.proofSourceId == "recovery", "Rapor kaynak zinciri fakssa kaydedilmedi.");
   }
 
+  var openerGame = new Investigation(data, JsonUtility.FromJson<Progress>(snapshot));
+  report.Forbid(openerGame.SubmitFinalReport(correctSuspect, "spare", "recovery", "report", "mert_follow", "recovery"),
+   "Olay tespit tutanağı rapora gerekçe olarak kabul edildi.");
+
+  // Okunmuş ama iddiayı taşımayan bir kayıt: rapor gönderilir, değerlendirme
+  // "desteklenmedi" der. Burada eskiden açılış tutanağı kullanılıyordu; o kayıt
+  // artık hiç kaynak olamadığı için yerini başka bir görüşme aldı.
   var unlinkedGame = new Investigation(data, JsonUtility.FromJson<Progress>(snapshot));
-  report.Require(unlinkedGame.SubmitFinalReport(correctSuspect, "spare", "recovery", "report", "mert_follow", "recovery") &&
+  report.Require(unlinkedGame.SubmitFinalReport(correctSuspect, "spare", "recovery", "elif_follow", "mert_follow", "recovery") &&
    unlinkedGame.Career.pendingReviews[0].evaluationType != "supported",
    "Desteklenmeyen kaynak zinciri desteklenmiş sayıldı.");
 

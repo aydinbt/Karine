@@ -52,7 +52,7 @@ namespace Bube {
 [Serializable] public class AnswerVariant { public string answerKey; public string[] requiresAsked; public string[] requiresRead; public string[] excludesAsked; }
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
 [Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
-[Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public string[] aboutPersonIds; }
+[Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public bool notReportSource; public string[] aboutPersonIds; }
 [Serializable] public class CctvEvent { public string id; public string textKey; public string[] aboutPersonIds; public bool notPresentable; public string overlayTimeKey; public string glitchKey; public string signalKey; public string videoPath; public int delayMs; }
 [Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; }
 [Serializable] public class Verdict { public string id; public string labelKey; public string feedbackKey; public bool correct; public string[] requires; public string[] supportingSourceIds; }
@@ -263,6 +263,10 @@ public sealed class Investigation {
   int separator=id.IndexOf('#');
   string nodeId=separator<0?id:id.Substring(0,separator);
   var node=Data.nodes.FirstOrDefault(n=>n.id==nodeId);
+  // Olay tespit tutanağı soruşturmanın **başlangıcıdır**, gerekçesi değil:
+  // failin adını, yöntemi ya da parayı kimin aldığını hiçbir zaman göstermez.
+  // Vaka onu `notReportSource` ile işaretler ve rapora kaynak olarak yazılamaz.
+  if(node!=null && node.notReportSource)return false;
   if(node==null || !(State.read.Contains(nodeId) || node.kind=="interview" && State.interviewTurns.Any(t=>t.nodeId==nodeId)))return false;
   if(node.kind=="cctv")return separator>=0 && (node.cctvEvents ?? new CctvEvent[0]).Any(e=>e.id==id.Substring(separator+1));
   if(node.kind=="interview")return separator<0 || InterviewSourceTurn(id)!=null;

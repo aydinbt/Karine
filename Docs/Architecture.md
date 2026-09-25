@@ -161,6 +161,10 @@ Bırakılış yalnız **kabul edilmemiş** vakanın anıdır: kabul edilmiş bir
 
 `Application.persistentDataPath` yolu şirket ve ürün adından türer, yani testlerin koştuğu geçici proje kopyası da geliştiricinin **kendi** kayıtlarını yazar. Bir PlayMode koşusu böylece oynanışı bozabiliyordu: vaka kabul edilmiş, sıradaki dosya açılmış olarak kaydediliyor ve oyun o anı bir daha oynamıyordu. `Assets/Bube/Tests/PlayMode/SaveSandbox.cs` (`[SetUpFixture]`) tüm PlayMode testlerinden önce `bube-*` kayıtlarını belleğe alıp klasörü boşaltır, testler bitince geri koyar.
 
+## Rapora kaynak olamayan kayıtlar
+
+Vakayı açan tutanak `notReportSource: true` taşır: listede görünmez ve `ReportSourceAvailable` onu reddeder, yani eski bir kayıttan da gönderilemez. Gerekçe ifadelerden, kameradan ve soruşturma sırasında açılan belgelerden kurulur.
+
 ## Rapor sihirbazında kaynak seçimi
 
 Kaynak listesi adımın içinde açılan bir panelken telefonda yönetilemiyordu: sayfanın kendi kaydırmasının içinde ikinci bir kaydırma, üstünde arama alanı ve dört filtre vardı. Artık adımda yalnız seçimi gösteren tek bir satır durur; dokununca kaynak listesi tam ekran açılır (tek kaydırma, dört filtre, arama yok). Seçim yapılınca sayfa aynı adımla yeniden çizilir.
