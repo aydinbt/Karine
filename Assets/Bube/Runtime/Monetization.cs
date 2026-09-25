@@ -9,7 +9,7 @@ namespace Bube {
 // yazılı ve testli, çünkü asıl risk ağ değil, reklamın **yanlış ana** düşmesi.
 public enum AdPlacement {
  CaseInterval,      // vaka kapandıktan sonra, araya giren tam ekran
- RewardedRetry,     // ödüllü: başarısız vakayı güven kaybı olmadan yeniden aç
+ RewardedRetry,     // ödüllü: başarısız vakayı yeniden aç, güveni geri ver
  RewardedGuidance,  // ödüllü: yöntem hatırlatması + oyuncunun kendi kapsamı
 }
 

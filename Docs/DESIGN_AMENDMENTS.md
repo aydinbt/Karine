@@ -518,6 +518,18 @@ Vaka #001'in tasarımı ve içeriği şimdilik yeterli sayılıyor: yeni ifade, 
 
 **Ödüllü ipucu ve kanon.** Ödüllü reklamın klasik kullanımı "ipucu izle"dir ve bu oyunda doğrudan çekirdeği satardı: değişmeyen kural fail ipucu, sonraki adım ve gizli durum göstermemektir. Çözüm, ipucunun **vakanın gerçeğinden değil oyuncunun kendi çalışmasından** türemesi: yöntem hatırlatması (işin kuralları) + kapsama sayıları (açılabilir kaynaklardan kaçı açıldı, sorulabilir sorulardan kaçı soruldu). Kişi adı, kaynak başlığı ve karar etiketi geçmesi doğrulayıcıda yasak ve yasak sözcükler vaka metninden türetiliyor — böylece ileride iyi niyetle "Hasan'ın ifadesine bak" yazan biri testi düşürür. Karar oyuncuda kalır.
 
-**Ödüllü yeniden deneme yalnız kapı olarak durdu.** Başarısız vakayı güven kaybı olmadan yeniden açmak kariyer kurallarına dokunuyor: arşiv kaydı ne olacak, faks geçmişi başarısızlığı saklayacak mı, güven geri mi verilecek. Bu kendi kararını hak ediyor, bu yüzden kapısı var, etkisi yok.
+**Ödüllü yeniden deneme ilk girdiğinde yalnız kapıydı**; etkisi aynı gün verilen kararla bağlandı (aşağıya bakın).
 
 **Kurulum senin elinde olan iki şeye bağlı:** LevelPlay bir Unity Gaming Services oyun kimliği, AdMob bir uygulama kimliği ister; ikisi de hesap açmayı gerektirir. Ayrıca reklam mağaza tarafında gizlilik metni, yaş derecesi ve Play "Data safety" formu gerektirir.
+
+## Ödüllü yeniden deneme: güven iade edilir, kayıt kalır (25 Eylül 2026)
+
+**Kullanıcı:** "Ödüllü yeniden denemede güven geri verilsin, faks geçmişi başarısızlığı saklasın."
+
+İki cümle birbirini dengeliyor: ödül gerçek (puanın geri gelir, gerekiyorsa görev de geri gelir), ama **iz kalır**. Faks geçmişindeki satır silinmiyor, "yeniden açıldı" diye işaretleniyor ve sayımlar onu görmeye devam ediyor; ikinci deneme kendi satırını yazıyor, yani bir vaka geçmişte iki satır tutabiliyor. Böylece kariyer dürüst kalıyor: reklam bir başarısızlığı geri alabilir ama tarihten silemez.
+
+İade tam o faksın götürdüğü kadardır, sabit bir sayı değil — yanlış suçlamanın iadesi de eksik raporun iadesi de kendi ağırlığında. Aynı faks bir kez iade eder.
+
+**Yeniden açmak ipucu değildir.** Soruşturmada bulunanlar silinmiyor (aksi hâlde ceza olurdu) ve hiçbir yeni bilgi verilmiyor; yalnız rapor alanları boşalıyor, yani vaka ikinci kez gerekçeli sonuç göndermeye açılıyor. Oyuncu neyi değiştireceğine kendisi karar verir.
+
+Yedi yeni EditMode testi bu kararların her cümlesini tutuyor (iade tam mı, kayıt duruyor mu, ikinci satır yazılıyor mu, soruşturma korunuyor mu, başarılı vakaya teklif çıkmıyor mu, görevden ayrılma kalkıyor mu). 98 EditMode + 7 PlayMode geçiyor. **Play Mode'da gözlenmedi, madde `[~]`.**

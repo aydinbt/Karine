@@ -5,7 +5,7 @@
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 98 test: 91 EditMode + 7 PlayMode)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 105 test: 98 EditMode + 7 PlayMode)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -259,5 +259,6 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **Vaka eklemek koddan koptu** — vaka metni vaka başına dil dosyasına taşındı (`LocaleLoader`, çakışmada ortak dosya kazanır), yedek portrenin tonları vaka verisine çıktı (`Node.portrait`). Doğrulayıcı vakaya özel C# kuralı istemiyor. Yeni vaka = JSON + dil dosyası + varlıklar.
 - [~] **Ses temeli kuruldu** — `AudioDirector` (müzik/oda ortamı/efekt), `SoundSettings` (üç kademe, ayarlarda radyo grubu), düğme sesi kit kurucusundan, oda sesi sahneden ve vakadan. **Ses dosyası henüz yok**; sistem dosyasız sessiz çalışıyor. Duyulmadı → `[~]`.
 - [~] **Mobil davranış** — Android geri tuşu her katmanda ekranın kendi geri eylemine gidiyor, ana menüde çıkış onayı açılıyor, `OnApplicationPause` kayıt yazıyor, vaka zinciri bittiğinde masa kapanış bildirimi gösteriyor. **Cihazda denenmedi** → `[~]`.
-- [~] **Reklam dikişi** — `AdGateway` tek karar yeri (onay, "reklam kaldırıldı", an kuralları), `IAdProvider` + `NoAdProvider`. Araya giren reklam yalnız vaka arası, ödüllü yalnız rapor geri döndükten sonra; soruşturma/sorgu/CCTV/sinematik kapalı. Ödüllü ipucu vakanın gerçeğini görmüyor (yöntem + kendi kapsamı) ve doğrulayıcı sızıntıyı yasaklıyor. **Ağ eklentisi yok** (kimlikler kullanıcıda), `RewardedRetry` yalnız kapı → `[~]`.
+- [~] **Reklam dikişi** — `AdGateway` tek karar yeri (onay, "reklam kaldırıldı", an kuralları), `IAdProvider` + `NoAdProvider`. Araya giren reklam yalnız vaka arası, ödüllü yalnız rapor geri döndükten sonra; soruşturma/sorgu/CCTV/sinematik kapalı. Ödüllü ipucu vakanın gerçeğini görmüyor (yöntem + kendi kapsamı) ve doğrulayıcı sızıntıyı yasaklıyor. **Ağ eklentisi yok** (kimlikler kullanıcıda), ödüllü yeniden deneme güveni iade ediyor ve kaydı saklıyor → `[~]`.
+- [~] **Ödüllü yeniden deneme** — `Investigation.MayReopen`/`ReopenForRetry`: iade tam o faksın götürdüğü kadar, gerekirse görevden ayrılma kalkıyor; `reviewHistory` satırı "yeniden açıldı" işaretiyle kalıyor ve ikinci deneme kendi satırını yazıyor; soruşturma korunuyor, yalnız rapor alanları boşalıyor. Yedi EditMode testi. Play Mode'da gözlenmedi → `[~]`.
 - [x] Arşiv kariyer ekranına, Hakkında ayarlara taşındı — menü maketteki beş satıra indi, iki işlev kaybolmadı.

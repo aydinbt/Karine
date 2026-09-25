@@ -189,7 +189,13 @@ Ağ eklentisi projede **yok**; dikişi var. `IAdProvider` tek arayüz, `NoAdProv
 
 Ödüllü ipucu (`GuidancePage`) vakanın gerçeğini hiç görmez: yöntem hatırlatması (`guidance.method.*`, işin kuralları) ve oyuncunun kendi kapsamı (`Coverage`: açılabilir kaynaklardan kaçı açıldı, sorulabilir sorulardan kaçı soruldu, çizelgeye kaç satır alındı). `LocaleRules` `guidance.` ile başlayan her metinde kişi adı, kaynak başlığı ve karar etiketi geçmesini yasaklar; yasak sözcükler vaka metninden türetilir, elle listelenmez.
 
-`RewardedRetry` şimdilik yalnız kapı: başarısız vakayı güven kaybı olmadan yeniden açmak kariyer kurallarına dokunuyor ve kendi kararını bekliyor.
+Ödüllü yeniden deneme (`Investigation.MayReopen` / `ReopenForRetry`, düğmesi `BubeApp.Desk.cs` → `AddRetryOffer`, hem gelen evrak tepsisindeki faksta hem `FaxPage`'de) kullanıcı kararıyla şöyle: **güven geri verilir, faks geçmişi başarısızlığı saklar.**
+
+- İade tam o faksın götürdüğü kadardır (`departmentTrust -= fax.trustChange`) ve gerekiyorsa görevden ayrılmayı kaldırır; yoksa ödül hiçbir işe yaramazdı.
+- Kayıt silinmez: `reviewHistory` satırı yerinde kalır, `reopened`/`trustRefunded` işaretlenir ve kariyer ekranında "yeniden açıldı" diye görünür. Sayımlar (desteklendi / eksik / yanlış suçlama) o satırı görmeye devam eder.
+- İkinci deneme kendi satırını yazar; aynı vaka geçmişte iki satır tutabilir. `DeliverNextFax` yinelenmeyi artık "yeniden açılmamış satır var mı" diye sorar, arşiv de en son değerlendirmeyi okur.
+- Yeniden açmak soruşturmayı sıfırlamaz ve **ipucu vermez**: okunanlar, sorulanlar ve çizelge durur; yalnız rapor alanları ve `closed` boşalır, yani vaka ikinci kez gerekçeli sonuç göndermeye açılır.
+- Aynı faks bir kez iade eder (`MayReopen` `reopened`e bakar).
 
 LevelPlay/AdMob kurulumu bir Unity Gaming Services oyun kimliği ve bir AdMob uygulama kimliği ister; ikisi de hesap açmayı gerektirdiği için kimlikler geldiğinde takılacak.
 

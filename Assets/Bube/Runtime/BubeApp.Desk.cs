@@ -248,6 +248,36 @@ public sealed partial class BubeApp {
   // çalışmayan bir düğme durmaz.
   if(!fax.correct && AdGateway.MayShow(AdPlacement.RewardedGuidance,AdMoment.ReportRejected))
    KarineUI.PaperButton(body,T("guidance.watch"),()=>OfferGuidance(),KarinePaperKind.Quiet);
+  AddRetryOffer(body,fax);
+ }
+
+ // Ödüllü yeniden deneme teklifi. Yalnız geri dönen faksın vakası hâlâ elimizde
+ // olan vakaysa görünür; reklam gösterilemiyorsa hiç çizilmez.
+ void AddRetryOffer(VisualElement body,FaxReview fax) {
+  if(fax==null || fax.correct || fax.caseId!=game.Data.id || !game.MayReopen)return;
+  if(!AdGateway.MayShow(AdPlacement.RewardedRetry,AdMoment.ReportRejected))return;
+  KarineUI.PaperButton(body,T("retry.watch"),OfferRetry,KarinePaperKind.Quiet);
+ }
+
+ void OfferRetry() {
+  AdGateway.Request(AdPlacement.RewardedRetry,AdMoment.ReportRejected,granted=>{
+   VisualElement card;
+   if(!granted) {
+    MenuOverlay(T("retry.title"),out card);
+    Text(card,T("guidance.unavailable"),Ink,17);
+   } else if(!game.ReopenForRetry()) {
+    MenuOverlay(T("retry.title"),out card);
+    Text(card,T("retry.unavailable"),Ink,17);
+   } else {
+    Save();
+    MenuOverlay(T("retry.title"),out card);
+    Text(card,T("retry.done"),Ink,17);
+    Text(card,T("career.trust")+": "+T(game.TrustStatusKey),Muted,16);
+    Text(card,T("retry.keptRecord"),Muted,15);
+   }
+   var gap=new VisualElement();gap.style.flexGrow=1;card.Add(gap);
+   Button(card,T("offer.back"),Desk);
+  });
  }
 
  // Ödüllü ipucu ekranı. İçinde vakanın gerçeği **yok**: yöntem hatırlatması

@@ -389,7 +389,9 @@ public sealed partial class BubeApp {
    faxColumn.style.paddingLeft=14;faxColumn.style.borderLeftWidth=1;
    faxColumn.style.borderLeftColor=KarineTheme.Paper.Edge;comparison.Add(faxColumn);
    Text(faxColumn,T("archive.fax"),dark,19);
-   var fax=game.Career.reviewHistory.FirstOrDefault(review=>review.caseId==caseId);
+   // Ödüllü yeniden deneme aynı vaka için ikinci satır yazabilir; arşiv masadaki
+   // raporu en son değerlendirmeyle karşılaştırır.
+   var fax=game.Career.reviewHistory.LastOrDefault(review=>review.caseId==caseId);
    if(fax==null)Text(faxColumn,T("archive.pendingReview"),muted,15);
    else {
     Text(faxColumn,T("career.evaluation."+fax.evaluationType),dark,15);
@@ -398,6 +400,7 @@ public sealed partial class BubeApp {
     if(proof!=null)Text(faxColumn,T("conclude.evidence")+": "+T(fax.proofSupported?"fax.supported":"fax.unsupported"),dark,15);
     Text(faxColumn,T("career.trust")+": "+T(TrustStatusKey(fax.trustAfter))+
      (fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),muted,14);
+    if(fax.reopened)Text(faxColumn,T("retry.recordNote"),muted,14);
    }
   } else {
    Text(detail,T(selected.titleKey),dark,21);
@@ -452,7 +455,8 @@ public sealed partial class BubeApp {
    var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
    var title=data==null?review.caseId:T(data.titleKey);
    var direction=review.trustChange>0?" ↑":review.trustChange<0?" ↓":" —";
-   Button(list,title+"  ·  "+T("career.evaluation."+review.evaluationType)+direction,()=>CareerRecordPage(review));
+   Button(list,title+"  ·  "+T("career.evaluation."+review.evaluationType)+direction+
+    (review.reopened?"  ·  "+T("retry.recordShort"):""),()=>CareerRecordPage(review));
   }
   // Arşiv menü satırı olmaktan çıktı (maket beş satır gösteriyor); kariyer
   // ekranının içinde duruyor — kapanmış dosyalar zaten kariyer geçmişidir.
@@ -485,6 +489,7 @@ public sealed partial class BubeApp {
    if(proof!=null)Text(card,T("conclude.evidence")+": "+T(proof.labelKey)+" · "+ReviewSourceTitle(data,review.proofSourceId),Ink,16);
   }
   Text(card,T("career.trust")+": "+T(TrustStatusKey(review.trustAfter)),Gold,18);
+  if(review.reopened)Text(card,T("retry.recordNote"),Muted,16);
   Button(card,T("offer.back"),StatisticsPage);
  }
  string TrustStatusKey(int value) {

@@ -38,7 +38,7 @@ namespace Bube {
 [Serializable] public class CaseSummary { public string locationKey; public string truthKey; public string evidenceKey; public string lessonKey; }
 [Serializable] public class CareerRules { public int initialTrust = 60; public int strongGain = 5; public int incompleteLoss = 5; public int falseAccusationLoss = 15; public int unsolvedLoss = 2; public int endThreshold = 0; public int[] statusThresholds = {80,60,40,20,1}; }
 [Serializable] public class PendingReview { public string caseId; public bool correct; public string evaluationType; public int trustDelta; public int successGain; public int failureLoss; public long readyAtUtcTicks; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; }
-[Serializable] public class FaxReview { public string caseId; public bool correct; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; }
+[Serializable] public class FaxReview { public string caseId; public bool correct; public bool reopened; public bool trustRefunded; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; }
 [Serializable] public class CareerProgress { public int version = 1; public int departmentTrust = 60; public int retirementThreshold = 0; public string activeCaseId; public List<string> seenWorldIntros = new List<string>(); public List<PendingReview> pendingReviews = new List<PendingReview>(); public bool faxReleased; public FaxReview lastFax; public List<FaxReview> reviewHistory = new List<FaxReview>(); public string careerRankId = "investigator"; public bool retired; }
 // Kişinin PNG portresi yoksa piksel portre çizilir. Tonlar eskiden kodda
 // `personId=="hasan"` diye seçiliyordu, yani yeni vakanın yeni kişisi C#
@@ -295,6 +295,32 @@ public sealed class Investigation {
   });
   return true;
  }
+ // Ödüllü yeniden deneme. Geri verilen tek şey güvendir: o faksın götürdüğü
+ // puan iade edilir ve gerekirse görevden ayrılma kalkar. Faks geçmişi
+ // başarısızlığı saklar — kayıt silinmez, "yeniden açıldı" diye işaretlenir.
+ // Soruşturmada bulunanlar da silinmez ve hiçbir ipucu verilmez; yalnız rapor
+ // alanları boşalır, yani vaka ikinci kez gerekçeli sonuç göndermeye açılır.
+ public bool MayReopen => State.closed && Career.lastFax!=null && Career.lastFax.caseId==Data.id
+  && !Career.lastFax.correct && !Career.lastFax.reopened
+  && !Career.pendingReviews.Any(r=>r.caseId==Data.id);
+ public bool ReopenForRetry() {
+  if(!MayReopen)return false;
+  var fax=Career.lastFax;
+  fax.reopened=true;fax.trustRefunded=true;
+  // Kayıt ile `lastFax` aynı örnektir, ama kayıttan yüklendiğinde iki ayrı
+  // nesne olur; o yüzden vaka ve değerlendirme anıyla eşleştirilir.
+  foreach(var record in Career.reviewHistory)
+   if(record.caseId==fax.caseId && record.evaluatedAtUtcTicks==fax.evaluatedAtUtcTicks) {
+    record.reopened=true;record.trustRefunded=true;
+   }
+  Career.departmentTrust=Math.Max(0,Math.Min(100,Career.departmentTrust-fax.trustChange));
+  Career.retired=Career.departmentTrust<=Career.retirementThreshold;
+  State.closed=false;
+  State.reportSuspect=State.reportMethod=State.reportProof=null;
+  State.reportSuspectSource=State.reportMethodSource=State.reportProofSource=null;
+  State.submittedAtUtcTicks=0;
+  return true;
+ }
  public string TrustStatusKey { get {
   int value=Career.departmentTrust;var t=Rules.statusThresholds;
   if(value<=Rules.endThreshold)return "career.status.ended";
@@ -325,7 +351,10 @@ public sealed class Investigation {
    suspectSourceId=pending.suspectSourceId,methodSourceId=pending.methodSourceId,proofSourceId=pending.proofSourceId,
    suspectSupported=pending.suspectSupported,methodSupported=pending.methodSupported,proofSupported=pending.proofSupported
   };
-  if(!Career.reviewHistory.Any(r=>r.caseId==Career.lastFax.caseId))Career.reviewHistory.Add(Career.lastFax);
+  // Bir vaka geçmişte birden çok satır tutabilir: ödüllü yeniden deneme eski
+  // başarısızlığı silmez, yanına ikinci denemeyi yazar. Yeniden açılmamış bir
+  // kayıt varsa aynı vaka ikinci kez eklenmez.
+  if(!Career.reviewHistory.Any(r=>r.caseId==Career.lastFax.caseId && !r.reopened))Career.reviewHistory.Add(Career.lastFax);
   return Career.lastFax;
  }
 

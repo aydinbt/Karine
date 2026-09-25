@@ -2349,6 +2349,34 @@
    "value": "Şu an gösterilecek reklam yok."
   },
   {
+   "key": "retry.title",
+   "value": "Dosyayı yeniden aç"
+  },
+  {
+   "key": "retry.watch",
+   "value": "Dosyayı yeniden aç (reklam)"
+  },
+  {
+   "key": "retry.done",
+   "value": "Dosya yeniden açıldı. Rapor alanları boşaltıldı; topladıklarının hiçbiri silinmedi. Bu faksın götürdüğü güven puanı geri verildi."
+  },
+  {
+   "key": "retry.keptRecord",
+   "value": "Değerlendirme kaydı silinmez: kariyer geçmişinde bu faks duruyor ve yeniden açıldığı yazıyor."
+  },
+  {
+   "key": "retry.unavailable",
+   "value": "Bu dosya yeniden açılamıyor."
+  },
+  {
+   "key": "retry.recordNote",
+   "value": "Bu değerlendirmeden sonra dosya yeniden açıldı; güven puanı geri verildi."
+  },
+  {
+   "key": "retry.recordShort",
+   "value": "yeniden açıldı"
+  },
+  {
    "key": "ads.consent.title",
    "value": "Kişiselleştirilmemiş reklam"
   },

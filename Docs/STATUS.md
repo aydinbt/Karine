@@ -20,7 +20,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[
 - **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 
-Açık kalan monetizasyon kararı: **ödüllü yeniden deneme** (başarısız vakayı güven kaybı olmadan açmak) kariyer kurallarına dokunuyor; kapısı var, etkisi yok.
+**Ödüllü yeniden deneme bağlandı:** güven tam o faksın götürdüğü kadar iade ediliyor (gerekirse görevden ayrılma kalkıyor), faks geçmişi başarısızlığı "yeniden açıldı" işaretiyle saklıyor ve ikinci deneme kendi satırını yazıyor. Yeniden açmak ipucu vermiyor: bulunanlar duruyor, yalnız rapor alanları boşalıyor.
 
 ## Kimlik
 
@@ -34,7 +34,7 @@ Açık kalan monetizasyon kararı: **ödüllü yeniden deneme** (başarısız va
 | --- | --- |
 | **Faz 0 — Zemin** | **Bitti ve doğrulandı** |
 | **Faz 1 — Doğrulamayı otomatikleştir** | **Bitti** — doğrulayıcı vaka başına ayrıldı, ilk hatada durmuyor, 42 test yeşil |
-| **Faz 2 — Gerçekten oyna** | **İlerliyor** — kit taşıması, ses, geri tuşu ve reklam dikişi kodlandı (98 test yeşil); elle oynanış ve cihaz adımı açık |
+| **Faz 2 — Gerçekten oyna** | **İlerliyor** — kit taşıması, ses, geri tuşu ve reklam dikişi kodlandı (105 test yeşil); elle oynanış ve cihaz adımı açık |
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | Kod ~tamam, **Play Mode doğrulaması açık** |
 | M2 — Soruşturmayı oyuna çevirme | Kod büyük ölçüde tamam, doğrulama açık |

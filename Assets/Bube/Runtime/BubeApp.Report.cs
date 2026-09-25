@@ -453,6 +453,7 @@ public sealed partial class BubeApp {
   }
   Text(body,T("career.trust")+"  "+T(game.TrustStatusKey)+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);
   Button(body,T("career.openRecord"),StatisticsPage);
+  AddRetryOffer(body,fax);
   if(game.Career.retired)Text(body,T("career.ended"),KarineTheme.Danger,18);
   else if(game.State.closed)Button(body,T("result.continue"),ContinueToNextCase,true);
  }
