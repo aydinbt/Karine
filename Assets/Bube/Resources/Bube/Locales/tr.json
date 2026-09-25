@@ -1,2632 +1,2252 @@
 {
-  "entries": [
-    {
-      "key": "intro.skip",
-      "value": "GEÇ"
-    },
-    {
-      "key": "intro.firstFile",
-      "value": "İLK GÖREVLENDİRME"
-    },
-    {
-      "key": "world01.country",
-      "value": "Türkiye"
-    },
-    {
-      "key": "intro.world01.city",
-      "value": "İSTANBUL · BEŞİKTAŞ"
-    },
-    {
-      "key": "desk",
-      "value": "Soruşturma masası"
-    },
-    {
-      "key": "bora",
-      "value": "Bora • 27 yaşında • Türk • Erkek\nİstanbul / Beşiktaş • bube Polis Soruşturma Birimi"
-    },
-    {
-      "key": "inbox",
-      "value": "Gelen evraklar: yeni bir dosya sizi bekliyor."
-    },
-    {
-      "key": "closed",
-      "value": "Dosya kapatıldı. Yeni görev bekleniyor."
-    },
-    {
-      "key": "back.desk",
-      "value": "Masaya dön"
-    },
-    {
-      "key": "back.file",
-      "value": "Dosyaya dön"
-    },
-    {
-      "key": "conclude",
-      "value": "Sonuç raporu"
-    },
-    {
-      "key": "continue",
-      "value": "Yeni kayıtlar veya görüşmeler açılabilir. İsterseniz mevcut bilgilerle de sonuç raporu yazabilirsiniz."
-    },
-    {
-      "key": "conclude.prompt",
-      "value": "Bora’nın ilgili birime göndereceği kesin raporu hazırla. Seçtiğin kişi, yöntem ve kanıt için dayandığın kaydı ayrı ayrı göster."
-    },
-    {
-      "key": "result",
-      "value": "Değerlendirme"
-    },
-    {
-      "key": "close",
-      "value": "Dosyayı kapat ve masaya dön"
-    },
-    {
-      "key": "save.failed",
-      "value": "İlerleme kaydedilemedi. Depolama alanını kontrol edin."
-    },
-    {
-      "key": "save.fromFuture",
-      "value": "Eski bir kayıt bulundu ama daha yeni bir sürüme ait; okunamadı. Silinmedi, yanında saklanıyor. Soruşturma baştan açıldı."
-    },
-    {
-      "key": "kind.document",
-      "value": "Belge"
-    },
-    {
-      "key": "kind.interview",
-      "value": "Görüşme"
-    },
-    {
-      "key": "kind.cctv",
-      "value": "Kamera kaydı"
-    },
-    {
-      "key": "kind.bps",
-      "value": "BPS kaydı"
-    },
-    {
-      "key": "case.title",
-      "value": "DOSYA #001 — Açık Kapı"
-    },
-    {
-      "key": "report.title",
-      "value": "Olay raporu"
-    },
-    {
-      "key": "report.body",
-      "value": "İhbar sahibi Mert Aydın, akşam konutuna döndüğünde dizüstü bilgisayarının, kol saatinin ve çekmecede tuttuğu nakit paranın kayıp olduğunu bildirdi. Sabah çıkarken kapıyı kilitlediğini beyan ediyor. İlk incelemede giriş kapısında zorlama izi görülmedi; daireye nasıl girildiği belirlenemedi. Kapı yanındaki saksı kontrol edildi, içinde anahtar bulunmadı. Mert’in sunduğu bilgisayar faturasında seri numarası LQ7B-024861 olarak kayıtlı. Kayıp eşyaların ne zaman ve kim tarafından alındığı henüz belirlenemedi. Binadaki kişilerle görüşülmesi ve giriş kaydının incelenmesi uygun görüldü."
-    },
-    {
-      "key": "mert.title",
-      "value": "Mert Aydın — İlk ifade"
-    },
-    {
-      "key": "mert.body",
-      "value": "İhbar sahibi Mert Aydın, sabah evden çıkıp akşam döndüğünde bazı eşyalarını bulamadığını bildiriyor. Kapıyı kilitlediğini söylüyor. Görüşmede evin anahtarları ve o günkü hareketleri hakkında ayrıntı alınabilir."
-    },
-    {
-      "key": "elif.title",
-      "value": "Elif Demir — İlk ifade"
-    },
-    {
-      "key": "elif.body",
-      "value": "Mert Aydın’ın eski partneri Elif Demir’in ilk görüşme kaydı. İlişkileri, evde kalan eşyaları ve olay günü hakkında kendisine sorular yöneltilebilir."
-    },
-    {
-      "key": "hasan.title",
-      "value": "Hasan Kaya — İlk ifade"
-    },
-    {
-      "key": "hasan.body",
-      "value": "Mert Aydın’ın karşı daire komşusu Hasan Kaya’nın ilk görüşme kaydı. Binada gördüklerini ve Mert’le geçmişteki temasını kendi sözleriyle anlatıyor."
-    },
-    {
-      "key": "camera.title",
-      "value": "Bina girişi — Kayıt dökümü"
-    },
-    {
-      "key": "camera.body",
-      "value": "Kamera 01, binanın ortak girişini kaydediyor. Aşağıdaki dökümde görülen geçişler ve sinyal durumu yer alır. Kayıt bulunmayan aralıkta kimin girip çıktığı bu kameradan belirlenemez."
-    },
-    {
-      "key": "elif_follow.title",
-      "value": "Elif Demir — Kayıt sonrası"
-    },
-    {
-      "key": "elif_follow.body",
-      "value": "İlk görüşmeden sonra elde edilen bina giriş kaydı üzerine Elif Demir’le yeniden görüşülebilir. Hangi kayıt satırının gösterildiği ve verilen yanıt görüşme tutanağına işlenir."
-    },
-    {
-      "key": "bps.title",
-      "value": "Eşya eşleştirme kaydı"
-    },
-    {
-      "key": "bps.body",
-      "value": "İhbarla birlikte sunulan faturadaki LQ7B-024861 seri numarası, olay günü 14.10’da Beşiktaş’taki ikinci el elektronik işletmesine teslim edilen cihazın numarasıyla eşleşiyor. İşletmenin teslim fişi Hasan Kaya adına düzenlenmiş.\n\nCihaz ve fişin doğrulanması için inceleme talep edilebilir."
-    },
-    {
-      "key": "recovery.title",
-      "value": "Eşya Tespit Raporu"
-    },
-    {
-      "key": "recovery.body",
-      "value": "İNCELEME KONUSU — Mert Aydın’ın kayıp olarak bildirdiği dizüstü bilgisayar.\n\nİhbarla birlikte sunulan faturadaki seri numarası LQ7B-024861. Beşiktaş’taki ikinci el elektronik işletmesinin olay gününe ait teslim kayıtları tarandı. 14.10’da işletmeye bırakılan cihazın üzerindeki seri numarası faturayla eşleşiyor. Teslim fişi Hasan Kaya adına düzenlenmiş; fiş örneği dosyaya eklendi. Cihaz muhafaza altına alındı.\n\nBu rapor, fatura ile bulunan cihazın eşleştiğini ve işletmenin Hasan Kaya adına bir teslim kaydı tuttuğunu belgeler. Cihazın Mert’in evinden nasıl çıkarıldığını doğrudan göstermez. Kayıp kol saati ve nakit para hakkında yeni bulgu yoktur."
-    },
-    {
-      "key": "hasan_follow.title",
-      "value": "Hasan Kaya — Takip görüşmesi"
-    },
-    {
-      "key": "hasan_follow.body",
-      "value": "Önceki ifadeler ve yeni kayıtlar hakkında Hasan Kaya’yla yeniden görüşülebilir. Yanıtları, kendisine gösterilen kaynağa göre ayrı ayrı kaydedilir."
-    },
-    {
-      "key": "verdict.hasan",
-      "value": "Hasan Kaya"
-    },
-    {
-      "key": "verdict.elif",
-      "value": "Elif Demir"
-    },
-    {
-      "key": "feedback.hasan",
-      "value": "Hasan adına düzenlenen cihaz teslim fişi, kayıp bilgisayarın seri numarasıyla eşleşiyor. Takip ifadesi anahtarın kullanımına ilişkin bilgi veriyor. Elif’in yalanı gizlediği ziyareti açığa çıkardı; hırsızlık yaptığını kanıtlamadı.\n\nBir ifade kanıt değildir. Bir yalan da suçluluk kanıtı değildir."
-    },
-    {
-      "key": "feedback.elif",
-      "value": "Elif’in ilk ifadesi kamera kaydıyla çelişiyor. Ancak bu çelişki, eşyaları çaldığını göstermiyor. Bilgisayarın seri numarasını ve Hasan adına düzenlenen teslim fişini yeniden değerlendirin."
-    },
-    {
-      "key": "home.title",
-      "value": "SORUŞTURMA BİRİMİ"
-    },
-    {
-      "key": "home.subtitle",
-      "value": "İstanbul · Beşiktaş"
-    },
-    {
-      "key": "home.eyebrow",
-      "value": "MASANIZDA YENİ BİR DOSYA VAR"
-    },
-    {
-      "key": "home.description",
-      "value": "İfadeleri dinleyin. Kayıtları karşılaştırın. Kararı kanıtlara dayandırın."
-    },
-    {
-      "key": "home.closed",
-      "value": "Masaya dön  →"
-    },
-    {
-      "key": "home.new",
-      "value": "Yeni oyun"
-    },
-    {
-      "key": "home.profile",
-      "value": "SORUŞTURMACI"
-    },
-    {
-      "key": "home.status",
-      "value": "bube Polis / Soruşturma Birimi"
-    },
-    {
-      "key": "home.footer",
-      "value": "BİR İFADE KANIT DEĞİLDİR."
-    },
-    {
-      "key": "restart.title",
-      "value": "Yeni soruşturma başlat"
-    },
-    {
-      "key": "restart.body",
-      "value": "Bu cihazdaki Dosya #001 ilerlemesi sıfırlanacak."
-    },
-    {
-      "key": "restart.confirm",
-      "value": "İlerlemeyi sıfırla ve başla"
-    },
-    {
-      "key": "restart.cancel",
-      "value": "Vazgeç"
-    },
-    {
-      "key": "desk.title",
-      "value": "BORA’NIN MASASI"
-    },
-    {
-      "key": "desk.subtitle",
-      "value": "Gelen evraklar ve açık soruşturma"
-    },
-    {
-      "key": "desk.inbox",
-      "value": "GELEN EVRAKLAR / 001"
-    },
-    {
-      "key": "desk.case.info",
-      "value": "Beşiktaş · Konut hırsızlığı · İlk inceleme bekliyor"
-    },
-    {
-      "key": "desk.closed",
-      "value": "Dosya kapatıldı. Yeni görev bekleniyor."
-    },
-    {
-      "key": "desk.open",
-      "value": "Dosyayı aç  →"
-    },
-    {
-      "key": "desk.notes",
-      "value": "MASA NOTU"
-    },
-    {
-      "key": "desk.notes.body",
-      "value": "İfadeler yön gösterebilir. Kayıtları ve maddi bulguları kontrol edin."
-    },
-    {
-      "key": "back.home",
-      "value": "Ana ekrana dön"
-    },
-    {
-      "key": "file.kicker",
-      "value": "SORUŞTURMA DOSYASI / 001"
-    },
-    {
-      "key": "file.subtitle",
-      "value": "Bulduğunuz kayıtları istediğiniz sırayla inceleyin. Yeni bilgi yeni görüşmeleri açabilir."
-    },
-    {
-      "key": "file.reference",
-      "value": "bube Polis · İstanbul / Beşiktaş"
-    },
-    {
-      "key": "desk.terminal",
-      "value": "Kayıt terminali"
-    },
-    {
-      "key": "desk.none",
-      "value": "Henüz açılmış kayıt yok. Dosyadaki diğer bilgileri inceleyin."
-    },
-    {
-      "key": "conclude.suspect",
-      "value": "Şüpheli"
-    },
-    {
-      "key": "conclude.method",
-      "value": "Giriş yöntemi"
-    },
-    {
-      "key": "conclude.evidence",
-      "value": "Belirleyici kanıt"
-    },
-    {
-      "key": "conclude.confirm.title",
-      "value": "BU İŞLEMİ ONAYLIYOR MUSUN?"
-    },
-    {
-      "key": "conclude.confirm.body",
-      "value": "Gönderdiğin karar geri alınamaz."
-    },
-    {
-      "key": "conclude.confirm.cancel",
-      "value": "VAZGEÇ"
-    },
-    {
-      "key": "conclude.confirm.send",
-      "value": "ONAYLA"
-    },
-    {
-      "key": "conclude.submit",
-      "value": "RAPORU GÖNDER · DOSYAYI KAPAT"
-    },
-    {
-      "key": "result.accepted",
-      "value": "SONUÇ KABUL EDİLDİ"
-    },
-    {
-      "key": "result.returned",
-      "value": "SONUÇ İADE EDİLDİ"
-    },
-    {
-      "key": "feedback.correct",
-      "value": "Rapor teslim edildi. Kurumsal inceleme bekleniyor."
-    },
-    {
-      "key": "feedback.returned",
-      "value": "Rapor teslim edildi. Kurumsal inceleme bekleniyor."
-    },
-    {
-      "key": "method.spare",
-      "value": "Yedek anahtarla"
-    },
-    {
-      "key": "method.forced",
-      "value": "Kapı zorlanarak"
-    },
-    {
-      "key": "method.open",
-      "value": "Kapı açık bırakıldığı için"
-    },
-    {
-      "key": "method.unknown",
-      "value": "Belirlenemedi"
-    },
-    {
-      "key": "evidence.report",
-      "value": "Olay raporu"
-    },
-    {
-      "key": "evidence.camera",
-      "value": "Bina kamerası kayıt dökümü"
-    },
-    {
-      "key": "evidence.elif_follow",
-      "value": "Elif’in takip ifadesi"
-    },
-    {
-      "key": "evidence.mert_follow",
-      "value": "Mert’in takip ifadesi"
-    },
-    {
-      "key": "evidence.hasan_follow",
-      "value": "Hasan’ın takip ifadesi"
-    },
-    {
-      "key": "evidence.recovery",
-      "value": "Eşya Tespit Raporu"
-    },
-    {
-      "key": "mert_follow.title",
-      "value": "Mert Aydın — Takip görüşmesi"
-    },
-    {
-      "key": "mert_follow.body",
-      "value": "İlk olay yeri incelemesinde kapıda zorlama izi görülmedi. Saksı ve ev anahtarları konusunda Mert Aydın’a yeni sorular yöneltilebilir."
-    },
-    {
-      "key": "cctv.header",
-      "value": "BPS // GÜVENLİK KAMERASI ARŞİVİ"
-    },
-    {
-      "key": "cctv.source.building",
-      "value": "KAMERA 01 · BİNA GİRİŞİ"
-    },
-    {
-      "key": "cctv.overlay.case001",
-      "value": "KAMERA 01  ·  BİNA ÖNÜ"
-    },
-    {
-      "key": "cctv.overlay.rec",
-      "value": "REC"
-    },
-    {
-      "key": "cctv.period.case001",
-      "value": "İNCELENEN ARALIK 08.00–18.00"
-    },
-    {
-      "key": "cctv.signal",
-      "value": "● SİNYAL İYİ"
-    },
-    {
-      "key": "cctv.review",
-      "value": "Kayıtları incele"
-    },
-    {
-      "key": "cctv.complete",
-      "value": "İNCELEME TAMAMLANDI"
-    },
-    {
-      "key": "cctv.clarify",
-      "value": "Bu satırı yeniden çözümle"
-    },
-    {
-      "key": "cctv.watch",
-      "value": "İzle"
-    },
-    {
-      "key": "cctv.videoClose",
-      "value": "Döküme dön"
-    },
-    {
-      "key": "cctv.videoReplay",
-      "value": "Başa al"
-    },
-    {
-      "key": "cctv.videoPlay",
-      "value": "Oynat"
-    },
-    {
-      "key": "cctv.videoPause",
-      "value": "Duraklat"
-    },
-    {
-      "key": "cctv.videoStep",
-      "value": "Kare ›"
-    },
-    {
-      "key": "cctv.videoStepUnavailable",
-      "value": "Bu cihazda kare kare ilerleme kullanılamıyor."
-    },
-    {
-      "key": "cctv.videoLoading",
-      "value": "Kayıt hazırlanıyor…"
-    },
-    {
-      "key": "cctv.videoUnavailable",
-      "value": "Görüntü açılamadı; kayıt dökümü kullanılabilir."
-    },
-    {
-      "key": "cctv.event.mert_out",
-      "value": "08.27 — Erkek şahıs binadan ayrıldı."
-    },
-    {
-      "key": "cctv.event.elif_in",
-      "value": "11.48 — Kadın şahıs binaya girdi."
-    },
-    {
-      "key": "cctv.event.elif_out",
-      "value": "12.16 — Aynı şahıs binadan ayrıldı."
-    },
-    {
-      "key": "cctv.event.weak",
-      "value": "12.31 — SİNYAL ZAYIFLADI"
-    },
-    {
-      "key": "cctv.glitch.weak",
-      "value": "12.3_ — SİNYAL ZA#IFLADI"
-    },
-    {
-      "key": "cctv.event.lost",
-      "value": "12.37 — SİNYAL KESİLDİ"
-    },
-    {
-      "key": "cctv.glitch.lost",
-      "value": "12.3_ — SİNYAL KES#LDİ"
-    },
-    {
-      "key": "cctv.event.gap",
-      "value": "12.37–13.08 — [ KAYIT BULUNAMADI ]"
-    },
-    {
-      "key": "cctv.event.restored",
-      "value": "13.08 — SİNYAL GERİ GELDİ"
-    },
-    {
-      "key": "cctv.event.mert_in",
-      "value": "17.54 — Erkek şahıs binaya girdi."
-    },
-    {
-      "key": "home.brandLocation",
-      "value": "bube POLİS · İSTANBUL"
-    },
-    {
-      "key": "desk.brandLocation",
-      "value": "bube POLİS / İSTANBUL · BEŞİKTAŞ"
-    },
-    {
-      "key": "desk.location",
-      "value": "BEŞİKTAŞ / İSTANBUL"
-    },
-    {
-      "key": "file.previous",
-      "value": "← Önceki"
-    },
-    {
-      "key": "file.next",
-      "value": "Sonraki →"
-    },
-    {
-      "key": "file.caseType",
-      "value": "KONUT HIRSIZLIĞI"
-    },
-    {
-      "key": "file.stamp",
-      "value": "bube POLİS\nİSTANBUL"
-    },
-    {
-      "key": "file.meta.number",
-      "value": "Olay No"
-    },
-    {
-      "key": "file.value.number",
-      "value": "001-26"
-    },
-    {
-      "key": "file.meta.location",
-      "value": "Olay Yeri"
-    },
-    {
-      "key": "file.value.location",
-      "value": "Beşiktaş / İstanbul"
-    },
-    {
-      "key": "file.meta.reporter",
-      "value": "İhbar Eden"
-    },
-    {
-      "key": "file.value.reporter",
-      "value": "Mert Aydın"
-    },
-    {
-      "key": "file.imageCaption",
-      "value": "Olay yeri / Beşiktaş — temsili çizim"
-    },
-    {
-      "key": "file.visuals",
-      "value": "OLAY YERİ GÖRSELLERİ"
-    },
-    {
-      "key": "file.emptyVisual",
-      "value": "Bu dosyada görsel bulunmuyor."
-    },
-    {
-      "key": "file.emptyInterview",
-      "value": "Henüz kayda geçmiş ifade yok."
-    },
-    {
-      "key": "file.emptyEvidence",
-      "value": "Henüz eklenmiş kanıt belgesi yok."
-    },
-    {
-      "key": "file.tab.report",
-      "value": "OLAY RAPORU"
-    },
-    {
-      "key": "file.tab.interview",
-      "value": "KİŞİ İFADELERİ"
-    },
-    {
-      "key": "file.tab.evidence",
-      "value": "KANITLAR"
-    },
-    {
-      "key": "file.tab.visual",
-      "value": "GÖRSELLER"
-    },
-    {
-      "key": "interview.request",
-      "value": "İfade alınmasını iste"
-    },
-    {
-      "key": "interview.pending",
-      "value": "İfadesi alınıyor…"
-    },
-    {
-      "key": "interview.waitHint",
-      "value": "İfade tamamlandığında bu listede belirecek. Masaya dönebilirsiniz."
-    },
-    {
-      "key": "person.mert.name",
-      "value": "Mert Aydın"
-    },
-    {
-      "key": "person.mert.info",
-      "value": "Mağdur · Beşiktaş sakini"
-    },
-    {
-      "key": "person.elif.name",
-      "value": "Elif Demir"
-    },
-    {
-      "key": "person.elif.info",
-      "value": "28 yaşında · Grafik tasarımcı · Mert’in eski partneri"
-    },
-    {
-      "key": "person.hasan.name",
-      "value": "Hasan Kaya"
-    },
-    {
-      "key": "person.hasan.info",
-      "value": "Komşu · Karşı daire sakini"
-    },
-    {
-      "key": "mert.day.question",
-      "value": "Evden ne zaman ayrıldınız, ne zaman döndünüz?"
-    },
-    {
-      "key": "mert.day.answer",
-      "value": "Sabah sekiz buçuk civarında çıktım; işten dönüp kapıyı açtığımda hava kararıyordu. Önce her şey yerli yerinde sandım. Bilgisayar masada olmayınca saate, sonra çekmeceye baktım."
-    },
-    {
-      "key": "mert.key.question",
-      "value": "Evin anahtarı başka kimde vardı?"
-    },
-    {
-      "key": "mert.key.answer",
-      "value": "Benim anahtarım yanımdaydı. Elif’te de bir tane vardı; ayrıldıktan sonra geri almamıştım. Başka birine anahtar verdiğimi hatırlamıyorum."
-    },
-    {
-      "key": "mert.neighbor.question",
-      "value": "Komşulardan bir şey görmüş olabilecek biri var mı?"
-    },
-    {
-      "key": "mert.neighbor.answer",
-      "value": "Hasan karşı dairede oturuyor. Gündüz binada olup olmadığını bilmiyorum; ama girişte bir hareket gördüyse söyleyebilir."
-    },
-    {
-      "key": "elif.relationship.question",
-      "value": "Mert’le ilişkiniz nedir?"
-    },
-    {
-      "key": "elif.relationship.answer",
-      "value": "Birkaç gün önce ayrıldık. Eşyalarımın bir kısmı onda kalmıştı; ne zaman alacağımızı da konuşmadık. Şu sıralar birbirimizle pek görüşmüyoruz."
-    },
-    {
-      "key": "elif.visit.question",
-      "value": "O gün Mert’in evine gittiniz mi?"
-    },
-    {
-      "key": "elif.visit.answer",
-      "value": "Hayır. O gün Mert’in evine gitmedim."
-    },
-    {
-      "key": "hasan.sighting.question",
-      "value": "O gün binada kimi gördünüz?"
-    },
-    {
-      "key": "hasan.sighting.answer",
-      "value": "Öğleye doğru bir kadın binadan çıkıyordu. Mert’in yanında daha önce gördüğüm kişiye benzettim. Merdiven başından gördüm; durup konuşmadık."
-    },
-    {
-      "key": "hasan.camera.question",
-      "value": "Bunu doğrulayabilecek bir kayıt var mı?"
-    },
-    {
-      "key": "hasan.camera.answer",
-      "value": "Giriş kapısında kamera var. Ben saate bakmadım; geçişi doğrulamak istiyorsanız orada bir kayıt olabilir."
-    },
-    {
-      "key": "hasan.where.question",
-      "value": "Siz o gün Mert’in evine girdiniz mi?"
-    },
-    {
-      "key": "hasan.where.answer",
-      "value": "Hayır. Mert’in dairesine o gün girmedim."
-    },
-    {
-      "key": "elif_follow.footage.question",
-      "value": "O gün öğle saatlerinde neredeydiniz?"
-    },
-    {
-      "key": "elif_follow.footage.answer.demeanor",
-      "value": "Omuzları düştü. Elini masadan çekti, kucağında kenetledi."
-    },
-    {
-      "key": "elif_follow.footage.answer",
-      "value": "Evet, binaya girdim. Mert’e söylemeden kalan eşyalarımı aldım. Çıkarken evin anahtarını kapının yanındaki saksıya bıraktım."
-    },
-    {
-      "key": "elif_follow.why.question",
-      "value": "Bunu ilk görüşmede neden söylemediniz?"
-    },
-    {
-      "key": "elif_follow.why.answer",
-      "value": "Evine haber vermeden girdim. Hırsızlığı duyunca bunu söylersem bütün gözler üzerime çevrilir sandım. O yüzden yalan söyledim; eşyaları çalan ben değilim."
-    },
-    {
-      "key": "mert_follow.spare.question",
-      "value": "Yedek anahtarı daha önce saksıda tutuyor muydunuz?"
-    },
-    {
-      "key": "mert_follow.spare.answer",
-      "value": "Eskiden kendi yedek anahtarımı bazen saksıda tutardım. Geçen ay kapıda kalmıştım; Hasan yardım etmişti. Onun yanında saksıdan anahtarı çıkardım. Sonra o anahtarı geri aldım; Elif’teki kopya ayrıydı. Hasan’ın bugün saksıda anahtar bulacağını bilip bilmediğini söyleyemem."
-    },
-    {
-      "key": "hasan_follow.spare.question",
-      "value": "Mert’in yedek anahtarının yerini biliyor muydunuz?"
-    },
-    {
-      "key": "hasan_follow.spare.answer",
-      "value": "Mert’i kapıda gördüğümü hatırlıyorum. Saksıya uzanmış olabilir. Bundan, o gün de orada anahtar vardı sonucunu nasıl çıkarıyorsunuz?"
-    },
-    {
-      "key": "hasan_follow.gap.question",
-      "value": "Öğleden sonra bir sularında neredeydiniz?"
-    },
-    {
-      "key": "hasan_follow.gap.answer.demeanor",
-      "value": "Eller masada, avuçlar açık. Kıpırdamadan cevap verdi."
-    },
-    {
-      "key": "hasan_follow.gap.answer",
-      "value": "Evdeydim. Tek başımaydım; bunu doğrulayacak birini gösteremem. Kameranın çalışmaması benimle ilgili değil."
-    },
-    {
-      "key": "interview.opening",
-      "value": "Görüşme başladı. Sorunuzu seçin."
-    },
-    {
-      "key": "interview.finished",
-      "value": "Şimdilik ek sorum yok."
-    },
-    {
-      "key": "interview.done",
-      "value": "Görüşme kaydı dosyaya eklendi."
-    },
-    {
-      "key": "interview.back",
-      "value": "Görüşmeyi bitir · Masaya dön"
-    },
-    {
-      "key": "interview.asked",
-      "value": "Soruldu"
-    },
-    {
-      "key": "interview.identity",
-      "value": "KİŞİ BİLGİLERİ"
-    },
-    {
-      "key": "home.start",
-      "value": "Oyunu Başlat"
-    },
-    {
-      "key": "home.briefing",
-      "value": "Yeni dosya sizi bekliyor"
-    },
-    {
-      "key": "home.casePending",
-      "value": "Bora’nın soruşturma masasındaki ilk dosya henüz kabul edilmedi."
-    },
-    {
-      "key": "home.caseActive",
-      "value": "Dosya #001 soruşturması sürüyor."
-    },
-    {
-      "key": "home.caseClosed",
-      "value": "Dosya #001 kapatıldı."
-    },
-    {
-      "key": "home.tagline",
-      "value": "GERÇEKLERİ SEN BUL"
-    },
-    {
-      "key": "home.location",
-      "value": "İSTANBUL / BEŞİKTAŞ"
-    },
-    {
-      "key": "offer.kicker",
-      "value": "GELEN EVRAK"
-    },
-    {
-      "key": "offer.title",
-      "value": "DOSYA #001"
-    },
-    {
-      "key": "offer.subtitle",
-      "value": "AÇIK KAPI  /  KONUT HIRSIZLIĞI"
-    },
-    {
-      "key": "offer.summary",
-      "value": "Mert Aydın evine döndüğünde dizüstü bilgisayarının, saatinin ve nakit parasının kayıp olduğunu bildiriyor. Kapıda zorlama izi yok. İlk rapor masanızda."
-    },
-    {
-      "key": "offer.accept",
-      "value": "Dosyayı kabul et"
-    },
-    {
-      "key": "offer.back",
-      "value": "Ana ekrana dön"
-    },
-    {
-      "key": "interview.bora",
-      "value": "BORA"
-    },
-    {
-      "key": "interview.ask",
-      "value": "Soruyu yönelt"
-    },
-    {
-      "key": "interview.listen",
-      "value": "Yanıtı dinle"
-    },
-    {
-      "key": "interview.next",
-      "value": "Devam et"
-    },
-    {
-      "key": "interview.choose",
-      "value": "Bir soru seçin."
-    },
-    {
-      "key": "interview.noNewInfo",
-      "value": "Şimdilik sorulacak başka bir şey yok."
-    },
-    {
-      "key": "mert.lock.question",
-      "value": "Kapıyı çıkarken kilitlediğinizden emin misiniz?"
-    },
-    {
-      "key": "mert.lock.answer",
-      "value": "Kapıyı çekerken anahtarı çevirdiğimi hatırlıyorum. Akşam kapı yerindeydi; kırık, çizik görmedim. Belki önemli değildir ama içerideki sessizlik tuhaf gelmişti."
-    },
-    {
-      "key": "elif.contact.question",
-      "value": "O gün Mert’le konuştunuz mu?"
-    },
-    {
-      "key": "elif.contact.answer",
-      "value": "Hayır, konuşmadım. Ayrıldıktan sonra aramızdaki konuşmalar kolay bitmiyordu; onu aramak istemedim."
-    },
-    {
-      "key": "hasan.time.question",
-      "value": "O kadını saat kaç gibi gördünüz?"
-    },
-    {
-      "key": "hasan.time.answer",
-      "value": "Öğle arasına yakındı. Telefonuma bakmıyordum; kesin bir saat verirsem uydurmuş olurum."
-    },
-    {
-      "key": "elif_follow.items.question",
-      "value": "Evden hangi eşyalarınızı aldınız?"
-    },
-    {
-      "key": "elif_follow.items.answer",
-      "value": "Giysilerimi ve kitaplarımı aldım. Bilgisayar masadaydı diye hatırlıyorum ama odada ne kadar kaldığıma dair kesin bir saat veremem. Saatine veya parasına dokunmadım."
-    },
-    {
-      "key": "mert_follow.neighbor.question",
-      "value": "Hasan’la ne kadar yakınsınız?"
-    },
-    {
-      "key": "mert_follow.neighbor.answer",
-      "value": "Hasan’la komşuluk dışında yakın değiliz. Kapıda kaldığım gün yardım etti. O sırada anahtarı aldığım yeri görmüş olması mümkün."
-    },
-    {
-      "key": "hasan_follow.sale.question",
-      "value": "Kaybolan eşyalardan herhangi biri sizin elinize geçti mi?"
-    },
-    {
-      "key": "hasan_follow.sale.answer.demeanor",
-      "value": "Fişi eline aldı, kenarını düzeltti, geri bıraktı. Sesi hiç değişmedi."
-    },
-    {
-      "key": "hasan_follow.sale.answer",
-      "value": "Bilgisayarı işletmeye ben götürdüm, fişteki isim benim. Cihazın bana nasıl geçtiğini burada anlatmayacağım. Fiş yalnızca teslimi gösterir; Mert’in dairesine girdiğimi kabul etmiyorum."
-    },
-    {
-      "key": "desk.folderTarget",
-      "value": "DOSYAYI AÇ"
-    },
-    {
-      "key": "desk.interviewTarget",
-      "value": "GÖRÜŞME TALEPLERİ"
-    },
-    {
-      "key": "desk.tabletTarget",
-      "value": "TABLET / KAYITLAR"
-    },
-    {
-      "key": "tablet.interviews",
-      "value": "GÖRÜŞME TALEPLERİ"
-    },
-    {
-      "key": "tablet.investigations",
-      "value": "İNCELEME TALEPLERİ"
-    },
-    {
-      "key": "tablet.tab.interviews",
-      "value": "GÖRÜŞMELER"
-    },
-    {
-      "key": "tablet.tab.investigations",
-      "value": "İNCELEMELER"
-    },
-    {
-      "key": "tablet.investigationHelp",
-      "value": "Bu dosyayla ilgili inceleme taleplerini buradan gönder."
-    },
-    {
-      "key": "tablet.noInvestigations",
-      "value": "Şu anda talep edilebilecek inceleme yok."
-    },
-    {
-      "key": "tablet.investigationAvailable",
-      "value": "Talep gönderilebilir"
-    },
-    {
-      "key": "tablet.investigationPending",
-      "value": "İnceleme sürüyor"
-    },
-    {
-      "key": "tablet.investigationArrived",
-      "value": "Rapor Gelen Evraklar'a ulaştı"
-    },
-    {
-      "key": "tablet.investigationFiled",
-      "value": "Rapor dosyaya alındı"
-    },
-    {
-      "key": "tablet.records",
-      "value": "KAYIT ARŞİVİ"
-    },
-    {
-      "key": "tablet.caseLine",
-      "value": "DOSYA #001  /  BUBE SORUŞTURMA BİRİMİ"
-    },
-    {
-      "key": "tablet.interviewHelp",
-      "value": "Görüşmek istediğin kişiyi seç."
-    },
-    {
-      "key": "tablet.recordHelp",
-      "value": "Erişilebilir kayıtları seç ve incele."
-    },
-    {
-      "key": "tablet.openInterview",
-      "value": "GÖRÜŞMEYİ AÇ  ›"
-    },
-    {
-      "key": "tablet.openRecord",
-      "value": "KAYDI AÇ  ›"
-    },
-    {
-      "key": "menu.settings",
-      "value": "Ayarlar"
-    },
-    {
-      "key": "menu.stats",
-      "value": "İstatistikler"
-    },
-    {
-      "key": "menu.exit",
-      "value": "Çıkış"
-    },
-    {
-      "key": "settings.textSpeed",
-      "value": "Konuşma metni"
-    },
-    {
-      "key": "settings.instant",
-      "value": "Anında göster"
-    },
-    {
-      "key": "settings.normal",
-      "value": "Yazarak göster"
-    },
-    {
-      "key": "stats.case",
-      "value": "Dosya"
-    },
-    {
-      "key": "stats.documents",
-      "value": "İncelenen belge"
-    },
-    {
-      "key": "stats.questions",
-      "value": "Sorulan soru"
-    },
-    {
-      "key": "stats.status",
-      "value": "Durum"
-    },
-    {
-      "key": "cctv.scanning",
-      "value": "Kayıt taranıyor…"
-    },
-    {
-      "key": "cctv.syncing",
-      "value": "ÇÖZÜMLENİYOR…"
-    },
-    {
-      "key": "cctv.signal.weak",
-      "value": "● SİNYAL ZAYIF"
-    },
-    {
-      "key": "cctv.signal.lost",
-      "value": "● SİNYAL YOK"
-    },
-    {
-      "key": "cctv.signal.restored",
-      "value": "● SİNYAL GERİ GELDİ"
-    },
-    {
-      "key": "cctv.system",
-      "value": "bube Polis Sistemi"
-    },
-    {
-      "key": "cctv.archive",
-      "value": "Güvenlik Kamerası Arşivi"
-    },
-    {
-      "key": "cctv.back",
-      "value": "‹  Masaya dön"
-    },
-    {
-      "key": "cctv.transcript",
-      "value": "KAYIT DÖKÜMÜ  /  METİN AKIŞI"
-    },
-    {
-      "key": "cctv.signalTitle",
-      "value": "SİNYAL DURUMU"
-    },
-    {
-      "key": "cctv.textOnly",
-      "value": "Bu arşivde görüntü yok. Kayıt aralıklarını ve sinyal kesintilerini incele."
-    },
-    {
-      "key": "menu.about",
-      "value": "Hakkında"
-    },
-    {
-      "key": "about.body",
-      "value": "Karine, Bora’nın bube Police Beşiktaş şubesindeki soruşturmalarını konu alan bir dedektif oyunudur. Dosyaları, görüşmeleri ve kayıtları kendi hızında incele; sonucu kanıtlarla gerekçelendir."
-    },
-    {
-      "key": "interview.noStatement",
-      "value": "İfade henüz dosyada yok."
-    },
-    {
-      "key": "interview.status.unrequested",
-      "value": "Henüz talep edilmedi"
-    },
-    {
-      "key": "interview.status.ready",
-      "value": "● Görüşmeye hazır"
-    },
-    {
-      "key": "interview.status.complete",
-      "value": "● Görüşüldü"
-    },
-    {
-      "key": "interview.begin",
-      "value": "GÖRÜŞMEYE BAŞLA  ›"
-    },
-    {
-      "key": "interview.resume",
-      "value": "GÖRÜŞMEYE DÖN  ›"
-    },
-    {
-      "key": "interview.quote.mert",
-      "value": "Sabah sekiz buçuk gibi çıktım…"
-    },
-    {
-      "key": "interview.quote.elif",
-      "value": "Mert’in evine gitmedim."
-    },
-    {
-      "key": "interview.quote.hasan",
-      "value": "Öğlen bir kadın gördüm."
-    },
-    {
-      "key": "conclude.desk",
-      "value": "SONUÇ RAPORU  →"
-    },
-    {
-      "key": "conclude.tab",
-      "value": "SONUÇ RAPORU"
-    },
-    {
-      "key": "verdict.mert",
-      "value": "Mert Aydın"
-    },
-    {
-      "key": "feedback.mert",
-      "value": "İhbar sahibi de soruşturma dışında tutulamaz. Bu dosyadaki bulguları ayrıca değerlendirin."
-    },
-    {
-      "key": "result.unsolved",
-      "value": "RAPOR TESLİM EDİLDİ · DEĞERLENDİRME BEKLENİYOR"
-    },
-    {
-      "key": "result.solved",
-      "value": "RAPOR TESLİM EDİLDİ · DEĞERLENDİRME BEKLENİYOR"
-    },
-    {
-      "key": "result.reported",
-      "value": "Bildirilen sonuç"
-    },
-    {
-      "key": "result.trust",
-      "value": "Birim güveni"
-    },
-    {
-      "key": "result.trustLoss",
-      "value": "Kurumsal değerlendirme sonucunda güven değişti."
-    },
-    {
-      "key": "result.trustNoRepeat",
-      "value": "Aynı değerlendirme yeniden güven kaybı yaratmadı."
-    },
-    {
-      "key": "result.revisit",
-      "value": "Bu dosya gönderildi ve kapandı. Sonuç, kurumsal faksla bildirilecek."
-    },
-    {
-      "key": "result.summary",
-      "value": "BÖLÜM TAMAMLANDI"
-    },
-    {
-      "key": "result.summaryOpen",
-      "value": "Bölüm özetini aç"
-    },
-    {
-      "key": "result.truth",
-      "value": "Gerçekte ne oldu?"
-    },
-    {
-      "key": "result.evidence",
-      "value": "Kararı ne destekledi?"
-    },
-    {
-      "key": "result.lesson",
-      "value": "Dosyadan çıkan ders"
-    },
-    {
-      "key": "case001.summary.truth",
-      "value": "Mert 08.27’de binadan ayrıldı. Elif 11.48’de kalan eşyalarını almak için eve girdi, 12.16’da çıkarken anahtarı kapı yanındaki saksıya bıraktı. Hasan, eski bir komşuluk olayından anahtarın yerini biliyordu. Kamera kaydının olmadığı aralıkta anahtarı alıp eve girdi; dizüstünü, saati ve parayı aldı, çıkarken anahtarı da götürdü. Elif’in ilk ifadesi yanlıştı; sakladığı şey hırsızlık değil, habersiz ziyaretiydi."
-    },
-    {
-      "key": "case001.summary.evidence",
-      "value": "Bina kaydı Elif’in giriş ve çıkışını gösterdi, fakat 12.37–13.08 arasında görüntü yoktu. Kapıda zorlama izi bulunmadı. Mert’in saksıdaki anahtara ilişkin anlatımı ve Elif’in anahtarı bıraktığını söylemesi, teslim kaydıyla birlikte değerlendirildi. Kayıp bilgisayarın LQ7B-024861 seri numarası, olay günü 14.10’da Hasan Kaya adına işletmeye teslim edilen cihazla eşleşti. Saat ile nakit para ayrıca ele geçirilmedi."
-    },
-    {
-      "key": "case001.summary.lesson",
-      "value": "Bir kişinin yalan söylemesi onu otomatik olarak fail yapmaz; ihbar sahibi veya komşu olmak da birini soruşturmanın dışında bırakmaz. İfadeler, kayıtların sınırları ve bağımsız belgeler birlikte tartılmalıdır."
-    },
-    {
-      "key": "result.continue",
-      "value": "Yeni görevlendirme"
-    },
-    {
-      "key": "result.status",
-      "value": "Soruşturma raporu ilgili birime gönderildi. Bu dosya kapatıldı; değerlendirme daha sonra faksla gelecek."
-    },
-    {
-      "key": "result.noVerdictYet",
-      "value": "Bu aşamada raporun doğru olup olmadığı açıklanmaz."
-    },
-    {
-      "key": "inbox.faxNotice",
-      "value": "YENİ FAKS VAR"
-    },
-    {
-      "key": "inbox.faxNotice.detail",
-      "value": "Masana kurumsal bir faks bırakıldı."
-    },
-    {
-      "key": "inbox.notice.open",
-      "value": "GÖRÜNTÜLE"
-    },
-    {
-      "key": "inbox.faxTitle",
-      "value": "KURUMSAL DEĞERLENDİRME"
-    },
-    {
-      "key": "inbox.faxSuccess",
-      "value": "Rapor doğrulandı. Soruşturma kararı kabul edildi."
-    },
-    {
-      "key": "inbox.faxFailure",
-      "value": "Rapor doğrulanmadı. Soruşturma kararı hatalı bulundu."
-    },
-    {
-      "key": "inbox.faxPending",
-      "value": "İlgili birim, sunduğunuz sonuç ile dayanaklarını değerlendirdi."
-    },
-    {
-      "key": "career.retired",
-      "value": "Birim güveni tükendi. Bora’nın soruşturmacı kariyeri sona erdi."
-    },
-    {
-      "key": "career.retiredTitle",
-      "value": "KARİYER SONU"
-    },
-    {
-      "key": "next.pending",
-      "value": "Bu dosya kapatıldı. Sonraki görevlendirme henüz hazır değil; kurumsal değerlendirme Gelen Evraklar’a ulaştığında inceleyebilirsiniz."
-    },
-    {
-      "key": "next.assignment",
-      "value": "YENİ GÖREVLENDİRME"
-    },
-    {
-      "key": "next.assignment.sender",
-      "value": "Gönderen: bube Polis · İstanbul / Beşiktaş Şubesi"
-    },
-    {
-      "key": "next.assignment.body",
-      "value": "Önceki soruşturma dosyası kapatıldı. Aşağıdaki yeni dosya biriminize iletildi. Dosyayı açıp görevi kabul ettiğinizde soruşturmaya başlayabilirsiniz. Önceki dosyanın kurumsal değerlendirmesi ayrı bir faks olarak iletilir."
-    },
-    {
-      "key": "next.assignment.open",
-      "value": "Dosyayı aç"
-    },
-    {
-      "key": "inbox.faxOpen",
-      "value": "Faksı oku"
-    },
-    {
-      "key": "summary.brand",
-      "value": "bube Police\nİstanbul · Beşiktaş Şubesi"
-    },
-    {
-      "key": "summary.report",
-      "value": "▣  RAPOR ÖZETİ"
-    },
-    {
-      "key": "summary.subject",
-      "value": "Dosya"
-    },
-    {
-      "key": "summary.status",
-      "value": "Dosya durumu"
-    },
-    {
-      "key": "summary.sent",
-      "value": "Kapalı"
-    },
-    {
-      "key": "summary.investigator",
-      "value": "Sorumlu"
-    },
-    {
-      "key": "summary.bora",
-      "value": "Dedektif Bora"
-    },
-    {
-      "key": "summary.sentAt",
-      "value": "Gönderim zamanı"
-    },
-    {
-      "key": "summary.sources",
-      "value": "⌕  İNCELENEN KAYNAKLAR"
-    },
-    {
-      "key": "summary.noSources",
-      "value": "Ek kaynak kaydı bulunmuyor."
-    },
-    {
-      "key": "summary.reviewPending",
-      "value": "KURUMSAL İNCELEMEDE"
-    },
-    {
-      "key": "summary.unknownDate",
-      "value": "Kayıtlı değil"
-    },
-    {
-      "key": "case001.summary.location",
-      "value": "Beşiktaş / İstanbul"
-    },
-    {
-      "key": "fax.reviewHeading",
-      "value": "GÖNDERİLEN RAPORUN DEĞERLENDİRMESİ"
-    },
-    {
-      "key": "fax.supported",
-      "value": "Desteklendi"
-    },
-    {
-      "key": "fax.unsupported",
-      "value": "Desteklenmedi"
-    },
-    {
-      "key": "summary.reviewReceived",
-      "value": "DEĞERLENDİRME TAMAMLANDI"
-    },
-    {
-      "key": "summary.faxLater",
-      "value": "Sonuç Gelen Evraklar’a faksla bildirilecek"
-    },
-    {
-      "key": "summary.faxAvailable",
-      "value": "Ayrıntılar Gelen Evraklar’daki faksta"
-    },
-    {
-      "key": "career.bora",
-      "value": "BORA · PERSONEL SİCİLİ"
-    },
-    {
-      "key": "career.rank.investigator",
-      "value": "Soruşturmacı · bube Police"
-    },
-    {
-      "key": "career.record",
-      "value": "Değerlendirilen dosyalar"
-    },
-    {
-      "key": "career.pending",
-      "value": "Kurumsal incelemede"
-    },
-    {
-      "key": "career.trust",
-      "value": "KURUM GÜVENİ"
-    },
-    {
-      "key": "career.openRecord",
-      "value": "Personel sicilini aç"
-    },
-    {
-      "key": "career.ended",
-      "value": "Aktif soruşturma göreviniz sonlandırıldı."
-    },
-    {
-      "key": "career.endedTitle",
-      "value": "SORUŞTURMA GÖREVİ SONA ERDİ"
-    },
-    {
-      "key": "career.status.high",
-      "value": "YÜKSEK GÜVEN"
-    },
-    {
-      "key": "career.status.reliable",
-      "value": "GÜVENİLİR"
-    },
-    {
-      "key": "career.status.monitored",
-      "value": "GÖZETİM ALTINDA"
-    },
-    {
-      "key": "career.status.review",
-      "value": "PERFORMANS İNCELEMESİ"
-    },
-    {
-      "key": "career.status.risk",
-      "value": "GÖREVDEN ALINMA RİSKİ"
-    },
-    {
-      "key": "career.status.ended",
-      "value": "AKTİF SORUŞTURMA GÖREVİ SONLANDIRILDI"
-    },
-    {
-      "key": "career.evaluation.supported",
-      "value": "Sunulan sonuç ve dayanaklar uygun bulundu."
-    },
-    {
-      "key": "career.evaluation.incomplete",
-      "value": "Soruşturmanın gerekçesi yetersiz bulundu."
-    },
-    {
-      "key": "career.evaluation.falseAccusation",
-      "value": "Bildirilen kişiye yöneltilen suçlama doğrulanamadı."
-    },
-    {
-      "key": "career.supportedCount",
-      "value": "Uygun bulunan"
-    },
-    {
-      "key": "career.incompleteCount",
-      "value": "Eksik gerekçeli"
-    },
-    {
-      "key": "career.falseCount",
-      "value": "Hatalı suçlama"
-    },
-    {
-      "key": "file.transcript",
-      "value": "GÖRÜŞME TUTANAĞI"
-    },
-    {
-      "key": "file.noTranscript",
-      "value": "Bu görüşmeye ait soru–cevap kaydı henüz yok."
-    },
-    {
-      "key": "file.newTranscript",
-      "value": "• YENİ TUTANAK"
-    },
-    {
-      "key": "request.recovery",
-      "value": "Seri numarasıyla eşya araştırması iste"
-    },
-    {
-      "key": "inbox.newDocument",
-      "value": "YENİ EVRAK VAR"
-    },
-    {
-      "key": "inbox.newDocument.detail",
-      "value": "Masana yeni bir rapor gönderildi."
-    },
-    {
-      "key": "inbox.title",
-      "value": "GELEN EVRAKLAR"
-    },
-    {
-      "key": "inbox.pendingDocument",
-      "value": "İnceleme talebi gönderildi. Rapor hazırlanıyor."
-    },
-    {
-      "key": "inbox.receiveDocument",
-      "value": "Raporu dosyaya al"
-    },
-    {
-      "key": "inbox.empty",
-      "value": "Yeni evrak bulunmuyor."
-    },
-    {
-      "key": "inbox.reportReady",
-      "value": "Eşya Tespit Raporu teslim edildi."
-    },
-    {
-      "key": "inbox.brand",
-      "value": "bube Polis  /  İstanbul · Beşiktaş"
-    },
-    {
-      "key": "inbox.filter.all",
-      "value": "Tümü"
-    },
-    {
-      "key": "inbox.filter.unread",
-      "value": "Yeni"
-    },
-    {
-      "key": "inbox.filter.archive",
-      "value": "Okunan"
-    },
-    {
-      "key": "inbox.status.new",
-      "value": "Yeni evrak"
-    },
-    {
-      "key": "inbox.status.pending",
-      "value": "Hazırlanıyor"
-    },
-    {
-      "key": "inbox.status.filed",
-      "value": "Dosyaya alındı"
-    },
-    {
-      "key": "inbox.noItems",
-      "value": "Burada evrak yok."
-    },
-    {
-      "key": "inbox.emptyHelp",
-      "value": "Yeni raporlar ve kurumsal yazılar geldiğinde bu tepside görünür."
-    },
-    {
-      "key": "inbox.faxSealed",
-      "value": "Kurumsal değerlendirme ulaştı. İçeriğini görmek için faksı aç."
-    },
-    {
-      "key": "inbox.openFile",
-      "value": "Dosyada aç"
-    },
-    {
-      "key": "file.tab.timeline",
-      "value": "ZAMAN ÇİZELGESİ"
-    },
-    {
-      "key": "file.tab.compare",
-      "value": "KARŞILAŞTIR"
-    },
-    {
-      "key": "compare.title",
-      "value": "KAYNAKLARI KARŞILAŞTIR"
-    },
-    {
-      "key": "compare.back",
-      "value": "DOSYAYA DÖN"
-    },
-    {
-      "key": "compare.choose",
-      "value": "KAYNAK SEÇ"
-    },
-    {
-      "key": "compare.empty",
-      "value": "Bu sayfada incelemek istediğin kaynağı seç."
-    },
-    {
-      "key": "compare.noSources",
-      "value": "Henüz incelenmiş bir kaynak yok."
-    },
-    {
-      "key": "timeline.title",
-      "value": "ZAMAN ÇİZELGESİ"
-    },
-    {
-      "key": "timeline.help",
-      "value": "Duyduğun ve kayıtlarda gördüğün saatleri buraya kendin ekle. Kaynaklar arasındaki bağlantıyı sen değerlendir."
-    },
-    {
-      "key": "timeline.pinned",
-      "value": "ÇİZELGEM"
-    },
-    {
-      "key": "timeline.available",
-      "value": "KAYNAKLARDAN EKLE"
-    },
-    {
-      "key": "timeline.empty",
-      "value": "Henüz bir zaman kaydı eklemedin."
-    },
-    {
-      "key": "timeline.noCandidates",
-      "value": "Yeni saat bilgileri için ifadeleri ve kayıtları incele."
-    },
-    {
-      "key": "timeline.add",
-      "value": "EKLE"
-    },
-    {
-      "key": "timeline.remove",
-      "value": "ÇIKAR"
-    },
-    {
-      "key": "timeline.time.about0830",
-      "value": "~08.30"
-    },
-    {
-      "key": "timeline.time.about1800",
-      "value": "~18.00"
-    },
-    {
-      "key": "timeline.time.noon",
-      "value": "Öğlen"
-    },
-    {
-      "key": "timeline.time.0827",
-      "value": "08.27"
-    },
-    {
-      "key": "timeline.time.1148",
-      "value": "11.48"
-    },
-    {
-      "key": "timeline.time.1216",
-      "value": "12.16"
-    },
-    {
-      "key": "timeline.time.gap",
-      "value": "12.37–13.08"
-    },
-    {
-      "key": "timeline.time.1754",
-      "value": "17.54"
-    },
-    {
-      "key": "timeline.clue.mertOut",
-      "value": "Sabah sekiz buçuk gibi çıktım."
-    },
-    {
-      "key": "timeline.clue.mertReturn",
-      "value": "Akşam altıya doğru döndüm."
-    },
-    {
-      "key": "timeline.clue.hasanNoon",
-      "value": "Öğlen bir kadın gördüm."
-    },
-    {
-      "key": "timeline.clue.cameraManOut",
-      "value": "Erkek şahıs binadan ayrıldı."
-    },
-    {
-      "key": "timeline.clue.cameraWomanIn",
-      "value": "Kadın şahıs binaya girdi."
-    },
-    {
-      "key": "timeline.clue.cameraWomanOut",
-      "value": "Aynı şahıs binadan ayrıldı."
-    },
-    {
-      "key": "timeline.clue.cameraGap",
-      "value": "Bu aralıkta kayıt bulunamadı."
-    },
-    {
-      "key": "timeline.clue.cameraManIn",
-      "value": "Erkek şahıs binaya girdi."
-    },
-    {
-      "key": "interview.chooseSource",
-      "value": "Hangi kaydı ya da belgeyi öne süreceksin?"
-    },
-    {
-      "key": "interview.cancelSource",
-      "value": "‹  Vazgeç · Sorulara dön"
-    },
-    {
-      "key": "interview.selectedSource",
-      "value": "Seçilen kaynak"
-    },
-    {
-      "key": "interview.questions",
-      "value": "Sorular"
-    },
-    {
-      "key": "interview.history",
-      "value": "Geçmiş"
-    },
-    {
-      "key": "interview.noSource",
-      "value": "Öne sürebileceğin bir kayıt henüz yok."
-    },
-    {
-      "key": "interview.presentSource",
-      "value": "KAYNAĞI ÖNE SÜR"
-    },
-    {
-      "key": "interview.presented",
-      "value": "Öne sürülen:"
-    },
-    {
-      "key": "interview.unrelatedSource",
-      "value": "Bu kayıtla ilgili ne söylememi istiyorsunuz?"
-    },
-    {
-      "key": "conclude.source",
-      "value": "Gösterdiğin kayıt"
-    },
-    {
-      "key": "conclude.chooseSource",
-      "value": "Belge, ifade veya kayıt seç"
-    },
-    {
-      "key": "conclude.sourceUnknown",
-      "value": "Kaynak belirtilmemiş"
-    },
-    {
-      "key": "elif_follow.footage.entryAnswer.demeanor",
-      "value": "Saati duyunca başını salladı. Gözleri ekranda kaldı, sesi düzdü."
-    },
-    {
-      "key": "elif_follow.footage.entryAnswer",
-      "value": "Evet, 11.48’de binaya giren bendim. Mert’e haber vermeden birkaç eşyamı aldım. Çıkarken bende kalan anahtarını kapısının yanındaki saksıya bıraktım."
-    },
-    {
-      "key": "elif_follow.footage.exitAnswer.demeanor",
-      "value": "Çabuk konuştu, sanki cümleyi daha önce kurmuştu. Sonunda derin bir soluk aldı."
-    },
-    {
-      "key": "elif_follow.footage.exitAnswer",
-      "value": "Evet, 12.16’da çıkan da bendim. Yanımda kendi giysilerimle kitaplarım vardı. Mert’in anahtarını götürmedim; kapısının yanındaki saksıya bıraktım."
-    },
-    {
-      "key": "interview.status.followup",
-      "value": "Yeni kaynakla görüşülebilir"
-    },
-    {
-      "key": "interview.referenceCard",
-      "value": "ELİNDEKİ KAYIT"
-    },
-    {
-      "key": "interview.openPresented",
-      "value": "ÖNE SÜRDÜĞÜN KAYDI OKU"
-    },
-    {
-      "key": "interview.openReference",
-      "value": "SEÇTİĞİN KAYDI OKU"
-    },
-    {
-      "key": "hasan_follow.mertStatement.question",
-      "value": "Mert'le kapıda karşılaştığınız günü anlatır mısınız?"
-    },
-    {
-      "key": "hasan_follow.mertStatement.answer.demeanor",
-      "value": "Söylerken hafifçe öne eğildi. Cümleden sonra gözünü senden ayırmadı."
-    },
-    {
-      "key": "hasan_follow.mertStatement.answer",
-      "value": "Mert kapıda kaldığında yanındaydım, evet. Saksıdan anahtar aldığını görmüş olabilirim. Ama bir ay önce gördüğüm bir şey, o gün evine girdiğimi göstermez."
-    },
-    {
-      "key": "mert.items.question",
-      "value": "Kaybolan eşyaları nasıl fark ettiniz?"
-    },
-    {
-      "key": "mert.items.answer",
-      "value": "Dizüstü bilgisayar normalde masanın üzerindedir, yoktu. Kol saatimi çekmecede tutarım; para da aynı çekmecedeydi. Önce kendim yerlerini değiştirmiş olabileceğimi düşündüm, sonra üçünün birden kayıp olduğunu fark ettim. Bilgisayarın faturasını da inceleme için verdim."
-    },
-    {
-      "key": "mert.breakup.question",
-      "value": "Elif'in anahtarını neden geri almadınız?"
-    },
-    {
-      "key": "mert.breakup.answer",
-      "value": "Eşyalarını alması için bir gün konuşacaktık, ama tarih belirleyemedik. Anahtarı istemeyi de erteledim. Ayrılıktan sonra aramızdaki konuyu yeniden açmak istemedim."
-    },
-    {
-      "key": "elif.remaining.question",
-      "value": "Mert'in evinde size ait eşya kalmış mıydı?"
-    },
-    {
-      "key": "elif.remaining.answer",
-      "value": "Birkaç giysim, iki üç kitabım vardı. Bunlar yüzünden yeniden tartışmak istemedim. Mert’le ne zaman alacağımızı kararlaştırmamıştık."
-    },
-    {
-      "key": "elif.avoid.question",
-      "value": "O gün Mert'le neden hiç konuşmadınız?"
-    },
-    {
-      "key": "elif.avoid.answer",
-      "value": "Her konuşma ayrılığa dönüyordu. O gün onu aramadım. Lütfen bunu başka bir şeyin işareti saymayın; eve gitmediğimi söyledim."
-    },
-    {
-      "key": "hasan.recognition.question",
-      "value": "Gördüğünüz kadını nereden tanıdınız?"
-    },
-    {
-      "key": "hasan.recognition.answer",
-      "value": "Mert’in yanında birkaç kez görmüştüm. İsmini bilmiyordum. Bina kapısından çıkan kadının ona benzediğini düşündüm; yüzünü ancak kısa süre gördüm."
-    },
-    {
-      "key": "hasan.help.question",
-      "value": "Mert'le daha önce ne kadar görüşürdünüz?"
-    },
-    {
-      "key": "hasan.help.answer",
-      "value": "Komşuyuz, karşılaşınca selamlaşırız. Bir kez kapıda kalmıştı; yanında durup yardım ettim. Sonra herkes kendi evine döndü."
-    },
-    {
-      "key": "elif_follow.keyPlace.question",
-      "value": "Anahtarı neden Mert'e elden vermediniz?"
-    },
-    {
-      "key": "elif_follow.keyPlace.answer",
-      "value": "Anahtarı artık bende tutmak istemiyordum, onunla yüz yüze gelmek de istemedim. Daha önce kullandığı kapı yanındaki saksıya bıraktım. Benden sonra oraya kimin baktığını bilmiyorum."
-    },
-    {
-      "key": "elif_follow.call.question",
-      "value": "Hırsızlığı öğrenince Mert'i aradınız mı?"
-    },
-    {
-      "key": "elif_follow.call.answer",
-      "value": "Aramadım. Eve habersiz girdiğimi söylemem gerekecekti. Susarsam konunun dışında kalacağımı düşündüm; şimdi bunun tersini yaptığımı görüyorum."
-    },
-    {
-      "key": "mert_follow.known.question",
-      "value": "Saksıdaki anahtarın yerini başka kim biliyor olabilirdi?"
-    },
-    {
-      "key": "mert_follow.known.answer",
-      "value": "Yerini Elif biliyordu; geçmişte ona söylemiştim. Hasan da kapıda kaldığım gün saksıdan anahtarı aldığımı gördü. Başka kimin gördüğünü bilmiyorum."
-    },
-    {
-      "key": "hasan_follow.memory.question",
-      "value": "Mert anahtarı saksıdan aldığında siz neredeydiniz?"
-    },
-    {
-      "key": "hasan_follow.memory.answer",
-      "value": "Kapının önünde duruyordum. Mert eğilip saksıyla uğraşmıştı; anahtarı oradan aldıysa görmüşümdür. O sırada bu ayrıntıyı aklımda tutmam gerektiğini düşünmedim."
-    },
-    {
-      "key": "interview.topic.other",
-      "value": "DİĞER SORULAR"
-    },
-    {
-      "key": "interview.topic.day",
-      "value": "OLAY GÜNÜ"
-    },
-    {
-      "key": "interview.topic.home",
-      "value": "EV VE ANAHTAR"
-    },
-    {
-      "key": "interview.topic.relationships",
-      "value": "İLİŞKİLER"
-    },
-    {
-      "key": "interview.topic.observations",
-      "value": "GÖZLEMLER"
-    },
-    {
-      "key": "interview.topic.records",
-      "value": "KAYITLAR"
-    },
-    {
-      "key": "interview.topic.neighbors",
-      "value": "KOMŞULUK"
-    },
-    {
-      "key": "interview.topic.belongings",
-      "value": "EŞYALAR"
-    },
-    {
-      "key": "interview.topic.explanation",
-      "value": "AÇIKLAMALAR"
-    },
-    {
-      "key": "file.tab.search",
-      "value": "DOSYADA GEZİN"
-    },
-    {
-      "key": "search.title",
-      "value": "DOSYADA GEZİN"
-    },
-    {
-      "key": "search.help",
-      "value": "Kayda geçmiş bütün satırlar. Tür ve kişiye göre süz."
-    },
-    {
-      "key": "search.count",
-      "value": "EŞLEŞEN SATIR"
-    },
-    {
-      "key": "search.everyone",
-      "value": "Herkes"
-    },
-    {
-      "key": "search.empty",
-      "value": "Bu süzgeçle eşleşen satır yok."
-    },
-    {
-      "key": "search.open",
-      "value": "KAYNAĞI AÇ"
-    },
-    {
-      "key": "case001.offer.title",
-      "value": "DOSYA #001"
-    },
-    {
-      "key": "case001.offer.subtitle",
-      "value": "AÇIK KAPI  /  KONUT HIRSIZLIĞI"
-    },
-    {
-      "key": "case001.offer.summary",
-      "value": "Mert Aydın evine döndüğünde dizüstü bilgisayarının, saatinin ve nakit parasının kayıp olduğunu bildiriyor. Kapıda zorlama izi yok. İlk rapor masanızda."
-    },
-    {
-      "key": "case001.tablet.caseLine",
-      "value": "DOSYA #001  /  BUBE SORUŞTURMA BİRİMİ"
-    },
-    {
-      "key": "case001.file.caseType",
-      "value": "KONUT HIRSIZLIĞI"
-    },
-    {
-      "key": "case002.report.title",
-      "value": "İlk olay raporu"
-    },
-    {
-      "key": "case002.report.body",
-      "value": "21 Kasım 2024, 18.05. Beşiktaş’taki Kıyı Tasarım Atölyesi’nin kilitli arşiv dolabından taşınabilir yedek disk kayboldu. İhbarı atölye yöneticisi Arda Yalın yaptı. Dolapta zorlama izi yok. Diskin üzerinde müşterilere ait tasarım dosyaları bulunuyor. Arda, diski en son öğleden önce gördüğünü söylüyor."
-    },
-    {
-      "key": "case002.meta.number",
-      "value": "Dosya"
-    },
-    {
-      "key": "case002.meta.numberValue",
-      "value": "#002 · Kayıp Yedek"
-    },
-    {
-      "key": "case002.meta.place",
-      "value": "Yer"
-    },
-    {
-      "key": "case002.meta.placeValue",
-      "value": "Kıyı Tasarım Atölyesi / Beşiktaş"
-    },
-    {
-      "key": "case002.meta.reporter",
-      "value": "İhbar eden"
-    },
-    {
-      "key": "case002.meta.reporterValue",
-      "value": "Arda Yalın"
-    },
-    {
-      "key": "case002.arda.last.question",
-      "value": "Diski en son ne zaman gördünüz?"
-    },
-    {
-      "key": "case002.arda.last.answer",
-      "value": "Öğleye doğru dolaptaydı. Sonra bütün gün toplantıdaydım."
-    },
-    {
-      "key": "case002.arda.access.question",
-      "value": "Dolabın anahtarı kimde?"
-    },
-    {
-      "key": "case002.arda.access.answer",
-      "value": "Bende ve teknik sorumlu Ece’de. Dolabı açık bırakmayız."
-    },
-    {
-      "key": "case002.arda.shipment.question",
-      "value": "Bugün atölyeden kargo çıktı mı?"
-    },
-    {
-      "key": "case002.arda.shipment.answer",
-      "value": "Sadece eski kabloları gönderdim. Kargo işlerine pek bakmam."
-    },
-    {
-      "key": "case002.arda.log.question",
-      "value": "Geçiş kaydında kartınız 16.11’de arşivde görünüyor."
-    },
-    {
-      "key": "case002.arda.log.answer",
-      "value": "Kartımı masada bırakmış olabilirim. O saatte arşive girdiğimi hatırlamıyorum."
-    },
-    {
-      "key": "case002.arda.title",
-      "value": "Arda Yalın ile görüşme"
-    },
-    {
-      "key": "case002.arda.body",
-      "value": "Atölye yöneticisi ve ihbar sahibi."
-    },
-    {
-      "key": "case002.arda.name",
-      "value": "Arda Yalın"
-    },
-    {
-      "key": "case002.arda.info",
-      "value": "31 yaşında · atölye yöneticisi · ihbar sahibi"
-    },
-    {
-      "key": "case002.arda.quote",
-      "value": "Bütün gün toplantıdaydım."
-    },
-    {
-      "key": "case002.ece.inventory.question",
-      "value": "Diskin ne zaman dolapta olduğunu biliyor musunuz?"
-    },
-    {
-      "key": "case002.ece.inventory.answer",
-      "value": "15.38’de yedeklemeyi bitirip diski dolaba koydum. Etiketi KY-42."
-    },
-    {
-      "key": "case002.ece.keys.question",
-      "value": "Anahtara başka kim erişebilir?"
-    },
-    {
-      "key": "case002.ece.keys.answer",
-      "value": "Bende bir anahtar var, diğeri Arda’da. Ama biri dolabı açmışsa anahtarı ödünç almış da olabilir."
-    },
-    {
-      "key": "case002.ece.deadline.question",
-      "value": "Diskteki dosyalar neden önemli?"
-    },
-    {
-      "key": "case002.ece.deadline.answer",
-      "value": "Yarın müşteriye teslim edilecek çizimler var. Kaybolması işi durdurur."
-    },
-    {
-      "key": "case002.ece.title",
-      "value": "Ece Tan ile görüşme"
-    },
-    {
-      "key": "case002.ece.body",
-      "value": "Atölyenin teknik sorumlusu."
-    },
-    {
-      "key": "case002.ece.name",
-      "value": "Ece Tan"
-    },
-    {
-      "key": "case002.ece.info",
-      "value": "29 yaşında · teknik sorumlu"
-    },
-    {
-      "key": "case002.ece.quote",
-      "value": "Etiketi KY-42."
-    },
-    {
-      "key": "case002.deniz.desk.question",
-      "value": "Öğleden sonra giriş masasında mıydınız?"
-    },
-    {
-      "key": "case002.deniz.desk.answer",
-      "value": "Evet. Kargocu geldiğinde de oradaydım."
-    },
-    {
-      "key": "case002.deniz.courier.question",
-      "value": "Kargocu ne aldı?"
-    },
-    {
-      "key": "case002.deniz.courier.answer",
-      "value": "16.30 gibi küçük bir kutu. İrsaliyeyi Arda imzaladı, içinde ne vardı görmedim."
-    },
-    {
-      "key": "case002.deniz.gap.question",
-      "value": "16.12’de giriş masası neden boş görünüyor?"
-    },
-    {
-      "key": "case002.deniz.gap.answer",
-      "value": "Çay almak için aşağı indim. Başta söylemedim; nöbet yerini terk ettiğim için ceza almaktan korktum. Kutuya ne konduğunu görmedim."
-    },
-    {
-      "key": "case002.deniz.title",
-      "value": "Deniz Sönmez ile görüşme"
-    },
-    {
-      "key": "case002.deniz.body",
-      "value": "Binanın güvenlik görevlisi."
-    },
-    {
-      "key": "case002.deniz.name",
-      "value": "Deniz Sönmez"
-    },
-    {
-      "key": "case002.deniz.info",
-      "value": "34 yaşında · güvenlik görevlisi"
-    },
-    {
-      "key": "case002.deniz.quote",
-      "value": "Kargocu geldiğinde de oradaydım."
-    },
-    {
-      "key": "case002.access.title",
-      "value": "BPS · geçiş ve teslim kayıtları"
-    },
-    {
-      "key": "case002.access.body",
-      "value": "15.38 — Teknik sorumlu Ece Tan arşivden çıktı.\n16.11 — AR-17 kartı arşiv kapısını açtı. Kart sahibi: Arda Yalın.\n16.12–16.24 — Giriş masası devriyesi kaydı yok.\n16.31 — Kurye, atölyeden bir kutu aldı. Gönderici kodu: AR-17.\n18.05 — Kayıp disk ihbarı sisteme işlendi.\n\nKart kaydı kartı kimin taşıdığını göstermez; gönderi içeriği bu kayıtta bulunmaz."
-    },
-    {
-      "key": "case002.arda_follow.card.question",
-      "value": "AR-17 hem arşivde hem gönderide neden görünüyor?"
-    },
-    {
-      "key": "case002.arda_follow.card.answer",
-      "value": "Birçok işlemde kodum kullanılıyor. Kutuda yalnızca kablo vardı."
-    },
-    {
-      "key": "case002.arda_follow.parcel.question",
-      "value": "Gönderi incelemesinde KY-42 diski bulundu. Açıklar mısınız?"
-    },
-    {
-      "key": "case002.arda_follow.parcel.answer",
-      "value": "Diski kutuya ben koydum. İhbarı da sonra yaptım. Şimdi bunu söylemenin bir yararı yok sanmıştım."
-    },
-    {
-      "key": "case002.arda_follow.title",
-      "value": "Arda Yalın · takip görüşmesi"
-    },
-    {
-      "key": "case002.arda_follow.body",
-      "value": "Yeni kayıtlardan sonra yeniden görüşülebilir."
-    },
-    {
-      "key": "case002.parcel.title",
-      "value": "Gönderi inceleme tutanağı"
-    },
-    {
-      "key": "case002.parcel.body",
-      "value": "Talep üzerine 16.31’de atölyeden alınan kutu kargo şubesinde incelemeye ayrıldı. Gönderici alanında AR-17 kodu ve Arda Yalın’ın imzası var. Kutunun içinden taşınabilir yedek disk çıktı. Diskin envanter etiketi KY-42; teknik sorumlunun bildirdiği numarayla aynı. Kutu ilk alındığında bantları sağlamdı. Teslim adresi Arda’nın kişisel posta kutusu olarak kayıtlı. İnceleme, diskin o kutuya nasıl ve kim tarafından konduğunu tek başına göstermez."
-    },
-    {
-      "key": "case002.parcel.request",
-      "value": "Kargo gönderisini incelet"
-    },
-    {
-      "key": "case002.title",
-      "value": "DOSYA #002 — Kayıp Yedek"
-    },
-    {
-      "key": "case002.timeline.backup.time",
-      "value": "15.38"
-    },
-    {
-      "key": "case002.timeline.backup.note",
-      "value": "Ece, KY-42 diskini dolaba koyduğunu söyledi."
-    },
-    {
-      "key": "case002.timeline.entry.time",
-      "value": "16.11"
-    },
-    {
-      "key": "case002.timeline.entry.note",
-      "value": "AR-17 kartıyla arşiv kapısı açıldı."
-    },
-    {
-      "key": "case002.timeline.pickup.time",
-      "value": "16.31"
-    },
-    {
-      "key": "case002.timeline.pickup.note",
-      "value": "Kurye atölyeden AR-17 kodlu kutuyu aldı."
-    },
-    {
-      "key": "case002.timeline.report.time",
-      "value": "18.05"
-    },
-    {
-      "key": "case002.timeline.report.note",
-      "value": "Diskin kayıp olduğu ihbar edildi."
-    },
-    {
-      "key": "case002.verdict.arda",
-      "value": "Arda Yalın"
-    },
-    {
-      "key": "case002.feedback.arda",
-      "value": "Arda’nın gönderisi"
-    },
-    {
-      "key": "case002.verdict.ece",
-      "value": "Ece Tan"
-    },
-    {
-      "key": "case002.feedback.ece",
-      "value": "Ece’nin envanteri"
-    },
-    {
-      "key": "case002.verdict.deniz",
-      "value": "Deniz Sönmez"
-    },
-    {
-      "key": "case002.feedback.deniz",
-      "value": "Deniz’in nöbeti"
-    },
-    {
-      "key": "case002.method.shipment",
-      "value": "Diski kendi gönderisine koyup kayıp ihbarı yapmak"
-    },
-    {
-      "key": "case002.method.forced",
-      "value": "Dolabı zorlayarak almak"
-    },
-    {
-      "key": "case002.method.borrowed",
-      "value": "Başkasının anahtarıyla almak"
-    },
-    {
-      "key": "case002.method.unknown",
-      "value": "Yöntem belirsiz"
-    },
-    {
-      "key": "case002.evidence.report",
-      "value": "İlk olay raporu"
-    },
-    {
-      "key": "case002.evidence.access",
-      "value": "Geçiş ve teslim kayıtları"
-    },
-    {
-      "key": "case002.evidence.arda",
-      "value": "Arda’nın takip ifadesi"
-    },
-    {
-      "key": "case002.evidence.parcel",
-      "value": "Gönderi inceleme tutanağı"
-    },
-    {
-      "key": "case002.summary.location",
-      "value": "Kıyı Tasarım Atölyesi · Beşiktaş"
-    },
-    {
-      "key": "case002.summary.truth",
-      "value": "Arda Yalın, KY-42 diski arşivden alıp kendi gönderdiği kutuya koydu; ardından kayıp ihbarı yaptı. Deniz’in nöbet yeriyle ilgili yalanı, işini kaybetme korkusundan kaynaklanıyordu."
-    },
-    {
-      "key": "case002.summary.evidence",
-      "value": "Geçiş kaydı AR-17 kartını arşive bağlar; kargo tutanağı aynı kodlu, Arda imzalı kutuda KY-42 diskini doğrular. Ece’nin envanter ifadesi disk numarasını bağımsız olarak belirler."
-    },
-    {
-      "key": "case002.summary.lesson",
-      "value": "İhbar eden kişi de incelenmelidir. Bir kayıt tek başına fail göstermeyebilir; bağımsız kaynaklar birlikte anlam kazanır."
-    },
-    {
-      "key": "case002.offer.title",
-      "value": "DOSYA #002"
-    },
-    {
-      "key": "case002.offer.subtitle",
-      "value": "KAYIP YEDEK  /  İŞYERİ HIRSIZLIĞI"
-    },
-    {
-      "key": "case002.offer.summary",
-      "value": "Beşiktaş’taki tasarım atölyesinden, müşteri dosyalarını taşıyan bir yedek disk kayboldu. Kilitli dolapta zorlama izi yok. İhbarı atölye yöneticisi Arda Yalın yaptı."
-    },
-    {
-      "key": "case002.tablet.caseLine",
-      "value": "DOSYA #002  /  BUBE SORUŞTURMA BİRİMİ"
-    },
-    {
-      "key": "case002.file.caseType",
-      "value": "İŞYERİ HIRSIZLIĞI"
-    },
-    {
-      "key": "archive.menu",
-      "value": "Dosya Arşivi"
-    },
-    {
-      "key": "archive.kicker",
-      "value": "BUBE POLİS · KAPANAN DOSYALAR"
-    },
-    {
-      "key": "archive.title",
-      "value": "DOSYA ARŞİVİ"
-    },
-    {
-      "key": "archive.count",
-      "value": "Kapanan dosya"
-    },
-    {
-      "key": "archive.empty",
-      "value": "Bu kariyerde henüz kapanmış dosya yok."
-    },
-    {
-      "key": "archive.report",
-      "value": "Gönderilen sonuç raporu"
-    },
-    {
-      "key": "archive.sources",
-      "value": "İncelenen kaynaklar"
-    },
-    {
-      "key": "archive.reviewed",
-      "value": "Kurumsal değerlendirme alındı. Gönderilen raporla karşılaştırılabilir."
-    },
-    {
-      "key": "archive.pendingReview",
-      "value": "Kurumsal değerlendirme henüz ulaşmadı."
-    },
-    {
-      "key": "archive.back",
-      "value": "Arşive dön"
-    },
-    {
-      "key": "archive.fax",
-      "value": "Kurumsal değerlendirme faksı"
-    },
-    {
-      "key": "conclude.sourceHelp",
-      "value": "Bu formda üç ayrı iddia kuruyorsun: kimin sorumlu olduğu, olayın nasıl gerçekleştiği ve hangi kanıtın belirleyici olduğu. Her iddianın altında onu desteklediğini düşündüğün okuduğun belgeyi, aldığın ifadeyi veya incelediğin kayıt satırını seç. İlk olay raporu yalnız başlangıç ihbarını kaydeder. Gönderilen rapor geri alınmaz; dosya kapanır."
-    },
-    {
-      "key": "conclude.suspectSource",
-      "value": "Bu kişiyle olay arasında bağlantı kuran kaynak hangisi?"
-    },
-    {
-      "key": "conclude.methodSource",
-      "value": "Seçtiğin yöntemi hangi bilgi destekliyor?"
-    },
-    {
-      "key": "conclude.evidenceSource",
-      "value": "Seçtiğin kanıtı hangi belge veya kayıt doğruluyor?"
-    },
-    {
-      "key": "conclude.previewTitle",
-      "value": "GÖNDERİLECEK RAPOR"
-    },
-    {
-      "key": "conclude.unselected",
-      "value": "Seçilmedi"
-    },
-    {
-      "key": "terminal.title",
-      "value": "BPS Kayıtları"
-    },
-    {
-      "key": "terminal.noRecords",
-      "value": "Bu dosyaya bağlı erişilebilir bir kayıt henüz yok."
-    },
-    {
-      "key": "fax.explainIntro",
-      "value": "Birim, bildirdiğiniz kişiyi, olay yöntemini ve belirleyici kanıtı; her biri için gösterdiğiniz kaynakla ayrı ayrı inceledi. Aşağıdaki “desteklenmedi” kararı, seçilen kaynağın o iddiayı doğrulamadığını belirtir. Dosya kapanmıştır."
-    },
-    {
-      "key": "fax.submittedSource",
-      "value": "Gösterilen kaynak"
-    },
-    {
-      "key": "fax.closing",
-      "value": "Bu değerlendirme gönderilen rapora aittir. Yeni bilgi olmadan rapor değiştirilemez; karar personel siciline işlendi."
-    },
-    {
-      "key": "fax.reason.supported",
-      "value": "Gösterilen kaynak bu iddia için dayanak olarak kabul edildi."
-    },
-    {
-      "key": "fax.reason.suspect.report",
-      "value": "İlk olay raporu kayıp ihbarını ve olay yerinin ilk durumunu kaydeder. Bildirdiğiniz kişinin eşyayı aldığına ilişkin bağımsız bir tespit içermez."
-    },
-    {
-      "key": "fax.reason.method.report",
-      "value": "Kapıda zorlama izi görülmemesi, tek başına hangi giriş yönteminin kullanıldığını belirlemez. İlk olay raporu bu yöntemi doğrulamaz."
-    },
-    {
-      "key": "fax.reason.evidence.report",
-      "value": "İlk olay raporu kayıp bildirilen eşyaları sıralar. Eşyanın kime geçtiğini doğrulayan sonraki bir tespit yerine kullanılamaz."
-    },
-    {
-      "key": "fax.reason.suspect.other",
-      "value": "Gösterdiğiniz kaynak, bildirdiğiniz kişi ile eylem arasında yeterli bağlantı kurmadı. Bu iddia bu dayanakla doğrulanamadı."
-    },
-    {
-      "key": "fax.reason.method.other",
-      "value": "Gösterdiğiniz kaynak, bildirdiğiniz yöntemi yeterince ortaya koymadı."
-    },
-    {
-      "key": "fax.reason.evidence.other",
-      "value": "Gösterdiğiniz kaynak, seçilen kanıtın belirleyici olduğunu yeterince doğrulamadı."
-    },
-    {
-      "key": "interview.tryAnotherSource",
-      "value": "BAŞKA KAYIT SEÇ"
-    },
-    {
-      "key": "conclude.stepHelp",
-      "value": "İddianı seç, ardından bu iddiaya dayanak olarak göstereceğin kaydı belirle."
-    },
-    {
-      "key": "conclude.reviewHelp",
-      "value": "Raporunu kontrol et. Gönderdiğinde dosya kesin olarak kapanır; kurumsal değerlendirme daha sonra gelir."
-    },
-    {
-      "key": "conclude.previous",
-      "value": "Önceki"
-    },
-    {
-      "key": "conclude.next",
-      "value": "Devam et"
-    },
-    {
-      "key": "conclude.openSource",
-      "value": "Dayanağı oku"
-    },
-    {
-      "key": "conclude.filter.all",
-      "value": "Tümü"
-    },
-    {
-      "key": "conclude.filter.documents",
-      "value": "Belgeler"
-    },
-    {
-      "key": "conclude.filter.interviews",
-      "value": "İfadeler"
-    },
-    {
-      "key": "conclude.filter.cctv",
-      "value": "CCTV"
-    },
-    {
-      "key": "conclude.search",
-      "value": "Ara"
-    },
-    {
-      "key": "conclude.sourceCount",
-      "value": "kaynak"
-    },
-    {
-      "key": "conclude.noMatches",
-      "value": "Bu arama ve filtreyle eşleşen kaynak yok."
-    },
-    {
-      "key": "elif_follow.footage.decoy.gap.demeanor",
-      "value": "Konuşurken bileğindeki lastiği çevirdi. Sesi cümlenin ortasında yükseldi."
-    },
-    {
-      "key": "elif_follow.footage.decoy.gap",
-      "value": "O saatlerde işten çıkmıştım, evet. Yolum o sokaktan geçiyor, geçmemesi tuhaf olurdu. Kaydın tam o aralıkta kesilmesi benim işime gelmiş gibi duruyor, farkındayım. Ama ben kesmedim."
-    },
-    {
-      "key": "elif_follow.footage.decoy.key.demeanor",
-      "value": "Bir süre sustu. Sonra doğrudan sana baktı, gözünü kaçırmadı."
-    },
-    {
-      "key": "elif_follow.footage.decoy.key",
-      "value": "Anahtarı geri vermedim. Vermek de istemedim. Bunu söylemem aleyhime, biliyorum; yine de o kapıyı açmadım."
-    },
-    {
-      "key": "elif_follow.footage.decoy.sighting.demeanor",
-      "value": "Kâğıda eğildi, satırı iki kez okudu. Elleri titriyordu."
-    },
-    {
-      "key": "elif_follow.footage.decoy.sighting",
-      "value": "Komşu beni gördüyse yanlış görmemiştir. O hafta o binaya gittim, kapıya kadar. Zili çalmadım, döndüm. İnanmak zorunda değilsiniz."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.elifIn.demeanor",
-      "value": "Ekrana bakmadı bile. Aynı düz tonla tekrarladı."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.elifIn",
-      "value": "Girdiğini gördüm, çıktığını gördüm, ikisini de anlattım. Aradaki saatte ne yaptığını benden beklemeyin; ben kapımı kapattım, oturdum."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.neighbor.demeanor",
-      "value": "Başparmağıyla masanın kenarını ovaladı. Sesi yavaşladı."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.neighbor",
-      "value": "Aynı kattayız, duvar ince. O gün bir şey duymadım. Duymadığımı söylüyorum, olmadığını söylemiyorum."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.gap.demeanor",
-      "value": "Elini enseye götürdü, indirdi. Sesi düzdü."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.gap",
-      "value": "O saatte evdeydim. Kamera kesilmiş, ben de kimseye görünmemişim. İkisi yan yana gelince kötü duruyor, biliyorum."
-    },
-    {
-      "key": "elif_follow.footage.decoy.time.demeanor",
-      "value": "Kısa, sert bir gülüş. Sandalyeyi geriye itti ama kalkmadı."
-    },
-    {
-      "key": "elif_follow.footage.decoy.time",
-      "value": "“Öğleye yakın” diyor. Ben de öğleye yakın oradaydım. Saat tutmadım; tutsaydım daha mı inandırıcı olurdum?"
-    },
-    {
-      "key": "elif_follow.footage.decoy.recognition.demeanor",
-      "value": "Yüzü kızardı. Cümlenin sonunu yutar gibi söyledi."
-    },
-    {
-      "key": "elif_follow.footage.decoy.recognition",
-      "value": "Beni tanımıyor olabilir, ama tarif ettiği kişi bana benziyor. Bunu kendim söylüyorum, siz sormadan."
-    },
-    {
-      "key": "elif_follow.footage.decoy.breakup.demeanor",
-      "value": "Bakışını masaya indirdi. Uzun bir sessizlikten sonra konuştu."
-    },
-    {
-      "key": "elif_follow.footage.decoy.breakup",
-      "value": "Eşyaları konuşacaktık, hiç konuşamadık. O gün de bu yüzden oradaydım, konuşmak için. Kapıyı açan olmadı."
-    },
-    {
-      "key": "elif_follow.footage.decoy.known.demeanor",
-      "value": "Sırtını sandalyeye dayadı. İlk kez acele etmeden konuştu."
-    },
-    {
-      "key": "elif_follow.footage.decoy.known",
-      "value": "Saksıyı biliyordum. Bir yıl o evde yaşadım, bilmemem tuhaf olurdu. Karşınızda bilen biri oturuyor, mesele bu."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.elifOut.demeanor",
-      "value": "Görüntüyü dikkatle izledi, sonra omuz silkti."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.elifOut",
-      "value": "Elinde bir şey vardı, evet. Çanta mıydı poşet miydi ayırt edemedim. Zorlasam uydururdum, uydurmayayım."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.recovery.demeanor",
-      "value": "Raporu uzun uzun okudu. Yanıt verirken sesi biraz kısıldı."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.recovery",
-      "value": "Fiş benim adıma düzenlenmişse dükkânda kimliğimi vermişim demektir. Ne zaman verdiğimi hatırlamıyorum. Siz bana o öğleden sonrayı sordunuz: evdeydim."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.known.demeanor",
-      "value": "Yorgun bir gülümseme. Koltuğunda yayıldı."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.known",
-      "value": "Bilenler arasında adım varsa vardır. Yıllardır aynı kattayım, bilmemem tuhaf olurdu."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.gap.demeanor",
-      "value": "Kollarını kavuşturdu, sonra çözdü. Bakışı masada kaldı."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.gap",
-      "value": "Kaydın kesilmesinden ne çıkardığınızı bilmiyorum. Bende bir şey yok. Evime bakmak isterseniz bakın, engellemem."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.elifIn.demeanor",
-      "value": "Aynı cümleyi aynı vurguyla üçüncü kez söyledi."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.elifIn",
-      "value": "Giren o. Ben o gün kapımdan bile çıkmadım. Bir daha söylememi isterseniz söylerim."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.spare.demeanor",
-      "value": "Dolaptan söz ederken elini kapıya doğru salladı. Rahat görünüyordu."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.spare",
-      "value": "Anahtarı saksıdan almış, tamam. Bende ne anahtar var ne eşya. Kolaylaştırayım: dolapta bir kutu var, içi kitap."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.neighbor.demeanor",
-      "value": "Sahanlığı anlatırken parmağıyla masada bir daire çizdi."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.neighbor",
-      "value": "On daire var bu binada. Çoğu benim gibi tek yaşıyor ve hepsinin kapısı aynı sahanlığa açılıyor."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.neighbor.demeanor",
-      "value": "Gözünü kırpmadan söyledi. Sonra pencereye baktı."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.neighbor",
-      "value": "Yakın değiliz. Kapıda da uzun uzun konuşmadık. Konuştuysak hatırlamıyorum."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.known.demeanor",
-      "value": "Yarım bir gülüş. Elleri masada hareketsiz kaldı."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.known",
-      "value": "Bilmek başka, girmek başka. Ama bilenler listesinde olmak insanı bu sandalyeye oturtuyormuş, onu öğrendim."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.elifIn.demeanor",
-      "value": "Ekranı eliyle biraz kendine çevirdi. Uzun uzun baktı."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.elifIn",
-      "value": "Kayıtta o var. Siz bana kapıdaki günü soruyorsunuz. İkisini birleştiren bir şey varsa bende değil."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.recovery.demeanor",
-      "value": "Para sıkıntısından söz ederken sesi düştü. Devamını söylemedi."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.recovery",
-      "value": "O dükkânı bilirim, daha önce de işim oldu orada. Kapıda konuştuğumuz şey bu değildi; para sıkıntısından söz etti, o kadar."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.spare.demeanor",
-      "value": "Tarihi duyunca bir an durdu. Sonra net konuştu."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.spare",
-      "value": "Kapıdaki gün bir ay öncesi. O öğleden sonrayı soruyorsanız: evdeydim ve kimse görmedi."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.followNeighbor.demeanor",
-      "value": "Cümlenin ortasında durdu, baştan başladı."
-    },
-    {
-      "key": "hasan_follow.gap.decoy.followNeighbor",
-      "value": "Yakın değiliz, doğru söylemiş. Yakın olmadığım hâlde kimin girip çıktığını not etmişim. Bunu neden yaptığımı bana sormayın."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.elifOut.demeanor",
-      "value": "Görüntüyü yeniden başlatmanı istedi. İkincisinde de aynı şeyi söyledi."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.elifOut",
-      "value": "Yanında bir şey taşıyordu, ne olduğunu göremedim. Göremediğim bir şeyi benim üstüme yıkamak kolay olurdu, farkındayım."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.neighbor2.demeanor",
-      "value": "Kısa bir sessizlik. Sonra omuz silkip cevapladı."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.neighbor2",
-      "value": "Yakın değiliz. Yakın olsaydık belki bana bir şey emanet ederdi, o zaman elimde bir şey olurdu. Şimdi yok."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.known.demeanor",
-      "value": "Öne eğildi, sözcükleri ayırarak söyledi."
-    },
-    {
-      "key": "hasan_follow.sale.decoy.known",
-      "value": "Anahtarla eşyayı karıştırıyorsunuz. Yerini bilen on kişi varsa alan da onlardan biri olabilir. Ben değilim."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.neighbor2.demeanor",
-      "value": "Duraksadı. Cümlenin sonu soru gibi çıktı."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.neighbor2",
-      "value": "Bir şey görmüş olabileceğimi düşünmüş. Görmüşsem de o gün binada mıydım, onu net söyleyemiyorum. Günleri karıştırıyorum son zamanlarda."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.elifOut.demeanor",
-      "value": "Kayda bakmadı. Yanıtı hazırdı."
-    },
-    {
-      "key": "hasan_follow.mertStatement.decoy.elifOut",
-      "value": "Çıkışını gösteriyorsunuz, bana kapıdaki günü soruyorsunuz. Aynı kişiden söz ediyoruz ama aynı günden değil."
-    },
-    {
-      "key": "mert.deflect",
-      "value": "Bunu bana gösterince ne söylememi bekliyorsunuz, bilmiyorum. Benim bildiğim kadarını anlattım."
-    },
-    {
-      "key": "elif.deflect",
-      "value": "Bununla benim aramda bir bağ kuruyorsanız o bağı siz söyleyin. Ben göremiyorum."
-    },
-    {
-      "key": "hasan.deflect",
-      "value": "Bunun benimle ilgisini kurmuyorum. Başka bir şey soracaksanız sorun."
-    },
-    {
-      "key": "menu.tagline",
-      "value": "A DETECTIVE INVESTIGATION GAME"
-    },
-    {
-      "key": "menu.row.continue",
-      "value": "DEVAM ET"
-    },
-    {
-      "key": "menu.row.newCareer",
-      "value": "YENİ KARİYER"
-    },
-    {
-      "key": "menu.row.settings",
-      "value": "AYARLAR"
-    },
-    {
-      "key": "menu.row.career",
-      "value": "KARİYER"
-    },
-    {
-      "key": "menu.row.quit",
-      "value": "ÇIKIŞ"
-    }
-  ]
+ "entries": [
+  {
+   "key": "intro.skip",
+   "value": "GEÇ"
+  },
+  {
+   "key": "intro.firstFile",
+   "value": "İLK GÖREVLENDİRME"
+  },
+  {
+   "key": "world01.country",
+   "value": "Türkiye"
+  },
+  {
+   "key": "intro.world01.city",
+   "value": "İSTANBUL · BEŞİKTAŞ"
+  },
+  {
+   "key": "desk",
+   "value": "Soruşturma masası"
+  },
+  {
+   "key": "bora",
+   "value": "Bora • 27 yaşında • Türk • Erkek\nİstanbul / Beşiktaş • bube Polis Soruşturma Birimi"
+  },
+  {
+   "key": "inbox",
+   "value": "Gelen evraklar: yeni bir dosya sizi bekliyor."
+  },
+  {
+   "key": "closed",
+   "value": "Dosya kapatıldı. Yeni görev bekleniyor."
+  },
+  {
+   "key": "back.desk",
+   "value": "Masaya dön"
+  },
+  {
+   "key": "back.file",
+   "value": "Dosyaya dön"
+  },
+  {
+   "key": "conclude",
+   "value": "Sonuç raporu"
+  },
+  {
+   "key": "continue",
+   "value": "Yeni kayıtlar veya görüşmeler açılabilir. İsterseniz mevcut bilgilerle de sonuç raporu yazabilirsiniz."
+  },
+  {
+   "key": "conclude.prompt",
+   "value": "Bora’nın ilgili birime göndereceği kesin raporu hazırla. Seçtiğin kişi, yöntem ve kanıt için dayandığın kaydı ayrı ayrı göster."
+  },
+  {
+   "key": "result",
+   "value": "Değerlendirme"
+  },
+  {
+   "key": "close",
+   "value": "Dosyayı kapat ve masaya dön"
+  },
+  {
+   "key": "save.failed",
+   "value": "İlerleme kaydedilemedi. Depolama alanını kontrol edin."
+  },
+  {
+   "key": "save.fromFuture",
+   "value": "Eski bir kayıt bulundu ama daha yeni bir sürüme ait; okunamadı. Silinmedi, yanında saklanıyor. Soruşturma baştan açıldı."
+  },
+  {
+   "key": "kind.document",
+   "value": "Belge"
+  },
+  {
+   "key": "kind.interview",
+   "value": "Görüşme"
+  },
+  {
+   "key": "kind.cctv",
+   "value": "Kamera kaydı"
+  },
+  {
+   "key": "kind.bps",
+   "value": "BPS kaydı"
+  },
+  {
+   "key": "case.title",
+   "value": "DOSYA #001 — Açık Kapı"
+  },
+  {
+   "key": "report.title",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "report.body",
+   "value": "İhbar sahibi Mert Aydın, akşam konutuna döndüğünde dizüstü bilgisayarının, kol saatinin ve çekmecede tuttuğu nakit paranın kayıp olduğunu bildirdi. Sabah çıkarken kapıyı kilitlediğini beyan ediyor. İlk incelemede giriş kapısında zorlama izi görülmedi; daireye nasıl girildiği belirlenemedi. Kapı yanındaki saksı kontrol edildi, içinde anahtar bulunmadı. Mert’in sunduğu bilgisayar faturasında seri numarası LQ7B-024861 olarak kayıtlı. Kayıp eşyaların ne zaman ve kim tarafından alındığı henüz belirlenemedi. Binadaki kişilerle görüşülmesi ve giriş kaydının incelenmesi uygun görüldü."
+  },
+  {
+   "key": "mert.title",
+   "value": "Mert Aydın — İlk ifade"
+  },
+  {
+   "key": "mert.body",
+   "value": "İhbar sahibi Mert Aydın, sabah evden çıkıp akşam döndüğünde bazı eşyalarını bulamadığını bildiriyor. Kapıyı kilitlediğini söylüyor. Görüşmede evin anahtarları ve o günkü hareketleri hakkında ayrıntı alınabilir."
+  },
+  {
+   "key": "elif.title",
+   "value": "Elif Demir — İlk ifade"
+  },
+  {
+   "key": "elif.body",
+   "value": "Mert Aydın’ın eski partneri Elif Demir’in ilk görüşme kaydı. İlişkileri, evde kalan eşyaları ve olay günü hakkında kendisine sorular yöneltilebilir."
+  },
+  {
+   "key": "hasan.title",
+   "value": "Hasan Kaya — İlk ifade"
+  },
+  {
+   "key": "hasan.body",
+   "value": "Mert Aydın’ın karşı daire komşusu Hasan Kaya’nın ilk görüşme kaydı. Binada gördüklerini ve Mert’le geçmişteki temasını kendi sözleriyle anlatıyor."
+  },
+  {
+   "key": "camera.title",
+   "value": "Bina girişi — Kayıt dökümü"
+  },
+  {
+   "key": "camera.body",
+   "value": "Kamera 01, binanın ortak girişini kaydediyor. Aşağıdaki dökümde görülen geçişler ve sinyal durumu yer alır. Kayıt bulunmayan aralıkta kimin girip çıktığı bu kameradan belirlenemez."
+  },
+  {
+   "key": "elif_follow.title",
+   "value": "Elif Demir — Kayıt sonrası"
+  },
+  {
+   "key": "elif_follow.body",
+   "value": "İlk görüşmeden sonra elde edilen bina giriş kaydı üzerine Elif Demir’le yeniden görüşülebilir. Hangi kayıt satırının gösterildiği ve verilen yanıt görüşme tutanağına işlenir."
+  },
+  {
+   "key": "bps.title",
+   "value": "Eşya eşleştirme kaydı"
+  },
+  {
+   "key": "bps.body",
+   "value": "İhbarla birlikte sunulan faturadaki LQ7B-024861 seri numarası, olay günü 14.10’da Beşiktaş’taki ikinci el elektronik işletmesine teslim edilen cihazın numarasıyla eşleşiyor. İşletmenin teslim fişi Hasan Kaya adına düzenlenmiş.\n\nCihaz ve fişin doğrulanması için inceleme talep edilebilir."
+  },
+  {
+   "key": "recovery.title",
+   "value": "Eşya Tespit Raporu"
+  },
+  {
+   "key": "recovery.body",
+   "value": "İNCELEME KONUSU — Mert Aydın’ın kayıp olarak bildirdiği dizüstü bilgisayar.\n\nİhbarla birlikte sunulan faturadaki seri numarası LQ7B-024861. Beşiktaş’taki ikinci el elektronik işletmesinin olay gününe ait teslim kayıtları tarandı. 14.10’da işletmeye bırakılan cihazın üzerindeki seri numarası faturayla eşleşiyor. Teslim fişi Hasan Kaya adına düzenlenmiş; fiş örneği dosyaya eklendi. Cihaz muhafaza altına alındı.\n\nBu rapor, fatura ile bulunan cihazın eşleştiğini ve işletmenin Hasan Kaya adına bir teslim kaydı tuttuğunu belgeler. Cihazın Mert’in evinden nasıl çıkarıldığını doğrudan göstermez. Kayıp kol saati ve nakit para hakkında yeni bulgu yoktur."
+  },
+  {
+   "key": "hasan_follow.title",
+   "value": "Hasan Kaya — Takip görüşmesi"
+  },
+  {
+   "key": "hasan_follow.body",
+   "value": "Önceki ifadeler ve yeni kayıtlar hakkında Hasan Kaya’yla yeniden görüşülebilir. Yanıtları, kendisine gösterilen kaynağa göre ayrı ayrı kaydedilir."
+  },
+  {
+   "key": "verdict.hasan",
+   "value": "Hasan Kaya"
+  },
+  {
+   "key": "verdict.elif",
+   "value": "Elif Demir"
+  },
+  {
+   "key": "feedback.hasan",
+   "value": "Hasan adına düzenlenen cihaz teslim fişi, kayıp bilgisayarın seri numarasıyla eşleşiyor. Takip ifadesi anahtarın kullanımına ilişkin bilgi veriyor. Elif’in yalanı gizlediği ziyareti açığa çıkardı; hırsızlık yaptığını kanıtlamadı.\n\nBir ifade kanıt değildir. Bir yalan da suçluluk kanıtı değildir."
+  },
+  {
+   "key": "feedback.elif",
+   "value": "Elif’in ilk ifadesi kamera kaydıyla çelişiyor. Ancak bu çelişki, eşyaları çaldığını göstermiyor. Bilgisayarın seri numarasını ve Hasan adına düzenlenen teslim fişini yeniden değerlendirin."
+  },
+  {
+   "key": "home.title",
+   "value": "SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "home.subtitle",
+   "value": "İstanbul · Beşiktaş"
+  },
+  {
+   "key": "home.eyebrow",
+   "value": "MASANIZDA YENİ BİR DOSYA VAR"
+  },
+  {
+   "key": "home.description",
+   "value": "İfadeleri dinleyin. Kayıtları karşılaştırın. Kararı kanıtlara dayandırın."
+  },
+  {
+   "key": "home.closed",
+   "value": "Masaya dön  →"
+  },
+  {
+   "key": "home.new",
+   "value": "Yeni oyun"
+  },
+  {
+   "key": "home.profile",
+   "value": "SORUŞTURMACI"
+  },
+  {
+   "key": "home.status",
+   "value": "bube Polis / Soruşturma Birimi"
+  },
+  {
+   "key": "home.footer",
+   "value": "BİR İFADE KANIT DEĞİLDİR."
+  },
+  {
+   "key": "restart.title",
+   "value": "Yeni soruşturma başlat"
+  },
+  {
+   "key": "restart.body",
+   "value": "Bu cihazdaki Dosya #001 ilerlemesi sıfırlanacak."
+  },
+  {
+   "key": "restart.confirm",
+   "value": "İlerlemeyi sıfırla ve başla"
+  },
+  {
+   "key": "restart.cancel",
+   "value": "Vazgeç"
+  },
+  {
+   "key": "desk.title",
+   "value": "BORA’NIN MASASI"
+  },
+  {
+   "key": "desk.subtitle",
+   "value": "Gelen evraklar ve açık soruşturma"
+  },
+  {
+   "key": "desk.inbox",
+   "value": "GELEN EVRAKLAR / 001"
+  },
+  {
+   "key": "desk.case.info",
+   "value": "Beşiktaş · Konut hırsızlığı · İlk inceleme bekliyor"
+  },
+  {
+   "key": "desk.closed",
+   "value": "Dosya kapatıldı. Yeni görev bekleniyor."
+  },
+  {
+   "key": "desk.open",
+   "value": "Dosyayı aç  →"
+  },
+  {
+   "key": "desk.notes",
+   "value": "MASA NOTU"
+  },
+  {
+   "key": "desk.notes.body",
+   "value": "İfadeler yön gösterebilir. Kayıtları ve maddi bulguları kontrol edin."
+  },
+  {
+   "key": "back.home",
+   "value": "Ana ekrana dön"
+  },
+  {
+   "key": "file.kicker",
+   "value": "SORUŞTURMA DOSYASI / 001"
+  },
+  {
+   "key": "file.subtitle",
+   "value": "Bulduğunuz kayıtları istediğiniz sırayla inceleyin. Yeni bilgi yeni görüşmeleri açabilir."
+  },
+  {
+   "key": "file.reference",
+   "value": "bube Polis · İstanbul / Beşiktaş"
+  },
+  {
+   "key": "desk.terminal",
+   "value": "Kayıt terminali"
+  },
+  {
+   "key": "desk.none",
+   "value": "Henüz açılmış kayıt yok. Dosyadaki diğer bilgileri inceleyin."
+  },
+  {
+   "key": "conclude.suspect",
+   "value": "Şüpheli"
+  },
+  {
+   "key": "conclude.method",
+   "value": "Giriş yöntemi"
+  },
+  {
+   "key": "conclude.evidence",
+   "value": "Belirleyici kanıt"
+  },
+  {
+   "key": "conclude.confirm.title",
+   "value": "BU İŞLEMİ ONAYLIYOR MUSUN?"
+  },
+  {
+   "key": "conclude.confirm.body",
+   "value": "Gönderdiğin karar geri alınamaz."
+  },
+  {
+   "key": "conclude.confirm.cancel",
+   "value": "VAZGEÇ"
+  },
+  {
+   "key": "conclude.confirm.send",
+   "value": "ONAYLA"
+  },
+  {
+   "key": "conclude.submit",
+   "value": "RAPORU GÖNDER · DOSYAYI KAPAT"
+  },
+  {
+   "key": "result.accepted",
+   "value": "SONUÇ KABUL EDİLDİ"
+  },
+  {
+   "key": "result.returned",
+   "value": "SONUÇ İADE EDİLDİ"
+  },
+  {
+   "key": "feedback.correct",
+   "value": "Rapor teslim edildi. Kurumsal inceleme bekleniyor."
+  },
+  {
+   "key": "feedback.returned",
+   "value": "Rapor teslim edildi. Kurumsal inceleme bekleniyor."
+  },
+  {
+   "key": "method.spare",
+   "value": "Yedek anahtarla"
+  },
+  {
+   "key": "method.forced",
+   "value": "Kapı zorlanarak"
+  },
+  {
+   "key": "method.open",
+   "value": "Kapı açık bırakıldığı için"
+  },
+  {
+   "key": "method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "evidence.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "evidence.camera",
+   "value": "Bina kamerası kayıt dökümü"
+  },
+  {
+   "key": "evidence.elif_follow",
+   "value": "Elif’in takip ifadesi"
+  },
+  {
+   "key": "evidence.mert_follow",
+   "value": "Mert’in takip ifadesi"
+  },
+  {
+   "key": "evidence.hasan_follow",
+   "value": "Hasan’ın takip ifadesi"
+  },
+  {
+   "key": "evidence.recovery",
+   "value": "Eşya Tespit Raporu"
+  },
+  {
+   "key": "mert_follow.title",
+   "value": "Mert Aydın — Takip görüşmesi"
+  },
+  {
+   "key": "mert_follow.body",
+   "value": "İlk olay yeri incelemesinde kapıda zorlama izi görülmedi. Saksı ve ev anahtarları konusunda Mert Aydın’a yeni sorular yöneltilebilir."
+  },
+  {
+   "key": "cctv.header",
+   "value": "BPS // GÜVENLİK KAMERASI ARŞİVİ"
+  },
+  {
+   "key": "cctv.source.building",
+   "value": "KAMERA 01 · BİNA GİRİŞİ"
+  },
+  {
+   "key": "cctv.overlay.case001",
+   "value": "KAMERA 01  ·  BİNA ÖNÜ"
+  },
+  {
+   "key": "cctv.overlay.rec",
+   "value": "REC"
+  },
+  {
+   "key": "cctv.period.case001",
+   "value": "İNCELENEN ARALIK 08.00–18.00"
+  },
+  {
+   "key": "cctv.signal",
+   "value": "● SİNYAL İYİ"
+  },
+  {
+   "key": "cctv.review",
+   "value": "Kayıtları incele"
+  },
+  {
+   "key": "cctv.complete",
+   "value": "İNCELEME TAMAMLANDI"
+  },
+  {
+   "key": "cctv.clarify",
+   "value": "Bu satırı yeniden çözümle"
+  },
+  {
+   "key": "cctv.watch",
+   "value": "İzle"
+  },
+  {
+   "key": "cctv.videoClose",
+   "value": "Döküme dön"
+  },
+  {
+   "key": "cctv.videoReplay",
+   "value": "Başa al"
+  },
+  {
+   "key": "cctv.videoPlay",
+   "value": "Oynat"
+  },
+  {
+   "key": "cctv.videoPause",
+   "value": "Duraklat"
+  },
+  {
+   "key": "cctv.videoStep",
+   "value": "Kare ›"
+  },
+  {
+   "key": "cctv.videoStepUnavailable",
+   "value": "Bu cihazda kare kare ilerleme kullanılamıyor."
+  },
+  {
+   "key": "cctv.videoLoading",
+   "value": "Kayıt hazırlanıyor…"
+  },
+  {
+   "key": "cctv.videoUnavailable",
+   "value": "Görüntü açılamadı; kayıt dökümü kullanılabilir."
+  },
+  {
+   "key": "cctv.event.mert_out",
+   "value": "08.27 — Erkek şahıs binadan ayrıldı."
+  },
+  {
+   "key": "cctv.event.elif_in",
+   "value": "11.48 — Kadın şahıs binaya girdi."
+  },
+  {
+   "key": "cctv.event.elif_out",
+   "value": "12.16 — Aynı şahıs binadan ayrıldı."
+  },
+  {
+   "key": "cctv.event.weak",
+   "value": "12.31 — SİNYAL ZAYIFLADI"
+  },
+  {
+   "key": "cctv.glitch.weak",
+   "value": "12.3_ — SİNYAL ZA#IFLADI"
+  },
+  {
+   "key": "cctv.event.lost",
+   "value": "12.37 — SİNYAL KESİLDİ"
+  },
+  {
+   "key": "cctv.glitch.lost",
+   "value": "12.3_ — SİNYAL KES#LDİ"
+  },
+  {
+   "key": "cctv.event.gap",
+   "value": "12.37–13.08 — [ KAYIT BULUNAMADI ]"
+  },
+  {
+   "key": "cctv.event.restored",
+   "value": "13.08 — SİNYAL GERİ GELDİ"
+  },
+  {
+   "key": "cctv.event.mert_in",
+   "value": "17.54 — Erkek şahıs binaya girdi."
+  },
+  {
+   "key": "home.brandLocation",
+   "value": "bube POLİS · İSTANBUL"
+  },
+  {
+   "key": "desk.brandLocation",
+   "value": "bube POLİS / İSTANBUL · BEŞİKTAŞ"
+  },
+  {
+   "key": "desk.location",
+   "value": "BEŞİKTAŞ / İSTANBUL"
+  },
+  {
+   "key": "file.previous",
+   "value": "← Önceki"
+  },
+  {
+   "key": "file.next",
+   "value": "Sonraki →"
+  },
+  {
+   "key": "file.caseType",
+   "value": "KONUT HIRSIZLIĞI"
+  },
+  {
+   "key": "file.stamp",
+   "value": "bube POLİS\nİSTANBUL"
+  },
+  {
+   "key": "file.meta.number",
+   "value": "Olay No"
+  },
+  {
+   "key": "file.value.number",
+   "value": "001-26"
+  },
+  {
+   "key": "file.meta.location",
+   "value": "Olay Yeri"
+  },
+  {
+   "key": "file.value.location",
+   "value": "Beşiktaş / İstanbul"
+  },
+  {
+   "key": "file.meta.reporter",
+   "value": "İhbar Eden"
+  },
+  {
+   "key": "file.value.reporter",
+   "value": "Mert Aydın"
+  },
+  {
+   "key": "file.imageCaption",
+   "value": "Olay yeri / Beşiktaş — temsili çizim"
+  },
+  {
+   "key": "file.visuals",
+   "value": "OLAY YERİ GÖRSELLERİ"
+  },
+  {
+   "key": "file.emptyVisual",
+   "value": "Bu dosyada görsel bulunmuyor."
+  },
+  {
+   "key": "file.emptyInterview",
+   "value": "Henüz kayda geçmiş ifade yok."
+  },
+  {
+   "key": "file.emptyEvidence",
+   "value": "Henüz eklenmiş kanıt belgesi yok."
+  },
+  {
+   "key": "file.tab.report",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "file.tab.interview",
+   "value": "KİŞİ İFADELERİ"
+  },
+  {
+   "key": "file.tab.evidence",
+   "value": "KANITLAR"
+  },
+  {
+   "key": "file.tab.visual",
+   "value": "GÖRSELLER"
+  },
+  {
+   "key": "interview.request",
+   "value": "İfade alınmasını iste"
+  },
+  {
+   "key": "interview.pending",
+   "value": "İfadesi alınıyor…"
+  },
+  {
+   "key": "interview.waitHint",
+   "value": "İfade tamamlandığında bu listede belirecek. Masaya dönebilirsiniz."
+  },
+  {
+   "key": "person.mert.name",
+   "value": "Mert Aydın"
+  },
+  {
+   "key": "person.mert.info",
+   "value": "Mağdur · Beşiktaş sakini"
+  },
+  {
+   "key": "person.elif.name",
+   "value": "Elif Demir"
+  },
+  {
+   "key": "person.elif.info",
+   "value": "28 yaşında · Grafik tasarımcı · Mert’in eski partneri"
+  },
+  {
+   "key": "person.hasan.name",
+   "value": "Hasan Kaya"
+  },
+  {
+   "key": "person.hasan.info",
+   "value": "Komşu · Karşı daire sakini"
+  },
+  {
+   "key": "mert.day.question",
+   "value": "Evden ne zaman ayrıldınız, ne zaman döndünüz?"
+  },
+  {
+   "key": "mert.day.answer",
+   "value": "Sabah sekiz buçuk civarında çıktım; işten dönüp kapıyı açtığımda hava kararıyordu. Önce her şey yerli yerinde sandım. Bilgisayar masada olmayınca saate, sonra çekmeceye baktım."
+  },
+  {
+   "key": "mert.key.question",
+   "value": "Evin anahtarı başka kimde vardı?"
+  },
+  {
+   "key": "mert.key.answer",
+   "value": "Benim anahtarım yanımdaydı. Elif’te de bir tane vardı; ayrıldıktan sonra geri almamıştım. Başka birine anahtar verdiğimi hatırlamıyorum."
+  },
+  {
+   "key": "mert.neighbor.question",
+   "value": "Komşulardan bir şey görmüş olabilecek biri var mı?"
+  },
+  {
+   "key": "mert.neighbor.answer",
+   "value": "Hasan karşı dairede oturuyor. Gündüz binada olup olmadığını bilmiyorum; ama girişte bir hareket gördüyse söyleyebilir."
+  },
+  {
+   "key": "elif.relationship.question",
+   "value": "Mert’le ilişkiniz nedir?"
+  },
+  {
+   "key": "elif.relationship.answer",
+   "value": "Birkaç gün önce ayrıldık. Eşyalarımın bir kısmı onda kalmıştı; ne zaman alacağımızı da konuşmadık. Şu sıralar birbirimizle pek görüşmüyoruz."
+  },
+  {
+   "key": "elif.visit.question",
+   "value": "O gün Mert’in evine gittiniz mi?"
+  },
+  {
+   "key": "elif.visit.answer",
+   "value": "Hayır. O gün Mert’in evine gitmedim."
+  },
+  {
+   "key": "hasan.sighting.question",
+   "value": "O gün binada kimi gördünüz?"
+  },
+  {
+   "key": "hasan.sighting.answer",
+   "value": "Öğleye doğru bir kadın binadan çıkıyordu. Mert’in yanında daha önce gördüğüm kişiye benzettim. Merdiven başından gördüm; durup konuşmadık."
+  },
+  {
+   "key": "hasan.camera.question",
+   "value": "Bunu doğrulayabilecek bir kayıt var mı?"
+  },
+  {
+   "key": "hasan.camera.answer",
+   "value": "Giriş kapısında kamera var. Ben saate bakmadım; geçişi doğrulamak istiyorsanız orada bir kayıt olabilir."
+  },
+  {
+   "key": "hasan.where.question",
+   "value": "Siz o gün Mert’in evine girdiniz mi?"
+  },
+  {
+   "key": "hasan.where.answer",
+   "value": "Hayır. Mert’in dairesine o gün girmedim."
+  },
+  {
+   "key": "elif_follow.footage.question",
+   "value": "O gün öğle saatlerinde neredeydiniz?"
+  },
+  {
+   "key": "elif_follow.footage.answer.demeanor",
+   "value": "Omuzları düştü. Elini masadan çekti, kucağında kenetledi."
+  },
+  {
+   "key": "elif_follow.footage.answer",
+   "value": "Evet, binaya girdim. Mert’e söylemeden kalan eşyalarımı aldım. Çıkarken evin anahtarını kapının yanındaki saksıya bıraktım."
+  },
+  {
+   "key": "elif_follow.why.question",
+   "value": "Bunu ilk görüşmede neden söylemediniz?"
+  },
+  {
+   "key": "elif_follow.why.answer",
+   "value": "Evine haber vermeden girdim. Hırsızlığı duyunca bunu söylersem bütün gözler üzerime çevrilir sandım. O yüzden yalan söyledim; eşyaları çalan ben değilim."
+  },
+  {
+   "key": "mert_follow.spare.question",
+   "value": "Yedek anahtarı daha önce saksıda tutuyor muydunuz?"
+  },
+  {
+   "key": "mert_follow.spare.answer",
+   "value": "Eskiden kendi yedek anahtarımı bazen saksıda tutardım. Geçen ay kapıda kalmıştım; Hasan yardım etmişti. Onun yanında saksıdan anahtarı çıkardım. Sonra o anahtarı geri aldım; Elif’teki kopya ayrıydı. Hasan’ın bugün saksıda anahtar bulacağını bilip bilmediğini söyleyemem."
+  },
+  {
+   "key": "hasan_follow.spare.question",
+   "value": "Mert’in yedek anahtarının yerini biliyor muydunuz?"
+  },
+  {
+   "key": "hasan_follow.spare.answer",
+   "value": "Mert’i kapıda gördüğümü hatırlıyorum. Saksıya uzanmış olabilir. Bundan, o gün de orada anahtar vardı sonucunu nasıl çıkarıyorsunuz?"
+  },
+  {
+   "key": "hasan_follow.gap.question",
+   "value": "Öğleden sonra bir sularında neredeydiniz?"
+  },
+  {
+   "key": "hasan_follow.gap.answer.demeanor",
+   "value": "Eller masada, avuçlar açık. Kıpırdamadan cevap verdi."
+  },
+  {
+   "key": "hasan_follow.gap.answer",
+   "value": "Evdeydim. Tek başımaydım; bunu doğrulayacak birini gösteremem. Kameranın çalışmaması benimle ilgili değil."
+  },
+  {
+   "key": "interview.opening",
+   "value": "Görüşme başladı. Sorunuzu seçin."
+  },
+  {
+   "key": "interview.finished",
+   "value": "Şimdilik ek sorum yok."
+  },
+  {
+   "key": "interview.done",
+   "value": "Görüşme kaydı dosyaya eklendi."
+  },
+  {
+   "key": "interview.back",
+   "value": "Görüşmeyi bitir · Masaya dön"
+  },
+  {
+   "key": "interview.asked",
+   "value": "Soruldu"
+  },
+  {
+   "key": "interview.identity",
+   "value": "KİŞİ BİLGİLERİ"
+  },
+  {
+   "key": "home.start",
+   "value": "Oyunu Başlat"
+  },
+  {
+   "key": "home.briefing",
+   "value": "Yeni dosya sizi bekliyor"
+  },
+  {
+   "key": "home.casePending",
+   "value": "Bora’nın soruşturma masasındaki ilk dosya henüz kabul edilmedi."
+  },
+  {
+   "key": "home.caseActive",
+   "value": "Dosya #001 soruşturması sürüyor."
+  },
+  {
+   "key": "home.caseClosed",
+   "value": "Dosya #001 kapatıldı."
+  },
+  {
+   "key": "home.tagline",
+   "value": "GERÇEKLERİ SEN BUL"
+  },
+  {
+   "key": "home.location",
+   "value": "İSTANBUL / BEŞİKTAŞ"
+  },
+  {
+   "key": "offer.kicker",
+   "value": "GELEN EVRAK"
+  },
+  {
+   "key": "offer.title",
+   "value": "DOSYA #001"
+  },
+  {
+   "key": "offer.subtitle",
+   "value": "AÇIK KAPI  /  KONUT HIRSIZLIĞI"
+  },
+  {
+   "key": "offer.summary",
+   "value": "Mert Aydın evine döndüğünde dizüstü bilgisayarının, saatinin ve nakit parasının kayıp olduğunu bildiriyor. Kapıda zorlama izi yok. İlk rapor masanızda."
+  },
+  {
+   "key": "offer.accept",
+   "value": "Dosyayı kabul et"
+  },
+  {
+   "key": "offer.back",
+   "value": "Ana ekrana dön"
+  },
+  {
+   "key": "interview.bora",
+   "value": "BORA"
+  },
+  {
+   "key": "interview.ask",
+   "value": "Soruyu yönelt"
+  },
+  {
+   "key": "interview.listen",
+   "value": "Yanıtı dinle"
+  },
+  {
+   "key": "interview.next",
+   "value": "Devam et"
+  },
+  {
+   "key": "interview.choose",
+   "value": "Bir soru seçin."
+  },
+  {
+   "key": "interview.noNewInfo",
+   "value": "Şimdilik sorulacak başka bir şey yok."
+  },
+  {
+   "key": "mert.lock.question",
+   "value": "Kapıyı çıkarken kilitlediğinizden emin misiniz?"
+  },
+  {
+   "key": "mert.lock.answer",
+   "value": "Kapıyı çekerken anahtarı çevirdiğimi hatırlıyorum. Akşam kapı yerindeydi; kırık, çizik görmedim. Belki önemli değildir ama içerideki sessizlik tuhaf gelmişti."
+  },
+  {
+   "key": "elif.contact.question",
+   "value": "O gün Mert’le konuştunuz mu?"
+  },
+  {
+   "key": "elif.contact.answer",
+   "value": "Hayır, konuşmadım. Ayrıldıktan sonra aramızdaki konuşmalar kolay bitmiyordu; onu aramak istemedim."
+  },
+  {
+   "key": "hasan.time.question",
+   "value": "O kadını saat kaç gibi gördünüz?"
+  },
+  {
+   "key": "hasan.time.answer",
+   "value": "Öğle arasına yakındı. Telefonuma bakmıyordum; kesin bir saat verirsem uydurmuş olurum."
+  },
+  {
+   "key": "elif_follow.items.question",
+   "value": "Evden hangi eşyalarınızı aldınız?"
+  },
+  {
+   "key": "elif_follow.items.answer",
+   "value": "Giysilerimi ve kitaplarımı aldım. Bilgisayar masadaydı diye hatırlıyorum ama odada ne kadar kaldığıma dair kesin bir saat veremem. Saatine veya parasına dokunmadım."
+  },
+  {
+   "key": "mert_follow.neighbor.question",
+   "value": "Hasan’la ne kadar yakınsınız?"
+  },
+  {
+   "key": "mert_follow.neighbor.answer",
+   "value": "Hasan’la komşuluk dışında yakın değiliz. Kapıda kaldığım gün yardım etti. O sırada anahtarı aldığım yeri görmüş olması mümkün."
+  },
+  {
+   "key": "hasan_follow.sale.question",
+   "value": "Kaybolan eşyalardan herhangi biri sizin elinize geçti mi?"
+  },
+  {
+   "key": "hasan_follow.sale.answer.demeanor",
+   "value": "Fişi eline aldı, kenarını düzeltti, geri bıraktı. Sesi hiç değişmedi."
+  },
+  {
+   "key": "hasan_follow.sale.answer",
+   "value": "Bilgisayarı işletmeye ben götürdüm, fişteki isim benim. Cihazın bana nasıl geçtiğini burada anlatmayacağım. Fiş yalnızca teslimi gösterir; Mert’in dairesine girdiğimi kabul etmiyorum."
+  },
+  {
+   "key": "desk.folderTarget",
+   "value": "DOSYAYI AÇ"
+  },
+  {
+   "key": "desk.interviewTarget",
+   "value": "GÖRÜŞME TALEPLERİ"
+  },
+  {
+   "key": "desk.tabletTarget",
+   "value": "TABLET / KAYITLAR"
+  },
+  {
+   "key": "tablet.interviews",
+   "value": "GÖRÜŞME TALEPLERİ"
+  },
+  {
+   "key": "tablet.investigations",
+   "value": "İNCELEME TALEPLERİ"
+  },
+  {
+   "key": "tablet.tab.interviews",
+   "value": "GÖRÜŞMELER"
+  },
+  {
+   "key": "tablet.tab.investigations",
+   "value": "İNCELEMELER"
+  },
+  {
+   "key": "tablet.investigationHelp",
+   "value": "Bu dosyayla ilgili inceleme taleplerini buradan gönder."
+  },
+  {
+   "key": "tablet.noInvestigations",
+   "value": "Şu anda talep edilebilecek inceleme yok."
+  },
+  {
+   "key": "tablet.investigationAvailable",
+   "value": "Talep gönderilebilir"
+  },
+  {
+   "key": "tablet.investigationPending",
+   "value": "İnceleme sürüyor"
+  },
+  {
+   "key": "tablet.investigationArrived",
+   "value": "Rapor Gelen Evraklar'a ulaştı"
+  },
+  {
+   "key": "tablet.investigationFiled",
+   "value": "Rapor dosyaya alındı"
+  },
+  {
+   "key": "tablet.records",
+   "value": "KAYIT ARŞİVİ"
+  },
+  {
+   "key": "tablet.caseLine",
+   "value": "DOSYA #001  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "tablet.interviewHelp",
+   "value": "Görüşmek istediğin kişiyi seç."
+  },
+  {
+   "key": "tablet.recordHelp",
+   "value": "Erişilebilir kayıtları seç ve incele."
+  },
+  {
+   "key": "tablet.openInterview",
+   "value": "GÖRÜŞMEYİ AÇ  ›"
+  },
+  {
+   "key": "tablet.openRecord",
+   "value": "KAYDI AÇ  ›"
+  },
+  {
+   "key": "menu.settings",
+   "value": "Ayarlar"
+  },
+  {
+   "key": "menu.stats",
+   "value": "İstatistikler"
+  },
+  {
+   "key": "menu.exit",
+   "value": "Çıkış"
+  },
+  {
+   "key": "settings.textSpeed",
+   "value": "Konuşma metni"
+  },
+  {
+   "key": "settings.instant",
+   "value": "Anında göster"
+  },
+  {
+   "key": "settings.normal",
+   "value": "Yazarak göster"
+  },
+  {
+   "key": "stats.case",
+   "value": "Dosya"
+  },
+  {
+   "key": "stats.documents",
+   "value": "İncelenen belge"
+  },
+  {
+   "key": "stats.questions",
+   "value": "Sorulan soru"
+  },
+  {
+   "key": "stats.status",
+   "value": "Durum"
+  },
+  {
+   "key": "cctv.scanning",
+   "value": "Kayıt taranıyor…"
+  },
+  {
+   "key": "cctv.syncing",
+   "value": "ÇÖZÜMLENİYOR…"
+  },
+  {
+   "key": "cctv.signal.weak",
+   "value": "● SİNYAL ZAYIF"
+  },
+  {
+   "key": "cctv.signal.lost",
+   "value": "● SİNYAL YOK"
+  },
+  {
+   "key": "cctv.signal.restored",
+   "value": "● SİNYAL GERİ GELDİ"
+  },
+  {
+   "key": "cctv.system",
+   "value": "bube Polis Sistemi"
+  },
+  {
+   "key": "cctv.archive",
+   "value": "Güvenlik Kamerası Arşivi"
+  },
+  {
+   "key": "cctv.back",
+   "value": "‹  Masaya dön"
+  },
+  {
+   "key": "cctv.transcript",
+   "value": "KAYIT DÖKÜMÜ  /  METİN AKIŞI"
+  },
+  {
+   "key": "cctv.signalTitle",
+   "value": "SİNYAL DURUMU"
+  },
+  {
+   "key": "cctv.textOnly",
+   "value": "Bu arşivde görüntü yok. Kayıt aralıklarını ve sinyal kesintilerini incele."
+  },
+  {
+   "key": "menu.about",
+   "value": "Hakkında"
+  },
+  {
+   "key": "about.body",
+   "value": "Karine, Bora’nın bube Police Beşiktaş şubesindeki soruşturmalarını konu alan bir dedektif oyunudur. Dosyaları, görüşmeleri ve kayıtları kendi hızında incele; sonucu kanıtlarla gerekçelendir."
+  },
+  {
+   "key": "interview.noStatement",
+   "value": "İfade henüz dosyada yok."
+  },
+  {
+   "key": "interview.status.unrequested",
+   "value": "Henüz talep edilmedi"
+  },
+  {
+   "key": "interview.status.ready",
+   "value": "● Görüşmeye hazır"
+  },
+  {
+   "key": "interview.status.complete",
+   "value": "● Görüşüldü"
+  },
+  {
+   "key": "interview.begin",
+   "value": "GÖRÜŞMEYE BAŞLA  ›"
+  },
+  {
+   "key": "interview.resume",
+   "value": "GÖRÜŞMEYE DÖN  ›"
+  },
+  {
+   "key": "interview.quote.mert",
+   "value": "Sabah sekiz buçuk gibi çıktım…"
+  },
+  {
+   "key": "interview.quote.elif",
+   "value": "Mert’in evine gitmedim."
+  },
+  {
+   "key": "interview.quote.hasan",
+   "value": "Öğlen bir kadın gördüm."
+  },
+  {
+   "key": "conclude.desk",
+   "value": "SONUÇ RAPORU  →"
+  },
+  {
+   "key": "conclude.tab",
+   "value": "SONUÇ RAPORU"
+  },
+  {
+   "key": "verdict.mert",
+   "value": "Mert Aydın"
+  },
+  {
+   "key": "feedback.mert",
+   "value": "İhbar sahibi de soruşturma dışında tutulamaz. Bu dosyadaki bulguları ayrıca değerlendirin."
+  },
+  {
+   "key": "result.unsolved",
+   "value": "RAPOR TESLİM EDİLDİ · DEĞERLENDİRME BEKLENİYOR"
+  },
+  {
+   "key": "result.solved",
+   "value": "RAPOR TESLİM EDİLDİ · DEĞERLENDİRME BEKLENİYOR"
+  },
+  {
+   "key": "result.reported",
+   "value": "Bildirilen sonuç"
+  },
+  {
+   "key": "result.trust",
+   "value": "Birim güveni"
+  },
+  {
+   "key": "result.trustLoss",
+   "value": "Kurumsal değerlendirme sonucunda güven değişti."
+  },
+  {
+   "key": "result.trustNoRepeat",
+   "value": "Aynı değerlendirme yeniden güven kaybı yaratmadı."
+  },
+  {
+   "key": "result.revisit",
+   "value": "Bu dosya gönderildi ve kapandı. Sonuç, kurumsal faksla bildirilecek."
+  },
+  {
+   "key": "result.summary",
+   "value": "BÖLÜM TAMAMLANDI"
+  },
+  {
+   "key": "result.summaryOpen",
+   "value": "Bölüm özetini aç"
+  },
+  {
+   "key": "result.truth",
+   "value": "Gerçekte ne oldu?"
+  },
+  {
+   "key": "result.evidence",
+   "value": "Kararı ne destekledi?"
+  },
+  {
+   "key": "result.lesson",
+   "value": "Dosyadan çıkan ders"
+  },
+  {
+   "key": "result.continue",
+   "value": "Yeni görevlendirme"
+  },
+  {
+   "key": "result.status",
+   "value": "Soruşturma raporu ilgili birime gönderildi. Bu dosya kapatıldı; değerlendirme daha sonra faksla gelecek."
+  },
+  {
+   "key": "result.noVerdictYet",
+   "value": "Bu aşamada raporun doğru olup olmadığı açıklanmaz."
+  },
+  {
+   "key": "inbox.faxNotice",
+   "value": "YENİ FAKS VAR"
+  },
+  {
+   "key": "inbox.faxNotice.detail",
+   "value": "Masana kurumsal bir faks bırakıldı."
+  },
+  {
+   "key": "inbox.notice.open",
+   "value": "GÖRÜNTÜLE"
+  },
+  {
+   "key": "inbox.faxTitle",
+   "value": "KURUMSAL DEĞERLENDİRME"
+  },
+  {
+   "key": "inbox.faxSuccess",
+   "value": "Rapor doğrulandı. Soruşturma kararı kabul edildi."
+  },
+  {
+   "key": "inbox.faxFailure",
+   "value": "Rapor doğrulanmadı. Soruşturma kararı hatalı bulundu."
+  },
+  {
+   "key": "inbox.faxPending",
+   "value": "İlgili birim, sunduğunuz sonuç ile dayanaklarını değerlendirdi."
+  },
+  {
+   "key": "career.retired",
+   "value": "Birim güveni tükendi. Bora’nın soruşturmacı kariyeri sona erdi."
+  },
+  {
+   "key": "career.retiredTitle",
+   "value": "KARİYER SONU"
+  },
+  {
+   "key": "next.pending",
+   "value": "Bu dosya kapatıldı. Sonraki görevlendirme henüz hazır değil; kurumsal değerlendirme Gelen Evraklar’a ulaştığında inceleyebilirsiniz."
+  },
+  {
+   "key": "next.assignment",
+   "value": "YENİ GÖREVLENDİRME"
+  },
+  {
+   "key": "next.assignment.sender",
+   "value": "Gönderen: bube Polis · İstanbul / Beşiktaş Şubesi"
+  },
+  {
+   "key": "next.assignment.body",
+   "value": "Önceki soruşturma dosyası kapatıldı. Aşağıdaki yeni dosya biriminize iletildi. Dosyayı açıp görevi kabul ettiğinizde soruşturmaya başlayabilirsiniz. Önceki dosyanın kurumsal değerlendirmesi ayrı bir faks olarak iletilir."
+  },
+  {
+   "key": "next.assignment.open",
+   "value": "Dosyayı aç"
+  },
+  {
+   "key": "inbox.faxOpen",
+   "value": "Faksı oku"
+  },
+  {
+   "key": "summary.brand",
+   "value": "bube Police\nİstanbul · Beşiktaş Şubesi"
+  },
+  {
+   "key": "summary.report",
+   "value": "▣  RAPOR ÖZETİ"
+  },
+  {
+   "key": "summary.subject",
+   "value": "Dosya"
+  },
+  {
+   "key": "summary.status",
+   "value": "Dosya durumu"
+  },
+  {
+   "key": "summary.sent",
+   "value": "Kapalı"
+  },
+  {
+   "key": "summary.investigator",
+   "value": "Sorumlu"
+  },
+  {
+   "key": "summary.bora",
+   "value": "Dedektif Bora"
+  },
+  {
+   "key": "summary.sentAt",
+   "value": "Gönderim zamanı"
+  },
+  {
+   "key": "summary.sources",
+   "value": "⌕  İNCELENEN KAYNAKLAR"
+  },
+  {
+   "key": "summary.noSources",
+   "value": "Ek kaynak kaydı bulunmuyor."
+  },
+  {
+   "key": "summary.reviewPending",
+   "value": "KURUMSAL İNCELEMEDE"
+  },
+  {
+   "key": "summary.unknownDate",
+   "value": "Kayıtlı değil"
+  },
+  {
+   "key": "fax.reviewHeading",
+   "value": "GÖNDERİLEN RAPORUN DEĞERLENDİRMESİ"
+  },
+  {
+   "key": "fax.supported",
+   "value": "Desteklendi"
+  },
+  {
+   "key": "fax.unsupported",
+   "value": "Desteklenmedi"
+  },
+  {
+   "key": "summary.reviewReceived",
+   "value": "DEĞERLENDİRME TAMAMLANDI"
+  },
+  {
+   "key": "summary.faxLater",
+   "value": "Sonuç Gelen Evraklar’a faksla bildirilecek"
+  },
+  {
+   "key": "summary.faxAvailable",
+   "value": "Ayrıntılar Gelen Evraklar’daki faksta"
+  },
+  {
+   "key": "career.bora",
+   "value": "BORA · PERSONEL SİCİLİ"
+  },
+  {
+   "key": "career.rank.investigator",
+   "value": "Soruşturmacı · bube Police"
+  },
+  {
+   "key": "career.record",
+   "value": "Değerlendirilen dosyalar"
+  },
+  {
+   "key": "career.pending",
+   "value": "Kurumsal incelemede"
+  },
+  {
+   "key": "career.trust",
+   "value": "KURUM GÜVENİ"
+  },
+  {
+   "key": "career.openRecord",
+   "value": "Personel sicilini aç"
+  },
+  {
+   "key": "career.ended",
+   "value": "Aktif soruşturma göreviniz sonlandırıldı."
+  },
+  {
+   "key": "career.endedTitle",
+   "value": "SORUŞTURMA GÖREVİ SONA ERDİ"
+  },
+  {
+   "key": "career.status.high",
+   "value": "YÜKSEK GÜVEN"
+  },
+  {
+   "key": "career.status.reliable",
+   "value": "GÜVENİLİR"
+  },
+  {
+   "key": "career.status.monitored",
+   "value": "GÖZETİM ALTINDA"
+  },
+  {
+   "key": "career.status.review",
+   "value": "PERFORMANS İNCELEMESİ"
+  },
+  {
+   "key": "career.status.risk",
+   "value": "GÖREVDEN ALINMA RİSKİ"
+  },
+  {
+   "key": "career.status.ended",
+   "value": "AKTİF SORUŞTURMA GÖREVİ SONLANDIRILDI"
+  },
+  {
+   "key": "career.evaluation.supported",
+   "value": "Sunulan sonuç ve dayanaklar uygun bulundu."
+  },
+  {
+   "key": "career.evaluation.incomplete",
+   "value": "Soruşturmanın gerekçesi yetersiz bulundu."
+  },
+  {
+   "key": "career.evaluation.falseAccusation",
+   "value": "Bildirilen kişiye yöneltilen suçlama doğrulanamadı."
+  },
+  {
+   "key": "career.supportedCount",
+   "value": "Uygun bulunan"
+  },
+  {
+   "key": "career.incompleteCount",
+   "value": "Eksik gerekçeli"
+  },
+  {
+   "key": "career.falseCount",
+   "value": "Hatalı suçlama"
+  },
+  {
+   "key": "file.transcript",
+   "value": "GÖRÜŞME TUTANAĞI"
+  },
+  {
+   "key": "file.noTranscript",
+   "value": "Bu görüşmeye ait soru–cevap kaydı henüz yok."
+  },
+  {
+   "key": "file.newTranscript",
+   "value": "• YENİ TUTANAK"
+  },
+  {
+   "key": "request.recovery",
+   "value": "Seri numarasıyla eşya araştırması iste"
+  },
+  {
+   "key": "inbox.newDocument",
+   "value": "YENİ EVRAK VAR"
+  },
+  {
+   "key": "inbox.newDocument.detail",
+   "value": "Masana yeni bir rapor gönderildi."
+  },
+  {
+   "key": "inbox.title",
+   "value": "GELEN EVRAKLAR"
+  },
+  {
+   "key": "inbox.pendingDocument",
+   "value": "İnceleme talebi gönderildi. Rapor hazırlanıyor."
+  },
+  {
+   "key": "inbox.receiveDocument",
+   "value": "Raporu dosyaya al"
+  },
+  {
+   "key": "inbox.empty",
+   "value": "Yeni evrak bulunmuyor."
+  },
+  {
+   "key": "inbox.reportReady",
+   "value": "Eşya Tespit Raporu teslim edildi."
+  },
+  {
+   "key": "inbox.brand",
+   "value": "bube Polis  /  İstanbul · Beşiktaş"
+  },
+  {
+   "key": "inbox.filter.all",
+   "value": "Tümü"
+  },
+  {
+   "key": "inbox.filter.unread",
+   "value": "Yeni"
+  },
+  {
+   "key": "inbox.filter.archive",
+   "value": "Okunan"
+  },
+  {
+   "key": "inbox.status.new",
+   "value": "Yeni evrak"
+  },
+  {
+   "key": "inbox.status.pending",
+   "value": "Hazırlanıyor"
+  },
+  {
+   "key": "inbox.status.filed",
+   "value": "Dosyaya alındı"
+  },
+  {
+   "key": "inbox.noItems",
+   "value": "Burada evrak yok."
+  },
+  {
+   "key": "inbox.emptyHelp",
+   "value": "Yeni raporlar ve kurumsal yazılar geldiğinde bu tepside görünür."
+  },
+  {
+   "key": "inbox.faxSealed",
+   "value": "Kurumsal değerlendirme ulaştı. İçeriğini görmek için faksı aç."
+  },
+  {
+   "key": "inbox.openFile",
+   "value": "Dosyada aç"
+  },
+  {
+   "key": "file.tab.timeline",
+   "value": "ZAMAN ÇİZELGESİ"
+  },
+  {
+   "key": "file.tab.compare",
+   "value": "KARŞILAŞTIR"
+  },
+  {
+   "key": "compare.title",
+   "value": "KAYNAKLARI KARŞILAŞTIR"
+  },
+  {
+   "key": "compare.back",
+   "value": "DOSYAYA DÖN"
+  },
+  {
+   "key": "compare.choose",
+   "value": "KAYNAK SEÇ"
+  },
+  {
+   "key": "compare.empty",
+   "value": "Bu sayfada incelemek istediğin kaynağı seç."
+  },
+  {
+   "key": "compare.noSources",
+   "value": "Henüz incelenmiş bir kaynak yok."
+  },
+  {
+   "key": "timeline.title",
+   "value": "ZAMAN ÇİZELGESİ"
+  },
+  {
+   "key": "timeline.help",
+   "value": "Duyduğun ve kayıtlarda gördüğün saatleri buraya kendin ekle. Kaynaklar arasındaki bağlantıyı sen değerlendir."
+  },
+  {
+   "key": "timeline.pinned",
+   "value": "ÇİZELGEM"
+  },
+  {
+   "key": "timeline.available",
+   "value": "KAYNAKLARDAN EKLE"
+  },
+  {
+   "key": "timeline.empty",
+   "value": "Henüz bir zaman kaydı eklemedin."
+  },
+  {
+   "key": "timeline.noCandidates",
+   "value": "Yeni saat bilgileri için ifadeleri ve kayıtları incele."
+  },
+  {
+   "key": "timeline.add",
+   "value": "EKLE"
+  },
+  {
+   "key": "timeline.remove",
+   "value": "ÇIKAR"
+  },
+  {
+   "key": "timeline.time.about0830",
+   "value": "~08.30"
+  },
+  {
+   "key": "timeline.time.about1800",
+   "value": "~18.00"
+  },
+  {
+   "key": "timeline.time.noon",
+   "value": "Öğlen"
+  },
+  {
+   "key": "timeline.time.0827",
+   "value": "08.27"
+  },
+  {
+   "key": "timeline.time.1148",
+   "value": "11.48"
+  },
+  {
+   "key": "timeline.time.1216",
+   "value": "12.16"
+  },
+  {
+   "key": "timeline.time.gap",
+   "value": "12.37–13.08"
+  },
+  {
+   "key": "timeline.time.1754",
+   "value": "17.54"
+  },
+  {
+   "key": "timeline.clue.mertOut",
+   "value": "Sabah sekiz buçuk gibi çıktım."
+  },
+  {
+   "key": "timeline.clue.mertReturn",
+   "value": "Akşam altıya doğru döndüm."
+  },
+  {
+   "key": "timeline.clue.hasanNoon",
+   "value": "Öğlen bir kadın gördüm."
+  },
+  {
+   "key": "timeline.clue.cameraManOut",
+   "value": "Erkek şahıs binadan ayrıldı."
+  },
+  {
+   "key": "timeline.clue.cameraWomanIn",
+   "value": "Kadın şahıs binaya girdi."
+  },
+  {
+   "key": "timeline.clue.cameraWomanOut",
+   "value": "Aynı şahıs binadan ayrıldı."
+  },
+  {
+   "key": "timeline.clue.cameraGap",
+   "value": "Bu aralıkta kayıt bulunamadı."
+  },
+  {
+   "key": "timeline.clue.cameraManIn",
+   "value": "Erkek şahıs binaya girdi."
+  },
+  {
+   "key": "interview.chooseSource",
+   "value": "Hangi kaydı ya da belgeyi öne süreceksin?"
+  },
+  {
+   "key": "interview.cancelSource",
+   "value": "‹  Vazgeç · Sorulara dön"
+  },
+  {
+   "key": "interview.selectedSource",
+   "value": "Seçilen kaynak"
+  },
+  {
+   "key": "interview.questions",
+   "value": "Sorular"
+  },
+  {
+   "key": "interview.history",
+   "value": "Geçmiş"
+  },
+  {
+   "key": "interview.noSource",
+   "value": "Öne sürebileceğin bir kayıt henüz yok."
+  },
+  {
+   "key": "interview.presentSource",
+   "value": "KAYNAĞI ÖNE SÜR"
+  },
+  {
+   "key": "interview.presented",
+   "value": "Öne sürülen:"
+  },
+  {
+   "key": "interview.unrelatedSource",
+   "value": "Bu kayıtla ilgili ne söylememi istiyorsunuz?"
+  },
+  {
+   "key": "conclude.source",
+   "value": "Gösterdiğin kayıt"
+  },
+  {
+   "key": "conclude.chooseSource",
+   "value": "Belge, ifade veya kayıt seç"
+  },
+  {
+   "key": "conclude.sourceUnknown",
+   "value": "Kaynak belirtilmemiş"
+  },
+  {
+   "key": "elif_follow.footage.entryAnswer.demeanor",
+   "value": "Saati duyunca başını salladı. Gözleri ekranda kaldı, sesi düzdü."
+  },
+  {
+   "key": "elif_follow.footage.entryAnswer",
+   "value": "Evet, 11.48’de binaya giren bendim. Mert’e haber vermeden birkaç eşyamı aldım. Çıkarken bende kalan anahtarını kapısının yanındaki saksıya bıraktım."
+  },
+  {
+   "key": "elif_follow.footage.exitAnswer.demeanor",
+   "value": "Çabuk konuştu, sanki cümleyi daha önce kurmuştu. Sonunda derin bir soluk aldı."
+  },
+  {
+   "key": "elif_follow.footage.exitAnswer",
+   "value": "Evet, 12.16’da çıkan da bendim. Yanımda kendi giysilerimle kitaplarım vardı. Mert’in anahtarını götürmedim; kapısının yanındaki saksıya bıraktım."
+  },
+  {
+   "key": "interview.status.followup",
+   "value": "Yeni kaynakla görüşülebilir"
+  },
+  {
+   "key": "interview.referenceCard",
+   "value": "ELİNDEKİ KAYIT"
+  },
+  {
+   "key": "interview.openPresented",
+   "value": "ÖNE SÜRDÜĞÜN KAYDI OKU"
+  },
+  {
+   "key": "interview.openReference",
+   "value": "SEÇTİĞİN KAYDI OKU"
+  },
+  {
+   "key": "hasan_follow.mertStatement.question",
+   "value": "Mert'le kapıda karşılaştığınız günü anlatır mısınız?"
+  },
+  {
+   "key": "hasan_follow.mertStatement.answer.demeanor",
+   "value": "Söylerken hafifçe öne eğildi. Cümleden sonra gözünü senden ayırmadı."
+  },
+  {
+   "key": "hasan_follow.mertStatement.answer",
+   "value": "Mert kapıda kaldığında yanındaydım, evet. Saksıdan anahtar aldığını görmüş olabilirim. Ama bir ay önce gördüğüm bir şey, o gün evine girdiğimi göstermez."
+  },
+  {
+   "key": "mert.items.question",
+   "value": "Kaybolan eşyaları nasıl fark ettiniz?"
+  },
+  {
+   "key": "mert.items.answer",
+   "value": "Dizüstü bilgisayar normalde masanın üzerindedir, yoktu. Kol saatimi çekmecede tutarım; para da aynı çekmecedeydi. Önce kendim yerlerini değiştirmiş olabileceğimi düşündüm, sonra üçünün birden kayıp olduğunu fark ettim. Bilgisayarın faturasını da inceleme için verdim."
+  },
+  {
+   "key": "mert.breakup.question",
+   "value": "Elif'in anahtarını neden geri almadınız?"
+  },
+  {
+   "key": "mert.breakup.answer",
+   "value": "Eşyalarını alması için bir gün konuşacaktık, ama tarih belirleyemedik. Anahtarı istemeyi de erteledim. Ayrılıktan sonra aramızdaki konuyu yeniden açmak istemedim."
+  },
+  {
+   "key": "elif.remaining.question",
+   "value": "Mert'in evinde size ait eşya kalmış mıydı?"
+  },
+  {
+   "key": "elif.remaining.answer",
+   "value": "Birkaç giysim, iki üç kitabım vardı. Bunlar yüzünden yeniden tartışmak istemedim. Mert’le ne zaman alacağımızı kararlaştırmamıştık."
+  },
+  {
+   "key": "elif.avoid.question",
+   "value": "O gün Mert'le neden hiç konuşmadınız?"
+  },
+  {
+   "key": "elif.avoid.answer",
+   "value": "Her konuşma ayrılığa dönüyordu. O gün onu aramadım. Lütfen bunu başka bir şeyin işareti saymayın; eve gitmediğimi söyledim."
+  },
+  {
+   "key": "hasan.recognition.question",
+   "value": "Gördüğünüz kadını nereden tanıdınız?"
+  },
+  {
+   "key": "hasan.recognition.answer",
+   "value": "Mert’in yanında birkaç kez görmüştüm. İsmini bilmiyordum. Bina kapısından çıkan kadının ona benzediğini düşündüm; yüzünü ancak kısa süre gördüm."
+  },
+  {
+   "key": "hasan.help.question",
+   "value": "Mert'le daha önce ne kadar görüşürdünüz?"
+  },
+  {
+   "key": "hasan.help.answer",
+   "value": "Komşuyuz, karşılaşınca selamlaşırız. Bir kez kapıda kalmıştı; yanında durup yardım ettim. Sonra herkes kendi evine döndü."
+  },
+  {
+   "key": "elif_follow.keyPlace.question",
+   "value": "Anahtarı neden Mert'e elden vermediniz?"
+  },
+  {
+   "key": "elif_follow.keyPlace.answer",
+   "value": "Anahtarı artık bende tutmak istemiyordum, onunla yüz yüze gelmek de istemedim. Daha önce kullandığı kapı yanındaki saksıya bıraktım. Benden sonra oraya kimin baktığını bilmiyorum."
+  },
+  {
+   "key": "elif_follow.call.question",
+   "value": "Hırsızlığı öğrenince Mert'i aradınız mı?"
+  },
+  {
+   "key": "elif_follow.call.answer",
+   "value": "Aramadım. Eve habersiz girdiğimi söylemem gerekecekti. Susarsam konunun dışında kalacağımı düşündüm; şimdi bunun tersini yaptığımı görüyorum."
+  },
+  {
+   "key": "mert_follow.known.question",
+   "value": "Saksıdaki anahtarın yerini başka kim biliyor olabilirdi?"
+  },
+  {
+   "key": "mert_follow.known.answer",
+   "value": "Yerini Elif biliyordu; geçmişte ona söylemiştim. Hasan da kapıda kaldığım gün saksıdan anahtarı aldığımı gördü. Başka kimin gördüğünü bilmiyorum."
+  },
+  {
+   "key": "hasan_follow.memory.question",
+   "value": "Mert anahtarı saksıdan aldığında siz neredeydiniz?"
+  },
+  {
+   "key": "hasan_follow.memory.answer",
+   "value": "Kapının önünde duruyordum. Mert eğilip saksıyla uğraşmıştı; anahtarı oradan aldıysa görmüşümdür. O sırada bu ayrıntıyı aklımda tutmam gerektiğini düşünmedim."
+  },
+  {
+   "key": "interview.topic.other",
+   "value": "DİĞER SORULAR"
+  },
+  {
+   "key": "interview.topic.day",
+   "value": "OLAY GÜNÜ"
+  },
+  {
+   "key": "interview.topic.home",
+   "value": "EV VE ANAHTAR"
+  },
+  {
+   "key": "interview.topic.relationships",
+   "value": "İLİŞKİLER"
+  },
+  {
+   "key": "interview.topic.observations",
+   "value": "GÖZLEMLER"
+  },
+  {
+   "key": "interview.topic.records",
+   "value": "KAYITLAR"
+  },
+  {
+   "key": "interview.topic.neighbors",
+   "value": "KOMŞULUK"
+  },
+  {
+   "key": "interview.topic.belongings",
+   "value": "EŞYALAR"
+  },
+  {
+   "key": "interview.topic.explanation",
+   "value": "AÇIKLAMALAR"
+  },
+  {
+   "key": "file.tab.search",
+   "value": "DOSYADA GEZİN"
+  },
+  {
+   "key": "search.title",
+   "value": "DOSYADA GEZİN"
+  },
+  {
+   "key": "search.help",
+   "value": "Kayda geçmiş bütün satırlar. Tür ve kişiye göre süz."
+  },
+  {
+   "key": "search.count",
+   "value": "EŞLEŞEN SATIR"
+  },
+  {
+   "key": "search.everyone",
+   "value": "Herkes"
+  },
+  {
+   "key": "search.empty",
+   "value": "Bu süzgeçle eşleşen satır yok."
+  },
+  {
+   "key": "search.open",
+   "value": "KAYNAĞI AÇ"
+  },
+  {
+   "key": "archive.menu",
+   "value": "Dosya Arşivi"
+  },
+  {
+   "key": "archive.kicker",
+   "value": "BUBE POLİS · KAPANAN DOSYALAR"
+  },
+  {
+   "key": "archive.title",
+   "value": "DOSYA ARŞİVİ"
+  },
+  {
+   "key": "archive.count",
+   "value": "Kapanan dosya"
+  },
+  {
+   "key": "archive.empty",
+   "value": "Bu kariyerde henüz kapanmış dosya yok."
+  },
+  {
+   "key": "archive.report",
+   "value": "Gönderilen sonuç raporu"
+  },
+  {
+   "key": "archive.sources",
+   "value": "İncelenen kaynaklar"
+  },
+  {
+   "key": "archive.reviewed",
+   "value": "Kurumsal değerlendirme alındı. Gönderilen raporla karşılaştırılabilir."
+  },
+  {
+   "key": "archive.pendingReview",
+   "value": "Kurumsal değerlendirme henüz ulaşmadı."
+  },
+  {
+   "key": "archive.back",
+   "value": "Arşive dön"
+  },
+  {
+   "key": "archive.fax",
+   "value": "Kurumsal değerlendirme faksı"
+  },
+  {
+   "key": "conclude.sourceHelp",
+   "value": "Bu formda üç ayrı iddia kuruyorsun: kimin sorumlu olduğu, olayın nasıl gerçekleştiği ve hangi kanıtın belirleyici olduğu. Her iddianın altında onu desteklediğini düşündüğün okuduğun belgeyi, aldığın ifadeyi veya incelediğin kayıt satırını seç. İlk olay raporu yalnız başlangıç ihbarını kaydeder. Gönderilen rapor geri alınmaz; dosya kapanır."
+  },
+  {
+   "key": "conclude.suspectSource",
+   "value": "Bu kişiyle olay arasında bağlantı kuran kaynak hangisi?"
+  },
+  {
+   "key": "conclude.methodSource",
+   "value": "Seçtiğin yöntemi hangi bilgi destekliyor?"
+  },
+  {
+   "key": "conclude.evidenceSource",
+   "value": "Seçtiğin kanıtı hangi belge veya kayıt doğruluyor?"
+  },
+  {
+   "key": "conclude.previewTitle",
+   "value": "GÖNDERİLECEK RAPOR"
+  },
+  {
+   "key": "conclude.unselected",
+   "value": "Seçilmedi"
+  },
+  {
+   "key": "terminal.title",
+   "value": "BPS Kayıtları"
+  },
+  {
+   "key": "terminal.noRecords",
+   "value": "Bu dosyaya bağlı erişilebilir bir kayıt henüz yok."
+  },
+  {
+   "key": "fax.explainIntro",
+   "value": "Birim, bildirdiğiniz kişiyi, olay yöntemini ve belirleyici kanıtı; her biri için gösterdiğiniz kaynakla ayrı ayrı inceledi. Aşağıdaki “desteklenmedi” kararı, seçilen kaynağın o iddiayı doğrulamadığını belirtir. Dosya kapanmıştır."
+  },
+  {
+   "key": "fax.submittedSource",
+   "value": "Gösterilen kaynak"
+  },
+  {
+   "key": "fax.closing",
+   "value": "Bu değerlendirme gönderilen rapora aittir. Yeni bilgi olmadan rapor değiştirilemez; karar personel siciline işlendi."
+  },
+  {
+   "key": "fax.reason.supported",
+   "value": "Gösterilen kaynak bu iddia için dayanak olarak kabul edildi."
+  },
+  {
+   "key": "fax.reason.suspect.report",
+   "value": "İlk olay raporu kayıp ihbarını ve olay yerinin ilk durumunu kaydeder. Bildirdiğiniz kişinin eşyayı aldığına ilişkin bağımsız bir tespit içermez."
+  },
+  {
+   "key": "fax.reason.method.report",
+   "value": "Kapıda zorlama izi görülmemesi, tek başına hangi giriş yönteminin kullanıldığını belirlemez. İlk olay raporu bu yöntemi doğrulamaz."
+  },
+  {
+   "key": "fax.reason.evidence.report",
+   "value": "İlk olay raporu kayıp bildirilen eşyaları sıralar. Eşyanın kime geçtiğini doğrulayan sonraki bir tespit yerine kullanılamaz."
+  },
+  {
+   "key": "fax.reason.suspect.other",
+   "value": "Gösterdiğiniz kaynak, bildirdiğiniz kişi ile eylem arasında yeterli bağlantı kurmadı. Bu iddia bu dayanakla doğrulanamadı."
+  },
+  {
+   "key": "fax.reason.method.other",
+   "value": "Gösterdiğiniz kaynak, bildirdiğiniz yöntemi yeterince ortaya koymadı."
+  },
+  {
+   "key": "fax.reason.evidence.other",
+   "value": "Gösterdiğiniz kaynak, seçilen kanıtın belirleyici olduğunu yeterince doğrulamadı."
+  },
+  {
+   "key": "interview.tryAnotherSource",
+   "value": "BAŞKA KAYIT SEÇ"
+  },
+  {
+   "key": "conclude.stepHelp",
+   "value": "İddianı seç, ardından bu iddiaya dayanak olarak göstereceğin kaydı belirle."
+  },
+  {
+   "key": "conclude.reviewHelp",
+   "value": "Raporunu kontrol et. Gönderdiğinde dosya kesin olarak kapanır; kurumsal değerlendirme daha sonra gelir."
+  },
+  {
+   "key": "conclude.previous",
+   "value": "Önceki"
+  },
+  {
+   "key": "conclude.next",
+   "value": "Devam et"
+  },
+  {
+   "key": "conclude.openSource",
+   "value": "Dayanağı oku"
+  },
+  {
+   "key": "conclude.filter.all",
+   "value": "Tümü"
+  },
+  {
+   "key": "conclude.filter.documents",
+   "value": "Belgeler"
+  },
+  {
+   "key": "conclude.filter.interviews",
+   "value": "İfadeler"
+  },
+  {
+   "key": "conclude.filter.cctv",
+   "value": "CCTV"
+  },
+  {
+   "key": "conclude.search",
+   "value": "Ara"
+  },
+  {
+   "key": "conclude.sourceCount",
+   "value": "kaynak"
+  },
+  {
+   "key": "conclude.noMatches",
+   "value": "Bu arama ve filtreyle eşleşen kaynak yok."
+  },
+  {
+   "key": "elif_follow.footage.decoy.gap.demeanor",
+   "value": "Konuşurken bileğindeki lastiği çevirdi. Sesi cümlenin ortasında yükseldi."
+  },
+  {
+   "key": "elif_follow.footage.decoy.gap",
+   "value": "O saatlerde işten çıkmıştım, evet. Yolum o sokaktan geçiyor, geçmemesi tuhaf olurdu. Kaydın tam o aralıkta kesilmesi benim işime gelmiş gibi duruyor, farkındayım. Ama ben kesmedim."
+  },
+  {
+   "key": "elif_follow.footage.decoy.key.demeanor",
+   "value": "Bir süre sustu. Sonra doğrudan sana baktı, gözünü kaçırmadı."
+  },
+  {
+   "key": "elif_follow.footage.decoy.key",
+   "value": "Anahtarı geri vermedim. Vermek de istemedim. Bunu söylemem aleyhime, biliyorum; yine de o kapıyı açmadım."
+  },
+  {
+   "key": "elif_follow.footage.decoy.sighting.demeanor",
+   "value": "Kâğıda eğildi, satırı iki kez okudu. Elleri titriyordu."
+  },
+  {
+   "key": "elif_follow.footage.decoy.sighting",
+   "value": "Komşu beni gördüyse yanlış görmemiştir. O hafta o binaya gittim, kapıya kadar. Zili çalmadım, döndüm. İnanmak zorunda değilsiniz."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.elifIn.demeanor",
+   "value": "Ekrana bakmadı bile. Aynı düz tonla tekrarladı."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.elifIn",
+   "value": "Girdiğini gördüm, çıktığını gördüm, ikisini de anlattım. Aradaki saatte ne yaptığını benden beklemeyin; ben kapımı kapattım, oturdum."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.neighbor.demeanor",
+   "value": "Başparmağıyla masanın kenarını ovaladı. Sesi yavaşladı."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.neighbor",
+   "value": "Aynı kattayız, duvar ince. O gün bir şey duymadım. Duymadığımı söylüyorum, olmadığını söylemiyorum."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.gap.demeanor",
+   "value": "Elini enseye götürdü, indirdi. Sesi düzdü."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.gap",
+   "value": "O saatte evdeydim. Kamera kesilmiş, ben de kimseye görünmemişim. İkisi yan yana gelince kötü duruyor, biliyorum."
+  },
+  {
+   "key": "elif_follow.footage.decoy.time.demeanor",
+   "value": "Kısa, sert bir gülüş. Sandalyeyi geriye itti ama kalkmadı."
+  },
+  {
+   "key": "elif_follow.footage.decoy.time",
+   "value": "“Öğleye yakın” diyor. Ben de öğleye yakın oradaydım. Saat tutmadım; tutsaydım daha mı inandırıcı olurdum?"
+  },
+  {
+   "key": "elif_follow.footage.decoy.recognition.demeanor",
+   "value": "Yüzü kızardı. Cümlenin sonunu yutar gibi söyledi."
+  },
+  {
+   "key": "elif_follow.footage.decoy.recognition",
+   "value": "Beni tanımıyor olabilir, ama tarif ettiği kişi bana benziyor. Bunu kendim söylüyorum, siz sormadan."
+  },
+  {
+   "key": "elif_follow.footage.decoy.breakup.demeanor",
+   "value": "Bakışını masaya indirdi. Uzun bir sessizlikten sonra konuştu."
+  },
+  {
+   "key": "elif_follow.footage.decoy.breakup",
+   "value": "Eşyaları konuşacaktık, hiç konuşamadık. O gün de bu yüzden oradaydım, konuşmak için. Kapıyı açan olmadı."
+  },
+  {
+   "key": "elif_follow.footage.decoy.known.demeanor",
+   "value": "Sırtını sandalyeye dayadı. İlk kez acele etmeden konuştu."
+  },
+  {
+   "key": "elif_follow.footage.decoy.known",
+   "value": "Saksıyı biliyordum. Bir yıl o evde yaşadım, bilmemem tuhaf olurdu. Karşınızda bilen biri oturuyor, mesele bu."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.elifOut.demeanor",
+   "value": "Görüntüyü dikkatle izledi, sonra omuz silkti."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.elifOut",
+   "value": "Elinde bir şey vardı, evet. Çanta mıydı poşet miydi ayırt edemedim. Zorlasam uydururdum, uydurmayayım."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.recovery.demeanor",
+   "value": "Raporu uzun uzun okudu. Yanıt verirken sesi biraz kısıldı."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.recovery",
+   "value": "Fiş benim adıma düzenlenmişse dükkânda kimliğimi vermişim demektir. Ne zaman verdiğimi hatırlamıyorum. Siz bana o öğleden sonrayı sordunuz: evdeydim."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.known.demeanor",
+   "value": "Yorgun bir gülümseme. Koltuğunda yayıldı."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.known",
+   "value": "Bilenler arasında adım varsa vardır. Yıllardır aynı kattayım, bilmemem tuhaf olurdu."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.gap.demeanor",
+   "value": "Kollarını kavuşturdu, sonra çözdü. Bakışı masada kaldı."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.gap",
+   "value": "Kaydın kesilmesinden ne çıkardığınızı bilmiyorum. Bende bir şey yok. Evime bakmak isterseniz bakın, engellemem."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifIn.demeanor",
+   "value": "Aynı cümleyi aynı vurguyla üçüncü kez söyledi."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifIn",
+   "value": "Giren o. Ben o gün kapımdan bile çıkmadım. Bir daha söylememi isterseniz söylerim."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.spare.demeanor",
+   "value": "Dolaptan söz ederken elini kapıya doğru salladı. Rahat görünüyordu."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.spare",
+   "value": "Anahtarı saksıdan almış, tamam. Bende ne anahtar var ne eşya. Kolaylaştırayım: dolapta bir kutu var, içi kitap."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor.demeanor",
+   "value": "Sahanlığı anlatırken parmağıyla masada bir daire çizdi."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor",
+   "value": "On daire var bu binada. Çoğu benim gibi tek yaşıyor ve hepsinin kapısı aynı sahanlığa açılıyor."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor.demeanor",
+   "value": "Gözünü kırpmadan söyledi. Sonra pencereye baktı."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor",
+   "value": "Yakın değiliz. Kapıda da uzun uzun konuşmadık. Konuştuysak hatırlamıyorum."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.known.demeanor",
+   "value": "Yarım bir gülüş. Elleri masada hareketsiz kaldı."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.known",
+   "value": "Bilmek başka, girmek başka. Ama bilenler listesinde olmak insanı bu sandalyeye oturtuyormuş, onu öğrendim."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifIn.demeanor",
+   "value": "Ekranı eliyle biraz kendine çevirdi. Uzun uzun baktı."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifIn",
+   "value": "Kayıtta o var. Siz bana kapıdaki günü soruyorsunuz. İkisini birleştiren bir şey varsa bende değil."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.recovery.demeanor",
+   "value": "Para sıkıntısından söz ederken sesi düştü. Devamını söylemedi."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.recovery",
+   "value": "O dükkânı bilirim, daha önce de işim oldu orada. Kapıda konuştuğumuz şey bu değildi; para sıkıntısından söz etti, o kadar."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.spare.demeanor",
+   "value": "Tarihi duyunca bir an durdu. Sonra net konuştu."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.spare",
+   "value": "Kapıdaki gün bir ay öncesi. O öğleden sonrayı soruyorsanız: evdeydim ve kimse görmedi."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.followNeighbor.demeanor",
+   "value": "Cümlenin ortasında durdu, baştan başladı."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.followNeighbor",
+   "value": "Yakın değiliz, doğru söylemiş. Yakın olmadığım hâlde kimin girip çıktığını not etmişim. Bunu neden yaptığımı bana sormayın."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifOut.demeanor",
+   "value": "Görüntüyü yeniden başlatmanı istedi. İkincisinde de aynı şeyi söyledi."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifOut",
+   "value": "Yanında bir şey taşıyordu, ne olduğunu göremedim. Göremediğim bir şeyi benim üstüme yıkamak kolay olurdu, farkındayım."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor2.demeanor",
+   "value": "Kısa bir sessizlik. Sonra omuz silkip cevapladı."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor2",
+   "value": "Yakın değiliz. Yakın olsaydık belki bana bir şey emanet ederdi, o zaman elimde bir şey olurdu. Şimdi yok."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.known.demeanor",
+   "value": "Öne eğildi, sözcükleri ayırarak söyledi."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.known",
+   "value": "Anahtarla eşyayı karıştırıyorsunuz. Yerini bilen on kişi varsa alan da onlardan biri olabilir. Ben değilim."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor2.demeanor",
+   "value": "Duraksadı. Cümlenin sonu soru gibi çıktı."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor2",
+   "value": "Bir şey görmüş olabileceğimi düşünmüş. Görmüşsem de o gün binada mıydım, onu net söyleyemiyorum. Günleri karıştırıyorum son zamanlarda."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifOut.demeanor",
+   "value": "Kayda bakmadı. Yanıtı hazırdı."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifOut",
+   "value": "Çıkışını gösteriyorsunuz, bana kapıdaki günü soruyorsunuz. Aynı kişiden söz ediyoruz ama aynı günden değil."
+  },
+  {
+   "key": "mert.deflect",
+   "value": "Bunu bana gösterince ne söylememi bekliyorsunuz, bilmiyorum. Benim bildiğim kadarını anlattım."
+  },
+  {
+   "key": "elif.deflect",
+   "value": "Bununla benim aramda bir bağ kuruyorsanız o bağı siz söyleyin. Ben göremiyorum."
+  },
+  {
+   "key": "hasan.deflect",
+   "value": "Bunun benimle ilgisini kurmuyorum. Başka bir şey soracaksanız sorun."
+  },
+  {
+   "key": "menu.tagline",
+   "value": "A DETECTIVE INVESTIGATION GAME"
+  },
+  {
+   "key": "menu.row.continue",
+   "value": "DEVAM ET"
+  },
+  {
+   "key": "menu.row.newCareer",
+   "value": "YENİ KARİYER"
+  },
+  {
+   "key": "menu.row.settings",
+   "value": "AYARLAR"
+  },
+  {
+   "key": "menu.row.career",
+   "value": "KARİYER"
+  },
+  {
+   "key": "menu.row.quit",
+   "value": "ÇIKIŞ"
+  }
+ ]
 }

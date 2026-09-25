@@ -15,6 +15,17 @@ namespace Bube {
  }
  // İsteğe bağlı metinler için: anahtar yoksa "[anahtar]" basmak yerine atlanır.
  public bool Has(string key) => !string.IsNullOrEmpty(key) && Get(key)[0] != '[';
+ // Vaka başına dil dosyasını ortak dosyanın üstüne ekler. Çakışan anahtarda
+ // ortak dosya kazanır: bir vaka ortak metni sessizce değiştirmesin.
+ public void Absorb(Locale other) {
+  if (other == null || other.entries == null) return;
+  Get(string.Empty); // dizini kurar
+  foreach (var entry in other.entries)
+   if (entry != null && entry.key != null && !index.ContainsKey(entry.key)) index[entry.key] = entry.value;
+ }
+ // Birleştirmeden sonra hangi anahtarların var olduğunu bilmek gerekir
+ // (kullanılmayan metin denetimi bunu okur).
+ public System.Collections.Generic.IEnumerable<string> Keys { get { Get(string.Empty); return index.Keys; } }
 }
 [Serializable] public class GameConfig { public string title; public string locale; public string initialCase; public string investigatorKey; public WorldIntro[] worldIntros; }
 // Uretici filigrani filmin sag alt kosesinde duruyor. "Gec" dugmesini tam
@@ -29,11 +40,19 @@ namespace Bube {
 [Serializable] public class PendingReview { public string caseId; public bool correct; public string evaluationType; public int trustDelta; public int successGain; public int failureLoss; public long readyAtUtcTicks; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; }
 [Serializable] public class FaxReview { public string caseId; public bool correct; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; }
 [Serializable] public class CareerProgress { public int version = 1; public int departmentTrust = 60; public int retirementThreshold = 0; public string activeCaseId; public List<string> seenWorldIntros = new List<string>(); public List<PendingReview> pendingReviews = new List<PendingReview>(); public bool faxReleased; public FaxReview lastFax; public List<FaxReview> reviewHistory = new List<FaxReview>(); public string careerRankId = "investigator"; public bool retired; }
+// Kişinin PNG portresi yoksa piksel portre çizilir. Tonlar eskiden kodda
+// `personId=="hasan"` diye seçiliyordu, yani yeni vakanın yeni kişisi C#
+// düzenlemesi istiyordu. Artık vaka verisinden gelir; alan boşsa varsayılan
+// kullanılır ve hiçbir vaka bunu yazmak zorunda değildir.
+[Serializable] public class PortraitStyle {
+ public string hairHex; public string skinHex; public string shirtHex; public bool longHair; public bool moustache;
+ public static readonly PortraitStyle Default = new PortraitStyle { hairHex="#2E211E", skinHex="#AE785A", shirtHex="#1F2426" };
+}
 [Serializable] public class FileMeta { public string labelKey; public string valueKey; }
 [Serializable] public class AnswerVariant { public string answerKey; public string[] requiresAsked; public string[] requiresRead; public string[] excludesAsked; }
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
 [Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
-[Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public string[] aboutPersonIds; }
+[Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public string[] aboutPersonIds; }
 [Serializable] public class CctvEvent { public string id; public string textKey; public string[] aboutPersonIds; public bool notPresentable; public string overlayTimeKey; public string glitchKey; public string signalKey; public string videoPath; public int delayMs; }
 [Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; }
 [Serializable] public class Verdict { public string id; public string labelKey; public string feedbackKey; public bool correct; public string[] requires; public string[] supportingSourceIds; }

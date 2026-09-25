@@ -110,7 +110,19 @@ public static class CaseRules {
    "Eksik görüşme: " + node.id)) return;
 
   if (Resources.Load<Texture2D>("Bube/Characters/" + node.personId) == null)
-   report.Note("Üretilmiş yedek portre kullanılıyor: " + node.personId);
+   report.Note("Üretilmiş yedek portre kullanılıyor: " + node.personId +
+    (node.portrait == null ? " (vaka verisinde `portrait` yok, varsayılan tonlar)" : string.Empty));
+
+  // Yedek portrenin tonları vaka verisinden gelir. Yanlış yazılmış bir renk
+  // ekranda magenta bir yüz olarak görünür; burada yakalanması daha iyi.
+  if (node.portrait != null)
+   foreach (var pair in new[] {
+    new[] { "hairHex", node.portrait.hairHex },
+    new[] { "skinHex", node.portrait.skinHex },
+    new[] { "shirtHex", node.portrait.shirtHex },
+   })
+    report.Forbid(!string.IsNullOrEmpty(pair[1]) && !ColorUtility.TryParseHtmlString(pair[1], out _),
+     "Portre rengi okunamıyor (" + node.personId + "." + pair[0] + "): " + pair[1]);
 
   foreach (var key in new[] { node.personNameKey, node.personInfoKey }
     .Concat(node.questions.SelectMany(q => new[] { q.promptKey, q.answerKey })))

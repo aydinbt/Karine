@@ -26,9 +26,16 @@ public static class ContentValidator {
   ProjectRules.Validate(report);
 
   var config = JsonUtility.FromJson<GameConfig>(Resources.Load<TextAsset>("Bube/config").text);
-  var localeAsset = Resources.Load<TextAsset>("Bube/Locales/" + config.locale);
+  var localeAsset = Resources.Load<TextAsset>(LocaleLoader.Folder + config.locale);
   if (localeAsset == null) { report.Problem("Dil dosyası yok: " + config.locale); return report; }
-  var locale = JsonUtility.FromJson<Locale>(localeAsset.text);
+  // Ortak metin + vaka başına metin. Doğrulama hem birleşmiş hâli (anahtar var mı)
+  // hem dosyaları ayrı ayrı (yinelenme, kurum adı) görmek zorunda.
+  var localeFiles = new List<KeyValuePair<string, Locale>> {
+   new KeyValuePair<string, Locale>(config.locale + ".json", JsonUtility.FromJson<Locale>(localeAsset.text)),
+  };
+  foreach (var asset in LocaleLoader.CaseAssets(config.locale))
+   localeFiles.Add(new KeyValuePair<string, Locale>(asset.name + ".json", JsonUtility.FromJson<Locale>(asset.text)));
+  var locale = LocaleLoader.Load(config.locale);
 
   var cases = Resources.LoadAll<TextAsset>("Bube/Cases")
    .Select(asset => JsonUtility.FromJson<CaseData>(asset.text)).ToList();
@@ -36,7 +43,7 @@ public static class ContentValidator {
   report.Scope("zincir");
   CaseChainRules.Validate(cases, config, report);
   report.Scope("dil");
-  LocaleRules.Validate(locale, cases, report);
+  LocaleRules.Validate(localeFiles, cases, report);
 
   foreach (var data in cases) {
    report.Scope(data.id);

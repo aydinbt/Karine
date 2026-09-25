@@ -1,0 +1,348 @@
+{
+ "entries": [
+  {
+   "key": "case002.report.title",
+   "value": "İlk olay raporu"
+  },
+  {
+   "key": "case002.report.body",
+   "value": "21 Kasım 2024, 18.05. Beşiktaş’taki Kıyı Tasarım Atölyesi’nin kilitli arşiv dolabından taşınabilir yedek disk kayboldu. İhbarı atölye yöneticisi Arda Yalın yaptı. Dolapta zorlama izi yok. Diskin üzerinde müşterilere ait tasarım dosyaları bulunuyor. Arda, diski en son öğleden önce gördüğünü söylüyor."
+  },
+  {
+   "key": "case002.meta.number",
+   "value": "Dosya"
+  },
+  {
+   "key": "case002.meta.numberValue",
+   "value": "#002 · Kayıp Yedek"
+  },
+  {
+   "key": "case002.meta.place",
+   "value": "Yer"
+  },
+  {
+   "key": "case002.meta.placeValue",
+   "value": "Kıyı Tasarım Atölyesi / Beşiktaş"
+  },
+  {
+   "key": "case002.meta.reporter",
+   "value": "İhbar eden"
+  },
+  {
+   "key": "case002.meta.reporterValue",
+   "value": "Arda Yalın"
+  },
+  {
+   "key": "case002.arda.last.question",
+   "value": "Diski en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case002.arda.last.answer",
+   "value": "Öğleye doğru dolaptaydı. Sonra bütün gün toplantıdaydım."
+  },
+  {
+   "key": "case002.arda.access.question",
+   "value": "Dolabın anahtarı kimde?"
+  },
+  {
+   "key": "case002.arda.access.answer",
+   "value": "Bende ve teknik sorumlu Ece’de. Dolabı açık bırakmayız."
+  },
+  {
+   "key": "case002.arda.shipment.question",
+   "value": "Bugün atölyeden kargo çıktı mı?"
+  },
+  {
+   "key": "case002.arda.shipment.answer",
+   "value": "Sadece eski kabloları gönderdim. Kargo işlerine pek bakmam."
+  },
+  {
+   "key": "case002.arda.log.question",
+   "value": "Geçiş kaydında kartınız 16.11’de arşivde görünüyor."
+  },
+  {
+   "key": "case002.arda.log.answer",
+   "value": "Kartımı masada bırakmış olabilirim. O saatte arşive girdiğimi hatırlamıyorum."
+  },
+  {
+   "key": "case002.arda.title",
+   "value": "Arda Yalın ile görüşme"
+  },
+  {
+   "key": "case002.arda.body",
+   "value": "Atölye yöneticisi ve ihbar sahibi."
+  },
+  {
+   "key": "case002.arda.name",
+   "value": "Arda Yalın"
+  },
+  {
+   "key": "case002.arda.info",
+   "value": "31 yaşında · atölye yöneticisi · ihbar sahibi"
+  },
+  {
+   "key": "case002.arda.quote",
+   "value": "Bütün gün toplantıdaydım."
+  },
+  {
+   "key": "case002.ece.inventory.question",
+   "value": "Diskin ne zaman dolapta olduğunu biliyor musunuz?"
+  },
+  {
+   "key": "case002.ece.inventory.answer",
+   "value": "15.38’de yedeklemeyi bitirip diski dolaba koydum. Etiketi KY-42."
+  },
+  {
+   "key": "case002.ece.keys.question",
+   "value": "Anahtara başka kim erişebilir?"
+  },
+  {
+   "key": "case002.ece.keys.answer",
+   "value": "Bende bir anahtar var, diğeri Arda’da. Ama biri dolabı açmışsa anahtarı ödünç almış da olabilir."
+  },
+  {
+   "key": "case002.ece.deadline.question",
+   "value": "Diskteki dosyalar neden önemli?"
+  },
+  {
+   "key": "case002.ece.deadline.answer",
+   "value": "Yarın müşteriye teslim edilecek çizimler var. Kaybolması işi durdurur."
+  },
+  {
+   "key": "case002.ece.title",
+   "value": "Ece Tan ile görüşme"
+  },
+  {
+   "key": "case002.ece.body",
+   "value": "Atölyenin teknik sorumlusu."
+  },
+  {
+   "key": "case002.ece.name",
+   "value": "Ece Tan"
+  },
+  {
+   "key": "case002.ece.info",
+   "value": "29 yaşında · teknik sorumlu"
+  },
+  {
+   "key": "case002.ece.quote",
+   "value": "Etiketi KY-42."
+  },
+  {
+   "key": "case002.deniz.desk.question",
+   "value": "Öğleden sonra giriş masasında mıydınız?"
+  },
+  {
+   "key": "case002.deniz.desk.answer",
+   "value": "Evet. Kargocu geldiğinde de oradaydım."
+  },
+  {
+   "key": "case002.deniz.courier.question",
+   "value": "Kargocu ne aldı?"
+  },
+  {
+   "key": "case002.deniz.courier.answer",
+   "value": "16.30 gibi küçük bir kutu. İrsaliyeyi Arda imzaladı, içinde ne vardı görmedim."
+  },
+  {
+   "key": "case002.deniz.gap.question",
+   "value": "16.12’de giriş masası neden boş görünüyor?"
+  },
+  {
+   "key": "case002.deniz.gap.answer",
+   "value": "Çay almak için aşağı indim. Başta söylemedim; nöbet yerini terk ettiğim için ceza almaktan korktum. Kutuya ne konduğunu görmedim."
+  },
+  {
+   "key": "case002.deniz.title",
+   "value": "Deniz Sönmez ile görüşme"
+  },
+  {
+   "key": "case002.deniz.body",
+   "value": "Binanın güvenlik görevlisi."
+  },
+  {
+   "key": "case002.deniz.name",
+   "value": "Deniz Sönmez"
+  },
+  {
+   "key": "case002.deniz.info",
+   "value": "34 yaşında · güvenlik görevlisi"
+  },
+  {
+   "key": "case002.deniz.quote",
+   "value": "Kargocu geldiğinde de oradaydım."
+  },
+  {
+   "key": "case002.access.title",
+   "value": "BPS · geçiş ve teslim kayıtları"
+  },
+  {
+   "key": "case002.access.body",
+   "value": "15.38 — Teknik sorumlu Ece Tan arşivden çıktı.\n16.11 — AR-17 kartı arşiv kapısını açtı. Kart sahibi: Arda Yalın.\n16.12–16.24 — Giriş masası devriyesi kaydı yok.\n16.31 — Kurye, atölyeden bir kutu aldı. Gönderici kodu: AR-17.\n18.05 — Kayıp disk ihbarı sisteme işlendi.\n\nKart kaydı kartı kimin taşıdığını göstermez; gönderi içeriği bu kayıtta bulunmaz."
+  },
+  {
+   "key": "case002.arda_follow.card.question",
+   "value": "AR-17 hem arşivde hem gönderide neden görünüyor?"
+  },
+  {
+   "key": "case002.arda_follow.card.answer",
+   "value": "Birçok işlemde kodum kullanılıyor. Kutuda yalnızca kablo vardı."
+  },
+  {
+   "key": "case002.arda_follow.parcel.question",
+   "value": "Gönderi incelemesinde KY-42 diski bulundu. Açıklar mısınız?"
+  },
+  {
+   "key": "case002.arda_follow.parcel.answer",
+   "value": "Diski kutuya ben koydum. İhbarı da sonra yaptım. Şimdi bunu söylemenin bir yararı yok sanmıştım."
+  },
+  {
+   "key": "case002.arda_follow.title",
+   "value": "Arda Yalın · takip görüşmesi"
+  },
+  {
+   "key": "case002.arda_follow.body",
+   "value": "Yeni kayıtlardan sonra yeniden görüşülebilir."
+  },
+  {
+   "key": "case002.parcel.title",
+   "value": "Gönderi inceleme tutanağı"
+  },
+  {
+   "key": "case002.parcel.body",
+   "value": "Talep üzerine 16.31’de atölyeden alınan kutu kargo şubesinde incelemeye ayrıldı. Gönderici alanında AR-17 kodu ve Arda Yalın’ın imzası var. Kutunun içinden taşınabilir yedek disk çıktı. Diskin envanter etiketi KY-42; teknik sorumlunun bildirdiği numarayla aynı. Kutu ilk alındığında bantları sağlamdı. Teslim adresi Arda’nın kişisel posta kutusu olarak kayıtlı. İnceleme, diskin o kutuya nasıl ve kim tarafından konduğunu tek başına göstermez."
+  },
+  {
+   "key": "case002.parcel.request",
+   "value": "Kargo gönderisini incelet"
+  },
+  {
+   "key": "case002.title",
+   "value": "DOSYA #002 — Kayıp Yedek"
+  },
+  {
+   "key": "case002.timeline.backup.time",
+   "value": "15.38"
+  },
+  {
+   "key": "case002.timeline.backup.note",
+   "value": "Ece, KY-42 diskini dolaba koyduğunu söyledi."
+  },
+  {
+   "key": "case002.timeline.entry.time",
+   "value": "16.11"
+  },
+  {
+   "key": "case002.timeline.entry.note",
+   "value": "AR-17 kartıyla arşiv kapısı açıldı."
+  },
+  {
+   "key": "case002.timeline.pickup.time",
+   "value": "16.31"
+  },
+  {
+   "key": "case002.timeline.pickup.note",
+   "value": "Kurye atölyeden AR-17 kodlu kutuyu aldı."
+  },
+  {
+   "key": "case002.timeline.report.time",
+   "value": "18.05"
+  },
+  {
+   "key": "case002.timeline.report.note",
+   "value": "Diskin kayıp olduğu ihbar edildi."
+  },
+  {
+   "key": "case002.verdict.arda",
+   "value": "Arda Yalın"
+  },
+  {
+   "key": "case002.feedback.arda",
+   "value": "Arda’nın gönderisi"
+  },
+  {
+   "key": "case002.verdict.ece",
+   "value": "Ece Tan"
+  },
+  {
+   "key": "case002.feedback.ece",
+   "value": "Ece’nin envanteri"
+  },
+  {
+   "key": "case002.verdict.deniz",
+   "value": "Deniz Sönmez"
+  },
+  {
+   "key": "case002.feedback.deniz",
+   "value": "Deniz’in nöbeti"
+  },
+  {
+   "key": "case002.method.shipment",
+   "value": "Diski kendi gönderisine koyup kayıp ihbarı yapmak"
+  },
+  {
+   "key": "case002.method.forced",
+   "value": "Dolabı zorlayarak almak"
+  },
+  {
+   "key": "case002.method.borrowed",
+   "value": "Başkasının anahtarıyla almak"
+  },
+  {
+   "key": "case002.method.unknown",
+   "value": "Yöntem belirsiz"
+  },
+  {
+   "key": "case002.evidence.report",
+   "value": "İlk olay raporu"
+  },
+  {
+   "key": "case002.evidence.access",
+   "value": "Geçiş ve teslim kayıtları"
+  },
+  {
+   "key": "case002.evidence.arda",
+   "value": "Arda’nın takip ifadesi"
+  },
+  {
+   "key": "case002.evidence.parcel",
+   "value": "Gönderi inceleme tutanağı"
+  },
+  {
+   "key": "case002.summary.location",
+   "value": "Kıyı Tasarım Atölyesi · Beşiktaş"
+  },
+  {
+   "key": "case002.summary.truth",
+   "value": "Arda Yalın, KY-42 diski arşivden alıp kendi gönderdiği kutuya koydu; ardından kayıp ihbarı yaptı. Deniz’in nöbet yeriyle ilgili yalanı, işini kaybetme korkusundan kaynaklanıyordu."
+  },
+  {
+   "key": "case002.summary.evidence",
+   "value": "Geçiş kaydı AR-17 kartını arşive bağlar; kargo tutanağı aynı kodlu, Arda imzalı kutuda KY-42 diskini doğrular. Ece’nin envanter ifadesi disk numarasını bağımsız olarak belirler."
+  },
+  {
+   "key": "case002.summary.lesson",
+   "value": "İhbar eden kişi de incelenmelidir. Bir kayıt tek başına fail göstermeyebilir; bağımsız kaynaklar birlikte anlam kazanır."
+  },
+  {
+   "key": "case002.offer.title",
+   "value": "DOSYA #002"
+  },
+  {
+   "key": "case002.offer.subtitle",
+   "value": "KAYIP YEDEK  /  İŞYERİ HIRSIZLIĞI"
+  },
+  {
+   "key": "case002.offer.summary",
+   "value": "Beşiktaş’taki tasarım atölyesinden, müşteri dosyalarını taşıyan bir yedek disk kayboldu. Kilitli dolapta zorlama izi yok. İhbarı atölye yöneticisi Arda Yalın yaptı."
+  },
+  {
+   "key": "case002.tablet.caseLine",
+   "value": "DOSYA #002  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "case002.file.caseType",
+   "value": "İŞYERİ HIRSIZLIĞI"
+  }
+ ]
+}

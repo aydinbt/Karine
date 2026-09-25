@@ -334,20 +334,33 @@ public sealed partial class BubeApp {
   // Buradan aşağısı **arayüz değil, oyun resmidir**: piksel portrenin ten, saç
   // ve giysi tonları. Kit paletinden gelmezler, gelmemeleri gerekir — bir yüzü
   // arayüz kremine boyamak portreyi bozar. `KarineTheme` bu yüzden aranmaz.
-  var hair=personId=="hasan"?new Color(.38f,.36f,.33f):personId=="mert"?new Color(.16f,.13f,.12f):new Color(.18f,.13f,.12f);
-  var skin=personId=="hasan"?new Color(.64f,.46f,.34f):new Color(.68f,.47f,.35f);
-  var shirt=personId=="mert"?new Color(.30f,.37f,.39f):personId=="hasan"?new Color(.31f,.29f,.25f):new Color(.12f,.14f,.15f);
+  //
+  // Tonlar artık vaka verisinden gelir (`Node.portrait`); eskiden kişi kimliği
+  // koda yazılıydı, yani her yeni kişi C# düzenlemesi demekti.
+  var style=PortraitStyleFor(personId);
+  var hair=Swatch(style.hairHex,PortraitStyle.Default.hairHex);
+  var skin=Swatch(style.skinHex,PortraitStyle.Default.skinHex);
+  var shirt=Swatch(style.shirtHex,PortraitStyle.Default.shirtHex);
+  var eye=new Color(.12f,.12f,.12f);
   for(int y=0;y<pixels.Length;y++)for(int x=0;x<pixels[y].Length;x++) {
    char p=pixels[y][x];
-   if(personId!="elif" && y>4 && p=='h')p='.';
-   if(personId=="hasan" && y==10 && x>=8 && x<=11)p='h';
+   if(!style.longHair && y>4 && p=='h')p='.';
+   if(style.moustache && y==10 && x>=8 && x<=11)p='h';
    if(p=='.')continue;
    var cell=new VisualElement();cell.style.position=Position.Absolute;
    cell.style.left=Length.Percent(x*5);cell.style.top=Length.Percent(y*5);
    cell.style.width=Length.Percent(5);cell.style.height=Length.Percent(5);
-   cell.style.backgroundColor=p=='h'?hair:p=='t'?shirt:p=='e'||p=='m'||p=='n'?new Color(.12f,.12f,.12f):skin;
+   cell.style.backgroundColor=p=='h'?hair:p=='t'?shirt:p=='e'||p=='m'||p=='n'?eye:skin;
    holder.Add(cell);
   }
  }
+ // Kişinin portre tanımı, o kişiyi taşıyan görüşme düğümünden okunur.
+ PortraitStyle PortraitStyleFor(string personId) {
+  foreach(var node in game.Data.nodes)
+   if(node.personId==personId && node.portrait!=null)return node.portrait;
+  return PortraitStyle.Default;
+ }
+ static Color Swatch(string hex,string fallback) =>
+  KarineTheme.Hex(string.IsNullOrEmpty(hex)?fallback:hex);
 }
 }

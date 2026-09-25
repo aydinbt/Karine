@@ -26,12 +26,12 @@ public static class ProjectRules {
   "cine_skip",
  };
 
- // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 16'ya indi.
- // Kalan on altı renk oyun **sanatıdır**, arayüz paleti değil: piksel portrenin
- // ten/saç/giysi tonları (`BubeApp.Interview.cs`) ve CCTV'nin cam, tarama,
+ // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 8'e indi.
+ // Kalan sekiz renk oyun **sanatıdır**, arayüz paleti değil: piksel portrenin göz
+ // rengi (ten/saç/giysi artık vaka verisinden gelir) ve CCTV'nin cam, tarama,
  // parazit ve köşe işareti efektleri (`BubeApp.Cctv.cs`). İkisi de kit
  // paletinden gelmemeli. Yalnız aşağı çekilir.
- const int RawColorBudget = 16;
+ const int RawColorBudget = 8;
 
  public static void Validate(ValidationReport report) {
   report.Scope("proje");

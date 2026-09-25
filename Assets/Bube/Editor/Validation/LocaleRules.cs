@@ -45,15 +45,28 @@ public static class LocaleRules {
   string.IsNullOrEmpty(text) ? new string[0]
    : WordBreak.Split(text.ToLowerInvariant()).Where(w => w.Length > 0).ToArray();
 
- public static void Validate(Locale locale, IReadOnlyList<CaseData> cases, ValidationReport report) {
+ // Tek dosyalık kısa yol: testler ve tek dilli doğrulama için.
+ public static void Validate(Locale locale, IReadOnlyList<CaseData> cases, ValidationReport report) =>
+  Validate(new[] { new KeyValuePair<string, Locale>("(metin)", locale) }, cases, report);
+
+ // Metin artık birden çok dosyada: ortak `tr.json` ve vaka başına `tr.<vaka>.json`.
+ // Her dosya kendi içinde, yinelenen anahtar ise **dosyalar arasında** da aranır —
+ // bir vaka ortak bir metni sessizce değiştirmesin.
+ public static void Validate(IReadOnlyList<KeyValuePair<string, Locale>> files,
+  IReadOnlyList<CaseData> cases, ValidationReport report) {
   report.Scope("metin");
-  if (!report.Step(locale?.entries != null, "Metin dosyası okunamadı.")) return;
+  if (!report.Step(files != null && files.Count > 0 && files[0].Value?.entries != null,
+   "Metin dosyası okunamadı.")) return;
 
   var seen = new HashSet<string>();
-  foreach (var entry in locale.entries) {
-   if (entry == null || string.IsNullOrEmpty(entry.key)) { report.Problem("Anahtarı olmayan metin girişi var."); continue; }
+  var owner = new Dictionary<string, string>();
+  foreach (var file in files)
+  foreach (var entry in file.Value?.entries ?? new Entry[0]) {
+   if (entry == null || string.IsNullOrEmpty(entry.key)) { report.Problem("Anahtarı olmayan metin girişi var (" + file.Key + ")."); continue; }
    if (!seen.Add(entry.key))
-    report.Problem("Yinelenen anahtar (ikinci değer sessizce yok sayılır): " + entry.key);
+    report.Problem("Yinelenen anahtar (ikinci değer sessizce yok sayılır): " + entry.key +
+     " — " + owner[entry.key] + " ve " + file.Key);
+   else owner[entry.key] = file.Key;
    var institution = ForbiddenInstitution(entry.value);
    if (institution != null)
     report.Problem("Gerçek kurum/mevzuat adı kullanılamaz (\"" + institution + "\"): " + entry.key);

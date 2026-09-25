@@ -134,7 +134,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   instance=this;
   DontDestroyOnLoad(gameObject);
   config=Load<GameConfig>("Bube/config");
-  locale=Load<Locale>("Bube/Locales/"+config.locale);
+  locale=LocaleLoader.Load(config.locale);
   careerRules=Load<CareerRules>("Bube/career-rules");
   CareerProgress career=null;
   try { if(File.Exists(CareerSavePath)) career=JsonUtility.FromJson<CareerProgress>(File.ReadAllText(CareerSavePath)); }

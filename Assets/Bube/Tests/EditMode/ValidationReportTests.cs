@@ -87,6 +87,22 @@ public sealed class ValidationReportTests {
    "Yinelenen anahtar bildirilmeli:\n" + report.Summary());
  }
 
+ // Vaka metni vaka başına dosyaya taşındı. Bir vaka dosyası ortak bir anahtarı
+ // yeniden tanımlarsa ortak metin sessizce kaybolur; bu yüzden dosyalar arası
+ // yinelenme de bildirilmeli.
+ [Test]
+ public void LocaleKeyDefinedInTwoFiles_IsReportedWithBothFileNames() {
+  var shared = new Locale { entries = new[] { new Entry { key = "offer.back", value = "Geri" } } };
+  var caseFile = new Locale { entries = new[] { new Entry { key = "offer.back", value = "Dön" } } };
+  var report = new ValidationReport();
+  LocaleRules.Validate(new[] {
+   new System.Collections.Generic.KeyValuePair<string, Locale>("tr.json", shared),
+   new System.Collections.Generic.KeyValuePair<string, Locale>("tr.case003.json", caseFile),
+  }, new CaseData[0], report);
+  Assert.IsTrue(report.Problems.Any(p => p.Contains("offer.back") && p.Contains("tr.json") && p.Contains("tr.case003.json")),
+   "İki dosyada tanımlı anahtar iki dosya adıyla bildirilmeli:\n" + report.Summary());
+ }
+
  [Test]
  public void CaseChain_RejectsMissingTargetAndCycles() {
   var config = new GameConfig { initialCase = "a" };
