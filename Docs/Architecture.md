@@ -161,6 +161,10 @@ Bırakılış yalnız **kabul edilmemiş** vakanın anıdır: kabul edilmiş bir
 
 `Application.persistentDataPath` yolu şirket ve ürün adından türer, yani testlerin koştuğu geçici proje kopyası da geliştiricinin **kendi** kayıtlarını yazar. Bir PlayMode koşusu böylece oynanışı bozabiliyordu: vaka kabul edilmiş, sıradaki dosya açılmış olarak kaydediliyor ve oyun o anı bir daha oynamıyordu. `Assets/Bube/Tests/PlayMode/SaveSandbox.cs` (`[SetUpFixture]`) tüm PlayMode testlerinden önce `bube-*` kayıtlarını belleğe alıp klasörü boşaltır, testler bitince geri koyar.
 
+## Rapor sihirbazında kaynak seçimi
+
+Kaynak listesi adımın içinde açılan bir panelken telefonda yönetilemiyordu: sayfanın kendi kaydırmasının içinde ikinci bir kaydırma, üstünde arama alanı ve dört filtre vardı. Artık adımda yalnız seçimi gösteren tek bir satır durur; dokununca kaynak listesi tam ekran açılır (tek kaydırma, dört filtre, arama yok). Seçim yapılınca sayfa aynı adımla yeniden çizilir.
+
 ## Raporun gönderilişi
 
 Bırakılışın tersi: oyuncu son raporu gönderdiğinde `Result()` önce `PlayReportSend` çağırır — Bora formu doldurup kaşeler, evrak ekran dışına çıkar — ve vaka özeti ancak film bittikten (ya da GEÇ'e basıldıktan) sonra açılır. Video `config.json` → `reportSendVideo`, GEÇ düğmesinin yeri `reportSendMark` ile verilir; ikisi de masaya varış filmiyle aynı köşeyi kullanır. Alan boşsa ya da video oynatılamazsa özet doğrudan açılır; animasyonun yokluğu akışı kilitlemez.

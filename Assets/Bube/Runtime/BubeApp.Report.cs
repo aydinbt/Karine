@@ -74,7 +74,7 @@ public sealed partial class BubeApp {
      if(column.pick()!=id){column.setPick(id);column.setSource(null);ConclusionStep(step);}
     });
    }
-   ReportSourcePicker(scroll,column.sourceHeadingKey,column.source,column.setSource,refresh);
+   ReportSourcePicker(scroll,column.sourceHeadingKey,column.source,column.setSource,step);
   } else {
    Text(scroll,T("conclude.reviewHelp"),muted,15);
    foreach(var column in columns) {
@@ -181,79 +181,65 @@ public sealed partial class BubeApp {
   value=value.Replace('\n',' ').Trim();
   return value.Length>120?value.Substring(0,120)+"…":value;
  }
- void ReportSourcePicker(VisualElement parent,string promptKey,Func<string> selected,Action<string> setSelected,Action refresh) {
+ // Kaynak secimi eskiden adimin icinde acilan bir panel idi: sayfanin kendi
+ // kaydirmasinin icinde ikinci bir kaydirma, ustunde arama alani ve dort filtre.
+ // Telefonda hem okunmuyor hem yonetilemiyordu. Artik satir yalnizca secimi
+ // gosterir; dokununca kaynak listesi tam ekran acilir, yani her an tek bir is
+ // vardir. Arama alani kaldirildi — liste zaten bu vakada okunmus kayitlardir
+ // ve dort filtre onu bolmeye yetiyor.
+ void ReportSourcePicker(VisualElement parent,string promptKey,Func<string> selected,Action<string> setSelected,int step) {
   var dark=KarineTheme.Paper.Ink;
-  var turkish=CultureInfo.GetCultureInfo("tr-TR");
-  Func<string,string> normalize=value=>(value ?? "").ToLower(turkish).Replace(':','.');
   Text(parent,T(promptKey),KarineTheme.Paper.Faded,14).style.marginBottom=3;
-  var opener=new Button{ text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(selected())+"  ▾" };
-  opener.style.minHeight=MinimumTouchTarget;opener.style.marginBottom=5;opener.style.paddingLeft=12;
-  opener.style.unityTextAlign=TextAnchor.MiddleLeft;opener.style.fontSize=Typography.Snap(15);
-  opener.style.whiteSpace=WhiteSpace.Normal;
-  opener.style.color=dark;opener.style.backgroundColor=KarineTheme.Paper.Tint;parent.Add(opener);
-  var panel=new VisualElement();panel.style.display=DisplayStyle.None;
-  panel.style.marginBottom=10;parent.Add(panel);
-  opener.clicked+=()=>panel.style.display=panel.style.display==DisplayStyle.None?DisplayStyle.Flex:DisplayStyle.None;
+  var opener=KarineUI.PaperButton(parent,CompactReportSourceLabel(selected())+"  ›",
+   ()=>ReportSourceSheet(reference=>{ setSelected(reference); ConclusionStep(step); }),
+   string.IsNullOrEmpty(selected())?KarinePaperKind.Choice:KarinePaperKind.Quiet,true);
+  opener.style.minHeight=MinimumTouchTarget;opener.style.marginBottom=10;
+  opener.style.fontSize=Typography.Snap(15);
+  opener.style.color=dark;
+ }
+ // Tam ekran kaynak listesi. Tek kaydirma, dort filtre, baska hicbir sey.
+ void ReportSourceSheet(Action<string> choose) {
+  var dark=KarineTheme.Paper.Ink;
+  var muted=KarineTheme.Paper.Faded;
+  var shade=new VisualElement();shade.style.position=Position.Absolute;
+  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
+  shade.style.backgroundColor=KarineTheme.Veil(.82f);root.Add(shade);
+  var paper=new VisualElement();paper.style.position=Position.Absolute;
+  paper.style.left=Length.Percent(8);paper.style.right=Length.Percent(8);
+  paper.style.top=Length.Percent(7);paper.style.bottom=Length.Percent(7);
+  paper.style.paddingLeft=18;paper.style.paddingRight=18;
+  paper.style.paddingTop=14;paper.style.paddingBottom=14;
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;shade.Add(paper);
+  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
+  header.style.alignItems=Align.Center;paper.Add(header);
+  var title=Text(header,T("conclude.source"),dark,20);
+  title.style.flexGrow=1;title.style.marginBottom=0;
+  KarineUI.CloseButton(header,()=>shade.RemoveFromHierarchy(),T("back.file"),true);
   var tabs=new VisualElement();tabs.style.flexDirection=FlexDirection.Row;
-  tabs.style.marginBottom=5;panel.Add(tabs);
-  var searchBar=new VisualElement();searchBar.style.flexDirection=FlexDirection.Row;
-  searchBar.style.alignItems=Align.Center;searchBar.style.marginBottom=5;panel.Add(searchBar);
-  var search=new TextField(){label=T("conclude.search")};search.style.flexGrow=1;search.style.minWidth=0;
-  search.style.height=MinimumTouchTarget;search.style.fontSize=Typography.Snap(18);
-  search.style.paddingLeft=8;search.style.color=dark;
-  search.style.backgroundColor=KarineTheme.Paper.Light;
-  searchBar.Add(search);
-  var clear=KarineUI.CloseButton(searchBar,()=>search.value="",null,true);
-  clear.style.marginLeft=5;
-  var count=Text(panel,"",KarineTheme.Paper.Faded,13);
-  count.style.marginBottom=4;
-  var choices=new ScrollView();choices.style.maxHeight=210;panel.Add(choices);
+  tabs.style.marginTop=10;tabs.style.marginBottom=6;paper.Add(tabs);
+  var count=Text(paper,"",muted,13);count.style.marginBottom=4;
+  var choices=Scroll(paper);
   var rows=new List<VisualElement>();
   var categories=new List<int>();
-  var searchTexts=new List<string>();
   int[] categoryCounts=new int[4];
+  Action<string,string,int,int> add=(label,reference,category,height)=>{
+   var option=KarineUI.PaperButton(choices,label,()=>{
+    shade.RemoveFromHierarchy();choose(reference);
+   },KarinePaperKind.Choice,true);
+   option.style.minHeight=height;option.style.fontSize=Typography.Snap(15);
+   option.style.marginBottom=6;
+   rows.Add(option);categories.Add(category);categoryCounts[category]++;
+  };
   foreach(var source in ComparisonSources()) {
    var item=source;
-   int category=item.kind=="cctv"?3:item.kind=="interview"?2:1;
-   if(category==3) {
-    foreach(var record in item.cctvEvents ?? new CctvEvent[0]) {
-     var chosen=record;
-     var reference=item.id+"#"+chosen.id;
-     var label=T(item.titleKey)+"  ·  "+T(chosen.textKey);
-     var option=KarineUI.PaperButton(null,label,()=>{
-      setSelected(reference);opener.text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(reference)+"  ▾";
-      panel.style.display=DisplayStyle.None;refresh();
-     },KarinePaperKind.Choice,true);
-     option.style.minHeight=58;option.style.fontSize=Typography.Snap(15);
-     option.style.marginBottom=5;choices.Add(option);
-     rows.Add(option);categories.Add(category);searchTexts.Add(normalize(label));categoryCounts[category]++;
-    }
-   } else if(category==2) {
-    foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
-     var chosen=turn;
-     var reference=game.InterviewTurnReference(chosen);
-     var label=T(item.personNameKey)+"  ·  "+T(chosen.promptKey)+"\n"+T(chosen.answerKey);
-     var option=KarineUI.PaperButton(null,label,()=>{
-      setSelected(reference);opener.text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(reference)+"  ▾";
-      panel.style.display=DisplayStyle.None;refresh();
-     },KarinePaperKind.Choice,true);
-     option.style.minHeight=64;option.style.fontSize=Typography.Snap(15);
-     option.style.marginBottom=5;choices.Add(option);
-     rows.Add(option);categories.Add(category);searchTexts.Add(normalize(label));categoryCounts[category]++;
-    }
-   } else {
-    var label=T(item.titleKey)+"\n"+ReportSourcePreview(item);
-    var option=KarineUI.PaperButton(null,label,()=>{
-     setSelected(item.id);opener.text=T("conclude.source")+"  ·  "+T(item.titleKey)+"  ▾";
-     panel.style.display=DisplayStyle.None;refresh();
-    },KarinePaperKind.Choice,true);
-    option.style.minHeight=64;option.style.fontSize=Typography.Snap(15);
-    option.style.marginBottom=5;choices.Add(option);
-    var fullText=T(item.titleKey)+" "+T(item.bodyKey);
-    if(item.fileMeta!=null)foreach(var field in item.fileMeta)
-     fullText+=" "+T(field.labelKey)+" "+T(field.valueKey);
-    rows.Add(option);categories.Add(category);searchTexts.Add(normalize(fullText));categoryCounts[category]++;
-   }
+   if(item.kind=="cctv") {
+    foreach(var record in item.cctvEvents ?? new CctvEvent[0])
+     add(T(item.titleKey)+"  ·  "+T(record.textKey),item.id+"#"+record.id,3,58);
+   } else if(item.kind=="interview") {
+    foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id))
+     add(T(item.personNameKey)+"  ·  "+T(turn.promptKey)+"\n"+T(turn.answerKey),
+      game.InterviewTurnReference(turn),2,64);
+   } else add(T(item.titleKey)+"\n"+ReportSourcePreview(item),item.id,1,64);
   }
   var empty=Text(choices,T("conclude.noMatches"),dark,15);
   empty.style.display=DisplayStyle.None;
@@ -261,11 +247,9 @@ public sealed partial class BubeApp {
   var tabButtons=new List<Button>();
   int activeFilter=0;
   Action updateFilter=()=>{
-   string query=normalize(search.value).Trim();
    int visible=0;
    for(int i=0;i<rows.Count;i++) {
-    bool show=(activeFilter==0 || activeFilter==categories[i]) &&
-     (query.Length==0 || searchTexts[i].Contains(query));
+    bool show=activeFilter==0 || activeFilter==categories[i];
     rows[i].style.display=show?DisplayStyle.Flex:DisplayStyle.None;
     if(show)visible++;
    }
@@ -285,7 +269,6 @@ public sealed partial class BubeApp {
    tab.SetEnabled(i==0 || categoryCounts[i]>0);
    tabButtons.Add(tab);
   }
-  search.RegisterValueChangedCallback(evt=>updateFilter());
   updateFilter();
  }
  string SourceTitle(string id) {

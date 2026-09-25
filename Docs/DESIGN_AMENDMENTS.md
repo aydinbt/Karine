@@ -692,3 +692,10 @@ desteksiz gönderim zaten değerlendirmede karşılığını buluyor.
 Kapak metinleri de (`file.caseType`, `tablet.caseLine`) vakaya özel anahtar
 yoksa genel yedeğe düşüyor ve Dosya #001'in "KONUT HIRSIZLIĞI" başlığını
 taşıyordu. Yedekler nötrleşti, doğrulayıcı her vakadan kendi kapağını istiyor.
+
+## 26 Eylül 2026 — Kaynak seçimi tam ekrana taşındı, arama kaldırıldı
+
+Rapor adımının içindeki kaynak paneli iç içe iki kaydırma, bir arama alanı ve
+dört filtre taşıyordu; telefonda okunmuyor ve yönetilemiyordu. Liste tam ekrana
+çıktı, arama alanı kaldırıldı — liste zaten bu vakada okunmuş kayıtlardan
+oluşuyor ve dört filtre onu bölmeye yetiyor. Ekranda her an tek bir iş var.
