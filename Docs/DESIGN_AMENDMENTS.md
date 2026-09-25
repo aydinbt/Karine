@@ -241,3 +241,15 @@ Dört soru bu kuralı çiğniyordu:
 Yanıtlar değişmedi: doğru kaynak öne sürülünce aynı itiraf/savunma geliyor. Değişen tek şey, oyuncunun o kaynağı kendisinin seçmek zorunda olması.
 
 **Doğrulama.** `CaseRules` artık sorunun metniyle kaynağın metni arasında ortak üç sözcüklük dizi arıyor ve bulursa not düşüyor. Eşik üçtür: dört sözcük, yakalamak istediğimiz `hasan_follow.mertStatement` ihlalini kaçırıyordu. Sezgisel bir kontroldür, o yüzden sorun değil **not** olarak raporlanır. Mevcut metinlerde yanlış alarm yok.
+
+## Görüşmelerin ilk sorusu artık zorunlu değil (25 Eylül 2026)
+
+**Ölçüm.** Dosya #001 rastgele 1500 oynanışta benzetildi. Sonuç: 33 içerik adımı, **çıkmaz yok**, ama her görüşmenin ilk hamlesi tek kapıydı — Mert'te yalnız `mert.day`, Elif'te `elif.relationship`, Hasan'da `hasan.sighting`. "Devam et, devam et" hissinin ölçülebilir kaynağı buydu.
+
+**Değişiklik.** Metni önceki cevabı gerçekten varsaymayan dokuz sorunun `requiresAsked` kapısı kaldırıldı (`mert.key`, `mert.neighbor`, `elif.visit`, `elif.remaining`, `elif.contact`, `hasan.where`, `hasan.help`, `mert_follow.neighbor`, `hasan_follow.sale`). Varsayanlarda kapı **duruyor**: "Kapıyı çıkarken kilitlediğinizden emin misiniz?" çıktığını öğrenmeden sorulamaz.
+
+İki kapı da doğru hedefe bağlandı: `elif.avoid` artık `elif.contact`'a bağlı (konuşmadığını orada söylüyor, `elif.visit`'te değil), `elif_follow.call` üç halkalı zincir yerine doğrudan `elif_follow.footage`'a.
+
+**Sonuç.** Ortalama seçenek 4,4 → 5,0. Her oynanışta zorunlu kalan tek hamle `report`'u okumak — dosyayı açmadan soruşturma başlamaz, bu doğru.
+
+**Açık kalan koridor.** `camera` düğümü yalnız `hasan.camera` sorulunca açılıyor; ikinci perdeye tek giriş var. Genişletmek yeni diyalog yazmayı gerektirir, tasarım kararıdır.

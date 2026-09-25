@@ -50,9 +50,6 @@
           "id": "mert.key",
           "promptKey": "mert.key.question",
           "answerKey": "mert.key.answer",
-          "requiresAsked": [
-            "mert.day"
-          ],
           "topicKey": "interview.topic.home",
           "aboutPersonIds": [
             "mert",
@@ -63,9 +60,6 @@
           "id": "mert.neighbor",
           "promptKey": "mert.neighbor.question",
           "answerKey": "mert.neighbor.answer",
-          "requiresAsked": [
-            "mert.day"
-          ],
           "topicKey": "interview.topic.neighbors",
           "aboutPersonIds": [
             "hasan"
@@ -141,9 +135,6 @@
           "id": "elif.visit",
           "promptKey": "elif.visit.question",
           "answerKey": "elif.visit.answer",
-          "requiresAsked": [
-            "elif.relationship"
-          ],
           "topicKey": "interview.topic.day",
           "aboutPersonIds": [
             "elif"
@@ -153,9 +144,6 @@
           "id": "elif.contact",
           "promptKey": "elif.contact.question",
           "answerKey": "elif.contact.answer",
-          "requiresAsked": [
-            "elif.visit"
-          ],
           "topicKey": "interview.topic.relationships",
           "aboutPersonIds": [
             "elif",
@@ -166,9 +154,6 @@
           "id": "elif.remaining",
           "promptKey": "elif.remaining.question",
           "answerKey": "elif.remaining.answer",
-          "requiresAsked": [
-            "elif.relationship"
-          ],
           "topicKey": "interview.topic.belongings",
           "aboutPersonIds": [
             "elif"
@@ -179,7 +164,7 @@
           "promptKey": "elif.avoid.question",
           "answerKey": "elif.avoid.answer",
           "requiresAsked": [
-            "elif.visit"
+            "elif.contact"
           ],
           "topicKey": "interview.topic.relationships",
           "aboutPersonIds": [
@@ -234,9 +219,6 @@
           "id": "hasan.where",
           "promptKey": "hasan.where.question",
           "answerKey": "hasan.where.answer",
-          "requiresAsked": [
-            "hasan.sighting"
-          ],
           "topicKey": "interview.topic.day",
           "aboutPersonIds": [
             "hasan"
@@ -272,9 +254,6 @@
           "id": "hasan.help",
           "promptKey": "hasan.help.question",
           "answerKey": "hasan.help.answer",
-          "requiresAsked": [
-            "hasan.sighting"
-          ],
           "topicKey": "interview.topic.neighbors",
           "aboutPersonIds": [
             "mert",
@@ -453,7 +432,7 @@
           "promptKey": "elif_follow.call.question",
           "answerKey": "elif_follow.call.answer",
           "requiresAsked": [
-            "elif_follow.why"
+            "elif_follow.footage"
           ],
           "topicKey": "interview.topic.explanation",
           "aboutPersonIds": [
@@ -494,9 +473,6 @@
           "id": "mert_follow.neighbor",
           "promptKey": "mert_follow.neighbor.question",
           "answerKey": "mert_follow.neighbor.answer",
-          "requiresAsked": [
-            "mert_follow.spare"
-          ],
           "topicKey": "interview.topic.neighbors",
           "aboutPersonIds": [
             "mert",
@@ -564,9 +540,6 @@
           "id": "hasan_follow.sale",
           "promptKey": "hasan_follow.sale.question",
           "answerKey": "hasan_follow.sale.answer",
-          "requiresAsked": [
-            "hasan_follow.spare"
-          ],
           "presentedSourceId": "recovery",
           "topicKey": "interview.topic.belongings",
           "aboutPersonIds": [
