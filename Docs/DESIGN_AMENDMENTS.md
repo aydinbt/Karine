@@ -191,7 +191,7 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 - **Üretici filigranı "Geç" düğmesiyle örtülür**, dünya sinematiğindeki gibi. Filigran yeri artık veriden gelir: `CornerMark { x, y, w, h }`, filmin kendi karesine **oranlı** (0..1). `PositionIntroSkip` 1280×720'ye sabitlenmek yerine filmin ekrandaki gerçek dikdörtgenini hesaplar, böylece her video kendi filigran yerini söyleyebilir ve telefonun eni ne olursa olsun düğme doğru yere oturur. `world01` değerleri eskisiyle piksel eşdeğer.
 - Video oynatılamazsa elle çizilmiş animasyon devreye girer; oyun bu andan hiçbir koşulda yoksun kalmaz. "Geç" ile videonun bitişi aynı yere gelir, bayrak ikinci çağrıyı yutar.
 
-**Geçiş: karart, sonra göz aç.** Sinematiğin son 1,15 saniyesinde ekran siyaha kapanır; masa da siyahtan 1,25 saniyede açılır. İki görüntü birbirine çarpmaz. Açılma boyunca kaplayan gölge dokunmaları tutar, oyuncu göremediği bir şeye basamaz.
+**Geçiş: karart, sonra göz aç.** Karartma **videonun kendi içinde** (kullanıcı ekledi); masa da siyahtan 1,25 saniyede açılır. İki görüntü birbirine çarpmaz. Açılma boyunca kaplayan gölge dokunmaları tutar, oyuncu göremediği bir şeye basamaz.
 
 **(Geri alındı — 25 Eylül 2026)** Bir ara masa arka planı videonun son karesi yapılmıştı. Kullanıcı **eski masa görselini geri istedi**; `Desk()` yine `DeskReference.png` yüklüyor ve künye şeridi üstte. Videonun son karesiyle masanın birebir aynı olmaması artık sorun değil, çünkü aradaki geçiş karartmayla yapılıyor.
 
@@ -201,6 +201,6 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 
 **Terminal ekranındaki arma da silindi** (kullanıcı kararı): ekranda yalnız "CCTV ARŞİVİ" kutusu kalıyor. Kenarlardan interpolasyon denendi ama armanın ucu seçilen dikdörtgenin dışına taştığı için dikey izler bıraktı; ekranın o bölgesi zaten neredeyse düz olduğundan çevresinden örneklenen tek renkle doldurmak temiz sonuç verdi. **Dosya kapağındaki arma kalıyor** — kullanıcı kararı, uydurma görünüyor.
 
-**Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" ve armayı gösteriyor**; video yeniden üretilmeli.
+**(Çözüldü — 25 Eylül 2026)** Kullanıcı videoyu yeniden üretti (`case_fix_animation.mov`, 2,83 sn): terminalde yalnız "CCTV ARŞİVİ" var, arma ve kurum adı yok, karartma da videonun içinde. Koddaki karartma kaldırıldı — aynı işi iki kez yapmanın anlamı yok. Filigran yine sağ altta (0,906 / 0,833) ve "Geç" düğmesiyle örtülüyor; `CornerMark` veriden geldiği için tek satır değişti.
 
 **Durum `[~]`:** Testler geçiyor ama **Play Mode'da gözle doğrulanmadı** — karartma/açılma geçişinin akıcılığı görülmeli.

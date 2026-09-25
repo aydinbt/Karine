@@ -143,7 +143,7 @@ Yazı tipi tektir (IBM Plex Mono, kök öğeden miras). Punto da tektir: `Typogr
 
 Üretici filigranı **"Geç" düğmesiyle örtülür**. Filigran yeri veriden gelir — `CornerMark { x, y, w, h }`, filmin kendi karesine oranlı (0..1). `PositionIntroSkip` filmin ekrandaki gerçek dikdörtgenini 16:9'dan hesaplar, yani telefonun eni ne olursa olsun düğme doğru yere oturur. Sabit 1280×720 varsayımı kaldırıldı; `world01` değerleri piksel eşdeğer kaldı.
 
-Sinematiğin son 1,15 saniyesinde ekran siyaha kapanır, masa da siyahtan 1,25 saniyede açılır (`OpenEyes`); açılma boyunca kaplayan gölge dokunmaları tutar. Masaya bırakılış videosu oynatılamazsa elle çizilmiş `FirstDeskArrival` animasyonu devreye girer. "Geç" ile videonun bitişi aynı yere gelir; `deskArrivalDone` bayrağı ikinci çağrıyı yutar.
+Masaya bırakılış videosu kendi içinde siyaha kapanır; masa da siyahtan 1,25 saniyede açılır (`OpenEyes`) ve açılma boyunca kaplayan gölge dokunmaları tutar. Masaya bırakılış videosu oynatılamazsa elle çizilmiş `FirstDeskArrival` animasyonu devreye girer. "Geç" ile videonun bitişi aynı yere gelir; `deskArrivalDone` bayrağı ikinci çağrıyı yutar.
 
 ## Vaka teklifi akışı
 

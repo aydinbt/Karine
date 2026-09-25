@@ -75,8 +75,6 @@ public sealed class BubeApp : MonoBehaviour {
  WorldIntro activeIntro;
  CornerMark activeMark;
  bool deskArrivalDone;
- VisualElement deskArrivalFade;
- const float DeskArrivalFadeSeconds=1.15f;
  Action introAfter;
  VideoPlayer cctvPlayer;
  RenderTexture cctvTexture;
@@ -824,22 +822,6 @@ public sealed class BubeApp : MonoBehaviour {
   film.style.position=Position.Absolute;
   film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
   root.Add(film);
-  // Sinematik karanliga kapanir, masa da karanliktan acilir: iki goruntu
-  // birbirine carpmadan, goz acar gibi gecis yapar.
-  var fade=new VisualElement();
-  fade.style.position=Position.Absolute;
-  fade.style.left=0;fade.style.right=0;fade.style.top=0;fade.style.bottom=0;
-  fade.style.backgroundColor=Color.black;fade.style.opacity=0;
-  fade.pickingMode=PickingMode.Ignore;
-  root.Add(fade);
-  deskArrivalFade=fade;
-  fade.schedule.Execute(()=>{
-   if(introPlayer==null || deskArrivalFade==null)return;
-   double length=introPlayer.length;
-   if(length<=0)return;
-   float remaining=(float)(length-introPlayer.time);
-   deskArrivalFade.style.opacity=Mathf.Clamp01((DeskArrivalFadeSeconds-remaining)/DeskArrivalFadeSeconds);
-  }).Every(16);
   var skip=new Button(()=>FinishDeskArrival(after,false)){text=T("intro.skip")};
   skip.style.position=Position.Absolute;
   skip.style.backgroundColor=Card;skip.style.color=Ink;
@@ -870,7 +852,7 @@ public sealed class BubeApp : MonoBehaviour {
   if(deskArrivalDone)return;
   deskArrivalDone=true;
   if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
-  introSkip=null;activeMark=null;deskArrivalFade=null;
+  introSkip=null;activeMark=null;
   if(introPlayer!=null){introPlayer.Stop();Destroy(introPlayer);introPlayer=null;}
   if(introTexture!=null){introTexture.Release();Destroy(introTexture);introTexture=null;}
   if(fallback)StartCoroutine(FirstDeskArrival(after));
