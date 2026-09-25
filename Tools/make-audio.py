@@ -188,28 +188,6 @@ def ui_press():
  reverb(out, mix=0.07, room=0.55)
  return normalize(fade(out, 0.006, 0.05), 0.34)
 
-def ui_page():
- # Kâğıt. İlk sürüm parlaktı ve dosya sekmelerinde "daktilo tıkırtısı" gibi
- # duyuluyordu: yüksek bant fazla, açılış fazla keskindi. Artık koyu ve
- # yayvan — kâğıdın tıkı değil **sürtünmesi**. Üç sürtünme kalıyor (tek
- # patlama "ıss" olur) ama hepsinin açılışı yumuşak.
- out = buf(0.40)
- rng = random.Random(7)
- for k, (start, dur, freq, amp) in enumerate(
-   ((0.00, 0.19, 1500, 0.50), (0.06, 0.22, 1050, 0.55), (0.15, 0.24, 2100, 0.28))):
-  part = noise(dur, 20 + k)
-  bandpass(part, freq, 0.8); lowpass(part, 3200, poles=2)
-  i0 = int(start * RATE); n = len(part)
-  for i in range(n):
-   t = i / n
-   grain = 0.75 + 0.25 * rng.random()          # kâğıdın kendi düzensizliği
-   attack = min(1.0, t / 0.16)                 # keskin başlangıç yok
-   env = attack * math.exp(-3.4 * t) * grain
-   if i0 + i < len(out): out[i0 + i] += part[i] * amp * env
- lowpass(out, 3800)
- reverb(out, mix=0.12, room=0.64)
- return normalize(fade(out, 0.010, 0.07), 0.30)
-
 def ui_typewriter():
  # Daktilo tuşu. Artık **yalnız faks yazarken** çalıyor: resmî bir kâğıdın
  # basılması. Arayüz düğmelerinde bu ses yoktu, ama `ui_press` ona benzediği
@@ -293,55 +271,39 @@ def room_interview():
   out[i] = deep[i] * 0.58 + close[i] * 0.11 * breath
  return normalize(steady_reverb(out, mix=0.16, room=0.74, damp=0.30), 0.22)
 
-# --- karakterin sesi ---------------------------------------------------------
+# --- ifadenin yazılma sesi ----------------------------------------------------
 
-def vowel(f1, f2, f3, dur=0.15, f0=128.0, glide=0.90, seed=61, breath=0.05):
- """İnsan sesi yaklaşımı: gırtlak kaynağı + üç formant yankılayıcı.
- İlk sürüm sinüs yığınıydı ve sentezleyici gibi duyuluyordu. Gerçekçiliği üç
- şey veriyor: (1) harmonik açısından **zengin** bir kaynak (testere), (2)
- yüksek Q'lu formantlar — sesli harfin rengi budur, (3) düşen perde ve küçük
- titreme; sabit perde insan değil zil olur. Nefes için az miktarda gürültü
- katılır, çünkü kuru kaynak plastik durur."""
- n = int(dur * RATE)
- src = array.array('d', bytes(8 * n))
- rng = random.Random(seed)
- phase = 0.0
- jitter = 0.0
+def key(thud=170.0, click=2100.0, dur=0.085, seed=71, level=0.26):
+ """Klavye tuşu. Daktilo değil: çelik kol yok, çınlama yok. Üç katman —
+ tuşun tabana **vurması** (alçak, kısa gövde), plastiğin kuru tıkı (bantlı
+ gürültü) ve tuşun altındaki yayın çok kısa nefesi. Bilerek sönük: cümle
+ yazılırken düzinelerce kez duyulacak, dikkat isteyen bir ses burada
+ yorgunluk yapar."""
+ out = buf(dur)
+ n = len(out)
+ # Gövde: tuşun tabana vuruşu
+ body = buf(dur)
+ sine(body, thud, 1.0, dur, env=lambda t: math.exp(-38 * t))
+ sine(body, thud * 1.94, 0.35, dur, env=lambda t: math.exp(-60 * t))
+ # Tık: plastik, kısa ve bantlı — parlak uç yok
+ tick = noise(dur, seed)
+ bandpass(tick, click, 1.1); lowpass(tick, 3400, poles=2)
+ # Yay: tuşun geri dönüşü, neredeyse duyulmaz
+ spring = noise(dur, seed + 1)
+ bandpass(spring, 900, 2.0)
  for i in range(n):
   t = i / n
-  # Perde hecenin sonuna doğru düşer (doğal), üstüne çok küçük bir titreme
-  jitter += (rng.uniform(-1, 1) - jitter) * 0.08
-  freq = f0 * (1.0 + (glide - 1.0) * t) * (1.0 + 0.012 * jitter)
-  phase += freq / RATE
-  if phase >= 1.0: phase -= 1.0
-  src[i] = 2.0 * phase - 1.0            # testere: gırtlak darbesine yakın
- lowpass(src, 2600, poles=1)            # gırtlak tayfı yüksekte düşer
- if breath > 0:
-  air = noise(dur, seed + 1); bandpass(air, f2, 1.2)
-  for i in range(n): src[i] += air[i] * breath
+  out[i] = (body[i] * 0.62
+            + tick[i] * 0.30 * math.exp(-95 * t)
+            + spring[i] * 0.08 * math.exp(-28 * t) * min(1.0, t / 0.25))
+ lowpass(out, 4200)
+ reverb(out, mix=0.06, room=0.45)
+ return normalize(fade(out, 0.004, 0.06), level)
 
- # Formantlar paralel yankılayıcı: sesli harfin kimliği
- out = array.array('d', bytes(8 * n))
- for freq, q, gain in ((f1, 9.0, 1.00), (f2, 11.0, 0.55), (f3, 13.0, 0.18)):
-  band = array.array('d', src)
-  bandpass(band, freq, q)
-  for i in range(n): out[i] += band[i] * gain
-
- # Hecenin zarfı: yumuşak açılış, dolgun gövde, yumuşak kapanış
- for i in range(n):
-  t = i / n
-  env = min(1.0, t / 0.12) * (1.0 - max(0.0, (t - 0.55) / 0.45) ** 1.6)
-  out[i] *= env
- lowpass(out, 3600)
- reverb(out, mix=0.10, room=0.62)
- return normalize(fade(out, 0.006, 0.02), 0.30)
-
-# Üç sesli harf. Görüşmede sırayla değil **karışık** çalınır: tek bir hece
-# tekrar ederse konuşma değil sinyal olur. Perde kişiden gelir; perde kayması
-# formantları da kaydırdığı için üç kişi gerçekten üç ses gibi durur.
-def voice_a(): return vowel(760.0, 1180.0, 2600.0, dur=0.155, f0=126.0, seed=61)
-def voice_e(): return vowel(490.0, 1840.0, 2580.0, dur=0.140, f0=131.0, seed=62)
-def voice_o(): return vowel(420.0,  790.0, 2550.0, dur=0.165, f0=122.0, seed=63, glide=0.88)
+# İki varyant: aynı klavye, farklı tuş. Karışık çalınır, yoksa tekrar eden tek
+# klip konuşma değil mors sinyali gibi duyulur.
+def ui_key():     return key(thud=178.0, click=2200.0, dur=0.085, seed=71, level=0.26)
+def ui_key_low(): return key(thud=148.0, click=1750.0, dur=0.095, seed=73, level=0.24)
 
 # --- ana menü müziği ---------------------------------------------------------
 
@@ -411,13 +373,11 @@ def menu_theme():
 
 SOUNDS = [
  ("ui_press",        ui_press),
- ("ui_page",         ui_page),
  ("ui_typewriter",   ui_typewriter),
  ("ui_stamp",        ui_stamp),
  ("ui_notification", ui_notification),
- ("voice_a",         voice_a),
- ("voice_e",         voice_e),
- ("voice_o",         voice_o),
+ ("ui_key",          ui_key),
+ ("ui_key_low",      ui_key_low),
  ("room_office",     room_office),
  ("room_interview",  room_interview),
  ("menu_theme",      menu_theme),

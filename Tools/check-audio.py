@@ -14,7 +14,7 @@ LOOPS = {"room_office", "room_interview", "menu_theme"}
 # Beklenen seviye aralığı (dBFS, RMS). Arayüz sesi alçak, ortam çok daha alçak.
 # Arayüz sesi alçak, oda ortamı çok daha alçak. Ürkütmeme kararından sonra
 # odaların üst sınırı indirildi: bir oda ortamı fark edilirse zaten gürültüdür.
-BANDS = {"ui": (-30.0, -11.0), "voice": (-30.0, -12.0),
+BANDS = {"ui": (-30.0, -11.0),
          "room": (-44.0, -26.0), "menu": (-26.0, -11.0)}
 
 def db(v): return 20 * math.log10(max(v, 1e-9))
@@ -92,22 +92,6 @@ def goertzel(x, freq, rate, i0, n):
   s2, s1 = s1, s0
  return math.sqrt(max(0.0, s1*s1 + s2*s2 - c*s1*s2)) / n
 
-# Sesli harflerin formantları. Bir sesin "insan" gibi duyulması formant
-# tepelerine bağlıdır; ölçüm bunu sorar: F1 ve F2 çevresindeki güç, formant
-# aralarındaki bir frekanstan belirgin yüksek mi.
-VOWELS = {"voice_a": (760.0, 1180.0), "voice_e": (490.0, 1840.0), "voice_o": (420.0, 790.0)}
-
-def check_vowel(name, path):
- x, rate = read(path)
- f1, f2 = VOWELS[name]
- i0, n = int(0.03 * rate), int(0.06 * rate)
- between = math.sqrt(f1 * f2) if f2 / f1 > 2.2 else (f1 + f2) / 2 * 1.9
- strong = max(goertzel(x, f1, rate, i0, n), goertzel(x, f2, rate, i0, n))
- weak = goertzel(x, between, rate, i0, n)
- ratio = db(strong) - db(weak)
- print("      formant F1 %.0f / F2 %.0f Hz  aradan %+5.1f dB" % (f1, f2, ratio))
- return [] if ratio >= 6.0 else ["formant tepesi yok (%+.1f dB): sentez gibi duyulur" % ratio]
-
 # Menü müziğinin dört akoru. Akor gerçekten duyuluyorsa kökün gücü, akora
 # yabancı bir aralıktan (triton) belirgin biçimde yüksek olmalı.
 CHORDS = [(0.0, 220.00, 311.13), (8.0, 174.61, 246.94),
@@ -135,10 +119,6 @@ if __name__ == "__main__":
   found += 1
   name = file[:-4]
   failed += len(check(name, os.path.join(AUDIO, file)))
-  if name in VOWELS:
-   found_problems = check_vowel(name, os.path.join(AUDIO, file))
-   for problem in found_problems: print("      ! " + problem)
-   failed += len(found_problems)
   if name == "menu_theme":
    found_problems = check_chords(os.path.join(AUDIO, file))
    for problem in found_problems: print("      ! " + problem)

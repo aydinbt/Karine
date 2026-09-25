@@ -34,7 +34,7 @@ Eski `Bootstrap.unity` build listesinde **değildir**; `BootScene` ile byte düz
 - `Resources/Bube/Cases/case001.json` — 9 düğüm, 30 soru. Yayımlanmış.
 - `Resources/Bube/Cases/case002.json` — 7 düğüm, 12 soru, `draft: true`. Oyuncuya açılmaz (kod `draft` bayrağına uyuyor: `BubeApp.cs:91`, `:2748`).
 - `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (86 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
-- `Resources/Bube/Audio/` — **henüz boş.** `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_page`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `menu_theme`, `room_office`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
+- `Resources/Bube/Audio/` — **henüz boş.** `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `menu_theme`, `room_office`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
 - `StreamingAssets/Bube/` — `world01_intro.mp4` (4.1 MB) + 4 CCTV klibi (12 MB).
 
 Vaka verisi bütünlüğü her test koşumunda otomatik doğrulanır (aşağıdaki "İçerik doğrulama"). case001 ve case002'de sarkan referans, erişilemeyen düğüm veya erişilemeyen soru yoktur.
@@ -187,12 +187,11 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 | dosya | ne | içe aktarım |
 |---|---|---|
 | `ui_press` | yumuşak düğme: üstü kapalı, yuvarlak, alçak "tup" | ADPCM, belleğe açılır |
-| `ui_page` | kâğıt: üç düzensiz **sürtünme**, koyu ve yayvan | ADPCM |
 | `ui_typewriter` | daktilo tuşu — **yalnız faks basılırken** | ADPCM |
 | `ui_stamp` | mühürün lastiği: tok, tek, kesin | ADPCM |
 | `ui_notification` | faksın küçük zili: anharmonik kısmiler + mekanizma tıkı | ADPCM |
 | `menu_theme` | 32 s neo-noir döngü, Am–F–Dm–E | Vorbis, akış |
-| `voice_a` `voice_e` `voice_o` | üç sesli harf: gırtlak kaynağı + üç formant | ADPCM |
+| `ui_key` `ui_key_low` | klavye tuşu: gövde vuruşu + plastik tık, iki varyant | ADPCM |
 | `room_office` | 24 s döngü: kapalı bir odanın sıcak havası | Vorbis, akış |
 | `room_interview` | 24 s döngü: aynısı ama daha kapalı, üst frekans yok | Vorbis, akış |
 
@@ -203,11 +202,11 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 **Hangi ses nerede çalar** — bu eşleme sesin kendisi kadar önemli, çünkü doğru ses yanlış yerde yanlış sestir:
 
 - `ui_press` her kit düğmesi (`KarineUI.Sounded`ın varsayılanı).
-- `ui_page` kâğıt düğmesi (`PaperButton`) ve evrak gezintisinin okları — sayfa çevirmenin sesi kâğıttır.
 - `ui_typewriter` yalnız faks basılırken (`FaxPage`'in değerlendirme satırı). Arayüz düğmelerinde hiç yoktu.
-- `AudioDirector.Voices` (üç sesli harf) görüşmede karşıdakinin cümlesi yazılırken, altı karakterde bir, karışık sırayla. Kelime yok: kelime olsa Türkçe metnin üstüne yabancı bir dil binerdi. Perde `AudioDirector.VoicePitch(personId)` ile kimlikten türer — veri dosyasına alan eklemeden üç kişi üç ses olur, ve aynı kişi her zaman aynı perdeyle konuşur. Her vuruşta hece, perde ve ağırlık biraz oynar, yoksa insan değil makine duyulur.
+- `AudioDirector.Keys` (iki tuş varyantı) görüşmede karşıdakinin cümlesi yazılırken, beş karakterde bir, karışık sırayla ve alçak (0,55 kazanç).
 
-**Ses neden formant sentezi.** İlk sürüm sinüs yığınıydı ve sentezleyici gibi duyuluyordu. Gerçekçiliği üç şey veriyor: harmonik açısından zengin bir kaynak (testere dalgası, gırtlak darbesine yakın), yüksek Q'lu üç formant yankılayıcı (sesli harfin kimliği formant tepeleridir) ve hecenin sonuna doğru **düşen** perde ile küçük bir titreme — sabit perde insan değil zil olur. Az miktarda nefes gürültüsü katılır, çünkü kuru kaynak plastik durur. `check-audio.py` bunu ölçer: F1 ve F2 çevresindeki güç, formant aralarındaki frekanstan en az 6 dB yüksek olmalı. Perde kayması formantları da kaydırdığı için kişi başına perde, gerçekten farklı bir ses gibi durur.
+**Konuşma sesi neden konuşma değil klavye.** İki sürüm denendi, ikisi de kullanıcı kulağında düştü: sinüs yığını sentezleyici gibi, formant sentezi (gırtlak kaynağı + üç formant) ise insan sesi **taklidi** gibi duyuldu — taklit, kaydın kendisi olmadıkça tekinsiz kalıyor. Ses artık konuşmayı taklit etmiyor: duyulan şey ifadenin kayda geçirilmesi, yani tuşlar. Bu hem dürüst (oyun yazıyla konuşuyor) hem dayanıklı — yeni vakaların yeni kişileri için ses verisi gerekmiyor. Daktilo değil klavye: çelik kol ve çınlama yok, çünkü daktilo faksın sesidir ve iki yüzey karışmamalı. Kişi başına perde türetmek de kalktı; tuş, karşıdakinin sesi değil.
+
 - `ui_stamp` mühür, `ui_notification` gelen evrak.
 
 `Typewriter(label, line, soundId, pitch, gain, every)` — metin harf harf yazılırken ne duyulacağı **satırın kime ait olduğuna** bağlıdır, o yüzden çağrı yerinden gelir.

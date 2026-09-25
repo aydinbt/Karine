@@ -29,10 +29,10 @@ public static class ProjectRules {
  // `AudioDirector`ın ve sahne sesinin beklediği klipler. Vakanın kendi ortam
  // sesi (`CaseData.ambienceId`) burada değil, vaka kuralında denetlenir.
  public static readonly string[] RequiredClips = new[] {
-  AudioDirector.Press, AudioDirector.Page, AudioDirector.Typewriter,
+  AudioDirector.Press, AudioDirector.Typewriter,
   AudioDirector.Stamp, AudioDirector.Notification,
   "menu_theme", "room_office", "room_interview",
- }.Concat(AudioDirector.Voices).ToArray();
+ }.Concat(AudioDirector.Keys).ToArray();
 
  // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 8'e indi.
  // Kalan sekiz renk oyun **sanatıdır**, arayüz paleti değil: piksel portrenin göz

@@ -576,3 +576,13 @@ Sekiz klip yer tutucu değil; her biri bir karar. Referans dünya 90'lar sonu bi
 **Tek hece de yetmiyordu:** aynı klip tekrar ederse konuşma değil sinyal olur. Artık üç sesli harf var (`voice_a`, `voice_e`, `voice_o`) ve karışık sırayla çalıyor; her vuruşta hece, perde ve ağırlık biraz oynuyor. Kelime hâlâ yok ve olmayacak: kelime, Türkçe metnin üstüne yabancı bir dil bindirir ve her cümle için ayrı kayıt ister.
 
 Ölçüm de büyüdü: `check-audio.py` artık formant tepesi arıyor — F1/F2 çevresindeki güç, formant aralarındaki frekanstan en az 6 dB yüksek olmalı. Üç sesli harf +11,9 / +18,5 / +29,7 dB ile geçiyor. **Yine kulakla dinlenmedi.**
+
+## Kâğıt sesi kalktı, konuşma taklidi yerine klavye (25 Eylül 2026, aynı gün)
+
+**Kullanıcı:** "ui_page çok kötü, buradaki amaç nedir? Kâğıt sesi olmasına gerek yok, buton sesi koyabiliriz." — ve: "a e o voice sesi de kötü, onun yerine klavye sesi olabilir, chat sesi olabilir."
+
+**`ui_page` tamamen kalktı.** Diegetic gerekçe ("dosya sekmesi kâğıttır, sayfa çevirmenin sesi kâğıt olur") kulakta karşılığını bulmadı: sekme bir düğmedir, öyle de duyulmalı. Kâğıt düğmesi (`PaperButton`) ve evrak gezintisinin okları artık `ui_press` çalıyor; klip, generatör ve doğrulayıcı kaydı silindi. Bir sesin gerekçesi güzel olabilir ve ses yine kötü olabilir; ölçüt kulak.
+
+**Konuşma taklidi bırakıldı.** İki sürüm denendi — sinüs yığını sentezleyici, formant sentezi ise insan sesi taklidi gibi duyuldu. Taklit, kaydın kendisi olmadıkça tekinsiz kalıyor; oyun da yazıyla konuşuyor, sesle değil. **Artık görüşmede duyulan şey konuşma değil, ifadenin kayda geçirilmesi:** klavye tuşu (`ui_key` / `ui_key_low`, karışık ve alçak, 0,55 kazanç). Daktilo değil klavye — çelik kol ve çınlama yok, çünkü daktilo faksın sesidir ve iki yüzey karışmamalı.
+
+Bunun bir yan sonucu var ve iyi bir sonuç: `VoicePitch` de kalktı. Tuş karşıdakinin sesi olmadığı için kişi başına perde anlamsızdı; yeni vakaların yeni kişileri artık ses tarafında hiçbir veri istemiyor. Dokuz klip, 0 bulgu, 98 EditMode + 7 PlayMode yeşil. **Yine kulakla dinlenmedi.**

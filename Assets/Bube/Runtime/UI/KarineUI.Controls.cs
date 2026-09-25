@@ -113,15 +113,14 @@ public static partial class KarineUI {
                                          Action onPrev, Action onNext) {
   var nav = Row(parent);
   nav.style.justifyContent = Justify.Center;
-  // Sayfa çevirmenin sesi kâğıttır, düğme değil: evrak gezintisi diegetic.
-  var back = IconButton(nav, "nav_prev", onPrev, null, AudioDirector.Page);
+  var back = IconButton(nav, "nav_prev", onPrev);
   back.SetEnabled(index > 1);
   var counter = Technical(nav, index.ToString("00") + " / " + count.ToString("00"), 21);
   counter.style.marginBottom = 0;
   counter.style.marginLeft = KarineTheme.SpaceLg;
   counter.style.marginRight = KarineTheme.SpaceLg;
   counter.style.color = KarineTheme.Primary;
-  var next = IconButton(nav, "nav_next", onNext, null, AudioDirector.Page);
+  var next = IconButton(nav, "nav_next", onNext);
   next.SetEnabled(index < count);
   next.style.marginRight = 0;
   return nav;

@@ -18,13 +18,13 @@ public sealed class AudioDirector : MonoBehaviour {
 
  // Ekranların kullandığı adlar. Dosya adı da bunlardır; ekranlar yol yazmaz.
  public const string Press        = "ui_press";
- public const string Page         = "ui_page";
  public const string Typewriter   = "ui_typewriter";
  public const string Stamp        = "ui_stamp";
  public const string Notification = "ui_notification";
- // Konuşma tek klip değil üç sesli harf: tek hece tekrar ederse konuşma değil
- // sinyal olur.
- public static readonly string[] Voices = { "voice_a", "voice_e", "voice_o" };
+// Görüşmede cümle **yazılırken** duyulan tuş sesi: konuşmanın taklidi değil,
+ // ifadenin kayda geçirilmesi. İki varyant, çünkü tek klip tekrar ederse
+ // konuşma değil sinyal olur.
+ public static readonly string[] Keys = { "ui_key", "ui_key_low" };
 
  AudioSource music, ambience, effects;
  readonly Dictionary<string, AudioClip> cache = new Dictionary<string, AudioClip>();
@@ -82,15 +82,6 @@ public sealed class AudioDirector : MonoBehaviour {
   if (clip == null) return;
   effects.pitch = Mathf.Clamp(pitch, 0.5f, 2f);
   effects.PlayOneShot(clip, SoundSettings.SfxGain * Mathf.Clamp01(gain));
- }
-
- // Kişinin sesi kimliğinden türer: veri dosyasına yeni alan eklemeden üç kişi
- // üç perde olur, ve aynı kişi her zaman aynı perdeyle konuşur.
- public static float VoicePitch(string personId) {
-  if (string.IsNullOrEmpty(personId)) return 1f;
-  int hash = 17;
-  foreach (var letter in personId) hash = hash * 31 + letter;
-  return 0.88f + (Mathf.Abs(hash) % 25) * 0.01f;   // 0,88 – 1,12
  }
 
  public void PlayMusic(string id) => Loop(music, id, ref musicId);

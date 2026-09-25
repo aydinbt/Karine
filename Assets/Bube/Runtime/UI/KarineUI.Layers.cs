@@ -18,7 +18,7 @@ public static partial class KarineUI {
  public static Button PaperButton(VisualElement parent, string label, Action onClick,
                                   KarinePaperKind kind = KarinePaperKind.Choice,
                                   bool leftAlign = false) {
-  var button = new Button(Sounded(onClick, AudioDirector.Page)) { text = label };
+  var button = new Button(Sounded(onClick)) { text = label };
   Color fill, ink;
   switch (kind) {
    case KarinePaperKind.Action: fill = KarineTheme.Paper.Stamp; ink = KarineTheme.Primary; break;
