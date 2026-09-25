@@ -295,3 +295,9 @@ Sonuç: dört kaynak-sunulan sorunun hepsinde kapsama **%100** — seçicide gö
 ## Görüşmede geri dönüş (25 Eylül 2026)
 
 Bir soruyu seçtikten sonra vazgeçmenin tek yolu **görüşmeyi tümden bitirmekti**. Hem kaynak seçicisine hem de kaynak gerektirmeyen sorunun "dinle" adımına "‹ Vazgeç · Sorulara dön" eklendi; ikisi de soru listesine döner, hiçbir şey sorulmuş sayılmaz.
+
+## Yem metinleri: şüpheyi oyuncuya bırak (25 Eylül 2026)
+
+İlk yem metinleri "bunu bana neden gösteriyorsunuz", "ne alakası var" kalıbına sıkışmıştı; oyuncu bunu yanlış bir yol denediğinin işareti diye okuyordu — yani sistem oyuncuya cevabı söylüyordu. Otuz iki metin yeniden yazıldı. Yeni ilke: **yem, dünyaya yeni sert olgu eklemez, yorumu ağırlaştırır.** Masum kişi kendini beceriksizce savunur, bilgi sahibi olduğunu itiraf eder, kendi aleyhine konuşur ("anahtarı geri vermedim, vermek de istemedim"); asıl fail sakin ve düz kalır. Böylece yanlış kaynağı sunmak bir uyarı değil, yeni bir şüphe doğurur.
+
+İki tuzak kapatıldı: yem metinleri bir kaynağın içeriğine aykırı olgu uyduramaz (üç metin `recovery` raporunu "eşya listesi" sanıyordu; rapor tek bir dizüstü ve Hasan adına bir teslim fişidir) ve iki yem aynı metni paylaşamaz — ikincisini doğrulayıcı zaten anahtar düzeyinde yakalıyor.
