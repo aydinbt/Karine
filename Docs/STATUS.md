@@ -30,6 +30,8 @@ Senaryo kullanıcıdan geldi ve eski "Kayıp Yedek" taslağının yerine geçti;
 
 Durum `[~]`: 13 düğüm, 31 soru, 170 metin anahtarı; doğrulayıcı vakayı baştan sona otomatik oynuyor ve desteklenen raporu gönderiyor. **Play Mode'da oynanmadı.** Dört kişinin portreleri kullanıcıdan geldi ve depoda.
 
+Bölüm geçişi artık sessiz değil: kabul edilmemiş her yeni dosya masaya bırakılıyor (`NewCaseArrival`). Dünyanın kendi varış filmi yalnız o dünyanın ilk dosyasında bir kez oynuyor. İki PlayMode testi var, **Play Mode'da gözle görülmedi** `[~]`.
+
 ## Kimlik
 
 - **Oyun adı:** Karine — 25 Eylül 2026'da karara bağlandı ([NAMING.md](NAMING.md)).
