@@ -243,6 +243,18 @@ public sealed class BubeApp : MonoBehaviour {
   parent.Add(label);
   return label;
  }
+ // Görüşme talepleri kartında eylem sütunu dardır (%30). Oradaki düğme metni
+ // ("İfade alınmasını iste") tek satıra sığmıyordu ve kırpılıyordu.
+ static void FitActionButton(VisualElement column) {
+  if(column.childCount==0)return;
+  var button=column.Children().Last() as Button;
+  if(button==null)return;
+  button.style.whiteSpace=WhiteSpace.Normal;
+  button.style.paddingLeft=12;button.style.paddingRight=12;
+  button.style.paddingTop=8;button.style.paddingBottom=8;
+  button.style.fontSize=Typography.Snap(16);
+ }
+
  void Button(VisualElement parent,string value,Action onClick,bool primary=false) {
   var button=new Button(onClick){text=value};
   button.style.minHeight=54;
@@ -1377,7 +1389,9 @@ public sealed class BubeApp : MonoBehaviour {
    if(game.CanRequest(node))Button(action,T("interview.request"),()=>{
     if(game.RequestInterview(node.id)){Save();InterviewRequests(false);}
    });
-   else if(game.Available(node))Button(action,T("interview.begin"),()=>InterviewPage(node),true);
+   else if(game.Available(node))
+    Button(action,T(game.State.read.Contains(node.id)?"interview.resume":"interview.begin"),()=>InterviewPage(node),true);
+   FitActionButton(action);
   }
  }
  void InvestigationRequests(bool lift=true) {
@@ -1859,15 +1873,6 @@ public sealed class BubeApp : MonoBehaviour {
   if(turns.Length==0)showingInterviewHistory=false;
   VisualElement historyTabs=null;
   if(turns.Length>0){historyTabs=new VisualElement();historyTabs.style.flexDirection=FlexDirection.Row;questionArea.Add(historyTabs);}
-  Label topicStrip=null;
-  if(phase==0 && topics.Length>1) {
-   var current=topics.First(g=>g.Key==initiallyOpen);
-   topicStrip=Text(questionArea,T(current.Key)+"  ·  "+current.Count(),Gold,16);
-   topicStrip.style.height=MinimumTouchTarget;topicStrip.style.flexShrink=0;
-   topicStrip.style.marginBottom=4;topicStrip.style.paddingLeft=12;
-   topicStrip.style.unityTextAlign=TextAnchor.MiddleLeft;
-   topicStrip.style.backgroundColor=new Color(.055f,.075f,.09f,.96f);
-  }
   var questions=new ScrollView();questions.style.flexGrow=1;questions.style.minHeight=0;
   questionArea.Add(questions);
   if(phase==0) {
@@ -1878,13 +1883,11 @@ public sealed class BubeApp : MonoBehaviour {
     if(topics.Length>1) {
      choices.style.display=topic.Key==initiallyOpen?DisplayStyle.Flex:DisplayStyle.None;
      var topicKey=topic.Key;
-     var topicCount=topic.Count();
      var header=new Button(()=>{
       choices.style.display=choices.style.display==DisplayStyle.None?DisplayStyle.Flex:DisplayStyle.None;
       selectedInterviewTopic=topicKey;
-      if(topicStrip!=null)topicStrip.text=T(topicKey)+"  ·  "+topicCount;
      })
-      {text=T(topic.Key)+"  ·  "+topicCount};
+      {text=T(topic.Key)+"  ·  "+topic.Count()};
      header.style.minHeight=MinimumTouchTarget;header.style.marginBottom=6;header.style.paddingLeft=12;
      header.style.unityTextAlign=TextAnchor.MiddleLeft;header.style.fontSize=Typography.Snap(16);
      header.style.color=Ink;header.style.backgroundColor=new Color(.14f,.20f,.20f);
@@ -1939,7 +1942,6 @@ public sealed class BubeApp : MonoBehaviour {
     showingInterviewHistory=showHistory;
     questions.style.display=showHistory?DisplayStyle.None:DisplayStyle.Flex;
     history.style.display=showHistory?DisplayStyle.Flex:DisplayStyle.None;
-    if(topicStrip!=null)topicStrip.style.display=showHistory?DisplayStyle.None:DisplayStyle.Flex;
     questionTab.style.backgroundColor=showHistory?new Color(.14f,.20f,.20f):new Color(.25f,.42f,.39f);
     historyTab.style.backgroundColor=showHistory?new Color(.25f,.42f,.39f):new Color(.14f,.20f,.20f);
    };

@@ -204,3 +204,11 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 **(Çözüldü — 25 Eylül 2026)** Kullanıcı videoyu yeniden üretti (`case_fix_animation.mov`, 2,83 sn): terminalde yalnız "CCTV ARŞİVİ" var, arma ve kurum adı yok, karartma da videonun içinde. Koddaki karartma kaldırıldı — aynı işi iki kez yapmanın anlamı yok. Filigran yine sağ altta (0,906 / 0,833) ve "Geç" düğmesiyle örtülüyor; `CornerMark` veriden geldiği için tek satır değişti.
 
 **Durum `[~]`:** Testler geçiyor ama **Play Mode'da gözle doğrulanmadı** — karartma/açılma geçişinin akıcılığı görülmeli.
+
+## Görüşme ekranı düzeltmeleri (25 Eylül 2026)
+
+**Yinelenen konu başlığı kaldırıldı.** Soru listesinin üstünde sabit bir konu şeridi vardı; hemen altındaki açık grubun başlığı aynı metni yazıyordu, yani "OLAY GÜNÜ · 1" iki kez görünüyordu. Şerit kaldırıldı; grup başlıkları zaten hem etiket hem de katlama düğmesi.
+
+**Görüşülmüş kişide düğme "GÖRÜŞMEYE DÖN" diyor.** Kart "● Görüşüldü" derken düğmenin "GÖRÜŞMEYE BAŞLA" demesi, yeni bir görüşme açılacağı izlenimi veriyordu. Yeni anahtar `interview.resume`. Düğme **devre dışı bırakılmadı**: oyuncu geçmişi okumak ya da sonradan açılan soruları sormak için dönebilmeli. Yeni soru kalmadığında görüşme ekranı zaten `interview.noNewInfo` gösteriyor — bu, oyuncuya sıradaki adımı söylemeden durumu bildiren doğru yer.
+
+**Dar eylem sütununda düğme metni sarıyor.** Kartın eylem sütunu %30 genişlikte; "İfade alınmasını iste" tek satıra sığmayıp kırpılıyordu. `FitActionButton` son düğmeyi sarmalı yapıyor ve yazı basamağını düşürüyor.
