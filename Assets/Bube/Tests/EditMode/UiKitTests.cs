@@ -178,8 +178,8 @@ public sealed class UiKitTests {
  }
 
  // Sinematikte tek denetim GEÇ'tir: duraklatma, ilerleme ve hızlandırma yok.
- // Düğme filmin üstünde durduğu için kendi zeminini ve kit çerçevesini taşır,
- // metni ayrı bir etikettir (Button.text ile çocuklar üst üste binerdi).
+ // Tek eylem olduğu için kit'in birincil düğmesidir: dolu krem zemin, koyu
+ // yazı, sol eylem kenarı. Zemin **saydam olamaz** — filmin üstünde bile.
  [Test]
  public void SkipButton_IsTheOnlyCinematicControl() {
   var host = Host();
@@ -188,13 +188,17 @@ public sealed class UiKitTests {
   Assert.IsTrue(string.IsNullOrEmpty(skip.text), "Metin ayrı etiketten gelmeli.");
   var label = skip.Query<Label>().ToList().SingleOrDefault(item => item.text == "GEÇ");
   Assert.IsNotNull(label, "GEÇ yazısı yok.");
-  Assert.AreEqual(KarineTheme.Primary, label.style.color.value, "Yazı kit kremi olmalı.");
+  Assert.AreEqual(KarineTheme.OnPrimary, label.style.color.value,
+   "Birincil düğmede yazı koyu olmalı.");
+  Assert.AreEqual(KarineTheme.Primary, skip.style.backgroundColor.value,
+   "Zemin kit'in birincil kremi olmalı.");
   Assert.GreaterOrEqual(skip.style.minHeight.value.value, KarineTheme.TouchTargetComfortable,
    "GEÇ rahat dokunma hedefinde olmalı.");
   Assert.AreEqual(KarineTheme.PrimaryEdgeWidth, skip.style.borderLeftWidth.value,
    "Birincil eylem kenarı yok: düz kare düğme gibi duruyor.");
-  Assert.AreEqual(KarineTheme.Primary, skip.style.borderTopColor.value, "Kit çerçevesi yok.");
-  Assert.Greater(skip.style.backgroundColor.value.a, .5f, "Filmin üstünde kendi zemini olmalı.");
+  Assert.AreEqual(KarineTheme.Accent, skip.style.borderTopColor.value, "Kit çerçevesi yok.");
+  Assert.AreEqual(1f, skip.style.backgroundColor.value.a,
+   "GEÇ saydam olmamalı: kit düğmesi dolu zemin taşır.");
  }
 
  // Radyo: seçili olan dolu halka ve krem yazı; birbirini dışlayan ayarlarda

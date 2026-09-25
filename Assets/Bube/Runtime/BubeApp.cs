@@ -2484,15 +2484,12 @@ public sealed class BubeApp : MonoBehaviour {
   }).Every(180);
   // Keep the skip control over the supplied footage's lower-right mark,
   // including when ScaleToFit adds letterboxing around the 16:9 frame.
-  var skipVideo=new Button(StopCctvVideo){text=T("intro.skip")};
+  // Görüntünün üstündeki düğmeler de kit bileşenidir; saydam zemin yok.
+  var skipVideo=KarineUI.SkipButton(videoFrame,T("intro.skip"),StopCctvVideo);
   skipVideo.style.position=Position.Absolute;
-  skipVideo.style.backgroundColor=Card;skipVideo.style.color=Ink;
-  skipVideo.style.fontSize=Typography.Snap(15);skipVideo.style.minHeight=MinimumTouchTarget;
-  videoFrame.Add(skipVideo);
-  var close=new Button(StopCctvVideo){text=T("cctv.videoClose")};
+  var close=KarineUI.Button_(videoFrame,T("cctv.videoClose"),StopCctvVideo,KarineButtonKind.Secondary);
   close.style.position=Position.Absolute;close.style.right=10;close.style.top=10;
-  close.style.minHeight=MinimumTouchTarget;close.style.backgroundColor=Card;
-  close.style.color=Ink;close.style.fontSize=Typography.Snap(14);videoFrame.Add(close);
+  close.style.marginRight=0;close.style.marginBottom=0;
   videoFrame.RegisterCallback<GeometryChangedEvent>(evt=>{
    float width=videoFrame.resolvedStyle.width,height=videoFrame.resolvedStyle.height;
    if(float.IsNaN(width)||float.IsNaN(height)||width<=0||height<=0)return;
@@ -2529,10 +2526,10 @@ public sealed class BubeApp : MonoBehaviour {
   }){text=T("cctv.videoStep")};
   var replay=new Button(ReplayCctvVideo){text=T("cctv.videoReplay")};
   foreach(var button in new[]{cctvPlaybackButton,cctvStepButton,replay}) {
+   KarineUI.Paint(button,KarineButtonKind.Secondary,true);
    button.style.width=118;button.style.flexShrink=0;
    button.style.minHeight=MinimumTouchTarget;button.style.fontSize=Typography.Snap(14);
-   button.style.backgroundColor=Paper;button.style.color=Ink;
-   button.style.marginRight=4;controls.Add(button);
+   button.style.marginRight=4;button.style.marginBottom=0;controls.Add(button);
   }
   cctvPlaybackButton.SetEnabled(false);cctvStepButton.SetEnabled(false);
   cctvVideoStatus=Text(videoFrame,T("cctv.videoLoading"),Gold,13);

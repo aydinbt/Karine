@@ -338,10 +338,12 @@ public static class KarineUI {
  // karar verdirmez, yalnız kareyi kalabalıklaştırır. Kare ilerletme ve
  // duraklatma CCTV izlemede anlamlıdır ve orada kendi denetimleri vardır.
  //
- // Düğme filmin üstünde durduğu için kendi zeminini taşır: yarı saydam koyu
- // dolgu, kit'in krem çerçevesi ve birincil eylem kenarı. Metin düğmenin
- // kendi `text`i değil, ayrı bir etikettir — UI Toolkit'te bir `Button`un metni
- // ile çocukları **üst üste biner**, simge ancak böyle yanına oturur.
+ // Düğme kit'in **birincil** eylemidir: sinematikte tek eylem odur. Kit'in
+ // birincil dili birebir uygulanır — dolu krem zemin, koyu yazı, sol eylem
+ // kenarı. Zemin **saydam değildir**: filmin üstünde bile düğme düğme gibi
+ // durur. Metin düğmenin kendi `text`i değil, ayrı bir etikettir — UI
+ // Toolkit'te bir `Button`un metni ile çocukları **üst üste biner**, simge
+ // ancak böyle yanına oturur.
  public static Button SkipButton(VisualElement parent, string label, Action onClick) {
   var button = new Button(onClick);
   button.text = null;
@@ -353,23 +355,23 @@ public static class KarineUI {
   button.style.paddingTop = KarineTheme.SpaceSm; button.style.paddingBottom = KarineTheme.SpaceSm;
   button.style.marginLeft = 0; button.style.marginRight = 0;
   button.style.marginTop = 0; button.style.marginBottom = 0;
-  var fill = new Color(KarineTheme.Background.r, KarineTheme.Background.g, KarineTheme.Background.b, .78f);
+  var fill = KarineTheme.Primary;
   button.style.backgroundColor = fill;
   Round(button, KarineTheme.Radius);
-  Border(button, KarineTheme.BorderWidth, KarineTheme.Primary);
+  Border(button, KarineTheme.BorderWidth, KarineTheme.Accent);
   button.style.borderLeftWidth = KarineTheme.PrimaryEdgeWidth;
   button.style.borderLeftColor = KarineTheme.Accent;
 
   var text = new Label(label);
-  text.style.color = KarineTheme.Primary;
+  text.style.color = KarineTheme.OnPrimary;
   text.style.fontSize = Typography.Snap(19);
   text.style.letterSpacing = 2;
   text.style.marginBottom = 0; text.style.marginRight = KarineTheme.SpaceSm;
   ApplyFont(text, Body);
   button.Add(text);
-  button.Add(Icon(null, "cine_skip", KarineTheme.Primary));
+  button.Add(Icon(null, "cine_skip", KarineTheme.OnPrimary));
 
-  var pressed = Color.Lerp(fill, KarineTheme.Accent, .25f);
+  var pressed = Color.Lerp(fill, KarineTheme.Accent, .35f);
   button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
   button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = fill);
   button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = fill);

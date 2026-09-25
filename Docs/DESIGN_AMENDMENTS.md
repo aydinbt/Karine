@@ -461,3 +461,9 @@ Ham renk borcu 156'dan **65'e** indi; kalanlar CCTV taraması gibi saydamlıklı
 
 **GEÇ artık tasarlanmış bir düğme.** Eskiden kit'in ikincil düğmesiydi ve filmin üstünde düz bir kare gibi duruyordu. `KarineUI.SkipButton` kendi zeminini taşıyor: yarı saydam koyu dolgu, krem çerçeve, birincil eylem kenarı ve `cine_skip` simgesi. Metin ayrı bir etiket — UI Toolkit'te `Button.text` ile çocuklar üst üste biniyor; önceki çubukta İLERİ SAR'ın simgesiyle yazısının çakışmasının sebebi buydu. Test bu kenarın varlığını kilitler.
 
+## Film üstündeki düğmeler saydam değildir (25 Eylül 2026)
+
+**Kullanıcı kararı:** GEÇ ve benzerleri yarı saydam olmayacak, kit'te nasılsa öyle çizilecek. `SkipButton` artık kit'in birincil düğmesi: dolu krem zemin, koyu yazı, sol eylem kenarı, `cine_skip` simgesi. Sinematikte tek eylem olduğu için birincil olması kit'in "tek birincil eylem" kuralına da uyar. Test zeminin tam donuk ve kit kremi olduğunu kilitler.
+
+Aynı karar CCTV görüntüsündeki düğmelere de uygulandı: oradaki "GEÇ" aynı bileşene, kapat/oynat/kare ilerlet/baştan al kit'in ikincil düğmesine bağlandı — elle kurulmuş renkler kalktı.
+
