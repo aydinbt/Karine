@@ -533,3 +533,21 @@ Vaka #001'in tasarımı ve içeriği şimdilik yeterli sayılıyor: yeni ifade, 
 **Yeniden açmak ipucu değildir.** Soruşturmada bulunanlar silinmiyor (aksi hâlde ceza olurdu) ve hiçbir yeni bilgi verilmiyor; yalnız rapor alanları boşalıyor, yani vaka ikinci kez gerekçeli sonuç göndermeye açılıyor. Oyuncu neyi değiştireceğine kendisi karar verir.
 
 Yedi yeni EditMode testi bu kararların her cümlesini tutuyor (iade tam mı, kayıt duruyor mu, ikinci satır yazılıyor mu, soruşturma korunuyor mu, başarılı vakaya teklif çıkmıyor mu, görevden ayrılma kalkıyor mu). 98 EditMode + 7 PlayMode geçiyor. **Play Mode'da gözlenmedi, madde `[~]`.**
+
+## Sesin atmosferi: soğuk oda, faks zili, seyrek noir (25 Eylül 2026)
+
+**Kullanıcı:** "sesleri geçici değil ciddi anlamda atmosfere göre oluştur, müzik artık ne eklenmesi gerekiyorsa."
+
+Sekiz klip yer tutucu değil; her biri bir karar. Referans dünya 90'lar sonu bir emniyet birimi: floresan, kâğıt, mekanik düğme, faks.
+
+**Arayüz sesleri alçak ve kısa.** Dokunduğunu onaylarlar, dikkat istemezler. `ui_press` mekanik bir düğmedir (alçak gövde vuruşu + kuru tık), `ui_typewriter` ondan ayrılır çünkü daktilo tuşu çelik bir koldur — ince bir çınlaması vardır. `ui_page` tek gürültü patlaması değil üç düzensiz sürtünmedir; tek patlama kâğıt değil "ıss" olur. `ui_stamp` en tok ses: mühür kesindir, geri alınmaz.
+
+**Bildirim faksın zili.** Alarm değil haber: küçük bir zil, anharmonik kısmilerle (gerçek zil gibi) ve önünde mekanizmanın tıkı. Beş arayüz sesinin en gürültülüsü, çünkü masaya evrak düştüğünü fark etmen gerekiyor.
+
+**Odalar ayrı yerler.** Ofiste havalandırma, uzakta trafik ve **duvar saati** var — tam bir saniyede bir tik/tak, kuru ve alçak; zamanın geçtiğini hatırlatır. Görüşme odasında trafik yok, saat yok: daha derin uğultu, daha yakın floresan (balastın kararsız titremesiyle), tavanda ince bir çınlama. Sorgu odası kapalı ve baskılıdır; dışarıdan ses gelmemesi bunun yarısıdır.
+
+**Müzik seyrek, çünkü oyuncu düşünüyor.** Am–F–Dm–E, akor başına sekiz saniye, 32 saniyelik döngü. Dördüncü akorda melodi hiç girmiyor — nefes. Menüde durup bekleyen bir oyuncuyu sıkmaması gerekiyor, o yüzden tema akılda kalıcı bir ezgi değil bir zemin. İnce bant hışırtısı var: dijital sessizlik soğuk durur.
+
+**Kayıt değil sentez.** Klipler `Tools/make-audio.py` içinde sıfırdan üretiliyor. Sebebi zorunluluk değil tercih: bir tonu değiştirmek yeni bir kayıt aramak yerine bir satır değiştirmek oluyor, ve `ui_stamp`ın neden tok olduğu kodda **yazılı**. Dinleyemediğim için `Tools/check-audio.py` yazdım: kırpma, DC kayması, seviye, ölü sessizlik ve döngü dikişi ölçülüyor, müzikte dört akorun kökü Goertzel ile aranıyor. İlk ölçüm iki gerçek kusur buldu — yastık zarfının atağı saniye yerine oranla çalıştığı için müzik yalnız tellerden duyuluyordu, ve sürekli katmanların kuyruğu başa eklendiği için döngü başında seviye kamburu vardı. İkisi de düzeltildi, ölçüm 0 bulgu.
+
+**Ama bu ölçümdür, kulak değil.** Sesin oyunda nasıl durduğu, seviyelerin birbirine göre dengesi ve döngünün gerçekten dikişsiz duyulup duyulmadığı Play Mode'da senin kararın.

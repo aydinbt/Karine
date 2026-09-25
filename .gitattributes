@@ -12,3 +12,7 @@
 # Treat these as binary
 *.png  binary
 *.jpg  binary
+
+# Ses varlıkları — sentezlenmiş, Tools/make-audio.py ile üretilir
+*.wav  filter=lfs diff=lfs merge=lfs -text
+*.ogg  filter=lfs diff=lfs merge=lfs -text

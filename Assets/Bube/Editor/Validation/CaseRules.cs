@@ -24,6 +24,12 @@ public static class CaseRules {
   report.Require(data.failedReportTrustLoss >= 0 && data.successfulReportTrustGain >= 0,
    "Kariyer etkisi negatif olamaz.");
 
+  // Vaka kendi ortam sesini söyleyebilir; söylediyse dosyası olmalı. Eksik
+  // klip sessiz geçtiği için yazım hatası başka hiçbir yerde duyulmaz.
+  if (!string.IsNullOrEmpty(data.ambienceId))
+   report.Require(Resources.Load<AudioClip>(AudioDirector.Folder + data.ambienceId) != null,
+    "Vakanın ortam sesi yok: " + AudioDirector.Folder + data.ambienceId);
+
   // Rapor sihirbazının üç sütunu da tam olarak bir doğru seçenek içermeli.
   // Sıfır olursa vaka çözülemez, birden fazla olursa değerlendirme keyfîleşir.
   // Bu kontrol 25 Eylül 2026 denetiminde elle yapıldı; burada kalıcılaşıyor.

@@ -173,6 +173,34 @@ Bu hedef case002 taslağıyla **veri düzeyinde** doğrulandı; oyuncu akışın
 
 Düğme sesi ekranların içine yazılmaz: `KarineUI.Sounded` kit düğmesinin kurucusunda durur, `KarineUI.Sound` temsilcisini `BubeApp` `AudioDirector`a bağlar. `ProjectRules` `Runtime/UI` içindeki her `new Button(` çağrısının `Sounded(` ile sarılı olmasını kilitler, yoksa yeni bir kit bileşeni sessiz kalır.
 
+### Ses varlıkları sentezlenir
+
+Sekiz klip `Assets/Bube/Resources/Bube/Audio/` altında (mono, 44.1 kHz, 16 bit WAV, Git LFS). **Kayıt değil, üretim:** `Tools/make-audio.py` hepsini sıfırdan sentezler (saf Python, harici bağımlılık yok — numpy ve ffmpeg gerekmiyor) ve `Tools/check-audio.py` ölçer.
+
+```bash
+python3 Tools/make-audio.py     # üretir
+python3 Tools/check-audio.py    # ölçer, kusurda 1 döner
+```
+
+Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve yeniden koşulur. Sesler böylece **okunabilir**: `ui_stamp`ın neden tok olduğu kodda yazılı.
+
+| dosya | ne | içe aktarım |
+|---|---|---|
+| `ui_press` | mekanik düğme: alçak gövde vuruşu + kuru tık | ADPCM, belleğe açılır |
+| `ui_page` | kâğıt: üç düzensiz sürtünme (tek patlama "ıss" olur) | ADPCM |
+| `ui_typewriter` | daktilo tuşu: çelik tık + kâğıda vuruş + gövde | ADPCM |
+| `ui_stamp` | mühürün lastiği: tok, tek, kesin | ADPCM |
+| `ui_notification` | faksın küçük zili: anharmonik kısmiler + mekanizma tıkı | ADPCM |
+| `menu_theme` | 32 s neo-noir döngü, Am–F–Dm–E | Vorbis, akış |
+| `room_office` | 24 s döngü: havalandırma, uzak trafik, floresan, duvar saati | Vorbis, akış |
+| `room_interview` | 24 s döngü: derin uğultu, yakın floresan, tavan çınlaması | Vorbis, akış |
+
+**Döngü dikişi** iki ayrı teknikle kapatılır, çünkü iki ayrı sorun var. Sürekli katmanlar (gürültü yatağı) `loop_noise` ile **çapraz geçirilir**; kuyruğu başa eklemek o bölgede seviyeyi 1,4 katına çıkarır. Çınlayan katmanlar (yankı, nota kuyruğu) `wrap_tail` ile başa **eklenir**, böylece döngü kendi kuyruğunun üstüne biner. Yankı ise iki kopya sürülüp ikincisi alınarak kararlı hâle getirilir (`steady_reverb`), yoksa oda döngü başında boş, sonunda dolu olur. Periyodik bileşenlerin frekansı döngü boyunda tam çevrim yapar (100 Hz × 24 s = 2400 çevrim), yoksa dikişte faz atlar.
+
+`check-audio.py` kırpma, DC kayması, ölü sessizlik, seviye aralığı, dikişteki örnek atlaması ve döngü başındaki seviye kamburunu ölçer; menü müziğinde ayrıca dört akorun kökünü Goertzel ile ölçüp akora yabancı bir aralıktan yüksek olduğunu doğrular. Darbeli arayüz seslerinde seviye dosya boyu değil **en gürültülü 100 ms penceresi** üzerinden ölçülür, yoksa kuyruk sessizliği ölçümü yanıltır.
+
+`ProjectRules` sekiz klibin varlığını kilitler ve `CaseRules` vakanın `ambienceId`si için dosya arar: `AudioDirector` eksik klibi sessiz geçtiği için bir sesin silinmesi ya da adının yanlış yazılması başka hiçbir yerde duyulmazdı. Kural, `ui_press.wav` geçici olarak kaldırılıp düşmesi görülerek doğrulandı.
+
 ## Geri tuşu ve duraklatma
 
 Android geri tuşu (ve masaüstünde Esc) `BubeApp.Update` içinde okunur ve `escapeBack`e gider. Her katman açıldığında hedefini `Back(...)` ile söyler ve hedef **ekranın kendi "geri" eyleminin aynısıdır**; ayrı bir gezinti ağacı tutulmaz. Ana menüde karşılığı yoktur, orada kit'in onay modalı açılır. `OnApplicationPause(true)` kayıt yazar.

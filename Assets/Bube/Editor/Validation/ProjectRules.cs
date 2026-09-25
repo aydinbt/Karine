@@ -26,6 +26,14 @@ public static class ProjectRules {
   "cine_skip",
  };
 
+ // `AudioDirector`ın ve sahne sesinin beklediği klipler. Vakanın kendi ortam
+ // sesi (`CaseData.ambienceId`) burada değil, vaka kuralında denetlenir.
+ public static readonly string[] RequiredClips = {
+  AudioDirector.Press, AudioDirector.Page, AudioDirector.Typewriter,
+  AudioDirector.Stamp, AudioDirector.Notification,
+  "menu_theme", "room_office", "room_interview",
+ };
+
  // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 8'e indi.
  // Kalan sekiz renk oyun **sanatıdır**, arayüz paleti değil: piksel portrenin göz
  // rengi (ten/saç/giysi artık vaka verisinden gelir) ve CCTV'nin cam, tarama,
@@ -59,6 +67,14 @@ public static class ProjectRules {
   foreach (var icon in KitIcons)
    report.Require(Resources.Load<Texture2D>("Bube/Art/Icons/" + icon) != null,
     "Kit ikonu yok: " + icon);
+
+  // Ses varlıkları. `AudioDirector` eksik klibi **sessiz** geçer — bu doğru
+  // davranış (oyun ses dosyası olmadan da çalışır) ama aynı zamanda bir sesin
+  // silinmesinin hiçbir yerde duyulmaması demek. Kural odur: ekranların
+  // kullandığı sesler dosya olarak var mı.
+  foreach (var clip in RequiredClips)
+   report.Require(Resources.Load<AudioClip>(AudioDirector.Folder + clip) != null,
+    "Ses dosyası yok: " + AudioDirector.Folder + clip);
 
   // Marka oranı: logo dosyası değişirse `KarineLogo.AspectRatio` da değişmeli,
   // yoksa oran sessizce bozulur.
