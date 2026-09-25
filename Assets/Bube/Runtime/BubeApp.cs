@@ -1899,7 +1899,7 @@ public sealed class BubeApp : MonoBehaviour {
     }
     foreach(var q in topic) {
      var question=q;
-     Button(choices,"›  "+(game.State.asked.Contains(q.id)?T("interview.repeatPrefix")+"  ":"")+T(q.promptKey),()=>InterviewPage(node,question,1));
+     Button(choices,"›  "+T(q.promptKey),()=>InterviewPage(node,question,1));
      var choiceButton=choices.Children().Last() as Button;
      choiceButton.style.whiteSpace=WhiteSpace.Normal;
      choiceButton.style.fontSize=Typography.Snap(16);
@@ -1925,7 +1925,7 @@ public sealed class BubeApp : MonoBehaviour {
     giveUp.style.backgroundColor=new Color(.14f,.20f,.20f);giveUp.style.color=Ink;
    }
   } else {
-   if(referenceCard!=null)Button(questions,T("interview.openReference"),()=>referenceCard.style.display=DisplayStyle.Flex);
+   if(referenceCard!=null)Button(questions,T("interview.openPresented"),()=>referenceCard.style.display=DisplayStyle.Flex);
    Button(questions,T(sourceAccepted?"interview.next":"interview.tryAnotherSource"),
     ()=>InterviewPage(node,sourceAccepted?null:active,sourceAccepted?0:1),true);
   }

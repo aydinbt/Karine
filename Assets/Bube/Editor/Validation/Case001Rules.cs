@@ -99,16 +99,16 @@ public static class Case001Rules {
   var repeatGame = new Investigation(data, repeatState);
   var followNode = data.nodes.First(n => n.id == "elif_follow");
   var followQuestion = followNode.questions.First(q => q.id == "elif_follow.footage");
+  // Soruyu birden çok kaynak kapatabilir, ama kişi cevabını bir kez verir:
+  // kapanan soru listeden çıkar ve ikinci belirleyici kaynak da geri çevrilir.
   report.Require(repeatGame.Ask(followNode.id, followQuestion.id, "camera#elif_in") &&
-   repeatGame.CanAskQuestion(followNode, followQuestion), "İkinci kaynak soruyu yeniden açmadı.");
-  report.Require(!repeatGame.Ask(followNode.id, followQuestion.id, "camera#elif_in") &&
-   repeatGame.Ask(followNode.id, followQuestion.id, "camera#elif_out") &&
-   !repeatGame.CanAskQuestion(followNode, followQuestion), "Yinelenen görüşme kaynağı işleyişi bozuk.");
+   !repeatGame.CanAskQuestion(followNode, followQuestion), "Yanıtlanan soru kapanmadı.");
+  report.Require(!repeatGame.Ask(followNode.id, followQuestion.id, "camera#elif_out"),
+   "Kapanan soru ikinci kaynakla yeniden soruldu.");
   var repeatTurns = repeatGame.State.interviewTurns.Where(t => t.questionId == followQuestion.id).ToArray();
-  report.Require(repeatTurns.Length == 2 && repeatTurns[0].answerKey != repeatTurns[1].answerKey,
-   "Takip dökümü ayrı yanıtları yitirdi.");
+  report.Require(repeatTurns.Length == 1, "Kapanan soru için tek döküm satırı beklenir.");
   var repeatSaved = JsonUtility.FromJson<Progress>(JsonUtility.ToJson(repeatGame.State));
-  report.Require(repeatSaved.interviewTurns.Count(t => t.questionId == followQuestion.id) == 2,
+  report.Require(repeatSaved.interviewTurns.Count(t => t.questionId == followQuestion.id) == 1,
    "Takip dökümü kayıttan sağ çıkmadı.");
 
   foreach (var sourceId in new[] { "camera#elif_in", "camera#elif_out" }) {

@@ -117,8 +117,11 @@ public sealed class Investigation {
  public bool SourceMatchesQuestion(Question q,string sourceId) => !QuestionNeedsSource(q) || ReportSourceAvailable(sourceId) &&
   (sourceId==q.presentedSourceId || q.presentedSourceIds!=null && q.presentedSourceIds.Contains(sourceId));
  public bool SourceAlreadyPresented(Node n,Question q,string sourceId) => State.interviewTurns.Any(t=>t.nodeId==n.id && t.questionId==q.id && t.sourceId==sourceId);
- public bool CanAskQuestion(Node n,Question q) => QuestionAvailable(n,q) &&
-  (!State.asked.Contains(q.id) || q.presentedSourceIds!=null && q.presentedSourceIds.Any(id=>ReportSourceAvailable(id) && !SourceAlreadyPresented(n,q,id)));
+ // Yanitlanan soru listeden cikar. Bir soruyu birden cok kaynak kapatabilir
+ // (`presentedSourceIds`), ama kisi cevabini bir kez verdikten sonra ayni seyi
+ // ikinci bir kayitla tekrar sormak oyuncuya "bir sey eksik kaldi" izlenimi
+ // veriyordu; oysa mesele kapanmisti.
+ public bool CanAskQuestion(Node n,Question q) => QuestionAvailable(n,q) && !State.asked.Contains(q.id);
  // Bir kaynağı karşımızdaki kişiye göstermenin anlamı olmalı. `aboutPersonIds`
  // o ifadenin/kaydın kimden söz ettiğini söyler; boşsa kaynak herkese açıktır
  // (eski veriyle uyum, ve kayıt boşluğu gibi kişiye bağlanmayan olgular için).

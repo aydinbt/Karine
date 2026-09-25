@@ -301,3 +301,11 @@ Bir soruyu seçtikten sonra vazgeçmenin tek yolu **görüşmeyi tümden bitirme
 İlk yem metinleri "bunu bana neden gösteriyorsunuz", "ne alakası var" kalıbına sıkışmıştı; oyuncu bunu yanlış bir yol denediğinin işareti diye okuyordu — yani sistem oyuncuya cevabı söylüyordu. Otuz iki metin yeniden yazıldı. Yeni ilke: **yem, dünyaya yeni sert olgu eklemez, yorumu ağırlaştırır.** Masum kişi kendini beceriksizce savunur, bilgi sahibi olduğunu itiraf eder, kendi aleyhine konuşur ("anahtarı geri vermedim, vermek de istemedim"); asıl fail sakin ve düz kalır. Böylece yanlış kaynağı sunmak bir uyarı değil, yeni bir şüphe doğurur.
 
 İki tuzak kapatıldı: yem metinleri bir kaynağın içeriğine aykırı olgu uyduramaz (üç metin `recovery` raporunu "eşya listesi" sanıyordu; rapor tek bir dizüstü ve Hasan adına bir teslim fişidir) ve iki yem aynı metni paylaşamaz — ikincisini doğrulayıcı zaten anahtar düzeyinde yakalıyor.
+
+## Yanıtlanan soru kapanır; kaynak kartı adlandırması (25 Eylül 2026)
+
+Bir soruyu birden çok belirleyici kaynak kapatabiliyordu (`presentedSourceIds`), bu yüzden soru listede "YENİ KAYITLA …" önekiyle tekrar duruyordu. Oyuncu bunu "bir şey eksik kaldı" diye okuyordu, oysa kişi cevabını çoktan vermişti. **Karar:** yanıtlanan soru listeden çıkar — `CanAskQuestion` artık `asked` içindeki soruyu yeniden açmıyor, ikinci belirleyici kaynak da geri çevriliyor. `interview.repeatPrefix` anahtarı kaldırıldı. Yem denemeleri bundan etkilenmez: yem `Ask` çağırmadığı için soru kapanmaz, oyuncu yanlış kaynakları istediği kadar deneyebilir.
+
+`Case001Rules` eski davranışı şart koşuyordu (dört iddia); kurallar yeni karara çevrildi — bir kaynakla kapanma, ikinci kaynağın reddi, tek döküm satırı.
+
+Etiketler anlaşılmıyordu: "KAYNAK KARTI" → **"ELİNDEKİ KAYIT"**, "KAYNAK KARTINI AÇ" → kaynak seçerken **"SEÇTİĞİN KAYDI OKU"**, yanıt ekranında **"ÖNE SÜRDÜĞÜN KAYDI OKU"** (yeni `interview.openPresented`). İkisi de aynı şeyi yapıyor: öne sürülecek/sürülmüş kaydın metnini görüşmeden çıkmadan okutur.
