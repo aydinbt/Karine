@@ -661,3 +661,10 @@ Vaka 2'nin senaryosu kullanıcı tarafından yazıldı ve eski "Kayıp Yedek" ta
 Tasarım kararı: bir olayda birden fazla sorumluluk olabilir. Selçuk Yalın'ı yaralayan Emre Koç'tur, ama parayı alan Kerem Şahin'dir; Deniz Arslan olaydan önce ayrılmıştır ve suçsuzdur. Mağdur da yalan söyler (kayıt dışı borcu saklar) ama mağdurdur — **yalan söylemek fail olmak değildir**. Oyun hiçbir yerde "şu kişi yalan söylüyor" demez; kimseyi bir sonraki kaynağa yönlendirmez.
 
 Motor karşılığı: sonuç raporu artık vakadan gelen isteğe bağlı bir dördüncü sütun taşıyabilir (`CaseData.custody`). Sütun yalnız vaka tanımlarsa sorulur, sihirbaz adım sayısı veriden gelir ve yanlış kişi yazmak fail sütunundaki gibi asılsız suçlama sayılır. Üç sütunlu vakalarda hiçbir şey değişmez.
+
+## 26 Eylül 2026 — Raporun gidişi de bir andır
+
+Dosyanın masaya bırakılışının bir karşılığı yoktu: rapor gönderilince ekran
+anında özete atlıyordu. Artık gönderme, bırakılışın tersini oynuyor — Bora formu
+doldurup kaşeler, evrak ekran dışına çıkar — ve özet ancak ondan sonra açılır.
+GEÇ düğmesi varış filmiyle aynı köşede durur. Video yoksa özet doğrudan açılır.

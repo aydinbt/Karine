@@ -91,6 +91,7 @@ public sealed partial class BubeApp : MonoBehaviour {
  WorldIntro activeIntro;
  CornerMark activeMark;
  bool deskArrivalDone;
+ bool reportSendDone;
  Action introAfter;
  VideoPlayer cctvPlayer;
  RenderTexture cctvTexture;

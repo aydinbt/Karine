@@ -32,6 +32,8 @@ Durum `[~]`: 13 düğüm, 31 soru, 170 metin anahtarı; doğrulayıcı vakayı b
 
 Bölüm geçişi artık sessiz değil: kabul edilmemiş her yeni dosya masaya bırakılıyor (`NewCaseArrival`). Dünyanın kendi varış filmi yalnız o dünyanın ilk dosyasında bir kez oynuyor. İki PlayMode testi var, **Play Mode'da gözle görülmedi** `[~]`.
 
+Rapor gönderildiğinde bırakılışın tersi oynuyor: Bora evrakı kaşeler, dosya ekran dışına gider, sonra vaka özeti açılır (`reportSendVideo`) `[~]`.
+
 ## Kimlik
 
 - **Oyun adı:** Karine — 25 Eylül 2026'da karara bağlandı ([NAMING.md](NAMING.md)).

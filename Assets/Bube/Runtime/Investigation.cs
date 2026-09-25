@@ -27,7 +27,7 @@ namespace Bube {
  // (kullanılmayan metin denetimi bunu okur).
  public System.Collections.Generic.IEnumerable<string> Keys { get { Get(string.Empty); return index.Keys; } }
 }
-[Serializable] public class GameConfig { public string title; public string locale; public string initialCase; public string investigatorKey; public WorldIntro[] worldIntros; }
+[Serializable] public class GameConfig { public string title; public string locale; public string initialCase; public string investigatorKey; public WorldIntro[] worldIntros; public string reportSendVideo; public CornerMark reportSendMark; }
 // Uretici filigrani filmin sag alt kosesinde duruyor. "Gec" dugmesini tam
 // oraya koyup ustunu ortuyoruz; koordinatlar filmin kendi karesine oranlidir
 // (0..1), boylece her video kendi filigran yerini soyleyebilir.

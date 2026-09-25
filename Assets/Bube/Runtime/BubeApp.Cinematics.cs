@@ -29,6 +29,56 @@ public sealed partial class BubeApp {
   if(game.State.caseAccepted || game.Career.retired){after();return;}
   StartCoroutine(FirstDeskArrival(after));
  }
+
+ // Raporun gonderilisi, dosyanin birakilisinin tersidir: Bora formu doldurup
+ // kaseler ve evrak ekran disina cikar. Gelis gibi gidis de bir andir; ozeti
+ // oyuncu ancak evrak masadan ayrildiktan sonra gorur. GEC dugmesi varis
+ // filmiyle ayni yerde durur. Video yoksa ya da oynatilamazsa ozet dogrudan
+ // acilir: bu animasyonun yoklugu akisi hicbir zaman kilitlemez.
+ void PlayReportSend(Action after) {
+  if(string.IsNullOrEmpty(config.reportSendVideo)){after();return;}
+  EnsureScene("OfficeScene");
+  root.Clear();
+  root.style.backgroundColor=Color.black;
+  reportSendDone=false;
+  introTexture=new RenderTexture(1920,1080,0,RenderTextureFormat.ARGB32);
+  introTexture.Create();
+  var film=new Image { image=introTexture, scaleMode=ScaleMode.ScaleAndCrop, pickingMode=PickingMode.Ignore };
+  film.style.position=Position.Absolute;
+  film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
+  root.Add(film);
+  var skip=KarineUI.SkipButton(root,T("intro.skip"),()=>FinishReportSend(after));
+  skip.style.position=Position.Absolute;
+  introSkip=skip;
+  activeMark=config.reportSendMark ?? new CornerMark();
+  root.RegisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
+  skip.schedule.Execute(PositionIntroSkip).StartingIn(0);
+  introPlayer=gameObject.AddComponent<VideoPlayer>();
+  introPlayer.playOnAwake=false;
+  introPlayer.isLooping=false;
+  introPlayer.renderMode=VideoRenderMode.RenderTexture;
+  introPlayer.targetTexture=introTexture;
+  introPlayer.audioOutputMode=VideoAudioOutputMode.Direct;
+  introPlayer.source=VideoSource.Url;
+  introPlayer.url=Application.streamingAssetsPath+"/"+config.reportSendVideo;
+  introPlayer.prepareCompleted+=OnIntroPrepared;
+  introPlayer.loopPointReached+=_=>FinishReportSend(after);
+  introPlayer.errorReceived+=(_,message)=>{
+   Debug.LogWarning("Report send video unavailable: "+message);
+   FinishReportSend(after);
+  };
+  introPlayer.Prepare();
+ }
+ // Hem GEC hem videonun bitisi buraya gelir; bayrak ikinci cagriyi yutar.
+ void FinishReportSend(Action after) {
+  if(reportSendDone)return;
+  reportSendDone=true;
+  if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
+  introSkip=null;activeMark=null;
+  if(introPlayer!=null){introPlayer.Stop();Destroy(introPlayer);introPlayer=null;}
+  if(introTexture!=null){introTexture.Release();Destroy(introTexture);introTexture=null;}
+  after();
+ }
  void PlayWorldIntro() {
   EnsureScene("OfficeScene");
   root.Clear();

@@ -412,7 +412,7 @@ public sealed partial class BubeApp {
  void Result() {
   if(game.SubmitFinalReport(selectedSuspect,selectedMethod,selectedEvidence,selectedSuspectSource,selectedMethodSource,selectedEvidenceSource,selectedCustody,selectedCustodySource)) {
    game.BeginNextCaseReview(7);
-   Save();CaseSummary();
+   Save();PlayReportSend(CaseSummary);
   }
  }
  void ContinueToNextCase() {

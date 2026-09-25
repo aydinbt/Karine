@@ -157,6 +157,10 @@ Yeni dosya masaya **bırakılır**, tepside hazır bulunmaz. İki yol var ve iki
 
 Bırakılış yalnız **kabul edilmemiş** vakanın anıdır: kabul edilmiş bir vakaya dönerken animasyon oynamaz, görevden ayrılmış kariyerde hiç oynamaz. İki PlayMode testi bunu koruyor (`CaseArrivalTests`).
 
+## Raporun gönderilişi
+
+Bırakılışın tersi: oyuncu son raporu gönderdiğinde `Result()` önce `PlayReportSend` çağırır — Bora formu doldurup kaşeler, evrak ekran dışına çıkar — ve vaka özeti ancak film bittikten (ya da GEÇ'e basıldıktan) sonra açılır. Video `config.json` → `reportSendVideo`, GEÇ düğmesinin yeri `reportSendMark` ile verilir; ikisi de masaya varış filmiyle aynı köşeyi kullanır. Alan boşsa ya da video oynatılamazsa özet doğrudan açılır; animasyonun yokluğu akışı kilitlemez.
+
 ## Vaka teklifi akışı
 
 Ayrı bir tam ekran teklif ekranı **yoktur** (`CaseOffer()` kaldırıldı). Kabul edilmemiş vaka, `InboxPage()` içinde `InboxEntry.offer` alanı dolu olan en üstteki okunmamış evrak olarak listelenir; sağ sütun `offer.subtitle` + `offer.summary` önizlemesini ve `offer.accept` düğmesini çizer, düğme `AcceptCase()` → `Save()` → `Desk()` yapar. `Desk()` kabul edilmeden yalnız tepsi ve ana ekran kısayolunu açar. Rozet açık teklifi de sayar ve `badge.schedule.Execute(...).Every(520)` ile yanıp söner — zamanlayıcı rozetin paneline bağlı olduğu için ekran değişince kendiliğinden durur. `FirstDeskArrival()` kendi masa görselini çizmez, `Desk()`'i arka plan alır.
