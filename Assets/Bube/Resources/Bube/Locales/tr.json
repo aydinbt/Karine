@@ -2407,6 +2407,206 @@
   {
    "key": "settings.ads.change",
    "value": "Reklam onayını değiştir"
+  },
+  {
+   "key": "menu.row.chapters",
+   "value": "BÖLÜM SEÇİCİ"
+  },
+  {
+   "key": "world.page.title",
+   "value": "BÖLÜM SEÇİCİ"
+  },
+  {
+   "key": "world.cases",
+   "value": "Vaka"
+  },
+  {
+   "key": "world.progress",
+   "value": "ÜLKE DOSYA İLERLEMESİ"
+  },
+  {
+   "key": "world.open",
+   "value": "Vakaları Görüntüle"
+  },
+  {
+   "key": "world.completedCases",
+   "value": "Tamamlanan Vaka"
+  },
+  {
+   "key": "world.state.completed",
+   "value": "TAMAM"
+  },
+  {
+   "key": "world.state.active",
+   "value": "AÇIK"
+  },
+  {
+   "key": "world.state.locked",
+   "value": "KİLİTLİ"
+  },
+  {
+   "key": "world.slot.sealed",
+   "value": "Dosya henüz açılmadı"
+  },
+  {
+   "key": "world.locked.hint",
+   "value": "Bu ülke önceki ülkenin dosyaları kapanınca açılır."
+  },
+  {
+   "key": "world.slot.lockedHint",
+   "value": "Bu dosya sıradaki dosya kapanınca açılır."
+  },
+  {
+   "key": "world.slot.unwritten",
+   "value": "Bu dosya henüz yazılmadı."
+  },
+  {
+   "key": "world.back",
+   "value": "Menüye dön"
+  },
+  {
+   "key": "world.tr.name",
+   "value": "Türkiye"
+  },
+  {
+   "key": "world.tr.city",
+   "value": "İstanbul"
+  },
+  {
+   "key": "world.tr.description",
+   "value": "Beyoğlu ve çevresi: ilk görevlendirme, ilk tanıklar, ilk kapanan kapı."
+  },
+  {
+   "key": "world.tr.case003",
+   "value": "Apartman 5/3"
+  },
+  {
+   "key": "world.tr.case004",
+   "value": "Sahte Kimlik"
+  },
+  {
+   "key": "world.tr.case005",
+   "value": "Liman Gölgesi"
+  },
+  {
+   "key": "world.tr.case006",
+   "value": "Gece Treni"
+  },
+  {
+   "key": "world.tr.case007",
+   "value": "Son Tanık"
+  },
+  {
+   "key": "world.uk.name",
+   "value": "Birleşik Krallık"
+  },
+  {
+   "key": "world.uk.city",
+   "value": "Londra"
+  },
+  {
+   "key": "world.uk.description",
+   "value": "Birleşik Krallık dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.de.name",
+   "value": "Almanya"
+  },
+  {
+   "key": "world.de.city",
+   "value": "Berlin"
+  },
+  {
+   "key": "world.de.description",
+   "value": "Almanya dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.jp.name",
+   "value": "Japonya"
+  },
+  {
+   "key": "world.jp.city",
+   "value": "Tokyo"
+  },
+  {
+   "key": "world.jp.description",
+   "value": "Japonya dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.fr.name",
+   "value": "Fransa"
+  },
+  {
+   "key": "world.fr.city",
+   "value": "Paris"
+  },
+  {
+   "key": "world.fr.description",
+   "value": "Fransa dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.us.name",
+   "value": "ABD"
+  },
+  {
+   "key": "world.us.city",
+   "value": "Chicago"
+  },
+  {
+   "key": "world.us.description",
+   "value": "ABD dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.it.name",
+   "value": "İtalya"
+  },
+  {
+   "key": "world.it.city",
+   "value": "Napoli"
+  },
+  {
+   "key": "world.it.description",
+   "value": "İtalya dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.es.name",
+   "value": "İspanya"
+  },
+  {
+   "key": "world.es.city",
+   "value": "Sevilla"
+  },
+  {
+   "key": "world.es.description",
+   "value": "İspanya dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.ca.name",
+   "value": "Kanada"
+  },
+  {
+   "key": "world.ca.city",
+   "value": "Montreal"
+  },
+  {
+   "key": "world.ca.description",
+   "value": "Kanada dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.au.name",
+   "value": "Avustralya"
+  },
+  {
+   "key": "world.au.city",
+   "value": "Melbourne"
+  },
+  {
+   "key": "world.au.description",
+   "value": "Avustralya dosyaları henüz açılmadı."
+  },
+  {
+   "key": "world.state.unwritten",
+   "value": "YAZILMADI"
   }
  ]
 }

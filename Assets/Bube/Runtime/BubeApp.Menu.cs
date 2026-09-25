@@ -41,6 +41,7 @@ public sealed partial class BubeApp {
   } else {
    MenuRow(menu,"document",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
   }
+  MenuRow(menu,"pin",T("menu.row.chapters"),WorldPage,false);
   MenuRow(menu,"gear",T("menu.row.settings"),SettingsPage,false);
   MenuRow(menu,"chart",T("menu.row.career"),StatisticsPage,false);
   MenuRow(menu,"menu_quit",T("menu.row.quit"),QuitGame,false);

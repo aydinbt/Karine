@@ -277,3 +277,16 @@ LevelPlay/AdMob kurulumu bir Unity Gaming Services oyun kimliği ve bir AdMob uy
 - Menü satırları `MenuRow(...)` ile çizilir (simge sütunu + etiket + öne çıkan satırda ok, 52 px dokunma hedefi). Etiketler `menu.row.*` anahtarlarında **büyük harfle saklanır** — Türkçe `ToUpper` tuzağına (I/İ) hiç girilmez.
 - Simgeler `Resources/Bube/Art/Icons/menu_{continue,newCareer,settings,career,quit}.png`. `MenuIcon(...)` bunları arka plan görseli olarak (`BackgroundSizeType.Contain`, sola yaslı, 34×22 sütun) koyar ve `unityBackgroundImageTintColor` ile satırın tonuna boyar. Dosya yoksa sütun genişliği korunur, etiketler kaymaz; `ProjectRules` beşinin de varlığını arar.
 - Stüdyo imzası sol sütunun değil, kökün çocuğudur: sağ alt köşede mutlak yerleşim (`right 4% / bottom 5%`).
+
+## Bölüm seçici verisi
+
+Ekran `Assets/Bube/Runtime/BubeApp.World.cs`, veri modeli ve kilit kuralı `Assets/Bube/Runtime/Worlds.cs`, veri `Assets/Bube/Resources/Bube/Worlds.json`, doğrulama `Assets/Bube/Editor/Validation/WorldRules.cs`.
+
+Veri: `countries[]` → `id`, `nameKey`, `cityKey`, `descriptionKey`, `image`, `slots[]`; her yuva `caseId` + `titleKey` + `image`. Boş `caseId` "bu dosya henüz yazılmadı" demektir (`WorldSlotState.Unwritten`) — kilitli değil, **yok**.
+
+Durum tek yerde türetilir (`Worlds.SlotState`) ve ekran onu yalnız boyar. Kapanmış dosyaların kümesi `Career.reviewHistory`den gelir; ülke ilerlemesi, üstteki `n / 70` sayacı ve ülke çubuğu aynı kümeden hesaplanır, ayrı bir kayıt alanı **eklenmedi**. Ekran açılırken `Worlds.Resume` bitmemiş ilk açık ülkeyi seçer.
+
+`WorldRules` şunları kilitler: ülke kimliği tekil, her ülkenin yuva sayısı eşit (çubuk ve sayaç aynı ölçeği göstersin), her metin anahtarı dil dosyasında var, dolu bir `caseId` gerçekten `Bube/Cases/` altında var ve iki yuvada geçmiyor, ilk yuva `config.initialCase` ile aynı, ve **yazılmış her vaka seçicide bir yuvada** — listede olmayan vaka oyuncunun asla göremeyeceği vakadır.
+
+Eksik görsel hata değil: harita (`Bube/WorldMap`) ve ülke görseli (`Bube/Worlds/<id>`) yoksa ekran mukavva pano, kâğıt iğne ve ikonla kurulur. Bu yüzden `RequiredTextures`a eklenmediler.
+

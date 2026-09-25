@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; ses ve ayarlar oynanıştan gelen geri bildirimle kapandı)
+**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; ses ve ayarlar kapandı; bölüm seçici ekranı kodlandı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -18,6 +18,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[
 - **Vaka eklemek koddan koptu:** yeni vaka = `caseXXX.json` + `tr.caseXXX.json` + varlıklar. Portre tonları veride, doğrulayıcı vakaya özel C# istemiyor.
 - **Ses sistemi kurulu, dokuz klip depoda ve sesler duyuldu.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede yumuşak bir sohbet blibi (konuşma taklidi yok), ana menü müziği (32 s döngü), masa müziği (`desk_theme`, 40 s — oda gürültüsünün yerini aldı) ve görüşme odası ortamı. Doğrulayıcı dokuzunun varlığını kilitliyor.
 - **Ses ayarı beş kademe:** kapalı, %25, %50, %75, tam — ayarlarda radyo listesi (kit'te kaydırıcı yok). Varsayılan: müzik %50, efektler tam.
+- **Bölüm seçici ekranı kodlandı (`[~]`, Play Mode'da görülmedi):** maket yerleşimi — kimlik şeridi, ülke listesi, iğneli pano, ülke kartı, yedi dosyalık şerit. Veri `Bube/Worlds.json`da; kilit ilerlemeden türer, ipucu vermez. Üç açık madde: eksik görseller (dünya haritası, ülke/dosya görselleri), kit'te olmayan kilit/onay/oynat ikonları ve **on ülke ↔ yedi dünya** kanon çelişkisi ([DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md)).
 - **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 
@@ -35,7 +36,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[
 | --- | --- |
 | **Faz 0 — Zemin** | **Bitti ve doğrulandı** |
 | **Faz 1 — Doğrulamayı otomatikleştir** | **Bitti** — doğrulayıcı vaka başına ayrıldı, ilk hatada durmuyor, 42 test yeşil |
-| **Faz 2 — Gerçekten oyna** | **İlerliyor** — Dosya #001 elle oynandı ve oynanıştan gelen dört düzeltme girildi (105 test yeşil); **cihaz adımı açık** |
+| **Faz 2 — Gerçekten oyna** | **İlerliyor** — Dosya #001 elle oynandı ve oynanıştan gelen dört düzeltme girildi (113 test yeşil); **cihaz adımı açık** |
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | **Baştan sona oynandı**; cihaz adımı açık |
 | M2 — Soruşturmayı oyuna çevirme | Oynanarak doğrulandı; cihaz adımı açık |

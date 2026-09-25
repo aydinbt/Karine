@@ -1,11 +1,11 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 25 Eylül 2026 (vakadan bağımsız temeller: dil ayrımı, portre verisi, ses, geri tuşu, reklam dikişi)  
+**Son durum:** 26 Eylül 2026 (bölüm seçici ekranı kodlandı; ses ve ayarlar oynanıştan gelen geri bildirimle kapandı)  
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 105 test: 98 EditMode + 7 PlayMode)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 113 test: 106 EditMode + 7 PlayMode)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -219,6 +219,7 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] Sonraki vakalarda da görsel CCTV, vaka tasarımı gerektirirse kullanılabilir; zorunlu bölüm sırası kuralı değildir. Metin/sinyal dökümü temel inceleme biçimi olarak kalır.
 - [ ] Ödüllü reklam ipuçları yalnızca karşılaştırmaya yönlendirir, faili vermez; Dosya #001 reklam ipucu içermez.
 - [ ] Vaka kataloğu ve sonraki içerik ölçeği oynanış verisine göre belirlenir; ülke/dosya sayısı için erken örnekler hedef sayılmaz.
+- [~] **Bölüm seçici ekranı** maket yerleşimiyle kodlandı: kimlik şeridi, ülke listesi, iğneli pano, ülke kartı ve yedi dosyalık şerit; veri `Bube/Worlds.json`dan gelir, kilit ilerlemeden türer (ülke sırayla, dosya sırayla), kapanmış dosya kariyer kaydını açar. 113 test yeşil (7 yeni kilit testi). **Play Mode'da görülmedi**; eksik görseller (dünya haritası, ülke ve dosya görselleri), kilit/onay/oynat ikonları ve on ülke ↔ yedi dünya kanon çelişkisi açık.
 
 ## Güncelleme kuralı
 

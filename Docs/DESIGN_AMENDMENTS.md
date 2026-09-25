@@ -626,3 +626,20 @@ Kademe değeri artık **doğrudan yüzde** (`Off = 0 … Full = 100`), kazanç o
 Bu makinede iki ikame sunuldu (Unity'nin kendi Android SDK'sındaki `adb` üstüne emülatör + ARM64 sistem imajı; ya da Unity Device Simulator paketi) ve bir de ölçülebilir kısmı kapatan otomatik çözünürlük/dokunma hedefi testleri. Kullanıcı **ertelemeyi** seçti.
 
 **Karar:** Faz 2 kapanmıyor ve masaüstü oynanışı cihaz ölçütünün yerine geçmiyor. `[x]` işaretleri yalnız gerçekten gözlenen davranış için; "emülatörde çalıştı" ile "telefonda çalıştı" aynı cümlede yazılmaz. İş Faz 3'ten (Dosya #002) devam ediyor, cihaz adımı telefon bulunduğunda koşulacak. Bu, bilinen ve kabul edilmiş bir açık maddedir — unutulmuş bir eksik değil.
+
+## Bölüm seçici ekranı (26 Eylül 2026)
+
+**Kullanıcı:** "Yeni bir sayfa yapalım, Bölüm seçici ekranı eklememiz gerekiyor; ekran görüntüsündeki gibi birebir yapman gerekiyor." Maket: üstte kimlik şeridi (logo, Bora, rütbe, kurum güveni, tamamlanan vaka sayacı, ayarlar), solda kaydırılabilir ülke listesi, ortada iğneli dünya panosu, sağda seçili ülkenin kartı (görsel, şehir, açıklama, ülke ilerlemesi, "Vakaları Görüntüle"), altta yedi dosyanın şeridi.
+
+**Yerleşim maketten alındı, dil kit'ten.** Ekranın içine renk, punto ya da yeni bileşen yazılmadı: ülke satırı, pano iğnesi ve dosya kartı `KarineTheme` + `KarineUI` ile kuruldu (`Panel`, `Row`, `Rule`, `Meter`, `Counter`, `Progress`, `Dot`, `Icon`, `IconButton`, `Technical`).
+
+**Maketten üç bilinçli sapma:**
+
+1. **Kilit/onay/oynat simgesi yok.** Kit'in ikon kümesinde kilit, tik ve oynat yok, emoji de yasak (Kit §15). Durum bunun yerine bir renk noktası + tek kelimelik teknik etiket: `TAMAM` / `AÇIK` / `KİLİTLİ` / `YAZILMADI`. İkonlar `UI_KIT.png`'den kesilince buraya girer.
+2. **Görseller henüz yok.** Dünya haritası (`Bube/WorldMap`), ülke kartı görselleri (`Bube/Worlds/<id>`) ve maketteki polaroidler depoda değil. Ekran onlar olmadan da tamdır: harita yerine mukavva pano + kâğıt iğneler, kart görseli yerine iğne simgesi durur. Görsel gelince tek satır veri değişikliğiyle yerine oturur.
+3. **Ülke sayısı maketten alındı: on.** `WORLD_OPENINGS.md` yedi dünya yazıyor. Maket birebir istendiği için seçici on ülke × yedi dosya (70) gösteriyor; **kanon çelişkisi kullanıcının kararını bekliyor** — ya açılış belgesi ona göre güncellenir, ya seçici yediye iner. İkisi de tek veri dosyası düzenlemesidir (`Bube/Worlds.json`).
+
+**Kilit ilerlemedir, ipucu değil.** Ülke sırası: ilki her zaman açık, sonraki ancak önceki ülkenin bütün dosyaları kapanınca açılır. Dosyalar ülke içinde sırayla açılır. Hiçbir kilit "şunu yap" demiyor ve hiçbir yerde sıradaki adım yazılı değil — ekran yalnız neyin kapandığını gösterir. Kapanmış dosyaya basmak kariyer kaydını açar (oyuncu ne gönderdiğini ve kurumun ne dediğini yeniden okur), açık dosya masaya götürür, yazılmamış dosya pasiftir. "Vakaları Görüntüle" ekran değiştirmez, alt şeridi öne çıkarır: dosyayı yine oyuncu açar.
+
+**Dosya adı ve başlığı veriden gelir.** Maketin "Beyoğlu'nda Kayıp / İsimsiz Zarf" gibi adları yer tutucuydu; şeritte vakanın **kendi** başlığı yazıyor (Dosya #001 için `case.title`). Türkiye'nin 3–7. yuvaları başlıklı ama vaka kimliği **boş**: dosya henüz yazılmadı, kilitli değil. Oyuncuya açılmayacak bir kilit gösterilmez.
+

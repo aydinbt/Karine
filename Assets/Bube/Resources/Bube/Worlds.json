@@ -1,0 +1,444 @@
+{
+ "countries": [
+  {
+   "id": "tr",
+   "nameKey": "world.tr.name",
+   "cityKey": "world.tr.city",
+   "descriptionKey": "world.tr.description",
+   "image": "Bube/Worlds/tr",
+   "slots": [
+    {
+     "caseId": "case001",
+     "titleKey": "case.title",
+     "image": ""
+    },
+    {
+     "caseId": "case002",
+     "titleKey": "case002.title",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.tr.case003",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.tr.case004",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.tr.case005",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.tr.case006",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.tr.case007",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "uk",
+   "nameKey": "world.uk.name",
+   "cityKey": "world.uk.city",
+   "descriptionKey": "world.uk.description",
+   "image": "Bube/Worlds/uk",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "de",
+   "nameKey": "world.de.name",
+   "cityKey": "world.de.city",
+   "descriptionKey": "world.de.description",
+   "image": "Bube/Worlds/de",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "jp",
+   "nameKey": "world.jp.name",
+   "cityKey": "world.jp.city",
+   "descriptionKey": "world.jp.description",
+   "image": "Bube/Worlds/jp",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "fr",
+   "nameKey": "world.fr.name",
+   "cityKey": "world.fr.city",
+   "descriptionKey": "world.fr.description",
+   "image": "Bube/Worlds/fr",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "us",
+   "nameKey": "world.us.name",
+   "cityKey": "world.us.city",
+   "descriptionKey": "world.us.description",
+   "image": "Bube/Worlds/us",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "it",
+   "nameKey": "world.it.name",
+   "cityKey": "world.it.city",
+   "descriptionKey": "world.it.description",
+   "image": "Bube/Worlds/it",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "es",
+   "nameKey": "world.es.name",
+   "cityKey": "world.es.city",
+   "descriptionKey": "world.es.description",
+   "image": "Bube/Worlds/es",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "ca",
+   "nameKey": "world.ca.name",
+   "cityKey": "world.ca.city",
+   "descriptionKey": "world.ca.description",
+   "image": "Bube/Worlds/ca",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "au",
+   "nameKey": "world.au.name",
+   "cityKey": "world.au.city",
+   "descriptionKey": "world.au.description",
+   "image": "Bube/Worlds/au",
+   "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    }
+   ]
+  }
+ ]
+}

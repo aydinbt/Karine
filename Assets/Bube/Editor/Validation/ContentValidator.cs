@@ -44,6 +44,7 @@ public static class ContentValidator {
   CaseChainRules.Validate(cases, config, report);
   report.Scope("dil");
   LocaleRules.Validate(localeFiles, cases, report);
+  WorldRules.Validate(report, locale);
 
   foreach (var data in cases) {
    report.Scope(data.id);
