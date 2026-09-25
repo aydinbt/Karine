@@ -70,6 +70,9 @@ public sealed class BubeApp : MonoBehaviour {
  VisualElement documentNotice;
  VisualElement inboxBadge;
  Label inboxBadgeLabel;
+ VideoPlayer menuPlayer;
+ RenderTexture menuTexture;
+ bool menuVideoFailed;
  VideoPlayer introPlayer;
  RenderTexture introTexture;
  VisualElement introBrand;
@@ -410,41 +413,152 @@ public sealed class BubeApp : MonoBehaviour {
    buttons[i].style.backgroundColor=active?new Color(.74f,.60f,.40f):new Color(.82f,.76f,.65f);
   }
  }
+ // Ana menü maketin birebir karşılığı: solda marka ve menü, arkada dönen
+ // animasyon. Animasyonun sol tarafı zaten karartılmış; menü oraya oturur.
  void Home() {
   StopCctvVideo();
   EnsureScene("MainMenuScene");
   showingInterviewList=false;
   root.Clear();
-  var art=Resources.Load<Texture2D>("Bube/MainMenuNight");
-  if(art!=null) {
-   art.filterMode=FilterMode.Point;
-   var backdrop=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
-   backdrop.style.position=Position.Absolute;
-   backdrop.style.left=0;backdrop.style.right=0;backdrop.style.top=0;backdrop.style.bottom=0;
-   root.Add(backdrop);
-  }
+  root.style.backgroundColor=Color.black;
+  MenuBackdrop();
   var left=new VisualElement();left.style.position=Position.Absolute;
-  left.style.left=Length.Percent(4);left.style.top=Length.Percent(4);
-  left.style.width=Length.Percent(32);left.style.bottom=Length.Percent(3);
+  left.style.left=Length.Percent(4);left.style.top=Length.Percent(7);
+  left.style.width=Length.Percent(46);left.style.bottom=Length.Percent(4);
   root.Add(left);
-  Text(left,"bubeGames",Gold,18);
-  var gap=new VisualElement();gap.style.height=25;left.Add(gap);
-  // Ana menude logo buyuk; oran `KarineLogo` icinde sabittir, burada yalniz
-  // genislik secilir.
-  KarineLogo.Hero(left,380);
-  var rule=new VisualElement();rule.style.height=3;rule.style.width=Length.Percent(78);
-  rule.style.backgroundColor=Ink;rule.style.marginTop=3;rule.style.marginBottom=10;left.Add(rule);
-  Text(left,"b u b e   P O L I S",Ink,22);
-  var menuGap=new VisualElement();menuGap.style.height=18;left.Add(menuGap);
-  if(game.State.caseAccepted)Button(left,"▣  "+T("home.continue")+"   ›",Desk,true);
-  if(game.State.caseAccepted)Button(left,"↺  "+T("home.new"),()=>{confirmRestart=true;RestartPage();});
-  else Button(left,"↺  "+T("home.new"),()=>MaybeWorldIntro(Desk),true);
-  Button(left,"⚙  "+T("menu.settings"),SettingsPage);
-  Button(left,"▥  "+T("menu.stats"),StatisticsPage);
-  Button(left,"▤  "+T("archive.menu"),ArchivePage);
-  Button(left,"ⓘ  "+T("menu.about"),AboutPage);
+
+  KarineLogo.Hero(left,520);
+  var tagline=Text(left,T("menu.tagline"),new Color(.74f,.70f,.60f),15);
+  tagline.style.letterSpacing=4;tagline.style.marginTop=2;tagline.style.marginBottom=16;
+
+  var term=Text(left,T("menu.definitionTerm"),Ink,15);term.style.marginBottom=2;
+  var definition=Text(left,T("menu.definitionBody"),new Color(.70f,.67f,.58f),15);
+  definition.style.marginBottom=14;
+
+  MenuRule(left);
+  var menu=new VisualElement();menu.style.marginTop=10;menu.style.marginBottom=10;left.Add(menu);
+  if(game.State.caseAccepted) {
+   MenuRow(menu,"▣",T("menu.row.continue"),Desk,true);
+   MenuRow(menu,"▤",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
+  } else {
+   MenuRow(menu,"▤",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
+  }
+  MenuRow(menu,"⚙",T("menu.row.settings"),SettingsPage,false);
+  MenuRow(menu,"▥",T("menu.row.career"),StatisticsPage,false);
+  MenuRow(menu,"◀",T("menu.row.quit"),QuitGame,false);
+
+  var spacer=new VisualElement();spacer.style.flexGrow=1;left.Add(spacer);
+  MenuRule(left);
+  var studio=Text(left,"bubeGames",Ink,18);studio.style.marginTop=8;studio.style.marginBottom=1;
+  if(fonts!=null && fonts.Heading!=null)studio.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
+  Text(left,"powered by bubeDigital",new Color(.62f,.59f,.52f),13).style.marginBottom=0;
   FadeIn(left);
  }
+
+ void MenuRule(VisualElement parent) {
+  var rule=new VisualElement();
+  rule.style.height=2;rule.style.width=70;
+  rule.style.backgroundColor=new Color(.55f,.52f,.45f);
+  parent.Add(rule);
+ }
+
+ // Menü satırı: solda simge sütunu, ortada etiket, seçili satırda sağda ok.
+ // Tek dokunuşluk hedef yüksekliği `MinimumTouchTarget`in üstünde tutulur.
+ void MenuRow(VisualElement parent,string icon,string label,Action open,bool primary) {
+  var row=new Button(open);
+  row.style.flexDirection=FlexDirection.Row;
+  row.style.alignItems=Align.Center;
+  row.style.minHeight=52;
+  row.style.marginBottom=4;row.style.marginLeft=0;row.style.marginRight=0;
+  row.style.paddingLeft=10;row.style.paddingRight=12;
+  row.style.width=330;
+  row.style.borderTopWidth=0;row.style.borderBottomWidth=0;
+  row.style.borderLeftWidth=0;row.style.borderRightWidth=0;
+  row.style.backgroundColor=primary?Ink:new Color(0,0,0,0);
+  var tone=primary?new Color(.10f,.12f,.14f):Ink;
+  parent.Add(row);
+
+  var mark=new Label(icon);
+  mark.style.width=34;mark.style.color=tone;
+  mark.style.fontSize=Typography.Snap(17);
+  mark.style.unityTextAlign=TextAnchor.MiddleLeft;
+  row.Add(mark);
+
+  var text=new Label(label);
+  text.style.color=tone;
+  text.style.fontSize=Typography.Snap(17);
+  text.style.letterSpacing=2;
+  text.style.flexGrow=1;
+  if(fonts!=null && fonts.Body!=null)text.style.unityFontDefinition=FontDefinition.FromFont(fonts.Body);
+  row.Add(text);
+
+  if(primary) {
+   var chevron=new Label("›");
+   chevron.style.color=tone;chevron.style.fontSize=Typography.Snap(19);
+   row.Add(chevron);
+  }
+ }
+
+ void QuitGame() {
+  Save();
+  Application.Quit();
+ }
+
+ // Arka plan: dönen animasyon. Video açılmazsa durağan görsele düşer — menü
+ // hiçbir durumda boş siyah ekrana bakmaz.
+ void MenuBackdrop() {
+  if(!menuVideoFailed) {
+   if(menuTexture==null) {
+    menuTexture=new RenderTexture(1920,1080,0,RenderTextureFormat.ARGB32);
+    menuTexture.Create();
+   }
+   if(menuPlayer==null) {
+    menuPlayer=gameObject.AddComponent<VideoPlayer>();
+    menuPlayer.playOnAwake=false;
+    menuPlayer.isLooping=true;
+    menuPlayer.renderMode=VideoRenderMode.RenderTexture;
+    menuPlayer.targetTexture=menuTexture;
+    // Menü döngüsü sessizdir: müzik/ses ayrı bir karardır.
+    menuPlayer.audioOutputMode=VideoAudioOutputMode.None;
+    menuPlayer.source=VideoSource.Url;
+    menuPlayer.url=Application.streamingAssetsPath+"/Bube/main_menu_loop.mp4";
+    menuPlayer.errorReceived+=OnMenuVideoError;
+    menuPlayer.prepareCompleted+=OnMenuVideoPrepared;
+    menuPlayer.Prepare();
+   }
+   var film=new Image {image=menuTexture,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
+   film.style.position=Position.Absolute;
+   film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
+   root.Add(film);
+   return;
+  }
+  var art=Resources.Load<Texture2D>("Bube/MainMenuNight");
+  if(art==null)return;
+  art.filterMode=FilterMode.Point;
+  var backdrop=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
+  backdrop.style.position=Position.Absolute;
+  backdrop.style.left=0;backdrop.style.right=0;backdrop.style.top=0;backdrop.style.bottom=0;
+  root.Add(backdrop);
+ }
+
+ void OnMenuVideoPrepared(VideoPlayer player) => player.Play();
+
+ void OnMenuVideoError(VideoPlayer player,string message) {
+  Debug.LogWarning("Main menu loop unavailable: "+message);
+  menuVideoFailed=true;
+  StopMenuVideo();
+  if(root!=null && root.childCount>0)Home();
+ }
+
+ void StopMenuVideo() {
+  if(menuPlayer!=null) {
+   menuPlayer.errorReceived-=OnMenuVideoError;
+   menuPlayer.prepareCompleted-=OnMenuVideoPrepared;
+   menuPlayer.Stop();Destroy(menuPlayer);menuPlayer=null;
+  }
+  if(menuTexture!=null){menuTexture.Release();Destroy(menuTexture);menuTexture=null;}
+ }
+
  void MenuOverlay(string title,out VisualElement card) {
   Home();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
@@ -467,6 +581,8 @@ public sealed class BubeApp : MonoBehaviour {
    instantText=false;PlayerPrefs.SetInt("bube.instantText",0);PlayerPrefs.Save();SettingsPage();
   },!instantText);
   var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
+  // Hakkında da menüden çıktı; ayarların içinde duruyor.
+  Button(card,T("menu.about"),AboutPage);
   Button(card,T("offer.back"),Home);
  }
  void AboutPage() {
@@ -695,6 +811,9 @@ public sealed class BubeApp : MonoBehaviour {
    var direction=review.trustChange>0?" ↑":review.trustChange<0?" ↓":" —";
    Button(list,title+"  ·  "+T("career.evaluation."+review.evaluationType)+direction,()=>CareerRecordPage(review));
   }
+  // Arşiv menü satırı olmaktan çıktı (maket beş satır gösteriyor); kariyer
+  // ekranının içinde duruyor — kapanmış dosyalar zaten kariyer geçmişidir.
+  Button(card,T("archive.menu"),ArchivePage);
   Button(card,T("offer.back"),Home);
  }
  void CareerRecordPage(FaxReview review) {
@@ -1187,6 +1306,7 @@ public sealed class BubeApp : MonoBehaviour {
  }
  void Desk() {
   StopCctvVideo();
+  StopMenuVideo();
   EnsureScene("OfficeScene");
   showingInterviewList=false;
   showingInvestigationRequests=false;

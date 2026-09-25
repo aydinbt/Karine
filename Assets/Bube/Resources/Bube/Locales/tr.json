@@ -193,10 +193,6 @@
       "value": "İfadeleri dinleyin. Kayıtları karşılaştırın. Kararı kanıtlara dayandırın."
     },
     {
-      "key": "home.continue",
-      "value": "Devam et"
-    },
-    {
       "key": "home.closed",
       "value": "Masaya dön  →"
     },
@@ -2579,6 +2575,38 @@
     {
       "key": "hasan.deflect",
       "value": "Bunun benimle ilgisini kurmuyorum. Başka bir şey soracaksanız sorun."
+    },
+    {
+      "key": "menu.tagline",
+      "value": "A DETECTIVE INVESTIGATION GAME"
+    },
+    {
+      "key": "menu.definitionTerm",
+      "value": "karine (n.)"
+    },
+    {
+      "key": "menu.definitionBody",
+      "value": "Hukukta, aksi ispatlanıncaya kadar doğru kabul edilen durum, varsayım."
+    },
+    {
+      "key": "menu.row.continue",
+      "value": "DEVAM ET"
+    },
+    {
+      "key": "menu.row.newCareer",
+      "value": "YENİ KARİYER"
+    },
+    {
+      "key": "menu.row.settings",
+      "value": "AYARLAR"
+    },
+    {
+      "key": "menu.row.career",
+      "value": "KARİYER"
+    },
+    {
+      "key": "menu.row.quit",
+      "value": "ÇIKIŞ"
     }
   ]
 }

@@ -245,3 +245,6 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [x] **İçe aktarım ezmesi düzeltildi.** Unity varsayılanı (`nPOTScale: 1`) logoyu 2000×667 → 2048×512 eziyordu; meta kilitlendi ve düşen test yeşile döndü.
 - [~] **Yazı tipi rol tablosu** (`FontSet`): Heading / Mono / Body ayrıldı, eksik dosya mono'ya düşüyor ve doğrulayıcı not yazıyor. `RobotoSlab-ExtraBold.ttf` ve `Inter-Regular.ttf` **projede yok** — bu yüzden bugün ekranda görünür bir değişiklik yok.
 - [~] **Bütün görsellerde içe aktarım oranı kilitlendi** (11 meta). Arka planlar yatayda ~%12, bayrak ~%33 esniyordu; artık esnemiyor. Doğrulayıcı kuralı eklendi ve düştüğü görülerek sınandı. Ekranlara gözle bakılmadı → `[~]`.
+
+- [~] **Ana menü maketle eşlendi ve arka plana dönen animasyon bağlandı.** Logo, alt başlık, sözlük tanımı, beş satırlık menü, stüdyo bloğu; video açılmazsa durağan görsele düşüyor. Satırların gerçekten çizildiği **Play Mode testiyle** doğrulandı (7 PlayMode testi); yerleşim oranlarına **gözle bakılmadı** → `[~]`.
+- [x] Arşiv kariyer ekranına, Hakkında ayarlara taşındı — menü maketteki beş satıra indi, iki işlev kaybolmadı.

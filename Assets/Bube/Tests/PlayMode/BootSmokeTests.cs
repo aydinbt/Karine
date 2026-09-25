@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -89,6 +90,31 @@ public sealed class BootSmokeTests {
 
   CollectionAssert.IsEmpty(errors, "Hata olustu: " + string.Join(" | ", errors));
  }
+
+
+ // Ana menu maketin satirlarini gercekten ciziyor mu: kayit yokken "DEVAM ET"
+ // gorunmez, yeni kariyer one cikar; digerleri her durumda durur.
+ [UnityTest] public IEnumerator MainMenu_ShowsMockupRows() {
+  SceneManager.LoadScene("BootScene", LoadSceneMode.Single);
+  for (int frame = 0; frame < 30; frame++) yield return null;
+
+  var root = Object.FindFirstObjectByType<BubeApp>().GetComponent<UIDocument>().rootVisualElement;
+  var labels = root.Query<Label>().ToList().Select(label => label.text).Where(text => !string.IsNullOrEmpty(text)).ToList();
+
+  CollectionAssert.Contains(labels, "A DETECTIVE INVESTIGATION GAME", "Marka alt basligi yok.");
+  CollectionAssert.Contains(labels, "karine (n.)", "Sozluk tanimi yok.");
+  CollectionAssert.Contains(labels, "bubeGames");
+  CollectionAssert.Contains(labels, "powered by bubeDigital");
+  foreach (var row in new[] { "YENI KARIYER", "AYARLAR", "KARIYER", "CIKIS" })
+   Assert.IsTrue(labels.Any(text => Fold(text) == row), "Menu satiri yok: " + row);
+
+  CollectionAssert.IsEmpty(errors, "Hata olustu: " + string.Join(" | ", errors));
+ }
+
+ // Turkce buyuk harf karsilastirmasi; testin kaynagi aksansiz kalsin.
+ static string Fold(string value) => value
+  .Replace('\u0130', 'I').Replace('\u00C7', 'C').Replace('\u015E', 'S')
+  .Replace('\u011E', 'G').Replace('\u00DC', 'U').Replace('\u00D6', 'O');
 
 }
 }

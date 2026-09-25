@@ -165,3 +165,11 @@ Yeni `caseXXX.json` + `tr.json` anahtarları + önceki vakanın `nextCaseId` ala
 - **Projedeki bütün görsellerde kilitlendi.** On bir `.png.meta` dosyasının hepsi `nPOTScale: 0` oldu. Önceki hâlde Unity her görseli en yakın ikinin kuvvetine çekiyor ve iki ekseni ayrı ölçeklediği için oranı bozuyordu: 1672×941 arka planlar 2048×1024 (yatayda ~%12 esneme), 1199×1312 karakterler 1024×1024, 96×64 bayrak 128×64 (~%33 esneme). Artık görseller kendi boyutlarında gidiyor.
 - **Kural doğrulayıcıda:** `ProjectRules` `Assets/Bube/Resources` altındaki her `.png.meta` dosyasını tarar ve `nPOTScale: 1` bulursa sorun yazar. Yarın eklenen bir görsel sessizce ezilemez. Kuralın gerçekten çalıştığı, bir metayı geçici olarak bozup düşmesi görülerek doğrulandı.
 - **Yazı tipi rolleri** `FontSet.Load()` ile tek yerden çözülür: `Heading` (RobotoSlab-ExtraBold → Arvo-Bold), `Body` (Inter-Regular → IBMPlexSans-Regular), `Mono` (IBMPlexMono). Eksik rol mono'ya düşer; `FontSet.Missing` hangi rolün düştüğünü söyler ve `ProjectRules` bunu doğrulama notu olarak yazar. `Text()` ve `Button()` gövde rolünü, ekran başlıkları `Heading` rolünü kullanır.
+
+
+## Ana menü
+
+- Arka plan `Assets/StreamingAssets/Bube/main_menu_loop.mp4` (1920×1080, 10 sn, H.264/AAC, LFS). `VideoPlayer` → `RenderTexture(1920×1080)` → `Image(ScaleAndCrop)`; `isLooping = true`, ses kapalı.
+- `menuPlayer` / `menuTexture` `BubeApp` alanlarıdır; `Home()` her çağrıldığında yeniden kurulmaz, yalnız görüntü ögesi eklenir. `Desk()` `StopMenuVideo()` çağırır.
+- Video hata verirse `menuVideoFailed` işaretlenir ve durağan `Bube/MainMenuNight` görseline düşülür.
+- Menü satırları `MenuRow(...)` ile çizilir (simge sütunu + etiket + öne çıkan satırda ok, 52 px dokunma hedefi). Etiketler `menu.row.*` anahtarlarında **büyük harfle saklanır** — Türkçe `ToUpper` tuzağına (I/İ) hiç girilmez.

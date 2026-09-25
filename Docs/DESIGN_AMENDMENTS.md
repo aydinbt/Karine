@@ -401,3 +401,18 @@ Bugün aşınma **temel görselin alfa kanalındadır**; `DistressOverlay` yerin
 **Yazı tipi rolleri** (`FontSet`): `Heading` Roboto Slab, `Mono` IBM Plex Mono (dosya, terminal, tarih, vaka numarası), `Body` Inter / IBM Plex Sans (açıklama ve düğmeler). Dosya adları tek yerde tanımlı; bir rolün dosyası yoksa mono'ya düşer ve doğrulayıcı bunu **not** olarak yazar. `RobotoSlab-ExtraBold.ttf` ve `Inter-Regular.ttf` klasöre bırakıldığı an oyunun tamamı tek yerden geçiş yapar.
 
 **Bulunan gerçek hata:** Unity varsayılan içe aktarımı (`nPOTScale: 1`) logoyu 2000×667'den **2048×512'ye eziyordu** — yani tam da yasaklanan esnetme, kimse dokunmadan, içe aktarımda oluyordu. Logo `nPOTScale: 0` ile kilitlendi; testler hem varlığın oranını hem de ekranda ölçülen oranı doğruluyor. Aynı ayar projedeki diğer görsellerde hâlâ açık (bkz. Architecture.md).
+
+
+## Ana menü maketi ve dönen arka plan (25 Eylül 2026)
+
+Kullanıcının verdiği maket ana menünün **tasarım kanonu** oldu; yanındaki 10 saniyelik animasyon (1920×1080, sessiz döngü) arka plan. Animasyonun sol tarafı zaten karartılmış, menü oraya oturuyor.
+
+Soldaki sütun maketin sırası: KARINE logosu → `A DETECTIVE INVESTIGATION GAME` → sözlük tanımı (`karine (n.)` — hukukta, aksi ispatlanıncaya kadar doğru kabul edilen durum) → çizgi → menü → çizgi → `bubeGames` / `powered by bubeDigital`. Oyunun adının ne anlama geldiğini ilk ekranda söylemesi, adın kendisi kadar kanon.
+
+**Menü beş satır** — maketteki gibi: DEVAM ET (kayıt varsa, öne çıkan), YENİ KARİYER, AYARLAR, KARİYER, ÇIKIŞ. Satırlar simge sütunu + etiket + (öne çıkanda) ok biçiminde; dokunma hedefi 52 piksel.
+
+**Kaybolan iki giriş taşındı, silinmedi.** Maket beş satır gösterdiği için Arşiv ve Hakkında menüden çıktı: **Arşiv kariyer ekranının içinde** (kapanmış dosyalar zaten kariyer geçmişidir), **Hakkında ayarların içinde**. İkisi de erişilebilir; menü maketle birebir.
+
+**Video açılmazsa menü boş kalmaz:** `errorReceived` gelirse durağan `MainMenuNight` görseline düşülür. Döngü sessizdir — müzik ayrı bir karardır. Masaya geçerken döngü durdurulur, menüye dönünce aynı doku yeniden kullanılır (her `Home()` çağrısı videoyu baştan başlatmaz; `MenuOverlay` ve arşiv ekranları `Home()`'u yeniden çiziyor).
+
+Eski `bube` yazı logosu ve `P O L I C E` satırı kalktı; marka artık KARINE.
