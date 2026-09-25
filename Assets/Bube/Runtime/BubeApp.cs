@@ -75,6 +75,8 @@ public sealed class BubeApp : MonoBehaviour {
  WorldIntro activeIntro;
  CornerMark activeMark;
  bool deskArrivalDone;
+ VisualElement deskArrivalFade;
+ const float DeskArrivalFadeSeconds=1.15f;
  Action introAfter;
  VideoPlayer cctvPlayer;
  RenderTexture cctvTexture;
@@ -822,6 +824,22 @@ public sealed class BubeApp : MonoBehaviour {
   film.style.position=Position.Absolute;
   film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
   root.Add(film);
+  // Sinematik karanliga kapanir, masa da karanliktan acilir: iki goruntu
+  // birbirine carpmadan, goz acar gibi gecis yapar.
+  var fade=new VisualElement();
+  fade.style.position=Position.Absolute;
+  fade.style.left=0;fade.style.right=0;fade.style.top=0;fade.style.bottom=0;
+  fade.style.backgroundColor=Color.black;fade.style.opacity=0;
+  fade.pickingMode=PickingMode.Ignore;
+  root.Add(fade);
+  deskArrivalFade=fade;
+  fade.schedule.Execute(()=>{
+   if(introPlayer==null || deskArrivalFade==null)return;
+   double length=introPlayer.length;
+   if(length<=0)return;
+   float remaining=(float)(length-introPlayer.time);
+   deskArrivalFade.style.opacity=Mathf.Clamp01((DeskArrivalFadeSeconds-remaining)/DeskArrivalFadeSeconds);
+  }).Every(16);
   var skip=new Button(()=>FinishDeskArrival(after,false)){text=T("intro.skip")};
   skip.style.position=Position.Absolute;
   skip.style.backgroundColor=Card;skip.style.color=Ink;
@@ -852,11 +870,28 @@ public sealed class BubeApp : MonoBehaviour {
   if(deskArrivalDone)return;
   deskArrivalDone=true;
   if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
-  introSkip=null;activeMark=null;
+  introSkip=null;activeMark=null;deskArrivalFade=null;
   if(introPlayer!=null){introPlayer.Stop();Destroy(introPlayer);introPlayer=null;}
   if(introTexture!=null){introTexture.Release();Destroy(introTexture);introTexture=null;}
   if(fallback)StartCoroutine(FirstDeskArrival(after));
-  else after();
+  else StartCoroutine(OpenEyes(after));
+ }
+ // Masa siyahtan yavasca acilir. Kaplayan golge acilma boyunca dokunmalari da
+ // tutar, boylece oyuncu goremedigi bir seye basamaz.
+ IEnumerator OpenEyes(Action after) {
+  after();
+  var shade=new VisualElement();
+  shade.style.position=Position.Absolute;
+  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
+  shade.style.backgroundColor=Color.black;shade.style.opacity=1;
+  root.Add(shade);
+  float elapsed=0;
+  while(elapsed<1.25f) {
+   elapsed+=Time.unscaledDeltaTime;
+   shade.style.opacity=1-Mathf.SmoothStep(0,1,Mathf.Clamp01(elapsed/1.25f));
+   yield return null;
+  }
+  shade.RemoveFromHierarchy();
  }
  IEnumerator FirstDeskArrival(Action after) {
   // Masanin kendisi arka plandir: ayri bir tam ekran gorsel cizilmez, boylece
@@ -1125,7 +1160,7 @@ public sealed class BubeApp : MonoBehaviour {
   showingInterviewList=false;
   showingInvestigationRequests=false;
   root.Clear();
-  var texture=Resources.Load<Texture2D>("Bube/DeskV2");
+  var texture=Resources.Load<Texture2D>("Bube/DeskReference");
   if(texture==null) {
    Frame(T("desk"),T("desk.title"),T("desk.subtitle"));
    Button(root,T("desk.open"),FilePage,true);Button(root,T("back.home"),Home);return;
@@ -1136,7 +1171,7 @@ public sealed class BubeApp : MonoBehaviour {
   root.Add(image);
   var badge=new VisualElement();
   badge.style.position=Position.Absolute;
-  badge.style.left=Length.Percent(33f);badge.style.top=Length.Percent(4f);
+  badge.style.left=Length.Percent(32.5f);badge.style.top=Length.Percent(31.6f);
   badge.style.width=Length.Percent(2.6f);badge.style.height=Length.Percent(4.1f);
   badge.style.backgroundColor=new Color(.72f,.20f,.19f);
   badge.style.borderTopLeftRadius=4;badge.style.borderTopRightRadius=4;
@@ -1157,40 +1192,33 @@ public sealed class BubeApp : MonoBehaviour {
    bool dim=inboxBadge.style.opacity.value>.6f;
    inboxBadge.style.opacity=dim?.3f:1f;
   }).Every(520);
-  // Kunye serit masanin koyu on kenarinda durur. Eski tasarimda ustteydi ve
-  // gorselin icine gomulu kurum seridini ortmek icin oradaydi; o serit artik
-  // gorselde yok, ustte ise terminal ile evrak tepsisi var.
   var header=new VisualElement();
   header.style.position=Position.Absolute;header.style.left=0;header.style.right=0;
-  header.style.bottom=0;header.style.height=Length.Percent(10);
-  header.style.backgroundColor=new Color(.055f,.075f,.09f,.88f);
-  header.style.paddingLeft=36;header.style.paddingTop=10;
+  header.style.top=0;header.style.height=Length.Percent(11);
+  header.style.backgroundColor=new Color(.055f,.075f,.09f,.97f);
+  header.style.paddingLeft=36;header.style.paddingTop=12;
   root.Add(header);
-  var brand=Text(header,T("desk.brandLocation"),Ink,19);brand.style.marginBottom=1;
+  var brand=Text(header,T("desk.brandLocation"),Ink,21);brand.style.marginBottom=2;
   var caseTitle=Text(header,T(game.Data.titleKey),Gold,14);caseTitle.style.marginBottom=0;
-  // Terminaldeki kurum adi goruntuden silindi; kurgusal ad buradan, oyunun
-  // kendi fontuyla yazilir ve boylece yerellestirilebilir kalir.
+  // Terminaldeki gercek kurum adi goruntuden silindi; kurgusal ad buradan,
+  // oyunun kendi fontuyla yazilir ve boylece yerellestirilebilir kalir.
   var terminal=new VisualElement();
-  terminal.style.position=Position.Absolute;terminal.style.left=Length.Percent(76.1f);
-  terminal.style.top=Length.Percent(6f);terminal.style.width=Length.Percent(13.4f);
-  terminal.style.height=Length.Percent(7.3f);
+  terminal.style.position=Position.Absolute;terminal.style.left=Length.Percent(74.2f);
+  terminal.style.top=Length.Percent(18.3f);terminal.style.width=Length.Percent(11.1f);
+  terminal.style.height=Length.Percent(4.5f);
   terminal.style.unityTextAlign=TextAnchor.MiddleLeft;
   terminal.pickingMode=PickingMode.Ignore;
   root.Add(terminal);
-  var terminalText=Text(terminal,T("desk.terminalBrand"),new Color(.42f,.86f,.78f),15);
+  var terminalText=Text(terminal,T("desk.terminalBrand"),new Color(.40f,.76f,.68f),13);
   terminalText.style.marginBottom=0;terminalText.pickingMode=PickingMode.Ignore;
-  // Yeni gorselde dosya kapagi bos: uzerindeki yazi da artik koddan gelir.
   var patch=new VisualElement();
-  patch.style.position=Position.Absolute;patch.style.left=Length.Percent(40f);
-  patch.style.top=Length.Percent(44f);patch.style.width=Length.Percent(21f);
+  patch.style.position=Position.Absolute;patch.style.left=Length.Percent(44);
+  patch.style.top=Length.Percent(79);patch.style.width=Length.Percent(17);
+  patch.style.height=Length.Percent(7);
+  patch.style.backgroundColor=new Color(.67f,.53f,.40f);
   patch.style.unityTextAlign=TextAnchor.MiddleCenter;
-  patch.pickingMode=PickingMode.Ignore;
   root.Add(patch);
-  var fileTitle=Text(patch,T(game.Data.titleKey),new Color(.24f,.17f,.12f),19);
-  fileTitle.style.unityTextAlign=TextAnchor.MiddleCenter;fileTitle.style.marginBottom=6;
-  if(dossierBoldFont!=null)fileTitle.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var fileWhere=Text(patch,T("desk.location"),new Color(.36f,.27f,.19f),14);
-  fileWhere.style.unityTextAlign=TextAnchor.MiddleCenter;fileWhere.style.marginBottom=0;
+  Text(patch,T("desk.location"),Base,16);
   if(game.Career.retired) {
    var end=Panel(root);end.style.position=Position.Absolute;end.style.left=Length.Percent(30);end.style.top=Length.Percent(42);
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
@@ -1198,31 +1226,31 @@ public sealed class BubeApp : MonoBehaviour {
   } else if(!game.State.caseAccepted) {
    // Dosya kabul edilene kadar masadaki tek etkilesim gelen evrak tepsisidir;
    // oyuncuya sirada ne yapacagi soylenmez, yalnizca evrak fark edilir.
-   Hotspot(T("desk.inbox"),12,1,24,31,InboxPage);
+   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
   } else if(!game.State.closed) {
-   Hotspot(T("desk.inbox"),12,1,24,31,InboxPage);
-   Hotspot(T(game.Data.titleKey),39,35,23,45,FilePage);
-   Hotspot(T("kind.interview"),1,46,21,36,()=>InterviewRequests());
-   Hotspot(T(game.Data.nodes.Any(n=>n.kind=="cctv")?"kind.cctv":"kind.bps"),66,0,33,34,OpenTerminal);
+   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
+   Hotspot(T(game.Data.titleKey),36,42,30,51,FilePage);
+   Hotspot(T("kind.interview"),6,52,20,38,()=>InterviewRequests());
+   Hotspot(T(game.Data.nodes.Any(n=>n.kind=="cctv")?"kind.cctv":"kind.bps"),64,11,33,36,OpenTerminal);
   } else {
    var closed=Panel(root);closed.style.position=Position.Absolute;
    closed.style.left=Length.Percent(38);closed.style.top=Length.Percent(51);
    Text(closed,T("desk.closed"),Ink,20);
    Button(closed,T("result.summaryOpen"),CaseSummary,true);
    Button(closed,T("result.continue"),ContinueToNextCase);
-   if(HasIncomingFax || HasIncomingDocument || AvailableAssignment()!=null)Hotspot(T("desk.inbox"),12,1,24,31,InboxPage);
+   if(HasIncomingFax || HasIncomingDocument || AvailableAssignment()!=null)Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
   }
   if(HasIncomingFax)AddFaxNotice();
   if(HasIncomingDocument)AddDocumentNotice();
   if(game.State.interviewTurns.Count>game.State.seenInterviewTurns && !game.State.closed) {
    var unread=Text(root,T("file.newTranscript"),Gold,15);
    unread.style.position=Position.Absolute;
-   unread.style.left=Length.Percent(39);unread.style.top=Length.Percent(30);
+   unread.style.left=Length.Percent(46);unread.style.top=Length.Percent(44);
    unread.style.backgroundColor=Base;
    unread.style.paddingLeft=7;unread.style.paddingRight=7;
    unread.pickingMode=PickingMode.Ignore;
   }
-  Hotspot(T("back.home"),88,90,12,10,Home);
+  Hotspot(T("back.home"),90,0,10,12,Home);
  }
  void BpsTablet(string titleKey,out VisualElement content,bool lift=true) {
   Desk();

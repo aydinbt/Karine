@@ -131,7 +131,7 @@ Toplam 51 test: 46 EditMode + 5 PlayMode.
 
 Kapsam dışı ve gözle doğrulanması gerekenler: video oynatma, çentik/güvenli alan görünümü, dokunma hedefi boyutları, Türkçe glifler, klavye davranışı, kare hızı ve okunabilirlik. Bunlar `Docs/PLAYTEST_001.md`'de.
 
-`Desk()` arka planı `Bube/DeskV2`'dir — bu, masaya bırakılış videosunun son karesidir, böylece sinematik bittiğinde ekran sıçramaz. Künye şeridi masanın alt kenarındadır; terminaldeki kurum adı ve dosya kapağındaki vaka adı görselde değil, koddan yazılır.
+`Desk()` arka planı `Bube/DeskReference`'tır. Terminaldeki kurum adı görselden silinmiştir ve `desk.terminalBrand` olarak koddan yazılır, böylece yerelleştirilebilir kalır.
 
 ## Yazı ölçeği
 
@@ -143,7 +143,7 @@ Yazı tipi tektir (IBM Plex Mono, kök öğeden miras). Punto da tektir: `Typogr
 
 Üretici filigranı **"Geç" düğmesiyle örtülür**. Filigran yeri veriden gelir — `CornerMark { x, y, w, h }`, filmin kendi karesine oranlı (0..1). `PositionIntroSkip` filmin ekrandaki gerçek dikdörtgenini 16:9'dan hesaplar, yani telefonun eni ne olursa olsun düğme doğru yere oturur. Sabit 1280×720 varsayımı kaldırıldı; `world01` değerleri piksel eşdeğer kaldı.
 
-Masaya bırakılış videosu oynatılamazsa elle çizilmiş `FirstDeskArrival` animasyonu devreye girer. "Geç" ile videonun bitişi aynı yere gelir; `deskArrivalDone` bayrağı ikinci çağrıyı yutar.
+Sinematiğin son 1,15 saniyesinde ekran siyaha kapanır, masa da siyahtan 1,25 saniyede açılır (`OpenEyes`); açılma boyunca kaplayan gölge dokunmaları tutar. Masaya bırakılış videosu oynatılamazsa elle çizilmiş `FirstDeskArrival` animasyonu devreye girer. "Geç" ile videonun bitişi aynı yere gelir; `deskArrivalDone` bayrağı ikinci çağrıyı yutar.
 
 ## Vaka teklifi akışı
 

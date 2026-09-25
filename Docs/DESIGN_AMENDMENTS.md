@@ -191,12 +191,10 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 - **Üretici filigranı "Geç" düğmesiyle örtülür**, dünya sinematiğindeki gibi. Filigran yeri artık veriden gelir: `CornerMark { x, y, w, h }`, filmin kendi karesine **oranlı** (0..1). `PositionIntroSkip` 1280×720'ye sabitlenmek yerine filmin ekrandaki gerçek dikdörtgenini hesaplar, böylece her video kendi filigran yerini söyleyebilir ve telefonun eni ne olursa olsun düğme doğru yere oturur. `world01` değerleri eskisiyle piksel eşdeğer.
 - Video oynatılamazsa elle çizilmiş animasyon devreye girer; oyun bu andan hiçbir koşulda yoksun kalmaz. "Geç" ile videonun bitişi aynı yere gelir, bayrak ikinci çağrıyı yutar.
 
-**Masa arka planı videonun son karesi oldu.** Sinematik bittiğinde ekran sıçramıyor: oyuncunun gördüğü son kare masanın kendisi. `DeskV2.png` bu kareyle değiştirildi (siyah şeritler kırpıldı, 1920×956) ve `Desk()` artık `DeskReference` yerine onu yüklüyor.
+**Geçiş: karart, sonra göz aç.** Sinematiğin son 1,15 saniyesinde ekran siyaha kapanır; masa da siyahtan 1,25 saniyede açılır. İki görüntü birbirine çarpmaz. Açılma boyunca kaplayan gölge dokunmaları tutar, oyuncu göremediği bir şeye basamaz.
 
-**Duran görselde filigran "Geç" düğmesiyle örtülemez** — orada düğme yok. Bu yüzden filigran görselden silindi: yandan yama kopyalamak vinyet yüzünden dikiş bırakıyordu, dikdörtgenin dört kenarından içe interpolasyon yapıldı; ahşap orada neredeyse düz olduğu için iz kalmadı.
+**(Geri alındı — 25 Eylül 2026)** Bir ara masa arka planı videonun son karesi yapılmıştı. Kullanıcı **eski masa görselini geri istedi**; `Desk()` yine `DeskReference.png` yüklüyor ve künye şeridi üstte. Videonun son karesiyle masanın birebir aynı olmaması artık sorun değil, çünkü aradaki geçiş karartmayla yapılıyor.
 
-**Kurum adı bitti.** Terminaldeki "EMNİYET SİSTEMİ" görselden silinip yerine `desk.terminalBrand` = **"BPS KAYIT SİSTEMİ"** koddan, oyunun kendi fontuyla yazılıyor — yani yerelleştirilebilir. Arma kullanıcı kararıyla kalıyor (uydurma görünüyor). **Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" gösteriyor**; video yeniden üretilmeli.
+**Kurum adı bitti.** Terminaldeki "EMNİYET SİSTEMİ" `DeskReference.png`'den silinip (ekranın kendi arka planıyla kapatıldı) yerine `desk.terminalBrand` = **"BPS KAYIT SİSTEMİ"** koddan, oyunun kendi fontuyla yazılıyor — yani yerelleştirilebilir. Arma kullanıcı kararıyla kalıyor (uydurma görünüyor). **Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" gösteriyor**; video yeniden üretilmeli.
 
-**Yerleşim yeniden kuruldu.** Künye şeridi üstten **alta**, masanın koyu ön kenarına taşındı: üst şerit eskiden görselin içine gömülü kurum şeridini örtmek içindi, o şerit artık yok ve üstte terminal ile evrak tepsisi duruyor. Dosya kapağı boş olduğu için üzerindeki vaka adı ve yer de koddan yazılıyor. Bütün dokunma noktaları yeni görsele göre yeniden ölçüldü.
-
-**Durum `[~]`:** Koordinatlar görselden ölçülerek verildi, testler geçiyor, ama **Play Mode'da gözle doğrulanmadı** — dokunma noktalarının ve iki metin yerleşiminin yerinde oturduğu görülmeli.
+**Durum `[~]`:** Testler geçiyor ama **Play Mode'da gözle doğrulanmadı** — karartma/açılma geçişinin akıcılığı ve terminal yazısının "CCTV ARŞİVİ"nin üstüne oturduğu görülmeli.
