@@ -1195,22 +1195,11 @@ public sealed class BubeApp : MonoBehaviour {
   var header=new VisualElement();
   header.style.position=Position.Absolute;header.style.left=0;header.style.right=0;
   header.style.top=0;header.style.height=Length.Percent(11);
-  header.style.backgroundColor=new Color(.055f,.075f,.09f,.97f);
+  header.style.backgroundColor=new Color(.055f,.075f,.09f,1f);
   header.style.paddingLeft=36;header.style.paddingTop=12;
   root.Add(header);
   var brand=Text(header,T("desk.brandLocation"),Ink,21);brand.style.marginBottom=2;
   var caseTitle=Text(header,T(game.Data.titleKey),Gold,14);caseTitle.style.marginBottom=0;
-  // Terminaldeki gercek kurum adi goruntuden silindi; kurgusal ad buradan,
-  // oyunun kendi fontuyla yazilir ve boylece yerellestirilebilir kalir.
-  var terminal=new VisualElement();
-  terminal.style.position=Position.Absolute;terminal.style.left=Length.Percent(74.2f);
-  terminal.style.top=Length.Percent(18.3f);terminal.style.width=Length.Percent(11.1f);
-  terminal.style.height=Length.Percent(4.5f);
-  terminal.style.unityTextAlign=TextAnchor.MiddleLeft;
-  terminal.pickingMode=PickingMode.Ignore;
-  root.Add(terminal);
-  var terminalText=Text(terminal,T("desk.terminalBrand"),new Color(.40f,.76f,.68f),13);
-  terminalText.style.marginBottom=0;terminalText.pickingMode=PickingMode.Ignore;
   var patch=new VisualElement();
   patch.style.position=Position.Absolute;patch.style.left=Length.Percent(44);
   patch.style.top=Length.Percent(79);patch.style.width=Length.Percent(17);

@@ -195,6 +195,10 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 
 **(Geri alındı — 25 Eylül 2026)** Bir ara masa arka planı videonun son karesi yapılmıştı. Kullanıcı **eski masa görselini geri istedi**; `Desk()` yine `DeskReference.png` yüklüyor ve künye şeridi üstte. Videonun son karesiyle masanın birebir aynı olmaması artık sorun değil, çünkü aradaki geçiş karartmayla yapılıyor.
 
-**Kurum adı bitti.** Terminaldeki "EMNİYET SİSTEMİ" `DeskReference.png`'den silinip (ekranın kendi arka planıyla kapatıldı) yerine `desk.terminalBrand` = **"BPS KAYIT SİSTEMİ"** koddan, oyunun kendi fontuyla yazılıyor — yani yerelleştirilebilir. Arma kullanıcı kararıyla kalıyor (uydurma görünüyor). **Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" gösteriyor**; video yeniden üretilmeli.
+**Kurum adı bitti — yerine hiçbir şey konmadı.** Terminaldeki "EMNİYET SİSTEMİ" `DeskReference.png`'den silindi (ekranın kendi arka planıyla kapatıldı). Kısa süre yerine kurgusal bir ad ("BPS KAYIT SİSTEMİ") koddan yazıldı, ama **kullanıcı kararıyla o da kaldırıldı**: ekranda yalnız "CCTV ARŞİVİ" kalıyor ve terminalin ne olduğu zaten anlaşılıyor. Kurum adı yazmamak, kurgusal kurum adı yazmaktan daha temiz — yazılmayan ad ihlal edemez.
 
-**Durum `[~]`:** Testler geçiyor ama **Play Mode'da gözle doğrulanmadı** — karartma/açılma geçişinin akıcılığı ve terminal yazısının "CCTV ARŞİVİ"nin üstüne oturduğu görülmeli.
+Üst künye şeridi %97 saydamdı ve altındaki gömülü kurum yazısı hayalet gibi sızıyordu; şerit tamamen opak yapıldı.
+
+Arma kullanıcı kararıyla kalıyor (uydurma görünüyor). **Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" gösteriyor**; video yeniden üretilmeli.
+
+**Durum `[~]`:** Testler geçiyor ama **Play Mode'da gözle doğrulanmadı** — karartma/açılma geçişinin akıcılığı görülmeli.

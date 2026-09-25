@@ -39,7 +39,7 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [x] **Vaka teklifi tam ekran olmaktan çıkıp masadaki gelen evrak tepsisine taşındı.** Rozet yanıp söner, oyuncu tepsiyi kendisi açar, önizlemeyi okur ve kabul eder; kabul edilmeden masada başka hiçbir şey açılmaz. Başsız **Play Mode testiyle akış uçtan uca koşturuldu ve gözlendi**.
 - [ ] **`DeskReference.png` görselinin içinde gerçek kurum adı ve arma var.** Üst şerit artık her ekranda `Desk()` tarafından örtülüyor, ama terminaldeki `EMNİYET SİSTEMİ` yazısı ve armalar duruyor. **Görselin yenilenmesi gerekiyor**; metin denetimi bunu yakalayamaz. Ayrıntı: `Docs/DESIGN_AMENDMENTS.md`.
 
-- [~] **Dosyanın masaya bırakılışı sinematik video oldu** (`case001_arrival.mp4`); filigran "Geç" düğmesiyle örtülüyor, filigran yeri veriden geliyor. Sinematik siyaha kapanıyor, masa siyahtan açılıyor; geçiş ve terminal yazısının yerleşimi **Play Mode'da gözle doğrulanmalı**.
+- [~] **Dosyanın masaya bırakılışı sinematik video oldu** (`case001_arrival.mp4`); filigran "Geç" düğmesiyle örtülüyor, filigran yeri veriden geliyor. Sinematik siyaha kapanıyor, masa siyahtan açılıyor; geçişin akıcılığı **Play Mode'da gözle doğrulanmalı**.
 - [ ] **Sinematik videonun içinde hâlâ "EMNİYET SİSTEMİ" yazıyor.** Duran görselden silindi, videodan silinemedi — **video yeniden üretilmeli** (terminalde "BPS KAYIT SİSTEMİ" yazmalı).
 
 ## Her vaka için değişmeyen kabul kuralı
