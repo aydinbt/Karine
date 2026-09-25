@@ -141,7 +141,7 @@ public sealed class BubeApp : MonoBehaviour {
   catch(Exception e) { Debug.LogWarning("Save could not be loaded: "+e.Message); }
   pendingPredicate=n=>game.Pending(n);
   incomingDocumentPredicate=n=>game.IncomingDocument(n);
-  game=new Investigation(caseData,progress,career,careerRules);
+  game=new Investigation(caseData,progress,career,careerRules){Text=locale};
   game.Career.activeCaseId=caseId;
   instantText=PlayerPrefs.GetInt("bube.instantText",0)==1;
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
@@ -921,7 +921,7 @@ public sealed class BubeApp : MonoBehaviour {
   Frame(T("home.new"),T("restart.title"),T("restart.body"));
   var card=Panel(root);
   Button(card,T("restart.confirm"),()=>{
-   game=new Investigation(Load<CaseData>("Bube/Cases/"+config.initialCase),null,null,careerRules);
+   game=new Investigation(Load<CaseData>("Bube/Cases/"+config.initialCase),null,null,careerRules){Text=locale};
    game.Career.activeCaseId=game.Data.id; selectedSuspect=selectedMethod=selectedEvidence=null;
    selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=null;
    Save(); confirmRestart=false; MaybeWorldIntro(Desk);
@@ -2022,7 +2022,7 @@ public sealed class BubeApp : MonoBehaviour {
     foreach(var record in item.cctvEvents ?? new CctvEvent[0]) {
      var eventItem=record;var reference=item.id+"#"+eventItem.id;
      if(eventItem.notPresentable)continue;
-     if(!Investigation.SourceConcerns(node,eventItem.aboutPersonIds))continue;
+     if(!game.SourceConcernsPerson(node,eventItem.aboutPersonIds,T(eventItem.textKey)))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
      Button(questions,ShortInterviewSourceLabel(T(item.titleKey)+" · "+T(eventItem.textKey)),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
      var row=questions.Children().Last();
@@ -2031,7 +2031,8 @@ public sealed class BubeApp : MonoBehaviour {
    } else if(category==2) {
     foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
      var answer=turn;var reference=game.InterviewTurnReference(answer);
-     if(!Investigation.SourceConcerns(node,game.FindQuestion(item,answer.questionId)?.aboutPersonIds))continue;
+     if(!game.SourceConcernsPerson(node,game.FindQuestion(item,answer.questionId)?.aboutPersonIds,
+      T(answer.promptKey)+" "+T(answer.answerKey)))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
      // Satırda sorunun metni yazıyordu; liste "soracağım sorular" gibi okunuyordu.
      // Oysa öne sürülen şey kişinin **verdiği yanıttır**, tırnak içinde gösterilir.
@@ -2039,7 +2040,8 @@ public sealed class BubeApp : MonoBehaviour {
      var row=questions.Children().Last();
      rows.Add(row);categories.Add(category);categoryCounts[category]++;
     }
-   } else if(!game.SourceAlreadyPresented(node,active,item.id)) {
+   } else if(!game.SourceAlreadyPresented(node,active,item.id) &&
+    game.SourceConcernsPerson(node,item.aboutPersonIds,T(item.titleKey)+" "+T(item.bodyKey))) {
     Button(questions,ShortInterviewSourceLabel(T(item.titleKey)),()=>InterviewPage(node,active,1,null,item.id),item.id==sourceId);
     var row=questions.Children().Last();
     rows.Add(row);categories.Add(category);categoryCounts[category]++;
@@ -2867,7 +2869,7 @@ public sealed class BubeApp : MonoBehaviour {
    Progress progress=null;
    try { if(File.Exists(CaseSavePath(nextId))) progress=JsonUtility.FromJson<Progress>(File.ReadAllText(CaseSavePath(nextId))); }
    catch(Exception e) { Debug.LogWarning("Next case save could not be loaded: "+e.Message); }
-   game=new Investigation(nextData,progress,game.Career,careerRules);
+   game=new Investigation(nextData,progress,game.Career,careerRules){Text=locale};
    game.Career.activeCaseId=nextId;
    game.BeginNextCaseReview(7);
    selectedSuspect=selectedMethod=selectedEvidence=null;

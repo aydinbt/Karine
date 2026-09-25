@@ -42,29 +42,19 @@
           "id": "mert.day",
           "promptKey": "mert.day.question",
           "answerKey": "mert.day.answer",
-          "topicKey": "interview.topic.day",
-          "aboutPersonIds": [
-            "mert"
-          ]
+          "topicKey": "interview.topic.day"
         },
         {
           "id": "mert.key",
           "promptKey": "mert.key.question",
           "answerKey": "mert.key.answer",
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "mert",
-            "elif"
-          ]
+          "topicKey": "interview.topic.home"
         },
         {
           "id": "mert.neighbor",
           "promptKey": "mert.neighbor.question",
           "answerKey": "mert.neighbor.answer",
-          "topicKey": "interview.topic.neighbors",
-          "aboutPersonIds": [
-            "hasan"
-          ]
+          "topicKey": "interview.topic.neighbors"
         },
         {
           "id": "mert.lock",
@@ -73,10 +63,7 @@
           "requiresAsked": [
             "mert.day"
           ],
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "mert"
-          ]
+          "topicKey": "interview.topic.home"
         },
         {
           "id": "mert.items",
@@ -85,10 +72,7 @@
           "requiresAsked": [
             "mert.day"
           ],
-          "topicKey": "interview.topic.belongings",
-          "aboutPersonIds": [
-            "mert"
-          ]
+          "topicKey": "interview.topic.belongings"
         },
         {
           "id": "mert.breakup",
@@ -97,10 +81,7 @@
           "requiresAsked": [
             "mert.key"
           ],
-          "topicKey": "interview.topic.relationships",
-          "aboutPersonIds": [
-            "elif"
-          ]
+          "topicKey": "interview.topic.relationships"
         }
       ],
       "completionQuestionIds": [
@@ -127,39 +108,25 @@
           "id": "elif.relationship",
           "promptKey": "elif.relationship.question",
           "answerKey": "elif.relationship.answer",
-          "topicKey": "interview.topic.relationships",
-          "aboutPersonIds": [
-            "elif",
-            "mert"
-          ]
+          "topicKey": "interview.topic.relationships"
         },
         {
           "id": "elif.visit",
           "promptKey": "elif.visit.question",
           "answerKey": "elif.visit.answer",
-          "topicKey": "interview.topic.day",
-          "aboutPersonIds": [
-            "elif"
-          ]
+          "topicKey": "interview.topic.day"
         },
         {
           "id": "elif.contact",
           "promptKey": "elif.contact.question",
           "answerKey": "elif.contact.answer",
-          "topicKey": "interview.topic.relationships",
-          "aboutPersonIds": [
-            "elif",
-            "mert"
-          ]
+          "topicKey": "interview.topic.relationships"
         },
         {
           "id": "elif.remaining",
           "promptKey": "elif.remaining.question",
           "answerKey": "elif.remaining.answer",
-          "topicKey": "interview.topic.belongings",
-          "aboutPersonIds": [
-            "elif"
-          ]
+          "topicKey": "interview.topic.belongings"
         },
         {
           "id": "elif.avoid",
@@ -168,10 +135,7 @@
           "requiresAsked": [
             "elif.contact"
           ],
-          "topicKey": "interview.topic.relationships",
-          "aboutPersonIds": [
-            "elif"
-          ]
+          "topicKey": "interview.topic.relationships"
         }
       ],
       "completionQuestionIds": [
@@ -202,8 +166,7 @@
           "answerKey": "hasan.sighting.answer",
           "topicKey": "interview.topic.observations",
           "aboutPersonIds": [
-            "elif",
-            "hasan"
+            "elif"
           ]
         },
         {
@@ -213,19 +176,13 @@
           "requiresAsked": [
             "hasan.sighting"
           ],
-          "topicKey": "interview.topic.records",
-          "aboutPersonIds": [
-            "hasan"
-          ]
+          "topicKey": "interview.topic.records"
         },
         {
           "id": "hasan.where",
           "promptKey": "hasan.where.question",
           "answerKey": "hasan.where.answer",
-          "topicKey": "interview.topic.day",
-          "aboutPersonIds": [
-            "hasan"
-          ]
+          "topicKey": "interview.topic.day"
         },
         {
           "id": "hasan.time",
@@ -236,8 +193,7 @@
           ],
           "topicKey": "interview.topic.observations",
           "aboutPersonIds": [
-            "elif",
-            "hasan"
+            "elif"
           ]
         },
         {
@@ -249,19 +205,14 @@
           ],
           "topicKey": "interview.topic.observations",
           "aboutPersonIds": [
-            "elif",
-            "hasan"
+            "elif"
           ]
         },
         {
           "id": "hasan.help",
           "promptKey": "hasan.help.question",
           "answerKey": "hasan.help.answer",
-          "topicKey": "interview.topic.neighbors",
-          "aboutPersonIds": [
-            "mert",
-            "hasan"
-          ]
+          "topicKey": "interview.topic.neighbors"
         }
       ],
       "completionQuestionIds": [
@@ -338,7 +289,12 @@
         {
           "textKey": "cctv.event.gap",
           "delayMs": 1280,
-          "id": "gap"
+          "id": "gap",
+          "aboutPersonIds": [
+            "mert",
+            "elif",
+            "hasan"
+          ]
         },
         {
           "textKey": "cctv.event.restored",
@@ -394,9 +350,6 @@
             }
           ],
           "topicKey": "interview.topic.records",
-          "aboutPersonIds": [
-            "elif"
-          ],
           "decoyAnswers": [
             {
               "sourceId": "camera#gap",
@@ -423,10 +376,6 @@
               "answerKey": "elif_follow.footage.decoy.breakup"
             },
             {
-              "sourceId": "recovery",
-              "answerKey": "elif_follow.footage.decoy.recovery"
-            },
-            {
               "sourceId": "mert_follow#mert_follow.known",
               "answerKey": "elif_follow.footage.decoy.known"
             }
@@ -439,10 +388,7 @@
           "requiresAsked": [
             "elif_follow.footage"
           ],
-          "topicKey": "interview.topic.explanation",
-          "aboutPersonIds": [
-            "elif"
-          ]
+          "topicKey": "interview.topic.explanation"
         },
         {
           "id": "elif_follow.items",
@@ -451,10 +397,7 @@
           "requiresAsked": [
             "elif_follow.footage"
           ],
-          "topicKey": "interview.topic.belongings",
-          "aboutPersonIds": [
-            "elif"
-          ]
+          "topicKey": "interview.topic.belongings"
         },
         {
           "id": "elif_follow.keyPlace",
@@ -463,12 +406,7 @@
           "requiresAsked": [
             "elif_follow.footage"
           ],
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "elif",
-            "mert",
-            "hasan"
-          ]
+          "topicKey": "interview.topic.home"
         },
         {
           "id": "elif_follow.call",
@@ -477,11 +415,7 @@
           "requiresAsked": [
             "elif_follow.footage"
           ],
-          "topicKey": "interview.topic.explanation",
-          "aboutPersonIds": [
-            "elif",
-            "mert"
-          ]
+          "topicKey": "interview.topic.explanation"
         }
       ],
       "completionQuestionIds": [
@@ -507,21 +441,13 @@
           "id": "mert_follow.spare",
           "promptKey": "mert_follow.spare.question",
           "answerKey": "mert_follow.spare.answer",
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "mert",
-            "hasan"
-          ]
+          "topicKey": "interview.topic.home"
         },
         {
           "id": "mert_follow.neighbor",
           "promptKey": "mert_follow.neighbor.question",
           "answerKey": "mert_follow.neighbor.answer",
-          "topicKey": "interview.topic.neighbors",
-          "aboutPersonIds": [
-            "mert",
-            "hasan"
-          ]
+          "topicKey": "interview.topic.neighbors"
         },
         {
           "id": "mert_follow.known",
@@ -530,12 +456,7 @@
           "requiresAsked": [
             "mert_follow.spare"
           ],
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "mert",
-            "elif",
-            "hasan"
-          ]
+          "topicKey": "interview.topic.home"
         }
       ],
       "completionQuestionIds": [
@@ -564,10 +485,7 @@
           "id": "hasan_follow.spare",
           "promptKey": "hasan_follow.spare.question",
           "answerKey": "hasan_follow.spare.answer",
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "hasan"
-          ]
+          "topicKey": "interview.topic.home"
         },
         {
           "id": "hasan_follow.gap",
@@ -577,9 +495,6 @@
             "camera#gap"
           ],
           "topicKey": "interview.topic.records",
-          "aboutPersonIds": [
-            "hasan"
-          ],
           "decoyAnswers": [
             {
               "sourceId": "camera#elif_in",
@@ -596,10 +511,6 @@
             {
               "sourceId": "recovery",
               "answerKey": "hasan_follow.gap.decoy.recovery"
-            },
-            {
-              "sourceId": "elif_follow#elif_follow.keyPlace",
-              "answerKey": "hasan_follow.gap.decoy.keyPlace"
             },
             {
               "sourceId": "mert_follow#mert_follow.known",
@@ -621,9 +532,6 @@
           "answerKey": "hasan_follow.sale.answer",
           "presentedSourceId": "recovery",
           "topicKey": "interview.topic.belongings",
-          "aboutPersonIds": [
-            "hasan"
-          ],
           "decoyAnswers": [
             {
               "sourceId": "camera#gap",
@@ -636,10 +544,6 @@
             {
               "sourceId": "mert_follow#mert_follow.spare",
               "answerKey": "hasan_follow.sale.decoy.spare"
-            },
-            {
-              "sourceId": "elif_follow#elif_follow.keyPlace",
-              "answerKey": "hasan_follow.sale.decoy.keyPlace"
             },
             {
               "sourceId": "mert#mert.neighbor",
@@ -670,18 +574,10 @@
             "mert_follow#mert_follow.spare"
           ],
           "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "hasan",
-            "mert"
-          ],
           "decoyAnswers": [
             {
               "sourceId": "camera#gap",
               "answerKey": "hasan_follow.mertStatement.decoy.gap"
-            },
-            {
-              "sourceId": "elif_follow#elif_follow.keyPlace",
-              "answerKey": "hasan_follow.mertStatement.decoy.keyPlace"
             },
             {
               "sourceId": "mert_follow#mert_follow.neighbor",
@@ -716,11 +612,7 @@
           "requiresAsked": [
             "hasan_follow.mertStatement"
           ],
-          "topicKey": "interview.topic.home",
-          "aboutPersonIds": [
-            "hasan",
-            "mert"
-          ]
+          "topicKey": "interview.topic.home"
         }
       ],
       "completionQuestionIds": [

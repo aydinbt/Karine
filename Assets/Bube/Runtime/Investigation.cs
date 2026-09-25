@@ -33,7 +33,7 @@ namespace Bube {
 [Serializable] public class AnswerVariant { public string answerKey; public string[] requiresAsked; public string[] requiresRead; public string[] excludesAsked; }
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
 [Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
-[Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; }
+[Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public string[] aboutPersonIds; }
 [Serializable] public class CctvEvent { public string id; public string textKey; public string[] aboutPersonIds; public bool notPresentable; public string overlayTimeKey; public string glitchKey; public string signalKey; public string videoPath; public int delayMs; }
 [Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; }
 [Serializable] public class Verdict { public string id; public string labelKey; public string feedbackKey; public bool correct; public string[] requires; public string[] supportingSourceIds; }
@@ -43,6 +43,8 @@ namespace Bube {
 [Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> timelinePinned = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public long submittedAtUtcTicks; }
 public sealed class Investigation {
  public CaseData Data { get; }
+ // Ad geçme kuralı metne bakar; metin olmadan hiçbir kaynak kişiyle eşleşmez.
+ public Locale Text { get; set; }
  public Progress State { get; }
  public CareerProgress Career { get; }
  public CareerRules Rules { get; }
@@ -124,14 +126,50 @@ public sealed class Investigation {
  // ikinci bir kayitla tekrar sormak oyuncuya "bir sey eksik kaldi" izlenimi
  // veriyordu; oysa mesele kapanmisti.
  public bool CanAskQuestion(Node n,Question q) => QuestionAvailable(n,q) && !State.asked.Contains(q.id);
- // Bir kaynağı karşımızdaki kişiye göstermenin anlamı olmalı. `aboutPersonIds`
- // o ifadenin/kaydın kimden söz ettiğini söyler; boşsa kaynak herkese açıktır
- // (eski veriyle uyum, ve kayıt boşluğu gibi kişiye bağlanmayan olgular için).
- // Bu bir **doğruluk** süzgeci değildir: bir kişiyle ilgili birçok kaynak kalır,
+ // Temel kural: **adı geçtiyse cevap verme hakkı doğar.** Bir kaydı ancak
+ // karşımızdaki kişinin adı orada geçiyorsa öne sürebiliriz; geçmiyorsa o kayıt
+ // onu ilgilendirmez. Kural metinden türetilir, elle etiketlemeye bağlı değildir,
+ // böylece yeni vakalarda kendiliğinden işler.
+ //
+ // `aboutPersonIds` elle konan **ek**tir, metin kuralının yerini almaz: yalnız
+ // kaydın kişiden adını anmadan söz ettiği yerler için vardır. "Kadın şahıs
+ // binaya girdi" Elif'i anlatır ama adını anmaz; Hasan'ın gördüğü "kadın" da
+ // öyle. Ekleme olduğu için adı geçenler her hâlükârda görebilir.
+ //
+ // Bu bir **doğruluk** süzgeci değildir: bir kişiyle ilgili birçok kayıt kalır,
  // hangisinin belirleyici olduğunu oyuncu bulur.
- public static bool SourceConcerns(Node subject,string[] aboutPersonIds) =>
-  aboutPersonIds==null || aboutPersonIds.Length==0 ||
-  string.IsNullOrEmpty(subject?.personId) || aboutPersonIds.Contains(subject.personId);
+ public bool SourceConcernsPerson(Node subject,string[] aboutPersonIds,string sourceText) {
+  if(string.IsNullOrEmpty(subject?.personId))return true;
+  return aboutPersonIds!=null && aboutPersonIds.Contains(subject.personId)
+   || MentionsPerson(subject.personId,sourceText);
+ }
+ public bool MentionsPerson(string personId,string sourceText) {
+  if(Text==null || string.IsNullOrEmpty(sourceText))return false;
+  var haystack=Fold(sourceText);
+  foreach(var name in PersonNames(personId))if(NameOccurs(haystack,Fold(name)))return true;
+  return false;
+ }
+ IEnumerable<string> PersonNames(string personId) {
+  foreach(var n in Data.nodes) {
+   if(n.personId!=personId || string.IsNullOrEmpty(n.personNameKey))continue;
+   var full=Text.Get(n.personNameKey);
+   if(full.Length==0 || full[0]=='[')continue;
+   yield return full;
+   var space=full.IndexOf(' ');
+   if(space>0)yield return full.Substring(0,space);
+  }
+ }
+ // Türkçe küçültme: `ToLowerInvariant` "I"yı "i"ye çevirir, biz "ı" isteriz.
+ static string Fold(string value) =>
+  value.Replace('İ','i').Replace('I','ı').ToLowerInvariant();
+ // Ad sınırı: önünde harf olmamalı. Ardından harf gelebilir, çünkü Türkçede ek
+ // kesmesiz de yazılır ("Hasanla"); "Mert'in" zaten kesmeyle ayrılır.
+ static bool NameOccurs(string haystack,string name) {
+  for(int i=haystack.IndexOf(name,StringComparison.Ordinal);i>=0;
+      i=haystack.IndexOf(name,i+1,StringComparison.Ordinal))
+   if(i==0 || !char.IsLetterOrDigit(haystack[i-1]))return true;
+  return false;
+ }
  public Question FindQuestion(Node n,string questionId) => n?.questions?.FirstOrDefault(q=>q.id==questionId);
  public bool InterviewComplete(Node n) => n.kind == "interview" && n.completionQuestionIds != null && n.completionQuestionIds.Length > 0 && n.completionQuestionIds.All(State.asked.Contains);
  public bool Ask(string nodeId, string questionId,string sourceId=null) {

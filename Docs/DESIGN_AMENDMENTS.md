@@ -327,3 +327,17 @@ Kaynak seçicideki görüşme satırları `personNameKey + " · " + promptKey` i
 Süzgecin kendisi doğruydu: ekrandaki üç satır da (`elif_follow.keyPlace`, `mert_follow.spare`, `mert_follow.known`) `aboutPersonIds` içinde `hasan` taşıyor — üçü de saksıdaki anahtarı ve Hasan'ın onu görmesini konuşuyor. Görünmeyen şey ilgi değil, ilginin *sebebiydi*; yanıt metni bunu kendiliğinden söylüyor.
 
 Kırpma sınırı 66'dan 110 karaktere çıkarıldı: satırlar zaten iki satıra sarıyor, 66 karakter yanıtın anlamlı yerini (ör. "Hasan da kapıda kaldığım gün…") kesiyordu.
+
+## Adı geçtiyse cevap verme hakkı doğar (25 Eylül 2026)
+
+**Yeni kanon kural, bütün karakterler ve bütün vakalar için:** bir kaydı karşındaki kişiye ancak **adı orada geçiyorsa** öne sürebilirsin. Geçmiyorsa o kayıt onu ilgilendirmez. Kural metinden türetilir (`Investigation.MentionsPerson`), elle etiketlemeye bağlı değildir; yeni vakalarda hiçbir şey yapmadan işler.
+
+`aboutPersonIds` artık **ek**tir, üst geçersiz değil: metin kuralını silmez, üstüne ekler. Tek işi, kaydın kişiden *adını anmadan* söz ettiği yerleri işaretlemektir — "11.48 — Kadın şahıs binaya girdi." Elif'i anlatır ama adını anmaz; Hasan'ın gördüğü "kadın" da öyle. Kayıt boşluğu (`camera#gap`) kimseyi anmaz ama herkesin o saatini ilgilendirir, bu yüzden üçü de etiketlidir.
+
+Kural artık **belgelere de** işliyor. Belgeler eskiden hiç süzülmüyordu; doğrulayıcı da belge yemlerini atlıyordu (`mark < 0` olunca `continue`). İkisi de kapatıldı.
+
+Eski elle etiketleme çoğu yerde yanlıştı: kişinin **kendi** ifadesini de işaretliyordu, oysa kendi ifadesi zaten listede görünmez. Otuz soru etiketi kaldırıldı, üçü kaldı (`hasan.sighting`, `hasan.time`, `hasan.recognition` — Hasan hep "kadın" der, "Elif" demez).
+
+**Ölçülen etki** (kişi başı öne sürülebilir kaynak): Elif 10 → 10, Hasan 9 → 8, Mert 11 → 20. Mert'inki büyüdü çünkü herkes ondan söz ediyor; kuralın doğrudan sonucu.
+
+**Kuralın bedeli, ödendi:** dört yem kaldırıldı. `elif_follow.footage → recovery` (eşya raporu Elif'in adını anmaz) ve `elif_follow.keyPlace`'i Hasan'a sunan üç yem (Elif hiçbir yerde Hasan'ın adını anmaz, "benden sonra oraya kimin baktığını bilmiyorum" der). Bunları etiketle geri açmak kuralı sessizce delmek olurdu; istenirse tek tek etiketlenerek geri gelebilirler.

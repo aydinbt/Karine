@@ -146,11 +146,9 @@ public static class CaseRules {
     // kaynak karşımızdaki kişiyle etiketlenmemişse listede hiç görünmez ve soru
     // yanıtlanamaz hale gelir — vaka çözülemez olur. Bu, göz kaçırmayı imkânsız
     // kılan türden bir kontrol: etiketi eklemeyi unutan kişiyi burada yakalar.
-    var about = source.kind == "cctv"
-     ? (source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == detail)?.aboutPersonIds
-     : (source.questions ?? new Question[0]).FirstOrDefault(other => other.id == detail.Split('|')[0])?.aboutPersonIds;
-    report.Forbid(!Investigation.SourceConcerns(node, about),
-     "Belirleyici kaynak bu kişiye kapalı (aboutPersonIds eksik): " + question.id + " → " + sourceRef);
+    report.Forbid(!Concerns(data, node, source, detail, locale),
+     "Belirleyici kaynak bu kişiye kapalı (adı geçmiyor, aboutPersonIds de yok): "
+      + question.id + " → " + sourceRef);
     report.Forbid(source.notPresentable || source.kind == "cctv" &&
       ((source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == detail)?.notPresentable ?? false),
      "Belirleyici kaynak görüşmede öne sürülemiyor: " + question.id + " → " + sourceRef);
@@ -186,13 +184,12 @@ public static class CaseRules {
     if (!report.Step(host != null, "Bilinmeyen yem kaynağı: " + question.id + " → " + decoy.sourceId)) continue;
     report.Forbid(host.kind == "interview" && host.personId == node.personId,
      "Yem kaynak kişinin kendi ifadesi: " + question.id + " → " + decoy.sourceId);
-    if (mark < 0) continue;
-    var tail = decoy.sourceId.Substring(mark + 1);
-    var decoyAbout = host.kind == "cctv"
-     ? (host.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == tail)?.aboutPersonIds
-     : (host.questions ?? new Question[0]).FirstOrDefault(o => o.id == tail.Split('|')[0])?.aboutPersonIds;
-    report.Forbid(!Investigation.SourceConcerns(node, decoyAbout),
+    var tail = mark < 0 ? null : decoy.sourceId.Substring(mark + 1);
+    // Belge yemleri de denetlenir: eskiden `mark < 0` olunca bu kontrol atlanıyordu,
+    // çünkü belgeler hiç süzülmüyordu. Artık ad geçme kuralı onlara da işliyor.
+    report.Forbid(!Concerns(data, node, host, tail, locale),
      "Yem kaynak bu kişiye görünmüyor: " + question.id + " → " + decoy.sourceId);
+    if (mark < 0) continue;
     report.Forbid(host.notPresentable || host.kind == "cctv" &&
       ((host.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == tail)?.notPresentable ?? false),
      "Yem kaynak görüşmede öne sürülemiyor: " + question.id + " → " + decoy.sourceId);
@@ -246,6 +243,22 @@ public static class CaseRules {
   }
   return null;
  }
+ // Kaynak seçicinin süzgecinin aynısı: satır listede görünüyor mu?
+ static bool Concerns(CaseData data, Node subject, Node source, string detail, Locale locale) {
+  var game = new Investigation(data) { Text = locale };
+  if (source.kind == "cctv" && detail != null) {
+   var record = (source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == detail);
+   return game.SourceConcernsPerson(subject, record?.aboutPersonIds, Text(locale, record?.textKey));
+  }
+  if (source.kind == "interview" && detail != null) {
+   var asked = (source.questions ?? new Question[0]).FirstOrDefault(o => o.id == detail.Split('|')[0]);
+   return game.SourceConcernsPerson(subject, asked?.aboutPersonIds,
+    Text(locale, asked?.promptKey) + " " + Text(locale, asked?.answerKey));
+  }
+  return game.SourceConcernsPerson(subject, source.aboutPersonIds,
+   Text(locale, source.titleKey) + " " + Text(locale, source.bodyKey));
+ }
+
  static string[] Words(string text) =>
   Regex.Split(text.ToLowerInvariant(), @"[^\p{L}\p{N}]+").Where(w => w.Length > 0).ToArray();
 }
