@@ -36,7 +36,7 @@
 - Türkçe metin: 577 anahtar, eksik 0, yinelenen 0, ölü ~10
 - Diller: 1 (tr)
 - Assembly: 3 (`Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode`) — hepsi 0 hatayla derleniyor
-- Test: **85, hepsi geçiyor** (78 EditMode + 7 PlayMode) — 40 EditMode (8 içerik/metin, 12 Dosya #001 akış, 8 kapı/zaman çizelgesi, 7 doğrulama raporu, 6 kayıt şeması, 1 config) + 5 PlayMode (2 duman + 3 vaka kabul akışı). Tek komut: `Tools/run-tests.sh`
+- Test: **83, hepsi geçiyor** (76 EditMode + 7 PlayMode) — 40 EditMode (8 içerik/metin, 12 Dosya #001 akış, 8 kapı/zaman çizelgesi, 7 doğrulama raporu, 6 kayıt şeması, 1 config) + 5 PlayMode (2 duman + 3 vaka kabul akışı). Tek komut: `Tools/run-tests.sh`
 - Doğrulayıcı: 9 dosya `Assets/Bube/Editor/Validation/` altında; `ProjectSetup.cs` 285 → 37 satır
 
 ## Faz 0'da yapılanlar (25 Eylül 2026)
@@ -68,7 +68,7 @@ Soruşturmanın **dokusu** ve telefonda **erişilebilirlik**. Hepsi `[~]`: kodla
 - **Yeni kanon kural:** bir kaydı kişiye ancak **adı orada geçiyorsa** öne sürebilirsin. Metinden türer, elle etiketlenmez, yeni vakalarda kendiliğinden işler. `aboutPersonIds` artık yalnız "adını anmadan söz eden" kayıtlar için bir ek.
 - **Yem kaynaklar (29) ve davranış satırı (38, deneme).** Yanlış kaynak artık gerçek ama yanıltıcı bir yanıt üretir; soru kapanmaz. Davranış satırı gözlem verir, yorum vermez.
 - **Mobil sadeleştirme:** dosya ekranında iç içe kaydırma, "1/1" sayacı ve kayan sekme şeridi kalktı; "Dosyada ara" yazı alanı dokunulur tür/kişi süzgecine çevrildi.
-- **KARINE UI/UX Kit bağlayıcı tasarım sistemi oldu** — `KarineTheme` + `KarineUI` tek kaynak; palet kit görselinden okundu, ikonlar kit'ten kesildi, ekranlar bileşenlere taşındı, ham renk borcu 156 → 65. Roboto Slab ve Inter depoya kondu; sinematiklerde hızlandırma kaldırıldı (CCTV'de duruyor). Kanon: [UI_KIT.md](UI_KIT.md).
+- **KARINE UI/UX Kit bağlayıcı tasarım sistemi oldu** — `KarineTheme` + `KarineUI` tek kaynak; palet kit görselinden okundu, ikonlar kit'ten kesildi, ekranlar bileşenlere taşındı, ham renk borcu 156 → 65. Roboto Slab ve Inter depoya kondu; sinematiklerde tek denetim GEÇ kaldı (duraklatma ve kare ilerletme CCTV'de duruyor). Kanon: [UI_KIT.md](UI_KIT.md).
 - **KARINE logosu oyuna bağlandı** (ana menü + kompakt başlık, tek oran/tek doku). Unity'nin varsayılan içe aktarımı logoyu 2048×512'ye eziyordu; kilitlendi.
 - **Doğrulayıcıya sekiz yeni kural** — her biri bu oturumda yaşanan gerçek bir hatadan doğdu.
 

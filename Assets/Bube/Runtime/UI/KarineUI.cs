@@ -331,64 +331,50 @@ public static class KarineUI {
   return nav;
  }
 
- // --- Sinematik kontroller -------------------------------------------------
+ // --- Sinematik ---------------------------------------------------------
 
- // Kit §7: PAUSE / PROGRESS / TIME / İLERİ SAR / GEÇ. Bütün oyunda aynı çubuk.
- // İLERİ SAR ve GEÇ **ayrı** eylemlerdir: biri sahneyi hızlandırır, öteki atlar.
- // Sinematik sırasında UI en azda kalsın diye çubuk saydam koyu bir şerittir.
- public static VisualElement CinematicControls(
-   VisualElement parent, Func<bool> playing, Action togglePlay,
-   Action fastForward, string fastForwardLabel,
-   Action skip, string skipLabel,
-   Func<float> progress, Func<string> time) {
-  var bar = Row(parent);
-  bar.style.backgroundColor = new Color(0, 0, 0, .55f);
-  bar.style.paddingLeft = KarineTheme.SpaceMd; bar.style.paddingRight = KarineTheme.SpaceMd;
-  bar.style.paddingTop = KarineTheme.SpaceSm; bar.style.paddingBottom = KarineTheme.SpaceSm;
-  Border(bar, KarineTheme.BorderWidth, KarineTheme.Panel2);
+ // Sinematikte tek bir denetim vardır: GEÇ. Duraklatma, ilerleme çubuğu ve
+ // hızlandırma **yoktur** — film ya izlenir ya geçilir; ara kademeler oyuncuya
+ // karar verdirmez, yalnız kareyi kalabalıklaştırır. Kare ilerletme ve
+ // duraklatma CCTV izlemede anlamlıdır ve orada kendi denetimleri vardır.
+ //
+ // Düğme filmin üstünde durduğu için kendi zeminini taşır: yarı saydam koyu
+ // dolgu, kit'in krem çerçevesi ve birincil eylem kenarı. Metin düğmenin
+ // kendi `text`i değil, ayrı bir etikettir — UI Toolkit'te bir `Button`un metni
+ // ile çocukları **üst üste biner**, simge ancak böyle yanına oturur.
+ public static Button SkipButton(VisualElement parent, string label, Action onClick) {
+  var button = new Button(onClick);
+  button.text = null;
+  button.style.flexDirection = FlexDirection.Row;
+  button.style.alignItems = Align.Center;
+  button.style.justifyContent = Justify.Center;
+  button.style.minHeight = KarineTheme.TouchTargetComfortable;
+  button.style.paddingLeft = KarineTheme.SpaceLg; button.style.paddingRight = KarineTheme.SpaceLg;
+  button.style.paddingTop = KarineTheme.SpaceSm; button.style.paddingBottom = KarineTheme.SpaceSm;
+  button.style.marginLeft = 0; button.style.marginRight = 0;
+  button.style.marginTop = 0; button.style.marginBottom = 0;
+  var fill = new Color(KarineTheme.Background.r, KarineTheme.Background.g, KarineTheme.Background.b, .78f);
+  button.style.backgroundColor = fill;
+  Round(button, KarineTheme.Radius);
+  Border(button, KarineTheme.BorderWidth, KarineTheme.Primary);
+  button.style.borderLeftWidth = KarineTheme.PrimaryEdgeWidth;
+  button.style.borderLeftColor = KarineTheme.Accent;
 
-  var play = IconButton(bar, "cine_pause", togglePlay);
-  var track = Progress(bar, 0f);
-  track.style.flexGrow = 1;
-  track.style.marginLeft = KarineTheme.SpaceMd; track.style.marginRight = KarineTheme.SpaceMd;
-  var clock = Technical(bar, "00:00 / 00:00", 15);
-  clock.style.marginBottom = 0; clock.style.marginRight = KarineTheme.SpaceMd;
+  var text = new Label(label);
+  text.style.color = KarineTheme.Primary;
+  text.style.fontSize = Typography.Snap(19);
+  text.style.letterSpacing = 2;
+  text.style.marginBottom = 0; text.style.marginRight = KarineTheme.SpaceSm;
+  ApplyFont(text, Body);
+  button.Add(text);
+  button.Add(Icon(null, "cine_skip", KarineTheme.Primary));
 
-  if (fastForward != null) {
-   var forward = Button_(bar, fastForwardLabel, fastForward, KarineButtonKind.Secondary);
-   forward.style.minHeight = KarineTheme.TouchTarget;
-   forward.style.marginBottom = 0;
-   forward.Insert(0, Icon(null, "cine_forward", KarineTheme.Primary));
-  }
-  if (skip != null) {
-   var skipButton = Button_(bar, skipLabel, skip, KarineButtonKind.Secondary);
-   skipButton.style.minHeight = KarineTheme.TouchTarget;
-   skipButton.style.marginBottom = 0; skipButton.style.marginRight = 0;
-   skipButton.Insert(0, Icon(null, "cine_skip", KarineTheme.Primary));
-  }
-
-  // Dört kez saniyede yenilemek yeter: zaman yazısı saniye çözünürlüğünde.
-  bar.schedule.Execute(() => {
-   var fill = track.childCount > 0 ? track[0] : null;
-   if (fill != null) fill.style.width = Length.Percent(Mathf.Clamp01(progress()) * 100f);
-   clock.text = time();
-   var glyph = play.childCount > 0 ? play[0] : null;
-   if (glyph != null) {
-    var art = Resources.Load<Texture2D>("Bube/Art/Icons/" + (playing() ? "cine_pause" : "nav_next"));
-    if (art != null) glyph.style.backgroundImage = new StyleBackground(art);
-   }
-  }).Every(250);
-  return bar;
- }
-
- // "00:12 / 01:24" — kit'in zaman biçimi.
- public static string Clock(double seconds, double total) =>
-  Stamp(seconds) + " / " + Stamp(total);
-
- static string Stamp(double seconds) {
-  if (double.IsNaN(seconds) || double.IsInfinity(seconds) || seconds < 0) seconds = 0;
-  int whole = (int)seconds;
-  return (whole / 60).ToString("00") + ":" + (whole % 60).ToString("00");
+  var pressed = Color.Lerp(fill, KarineTheme.Accent, .25f);
+  button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
+  button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = fill);
+  button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = fill);
+  parent?.Add(button);
+  return button;
  }
 
  // --- Modal ----------------------------------------------------------------

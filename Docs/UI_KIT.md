@@ -87,11 +87,13 @@ Ekranlar kit bileşenlerine taşındı:
 | Rapor gönderme onayı | `KarineUI.Modal` — "Gönderdiğin karar geri alınamaz." |
 | Ayarlar metin hızı | `KarineUI.Radio` (eskiden iki birincil düğme) |
 | Kariyer ekranı güven ve vaka sayısı | `KarineUI.Meter` / `KarineUI.Counter` |
-| Dünya girişi ve masaya varış filmleri | `KarineUI.CinematicControls` (duraklat, ilerleme, süre) + GEÇ |
+| Dünya girişi ve masaya varış filmleri | `KarineUI.SkipButton` — tek denetim: GEÇ |
 | Saat, tarih, damga, sayfa sayacı, kayıt numarası | `KarineUI.Technical` (monospace) |
 | Menü örtüsü, ayarlar/hakkında kartı | `KarineUI.Panel` + `Title` + `Rule` |
 
-**Sinematik kontroller**, kit §7'nin istediği gibi bütün oyunda tek biçimdir: duraklat, ilerleme çubuğu, süre. **Sinematiklerde hızlandırma yoktur** — filmden tek çıkış GEÇ'tir. Hızlandırma/kare ilerletme yalnız CCTV izlemede anlamlıdır ve orada zaten vardır (oynat/duraklat, kare ilerlet, baştan al). Bileşen hâlâ isteğe bağlı bir hızlandırma düğmesi alabilir; iki eylemin ayrı kalmasını test kilitler, ama filmlerde bağlanmaz. "GEÇ" üretici filigranının **üstüne oturmak zorunda** olduğu için çubuğun içinde değil kendi yerinde durur; çubuk o ekranlarda kısalır. Kutu filigranı örter ama yüksekliği rahat dokunma hedefine, eni 260 px'e kapatılır, yani kit düğmesi gibi görünür.
+**Sinematikte tek denetim GEÇ'tir.** Duraklatma, ilerleme çubuğu, süre ve hızlandırma **yoktur**: film ya izlenir ya geçilir. Ara kademeler oyuncuya karar verdirmez, yalnız kareyi kalabalıklaştırır. Duraklatma ve kare ilerletme **CCTV izlemede** anlamlıdır ve orada kendi denetimleri vardır (oynat/duraklat, kare ilerlet, baştan al).
+
+`KarineUI.SkipButton` filmin üstünde durduğu için kendi zeminini taşır: yarı saydam koyu dolgu, kit'in krem çerçevesi, birincil eylem kenarı ve `cine_skip` simgesi. Metin düğmenin kendi `text`i değil ayrı bir etikettir — UI Toolkit'te bir `Button`un metni ile çocukları üst üste biner, simge ancak böyle yanına oturur. Bazı filmlerde düğme üretici filigranının **üstüne oturmak zorunda**; orada yeri film karesine göre hesaplanır, yüksekliği rahat dokunma hedefine ve eni 260 px'e kapanır. Öteki filmlerde sağ altta durur.
 
 **Kâğıt tonları birleştirildi.** Kâğıt katmanında birbirinden bir iki basamak farklı otuzdan fazla bej vardı (`.82/.76/.65`, `.79/.72/.61`, `.78/.71/.61` …). Hepsi `KarineTheme.Paper` altındaki beş tona indi: `Sheet`, `Light`, `Tint`, `Edge`, `Stamp`, `Ink`, `Faded`. Kit "kendi başına yeni bir stil icat etme" dediği için bu tonlar tek yerde durur.
 

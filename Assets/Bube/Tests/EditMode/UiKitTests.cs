@@ -177,37 +177,24 @@ public sealed class UiKitTests {
   Assert.LessOrEqual(card.style.maxWidth.value.value, 480);
  }
 
- // Sinematik kontroller: kit §7. İLERİ SAR ile GEÇ **ayrı** eylemlerdir ve
- // ayrı düğmelerdir; çubuk ayrıca duraklat, ilerleme ve süreyi taşır.
+ // Sinematikte tek denetim GEÇ'tir: duraklatma, ilerleme ve hızlandırma yok.
+ // Düğme filmin üstünde durduğu için kendi zeminini ve kit çerçevesini taşır,
+ // metni ayrı bir etikettir (Button.text ile çocuklar üst üste binerdi).
  [Test]
- public void CinematicControls_KeepFastForwardAndSkipApart() {
+ public void SkipButton_IsTheOnlyCinematicControl() {
   var host = Host();
-  var bar = KarineUI.CinematicControls(host, () => true, null,
-   () => { }, "İLERİ SAR", () => { }, "GEÇ",
-   () => .5f, () => "00:12 / 01:24");
-  var buttons = bar.Query<Button>().ToList();
-  var forward = buttons.Single(button => button.text == "İLERİ SAR");
-  var skip = buttons.Single(button => button.text == "GEÇ");
-  Assert.AreNotSame(forward, skip, "İki eylem tek düğmeye bağlanamaz.");
-  Assert.AreEqual(3, buttons.Count, "Duraklat + İLERİ SAR + GEÇ.");
-  Assert.IsTrue(bar.Query<Label>().ToList().Any(label => label.text.Contains("/")),
-   "Süre göstergesi yok.");
- }
-
- // Sahne atlanamıyorsa GEÇ hiç çizilmez; yerine boş bir düğme konmaz.
- [Test]
- public void CinematicControls_WithoutSkip_DrawNoSkipButton() {
-  var bar = KarineUI.CinematicControls(Host(), () => true, null,
-   () => { }, "İLERİ SAR", null, null, () => 0f, () => "00:00 / 00:00");
-  Assert.AreEqual(2, bar.Query<Button>().ToList().Count);
- }
-
- // Zaman biçimi kit'in yazdığı gibi: `00:12 / 01:24`.
- [Test]
- public void Clock_ReadsLikeTheKit() {
-  Assert.AreEqual("00:12 / 01:24", KarineUI.Clock(12, 84));
-  Assert.AreEqual("00:00 / 00:00", KarineUI.Clock(double.NaN, -3),
-   "Video hazır değilken saat çöp göstermez.");
+  var skip = KarineUI.SkipButton(host, "GEÇ", () => { });
+  Assert.AreEqual(1, host.Query<Button>().ToList().Count, "Sinematikte tek düğme olmalı.");
+  Assert.IsTrue(string.IsNullOrEmpty(skip.text), "Metin ayrı etiketten gelmeli.");
+  var label = skip.Query<Label>().ToList().SingleOrDefault(item => item.text == "GEÇ");
+  Assert.IsNotNull(label, "GEÇ yazısı yok.");
+  Assert.AreEqual(KarineTheme.Primary, label.style.color.value, "Yazı kit kremi olmalı.");
+  Assert.GreaterOrEqual(skip.style.minHeight.value.value, KarineTheme.TouchTargetComfortable,
+   "GEÇ rahat dokunma hedefinde olmalı.");
+  Assert.AreEqual(KarineTheme.PrimaryEdgeWidth, skip.style.borderLeftWidth.value,
+   "Birincil eylem kenarı yok: düz kare düğme gibi duruyor.");
+  Assert.AreEqual(KarineTheme.Primary, skip.style.borderTopColor.value, "Kit çerçevesi yok.");
+  Assert.Greater(skip.style.backgroundColor.value.a, .5f, "Filmin üstünde kendi zemini olmalı.");
  }
 
  // Radyo: seçili olan dolu halka ve krem yazı; birbirini dışlayan ayarlarda

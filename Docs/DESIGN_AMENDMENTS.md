@@ -455,3 +455,9 @@ Ham renk borcu 156'dan **65'e** indi; kalanlar CCTV taraması gibi saydamlıklı
 
 **Roboto Slab ve Inter depoya girdi** (LFS). Başlıklar artık slab-serif, gövde ve düğmeler Inter, teknik metin IBM Plex Mono — kit §2'nin istediği dört rol de gerçek. Türkçe kapsamı glif glif denetlendi. Roboto Slab'da ₺ yok; metası mono'ya yedekleniyor. Doğrulayıcı dört dosyayı da zorunlu tutuyor.
 
+## Sinematikte tek denetim: GEÇ (25 Eylül 2026)
+
+**Kullanıcı kararı:** duraklatma ve ilerleme çubuğu da kalktı. Sinematik bir karar anı değil; film ya izlenir ya geçilir. Kontrol çubuğu bütünüyle kaldırıldı, `CinematicControls` ve `Clock` bileşenleri silindi, `cine_pause` ve `cine_forward` simgeleri kaldırıldı.
+
+**GEÇ artık tasarlanmış bir düğme.** Eskiden kit'in ikincil düğmesiydi ve filmin üstünde düz bir kare gibi duruyordu. `KarineUI.SkipButton` kendi zeminini taşıyor: yarı saydam koyu dolgu, krem çerçeve, birincil eylem kenarı ve `cine_skip` simgesi. Metin ayrı bir etiket — UI Toolkit'te `Button.text` ile çocuklar üst üste biniyor; önceki çubukta İLERİ SAR'ın simgesiyle yazısının çakışmasının sebebi buydu. Test bu kenarın varlığını kilitler.
+

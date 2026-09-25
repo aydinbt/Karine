@@ -920,31 +920,17 @@ public sealed class BubeApp : MonoBehaviour {
   if(dossierBoldFont!=null)studio.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   var credit=Text(introBrand,"powered by bubeDigital",Gold,16);credit.style.marginBottom=0;
   }
-  // Kit §7'nin sinematik çubuğu: duraklat, ilerleme, süre. Sinematiklerde
-  // hızlandırma **yoktur** — tek çıkış GEÇ'tir. Hızlandırma/kare atlama
-  // yalnız CCTV izlemede anlamlıdır ve orada zaten vardır.
-  var controls=KarineUI.CinematicControls(root,
-   ()=>introPlayer!=null && introPlayer.isPlaying,
-   ()=>{if(introPlayer==null)return;if(introPlayer.isPlaying)introPlayer.Pause();else introPlayer.Play();},
-   null,null,
-   activeIntro.skipCoversCornerMark?(Action)null:FinishWorldIntro,T("intro.skip"),
-   ()=>introPlayer==null || introPlayer.length<=0?0f:(float)(introPlayer.time/introPlayer.length),
-   ()=>introPlayer==null?KarineUI.Clock(0,0):KarineUI.Clock(introPlayer.time,introPlayer.length));
-  controls.style.position=Position.Absolute;
-  controls.style.left=Length.Percent(4);controls.style.right=Length.Percent(4);
-  controls.style.bottom=Length.Percent(5);
-
-  // "GEÇ" bazı filmlerde üretici filigranının tam üstüne oturmak zorunda;
-  // o yüzden orada çubuğun içinde değil, kendi yerinde durur.
+  // Sinematikte tek denetim GEÇ'tir: duraklatma, ilerleme çubuğu ve
+  // hızlandırma yok. Bazı filmlerde düğme üretici filigranının üstüne
+  // oturmak zorunda; o zaman yeri kareye göre hesaplanır.
+  var skip=KarineUI.SkipButton(root,T("intro.skip"),FinishWorldIntro);
+  skip.style.position=Position.Absolute;
+  introSkip=skip;
   if(activeIntro.skipCoversCornerMark) {
-   var skip=KarineUI.Button_(root,T("intro.skip"),FinishWorldIntro,KarineButtonKind.Secondary);
-   skip.style.position=Position.Absolute;
-   introSkip=skip;
    activeMark=activeIntro.skipMark ?? new CornerMark();
    root.RegisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
    skip.schedule.Execute(PositionIntroSkip).StartingIn(0);
-   controls.style.right=Length.Percent(22);
-  }
+  } else PlaceSkipInCorner(skip);
   introPlayer=gameObject.AddComponent<VideoPlayer>();
   introPlayer.playOnAwake=false;
   introPlayer.isLooping=false;
@@ -959,6 +945,13 @@ public sealed class BubeApp : MonoBehaviour {
   introPlayer.Prepare();
  }
  void OnIntroGeometryChanged(GeometryChangedEvent evt) { PositionIntroSkip(); }
+ // Filigran örtme derdi olmayan filmlerde GEÇ sağ altta, güvenli alanın içinde.
+ void PlaceSkipInCorner(Button skip) {
+  skip.style.right=Length.Percent(4);
+  skip.style.bottom=Length.Percent(6);
+  skip.style.left=StyleKeyword.Auto;
+  skip.style.top=StyleKeyword.Auto;
+ }
  // "Gec" dugmesi uretici filigraninin tam ustune oturur: filigran filmin kendi
  // karesine oranli oldugu icin once filmin ekrandaki gercek dikdortgeni bulunur.
  // Film 16:9 olarak taranip kirpildigindan telefonun eni ne olursa olsun dogru yere gelir.
@@ -1030,19 +1023,8 @@ public sealed class BubeApp : MonoBehaviour {
   film.style.position=Position.Absolute;
   film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
   root.Add(film);
-  // Aynı sinematik çubuk: kit §7 bunun bütün oyunda tek biçim olmasını ister.
-  // Hızlandırma yok; "GEÇ" filigranın üstüne oturduğu için çubuğun dışında durur.
-  var controls=KarineUI.CinematicControls(root,
-   ()=>introPlayer!=null && introPlayer.isPlaying,
-   ()=>{if(introPlayer==null)return;if(introPlayer.isPlaying)introPlayer.Pause();else introPlayer.Play();},
-   null,null,
-   null,null,
-   ()=>introPlayer==null || introPlayer.length<=0?0f:(float)(introPlayer.time/introPlayer.length),
-   ()=>introPlayer==null?KarineUI.Clock(0,0):KarineUI.Clock(introPlayer.time,introPlayer.length));
-  controls.style.position=Position.Absolute;
-  controls.style.left=Length.Percent(4);controls.style.right=Length.Percent(22);
-  controls.style.bottom=Length.Percent(5);
-  var skip=KarineUI.Button_(root,T("intro.skip"),()=>FinishDeskArrival(after,false),KarineButtonKind.Secondary);
+  // Burada da tek denetim GEÇ; filigranın üstüne oturur.
+  var skip=KarineUI.SkipButton(root,T("intro.skip"),()=>FinishDeskArrival(after,false));
   skip.style.position=Position.Absolute;
   introSkip=skip;
   activeMark=world.deskArrivalMark ?? new CornerMark();

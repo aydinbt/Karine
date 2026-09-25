@@ -23,7 +23,7 @@ public static class ProjectRules {
  public static readonly string[] KitIcons = {
   "folder", "document", "gear", "binoculars", "pin", "people", "chart", "more",
   "close", "alert", "info", "nav_prev", "nav_next", "menu_quit",
-  "cine_pause", "cine_forward", "cine_skip",
+  "cine_skip",
  };
 
  // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 65'e indi.
