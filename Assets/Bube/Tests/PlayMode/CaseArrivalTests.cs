@@ -42,7 +42,18 @@ public sealed class CaseArrivalTests {
   for (int frame = 0; frame < 30; frame++) yield return null;
  }
 
+ // Bu testler kayit yazan yollari (`OpenAssignment` → `Save`) calistiriyor.
+ // Birakilan kayit sonraki testin acilis durumunu degistirir; oyuncunun kendi
+ // kaydi `SaveSandbox` tarafindan korunur.
+ static void ClearSaves() {
+  foreach (var file in System.IO.Directory.GetFiles(Application.persistentDataPath, "bube-*"))
+   try { System.IO.File.Delete(file); } catch (Exception) { }
+ }
+
+ [UnityTearDown] public IEnumerator Teardown() { ClearSaves(); yield return null; }
+
  [UnitySetUp] public IEnumerator Setup() {
+  ClearSaves();
   SceneManager.LoadScene("BootScene", LoadSceneMode.Single);
   yield return null;
   for (int frame = 0; frame < 20; frame++) yield return null;
@@ -56,6 +67,32 @@ public sealed class CaseArrivalTests {
   // Şerit kariyerin ilk dosyasında farklı yazar; ikisi de bırakılışın oynadığını gösterir.
   Assert.IsTrue(labels.Contains(Text("intro.firstFile")) || labels.Contains(Text("intro.newFile")),
    "Dosya bırakılış animasyonu oynamadı, bulunan: " + string.Join(" | ", labels));
+ }
+
+ // Gercek bolum gecisi: kapali bir vakadan sonraki dosyanin acilmasi. Yukaridaki
+ // test yalnizca `MaybeWorldIntro`u dogrudan cagiriyordu; burasi oyuncunun
+ // gelen evrak tepsisinden izledigi yolun ta kendisi.
+ [UnityTest] public IEnumerator NextAssignment_DropsTheFile() {
+  var game = Field(app, "game");
+  var state = (Progress)game.GetType().GetProperty("State").GetValue(game);
+  var career = (CareerProgress)game.GetType().GetProperty("Career").GetValue(game);
+  var config = (GameConfig)Field(app, "config");
+  foreach (var world in config.worldIntros ?? new WorldIntro[0])
+   if (!career.seenWorldIntros.Contains(world.id)) career.seenWorldIntros.Add(world.id);
+  state.caseAccepted = true;
+  state.closed = true;
+  var data = (CaseData)game.GetType().GetProperty("Data").GetValue(game);
+  Assert.IsNotNull(data, "Vaka verisi yok.");
+  Assert.IsFalse(string.IsNullOrEmpty(data.nextCaseId), "Sıradaki vaka tanımlı değil.");
+  var asset = Resources.Load<TextAsset>("Bube/Cases/" + data.nextCaseId);
+  Assert.IsNotNull(asset, "Sıradaki vaka dosyası yüklenemedi: " + data.nextCaseId);
+  var next = JsonUtility.FromJson<CaseData>(asset.text);
+  app.GetType().GetMethod("OpenAssignment", BindingFlags.Instance | BindingFlags.NonPublic)
+   .Invoke(app, new object[] { next });
+  for (int frame = 0; frame < 30; frame++) yield return null;
+  var labels = Labels(Root);
+  Assert.IsTrue(labels.Contains(Text("intro.firstFile")) || labels.Contains(Text("intro.newFile")),
+   "Sonraki dosya bırakılmadan geldi, bulunan: " + string.Join(" | ", labels));
  }
 
  [UnityTest] public IEnumerator AcceptedCase_IsNotDroppedAgain() {

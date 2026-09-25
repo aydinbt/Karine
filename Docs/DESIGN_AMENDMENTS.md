@@ -668,3 +668,9 @@ Dosyanın masaya bırakılışının bir karşılığı yoktu: rapor gönderilin
 anında özete atlıyordu. Artık gönderme, bırakılışın tersini oynuyor — Bora formu
 doldurup kaşeler, evrak ekran dışına çıkar — ve özet ancak ondan sonra açılır.
 GEÇ düğmesi varış filmiyle aynı köşede durur. Video yoksa özet doğrudan açılır.
+
+## 26 Eylül 2026 — Testler oyuncunun kaydına dokunmaz
+
+PlayMode testleri gerçek kayıt klasörüne yazıyordu; bir koşu vakayı kabul
+edilmiş duruma getirip dosya bırakılış anını yutabiliyordu. Kayıtlar artık
+`SaveSandbox` ile testten önce kenara alınıp sonra geri konuyor.
