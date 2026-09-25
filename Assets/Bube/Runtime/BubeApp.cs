@@ -34,6 +34,12 @@ public sealed partial class BubeApp : MonoBehaviour {
  Locale locale;
  CareerRules careerRules;
  AudioDirector audio;
+ // Android'de geri tuşu bir "geri" eylemidir. Karşılığı yoksa işletim sistemi
+ // uygulamayı kapatır ve oyuncu bunu kazara yapar — soruşturmanın ortasında.
+ // Her katman açıldığında geri tuşunun nereye gideceğini söyler.
+ Action escapeBack;
+ VisualElement chainEndNotice;
+ bool askingToQuit;
  GameConfig config;
  Investigation game;
  VisualElement root;
@@ -198,6 +204,25 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(saveNotice!=null)Text(root,T("save.fromFuture"),Muted,15);
  }
 
+ // Geri tuşunun hedefi ekranın kendi "geri" eyleminin **aynısıdır**; ayrı bir
+ // gezinti ağacı tutulmaz, yoksa ikisi birbirinden ayrı düşer.
+ void Back(Action action) => escapeBack=action;
+
+ void HandleEscape() {
+  if(askingToQuit)return;
+  var action=escapeBack;
+  if(action!=null){action();return;}
+  AskToQuit();
+ }
+
+ // Ana menüde geri tuşu oyunu doğrudan kapatmaz; kit'in onay modalını açar.
+ void AskToQuit() {
+  askingToQuit=true;
+  KarineUI.Modal(root,T("quit.title"),T("quit.body"),
+   T("quit.cancel"),()=>{askingToQuit=false;Home();},
+   T("quit.confirm"),()=>{askingToQuit=false;QuitGame();},true);
+ }
+
  void EnsureScene(string sceneName) {
   SetRoomSound(sceneName);
   if(SceneManager.GetActiveScene().name!=sceneName)
@@ -238,6 +263,8 @@ public sealed partial class BubeApp : MonoBehaviour {
    int incoming=game.Data.nodes.Count(incomingDocumentPredicate);
    if(incoming!=lastIncomingDocumentCount) { lastIncomingDocumentCount=incoming; InvestigationRequests(false); }
   }
+  // Android geri tuşu ve masaüstünde Esc aynı olaydır.
+  if(Input.GetKeyDown(KeyCode.Escape))HandleEscape();
   var safe=Screen.safeArea;
   if(Screen.width<=0 || Screen.height<=0)return;
   // Güvenli alan kenar boşlukları yalnız ekran ölçüsü, güvenli alan ya da kök öge değiştiğinde yazılır.
@@ -248,11 +275,11 @@ public sealed partial class BubeApp : MonoBehaviour {
    root.style.top=Length.Percent((Screen.height-safe.yMax)/Screen.height*100);
    root.style.bottom=Length.Percent(safe.yMin/Screen.height*100);
   }
+  bool inOffice=SceneManager.GetActiveScene().name=="OfficeScene";
   if(HasIncomingFax || HasIncomingDocument) {
-   bool atOffice=SceneManager.GetActiveScene().name=="OfficeScene";
-   if(HasIncomingFax && atOffice)AddFaxNotice();
-   if(HasIncomingDocument && atOffice)AddDocumentNotice();
-  }
+   if(HasIncomingFax && inOffice)AddFaxNotice();
+   if(HasIncomingDocument && inOffice)AddDocumentNotice();
+  } else if(inOffice)AddChainEndNotice();
   RefreshInboxBadge();
  }
 
@@ -423,6 +450,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   rule.style.marginBottom=9;paper.Add(rule);
   body=Scroll(paper);
   var back=KarineUI.PaperButton(paper,T(backAction==null?"back.file":"back.desk"),backAction ?? (Action)FilePage);
+  Back(backAction ?? (Action)FilePage);
   back.style.minHeight=42;back.style.fontSize=Typography.Snap(16);
  }
  Button ReportChoice(VisualElement parent,string label,bool selected,Action choose) {

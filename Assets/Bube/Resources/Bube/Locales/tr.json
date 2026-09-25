@@ -2267,6 +2267,34 @@
   {
    "key": "settings.sound.full",
    "value": "Açık"
+  },
+  {
+   "key": "quit.title",
+   "value": "Oyundan çıkılsın mı?"
+  },
+  {
+   "key": "quit.body",
+   "value": "Soruşturma kaydedildi; kaldığın yerden devam edebilirsin."
+  },
+  {
+   "key": "quit.cancel",
+   "value": "Vazgeç"
+  },
+  {
+   "key": "quit.confirm",
+   "value": "Çık"
+  },
+  {
+   "key": "chain.end.title",
+   "value": "Masada yeni dosya yok"
+  },
+  {
+   "key": "chain.end.detail",
+   "value": "Kapattığın dosyalar arşivde. Yeni bir görevlendirme geldiğinde gelen evrak tepsisi seni uyarır."
+  },
+  {
+   "key": "chain.end.action",
+   "value": "Kariyere bak"
   }
  ]
 }

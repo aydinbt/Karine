@@ -210,6 +210,7 @@ public sealed partial class BubeApp {
   cctvPlayer.Prepare();
  }
  void CctvScreen(Node node,string focusEventId=null) {
+  Back(FilePage); // görüntüden dosyaya dönülür
   showingInterviewList=false;
   VisualElement content;
   BpsTablet("cctv.archive",out content);

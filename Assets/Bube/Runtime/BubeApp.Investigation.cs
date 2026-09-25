@@ -163,6 +163,7 @@ public sealed partial class BubeApp {
   tab.style.backgroundColor=background;tab.style.fontSize=Typography.Snap(15);
  }
  void FilePage() {
+  Back(Desk); // dosya masasının üstünde açılır
   showingInterviewList=false;
   var report=game.Data.nodes.First(n=>n.id=="report");
   var all=game.Data.nodes.Where(n=>game.Available(n) || game.State.closed && (game.State.read.Contains(n.id) || game.State.interviewTurns.Any(turn=>turn.nodeId==n.id))).ToArray();

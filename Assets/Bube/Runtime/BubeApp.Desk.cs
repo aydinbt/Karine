@@ -51,6 +51,21 @@ public sealed partial class BubeApp {
   if(!HasIncomingDocument || documentNotice!=null && documentNotice.panel!=null)return;
   documentNotice=DeskNotice(T("inbox.newDocument"),T("inbox.newDocument.detail"),30f,KarineTone.Neutral);
  }
+ // Vaka zinciri bitebilir: `nextCaseId` boş olabilir ya da sıradaki vaka
+ // taslak olabilir. O zaman masa sessizce boş kalıyordu — oyuncu bir şeyin
+ // bozulduğunu sanır. Kapanış bildirimi bunu söyler ve arşive yönlendirir,
+ // ama sıradaki adımı **söylemez**: gidecek yeri kalmadığını söylemek ipucu değil.
+ void AddChainEndNotice() {
+  if(!game.State.closed || game.Career.retired)return;
+  if(AvailableAssignment()!=null || HasIncomingFax || HasIncomingDocument)return;
+  if(chainEndNotice!=null && chainEndNotice.panel!=null)return;
+  chainEndNotice=KarineUI.Notification(root,T("chain.end.title"),T("chain.end.detail"),
+   T("chain.end.action"),StatisticsPage,null);
+  chainEndNotice.style.position=Position.Absolute;
+  chainEndNotice.style.left=Length.Percent(1);chainEndNotice.style.top=Length.Percent(13);
+  chainEndNotice.style.width=Length.Percent(29);
+  chainEndNotice.style.marginBottom=0;chainEndNotice.style.marginRight=0;
+ }
  VisualElement DeskNotice(string title,string detail,float top,KarineTone tone) {
   var notice=KarineUI.Notification(root,title,detail,T("inbox.notice.open"),InboxPage,null);
   notice.style.position=Position.Absolute;
@@ -245,6 +260,8 @@ public sealed partial class BubeApp {
   Text(block,T(reasonKey),KarineTheme.Paper.Faded,14).style.marginBottom=0;
  }
  void Desk() {
+  // Masa oyunun ana ekranı; geri tuşu menüye götürür, oyunu kapatmaz.
+  Back(Home);
   StopCctvVideo();
   StopMenuVideo();
   EnsureScene("OfficeScene");

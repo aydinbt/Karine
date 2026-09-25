@@ -16,6 +16,8 @@ public sealed partial class BubeApp {
  // Ana menü maketin birebir karşılığı: solda marka ve menü, arkada dönen
  // animasyon. Animasyonun sol tarafı zaten karartılmış; menü oraya oturur.
  void Home() {
+  // Ana menü kökün kendisi: geri tuşunun gidecek yeri yok, çıkış onayı açılır.
+  Back(null);
   StopCctvVideo();
   EnsureScene("MainMenuScene");
   showingInterviewList=false;
@@ -168,6 +170,7 @@ public sealed partial class BubeApp {
  }
 
  void MenuOverlay(string title,out VisualElement card) {
+  Back(Home);
   Home();
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
