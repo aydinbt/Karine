@@ -246,5 +246,6 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **Yazı tipi rol tablosu** (`FontSet`): Heading / Mono / Body ayrıldı, eksik dosya mono'ya düşüyor ve doğrulayıcı not yazıyor. `RobotoSlab-ExtraBold.ttf` ve `Inter-Regular.ttf` **projede yok** — bu yüzden bugün ekranda görünür bir değişiklik yok.
 - [~] **Bütün görsellerde içe aktarım oranı kilitlendi** (11 meta). Arka planlar yatayda ~%12, bayrak ~%33 esniyordu; artık esnemiyor. Doğrulayıcı kuralı eklendi ve düştüğü görülerek sınandı. Ekranlara gözle bakılmadı → `[~]`.
 
-- [~] **Ana menü maketle eşlendi ve arka plana dönen animasyon bağlandı.** Logo, alt başlık, sözlük tanımı, beş satırlık menü, stüdyo bloğu; video açılmazsa durağan görsele düşüyor. Satırların gerçekten çizildiği **Play Mode testiyle** doğrulandı (7 PlayMode testi); yerleşim oranlarına **gözle bakılmadı** → `[~]`.
+- [~] **Ana menü maketle eşlendi ve arka plana dönen animasyon bağlandı.** Logo, alt başlık, beş satırlık menü, sağ alt köşede stüdyo bloğu; video açılmazsa durağan görsele düşüyor. Satırların gerçekten çizildiği **Play Mode testiyle** doğrulandı (7 PlayMode testi); yerleşim oranlarına **gözle bakılmadı** → `[~]`.
+- [~] **Menü simgeleri maketten kesildi** — beş PNG (`Bube/Art/Icons/menu_*`), satır tonuyla boyanıyor; font glifleri kalktı. Simgelerin ekrana geldiği Play Mode testiyle doğrulandı, **gözle bakılmadı** → `[~]`.
 - [x] Arşiv kariyer ekranına, Hakkında ayarlara taşındı — menü maketteki beş satıra indi, iki işlev kaybolmadı.

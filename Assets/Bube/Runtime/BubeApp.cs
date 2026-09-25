@@ -434,14 +434,14 @@ public sealed class BubeApp : MonoBehaviour {
   MenuRule(left);
   var menu=new VisualElement();menu.style.marginTop=8;menu.style.marginBottom=0;left.Add(menu);
   if(game.State.caseAccepted) {
-   MenuRow(menu,"▣",T("menu.row.continue"),Desk,true);
-   MenuRow(menu,"▤",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
+   MenuRow(menu,"continue",T("menu.row.continue"),Desk,true);
+   MenuRow(menu,"newCareer",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
   } else {
-   MenuRow(menu,"▤",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
+   MenuRow(menu,"newCareer",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
   }
-  MenuRow(menu,"⚙",T("menu.row.settings"),SettingsPage,false);
-  MenuRow(menu,"▥",T("menu.row.career"),StatisticsPage,false);
-  MenuRow(menu,"◀",T("menu.row.quit"),QuitGame,false);
+  MenuRow(menu,"settings",T("menu.row.settings"),SettingsPage,false);
+  MenuRow(menu,"career",T("menu.row.career"),StatisticsPage,false);
+  MenuRow(menu,"quit",T("menu.row.quit"),QuitGame,false);
 
   // Stüdyo bloğu sol sütundan çıktı: menünün altına sığmıyor ve son satırla
   // çakışıyordu. Videonun sağ alt köşesi zaten karanlık, oraya oturuyor.
@@ -455,6 +455,23 @@ public sealed class BubeApp : MonoBehaviour {
   Text(studioBlock,"powered by bubeDigital",new Color(.62f,.59f,.52f),13).style.marginBottom=0;
   FadeIn(left);
   FadeIn(studioBlock);
+ }
+
+ // Simge sütunu: maketten kesilmiş PNG, satırın tonuyla boyanır (seçili satırda
+ // koyu, ötekilerde krem). Dosya yoksa satır simgesiz kalır ama sütun genişliği
+ // korunur, böylece etiketler kaymaz.
+ VisualElement MenuIcon(string name,Color tone) {
+  var mark=new VisualElement();
+  mark.style.width=34;mark.style.height=22;
+  mark.style.flexShrink=0;
+  var art=Resources.Load<Texture2D>("Bube/Art/Icons/menu_"+name);
+  if(art!=null) {
+   mark.style.backgroundImage=new StyleBackground(art);
+   mark.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(BackgroundSizeType.Contain));
+   mark.style.backgroundPositionX=new BackgroundPosition(BackgroundPositionKeyword.Left);
+   mark.style.unityBackgroundImageTintColor=tone;
+  }
+  return mark;
  }
 
  void MenuRule(VisualElement parent) {
@@ -480,11 +497,7 @@ public sealed class BubeApp : MonoBehaviour {
   var tone=primary?new Color(.10f,.12f,.14f):Ink;
   parent.Add(row);
 
-  var mark=new Label(icon);
-  mark.style.width=34;mark.style.color=tone;
-  mark.style.fontSize=Typography.Snap(17);
-  mark.style.unityTextAlign=TextAnchor.MiddleLeft;
-  row.Add(mark);
+  row.Add(MenuIcon(icon,tone));
 
   var text=new Label(label);
   text.style.color=tone;

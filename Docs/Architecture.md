@@ -173,3 +173,5 @@ Yeni `caseXXX.json` + `tr.json` anahtarları + önceki vakanın `nextCaseId` ala
 - `menuPlayer` / `menuTexture` `BubeApp` alanlarıdır; `Home()` her çağrıldığında yeniden kurulmaz, yalnız görüntü ögesi eklenir. `Desk()` `StopMenuVideo()` çağırır.
 - Video hata verirse `menuVideoFailed` işaretlenir ve durağan `Bube/MainMenuNight` görseline düşülür.
 - Menü satırları `MenuRow(...)` ile çizilir (simge sütunu + etiket + öne çıkan satırda ok, 52 px dokunma hedefi). Etiketler `menu.row.*` anahtarlarında **büyük harfle saklanır** — Türkçe `ToUpper` tuzağına (I/İ) hiç girilmez.
+- Simgeler `Resources/Bube/Art/Icons/menu_{continue,newCareer,settings,career,quit}.png`. `MenuIcon(...)` bunları arka plan görseli olarak (`BackgroundSizeType.Contain`, sola yaslı, 34×22 sütun) koyar ve `unityBackgroundImageTintColor` ile satırın tonuna boyar. Dosya yoksa sütun genişliği korunur, etiketler kaymaz; `ProjectRules` beşinin de varlığını arar.
+- Stüdyo imzası sol sütunun değil, kökün çocuğudur: sağ alt köşede mutlak yerleşim (`right 4% / bottom 5%`).

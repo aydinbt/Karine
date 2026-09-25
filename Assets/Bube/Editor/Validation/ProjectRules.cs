@@ -35,6 +35,12 @@ public static class ProjectRules {
   foreach (var (resource, label) in RequiredTextures)
    report.Require(Resources.Load<Texture2D>(resource) != null, "Görsel yok (" + label + "): " + resource);
 
+  // Ana menü simgeleri: eksik bir dosya satırı simgesiz bırakır, bu sessizce
+  // maketten uzaklaşmak demektir.
+  foreach (var icon in new[] { "continue", "newCareer", "settings", "career", "quit" })
+   report.Require(Resources.Load<Texture2D>("Bube/Art/Icons/menu_" + icon) != null,
+    "Ana menü simgesi yok: menu_" + icon);
+
   // Marka oranı: logo dosyası değişirse `KarineLogo.AspectRatio` da değişmeli,
   // yoksa oran sessizce bozulur.
   var logo = Resources.Load<Texture2D>(KarineLogo.BaseResource);

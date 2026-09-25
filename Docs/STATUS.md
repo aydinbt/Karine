@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu, mobil erişilebilirlik, kayıt göçü)
+**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu, mobil erişilebilirlik, kayıt göçü, ana menü maketi)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle

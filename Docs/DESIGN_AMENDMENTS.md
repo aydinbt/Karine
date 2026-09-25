@@ -407,12 +407,14 @@ Bugün aşınma **temel görselin alfa kanalındadır**; `DistressOverlay` yerin
 
 Kullanıcının verdiği maket ana menünün **tasarım kanonu** oldu; yanındaki 10 saniyelik animasyon (1920×1080, sessiz döngü) arka plan. Animasyonun sol tarafı zaten karartılmış, menü oraya oturuyor.
 
-Soldaki sütun maketin sırası: KARINE logosu → `A DETECTIVE INVESTIGATION GAME` → sözlük tanımı (`karine (n.)` — hukukta, aksi ispatlanıncaya kadar doğru kabul edilen durum) → çizgi → menü → çizgi → `bubeGames` / `powered by bubeDigital`. Oyunun adının ne anlama geldiğini ilk ekranda söylemesi, adın kendisi kadar kanon.
+Soldaki sütun maketin sırası: KARINE logosu → `A DETECTIVE INVESTIGATION GAME` → çizgi → menü. Sözlük tanımı (`karine (n.)`) kullanıcı kararıyla kaldırıldı: ilk ekran kalabalık görünüyordu. Stüdyo imzası (`bubeGames` / `powered by bubeDigital`) sol sütundan çıkıp **sağ alt köşeye** taşındı; videonun o köşesi siyah olduğu için yazı orada okunuyor ve ÇIKIŞ satırıyla çakışmıyor.
 
 **Menü beş satır** — maketteki gibi: DEVAM ET (kayıt varsa, öne çıkan), YENİ KARİYER, AYARLAR, KARİYER, ÇIKIŞ. Satırlar simge sütunu + etiket + (öne çıkanda) ok biçiminde; dokunma hedefi 52 piksel.
 
 **Kaybolan iki giriş taşındı, silinmedi.** Maket beş satır gösterdiği için Arşiv ve Hakkında menüden çıktı: **Arşiv kariyer ekranının içinde** (kapanmış dosyalar zaten kariyer geçmişidir), **Hakkında ayarların içinde**. İkisi de erişilebilir; menü maketle birebir.
 
 **Video açılmazsa menü boş kalmaz:** `errorReceived` gelirse durağan `MainMenuNight` görseline düşülür. Döngü sessizdir — müzik ayrı bir karardır. Masaya geçerken döngü durdurulur, menüye dönünce aynı doku yeniden kullanılır (her `Home()` çağrısı videoyu baştan başlatmaz; `MenuOverlay` ve arşiv ekranları `Home()`'u yeniden çiziyor).
+
+**Simgeler maketten kesildi.** Satır simgeleri font glifiyle (`▣ ▤ ⚙ ▥ ◀`) çizilirken küçük ve cılız duruyordu; artık maketin kendi ikonları (klasör, belge, dişli, grafik, çıkış oku) beş küçük PNG olarak `Bube/Art/Icons/menu_*` altında duruyor. Krem renkle yazılıp satırın tonuyla boyanıyorlar, böylece öne çıkan satırda kendiliğinden koyuya dönüyorlar. Eksik bir simge dosyası doğrulayıcıda hata verir.
 
 Eski `bube` yazı logosu ve `P O L I C E` satırı kalktı; marka artık KARINE.

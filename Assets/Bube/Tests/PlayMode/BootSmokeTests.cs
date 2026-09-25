@@ -107,6 +107,16 @@ public sealed class BootSmokeTests {
   foreach (var row in new[] { "YENI KARIYER", "AYARLAR", "KARIYER", "CIKIS" })
    Assert.IsTrue(labels.Any(text => Fold(text) == row), "Menu satiri yok: " + row);
 
+  // Simgeler: her satirin solunda maketten gelen gorsel duruyor mu. Glif
+  // kullanilsaydi bunlar Label olurdu; arka plan gorseli aranir.
+  var rows = root.Query<Button>().ToList()
+   .Where(button => button.Query<Label>().ToList().Any(label => Fold(label.text ?? "") == "AYARLAR" || Fold(label.text ?? "") == "CIKIS"))
+   .ToList();
+  Assert.AreEqual(2, rows.Count, "Ayarlar ve Cikis satirlari bulunamadi.");
+  foreach (var row in rows)
+   Assert.IsTrue(row.Children().Any(child => child.resolvedStyle.backgroundImage.texture != null),
+    "Menu satirinda simge gorseli yok.");
+
   CollectionAssert.IsEmpty(errors, "Hata olustu: " + string.Join(" | ", errors));
  }
 
