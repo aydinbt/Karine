@@ -131,7 +131,7 @@ Toplam 51 test: 46 EditMode + 5 PlayMode.
 
 Kapsam dışı ve gözle doğrulanması gerekenler: video oynatma, çentik/güvenli alan görünümü, dokunma hedefi boyutları, Türkçe glifler, klavye davranışı, kare hızı ve okunabilirlik. Bunlar `Docs/PLAYTEST_001.md`'de.
 
-`Desk()` arka planı `Bube/DeskReference`'tır. Terminaldeki kurum adı görselden silinmiştir ve yerine bir şey yazılmaz; ekranda yalnız "CCTV ARŞİVİ" kalır. Künye şeridi tamamen opaktır — saydam bırakılırsa görsele gömülü kurum yazısı altından sızıyor.
+`Desk()` arka planı `Bube/DeskReference`'tır. Terminaldeki kurum adı görselden silinmiştir ve yerine bir şey yazılmaz; ekranda yalnız "CCTV ARŞİVİ" kutusu kalır, arma da silinmiştir. Künye şeridi tamamen opaktır — saydam bırakılırsa görsele gömülü kurum yazısı altından sızıyor.
 
 ## Yazı ölçeği
 

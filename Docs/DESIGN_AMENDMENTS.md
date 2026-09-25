@@ -199,6 +199,8 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 
 Üst künye şeridi %97 saydamdı ve altındaki gömülü kurum yazısı hayalet gibi sızıyordu; şerit tamamen opak yapıldı.
 
-Arma kullanıcı kararıyla kalıyor (uydurma görünüyor). **Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" gösteriyor**; video yeniden üretilmeli.
+**Terminal ekranındaki arma da silindi** (kullanıcı kararı): ekranda yalnız "CCTV ARŞİVİ" kutusu kalıyor. Kenarlardan interpolasyon denendi ama armanın ucu seçilen dikdörtgenin dışına taştığı için dikey izler bıraktı; ekranın o bölgesi zaten neredeyse düz olduğundan çevresinden örneklenen tek renkle doldurmak temiz sonuç verdi. **Dosya kapağındaki arma kalıyor** — kullanıcı kararı, uydurma görünüyor.
+
+**Ama videonun kendisi hâlâ 10 saniye boyunca "EMNİYET SİSTEMİ" ve armayı gösteriyor**; video yeniden üretilmeli.
 
 **Durum `[~]`:** Testler geçiyor ama **Play Mode'da gözle doğrulanmadı** — karartma/açılma geçişinin akıcılığı görülmeli.

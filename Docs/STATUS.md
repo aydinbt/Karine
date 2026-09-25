@@ -54,7 +54,7 @@
 
 ## Açık kritik maddeler
 
-1. **Sinematik videonun içinde hâlâ "EMNİYET SİSTEMİ" yazıyor.** Masa görselinden silindi ve yerine koddan "BPS KAYIT SİSTEMİ" yazılıyor, ama **video yeniden üretilmeli**. Arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
+1. **Sinematik videonun içinde hâlâ "EMNİYET SİSTEMİ" yazısı ve terminal arması var.** Masa görselinden ikisi de silindi (yerine bir şey yazılmadı), ama **video yeniden üretilmeli**. Dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
 1. **Dosya #001 hiç baştan sona oynanmadı** — M1 ve M2'nin bitiş ölçütleri buna bağlı (Faz 2). **Asıl darboğaz budur.**
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. **Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor (Faz 3).
