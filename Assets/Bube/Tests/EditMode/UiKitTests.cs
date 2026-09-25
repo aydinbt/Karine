@@ -94,7 +94,7 @@ public sealed class UiKitTests {
  public void TypographyRoles_GoToTheRightFonts() {
   var fonts = FontSet.Load();
   var technical = KarineUI.Technical(Host(), "DOSYA #001");
-  var title = KarineUI.Title(Host(), "KURUM GÜVENİ");
+  var title = KarineUI.Title(Host(), "KURUM GÜVENİ", 21);
   if (fonts.Mono != null)
    Assert.AreEqual(fonts.Mono, technical.style.unityFontDefinition.value.font);
   if (fonts.Heading != null)
@@ -199,6 +199,32 @@ public sealed class UiKitTests {
   Assert.AreEqual(KarineTheme.Accent, skip.style.borderTopColor.value, "Kit çerçevesi yok.");
   Assert.AreEqual(1f, skip.style.backgroundColor.value.a,
    "GEÇ saydam olmamalı: kit düğmesi dolu zemin taşır.");
+ }
+
+ // Yazı tipi rolleri: gövde **mono değildir**. Ekranların tamamı monospace
+ // okununca yazı kötü görünüyordu; mono artık yalnız teknik metindedir.
+ // Büyük başlık logonun ağır slab diline yakın olanı kullanır, küçük başlık
+ // Roboto Slab'da kalır — ahşap dizgi küçük puntoda okunmaz.
+ [Test]
+ public void Typography_KeepsMonoForTechnicalTextOnly() {
+  var set = FontSet.Load();
+  Assert.IsNotNull(set.Display, "Display rolü yok.");
+  Assert.AreNotSame(set.Mono, set.Body, "Gövde yazısı mono olmamalı.");
+  Assert.AreNotSame(set.Mono, set.Heading, "Başlık mono olmamalı.");
+
+  var host = Host();
+  var big = KarineUI.Title(host, "DOSYA", KarineUI.DisplayFrom);
+  var small = KarineUI.Title(host, "DOSYA", 21);
+  var technical = KarineUI.Technical(host, "00:12");
+  var body = KarineUI.Body_(host, "Gövde");
+  Assert.AreEqual(FontDefinition.FromFont(set.Display), big.style.unityFontDefinition.value,
+   "Büyük başlık logo diline yakın slab'ı kullanmalı.");
+  Assert.AreEqual(FontDefinition.FromFont(set.Heading), small.style.unityFontDefinition.value,
+   "Küçük başlık Roboto Slab'da kalmalı.");
+  Assert.AreEqual(FontDefinition.FromFont(set.Mono), technical.style.unityFontDefinition.value,
+   "Teknik metin mono olmalı.");
+  Assert.AreEqual(FontDefinition.FromFont(set.Body), body.style.unityFontDefinition.value,
+   "Gövde Inter olmalı.");
  }
 
  // Radyo: seçili olan dolu halka ve krem yazı; birbirini dışlayan ayarlarda

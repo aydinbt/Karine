@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4d80071fe85646aebab8f95d10af7b6c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Alfa Slab One
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 017cea4bdb5f14c1884bdead9db94d74, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

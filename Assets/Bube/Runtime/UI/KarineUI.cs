@@ -26,14 +26,19 @@ public static class KarineUI {
   if (font != null) element.style.unityFontDefinition = FontDefinition.FromFont(font);
  }
 
+ static Font Display => Fonts != null ? Fonts.Display : null;
  static Font Heading => Fonts != null ? Fonts.Heading : null;
  static Font Body => Fonts != null ? Fonts.Body : null;
  static Font Mono => Fonts != null ? Fonts.Mono : null;
 
  // --- Yazı -----------------------------------------------------------------
 
+ // Büyük başlıklar logonun diline yakın ağır slab'ı kullanır; küçük başlıklar
+ // Roboto Slab'da kalır. Eşik `DisplayFrom`: ahşap dizgi küçük puntoda
+ // okunmaz, kit'in okunabilirlik kuralı orada ağır basar.
+ public const int DisplayFrom = 28;
  public static Label Title(VisualElement parent, string value, int size = 28) =>
-  Write(parent, value, KarineTheme.Primary, size, Heading);
+  Write(parent, value, KarineTheme.Primary, size, size >= DisplayFrom ? Display : Heading);
 
  public static Label Subtitle(VisualElement parent, string value, int size = 19) =>
   Write(parent, value, KarineTheme.Secondary, size, Heading);

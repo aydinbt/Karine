@@ -169,8 +169,11 @@ public sealed class BubeApp : MonoBehaviour {
   doc.panelSettings=panel;
   fonts=FontSet.Load();KarineUI.Fonts=fonts;
   // Dosya/terminal dokusu mono kalir; govde ve baslik rolleri ayri dusunulur.
-  dossierFont=fonts.Mono;
-  dossierBoldFont=fonts.MonoBold;
+  // Arayüzün gövde yazısı **mono değildir**. Mono yalnız teknik metne aittir
+  // (`Technical`): dosya numarası, tarih, saat, güven yüzdesi. Ekranların
+  // tamamı monospace okunduğu için yazı kötü görünüyordu.
+  dossierFont=fonts.Body;
+  dossierBoldFont=fonts.BodyBold;
   if(fonts.Missing.Length>0)
    Debug.Log("Font rolleri mono'ya dusuyor (dosya eksik): "+string.Join(", ",fonts.Missing));
   root=doc.rootVisualElement;

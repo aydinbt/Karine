@@ -467,3 +467,13 @@ Ham renk borcu 156'dan **65'e** indi; kalanlar CCTV taraması gibi saydamlıklı
 
 Aynı karar CCTV görüntüsündeki düğmelere de uygulandı: oradaki "GEÇ" aynı bileşene, kapat/oynat/kare ilerlet/baştan al kit'in ikincil düğmesine bağlandı — elle kurulmuş renkler kalktı.
 
+## Yazı tipi: mono'dan çıkış, logo diline yaklaşma (25 Eylül 2026)
+
+**Kullanıcı:** "oyunun içindeki fontlar aşırı kötü, KARINE logosunun fontuna benzer bir font uygulanmalı."
+
+Kötü görünmesinin asıl sebebi bulundu: kök öğenin yazı tipi **IBM Plex Mono**'ydu, yani menüsünden dosyasına kadar bütün oyun monospace okunuyordu. Roboto Slab ve Inter dün depoya girdiği hâlde gövde yazısı hâlâ mono'ya bağlıydı. Kök artık Inter; mono **yalnız** teknik metinde (`Technical`) kaldı: dosya numarası, tarih, saat, güven yüzdesi.
+
+**Logo diline yaklaşma.** Logo bir görseldir, font değil; ağır, sıkışık ahşap dizgi görünümündedir. Okunur akrabası olarak **Alfa Slab One** (OFL) eklendi ve yeni bir `Display` rolü oldu. Yalnız **28 punto ve üstünde** kullanılır; küçük başlıklar Roboto Slab'da kalır.
+
+**Kit §2 ile ilişkisi:** kit "logo fontunu normal UI metinlerinde kullanma" der, gerekçesi okunabilirliktir. Burada logo fontunun kendisi değil ağır slab akrabası kullanılıyor ve yalnız büyük puntoda — kuralın gerekçesi korunuyor. Küçük punto eşiği bu yüzden var ve testle kilitli.
+

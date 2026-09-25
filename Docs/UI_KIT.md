@@ -39,6 +39,7 @@ Değerler kit görselindeki etiketli sekiz kutudan okunmuştur. `UiKitTests.Pale
 | Rol | Yazı tipi |
 | --- | --- |
 | Logo | distressed slab — **yalnız marka görseli**, UI metninde kullanılmaz |
+| Büyük başlık (≥28) | Alfa Slab One — logonun ahşap dizgi dilinin okunur akrabası |
 | Başlık | Roboto Slab Bold |
 | Alt başlık | Roboto Slab Medium |
 | Gövde / düğme | Inter |
@@ -46,7 +47,11 @@ Değerler kit görselindeki etiketli sekiz kutudan okunmuştur. `UiKitTests.Pale
 
 Teknik metin = oyuncunun "kayıt" olarak okuduğu her şey: `DOSYA #001`, tarih/saat, `KURUM GÜVENİ`, sayfa sayacı, CCTV zaman damgası. Kod karşılığı `KarineUI.Technical(...)`.
 
-Roboto Slab (ExtraBold, Bold) ve Inter (Regular, SemiBold) **depoya kondu** — `Assets/Bube/Resources/Bube/Fonts/`, Git LFS. Roboto Slab Apache 2.0, Inter OFL; lisans metinleri aynı klasörde. Türkçe kapsamı denetlendi: ı İ ğ Ğ ş Ş ç ö ü â î û hepsi var. Roboto Slab'da ₺ yoktur, o yüzden metası IBM Plex Mono'ya yedeklenir. Doğrulayıcı artık dört dosyanın da varlığını **zorunlu** tutar.
+Alfa Slab One, Roboto Slab (ExtraBold, Bold) ve Inter (Regular, SemiBold) **depoya kondu** — `Assets/Bube/Resources/Bube/Fonts/`, Git LFS. Roboto Slab Apache 2.0, Inter OFL; lisans metinleri aynı klasörde. Türkçe kapsamı denetlendi: ı İ ğ Ğ ş Ş ç ö ü â î û hepsi var. Roboto Slab'da ₺ yoktur, o yüzden metası IBM Plex Mono'ya yedeklenir. Doğrulayıcı beş dosyanın da varlığını **zorunlu** tutar.
+
+**Gövde yazısı mono değildir.** Kök öğe uzun süre IBM Plex Mono'ya bağlıydı, yani bütün ekranlar monospace okunuyordu ve yazı kötü görünüyordu. Kök artık Inter; mono **yalnız** `Technical` ile gelir: dosya numarası, tarih, saat, güven yüzdesi, kayıt numarası.
+
+**Logo dili ve kit §2.** Kit "logo fontunu normal UI metinlerinde kullanma" der ve bunun gerekçesi okunabilirliktir. KARINE logosu zaten bir görseldir, font değil. Kullanıcı isteğiyle büyük başlıklar logonun ağır ahşap dizgi diline **yakın** bir yüz kullanıyor: Alfa Slab One, yalnız 28 punto ve üstünde (`KarineUI.DisplayFrom`). Küçük başlıklar Roboto Slab'da kalır, çünkü ahşap dizgi küçük puntoda okunmaz — kit'in okunabilirlik kuralı orada ağır basar. Test iki eşiği de kilitler.
 
 ## Düğme hiyerarşisi
 
