@@ -212,3 +212,15 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 **Görüşülmüş kişide düğme "GÖRÜŞMEYE DÖN" diyor.** Kart "● Görüşüldü" derken düğmenin "GÖRÜŞMEYE BAŞLA" demesi, yeni bir görüşme açılacağı izlenimi veriyordu. Yeni anahtar `interview.resume`. Düğme **devre dışı bırakılmadı**: oyuncu geçmişi okumak ya da sonradan açılan soruları sormak için dönebilmeli. Yeni soru kalmadığında görüşme ekranı zaten `interview.noNewInfo` gösteriyor — bu, oyuncuya sıradaki adımı söylemeden durumu bildiren doğru yer.
 
 **Dar eylem sütununda düğme metni sarıyor.** Kartın eylem sütunu %30 genişlikte; "İfade alınmasını iste" tek satıra sığmayıp kırpılıyordu. `FitActionButton` son düğmeyi sarmalı yapıyor ve yazı basamağını düşürüyor.
+
+## Kaynak seçici kişiye özgü oldu (25 Eylül 2026)
+
+**Sorun.** Bir kaynağı karşımızdaki kişiye gösterirken seçici, o kişi dışındaki *herkesin bütün görüşme dökümünü* ve bütün kamera olaylarını listeliyordu. Elif'in karşısında Mert'e sorduğumuz her soru görünüyordu; oysa Hasan'ın Mert hakkındaki bir ifadesinin Elif'e sorulmasının anlamı yok.
+
+**Çözüm.** `Question` ve `CctvEvent` artık `aboutPersonIds` taşıyor: o ifade/kayıt kimden söz ediyor. Seçici yalnız karşısındaki kişiyle ilgili kaynakları listeliyor. Dosya #001'de liste kişi başına 27–29 satırdan 9–13 satıra indi.
+
+**Bu bir doğruluk süzgeci değildir.** Her kişide hâlâ birden çok ilgili kaynak kalıyor; hangisinin belirleyici olduğunu oyuncu buluyor. Değişmeyen oynanış kuralı korunuyor.
+
+**Etiketsiz kaynak herkese açıktır.** Sinyal zayıflaması, kesinti ve kayıt boşluğu kimseden söz etmeyen olgulardır; etiketsiz bırakıldı ve herkese gösteriliyor. Eski/yeni vaka verisi etiketsizken de çalışır.
+
+**Yeni doğrulama kuralı.** Bir sorunun `presentedSourceIds` hedefi, soruyu soracağımız kişiyle etiketlenmemişse o kaynak listede hiç görünmez ve soru yanıtlanamaz olur — vaka çözülemez hale gelir. `CaseRules` bunu artık yakalıyor.

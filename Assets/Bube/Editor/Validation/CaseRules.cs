@@ -136,6 +136,16 @@ public static class CaseRules {
      source.kind == "interview" && !(source.questions ?? new Question[0]).Any(other => other.id == detail.Split('|')[0]) ||
      source.kind != "cctv" && source.kind != "interview",
      "Bilinmeyen görüşme kaynağı ayrıntısı: " + question.id + " → " + sourceRef);
+
+    // Kaynak seçici artık kaynakları `aboutPersonIds` ile süzüyor. Belirleyici bir
+    // kaynak karşımızdaki kişiyle etiketlenmemişse listede hiç görünmez ve soru
+    // yanıtlanamaz hale gelir — vaka çözülemez olur. Bu, göz kaçırmayı imkânsız
+    // kılan türden bir kontrol: etiketi eklemeyi unutan kişiyi burada yakalar.
+    var about = source.kind == "cctv"
+     ? (source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == detail)?.aboutPersonIds
+     : (source.questions ?? new Question[0]).FirstOrDefault(other => other.id == detail.Split('|')[0])?.aboutPersonIds;
+    report.Forbid(!Investigation.SourceConcerns(node, about),
+     "Belirleyici kaynak bu kişiye kapalı (aboutPersonIds eksik): " + question.id + " → " + sourceRef);
    }
 
    foreach (var response in question.presentedAnswers ?? new PresentedAnswer[0])

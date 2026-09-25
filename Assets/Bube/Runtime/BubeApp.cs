@@ -1990,6 +1990,7 @@ public sealed class BubeApp : MonoBehaviour {
    if(category==3) {
     foreach(var record in item.cctvEvents ?? new CctvEvent[0]) {
      var eventItem=record;var reference=item.id+"#"+eventItem.id;
+     if(!Investigation.SourceConcerns(node,eventItem.aboutPersonIds))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
      var full=T(item.titleKey)+" · "+T(eventItem.textKey);
      Button(questions,ShortInterviewSourceLabel(full),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
@@ -1999,6 +2000,7 @@ public sealed class BubeApp : MonoBehaviour {
    } else if(category==2) {
     foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
      var answer=turn;var reference=game.InterviewTurnReference(answer);
+     if(!Investigation.SourceConcerns(node,game.FindQuestion(item,answer.questionId)?.aboutPersonIds))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
      var full=T(item.personNameKey)+" · "+T(answer.promptKey)+" · "+T(answer.answerKey);
      Button(questions,ShortInterviewSourceLabel(T(item.personNameKey)+" · "+T(answer.promptKey)),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
