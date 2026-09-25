@@ -429,14 +429,10 @@ public sealed class BubeApp : MonoBehaviour {
 
   KarineLogo.Hero(left,520);
   var tagline=Text(left,T("menu.tagline"),new Color(.74f,.70f,.60f),15);
-  tagline.style.letterSpacing=4;tagline.style.marginTop=2;tagline.style.marginBottom=16;
-
-  var term=Text(left,T("menu.definitionTerm"),Ink,15);term.style.marginBottom=2;
-  var definition=Text(left,T("menu.definitionBody"),new Color(.70f,.67f,.58f),15);
-  definition.style.marginBottom=14;
+  tagline.style.letterSpacing=4;tagline.style.marginTop=0;tagline.style.marginBottom=14;
 
   MenuRule(left);
-  var menu=new VisualElement();menu.style.marginTop=10;menu.style.marginBottom=10;left.Add(menu);
+  var menu=new VisualElement();menu.style.marginTop=8;menu.style.marginBottom=0;left.Add(menu);
   if(game.State.caseAccepted) {
    MenuRow(menu,"▣",T("menu.row.continue"),Desk,true);
    MenuRow(menu,"▤",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
@@ -447,12 +443,18 @@ public sealed class BubeApp : MonoBehaviour {
   MenuRow(menu,"▥",T("menu.row.career"),StatisticsPage,false);
   MenuRow(menu,"◀",T("menu.row.quit"),QuitGame,false);
 
-  var spacer=new VisualElement();spacer.style.flexGrow=1;left.Add(spacer);
-  MenuRule(left);
-  var studio=Text(left,"bubeGames",Ink,18);studio.style.marginTop=8;studio.style.marginBottom=1;
+  // Stüdyo bloğu sol sütundan çıktı: menünün altına sığmıyor ve son satırla
+  // çakışıyordu. Videonun sağ alt köşesi zaten karanlık, oraya oturuyor.
+  var studioBlock=new VisualElement();
+  studioBlock.style.position=Position.Absolute;
+  studioBlock.style.right=Length.Percent(4);studioBlock.style.bottom=Length.Percent(5);
+  studioBlock.style.alignItems=Align.FlexEnd;
+  root.Add(studioBlock);
+  var studio=Text(studioBlock,"bubeGames",Ink,18);studio.style.marginBottom=1;
   if(fonts!=null && fonts.Heading!=null)studio.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
-  Text(left,"powered by bubeDigital",new Color(.62f,.59f,.52f),13).style.marginBottom=0;
+  Text(studioBlock,"powered by bubeDigital",new Color(.62f,.59f,.52f),13).style.marginBottom=0;
   FadeIn(left);
+  FadeIn(studioBlock);
  }
 
  void MenuRule(VisualElement parent) {
@@ -468,8 +470,8 @@ public sealed class BubeApp : MonoBehaviour {
   var row=new Button(open);
   row.style.flexDirection=FlexDirection.Row;
   row.style.alignItems=Align.Center;
-  row.style.minHeight=52;
-  row.style.marginBottom=4;row.style.marginLeft=0;row.style.marginRight=0;
+  row.style.minHeight=MinimumTouchTarget;
+  row.style.marginTop=0;row.style.marginBottom=2;row.style.marginLeft=0;row.style.marginRight=0;
   row.style.paddingLeft=10;row.style.paddingRight=12;
   row.style.width=330;
   row.style.borderTopWidth=0;row.style.borderBottomWidth=0;
@@ -489,6 +491,7 @@ public sealed class BubeApp : MonoBehaviour {
   text.style.fontSize=Typography.Snap(17);
   text.style.letterSpacing=2;
   text.style.flexGrow=1;
+  text.style.unityTextAlign=TextAnchor.MiddleLeft;
   if(fonts!=null && fonts.Body!=null)text.style.unityFontDefinition=FontDefinition.FromFont(fonts.Body);
   row.Add(text);
 

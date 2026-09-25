@@ -102,7 +102,6 @@ public sealed class BootSmokeTests {
   var labels = root.Query<Label>().ToList().Select(label => label.text).Where(text => !string.IsNullOrEmpty(text)).ToList();
 
   CollectionAssert.Contains(labels, "A DETECTIVE INVESTIGATION GAME", "Marka alt basligi yok.");
-  CollectionAssert.Contains(labels, "karine (n.)", "Sozluk tanimi yok.");
   CollectionAssert.Contains(labels, "bubeGames");
   CollectionAssert.Contains(labels, "powered by bubeDigital");
   foreach (var row in new[] { "YENI KARIYER", "AYARLAR", "KARIYER", "CIKIS" })
