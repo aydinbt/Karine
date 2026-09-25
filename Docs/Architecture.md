@@ -191,7 +191,7 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 | `ui_stamp` | mühürün lastiği: tok, tek, kesin | ADPCM |
 | `ui_notification` | faksın küçük zili: anharmonik kısmiler + mekanizma tıkı | ADPCM |
 | `menu_theme` | 32 s neo-noir döngü, Am–F–Dm–E | Vorbis, akış |
-| `ui_key` `ui_key_low` | klavye tuşu: gövde vuruşu + plastik tık, iki varyant | ADPCM |
+| `ui_chat` `ui_chat_low` | sohbet blibi: yumuşak sinüs + küçük çıngırak, iki varyant | ADPCM |
 | `room_office` | 24 s döngü: kapalı bir odanın sıcak havası | Vorbis, akış |
 | `room_interview` | 24 s döngü: aynısı ama daha kapalı, üst frekans yok | Vorbis, akış |
 
@@ -203,9 +203,9 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 
 - `ui_press` her kit düğmesi (`KarineUI.Sounded`ın varsayılanı).
 - `ui_typewriter` yalnız faks basılırken (`FaxPage`'in değerlendirme satırı). Arayüz düğmelerinde hiç yoktu.
-- `AudioDirector.Keys` (iki tuş varyantı) görüşmede karşıdakinin cümlesi yazılırken, beş karakterde bir, karışık sırayla ve alçak (0,55 kazanç).
+- `AudioDirector.Chat` (iki blip varyantı) görüşmede karşıdakinin cümlesi belirirken, beş karakterde bir, karışık sırayla ve alçak (0,55 kazanç).
 
-**Konuşma sesi neden konuşma değil klavye.** İki sürüm denendi, ikisi de kullanıcı kulağında düştü: sinüs yığını sentezleyici gibi, formant sentezi (gırtlak kaynağı + üç formant) ise insan sesi **taklidi** gibi duyuldu — taklit, kaydın kendisi olmadıkça tekinsiz kalıyor. Ses artık konuşmayı taklit etmiyor: duyulan şey ifadenin kayda geçirilmesi, yani tuşlar. Bu hem dürüst (oyun yazıyla konuşuyor) hem dayanıklı — yeni vakaların yeni kişileri için ses verisi gerekmiyor. Daktilo değil klavye: çelik kol ve çınlama yok, çünkü daktilo faksın sesidir ve iki yüzey karışmamalı. Kişi başına perde türetmek de kalktı; tuş, karşıdakinin sesi değil.
+**Konuşma sesi neden bir blip.** Üç sürüm denendi ve üçü de kullanıcı kulağında düştü: sinüs yığını sentezleyici, formant sentezi insan sesi **taklidi**, klavye tuşu ise gürültülü ve yorucu duyuldu. Ortak hata taklitti — taklit, kaydın kendisi olmadıkça tekinsiz kalıyor, üstelik oyun yazıyla konuşuyor. Dördüncü sürüm hiçbir şeyi taklit etmiyor: yumuşak bir blip yalnızca "yeni bir satır geldi" diyor. Bu hem dürüst hem dayanıklı — yeni vakaların yeni kişileri için ses verisi gerekmiyor. Kişi başına perde türetmek de kalktı (`VoicePitch`); blip, karşıdakinin sesi değil.
 
 - `ui_stamp` mühür, `ui_notification` gelen evrak.
 

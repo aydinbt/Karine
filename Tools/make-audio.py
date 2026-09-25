@@ -271,39 +271,39 @@ def room_interview():
   out[i] = deep[i] * 0.58 + close[i] * 0.11 * breath
  return normalize(steady_reverb(out, mix=0.16, room=0.74, damp=0.30), 0.22)
 
-# --- ifadenin yazılma sesi ----------------------------------------------------
+# --- ifadenin belirme sesi ----------------------------------------------------
 
-def key(thud=170.0, click=2100.0, dur=0.085, seed=71, level=0.26):
- """Klavye tuşu. Daktilo değil: çelik kol yok, çınlama yok. Üç katman —
- tuşun tabana **vurması** (alçak, kısa gövde), plastiğin kuru tıkı (bantlı
- gürültü) ve tuşun altındaki yayın çok kısa nefesi. Bilerek sönük: cümle
- yazılırken düzinelerce kez duyulacak, dikkat isteyen bir ses burada
- yorgunluk yapar."""
+def blip(freq=660.0, dur=0.11, seed=71, level=0.22, bell=2.01, air=0.05):
+ """Sohbet blibi. Konuşmayı taklit etmeye çalışan her ses (sesli harf,
+ formant, klavye) kulakta düştü; bu ses hiçbir şeyi taklit etmiyor, yalnızca
+ "yeni bir satır geldi" diyor. Yapısı bilerek basit: yumuşak bir sinüs, üstüne
+ küçük bir çıngırak kısmisi (1:2,01 — tam oktav değil, yoksa organ gibi
+ durur), rampalı bir açılış, kısa bir sönme ve çok az hava. Bir cümle boyunca
+ düzinelerce kez çalacak: dikkat isteyen bir ses burada yorgunluk yapar, o
+ yüzden tepe 0,22'de kalıyor."""
  out = buf(dur)
  n = len(out)
- # Gövde: tuşun tabana vuruşu
- body = buf(dur)
- sine(body, thud, 1.0, dur, env=lambda t: math.exp(-38 * t))
- sine(body, thud * 1.94, 0.35, dur, env=lambda t: math.exp(-60 * t))
- # Tık: plastik, kısa ve bantlı — parlak uç yok
- tick = noise(dur, seed)
- bandpass(tick, click, 1.1); lowpass(tick, 3400, poles=2)
- # Yay: tuşun geri dönüşü, neredeyse duyulmaz
- spring = noise(dur, seed + 1)
- bandpass(spring, 900, 2.0)
+ # Gövde: yumuşak sinüs, hafif düşen perde (yükselen perde "hata" gibi duyulur)
+ tone = buf(dur)
+ sine(tone, freq,        1.00, dur, env=lambda t: math.exp(-16 * t))
+ sine(tone, freq * bell, 0.22, dur, env=lambda t: math.exp(-26 * t))
+ sine(tone, freq * 0.5,  0.14, dur, env=lambda t: math.exp(-12 * t))
+ # Hava: sesin plastik durmaması için, tek başına duyulmayacak kadar az
+ breath = noise(dur, seed)
+ bandpass(breath, freq * 2.4, 1.0)
  for i in range(n):
   t = i / n
-  out[i] = (body[i] * 0.62
-            + tick[i] * 0.30 * math.exp(-95 * t)
-            + spring[i] * 0.08 * math.exp(-28 * t) * min(1.0, t / 0.25))
- lowpass(out, 4200)
- reverb(out, mix=0.06, room=0.45)
- return normalize(fade(out, 0.004, 0.06), level)
+  attack = min(1.0, t / 0.10)          # tık yok: açılış rampalı
+  out[i] = tone[i] * attack + breath[i] * air * math.exp(-40 * t)
+ lowpass(out, 5200)
+ reverb(out, mix=0.09, room=0.52)
+ return normalize(fade(out, 0.005, 0.10), level)
 
-# İki varyant: aynı klavye, farklı tuş. Karışık çalınır, yoksa tekrar eden tek
-# klip konuşma değil mors sinyali gibi duyulur.
-def ui_key():     return key(thud=178.0, click=2200.0, dur=0.085, seed=71, level=0.26)
-def ui_key_low(): return key(thud=148.0, click=1750.0, dur=0.095, seed=73, level=0.24)
+# İki varyant: aynı blip, bir tam ses aralık. Karışık çalınır, yoksa tekrar
+# eden tek klip konuşma değil mors sinyali gibi duyulur. Alçak olan biraz daha
+# uzun sönüyor, böylece ikisi aynı sesin iki vuruşu gibi durmuyor.
+def ui_chat():     return blip(freq=684.0, dur=0.110, seed=71, level=0.22)
+def ui_chat_low(): return blip(freq=609.0, dur=0.125, seed=73, level=0.20)
 
 # --- ana menü müziği ---------------------------------------------------------
 
@@ -376,8 +376,8 @@ SOUNDS = [
  ("ui_typewriter",   ui_typewriter),
  ("ui_stamp",        ui_stamp),
  ("ui_notification", ui_notification),
- ("ui_key",          ui_key),
- ("ui_key_low",      ui_key_low),
+ ("ui_chat",         ui_chat),
+ ("ui_chat_low",     ui_chat_low),
  ("room_office",     room_office),
  ("room_interview",  room_interview),
  ("menu_theme",      menu_theme),

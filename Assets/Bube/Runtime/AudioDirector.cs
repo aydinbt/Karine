@@ -21,10 +21,10 @@ public sealed class AudioDirector : MonoBehaviour {
  public const string Typewriter   = "ui_typewriter";
  public const string Stamp        = "ui_stamp";
  public const string Notification = "ui_notification";
-// Görüşmede cümle **yazılırken** duyulan tuş sesi: konuşmanın taklidi değil,
- // ifadenin kayda geçirilmesi. İki varyant, çünkü tek klip tekrar ederse
- // konuşma değil sinyal olur.
- public static readonly string[] Keys = { "ui_key", "ui_key_low" };
+// Görüşmede cümle belirirken duyulan blip: hiçbir şeyin taklidi değil,
+ // yalnızca "yeni bir satır geldi". İki varyant, çünkü tek klip tekrar
+ // ederse konuşma değil sinyal olur.
+ public static readonly string[] Chat = { "ui_chat", "ui_chat_low" };
 
  AudioSource music, ambience, effects;
  readonly Dictionary<string, AudioClip> cache = new Dictionary<string, AudioClip>();

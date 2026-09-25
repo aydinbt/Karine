@@ -586,3 +586,13 @@ Sekiz klip yer tutucu değil; her biri bir karar. Referans dünya 90'lar sonu bi
 **Konuşma taklidi bırakıldı.** İki sürüm denendi — sinüs yığını sentezleyici, formant sentezi ise insan sesi taklidi gibi duyuldu. Taklit, kaydın kendisi olmadıkça tekinsiz kalıyor; oyun da yazıyla konuşuyor, sesle değil. **Artık görüşmede duyulan şey konuşma değil, ifadenin kayda geçirilmesi:** klavye tuşu (`ui_key` / `ui_key_low`, karışık ve alçak, 0,55 kazanç). Daktilo değil klavye — çelik kol ve çınlama yok, çünkü daktilo faksın sesidir ve iki yüzey karışmamalı.
 
 Bunun bir yan sonucu var ve iyi bir sonuç: `VoicePitch` de kalktı. Tuş karşıdakinin sesi olmadığı için kişi başına perde anlamsızdı; yeni vakaların yeni kişileri artık ses tarafında hiçbir veri istemiyor. Dokuz klip, 0 bulgu, 98 EditMode + 7 PlayMode yeşil. **Yine kulakla dinlenmedi.**
+
+## Dördüncü sürüm: taklit yok, blip (25 Eylül 2026, aynı gün)
+
+**Kullanıcı:** "chat sesi yap, tuş sesi de iyi değil."
+
+Görüşmedeki satır sesinin dördüncü sürümü. Üçü de düştü ve düşme sebepleri aynı yere çıkıyor: **sinüs yığını** sentezleyici gibiydi, **formant sentezi** insan sesi taklidi gibiydi, **klavye tuşu** gürültülü ve yorucuydu. Ortak hata taklit etmeye çalışmaktı — taklit, kaydın kendisi olmadıkça tekinsiz kalıyor, üstelik Karine yazıyla konuşuyor, sesle değil.
+
+Bu yüzden yeni ses hiçbir şeyi taklit etmiyor: `ui_chat` / `ui_chat_low`, yumuşak bir sinüs ve üstünde küçük bir çıngırak kısmisi (1:2,01 — tam oktav değil, yoksa organ gibi durur), rampalı açılış (tık yok), kısa sönme, çok az hava. İki varyant karışık çalıyor; alçak olan biraz daha uzun sönüyor, böylece ikisi aynı sesin iki vuruşu gibi durmuyor. Tepe 0,22: bir cümle boyunca düzinelerce kez duyulacak bir ses dikkat isterse yorgunluk yapar.
+
+Kural olarak not: **bir sesin gerekçesi ne kadar sağlam olursa olsun, ölçüt kulaktır.** Kâğıt sesi de böyle gitti. Dokuz klip, 0 bulgu, 98 EditMode + 7 PlayMode yeşil. **Yine kulakla dinlenmedi.**

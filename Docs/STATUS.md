@@ -16,7 +16,7 @@
 Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[~]`, hiçbiri Play Mode'da görülmedi:
 
 - **Vaka eklemek koddan koptu:** yeni vaka = `caseXXX.json` + `tr.caseXXX.json` + varlıklar. Portre tonları veride, doğrulayıcı vakaya özel C# istemiyor.
-- **Ses sistemi kurulu ve dokuz klip depoda.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede klavye tuşu (konuşma taklidi yok), ana menü müziği (32 s döngü) ve iki oda ortamı (24 s döngü, bilerek neredeyse sessiz). Doğrulayıcı dokuzunun varlığını kilitliyor. **Duyulmadı** — kulakla sınamak sana ait.
+- **Ses sistemi kurulu ve dokuz klip depoda.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede yumuşak bir sohbet blibi (konuşma taklidi yok), ana menü müziği (32 s döngü) ve iki oda ortamı (24 s döngü, bilerek neredeyse sessiz). Doğrulayıcı dokuzunun varlığını kilitliyor. **Duyulmadı** — kulakla sınamak sana ait.
 - **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 

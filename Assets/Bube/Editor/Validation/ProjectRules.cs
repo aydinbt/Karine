@@ -32,7 +32,7 @@ public static class ProjectRules {
   AudioDirector.Press, AudioDirector.Typewriter,
   AudioDirector.Stamp, AudioDirector.Notification,
   "menu_theme", "room_office", "room_interview",
- }.Concat(AudioDirector.Keys).ToArray();
+ }.Concat(AudioDirector.Chat).ToArray();
 
  // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 8'e indi.
  // Kalan sekiz renk oyun **sanatıdır**, arayüz paleti değil: piksel portrenin göz
