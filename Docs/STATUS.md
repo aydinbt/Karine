@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı, kapatıldı ve kullanıcı tarafından doğrulandı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3).
+**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı, kapatıldı ve kullanıcı tarafından doğrulandı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3) ve kullanıcının elinde telefon olmadığı için bu adım **ertelendi** (26 Eylül 2026). Faz 2 açık kalıyor; iş Faz 3'ten (Dosya #002) devam ediyor.
 
 ## Dosya #001 hakkında (25 Eylül 2026 kullanıcı kararı)
 
@@ -71,7 +71,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[
 ## Açık kritik maddeler
 
 1. **Terminal ekranındaki arma yaması görünüyor** — armanın yeri tek düz renkle dolduruldu, ekranın gradyanından ayrılıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcı kararıyla sonraya bırakıldı. Kurum adı ve terminal arması hem masa görselinden hem videodan temizlendi; dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
-1. ~~**Dosya #001 hiç baştan sona oynanmadı.**~~ **Oynandı (kullanıcı, 25 Eylül 2026), sorun çıkmadı.** Kalan darboğaz **cihaz**: oyun hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3) — M1/M2'nin bitiş ölçütleri artık buna bağlı. **Asıl darboğaz budur.**
+1. ~~**Dosya #001 hiç baştan sona oynanmadı.**~~ **Oynandı (kullanıcı, 25 Eylül 2026), sorun çıkmadı.** **Cihaz doğrulaması ertelendi (26 Eylül 2026):** elde Android telefon yok. M1/M2 bu yüzden kapanmıyor ve masaüstü oynanışı cihaz ölçütünün yerine **geçmez**. Emülatör/Device Simulator seçenekleri açık, kullanıcı şimdilik ertelemeyi seçti.
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. ~~**Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor.~~ **Kodlandı, cihazda denenmedi `[~]`** — eski kayıt yükseltilir, gelecekten gelen kayıt silinmeyip yana kaldırılır ve oyuncuya söylenir.
 4. ~~**Performans:** `Update()` her karede tam vaka JSON'u ayrıştırıyor; `Locale.Get` doğrusal arama yapıyor.~~ **Kodlandı (Faz 2), Play Mode'da gözlenmedi `[~]`** — beş düzeltme: görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`.
@@ -92,4 +92,4 @@ Ayrıntı ve gerekçeler: [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md), işaretl
 
 ## Sıradaki iş
 
-[PLAYTEST_001.md](PLAYTEST_001.md) §3'ü koş: oyunu bir Android telefonda oyna (§2 ve §4 masaüstünde yapıldı). Betikteki otomatikleşmiş satırlar işaretli; kalanlar gözle doğrulanacak şeyler — video, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik. Bunlar doldurulunca M1/M2 kapanabilir.
+Cihaz adımı ertelendiği için sıra **Faz 3 — Dosya #002**: vaka bugün `draft`, 7 kaynak ve 12 soru ile duruyor (Dosya #001'de 9 kaynak, 30 soru). Yapılacaklar: soruşturma dokusunu #001 seviyesine çıkarmak, `draft` kalkınca #001 → #002 geçişini ve faks zamanlamasını doğrulamak, `CASE_AUTHORING.md` yazmak. Cihaz adımı telefon bulunduğunda [PLAYTEST_001.md](PLAYTEST_001.md) §3 ile koşulur. Betikteki otomatikleşmiş satırlar işaretli; kalanlar gözle doğrulanacak şeyler — video, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik. Bunlar doldurulunca M1/M2 kapanabilir.

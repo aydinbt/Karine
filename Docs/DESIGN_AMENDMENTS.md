@@ -618,3 +618,11 @@ Kullanıcı Dosya #001'i baştan kapanışa kadar oynadı, içerikte sorun çık
 **Bir gün önce koyduğum sekme şeridi geri alındı** ve gerekçesi kayda değer: beş hücre tek satıra sığmıyor, üstelik ayarların geri kalanı (metin hızı) radyo — aynı soru ekranda iki farklı biçimde sorulmamalı.
 
 Kademe değeri artık **doğrudan yüzde** (`Off = 0 … Full = 100`), kazanç ondan türüyor. Böylece kayıtta duran sayı okunduğunda ne olduğu belli ve yeni bir kademe eklemek eski kaydı bozmuyor. Eski üç kademeli kayıt okunurken çevriliyor (1 → %50, 2 → tam), yani hiç kimsenin ses ayarı göç yüzünden sıfırlanmıyor — bunun kendi testi var. Varsayılan: müzik %50, efektler tam.
+
+## Cihaz adımı ertelendi (26 Eylül 2026)
+
+**Kullanıcı:** telefonda oynayamıyor — elde Android cihaz yok.
+
+Bu makinede iki ikame sunuldu (Unity'nin kendi Android SDK'sındaki `adb` üstüne emülatör + ARM64 sistem imajı; ya da Unity Device Simulator paketi) ve bir de ölçülebilir kısmı kapatan otomatik çözünürlük/dokunma hedefi testleri. Kullanıcı **ertelemeyi** seçti.
+
+**Karar:** Faz 2 kapanmıyor ve masaüstü oynanışı cihaz ölçütünün yerine geçmiyor. `[x]` işaretleri yalnız gerçekten gözlenen davranış için; "emülatörde çalıştı" ile "telefonda çalıştı" aynı cümlede yazılmaz. İş Faz 3'ten (Dosya #002) devam ediyor, cihaz adımı telefon bulunduğunda koşulacak. Bu, bilinen ve kabul edilmiş bir açık maddedir — unutulmuş bir eksik değil.

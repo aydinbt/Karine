@@ -66,10 +66,10 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 - [x] **Masaya varış sinematiği, vaka teklifi ve masa yerleşimi Play Mode'da gözlendi** (25 Eylül 2026): video oynuyor, "Geç" düğmesi filigranın üstüne oturuyor, masa karanlıktan açılıyor, kabul edilmemiş vakada masada yalnız gelen evrak tepsisi açık. Bu **uçtan uca oynanış değildir** — aşağıdaki madde hâlâ açık.
 - [x] **Elle uçtan uca oynanış (kullanıcı, 25 Eylül 2026):** Dosya #001 baştan kapanışa kadar oynandı, içerikte sorun çıkmadı; çıkan dört bulgu ses ve ayarlar tarafındaydı ve kapatıldı. Betik → [PLAYTEST_001.md](PLAYTEST_001.md). yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
 - [ ] **Ters sıra ve çıkmaz avı:** her ekrandan masaya dönüş, yanlış kaynak sunma, yarıda bırakıp çıkma, uygulamayı kapatıp açma.
-- [ ] **Gerçek cihaz:** bir Android telefon yeter. 16:9 / 19.5:9 / 20:9, güvenli alan, 48 birim dokunma hedefleri, Türkçe karakterler, klavye, arka plana alma.
+- [ ] **Gerçek cihaz — ertelendi (kullanıcı kararı, 26 Eylül 2026):** elde Android telefon yok, bu yüzden adım telefon bulunana kadar bekliyor. Bu makinede emülatör ya da Unity Device Simulator kurma seçenekleri sunuldu, kullanıcı **ertelemeyi** seçti. Faz 2 bu yüzden **kapanmıyor**; Faz 3 paralel yürür. Telefon geldiğinde: 16:9 / 19.5:9 / 20:9, güvenli alan, 48 birim dokunma hedefleri, Türkçe karakterler, klavye, arka plana alma.
 - [ ] Doğrulanan her ROADMAP satırı `[~]` → `[x]`.
 
-**Bitiş ölçütü:** Bir telefonda, baştan sona, kayıt kaybetmeden, okunabilir şekilde oynanan bir Dosya #001 kaydı (video veya ekran görüntüsü serisi).
+**Bitiş ölçütü:** Bir telefonda, baştan sona, kayıt kaybetmeden, okunabilir şekilde oynanan bir Dosya #001 kaydı (video veya ekran görüntüsü serisi). **Bugün karşılanamıyor** (cihaz yok); masaüstü oynanışı ve otomatik testler bu ölçütün yerine geçmez ve geçmiş sayılmaz.
 
 **Kim ne yapıyor:** mantık otomatik testlerle kapatıldı (`Tools/run-tests.sh`, PlayMode dahil). **Kalan iş gözle doğrulama:** video, düzen, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik ve oyunun bir insan tarafından bir kez baştan sona oynanması. Otomatik test mantığın tutarlı olduğunu söyler, oyunun iyi olduğunu söylemez.
 
