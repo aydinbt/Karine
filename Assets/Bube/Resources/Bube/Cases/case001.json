@@ -23,7 +23,8 @@
         }
       ],
       "imageResource": "Bube/Case001Building",
-      "imageCaptionKey": "file.imageCaption"
+      "imageCaptionKey": "file.imageCaption",
+      "notPresentable": true
     },
     {
       "id": "mert",
@@ -323,14 +324,16 @@
           "glitchKey": "cctv.glitch.weak",
           "delayMs": 1050,
           "signalKey": "cctv.signal.weak",
-          "id": "weak"
+          "id": "weak",
+          "notPresentable": true
         },
         {
           "textKey": "cctv.event.lost",
           "glitchKey": "cctv.glitch.lost",
           "delayMs": 900,
           "signalKey": "cctv.signal.lost",
-          "id": "lost"
+          "id": "lost",
+          "notPresentable": true
         },
         {
           "textKey": "cctv.event.gap",
@@ -341,7 +344,8 @@
           "textKey": "cctv.event.restored",
           "delayMs": 700,
           "signalKey": "cctv.signal.restored",
-          "id": "restored"
+          "id": "restored",
+          "notPresentable": true
         },
         {
           "textKey": "cctv.event.mert_in",
@@ -588,10 +592,6 @@
             {
               "sourceId": "camera#elif_out",
               "answerKey": "hasan_follow.gap.decoy.elifOut"
-            },
-            {
-              "sourceId": "camera#lost",
-              "answerKey": "hasan_follow.gap.decoy.lost"
             },
             {
               "sourceId": "recovery",

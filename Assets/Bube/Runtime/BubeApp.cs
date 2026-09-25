@@ -47,7 +47,7 @@ public sealed class BubeApp : MonoBehaviour {
  bool showingInterviewList;
  string selectedInterviewTopic, selectedInterviewNodeId;
  bool showingInterviewHistory;
- string interviewSourceQuery="", interviewSourceQuestionId;
+ string interviewSourceQuestionId;
  int interviewSourceFilter;
  bool showingInvestigationRequests;
  int lastPendingCount=-1;
@@ -1872,7 +1872,11 @@ public sealed class BubeApp : MonoBehaviour {
   var turns=game.State.interviewTurns.Where(turn=>turn.nodeId==node.id).ToArray();
   if(turns.Length==0)showingInterviewHistory=false;
   VisualElement historyTabs=null;
-  if(turns.Length>0){historyTabs=new VisualElement();historyTabs.style.flexDirection=FlexDirection.Row;questionArea.Add(historyTabs);}
+  if(turns.Length>0) {
+   historyTabs=new VisualElement();historyTabs.style.flexDirection=FlexDirection.Row;
+   historyTabs.style.flexShrink=0;historyTabs.style.minHeight=MinimumTouchTarget+4;
+   questionArea.Add(historyTabs);
+  }
   var questions=new ScrollView();questions.style.flexGrow=1;questions.style.minHeight=0;
   questionArea.Add(questions);
   if(phase==0) {
@@ -1961,7 +1965,7 @@ public sealed class BubeApp : MonoBehaviour {
  }
  void InterviewSourcePicker(ScrollView questions,Node node,Question active,string sourceId,VisualElement referenceCard) {
   if(interviewSourceQuestionId!=node.id+"/"+active.id) {
-   interviewSourceQuestionId=node.id+"/"+active.id;interviewSourceQuery="";interviewSourceFilter=0;
+   interviewSourceQuestionId=node.id+"/"+active.id;interviewSourceFilter=0;
   }
   Text(questions,T("interview.chooseSource"),Gold,16);
   if(!string.IsNullOrEmpty(sourceId)) {
@@ -1985,8 +1989,11 @@ public sealed class BubeApp : MonoBehaviour {
    present.style.minHeight=MinimumTouchTarget;
   }
   var controls=new VisualElement();questions.Add(controls);
-  var sources=ComparisonSources().Where(n=>n.kind!="interview" || n.personId!=node.personId).ToArray();
-  var rows=new List<VisualElement>();var categories=new List<int>();var searchable=new List<string>();
+  // Sonuç ekranında her kaynak gösterilebilir, ama görüşmede öne sürülmesi
+  // anlamsız olanlar (vakanın kendi raporu, sinyal telemetrisi) listeyi
+  // kalabalıklaştırmaktan başka bir iş görmüyordu.
+  var sources=ComparisonSources().Where(n=>(n.kind!="interview" || n.personId!=node.personId) && !n.notPresentable).ToArray();
+  var rows=new List<VisualElement>();var categories=new List<int>();
   int[] categoryCounts=new int[4];
   foreach(var source in sources) {
    var item=source;
@@ -1994,49 +2001,40 @@ public sealed class BubeApp : MonoBehaviour {
    if(category==3) {
     foreach(var record in item.cctvEvents ?? new CctvEvent[0]) {
      var eventItem=record;var reference=item.id+"#"+eventItem.id;
+     if(eventItem.notPresentable)continue;
      if(!Investigation.SourceConcerns(node,eventItem.aboutPersonIds))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
-     var full=T(item.titleKey)+" · "+T(eventItem.textKey);
-     Button(questions,ShortInterviewSourceLabel(full),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
+     Button(questions,ShortInterviewSourceLabel(T(item.titleKey)+" · "+T(eventItem.textKey)),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
      var row=questions.Children().Last();
-     rows.Add(row);categories.Add(category);searchable.Add(full);categoryCounts[category]++;
+     rows.Add(row);categories.Add(category);categoryCounts[category]++;
     }
    } else if(category==2) {
     foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
      var answer=turn;var reference=game.InterviewTurnReference(answer);
      if(!Investigation.SourceConcerns(node,game.FindQuestion(item,answer.questionId)?.aboutPersonIds))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
-     var full=T(item.personNameKey)+" · "+T(answer.promptKey)+" · "+T(answer.answerKey);
      Button(questions,ShortInterviewSourceLabel(T(item.personNameKey)+" · "+T(answer.promptKey)),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
      var row=questions.Children().Last();
-     rows.Add(row);categories.Add(category);searchable.Add(full);categoryCounts[category]++;
+     rows.Add(row);categories.Add(category);categoryCounts[category]++;
     }
    } else if(!game.SourceAlreadyPresented(node,active,item.id)) {
-    var full=T(item.titleKey)+" · "+T(item.bodyKey);
-    if(item.fileMeta!=null)foreach(var field in item.fileMeta)full+=" · "+T(field.labelKey)+" "+T(field.valueKey);
     Button(questions,ShortInterviewSourceLabel(T(item.titleKey)),()=>InterviewPage(node,active,1,null,item.id),item.id==sourceId);
     var row=questions.Children().Last();
-    rows.Add(row);categories.Add(category);searchable.Add(full);categoryCounts[category]++;
+    rows.Add(row);categories.Add(category);categoryCounts[category]++;
    }
   }
   if(rows.Count==0) {Text(questions,T("interview.noSource"),Muted,15);return;}
-  var searchRow=new VisualElement();searchRow.style.flexDirection=FlexDirection.Row;searchRow.style.alignItems=Align.Center;controls.Add(searchRow);
-  var search=new TextField(){label=T("conclude.search"),value=interviewSourceQuery};
-  search.style.flexGrow=1;search.style.minWidth=0;search.style.height=MinimumTouchTarget;search.style.fontSize=Typography.Snap(18);
-  search.style.backgroundColor=new Color(.09f,.13f,.14f);search.style.color=Ink;searchRow.Add(search);
-  var clear=new Button(()=>search.value=""){text="×"};clear.style.width=MinimumTouchTarget;clear.style.height=MinimumTouchTarget;
-  clear.style.marginLeft=5;clear.style.fontSize=Typography.Snap(24);clear.style.color=Ink;clear.style.backgroundColor=new Color(.14f,.20f,.20f);searchRow.Add(clear);
-  var tabs=new VisualElement();tabs.style.marginTop=5;controls.Add(tabs);
+  // Telefonda arama alanı yoktu sayılır: klavye ekranın yarısını kaplıyor, liste
+  // zaten kişiye göre süzülüp 9-10 satıra indi. Yerine tür sekmeleri kalıyor.
+  var tabs=new VisualElement();controls.Add(tabs);
   var count=Text(controls,"",Muted,13);
   var empty=Text(questions,T("conclude.noMatches"),Muted,15);empty.style.display=DisplayStyle.None;
   string[] labels={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
-  var tabButtons=new List<Button>();var turkish=CultureInfo.GetCultureInfo("tr-TR");
-  Func<string,string> normalize=value=>(value??"").ToLower(turkish).Replace(':','.');
+  var tabButtons=new List<Button>();
   Action update=()=>{
-   interviewSourceQuery=search.value;
-   var query=normalize(interviewSourceQuery).Trim();int visible=0;
+   int visible=0;
    for(int i=0;i<rows.Count;i++) {
-    bool show=(interviewSourceFilter==0 || interviewSourceFilter==categories[i]) && (query.Length==0 || normalize(searchable[i]).Contains(query));
+    bool show=interviewSourceFilter==0 || interviewSourceFilter==categories[i];
     rows[i].style.display=show?DisplayStyle.Flex:DisplayStyle.None;if(show)visible++;
    }
    count.text=visible+" "+T("conclude.sourceCount");
@@ -2053,7 +2051,7 @@ public sealed class BubeApp : MonoBehaviour {
    tabRow.Add(tab);tabButtons.Add(tab);
   }
   foreach(var row in rows) {row.style.minHeight=MinimumTouchTarget;row.style.whiteSpace=WhiteSpace.Normal;row.style.fontSize=Typography.Snap(15);}
-  search.RegisterValueChangedCallback(evt=>update());update();
+  update();
  }
  VisualElement InterviewReferenceCard(string sourceId) {
   int separator=sourceId.IndexOf('#');

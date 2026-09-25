@@ -126,6 +126,9 @@ public static class CaseRules {
    report.Forbid(!string.IsNullOrEmpty(question.presentedSourceId) && !data.nodes.Any(x =>
      x.id == question.presentedSourceId && (x.kind == "document" || x.kind == "cctv" || x.kind == "bps")),
     "Sunulabilir olmayan kaynak: " + question.id);
+   report.Forbid(!string.IsNullOrEmpty(question.presentedSourceId) &&
+    (data.nodes.FirstOrDefault(x => x.id == question.presentedSourceId)?.notPresentable ?? false),
+    "Belirleyici kaynak görüşmede öne sürülemiyor: " + question.id);
 
    foreach (var sourceRef in question.presentedSourceIds ?? new string[0]) {
     var separator = sourceRef.IndexOf('#');
@@ -148,6 +151,9 @@ public static class CaseRules {
      : (source.questions ?? new Question[0]).FirstOrDefault(other => other.id == detail.Split('|')[0])?.aboutPersonIds;
     report.Forbid(!Investigation.SourceConcerns(node, about),
      "Belirleyici kaynak bu kişiye kapalı (aboutPersonIds eksik): " + question.id + " → " + sourceRef);
+    report.Forbid(source.notPresentable || source.kind == "cctv" &&
+      ((source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == detail)?.notPresentable ?? false),
+     "Belirleyici kaynak görüşmede öne sürülemiyor: " + question.id + " → " + sourceRef);
 
     // Kaynak sunulan bir soru, kaynağın içeriğini kendi metninde tekrar etmemeli:
     // ettiği anda çelişkiyi oyuncu yerine oyun kurmuş olur. Bu sezgisel bir
@@ -187,6 +193,9 @@ public static class CaseRules {
      : (host.questions ?? new Question[0]).FirstOrDefault(o => o.id == tail.Split('|')[0])?.aboutPersonIds;
     report.Forbid(!Investigation.SourceConcerns(node, decoyAbout),
      "Yem kaynak bu kişiye görünmüyor: " + question.id + " → " + decoy.sourceId);
+    report.Forbid(host.notPresentable || host.kind == "cctv" &&
+      ((host.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == tail)?.notPresentable ?? false),
+     "Yem kaynak görüşmede öne sürülemiyor: " + question.id + " → " + decoy.sourceId);
    }
 
    foreach (var response in question.presentedAnswers ?? new PresentedAnswer[0])

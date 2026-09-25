@@ -277,3 +277,17 @@ Dört soru kaynak sunduruyor: `elif_follow.footage`, `hasan_follow.gap`, `hasan_
 **Kişiye ait savuşturma.** Onun yerine `Node.deflectAnswerKey` eklendi: yemi yazılmamış bir kaynak sunulduğunda genel "Bu kayıtla ilgili ne söylememi istiyorsunuz?" yerine kişinin kendi sesi çıkıyor. Hasan: "Bunun benimle ilgisini kurmuyorum. Başka bir şey soracaksanız sorun." Elif: "Bununla benim aramda bir bağ kuruyorsanız o bağı siz söyleyin. Ben göremiyorum."
 
 **Yeni kural.** İki yem aynı yanıt anahtarını paylaşamaz; paylaşırsa cümle ikisinden biri için kaçınılmaz olarak yersiz düşer. Bu kural gerçek bir kopyala-yapıştır hatasından doğdu: `hasan_follow.gap`'in iki ayrı yemi aynı anahtara bakıyordu.
+
+## Kaynak seçici telefona göre sadeleşti (25 Eylül 2026)
+
+**Üst üste binen sekmeler (hata).** "Sorular / Geçmiş" şeridi esnek kutuda küçülüp yüksekliğini yitiriyordu; düğmeler kabın dışına taşıp altındaki listenin üstüne biniyordu. `flexShrink=0` ve en az dokunma hedefi kadar yükseklik verildi.
+
+**Öne sürülmesi anlamsız kaynaklar (`notPresentable`).** Listede vakanın kendi olay raporu ve sinyal telemetrisi (`SİNYAL ZAYIFLADI`, `SİNYAL KESİLDİ`, `SİNYAL GERİ GELDİ`) duruyordu. Bunları bir tanığa uzatmanın anlamı yok. Artık görüşme seçicisinde gizleniyorlar; **sonuç ekranında gösterilmeye devam ediyorlar**, orada gerekçe olarak gösterilebilirler.
+
+Kayıt boşluğu (`gap`) listede **kaldı**: o bir telemetri satırı değil, vakanın olgusu.
+
+Sonuç: dört kaynak-sunulan sorunun hepsinde kapsama **%100** — seçicide görünen her kaynağın artık gerçek bir yanıtı var, kişiye ait savuşturma cümlesi de ender bir güvenlik ağı olarak duruyor.
+
+**Arama alanı kaldırıldı.** Telefonda klavye ekranın yarısını kaplıyordu ve liste zaten kişiye göre süzülüp 9-10 satıra indi. Tür sekmeleri (Tümü / Belgeler / İfadeler / CCTV) kaldı.
+
+**İki yeni kural.** Ne belirleyici kaynak ne de yem, `notPresentable` olabilir — olursa görüşmede hiç öne sürülemez, yani yanıt metni oyunda hiç çıkmaz. Kural hemen iş gördü: `hasan_follow.gap`'in `camera#lost` yemi bu yüzden silindi.
