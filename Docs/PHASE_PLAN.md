@@ -64,7 +64,7 @@ Bundan sonra `ROADMAP.md`'de ve burada:
   - [x] Güvenli alan kenar boşlukları ve `BubeApp` açılışı **PlayMode duman testiyle Unity'de gözlendi**.
 - [x] **Otomatik test altyapısı:** `Tools/run-tests.sh` EditMode + PlayMode testlerini komut satırından koşuyor (23 test, hepsi geçiyor). Dosya #001'in kilit zinciri, iki rotası, yanlış kaynak sunma, talep gecikmesi, kayıt gidiş-dönüşü ve rapor değerlendirmesinin üç sonucu otomatik.
 - [x] **Masaya varış sinematiği, vaka teklifi ve masa yerleşimi Play Mode'da gözlendi** (25 Eylül 2026): video oynuyor, "Geç" düğmesi filigranın üstüne oturuyor, masa karanlıktan açılıyor, kabul edilmemiş vakada masada yalnız gelen evrak tepsisi açık. Bu **uçtan uca oynanış değildir** — aşağıdaki madde hâlâ açık.
-- [ ] **Elle uçtan uca oynanış:** betik hazır → [PLAYTEST_001.md](PLAYTEST_001.md). yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
+- [x] **Elle uçtan uca oynanış (kullanıcı, 25 Eylül 2026):** Dosya #001 baştan kapanışa kadar oynandı, içerikte sorun çıkmadı; çıkan dört bulgu ses ve ayarlar tarafındaydı ve kapatıldı. Betik → [PLAYTEST_001.md](PLAYTEST_001.md). yeni kariyer → dünya açılışı → dosya kabul → üç görüşme → CCTV (metin + 4 klip) → eşya raporu → rapor sihirbazı → kapanış → faks → arşiv. Console'da hata bırakılmaz.
 - [ ] **Ters sıra ve çıkmaz avı:** her ekrandan masaya dönüş, yanlış kaynak sunma, yarıda bırakıp çıkma, uygulamayı kapatıp açma.
 - [ ] **Gerçek cihaz:** bir Android telefon yeter. 16:9 / 19.5:9 / 20:9, güvenli alan, 48 birim dokunma hedefleri, Türkçe karakterler, klavye, arka plana alma.
 - [ ] Doğrulanan her ROADMAP satırı `[~]` → `[x]`.

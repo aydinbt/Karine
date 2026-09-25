@@ -1,11 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (Dosya #001 baştan sona oynandı; oynanıştan gelen ses ve ayarlar düzeltmeleri)
+**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; ses ve ayarlar oynanıştan gelen geri bildirimle kapandı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
 
-**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı ve kapatıldı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3).
+**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı, kapatıldı ve kullanıcı tarafından doğrulandı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3).
 
 ## Dosya #001 hakkında (25 Eylül 2026 kullanıcı kararı)
 
