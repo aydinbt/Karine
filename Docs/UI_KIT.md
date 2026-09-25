@@ -46,7 +46,7 @@ Değerler kit görselindeki etiketli sekiz kutudan okunmuştur. `UiKitTests.Pale
 
 Teknik metin = oyuncunun "kayıt" olarak okuduğu her şey: `DOSYA #001`, tarih/saat, `KURUM GÜVENİ`, sayfa sayacı, CCTV zaman damgası. Kod karşılığı `KarineUI.Technical(...)`.
 
-Roboto Slab ve Inter `.ttf` dosyaları **henüz depoda yok**; roller bugün IBM Plex Mono'ya düşüyor ve doğrulayıcı bunu not olarak yazıyor. Dosyalar `Assets/Bube/Resources/Bube/Fonts/` altına konduğu an tipografi kendiliğinden yerine oturur.
+Roboto Slab (ExtraBold, Bold) ve Inter (Regular, SemiBold) **depoya kondu** — `Assets/Bube/Resources/Bube/Fonts/`, Git LFS. Roboto Slab Apache 2.0, Inter OFL; lisans metinleri aynı klasörde. Türkçe kapsamı denetlendi: ı İ ğ Ğ ş Ş ç ö ü â î û hepsi var. Roboto Slab'da ₺ yoktur, o yüzden metası IBM Plex Mono'ya yedeklenir. Doğrulayıcı artık dört dosyanın da varlığını **zorunlu** tutar.
 
 ## Düğme hiyerarşisi
 
@@ -87,11 +87,11 @@ Ekranlar kit bileşenlerine taşındı:
 | Rapor gönderme onayı | `KarineUI.Modal` — "Gönderdiğin karar geri alınamaz." |
 | Ayarlar metin hızı | `KarineUI.Radio` (eskiden iki birincil düğme) |
 | Kariyer ekranı güven ve vaka sayısı | `KarineUI.Meter` / `KarineUI.Counter` |
-| Dünya girişi ve masaya varış filmleri | `KarineUI.CinematicControls` (duraklat, ilerleme, süre, İLERİ SAR, GEÇ) |
+| Dünya girişi ve masaya varış filmleri | `KarineUI.CinematicControls` (duraklat, ilerleme, süre) + GEÇ |
 | Saat, tarih, damga, sayfa sayacı, kayıt numarası | `KarineUI.Technical` (monospace) |
 | Menü örtüsü, ayarlar/hakkında kartı | `KarineUI.Panel` + `Title` + `Rule` |
 
-**Sinematik kontroller**, kit §7'nin istediği gibi bütün oyunda tek biçimdir. İLERİ SAR oynatma hızını 2×'e alır, GEÇ sahneyi tamamen atlar — ikisi ayrı düğmedir ve test bunu kilitler. Tek istisna: bazı filmlerde "GEÇ" üretici filigranının **üstüne oturmak zorunda** olduğu için çubuğun içinde değil, kendi yerinde durur; çubuk o ekranlarda kısalır.
+**Sinematik kontroller**, kit §7'nin istediği gibi bütün oyunda tek biçimdir: duraklat, ilerleme çubuğu, süre. **Sinematiklerde hızlandırma yoktur** — filmden tek çıkış GEÇ'tir. Hızlandırma/kare ilerletme yalnız CCTV izlemede anlamlıdır ve orada zaten vardır (oynat/duraklat, kare ilerlet, baştan al). Bileşen hâlâ isteğe bağlı bir hızlandırma düğmesi alabilir; iki eylemin ayrı kalmasını test kilitler, ama filmlerde bağlanmaz. "GEÇ" üretici filigranının **üstüne oturmak zorunda** olduğu için çubuğun içinde değil kendi yerinde durur; çubuk o ekranlarda kısalır. Kutu filigranı örter ama yüksekliği rahat dokunma hedefine, eni 260 px'e kapatılır, yani kit düğmesi gibi görünür.
 
 **Kâğıt tonları birleştirildi.** Kâğıt katmanında birbirinden bir iki basamak farklı otuzdan fazla bej vardı (`.82/.76/.65`, `.79/.72/.61`, `.78/.71/.61` …). Hepsi `KarineTheme.Paper` altındaki beş tona indi: `Sheet`, `Light`, `Tint`, `Edge`, `Stamp`, `Ink`, `Faded`. Kit "kendi başına yeni bir stil icat etme" dediği için bu tonlar tek yerde durur.
 

@@ -920,12 +920,13 @@ public sealed class BubeApp : MonoBehaviour {
   if(dossierBoldFont!=null)studio.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   var credit=Text(introBrand,"powered by bubeDigital",Gold,16);credit.style.marginBottom=0;
   }
-  // Kit §7'nin sinematik çubuğu: duraklat, ilerleme, süre, İLERİ SAR, GEÇ.
-  // İLERİ SAR sahneyi hızlandırır (2×), GEÇ tamamen atlar — ikisi ayrı eylem.
+  // Kit §7'nin sinematik çubuğu: duraklat, ilerleme, süre. Sinematiklerde
+  // hızlandırma **yoktur** — tek çıkış GEÇ'tir. Hızlandırma/kare atlama
+  // yalnız CCTV izlemede anlamlıdır ve orada zaten vardır.
   var controls=KarineUI.CinematicControls(root,
    ()=>introPlayer!=null && introPlayer.isPlaying,
    ()=>{if(introPlayer==null)return;if(introPlayer.isPlaying)introPlayer.Pause();else introPlayer.Play();},
-   ()=>{if(introPlayer!=null)introPlayer.playbackSpeed=introPlayer.playbackSpeed>1.5f?1f:2f;},T("intro.fastForward"),
+   null,null,
    activeIntro.skipCoversCornerMark?(Action)null:FinishWorldIntro,T("intro.skip"),
    ()=>introPlayer==null || introPlayer.length<=0?0f:(float)(introPlayer.time/introPlayer.length),
    ()=>introPlayer==null?KarineUI.Clock(0,0):KarineUI.Clock(introPlayer.time,introPlayer.length));
@@ -969,8 +970,10 @@ public sealed class BubeApp : MonoBehaviour {
   float filmWidth=16f*scale, filmHeight=9f*scale;
   float offsetX=(width-filmWidth)*.5f;
   float offsetY=(height-filmHeight)*.5f;
-  float buttonWidth=Mathf.Max(150f,activeMark.w*filmWidth);
-  float buttonHeight=Mathf.Max(MinimumTouchTarget,activeMark.h*filmHeight);
+  // Kutu filigranı örtecek kadar büyük olmalı ama kit düğmesi gibi durmalı:
+  // yüksekliği rahat dokunma hedefinde tutulur, eni yazıya göre taşmaz.
+  float buttonWidth=Mathf.Clamp(activeMark.w*filmWidth,150f,260f);
+  float buttonHeight=Mathf.Clamp(activeMark.h*filmHeight,KarineTheme.TouchTargetComfortable,72f);
   float centerX=offsetX+activeMark.x*filmWidth;
   float centerY=offsetY+activeMark.y*filmHeight;
   introSkip.style.width=buttonWidth;
@@ -1028,11 +1031,11 @@ public sealed class BubeApp : MonoBehaviour {
   film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
   root.Add(film);
   // Aynı sinematik çubuk: kit §7 bunun bütün oyunda tek biçim olmasını ister.
-  // Buradaki "GEÇ" de filigranın üstüne oturduğu için çubuğun dışında durur.
+  // Hızlandırma yok; "GEÇ" filigranın üstüne oturduğu için çubuğun dışında durur.
   var controls=KarineUI.CinematicControls(root,
    ()=>introPlayer!=null && introPlayer.isPlaying,
    ()=>{if(introPlayer==null)return;if(introPlayer.isPlaying)introPlayer.Pause();else introPlayer.Play();},
-   ()=>{if(introPlayer!=null)introPlayer.playbackSpeed=introPlayer.playbackSpeed>1.5f?1f:2f;},T("intro.fastForward"),
+   null,null,
    null,null,
    ()=>introPlayer==null || introPlayer.length<=0?0f:(float)(introPlayer.time/introPlayer.length),
    ()=>introPlayer==null?KarineUI.Clock(0,0):KarineUI.Clock(introPlayer.time,introPlayer.length));

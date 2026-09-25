@@ -447,3 +447,11 @@ Tema kurulduktan sonra ekranlar tek tek `KarineUI` bileşenlerine bağlandı: d�
 
 Ham renk borcu 156'dan **65'e** indi; kalanlar CCTV taraması gibi saydamlıklı efektler ve piksel portre ten tonları, yani oyun sanatı.
 
+## Sinematikte hızlandırma yok, fontlar geldi (25 Eylül 2026)
+
+**Kullanıcı kararı:** filmlerde İLERİ SAR olmayacak. Bir sinematik ya izlenir ya geçilir; arada bir hız kademesi oyuncuya karar verdirecek bir şey katmıyor, üstelik kontrol çubuğunu kalabalıklaştırıyordu. Hızlandırma **CCTV izlemede** anlamlıdır ve orada zaten var (oynat/duraklat, kare ilerlet, baştan al). `CinematicControls` bileşeni isteğe bağlı hızlandırmayı desteklemeye devam ediyor; filmler artık bağlamıyor.
+
+**GEÇ düğmesi kit düğmesi oldu.** Kutu filigranı örtmek için film karesine oranlı büyüyordu ve ekranda kit dışı, kocaman bir kutu gibi duruyordu. Artık yüksekliği rahat dokunma hedefinde, eni 260 px'te kapanıyor. Etiket kit'in büyük harf düğme dilinde: "Geç" → "GEÇ".
+
+**Roboto Slab ve Inter depoya girdi** (LFS). Başlıklar artık slab-serif, gövde ve düğmeler Inter, teknik metin IBM Plex Mono — kit §2'nin istediği dört rol de gerçek. Türkçe kapsamı glif glif denetlendi. Roboto Slab'da ₺ yok; metası mono'ya yedekleniyor. Doğrulayıcı dört dosyayı da zorunlu tutuyor.
+
