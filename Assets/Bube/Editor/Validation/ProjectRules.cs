@@ -15,6 +15,7 @@ public static class ProjectRules {
   ("Bube/MainMenuNight", "ana menü arka planı"),
   ("Bube/InterviewRoom", "görüşme odası arka planı"),
   ("Bube/Characters/bora", "Bora sprite'ı"),
+  (KarineLogo.BaseResource, "KARINE logosu"),
  };
 
  public static void Validate(ValidationReport report) {
@@ -33,6 +34,18 @@ public static class ProjectRules {
 
   foreach (var (resource, label) in RequiredTextures)
    report.Require(Resources.Load<Texture2D>(resource) != null, "Görsel yok (" + label + "): " + resource);
+
+  // Marka oranı: logo dosyası değişirse `KarineLogo.AspectRatio` da değişmeli,
+  // yoksa oran sessizce bozulur.
+  var logo = Resources.Load<Texture2D>(KarineLogo.BaseResource);
+  if (logo != null)
+   report.Require(Mathf.Abs((float)logo.width / logo.height - KarineLogo.AspectRatio) < 0.01f,
+    "Logo oranı `KarineLogo.AspectRatio` ile uyuşmuyor: görsel " + logo.width + "×" + logo.height);
+
+  // Yazı tipi rolleri: eksik dosya oyunu durdurmaz (mono'ya düşer) ama not edilir.
+  var missing = FontSet.Load().Missing;
+  if (missing.Length > 0)
+   report.Note("Yazı tipi rolü mono'ya düşüyor: " + string.Join(", ", missing));
 
   // Sinematikler Resources'ta degil StreamingAssets'ta durur; eksik bir video
   // oyunu durdurmaz ama o anin sessizce kaybolmasi fark edilmelidir.

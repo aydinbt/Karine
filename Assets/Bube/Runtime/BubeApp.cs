@@ -44,6 +44,7 @@ public sealed class BubeApp : MonoBehaviour {
  string compareLeftId, compareRightId;
  int comparePicker=-1;
  Font dossierFont, dossierBoldFont;
+ FontSet fonts;
  string selectedSuspect, selectedMethod, selectedEvidence;
  string selectedSuspectSource, selectedMethodSource, selectedEvidenceSource;
  bool showingInterviewList;
@@ -161,8 +162,12 @@ public sealed class BubeApp : MonoBehaviour {
   panel.match=1;
   panel.themeStyleSheet=Resources.Load<ThemeStyleSheet>("Bube/DefaultTheme");
   doc.panelSettings=panel;
-  dossierFont=Resources.Load<Font>("Bube/Fonts/IBMPlexMono-Regular");
-  dossierBoldFont=Resources.Load<Font>("Bube/Fonts/IBMPlexMono-SemiBold");
+  fonts=FontSet.Load();
+  // Dosya/terminal dokusu mono kalir; govde ve baslik rolleri ayri dusunulur.
+  dossierFont=fonts.Mono;
+  dossierBoldFont=fonts.MonoBold;
+  if(fonts.Missing.Length>0)
+   Debug.Log("Font rolleri mono'ya dusuyor (dosya eksik): "+string.Join(", ",fonts.Missing));
   root=doc.rootVisualElement;
   if(dossierFont!=null)root.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   root.style.backgroundColor=Base;
@@ -260,7 +265,8 @@ public sealed class BubeApp : MonoBehaviour {
   label.style.whiteSpace=WhiteSpace.Normal;
   label.style.color=color;
   label.style.fontSize=Typography.Snap(size);
-  if(dossierFont!=null)label.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
+  var bodyFont=fonts!=null?fonts.Body:dossierFont;
+  if(bodyFont!=null)label.style.unityFontDefinition=FontDefinition.FromFont(bodyFont);
   label.style.marginBottom=12;
   parent.Add(label);
   return label;
@@ -281,7 +287,8 @@ public sealed class BubeApp : MonoBehaviour {
   var button=new Button(onClick){text=value};
   button.style.minHeight=54;
   button.style.fontSize=Typography.Snap(20);
-  if(dossierFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
+  var buttonFont=fonts!=null?fonts.Body:dossierFont;
+  if(buttonFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(buttonFont);
   button.style.unityTextAlign=TextAnchor.MiddleLeft;
   button.style.paddingLeft=18;
   button.style.marginBottom=10;
@@ -309,8 +316,11 @@ public sealed class BubeApp : MonoBehaviour {
  }
  void Frame(string kicker,string title,string subtitle) {
   root.Clear();
-  Text(root,config.title+"  /  "+kicker,Gold,16);
-  Text(root,title,Ink,38);
+  // Diger ekranlarda kompakt baslık surumu: ayni gorsel, kucuk genislik.
+  KarineLogo.Header(root,190,Gold);
+  Text(root,kicker,Gold,16);
+  var heading=Text(root,title,Ink,38);
+  if(fonts!=null && fonts.Heading!=null)heading.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
   if(!string.IsNullOrEmpty(subtitle))Text(root,subtitle,Muted,17);
  }
  ScrollView Scroll(VisualElement parent) {
@@ -419,12 +429,12 @@ public sealed class BubeApp : MonoBehaviour {
   root.Add(left);
   Text(left,"bubeGames",Gold,18);
   var gap=new VisualElement();gap.style.height=25;left.Add(gap);
-  var logo=Text(left,"bube",Ink,76);logo.style.marginBottom=0;
-  if(dossierBoldFont!=null)logo.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  GlitchHeading(logo,"bube");
+  // Ana menude logo buyuk; oran `KarineLogo` icinde sabittir, burada yalniz
+  // genislik secilir.
+  KarineLogo.Hero(left,380);
   var rule=new VisualElement();rule.style.height=3;rule.style.width=Length.Percent(78);
   rule.style.backgroundColor=Ink;rule.style.marginTop=3;rule.style.marginBottom=10;left.Add(rule);
-  Text(left,"P O L I C E",Ink,22);
+  Text(left,"b u b e   P O L I S",Ink,22);
   var menuGap=new VisualElement();menuGap.style.height=18;left.Add(menuGap);
   if(game.State.caseAccepted)Button(left,"▣  "+T("home.continue")+"   ›",Desk,true);
   if(game.State.caseAccepted)Button(left,"↺  "+T("home.new"),()=>{confirmRestart=true;RestartPage();});
@@ -505,8 +515,11 @@ public sealed class BubeApp : MonoBehaviour {
   paper.style.paddingTop=18;paper.style.paddingBottom=16;
   paper.style.backgroundColor=new Color(.91f,.85f,.73f);root.Add(paper);
   var dark=new Color(.13f,.16f,.20f);
+  // Vaka secici basligi: sol ustte kompakt marka, altinda cizgi.
+  KarineLogo.Header(paper,150,new Color(.45f,.29f,.23f),new Color(.31f,.20f,.16f));
   Text(paper,T("archive.kicker"),new Color(.45f,.29f,.23f),14).style.marginBottom=2;
-  Text(paper,heading,dark,27).style.marginBottom=8;
+  var archiveHeading=Text(paper,heading,dark,27);archiveHeading.style.marginBottom=8;
+  if(fonts!=null && fonts.Heading!=null)archiveHeading.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
   var line=new VisualElement();line.style.height=1;line.style.backgroundColor=new Color(.58f,.51f,.42f);
   line.style.marginBottom=12;paper.Add(line);
   content=new VisualElement();content.style.flexGrow=1;paper.Add(content);

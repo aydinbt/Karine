@@ -378,3 +378,26 @@ Kural artık şu: **kaydın sürümü bir sonuca bağlanır, sessizlik yok.** `S
 - **Güven sıfırlanmaz.** Göç edilen kariyer kaydı `departmentTrust` ve rütbesini korur; sıfırlama yalnız gerçekten yeni bir kariyerde olur.
 
 `UnknownVersionSave_IsSilentlyDiscarded_KnownDebt` kaldırıldı — sabitlediği davranışın yanlış olduğunu biliyorduk. Yerine dört test: eski ilerleme korunuyor mu, eski kariyer güvenini koruyor mu, gelecekten gelen kayıt `FromFuture` deniyor mu, kaydın devralınmama sebebi adlandırılıyor mu.
+
+
+## KARINE marka kimliği: logo görsel, yazı tipi rol tablosu (25 Eylül 2026)
+
+Ana menüdeki marka bugüne kadar **yazıyla** çiziliyordu (`bube`, 76 punto, glitch efekti). Artık kullanıcının verdiği KARINE logosu kullanılıyor: ağır slab-serif, harflerin içinde kontrollü aşınma, şeffaf arka plan.
+
+**Aşınma yazı tipine uygulanmaz.** Glif başına kırılma ve puntoya göre değişen mürekkep kaybı font dosyasından çıkmaz; bu yüzden logo tek bir görsel varlıktır, oyunun geri kalanı aşınmasız yazı tipleriyle yazılır. Logo yazı tipi **hiçbir yerde** gövde metnine uygulanmaz.
+
+**Tek kaynak, tek oran, tek yoğunluk.** `KarineLogo` ekranlara yalnız **genişlik** seçtirir; yükseklik daima `AspectRatio`'dan türer, yani esnetme mümkün değil. Doku yoğunluğu sabittir, ekrana göre değişmez. Katman yapısı istenen şekildedir:
+
+```
+KarineLogo
+ ├── LogoBase         — marka harfleri
+ └── DistressOverlay  — üstteki doku katmanı
+```
+
+Bugün aşınma **temel görselin alfa kanalındadır**; `DistressOverlay` yerinde durur ama `Bube/Art/KarineDistress` konulmadıkça çizmez. İkinci bir doku üst üste binerse okunabilirlik bozulur — kural buydu, o yüzden varsayılanı yok.
+
+**Kullanım:** ana menüde büyük (`Hero`, 380), diğer ekranlarda kompakt başlık (`Header`) — altında çizgiyle, "KARINE ─────". Açık kâğıt üzerindeki ekranlarda (arşiv/vaka seçici) ton koyulaşır; oran ve doku değişmez.
+
+**Yazı tipi rolleri** (`FontSet`): `Heading` Roboto Slab, `Mono` IBM Plex Mono (dosya, terminal, tarih, vaka numarası), `Body` Inter / IBM Plex Sans (açıklama ve düğmeler). Dosya adları tek yerde tanımlı; bir rolün dosyası yoksa mono'ya düşer ve doğrulayıcı bunu **not** olarak yazar. `RobotoSlab-ExtraBold.ttf` ve `Inter-Regular.ttf` klasöre bırakıldığı an oyunun tamamı tek yerden geçiş yapar.
+
+**Bulunan gerçek hata:** Unity varsayılan içe aktarımı (`nPOTScale: 1`) logoyu 2000×667'den **2048×512'ye eziyordu** — yani tam da yasaklanan esnetme, kimse dokunmadan, içe aktarımda oluyordu. Logo `nPOTScale: 0` ile kilitlendi; testler hem varlığın oranını hem de ekranda ölçülen oranı doğruluyor. Aynı ayar projedeki diğer görsellerde hâlâ açık (bkz. Architecture.md).

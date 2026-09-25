@@ -66,5 +66,29 @@ public sealed class BootSmokeTests {
 
   CollectionAssert.IsEmpty(errors, "Hata oluştu: " + string.Join(" | ", errors));
  }
+ // Marka gercekten ekrana ciliyor mu: ana menude KARINE logosu duruyor,
+ // oran bozulmamis ve iki katman yerinde mi.
+ [UnityTest] public IEnumerator MainMenu_ShowsKarineLogoWithIntactAspect() {
+  SceneManager.LoadScene("BootScene", LoadSceneMode.Single);
+  for (int frame = 0; frame < 30; frame++) yield return null;
+
+  var root = Object.FindFirstObjectByType<BubeApp>().GetComponent<UIDocument>().rootVisualElement;
+  var logo = root.Q("KarineLogo");
+  Assert.IsNotNull(logo, "Ana menude KARINE logosu yok.");
+  Assert.AreEqual(2, logo.childCount, "Katmanlar: LogoBase + DistressOverlay.");
+  Assert.IsNotNull(logo.Q("LogoBase"));
+  Assert.IsNotNull(logo.Q("DistressOverlay"));
+
+  yield return null;
+  var box = logo.layout;
+  Assert.Greater(box.width, 0, "Logo hic yer kaplamamis.");
+  // Tolerans pano olceklemesinin tam piksele yuvarlamasini kapsar (~%1);
+   // gercek bir esnetme bundan cok daha buyuk sapar.
+  Assert.AreEqual(KarineLogo.AspectRatio, box.width / box.height, 0.06f,
+   "Ekranda olculen oran bozulmus — logo esnetiliyor.");
+
+  CollectionAssert.IsEmpty(errors, "Hata olustu: " + string.Join(" | ", errors));
+ }
+
 }
 }

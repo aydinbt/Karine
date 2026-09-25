@@ -156,3 +156,11 @@ Bunun bir yan etkisi var: `Assets/Bube/Resources/Bube/DeskReference.png` artık 
 ## Yeni vaka ekleme
 
 Yeni `caseXXX.json` + `tr.json` anahtarları + önceki vakanın `nextCaseId` alanı. Çekirdek kod değişmez. Bu hedef case002 taslağıyla **veri düzeyinde** doğrulandı; oyuncu akışında (geçiş, kayıt, faks zamanlaması) henüz Play Mode'da kanıtlanmadı.
+
+
+## Marka ve yazı tipleri
+
+- **Logo:** `Assets/Bube/Resources/Bube/Art/KarineLogo.png` (2000×667, şeffaf). Kullanıcının verdiği dosya; pikselleri değiştirilmedi, yalnız webp→png dönüştürüldü. `KarineLogo.Hero` / `KarineLogo.Header` ile çizilir; ekranlar sadece genişlik verir, yükseklik `KarineLogo.AspectRatio`'dan türer.
+- **İçe aktarım kilidi:** meta dosyasında `nPOTScale: 0`, `enableMipMap: 0`, `alphaIsTransparency: 1`, sıkıştırma kapalı. **Varsayılan `nPOTScale: 1` bu logoyu 2048×512'ye eziyordu.**
+- **Açık borç:** `DeskReference`, `MainMenuNight`, `InterviewRoom`, `Case001Building` ve karakter görselleri hâlâ varsayılan `nPOTScale` ile içe aktarılıyor; hepsi ikinin kuvveti olmayan boyutta, yani içe aktarımda oranları bir miktar kayıyor. Düzeltilmedi — görünür bir değişiklik olduğu için kullanıcı kararı bekliyor.
+- **Yazı tipi rolleri** `FontSet.Load()` ile tek yerden çözülür: `Heading` (RobotoSlab-ExtraBold → Arvo-Bold), `Body` (Inter-Regular → IBMPlexSans-Regular), `Mono` (IBMPlexMono). Eksik rol mono'ya düşer; `FontSet.Missing` hangi rolün düştüğünü söyler ve `ProjectRules` bunu doğrulama notu olarak yazar. `Text()` ve `Button()` gövde rolünü, ekran başlıkları `Heading` rolünü kullanır.
