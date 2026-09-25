@@ -1,6 +1,10 @@
 # bube — dünya açılış sinematikleri
 
-**24 Eylül 2026 kullanıcı kararı.** Oyun yedi ülke/dünya için planlanır. Bu sayı önceki belirsiz ülke sayısı notlarının yerine geçer. Dünya 1 Türkiye'dir; Dünya 2 ve sonraki ülkeler henüz seçilmedi. Ülkelerin sırası veya vaka sayısı kariyerin sabit ilerleme kuralı olarak buradan çıkarılmaz.
+**26 Eylül 2026 kullanıcı kararı.** Oyun **on ülke/dünya** için planlanır ve her dünya **yedi dosya** taşır — toplam 70. Bu sayı, 24 Eylül 2026'daki yedi dünya kararının yerine geçer; bölüm seçici ekranı birebir bu yerleşimle istendi ve kanon ona göre güncellendi. Dünya 1 Türkiye'dir; 2–10 arasındaki ülkeler artık **adlandırıldı** (aşağıdaki çizelge), ama mekânları, vakaları ve açılışları henüz yazılmadı.
+
+**Sıra artık ilerleme kuralıdır.** Önceki not sırayı bağlayıcı saymıyordu; bölüm seçici geldikten sonra sayıyor: bir ülke, kendinden önceki ülkenin yedi dosyası kapanmadan açılmaz ve dosyalar ülke içinde sırayla açılır. Kilit yalnız ilerlemeyi gösterir — hiçbir yerde sıradaki adım söylenmez, fail veya ipucu verilmez. Teknik karşılığı `Docs/Architecture.md` → "Bölüm seçici verisi"; veri `Assets/Bube/Resources/Bube/Worlds.json`.
+
+**Ülke listesi kanon, içeriği değil.** Aşağıdaki on ülke seçicide görünür ve kilit sırasını belirler; her birinin şehri, atmosferi ve yedi dosyası ayrı yazılacak iştir. Bir ülkenin yeri değiştirilecekse tek düzenleme `Worlds.json` sırasıdır, ama o zaman bu belge de aynı oturumda güncellenir.
 
 ## Dünya 1 / Türkiye
 
@@ -12,14 +16,19 @@ Yeni kariyer ilk başladığında ve yalnız bu kariyerde bir kez yaklaşık 10 
 
 `config.json` içindeki `worldIntros` her dünyanın ilk vaka kimliğini, ülke metin anahtarını, video dosyasını ve görsel yazıların videonun içine gömülü olup olmadığını taşır. Kariyer kaydı gösterilen dünya açılışlarını saklar. Yeni kariyer bu kaydı sıfırlar; menüye, eski dosyaya veya aynı dünyadaki başka vakaya her dönüşte sinematik tekrarlanmaz. Yeni bir dünyanın ilk dosyası açılırken kendi sinematiği bir kez oynar; ardından o dünyanın dosya kabul ekranına geçilir. Video erişilemezse oyuncu takılmaz, görev açılır.
 
-| Dünya | Ülke | Açılış |
-| --- | --- | --- |
-| 1 | Türkiye | Bora'nın Beşiktaş şubesine ilk gelişi — ilk sürüm mevcut |
-| 2 | Belirlenmedi | Ülke ve mekân kararı sonrası ayrı sinematik/animasyon gerekir |
-| 3 | Belirlenmedi | Ayrı açılış gerekir |
-| 4 | Belirlenmedi | Ayrı açılış gerekir |
-| 5 | Belirlenmedi | Ayrı açılış gerekir |
-| 6 | Belirlenmedi | Ayrı açılış gerekir |
-| 7 | Belirlenmedi | Ayrı açılış gerekir |
+| Dünya | Ülke | Şehir | Dosya | Açılış |
+| --- | --- | --- | --- | --- |
+| 1 | Türkiye | İstanbul | 7 | Bora'nın Beşiktaş şubesine ilk gelişi — ilk sürüm mevcut |
+| 2 | Birleşik Krallık | Londra | 7 | Ayrı açılış gerekir |
+| 3 | Almanya | Berlin | 7 | Ayrı açılış gerekir |
+| 4 | Japonya | Tokyo | 7 | Ayrı açılış gerekir |
+| 5 | Fransa | Paris | 7 | Ayrı açılış gerekir |
+| 6 | ABD | Chicago | 7 | Ayrı açılış gerekir |
+| 7 | İtalya | Napoli | 7 | Ayrı açılış gerekir |
+| 8 | İspanya | Sevilla | 7 | Ayrı açılış gerekir |
+| 9 | Kanada | Montreal | 7 | Ayrı açılış gerekir |
+| 10 | Avustralya | Melbourne | 7 | Ayrı açılış gerekir |
+
+Şehirler bölüm seçicinin ülke kartında görünür ve `Worlds.json` ile aynıdır; Türkiye dışındakiler ilk taslaktır, o ülkenin vakaları yazılırken değişebilir. Dosya sayısı on ülkede de yedidir: seçicinin ilerleme çubuğu ve `n / 70` sayacı aynı ölçeği gösterir, doğrulayıcı eşitliği kilitler.
 
 Her yeni açılış, o ülkenin yerel atmosferini taşımalı; Bora'yı ve bube kimliğini tutarlı korumalı. Bu açılışlar soruşturma kaynağı veya oyuncuya ipucu veren sahneler değildir.

@@ -14,7 +14,7 @@ Oyun adının Karine olması üzerine, oyun içindeki 16 "bube Polis / bube Poli
 
 Gerekçe: Karine soyut bir hukuk terimidir ("dolaylı kanıttan çıkarılan sonuç"); oyun başlığı olarak tezi taşır ama kurum adı olarak kuruluş hissi vermez. Oyun başlığının kurumu adlandırmak zorunda olmadığı kabul edildi. Kurum adı sorusu kapanmış değildir; ileride yeniden açılırsa bu madde güncellenir.
 
-## Dünya açılışları ve yedi ülke (24 Eylül 2026)
+## Dünya açılışları ve yedi ülke (24 Eylül 2026) — ülke sayısı 26 Eylül 2026'da ona çıktı
 
 Yeni kullanıcı kararı: yedi ülke/dünya hedefleniyor. Dünya 1 Türkiye'de Bora'nın Beşiktaş şubesine ilk gelişini POV sinematik gösterir: gözler kapalı/yere dönük başlangıç, başın kalkışı ve gözlerin açılması, karakola üç dört adım yaklaşma, kararma, masaya oturma ve ilk dosyanın önüne bırakılması. Sinematik her yeni kariyerde yalnız bir kez oynar. Sağ orta bölgede `bubeGames` ve altında `powered by bubeDigital` görünür. Dünya 2'nin ülkesi henüz belirlenmedi; sonraki her dünya için ayrı açılış gerekir. [WORLD_OPENINGS.md](WORLD_OPENINGS.md) bu kararın üretim kaydıdır.
 
@@ -637,9 +637,19 @@ Bu makinede iki ikame sunuldu (Unity'nin kendi Android SDK'sındaki `adb` üstü
 
 1. **Kilit/onay/oynat simgesi yok.** Kit'in ikon kümesinde kilit, tik ve oynat yok, emoji de yasak (Kit §15). Durum bunun yerine bir renk noktası + tek kelimelik teknik etiket: `TAMAM` / `AÇIK` / `KİLİTLİ` / `YAZILMADI`. İkonlar `UI_KIT.png`'den kesilince buraya girer.
 2. **Görseller henüz yok.** Dünya haritası (`Bube/WorldMap`), ülke kartı görselleri (`Bube/Worlds/<id>`) ve maketteki polaroidler depoda değil. Ekran onlar olmadan da tamdır: harita yerine mukavva pano + kâğıt iğneler, kart görseli yerine iğne simgesi durur. Görsel gelince tek satır veri değişikliğiyle yerine oturur.
-3. **Ülke sayısı maketten alındı: on.** `WORLD_OPENINGS.md` yedi dünya yazıyor. Maket birebir istendiği için seçici on ülke × yedi dosya (70) gösteriyor; **kanon çelişkisi kullanıcının kararını bekliyor** — ya açılış belgesi ona göre güncellenir, ya seçici yediye iner. İkisi de tek veri dosyası düzenlemesidir (`Bube/Worlds.json`).
+3. **Ülke sayısı maketten alındı: on.** `WORLD_OPENINGS.md` yedi dünya yazıyordu; çelişki aynı gün kullanıcı kararıyla kapandı (aşağıdaki madde).
 
 **Kilit ilerlemedir, ipucu değil.** Ülke sırası: ilki her zaman açık, sonraki ancak önceki ülkenin bütün dosyaları kapanınca açılır. Dosyalar ülke içinde sırayla açılır. Hiçbir kilit "şunu yap" demiyor ve hiçbir yerde sıradaki adım yazılı değil — ekran yalnız neyin kapandığını gösterir. Kapanmış dosyaya basmak kariyer kaydını açar (oyuncu ne gönderdiğini ve kurumun ne dediğini yeniden okur), açık dosya masaya götürür, yazılmamış dosya pasiftir. "Vakaları Görüntüle" ekran değiştirmez, alt şeridi öne çıkarır: dosyayı yine oyuncu açar.
 
 **Dosya adı ve başlığı veriden gelir.** Maketin "Beyoğlu'nda Kayıp / İsimsiz Zarf" gibi adları yer tutucuydu; şeritte vakanın **kendi** başlığı yazıyor (Dosya #001 için `case.title`). Türkiye'nin 3–7. yuvaları başlıklı ama vaka kimliği **boş**: dosya henüz yazılmadı, kilitli değil. Oyuncuya açılmayacak bir kilit gösterilmez.
+
+## Dünya sayısı yediden ona çıktı (26 Eylül 2026)
+
+**Kullanıcı:** "10 ülke kalsın, `WORLD_OPENINGS.md`'yi ona göre güncelle."
+
+Bölüm seçici maketi on ülke × yedi dosya gösteriyordu, kanon ise yedi dünya diyordu. Seçiciyi yediye indirmek yerine **kanon güncellendi**: oyun on dünya, her dünya yedi dosya, toplam **70 vaka**. 24 Eylül 2026'daki yedi dünya kararı bu kararla geçersizdir.
+
+Ülkeler adlandırıldı ve sıraları `Worlds.json` ile aynıdır: Türkiye (İstanbul), Birleşik Krallık (Londra), Almanya (Berlin), Japonya (Tokyo), Fransa (Paris), ABD (Chicago), İtalya (Napoli), İspanya (Sevilla), Kanada (Montreal), Avustralya (Melbourne). Şehirler Türkiye dışında ilk taslaktır; o ülkenin vakaları yazılırken değişebilir. Adlandırma **içerik taahhüdü değildir**: mekân, atmosfer, vakalar ve açılış sinematiği hâlâ yazılmamış iştir.
+
+**Yan etki, açıkça yazılıyor:** ülke sırası artık bağlayıcı bir ilerleme kuralıdır. Eski not ("ülkelerin sırası kariyerin sabit ilerleme kuralı olarak buradan çıkarılmaz") bölüm seçicinin kilidiyle çelişiyordu; belge kilide göre düzeltildi. Kilit yine yalnız ilerlemeyi gösterir, sıradaki adımı söylemez.
 
