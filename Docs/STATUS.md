@@ -1,15 +1,15 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; ses ve ayarlar kapandı; bölüm seçici ekranı Play Mode'da görüldü)
+**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; bölüm seçici Play Mode'da görüldü; Dosya #002 "Son Sefer" yazıldı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
 
-**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı, kapatıldı ve kullanıcı tarafından doğrulandı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3) ve kullanıcının elinde telefon olmadığı için bu adım **ertelendi** (26 Eylül 2026). Faz 2 açık kalıyor; iş Faz 3'ten (Dosya #002) devam ediyor.
+**Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı, kapatıldı ve kullanıcı tarafından doğrulandı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3) ve kullanıcının elinde telefon olmadığı için bu adım **ertelendi** (26 Eylül 2026). Faz 2 açık kalıyor; iş Faz 3'ten devam ediyor: **Dosya #002 "Son Sefer" yazıldı** — veri, metin ve doğrulama tamam, Play Mode'da oynanması açık.
 
 ## Dosya #001 hakkında (25 Eylül 2026 kullanıcı kararı)
 
-**Vaka #001'in içeriği şimdilik tamam sayılıyor.** Yeni ifade, kaynak, kanıt veya tur eklenmeyecek; vakanın tasarımı üstünde yeni iş açılmaz. **Oynanış doğrulaması yapıldı:** kullanıcı vakayı 25 Eylül 2026'da baştan kapanışa kadar oynadı ve içerikte sorun bulunmadı ([PLAYTEST_001.md](PLAYTEST_001.md) §2, §4). Geriye cihaz adımı (§3) kaldı; M1 ve M2'nin bitiş ölçütleri buna bağlı. Sıradaki eksen cihaz derlemesi ya da case002.
+**Vaka #001'in içeriği şimdilik tamam sayılıyor.** Yeni ifade, kaynak, kanıt veya tur eklenmeyecek; vakanın tasarımı üstünde yeni iş açılmaz. **Oynanış doğrulaması yapıldı:** kullanıcı vakayı 25 Eylül 2026'da baştan kapanışa kadar oynadı ve içerikte sorun bulunmadı ([PLAYTEST_001.md](PLAYTEST_001.md) §2, §4). Geriye cihaz adımı (§3) kaldı; M1 ve M2'nin bitiş ölçütleri buna bağlı. Sıradaki eksen cihaz derlemesi ya da Dosya #002'nin oynanış doğrulaması.
 
 ## Vakadan bağımsız temeller (25 Eylül 2026)
 
@@ -23,6 +23,12 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — işareti
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 
 **Ödüllü yeniden deneme bağlandı:** güven tam o faksın götürdüğü kadar iade ediliyor (gerekirse görevden ayrılma kalkıyor), faks geçmişi başarısızlığı "yeniden açıldı" işaretiyle saklıyor ve ikinci deneme kendi satırını yazıyor. Yeniden açmak ipucu vermiyor: bulunanlar duruyor, yalnız rapor alanları boşalıyor.
+
+## Dosya #002 — Son Sefer (26 Eylül 2026)
+
+Senaryo kullanıcıdan geldi ve eski "Kayıp Yedek" taslağının yerine geçti; taslak tamamen kaldırıldı. Büro **BPS Asayiş Masası**, nitelik yağma/gasp ve yaralama. Vakanın yeni olan yanı mekanik değil **yapı**: tek olay → iki ayrı eylem → iki ayrı sorumluluk. Yaralayan ile parayı alan farklı kişiler, bu yüzden sonuç raporu bu vakada dört sütunlu ([CASE002_DESIGN.md](CASE002_DESIGN.md)). Sütun motorda isteğe bağlıdır; Dosya #001 üç sütunlu kalır.
+
+Durum `[~]`: 13 düğüm, 31 soru, 170 metin anahtarı; doğrulayıcı vakayı baştan sona otomatik oynuyor ve desteklenen raporu gönderiyor. **Play Mode'da oynanmadı.** Açık iş: Selçuk, Deniz, Emre ve Kerem için piksel portreler.
 
 ## Kimlik
 
@@ -40,7 +46,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — işareti
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | **Baştan sona oynandı**; cihaz adımı açık |
 | M2 — Soruşturmayı oyuna çevirme | Oynanarak doğrulandı; cihaz adımı açık |
-| M3 — Vaka ekleme & kayıt | case002 taslak hâlde çalışıyor; kayıt göçü kodlandı `[~]` |
+| M3 — Vaka ekleme & kayıt | case002 "Son Sefer" yazıldı ve taslaklıktan çıktı `[~]`; kayıt göçü kodlandı `[~]` |
 | M4 — Mobil kalite kapısı | Derleme ayarları hazır; cihaz testi başlamadı |
 | M5 — Görsel ve ses | Ertelendi |
 | M6 — Sonraki sistemler | Beklemede |

@@ -29,6 +29,10 @@ public static class LocaleRules {
   "adalet bakanlığı", "içişleri bakanlığı", "valilik", "kaymakamlık",
   "interpol", "europol", "fbi", "türk polis teşkilatı",
   "türk ceza kanunu", "tck", "cmk", "kvkk", "türkiye cumhuriyeti",
+  // Gerçek birim adları ve kısaltmaları da kurum adıdır; büro adları kurgusal
+  // olanlardan ("bps asayiş masası" gibi) seçilir.
+  "kom", "narkotik", "tem", "asayiş şube müdürlüğü", "olay yeri inceleme şube müdürlüğü",
+  "kaçakçılık ve organize suçlarla mücadele", "adli tıp kurumu", "atk",
  };
 
  static readonly Regex WordBreak = new Regex(@"[^\p{L}\p{N}]+", RegexOptions.Compiled);

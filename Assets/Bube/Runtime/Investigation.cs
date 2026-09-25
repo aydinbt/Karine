@@ -368,7 +368,8 @@ public sealed class Investigation {
    evaluatedAtUtcTicks=DateTime.UtcNow.Ticks,trustChange=Career.departmentTrust-before,trustAfter=Career.departmentTrust,
    suspectId=pending.suspectId,methodId=pending.methodId,proofId=pending.proofId,
    suspectSourceId=pending.suspectSourceId,methodSourceId=pending.methodSourceId,proofSourceId=pending.proofSourceId,
-   suspectSupported=pending.suspectSupported,methodSupported=pending.methodSupported,proofSupported=pending.proofSupported
+   suspectSupported=pending.suspectSupported,methodSupported=pending.methodSupported,proofSupported=pending.proofSupported,
+   custodyId=pending.custodyId,custodySourceId=pending.custodySourceId,custodySupported=pending.custodySupported
   };
   // Bir vaka geçmişte birden çok satır tutabilir: ödüllü yeniden deneme eski
   // başarısızlığı silmez, yanına ikinci denemeyi yazar. Yeniden açılmamış bir

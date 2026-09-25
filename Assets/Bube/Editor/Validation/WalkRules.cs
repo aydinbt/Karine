@@ -33,8 +33,12 @@ public static class WalkRules {
      }
     if (game.Available(node)) game.Read(node.id);
    }
-  report.Require(game.State.read.Count == data.nodes.Length && game.CanConclude,
+  // Hangi düğümün açılmadığını söylemek, sayıyı söylemekten çok daha kullanışlı:
+  // vakayı yazan kişi zinciri elle taramak zorunda kalmıyor.
+  var unread = data.nodes.Where(n => !game.State.read.Contains(n.id)).Select(n => n.id).ToArray();
+  report.Require(unread.Length == 0 && game.CanConclude,
    "Erişilemeyen içerik: okunan " + game.State.read.Count + "/" + data.nodes.Length +
+   (unread.Length == 0 ? "" : ", açılmayan: " + string.Join(", ", unread)) +
    (game.CanConclude ? "" : ", rapor gönderilemiyor"));
  }
 

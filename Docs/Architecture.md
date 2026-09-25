@@ -32,8 +32,8 @@ Eski `Bootstrap.unity` build listesinde **değildir**; `BootScene` ile byte düz
 - `Resources/Bube/config.json` — başlangıç vakası, dil, `worldIntros` tablosu.
 - `Resources/Bube/career-rules.json` — güven eşikleri ve puan değişimleri.
 - `Resources/Bube/Cases/case001.json` — 9 düğüm, 30 soru. Yayımlanmış.
-- `Resources/Bube/Cases/case002.json` — 7 düğüm, 12 soru, `draft: true`. Oyuncuya açılmaz (kod `draft` bayrağına uyuyor: `BubeApp.cs:91`, `:2748`).
-- `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (86 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
+- `Resources/Bube/Cases/case002.json` — "Son Sefer", 13 düğüm, 31 soru. Taslak değil: `draft` bayrağı 26 Eylül 2026'da kaldırıldı, vaka zincirde case001'in ardından geliyor. Dört sütunlu rapor kullanan ilk vaka.
+- `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (170 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
 - `Resources/Bube/Audio/` — dokuz klip. `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `ui_chat`/`ui_chat_low`, `menu_theme`, `desk_theme`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
 - `StreamingAssets/Bube/` — `world01_intro.mp4` (4.1 MB) + 4 CCTV klibi (12 MB).
 
@@ -171,7 +171,7 @@ Sihirbaz adım sayısını `BubeApp.ReportColumns()` üretir, bu yüzden hiçbir
 
 Portre PNG'si yoksa piksel portre çizilir ve tonları vaka verisinden gelir (`Node.portrait`: `hairHex`, `skinHex`, `shirtHex`, `longHair`, `moustache`); alan boşsa varsayılan kullanılır. Doğrulayıcı vakaya özel C# kuralı **istemez** — `ContentValidator`ın kancaları isteğe bağlıdır, yeni vaka genel yoldan geçer.
 
-Bu hedef case002 taslağıyla **veri düzeyinde** doğrulandı; oyuncu akışında (geçiş, kayıt, faks zamanlaması) henüz Play Mode'da kanıtlanmadı.
+Bu hedef case002 ile **veri düzeyinde** doğrulandı: doğrulayıcı vakayı baştan sona otomatik oynuyor, on üç düğümün hepsini açıyor ve desteklenen dört sütunlu raporu gönderiyor. Oyuncu akışı (geçiş, kayıt, faks zamanlaması) henüz Play Mode'da kanıtlanmadı.
 
 ## Ses
 

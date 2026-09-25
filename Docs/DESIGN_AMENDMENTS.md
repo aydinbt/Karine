@@ -653,3 +653,11 @@ Bölüm seçici maketi on ülke × yedi dosya gösteriyordu, kanon ise yedi dün
 
 **Yan etki, açıkça yazılıyor:** ülke sırası artık bağlayıcı bir ilerleme kuralıdır. Eski not ("ülkelerin sırası kariyerin sabit ilerleme kuralı olarak buradan çıkarılmaz") bölüm seçicinin kilidiyle çelişiyordu; belge kilide göre düzeltildi. Kilit yine yalnız ilerlemeyi gösterir, sıradaki adımı söylemez.
 
+
+## Dosya #002 "Son Sefer" ve dört sütunlu rapor (26 Eylül 2026)
+
+Vaka 2'nin senaryosu kullanıcı tarafından yazıldı ve eski "Kayıp Yedek" taslağının yerine geçti; taslak veriyle birlikte tamamen kaldırıldı. Yeni vaka kişilere karşı işlenen suçlar alanındadır (yağma/gasp — yaralama) ve **BPS Asayiş Masası**na bağlıdır. Gerçek birim adları yasak listesine eklendi (KOM, narkotik, TEM, adli tıp kurumu ve açık yazımları); büro adları kurmaca BPS adlarından seçilir.
+
+Tasarım kararı: bir olayda birden fazla sorumluluk olabilir. Selçuk Yalın'ı yaralayan Emre Koç'tur, ama parayı alan Kerem Şahin'dir; Deniz Arslan olaydan önce ayrılmıştır ve suçsuzdur. Mağdur da yalan söyler (kayıt dışı borcu saklar) ama mağdurdur — **yalan söylemek fail olmak değildir**. Oyun hiçbir yerde "şu kişi yalan söylüyor" demez; kimseyi bir sonraki kaynağa yönlendirmez.
+
+Motor karşılığı: sonuç raporu artık vakadan gelen isteğe bağlı bir dördüncü sütun taşıyabilir (`CaseData.custody`). Sütun yalnız vaka tanımlarsa sorulur, sihirbaz adım sayısı veriden gelir ve yanlış kişi yazmak fail sütunundaki gibi asılsız suçlama sayılır. Üç sütunlu vakalarda hiçbir şey değişmez.
