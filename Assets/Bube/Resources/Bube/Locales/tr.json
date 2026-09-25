@@ -1,6 +1,10 @@
 {
   "entries": [
     {
+      "key": "intro.fastForward",
+      "value": "İLERİ SAR"
+    },
+    {
       "key": "intro.skip",
       "value": "Geç"
     },
@@ -295,6 +299,22 @@
     {
       "key": "conclude.evidence",
       "value": "Belirleyici kanıt"
+    },
+    {
+      "key": "conclude.confirm.title",
+      "value": "BU İŞLEMİ ONAYLIYOR MUSUN?"
+    },
+    {
+      "key": "conclude.confirm.body",
+      "value": "Gönderdiğin karar geri alınamaz."
+    },
+    {
+      "key": "conclude.confirm.cancel",
+      "value": "VAZGEÇ"
+    },
+    {
+      "key": "conclude.confirm.send",
+      "value": "ONAYLA"
     },
     {
       "key": "conclude.submit",
@@ -1158,7 +1178,15 @@
     },
     {
       "key": "inbox.faxNotice",
-      "value": "GELEN EVRAK  •  1 YENİ FAKS"
+      "value": "YENİ FAKS VAR"
+    },
+    {
+      "key": "inbox.faxNotice.detail",
+      "value": "Masana kurumsal bir faks bırakıldı."
+    },
+    {
+      "key": "inbox.notice.open",
+      "value": "GÖRÜNTÜLE"
     },
     {
       "key": "inbox.faxTitle",
@@ -1382,7 +1410,11 @@
     },
     {
       "key": "inbox.newDocument",
-      "value": "GELEN EVRAK  •  YENİ RAPOR"
+      "value": "YENİ EVRAK VAR"
+    },
+    {
+      "key": "inbox.newDocument.detail",
+      "value": "Masana yeni bir rapor gönderildi."
     },
     {
       "key": "inbox.title",

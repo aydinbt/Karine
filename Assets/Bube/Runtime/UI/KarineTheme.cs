@@ -76,6 +76,9 @@ public static class KarineTheme {
   public static readonly Color Ink   = Hex("#212933"); // kâğıdın üstündeki yazı
   public static readonly Color Faded = Hex("#635C4F"); // ikincil satır, tarih
   public static readonly Color Stamp = Hex("#733A2E"); // mühür/arma kahvesi
+  public static readonly Color Light = Hex("#FAEDD4"); // kâğıdın aydınlık yeri
+  public static readonly Color Tint  = Hex("#D1C2A6"); // kâğıdın üstündeki kart/şerit
+  public static readonly Color Edge  = Hex("#9E927C"); // kâğıt üstü çizgi ve kenar
  }
 
  // "#RRGGBB" → Color. Ayrıştırılamayan değer sessizce siyaha düşmez, magenta

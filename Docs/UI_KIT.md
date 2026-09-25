@@ -74,6 +74,27 @@ Aynı işlev her ekranda aynı ikon: Dosyalar = `folder`, Evrak = `document`, Ay
 
 Basma ~100 ms, panel ~200 ms, modal ~220 ms, bildirim ~250 ms. Yalnız fade, küçük kayma ve hafif ölçek. Bounce, elastic ve mobil oyun "pop" animasyonu yasaktır.
 
+## Ekranların bileşenlere taşınması
+
+Ekranlar kit bileşenlerine taşındı:
+
+| Ekran / parça | Artık ne kullanıyor |
+| --- | --- |
+| Terminal kaynak sekmeleri, tablet talep sekmeleri, görüşme soru/geçmiş, kaynak tür süzgeci | `KarineUI.Tabs` |
+| Masadaki faks ve yeni evrak uyarısı | `KarineUI.Notification` (başlık + açıklama + tek eylem) |
+| Gelen evrak rozeti | kit kırmızısı + `Technical` sayı |
+| Kariyeri sıfırlama onayı | `KarineUI.Modal` (yıkıcı) |
+| Rapor gönderme onayı | `KarineUI.Modal` — "Gönderdiğin karar geri alınamaz." |
+| Ayarlar metin hızı | `KarineUI.Radio` (eskiden iki birincil düğme) |
+| Kariyer ekranı güven ve vaka sayısı | `KarineUI.Meter` / `KarineUI.Counter` |
+| Dünya girişi ve masaya varış filmleri | `KarineUI.CinematicControls` (duraklat, ilerleme, süre, İLERİ SAR, GEÇ) |
+| Saat, tarih, damga, sayfa sayacı, kayıt numarası | `KarineUI.Technical` (monospace) |
+| Menü örtüsü, ayarlar/hakkında kartı | `KarineUI.Panel` + `Title` + `Rule` |
+
+**Sinematik kontroller**, kit §7'nin istediği gibi bütün oyunda tek biçimdir. İLERİ SAR oynatma hızını 2×'e alır, GEÇ sahneyi tamamen atlar — ikisi ayrı düğmedir ve test bunu kilitler. Tek istisna: bazı filmlerde "GEÇ" üretici filigranının **üstüne oturmak zorunda** olduğu için çubuğun içinde değil, kendi yerinde durur; çubuk o ekranlarda kısalır.
+
+**Kâğıt tonları birleştirildi.** Kâğıt katmanında birbirinden bir iki basamak farklı otuzdan fazla bej vardı (`.82/.76/.65`, `.79/.72/.61`, `.78/.71/.61` …). Hepsi `KarineTheme.Paper` altındaki beş tona indi: `Sheet`, `Light`, `Tint`, `Edge`, `Stamp`, `Ink`, `Faded`. Kit "kendi başına yeni bir stil icat etme" dediği için bu tonlar tek yerde durur.
+
 ## Ham renk borcu
 
-Kit'ten **önce** yazılmış ekranlarda hâlâ 156 adet doğrudan `new Color(...)` çağrısı var. Hepsi tek oturumda temizlenmedi; bunun yerine doğrulayıcıya bir **kilit** kondu: sayı 156'yı aşarsa derleme doğrulaması düşer. Yeni kod rengi `KarineTheme`den alır, bu sayı ancak aşağı çekilir. Borç azaldığında doğrulayıcı bunu not olarak söyler ve `RawColorBudget` düşürülür.
+Kit'ten **önce** yazılmış ekranlarda 156 doğrudan `new Color(...)` çağrısı vardı; taşıma sonrası **65** kaldı. Kalanlar çoğunlukla CCTV taraması gibi saydamlıklı efektler ve piksel portrelerin ten tonlarıdır — bunlar oyun sanatıdır, arayüz paleti değil. Doğrulayıcıda bir **kilit** var: sayı 65'i aşarsa doğrulama düşer. Yeni kod rengi `KarineTheme`den alır; bu sayı ancak aşağı çekilir.

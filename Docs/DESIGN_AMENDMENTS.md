@@ -433,3 +433,17 @@ Kullanıcının verdiği UI/UX Kit görseli artık **spesifikasyondur**, ilham d
 
 **Ham renk borcu kilitlendi.** Kit'ten önce yazılmış ekranlarda 156 doğrudan `new Color(...)` kaldı. Hepsini bir oturumda çevirmek soruşturma ekranlarını gözle doğrulanamayacak kadar çok değiştirirdi; bunun yerine doğrulayıcıya sayının **büyümesini** engelleyen bir kilit kondu. Borç ancak aşağı iner.
 
+## Ekranlar kit bileşenlerine taşındı (25 Eylül 2026)
+
+Tema kurulduktan sonra ekranlar tek tek `KarineUI` bileşenlerine bağlandı: dört ayrı yerde elle kurulmuş sekme şeridi `Tabs`e, masadaki iki uyarı `Notification`a, kariyeri sıfırlama ve rapor gönderme onayları `Modal`a, ayarların metin hızı `Radio`ya, kariyer ekranının güven ve vaka sayıları `Meter`/`Counter`a, saat/tarih/damga/sayfa sayacı `Technical`a geçti.
+
+**Rapor gönderme artık onay soruyor.** Kit'in modal örneği birebir bu an için yazılmış ("Gönderdiğin karar geri alınamaz."). Onay yalnız kararı sorar; hangi şüphelinin doğru olduğuna dair hiçbir şey söylemez, yani oyuncu güdümlü soruşturma kuralı bozulmaz.
+
+**Sinematik kontroller kit §7'ye göre kuruldu.** Eskiden filmlerde tek bir "GEÇ" düğmesi vardı. Artık duraklat, ilerleme çubuğu, süre, İLERİ SAR (2× hız) ve GEÇ var; kit'in "bunlar aynı etkileşim değildir" kuralı testle kilitlendi. Bazı filmlerde GEÇ üretici filigranının üstüne oturmak zorunda olduğu için çubuğun dışında kalıyor — işlevsel bir zorunluluk, kit'ten sapma değil.
+
+**Ayarlardaki iki seçenek birden birincil düğmeydi**, yani ekranda iki dominant eylem görünüyordu. Kit'in radyo grubuna çevrildi.
+
+**Kâğıt tonları beşe indi.** Diegetic katmanda birbirinden bir iki basamak farklı otuzdan fazla bej vardı; `KarineTheme.Paper` altında `Sheet`/`Light`/`Tint`/`Edge`/`Stamp`/`Ink`/`Faded` olarak toplandı. Bu **görünümü bir miktar değiştirir** ve gözle bakılması gereken tek yer burasıdır.
+
+Ham renk borcu 156'dan **65'e** indi; kalanlar CCTV taraması gibi saydamlıklı efektler ve piksel portre ten tonları, yani oyun sanatı.
+

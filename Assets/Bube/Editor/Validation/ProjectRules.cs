@@ -23,10 +23,14 @@ public static class ProjectRules {
  public static readonly string[] KitIcons = {
   "folder", "document", "gear", "binoculars", "pin", "people", "chart", "more",
   "close", "alert", "info", "nav_prev", "nav_next", "menu_quit",
+  "cine_pause", "cine_forward", "cine_skip",
  };
 
- // 25 Eylül 2026'da ölçülen borç. Yalnız aşağı çekilir.
- const int RawColorBudget = 156;
+ // Ham renk borcu. 156 ile başladı; ekranlar bileşenlere taşınırken 65'e indi.
+ // Kalanlar çoğunlukla CCTV taraması gibi saydamlıklı efektler ve piksel
+ // portre ten tonlarıdır — bunlar oyun sanatı, arayüz paleti değil.
+ // Yalnız aşağı çekilir.
+ const int RawColorBudget = 65;
 
  public static void Validate(ValidationReport report) {
   report.Scope("proje");

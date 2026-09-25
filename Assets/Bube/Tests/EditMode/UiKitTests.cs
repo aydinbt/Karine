@@ -177,6 +177,64 @@ public sealed class UiKitTests {
   Assert.LessOrEqual(card.style.maxWidth.value.value, 480);
  }
 
+ // Sinematik kontroller: kit §7. İLERİ SAR ile GEÇ **ayrı** eylemlerdir ve
+ // ayrı düğmelerdir; çubuk ayrıca duraklat, ilerleme ve süreyi taşır.
+ [Test]
+ public void CinematicControls_KeepFastForwardAndSkipApart() {
+  var host = Host();
+  var bar = KarineUI.CinematicControls(host, () => true, null,
+   () => { }, "İLERİ SAR", () => { }, "GEÇ",
+   () => .5f, () => "00:12 / 01:24");
+  var buttons = bar.Query<Button>().ToList();
+  var forward = buttons.Single(button => button.text == "İLERİ SAR");
+  var skip = buttons.Single(button => button.text == "GEÇ");
+  Assert.AreNotSame(forward, skip, "İki eylem tek düğmeye bağlanamaz.");
+  Assert.AreEqual(3, buttons.Count, "Duraklat + İLERİ SAR + GEÇ.");
+  Assert.IsTrue(bar.Query<Label>().ToList().Any(label => label.text.Contains("/")),
+   "Süre göstergesi yok.");
+ }
+
+ // Sahne atlanamıyorsa GEÇ hiç çizilmez; yerine boş bir düğme konmaz.
+ [Test]
+ public void CinematicControls_WithoutSkip_DrawNoSkipButton() {
+  var bar = KarineUI.CinematicControls(Host(), () => true, null,
+   () => { }, "İLERİ SAR", null, null, () => 0f, () => "00:00 / 00:00");
+  Assert.AreEqual(2, bar.Query<Button>().ToList().Count);
+ }
+
+ // Zaman biçimi kit'in yazdığı gibi: `00:12 / 01:24`.
+ [Test]
+ public void Clock_ReadsLikeTheKit() {
+  Assert.AreEqual("00:12 / 01:24", KarineUI.Clock(12, 84));
+  Assert.AreEqual("00:00 / 00:00", KarineUI.Clock(double.NaN, -3),
+   "Video hazır değilken saat çöp göstermez.");
+ }
+
+ // Radyo: seçili olan dolu halka ve krem yazı; birbirini dışlayan ayarlarda
+ // iki birincil düğme yerine bu kullanılır.
+ [Test]
+ public void Radio_ShowsExactlyOneFilledRing() {
+  var host = Host();
+  var chosen = KarineUI.Radio(host, "Anında", true, null);
+  var other = KarineUI.Radio(host, "Normal", false, null);
+  Assert.AreEqual(1, chosen[0].childCount, "Seçili radyonun içi dolu olmalı.");
+  Assert.AreEqual(0, other[0].childCount);
+  Assert.GreaterOrEqual(chosen.style.minHeight.value.value, KarineTheme.TouchTarget);
+ }
+
+ // Durum göstergesi: çubuk oranı kırpılır, sayı monospace kalır.
+ [Test]
+ public void Meter_ClampsAndStaysTechnical() {
+  var host = Host();
+  var meter = KarineUI.Meter(host, "gear", "KURUM GÜVENİ", 1.4f);
+  var fill = meter.Query<VisualElement>().ToList().First(element =>
+   element.style.width.value.unit == LengthUnit.Percent && element.style.width.value.value > 0);
+  Assert.AreEqual(100f, fill.style.width.value.value, "Oran %100'ü aşamaz.");
+  var counter = KarineUI.Counter(Host(), "folder", "TAMAMLANAN VAKA", "3 / 70");
+  var number = counter.Query<Label>().ToList().Last();
+  Assert.AreEqual("3 / 70", number.text);
+ }
+
  // Diegetic katman ayrı: kâğıdın rengi HUD panelinin rengi değildir.
  [Test]
  public void PaperLayer_IsNotTheHudPalette() {

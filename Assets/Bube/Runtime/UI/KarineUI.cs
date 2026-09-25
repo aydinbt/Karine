@@ -213,7 +213,8 @@ public static class KarineUI {
 
  // --- Sekme ----------------------------------------------------------------
 
- public static VisualElement Tabs(VisualElement parent, string[] labels, int selected, Action<int> onSelect) {
+ public static VisualElement Tabs(VisualElement parent, string[] labels, int selected, Action<int> onSelect,
+                                 bool stretch = false) {
   var strip = Row(parent);
   strip.style.backgroundColor = KarineTheme.Panel;
   strip.style.marginBottom = KarineTheme.SpaceMd;
@@ -223,6 +224,7 @@ public static class KarineUI {
    var tab = new Button(() => onSelect?.Invoke(captured)) { text = labels[index] };
    tab.style.minHeight = KarineTheme.TouchTarget;
    tab.style.fontSize = Typography.Snap(15);
+   if (stretch) { tab.style.flexGrow = 1; tab.style.whiteSpace = WhiteSpace.Normal; }
    tab.style.marginLeft = 0; tab.style.marginRight = 0;
    tab.style.marginTop = 0; tab.style.marginBottom = 0;
    Border(tab, 0, Color.clear);
@@ -234,6 +236,79 @@ public static class KarineUI {
    strip.Add(tab);
   }
   return strip;
+ }
+
+ // --- Seçim: radyo ve anahtar ----------------------------------------------
+
+ // Kit'teki SEÇİM RADYO: dolu halka seçili, boş halka değil. Birbirini dışlayan
+ // ayarlar için; iki düğmeyi birden birincil yapmak yerine bu kullanılır.
+ public static Button Radio(VisualElement parent, string label, bool selected, Action onSelect) {
+  var row = new Button(onSelect);
+  row.style.flexDirection = FlexDirection.Row;
+  row.style.alignItems = Align.Center;
+  row.style.minHeight = KarineTheme.TouchTarget;
+  row.style.backgroundColor = Color.clear;
+  row.style.marginLeft = 0; row.style.marginRight = 0;
+  row.style.marginTop = 0; row.style.marginBottom = KarineTheme.SpaceXs;
+  row.style.paddingLeft = 0;
+  row.style.unityTextAlign = TextAnchor.MiddleLeft;
+  Border(row, 0, Color.clear);
+  parent?.Add(row);
+
+  var ring = new VisualElement();
+  ring.style.width = 20; ring.style.height = 20; ring.style.flexShrink = 0;
+  ring.style.alignItems = Align.Center; ring.style.justifyContent = Justify.Center;
+  ring.style.marginRight = KarineTheme.SpaceMd;
+  Border(ring, KarineTheme.BorderWidth, selected ? KarineTheme.Primary : KarineTheme.Muted);
+  Round(ring, 10);
+  row.Add(ring);
+  if (selected) {
+   var core = new VisualElement();
+   core.style.width = 10; core.style.height = 10;
+   core.style.backgroundColor = KarineTheme.Primary;
+   Round(core, 5);
+   ring.Add(core);
+  }
+
+  var text = new Label(label);
+  text.style.color = selected ? KarineTheme.Primary : KarineTheme.Secondary;
+  text.style.fontSize = Typography.Snap(17);
+  ApplyFont(text, Body);
+  row.Add(text);
+  return row;
+ }
+
+ // --- Durum göstergesi -----------------------------------------------------
+
+ // Kit'in "DURUM GÖSTERGELERİ" kutusu: ikon + etiket + çubuk (Kurum Güveni)
+ // ya da ikon + etiket + sayı (Tamamlanan Vaka 3 / 70). Sayı monospace'tir.
+ public static VisualElement Meter(VisualElement parent, string icon, string label, float ratio) {
+  var card = Panel(parent, true);
+  card.style.flexDirection = FlexDirection.Row;
+  card.style.alignItems = Align.Center;
+  Icon(card, icon, KarineTheme.Primary).style.marginRight = KarineTheme.SpaceMd;
+  var column = new VisualElement();
+  column.style.flexGrow = 1;
+  card.Add(column);
+  var name = Technical(column, label, 13);
+  name.style.marginBottom = KarineTheme.SpaceXs;
+  Progress(column, ratio);
+  return card;
+ }
+
+ public static VisualElement Counter(VisualElement parent, string icon, string label, string value) {
+  var card = Panel(parent, true);
+  card.style.flexDirection = FlexDirection.Row;
+  card.style.alignItems = Align.Center;
+  Icon(card, icon, KarineTheme.Primary).style.marginRight = KarineTheme.SpaceMd;
+  var column = new VisualElement();
+  column.style.flexGrow = 1;
+  card.Add(column);
+  Technical(column, label, 13).style.marginBottom = KarineTheme.SpaceXs;
+  var number = Technical(column, value, 19);
+  number.style.color = KarineTheme.Primary;
+  number.style.marginBottom = 0;
+  return card;
  }
 
  // --- Evrak gezintisi ------------------------------------------------------
@@ -254,6 +329,66 @@ public static class KarineUI {
   next.SetEnabled(index < count);
   next.style.marginRight = 0;
   return nav;
+ }
+
+ // --- Sinematik kontroller -------------------------------------------------
+
+ // Kit §7: PAUSE / PROGRESS / TIME / İLERİ SAR / GEÇ. Bütün oyunda aynı çubuk.
+ // İLERİ SAR ve GEÇ **ayrı** eylemlerdir: biri sahneyi hızlandırır, öteki atlar.
+ // Sinematik sırasında UI en azda kalsın diye çubuk saydam koyu bir şerittir.
+ public static VisualElement CinematicControls(
+   VisualElement parent, Func<bool> playing, Action togglePlay,
+   Action fastForward, string fastForwardLabel,
+   Action skip, string skipLabel,
+   Func<float> progress, Func<string> time) {
+  var bar = Row(parent);
+  bar.style.backgroundColor = new Color(0, 0, 0, .55f);
+  bar.style.paddingLeft = KarineTheme.SpaceMd; bar.style.paddingRight = KarineTheme.SpaceMd;
+  bar.style.paddingTop = KarineTheme.SpaceSm; bar.style.paddingBottom = KarineTheme.SpaceSm;
+  Border(bar, KarineTheme.BorderWidth, KarineTheme.Panel2);
+
+  var play = IconButton(bar, "cine_pause", togglePlay);
+  var track = Progress(bar, 0f);
+  track.style.flexGrow = 1;
+  track.style.marginLeft = KarineTheme.SpaceMd; track.style.marginRight = KarineTheme.SpaceMd;
+  var clock = Technical(bar, "00:00 / 00:00", 15);
+  clock.style.marginBottom = 0; clock.style.marginRight = KarineTheme.SpaceMd;
+
+  if (fastForward != null) {
+   var forward = Button_(bar, fastForwardLabel, fastForward, KarineButtonKind.Secondary);
+   forward.style.minHeight = KarineTheme.TouchTarget;
+   forward.style.marginBottom = 0;
+   forward.Insert(0, Icon(null, "cine_forward", KarineTheme.Primary));
+  }
+  if (skip != null) {
+   var skipButton = Button_(bar, skipLabel, skip, KarineButtonKind.Secondary);
+   skipButton.style.minHeight = KarineTheme.TouchTarget;
+   skipButton.style.marginBottom = 0; skipButton.style.marginRight = 0;
+   skipButton.Insert(0, Icon(null, "cine_skip", KarineTheme.Primary));
+  }
+
+  // Dört kez saniyede yenilemek yeter: zaman yazısı saniye çözünürlüğünde.
+  bar.schedule.Execute(() => {
+   var fill = track.childCount > 0 ? track[0] : null;
+   if (fill != null) fill.style.width = Length.Percent(Mathf.Clamp01(progress()) * 100f);
+   clock.text = time();
+   var glyph = play.childCount > 0 ? play[0] : null;
+   if (glyph != null) {
+    var art = Resources.Load<Texture2D>("Bube/Art/Icons/" + (playing() ? "cine_pause" : "nav_next"));
+    if (art != null) glyph.style.backgroundImage = new StyleBackground(art);
+   }
+  }).Every(250);
+  return bar;
+ }
+
+ // "00:12 / 01:24" — kit'in zaman biçimi.
+ public static string Clock(double seconds, double total) =>
+  Stamp(seconds) + " / " + Stamp(total);
+
+ static string Stamp(double seconds) {
+  if (double.IsNaN(seconds) || double.IsInfinity(seconds) || seconds < 0) seconds = 0;
+  int whole = (int)seconds;
+  return (whole / 60).ToString("00") + ":" + (whole % 60).ToString("00");
  }
 
  // --- Modal ----------------------------------------------------------------
