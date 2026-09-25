@@ -36,10 +36,20 @@ public static class CaseRules {
   RequireExactlyOneCorrect(data.verdicts?.Select(v => v.correct), "şüpheli", report);
   RequireExactlyOneCorrect(data.methods?.Select(m => m.correct), "yöntem", report);
   RequireExactlyOneCorrect(data.evidence?.Select(e => e.correct), "kanıt", report);
+  // Dördüncü sütun isteğe bağlıdır: tanımlanmadıysa hiç sorulmaz. Tanımlandıysa
+  // diğer sütunlarla aynı kurala uyar ve kendi etiketini taşımak zorundadır.
+  if ((data.custody ?? new Choice[0]).Length > 0) {
+   RequireExactlyOneCorrect(data.custody.Select(c => c.correct), "ikinci sorumluluk", report);
+   foreach (var choice in data.custody)
+    report.Forbid(MissingText(locale, choice.labelKey), "İkinci sorumluluk etiketi eksik: " + choice.id);
+   report.Forbid(!string.IsNullOrEmpty(data.custodyLabelKey) && MissingText(locale, data.custodyLabelKey),
+    "İkinci sorumluluk sütununun başlığı eksik: " + data.custodyLabelKey);
+  }
 
   foreach (var id in (data.verdicts ?? new Verdict[0]).SelectMany(v => v.supportingSourceIds ?? new string[0])
     .Concat((data.methods ?? new Choice[0]).SelectMany(v => v.supportingSourceIds ?? new string[0]))
-    .Concat((data.evidence ?? new Choice[0]).SelectMany(v => v.supportingSourceIds ?? new string[0]))) {
+    .Concat((data.evidence ?? new Choice[0]).SelectMany(v => v.supportingSourceIds ?? new string[0]))
+    .Concat((data.custody ?? new Choice[0]).SelectMany(v => v.supportingSourceIds ?? new string[0]))) {
    var parts = id.Split('#');
    var source = nodes.FirstOrDefault(n => n.id == parts[0]);
    report.Forbid(source == null || parts.Length > 2 || parts.Length == 2 &&

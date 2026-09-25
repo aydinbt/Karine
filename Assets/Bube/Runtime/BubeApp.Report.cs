@@ -14,9 +14,42 @@ namespace Bube {
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
  void Conclusion() { ConclusionStep(0); }
+ // Rapor sütunları vaka verisinden gelir. Üç sütun (fail / yöntem / kanıt)
+ // her vakada vardır; bir vaka `custody` tanımlarsa dördüncü sütun — olayda
+ // ikinci bir sorumluluk — araya girer. Sihirbaz adım sayısını buradan sayar,
+ // bu yüzden hiçbir yerde sabit "04" yoktur.
+ sealed class ReportColumn {
+  public string headingKey, sourceHeadingKey;
+  // Sütunun seçenekleri iki ayrı tipten gelebilir (`Verdict`, `Choice`); bu
+  // ekranın ihtiyacı olan yalnız kimlik ve etikettir.
+  public List<KeyValuePair<string,string>> choices;
+  public Func<string> pick, source;
+  public Action<string> setPick, setSource;
+ }
+ static List<KeyValuePair<string,string>> Options(IEnumerable<KeyValuePair<string,string>> items) => items.ToList();
+ List<ReportColumn> ReportColumns() {
+  var columns=new List<ReportColumn> {
+   new ReportColumn{headingKey="conclude.suspect",sourceHeadingKey="conclude.suspectSource",choices=Options(game.Data.verdicts.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+    pick=()=>selectedSuspect,setPick=v=>selectedSuspect=v,source=()=>selectedSuspectSource,setSource=v=>selectedSuspectSource=v},
+   new ReportColumn{headingKey="conclude.method",sourceHeadingKey="conclude.methodSource",choices=Options(game.Data.methods.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+    pick=()=>selectedMethod,setPick=v=>selectedMethod=v,source=()=>selectedMethodSource,setSource=v=>selectedMethodSource=v}
+  };
+  if(game.HasCustody)columns.Add(new ReportColumn{
+   headingKey=string.IsNullOrEmpty(game.Data.custodyLabelKey)?"conclude.custody":game.Data.custodyLabelKey,
+   sourceHeadingKey="conclude.custodySource",choices=Options(game.Data.custody.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   pick=()=>selectedCustody,setPick=v=>selectedCustody=v,source=()=>selectedCustodySource,setSource=v=>selectedCustodySource=v});
+  // Kanıt sütunu yalnız **okunmuş** kayıtları listeler; okunmamış bir belgeyi
+  // rapora yazmak zaten mümkün değildi.
+  columns.Add(new ReportColumn{headingKey="conclude.evidence",sourceHeadingKey="conclude.evidenceSource",
+   choices=Options(game.Data.evidence.Where(v=>game.State.read.Contains(v.id)).Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   pick=()=>selectedEvidence,setPick=v=>selectedEvidence=v,source=()=>selectedEvidenceSource,setSource=v=>selectedEvidenceSource=v});
+  return columns;
+ }
  void ConclusionStep(int step) {
   if(!game.CanConclude){FilePage();return;}
-  step=Mathf.Clamp(step,0,3);
+  var columns=ReportColumns();
+  int last=columns.Count;
+  step=Mathf.Clamp(step,0,last);
   showingInterviewList=false;
   VisualElement body;
   ReportSheet(T("conclude"),T("conclude.prompt"),out body,null,true);
@@ -24,55 +57,30 @@ public sealed partial class BubeApp {
   var dark=KarineTheme.Paper.Ink;
   var muted=KarineTheme.Paper.Faded;
   // Sayfa sayacı kit'in `03 / 07` biçimi: monospace, iki hane.
-  KarineUI.Technical(scroll,(step+1).ToString("00")+" / 04",15).style.color=muted;
-  string[] headings={"conclude.suspect","conclude.method","conclude.evidence","conclude.previewTitle"};
-  Text(scroll,T(headings[step]),dark,23).style.marginBottom=9;
+  KarineUI.Technical(scroll,(step+1).ToString("00")+" / "+(last+1).ToString("00"),15).style.color=muted;
+  Text(scroll,T(step==last?"conclude.previewTitle":columns[step].headingKey),dark,23).style.marginBottom=9;
   Button next=null;
+  Func<ReportColumn,bool> done=c=>c.pick()!=null && game.ReportSourceAvailable(c.source());
   Action refresh=()=>{
-   bool ready=step==0?selectedSuspect!=null && game.ReportSourceAvailable(selectedSuspectSource)
-    :step==1?selectedMethod!=null && game.ReportSourceAvailable(selectedMethodSource)
-    :step==2?selectedEvidence!=null && game.ReportSourceAvailable(selectedEvidenceSource)
-    :selectedSuspect!=null && selectedMethod!=null && selectedEvidence!=null
-     && game.ReportSourceAvailable(selectedSuspectSource)
-     && game.ReportSourceAvailable(selectedMethodSource)
-     && game.ReportSourceAvailable(selectedEvidenceSource);
+   bool ready=step==last?columns.All(c=>done(c)):done(columns[step]);
    if(next!=null){next.SetEnabled(ready);next.style.opacity=ready?1f:.45f;}
   };
-  if(step<3) {
+  if(step<last) {
+   var column=columns[step];
    Text(scroll,T("conclude.stepHelp"),muted,15);
-   var buttons=new List<Button>();var labels=new List<string>();var ids=new List<string>();
-   if(step==0)foreach(var v in game.Data.verdicts) {
-    var id=v.id;var label=T(v.labelKey);
-    ids.Add(id);labels.Add(label);
-    buttons.Add(ReportChoice(scroll,label,selectedSuspect==id,()=>{
-     if(selectedSuspect!=id){selectedSuspect=id;selectedSuspectSource=null;ConclusionStep(0);}
-    }));
+   foreach(var v in column.choices) {
+    var id=v.Key;var label=T(v.Value);
+    ReportChoice(scroll,label,column.pick()==id,()=>{
+     if(column.pick()!=id){column.setPick(id);column.setSource(null);ConclusionStep(step);}
+    });
    }
-   if(step==1)foreach(var v in game.Data.methods) {
-    var id=v.id;var label=T(v.labelKey);
-    ids.Add(id);labels.Add(label);
-    buttons.Add(ReportChoice(scroll,label,selectedMethod==id,()=>{
-     if(selectedMethod!=id){selectedMethod=id;selectedMethodSource=null;ConclusionStep(1);}
-    }));
-   }
-   if(step==2)foreach(var v in game.Data.evidence.Where(v=>game.State.read.Contains(v.id))) {
-    var id=v.id;var label=T(v.labelKey);
-    ids.Add(id);labels.Add(label);
-    buttons.Add(ReportChoice(scroll,label,selectedEvidence==id,()=>{
-     if(selectedEvidence!=id){selectedEvidence=id;selectedEvidenceSource=null;ConclusionStep(2);}
-    }));
-   }
-   if(step==0)ReportSourcePicker(scroll,"conclude.suspectSource",()=>selectedSuspectSource,id=>selectedSuspectSource=id,refresh);
-   if(step==1)ReportSourcePicker(scroll,"conclude.methodSource",()=>selectedMethodSource,id=>selectedMethodSource=id,refresh);
-   if(step==2)ReportSourcePicker(scroll,"conclude.evidenceSource",()=>selectedEvidenceSource,id=>selectedEvidenceSource=id,refresh);
+   ReportSourcePicker(scroll,column.sourceHeadingKey,column.source,column.setSource,refresh);
   } else {
-   var suspect=game.Data.verdicts.FirstOrDefault(v=>v.id==selectedSuspect);
-   var method=game.Data.methods.FirstOrDefault(v=>v.id==selectedMethod);
-   var proof=game.Data.evidence.FirstOrDefault(v=>v.id==selectedEvidence);
    Text(scroll,T("conclude.reviewHelp"),muted,15);
-   ReportReviewClaim(scroll,"conclude.suspect",suspect==null?"conclude.unselected":suspect.labelKey,selectedSuspectSource);
-   ReportReviewClaim(scroll,"conclude.method",method==null?"conclude.unselected":method.labelKey,selectedMethodSource);
-   ReportReviewClaim(scroll,"conclude.evidence",proof==null?"conclude.unselected":proof.labelKey,selectedEvidenceSource);
+   foreach(var column in columns) {
+    var chosen=column.choices.FirstOrDefault(v=>v.Key==column.pick());
+    ReportReviewClaim(scroll,column.headingKey,chosen.Value==null?"conclude.unselected":chosen.Value,column.source());
+   }
   }
   var nav=new VisualElement();nav.style.flexDirection=FlexDirection.Row;
   nav.style.marginTop=12;nav.style.marginBottom=12;scroll.Add(nav);
@@ -80,7 +88,7 @@ public sealed partial class BubeApp {
    var previous=KarineUI.PaperButton(nav,"‹  "+T("conclude.previous"),()=>ConclusionStep(step-1));
    previous.style.flexGrow=1;previous.style.minHeight=50;previous.style.marginRight=7;
   }
-  next=step==3
+  next=step==last
    ?KarineUI.PaperButton(nav,T("conclude.submit"),ConfirmSubmit,KarinePaperKind.Action)
    :KarineUI.PaperButton(nav,T("conclude.next")+"  ›",()=>ConclusionStep(step+1),KarinePaperKind.Action);
   next.style.flexGrow=1;next.style.minHeight=50;
@@ -90,10 +98,12 @@ public sealed partial class BubeApp {
  // olarak budur. Modal yalnız kararı sorar, ne seçileceğini söylemez.
  void ConfirmSubmit() {
   KarineUI.Modal(root,T("conclude.confirm.title"),T("conclude.confirm.body"),
-   T("conclude.confirm.cancel"),()=>ConclusionStep(3),
+   T("conclude.confirm.cancel"),()=>ConclusionStep(int.MaxValue),
    T("conclude.confirm.send"),Result);
  }
 
+ string ReportCustodyHeading(CaseData data) =>
+  T(string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey);
  void ReportReviewClaim(VisualElement parent,string headingKey,string choiceKey,string sourceId) {
   var ink=KarineTheme.Paper.Ink;
   var card=new VisualElement();card.style.backgroundColor=KarineTheme.Paper.Tint;
@@ -383,6 +393,8 @@ public sealed partial class BubeApp {
   var proof=game.Data.evidence.FirstOrDefault(v=>v.id==game.State.reportProof);
   if(suspect!=null)SummaryField(details,T("conclude.suspect"),T(suspect.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportSuspectSource));
   if(method!=null)SummaryField(details,T("conclude.method"),T(method.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportMethodSource));
+  var custody=(game.Data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==game.State.reportCustody);
+  if(custody!=null)SummaryField(details,ReportCustodyHeading(game.Data),T(custody.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportCustodySource));
   if(proof!=null)SummaryField(details,T("conclude.evidence"),T(proof.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportProofSource));
   var findings=Text(content,T("summary.sources"),dark,17);findings.style.marginTop=12;
   findings.style.backgroundColor=KarineTheme.Paper.Tint;
@@ -398,7 +410,7 @@ public sealed partial class BubeApp {
   FadeIn(paper);
  }
  void Result() {
-  if(game.SubmitFinalReport(selectedSuspect,selectedMethod,selectedEvidence,selectedSuspectSource,selectedMethodSource,selectedEvidenceSource)) {
+  if(game.SubmitFinalReport(selectedSuspect,selectedMethod,selectedEvidence,selectedSuspectSource,selectedMethodSource,selectedEvidenceSource,selectedCustody,selectedCustodySource)) {
    game.BeginNextCaseReview(7);
    Save();CaseSummary();
   }
@@ -422,8 +434,8 @@ public sealed partial class BubeApp {
    game=new Investigation(nextData,progress,game.Career,careerRules){Text=locale};
    game.Career.activeCaseId=nextId;
    game.BeginNextCaseReview(7);
-   selectedSuspect=selectedMethod=selectedEvidence=null;
-   selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=null;
+   selectedSuspect=selectedMethod=selectedEvidence=selectedCustody=null;
+   selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=selectedCustodySource=null;
    Save();
    // Vaka arası: araya giren reklamın **tek** yeri burasıdır. Ağ yokken hiçbir
    // şey olmaz ve akış beklemez; reklam gösterilse de sonra aynı yere devam eder.
@@ -452,6 +464,8 @@ public sealed partial class BubeApp {
    var proof=reviewed.evidence.FirstOrDefault(v=>v.id==fax.proofId);
    if(person!=null)SummaryField(body,T("conclude.suspect"),T(person.labelKey)+" · "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"));
    if(method!=null)SummaryField(body,T("conclude.method"),T(method.labelKey)+" · "+T(fax.methodSupported?"fax.supported":"fax.unsupported"));
+   var custody=(reviewed.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
+   if(custody!=null)SummaryField(body,ReportCustodyHeading(reviewed),T(custody.labelKey)+" · "+T(fax.custodySupported?"fax.supported":"fax.unsupported"));
    if(proof!=null)SummaryField(body,T("conclude.evidence"),T(proof.labelKey)+" · "+T(fax.proofSupported?"fax.supported":"fax.unsupported"));
   }
   Text(body,T("career.trust")+"  "+T(game.TrustStatusKey)+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);

@@ -55,8 +55,8 @@ public sealed partial class BubeApp : MonoBehaviour {
  int comparePicker=-1;
  Font dossierFont, dossierBoldFont;
  FontSet fonts;
- string selectedSuspect, selectedMethod, selectedEvidence;
- string selectedSuspectSource, selectedMethodSource, selectedEvidenceSource;
+ string selectedSuspect, selectedMethod, selectedEvidence, selectedCustody;
+ string selectedSuspectSource, selectedMethodSource, selectedEvidenceSource, selectedCustodySource;
  bool showingInterviewList;
  string selectedInterviewTopic, selectedInterviewNodeId;
  bool showingInterviewHistory;

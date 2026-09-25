@@ -22,8 +22,8 @@ public sealed partial class BubeApp {
    T("restart.cancel"),()=>{confirmRestart=false;Home();},
    T("restart.confirm"),()=>{
    game=new Investigation(Load<CaseData>("Bube/Cases/"+config.initialCase),null,null,careerRules){Text=locale};
-   game.Career.activeCaseId=game.Data.id; selectedSuspect=selectedMethod=selectedEvidence=null;
-   selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=null;
+   game.Career.activeCaseId=game.Data.id; selectedSuspect=selectedMethod=selectedEvidence=selectedCustody=null;
+   selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=selectedCustodySource=null;
    Save(); confirmRestart=false; MaybeWorldIntro(Desk);
   },true);
  }
