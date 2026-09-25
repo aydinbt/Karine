@@ -170,6 +170,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   game.Career.activeCaseId=caseId;
   instantText=PlayerPrefs.GetInt("bube.instantText",0)==1;
   SoundSettings.Load();
+  AdGateway.Load();
   audio=AudioDirector.Attach(gameObject);
   // Kit'in her düğmesi basıldığında ses ister; çalan tek yer burası.
   KarineUI.Sound=id=>{ if(audio!=null)audio.Play(id); };

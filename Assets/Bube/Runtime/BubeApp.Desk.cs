@@ -243,7 +243,50 @@ public sealed partial class BubeApp {
   Text(body,T("fax.closing"),dark,15);
   Text(body,T("career.trust")+": "+T(TrustStatusKey(fax.trustAfter))+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);
   if(game.Career.retired)Text(body,T("career.ended"),dark,16);
+  // Rapor geri döndüyse ödüllü yöntem hatırlatması **teklif edilir**, dayatılmaz.
+  // Teklif yalnız reklam gösterilebilecekse görünür; gösterilemiyorsa ekranda
+  // çalışmayan bir düğme durmaz.
+  if(!fax.correct && AdGateway.MayShow(AdPlacement.RewardedGuidance,AdMoment.ReportRejected))
+   KarineUI.PaperButton(body,T("guidance.watch"),()=>OfferGuidance(),KarinePaperKind.Quiet);
  }
+
+ // Ödüllü ipucu ekranı. İçinde vakanın gerçeği **yok**: yöntem hatırlatması
+ // (işin kuralları) ve oyuncunun kendi kapsamı (sayılar). Doğrulayıcı bu
+ // metinlerde kişi adı, kaynak başlığı ve karar etiketi geçmesini yasaklar.
+ void OfferGuidance() {
+  AdGateway.Request(AdPlacement.RewardedGuidance,AdMoment.ReportRejected,granted=>{
+   if(granted)GuidancePage();
+   else { VisualElement card;MenuOverlay(T("guidance.title"),out card);
+    Text(card,T("guidance.unavailable"),Ink,17);
+    var gap=new VisualElement();gap.style.flexGrow=1;card.Add(gap);
+    Button(card,T("offer.back"),InboxPage); }
+  });
+ }
+
+ void GuidancePage() {
+  VisualElement card;MenuOverlay(T("guidance.title"),out card);
+  Text(card,T("guidance.body"),Muted,15);
+  for(int index=1;index<=4;index++) {
+   var key="guidance.method."+index;
+   if(locale.Has(key))Text(card,"· "+T(key),Ink,16);
+  }
+  KarineUI.Rule(card);
+  KarineUI.Subtitle(card,T("guidance.coverage.title"),17);
+  var coverage=Coverage.Of(game);
+  if(coverage.Complete)Text(card,T("guidance.coverage.complete"),Ink,16);
+  else {
+   CoverageMeter(card,"folder",T("guidance.coverage.sources"),coverage.SourcesOpen,coverage.SourcesAvailable);
+   CoverageMeter(card,"people",T("guidance.coverage.questions"),coverage.QuestionsAsked,coverage.QuestionsAvailable);
+   CoverageMeter(card,"pin",T("guidance.coverage.clues"),coverage.CluesPinned,coverage.CluesAvailable);
+  }
+  var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
+  Button(card,T("offer.back"),InboxPage);
+ }
+
+ // Sayı da oranla birlikte verilir: "4/9" oyuncunun kendi çalışmasıdır.
+ void CoverageMeter(VisualElement card,string icon,string label,int done,int total) =>
+  KarineUI.Meter(card,icon,label+"  "+done+"/"+Mathf.Max(total,done),
+   total<=0?1f:Mathf.Clamp01((float)done/total));
  void DrawFaxFinding(VisualElement body,CaseData data,string headingKey,string choiceKey,string sourceId,bool supported,string claim,Color dark) {
   var block=new VisualElement();block.style.marginTop=7;block.style.marginBottom=8;
   block.style.paddingLeft=12;block.style.paddingRight=12;

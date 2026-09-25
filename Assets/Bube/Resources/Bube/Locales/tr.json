@@ -2295,6 +2295,94 @@
   {
    "key": "chain.end.action",
    "value": "Kariyere bak"
+  },
+  {
+   "key": "guidance.title",
+   "value": "Yöntem hatırlatması"
+  },
+  {
+   "key": "guidance.body",
+   "value": "Aşağıdakiler vakaya değil, işin kendisine dairdir. Kararı yine sen vereceksin."
+  },
+  {
+   "key": "guidance.method.1",
+   "value": "Bir iddiayı ancak adı orada geçen bir kayıtla karşılaştırabilirsin. Adı geçmiyorsa o kayıt o kişiyi ilgilendirmez."
+  },
+  {
+   "key": "guidance.method.2",
+   "value": "Bir kaynağın açılması yeni bir kaynağı erişilebilir yapar; hangisine bakacağını sana kimse söylemez."
+  },
+  {
+   "key": "guidance.method.3",
+   "value": "Zaman çizelgesine aldığın her satırın bir kaynağı vardır. Kaynağı olmayan satır iddia değildir."
+  },
+  {
+   "key": "guidance.method.4",
+   "value": "Gönderdiğin sonucun üç ayağı da dayanağıyla birlikte durmalı: kişi, yöntem ve kanıt."
+  },
+  {
+   "key": "guidance.coverage.title",
+   "value": "Kendi çalışmanın ölçüsü"
+  },
+  {
+   "key": "guidance.coverage.sources",
+   "value": "Açılabilir kaynak"
+  },
+  {
+   "key": "guidance.coverage.questions",
+   "value": "Sorulabilir soru"
+  },
+  {
+   "key": "guidance.coverage.clues",
+   "value": "Çizelgeye alınan satır"
+  },
+  {
+   "key": "guidance.coverage.complete",
+   "value": "Önüne açılan her kaynağı açmış, her soruyu sormuşsun."
+  },
+  {
+   "key": "guidance.watch",
+   "value": "Hatırlatmayı aç (reklam)"
+  },
+  {
+   "key": "guidance.unavailable",
+   "value": "Şu an gösterilecek reklam yok."
+  },
+  {
+   "key": "ads.consent.title",
+   "value": "Kişiselleştirilmemiş reklam"
+  },
+  {
+   "key": "ads.consent.body",
+   "value": "Oyun, vakalar arasında reklam gösterebilir. Onay vermezsen reklam gösterilmez ve oyunun hiçbir bölümü kapanmaz."
+  },
+  {
+   "key": "ads.consent.deny",
+   "value": "Onay vermiyorum"
+  },
+  {
+   "key": "ads.consent.allow",
+   "value": "Onay veriyorum"
+  },
+  {
+   "key": "settings.ads",
+   "value": "Reklam"
+  },
+  {
+   "key": "settings.ads.status.granted",
+   "value": "Onay verildi"
+  },
+  {
+   "key": "settings.ads.status.denied",
+   "value": "Onay verilmedi"
+  },
+  {
+   "key": "settings.ads.status.unknown",
+   "value": "Henüz sorulmadı"
+  },
+  {
+   "key": "settings.ads.change",
+   "value": "Reklam onayını değiştir"
   }
  ]
 }

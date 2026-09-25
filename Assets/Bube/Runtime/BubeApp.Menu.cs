@@ -199,6 +199,12 @@ public sealed partial class BubeApp {
   SoundRow(card,SoundSettings.Music,level=>{SoundSettings.SetMusic(level);ApplySound();});
   KarineUI.Subtitle(card,T("settings.sfx"),17);
   SoundRow(card,SoundSettings.Sfx,level=>{SoundSettings.SetSfx(level);ApplySound();});
+  // Reklam onayı ayarlarda durur ve **her zaman geri alınabilir**; onay bir kez
+  // alınıp kilitlenen bir şey değildir.
+  KarineUI.Subtitle(card,T("settings.ads"),17);
+  Text(card,T("settings.ads.status."+
+   (AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),Muted,15);
+  Button(card,T("settings.ads.change"),AskForAdConsent);
   var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
   // Hakkında da menüden çıktı; ayarların içinde duruyor.
   Button(card,T("menu.about"),AboutPage);
@@ -214,6 +220,14 @@ public sealed partial class BubeApp {
   }
  }
  void ApplySound() { if(audio!=null)audio.ApplyLevels(); }
+
+ // Onay ekranı reklamdan **önce** gelir; onay yoksa hiçbir reklam gösterilmez
+ // ve oyunun hiçbir bölümü kapanmaz. Kit'in modalı yıkıcı değil, bu bir tercih.
+ void AskForAdConsent() {
+  KarineUI.Modal(root,T("ads.consent.title"),T("ads.consent.body"),
+   T("ads.consent.deny"),()=>{AdGateway.SetConsent(AdConsent.Denied);SettingsPage();},
+   T("ads.consent.allow"),()=>{AdGateway.SetConsent(AdConsent.Granted);SettingsPage();});
+ }
 
  void AboutPage() {
   VisualElement card;MenuOverlay(T("menu.about"),out card);

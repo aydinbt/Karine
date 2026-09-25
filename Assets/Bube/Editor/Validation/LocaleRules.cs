@@ -79,6 +79,12 @@ public static class LocaleRules {
    }
   }
 
+  // Ödüllü ipucu ekranının metni **vakanın gerçeğinden** bir şey söylemez.
+  // Kural elle korunamaz, çünkü ileride biri iyi niyetle "Hasan'ın ifadesine
+  // bak" yazar ve oyunun çekirdeği gider. Bu yüzden `guidance.` ile başlayan
+  // her metinde hiçbir kişi adı, kaynak başlığı ve karar etiketi geçmemeli.
+  ValidateGuidance(files, cases, report);
+
   var used = new HashSet<string>();
   var prefixes = new HashSet<string>();
   foreach (var file in SourceFiles()) {
@@ -99,6 +105,54 @@ public static class LocaleRules {
    report.Note(dead.Length + " anahtar hiçbir yerde kullanılmıyor görünüyor (çalışma anında birleştirilen " +
     "anahtarlar bu listeye yanlışlıkla girebilir): " + string.Join(", ", dead));
  }
+
+ // Yasak olan şeyler vakanın kendi metninden **türetilir**, elle listelenmez.
+ // İki ayrı biçimde aranır, çünkü riskleri farklıdır:
+ //  · kişi adı — tek sözcük yeter ("Hasan"), o yüzden büyük harfle başlayan
+ //    adlar ayrı ayrı yasaklanır;
+ //  · kaynak başlığı ve karar etiketi — bunlar "yöntem", "kayıt" gibi sıradan
+ //    sözcükler içerir, o yüzden yalnız **tam ifade** olarak aranır. Aksi hâlde
+ //    kural her masum cümlede yanlış alarm verir.
+ static void ValidateGuidance(IReadOnlyList<KeyValuePair<string, Locale>> files,
+  IReadOnlyList<CaseData> cases, ValidationReport report) {
+  var merged = new Dictionary<string, string>();
+  foreach (var file in files)
+  foreach (var entry in file.Value?.entries ?? new Entry[0])
+   if (entry?.key != null && !merged.ContainsKey(entry.key)) merged[entry.key] = entry.value;
+
+  var names = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+  var phrases = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+  foreach (var data in cases) {
+   foreach (var node in data.nodes ?? new Node[0]) {
+    foreach (var word in Value(merged, node.personNameKey).Split(' '))
+     if (word.Length > 2 && char.IsUpper(word[0])) names.Add(word.Trim('.', ',', ':', '—', '-'));
+    Add(phrases, Value(merged, node.titleKey));
+   }
+   foreach (var verdict in data.verdicts ?? new Verdict[0]) Add(phrases, Value(merged, verdict.labelKey));
+   foreach (var choice in (data.methods ?? new Choice[0]).Concat(data.evidence ?? new Choice[0]))
+    Add(phrases, Value(merged, choice.labelKey));
+  }
+
+  foreach (var pair in merged) {
+   if (!pair.Key.StartsWith("guidance.", StringComparison.Ordinal)) continue;
+   var text = pair.Value ?? string.Empty;
+   var words = new HashSet<string>(Words(text));
+   var leak = names.FirstOrDefault(name => words.Contains(name.ToLowerInvariant()))
+    ?? phrases.FirstOrDefault(phrase => text.IndexOf(phrase, StringComparison.OrdinalIgnoreCase) >= 0);
+   if (leak != null)
+    report.Problem("İpucu metni vakadan bir şey söylüyor (\"" + leak + "\"): " + pair.Key +
+     ". İpucu yalnız yöntemi ve oyuncunun kendi kapsamını anlatır.");
+  }
+ }
+
+ static void Add(HashSet<string> into, string value) {
+  // Tek sözcüklü etiketler ("Kayıt") tam ifade olarak da çok geneldir; onlar
+  // kişi adı değilse aranmaz.
+  if (!string.IsNullOrEmpty(value) && value.Trim().Contains(" ")) into.Add(value.Trim());
+ }
+
+ static string Value(Dictionary<string, string> merged, string key) =>
+  !string.IsNullOrEmpty(key) && merged.TryGetValue(key, out var value) && value != null ? value : string.Empty;
 
  static IEnumerable<string> SourceFiles() =>
   Directory.Exists("Assets/Bube")
