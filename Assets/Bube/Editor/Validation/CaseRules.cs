@@ -28,9 +28,10 @@ public static class CaseRules {
   // genel yedeğe düşer; o yedek bir zamanlar Dosya #001'i anlatıyordu, yani
   // ikinci vakayı kabul eden oyuncu birincinin özetini okuyordu. Artık her
   // vaka kendi teklif metnini yazmak zorunda.
-  foreach (var suffix in new[] { "offer.title", "offer.subtitle", "offer.summary" })
+  foreach (var suffix in new[] { "offer.title", "offer.subtitle", "offer.summary",
+                                "file.caseType", "tablet.caseLine" })
    report.Require(!MissingText(locale, data.id + "." + suffix),
-    "Vakanın teklif metni eksik: " + data.id + "." + suffix);
+    "Vakanın kendi kapak metni eksik: " + data.id + "." + suffix);
 
   // Vaka kendi ortam sesini söyleyebilir; söylediyse dosyası olmalı. Eksik
   // klip sessiz geçtiği için yazım hatası başka hiçbir yerde duyulmaz.

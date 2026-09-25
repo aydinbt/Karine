@@ -828,10 +828,7 @@
   }
  ],
  "conclusionRequires": [
-  "camera",
-  "scene",
-  "medical",
-  "financial"
+  "report"
  ],
  "summary": {
   "locationKey": "case002.summary.location",

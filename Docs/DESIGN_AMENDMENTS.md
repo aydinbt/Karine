@@ -681,3 +681,14 @@ Gelen evrak tepsisindeki teklif, anahtar yoksa genel yedeğe düşüyordu ve o
 yedek Dosya #001'i anlatıyordu: ikinci vakayı kabul eden oyuncu birincinin
 adını ve özetini okuyordu. `case002.offer.*` yazıldı, genel yedek nötrleşti ve
 doğrulayıcı artık her vakadan kendi teklif metnini istiyor.
+
+## 26 Eylül 2026 — Sonuç sekmesi her vakada aynı anda açılır
+
+Dosya #002 "Sonucu gönder" sekmesini dört belgenin okunmasına bağlıyordu;
+Dosya #001 yalnız ilk rapora bağlar. Oyuncu iki vakada farklı bir oyunla
+karşılaşıyordu. #002 de ilk rapora bağlandı: rapor her an gönderilebilir,
+desteksiz gönderim zaten değerlendirmede karşılığını buluyor.
+
+Kapak metinleri de (`file.caseType`, `tablet.caseLine`) vakaya özel anahtar
+yoksa genel yedeğe düşüyor ve Dosya #001'in "KONUT HIRSIZLIĞI" başlığını
+taşıyordu. Yedekler nötrleşti, doğrulayıcı her vakadan kendi kapağını istiyor.
