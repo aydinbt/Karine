@@ -15,10 +15,19 @@ namespace Bube {
 public sealed partial class BubeApp {
  void MaybeWorldIntro(Action after) {
   var world=(config.worldIntros ?? new WorldIntro[0]).FirstOrDefault(w=>w.firstCaseId==game.Data.id);
-  if(world==null || game.Career.seenWorldIntros.Contains(world.id)){after();return;}
+  if(world==null || game.Career.seenWorldIntros.Contains(world.id)){NewCaseArrival(after);return;}
   activeIntro=world;
   introAfter=after;
   PlayWorldIntro();
+ }
+ // Yeni dosya masaya **bırakılır**; oyuncu onu tepside hazır bulmaz. Dünyanın
+ // kendi varış filmi yalnız o dünyanın ilk dosyasında bir kez oynar; aynı
+ // dünyadaki sonraki her dosya bu çizilmiş bırakılışla gelir, böylece bölüm
+ // geçişi hiçbir zaman sessiz olmuyor. Kabul edilmiş bir vakaya dönerken
+ // animasyon oynamaz — bırakılış yalnız gelen dosyanın anıdır.
+ void NewCaseArrival(Action after) {
+  if(game.State.caseAccepted || game.Career.retired){after();return;}
+  StartCoroutine(FirstDeskArrival(after));
  }
  void PlayWorldIntro() {
   EnsureScene("OfficeScene");
@@ -231,7 +240,9 @@ public sealed partial class BubeApp {
   folder.style.backgroundColor=KarineTheme.Paper.Tint;
   folder.style.borderBottomWidth=7;folder.style.borderBottomColor=KarineTheme.Paper.FolderEdge;
   folder.style.paddingLeft=24;folder.style.paddingTop=20;root.Add(folder);
-  Text(folder,T("intro.firstFile"),Base,17);
+  // Kariyerin ilk dosyası ile sonraki dosyalar aynı animasyonu paylaşır, ama
+  // şerit farklıdır: ikinci dosyaya "ilk görevlendirme" demek yanlış olurdu.
+  Text(folder,T(game.Career.reviewHistory.Count==0?"intro.firstFile":"intro.newFile"),Base,17);
   var label=Text(folder,T(game.Data.titleKey),Base,24);
   if(dossierBoldFont!=null)label.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   float elapsed=0;

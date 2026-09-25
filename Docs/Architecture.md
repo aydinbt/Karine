@@ -148,6 +148,15 @@ Yazı tipi tektir (IBM Plex Mono, kök öğeden miras). Punto da tektir: `Typogr
 
 Masaya bırakılış videosu kendi içinde siyaha kapanır; masa da siyahtan 1,25 saniyede açılır (`OpenEyes`) ve açılma boyunca kaplayan gölge dokunmaları tutar. Masaya bırakılış videosu oynatılamazsa elle çizilmiş `FirstDeskArrival` animasyonu devreye girer. "Geç" ile videonun bitişi aynı yere gelir; `deskArrivalDone` bayrağı ikinci çağrıyı yutar.
 
+## Dosyanın masaya bırakılışı
+
+Yeni dosya masaya **bırakılır**, tepside hazır bulunmaz. İki yol var ve ikisi de `MaybeWorldIntro` üzerinden geçer:
+
+- Bir dünyanın **ilk** dosyasında, o dünyanın açılış filmi ve ardından `deskArrivalVideo` bir kez oynar (`config.json` → `worldIntros`). Video yoksa ya da oynatılamazsa elle çizilmiş bırakılış devreye girer.
+- Aynı dünyadaki **sonraki her dosya** doğrudan çizilmiş bırakılışla gelir (`NewCaseArrival` → `FirstDeskArrival`): masa siyahtan açılır, klasör yukarıdan kayarak masaya iner ve üstünde vakanın adı yazar. Şerit kariyerin ilk dosyasında `intro.firstFile`, sonrakilerde `intro.newFile`.
+
+Bırakılış yalnız **kabul edilmemiş** vakanın anıdır: kabul edilmiş bir vakaya dönerken animasyon oynamaz, görevden ayrılmış kariyerde hiç oynamaz. İki PlayMode testi bunu koruyor (`CaseArrivalTests`).
+
 ## Vaka teklifi akışı
 
 Ayrı bir tam ekran teklif ekranı **yoktur** (`CaseOffer()` kaldırıldı). Kabul edilmemiş vaka, `InboxPage()` içinde `InboxEntry.offer` alanı dolu olan en üstteki okunmamış evrak olarak listelenir; sağ sütun `offer.subtitle` + `offer.summary` önizlemesini ve `offer.accept` düğmesini çizer, düğme `AcceptCase()` → `Save()` → `Desk()` yapar. `Desk()` kabul edilmeden yalnız tepsi ve ana ekran kısayolunu açar. Rozet açık teklifi de sayar ve `badge.schedule.Execute(...).Every(520)` ile yanıp söner — zamanlayıcı rozetin paneline bağlı olduğu için ekran değişince kendiliğinden durur. `FirstDeskArrival()` kendi masa görselini çizmez, `Desk()`'i arka plan alır.
