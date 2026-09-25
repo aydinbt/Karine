@@ -291,3 +291,7 @@ Sonuç: dört kaynak-sunulan sorunun hepsinde kapsama **%100** — seçicide gö
 **Arama alanı kaldırıldı.** Telefonda klavye ekranın yarısını kaplıyordu ve liste zaten kişiye göre süzülüp 9-10 satıra indi. Tür sekmeleri (Tümü / Belgeler / İfadeler / CCTV) kaldı.
 
 **İki yeni kural.** Ne belirleyici kaynak ne de yem, `notPresentable` olabilir — olursa görüşmede hiç öne sürülemez, yani yanıt metni oyunda hiç çıkmaz. Kural hemen iş gördü: `hasan_follow.gap`'in `camera#lost` yemi bu yüzden silindi.
+
+## Görüşmede geri dönüş (25 Eylül 2026)
+
+Bir soruyu seçtikten sonra vazgeçmenin tek yolu **görüşmeyi tümden bitirmekti**. Hem kaynak seçicisine hem de kaynak gerektirmeyen sorunun "dinle" adımına "‹ Vazgeç · Sorulara dön" eklendi; ikisi de soru listesine döner, hiçbir şey sorulmuş sayılmaz.

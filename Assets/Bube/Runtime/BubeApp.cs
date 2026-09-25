@@ -1913,10 +1913,17 @@ public sealed class BubeApp : MonoBehaviour {
   } else if(phase==1) {
    if(game.QuestionNeedsSource(active)) {
     InterviewSourcePicker(questions,node,active,sourceId,referenceCard);
-   } else Button(questions,T("interview.listen"),()=>{
-    var reply=game.AnswerKey(active);
-    if(game.Ask(node.id,active.id)){Save();InterviewPage(node,active,2,reply);}
-   },true);
+   } else {
+    Button(questions,T("interview.listen"),()=>{
+     var reply=game.AnswerKey(active);
+     if(game.Ask(node.id,active.id)){Save();InterviewPage(node,active,2,reply);}
+    },true);
+    // Soruyu seçtikten sonra da vazgeçebilmeli; tek çıkış görüşmeyi bitirmek olmamalı.
+    Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
+    var back=questions.Children().Last() as Button;
+    back.style.minHeight=MinimumTouchTarget;back.style.fontSize=Typography.Snap(15);
+    back.style.backgroundColor=new Color(.14f,.20f,.20f);back.style.color=Ink;
+   }
   } else {
    if(referenceCard!=null)Button(questions,T("interview.openReference"),()=>referenceCard.style.display=DisplayStyle.Flex);
    Button(questions,T(sourceAccepted?"interview.next":"interview.tryAnotherSource"),
@@ -1968,6 +1975,11 @@ public sealed class BubeApp : MonoBehaviour {
    interviewSourceQuestionId=node.id+"/"+active.id;interviewSourceFilter=0;
   }
   Text(questions,T("interview.chooseSource"),Gold,16);
+  // Kaynak sunmaktan vazgeçmenin tek yolu görüşmeyi tümden bitirmekti.
+  Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
+  var cancel=questions.Children().Last() as Button;
+  cancel.style.minHeight=MinimumTouchTarget;cancel.style.fontSize=Typography.Snap(15);
+  cancel.style.backgroundColor=new Color(.14f,.20f,.20f);cancel.style.color=Ink;
   if(!string.IsNullOrEmpty(sourceId)) {
    var chosen=Text(questions,T("interview.selectedSource")+"  ·  "+ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId)),Ink,15);
    chosen.style.whiteSpace=WhiteSpace.Normal;
