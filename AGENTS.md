@@ -35,7 +35,7 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 **Açık içerik ihlali:** `DeskReference.png` görselinin içinde gerçek kurum adı ve polis armasına benzer rozet gömülüdür. Üst şerit artık her ekranda örtülüyor ama terminaldeki yazı ve armalar duruyor; **görselin yenilenmesi gerekiyor.** Metin denetimi görsellerin içini göremez.
 
-**Sıradaki darboğaz:** Dosya #001 bugüne kadar bir kez bile Play Mode'da baştan sona oynanmadı; **bu adım kullanıcıya ait**, Play Mode Editor gerektiriyor. M1 ve M2'nin bitiş ölçütleri buna bağlıdır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
+**Sıradaki darboğaz:** Masaya varış sinematiği, vaka teklifi ve masa yerleşimi 25 Eylül 2026'da Play Mode'da gözlendi. Ama Dosya #001 hâlâ **baştan sona** oynanmadı — soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları kanıtlanmadı; **bu adım kullanıcıya ait**. M1 ve M2'nin bitiş ölçütleri buna bağlıdır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
 
 ## Testleri koşmak
 

@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-İçerik doğrulayıcısı vaka başına ayrıldı ve tüm bulguları tek koşuda raporluyor; Dosya #001'in soruşturma **mantığı** uçtan uca otomatik testlerle doğrulanıyor ve `BubeApp` Play Mode'da hatasız açılıyor. Kalan boşluk **görsel/cihaz doğrulaması**: oyun hâlâ bir insan tarafından baştan sona oynanmadı ve hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md)).
+İçerik doğrulayıcısı vaka başına ayrıldı ve tüm bulguları tek koşuda raporluyor; Dosya #001'in soruşturma **mantığı** uçtan uca otomatik testlerle doğrulanıyor ve `BubeApp` Play Mode'da hatasız açılıyor. Açılış (masaya varış sinematiği, vaka teklifi, masa yerleşimi) 25 Eylül 2026'da Play Mode'da **gözlendi**. Kalan boşluk **oynanışın gerisi ve cihaz doğrulaması**: soruşturmanın tamamı hâlâ bir insan tarafından baştan sona oynanmadı ve hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md)).
 
 ## Kimlik
 
@@ -55,7 +55,7 @@
 ## Açık kritik maddeler
 
 1. **Terminal ekranındaki arma yaması görünüyor** — armanın yeri tek düz renkle dolduruldu, ekranın gradyanından ayrılıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcı kararıyla sonraya bırakıldı. Kurum adı ve terminal arması hem masa görselinden hem videodan temizlendi; dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
-1. **Dosya #001 hiç baştan sona oynanmadı** — M1 ve M2'nin bitiş ölçütleri buna bağlı (Faz 2). **Asıl darboğaz budur.**
+1. **Dosya #001 hiç baştan sona oynanmadı** (açılışı gözlendi, gerisi değil) — M1 ve M2'nin bitiş ölçütleri buna bağlı (Faz 2). **Asıl darboğaz budur.**
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. **Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor (Faz 3).
 4. ~~**Performans:** `Update()` her karede tam vaka JSON'u ayrıştırıyor; `Locale.Get` doğrusal arama yapıyor.~~ **Kodlandı (Faz 2), Play Mode'da gözlenmedi `[~]`** — beş düzeltme: görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`.
