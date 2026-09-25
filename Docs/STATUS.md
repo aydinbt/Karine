@@ -7,6 +7,10 @@
 
 İçerik doğrulayıcısı vaka başına ayrıldı ve tüm bulguları tek koşuda raporluyor; Dosya #001'in soruşturma **mantığı** uçtan uca otomatik testlerle doğrulanıyor ve `BubeApp` Play Mode'da hatasız açılıyor. Açılış (masaya varış sinematiği, vaka teklifi, masa yerleşimi) 25 Eylül 2026'da Play Mode'da **gözlendi**. Kalan boşluk **oynanışın gerisi ve cihaz doğrulaması**: soruşturmanın tamamı hâlâ bir insan tarafından baştan sona oynanmadı ve hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md)).
 
+## Dosya #001 hakkında (25 Eylül 2026 kullanıcı kararı)
+
+**Vaka #001'in içeriği şimdilik tamam sayılıyor.** Yeni ifade, kaynak, kanıt veya tur eklenmeyecek; vakanın tasarımı üstünde yeni iş açılmaz. Bu **doğrulamanın yapıldığı anlamına gelmez**: soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları hâlâ bir insan tarafından baştan sona oynanmadı ([PLAYTEST_001.md](PLAYTEST_001.md) §2-4), bu yüzden M1 ve M2 maddeleri `[~]` kalır. İçerik kapandığına göre sıradaki iş ya elle oynanış doğrulaması ya da başka bir eksen (cihaz derlemesi, case002) olur.
+
 ## Kimlik
 
 - **Oyun adı:** Karine — 25 Eylül 2026'da karara bağlandı ([NAMING.md](NAMING.md)).

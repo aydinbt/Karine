@@ -497,3 +497,9 @@ Kit taşımasının kalan iki borcu kapandı.
 **Punto.** Ekranlardaki her `style.fontSize` artık `Typography.Snap`ten geçiyor; doğrulayıcı geçmeyeni dosya:satır olarak bildiriyor. Tek istisna CCTV'nin görüntüyle ölçeklenen kamera yazısı.
 
 Her iki kilit de kaldırılıp denendi ve beklenen hatayı verdi. 77 EditMode + 7 PlayMode testi geçiyor. **Ama bu statik doğrulamadır:** ekranların yeni renklerle nasıl göründüğü Play Mode'da görülmedi, madde `[~]`.
+
+## Dosya #001'in içeriği kapandı (25 Eylül 2026)
+
+**Kullanıcı:** "şu an için tamam diyebiliriz vaka 001 için."
+
+Vaka #001'in tasarımı ve içeriği şimdilik yeterli sayılıyor: yeni ifade, kaynak, kanıt ya da soruşturma turu eklenmeyecek. Karar **içerik** hakkındadır, doğrulama hakkında değil — oynanışın baştan sona gözlenmesi hâlâ açık ve M1/M2 bu yüzden `[~]`. Sonraki oturumlar #001'i büyütmek yerine ya doğrulamaya ya başka bir eksene gider.
