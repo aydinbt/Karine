@@ -39,6 +39,9 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [x] **Vaka teklifi tam ekran olmaktan çıkıp masadaki gelen evrak tepsisine taşındı.** Rozet yanıp söner, oyuncu tepsiyi kendisi açar, önizlemeyi okur ve kabul eder; kabul edilmeden masada başka hiçbir şey açılmaz. Başsız **Play Mode testiyle akış uçtan uca koşturuldu ve gözlendi**.
 - [ ] **`DeskReference.png` görselinin içinde gerçek kurum adı ve arma var.** Üst şerit artık her ekranda `Desk()` tarafından örtülüyor, ama terminaldeki `EMNİYET SİSTEMİ` yazısı ve armalar duruyor. **Görselin yenilenmesi gerekiyor**; metin denetimi bunu yakalayamaz. Ayrıntı: `Docs/DESIGN_AMENDMENTS.md`.
 
+- [~] **Dosyanın masaya bırakılışı sinematik video oldu** (`case001_arrival.mp4`); filigran "Geç" düğmesiyle örtülüyor, filigran yeri veriden geliyor. Masa arka planı videonun son karesi; yerleşim ve iki metin yerleşimi **Play Mode'da gözle doğrulanmalı**.
+- [ ] **Sinematik videonun içinde hâlâ "EMNİYET SİSTEMİ" yazıyor.** Duran görselden silindi, videodan silinemedi — **video yeniden üretilmeli** (terminalde "BPS KAYIT SİSTEMİ" yazmalı).
+
 ## Her vaka için değişmeyen kabul kuralı
 
 Oyuncu kaynakları masadan kendisi açar, ifadeleri/kayıtları kendi karşılaştırır, yeni bilgiyle takip sorusunu seçer ve raporunu kanıtla savunur. Oyun otomatik ekran geçişi, görev oku, “çelişki bulundu” veya fail işaretiyle onun yerine dedektiflik yapmaz. Sonraki vakalar aynı omurgaya yeni kaynak/yetki ekler; aynı sırayı ve aynı araçları tekrarlamak zorunda değildir. `MASTER_GAME_CONTEXT.md` bu kuralın ana kaydıdır.

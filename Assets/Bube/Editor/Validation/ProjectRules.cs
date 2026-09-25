@@ -10,7 +10,7 @@ public static class ProjectRules {
  public static readonly string[] SceneOrder = { "BootScene", "MainMenuScene", "OfficeScene", "InterviewScene" };
 
  static readonly (string resource, string label)[] RequiredTextures = {
-  ("Bube/DeskReference", "masa arka planı"),
+  ("Bube/DeskV2", "masa arka planı"),
   ("Bube/CctvTabletHands", "CCTV tablet görseli"),
   ("Bube/MainMenuNight", "ana menü arka planı"),
   ("Bube/InterviewRoom", "görüşme odası arka planı"),
@@ -33,6 +33,11 @@ public static class ProjectRules {
 
   foreach (var (resource, label) in RequiredTextures)
    report.Require(Resources.Load<Texture2D>(resource) != null, "Görsel yok (" + label + "): " + resource);
+
+  // Sinematikler Resources'ta degil StreamingAssets'ta durur; eksik bir video
+  // oyunu durdurmaz ama o anin sessizce kaybolmasi fark edilmelidir.
+  foreach (var video in new[] { "world01_intro.mp4", "case001_arrival.mp4" })
+   report.Require(File.Exists("Assets/StreamingAssets/Bube/" + video), "Sinematik video yok: " + video);
  }
 }
 }

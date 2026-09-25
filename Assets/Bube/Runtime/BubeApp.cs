@@ -73,6 +73,8 @@ public sealed class BubeApp : MonoBehaviour {
  VisualElement introPlace;
  Button introSkip;
  WorldIntro activeIntro;
+ CornerMark activeMark;
+ bool deskArrivalDone;
  Action introAfter;
  VideoPlayer cctvPlayer;
  RenderTexture cctvTexture;
@@ -733,6 +735,7 @@ public sealed class BubeApp : MonoBehaviour {
   skip.style.color=Ink;skip.style.fontSize=Typography.Snap(16);root.Add(skip);
   if(activeIntro.skipCoversCornerMark) {
    introSkip=skip;
+   activeMark=activeIntro.skipMark ?? new CornerMark();
    root.RegisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
    skip.schedule.Execute(PositionIntroSkip).StartingIn(0);
   }
@@ -750,17 +753,21 @@ public sealed class BubeApp : MonoBehaviour {
   introPlayer.Prepare();
  }
  void OnIntroGeometryChanged(GeometryChangedEvent evt) { PositionIntroSkip(); }
+ // "Gec" dugmesi uretici filigraninin tam ustune oturur: filigran filmin kendi
+ // karesine oranli oldugu icin once filmin ekrandaki gercek dikdortgeni bulunur.
+ // Film 16:9 olarak taranip kirpildigindan telefonun eni ne olursa olsun dogru yere gelir.
  void PositionIntroSkip() {
-  if(introSkip==null || root==null)return;
+  if(introSkip==null || root==null || activeMark==null)return;
   float width=root.resolvedStyle.width, height=root.resolvedStyle.height;
   if(float.IsNaN(width) || float.IsNaN(height) || width<=0 || height<=0)return;
-  float scale=Mathf.Max(width/1280f,height/720f);
-  float offsetX=(width-1280f*scale)*.5f;
-  float offsetY=(height-720f*scale)*.5f;
-  float buttonWidth=Mathf.Max(150f,78f*scale);
-  float buttonHeight=Mathf.Max(MinimumTouchTarget,76f*scale);
-  float centerX=offsetX+1159f*scale;
-  float centerY=offsetY+600f*scale;
+  float scale=Mathf.Max(width/16f,height/9f);
+  float filmWidth=16f*scale, filmHeight=9f*scale;
+  float offsetX=(width-filmWidth)*.5f;
+  float offsetY=(height-filmHeight)*.5f;
+  float buttonWidth=Mathf.Max(150f,activeMark.w*filmWidth);
+  float buttonHeight=Mathf.Max(MinimumTouchTarget,activeMark.h*filmHeight);
+  float centerX=offsetX+activeMark.x*filmWidth;
+  float centerY=offsetY+activeMark.y*filmHeight;
   introSkip.style.width=buttonWidth;
   introSkip.style.height=buttonHeight;
   introSkip.style.left=Mathf.Clamp(centerX-buttonWidth*.5f,0f,Mathf.Max(0f,width-buttonWidth));
@@ -787,7 +794,7 @@ public sealed class BubeApp : MonoBehaviour {
   var after=introAfter;
   if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
   introSkip=null;
-  activeIntro=null;introAfter=null;introBrand=null;introPlace=null;
+  activeIntro=null;introAfter=null;introBrand=null;introPlace=null;activeMark=null;
   if(introPlayer!=null) {
    introPlayer.prepareCompleted-=OnIntroPrepared;
    introPlayer.loopPointReached-=OnIntroEnded;
@@ -797,7 +804,58 @@ public sealed class BubeApp : MonoBehaviour {
   if(introTexture!=null){introTexture.Release();Destroy(introTexture);introTexture=null;}
   if(!game.Career.seenWorldIntros.Contains(world.id))game.Career.seenWorldIntros.Add(world.id);
   Save();
-  if(world.deskArrival)StartCoroutine(FirstDeskArrival(after));
+  if(!world.deskArrival){after();return;}
+  if(!string.IsNullOrEmpty(world.deskArrivalVideo))PlayDeskArrival(world,after);
+  else StartCoroutine(FirstDeskArrival(after));
+ }
+ // Dosyanin masaya birakilisi artik cizilmis bir animasyon degil, sinematik bir
+ // video. Video yoksa ya da oynatilamazsa asagidaki elle cizilmis animasyon
+ // devreye girer; oyun hicbir kosulda bu andan yoksun kalmaz.
+ void PlayDeskArrival(WorldIntro world,Action after) {
+  EnsureScene("OfficeScene");
+  root.Clear();
+  root.style.backgroundColor=Color.black;
+  deskArrivalDone=false;
+  introTexture=new RenderTexture(1920,1080,0,RenderTextureFormat.ARGB32);
+  introTexture.Create();
+  var film=new Image { image=introTexture, scaleMode=ScaleMode.ScaleAndCrop, pickingMode=PickingMode.Ignore };
+  film.style.position=Position.Absolute;
+  film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
+  root.Add(film);
+  var skip=new Button(()=>FinishDeskArrival(after,false)){text=T("intro.skip")};
+  skip.style.position=Position.Absolute;
+  skip.style.backgroundColor=Card;skip.style.color=Ink;
+  skip.style.fontSize=Typography.Snap(16);
+  root.Add(skip);
+  introSkip=skip;
+  activeMark=world.deskArrivalMark ?? new CornerMark();
+  root.RegisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
+  skip.schedule.Execute(PositionIntroSkip).StartingIn(0);
+  introPlayer=gameObject.AddComponent<VideoPlayer>();
+  introPlayer.playOnAwake=false;
+  introPlayer.isLooping=false;
+  introPlayer.renderMode=VideoRenderMode.RenderTexture;
+  introPlayer.targetTexture=introTexture;
+  introPlayer.audioOutputMode=VideoAudioOutputMode.Direct;
+  introPlayer.source=VideoSource.Url;
+  introPlayer.url=Application.streamingAssetsPath+"/"+world.deskArrivalVideo;
+  introPlayer.prepareCompleted+=OnIntroPrepared;
+  introPlayer.loopPointReached+=_=>FinishDeskArrival(after,false);
+  introPlayer.errorReceived+=(_,message)=>{
+   Debug.LogWarning("Desk arrival video unavailable: "+message);
+   FinishDeskArrival(after,true);
+  };
+  introPlayer.Prepare();
+ }
+ // Hem "Gec" dugmesi hem videonun bitisi buraya gelir; bayrak ikinci cagriyi yutar.
+ void FinishDeskArrival(Action after,bool fallback) {
+  if(deskArrivalDone)return;
+  deskArrivalDone=true;
+  if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
+  introSkip=null;activeMark=null;
+  if(introPlayer!=null){introPlayer.Stop();Destroy(introPlayer);introPlayer=null;}
+  if(introTexture!=null){introTexture.Release();Destroy(introTexture);introTexture=null;}
+  if(fallback)StartCoroutine(FirstDeskArrival(after));
   else after();
  }
  IEnumerator FirstDeskArrival(Action after) {
@@ -1067,7 +1125,7 @@ public sealed class BubeApp : MonoBehaviour {
   showingInterviewList=false;
   showingInvestigationRequests=false;
   root.Clear();
-  var texture=Resources.Load<Texture2D>("Bube/DeskReference");
+  var texture=Resources.Load<Texture2D>("Bube/DeskV2");
   if(texture==null) {
    Frame(T("desk"),T("desk.title"),T("desk.subtitle"));
    Button(root,T("desk.open"),FilePage,true);Button(root,T("back.home"),Home);return;
@@ -1078,7 +1136,7 @@ public sealed class BubeApp : MonoBehaviour {
   root.Add(image);
   var badge=new VisualElement();
   badge.style.position=Position.Absolute;
-  badge.style.left=Length.Percent(32.5f);badge.style.top=Length.Percent(31.6f);
+  badge.style.left=Length.Percent(33f);badge.style.top=Length.Percent(4f);
   badge.style.width=Length.Percent(2.6f);badge.style.height=Length.Percent(4.1f);
   badge.style.backgroundColor=new Color(.72f,.20f,.19f);
   badge.style.borderTopLeftRadius=4;badge.style.borderTopRightRadius=4;
@@ -1099,22 +1157,40 @@ public sealed class BubeApp : MonoBehaviour {
    bool dim=inboxBadge.style.opacity.value>.6f;
    inboxBadge.style.opacity=dim?.3f:1f;
   }).Every(520);
+  // Kunye serit masanin koyu on kenarinda durur. Eski tasarimda ustteydi ve
+  // gorselin icine gomulu kurum seridini ortmek icin oradaydi; o serit artik
+  // gorselde yok, ustte ise terminal ile evrak tepsisi var.
   var header=new VisualElement();
   header.style.position=Position.Absolute;header.style.left=0;header.style.right=0;
-  header.style.top=0;header.style.height=Length.Percent(11);
-  header.style.backgroundColor=new Color(.055f,.075f,.09f,.97f);
-  header.style.paddingLeft=36;header.style.paddingTop=12;
+  header.style.bottom=0;header.style.height=Length.Percent(10);
+  header.style.backgroundColor=new Color(.055f,.075f,.09f,.88f);
+  header.style.paddingLeft=36;header.style.paddingTop=10;
   root.Add(header);
-  var brand=Text(header,T("desk.brandLocation"),Ink,21);brand.style.marginBottom=2;
+  var brand=Text(header,T("desk.brandLocation"),Ink,19);brand.style.marginBottom=1;
   var caseTitle=Text(header,T(game.Data.titleKey),Gold,14);caseTitle.style.marginBottom=0;
+  // Terminaldeki kurum adi goruntuden silindi; kurgusal ad buradan, oyunun
+  // kendi fontuyla yazilir ve boylece yerellestirilebilir kalir.
+  var terminal=new VisualElement();
+  terminal.style.position=Position.Absolute;terminal.style.left=Length.Percent(76.1f);
+  terminal.style.top=Length.Percent(6f);terminal.style.width=Length.Percent(13.4f);
+  terminal.style.height=Length.Percent(7.3f);
+  terminal.style.unityTextAlign=TextAnchor.MiddleLeft;
+  terminal.pickingMode=PickingMode.Ignore;
+  root.Add(terminal);
+  var terminalText=Text(terminal,T("desk.terminalBrand"),new Color(.42f,.86f,.78f),15);
+  terminalText.style.marginBottom=0;terminalText.pickingMode=PickingMode.Ignore;
+  // Yeni gorselde dosya kapagi bos: uzerindeki yazi da artik koddan gelir.
   var patch=new VisualElement();
-  patch.style.position=Position.Absolute;patch.style.left=Length.Percent(44);
-  patch.style.top=Length.Percent(79);patch.style.width=Length.Percent(17);
-  patch.style.height=Length.Percent(7);
-  patch.style.backgroundColor=new Color(.67f,.53f,.40f);
+  patch.style.position=Position.Absolute;patch.style.left=Length.Percent(40f);
+  patch.style.top=Length.Percent(44f);patch.style.width=Length.Percent(21f);
   patch.style.unityTextAlign=TextAnchor.MiddleCenter;
+  patch.pickingMode=PickingMode.Ignore;
   root.Add(patch);
-  Text(patch,T("desk.location"),Base,16);
+  var fileTitle=Text(patch,T(game.Data.titleKey),new Color(.24f,.17f,.12f),19);
+  fileTitle.style.unityTextAlign=TextAnchor.MiddleCenter;fileTitle.style.marginBottom=6;
+  if(dossierBoldFont!=null)fileTitle.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
+  var fileWhere=Text(patch,T("desk.location"),new Color(.36f,.27f,.19f),14);
+  fileWhere.style.unityTextAlign=TextAnchor.MiddleCenter;fileWhere.style.marginBottom=0;
   if(game.Career.retired) {
    var end=Panel(root);end.style.position=Position.Absolute;end.style.left=Length.Percent(30);end.style.top=Length.Percent(42);
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
@@ -1122,31 +1198,31 @@ public sealed class BubeApp : MonoBehaviour {
   } else if(!game.State.caseAccepted) {
    // Dosya kabul edilene kadar masadaki tek etkilesim gelen evrak tepsisidir;
    // oyuncuya sirada ne yapacagi soylenmez, yalnizca evrak fark edilir.
-   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
+   Hotspot(T("desk.inbox"),12,1,24,31,InboxPage);
   } else if(!game.State.closed) {
-   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
-   Hotspot(T(game.Data.titleKey),36,42,30,51,FilePage);
-   Hotspot(T("kind.interview"),6,52,20,38,()=>InterviewRequests());
-   Hotspot(T(game.Data.nodes.Any(n=>n.kind=="cctv")?"kind.cctv":"kind.bps"),64,11,33,36,OpenTerminal);
+   Hotspot(T("desk.inbox"),12,1,24,31,InboxPage);
+   Hotspot(T(game.Data.titleKey),39,35,23,45,FilePage);
+   Hotspot(T("kind.interview"),1,46,21,36,()=>InterviewRequests());
+   Hotspot(T(game.Data.nodes.Any(n=>n.kind=="cctv")?"kind.cctv":"kind.bps"),66,0,33,34,OpenTerminal);
   } else {
    var closed=Panel(root);closed.style.position=Position.Absolute;
    closed.style.left=Length.Percent(38);closed.style.top=Length.Percent(51);
    Text(closed,T("desk.closed"),Ink,20);
    Button(closed,T("result.summaryOpen"),CaseSummary,true);
    Button(closed,T("result.continue"),ContinueToNextCase);
-   if(HasIncomingFax || HasIncomingDocument || AvailableAssignment()!=null)Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
+   if(HasIncomingFax || HasIncomingDocument || AvailableAssignment()!=null)Hotspot(T("desk.inbox"),12,1,24,31,InboxPage);
   }
   if(HasIncomingFax)AddFaxNotice();
   if(HasIncomingDocument)AddDocumentNotice();
   if(game.State.interviewTurns.Count>game.State.seenInterviewTurns && !game.State.closed) {
    var unread=Text(root,T("file.newTranscript"),Gold,15);
    unread.style.position=Position.Absolute;
-   unread.style.left=Length.Percent(46);unread.style.top=Length.Percent(44);
+   unread.style.left=Length.Percent(39);unread.style.top=Length.Percent(30);
    unread.style.backgroundColor=Base;
    unread.style.paddingLeft=7;unread.style.paddingRight=7;
    unread.pickingMode=PickingMode.Ignore;
   }
-  Hotspot(T("back.home"),90,0,10,12,Home);
+  Hotspot(T("back.home"),88,90,12,10,Home);
  }
  void BpsTablet(string titleKey,out VisualElement content,bool lift=true) {
   Desk();

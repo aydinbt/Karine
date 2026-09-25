@@ -143,7 +143,7 @@ public sealed class ValidationReportTests {
  }
 
  // DİKKAT: bu test yalnız `tr.json` metnini tarar. Görsellerin içine çizilmiş
- // yazıyı göremez — `DeskReference.png`'de gerçek kurum adı ve arma gömülüdür
+ // yazıyı göremez — masa görselinin içine gömülü yazılar bunun dışındadır
  // (25 Eylül 2026'da bulundu). Görseller elle denetlenmelidir.
  [Test]
  public void ShippedText_UsesNoRealInstitutionName() {

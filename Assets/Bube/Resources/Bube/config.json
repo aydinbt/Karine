@@ -13,7 +13,9 @@
       "videoPath": "Bube/world01_intro.mp4",
       "graphicsEmbedded": true,
       "skipCoversCornerMark": true,
-      "deskArrival": true
+      "deskArrival": true,
+      "deskArrivalVideo": "Bube/case001_arrival.mp4",
+      "deskArrivalMark": { "x": 0.9073, "y": 0.7759, "w": 0.085, "h": 0.115 }
     }
   ]
 }

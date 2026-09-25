@@ -15,7 +15,11 @@ namespace Bube {
  }
 }
 [Serializable] public class GameConfig { public string title; public string locale; public string initialCase; public string investigatorKey; public WorldIntro[] worldIntros; }
-[Serializable] public class WorldIntro { public string id; public string firstCaseId; public string countryKey; public string locationKey; public string flagResource; public string videoPath; public bool graphicsEmbedded; public bool skipCoversCornerMark; public bool deskArrival; }
+// Uretici filigrani filmin sag alt kosesinde duruyor. "Gec" dugmesini tam
+// oraya koyup ustunu ortuyoruz; koordinatlar filmin kendi karesine oranlidir
+// (0..1), boylece her video kendi filigran yerini soyleyebilir.
+[Serializable] public class CornerMark { public float x=.9055f; public float y=.8333f; public float w=.0609f; public float h=.1056f; }
+[Serializable] public class WorldIntro { public string id; public string firstCaseId; public string countryKey; public string locationKey; public string flagResource; public string videoPath; public bool graphicsEmbedded; public bool skipCoversCornerMark; public CornerMark skipMark; public bool deskArrival; public string deskArrivalVideo; public CornerMark deskArrivalMark; }
 [Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public CaseSummary summary; }
 [Serializable] public class TimelineClue { public string id; public string timeKey; public string noteKey; public string sourceKey; public int sortMinute; public string[] requiresRead; public string[] requiresAsked; }
 [Serializable] public class CaseSummary { public string locationKey; public string truthKey; public string evidenceKey; public string lessonKey; }
