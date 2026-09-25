@@ -1975,7 +1975,8 @@ public sealed class BubeApp : MonoBehaviour {
  }
  string ShortInterviewSourceLabel(string value) {
   value=(value ?? "").Replace('\n',' ').Trim();
-  return value.Length<=66?value:value.Substring(0,65).TrimEnd()+"…";
+  // Satırlar iki satıra sarıyor; 66 karakter yanıtın anlamlı yerini kesiyordu.
+  return value.Length<=110?value:value.Substring(0,109).TrimEnd()+"…";
  }
  void InterviewSourcePicker(ScrollView questions,Node node,Question active,string sourceId,VisualElement referenceCard) {
   if(interviewSourceQuestionId!=node.id+"/"+active.id) {
@@ -2032,7 +2033,9 @@ public sealed class BubeApp : MonoBehaviour {
      var answer=turn;var reference=game.InterviewTurnReference(answer);
      if(!Investigation.SourceConcerns(node,game.FindQuestion(item,answer.questionId)?.aboutPersonIds))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
-     Button(questions,ShortInterviewSourceLabel(T(item.personNameKey)+" · "+T(answer.promptKey)),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
+     // Satırda sorunun metni yazıyordu; liste "soracağım sorular" gibi okunuyordu.
+     // Oysa öne sürülen şey kişinin **verdiği yanıttır**, tırnak içinde gösterilir.
+     Button(questions,ShortInterviewSourceLabel(T(item.personNameKey)+" · \u201c"+T(answer.answerKey)+"\u201d"),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
      var row=questions.Children().Last();
      rows.Add(row);categories.Add(category);categoryCounts[category]++;
     }

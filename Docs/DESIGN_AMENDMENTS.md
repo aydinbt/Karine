@@ -319,3 +319,11 @@ Kural: **gözlem, yorum değil.** Satır kişinin gizli durumunu söylemez, yala
 Şema değişmedi: metin `answerKey + ".demeanor"` sözleşmesiyle bulunur, `Locale.Has` ile yoksa satır hiç çizilmez. `LocaleRules` iki koşulu zorluyor — yorum sözcükleri (yalan, gizliyor, tedirginliği, masum…) yasak, ve satır 16 sözcüğü geçemez, yoksa yanıtı gölgede bırakır. Kuralın gerçekten ateşlendiği, metne bilerek "gizliyor" konarak görüldü.
 
 Yayma kararı oyuncuya ait: beğenilirse öteki sorulara ve öteki vakalara aynı sözleşmeyle eklenir.
+
+## Kaynak satırı yanıtı gösterir, soruyu değil (25 Eylül 2026)
+
+Kaynak seçicideki görüşme satırları `personNameKey + " · " + promptKey` ile etiketleniyordu, yani kişiye **sorulan soru** yazıyordu. Liste bu yüzden "şimdi soracağım sorular" gibi okunuyor ve karşındaki kişiyle ilgisi görünmüyordu. Oysa öne sürülen şey kişinin **verdiği yanıttır**; satır artık `answerKey` metnini tırnak içinde gösteriyor.
+
+Süzgecin kendisi doğruydu: ekrandaki üç satır da (`elif_follow.keyPlace`, `mert_follow.spare`, `mert_follow.known`) `aboutPersonIds` içinde `hasan` taşıyor — üçü de saksıdaki anahtarı ve Hasan'ın onu görmesini konuşuyor. Görünmeyen şey ilgi değil, ilginin *sebebiydi*; yanıt metni bunu kendiliğinden söylüyor.
+
+Kırpma sınırı 66'dan 110 karaktere çıkarıldı: satırlar zaten iki satıra sarıyor, 66 karakter yanıtın anlamlı yerini (ör. "Hasan da kapıda kaldığım gün…") kesiyordu.
