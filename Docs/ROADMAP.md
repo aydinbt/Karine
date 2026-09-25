@@ -40,6 +40,7 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [ ] **`DeskReference.png` görselinin içinde gerçek kurum adı ve arma var.** Üst şerit artık her ekranda `Desk()` tarafından örtülüyor, ama terminaldeki `EMNİYET SİSTEMİ` yazısı ve armalar duruyor. **Görselin yenilenmesi gerekiyor**; metin denetimi bunu yakalayamaz. Ayrıntı: `Docs/DESIGN_AMENDMENTS.md`.
 
 - [~] **Dosyanın masaya bırakılışı sinematik video oldu** (`case001_arrival.mp4`); filigran "Geç" düğmesiyle örtülüyor, filigran yeri veriden geliyor. Sinematik siyaha kapanıyor, masa siyahtan açılıyor; geçişin akıcılığı **Play Mode'da gözle doğrulanmalı**.
+- [ ] **Terminal ekranındaki arma yaması görünüyor.** Armanın yeri tek düz renkle dolduruldu; ekranın kendi gradyanından ayrıldığı için soluk bir dikdörtgen leke kalıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcının gönderdiği düzende kutu ekranda **ortalanmış**. Ya kaynak PNG alınacak ya da depodaki görselde kutu ortalanıp boşluk gradyanla doldurulacak. Kullanıcı kararı: **sonraya bırakıldı**.
 - [ ] **Sinematik videonun içinde hâlâ "EMNİYET SİSTEMİ" yazısı ve terminal arması var.** Duran görselden ikisi de silindi, videodan silinemez — **video yeniden üretilmeli**: terminal ekranında yalnız "CCTV ARŞİVİ" kutusu olmalı.
 
 ## Her vaka için değişmeyen kabul kuralı
