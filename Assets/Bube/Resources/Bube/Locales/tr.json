@@ -669,6 +669,10 @@
       "value": "O gün öğle saatlerinde neredeydiniz?"
     },
     {
+      "key": "elif_follow.footage.answer.demeanor",
+      "value": "Omuzları düştü. Elini masadan çekti, kucağında kenetledi."
+    },
+    {
       "key": "elif_follow.footage.answer",
       "value": "Evet, binaya girdim. Mert’e söylemeden kalan eşyalarımı aldım. Çıkarken evin anahtarını kapının yanındaki saksıya bıraktım."
     },
@@ -699,6 +703,10 @@
     {
       "key": "hasan_follow.gap.question",
       "value": "Öğleden sonra bir sularında neredeydiniz?"
+    },
+    {
+      "key": "hasan_follow.gap.answer.demeanor",
+      "value": "Eller masada, avuçlar açık. Kıpırdamadan cevap verdi."
     },
     {
       "key": "hasan_follow.gap.answer",
@@ -847,6 +855,10 @@
     {
       "key": "hasan_follow.sale.question",
       "value": "Kaybolan eşyalardan herhangi biri sizin elinize geçti mi?"
+    },
+    {
+      "key": "hasan_follow.sale.answer.demeanor",
+      "value": "Fişi eline aldı, kenarını düzeltti, geri bıraktı. Sesi hiç değişmedi."
     },
     {
       "key": "hasan_follow.sale.answer",
@@ -1609,8 +1621,16 @@
       "value": "Kaynak belirtilmemiş"
     },
     {
+      "key": "elif_follow.footage.entryAnswer.demeanor",
+      "value": "Saati duyunca başını salladı. Gözleri ekranda kaldı, sesi düzdü."
+    },
+    {
       "key": "elif_follow.footage.entryAnswer",
       "value": "Evet, 11.48’de binaya giren bendim. Mert’e haber vermeden birkaç eşyamı aldım. Çıkarken bende kalan anahtarını kapısının yanındaki saksıya bıraktım."
+    },
+    {
+      "key": "elif_follow.footage.exitAnswer.demeanor",
+      "value": "Çabuk konuştu, sanki cümleyi daha önce kurmuştu. Sonunda derin bir soluk aldı."
     },
     {
       "key": "elif_follow.footage.exitAnswer",
@@ -1635,6 +1655,10 @@
     {
       "key": "hasan_follow.mertStatement.question",
       "value": "Mert'le kapıda karşılaştığınız günü anlatır mısınız?"
+    },
+    {
+      "key": "hasan_follow.mertStatement.answer.demeanor",
+      "value": "Söylerken hafifçe öne eğildi. Cümleden sonra gözünü senden ayırmadı."
     },
     {
       "key": "hasan_follow.mertStatement.answer",
@@ -2317,128 +2341,256 @@
       "value": "Bu arama ve filtreyle eşleşen kaynak yok."
     },
     {
+      "key": "elif_follow.footage.decoy.gap.demeanor",
+      "value": "Konuşurken bileğindeki lastiği çevirdi. Sesi cümlenin ortasında yükseldi."
+    },
+    {
       "key": "elif_follow.footage.decoy.gap",
       "value": "O saatlerde işten çıkmıştım, evet. Yolum o sokaktan geçiyor, geçmemesi tuhaf olurdu. Kaydın tam o aralıkta kesilmesi benim işime gelmiş gibi duruyor, farkındayım. Ama ben kesmedim."
+    },
+    {
+      "key": "elif_follow.footage.decoy.key.demeanor",
+      "value": "Bir süre sustu. Sonra doğrudan sana baktı, gözünü kaçırmadı."
     },
     {
       "key": "elif_follow.footage.decoy.key",
       "value": "Anahtarı geri vermedim. Vermek de istemedim. Bunu söylemem aleyhime, biliyorum; yine de o kapıyı açmadım."
     },
     {
+      "key": "elif_follow.footage.decoy.sighting.demeanor",
+      "value": "Kâğıda eğildi, satırı iki kez okudu. Elleri titriyordu."
+    },
+    {
       "key": "elif_follow.footage.decoy.sighting",
       "value": "Komşu beni gördüyse yanlış görmemiştir. O hafta o binaya gittim, kapıya kadar. Zili çalmadım, döndüm. İnanmak zorunda değilsiniz."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.elifIn.demeanor",
+      "value": "Ekrana bakmadı bile. Aynı düz tonla tekrarladı."
     },
     {
       "key": "hasan_follow.gap.decoy.elifIn",
       "value": "Girdiğini gördüm, çıktığını gördüm, ikisini de anlattım. Aradaki saatte ne yaptığını benden beklemeyin; ben kapımı kapattım, oturdum."
     },
     {
+      "key": "hasan_follow.gap.decoy.neighbor.demeanor",
+      "value": "Başparmağıyla masanın kenarını ovaladı. Sesi yavaşladı."
+    },
+    {
       "key": "hasan_follow.gap.decoy.neighbor",
       "value": "Aynı kattayız, duvar ince. O gün bir şey duymadım. Duymadığımı söylüyorum, olmadığını söylemiyorum."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.gap.demeanor",
+      "value": "Elini enseye götürdü, indirdi. Sesi düzdü."
     },
     {
       "key": "hasan_follow.mertStatement.decoy.gap",
       "value": "O saatte evdeydim. Kamera kesilmiş, ben de kimseye görünmemişim. İkisi yan yana gelince kötü duruyor, biliyorum."
     },
     {
+      "key": "hasan_follow.mertStatement.decoy.keyPlace.demeanor",
+      "value": "Bir an düşündü. Cevabı kısa kesti."
+    },
+    {
       "key": "hasan_follow.mertStatement.decoy.keyPlace",
       "value": "Saksıya o bırakmış. Ben bıraksaydım başka yere bırakırdım. Söyleyebileceğim bu kadar."
+    },
+    {
+      "key": "elif_follow.footage.decoy.time.demeanor",
+      "value": "Kısa, sert bir gülüş. Sandalyeyi geriye itti ama kalkmadı."
     },
     {
       "key": "elif_follow.footage.decoy.time",
       "value": "“Öğleye yakın” diyor. Ben de öğleye yakın oradaydım. Saat tutmadım; tutsaydım daha mı inandırıcı olurdum?"
     },
     {
+      "key": "elif_follow.footage.decoy.recognition.demeanor",
+      "value": "Yüzü kızardı. Cümlenin sonunu yutar gibi söyledi."
+    },
+    {
       "key": "elif_follow.footage.decoy.recognition",
       "value": "Beni tanımıyor olabilir, ama tarif ettiği kişi bana benziyor. Bunu kendim söylüyorum, siz sormadan."
+    },
+    {
+      "key": "elif_follow.footage.decoy.breakup.demeanor",
+      "value": "Bakışını masaya indirdi. Uzun bir sessizlikten sonra konuştu."
     },
     {
       "key": "elif_follow.footage.decoy.breakup",
       "value": "Eşyaları konuşacaktık, hiç konuşamadık. O gün de bu yüzden oradaydım, konuşmak için. Kapıyı açan olmadı."
     },
     {
+      "key": "elif_follow.footage.decoy.recovery.demeanor",
+      "value": "Rapordaki numarayı sessizce okudu. Yüzü değişmedi."
+    },
+    {
       "key": "elif_follow.footage.decoy.recovery",
       "value": "O dizüstünü birlikte aldık. Seri numarasını ezbere sayabilirim, isterseniz sayarım. Bunu bilmem lehime mi aleyhime mi, artık ayırt edemiyorum."
+    },
+    {
+      "key": "elif_follow.footage.decoy.known.demeanor",
+      "value": "Sırtını sandalyeye dayadı. İlk kez acele etmeden konuştu."
     },
     {
       "key": "elif_follow.footage.decoy.known",
       "value": "Saksıyı biliyordum. Bir yıl o evde yaşadım, bilmemem tuhaf olurdu. Karşınızda bilen biri oturuyor, mesele bu."
     },
     {
+      "key": "hasan_follow.gap.decoy.elifOut.demeanor",
+      "value": "Görüntüyü dikkatle izledi, sonra omuz silkti."
+    },
+    {
       "key": "hasan_follow.gap.decoy.elifOut",
       "value": "Elinde bir şey vardı, evet. Çanta mıydı poşet miydi ayırt edemedim. Zorlasam uydururdum, uydurmayayım."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.recovery.demeanor",
+      "value": "Raporu uzun uzun okudu. Yanıt verirken sesi biraz kısıldı."
     },
     {
       "key": "hasan_follow.gap.decoy.recovery",
       "value": "Fiş benim adıma düzenlenmişse dükkânda kimliğimi vermişim demektir. Ne zaman verdiğimi hatırlamıyorum. Siz bana o öğleden sonrayı sordunuz: evdeydim."
     },
     {
+      "key": "hasan_follow.gap.decoy.keyPlace.demeanor",
+      "value": "Kaşları kalktı, indi. Başka bir tepki vermedi."
+    },
+    {
       "key": "hasan_follow.gap.decoy.keyPlace",
       "value": "Saksıyı şimdi sizden duyuyorum. Duyduğuma göre isterseniz benden şüphelenin, hakkınız."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.known.demeanor",
+      "value": "Yorgun bir gülümseme. Koltuğunda yayıldı."
     },
     {
       "key": "hasan_follow.gap.decoy.known",
       "value": "Bilenler arasında adım varsa vardır. Yıllardır aynı kattayım, bilmemem tuhaf olurdu."
     },
     {
+      "key": "hasan_follow.sale.decoy.gap.demeanor",
+      "value": "Kollarını kavuşturdu, sonra çözdü. Bakışı masada kaldı."
+    },
+    {
       "key": "hasan_follow.sale.decoy.gap",
       "value": "Kaydın kesilmesinden ne çıkardığınızı bilmiyorum. Bende bir şey yok. Evime bakmak isterseniz bakın, engellemem."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.elifIn.demeanor",
+      "value": "Aynı cümleyi aynı vurguyla üçüncü kez söyledi."
     },
     {
       "key": "hasan_follow.sale.decoy.elifIn",
       "value": "Giren o. Ben o gün kapımdan bile çıkmadım. Bir daha söylememi isterseniz söylerim."
     },
     {
+      "key": "hasan_follow.sale.decoy.spare.demeanor",
+      "value": "Dolaptan söz ederken elini kapıya doğru salladı. Rahat görünüyordu."
+    },
+    {
       "key": "hasan_follow.sale.decoy.spare",
       "value": "Anahtarı saksıdan almış, tamam. Bende ne anahtar var ne eşya. Kolaylaştırayım: dolapta bir kutu var, içi kitap."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.keyPlace.demeanor",
+      "value": "Sesi tek bir perdede kaldı. Hiç kıpırdamadı."
     },
     {
       "key": "hasan_follow.sale.decoy.keyPlace",
       "value": "Anahtarın yerini bilmek insana eşya kazandırmıyor. Ben kimseden bir şey almadım, kimseye bir şey satmadım."
     },
     {
+      "key": "hasan_follow.sale.decoy.neighbor.demeanor",
+      "value": "Sahanlığı anlatırken parmağıyla masada bir daire çizdi."
+    },
+    {
       "key": "hasan_follow.sale.decoy.neighbor",
       "value": "On daire var bu binada. Çoğu benim gibi tek yaşıyor ve hepsinin kapısı aynı sahanlığa açılıyor."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.neighbor.demeanor",
+      "value": "Gözünü kırpmadan söyledi. Sonra pencereye baktı."
     },
     {
       "key": "hasan_follow.mertStatement.decoy.neighbor",
       "value": "Yakın değiliz. Kapıda da uzun uzun konuşmadık. Konuştuysak hatırlamıyorum."
     },
     {
+      "key": "hasan_follow.mertStatement.decoy.known.demeanor",
+      "value": "Yarım bir gülüş. Elleri masada hareketsiz kaldı."
+    },
+    {
       "key": "hasan_follow.mertStatement.decoy.known",
       "value": "Bilmek başka, girmek başka. Ama bilenler listesinde olmak insanı bu sandalyeye oturtuyormuş, onu öğrendim."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.elifIn.demeanor",
+      "value": "Ekranı eliyle biraz kendine çevirdi. Uzun uzun baktı."
     },
     {
       "key": "hasan_follow.mertStatement.decoy.elifIn",
       "value": "Kayıtta o var. Siz bana kapıdaki günü soruyorsunuz. İkisini birleştiren bir şey varsa bende değil."
     },
     {
+      "key": "hasan_follow.mertStatement.decoy.recovery.demeanor",
+      "value": "Para sıkıntısından söz ederken sesi düştü. Devamını söylemedi."
+    },
+    {
       "key": "hasan_follow.mertStatement.decoy.recovery",
       "value": "O dükkânı bilirim, daha önce de işim oldu orada. Kapıda konuştuğumuz şey bu değildi; para sıkıntısından söz etti, o kadar."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.spare.demeanor",
+      "value": "Tarihi duyunca bir an durdu. Sonra net konuştu."
     },
     {
       "key": "hasan_follow.gap.decoy.spare",
       "value": "Kapıdaki gün bir ay öncesi. O öğleden sonrayı soruyorsanız: evdeydim ve kimse görmedi."
     },
     {
+      "key": "hasan_follow.gap.decoy.followNeighbor.demeanor",
+      "value": "Cümlenin ortasında durdu, baştan başladı."
+    },
+    {
       "key": "hasan_follow.gap.decoy.followNeighbor",
       "value": "Yakın değiliz, doğru söylemiş. Yakın olmadığım hâlde kimin girip çıktığını not etmişim. Bunu neden yaptığımı bana sormayın."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.elifOut.demeanor",
+      "value": "Görüntüyü yeniden başlatmanı istedi. İkincisinde de aynı şeyi söyledi."
     },
     {
       "key": "hasan_follow.sale.decoy.elifOut",
       "value": "Yanında bir şey taşıyordu, ne olduğunu göremedim. Göremediğim bir şeyi benim üstüme yıkamak kolay olurdu, farkındayım."
     },
     {
+      "key": "hasan_follow.sale.decoy.neighbor2.demeanor",
+      "value": "Kısa bir sessizlik. Sonra omuz silkip cevapladı."
+    },
+    {
       "key": "hasan_follow.sale.decoy.neighbor2",
       "value": "Yakın değiliz. Yakın olsaydık belki bana bir şey emanet ederdi, o zaman elimde bir şey olurdu. Şimdi yok."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.known.demeanor",
+      "value": "Öne eğildi, sözcükleri ayırarak söyledi."
     },
     {
       "key": "hasan_follow.sale.decoy.known",
       "value": "Anahtarla eşyayı karıştırıyorsunuz. Yerini bilen on kişi varsa alan da onlardan biri olabilir. Ben değilim."
     },
     {
+      "key": "hasan_follow.mertStatement.decoy.neighbor2.demeanor",
+      "value": "Duraksadı. Cümlenin sonu soru gibi çıktı."
+    },
+    {
       "key": "hasan_follow.mertStatement.decoy.neighbor2",
       "value": "Bir şey görmüş olabileceğimi düşünmüş. Görmüşsem de o gün binada mıydım, onu net söyleyemiyorum. Günleri karıştırıyorum son zamanlarda."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.elifOut.demeanor",
+      "value": "Kayda bakmadı. Yanıtı hazırdı."
     },
     {
       "key": "hasan_follow.mertStatement.decoy.elifOut",

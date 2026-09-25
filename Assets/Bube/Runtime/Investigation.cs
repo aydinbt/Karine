@@ -13,6 +13,8 @@ namespace Bube {
   }
   return index.TryGetValue(key, out var value) && value != null ? value : "[" + key + "]";
  }
+ // İsteğe bağlı metinler için: anahtar yoksa "[anahtar]" basmak yerine atlanır.
+ public bool Has(string key) => !string.IsNullOrEmpty(key) && Get(key)[0] != '[';
 }
 [Serializable] public class GameConfig { public string title; public string locale; public string initialCase; public string investigatorKey; public WorldIntro[] worldIntros; }
 // Uretici filigrani filmin sag alt kosesinde duruyor. "Gec" dugmesini tam

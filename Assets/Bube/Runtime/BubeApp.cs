@@ -1861,6 +1861,13 @@ public sealed class BubeApp : MonoBehaviour {
   var speech=Text(dialogueScroll,spoken,Ink,17);
   speech.style.whiteSpace=WhiteSpace.Normal;
   if(phase==2)Typewriter(speech,spoken);
+  // Dedektifin gördüğü davranış — yorum değil, gözlem. Yalan ya da çelişki
+  // etiketi değildir; anlamını oyuncu kurar. Metni olmayan yanıtta satır yoktur.
+  if(phase==2 && locale.Has(answerKey+".demeanor")) {
+   var demeanor=Text(dialogueScroll,T(answerKey+".demeanor"),Muted,15);
+   demeanor.style.whiteSpace=WhiteSpace.Normal;demeanor.style.marginTop=10;
+   demeanor.style.unityFontStyleAndWeight=FontStyle.Italic;
+  }
   var referenceCard=phase>0 && game.ReportSourceAvailable(sourceId)?InterviewReferenceCard(sourceId):null;
   var topics=availableOptions.GroupBy(q=>string.IsNullOrEmpty(q.topicKey)?"interview.topic.other":q.topicKey).ToArray();
   var initiallyOpen=topics.Any(g=>g.Key==selectedInterviewTopic)?selectedInterviewTopic:topics.FirstOrDefault()?.Key;

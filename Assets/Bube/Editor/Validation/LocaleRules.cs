@@ -33,6 +33,18 @@ public static class LocaleRules {
 
  static readonly Regex WordBreak = new Regex(@"[^\p{L}\p{N}]+", RegexOptions.Compiled);
 
+ // Davranış satırı dedektifin gördüğünü söyler; kişinin gizli durumunu
+ // söylemez. Bu sözcükler oyuncunun kurması gereken çıkarımı hazır verir.
+ static readonly HashSet<string> VerdictWords = new HashSet<string> {
+  "yalan", "yalancı", "yalanladı", "çelişki", "çelişkili", "gerçeği", "doğruyu",
+  "suçlu", "masum", "gizliyor", "saklıyor", "sakladığı", "uyduruyor", "samimi",
+  "samimiyetsiz", "içten", "tedirginliği", "korkusu", "panikledi", "rahatlamış",
+ };
+
+ static string[] Words(string text) =>
+  string.IsNullOrEmpty(text) ? new string[0]
+   : WordBreak.Split(text.ToLowerInvariant()).Where(w => w.Length > 0).ToArray();
+
  public static void Validate(Locale locale, IReadOnlyList<CaseData> cases, ValidationReport report) {
   report.Scope("metin");
   if (!report.Step(locale?.entries != null, "Metin dosyası okunamadı.")) return;
@@ -45,6 +57,13 @@ public static class LocaleRules {
    var institution = ForbiddenInstitution(entry.value);
    if (institution != null)
     report.Problem("Gerçek kurum/mevzuat adı kullanılamaz (\"" + institution + "\"): " + entry.key);
+   if (entry.key.EndsWith(".demeanor")) {
+    var verdict = Words(entry.value).FirstOrDefault(VerdictWords.Contains);
+    if (verdict != null)
+     report.Problem("Davranış satırı yorum yapıyor, yalnız gözlem olmalı (\"" + verdict + "\"): " + entry.key);
+    if (Words(entry.value).Length > 16)
+     report.Problem("Davranış satırı uzun; yanıtı gölgede bırakır: " + entry.key);
+   }
   }
 
   var used = new HashSet<string>();

@@ -309,3 +309,13 @@ Bir soruyu birden çok belirleyici kaynak kapatabiliyordu (`presentedSourceIds`)
 `Case001Rules` eski davranışı şart koşuyordu (dört iddia); kurallar yeni karara çevrildi — bir kaynakla kapanma, ikinci kaynağın reddi, tek döküm satırı.
 
 Etiketler anlaşılmıyordu: "KAYNAK KARTI" → **"ELİNDEKİ KAYIT"**, "KAYNAK KARTINI AÇ" → kaynak seçerken **"SEÇTİĞİN KAYDI OKU"**, yanıt ekranında **"ÖNE SÜRDÜĞÜN KAYDI OKU"** (yeni `interview.openPresented`). İkisi de aynı şeyi yapıyor: öne sürülecek/sürülmüş kaydın metnini görüşmeden çıkmadan okutur.
+
+## Davranış satırı — dört kaynak sorusunda deneme (25 Eylül 2026)
+
+Yem metinleri "fail sakin kalır, masum beceriksizce savunur" üzerine kuruluydu, ama ekranda yüz, ses ya da duraksama yok; ton tek başına taşımıyordu. **Deneme:** yanıtın altına dedektifin *gördüğü* davranış satırı — "Cümlenin ortasında durdu, baştan başladı." Kapsam dört kaynak sorusu (`elif_follow.footage`, `hasan_follow.gap`, `hasan_follow.sale`, `hasan_follow.mertStatement`): 38 satır, kapatan yanıtlar ve yemler dâhil.
+
+Kural: **gözlem, yorum değil.** Satır kişinin gizli durumunu söylemez, yalan/çelişki etiketi koymaz; anlamı oyuncu kurar. Ayrıca satırlar **teşhis edilebilir olmamalı** — Hasan kendisini en çok bağlayan raporda sakin, zararsız bir kayıtta huzursuz; Elif masum olduğu hâlde titriyor. Davranışın "yalan söylüyor" sinyaline dönüşmemesi bu dengeye bağlı.
+
+Şema değişmedi: metin `answerKey + ".demeanor"` sözleşmesiyle bulunur, `Locale.Has` ile yoksa satır hiç çizilmez. `LocaleRules` iki koşulu zorluyor — yorum sözcükleri (yalan, gizliyor, tedirginliği, masum…) yasak, ve satır 16 sözcüğü geçemez, yoksa yanıtı gölgede bırakır. Kuralın gerçekten ateşlendiği, metne bilerek "gizliyor" konarak görüldü.
+
+Yayma kararı oyuncuya ait: beğenilirse öteki sorulara ve öteki vakalara aynı sözleşmeyle eklenir.
