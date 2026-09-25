@@ -477,3 +477,7 @@ Kötü görünmesinin asıl sebebi bulundu: kök öğenin yazı tipi **IBM Plex 
 
 **Kit §2 ile ilişkisi:** kit "logo fontunu normal UI metinlerinde kullanma" der, gerekçesi okunabilirliktir. Burada logo fontunun kendisi değil ağır slab akrabası kullanılıyor ve yalnız büyük puntoda — kuralın gerekçesi korunuyor. Küçük punto eşiği bu yüzden var ve testle kilitli.
 
+## `BubeApp` konu başına bölündü (25 Eylül 2026)
+
+3.125 satırlık tek dosya sekiz `partial` parçaya ayrıldı: çekirdek, menü, sinematik, masa, soruşturma, görüşme, CCTV, rapor. Bölünme **mekaniktir** — tek satır davranış değişmedi, 84 test bölünmeden sonra da geçiyor. Amaç yeni ekranların tek dosyaya yığılmasını durdurmak; doğrulayıcıda 560 satır kilidi var ve kaldırılıp denendi, beklenen hatayı verdi.
+

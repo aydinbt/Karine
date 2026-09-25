@@ -30,7 +30,7 @@
 
 ## Sayılarla
 
-- Kod: 3.353 satır C# (`BubeApp.cs` tek başına 2.788)
+- Kod: ~4.400 satır C#; `BubeApp` konu başına sekiz `partial` dosya, en uzunu 529 satır
 - Vaka #001: 9 düğüm, 30 soru — bütünlük denetiminden temiz geçti
 - Vaka #002: 7 düğüm, 12 soru — `draft: true`, oyuncuya kapalı
 - Türkçe metin: 577 anahtar, eksik 0, yinelenen 0, ölü ~10

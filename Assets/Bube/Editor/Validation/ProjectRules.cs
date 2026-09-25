@@ -89,6 +89,17 @@ public static class ProjectRules {
   // kit'ten önce yazılmış eski borçtur; hepsini tek oturumda temizlemek yerine
   // **büyümesi** engelleniyor. Yeni kod rengi `KarineTheme`den alır; bu sayı
   // ancak borç azaldıkça düşürülür, asla yükseltilmez.
+  // Dosya boyu kilidi. `BubeApp` 3.125 satırlık tek dosyaydı; konu başına
+  // parçalara ayrıldı. Yeni ekran eklerken yine tek dosyaya yığılmasın diye
+  // en uzun çalışma zamanı dosyası 560 satırla sınırlanır. Yalnız aşağı çekilir.
+  const int LongestRuntimeFile = 560;
+  var longest = Directory.GetFiles("Assets/Bube/Runtime", "*.cs", SearchOption.AllDirectories)
+   .Select(path => new { path, lines = File.ReadAllLines(path).Length })
+   .OrderByDescending(item => item.lines).First();
+  report.Require(longest.lines <= LongestRuntimeFile,
+   "Çalışma zamanı dosyası çok uzadı (" + longest.lines + " > " + LongestRuntimeFile + "): " +
+   longest.path.Replace('\\', '/') + ". Konu başına ayır.");
+
   var rawColors = Directory.GetFiles("Assets/Bube/Runtime", "*.cs", SearchOption.AllDirectories)
    .Where(path => !path.Replace('\\', '/').Contains("Runtime/UI/"))
    .Sum(path => File.ReadAllText(path).Split(new[] { "new Color(" }, System.StringSplitOptions.None).Length - 1);
