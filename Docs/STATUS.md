@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; ses ve ayarlar kapandı; bölüm seçici ekranı kodlandı)
+**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; ses ve ayarlar kapandı; bölüm seçici ekranı Play Mode'da görüldü)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -13,12 +13,12 @@
 
 ## Vakadan bağımsız temeller (25 Eylül 2026)
 
-Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[~]`, hiçbiri Play Mode'da görülmedi:
+Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — işareti ayrıca yazılmayanlar `[~]`, yani kodlandı ama Play Mode'da görülmedi:
 
 - **Vaka eklemek koddan koptu:** yeni vaka = `caseXXX.json` + `tr.caseXXX.json` + varlıklar. Portre tonları veride, doğrulayıcı vakaya özel C# istemiyor.
 - **Ses sistemi kurulu, dokuz klip depoda ve sesler duyuldu.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede yumuşak bir sohbet blibi (konuşma taklidi yok), ana menü müziği (32 s döngü), masa müziği (`desk_theme`, 40 s — oda gürültüsünün yerini aldı) ve görüşme odası ortamı. Doğrulayıcı dokuzunun varlığını kilitliyor.
 - **Ses ayarı beş kademe:** kapalı, %25, %50, %75, tam — ayarlarda radyo listesi (kit'te kaydırıcı yok). Varsayılan: müzik %50, efektler tam.
-- **Bölüm seçici ekranı kodlandı (`[~]`, Play Mode'da görülmedi):** maket yerleşimi — kimlik şeridi, ülke listesi, iğneli pano, ülke kartı, yedi dosyalık şerit. Veri `Bube/Worlds.json`da; kilit ilerlemeden türer, ipucu vermez. Ölçek kanon oldu: **on ülke × yedi dosya = 70** ([WORLD_OPENINGS.md](WORLD_OPENINGS.md), 26 Eylül 2026 kararı). İki açık madde kaldı: eksik görseller (dünya haritası, ülke/dosya görselleri) ve kit'te olmayan kilit/onay/oynat ikonları.
+- **Bölüm seçici ekranı çalışıyor (`[x]`, Play Mode'da görüldü — kullanıcı, 26 Eylül 2026):** maket yerleşimi — kimlik şeridi, ülke listesi, iğneli pano, ülke kartı, yedi dosyalık şerit. Veri `Bube/Worlds.json`da; kilit ilerlemeden türer, ipucu vermez. Ölçek kanon oldu: **on ülke × yedi dosya = 70** ([WORLD_OPENINGS.md](WORLD_OPENINGS.md), 26 Eylül 2026 kararı). İki açık madde kaldı: eksik görseller (dünya haritası, ülke/dosya görselleri) ve kit'te olmayan kilit/onay/oynat ikonları.
 - **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 

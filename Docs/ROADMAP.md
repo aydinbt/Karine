@@ -219,7 +219,7 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] Sonraki vakalarda da görsel CCTV, vaka tasarımı gerektirirse kullanılabilir; zorunlu bölüm sırası kuralı değildir. Metin/sinyal dökümü temel inceleme biçimi olarak kalır.
 - [ ] Ödüllü reklam ipuçları yalnızca karşılaştırmaya yönlendirir, faili vermez; Dosya #001 reklam ipucu içermez.
 - [ ] Vaka kataloğunun **ölçeği** 26 Eylül 2026'da karara bağlandı: on ülke × yedi dosya = 70 ([WORLD_OPENINGS.md](WORLD_OPENINGS.md)). Ülke listesi ve sırası kanon; her ülkenin mekânı, atmosferi ve yedi vakasının içeriği hâlâ yazılmamış iştir ve oynanış verisine göre şekillenir.
-- [~] **Bölüm seçici ekranı** maket yerleşimiyle kodlandı: kimlik şeridi, ülke listesi, iğneli pano, ülke kartı ve yedi dosyalık şerit; veri `Bube/Worlds.json`dan gelir, kilit ilerlemeden türer (ülke sırayla, dosya sırayla), kapanmış dosya kariyer kaydını açar. 113 test yeşil (7 yeni kilit testi). **Play Mode'da görülmedi**; eksik görseller (dünya haritası, ülke ve dosya görselleri) ile kit'te olmayan kilit/onay/oynat ikonları açık. Kanon çelişkisi kapandı: kullanıcı kararıyla **on ülke × yedi dosya (70)**, `WORLD_OPENINGS.md` güncellendi.
+- [x] **Bölüm seçici ekranı** maket yerleşimiyle kodlandı ve **Play Mode'da görüldü** (kullanıcı, 26 Eylül 2026): kimlik şeridi, ülke listesi, iğneli pano, ülke kartı ve yedi dosyalık şerit; veri `Bube/Worlds.json`dan gelir, kilit ilerlemeden türer (ülke sırayla, dosya sırayla), kapanmış dosya kariyer kaydını açar. 113 test yeşil (7 yeni kilit testi). Açık kalan iki iş ekranın kendisi değil **varlıklar**: dünya haritası ile ülke/dosya görselleri ve kit'te olmayan kilit/onay/oynat ikonları. Cihazda görülmedi.
 
 ## Güncelleme kuralı
 
