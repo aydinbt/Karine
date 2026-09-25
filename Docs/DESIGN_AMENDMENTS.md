@@ -341,3 +341,14 @@ Eski elle etiketleme çoğu yerde yanlıştı: kişinin **kendi** ifadesini de i
 **Ölçülen etki** (kişi başı öne sürülebilir kaynak): Elif 10 → 10, Hasan 9 → 8, Mert 11 → 20. Mert'inki büyüdü çünkü herkes ondan söz ediyor; kuralın doğrudan sonucu.
 
 **Kuralın bedeli, ödendi:** dört yem kaldırıldı. `elif_follow.footage → recovery` (eşya raporu Elif'in adını anmaz) ve `elif_follow.keyPlace`'i Hasan'a sunan üç yem (Elif hiçbir yerde Hasan'ın adını anmaz, "benden sonra oraya kimin baktığını bilmiyorum" der). Bunları etiketle geri açmak kuralı sessizce delmek olurdu; istenirse tek tek etiketlenerek geri gelebilirler.
+
+## Dosya ekranı: tek kaydırma, dokunulur sayfalar (25 Eylül 2026)
+
+Dosya telefonda karmaşıktı. Dört ayrı sebep vardı, dördü de düzeltildi:
+
+1. **İç içe kaydırma.** Metin ile görsel yan yana iki sütundu (`flexBasis=0`), yani rapor metni sayfanın yarı genişliğine düşüyor ve kendi kaydırma çubuğunu kazanıyordu — sayfanın içinde ikinci bir kaydırma alanı. Artık tek sütun, tek kaydırma; görsel metnin akışında, tam genişlikte.
+2. **"1 / 1" sayacı ve Önceki/Sonraki.** Tek sayfalık bölümlerde bile duruyordu, ve istenen sayfaya varmak için art arda dokunmak gerekiyordu. Sayfa birden çoksa adları doğrudan dokunulur (yatay şerit); tekse alt şerit hiç çizilmez.
+3. **Kendi içinde kayan sekme şeridi.** Dar sütuna sekiz sekme sığmadığı için bir kısmı ekran dışındaydı; oraya varmak için önce şeridi kaydırmak gerekiyordu. Şerit genişledi, kaydırma kalktı, sekmeler yüksekliği paylaşıyor — hepsi görünür ve hepsi en az 48 birim.
+4. **Sürdürülebilirlik.** Sekme biçimi dört ayrı yerde kopyalanmıştı (her biri yedi satır). `FileTab` yardımcısına toplandı; yeni sekme eklemek artık tek satır.
+
+**Açık kalan:** "DOSYADA ARA" hâlâ yazmayı gerektiriyor. Görüşmedeki arama alanı telefonda klavye ekranın yarısını kapattığı için kaldırılmıştı; dosyadaki arama da aynı gerekçeyle gözden geçirilmeli, ama yerine ne konacağı (kişiye/türe göre dokunulur süzgeç) ayrı bir karar.

@@ -1487,6 +1487,16 @@ public sealed class BubeApp : MonoBehaviour {
   };
   refresh();
  }
+ void FileTab(VisualElement column,string label,Action open,Color background) {
+  var tab=new Button(open){text=label};
+  tab.style.flexGrow=1;tab.style.minHeight=MinimumTouchTarget;tab.style.marginBottom=5;
+  tab.style.paddingLeft=12;tab.style.paddingRight=8;
+  tab.style.whiteSpace=WhiteSpace.Normal;tab.style.unityTextAlign=TextAnchor.MiddleLeft;
+  tab.style.backgroundColor=background;tab.style.color=new Color(.13f,.16f,.20f);
+  tab.style.fontSize=Typography.Snap(15);
+  if(dossierBoldFont!=null)tab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
+  column.Add(tab);
+ }
  void FilePage() {
   showingInterviewList=false;
   var report=game.Data.nodes.First(n=>n.id=="report");
@@ -1550,8 +1560,10 @@ public sealed class BubeApp : MonoBehaviour {
   } else {
    var heading=Text(paper,T(current.titleKey).ToUpperInvariant(),fileInk,19);
    if(dossierBoldFont!=null)heading.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.flexGrow=1;paper.Add(row);
-   var textColumn=new VisualElement();textColumn.style.flexGrow=1;textColumn.style.flexBasis=0;row.Add(textColumn);
+   // Metin ile görsel yan yana iki sütundaydı: telefonda metin yarı genişliğe
+   // düşüyor, kendi kaydırma çubuğunu kazanıyor ve sayfa içinde ikinci bir
+   // kaydırma alanı doğuyordu. Tek sütun, tek kaydırma; görsel akışın içinde.
+   var textColumn=new VisualElement();textColumn.style.flexGrow=1;paper.Add(textColumn);
    if(current.fileMeta!=null)foreach(var field in current.fileMeta) {
     var meta=Text(textColumn,T(field.labelKey)+"  :  "+T(field.valueKey),fileInk,14);meta.style.marginBottom=5;
    }
@@ -1584,61 +1596,51 @@ public sealed class BubeApp : MonoBehaviour {
     } else Text(body,T("file.noTranscript"),fileMuted,15);
    }
    if(!string.IsNullOrEmpty(current.imageResource)) {
-    var imageColumn=new VisualElement();imageColumn.style.flexGrow=1;imageColumn.style.flexBasis=0;
-    imageColumn.style.paddingLeft=20;row.Add(imageColumn);
     var texture=Resources.Load<Texture2D>(current.imageResource);
     if(texture!=null) {
      var photo=new Image{image=texture,scaleMode=ScaleMode.ScaleAndCrop};
-     photo.style.height=Length.Percent(73);imageColumn.Add(photo);
-     var caption=Text(imageColumn,T(current.imageCaptionKey),fileMuted,13);
-     caption.style.unityTextAlign=TextAnchor.MiddleRight;
+     photo.style.height=240;photo.style.marginTop=16;body.Add(photo);
+     Text(body,T(current.imageCaptionKey),fileMuted,13);
     }
    }
   }
-  if(selectedFileSection!="timeline") {
-   var footerLine=new VisualElement();footerLine.style.height=1;footerLine.style.backgroundColor=new Color(.62f,.57f,.48f);paper.Add(footerLine);
-   var footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.alignItems=Align.Center;paper.Add(footer);
-   var index=current==null?-1:Array.IndexOf(pages,current);
-   Text(footer,index<0?"—":(index+1)+" / "+pages.Length,fileMuted,14);
-   var spacer=new VisualElement();spacer.style.flexGrow=1;footer.Add(spacer);
-   if(index>0)Button(footer,T("file.previous"),()=>{selectedFileNode=pages[index-1].id;FilePage();});
-   if(index>=0 && index<pages.Length-1)Button(footer,T("file.next"),()=>{selectedFileNode=pages[index+1].id;FilePage();},true);
+  // "1 / 1" sayacı ve Önceki/Sonraki, tek sayfalık bölümlerde bile duruyordu ve
+  // istenen sayfaya varmak için art arda dokunmak gerekiyordu. Sayfa birden
+  // çoksa adları doğrudan dokunulur; tekse alt şerit hiç çizilmez.
+  if(selectedFileSection!="timeline" && pages.Length>1) {
+   var footerLine=new VisualElement();footerLine.style.height=1;footerLine.style.flexShrink=0;
+   footerLine.style.backgroundColor=new Color(.62f,.57f,.48f);footerLine.style.marginTop=10;paper.Add(footerLine);
+   var footer=new ScrollView(ScrollViewMode.Horizontal);
+   footer.style.flexShrink=0;footer.style.marginTop=8;
+   footer.contentContainer.style.flexDirection=FlexDirection.Row;paper.Add(footer);
+   foreach(var page in pages) {
+    var target=page;
+    var chip=new Button(()=>{selectedFileNode=target.id;FilePage();}){text=T(target.titleKey)};
+    chip.style.minHeight=MinimumTouchTarget;chip.style.marginRight=6;
+    chip.style.paddingLeft=14;chip.style.paddingRight=14;
+    chip.style.fontSize=Typography.Snap(15);chip.style.color=fileInk;
+    chip.style.backgroundColor=target==current?new Color(.79f,.63f,.40f):new Color(.79f,.72f,.61f);
+    footer.Add(chip);
+   }
   }
-  var tabs=new ScrollView(ScrollViewMode.Vertical);tabs.style.position=Position.Absolute;
-  tabs.style.left=Length.Percent(77);tabs.style.top=Length.Percent(18);
-  tabs.style.width=Length.Percent(13);tabs.style.bottom=Length.Percent(7);
-  tabs.verticalScrollerVisibility=ScrollerVisibility.Auto;root.Add(tabs);
+  // Sekme şeridi kendi içinde kayıyordu: dar bir sütuna sekiz sekme sığmadığı
+  // için bir kısmı ekran dışında kalıyor, oraya varmak için önce şeridi
+  // kaydırmak gerekiyordu. Şerit genişledi, kaydırma kalktı — hepsi görünür.
+  // Ayrıca dört ayrı yerde kopyalanan sekme biçimi tek yere toplandı; yeni bir
+  // sekme eklemek artık tek satır.
+  var tabs=new VisualElement();tabs.style.position=Position.Absolute;
+  tabs.style.left=Length.Percent(78);tabs.style.top=Length.Percent(18);
+  tabs.style.right=Length.Percent(3);tabs.style.bottom=Length.Percent(7);
+  root.Add(tabs);
   foreach(var section in new[]{"report","interview","evidence","timeline","visual"}) {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
-   var tab=new Button(()=>{selectedFileSection=choice;FilePage();}) {text=T("file.tab."+choice)+(unread?"  •":"")};
-   tab.style.minHeight=54;tab.style.marginBottom=5;tab.style.paddingLeft=10;
-   tab.style.whiteSpace=WhiteSpace.Normal;tab.style.unityTextAlign=TextAnchor.MiddleLeft;
-   tab.style.backgroundColor=choice==selectedFileSection?new Color(.91f,.85f,.73f):new Color(.49f,.46f,.42f);
-   tab.style.color=fileInk;tab.style.fontSize=Typography.Snap(15);
-   if(dossierBoldFont!=null)tab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-   tabs.Add(tab);
+   FileTab(tabs,T("file.tab."+choice)+(unread?"  •":""),()=>{selectedFileSection=choice;FilePage();},
+    choice==selectedFileSection?new Color(.91f,.85f,.73f):new Color(.49f,.46f,.42f));
   }
-  var compareTab=new Button(()=>{comparePicker=-1;ComparePage();}) {text=T("file.tab.compare")};
-  compareTab.style.minHeight=54;compareTab.style.marginBottom=5;compareTab.style.paddingLeft=10;
-  compareTab.style.whiteSpace=WhiteSpace.Normal;compareTab.style.unityTextAlign=TextAnchor.MiddleLeft;
-  compareTab.style.backgroundColor=new Color(.49f,.46f,.42f);compareTab.style.color=fileInk;compareTab.style.fontSize=Typography.Snap(15);
-  if(dossierBoldFont!=null)compareTab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  tabs.Add(compareTab);
-  var searchTab=new Button(FileSearchPage){text=T("file.tab.search")};
-  searchTab.style.minHeight=54;searchTab.style.marginBottom=5;searchTab.style.paddingLeft=10;
-  searchTab.style.whiteSpace=WhiteSpace.Normal;searchTab.style.unityTextAlign=TextAnchor.MiddleLeft;
-  searchTab.style.backgroundColor=new Color(.49f,.46f,.42f);searchTab.style.color=fileInk;searchTab.style.fontSize=Typography.Snap(15);
-  if(dossierBoldFont!=null)searchTab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  tabs.Add(searchTab);
-  if(game.CanConclude) {
-   var reportTab=new Button(Conclusion){text=T("conclude.tab")};
-   reportTab.style.minHeight=54;reportTab.style.marginBottom=5;reportTab.style.paddingLeft=10;
-   reportTab.style.backgroundColor=new Color(.79f,.63f,.40f);reportTab.style.color=fileInk;
-   reportTab.style.unityTextAlign=TextAnchor.MiddleLeft;reportTab.style.fontSize=Typography.Snap(15);
-   if(dossierBoldFont!=null)reportTab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-   tabs.Add(reportTab);
-  }
+  FileTab(tabs,T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();},new Color(.49f,.46f,.42f));
+  FileTab(tabs,T("file.tab.search"),FileSearchPage,new Color(.49f,.46f,.42f));
+  if(game.CanConclude)FileTab(tabs,T("conclude.tab"),Conclusion,new Color(.79f,.63f,.40f));
   var close=new Button(Desk){text="×"};close.tooltip=T("back.desk");
   close.style.position=Position.Absolute;close.style.right=Length.Percent(8);close.style.top=Length.Percent(7);
   close.style.width=58;close.style.height=58;close.style.fontSize=Typography.Snap(36);
