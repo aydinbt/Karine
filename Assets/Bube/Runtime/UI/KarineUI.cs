@@ -162,8 +162,9 @@ public static partial class KarineUI {
  }
 
  // Yalnız ikon: kare koyu düğme + krem çizgi ikon. İkon 22 px, hedef 48 px.
- public static Button IconButton(VisualElement parent, string icon, Action onClick, string tooltip = null) {
-  var button = new Button(Sounded(onClick));
+ public static Button IconButton(VisualElement parent, string icon, Action onClick, string tooltip = null,
+                                string soundId = AudioDirector.Press) {
+  var button = new Button(Sounded(onClick, soundId));
   button.style.width = KarineTheme.IconButtonSize;
   button.style.height = KarineTheme.IconButtonSize;
   button.style.marginRight = KarineTheme.SpaceSm;

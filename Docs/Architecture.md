@@ -175,7 +175,7 @@ Düğme sesi ekranların içine yazılmaz: `KarineUI.Sounded` kit düğmesinin k
 
 ### Ses varlıkları sentezlenir
 
-Sekiz klip `Assets/Bube/Resources/Bube/Audio/` altında (mono, 44.1 kHz, 16 bit WAV, Git LFS). **Kayıt değil, üretim:** `Tools/make-audio.py` hepsini sıfırdan sentezler (saf Python, harici bağımlılık yok — numpy ve ffmpeg gerekmiyor) ve `Tools/check-audio.py` ölçer.
+Dokuz klip `Assets/Bube/Resources/Bube/Audio/` altında (mono, 44.1 kHz, 16 bit WAV, Git LFS). **Kayıt değil, üretim:** `Tools/make-audio.py` hepsini sıfırdan sentezler (saf Python, harici bağımlılık yok — numpy ve ffmpeg gerekmiyor) ve `Tools/check-audio.py` ölçer.
 
 ```bash
 python3 Tools/make-audio.py     # üretir
@@ -186,20 +186,33 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 
 | dosya | ne | içe aktarım |
 |---|---|---|
-| `ui_press` | mekanik düğme: alçak gövde vuruşu + kuru tık | ADPCM, belleğe açılır |
+| `ui_press` | yumuşak düğme: üstü kapalı, yuvarlak, alçak "tup" | ADPCM, belleğe açılır |
 | `ui_page` | kâğıt: üç düzensiz sürtünme (tek patlama "ıss" olur) | ADPCM |
-| `ui_typewriter` | daktilo tuşu: çelik tık + kâğıda vuruş + gövde | ADPCM |
+| `ui_typewriter` | daktilo tuşu — **yalnız faks basılırken** | ADPCM |
 | `ui_stamp` | mühürün lastiği: tok, tek, kesin | ADPCM |
 | `ui_notification` | faksın küçük zili: anharmonik kısmiler + mekanizma tıkı | ADPCM |
 | `menu_theme` | 32 s neo-noir döngü, Am–F–Dm–E | Vorbis, akış |
-| `room_office` | 24 s döngü: havalandırma, uzak trafik, floresan, duvar saati | Vorbis, akış |
-| `room_interview` | 24 s döngü: derin uğultu, yakın floresan, tavan çınlaması | Vorbis, akış |
+| `voice_mumble` | konuşmanın gövdesi; perde kişiden gelir | ADPCM |
+| `room_office` | 24 s döngü: kapalı bir odanın sıcak havası | Vorbis, akış |
+| `room_interview` | 24 s döngü: aynısı ama daha kapalı, üst frekans yok | Vorbis, akış |
 
 **Döngü dikişi** iki ayrı teknikle kapatılır, çünkü iki ayrı sorun var. Sürekli katmanlar (gürültü yatağı) `loop_noise` ile **çapraz geçirilir**; kuyruğu başa eklemek o bölgede seviyeyi 1,4 katına çıkarır. Çınlayan katmanlar (yankı, nota kuyruğu) `wrap_tail` ile başa **eklenir**, böylece döngü kendi kuyruğunun üstüne biner. Yankı ise iki kopya sürülüp ikincisi alınarak kararlı hâle getirilir (`steady_reverb`), yoksa oda döngü başında boş, sonunda dolu olur. Periyodik bileşenlerin frekansı döngü boyunda tam çevrim yapar (100 Hz × 24 s = 2400 çevrim), yoksa dikişte faz atlar.
 
 `check-audio.py` kırpma, DC kayması, ölü sessizlik, seviye aralığı, dikişteki örnek atlaması ve döngü başındaki seviye kamburunu ölçer; menü müziğinde ayrıca dört akorun kökünü Goertzel ile ölçüp akora yabancı bir aralıktan yüksek olduğunu doğrular. Darbeli arayüz seslerinde seviye dosya boyu değil **en gürültülü 100 ms penceresi** üzerinden ölçülür, yoksa kuyruk sessizliği ölçümü yanıltır.
 
-`ProjectRules` sekiz klibin varlığını kilitler ve `CaseRules` vakanın `ambienceId`si için dosya arar: `AudioDirector` eksik klibi sessiz geçtiği için bir sesin silinmesi ya da adının yanlış yazılması başka hiçbir yerde duyulmazdı. Kural, `ui_press.wav` geçici olarak kaldırılıp düşmesi görülerek doğrulandı.
+**Hangi ses nerede çalar** — bu eşleme sesin kendisi kadar önemli, çünkü doğru ses yanlış yerde yanlış sestir:
+
+- `ui_press` her kit düğmesi (`KarineUI.Sounded`ın varsayılanı).
+- `ui_page` kâğıt düğmesi (`PaperButton`) ve evrak gezintisinin okları — sayfa çevirmenin sesi kâğıttır.
+- `ui_typewriter` yalnız faks basılırken (`FaxPage`'in değerlendirme satırı). Arayüz düğmelerinde hiç yoktu.
+- `voice_mumble` görüşmede karşıdakinin cümlesi yazılırken, altı karakterde bir. Kelime yok: kelime olsa Türkçe metnin üstüne yabancı bir dil binerdi. Perde `AudioDirector.VoicePitch(personId)` ile kimlikten türer — veri dosyasına alan eklemeden üç kişi üç ses olur, ve aynı kişi her zaman aynı perdeyle konuşur. Her vuruşta perde biraz oynar, yoksa insan değil makine duyulur.
+- `ui_stamp` mühür, `ui_notification` gelen evrak.
+
+`Typewriter(label, line, soundId, pitch, gain, every)` — metin harf harf yazılırken ne duyulacağı **satırın kime ait olduğuna** bağlıdır, o yüzden çağrı yerinden gelir.
+
+**Yumuşaklık bir karardır.** İlk sürüm mekanik ve gergindi (klavye tıkı, duvar saati, floresan uğultusu, tavan çınlaması) ve sesi açan oyuncuyu ürkütüyordu. İkinci sürümde tık yuvarlandı, saat ve uğultular tamamen kaldırıldı, odalar –26 dBFS'e indi. Odalar arasındaki fark artık ses değil **renk**: görüşme odasında üst frekans yok, yani duvarlar yakın.
+
+`ProjectRules` dokuz klibin varlığını kilitler ve `CaseRules` vakanın `ambienceId`si için dosya arar: `AudioDirector` eksik klibi sessiz geçtiği için bir sesin silinmesi ya da adının yanlış yazılması başka hiçbir yerde duyulmazdı. Kural, `ui_press.wav` geçici olarak kaldırılıp düşmesi görülerek doğrulandı.
 
 ## Geri tuşu ve duraklatma
 

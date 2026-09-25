@@ -30,7 +30,7 @@ public static class ProjectRules {
  // sesi (`CaseData.ambienceId`) burada değil, vaka kuralında denetlenir.
  public static readonly string[] RequiredClips = {
   AudioDirector.Press, AudioDirector.Page, AudioDirector.Typewriter,
-  AudioDirector.Stamp, AudioDirector.Notification,
+  AudioDirector.Stamp, AudioDirector.Notification, AudioDirector.Voice,
   "menu_theme", "room_office", "room_interview",
  };
 

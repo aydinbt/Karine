@@ -73,6 +73,23 @@ public sealed class SoundTests {
   Assert.IsTrue(ran, "Düğmenin kendi eylemi çalışmadı.");
  }
 
+ // Konuşma perdesi kişiden türer: aynı kişi her zaman aynı sesle konuşur,
+ // farklı kişiler farklı perdeye düşer ve perde makul aralıkta kalır.
+ [Test]
+ public void VoicePitch_IsStablePerPersonAndStaysInRange() {
+  Assert.AreEqual(AudioDirector.VoicePitch("hasan"), AudioDirector.VoicePitch("hasan"),
+   "Aynı kişi iki farklı perdeyle konuşmamalı.");
+  var pitches = new[] { "mert", "elif", "hasan" }
+   .Select(AudioDirector.VoicePitch).ToArray();
+  Assert.AreEqual(3, pitches.Distinct().Count(), "Üç kişi üç perde olmalı.");
+  foreach (var pitch in pitches) {
+   Assert.GreaterOrEqual(pitch, 0.85f, "Perde fazla alçak: ses tanınmaz olur.");
+   Assert.LessOrEqual(pitch, 1.15f, "Perde fazla yüksek: çizgi film olur.");
+  }
+  // Kişisi olmayan satır (anlatıcı, faks) doğal perdede kalır.
+  Assert.AreEqual(1f, AudioDirector.VoicePitch(null));
+ }
+
  // Kimse dinlemiyorsa (testler, başsız koşu) ses istemek patlamamalı.
  [Test]
  public void NoListener_IsNotAnError() {

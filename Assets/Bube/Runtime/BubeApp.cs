@@ -400,7 +400,11 @@ public sealed partial class BubeApp : MonoBehaviour {
    if(step>=12)animation.Pause();
   }).Every(25);
  }
- void Typewriter(Label label,string line) {
+ // Metin harf harf yazılırken ne duyulacağı **satırın kime ait olduğuna**
+ // bağlıdır: resmî bir kâğıt daktiloyla basılır, bir insan konuşur. Ses
+ // kimliği, perdesi ve sıklığı bu yüzden çağrı yerinden gelir.
+ void Typewriter(Label label,string line,string soundId=AudioDirector.Typewriter,
+                 float pitch=1f,float gain=1f,int every=4) {
   if(instantText){label.text=line;return;}
   label.text=string.Empty;
   int length=0;
@@ -409,8 +413,10 @@ public sealed partial class BubeApp : MonoBehaviour {
   animation=label.schedule.Execute(()=>{
    length=Mathf.Min(line.Length,length+2);
    label.text=line.Substring(0,length);
-   // Her karede değil: daktilo tıkırtısı harf harf çalarsa gürültü olur.
-   if(audio!=null && ++tick%4==0)audio.Play(AudioDirector.Typewriter);
+   // Her karede değil: harf harf çalarsa gürültü olur.
+   if(audio!=null && ++tick%every==0)
+    // Perdedeki küçük oynama konuşmayı makineden ayırır.
+    audio.Play(soundId,pitch*(0.97f+0.06f*UnityEngine.Random.value),gain);
    if(length>=line.Length)animation.Pause();
   }).Every(22);
  }

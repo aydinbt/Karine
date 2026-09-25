@@ -551,3 +551,16 @@ Sekiz klip yer tutucu değil; her biri bir karar. Referans dünya 90'lar sonu bi
 **Kayıt değil sentez.** Klipler `Tools/make-audio.py` içinde sıfırdan üretiliyor. Sebebi zorunluluk değil tercih: bir tonu değiştirmek yeni bir kayıt aramak yerine bir satır değiştirmek oluyor, ve `ui_stamp`ın neden tok olduğu kodda **yazılı**. Dinleyemediğim için `Tools/check-audio.py` yazdım: kırpma, DC kayması, seviye, ölü sessizlik ve döngü dikişi ölçülüyor, müzikte dört akorun kökü Goertzel ile aranıyor. İlk ölçüm iki gerçek kusur buldu — yastık zarfının atağı saniye yerine oranla çalıştığı için müzik yalnız tellerden duyuluyordu, ve sürekli katmanların kuyruğu başa eklendiği için döngü başında seviye kamburu vardı. İkisi de düzeltildi, ölçüm 0 bulgu.
 
 **Ama bu ölçümdür, kulak değil.** Sesin oyunda nasıl durduğu, seviyelerin birbirine göre dengesi ve döngünün gerçekten dikişsiz duyulup duyulmadığı Play Mode'da senin kararın.
+
+## Ses yumuşatıldı; karakterler konuşuyor (25 Eylül 2026, aynı gün)
+
+**Kullanıcı:** "room_office çok kötü, neden öyle bir ses var ki? … görüşme alanındaki ses de çok kötü… oyun dedektif bir oyun ama oyun sesini açanları da ürkütmemek gerekiyor, daha soft bir buton tıklama, interview, room office olmalı."
+
+İlk sürüm tür doğruydu ama **dozu yanlıştı**: duvar saatinin tik takı, floresan uğultusu ve görüşme odasındaki tavan çınlaması gerilim kuruyordu. Bir oyunda gerilim sahneden gelir, ortam sesinden gelirse yalnızca yorar. Karar tersine çevrildi:
+
+- **Odalar neredeyse sessiz.** Saat kaldırıldı, floresan uğultusu kaldırıldı, tavan çınlaması kaldırıldı. Kalan, kapalı bir odanın kendi havası; seviye −26 dBFS. İki oda arasındaki fark artık ses değil **renk**: görüşme odasında üst frekans yok, yani duvarlar yakın.
+- **Düğme yuvarlandı.** Eski `ui_press` mekanik bir klavye tıkıydı. Kullanıcı bunu "daktilo sesi menülere konulmuş" diye duydu — haklı olarak, çünkü ses o karakterdeydi; oysa daktilo o düğmelerde hiç çalmıyordu. İkisi de düzeltildi: düğme artık üstü kapalı alçak bir "tup", daktilo ise **yalnız faks basılırken** çalıyor. Yani yanlış olan yerleştirme değil sesin kendisiydi, ama sonuç aynıydı.
+
+**Karakterler konuşuyor.** Görüşmede cümle yazılırken artık daktilo değil sesin **gövdesi** duyuluyor: iki formant, yuvarlak açılış, çok alçak, altı karakterde bir. Kelime yok — kelime olsa Türkçe metnin üstüne yabancı bir dil binerdi ve her cümle için ayrı kayıt gerekirdi. Perde kişinin kimliğinden türüyor, yani üç kişi üç ses oluyor ve aynı kişi her zaman aynı perdeyle konuşuyor; her vuruşta perde biraz oynuyor, yoksa insan değil makine duyulur. Vaka verisine yeni alan eklemek gerekmedi.
+
+**`ui_page` kullanılıyor, ama az görünüyordu:** kâğıt düğmesindeydi. Artık evrak gezintisinin okları da onu çalıyor — sayfa çevirmenin sesi kâğıttır, düğme değil.

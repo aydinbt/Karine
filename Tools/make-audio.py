@@ -175,15 +175,18 @@ def swell(attack, dur, release=0.40):
 # onaylar, dikkat istemez.
 
 def ui_press():
- # Mekanik plastik düğme: gövdenin alçak vuruşu + parmağın kuru tıkı.
- out = buf(0.18)
- body = noise(0.03, 11); bandpass(body, 1700, 2.2); lowpass(body, 4200)
- for i in range(len(body)):
-  out[i] += body[i] * 0.55 * math.exp(-38 * i / RATE)
- sine(out, 96, 0.30, 0.12, env=decay(26))
- sine(out, 184, 0.10, 0.06, env=decay(40))
- reverb(out, mix=0.10, room=0.62)
- return normalize(fade(out), 0.52)
+ # Yumuşak düğme. İlk sürüm mekanik bir klavye tıkıydı ve arayüzde "daktilo"
+ # gibi duyuluyordu — sesi açan oyuncuyu yoruyor. Artık tık yok: yalnız üstü
+ # kapalı, yuvarlak ve alçak bir "tup". Karar sesin **duyulmaması**, varlığının
+ # sezilmesi.
+ out = buf(0.16)
+ sine(out, 168, 0.30, 0.10, env=lambda t: (t*14 if t < 0.07 else 1.0) * math.exp(-30 * t))
+ sine(out, 252, 0.10, 0.07, env=lambda t: (t*14 if t < 0.07 else 1.0) * math.exp(-42 * t))
+ touch = noise(0.02, 11); lowpass(touch, 900, poles=2)
+ for i in range(len(touch)):
+  out[i] += touch[i] * 0.10 * math.exp(-55 * i / RATE)
+ reverb(out, mix=0.07, room=0.55)
+ return normalize(fade(out, 0.006, 0.05), 0.34)
 
 def ui_page():
  # Kâğıt. Tek gürültü patlaması "ıss" olur; kâğıt üç düzensiz sürtünmedir.
@@ -204,18 +207,20 @@ def ui_page():
  return normalize(fade(out, 0.002, 0.06), 0.46)
 
 def ui_typewriter():
- # Daktilo tuşu: çelik kolun tıkı + kâğıda vuruş + gövdenin alçak tokluğu.
+ # Daktilo tuşu. Artık **yalnız faks yazarken** çalıyor: resmî bir kâğıdın
+ # basılması. Arayüz düğmelerinde bu ses yoktu, ama `ui_press` ona benzediği
+ # için öyle duyuluyordu; düğme yumuşadı, bu ses de biraz.
  out = buf(0.16)
- click = noise(0.012, 31); highpass(click, 2600)
+ click = noise(0.012, 31); highpass(click, 2200); lowpass(click, 7000)
  for i in range(len(click)):
-  out[i] += click[i] * 0.7 * math.exp(-90 * i / RATE)
+  out[i] += click[i] * 0.45 * math.exp(-95 * i / RATE)
  hit = noise(0.05, 32); bandpass(hit, 1200, 1.6)
  for i in range(len(hit)):
   out[i] += hit[i] * 0.42 * math.exp(-45 * i / RATE)
- sine(out, 132, 0.24, 0.09, env=decay(34))
- sine(out, 2950, 0.05, 0.05, env=decay(70))   # kolun ince çınlaması
+ sine(out, 132, 0.22, 0.09, env=decay(34))
+ sine(out, 2950, 0.025, 0.04, env=decay(80))   # kolun ince çınlaması
  reverb(out, mix=0.12, room=0.60)
- return normalize(fade(out), 0.50)
+ return normalize(fade(out), 0.40)
 
 def ui_stamp():
  # Mühür: lastiğin kâğıda inişi. Alçak, tok, tek ve kesin.
@@ -235,80 +240,77 @@ def ui_notification():
  # Gelen evrak: faks makinesinin küçük zili. Anharmonik kısmiler (gerçek zil
  # gibi), önünde mekanizmanın tıkı. Uyarı değil, haber.
  out = buf(1.30)
- tick = noise(0.01, 51); highpass(tick, 3000)
+ tick = noise(0.01, 51); highpass(tick, 2400); lowpass(tick, 6500)
  for i in range(len(tick)):
-  out[i] += tick[i] * 0.35 * math.exp(-110 * i / RATE)
+  out[i] += tick[i] * 0.22 * math.exp(-110 * i / RATE)
  base = 784.0  # G5
- for ratio, amp, k in ((1.00, 0.34, 3.2), (2.76, 0.16, 4.4), (5.40, 0.07, 6.5),
-                       (8.93, 0.03, 9.0), (1.002, 0.30, 3.0)):
+ for ratio, amp, k in ((1.00, 0.34, 3.2), (2.76, 0.12, 4.8), (5.40, 0.035, 7.5),
+                       (8.93, 0.010, 11.0), (1.002, 0.30, 3.0)):
   sine(out, base * ratio, amp, 1.25, start=0.004, env=decay(k))
  reverb(out, mix=0.26, room=0.78)
- return normalize(fade(out, 0.001, 0.12), 0.60)
+ return normalize(fade(out, 0.001, 0.12), 0.40)
 
 # --- oda ortamları -----------------------------------------------------------
 # İkisi de döngü. Olay yok, gelişme yok: oda ne yaparsan yapsın aynı kalır.
 # Bilinçli olarak **çok alçak** — ortam sesi fark edilmemek için vardır.
 
 def room_office():
+ # İlk sürüm duvar saati, floresan uğultusu ve trafikle "gerilim odası"ydı:
+ # oyuncuyu ürkütüyordu. Karar tersine çevrildi — oda **sıcak** ve neredeyse
+ # sessiz. Saat yok (tik tak baskı kurar), floresan uğultusu yok (uğultu
+ # rahatsız eder). Kalan: kapalı bir odanın kendi havası.
  LOOP = 24.0
  out = buf(LOOP)
  n = len(out)
 
- # Havalandırmanın alçak uğultusu, uzakta trafik, ince oda tonu. Üçü de
- # döngüye dikişsiz oturan gürültü katmanı.
- rumble  = loop_noise(LOOP, 101, cutoff=95, poles=3)
- traffic = loop_noise(LOOP, 102, cutoff=520, poles=2, hp=70)
- air     = loop_noise(LOOP, 103, band=(2400, 0.7))
-
+ warm = loop_noise(LOOP, 101, cutoff=70, poles=3)     # odanın alçak sıcaklığı
+ room = loop_noise(LOOP, 102, cutoff=340, poles=3, hp=60)  # havanın hareketi
  for i in range(n):
   t = i / RATE
-  # Nefes: periyodu döngü boyunun tam böleni, yoksa dikişte atlar
-  breath = 0.72 + 0.28 * math.sin(2*math.pi*t/LOOP) * math.sin(4*math.pi*t/LOOP + 1.1)
-  out[i] = rumble[i] * 0.55 + traffic[i] * 0.22 * breath + air[i] * 0.05
+  # Çok yavaş nefes: odanın canlı olduğunu söyler, dikkat çekmez
+  breath = 0.80 + 0.20 * math.sin(2*math.pi*t/LOOP + 0.4)
+  out[i] = warm[i] * 0.52 + room[i] * 0.13 * breath
 
- # Floresan: şebeke 50 Hz'in ikinci katı ve harmonikleri. Frekanslar döngü
- # boyunda tam sayı çevrim yapar (100 × 24 = 2400), dikişte faz atlamaz.
- for freq, amp in ((100.0, 0.030), (200.0, 0.014), (300.0, 0.006)):
-  sine(out, freq, amp, LOOP)
-
- # Duvardaki saat: tam bir saniyede bir, kuru ve alçak. Yalnız döngünün içine
- # konur; kuyruğu yankı taşır, yoksa başta çiftlenir.
- for second in range(int(LOOP)):
-  tick = loop_noise(0.014, 200 + second, band=(2600, 2.5), hp=1400, xf=0.0)
-  i0 = int(second * RATE)
-  strong = 0.030 if second % 2 == 0 else 0.022   # tik / tak
-  for i in range(len(tick)):
-   if i0 + i < n: out[i0 + i] += tick[i] * strong * math.exp(-75 * i / RATE)
-
- return normalize(steady_reverb(out, mix=0.16, room=0.70), 0.30)
+ return normalize(steady_reverb(out, mix=0.12, room=0.66), 0.22)
 
 def room_interview():
- # Görüşme odası: trafik yok, saat yok. Daha derin uğultu, daha yakın floresan,
- # tavanda ince bir çınlama. Kapalı ve baskılı.
+ # Görüşme odası ofisten **daha kapalı**, daha sıcak değil daha derin. Yine
+ # ürkütmeyecek: tavandaki ince çınlama ve floresan titremesi kaldırıldı,
+ # ikisi de kulakta kaygı yapıyordu. Fark artık ses değil **renk**: burada üst
+ # frekans yok, yani duvarlar yakın.
  LOOP = 24.0
  out = buf(LOOP)
  n = len(out)
- rumble = loop_noise(LOOP, 111, cutoff=70, poles=3)
- close  = loop_noise(LOOP, 112, cutoff=240, poles=2, hp=45)
+ deep  = loop_noise(LOOP, 111, cutoff=55, poles=3)
+ close = loop_noise(LOOP, 112, cutoff=190, poles=3, hp=40)
  for i in range(n):
   t = i / RATE
-  breath = 0.78 + 0.22 * math.sin(2*math.pi*t/LOOP + 0.6)
-  out[i] = rumble[i] * 0.62 + close[i] * 0.18 * breath
+  breath = 0.84 + 0.16 * math.sin(2*math.pi*t/LOOP + 0.9)
+  out[i] = deep[i] * 0.58 + close[i] * 0.11 * breath
+ return normalize(steady_reverb(out, mix=0.16, room=0.74, damp=0.30), 0.22)
 
- # Floresan daha yakın, ayrıca balastın kararsız titremesi. Titreme gürültüyle
- # değil yavaş salınım toplamıyla yapılır: sınırlı kalır ve döngüye oturur.
- for freq, amp in ((100.0, 0.052), (200.0, 0.026), (400.0, 0.010), (600.0, 0.005)):
-  sine(out, freq, amp, LOOP)
- for i in range(n):
-  t = i / RATE
-  flicker = (math.sin(2*math.pi*3*t/LOOP) + math.sin(2*math.pi*7*t/LOOP + 2.1)
-             + math.sin(2*math.pi*11*t/LOOP + 0.7)) / 3.0
-  out[i] *= 1.0 + 0.09 * flicker
+# --- karakterin sesi ---------------------------------------------------------
 
- # Tavandaki ince çınlama: tek, sabit, rahatsız etmeyecek kadar alçak.
- # 3990 Hz döngü boyunda tam çevrim yapar (3990 × 24 = 95.760).
- sine(out, 3990.0, 0.0045, LOOP)
- return normalize(steady_reverb(out, mix=0.22, room=0.80, damp=0.25), 0.30)
+def voice_mumble():
+ """Konuşma. Kelime yok — kelime olursa Türkçe metnin üstüne yabancı bir dil
+ biner. Yalnız sesin **gövdesi**: iki formant, yumuşak açılış, çok alçak.
+ Cümle yazılırken birkaç kez çalar, her seferinde perdesi biraz oynar, kişiye
+ göre de perdesi değişir; böylece üç kişi üç ses olur."""
+ out = buf(0.14)
+ base = 150.0
+ env = lambda t: math.sin(math.pi * min(1.0, t * 1.15)) ** 1.3   # yuvarlak, tıksız
+ for harmonic, amp in ((1, 0.22), (2, 0.10), (3, 0.05), (4, 0.022), (5, 0.010)):
+  sine(out, base * harmonic, amp, 0.13, env=env)
+ # Formantlar: "mm/ah" arası bir renk. Gürültü katılmıyor, yoksa fısıltı olur.
+ body = array.array('d', out)
+ bandpass(body, 520, 2.0)
+ nasal = array.array('d', out)
+ bandpass(nasal, 1180, 2.5)
+ for i in range(len(out)):
+  out[i] = out[i] * 0.45 + body[i] * 0.9 + nasal[i] * 0.35
+ lowpass(out, 2600, poles=2)
+ reverb(out, mix=0.10, room=0.60)
+ return normalize(fade(out, 0.008, 0.03), 0.30)
 
 # --- ana menü müziği ---------------------------------------------------------
 
@@ -382,6 +384,7 @@ SOUNDS = [
  ("ui_typewriter",   ui_typewriter),
  ("ui_stamp",        ui_stamp),
  ("ui_notification", ui_notification),
+ ("voice_mumble",    voice_mumble),
  ("room_office",     room_office),
  ("room_interview",  room_interview),
  ("menu_theme",      menu_theme),

@@ -12,7 +12,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 AUDIO = os.path.normpath(os.path.join(HERE, "..", "Assets", "Bube", "Resources", "Bube", "Audio"))
 LOOPS = {"room_office", "room_interview", "menu_theme"}
 # Beklenen seviye aralığı (dBFS, RMS). Arayüz sesi alçak, ortam çok daha alçak.
-BANDS = {"ui": (-26.0, -9.0), "room": (-40.0, -20.0), "menu": (-26.0, -11.0)}
+# Arayüz sesi alçak, oda ortamı çok daha alçak. Ürkütmeme kararından sonra
+# odaların üst sınırı indirildi: bir oda ortamı fark edilirse zaten gürültüdür.
+BANDS = {"ui": (-30.0, -11.0), "voice": (-30.0, -12.0),
+         "room": (-44.0, -26.0), "menu": (-26.0, -11.0)}
 
 def db(v): return 20 * math.log10(max(v, 1e-9))
 

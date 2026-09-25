@@ -22,6 +22,7 @@ public sealed class AudioDirector : MonoBehaviour {
  public const string Typewriter   = "ui_typewriter";
  public const string Stamp        = "ui_stamp";
  public const string Notification = "ui_notification";
+ public const string Voice        = "voice_mumble";
 
  AudioSource music, ambience, effects;
  readonly Dictionary<string, AudioClip> cache = new Dictionary<string, AudioClip>();
@@ -68,10 +69,26 @@ public sealed class AudioDirector : MonoBehaviour {
   }
  }
 
- public void Play(string id) {
+ public void Play(string id) => Play(id, 1f, 1f);
+
+ // `pitch` konuşma için: tek klip, kişiye göre perde. `gain` bir sesin diğerine
+ // göre ağırlığı (konuşma tıkırtıdan alçak durmalı). Perde paylaşılan kanalda
+ // durduğu için her seferinde yazılır.
+ public void Play(string id, float pitch, float gain) {
   if (effects == null || SoundSettings.SfxGain <= 0f) return;
   var clip = Clip(id);
-  if (clip != null) effects.PlayOneShot(clip, SoundSettings.SfxGain);
+  if (clip == null) return;
+  effects.pitch = Mathf.Clamp(pitch, 0.5f, 2f);
+  effects.PlayOneShot(clip, SoundSettings.SfxGain * Mathf.Clamp01(gain));
+ }
+
+ // Kişinin sesi kimliğinden türer: veri dosyasına yeni alan eklemeden üç kişi
+ // üç perde olur, ve aynı kişi her zaman aynı perdeyle konuşur.
+ public static float VoicePitch(string personId) {
+  if (string.IsNullOrEmpty(personId)) return 1f;
+  int hash = 17;
+  foreach (var letter in personId) hash = hash * 31 + letter;
+  return 0.88f + (Mathf.Abs(hash) % 25) * 0.01f;   // 0,88 – 1,12
  }
 
  public void PlayMusic(string id) => Loop(music, id, ref musicId);
