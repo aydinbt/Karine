@@ -167,6 +167,16 @@ Yeni `caseXXX.json` + `tr.json` anahtarları + önceki vakanın `nextCaseId` ala
 - **Yazı tipi rolleri** `FontSet.Load()` ile tek yerden çözülür: `Heading` (RobotoSlab-ExtraBold → Arvo-Bold), `Body` (Inter-Regular → IBMPlexSans-Regular), `Mono` (IBMPlexMono). Eksik rol mono'ya düşer; `FontSet.Missing` hangi rolün düştüğünü söyler ve `ProjectRules` bunu doğrulama notu olarak yazar. `Text()` ve `Button()` gövde rolünü, ekran başlıkları `Heading` rolünü kullanır.
 
 
+## Arayüz tasarım sistemi
+
+- **Kanon:** `Docs/Reference/UI_KIT.png` (görsel spesifikasyon) + `Docs/UI_KIT.md` (yazılı özet).
+- `Assets/Bube/Runtime/UI/KarineTheme.cs` — palet (sekiz kit rengi + türetilmiş `Muted`/`Disabled`), boşluk ölçeği (4/8/12/18/24), köşe (`Radius = 2`), kenar kalınlığı, dokunma hedefi (48/56), devinim süreleri ve diegetic `Paper` katmanı. Renkler hex sabitten okunur; ayrıştırılamayan değer magenta olur, sessizce siyaha düşmez.
+- `Assets/Bube/Runtime/UI/KarineUI.cs` — kit bileşenleri: `Button_` (Primary/Secondary/Ghost/Danger + basılı/devre dışı durumları), `IconButton`, `Icon`, `Panel`, `Row`, `Rule`, `Title`/`Subtitle`/`Body_`/`Technical`, `Badge`, `Dot`, `Tabs`, `DocumentNav`, `Modal`, `Notification`, `Progress`, `Tooltip`, `Border`/`Round`/`Enter`. Prefab yoktur; "bileşen" burada `VisualElement` döndüren üretici demektir.
+- `KarineUI.Fonts` `Awake`'te bir kez kurulur (`FontSet.Load()`); rol eksikse bileşenler yine çizilir.
+- `BubeApp`in eski palet sabitleri (`Ink`, `Muted`, `Gold`, `Base`, `Card`, `Paper`) artık `KarineTheme`ye bağlı takma adlardır — tek dosya değişince yüzden fazla ekran birlikte kayar. `Button(...)` ve `Panel(...)` yardımcıları `KarineUI`ye devrediyor.
+- **Ham renk kilidi:** `ProjectRules.RawColorBudget = 156`. `Assets/Bube/Runtime` altındaki (UI klasörü hariç) doğrudan `new Color(` sayısı bunu aşarsa doğrulama düşer; azalırsa doğrulayıcı bütçenin düşürülebileceğini not eder.
+- Kit ikonları `Resources/Bube/Art/Icons/` altındadır ve `ProjectRules.KitIcons` listesiyle varlıkları aranır.
+
 ## Ana menü
 
 - Arka plan `Assets/StreamingAssets/Bube/main_menu_loop.mp4` (1920×1080, 10 sn, H.264/AAC, LFS). `VideoPlayer` → `RenderTexture(1920×1080)` → `Image(ScaleAndCrop)`; `isLooping = true`, ses kapalı.

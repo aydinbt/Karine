@@ -18,6 +18,16 @@ public static class ProjectRules {
   (KarineLogo.BaseResource, "KARINE logosu"),
  };
 
+
+ // `Docs/Reference/UI_KIT.png` içinden kesilmiş ortak ikonlar.
+ public static readonly string[] KitIcons = {
+  "folder", "document", "gear", "binoculars", "pin", "people", "chart", "more",
+  "close", "alert", "info", "nav_prev", "nav_next", "menu_quit",
+ };
+
+ // 25 Eylül 2026'da ölçülen borç. Yalnız aşağı çekilir.
+ const int RawColorBudget = 156;
+
  public static void Validate(ValidationReport report) {
   report.Scope("proje");
   var expected = SceneOrder.Select(name => "Assets/Bube/Scenes/" + name + ".unity").ToArray();
@@ -37,9 +47,11 @@ public static class ProjectRules {
 
   // Ana menü simgeleri: eksik bir dosya satırı simgesiz bırakır, bu sessizce
   // maketten uzaklaşmak demektir.
-  foreach (var icon in new[] { "continue", "newCareer", "settings", "career", "quit" })
-   report.Require(Resources.Load<Texture2D>("Bube/Art/Icons/menu_" + icon) != null,
-    "Ana menü simgesi yok: menu_" + icon);
+  // Kit'in ortak ikon dili (§15): aynı işlev her ekranda aynı ikon. Eksik bir
+  // dosya, o işlevin ekranda simgesiz kalması demektir.
+  foreach (var icon in KitIcons)
+   report.Require(Resources.Load<Texture2D>("Bube/Art/Icons/" + icon) != null,
+    "Kit ikonu yok: " + icon);
 
   // Marka oranı: logo dosyası değişirse `KarineLogo.AspectRatio` da değişmeli,
   // yoksa oran sessizce bozulur.
@@ -61,6 +73,25 @@ public static class ProjectRules {
   var missing = FontSet.Load().Missing;
   if (missing.Length > 0)
    report.Note("Yazı tipi rolü mono'ya düşüyor: " + string.Join(", ", missing));
+
+  // Kit görseli deponun içinde durmalı: bağlayıcı spesifikasyon, sohbete
+  // iliştirilmiş bir ek değil.
+  report.Require(File.Exists("Docs/Reference/UI_KIT.png"),
+   "KARINE UI Kit referans görseli yok: Docs/Reference/UI_KIT.png");
+
+  // Ham renk kilidi (ratchet). Ekranların içindeki `new Color(...)` çağrıları
+  // kit'ten önce yazılmış eski borçtur; hepsini tek oturumda temizlemek yerine
+  // **büyümesi** engelleniyor. Yeni kod rengi `KarineTheme`den alır; bu sayı
+  // ancak borç azaldıkça düşürülür, asla yükseltilmez.
+  var rawColors = Directory.GetFiles("Assets/Bube/Runtime", "*.cs", SearchOption.AllDirectories)
+   .Where(path => !path.Replace('\\', '/').Contains("Runtime/UI/"))
+   .Sum(path => File.ReadAllText(path).Split(new[] { "new Color(" }, System.StringSplitOptions.None).Length - 1);
+  report.Require(rawColors <= RawColorBudget,
+   "Ekranların içine yeni ham renk yazılmış (" + rawColors + " > " + RawColorBudget +
+   "). Renk `KarineTheme`den alınır.");
+  if (rawColors < RawColorBudget)
+   report.Note("Ham renk borcu azalmış (" + rawColors + "/" + RawColorBudget +
+    "); `RawColorBudget` bu sayıya çekilebilir.");
 
   // Sinematikler Resources'ta degil StreamingAssets'ta durur; eksik bir video
   // oyunu durdurmaz ama o anin sessizce kaybolmasi fark edilmelidir.

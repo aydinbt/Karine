@@ -1,0 +1,79 @@
+# KARINE — UI/UX Kit (bağlayıcı tasarım sistemi)
+
+**Referans görsel:** [Reference/UI_KIT.png](Reference/UI_KIT.png) — kullanıcı tarafından 25 Eylül 2026'da verildi.
+**Statü:** ilham değil, **spesifikasyon**. Bir bileşenin nasıl görüneceği tartışmalıysa önce görsele bakılır, oradaki bileşen yeniden kullanılır.
+**Kod karşılığı:** `Assets/Bube/Runtime/UI/KarineTheme.cs` (değerler) + `Assets/Bube/Runtime/UI/KarineUI.cs` (bileşenler).
+
+## Değişmez kural
+
+Yeni ekran yazarken **yeni tasarım dili üretilmez**. Sıra şudur:
+
+1. Kit görseline bak.
+2. `KarineUI`de o bileşen var mı?
+3. Yoksa en yakınından türet.
+4. Yeni bileşen en son seçenektir ve `KarineUI`ye girer, ekranın içine değil.
+
+Renk, punto, boşluk, köşe yarıçapı ve süre ekranın içine **yazılmaz**; `KarineTheme`den alınır.
+
+## Palet
+
+Değerler kit görselindeki etiketli sekiz kutudan okunmuştur. `UiKitTests.Palette_MatchesTheKitSwatches` bunları kilitler.
+
+| Rol | Hex | Kullanım |
+| --- | --- | --- |
+| Arka plan | `#0B0F14` | ekran zemini |
+| Panel | `#1B2228` | kart, panel |
+| Panel 2 | `#2F3A3F` | yükseltilmiş yüzey, kenar |
+| Birincil (krem) | `#E8DCC4` | birincil eylem, seçili durum, önemli vurgu |
+| İkincil | `#C9B38C` | ikincil metin, üst başlık (kicker) |
+| Vurgu | `#8F7A5A` | çizgi, kenar, sıcak vurgu |
+| Aktif (teal) | `#29D3C3` | **yalnız** terminal/dijital sistem geri bildirimi |
+| Uyarı | `#E94F4F` | **yalnız** yıkıcı eylem ve kritik uyarı |
+
+`Muted` ve `Disabled` paletin dışında değildir, paletten türetilir.
+
+**Diegetic katman ayrıdır.** Kit §13: dosya, evrak, faks, terminal oyun dünyasının parçasıdır ve HUD paletiyle boyanmaz. Bu katman `KarineTheme.Paper` altında tek yerde durur (`Sheet`, `Ink`, `Faded`, `Stamp`). Masadaki kâğıt kâğıt gibi görünür; bu bir palet ihlali değil, kit'in istediği ayrımdır.
+
+## Tipografi
+
+| Rol | Yazı tipi |
+| --- | --- |
+| Logo | distressed slab — **yalnız marka görseli**, UI metninde kullanılmaz |
+| Başlık | Roboto Slab Bold |
+| Alt başlık | Roboto Slab Medium |
+| Gövde / düğme | Inter |
+| Teknik metin | IBM Plex Mono |
+
+Teknik metin = oyuncunun "kayıt" olarak okuduğu her şey: `DOSYA #001`, tarih/saat, `KURUM GÜVENİ`, sayfa sayacı, CCTV zaman damgası. Kod karşılığı `KarineUI.Technical(...)`.
+
+Roboto Slab ve Inter `.ttf` dosyaları **henüz depoda yok**; roller bugün IBM Plex Mono'ya düşüyor ve doğrulayıcı bunu not olarak yazıyor. Dosyalar `Assets/Bube/Resources/Bube/Fonts/` altına konduğu an tipografi kendiliğinden yerine oturur.
+
+## Düğme hiyerarşisi
+
+`KarineButtonKind` dışında düğme biçimi yoktur.
+
+- **Primary** — krem zemin, koyu yazı, sol kenar şeridi. Ekranda **tek** dominant eylem.
+- **Secondary** — koyu zemin, krem kenar, krem yazı. (GERİ, KAPAT, İPTAL)
+- **Ghost** — kenarsız, sönük. (GEÇ, DETAYLAR)
+- **Danger** — koyu zemin, kırmızı kenar ve yazı. Kırmızı dekoratif zemin değildir.
+- **IconOnly** — 48 px kare koyu düğme + krem çizgi ikon.
+
+Durumlar tek yerde: NORMAL / PRESSED / DISABLED / SELECTED. Basma geri bildirimi renk kaymasıdır; ölçek veya zıplama yoktur.
+
+## Dokunma
+
+Hedef en az **48 px**, rahat ölçü 56. Görsel ikon 22 px'e inebilir, **hedef inemez**. `UiKitTests.EveryInteractiveComponent_MeetsTheTouchTarget` bunu düğme, ikon düğme ve sekmelerde kontrol eder. Hover hiçbir zaman zorunlu etkileşim değildir.
+
+## İkon dili
+
+Ortak küme `Assets/Bube/Resources/Bube/Art/Icons/` altındadır ve **kit görselinden kesilmiştir**: `folder`, `document`, `gear`, `binoculars`, `pin`, `people`, `chart`, `more`, `close`, `alert`, `info`, `nav_prev`, `nav_next`, `menu_quit`.
+
+Aynı işlev her ekranda aynı ikon: Dosyalar = `folder`, Evrak = `document`, Ayarlar = `gear`, Görüşmeler = `people`, Kariyer = `chart`, Kapat = `close`. Emoji kullanılmaz. Eksik bir ikon doğrulayıcıda hatadır.
+
+## Devinim
+
+Basma ~100 ms, panel ~200 ms, modal ~220 ms, bildirim ~250 ms. Yalnız fade, küçük kayma ve hafif ölçek. Bounce, elastic ve mobil oyun "pop" animasyonu yasaktır.
+
+## Ham renk borcu
+
+Kit'ten **önce** yazılmış ekranlarda hâlâ 156 adet doğrudan `new Color(...)` çağrısı var. Hepsi tek oturumda temizlenmedi; bunun yerine doğrulayıcıya bir **kilit** kondu: sayı 156'yı aşarsa derleme doğrulaması düşer. Yeni kod rengi `KarineTheme`den alır, bu sayı ancak aşağı çekilir. Borç azaldığında doğrulayıcı bunu not olarak söyler ve `RawColorBudget` düşürülür.

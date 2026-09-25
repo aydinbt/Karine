@@ -418,3 +418,18 @@ Soldaki sütun maketin sırası: KARINE logosu → `A DETECTIVE INVESTIGATION GA
 **Simgeler maketten kesildi.** Satır simgeleri font glifiyle (`▣ ▤ ⚙ ▥ ◀`) çizilirken küçük ve cılız duruyordu; artık maketin kendi ikonları (klasör, belge, dişli, grafik, çıkış oku) beş küçük PNG olarak `Bube/Art/Icons/menu_*` altında duruyor. Krem renkle yazılıp satırın tonuyla boyanıyorlar, böylece öne çıkan satırda kendiliğinden koyuya dönüyorlar. Eksik bir simge dosyası doğrulayıcıda hata verir.
 
 Eski `bube` yazı logosu ve `P O L I C E` satırı kalktı; marka artık KARINE.
+
+## KARINE UI/UX Kit bağlayıcı tasarım sistemi oldu (25 Eylül 2026)
+
+Kullanıcının verdiği UI/UX Kit görseli artık **spesifikasyondur**, ilham değil. Görsel depoya `Docs/Reference/UI_KIT.png` olarak alındı; yazılı karşılığı `Docs/UI_KIT.md`.
+
+**Tek kaynak kuruldu.** `KarineTheme` paleti, boşluk ölçeğini, köşe dilini, dokunma hedefini ve devinim sürelerini tutuyor; `KarineUI` kit'in bileşenlerini üretiyor (dört düğme biçimi, ikon düğme, panel, sekme, rozet, modal, bildirim, evrak gezintisi, ilerleme, tooltip, ikon). Ekranların içine renk veya punto yazılmaz.
+
+**Palet kit görselinden okundu.** Yazılı brief ile görselin etiketleri iki yerde çakışıyordu — brief `#EBDCC4` / `#C9836C` / `#C94F4F` diyor, görselin kendi etiketleri `#E8DCC4` / `#C9B38C` / `#E94F4F`. Kit'in kendi §23 maddesi "referans görsel önceliklidir" dediği için **görseldeki değerler** alındı; ayrıca `#E8DCC4` zaten KARINE logosunun rengi, yani görsel kendi içinde tutarlı.
+
+**Diegetic katman bilinçli olarak paletin dışındadır.** Kit §13 dosya/evrak/faks/terminali oyun dünyasının parçası sayar. Ekranlarda 38 kez tekrarlanan kâğıt kremi ve kâğıt üstü mürekkep `KarineTheme.Paper` altında adlandırıldı. Bu bir palet ihlali değil, kit'in istediği ayrımın koda geçmiş hâlidir.
+
+**İkon dili kit'ten kesildi.** On üç ikon (`folder`, `document`, `gear`, `binoculars`, `pin`, `people`, `chart`, `more`, `close`, `alert`, `info`, `nav_prev`, `nav_next`) doğrudan kit görselinden çıkarıldı. Ana menünün makete özel dört ikonu **silindi**: aynı işlev için iki ayrı çizim tutmak kit'in "aynı fonksiyon = aynı ikon" kuralını bozuyordu; menü artık ortak kümeyi kullanıyor.
+
+**Ham renk borcu kilitlendi.** Kit'ten önce yazılmış ekranlarda 156 doğrudan `new Color(...)` kaldı. Hepsini bir oturumda çevirmek soruşturma ekranlarını gözle doğrulanamayacak kadar çok değiştirirdi; bunun yerine doğrulayıcıya sayının **büyümesini** engelleyen bir kilit kondu. Borç ancak aşağı iner.
+

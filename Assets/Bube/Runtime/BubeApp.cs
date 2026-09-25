@@ -89,14 +89,16 @@ public sealed class BubeApp : MonoBehaviour {
  Button cctvPlaybackButton, cctvStepButton;
  bool cctvReachedEnd;
 
- static readonly Color Ink = new Color(.91f,.88f,.77f);
- static readonly Color Muted = new Color(.62f,.65f,.62f);
- static readonly Color Gold = new Color(.86f,.67f,.36f);
- static readonly Color Base = new Color(.07f,.10f,.12f);
- static readonly Color Card = new Color(.12f,.16f,.17f);
- static readonly Color Paper = new Color(.17f,.20f,.19f);
+ // Palet artık ekranın içinde değil `KarineTheme`de. Buradaki adlar eski
+ // çağrı yerlerini kırmamak için duruyor; değerleri kit'ten gelir.
+ static readonly Color Ink = KarineTheme.Primary;
+ static readonly Color Muted = KarineTheme.Muted;
+ static readonly Color Gold = KarineTheme.Secondary;
+ static readonly Color Base = KarineTheme.Background;
+ static readonly Color Card = KarineTheme.Panel;
+ static readonly Color Paper = KarineTheme.Panel2;
  const string ArchiveTimelineId="@timeline";
- const int MinimumTouchTarget=48;
+ const int MinimumTouchTarget=KarineTheme.TouchTarget;
 
  string CaseSavePath(string id) => Path.Combine(Application.persistentDataPath,"bube-"+id+"-v1.json");
  string SavePath => CaseSavePath(game.Data.id);
@@ -165,7 +167,7 @@ public sealed class BubeApp : MonoBehaviour {
   panel.match=1;
   panel.themeStyleSheet=Resources.Load<ThemeStyleSheet>("Bube/DefaultTheme");
   doc.panelSettings=panel;
-  fonts=FontSet.Load();
+  fonts=FontSet.Load();KarineUI.Fonts=fonts;
   // Dosya/terminal dokusu mono kalir; govde ve baslik rolleri ayri dusunulur.
   dossierFont=fonts.Mono;
   dossierBoldFont=fonts.MonoBold;
@@ -286,33 +288,29 @@ public sealed class BubeApp : MonoBehaviour {
   button.style.fontSize=Typography.Snap(16);
  }
 
+ // Tek düğme kapısı. Biçim `KarineUI`den gelir (kit'in PRIMARY/SECONDARY
+ // hiyerarşisi); burada yalnız listelerde okunan sola yaslı yerleşim kalır.
  void Button(VisualElement parent,string value,Action onClick,bool primary=false) {
-  var button=new Button(onClick){text=value};
-  button.style.minHeight=54;
-  button.style.fontSize=Typography.Snap(20);
-  var buttonFont=fonts!=null?fonts.Body:dossierFont;
-  if(buttonFont!=null)button.style.unityFontDefinition=FontDefinition.FromFont(buttonFont);
+  var button=KarineUI.Button_(parent,value,onClick,
+   primary?KarineButtonKind.Primary:KarineButtonKind.Secondary);
   button.style.unityTextAlign=TextAnchor.MiddleLeft;
-  button.style.paddingLeft=18;
-  button.style.marginBottom=10;
-  button.style.backgroundColor=primary?Gold:Paper;
-  button.style.color=primary?Base:Ink;
-  button.style.borderTopWidth=0;
-  button.style.borderBottomWidth=0;
-  button.style.borderLeftWidth=primary?5:1;
-  button.style.borderRightWidth=0;
-  button.style.borderLeftColor=primary?Ink:Muted;
-  parent.Add(button);
+  button.style.marginRight=0;
+  button.style.marginBottom=KarineTheme.SpaceSm;
  }
+ // Teknik metin: dosya numarası, tarih/saat, güven yüzdesi — kit bunları
+ // monospace ister.
+ Label Technical(VisualElement parent,string value,int size=15) => KarineUI.Technical(parent,value,size);
  VisualElement Panel(VisualElement parent,int grow=0) {
   var panel=new VisualElement();
-  panel.style.backgroundColor=Card;
-  panel.style.paddingLeft=24;
-  panel.style.paddingRight=24;
-  panel.style.paddingTop=22;
-  panel.style.paddingBottom=16;
-  panel.style.marginRight=16;
-  panel.style.marginBottom=16;
+  panel.style.backgroundColor=KarineTheme.Panel;
+  KarineUI.Border(panel,KarineTheme.BorderWidth,KarineTheme.Panel2);
+  KarineUI.Round(panel,KarineTheme.Radius);
+  panel.style.paddingLeft=KarineTheme.SpaceXl;
+  panel.style.paddingRight=KarineTheme.SpaceXl;
+  panel.style.paddingTop=KarineTheme.SpaceLg;
+  panel.style.paddingBottom=KarineTheme.SpaceLg;
+  panel.style.marginRight=KarineTheme.SpaceMd;
+  panel.style.marginBottom=KarineTheme.SpaceMd;
   if(grow>0)panel.style.flexGrow=grow;
   parent.Add(panel);
   return panel;
@@ -380,8 +378,8 @@ public sealed class BubeApp : MonoBehaviour {
   paper.style.top=Length.Percent(5);paper.style.bottom=Length.Percent(7);
   paper.style.paddingLeft=28;paper.style.paddingRight=28;
   paper.style.paddingTop=18;paper.style.paddingBottom=15;
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);root.Add(paper);
-  var dark=new Color(.13f,.16f,.20f);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;root.Add(paper);
+  var dark=KarineTheme.Paper.Ink;
   var kicker=Text(paper,T(game.Data.titleKey),new Color(.45f,.29f,.23f),14);kicker.style.marginBottom=5;
   var title=Text(paper,heading,dark,26);title.style.marginBottom=5;
   if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
@@ -401,7 +399,7 @@ public sealed class BubeApp : MonoBehaviour {
   option.style.unityTextAlign=TextAnchor.MiddleLeft;
   option.style.paddingLeft=12;option.style.marginBottom=4;
   option.style.backgroundColor=selected?new Color(.74f,.60f,.40f):new Color(.82f,.76f,.65f);
-  option.style.color=new Color(.13f,.16f,.20f);
+  option.style.color=KarineTheme.Paper.Ink;
   if(dossierFont!=null)option.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   parent.Add(option);
   return option;
@@ -434,14 +432,14 @@ public sealed class BubeApp : MonoBehaviour {
   MenuRule(left);
   var menu=new VisualElement();menu.style.marginTop=8;menu.style.marginBottom=0;left.Add(menu);
   if(game.State.caseAccepted) {
-   MenuRow(menu,"continue",T("menu.row.continue"),Desk,true);
-   MenuRow(menu,"newCareer",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
+   MenuRow(menu,"folder",T("menu.row.continue"),Desk,true);
+   MenuRow(menu,"document",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
   } else {
-   MenuRow(menu,"newCareer",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
+   MenuRow(menu,"document",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
   }
-  MenuRow(menu,"settings",T("menu.row.settings"),SettingsPage,false);
-  MenuRow(menu,"career",T("menu.row.career"),StatisticsPage,false);
-  MenuRow(menu,"quit",T("menu.row.quit"),QuitGame,false);
+  MenuRow(menu,"gear",T("menu.row.settings"),SettingsPage,false);
+  MenuRow(menu,"chart",T("menu.row.career"),StatisticsPage,false);
+  MenuRow(menu,"menu_quit",T("menu.row.quit"),QuitGame,false);
 
   // Stüdyo bloğu sol sütundan çıktı: menünün altına sığmıyor ve son satırla
   // çakışıyordu. Videonun sağ alt köşesi zaten karanlık, oraya oturuyor.
@@ -461,16 +459,8 @@ public sealed class BubeApp : MonoBehaviour {
  // koyu, ötekilerde krem). Dosya yoksa satır simgesiz kalır ama sütun genişliği
  // korunur, böylece etiketler kaymaz.
  VisualElement MenuIcon(string name,Color tone) {
-  var mark=new VisualElement();
-  mark.style.width=34;mark.style.height=22;
-  mark.style.flexShrink=0;
-  var art=Resources.Load<Texture2D>("Bube/Art/Icons/menu_"+name);
-  if(art!=null) {
-   mark.style.backgroundImage=new StyleBackground(art);
-   mark.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(BackgroundSizeType.Contain));
-   mark.style.backgroundPositionX=new BackgroundPosition(BackgroundPositionKeyword.Left);
-   mark.style.unityBackgroundImageTintColor=tone;
-  }
+  var mark=KarineUI.Icon(null,name,tone);
+  mark.style.marginRight=KarineTheme.SpaceMd;
   return mark;
  }
 
@@ -645,8 +635,8 @@ public sealed class BubeApp : MonoBehaviour {
   paper.style.top=Length.Percent(5);paper.style.bottom=Length.Percent(6);
   paper.style.paddingLeft=28;paper.style.paddingRight=28;
   paper.style.paddingTop=18;paper.style.paddingBottom=16;
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);root.Add(paper);
-  var dark=new Color(.13f,.16f,.20f);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;root.Add(paper);
+  var dark=KarineTheme.Paper.Ink;
   // Vaka secici basligi: sol ustte kompakt marka, altinda cizgi.
   KarineLogo.Header(paper,150,new Color(.45f,.29f,.23f),new Color(.31f,.20f,.16f));
   Text(paper,T("archive.kicker"),new Color(.45f,.29f,.23f),14).style.marginBottom=2;
@@ -660,7 +650,7 @@ public sealed class BubeApp : MonoBehaviour {
  void ArchivePage() {
   VisualElement content;
   var paper=ArchivePaper(T("archive.title"),out content);
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   var cases=ClosedCases();
   Text(content,T("archive.count")+"  "+cases.Length,dark,16);
   var list=Scroll(content);
@@ -701,7 +691,7 @@ public sealed class BubeApp : MonoBehaviour {
    :T(source.personNameKey)+" · "+T(turn.promptKey)+" · "+T(turn.answerKey);
   var label=T("conclude.source")+": "+sourceLabel;
   if(!available) {
-   Text(parent,label,new Color(.39f,.36f,.31f),13);
+   Text(parent,label,KarineTheme.Paper.Faded,13);
    return;
   }
   var link=new Button(()=>ArchiveCasePage(item.data.id,source.id,reference)){text=label+"  →"};
@@ -710,7 +700,7 @@ public sealed class BubeApp : MonoBehaviour {
   link.style.fontSize=Typography.Snap(13);link.style.paddingLeft=9;link.style.paddingRight=8;
   link.style.marginBottom=10;
   link.style.backgroundColor=new Color(.82f,.76f,.65f);
-  link.style.color=new Color(.13f,.16f,.20f);
+  link.style.color=KarineTheme.Paper.Ink;
   if(dossierFont!=null)link.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   parent.Add(link);
  }
@@ -720,7 +710,7 @@ public sealed class BubeApp : MonoBehaviour {
   var data=item.data;var progress=item.progress;
   VisualElement content;
   var paper=ArchivePaper(T(data.titleKey),out content);
-  var dark=new Color(.13f,.16f,.20f);var muted=new Color(.39f,.36f,.31f);
+  var dark=KarineTheme.Paper.Ink;var muted=KarineTheme.Paper.Faded;
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.flexGrow=1;content.Add(row);
   var sourceColumn=new VisualElement();sourceColumn.style.width=Length.Percent(28);
   sourceColumn.style.paddingRight=14;row.Add(sourceColumn);
@@ -1239,12 +1229,12 @@ public sealed class BubeApp : MonoBehaviour {
   right.style.backgroundColor=new Color(.16f,.12f,.10f);
   binder.Add(right);
   var paper=new VisualElement();paper.style.flexGrow=1;
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
   paper.style.paddingLeft=22;paper.style.paddingRight=22;
   paper.style.paddingTop=17;paper.style.paddingBottom=14;
   right.Add(paper);
   var paperBody=Scroll(paper);
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   if(selected==null) {
    Text(paperBody,T("inbox.noItems"),dark,21);
    Text(paperBody,T("inbox.emptyHelp"),dark,16);
@@ -1665,7 +1655,7 @@ public sealed class BubeApp : MonoBehaviour {
   tab.style.flexGrow=1;tab.style.minHeight=MinimumTouchTarget;tab.style.marginBottom=5;
   tab.style.paddingLeft=12;tab.style.paddingRight=8;
   tab.style.whiteSpace=WhiteSpace.Normal;tab.style.unityTextAlign=TextAnchor.MiddleLeft;
-  tab.style.backgroundColor=background;tab.style.color=new Color(.13f,.16f,.20f);
+  tab.style.backgroundColor=background;tab.style.color=KarineTheme.Paper.Ink;
   tab.style.fontSize=Typography.Snap(15);
   if(dossierBoldFont!=null)tab.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   column.Add(tab);
@@ -1705,12 +1695,12 @@ public sealed class BubeApp : MonoBehaviour {
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(16);paper.style.right=Length.Percent(23);
   paper.style.top=Length.Percent(7);paper.style.bottom=Length.Percent(9);
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
   paper.style.paddingLeft=32;paper.style.paddingRight=30;paper.style.paddingTop=22;paper.style.paddingBottom=15;
   paper.style.borderLeftWidth=2;paper.style.borderTopWidth=2;
   paper.style.borderLeftColor=new Color(.98f,.93f,.83f);paper.style.borderTopColor=new Color(.98f,.93f,.83f);
   root.Add(paper);
-  var fileInk=new Color(.13f,.16f,.20f);var fileMuted=new Color(.33f,.33f,.32f);
+  var fileInk=KarineTheme.Paper.Ink;var fileMuted=new Color(.33f,.33f,.32f);
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.marginBottom=12;paper.Add(header);
   var titles=new VisualElement();titles.style.flexGrow=1;header.Add(titles);
   var title=Text(titles,T(game.Data.titleKey),fileInk,26);title.style.marginBottom=2;
@@ -1809,7 +1799,7 @@ public sealed class BubeApp : MonoBehaviour {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
    FileTab(tabs,T("file.tab."+choice)+(unread?"  •":""),()=>{selectedFileSection=choice;FilePage();},
-    choice==selectedFileSection?new Color(.91f,.85f,.73f):new Color(.49f,.46f,.42f));
+    choice==selectedFileSection?KarineTheme.Paper.Sheet:new Color(.49f,.46f,.42f));
   }
   FileTab(tabs,T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();},new Color(.49f,.46f,.42f));
   FileTab(tabs,T("file.tab.search"),FileSearchPage,new Color(.49f,.46f,.42f));
@@ -1822,7 +1812,7 @@ public sealed class BubeApp : MonoBehaviour {
  void FileSearchPage() {
   showingInterviewList=false;
   Desk();
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   var muted=new Color(.36f,.35f,.33f);
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
@@ -1834,7 +1824,7 @@ public sealed class BubeApp : MonoBehaviour {
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(12);paper.style.right=Length.Percent(12);
   paper.style.top=Length.Percent(6);paper.style.bottom=Length.Percent(7);
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
   paper.style.paddingLeft=28;paper.style.paddingRight=28;
   paper.style.paddingTop=21;paper.style.paddingBottom=18;root.Add(paper);
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
@@ -1903,7 +1893,7 @@ public sealed class BubeApp : MonoBehaviour {
     var excerpt=Text(row,hit.excerpt,dark,15);excerpt.style.marginBottom=4;
     var open=new Button(()=>OpenSearchSource(selected)){text=T("search.open")+"  ›"};
     open.style.minHeight=37;open.style.fontSize=Typography.Snap(15);open.style.unityTextAlign=TextAnchor.MiddleRight;
-    open.style.color=dark;open.style.backgroundColor=new Color(.91f,.85f,.73f);row.Add(open);
+    open.style.color=dark;open.style.backgroundColor=KarineTheme.Paper.Sheet;row.Add(open);
    }
   };
   render();
@@ -1929,7 +1919,7 @@ public sealed class BubeApp : MonoBehaviour {
   if(!sources.Any(n=>n.id==compareLeftId))compareLeftId=null;
   if(!sources.Any(n=>n.id==compareRightId))compareRightId=null;
   Desk();
-  var ink=new Color(.13f,.16f,.20f);
+  var ink=KarineTheme.Paper.Ink;
   var muted=new Color(.34f,.34f,.32f);
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
@@ -1954,7 +1944,7 @@ public sealed class BubeApp : MonoBehaviour {
    var sheet=new VisualElement();sheet.style.flexGrow=1;sheet.style.flexBasis=0;
    sheet.style.marginLeft=4;sheet.style.marginRight=4;sheet.style.paddingLeft=22;
    sheet.style.paddingRight=22;sheet.style.paddingTop=18;sheet.style.paddingBottom=15;
-   sheet.style.backgroundColor=new Color(.91f,.85f,.73f);spread.Add(sheet);
+   sheet.style.backgroundColor=KarineTheme.Paper.Sheet;spread.Add(sheet);
    var picker=new Button(()=>{comparePicker=comparePicker==selectedSide?-1:selectedSide;ComparePage();})
     {text=(current==null?T("compare.choose"):T(current.titleKey))+"  ▾"};
    picker.style.minHeight=50;picker.style.paddingLeft=12;picker.style.unityTextAlign=TextAnchor.MiddleLeft;
@@ -2286,13 +2276,13 @@ public sealed class BubeApp : MonoBehaviour {
   int separator=sourceId.IndexOf('#');
   var source=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
   if(source==null)return null;
-  var ink=new Color(.13f,.16f,.20f);
+  var ink=KarineTheme.Paper.Ink;
   var muted=new Color(.37f,.36f,.33f);
   var card=new VisualElement();card.style.position=Position.Absolute;
   card.style.left=Length.Percent(2);card.style.width=Length.Percent(27);
   card.style.top=Length.Percent(45);card.style.bottom=Length.Percent(15);
   card.style.paddingLeft=16;card.style.paddingRight=15;card.style.paddingTop=10;card.style.paddingBottom=11;
-  card.style.backgroundColor=new Color(.91f,.85f,.73f);
+  card.style.backgroundColor=KarineTheme.Paper.Sheet;
   card.style.borderLeftWidth=3;card.style.borderTopWidth=2;
   card.style.borderLeftColor=new Color(.57f,.39f,.29f);card.style.borderTopColor=new Color(.98f,.93f,.83f);
   root.Add(card);
@@ -2463,7 +2453,7 @@ public sealed class BubeApp : MonoBehaviour {
   recRow.style.flexDirection=FlexDirection.Row;recRow.style.alignItems=Align.Center;cameraLabel.Add(recRow);
   var recDot=new VisualElement(){pickingMode=PickingMode.Ignore};
   recDot.style.width=8;recDot.style.height=8;recDot.style.marginRight=6;
-  recDot.style.backgroundColor=new Color(.95f,.18f,.13f);recRow.Add(recDot);
+  recDot.style.backgroundColor=KarineTheme.Danger;recRow.Add(recDot);
   var timeText=string.IsNullOrEmpty(record.overlayTimeKey)?string.Empty:T(record.overlayTimeKey);
   var recText=Text(recRow,T("cctv.overlay.rec")+(timeText.Length==0?"":"  "+timeText),Ink,12);
   recText.style.marginBottom=0;
@@ -2664,8 +2654,8 @@ public sealed class BubeApp : MonoBehaviour {
   VisualElement body;
   ReportSheet(T("conclude"),T("conclude.prompt"),out body,null,true);
   var scroll=body as ScrollView;
-  var dark=new Color(.13f,.16f,.20f);
-  var muted=new Color(.39f,.36f,.31f);
+  var dark=KarineTheme.Paper.Ink;
+  var muted=KarineTheme.Paper.Faded;
   Text(scroll,(step+1)+" / 4",muted,15).style.marginBottom=4;
   string[] headings={"conclude.suspect","conclude.method","conclude.evidence","conclude.previewTitle"};
   Text(scroll,T(headings[step]),dark,23).style.marginBottom=9;
@@ -2733,7 +2723,7 @@ public sealed class BubeApp : MonoBehaviour {
   nav.Add(next);refresh();
  }
  void ReportReviewClaim(VisualElement parent,string headingKey,string choiceKey,string sourceId) {
-  var ink=new Color(.13f,.16f,.20f);
+  var ink=KarineTheme.Paper.Ink;
   var card=new VisualElement();card.style.backgroundColor=new Color(.82f,.76f,.65f);
   card.style.paddingLeft=12;card.style.paddingRight=12;
   card.style.paddingTop=9;card.style.paddingBottom=9;card.style.marginBottom=8;
@@ -2770,8 +2760,8 @@ public sealed class BubeApp : MonoBehaviour {
   int separator=sourceId.IndexOf('#');
   var source=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
   if(source==null)return;
-  var ink=new Color(.13f,.16f,.20f);
-  var muted=new Color(.39f,.36f,.31f);
+  var ink=KarineTheme.Paper.Ink;
+  var muted=KarineTheme.Paper.Faded;
   var shade=new VisualElement();shade.style.position=Position.Absolute;
   shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
   shade.style.backgroundColor=new Color(.02f,.025f,.03f,.80f);root.Add(shade);
@@ -2780,7 +2770,7 @@ public sealed class BubeApp : MonoBehaviour {
   paper.style.top=Length.Percent(9);paper.style.bottom=Length.Percent(9);
   paper.style.paddingLeft=20;paper.style.paddingRight=20;
   paper.style.paddingTop=14;paper.style.paddingBottom=14;
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);shade.Add(paper);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;shade.Add(paper);
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
   header.style.alignItems=Align.Center;paper.Add(header);
   var title=Text(header,CompactReportSourceLabel(sourceId),ink,18);
@@ -2816,10 +2806,10 @@ public sealed class BubeApp : MonoBehaviour {
   return value.Length>120?value.Substring(0,120)+"…":value;
  }
  void ReportSourcePicker(VisualElement parent,string promptKey,Func<string> selected,Action<string> setSelected,Action refresh) {
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   var turkish=CultureInfo.GetCultureInfo("tr-TR");
   Func<string,string> normalize=value=>(value ?? "").ToLower(turkish).Replace(':','.');
-  Text(parent,T(promptKey),new Color(.39f,.36f,.31f),14).style.marginBottom=3;
+  Text(parent,T(promptKey),KarineTheme.Paper.Faded,14).style.marginBottom=3;
   var opener=new Button{ text=T("conclude.source")+"  ·  "+CompactReportSourceLabel(selected())+"  ▾" };
   opener.style.minHeight=MinimumTouchTarget;opener.style.marginBottom=5;opener.style.paddingLeft=12;
   opener.style.unityTextAlign=TextAnchor.MiddleLeft;opener.style.fontSize=Typography.Snap(15);
@@ -2842,7 +2832,7 @@ public sealed class BubeApp : MonoBehaviour {
   clear.style.fontSize=Typography.Snap(24);clear.style.marginLeft=5;
   clear.style.color=dark;clear.style.backgroundColor=new Color(.78f,.71f,.61f);
   searchBar.Add(clear);
-  var count=Text(panel,"",new Color(.39f,.36f,.31f),13);
+  var count=Text(panel,"",KarineTheme.Paper.Faded,13);
   count.style.marginBottom=4;
   var choices=new ScrollView();choices.style.maxHeight=210;panel.Add(choices);
   var rows=new List<VisualElement>();
@@ -2952,7 +2942,7 @@ public sealed class BubeApp : MonoBehaviour {
   return record==null?T("conclude.sourceUnknown"):T(source.titleKey)+" · "+T(record.textKey);
  }
  void SummaryContents(VisualElement body,CaseData source=null) {
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   var summary=(source ?? game.Data).summary;
   if(summary==null)return;
   Text(body,T("result.truth"),dark,19);
@@ -2971,7 +2961,7 @@ public sealed class BubeApp : MonoBehaviour {
  }
  void SummaryField(VisualElement parent,string label,string value) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.marginBottom=6;parent.Add(row);
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   var name=Text(row,label, new Color(.36f,.34f,.31f),15);name.style.width=150;name.style.marginBottom=0;
   var detail=Text(row,":  "+value,dark,15);detail.style.flexGrow=1;detail.style.marginBottom=0;
  }
@@ -2989,10 +2979,10 @@ public sealed class BubeApp : MonoBehaviour {
   var paper=new VisualElement();paper.style.position=Position.Absolute;
   paper.style.left=Length.Percent(10);paper.style.right=Length.Percent(10);
   paper.style.top=Length.Percent(6);paper.style.bottom=Length.Percent(6);
-  paper.style.backgroundColor=new Color(.91f,.85f,.73f);
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
   paper.style.paddingLeft=28;paper.style.paddingRight=28;
   paper.style.paddingTop=18;paper.style.paddingBottom=16;root.Add(paper);
-  var dark=new Color(.13f,.16f,.20f);var muted=new Color(.39f,.36f,.31f);
+  var dark=KarineTheme.Paper.Ink;var muted=KarineTheme.Paper.Faded;
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;paper.Add(header);
   var mark=Text(header,"✓",new Color(.16f,.39f,.31f),42);mark.style.width=64;mark.style.marginBottom=0;
   var titles=new VisualElement();titles.style.flexGrow=1;header.Add(titles);
@@ -3089,7 +3079,7 @@ public sealed class BubeApp : MonoBehaviour {
   Save();
   VisualElement body;
   ReportSheet(T("inbox.faxTitle"),T("inbox.faxPending"),out body,Desk);
-  var dark=new Color(.13f,.16f,.20f);
+  var dark=KarineTheme.Paper.Ink;
   Text(body,T("career.evaluation."+fax.evaluationType),dark,20);
   var reviewedAsset=Resources.Load<TextAsset>("Bube/Cases/"+fax.caseId);
   var reviewed=reviewedAsset==null?null:JsonUtility.FromJson<CaseData>(reviewedAsset.text);
