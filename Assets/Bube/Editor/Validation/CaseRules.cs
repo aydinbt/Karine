@@ -1,4 +1,5 @@
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Linq;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public static class CaseRules {
 
  public static bool MissingText(Locale locale, string key) =>
   string.IsNullOrEmpty(key) || locale.Get(key).StartsWith("[");
+ static string Text(Locale locale, string key) => MissingText(locale, key) ? null : locale.Get(key);
 
  public static void ValidateStructure(CaseData data, Locale locale, ValidationReport report) {
   var nodes = data.nodes ?? new Node[0];
@@ -146,6 +148,16 @@ public static class CaseRules {
      : (source.questions ?? new Question[0]).FirstOrDefault(other => other.id == detail.Split('|')[0])?.aboutPersonIds;
     report.Forbid(!Investigation.SourceConcerns(node, about),
      "Belirleyici kaynak bu kişiye kapalı (aboutPersonIds eksik): " + question.id + " → " + sourceRef);
+
+    // Kaynak sunulan bir soru, kaynağın içeriğini kendi metninde tekrar etmemeli:
+    // ettiği anda çelişkiyi oyuncu yerine oyun kurmuş olur. Bu sezgisel bir
+    // kontroldür (ortak dört sözcüklük dizi arar), o yüzden not olarak raporlanır.
+    var sourceText = source.kind == "cctv"
+     ? Text(locale, (source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == detail)?.textKey)
+     : Text(locale, (source.questions ?? new Question[0]).FirstOrDefault(o => o.id == detail.Split('|')[0])?.answerKey);
+    var echo = SharedPhrase(Text(locale, question.promptKey), sourceText);
+    if (echo != null)
+     report.Note("Soru metni kaynağı tekrar ediyor, çelişkiyi oyuncu kurmalı (\"" + echo + "\"): " + question.id);
    }
 
    foreach (var response in question.presentedAnswers ?? new PresentedAnswer[0])
@@ -183,5 +195,21 @@ public static class CaseRules {
      .Where(k => !string.IsNullOrEmpty(k))))
    report.Forbid(MissingText(locale, key), "CCTV metni eksik: " + key);
  }
+ // İki metinde ortak geçen üç sözcüklük ilk dizi; yoksa null. Eşik üçtür çünkü
+ // dördü, yakalamak istediğimiz gerçek ihlali ("Mert, kapıda kaldığında ona
+ // yardım ettiğinizi… söyledi") kaçırıyordu. Dosya #001'in mevcut metinlerinde
+ // üç sözcükle yanlış alarm yok.
+ static string SharedPhrase(string left, string right) {
+  if (string.IsNullOrEmpty(left) || string.IsNullOrEmpty(right)) return null;
+  var a = Words(left); var b = Words(right);
+  for (int i = 0; i + 3 <= a.Length; i++) {
+   var phrase = string.Join(" ", a.Skip(i).Take(3));
+   if ((" " + string.Join(" ", b) + " ").Contains(" " + phrase + " ")) return phrase;
+  }
+  return null;
+ }
+ static string[] Words(string text) =>
+  Regex.Split(text.ToLowerInvariant(), @"[^\p{L}\p{N}]+").Where(w => w.Length > 0).ToArray();
 }
+
 }

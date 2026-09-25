@@ -224,3 +224,20 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 **Etiketsiz kaynak herkese açıktır.** Sinyal zayıflaması, kesinti ve kayıt boşluğu kimseden söz etmeyen olgulardır; etiketsiz bırakıldı ve herkese gösteriliyor. Eski/yeni vaka verisi etiketsizken de çalışır.
 
 **Yeni doğrulama kuralı.** Bir sorunun `presentedSourceIds` hedefi, soruyu soracağımız kişiyle etiketlenmemişse o kaynak listede hiç görünmez ve soru yanıtlanamaz olur — vaka çözülemez hale gelir. `CaseRules` bunu artık yakalıyor.
+
+## Soru metinleri nötrleştirildi (25 Eylül 2026)
+
+**Kural.** Kaynak sunulan bir sorunun metni, çelişkiyi oyuncu yerine kurmamalı. Soru yalnız *sorar*; çelişki, oyuncunun seçtiği kaynak öne sürülünce yanıtta ortaya çıkar.
+
+Dört soru bu kuralı çiğniyordu:
+
+| Soru | Eski (oyunun kurduğu) | Yeni (oyuncunun kuracağı) |
+|---|---|---|
+| `elif_follow.footage` | "Binaya hiç gitmediğinizi söylediniz. Kayıttaki kadın siz misiniz?" | "O gün öğle saatlerinde neredeydiniz?" |
+| `hasan_follow.gap` | "Kamera kaydının olmadığı saatlerde neredeydiniz?" | "Öğleden sonra bir sularında neredeydiniz?" |
+| `hasan_follow.mertStatement` | "Mert, kapıda kaldığında ona yardım ettiğinizi ve anahtarı nereden aldığını gördüğünüzü söyledi. Ne hatırlıyorsunuz?" | "Mert'le kapıda karşılaştığınız günü anlatır mısınız?" |
+| `hasan_follow.sale` | "Bilgisayarın teslim fişinde adınız neden var?" | "Kaybolan eşyalardan herhangi biri sizin elinize geçti mi?" |
+
+Yanıtlar değişmedi: doğru kaynak öne sürülünce aynı itiraf/savunma geliyor. Değişen tek şey, oyuncunun o kaynağı kendisinin seçmek zorunda olması.
+
+**Doğrulama.** `CaseRules` artık sorunun metniyle kaynağın metni arasında ortak üç sözcüklük dizi arıyor ve bulursa not düşüyor. Eşik üçtür: dört sözcük, yakalamak istediğimiz `hasan_follow.mertStatement` ihlalini kaçırıyordu. Sezgisel bir kontroldür, o yüzden sorun değil **not** olarak raporlanır. Mevcut metinlerde yanlış alarm yok.
