@@ -1920,9 +1920,9 @@ public sealed class BubeApp : MonoBehaviour {
     },true);
     // Soruyu seçtikten sonra da vazgeçebilmeli; tek çıkış görüşmeyi bitirmek olmamalı.
     Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
-    var back=questions.Children().Last() as Button;
-    back.style.minHeight=MinimumTouchTarget;back.style.fontSize=Typography.Snap(15);
-    back.style.backgroundColor=new Color(.14f,.20f,.20f);back.style.color=Ink;
+    var giveUp=questions.Children().Last() as Button;
+    giveUp.style.minHeight=MinimumTouchTarget;giveUp.style.fontSize=Typography.Snap(15);
+    giveUp.style.backgroundColor=new Color(.14f,.20f,.20f);giveUp.style.color=Ink;
    }
   } else {
    if(referenceCard!=null)Button(questions,T("interview.openReference"),()=>referenceCard.style.display=DisplayStyle.Flex);
