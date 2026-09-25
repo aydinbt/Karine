@@ -163,6 +163,13 @@ public static class CaseRules {
    // Yem kaynaklar. Bir yem, soruyu kapatan kaynaklardan biri OLMAMALI (olursa
    // yanlış yola sapan oyuncu vakayı çözmüş sayılır) ve o kişiye görünür olmalı
    // (görünmezse yazılan yanıt oyunda hiç çıkmaz).
+   // İki yem aynı yanıt metnini paylaşırsa, ikisinden biri için o cümle
+   // kaçınılmaz olarak yersiz düşer. (Bu kural bir kopyala-yapıştır hatasıyla
+   // doğdu: `hasan_follow.gap`'in iki ayrı yemi aynı anahtara bakıyordu.)
+   foreach (var pair in (question.decoyAnswers ?? new PresentedAnswer[0])
+     .GroupBy(x => x.answerKey).Where(g => g.Count() > 1))
+    report.Problem("İki yem aynı yanıtı paylaşıyor: " + question.id + " → " + pair.Key);
+
    foreach (var decoy in question.decoyAnswers ?? new PresentedAnswer[0]) {
     report.Forbid(MissingText(locale, decoy.answerKey), "Yem yanıt metni eksik: " + decoy.answerKey);
     report.Forbid(decoy.sourceId == question.presentedSourceId ||

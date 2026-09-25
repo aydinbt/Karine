@@ -107,7 +107,8 @@
         "mert.key",
         "mert.neighbor"
       ],
-      "personQuoteKey": "interview.quote.mert"
+      "personQuoteKey": "interview.quote.mert",
+      "deflectAnswerKey": "mert.deflect"
     },
     {
       "id": "elif",
@@ -179,7 +180,8 @@
       "personQuoteKey": "interview.quote.elif",
       "requiresAsked": [
         "mert.key"
-      ]
+      ],
+      "deflectAnswerKey": "elif.deflect"
     },
     {
       "id": "hasan",
@@ -269,7 +271,8 @@
       "personQuoteKey": "interview.quote.hasan",
       "requiresAsked": [
         "mert.neighbor"
-      ]
+      ],
+      "deflectAnswerKey": "hasan.deflect"
     },
     {
       "id": "camera",
@@ -402,6 +405,26 @@
             {
               "sourceId": "hasan#hasan.sighting",
               "answerKey": "elif_follow.footage.decoy.sighting"
+            },
+            {
+              "sourceId": "hasan#hasan.time",
+              "answerKey": "elif_follow.footage.decoy.time"
+            },
+            {
+              "sourceId": "hasan#hasan.recognition",
+              "answerKey": "elif_follow.footage.decoy.recognition"
+            },
+            {
+              "sourceId": "mert#mert.breakup",
+              "answerKey": "elif_follow.footage.decoy.breakup"
+            },
+            {
+              "sourceId": "recovery",
+              "answerKey": "elif_follow.footage.decoy.recovery"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.known",
+              "answerKey": "elif_follow.footage.decoy.known"
             }
           ]
         },
@@ -460,7 +483,8 @@
       "completionQuestionIds": [
         "elif_follow.footage",
         "elif_follow.why"
-      ]
+      ],
+      "deflectAnswerKey": "elif.deflect"
     },
     {
       "id": "mert_follow",
@@ -516,7 +540,8 @@
       "requiresAnyAsked": [
         "elif_follow.footage",
         "mert.lock"
-      ]
+      ],
+      "deflectAnswerKey": "mert.deflect"
     },
     {
       "id": "hasan_follow",
@@ -559,6 +584,34 @@
             {
               "sourceId": "mert#mert.neighbor",
               "answerKey": "hasan_follow.gap.decoy.neighbor"
+            },
+            {
+              "sourceId": "camera#elif_out",
+              "answerKey": "hasan_follow.gap.decoy.elifOut"
+            },
+            {
+              "sourceId": "camera#lost",
+              "answerKey": "hasan_follow.gap.decoy.lost"
+            },
+            {
+              "sourceId": "recovery",
+              "answerKey": "hasan_follow.gap.decoy.recovery"
+            },
+            {
+              "sourceId": "elif_follow#elif_follow.keyPlace",
+              "answerKey": "hasan_follow.gap.decoy.keyPlace"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.known",
+              "answerKey": "hasan_follow.gap.decoy.known"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.spare",
+              "answerKey": "hasan_follow.gap.decoy.spare"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.neighbor",
+              "answerKey": "hasan_follow.gap.decoy.followNeighbor"
             }
           ]
         },
@@ -570,6 +623,40 @@
           "topicKey": "interview.topic.belongings",
           "aboutPersonIds": [
             "hasan"
+          ],
+          "decoyAnswers": [
+            {
+              "sourceId": "camera#gap",
+              "answerKey": "hasan_follow.sale.decoy.gap"
+            },
+            {
+              "sourceId": "camera#elif_in",
+              "answerKey": "hasan_follow.sale.decoy.elifIn"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.spare",
+              "answerKey": "hasan_follow.sale.decoy.spare"
+            },
+            {
+              "sourceId": "elif_follow#elif_follow.keyPlace",
+              "answerKey": "hasan_follow.sale.decoy.keyPlace"
+            },
+            {
+              "sourceId": "mert#mert.neighbor",
+              "answerKey": "hasan_follow.sale.decoy.neighbor"
+            },
+            {
+              "sourceId": "camera#elif_out",
+              "answerKey": "hasan_follow.sale.decoy.elifOut"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.neighbor",
+              "answerKey": "hasan_follow.sale.decoy.neighbor2"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.known",
+              "answerKey": "hasan_follow.sale.decoy.known"
+            }
           ]
         },
         {
@@ -595,6 +682,30 @@
             {
               "sourceId": "elif_follow#elif_follow.keyPlace",
               "answerKey": "hasan_follow.mertStatement.decoy.keyPlace"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.neighbor",
+              "answerKey": "hasan_follow.mertStatement.decoy.neighbor"
+            },
+            {
+              "sourceId": "mert_follow#mert_follow.known",
+              "answerKey": "hasan_follow.mertStatement.decoy.known"
+            },
+            {
+              "sourceId": "camera#elif_in",
+              "answerKey": "hasan_follow.mertStatement.decoy.elifIn"
+            },
+            {
+              "sourceId": "recovery",
+              "answerKey": "hasan_follow.mertStatement.decoy.recovery"
+            },
+            {
+              "sourceId": "mert#mert.neighbor",
+              "answerKey": "hasan_follow.mertStatement.decoy.neighbor2"
+            },
+            {
+              "sourceId": "camera#elif_out",
+              "answerKey": "hasan_follow.mertStatement.decoy.elifOut"
             }
           ]
         },
@@ -619,7 +730,8 @@
       "requiresAnyAsked": [
         "elif_follow.footage",
         "mert_follow.spare"
-      ]
+      ],
+      "deflectAnswerKey": "hasan.deflect"
     },
     {
       "id": "recovery",

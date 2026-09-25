@@ -1978,7 +1978,8 @@ public sealed class BubeApp : MonoBehaviour {
     var reply=game.AnswerKey(active,sourceId);
     if(game.Ask(node.id,active.id,sourceId)){Save();InterviewPage(node,active,2,reply,sourceId);}
     // `answerKey` bir anahtardır; çevrilmiş metin geçilirse ekrana "[...]" düşer.
-    else InterviewPage(node,active,2,"interview.unrelatedSource",sourceId,false);
+    // Yemi yazılmamış kaynak: genel "ne diyeyim" yerine kişinin kendi savuşturması.
+    else InterviewPage(node,active,2,node.deflectAnswerKey ?? "interview.unrelatedSource",sourceId,false);
    },true);
    var present=questions.Children().Last() as Button;
    present.style.minHeight=MinimumTouchTarget;

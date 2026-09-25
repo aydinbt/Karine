@@ -267,3 +267,13 @@ Yanıtlar değişmedi: doğru kaynak öne sürülünce aynı itiraf/savunma geli
 **Üç doğrulama kuralı.** Yem aynı anda çözücü kaynak olamaz; kişinin kendi ifadesi olamaz; o kişiye görünür olmalı (`aboutPersonIds`). Üçüncüsü hemen iş gördü: `camera#elif_in` Hasan'a kapalıydı, oysa o geçişi gördüğünü iddia eden Hasan'dır — etiket düzeltildi.
 
 **Yan bulgu (hata).** `interview.unrelatedSource` ekrana `[Bu kayıtla ilgili ne söylememi istiyorsunuz?]` diye köşeli parantezle düşüyordu: `InterviewPage` yanıt **anahtarı** bekler, oysa çevrilmiş metin geçiliyordu. Düzeltildi.
+
+## Yemler bütün kaynak-sunulan sorulara yayıldı (25 Eylül 2026)
+
+Dört soru kaynak sunduruyor: `elif_follow.footage`, `hasan_follow.gap`, `hasan_follow.sale`, `hasan_follow.mertStatement`. Yem sayısı 7'den **33'e** çıktı.
+
+**Kapsama.** Seçicide o kişiye görünen kaynakların 9–10'u artık gerçek yanıt veriyor (toplam 13–14). Boş kalanlar yalnız `report` ve sinyal satırları (`weak`, `lost`, `restored`) — bunlara ayrı cümle yazmak dört sorunun her birinde neredeyse aynı metni tekrarlamak olurdu.
+
+**Kişiye ait savuşturma.** Onun yerine `Node.deflectAnswerKey` eklendi: yemi yazılmamış bir kaynak sunulduğunda genel "Bu kayıtla ilgili ne söylememi istiyorsunuz?" yerine kişinin kendi sesi çıkıyor. Hasan: "Bunun benimle ilgisini kurmuyorum. Başka bir şey soracaksanız sorun." Elif: "Bununla benim aramda bir bağ kuruyorsanız o bağı siz söyleyin. Ben göremiyorum."
+
+**Yeni kural.** İki yem aynı yanıt anahtarını paylaşamaz; paylaşırsa cümle ikisinden biri için kaçınılmaz olarak yersiz düşer. Bu kural gerçek bir kopyala-yapıştır hatasından doğdu: `hasan_follow.gap`'in iki ayrı yemi aynı anahtara bakıyordu.

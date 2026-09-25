@@ -2339,6 +2339,122 @@
     {
       "key": "hasan_follow.mertStatement.decoy.keyPlace",
       "value": "Anahtarı saksıya o bırakmışsa mesele onda. Benim bilmediğim bir şeyi bana sormanın anlamı yok."
+    },
+    {
+      "key": "elif_follow.footage.decoy.time",
+      "value": "Komşu saat veremiyorsa ben nasıl vereyim? “Öğleye yakındı” demiş. Öğleye yakın binlerce insan gibi ben de dışarıdaydım."
+    },
+    {
+      "key": "elif_follow.footage.decoy.recognition",
+      "value": "Adımı bilmeyen biri beni teşhis etmiş oluyor, öyle mi? Mert’in yanında gördüğü herkes ben değilim."
+    },
+    {
+      "key": "elif_follow.footage.decoy.breakup",
+      "value": "Eşyaları konuşacaktık, evet, ama bir tarih belirlemedik. Konuşmadığımız bir şeyi kendi başıma yaptığımı mı ima ediyorsunuz?"
+    },
+    {
+      "key": "elif_follow.footage.decoy.recovery",
+      "value": "Bu kâğıtta benim adım yazmıyor. Bana neden gösterdiğinizi anlamadım."
+    },
+    {
+      "key": "elif_follow.footage.decoy.known",
+      "value": "Saksıyı biliyordum, doğru; bir yıl o evde yaşadım. Bilen tek kişi ben miyim peki?"
+    },
+    {
+      "key": "hasan_follow.gap.decoy.elifOut",
+      "value": "Çıktığını da gördüm zaten, size söyledim. Bunu bana ikinci kez göstermenizin sebebi ne?"
+    },
+    {
+      "key": "hasan_follow.gap.decoy.lost",
+      "value": "Kamera kesilmiş. Ben mi kestim? Binanın kamerası bozulunca komşulara mı soruluyor?"
+    },
+    {
+      "key": "hasan_follow.gap.decoy.recovery",
+      "value": "Bunu konuşmayacağımı söyledim. O kâğıt ayrı mesele, o saat ayrı mesele; karıştırmayın."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.keyPlace",
+      "value": "Demek anahtarı saksıya bırakmış. Ben bunu şimdi sizden duyuyorum. Bakmanız gereken kişi ortada."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.known",
+      "value": "Mert kimin bildiğini saymış. O listede adım var diye o saatte evimde değil miydim?"
+    },
+    {
+      "key": "hasan_follow.sale.decoy.gap",
+      "value": "Kayıt kesilmiş diye elime bir şey mi geçmiş oluyor? İkisinin ne ilgisi var?"
+    },
+    {
+      "key": "hasan_follow.sale.decoy.elifIn",
+      "value": "O gün o giriyor, ben oturuyorum. Birinin eline bir şey geçtiyse ona sorun."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.spare",
+      "value": "Mert anahtarı saksıdan almış. Bundan bende eşya olduğu sonucu nasıl çıkıyor?"
+    },
+    {
+      "key": "hasan_follow.sale.decoy.keyPlace",
+      "value": "Anahtarı kapının yanına bırakan o. Ben kimseye bir şey bırakmadım, kimseden bir şey almadım."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.neighbor",
+      "value": "Komşuyuz diye mi soruyorsunuz? Bu binada on daire var."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.neighbor",
+      "value": "Yakın değiliz, doğru söylemiş. Yakın olmayan iki komşudan biri diğerinin evine girmez."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.known",
+      "value": "Yerini bilenleri saymış. Bilmek başka, girmek başka; ben o gün orada değildim."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.elifIn",
+      "value": "O gün giren o. Bana kapıdaki bir günü sorup kayıtta başkasını göstermeniz tuhaf."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.recovery",
+      "value": "O kâğıdı az önce konuştuk. Kapıda geçen bir günle ne alakası var?"
+    },
+    {
+      "key": "hasan_follow.gap.decoy.spare",
+      "value": "Bir ay önce kapıda ne olduğunu soruyorsanız başka, o öğleden sonra neredeydim diye soruyorsanız başka. Evimdeydim."
+    },
+    {
+      "key": "hasan_follow.gap.decoy.followNeighbor",
+      "value": "Yakın olmadığımızı kendisi söylemiş. Yakın olmayan komşunun saat kaçta nerede olduğunu kim not eder?"
+    },
+    {
+      "key": "hasan_follow.sale.decoy.elifOut",
+      "value": "Yanında bir şeyle çıkıyor. Ben ne taşıdığını göremem; siz de göremezsiniz."
+    },
+    {
+      "key": "hasan_follow.sale.decoy.neighbor2",
+      "value": "Yakın değiliz, evet. Yakın olmadığım birinin eşyası neden bende olsun?"
+    },
+    {
+      "key": "hasan_follow.sale.decoy.known",
+      "value": "Anahtarın yerini bilenleri saymış. Anahtar başka şey, elime geçen eşya başka şey."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.neighbor2",
+      "value": "Bir şey görmüş olabileceğimi düşünmüş, olabilir. O gün binada mıydım, onu bile net söyleyemem."
+    },
+    {
+      "key": "hasan_follow.mertStatement.decoy.elifOut",
+      "value": "Çıkışını gösteriyorsunuz. Kapıda geçen o günle bunun arasında ne bağ kurduğunuzu anlamadım."
+    },
+    {
+      "key": "mert.deflect",
+      "value": "Bunu bana gösterince ne söylememi bekliyorsunuz, bilmiyorum. Benim bildiğim kadarını anlattım."
+    },
+    {
+      "key": "elif.deflect",
+      "value": "Bununla benim aramda bir bağ kuruyorsanız o bağı siz söyleyin. Ben göremiyorum."
+    },
+    {
+      "key": "hasan.deflect",
+      "value": "Bunun benimle ilgisini kurmuyorum. Başka bir şey soracaksanız sorun."
     }
   ]
 }
