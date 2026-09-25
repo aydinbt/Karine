@@ -30,7 +30,7 @@ namespace Bube {
 [Serializable] public class FileMeta { public string labelKey; public string valueKey; }
 [Serializable] public class AnswerVariant { public string answerKey; public string[] requiresAsked; public string[] requiresRead; public string[] excludesAsked; }
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
-[Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public AnswerVariant[] answerVariants; }
+[Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
 [Serializable] public class Node { public FileMeta[] fileMeta; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; }
 [Serializable] public class CctvEvent { public string id; public string textKey; public string[] aboutPersonIds; public string overlayTimeKey; public string glitchKey; public string signalKey; public string videoPath; public int delayMs; }
 [Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; }
@@ -105,6 +105,14 @@ public sealed class Investigation {
  public bool QuestionAvailable(Node n, Question q) => Available(n) && (q.requiresAsked == null || q.requiresAsked.All(State.asked.Contains)) && (q.requiresAnyAsked == null || q.requiresAnyAsked.Length==0 || q.requiresAnyAsked.Any(State.asked.Contains)) && (q.excludesAsked == null || !q.excludesAsked.Any(State.asked.Contains)) && Meets(q.requiresRead);
  public string AnswerKey(Question q,string sourceId=null) => (q.presentedAnswers ?? new PresentedAnswer[0]).FirstOrDefault(v=>v.sourceId==sourceId)?.answerKey
   ?? (q.answerVariants ?? new AnswerVariant[0]).FirstOrDefault(v => (v.requiresAsked==null || v.requiresAsked.All(State.asked.Contains)) && Meets(v.requiresRead) && (v.excludesAsked==null || !v.excludesAsked.Any(State.asked.Contains)))?.answerKey ?? q.answerKey;
+ // Yem kaynak: gerçekten o kişiyle ilgili, öne sürmesi mantıklı, ama soruyu
+ // kapatmayan kaynak. Karşılığında baştan savma bir cümle değil, gerçek bir
+ // yanıt gelir — doğru ama yanıltıcı. Oyuncu kafasında birden çok okuma
+ // taşısın diye vardır. `presentedSourceIds` "bu mesele biter" demektir;
+ // yem oraya konmaz, yoksa vakayı çözmüş sayılırız.
+ public string DecoyAnswerKey(Question q,string sourceId) =>
+  string.IsNullOrEmpty(sourceId) ? null :
+  (q.decoyAnswers ?? new PresentedAnswer[0]).FirstOrDefault(v=>v.sourceId==sourceId)?.answerKey;
  public bool QuestionNeedsSource(Question q) => !string.IsNullOrEmpty(q.presentedSourceId) || q.presentedSourceIds!=null && q.presentedSourceIds.Length>0;
  public bool SourceMatchesQuestion(Question q,string sourceId) => !QuestionNeedsSource(q) || ReportSourceAvailable(sourceId) &&
   (sourceId==q.presentedSourceId || q.presentedSourceIds!=null && q.presentedSourceIds.Contains(sourceId));

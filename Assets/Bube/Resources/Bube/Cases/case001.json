@@ -300,7 +300,8 @@
           "overlayTimeKey": "timeline.time.1148",
           "videoPath": "Bube/CCTV/case001_1148.mp4",
           "aboutPersonIds": [
-            "elif"
+            "elif",
+            "hasan"
           ]
         },
         {
@@ -310,7 +311,8 @@
           "overlayTimeKey": "timeline.time.1216",
           "videoPath": "Bube/CCTV/case001_1216.mp4",
           "aboutPersonIds": [
-            "elif"
+            "elif",
+            "hasan"
           ]
         },
         {
@@ -387,6 +389,20 @@
           "topicKey": "interview.topic.records",
           "aboutPersonIds": [
             "elif"
+          ],
+          "decoyAnswers": [
+            {
+              "sourceId": "camera#gap",
+              "answerKey": "elif_follow.footage.decoy.gap"
+            },
+            {
+              "sourceId": "mert#mert.key",
+              "answerKey": "elif_follow.footage.decoy.key"
+            },
+            {
+              "sourceId": "hasan#hasan.sighting",
+              "answerKey": "elif_follow.footage.decoy.sighting"
+            }
           ]
         },
         {
@@ -534,6 +550,16 @@
           "topicKey": "interview.topic.records",
           "aboutPersonIds": [
             "hasan"
+          ],
+          "decoyAnswers": [
+            {
+              "sourceId": "camera#elif_in",
+              "answerKey": "hasan_follow.gap.decoy.elifIn"
+            },
+            {
+              "sourceId": "mert#mert.neighbor",
+              "answerKey": "hasan_follow.gap.decoy.neighbor"
+            }
           ]
         },
         {
@@ -560,6 +586,16 @@
           "aboutPersonIds": [
             "hasan",
             "mert"
+          ],
+          "decoyAnswers": [
+            {
+              "sourceId": "camera#gap",
+              "answerKey": "hasan_follow.mertStatement.decoy.gap"
+            },
+            {
+              "sourceId": "elif_follow#elif_follow.keyPlace",
+              "answerKey": "hasan_follow.mertStatement.decoy.keyPlace"
+            }
           ]
         },
         {

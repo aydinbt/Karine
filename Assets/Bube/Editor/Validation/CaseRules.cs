@@ -160,6 +160,28 @@ public static class CaseRules {
      report.Note("Soru metni kaynağı tekrar ediyor, çelişkiyi oyuncu kurmalı (\"" + echo + "\"): " + question.id);
    }
 
+   // Yem kaynaklar. Bir yem, soruyu kapatan kaynaklardan biri OLMAMALI (olursa
+   // yanlış yola sapan oyuncu vakayı çözmüş sayılır) ve o kişiye görünür olmalı
+   // (görünmezse yazılan yanıt oyunda hiç çıkmaz).
+   foreach (var decoy in question.decoyAnswers ?? new PresentedAnswer[0]) {
+    report.Forbid(MissingText(locale, decoy.answerKey), "Yem yanıt metni eksik: " + decoy.answerKey);
+    report.Forbid(decoy.sourceId == question.presentedSourceId ||
+     (question.presentedSourceIds ?? new string[0]).Contains(decoy.sourceId),
+     "Yem kaynak aynı zamanda çözücü kaynak: " + question.id + " → " + decoy.sourceId);
+    var mark = decoy.sourceId.IndexOf('#');
+    var host = data.nodes.FirstOrDefault(x => x.id == (mark < 0 ? decoy.sourceId : decoy.sourceId.Substring(0, mark)));
+    if (!report.Step(host != null, "Bilinmeyen yem kaynağı: " + question.id + " → " + decoy.sourceId)) continue;
+    report.Forbid(host.kind == "interview" && host.personId == node.personId,
+     "Yem kaynak kişinin kendi ifadesi: " + question.id + " → " + decoy.sourceId);
+    if (mark < 0) continue;
+    var tail = decoy.sourceId.Substring(mark + 1);
+    var decoyAbout = host.kind == "cctv"
+     ? (host.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e => e.id == tail)?.aboutPersonIds
+     : (host.questions ?? new Question[0]).FirstOrDefault(o => o.id == tail.Split('|')[0])?.aboutPersonIds;
+    report.Forbid(!Investigation.SourceConcerns(node, decoyAbout),
+     "Yem kaynak bu kişiye görünmüyor: " + question.id + " → " + decoy.sourceId);
+   }
+
    foreach (var response in question.presentedAnswers ?? new PresentedAnswer[0])
     report.Forbid(!(question.presentedSourceIds ?? new string[0]).Contains(response.sourceId) ||
      MissingText(locale, response.answerKey), "Geçersiz kaynak yanıtı: " + question.id);

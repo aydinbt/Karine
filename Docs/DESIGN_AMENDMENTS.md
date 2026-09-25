@@ -253,3 +253,17 @@ Yanıtlar değişmedi: doğru kaynak öne sürülünce aynı itiraf/savunma geli
 **Sonuç.** Ortalama seçenek 4,4 → 5,0. Her oynanışta zorunlu kalan tek hamle `report`'u okumak — dosyayı açmadan soruşturma başlamaz, bu doğru.
 
 **Açık kalan koridor.** `camera` düğümü yalnız `hasan.camera` sorulunca açılıyor; ikinci perdeye tek giriş var. Genişletmek yeni diyalog yazmayı gerektirir, tasarım kararıdır.
+
+## Yem kaynaklar: oyun oyuncuyla oynar (25 Eylül 2026)
+
+**Neden.** Sonuçta tek bir doğru var. O yüzden yanlış okumalar *inandırıcı* olmalı; oyuncu "acaba öyle miydi" diyebilmeli. Eskiden ilgisiz bir kaynağı öne sürmek boş bir hamleydi: "Bu kayıtla ilgili ne söylememi istiyorsunuz?" Ne bilgi, ne şüphe.
+
+**Mekanizma.** `Question.decoyAnswers` — kaynak kimliği → yanıt anahtarı. Yem kaynak o kişiyle gerçekten ilgilidir ve öne sürmesi mantıklıdır, ama soruyu **kapatmaz**: `Ask` çağrılmaz, soru açık kalır, döküme girmez. Karşılığında baştan savma bir cümle değil, gerçek bir yanıt gelir — doğru ama yanıltıcı.
+
+`presentedSourceIds` "bu mesele biter" demektir; yem oraya konmaz. Yem oraya konsaydı yanlış yola sapan oyuncu vakayı çözmüş sayılırdı. `Case001Rules` bunu zaten iddia ediyordu ve ilk denememi haklı olarak düşürdü.
+
+**Yazılan yedi yem.** Elif'e kayıt boşluğunu, Mert'in anahtar ifadesini ya da Hasan'ın görgüsünü sunmak; Hasan'a Elif'in kamera geçişini, Mert'in komşuluk ifadesini, kayıt boşluğunu ya da Elif'in saksı ifadesini sunmak. Hepsi doğru söyler, hiçbiri itiraf etmez, her biri başka bir yöne bakar — Hasan'ınkiler oyuncuyu Elif'e geri iter.
+
+**Üç doğrulama kuralı.** Yem aynı anda çözücü kaynak olamaz; kişinin kendi ifadesi olamaz; o kişiye görünür olmalı (`aboutPersonIds`). Üçüncüsü hemen iş gördü: `camera#elif_in` Hasan'a kapalıydı, oysa o geçişi gördüğünü iddia eden Hasan'dır — etiket düzeltildi.
+
+**Yan bulgu (hata).** `interview.unrelatedSource` ekrana `[Bu kayıtla ilgili ne söylememi istiyorsunuz?]` diye köşeli parantezle düşüyordu: `InterviewPage` yanıt **anahtarı** bekler, oysa çevrilmiş metin geçiliyordu. Düzeltildi.

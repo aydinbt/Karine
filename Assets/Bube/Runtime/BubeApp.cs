@@ -1973,9 +1973,12 @@ public sealed class BubeApp : MonoBehaviour {
     open.style.minHeight=MinimumTouchTarget;
    }
    Button(questions,T("interview.presentSource"),()=>{
+    var decoy=game.DecoyAnswerKey(active,sourceId);
+    if(decoy!=null){InterviewPage(node,active,2,decoy,sourceId,false);return;}
     var reply=game.AnswerKey(active,sourceId);
     if(game.Ask(node.id,active.id,sourceId)){Save();InterviewPage(node,active,2,reply,sourceId);}
-    else InterviewPage(node,active,2,T("interview.unrelatedSource"),sourceId,false);
+    // `answerKey` bir anahtardır; çevrilmiş metin geçilirse ekrana "[...]" düşer.
+    else InterviewPage(node,active,2,"interview.unrelatedSource",sourceId,false);
    },true);
    var present=questions.Children().Last() as Button;
    present.style.minHeight=MinimumTouchTarget;
