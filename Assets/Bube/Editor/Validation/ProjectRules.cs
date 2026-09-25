@@ -42,6 +42,15 @@ public static class ProjectRules {
    report.Require(Mathf.Abs((float)logo.width / logo.height - KarineLogo.AspectRatio) < 0.01f,
     "Logo oranı `KarineLogo.AspectRatio` ile uyuşmuyor: görsel " + logo.width + "×" + logo.height);
 
+  // İçe aktarım oranı: Unity'nin varsayılanı (`nPOTScale: 1`) ikinin kuvveti
+  // olmayan her görseli en yakın kuvvete **çeker** ve iki ekseni ayrı ayrı
+  // ölçeklediği için oranı bozar — 1672×941 ekrana 2048×1024 olarak gider,
+  // 96×64 bayrak 128×64 olur. Metin denetimi görselin içini göremez ama içe
+  // aktarma ayarını görebilir; kural budur.
+  foreach (var meta in Directory.GetFiles("Assets/Bube/Resources", "*.png.meta", SearchOption.AllDirectories))
+   report.Require(!File.ReadAllText(meta).Contains("nPOTScale: 1"),
+    "Görsel içe aktarımda oranı bozulacak (nPOTScale: 1): " + meta);
+
   // Yazı tipi rolleri: eksik dosya oyunu durdurmaz (mono'ya düşer) ama not edilir.
   var missing = FontSet.Load().Missing;
   if (missing.Length > 0)

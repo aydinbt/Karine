@@ -244,4 +244,4 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **KARINE logosu oyuna bağlandı.** Kullanıcının verdiği şeffaf PNG; `KarineLogo` tek kaynak/tek oran/tek doku yoğunluğu ile çiziyor, katmanlar `LogoBase` + `DistressOverlay`. Ana menüde büyük, arşiv/vaka seçicide ve ekran başlıklarında kompakt sürüm. Oran hem varlıkta hem **ekranda ölçülerek** Play Mode testiyle doğrulandı; gözle bakılmadı.
 - [x] **İçe aktarım ezmesi düzeltildi.** Unity varsayılanı (`nPOTScale: 1`) logoyu 2000×667 → 2048×512 eziyordu; meta kilitlendi ve düşen test yeşile döndü.
 - [~] **Yazı tipi rol tablosu** (`FontSet`): Heading / Mono / Body ayrıldı, eksik dosya mono'ya düşüyor ve doğrulayıcı not yazıyor. `RobotoSlab-ExtraBold.ttf` ve `Inter-Regular.ttf` **projede yok** — bu yüzden bugün ekranda görünür bir değişiklik yok.
-- [ ] Diğer görsellerde `nPOTScale` hâlâ varsayılan; içe aktarımda oran kayması sürüyor. Kullanıcı kararı bekliyor.
+- [~] **Bütün görsellerde içe aktarım oranı kilitlendi** (11 meta). Arka planlar yatayda ~%12, bayrak ~%33 esniyordu; artık esnemiyor. Doğrulayıcı kuralı eklendi ve düştüğü görülerek sınandı. Ekranlara gözle bakılmadı → `[~]`.
