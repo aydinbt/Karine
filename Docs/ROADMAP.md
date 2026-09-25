@@ -1,11 +1,11 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 25 Eylül 2026 (kit taşımasının kapanışı: düğme, renk ve punto tek kapıda)  
+**Son durum:** 25 Eylül 2026 (vakadan bağımsız temeller: dil ayrımı, portre verisi, ses, geri tuşu, reklam dikişi)  
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 84 test)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 98 test: 91 EditMode + 7 PlayMode)  
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -256,4 +256,8 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **Kit ikon dili kesildi** — 13 ortak ikon doğrudan kit görselinden; menüye özel dört ikon silindi (aynı işlev = tek ikon). Varlıkları doğrulayıcıda aranıyor.
 - [~] **Menü simgeleri maketten kesildi** — beş PNG (`Bube/Art/Icons/menu_*`), satır tonuyla boyanıyor; font glifleri kalktı. Simgelerin ekrana geldiği Play Mode testiyle doğrulandı, **gözle bakılmadı** → `[~]`.
 - [~] **Kit taşıması kapandı** — elle kurulan 41 düğmeden 5'i kaldı (CCTV'nin metni çalışma anında değişen üç düğmesi kit boyasını `KarineUI.Paint`ten alıyor, masadaki görünmez `Hotspot`, menünün kendine özgü satırı). Kâğıt katmanı için `PaperButton`, iki katman için `CloseButton` eklendi. Ham renk borcu 65 → 16; kalan 16 bilerek kalıyor (piksel portre tonları ve CCTV efektleri = oyun sanatı). Perde/cam/dosya kabı için `Veil`, `GlassDeep`/`Glass`/`GlassLift`, `Alpha`, `HotspotHover`, `Paper.Folder`/`FolderEdge`/`FolderDeep`/`Board`/`Approved` token'ları eklendi. Ekranlardaki her punto `Typography.Snap`ten geçiyor; iki yeni kilit de kaldırılıp denendi, beklenen hatayı verdi. 77 EditMode + 7 PlayMode yeşil. **Ekranlara Play Mode'da bakılmadı** → `[~]`.
+- [~] **Vaka eklemek koddan koptu** — vaka metni vaka başına dil dosyasına taşındı (`LocaleLoader`, çakışmada ortak dosya kazanır), yedek portrenin tonları vaka verisine çıktı (`Node.portrait`). Doğrulayıcı vakaya özel C# kuralı istemiyor. Yeni vaka = JSON + dil dosyası + varlıklar.
+- [~] **Ses temeli kuruldu** — `AudioDirector` (müzik/oda ortamı/efekt), `SoundSettings` (üç kademe, ayarlarda radyo grubu), düğme sesi kit kurucusundan, oda sesi sahneden ve vakadan. **Ses dosyası henüz yok**; sistem dosyasız sessiz çalışıyor. Duyulmadı → `[~]`.
+- [~] **Mobil davranış** — Android geri tuşu her katmanda ekranın kendi geri eylemine gidiyor, ana menüde çıkış onayı açılıyor, `OnApplicationPause` kayıt yazıyor, vaka zinciri bittiğinde masa kapanış bildirimi gösteriyor. **Cihazda denenmedi** → `[~]`.
+- [~] **Reklam dikişi** — `AdGateway` tek karar yeri (onay, "reklam kaldırıldı", an kuralları), `IAdProvider` + `NoAdProvider`. Araya giren reklam yalnız vaka arası, ödüllü yalnız rapor geri döndükten sonra; soruşturma/sorgu/CCTV/sinematik kapalı. Ödüllü ipucu vakanın gerçeğini görmüyor (yöntem + kendi kapsamı) ve doğrulayıcı sızıntıyı yasaklıyor. **Ağ eklentisi yok** (kimlikler kullanıcıda), `RewardedRetry` yalnız kapı → `[~]`.
 - [x] Arşiv kariyer ekranına, Hakkında ayarlara taşındı — menü maketteki beş satıra indi, iki işlev kaybolmadı.

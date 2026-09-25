@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu, mobil erişilebilirlik, kayıt göçü, ana menü maketi, UI Kit taşımasının kapanışı)
+**Son güncelleme:** 25 Eylül 2026 (UI Kit taşımasının kapanışı + vakadan bağımsız temeller: ses, geri tuşu, reklam dikişi)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -10,6 +10,17 @@
 ## Dosya #001 hakkında (25 Eylül 2026 kullanıcı kararı)
 
 **Vaka #001'in içeriği şimdilik tamam sayılıyor.** Yeni ifade, kaynak, kanıt veya tur eklenmeyecek; vakanın tasarımı üstünde yeni iş açılmaz. Bu **doğrulamanın yapıldığı anlamına gelmez**: soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları hâlâ bir insan tarafından baştan sona oynanmadı ([PLAYTEST_001.md](PLAYTEST_001.md) §2-4), bu yüzden M1 ve M2 maddeleri `[~]` kalır. İçerik kapandığına göre sıradaki iş ya elle oynanış doğrulaması ya da başka bir eksen (cihaz derlemesi, case002) olur.
+
+## Vakadan bağımsız temeller (25 Eylül 2026)
+
+Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — hepsi `[~]`, hiçbiri Play Mode'da görülmedi:
+
+- **Vaka eklemek koddan koptu:** yeni vaka = `caseXXX.json` + `tr.caseXXX.json` + varlıklar. Portre tonları veride, doğrulayıcı vakaya özel C# istemiyor.
+- **Ses sistemi kurulu, ses dosyası yok.** Dosyalar geldiğinde tek iş onları `Resources/Bube/Audio/` içine koymak; ekranlara geri dönmek gerekmiyor.
+- **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
+- **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
+
+Açık kalan monetizasyon kararı: **ödüllü yeniden deneme** (başarısız vakayı güven kaybı olmadan açmak) kariyer kurallarına dokunuyor; kapısı var, etkisi yok.
 
 ## Kimlik
 
@@ -23,7 +34,7 @@
 | --- | --- |
 | **Faz 0 — Zemin** | **Bitti ve doğrulandı** |
 | **Faz 1 — Doğrulamayı otomatikleştir** | **Bitti** — doğrulayıcı vaka başına ayrıldı, ilk hatada durmuyor, 42 test yeşil |
-| **Faz 2 — Gerçekten oyna** | **İlerliyor** — perf düzeltmeleri ve kit taşıması kodlandı (84 test yeşil); elle oynanış ve cihaz adımı açık |
+| **Faz 2 — Gerçekten oyna** | **İlerliyor** — kit taşıması, ses, geri tuşu ve reklam dikişi kodlandı (98 test yeşil); elle oynanış ve cihaz adımı açık |
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | Kod ~tamam, **Play Mode doğrulaması açık** |
 | M2 — Soruşturmayı oyuna çevirme | Kod büyük ölçüde tamam, doğrulama açık |

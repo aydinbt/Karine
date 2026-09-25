@@ -33,7 +33,8 @@ Eski `Bootstrap.unity` build listesinde **değildir**; `BootScene` ile byte düz
 - `Resources/Bube/career-rules.json` — güven eşikleri ve puan değişimleri.
 - `Resources/Bube/Cases/case001.json` — 9 düğüm, 30 soru. Yayımlanmış.
 - `Resources/Bube/Cases/case002.json` — 7 düğüm, 12 soru, `draft: true`. Oyuncuya açılmaz (kod `draft` bayrağına uyuyor: `BubeApp.cs:91`, `:2748`).
-- `Resources/Bube/Locales/tr.json` — 577 benzersiz anahtar. **Tek dil.** Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
+- `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (86 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
+- `Resources/Bube/Audio/` — **henüz boş.** `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_page`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `menu_theme`, `room_office`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
 - `StreamingAssets/Bube/` — `world01_intro.mp4` (4.1 MB) + 4 CCTV klibi (12 MB).
 
 Vaka verisi bütünlüğü her test koşumunda otomatik doğrulanır (aşağıdaki "İçerik doğrulama"). case001 ve case002'de sarkan referans, erişilemeyen düğüm veya erişilemeyen soru yoktur.
@@ -155,7 +156,42 @@ Bunun bir yan etkisi var: `Assets/Bube/Resources/Bube/DeskReference.png` artık 
 
 ## Yeni vaka ekleme
 
-Yeni `caseXXX.json` + `tr.json` anahtarları + önceki vakanın `nextCaseId` alanı. Çekirdek kod değişmez. Bu hedef case002 taslağıyla **veri düzeyinde** doğrulandı; oyuncu akışında (geçiş, kayıt, faks zamanlaması) henüz Play Mode'da kanıtlanmadı.
+Çekirdek kod değişmez. Gereken dosyalar:
+
+1. `Resources/Bube/Cases/caseXXX.json` — düğümler, sorular, zaman çizelgesi, kararlar, özet.
+2. `Resources/Bube/Locales/tr.caseXXX.json` — o vakanın bütün metni. Ortak `tr.json`a dokunulmaz; aynı anahtarı yeniden tanımlamak doğrulamada hata verir.
+3. Önceki vakanın `nextCaseId` alanı.
+4. İsteğe bağlı: kişi portreleri (`Resources/Bube/Characters/<personId>.png`), vaka görselleri, `ambienceId` ile oda sesi.
+
+Portre PNG'si yoksa piksel portre çizilir ve tonları vaka verisinden gelir (`Node.portrait`: `hairHex`, `skinHex`, `shirtHex`, `longHair`, `moustache`); alan boşsa varsayılan kullanılır. Doğrulayıcı vakaya özel C# kuralı **istemez** — `ContentValidator`ın kancaları isteğe bağlıdır, yeni vaka genel yoldan geçer.
+
+Bu hedef case002 taslağıyla **veri düzeyinde** doğrulandı; oyuncu akışında (geçiş, kayıt, faks zamanlaması) henüz Play Mode'da kanıtlanmadı.
+
+## Ses
+
+`SoundSettings` sesin kararlarını (üç kademe: kapalı/kısık/açık, kazançları ve `PlayerPrefs` anahtarları) tutar; `AudioDirector` çalar. Ayrım kasıtlı: düzey mantığı Editor testinde `AudioSource` olmadan sınanıyor. Üç kanal karışmaz — müzik ve oda ortamı döngülü, efekt üst üste binebilir. Oda sesi `EnsureScene`ten gelir; vaka kendi ortamını söyleyebilir (`CaseData.ambienceId`).
+
+Düğme sesi ekranların içine yazılmaz: `KarineUI.Sounded` kit düğmesinin kurucusunda durur, `KarineUI.Sound` temsilcisini `BubeApp` `AudioDirector`a bağlar. `ProjectRules` `Runtime/UI` içindeki her `new Button(` çağrısının `Sounded(` ile sarılı olmasını kilitler, yoksa yeni bir kit bileşeni sessiz kalır.
+
+## Geri tuşu ve duraklatma
+
+Android geri tuşu (ve masaüstünde Esc) `BubeApp.Update` içinde okunur ve `escapeBack`e gider. Her katman açıldığında hedefini `Back(...)` ile söyler ve hedef **ekranın kendi "geri" eyleminin aynısıdır**; ayrı bir gezinti ağacı tutulmaz. Ana menüde karşılığı yoktur, orada kit'in onay modalı açılır. `OnApplicationPause(true)` kayıt yazar.
+
+## Reklam ve para kazanma
+
+Ağ eklentisi projede **yok**; dikişi var. `IAdProvider` tek arayüz, `NoAdProvider` bugünün gerçeklemesi (hiçbir şey göstermez ve ödül vermez). `AdGateway` tek karar yeri: onay durumu (`AdConsent`), "reklam kaldırıldı" bayrağı ve `MayShow(placement, moment)` kuralı. Anlar `AdMoment`tan gelir, ekran adından değil.
+
+- `CaseInterval` yalnız `CaseClosed` anında — çağrı yeri `BubeApp.Report.cs` → `OpenAssignment`.
+- `RewardedGuidance` ve `RewardedRetry` yalnız `ReportRejected` anında.
+- Soruşturma, sorgu, CCTV ve sinematik anları kapalıdır.
+- Reklam kaldırıldıysa ağ hiç çağrılmaz, ama ödül reklamsız verilir.
+- Ağ yokken ödül **verilmez**: "reklam yok" bedava ödül anlamına gelmemeli.
+
+Ödüllü ipucu (`GuidancePage`) vakanın gerçeğini hiç görmez: yöntem hatırlatması (`guidance.method.*`, işin kuralları) ve oyuncunun kendi kapsamı (`Coverage`: açılabilir kaynaklardan kaçı açıldı, sorulabilir sorulardan kaçı soruldu, çizelgeye kaç satır alındı). `LocaleRules` `guidance.` ile başlayan her metinde kişi adı, kaynak başlığı ve karar etiketi geçmesini yasaklar; yasak sözcükler vaka metninden türetilir, elle listelenmez.
+
+`RewardedRetry` şimdilik yalnız kapı: başarısız vakayı güven kaybı olmadan yeniden açmak kariyer kurallarına dokunuyor ve kendi kararını bekliyor.
+
+LevelPlay/AdMob kurulumu bir Unity Gaming Services oyun kimliği ve bir AdMob uygulama kimliği ister; ikisi de hesap açmayı gerektirdiği için kimlikler geldiğinde takılacak.
 
 
 ## Marka ve yazı tipleri

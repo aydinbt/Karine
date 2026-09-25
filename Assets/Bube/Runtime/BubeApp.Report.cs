@@ -425,7 +425,11 @@ public sealed partial class BubeApp {
    selectedSuspect=selectedMethod=selectedEvidence=null;
    selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=null;
    Save();
-   if(game.State.caseAccepted)Desk();else MaybeWorldIntro(Desk);
+   // Vaka arası: araya giren reklamın **tek** yeri burasıdır. Ağ yokken hiçbir
+   // şey olmaz ve akış beklemez; reklam gösterilse de sonra aynı yere devam eder.
+   AdGateway.Request(AdPlacement.CaseInterval,AdMoment.CaseClosed,_=>{
+    if(game.State.caseAccepted)Desk();else MaybeWorldIntro(Desk);
+   });
  }
  void FaxPage() {
   if(!HasIncomingFax){Desk();return;}

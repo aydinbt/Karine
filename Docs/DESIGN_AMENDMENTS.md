@@ -503,3 +503,21 @@ Her iki kilit de kaldırılıp denendi ve beklenen hatayı verdi. 77 EditMode + 
 **Kullanıcı:** "şu an için tamam diyebiliriz vaka 001 için."
 
 Vaka #001'in tasarımı ve içeriği şimdilik yeterli sayılıyor: yeni ifade, kaynak, kanıt ya da soruşturma turu eklenmeyecek. Karar **içerik** hakkındadır, doğrulama hakkında değil — oynanışın baştan sona gözlenmesi hâlâ açık ve M1/M2 bu yüzden `[~]`. Sonraki oturumlar #001'i büyütmek yerine ya doğrulamaya ya başka bir eksene gider.
+
+## Vakadan bağımsız temeller: ses, geri tuşu, reklam (25 Eylül 2026)
+
+**Kullanıcı:** "temeli şimdiden atabileceğimiz her şeyi yapalım ki bundan sonraki süreçte sadece vakaları eklemek kalsın." Reklam politikası olarak vaka arası + ödüllü yeniden deneme seçildi, buna ek olarak yanlış karar verildiğinde ödüllü bir **yönlendirme** istendi: "yani aslında yine karar kullanıcıya kalıyor."
+
+**Ses.** Projede tek `AudioSource` yoktu; sonra eklemek her ekrana geri dönmek olurdu. Üç kanal (müzik, oda ortamı, efekt) kuruldu. Ses dosyası **yok** ve sistem dosyasız doğru çalışıyor: eksik klip sessiz geçer. Kit'te kaydırıcı olmadığı için ses üç kademedir ve radyo grubuyla seçilir. Varsayılan müzik kısık — dedektiflik oyunu sessiz odada oynanır. Düğme sesi kit düğmesinin kurucusundan çıkar; hiçbir ekran ses eklemeyi unutamaz, doğrulayıcı bunu kaynak üstünde kilitler.
+
+**Geri tuşu.** Android'de karşılığı yoktu, yani oyuncu soruşturmanın ortasında kazara oyundan çıkabiliyordu. Geri tuşunun hedefi ekranın kendi "geri" eyleminin aynısı; ayrı bir gezinti ağacı tutulmuyor, yoksa ikisi zamanla birbirinden ayrı düşer. Ana menüde onay modalı açılıyor.
+
+**Vaka zinciri sonu.** `nextCaseId` boşken ya da sıradaki vaka taslakken masa sessizce boş kalıyordu. Artık kapanış bildirimi var; sıradaki adımı söylemiyor, yalnız yeni dosya olmadığını söylüyor.
+
+**Reklam.** Ağ değil **dikiş** girdi. Tek karar yeri `AdGateway`. Kurallar: onay alınmadan reklam yok (sorulmamış olmak izin değildir), araya giren reklam yalnız vaka kapandıktan sonra, ödüllü reklam yalnız rapor geri döndükten sonra. Soruşturmanın, sorgunun, CCTV'nin ve sinematiğin içi kapalı — oyuncunun düşündüğü an kesilmez. Reklam kaldırıldıysa ağ hiç çağrılmaz ama ödül alınmaz; ağ yokken de ödül verilmez, yoksa ağ takıldığı gün denge sessizce değişir.
+
+**Ödüllü ipucu ve kanon.** Ödüllü reklamın klasik kullanımı "ipucu izle"dir ve bu oyunda doğrudan çekirdeği satardı: değişmeyen kural fail ipucu, sonraki adım ve gizli durum göstermemektir. Çözüm, ipucunun **vakanın gerçeğinden değil oyuncunun kendi çalışmasından** türemesi: yöntem hatırlatması (işin kuralları) + kapsama sayıları (açılabilir kaynaklardan kaçı açıldı, sorulabilir sorulardan kaçı soruldu). Kişi adı, kaynak başlığı ve karar etiketi geçmesi doğrulayıcıda yasak ve yasak sözcükler vaka metninden türetiliyor — böylece ileride iyi niyetle "Hasan'ın ifadesine bak" yazan biri testi düşürür. Karar oyuncuda kalır.
+
+**Ödüllü yeniden deneme yalnız kapı olarak durdu.** Başarısız vakayı güven kaybı olmadan yeniden açmak kariyer kurallarına dokunuyor: arşiv kaydı ne olacak, faks geçmişi başarısızlığı saklayacak mı, güven geri mi verilecek. Bu kendi kararını hak ediyor, bu yüzden kapısı var, etkisi yok.
+
+**Kurulum senin elinde olan iki şeye bağlı:** LevelPlay bir Unity Gaming Services oyun kimliği, AdMob bir uygulama kimliği ister; ikisi de hesap açmayı gerektirir. Ayrıca reklam mağaza tarafında gizlilik metni, yaş derecesi ve Play "Data safety" formu gerektirir.
