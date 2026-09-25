@@ -144,6 +144,13 @@ public sealed class BubeApp : MonoBehaviour {
   pendingPredicate=n=>game.Pending(n);
   incomingDocumentPredicate=n=>game.IncomingDocument(n);
   game=new Investigation(caseData,progress,career,careerRules){Text=locale};
+  // Daha yeni bir surumden gelen kayit okunamaz. Silmek yerine yana kaldirilir:
+  // oyuncu eski surume donerse kayit yerinde durur.
+  string saveNotice=null;
+  if(game.StateOutcome==SaveOutcome.FromFuture)saveNotice=SetAside(CaseSavePath(caseId));
+  if(game.CareerOutcome==SaveOutcome.FromFuture)saveNotice=SetAside(CareerSavePath);
+  if(game.StateOutcome==SaveOutcome.Migrated || game.CareerOutcome==SaveOutcome.Migrated)
+   Debug.Log("Save migrated to current schema.");
   game.Career.activeCaseId=caseId;
   instantText=PlayerPrefs.GetInt("bube.instantText",0)==1;
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
@@ -167,6 +174,7 @@ public sealed class BubeApp : MonoBehaviour {
   root.style.paddingBottom=24;
   if(redirectedDraft)Save();
   Home();
+  if(saveNotice!=null)Text(root,T("save.fromFuture"),Muted,15);
  }
 
  void EnsureScene(string sceneName) {
@@ -222,6 +230,18 @@ public sealed class BubeApp : MonoBehaviour {
   lastInboxBadgeCount=count; lastBadgedElement=inboxBadge;
   inboxBadge.style.display=count>0?DisplayStyle.Flex:DisplayStyle.None;
   inboxBadgeLabel.text=count>0?count.ToString():string.Empty;
+ }
+
+ // Okunamayan kaydi bozmadan yana kaldirir; donus degeri yeni yoldur, yoksa null.
+ string SetAside(string path) {
+  try {
+   if(!File.Exists(path))return null;
+   var aside=path+".newer";
+   if(File.Exists(aside))File.Delete(aside);
+   File.Move(path,aside);
+   Debug.LogWarning("Save is from a newer schema; kept at "+aside);
+   return aside;
+  } catch(Exception e) { Debug.LogWarning("Save could not be set aside: "+e.Message); return null; }
  }
 
  void Save() {
@@ -457,7 +477,9 @@ public sealed class BubeApp : MonoBehaviour {
     var path=CaseSavePath(data.id);
     if(!File.Exists(path))continue;
     var progress=JsonUtility.FromJson<Progress>(File.ReadAllText(path));
-    if(progress==null || progress.version!=1 || progress.caseId!=data.id || !progress.closed)continue;
+    var outcome=SaveMigration.Migrate(progress);
+    if(outcome!=SaveOutcome.Loaded && outcome!=SaveOutcome.Migrated)continue;
+    if(progress.caseId!=data.id || !progress.closed)continue;
     if(progress.read==null)progress.read=new List<string>();
     if(progress.asked==null)progress.asked=new List<string>();
     if(progress.interviewTurns==null)progress.interviewTurns=new List<InterviewTurn>();

@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace Bube.Tests {
 
-// Kayıt şeması gidiş-dönüşü. Göç yok (Faz 3'ün işi); buradaki testler bugünkü
-// davranışı sabitler, böylece göç eklenirken neyin değiştiği görünür olur.
+// Kayıt şeması gidiş-dönüşü ve göç. Eski sürüm yükseltilir, yeni sürüm
+// devralınmaz ama silinmez; her iki sonuç da `SaveOutcome` ile adlandırılır.
 public sealed class SaveSchemaTests {
 
  static CaseData Case001() => JsonUtility.FromJson<CaseData>(Resources.Load<TextAsset>("Bube/Cases/case001").text);
@@ -87,15 +87,48 @@ public sealed class SaveSchemaTests {
   Assert.IsEmpty(game.State.read, "Başka vakanın kaydı devralınmamalı.");
  }
 
- // Bilinen borç (Faz 3): sürüm uymazsa kayıt sessizce atılır, oyuncu ilerlemesini
- // kaybettiğini fark etmez. Göç eklendiğinde bu test bilinçli olarak kırılacak.
+ // Göç: sürüm alanı hiç yazılmamış (0) eski kayıt atılmaz, bugünkü şemaya
+ // yükseltilir ve ilerleme korunur.
  [Test]
- public void UnknownVersionSave_IsSilentlyDiscarded_KnownDebt() {
+ public void OlderVersionSave_IsMigratedNotDiscarded() {
   var old = new Progress { version = 0, caseId = "case001", caseAccepted = true };
   old.read.Add("report");
   var game = new Investigation(Case001(), old);
+  Assert.AreEqual(SaveOutcome.Migrated, game.StateOutcome);
+  Assert.AreEqual(SaveMigration.ProgressVersion, game.State.version);
+  Assert.IsTrue(game.State.caseAccepted);
+  Assert.AreEqual(new[] { "report" }, game.State.read.ToArray());
+ }
+
+ [Test]
+ public void OlderCareerSave_KeepsTrustAndRank() {
+  var old = new CareerProgress { version = 0, departmentTrust = 42, careerRankId = "inspector" };
+  var game = new Investigation(Case001(), null, old);
+  Assert.AreEqual(SaveOutcome.Migrated, game.CareerOutcome);
+  Assert.AreEqual(SaveMigration.CareerVersion, game.Career.version);
+  Assert.AreEqual(42, game.Career.departmentTrust, "Göç güveni sıfırlamamalı.");
+  Assert.AreEqual("inspector", game.Career.careerRankId);
+ }
+
+ // Gelecekten gelen kayıt çevrilemez; devralınmaz ama bu bir veri kaybı olarak
+ // görünür olmalı. `BubeApp` bu sonucu görünce dosyayı silmeyip yana kaldırır.
+ [Test]
+ public void NewerVersionSave_IsReportedAsFromFuture() {
+  var future = new Progress { version = SaveMigration.ProgressVersion + 1, caseId = "case001", caseAccepted = true };
+  var game = new Investigation(Case001(), future);
+  Assert.AreEqual(SaveOutcome.FromFuture, game.StateOutcome);
   Assert.IsFalse(game.State.caseAccepted);
-  Assert.IsEmpty(game.State.read);
+  Assert.AreEqual(SaveOutcome.FromFuture,
+   new Investigation(Case001(), null, new CareerProgress { version = SaveMigration.CareerVersion + 1, departmentTrust = 9 }).CareerOutcome);
+ }
+
+ [Test]
+ public void LoadOutcomes_NameWhyTheSaveWasNotAdopted() {
+  Assert.AreEqual(SaveOutcome.Fresh, new Investigation(Case001(), null).StateOutcome);
+  Assert.AreEqual(SaveOutcome.Loaded,
+   new Investigation(Case001(), new Progress { caseId = "case001" }).StateOutcome);
+  Assert.AreEqual(SaveOutcome.OtherCase,
+   new Investigation(Case001(), new Progress { caseId = "case002" }).StateOutcome);
  }
 }
 }

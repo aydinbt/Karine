@@ -365,3 +365,16 @@ Süzgeç kalkınca ekran, kayda geçmiş bütün satırların gezilebilir listes
 **Sızıntı kapısı korundu.** `CaseSearch` ikiye ayrıldı: `Lines` okunmuş kaynakların satırlarını toplar (tek kapı), `Find` onun üstünde metin süzer. Okunmamış kaynağın aramaya sızmadığını doğrulayan `Case001Rules` iddiaları `Find` üzerinden aynı kapıyı denetlediği için gezinme listesi de kendiliğinden kapsanıyor.
 
 Ölü anahtar `search.enter` ("Aramak için en az iki karakter yaz") kaldırıldı.
+
+
+## Kayıt göçü: eski kayıt yükseltilir, yeni kayıt silinmez (25 Eylül 2026)
+
+Kaydın sürümü uymazsa dosya **sessizce atılıyordu**: oyuncu "Devam Et"e basıyor, vaka boş açılıyor, hiçbir şey söylenmiyor. Şema #002 için bir alan kazandığı anda bu, güncelleme yiyen herkesin ilerlemesini silmek anlamına gelirdi.
+
+Kural artık şu: **kaydın sürümü bir sonuca bağlanır, sessizlik yok.** `SaveMigration.Migrate` beş sonuçtan birini verir — `Loaded`, `Migrated`, `FromFuture`, `OtherCase`, `Fresh` — ve `Investigation` bunu `StateOutcome` / `CareerOutcome` olarak dışarı verir.
+
+- **Daha eski kayıt atılmaz, yükseltilir.** Basamaklar sırayla koşar, böylece çok eski bir kayıt da bugüne tırmanır. Yeni alan eklendiğinde `Migrate`'e tek bir `if(save.version<2)` basamağı yazılır.
+- **Daha yeni kayıt çevrilemez ama silinmez.** Oyuncu eski sürüme düşmüş olabilir; dosya `<yol>.newer` olarak yana kaldırılır (bu aynı zamanda `Save()`'in üzerine yazmasını engeller) ve ekranda `save.fromFuture` satırı görünür. Kayıp varsa oyuncu bunu görerek öğrenir.
+- **Güven sıfırlanmaz.** Göç edilen kariyer kaydı `departmentTrust` ve rütbesini korur; sıfırlama yalnız gerçekten yeni bir kariyerde olur.
+
+`UnknownVersionSave_IsSilentlyDiscarded_KnownDebt` kaldırıldı — sabitlediği davranışın yanlış olduğunu biliyorduk. Yerine dört test: eski ilerleme korunuyor mu, eski kariyer güvenini koruyor mu, gelecekten gelen kayıt `FromFuture` deniyor mu, kaydın devralınmama sebebi adlandırılıyor mu.

@@ -65,6 +65,10 @@
       "value": "İlerleme kaydedilemedi. Depolama alanını kontrol edin."
     },
     {
+      "key": "save.fromFuture",
+      "value": "Eski bir kayıt bulundu ama daha yeni bir sürüme ait; okunamadı. Silinmedi, yanında saklanıyor. Soruşturma baştan açıldı."
+    },
+    {
       "key": "kind.document",
       "value": "Belge"
     },

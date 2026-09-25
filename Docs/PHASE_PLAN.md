@@ -81,7 +81,7 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 - [ ] Dosya #002 "Kayıp Yedek" metni ve soruşturma akışı kullanıcıyla netleştirilir ([CASE002_DESIGN.md](CASE002_DESIGN.md) bugün taslak).
 - [ ] Arda / Ece / Deniz için pixel-art portreler.
-- [ ] **Kayıt şeması göçü.** Bugün `version != 1` olduğunda kayıt sessizce siliniyor. Sürüm alanı + göç fonksiyonu + bozuk kayıtta oyuncuya görünür bilgi.
+- [~] **Kayıt şeması göçü.** Yazıldı: `SaveMigration` eski kaydı yükseltir, gelecekten gelen kaydı yana kaldırıp oyuncuya söyler. Cihazda gerçek bir eski kayıtla denenmedi.
 - [ ] `draft` kaldırılır, Dosya #001 → #002 geçişi, faks zamanlaması ve arşiv Play Mode + cihazda doğrulanır.
 - [ ] **Vaka yazım kılavuzu** (`CASE_AUTHORING.md`): master truth tablosu → kişilerin bildiği/sakladığı → açılma koşulları → yanıt varyantları → kanıt zinciri. Üçüncü vakanın dokümana bakarak yazılabilmesi hedef.
 

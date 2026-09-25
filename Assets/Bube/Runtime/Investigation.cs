@@ -41,6 +41,38 @@ namespace Bube {
 [Serializable] public class DocumentRequest { public string nodeId; public long readyAtUtcTicks; }
 [Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; }
 [Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> timelinePinned = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public long submittedAtUtcTicks; }
+// Kayit gocu. Eski surumden gelen kayit atilmaz, bugunku semaya yukseltilir;
+// gelecekten gelen (daha yeni surumlu) kayit cevrilemez ama silinmez de — oldugu
+// gibi birakilir ve oyuncuya soylenir.
+public enum SaveOutcome { Fresh, Loaded, Migrated, FromFuture, OtherCase }
+
+public static class SaveMigration {
+ public const int ProgressVersion = 1;
+ public const int CareerVersion = 1;
+
+ static SaveOutcome Compare(int version,int current) =>
+  version==current ? SaveOutcome.Loaded : version>current ? SaveOutcome.FromFuture : SaveOutcome.Migrated;
+
+ // Sema buyudugunde buraya bir basamak eklenir: `if(save.version<2){...;save.version=2;}`.
+ // Basamaklar sirayla kosar, boylece cok eski bir kayit da bugune kadar tirmanir.
+ public static SaveOutcome Migrate(Progress save) {
+  if(save==null)return SaveOutcome.Fresh;
+  var outcome=Compare(save.version,ProgressVersion);
+  if(outcome!=SaveOutcome.Migrated)return outcome;
+  // 0 = surum alani hic yazilmamis ilk kayitlar; sema aynidir, damgalamak yeter.
+  if(save.version<1)save.version=1;
+  return SaveOutcome.Migrated;
+ }
+
+ public static SaveOutcome Migrate(CareerProgress save) {
+  if(save==null)return SaveOutcome.Fresh;
+  var outcome=Compare(save.version,CareerVersion);
+  if(outcome!=SaveOutcome.Migrated)return outcome;
+  if(save.version<1)save.version=1;
+  return SaveOutcome.Migrated;
+ }
+}
+
 public sealed class Investigation {
  public CaseData Data { get; }
  // Ad geçme kuralı metne bakar; metin olmadan hiçbir kaynak kişiyle eşleşmez.
@@ -48,10 +80,15 @@ public sealed class Investigation {
  public Progress State { get; }
  public CareerProgress Career { get; }
  public CareerRules Rules { get; }
+ // Kayit gocunun sonucu. `FromFuture` olan kayit devralinmaz ve uzerine yazilmaz.
+ public SaveOutcome StateOutcome { get; }
+ public SaveOutcome CareerOutcome { get; }
  public Investigation(CaseData data, Progress progress = null, CareerProgress career = null, CareerRules rules = null) {
   Rules=rules ?? new CareerRules();
-  Career = career != null && career.version == 1 ? career : new CareerProgress();
-  if(career==null || career.version!=1)Career.departmentTrust=Rules.initialTrust;
+  CareerOutcome=SaveMigration.Migrate(career);
+  bool adoptCareer=CareerOutcome==SaveOutcome.Loaded || CareerOutcome==SaveOutcome.Migrated;
+  Career = adoptCareer ? career : new CareerProgress();
+  if(!adoptCareer)Career.departmentTrust=Rules.initialTrust;
   Career.departmentTrust = Math.Max(0,Math.Min(100,Career.departmentTrust));
   Career.retirementThreshold=Rules.endThreshold;
   Career.seenWorldIntros=Career.seenWorldIntros ?? new List<string>();
@@ -59,7 +96,11 @@ public sealed class Investigation {
   if(Career.lastFax!=null && !Career.reviewHistory.Any(r=>r.caseId==Career.lastFax.caseId))Career.reviewHistory.Add(Career.lastFax);
   if(string.IsNullOrEmpty(Career.careerRankId))Career.careerRankId="investigator";
   Career.pendingReviews = (Career.pendingReviews ?? new List<PendingReview>()).Where(r=>r!=null && !string.IsNullOrEmpty(r.caseId)).ToList();
-  Data = data; State = progress != null && progress.version == 1 && progress.caseId == data.id ? progress : new Progress { caseId = data.id };
+  var stateOutcome=SaveMigration.Migrate(progress);
+  if((stateOutcome==SaveOutcome.Loaded || stateOutcome==SaveOutcome.Migrated) && progress.caseId!=data.id)stateOutcome=SaveOutcome.OtherCase;
+  StateOutcome=stateOutcome;
+  bool adoptState=stateOutcome==SaveOutcome.Loaded || stateOutcome==SaveOutcome.Migrated;
+  Data = data; State = adoptState ? progress : new Progress { caseId = data.id };
   State.read = (State.read ?? new List<string>()).Where(id => data.nodes.Any(n => n.id == id)).Distinct().ToList();
   State.asked = (State.asked ?? new List<string>()).Where(id => data.nodes.Any(n => (n.questions ?? new Question[0]).Any(q => q.id == id))).Distinct().ToList();
   State.timelinePinned=(State.timelinePinned ?? new List<string>()).Where(id=>(data.timelineClues ?? new TimelineClue[0]).Any(c=>c.id==id)).Distinct().ToList();

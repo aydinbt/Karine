@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu + mobil erişilebilirlik oturumu)
+**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu, mobil erişilebilirlik, kayıt göçü)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -23,7 +23,7 @@
 | Aşama 1 — Temel yapı | Kod tamam, cihaz doğrulaması açık |
 | M1 — Dosya #001 döngüsü | Kod ~tamam, **Play Mode doğrulaması açık** |
 | M2 — Soruşturmayı oyuna çevirme | Kod büyük ölçüde tamam, doğrulama açık |
-| M3 — Vaka ekleme & kayıt | case002 taslak hâlde çalışıyor; kayıt göçü yok |
+| M3 — Vaka ekleme & kayıt | case002 taslak hâlde çalışıyor; kayıt göçü kodlandı `[~]` |
 | M4 — Mobil kalite kapısı | Derleme ayarları hazır; cihaz testi başlamadı |
 | M5 — Görsel ve ses | Ertelendi |
 | M6 — Sonraki sistemler | Beklemede |
@@ -33,10 +33,10 @@
 - Kod: 3.353 satır C# (`BubeApp.cs` tek başına 2.788)
 - Vaka #001: 9 düğüm, 30 soru — bütünlük denetiminden temiz geçti
 - Vaka #002: 7 düğüm, 12 soru — `draft: true`, oyuncuya kapalı
-- Türkçe metin: 577 anahtar, eksik 0, yinelenen 0, ölü ~10
+- Türkçe metin: 578 anahtar, eksik 0, yinelenen 0, ölü ~10
 - Diller: 1 (tr)
 - Assembly: 3 (`Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode`) — hepsi 0 hatayla derleniyor
-- Test: **51, hepsi geçiyor** — 40 EditMode (8 içerik/metin, 12 Dosya #001 akış, 8 kapı/zaman çizelgesi, 7 doğrulama raporu, 6 kayıt şeması, 1 config) + 5 PlayMode (2 duman + 3 vaka kabul akışı). Tek komut: `Tools/run-tests.sh`
+- Test: **54, hepsi geçiyor** — 40 EditMode (8 içerik/metin, 12 Dosya #001 akış, 8 kapı/zaman çizelgesi, 7 doğrulama raporu, 6 kayıt şeması, 1 config) + 5 PlayMode (2 duman + 3 vaka kabul akışı). Tek komut: `Tools/run-tests.sh`
 - Doğrulayıcı: 9 dosya `Assets/Bube/Editor/Validation/` altında; `ProjectSetup.cs` 285 → 37 satır
 
 ## Faz 0'da yapılanlar (25 Eylül 2026)
@@ -57,7 +57,7 @@
 1. **Terminal ekranındaki arma yaması görünüyor** — armanın yeri tek düz renkle dolduruldu, ekranın gradyanından ayrılıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcı kararıyla sonraya bırakıldı. Kurum adı ve terminal arması hem masa görselinden hem videodan temizlendi; dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
 1. **Dosya #001 hiç baştan sona oynanmadı** (açılışı gözlendi, gerisi değil) — M1 ve M2'nin bitiş ölçütleri buna bağlı (Faz 2). **Asıl darboğaz budur.**
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
-3. **Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor (Faz 3).
+3. ~~**Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor.~~ **Kodlandı, cihazda denenmedi `[~]`** — eski kayıt yükseltilir, gelecekten gelen kayıt silinmeyip yana kaldırılır ve oyuncuya söylenir.
 4. ~~**Performans:** `Update()` her karede tam vaka JSON'u ayrıştırıyor; `Locale.Get` doğrusal arama yapıyor.~~ **Kodlandı (Faz 2), Play Mode'da gözlenmedi `[~]`** — beş düzeltme: görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`.
 5. ~~**Unity batchmode lisansı bu makinede çalışmıyor.**~~ **Yanlış teşhisti, düzeltildi.** Testler `Tools/run-tests.sh` ile komut satırından koşuyor (EditMode + PlayMode). Gereken tek şey Unity Hub'ın açık olması. Ayrıntı: [Architecture.md](Architecture.md) → "Testleri başsız koşmak".
 

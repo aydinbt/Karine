@@ -43,7 +43,9 @@ Vaka verisi bütünlüğü her test koşumunda otomatik doğrulanır (aşağıda
 - `Application.persistentDataPath/bube-<caseId>-v1.json` — vaka ilerlemesi.
 - `Application.persistentDataPath/bube-career-v1.json` — kariyer/güven/faks geçmişi.
 - Yazım atomiktir (`.tmp` + `File.Replace`).
-- **Göç yoktur.** Dosya adındaki `v1` sabit kodludur ve `Progress.version != 1` olduğunda kayıt sessizce atılıp sıfırdan başlanır (`Investigation.cs:44`). Şema değişirse oyuncu ilerlemesini kaybeder ve bunu fark etmez.
+- **Göç vardır** (`SaveMigration`, `Investigation.cs`). `ProgressVersion` / `CareerVersion` bugünkü şemayı söyler; `Migrate` her kaydı bir sonuca bağlar: `Loaded` (aynı sürüm), `Migrated` (daha eski — basamak basamak yükseltilir, ilerleme korunur), `FromFuture` (daha yeni — çevrilemez), `OtherCase` (başka vakanın kaydı), `Fresh` (kayıt yok). Sonuç `Investigation.StateOutcome` / `CareerOutcome` ile dışarı verilir.
+- Şema büyüdüğünde `Migrate` içine bir basamak eklenir (`if(save.version<2){…;save.version=2;}`); basamaklar sırayla koştuğu için çok eski bir kayıt da bugüne tırmanır. Sürüm `0`, sürüm alanı hiç yazılmamış ilk kayıtlardır; şema aynı olduğu için damgalanmakla yükselirler.
+- **`FromFuture` kayıt silinmez.** `BubeApp.SetAside` dosyayı `<yol>.newer` olarak yana kaldırır (böylece `Save()` üzerine yazmaz) ve oyuncuya `save.fromFuture` satırı gösterilir. Dosya adındaki `v1` hâlâ sabit kodludur; sürüm bilgisi dosyanın içinden okunur.
 - `PlayerPrefs` yalnız `bube.instantText` için kullanılır.
 
 ## Bilinen teknik borç
