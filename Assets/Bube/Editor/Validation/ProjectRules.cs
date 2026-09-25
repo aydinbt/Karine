@@ -111,6 +111,19 @@ public static class ProjectRules {
    report.Note("Ham renk borcu azalmış (" + rawColors + "/" + RawColorBudget +
     "); `RawColorBudget` bu sayıya çekilebilir.");
 
+  // Kit'in düğmesi ses kapısını atlamamalı: `Runtime/UI` içindeki her
+  // `new Button(` çağrısı `Sounded(` ile sarılır. Aksi hâlde yeni bir kit
+  // bileşeni sessiz kalır ve bunu kimse fark etmez.
+  foreach (var path in Directory.GetFiles("Assets/Bube/Runtime/UI", "*.cs", SearchOption.AllDirectories)) {
+   var lines = File.ReadAllLines(path);
+   for (int index = 0; index < lines.Length; index++) {
+    if (!lines[index].Contains("new Button(")) continue;
+    report.Require(lines[index].Contains("new Button(Sounded("),
+     "Kit düğmesi ses kapısını atlıyor: " + path.Replace('\\', '/') + ":" + (index + 1) +
+     ". `new Button(Sounded(...))` kullan.");
+   }
+  }
+
   // Punto da ekranın içine elle yazılmaz: her `style.fontSize` ataması tek
   // kapıdan, `Typography.Snap`ten geçer (CCTV'nin görüntüyle ölçeklenen kamera
   // yazısı `Mathf.Clamp` ile kendi ölçeğini kullanır).

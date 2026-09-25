@@ -33,6 +33,7 @@ public sealed partial class BubeApp : MonoBehaviour {
  static BubeApp instance;
  Locale locale;
  CareerRules careerRules;
+ AudioDirector audio;
  GameConfig config;
  Investigation game;
  VisualElement root;
@@ -162,6 +163,10 @@ public sealed partial class BubeApp : MonoBehaviour {
    Debug.Log("Save migrated to current schema.");
   game.Career.activeCaseId=caseId;
   instantText=PlayerPrefs.GetInt("bube.instantText",0)==1;
+  SoundSettings.Load();
+  audio=AudioDirector.Attach(gameObject);
+  // Kit'in her düğmesi basıldığında ses ister; çalan tek yer burası.
+  KarineUI.Sound=id=>{ if(audio!=null)audio.Play(id); };
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
   var panel=ScriptableObject.CreateInstance<PanelSettings>();
   panel.scaleMode=PanelScaleMode.ScaleWithScreenSize;
@@ -194,8 +199,22 @@ public sealed partial class BubeApp : MonoBehaviour {
  }
 
  void EnsureScene(string sceneName) {
+  SetRoomSound(sceneName);
   if(SceneManager.GetActiveScene().name!=sceneName)
    SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
+ }
+
+ // Odanın sesi sahneden gelir; vaka kendi ortam sesini söyleyebilir
+ // (`CaseData.ambienceId`), söylemezse odanın varsayılanı çalar. Ses dosyası
+ // yoksa sessizdir — ekranlar bunu bilmek zorunda değil.
+ void SetRoomSound(string sceneName) {
+  if(audio==null)return;
+  string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
+  switch(sceneName) {
+   case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); break;
+   case "InterviewScene": audio.StopMusic(); audio.PlayAmbience("room_interview"); break;
+   default: audio.StopMusic(); audio.PlayAmbience(caseAmbience ?? "room_office"); break;
+  }
  }
 
  void Update() {
@@ -246,6 +265,13 @@ public sealed partial class BubeApp : MonoBehaviour {
   lastInboxBadgeCount=count; lastBadgedElement=inboxBadge;
   inboxBadge.style.display=count>0?DisplayStyle.Flex:DisplayStyle.None;
   inboxBadgeLabel.text=count>0?count.ToString():string.Empty;
+ }
+
+ // Telefonda oyuncu uygulamadan çıkmaz, arkaya atar; işletim sistemi onu
+ // haber vermeden kapatabilir. Bu yüzden arkaya atılma anı bir kayıt anıdır.
+ void OnApplicationPause(bool paused) {
+  if(!paused || game==null)return;
+  Save();
  }
 
  // Okunamayan kaydi bozmadan yana kaldirir; donus degeri yeni yoldur, yoksa null.
@@ -351,9 +377,12 @@ public sealed partial class BubeApp : MonoBehaviour {
   label.text=string.Empty;
   int length=0;
   IVisualElementScheduledItem animation=null;
+  int tick=0;
   animation=label.schedule.Execute(()=>{
    length=Mathf.Min(line.Length,length+2);
    label.text=line.Substring(0,length);
+   // Her karede değil: daktilo tıkırtısı harf harf çalarsa gürültü olur.
+   if(audio!=null && ++tick%4==0)audio.Play(AudioDirector.Typewriter);
    if(length>=line.Length)animation.Pause();
   }).Every(22);
  }

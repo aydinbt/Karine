@@ -18,7 +18,7 @@ public static partial class KarineUI {
  public static Button PaperButton(VisualElement parent, string label, Action onClick,
                                   KarinePaperKind kind = KarinePaperKind.Choice,
                                   bool leftAlign = false) {
-  var button = new Button(onClick) { text = label };
+  var button = new Button(Sounded(onClick, AudioDirector.Page)) { text = label };
   Color fill, ink;
   switch (kind) {
    case KarinePaperKind.Action: fill = KarineTheme.Paper.Stamp; ink = KarineTheme.Primary; break;
@@ -49,7 +49,7 @@ public static partial class KarineUI {
  // Kit "aynı işlev = aynı simge" der; bu yüzden tek yerde durur.
  public static Button CloseButton(VisualElement parent, Action onClick,
                                   string tooltip = null, bool paper = false) {
-  var button = new Button(onClick) { text = "×" };
+  var button = new Button(Sounded(onClick)) { text = "×" };
   button.style.width = KarineTheme.IconButtonSize;
   button.style.height = KarineTheme.IconButtonSize;
   button.style.flexShrink = 0;
@@ -82,7 +82,7 @@ public static partial class KarineUI {
  // Toolkit'te bir `Button`un metni ile çocukları **üst üste biner**, simge
  // ancak böyle yanına oturur.
  public static Button SkipButton(VisualElement parent, string label, Action onClick) {
-  var button = new Button(onClick);
+  var button = new Button(Sounded(onClick));
   button.text = null;
   button.style.flexDirection = FlexDirection.Row;
   button.style.alignItems = Align.Center;

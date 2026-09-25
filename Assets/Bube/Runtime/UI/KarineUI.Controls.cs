@@ -16,7 +16,7 @@ public static partial class KarineUI {
   Border(strip, KarineTheme.BorderWidth, KarineTheme.Panel2);
   for (int index = 0; index < labels.Length; index++) {
    int captured = index;
-   var tab = new Button(() => onSelect?.Invoke(captured)) { text = labels[index] };
+   var tab = new Button(Sounded(() => onSelect?.Invoke(captured))) { text = labels[index] };
    tab.style.minHeight = KarineTheme.TouchTarget;
    tab.style.fontSize = Typography.Snap(15);
    if (stretch) { tab.style.flexGrow = 1; tab.style.whiteSpace = WhiteSpace.Normal; }
@@ -38,7 +38,7 @@ public static partial class KarineUI {
  // Kit'teki SEÇİM RADYO: dolu halka seçili, boş halka değil. Birbirini dışlayan
  // ayarlar için; iki düğmeyi birden birincil yapmak yerine bu kullanılır.
  public static Button Radio(VisualElement parent, string label, bool selected, Action onSelect) {
-  var row = new Button(onSelect);
+  var row = new Button(Sounded(onSelect));
   row.style.flexDirection = FlexDirection.Row;
   row.style.alignItems = Align.Center;
   row.style.minHeight = KarineTheme.TouchTarget;

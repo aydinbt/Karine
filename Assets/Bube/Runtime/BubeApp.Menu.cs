@@ -191,11 +191,27 @@ public sealed partial class BubeApp {
   KarineUI.Radio(card,T("settings.normal"),!instantText,()=>{
    instantText=false;PlayerPrefs.SetInt("bube.instantText",0);PlayerPrefs.Save();SettingsPage();
   });
+  // Ses üç kademedir; kit'te kaydırıcı yok, o yüzden radyo grubu.
+  KarineUI.Subtitle(card,T("settings.music"),17);
+  SoundRow(card,SoundSettings.Music,level=>{SoundSettings.SetMusic(level);ApplySound();});
+  KarineUI.Subtitle(card,T("settings.sfx"),17);
+  SoundRow(card,SoundSettings.Sfx,level=>{SoundSettings.SetSfx(level);ApplySound();});
   var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
   // Hakkında da menüden çıktı; ayarların içinde duruyor.
   Button(card,T("menu.about"),AboutPage);
   Button(card,T("offer.back"),Home);
  }
+ // Üç kademe tek satırda: kapalı / kısık / açık.
+ void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {
+  var row=KarineUI.Row(card);
+  foreach(var level in new[]{SoundLevel.Off,SoundLevel.Low,SoundLevel.Full}) {
+   var captured=level;
+   var cell=new VisualElement();cell.style.flexGrow=1;row.Add(cell);
+   KarineUI.Radio(cell,T(SoundSettings.LabelKey(captured)),current==captured,()=>{onPick(captured);SettingsPage();});
+  }
+ }
+ void ApplySound() { if(audio!=null)audio.ApplyLevels(); }
+
  void AboutPage() {
   VisualElement card;MenuOverlay(T("menu.about"),out card);
   Text(card,T("about.body"),Ink,19);

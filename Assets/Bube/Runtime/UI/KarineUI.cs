@@ -103,9 +103,19 @@ public static partial class KarineUI {
 
  // Kit'in dört biçimi. Başka biçim yok; "sadece bu ekranda farklı görünsün"
  // isteği buraya yeni bir `kind` olarak gelir, ekranın içine değil.
+ // Kit'in her düğmesi basıldığında buradan haber verir; sesi `AudioDirector`
+ // çalar. Ses kit'in içine gömülmez, çünkü `KarineUI` saf arayüzdür ve
+ // testlerde AudioSource olmadan kurulur. Kimse dinlemiyorsa sessizdir.
+ public static Action<string> Sound;
+
+ // Basma sesini eyleme ekler. Düğme kurucularının hepsi bundan geçer, böylece
+ // yeni bir ekran ses eklemeyi unutamaz.
+ public static Action Sounded(Action onClick, string id = AudioDirector.Press) =>
+  () => { Sound?.Invoke(id); onClick?.Invoke(); };
+
  public static Button Button_(VisualElement parent, string label, Action onClick,
                               KarineButtonKind kind = KarineButtonKind.Secondary, bool enabled = true) {
-  var button = new Button(onClick) { text = label };
+  var button = new Button(Sounded(onClick)) { text = label };
   button.style.minHeight = KarineTheme.TouchTargetComfortable;
   button.style.fontSize = Typography.Snap(19);
   button.style.unityTextAlign = TextAnchor.MiddleCenter;
@@ -153,7 +163,7 @@ public static partial class KarineUI {
 
  // Yalnız ikon: kare koyu düğme + krem çizgi ikon. İkon 22 px, hedef 48 px.
  public static Button IconButton(VisualElement parent, string icon, Action onClick, string tooltip = null) {
-  var button = new Button(onClick);
+  var button = new Button(Sounded(onClick));
   button.style.width = KarineTheme.IconButtonSize;
   button.style.height = KarineTheme.IconButtonSize;
   button.style.marginRight = KarineTheme.SpaceSm;
