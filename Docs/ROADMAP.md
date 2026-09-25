@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 25 Eylül 2026  
+**Son durum:** 25 Eylül 2026 (soruşturma dokusu + mobil erişilebilirlik oturumu)  
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -121,6 +121,20 @@ Bu bölümdeki işaretler teslim edilmiş davranışları gösterir; otomatik do
 **Bitti ölçütü:** Yeni kayıttan başlayan bir oyuncu Dosya #001'i tek oturumda kapatır, oyunu yeniden açınca kapanmış hâlini görür ve yeni oyunla temiz başlangıç yapar.
 
 - [x] Önceki soruşturma masası düzeni korundu. Görüşme talepleri ve CCTV elde tutulan tablet görünümünde; yalnız dosya fiziksel klasör/kâğıt olarak açılır. Ana menü Bora’nın gece ofisi görselinde Devam Et (kayıt varsa), Yeni Oyun, Ayarlar ve Hakkında eylemleriyle sınırlandı. Tabletin uçtan uca görsel/dokunma testi açık.
+
+## Soruşturma dokusu ve mobil erişilebilirlik (25 Eylül 2026 oturumu)
+
+**Durum: hepsi `[~]`.** Kodlandı, 51 test geçiyor, kullanıcı ekranlara baktı ve "normal görünüyor" dedi — ama hiçbiri **oynanarak** doğrulanmadı. Tasarım gerekçeleri: `DESIGN_AMENDMENTS.md`.
+
+- [~] **"Adı geçtiyse cevap verme hakkı doğar"** — bir kaydı kişiye ancak adı orada geçiyorsa öne sürebilirsin. Kural metinden türer (`Investigation.MentionsPerson`), elle etiketlemeye bağlı değil, yeni vakalarda kendiliğinden işler. `aboutPersonIds` artık **ek**: yalnız kaydın kişiden adını anmadan söz ettiği yerler için (kamera satırları, kayıt boşluğu, Hasan'ın "kadın" dediği üç ifade). Otuz soru etiketi kaldırıldı. Kural belgelere de işliyor; belgeler eskiden hiç süzülmüyordu. Kişi başı kaynak: Elif 10→10, Hasan 9→8, Mert 11→20.
+- [~] **Yem kaynaklar.** Yanlış kaynağı öne sürmek artık "ne diyeyim" değil, gerçek ama yanıltıcı bir yanıt üretir; soru kapanmaz. 29 yem. Metinler yeni olgu uydurmaz, yorumu ağırlaştırır: masum kişi kendi aleyhine konuşur, fail düz kalır.
+- [~] **Davranış satırı** (deneme, dört kaynak sorusunda). Yanıtın altında dedektifin *gördüğü* davranış; gözlem, yorum değil. `answerKey + ".demeanor"` sözleşmesi, `Locale.Has` ile isteğe bağlı. Teşhis edilebilir olmaması bilinçli. Yayma kararı kullanıcıya ait.
+- [~] **Yanıtlanan soru kapanır.** Birden çok belirleyici kaynağı olan soru "YENİ KAYITLA" önekiyle listede kalıyordu; oyuncu bunu "eksik kaldı" diye okuyordu. Yem denemeleri etkilenmez.
+- [~] **Görüşmede vazgeçme.** Soru seçtikten sonra tek çıkış görüşmeyi bitirmekti; hem kaynak seçicisine hem "dinle" adımına geri dönüş kondu.
+- [~] **Kaynak satırı yanıtı gösterir**, sorulan soruyu değil; liste "soracağım sorular" gibi okunuyordu.
+- [~] **Dosya ekranı telefon için sadeleşti:** iç içe kaydırma kalktı (metin tam genişlik, görsel akışın içinde), "1 / 1" sayacı ve Önceki/Sonraki yerine dokunulur sayfa şeridi, sekme şeridinin kendi kaydırması kalktı, sekme biçimi `FileTab` yardımcısına toplandı.
+- [~] **"Dosyada ara" dokunulur süzgece çevrildi.** Yazı alanı kalktı (klavye ekranın yarısını kaplıyordu); yerine tür ve kişi ekseni. Kişi eşleşmesi "adı geçtiyse" kuralının aynısını kullanır. `CaseSearch` ikiye ayrıldı; okunmamış kaynağın sızmadığını denetleyen kurallar aynı kapıyı koruyor.
+- [~] **Doğrulayıcıya sekiz yeni kural.** Belirleyici/yem kaynağın kişiye kapalı olması, öne sürülemez kaynak, yinelenen yem yanıtı, yem = çözücü kaynak, davranış satırında yorum sözcüğü, satır uzunluğu, soru metninin kaynağı tekrar etmesi (not). Her kural bu oturumda gerçekten yaşanan bir hatadan doğdu.
 
 ## M2 — Soruşturmayı okuma listesinden oyuna çevirme
 

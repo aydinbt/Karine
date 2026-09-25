@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 25 Eylül 2026 (Faz 1 kapandı)
+**Son güncelleme:** 25 Eylül 2026 (soruşturma dokusu + mobil erişilebilirlik oturumu)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -60,6 +60,17 @@
 3. **Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor (Faz 3).
 4. ~~**Performans:** `Update()` her karede tam vaka JSON'u ayrıştırıyor; `Locale.Get` doğrusal arama yapıyor.~~ **Kodlandı (Faz 2), Play Mode'da gözlenmedi `[~]`** — beş düzeltme: görev önbelleği, güvenli alan yazımları, rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`.
 5. ~~**Unity batchmode lisansı bu makinede çalışmıyor.**~~ **Yanlış teşhisti, düzeltildi.** Testler `Tools/run-tests.sh` ile komut satırından koşuyor (EditMode + PlayMode). Gereken tek şey Unity Hub'ın açık olması. Ayrıntı: [Architecture.md](Architecture.md) → "Testleri başsız koşmak".
+
+## Son oturumda ne değişti (25 Eylül 2026)
+
+Soruşturmanın **dokusu** ve telefonda **erişilebilirlik**. Hepsi `[~]`: kodlandı, 51 test geçiyor, ekranlara bakıldı — oynanarak doğrulanmadı.
+
+- **Yeni kanon kural:** bir kaydı kişiye ancak **adı orada geçiyorsa** öne sürebilirsin. Metinden türer, elle etiketlenmez, yeni vakalarda kendiliğinden işler. `aboutPersonIds` artık yalnız "adını anmadan söz eden" kayıtlar için bir ek.
+- **Yem kaynaklar (29) ve davranış satırı (38, deneme).** Yanlış kaynak artık gerçek ama yanıltıcı bir yanıt üretir; soru kapanmaz. Davranış satırı gözlem verir, yorum vermez.
+- **Mobil sadeleştirme:** dosya ekranında iç içe kaydırma, "1/1" sayacı ve kayan sekme şeridi kalktı; "Dosyada ara" yazı alanı dokunulur tür/kişi süzgecine çevrildi.
+- **Doğrulayıcıya sekiz yeni kural** — her biri bu oturumda yaşanan gerçek bir hatadan doğdu.
+
+Ayrıntı ve gerekçeler: [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md), işaretler: [ROADMAP.md](ROADMAP.md).
 
 ## Sıradaki iş
 
