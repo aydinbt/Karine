@@ -1,192 +1,48 @@
 {
  "entries": [
   {
-   "key": "case002.person.selcuk.name",
-   "value": "Selçuk Yalın"
+   "key": "case002.camera.body",
+   "value": "Sokağın sahil yoluna açılan ucuna bakan büfe kamerasının 22.50 – 23.50 arası döküm kaydı. Görüntü siyah beyaz ve uzaktan; kayıt yüz teşhisine elverişli değil."
   },
   {
-   "key": "case002.person.selcuk.info",
-   "value": "42 yaşında, ticari taksi şoförü. Olayda yaralanan kişi."
+   "key": "case002.camera.title",
+   "value": "KAMERA 04 — kayıt dökümü"
   },
   {
-   "key": "case002.person.deniz.name",
-   "value": "Deniz Arslan"
+   "key": "case002.cctv.event.contact",
+   "value": "İki kişi araç yanında karşı karşıya duruyor; kısa bir yakın temas görülüyor."
   },
   {
-   "key": "case002.person.deniz.info",
-   "value": "24 yaşında, öğrenci. Aracın o geceki son kayıtlı yolcusu."
+   "key": "case002.cctv.event.dispute",
+   "value": "Araç içinde iki kişi arasında el kol hareketi görülüyor."
   },
   {
-   "key": "case002.person.emre.name",
-   "value": "Emre Koç"
+   "key": "case002.cctv.event.park",
+   "value": "Ticari taksi sokağın girişine park ediyor. Sürücü araçta kalıyor."
   },
   {
-   "key": "case002.person.emre.info",
-   "value": "34 yaşında, nakliye işinde çalışıyor. Selçuk Yalın’la eski tanışıklığı var."
+   "key": "case002.cctv.event.passenger_out",
+   "value": "Arka kapıdan bir kişi iniyor ve sokağın üst ucuna doğru yürüyor."
   },
   {
-   "key": "case002.person.kerem.name",
-   "value": "Kerem Şahin"
+   "key": "case002.cctv.event.patrol",
+   "value": "Devriye aracı sokağa giriyor, ışıkları kadrajı aydınlatıyor."
   },
   {
-   "key": "case002.person.kerem.info",
-   "value": "29 yaşında, köşedeki büfede çalışıyor. Olay gecesi vardiyadaydı."
+   "key": "case002.cctv.event.second_in",
+   "value": "Sokağın sahil yolu ucundan bir kişi kadraja giriyor, araca yaklaşıyor."
   },
   {
-   "key": "case002.report.title",
-   "value": "OLAY TESPİT TUTANAĞI"
+   "key": "case002.cctv.event.second_out",
+   "value": "Araç yanındaki ikinci kişi kadrajdan çıkıyor. Sürücü yerde."
   },
   {
-   "key": "case002.report.body",
-   "value": "21 Kasım 2026 gecesi saat 23.46’da Beşiktaş’ta, sahil yolundan ayrılan ara sokakta yere düşmüş bir kişi bulundu. Kişi, ticari taksi şoförü Selçuk Yalın (42) olarak tespit edildi; başının sol arka bölgesinde yaralanma var, bilinci açık. Aracı olay yerinden yaklaşık 31 metre ötede, kapıları kapalı ama kilitsiz halde bulundu.\n\nYalın’ın üzerinde cep telefonu ve kol saati duruyor. Aracın ön koltuğundaki açık omuz çantasında nakit bulunamadı. Yalın ilk beyanında çantada yaklaşık 8.000 TL bulunduğunu, paranın gün içindeki taksi kazancı olduğunu söyledi.\n\nSokakta olayı gördüğünü beyan eden tanık yok. Sokağın iki ucunda işyeri kameraları bulunduğu görüldü."
+   "key": "case002.cctv.event.third_in",
+   "value": "Üçüncü bir kişi kadraja giriyor, araca yaklaşıyor ve ön kapı hizasında duruyor."
   },
   {
-   "key": "case002.file.value.number",
-   "value": "BPS-2026-0214"
-  },
-  {
-   "key": "case002.file.value.location",
-   "value": "Beşiktaş, sahil yolu ara sokağı"
-  },
-  {
-   "key": "case002.file.value.reporter",
-   "value": "Gece devriyesi, 23.46 çağrısı"
-  },
-  {
-   "key": "case002.file.value.bureau",
-   "value": "BPS Asayiş Masası"
-  },
-  {
-   "key": "case002.file.value.offence",
-   "value": "Yağma ve yaralama iddiası"
-  },
-  {
-   "key": "case002.report.imageCaption",
-   "value": "Olay yeri: sokağın sahil yoluna açılan ucu, 22 Kasım 02.10."
-  },
-  {
-   "key": "case002.selcuk.title",
-   "value": "Selçuk Yalın — ilk görüşme"
-  },
-  {
-   "key": "case002.selcuk.body",
-   "value": "Olayda yaralanan taksi şoförünün hastane çıkışında alınan ilk ifadesi."
-  },
-  {
-   "key": "case002.selcuk.quote",
-   "value": "“Arkadan bir darbe hissettim, sonrasını hatırlamıyorum.”"
-  },
-  {
-   "key": "case002.selcuk.deflect",
-   "value": "Bunu şimdi konuşmak istemiyorum."
-  },
-  {
-   "key": "case002.selcuk.night.question",
-   "value": "O gece sokakta ne oldu?"
-  },
-  {
-   "key": "case002.selcuk.night.answer",
-   "value": "Sahil yolundan çıkıp ara sokağa girdim, molaya duracaktım. Araçtan indim, sigara yaktım. Arkamda bir hareket oldu, sonra yere düştüm. Kalkmaya çalıştığımı hatırlıyorum, sonrası karışık."
-  },
-  {
-   "key": "case002.selcuk.money.question",
-   "value": "Araçta ne kadar para vardı?"
-  },
-  {
-   "key": "case002.selcuk.money.answer",
-   "value": "Çantada sekiz bin lira kadar vardı. Gün boyu çalıştım, kartla ödemeyenler oldu. Gece bankaya gidecektim, gidemedim."
-  },
-  {
-   "key": "case002.selcuk.passenger.question",
-   "value": "O geceki son yolcunuz kimdi?"
-  },
-  {
-   "key": "case002.selcuk.passenger.answer",
-   "value": "Bir öğrenci vardı, Ortaköy’den bindi. Ücret konusunda tartıştık, indi gitti. Sefer kaydı telsiz merkezinde durur, adını oradan bulabilirsiniz."
-  },
-  {
-   "key": "case002.selcuk.attacker.question",
-   "value": "Size vuran kişiyi tanıyor musunuz?"
-  },
-  {
-   "key": "case002.selcuk.attacker.answer",
-   "value": "Hayır. Arkamdaydı, yüzünü görmedim. Semtte kimseyle bir sorunum yok."
-  },
-  {
-   "key": "case002.selcuk.belongings.question",
-   "value": "Telefonunuz ve saatiniz üzerinizdeydi, değil mi?"
-  },
-  {
-   "key": "case002.selcuk.belongings.answer",
-   "value": "Evet, ikisi de duruyordu. Ben de ona şaşırdım. Alan kişi sadece çantaya bakmış."
-  },
-  {
-   "key": "case002.selcuk.taxi.question",
-   "value": "Araç neden sizden otuz metre ötedeydi?"
-  },
-  {
-   "key": "case002.selcuk.taxi.answer",
-   "value": "Sokağın girişine bırakmıştım, ben biraz yürümüştüm. Kapıyı kilitlemedim, iki dakika sürecek sanıyordum."
-  },
-  {
-   "key": "case002.deniz.title",
-   "value": "Deniz Arslan — görüşme"
-  },
-  {
-   "key": "case002.deniz.body",
-   "value": "Sefer kaydında görünen son yolcunun ifadesi."
-  },
-  {
-   "key": "case002.deniz.quote",
-   "value": "“Ücret yüzünden tartıştık, indim. Hepsi bu.”"
-  },
-  {
-   "key": "case002.deniz.deflect",
-   "value": "Bunu bilmiyorum."
-  },
-  {
-   "key": "case002.deniz.trip.question",
-   "value": "O gece o taksiye nerede bindiniz?"
-  },
-  {
-   "key": "case002.deniz.trip.answer",
-   "value": "Ortaköy’den bindim. Eve gidiyordum. Sahil yolundan sapınca sokağa girdi, orada durduk."
-  },
-  {
-   "key": "case002.deniz.dispute.question",
-   "value": "Şoförle aranızda ne konuşuldu?"
-  },
-  {
-   "key": "case002.deniz.dispute.answer",
-   "value": "Ücret yüksek geldi, itiraz ettim. Sesimizi yükselttik. Elimi kolumu salladığımı kabul ediyorum, ama ona dokunmadım."
-  },
-  {
-   "key": "case002.deniz.leave.question",
-   "value": "Araçtan kaçta indiniz?"
-  },
-  {
-   "key": "case002.deniz.leave.answer",
-   "value": "Telefonumdaki saate baktım, on biri üç geçiyordu. İndim, sokağın üst ucundan yürüdüm, otobüse bindim."
-  },
-  {
-   "key": "case002.deniz.after.question",
-   "value": "İndikten sonra sokakta kimi gördünüz?"
-  },
-  {
-   "key": "case002.deniz.after.answer",
-   "value": "Sokak boştu. Ben yukarı doğru yürürken şoför araçta kaldı. Arkama bakmadım."
-  },
-  {
-   "key": "case002.deniz.camera.question",
-   "value": "Sokakta kayıt tutan bir yer var mı?"
-  },
-  {
-   "key": "case002.deniz.camera.answer",
-   "value": "Köşedeki büfenin kapısında bir kamera var, sokağa dönük. Ben inerken ışığı yanıyordu."
-  },
-  {
-   "key": "case002.cctv.source",
-   "value": "Büfe kamerası — KAMERA 04"
+   "key": "case002.cctv.event.third_out",
+   "value": "Üçüncü kişi araçtan ayrılıyor, sokağın büfe tarafına dönüyor."
   },
   {
    "key": "case002.cctv.overlay",
@@ -197,440 +53,8 @@
    "value": "21 Kasım 2026, 22.50 – 23.50"
   },
   {
-   "key": "case002.camera.title",
-   "value": "KAMERA 04 — kayıt dökümü"
-  },
-  {
-   "key": "case002.camera.body",
-   "value": "Sokağın sahil yoluna açılan ucuna bakan büfe kamerasının 22.50 – 23.50 arası döküm kaydı. Görüntü siyah beyaz ve uzaktan; kayıt yüz teşhisine elverişli değil."
-  },
-  {
-   "key": "case002.cctv.event.park",
-   "value": "Ticari taksi sokağın girişine park ediyor. Sürücü araçta kalıyor."
-  },
-  {
-   "key": "case002.time.park",
-   "value": "22.58"
-  },
-  {
-   "key": "case002.cctv.event.dispute",
-   "value": "Araç içinde iki kişi arasında el kol hareketi görülüyor."
-  },
-  {
-   "key": "case002.time.dispute",
-   "value": "23.02"
-  },
-  {
-   "key": "case002.cctv.event.passenger_out",
-   "value": "Arka kapıdan bir kişi iniyor ve sokağın üst ucuna doğru yürüyor."
-  },
-  {
-   "key": "case002.time.passenger_out",
-   "value": "23.03"
-  },
-  {
-   "key": "case002.cctv.event.second_in",
-   "value": "Sokağın sahil yolu ucundan bir kişi kadraja giriyor, araca yaklaşıyor."
-  },
-  {
-   "key": "case002.time.second_in",
-   "value": "23.18"
-  },
-  {
-   "key": "case002.cctv.event.contact",
-   "value": "İki kişi araç yanında karşı karşıya duruyor; kısa bir yakın temas görülüyor."
-  },
-  {
-   "key": "case002.time.contact",
-   "value": "23.20"
-  },
-  {
-   "key": "case002.cctv.event.second_out",
-   "value": "Araç yanındaki ikinci kişi kadrajdan çıkıyor. Sürücü yerde."
-  },
-  {
-   "key": "case002.time.second_out",
-   "value": "23.31"
-  },
-  {
-   "key": "case002.cctv.event.third_in",
-   "value": "Üçüncü bir kişi kadraja giriyor, araca yaklaşıyor ve ön kapı hizasında duruyor."
-  },
-  {
-   "key": "case002.time.third_in",
-   "value": "23.34"
-  },
-  {
-   "key": "case002.cctv.event.third_out",
-   "value": "Üçüncü kişi araçtan ayrılıyor, sokağın büfe tarafına dönüyor."
-  },
-  {
-   "key": "case002.time.third_out",
-   "value": "23.39"
-  },
-  {
-   "key": "case002.cctv.event.patrol",
-   "value": "Devriye aracı sokağa giriyor, ışıkları kadrajı aydınlatıyor."
-  },
-  {
-   "key": "case002.time.patrol",
-   "value": "23.46"
-  },
-  {
-   "key": "case002.selcuk_follow.title",
-   "value": "Selçuk Yalın — ikinci görüşme"
-  },
-  {
-   "key": "case002.selcuk_follow.body",
-   "value": "Kayıt dökümü alındıktan sonra yapılan ikinci görüşme."
-  },
-  {
-   "key": "case002.selcuk_follow.visitor.question",
-   "value": "Araç yanında sizinle duran kişi kimdi?"
-  },
-  {
-   "key": "case002.selcuk_follow.visitor.answer",
-   "value": "Birinin yaklaştığını hatırlamıyorum. Yolcu indikten sonra araçta oturuyordum, sonra indim. Kayıtta ne görüyorsanız görün, ben bir tanıdık görmedim."
-  },
-  {
-   "key": "case002.selcuk_follow.time.question",
-   "value": "Yolcu indikten sonra sokakta ne kadar kaldınız?"
-  },
-  {
-   "key": "case002.selcuk_follow.time.answer",
-   "value": "On dakika ya var ya yok. Mola veriyordum. Arabanın içini toplamıştım, çanta ön koltuktaydı."
-  },
-  {
-   "key": "case002.selcuk_follow.bag.question",
-   "value": "Çanta ön koltukta açık mıydı?"
-  },
-  {
-   "key": "case002.selcuk_follow.bag.answer",
-   "value": "Açık olabilir. Para orada duruyordu. Araca tekrar bakıldı mı, bilmiyorum; belki içeride bir şey kalmıştır."
-  },
-  {
-   "key": "case002.scene.title",
-   "value": "OLAY YERİ EK İNCELEME RAPORU"
-  },
-  {
-   "key": "case002.scene.body",
-   "value": "Aracın ikinci incelemesinde ön koltuk ile vites konsolu arasında buruşturulmuş bir kâğıt parçası bulundu. Kâğıdın üzerinde elle yazılmış şu ifade var:\n\nEMRE K. / 8.000 / 21/11\n\nKâğıt, aracın ruhsat kabında duran not defteriyle aynı türde. Yazının kime ait olduğu tespit edilemedi.\n\nAracın ön koltuğundaki omuz çantasının ağzı açık; çanta içinde bozuk para ve fatura bulundu, kâğıt para yok. Yerdeki kan izi, gövdenin bulunduğu yerle uyumlu; sürüklenme izi yok."
-  },
-  {
-   "key": "case002.request.scene",
-   "value": "Araçta ek inceleme iste"
-  },
-  {
-   "key": "case002.emre.title",
-   "value": "Emre Koç — görüşme"
-  },
-  {
-   "key": "case002.emre.body",
-   "value": "Araçta bulunan notta adı geçen kişinin ifadesi."
-  },
-  {
-   "key": "case002.emre.quote",
-   "value": "“Borcumu ödemeye gittim. Gerisini bilmiyorum.”"
-  },
-  {
-   "key": "case002.emre.deflect",
-   "value": "Bu konuya girmek istemiyorum."
-  },
-  {
-   "key": "case002.emre.note.question",
-   "value": "Bu not sizin adınızı taşıyor. Açıklar mısınız?"
-  },
-  {
-   "key": "case002.emre.note.answer",
-   "value": "Selçuk’a borcum vardı. Sekiz bin lira. Yazılı bir şey yoktu, kendi arasında tutmuş olmalı. O gece götürüyordum."
-  },
-  {
-   "key": "case002.emre.debt.question",
-   "value": "Bu borç nereden geliyor?"
-  },
-  {
-   "key": "case002.emre.debt.answer",
-   "value": "İki yıl önce araç işi için elden aldım. Kayda geçen bir şey değil. Ödeme geciktikçe aramız gerildi."
-  },
-  {
-   "key": "case002.emre.meeting.question",
-   "value": "O gece Selçuk Yalın’la buluştunuz mu?"
-  },
-  {
-   "key": "case002.emre.meeting.answer",
-   "value": "Buluştum. Sokağa gittim, konuştuk. Sesler yükseldi. Sonra ben oradan ayrıldım, o ayaktaydı."
-  },
-  {
-   "key": "case002.emre.leave.question",
-   "value": "Sokaktan kaçta ayrıldınız?"
-  },
-  {
-   "key": "case002.emre.leave.answer",
-   "value": "Yarımı geçiyordu herhalde. Saate bakmadım. Yürüyerek üst caddeye çıktım."
-  },
-  {
-   "key": "case002.emre.money.question",
-   "value": "Parayı ona verdiniz mi?"
-  },
-  {
-   "key": "case002.emre.money.answer",
-   "value": "Vermek için gittim. Tartışma büyüyünce parayı çıkardım mı çıkarmadım mı, orasını karıştırıyorum. Cebimde geri götürmedim, o kadarını biliyorum."
-  },
-  {
-   "key": "case002.medical.title",
-   "value": "ADLİ MUAYENE ÖN RAPORU"
-  },
-  {
-   "key": "case002.medical.body",
-   "value": "Muayene edilen kişi: Selçuk Yalın (42).\n\nBaşın sol arka bölgesinde tek odaklı künt yaralanma. Yaralanmanın biçimi, sert ve düz bir yüzeye çarpma ile uyumludur; yumruk benzeri doğrudan darbe için beklenen dağınık doku bulgusu yoktur.\n\nSol ön kolda yüzeysel kavrama izleri. İzler, kolun dışarıdan tutulmasıyla uyumludur.\n\nBu bulgular tek başına olayın nasıl geliştiğini göstermez; düşmenin kendiliğinden mi yoksa bir itme sonucunda mı olduğu muayene ile ayırt edilemez."
-  },
-  {
-   "key": "case002.request.medical",
-   "value": "Adli muayene ön raporunu iste"
-  },
-  {
-   "key": "case002.emre_follow.title",
-   "value": "Emre Koç — ikinci görüşme"
-  },
-  {
-   "key": "case002.emre_follow.body",
-   "value": "Muayene raporu geldikten sonra yapılan ikinci görüşme."
-  },
-  {
-   "key": "case002.emre_follow.push.question",
-   "value": "Rapor, başın sert bir yüzeye çarptığını söylüyor. Ne oldu?"
-  },
-  {
-   "key": "case002.emre_follow.push.answer",
-   "value": "İttim. Üstüme geldi, ben de kolundan tuttum ve ittim. Geri gitti, arkadaki bordüre çarptı. Bağırdım, kalkmadı. Korktum ve yürüdüm."
-  },
-  {
-   "key": "case002.emre_follow.money.question",
-   "value": "Ayrılırken para sizde miydi?"
-  },
-  {
-   "key": "case002.emre_follow.money.answer",
-   "value": "Hayır. Zarf elimden düştü, araca doğru attım diyebilirim. Parayla gitmedim. İsterseniz üstümü arayın, o geceden sonra hesabımda kuruş girmedi."
-  },
-  {
-   "key": "case002.emre_follow.after.question",
-   "value": "Sokaktan çıkarken kimseyi gördünüz mü?"
-  },
-  {
-   "key": "case002.emre_follow.after.answer",
-   "value": "Köşedeki büfenin önünde bir genç duruyordu. Bana baktı. Hepsi bu."
-  },
-  {
-   "key": "case002.kerem.title",
-   "value": "Kerem Şahin — görüşme"
-  },
-  {
-   "key": "case002.kerem.body",
-   "value": "Sokağın köşesindeki büfede vardiyada olan kişinin ifadesi."
-  },
-  {
-   "key": "case002.kerem.quote",
-   "value": "“Uzaktan baktım, karışmadım.”"
-  },
-  {
-   "key": "case002.kerem.deflect",
-   "value": "Hatırlamıyorum."
-  },
-  {
-   "key": "case002.kerem.night.question",
-   "value": "O gece vardiyada mıydınız?"
-  },
-  {
-   "key": "case002.kerem.night.answer",
-   "value": "Evet, on ikiye kadar büfedeydim. Sokakta bağırış oldu, dışarı çıktım."
-  },
-  {
-   "key": "case002.kerem.watch.question",
-   "value": "Ne gördünüz?"
-  },
-  {
-   "key": "case002.kerem.watch.answer",
-   "value": "İki kişi tartışıyordu. Biri yürüyüp gitti. Öbürü yerde kaldı. Ben büfenin önünden baktım, yaklaşmadım. Sonra ekip geldi."
-  },
-  {
-   "key": "case002.kerem.help.question",
-   "value": "Neden yardıma gitmediniz?"
-  },
-  {
-   "key": "case002.kerem.help.answer",
-   "value": "Bulaşmak istemedim. Burada her gece bir şey oluyor. Dükkânı da açık bırakamam."
-  },
-  {
-   "key": "case002.selcuk_third.title",
-   "value": "Selçuk Yalın — üçüncü görüşme"
-  },
-  {
-   "key": "case002.selcuk_third.body",
-   "value": "Emre Koç’un ikinci ifadesinden sonra yapılan görüşme."
-  },
-  {
-   "key": "case002.selcuk_third.emre.question",
-   "value": "Emre Koç sizi ittiğini söylüyor. Bu kişiyi tanıyor musunuz?"
-  },
-  {
-   "key": "case002.selcuk_third.emre.answer",
-   "value": "Tanıyorum. Borcu vardı, ondan geliyordu. Bunu en başta söylemedim, çünkü o para kayıtlı bir para değil. İşimi kaybetmekten korktum."
-  },
-  {
-   "key": "case002.selcuk_third.money.question",
-   "value": "Çantadaki para taksi kazancı mıydı?"
-  },
-  {
-   "key": "case002.selcuk_third.money.answer",
-   "value": "Hayır. Emre’nin getirdiği paraydı. Zarfı araca attı, ben de çantaya koydum. Sonrasında tartışma büyüdü."
-  },
-  {
-   "key": "case002.selcuk_third.kid.question",
-   "value": "Yerdeyken çevrede kimi fark ettiniz?"
-  },
-  {
-   "key": "case002.selcuk_third.kid.answer",
-   "value": "Gözüm açıktı ama kalkamıyordum. Biri aracın kapısına eğildi. Büfedeki çocuğa benziyordu, o saatte hep orada olur."
-  },
-  {
-   "key": "case002.kerem_follow.title",
-   "value": "Kerem Şahin — ikinci görüşme"
-  },
-  {
-   "key": "case002.kerem_follow.body",
-   "value": "Kayıt dökümü ve mağdurun üçüncü ifadesinden sonra yapılan görüşme."
-  },
-  {
-   "key": "case002.kerem_follow.approach.question",
-   "value": "Kayıtta araca yaklaşan üçüncü kişi görünüyor. Bunu açıklar mısınız?"
-  },
-  {
-   "key": "case002.kerem_follow.approach.answer",
-   "value": "Yaklaştım. Adam yerdeydi, bakayım dedim. Kapı açıktı. Beş dakika orada kaldım, sonra döndüm."
-  },
-  {
-   "key": "case002.kerem_follow.bag.question",
-   "value": "Araçtaki çantaya dokundunuz mu?"
-  },
-  {
-   "key": "case002.kerem_follow.bag.answer",
-   "value": "Kapağını kaldırdım. İçinde zarf vardı. Aldım. Adam yerdeydi, kimse görmedi diye düşündüm. Ertesi sabah bankamatiğe yatırdım."
-  },
-  {
-   "key": "case002.kerem_follow.amount.question",
-   "value": "Ne kadar aldınız?"
-  },
-  {
-   "key": "case002.kerem_follow.amount.answer",
-   "value": "Saymadım. Zarfın içindekini olduğu gibi yatırdım, iki yüz lirasını yanıma ayırdım."
-  },
-  {
-   "key": "case002.financial.title",
-   "value": "MALİ TESPİT VE TEMAS BULGUSU"
-  },
-  {
-   "key": "case002.financial.body",
-   "value": "22 Kasım 2026 sabahı 07.14’te, olay yerine 400 metre mesafedeki bankamatikten Kerem Şahin adına kayıtlı hesaba 7.800 TL nakit yatırıldı. İşlem, kart ve şifreyle yapıldı.\n\nAynı hesabın son altı aylık hareketlerinde tek seferde bu büyüklükte bir nakit girişi yok.\n\nAracın ön koltuğundaki omuz çantasının kapağı ve zarfın kalan parçası üzerinde alınan temas örneği, Kerem Şahin’den alınan karşılaştırma örneğiyle uyumlu bulundu. Temas bulgusu örneğin çantaya ne zaman bırakıldığını göstermez."
-  },
-  {
-   "key": "case002.request.financial",
-   "value": "Mali tespit ve temas incelemesi iste"
-  },
-  {
-   "key": "case002.verdict.emre",
-   "value": "Emre Koç"
-  },
-  {
-   "key": "case002.verdict.kerem",
-   "value": "Kerem Şahin"
-  },
-  {
-   "key": "case002.verdict.deniz",
-   "value": "Deniz Arslan"
-  },
-  {
-   "key": "case002.feedback.emre",
-   "value": "Yaralanma, tartışma sırasında Emre Koç’un itmesiyle oluşan düşmeden kaynaklandı."
-  },
-  {
-   "key": "case002.feedback.kerem",
-   "value": "Kerem Şahin olay yerine yaralanmadan sonra geldi; kayıt onu 23.34’te gösteriyor."
-  },
-  {
-   "key": "case002.feedback.deniz",
-   "value": "Deniz Arslan araçtan 23.03’te ayrıldı; yaralanma bundan sonra gerçekleşti."
-  },
-  {
-   "key": "case002.method.push",
-   "value": "Tartışma sırasında itilme ve sert zemine düşme"
-  },
-  {
-   "key": "case002.method.punch",
-   "value": "Doğrudan yumruk darbesi"
-  },
-  {
-   "key": "case002.method.weapon",
-   "value": "Sert cisimle vurma"
-  },
-  {
-   "key": "case002.method.fall",
-   "value": "Kendiliğinden düşme"
-  },
-  {
-   "key": "case002.custody.label",
-   "value": "8.000 TL’yi kim aldı?"
-  },
-  {
-   "key": "case002.custody.kerem",
-   "value": "Kerem Şahin"
-  },
-  {
-   "key": "case002.custody.emre",
-   "value": "Emre Koç"
-  },
-  {
-   "key": "case002.custody.deniz",
-   "value": "Deniz Arslan"
-  },
-  {
-   "key": "case002.evidence.report",
-   "value": "Olay tespit tutanağı"
-  },
-  {
-   "key": "case002.evidence.camera",
-   "value": "KAMERA 04 kayıt dökümü"
-  },
-  {
-   "key": "case002.evidence.scene",
-   "value": "Olay yeri ek inceleme raporu"
-  },
-  {
-   "key": "case002.evidence.medical",
-   "value": "Adli muayene ön raporu"
-  },
-  {
-   "key": "case002.evidence.financial",
-   "value": "Mali tespit ve temas bulgusu"
-  },
-  {
-   "key": "case002.summary.location",
-   "value": "Beşiktaş, sahil yolu ara sokağı — 21 Kasım 2026"
-  },
-  {
-   "key": "case002.summary.truth",
-   "value": "Deniz Arslan ücret tartışmasının ardından 23.03’te araçtan indi ve olaydan önce uzaklaştı. Emre Koç 23.18’de kayıtlı olmayan bir borcu ödemek için geldi; tartışma büyüyünce Selçuk Yalın’ı itti, Yalın bordüre çarparak yaralandı ve Koç 23.31’de parayı bırakarak ayrıldı. Kerem Şahin 23.34’te araca yaklaştı, açık çantadaki zarfı aldı ve 23.39’da uzaklaştı; parayı ertesi sabah kendi hesabına yatırdı. Selçuk Yalın ilk iki ifadesinde borcu ve parayı sakladı."
-  },
-  {
-   "key": "case002.summary.evidence",
-   "value": "Kayıt dökümü üç ayrı kişinin sokağa geliş ve ayrılış saatlerini ayırıyor; adli muayene yaralanmayı sert yüzeye çarpma ile bağdaştırıyor; araçtaki not borcu, mali tespit ile temas bulgusu ise parayı alan kişiyi gösteriyor."
-  },
-  {
-   "key": "case002.summary.lesson",
-   "value": "Tek bir olayda iki ayrı eylem ve iki ayrı sorumluluk bulunabilir. Mağdurun bir şeyi saklaması onu fail yapmaz; olay yerinde bulunmak da tek başına her eylemin sorumlusu olmak anlamına gelmez."
-  },
-  {
-   "key": "case002.title",
-   "value": "Dosya #002 — Son Sefer"
+   "key": "case002.cctv.source",
+   "value": "Büfe kamerası — KAMERA 04"
   },
   {
    "key": "case002.clue.deniz_leave",
@@ -669,8 +93,552 @@
    "value": "Üçüncü kişi araçtan ayrılıyor"
   },
   {
+   "key": "case002.custody.deniz",
+   "value": "Deniz Arslan"
+  },
+  {
+   "key": "case002.custody.emre",
+   "value": "Emre Koç"
+  },
+  {
+   "key": "case002.custody.kerem",
+   "value": "Kerem Şahin"
+  },
+  {
+   "key": "case002.custody.label",
+   "value": "8.000 TL’yi kim aldı?"
+  },
+  {
+   "key": "case002.deniz.after.answer",
+   "value": "Sokak boştu. Ben yukarı doğru yürürken şoför araçta kaldı. Arkama bakmadım."
+  },
+  {
+   "key": "case002.deniz.after.question",
+   "value": "İndikten sonra sokakta kimi gördünüz?"
+  },
+  {
+   "key": "case002.deniz.body",
+   "value": "Sefer kaydında görünen son yolcunun ifadesi."
+  },
+  {
+   "key": "case002.deniz.camera.answer",
+   "value": "Köşedeki büfenin kapısında bir kamera var, sokağa dönük. Ben inerken ışığı yanıyordu."
+  },
+  {
+   "key": "case002.deniz.camera.question",
+   "value": "Sokakta kayıt tutan bir yer var mı?"
+  },
+  {
+   "key": "case002.deniz.deflect",
+   "value": "Bunu bilmiyorum."
+  },
+  {
+   "key": "case002.deniz.dispute.answer",
+   "value": "Ücret yüksek geldi, itiraz ettim. Sesimizi yükselttik. Elimi kolumu salladığımı kabul ediyorum, ama ona dokunmadım."
+  },
+  {
+   "key": "case002.deniz.dispute.question",
+   "value": "Şoförle aranızda ne konuşuldu?"
+  },
+  {
+   "key": "case002.deniz.leave.answer",
+   "value": "Telefonumdaki saate baktım, on biri üç geçiyordu. İndim, sokağın üst ucundan yürüdüm, otobüse bindim."
+  },
+  {
+   "key": "case002.deniz.leave.question",
+   "value": "Araçtan kaçta indiniz?"
+  },
+  {
+   "key": "case002.deniz.quote",
+   "value": "“Ücret yüzünden tartıştık, indim. Hepsi bu.”"
+  },
+  {
+   "key": "case002.deniz.title",
+   "value": "Deniz Arslan — görüşme"
+  },
+  {
+   "key": "case002.deniz.trip.answer",
+   "value": "Ortaköy’den bindim. Eve gidiyordum. Sahil yolundan sapınca sokağa girdi, orada durduk."
+  },
+  {
+   "key": "case002.deniz.trip.question",
+   "value": "O gece o taksiye nerede bindiniz?"
+  },
+  {
+   "key": "case002.emre.body",
+   "value": "Araçta bulunan notta adı geçen kişinin ifadesi."
+  },
+  {
+   "key": "case002.emre.debt.answer",
+   "value": "İki yıl önce araç işi için elden aldım. Kayda geçen bir şey değil. Ödeme geciktikçe aramız gerildi."
+  },
+  {
+   "key": "case002.emre.debt.question",
+   "value": "Bu borç nereden geliyor?"
+  },
+  {
+   "key": "case002.emre.deflect",
+   "value": "Bu konuya girmek istemiyorum."
+  },
+  {
+   "key": "case002.emre.leave.answer",
+   "value": "Yarımı geçiyordu herhalde. Saate bakmadım. Yürüyerek üst caddeye çıktım."
+  },
+  {
+   "key": "case002.emre.leave.question",
+   "value": "Sokaktan kaçta ayrıldınız?"
+  },
+  {
+   "key": "case002.emre.meeting.answer",
+   "value": "Buluştum. Sokağa gittim, konuştuk. Sesler yükseldi. Sonra ben oradan ayrıldım, o ayaktaydı."
+  },
+  {
+   "key": "case002.emre.meeting.question",
+   "value": "O gece Selçuk Yalın’la buluştunuz mu?"
+  },
+  {
+   "key": "case002.emre.money.answer",
+   "value": "Vermek için gittim. Tartışma büyüyünce parayı çıkardım mı çıkarmadım mı, orasını karıştırıyorum. Cebimde geri götürmedim, o kadarını biliyorum."
+  },
+  {
+   "key": "case002.emre.money.question",
+   "value": "Parayı ona verdiniz mi?"
+  },
+  {
+   "key": "case002.emre.note.answer",
+   "value": "Selçuk’a borcum vardı. Sekiz bin lira. Yazılı bir şey yoktu, kendi arasında tutmuş olmalı. O gece götürüyordum."
+  },
+  {
+   "key": "case002.emre.note.question",
+   "value": "Bu not sizin adınızı taşıyor. Açıklar mısınız?"
+  },
+  {
+   "key": "case002.emre.quote",
+   "value": "“Borcumu ödemeye gittim. Gerisini bilmiyorum.”"
+  },
+  {
+   "key": "case002.emre.title",
+   "value": "Emre Koç — görüşme"
+  },
+  {
+   "key": "case002.emre_follow.after.answer",
+   "value": "Köşedeki büfenin önünde bir genç duruyordu. Bana baktı. Hepsi bu."
+  },
+  {
+   "key": "case002.emre_follow.after.question",
+   "value": "Sokaktan çıkarken kimseyi gördünüz mü?"
+  },
+  {
+   "key": "case002.emre_follow.body",
+   "value": "Muayene raporu geldikten sonra yapılan ikinci görüşme."
+  },
+  {
+   "key": "case002.emre_follow.money.answer",
+   "value": "Hayır. Zarf elimden düştü, araca doğru attım diyebilirim. Parayla gitmedim. İsterseniz üstümü arayın, o geceden sonra hesabımda kuruş girmedi."
+  },
+  {
+   "key": "case002.emre_follow.money.question",
+   "value": "Ayrılırken para sizde miydi?"
+  },
+  {
+   "key": "case002.emre_follow.push.answer",
+   "value": "İttim. Üstüme geldi, ben de kolundan tuttum ve ittim. Geri gitti, arkadaki bordüre çarptı. Bağırdım, kalkmadı. Korktum ve yürüdüm."
+  },
+  {
+   "key": "case002.emre_follow.push.question",
+   "value": "Rapor, başın sert bir yüzeye çarptığını söylüyor. Ne oldu?"
+  },
+  {
+   "key": "case002.emre_follow.title",
+   "value": "Emre Koç — ikinci görüşme"
+  },
+  {
+   "key": "case002.evidence.camera",
+   "value": "KAMERA 04 kayıt dökümü"
+  },
+  {
+   "key": "case002.evidence.financial",
+   "value": "Mali tespit ve temas bulgusu"
+  },
+  {
+   "key": "case002.evidence.medical",
+   "value": "Adli muayene ön raporu"
+  },
+  {
+   "key": "case002.evidence.report",
+   "value": "Olay tespit tutanağı"
+  },
+  {
+   "key": "case002.evidence.scene",
+   "value": "Olay yeri ek inceleme raporu"
+  },
+  {
+   "key": "case002.feedback.deniz",
+   "value": "Deniz Arslan araçtan 23.03’te ayrıldı; yaralanma bundan sonra gerçekleşti."
+  },
+  {
+   "key": "case002.feedback.emre",
+   "value": "Yaralanma, tartışma sırasında Emre Koç’un itmesiyle oluşan düşmeden kaynaklandı."
+  },
+  {
+   "key": "case002.feedback.kerem",
+   "value": "Kerem Şahin olay yerine yaralanmadan sonra geldi; kayıt onu 23.34’te gösteriyor."
+  },
+  {
+   "key": "case002.file.value.bureau",
+   "value": "BPS Asayiş Masası"
+  },
+  {
+   "key": "case002.file.value.location",
+   "value": "Beşiktaş, sahil yolu ara sokağı"
+  },
+  {
+   "key": "case002.file.value.number",
+   "value": "BPS-2026-0214"
+  },
+  {
+   "key": "case002.file.value.offence",
+   "value": "Yağma ve yaralama iddiası"
+  },
+  {
+   "key": "case002.file.value.reporter",
+   "value": "Gece devriyesi, 23.46 çağrısı"
+  },
+  {
+   "key": "case002.financial.body",
+   "value": "22 Kasım 2026 sabahı 07.14’te, olay yerine 400 metre mesafedeki bankamatikten Kerem Şahin adına kayıtlı hesaba 7.800 TL nakit yatırıldı. İşlem, kart ve şifreyle yapıldı.\n\nAynı hesabın son altı aylık hareketlerinde tek seferde bu büyüklükte bir nakit girişi yok.\n\nAracın ön koltuğundaki omuz çantasının kapağı ve zarfın kalan parçası üzerinde alınan temas örneği, Kerem Şahin’den alınan karşılaştırma örneğiyle uyumlu bulundu. Temas bulgusu örneğin çantaya ne zaman bırakıldığını göstermez."
+  },
+  {
+   "key": "case002.financial.title",
+   "value": "MALİ TESPİT VE TEMAS BULGUSU"
+  },
+  {
+   "key": "case002.kerem.body",
+   "value": "Sokağın köşesindeki büfede vardiyada olan kişinin ifadesi."
+  },
+  {
+   "key": "case002.kerem.deflect",
+   "value": "Hatırlamıyorum."
+  },
+  {
+   "key": "case002.kerem.help.answer",
+   "value": "Bulaşmak istemedim. Burada her gece bir şey oluyor. Dükkânı da açık bırakamam."
+  },
+  {
+   "key": "case002.kerem.help.question",
+   "value": "Neden yardıma gitmediniz?"
+  },
+  {
+   "key": "case002.kerem.night.answer",
+   "value": "Evet, on ikiye kadar büfedeydim. Sokakta bağırış oldu, dışarı çıktım."
+  },
+  {
+   "key": "case002.kerem.night.question",
+   "value": "O gece vardiyada mıydınız?"
+  },
+  {
+   "key": "case002.kerem.quote",
+   "value": "“Uzaktan baktım, karışmadım.”"
+  },
+  {
+   "key": "case002.kerem.title",
+   "value": "Kerem Şahin — görüşme"
+  },
+  {
+   "key": "case002.kerem.watch.answer",
+   "value": "İki kişi tartışıyordu. Biri yürüyüp gitti. Öbürü yerde kaldı. Ben büfenin önünden baktım, yaklaşmadım. Sonra ekip geldi."
+  },
+  {
+   "key": "case002.kerem.watch.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case002.kerem_follow.amount.answer",
+   "value": "Saymadım. Zarfın içindekini olduğu gibi yatırdım, iki yüz lirasını yanıma ayırdım."
+  },
+  {
+   "key": "case002.kerem_follow.amount.question",
+   "value": "Ne kadar aldınız?"
+  },
+  {
+   "key": "case002.kerem_follow.approach.answer",
+   "value": "Yaklaştım. Adam yerdeydi, bakayım dedim. Kapı açıktı. Beş dakika orada kaldım, sonra döndüm."
+  },
+  {
+   "key": "case002.kerem_follow.approach.question",
+   "value": "Kayıtta araca yaklaşan üçüncü kişi görünüyor. Bunu açıklar mısınız?"
+  },
+  {
+   "key": "case002.kerem_follow.bag.answer",
+   "value": "Kapağını kaldırdım. İçinde zarf vardı. Aldım. Adam yerdeydi, kimse görmedi diye düşündüm. Ertesi sabah bankamatiğe yatırdım."
+  },
+  {
+   "key": "case002.kerem_follow.bag.question",
+   "value": "Araçtaki çantaya dokundunuz mu?"
+  },
+  {
+   "key": "case002.kerem_follow.body",
+   "value": "Kayıt dökümü ve mağdurun üçüncü ifadesinden sonra yapılan görüşme."
+  },
+  {
+   "key": "case002.kerem_follow.title",
+   "value": "Kerem Şahin — ikinci görüşme"
+  },
+  {
+   "key": "case002.medical.body",
+   "value": "Muayene edilen kişi: Selçuk Yalın (42).\n\nBaşın sol arka bölgesinde tek odaklı künt yaralanma. Yaralanmanın biçimi, sert ve düz bir yüzeye çarpma ile uyumludur; yumruk benzeri doğrudan darbe için beklenen dağınık doku bulgusu yoktur.\n\nSol ön kolda yüzeysel kavrama izleri. İzler, kolun dışarıdan tutulmasıyla uyumludur.\n\nBu bulgular tek başına olayın nasıl geliştiğini göstermez; düşmenin kendiliğinden mi yoksa bir itme sonucunda mı olduğu muayene ile ayırt edilemez."
+  },
+  {
+   "key": "case002.medical.title",
+   "value": "ADLİ MUAYENE ÖN RAPORU"
+  },
+  {
+   "key": "case002.method.fall",
+   "value": "Kendiliğinden düşme"
+  },
+  {
+   "key": "case002.method.punch",
+   "value": "Doğrudan yumruk darbesi"
+  },
+  {
+   "key": "case002.method.push",
+   "value": "Tartışma sırasında itilme ve sert zemine düşme"
+  },
+  {
+   "key": "case002.method.weapon",
+   "value": "Sert cisimle vurma"
+  },
+  {
+   "key": "case002.offer.subtitle",
+   "value": "SON SEFER  /  YAĞMA-GASP – YARALAMA"
+  },
+  {
+   "key": "case002.offer.summary",
+   "value": "Beşiktaş'ta gece yarısına doğru bir ticari taksi sürücüsü yaralı bulunuyor; aracın açık çantasındaki 8.000 TL kayıp. Sürücü ifade veriyor, ilk rapor masanızda."
+  },
+  {
+   "key": "case002.offer.title",
+   "value": "DOSYA #002"
+  },
+  {
+   "key": "case002.person.deniz.info",
+   "value": "24 yaşında, öğrenci. Aracın o geceki son kayıtlı yolcusu."
+  },
+  {
+   "key": "case002.person.deniz.name",
+   "value": "Deniz Arslan"
+  },
+  {
+   "key": "case002.person.emre.info",
+   "value": "34 yaşında, nakliye işinde çalışıyor. Selçuk Yalın’la eski tanışıklığı var."
+  },
+  {
+   "key": "case002.person.emre.name",
+   "value": "Emre Koç"
+  },
+  {
+   "key": "case002.person.kerem.info",
+   "value": "29 yaşında, köşedeki büfede çalışıyor. Olay gecesi vardiyadaydı."
+  },
+  {
+   "key": "case002.person.kerem.name",
+   "value": "Kerem Şahin"
+  },
+  {
+   "key": "case002.person.selcuk.info",
+   "value": "42 yaşında, ticari taksi şoförü. Olayda yaralanan kişi."
+  },
+  {
+   "key": "case002.person.selcuk.name",
+   "value": "Selçuk Yalın"
+  },
+  {
+   "key": "case002.report.body",
+   "value": "21 Kasım 2026 gecesi saat 23.46’da Beşiktaş’ta, sahil yolundan ayrılan ara sokakta yere düşmüş bir kişi bulundu. Kişi, ticari taksi şoförü Selçuk Yalın (42) olarak tespit edildi; başının sol arka bölgesinde yaralanma var, bilinci açık. Aracı olay yerinden yaklaşık 31 metre ötede, kapıları kapalı ama kilitsiz halde bulundu.\n\nYalın’ın üzerinde cep telefonu ve kol saati duruyor. Aracın ön koltuğundaki açık omuz çantasında nakit bulunamadı. Yalın ilk beyanında çantada yaklaşık 8.000 TL bulunduğunu, paranın gün içindeki taksi kazancı olduğunu söyledi.\n\nSokakta olayı gördüğünü beyan eden tanık yok. Sokağın iki ucunda işyeri kameraları bulunduğu görüldü."
+  },
+  {
+   "key": "case002.report.imageCaption",
+   "value": "Olay yeri: sokağın sahil yoluna açılan ucu, 22 Kasım 02.10."
+  },
+  {
+   "key": "case002.report.title",
+   "value": "OLAY TESPİT TUTANAĞI"
+  },
+  {
+   "key": "case002.request.financial",
+   "value": "Mali tespit ve temas incelemesi iste"
+  },
+  {
+   "key": "case002.request.medical",
+   "value": "Adli muayene ön raporunu iste"
+  },
+  {
+   "key": "case002.request.scene",
+   "value": "Araçta ek inceleme iste"
+  },
+  {
+   "key": "case002.scene.body",
+   "value": "Aracın ikinci incelemesinde ön koltuk ile vites konsolu arasında buruşturulmuş bir kâğıt parçası bulundu. Kâğıdın üzerinde elle yazılmış şu ifade var:\n\nEMRE K. / 8.000 / 21/11\n\nKâğıt, aracın ruhsat kabında duran not defteriyle aynı türde. Yazının kime ait olduğu tespit edilemedi.\n\nAracın ön koltuğundaki omuz çantasının ağzı açık; çanta içinde bozuk para ve fatura bulundu, kâğıt para yok. Yerdeki kan izi, gövdenin bulunduğu yerle uyumlu; sürüklenme izi yok."
+  },
+  {
+   "key": "case002.scene.title",
+   "value": "OLAY YERİ EK İNCELEME RAPORU"
+  },
+  {
+   "key": "case002.selcuk.attacker.answer",
+   "value": "Hayır. Arkamdaydı, yüzünü görmedim. Semtte kimseyle bir sorunum yok."
+  },
+  {
+   "key": "case002.selcuk.attacker.question",
+   "value": "Size vuran kişiyi tanıyor musunuz?"
+  },
+  {
+   "key": "case002.selcuk.belongings.answer",
+   "value": "Evet, ikisi de duruyordu. Ben de ona şaşırdım. Alan kişi sadece çantaya bakmış."
+  },
+  {
+   "key": "case002.selcuk.belongings.question",
+   "value": "Telefonunuz ve saatiniz üzerinizdeydi, değil mi?"
+  },
+  {
+   "key": "case002.selcuk.body",
+   "value": "Olayda yaralanan taksi şoförünün hastane çıkışında alınan ilk ifadesi."
+  },
+  {
+   "key": "case002.selcuk.deflect",
+   "value": "Bunu şimdi konuşmak istemiyorum."
+  },
+  {
+   "key": "case002.selcuk.money.answer",
+   "value": "Çantada sekiz bin lira kadar vardı. Gün boyu çalıştım, kartla ödemeyenler oldu. Gece bankaya gidecektim, gidemedim."
+  },
+  {
+   "key": "case002.selcuk.money.question",
+   "value": "Araçta ne kadar para vardı?"
+  },
+  {
+   "key": "case002.selcuk.night.answer",
+   "value": "Sahil yolundan çıkıp ara sokağa girdim, molaya duracaktım. Araçtan indim, sigara yaktım. Arkamda bir hareket oldu, sonra yere düştüm. Kalkmaya çalıştığımı hatırlıyorum, sonrası karışık."
+  },
+  {
+   "key": "case002.selcuk.night.question",
+   "value": "O gece sokakta ne oldu?"
+  },
+  {
+   "key": "case002.selcuk.passenger.answer",
+   "value": "Bir öğrenci vardı, Ortaköy’den bindi. Ücret konusunda tartıştık, indi gitti. Sefer kaydı telsiz merkezinde durur, adını oradan bulabilirsiniz."
+  },
+  {
+   "key": "case002.selcuk.passenger.question",
+   "value": "O geceki son yolcunuz kimdi?"
+  },
+  {
+   "key": "case002.selcuk.quote",
+   "value": "“Arkadan bir darbe hissettim, sonrasını hatırlamıyorum.”"
+  },
+  {
+   "key": "case002.selcuk.taxi.answer",
+   "value": "Sokağın girişine bırakmıştım, ben biraz yürümüştüm. Kapıyı kilitlemedim, iki dakika sürecek sanıyordum."
+  },
+  {
+   "key": "case002.selcuk.taxi.question",
+   "value": "Araç neden sizden otuz metre ötedeydi?"
+  },
+  {
+   "key": "case002.selcuk.title",
+   "value": "Selçuk Yalın — ilk görüşme"
+  },
+  {
+   "key": "case002.selcuk_follow.bag.answer",
+   "value": "Açık olabilir. Para orada duruyordu. Araca tekrar bakıldı mı, bilmiyorum; belki içeride bir şey kalmıştır."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.question",
+   "value": "Çanta ön koltukta açık mıydı?"
+  },
+  {
+   "key": "case002.selcuk_follow.body",
+   "value": "Kayıt dökümü alındıktan sonra yapılan ikinci görüşme."
+  },
+  {
+   "key": "case002.selcuk_follow.time.answer",
+   "value": "On dakika ya var ya yok. Mola veriyordum. Arabanın içini toplamıştım, çanta ön koltuktaydı."
+  },
+  {
+   "key": "case002.selcuk_follow.time.question",
+   "value": "Yolcu indikten sonra sokakta ne kadar kaldınız?"
+  },
+  {
+   "key": "case002.selcuk_follow.title",
+   "value": "Selçuk Yalın — ikinci görüşme"
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.answer",
+   "value": "Birinin yaklaştığını hatırlamıyorum. Yolcu indikten sonra araçta oturuyordum, sonra indim. Kayıtta ne görüyorsanız görün, ben bir tanıdık görmedim."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.question",
+   "value": "Araç yanında sizinle duran kişi kimdi?"
+  },
+  {
+   "key": "case002.selcuk_third.body",
+   "value": "Emre Koç’un ikinci ifadesinden sonra yapılan görüşme."
+  },
+  {
+   "key": "case002.selcuk_third.emre.answer",
+   "value": "Tanıyorum. Borcu vardı, ondan geliyordu. Bunu en başta söylemedim, çünkü o para kayıtlı bir para değil. İşimi kaybetmekten korktum."
+  },
+  {
+   "key": "case002.selcuk_third.emre.question",
+   "value": "Emre Koç sizi ittiğini söylüyor. Bu kişiyi tanıyor musunuz?"
+  },
+  {
+   "key": "case002.selcuk_third.kid.answer",
+   "value": "Gözüm açıktı ama kalkamıyordum. Biri aracın kapısına eğildi. Büfedeki çocuğa benziyordu, o saatte hep orada olur."
+  },
+  {
+   "key": "case002.selcuk_third.kid.question",
+   "value": "Yerdeyken çevrede kimi fark ettiniz?"
+  },
+  {
+   "key": "case002.selcuk_third.money.answer",
+   "value": "Hayır. Emre’nin getirdiği paraydı. Zarfı araca attı, ben de çantaya koydum. Sonrasında tartışma büyüdü."
+  },
+  {
+   "key": "case002.selcuk_third.money.question",
+   "value": "Çantadaki para taksi kazancı mıydı?"
+  },
+  {
+   "key": "case002.selcuk_third.title",
+   "value": "Selçuk Yalın — üçüncü görüşme"
+  },
+  {
+   "key": "case002.summary.evidence",
+   "value": "Kayıt dökümü üç ayrı kişinin sokağa geliş ve ayrılış saatlerini ayırıyor; adli muayene yaralanmayı sert yüzeye çarpma ile bağdaştırıyor; araçtaki not borcu, mali tespit ile temas bulgusu ise parayı alan kişiyi gösteriyor."
+  },
+  {
+   "key": "case002.summary.lesson",
+   "value": "Tek bir olayda iki ayrı eylem ve iki ayrı sorumluluk bulunabilir. Mağdurun bir şeyi saklaması onu fail yapmaz; olay yerinde bulunmak da tek başına her eylemin sorumlusu olmak anlamına gelmez."
+  },
+  {
+   "key": "case002.summary.location",
+   "value": "Beşiktaş, sahil yolu ara sokağı — 21 Kasım 2026"
+  },
+  {
+   "key": "case002.summary.truth",
+   "value": "Deniz Arslan ücret tartışmasının ardından 23.03’te araçtan indi ve olaydan önce uzaklaştı. Emre Koç 23.18’de kayıtlı olmayan bir borcu ödemek için geldi; tartışma büyüyünce Selçuk Yalın’ı itti, Yalın bordüre çarparak yaralandı ve Koç 23.31’de parayı bırakarak ayrıldı. Kerem Şahin 23.34’te araca yaklaştı, açık çantadaki zarfı aldı ve 23.39’da uzaklaştı; parayı ertesi sabah kendi hesabına yatırdı. Selçuk Yalın ilk iki ifadesinde borcu ve parayı sakladı."
+  },
+  {
+   "key": "case002.time.contact",
+   "value": "23.20"
+  },
+  {
    "key": "case002.time.deniz_leave",
    "value": "23.03 civarı"
+  },
+  {
+   "key": "case002.time.dispute",
+   "value": "23.02"
   },
   {
    "key": "case002.time.emre_arrive",
@@ -679,6 +647,50 @@
   {
    "key": "case002.time.kerem_watch",
    "value": "23.35 civarı"
+  },
+  {
+   "key": "case002.time.park",
+   "value": "22.58"
+  },
+  {
+   "key": "case002.time.passenger_out",
+   "value": "23.03"
+  },
+  {
+   "key": "case002.time.patrol",
+   "value": "23.46"
+  },
+  {
+   "key": "case002.time.second_in",
+   "value": "23.18"
+  },
+  {
+   "key": "case002.time.second_out",
+   "value": "23.31"
+  },
+  {
+   "key": "case002.time.third_in",
+   "value": "23.34"
+  },
+  {
+   "key": "case002.time.third_out",
+   "value": "23.39"
+  },
+  {
+   "key": "case002.title",
+   "value": "Dosya #002 — Son Sefer"
+  },
+  {
+   "key": "case002.verdict.deniz",
+   "value": "Deniz Arslan"
+  },
+  {
+   "key": "case002.verdict.emre",
+   "value": "Emre Koç"
+  },
+  {
+   "key": "case002.verdict.kerem",
+   "value": "Kerem Şahin"
   }
  ]
 }

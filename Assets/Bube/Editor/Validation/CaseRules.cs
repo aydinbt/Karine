@@ -24,6 +24,14 @@ public static class CaseRules {
   report.Require(data.failedReportTrustLoss >= 0 && data.successfulReportTrustGain >= 0,
    "Kariyer etkisi negatif olamaz.");
 
+  // Gelen evrak tepsisindeki teklif metni vakaya özeldir. Anahtar yoksa oyun
+  // genel yedeğe düşer; o yedek bir zamanlar Dosya #001'i anlatıyordu, yani
+  // ikinci vakayı kabul eden oyuncu birincinin özetini okuyordu. Artık her
+  // vaka kendi teklif metnini yazmak zorunda.
+  foreach (var suffix in new[] { "offer.title", "offer.subtitle", "offer.summary" })
+   report.Require(!MissingText(locale, data.id + "." + suffix),
+    "Vakanın teklif metni eksik: " + data.id + "." + suffix);
+
   // Vaka kendi ortam sesini söyleyebilir; söylediyse dosyası olmalı. Eksik
   // klip sessiz geçtiği için yazım hatası başka hiçbir yerde duyulmaz.
   if (!string.IsNullOrEmpty(data.ambienceId))

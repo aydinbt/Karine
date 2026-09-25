@@ -674,3 +674,10 @@ GEÇ düğmesi varış filmiyle aynı köşede durur. Video yoksa özet doğruda
 PlayMode testleri gerçek kayıt klasörüne yazıyordu; bir koşu vakayı kabul
 edilmiş duruma getirip dosya bırakılış anını yutabiliyordu. Kayıtlar artık
 `SaveSandbox` ile testten önce kenara alınıp sonra geri konuyor.
+
+## 26 Eylül 2026 — Her vaka kendi teklif metnini yazar
+
+Gelen evrak tepsisindeki teklif, anahtar yoksa genel yedeğe düşüyordu ve o
+yedek Dosya #001'i anlatıyordu: ikinci vakayı kabul eden oyuncu birincinin
+adını ve özetini okuyordu. `case002.offer.*` yazıldı, genel yedek nötrleşti ve
+doğrulayıcı artık her vakadan kendi teklif metnini istiyor.
