@@ -564,3 +564,15 @@ Sekiz klip yer tutucu değil; her biri bir karar. Referans dünya 90'lar sonu bi
 **Karakterler konuşuyor.** Görüşmede cümle yazılırken artık daktilo değil sesin **gövdesi** duyuluyor: iki formant, yuvarlak açılış, çok alçak, altı karakterde bir. Kelime yok — kelime olsa Türkçe metnin üstüne yabancı bir dil binerdi ve her cümle için ayrı kayıt gerekirdi. Perde kişinin kimliğinden türüyor, yani üç kişi üç ses oluyor ve aynı kişi her zaman aynı perdeyle konuşuyor; her vuruşta perde biraz oynuyor, yoksa insan değil makine duyulur. Vaka verisine yeni alan eklemek gerekmedi.
 
 **`ui_page` kullanılıyor, ama az görünüyordu:** kâğıt düğmesindeydi. Artık evrak gezintisinin okları da onu çalıyor — sayfa çevirmenin sesi kâğıttır, düğme değil.
+
+## Kâğıt koyulaştı, ses formanta geçti (25 Eylül 2026, aynı gün)
+
+**Kullanıcı:** "Dosyayı açtığım zaman kişi ifadeleri, kanıtlar, zaman çizelgesine tıkladığımda daktilo galiba aktif oluyor, onun değişmesi gerekiyor. Görüşmede kişilerin voice_mumble çok kötü, daha gerçekçi bir insan ses tonu yapılabilir."
+
+**Dosya sekmelerindeki ses daktilo değildi, `ui_page`'di** — ama teşhis yine sonucu buldu: sesin yüksek bandı fazla, açılışı fazla keskindi, yani kâğıdın sürtünmesi değil tıkı duyuluyordu. Kâğıt koyulaştı ve yayvanlaştı: bant merkezleri aşağı indi, her sürtünmenin açılışı yumuşadı, tepe 0,30'a düştü. Kavramsal eşleme doğruydu (dosya sekmesi kâğıttır, düğme değil), düzeltilen ses.
+
+**Konuşma sinüs yığını olmaktan çıkıp formant sentezine geçti.** Bir sesin insan gibi duyulmasını üç şey sağlıyor: harmonik açısından zengin bir kaynak (testere dalgası gırtlak darbesine yakındır), yüksek Q'lu üç formant yankılayıcı (sesli harfin kimliği formant tepeleridir) ve hecenin sonuna doğru düşen perde ile küçük bir titreme — sabit perde insan değil zil olur. Az nefes gürültüsü var, çünkü kuru kaynak plastik durur.
+
+**Tek hece de yetmiyordu:** aynı klip tekrar ederse konuşma değil sinyal olur. Artık üç sesli harf var (`voice_a`, `voice_e`, `voice_o`) ve karışık sırayla çalıyor; her vuruşta hece, perde ve ağırlık biraz oynuyor. Kelime hâlâ yok ve olmayacak: kelime, Türkçe metnin üstüne yabancı bir dil bindirir ve her cümle için ayrı kayıt ister.
+
+Ölçüm de büyüdü: `check-audio.py` artık formant tepesi arıyor — F1/F2 çevresindeki güç, formant aralarındaki frekanstan en az 6 dB yüksek olmalı. Üç sesli harf +11,9 / +18,5 / +29,7 dB ile geçiyor. **Yine kulakla dinlenmedi.**

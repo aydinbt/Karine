@@ -64,7 +64,7 @@ public sealed partial class BubeApp {
   // Karşındaki konuşuyor: daktilo değil **ses**. Kelime yok (kelime olursa
   // Türkçe metnin üstüne yabancı bir dil biner), yalnız sesin gövdesi; perde
   // kişiden gelir, yani üç kişi üç ses olur.
-  if(phase==2)Typewriter(speech,spoken,AudioDirector.Voice,
+  if(phase==2)Typewriter(speech,spoken,AudioDirector.Voices,
    AudioDirector.VoicePitch(node.personId),0.7f,6);
   // Dedektifin gördüğü davranış — yorum değil, gözlem. Yalan ya da çelişki
   // etiketi değildir; anlamını oyuncu kurar. Metni olmayan yanıtta satır yoktur.

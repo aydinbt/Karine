@@ -22,7 +22,9 @@ public sealed class AudioDirector : MonoBehaviour {
  public const string Typewriter   = "ui_typewriter";
  public const string Stamp        = "ui_stamp";
  public const string Notification = "ui_notification";
- public const string Voice        = "voice_mumble";
+ // Konuşma tek klip değil üç sesli harf: tek hece tekrar ederse konuşma değil
+ // sinyal olur.
+ public static readonly string[] Voices = { "voice_a", "voice_e", "voice_o" };
 
  AudioSource music, ambience, effects;
  readonly Dictionary<string, AudioClip> cache = new Dictionary<string, AudioClip>();

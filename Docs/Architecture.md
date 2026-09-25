@@ -175,7 +175,7 @@ Düğme sesi ekranların içine yazılmaz: `KarineUI.Sounded` kit düğmesinin k
 
 ### Ses varlıkları sentezlenir
 
-Dokuz klip `Assets/Bube/Resources/Bube/Audio/` altında (mono, 44.1 kHz, 16 bit WAV, Git LFS). **Kayıt değil, üretim:** `Tools/make-audio.py` hepsini sıfırdan sentezler (saf Python, harici bağımlılık yok — numpy ve ffmpeg gerekmiyor) ve `Tools/check-audio.py` ölçer.
+On bir klip `Assets/Bube/Resources/Bube/Audio/` altında (mono, 44.1 kHz, 16 bit WAV, Git LFS). **Kayıt değil, üretim:** `Tools/make-audio.py` hepsini sıfırdan sentezler (saf Python, harici bağımlılık yok — numpy ve ffmpeg gerekmiyor) ve `Tools/check-audio.py` ölçer.
 
 ```bash
 python3 Tools/make-audio.py     # üretir
@@ -187,12 +187,12 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 | dosya | ne | içe aktarım |
 |---|---|---|
 | `ui_press` | yumuşak düğme: üstü kapalı, yuvarlak, alçak "tup" | ADPCM, belleğe açılır |
-| `ui_page` | kâğıt: üç düzensiz sürtünme (tek patlama "ıss" olur) | ADPCM |
+| `ui_page` | kâğıt: üç düzensiz **sürtünme**, koyu ve yayvan | ADPCM |
 | `ui_typewriter` | daktilo tuşu — **yalnız faks basılırken** | ADPCM |
 | `ui_stamp` | mühürün lastiği: tok, tek, kesin | ADPCM |
 | `ui_notification` | faksın küçük zili: anharmonik kısmiler + mekanizma tıkı | ADPCM |
 | `menu_theme` | 32 s neo-noir döngü, Am–F–Dm–E | Vorbis, akış |
-| `voice_mumble` | konuşmanın gövdesi; perde kişiden gelir | ADPCM |
+| `voice_a` `voice_e` `voice_o` | üç sesli harf: gırtlak kaynağı + üç formant | ADPCM |
 | `room_office` | 24 s döngü: kapalı bir odanın sıcak havası | Vorbis, akış |
 | `room_interview` | 24 s döngü: aynısı ama daha kapalı, üst frekans yok | Vorbis, akış |
 
@@ -205,14 +205,16 @@ Bir tonu değiştirmek için yeni kayıt aranmaz; betikteki değer değişir ve 
 - `ui_press` her kit düğmesi (`KarineUI.Sounded`ın varsayılanı).
 - `ui_page` kâğıt düğmesi (`PaperButton`) ve evrak gezintisinin okları — sayfa çevirmenin sesi kâğıttır.
 - `ui_typewriter` yalnız faks basılırken (`FaxPage`'in değerlendirme satırı). Arayüz düğmelerinde hiç yoktu.
-- `voice_mumble` görüşmede karşıdakinin cümlesi yazılırken, altı karakterde bir. Kelime yok: kelime olsa Türkçe metnin üstüne yabancı bir dil binerdi. Perde `AudioDirector.VoicePitch(personId)` ile kimlikten türer — veri dosyasına alan eklemeden üç kişi üç ses olur, ve aynı kişi her zaman aynı perdeyle konuşur. Her vuruşta perde biraz oynar, yoksa insan değil makine duyulur.
+- `AudioDirector.Voices` (üç sesli harf) görüşmede karşıdakinin cümlesi yazılırken, altı karakterde bir, karışık sırayla. Kelime yok: kelime olsa Türkçe metnin üstüne yabancı bir dil binerdi. Perde `AudioDirector.VoicePitch(personId)` ile kimlikten türer — veri dosyasına alan eklemeden üç kişi üç ses olur, ve aynı kişi her zaman aynı perdeyle konuşur. Her vuruşta hece, perde ve ağırlık biraz oynar, yoksa insan değil makine duyulur.
+
+**Ses neden formant sentezi.** İlk sürüm sinüs yığınıydı ve sentezleyici gibi duyuluyordu. Gerçekçiliği üç şey veriyor: harmonik açısından zengin bir kaynak (testere dalgası, gırtlak darbesine yakın), yüksek Q'lu üç formant yankılayıcı (sesli harfin kimliği formant tepeleridir) ve hecenin sonuna doğru **düşen** perde ile küçük bir titreme — sabit perde insan değil zil olur. Az miktarda nefes gürültüsü katılır, çünkü kuru kaynak plastik durur. `check-audio.py` bunu ölçer: F1 ve F2 çevresindeki güç, formant aralarındaki frekanstan en az 6 dB yüksek olmalı. Perde kayması formantları da kaydırdığı için kişi başına perde, gerçekten farklı bir ses gibi durur.
 - `ui_stamp` mühür, `ui_notification` gelen evrak.
 
 `Typewriter(label, line, soundId, pitch, gain, every)` — metin harf harf yazılırken ne duyulacağı **satırın kime ait olduğuna** bağlıdır, o yüzden çağrı yerinden gelir.
 
 **Yumuşaklık bir karardır.** İlk sürüm mekanik ve gergindi (klavye tıkı, duvar saati, floresan uğultusu, tavan çınlaması) ve sesi açan oyuncuyu ürkütüyordu. İkinci sürümde tık yuvarlandı, saat ve uğultular tamamen kaldırıldı, odalar –26 dBFS'e indi. Odalar arasındaki fark artık ses değil **renk**: görüşme odasında üst frekans yok, yani duvarlar yakın.
 
-`ProjectRules` dokuz klibin varlığını kilitler ve `CaseRules` vakanın `ambienceId`si için dosya arar: `AudioDirector` eksik klibi sessiz geçtiği için bir sesin silinmesi ya da adının yanlış yazılması başka hiçbir yerde duyulmazdı. Kural, `ui_press.wav` geçici olarak kaldırılıp düşmesi görülerek doğrulandı.
+`ProjectRules` on bir klibin varlığını kilitler ve `CaseRules` vakanın `ambienceId`si için dosya arar: `AudioDirector` eksik klibi sessiz geçtiği için bir sesin silinmesi ya da adının yanlış yazılması başka hiçbir yerde duyulmazdı. Kural, `ui_press.wav` geçici olarak kaldırılıp düşmesi görülerek doğrulandı.
 
 ## Geri tuşu ve duraklatma
 
