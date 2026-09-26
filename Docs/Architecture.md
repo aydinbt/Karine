@@ -157,9 +157,17 @@ Yeni dosya masaya **bırakılır**, tepside hazır bulunmaz. İki yol var ve iki
 
 Bırakılış yalnız **kabul edilmemiş** vakanın anıdır: kabul edilmiş bir vakaya dönerken animasyon oynamaz, görevden ayrılmış kariyerde hiç oynamaz. İki PlayMode testi bunu koruyor (`CaseArrivalTests`).
 
-## Lisans oturumu düşünce testler "derleme hatası" gibi görünür
+## Sahte `CS0246: NUnit could not be found` — bozuk paket önbelleği
 
-Hub'ın oturum belirteci süresi dolduğunda batchmode lisans kanalına bağlanır ama günlüğe `[Licensing::Module] Error: Access token is unavailable` yazar. Paket çözümlemesi tamamlanmadığı için Unity **sahte** `CS0246: NUnit could not be found` hataları üretir ve sonuç dosyası yazılmaz. Kodda hata yoktur; Unity Hub'da yeniden oturum açmak gerekir. Günlük: `$TMPDIR/karine-tests/<platform>.log`.
+Testler birden bire "NUnit bulunamadı" diye onlarca derleme hatası verirse kodda hata yoktur: geçici çalışma kopyasındaki `Library/PackageCache` yarım kalmıştır. Günlükte imzası şudur — `Asset Packages/com.unity.test-framework/... has no meta file, but it's in an immutable folder. The asset will be ignored.` Paket klasörü yerindedir ama `.meta` dosyaları yoktur, bu yüzden test derlemesi NUnit'i göremez.
+
+Çözüm çalışma klasörünü silmektir; Unity paketleri baştan açar:
+
+```bash
+rm -rf "$TMPDIR/karine-tests" && Tools/run-tests.sh
+```
+
+Aynı günlükte görünen `[Licensing::Module] Error: Access token is unavailable` satırı **yanıltıcıdır**: hemen ardından `Successfully updated license` gelir ve lisans çalışır. Oturumla ilgili gerçek bir sorun varsa sonuç dosyası yine yazılmaz ama günlükte lisans hiç kurulmaz. Günlük: `$TMPDIR/karine-tests/<platform>.log`.
 
 ## Testler ve gerçek kayıt klasörü
 
