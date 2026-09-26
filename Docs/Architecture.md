@@ -157,6 +157,10 @@ Yeni dosya masaya **bırakılır**, tepside hazır bulunmaz. İki yol var ve iki
 
 Bırakılış yalnız **kabul edilmemiş** vakanın anıdır: kabul edilmiş bir vakaya dönerken animasyon oynamaz, görevden ayrılmış kariyerde hiç oynamaz. İki PlayMode testi bunu koruyor (`CaseArrivalTests`).
 
+## Lisans oturumu düşünce testler "derleme hatası" gibi görünür
+
+Hub'ın oturum belirteci süresi dolduğunda batchmode lisans kanalına bağlanır ama günlüğe `[Licensing::Module] Error: Access token is unavailable` yazar. Paket çözümlemesi tamamlanmadığı için Unity **sahte** `CS0246: NUnit could not be found` hataları üretir ve sonuç dosyası yazılmaz. Kodda hata yoktur; Unity Hub'da yeniden oturum açmak gerekir. Günlük: `$TMPDIR/karine-tests/<platform>.log`.
+
 ## Testler ve gerçek kayıt klasörü
 
 `Application.persistentDataPath` yolu şirket ve ürün adından türer, yani testlerin koştuğu geçici proje kopyası da geliştiricinin **kendi** kayıtlarını yazar. Bir PlayMode koşusu böylece oynanışı bozabiliyordu: vaka kabul edilmiş, sıradaki dosya açılmış olarak kaydediliyor ve oyun o anı bir daha oynamıyordu. `Assets/Bube/Tests/PlayMode/SaveSandbox.cs` (`[SetUpFixture]`) tüm PlayMode testlerinden önce `bube-*` kayıtlarını belleğe alıp klasörü boşaltır, testler bitince geri koyar.

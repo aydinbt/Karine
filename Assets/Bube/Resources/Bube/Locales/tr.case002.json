@@ -113,6 +113,14 @@
    "value": "Sokak boştu. Ben yukarı doğru yürürken şoför araçta kaldı. Arkama bakmadım."
   },
   {
+   "key": "case002.deniz.after.decoy.camera_dispute",
+   "value": "Tartışma araçtaydı. Sokakta kimi gördüğümle ilgisi yok; kimseyi görmedim."
+  },
+  {
+   "key": "case002.deniz.after.decoy.camera_passenger_out",
+   "value": "İndim ve yukarı yürüdüm. Arkama dönüp bakmadım, bakmam için bir sebep yoktu."
+  },
+  {
    "key": "case002.deniz.after.question",
    "value": "İndikten sonra sokakta kimi gördünüz?"
   },
@@ -137,12 +145,20 @@
    "value": "Ücret yüksek geldi, itiraz ettim. Sesimizi yükselttik. Elimi kolumu salladığımı kabul ediyorum, ama ona dokunmadım."
   },
   {
+   "key": "case002.deniz.dispute.decoy.camera_dispute",
+   "value": "Evet, o benim. Ücret yüzünden tartıştık. Bağırdım, indim, gittim. Saklayacak bir şey göremiyorum."
+  },
+  {
    "key": "case002.deniz.dispute.question",
    "value": "Şoförle aranızda ne konuşuldu?"
   },
   {
    "key": "case002.deniz.leave.answer",
    "value": "Telefonumdaki saate baktım, on biri üç geçiyordu. İndim, sokağın üst ucundan yürüdüm, otobüse bindim."
+  },
+  {
+   "key": "case002.deniz.leave.decoy.camera_passenger_out",
+   "value": "Arka kapıdan inen benim. Saati siz benden iyi biliyorsunuz demek ki."
   },
   {
    "key": "case002.deniz.leave.question",
@@ -201,12 +217,32 @@
    "value": "Vermek için gittim. Tartışma büyüyünce parayı çıkardım mı çıkarmadım mı, orasını karıştırıyorum. Cebimde geri götürmedim, o kadarını biliyorum."
   },
   {
+   "key": "case002.emre.money.decoy.camera_second_out",
+   "value": "Elimde bir şey görünüyor mu? Görünmüyor. Söyleyeceğim de bu."
+  },
+  {
+   "key": "case002.emre.money.decoy.selcuk_third_selcuk_third_money",
+   "value": "Parasının nereden geldiğini o bilir. Benim verdiğim ya da almadığım ayrı bir konu."
+  },
+  {
    "key": "case002.emre.money.question",
    "value": "Parayı ona verdiniz mi?"
   },
   {
    "key": "case002.emre.note.answer",
    "value": "Selçuk’a borcum vardı. Sekiz bin lira. Yazılı bir şey yoktu, kendi arasında tutmuş olmalı. O gece götürüyordum."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_contact",
+   "value": "İki kişi yan yana duruyor. Konuştuk, o kadar."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_second_in",
+   "value": "Sokağa giren biri var, evet. Sokakta yürümek suç değil."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_second_out",
+   "value": "Çıktığımı gösteriyor. Çıktım zaten, bunu söylüyorum."
   },
   {
    "key": "case002.emre.note.question",
@@ -225,6 +261,10 @@
    "value": "Köşedeki büfenin önünde bir genç duruyordu. Bana baktı. Hepsi bu."
   },
   {
+   "key": "case002.emre_follow.after.decoy.camera_second_out",
+   "value": "Sokaktan çıktım. Arkamdan biri geldiyse benim görmem gerekmiyor."
+  },
+  {
    "key": "case002.emre_follow.after.question",
    "value": "Sokaktan çıkarken kimseyi gördünüz mü?"
   },
@@ -237,12 +277,28 @@
    "value": "Hayır. Zarf elimden düştü, araca doğru attım diyebilirim. Parayla gitmedim. İsterseniz üstümü arayın, o geceden sonra hesabımda kuruş girmedi."
   },
   {
+   "key": "case002.emre_follow.money.decoy.camera_second_in",
+   "value": "Gelirken elimde vardı, bunu söyledim. Giderken ne olduğunu bu kayıt söylemiyor."
+  },
+  {
+   "key": "case002.emre_follow.money.decoy.camera_second_out",
+   "value": "Bu kayıttan elimdekini okuyamazsınız. Ben de okumuyorum."
+  },
+  {
    "key": "case002.emre_follow.money.question",
    "value": "Ayrılırken para sizde miydi?"
   },
   {
    "key": "case002.emre_follow.push.answer",
    "value": "İttim. Üstüme geldi, ben de kolundan tuttum ve ittim. Geri gitti, arkadaki bordüre çarptı. Bağırdım, kalkmadı. Korktum ve yürüdüm."
+  },
+  {
+   "key": "case002.emre_follow.push.decoy.camera_contact",
+   "value": "Yan yanayız, evet. Oradan ne olduğu anlaşılmıyor."
+  },
+  {
+   "key": "case002.emre_follow.push.decoy.camera_second_out",
+   "value": "Gittiğimi gösteriyor. Nasıl düştüğünü göstermiyor."
   },
   {
    "key": "case002.emre_follow.push.question",
@@ -361,6 +417,14 @@
    "value": "Saymadım. Zarfın içindekini olduğu gibi yatırdım, iki yüz lirasını yanıma ayırdım."
   },
   {
+   "key": "case002.kerem_follow.amount.decoy.camera_third_in",
+   "value": "Orada durduğum birkaç saniye. Bir şey saymaya yetmez."
+  },
+  {
+   "key": "case002.kerem_follow.amount.decoy.camera_third_out",
+   "value": "Çıkıyorum, o kadar. Bu kayıt bir rakam söylemiyor."
+  },
+  {
    "key": "case002.kerem_follow.amount.question",
    "value": "Ne kadar aldınız?"
   },
@@ -369,12 +433,24 @@
    "value": "Yaklaştım. Adam yerdeydi, bakayım dedim. Kapı açıktı. Beş dakika orada kaldım, sonra döndüm."
   },
   {
+   "key": "case002.kerem_follow.approach.decoy.financial",
+   "value": "Hesabıma para yatırmam suç değil. Nereden geldiğini de anlattım."
+  },
+  {
    "key": "case002.kerem_follow.approach.question",
    "value": "Kayıtta araca yaklaşan üçüncü kişi görünüyor. Bunu açıklar mısınız?"
   },
   {
    "key": "case002.kerem_follow.bag.answer",
    "value": "Kapağını kaldırdım. İçinde zarf vardı. Aldım. Adam yerdeydi, kimse görmedi diye düşündüm. Ertesi sabah bankamatiğe yatırdım."
+  },
+  {
+   "key": "case002.kerem_follow.bag.decoy.camera_third_in",
+   "value": "Araca yaklaştım, evet. Adam yerde, baktım. Bakmak dokunmak değil."
+  },
+  {
+   "key": "case002.kerem_follow.bag.decoy.camera_third_out",
+   "value": "Döndüm, büfeye geçtim. Elimde ne olduğu oradan görünmüyor."
   },
   {
    "key": "case002.kerem_follow.bag.question",
@@ -557,6 +633,14 @@
    "value": "Açık olabilir. Para orada duruyordu. Araca tekrar bakıldı mı, bilmiyorum; belki içeride bir şey kalmıştır."
   },
   {
+   "key": "case002.selcuk_follow.bag.decoy.camera_second_out",
+   "value": "Oradan çantanın içi görünmüyor. Bana da görünmüyor."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.decoy.report",
+   "value": "Çanta açık bulunmuş, tutanak öyle diyor. Ben kapattığımı hatırlamıyorum; kapattım da diyemem."
+  },
+  {
    "key": "case002.selcuk_follow.bag.question",
    "value": "Çanta ön koltukta açık mıydı?"
   },
@@ -567,6 +651,14 @@
   {
    "key": "case002.selcuk_follow.time.answer",
    "value": "On dakika ya var ya yok. Mola veriyordum. Arabanın içini toplamıştım, çanta ön koltuktaydı."
+  },
+  {
+   "key": "case002.selcuk_follow.time.decoy.camera_dispute",
+   "value": "Yolcuyla konuşma uzun sürmedi. Sonrasında sokakta ne kadar durduğumu söylemiştim zaten."
+  },
+  {
+   "key": "case002.selcuk_follow.time.decoy.camera_second_out",
+   "value": "O saatte yerdeyim, evet. Ne kadar kaldığımı oradan siz benden iyi sayarsınız."
   },
   {
    "key": "case002.selcuk_follow.time.question",
@@ -581,6 +673,22 @@
    "value": "Birinin yaklaştığını hatırlamıyorum. Yolcu indikten sonra araçta oturuyordum, sonra indim. Kayıtta ne görüyorsanız görün, ben bir tanıdık görmedim."
   },
   {
+   "key": "case002.selcuk_follow.visitor.decoy.camera_dispute",
+   "value": "Araçta el kol hareketi varsa o yolcuyla ücret konuşmasıdır. Sesimi yükselttim, kabul ediyorum. Yanımda duran kişiyle ilgisi yok."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.camera_second_out",
+   "value": "Biri gidiyor, ben yerdeyim. Bunu ben de görüyorum. Kim olduğunu söylemem için tanımam gerekir."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.medical",
+   "value": "Rapor başımdaki yarayı yazıyor, adını yazmıyor. Ben de yazamıyorum."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.report",
+   "value": "Tutanakta ne yazıyorsa odur. Benim ekleyebileceğim bir isim yok."
+  },
+  {
    "key": "case002.selcuk_follow.visitor.question",
    "value": "Araç yanında sizinle duran kişi kimdi?"
   },
@@ -593,6 +701,18 @@
    "value": "Tanıyorum. Borcu vardı, ondan geliyordu. Bunu en başta söylemedim, çünkü o para kayıtlı bir para değil. İşimi kaybetmekten korktum."
   },
   {
+   "key": "case002.selcuk_third.emre.decoy.camera_contact",
+   "value": "Yanımda biri durmuş, sonra yere düşmüşüm. Bunu inkâr etmiyorum. Kim olduğunu bilmiyorum demek zorundayım."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_second_in",
+   "value": "Sokağa biri giriyor. O sokağa herkes girer. Bu bana bir isim vermiyor."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_second_out",
+   "value": "Gittiğini görüyorum. Arkasından bakacak durumda değildim."
+  },
+  {
    "key": "case002.selcuk_third.emre.question",
    "value": "Emre Koç sizi ittiğini söylüyor. Bu kişiyi tanıyor musunuz?"
   },
@@ -601,12 +721,28 @@
    "value": "Gözüm açıktı ama kalkamıyordum. Biri aracın kapısına eğildi. Büfedeki çocuğa benziyordu, o saatte hep orada olur."
   },
   {
+   "key": "case002.selcuk_third.kid.decoy.camera_second_out",
+   "value": "Biri uzaklaşıyor, ben yerdeyim. Çevreye bakacak hâlde olsaydım bakardım."
+  },
+  {
+   "key": "case002.selcuk_third.kid.decoy.emre_emre_note",
+   "value": "Bu not bende değildi, kimin adı geçiyorsa ona sorun. Yerdeyken kimseyi fark etmedim."
+  },
+  {
    "key": "case002.selcuk_third.kid.question",
    "value": "Yerdeyken çevrede kimi fark ettiniz?"
   },
   {
    "key": "case002.selcuk_third.money.answer",
    "value": "Hayır. Emre’nin getirdiği paraydı. Zarfı araca attı, ben de çantaya koydum. Sonrasında tartışma büyüdü."
+  },
+  {
+   "key": "case002.selcuk_third.money.decoy.camera_dispute",
+   "value": "O konuşma ücret konuşmasıydı. Çantadaki parayla ilgisi yok."
+  },
+  {
+   "key": "case002.selcuk_third.money.decoy.report",
+   "value": "Tutanakta sekiz bin yazıyor, ben söylemişim. Gün içinde kazandığım para diyorum, yine diyorum."
   },
   {
    "key": "case002.selcuk_third.money.question",

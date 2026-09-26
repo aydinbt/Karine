@@ -127,13 +127,25 @@
      "id": "case002.deniz.dispute",
      "promptKey": "case002.deniz.dispute.question",
      "answerKey": "case002.deniz.dispute.answer",
-     "topicKey": "interview.topic.relationships"
+     "topicKey": "interview.topic.relationships",
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#dispute",
+       "answerKey": "case002.deniz.dispute.decoy.camera_dispute"
+      }
+     ]
     },
     {
      "id": "case002.deniz.leave",
      "promptKey": "case002.deniz.leave.question",
      "answerKey": "case002.deniz.leave.answer",
-     "topicKey": "interview.topic.day"
+     "topicKey": "interview.topic.day",
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#passenger_out",
+       "answerKey": "case002.deniz.leave.decoy.camera_passenger_out"
+      }
+     ]
     },
     {
      "id": "case002.deniz.after",
@@ -142,6 +154,16 @@
      "topicKey": "interview.topic.observations",
      "requiresAsked": [
       "case002.deniz.leave"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#passenger_out",
+       "answerKey": "case002.deniz.after.decoy.camera_passenger_out"
+      },
+      {
+       "sourceId": "camera#dispute",
+       "answerKey": "case002.deniz.after.decoy.camera_dispute"
+      }
      ]
     },
     {
@@ -288,13 +310,41 @@
      "presentedSourceIds": [
       "camera#second_in",
       "camera#contact"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#dispute",
+       "answerKey": "case002.selcuk_follow.visitor.decoy.camera_dispute"
+      },
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.selcuk_follow.visitor.decoy.camera_second_out"
+      },
+      {
+       "sourceId": "medical",
+       "answerKey": "case002.selcuk_follow.visitor.decoy.medical"
+      },
+      {
+       "sourceId": "report",
+       "answerKey": "case002.selcuk_follow.visitor.decoy.report"
+      }
      ]
     },
     {
      "id": "case002.selcuk_follow.time",
      "promptKey": "case002.selcuk_follow.time.question",
      "answerKey": "case002.selcuk_follow.time.answer",
-     "topicKey": "interview.topic.day"
+     "topicKey": "interview.topic.day",
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.selcuk_follow.time.decoy.camera_second_out"
+      },
+      {
+       "sourceId": "camera#dispute",
+       "answerKey": "case002.selcuk_follow.time.decoy.camera_dispute"
+      }
+     ]
     },
     {
      "id": "case002.selcuk_follow.bag",
@@ -303,6 +353,16 @@
      "topicKey": "interview.topic.belongings",
      "requiresAsked": [
       "case002.selcuk_follow.time"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "report",
+       "answerKey": "case002.selcuk_follow.bag.decoy.report"
+      },
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.selcuk_follow.bag.decoy.camera_second_out"
+      }
      ]
     }
    ],
@@ -350,7 +410,21 @@
      "promptKey": "case002.emre.note.question",
      "answerKey": "case002.emre.note.answer",
      "topicKey": "interview.topic.explanation",
-     "presentedSourceId": "scene"
+     "presentedSourceId": "scene",
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#second_in",
+       "answerKey": "case002.emre.note.decoy.camera_second_in"
+      },
+      {
+       "sourceId": "camera#contact",
+       "answerKey": "case002.emre.note.decoy.camera_contact"
+      },
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.emre.note.decoy.camera_second_out"
+      }
+     ]
     },
     {
      "id": "case002.emre.debt",
@@ -380,6 +454,16 @@
      "topicKey": "interview.topic.belongings",
      "requiresAsked": [
       "case002.emre.meeting"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.emre.money.decoy.camera_second_out"
+      },
+      {
+       "sourceId": "selcuk_third#case002.selcuk_third.money",
+       "answerKey": "case002.emre.money.decoy.selcuk_third_selcuk_third_money"
+      }
      ]
     }
    ],
@@ -429,6 +513,16 @@
      "presentedSourceId": "medical",
      "aboutPersonIds": [
       "selcuk"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#contact",
+       "answerKey": "case002.emre_follow.push.decoy.camera_contact"
+      },
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.emre_follow.push.decoy.camera_second_out"
+      }
      ]
     },
     {
@@ -438,6 +532,16 @@
      "topicKey": "interview.topic.belongings",
      "requiresAsked": [
       "case002.emre_follow.push"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#second_in",
+       "answerKey": "case002.emre_follow.money.decoy.camera_second_in"
+      },
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.emre_follow.money.decoy.camera_second_out"
+      }
      ]
     },
     {
@@ -447,6 +551,12 @@
      "topicKey": "interview.topic.observations",
      "requiresAsked": [
       "case002.emre_follow.push"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.emre_follow.after.decoy.camera_second_out"
+      }
      ]
     }
    ],
@@ -530,6 +640,20 @@
      "topicKey": "interview.topic.explanation",
      "presentedSourceIds": [
       "emre_follow#case002.emre_follow.push|medical"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#contact",
+       "answerKey": "case002.selcuk_third.emre.decoy.camera_contact"
+      },
+      {
+       "sourceId": "camera#second_in",
+       "answerKey": "case002.selcuk_third.emre.decoy.camera_second_in"
+      },
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.selcuk_third.emre.decoy.camera_second_out"
+      }
      ]
     },
     {
@@ -539,6 +663,16 @@
      "topicKey": "interview.topic.belongings",
      "requiresAsked": [
       "case002.selcuk_third.emre"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "report",
+       "answerKey": "case002.selcuk_third.money.decoy.report"
+      },
+      {
+       "sourceId": "camera#dispute",
+       "answerKey": "case002.selcuk_third.money.decoy.camera_dispute"
+      }
      ]
     },
     {
@@ -548,6 +682,16 @@
      "topicKey": "interview.topic.observations",
      "requiresAsked": [
       "case002.selcuk_third.money"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#second_out",
+       "answerKey": "case002.selcuk_third.kid.decoy.camera_second_out"
+      },
+      {
+       "sourceId": "emre#case002.emre.note",
+       "answerKey": "case002.selcuk_third.kid.decoy.emre_emre_note"
+      }
      ]
     }
    ],
@@ -584,6 +728,12 @@
      "presentedSourceIds": [
       "camera#third_in",
       "camera#third_out"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "financial",
+       "answerKey": "case002.kerem_follow.approach.decoy.financial"
+      }
      ]
     },
     {
@@ -593,6 +743,16 @@
      "topicKey": "interview.topic.belongings",
      "requiresAsked": [
       "case002.kerem_follow.approach"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#third_in",
+       "answerKey": "case002.kerem_follow.bag.decoy.camera_third_in"
+      },
+      {
+       "sourceId": "camera#third_out",
+       "answerKey": "case002.kerem_follow.bag.decoy.camera_third_out"
+      }
      ]
     },
     {
@@ -602,6 +762,16 @@
      "topicKey": "interview.topic.belongings",
      "requiresAsked": [
       "case002.kerem_follow.bag"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#third_in",
+       "answerKey": "case002.kerem_follow.amount.decoy.camera_third_in"
+      },
+      {
+       "sourceId": "camera#third_out",
+       "answerKey": "case002.kerem_follow.amount.decoy.camera_third_out"
+      }
      ]
     }
    ],
