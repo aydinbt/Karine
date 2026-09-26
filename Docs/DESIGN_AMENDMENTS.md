@@ -707,3 +707,16 @@ parayı kimin aldığını göstermez. Oyuncu gerekçesini ifadelerden, kamerada
 belgelerden kurmalıdır. Düğüm artık `notReportSource` taşıyor; işaretli kayıt
 kaynak listesinde görünmüyor ve gönderimde de reddediliyor. Doğrulayıcı her
 vakanın açılış tutanağından bu işareti istiyor.
+
+## Davranış satırı Dosya #002'nin tamamına yayıldı (26 Eylül 2026)
+
+Deneme kapsamı dört kaynak sorusuydu (bkz. 25 Eylül girdisi). Dosya #002'de
+**bütün görüşme yanıtları ve 34 yemin tamamı** davranış satırı taşıyor: 65 yeni
+satır, `tr.case002.json` içinde `<answerKey>.demeanor` olarak.
+
+Yayarken tek kural korundu: satır **gözlem**dir, teşhis değil. Bu yüzden
+gerginlik ve sakinlik dört kişiye de dağıtıldı — Emre kayda bakmadan cevap
+verir ve sırtını yaslar, Deniz ellerini kucağına çeker, Kerem duraksar, Selçuk
+sustuktan sonra gözünü kaçırmaz. Kimin ne sakladığı satırdan okunmaz; satır
+yalnız oyuncuya *neyi tekrar sormak isteyeceğini* düşündürür. Doğrulayıcının
+yorum sözcüğü yasağı ve 16 sözcük sınırı 65 satırın hepsinde geçiyor.
