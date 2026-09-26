@@ -189,7 +189,8 @@
      "textKey": "case002.cctv.event.park",
      "delayMs": 620,
      "id": "park",
-     "overlayTimeKey": "case002.time.park"
+     "overlayTimeKey": "case002.time.park",
+     "videoPath": "Bube/CCTV/case002_2258.mp4"
     },
     {
      "textKey": "case002.cctv.event.dispute",
