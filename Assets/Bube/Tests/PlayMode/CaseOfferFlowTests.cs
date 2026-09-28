@@ -84,6 +84,43 @@ public sealed class CaseOfferFlowTests {
   Assert.Greater(tooltips.Length, 2, "Kabulden sonra masa tamamen açılmalı: " + string.Join(" | ", tooltips));
  }
 
+ [UnityTest] public IEnumerator Desk_UsesSeparatePropsAndCountryViewWithoutGuidance() {
+  State.caseAccepted=true;Call(app,"Desk");
+  for(int frame=0;frame<8;frame++)yield return null;
+  Assert.IsNotNull(Root.Q("OfficeWindow-tr"));
+  foreach(var name in new[]{"BlankCaseFolder","CctvMonitor","InboxTray","DeskPhone","EvidencePile"})
+   Assert.IsNotNull(Root.Q<Image>(name),"Separate prop missing: "+name);
+  foreach(var name in new[]{"DeskInbox","DeskFile","DeskInterviews","DeskTerminal","DeskEvidence"}) {
+   var button=Root.Q<Button>(name);Assert.IsNotNull(button);
+   Assert.GreaterOrEqual(button.layout.height,KarineTheme.TouchTarget);
+   Assert.IsTrue(Root.Q("OfficeStage").worldBound.Overlaps(button.worldBound));
+  }
+  var labels=Root.Query<Label>().ToList().Select(l=>l.text).ToArray();
+  Assert.IsFalse(labels.Contains("GÖREV"));Assert.IsFalse(labels.Contains("NOTLAR"));
+  var image=Root.Q("OfficeWindow-tr").Q<Image>();
+  Assert.AreEqual(new Rect(0,.5f,.2f,.5f),image.uv,"Country atlas region must be Turkey.");
+  // Optional rendered evidence from a graphics-enabled isolated test run.
+  var capture=System.Environment.GetEnvironmentVariable("KARINE_DESK_CAPTURE");
+  if(!string.IsNullOrEmpty(capture)) {
+   var settings=app.GetComponent<UIDocument>().panelSettings;
+   var previous=settings.targetTexture;
+   var target=new RenderTexture(1280,720,0);target.Create();settings.targetTexture=target;
+   for(int frame=0;frame<8;frame++)yield return null;
+   var previousActive=RenderTexture.active;RenderTexture.active=target;
+   var pixels=new Texture2D(1280,720,TextureFormat.RGB24,false);
+   pixels.ReadPixels(new Rect(0,0,1280,720),0,0);pixels.Apply();
+   var colors=pixels.GetPixels32();
+   using(var stream=new System.IO.BinaryWriter(System.IO.File.Create(capture))) {
+    stream.Write(System.Text.Encoding.ASCII.GetBytes("P6\n1280 720\n255\n"));
+    for(int y=719;y>=0;y--)for(int x=0;x<1280;x++) {
+     var c=colors[y*1280+x];stream.Write(c.r);stream.Write(c.g);stream.Write(c.b);
+    }
+   }
+   RenderTexture.active=previousActive;settings.targetTexture=previous;
+   target.Release();Object.Destroy(target);Object.Destroy(pixels);
+  }
+ }
+
  // Kaldırılan tam ekran teklifin geri gelmediğini sabitler.
  [Test] public void CaseOfferScreen_NoLongerExists() {
   Assert.IsNull(typeof(BubeApp).GetMethod("CaseOffer", BindingFlags.Instance | BindingFlags.NonPublic),

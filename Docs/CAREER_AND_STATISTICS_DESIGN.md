@@ -31,7 +31,7 @@ Bu katmanların kesin puanları, bazı vakalarda “fail belirlenemedi” gibi i
 
 ## İstatistikler ekranı
 
-İstatistikler, bube'nin aynı IBM Plex Mono fontu, koyu BPS tableti ve sınırlı paletiyle sunulur. Genel yönetim paneli gibi çok sayıda metrik dökülmez. İlk görünümde yalnız şu bilgiler yeterlidir:
+İstatistikler, bube'nin aynı IBM Plex Mono fontu, koyu BDS tableti ve sınırlı paletiyle sunulur. Genel yönetim paneli gibi çok sayıda metrik dökülmez. İlk görünümde yalnız şu bilgiler yeterlidir:
 
 1. **Bora / görev durumu / mevcut unvan** — unvan sistemi tamamlanana kadar sahte terfi göstergesi konmaz.
 2. **Birim güveni ve yönü** — ör. `GÜVENİLİR ↑` veya `GÖZETİM ALTINDA ↓`, bunu değiştiren son faksla birlikte. Ham `65/100`, `+5 XP` veya eksi puan oyuncuya gösterilmez.

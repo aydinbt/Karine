@@ -75,6 +75,49 @@ public static class KarineTheme {
  public const int IconSize = 22;       // çizgi ikonun kendisi
  public const int IconButtonSize = 48; // ikonu taşıyan kare düğme
 
+ // Ana menü: sinematik videonun üstünde duran, yeniden kullanılabilir
+ // arayüz parçalarının ölçüleri. Yatay referans düzeni 1280×720'dir.
+ public static class MainMenu {
+  public const int LogoWidth = 455;
+  public const int ColumnWidth = 355;
+  public const int RowHeight = 48;
+  public const int RowGap = 5;
+  public const int PortraitSize = 78;
+  public const int IdentityHeight = 108;
+  public const int TaglineSize = 14;
+  public const int RowTextSize = 18;
+ }
+
+ public static class CaseBrowser {
+  public const int SidebarWidth=244, LogoWidth=220, Portrait=118;
+  public const int TitleSize=42, TextSize=16, SmallSize=13;
+  public const int CountryWidth=126, CountryHeight=100;
+  public const int CardWidth=164, CardHeight=224, PhotoHeight=132;
+  public const int MainLeft=300, Top=54, Bottom=42;
+  public const int TapeWidth=38, TapeHeight=9;
+ }
+
+ public static class Office {
+  public const float Aspect=1672f/941f;
+  public const int BrandWidth=185,TitleSize=19,LabelSize=14,SmallSize=12;
+  public const int BadgeSize=24,HeaderHeight=80,HeaderActionWidth=72,PortraitWidth=68,PortraitHeight=72;
+  public const int BlinkMs=520;
+  // Coordinates in the reusable room plate; all props share the same stage.
+  public static readonly Rect Window=new Rect(34.35f,9.8f,24.3f,35.4f);
+  public static readonly Rect Board=new Rect(65,14,27,28);
+  public static readonly Rect Lamp=new Rect(26,40,14,34);
+  public static readonly Rect Inbox=new Rect(12,56,21,28);
+  public static readonly Rect Phone=new Rect(34,62,14,20);
+  public static readonly Rect Folder=new Rect(39,65,25,32);
+  public static readonly Rect Monitor=new Rect(60,41,38,43);
+  public static readonly Rect Evidence=new Rect(76,78,22,21);
+  public static readonly Rect InboxLabel=new Rect(15,56,17,8);
+  public static readonly Rect PhoneLabel=new Rect(35,57,15,8);
+  public static readonly Rect FolderLabel=new Rect(43,80,17,8);
+  public static readonly Rect MonitorLabel=new Rect(69,53,20,10);
+  public static readonly Rect EvidenceLabel=new Rect(80,84,18,8);
+ }
+
  // --- Devinim (saniye) -----------------------------------------------------
  // Kit'in verdiği aralıkların ortası. Bounce/elastic yok.
  public const float PressMs = 0.10f;

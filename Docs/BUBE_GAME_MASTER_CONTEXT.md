@@ -6,7 +6,7 @@
 
 ## Oyuncu ne yapıyor?
 
-Oyuncu, bube Polis soruşturma birimindeki Bora olarak bir suç olayını **kendisine gelen bilgilerden çözmeye çalışır**. Sahadaki ve uzman ekipler gerekli teknik çalışmayı yapabilir; oyuncunun asıl işi dosyayı okumak, insanlarla konuşmak, kayıtlara bakmak, ifadeler arasındaki farkları fark etmek, yeni bilgiyle tekrar soru sormak ve gerekçeli bir sonuç raporu yazmaktır. Oyun oyuncunun belleğini sınamaz: bütün konuşma ve belgeler masadaki dosyadan tekrar okunur. Oyun oyuncu adına “şu kişi yalan söylüyor”, “bu çelişkiyi buldun” veya “fail belli” demez.
+Oyuncu, bube Departman soruşturma birimindeki Bora olarak bir suç olayını **kendisine gelen bilgilerden çözmeye çalışır**. Sahadaki ve uzman ekipler gerekli teknik çalışmayı yapabilir; oyuncunun asıl işi dosyayı okumak, insanlarla konuşmak, kayıtlara bakmak, ifadeler arasındaki farkları fark etmek, yeni bilgiyle tekrar soru sormak ve gerekçeli bir sonuç raporu yazmaktır. Oyun oyuncunun belleğini sınamaz: bütün konuşma ve belgeler masadaki dosyadan tekrar okunur. Oyun oyuncu adına “şu kişi yalan söylüyor”, “bu çelişkiyi buldun” veya “fail belli” demez.
 
 Oyuncunun beklenen zihinsel döngüsü **söyleneni kaydet → başka kaynakla karşılaştır → hangi bilginin iddia, gözlem ya da bağımsız doğrulama olduğunu düşün → uygun soruyu sor → sonucunu kanıtla savun** şeklindedir. Beden dili ve mimik ipucu olabilir; otomatik yalan makinesi değildir. Masum kişi de korktuğu için yalan söyleyebilir veya tedirgin görünebilir.
 
@@ -25,7 +25,7 @@ Her vaka aynı temel eylem dilini kullanır: **dosya/ihbarı al → ulaşılabil
 ## Çekirdek oyun yapısı
 
 - Platform mobil, yön yatay. Serbest yürüme, joystick veya her vaka için 3D mekân üretme zorunluluğu yok. Oyunun merkezi, *Papers, Please* benzeri fiziksel ve işlevsel **2D/pixel-art masa**dır.
-- Masa klasik seviye seçme menüsü yerine Bora'nın iş yeridir. İlk vakada yalnızca işlevsel nesneler görünür: gelen evraklar, merkezde dosya, CCTV/BPS terminali; telefon ancak görüşme işlevi varsa. Dekor ve kilitli gelecek özellikler masa kalabalığı yaratmaz. “Yapılacaklar” listesi, numaralı görev yolu veya görünür ilerleme grafiği yoktur.
+- Masa klasik seviye seçme menüsü yerine Bora'nın iş yeridir. İlk vakada yalnızca işlevsel nesneler görünür: gelen evraklar, merkezde dosya, CCTV/BDS terminali; telefon ancak görüşme işlevi varsa. Dekor ve kilitli gelecek özellikler masa kalabalığı yaratmaz. “Yapılacaklar” listesi, numaralı görev yolu veya görünür ilerleme grafiği yoktur.
 - Temel etkileşim: **masadaki nesneye dokun → nesne öne gelir, arka masa kararır/bulanıklaşır → okunabilir odak görünümünde işlem yap → kapat → masaya dön**. Açılmış dosyada gerçekten mevcut sayfalar/sekme içerikleri görünür. Görüşme dökümleri ve belgeler sonra tekrar okunabilir. Yan yana belge karşılaştırma ve oyuncunun satır işaretlemesi gelecekte değerlendirilecek önerilerdir; temel teslimin şartı değildir.
 - Bir vakada ilk olay raporu gelir; görüşmeler yeni kişileri ve soruları, CCTV/terminal yeni kayıtları, uzman birimlerin çalışması yeni belgeleri açar. Teknik analizi mini oyun haline getirmek yerine gelen raporun anlamını oyuncu yorumlar. Her vakada aynı araçların tümü zorunlu değildir.
 - Yeni mekanikler ileride oyuncunun araç kutusuna eklenebilir, eskiler kaybolmaz. **Yetki sahibi olmak** ile belirli vakada o veri kaynağının **mevcut olması** ayrıdır. Ülkeler zorluk/özellik kapısı değil, vaka ortamıdır. İstanbul'daki ilk vakada CCTV vardır. Zorluk suçun büyüklüğünden değil bilgi, belirsizlik ve bağlantıların yapısından doğar.
@@ -40,7 +40,7 @@ Her vaka aynı temel eylem dilini kullanır: **dosya/ihbarı al → ulaşılabil
 - Görünmeyen soruşturma durumları (bilinen kişiler, açılan kayıtlar, tamamlanan sorular, yeni takip soruları, edinilmiş kanıtlar) veriyle ifade edilir. UI bu durumların teknik adlarını oyuncuya göstermez. Yeni kayıt, doğal bildirim veya okunmadı işaretiyle fark edilir; “şimdi X'i yap” emri verilmez.
 - Oyuncu raporunu yeterli kanıtla savunur. İlk vakada sonuç üç alanlıdır: şüpheli, giriş yöntemi, belirleyici kanıt. Daha sonraki vakalar başka alanlar gerektirebilir; rapor şeması vakaya göre veriden gelebilmelidir.
 
-## Metin tabanlı CCTV ve BPS
+## Metin tabanlı CCTV ve BDS
 
 Dosya #001 CCTV **video, görüntü veya insan/ortam animasyonu oynatmaz**. Görünen şey güvenlik sistemi terminalidir: kamera kimliği/konumu, tarih-saat, incelenen aralık, REC, kanal, sinyal ve kalite bilgisi, inceleme durumu. Oyuncu incelemeyi başlatınca olay satırları bir anda topluca değil, tarama/yazma ritmiyle sırayla gelir; terminal/klavye sesleri ve hafif mikro animasyonlar atmosfer sağlar. Yeni vaka için esasen kamera meta verisi, olay satırları, kalite ve sinyal kesintileri girilir.
 
@@ -54,7 +54,7 @@ Sinyal kalitesi yalnızca süs değildir. Düşük kalitede saat veya kimlik bil
 - Gerçek görüşme ekranında **karakter, adı/temel kimliği, söylediği cümle ve sorulabilir sorular** vardır. “Normal/Tedirgin/Savunmada” gibi geliştirici state adları, “sakin görünüyor”, “yalan söylüyor olabilir” gibi sistem yorumları veya oyuncunun yerine analiz yapan notlar görünmez. Karakterin tedirginliği suçluluk göstergesi değildir.
 - Dosyalar fiziksel kâğıt ve sayfa hissi taşır, odak modunda mobilde rahat okunur. Masa, dosya, terminal ve görüşme aynı oyunun görsel diliyle tutarlı olur.
 - Oyuncuya görünen ilk dil Türkçe. Kod/veri anahtarları İngilizce olabilir; oyuncu metni yerelleştirme kataloğundan gelir. `Case`, `Statement`, `Property Recovery Report` gibi oyuncu başlıklarının Türkçe karşılıkları kullanılır.
-- Oyun çalışma adı **bube**, yapımcı bubeGames. Nihai oyun adı ertelendi ve değiştirilebilir olmalı. Kurum kurgusal **bube Police / bube Polis**; şehir/ülkeye göre yerel varyantlar olabilir. BPS “bube Police System” ortak sistem adıdır. Gerçek polis adı/arması veya başka gerçek kurum markası nihai varlıklarda yer almaz. Eski görsellerdeki kurum, Kadıköy ve tarih bilgileri görsel referansın içeriğidir, kanon değildir.
+- Oyun çalışma adı **bube**, yapımcı bubeGames. Nihai oyun adı ertelendi ve değiştirilebilir olmalı. Kurum kurgusal **bube Departman / bube Departman**; şehir/ülkeye göre yerel varyantlar olabilir. BDS “bube Departman System” ortak sistem adıdır. Gerçek polis adı/arması veya başka gerçek kurum markası nihai varlıklarda yer almaz. Eski görsellerdeki kurum, Kadıköy ve tarih bilgileri görsel referansın içeriğidir, kanon değildir.
 - Protagonist sabit **Bora**, 27, erkek, Türk, İstanbul/Beşiktaşlı ve soruşturma birimine yeni atanmış deneyimli polis. Sessiz/gözlemci, kanıt temelli ve agresif olmayan bir konuşma tonu hedeflendi. Kısa biyografisi personel kartında olabilir; uzun zorunlu giriş yoktur. İsim seçimi, Alex/Emir ve self-insert fikirleri sonradan elendi.
 
 ## Bora ve kariyer sürekliliği
@@ -71,7 +71,7 @@ Bora'nın kilitlenen biyografisi, oyuncunun kontrol ettiği alan, kariyerin ülk
 
 1. Gelen evrakta olay raporu: kayıp bilgisayar/saat/nakit, zorlama izi yok, kapı yanında saksı var, anahtar yok. Mert erişilebilir.
 2. Mert ilk görüşmede yaklaşık çıkış/dönüş saatlerini, kapıyı kilitlediğini, Elif'te anahtar olduğunu ve komşu Hasan'ı söyler. Elif ve Hasan görüşmeleri açılır; sıra oyuncuya bırakılır.
-3. Elif “o gün gitmedim” der. Hasan öğlen bir kadın gördüğünü ve giriş kamerası olduğunu söyler. Hasan'ın kamera bilgisi BPS kamera arşivini masadaki terminalde erişilebilir yapar; oyuncu dosyayı/görüşmeyi kapatıp masaya döner ve terminale kendisi dokunur. Oyun onu otomatik kameraya götürmez. Elif'in görüşmesini tamamlamak kamera için ayrıca zorunlu değildir.
+3. Elif “o gün gitmedim” der. Hasan öğlen bir kadın gördüğünü ve giriş kamerası olduğunu söyler. Hasan'ın kamera bilgisi BDS kamera arşivini masadaki terminalde erişilebilir yapar; oyuncu dosyayı/görüşmeyi kapatıp masaya döner ve terminale kendisi dokunur. Oyun onu otomatik kameraya götürmez. Elif'in görüşmesini tamamlamak kamera için ayrıca zorunlu değildir.
 4. Kamera dökümü: 08.27 erkek çıkar; 11.48 kadın girer; 12.16 kadın çıkar; 12.31 sinyal zayıflar; 12.37 kesilir; 13.08 geri gelir; 17.54 erkek girer. **12.37–13.08 kaydı yoktur.** Hasan'ın girişi, hırsızlık, çanta veya eşyalar kamerada açıkça görünmez. Sistem “Elif yalan söyledi” diye yorum yapmaz.
 5. Kamera/Elif bilgisiyle Elif'in takip sorusu açılır. Elif ziyareti ve anahtarı saksıya bıraktığını kabul eder. Bu bilgi Mert'in anahtar takip sorusuna yol açar; Mert Hasan'ın anahtar yerini önceden gördüğünü söyler. Hasan'ın takip görüşmesinde anahtarla ilgili kaçamak cevabı şüphe doğurabilir ama suçluluk kanıtı değildir.
 6. Masaya gelen **Eşya Tespit Raporu** çalınan dizüstünün seri numarası eşleşmesini ve cihazı ikinci el elektronik işletmesine getirenin Hasan olduğunu bildirir. Oyuncu yeni mağaza sistemi kullanmaz. Kesin seri numarası ve satış saati önceki konuşmada kararlaştırılmadı; içerik tutarlı olacak şekilde seçilebilir.

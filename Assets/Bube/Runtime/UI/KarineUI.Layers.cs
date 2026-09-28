@@ -6,6 +6,86 @@ namespace Bube {
 // Evrak katmanı, sinematik, modal, bildirim, ilerleme ve tooltip.
 // `KarineUI` tek bileşen kitaplığıdır; bu dosya onun bir parçasıdır.
 public static partial class KarineUI {
+
+ // Sinematik arka plan üzerindeki menü satırı. Aynı ikon, kenar ve tipografi
+ // her menüde yeniden kullanılabilir; arka plan sanatından bağımsızdır.
+ public static Button MenuAction(VisualElement parent,string icon,string label,
+                                 Action onClick,bool primary) {
+  var row=new Button(Sounded(onClick));
+  row.name=primary?"MenuActionPrimary":"MenuAction";
+  row.style.flexDirection=FlexDirection.Row;
+  row.style.alignItems=Align.Center;
+  row.style.width=Length.Percent(100);
+  row.style.height=KarineTheme.MainMenu.RowHeight;
+  row.style.minHeight=KarineTheme.TouchTarget;
+  row.style.marginLeft=0;row.style.marginRight=0;
+  row.style.marginTop=0;row.style.marginBottom=KarineTheme.MainMenu.RowGap;
+  row.style.paddingLeft=KarineTheme.SpaceLg;
+  row.style.paddingRight=KarineTheme.SpaceMd;
+  var tone=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
+  row.style.backgroundColor=primary?KarineTheme.Primary:KarineTheme.Alpha(KarineTheme.Background,.88f);
+  Border(row,KarineTheme.BorderWidth,primary?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Secondary,.45f));
+  Round(row,KarineTheme.Radius);
+  var mark=Icon(row,icon,tone,KarineTheme.IconSize);
+  mark.style.marginRight=KarineTheme.SpaceLg;
+  var text=new Label(label);
+  text.style.color=tone;
+  text.style.fontSize=Typography.Snap(KarineTheme.MainMenu.RowTextSize);
+  text.style.flexGrow=1;
+  text.style.unityTextAlign=TextAnchor.MiddleLeft;
+  ApplyFont(text,primary?BodyBold:Body);
+  row.Add(text);
+  var next=Icon(row,"nav_next",tone,KarineTheme.IconSize);
+  next.pickingMode=PickingMode.Ignore;
+  var normal=primary?KarineTheme.Primary:KarineTheme.Alpha(KarineTheme.Background,.88f);
+  var pressed=Color.Lerp(normal,KarineTheme.Accent,.28f);
+  row.RegisterCallback<PointerDownEvent>(_=>row.style.backgroundColor=pressed);
+  row.RegisterCallback<PointerUpEvent>(_=>row.style.backgroundColor=normal);
+  parent?.Add(row);
+  return row;
+ }
+
+ // Sol alttaki personel kartı. Karakter portresi ayrı sprite, metin ve şeritler
+ // kodla çizilir; animasyonlu menü videosunun içine gömülmez.
+ public static Button MenuIdentity(VisualElement parent,Texture2D portrait,
+                                   string name,string role,string unit,string location,
+                                   Action onClick) {
+  var card=new Button(Sounded(onClick));
+  card.name="MenuIdentity";
+  card.style.flexDirection=FlexDirection.Row;
+  card.style.alignItems=Align.Center;
+  card.style.height=KarineTheme.MainMenu.IdentityHeight;
+  card.style.minHeight=KarineTheme.TouchTarget;
+  card.style.paddingLeft=KarineTheme.SpaceMd;
+  card.style.paddingRight=KarineTheme.SpaceMd;
+  card.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Background,.90f);
+  Border(card,KarineTheme.BorderWidth,KarineTheme.Alpha(KarineTheme.Secondary,.50f));
+  Round(card,KarineTheme.Radius);
+  var portraitFrame=new VisualElement();
+  portraitFrame.style.width=KarineTheme.MainMenu.PortraitSize;
+  portraitFrame.style.height=KarineTheme.MainMenu.PortraitSize;
+  portraitFrame.style.flexShrink=0;
+  portraitFrame.style.marginRight=KarineTheme.SpaceLg;
+  portraitFrame.style.backgroundColor=KarineTheme.Panel2;
+  card.Add(portraitFrame);
+  if(portrait!=null) {
+   var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
+   face.style.position=Position.Absolute;
+   face.style.left=0;face.style.right=0;face.style.top=0;face.style.bottom=0;
+   portraitFrame.Add(face);
+  }
+  var detail=new VisualElement();detail.style.flexGrow=1;card.Add(detail);
+  var title=Body_(detail,name,19);
+  title.style.marginBottom=KarineTheme.SpaceXs;
+  ApplyFont(title,Heading);
+  foreach(var line in new[]{role,unit,location}) {
+   var item=Body_(detail,line,13);
+   item.style.color=KarineTheme.Secondary;
+   item.style.marginBottom=0;
+  }
+  parent?.Add(card);
+  return card;
+ }
  // --- Evrak katmanı --------------------------------------------------------
 
  // Kit §13: oyun dünyasının evrakı (dosya, rapor, arşiv, terminal çıktısı)

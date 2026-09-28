@@ -2,7 +2,7 @@
 
 Bu sayfa içerik ekibi içindir; oyuncuya gösterilmez. Oynanabilir vaka verisi `Assets/Bube/Resources/Bube/Cases/case002.json`, Türkçe metinler `Assets/Bube/Resources/Bube/Locales/tr.case002.json` içindedir. Bu sürüm, 26 Eylül 2026'da kullanıcının verdiği senaryonun yerine geçtiği eski "Kayıp Yedek" taslağını **tamamen** kaldırır.
 
-**Büro:** BPS Asayiş Masası — kişilere karşı işlenen suçlar. **Nitelik:** yağma/gasp iddiası ve yaralama. **Yer/zaman:** Beşiktaş, sahil yolu ara sokağı, 21 Kasım 2026 gecesi.
+**Büro:** BDS Asayiş Masası — kişilere karşı işlenen suçlar. **Nitelik:** yağma/gasp iddiası ve yaralama. **Yer/zaman:** Beşiktaş, sahil yolu ara sokağı, 21 Kasım 2026 gecesi.
 
 ## Kesin olay
 

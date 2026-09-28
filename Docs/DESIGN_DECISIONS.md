@@ -6,11 +6,11 @@
 
 ## Oyun ve sunum
 
-- Çalışma adı **bube**; geliştirici adı bubeGames. Oyun içi kurum **bube Police / bube Polis**, terminal **BPS — bube Police System**. Nihai oyun adı daha sonra seçilecek; adlar yapılandırmadan değiştirilebilir olmalı.
+- Çalışma adı **bube**; geliştirici adı bubeGames. Oyun içi kurum **bube Departman / bube Departman**, terminal **BDS — bube Departman System**. Nihai oyun adı daha sonra seçilecek; adlar yapılandırmadan değiştirilebilir olmalı.
 - İlk oyuncu dili Türkçe. Kod anahtarları İngilizce olabilir; oyuncuya görünen metinler yerelleştirme verisinde tutulmalı.
-- Oynanabilir karakter Bora: 27 yaşında, erkek, Türk, İstanbul/Beşiktaşlı; bube Police soruşturma biriminde yeni. Oyuncunun değiştirdiği bir avatar değil.
+- Oynanabilir karakter Bora: 27 yaşında, erkek, Türk, İstanbul/Beşiktaşlı; bube Departman soruşturma biriminde yeni. Oyuncunun değiştirdiği bir avatar değil.
 - Mobil yatay ekran; sabit masa ve belge/görüşme/terminal görünümleri. Serbest yürüyüş veya joystick yok. Görsel yön 2D/pixel art; masa nesneleri ancak işlevleri varsa görünür. Karakter duygu veya iç durum etiketleri oyuncuya açıklanmaz. Görüşme ve dosya görsel kararları için `Docs/VISUAL_DIRECTION.md` ana kayıttır.
-- Ana döngü: masa → dosya → görüşmeler → metin tabanlı CCTV/BPS → yeni belge ve takip görüşmeleri → gerekçeli sonuç → dosyayı kapat → masaya dön.
+- Ana döngü: masa → dosya → görüşmeler → metin tabanlı CCTV/BDS → yeni belge ve takip görüşmeleri → gerekçeli sonuç → dosyayı kapat → masaya dön.
 
 ## Dosya #001 — Açık Kapı
 

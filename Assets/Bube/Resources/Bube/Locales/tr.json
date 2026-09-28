@@ -26,7 +26,7 @@
   },
   {
    "key": "bora",
-   "value": "Bora • 27 yaşında • Türk • Erkek\nİstanbul / Beşiktaş • bube Polis Soruşturma Birimi"
+   "value": "Bora • 27 yaşında • Türk • Erkek\nİstanbul / Beşiktaş • bube Departman Soruşturma Birimi"
   },
   {
    "key": "inbox",
@@ -86,7 +86,7 @@
   },
   {
    "key": "kind.bps",
-   "value": "BPS kaydı"
+   "value": "BDS kaydı"
   },
   {
    "key": "case.title",
@@ -210,7 +210,7 @@
   },
   {
    "key": "home.status",
-   "value": "bube Polis / Soruşturma Birimi"
+   "value": "bube Departman / Soruşturma Birimi"
   },
   {
    "key": "home.footer",
@@ -242,7 +242,7 @@
   },
   {
    "key": "desk.inbox",
-   "value": "GELEN EVRAKLAR / 001"
+   "value": "Gelen Evrak"
   },
   {
    "key": "desk.case.info",
@@ -278,7 +278,7 @@
   },
   {
    "key": "file.reference",
-   "value": "bube Polis · İstanbul / Beşiktaş"
+   "value": "bube Departman · İstanbul / Beşiktaş"
   },
   {
    "key": "desk.terminal",
@@ -386,7 +386,7 @@
   },
   {
    "key": "cctv.header",
-   "value": "BPS // GÜVENLİK KAMERASI ARŞİVİ"
+   "value": "BDS // GÜVENLİK KAMERASI ARŞİVİ"
   },
   {
    "key": "cctv.source.building",
@@ -498,11 +498,11 @@
   },
   {
    "key": "home.brandLocation",
-   "value": "bube POLİS · İSTANBUL"
+   "value": "bube DEPARTMAN · İSTANBUL"
   },
   {
    "key": "desk.brandLocation",
-   "value": "bube POLİS / İSTANBUL · BEŞİKTAŞ"
+   "value": "bube DEPARTMAN / İSTANBUL · BEŞİKTAŞ"
   },
   {
    "key": "desk.location",
@@ -522,7 +522,7 @@
   },
   {
    "key": "file.stamp",
-   "value": "bube POLİS\nİSTANBUL"
+   "value": "bube DEPARTMAN\nİSTANBUL"
   },
   {
    "key": "file.meta.number",
@@ -1030,7 +1030,7 @@
   },
   {
    "key": "cctv.system",
-   "value": "bube Polis Sistemi"
+   "value": "bube Departman Sistemi"
   },
   {
    "key": "cctv.archive",
@@ -1058,7 +1058,7 @@
   },
   {
    "key": "about.body",
-   "value": "Karine, Bora’nın bube Police Beşiktaş şubesindeki soruşturmalarını konu alan bir dedektif oyunudur. Dosyaları, görüşmeleri ve kayıtları kendi hızında incele; sonucu kanıtlarla gerekçelendir."
+   "value": "Karine, Bora’nın bube Departman Beşiktaş şubesindeki soruşturmalarını konu alan bir dedektif oyunudur. Dosyaları, görüşmeleri ve kayıtları kendi hızında incele; sonucu kanıtlarla gerekçelendir."
   },
   {
    "key": "interview.noStatement",
@@ -1218,7 +1218,7 @@
   },
   {
    "key": "next.assignment.sender",
-   "value": "Gönderen: bube Polis · İstanbul / Beşiktaş Şubesi"
+   "value": "Gönderen: bube Departman · İstanbul / Beşiktaş Şubesi"
   },
   {
    "key": "next.assignment.body",
@@ -1234,7 +1234,7 @@
   },
   {
    "key": "summary.brand",
-   "value": "bube Police\nİstanbul · Beşiktaş Şubesi"
+   "value": "bube Departman\nİstanbul · Beşiktaş Şubesi"
   },
   {
    "key": "summary.report",
@@ -1310,7 +1310,7 @@
   },
   {
    "key": "career.rank.investigator",
-   "value": "Soruşturmacı · bube Police"
+   "value": "Soruşturmacı · bube Departman"
   },
   {
    "key": "career.record",
@@ -1430,7 +1430,7 @@
   },
   {
    "key": "inbox.brand",
-   "value": "bube Polis  /  İstanbul · Beşiktaş"
+   "value": "bube Departman  /  İstanbul · Beşiktaş"
   },
   {
    "key": "inbox.filter.all",
@@ -1838,7 +1838,7 @@
   },
   {
    "key": "archive.kicker",
-   "value": "BUBE POLİS · KAPANAN DOSYALAR"
+   "value": "BUBE DEPARTMAN · KAPANAN DOSYALAR"
   },
   {
    "key": "archive.title",
@@ -1910,7 +1910,7 @@
   },
   {
    "key": "terminal.title",
-   "value": "BPS Kayıtları"
+   "value": "BDS Kayıtları"
   },
   {
    "key": "terminal.noRecords",
@@ -2242,11 +2242,15 @@
   },
   {
    "key": "menu.tagline",
-   "value": "A DETECTIVE INVESTIGATION GAME"
+   "value": "SORULARIN İZİ, GERÇEĞE YAKLAŞTIRIR"
   },
   {
    "key": "menu.row.continue",
-   "value": "DEVAM ET"
+   "value": "Devam Et"
+  },
+  {
+   "key": "menu.row.start",
+   "value": "Oyuna Başla"
   },
   {
    "key": "menu.row.newCareer",
@@ -2254,11 +2258,27 @@
   },
   {
    "key": "menu.row.settings",
-   "value": "AYARLAR"
+   "value": "Ayarlar"
   },
   {
    "key": "menu.row.career",
-   "value": "KARİYER"
+   "value": "Kariyer"
+  },
+  {
+   "key": "menu.identity.name",
+   "value": "Bora"
+  },
+  {
+   "key": "menu.identity.role",
+   "value": "Soruşturmacı"
+  },
+  {
+   "key": "menu.identity.unit",
+   "value": "bube Departman"
+  },
+  {
+   "key": "menu.identity.location",
+   "value": "İstanbul / Beşiktaş Şubesi"
   },
   {
    "key": "menu.row.quit",
@@ -2426,11 +2446,11 @@
   },
   {
    "key": "menu.row.chapters",
-   "value": "BÖLÜM SEÇİCİ"
+   "value": "Vakalar"
   },
   {
    "key": "world.page.title",
-   "value": "BÖLÜM SEÇİCİ"
+   "value": "VAKALAR"
   },
   {
    "key": "world.cases",
@@ -2623,6 +2643,54 @@
   {
    "key": "world.state.unwritten",
    "value": "YAZILMADI"
+  },
+  {
+   "key": "world.browser.subtitle",
+   "value": "Ülkeleri seç, soruşturmaları incele. Her vaka yeni bir gerçek, yeni bir iz."
+  },
+  {
+   "key": "world.browser.previous",
+   "value": "Önceki vakalar"
+  },
+  {
+   "key": "world.browser.next",
+   "value": "Sonraki vakalar"
+  },
+  {
+   "key": "world.browser.case",
+   "value": "VAKA"
+  },
+  {
+   "key": "desk.view.evidence",
+   "value": "Delil İnceleme"
+  },
+  {
+   "key": "desk.view.phone",
+   "value": "Telefon · Görüşme Talep Et"
+  },
+  {
+   "key": "desk.view.cctv",
+   "value": "CCTV Arşivi"
+  },
+  {
+   "key": "desk.view.activeCase",
+   "value": "AKTİF VAKA"
+  },
+  {
+   "key": "desk.view.file",
+   "value": "Dosya"
+  },
+  {
+   "key": "desk.view.people",
+   "value": "Kişiler"
+  },
+  {
+   "key": "desk.view.clues",
+   "value": "Deliller"
+  },
+  {
+   "key": "desk.view.documents",
+   "value": "Evraklar"
   }
  ]
 }

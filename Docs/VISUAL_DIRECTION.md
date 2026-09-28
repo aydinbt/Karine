@@ -42,8 +42,14 @@ Ana ekran, Bora portresi ve `Oyunu Başlat` ile açılır. İlk kez başlayan oy
 
 ## Masa ve tablet (23 Eylül 2026)
 
-Soruşturma masasında önceki `DeskReference.png` düzeni korunur. Gelen evrak ve fiziksel dosya kâğıt görünümünde açılır. Görüşme talepleri, CCTV ve BPS kayıtları masa üstündeki tabletin ortak kabuğunda gösterilir; tablet açıldığında masa kararır, yan gezinme ve kapatma düğmesi görünür. Oyuncu kaynaklar arasında kendisi geçer. Ana menüde Bora’nın gece ofisinde oturduğu `MainMenuNight.png` kullanılır; başlık ve çalışabilir menü düğmeleri Unity arayüzündedir. Masa görselindeki eski kurum yazıları için kaynak çizim düzeltmesi hâlâ planlıdır. Tablet ekranlarında karakterin iç durumu veya oyuncu adına analiz bulunmaz.
+Soruşturma masasında önceki `DeskReference.png` düzeni korunur. Gelen evrak ve fiziksel dosya kâğıt görünümünde açılır. Görüşme talepleri, CCTV ve BDS kayıtları masa üstündeki tabletin ortak kabuğunda gösterilir; tablet açıldığında masa kararır, yan gezinme ve kapatma düğmesi görünür. Oyuncu kaynaklar arasında kendisi geçer. Ana menüde Bora'nın gece ofisi `main_menu_loop.mp4` videosunda yaşar; video açılamazsa `MainMenuNight.png` kullanılır. 27 Eylül referansındaki logo, beş menü satırı ve Bora kimlik kartı ayrı sprite/UI katmanlarıdır; görüntünün içine gömülmez. Masa görselindeki eski kurum yazıları için kaynak çizim düzeltmesi hâlâ planlıdır. Tablet ekranlarında karakterin iç durumu veya oyuncu adına analiz bulunmaz.
 
 ## Bölüm tamamlandı ekranı (23 Eylül 2026)
 
 **Referans:** [Bölüm özeti konsepti](References/ChapterSummaryConcept.png). Geniş, fiziksel klasör/kâğıt; sol tarafta olay görseli, sağda rapor bilgileri, altta kurum değerlendirmesi ve iki büyük eylem. Oyun sürümünde referanstaki “Çözüldü”, “Başarılı Soruşturma” ve itibar ödülü hemen gösterilmez: rapor yalnız ilgili birime gönderilmiş ve dosya kapanmıştır. Başarı/başarısızlık ile güven değişimi, oyuncu ikinci vakaya geçtikten yedi saniye sonra Gelen Evraklar'a düşen faksta görünür. Referanstaki şüpheli ölüm olayı, tarih ve sonuç metinleri Dosya #001 kanonu değildir.
+
+## Vakalar — 27 Eylül 2026
+Sol koyu sidebar, üst ülke kartpostalları ve alt kâğıt fotoğraf dosyaları referans alınır. Logo ve Bora ayrı mevcut varlıklardır. Mevcut DeskV2 dekoru yeniden kullanılır; referanstaki pano/masa sahnesinin birebir yeniden üretimi değildir. Ülke görselleri tek yeni atlas, #002 kapak karesi mevcut videodan türetilmiştir. Kontroller, yazılar, bantlar, kilitler ve durumlar kodla kurulur.
+
+## Masa — 27 Eylül 2026
+Pencereli ön cephe masa kompozisyonu. Fotoğrafsız beyaz dosya ortada, telefon ve evrak solda, yalnız yazı taşıyan monitör sağda. Görev paneli ve Notlar yoktur. Ülke manzarası aktif dosyaya göre değişir. Yeni OfficeRoom dekoru ve OfficeProps saydam atlası mevcut logo, ülke atlası ve portrelerle birleştirilir. Referansın bütün ekranı tek görsel olarak kullanılmaz.

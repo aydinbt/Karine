@@ -1,16 +1,22 @@
 # Karine — sonraki tasarım düzeltmeleri
 
+## Ana menü görsel hiyerarşisi (27 Eylül 2026)
+
+Kullanıcının sağladığı yeni referansta büyük KARINE logosu sol üstte, kısa Türkçe slogan hemen altında, beş eşit dokunulabilir satır sol ortada ve Bora'nın kimlik kartı sol alttadır. Ana menüde zaten oynayan sinematik video **korunur**; logo, ikonlar, yazılar, düğmeler ve kimlik kartı videonun üstünde ayrı UI öğeleridir. Mevcut `KarineLogo`, ikon sprite'ları ve Bora portresi kullanılır; referans görsel bütün ekranı kaplayan tek bir PNG olarak uygulanmaz. Etkin satır krem, öbürleri koyu yüzeydir; marka ve karakter sağdaki videoyla yarışmaz. Referanstaki Kadıköy ibaresi oyun kanonu değildir: Bora İstanbul/Beşiktaş şubesindedir.
+
+Menü eylemleri Devam Et (kayıt yoksa Oyuna Başla), Vakalar, Kariyer, Ayarlar ve Hakkında'dır. Yeni kariyer akışı ayarlarda, çıkış onayı mobil geri tuşunda kalır. Bu karar yalnız ana menünün sunumunu değiştirir; soruşturma akışı ve vakalar değişmez. Farklı yatay telefon oranlarında hiyerarşi, güvenli alan ve dokunma Play Mode/cihazda gözle kontrol edilecektir.
+
 ## Oyun adı: Karine (25 Eylül 2026)
 
 Oyunun mağazada görünecek adı **Karine** olarak karara bağlandı. Karine, hukukta "dolaylı kanıttan çıkarılan sonuç" demektir; oyuncunun ifadeleri ve kayıtları karşılaştırıp gerekçeli bir sonuca varması olan oyun tezinin birebir karşılığıdır.
 
-`bube` çalışma adı olarak sona erdi. Stüdyo adı **bubeGames**, oyun içi kurmaca kurum adı **bube Police / bube Polis / BPS** olduğu gibi kalır — bunlar oyun adı değil, dünya kurgusunun parçasıdır. Arayüzdeki "bube Polis" metinleri değişmez.
+`bube` çalışma adı olarak sona erdi. Stüdyo adı **bubeGames**, oyun içi kurmaca kurum adı **bube Departman / bube Departman / BDS** olduğu gibi kalır — bunlar oyun adı değil, dünya kurgusunun parçasıdır. Arayüzdeki "bube Departman" metinleri değişmez.
 
 Uygulanan yerler: `config.json` `title`, `ProjectSettings` `productName`, `applicationIdentifier` (`com.bubedigital.karine`), `tr.json` `about.body`. Depo: `github.com/aydinbt/Karine`; çalışma klasörü `bubeGame/karine-mobile`. Aday havuzu, eleme ölçütleri ve müsaitlik kontrol listesi [NAMING.md](NAMING.md) içinde saklanır.
 
 ### Oyun içi kurum adı değişmiyor (25 Eylül 2026)
 
-Oyun adının Karine olması üzerine, oyun içindeki 16 "bube Polis / bube Police" metninin de Karine'ye çevrilmesi değerlendirildi ve **çevrilmemesine karar verildi**. Kurmaca kurum **bube Polis / bube Police**, terminal **BPS — bube Police System** olduğu gibi kalır.
+Oyun adının Karine olması üzerine, oyun içindeki 16 "bube Departman / bube Departman" metninin de Karine'ye çevrilmesi değerlendirildi ve **çevrilmemesine karar verildi**. Kurmaca kurum **bube Departman / bube Departman**, terminal **BDS — bube Departman System** olduğu gibi kalır.
 
 Gerekçe: Karine soyut bir hukuk terimidir ("dolaylı kanıttan çıkarılan sonuç"); oyun başlığı olarak tezi taşır ama kurum adı olarak kuruluş hissi vermez. Oyun başlığının kurumu adlandırmak zorunda olmadığı kabul edildi. Kurum adı sorusu kapanmış değildir; ileride yeniden açılırsa bu madde güncellenir.
 
@@ -37,7 +43,7 @@ Hasan, Bora'nın Elif'le görüşüp görüşmediğini kendiliğinden bilemez. O
 
 ## Sahne ve odak mimarisi (23 Eylül 2026)
 
-Dört gerçek Unity sahnesi vardır: `BootScene` teknik yükleme, `MainMenuScene` atmosferik ana menü, `OfficeScene` soruşturma masasının kalıcı merkezi ve `InterviewScene` fiziksel görüşme odası. Dosya, gelen evrak, tablet/BPS/CCTV ve sonuç raporu yeni sahne yüklemez; `OfficeScene` içinde nesneye dokunma → arka planı karartma → nesneyi öne alma → odak arayüzü açma diliyle çalışır. Görüşme bitince tekrar ofise dönülür. İlk vakada kullanılmayan BPS yetkileri sahte kilitli menü olarak gösterilmez; yetki gerçekten açıldığında araç eklenir. Özel olay yeri sahneleri ileride yalnız içerik gerektirirse açılır.
+Dört gerçek Unity sahnesi vardır: `BootScene` teknik yükleme, `MainMenuScene` atmosferik ana menü, `OfficeScene` soruşturma masasının kalıcı merkezi ve `InterviewScene` fiziksel görüşme odası. Dosya, gelen evrak, tablet/BDS/CCTV ve sonuç raporu yeni sahne yüklemez; `OfficeScene` içinde nesneye dokunma → arka planı karartma → nesneyi öne alma → odak arayüzü açma diliyle çalışır. Görüşme bitince tekrar ofise dönülür. İlk vakada kullanılmayan BDS yetkileri sahte kilitli menü olarak gösterilmez; yetki gerçekten açıldığında araç eklenir. Özel olay yeri sahneleri ileride yalnız içerik gerektirirse açılır.
 
 Ana menü ilk sürümde `Devam Et` (kayıt varsa), `Yeni Oyun`, `Ayarlar`, `Hakkında` ile sınırlıdır. İstatistik/Kariyer/Arşiv sistemleri tamamlanmadan ana menüde yer kaplamaz. `Personel Profili` ve fiziksel `Gelen Evraklar` odak görünümü daha sonra ayrı UI durumları olarak tamamlanacaktır; bunlar için yeni Unity sahnesi açılmayacaktır.
 
@@ -111,9 +117,9 @@ Görüşmede seçilen belge veya kayıt o soruya uygun değilse kişi bunu söyl
 
 Sonuç Raporu fiziksel dosyada tek, geniş bir odak yüzeyi olarak kalır; telefonda kişi → giriş yöntemi → belirleyici kanıt → son kontrol adımlarıyla ilerler. Her iddiada önce seçim, sonra oyuncunun incelediği bir dayanak kaynağı gerekir. İleri düğmesi bu iki seçim olmadan açılmaz. Geri gidildiğinde önceki seçimler korunur. Gönder düğmesi yalnız son kontrol adımındadır ve dosyayı kesin kapatır; doğruluk faks öncesi açıklanmaz.
 
-Son kontrol adımındaki üç iddianın seçilmiş dayanakları dokunularak aynı ekran üzerinde açılır. Açılan kâğıt kart, belge/BPS için tam metni, görüşme için oyuncunun seçtiği **tek soru-cevabı**, CCTV için seçilmiş saatli satırı gösterir. Rapor kaynak seçicisinde görüşmeler artık kişi başlığı yerine ayrı cevap turları olarak seçilebilir; vaka verisindeki kişi düzeyindeki destek tanımı bu turları da kapsar, belirli satır/cevap tanımları ise yalnız birebir eşleşir. Kart kapandığında rapor ve seçimler yerinde kalır; bu okuma yeni kaynak keşfetmez veya doğruluk değerlendirmesi vermez.
+Son kontrol adımındaki üç iddianın seçilmiş dayanakları dokunularak aynı ekran üzerinde açılır. Açılan kâğıt kart, belge/BDS için tam metni, görüşme için oyuncunun seçtiği **tek soru-cevabı**, CCTV için seçilmiş saatli satırı gösterir. Rapor kaynak seçicisinde görüşmeler artık kişi başlığı yerine ayrı cevap turları olarak seçilebilir; vaka verisindeki kişi düzeyindeki destek tanımı bu turları da kapsar, belirli satır/cevap tanımları ise yalnız birebir eşleşir. Kart kapandığında rapor ve seçimler yerinde kalır; bu okuma yeni kaynak keşfetmez veya doğruluk değerlendirmesi vermez.
 
-Raporun dayanak açılır listesinde Tümü / Belgeler / İfadeler / CCTV filtreleri bulunur. Belgeler sekmesi erişilmiş fiziksel belgeleri ve BPS metin kayıtlarını kapsar; İfadeler oyuncunun gerçekten aldığı tekil cevapları, CCTV incelenmiş saatli satırları gösterir. Boş kategori pasiftir. Filtre yalnız görünür listeyi değiştirir; seçilmiş kaynak ve rapor kararı korunur, kaynağın doğruluğuna ilişkin ipucu verilmez.
+Raporun dayanak açılır listesinde Tümü / Belgeler / İfadeler / CCTV filtreleri bulunur. Belgeler sekmesi erişilmiş fiziksel belgeleri ve BDS metin kayıtlarını kapsar; İfadeler oyuncunun gerçekten aldığı tekil cevapları, CCTV incelenmiş saatli satırları gösterir. Boş kategori pasiftir. Filtre yalnız görünür listeyi değiştirir; seçilmiş kaynak ve rapor kararı korunur, kaynağın doğruluğuna ilişkin ipucu verilmez.
 
 Uzun vakalar için aynı seçicide kelime veya saat araması bulunur. Arama yalnız erişilmiş belgenin tam metninde, alınmış ifade soru-cevabında ve incelenmiş CCTV satırında çalışır; `11:48` ile `11.48` eşdeğer kabul edilir. Kategori filtresiyle birlikte uygulanır; sonuç sayısı ve boş durum açıkça gösterilir. Yatay telefon düzeninde arama alanı, temizleme düğmesi, kategori sekmeleri ve kaynak satırları en az 48 birim dokunma yüksekliğiyle tasarlanır. Bu, oyuncunun yerine kaynak ilişkilendirmesi yapmaz.
 
@@ -129,7 +135,7 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 
 ## 25 Eylül 2026 — Gerçek resmî kurum adı kullanılmaz
 
-**Karar (kullanıcı):** Oyun içinde **hiçbir yerde** gerçek resmî kurum, kuruluş veya mevzuat adı kullanılmaz. Kurum kurgusaldır: **bube Polis / BPS**. Kurumsal gönderici "ilgili birim", "kurumsal değerlendirme" gibi genel ifadelerle anılır.
+**Karar (kullanıcı):** Oyun içinde **hiçbir yerde** gerçek resmî kurum, kuruluş veya mevzuat adı kullanılmaz. Kurum kurgusaldır: **bube Departman / BDS**. Kurumsal gönderici "ilgili birim", "kurumsal değerlendirme" gibi genel ifadelerle anılır.
 
 **Metin durumu:** `tr.json`'daki 577 anahtarın hiçbirinde gerçek kurum adı yok; kural zaten uygulanıyordu. `LocaleRules` artık yasaklı ad listesini her koşumda denetliyor (`ValidationReportTests.RealInstitutionNames_AreRejected`). Liste tam sözcük eşleşmesine bakar, böylece "birim", "müdür", "kurumsal" gibi genel sözcükler yanlış alarm üretmez.
 
@@ -178,7 +184,7 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 1. Terminaldeki "EMNİYET SİSTEMİ" **değişmeli** — dedektifin bağlı olduğu departmanın **uydurma** adı yazılmalı.
 2. **Arma sorun değil:** gerçek bir rozet değil, uydurma görünüyor. Kurum adı yasağı armayı kapsamaz.
 
-**Önerilen kurgusal ad:** Kurum **bube POLİS (BPS)**, departman **3. SORUŞTURMA MASASI**, terminal yazısı **"BPS KAYIT SİSTEMİ"**. Üst şeritteki "bube POLİS / İSTANBUL · BEŞİKTAŞ" olduğu gibi kalır.
+**Önerilen kurgusal ad:** Kurum **bube POLİS (BDS)**, departman **3. SORUŞTURMA MASASI**, terminal yazısı **"BDS KAYIT SİSTEMİ"**. Üst şeritteki "bube POLİS / İSTANBUL · BEŞİKTAŞ" olduğu gibi kalır.
 
 **Durum:** Bu yazı `DeskReference.png`'nin **içine gömülü**, kodda değil; ancak yeni görselle değişir.
 
@@ -195,7 +201,7 @@ Klip açıldığında oynatıcı tabletin iç ekranını kaplar; arşiv başlı�
 
 **(Geri alındı — 25 Eylül 2026)** Bir ara masa arka planı videonun son karesi yapılmıştı. Kullanıcı **eski masa görselini geri istedi**; `Desk()` yine `DeskReference.png` yüklüyor ve künye şeridi üstte. Videonun son karesiyle masanın birebir aynı olmaması artık sorun değil, çünkü aradaki geçiş karartmayla yapılıyor.
 
-**Kurum adı bitti — yerine hiçbir şey konmadı.** Terminaldeki "EMNİYET SİSTEMİ" `DeskReference.png`'den silindi (ekranın kendi arka planıyla kapatıldı). Kısa süre yerine kurgusal bir ad ("BPS KAYIT SİSTEMİ") koddan yazıldı, ama **kullanıcı kararıyla o da kaldırıldı**: ekranda yalnız "CCTV ARŞİVİ" kalıyor ve terminalin ne olduğu zaten anlaşılıyor. Kurum adı yazmamak, kurgusal kurum adı yazmaktan daha temiz — yazılmayan ad ihlal edemez.
+**Kurum adı bitti — yerine hiçbir şey konmadı.** Terminaldeki "EMNİYET SİSTEMİ" `DeskReference.png`'den silindi (ekranın kendi arka planıyla kapatıldı). Kısa süre yerine kurgusal bir ad ("BDS KAYIT SİSTEMİ") koddan yazıldı, ama **kullanıcı kararıyla o da kaldırıldı**: ekranda yalnız "CCTV ARŞİVİ" kalıyor ve terminalin ne olduğu zaten anlaşılıyor. Kurum adı yazmamak, kurgusal kurum adı yazmaktan daha temiz — yazılmayan ad ihlal edemez.
 
 Üst künye şeridi %97 saydamdı ve altındaki gömülü kurum yazısı hayalet gibi sızıyordu; şerit tamamen opak yapıldı.
 
@@ -656,7 +662,7 @@ Bölüm seçici maketi on ülke × yedi dosya gösteriyordu, kanon ise yedi dün
 
 ## Dosya #002 "Son Sefer" ve dört sütunlu rapor (26 Eylül 2026)
 
-Vaka 2'nin senaryosu kullanıcı tarafından yazıldı ve eski "Kayıp Yedek" taslağının yerine geçti; taslak veriyle birlikte tamamen kaldırıldı. Yeni vaka kişilere karşı işlenen suçlar alanındadır (yağma/gasp — yaralama) ve **BPS Asayiş Masası**na bağlıdır. Gerçek birim adları yasak listesine eklendi (KOM, narkotik, TEM, adli tıp kurumu ve açık yazımları); büro adları kurmaca BPS adlarından seçilir.
+Vaka 2'nin senaryosu kullanıcı tarafından yazıldı ve eski "Kayıp Yedek" taslağının yerine geçti; taslak veriyle birlikte tamamen kaldırıldı. Yeni vaka kişilere karşı işlenen suçlar alanındadır (yağma/gasp — yaralama) ve **BDS Asayiş Masası**na bağlıdır. Gerçek birim adları yasak listesine eklendi (KOM, narkotik, TEM, adli tıp kurumu ve açık yazımları); büro adları kurmaca BDS adlarından seçilir.
 
 Tasarım kararı: bir olayda birden fazla sorumluluk olabilir. Selçuk Yalın'ı yaralayan Emre Koç'tur, ama parayı alan Kerem Şahin'dir; Deniz Arslan olaydan önce ayrılmıştır ve suçsuzdur. Mağdur da yalan söyler (kayıt dışı borcu saklar) ama mağdurdur — **yalan söylemek fail olmak değildir**. Oyun hiçbir yerde "şu kişi yalan söylüyor" demez; kimseyi bir sonraki kaynağa yönlendirmez.
 
@@ -720,3 +726,26 @@ verir ve sırtını yaslar, Deniz ellerini kucağına çeker, Kerem duraksar, Se
 sustuktan sonra gözünü kaçırmaz. Kimin ne sakladığı satırdan okunmaz; satır
 yalnız oyuncuya *neyi tekrar sormak isteyeceğini* düşündürür. Doğrulayıcının
 yorum sözcüğü yasağı ve 16 sözcük sınırı 65 satırın hepsinde geçiyor.
+
+## 27 Eylül 2026 — Vakalar sayfası
+Kullanıcının referansı sunum hiyerarşisidir: solda logo, menü ve Bora; sağda başlık, yatay ülke kartları ve polaroid dosyalar. Tam ekran referans görseli UI olarak kullanılmaz. Menü videosu ana menüde korunur. On ülke × yedi slot, Beşiktaş bilgisi ve gerçek dosya adları mevcut kanondan gelir; referanstaki hayali sonraki vaka adları aktarılmaz. Ülke atlası yalnız dekoratif kartpostal, delil değildir. Henüz yazılmamış vakalara yeni hikâye içeriği eklenmez.
+
+## 27 Eylül 2026 — Parçalı soruşturma masası
+Kullanıcının masa referansı uygulanırken Görev ve Notlar kaldırılır. Dosya fotoğrafsız beyaz kapak; monitör yalnız CCTV Arşivi girişidir, görüntü önizlemesi vermez. Pencere, menüde gezilen ülkeye değil aktif dosyanın Worlds.json üyeliğine göre ülke kartpostalını gösterir. Oda dekoru, saydam nesne atlası, ülke manzarası, portreler ve metin/düğmeler ayrı katmanlardır. Panoda yalnız erişilmiş kişiler bulunur; otomatik ilişki/şüpheli çıkarımı yapılmaz. Oynanış kuralları değişmez.
+
+## Kurum adı: "bube Polis" değil "bube Departman" (28 Eylül 2026)
+
+Kurum zaten kurgusaldı, ama adı **polis** sözcüğünü taşıdığı sürece oyuncunun
+kafasında gerçek teşkilata oturuyordu. Artık hiçbir metinde geçmiyor:
+
+- `bube Polis` / `bube Police` → **bube Departman**
+- `bube POLİS`, `BUBE POLİS` (şeritler, terminal başlıkları) → **bube DEPARTMAN**
+- Terminal kısaltması `BPS` (*bube Police System*) → **BDS** (*bube Departman
+  Sistemi*); masadaki marka yazısı, kamera arşivi başlığı, kayıt etiketleri ve
+  Dosya #002'nin dosya numarası (`BDS-2026-0214`) dâhil.
+
+Rütbe ve birim adları (Soruşturmacı, Soruşturma Birimi, Asayiş Masası) olduğu
+gibi kaldı; onlar bir kuruma işaret etmiyor. `LocaleRules.ForbiddenInstitutions`
+listesi değişmedi — "polis merkezi", "karakol" gibi girdiler oradaki yasak
+listesidir, kurumun kendi adı değil.
+

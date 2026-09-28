@@ -1,11 +1,11 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 26 Eylül 2026 (bölüm seçici ekranı kodlandı; ses ve ayarlar oynanıştan gelen geri bildirimle kapandı)  
+**Son durum:** 27 Eylül 2026 (Vakalar ve masa sunumu referanslara uyarlandı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 113 test: 106 EditMode + 7 PlayMode)  
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 124 test: 111 EditMode + 13 PlayMode)
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -63,14 +63,14 @@ Aşama 1 cihaz sınaması tamamlanana kadar bitmiş sayılmaz. Sonraki geliştir
 
 ## Ürün hedefi
 
-Oyuncu Bora'nın masasında Dosya #001'i alır; belgeleri ve ifadeleri inceler, metin tabanlı CCTV/BPS kayıtlarını kontrol eder, yeni kanıtlarla kişilere tekrar döner, gerekçeli raporunu göndererek dosyayı kesin kapatır. Bölüm özeti ardından kurumsal değerlendirme Gelen Evraklar faksıyla gelir. Sonraki vakalar temel kodu değiştirmeden veri ve Türkçe metin eklenerek hazırlanabilmelidir.
+Oyuncu Bora'nın masasında Dosya #001'i alır; belgeleri ve ifadeleri inceler, metin tabanlı CCTV/BDS kayıtlarını kontrol eder, yeni kanıtlarla kişilere tekrar döner, gerekçeli raporunu göndererek dosyayı kesin kapatır. Bölüm özeti ardından kurumsal değerlendirme Gelen Evraklar faksıyla gelir. Sonraki vakalar temel kodu değiştirmeden veri ve Türkçe metin eklenerek hazırlanabilmelidir.
 
 ## Şu an çalışan temel
 
 - [x] Unity 6000.3.17f1 projesi ve `Bootstrap` sahnesi açılıyor.
 - [x] Bora portreli “Oyunu Başlat” ana ekranı, dosya kabul sahnesi, yatay masa görünümü ve ilk dosyaya giriş var. Kabul durumu yerel kayda yazılır.
 - [x] Türkçe metin kataloğu, vaka JSON'u, önkoşullu belge/görüşme sırası ve yerel ilerleme kaydı var.
-- [x] Metin tabanlı kamera/BPS kayıtları, sonuç seçimi ve gönderilen raporun dosyayı kesin kapatması kodda var.
+- [x] Metin tabanlı kamera/BDS kayıtları, sonuç seçimi ve gönderilen raporun dosyayı kesin kapatması kodda var.
 - [x] Kamera eksikliği giderildi; masa görseli Unity'de gösteriliyor.
 - [x] Dosya #001 **baştan kapanışa kadar** elle oynandı (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz. Cihazda yinelenmesi ayrı madde.
 - [ ] Android/iOS cihaz testi ve yeniden açınca kayıt doğrulaması yapılmadı.
@@ -100,7 +100,7 @@ Bu bölümdeki işaretler teslim edilmiş davranışları gösterir; otomatik do
 - [~] Sonuç Raporu masa üstündeki doğrudan düğmeden kaldırıldı; yalnız fiziksel dosyanın içindeki sekmeden açılır. Rapor kâğıt görünümünde seçilip gönderiliyor ve dosya kapanıyor. Yeni giriş yolunun Unity Play Mode ve cihaz dokunma testi açık.
 - [~] IBM Plex Mono Regular/SemiBold rapor seçimleri ve butonlarına uygulandı; ana menü ve tablet başlıklarına kısa glitch açılışı eklendi. Font tutarlılığı ve animasyonun okunurluğu Unity’de görsel olarak doğrulanmalı.
 
-- [x] Masa nesnelerinin görevleri net: gelen evrak/dosya dosyayı, telefon görüşmeleri, **yalnız masadaki terminal** CCTV/BPS kayıtlarını açar. Hasan’ın kamera sözü yalnız terminal kaynağını erişilebilir yapar; otomatik geçiş veya görev oku yoktur. Terminale masadan erişim ve dosyadan doğrudan inceleme yolunu kaldırma kodda yapıldı; tam Play Mode tıklama testi açık.
+- [x] Masa nesnelerinin görevleri net: gelen evrak/dosya dosyayı, telefon görüşmeleri, **yalnız masadaki terminal** CCTV/BDS kayıtlarını açar. Hasan’ın kamera sözü yalnız terminal kaynağını erişilebilir yapar; otomatik geçiş veya görev oku yoktur. Terminale masadan erişim ve dosyadan doğrudan inceleme yolunu kaldırma kodda yapıldı; tam Play Mode tıklama testi açık.
 - [~] Yeni tutanak masa/dosya işaretiyle, talep edilmiş Eşya Tespit Raporu hazır olduğunda Gelen Evraklar bildirimiyle fark edilir; görev oku veya “şimdi X ile konuş” emri verilmez. Belge akışı yalıtılmış Unity içerik testinden geçti, açık Editor ve cihaz görsel/dokunma testi bekliyor.
 - [~] Gelen Evraklar fiziksel belge odak görünümüyle açılır: bekleyen inceleme talebi, teslim edilen rapor ve kurumsal faks burada görülür. Oyuncu raporu kendisi dosyaya alır; görünümün Unity ve cihaz etkileşimi doğrulanmalı.
 - [ ] Bora’nın kısa Personel Profili yeni oyun girişinde UI odak görünümü olarak eklenir.
@@ -115,7 +115,7 @@ Bu bölümdeki işaretler teslim edilmiş davranışları gösterir; otomatik do
 - [~] Görüşmeye kaydedilmiş soru-cevaplar için sağ sütunda Sorular / Geçmiş geçişi eklendi. Geçmiş tam metni kronolojik ve kaydırılabilir gösterir; yeni bilgi/yorum üretmez, soru listesi ve konu seçimi geçişte korunur. İlk kayıt öncesi görünmez, yeniden girişte Sorular açılır. Türkçe içerik ve kayıt erişimi statik olarak denetlendi; Unity Play Mode, küçük yatay ekran ve gerçek dokunma/kaydırma testi açık.
 - [ ] Yeni oyun ilerlemeyi sıfırlar; Devam Et, uygulama kapatılıp açıldıktan sonra aynı dosya durumunu yükler.
 - [ ] Play Mode'da tam yol ve ters sıra/geri dönüş senaryoları tamamlanır; Console'da hata kalmaz. İçerik doğrulaması geçti, fakat tam tıklama akışı henüz sınanmadı.
-- [~] CCTV/BPS için eski yan menülü tablet ve ayrı arşiv listesi kaldırıldı. Masadaki terminal erişilebilir tek kaydı doğrudan elde tutulan tablete açar; kayıt yoksa aynı tablette kısa boş durum gösterir, birden çok kayıt olduğunda tablet içi sekmeler kullanır. Masa görseline gömülü sahte Gelen Evrak “1” rozeti kaynak PNG'den kaldırıldı; yeni belge/faks sayacı yalnız gerçek gelen öğelerde çizilir ve beklerken güncellenir. Kullanıcı Play Mode'da doğrulayacak.
+- [~] CCTV/BDS için eski yan menülü tablet ve ayrı arşiv listesi kaldırıldı. Masadaki terminal erişilebilir tek kaydı doğrudan elde tutulan tablete açar; kayıt yoksa aynı tablette kısa boş durum gösterir, birden çok kayıt olduğunda tablet içi sekmeler kullanır. Masa görseline gömülü sahte Gelen Evrak “1” rozeti kaynak PNG'den kaldırıldı; yeni belge/faks sayacı yalnız gerçek gelen öğelerde çizilir ve beklerken güncellenir. Kullanıcı Play Mode'da doğrulayacak.
 - [~] Gelen Evraklar fiziksel tepsi/klasör odak görünümüne dönüştürüldü: solda tüm/yeni/okunan listesi, sağda seçilen belgenin okunabilir kâğıdı; bekleyen rapor, gelen rapor, dosyaya alınmış rapor, okunmamış faks ve eski fakslar erişilebilir. Dosya #001 ilk rapor ve eşya tutanağı ayrıntılandırıldı. Kurumsal faks üç iddiayı ayrı gerekçeli bölümlerde açıklar; yeni faksın ilişkili dosya adı listede görünür. Unity derleme ve içerik doğrulaması geçti; görsel/dokunma testi açık.
 
 **Bitti ölçütü:** Yeni kayıttan başlayan bir oyuncu Dosya #001'i tek oturumda kapatır, oyunu yeniden açınca kapanmış hâlini görür ve yeni oyunla temiz başlangıç yapar.
@@ -158,7 +158,7 @@ Bu bölümdeki işaretler teslim edilmiş davranışları gösterir; otomatik do
 - [~] Alınmış bir ifadenin belirli soru-cevap çifti başka kişiye kaynak olarak gösterilebilir. Dosya #001'de Mert'in yedek anahtarı Hasan'a gösterdiğini anlattığı cevap, Hasan'a yeni bir takip sorusu açar. İfade kartında tam soru-cevap görünür; kullanılmayan veya hiç alınmamış cevap öne sürülemez. Unity derleme/içerik doğrulaması geçti; Play Mode görünüm/dokunma testi açık.
 - [~] Dosya #001'e Mert, Elif ve Hasan için on isteğe bağlı görüşme sorusu eklendi. Ayrılık, kişisel eşyalar, komşuluk, anahtar ve hafıza ayrıntıları farklı sırayla açılır. Bu dallar dosyayı kapatmanın zorunlu koşulu değildir ve otomatik suçluluk yorumu üretmez. Unity içerik doğrulaması geçti; Play Mode anlatı/okunabilirlik testi açık.
 - [~] Görüşmedeki açık sorular vaka verisindeki nötr konu başlıkları altında toplanır. Yalnız açılmış sorular gösterilir, başlıklar oyuncuya çözüm sırası önermez; birden çok konu varsa dokunarak açılıp kapanır. Oyuncunun son açtığı konu aynı kişiyle görüşmeye devam ederken korunur. Dosya #001'in otuz sorusu Türkçe başlıklara ayrıldı. Unity derleme/içerik doğrulaması geçti; Play Mode okunabilirlik/dokunma testi açık.
-- [~] Fiziksel dosyada arama sayfası: oyuncu açtığı belge/BPS metninde, aldığı ifade cevaplarında ve tamamladığı CCTV dökümünde Türkçe duyarlı kelime/saat arar. Eşleşen alıntı ve kaynak başlığı gösterilir; ifade ve CCTV sonucundan ilgili satıra kaydırılır. Erişilmemiş bilgi ve çelişki/fail yorumu gösterilmez. Unity derleme/içerik ve erişim doğrulaması geçti; Play Mode klavye/okunabilirlik testi açık.
+- [~] Fiziksel dosyada arama sayfası: oyuncu açtığı belge/BDS metninde, aldığı ifade cevaplarında ve tamamladığı CCTV dökümünde Türkçe duyarlı kelime/saat arar. Eşleşen alıntı ve kaynak başlığı gösterilir; ifade ve CCTV sonucundan ilgili satıra kaydırılır. Erişilmemiş bilgi ve çelişki/fail yorumu gösterilmez. Unity derleme/içerik ve erişim doğrulaması geçti; Play Mode klavye/okunabilirlik testi açık.
 
 **Bitti ölçütü:** Oyuncu Elif'in yalanını keşfeder ama Hasan'ı ancak bağımsız kanıtları birleştirerek doğru gerekçeyle seçer. Birinci vakanın metinleri ve zaman çizelgesi çelişkisizdir.
 
@@ -169,7 +169,7 @@ Bu bölümdeki işaretler teslim edilmiş davranışları gösterir; otomatik do
 Yeni görevlendirme ritüeli: kapalı dosya için yalnız yayımlanmış bir sonraki vaka Gelen Evraklar'da okunmamış görevlendirme olarak görünür. Bölüm özeti ve masadaki “Yeni görevlendirme” eylemi bu evraka götürür; vaka ancak oyuncu evraktaki “Dosyayı aç” eylemini seçince yüklenir ve ardından ayrı dosya kabul ekranı açılır. Değerlendirme faksı bağımsızdır; yeni görev için onu okumak gerekmez. Taslak #002 bildirim veya rozet üretmez. Unity yalıtılmış kopya derleme ve içerik doğrulaması geçti; gerçek Play Mode ve cihaz testi açık.
 
 - [ ] Vaka içeriği için şema doğrulaması: kimlikler, önkoşullar, metin anahtarları, erişilemeyen düğümler, döngüler.
-- [~] Vaka kataloğu ve tamamlanan/yeni vaka durumu eklenir. Ana menüdeki salt okunur Dosya Arşivi, bu kariyerde kapanmış ve kaydı bulunan dosyaları gösterir; gönderilen rapor, erişilmiş belgeler/BPS-CCTV kayıtları, gerçekten sorulmuş ifade cevapları ve oyuncunun sabitlediği zaman çizelgesi yeniden okunur. Çizelge yalnız erişilmiş bilgiyle kaydedilmiş kartları gösterir; arşivde değiştirilemez. Raporla açılmış kurumsal faks aynı sayfada yan yana karşılaştırılır; faks Gelen Evraklar'dan açılmadan değerlendirme gösterilmez. Rapordaki erişilebilir dayanak bağlantısı belgeye, belirli CCTV satırına veya belirli ifade cevabına gider; satır/cevap vurgulanır. Arşiv aktif vakayı veya kayıtları değiştirmez. Unity derleme doğrulaması geçti; Play Mode mobil gezinme, kaynak bağlantıları, faks öncesi/sonrası görünüm, zaman çizelgesi ve eski kayıt kontrolü açık. Açık vakalar için ayrı katalog düzeni daha sonra.
+- [~] Vaka kataloğu ve tamamlanan/yeni vaka durumu eklenir. Ana menüdeki salt okunur Dosya Arşivi, bu kariyerde kapanmış ve kaydı bulunan dosyaları gösterir; gönderilen rapor, erişilmiş belgeler/BDS-CCTV kayıtları, gerçekten sorulmuş ifade cevapları ve oyuncunun sabitlediği zaman çizelgesi yeniden okunur. Çizelge yalnız erişilmiş bilgiyle kaydedilmiş kartları gösterir; arşivde değiştirilemez. Raporla açılmış kurumsal faks aynı sayfada yan yana karşılaştırılır; faks Gelen Evraklar'dan açılmadan değerlendirme gösterilmez. Rapordaki erişilebilir dayanak bağlantısı belgeye, belirli CCTV satırına veya belirli ifade cevabına gider; satır/cevap vurgulanır. Arşiv aktif vakayı veya kayıtları değiştirmez. Unity derleme doğrulaması geçti; Play Mode mobil gezinme, kaynak bağlantıları, faks öncesi/sonrası görünüm, zaman çizelgesi ve eski kayıt kontrolü açık. Açık vakalar için ayrı katalog düzeni daha sonra.
 - [~] Rapor gönderme sinematiği (`report_send.mp4`) rapor ile vaka özeti arasına girdi; GEÇ düğmesi varış filmiyle aynı yerde. **Play Mode'da gözle görülmedi.**
 - [~] Bölüm geçişinde dosya bırakılış animasyonu her yeni vakada oynuyor; daha önce yalnız dünyanın ilk dosyasında vardı. İki PlayMode testi var, ama **cihazda/Play Mode'da gözle görülmedi**.
 - [~] Dosya #002 — Son Sefer: 26 Eylül 2026'da kullanıcının verdiği senaryo vakanın yerine geçti ve eski "Kayıp Yedek" taslağı tamamen kaldırıldı. Veri yazıldı (13 düğüm, 31 soru, 170 metin anahtarı), `draft` bayrağı kalktı, doğrulayıcı vakayı baştan sona oynayıp dört sütunlu raporu gönderiyor. Geçiş, kayıt/yeniden açma, faks zamanlaması ve dokunma akışı **Play Mode'da sınanmadı**. [CASE002_DESIGN.md](CASE002_DESIGN.md) artık onaylanmış içeriğin kaydıdır.
@@ -249,7 +249,7 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **Yazı tipi rol tablosu** (`FontSet`): Heading / Mono / Body ayrıldı, eksik dosya mono'ya düşüyor ve doğrulayıcı not yazıyor. `RobotoSlab-ExtraBold.ttf` ve `Inter-Regular.ttf` **projede yok** — bu yüzden bugün ekranda görünür bir değişiklik yok.
 - [~] **Bütün görsellerde içe aktarım oranı kilitlendi** (11 meta). Arka planlar yatayda ~%12, bayrak ~%33 esniyordu; artık esnemiyor. Doğrulayıcı kuralı eklendi ve düştüğü görülerek sınandı. Ekranlara gözle bakılmadı → `[~]`.
 
-- [~] **Ana menü maketle eşlendi ve arka plana dönen animasyon bağlandı.** Logo, alt başlık, beş satırlık menü, sağ alt köşede stüdyo bloğu; video açılmazsa durağan görsele düşüyor. Satırların gerçekten çizildiği **Play Mode testiyle** doğrulandı (7 PlayMode testi); yerleşim oranlarına **gözle bakılmadı** → `[~]`.
+- [~] **Ana menü 27 Eylül görseline göre yeniden düzenlendi.** Var olan döngü videosu ve hata durumundaki durağan görsel korunuyor. Logo ve Türkçe slogan solda; kayda göre Devam Et/Oyuna Başla, Vakalar, Kariyer, Ayarlar, Hakkında beş eşit satırda; Bora portresi ve kimliği sol altta ayrı kartta. Mevcut ikon/portre sprite'ları ve `KarineUI` bileşenleri kullanıldı, menü ekranı tek bir arka plan PNG'sine çevrilmedi. Yeni kariyer ayarlarda, çıkış geri tuşu onayında erişilebilir. Kod ve test doğrulaması yapıldı; referansa göre yerleşim ve dar yatay ekran cihazda gözle doğrulanacak.
 - [~] **KARINE UI/UX Kit bağlayıcı tasarım sistemi olarak uygulandı.** `KarineTheme` (palet, boşluk, köşe, dokunma, devinim, diegetic kâğıt katmanı) + `KarineUI` (dört düğme biçimi, ikon düğme, panel, sekme, rozet, modal, bildirim, evrak gezintisi, ilerleme, tooltip). Eski palet sabitleri temaya bağlandı, kâğıt renkleri adlandırıldı (38 tekrar kalktı), ham renk borcu 156'da kilitlendi. 19 yeni EditMode testi kit kurallarını (palet hex'leri, düğme hiyerarşisi, 48 px dokunma hedefi, modal sırası, tipografi rolleri, köşe dili, devinim süreleri) sınıyor. **Ekranlara gözle bakılmadı** → `[~]`.
 - [~] **`BubeApp.cs` bölündü** — 3.125 satırlık tek dosya konu başına sekiz `partial` parçaya ayrıldı; en uzun dosya 529 satır. Doğrulayıcıya 560 satır kilidi kondu. Testler bölünmeden sonra da geçiyor, **ekranda ayrıca bakılmadı** → `[~]`.
 - [~] **Gövde yazısı mono'dan çıktı, büyük başlıklar logo diline yaklaştı** — kök öğe IBM Plex Mono'ya bağlıydı ve bütün oyun monospace okunuyordu; kök Inter oldu, mono yalnız teknik metinde kaldı. Büyük başlıklar (≥28) Alfa Slab One. **Ekranda görülmedi** → `[~]`.
@@ -267,3 +267,16 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [~] **Ödüllü yeniden deneme** — `Investigation.MayReopen`/`ReopenForRetry`: iade tam o faksın götürdüğü kadar, gerekirse görevden ayrılma kalkıyor; `reviewHistory` satırı "yeniden açıldı" işaretiyle kalıyor ve ikinci deneme kendi satırını yazıyor; soruşturma korunuyor, yalnız rapor alanları boşalıyor. Yedi EditMode testi. Play Mode'da gözlenmedi → `[~]`.
 - [x] **Sessiz düğmeler, duyulmayan müzik ve masanın müziği** — oyun baştan sona oynandıktan sonra gelen dört bulgu kapatıldı. (1) Masadaki nesneler (`Hotspot`: gelen evrak, dosya, terminal, görüşme), menü satırı ve CCTV oynatma düğmeleri **sessizdi**: ses kilidi yalnız `Runtime/UI` içine bakıyordu, artık bütün `Runtime`e bakıyor. (2) Ana menü müziği hiç duyulmuyordu: akış klibi `Play()` anında yüklü değildi ve Unity bunu sessizce geçiyor — içe aktarım artık önceden yüklüyor, `AudioDirector` de yüklenmemiş klibi yüklüyor; ayrıca "kısık" kademesi 0,35'ten 0,55'e çıktı. (3) Masada oda gürültüsü yerine **müzik** çalıyor (`desk_theme`, 40 s, menüden yavaş ve alçak); `room_office` silindi. (4) Ayarlar sayfası yenilendi: kart telefonda kenardan %5 (eskiden %27, dikey ekranda daracık bir şerit oluyordu), içerik kaydırılabilir, bölümler alt başlık ve çizgiyle ayrılmış. Ses beş kademeye çıktı (kapalı, %25, %50, %75, tam) ve radyo listesiyle seçiliyor; eski üç kademeli kayıt en yakın kademeye çevriliyor. Dördü de kullanıcı tarafından oyunda **görüldü ve duyuldu** (25–26 Eylül 2026) → `[x]`.
 - [x] Arşiv kariyer ekranına, Hakkında ayarlara taşındı — menü maketteki beş satıra indi, iki işlev kaybolmadı.
+
+## 27 Eylül 2026 — Vakalar referans tasarımı
+
+- [~] Sol KARINE/Bora menüsü, yatay ülke kartları, fotoğraflı dosya kartları ve önceki/sonraki gezinme ortak UI bileşenleriyle kuruldu.
+- [~] Ülke atlası eklendi; Dosya #001 mevcut bina görselini, #002 mevcut CCTV videosundan alınan kapak karesini kullanır. Yazılmamış vakalar ülke kartpostalını kullanır, hikâye görseli diye sunulmaz.
+- [ ] Unity Game görünümünde referansla görsel karşılaştırma ve telefon üzerinde dokunma kontrolü.
+
+## 27 Eylül 2026 — Masa referansı
+- [~] Oda, ülke penceresi, beyaz dosya, telefon, tepsi, monitör ve delil öğeleri ayrı yeniden kullanılabilir katmanlara taşındı. Görev ve Notlar yok.
+- [~] Mevcut kabul/açık/kapalı/emekli dalları ve evrak rozeti korunuyor; dokunma alanları en az 48 birim.
+- [ ] Gerçek telefonda son görsel kabul ve dokunma denemesi.
+
+Masa doğrulaması: 111 EditMode + 13 PlayMode geçti. Grafik etkin Unity testinde 1280×720 masa görüntüsü alındı; son yerleşim görsel olarak incelendi. Bu, fiziksel telefonda dokunma kabulünün yerine geçmez.

@@ -335,94 +335,85 @@ public sealed partial class BubeApp {
   Text(block,T(reasonKey),KarineTheme.Paper.Faded,14).style.marginBottom=0;
  }
  void Desk() {
-  // Masa oyunun ana ekranı; geri tuşu menüye götürür, oyunu kapatmaz.
-  Back(Home);
-  StopCctvVideo();
-  StopMenuVideo();
-  EnsureScene("OfficeScene");
-  showingInterviewList=false;
-  showingInvestigationRequests=false;
-  root.Clear();
-  var texture=Resources.Load<Texture2D>("Bube/DeskReference");
-  if(texture==null) {
-   Frame(T("desk"),T("desk.title"),T("desk.subtitle"));
-   Button(root,T("desk.open"),FilePage,true);Button(root,T("back.home"),Home);return;
+  Back(Home);StopCctvVideo();StopMenuVideo();EnsureScene("OfficeScene");
+  showingInterviewList=false;showingInvestigationRequests=false;root.Clear();
+  root.style.backgroundColor=KarineTheme.Background;
+  // Active case membership selects the view; menu selection never changes it.
+  var countries=Worlds.Load();
+  var country=countries.countries.FirstOrDefault(c=>c.slots.Any(s=>s.caseId==game.Data.id));
+  var stage=KarineUI.OfficeStage(root,country==null?"tr":country.id);
+  var header=new VisualElement {name="OfficeHeader"};
+  KarineUI.OfficePlace(header,new Rect(0,0,100,12));
+  header.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.94f);
+  header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;
+  header.style.paddingLeft=KarineTheme.SpaceXl;header.style.paddingRight=KarineTheme.SpaceLg;stage.Add(header);
+  KarineLogo.Hero(header,KarineTheme.Office.BrandWidth);
+  var heading=KarineUI.Subtitle(header,T(game.Data.titleKey),KarineTheme.Office.TitleSize);
+  heading.style.marginLeft=KarineTheme.SpaceXl;heading.style.flexGrow=1;heading.style.marginBottom=0;
+  bool usable=game.State.caseAccepted&&!game.State.closed&&!game.Career.retired;
+  if(usable) {
+   KarineUI.OfficeHeaderAction(header,"folder",T("desk.view.file"),FilePage);
+   KarineUI.OfficeHeaderAction(header,"people",T("desk.view.people"),()=>InterviewRequests());
+   KarineUI.OfficeHeaderAction(header,"binoculars",T("desk.view.clues"),()=>{selectedFileSection="evidence";FilePage();});
+   KarineUI.OfficeHeaderAction(header,"document",T("desk.view.documents"),InboxPage);
+   KarineUI.OfficeHeaderAction(header,"gear",T("menu.row.settings"),SettingsPage);
   }
-  var image=new Image { image=texture, scaleMode=ScaleMode.ScaleAndCrop, pickingMode=PickingMode.Ignore };
-  image.style.position=Position.Absolute;
-  image.style.left=0;image.style.top=0;image.style.right=0;image.style.bottom=0;
-  root.Add(image);
-  var badge=new VisualElement();
-  badge.style.position=Position.Absolute;
-  badge.style.left=Length.Percent(32.5f);badge.style.top=Length.Percent(31.6f);
-  badge.style.width=Length.Percent(2.6f);badge.style.height=Length.Percent(4.1f);
-  badge.style.backgroundColor=KarineTheme.Danger;
-  KarineUI.Round(badge,KarineTheme.Radius);
-  badge.pickingMode=PickingMode.Ignore;
-  root.Add(badge);
-  inboxBadge=badge;
-  inboxBadgeLabel=KarineUI.Technical(badge,string.Empty,15);
-  inboxBadgeLabel.style.color=KarineTheme.Background;
-  inboxBadgeLabel.style.unityTextAlign=TextAnchor.MiddleCenter;
-  inboxBadgeLabel.style.marginBottom=0;
-  inboxBadgeLabel.style.flexGrow=1;
-  inboxBadgeLabel.pickingMode=PickingMode.Ignore;
-  RefreshInboxBadge();
-  // Okunmamis evrak varken rozet yanip soner. Zamanlayici rozetin paneline bagli
-  // oldugu icin ekran degisince kendiliginden durur.
-  badge.schedule.Execute(()=>{
-   if(inboxBadge==null)return;
-   bool dim=inboxBadge.style.opacity.value>.6f;
-   inboxBadge.style.opacity=dim?.3f:1f;
-  }).Every(520);
-  var header=new VisualElement();
-  header.style.position=Position.Absolute;header.style.left=0;header.style.right=0;
-  header.style.top=0;header.style.height=Length.Percent(11);
-  header.style.backgroundColor=KarineTheme.Glass;
-  header.style.paddingLeft=36;header.style.paddingTop=12;
-  root.Add(header);
-  var brand=Text(header,T("desk.brandLocation"),Ink,21);brand.style.marginBottom=2;
-  var caseTitle=Text(header,T(game.Data.titleKey),Gold,14);caseTitle.style.marginBottom=0;
-  var patch=new VisualElement();
-  patch.style.position=Position.Absolute;patch.style.left=Length.Percent(44);
-  patch.style.top=Length.Percent(79);patch.style.width=Length.Percent(17);
-  patch.style.height=Length.Percent(7);
-  patch.style.backgroundColor=KarineTheme.Accent;
-  patch.style.unityTextAlign=TextAnchor.MiddleCenter;
-  root.Add(patch);
-  Text(patch,T("desk.location"),Base,16);
-  if(game.Career.retired) {
-   var end=Panel(root);end.style.position=Position.Absolute;end.style.left=Length.Percent(30);end.style.top=Length.Percent(42);
+  KarineUI.IconButton(header,"menu_quit",Home,T("back.home"));
+
+  var board=new VisualElement {name="OfficePeopleBoard"};
+  KarineUI.OfficePlace(board,KarineTheme.Office.Board);stage.Add(board);
+  var boardTitle=KarineUI.Technical(board,T("desk.view.activeCase"),KarineTheme.Office.LabelSize);
+  boardTitle.style.backgroundColor=KarineTheme.Paper.Tint;boardTitle.style.color=KarineTheme.Paper.Ink;
+  boardTitle.style.paddingLeft=KarineTheme.SpaceSm;boardTitle.style.marginBottom=KarineTheme.SpaceMd;
+  var portraits=new VisualElement();portraits.style.flexDirection=FlexDirection.Row;
+  portraits.style.flexWrap=Wrap.Wrap;board.Add(portraits);
+  if(game.State.caseAccepted) foreach(var person in game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n))
+   .GroupBy(n=>n.personId).Select(g=>g.First()).Take(4)) {
+   KarineUI.OfficePortrait(portraits,Resources.Load<Texture2D>("Bube/Characters/"+person.personId),T(person.personNameKey));
+  }
+  // Blank monitor screen: this is an entry point, never a preview or clue.
+  var monitorLabel=KarineUI.Body_(stage,T("desk.view.cctv"),KarineTheme.Office.TitleSize);
+  monitorLabel.name="OfficeMonitorTitle";
+  KarineUI.OfficePlace(monitorLabel,KarineTheme.Office.MonitorLabel);
+  monitorLabel.style.unityTextAlign=TextAnchor.MiddleCenter;monitorLabel.pickingMode=PickingMode.Ignore;
+
+  Button inbox=null;
+  if(!game.Career.retired && (!game.State.closed||HasIncomingFax||HasIncomingDocument||AvailableAssignment()!=null))
+   inbox=KarineUI.OfficeAction(stage,"DeskInbox","document",T("desk.inbox"),KarineTheme.Office.InboxLabel,InboxPage);
+  if(inbox!=null) {
+   var badge=new VisualElement {name="DeskInboxBadge",pickingMode=PickingMode.Ignore};
+   badge.style.position=Position.Absolute;badge.style.right=-KarineTheme.SpaceSm;badge.style.top=-KarineTheme.SpaceSm;
+   badge.style.width=KarineTheme.Office.BadgeSize;badge.style.height=KarineTheme.Office.BadgeSize;
+   badge.style.backgroundColor=KarineTheme.Danger;KarineUI.Round(badge,KarineTheme.Office.BadgeSize);
+   inbox.Add(badge);inboxBadge=badge;
+   inboxBadgeLabel=KarineUI.Technical(badge,string.Empty,KarineTheme.Office.LabelSize);
+   inboxBadgeLabel.style.color=KarineTheme.Primary;inboxBadgeLabel.style.unityTextAlign=TextAnchor.MiddleCenter;
+   inboxBadgeLabel.style.marginBottom=0;inboxBadgeLabel.style.flexGrow=1;
+   inboxBadgeLabel.pickingMode=PickingMode.Ignore;RefreshInboxBadge();
+   badge.schedule.Execute(()=>badge.style.opacity=badge.style.opacity.value>.6f?.3f:1f).Every(KarineTheme.Office.BlinkMs);
+  } else {inboxBadge=null;inboxBadgeLabel=null;}
+  if(usable) {
+   KarineUI.OfficeAction(stage,"DeskFile","folder",T("desk.open"),KarineTheme.Office.FolderLabel,FilePage);
+   KarineUI.OfficeAction(stage,"DeskInterviews","people",T("desk.view.phone"),KarineTheme.Office.PhoneLabel,()=>InterviewRequests());
+   monitorLabel.style.display=DisplayStyle.None;
+   KarineUI.OfficeAction(stage,"DeskTerminal","binoculars",T("desk.view.cctv"),KarineTheme.Office.MonitorLabel,OpenTerminal);
+   KarineUI.OfficeAction(stage,"DeskEvidence","document",T("desk.view.evidence"),KarineTheme.Office.EvidenceLabel,
+    ()=>{selectedFileSection="evidence";FilePage();});
+  } else if(game.Career.retired) {
+   var end=Panel(stage);KarineUI.OfficePlace(end,new Rect(30,46,40,28));
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
    if(game.State.closed)Button(end,T("result.summaryOpen"),CaseSummary);
-  } else if(!game.State.caseAccepted) {
-   // Dosya kabul edilene kadar masadaki tek etkilesim gelen evrak tepsisidir;
-   // oyuncuya sirada ne yapacagi soylenmez, yalnizca evrak fark edilir.
-   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
-  } else if(!game.State.closed) {
-   Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
-   Hotspot(T(game.Data.titleKey),36,42,30,51,FilePage);
-   Hotspot(T("kind.interview"),6,52,20,38,()=>InterviewRequests());
-   Hotspot(T(game.Data.nodes.Any(n=>n.kind=="cctv")?"kind.cctv":"kind.bps"),64,11,33,36,OpenTerminal);
-  } else {
-   var closed=Panel(root);closed.style.position=Position.Absolute;
-   closed.style.left=Length.Percent(38);closed.style.top=Length.Percent(51);
+  } else if(game.State.closed) {
+   var closed=Panel(stage);KarineUI.OfficePlace(closed,new Rect(36,65,30,30));
    Text(closed,T("desk.closed"),Ink,20);
-   Button(closed,T("result.summaryOpen"),CaseSummary,true);
-   Button(closed,T("result.continue"),ContinueToNextCase);
-   if(HasIncomingFax || HasIncomingDocument || AvailableAssignment()!=null)Hotspot(T("desk.inbox"),16,16,22,27,InboxPage);
+   Button(closed,T("result.summaryOpen"),CaseSummary,true);Button(closed,T("result.continue"),ContinueToNextCase);
   }
-  if(HasIncomingFax)AddFaxNotice();
-  if(HasIncomingDocument)AddDocumentNotice();
-  if(game.State.interviewTurns.Count>game.State.seenInterviewTurns && !game.State.closed) {
-   var unread=Text(root,T("file.newTranscript"),Gold,15);
-   unread.style.position=Position.Absolute;
-   unread.style.left=Length.Percent(46);unread.style.top=Length.Percent(44);
-   unread.style.backgroundColor=Base;
-   unread.style.paddingLeft=7;unread.style.paddingRight=7;
-   unread.pickingMode=PickingMode.Ignore;
+  if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
+  if(game.State.interviewTurns.Count>game.State.seenInterviewTurns&&!game.State.closed) {
+   var unread=KarineUI.Technical(stage,T("file.newTranscript"),KarineTheme.Office.SmallSize);
+   KarineUI.OfficePlace(unread,new Rect(43,75,18,5));
+   unread.style.backgroundColor=KarineTheme.GlassDeep;unread.pickingMode=PickingMode.Ignore;
   }
-  Hotspot(T("back.home"),90,0,10,12,Home);
  }
  void BpsTablet(string titleKey,out VisualElement content,bool lift=true) {
   Desk();
@@ -457,7 +448,7 @@ public sealed partial class BubeApp {
   tablet.Add(screen);
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
   header.style.alignItems=Align.Center;screen.Add(header);
-  var brand=Text(header,"BPS",Ink,29);brand.style.marginRight=16;brand.style.marginBottom=0;
+  var brand=Text(header,"BDS",Ink,29);brand.style.marginRight=16;brand.style.marginBottom=0;
   var title=Text(header,T(game.Data.titleKey)+" / "+T(titleKey),Ink,17);title.style.flexGrow=1;title.style.marginBottom=0;
   GlitchHeading(title,T(titleKey));
   KarineUI.CloseButton(header,Desk,T("cctv.back"));

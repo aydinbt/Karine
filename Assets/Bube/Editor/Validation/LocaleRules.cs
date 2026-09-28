@@ -19,7 +19,7 @@ public static class LocaleRules {
  static readonly Regex PrefixKey = new Regex(@"(?:\bT|\.Get)\(""([^""]+)""\s*\+", RegexOptions.Compiled);
 
  // Oyun içinde gerçek resmî kurum, kuruluş ve mevzuat adları **kullanılmaz**.
- // Kurgusal kurum "bube Polis / BPS"tir; kurumsal gönderici "ilgili birim" gibi
+ // Kurgusal kurum "bube Departman / BDS"tir; kurumsal gönderici "ilgili birim" gibi
  // genel ifadelerle anılır. Bu liste yalnız tam sözcük eşleşmesine bakar, böylece
  // "birim" ya da "müdür" gibi genel sözcükler yanlış alarm üretmez.
  static readonly string[] ForbiddenInstitutions = {

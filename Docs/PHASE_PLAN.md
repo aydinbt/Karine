@@ -1,5 +1,7 @@
 # Karine — faz planı
 
+**27 Eylül 2026 notu:** Kullanıcının açık isteğiyle ana menünün görsel katmanı Faz 5'ten önce güncellendi. Mevcut döngü videosu korunarak yalnız menü UI'ı, ortak bileşenleri ve metinleri değişti; Faz 2 cihaz doğrulaması ile Faz 3 vaka çalışması bitmiş sayılmaz. Durum [ROADMAP.md](ROADMAP.md) içinde `[~]` olarak izlenir.
+
 **Tarih:** 25 Eylül 2026
 **Dayanak:** [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md) · **Durum:** [STATUS.md](STATUS.md) · **Ayrıntılı iş listesi:** [ROADMAP.md](ROADMAP.md)
 
@@ -23,7 +25,7 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 **Neden önce bu:** Bundan sonraki her iş, geri alınabilir ve tekrar çalıştırılabilir bir zemin olmadan risk üretir.
 
-- [x] **İsim kararı: Karine.** `config.json` `title`, `productName`, `about.body` güncellendi. Oyun içi kurmaca kurum adı `bube Polis` / `BPS` bilinçli olarak korundu ([DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md)).
+- [x] **İsim kararı: Karine.** `config.json` `title`, `productName`, `about.body` güncellendi. Oyun içi kurmaca kurum adı `bube Departman` / `BDS` bilinçli olarak korundu ([DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md)).
 - [x] **Depo izlemeye alındı.** `github.com/aydinbt/Karine`, `main` dalı; `.mp4` ve `.ttf` **Git LFS**'te (7 nesne, 17 MB). Çalışma klasörü `bubeGame/karine-mobile`.
 - [x] **Mobil derleme engelleri kapandı.** `applicationIdentifier` = `com.bubedigital.karine`; `scriptingBackend` = IL2CPP; API seviyesi .NET Standard 2.1; `AndroidTargetSdkVersion` = 35.
 - [x] **Unity Test Framework** 1.4.6 eklendi.
@@ -116,3 +118,9 @@ Faz 2 ve 3 geçilmeden başlanmaz. [ROADMAP.md](ROADMAP.md) M5 ve M6 içerikleri
 ## Önerilen çalışma kuralı
 
 Her oturum sonunda: `ROADMAP.md`'de yalnız **gözlenen** davranış `[x]` olur, kodlanan `[~]` olur, `STATUS.md` yenilenir, yeni karar `DESIGN_AMENDMENTS.md`'ye yazılır. Bir aşama "Bitti ölçütü" gerçekleşmeden kapalı ilan edilmez.
+
+## 27 Eylül 2026 ek not
+Vakalar sayfasının referans sunumu menü kapsamında uygulandı. Oynanışa yeni özellik eklenmedi. Görsel kabul ve mobil cihaz doğrulaması hâlâ açıktır.
+
+## Masa sunumu — 27 Eylül 2026
+Kullanıcı isteğiyle yalnız masa görünümü güncellendi. Soruşturma, kayıt, sonuç ve ülke ilerleme kuralları değiştirilmedi; yeni vaka çalışması değildir. Cihaz kabulü açık.

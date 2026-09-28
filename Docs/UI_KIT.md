@@ -95,6 +95,7 @@ Ekranlar kit bileşenlerine taşındı:
 | Dünya girişi ve masaya varış filmleri | `KarineUI.SkipButton` — tek denetim: GEÇ |
 | Saat, tarih, damga, sayfa sayacı, kayıt numarası | `KarineUI.Technical` (monospace) |
 | Menü örtüsü, ayarlar/hakkında kartı | `KarineUI.Panel` + `Title` + `Rule` |
+| Ana menüdeki beş eylem ve Bora kimlik kartı | `KarineUI.MenuAction` / `KarineUI.MenuIdentity`; ölçüler `KarineTheme.MainMenu` |
 | Kâğıt/dosya katmanındaki seçim, eylem ve sessiz düğmeler | `KarineUI.PaperButton` (`Action`/`Choice`/`Quiet`) |
 | Katman kapatma ve alan temizleme `×` | `KarineUI.CloseButton` (`paper: true` kâğıt üstünde) |
 
@@ -117,3 +118,9 @@ Kit'ten **önce** yazılmış ekranlarda 156 doğrudan `new Color(...)` çağrı
 ## Punto borcu
 
 Punto da ekranın içine elle yazılmaz: ekranlardaki her `style.fontSize` ataması `Typography.Snap`ten geçer (tek istisna CCTV'nin görüntüyle ölçeklenen kamera yazısıdır, o `Mathf.Clamp` ile kendi ölçeğini kullanır). Doğrulayıcı satır satır bakar ve kapıdan geçmeyen ilk atamayı dosya:satır olarak bildirir.
+
+## Vakalar bileşenleri — 27 Eylül 2026
+`CountryTile` seçili krem ülke yüzeyi; `CasePhotoCard` fotoğraf + kâğıt başlık + durum şeridi + bant/iğne katmanları; `CaseSeal` vektör kilit/onay işareti. Hepsi KarineUI kitaplığındadır, ölçüleri KarineTheme.CaseBrowser'dan gelir. Ülke kartları ve dosyalar yatay kaydırılır; metinler gerçek vaka verisine bağlıdır.
+
+## Masa bileşenleri — 27 Eylül 2026
+OfficeStage oranı korunan oda katmanını, OfficeAction fiziksel nesne üzerindeki okunabilir etiketi, OfficePortrait erişilmiş kişi kartını kurar. Yerleşim KarineTheme.Office'dan gelir. Ülke manzarası ve saydam nesne atlası bağımsız görsellerdir. Görev/Notlar katmanı bulunmaz.

@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 26 Eylül 2026 (Dosya #001 baştan sona oynandı; bölüm seçici Play Mode'da görüldü; Dosya #002 "Son Sefer" yazıldı)
+**Son güncelleme:** 27 Eylül 2026 (masa ayrı katmanlara taşındı; ülke penceresi aktif dosyaya bağlı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**27 Eylül menü işi:** Kullanıcının referansına göre logo, Türkçe slogan, beş menü eylemi ve Bora kartı mevcut video üzerine ayrı, yeniden kullanılabilir UI katmanlarıyla kuruldu. Yeni kariyer ayarlardan erişilir; oyun/vaka akışına dokunulmadı. 111 EditMode ve 11 PlayMode testi geçti; referansa göre farklı yatay ekran oranlarında gözle inceleme açık olduğundan yol haritası işareti `[~]`.
 
 **Dosya #001 baştan sona oynandı** (kullanıcı, 25 Eylül 2026): soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları sorunsuz çalıştı ve sesler duyuldu. Oynanıştan dört bulgu çıktı, kapatıldı ve kullanıcı tarafından doğrulandı: masadaki nesneler sessizdi, ana menü müziği hiç duyulmuyordu, masada oda gürültüsü yerine müzik istendi, ayarlar sayfası telefonda sıkışıktı. Kalan boşluk **cihaz doğrulaması**: hiçbir telefonda denenmedi ([PLAYTEST_001.md](PLAYTEST_001.md) §3) ve kullanıcının elinde telefon olmadığı için bu adım **ertelendi** (26 Eylül 2026). Faz 2 açık kalıyor; iş Faz 3'ten devam ediyor: **Dosya #002 "Son Sefer" yazıldı** — veri, metin ve doğrulama tamam, Play Mode'da oynanması açık.
 
@@ -18,7 +20,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — işareti
 - **Vaka eklemek koddan koptu:** yeni vaka = `caseXXX.json` + `tr.caseXXX.json` + varlıklar. Portre tonları veride, doğrulayıcı vakaya özel C# istemiyor.
 - **Ses sistemi kurulu, dokuz klip depoda ve sesler duyuldu.** Klipler sentezlenmiş: `Tools/make-audio.py` üretir, `Tools/check-audio.py` ölçer. Dört arayüz sesi, görüşmede yumuşak bir sohbet blibi (konuşma taklidi yok), ana menü müziği (32 s döngü), masa müziği (`desk_theme`, 40 s — oda gürültüsünün yerini aldı) ve görüşme odası ortamı. Doğrulayıcı dokuzunun varlığını kilitliyor.
 - **Ses ayarı beş kademe:** kapalı, %25, %50, %75, tam — ayarlarda radyo listesi (kit'te kaydırıcı yok). Varsayılan: müzik %50, efektler tam.
-- **Bölüm seçici ekranı çalışıyor (`[x]`, Play Mode'da görüldü — kullanıcı, 26 Eylül 2026):** maket yerleşimi — kimlik şeridi, ülke listesi, iğneli pano, ülke kartı, yedi dosyalık şerit. Veri `Bube/Worlds.json`da; kilit ilerlemeden türer, ipucu vermez. Ölçek kanon oldu: **on ülke × yedi dosya = 70** ([WORLD_OPENINGS.md](WORLD_OPENINGS.md), 26 Eylül 2026 kararı). İki açık madde kaldı: eksik görseller (dünya haritası, ülke/dosya görselleri) ve kit'te olmayan kilit/onay/oynat ikonları.
+- **Bölüm seçici ekranı çalışıyor (`[x]`, Play Mode'da görüldü — kullanıcı, 26 Eylül 2026):** Önceki yerleşim 26 Eylül’de gözlendi. 27 Eylül’de sol kimlik/menü, yatay ülke kartları ve polaroid vaka şeridine dönüştürüldü; yeni görsel yerleşim `[~]`. Veri `Bube/Worlds.json`da; kilit ilerlemeden türer, ipucu vermez. Ölçek kanon oldu: **on ülke × yedi dosya = 70** ([WORLD_OPENINGS.md](WORLD_OPENINGS.md), 26 Eylül 2026 kararı). Ülke görselleri tek atlasla, ilk iki vaka kapakları mevcut içerikle karşılanır. Dünya haritası artık bu sayfanın parçası değildir. Kilit/onay işaretleri ortak vektör UI öğesidir.
 - **Mobil davranış:** geri tuşu, çıkış onayı, arkaya atılınca kayıt, zincir sonu bildirimi.
 - **Reklam dikişi kurulu, ağ yok.** `AdGateway` kuralları testli; LevelPlay/AdMob kurulumu senin hesap kimliklerini bekliyor. Ödüllü ipucu kanonu bozmuyor ve bunu doğrulayıcı kilitliyor.
 
@@ -26,7 +28,7 @@ Hedef: bundan sonra yalnız vaka eklemek kalsın. Bugün atılanlar — işareti
 
 ## Dosya #002 — Son Sefer (26 Eylül 2026)
 
-Senaryo kullanıcıdan geldi ve eski "Kayıp Yedek" taslağının yerine geçti; taslak tamamen kaldırıldı. Büro **BPS Asayiş Masası**, nitelik yağma/gasp ve yaralama. Vakanın yeni olan yanı mekanik değil **yapı**: tek olay → iki ayrı eylem → iki ayrı sorumluluk. Yaralayan ile parayı alan farklı kişiler, bu yüzden sonuç raporu bu vakada dört sütunlu ([CASE002_DESIGN.md](CASE002_DESIGN.md)). Sütun motorda isteğe bağlıdır; Dosya #001 üç sütunlu kalır.
+Senaryo kullanıcıdan geldi ve eski "Kayıp Yedek" taslağının yerine geçti; taslak tamamen kaldırıldı. Büro **BDS Asayiş Masası**, nitelik yağma/gasp ve yaralama. Vakanın yeni olan yanı mekanik değil **yapı**: tek olay → iki ayrı eylem → iki ayrı sorumluluk. Yaralayan ile parayı alan farklı kişiler, bu yüzden sonuç raporu bu vakada dört sütunlu ([CASE002_DESIGN.md](CASE002_DESIGN.md)). Sütun motorda isteğe bağlıdır; Dosya #001 üç sütunlu kalır.
 
 Durum `[~]`: 13 düğüm, 31 soru, 170 metin anahtarı; doğrulayıcı vakayı baştan sona otomatik oynuyor ve desteklenen raporu gönderiyor. **Play Mode'da oynanmadı.** Dört kişinin portreleri kullanıcıdan geldi ve depoda.
 
@@ -37,7 +39,7 @@ Rapor gönderildiğinde bırakılışın tersi oynuyor: Bora evrakı kaşeler, d
 ## Kimlik
 
 - **Oyun adı:** Karine — 25 Eylül 2026'da karara bağlandı ([NAMING.md](NAMING.md)).
-- **Stüdyo:** bubeGames · **Oyun içi kurum:** bube Police / BPS (değişmedi, kurmaca kurum adıdır).
+- **Stüdyo:** bubeGames · **Oyun içi kurum:** bube Departman / BDS (değişmedi, kurmaca kurum adıdır).
 - **Paket kimliği:** `com.bubedigital.karine` · **Depo:** `github.com/aydinbt/Karine`
 
 ## Şu an nerede
@@ -81,7 +83,7 @@ Rapor gönderildiğinde bırakılışın tersi oynuyor: Bora evrakı kaşeler, d
 
 ## Açık kritik maddeler
 
-1. **Terminal ekranındaki arma yaması görünüyor** — armanın yeri tek düz renkle dolduruldu, ekranın gradyanından ayrılıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcı kararıyla sonraya bırakıldı. Kurum adı ve terminal arması hem masa görselinden hem videodan temizlendi; dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Polis / BPS).
+1. **Terminal ekranındaki arma yaması görünüyor** — armanın yeri tek düz renkle dolduruldu, ekranın gradyanından ayrılıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcı kararıyla sonraya bırakıldı. Kurum adı ve terminal arması hem masa görselinden hem videodan temizlendi; dosya kapağındaki arma kullanıcı kararıyla kalıyor. Oyun içi kurum kurgusaldır (bube Departman / BDS).
 1. ~~**Dosya #001 hiç baştan sona oynanmadı.**~~ **Oynandı (kullanıcı, 25 Eylül 2026), sorun çıkmadı.** **Cihaz doğrulaması ertelendi (26 Eylül 2026):** elde Android telefon yok. M1/M2 bu yüzden kapanmıyor ve masaüstü oynanışı cihaz ölçütünün yerine **geçmez**. Emülatör/Device Simulator seçenekleri açık, kullanıcı şimdilik ertelemeyi seçti.
 2. **Android keystore yok** — imzalı *mağaza* sürümü üretilemez. **Düzeltme:** cihaza geliştirme derlemesi kurmak için keystore gerekmiyor (Unity hata ayıklama anahtarıyla imzalar), bu yüzden madde Faz 2'den **Faz 5'e** taşındı; parola kullanıcıya aittir.
 3. ~~**Kayıt şeması göçü yok** — `version != 1` olduğunda ilerleme sessizce siliniyor.~~ **Kodlandı, cihazda denenmedi `[~]`** — eski kayıt yükseltilir, gelecekten gelen kayıt silinmeyip yana kaldırılır ve oyuncuya söylenir.
@@ -104,3 +106,11 @@ Ayrıntı ve gerekçeler: [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md), işaretl
 ## Sıradaki iş
 
 Cihaz adımı ertelendiği için sıra **Faz 3 — Dosya #002**: vaka bugün `draft`, 7 kaynak ve 12 soru ile duruyor (Dosya #001'de 9 kaynak, 30 soru). Yapılacaklar: soruşturma dokusunu #001 seviyesine çıkarmak, `draft` kalkınca #001 → #002 geçişini ve faks zamanlamasını doğrulamak, `CASE_AUTHORING.md` yazmak. Cihaz adımı telefon bulunduğunda [PLAYTEST_001.md](PLAYTEST_001.md) §3 ile koşulur. Betikteki otomatikleşmiş satırlar işaretli; kalanlar gözle doğrulanacak şeyler — video, çentik, dokunma hedefi, glif, klavye, kare hızı, okunabilirlik. Bunlar doldurulunca M1/M2 kapanabilir.
+
+**Vakalar — 27 Eylül:** Referansın sol menü ve fotoğraflı kart hiyerarşisi uygulandı; mevcut masa görseli arka dekor olarak yeniden kullanıldı. Başlıklar, durumlar, kartlar ve gezinme ayrı UI öğeleridir. Vaka verisi, kariyer kaydı ve oyun akışı değiştirilmedi. Görsel kabul ve cihaz kontrolü açık.
+
+**Son test:** 111 EditMode + 12 PlayMode geçti. Yeni test, ülke değişiminde kartların kaydırılabilir kalmasını ve kapalı ülkedeki dosyaların etkileşime açılmamasını denetler; görsel karşılaştırma yapmaz.
+
+**Masa — 27 Eylül:** Kullanıcı referansı doğrultusunda boş oda dekoru + saydam nesne atlası + ülke manzarası + UI bileşenleri kuruldu. Görev/Notlar yok; dosya beyaz ve fotoğrafsız, monitör yalnız CCTV Arşivi yazısı taşır. Mevcut oynanış dalları korunur. Gerçek telefon kabulü açık.
+
+**Masa son doğrulama:** 111 EditMode + 13 PlayMode testi başarılı. Unity render görüntüsünde ayrı oda/nesne/pencere katmanları ve etiket yerleşimi incelendi. Gerçek cihaz kontrolü açık; oyuncunun kaydı test için değiştirilmedi.

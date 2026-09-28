@@ -317,9 +317,8 @@ LevelPlay/AdMob kurulumu bir Unity Gaming Services oyun kimliği ve bir AdMob uy
 - Arka plan `Assets/StreamingAssets/Bube/main_menu_loop.mp4` (1920×1080, 10 sn, H.264/AAC, LFS). `VideoPlayer` → `RenderTexture(1920×1080)` → `Image(ScaleAndCrop)`; `isLooping = true`, ses kapalı.
 - `menuPlayer` / `menuTexture` `BubeApp` alanlarıdır; `Home()` her çağrıldığında yeniden kurulmaz, yalnız görüntü ögesi eklenir. `Desk()` `StopMenuVideo()` çağırır.
 - Video hata verirse `menuVideoFailed` işaretlenir ve durağan `Bube/MainMenuNight` görseline düşülür.
-- Menü satırları `MenuRow(...)` ile çizilir (simge sütunu + etiket + öne çıkan satırda ok, 52 px dokunma hedefi). Etiketler `menu.row.*` anahtarlarında **büyük harfle saklanır** — Türkçe `ToUpper` tuzağına (I/İ) hiç girilmez.
-- Simgeler `Resources/Bube/Art/Icons/menu_{continue,newCareer,settings,career,quit}.png`. `MenuIcon(...)` bunları arka plan görseli olarak (`BackgroundSizeType.Contain`, sola yaslı, 34×22 sütun) koyar ve `unityBackgroundImageTintColor` ile satırın tonuna boyar. Dosya yoksa sütun genişliği korunur, etiketler kaymaz; `ProjectRules` beşinin de varlığını arar.
-- Stüdyo imzası sol sütunun değil, kökün çocuğudur: sağ alt köşede mutlak yerleşim (`right 4% / bottom 5%`).
+- 27 Eylül düzeni: video ve hata durumundaki durağan görsel aynen kalır. Üstüne `KarineLogo.Hero`, Türkçe slogan, beş `KarineUI.MenuAction` satırı ve `KarineUI.MenuIdentity` personel kartı ayrı UI öğeleri olarak çizilir; tek bir menü ekranı PNG'si yoktur. Beş eylem: kayda göre Devam Et/Oyuna Başla, Vakalar, Kariyer, Ayarlar, Hakkında. Yeniden kariyer başlatma ayarlardadır; mobil geri tuşunun çıkış onayı korunur.
+- Menünün ölçüleri `KarineTheme.MainMenu` altında, ikonları mevcut `Resources/Bube/Art/Icons/` kümesinde ve Bora portresi mevcut `Resources/Bube/Characters/bora.png` varlığındadır. Düğmelerin tamamı en az 48 birimdir. Sağ alt stüdyo bloğu referans görselde olmadığı için menü katmanından kaldırıldı; videonun kendisine dokunulmadı.
 
 ## Bölüm seçici verisi
 
@@ -333,3 +332,8 @@ Durum tek yerde türetilir (`Worlds.SlotState`) ve ekran onu yalnız boyar. Kapa
 
 Eksik görsel hata değil: harita (`Bube/WorldMap`) ve ülke görseli (`Bube/Worlds/<id>`) yoksa ekran mukavva pano, kâğıt iğne ve ikonla kurulur. Bu yüzden `RequiredTextures`a eklenmediler.
 
+## 27 Eylül 2026 — Vakalar sunumu
+`BubeApp.World.cs` artık sidebar + yatay CountryStrip + CaseStrip kurar. `KarineUI.CaseBrowser.cs` içindeki `CountryTile`, `CountryPostcard`, `CasePhotoCard` ve vektör `CaseSeal` tekrar kullanılabilir. Ölçüler `KarineTheme.CaseBrowser` içindedir. `CountryPostcards.png` 5×2 atlası UV ile seçilir (tr, uk, de, jp, fr / us, it, es, ca, au). Tek görsel içine UI gömülmez. #002 kapağı mevcut `case002_2258.mp4` videosunun 1. saniyesinden alınmıştır. Ülke seçimi kaydırma konumunu korur; vaka şeridi dokunma kaydırması ve iki 48 birimlik yön düğmesiyle gezinir. `Worlds` ilerleme kuralları ve dosya açma/kurumsal kayıt işleyişi korunur. Başsız test görsel benzerlik kanıtı değildir.
+
+## 27 Eylül 2026 — Masa sunum katmanı
+`Desk()` mevcut kabul/açık/kapalı/emekli dallarını koruyarak `KarineUI.OfficeStage` kurar. OfficeRoom boş oda dekorudur; OfficeProps saydam atlasındaki monitör, dosya, telefon, tepsi, lamba ve delil yığını UV ile ayrı Image öğelerine bağlanır. Pencere CountryPostcards atlasından aktif dosyanın ülkesini kullanır; `worldPick` kullanılmaz. Ortak sahne oranı korunur, nesne ve düğmeler aynı referans koordinatları paylaşır. `OfficeAction` en az 48 birim dokunma alanı ve mevcut ses kapısını kullanır. Evrak sayacı mevcut RefreshInboxBadge işlevinden gelir. Delil girişi mevcut dosyanın evidence sekmesini açar; yeni oyun sistemi yoktur. Eski DeskReference varlığı silinmedi, yeni Desk() içinde kullanılmıyor.

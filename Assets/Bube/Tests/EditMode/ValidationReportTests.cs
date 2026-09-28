@@ -135,7 +135,7 @@ public sealed class ValidationReportTests {
   Assert.IsFalse(report.HasProblems, report.Summary());
  }
 
- // Oyun içinde gerçek resmî kurum adı kullanılmaz; kurum kurgusaldır (bube Polis / BPS).
+ // Oyun içinde gerçek resmî kurum adı kullanılmaz; kurum kurgusaldır (bube Departman / BDS).
  [Test]
  public void RealInstitutionNames_AreRejected() {
   var locale = new Locale { entries = new[] {
@@ -152,7 +152,7 @@ public sealed class ValidationReportTests {
   // "birim", "müdür", "kurumsal" gibi genel sözcükler oyunda bilinçli kullanılıyor.
   foreach (var text in new[] {
    "İlgili birim, sunduğunuz sonuç ile dayanaklarını değerlendirdi.",
-   "bube Polis · İstanbul / Beşiktaş Şubesi",
+   "bube Departman · İstanbul / Beşiktaş Şubesi",
    "KURUMSAL DEĞERLENDİRME",
    "Birim güveni tükendi.",
   }) Assert.IsNull(LocaleRules.ForbiddenInstitution(text), "Yanlış alarm: " + text);

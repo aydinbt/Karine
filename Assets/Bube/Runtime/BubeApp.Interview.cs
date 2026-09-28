@@ -34,7 +34,7 @@ public sealed partial class BubeApp {
   top.style.left=0;top.style.right=0;top.style.top=0;top.style.height=64;
   top.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.98f);
   top.style.paddingLeft=26;top.style.paddingTop=12;root.Add(top);
-  Text(top,"bube POLİS  /  "+T("kind.interview")+"  /  "+T(game.Data.titleKey),Ink,17);
+  Text(top,"bube DEPARTMAN  /  "+T("kind.interview")+"  /  "+T(game.Data.titleKey),Ink,17);
   var identity=new VisualElement();identity.style.position=Position.Absolute;
   identity.style.left=Length.Percent(2);identity.style.top=Length.Percent(17);
   identity.style.width=Length.Percent(23);identity.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.94f);

@@ -1,7 +1,7 @@
 # Karine — oyun adı kararı
 
 **Durum: KARAR VERİLDİ — Karine (25 Eylül 2026).** Aşağıdaki ölçütler ve aday havuzu karar kaydı olarak saklanır.
-`bube` **çalışma adıdır**; stüdyo adı `bubeGames`, oyun içi kurum `bube Police / BPS` olarak kalır. Bu dosya yalnız **mağazada görünecek oyun adını** takip eder.
+`bube` **çalışma adıdır**; stüdyo adı `bubeGames`, oyun içi kurum `bube Departman / BDS` olarak kalır. Bu dosya yalnız **mağazada görünecek oyun adını** takip eder.
 
 > `DESIGN_DECISIONS.md`: "Nihai oyun adı daha sonra seçilecek; adlar yapılandırmadan değiştirilebilir olmalı." Bu karar bugüne kadar hiçbir dosyada takip edilmiyordu.
 
@@ -62,4 +62,4 @@ Ad tek bir yerde değil, **dört yerde birden** değişir:
 3. `ProjectSettings` → `applicationIdentifier` (ör. `com.bubedigital.<ad>`)
 4. `tr.json` içindeki oyuncuya görünen başlık anahtarları
 
-Stüdyo adı (`bubeGames`) ve oyun içi kurmaca kurum adı (`bube Polis` / `BPS`) **değişmez** — 25 Eylül 2026 kararı, bkz. [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md). Çalışma klasörü `bubeGame/karine-mobile`, depo `github.com/aydinbt/Karine`.
+Stüdyo adı (`bubeGames`) ve oyun içi kurmaca kurum adı (`bube Departman` / `BDS`) **değişmez** — 25 Eylül 2026 kararı, bkz. [DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md). Çalışma klasörü `bubeGame/karine-mobile`, depo `github.com/aydinbt/Karine`.

@@ -10,7 +10,7 @@ Vaka formülü sabit üç kişi/sabit araç dizisi değildir. Her dosyanın kesi
 
 ## Bora ve kariyer
 
-Bora 27 yaşında, erkek, Türk; İstanbul/Beşiktaş'ta büyümüş ve birkaç yıllık polislikten sonra bube Police soruşturma birimine geçmiştir. Sakin, gözlemci, kanıta dayalı ve gereksiz agresif olmayan sabit bir karakterdir. Soyadı ve ayrıntılı geçmişi belirlenmemiştir. Kısa personel profili planlanmıştır. Oyuncu onun kimliğini değil, araştırma yöntemini ve kanıt yorumunu seçer.
+Bora 27 yaşında, erkek, Türk; İstanbul/Beşiktaş'ta büyümüş ve birkaç yıllık polislikten sonra bube Departman soruşturma birimine geçmiştir. Sakin, gözlemci, kanıta dayalı ve gereksiz agresif olmayan sabit bir karakterdir. Soyadı ve ayrıntılı geçmişi belirlenmemiştir. Kısa personel profili planlanmıştır. Oyuncu onun kimliğini değil, araştırma yöntemini ve kanıt yorumunu seçer.
 
 Kariyer tasarımında kalıcı ünvan/yetki ile değişebilir departman güveni ayrı tutulur. Yeni ünvanlar daha karmaşık sorumluluklara ve sistem erişimine kapı açabilir; kesin ünvan adları ve eşikler kararlaştırılmamıştır. Hatalar kalıcı oynanış kilidi yaratmamalıdır. Vaka sonu profesyonel değerlendirme, desteklenmeyen suçlamalar ve departman güveni sohbetin güçlü tasarım yönüdür; puanlama formülü henüz kararlaştırılmamış ve kodlanmamıştır.
 

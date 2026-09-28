@@ -13,8 +13,8 @@ namespace Bube {
 // Ana menü, ayarlar, hakkında, arşiv ve kariyer ekranları.
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
- // Ana menü maketin birebir karşılığı: solda marka ve menü, arkada dönen
- // animasyon. Animasyonun sol tarafı zaten karartılmış; menü oraya oturur.
+ // Video arka planda kalır; marka, eylemler ve personel kartı ayrı UI
+ // katmanlarıdır. Böylece menü görseli tek bir tıklanabilir resim değildir.
  void Home() {
   // Ana menü kökün kendisi: geri tuşunun gidecek yeri yok, çıkış onayı açılır.
   Back(null);
@@ -25,89 +25,45 @@ public sealed partial class BubeApp {
   root.style.backgroundColor=Color.black;
   MenuBackdrop();
   var left=new VisualElement();left.style.position=Position.Absolute;
-  left.style.left=Length.Percent(4);left.style.top=Length.Percent(7);
-  left.style.width=Length.Percent(46);left.style.bottom=Length.Percent(4);
+  left.style.left=Length.Percent(6);left.style.top=Length.Percent(7);
+  left.style.width=KarineTheme.MainMenu.LogoWidth;
   root.Add(left);
 
-  KarineLogo.Hero(left,520);
-  var tagline=Text(left,T("menu.tagline"),KarineTheme.Paper.Tint,15);
-  tagline.style.letterSpacing=4;tagline.style.marginTop=0;tagline.style.marginBottom=14;
+  KarineLogo.Hero(left,KarineTheme.MainMenu.LogoWidth);
+  var tagline=KarineUI.Technical(left,T("menu.tagline"),KarineTheme.MainMenu.TaglineSize);
+  tagline.style.color=KarineTheme.Secondary;
+  tagline.style.letterSpacing=3;
+  tagline.style.marginTop=0;
+  tagline.style.marginBottom=KarineTheme.SpaceXl;
 
-  MenuRule(left);
-  var menu=new VisualElement();menu.style.marginTop=8;menu.style.marginBottom=0;left.Add(menu);
+  var menu=new VisualElement();
+  menu.style.width=KarineTheme.MainMenu.ColumnWidth;
+  left.Add(menu);
   if(game.State.caseAccepted) {
    MenuRow(menu,"folder",T("menu.row.continue"),Desk,true);
-   MenuRow(menu,"document",T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();},false);
   } else {
-   MenuRow(menu,"document",T("menu.row.newCareer"),()=>MaybeWorldIntro(Desk),true);
+   MenuRow(menu,"folder",T("menu.row.start"),()=>MaybeWorldIntro(Desk),true);
   }
-  MenuRow(menu,"pin",T("menu.row.chapters"),WorldPage,false);
-  MenuRow(menu,"gear",T("menu.row.settings"),SettingsPage,false);
+  MenuRow(menu,"document",T("menu.row.chapters"),WorldPage,false);
   MenuRow(menu,"chart",T("menu.row.career"),StatisticsPage,false);
-  MenuRow(menu,"menu_quit",T("menu.row.quit"),QuitGame,false);
+  MenuRow(menu,"gear",T("menu.row.settings"),SettingsPage,false);
+  MenuRow(menu,"info",T("menu.about"),AboutPage,false);
 
-  // Stüdyo bloğu sol sütundan çıktı: menünün altına sığmıyor ve son satırla
-  // çakışıyordu. Videonun sağ alt köşesi zaten karanlık, oraya oturuyor.
-  var studioBlock=new VisualElement();
-  studioBlock.style.position=Position.Absolute;
-  studioBlock.style.right=Length.Percent(4);studioBlock.style.bottom=Length.Percent(5);
-  studioBlock.style.alignItems=Align.FlexEnd;
-  root.Add(studioBlock);
-  var studio=Text(studioBlock,"bubeGames",Ink,18);studio.style.marginBottom=1;
-  if(fonts!=null && fonts.Heading!=null)studio.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
-  Text(studioBlock,"powered by bubeDigital",KarineTheme.Muted,13).style.marginBottom=0;
+  var identity=KarineUI.MenuIdentity(root,
+   Resources.Load<Texture2D>("Bube/Characters/bora"),
+   T("menu.identity.name"),T("menu.identity.role"),
+   T("menu.identity.unit"),T("menu.identity.location"),StatisticsPage);
+  identity.style.position=Position.Absolute;
+  identity.style.left=Length.Percent(6);
+  identity.style.bottom=Length.Percent(7);
+  identity.style.width=KarineTheme.MainMenu.ColumnWidth;
   FadeIn(left);
-  FadeIn(studioBlock);
+  FadeIn(identity);
  }
 
- // Simge sütunu: maketten kesilmiş PNG, satırın tonuyla boyanır (seçili satırda
- // koyu, ötekilerde krem). Dosya yoksa satır simgesiz kalır ama sütun genişliği
- // korunur, böylece etiketler kaymaz.
- VisualElement MenuIcon(string name,Color tone) {
-  var mark=KarineUI.Icon(null,name,tone);
-  mark.style.marginRight=KarineTheme.SpaceMd;
-  return mark;
- }
-
- void MenuRule(VisualElement parent) {
-  var rule=new VisualElement();
-  rule.style.height=2;rule.style.width=70;
-  rule.style.backgroundColor=KarineTheme.Accent;
-  parent.Add(rule);
- }
-
- // Menü satırı: solda simge sütunu, ortada etiket, seçili satırda sağda ok.
- // Tek dokunuşluk hedef yüksekliği `MinimumTouchTarget`in üstünde tutulur.
+ // Satırın görseli ortak UI Kit bileşenindedir; burada yalnız eylem bağlanır.
  void MenuRow(VisualElement parent,string icon,string label,Action open,bool primary) {
-  var row=new Button(KarineUI.Sounded(open));
-  row.style.flexDirection=FlexDirection.Row;
-  row.style.alignItems=Align.Center;
-  row.style.minHeight=MinimumTouchTarget;
-  row.style.marginTop=0;row.style.marginBottom=2;row.style.marginLeft=0;row.style.marginRight=0;
-  row.style.paddingLeft=10;row.style.paddingRight=12;
-  row.style.width=330;
-  row.style.borderTopWidth=0;row.style.borderBottomWidth=0;
-  row.style.borderLeftWidth=0;row.style.borderRightWidth=0;
-  row.style.backgroundColor=primary?Ink:Color.clear;
-  var tone=primary?KarineTheme.Glass:Ink;
-  parent.Add(row);
-
-  row.Add(MenuIcon(icon,tone));
-
-  var text=new Label(label);
-  text.style.color=tone;
-  text.style.fontSize=Typography.Snap(17);
-  text.style.letterSpacing=2;
-  text.style.flexGrow=1;
-  text.style.unityTextAlign=TextAnchor.MiddleLeft;
-  if(fonts!=null && fonts.Body!=null)text.style.unityFontDefinition=FontDefinition.FromFont(fonts.Body);
-  row.Add(text);
-
-  if(primary) {
-   var chevron=new Label("›");
-   chevron.style.color=tone;chevron.style.fontSize=Typography.Snap(19);
-   row.Add(chevron);
-  }
+  KarineUI.MenuAction(parent,icon,label,open,primary);
  }
 
  void QuitGame() {
@@ -223,6 +179,9 @@ public sealed partial class BubeApp {
   Text(card,T("settings.ads.status."+
    (AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),Muted,15);
   Button(card,T("settings.ads.change"),AskForAdConsent);
+
+  KarineUI.Rule(card);
+  Button(card,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
 
   // Hakkında da menüden çıktı; ayarların içinde duruyor.
   KarineUI.Rule(card);

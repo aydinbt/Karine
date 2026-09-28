@@ -103,7 +103,7 @@ Ana oynanabilir karakter sabittir.
 **Memleket:** İstanbul  
 **Büyüdüğü yer:** Beşiktaş
 
-Bora birkaç yıllık polislik deneyiminin ardından bube Police Criminal Investigation birimine geçmiştir.
+Bora birkaç yıllık polislik deneyiminin ardından bube Departman Criminal Investigation birimine geçmiştir.
 
 Oyun, soruşturmacılık kariyerinin yeni döneminin başlangıcında başlar.
 
@@ -161,18 +161,18 @@ Gerçek polis teşkilatları, resmi armalar veya gerçek kurum logoları kullan�
 
 Oyun evrenindeki kurum:
 
-# bube Police
+# bube Departman
 
 Türkiye'deki yerel kullanım örneği:
 
-**bube Polis — İstanbul**  
+**bube Departman — İstanbul**  
 **Beşiktaş Şubesi / Soruşturma Birimi**
 
 Farklı ülkelerde aynı bube kurumsal kimliğinin yerel varyasyonları kullanılabilir.
 
 Örneğin:
 
-**bube Police — London / Camden Division**
+**bube Departman — London / Camden Division**
 
 Ana `bube` markası sabit kalır.
 
@@ -186,15 +186,15 @@ Gerçek polis yıldızı, devlet arması, kartal vb. taklit edilmeyecek.
 
 ---
 
-# 6. BPS
+# 6. BDS
 
 Polis içerisindeki dijital sistemlerin ortak markası:
 
-**BPS — bube Police System**
+**BDS — bube Departman System**
 
 Örneğin CCTV:
 
-**BPS // GÜVENLİK KAMERASI ARŞİVİ**
+**BDS // GÜVENLİK KAMERASI ARŞİVİ**
 
 Bu tasarım dili farklı sistemlerde tekrar kullanılabilir.
 
@@ -726,7 +726,7 @@ Bu bilgi CCTV arşivini erişilebilir hâle getirir.
 
 # 27. DOSYA #001 CCTV
 
-BPS // GÜVENLİK KAMERASI ARŞİVİ
+BDS // GÜVENLİK KAMERASI ARŞİVİ
 
 KAMERA 01 — BİNA GİRİŞİ
 
@@ -1008,7 +1008,7 @@ Case progression graph.
 
 ## AŞAMA 5 — CCTV + Interview
 
-Reusable BPS CCTV component.
+Reusable BDS CCTV component.
 
 Text event playback.
 

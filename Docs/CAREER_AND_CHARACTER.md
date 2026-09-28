@@ -7,7 +7,7 @@ Faks sonrası kariyer ve İstatistikler ekranının ayrıntılı tasarım kaydı
 ## Bora: kilitlenen profil
 
 - Ana karakteri oyun belirler; oyuncu ad, cinsiyet veya kişilik seçmez. Oyuncu **Bora** olarak soruşturmayı yürütür. Alex, Emir ve özelleştirilebilir self-insert önerileri daha sonra elendi.
-- Bora 27 yaşında, erkek, Türk; İstanbul/Beşiktaş'ta doğup büyüdü. bube Polis İstanbul soruşturma birimine **yeni atanmış**, fakat polislikte birkaç yıllık deneyimi var. Bu, ilk dosyada temel meslek bilgisini bilmesini ve soruşturmacı olarak hâlâ gelişmesini açıklar.
+- Bora 27 yaşında, erkek, Türk; İstanbul/Beşiktaş'ta doğup büyüdü. bube Departman İstanbul soruşturma birimine **yeni atanmış**, fakat polislikte birkaç yıllık deneyimi var. Bu, ilk dosyada temel meslek bilgisini bilmesini ve soruşturmacı olarak hâlâ gelişmesini açıklar.
 - Bora'nın kişiliği sabit: sakin, gözlemci, ayrıntı ve kayıt odaklı. İnsanlara doğrudan “yalan söylüyorsun” diye saldırmak yerine söyledikleriyle kayıtları karşı karşıya koyar. Oyuncu Bora'nın kişiliğini değil, **hangi bilgiyi ne zaman incelediğini, hangi soruyu sorduğunu ve hangi sonuca ulaştığını** kontrol eder.
 - Başlangıçta kısa bir personel kartı/biyografisi oyuncuya kim olduğunu ve neden masada olduğunu anlatır. Uzun zorunlu geçmiş anlatısı, soyadı, aile/eğitim geçmişi ve neden polis olduğu şimdilik belirlenmedi; ancak vaka anlatısına hizmet ederse ortaya çıkar. “Biyografiyi hiç koymayalım” erken önerisi kullanıcı düzeltmesiyle geçersiz oldu.
 - Bora'nın sprite'ı gerektiğinde açılış, personel/kariyer ekranı veya özel sahnede gösterilebilir. Her dosya ekranına portre eklemek gerekli değil. Görsel dil minimalist pixel-art.
@@ -15,7 +15,7 @@ Faks sonrası kariyer ve İstatistikler ekranının ayrıntılı tasarım kaydı
 
 ### Kısa biyografi için kabul edilen içerik yönü
 
-> Bora — 27 · İstanbul/Beşiktaş. Birkaç yıllık polislik deneyiminin ardından bube Polis soruşturma birimine atandı. Sakin ve gözlemci; ifadeleri kayıtlara ve kanıtlara karşı kontrol eder. Yeni görevi, soruşturmacılık kariyerinin başlangıcıdır.
+> Bora — 27 · İstanbul/Beşiktaş. Birkaç yıllık polislik deneyiminin ardından bube Departman soruşturma birimine atandı. Sakin ve gözlemci; ifadeleri kayıtlara ve kanıtlara karşı kontrol eder. Yeni görevi, soruşturmacılık kariyerinin başlangıcıdır.
 
 Bu örnek nihai UI metni değildir; oyuncuya gereken yoğunluğu gösterir. Soyadı ve daha ayrıntılı geçmiş açık kalır.
 
@@ -36,7 +36,7 @@ Oyuncu yalnızca dosya numarası veya XP biriktirmez; **Bora'nın soruşturmacı
 
 Konuşmada `Probationary Investigator → Criminal Investigator → Senior Investigator → Lead Investigator` gibi ünvanlar ve ek `Investigator II`, `Supervisory Investigator` önerileri vardı. **Kesin rütbe listesi, eşikleri ve terfi sayıları kilitlenmedi.** Bora'nın “soruşturma birimine yeni geçişi” kilitlendi. Gerçek teşkilatların rütbeleri birebir kopyalanmayacak; bube evreni kurgusal ve tutarlı olacak.
 
-`Investigation / Reasoning / Interviewing / Judgement / Integrity` gibi değerlendirme boyutları, sayısal departman güveni dengesinin nihai değerleri, yüksek profilli dosya eşiği, ayrıntılı vaka sonu performans raporu, birbiriyle bağlantılı uzun hikâye, günlük olay, yeniden açılan dosya ve çözülemeyen dosyalar **tasarım yönü/öneri** düzeyindedir. Bunlar potansiyel sistemlerdir; Dosya #001'i yapmak için zorunlu bağımlılık oluşturmaz. Özellikle bir zamanlar önerilen uluslararası merkez teşkilat ve ülke bazlı açılma, daha sonra kabul edilen **yerel bube Police şubeleri** ve ülkenin progression kapısı olmaması kararıyla değiştirilmiştir.
+`Investigation / Reasoning / Interviewing / Judgement / Integrity` gibi değerlendirme boyutları, sayısal departman güveni dengesinin nihai değerleri, yüksek profilli dosya eşiği, ayrıntılı vaka sonu performans raporu, birbiriyle bağlantılı uzun hikâye, günlük olay, yeniden açılan dosya ve çözülemeyen dosyalar **tasarım yönü/öneri** düzeyindedir. Bunlar potansiyel sistemlerdir; Dosya #001'i yapmak için zorunlu bağımlılık oluşturmaz. Özellikle bir zamanlar önerilen uluslararası merkez teşkilat ve ülke bazlı açılma, daha sonra kabul edilen **yerel bube Departman şubeleri** ve ülkenin progression kapısı olmaması kararıyla değiştirilmiştir.
 
 ## Üretim ve veri mimarisi için sonuç
 

@@ -92,8 +92,7 @@ public sealed class BootSmokeTests {
  }
 
 
- // Ana menu maketin satirlarini gercekten ciziyor mu: kayit yokken "DEVAM ET"
- // gorunmez, yeni kariyer one cikar; digerleri her durumda durur.
+ // Ana menu videosunun ustunde bes bagimsiz eylem ve Bora karti ciziliyor mu?
  [UnityTest] public IEnumerator MainMenu_ShowsMockupRows() {
   SceneManager.LoadScene("BootScene", LoadSceneMode.Single);
   for (int frame = 0; frame < 30; frame++) yield return null;
@@ -101,23 +100,51 @@ public sealed class BootSmokeTests {
   var root = Object.FindFirstObjectByType<BubeApp>().GetComponent<UIDocument>().rootVisualElement;
   var labels = root.Query<Label>().ToList().Select(label => label.text).Where(text => !string.IsNullOrEmpty(text)).ToList();
 
-  CollectionAssert.Contains(labels, "A DETECTIVE INVESTIGATION GAME", "Marka alt basligi yok.");
-  CollectionAssert.Contains(labels, "bubeGames");
-  CollectionAssert.Contains(labels, "powered by bubeDigital");
-  foreach (var row in new[] { "YENI KARIYER", "AYARLAR", "KARIYER", "CIKIS" })
-   Assert.IsTrue(labels.Any(text => Fold(text) == row), "Menu satiri yok: " + row);
+  CollectionAssert.Contains(labels, "SORULARIN İZİ, GERÇEĞE YAKLAŞTIRIR", "Marka alt basligi yok.");
+  Assert.IsTrue(labels.Any(text => text == "Oyuna Başla" || text == "Devam Et"),
+   "Kayit durumuna uygun ana eylem yok.");
+  foreach (var row in new[] { "Vakalar", "Kariyer", "Ayarlar", "Hakkında" })
+   CollectionAssert.Contains(labels,row,"Menu satiri yok: "+row);
+  CollectionAssert.Contains(labels, "Bora", "Personel karti yok.");
 
   // Simgeler: her satirin solunda maketten gelen gorsel duruyor mu. Glif
   // kullanilsaydi bunlar Label olurdu; arka plan gorseli aranir.
   var rows = root.Query<Button>().ToList()
-   .Where(button => button.Query<Label>().ToList().Any(label => Fold(label.text ?? "") == "AYARLAR" || Fold(label.text ?? "") == "CIKIS"))
-   .ToList();
-  Assert.AreEqual(2, rows.Count, "Ayarlar ve Cikis satirlari bulunamadi.");
+   .Where(button => button.name == "MenuAction" || button.name == "MenuActionPrimary").ToList();
+  Assert.AreEqual(5, rows.Count, "Bes menu satiri bulunamadi.");
   foreach (var row in rows)
    Assert.IsTrue(row.Children().Any(child => child.resolvedStyle.backgroundImage.texture != null),
     "Menu satirinda simge gorseli yok.");
 
   CollectionAssert.IsEmpty(errors, "Hata olustu: " + string.Join(" | ", errors));
+ }
+
+ [UnityTest] public IEnumerator CaseBrowser_CountrySwitchKeepsCardsScrollableAndLocksIntact() {
+  SceneManager.LoadScene("BootScene",LoadSceneMode.Single);
+  for(int frame=0;frame<30;frame++) yield return null;
+  var app=Object.FindFirstObjectByType<BubeApp>();
+  var method=typeof(BubeApp).GetMethod("WorldPage",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance);
+  method.Invoke(app,null);
+  for(int frame=0;frame<5;frame++) yield return null;
+  var root=app.GetComponent<UIDocument>().rootVisualElement;
+  var countries=root.Q<ScrollView>("CountryStrip");
+  var cases=root.Q<ScrollView>("CaseStrip");
+  Assert.IsNotNull(countries);Assert.IsNotNull(cases);
+  Assert.AreEqual(Worlds.Load().countries.Count,countries.contentContainer.childCount);
+  Assert.AreEqual(7,cases.contentContainer.childCount);
+  Assert.IsNotNull(root.Q("CaseBrowserSidebar"));
+  Assert.Greater(cases.contentContainer.layout.width,cases.contentViewport.layout.width,"Case cards must scroll, not shrink.");
+  // Selecting another country is presentation only, and cannot open its cases.
+  typeof(BubeApp).GetField("worldPick",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).SetValue(app,1);
+  method.Invoke(app,null);
+  for(int frame=0;frame<5;frame++) yield return null;
+  cases=root.Q<ScrollView>("CaseStrip");
+  Assert.AreEqual(7,cases.contentContainer.childCount);
+  foreach(var card in cases.contentContainer.Children()) {
+   Assert.IsFalse(card.focusable,"Unreleased cases cannot take keyboard focus.");
+   Assert.AreEqual(PickingMode.Ignore,card.pickingMode,"Locked cards cannot be pressed.");
+  }
+  CollectionAssert.IsEmpty(errors,string.Join(" | ",errors));
  }
 
  // Turkce buyuk harf karsilastirmasi; testin kaynagi aksansiz kalsin.
