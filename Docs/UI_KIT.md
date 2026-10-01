@@ -36,22 +36,13 @@ Değerler kit görselindeki etiketli sekiz kutudan okunmuştur. `UiKitTests.Pale
 
 ## Tipografi
 
-| Rol | Yazı tipi |
-| --- | --- |
-| Logo | distressed slab — **yalnız marka görseli**, UI metninde kullanılmaz |
-| Büyük başlık (≥28) | Alfa Slab One — logonun ahşap dizgi dilinin okunur akrabası |
-| Başlık | Roboto Slab Bold |
-| Alt başlık | Roboto Slab Medium |
-| Gövde / düğme | Inter |
-| Teknik metin | IBM Plex Mono |
+1 Ekim 2026 kullanıcı kararı: bütün oyun metinleri **Chakra Petch** ailesini kullanır.
+- Gövde, açıklama, teknik kayıt ve saatler: Regular 400.
+- Vurgulu gövde ve kalın kayıt metni: SemiBold 600.
+- Büyük/küçük başlıklar: Bold 700.
+- KARINE görsel logosu korunur.
 
-Teknik metin = oyuncunun "kayıt" olarak okuduğu her şey: `DOSYA #001`, tarih/saat, `KURUM GÜVENİ`, sayfa sayacı, CCTV zaman damgası. Kod karşılığı `KarineUI.Technical(...)`.
-
-Alfa Slab One, Roboto Slab (ExtraBold, Bold) ve Inter (Regular, SemiBold) **depoya kondu** — `Assets/Bube/Resources/Bube/Fonts/`, Git LFS. Roboto Slab Apache 2.0, Inter OFL; lisans metinleri aynı klasörde. Türkçe kapsamı denetlendi: ı İ ğ Ğ ş Ş ç ö ü â î û hepsi var. Roboto Slab'da ₺ yoktur, o yüzden metası IBM Plex Mono'ya yedeklenir. Doğrulayıcı beş dosyanın da varlığını **zorunlu** tutar.
-
-**Gövde yazısı mono değildir.** Kök öğe uzun süre IBM Plex Mono'ya bağlıydı, yani bütün ekranlar monospace okunuyordu ve yazı kötü görünüyordu. Kök artık Inter; mono **yalnız** `Technical` ile gelir: dosya numarası, tarih, saat, güven yüzdesi, kayıt numarası.
-
-**Logo dili ve kit §2.** Kit "logo fontunu normal UI metinlerinde kullanma" der ve bunun gerekçesi okunabilirliktir. KARINE logosu zaten bir görseldir, font değil. Kullanıcı isteğiyle büyük başlıklar logonun ağır ahşap dizgi diline **yakın** bir yüz kullanıyor: Alfa Slab One, yalnız 28 punto ve üstünde (`KarineUI.DisplayFrom`). Küçük başlıklar Roboto Slab'da kalır, çünkü ahşap dizgi küçük puntoda okunmaz — kit'in okunabilirlik kuralı orada ağır basar. Test iki eşiği de kilitler.
+`FontSet` bütün ekranların ortak kaynağıdır. `Mono`/`MonoBold` alan adları API uyumluluğu için korunur; artık sabit genişlikli font anlamına gelmez. Önceki Inter/Roboto Slab/IBM Plex/Alfa Slab kararları bu kararla değiştirilmiştir. Dosyalar ve OFL lisansı `Assets/Bube/Resources/Bube/Fonts/` altındadır. Kaynak: Google Fonts resmi `ofl/chakrapetch` deposu.
 
 ## Düğme hiyerarşisi
 
@@ -124,3 +115,52 @@ Punto da ekranın içine elle yazılmaz: ekranlardaki her `style.fontSize` atama
 
 ## Masa bileşenleri — 27 Eylül 2026
 OfficeStage oranı korunan oda katmanını, OfficeAction fiziksel nesne üzerindeki okunabilir etiketi, OfficePortrait erişilmiş kişi kartını kurar. Yerleşim KarineTheme.Office'dan gelir. Ülke manzarası ve saydam nesne atlası bağımsız görsellerdir. Görev/Notlar katmanı bulunmaz.
+
+### 1 Ekim 2026 masa sunumu
+
+Geniş orta pencere + bağımsız nesneler düzeni kullanılır. Beyaz dosya fotoğrafsız; CCTV monitörü yalnız giriş metni/ikonu taşır. Üst şeritte konum ve altı eylem; nesne düğmelerinde ortak ikon/metin/ok bileşeni. Güncel Unity görünümü: `Reference/DESK_2026-10-01.png`. Telefon kabulü açık.
+
+## 1 Ekim 2026 — Dosya Vaka Detay
+
+Dosya detay katmanı KarineUI.Dossier ve KarineTheme.Dossier üzerinden kurulur. Kâğıt dokusu yazı içermez; metin, portre, fotoğraf ve sekmeler bağımsızdır. Sekmeler minimum 48 px dokunma hedefini korur; içerik kaydırılabilir. Gerçek telefon okunabilirliği ayrıca doğrulanmalıdır.
+
+## 1 Ekim 2026 — Gelen Evraklar sunumu
+
+Gelen Evraklar sunumu KarineUI.Inbox bileşenleriyle kurulur. Liste ve belge ayrı kaydırılır; seçili satır krem, okunmamış satır kırmızı işaretlidir. Kâğıt DossierPaper dokusunu paylaşır; bütün metin ve etkileşimler kodla oluşturulur.
+
+## 1 Ekim 2026 — Görüşmeler ve İncelemeler tableti
+
+Talep tabletinde sol 20% gezinme, orta 45% kaydırılabilir liste, sağ 35% kaydırılabilir detay ve sabit eylem kartı. Ortak tablet/portre assetleri yeniden kullanılır. Kişi seçimi ve talep gönderme ayrı eylemlerdir; en az 48 px eylem hedefi korunur.
+
+## 1 Ekim 2026 — CCTV tablet sunumu
+
+CCTV: tablet içi sol %27 kamera listesi, sağ %73 kayıt alanı. Metin Technical fontuyla çizilir; en az 48 px satır ve mevcut izleme/netleştirme düğmeleri korunur. Kaynak başlıkları ve dönemleri vaka verisinden gelir.
+
+## 1 Ekim 2026 — Vakalar yeni referansı
+
+Vakalar ekranı koyu çerçeve, atlas tabanlı ülke panoraması, ülke ilerleme çubukları ve polaroid dosya şeridi kullanır. Küçük ekranlarda yatay kaydırma korunur. Genel ilerleme ve sıra çizgisi gösterimdir; vaka kilitlerini değiştirmez.
+
+
+## 1 Ekim 2026 — Çubuksuz kaydırma
+
+Tüm kaydırılabilir alanlar ortak `KarineScrollView` kullanır. Yatay/dikey çubuklar görünmez ve yer kaplamaz; dokunarak kaydırma, fare tekerleği ve programatik kaydırma korunur. Yeni ekranlar doğrudan `ScrollView` üretmez.
+
+
+## 1 Ekim 2026 — Ayarlar referansı
+
+Ayarlar, menü videosu üzerinde koyu çerçeveli paneldir. SettingsShell/SettingsChoice ortak bileşenleri sol sekmeler, krem seçim kartları, sabit kapat/kaydet alanı ve çubuksuz içerik kaydırmasını sağlar. Genel, Müzik, Oynanış sekmeleri mevcut tercihlere bağlıdır; uygulanmamış görüntü ayarları gösterilmez.
+
+
+## 1 Ekim 2026 — Ortak geçişler
+
+Ortak KarineMotion, dosyayı 280 ms yerleştirir, tableti 450 ms kaldırır/300 ms indirir. Düğmeler dokununca %97,5 ölçeğe iner; bırakma/iptalde eski boyutuna döner. Ayarlar > Oynanış > Hareketi azalt bu üç hareketi kapatır.
+
+
+## 1 Ekim 2026 — Evrak varışı
+
+Yeni evrak/teklif/faks masa tepsisine kısa bir kâğıt kaymasıyla gelir. Ortak IncomingPaper bileşeni ve ui_fax sesi kullanılır. Hareketi azalt açıkken kâğıt hareket etmez ve rozet sabit kalır; ses mevcut efekt ses ayarına uyar.
+
+
+## 1 Ekim 2026 — Dosya sekmesi geçişi
+
+Dosya sekmesi değişince yeni sayfa 200 ms içinde 18 px yatay hareketle ve hafif saydamlık geçişiyle yerleşir; aktif sekme 8 px öne çıkar. Aynı sekmeye tekrar dokunma geçiş başlatmaz. Hareketi azalt açıkken son görünüm anında uygulanır.

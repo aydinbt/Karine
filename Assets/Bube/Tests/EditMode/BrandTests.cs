@@ -47,7 +47,7 @@ public sealed class BrandTests {
  [Test]
  public void FontRoles_AlwaysResolveEvenWhenFilesAreMissing() {
   var set = FontSet.Load();
-  Assert.IsNotNull(set.Mono, "IBM Plex Mono projede olmalı.");
+  Assert.IsNotNull(set.Mono, "Chakra Petch projede olmalı.");
   foreach (var font in new[] { set.Heading, set.Body, set.BodyBold, set.MonoBold })
    Assert.IsNotNull(font, "Her rol bir yazı tipine düşmeli; ekran yazısız kalmamalı.");
  }

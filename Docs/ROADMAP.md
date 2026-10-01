@@ -1,11 +1,11 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 27 Eylül 2026 (Vakalar ve masa sunumu referanslara uyarlandı)
+**Son durum:** 1 Ekim 2026 (masa yeni referansa göre yeniden yerleştirildi)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 124 test: 111 EditMode + 13 PlayMode)
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 126 test: 111 EditMode + 15 PlayMode)
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -280,3 +280,65 @@ Bir aşamanın bittiği, “Bitti ölçütü” gerçekleşmeden ilan edilmez. S
 - [ ] Gerçek telefonda son görsel kabul ve dokunma denemesi.
 
 Masa doğrulaması: 111 EditMode + 13 PlayMode geçti. Grafik etkin Unity testinde 1280×720 masa görüntüsü alındı; son yerleşim görsel olarak incelendi. Bu, fiziksel telefonda dokunma kabulünün yerine geçmez.
+
+### 1 Ekim 2026 — yeni masa referansı
+
+- [x] Masa sunumu: geniş ülke penceresi, bağımsız beyaz dosya/telefon/evrak/monitör/delil katmanları, konumlu başlık ve altı üst menü eylemi. Grafik etkin Unity çıktısında gözlendi: `Reference/DESK_2026-10-01.png`. 111 EditMode + 13 PlayMode geçti.
+- [ ] Yeni masa düzeninin fiziksel telefonda dokunma ve okunabilirlik kabulü.
+
+## 1 Ekim 2026 — Dosya Vaka Detay
+
+- [~] **1 Ekim — Dosya Vaka Detay sunumu:** yeniden kullanılabilir Dossier bileşenleri, kâğıt dokusu, mevcut fotoğraf/portreler, sağ sekmeler. Unity render incelemesi yapıldı; mobil kabul açık. Arama ve mevcut bütün dosya araçları korundu.
+
+## 1 Ekim 2026 — Gelen Evraklar sunumu
+
+- [~] Gelen Evraklar yeni sunumu: marka/geri/üst araçlar, ikonlu evrak listesi, Tümü/Yeni/Okunan filtreleri, okunmamış işareti ve geniş kâğıt önizleme. 124 test geçti; fiziksel telefon kabulü açık.
+
+Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizası ve yinelenen kurum başlığı düzeltildi. Bu iki sunum düzeltmesi sonrası test betiği lisans oturumu bulunamadığından yeniden çalışmadı. Önceki sürümde 111 EditMode + 13 PlayMode başarılıydı.
+
+## 1 Ekim 2026 — Görüşmeler ve İncelemeler tableti
+
+- [~] Talep tabletinde seçilebilir liste + ayrı detay ve eylem kartı, ortak üst gezinme. 111 EditMode + 13 PlayMode geçti. Telefon okunabilirliği/dokunma kabulü açık.
+
+## 1 Ekim 2026 — CCTV tablet sunumu
+
+- [~] CCTV tablet referansı: sol gerçek kamera kaynakları, sağ kayıt paneli, ortak üst gezinme. Metin sırası/netleştirme/video eylemleri korundu. 124 test başarılı; telefon kabulü açık.
+
+## 1 Ekim 2026 — Vakalar yeni referansı
+
+- [~] Vakalar yeni referansı: ülke kartlarında ilerleme ve kilit; seçili ülke panoraması; yedi kompakt dosya kartı ve sıra göstergesi; gerçek tamamlanan dosyalardan genel ilerleme. 124 test başarılı; telefon kabulü açık.
+
+
+## 1 Ekim 2026 — Çubuksuz kaydırma
+
+- [~] Oyun genelinde çubuksuz kaydırma: ortak bileşen ve tüm mevcut kaydırılabilir ekranlar güncellendi; fiziksel telefon kontrolü açık.
+
+
+## 1 Ekim 2026 — Ayarlar referansı
+
+- [~] Referansa yakın Ayarlar paneli: sol sekmeler, krem seçim kartları, taslak tercih/kaydet, varsayılanlar ve çubuksuz kaydırma. 111 EditMode + 13 PlayMode geçti; fiziksel telefon kabulü açık.
+
+
+## 1 Ekim 2026 — Chakra Petch
+
+[~] Bütün oyun metinleri Chakra Petch Regular/SemiBold/Bold ailesine geçirildi. FontSet ve içerik doğrulayıcı güncellendi; logo bitmap olarak korundu. OFL lisansı fontlarla birlikte eklendi. Fiziksel telefon okunabilirliği kontrolü açık.
+
+
+## 1 Ekim 2026 — Ortak geçişler
+
+[~] İlk animasyon paketi: dosya yerleşmesi, tablet kaldırma/indirme, düğme geri bildirimi ve hareket azaltma. Cihazda hareket/etkileşim kabulü açık.
+
+
+## 1 Ekim 2026 — Evrak varışı
+
+[~] Evrak varış ritüeli: kâğıt kayması + ui_fax + rozet ışığı; masaya dönüşlerde tekrar önleme. Gerçek cihaz kabulü açık.
+
+
+## 1 Ekim 2026 — Dosya sekmesi geçişi
+
+[~] Dosya sekmesi geçişleri: 200 ms sayfa yerleşimi, aktif sekme çıkıntısı, aynı sekmeye yeniden dokunmada animasyonsuz kalma; cihaz kabulü açık.
+
+
+## 1 Ekim 2026 — Masanın havası (1. kademe)
+
+[~] Lamba ışığı (nefes alan sıcak havuz) + köşe kararması + ışıkta süzülen 18 toz zerresi; eğince parallax (cihazda ivmeölçer, Editör'de fare; arka plaka %50 derinlik, taban kendiliğinden ortalanır); dokunulan masa eşyası kalkar, gölgesi yayılır, bırakınca oturur; tepsiye düşen kâğıt yan düşüp düzelir. Hareketi azalt açıkken toz, parallax ve kalkma kapalı. PlayMode'da katman yapısı ve kalkma/oturma ölçüldü; **görüntü ve eğme hissi gözlenmedi** (testler `-nographics`), cihaz kabulü açık.

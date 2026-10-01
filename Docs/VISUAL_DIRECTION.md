@@ -53,3 +53,7 @@ Sol koyu sidebar, üst ülke kartpostalları ve alt kâğıt fotoğraf dosyalar�
 
 ## Masa — 27 Eylül 2026
 Pencereli ön cephe masa kompozisyonu. Fotoğrafsız beyaz dosya ortada, telefon ve evrak solda, yalnız yazı taşıyan monitör sağda. Görev paneli ve Notlar yoktur. Ülke manzarası aktif dosyaya göre değişir. Yeni OfficeRoom dekoru ve OfficeProps saydam atlası mevcut logo, ülke atlası ve portrelerle birleştirilir. Referansın bütün ekranı tek görsel olarak kullanılmaz.
+
+### 1 Ekim 2026 masa sunumu
+
+Geniş orta pencere + bağımsız nesneler düzeni kullanılır. Beyaz dosya fotoğrafsız; CCTV monitörü yalnız giriş metni/ikonu taşır. Üst şeritte konum ve altı eylem; nesne düğmelerinde ortak ikon/metin/ok bileşeni. Güncel Unity görünümü: `Reference/DESK_2026-10-01.png`. Telefon kabulü açık.

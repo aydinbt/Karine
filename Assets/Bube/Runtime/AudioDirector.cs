@@ -17,6 +17,7 @@ public sealed class AudioDirector : MonoBehaviour {
  public const string Folder = "Bube/Audio/";
 
  // Ekranların kullandığı adlar. Dosya adı da bunlardır; ekranlar yol yazmaz.
+ public const string Fax = "ui_fax";
  public const string Press        = "ui_press";
  public const string Typewriter   = "ui_typewriter";
  public const string Stamp        = "ui_stamp";

@@ -5,6 +5,61 @@ using UnityEngine.UIElements;
 namespace Bube {
 
 // Kit'teki düğme hiyerarşisi. Ekranlar bunun dışında bir düğme biçimi üretmez.
+// Scroll bars never occupy the game's visual surfaces. Unity's native touch,
+// wheel and programmatic scrolling remain available in both directions.
+public sealed class KarineScrollView : ScrollView {
+ public KarineScrollView(ScrollViewMode mode = ScrollViewMode.Vertical) : base(mode) {
+  horizontalScrollerVisibility = ScrollerVisibility.Hidden;
+  verticalScrollerVisibility = ScrollerVisibility.Hidden;
+ }
+}
+
+// Unscaled UI motion; each owner cancels pending work when detached.
+public static class KarineMotion {
+ public static bool Reduced => PlayerPrefs.GetInt("karine.reducedMotion",0)==1;
+ public static void Run(VisualElement owner,float seconds,Action<float> update,Action complete=null) {
+  if(Reduced){update(1);complete?.Invoke();return;}
+  float start=Time.realtimeSinceStartup;
+  IVisualElementScheduledItem task=null;
+  EventCallback<DetachFromPanelEvent> detach=null;
+  detach=evt=>{task?.Pause();owner.UnregisterCallback(detach);};
+  owner.RegisterCallback(detach);
+  update(0);
+  task=owner.schedule.Execute(()=>{
+   float t=Mathf.Clamp01((Time.realtimeSinceStartup-start)/seconds);
+   update(t*t*(3-2*t));
+   if(t>=1){task.Pause();owner.UnregisterCallback(detach);complete?.Invoke();}
+  }).Every(KarineTheme.Motion.TickMs);
+ }
+ public static void Page(VisualElement paper) {
+  Run(paper,KarineTheme.Motion.PageSeconds,t=>{
+   paper.style.translate=new Translate(KarineTheme.Motion.PageOffset*(1-t),0);
+   paper.style.opacity=.8f+.2f*t;
+  });
+ }
+ public static void Paper(VisualElement paper) {
+  Run(paper,KarineTheme.Motion.PaperSeconds,t=>{
+   paper.style.translate=new Translate(0,KarineTheme.Motion.PaperOffset*(1-t));
+   paper.style.opacity=.65f+.35f*t;
+  });
+ }
+ public static void InstallPressFeedback(VisualElement root) {
+  Button pressed=null;
+  Action release=()=>{if(pressed!=null)pressed.style.scale=new Scale(Vector3.one);pressed=null;};
+  root.RegisterCallback<PointerDownEvent>(evt=>{
+   release();if(Reduced)return;
+   var target=evt.target as VisualElement;
+   while(target!=null && !(target is Button))target=target.parent;
+   var button=target as Button;if(button==null||!button.enabledInHierarchy)return;
+   pressed=button;button.style.scale=new Scale(Vector3.one*KarineTheme.Motion.PressScale);
+   button.schedule.Execute(()=>{button.style.scale=new Scale(Vector3.one);}).StartingIn(KarineTheme.Motion.ReleaseMs);
+  },TrickleDown.TrickleDown);
+  root.RegisterCallback<PointerUpEvent>(_=>release(),TrickleDown.TrickleDown);
+  root.RegisterCallback<PointerCancelEvent>(_=>release(),TrickleDown.TrickleDown);
+  root.RegisterCallback<PointerLeaveEvent>(_=>release());
+ }
+}
+
 public enum KarineButtonKind { Primary, Secondary, Ghost, Danger }
 
 // Rozet/durum göstergesi tonu: kit'te kırmızı yalnız "yeni/kritik", teal
@@ -33,11 +88,35 @@ public static partial class KarineUI {
  static Font BodyBold => Fonts != null ? Fonts.BodyBold : null;
  static Font Mono => Fonts != null ? Fonts.Mono : null;
 
+ public static VisualElement SettingsShell(VisualElement root,out VisualElement navigation,out VisualElement body) {
+  var veil=new VisualElement();OfficePlace(veil,new Rect(0,0,100,100));veil.style.backgroundColor=KarineTheme.Veil(.65f);root.Add(veil);
+  var frame=Panel(root,true);frame.name="SettingsPanel";frame.style.position=Position.Absolute;
+  bool narrow=Screen.height>=Screen.width;
+  frame.style.left=Length.Percent(narrow?KarineTheme.Settings.NarrowInset:KarineTheme.Settings.Inset);
+  frame.style.right=frame.style.left;
+  frame.style.top=Length.Percent(KarineTheme.Settings.Top);frame.style.bottom=Length.Percent(KarineTheme.Settings.Bottom);
+  frame.style.flexDirection=narrow?FlexDirection.Column:FlexDirection.Row;
+  frame.style.backgroundColor=KarineTheme.Background;Border(frame,2,KarineTheme.Accent);
+  navigation=new VisualElement();navigation.style.width=narrow?StyleKeyword.Auto:new StyleLength(KarineTheme.Settings.SideWidth);
+  navigation.style.flexShrink=0;navigation.style.flexDirection=narrow?FlexDirection.Row:FlexDirection.Column;
+  navigation.style.marginRight=KarineTheme.SpaceXl;frame.Add(navigation);
+  body=new VisualElement();body.style.flexGrow=1;body.style.minWidth=0;body.style.minHeight=0;frame.Add(body);return frame;
+ }
+ public static Button SettingsChoice(VisualElement parent,string title,string detail,bool selected,Action pick,string icon=null) {
+  var button=Button_(parent,"",pick,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);
+  button.style.minHeight=KarineTheme.Settings.ChoiceHeight;button.style.flexDirection=FlexDirection.Row;button.style.alignItems=Align.Center;
+  button.style.flexGrow=1;button.style.flexBasis=0;button.style.minWidth=0;
+  var color=selected?KarineTheme.OnPrimary:KarineTheme.Primary;
+  if(icon!=null)Icon(button,icon,color,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
+  var copy=new VisualElement();copy.style.flexGrow=1;copy.style.minWidth=0;button.Add(copy);
+  var heading=Body_(copy,title,KarineTheme.Settings.TextSize);heading.style.color=color;heading.style.unityTextAlign=TextAnchor.MiddleLeft;heading.style.marginBottom=KarineTheme.SpaceXs;
+  if(!string.IsNullOrEmpty(detail)){var hint=Body_(copy,detail,KarineTheme.CaseBrowser.SmallSize);hint.style.unityTextAlign=TextAnchor.MiddleLeft;hint.style.color=selected?KarineTheme.Paper.Ink:KarineTheme.Secondary;hint.style.marginBottom=0;}
+  return button;
+ }
+
  // --- Yazı -----------------------------------------------------------------
 
- // Büyük başlıklar logonun diline yakın ağır slab'ı kullanır; küçük başlıklar
- // Roboto Slab'da kalır. Eşik `DisplayFrom`: ahşap dizgi küçük puntoda
- // okunmaz, kit'in okunabilirlik kuralı orada ağır basar.
+ // Başlık boyutu rolleri korunur; her iki rol Chakra Petch Bold kullanır.
  public const int DisplayFrom = 28;
  public static Label Title(VisualElement parent, string value, int size = 28) =>
   Write(parent, value, KarineTheme.Primary, size, size >= DisplayFrom ? Display : Heading);

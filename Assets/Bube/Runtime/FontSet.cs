@@ -2,20 +2,8 @@ using UnityEngine;
 
 namespace Bube {
 
-// Yazı tipi **rolleri**. Oyunun dört ayrı işi vardır ve her biri farklı bir
-// yazı tipi ister:
-//
-//   Logo     — yalnız KARINE markası. Yazı tipi değil, görseldir (`KarineLogo`).
-//   Display  — büyük ekran başlıkları. Logonun ağır ahşap-dizgi dilinin
-//              okunur akrabası (Alfa Slab One). Yalnız 28 punto ve üstünde.
-//   Heading  — küçük başlıklar ve şerit yazıları. Ağır slab-serif (Roboto Slab).
-//   Mono     — dosya, terminal, tarih, vaka numarası. IBM Plex Mono.
-//   Body     — açıklamalar ve düğmeler. Inter / IBM Plex Sans.
-//
-// Dosya adları burada sabittir, çağrı yerlerinde değil. Bir rolün dosyası
-// projede yoksa **bir sonraki adaya**, en sonunda mono'ya düşer; ekran hiçbir
-// zaman yazısız kalmaz. Böylece `RobotoSlab-Bold.ttf` ve `Inter-Regular.ttf`
-// klasöre bırakıldığı an oyunun tamamı tek yerden geçiş yapar.
+// All text roles use Chakra Petch. Mono names remain for API compatibility;
+// these roles now use proportional Chakra Petch too. The logo is a bitmap.
 public sealed class FontSet {
 
  public Font Display { get; private set; }
@@ -30,21 +18,21 @@ public sealed class FontSet {
 
  public static FontSet Load() {
   var set=new FontSet();
-  set.Mono=First("IBMPlexMono-Regular");
-  set.MonoBold=First("IBMPlexMono-SemiBold") ?? set.Mono;
-  var display=First("AlfaSlabOne-Regular");
-  var heading=First("RobotoSlab-ExtraBold","RobotoSlab-Bold","Arvo-Bold");
-  var body=First("Inter-Regular","IBMPlexSans-Regular");
-  var bodyBold=First("Inter-SemiBold","Inter-Bold","IBMPlexSans-SemiBold");
+  set.Mono=First("ChakraPetch-Regular");
+  set.MonoBold=First("ChakraPetch-SemiBold") ?? set.Mono;
+  var display=First("ChakraPetch-Bold");
+  var heading=First("ChakraPetch-Bold");
+  var body=First("ChakraPetch-Regular");
+  var bodyBold=First("ChakraPetch-SemiBold");
   set.Heading=heading ?? set.MonoBold;
   set.Display=display ?? set.Heading;
   set.Body=body ?? set.Mono;
   set.BodyBold=bodyBold ?? set.MonoBold;
   var missing=new System.Collections.Generic.List<string>();
-  if(display==null)missing.Add("Display (AlfaSlabOne-Regular)");
-  if(heading==null)missing.Add("Heading (RobotoSlab-ExtraBold)");
-  if(body==null)missing.Add("Body (Inter-Regular)");
-  if(bodyBold==null)missing.Add("BodyBold (Inter-SemiBold)");
+  if(display==null)missing.Add("Display (ChakraPetch-Bold)");
+  if(heading==null)missing.Add("Heading (ChakraPetch-Bold)");
+  if(body==null)missing.Add("Body (ChakraPetch-Regular)");
+  if(bodyBold==null)missing.Add("BodyBold (ChakraPetch-SemiBold)");
   set.Missing=missing.ToArray();
   return set;
  }

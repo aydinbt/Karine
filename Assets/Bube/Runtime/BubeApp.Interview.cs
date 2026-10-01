@@ -53,11 +53,11 @@ public sealed partial class BubeApp {
   root.Add(dialogue);
   Text(dialogue,phase==1?T("interview.bora"):T(node.personNameKey).ToUpperInvariant(),Gold,15);
   var spoken=phase==1?T(active.promptKey):phase==2?T(answerKey):T(availableOptions.Length==0?"interview.noNewInfo":"interview.opening");
-  var dialogueScroll=new ScrollView(ScrollViewMode.Vertical);
+  var dialogueScroll=new KarineScrollView(ScrollViewMode.Vertical);
   dialogueScroll.style.position=Position.Absolute;
   dialogueScroll.style.left=18;dialogueScroll.style.right=12;
   dialogueScroll.style.top=38;dialogueScroll.style.bottom=8;
-  dialogueScroll.verticalScrollerVisibility=ScrollerVisibility.Auto;
+  dialogueScroll.verticalScrollerVisibility=ScrollerVisibility.Hidden;
   dialogue.Add(dialogueScroll);
   var speech=Text(dialogueScroll,spoken,Ink,17);
   speech.style.whiteSpace=WhiteSpace.Normal;
@@ -88,7 +88,7 @@ public sealed partial class BubeApp {
    historyTabs.style.flexShrink=0;historyTabs.style.minHeight=MinimumTouchTarget+4;
    questionArea.Add(historyTabs);
   }
-  var questions=new ScrollView();questions.style.flexGrow=1;questions.style.minHeight=0;
+  var questions=new KarineScrollView();questions.style.flexGrow=1;questions.style.minHeight=0;
   questionArea.Add(questions);
   if(phase==0) {
    for(int groupIndex=0;groupIndex<topics.Length;groupIndex++) {
@@ -140,7 +140,7 @@ public sealed partial class BubeApp {
     ()=>InterviewPage(node,sourceAccepted?null:active,sourceAccepted?0:1),true);
   }
   if(turns.Length>0) {
-   var history=new ScrollView();history.style.flexGrow=1;history.style.minHeight=0;questionArea.Add(history);
+   var history=new KarineScrollView();history.style.flexGrow=1;history.style.minHeight=0;questionArea.Add(history);
    for(int i=0;i<turns.Length;i++) {
     var turn=turns[i];
     var card=new VisualElement();card.style.paddingLeft=12;card.style.paddingRight=12;card.style.paddingTop=9;

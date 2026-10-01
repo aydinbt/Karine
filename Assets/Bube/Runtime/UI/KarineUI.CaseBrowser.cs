@@ -18,7 +18,7 @@ public static partial class KarineUI {
  }
 
  public static Button CountryTile(VisualElement parent,string id,string title,string count,
-                                  Texture2D art,bool selected,bool unlocked,Action click) {
+                                  Texture2D art,bool selected,bool unlocked,Action click,float progress=0) {
   var card=new Button(Sounded(click)) {name="CountryTile-"+id};
   card.style.width=KarineTheme.CaseBrowser.CountryWidth;
   card.style.height=KarineTheme.CaseBrowser.CountryHeight;
@@ -26,7 +26,7 @@ public static partial class KarineUI {
   card.style.marginLeft=0;card.style.marginTop=0;
   card.style.marginRight=KarineTheme.SpaceSm;card.style.marginBottom=KarineTheme.SpaceSm;
   card.style.paddingLeft=KarineTheme.SpaceSm;card.style.paddingRight=KarineTheme.SpaceSm;
-  card.style.justifyContent=Justify.FlexEnd;
+  card.style.justifyContent=Justify.FlexEnd;card.style.backgroundColor=KarineTheme.Background;
   card.style.overflow=Overflow.Hidden;
   Border(card,selected?2:KarineTheme.BorderWidth,selected?KarineTheme.Primary:KarineTheme.Accent);
   CountryPostcard(card,id,art).style.opacity=unlocked?1f:.45f;
@@ -36,17 +36,49 @@ public static partial class KarineUI {
    flag.style.width=KarineTheme.IconSize+KarineTheme.SpaceMd;flag.style.height=KarineTheme.IconSize;card.Add(flag);
   }
   var plate=new VisualElement();
-  plate.style.backgroundColor=selected?KarineTheme.Paper.Sheet:KarineTheme.Alpha(KarineTheme.Background,.9f);
+  plate.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Background,.95f);
   plate.style.paddingLeft=KarineTheme.SpaceXs;plate.style.paddingRight=KarineTheme.SpaceXs;
   card.Add(plate);
   var name=Body_(plate,title,KarineTheme.CaseBrowser.TextSize);
-  name.style.color=selected?KarineTheme.Paper.Ink:KarineTheme.Primary;
+  name.style.color=KarineTheme.Primary;
   name.style.marginBottom=0;
   var tally=Body_(plate,count,KarineTheme.CaseBrowser.SmallSize);
-  tally.style.color=selected?KarineTheme.Paper.Faded:KarineTheme.Secondary;
+  tally.style.color=KarineTheme.Secondary;
   tally.style.marginBottom=KarineTheme.SpaceXs;
+  BrowserMeter(plate,progress);
+  if(!unlocked) {var seal=new CaseSeal(false);seal.style.position=Position.Absolute;seal.style.top=KarineTheme.SpaceXs;seal.style.left=Length.Percent(32);card.Add(seal);}
   parent.Add(card);
   return card;
+ }
+
+ public static void BrowserMeter(VisualElement parent,float value) {
+  var track=new VisualElement();track.style.height=KarineTheme.CaseBrowser.ProgressHeight;track.style.marginBottom=KarineTheme.SpaceXs;
+  track.style.backgroundColor=KarineTheme.Panel2;parent.Add(track);
+  var fill=new VisualElement();fill.style.width=Length.Percent(Mathf.Clamp01(value)*100);fill.style.height=Length.Percent(100);fill.style.backgroundColor=KarineTheme.Primary;track.Add(fill);
+ }
+ public static void BrowserProgress(VisualElement parent,string title,string summary,float progress) {
+  var box=new VisualElement();box.style.width=KarineTheme.CaseBrowser.ProgressWidth;box.style.flexShrink=0;
+  box.style.paddingLeft=KarineTheme.SpaceMd;box.style.paddingRight=KarineTheme.SpaceMd;box.style.paddingTop=KarineTheme.SpaceSm;
+  box.style.backgroundColor=KarineTheme.GlassDeep;Border(box,KarineTheme.BorderWidth,KarineTheme.Panel2);parent.Add(box);
+  var heading=Technical(box,title,KarineTheme.CaseBrowser.SmallSize);heading.style.marginBottom=KarineTheme.SpaceXs;
+  var detail=Body_(box,summary,KarineTheme.CaseBrowser.SmallSize);detail.style.marginBottom=KarineTheme.SpaceXs;BrowserMeter(box,progress);
+ }
+ public static VisualElement BrowserBanner(VisualElement parent,string country,Texture2D art,string title,string description) {
+  var banner=new VisualElement();banner.style.height=KarineTheme.CaseBrowser.BannerHeight;banner.style.flexShrink=0;banner.style.overflow=Overflow.Hidden;parent.Add(banner);
+  CountryPostcard(banner,country,art);
+  var shade=new VisualElement();OfficePlace(shade,new Rect(0,0,100,100));shade.style.backgroundColor=KarineTheme.Veil(.5f);banner.Add(shade);
+  var copy=new VisualElement();copy.style.paddingLeft=KarineTheme.SpaceMd;copy.style.paddingTop=KarineTheme.SpaceSm;banner.Add(copy);
+  var heading=Subtitle(copy,title,KarineTheme.CaseBrowser.TitleSize-KarineTheme.SpaceSm);heading.style.marginBottom=KarineTheme.SpaceXs;
+  var desc=Body_(copy,description,KarineTheme.CaseBrowser.SmallSize);desc.style.marginBottom=0;
+  return banner;
+ }
+ public static void BrowserSteps(VisualElement parent,bool[] completed,int active) {
+  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.marginTop=KarineTheme.SpaceSm;parent.Add(row);
+  for(int i=0;i<completed.Length;i++) {
+   var step=new VisualElement();step.style.flexGrow=1;step.style.alignItems=Align.Center;step.style.borderTopWidth=KarineTheme.BorderWidth;step.style.borderTopColor=KarineTheme.Accent;row.Add(step);
+   var label=Technical(step,(i+1).ToString("00"),KarineTheme.CaseBrowser.SmallSize);label.style.marginBottom=0;
+   label.style.color=completed[i]||active==i?KarineTheme.Primary:KarineTheme.Muted;
+  }
  }
 
  // Polaroid, tape, pin and status are individual UI elements, not a screen image.
@@ -84,7 +116,7 @@ public static partial class KarineUI {
   var name=Body_(card,title,KarineTheme.CaseBrowser.TextSize);
   name.style.color=KarineTheme.Paper.Ink;name.style.flexGrow=1;name.style.marginBottom=0;
   var foot=Body_(card,state,KarineTheme.CaseBrowser.SmallSize);
-  foot.style.backgroundColor=KarineTheme.GlassDeep;
+  foot.style.flexShrink=0;foot.style.backgroundColor=KarineTheme.GlassDeep;
   foot.style.color=completed?KarineTheme.Primary:KarineTheme.Secondary;
   foot.style.paddingLeft=KarineTheme.SpaceSm;foot.style.paddingTop=KarineTheme.SpaceXs;
   foot.style.paddingBottom=KarineTheme.SpaceXs;foot.style.marginBottom=0;

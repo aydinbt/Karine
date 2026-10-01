@@ -52,9 +52,7 @@ public static class ProjectRules {
    "Derleme sahne sırası Boot, Main Menu, Office, Interview olmalı. Şu an: " +
    (enabled.Length == 0 ? "(boş)" : string.Join(", ", enabled)));
 
-  foreach (var font in new[] { "IBMPlexMono-Regular", "IBMPlexMono-SemiBold",
-   "RobotoSlab-ExtraBold", "RobotoSlab-Bold", "Inter-Regular", "Inter-SemiBold",
-   "AlfaSlabOne-Regular" })
+  foreach (var font in new[] { "ChakraPetch-Regular", "ChakraPetch-SemiBold", "ChakraPetch-Bold" })
    report.Require(Resources.Load<Font>("Bube/Fonts/" + font) != null, "Arayüz fontu yok: " + font);
 
   foreach (var (resource, label) in RequiredTextures)

@@ -15,7 +15,7 @@ public sealed partial class BubeApp {
   atlas=atlas??Worlds.Load();var closed=Worlds.Closed(game.Career);
   if(atlas.countries.Count==0) {WorldEmpty();return;}
   if(worldPick<0||worldPick>=atlas.countries.Count) worldPick=Worlds.Resume(atlas,closed);
-  var backdrop=new Image {image=Resources.Load<Texture2D>("Bube/DeskV2"),scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
+  var backdrop=new Image {image=Resources.Load<Texture2D>("Bube/Art/OfficeRoomV2"),scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
   backdrop.style.position=Position.Absolute;backdrop.style.left=0;backdrop.style.right=0;
   backdrop.style.top=0;backdrop.style.bottom=0;root.Add(backdrop);
   var veil=new VisualElement {pickingMode=PickingMode.Ignore};
@@ -25,31 +25,41 @@ public sealed partial class BubeApp {
   main.style.position=Position.Absolute;main.style.left=KarineTheme.CaseBrowser.MainLeft;
   main.style.right=KarineTheme.SpaceXl;main.style.top=KarineTheme.CaseBrowser.Top;
   main.style.bottom=KarineTheme.CaseBrowser.Bottom;root.Add(main);
-  KarineUI.Title(main,T("world.page.title"),KarineTheme.CaseBrowser.TitleSize);
-  KarineUI.Body_(main,T("world.browser.subtitle"),KarineTheme.CaseBrowser.TextSize);
-  var countries=new ScrollView(ScrollViewMode.Horizontal) {name="CountryStrip"};
+  main.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.94f);
+  main.style.paddingLeft=KarineTheme.SpaceMd;main.style.paddingRight=KarineTheme.SpaceMd;main.style.paddingTop=KarineTheme.SpaceMd;
+  KarineUI.Border(main,KarineTheme.BorderWidth,KarineTheme.Panel2);
+  var heading=KarineUI.Row(main);heading.style.flexShrink=0;heading.style.height=KarineTheme.CaseBrowser.HeadingHeight;var words=new VisualElement();words.style.flexGrow=1;heading.Add(words);
+  KarineUI.Title(words,T("world.page.title"),KarineTheme.CaseBrowser.TitleSize).style.marginBottom=0;
+  KarineUI.Body_(words,T("world.browser.subtitle"),KarineTheme.CaseBrowser.SmallSize);
+  int total=atlas.countries.Sum(c=>c.slots.Count),completed=atlas.countries.Sum(c=>Worlds.CompletedIn(c,closed));
+  int finishedWorlds=atlas.countries.Count(c=>c.slots.Count>0&&Worlds.CompletedIn(c,closed)==c.slots.Count);
+  KarineUI.BrowserProgress(heading,T("world.browser.progress"),finishedWorlds+" / "+atlas.countries.Count+" "+T("world.browser.worlds")+" · "+completed+" / "+total+" "+T("world.cases"),total==0?0:(float)completed/total);
+  var countries=new KarineScrollView(ScrollViewMode.Horizontal) {name="CountryStrip"};
   countries.style.height=KarineTheme.CaseBrowser.CountryHeight+KarineTheme.SpaceXl;countries.style.flexShrink=0;
-  countries.horizontalScrollerVisibility=ScrollerVisibility.Auto;
+  countries.horizontalScrollerVisibility=ScrollerVisibility.Hidden;
   countries.contentContainer.style.flexDirection=FlexDirection.Row;main.Add(countries);
   for(int i=0;i<atlas.countries.Count;i++) {
    int selected=i;var country=atlas.countries[i];
-   KarineUI.CountryTile(countries.contentContainer,country.id,T(country.nameKey),country.slots.Count+" "+T("world.cases"),
+   KarineUI.CountryTile(countries.contentContainer,country.id,T(country.nameKey),Worlds.CompletedIn(country,closed)+" / "+country.slots.Count,
     LoadWorldArt(country.image),i==worldPick,Worlds.CountryUnlocked(atlas,i,closed),()=> {
      countryStripOffset=countries.scrollOffset;worldPick=selected;WorldPage();
-    });
+    },country.slots.Count==0?0:(float)Worlds.CompletedIn(country,closed)/country.slots.Count);
   }
   countries.schedule.Execute(()=>countries.scrollOffset=countryStripOffset);
   var current=atlas.countries[worldPick];
   var board=KarineUI.Panel(main,true);board.name="CaseBoard";
   board.style.marginTop=KarineTheme.SpaceSm;board.style.marginLeft=0;board.style.marginRight=0;
-  board.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Board,.88f);
+  board.style.backgroundColor=KarineTheme.GlassDeep;board.style.flexShrink=0;
+  board.style.paddingLeft=KarineTheme.SpaceSm;board.style.paddingRight=KarineTheme.SpaceSm;board.style.paddingTop=KarineTheme.SpaceSm;board.style.paddingBottom=KarineTheme.SpaceSm;
+  KarineUI.BrowserBanner(board,current.id,LoadWorldArt(current.image),T(current.nameKey),T(current.descriptionKey));
   var head=KarineUI.Row(board);
-  var title=KarineUI.Title(head,T(current.nameKey),KarineTheme.CaseBrowser.TitleSize-KarineTheme.SpaceMd);
+  var title=KarineUI.Body_(head,T("world.cases"),KarineTheme.CaseBrowser.SmallSize);
   title.style.flexGrow=1;title.style.marginBottom=0;
   KarineUI.Technical(head,Worlds.CompletedIn(current,closed)+" / "+current.slots.Count,KarineTheme.CaseBrowser.TextSize)
    .style.marginRight=KarineTheme.SpaceMd;
-  var cards=new ScrollView(ScrollViewMode.Horizontal) {name="CaseStrip"};
-  cards.horizontalScrollerVisibility=ScrollerVisibility.Auto;cards.contentContainer.style.flexDirection=FlexDirection.Row;
+  var cards=new KarineScrollView(ScrollViewMode.Horizontal) {name="CaseStrip"};
+  cards.style.height=KarineTheme.CaseBrowser.CardHeight+KarineTheme.SpaceMd;cards.style.flexShrink=0;cards.verticalScrollerVisibility=ScrollerVisibility.Hidden;
+  cards.horizontalScrollerVisibility=ScrollerVisibility.Hidden;cards.contentContainer.style.flexDirection=FlexDirection.Row;
   KarineUI.IconButton(head,"nav_prev",()=>cards.scrollOffset=new Vector2(Mathf.Max(0,cards.scrollOffset.x-KarineTheme.CaseBrowser.CardWidth-KarineTheme.SpaceMd),0),T("world.browser.previous"));
   KarineUI.IconButton(head,"nav_next",()=>cards.scrollOffset=new Vector2(cards.scrollOffset.x+KarineTheme.CaseBrowser.CardWidth+KarineTheme.SpaceMd,0),T("world.browser.next"));
   board.Add(cards);bool unlocked=Worlds.CountryUnlocked(atlas,worldPick,closed);
@@ -61,8 +71,10 @@ public sealed partial class BubeApp {
    if(art==null&&slot.caseId=="case001") art=Resources.Load<Texture2D>("Bube/Case001Building");
    if(art==null&&slot.caseId=="case002") art=Resources.Load<Texture2D>("Bube/Art/Case002Cover");
    KarineUI.CasePhotoCard(cards.contentContainer,string.IsNullOrEmpty(slot.caseId)?current.id+"-"+i:slot.caseId,
-    current.id,T("world.browser.case")+" "+(i+1).ToString("000"),T(slot.titleKey),WorldStateLabel(state),art,active,done,press);
+    current.id,T("world.browser.case")+" "+(i+1).ToString("000"),T(slot.titleKey).Split(new[]{'—'},2).Last().Trim(),WorldStateLabel(state),art,active,done,press);
   }
+  KarineUI.BrowserSteps(board,current.slots.Select((s,i)=>Worlds.SlotState(current,i,closed,unlocked)==WorldSlotState.Completed).ToArray(),
+   Array.FindIndex(current.slots.ToArray(),s=>Worlds.SlotState(current,current.slots.IndexOf(s),closed,unlocked)==WorldSlotState.Active));
   if(!unlocked) KarineUI.Body_(board,T("world.locked.hint"),KarineTheme.CaseBrowser.SmallSize);
   FadeIn(main);
  }

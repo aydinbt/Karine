@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 27 Eylül 2026 (masa ayrı katmanlara taşındı; ülke penceresi aktif dosyaya bağlı)
+**Son güncelleme:** 1 Ekim 2026 (yeni masa referansı: geniş ülke penceresi, ayrı nesneler, sade üst şerit)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**1 Ekim masa sunumu:** Yeni referansa göre geniş orta pencere, solda lamba ve evrak tepsisi, ortada telefon/beyaz dosya, sağda sade CCTV monitörü ve delil yığını yerleştirildi. Üst şeritte dosya/konum ve altı menü eylemi bulunur; logo ana menüye döndürür. 111 EditMode + 13 PlayMode geçti; grafik etkin Unity çıktısı incelendi. Fiziksel telefon kabulü açık.
 
 **27 Eylül menü işi:** Kullanıcının referansına göre logo, Türkçe slogan, beş menü eylemi ve Bora kartı mevcut video üzerine ayrı, yeniden kullanılabilir UI katmanlarıyla kuruldu. Yeni kariyer ayarlardan erişilir; oyun/vaka akışına dokunulmadı. 111 EditMode ve 11 PlayMode testi geçti; referansa göre farklı yatay ekran oranlarında gözle inceleme açık olduğundan yol haritası işareti `[~]`.
 
@@ -114,3 +116,68 @@ Cihaz adımı ertelendiği için sıra **Faz 3 — Dosya #002**: vaka bugün `dr
 **Masa — 27 Eylül:** Kullanıcı referansı doğrultusunda boş oda dekoru + saydam nesne atlası + ülke manzarası + UI bileşenleri kuruldu. Görev/Notlar yok; dosya beyaz ve fotoğrafsız, monitör yalnız CCTV Arşivi yazısı taşır. Mevcut oynanış dalları korunur. Gerçek telefon kabulü açık.
 
 **Masa son doğrulama:** 111 EditMode + 13 PlayMode testi başarılı. Unity render görüntüsünde ayrı oda/nesne/pencere katmanları ve etiket yerleşimi incelendi. Gerçek cihaz kontrolü açık; oyuncunun kaydı test için değiştirilmedi.
+
+## 1 Ekim 2026 — Dosya Vaka Detay
+
+Dosya detay sunumu 1 Ekim 2026 referansına uyarlandı: katmanlı kâğıt, olay fotoğrafı, kompakt metadata, keşfedilmiş kişi kartları, sağ sekmeler ve üst gezinme. Vaka metinleri ve soruşturma koşulları değişmedi. 111 EditMode + 13 PlayMode geçti; fiziksel telefon kontrolü açık.
+
+## 1 Ekim 2026 — Gelen Evraklar sunumu
+
+Gelen Evraklar ekranı son referansa göre sol liste + geniş kâğıt önizleme düzenine taşındı. Mevcut logo, ikonlar, oda ve DossierPaper dokusu yeniden kullanıldı. 111 EditMode + 13 PlayMode geçti. Fiziksel telefon kontrolü açık.
+
+Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizası ve yinelenen kurum başlığı düzeltildi. Bu iki sunum düzeltmesi sonrası test betiği lisans oturumu bulunamadığından yeniden çalışmadı. Önceki sürümde 111 EditMode + 13 PlayMode başarılıydı.
+
+## 1 Ekim 2026 — Görüşmeler ve İncelemeler tableti
+
+Görüşmeler/İncelemeler tablet sunumu sol gezinme, orta liste ve sağ detay kartına taşındı. Mevcut tablet ve portreler kullanıldı; yeni bitmap yok. 111 EditMode ve 13 PlayMode geçti; telefon kabulü açık.
+
+## 1 Ekim 2026 — CCTV tablet sunumu
+
+CCTV tablet sunumu erişilebilir kamera listesi + geniş monospace kayıt dökümü düzenine taşındı. Mevcut tablet/ikonlar kullanıldı; yeni asset üretilmedi. 111 EditMode + 13 PlayMode başarılı; fiziksel telefon kontrolü açık.
+
+## 1 Ekim 2026 — Vakalar yeni referansı
+
+Vakalar sayfası son referansa göre koyu ana panel, panoramik ülke başlığı, kompakt dosya kartları, ülke ilerleme çubukları ve genel ilerleme göstergesiyle güncellendi. Mevcut ülke atlası/Bora/kapaklar kullanıldı. 111 EditMode + 13 PlayMode geçti; fiziksel telefon kabulü açık.
+
+Vakalar yerleşimi Unity’de 1280×720 görüntüyle kontrol edildi; iki satırlı vaka başlıkları ve durum etiketleri kart içinde kalıyor. Görsel kayıt: `Docs/Reference/WORLDS_2026-10-01.png`. Son yerleşim sonrası 13 PlayMode testi yeniden geçti.
+
+
+## 1 Ekim 2026 — Çubuksuz kaydırma
+
+Oyun genelindeki kaydırma çubukları ortak bileşen üzerinden gizlendi; içerik kaydırma korunuyor. Gerçek telefonda parmakla kullanım doğrulaması açık.
+
+
+## 1 Ekim 2026 — Ayarlar referansı
+
+Ayarlar sol sekmeli koyu panel ve krem tercih kartlarıyla yenilendi. Kaydet/varsayılan taslağı eklendi; gameplay akışı değiştirilmedi. 111 EditMode + 13 PlayMode geçti; fiziksel telefon doğrulaması açık.
+
+
+## 1 Ekim 2026 — Chakra Petch
+
+Bütün oyun metinleri Chakra Petch Regular/SemiBold/Bold ailesine geçirildi. FontSet ve içerik doğrulayıcı güncellendi; logo bitmap olarak korundu. OFL lisansı fontlarla birlikte eklendi. Fiziksel telefon okunabilirliği kontrolü açık.
+
+Chakra Petch doğrulaması: Regular/SemiBold/Bold dosyalarında Türkçe karakterler ve ₺ mevcut. 111 EditMode + 13 PlayMode başarılı; Unity Ayarlar görünümü incelendi.
+
+
+## 1 Ekim 2026 — Ortak geçişler
+
+Dosya/tablet/düğme geçişleri ortak sisteme alındı. Hareketi azalt tercihi eklendi. Fiziksel telefon doğrulaması açık.
+
+Geçiş paketi sonrası 14 PlayMode testi geçti. Yeni test: oyun zamanı dururken tamamlanma, ekrandan ayrılınca eski callback iptali ve azaltılmış harekette anında tamamlanma.
+
+
+## 1 Ekim 2026 — Evrak varışı
+
+Gelen evrak ritüeli eklendi: tepsiye kâğıt hareketi, kısa faks sesi, bildirim ışığı. Tekrar kontrolü oturum içidir; fiziksel cihaz ve duyumsal ses kontrolü açık.
+
+Evrak varışı sonrası 15 PlayMode testi geçti; yeni test kâğıdın gelmesini, tamamlanınca kaldırılmasını ve masaya dönünce tekrarlanmamasını doğruluyor.
+
+
+## 1 Ekim 2026 — Dosya sekmesi geçişi
+
+Dosya sekmelerinde kısa sayfa geçişi ve aktif sekmenin öne çıkması eklendi; hareket azaltma tercihine uyar. Fiziksel cihaz kontrolü açık.
+
+
+## 1 Ekim 2026 — Masanın havası (1. kademe)
+
+Masa artık iki katman: oda + pencere arkada, eşyalar ve masa düğmeleri önde. Telefon eğildikçe katmanlar farklı hızda kayıyor; lamba ışığı ve toz ön katmanda, kararma eşyaların üstünde ama düğmelerin altında. Dokunulan eşya kalkıyor. Yeni test `DeskAtmosphereTests` (2): katman sırası ve kalkma/oturma. EditMode 111/111, PlayMode 17/17. Görsel kabul ve cihazda eğme hissi açık.

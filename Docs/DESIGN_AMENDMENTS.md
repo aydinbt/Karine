@@ -749,3 +749,66 @@ gibi kaldı; onlar bir kuruma işaret etmiyor. `LocaleRules.ForbiddenInstitution
 listesi değişmedi — "polis merkezi", "karakol" gibi girdiler oradaki yasak
 listesidir, kurumun kendi adı değil.
 
+
+## 1 Ekim 2026 — geniş pencereli masa referansı
+
+Son kullanıcı görseli `codex-clipboard-5722f368-91b8-4f69-9bf2-c84aa03efba3.png` masa kompozisyonu için önceki referansın yerini alır. Geniş pencere ortada, lamba ve evrak solda, telefon orta solda, beyaz ve fotoğrafsız dosya önde, sade CCTV monitörü sağdadır. Pencere aktif dosyanın ülkesini gösterir. Notlar, görev listesi ve karakter panosu yoktur. Üst şeritte Dosya, Kişiler, Deliller, Evraklar, Kariyer, Ayarlar; logo ana menüye dönüş girişidir. Ana menü videosu ve soruşturma kuralları korunur. Referans tek ekran resmi olarak kullanılmaz: boş oda dekoru + mevcut nesne atlası + ülke atlası + kodla oluşturulan UI birleşir.
+
+## 1 Ekim 2026 — Dosya Vaka Detay
+
+Dosya detay ekranının yeni referansı codex-clipboard-cb153b0f-7359-4385-8f2b-e785361269ea.png. Açık kâğıt dosya, sağ sekmeler, üst marka/geri ve araçlar, solda başlık/metadata, sağ üstte mevcut olay fotoğrafı, altta olay metni ve keşfedilmiş kişiler kullanılır. Referanstaki örnek tarih, eşya görselleri veya kişi bilgileri kanonik vaka verisine eklenmez. Uzun metin tek kaydırma alanında korunur. Arama mevcut özellik olduğu için sağ sekmelerde kalır.
+
+## 1 Ekim 2026 — Gelen Evraklar sunumu
+
+Gelen Evraklar referansı codex-clipboard-6c8b41e1-608b-458e-8d84-c0067d966f9c.png. Sol liste koyu, seçili satır krem, okunmamış işareti kırmızı; sağda katmanlı kâğıt belge. Sahte evrak ve örnek tarih eklenmez; tarih yalnız kayıtlı değerlendirme tarihi varsa görünür. Evrak filtreleme, geliş, teslim, okunma ve kariyer kuralları korunur.
+
+## 1 Ekim 2026 — Görüşmeler ve İncelemeler tableti
+
+Referans: codex-clipboard-e8fc4ed2-7b18-462b-a32b-fe01a883187d.png. Görüşmeler ve İncelemeler aynı sol gezinme/orta liste/sağ kâğıt kart düzenini paylaşır. Kişi seçimi yalnız detay açar; talep ve görüşme eylemleri sağ karttadır. Sadece keşfedilmiş kişiler gösterilir; referanstaki başka vaka kişileri ve doğrulanmamış demografik bilgiler eklenmez. İnceleme sonuç metni talep kartında erken gösterilmez. Örnek rozet sayıları kopyalanmaz.
+
+## 1 Ekim 2026 — CCTV tablet sunumu
+
+Yeni CCTV referansı codex-clipboard-19b4c04d-11ea-4f7b-a1e4-acbd5ab00d12.png. Sol liste yalnız aktif vakada erişilebilir cctv/bps kaynaklarını içerir. Referanstaki beş kamera, saatler ve kişi iddiaları örnektir; vaka verisine aktarılmaz. Metin geniş sağ panelde monospace satırlarla gösterilir. Var olan glitch/netleştirme ve isteğe bağlı klipler korunur.
+
+## 1 Ekim 2026 — Vakalar yeni referansı
+
+Vakalar referansı codex-clipboard-dec8099d-ec9c-4e45-a3d3-84459dcf9b1c.png. Sol marka/menü/Bora korunur; ana panelde ülke şeridi, genel ilerleme, ülke panoraması ve dosya kartları bulunur. İlerleme tamamlanmış dünyalar/dosyalar üzerinden hesaplanır. Referanstaki örnek sayılar, başlıklar veya ödül vaadi oyun verisine eklenmez. Yazılmamış vakalar mevcut durumunu korur; gelecekteki vakalara uydurma kapak üretilmez.
+
+
+## 1 Ekim 2026 — Çubuksuz kaydırma
+
+Kullanıcı kararı: oyun genelinde kaydırma çubuğu gösterilmez. Telefonda listeler ve uzun metinler parmakla kaydırılır; içerik kesilmez veya kaydırma kapatılmaz.
+
+
+## 1 Ekim 2026 — Ayarlar referansı
+
+Ayarlar referansı mevcut menü videosu üstünde ayrı kod tabanlı panel olarak uygulandı. Tercihler Kaydet ile uygulanır; kapatma taslağı bırakır. Varsayılanlara Dön yalnız metin ve ses tercihlerinin taslağını sıfırlar; kariyer ve reklam izni değişmez. Kırmızı yalnız yıkıcı eylemlere ayrıldığı için Kaydet krem birincil eylemdir.
+
+
+## 1 Ekim 2026 — Chakra Petch
+
+Bütün oyun metinleri Chakra Petch Regular/SemiBold/Bold ailesine geçirildi. FontSet ve içerik doğrulayıcı güncellendi; logo bitmap olarak korundu. OFL lisansı fontlarla birlikte eklendi. Fiziksel telefon okunabilirliği kontrolü açık.
+
+
+## 1 Ekim 2026 — Ortak geçişler
+
+Onaylanan ilk geçiş paketi: dosya sayfasının kısa yerleşmesi, tabletin alttan ele alınması ve aşağı bırakılması, hafif düğme basılması. Kare video veya yeni bitmap kullanılmaz. Hareket azaltma ayarı yalnız bu paketi kapsar; mevcut sinematik/glitch sistemlerini değiştirmez.
+
+
+## 1 Ekim 2026 — Evrak varışı
+
+Onaylanan evrak ritüeli: kâğıt tepsiye kayar, kısa faks sesi çalar, mevcut okunmamış rozet yanıp söner. Belge kendiliğinden açılmaz ve değerlendirme sonucu efektle açıklanmaz.
+
+
+## 1 Ekim 2026 — Dosya sekmesi geçişi
+
+Dosya sekmeleri için onaylanan sayfa geçişi eklendi: kısa yatay yerleşme ve aktif sekmenin öne çıkması. Okunabilirliği bozan tam sayfa çevirme veya bekleme kullanılmaz.
+
+## Masanın havası — ışık, toz, parallax, kalkan eşya (1 Ekim 2026)
+
+Kullanıcı ortam sesini istemedi; oyunu yukarı taşıyacak olan animasyon ve efekt. İlk kademe masaya uygulandı, çünkü oyuncunun en çok baktığı yer orası.
+
+- **Işık ve toz** sahneyi durgun resim olmaktan çıkarır. Renkler kit paletinden (`Paper.Light`, `Background`, `Paper.FolderDeep`); yeni renk yok.
+- **Parallax** derinlik verir, ama küçük tutuldu (genişliğin %1,1'i): eşyalar çizili masadan kopmamalı.
+- **Kalkma yalnız dokunulan eşyada.** Hiçbir eşya kendiliğinden parlamaz, zıplamaz ya da dikkat çekmez — efekt oyuncuyu bir kaynağa götürmez. Bu, oyuncu güdümlü soruşturma kuralının görsel karşılığıdır ve sonraki kademelerde de bağlayıcıdır: doğru ve yanlış seçim için ayrı efekt yok.
+- Hareketi azalt tercihi toz, parallax ve kalkmayı kapatır; ışık ve kararma durağan kalır.

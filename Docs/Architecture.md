@@ -337,3 +337,70 @@ Eksik görsel hata değil: harita (`Bube/WorldMap`) ve ülke görseli (`Bube/Wor
 
 ## 27 Eylül 2026 — Masa sunum katmanı
 `Desk()` mevcut kabul/açık/kapalı/emekli dallarını koruyarak `KarineUI.OfficeStage` kurar. OfficeRoom boş oda dekorudur; OfficeProps saydam atlasındaki monitör, dosya, telefon, tepsi, lamba ve delil yığını UV ile ayrı Image öğelerine bağlanır. Pencere CountryPostcards atlasından aktif dosyanın ülkesini kullanır; `worldPick` kullanılmaz. Ortak sahne oranı korunur, nesne ve düğmeler aynı referans koordinatları paylaşır. `OfficeAction` en az 48 birim dokunma alanı ve mevcut ses kapısını kullanır. Evrak sayacı mevcut RefreshInboxBadge işlevinden gelir. Delil girişi mevcut dosyanın evidence sekmesini açar; yeni oyun sistemi yoktur. Eski DeskReference varlığı silinmedi, yeni Desk() içinde kullanılmıyor.
+
+## 1 Ekim 2026 — masa sunumu revizyonu
+
+`KarineUI.OfficeStage` boş `Art/OfficeRoomV2` dekoruna ülke atlası, kodla çizilen panjur ve ayrı `OfficeProps` nesnelerini ekler. Eski oda varlığı korunur. Geometri `KarineTheme.Office` içindedir. `BubeApp.Desk` yalnız sunum katmanında güncellendi: mevcut eylemler yeni yerleşime bağlandı; `OfficeBrand` ana menüye döner, seçili Dosya üst menüsü kenarlıkla ayrılır. Ülke halen aktif dosyanın Worlds üyeliğinden alınır. Kayıt, vaka koşulları, görüşme veya CCTV oynatma mantığı değişmedi. 124 test geçti; grafik etkin ayrı PlayMode çalışmasında `Desk_UsesSeparatePropsAndCountryViewWithoutGuidance` çıktısı incelendi.
+
+## 1 Ekim 2026 — Dosya Vaka Detay
+
+KarineUI.Dossier.cs ortak DossierSheet/Header/Tab/Photo/Person/Meta/Title bileşenlerini içerir; ölçüler KarineTheme.Dossier içindedir. BubeApp.Investigation.FilePage sunumu bu bileşenleri kullanır; mevcut okuma, keşif, sonuç ve sekme geçiş koşulları korunur. DossierOverview yalnız aktif raporun fileMeta, imageResource, bodyKey alanlarını ve keşfedilmiş kişileri gösterir. Art/DossierPaper.png yeni tek reusable kâğıt dokusudur. KARINE_DOSSIER_CAPTURE test ortam değişkeni izole grafik etkin Unity koşusunda önizleme üretir.
+
+## 1 Ekim 2026 — Gelen Evraklar sunumu
+
+KarineUI.Inbox.cs InboxHeader/InboxList/InboxPaper/InboxItem ortak bileşenlerini sağlar; yerleşim ve ölçüler KarineTheme.Inbox içindedir. InboxPage veri üretimi ve eylemleri korunup sunumu değiştirildi. DossierPaper yeniden kullanılır; yeni bitmap yoktur. KARINE_INBOX_CAPTURE ortam değişkeni grafik etkin izole PlayMode testinde kabul bekleyen dosyanın evrak önizlemesini alır.
+
+Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizası ve yinelenen kurum başlığı düzeltildi. Bu iki sunum düzeltmesi sonrası test betiği lisans oturumu bulunamadığından yeniden çalışmadı. Önceki sürümde 111 EditMode + 13 PlayMode başarılıydı.
+
+## 1 Ekim 2026 — Görüşmeler ve İncelemeler tableti
+
+KarineUI.Requests.cs, RequestLayout/RequestItem/RequestDetail bileşenlerini sağlar. KarineTheme.Requests ölçüleri merkezileştirir. BubeApp.Investigation içindeki iki talep ekranı mevcut keşif, pending, available ve request çağrılarını koruyarak sunumu ayırır. Seçili kişi/belge yalnız geçici UI alanlarıdır; kayıt şeması değişmez. RequestScreenHeader sadece talep ekranlarında ortak BpsTablet başlığının yerini alır; CCTV sunumu değişmez. KARINE_REQUEST_CAPTURE izole testte görüntü alınmasını sağlar.
+
+## 1 Ekim 2026 — CCTV tablet sunumu
+
+KarineUI.CctvArchive.cs sol kaynak listesi/sağ kayıt paneli/satır bileşenlerini sağlar; ölçüler KarineTheme.CctvArchive içindedir. CctvScreen yalnız sunumunu bu bileşenlere taşır. Zamanlanmış tarama, Read/Save, netleştirme ve video oynatma kodu korunur. Video overlay yeni iki sütunlu alanın tamamını kapsar. KARINE_CCTV_CAPTURE izole grafik testinde kayıt ekranını görüntüler.
+
+## 1 Ekim 2026 — Vakalar yeni referansı
+
+KarineUI.CaseBrowser içinde BrowserMeter/BrowserProgress/BrowserBanner/BrowserSteps eklendi. CountryTile opsiyonel ilerleme parametresi alır; kilit görseli mevcut CaseSeal ile çizilir. WorldPage sadece sunumda Worlds.CompletedIn ve SlotState sonuçlarını kullanır; Worlds/kayıt/açılma mantığı değişmedi. KarineTheme.CaseBrowser kompakt kart ölçülerini merkezileştirir. Mevcut OfficeRoomV2 dekoru, CountryPostcards atlası ve vaka kapakları yeniden kullanılır. KARINE_WORLD_CAPTURE grafik etkin testte önizleme sağlar.
+
+
+## 1 Ekim 2026 — Çubuksuz kaydırma
+
+`KarineScrollView : ScrollView` ortak sunum bileşeni iki eksenin scroller görünürlüğünü Hidden başlatır. Menü, Vakalar, sorgu, kaynak/inceleme ekranları ve ortak Scroll yardımcısı bu bileşeni kullanır. Unity yerel dokunma ve scrollOffset davranışı korunur.
+
+
+## 1 Ekim 2026 — Ayarlar referansı
+
+SettingsPage mevcut metin/ses değerlerini taslağa alır. RenderSettings sekme ve seçimlerde taslağı korur; Kaydet mevcut PlayerPrefs/SoundSettings yollarıyla uygular. Reklam izni mevcut onay akışında bağımsız kaydedilir. SettingsShell/SettingsChoice ve KarineTheme.Settings yerleşimi yönetir. Mevcut video ve ikonlar tekrar kullanıldı; bitmap eklenmedi.
+
+
+## 1 Ekim 2026 — Chakra Petch
+
+Bütün oyun metinleri Chakra Petch Regular/SemiBold/Bold ailesine geçirildi. FontSet ve içerik doğrulayıcı güncellendi; logo bitmap olarak korundu. OFL lisansı fontlarla birlikte eklendi. Fiziksel telefon okunabilirliği kontrolü açık.
+
+
+## 1 Ekim 2026 — Ortak geçişler
+
+KarineMotion unscaled zamanla çalışır ve DetachFromPanelEvent sırasında zamanlayıcıyı iptal eder. Tablet kapanışı tek seferlik korunur, animasyon sırasında içerik devre dışıdır. Dosya sekmesi yenilenirken giriş animasyonu tekrarlanmaz. Ortak kök pointer geri bildirimi mevcut düğmelerin eylemine müdahale etmez.
+
+
+## 1 Ekim 2026 — Evrak varışı
+
+PresentInboxArrivals yalnız görünür masada çalışır; overlay altındaki masa teslim efektini tüketmez. Oturum içi HashSet evrak kimliği, vaka kimliği ve faks hazır zamanı üzerinden tekrarları önler. Aynı anda gelenler tek efektte birleşir. Kayıt şeması değişmedi; yeni uygulama oturumunda okunmamış evrak yeniden bildirilebilir. ui_fax.wav yerel sentezlenmiş 0,85 saniyelik kâğıt sürme ve kısa ton sesidir.
+
+
+## 1 Ekim 2026 — Dosya sekmesi geçişi
+
+DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk açılışta Paper, bölüm değişiminde Page geçişini kullanır. Aktif DossierTab statik/animasyonlu öne çıkışı ortak KarineMotion üzerinden alır. Ekran yeniden kurulurken detach önceki zamanlayıcıyı iptal eder; veri akışı değişmez.
+
+## Masanın havası (`KarineUI.OfficeAtmosphere`)
+
+`Desk()` masayı kurduktan sonra `KarineUI.OfficeAtmosphere(stage)` çağrılır (`Assets/Bube/Runtime/UI/KarineUI.Atmosphere.cs`). Bu çağrı:
+
+- `OfficeRoom` ve `OfficeWindow-*` öğelerini `OfficeBack` kabına, `DeskFront` kümesindeki eşya görsellerini ve masa düğmelerini `OfficeFront` kabına taşır (sıra korunur). Parallax kapların `translate`'iyle yapılır; böylece çocukların kendi `translate`'i (kalkma, kâğıt varışı) serbest kalır. Düğme ile eşyası aynı kapta olduğu için dokunma alanı görselden kaymaz.
+- Işık havuzu, eşya gölgeleri ve kararma çalışma anında üretilen iki 128×128 dokudan çizilir (`Glow`, `Vignette`; statik, bir kez). Kararma `OfficeFront` içinde ilk düğmenin hemen önüne konur.
+- Eğme: `SystemInfo.supportsAccelerometer` ise `Input.acceleration` (proje eski Input Manager'da, `activeInputHandler: 0`), değilse fare. Taban `TiltRecenter` hızıyla yeni duruşa yaklaşır.
+- Bütün sayılar `KarineTheme.Office.Atmosphere` içinde. `KarineMotion.Reduced` iken toz, parallax ve kalkma kurulmaz.
+- Masa düğmesi → eşya eşlemesi `PropOf`; yeni bir masa eşyası eklenirse buraya ve `DeskFront`'a yazılır.
+

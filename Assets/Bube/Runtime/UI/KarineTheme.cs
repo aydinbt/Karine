@@ -9,6 +9,18 @@ namespace Bube {
 // buradan alınır. Böylece kit değişirse tek dosya değişir ve bütün ekranlar
 // birlikte kayar. Yeni bir renk gerekiyorsa önce kitte karşılığı aranır.
 public static class KarineTheme {
+ public static class Motion {
+  public const float PaperArrivalSeconds=.7f, PageSeconds=.2f;
+  public const int PageOffset=18, TabLift=8;
+  public const float TabletSeconds=.45f, CloseSeconds=.3f, PaperSeconds=.28f, PressScale=.975f;
+  public const int TickMs=16, ReleaseMs=120, PaperOffset=28;
+ }
+
+ public static class Settings {
+  public const int SideWidth=210, TabHeight=84, ChoiceHeight=74, HeadingSize=26, TextSize=17;
+  public const int Inset=14, Top=12, Bottom=6, NarrowInset=4;
+ }
+
 
  // --- Palet (kit görselindeki etiketli sekiz kutu) ---------------------------
  public const string BackgroundHex = "#0B0F14";
@@ -89,12 +101,32 @@ public static class KarineTheme {
  }
 
  public static class CaseBrowser {
-  public const int SidebarWidth=244, LogoWidth=220, Portrait=118;
-  public const int TitleSize=42, TextSize=16, SmallSize=13;
-  public const int CountryWidth=126, CountryHeight=100;
-  public const int CardWidth=164, CardHeight=224, PhotoHeight=132;
-  public const int MainLeft=300, Top=54, Bottom=42;
-  public const int TapeWidth=38, TapeHeight=9;
+  public const int SidebarWidth=218, LogoWidth=194, Portrait=100;
+  public const int TitleSize=36, TextSize=15, SmallSize=12;
+  public const int CountryWidth=124, CountryHeight=132;
+  public const int CardWidth=118, CardHeight=194, PhotoHeight=78;
+  public const int MainLeft=254, Top=48, Bottom=28;
+  public const int TapeWidth=38, TapeHeight=9, BannerHeight=94, HeadingHeight=80, ProgressWidth=260, ProgressHeight=6;
+ }
+
+ public static class CctvArchive {
+  public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=48;
+  public const float SidebarWidth=27;
+ }
+ public static class Requests {
+  public const int Portrait=68, DetailPortrait=96, RowHeight=104, TitleSize=21, BodySize=15;
+  public const float RailWidth=20, ListWidth=45, DetailWidth=35;
+ }
+ public static class Inbox {
+  public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;
+  public static readonly Rect List=new Rect(6,15,32,78);
+  public static readonly Rect Paper=new Rect(40,16,54,76);
+ }
+ public static class Dossier {
+  public const int LogoWidth=120, TitleSize=28, BodySize=17, MetaSize=14, PhotoHeight=230;
+  public const int HeaderHeight=76, PortraitSize=64, TabGap=4;
+  public static readonly Rect Sheet=new Rect(7,14,73,79);
+  public static readonly Rect Tabs=new Rect(80,19,18,73);
  }
 
  public static class Office {
@@ -103,19 +135,32 @@ public static class KarineTheme {
   public const int BadgeSize=24,HeaderHeight=80,HeaderActionWidth=72,PortraitWidth=68,PortraitHeight=72;
   public const int BlinkMs=520;
   // Coordinates in the reusable room plate; all props share the same stage.
-  public static readonly Rect Window=new Rect(34.35f,9.8f,24.3f,35.4f);
+  public static readonly Rect Window=new Rect(30.3f,7.8f,39.3f,35.9f);
   public static readonly Rect Board=new Rect(65,14,27,28);
-  public static readonly Rect Lamp=new Rect(26,40,14,34);
-  public static readonly Rect Inbox=new Rect(12,56,21,28);
-  public static readonly Rect Phone=new Rect(34,62,14,20);
-  public static readonly Rect Folder=new Rect(39,65,25,32);
-  public static readonly Rect Monitor=new Rect(60,41,38,43);
-  public static readonly Rect Evidence=new Rect(76,78,22,21);
-  public static readonly Rect InboxLabel=new Rect(15,56,17,8);
-  public static readonly Rect PhoneLabel=new Rect(35,57,15,8);
-  public static readonly Rect FolderLabel=new Rect(43,80,17,8);
-  public static readonly Rect MonitorLabel=new Rect(69,53,20,10);
-  public static readonly Rect EvidenceLabel=new Rect(80,84,18,8);
+  public static readonly Rect Lamp=new Rect(2,22,24,43);
+  public static readonly Rect Inbox=new Rect(8,56,21,27);
+  public static readonly Rect Phone=new Rect(28,57,17,25);
+  public static readonly Rect Folder=new Rect(32,66,29,26);
+  public static readonly Rect Monitor=new Rect(62,41,28,32);
+  public static readonly Rect Evidence=new Rect(73,74,26,20);
+  public static readonly Rect InboxLabel=new Rect(9,51,17,8);
+  public static readonly Rect PhoneLabel=new Rect(30,51,17,8);
+  public static readonly Rect FolderLabel=new Rect(40,74,17,8);
+  public static readonly Rect MonitorLabel=new Rect(67,53,18,8);
+  public static readonly Rect EvidenceLabel=new Rect(80,79,18,8);
+  // Masanın havası (`KarineUI.OfficeAtmosphere`). Işık ve kararma kit paletinden
+  // boyanır; buradaki sayılar yalnız miktar ve hızdır.
+  public static class Atmosphere {
+   public static readonly Rect LightPool=new Rect(-14,26,62,74);
+   public static readonly Rect DustArea=new Rect(4,24,34,48);
+   public const float LightAlpha=.20f, LightBreath=.06f, LightBreathSpeed=.7f;
+   public const float VignetteAlpha=.62f;
+   public const int DustCount=18;
+   public const float DustMin=2f, DustMax=4.5f, DustRise=1.6f, DustAlpha=.45f;
+   public const float Reach=.011f, BackDepth=.5f, BackScale=1.03f;
+   public const float Follow=.07f, TiltGain=2.2f, TiltRecenter=.004f;
+   public const float LiftSeconds=.12f, SettleSeconds=.2f, LiftOffset=9f, LiftScale=.03f, ShadowAlpha=.5f;
+  }
  }
 
  // --- Devinim (saniye) -----------------------------------------------------

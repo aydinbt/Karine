@@ -100,7 +100,37 @@ public sealed class CaseOfferFlowTests {
   var image=Root.Q("OfficeWindow-tr").Q<Image>();
   Assert.AreEqual(new Rect(0,.5f,.2f,.5f),image.uv,"Country atlas region must be Turkey.");
   // Optional rendered evidence from a graphics-enabled isolated test run.
-  var capture=System.Environment.GetEnvironmentVariable("KARINE_DESK_CAPTURE");
+  if(!string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("KARINE_DOSSIER_CAPTURE"))) {
+   Call(app,"FilePage");for(int frame=0;frame<8;frame++)yield return null;
+   Assert.IsNotNull(Root.Q("DossierPaper"));Assert.IsNotNull(Root.Q("DossierOverview"));
+  }
+  if(!string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("KARINE_INBOX_CAPTURE"))) {
+   State.caseAccepted=false;Call(app,"InboxPage");for(int frame=0;frame<8;frame++)yield return null;
+   Assert.IsNotNull(Root.Q("InboxPaper"));Assert.IsNotNull(Root.Q("InboxListPanel"));
+  }
+  if(!string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("KARINE_REQUEST_CAPTURE"))) {
+   State.caseAccepted=true;State.read.Add("report");
+   app.GetType().GetMethod("InterviewRequests",BindingFlags.Instance|BindingFlags.NonPublic).Invoke(app,new object[]{false});
+   for(int frame=0;frame<8;frame++)yield return null;
+   Assert.IsNotNull(Root.Q("RequestDetail"));
+  }
+  if(!string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("KARINE_CCTV_CAPTURE"))) {
+   var data=(CaseData)game.GetType().GetProperty("Data").GetValue(game);
+   var camera=data.nodes.First(n=>n.kind=="cctv");
+   State.caseAccepted=true;State.read.Add("report");State.read.Add(camera.id);
+   app.GetType().GetMethod("CctvScreen",BindingFlags.Instance|BindingFlags.NonPublic).Invoke(app,new object[]{camera,camera.cctvEvents[0].id});
+   yield return new WaitForSecondsRealtime(1f);
+   Assert.IsNotNull(Root.Q("CctvArchiveRecords"));
+  }
+  if(!string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("KARINE_WORLD_CAPTURE"))) {
+   Call(app,"WorldPage");yield return new WaitForSecondsRealtime(1f);
+   Assert.IsNotNull(Root.Q("CaseBrowser"));
+  }
+  if(!string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("KARINE_SETTINGS_CAPTURE"))) {
+   Call(app,"SettingsPage");yield return new WaitForSecondsRealtime(1f);
+   Assert.IsNotNull(Root.Q("SettingsPanel"));
+  }
+  var capture=System.Environment.GetEnvironmentVariable("KARINE_SETTINGS_CAPTURE")??System.Environment.GetEnvironmentVariable("KARINE_WORLD_CAPTURE")??System.Environment.GetEnvironmentVariable("KARINE_CCTV_CAPTURE")??System.Environment.GetEnvironmentVariable("KARINE_REQUEST_CAPTURE")??System.Environment.GetEnvironmentVariable("KARINE_INBOX_CAPTURE")??System.Environment.GetEnvironmentVariable("KARINE_DOSSIER_CAPTURE")??System.Environment.GetEnvironmentVariable("KARINE_DESK_CAPTURE");
   if(!string.IsNullOrEmpty(capture)) {
    var settings=app.GetComponent<UIDocument>().panelSettings;
    var previous=settings.targetTexture;
@@ -119,6 +149,40 @@ public sealed class CaseOfferFlowTests {
    RenderTexture.active=previousActive;settings.targetTexture=previous;
    target.Release();Object.Destroy(target);Object.Destroy(pixels);
   }
+ }
+
+ [UnityTest] public IEnumerator Motion_CompletesUnscaledAndCancelsDetachedCallbacks() {
+  int previous=PlayerPrefs.GetInt("karine.reducedMotion",0);
+  float oldScale=Time.timeScale;
+  try {
+   PlayerPrefs.SetInt("karine.reducedMotion",0);Time.timeScale=0;
+   var element=new VisualElement();Root.Add(element);
+   bool complete=false;float progress=0;
+   KarineMotion.Run(element,.05f,t=>progress=t,()=>complete=true);
+   yield return new WaitForSecondsRealtime(.2f);
+   Assert.IsTrue(complete);Assert.AreEqual(1f,progress);
+   bool stale=false;
+   KarineMotion.Run(element,.1f,t=>{},()=>stale=true);
+   element.RemoveFromHierarchy();yield return new WaitForSecondsRealtime(.2f);
+   Assert.IsFalse(stale,"Kapatılan ekranın eski geçişi yeni ekran açmamalı.");
+   PlayerPrefs.SetInt("karine.reducedMotion",1);
+   bool immediate=false;KarineMotion.Run(Root,1,t=>progress=t,()=>immediate=true);
+   Assert.IsTrue(immediate);Assert.AreEqual(1f,progress);
+  } finally {Time.timeScale=oldScale;PlayerPrefs.SetInt("karine.reducedMotion",previous);}
+ }
+
+ [UnityTest] public IEnumerator InboxArrival_PlaysOnceWhenReturningToDesk() {
+  int previous=PlayerPrefs.GetInt("karine.reducedMotion",0);
+  try {
+   PlayerPrefs.SetInt("karine.reducedMotion",0);State.caseAccepted=false;
+   ((System.Collections.Generic.HashSet<string>)Field(app,"presentedArrivals")).Clear();
+   Call(app,"Desk");Call(app,"PresentInboxArrivals");
+   Assert.IsNotNull(Root.Q("IncomingPaper"));
+   yield return new WaitForSecondsRealtime(1f);
+   Assert.IsNull(Root.Q("IncomingPaper"));
+   Call(app,"Desk");Call(app,"PresentInboxArrivals");
+   Assert.IsNull(Root.Q("IncomingPaper"),"Aynı evrak masaya dönünce tekrar gelmemeli.");
+  } finally {PlayerPrefs.SetInt("karine.reducedMotion",previous);}
  }
 
  // Kaldırılan tam ekran teklifin geri gelmediğini sabitler.

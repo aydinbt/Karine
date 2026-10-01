@@ -13,95 +13,61 @@ namespace Bube {
 // Soruşturma talepleri, zaman çizelgesi, dosya ve karşılaştırma ekranları.
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
+ void RequestScreenHeader(VisualElement content) {
+  var screen=content.parent;
+  foreach(var child in screen.Children().Where(c=>c!=content).ToArray())child.RemoveFromHierarchy();
+  var bar=KarineUI.DossierHeader(root,T("back.desk"),T(game.Data.titleKey),Desk);
+  KarineUI.IconButton(bar,"folder",FilePage,T("desk.view.file"));
+  KarineUI.IconButton(bar,"people",()=>InterviewRequests(false),T("tablet.tab.interviews"));
+  KarineUI.IconButton(bar,"binoculars",()=>InvestigationRequests(false),T("tablet.tab.investigations"));
+  KarineUI.IconButton(bar,"document",InboxPage,T("inbox.title"));
+  KarineUI.IconButton(bar,"gear",SettingsPage,T("menu.row.settings"));
+ }
+ string selectedRequestPerson,selectedRequestDocument;
  void InterviewRequests(bool lift=true) {
   lastPendingCount=game.Data.nodes.Count(pendingPredicate);
-  VisualElement content;
-  BpsTablet("tablet.interviews",out content,lift);
-  showingInterviewList=true;
-  RequestTabs(content,true);
-  var intro=new VisualElement();intro.style.flexDirection=FlexDirection.Row;
-  intro.style.alignItems=Align.Center;intro.style.marginBottom=8;content.Add(intro);
-  var caseLine=Text(intro,CaseText("tablet.caseLine","tablet.caseLine"),Gold,14);
-  caseLine.style.marginBottom=0;caseLine.style.marginRight=20;
-  var help=Text(intro,T("tablet.interviewHelp"),Muted,14);
-  help.style.marginBottom=0;
-  var list=Scroll(content);
-  var groups=game.Data.nodes.Where(n=>n.kind=="interview" && game.Discovered(n))
-   .GroupBy(n=>n.personId).ToArray();
-  if(groups.Length==0)Text(list,T("desk.none"),Muted,19);
-  foreach(var group in groups) {
-   var node=group.FirstOrDefault(n=>!game.State.read.Contains(n.id)) ?? group.Last();
-   var quoted=group.LastOrDefault(n=>game.State.read.Contains(n.id) && !string.IsNullOrEmpty(n.personQuoteKey));
-   var card=new VisualElement();card.style.flexDirection=FlexDirection.Row;
-   card.style.alignItems=Align.Center;
-   card.style.minHeight=116;card.style.marginBottom=10;
-   card.style.paddingLeft=12;card.style.paddingRight=12;
-   card.style.paddingTop=8;card.style.paddingBottom=8;
-   card.style.backgroundColor=KarineTheme.Background;
-   card.style.borderTopWidth=1;card.style.borderBottomWidth=1;
-   card.style.borderLeftWidth=1;card.style.borderRightWidth=1;
-   card.style.borderTopColor=Muted;card.style.borderBottomColor=Muted;
-   card.style.borderLeftColor=Muted;card.style.borderRightColor=Muted;
-   list.Add(card);
-   var portrait=Resources.Load<Texture2D>("Bube/Characters/"+node.personId);
-   if(portrait!=null) {
-    portrait.filterMode=FilterMode.Point;
-    var thumb=new Image {image=portrait,scaleMode=ScaleMode.ScaleToFit};
-    thumb.style.width=100;thumb.style.height=100;thumb.style.marginRight=16;
-    thumb.style.backgroundColor=Base;card.Add(thumb);
-   }
-   var details=new VisualElement();details.style.flexGrow=1;card.Add(details);
-   var name=Text(details,T(node.personNameKey),Ink,22);name.style.marginBottom=2;
-   var info=Text(details,T(node.personInfoKey),Muted,14);info.style.marginBottom=6;
-   var quote=Text(details,quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"),Muted,15);
-   quote.style.marginBottom=0;
-   var action=new VisualElement();action.style.width=Length.Percent(30);
-   action.style.paddingLeft=12;card.Add(action);
-   string statusKey=game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?
-    ((node.questions ?? new Question[0]).Any(q=>game.CanAskQuestion(node,q))?"interview.status.followup":"interview.status.complete"):"interview.status.ready";
-   var status=Text(action,T(statusKey),game.Pending(node)?Gold:Muted,14);
-   status.style.marginBottom=8;
-   if(game.CanRequest(node))Button(action,T("interview.request"),()=>{
-    if(game.RequestInterview(node.id)){Save();InterviewRequests(false);}
-   });
-   else if(game.Available(node))
-    Button(action,T(game.State.read.Contains(node.id)?"interview.resume":"interview.begin"),()=>InterviewPage(node),true);
-   FitActionButton(action);
+  VisualElement content;BpsTablet("tablet.interviews",out content,lift);RequestScreenHeader(content);showingInterviewList=true;
+  VisualElement list,detail;
+  KarineUI.RequestLayout(content,T("tablet.tab.interviews"),T("tablet.tab.investigations"),true,
+   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail);
+  var groups=game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).ToArray();
+  var nodes=groups.Select(g=>g.FirstOrDefault(n=>!game.State.read.Contains(n.id))??g.Last()).ToArray();
+  var selected=nodes.FirstOrDefault(n=>n.personId==selectedRequestPerson)??nodes.FirstOrDefault();
+  if(selected==null){detail.style.display=DisplayStyle.None;Text(list,T("desk.none"),Muted,KarineTheme.Requests.BodySize);return;}
+  foreach(var node in nodes) {
+   var target=node;
+   KarineUI.RequestItem(list,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),T(node.personNameKey),T(node.personInfoKey),node==selected,
+    ()=>{selectedRequestPerson=target.personId;InterviewRequests(false);});
   }
+  string statusKey=game.CanRequest(selected)?"interview.status.unrequested":game.Pending(selected)?"interview.pending":game.State.read.Contains(selected.id)?
+   ((selected.questions??new Question[0]).Any(q=>game.CanAskQuestion(selected,q))?"interview.status.followup":"interview.status.complete"):"interview.status.ready";
+  var body=KarineUI.RequestDetail(detail,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey));
+  var quoted=groups.First(g=>g.Key==selected.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
+  KarineUI.DossierText(body,quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"),KarineTheme.Requests.BodySize);
+  if(game.CanRequest(selected))KarineUI.PaperButton(detail,T("interview.request"),()=>{
+   if(game.RequestInterview(selected.id)){Save();InterviewRequests(false);}
+  });
+  else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
  }
  void InvestigationRequests(bool lift=true) {
   lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);
-  VisualElement content;
-  BpsTablet("tablet.investigations",out content,lift);
-  showingInvestigationRequests=true;
-  RequestTabs(content,false);
-  Text(content,CaseText("tablet.caseLine","tablet.caseLine"),Gold,14).style.marginBottom=5;
-  Text(content,T("tablet.investigationHelp"),Muted,15).style.marginBottom=9;
-  var list=Scroll(content);
-  var documents=game.Data.nodes.Where(n=>n.kind=="document" && n.requestable &&
-   (game.Discovered(n) || game.State.documentRequests.Any(r=>r.nodeId==n.id))).ToArray();
-  if(documents.Length==0)Text(list,T("tablet.noInvestigations"),Muted,18);
+  VisualElement content;BpsTablet("tablet.investigations",out content,lift);RequestScreenHeader(content);showingInvestigationRequests=true;
+  VisualElement list,detail;
+  KarineUI.RequestLayout(content,T("tablet.tab.interviews"),T("tablet.tab.investigations"),false,
+   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail);
+  var documents=game.Data.nodes.Where(n=>n.kind=="document"&&n.requestable&&(game.Discovered(n)||game.State.documentRequests.Any(r=>r.nodeId==n.id))).ToArray();
+  var selected=documents.FirstOrDefault(n=>n.id==selectedRequestDocument)??documents.FirstOrDefault();
+  if(selected==null){detail.style.display=DisplayStyle.None;Text(list,T("tablet.noInvestigations"),Muted,KarineTheme.Requests.BodySize);return;}
   foreach(var node in documents) {
-   var current=node;
-   var card=new VisualElement();card.style.marginBottom=10;
-   card.style.paddingLeft=15;card.style.paddingRight=15;
-   card.style.paddingTop=11;card.style.paddingBottom=10;
-   card.style.backgroundColor=KarineTheme.Background;
-   card.style.borderLeftWidth=3;card.style.borderLeftColor=Gold;
-   list.Add(card);
-   Text(card,T(node.titleKey),Ink,21).style.marginBottom=4;
-   bool filed=game.State.read.Contains(node.id);
-   bool arrived=game.IncomingDocument(node);
-   bool requested=game.State.documentRequests.Any(r=>r.nodeId==node.id);
-   string statusKey=filed?"tablet.investigationFiled":arrived?"tablet.investigationArrived":
-    requested?"tablet.investigationPending":"tablet.investigationAvailable";
-   Text(card,T(statusKey),filed?Muted:arrived?Gold:Muted,15).style.marginBottom=8;
-   if(game.CanRequestDocument(node)) {
-    KarineUI.Button_(card,T(node.requestLabelKey),()=>{
-     if(game.RequestDocument(current.id)){Save();InvestigationRequests(false);}
-    },KarineButtonKind.Primary);
-   }
+   var target=node;
+   bool filed=game.State.read.Contains(node.id),arrived=game.IncomingDocument(node),requested=game.State.documentRequests.Any(r=>r.nodeId==node.id);
+   string status=filed?"tablet.investigationFiled":arrived?"tablet.investigationArrived":requested?"tablet.investigationPending":"tablet.investigationAvailable";
+   KarineUI.RequestItem(list,null,T(node.titleKey),T(status),node==selected,()=>{selectedRequestDocument=target.id;InvestigationRequests(false);});
+   if(node==selected)KarineUI.RequestDetail(detail,null,T(node.titleKey),T("tablet.investigationHelp"),T(status));
   }
+  if(game.CanRequestDocument(selected))KarineUI.PaperButton(detail,T(selected.requestLabelKey),()=>{
+   if(game.RequestDocument(selected.id)){Save();InvestigationRequests(false);}
+  });
  }
  void TimelineRow(VisualElement parent,TimelineClue clue,Color ink,Color muted,string actionKey,Action action) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;
@@ -163,6 +129,9 @@ public sealed partial class BubeApp {
   tab.style.backgroundColor=background;tab.style.fontSize=Typography.Snap(15);
  }
  void FilePage() {
+  var previousPaper=root.Q("DossierPaper");
+  bool openingFile=previousPaper==null;
+  bool switchingSection=!openingFile && (previousPaper.userData as string)!=selectedFileSection;
   Back(Desk); // dosya masasının üstünde açılır
   showingInterviewList=false;
   var report=game.Data.nodes.First(n=>n.id=="report");
@@ -183,36 +152,23 @@ public sealed partial class BubeApp {
   var shade=new VisualElement();
   shade.style.position=Position.Absolute;shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
   shade.style.backgroundColor=KarineTheme.Veil(.78f);root.Add(shade);
-  var folder=new VisualElement();folder.style.position=Position.Absolute;
-  folder.style.left=Length.Percent(14);folder.style.right=Length.Percent(21);
-  folder.style.top=Length.Percent(9);folder.style.bottom=Length.Percent(8);
-  folder.style.backgroundColor=KarineTheme.Paper.Folder;
-  folder.style.borderBottomWidth=8;folder.style.borderBottomColor=KarineTheme.Paper.FolderDeep;
-  root.Add(folder);
-  for(int i=0;i<3;i++) {
-   var sheet=new VisualElement();sheet.style.position=Position.Absolute;
-   sheet.style.left=Length.Percent(15+i*.35f);sheet.style.right=Length.Percent(22-i*.35f);
-   sheet.style.top=Length.Percent(8+i*.55f);sheet.style.bottom=Length.Percent(8-i*.55f);
-   sheet.style.backgroundColor=KarineTheme.Paper.Tint;root.Add(sheet);
-  }
-  var paper=new VisualElement();paper.style.position=Position.Absolute;
-  paper.style.left=Length.Percent(16);paper.style.right=Length.Percent(23);
-  paper.style.top=Length.Percent(7);paper.style.bottom=Length.Percent(9);
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  paper.style.paddingLeft=32;paper.style.paddingRight=30;paper.style.paddingTop=22;paper.style.paddingBottom=15;
-  paper.style.borderLeftWidth=2;paper.style.borderTopWidth=2;
-  paper.style.borderLeftColor=KarineTheme.Paper.Light;paper.style.borderTopColor=KarineTheme.Paper.Light;
-  root.Add(paper);
+  var paper=KarineUI.DossierSheet(root);
+  paper.userData=selectedFileSection;
+  if(openingFile)KarineMotion.Paper(paper);
+  else if(switchingSection)KarineMotion.Page(paper);
+  var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
+  KarineUI.IconButton(top,"folder",()=>{selectedFileSection="report";FilePage();},T("file.tab.report"));
+  KarineUI.IconButton(top,"people",()=>InterviewRequests(),T("desk.view.people"));
+  KarineUI.IconButton(top,"binoculars",()=>{selectedFileSection="evidence";FilePage();},T("file.tab.evidence"));
+  KarineUI.IconButton(top,"document",InboxPage,T("desk.inbox"));
+  KarineUI.IconButton(top,"gear",SettingsPage,T("menu.row.settings"));
   var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.marginBottom=12;paper.Add(header);
-  var titles=new VisualElement();titles.style.flexGrow=1;header.Add(titles);
-  var title=Text(titles,T(game.Data.titleKey),fileInk,26);title.style.marginBottom=2;
-  if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  Text(titles,CaseText("file.caseType","file.caseType"),fileInk,17);
-  var stamp=KarineUI.Technical(header,T("file.stamp"),13);
-  stamp.style.color=fileMuted;stamp.style.unityTextAlign=TextAnchor.UpperRight;
-  var line=new VisualElement();line.style.height=1;line.style.backgroundColor=KarineTheme.Paper.Edge;line.style.marginBottom=15;paper.Add(line);
-  if(selectedFileSection=="timeline") {
+  if(selectedFileSection!="report") {
+   KarineUI.DossierText(paper,T(game.Data.titleKey),KarineTheme.Dossier.BodySize);
+  }
+  if(selectedFileSection=="report") {
+   DossierOverview(paper,report);
+  } else if(selectedFileSection=="timeline") {
    TimelineContents(paper,fileInk,fileMuted);
   } else if(selectedFileSection=="visual") {
    Text(paper,T("file.visuals"),fileInk,22);
@@ -277,7 +233,7 @@ public sealed partial class BubeApp {
   if(selectedFileSection!="timeline" && pages.Length>1) {
    var footerLine=new VisualElement();footerLine.style.height=1;footerLine.style.flexShrink=0;
    footerLine.style.backgroundColor=KarineTheme.Paper.Edge;footerLine.style.marginTop=10;paper.Add(footerLine);
-   var footer=new ScrollView(ScrollViewMode.Horizontal);
+   var footer=new KarineScrollView(ScrollViewMode.Horizontal);
    footer.style.flexShrink=0;footer.style.marginTop=8;
    footer.contentContainer.style.flexDirection=FlexDirection.Row;paper.Add(footer);
    foreach(var page in pages) {
@@ -293,23 +249,39 @@ public sealed partial class BubeApp {
   // kaydırmak gerekiyordu. Şerit genişledi, kaydırma kalktı — hepsi görünür.
   // Ayrıca dört ayrı yerde kopyalanan sekme biçimi tek yere toplandı; yeni bir
   // sekme eklemek artık tek satır.
-  var tabs=new VisualElement();tabs.style.position=Position.Absolute;
-  tabs.style.left=Length.Percent(78);tabs.style.top=Length.Percent(18);
-  tabs.style.right=Length.Percent(3);tabs.style.bottom=Length.Percent(7);
-  root.Add(tabs);
+  var tabs=new VisualElement();KarineUI.OfficePlace(tabs,KarineTheme.Dossier.Tabs);root.Add(tabs);
+  var icons=new[]{"document","people","binoculars","chart","folder"};int tabIndex=0;
   foreach(var section in new[]{"report","interview","evidence","timeline","visual"}) {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
-   FileTab(tabs,T("file.tab."+choice)+(unread?"  •":""),()=>{selectedFileSection=choice;FilePage();},
-    choice==selectedFileSection?KarineTheme.Paper.Sheet:KarineTheme.Paper.Edge);
+   KarineUI.DossierTab(tabs,icons[tabIndex++],T("file.tab."+choice)+(unread?"  •":""),choice==selectedFileSection,()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();},switchingSection);
   }
-  FileTab(tabs,T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();},KarineTheme.Paper.Edge);
-  FileTab(tabs,T("file.tab.search"),FileSearchPage,KarineTheme.Paper.Edge);
-  if(game.CanConclude)FileTab(tabs,T("conclude.tab"),Conclusion,KarineTheme.Paper.Stamp);
-  var close=KarineUI.CloseButton(root,Desk,T("back.desk"));
-  close.style.position=Position.Absolute;close.style.right=Length.Percent(8);close.style.top=Length.Percent(7);
-  close.style.width=58;close.style.height=58;close.style.fontSize=Typography.Snap(36);
+  KarineUI.DossierTab(tabs,"people",T("file.tab.compare"),false,()=>{comparePicker=-1;ComparePage();});
+  KarineUI.DossierTab(tabs,"binoculars",T("file.tab.search"),false,FileSearchPage);
+  if(game.CanConclude)KarineUI.DossierTab(tabs,"chart",T("conclude.tab"),false,Conclusion);
  }
+ void DossierOverview(VisualElement paper,Node report) {
+  var scroll=Scroll(paper);scroll.name="DossierOverview";
+  var upper=KarineUI.DossierRow(scroll);
+  var identity=KarineUI.DossierColumn(upper,48);
+  KarineUI.DossierTitle(identity,T(game.Data.titleKey));
+  KarineUI.DossierText(identity,CaseText("file.caseType","file.caseType"),KarineTheme.Dossier.BodySize);
+  if(report.fileMeta!=null)foreach(var field in report.fileMeta) {
+   KarineUI.DossierMeta(identity,T(field.labelKey),T(field.valueKey));
+  }
+  var photo=KarineUI.DossierColumn(upper,52);
+  var texture=Resources.Load<Texture2D>(report.imageResource);
+  if(texture!=null)KarineUI.DossierPhoto(photo,texture,T(report.imageCaptionKey));
+  var lower=KarineUI.DossierRow(scroll);
+  var story=KarineUI.DossierColumn(lower,65);
+  KarineUI.DossierText(story,T(report.titleKey).ToUpperInvariant(),KarineTheme.Dossier.BodySize);
+  KarineUI.DossierText(story,T(report.bodyKey),KarineTheme.Dossier.BodySize);
+  var people=KarineUI.DossierColumn(lower,35);
+  KarineUI.DossierText(people,T("file.relatedPeople"),KarineTheme.Dossier.MetaSize);
+  foreach(var person in game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).Select(g=>g.First()))
+   KarineUI.DossierPerson(people,Resources.Load<Texture2D>("Bube/Characters/"+person.personId),T(person.personNameKey),T(person.personInfoKey));
+ }
+
  void FileSearchPage() {
   showingInterviewList=false;
   Desk();
@@ -348,7 +320,7 @@ public sealed partial class BubeApp {
   var kindButtons=new List<Button>();var personButtons=new List<Button>();
   Action render=null;
   Func<VisualElement> shelf=()=>{
-   var row=new ScrollView(ScrollViewMode.Horizontal);row.style.flexShrink=0;
+   var row=new KarineScrollView(ScrollViewMode.Horizontal);row.style.flexShrink=0;
    row.contentContainer.style.flexDirection=FlexDirection.Row;filters.Add(row);return row;
   };
   Action<VisualElement,List<Button>,string,Action> chip=(row,group,label,pick)=>{

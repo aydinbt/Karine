@@ -214,21 +214,25 @@ public sealed partial class BubeApp {
   showingInterviewList=false;
   VisualElement content;
   BpsTablet("cctv.archive",out content);
-  TerminalSourceTabs(content,node);
+  RequestScreenHeader(content);
+  VisualElement cameraList;
+  var tabletContent=content;
+  content=KarineUI.CctvArchiveLayout(tabletContent,T("cctv.archive"),out cameraList);
+  foreach(var source in game.Data.nodes.Where(n=>(n.kind=="cctv"||n.kind=="bps")&&(n==node||game.Available(n)))) {
+   var target=source;
+   var sourceTitle=string.IsNullOrEmpty(source.cctvSourceKey)?T(source.titleKey):T(source.cctvSourceKey);
+   var sourcePeriod=string.IsNullOrEmpty(source.cctvPeriodKey)?string.Empty:T(source.cctvPeriodKey);
+   KarineUI.RequestItem(cameraList,null,sourceTitle,sourcePeriod,source==node,()=>{
+    if(target.kind=="cctv")CctvScreen(target);else ReadPage(target);
+   });
+  }
   var meta=new VisualElement();meta.style.flexDirection=FlexDirection.Row;
   meta.style.alignItems=Align.Center;content.Add(meta);
-  var camera=Text(meta,T(node.cctvSourceKey),Ink,22);
+  var camera=Text(meta,T(node.cctvSourceKey),Ink,KarineTheme.CctvArchive.TitleSize);
   camera.style.flexGrow=1;camera.style.marginBottom=0;
   var status=Text(meta,T("cctv.signal"),Gold,14);status.style.marginBottom=0;
   var period=Text(content,T(node.cctvPeriodKey),Muted,14);period.style.marginBottom=7;
-  var recordPanel=new VisualElement();recordPanel.style.flexGrow=1;
-  recordPanel.style.backgroundColor=KarineTheme.GlassDeep;
-  recordPanel.style.borderTopWidth=1;recordPanel.style.borderBottomWidth=1;
-  recordPanel.style.borderLeftWidth=1;recordPanel.style.borderRightWidth=1;
-  recordPanel.style.borderTopColor=Muted;recordPanel.style.borderBottomColor=Muted;
-  recordPanel.style.borderLeftColor=Muted;recordPanel.style.borderRightColor=Muted;
-  recordPanel.style.paddingLeft=11;recordPanel.style.paddingRight=11;
-  recordPanel.style.paddingTop=6;content.Add(recordPanel);
+  var recordPanel=KarineUI.CctvRecordPanel(content);
   var stream=Scroll(recordPanel);
   stream.style.paddingTop=2;
   var records=node.cctvEvents ?? new CctvEvent[0];
@@ -236,14 +240,8 @@ public sealed partial class BubeApp {
   var lines=new List<Label>();
   var actions=new List<VisualElement>();
   foreach(var record in records) {
-   var row=new VisualElement();row.style.display=DisplayStyle.None;
-   row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
-   row.style.minHeight=44;row.style.paddingLeft=10;row.style.paddingRight=8;
-   row.style.marginBottom=3;row.style.borderBottomWidth=1;
-   row.style.borderBottomColor=KarineTheme.Panel2;
-   row.style.backgroundColor=KarineTheme.Glass;
-   stream.Add(row);rows.Add(row);
-   var label=Text(row,string.Empty,Ink,22);label.style.flexGrow=1;
+   var row=KarineUI.CctvRecordRow(stream);rows.Add(row);
+   var label=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.TextSize);label.style.flexGrow=1;label.style.flexShrink=1;
    label.style.marginBottom=0;lines.Add(label);
    var action=new VisualElement();row.Add(action);actions.Add(action);
   }

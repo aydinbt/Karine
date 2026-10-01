@@ -4,6 +4,20 @@ using UnityEngine.UIElements;
 
 namespace Bube {
 public static partial class KarineUI {
+ public static void IncomingPaper(VisualElement stage) {
+  var paper=new VisualElement {name="IncomingPaper",pickingMode=PickingMode.Ignore};
+  var box=KarineTheme.Office.Inbox;
+  OfficePlace(paper,new Rect(box.x+2,box.y+1,box.width-4,box.height/3));
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
+  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);stage.Add(paper);
+  KarineMotion.Run(paper,KarineTheme.Motion.PaperArrivalSeconds,t=>{
+   paper.style.translate=new Translate(0,-KarineTheme.Motion.PaperOffset*2*(1-t));
+   // Kâğıt hafif yan düşer ve tepsiye oturdukça düzelir.
+   paper.style.rotate=new Rotate(Angle.Degrees(-6f*(1-t)-1f));
+   paper.style.opacity=t<.8f?1:Mathf.Clamp01((1-t)/.2f);
+  },()=>paper.RemoveFromHierarchy());
+ }
+
  public static void OfficePlace(VisualElement element,Rect box) {
   element.style.position=Position.Absolute;
   element.style.left=Length.Percent(box.x);element.style.top=Length.Percent(box.y);
@@ -22,7 +36,7 @@ public static partial class KarineUI {
   parent.RegisterCallback(resize);
   stage.RegisterCallback<DetachFromPanelEvent>(_=>parent.UnregisterCallback(resize));
   fit();
-  var room=new Image {image=Resources.Load<Texture2D>("Bube/Art/OfficeRoom"),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+  var room=new Image {name="OfficeRoom",image=Resources.Load<Texture2D>("Bube/Art/OfficeRoomV2"),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
   OfficePlace(room,new Rect(0,0,100,100));stage.Add(room);
   var window=new VisualElement {name="OfficeWindow-"+country,pickingMode=PickingMode.Ignore};
   OfficePlace(window,KarineTheme.Office.Window);window.style.overflow=Overflow.Hidden;stage.Add(window);
@@ -32,7 +46,7 @@ public static partial class KarineUI {
   tint.style.backgroundColor=KarineTheme.Veil(.22f);window.Add(tint);
   var mullion=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(mullion,new Rect(29,0,2,100));
   mullion.style.backgroundColor=KarineTheme.GlassDeep;window.Add(mullion);
-  for(int i=0;i<5;i++) {
+  for(int i=0;i<9;i++) {
    var slat=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(slat,new Rect(0,i*5,100,2));
    slat.style.backgroundColor=KarineTheme.GlassDeep;window.Add(slat);
   }
@@ -66,6 +80,8 @@ public static partial class KarineUI {
   Border(button,KarineTheme.BorderWidth,KarineTheme.Accent);
   Icon(button,icon,KarineTheme.Primary,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceSm;
   var text=Body_(button,label,KarineTheme.Office.LabelSize);text.style.marginBottom=0;
+  text.style.flexGrow=1;
+  Icon(button,"nav_next",KarineTheme.Primary,KarineTheme.IconSize);
   text.style.whiteSpace=WhiteSpace.Normal;text.style.unityTextAlign=TextAnchor.MiddleLeft;
   button.RegisterCallback<PointerEnterEvent>(_=>button.style.backgroundColor=KarineTheme.GlassLift);
   button.RegisterCallback<PointerLeaveEvent>(_=>button.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.94f));
@@ -82,14 +98,21 @@ public static partial class KarineUI {
   label.style.color=KarineTheme.Paper.Ink;label.style.marginBottom=KarineTheme.SpaceXs;
   board.Add(card);
  }
- public static Button OfficeHeaderAction(VisualElement parent,string icon,string title,Action action) {
+ public static void OfficeBrand(VisualElement parent,string title,Action action) {
+  var button=new Button(Sounded(action)) {tooltip=title};
+  button.style.width=KarineTheme.Office.BrandWidth;button.style.flexShrink=0;
+  button.style.paddingLeft=0;button.style.paddingRight=0;button.style.paddingTop=0;button.style.paddingBottom=0;
+  button.style.backgroundColor=Color.clear;Border(button,0,Color.clear);
+  KarineLogo.Hero(button,KarineTheme.Office.BrandWidth);parent.Add(button);
+ }
+ public static Button OfficeHeaderAction(VisualElement parent,string icon,string title,Action action,bool selected=false) {
   var button=new Button(Sounded(action)) {tooltip=title};
   button.style.width=KarineTheme.Office.HeaderActionWidth;
   button.style.height=KarineTheme.TouchTargetComfortable;
   button.style.paddingLeft=0;button.style.paddingRight=0;
   button.style.flexShrink=0;button.style.alignItems=Align.Center;button.style.justifyContent=Justify.Center;
   button.style.backgroundColor=KarineTheme.GlassDeep;
-  Border(button,0,KarineTheme.GlassDeep);
+  Border(button,selected?KarineTheme.BorderWidth:0,KarineTheme.Accent);
   Icon(button,icon,KarineTheme.Primary,KarineTheme.IconSize);
   var label=Body_(button,title,KarineTheme.Office.SmallSize);
   label.style.marginTop=KarineTheme.SpaceXs;label.style.marginBottom=0;

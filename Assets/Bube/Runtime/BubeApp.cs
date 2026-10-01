@@ -193,6 +193,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(fonts.Missing.Length>0)
    Debug.Log("Font rolleri mono'ya dusuyor (dosya eksik): "+string.Join(", ",fonts.Missing));
   root=doc.rootVisualElement;
+  KarineMotion.InstallPressFeedback(root);
   if(dossierFont!=null)root.style.unityFontDefinition=FontDefinition.FromFont(dossierFont);
   root.style.backgroundColor=Base;
   root.style.color=Ink;
@@ -285,6 +286,7 @@ public sealed partial class BubeApp : MonoBehaviour {
    if(HasIncomingDocument && inOffice)AddDocumentNotice();
   } else if(inOffice)AddChainEndNotice();
   RefreshInboxBadge();
+  if(inOffice)PresentInboxArrivals();
  }
 
  void RefreshInboxBadge() {
@@ -388,7 +390,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(!string.IsNullOrEmpty(subtitle))Text(root,subtitle,Muted,17);
  }
  ScrollView Scroll(VisualElement parent) {
-  var scroll=new ScrollView();
+  var scroll=new KarineScrollView();
   scroll.style.flexGrow=1;
   parent.Add(scroll);
   return scroll;

@@ -2666,7 +2666,7 @@
   },
   {
    "key": "desk.view.phone",
-   "value": "Telefon · Görüşme Talep Et"
+   "value": "Telefon · Görüşme"
   },
   {
    "key": "desk.view.cctv",
@@ -2691,6 +2691,82 @@
   {
    "key": "desk.view.documents",
    "value": "Evraklar"
+  },
+  {
+   "key": "desk.view.folder",
+   "value": "Dosyayı aç"
+  },
+  {
+   "key": "file.department",
+   "value": "bube\nDepartman"
+  },
+  {
+   "key": "file.relatedPeople",
+   "value": "İLGİLİ KİŞİLER"
+  },
+  {
+   "key": "world.browser.progress",
+   "value": "GENEL İLERLEME"
+  },
+  {
+   "key": "world.browser.worlds",
+   "value": "Dünya"
+  },
+  {
+   "key": "settings.tab.general",
+   "value": "Genel"
+  },
+  {
+   "key": "settings.tab.general.hint",
+   "value": "Oyun deneyimi"
+  },
+  {
+   "key": "settings.tab.music",
+   "value": "Müzik"
+  },
+  {
+   "key": "settings.tab.music.hint",
+   "value": "Ses ayarları"
+  },
+  {
+   "key": "settings.tab.play",
+   "value": "Oynanış"
+  },
+  {
+   "key": "settings.tab.play.hint",
+   "value": "Oyun tercihleri"
+  },
+  {
+   "key": "settings.subtitle",
+   "value": "Oyun deneyimini kişiselleştir."
+  },
+  {
+   "key": "settings.text.hint",
+   "value": "Karakterlerin konuşmaları ekranda nasıl gösterilsin?"
+  },
+  {
+   "key": "settings.instant.hint",
+   "value": "Metinler doğrudan görünür."
+  },
+  {
+   "key": "settings.normal.hint",
+   "value": "Metinler yazılırken görünür."
+  },
+  {
+   "key": "settings.reset",
+   "value": "Varsayılanlara Dön"
+  },
+  {
+   "key": "settings.save",
+   "value": "Kaydet"
+  },
+  {
+   "key": "settings.motion",
+   "value": "Hareketi azalt"
+  },
+  {
+   "key": "settings.motion.hint",
+   "value": "Dosya, tablet ve düğme hareketlerini kapatır."
   }
  ]
 }

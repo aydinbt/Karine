@@ -145,66 +145,71 @@ public sealed partial class BubeApp {
   KarineUI.Title(frame,title,24);
   KarineUI.Rule(frame);
   // Kaydırma kartın **içinde**: başlık sabit kalır, içerik akar.
-  var scroll=new ScrollView(ScrollViewMode.Vertical);
+  var scroll=new KarineScrollView(ScrollViewMode.Vertical);
   scroll.style.flexGrow=1;
-  scroll.verticalScrollerVisibility=ScrollerVisibility.Auto;
+  scroll.verticalScrollerVisibility=ScrollerVisibility.Hidden;
   frame.Add(scroll);
   card=scroll.contentContainer;
   card.style.flexGrow=1;
  }
+ int settingsTab;
+ bool draftInstant,draftReduced;
+ SoundLevel draftMusic,draftSfx;
  void SettingsPage() {
-  VisualElement card;MenuOverlay(T("menu.settings"),out card);
-  // Ayarlar üç bölüm: metin, ses, reklam. Her bölüm kendi alt başlığıyla
-  // açılıyor ve aralarına çizgi giriyor — eskiden hepsi tek sütunda üst üste
-  // yığılıydı ve nerede bittiği belli olmuyordu.
-  SettingsSection(card,T("settings.textSpeed"),false);
-  KarineUI.Radio(card,T("settings.instant"),instantText,()=>{
-   instantText=true;PlayerPrefs.SetInt("bube.instantText",1);PlayerPrefs.Save();SettingsPage();
-  });
-  KarineUI.Radio(card,T("settings.normal"),!instantText,()=>{
-   instantText=false;PlayerPrefs.SetInt("bube.instantText",0);PlayerPrefs.Save();SettingsPage();
-  });
-
-  // Ses üç kademedir; kit'te kaydırıcı yok. Üç radyoyu tek satıra sıkıştırmak
-  // yerine kit'in **sekme şeridi** kullanılıyor: üç kademe eşit genişlikte,
-  // seçili olan dolu. Dokunma hedefi de böylece satır boyunca açılıyor.
-  SettingsSection(card,T("settings.music"),true);
-  SoundRow(card,SoundSettings.Music,level=>{SoundSettings.SetMusic(level);ApplySound();});
-  SettingsSection(card,T("settings.sfx"),false);
-  SoundRow(card,SoundSettings.Sfx,level=>{SoundSettings.SetSfx(level);ApplySound();});
-
-  // Reklam onayı ayarlarda durur ve **her zaman geri alınabilir**; onay bir kez
-  // alınıp kilitlenen bir şey değildir.
-  SettingsSection(card,T("settings.ads"),true);
-  Text(card,T("settings.ads.status."+
-   (AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),Muted,15);
-  Button(card,T("settings.ads.change"),AskForAdConsent);
-
-  KarineUI.Rule(card);
-  Button(card,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
-
-  // Hakkında da menüden çıktı; ayarların içinde duruyor.
-  KarineUI.Rule(card);
-  Button(card,T("menu.about"),AboutPage);
-  Button(card,T("offer.back"),Home);
+  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;
+  RenderSettings();
  }
- // Bölüm başlığı: ilkinin üstüne çizgi gerekmez, sonrakiler ayrılır.
+ void RenderSettings() {
+  Home();Back(Home);
+  VisualElement navigation,body;KarineUI.SettingsShell(root,out navigation,out body);
+  var tabs=new[]{"general","music","play"};var icons=new[]{"document","chart","gear"};
+  for(int i=0;i<tabs.Length;i++) {
+   int index=i;
+   var tab=KarineUI.SettingsChoice(navigation,T("settings.tab."+tabs[i]),T("settings.tab."+tabs[i]+".hint"),settingsTab==i,()=>{settingsTab=index;RenderSettings();},icons[i]);
+   tab.style.flexGrow=0;tab.style.flexBasis=StyleKeyword.Auto;tab.style.minHeight=KarineTheme.Settings.TabHeight;
+  }
+  var header=KarineUI.Row(body);KarineUI.Icon(header,"gear",KarineTheme.Primary,KarineTheme.TouchTarget);
+  var headings=new VisualElement();headings.style.flexGrow=1;headings.style.marginLeft=KarineTheme.SpaceLg;header.Add(headings);
+  KarineUI.Title(headings,T("menu.settings"),KarineTheme.Settings.HeadingSize);
+  KarineUI.Body_(headings,T("settings.subtitle"),KarineTheme.CaseBrowser.TextSize);
+  KarineUI.IconButton(header,"close",Home,T("offer.back"));KarineUI.Rule(body);
+  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;body.Add(scroll);
+  if(settingsTab==0) {
+   SettingsSection(scroll,T("settings.textSpeed"),false);
+   KarineUI.Body_(scroll,T("settings.text.hint"),KarineTheme.CaseBrowser.TextSize);
+   var choices=KarineUI.Row(scroll);choices.style.alignItems=Align.Stretch;
+   KarineUI.SettingsChoice(choices,T("settings.instant"),T("settings.instant.hint"),draftInstant,()=>{draftInstant=true;RenderSettings();});
+   KarineUI.SettingsChoice(choices,T("settings.normal"),T("settings.normal.hint"),!draftInstant,()=>{draftInstant=false;RenderSettings();});
+   SettingsSection(scroll,T("settings.music"),true);
+   SoundRow(scroll,draftMusic,level=>draftMusic=level);
+  } else if(settingsTab==1) {
+   SettingsSection(scroll,T("settings.music"),false);SoundRow(scroll,draftMusic,level=>draftMusic=level);
+   SettingsSection(scroll,T("settings.sfx"),true);SoundRow(scroll,draftSfx,level=>draftSfx=level);
+  } else {
+   KarineUI.SettingsChoice(scroll,T("settings.motion"),T("settings.motion.hint"),draftReduced,()=>{draftReduced=!draftReduced;RenderSettings();});
+   SettingsSection(scroll,T("settings.ads"),false);
+   KarineUI.Body_(scroll,T("settings.ads.status."+(AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),KarineTheme.CaseBrowser.TextSize);
+   Button(scroll,T("settings.ads.change"),AskForAdConsent);
+   KarineUI.Rule(scroll);Button(scroll,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
+  }
+  KarineUI.Rule(body);var footer=KarineUI.Row(body);
+  KarineUI.SettingsChoice(footer,T("settings.reset"),null,false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;RenderSettings();});
+  KarineUI.SettingsChoice(footer,T("settings.save"),null,true,()=>{
+   PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);
+   instantText=draftInstant;PlayerPrefs.SetInt("bube.instantText",instantText?1:0);
+   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);PlayerPrefs.Save();ApplySound();Home();
+  });
+ }
  void SettingsSection(VisualElement card,string title,bool separated) {
   if(separated)KarineUI.Rule(card);
-  var label=KarineUI.Subtitle(card,title,17);
-  label.style.marginTop=separated?KarineTheme.SpaceSm:0;
-  label.style.marginBottom=KarineTheme.SpaceSm;
+  KarineUI.Subtitle(card,title,KarineTheme.Settings.TextSize);
  }
- // Beş kademe, alt alta radyo satırı. Şerit denendi ve bırakıldı: beş hücre
- // tek satıra sığmıyor, üstelik ayarların geri kalanı da radyo — aynı soru
- // ekranda iki farklı biçimde sorulmamalı. Kademeler yukarıdan aşağı **azalır**,
- // çünkü önce istenen genelde en yüksek olan.
  void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {
+  var row=KarineUI.Row(card);row.style.flexWrap=Wrap.Wrap;
   foreach(var level in SoundSettings.Levels.Reverse()) {
-   var captured=level;
-   var key=SoundSettings.LabelKey(captured);
-   KarineUI.Radio(card,key!=null?T(key):"%"+(int)captured,
-    current==captured,()=>{onPick(captured);SettingsPage();});
+   var captured=level;var key=SoundSettings.LabelKey(captured);
+   var choice=KarineUI.SettingsChoice(row,key!=null?T(key):"%"+(int)captured,null,current==captured,()=>{onPick(captured);RenderSettings();});
+   choice.style.minWidth=KarineTheme.TouchTarget*2;
   }
  }
  void ApplySound() { if(audio!=null)audio.ApplyLevels(); }
@@ -213,8 +218,8 @@ public sealed partial class BubeApp {
  // ve oyunun hiçbir bölümü kapanmaz. Kit'in modalı yıkıcı değil, bu bir tercih.
  void AskForAdConsent() {
   KarineUI.Modal(root,T("ads.consent.title"),T("ads.consent.body"),
-   T("ads.consent.deny"),()=>{AdGateway.SetConsent(AdConsent.Denied);SettingsPage();},
-   T("ads.consent.allow"),()=>{AdGateway.SetConsent(AdConsent.Granted);SettingsPage();});
+   T("ads.consent.deny"),()=>{AdGateway.SetConsent(AdConsent.Denied);RenderSettings();},
+   T("ads.consent.allow"),()=>{AdGateway.SetConsent(AdConsent.Granted);RenderSettings();});
  }
 
  void AboutPage() {

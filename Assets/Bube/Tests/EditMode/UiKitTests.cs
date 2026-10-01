@@ -201,15 +201,12 @@ public sealed class UiKitTests {
    "GEÇ saydam olmamalı: kit düğmesi dolu zemin taşır.");
  }
 
- // Yazı tipi rolleri: gövde **mono değildir**. Ekranların tamamı monospace
- // okununca yazı kötü görünüyordu; mono artık yalnız teknik metindedir.
- // Büyük başlık logonun ağır slab diline yakın olanı kullanır, küçük başlık
- // Roboto Slab'da kalır — ahşap dizgi küçük puntoda okunmaz.
+ // Bütün yazı rolleri Chakra Petch ailesine bağlıdır.
  [Test]
- public void Typography_KeepsMonoForTechnicalTextOnly() {
+ public void Typography_UsesChakraPetchForAllTextRoles() {
   var set = FontSet.Load();
   Assert.IsNotNull(set.Display, "Display rolü yok.");
-  Assert.AreNotSame(set.Mono, set.Body, "Gövde yazısı mono olmamalı.");
+  Assert.AreSame(set.Mono, set.Body, "Teknik metin ve gövde Chakra Petch Regular kullanmalı.");
   Assert.AreNotSame(set.Mono, set.Heading, "Başlık mono olmamalı.");
 
   var host = Host();
@@ -218,13 +215,13 @@ public sealed class UiKitTests {
   var technical = KarineUI.Technical(host, "00:12");
   var body = KarineUI.Body_(host, "Gövde");
   Assert.AreEqual(FontDefinition.FromFont(set.Display), big.style.unityFontDefinition.value,
-   "Büyük başlık logo diline yakın slab'ı kullanmalı.");
+   "Büyük başlık Chakra Petch Bold kullanmalı.");
   Assert.AreEqual(FontDefinition.FromFont(set.Heading), small.style.unityFontDefinition.value,
-   "Küçük başlık Roboto Slab'da kalmalı.");
+   "Küçük başlık Chakra Petch Bold kullanmalı.");
   Assert.AreEqual(FontDefinition.FromFont(set.Mono), technical.style.unityFontDefinition.value,
-   "Teknik metin mono olmalı.");
+   "Teknik metin Chakra Petch kullanmalı.");
   Assert.AreEqual(FontDefinition.FromFont(set.Body), body.style.unityFontDefinition.value,
-   "Gövde Inter olmalı.");
+   "Gövde Chakra Petch Regular olmalı.");
  }
 
  // Radyo: seçili olan dolu halka ve krem yazı; birbirini dışlayan ayarlarda
