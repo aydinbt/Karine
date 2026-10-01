@@ -16,6 +16,15 @@ public static class KarineTheme {
   public const int TickMs=16, ReleaseMs=120, PaperOffset=28;
  }
 
+ // İkinci kademe efektleri (`KarineUI.Effects`, `BubeApp.Effects`).
+ public static class Effects {
+  public const float SlideSeconds=.38f, SlideTilt=5f, SlideMaxWidth=.36f, SlideTargetX=.445f, SlideTargetY=.5f;
+  public const float SwipeDistance=110f;
+  public const int PrintChars=4, PrintSoundEvery=5;
+  public const float SignalSeconds=.32f; public const int SignalBands=7;
+  public const float TurnSeconds=.26f, FoldWidth=14f, FoldAlpha=.28f;
+ }
+
  public static class Settings {
   public const int SideWidth=210, TabHeight=84, ChoiceHeight=74, HeadingSize=26, TextSize=17;
   public const int Inset=14, Top=12, Bottom=6, NarrowInset=4;

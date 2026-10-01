@@ -155,7 +155,7 @@ public sealed partial class BubeApp {
   var paper=KarineUI.DossierSheet(root);
   paper.userData=selectedFileSection;
   if(openingFile)KarineMotion.Paper(paper);
-  else if(switchingSection)KarineMotion.Page(paper);
+  else if(switchingSection){KarineMotion.Page(paper);KarineUI.PageTurn(paper);}
   var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
   KarineUI.IconButton(top,"folder",()=>{selectedFileSection="report";FilePage();},T("file.tab.report"));
   KarineUI.IconButton(top,"people",()=>InterviewRequests(),T("desk.view.people"));

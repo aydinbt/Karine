@@ -194,7 +194,7 @@ public sealed partial class BubeApp {
     var open=questions.Children().Last() as Button;
     open.style.minHeight=MinimumTouchTarget;
    }
-   Button(questions,T("interview.presentSource"),()=>{
+   Action send=()=>{
     var decoy=game.DecoyAnswerKey(active,sourceId);
     if(decoy!=null){InterviewPage(node,active,2,decoy,sourceId,false);return;}
     var reply=game.AnswerKey(active,sourceId);
@@ -202,9 +202,17 @@ public sealed partial class BubeApp {
     // `answerKey` bir anahtardır; çevrilmiş metin geçilirse ekrana "[...]" düşer.
     // Yemi yazılmamış kaynak: genel "ne diyeyim" yerine kişinin kendi savuşturması.
     else InterviewPage(node,active,2,node.deflectAnswerKey ?? "interview.unrelatedSource",sourceId,false);
-   },true);
-   var present=questions.Children().Last() as Button;
+   };
+   // Dokunarak da, parmakla karşıdakine sürerek de öne sürülür; ikisi aynı
+   // kâğıt hareketiyle sonuçlanır.
+   Button present=null;bool sent=false;
+   var paperLabel=ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId));
+   Action slide=()=>{if(sent)return;sent=true;SlideToPerson(present,paperLabel,send);};
+   Button(questions,"‹  "+T("interview.presentSource"),slide,true);
+   present=questions.Children().Last() as Button;
    present.style.minHeight=MinimumTouchTarget;
+   DragToPresent(present,slide);
+   var hint=Text(questions,T("interview.swipeHint"),Muted,13);hint.style.marginTop=-4;
   }
   var controls=new VisualElement();questions.Add(controls);
   // Sonuç ekranında her kaynak gösterilebilir, ama görüşmede öne sürülmesi

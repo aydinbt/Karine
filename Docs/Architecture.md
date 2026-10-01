@@ -404,3 +404,10 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - Bütün sayılar `KarineTheme.Office.Atmosphere` içinde. `KarineMotion.Reduced` iken toz, parallax ve kalkma kurulmaz.
 - Masa düğmesi → eşya eşlemesi `PropOf`; yeni bir masa eşyası eklenirse buraya ve `DeskFront`'a yazılır.
 
+## İkinci kademe efektleri
+
+- `BubeApp.Effects.cs`: `SlideToPerson` (öne sürülen kâğıt, ekranı `PresentBlocker` ile kayma boyunca kilitler), `DragToPresent` (sola sürme eşiği `Effects.SwipeDistance` ya da düğme genişliğinin %40'ı), `PrintOut` (gelen evrak basımı; basılmamış metin `<alpha=#00>` zengin metin etiketiyle yerinde tutulur, basılmamış öğe `visibility: hidden`; anahtar başına bir kez — `printedPapers`, oturum içi).
+- `KarineUI.Effects.cs`: `SignalSwitch(frame)` ve `PageTurn(paper)`; ikisi de `pickingMode: Ignore`, bitince kendini kaldırır.
+- Sayılar `KarineTheme.Effects`. `KarineMotion.Reduced` hepsini, `instantText` basımı atlar.
+- Test notu: grafiksiz PlayMode'da açılış akışı video hazırlanamayınca **gecikmeli** `Desk()` çağırır ve kökü yeniden kurar. Kök üstüne öğe koyan testler kurulumda ~2 sn bekler (`EffectsTests.Setup`).
+

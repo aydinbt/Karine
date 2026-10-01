@@ -212,6 +212,9 @@ public sealed partial class BubeApp {
     if(review!=null){Save();InboxPage("fax:"+review.caseId,"all");}
    },true);
   } else if(selected.review!=null)DrawInboxFax(paperBody,selected.review,dark);
+  // Faks ve yeni gelen evrak basılarak çıkar; sonuç ne olursa olsun aynı biçimde.
+  if(selected.review!=null)PrintOut(paperBody,selected.id+":"+selected.review.evaluatedAtUtcTicks);
+  else if(selected.document!=null && selected.unread && !selected.pending)PrintOut(paperBody,selected.id);
  }
  void DrawInboxFax(VisualElement body,FaxReview fax,Color dark) {
   var conclusion=Text(body,T("career.evaluation."+fax.evaluationType),dark,21);

@@ -342,3 +342,8 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 ## 1 Ekim 2026 — Masanın havası (1. kademe)
 
 [~] Lamba ışığı (nefes alan sıcak havuz) + köşe kararması + ışıkta süzülen 18 toz zerresi; eğince parallax (cihazda ivmeölçer, Editör'de fare; arka plaka %50 derinlik, taban kendiliğinden ortalanır); dokunulan masa eşyası kalkar, gölgesi yayılır, bırakınca oturur; tepsiye düşen kâğıt yan düşüp düzelir. Hareketi azalt açıkken toz, parallax ve kalkma kapalı. PlayMode'da katman yapısı ve kalkma/oturma ölçüldü; **görüntü ve eğme hissi gözlenmedi** (testler `-nographics`), cihaz kabulü açık.
+
+
+## 1 Ekim 2026 — Efektler (2. kademe)
+
+[~] Kayıt öne sürme: düğme parmakla karşıdakine doğru sürülebilir, dokunarak da seçilebilir; ikisinde de kayıt kâğıt olarak portreye kayar (doğru/yem/ilgisiz için aynı hareket), kayma sürerken ekran dokunmaya kapalı. Faks ve yeni gelen evrak satır satır basılır (düzen sabit, basılmamış düğme dokunulmaz, dokununca biter, aynı kâğıt bir kez basılır). Kamera değişiminde ve görüntü açılışında sinyal bozulması. Dosya sekmesi geçişine sayfa çevirme kenarı. Hareketi azalt / anında metin açıkken hepsi atlanır. `EffectsTests` (5) PlayMode'da geçti; **görüntü ve parmak hissi gözlenmedi**, cihaz kabulü açık.

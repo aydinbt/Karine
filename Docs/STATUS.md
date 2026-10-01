@@ -181,3 +181,8 @@ Dosya sekmelerinde kısa sayfa geçişi ve aktif sekmenin öne çıkması eklend
 ## 1 Ekim 2026 — Masanın havası (1. kademe)
 
 Masa artık iki katman: oda + pencere arkada, eşyalar ve masa düğmeleri önde. Telefon eğildikçe katmanlar farklı hızda kayıyor; lamba ışığı ve toz ön katmanda, kararma eşyaların üstünde ama düğmelerin altında. Dokunulan eşya kalkıyor. Yeni test `DeskAtmosphereTests` (2): katman sırası ve kalkma/oturma. EditMode 111/111, PlayMode 17/17. Görsel kabul ve cihazda eğme hissi açık.
+
+
+## 1 Ekim 2026 — Efektler (2. kademe)
+
+Sorguda kayıt kâğıt olarak karşıdakine kayıyor (sürme ya da dokunma), faks ve yeni evrak basılarak çıkıyor, CCTV'de kamera değişince sinyal bozuluyor, dosya sekmesinde sayfa çevriliyor. Yeni test `EffectsTests` (5). EditMode 111/111, PlayMode 22/22. Görsel kabul ve dokunmatik his açık.

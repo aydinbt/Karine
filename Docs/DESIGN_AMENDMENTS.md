@@ -812,3 +812,10 @@ Kullanıcı ortam sesini istemedi; oyunu yukarı taşıyacak olan animasyon ve e
 - **Parallax** derinlik verir, ama küçük tutuldu (genişliğin %1,1'i): eşyalar çizili masadan kopmamalı.
 - **Kalkma yalnız dokunulan eşyada.** Hiçbir eşya kendiliğinden parlamaz, zıplamaz ya da dikkat çekmez — efekt oyuncuyu bir kaynağa götürmez. Bu, oyuncu güdümlü soruşturma kuralının görsel karşılığıdır ve sonraki kademelerde de bağlayıcıdır: doğru ve yanlış seçim için ayrı efekt yok.
 - Hareketi azalt tercihi toz, parallax ve kalkmayı kapatır; ışık ve kararma durağan kalır.
+
+## Efektler 2. kademe — öne sürme, basım, sinyal, sayfa (1 Ekim 2026)
+
+- **Kayıt öne sürme** artık fiziksel bir an: kayıt kâğıt olarak karşıdaki kişiye kayar. Hareket doğru kaynakta, yemde ve ilgisiz kayıtta **aynıdır** — sonucu kişinin yanıtı söyler, efekt değil. Sürme isteğe bağlı bir jesttir; dokunmak aynı işi görür (erişilebilirlik). Sürmenin varlığı küçük bir satırla söylenir (`interview.swipeHint`), sıradaki adım söylenmez.
+- **Faks basımı** başarı/başarısızlık efekti taşımaz; olumlu da olumsuz değerlendirme aynı biçimde basılır. Basım oyuncuyu bekletmez: dokununca biter.
+- **Sinyal bozulması** kameranın resmine aittir; renkleri kit paletinden değil kamera camından gelir (CCTV görüntüsünün mevcut kuralı).
+- **Sayfa çevirme** yalnız gölgeli bir kenardır; renk ve çerçeve dili değişmedi (Kit §24).

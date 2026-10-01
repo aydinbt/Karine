@@ -83,6 +83,7 @@ public sealed partial class BubeApp {
   image.style.position=Position.Absolute;
   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
   videoFrame.Add(image);
+  videoFrame.schedule.Execute(()=>KarineUI.SignalSwitch(videoFrame)).StartingIn(0);
   var overlay=new VisualElement(){pickingMode=PickingMode.Ignore};
   overlay.style.position=Position.Absolute;
   overlay.style.backgroundColor=new Color(.025f,.055f,.06f,.12f);
@@ -233,6 +234,7 @@ public sealed partial class BubeApp {
   var status=Text(meta,T("cctv.signal"),Gold,14);status.style.marginBottom=0;
   var period=Text(content,T(node.cctvPeriodKey),Muted,14);period.style.marginBottom=7;
   var recordPanel=KarineUI.CctvRecordPanel(content);
+  KarineUI.SignalSwitch(recordPanel);
   var stream=Scroll(recordPanel);
   stream.style.paddingTop=2;
   var records=node.cctvEvents ?? new CctvEvent[0];
