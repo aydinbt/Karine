@@ -819,3 +819,12 @@ Kullanıcı ortam sesini istemedi; oyunu yukarı taşıyacak olan animasyon ve e
 - **Faks basımı** başarı/başarısızlık efekti taşımaz; olumlu da olumsuz değerlendirme aynı biçimde basılır. Basım oyuncuyu bekletmez: dokununca biter.
 - **Sinyal bozulması** kameranın resmine aittir; renkleri kit paletinden değil kamera camından gelir (CCTV görüntüsünün mevcut kuralı).
 - **Sayfa çevirme** yalnız gölgeli bir kenardır; renk ve çerçeve dili değişmedi (Kit §24).
+
+## Efektler 3. kademe — nefes ve duraksama, göz kırpma yok (1 Ekim 2026)
+
+Kullanıcı göz kırpmayı istemedi; karakter başına ek görsel de gerekmiyor. Kalan iki canlılık işareti:
+
+- **Nefes:** portre göğüs hizasından binde birkaç genişleyip daralır. Genlik ve hız sabittir; yalnız başlangıç anı rastgeledir.
+- **Duraksama:** her yanıt 380 ms sonra yazılmaya başlar.
+
+İkisi de kişiye, yanıta, öne sürülen kayda ya da kişinin vakadaki rolüne göre **değişmez**. Değişseydi oyuncu onu gizli bir durumun belirtisi diye okurdu; davranış bilgisini yalnız yazılı davranış satırları taşır.

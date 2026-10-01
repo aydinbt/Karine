@@ -109,6 +109,24 @@ public sealed class EffectsTests {
   Assert.IsNull(frame.Q("PageTurn"), "Sayfa kenarı ekranda kaldı.");
  }
 
+ // Nefes herkeste aynı genlikte: hiçbir kişi daha hızlı ya da derin nefes almaz.
+ [UnityTest] public IEnumerator Portrait_BreathesWithinTheSameSmallRange() {
+  var a = new VisualElement(); var b = new VisualElement();
+  Root.Add(a); Root.Add(b);
+  KarineUI.Breathe(a); KarineUI.Breathe(b);
+  float moved = 0, widest = 0;
+  float until = Time.realtimeSinceStartup + 2.5f;
+  while (Time.realtimeSinceStartup < until) {
+   yield return null;
+   foreach (var figure in new[] { a, b }) {
+    float y = Mathf.Abs(figure.resolvedStyle.scale.value.y - 1);
+    moved = Mathf.Max(moved, y); widest = Mathf.Max(widest, y);
+   }
+  }
+  Assert.Greater(moved, .002f, "Portre nefes almıyor.");
+  Assert.LessOrEqual(widest, KarineTheme.Effects.BreathHeight + .0005f, "Nefes sınırı aşıldı; göze batar.");
+ }
+
  [UnityTest] public IEnumerator ReducedMotion_SkipsStraightToTheAnswer() {
   PlayerPrefs.SetInt("karine.reducedMotion", 1);
   var button = new Button(); Root.Add(button);
@@ -119,6 +137,9 @@ public sealed class EffectsTests {
   var frame = new VisualElement(); Root.Add(frame);
   KarineUI.SignalSwitch(frame);
   Assert.IsNull(frame.Q("SignalSwitch"), "Hareketi azalt açıkken bozulma oynamamalı.");
+  KarineUI.Breathe(frame);
+  yield return Wait(.5f);
+  Assert.AreEqual(1f, frame.resolvedStyle.scale.value.y, .0001f, "Hareketi azalt açıkken portre kıpırdamamalı.");
  }
 }
 }

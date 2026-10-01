@@ -23,6 +23,10 @@ public static class KarineTheme {
   public const int PrintChars=4, PrintSoundEvery=5;
   public const float SignalSeconds=.32f; public const int SignalBands=7;
   public const float TurnSeconds=.26f, FoldWidth=14f, FoldAlpha=.28f;
+  // Nefes: dört saniyelik döngü, binde birkaçlık genişleme. Herkeste aynı.
+  public const float BreathSeconds=4.2f, BreathWidth=.004f, BreathHeight=.008f;
+  // Yanıttan önceki duraksama: her yanıtta aynı süre.
+  public const int AnswerPauseMs=380;
  }
 
  public static class Settings {

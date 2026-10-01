@@ -347,3 +347,8 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 ## 1 Ekim 2026 — Efektler (2. kademe)
 
 [~] Kayıt öne sürme: düğme parmakla karşıdakine doğru sürülebilir, dokunarak da seçilebilir; ikisinde de kayıt kâğıt olarak portreye kayar (doğru/yem/ilgisiz için aynı hareket), kayma sürerken ekran dokunmaya kapalı. Faks ve yeni gelen evrak satır satır basılır (düzen sabit, basılmamış düğme dokunulmaz, dokununca biter, aynı kâğıt bir kez basılır). Kamera değişiminde ve görüntü açılışında sinyal bozulması. Dosya sekmesi geçişine sayfa çevirme kenarı. Hareketi azalt / anında metin açıkken hepsi atlanır. `EffectsTests` (5) PlayMode'da geçti; **görüntü ve parmak hissi gözlenmedi**, cihaz kabulü açık.
+
+
+## 1 Ekim 2026 — Efektler (3. kademe, göz kırpmasız)
+
+[~] Sorguda portre nefes alır (4,2 sn döngü, binde 4–8 genişleme, göğüs hizasından); yanıttan önce 380 ms duraksama. İkisi de **herkeste, her yanıtta aynı**. Göz kırpma kullanıcı kararıyla yapılmadı. Hareketi azalt / anında metin açıkken ikisi de kapalı. PlayMode'da nefesin sınırı ölçüldü; **görüntü gözlenmedi**.

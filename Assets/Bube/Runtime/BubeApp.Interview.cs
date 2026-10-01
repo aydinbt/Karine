@@ -64,7 +64,16 @@ public sealed partial class BubeApp {
   // Karşındaki konuşuyor: daktilo değil **ses**. Kelime yok (kelime olursa
   // Türkçe metnin üstüne yabancı bir dil biner), yalnız sesin gövdesi; perde
   // kişiden gelir, yani üç kişi üç ses olur.
-  if(phase==2)Typewriter(speech,spoken,AudioDirector.Chat,1f,0.55f,5);
+  // Yanıttan önce kısa bir duraksama — her yanıtta, her kişide aynı süre;
+  // süresi içerikten bilgi taşımaz.
+  if(phase==2) {
+   if(instantText || KarineMotion.Reduced)Typewriter(speech,spoken,AudioDirector.Chat,1f,0.55f,5);
+   else {
+    speech.text=string.Empty;
+    speech.schedule.Execute(()=>Typewriter(speech,spoken,AudioDirector.Chat,1f,0.55f,5))
+     .StartingIn(KarineTheme.Effects.AnswerPauseMs);
+   }
+  }
   // Dedektifin gördüğü davranış — yorum değil, gözlem. Yalan ya da çelişki
   // etiketi değildir; anlamını oyuncu kurar. Metni olmayan yanıtta satır yoktur.
   if(phase==2 && locale.Has(answerKey+".demeanor")) {
@@ -333,6 +342,7 @@ public sealed partial class BubeApp {
    var art=new Image {image=portrait,scaleMode=ScaleMode.ScaleToFit};
    art.style.width=Length.Percent(100);art.style.height=Length.Percent(100);
    holder.Add(art);
+   KarineUI.Breathe(holder);
    return;
   }
   string[] pixels={
@@ -364,6 +374,7 @@ public sealed partial class BubeApp {
    cell.style.backgroundColor=p=='h'?hair:p=='t'?shirt:p=='e'||p=='m'||p=='n'?eye:skin;
    holder.Add(cell);
   }
+  KarineUI.Breathe(holder);
  }
  // Kişinin portre tanımı, o kişiyi taşıyan görüşme düğümünden okunur.
  PortraitStyle PortraitStyleFor(string personId) {

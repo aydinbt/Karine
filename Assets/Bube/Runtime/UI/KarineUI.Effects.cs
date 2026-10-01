@@ -35,6 +35,21 @@ public static partial class KarineUI {
   },()=>noise.RemoveFromHierarchy());
  }
 
+ // Karşıdaki kişi nefes alır: portre göğüs hizasından çok hafif genişler ve
+ // daralır. Genlik ve hız **herkeste aynı**; kişiye, yanıta ya da öne sürülen
+ // kayda göre değişmez — değişseydi oyuncu onu gizli bir durum diye okurdu.
+ // Yalnız başlangıç anı rastgeledir, böylece her girişte aynı karede başlamaz.
+ public static void Breathe(VisualElement figure) {
+  if(figure==null || KarineMotion.Reduced)return;
+  figure.name="BreathingPortrait";
+  figure.style.transformOrigin=new TransformOrigin(Length.Percent(50),Length.Percent(100));
+  float phase=UnityEngine.Random.value*Mathf.PI*2,start=Time.realtimeSinceStartup;
+  figure.schedule.Execute(()=> {
+   float breath=Mathf.Sin((Time.realtimeSinceStartup-start)*Mathf.PI*2/KarineTheme.Effects.BreathSeconds+phase);
+   figure.style.scale=new Scale(new Vector3(1+KarineTheme.Effects.BreathWidth*breath,1+KarineTheme.Effects.BreathHeight*breath,1));
+  }).Every(KarineTheme.Motion.TickMs);
+ }
+
  // Sayfa çevrilir: gölgeli bir kenar sağdan sola sayfanın üstünden geçer.
  public static void PageTurn(VisualElement paper) {
   if(paper==null || KarineMotion.Reduced)return;

@@ -186,3 +186,8 @@ Masa artık iki katman: oda + pencere arkada, eşyalar ve masa düğmeleri önde
 ## 1 Ekim 2026 — Efektler (2. kademe)
 
 Sorguda kayıt kâğıt olarak karşıdakine kayıyor (sürme ya da dokunma), faks ve yeni evrak basılarak çıkıyor, CCTV'de kamera değişince sinyal bozuluyor, dosya sekmesinde sayfa çevriliyor. Yeni test `EffectsTests` (5). EditMode 111/111, PlayMode 22/22. Görsel kabul ve dokunmatik his açık.
+
+
+## 1 Ekim 2026 — Efektler (3. kademe)
+
+Sorgudaki portre nefes alıyor, yanıttan önce kısa ve sabit bir duraksama var. Göz kırpma yok (kullanıcı kararı). EditMode 111/111, PlayMode 23/23. Görsel kabul açık.
