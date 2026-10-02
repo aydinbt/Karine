@@ -274,8 +274,9 @@ public sealed partial class BubeApp {
   if(game.CanConclude)KarineUI.DossierTab(tabs,"chart",T("conclude.tab"),false,Conclusion);
  }
  void DossierOverview(VisualElement paper,Node report) {
-  var scroll=Scroll(paper);scroll.name="DossierOverview";
-  var upper=KarineUI.DossierRow(scroll);
+  var scroll=Scroll(paper);scroll.name="DossierOverview";scroll.style.flexGrow=1;scroll.style.minHeight=0;
+  scroll.contentContainer.style.paddingBottom=KarineTheme.SpaceXl*2;
+  var upper=KarineUI.DossierRow(scroll);upper.style.alignItems=Align.Center;
   var identity=KarineUI.DossierColumn(upper,48);
   KarineUI.DossierTitle(identity,T(game.Data.titleKey));
   KarineUI.DossierText(identity,CaseText("file.caseType","file.caseType"),KarineTheme.Dossier.BodySize);
@@ -289,7 +290,7 @@ public sealed partial class BubeApp {
   var lower=KarineUI.DossierRow(scroll);
   var story=KarineUI.DossierColumn(lower,65);
   KarineUI.DossierSection(story,"document",T(report.titleKey));
-  KarineUI.DossierText(story,T(report.bodyKey),KarineTheme.Dossier.BodySize);
+  var body=KarineUI.DossierText(story,T(report.bodyKey),KarineTheme.Dossier.BodySize);body.style.whiteSpace=WhiteSpace.Normal;body.style.flexShrink=0;
   var people=KarineUI.DossierColumn(lower,35);
   KarineUI.DossierSection(people,"people",T("file.relatedPeople"));
   foreach(var person in game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).Select(g=>g.First()))

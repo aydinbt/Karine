@@ -9,7 +9,7 @@ public static partial class KarineUI {
   var paper=new VisualElement {name="DossierPaper"};OfficePlace(paper,KarineTheme.Dossier.Sheet);
   Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=KarineTheme.SpaceXl;paper.style.paddingRight=KarineTheme.SpaceXl;
-  paper.style.paddingTop=KarineTheme.SpaceLg;paper.style.paddingBottom=KarineTheme.SpaceLg;
+  paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceXl;paper.style.overflow=Overflow.Hidden;
   parent.Add(paper);return paper;
  }
  // Görseli öğenin tamamına gerer (kâğıt, karton, sekme kartı).
@@ -48,13 +48,16 @@ public static partial class KarineUI {
   tab.style.marginBottom=KarineTheme.Dossier.TabGap;tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;
   // Sekme dosyanın kâğıdından kesilmiş bir dil gibi durur: dokulu düğme görseli (yırtık şerit)
   // kâğıt zeminle üst üste biniyordu; kaldırılır, düz kâğıt ve ince kenar kalır.
-  Unskin(tab,active?KarineTheme.Paper.Sheet:KarineTheme.Paper.Edge);
-  Stretched(tab,"Bube/UI/paper_sheet");Border(tab,1,KarineTheme.Paper.Edge);
-  tab.style.unityTextAlign=TextAnchor.MiddleLeft;tab.style.paddingLeft=KarineTheme.SpaceMd;
-  if(!active)tab.style.unityBackgroundImageTintColor=KarineTheme.Paper.Tint;
-  tab.style.borderLeftWidth=KarineTheme.PrimaryEdgeWidth;tab.style.borderLeftColor=active?KarineTheme.Paper.Stamp:KarineTheme.Paper.Edge;
-  Icon(tab,icon,KarineTheme.Paper.Ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
-  var text=Body_(tab,title,KarineTheme.Dossier.MetaSize);text.style.color=KarineTheme.Paper.Ink;text.style.marginBottom=0;
+  // Dizin sekmesi: etkin olan kâğıt renginde dosyaya yapışık, diğerleri koyu camda.
+  var ink=active?KarineTheme.Paper.Ink:KarineTheme.Secondary;
+  Unskin(tab,active?KarineTheme.Paper.Sheet:KarineTheme.GlassDeep);
+  Border(tab,1,active?KarineTheme.Paper.Edge:KarineTheme.Alpha(KarineTheme.Secondary,.25f));
+  Round(tab,KarineTheme.Radius);tab.style.borderTopLeftRadius=0;tab.style.borderBottomLeftRadius=0;
+  tab.style.unityTextAlign=TextAnchor.MiddleLeft;tab.style.paddingLeft=KarineTheme.SpaceMd;tab.style.paddingRight=KarineTheme.SpaceSm;
+  tab.style.borderLeftWidth=KarineTheme.PrimaryEdgeWidth;tab.style.borderLeftColor=active?KarineTheme.Paper.Stamp:KarineTheme.Alpha(KarineTheme.Secondary,.25f);
+  Icon(tab,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
+  var text=Body_(tab,title,KarineTheme.Dossier.MetaSize);text.style.color=ink;text.style.marginBottom=0;
+  text.style.flexShrink=1;text.style.whiteSpace=WhiteSpace.NoWrap;text.style.overflow=Overflow.Hidden;text.style.textOverflow=TextOverflow.Ellipsis;
   if(active) {
    if(animate)KarineMotion.Run(tab,KarineTheme.Motion.PageSeconds,t=>tab.style.translate=new Translate(-KarineTheme.Motion.TabLift*t,0));
    else tab.style.translate=new Translate(-KarineTheme.Motion.TabLift,0);
@@ -68,6 +71,7 @@ public static partial class KarineUI {
   var parts=title.Split(new[]{'—'},2);
   if(parts.Length>1) {
    var number=Technical(parent,parts[0].Trim(),KarineTheme.Dossier.BodySize);number.style.color=KarineTheme.Paper.Ink;
+   number.style.marginTop=KarineTheme.SpaceMd;number.style.whiteSpace=WhiteSpace.NoWrap;
    var name=Subtitle(parent,parts[1].Trim(),KarineTheme.Dossier.TitleSize);name.style.color=KarineTheme.Paper.Ink;
    var rule=new VisualElement();rule.style.height=KarineTheme.PrimaryEdgeWidth;rule.style.width=Length.Percent(64);
    rule.style.backgroundColor=KarineTheme.Paper.Stamp;rule.style.marginBottom=KarineTheme.SpaceSm;parent.Add(rule);
@@ -75,7 +79,9 @@ public static partial class KarineUI {
  }
  public static VisualElement DossierMetaGrid(VisualElement parent) {
   var grid=new VisualElement {name="DossierMetaGrid"};grid.style.flexDirection=FlexDirection.Row;grid.style.flexWrap=Wrap.Wrap;
-  grid.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Tint,.55f);Round(grid,KarineTheme.Radius);
+  // Künye: gri kutu yerine form gibi üstte ve altta ince çizgi, solda kırmızı kenar.
+  grid.style.borderTopWidth=1;grid.style.borderBottomWidth=1;grid.style.borderTopColor=KarineTheme.Paper.Faded;grid.style.borderBottomColor=KarineTheme.Paper.Faded;
+  grid.style.borderLeftWidth=KarineTheme.PrimaryEdgeWidth;grid.style.borderLeftColor=KarineTheme.Paper.Stamp;
   grid.style.paddingLeft=KarineTheme.SpaceMd;grid.style.paddingRight=KarineTheme.SpaceMd;
   grid.style.paddingTop=KarineTheme.SpaceMd;grid.style.marginTop=KarineTheme.SpaceMd;parent.Add(grid);return grid;
  }
@@ -98,7 +104,8 @@ public static partial class KarineUI {
   var frame=new VisualElement {name="DossierPolaroid"};frame.style.paddingLeft=KarineTheme.SpaceMd;frame.style.paddingRight=KarineTheme.SpaceMd;
   frame.style.paddingTop=KarineTheme.SpaceMd;frame.style.paddingBottom=KarineTheme.SpaceSm;
   frame.style.backgroundColor=KarineTheme.Paper.Light;Border(frame,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
-  frame.style.rotate=new Rotate(KarineTheme.Dossier.PhotoTilt);frame.style.marginTop=KarineTheme.SpaceMd;parent.Add(frame);
+  frame.style.rotate=new Rotate(KarineTheme.Dossier.PhotoTilt);frame.style.marginTop=KarineTheme.SpaceXl;
+  frame.style.width=Length.Percent(88);frame.style.alignSelf=Align.Center;parent.Add(frame);
   var photo=new Image {image=texture,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};photo.style.height=KarineTheme.Dossier.PhotoHeight;frame.Add(photo);
   var label=DossierText(frame,caption,KarineTheme.Dossier.MetaSize);label.style.minHeight=KarineTheme.Dossier.PhotoCaptionPad;label.style.marginTop=KarineTheme.SpaceSm;label.style.marginBottom=0;
   var clip=Resources.Load<Texture2D>("Bube/UI/paperclip");
