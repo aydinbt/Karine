@@ -836,3 +836,7 @@ Video üretilemediği için CCTV kaydı durağan kareler dizisiyle gösterilir. 
 ## 2 Ekim 2026 — Yeni görünüm başladı: Gelen Evraklar
 
 Kullanıcı arayüzü baştan yenilemeye karar verdi; referans görseller ChatGPT ile üretilip ekran ekran veriliyor. İlk ekran Gelen Evraklar: gece ofisi sahnesi (`Bube/UI/bg_office`), karton dosya ve eskimiş kâğıt görselleri, ataş, bube damla logosu (liste paneli ve kâğıt başlığı), yeni krem düz simge seti (`Art/Icons` içindeki nav_prev, document, folder, people, binoculars, gear yerine geçti; bu simgeler her ekranda değişti). Yerleşim önceki Gelen Evraklar düzenini korur. Eski kayıtlarda boş kalan değerlendirme türü artık ham anahtar (`[career.evaluation.]`) göstermez, sonuçtan türetilir. `UI_KIT.md` yeni görünüm tamamlanınca yeniden yazılacak; o zamana kadar bu girdi geçerlidir.
+
+## 2 Ekim 2026 — Masa kalır, üst çubukta simgeyle gezinme yok
+
+Masa sahnesi merkez olarak kalır. Gelen Evraklar, dosya ve talep ekranlarının üst çubuğundaki dosya/görüşme/CCTV/evrak/ayarlar simgeleri kaldırıldı. Her ekran yalnız geri düğmesiyle masaya döner; oyuncu bir sonrakini masadan kendisi açar.

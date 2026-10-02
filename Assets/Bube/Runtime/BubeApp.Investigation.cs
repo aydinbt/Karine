@@ -16,12 +16,7 @@ public sealed partial class BubeApp {
  void RequestScreenHeader(VisualElement content) {
   var screen=content.parent;
   foreach(var child in screen.Children().Where(c=>c!=content).ToArray())child.RemoveFromHierarchy();
-  var bar=KarineUI.DossierHeader(root,T("back.desk"),T(game.Data.titleKey),Desk);
-  KarineUI.IconButton(bar,"folder",FilePage,T("desk.view.file"));
-  KarineUI.IconButton(bar,"people",()=>InterviewRequests(false),T("tablet.tab.interviews"));
-  KarineUI.IconButton(bar,"binoculars",()=>InvestigationRequests(false),T("tablet.tab.investigations"));
-  KarineUI.IconButton(bar,"document",InboxPage,T("inbox.title"));
-  KarineUI.IconButton(bar,"gear",SettingsPage,T("menu.row.settings"));
+  KarineUI.DossierHeader(root,T("back.desk"),T(game.Data.titleKey),Desk);
  }
  string selectedRequestPerson,selectedRequestDocument;
  void InterviewRequests(bool lift=true) {
@@ -157,11 +152,6 @@ public sealed partial class BubeApp {
   if(openingFile)KarineMotion.Paper(paper);
   else if(switchingSection){KarineMotion.Page(paper);KarineUI.PageTurn(paper);}
   var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
-  KarineUI.IconButton(top,"folder",()=>{selectedFileSection="report";FilePage();},T("file.tab.report"));
-  KarineUI.IconButton(top,"people",()=>InterviewRequests(),T("desk.view.people"));
-  KarineUI.IconButton(top,"binoculars",()=>{selectedFileSection="evidence";FilePage();},T("file.tab.evidence"));
-  KarineUI.IconButton(top,"document",InboxPage,T("desk.inbox"));
-  KarineUI.IconButton(top,"gear",SettingsPage,T("menu.row.settings"));
   var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
   if(selectedFileSection!="report") {
    KarineUI.DossierText(paper,T(game.Data.titleKey),KarineTheme.Dossier.BodySize);

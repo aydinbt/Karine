@@ -137,14 +137,7 @@ public sealed partial class BubeApp {
   var selected=visible.FirstOrDefault(e=>e.id==selectedId) ?? visible.FirstOrDefault();
   Desk();
   KarineUI.InboxScene(root);
-  var top=KarineUI.InboxHeader(root,T("inbox.title"),T("back.desk"),Desk);
-  if(game.State.caseAccepted&&!game.State.closed&&!game.Career.retired) {
-   KarineUI.IconButton(top,"folder",FilePage,T("desk.view.file"));
-   KarineUI.IconButton(top,"people",()=>InterviewRequests(),T("desk.view.people"));
-   KarineUI.IconButton(top,"binoculars",OpenTerminal,T("desk.view.cctv"));
-  }
-  KarineUI.IconButton(top,"document",InboxPage,T("inbox.title"));
-  KarineUI.IconButton(top,"gear",SettingsPage,T("menu.row.settings"));
+  KarineUI.InboxHeader(root,T("inbox.title"),T("back.desk"),Desk);
   var left=KarineUI.InboxList(root,T("file.department")+"\n"+T(game.Data.summary.locationKey));
   var filters=new VisualElement();filters.style.flexDirection=FlexDirection.Row;
   filters.style.marginBottom=12;left.Add(filters);
