@@ -397,13 +397,47 @@
      "overlayTimeKey": "case002.time.third_out",
      "aboutPersonIds": [
       "kerem"
-     ]
+     ],
+     "framePaths": [
+      "Bube/Cctv/case002_third_out/01",
+      "Bube/Cctv/case002_third_out/02",
+      "Bube/Cctv/case002_third_out/03",
+      "Bube/Cctv/case002_third_out/04",
+      "Bube/Cctv/case002_third_out/05",
+      "Bube/Cctv/case002_third_out/06"
+     ],
+     "frameTimes": [
+      "23.39.00",
+      "23.39.05",
+      "23.39.10",
+      "23.39.15",
+      "23.39.20",
+      "23.39.25"
+     ],
+     "frameMs": 700
     },
     {
      "textKey": "case002.cctv.event.patrol",
      "delayMs": 620,
      "id": "patrol",
-     "overlayTimeKey": "case002.time.patrol"
+     "overlayTimeKey": "case002.time.patrol",
+     "framePaths": [
+      "Bube/Cctv/case002_patrol/01",
+      "Bube/Cctv/case002_patrol/02",
+      "Bube/Cctv/case002_patrol/03",
+      "Bube/Cctv/case002_patrol/04",
+      "Bube/Cctv/case002_patrol/05",
+      "Bube/Cctv/case002_patrol/06"
+     ],
+     "frameTimes": [
+      "23.46.00",
+      "23.46.05",
+      "23.46.10",
+      "23.46.15",
+      "23.46.20",
+      "23.46.25"
+     ],
+     "frameMs": 700
     }
    ]
   },
