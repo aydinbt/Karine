@@ -269,6 +269,13 @@ public sealed partial class BubeApp {
   KarineUI.DossierSection(people,"people",T("file.relatedPeople"));
   foreach(var person in game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).Select(g=>g.First()))
    KarineUI.DossierPerson(people,Resources.Load<Texture2D>("Bube/Characters/"+person.personId),T(person.personNameKey),T(person.personInfoKey));
+  if(report.relatedItems!=null && report.relatedItems.Length>0) {
+   var section=new VisualElement();section.style.marginTop=KarineTheme.SpaceLg;people.Add(section);
+   KarineUI.DossierSection(section,"image",T("file.relatedItems"));
+   var shelf=new VisualElement();shelf.style.flexDirection=FlexDirection.Row;section.Add(shelf);
+   foreach(var item in report.relatedItems)
+    KarineUI.DossierItem(shelf,Resources.Load<Texture2D>(item.imageResource),T(item.nameKey),T(item.detailKey));
+  }
  }
 
  // Künye alanının simgesi etiketin anahtarından gelir; bilinmeyen alan simgesiz kalır.

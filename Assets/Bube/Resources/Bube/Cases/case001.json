@@ -22,6 +22,23 @@
      "valueKey": "file.value.reporter"
     }
    ],
+   "relatedItems": [
+    {
+     "nameKey": "case001.item.laptop.name",
+     "detailKey": "case001.item.laptop.detail",
+     "imageResource": "Bube/Items/case001_laptop"
+    },
+    {
+     "nameKey": "case001.item.watch.name",
+     "detailKey": "case001.item.watch.detail",
+     "imageResource": "Bube/Items/case001_watch"
+    },
+    {
+     "nameKey": "case001.item.cash.name",
+     "detailKey": "case001.item.cash.detail",
+     "imageResource": "Bube/Items/case001_cash"
+    }
+   ],
    "imageResource": "Bube/Case001Building",
    "imageCaptionKey": "file.imageCaption",
    "notPresentable": true,

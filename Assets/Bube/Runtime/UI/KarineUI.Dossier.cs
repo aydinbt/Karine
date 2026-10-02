@@ -112,6 +112,14 @@ public static partial class KarineUI {
    strip.style.left=-KarineTheme.SpaceLg;strip.style.top=KarineTheme.SpaceSm;strip.style.rotate=new Rotate(-38);frame.Add(strip);
   }
  }
+ public static void DossierItem(VisualElement parent,Texture2D texture,string name,string detail) {
+  var card=new VisualElement {name="DossierItem",pickingMode=PickingMode.Ignore};card.style.flexGrow=1;card.style.flexBasis=0;
+  card.style.marginRight=KarineTheme.SpaceSm;parent.Add(card);
+  var photo=new Image {image=texture,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
+  photo.style.height=KarineTheme.Dossier.ItemHeight;Round(photo,KarineTheme.Radius);card.Add(photo);
+  var title=Subtitle(card,name,KarineTheme.Dossier.MetaSize);title.style.color=KarineTheme.Paper.Ink;title.style.marginTop=KarineTheme.SpaceXs;title.style.marginBottom=0;
+  DossierText(card,detail,KarineTheme.Dossier.MetaSize-2).style.color=KarineTheme.Paper.Faded;
+ }
  public static void DossierPerson(VisualElement parent,Texture2D texture,string name,string info) {
   var row=DossierRow(parent);row.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Tint,.55f);
   row.style.alignItems=Align.Center;row.style.marginBottom=KarineTheme.SpaceSm;Round(row,KarineTheme.Radius);

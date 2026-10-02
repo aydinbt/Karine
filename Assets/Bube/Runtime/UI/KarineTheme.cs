@@ -151,7 +151,7 @@ public static class KarineTheme {
   // Yeni görünüm (2 Ekim 2026): kâğıdın arkasındaki karton dosya, polaroid fotoğraf.
   public static readonly Rect Folder=new Rect(4.5f,11.5f,78,86);
   public const float PhotoTilt=2.5f;
-  public const int PhotoCaptionPad=34, MetaIcon=22, SectionIcon=24, TapeWidth=90;
+  public const int PhotoCaptionPad=34, MetaIcon=22, SectionIcon=24, TapeWidth=90, ItemHeight=74;
  }
 
  public static class Office {

@@ -844,3 +844,7 @@ Masa sahnesi merkez olarak kalır. Gelen Evraklar, dosya ve talep ekranlarının
 ## 2 Ekim 2026 — Dosya / Vaka Detayı yeni görünümde
 
 Gece ofisi sahnesi, karton dosya üstünde eskimiş kâğıt, sekmeler kâğıt dokulu kart. Künye iki sütunlu kart ızgarası (simge etiket anahtarından: konum→pin, numara→folder, tarih→calendar, ihbar eden→person). Olay fotoğrafı eğik polaroid ve ataşla. Bölüm başlıkları simge + çizgi. İlgili kişi kartı tıklanamaz kaldı (ok işareti konmadı: oyuncuyu bir yere yönlendirmez). Referanstaki "İlgili Eşyalar" galerisi için veri alanı ve eşya fotoğrafları bekleniyor. Yeni sekme simgeleri (person, fingerprint, clock, image, compare, search, calendar) gelene kadar boş görünür.
+
+## 2 Ekim 2026 — Dosya #001 "İlgili Eşyalar"
+
+Rapor düğümü `relatedItems` (ad, ayrıntı, fotoğraf) alır; dosya ekranında ilgili kişilerin altında fotoğraflı küçük kartlar olarak görünür, tıklanamaz. Yalnız raporun metninde geçen eşyalar ve bilgiler konur (dizüstü S/N LQ7B-024861, kol saati, nakit para "miktar belirsiz"); rapor metninde olmayan ayrıntı (renk, marka) eklenmez. Para fotoğrafında gerçek banknot okunmaz. Doğrulayıcı eşya metinlerini ve görsellerini denetler.

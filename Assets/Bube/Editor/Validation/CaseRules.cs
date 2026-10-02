@@ -124,6 +124,12 @@ public static class CaseRules {
   foreach (var field in node.fileMeta ?? new FileMeta[0])
    foreach (var key in new[] { field.labelKey, field.valueKey })
     report.Forbid(MissingText(locale, key), "Dosya künyesi metni eksik: " + key);
+  foreach (var item in node.relatedItems ?? new RelatedItem[0]) {
+   foreach (var key in new[] { item.nameKey, item.detailKey })
+    report.Forbid(MissingText(locale, key), "İlgili eşya metni eksik: " + key);
+   report.Require(!string.IsNullOrEmpty(item.imageResource) && Resources.Load<Texture2D>(item.imageResource) != null,
+    "İlgili eşya görseli yok: " + item.imageResource);
+  }
 
   if (!string.IsNullOrEmpty(node.imageResource)) {
    report.Require(Resources.Load<Texture2D>(node.imageResource) != null,
