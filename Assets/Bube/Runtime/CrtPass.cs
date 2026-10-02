@@ -37,7 +37,8 @@ public sealed class CrtPass : MonoBehaviour {
   active = on;
   if (!on) {
    panel.targetTexture = null;
-   panel.SetScreenToPanelSpaceFunction(null);
+   // null verilirse Unity kendi sarmalayıcısında null temsilciyi çağırır (NRE); kapalıyken birim dönüşüm.
+   panel.SetScreenToPanelSpaceFunction(p => p);
    if (target != null) { target.Release(); Destroy(target); target = null; }
    return;
   }
