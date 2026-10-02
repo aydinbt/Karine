@@ -79,12 +79,6 @@ public static partial class KarineUI {
   // Lamba ışığı eşyaların altında, masanın üstünde durur.
   var light=Soft(front,"OfficeLight",Glow(),M.LightPool,KarineTheme.Alpha(KarineTheme.Paper.Light,M.LightAlpha));
   foreach(var element in moving) {
-   if(element is Image && PropOf.ContainsValue(element.name)) {
-    var shadow=Soft(front,element.name+"Shadow",Glow(),Rect.zero,KarineTheme.Alpha(KarineTheme.Paper.FolderDeep,1));
-    shadow.style.left=element.style.left;shadow.style.top=element.style.top;
-    shadow.style.width=element.style.width;shadow.style.height=element.style.height;
-    shadow.style.opacity=0;
-   }
    front.Add(element);
   }
   // Kararma eşyaların üstünde, masa düğmelerinin altında: düğmeler okunur kalır.
@@ -95,8 +89,8 @@ public static partial class KarineUI {
   if(firstButton<0)front.Add(shade);else front.Insert(firstButton,shade);
 
   foreach(var pair in PropOf) {
-   var button=front.Q<Button>(pair.Key);var prop=front.Q(pair.Value);var shadow=front.Q(pair.Value+"Shadow");
-   if(button!=null&&prop!=null)Liftable(button,prop,shadow);
+   var button=front.Q<Button>(pair.Key);var prop=front.Q(pair.Value);
+   if(button!=null&&prop!=null)Liftable(button,prop);
   }
   if(KarineMotion.Reduced)return;
 
@@ -146,24 +140,13 @@ public static partial class KarineUI {
   }).Every(KarineTheme.Motion.TickMs);
  }
 
- // Tıklama hissi: basınca eşya masaya hafifçe gömülür ve kararır, bırakınca küçük bir
- // sekmeyle yerine oturur. Masa kımıldamaz; yalnız dokunulan eşya tepki verir.
- static void Liftable(Button button,VisualElement prop,VisualElement shadow) {
-  float pressed=0;bool down=false;
-  Action<float,float> apply=(press,pop)=> {
-   prop.style.translate=new Translate(0,M.PressDepth*press);
-   prop.style.scale=new Scale(Vector3.one*(1-M.PressScale*press+M.PopScale*pop));
-   if(prop is Image image)image.tintColor=Color.Lerp(Color.white,KarineTheme.Button.PressedTint,press);
-   if(shadow!=null)shadow.style.opacity=M.ShadowAlpha*press;
-  };
-  button.RegisterCallback<PointerDownEvent>(_=>{
-   if(KarineMotion.Reduced||down)return;down=true;float from=pressed;
-   KarineMotion.Run(prop,M.PressSeconds,t=>{pressed=Mathf.Lerp(from,1,t);apply(pressed,0);});
-  },TrickleDown.TrickleDown);
-  Action release=()=>{
-   if(!down)return;down=false;float from=pressed;
-   KarineMotion.Run(prop,M.ReleaseSeconds,t=>{pressed=Mathf.Lerp(from,0,t);apply(pressed,Mathf.Sin(t*Mathf.PI));},()=>apply(0,0));
-  };
+ // Tıklama hissi: basınca eşyanın üstüne yumuşak bir ışık düşer, bırakınca yavaşça söner.
+ // Masa ve eşya kımıldamaz; her eşyada aynı ışık.
+ static void Liftable(Button button,VisualElement prop) {
+  float lit=0;bool down=false;
+  Action<float,float> fade=(target,seconds)=>{float from=lit;KarineMotion.Run(prop,seconds,t=>{lit=Mathf.Lerp(from,target,t);prop.style.opacity=M.PressGlow*lit;});};
+  button.RegisterCallback<PointerDownEvent>(_=>{if(down)return;down=true;fade(1,M.PressSeconds);},TrickleDown.TrickleDown);
+  Action release=()=>{if(!down)return;down=false;fade(0,M.ReleaseSeconds);};
   button.RegisterCallback<PointerUpEvent>(_=>release());
   button.RegisterCallback<PointerLeaveEvent>(_=>release());
   button.RegisterCallback<PointerCancelEvent>(_=>release());

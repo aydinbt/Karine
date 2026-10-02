@@ -171,12 +171,12 @@ public static class KarineTheme {
   // Coordinates in the reusable room plate; all props share the same stage.
   public static readonly Rect Window=new Rect(30.3f,7.8f,39.3f,35.9f);
   public static readonly Rect Board=new Rect(65,14,27,28);
-  public static readonly Rect Lamp=new Rect(1.79f,15.73f,25.72f,43.78f);
-  public static readonly Rect Inbox=new Rect(8.97f,52.07f,19.74f,14.67f);
-  public static readonly Rect Phone=new Rect(29.43f,48.67f,14.65f,16.37f);
-  public static readonly Rect Folder=new Rect(33.49f,56.11f,25.72f,27.84f);
-  public static readonly Rect Monitor=new Rect(62.8f,35.6f,25.72f,31.14f);
-  public static readonly Rect Evidence=new Rect(70.87f,59.62f,28.11f,29.12f);
+  public static readonly Rect Lamp=new Rect(2.39f,13.28f,27.21f,41.98f);
+  public static readonly Rect Inbox=new Rect(7.66f,50.8f,21.29f,15.52f);
+  public static readonly Rect Phone=new Rect(28.47f,48.35f,15.49f,17f);
+  public static readonly Rect Folder=new Rect(32.06f,60.36f,28.47f,22.95f);
+  public static readonly Rect Monitor=new Rect(62.08f,35.39f,26.85f,30.29f);
+  public static readonly Rect Evidence=new Rect(72.67f,64.29f,27.33f,20.19f);
   public static readonly Rect InboxLabel=new Rect(9.4f,51.3f,15.2f,6.7f);
   public static readonly Rect PhoneLabel=new Rect(30.3f,51.3f,15.4f,6.4f);
   public static readonly Rect FolderLabel=new Rect(40.6f,73.4f,15.1f,6.6f);
@@ -193,7 +193,7 @@ public static class KarineTheme {
    public const float DustMin=2f, DustMax=4.5f, DustRise=1.6f, DustAlpha=.45f;
    public const float Reach=.011f, BackDepth=.5f, BackScale=1.03f;
    public const float Follow=.07f, TiltGain=2.2f, TiltRecenter=.004f;
-   public const float PressSeconds=.07f, ReleaseSeconds=.26f, PressDepth=2f, PressScale=.03f, PopScale=.02f, ShadowAlpha=.25f;
+   public const float PressSeconds=.12f, ReleaseSeconds=.45f, PressGlow=.22f;
   }
  }
 

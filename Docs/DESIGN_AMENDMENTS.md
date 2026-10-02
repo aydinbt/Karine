@@ -880,3 +880,7 @@ Masa artık kullanıcının verdiği tek görsel (`Art/OfficeDesk.png`, 1672×94
 ## 2 Ekim 2026 — Boş masa + eşya kesitleri
 
 Masa artık boş plaka (`Art/OfficeDesk.png`) + altı ayrı eşya kesiti (`Art/Desk/`: lamba, tepsi, telefon, dosya, tablet, evrak yığını). Kalkma efekti yerine tıklama hissi: basınca eşya 0,07 sn içinde hafifçe gömülür ve kararır, bırakınca küçük bir sekmeyle oturur. Lamba da ayrı katman ama düğmesi yok, tepki vermez. Konumlar görselde birleştirilerek seçildi (`Docs/desk_props/preview.jpg`).
+
+## 2 Ekim 2026 — Tam masa görseline dönüş, ışıkla tıklama hissi
+
+Kullanıcı kararı: ayrı kesitler gerçekçi durmadı (lamba bardağın üstünde vb.). Masa yine ilk tam görsel. Tıklama hissi geometriyle değil ışıkla: basınca eşyanın üstüne yumuşak sıcak bir ışık lekesi 0,12 sn içinde düşer, bırakınca 0,45 sn içinde söner. Her eşyada aynı. Kesitler `Docs/desk_props/` altında saklı, oyunda kullanılmıyor.

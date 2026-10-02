@@ -62,11 +62,11 @@ public sealed class DeskAtmosphereTests {
   using (var down = PointerDownEvent.GetPooled()) { down.target = file; file.SendEvent(down); }
   float until = Time.realtimeSinceStartup + .3f;
   while (Time.realtimeSinceStartup < until) yield return null;
-  Assert.Less(folder.resolvedStyle.scale.value.x, .99f, "Basılan dosya masaya gömülmedi.");
+  Assert.Greater(folder.resolvedStyle.opacity, .05f, "Basılan dosyanın üstüne ışık düşmedi.");
   using (var up = PointerUpEvent.GetPooled()) { up.target = file; file.SendEvent(up); }
-  until = Time.realtimeSinceStartup + .4f;
+  until = Time.realtimeSinceStartup + .6f;
   while (Time.realtimeSinceStartup < until) yield return null;
-  Assert.AreEqual(1f, folder.resolvedStyle.scale.value.x, .005f, "Bırakılan dosya yerine oturmadı.");
+  Assert.AreEqual(0f, folder.resolvedStyle.opacity, .01f, "Bırakılan dosyanın ışığı sönmedi.");
  }
 }
 }
