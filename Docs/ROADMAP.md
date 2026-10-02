@@ -382,4 +382,4 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 - [~] Vaka ortam sesleri: `room_night` (#002), `room_rain` (#003). Ölçüm aracı geçti; kulakla dinlenmedi.
 - [~] Sicil kaydında akıbet ve dördüncü sütun.
 - [~] Kapanan görüşme (`closesAfterRead`), doğrulayıcı güvencesi; Dosya #003'te Barış'ın ikinci görüşmesi.
-- [ ] Vakalar arası geri dönen isim — içerik kararı, kullanıcıda.
+- ~~Vakalar arası geri dönen isim~~ — kaldırıldı (kullanıcı kararı, 2 Ekim 2026): eski dosyanın faksı yeni dosyada gelir ve oyuncu eski dosyaya dönebilir; sonucu henüz bilinmeyen bir dosyanın kişisini yeni dosyada geri getirmek mümkün değil.
