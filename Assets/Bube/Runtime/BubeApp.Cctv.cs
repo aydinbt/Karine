@@ -21,6 +21,7 @@ public sealed partial class BubeApp {
    cctvPlayer.Stop();Destroy(cctvPlayer);cctvPlayer=null;
   }
   if(cctvTexture!=null){cctvTexture.Release();Destroy(cctvTexture);cctvTexture=null;}
+  cctvFrameTask?.Pause();cctvFrameTask=null;cctvFrames=null;cctvFrameImage=null;cctvFrameRec=null;
   if(cctvViewer!=null){cctvViewer.RemoveFromHierarchy();cctvViewer=null;}
   cctvVideoStatus=null;
   cctvPlaybackButton=cctvStepButton=null;
@@ -52,6 +53,7 @@ public sealed partial class BubeApp {
   if(cctvStepButton!=null)cctvStepButton.SetEnabled(false);
  }
  void ReplayCctvVideo() {
+  if(cctvFrames!=null){cctvFrameIndex=-1;cctvReachedEnd=false;ShowCctvFrame(0);PlayCctvFrames(true);return;}
   if(cctvPlayer==null)return;
   cctvReachedEnd=false;
   if(cctvVideoStatus!=null){cctvVideoStatus.text=T("cctv.videoLoading");cctvVideoStatus.style.display=DisplayStyle.Flex;}
@@ -60,8 +62,9 @@ public sealed partial class BubeApp {
   cctvPlayer.Stop();cctvPlayer.Prepare();
  }
  void OpenCctvVideo(Node node,CctvEvent record,VisualElement content) {
-  if(string.IsNullOrEmpty(record.videoPath))return;
+  if(!record.HasFootage)return;
   StopCctvVideo();
+  bool frames=record.framePaths!=null && record.framePaths.Length>0;
   var viewer=new VisualElement();cctvViewer=viewer;
   viewer.style.position=Position.Absolute;
   viewer.style.left=0;viewer.style.right=0;viewer.style.top=0;viewer.style.bottom=0;
@@ -73,13 +76,12 @@ public sealed partial class BubeApp {
   // paletinden gelmez; kamera görüntüsü gibi görünmeleri gerekir.
   viewer.style.backgroundColor=new Color(.035f,.065f,.085f);
   content.parent.Add(viewer);
-  cctvTexture=new RenderTexture(1280,720,0,RenderTextureFormat.ARGB32);
-  cctvTexture.Create();
+  if(!frames){cctvTexture=new RenderTexture(1280,720,0,RenderTextureFormat.ARGB32);cctvTexture.Create();}
   var videoFrame=new VisualElement();
   videoFrame.style.width=Length.Percent(100);videoFrame.style.flexGrow=1;
   videoFrame.style.minHeight=0;videoFrame.style.marginTop=0;videoFrame.style.marginBottom=5;
   viewer.Add(videoFrame);
-  var image=new Image {image=cctvTexture,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+  var image=new Image {image=frames?null:cctvTexture,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
   image.style.position=Position.Absolute;
   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
   videoFrame.Add(image);
@@ -168,12 +170,14 @@ public sealed partial class BubeApp {
   caption.style.flexGrow=1;caption.style.minWidth=0;
   caption.style.marginBottom=0;caption.style.marginRight=8;
   cctvPlaybackButton=new Button(KarineUI.Sounded(()=>{
+   if(cctvFrames!=null){ToggleCctvFrames();return;}
    if(cctvPlayer==null || !cctvPlayer.isPrepared)return;
    if(cctvReachedEnd){ReplayCctvVideo();return;}
    if(cctvPlayer.isPlaying){cctvPlayer.Pause();cctvPlaybackButton.text=T("cctv.videoPlay");}
    else {cctvPlayer.Play();cctvPlaybackButton.text=T("cctv.videoPause");}
   })){text=T("cctv.videoPlay")};
   cctvStepButton=new Button(KarineUI.Sounded(()=>{
+   if(cctvFrames!=null){StepCctvFrame();return;}
    if(cctvPlayer==null || !cctvPlayer.isPrepared || cctvReachedEnd)return;
    if(cctvPlayer.isPlaying)cctvPlayer.Pause();
    cctvPlaybackButton.text=T("cctv.videoPlay");
@@ -198,6 +202,7 @@ public sealed partial class BubeApp {
   cctvVideoStatus.style.unityTextAlign=TextAnchor.MiddleCenter;
   cctvVideoStatus.style.backgroundColor=new Color(.02f,.04f,.05f,.78f);
   cctvVideoStatus.style.marginBottom=0;
+  if(frames){StartCctvFrames(record,image,recText);return;}
   cctvPlayer=gameObject.AddComponent<VideoPlayer>();
   cctvPlayer.playOnAwake=false;cctvPlayer.isLooping=false;
   cctvPlayer.renderMode=VideoRenderMode.RenderTexture;
@@ -249,7 +254,7 @@ public sealed partial class BubeApp {
   }
   Action<int> addFootageButton=index=>{
    var record=records[index];
-   if(string.IsNullOrEmpty(record.videoPath))return;
+   if(!record.HasFootage)return;
    var watch=KarineUI.Button_(actions[index],"▶ "+T("cctv.watch"),()=>OpenCctvVideo(node,record,content));
    watch.tooltip=T("cctv.watch");
    watch.style.minWidth=88;watch.style.height=MinimumTouchTarget;

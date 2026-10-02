@@ -27,6 +27,10 @@ public static class KarineTheme {
   public const float BreathSeconds=4.2f, BreathWidth=.004f, BreathHeight=.008f;
   // Yanıttan önceki duraksama: her yanıtta aynı süre.
   public const int AnswerPauseMs=380;
+  // Kare dizisinden CCTV: kare başına süre (kayıt kendi `frameMs`ini verebilir),
+  // kare değişimindeki titreme.
+  public const int CctvFrameMs=650;
+  public const float CctvFlickerSeconds=.12f, CctvJitter=3f;
  }
 
  public static class Settings {

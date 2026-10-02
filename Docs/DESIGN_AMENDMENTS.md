@@ -828,3 +828,7 @@ Kullanıcı göz kırpmayı istemedi; karakter başına ek görsel de gerekmiyor
 - **Duraksama:** her yanıt 380 ms sonra yazılmaya başlar.
 
 İkisi de kişiye, yanıta, öne sürülen kayda ya da kişinin vakadaki rolüne göre **değişmez**. Değişseydi oyuncu onu gizli bir durumun belirtisi diye okurdu; davranış bilgisini yalnız yazılı davranış satırları taşır.
+
+## 2 Ekim 2026 — CCTV kare dizisiyle oynatılır
+
+Video üretilemediği için CCTV kaydı durağan kareler dizisiyle gösterilir. Kayıt `framePaths` (Resources yolları), isteğe bağlı `frameTimes` (her karenin damgası) ve `frameMs` (varsayılan 650 ms) alır. Oyun kareleri güvenlik kamerası hızında oynatır; her kare değişiminde aynı kısa titreme olur, hiçbir kare öne çıkarılmaz. Oynat/duraklat/kare ilerlet/yeniden oynat aynıdır. Video desteği silinmedi: kare yoksa video oynar. Dosya #001'in sinyal boşluğu için kare de verilemez.

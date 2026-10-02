@@ -411,3 +411,7 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - Sayılar `KarineTheme.Effects`. `KarineMotion.Reduced` hepsini, `instantText` basımı atlar.
 - Test notu: grafiksiz PlayMode'da açılış akışı video hazırlanamayınca **gecikmeli** `Desk()` çağırır ve kökü yeniden kurar. Kök üstüne öğe koyan testler kurulumda ~2 sn bekler (`EffectsTests.Setup`).
 
+
+## CCTV kare dizisi (2 Ekim 2026)
+
+`CctvEvent.framePaths/frameTimes/frameMs`, `HasFootage`. Oynatıcı `BubeApp.CctvFrames.cs`: `StartCctvFrames`, `ShowCctvFrame`, `PlayCctvFrames` (UI Toolkit zamanlayıcısı), `StepCctvFrame`; kamera katmanı `OpenCctvVideo` ile ortak, `StopCctvVideo` kare durumunu da temizler. Doğrulayıcı her karenin `Resources.Load<Texture2D>` ile bulunduğunu ve damga sayısının kare sayısını tuttuğunu denetler. Ayar: `KarineTheme.Effects.CctvFrameMs/CctvFlickerSeconds/CctvJitter`.

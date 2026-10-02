@@ -42,6 +42,7 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [x] **Dosyanın masaya bırakılışı sinematik video oldu** (`case001_arrival.mp4`); filigran "Geç" düğmesiyle örtülüyor, filigran yeri veriden geliyor. Sinematik siyaha kapanıyor, masa siyahtan açılıyor; **Play Mode'da gözlendi**.
 - [ ] **Terminal ekranındaki arma yaması görünüyor.** Armanın yeri tek düz renkle dolduruldu; ekranın kendi gradyanından ayrıldığı için soluk bir dikdörtgen leke kalıyor ve CCTV kutusu sağa kaymış duruyor. Kullanıcının gönderdiği düzende kutu ekranda **ortalanmış**. Ya kaynak PNG alınacak ya da depodaki görselde kutu ortalanıp boşluk gradyanla doldurulacak. Kullanıcı kararı: **sonraya bırakıldı**.
 - [x] **Sinematik video yenilendi** (2,83 sn): terminalde yalnız "CCTV ARŞİVİ", arma ve kurum adı yok, karartma videonun içinde. Filigran "Geç" düğmesiyle örtülüyor. **Play Mode'da gözlendi.**
+- [~] **CCTV kare dizisiyle oynatılır** (2 Ekim 2026): kayıt `framePaths`/`frameTimes`/`frameMs` alır, kareler kamera hızında oynar, kare değişiminde tek tip titreme; video yedek olarak kalır. Testler geçti (111+23); kare görseli henüz yok, Play Mode’da görülmedi.
 
 ## Her vaka için değişmeyen kabul kuralı
 

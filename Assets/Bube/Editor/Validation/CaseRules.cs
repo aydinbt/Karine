@@ -264,9 +264,19 @@ public static class CaseRules {
    "CCTV olay kimlikleri eksik ya da yinelenmiş: " + node.id);
   report.Forbid(events.Any(e => e.delayMs < 0), "Negatif CCTV gösterim gecikmesi: " + node.id);
   foreach (var record in events)
+  {
    if (!string.IsNullOrEmpty(record.videoPath))
     report.Require(File.Exists(Path.Combine(Application.streamingAssetsPath, record.videoPath)),
      "CCTV görüntüsü yok: " + record.videoPath);
+   // Kare dizisi: her kare Resources altında bir görsel olmalı; damga verildiyse kare sayısıyla eşleşmeli.
+   foreach (var frame in record.framePaths ?? new string[0])
+    report.Require(!string.IsNullOrEmpty(frame) && Resources.Load<Texture2D>(frame) != null,
+     "CCTV karesi yok: " + frame + " (" + node.id + "#" + record.id + ")");
+   if (record.frameTimes != null && record.frameTimes.Length > 0)
+    report.Require(record.framePaths != null && record.frameTimes.Length == record.framePaths.Length,
+     "CCTV kare damgası sayısı kare sayısını tutmuyor: " + node.id + "#" + record.id);
+   report.Forbid(record.frameMs < 0, "Negatif CCTV kare süresi: " + node.id + "#" + record.id);
+  }
   foreach (var key in new[] { node.cctvSourceKey, node.cctvPeriodKey }
     .Concat(new[] { node.cctvOverlayKey }.Where(k => !string.IsNullOrEmpty(k)))
     .Concat(events.SelectMany(e => new[] { e.textKey, e.overlayTimeKey, e.glitchKey, e.signalKey })

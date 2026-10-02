@@ -14,7 +14,7 @@ public static class Case001Rules {
 
   // Sinyal boşluğunun görüntüsü olmamalı — tasarım kanonu.
   foreach (var node in data.nodes.Where(n => n.kind == "cctv"))
-   report.Forbid((node.cctvEvents ?? new CctvEvent[0]).Any(e => (e.id == "gap" || e.id == "lost") && !string.IsNullOrEmpty(e.videoPath)),
+   report.Forbid((node.cctvEvents ?? new CctvEvent[0]).Any(e => (e.id == "gap" || e.id == "lost") && e.HasFootage),
     "Dosya #001 sinyal boşluğunun görüntüsü olmamalı.");
 
   var pace = new Investigation(data);
