@@ -900,3 +900,7 @@ Masa üstü tablet yerine tam ekran panel: üstte logo + "Kariyer / İstatistikl
 ## 2 Ekim 2026 — Dosya #002 CCTV: Deniz ve Emre sekansları kapandı
 
 Kamera 04'ün kare dizileri kişi sekansı olarak üretiliyor. **Deniz** (`park`, `passenger_out`, altışar kare) ve **Emre** (`second_in` 5, `contact` 4, `second_out` 5 kare; 500 ms) kullanıcı tarafından tamamlandı sayıldı. Emre kareleri yeni sahne çiziminde; Deniz kareleriyle sahne farkı ve son iki anda görüntü bozulması bilinçli olarak kabul edildi. Kalan: Kerem (`third_in`, `third_out`), `dispute`, `patrol` — şimdilik yalnız metin. Durum `[~]`, Play Mode'da izlenmedi.
+
+## Dosya #002 CCTV akışı kapandı (2 Ekim 2026)
+
+Kerem (`third_in` 5 kare, `third_out` 3 kare) ve devriye (`patrol` 3 kare) eklendi. Ambulans/görevli karesi "POLİS" yazısı taşıdığı için alınmadı; yerine yazısız, armasız devriye aracı karesi kondu. `dispute` bilerek yalnız metin kalır. Kareler Play Mode'da henüz görülmedi.
