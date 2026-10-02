@@ -1,11 +1,11 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 1 Ekim 2026 (masa yeni referansa göre yeniden yerleştirildi)
+**Son durum:** 2 Ekim 2026 (Dosya #003 yazıldı, Dosya #002 CCTV kareleri kapandı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
 **Dosya #001 oynanış betiği:** `Docs/PLAYTEST_001.md`  
-**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 126 test: 111 EditMode + 15 PlayMode)
+**Testleri koşmak:** `Tools/run-tests.sh` (EditMode + PlayMode, 134 test: 111 EditMode + 23 PlayMode)
 **Kanonik oyun bağlamı:** `Docs/MASTER_GAME_CONTEXT.md` ve `Docs/DESIGN_AMENDMENTS.md`  
 **Mevcut teknik gerçek:** `Docs/Architecture.md`  
 **Görsel kararlar:** `Docs/VISUAL_DIRECTION.md`  
@@ -353,3 +353,22 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 ## 1 Ekim 2026 — Efektler (3. kademe, göz kırpmasız)
 
 [~] Sorguda portre nefes alır (4,2 sn döngü, binde 4–8 genişleme, göğüs hizasından); yanıttan önce 380 ms duraksama. İkisi de **herkeste, her yanıtta aynı**. Göz kırpma kullanıcı kararıyla yapılmadı. Hareketi azalt / anında metin açıkken ikisi de kapalı. PlayMode'da nefesin sınırı ölçüldü; **görüntü gözlenmedi**.
+
+## 2 Ekim 2026 — Vakalar ve Kariyer yeniden tasarımı
+
+- [~] Vakalar: ilerleme kutusunda harita simgesi, ülke kartında kilit, damgalı ülke şeridi, numaralı vaka kartları, adım noktaları. Unity'de görülmedi.
+- [~] Kariyer / İstatistikler: tam ekran panel; profil kartı, Genel İstatistikler / Vaka Geçmişi / Dosya Arşivi sekmeleri, ilerleme, dört sayaç, halka grafik, ilk üç dünya. Uydurma veri yok. Unity'de görülmedi.
+
+## 2 Ekim 2026 — Dosya #002 CCTV kareleri
+
+- [~] Kamera 04 kare dizileri: Deniz (`park` 6, `passenger_out` 6), Emre (`second_in` 5, `contact` 4, `second_out` 5), Kerem (`third_in` 5, `third_out` 3), devriye (`patrol` 3). `dispute` bilerek yalnız metin. "POLİS" yazılı kare kural gereği alınmadı. Play Mode'da kare akışı görülmedi.
+
+## 2 Ekim 2026 — Dosya #003 "Son Teslimat"
+
+- [~] Tasarım: `Docs/CASE003_DESIGN.md` — şüpheli ölüm, ölüm kaza; olay yerini değiştiren kişi ölüme sebep olmadı. Yanlış yollar ve çelişki anları planlandı.
+- [~] Veri ve metin: `case003.json` (12 düğüm), `tr.case003.json` (190 metin). Doğrulayıcının otomatik gezintisi vakayı baştan sona açıyor ve raporu gönderiyor; insan eliyle oynanmadı.
+- [~] Rapor başlıkları vakadan: `suspectLabelKey`, `methodLabelKey` (sihirbaz, özet, faks, arşiv). Doğrulayıcı başlık metnini arıyor.
+- [~] Zincir: Dosya #002 → #003, Türkiye haritasında üçüncü yuva bağlandı.
+- [~] Portreler: Ozan, Seda, Barış (`Characters/`). Oyunda boyut/kırpma görülmedi.
+- [ ] Dosya #003 CCTV kareleri (altı an metin dökümü).
+- [ ] Dosya #001 → #002 → #003 baştan sona Play Mode oynanışı (kullanıcı).

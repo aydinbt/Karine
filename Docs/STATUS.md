@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 1 Ekim 2026 (yeni masa referansı: geniş ülke penceresi, ayrı nesneler, sade üst şerit)
+**Son güncelleme:** 2 Ekim 2026 (Dosya #003 yazıldı; Dosya #002 CCTV kareleri kapandı; Vakalar ve Kariyer yeniden tasarlandı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**2 Ekim:** Üç vaka artık zincirde: #001 → #002 → #003. **Dosya #003 "Son Teslimat"** (şüpheli ölüm; ölüm kaza, olay yerini değiştiren çalışan ölüme sebep olmadı) veri, metin, portreler ve vakaya özel rapor başlıklarıyla yazıldı; doğrulayıcı vakayı otomatik oynayıp çözüyor. Dosya #002'nin kamera anları (dispute hariç) kare dizisine kavuştu. Vakalar ve Kariyer ekranları referansa göre yeniden kuruldu. 111 EditMode + 23 PlayMode geçti. **Hiçbiri Unity'de gözle görülmedi**; sıradaki darboğaz üç vakanın kullanıcı tarafından baştan sona oynanması. Açık içerik ihlali sürüyor: `DeskReference.png` içinde kurum adı ve arma.
 
 **1 Ekim masa sunumu:** Yeni referansa göre geniş orta pencere, solda lamba ve evrak tepsisi, ortada telefon/beyaz dosya, sağda sade CCTV monitörü ve delil yığını yerleştirildi. Üst şeritte dosya/konum ve altı menü eylemi bulunur; logo ana menüye döndürür. 111 EditMode + 13 PlayMode geçti; grafik etkin Unity çıktısı incelendi. Fiziksel telefon kabulü açık.
 
