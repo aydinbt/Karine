@@ -28,7 +28,7 @@ public sealed partial class BubeApp {
   main.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.94f);
   main.style.paddingLeft=KarineTheme.SpaceMd;main.style.paddingRight=KarineTheme.SpaceMd;main.style.paddingTop=KarineTheme.SpaceMd;
   KarineUI.Border(main,KarineTheme.BorderWidth,KarineTheme.Panel2);
-  var heading=KarineUI.Row(main);heading.style.flexShrink=0;heading.style.height=KarineTheme.CaseBrowser.HeadingHeight;var words=new VisualElement();words.style.flexGrow=1;heading.Add(words);
+  var heading=KarineUI.Row(main);heading.style.flexShrink=0;heading.style.minHeight=KarineTheme.CaseBrowser.HeadingHeight;heading.style.alignItems=Align.FlexStart;var words=new VisualElement();words.style.flexGrow=1;heading.Add(words);
   KarineUI.Title(words,T("world.page.title"),KarineTheme.CaseBrowser.TitleSize).style.marginBottom=0;
   KarineUI.Body_(words,T("world.browser.subtitle"),KarineTheme.CaseBrowser.SmallSize);
   int total=atlas.countries.Sum(c=>c.slots.Count),completed=atlas.countries.Sum(c=>Worlds.CompletedIn(c,closed));
@@ -47,7 +47,8 @@ public sealed partial class BubeApp {
   }
   countries.schedule.Execute(()=>countries.scrollOffset=countryStripOffset);
   var stripRow=KarineUI.Row(main);stripRow.style.flexShrink=0;stripRow.style.alignItems=Align.Center;main.Insert(main.IndexOf(countries),stripRow);
-  countries.style.flexGrow=1;stripRow.Add(countries);
+  // minWidth=0 olmadan şerit içeriği kadar genişleyip kutudan taşıyordu; ileri düğmesi de dışarıda kalıyordu.
+  countries.style.flexGrow=1;countries.style.flexShrink=1;countries.style.minWidth=0;countries.style.overflow=Overflow.Hidden;stripRow.Add(countries);
   KarineUI.IconButton(stripRow,"nav_next",()=>countries.scrollOffset=new Vector2(countries.scrollOffset.x+KarineTheme.CaseBrowser.CountryWidth+KarineTheme.SpaceSm,0),T("world.browser.next"));
   var current=atlas.countries[worldPick];
   var board=KarineUI.Panel(main,true);board.name="CaseBoard";
