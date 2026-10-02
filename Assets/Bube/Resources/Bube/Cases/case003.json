@@ -247,7 +247,14 @@
      "overlayTimeKey": "case003.time.seda_out",
      "aboutPersonIds": [
       "seda"
-     ]
+     ],
+     "framePaths": [
+      "Bube/Cctv/case003_seda_out/01"
+     ],
+     "frameTimes": [
+      "22.31.00"
+     ],
+     "frameMs": 500
     },
     {
      "textKey": "case003.cctv.event.baris_in",
