@@ -181,7 +181,7 @@ public sealed partial class BubeApp {
   if(selected.offer!=null) {
    Text(paperBody,CaseText("offer.subtitle","offer.subtitle"),dark,18);
    Text(paperBody,CaseText("offer.summary","offer.summary"),dark,18);
-   Button(paperBody,T("offer.accept"),()=>{ if(game.AcceptCase()){Save();Desk();} },true);
+   Button(paperBody,T("offer.accept"),()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>Desk());} },true);
   } else if(selected.assignment!=null) {
    Text(paperBody,T("next.assignment.sender"),dark,16);
    Text(paperBody,T("next.assignment.body"),dark,18);

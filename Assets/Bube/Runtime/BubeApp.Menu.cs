@@ -23,7 +23,7 @@ public sealed partial class BubeApp {
   showingInterviewList=false;
   root.Clear();
   root.style.backgroundColor=Color.black;
-  MenuBackdrop();KarineUI.LiveMenu(root);
+  MenuBackdrop();KarineUI.LiveMenu(root);MenuReturnAd();
   var left=new VisualElement();left.style.position=Position.Absolute;
   left.style.left=Length.Percent(6);left.style.top=Length.Percent(7);
   left.style.width=KarineTheme.MainMenu.LogoWidth;

@@ -18,6 +18,7 @@ public sealed partial class BubeApp {
  readonly HashSet<string> printed=new HashSet<string>();
 
  void PolishTick() {
+  AdGateway.Seasoned=game.Career.reviewHistory.Count>0;
   KarineUI.TouchFeel(root);
   audio?.Duck(root.Q("DossierPaper")!=null);
   Reach();
@@ -38,9 +39,9 @@ public sealed partial class BubeApp {
  }
 
  // Ayarlar: renk körlüğü düzeltmesi ve kaydırıcıyla yazı boyu.
- void LoadPolishDraft()=>draftColor=CrtPass.ColorFilter;
- void ResetPolishDraft()=>draftColor=0;
- void SavePolishDraft()=>PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);
+ void LoadPolishDraft(){draftColor=CrtPass.ColorFilter;LoadLampDraft();}
+ void ResetPolishDraft(){draftColor=0;draftLamp=0;}
+ void SavePolishDraft(){PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);SaveLampDraft();}
  void ColorOptions(VisualElement scroll) {
   var row=KarineUI.Row(scroll);row.style.alignItems=Align.Stretch;row.style.flexWrap=Wrap.Wrap;
   for(int i=0;i<4;i++){int v=i;var o=KarineUI.SettingsOption(row,T("settings.color."+v),T("settings.color.hint"),draftColor==v,()=>{draftColor=v;RenderSettings();});if(v<3)o.style.marginRight=KarineTheme.SpaceMd;}
@@ -56,6 +57,8 @@ public sealed partial class BubeApp {
  // Masa: lamba, kablo, şehir pencereleri, takvim (yeri hatırlanır).
  void DeskPolish(VisualElement stage) {
   KarineUI.LampSwitch(stage);KarineUI.PhoneCord(stage);KarineUI.CityWindows(stage);
+  var light=stage.Q<Image>("OfficeLight");
+  if(light!=null && LampTint>0)light.tintColor=KarineTheme.Alpha(KarineTheme.Scene.LampTints[LampTint],light.tintColor.a);
   string tearKey="karine.calendar."+game.Data.id;bool tear=game.State.caseAccepted && PlayerPrefs.GetInt(tearKey,0)==0;
   if(tear)PlayerPrefs.SetInt(tearKey,1);
   KarineUI.Calendar(stage,T(game.Data.titleKey).Split(new[]{'—'},2)[0].Trim(),tear);

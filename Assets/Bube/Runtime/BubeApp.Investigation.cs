@@ -51,6 +51,7 @@ public sealed partial class BubeApp {
    if(game.RequestInterview(selected.id)){audio?.Play("ui_dial");Save();InterviewRequests(false);}
   });
   else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
+  else if(game.Pending(selected))SkipWait(detail,game.State.interviewRequests.First(r=>r.nodeId==selected.id),()=>InterviewRequests(false));
  }
  string InterviewStatusKey(Node node) =>
   game.Closed(node)?"interview.status.gone":game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?

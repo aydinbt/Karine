@@ -471,3 +471,10 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - Veri alanları: `Node.smokes`, `CaseData.openingPlaceKey`, `epilogueImage`, `epilogueKey`.
 - PlayerPrefs: `karine.lampOff`, `karine.calendar.<case>`, `karine.deskPos.<ad>`, `karine.colorFilter`, `karine.credits`.
 - Laboratuvar çıktıları: `persistentDataPath/fxrec/<zaman>/NNN.png`, `persistentDataPath/perf_<zaman>.csv`.
+
+## Reklam yerleri (2 Ekim 2026)
+
+- `AdPlacement`: `CaseStart`, `MenuReturn`, `RewardedCosmetic`, `RewardedSkipWait` eklendi; `AdMoment`: `CaseAccepted`, `Waiting`.
+- `AdGateway`: `InterstitialGapSeconds` (240), `MinSkipSeconds` (60), `Now` (testte değiştirilebilir saat), `Seasoned` (her karede `reviewHistory.Count>0`), `MaySkipWait`, `ResetInterstitialClock`. Araya giren reklam `Request` içinde gösterilince saat kaydedilir.
+- Bağlantı: `BubeApp.Ads.cs` (`MenuReturnAd`, `LampOptions`, `SkipWait`). Teklif kabulü `Desk.cs`, menü `Menu.cs`, bekleme atlama görüşme talepleri ekranında.
+- PlayerPrefs: `karine.lamp.tint`, `karine.lamp.unlocked.<n>`. Renkler `KarineTheme.Scene.LampTints`.

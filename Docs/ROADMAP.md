@@ -445,3 +445,15 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [ ] Gerçek cihazda ekran görüntüsü testleri.
 - [ ] Büyük görsellerin sonradan indirilmesi (Play Asset Delivery / Addressables kararı).
 - [ ] iOS için sistem "hareketi azalt" okuması (yerel eklenti gerekir).
+
+## 2 Ekim 2026 — Reklam yerleri genişletildi
+
+121 EditMode testi geçti (4 yeni reklam testi). Ağ hâlâ bağlı değil; hiçbir reklam gerçekten gösterilmiyor.
+
+- [~] Vaka başı araya giren reklam (teklif kabul edildikten sonra, soruşturmadan önce).
+- [~] Ana menüye dönüşte araya giren reklam (ilk açılışta değil).
+- [~] Ortak sıklık sınırı: araya giren tüm reklamlar arasında en az 4 dakika; vaka başı ve menü reklamı yalnız ilk vakasını kapatmış oyuncuya.
+- [~] Ödüllü görünüm: masa lambası rengi (4 renk, 3'ü kilitli), Ayarlar > Oynanış.
+- [~] Ödüllü bekleme atlama: yalnız kalan süre 60 saniye ve üstüyse. **Bugünkü bekleyişler 4–10 saniye; düğme görünmez.**
+- [ ] LevelPlay kurulumu (Unity Gaming Services oyun kimliği kullanıcıda).
+- [ ] Gizlilik politikası, Play "Data safety", yaş derecesi.

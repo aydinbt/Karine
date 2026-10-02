@@ -19,13 +19,21 @@ public sealed class MonetizationTests {
   PlayerPrefs.DeleteKey(AdGateway.NoAdsKey);
   AdGateway.Load();
   AdGateway.Provider = new NoAdProvider();
+  AdGateway.Seasoned = false;
+  AdGateway.ResetInterstitialClock();
+  AdGateway.Now = () => clock;
+  clock = 1000f;
  }
+ float clock;
 
  [TearDown] public void TearDown() {
   PlayerPrefs.DeleteKey(AdGateway.ConsentKey);
   PlayerPrefs.DeleteKey(AdGateway.NoAdsKey);
   AdGateway.Load();
   AdGateway.Provider = new NoAdProvider();
+  AdGateway.Seasoned = false;
+  AdGateway.ResetInterstitialClock();
+  AdGateway.Now = () => Time.realtimeSinceStartup;
  }
 
  // Onay alınmadan hiçbir reklam gösterilmez. Varsayılan "sorulmadı"dır ve
@@ -117,6 +125,61 @@ public sealed class MonetizationTests {
   var after = Coverage.Of(game);
   Assert.AreEqual(1, after.SourcesOpen, "Açılan kaynak sayılmalı.");
   Assert.GreaterOrEqual(after.SourcesAvailable, after.SourcesOpen, "Açılabilir sayısı açılandan küçük olamaz.");
+ }
+
+ // Vaka başı ve menüye dönüş reklamı yeni oyuncuya gösterilmez; yalnız kendi anında.
+ [Test]
+ public void NewInterstitials_OnlyForSeasonedPlayers_AndOnlyAtTheirMoment() {
+  AdGateway.SetConsent(AdConsent.Granted);
+  Assert.IsFalse(AdGateway.MayShow(AdPlacement.CaseStart, AdMoment.CaseAccepted), "İlk vakasını kapatmamış oyuncuya vaka başı reklamı yok.");
+  Assert.IsFalse(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu), "İlk vakasını kapatmamış oyuncuya menü reklamı yok.");
+  AdGateway.Seasoned = true;
+  Assert.IsTrue(AdGateway.MayShow(AdPlacement.CaseStart, AdMoment.CaseAccepted));
+  Assert.IsTrue(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu));
+  foreach (var moment in new[] { AdMoment.Investigation, AdMoment.Interview, AdMoment.Cctv, AdMoment.Cinematic, AdMoment.Waiting })
+   foreach (var placement in new[] { AdPlacement.CaseStart, AdPlacement.MenuReturn, AdPlacement.RewardedCosmetic })
+    Assert.IsFalse(AdGateway.MayShow(placement, moment), placement + " / " + moment + " kapalı olmalı.");
+ }
+
+ // Araya giren reklamlar arasında en az dört dakika; ödüllü reklam sınırdan etkilenmez.
+ [Test]
+ public void Interstitials_ShareAFrequencyCap() {
+  AdGateway.SetConsent(AdConsent.Granted);
+  AdGateway.Seasoned = true;
+  var provider = new AlwaysReady();
+  AdGateway.Provider = provider;
+  AdGateway.Request(AdPlacement.CaseInterval, AdMoment.CaseClosed, null);
+  Assert.AreEqual(1, provider.Shown);
+  clock += 60f;
+  Assert.IsFalse(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu), "Bir dakika sonra yeni araya giren reklam olmamalı.");
+  Assert.IsFalse(AdGateway.MayShow(AdPlacement.CaseStart, AdMoment.CaseAccepted));
+  Assert.IsTrue(AdGateway.MayShow(AdPlacement.RewardedCosmetic, AdMoment.Menu), "Ödüllü reklam sınırdan etkilenmemeli.");
+  clock += AdGateway.InterstitialGapSeconds;
+  Assert.IsTrue(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu), "Süre dolunca yeniden açılmalı.");
+ }
+
+ // Kısa bekleyişe reklam teklif edilmez.
+ [Test]
+ public void SkipWait_OnlyForLongWaits() {
+  AdGateway.SetConsent(AdConsent.Granted);
+  Assert.IsFalse(AdGateway.MaySkipWait(10), "10 saniyelik bekleyiş için reklam yok.");
+  Assert.IsTrue(AdGateway.MaySkipWait(AdGateway.MinSkipSeconds));
+  AdGateway.SetConsent(AdConsent.Denied);
+  Assert.IsFalse(AdGateway.MaySkipWait(600), "Onay yoksa teklif yok.");
+  AdGateway.SetAdsRemoved(true);
+  Assert.IsTrue(AdGateway.MaySkipWait(600), "Reklamsız oyuncu atlamayı reklamsız alır.");
+ }
+
+ // Reklamsız oyuncu görünüm ödülünü de reklamsız alır; araya giren yenileri görmez.
+ [Test]
+ public void RemovingAds_CoversNewPlacements() {
+  AdGateway.SetConsent(AdConsent.Granted);
+  AdGateway.Seasoned = true;
+  AdGateway.SetAdsRemoved(true);
+  Assert.IsTrue(AdGateway.RewardEarnedWithoutAd(AdPlacement.RewardedCosmetic));
+  Assert.IsTrue(AdGateway.RewardEarnedWithoutAd(AdPlacement.RewardedSkipWait));
+  Assert.IsFalse(AdGateway.RewardEarnedWithoutAd(AdPlacement.CaseStart));
+  Assert.IsFalse(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu));
  }
 }
 }

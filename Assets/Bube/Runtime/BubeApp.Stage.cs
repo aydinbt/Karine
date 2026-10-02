@@ -112,6 +112,7 @@ public sealed partial class BubeApp {
  void HapticOptions(VisualElement scroll) {
   var row=KarineUI.Row(scroll);row.style.alignItems=Align.Stretch;
   for(int i=0;i<3;i++){int v=i;var o=KarineUI.SettingsOption(row,T("settings.hapticStrength."+v),T("settings.hapticStrength.hint"),draftStrength==v,()=>{draftStrength=v;RenderSettings();});if(v<2)o.style.marginRight=KarineTheme.SpaceMd;}
+  LampOptions(scroll);
   if(DevMeterAllowed)Button(scroll,T("settings.devLab"),DevLab);
  }
 

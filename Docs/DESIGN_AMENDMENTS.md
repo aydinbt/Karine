@@ -963,3 +963,13 @@ Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120
 - Okurken sesin kısılması belgenin açık olmasına bağlıdır, içeriğine değil.
 - Masaya lamba düğmesi, telefon kablosu, şehir ışıkları ve takvim eklendi; takvim sürüklenebilir. Masa yerleşimi kullanıcınındır; istenirse kaldırılır.
 - Yazı boyu üç kademe yerine %90–150 arası kaydırıcı oldu.
+
+## 2 Ekim 2026 — Reklam yerleri
+
+**Kullanıcı:** "reklamlardan gelir ettiğimizi varsayarsak reklamları çoğaltmak gerekiyor" → "önerilerini yap".
+
+- Yeni araya giren reklam yerleri: **vaka başı** (teklif kabulünden sonra) ve **menüye dönüş**. Soruşturma, sorgu, CCTV ve sinematik yine kapalı.
+- Tüm araya giren reklamlar tek sıklık sınırını paylaşır (240 s). Vaka başı ve menü reklamı ilk vakasını kapatmamış oyuncuya gösterilmez: ilk izlenim reklamla bozulmaz.
+- Ödüllü görünüm yalnız masaya dokunur (lamba rengi); oynanışa, ipucuna, kaynağa hiçbir etkisi yoktur.
+- Ödüllü bekleme atlama yalnız 60 saniye ve üstü bekleyişte teklif edilir. Bugünkü bekleyişler kısa olduğundan görünmez. Bekleyişleri uzatmak bir tasarım kararıdır (zamanla kısıtlanan ilerleme) ve kullanıcıya sorulmadan yapılmaz.
+- Başta önerilen "faksı hemen al" düşürüldü: faks zaten 5–10 saniyede geliyor; atlatılacak bir bekleyiş yok.

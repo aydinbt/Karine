@@ -76,6 +76,8 @@ public static class KarineTheme {
   public const float LampOffAlpha=.38f, CordSeconds=1.6f, TearSeconds=.7f;
   public const int WindowMinMs=4000, WindowMaxMs=11000, FlickerMinMs=18000, FlickerMaxMs=45000, BlinkMinMs=2600, BlinkMaxMs=6500;
   public const float SmokeSeconds=5f, PrintSeconds=1.3f, InsertSeconds=.8f, GhostSeconds=.25f, RepeatChance=.03f;
+  // Masa lambası renkleri (ödüllü görünüm): sıcak (varsayılan), yeşil banker, soğuk floresan, kehribar.
+  public static readonly Color[] LampTints={Hex("#E8DCC4"),Hex("#9FD6A8"),Hex("#BFD4E6"),Hex("#F0B060")};
   public const float ChapterSeconds=3f, EchoSeconds=6f, EpilogueSeconds=6f, CreditsSeconds=14f, ReachPercent=38f;
   public static readonly Rect Shelf=new Rect(1.5f,70,20,11);
 

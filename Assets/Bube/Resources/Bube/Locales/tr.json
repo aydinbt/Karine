@@ -3219,6 +3219,34 @@
   {
    "key": "caption.amb_steps_tile",
    "value": "koridorda adımlar"
+  },
+  {
+   "key": "settings.lamp.0",
+   "value": "Lamba: sıcak"
+  },
+  {
+   "key": "settings.lamp.1",
+   "value": "Lamba: yeşil banker"
+  },
+  {
+   "key": "settings.lamp.2",
+   "value": "Lamba: floresan"
+  },
+  {
+   "key": "settings.lamp.3",
+   "value": "Lamba: kehribar"
+  },
+  {
+   "key": "settings.lamp.hint",
+   "value": "Masadaki lambanın ışık rengi. Yalnız görünüm."
+  },
+  {
+   "key": "settings.lamp.locked",
+   "value": "Kısa bir reklam izleyerek aç. Yalnız görünüm."
+  },
+  {
+   "key": "ads.skipWait",
+   "value": "Reklam izle, beklemeden al"
   }
  ]
 }
