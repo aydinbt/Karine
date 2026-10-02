@@ -644,6 +644,127 @@ def interview_theme():
  out = array.array('d', twice[len(out):])
  return normalize(out, 0.32)
 
+# --- sahne katmanı sesleri (2 Ekim 2026, H–O) ---------------------------------
+
+def ui_ring():
+ # Hat bağlanıyor: iki kısa çalma tonu, sonra ahize kalkar.
+ out = buf(1.6)
+ for start in (0.0, 0.7):
+  sine(out, 425, 0.18, 0.4, start=start, env=lambda t: min(1, t * 20) * min(1, (1 - t) * 20))
+ shaped(0.1, 600, 1600, 2.0, 60, 0.4, start=1.35, out=out)
+ lowpass(out, 3400)
+ return normalize(fade(out, 0.003, 0.08), 0.30)
+
+def ui_rewind():
+ # Bant geri sarılır: yükselen vızıltı ve cızırtı.
+ out = buf(0.9)
+ phase = 0.0
+ x = noise(0.9, 610); bandpass(x, 2500, 1.0)
+ for i in range(len(out)):
+  t = i / len(out)
+  phase += 2 * math.pi * (300 + 900 * t) / RATE
+  out[i] = math.sin(phase) * 0.15 * (0.5 + 0.5 * t) + x[i] * 0.2
+ return normalize(fade(out, 0.02, 0.08), 0.28)
+
+def ui_key():
+ # Klavye tuşu: kuru plastik tık.
+ out = shaped(0.06, 620, 3000, 1.6, 90, 0.6)
+ sine(out, 210, 0.1, 0.03, env=decay(60))
+ return normalize(fade(out), 0.32)
+
+def ui_modem():
+ # Bağlantı: çevir sesi, iki tonlu el sıkışma, kısa hışırtı.
+ out = buf(1.8)
+ sine(out, 1200, 0.15, 0.35, env=lambda t: 1 - t * 0.2)
+ sine(out, 2100, 0.12, 0.35, start=0.4)
+ sine(out, 980, 0.10, 0.3, start=0.8)
+ x = noise(0.7, 630); bandpass(x, 1800, 0.8)
+ i0 = int(1.1 * RATE)
+ for i in range(len(x)):
+  if i0 + i < len(out): out[i0 + i] += x[i] * 0.25 * (1 - i / len(x))
+ lowpass(out, 3400)
+ return normalize(fade(out, 0.01, 0.1), 0.18)
+
+def amb_thunder():
+ # Uzak gök gürültüsü: alçak, yuvarlanan, yavaş sönen.
+ dur = 4.0
+ x = noise(dur, 640); lowpass(x, 90, poles=3)
+ out = buf(dur)
+ for i in range(len(x)):
+  t = i / RATE
+  out[i] = x[i] * (min(1, t * 4) * math.exp(-t * 0.9)) * (1 + 0.5 * math.sin(t * 7))
+ reverb(out, mix=0.4, room=0.86)
+ return normalize(fade(out, 0.05, 0.5), 0.22)
+
+def amb_phone():
+ # Başka bir masada çalan telefon: koridorun ardından, iki çalış.
+ out = buf(3.0)
+ for start in (0.0, 1.6):
+  for k in range(16):
+   sine(out, 900, 0.1, 0.03, start=start + k * 0.05)
+   sine(out, 1100, 0.08, 0.03, start=start + k * 0.05 + 0.025)
+ lowpass(out, 1200, poles=2)
+ reverb(out, mix=0.5, room=0.86)
+ return normalize(fade(out, 0.01, 0.3), 0.10)
+
+def amb_typing():
+ # Komşu odada yazı makinesi: düzensiz tuşlar, bir satır sonu zili.
+ rng = random.Random(650)
+ out = buf(3.2)
+ t = 0.1
+ while t < 2.7:
+  shaped(0.05, rng.randint(0, 9999), 1800, 1.4, 120, 0.4, start=t, out=out)
+  t += rng.uniform(0.08, 0.22)
+ sine(out, 2400, 0.08, 0.4, start=2.8, env=decay(8))
+ lowpass(out, 2000)
+ reverb(out, mix=0.45, room=0.82)
+ return normalize(fade(out, 0.01, 0.2), 0.10)
+
+def ui_envelope():
+ # Zarf: kâğıt kayar, kapak katlanır.
+ out = buf(0.8)
+ slide = noise(0.45, 660); bandpass(slide, 2200, 0.8)
+ for i in range(len(slide)):
+  out[i] += slide[i] * 0.3 * math.sin(math.pi * i / len(slide))
+ shaped(0.12, 661, 1200, 1.2, 50, 0.5, start=0.55, out=out)
+ return normalize(fade(out, 0.01, 0.06), 0.34)
+
+def ui_fax_warm():
+ # Faks ısınır: alçak uğultu, röle tıkı.
+ out = buf(1.0)
+ sine(out, 100, 0.2, 1.0, env=lambda t: min(1, t * 5) * (1 - t * 0.3))
+ sine(out, 200, 0.08, 1.0, env=lambda t: min(1, t * 5))
+ shaped(0.04, 670, 2500, 2.0, 150, 0.5, start=0.85, out=out)
+ return normalize(fade(out, 0.02, 0.05), 0.24)
+
+def ui_shelf():
+ # Klasör rafa kayar: karton sürtünmesi, tahtaya tok duruş.
+ out = buf(0.7)
+ slide = noise(0.5, 680); bandpass(slide, 1100, 1.0)
+ for i in range(len(slide)):
+  out[i] += slide[i] * 0.25 * math.sin(math.pi * i / len(slide))
+ shaped(0.2, 681, 350, 1.0, 30, 0.6, start=0.5, out=out)
+ reverb(out, mix=0.18, room=0.7)
+ return normalize(fade(out, 0.01, 0.08), 0.40)
+
+def ui_polaroid():
+ # Fotoğraf makineden çıkar: kısa motor vızıltısı.
+ out = buf(0.6)
+ sine(out, 180, 0.2, 0.45, env=lambda t: math.sin(math.pi * t))
+ x = noise(0.45, 690); bandpass(x, 1500, 2.0)
+ for i in range(len(x)):
+  out[i] += x[i] * 0.1 * math.sin(math.pi * i / len(x))
+ return normalize(fade(out, 0.01, 0.05), 0.26)
+
+def ui_rank():
+ # Rütbe: tok bir mühür ve tek, alçak bir çan.
+ out = shaped(0.3, 700, 600, 1.0, 25, 0.7)
+ sine(out, 70, 0.4, 0.2, env=decay(20))
+ sine(out, 523.25, 0.12, 1.4, start=0.12, env=decay(3))
+ sine(out, 784.0, 0.05, 1.2, start=0.12, env=decay(4))
+ reverb(out, mix=0.3, room=0.8)
+ return normalize(fade(out, 0.002, 0.2), 0.42)
+
 # --- üretim ------------------------------------------------------------------
 
 SOUNDS = [
@@ -675,6 +796,18 @@ SOUNDS = [
  ("amb_dog", amb_dog),
  ("amb_radio", amb_radio),
  ("interview_theme", interview_theme),
+ ("ui_ring", ui_ring),
+ ("ui_rewind", ui_rewind),
+ ("ui_key", ui_key),
+ ("ui_modem", ui_modem),
+ ("amb_thunder", amb_thunder),
+ ("amb_phone", amb_phone),
+ ("amb_typing", amb_typing),
+ ("ui_envelope", ui_envelope),
+ ("ui_fax_warm", ui_fax_warm),
+ ("ui_shelf", ui_shelf),
+ ("ui_polaroid", ui_polaroid),
+ ("ui_rank", ui_rank),
 ]
 
 if __name__ == "__main__":

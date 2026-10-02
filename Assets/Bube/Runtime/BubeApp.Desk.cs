@@ -415,7 +415,7 @@ public sealed partial class BubeApp {
    Text(closed,T("desk.closed"),Ink,20);
    Button(closed,T("result.summaryOpen"),CaseSummary,true);Button(closed,T("result.continue"),ContinueToNextCase);
   }
-  KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);
+  KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;
   if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
   if(game.State.interviewTurns.Count>game.State.seenInterviewTurns&&!game.State.closed) {
    var unread=KarineUI.Technical(stage,T("file.newTranscript"),KarineTheme.Office.SmallSize);
@@ -458,7 +458,7 @@ public sealed partial class BubeApp {
   header.style.alignItems=Align.Center;screen.Add(header);
   var brand=Text(header,"BDS",Ink,29);brand.style.marginRight=16;brand.style.marginBottom=0;
   var title=Text(header,T(game.Data.titleKey)+" / "+T(titleKey),Ink,17);title.style.flexGrow=1;title.style.marginBottom=0;
-  GlitchHeading(title,T(titleKey));
+  GlitchHeading(title,T(titleKey));TerminalTitle(title);
   bool closing=false;
   Action close=()=>{
    if(closing)return;closing=true;screen.SetEnabled(false);
@@ -484,6 +484,7 @@ public sealed partial class BubeApp {
  }
  void OpenTerminal() {
   var sources=game.Data.nodes.Where(n=>(n.kind=="cctv" || n.kind=="bps") && game.Available(n)).ToArray();
+  Dial();
   if(sources.Length==0) {
    VisualElement content;BpsTablet("terminal.title",out content);
    Text(content,T("terminal.noRecords"),Muted,19);

@@ -438,3 +438,12 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - `AudioDirector.PlayAt(id,pan,gain,ambient)` 4 kaynaklı konumlu havuz; `Scatter(bool)` ofiste uzak sesler. Görüşme odası müziği `interview_theme`.
 - `CaseData.deskHour` (-1 = yok) ve `CaseData.weather` ("rain" ya da boş); doğrulayıcı ikisini denetler.
 - Ses: 17 yeni klip `Tools/make-audio.py`de; `check-audio.py` 29 dosya, 0 bulgu.
+
+## Sahne katmanı (H–O)
+
+- Kütüphane: `UI/KarineUI.Transitions.cs` (geçişler + `Cue` ses/titreşim tablosu), `Room.cs`, `Evidence.cs`, `Terminal.cs`, `Night.cs`, `Closing.cs`. Sabitler `KarineTheme.Scene`.
+- Bağlantı: `BubeApp.Scene.cs` — `SceneTick` (`KeepFilmOnTop` içinden), eşya geçişi (`pendingProp`), `Dial`, `ShowCaseClosed`, `TrustBadge`, `Shape`/`Verdict`, `StepCctvBack`, ayarlar ve geliştirici kare sayacı.
+- `CrtPass` (MonoBehaviour): açıkken panel `RenderTexture`'a çizilir, `Resources/Bube/Shaders/KarineCrt.shader` ile `OnGUI`de basılır; dokunuş aynı bombe formülüyle bükülür. PlayerPrefs `karine.crt`.
+- `ScreenReader.Tick(root)`: Unity 6.3 `UnityEngine.Accessibility`; görünen düğme/yazılardan ağaç kurar. `com.unity.modules.accessibility` manifest'e eklendi.
+- `Typography.Scale` (1 / 1.15 / 1.3, `karine.textScale`) yalnız `Snap` üzerinden geçen boyları büyütür.
+- PlayerPrefs: `karine.shapes`, `karine.ashSmoke`, `karine.devMeter`, `karine.seenRank`, `karine.caseClosed.<id>`, `karine.inkDry.<id>`.

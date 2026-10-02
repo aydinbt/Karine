@@ -13,6 +13,7 @@ public sealed partial class BubeApp {
  // Seçilen kayıt kâğıt olarak masada karşıdaki kişiye doğru kayar. Doğru
  // kaynakta da, yemde de, ilgisiz kayıtta da **aynı** hareket: sonucu yanıt söyler.
  void SlideToPerson(VisualElement from,string label,Action then) {
+  KarineUI.Ripple(root);
   if(KarineMotion.Reduced || from.panel==null){then();return;}
   var start=root.WorldToLocal(from.worldBound);
   float width=Mathf.Min(start.width,root.layout.width*KarineTheme.Effects.SlideMaxWidth);

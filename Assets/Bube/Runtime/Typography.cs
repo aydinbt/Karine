@@ -19,7 +19,16 @@ public static class Typography {
  // Eşit uzaklıkta iki basamak varsa **büyüğü** seçilir: telefonda okunaklılık,
  // sıkışıklıktan daha değerlidir.
  public static int Snap(int size) =>
-  Steps.OrderBy(step => System.Math.Abs(step - size)).ThenByDescending(step => step).First();
+  (int)System.Math.Round(Steps.OrderBy(step => System.Math.Abs(step - size)).ThenByDescending(step => step).First() * Scale);
+
+ // Erişilebilirlik: oyuncunun seçtiği yazı büyüklüğü (1, 1.15, 1.3). Basamak
+ // önce seçilir, sonra büyütülür; ölçek dışı punto yine oluşmaz.
+ public const string ScaleKey = "karine.textScale";
+ public static readonly float[] Scales = { 1f, 1.15f, 1.3f };
+ public static float Scale { get; private set; } = 1f;
+ public static void Load() => Scale = Pick(UnityEngine.PlayerPrefs.GetFloat(ScaleKey, 1f));
+ public static void Set(float scale) { Scale = Pick(scale); UnityEngine.PlayerPrefs.SetFloat(ScaleKey, Scale); }
+ static float Pick(float value) => Scales.OrderBy(s => System.Math.Abs(s - value)).First();
 
 }
 }

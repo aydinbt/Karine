@@ -401,10 +401,11 @@ public sealed partial class BubeApp {
    game.BeginNextCaseReview(7);
    Save();
    // Mühür her raporda aynı biçimde iner; sonucu faks söyler.
-   KarineUI.StampDown(root,T("report.stamp"),()=>PlayReportSend(CaseSummary));
+   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();PlayReportSend(CaseSummary);}));
   }
  }
  void ContinueToNextCase() {
+  if(ShowCaseClosed(ContinueToNextCase))return;
   if(game.Career.retired){Desk();return;}
   var nextData=AvailableAssignment();
   if(nextData!=null){InboxPage("assignment:"+nextData.id,"all");return;}
@@ -451,11 +452,11 @@ public sealed partial class BubeApp {
    var person=reviewed.verdicts.FirstOrDefault(v=>v.id==fax.suspectId);
    var method=reviewed.methods.FirstOrDefault(v=>v.id==fax.methodId);
    var proof=reviewed.evidence.FirstOrDefault(v=>v.id==fax.proofId);
-   if(person!=null)SummaryField(body,T(SuspectKey(reviewed)),T(person.labelKey)+" · "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"));
-   if(method!=null)SummaryField(body,T(MethodKey(reviewed)),T(method.labelKey)+" · "+T(fax.methodSupported?"fax.supported":"fax.unsupported"));
+   if(person!=null)SummaryField(body,T(SuspectKey(reviewed)),T(person.labelKey)+" · "+Verdict(fax.suspectSupported));
+   if(method!=null)SummaryField(body,T(MethodKey(reviewed)),T(method.labelKey)+" · "+Verdict(fax.methodSupported));
    var custody=(reviewed.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
-   if(custody!=null)SummaryField(body,ReportCustodyHeading(reviewed),T(custody.labelKey)+" · "+T(fax.custodySupported?"fax.supported":"fax.unsupported"));
-   if(proof!=null)SummaryField(body,T("conclude.evidence"),T(proof.labelKey)+" · "+T(fax.proofSupported?"fax.supported":"fax.unsupported"));
+   if(custody!=null)SummaryField(body,ReportCustodyHeading(reviewed),T(custody.labelKey)+" · "+Verdict(fax.custodySupported));
+   if(proof!=null)SummaryField(body,T("conclude.evidence"),T(proof.labelKey)+" · "+Verdict(fax.proofSupported));
   }
   Text(body,T("career.trust")+"  "+T(game.TrustStatusKey)+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);
   Button(body,T("career.openRecord"),StatisticsPage);

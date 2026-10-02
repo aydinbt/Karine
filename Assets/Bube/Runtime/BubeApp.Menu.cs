@@ -29,7 +29,7 @@ public sealed partial class BubeApp {
   left.style.width=KarineTheme.MainMenu.LogoWidth;
   root.Add(left);
 
-  KarineUI.NeonIgnite(KarineLogo.Hero(left,KarineTheme.MainMenu.LogoWidth));
+  var logo=KarineLogo.Hero(left,KarineTheme.MainMenu.LogoWidth);KarineUI.NeonIgnite(logo);KarineUI.NeonStutter(logo);
   var tagline=KarineUI.Technical(left,T("menu.tagline"),KarineTheme.MainMenu.TaglineSize);
   tagline.style.color=KarineTheme.Secondary;
   tagline.style.letterSpacing=3;
@@ -411,7 +411,7 @@ public sealed partial class BubeApp {
   int supported=history.Count(r=>r.evaluationType=="supported"),incomplete=history.Count(r=>r.evaluationType=="incomplete"),wrong=history.Count(r=>r.evaluationType=="falseAccusation");
   KarineUI.CareerStat(tiles,"folder",T("career.record"),history.Count.ToString());
   KarineUI.CareerStat(tiles,KarineUI.IconOr("check","document"),T("career.supportedCount"),supported.ToString());
-  KarineUI.CareerStat(tiles,"chart",T(game.TrustStatusKey),"%"+game.Career.departmentTrust);
+  TrustBadge(KarineUI.CareerStat(tiles,"chart",T(game.TrustStatusKey),"%"+game.Career.departmentTrust));
   KarineUI.CareerStat(tiles,"clock",T("career.pending"),pending.ToString()).style.marginRight=0;
   var lower=KarineUI.Row(right,Align.Stretch);lower.style.flexGrow=1;lower.style.minHeight=0;
   var stats=KarineUI.CareerBox(lower,T("career.caseStats"));stats.style.flexGrow=1;stats.style.flexBasis=0;stats.style.marginRight=KarineTheme.SpaceSm;
@@ -453,6 +453,7 @@ public sealed partial class BubeApp {
 
  void CareerRecordPage(FaxReview review) {
   VisualElement card;BpsTablet("career.record",out card);
+  if(PlayerPrefs.GetInt("karine.inkDry."+review.caseId,0)==0){PlayerPrefs.SetInt("karine.inkDry."+review.caseId,1);KarineUI.InkDry(card);}
   var asset=Resources.Load<TextAsset>("Bube/Cases/"+review.caseId);
   var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
   Text(card,data==null?review.caseId:T(data.titleKey),Ink,19);

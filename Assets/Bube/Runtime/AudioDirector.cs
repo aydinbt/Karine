@@ -29,7 +29,7 @@ public sealed class AudioDirector : MonoBehaviour {
 
  // Odanın dışından gelen seyrek sesler: uzak siren, köpek, telsiz cızırtısı.
  // Saatleri rastgeledir; oyunun hiçbir anına bağlı değildir.
- public static readonly string[] Distant = { "amb_siren", "amb_dog", "amb_radio" };
+ public static readonly string[] Distant = { "amb_siren", "amb_dog", "amb_radio", "amb_phone", "amb_typing" };
 
  AudioSource music, ambience, effects;
  // Konumlu sesler için küçük havuz: her biri kendi sol-sağ değerini taşır.

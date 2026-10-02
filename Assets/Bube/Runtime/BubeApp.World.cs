@@ -73,8 +73,8 @@ public sealed partial class BubeApp {
    var art=LoadWorldArt(slot.image);
    if(art==null&&slot.caseId=="case001") art=Resources.Load<Texture2D>("Bube/Case001Building");
    if(art==null&&slot.caseId=="case002") art=Resources.Load<Texture2D>("Bube/Art/Case002Cover");
-   KarineUI.CasePhotoCard(cards.contentContainer,string.IsNullOrEmpty(slot.caseId)?current.id+"-"+i:slot.caseId,
-    current.id,T("world.browser.case")+" "+(i+1).ToString("000"),T(slot.titleKey).Split(new[]{'—'},2).Last().Trim(),WorldStateLabel(state),art,active,done,press,(i+1).ToString("00"));
+   KarineUI.PullOut(KarineUI.CasePhotoCard(cards.contentContainer,string.IsNullOrEmpty(slot.caseId)?current.id+"-"+i:slot.caseId,
+    current.id,T("world.browser.case")+" "+(i+1).ToString("000"),T(slot.titleKey).Split(new[]{'—'},2).Last().Trim(),WorldStateLabel(state),art,active,done,press,(i+1).ToString("00")));
   }
   KarineUI.BrowserSteps(board,current.slots.Select((s,i)=>Worlds.SlotState(current,i,closed,unlocked)==WorldSlotState.Completed).ToArray(),
    Array.FindIndex(current.slots.ToArray(),s=>Worlds.SlotState(current,current.slots.IndexOf(s),closed,unlocked)==WorldSlotState.Active));

@@ -82,7 +82,7 @@ public sealed partial class BubeApp {
   });
  }
  void TimelineRow(VisualElement parent,TimelineClue clue,Color ink,Color muted,string actionKey,Action action) {
-  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;
+  var row=new VisualElement{name="Clue-"+clue.id};row.style.flexDirection=FlexDirection.Row;
   row.style.alignItems=Align.Center;row.style.minHeight=70;
   row.style.marginBottom=6;row.style.paddingLeft=9;row.style.paddingRight=8;
   row.style.backgroundColor=KarineTheme.Paper.Tint;
@@ -129,7 +129,7 @@ public sealed partial class BubeApp {
    foreach(var clue in available) {
     var id=clue.id;
     TimelineRow(availableList,clue,ink,muted,"timeline.add",()=>{
-     if(game.PinTimeline(id)){audio?.Play("ui_pin");Fx.Buzz(Haptic.Tick);Save();refresh();}
+     if(game.PinTimeline(id)){KarineUI.Cue("pin");Save();refresh();KarineUI.PinShake(root.Q("Clue-"+id));}
     });
    }
   };
@@ -165,7 +165,7 @@ public sealed partial class BubeApp {
   var paper=KarineUI.DossierSheet(root);
   paper.userData=selectedFileSection;
   KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
-  if(openingFile)KarineMotion.Paper(paper);
+  if(openingFile){KarineMotion.Paper(paper);KarineUI.Flex(paper);}
   else if(switchingSection){KarineMotion.Page(paper);KarineUI.PageTurn(paper);}
   var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
   var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
@@ -231,7 +231,9 @@ public sealed partial class BubeApp {
     var texture=Resources.Load<Texture2D>(current.imageResource);
     if(texture!=null) {
      var photo=new Image{image=texture,scaleMode=ScaleMode.ScaleAndCrop};
-     photo.style.height=240;photo.style.marginTop=16;body.Add(photo);
+     photo.style.height=240;photo.style.marginTop=16;
+     KarineUI.Develop(photo,current.imageResource);
+     KarineUI.Inspectable(body,photo,current.imageResource,T("ink.draw"),T("ink.clear"));
      Text(body,T(current.imageCaptionKey),fileMuted,13);
     }
    }
@@ -395,6 +397,7 @@ public sealed partial class BubeApp {
     open.style.minHeight=37;open.style.fontSize=Typography.Snap(15);
     open.style.unityTextAlign=TextAnchor.MiddleRight;
    }
+   KarineUI.Stream(results);
   };
   render();
  }

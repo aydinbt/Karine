@@ -2999,6 +2999,90 @@
   {
    "key": "career.epilogue",
    "value": "Akıbet"
+  },
+  {
+   "key": "settings.textScale",
+   "value": "YAZI BOYU"
+  },
+  {
+   "key": "settings.textScale.hint",
+   "value": "Ekrandaki yazıların büyüklüğü."
+  },
+  {
+   "key": "settings.textScale.0",
+   "value": "Olağan"
+  },
+  {
+   "key": "settings.textScale.0.hint",
+   "value": "Varsayılan boy."
+  },
+  {
+   "key": "settings.textScale.1",
+   "value": "Büyük"
+  },
+  {
+   "key": "settings.textScale.1.hint",
+   "value": "Yüzde on beş büyük."
+  },
+  {
+   "key": "settings.textScale.2",
+   "value": "En büyük"
+  },
+  {
+   "key": "settings.textScale.2.hint",
+   "value": "Yüzde otuz büyük; bazı satırlar kayabilir."
+  },
+  {
+   "key": "settings.shapes",
+   "value": "Şekil işaretleri"
+  },
+  {
+   "key": "settings.shapes.hint",
+   "value": "Renkle ayrılan işaretlere şekil de eklenir (▲ ● ■)."
+  },
+  {
+   "key": "settings.ash",
+   "value": "Kül tablası dumanı"
+  },
+  {
+   "key": "settings.ash.hint",
+   "value": "Masada ince bir duman yükselir. Yalnız atmosfer."
+  },
+  {
+   "key": "settings.crt",
+   "value": "CRT ekran (deneysel)"
+  },
+  {
+   "key": "settings.crt.hint",
+   "value": "Ekrana hafif bombe ve tarama çizgisi verir. Bazı cihazlarda yavaşlatabilir."
+  },
+  {
+   "key": "settings.devMeter",
+   "value": "Kare sayacı"
+  },
+  {
+   "key": "settings.devMeter.hint",
+   "value": "Geliştirme derlemesinde köşede fps gösterir."
+  },
+  {
+   "key": "cctv.frameBack",
+   "value": "‹ KARE"
+  },
+  {
+   "key": "terminal.connecting",
+   "value": "BAĞLANIYOR"
+  },
+  {
+   "key": "case.closed",
+   "value": "DOSYA KAPANDI"
+  },
+  {
+   "key": "ink.draw",
+   "value": "Çiz"
+  },
+  {
+   "key": "ink.clear",
+   "value": "Temizle"
   }
  ]
 }

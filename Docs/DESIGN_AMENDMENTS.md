@@ -934,3 +934,13 @@ Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120
 - Faksın ilk okunuştaki vurgusu (ışık halkası) yalnız evrağın kendisine düşer, bir kaynağa yönlendirmez.
 - Parlamalar saniyede 3'ün altında; "hareketi azalt" ve Efektler: Kapalı tüm hareketli katmanı kapatır.
 - Vaka verisi `deskHour` ve `weather` alanlarıyla masanın saatini ve havasını belirler.
+
+## 2 Ekim 2026 — Sahne katmanı (H–O) ve değişmez kural
+
+- Defterde işaret konunca çekilen kırmızı ip **doğrulama değildir**: her işarette (çelişki, uyum, soru) aynıdır, doğru/yanlış söylemez.
+- Kayıt öne sürülünce bardaktaki halka her kayıtta aynıdır; tepki ipucu taşımaz.
+- "Masa telefonu boşuna çalar" önerisi, oyuncuyu telefona yönlendireceği için **uzak ofiste çalan telefon** sesine çevrildi.
+- Geçiş yalnız nereden gelindiğini söyler (dokunulan eşya), gidilen yerde ne olduğunu söylemez.
+- Güven rozeti mührü yalnız oyuncunun zaten gördüğü durum değiştiğinde iner; gizli değer göstermez.
+- Şekil işaretleri yalnız oyuncunun kendi seçtiği işarete ve faksın açık sonucuna eklenir.
+- Bölüm/vaka seçicide yalnız kart çekilme hareketi eklendi; yerleşim kullanıcıya ait olduğu için değişmedi.

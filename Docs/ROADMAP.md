@@ -397,3 +397,18 @@ Hepsi `[~]`: derlendi, 117 EditMode + 23 PlayMode geçti; Unity'de/cihazda gözl
 - [~] E Görüşme: yanıt beklerken üç nokta, portrede duruş kayması, piksel portrede göz kırpma, kaydı sürüklerken kâğıt kalkması, kapanan görüşmede kapı sesi, görüşme odasına kendi müziği (`interview_theme`, 36 s).
 - [~] F Rapor ve geçişler: gönderimde "GÖNDERİLDİ" damgası + sarsıntı, ilk varışta dosya başlığının yazılması, menüde neon yanışı ve Ken Burns kayması, sayfa çevirmede titreşim.
 - [~] G Ayarlar ve erişilebilirlik: Efektler Kapalı/Hafif/Tam, Titreşim aç/kapa, saniyede 3'ten az parlama sınırı, düşük pil/bellek/yavaş karede kendiliğinden hafifleme; "hareketi azalt" hepsini kapatır. Uzak ortam sesleri (araba, siren, köpek, telsiz) ofiste 25–70 s arayla.
+
+## 2 Ekim 2026 — Sahne katmanı (H–O)
+
+Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle görülmedi.
+
+- [~] H — Geçişler: dosyalar arası sayfa (zaten vardı) + açılışta kâğıt esnemesi, masadaki eşyadan büyüyerek açılan ekran (dosya, gelen evrak, monitör), çekmeceden yükselen delil, görüşmeye girerken hat bağlanması, defter kapağı.
+- [~] I — Görüşme odası: sallanan lamba ve gölgesi, kayıt öne sürülünce bardakta halka (her kayıtta aynı), ayna silueti, LED'li kayıt cihazı, vaka saatinden başlayan duvar saati; nefes zaten vardı.
+- [~] J — Delil/defter: işarette kırmızı ip, zaman çizelgesinde iğne sarsıntısı, Polaroid banyo, fotoğrafta büyüteç ve çizim kipi (oturumluk), kâğıt esnemesi.
+- [~] K — CCTV/terminal: geri sarma, kare geri düğmesi, terminal başlığı tuş tuş + imleç, arama sonuçları akarak, oturumda ilk açılışta "bağlanıyor…", ekran yansıması.
+- [~] L — Atmosfer: ay ışığı (gece), yağmurda gök gürültüsü + pencere parlaması, perde gölgesi, isteğe bağlı kül dumanı (varsayılan kapalı), uzak ofiste çalan telefon ve daktilo.
+- [~] M — Kapanış: damgadan önce zarf, faks ısınması, "Dosya kapandı" kartı ve rafa kalkan klasör (vaka başına bir kez), sicilde mürekkep kuruması.
+- [~] N — Menü/kariyer: neon titremesi, güven rozeti parlaması + durum değişince mühür, vaka kartı çekilmesi (yerleşim değişmedi), Ayarlar'da efekt önizlemesi.
+- [~] O — Teknik: gerçek CRT gölgelendiricisi (deneysel, varsayılan kapalı), ses+titreşim işaret tablosu (`KarineUI.Cue`), ekran okuyucu köprüsü, yazı boyu ayarı, şekil işaretleri, geliştirici kare sayacı.
+- [ ] Odadaki nesnelerin ve kül alanının yüzde konumları görsellere göre gözle ayarlanmalı.
+- [ ] CRT geçişi cihazda denenmeli (Y ekseni ters dönebilir; yalnız UI katmanını işler).

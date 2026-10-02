@@ -183,13 +183,15 @@ public sealed partial class BubeApp : MonoBehaviour {
   // Kit'in her düğmesi basıldığında ses ister; çalan tek yer burası.
   KarineUI.Sound=id=>{ if(audio!=null)audio.Play(id); };
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
-  var panel=ScriptableObject.CreateInstance<PanelSettings>();
+  Typography.Load();KarineUI.AshSmoke=PlayerPrefs.GetInt(AshKey,0)==1;
+  panel=ScriptableObject.CreateInstance<PanelSettings>();
   panel.scaleMode=PanelScaleMode.ScaleWithScreenSize;
   panel.referenceResolution=new Vector2Int(1280,720);
   panel.screenMatchMode=PanelScreenMatchMode.MatchWidthOrHeight;
   panel.match=1;
   panel.themeStyleSheet=Resources.Load<ThemeStyleSheet>("Bube/DefaultTheme");
   doc.panelSettings=panel;
+  (GetComponent<CrtPass>() ?? gameObject.AddComponent<CrtPass>()).Bind(panel);
   fonts=FontSet.Load();KarineUI.Fonts=fonts;
   // Dosya/terminal dokusu mono kalir; govde ve baslik rolleri ayri dusunulur.
   // Arayüzün gövde yazısı **mono değildir**. Mono yalnız teknik metne aittir
@@ -258,6 +260,7 @@ public sealed partial class BubeApp : MonoBehaviour {
  void Update() {
   if(root==null)return;
   KeepFilmOnTop();
+  ScreenReader.Tick(root);
   if(introBrand!=null && introBrand.panel!=null && introPlayer!=null) {
    double time=introPlayer.time;
    float reveal=Mathf.Clamp01((float)(time-3.0)/0.3f);

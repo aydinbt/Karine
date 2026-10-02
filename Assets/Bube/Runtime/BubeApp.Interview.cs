@@ -30,6 +30,7 @@ public sealed partial class BubeApp {
    background.style.left=0;background.style.right=0;background.style.top=0;background.style.bottom=0;
    root.Add(background);
   }
+  KarineUI.InterviewRoom(root,root.childCount,game.Data.deskHour);
   var top=new VisualElement();top.style.position=Position.Absolute;
   top.style.left=0;top.style.right=0;top.style.top=0;top.style.height=64;
   top.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.98f);
@@ -178,7 +179,7 @@ public sealed partial class BubeApp {
   back.style.left=Length.Percent(62);back.style.right=Length.Percent(2);
   back.style.bottom=Length.Percent(5);root.Add(back);
   Button(back,T("interview.back"),Desk);
-  if(enteringRoom)FadeIn(root);
+  if(enteringRoom){FadeIn(root);KarineUI.CutIn(root,KarineTheme.Scene.RingHold);}
  }
  string ShortInterviewSourceLabel(string value) {
   value=(value ?? "").Replace('\n',' ').Trim();

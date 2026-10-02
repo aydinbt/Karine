@@ -13,10 +13,10 @@ namespace Bube {
 // Ayarlar ekranı. Bu dosya `BubeApp`in bir parçasıdır.
 public sealed partial class BubeApp {
  int settingsTab;
- bool draftInstant,draftReduced,draftHaptics;int draftFps;FxLevel draftFx;
+ bool draftInstant,draftReduced,draftHaptics,draftShapes,draftCrt,draftAsh,draftMeter;int draftScale;int draftFps;FxLevel draftFx;
  SoundLevel draftMusic,draftSfx;
  void SettingsPage() {
-  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;
+  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();
   RenderSettings();
  }
  void RenderSettings() {
@@ -43,6 +43,7 @@ public sealed partial class BubeApp {
    KarineUI.SettingsOption(choices,T("settings.normal"),T("settings.normal.hint"),!draftInstant,()=>{draftInstant=false;RenderSettings();},chat);
    KarineUI.SettingsSection(scroll,music,T("settings.music"),T("settings.music.hint"),true);
    SoundRow(scroll,draftMusic,level=>draftMusic=level);
+   ReadingOptions(scroll,chat);
   } else if(settingsTab==1) {
    KarineUI.SettingsSection(scroll,music,T("settings.music"),T("settings.music.hint"),false);SoundRow(scroll,draftMusic,level=>draftMusic=level);
    KarineUI.SettingsSection(scroll,music,T("settings.sfx"),T("settings.sfx.hint"),true);SoundRow(scroll,draftSfx,level=>draftSfx=level);
@@ -53,17 +54,19 @@ public sealed partial class BubeApp {
    // Efekt yoğunluğu: gren, yağmur, far, parazit. "Hareketi azalt" açıkken hepsi kapalıdır.
    KarineUI.SettingsSection(scroll,"gear",T("settings.fx"),T("settings.fx.hint"),true);var fx=KarineUI.Row(scroll);fx.style.alignItems=Align.Stretch;
    foreach(FxLevel l in new[]{FxLevel.Off,FxLevel.Light,FxLevel.Full}){var v=l;var o=KarineUI.SettingsOption(fx,T("settings.fx."+v.ToString().ToLowerInvariant()),T("settings.fx."+v.ToString().ToLowerInvariant()+".hint"),draftFx==v,()=>{draftFx=v;RenderSettings();});if(v!=FxLevel.Full)o.style.marginRight=KarineTheme.SpaceMd;}
+   KarineUI.FxPreview(scroll,draftFx);
    KarineUI.SettingsOption(scroll,T("settings.haptics"),T("settings.haptics.hint"),draftHaptics,()=>{draftHaptics=!draftHaptics;RenderSettings();});
+   SceneOptions(scroll);
    KarineUI.SettingsSection(scroll,"info",T("settings.ads"),T("settings.ads.status."+(AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),true);
    Button(scroll,T("settings.ads.change"),AskForAdConsent);
    KarineUI.Rule(scroll);Button(scroll,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
   }
   KarineUI.Rule(body);var footer=KarineUI.Row(body);footer.style.justifyContent=Justify.SpaceBetween;
-  KarineUI.SettingsAction(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;draftFx=FxLevel.Full;draftHaptics=true;RenderSettings();});
+  KarineUI.SettingsAction(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;draftFx=FxLevel.Full;draftHaptics=true;ResetSceneDraft();RenderSettings();});
   KarineUI.SettingsAction(footer,KarineUI.IconOr("check","nav_next"),T("settings.save"),T("settings.save.hint"),true,()=>{
    PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);
    instantText=draftInstant;PlayerPrefs.SetInt("bube.instantText",instantText?1:0);
-   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);FrameRate.Set(draftFps);Fx.Set(draftFx,draftHaptics);PlayerPrefs.Save();ApplySound();Home();
+   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);FrameRate.Set(draftFps);Fx.Set(draftFx,draftHaptics);SaveSceneDraft();PlayerPrefs.Save();ApplySound();Home();
   });
  }
  void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {

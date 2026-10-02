@@ -23,9 +23,9 @@ public sealed partial class BubeApp {
   var existing=game.FindNote(compareLeftId,compareRightId);
   foreach(var mark in Investigation.NotebookMarks) {
    var chosen=mark;
-   var button=KarineUI.PaperButton(bar,T("notebook.mark."+mark),()=>{
+   var button=KarineUI.PaperButton(bar,Shape(mark)+T("notebook.mark."+mark),()=>{
     // İki kaynak ataçla tutturulur: her hükümde aynı ses.
-    if(game.MarkNote(compareLeftId,compareRightId,chosen)){audio?.Play("ui_clip");Fx.Buzz(Haptic.Tick);Save();ComparePage();}
+    if(game.MarkNote(compareLeftId,compareRightId,chosen)){KarineUI.Cue("clip");Save();KarineUI.RedString(folder,ComparePage);}
    },existing!=null && existing.mark==mark?KarinePaperKind.Action:KarinePaperKind.Choice);
    button.style.marginLeft=6;button.style.minHeight=KarineTheme.TouchTarget;
    button.style.paddingLeft=14;button.style.paddingRight=14;button.style.fontSize=Typography.Snap(15);
@@ -60,6 +60,7 @@ public sealed partial class BubeApp {
   return node==null?T("conclude.sourceUnknown"):node.kind=="interview"?T(node.personNameKey):T(node.titleKey);
  }
  void NotebookContents(VisualElement paper,Color ink,Color muted) {
+  if(!coverOpened){coverOpened=true;KarineUI.CoverOpen(paper);}
   var title=Text(paper,T("notebook.title"),ink,21);title.style.marginBottom=4;
   if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   Text(paper,T("notebook.help"),muted,14).style.marginBottom=10;
@@ -72,7 +73,7 @@ public sealed partial class BubeApp {
    row.style.minHeight=60;row.style.marginBottom=6;row.style.paddingLeft=9;row.style.paddingRight=8;
    row.style.backgroundColor=KarineTheme.Paper.Tint;row.style.borderLeftWidth=3;
    row.style.borderLeftColor=note.mark=="conflict"?KarineTheme.Paper.Stamp:KarineTheme.Paper.Edge;scroll.Add(row);
-   var mark=KarineUI.Technical(row,T("notebook.mark."+note.mark),14);mark.style.color=ink;mark.style.width=110;mark.style.marginBottom=0;
+   var mark=KarineUI.Technical(row,Shape(note.mark)+T("notebook.mark."+note.mark),14);mark.style.color=ink;mark.style.width=110;mark.style.marginBottom=0;
    var pair=Text(row,NotebookSourceTitle(note.leftId)+"  ↔  "+NotebookSourceTitle(note.rightId),ink,15);
    pair.style.flexGrow=1;pair.style.flexShrink=1;pair.style.marginBottom=0;
    var open=KarineUI.PaperButton(row,T("notebook.open"),()=>{compareLeftId=note.leftId;compareRightId=note.rightId;comparePicker=-1;ComparePage();},KarinePaperKind.Quiet);

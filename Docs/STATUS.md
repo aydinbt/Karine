@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 2 Ekim 2026 (efekt, ses ve sahne katmanı A–G)
+**Son güncelleme:** 2 Ekim 2026 (sahne katmanı H–O)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**2 Ekim (gece, 3):** Sahne katmanı H–O girdi (43 madde): eşyadan açılan geçişler, görüşme odası nesneleri, kırmızı ip, Polaroid, büyüteç/çizim, geri sarma, terminal yazımı, ay ışığı, gök gürültüsü, zarf, dosya kapandı kartı, rozet mührü; deneysel CRT, ekran okuyucu köprüsü, yazı boyu, şekil işaretleri. 117 EditMode + 23 PlayMode geçti; **gözle görülmedi**.
 
 **2 Ekim (gece, 2):** Efekt katmanı A–G girdi: film greni, CCTV'de CRT/VHS/kar ve yakınlaştırma, masada vaka saatine göre ışık, yağmur, far, buhar, lamba; evrak yıpranması, faks çıkışı, damga; görüşmede üç nokta, duruş, göz kırpma ve kendi müziği; 17 yeni ses; Ayarlar'da Efektler ve Titreşim. Hiçbir efekt oyun durumunu kodlamaz. 117 EditMode + 23 PlayMode geçti; **gözle görülmedi**.
 

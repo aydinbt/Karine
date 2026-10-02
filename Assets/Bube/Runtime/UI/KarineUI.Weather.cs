@@ -139,29 +139,7 @@ public static partial class KarineUI {
  }
 
  // Buhar: masanın solundaki fincandan yükselen, kıvrılıp sönen ince duman.
- static void Steam(VisualElement front) {
-  var area=new VisualElement {name="OfficeSteam",pickingMode=PickingMode.Ignore};
-  OfficePlace(area,W.SteamArea);
-  int firstButton=-1;for(int i=0;i<front.childCount;i++)if(front[i] is Button){firstButton=i;break;}
-  if(firstButton<0)front.Add(area);else front.Insert(firstButton,area);
-  var random=new System.Random(5);
-  var puffs=new List<(Image e,float phase,float speed,float sway)>();
-  for(int i=0;i<Fx.Count(W.SteamPuffs);i++) {
-   var puff=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Alpha(KarineTheme.Paper.Light,W.SteamAlpha)};
-   puff.style.position=Position.Absolute;puff.style.width=Length.Percent(60);puff.style.height=Length.Percent(22);area.Add(puff);
-   puffs.Add((puff,(float)random.NextDouble(),.12f+(float)random.NextDouble()*.08f,(float)random.NextDouble()*6));
-  }
-  float start=Time.realtimeSinceStartup;
-  area.schedule.Execute(()=> {
-   float time=Time.realtimeSinceStartup-start;
-   foreach(var p in puffs) {
-    float life=Mathf.Repeat(p.phase+time*p.speed,1f);
-    p.e.style.top=Length.Percent(78-life*80);
-    p.e.style.left=Length.Percent(20+Mathf.Sin(time*.8f+p.sway)*14*life);
-    p.e.style.scale=new Scale(Vector3.one*(.5f+life));
-    p.e.style.opacity=Mathf.Sin(life*Mathf.PI)*.9f;
-   }
-  }).Every(KarineTheme.Motion.TickMs*2);
- }
+ static void Steam(VisualElement front) =>
+  Wisp(front,"OfficeSteam",W.SteamArea,KarineTheme.Alpha(KarineTheme.Paper.Light,W.SteamAlpha),W.SteamPuffs);
 }
 }

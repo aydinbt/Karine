@@ -94,8 +94,14 @@ public static partial class KarineUI {
  // hafif kıvrık gölge taşır, yerine oturunca gölge kaybolur.
  public static void FeedOut(VisualElement paper) {
   if(paper==null)return;
-  Sound?.Invoke("ui_paper");
-  if(!Fx.On)return;
+  // Makine önce ısınır: kâğıt yuvasında titrer, röle tıklar, sonra sürülür.
+  Cue("warm");
+  if(!Fx.On){Sound?.Invoke("ui_paper");return;}
+  paper.style.translate=new Translate(0,-S.FeedOffset);
+  KarineMotion.Run(paper,KarineTheme.Scene.WarmSeconds,t=>paper.style.translate=new Translate(Mathf.Sin(t*90)*.6f,-S.FeedOffset),()=>{
+   Sound?.Invoke("ui_paper");Feed(paper);});
+ }
+ static void Feed(VisualElement paper) {
   var curl=new VisualElement {name="PaperCurl",pickingMode=PickingMode.Ignore};
   curl.style.position=Position.Absolute;curl.style.left=0;curl.style.right=0;curl.style.bottom=0;curl.style.height=S.CurlHeight;
   curl.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.FolderDeep,.22f);

@@ -61,6 +61,27 @@ public static class KarineTheme {
   public const float LiftScale=.04f, LiftShadow=6f;
  }
 
+ // Dördüncü kademe (`KarineUI.Transitions/Room/Evidence/Terminal/Night/Closing`):
+ // geçişler, görüşme odası, kanıt, terminal, gece ve kapanış. Yerleşim
+ // yüzdeleri resimlere göre elle ayarlanır; oyunun durumuna bağlı değildir.
+ public static class Scene {
+  public const float ZoomSeconds=.38f, ZoomFrom=.18f, DrawerSeconds=.42f, CoverSeconds=.45f, CutSeconds=.55f, RingHold=.9f;
+  public static readonly Rect RoomLamp=new Rect(40,0,20,38), RoomGlass=new Rect(56,70,3.2f,9), RoomMirror=new Rect(74,30,14,40);
+  public static readonly Rect RoomRecorder=new Rect(3,80,12,12), RoomClock=new Rect(90,11,5.5f,10);
+  public const float LampSway=2.2f, LampSwaySeconds=7f, LampAlpha=.22f, MirrorAlpha=.07f, RippleSeconds=1.6f;
+  public const int LedMs=1000;
+  public const float StringSeconds=.45f, PinShake=4f, DevelopSeconds=2.4f, FlexMax=1.4f, InkWidth=3f;
+  public const float RewindSeconds=.9f, GlareAlpha=.06f; public const int KeyMs=34, CursorMs=530, StreamMs=45;
+  public const float ModemSeconds=1.5f;
+  public static readonly Color Moon=Hex("#9FB6D6");
+  public const float MoonAlpha=.07f, CurtainAlpha=.22f, CurtainSeconds=9f, FlashAlpha=.35f, ThunderGain=.5f;
+  public const int ThunderMinMs=40000, ThunderMaxMs=90000;
+  public static readonly Rect AshArea=new Rect(24,52,4.5f,13);
+  public const float EnvelopeSeconds=1.1f, WarmSeconds=.7f, ArchiveSeconds=2.6f, DrySeconds=1.6f, ShineSeconds=1.1f;
+  public const int NeonMinMs=20000, NeonMaxMs=50000, ShineEveryMs=8000, MeterMs=250;
+  public const float PullLift=10f;
+ }
+
  public static class Settings {
   public const int SideWidth=210, TabHeight=84, ChoiceHeight=74, HeadingSize=26, TextSize=17, SectionIcon=34, Radio=24, ActionWidth=240;
   public const int Inset=14, Top=12, Bottom=6, NarrowInset=4;

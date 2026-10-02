@@ -22,6 +22,7 @@ public sealed partial class BubeApp {
   if(root==null)return;
   if(filmLayer==null)filmLayer=KarineUI.FilmLayer();
   if(filmLayer.parent!=root || root.IndexOf(filmLayer)!=root.childCount-1)root.Add(filmLayer);
+  SceneTick();
  }
 
  // Masa eşyası → sesi. Eşyanın masadaki yeri sesin sol-sağ yerini verir.
@@ -46,14 +47,15 @@ public sealed partial class BubeApp {
   foreach(var entry in PropSounds) {
    var button=stage.Q<Button>(entry.button);if(button==null)continue;
    string sound=entry.sound;float pan=KarineUI.PanOf(PropBox(entry.prop));
-   button.RegisterCallback<PointerDownEvent>(_=>{audio?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);},TrickleDown.TrickleDown);
+   string prop=entry.prop;
+   button.RegisterCallback<PointerDownEvent>(_=>{audio?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;},TrickleDown.TrickleDown);
   }
  }
 
  // Kapanan görüşme: bu oturumda ilk görüldüğünde kapı kapanır, ekran bir an kararır.
  void DoorClosed(Node node) {
   if(node==null || !heardDoors.Add(node.id))return;
-  audio?.PlayAt("ui_door",.4f,.8f);Fx.Buzz(Haptic.Press);
+  KarineUI.SoundAt?.Invoke("ui_door",.4f,.8f);Fx.Buzz(Haptic.Press);
   if(!Fx.On)return;
   var shade=new VisualElement {pickingMode=PickingMode.Ignore};
   shade.style.position=Position.Absolute;shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
