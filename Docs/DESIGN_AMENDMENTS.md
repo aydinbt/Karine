@@ -896,3 +896,7 @@ Referans görsele göre: büyük başlık; harita simgeli, yüzdeli "Genel ilerl
 ## 2 Ekim 2026 — Kariyer / İstatistikler yeni görünüm
 
 Masa üstü tablet yerine tam ekran panel: üstte logo + "Kariyer / İstatistikler" + kapat; solda Bora profil kartı ve üç sekme (Genel İstatistikler, Vaka Geçmişi, Dosya Arşivi); sağda Genel İlerleme (dünya, vaka, yüzde), dört sayaç (değerlendirilen dosya, uygun bulunan, kurum güveni, kurumsal incelemede), halka grafikli Vaka İstatistikleri ve En Aktif Dünyalar. Referanstaki "İncelenen delil", "Görüşme yapılan kişi", "Yazılan rapor", "Sicil no", "Göreve başlama", "Görüşmeler/Raporlar/Başarımlar" sekmeleri **eklenmedi** — kariyer verisi bunları tutmuyor, uydurma sayı gösterilmez. Durum: `[~]`.
+
+## 2 Ekim 2026 — Dosya #002 CCTV: Deniz ve Emre sekansları kapandı
+
+Kamera 04'ün kare dizileri kişi sekansı olarak üretiliyor. **Deniz** (`park`, `passenger_out`, altışar kare) ve **Emre** (`second_in` 5, `contact` 4, `second_out` 5 kare; 500 ms) kullanıcı tarafından tamamlandı sayıldı. Emre kareleri yeni sahne çiziminde; Deniz kareleriyle sahne farkı ve son iki anda görüntü bozulması bilinçli olarak kabul edildi. Kalan: Kerem (`third_in`, `third_out`), `dispute`, `patrol` — şimdilik yalnız metin. Durum `[~]`, Play Mode'da izlenmedi.
