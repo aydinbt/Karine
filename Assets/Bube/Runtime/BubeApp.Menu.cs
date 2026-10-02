@@ -370,9 +370,9 @@ public sealed partial class BubeApp {
    var suspect=data.verdicts.FirstOrDefault(v=>v.id==progress.reportSuspect);
    var method=data.methods.FirstOrDefault(v=>v.id==progress.reportMethod);
    var proof=data.evidence.FirstOrDefault(v=>v.id==progress.reportProof);
-   if(suspect!=null)Text(reportColumn,T("conclude.suspect")+": "+T(suspect.labelKey),dark,15);
+   if(suspect!=null)Text(reportColumn,T(SuspectKey(data))+": "+T(suspect.labelKey),dark,15);
    if(!string.IsNullOrEmpty(progress.reportSuspectSource))ArchiveSourceLink(reportColumn,item,progress.reportSuspectSource);
-   if(method!=null)Text(reportColumn,T("conclude.method")+": "+T(method.labelKey),dark,15);
+   if(method!=null)Text(reportColumn,T(MethodKey(data))+": "+T(method.labelKey),dark,15);
    if(!string.IsNullOrEmpty(progress.reportMethodSource))ArchiveSourceLink(reportColumn,item,progress.reportMethodSource);
    if(proof!=null)Text(reportColumn,T("conclude.evidence")+": "+T(proof.labelKey),dark,15);
    if(!string.IsNullOrEmpty(progress.reportProofSource))ArchiveSourceLink(reportColumn,item,progress.reportProofSource);
@@ -386,8 +386,8 @@ public sealed partial class BubeApp {
    if(fax==null)Text(faxColumn,T("archive.pendingReview"),muted,15);
    else {
     Text(faxColumn,EvaluationTitle(fax),dark,15);
-    if(suspect!=null)Text(faxColumn,T("conclude.suspect")+": "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"),dark,15);
-    if(method!=null)Text(faxColumn,T("conclude.method")+": "+T(fax.methodSupported?"fax.supported":"fax.unsupported"),dark,15);
+    if(suspect!=null)Text(faxColumn,T(SuspectKey(data))+": "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"),dark,15);
+    if(method!=null)Text(faxColumn,T(MethodKey(data))+": "+T(fax.methodSupported?"fax.supported":"fax.unsupported"),dark,15);
     if(proof!=null)Text(faxColumn,T("conclude.evidence")+": "+T(fax.proofSupported?"fax.supported":"fax.unsupported"),dark,15);
     Text(faxColumn,T("career.trust")+": "+T(TrustStatusKey(fax.trustAfter))+
      (fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),muted,14);
@@ -520,8 +520,8 @@ public sealed partial class BubeApp {
    var person=data.verdicts.FirstOrDefault(v=>v.id==review.suspectId);
    var method=data.methods.FirstOrDefault(v=>v.id==review.methodId);
    var proof=data.evidence.FirstOrDefault(v=>v.id==review.proofId);
-   if(person!=null)Text(card,T("conclude.suspect")+": "+T(person.labelKey)+" · "+ReviewSourceTitle(data,review.suspectSourceId),Ink,16);
-   if(method!=null)Text(card,T("conclude.method")+": "+T(method.labelKey)+" · "+ReviewSourceTitle(data,review.methodSourceId),Ink,16);
+   if(person!=null)Text(card,T(SuspectKey(data))+": "+T(person.labelKey)+" · "+ReviewSourceTitle(data,review.suspectSourceId),Ink,16);
+   if(method!=null)Text(card,T(MethodKey(data))+": "+T(method.labelKey)+" · "+ReviewSourceTitle(data,review.methodSourceId),Ink,16);
    if(proof!=null)Text(card,T("conclude.evidence")+": "+T(proof.labelKey)+" · "+ReviewSourceTitle(data,review.proofSourceId),Ink,16);
   }
   Text(card,T("career.trust")+": "+T(TrustStatusKey(review.trustAfter)),Gold,18);

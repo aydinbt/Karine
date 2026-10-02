@@ -1,6 +1,6 @@
 # Dosya #003 — Son Teslimat
 
-Bu sayfa içerik ekibi içindir; oyuncuya gösterilmez. **Durum: kesinleşti (2 Ekim 2026).** Senaryo kullanıcıdan geldi; düzeltmeler ve kararlar kullanıcı onayıyla işlendi. Sıradaki adım veri: `case003.json`, `tr.case003.json`.
+Bu sayfa içerik ekibi içindir; oyuncuya gösterilmez. **Durum: kesinleşti (2 Ekim 2026).** Senaryo kullanıcıdan geldi; düzeltmeler ve kararlar kullanıcı onayıyla işlendi. Veri yazıldı (2 Ekim 2026): `Cases/case003.json` (12 düğüm), `Locales/tr.case003.json` (190 metin). Doğrulayıcının otomatik gezintisi vakayı baştan sona açıyor; Play Mode'da insan eliyle oynanmadı.
 
 **Büro:** BDS — şüpheli ölüm. **Yer/zaman:** Karaköy, küçük bir elektronik deposu, 12 Aralık 2026 gecesi. **Hedef süre:** 20–25 dk.
 **Yeni yetenek:** adli rapor + belge + zaman çizelgesi arasındaki uyumsuzluğu çözmek. CCTV yan kaynaktır.
@@ -107,3 +107,15 @@ Oyuncu sonucu faks gelene kadar bilmemeli; kaynaklar doğruyu **mümkün kılar*
 - Barış "23.30 gibi çıktım" ↔ irsaliye 23.50 (geç kesilmiş fatura) ↔ kamera 23.30.
 
 **Destek:** her doğru cevabın en az iki bağımsız dayanağı olur; ifadeler yeni kaynağı erişilebilir kılar ama sırayı söylemez; yanlış cevap faksta gerekçesiyle döner.
+
+## Veride uygulanan yapı (2 Ekim 2026)
+
+Açılma zinciri: tutanak → Ozan 1 (`visitors` sorusu) → Barış 1 (`voices`) → Seda 1 (`camera`) → kapı kamerası. Ozan 1'deki `call` sorusu adli tıbbı istenebilir yapar; adli tıp jeneratör incelemesini, jeneratör + Seda'nın USB sözü eşya dökümünü açar. Eşya dökümü Barış 2'yi; eşya dökümü + Ozan 2 hesap incelemesini; hesap incelemesi Ozan 3'ü açar.
+
+- **Ozan 2:** kamera `ozan_in` karesi öne sürülünce saati kabul eder; yarım saati "dondum" diye açıklar; koliye dokunmadığını söyler (yalan); jeneratörün çalıştığını bilmez (dürüst bilgisizlik, "ağır bir koku vardı, rutubet sandım").
+- **Barış 2:** eşya dökümündeki irsaliye öne sürülünce saat oyununu vergi kaçamağı olarak kabul eder; elektrik kesilince Levent'in jeneratörü **kendisinin** çalıştırdığını anlatır (kazayı bağımsız kuran ifade); Seda'yı gördüğünden emin olmadığını söyler.
+- **Ozan 3:** hesap incelemesi öne sürülünce zimmeti, belleği ve klasörü almayı, koliyi düşürmeyi kabul eder; ölümü reddeder.
+- Kamerada `lights` (23.24) anı elektrik kesintisini Barış'ın ifadesinden bağımsız doğrular.
+- Zaman çizelgesi gece yarısını geçtiği için `sortMinute` değerleri 720 dakika kaydırıldı (yalnız sıralama içindir).
+- Rapor başlıkları vakadan gelir: `suspectLabelKey` "Ölümden kim sorumlu?", `methodLabelKey` "Ölüm nedeni", `custodyLabelKey` "Olay yerini kim değiştirdi, ne aldı?".
+- CCTV karesi yok; altı an metin dökümü. Kareler sonra eklenebilir.

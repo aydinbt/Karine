@@ -193,7 +193,7 @@ Bunun bir yan etkisi var: `Assets/Bube/Resources/Bube/DeskReference.png` artık 
 
 ## Rapor sütunları
 
-Sonuç raporu üç sütunla açılır: fail (`verdicts`), yöntem (`methods`), kanıt (`evidence`). Bir vaka `custody` dizisini doldurursa **dördüncü sütun** araya girer (yöntemden sonra, kanıttan önce) ve başlığını `custodyLabelKey` belirler; boş bırakılırsa `conclude.custody` kullanılır. Sütun, tek olayda ikinci bir sorumluluğu — örneğin yaralayan ile parayı alanın farklı kişiler olmasını — raporda ayrı bir soru olarak sorar.
+Sonuç raporu üç sütunla açılır: fail (`verdicts`), yöntem (`methods`), kanıt (`evidence`). Bir vaka `custody` dizisini doldurursa **dördüncü sütun** araya girer (yöntemden sonra, kanıttan önce) ve başlığını `custodyLabelKey` belirler; boş bırakılırsa `conclude.custody` kullanılır. Aynı biçimde `suspectLabelKey` ve `methodLabelKey` fail ve yöntem sütunlarının başlığını vakaya göre değiştirir (Dosya #003: "Ölümden kim sorumlu?", "Ölüm nedeni"); boşsa `conclude.suspect` / `conclude.method`. Başlık rapor sihirbazında, özette, faksta ve arşivde aynı yerden gelir. Sütun, tek olayda ikinci bir sorumluluğu — örneğin yaralayan ile parayı alanın farklı kişiler olmasını — raporda ayrı bir soru olarak sorar.
 
 Sihirbaz adım sayısını `BubeApp.ReportColumns()` üretir, bu yüzden hiçbir yerde sabit "04" yoktur; sayaç `01 / 04` ya da `01 / 05` olarak kendiliğinden yazılır. Değerlendirme tarafında yanlış kişi yazmak failde olduğu gibi `falseAccusation`, doğru kişiyi kaynaksız yazmak `incomplete` sayılır. `custody` tanımlamayan vaka hiç etkilenmez: eski üç argümanlı `SubmitFinalReport` çağrısı duruyor ve eski kayıtlar olduğu gibi okunuyor. Doğrulayıcı sütun varsa tam olarak bir doğru seçenek, etiket anahtarları ve tanımlı dayanak kaynakları arar.
 

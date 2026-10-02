@@ -1,0 +1,778 @@
+{
+ "id": "case003",
+ "titleKey": "case003.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case003.report.title",
+   "bodyKey": "case003.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case003.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case003.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case003.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case003.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case003.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "ozan",
+   "kind": "interview",
+   "titleKey": "case003.ozan.title",
+   "bodyKey": "case003.ozan.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "ozan",
+   "personNameKey": "case003.person.ozan.name",
+   "personInfoKey": "case003.person.ozan.info",
+   "questions": [
+    {
+     "id": "case003.ozan.arrive",
+     "promptKey": "case003.ozan.arrive.question",
+     "answerKey": "case003.ozan.arrive.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case003.ozan.call",
+     "promptKey": "case003.ozan.call.question",
+     "answerKey": "case003.ozan.call.answer",
+     "topicKey": "interview.topic.explanation"
+    },
+    {
+     "id": "case003.ozan.generator",
+     "promptKey": "case003.ozan.generator.question",
+     "answerKey": "case003.ozan.generator.answer",
+     "topicKey": "interview.topic.home"
+    },
+    {
+     "id": "case003.ozan.evening",
+     "promptKey": "case003.ozan.evening.question",
+     "answerKey": "case003.ozan.evening.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case003.ozan.arrive"
+     ]
+    },
+    {
+     "id": "case003.ozan.visitors",
+     "promptKey": "case003.ozan.visitors.question",
+     "answerKey": "case003.ozan.visitors.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case003.ozan.evening"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case003.ozan.arrive",
+    "case003.ozan.call",
+    "case003.ozan.generator"
+   ],
+   "deflectAnswerKey": "case003.ozan.deflect",
+   "portrait": {
+    "hairHex": "#2A2421",
+    "skinHex": "#B48563",
+    "shirtHex": "#3F4A5A"
+   },
+   "personQuoteKey": "case003.ozan.quote"
+  },
+  {
+   "id": "baris",
+   "kind": "interview",
+   "titleKey": "case003.baris.title",
+   "bodyKey": "case003.baris.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "baris",
+   "personNameKey": "case003.person.baris.name",
+   "personInfoKey": "case003.person.baris.info",
+   "questions": [
+    {
+     "id": "case003.baris.delivery",
+     "promptKey": "case003.baris.delivery.question",
+     "answerKey": "case003.baris.delivery.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case003.baris.levent",
+     "promptKey": "case003.baris.levent.question",
+     "answerKey": "case003.baris.levent.answer",
+     "topicKey": "interview.topic.observations"
+    },
+    {
+     "id": "case003.baris.leave",
+     "promptKey": "case003.baris.leave.question",
+     "answerKey": "case003.baris.leave.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case003.baris.delivery"
+     ]
+    },
+    {
+     "id": "case003.baris.voices",
+     "promptKey": "case003.baris.voices.question",
+     "answerKey": "case003.baris.voices.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case003.baris.levent"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case003.baris.delivery",
+    "case003.baris.levent",
+    "case003.baris.leave"
+   ],
+   "deflectAnswerKey": "case003.baris.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#A0714F",
+    "shirtHex": "#5A5F44",
+    "moustache": true
+   },
+   "personQuoteKey": "case003.baris.quote",
+   "requiresAsked": [
+    "case003.ozan.visitors"
+   ]
+  },
+  {
+   "id": "seda",
+   "kind": "interview",
+   "titleKey": "case003.seda.title",
+   "bodyKey": "case003.seda.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "seda",
+   "personNameKey": "case003.person.seda.name",
+   "personInfoKey": "case003.person.seda.info",
+   "questions": [
+    {
+     "id": "case003.seda.fight",
+     "promptKey": "case003.seda.fight.question",
+     "answerKey": "case003.seda.fight.answer",
+     "topicKey": "interview.topic.relationships"
+    },
+    {
+     "id": "case003.seda.leave",
+     "promptKey": "case003.seda.leave.question",
+     "answerKey": "case003.seda.leave.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case003.seda.company",
+     "promptKey": "case003.seda.company.question",
+     "answerKey": "case003.seda.company.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case003.seda.fight"
+     ]
+    },
+    {
+     "id": "case003.seda.usb",
+     "promptKey": "case003.seda.usb.question",
+     "answerKey": "case003.seda.usb.answer",
+     "topicKey": "interview.topic.belongings",
+     "requiresAsked": [
+      "case003.seda.company"
+     ]
+    },
+    {
+     "id": "case003.seda.camera",
+     "promptKey": "case003.seda.camera.question",
+     "answerKey": "case003.seda.camera.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case003.seda.leave"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case003.seda.fight",
+    "case003.seda.leave",
+    "case003.seda.company",
+    "case003.seda.usb"
+   ],
+   "deflectAnswerKey": "case003.seda.deflect",
+   "portrait": {
+    "hairHex": "#4A3528",
+    "skinHex": "#C29474",
+    "shirtHex": "#6E4A4A",
+    "longHair": true
+   },
+   "personQuoteKey": "case003.seda.quote",
+   "requiresAsked": [
+    "case003.baris.voices"
+   ]
+  },
+  {
+   "id": "camera",
+   "kind": "cctv",
+   "titleKey": "case003.camera.title",
+   "bodyKey": "case003.camera.body",
+   "requires": [
+    "report"
+   ],
+   "requiresAsked": [
+    "case003.seda.camera"
+   ],
+   "cctvSourceKey": "case003.cctv.source",
+   "cctvOverlayKey": "case003.cctv.overlay",
+   "cctvPeriodKey": "case003.cctv.period",
+   "cctvEvents": [
+    {
+     "textKey": "case003.cctv.event.seda_out",
+     "delayMs": 620,
+     "id": "seda_out",
+     "overlayTimeKey": "case003.time.seda_out",
+     "aboutPersonIds": [
+      "seda"
+     ]
+    },
+    {
+     "textKey": "case003.cctv.event.baris_in",
+     "delayMs": 620,
+     "id": "baris_in",
+     "overlayTimeKey": "case003.time.baris_in",
+     "aboutPersonIds": [
+      "baris"
+     ]
+    },
+    {
+     "textKey": "case003.cctv.event.lights",
+     "delayMs": 620,
+     "id": "lights",
+     "overlayTimeKey": "case003.time.lights"
+    },
+    {
+     "textKey": "case003.cctv.event.baris_out",
+     "delayMs": 620,
+     "id": "baris_out",
+     "overlayTimeKey": "case003.time.baris_out",
+     "aboutPersonIds": [
+      "baris"
+     ]
+    },
+    {
+     "textKey": "case003.cctv.event.ozan_in",
+     "delayMs": 620,
+     "id": "ozan_in",
+     "overlayTimeKey": "case003.time.ozan_in",
+     "aboutPersonIds": [
+      "ozan"
+     ]
+    },
+    {
+     "textKey": "case003.cctv.event.team_in",
+     "delayMs": 620,
+     "id": "team_in",
+     "overlayTimeKey": "case003.time.team_in"
+    }
+   ]
+  },
+  {
+   "id": "medical",
+   "kind": "document",
+   "titleKey": "case003.medical.title",
+   "bodyKey": "case003.medical.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case003.request.medical",
+   "requestDelaySeconds": 6,
+   "requiresAsked": [
+    "case003.ozan.call"
+   ]
+  },
+  {
+   "id": "generator",
+   "kind": "document",
+   "titleKey": "case003.generator.title",
+   "bodyKey": "case003.generator.body",
+   "requires": [
+    "medical"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case003.request.generator",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "ozan_follow",
+   "kind": "interview",
+   "titleKey": "case003.ozan_follow.title",
+   "bodyKey": "case003.ozan_follow.body",
+   "requires": [
+    "ozan",
+    "camera"
+   ],
+   "personId": "ozan",
+   "personNameKey": "case003.person.ozan.name",
+   "personInfoKey": "case003.person.ozan.info",
+   "questions": [
+    {
+     "id": "case003.ozan_follow.time",
+     "promptKey": "case003.ozan_follow.time.question",
+     "answerKey": "case003.ozan_follow.time.answer",
+     "topicKey": "interview.topic.records",
+     "presentedSourceIds": [
+      "camera#ozan_in"
+     ]
+    },
+    {
+     "id": "case003.ozan_follow.gap",
+     "promptKey": "case003.ozan_follow.gap.question",
+     "answerKey": "case003.ozan_follow.gap.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case003.ozan_follow.time"
+     ]
+    },
+    {
+     "id": "case003.ozan_follow.box",
+     "promptKey": "case003.ozan_follow.box.question",
+     "answerKey": "case003.ozan_follow.box.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case003.ozan_follow.time"
+     ]
+    },
+    {
+     "id": "case003.ozan_follow.engine",
+     "promptKey": "case003.ozan_follow.engine.question",
+     "answerKey": "case003.ozan_follow.engine.answer",
+     "topicKey": "interview.topic.home",
+     "requiresAsked": [
+      "case003.ozan_follow.time"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case003.ozan_follow.time",
+    "case003.ozan_follow.gap",
+    "case003.ozan_follow.box"
+   ],
+   "deflectAnswerKey": "case003.ozan.deflect",
+   "portrait": {
+    "hairHex": "#2A2421",
+    "skinHex": "#B48563",
+    "shirtHex": "#3F4A5A"
+   },
+   "requiresAsked": []
+  },
+  {
+   "id": "inventory",
+   "kind": "document",
+   "titleKey": "case003.inventory.title",
+   "bodyKey": "case003.inventory.body",
+   "requires": [
+    "generator"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case003.request.inventory",
+   "requestDelaySeconds": 6,
+   "requiresAsked": [
+    "case003.seda.usb"
+   ]
+  },
+  {
+   "id": "baris_follow",
+   "kind": "interview",
+   "titleKey": "case003.baris_follow.title",
+   "bodyKey": "case003.baris_follow.body",
+   "requires": [
+    "baris",
+    "inventory"
+   ],
+   "personId": "baris",
+   "personNameKey": "case003.person.baris.name",
+   "personInfoKey": "case003.person.baris.info",
+   "questions": [
+    {
+     "id": "case003.baris_follow.invoice",
+     "promptKey": "case003.baris_follow.invoice.question",
+     "answerKey": "case003.baris_follow.invoice.answer",
+     "topicKey": "interview.topic.records",
+     "presentedSourceIds": [
+      "inventory"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#baris_in",
+       "answerKey": "case003.baris_follow.invoice.decoy.camera_baris_in"
+      },
+      {
+       "sourceId": "camera#baris_out",
+       "answerKey": "case003.baris_follow.invoice.decoy.camera_baris_out"
+      }
+     ]
+    },
+    {
+     "id": "case003.baris_follow.power",
+     "promptKey": "case003.baris_follow.power.question",
+     "answerKey": "case003.baris_follow.power.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case003.baris_follow.invoice"
+     ]
+    },
+    {
+     "id": "case003.baris_follow.seda",
+     "promptKey": "case003.baris_follow.seda.question",
+     "answerKey": "case003.baris_follow.seda.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case003.baris_follow.invoice"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case003.baris_follow.invoice",
+    "case003.baris_follow.power"
+   ],
+   "deflectAnswerKey": "case003.baris.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#A0714F",
+    "shirtHex": "#5A5F44",
+    "moustache": true
+   }
+  },
+  {
+   "id": "finance",
+   "kind": "document",
+   "titleKey": "case003.finance.title",
+   "bodyKey": "case003.finance.body",
+   "requires": [
+    "inventory",
+    "ozan_follow"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case003.request.finance",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "ozan_third",
+   "kind": "interview",
+   "titleKey": "case003.ozan_third.title",
+   "bodyKey": "case003.ozan_third.body",
+   "requires": [
+    "ozan_follow",
+    "finance"
+   ],
+   "personId": "ozan",
+   "personNameKey": "case003.person.ozan.name",
+   "personInfoKey": "case003.person.ozan.info",
+   "questions": [
+    {
+     "id": "case003.ozan_third.money",
+     "promptKey": "case003.ozan_third.money.question",
+     "answerKey": "case003.ozan_third.money.answer",
+     "topicKey": "interview.topic.records",
+     "presentedSourceIds": [
+      "finance"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "inventory",
+       "answerKey": "case003.ozan_third.money.decoy.inventory"
+      }
+     ]
+    },
+    {
+     "id": "case003.ozan_third.usb",
+     "promptKey": "case003.ozan_third.usb.question",
+     "answerKey": "case003.ozan_third.usb.answer",
+     "topicKey": "interview.topic.belongings",
+     "requiresAsked": [
+      "case003.ozan_third.money"
+     ]
+    },
+    {
+     "id": "case003.ozan_third.box",
+     "promptKey": "case003.ozan_third.box.question",
+     "answerKey": "case003.ozan_third.box.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case003.ozan_third.usb"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case003.ozan_third.money",
+    "case003.ozan_third.usb",
+    "case003.ozan_third.box"
+   ],
+   "deflectAnswerKey": "case003.ozan.deflect",
+   "portrait": {
+    "hairHex": "#2A2421",
+    "skinHex": "#B48563",
+    "shirtHex": "#3F4A5A"
+   }
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "seda_leave_claim",
+   "timeKey": "case003.time.seda_leave_claim",
+   "noteKey": "case003.clue.seda_leave_claim",
+   "sourceKey": "case003.person.seda.name",
+   "sortMinute": 630,
+   "requiresAsked": [
+    "case003.seda.leave"
+   ]
+  },
+  {
+   "id": "baris_arrive_claim",
+   "timeKey": "case003.time.baris_arrive_claim",
+   "noteKey": "case003.clue.baris_arrive_claim",
+   "sourceKey": "case003.person.baris.name",
+   "sortMinute": 680,
+   "requiresAsked": [
+    "case003.baris.delivery"
+   ]
+  },
+  {
+   "id": "baris_leave_claim",
+   "timeKey": "case003.time.baris_leave_claim",
+   "noteKey": "case003.clue.baris_leave_claim",
+   "sourceKey": "case003.person.baris.name",
+   "sortMinute": 690,
+   "requiresAsked": [
+    "case003.baris.leave"
+   ]
+  },
+  {
+   "id": "ozan_arrive_claim",
+   "timeKey": "case003.time.ozan_arrive_claim",
+   "noteKey": "case003.clue.ozan_arrive_claim",
+   "sourceKey": "case003.person.ozan.name",
+   "sortMinute": 770,
+   "requiresAsked": [
+    "case003.ozan.arrive"
+   ]
+  },
+  {
+   "id": "call",
+   "timeKey": "case003.time.call",
+   "noteKey": "case003.clue.call",
+   "sourceKey": "case003.clue.source.report",
+   "sortMinute": 792,
+   "requiresRead": [
+    "report"
+   ]
+  },
+  {
+   "id": "camera_seda_out",
+   "timeKey": "case003.time.seda_out",
+   "noteKey": "case003.clue.seda_out",
+   "sourceKey": "case003.cctv.source",
+   "sortMinute": 631,
+   "requiresRead": [
+    "camera"
+   ]
+  },
+  {
+   "id": "camera_baris_in",
+   "timeKey": "case003.time.baris_in",
+   "noteKey": "case003.clue.baris_in",
+   "sourceKey": "case003.cctv.source",
+   "sortMinute": 679,
+   "requiresRead": [
+    "camera"
+   ]
+  },
+  {
+   "id": "camera_lights",
+   "timeKey": "case003.time.lights",
+   "noteKey": "case003.clue.lights",
+   "sourceKey": "case003.cctv.source",
+   "sortMinute": 684,
+   "requiresRead": [
+    "camera"
+   ]
+  },
+  {
+   "id": "camera_baris_out",
+   "timeKey": "case003.time.baris_out",
+   "noteKey": "case003.clue.baris_out",
+   "sourceKey": "case003.cctv.source",
+   "sortMinute": 691,
+   "requiresRead": [
+    "camera"
+   ]
+  },
+  {
+   "id": "camera_ozan_in",
+   "timeKey": "case003.time.ozan_in",
+   "noteKey": "case003.clue.ozan_in",
+   "sourceKey": "case003.cctv.source",
+   "sortMinute": 762,
+   "requiresRead": [
+    "camera"
+   ]
+  },
+  {
+   "id": "camera_team_in",
+   "timeKey": "case003.time.team_in",
+   "noteKey": "case003.clue.team_in",
+   "sourceKey": "case003.cctv.source",
+   "sortMinute": 801,
+   "requiresRead": [
+    "camera"
+   ]
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "accident",
+   "labelKey": "case003.verdict.accident",
+   "feedbackKey": "case003.feedback.accident",
+   "correct": true,
+   "requires": [],
+   "supportingSourceIds": [
+    "medical",
+    "generator"
+   ]
+  },
+  {
+   "id": "ozan",
+   "labelKey": "case003.verdict.ozan",
+   "feedbackKey": "case003.feedback.ozan",
+   "correct": false,
+   "requires": []
+  },
+  {
+   "id": "seda",
+   "labelKey": "case003.verdict.seda",
+   "feedbackKey": "case003.feedback.seda",
+   "correct": false,
+   "requires": []
+  },
+  {
+   "id": "baris",
+   "labelKey": "case003.verdict.baris",
+   "feedbackKey": "case003.feedback.baris",
+   "correct": false,
+   "requires": []
+  }
+ ],
+ "methods": [
+  {
+   "id": "co",
+   "labelKey": "case003.method.co",
+   "correct": true,
+   "supportingSourceIds": [
+    "medical",
+    "generator"
+   ]
+  },
+  {
+   "id": "trauma",
+   "labelKey": "case003.method.trauma",
+   "correct": false
+  },
+  {
+   "id": "blow",
+   "labelKey": "case003.method.blow",
+   "correct": false
+  },
+  {
+   "id": "heart",
+   "labelKey": "case003.method.heart",
+   "correct": false
+  }
+ ],
+ "suspectLabelKey": "case003.suspect.label",
+ "methodLabelKey": "case003.method.label",
+ "custodyLabelKey": "case003.custody.label",
+ "custody": [
+  {
+   "id": "ozan_usb",
+   "labelKey": "case003.custody.ozan_usb",
+   "correct": true,
+   "supportingSourceIds": [
+    "finance",
+    "ozan_third"
+   ]
+  },
+  {
+   "id": "seda_usb",
+   "labelKey": "case003.custody.seda_usb",
+   "correct": false
+  },
+  {
+   "id": "baris_invoice",
+   "labelKey": "case003.custody.baris_invoice",
+   "correct": false
+  },
+  {
+   "id": "none",
+   "labelKey": "case003.custody.none",
+   "correct": false
+  }
+ ],
+ "evidence": [
+  {
+   "id": "camera",
+   "labelKey": "case003.evidence.camera",
+   "correct": false
+  },
+  {
+   "id": "medical",
+   "labelKey": "case003.evidence.medical",
+   "correct": true,
+   "supportingSourceIds": [
+    "medical",
+    "generator"
+   ]
+  },
+  {
+   "id": "generator",
+   "labelKey": "case003.evidence.generator",
+   "correct": false
+  },
+  {
+   "id": "inventory",
+   "labelKey": "case003.evidence.inventory",
+   "correct": false
+  },
+  {
+   "id": "finance",
+   "labelKey": "case003.evidence.finance",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "summary": {
+  "locationKey": "case003.summary.location",
+  "truthKey": "case003.summary.truth",
+  "evidenceKey": "case003.summary.evidence",
+  "lessonKey": "case003.summary.lesson"
+ },
+ "successfulReportTrustGain": 6,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": ""
+}

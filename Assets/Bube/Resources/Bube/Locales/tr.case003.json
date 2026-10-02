@@ -1,0 +1,764 @@
+{
+ "entries": [
+  {
+   "key": "case003.baris.body",
+   "value": "O gece depoya teslimat yapan tedarikçinin ifadesi."
+  },
+  {
+   "key": "case003.baris.deflect",
+   "value": "O konuda söyleyecek bir şeyim yok."
+  },
+  {
+   "key": "case003.baris.delivery.answer",
+   "value": "On biri yirmi geçe gibi. İki koli anakart, bir koli adaptör. Levent Bey kapıyı kendisi açtı, malı birlikte saydık."
+  },
+  {
+   "key": "case003.baris.delivery.answer.demeanor",
+   "value": "Cevabı kısa ve iş diliyle verdi."
+  },
+  {
+   "key": "case003.baris.delivery.question",
+   "value": "O gece depoya ne zaman geldiniz?"
+  },
+  {
+   "key": "case003.baris.leave.answer",
+   "value": "On bir buçuk gibi. Faturayı kestim, imzasını aldım, çıktım. Aracım kapının önündeydi."
+  },
+  {
+   "key": "case003.baris.leave.answer.demeanor",
+   "value": "Cüzdanından katlanmış bir kâğıt çıkardı, açmadan geri koydu."
+  },
+  {
+   "key": "case003.baris.leave.question",
+   "value": "Depodan kaçta ayrıldınız?"
+  },
+  {
+   "key": "case003.baris.levent.answer",
+   "value": "Yorgun. Sinirliydi biraz. Ödemeyi yine erteledi, üç aydır erteliyor. Kavga etmedik ama hoş da ayrılmadık."
+  },
+  {
+   "key": "case003.baris.levent.answer.demeanor",
+   "value": "‘Kavga etmedik’ derken iki elini birden kaldırdı."
+  },
+  {
+   "key": "case003.baris.levent.question",
+   "value": "Levent Bey nasıl görünüyordu?"
+  },
+  {
+   "key": "case003.baris.quote",
+   "value": "“Malı bıraktım, faturayı kestim, çıktım.”"
+  },
+  {
+   "key": "case003.baris.title",
+   "value": "Barış Tümer — görüşme"
+  },
+  {
+   "key": "case003.baris.voices.answer",
+   "value": "Akşam dokuz gibi bir kere uğramıştım, mal hazır mı diye. İçeriden bağırış geliyordu, bir kadın sesi. Girmedim, sonra geleyim dedim. Seda Hanım’dır, başka kim olacak."
+  },
+  {
+   "key": "case003.baris.voices.answer.demeanor",
+   "value": "Sesini alçalttı, sanki kadın yan odadaymış gibi."
+  },
+  {
+   "key": "case003.baris.voices.question",
+   "value": "O akşam depoda başka birini gördünüz ya da duydunuz mu?"
+  },
+  {
+   "key": "case003.baris_follow.body",
+   "value": "Eşya dökümündeki irsaliyeden sonra yapılan görüşme."
+  },
+  {
+   "key": "case003.baris_follow.invoice.answer",
+   "value": "Tamam, o saat doğru değil. Faturayı orada kesmedim. Aracın içinde, çıktıktan sonra kestim, saati de öyle girdim. Levent Bey üç aydır ödemiyordu, ben de kayıtları biraz kendime göre tutuyordum. Vergi işi. Bunun ölümle ilgisi yok."
+  },
+  {
+   "key": "case003.baris_follow.invoice.answer.demeanor",
+   "value": "Uzun bir nefes verdi. Sesindeki savunma bir anda yorgunluğa döndü."
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_in",
+   "value": "Geldim, evet. Bunu ilk günden söyledim zaten."
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_in.demeanor",
+   "value": "Kayda sırtını döner gibi oturdu."
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_out",
+   "value": "Çıktım. Gördüğünüz gibi. Başka ne soracaksınız?"
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_out.demeanor",
+   "value": "Kollarını kavuşturdu."
+  },
+  {
+   "key": "case003.baris_follow.invoice.question",
+   "value": "Masada sizin imzanızı taşıyan bir belge var. Üzerindeki saati açıklar mısınız?"
+  },
+  {
+   "key": "case003.baris_follow.power.answer",
+   "value": "Işıklar gitti. Levent Bey ‘arkada jeneratör var, ben açarım’ dedi, arkaya geçti. Bir motor sesi geldi, ışık geri geldi. Ben sayımı bitirdim, çıktım. Kokuya dikkat etmedim, kapıya yakındım."
+  },
+  {
+   "key": "case003.baris_follow.power.answer.demeanor",
+   "value": "Anlatırken eliyle ip çeker gibi bir hareket yaptı."
+  },
+  {
+   "key": "case003.baris_follow.power.question",
+   "value": "Siz depodayken elektrikle ilgili bir şey oldu mu?"
+  },
+  {
+   "key": "case003.baris_follow.seda.answer",
+   "value": "Emin değilim. Kadın sesiydi, Seda Hanım dedim çünkü başka kimi bilirim. Yüzünü görmedim. Belki telefondu, bilmiyorum."
+  },
+  {
+   "key": "case003.baris_follow.seda.answer.demeanor",
+   "value": "Önceki kesinliğinden geri adım attı, omuzlarını düşürdü."
+  },
+  {
+   "key": "case003.baris_follow.seda.question",
+   "value": "Akşam duyduğunuz kadın sesi hakkında emin misiniz?"
+  },
+  {
+   "key": "case003.baris_follow.title",
+   "value": "Barış Tümer — ikinci görüşme"
+  },
+  {
+   "key": "case003.camera.body",
+   "value": "Depo dış kapısının üstündeki kameranın 22.00 – 01.30 arası döküm kaydı. Kamera yalnız kapıyı ve önündeki kaldırımı görüyor; deponun içi kadrajda değil. Gece görüşü düşük, yüz teşhisine elverişli değil."
+  },
+  {
+   "key": "case003.camera.title",
+   "value": "DEPO KAPI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case003.cctv.event.baris_in",
+   "value": "Hafif ticari bir araç kapının önüne yanaşıyor. Sürücü kolilerle kapıya geliyor; kapı içeriden açılıyor."
+  },
+  {
+   "key": "case003.cctv.event.baris_out",
+   "value": "Teslimatı getiren kişi kapıdan çıkıyor, hafif ticari araca binip uzaklaşıyor. Kapı arkasından kapanıyor."
+  },
+  {
+   "key": "case003.cctv.event.lights",
+   "value": "Kapı üstü lamba ve sokak tarafındaki vitrin ışığı sönüyor. Kırk saniye sonra yalnız kapı lambası yeniden yanıyor."
+  },
+  {
+   "key": "case003.cctv.event.ozan_in",
+   "value": "Bir kişi yaya olarak kapıya geliyor, kapıyı itip içeri giriyor. Kapı aralık kalıyor."
+  },
+  {
+   "key": "case003.cctv.event.seda_out",
+   "value": "Dış kapıdan bir kadın çıkıyor, kapının önüne park etmiş otomobile biniyor. Araç sokağın aşağısına doğru uzaklaşıyor."
+  },
+  {
+   "key": "case003.cctv.event.team_in",
+   "value": "Ekip aracı kapının önüne geliyor. İki kişi içeri giriyor."
+  },
+  {
+   "key": "case003.cctv.overlay",
+   "value": "KAPI 01"
+  },
+  {
+   "key": "case003.cctv.period",
+   "value": "12–13 Aralık 2026, 22.00 – 01.30"
+  },
+  {
+   "key": "case003.cctv.source",
+   "value": "Depo kapı kamerası"
+  },
+  {
+   "key": "case003.clue.baris_arrive_claim",
+   "value": "Teslimata geldiğini söylüyor"
+  },
+  {
+   "key": "case003.clue.baris_in",
+   "value": "Teslimat aracı kapıya yanaşıyor"
+  },
+  {
+   "key": "case003.clue.baris_leave_claim",
+   "value": "Ayrıldığını söylüyor"
+  },
+  {
+   "key": "case003.clue.baris_out",
+   "value": "Teslimatı getiren kişi ayrılıyor"
+  },
+  {
+   "key": "case003.clue.call",
+   "value": "İhbar alınıyor"
+  },
+  {
+   "key": "case003.clue.lights",
+   "value": "Işıklar sönüyor, yalnız kapı lambası geri geliyor"
+  },
+  {
+   "key": "case003.clue.ozan_arrive_claim",
+   "value": "Depoya geldiğini söylüyor"
+  },
+  {
+   "key": "case003.clue.ozan_in",
+   "value": "Bir kişi yaya gelip içeri giriyor"
+  },
+  {
+   "key": "case003.clue.seda_leave_claim",
+   "value": "Ayrıldığını söylüyor"
+  },
+  {
+   "key": "case003.clue.seda_out",
+   "value": "Bir kadın kapıdan çıkıp araçla uzaklaşıyor"
+  },
+  {
+   "key": "case003.clue.source.report",
+   "value": "Olay tespit tutanağı"
+  },
+  {
+   "key": "case003.clue.team_in",
+   "value": "Ekip geliyor"
+  },
+  {
+   "key": "case003.custody.baris_invoice",
+   "value": "Barış Tümer — teslim irsaliyesi"
+  },
+  {
+   "key": "case003.custody.label",
+   "value": "Olay yerini kim değiştirdi, ne aldı?"
+  },
+  {
+   "key": "case003.custody.none",
+   "value": "Olay yeri değiştirilmedi"
+  },
+  {
+   "key": "case003.custody.ozan_usb",
+   "value": "Ozan Çelik — USB bellek ve cari klasörü"
+  },
+  {
+   "key": "case003.custody.seda_usb",
+   "value": "Seda Sarı — USB bellek"
+  },
+  {
+   "key": "case003.evidence.camera",
+   "value": "Depo kapı kamerası dökümü"
+  },
+  {
+   "key": "case003.evidence.finance",
+   "value": "Şirket hesap incelemesi"
+  },
+  {
+   "key": "case003.evidence.generator",
+   "value": "Jeneratör teknik inceleme raporu"
+  },
+  {
+   "key": "case003.evidence.inventory",
+   "value": "Olay yeri eşya dökümü"
+  },
+  {
+   "key": "case003.evidence.medical",
+   "value": "Adli tıp ön raporu"
+  },
+  {
+   "key": "case003.feedback.accident",
+   "value": "Levent Sarı, egzoz borusu yerinden çıkmış jeneratörü kapalı depoda kendisi çalıştırdı ve karbonmonoksitten öldü."
+  },
+  {
+   "key": "case003.feedback.baris",
+   "value": "Barış Tümer 23.31’de ayrıldığında Levent Sarı hayattaydı. İrsaliyedeki saat bir vergi düzensizliğini saklıyordu, ölümü değil."
+  },
+  {
+   "key": "case003.feedback.ozan",
+   "value": "Ozan Çelik depoya 00.42’de girdi; ölüm bundan önce, karbonmonoksit zehirlenmesiyle gerçekleşmişti. Olay yerini değiştirdi ama ölüme sebep olmadı."
+  },
+  {
+   "key": "case003.feedback.seda",
+   "value": "Seda Sarı 22.31’de ayrıldı ve geri dönmedi. Tartışma gerçekti, ama ölümle bağı yok."
+  },
+  {
+   "key": "case003.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case003.file.value.bureau",
+   "value": "BDS Şüpheli Ölüm Masası"
+  },
+  {
+   "key": "case003.file.value.location",
+   "value": "Karaköy, Sarı Elektronik deposu"
+  },
+  {
+   "key": "case003.file.value.number",
+   "value": "BDS-2026-0231"
+  },
+  {
+   "key": "case003.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case003.file.value.reporter",
+   "value": "Ozan Çelik, 01.12 ihbarı"
+  },
+  {
+   "key": "case003.finance.body",
+   "value": "Sarı Elektronik’in banka hesabı ve muhasebe yazılımı incelendi.\n\nSon on dört ayda ‘nakliye gideri’ başlığıyla, tedarikçi kaydı bulunmayan bir firmaya toplam 186.400 TL ödeme yapıldı. Ödemelerin hepsi Ozan Çelik’in yazılım kullanıcısıyla onaylanmış. Alıcı hesabın sahibi Ozan Çelik’in yakını olarak görünüyor.\n\nMuhasebe yedeği en son 12 Aralık 22.10’da Levent Sarı’nın bilgisayarından bir USB belleğe alınmış. Aynı bilgisayarda o akşam 21.40’ta ‘nakliye_odemeleri.xlsx’ adlı bir dosya oluşturulmuş.\n\nSeda Sarı’nın şirket hesabında olağan dışı bir hareket bulunmadı."
+  },
+  {
+   "key": "case003.finance.title",
+   "value": "ŞİRKET HESAP İNCELEMESİ"
+  },
+  {
+   "key": "case003.generator.body",
+   "value": "Arka bölümdeki benzinli taşınabilir jeneratör incelendi.\n\nMotor bloğu ve egzoz susturucusunda yakın zamanda çalışmayla uyumlu ısı izi ve kurum birikimi var. Yakıt deposu boş; depo kapağında ve dolum ağzında taze yakıt kalıntısı bulunuyor. Jeneratör olay gecesi çalıştırılmış ve yakıtı bitene kadar çalışmıştır.\n\nEgzozu dışarı veren esnek tahliye borusu duvar çıkışından ayrılmış halde yerde duruyor. Kelepçe gevşek; bağlantı ağzında aletle zorlama, kesme ya da yeni çizik izi yok. Borunun ayrılması eski bir gevşemeyle uyumlu.\n\nJeneratörün marş ipinin tutamağında ve şalterinde tek kişiye ait temas izleri alındı; karşılaştırma için örnek gerekli.\n\nOrtam ölçümü: arka bölümde pencereler kapalıyken saatlerce çalışan bir jeneratör, ölümcül karbonmonoksit yoğunluğuna ulaşmaya yeterlidir."
+  },
+  {
+   "key": "case003.generator.title",
+   "value": "JENERATÖR TEKNİK İNCELEME RAPORU"
+  },
+  {
+   "key": "case003.inventory.body",
+   "value": "Levent Sarı’nın masası ve arka bölüm ikinci kez incelendi.\n\nAnahtarlık masanın üstünde. Anahtarlıktaki USB bellek halkası açık ve boş; halkanın kendisi sağlam, kopma izi yok. Masanın alt çekmecesinde ‘2026 cari’ etiketli klasörün askısı duruyor, klasör yok.\n\nMasada Barış Tümer imzalı bir teslim irsaliyesi: üç koli, düzenleme saati 23.50.\n\nDüşen kolinin durduğu üst raf rafın en arka bölümünde. Raf ayağının dibinde, koliyle aynı hizada taze bir sürtünme izi var. Kolinin üzerinde Levent Sarı ile Ozan Çelik’e ait izler bulundu; ikisi de depoda düzenli çalışıyor.\n\nArka bölüm penceresinin kolu kapalı konumda. Pencerede zorlama izi yok."
+  },
+  {
+   "key": "case003.inventory.title",
+   "value": "OLAY YERİ EŞYA DÖKÜMÜ"
+  },
+  {
+   "key": "case003.medical.body",
+   "value": "İncelenen kişi: Levent Sarı (51).\n\nTahmini ölüm zamanı: 12 Aralık 23.35 ile 13 Aralık 00.05 arası.\n\nKanda karboksihemoglobin oranı %58. Deri ve iç organlarda karbonmonoksit zehirlenmesiyle uyumlu kiraz kırmızısı renk değişimi var. Ölüm nedeni: karbonmonoksit zehirlenmesi.\n\nBaşın sağ yan bölgesindeki açık yara künt bir cisimle oluşmuştur. Yara çevresinde kanama ve doku tepkisi gibi canlılık bulgusu saptanmadı; yaranın ölümden sonra oluştuğu değerlendirildi.\n\nVücutta savunma ya da kavrama izi yok. Kanda alkol ve ilaç taraması olumsuz."
+  },
+  {
+   "key": "case003.medical.title",
+   "value": "ADLİ TIP ÖN RAPORU"
+  },
+  {
+   "key": "case003.method.blow",
+   "value": "Sert cisimle vurma"
+  },
+  {
+   "key": "case003.method.co",
+   "value": "Karbonmonoksit zehirlenmesi"
+  },
+  {
+   "key": "case003.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case003.method.label",
+   "value": "Ölüm nedeni"
+  },
+  {
+   "key": "case003.method.trauma",
+   "value": "Düşen koliden kaynaklanan baş travması"
+  },
+  {
+   "key": "case003.offer.subtitle",
+   "value": "SON TESLİMAT  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case003.offer.summary",
+   "value": "Karaköy’de bir elektronik deposunun sahibi gece yarısından sonra deposunda ölü bulunuyor. Yanında raftan düşmüş ağır bir koli var; ilk değerlendirme iş kazası. Tutanak masanızda."
+  },
+  {
+   "key": "case003.offer.title",
+   "value": "DOSYA #003"
+  },
+  {
+   "key": "case003.ozan.arrive.answer",
+   "value": "Biri yirmi geçiyordu, on ikiyi elli geçe gibi. Gece teslimatı vardı, sabaha mal çıkacaktı. Kapı aralıktı. İçeri girdim, Levent Bey yerdeydi."
+  },
+  {
+   "key": "case003.ozan.arrive.answer.demeanor",
+   "value": "Saati söylerken telefonuna bakmadı. Cevap hazır gibiydi."
+  },
+  {
+   "key": "case003.ozan.arrive.question",
+   "value": "Depoya kaçta geldiniz?"
+  },
+  {
+   "key": "case003.ozan.body",
+   "value": "Olayı bildiren depo çalışanının olay yerinde alınan ilk ifadesi."
+  },
+  {
+   "key": "case003.ozan.call.answer",
+   "value": "Hemen aradım. Yanına gittim, seslendim, kıpırdamadı. Ellerim titriyordu, numarayı iki kere yanlış tuşladım."
+  },
+  {
+   "key": "case003.ozan.call.answer.demeanor",
+   "value": "Elini masanın kenarına koydu, parmakları gerçekten titriyordu."
+  },
+  {
+   "key": "case003.ozan.call.question",
+   "value": "Onu gördükten sonra ne yaptınız?"
+  },
+  {
+   "key": "case003.ozan.deflect",
+   "value": "Bilmiyorum. Gerçekten bilmiyorum."
+  },
+  {
+   "key": "case003.ozan.evening.answer",
+   "value": "Akşam yedide çıktım. O masasındaydı, hesap kitapla uğraşıyordu. Morali bozuktu, son aylarda hep öyleydi."
+  },
+  {
+   "key": "case003.ozan.evening.answer.demeanor",
+   "value": "Sandalyede doğruldu. ‘Hesap kitap’ derken bakışını kaçırdı."
+  },
+  {
+   "key": "case003.ozan.evening.question",
+   "value": "Levent Bey’i en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case003.ozan.generator.answer",
+   "value": "O çalışmıyor ki. Haftalardır bozuk. Levent Bey servise verecekti, vermedi. Elektrik kesilince mum yakıyorduk, şaka gibi."
+  },
+  {
+   "key": "case003.ozan.generator.answer.demeanor",
+   "value": "Gülümser gibi oldu, sonra yüzü düştü."
+  },
+  {
+   "key": "case003.ozan.generator.question",
+   "value": "Arkadaki jeneratör hakkında ne biliyorsunuz?"
+  },
+  {
+   "key": "case003.ozan.quote",
+   "value": "“Kapı açıktı. İçeri girdim, yerdeydi. Hemen aradım.”"
+  },
+  {
+   "key": "case003.ozan.title",
+   "value": "Ozan Çelik — görüşme"
+  },
+  {
+   "key": "case003.ozan.visitors.answer",
+   "value": "Barış Abi’nin teslimatı vardı, tedarikçi. Bir de akşam Seda Hanım gelecekti galiba, Levent Bey öyle demişti. Kardeşi, ortağı."
+  },
+  {
+   "key": "case003.ozan.visitors.answer.demeanor",
+   "value": "İsimleri sayarken parmaklarıyla saydı."
+  },
+  {
+   "key": "case003.ozan.visitors.question",
+   "value": "O gece depoya başka kim gelecekti?"
+  },
+  {
+   "key": "case003.ozan_follow.body",
+   "value": "Kamera kaydı ve adli tıp raporundan sonra yapılan görüşme."
+  },
+  {
+   "key": "case003.ozan_follow.box.answer",
+   "value": "Yerdeydi. Yanındaydı. Ben bir şeye dokunmadım. Neden dokunayım?"
+  },
+  {
+   "key": "case003.ozan_follow.box.answer.demeanor",
+   "value": "Soruyu sorar sormaz cevapladı. Elleri masanın altına indi."
+  },
+  {
+   "key": "case003.ozan_follow.box.question",
+   "value": "Koli siz girdiğinizde yerde miydi?"
+  },
+  {
+   "key": "case003.ozan_follow.engine.answer",
+   "value": "Çalıştırılmış mı? Ben… hayır. Bozuk sanıyordum. Levent Bey mi tamir ettirdi? Bana söylemedi. Kokuyu hatırlıyorum ama, ağır bir koku vardı içeride, rutubet sandım."
+  },
+  {
+   "key": "case003.ozan_follow.engine.answer.demeanor",
+   "value": "Şaşkınlığı sahici görünüyordu. Bir süre bir şey demedi."
+  },
+  {
+   "key": "case003.ozan_follow.engine.question",
+   "value": "Jeneratör o gece çalıştırılmış. Bunu bilmiyor muydunuz?"
+  },
+  {
+   "key": "case003.ozan_follow.gap.answer",
+   "value": "Yanına çöktüm. Nabzını aradım, bulamadım. Sonra… sonra oturdum. Ne yapacağımı bilemedim. Kimse bunu anlamaz, siz de anlamazsınız."
+  },
+  {
+   "key": "case003.ozan_follow.gap.answer.demeanor",
+   "value": "Sesi yükseldi, sonra bir anda kesildi. Gözü masadaki kâğıtlara takıldı."
+  },
+  {
+   "key": "case003.ozan_follow.gap.question",
+   "value": "Girdiğiniz an ile aradığınız an arasında neredeyse yarım saat var. O süre içinde ne yaptınız?"
+  },
+  {
+   "key": "case003.ozan_follow.time.answer",
+   "value": "Tamam. Kırk iki. Saate bakmadım ki, aklımda öyle kalmış. Girdim, gördüm, donup kaldım. Ne kadar durduğumu bilmiyorum."
+  },
+  {
+   "key": "case003.ozan_follow.time.answer.demeanor",
+   "value": "Ekrana bakınca yutkundu. Cevabı yavaş verdi."
+  },
+  {
+   "key": "case003.ozan_follow.time.question",
+   "value": "Kayıttaki saatle sizin söylediğiniz saat arasında bir fark var. Bunu açıklar mısınız?"
+  },
+  {
+   "key": "case003.ozan_follow.title",
+   "value": "Ozan Çelik — ikinci görüşme"
+  },
+  {
+   "key": "case003.ozan_third.body",
+   "value": "Hesap incelemesi ve eşya dökümünden sonra yapılan görüşme."
+  },
+  {
+   "key": "case003.ozan_third.box.answer",
+   "value": "Çekmeceyi açarken rafa yaslandım. Ellerim titriyordu. Koli kaydı, düştü… başına. Ben öldürmedim onu. Ben girdiğimde ölmüştü, yemin ederim. Sonra kalkıp aradım."
+  },
+  {
+   "key": "case003.ozan_third.box.answer.demeanor",
+   "value": "Sesi titredi. Son cümleyi tekrar etti, bu kez daha sessiz."
+  },
+  {
+   "key": "case003.ozan_third.box.question",
+   "value": "Koli nasıl düştü?"
+  },
+  {
+   "key": "case003.ozan_third.money.answer",
+   "value": "Annem hastaydı. Geri koyacaktım. Her ay biraz, kimse fark etmeden. Levent Bey o akşam fark etmiş, dosyayı hazırlamış. Yedide çıkarken bana ‘yarın konuşacağız’ dedi. O gece uyuyamadım. Teslimat bahane, konuşmaya gittim."
+  },
+  {
+   "key": "case003.ozan_third.money.answer.demeanor",
+   "value": "Uzun süre sustu. Sonra bir çırpıda, durmadan anlattı."
+  },
+  {
+   "key": "case003.ozan_third.money.decoy.inventory",
+   "value": "Koliye herkes dokunuyor. Depoda çalışıyorum ben."
+  },
+  {
+   "key": "case003.ozan_third.money.decoy.inventory.demeanor",
+   "value": "Belgeyi parmağıyla itti."
+  },
+  {
+   "key": "case003.ozan_third.money.question",
+   "value": "Bu ödemeler hakkında ne söyleyeceksiniz?"
+  },
+  {
+   "key": "case003.ozan_third.title",
+   "value": "Ozan Çelik — üçüncü görüşme"
+  },
+  {
+   "key": "case003.ozan_third.usb.answer",
+   "value": "Bende. Klasör de. Evde, dolabın üstünde. Onu yerde gördüm ve tek düşündüğüm o bellek oldu. Halkadan çıkardım, klasörü aldım. İnsan değilmişim gibi."
+  },
+  {
+   "key": "case003.ozan_third.usb.answer.demeanor",
+   "value": "Gözleri doldu, silmedi."
+  },
+  {
+   "key": "case003.ozan_third.usb.question",
+   "value": "Anahtarlıktaki bellek nerede?"
+  },
+  {
+   "key": "case003.person.baris.info",
+   "value": "39 yaşında, elektronik parça tedarikçisi; depoya kendi aracıyla teslimat yapıyor."
+  },
+  {
+   "key": "case003.person.baris.name",
+   "value": "Barış Tümer"
+  },
+  {
+   "key": "case003.person.ozan.info",
+   "value": "28 yaşında, depoda dört yıldır çalışıyor. Olayı bildiren kişi."
+  },
+  {
+   "key": "case003.person.ozan.name",
+   "value": "Ozan Çelik"
+  },
+  {
+   "key": "case003.person.seda.info",
+   "value": "46 yaşında, Levent Sarı’nın kız kardeşi ve şirket ortağı."
+  },
+  {
+   "key": "case003.person.seda.name",
+   "value": "Seda Sarı"
+  },
+  {
+   "key": "case003.report.body",
+   "value": "13 Aralık 2026, saat 01.12’de alınan ihbar üzerine Karaköy’de, Sarı Elektronik’e ait depoya gidildi. İhbarı depo çalışanı Ozan Çelik yaptı.\n\nDepo sahibi Levent Sarı (51) arka bölümde, raf sırasının dibinde, yüzüstü ve hareketsiz halde bulundu; olay yerinde ölümü tespit edildi. Başının sağ yan bölgesinde açık yara var. Yanında üst raftan düşmüş, yaklaşık 18 kilo ağırlığında bir karton koli duruyor.\n\nDepoda boğuşma izi, devrilmiş eşya ya da zorlanmış kapı görülmedi. Dış kapı kilitsiz, arka bölümün havalandırma penceresi kapalı. Arka bölümde benzinli taşınabilir bir jeneratör var; olay yerine varıldığında çalışmıyordu.\n\nÇelik ilk beyanında gece teslimatı için depoya döndüğünü, kapıyı açık bulduğunu ve Levent Sarı’yı yerde görür görmez aradığını söyledi. Ön değerlendirme: raftan düşen koli nedeniyle iş kazası şüphesi."
+  },
+  {
+   "key": "case003.report.imageCaption",
+   "value": "Olay yeri: deponun arka bölümü, 13 Aralık 02.05."
+  },
+  {
+   "key": "case003.report.title",
+   "value": "OLAY TESPİT TUTANAĞI"
+  },
+  {
+   "key": "case003.request.finance",
+   "value": "Şirket hesaplarının incelenmesini iste"
+  },
+  {
+   "key": "case003.request.generator",
+   "value": "Jeneratörün teknik incelemesini iste"
+  },
+  {
+   "key": "case003.request.inventory",
+   "value": "Masa ve rafta ikinci inceleme iste"
+  },
+  {
+   "key": "case003.request.medical",
+   "value": "Adli tıp ön raporunu iste"
+  },
+  {
+   "key": "case003.seda.body",
+   "value": "Ölen kişinin kız kardeşi ve şirket ortağının ifadesi."
+  },
+  {
+   "key": "case003.seda.camera.answer",
+   "value": "Kapının üstünde kamera var. Geçen yıl hırsızlıktan sonra taktırdı. Kayıt bilgisayara düşüyor, Ozan bilir."
+  },
+  {
+   "key": "case003.seda.camera.answer.demeanor",
+   "value": "Omuz silkti, kameranın varlığından rahatsız değil gibiydi."
+  },
+  {
+   "key": "case003.seda.camera.question",
+   "value": "Deponun çevresinde kayıt tutan bir şey var mı?"
+  },
+  {
+   "key": "case003.seda.company.answer",
+   "value": "Kötü. Borç var, tedarikçilere ödeme gecikiyor. Ben satalım diyordum, Levent direniyordu. Evet, o akşam da bu yüzden bağırdık. Şimdi hisse bana mı kalıyor diye soracaksınız, biliyorum."
+  },
+  {
+   "key": "case003.seda.company.answer.demeanor",
+   "value": "Soruyu bitirmeni beklemeden cevapladı. Gözlerini senden ayırmadı."
+  },
+  {
+   "key": "case003.seda.company.question",
+   "value": "Şirketin durumu nasıldı?"
+  },
+  {
+   "key": "case003.seda.deflect",
+   "value": "Bunu avukatım olmadan konuşmam."
+  },
+  {
+   "key": "case003.seda.fight.answer",
+   "value": "İş konuştuk. Sesler yükseldi, olur öyle. Kardeşiz sonuçta. Kavga dediğiniz şey değildi."
+  },
+  {
+   "key": "case003.seda.fight.answer.demeanor",
+   "value": "Çantasını kucağına aldı, kayışını parmağına doladı."
+  },
+  {
+   "key": "case003.seda.fight.question",
+   "value": "O akşam kardeşinizle aranızda ne geçti?"
+  },
+  {
+   "key": "case003.seda.leave.answer",
+   "value": "On buçukta. Arabama bindim, eve gittim. Bir daha da dönmedim. Keşke dönseydim."
+  },
+  {
+   "key": "case003.seda.leave.answer.demeanor",
+   "value": "‘Keşke’ derken sesi çatladı, hemen toparladı."
+  },
+  {
+   "key": "case003.seda.leave.question",
+   "value": "Depodan kaçta ayrıldınız?"
+  },
+  {
+   "key": "case003.seda.quote",
+   "value": "“İş konuştuk, sesler yükseldi. On buçukta çıktım.”"
+  },
+  {
+   "key": "case003.seda.title",
+   "value": "Seda Sarı — görüşme"
+  },
+  {
+   "key": "case003.seda.usb.answer",
+   "value": "Bir USB bellekte. Muhasebeciye bile güvenmezdi, her şey o bellekteydi. Anahtarlığına takılıydı, yanından ayırmazdı."
+  },
+  {
+   "key": "case003.seda.usb.answer.demeanor",
+   "value": "Anlatırken elleriyle küçük bir şey tuttuğunu gösterdi."
+  },
+  {
+   "key": "case003.seda.usb.question",
+   "value": "Kardeşiniz şirket kayıtlarını nerede tutardı?"
+  },
+  {
+   "key": "case003.summary.evidence",
+   "value": "Adli tıp ölüm nedenini karbonmonoksit, baş yarasını ölüm sonrası olarak belirliyor; jeneratör incelemesi borunun zorlama olmadan, eskiden çıktığını gösteriyor. Kamera kaydı kimin ne zaman girip çıktığını ayırıyor; eşya dökümü ve hesap incelemesi eksik belleği ve onu alma sebebini ortaya koyuyor."
+  },
+  {
+   "key": "case003.summary.lesson",
+   "value": "Olay yerini değiştiren kişi ölüme sebep olan kişi değildir. Yalan söylemek, saklamak ve delil almak ayrı suçlardır; ama bir ölümün nedeni ancak fiziksel bulguyla kurulur, şüpheliyle değil."
+  },
+  {
+   "key": "case003.summary.location",
+   "value": "Karaköy, Sarı Elektronik deposu — 12–13 Aralık 2026"
+  },
+  {
+   "key": "case003.summary.truth",
+   "value": "Seda Sarı 22.31’de tartışmanın ardından ayrıldı. Barış Tümer 23.19’da teslimata geldi; elektrik kesilince Levent Sarı arka bölümdeki jeneratörü kendisi çalıştırdı. Egzoz tahliye borusu eskiden gevşemiş ve yerinden çıkmıştı; gaz kapalı depoya doldu. Tümer 23.31’de ayrıldı, Levent Sarı 23.35 ile 00.05 arasında karbonmonoksitten öldü ve jeneratör yakıtı bitince durdu. Ozan Çelik 00.42’de geldi, zimmetini ortaya çıkaracak USB belleği ve cari klasörünü aldı, çekmeceyi açarken rafa yaslanıp koliyi düşürdü ve ihbarı ancak 01.12’de yaptı."
+  },
+  {
+   "key": "case003.suspect.label",
+   "value": "Ölümden kim sorumlu?"
+  },
+  {
+   "key": "case003.tablet.caseLine",
+   "value": "DOSYA #003  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "case003.time.baris_arrive_claim",
+   "value": "23.20"
+  },
+  {
+   "key": "case003.time.baris_in",
+   "value": "23.19"
+  },
+  {
+   "key": "case003.time.baris_leave_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case003.time.baris_out",
+   "value": "23.31"
+  },
+  {
+   "key": "case003.time.call",
+   "value": "01.12"
+  },
+  {
+   "key": "case003.time.lights",
+   "value": "23.24"
+  },
+  {
+   "key": "case003.time.ozan_arrive_claim",
+   "value": "00.50"
+  },
+  {
+   "key": "case003.time.ozan_in",
+   "value": "00.42"
+  },
+  {
+   "key": "case003.time.seda_leave_claim",
+   "value": "22.30"
+  },
+  {
+   "key": "case003.time.seda_out",
+   "value": "22.31"
+  },
+  {
+   "key": "case003.time.team_in",
+   "value": "01.21"
+  },
+  {
+   "key": "case003.title",
+   "value": "Dosya #003 — Son Teslimat"
+  },
+  {
+   "key": "case003.verdict.accident",
+   "value": "Kimse — kaza"
+  },
+  {
+   "key": "case003.verdict.baris",
+   "value": "Barış Tümer"
+  },
+  {
+   "key": "case003.verdict.ozan",
+   "value": "Ozan Çelik"
+  },
+  {
+   "key": "case003.verdict.seda",
+   "value": "Seda Sarı"
+  }
+ ]
+}

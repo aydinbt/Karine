@@ -29,9 +29,9 @@ public sealed partial class BubeApp {
  static List<KeyValuePair<string,string>> Options(IEnumerable<KeyValuePair<string,string>> items) => items.ToList();
  List<ReportColumn> ReportColumns() {
   var columns=new List<ReportColumn> {
-   new ReportColumn{headingKey="conclude.suspect",sourceHeadingKey="conclude.suspectSource",choices=Options(game.Data.verdicts.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   new ReportColumn{headingKey=SuspectKey(game.Data),sourceHeadingKey="conclude.suspectSource",choices=Options(game.Data.verdicts.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
     pick=()=>selectedSuspect,setPick=v=>selectedSuspect=v,source=()=>selectedSuspectSource,setSource=v=>selectedSuspectSource=v},
-   new ReportColumn{headingKey="conclude.method",sourceHeadingKey="conclude.methodSource",choices=Options(game.Data.methods.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   new ReportColumn{headingKey=MethodKey(game.Data),sourceHeadingKey="conclude.methodSource",choices=Options(game.Data.methods.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
     pick=()=>selectedMethod,setPick=v=>selectedMethod=v,source=()=>selectedMethodSource,setSource=v=>selectedMethodSource=v}
   };
   if(game.HasCustody)columns.Add(new ReportColumn{
@@ -102,6 +102,9 @@ public sealed partial class BubeApp {
    T("conclude.confirm.send"),Result);
  }
 
+ // Vaka kendi sütun başlığını verebilir (Dosya #003: "Ölümden kim sorumlu?"); boşsa ortak başlık.
+ static string SuspectKey(CaseData data)=>string.IsNullOrEmpty(data?.suspectLabelKey)?"conclude.suspect":data.suspectLabelKey;
+ static string MethodKey(CaseData data)=>string.IsNullOrEmpty(data?.methodLabelKey)?"conclude.method":data.methodLabelKey;
  string ReportCustodyHeading(CaseData data) =>
   T(string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey);
  void ReportReviewClaim(VisualElement parent,string headingKey,string choiceKey,string sourceId) {
@@ -375,8 +378,8 @@ public sealed partial class BubeApp {
   var suspect=game.Data.verdicts.FirstOrDefault(v=>v.id==game.State.reportSuspect);
   var method=game.Data.methods.FirstOrDefault(v=>v.id==game.State.reportMethod);
   var proof=game.Data.evidence.FirstOrDefault(v=>v.id==game.State.reportProof);
-  if(suspect!=null)SummaryField(details,T("conclude.suspect"),T(suspect.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportSuspectSource));
-  if(method!=null)SummaryField(details,T("conclude.method"),T(method.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportMethodSource));
+  if(suspect!=null)SummaryField(details,T(SuspectKey(game.Data)),T(suspect.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportSuspectSource));
+  if(method!=null)SummaryField(details,T(MethodKey(game.Data)),T(method.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportMethodSource));
   var custody=(game.Data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==game.State.reportCustody);
   if(custody!=null)SummaryField(details,ReportCustodyHeading(game.Data),T(custody.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportCustodySource));
   if(proof!=null)SummaryField(details,T("conclude.evidence"),T(proof.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportProofSource));
@@ -446,8 +449,8 @@ public sealed partial class BubeApp {
    var person=reviewed.verdicts.FirstOrDefault(v=>v.id==fax.suspectId);
    var method=reviewed.methods.FirstOrDefault(v=>v.id==fax.methodId);
    var proof=reviewed.evidence.FirstOrDefault(v=>v.id==fax.proofId);
-   if(person!=null)SummaryField(body,T("conclude.suspect"),T(person.labelKey)+" · "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"));
-   if(method!=null)SummaryField(body,T("conclude.method"),T(method.labelKey)+" · "+T(fax.methodSupported?"fax.supported":"fax.unsupported"));
+   if(person!=null)SummaryField(body,T(SuspectKey(reviewed)),T(person.labelKey)+" · "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"));
+   if(method!=null)SummaryField(body,T(MethodKey(reviewed)),T(method.labelKey)+" · "+T(fax.methodSupported?"fax.supported":"fax.unsupported"));
    var custody=(reviewed.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
    if(custody!=null)SummaryField(body,ReportCustodyHeading(reviewed),T(custody.labelKey)+" · "+T(fax.custodySupported?"fax.supported":"fax.unsupported"));
    if(proof!=null)SummaryField(body,T("conclude.evidence"),T(proof.labelKey)+" · "+T(fax.proofSupported?"fax.supported":"fax.unsupported"));

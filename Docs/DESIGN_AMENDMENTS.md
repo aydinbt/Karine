@@ -904,3 +904,7 @@ Kamera 04'ün kare dizileri kişi sekansı olarak üretiliyor. **Deniz** (`park`
 ## Dosya #002 CCTV akışı kapandı (2 Ekim 2026)
 
 Kerem (`third_in` 5 kare, `third_out` 3 kare) ve devriye (`patrol` 3 kare) eklendi. Ambulans/görevli karesi "POLİS" yazısı taşıdığı için alınmadı; yerine yazısız, armasız devriye aracı karesi kondu. `dispute` bilerek yalnız metin kalır. Kareler Play Mode'da henüz görülmedi.
+
+## Dosya #003 "Son Teslimat" yazıldı (2 Ekim 2026)
+
+Kullanıcı senaryosu: şüpheli ölüm, fail yok — ölüm kaza (karbonmonoksit), olay yerini değiştiren ve delil alan kişi (Ozan) ölüme sebep olmadı. Eğitim eğrisi: 001 yalan ≠ fail, 002 yaralayan ≠ parayı alan, 003 olay yerini değiştiren ≠ ölüme sebep olan. Kullanıcı ilkesi: oyuncu sonucu faksa kadar bilmemeli; her kişi kendini korur, yanlış yollar (iş kazası, Seda, Barış, Ozan) savunulabilir olup kanıtla kapanır. Rapor dört sütunlu kaldı; fail ve yöntem sütunu başlıkları vakadan gelir. Zimmet raporda ayrı soru değil, güdüdür. Dosya #002 → #003 zinciri bağlandı. Ayrıntı: `CASE003_DESIGN.md`.

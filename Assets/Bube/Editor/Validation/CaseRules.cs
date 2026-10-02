@@ -59,6 +59,8 @@ public static class CaseRules {
     report.Forbid(MissingText(locale, choice.labelKey), "İkinci sorumluluk etiketi eksik: " + choice.id);
    report.Forbid(!string.IsNullOrEmpty(data.custodyLabelKey) && MissingText(locale, data.custodyLabelKey),
     "İkinci sorumluluk sütununun başlığı eksik: " + data.custodyLabelKey);
+   foreach (var key in new[] { data.suspectLabelKey, data.methodLabelKey }.Where(k => !string.IsNullOrEmpty(k)))
+    report.Forbid(MissingText(locale, key), "Rapor sütunu başlığı eksik: " + key);
   }
 
   foreach (var id in (data.verdicts ?? new Verdict[0]).SelectMany(v => v.supportingSourceIds ?? new string[0])

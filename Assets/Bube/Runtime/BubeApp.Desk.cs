@@ -222,8 +222,8 @@ public sealed partial class BubeApp {
    var person=data.verdicts.FirstOrDefault(v=>v.id==fax.suspectId);
    var method=data.methods.FirstOrDefault(v=>v.id==fax.methodId);
    var proof=data.evidence.FirstOrDefault(v=>v.id==fax.proofId);
-   if(person!=null)DrawFaxFinding(body,data,"conclude.suspect",person.labelKey,fax.suspectSourceId,fax.suspectSupported,"suspect",dark);
-   if(method!=null)DrawFaxFinding(body,data,"conclude.method",method.labelKey,fax.methodSourceId,fax.methodSupported,"method",dark);
+   if(person!=null)DrawFaxFinding(body,data,SuspectKey(data),person.labelKey,fax.suspectSourceId,fax.suspectSupported,"suspect",dark);
+   if(method!=null)DrawFaxFinding(body,data,MethodKey(data),method.labelKey,fax.methodSourceId,fax.methodSupported,"method",dark);
    if(proof!=null)DrawFaxFinding(body,data,"conclude.evidence",proof.labelKey,fax.proofSourceId,fax.proofSupported,"evidence",dark);
   }
   Text(body,T("fax.closing"),dark,15);
