@@ -383,3 +383,7 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 - [~] Sicil kaydında akıbet ve dördüncü sütun.
 - [~] Kapanan görüşme (`closesAfterRead`), doğrulayıcı güvencesi; Dosya #003'te Barış'ın ikinci görüşmesi.
 - ~~Vakalar arası geri dönen isim~~ — kaldırıldı (kullanıcı kararı, 2 Ekim 2026): eski dosyanın faksı yeni dosyada gelir ve oyuncu eski dosyaya dönebilir; sonucu henüz bilinmeyen bir dosyanın kişisini yeni dosyada geri getirmek mümkün değil.
+
+## 2 Ekim 2026 — Kare hızı ayarı
+
+- [~] Ayarlar → Oynanış: 30 / 60 / 120 fps seçimi (varsayılan 60), açılışta uygulanır. Cihazda ölçülmedi.

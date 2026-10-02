@@ -2785,6 +2785,38 @@
    "value": "Kaydet"
   },
   {
+   "key": "settings.fps",
+   "value": "Kare hızı"
+  },
+  {
+   "key": "settings.fps.hint",
+   "value": "Akıcılık ile pil arasında seçim. Ekranın desteklemediği hız cihazın tavanında kalır."
+  },
+  {
+   "key": "settings.fps.30",
+   "value": "30 fps"
+  },
+  {
+   "key": "settings.fps.30.hint",
+   "value": "En az pil ve ısınma."
+  },
+  {
+   "key": "settings.fps.60",
+   "value": "60 fps"
+  },
+  {
+   "key": "settings.fps.60.hint",
+   "value": "Akıcı; önerilen."
+  },
+  {
+   "key": "settings.fps.120",
+   "value": "120 fps"
+  },
+  {
+   "key": "settings.fps.120.hint",
+   "value": "Yüksek yenilemeli ekranlar için; pili daha çok harcar."
+  },
+  {
    "key": "settings.motion",
    "value": "Hareketi azalt"
   },

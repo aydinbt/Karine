@@ -425,3 +425,7 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - **Kapanan görüşme:** `Node.closesAfterRead` + `Node.closedNoteKey`. `Investigation.Closed(n)`: listedeki kaynakların hepsi okundu ve görüşme ne istendi ne yapıldı. `CanRequest` kapalı görüşmeyi reddeder; tabletteki durum "Artık görüşülemiyor". Doğrulayıcı `CaseRules.EssentialNodes` ile doğru seçeneklerin dayanaklarını, kapanış önkoşullarını ve bunların önkoşul/soru zincirini çıkarır; kapanan görüşme bu kümede olamaz.
 - **Ortam sesi:** `room_rain` ve `room_night`, `Tools/make-audio.py` üretir (`python3 Tools/make-audio.py room_rain room_night` yalnız ikisini yeniden yazar), `Tools/check-audio.py` döngü olarak ölçer. Vaka `ambienceId` ile seçer; masa sahnesinde müziğin altında çalar.
 - **Testler:** `NotebookAndPressureTests` (6 test). Toplam 117 EditMode + 23 PlayMode.
+
+## Kare hızı
+
+`FrameRate` (Runtime/FrameRate.cs) `karine.fps` PlayerPrefs anahtarını okur (30/60/120, varsayılan 60), `QualitySettings.vSyncCount=0` ve `Application.targetFrameRate` ayarlar. Açılışta `BubeApp` içinde `SoundSettings.Load()` sonrası yüklenir; Ayarlar'da "Kaydet" ile uygulanır.

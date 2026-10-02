@@ -922,3 +922,7 @@ Kullanıcı isteği: CCTV dışında oyunu ileri taşıyacak yedi öneri, öneri
 7. **Baskı.** Görüşme belli kaynaklar dosyaya girdiğinde, henüz istenmemişse kapanabilir (`closesAfterRead`, `closedNoteKey`). Süre gerçek saatle değil soruşturmanın ilerleyişiyle işler. Doğrulayıcı, doğru sonucun dayandığı hiçbir kaynağın ve önkoşul zincirinin kapanmasına izin vermez. Uygulama: Dosya #003'te Barış Tümer'in ikinci görüşmesi, oyuncu Ozan'la üçüncü görüşmeyi bitirdiğinde hâlâ istenmemişse kapanır ("şehir dışına çıktı"). Barış'ın jeneratör tanıklığı kaybolabilir, ama aynı gerçeği jeneratör incelemesi taşır.
 
 Durum: hepsi `[~]`. Testlerle sınandı, Unity'de gözle görülmedi.
+
+## Kare hızı ayarı (2 Ekim 2026)
+
+Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120 fps, varsayılan 60. Önceden hiçbir değer verilmediği için mobilde Unity varsayılanı olan 30 fps'te kalıyordu. Ekranın desteklemediği hız seçilirse cihaz kendi tavanında kalır.

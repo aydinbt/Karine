@@ -153,10 +153,10 @@ public sealed partial class BubeApp {
   card.style.flexGrow=1;
  }
  int settingsTab;
- bool draftInstant,draftReduced;
+ bool draftInstant,draftReduced;int draftFps;
  SoundLevel draftMusic,draftSfx;
  void SettingsPage() {
-  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;
+  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;
   RenderSettings();
  }
  void RenderSettings() {
@@ -188,16 +188,18 @@ public sealed partial class BubeApp {
    KarineUI.SettingsSection(scroll,music,T("settings.sfx"),T("settings.sfx.hint"),true);SoundRow(scroll,draftSfx,level=>draftSfx=level);
   } else {
    KarineUI.SettingsOption(scroll,T("settings.motion"),T("settings.motion.hint"),draftReduced,()=>{draftReduced=!draftReduced;RenderSettings();});
+   KarineUI.SettingsSection(scroll,"gear",T("settings.fps"),T("settings.fps.hint"),true);var fps=KarineUI.Row(scroll);fps.style.alignItems=Align.Stretch;
+   foreach(int f in FrameRate.Options){int v=f;var o=KarineUI.SettingsOption(fps,T("settings.fps."+v),T("settings.fps."+v+".hint"),draftFps==v,()=>{draftFps=v;RenderSettings();});if(v!=FrameRate.Options[FrameRate.Options.Length-1])o.style.marginRight=KarineTheme.SpaceMd;}
    KarineUI.SettingsSection(scroll,"info",T("settings.ads"),T("settings.ads.status."+(AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),true);
    Button(scroll,T("settings.ads.change"),AskForAdConsent);
    KarineUI.Rule(scroll);Button(scroll,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
   }
   KarineUI.Rule(body);var footer=KarineUI.Row(body);footer.style.justifyContent=Justify.SpaceBetween;
-  KarineUI.SettingsAction(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;RenderSettings();});
+  KarineUI.SettingsAction(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;RenderSettings();});
   KarineUI.SettingsAction(footer,KarineUI.IconOr("check","nav_next"),T("settings.save"),T("settings.save.hint"),true,()=>{
    PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);
    instantText=draftInstant;PlayerPrefs.SetInt("bube.instantText",instantText?1:0);
-   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);PlayerPrefs.Save();ApplySound();Home();
+   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);FrameRate.Set(draftFps);PlayerPrefs.Save();ApplySound();Home();
   });
  }
  void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {
