@@ -139,7 +139,11 @@ public static partial class KarineUI {
  }
 
  // Buhar: masanın solundaki fincandan yükselen, kıvrılıp sönen ince duman.
- static void Steam(VisualElement front) =>
-  Wisp(front,"OfficeSteam",W.SteamArea,KarineTheme.Alpha(KarineTheme.Paper.Light,W.SteamAlpha),W.SteamPuffs);
+ static void Steam(VisualElement front) {
+  // Kahve masada geçen süreyle soğur: buhar azalır, sonunda biter.
+  float warm=Mathf.Clamp01(1-DeskMinutes/KarineTheme.Scene.CoffeeColdMinutes);
+  if(warm<=0)return;
+  Wisp(front,"OfficeSteam",W.SteamArea,KarineTheme.Alpha(KarineTheme.Paper.Light,W.SteamAlpha*warm),Mathf.Max(1,Mathf.RoundToInt(W.SteamPuffs*warm)));
+ }
 }
 }

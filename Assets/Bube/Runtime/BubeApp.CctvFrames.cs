@@ -66,7 +66,7 @@ public sealed partial class BubeApp {
    if(cctvFrames==null)return;
    if(cctvFrameIndex>=cctvFrames.Length-1){EndCctvFrames();return;}
    ShowCctvFrame(cctvFrameIndex+1);
-  }).Every(cctvFrameMs).StartingIn(cctvFrameMs);
+  }).Every(FrameStep).StartingIn(FrameStep);
  }
 
  void EndCctvFrames() {

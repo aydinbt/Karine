@@ -415,7 +415,7 @@ public sealed partial class BubeApp {
    Text(closed,T("desk.closed"),Ink,20);
    Button(closed,T("result.summaryOpen"),CaseSummary,true);Button(closed,T("result.continue"),ContinueToNextCase);
   }
-  KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;
+  KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;StageDesk(stage);
   if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
   if(game.State.interviewTurns.Count>game.State.seenInterviewTurns&&!game.State.closed) {
    var unread=KarineUI.Technical(stage,T("file.newTranscript"),KarineTheme.Office.SmallSize);

@@ -944,3 +944,12 @@ Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120
 - Güven rozeti mührü yalnız oyuncunun zaten gördüğü durum değiştiğinde iner; gizli değer göstermez.
 - Şekil işaretleri yalnız oyuncunun kendi seçtiği işarete ve faksın açık sonucuna eklenir.
 - Bölüm/vaka seçicide yalnız kart çekilme hareketi eklendi; yerleşim kullanıcıya ait olduğu için değişmedi.
+
+## 2 Ekim 2026 — Sahne katmanı (P–X) ve değişmez kural
+
+- Masa müziğinin üst katmanı yalnız masada geçen süreyle açılır; soruşturmanın ilerleyişine bağlanmadı, çünkü o bağ ilerlemeyi ele verirdi.
+- Kişiye özel bekleme döngüsü kişinin kimliğinden türer; soru, yanıt ya da kayıtla değişmez.
+- Bant aşınması her kayıtta aynı kuralla (izlenme sayısı) artar; önemli kaydı işaret etmez.
+- Terminal bozulması rastgele satırda ve rastgele zamanda olur, metni hiçbir zaman kalıcı değiştirmez.
+- Ses betimlemesi yalnız duyulan sesi adlandırır.
+- Masaya sol altta kapanmış dosyalar rafı eklendi (yalnız kapanmış vaka varsa).

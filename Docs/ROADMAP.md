@@ -412,3 +412,19 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] O — Teknik: gerçek CRT gölgelendiricisi (deneysel, varsayılan kapalı), ses+titreşim işaret tablosu (`KarineUI.Cue`), ekran okuyucu köprüsü, yazı boyu ayarı, şekil işaretleri, geliştirici kare sayacı.
 - [ ] Odadaki nesnelerin ve kül alanının yüzde konumları görsellere göre gözle ayarlanmalı.
 - [ ] CRT geçişi cihazda denenmeli (Y ekseni ters dönebilir; yalnız UI katmanını işler).
+
+## 2 Ekim 2026 — Sahne katmanı (P–X)
+
+117 EditMode + 23 PlayMode geçti; 3 yeni ekran görüntüsü testi başsız koşuda atlanır. Hiçbiri gözle görülmedi.
+
+- [~] P — Ayar ve doğrulama: Efekt laboratuvarı (Ayarlar > Oynanış, yalnız geliştirme derlemesi), görüşme odası konum ayarlayıcısı (`Konum` → sürükle → `Kopyala`), ekran görüntüsü testleri (`ScreenshotTests`, referans `Tools/Baselines/`), kare bütçesi (hafifledikten sonra da yavaşsa oturumda "Hafif"e iner; sayaçta görünür).
+- [~] Q — Anlatı: vaka açılış kartı + vaka motifi (vaka başına bir kez), mekân kareleri (`CaseData.locationFrames`; **henüz hiçbir vakada kare yok**), görüşmeden çıkışta sandalye sesi ve karanlıktan açılan ofis, masada 30 dakikada akşama dönen ışık, masada kapanmış dosyalar rafı.
+- [~] R — Görüşme odası: kamera nefesi, kişiye özel bekleme döngüsü (kimlikten türer, yanıta göre değişmez), koridor adımları ve havalandırma, kayıt cihazında süre sayacı.
+- [~] S — Masa: kâğıt parmağı izler ve yaylanarak yerine döner, fotoğrafta ivmeölçerle kayan parlama, defter işaretinde kalem çizgisi (el yazısı yazı tipi yok, eğik yazı), büyüteç çizimleri kalıcı, kahve 12 dakikada soğur.
+- [~] T — CCTV/terminal: ½x/1x/2x hız, kareyi köşeye iğneleyip karşılaştırma, son aramalar (süzgeç birleşimleri), izlenme sayısıyla artan bant aşınması.
+- [~] U — Menü/kariyer: ana menüde yağmur ve geçen far, kariyer geçmişinde gazete kupürleri, rütbe töreni, devam satırının altında son vaka ve oynanan süre.
+- [~] V — Ses: oda yankısı (ofis/görüşme), uzak seslerde boğukluk ve geniş yön, masada süreyle açılan müzik katmanı, vaka motifi. 8 yeni ses.
+- [~] W — Glitch: terminal satırının bir an bozulması, kanal değiştirme sesi, dosya kapanışında film yanığı, mühürde renk kayması.
+- [~] X — Erişilebilirlik: ses betimlemesi, geniş aralık, yüksek karşıtlık (7:1'e itme), tek elle geri düğmesi, üç kademeli titreşim gücü.
+- [ ] Ekran görüntüsü referanslarını Editor Test Runner'da ilk kez üret (`Tools/Baselines/`).
+- [ ] Disleksi dostu yazı tipi dosyası yok; şimdilik yalnız aralık açılıyor.

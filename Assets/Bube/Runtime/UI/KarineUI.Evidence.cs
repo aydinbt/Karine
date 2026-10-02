@@ -70,29 +70,46 @@ public static partial class KarineUI {
   photo.style.marginTop=0;photo.style.height=Length.Percent(100);
   parent.Add(frame);frame.Add(photo);
   Zoomable(frame,photo,null);
-  if(!inks.TryGetValue(id,out var strokes))inks[id]=strokes=new List<List<Vector2>>();
-  var ink=new InkLayer(strokes);frame.Add(ink);
+  if(!inks.TryGetValue(id,out var strokes))inks[id]=strokes=LoadInk(id);
+  var ink=new InkLayer(strokes,()=>SaveInk(id,strokes));frame.Add(ink);
   var tools=new VisualElement();tools.style.flexDirection=FlexDirection.Row;tools.style.justifyContent=Justify.FlexEnd;tools.style.marginTop=4;parent.Add(tools);
   Button draw=null;
   draw=PaperButton(tools,drawLabel,()=>{ink.Drawing=!ink.Drawing;draw.style.backgroundColor=ink.Drawing?KarineTheme.Paper.Stamp:KarineTheme.Paper.Sheet;
    draw.style.color=ink.Drawing?KarineTheme.Paper.Sheet:KarineTheme.Paper.Ink;},KarinePaperKind.Choice);
   draw.style.marginRight=6;draw.style.minHeight=40;draw.style.fontSize=Typography.Snap(13);
-  var clear=PaperButton(tools,clearLabel,()=>{strokes.Clear();ink.MarkDirtyRepaint();},KarinePaperKind.Quiet);
+  var clear=PaperButton(tools,clearLabel,()=>{strokes.Clear();SaveInk(id,strokes);ink.MarkDirtyRepaint();},KarinePaperKind.Quiet);
   clear.style.minHeight=40;clear.style.fontSize=Typography.Snap(13);
   return frame;
  }
 
+ // Çizimler kayıtta kalır: oyuncunun kendi notudur, oyun okumaz.
+ static string InkKey(string id)=>"karine.ink."+id;
+ static List<List<Vector2>> LoadInk(string id) {
+  var strokes=new List<List<Vector2>>();
+  foreach(var part in PlayerPrefs.GetString(InkKey(id),string.Empty).Split('|')) {
+   if(part.Length==0)continue;var stroke=new List<Vector2>();
+   foreach(var point in part.Split(';')){var xy=point.Split(',');if(xy.Length==2 && float.TryParse(xy[0],System.Globalization.NumberStyles.Float,System.Globalization.CultureInfo.InvariantCulture,out var x) && float.TryParse(xy[1],System.Globalization.NumberStyles.Float,System.Globalization.CultureInfo.InvariantCulture,out var y))stroke.Add(new Vector2(x,y));}
+   if(stroke.Count>1)strokes.Add(stroke);
+  }
+  return strokes;
+ }
+ static void SaveInk(string id,List<List<Vector2>> strokes) {
+  var c=System.Globalization.CultureInfo.InvariantCulture;
+  PlayerPrefs.SetString(InkKey(id),string.Join("|",strokes.ConvertAll(s=>string.Join(";",s.ConvertAll(p=>p.x.ToString("0.###",c)+","+p.y.ToString("0.###",c))))));
+  PlayerPrefs.Save();
+ }
+
  sealed class InkLayer : VisualElement {
-  readonly List<List<Vector2>> strokes;List<Vector2> current;bool drawing;
+  readonly List<List<Vector2>> strokes;readonly Action changed;List<Vector2> current;bool drawing;
   public bool Drawing { get=>drawing; set{drawing=value;pickingMode=value?PickingMode.Position:PickingMode.Ignore;} }
-  public InkLayer(List<List<Vector2>> strokes) {
-   this.strokes=strokes;name="InkLayer";pickingMode=PickingMode.Ignore;
+  public InkLayer(List<List<Vector2>> strokes,Action changed) {
+   this.strokes=strokes;this.changed=changed;name="InkLayer";pickingMode=PickingMode.Ignore;
    style.position=Position.Absolute;style.left=0;style.right=0;style.top=0;style.bottom=0;
    generateVisualContent+=Paint;
    RegisterCallback<PointerDownEvent>(e=>{if(!drawing)return;current=new List<Vector2>{Norm(e.localPosition)};strokes.Add(current);
     this.CapturePointer(e.pointerId);Cue("pen");e.StopPropagation();});
    RegisterCallback<PointerMoveEvent>(e=>{if(current==null)return;current.Add(Norm(e.localPosition));MarkDirtyRepaint();e.StopPropagation();});
-   RegisterCallback<PointerUpEvent>(e=>{current=null;this.ReleasePointer(e.pointerId);});
+   RegisterCallback<PointerUpEvent>(e=>{if(current!=null)changed?.Invoke();current=null;this.ReleasePointer(e.pointerId);});
   }
   // Koordinatlar yüzde olarak saklanır: ekran boyu değişse de çizim yerinde kalır.
   Vector2 Norm(Vector3 p) => new Vector2(p.x/Mathf.Max(1,contentRect.width),p.y/Mathf.Max(1,contentRect.height));
@@ -119,12 +136,14 @@ public static partial class KarineUI {
    if(!down)return;
    float dx=e.position.x-startX;
    paper.style.rotate=new Rotate(Angle.Degrees(Mathf.Clamp(dx*.012f,-S.FlexMax,S.FlexMax)));
+   paper.style.translate=new Translate(Mathf.Clamp(dx*.3f,-60,60),Mathf.Abs(dx)*-.02f);
   },TrickleDown.TrickleDown);
   Action release=()=> {
    if(!down)return;down=false;
-   float from=paper.resolvedStyle.rotate.angle.value;
-   KarineMotion.Run(paper,.5f,t=>paper.style.rotate=new Rotate(Angle.Degrees(from*Mathf.Cos(t*Mathf.PI*2.5f)*(1-t))),
-    ()=>paper.style.rotate=StyleKeyword.Null);
+   float from=paper.resolvedStyle.rotate.angle.value,fromX=paper.resolvedStyle.translate.x;
+   if(Mathf.Abs(fromX)>8)Cue("paper");
+   KarineMotion.Run(paper,.5f,t=>{float k=Mathf.Cos(t*Mathf.PI*2.5f)*(1-t);paper.style.rotate=new Rotate(Angle.Degrees(from*k));paper.style.translate=new Translate(fromX*k,0);},
+    ()=>{paper.style.rotate=StyleKeyword.Null;paper.style.translate=StyleKeyword.Null;});
   };
   paper.RegisterCallback<PointerUpEvent>(_=>release(),TrickleDown.TrickleDown);
   paper.RegisterCallback<PointerLeaveEvent>(_=>release());

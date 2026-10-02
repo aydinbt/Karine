@@ -12,7 +12,7 @@ namespace Bube {
 // geçer ve bir kez not düşer — videoların davranışıyla aynı. Böylece ses
 // dosyaları geldiğinde tek iş dosyayı `Resources/Bube/Audio/` içine koymaktır,
 // ekranlara geri dönmek gerekmez.
-public sealed class AudioDirector : MonoBehaviour {
+public sealed partial class AudioDirector : MonoBehaviour {
 
  public const string Folder = "Bube/Audio/";
 
@@ -55,6 +55,7 @@ public sealed class AudioDirector : MonoBehaviour {
   ambience = Channel("Ambience", loop: true);
   effects  = Channel("Effects",  loop: false);
   for (int i = 0; i < placed.Length; i++) placed[i] = Channel("Placed" + i, loop: false);
+  WakeSpace();
   ApplyLevels();
  }
 
@@ -73,6 +74,7 @@ public sealed class AudioDirector : MonoBehaviour {
   if (music == null) return;
   music.volume = SoundSettings.MusicGain;
   ambience.volume = SoundSettings.MusicGain;
+  LevelSpace();
   effects.volume = SoundSettings.SfxGain;
   if (SoundSettings.MusicGain <= 0f) { music.Pause(); ambience.Pause(); }
   else {
@@ -104,6 +106,8 @@ public sealed class AudioDirector : MonoBehaviour {
   var source = placed[nextPlaced];
   nextPlaced = (nextPlaced + 1) % placed.Length;
   source.panStereo = Mathf.Clamp(pan, -1f, 1f);
+  Distance(source, ambient);
+  if (ambient) Heard?.Invoke(id);
   source.pitch = 1f;
   source.PlayOneShot(clip, level * Mathf.Clamp01(gain));
  }
@@ -117,7 +121,7 @@ public sealed class AudioDirector : MonoBehaviour {
  System.Collections.IEnumerator ScatterLoop() {
   while (true) {
    yield return new WaitForSecondsRealtime(Random.Range(25f, 70f));
-   PlayAt(Distant[Random.Range(0, Distant.Length)], Random.Range(-.8f, .8f), .5f, ambient: true);
+   PlayAt(distantSet[Random.Range(0, distantSet.Length)], Random.Range(-.8f, .8f), .5f, ambient: true);
   }
  }
 

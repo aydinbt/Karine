@@ -26,6 +26,7 @@ public static partial class KarineUI {
   layer.style.position=Position.Absolute;layer.style.left=0;layer.style.right=0;layer.style.top=0;layer.style.bottom=0;
   root.Insert(Mathf.Clamp(insertAt,0,root.childCount),layer);
   Mirror(layer);Lamp(layer);Glass(layer);Recorder(layer);Clock(layer,hour);
+  int below=root.IndexOf(layer)-1;if(below>=0 && root[below] is Image background)CameraBreath(background);
  }
 
  static void Lamp(VisualElement layer) {
@@ -109,6 +110,7 @@ public static partial class KarineUI {
   led.style.backgroundColor=KarineTheme.Danger;box.Add(led);
   bool lit=true;
   led.schedule.Execute(()=>{lit=!lit;led.style.opacity=lit?1:.2f;}).Every(S.LedMs/2);
+  RecorderTimer(box);
   box.schedule.Execute(()=> {
    float angle=(Time.realtimeSinceStartup-roomStart)*90f;
    foreach(var reel in reels)reel.style.rotate=new Rotate(Angle.Degrees(angle));

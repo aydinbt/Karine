@@ -30,6 +30,7 @@ public sealed partial class BubeApp {
    }
   }
   DevMeter();
+  StageTick();
  }
 
  // Terminal oturumda ilk açıldığında hat bağlanır ve başlık tuş tuş yazılır.
@@ -49,7 +50,8 @@ public sealed partial class BubeApp {
   if(PlayerPrefs.GetInt(key,0)==1)return false;
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
-  KarineUI.CaseClosed(root,parts[0].Trim(),parts.Last().Trim(),T("case.closed"),again);
+  audio?.Sting();
+  KarineUI.FilmBurn(root,()=>KarineUI.CaseClosed(root,parts[0].Trim(),parts.Last().Trim(),T("case.closed"),again));
   return true;
  }
 
@@ -59,7 +61,7 @@ public sealed partial class BubeApp {
   string seen=PlayerPrefs.GetString(SeenRankKey,string.Empty),now=game.TrustStatusKey;
   if(seen==now)return;
   PlayerPrefs.SetString(SeenRankKey,now);PlayerPrefs.Save();
-  if(seen.Length>0)badge.schedule.Execute(()=>KarineUI.RankStamp(badge)).StartingIn(300);
+  if(seen.Length>0)badge.schedule.Execute(()=>KarineUI.RankCeremony(root,T(now),()=>KarineUI.RankStamp(badge))).StartingIn(300);
  }
 
  // Renk körü için şekil: rengin söylediğini bir şekil de söyler. Yalnız
@@ -92,7 +94,7 @@ public sealed partial class BubeApp {
   if(meter.parent!=root || root.IndexOf(meter)!=root.childCount-1)root.Add(meter);
   meterFrames++;meterTime+=Time.unscaledDeltaTime;
   if(meterTime*1000>=KarineTheme.Scene.MeterMs) {
-   ((Label)meter).text=Mathf.RoundToInt(meterFrames/meterTime)+" fps  "+Mathf.RoundToInt(meterTime/meterFrames*1000)+" ms";
+   ((Label)meter).text=Mathf.RoundToInt(meterFrames/meterTime)+" fps  "+Mathf.RoundToInt(meterTime/meterFrames*1000)+" ms"+(Fx.Budgeted?"  bütçe:hafif":Fx.Degraded?"  hafif":"");
    meterFrames=0;meterTime=0;
   }
  }
@@ -100,10 +102,12 @@ public sealed partial class BubeApp {
  // Ayarlar: okuma (yazı boyu, şekil işaretleri) ve oynanış (CRT, kül, sayaç).
  void LoadSceneDraft() {
   draftScale=Array.IndexOf(Typography.Scales,Typography.Scale);if(draftScale<0)draftScale=0;
+  LoadAccessDraft();
   draftShapes=Shapes;draftCrt=CrtPass.Enabled;draftAsh=KarineUI.AshSmoke;draftMeter=PlayerPrefs.GetInt(MeterKey,0)==1;
  }
- void ResetSceneDraft(){draftScale=0;draftShapes=false;draftCrt=false;draftAsh=false;draftMeter=false;}
+ void ResetSceneDraft(){ResetAccessDraft();draftScale=0;draftShapes=false;draftCrt=false;draftAsh=false;draftMeter=false;}
  void SaveSceneDraft() {
+  SaveAccessDraft();
   Typography.Set(Typography.Scales[draftScale]);
   PlayerPrefs.SetInt(ShapesKey,draftShapes?1:0);PlayerPrefs.SetInt(AshKey,draftAsh?1:0);KarineUI.AshSmoke=draftAsh;
   PlayerPrefs.SetInt(MeterKey,draftMeter?1:0);
@@ -117,8 +121,10 @@ public sealed partial class BubeApp {
    if(v<Typography.Scales.Length-1)o.style.marginRight=KarineTheme.SpaceMd;
   }
   KarineUI.SettingsOption(scroll,T("settings.shapes"),T("settings.shapes.hint"),draftShapes,()=>{draftShapes=!draftShapes;RenderSettings();});
+  AccessOptions(scroll);
  }
  void SceneOptions(VisualElement scroll) {
+  HapticOptions(scroll);
   KarineUI.SettingsOption(scroll,T("settings.ash"),T("settings.ash.hint"),draftAsh,()=>{draftAsh=!draftAsh;RenderSettings();});
   KarineUI.SettingsOption(scroll,T("settings.crt"),T("settings.crt.hint"),draftCrt,()=>{draftCrt=!draftCrt;RenderSettings();});
   if(DevMeterAllowed)KarineUI.SettingsOption(scroll,T("settings.devMeter"),T("settings.devMeter.hint"),draftMeter,()=>{draftMeter=!draftMeter;RenderSettings();});

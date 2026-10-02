@@ -179,7 +179,7 @@ public sealed partial class BubeApp {
   back.style.left=Length.Percent(62);back.style.right=Length.Percent(2);
   back.style.bottom=Length.Percent(5);root.Add(back);
   Button(back,T("interview.back"),Desk);
-  if(enteringRoom){FadeIn(root);KarineUI.CutIn(root,KarineTheme.Scene.RingHold);}
+  if(enteringRoom){KarineUI.InterviewStarted();FadeIn(root);KarineUI.CutIn(root,KarineTheme.Scene.RingHold);}
  }
  string ShortInterviewSourceLabel(string value) {
   value=(value ?? "").Replace('\n',' ').Trim();
@@ -343,7 +343,7 @@ public sealed partial class BubeApp {
    var art=new Image {image=portrait,scaleMode=ScaleMode.ScaleToFit};
    art.style.width=Length.Percent(100);art.style.height=Length.Percent(100);
    holder.Add(art);
-   KarineUI.Breathe(holder);KarineUI.Posture(art);
+   KarineUI.Breathe(holder);KarineUI.Posture(art);KarineUI.Idle(holder,personId);
    return;
   }
   string[] pixels={

@@ -191,7 +191,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   panel.match=1;
   panel.themeStyleSheet=Resources.Load<ThemeStyleSheet>("Bube/DefaultTheme");
   doc.panelSettings=panel;
-  (GetComponent<CrtPass>() ?? gameObject.AddComponent<CrtPass>()).Bind(panel);
+  var crt=GetComponent<CrtPass>();if(crt==null)crt=gameObject.AddComponent<CrtPass>();crt.Bind(panel);
   fonts=FontSet.Load();KarineUI.Fonts=fonts;
   // Dosya/terminal dokusu mono kalir; govde ve baslik rolleri ayri dusunulur.
   // Arayüzün gövde yazısı **mono değildir**. Mono yalnız teknik metne aittir
@@ -237,6 +237,7 @@ public sealed partial class BubeApp : MonoBehaviour {
 
  void EnsureScene(string sceneName) {
   SetRoomSound(sceneName);
+  if(SceneManager.GetActiveScene().name=="InterviewScene" && sceneName!="InterviewScene")leavingRoom=true;
   if(SceneManager.GetActiveScene().name!=sceneName)
    SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
  }
@@ -250,10 +251,10 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(audio==null)return;
   string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
   switch(sceneName) {
-   case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); audio.Scatter(false); break;
+   case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); audio.Scatter(false); audio.Room("menu"); break;
    // Görüşme odasında alçak bir gerilim katmanı çalar; yanıta göre değişmez.
-   case "InterviewScene": audio.PlayMusic("interview_theme"); audio.PlayAmbience("room_interview"); audio.Scatter(false); break;
-   default: audio.PlayMusic("desk_theme"); audio.PlayAmbience(caseAmbience); audio.Scatter(true); break;
+   case "InterviewScene": audio.PlayMusic("interview_theme"); audio.PlayAmbience("room_interview"); audio.Room("interview"); audio.Scatter(true); break;
+   default: audio.PlayMusic("desk_theme"); audio.PlayAmbience(caseAmbience); audio.Room("office"); audio.Scatter(true); break;
   }
  }
 

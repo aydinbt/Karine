@@ -73,7 +73,7 @@ public sealed partial class BubeApp {
    row.style.minHeight=60;row.style.marginBottom=6;row.style.paddingLeft=9;row.style.paddingRight=8;
    row.style.backgroundColor=KarineTheme.Paper.Tint;row.style.borderLeftWidth=3;
    row.style.borderLeftColor=note.mark=="conflict"?KarineTheme.Paper.Stamp:KarineTheme.Paper.Edge;scroll.Add(row);
-   var mark=KarineUI.Technical(row,Shape(note.mark)+T("notebook.mark."+note.mark),14);mark.style.color=ink;mark.style.width=110;mark.style.marginBottom=0;
+   var mark=KarineUI.Technical(row,Shape(note.mark)+T("notebook.mark."+note.mark),14);mark.style.color=ink;KarineUI.Handwrite(mark,ink);mark.style.width=110;mark.style.marginBottom=0;
    var pair=Text(row,NotebookSourceTitle(note.leftId)+"  ↔  "+NotebookSourceTitle(note.rightId),ink,15);
    pair.style.flexGrow=1;pair.style.flexShrink=1;pair.style.marginBottom=0;
    var open=KarineUI.PaperButton(row,T("notebook.open"),()=>{compareLeftId=note.leftId;compareRightId=note.rightId;comparePicker=-1;ComparePage();},KarinePaperKind.Quiet);

@@ -10,7 +10,10 @@ public enum FxLevel { Off, Light, Full }
 public enum Haptic { Tick, Press, Thud }
 
 public static class Fx {
- public const string LevelKey = "karine.fx", HapticsKey = "karine.haptics";
+ public const string LevelKey = "karine.fx", HapticsKey = "karine.haptics", StrengthKey = "karine.hapticStrength";
+ // Titreşim gücü: 0 hafif, 1 orta, 2 güçlü.
+ public static int Strength { get; private set; } = 1;
+ public static void SetStrength(int value) { Strength = Mathf.Clamp(value, 0, 2); PlayerPrefs.SetInt(StrengthKey, Strength); }
 
  public static FxLevel Level { get; private set; } = FxLevel.Full;
  public static bool Haptics { get; private set; } = true;
@@ -27,6 +30,7 @@ public static class Fx {
   int level = PlayerPrefs.GetInt(LevelKey, (int)FxLevel.Full);
   Level = level >= 0 && level <= 2 ? (FxLevel)level : FxLevel.Full;
   Haptics = PlayerPrefs.GetInt(HapticsKey, 1) == 1;
+  Strength = Mathf.Clamp(PlayerPrefs.GetInt(StrengthKey, 1), 0, 2);
   // Bellek ve çekirdek sayısı düşükse baştan hafif başlanır.
   Degraded = SystemInfo.systemMemorySize > 0 && SystemInfo.systemMemorySize < 3000 || SystemInfo.processorCount <= 4;
  }
@@ -52,9 +56,20 @@ public static class Fx {
  // Kare süresi izlenir: hedefin bir buçuk katını üç saniye boyunca aşarsa ya
  // da pil %20'nin altında boşalıyorsa efektler hafifler. Geri dönüş yok: bir
  // oturumda iki yana sallanmak, sabit kalmaktan daha çok göze batar.
- static float slowFor;
+ static float slowFor, overBudget;
+ // Ortalama kare süresi (ms) ve bütçe yüzünden hafifleyip hafiflemediği: geliştirici sayacı okur.
+ public static float FrameMs { get; private set; }
+ public static bool Budgeted { get; private set; }
  public static void Watch(float deltaTime) {
-  if (Degraded) return;
+  // Bütçe: hafifledikten sonra da kare süresi bütçeyi aşmayı sürdürürse bu
+  // oturum için "Hafif" seviyeye inilir (kayda yazılmaz, ayar sayfası değişmez).
+  float frameMs = deltaTime * 1000f;
+  FrameMs = Mathf.Lerp(FrameMs, frameMs, .05f);
+  if (Degraded) {
+   overBudget = frameMs > Mathf.Max(KarineTheme.Scene.BudgetMs, 1300f / Mathf.Max(30, FrameRate.Current)) ? overBudget + deltaTime : 0f;
+   if (overBudget > KarineTheme.Scene.BudgetSeconds && Level == FxLevel.Full) { Level = FxLevel.Light; Budgeted = true; }
+   return;
+  }
   if (SystemInfo.batteryStatus == BatteryStatus.Discharging && SystemInfo.batteryLevel >= 0f && SystemInfo.batteryLevel < .2f) { Degraded = true; return; }
   float target = 1f / Mathf.Max(30, FrameRate.Current);
   slowFor = deltaTime > target * 1.5f ? slowFor + deltaTime : 0f;
@@ -66,7 +81,7 @@ public static class Fx {
  public static void Buzz(Haptic kind) {
   if (!Haptics) return;
 #if UNITY_ANDROID && !UNITY_EDITOR
-  long ms = kind == Haptic.Tick ? 12 : kind == Haptic.Press ? 22 : 45;
+  long ms = (long)((kind == Haptic.Tick ? 12 : kind == Haptic.Press ? 22 : 45) * (Strength == 0 ? .5f : Strength == 2 ? 1.6f : 1f));
   try {
    using (var player = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
    using (var activity = player.GetStatic<AndroidJavaObject>("currentActivity"))
@@ -74,7 +89,7 @@ public static class Fx {
     vibrator?.Call("vibrate", ms);
   } catch (System.Exception) { }
 #elif UNITY_IOS && !UNITY_EDITOR
-  if (kind == Haptic.Thud) Handheld.Vibrate();
+  if (kind == Haptic.Thud && Strength > 0 || kind == Haptic.Press && Strength == 2) Handheld.Vibrate();
 #endif
  }
 

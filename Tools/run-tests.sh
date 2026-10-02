@@ -15,6 +15,8 @@ set -euo pipefail
 
 UNITY="${UNITY:-/Applications/Unity/Hub/Editor/6000.3.17f1/Unity.app/Contents/MacOS/Unity}"
 PROJECT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# Ekran görüntüsü testlerinin referans klasörü: kopyada değil, asıl projede.
+export KARINE_BASELINES="$PROJECT/Tools/Baselines"
 WORK="${KARINE_TEST_DIR:-${TMPDIR:-/tmp}/karine-tests}"
 PLATFORMS=("${@:-EditMode PlayMode}")
 read -r -a PLATFORMS <<< "${PLATFORMS[*]}"

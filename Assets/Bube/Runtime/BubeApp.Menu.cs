@@ -23,7 +23,7 @@ public sealed partial class BubeApp {
   showingInterviewList=false;
   root.Clear();
   root.style.backgroundColor=Color.black;
-  MenuBackdrop();
+  MenuBackdrop();KarineUI.LiveMenu(root);
   var left=new VisualElement();left.style.position=Position.Absolute;
   left.style.left=Length.Percent(6);left.style.top=Length.Percent(7);
   left.style.width=KarineTheme.MainMenu.LogoWidth;
@@ -40,7 +40,7 @@ public sealed partial class BubeApp {
   menu.style.width=KarineTheme.MainMenu.ColumnWidth;
   left.Add(menu);
   if(game.State.caseAccepted) {
-   MenuRow(menu,"folder",T("menu.row.continue"),Desk,true);
+   MenuRow(menu,"folder",T("menu.row.continue"),Desk,true);SlotLine(menu);
   } else {
    MenuRow(menu,"folder",T("menu.row.start"),()=>MaybeWorldIntro(Desk),true);
   }
@@ -430,6 +430,7 @@ public sealed partial class BubeApp {
  }
  void CareerHistory(VisualElement parent,System.Collections.Generic.List<FaxReview> history) {
   var box=KarineUI.CareerBox(parent,T("career.tab.history"));box.style.flexGrow=1;box.style.minHeight=0;
+  CareerWall(box,history);
   var list=Scroll(box);
   if(history.Count==0) KarineUI.Body_(list,T("career.noHistory"),KarineTheme.CaseBrowser.TextSize).style.color=KarineTheme.Secondary;
   foreach(var review in history.AsEnumerable().Reverse()) {

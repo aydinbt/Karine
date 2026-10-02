@@ -3083,6 +3083,106 @@
   {
    "key": "ink.clear",
    "value": "Temizle"
+  },
+  {
+   "key": "cctv.compare",
+   "value": "Kareyi köşeye iğnele"
+  },
+  {
+   "key": "search.recent",
+   "value": "SON:"
+  },
+  {
+   "key": "slot.hours",
+   "value": " sa"
+  },
+  {
+   "key": "slot.minutes",
+   "value": " dk"
+  },
+  {
+   "key": "settings.captions",
+   "value": "Ses betimlemesi"
+  },
+  {
+   "key": "settings.captions.hint",
+   "value": "Uzak sesler ekranın altında yazıyla da gösterilir."
+  },
+  {
+   "key": "settings.spacing",
+   "value": "Geniş aralık"
+  },
+  {
+   "key": "settings.spacing.hint",
+   "value": "Harf ve sözcük aralığı açılır; okumayı kolaylaştırır."
+  },
+  {
+   "key": "settings.contrast",
+   "value": "Yüksek karşıtlık"
+  },
+  {
+   "key": "settings.contrast.hint",
+   "value": "Yazı rengi arka planına karşı daha belirgin olur."
+  },
+  {
+   "key": "settings.oneHand",
+   "value": "Tek elle"
+  },
+  {
+   "key": "settings.oneHand.hint",
+   "value": "Geri düğmesi sağ alt köşede de durur."
+  },
+  {
+   "key": "settings.hapticStrength.0",
+   "value": "Hafif"
+  },
+  {
+   "key": "settings.hapticStrength.1",
+   "value": "Orta"
+  },
+  {
+   "key": "settings.hapticStrength.2",
+   "value": "Güçlü"
+  },
+  {
+   "key": "settings.hapticStrength.hint",
+   "value": "Titreşim gücü."
+  },
+  {
+   "key": "settings.devLab",
+   "value": "EFEKT LABORATUVARI"
+  },
+  {
+   "key": "caption.amb_siren",
+   "value": "uzakta siren"
+  },
+  {
+   "key": "caption.amb_dog",
+   "value": "uzakta köpek havlıyor"
+  },
+  {
+   "key": "caption.amb_radio",
+   "value": "koridorda telsiz cızırtısı"
+  },
+  {
+   "key": "caption.amb_phone",
+   "value": "başka bir odada telefon çalıyor"
+  },
+  {
+   "key": "caption.amb_typing",
+   "value": "yan odada daktilo"
+  },
+  {
+   "key": "caption.amb_thunder",
+   "value": "gök gürlüyor"
+  },
+  {
+   "key": "caption.amb_steps",
+   "value": "koridorda adım sesleri"
+  },
+  {
+   "key": "caption.amb_car",
+   "value": "dışarıdan araba geçiyor"
   }
  ]
 }

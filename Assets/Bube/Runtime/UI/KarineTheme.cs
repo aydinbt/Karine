@@ -65,6 +65,13 @@ public static class KarineTheme {
  // geçişler, görüşme odası, kanıt, terminal, gece ve kapanış. Yerleşim
  // yüzdeleri resimlere göre elle ayarlanır; oyunun durumuna bağlı değildir.
  public static class Scene {
+  // Sahne katmanı (P–X): açılış kartı, mekân kareleri, görüşme bitişi, ışık akışı.
+  public const float OpeningSeconds=3.4f, ReelSeconds=4.5f, EndSeconds=.9f, DriftMinutes=30f, DriftAlpha=.16f, BreathPx=2.2f;
+  public static readonly Color DriftTone=new Color(.55f,.32f,.14f,1);
+  public const float BurnSeconds=1.1f, ChromaSeconds=.28f, CaptionSeconds=3.2f, CoffeeColdMinutes=12f;
+  public const float BudgetMs=26f, BudgetSeconds=6f;
+  public static readonly Rect Shelf=new Rect(1.5f,70,20,11);
+
   public const float ZoomSeconds=.38f, ZoomFrom=.18f, DrawerSeconds=.42f, CoverSeconds=.45f, CutSeconds=.55f, RingHold=.9f;
   public static readonly Rect RoomLamp=new Rect(40,0,20,38), RoomGlass=new Rect(56,70,3.2f,9), RoomMirror=new Rect(74,30,14,40);
   public static readonly Rect RoomRecorder=new Rect(3,80,12,12), RoomClock=new Rect(90,11,5.5f,10);

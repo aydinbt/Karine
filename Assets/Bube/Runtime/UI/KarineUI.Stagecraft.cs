@@ -134,6 +134,7 @@ public static partial class KarineUI {
  public static void StampDown(VisualElement root,string label,Action done) {
   Sound?.Invoke("ui_stamp");Fx.Buzz(Haptic.Thud);
   if(root==null || !Fx.On){done?.Invoke();return;}
+  root.schedule.Execute(()=>ChromaShake(root)).StartingIn(260);
   var veil=new VisualElement {name="StampVeil"};
   veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.alignItems=Align.Center;veil.style.justifyContent=Justify.Center;root.Add(veil);

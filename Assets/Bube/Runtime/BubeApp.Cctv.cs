@@ -89,7 +89,8 @@ public sealed partial class BubeApp {
   image.style.position=Position.Absolute;
   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
   videoFrame.Add(image);
-  videoFrame.schedule.Execute(()=>{KarineUI.SignalSwitch(videoFrame);KarineUI.CrtOn(videoFrame);KarineUI.Glare(videoFrame);}).StartingIn(0);
+  videoFrame.schedule.Execute(()=>{KarineUI.SignalSwitch(videoFrame);KarineUI.CrtOn(videoFrame);KarineUI.Glare(videoFrame);KarineUI.Cue("channel");TapeWear(videoFrame,node,record);}).StartingIn(0);
+  cctvVideoFrame=videoFrame;cctvSpeed=1f;
   audio?.Play("ui_crt_on",1f,.6f);
   KarineUI.VhsTrace(videoFrame,image);
   // Yaklaşmak oynatmayı durdurur; kare olduğu gibi kalır.
@@ -199,12 +200,15 @@ public sealed partial class BubeApp {
   var replay=new Button(KarineUI.Sounded(()=>{KarineUI.Rewind(videoFrame);ReplayCctvVideo();})){text=T("cctv.videoReplay")};
   // Bu üçünün metni oynatma durumuna göre değişiyor, o yüzden düğme elle
   // kuruluyor; biçimi yine kit'ten geliyor.
-  foreach(var button in new[]{cctvPlaybackButton,back,cctvStepButton,replay}) {
+  var speed=new Button{text="1x"};speed.clicked+=KarineUI.Sounded(()=>speed.text=CycleCctvSpeed());
+  var compare=new Button(KarineUI.Sounded(PinCctvFrame)){text="◫",tooltip=T("cctv.compare")};compare.style.display=frames?DisplayStyle.Flex:DisplayStyle.None;
+  foreach(var button in new[]{cctvPlaybackButton,back,cctvStepButton,replay,speed,compare}) {
    KarineUI.Paint(button,KarineButtonKind.Secondary,true);
    button.style.width=104;button.style.flexShrink=0;
    button.style.minHeight=MinimumTouchTarget;button.style.fontSize=Typography.Snap(14);
    button.style.marginRight=4;button.style.marginBottom=0;controls.Add(button);
   }
+  speed.style.width=compare.style.width=58;
   cctvPlaybackButton.SetEnabled(false);cctvStepButton.SetEnabled(false);
   cctvVideoStatus=Text(videoFrame,T("cctv.videoLoading"),Gold,13);
   cctvVideoStatus.style.position=Position.Absolute;

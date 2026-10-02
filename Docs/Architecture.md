@@ -447,3 +447,14 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - `ScreenReader.Tick(root)`: Unity 6.3 `UnityEngine.Accessibility`; görünen düğme/yazılardan ağaç kurar. `com.unity.modules.accessibility` manifest'e eklendi.
 - `Typography.Scale` (1 / 1.15 / 1.3, `karine.textScale`) yalnız `Snap` üzerinden geçen boyları büyütür.
 - PlayerPrefs: `karine.shapes`, `karine.ashSmoke`, `karine.devMeter`, `karine.seenRank`, `karine.caseClosed.<id>`, `karine.inkDry.<id>`.
+
+## Sahne katmanı (P–X)
+
+- Kütüphane: `UI/KarineUI.Stage.cs` (açılış, mekân kareleri, çıkış, ışık akışı, kamera nefesi, bekleme, süre sayacı), `Touch.cs`, `Glitch.cs`, `Lobby.cs`, `Access.cs`, `Placer.cs`.
+- Bağlantı: `BubeApp.Stage.cs` (`StageTick`, `StageDesk`, raf, kayıt satırı, kariyer duvarı, erişilebilirlik ayarları, `DevLab`), `BubeApp.Tape.cs` (CCTV hızı, kare iğneleme, aşınma, son aramalar).
+- Ses: `AudioDirector` artık `partial`; `AudioDirector.Space.cs` — `Room(kind)` yankı ve uzak ses listesi, `Layer`/`Bed` kanalları, `Distance` alçak geçiren, `Heard` olayı (altyazı), `Sting()`.
+- `Fx.Strength` (titreşim gücü), `Fx.FrameMs`, `Fx.Budgeted` (oturumluk "Hafif" iniş).
+- `CaseData.locationFrames` (isteğe bağlı Resources yolları).
+- Paketler: `com.unity.modules.screencapture`, `com.unity.modules.imageconversion` (ekran görüntüsü testleri). `Tools/run-tests.sh` `KARINE_BASELINES` dışa aktarır.
+- Unity bileşeninde `GetComponent<T>() ?? Add...` kullanılmaz: Editor'de eksik bileşen sahte-null döner ve `??` onu null saymaz.
+- PlayerPrefs: `karine.ink.<id>`, `karine.tapeWear.<node>.<record>`, `karine.opened.<case>`, `karine.playSeconds`, `karine.captions`, `karine.spacing`, `karine.contrast`, `karine.oneHand`, `karine.hapticStrength`.

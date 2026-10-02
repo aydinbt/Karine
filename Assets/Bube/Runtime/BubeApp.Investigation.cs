@@ -233,7 +233,7 @@ public sealed partial class BubeApp {
      var photo=new Image{image=texture,scaleMode=ScaleMode.ScaleAndCrop};
      photo.style.height=240;photo.style.marginTop=16;
      KarineUI.Develop(photo,current.imageResource);
-     KarineUI.Inspectable(body,photo,current.imageResource,T("ink.draw"),T("ink.clear"));
+     KarineUI.Tilt(KarineUI.Inspectable(body,photo,current.imageResource,T("ink.draw"),T("ink.clear")));
      Text(body,T(current.imageCaptionKey),fileMuted,13);
     }
    }
@@ -342,6 +342,7 @@ public sealed partial class BubeApp {
   var people=game.Data.nodes.Where(n=>n.kind=="interview" && !string.IsNullOrEmpty(n.personId))
    .GroupBy(n=>n.personId).Select(g=>g.First()).ToArray();
   var filters=new VisualElement();filters.style.marginTop=6;paper.Add(filters);
+  var recent=new VisualElement();paper.Add(recent);
   var count=Text(paper,"",muted,14);count.style.marginTop=4;count.style.marginBottom=6;
   var results=Scroll(paper);
   var kindButtons=new List<Button>();var personButtons=new List<Button>();
@@ -364,7 +365,7 @@ public sealed partial class BubeApp {
   chip(personRow,personButtons,T("search.everyone"),()=>fileFilterPerson="");
   foreach(var person in people){var pick=person.personId;chip(personRow,personButtons,T(person.personNameKey),()=>fileFilterPerson=pick);}
   render=()=>{
-   results.Clear();
+   results.Clear();RecentSearches(recent,people,render);
    for(int i=0;i<kindButtons.Count;i++) {
     kindButtons[i].style.backgroundColor=i==fileFilterKind?KarineTheme.Paper.Stamp:KarineTheme.Paper.Sheet;
     kindButtons[i].style.color=i==fileFilterKind?KarineTheme.Paper.Sheet:KarineTheme.Paper.Ink;
@@ -497,7 +498,7 @@ public sealed partial class BubeApp {
   if(node.kind=="bps") {
    VisualElement content;BpsTablet(node.titleKey,out content);
    TerminalSourceTabs(content,node);
-   var tabletScroll=Scroll(content);Text(tabletScroll,T(node.bodyKey),Ink,19);
+   var tabletScroll=Scroll(content);Text(tabletScroll,T(node.bodyKey),Ink,19);KarineUI.Corrupt(tabletScroll);
   } else {
    Frame(T("kind."+node.kind),T(node.titleKey),T("file.reference"));
    var scroll=Scroll(root);

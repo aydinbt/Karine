@@ -767,6 +767,91 @@ def ui_rank():
 
 # --- üretim ------------------------------------------------------------------
 
+def ui_chair():
+ # Görüşme biter: sandalye geri itilir, ahşap gıcırtı, ayak.
+ out = buf(0.9)
+ for k in range(9):
+  sine(out, 180 + k * 14, 0.08, 0.05, start=0.05 + k * 0.035, env=decay(30))
+ shaped(0.4, 801, 260, 1.2, 9, 0.5, start=0.02, out=out)
+ shaped(0.12, 802, 140, 1.0, 40, 0.6, start=0.62, out=out)
+ lowpass(out, 1800)
+ reverb(out, mix=0.3, room=0.7)
+ return normalize(fade(out, 0.005, 0.15), 0.40)
+
+def amb_steps():
+ # Koridorda geçen adımlar: kapının ardından, soldan sağa.
+ out = buf(3.4)
+ for k in range(7):
+  shaped(0.09, 820 + k, 150, 1.0, 45, 0.5 + 0.1 * math.sin(k), start=0.2 + k * 0.42, out=out)
+  shaped(0.03, 840 + k, 2400, 2.0, 160, 0.12, start=0.2 + k * 0.42, out=out)
+ lowpass(out, 900, poles=2)
+ reverb(out, mix=0.55, room=0.86)
+ return normalize(fade(out, 0.02, 0.3), 0.10)
+
+def amb_vent():
+ # Havalandırma: düz, alçak bir hava akışı. Döngü.
+ LOOP = 12.0
+ out = buf(LOOP)
+ air = loop_noise(LOOP, 830, cutoff=420, poles=2, hp=70)
+ for i in range(len(out)):
+  out[i] = air[i] * (0.92 + 0.08 * math.sin(2 * math.pi * i / RATE / LOOP))
+ sine(out, 59.0, 0.012, LOOP)
+ return normalize(out, 0.12)
+
+def ui_channel():
+ # Analog kanal değişimi: kısa kar, tık.
+ out = noise(0.22, 850)
+ highpass(out, 900)
+ for i in range(len(out)):
+  out[i] *= math.exp(-14 * i / RATE)
+ shaped(0.02, 851, 3000, 2.0, 200, 0.6, out=out)
+ return normalize(fade(out, 0.002, 0.03), 0.28)
+
+def ui_burn():
+ # Film yanığı: hışırtı kabarır, çıtırtılar.
+ rng = random.Random(860)
+ out = noise(1.1, 861)
+ bandpass(out, 1400, q=0.8)
+ for i in range(len(out)):
+  t = i / RATE
+  out[i] *= 0.3 * min(1.0, t / 0.5) * math.exp(-1.5 * max(0.0, t - 0.6))
+ for k in range(14):
+  shaped(0.01, rng.randint(0, 9999), 3500, 2.0, 300, 0.5, start=rng.uniform(0.1, 1.0), out=out)
+ return normalize(fade(out, 0.01, 0.15), 0.30)
+
+def ui_tape():
+ # Bant hızı değişimi: motor sesi kısa bir glissando.
+ out = buf(0.35)
+ n = len(out); ph = 0.0
+ for i in range(n):
+  t = i / n
+  ph += 2 * math.pi * (120 + 220 * t) / RATE
+  out[i] = 0.3 * math.sin(ph) * math.sin(math.pi * t)
+ lowpass(out, 1500)
+ return normalize(fade(out, 0.005, 0.05), 0.22)
+
+def case_sting():
+ # Vaka motifi: üç alçak nota, piyano gibi, yankılı. Açılışta ve kapanışta.
+ out = buf(3.0)
+ for start, f in ((0.0, 146.83), (0.45, 174.61), (0.9, 220.0)):
+  for h, a in ((1, 0.22), (2, 0.07), (3, 0.03)):
+   sine(out, f * h, a, 2.0, start=start, env=decay(2.2))
+ reverb(out, mix=0.4, room=0.85)
+ return normalize(fade(out, 0.005, 0.5), 0.35)
+
+def desk_layer():
+ # Masa müziğinin üst katmanı: çok alçak bir tel dokusu. Süreyle açılır.
+ LOOP = 32.0
+ out = buf(LOOP)
+ for f in (293.66, 349.23, 440.0):
+  sine(out, f, 0.04, LOOP)
+  sine(out, f * 1.003, 0.03, LOOP)
+ n = len(out)
+ for i in range(n):
+  out[i] *= 0.7 + 0.3 * math.sin(2 * math.pi * i / n)
+ lowpass(out, 1600)
+ return normalize(steady_reverb(out, mix=0.3), 0.10)
+
 SOUNDS = [
  ("ui_press",        ui_press),
  ("ui_typewriter",   ui_typewriter),
@@ -808,6 +893,14 @@ SOUNDS = [
  ("ui_shelf", ui_shelf),
  ("ui_polaroid", ui_polaroid),
  ("ui_rank", ui_rank),
+ ("ui_chair", ui_chair),
+ ("amb_steps", amb_steps),
+ ("amb_vent", amb_vent),
+ ("ui_channel", ui_channel),
+ ("ui_burn", ui_burn),
+ ("ui_tape", ui_tape),
+ ("case_sting", case_sting),
+ ("desk_layer", desk_layer),
 ]
 
 if __name__ == "__main__":
