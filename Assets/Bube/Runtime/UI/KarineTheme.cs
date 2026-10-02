@@ -127,8 +127,10 @@ public static class KarineTheme {
  }
 
  public static class CctvArchive {
-  public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=48;
-  public const float SidebarWidth=27;
+  public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=40, TimeWidth=96;
+  public const int CameraRow=96, CameraTile=68, HeadingSize=21;
+  public const float SidebarWidth=29;
+  public const string CameraIcon="cctv"; // simge gelene kadar binoculars'a düşer
  }
  public static class Button {
   public const int Slice=22;

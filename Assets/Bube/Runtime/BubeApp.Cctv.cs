@@ -223,21 +223,30 @@ public sealed partial class BubeApp {
   RequestScreenHeader(content);
   VisualElement cameraList;
   var tabletContent=content;
-  content=KarineUI.CctvArchiveLayout(tabletContent,T("cctv.archive"),out cameraList);
+  content=KarineUI.CctvArchiveLayout(tabletContent,T("cctv.archive"),out cameraList,T("cctv.archiveHint"));
+  var tabletScreen=tabletContent.parent;
+  var closeTablet=KarineUI.IconButton(tabletScreen,"close",FilePage,T("cctv.closeArchive"));
+  closeTablet.style.position=Position.Absolute;closeTablet.style.right=KarineTheme.SpaceSm;closeTablet.style.top=KarineTheme.SpaceSm;
   foreach(var source in game.Data.nodes.Where(n=>(n.kind=="cctv"||n.kind=="bps")&&(n==node||game.Available(n)))) {
    var target=source;
-   var sourceTitle=string.IsNullOrEmpty(source.cctvSourceKey)?T(source.titleKey):T(source.cctvSourceKey);
+   string sourceTitle=string.IsNullOrEmpty(source.cctvSourceKey)?T(source.titleKey):T(source.cctvSourceKey),place=null;
+   int split=sourceTitle.IndexOf(" — ",StringComparison.Ordinal);if(split<0)split=sourceTitle.IndexOf(" · ",StringComparison.Ordinal);
+   if(split>0){
+    string a=sourceTitle.Substring(0,split),b=sourceTitle.Substring(split+3);
+    bool aIsCamera=a.StartsWith("KAMERA",StringComparison.OrdinalIgnoreCase); // kamera adı başlık, yer alt satır
+    sourceTitle=aIsCamera?a:b;place=aIsCamera?b:a;
+   }
    var sourcePeriod=string.IsNullOrEmpty(source.cctvPeriodKey)?string.Empty:T(source.cctvPeriodKey);
-   KarineUI.RequestItem(cameraList,null,sourceTitle,sourcePeriod,source==node,()=>{
+   KarineUI.CctvCameraItem(cameraList,sourceTitle,place,sourcePeriod,source==node,!game.State.read.Contains(source.id),()=>{
     if(target.kind=="cctv")CctvScreen(target);else ReadPage(target);
    });
   }
   var meta=new VisualElement();meta.style.flexDirection=FlexDirection.Row;
-  meta.style.alignItems=Align.Center;content.Add(meta);
-  var camera=Text(meta,T(node.cctvSourceKey),Ink,KarineTheme.CctvArchive.TitleSize);
-  camera.style.flexGrow=1;camera.style.marginBottom=0;
+  meta.style.alignItems=Align.Center;meta.style.paddingRight=KarineTheme.IconButtonSize+KarineTheme.SpaceSm;content.Add(meta);
+  var camera=KarineUI.Subtitle(meta,T(node.cctvSourceKey),KarineTheme.CctvArchive.HeadingSize);camera.style.color=KarineTheme.Primary;
+  camera.style.flexGrow=1;camera.style.flexShrink=1;camera.style.marginBottom=0;
   var status=Text(meta,T("cctv.signal"),Gold,14);status.style.marginBottom=0;
-  var period=Text(content,T(node.cctvPeriodKey),Muted,14);period.style.marginBottom=7;
+  var period=Text(content,T(node.cctvPeriodKey),Muted,KarineTheme.CctvArchive.MetaSize+1);period.style.marginBottom=KarineTheme.SpaceMd;
   var recordPanel=KarineUI.CctvRecordPanel(content);
   KarineUI.SignalSwitch(recordPanel);
   var stream=Scroll(recordPanel);
@@ -246,12 +255,21 @@ public sealed partial class BubeApp {
   var rows=new List<VisualElement>();
   var lines=new List<Label>();
   var actions=new List<VisualElement>();
+  var stamps=new List<Label>();
   foreach(var record in records) {
    var row=KarineUI.CctvRecordRow(stream);rows.Add(row);
+   var stamp=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.TextSize);stamp.style.width=KarineTheme.CctvArchive.TimeWidth;
+   stamp.style.flexShrink=0;stamp.style.marginBottom=0;stamp.style.color=KarineTheme.Secondary;stamps.Add(stamp);
    var label=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.TextSize);label.style.flexGrow=1;label.style.flexShrink=1;
    label.style.marginBottom=0;lines.Add(label);
+   // Sinyal satırları her vakada aynı kırmızıyla yazılır; içerik değil cihaz durumudur.
+   if(!string.IsNullOrEmpty(record.signalKey)||!string.IsNullOrEmpty(record.glitchKey)){label.style.color=KarineTheme.Danger;stamp.style.color=KarineTheme.Danger;}
    var action=new VisualElement();row.Add(action);actions.Add(action);
   }
+  Action<int,string> write=(i,text)=>{
+   string time=string.IsNullOrEmpty(records[i].overlayTimeKey)?null:T(records[i].overlayTimeKey),stamp,body;
+   KarineUI.SplitCctvLine(text,time,out stamp,out body);stamps[i].text=stamp;lines[i].text=body;
+  };
   Action<int> addFootageButton=index=>{
    var record=records[index];
    if(!record.HasFootage)return;
@@ -266,7 +284,7 @@ public sealed partial class BubeApp {
    status.text=T("cctv.complete");
    for(int i=0;i<records.Length;i++) {
     rows[i].style.display=DisplayStyle.Flex;
-    lines[i].text=T(records[i].textKey);
+    write(i,T(records[i].textKey));
     addFootageButton(i);
    }
    int focus=Array.FindIndex(records,e=>e.id==focusEventId);
@@ -296,9 +314,9 @@ public sealed partial class BubeApp {
      rows[current].style.display=DisplayStyle.Flex;
      var line=lines[current];
      string finalText=T(string.IsNullOrEmpty(record.glitchKey)?record.textKey:record.glitchKey);
-     line.text="▒▒▒  " + T("cctv.syncing");
+     stamps[current].text="▒▒▒";line.text=T("cctv.syncing");
      content.schedule.Execute(()=>{
-      line.text=finalText;
+      write(current,finalText);
       stream.ScrollTo(rows[current]);
       addFootageButton(current);
       if(!string.IsNullOrEmpty(record.glitchKey)) {
@@ -306,7 +324,7 @@ public sealed partial class BubeApp {
        clarify=KarineUI.Button_(actions[current],"↻",()=>{
         clarify.RemoveFromHierarchy();
         line.text=T("cctv.syncing");
-        content.schedule.Execute(()=>{line.text=T(record.textKey);}).ExecuteLater(360);
+        content.schedule.Execute(()=>write(current,T(record.textKey))).ExecuteLater(360);
        });
        clarify.tooltip=T("cctv.clarify");
        clarify.style.width=KarineTheme.IconButtonSize;clarify.style.height=KarineTheme.IconButtonSize;

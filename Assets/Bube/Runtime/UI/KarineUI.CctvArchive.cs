@@ -1,27 +1,58 @@
+using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 namespace Bube {
 public static partial class KarineUI {
- public static VisualElement CctvArchiveLayout(VisualElement parent,string title,out VisualElement cameras) {
+ // CCTV arşivi (yeni görünüm, 2 Ekim 2026): solda başlık + kamera kartları, sağda başlık, saat sütunlu döküm.
+ public static VisualElement CctvArchiveLayout(VisualElement parent,string title,out VisualElement cameras,string hint=null) {
   parent.name="CctvArchiveLayout";parent.style.flexDirection=FlexDirection.Row;parent.style.minHeight=0;
   var side=new VisualElement();side.style.width=Length.Percent(KarineTheme.CctvArchive.SidebarWidth);
-  side.style.paddingRight=KarineTheme.SpaceMd;parent.Add(side);
-  Icon(side,"binoculars",KarineTheme.Primary,KarineTheme.IconSize);
-  Subtitle(side,title,KarineTheme.CctvArchive.TitleSize);
+  side.style.paddingRight=KarineTheme.SpaceMd;side.style.marginRight=KarineTheme.SpaceMd;
+  side.style.borderRightWidth=1;side.style.borderRightColor=KarineTheme.GlassLift;parent.Add(side);
+  var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;head.style.marginBottom=KarineTheme.SpaceMd;side.Add(head);
+  Icon(head,"binoculars",KarineTheme.Primary,KarineTheme.IconSize+KarineTheme.SpaceSm).style.marginRight=KarineTheme.SpaceSm;
+  var words=new VisualElement();words.style.flexShrink=1;head.Add(words);
+  Subtitle(words,title.ToUpperInvariant(),KarineTheme.CctvArchive.TitleSize).style.marginBottom=0;
+  if(!string.IsNullOrEmpty(hint)){var h=Body_(words,hint,KarineTheme.CctvArchive.MetaSize-2);h.style.color=KarineTheme.Secondary;h.style.marginBottom=0;}
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;side.Add(scroll);cameras=scroll;
   var main=new VisualElement {name="CctvArchiveRecords"};main.style.flexGrow=1;main.style.minWidth=0;
   main.style.width=Length.Percent(100-KarineTheme.CctvArchive.SidebarWidth);parent.Add(main);return main;
  }
+ // Kamera kartı: simge karosu, ad, konum ve aralık. Kırmızı nokta yalnız "henüz incelenmedi" demektir, her kamerada aynıdır.
+ public static Button CctvCameraItem(VisualElement list,string title,string place,string period,bool selected,bool unread,Action click) {
+  var button=Button_(list,"",click,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);
+  button.style.flexDirection=FlexDirection.Row;button.style.alignItems=Align.Center;button.style.minHeight=KarineTheme.CctvArchive.CameraRow;
+  button.style.marginBottom=KarineTheme.SpaceSm;button.style.paddingLeft=KarineTheme.SpaceSm;button.style.paddingRight=KarineTheme.SpaceSm;
+  var ink=selected?KarineTheme.Paper.Ink:KarineTheme.Primary;var faded=selected?KarineTheme.Paper.Faded:KarineTheme.Secondary;
+  var tile=new VisualElement {pickingMode=PickingMode.Ignore};tile.style.width=KarineTheme.CctvArchive.CameraTile;tile.style.height=KarineTheme.CctvArchive.CameraTile;
+  tile.style.flexShrink=0;tile.style.alignItems=Align.Center;tile.style.justifyContent=Justify.Center;tile.style.marginRight=KarineTheme.SpaceMd;
+  tile.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,selected?.12f:.8f);Border(tile,KarineTheme.BorderWidth,selected?KarineTheme.Paper.Edge:KarineTheme.GlassLift);Round(tile,KarineTheme.Radius);
+  button.Add(tile);Icon(tile,Resources.Load<Texture2D>("Bube/Art/Icons/"+KarineTheme.CctvArchive.CameraIcon)!=null?KarineTheme.CctvArchive.CameraIcon:"binoculars",ink,KarineTheme.IconSize+KarineTheme.SpaceSm);
+  var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;button.Add(words);
+  var name=Subtitle(words,title,KarineTheme.CctvArchive.TextSize);name.style.color=ink;name.style.marginBottom=0;
+  foreach(var line in new[]{place,period}) {
+   if(string.IsNullOrEmpty(line))continue;
+   var l=Body_(words,line,KarineTheme.CctvArchive.MetaSize-1);l.style.color=faded;l.style.marginBottom=0;
+  }
+  if(unread){var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.width=KarineTheme.SpaceMd;dot.style.height=KarineTheme.SpaceMd;dot.style.flexShrink=0;dot.style.alignSelf=Align.FlexStart;dot.style.marginTop=KarineTheme.SpaceSm;dot.style.backgroundColor=KarineTheme.Danger;Round(dot,KarineTheme.SpaceMd);button.Add(dot);}
+  return button;
+ }
  public static VisualElement CctvRecordPanel(VisualElement parent) {
   var panel=new VisualElement();panel.style.flexGrow=1;panel.style.minHeight=0;
-  panel.style.backgroundColor=KarineTheme.GlassDeep;Border(panel,KarineTheme.BorderWidth,KarineTheme.Panel2);
-  panel.style.paddingLeft=KarineTheme.SpaceSm;panel.style.paddingRight=KarineTheme.SpaceSm;parent.Add(panel);return panel;
+  panel.style.backgroundColor=KarineTheme.GlassDeep;Border(panel,KarineTheme.BorderWidth,KarineTheme.Panel2);Round(panel,KarineTheme.Radius);
+  panel.style.paddingLeft=KarineTheme.SpaceMd;panel.style.paddingRight=KarineTheme.SpaceSm;panel.style.paddingTop=KarineTheme.SpaceSm;parent.Add(panel);return panel;
  }
  public static VisualElement CctvRecordRow(VisualElement parent) {
   var row=new VisualElement();row.style.display=DisplayStyle.None;row.style.flexDirection=FlexDirection.Row;
   row.style.alignItems=Align.Center;row.style.minHeight=KarineTheme.CctvArchive.RowHeight;
-  row.style.paddingLeft=KarineTheme.SpaceSm;row.style.paddingRight=KarineTheme.SpaceSm;
-  row.style.borderBottomWidth=KarineTheme.BorderWidth;row.style.borderBottomColor=KarineTheme.Panel2;parent.Add(row);return row;
+  row.style.paddingLeft=KarineTheme.SpaceXs;row.style.paddingRight=KarineTheme.SpaceSm;parent.Add(row);return row;
+ }
+ // Döküm satırını saat ve metin olarak ayırır: "08.27 — metin" ya da ayrı saat anahtarı.
+ public static void SplitCctvLine(string text,string time,out string stamp,out string body) {
+  stamp=time??string.Empty;body=text??string.Empty;
+  if(stamp.Length>0)return;
+  int dash=body.IndexOf(" — ",StringComparison.Ordinal);
+  if(dash>0 && dash<=13){stamp=body.Substring(0,dash);body=body.Substring(dash+3);}
  }
 }
 }

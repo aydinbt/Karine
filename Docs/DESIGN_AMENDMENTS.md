@@ -864,3 +864,7 @@ Deniz Arslan kamerasının ilk senaryosu (taksi gelir, park eder, arka kapıdan 
 ## 2 Ekim 2026 — Video yalnız Dosya #001de
 
 Kullanıcı kararı: `videoPath` (mp4) yalnız Dosya #001 için kalır. Dosya #002 ve sonraki vakalar kamera görüntüsünü yalnız kare dizisiyle (`framePaths`/`frameTimes`/`frameMs`) canlandırır. `case002_2258.mp4` silindi.
+
+## 2 Ekim 2026 — CCTV arşivi yeni görünüm
+
+Referansa göre: sol rayda dürbün + "CCTV KAYITLARI" başlığı ve yönerge, kamera kartları (simge karosu, kamera adı, yer, aralık; kırmızı nokta yalnız "henüz incelenmedi" — her kamerada aynı). Sağda kamera başlığı + aralık, saat sütunlu döküm (saat ayrı anahtardan ya da "08.27 — metin" kalıbından ayrılır), sinyal/bozulma satırları her vakada aynı kırmızıyla. Tabletin sağ üstünde kapat (X) dosyaya döner. Referanstaki "Konum" alanı ve ayrı tarih veride olmadığı için eklenmedi; üst çubuk simgeleri önceki karar gereği yok. Kamera simgesi (`Icons/cctv`) gelene kadar dürbün kullanılır.
