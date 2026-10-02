@@ -39,14 +39,18 @@ public static partial class KarineUI {
   var brand=KarineLogo.Hero(bar,KarineTheme.Dossier.LogoWidth);brand.style.marginLeft=KarineTheme.SpaceXl;brand.style.marginRight=KarineTheme.SpaceXl;
   Mark(bar,"Bube/UI/bube_logo_light",KarineTheme.IconButtonSize-KarineTheme.SpaceSm);
   var label=Body_(bar,department,KarineTheme.Dossier.BodySize);label.style.marginLeft=KarineTheme.SpaceSm;label.style.marginBottom=0;label.style.flexGrow=1;
+  label.style.whiteSpace=WhiteSpace.NoWrap;
   return bar;
  }
  public static Button DossierTab(VisualElement parent,string icon,string title,bool active,Action action,bool animate=false) {
   var tab=PaperButton(parent,"",action,KarinePaperKind.Choice,active);
   tab.tooltip=title;tab.style.flexGrow=1;tab.style.minHeight=KarineTheme.TouchTarget;
   tab.style.marginBottom=KarineTheme.Dossier.TabGap;tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;
-  tab.style.backgroundColor=active?KarineTheme.Paper.Sheet:KarineTheme.Paper.Edge;
-  Stretched(tab,"Bube/UI/paper_sheet");
+  // Sekme dosyanın kâğıdından kesilmiş bir dil gibi durur: dokulu düğme görseli (yırtık şerit)
+  // kâğıt zeminle üst üste biniyordu; kaldırılır, düz kâğıt ve ince kenar kalır.
+  Unskin(tab,active?KarineTheme.Paper.Sheet:KarineTheme.Paper.Edge);
+  Stretched(tab,"Bube/UI/paper_sheet");Border(tab,1,KarineTheme.Paper.Edge);
+  tab.style.unityTextAlign=TextAnchor.MiddleLeft;tab.style.paddingLeft=KarineTheme.SpaceMd;
   if(!active)tab.style.unityBackgroundImageTintColor=KarineTheme.Paper.Tint;
   tab.style.borderLeftWidth=KarineTheme.PrimaryEdgeWidth;tab.style.borderLeftColor=active?KarineTheme.Paper.Stamp:KarineTheme.Paper.Edge;
   Icon(tab,icon,KarineTheme.Paper.Ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
