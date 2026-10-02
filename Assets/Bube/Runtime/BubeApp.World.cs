@@ -58,7 +58,7 @@ public sealed partial class BubeApp {
   board.style.marginTop=KarineTheme.SpaceSm;board.style.marginLeft=0;board.style.marginRight=0;
   board.style.backgroundColor=KarineTheme.GlassDeep;board.style.flexShrink=0;
   board.style.paddingLeft=KarineTheme.SpaceSm;board.style.paddingRight=KarineTheme.SpaceSm;board.style.paddingTop=KarineTheme.SpaceSm;board.style.paddingBottom=KarineTheme.SpaceSm;
-  KarineUI.BrowserBanner(board,current.id,LoadWorldArt(current.image),T(current.nameKey),T(current.descriptionKey),current.slots.Count+" "+T("world.cases").ToUpper(new System.Globalization.CultureInfo("tr-TR")));
+  KarineUI.BrowserBanner(board,current.id,LoadWorldArt(current.image),T(current.nameKey),null,current.slots.Count+" "+T("world.cases").ToUpper(new System.Globalization.CultureInfo("tr-TR")));
   var head=KarineUI.Row(board);
   var title=KarineUI.Body_(head,T("world.cases"),KarineTheme.CaseBrowser.SmallSize);
   title.style.flexGrow=1;title.style.marginBottom=0;

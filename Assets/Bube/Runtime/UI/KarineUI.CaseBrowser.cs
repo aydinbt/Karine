@@ -71,7 +71,8 @@ public static partial class KarineUI {
   var pct=Technical(meter,Mathf.RoundToInt(Mathf.Clamp01(progress)*100)+"%",KarineTheme.CaseBrowser.SmallSize);pct.style.marginLeft=KarineTheme.SpaceSm;pct.style.marginBottom=0;
  }
  public static VisualElement BrowserBanner(VisualElement parent,string country,Texture2D art,string title,string description,string stamp=null) {
-  var banner=new VisualElement();banner.style.height=KarineTheme.CaseBrowser.BannerHeight;banner.style.flexShrink=0;banner.style.overflow=Overflow.Hidden;parent.Add(banner);
+  bool brief=string.IsNullOrEmpty(description);
+  var banner=new VisualElement();banner.style.height=brief?KarineTheme.CaseBrowser.BannerHeight*2/3:KarineTheme.CaseBrowser.BannerHeight;banner.style.flexShrink=0;banner.style.overflow=Overflow.Hidden;parent.Add(banner);
   CountryPostcard(banner,country,art);
   var shade=new VisualElement();OfficePlace(shade,new Rect(0,0,100,100));shade.style.backgroundColor=KarineTheme.Veil(.5f);banner.Add(shade);
   var copy=new VisualElement();copy.style.paddingLeft=KarineTheme.SpaceMd;copy.style.paddingTop=KarineTheme.SpaceSm;copy.style.paddingRight=KarineTheme.CaseBrowser.StampWidth+KarineTheme.SpaceLg;banner.Add(copy);
@@ -79,7 +80,7 @@ public static partial class KarineUI {
   if(country=="tr") {var flag=new Image {image=Resources.Load<Texture2D>("Bube/TurkiyeFlag"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
    flag.style.width=KarineTheme.IconSize*2;flag.style.height=KarineTheme.IconSize+KarineTheme.SpaceSm;flag.style.marginRight=KarineTheme.SpaceSm;line.Add(flag);}
   var heading=Subtitle(line,title,KarineTheme.CaseBrowser.TitleSize-KarineTheme.SpaceSm);heading.style.marginBottom=KarineTheme.SpaceXs;
-  var desc=Body_(copy,description,KarineTheme.CaseBrowser.SmallSize);desc.style.marginBottom=0;
+  if(!brief){var desc=Body_(copy,description,KarineTheme.CaseBrowser.SmallSize);desc.style.marginBottom=0;}
   return banner;
  }
  public static void BrowserSteps(VisualElement parent,bool[] completed,int active) {
