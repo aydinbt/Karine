@@ -415,17 +415,21 @@ public sealed partial class BubeApp {
   KarineUI.CareerStat(tiles,"clock",T("career.pending"),pending.ToString()).style.marginRight=0;
   var lower=KarineUI.Row(right,Align.Stretch);lower.style.flexGrow=1;lower.style.minHeight=0;
   var stats=KarineUI.CareerBox(lower,T("career.caseStats"));stats.style.flexGrow=1;stats.style.flexBasis=0;stats.style.marginRight=KarineTheme.SpaceSm;
-  var sr=KarineUI.Row(stats);sr.style.alignItems=Align.Center;
+  // Alt sıra kısa ekranlarda sığmıyordu: iki kutunun içeriği kendi içinde kayar, kutudan taşmaz.
+  stats.style.minHeight=0;stats.style.overflow=Overflow.Hidden;
+  var statsScroll=new KarineScrollView();statsScroll.style.flexGrow=1;statsScroll.style.minHeight=0;stats.Add(statsScroll);
+  var sr=KarineUI.Row(statsScroll);sr.style.alignItems=Align.Center;
   var tones=new[]{KarineTheme.Active,KarineTheme.Primary,KarineTheme.Secondary,KarineTheme.Danger};
   var counts=new[]{supported,pending,incomplete,wrong};
   sr.Add(new KarineUI.CareerRing(counts,tones,(history.Count+pending).ToString(),T("career.totalCases")));
   var legend=new VisualElement();legend.style.flexGrow=1;legend.style.marginLeft=KarineTheme.SpaceLg;sr.Add(legend);
   var labels=new[]{T("career.supportedCount"),T("career.pending"),T("career.incompleteCount"),T("career.falseCount")};
   for(int i=0;i<4;i++) KarineUI.CareerLegend(legend,tones[i],labels[i],counts[i]);
-  var active=KarineUI.CareerBox(lower,T("career.topWorlds"));active.style.flexGrow=1;active.style.flexBasis=0;
+  var active=KarineUI.CareerBox(lower,T("career.topWorlds"));active.style.flexGrow=1;active.style.flexBasis=0;active.style.minHeight=0;active.style.overflow=Overflow.Hidden;
+  var worldList=new KarineScrollView();worldList.style.flexGrow=1;worldList.style.minHeight=0;active.Add(worldList);
   var ranked=atlas.countries.Select((c,i)=>new{c,i}).OrderByDescending(x=>Worlds.CompletedIn(x.c,closed)).ThenBy(x=>x.i).Take(3).ToList();
   for(int k=0;k<ranked.Count;k++){var x=ranked[k];int pick=x.i;int n=Worlds.CompletedIn(x.c,closed);
-   KarineUI.CareerWorldRow(active,k+1,x.c.id,LoadWorldArt(x.c.image),T(x.c.nameKey),n+" / "+x.c.slots.Count,x.c.slots.Count==0?0:(float)n/x.c.slots.Count,
+   KarineUI.CareerWorldRow(worldList,k+1,x.c.id,LoadWorldArt(x.c.image),T(x.c.nameKey),n+" / "+x.c.slots.Count,x.c.slots.Count==0?0:(float)n/x.c.slots.Count,
     !Worlds.CountryUnlocked(atlas,x.i,closed),()=>{worldPick=pick;WorldPage();});}
  }
  void CareerHistory(VisualElement parent,System.Collections.Generic.List<FaxReview> history) {

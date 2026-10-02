@@ -28,7 +28,8 @@ public static partial class KarineUI {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
   row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Panel2;row.style.paddingTop=KarineTheme.SpaceXs;row.style.paddingBottom=KarineTheme.SpaceXs;parent.Add(row);
   var dot=new VisualElement();dot.style.width=10;dot.style.height=10;Round(dot,5);dot.style.backgroundColor=color;dot.style.marginRight=KarineTheme.SpaceSm;row.Add(dot);
-  var l=Body_(row,label,KarineTheme.CaseBrowser.TextSize);l.style.flexGrow=1;l.style.marginBottom=0;
+  var l=Body_(row,label,KarineTheme.CaseBrowser.TextSize);l.style.flexGrow=1;l.style.flexShrink=1;l.style.minWidth=0;l.style.marginBottom=0;
+  l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;
   Technical(row,count.ToString(),KarineTheme.CaseBrowser.TextSize).style.marginBottom=0;
  }
  public static Button CareerWorldRow(VisualElement parent,int rank,string id,Texture2D art,string name,string count,float progress,bool locked,Action click) {
