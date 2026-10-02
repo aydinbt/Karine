@@ -868,3 +868,7 @@ Kullanıcı kararı: `videoPath` (mp4) yalnız Dosya #001 için kalır. Dosya #0
 ## 2 Ekim 2026 — CCTV arşivi yeni görünüm
 
 Referansa göre: sol rayda dürbün + "CCTV KAYITLARI" başlığı ve yönerge, kamera kartları (simge karosu, kamera adı, yer, aralık; kırmızı nokta yalnız "henüz incelenmedi" — her kamerada aynı). Sağda kamera başlığı + aralık, saat sütunlu döküm (saat ayrı anahtardan ya da "08.27 — metin" kalıbından ayrılır), sinyal/bozulma satırları her vakada aynı kırmızıyla. Tabletin sağ üstünde kapat (X) dosyaya döner. Referanstaki "Konum" alanı ve ayrı tarih veride olmadığı için eklenmedi; üst çubuk simgeleri önceki karar gereği yok. Kamera simgesi (`Icons/cctv`) gelene kadar dürbün kullanılır.
+
+## 2 Ekim 2026 — Masa referansına hizalama
+
+Masa etiketlerinin konumu/boyutu referans görselden ölçülerek birebir alındı, üst çubuk eylemleri 96 px genişledi, konum satırına iğne simgesi eklendi. Arka plan hâlâ parça parça (oda plakası + nesne atlası + ülke penceresi, piksel stili); referansın resim stiline birebir geçiş için kullanıcıdan yazısız temiz masa görseli bekleniyor.

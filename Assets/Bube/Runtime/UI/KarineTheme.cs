@@ -166,7 +166,7 @@ public static class KarineTheme {
  public static class Office {
   public const float Aspect=1672f/941f;
   public const int BrandWidth=185,TitleSize=19,LabelSize=14,SmallSize=12;
-  public const int BadgeSize=24,HeaderHeight=80,HeaderActionWidth=72,PortraitWidth=68,PortraitHeight=72;
+  public const int BadgeSize=24,HeaderHeight=80,HeaderActionWidth=96,PortraitWidth=68,PortraitHeight=72;
   public const int BlinkMs=520;
   // Coordinates in the reusable room plate; all props share the same stage.
   public static readonly Rect Window=new Rect(30.3f,7.8f,39.3f,35.9f);
@@ -177,11 +177,11 @@ public static class KarineTheme {
   public static readonly Rect Folder=new Rect(32,66,29,26);
   public static readonly Rect Monitor=new Rect(62,41,28,32);
   public static readonly Rect Evidence=new Rect(73,74,26,20);
-  public static readonly Rect InboxLabel=new Rect(9,51,17,8);
-  public static readonly Rect PhoneLabel=new Rect(30,51,17,8);
-  public static readonly Rect FolderLabel=new Rect(40,74,17,8);
-  public static readonly Rect MonitorLabel=new Rect(67,53,18,8);
-  public static readonly Rect EvidenceLabel=new Rect(80,79,18,8);
+  public static readonly Rect InboxLabel=new Rect(9.4f,51.3f,15.2f,6.7f);
+  public static readonly Rect PhoneLabel=new Rect(30.3f,51.3f,15.4f,6.4f);
+  public static readonly Rect FolderLabel=new Rect(40.6f,73.4f,15.1f,6.6f);
+  public static readonly Rect MonitorLabel=new Rect(67.3f,52.4f,16.9f,6.9f);
+  public static readonly Rect EvidenceLabel=new Rect(82,77.9f,15.1f,6.7f);
   // Masanın havası (`KarineUI.OfficeAtmosphere`). Işık ve kararma kit paletinden
   // boyanır; buradaki sayılar yalnız miktar ve hızdır.
   public static class Atmosphere {

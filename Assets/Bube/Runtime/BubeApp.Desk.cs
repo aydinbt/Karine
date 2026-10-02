@@ -337,7 +337,9 @@ public sealed partial class BubeApp {
   var heading=KarineUI.Subtitle(identity,T(game.Data.titleKey),KarineTheme.Office.TitleSize);
   heading.style.marginBottom=KarineTheme.SpaceXs;
   if(!string.IsNullOrEmpty(game.Data.summary?.locationKey)) {
-   var location=KarineUI.Body_(identity,T(game.Data.summary.locationKey),KarineTheme.Office.LabelSize);
+   var place=new VisualElement();place.style.flexDirection=FlexDirection.Row;place.style.alignItems=Align.Center;identity.Add(place);
+   KarineUI.Icon(place,"pin",KarineTheme.Primary,KarineTheme.Office.LabelSize+4).style.marginRight=KarineTheme.SpaceXs;
+   var location=KarineUI.Body_(place,T(game.Data.summary.locationKey),KarineTheme.Office.LabelSize);
    location.style.marginBottom=0;
   }
   bool usable=game.State.caseAccepted&&!game.State.closed&&!game.Career.retired;
