@@ -127,10 +127,13 @@ public static partial class KarineUI {
    fill = KarineTheme.Paper.Light; button.style.backgroundColor = fill;
    button.style.borderLeftWidth = KarineTheme.PrimaryEdgeWidth; button.style.borderLeftColor = KarineTheme.Paper.Stamp;
   }
-  var pressed = Color.Lerp(fill, KarineTheme.Paper.Stamp, .30f);
-  button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
-  button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = fill);
-  button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = fill);
+  // Basınca o anki zemin saklanır, bırakınca geri gelir: sonradan rengi değiştirilen düğme
+  // (dosya sekmeleri) parmak üstünden geçince başka renge dönmesin. Yalnız basılıyken çalışır.
+  Color? before = null;
+  button.RegisterCallback<PointerDownEvent>(_ => { before = button.style.backgroundColor.value; button.style.backgroundColor = Color.Lerp(before.Value, KarineTheme.Paper.Stamp, .30f); });
+  EventCallback<EventBase> release = _ => { if (before.HasValue) { button.style.backgroundColor = before.Value; before = null; } };
+  button.RegisterCallback<PointerUpEvent>(e => release(e)); button.RegisterCallback<PointerLeaveEvent>(e => release(e));
+  button.RegisterCallback<PointerCancelEvent>(e => release(e));
   parent?.Add(button);
   return button;
  }
@@ -199,9 +202,13 @@ public static partial class KarineUI {
   button.Add(Icon(null, "cine_skip", KarineTheme.OnPrimary));
 
   var pressed = Color.Lerp(fill, KarineTheme.Accent, .35f);
-  button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
-  button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = fill);
-  button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = fill);
+  // Basınca o anki zemin saklanır, bırakınca geri gelir: sonradan rengi değiştirilen düğme
+  // (dosya sekmeleri) parmak üstünden geçince başka renge dönmesin. Yalnız basılıyken çalışır.
+  Color? before = null;
+  button.RegisterCallback<PointerDownEvent>(_ => { before = button.style.backgroundColor.value; button.style.backgroundColor = Color.Lerp(before.Value, KarineTheme.Paper.Stamp, .30f); });
+  EventCallback<EventBase> release = _ => { if (before.HasValue) { button.style.backgroundColor = before.Value; before = null; } };
+  button.RegisterCallback<PointerUpEvent>(e => release(e)); button.RegisterCallback<PointerLeaveEvent>(e => release(e));
+  button.RegisterCallback<PointerCancelEvent>(e => release(e));
   parent?.Add(button);
   return button;
  }
