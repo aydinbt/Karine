@@ -19,7 +19,10 @@ public static partial class KarineUI {
   if(!string.IsNullOrEmpty(hint)){var h=Body_(middle,hint,KarineTheme.Dossier.MetaSize);h.style.color=KarineTheme.Secondary;h.style.marginBottom=KarineTheme.SpaceMd;}
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;middle.Add(scroll);list=scroll;
   detail=new VisualElement {name="RequestDetail"};detail.style.width=Length.Percent(KarineTheme.Requests.DetailWidth);
-  detail.style.backgroundColor=KarineTheme.Paper.Sheet;Stretched(detail,"Bube/UI/paper_sheet");
+  // Koyu kart: beyaz kâğıt tablet ekranında sırıtıyordu. İçerik kâğıt mürekkebiyle yazılır;
+  // yerleşim bitince (ilk çizimden önce) mürekkep tonları ekran tonlarına çevrilir.
+  detail.style.backgroundColor=KarineTheme.GlassDeep;Border(detail,KarineTheme.BorderWidth,KarineTheme.Panel2);Round(detail,KarineTheme.Radius);
+  var card=detail;card.RegisterCallback<GeometryChangedEvent>(_=>OnScreenInk(card));
   detail.style.paddingLeft=KarineTheme.SpaceLg;detail.style.paddingRight=KarineTheme.SpaceLg;
   detail.style.paddingTop=KarineTheme.SpaceLg;detail.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(detail);
  }
@@ -30,7 +33,7 @@ public static partial class KarineUI {
   var ink=active?KarineTheme.Paper.Ink:KarineTheme.Primary;
   Icon(tab,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceSm;
   var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;label.style.flexGrow=1;label.style.flexShrink=1;
-  label.style.whiteSpace=WhiteSpace.NoWrap;label.style.overflow=Overflow.Hidden;label.style.textOverflow=TextOverflow.Ellipsis;
+  label.style.minWidth=0;label.style.whiteSpace=WhiteSpace.Normal;
   if(count>0) {
    var badge=Body_(tab,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;
    badge.style.color=KarineTheme.Primary;badge.style.backgroundColor=KarineTheme.Danger;badge.style.marginBottom=0;
@@ -56,15 +59,23 @@ public static partial class KarineUI {
   var chevron=Icon(button,"nav_next",faded,KarineTheme.Requests.Chevron);chevron.style.marginLeft=KarineTheme.SpaceSm;chevron.pickingMode=PickingMode.Ignore;
   return button;
  }
+ static void OnScreenInk(VisualElement card) {
+  card.Query<Label>().ForEach(l=> {
+   var c=l.resolvedStyle.color;
+   if(c==KarineTheme.Paper.Ink)l.style.color=KarineTheme.Primary;
+   else if(c==KarineTheme.Paper.Faded)l.style.color=KarineTheme.Secondary;
+  });
+ }
  public static VisualElement RequestDetail(VisualElement parent,Texture2D portrait,string title,string info,string status) {
   parent.Clear();var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;parent.Add(scroll);
-  var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(top);
-  if(portrait!=null) {var photo=new Image{image=portrait,scaleMode=ScaleMode.ScaleAndCrop};photo.style.width=KarineTheme.Requests.DetailPortrait;photo.style.height=KarineTheme.Requests.DetailPortrait;photo.style.flexShrink=0;photo.style.marginRight=KarineTheme.SpaceMd;top.Add(photo);}
+  // Portre üstte, yazı altta: yan yana dar sütunda kelimeler bölünüyordu.
+  var top=new VisualElement();top.style.flexDirection=FlexDirection.Column;top.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(top);
+  if(portrait!=null) {var photo=new Image{image=portrait,scaleMode=ScaleMode.ScaleAndCrop};photo.style.width=KarineTheme.Requests.DetailPortrait;photo.style.height=KarineTheme.Requests.DetailPortrait;photo.style.flexShrink=0;photo.style.marginBottom=KarineTheme.SpaceSm;top.Add(photo);}
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;top.Add(words);
   var name=Subtitle(words,title,KarineTheme.Requests.TitleSize);name.style.color=KarineTheme.Paper.Ink;
   DossierText(words,info,KarineTheme.Requests.BodySize).style.color=KarineTheme.Paper.Faded;
   DossierText(words,status,KarineTheme.Dossier.MetaSize);
-  var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Paper.Edge;rule.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(rule);
+  var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Panel2;rule.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(rule);
   return scroll;
  }
 }
