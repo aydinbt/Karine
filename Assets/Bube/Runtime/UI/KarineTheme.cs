@@ -127,6 +127,10 @@ public static class KarineTheme {
   public const int TapeWidth=38, TapeHeight=9, BannerHeight=104, StampWidth=92, HeadingHeight=84, ProgressWidth=260, ProgressHeight=6;
  }
 
+ public static class Career {
+  public const int HeadingSize=19, ValueSize=30, NavHeight=54, Portrait=132, Ring=150, RingWidth=18;
+  public const int WorldRow=46, WorldRank=30, WorldThumb=70, ProfileWidth=330;
+ }
  public static class CctvArchive {
   public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=40, TimeWidth=96;
   public const int CameraRow=96, CameraTile=68, HeadingSize=21;

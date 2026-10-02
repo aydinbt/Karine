@@ -892,3 +892,7 @@ Referansa göre: simgeli bölüm başlığı + açıklama, radyo daireli seçene
 ## 2 Ekim 2026 — Vakalar sayfası yeni görünüm
 
 Referans görsele göre: büyük başlık; harita simgeli, yüzdeli "Genel ilerleme" kutusu; daha uzun ülke kartları, kilit ortada; şeridin sağında ileri oku; ülke bandında bayrak ve "N VAKA" damgası; polaroid vaka kartlarında sol üstte sıra rozeti, kilitli kartlar koyu, altta düğme gibi durum şeridi (etkin olan pas kırmızısı); alttaki adım çizgisinde kilitli adımlar kilit noktası taşır. Referanstaki "Türkiye'yi tamamla / Özel içerik açılır" kupası **eklenmedi**: böyle bir içerik yok, oyuncuya olmayan bir şey vaat edilmez. Durum: `[~]`, Unity'de gözle bakılmadı.
+
+## 2 Ekim 2026 — Kariyer / İstatistikler yeni görünüm
+
+Masa üstü tablet yerine tam ekran panel: üstte logo + "Kariyer / İstatistikler" + kapat; solda Bora profil kartı ve üç sekme (Genel İstatistikler, Vaka Geçmişi, Dosya Arşivi); sağda Genel İlerleme (dünya, vaka, yüzde), dört sayaç (değerlendirilen dosya, uygun bulunan, kurum güveni, kurumsal incelemede), halka grafikli Vaka İstatistikleri ve En Aktif Dünyalar. Referanstaki "İncelenen delil", "Görüşme yapılan kişi", "Yazılan rapor", "Sicil no", "Göreve başlama", "Görüşmeler/Raporlar/Başarımlar" sekmeleri **eklenmedi** — kariyer verisi bunları tutmuyor, uydurma sayı gösterilmez. Durum: `[~]`.
