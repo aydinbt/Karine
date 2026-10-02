@@ -88,3 +88,22 @@ Hiçbir kare yüz ya da ayırt edici ayrıntı göstermez. Kareleri görüntü �
 2. **Fail sütununun başlığı vakadan gelir.** `custodyLabelKey` gibi isteğe bağlı genel bir `suspectLabelKey` alanı eklenir; boşsa `conclude.suspect` kullanılır. Bu vaka "Ölümden kim sorumlu?" yazar, 001 ve 002 etkilenmez.
 3. **Tarih:** 12 Aralık 2026 gecesi; ölüm 13 Aralık'ın ilk saatlerine sarkar.
 4. **Ozan'ın zimmeti raporda ayrı soru değildir.** Yalnız güdüdür; hesap incelemesi Ozan'ın USB'yi neden aldığını açıklar.
+
+## Oyuncu deneyimi: yanıltma ve "aa" anları (kullanıcı ilkesi, 2 Ekim 2026)
+
+Oyuncu sonucu faks gelene kadar bilmemeli; kaynaklar doğruyu **mümkün kılar**, söylemez. Her kişi gerçek insan gibi kendi çıkarını korur, algıyı yönlendirmeye çalışır. Çözüm tek bir kaynakta değil, kaynakların çarpışmasında durur.
+
+**Yanlış yollar (her biri savunulabilir olmalı, sonra kanıtla kapanmalı):**
+- **İş kazası:** tutanak ve Ozan'ın anlatısı bunu kurar ("kutu düşmüş"). Adli rapor yıkar.
+- **Seda cinayeti:** borç tartışması, ortaklık payı, Barış'ın "akşam bağırışlar duydum" sözü, Seda'nın tartışmayı küçümsemesi. Kamera ve ölüm saati temize çıkarır.
+- **Barış:** Levent'i son gören, elektrik kesintisinde oradaydı, teslimat irsaliyesinde saat oynaması var (gerçekte faturayı geç kesmiş, küçük bir vergi kaçamağı saklıyor). Saklaması suçluluk gibi okunur; kamera çıkış saatini, adli rapor ölüm penceresini verir.
+- **Ozan cinayeti (en güçlü tuzak):** erken geldi, yalan söyledi, olay yerini değiştirdi, güdüsü var. Ama jeneratör raporu (eski kopma, zorlama yok, yakıt bitmiş) ve ölüm penceresi (Ozan gelmeden önce) onu ölümden ayırır. **Oyuncu Ozan'ı "katil" yazarsa yanlış olur.**
+
+**Çelişki anları (oyuncu kendi bulmalı, oyun işaretlemez):**
+- Ozan "00.50'de geldim, hemen aradım" ↔ kamera 00.42 ↔ çağrı 01.12.
+- Ozan "jeneratör haftalardır çalışmıyordu" ↔ teknik rapor: o gece çalıştırılmış. (Ozan burada yalan söylemiyor; bilmiyor. Yalan ≠ suç, bilgisizlik ≠ yalan.)
+- Tutanak "ağır kutu, baş travması" ↔ adli rapor: travma ölüm sonrası.
+- Seda "Levent USB'yi hep yanında taşırdı" ↔ eşya dökümü: USB yok.
+- Barış "23.30 gibi çıktım" ↔ irsaliye 23.50 (geç kesilmiş fatura) ↔ kamera 23.30.
+
+**Destek:** her doğru cevabın en az iki bağımsız dayanağı olur; ifadeler yeni kaynağı erişilebilir kılar ama sırayı söylemez; yanlış cevap faksta gerekçesiyle döner.
