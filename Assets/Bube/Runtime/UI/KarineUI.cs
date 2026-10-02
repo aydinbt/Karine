@@ -281,6 +281,14 @@ public static partial class KarineUI {
   return true;
  }
 
+ // Dokuyu kaldırır: görüşme seçenekleri gibi sık, yoğun listelerde düz cam kart daha okunaklı.
+ public static void Unskin(VisualElement button, Color fill) {
+  button.style.backgroundImage = StyleKeyword.None;
+  button.style.backgroundColor = fill;
+  button.style.unitySliceLeft = 0; button.style.unitySliceRight = 0; button.style.unitySliceTop = 0; button.style.unitySliceBottom = 0;
+  Border(button, 0, Color.clear);
+ }
+
  // Basma geri bildirimi: görsel bir an kararır ve bir piksel içe iner. Her düğmede aynı.
  public static void Pressable(VisualElement button) {
   button.RegisterCallback<PointerDownEvent>(_ => { button.style.unityBackgroundImageTintColor = KarineTheme.Button.PressedTint; button.style.translate = new Translate(0, KarineTheme.Button.PressDepth); }, TrickleDown.TrickleDown);

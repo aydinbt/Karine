@@ -113,7 +113,7 @@ public sealed partial class BubeApp {
       choices.style.display=choices.style.display==DisplayStyle.None?DisplayStyle.Flex:DisplayStyle.None;
       selectedInterviewTopic=topicKey;
      });
-     header.style.backgroundColor=KarineTheme.Panel2;
+     KarineUI.Unskin(header,KarineTheme.Panel2);
      header.style.marginBottom=6;header.style.marginRight=0;header.style.paddingLeft=12;
      header.style.unityTextAlign=TextAnchor.MiddleLeft;header.style.fontSize=Typography.Snap(16);
      section.Insert(0,header);
@@ -125,7 +125,7 @@ public sealed partial class BubeApp {
      choiceButton.style.whiteSpace=WhiteSpace.Normal;
      choiceButton.style.fontSize=Typography.Snap(16);
      choiceButton.style.minHeight=66;
-     choiceButton.style.backgroundColor=KarineTheme.GlassLift;
+     KarineUI.Unskin(choiceButton,KarineTheme.GlassLift);
      choiceButton.style.borderLeftWidth=3;
      choiceButton.style.borderLeftColor=KarineTheme.Active;
     }
