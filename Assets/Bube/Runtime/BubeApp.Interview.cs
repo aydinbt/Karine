@@ -143,7 +143,7 @@ public sealed partial class BubeApp {
     Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
     var giveUp=questions.Children().Last() as Button;
     giveUp.style.minHeight=MinimumTouchTarget;giveUp.style.fontSize=Typography.Snap(15);
-    giveUp.style.backgroundColor=KarineTheme.Panel2;giveUp.style.color=Ink;
+    giveUp.style.color=Ink;
    }
   } else {
    if(referenceCard!=null)Button(questions,T("interview.openPresented"),()=>referenceCard.style.display=DisplayStyle.Flex);
@@ -196,7 +196,7 @@ public sealed partial class BubeApp {
   Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
   var cancel=questions.Children().Last() as Button;
   cancel.style.minHeight=MinimumTouchTarget;cancel.style.fontSize=Typography.Snap(15);
-  cancel.style.backgroundColor=KarineTheme.Panel2;cancel.style.color=Ink;
+  cancel.style.color=Ink;
   if(!string.IsNullOrEmpty(sourceId)) {
    var chosen=Text(questions,T("interview.selectedSource")+"  ·  "+ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId)),Ink,15);
    chosen.style.whiteSpace=WhiteSpace.Normal;
