@@ -130,6 +130,11 @@ public sealed partial class BubeApp : MonoBehaviour {
   return assignmentCache;
  }
  string T(string key) => locale.Get(key);
+ // Eski kayıtlarda değerlendirme türü boş kalabiliyor; ham anahtar yerine sonuçtan türet.
+ string EvaluationTitle(FaxReview fax) {
+  var type=string.IsNullOrEmpty(fax.evaluationType)?(fax.correct?"supported":"incomplete"):fax.evaluationType;
+  return T("career.evaluation."+type);
+ }
  string CaseText(string suffix,string fallbackKey) {
   var key=game.Data.id+"."+suffix;
   var value=T(key);

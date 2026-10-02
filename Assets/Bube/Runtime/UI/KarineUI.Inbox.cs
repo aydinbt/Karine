@@ -21,20 +21,41 @@ public static partial class KarineUI {
   panel.style.paddingLeft=KarineTheme.SpaceMd;panel.style.paddingRight=KarineTheme.SpaceMd;
   panel.style.paddingTop=KarineTheme.SpaceLg;panel.style.paddingBottom=KarineTheme.SpaceMd;parent.Add(panel);
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;panel.Add(row);
-  Icon(row,"people",KarineTheme.Primary,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
+  var mark=new Image {image=Resources.Load<Texture2D>("Bube/UI/bube_logo"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+  mark.style.width=KarineTheme.Inbox.BrandLogo;mark.style.height=KarineTheme.Inbox.BrandLogo;
+  mark.style.marginRight=KarineTheme.SpaceMd;mark.style.flexShrink=0;row.Add(mark);
   Body_(row,brand,KarineTheme.Inbox.BodySize);return panel;
  }
  public static VisualElement InboxPaper(VisualElement parent) {
-  for(int i=0;i<3;i++) {
-   var layer=new VisualElement();OfficePlace(layer,new Rect(39+i*.4f,14+i*.6f,55,79));
-   layer.style.backgroundColor=i==0?KarineTheme.Paper.Folder:KarineTheme.Paper.Tint;
-   Border(layer,KarineTheme.BorderWidth,KarineTheme.Paper.FolderDeep);parent.Add(layer);
-  }
+  var folder=new VisualElement {name="InboxFolder",pickingMode=PickingMode.Ignore};OfficePlace(folder,KarineTheme.Inbox.Folder);
+  folder.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/UI/paper_folder"));
+  folder.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(Length.Percent(100),Length.Percent(100)));
+  parent.Add(folder);
   var paper=new VisualElement {name="InboxPaper"};OfficePlace(paper,KarineTheme.Inbox.Paper);
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  paper.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/Art/DossierPaper"));
+  paper.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/UI/paper_sheet"));
+  paper.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(Length.Percent(100),Length.Percent(100)));
   paper.style.paddingLeft=KarineTheme.SpaceXl;paper.style.paddingRight=KarineTheme.SpaceXl;
-  paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(paper);return paper;
+  paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(paper);
+  var clip=Resources.Load<Texture2D>("Bube/UI/paperclip");
+  if(clip!=null) {
+   var pin=new Image {name="InboxClip",image=clip,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+   pin.style.position=Position.Absolute;pin.style.width=KarineTheme.Inbox.ClipWidth;
+   pin.style.height=KarineTheme.Inbox.ClipWidth*clip.height/(float)clip.width;
+   pin.style.right=Length.Percent(4);pin.style.top=-KarineTheme.SpaceLg;paper.Add(pin);
+  }
+  return paper;
+ }
+ // Masanın üstüne gece ofisi sahnesi; hafif karartma panelleri okunur tutar.
+ public static void InboxScene(VisualElement parent) {
+  var scene=new VisualElement {name="InboxScene"};
+  scene.style.position=Position.Absolute;scene.style.left=0;scene.style.right=0;scene.style.top=0;scene.style.bottom=0;
+  scene.style.backgroundColor=KarineTheme.Background;
+  scene.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/UI/bg_office"));
+  scene.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(BackgroundSizeType.Cover));
+  parent.Add(scene);
+  var veil=new VisualElement {pickingMode=PickingMode.Ignore};
+  veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
+  veil.style.backgroundColor=KarineTheme.Veil(KarineTheme.Inbox.SceneVeil);scene.Add(veil);
  }
  public static Button InboxItem(VisualElement parent,string title,string status,string date,bool unread,bool selected,Action select) {
   var row=Button_(parent,"",select,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);

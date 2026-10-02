@@ -138,6 +138,10 @@ public static class KarineTheme {
   public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;
   public static readonly Rect List=new Rect(6,15,32,78);
   public static readonly Rect Paper=new Rect(40,16,54,76);
+  // Yeni görünüm (2 Ekim 2026): gece ofisi sahnesi, karton dosya, eskimiş kâğıt, ataş.
+  public static readonly Rect Folder=new Rect(38.6f,11.5f,57.2f,83);
+  public const float SceneVeil=.38f;
+  public const int BrandLogo=46, ClipWidth=30;
  }
  public static class Dossier {
   public const int LogoWidth=120, TitleSize=28, BodySize=17, MetaSize=14, PhotoHeight=230;

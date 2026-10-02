@@ -437,8 +437,8 @@ public sealed partial class BubeApp {
   var dark=KarineTheme.Paper.Ink;
   // Faks **basılıyor**: daktilo sesinin tek yeri burası. Arayüz düğmelerinde
   // bu ses hiç yoktu; `ui_press` ona benzediği için öyle duyuluyordu.
-  Typewriter(Text(body,T("career.evaluation."+fax.evaluationType),dark,20),
-   T("career.evaluation."+fax.evaluationType));
+  Typewriter(Text(body,EvaluationTitle(fax),dark,20),
+   EvaluationTitle(fax));
   var reviewedAsset=Resources.Load<TextAsset>("Bube/Cases/"+fax.caseId);
   var reviewed=reviewedAsset==null?null:JsonUtility.FromJson<CaseData>(reviewedAsset.text);
   if(reviewed!=null) {

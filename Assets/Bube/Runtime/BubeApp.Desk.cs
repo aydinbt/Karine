@@ -136,9 +136,7 @@ public sealed partial class BubeApp {
   var visible=entries.Where(e=>filter=="unread"?e.unread:filter=="archive"?!e.unread && !e.pending:true).ToArray();
   var selected=visible.FirstOrDefault(e=>e.id==selectedId) ?? visible.FirstOrDefault();
   Desk();
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.84f);root.Add(shade);
+  KarineUI.InboxScene(root);
   var top=KarineUI.InboxHeader(root,T("inbox.title"),T("back.desk"),Desk);
   if(game.State.caseAccepted&&!game.State.closed&&!game.Career.retired) {
    KarineUI.IconButton(top,"folder",FilePage,T("desk.view.file"));
@@ -177,8 +175,11 @@ public sealed partial class BubeApp {
    Text(paperBody,T("inbox.emptyHelp"),dark,16);
    return;
   }
-  KarineUI.DossierText(paperBody,T("file.department"),KarineTheme.Inbox.HeadingSize);
-  KarineUI.DossierText(paperBody,T("inbox.brand"),KarineTheme.Dossier.MetaSize);
+  var brandRow=new VisualElement();brandRow.style.flexDirection=FlexDirection.Row;brandRow.style.alignItems=Align.Center;paperBody.Add(brandRow);
+  var mark=new Image {image=Resources.Load<Texture2D>("Bube/UI/bube_logo"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+  mark.style.width=KarineTheme.Inbox.BrandLogo;mark.style.height=KarineTheme.Inbox.BrandLogo;mark.style.marginRight=KarineTheme.SpaceMd;brandRow.Add(mark);
+  KarineUI.DossierText(brandRow,T("file.department"),KarineTheme.Inbox.HeadingSize).style.marginBottom=0;
+  KarineUI.DossierText(paperBody,T(game.Data.summary.locationKey),KarineTheme.Dossier.MetaSize);
   var title=Text(paperBody,selected.title,dark,22);
   if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   Text(paperBody,selected.review!=null || selected.assignment!=null || selected.offer!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,dark,14);
@@ -217,7 +218,7 @@ public sealed partial class BubeApp {
   else if(selected.document!=null && selected.unread && !selected.pending)PrintOut(paperBody,selected.id);
  }
  void DrawInboxFax(VisualElement body,FaxReview fax,Color dark) {
-  var conclusion=Text(body,T("career.evaluation."+fax.evaluationType),dark,21);
+  var conclusion=Text(body,EvaluationTitle(fax),dark,21);
   if(dossierBoldFont!=null)conclusion.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   Text(body,T("fax.explainIntro"),dark,16);
   if(fax.evaluatedAtUtcTicks>0)

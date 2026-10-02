@@ -387,7 +387,7 @@ public sealed partial class BubeApp {
    var fax=game.Career.reviewHistory.LastOrDefault(review=>review.caseId==caseId);
    if(fax==null)Text(faxColumn,T("archive.pendingReview"),muted,15);
    else {
-    Text(faxColumn,T("career.evaluation."+fax.evaluationType),dark,15);
+    Text(faxColumn,EvaluationTitle(fax),dark,15);
     if(suspect!=null)Text(faxColumn,T("conclude.suspect")+": "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"),dark,15);
     if(method!=null)Text(faxColumn,T("conclude.method")+": "+T(fax.methodSupported?"fax.supported":"fax.unsupported"),dark,15);
     if(proof!=null)Text(faxColumn,T("conclude.evidence")+": "+T(fax.proofSupported?"fax.supported":"fax.unsupported"),dark,15);
@@ -448,7 +448,7 @@ public sealed partial class BubeApp {
    var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
    var title=data==null?review.caseId:T(data.titleKey);
    var direction=review.trustChange>0?" ↑":review.trustChange<0?" ↓":" —";
-   Button(list,title+"  ·  "+T("career.evaluation."+review.evaluationType)+direction+
+   Button(list,title+"  ·  "+EvaluationTitle(review)+direction+
     (review.reopened?"  ·  "+T("retry.recordShort"):""),()=>CareerRecordPage(review));
   }
   // Arşiv menü satırı olmaktan çıktı (maket beş satır gösteriyor); kariyer
@@ -471,7 +471,7 @@ public sealed partial class BubeApp {
   var asset=Resources.Load<TextAsset>("Bube/Cases/"+review.caseId);
   var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
   Text(card,data==null?review.caseId:T(data.titleKey),Ink,19);
-  Text(card,T("career.evaluation."+review.evaluationType),Gold,20);
+  Text(card,EvaluationTitle(review),Gold,20);
   if(review.evaluatedAtUtcTicks>0)Text(card,new DateTime(review.evaluatedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm"),Muted,14);
   if(data!=null) {
    var person=data.verdicts.FirstOrDefault(v=>v.id==review.suspectId);
