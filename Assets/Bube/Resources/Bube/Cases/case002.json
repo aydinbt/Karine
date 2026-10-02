@@ -390,11 +390,13 @@
      "overlayTimeKey": "case002.time.patrol",
      "framePaths": [
       "Bube/Cctv/case002_patrol/01",
-      "Bube/Cctv/case002_patrol/02"
+      "Bube/Cctv/case002_patrol/02",
+      "Bube/Cctv/case002_patrol/03"
      ],
      "frameTimes": [
       "23.46.00",
-      "23.46.03"
+      "23.46.03",
+      "23.46.06"
      ],
      "frameMs": 500
     }
