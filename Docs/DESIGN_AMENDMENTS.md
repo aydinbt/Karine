@@ -860,3 +860,7 @@ Düğmeler artık düz renk değil, dokuz parçalı gerdirilen görseller: ikinc
 ## 2 Ekim 2026 — Dosya #002 kamera kareleri (ilk senaryo)
 
 Deniz Arslan kamerasının ilk senaryosu (taksi gelir, park eder, arka kapıdan yolcu iner, sokağın üst ucuna yürür) 12 kare olarak oynatılır: `park` olayına 01–06 (22.57.46–22.58.16), `passenger_out` olayına 07–12 (23.03.02–23.03.27), 700 ms. Bu iki olayın mp4 yolu kaldırıldı; metin olayları aynen duruyor, yeni ipucu eklenmedi. Kaynak: `Docs/case2/2–13.png`, 1280×720 JPG.
+
+## 2 Ekim 2026 — Video yalnız Dosya #001de
+
+Kullanıcı kararı: `videoPath` (mp4) yalnız Dosya #001 için kalır. Dosya #002 ve sonraki vakalar kamera görüntüsünü yalnız kare dizisiyle (`framePaths`/`frameTimes`/`frameMs`) canlandırır. `case002_2258.mp4` silindi.
