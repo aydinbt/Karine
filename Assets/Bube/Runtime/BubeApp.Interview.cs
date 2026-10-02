@@ -69,7 +69,7 @@ public sealed partial class BubeApp {
   if(phase==2) {
    if(instantText || KarineMotion.Reduced)Typewriter(speech,spoken,AudioDirector.Chat,1f,0.55f,5);
    else {
-    speech.text=string.Empty;
+    speech.text=string.Empty;KarineUI.Ellipsis(speech,KarineTheme.Effects.AnswerPauseMs);
     speech.schedule.Execute(()=>Typewriter(speech,spoken,AudioDirector.Chat,1f,0.55f,5))
      .StartingIn(KarineTheme.Effects.AnswerPauseMs);
    }
@@ -342,7 +342,7 @@ public sealed partial class BubeApp {
    var art=new Image {image=portrait,scaleMode=ScaleMode.ScaleToFit};
    art.style.width=Length.Percent(100);art.style.height=Length.Percent(100);
    holder.Add(art);
-   KarineUI.Breathe(holder);
+   KarineUI.Breathe(holder);KarineUI.Posture(art);
    return;
   }
   string[] pixels={
@@ -363,6 +363,7 @@ public sealed partial class BubeApp {
   var skin=Swatch(style.skinHex,PortraitStyle.Default.skinHex);
   var shirt=Swatch(style.shirtHex,PortraitStyle.Default.shirtHex);
   var eye=new Color(.12f,.12f,.12f);
+  var eyes=new List<VisualElement>();
   for(int y=0;y<pixels.Length;y++)for(int x=0;x<pixels[y].Length;x++) {
    char p=pixels[y][x];
    if(!style.longHair && y>4 && p=='h')p='.';
@@ -372,9 +373,9 @@ public sealed partial class BubeApp {
    cell.style.left=Length.Percent(x*5);cell.style.top=Length.Percent(y*5);
    cell.style.width=Length.Percent(5);cell.style.height=Length.Percent(5);
    cell.style.backgroundColor=p=='h'?hair:p=='t'?shirt:p=='e'||p=='m'||p=='n'?eye:skin;
-   holder.Add(cell);
+   holder.Add(cell);if(p=='e')eyes.Add(cell);
   }
-  KarineUI.Breathe(holder);
+  KarineUI.Breathe(holder);KarineUI.Blink(eyes,skin);
  }
  // Kişinin portre tanımı, o kişiyi taşıyan görüşme düğümünden okunur.
  PortraitStyle PortraitStyleFor(string personId) {

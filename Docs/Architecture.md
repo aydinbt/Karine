@@ -429,3 +429,12 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 ## Kare hızı
 
 `FrameRate` (Runtime/FrameRate.cs) `karine.fps` PlayerPrefs anahtarını okur (30/60/120, varsayılan 60), `QualitySettings.vSyncCount=0` ve `Application.targetFrameRate` ayarlar. Açılışta `BubeApp` içinde `SoundSettings.Load()` sonrası yüklenir; Ayarlar'da "Kaydet" ile uygulanır.
+
+## Efekt katmanı (2 Ekim 2026)
+- `Fx` (statik): seviye Kapalı/Hafif/Tam (`karine.fx`), titreşim (`karine.haptics`), `Fx.On`/`Amount`/`Count`, `MayFlash()` (0.34 s aralık), `Watch(dt)` ile uyarlamalı `Degraded`, `Buzz(Haptic)` (Android Vibrator JNI, iOS `Handheld.Vibrate`).
+- `KarineUI.Film` (gren, CRT, VHS, kar, yakınlaştırma), `KarineUI.Weather` (saat tonu, yağmur, far, buhar, lamba), `KarineUI.Stagecraft` (yıpranma, faks, damga, ışık halkası, neon, duruş, göz kırpma, üç nokta, kaldırma). Sabitler `KarineTheme.Film`, `KarineTheme.Stagecraft`, `KarineTheme.Office.Weather`.
+- `BubeApp.Fx.cs`: `InstallFx`, film katmanını her karede kökün en üstünde tutan `KeepFilmOnTop`, masa eşyası sesleri, `DoorClosed`.
+- `BubeApp.Settings.cs`: ayarlar sayfası `Menu.cs`ten taşındı (560 satır sınırı).
+- `AudioDirector.PlayAt(id,pan,gain,ambient)` 4 kaynaklı konumlu havuz; `Scatter(bool)` ofiste uzak sesler. Görüşme odası müziği `interview_theme`.
+- `CaseData.deskHour` (-1 = yok) ve `CaseData.weather` ("rain" ya da boş); doğrulayıcı ikisini denetler.
+- Ses: 17 yeni klip `Tools/make-audio.py`de; `check-audio.py` 29 dosya, 0 bulgu.

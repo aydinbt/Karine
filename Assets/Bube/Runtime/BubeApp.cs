@@ -179,6 +179,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   FrameRate.Load();
   AdGateway.Load();
   audio=AudioDirector.Attach(gameObject);
+  InstallFx();
   // Kit'in her düğmesi basıldığında ses ister; çalan tek yer burası.
   KarineUI.Sound=id=>{ if(audio!=null)audio.Play(id); };
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
@@ -247,14 +248,16 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(audio==null)return;
   string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
   switch(sceneName) {
-   case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); break;
-   case "InterviewScene": audio.StopMusic(); audio.PlayAmbience("room_interview"); break;
-   default: audio.PlayMusic("desk_theme"); audio.PlayAmbience(caseAmbience); break;
+   case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); audio.Scatter(false); break;
+   // Görüşme odasında alçak bir gerilim katmanı çalar; yanıta göre değişmez.
+   case "InterviewScene": audio.PlayMusic("interview_theme"); audio.PlayAmbience("room_interview"); audio.Scatter(false); break;
+   default: audio.PlayMusic("desk_theme"); audio.PlayAmbience(caseAmbience); audio.Scatter(true); break;
   }
  }
 
  void Update() {
   if(root==null)return;
+  KeepFilmOnTop();
   if(introBrand!=null && introBrand.panel!=null && introPlayer!=null) {
    double time=introPlayer.time;
    float reveal=Mathf.Clamp01((float)(time-3.0)/0.3f);

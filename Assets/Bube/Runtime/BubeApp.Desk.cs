@@ -207,7 +207,13 @@ public sealed partial class BubeApp {
    },true);
   } else if(selected.review!=null)DrawInboxFax(paperBody,selected.review,dark);
   // Faks ve yeni gelen evrak basılarak çıkar; sonuç ne olursa olsun aynı biçimde.
-  if(selected.review!=null)PrintOut(paperBody,selected.id+":"+selected.review.evaluatedAtUtcTicks);
+  if(selected.review!=null) {
+   string faxKey=selected.id+":"+selected.review.evaluatedAtUtcTicks;
+   KarineUI.FaxWear(paperBody,faxKey);
+   // İlk okumada kâğıt makineden çıkar ve oda kararır; sonuç ne olursa olsun aynı.
+   if(!printedPapers.Contains(faxKey)){KarineUI.FeedOut(paperBody);KarineUI.Spotlight(root,paperBody);Fx.Buzz(Haptic.Press);}
+   PrintOut(paperBody,faxKey);
+  }
   else if(selected.document!=null && selected.unread && !selected.pending)PrintOut(paperBody,selected.id);
  }
  void DrawInboxFax(VisualElement body,FaxReview fax,Color dark) {
@@ -337,6 +343,7 @@ public sealed partial class BubeApp {
   Text(block,T(reasonKey),KarineTheme.Paper.Faded,14).style.marginBottom=0;
  }
  void Desk() {
+  bool arriving=SceneManager.GetActiveScene().name!="OfficeScene";
   Back(Home);StopCctvVideo();StopMenuVideo();EnsureScene("OfficeScene");
   showingInterviewList=false;showingInvestigationRequests=false;root.Clear();
   root.style.backgroundColor=KarineTheme.Background;
@@ -408,7 +415,7 @@ public sealed partial class BubeApp {
    Text(closed,T("desk.closed"),Ink,20);
    Button(closed,T("result.summaryOpen"),CaseSummary,true);Button(closed,T("result.continue"),ContinueToNextCase);
   }
-  KarineUI.OfficeAtmosphere(stage);
+  KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);
   if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
   if(game.State.interviewTurns.Count>game.State.seenInterviewTurns&&!game.State.closed) {
    var unread=KarineUI.Technical(stage,T("file.newTranscript"),KarineTheme.Office.SmallSize);

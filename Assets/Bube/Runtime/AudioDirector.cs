@@ -27,7 +27,15 @@ public sealed class AudioDirector : MonoBehaviour {
  // ederse konuşma değil sinyal olur.
  public static readonly string[] Chat = { "ui_chat", "ui_chat_low" };
 
+ // Odanın dışından gelen seyrek sesler: uzak siren, köpek, telsiz cızırtısı.
+ // Saatleri rastgeledir; oyunun hiçbir anına bağlı değildir.
+ public static readonly string[] Distant = { "amb_siren", "amb_dog", "amb_radio" };
+
  AudioSource music, ambience, effects;
+ // Konumlu sesler için küçük havuz: her biri kendi sol-sağ değerini taşır.
+ readonly AudioSource[] placed = new AudioSource[4];
+ int nextPlaced;
+ Coroutine scatter;
  readonly Dictionary<string, AudioClip> cache = new Dictionary<string, AudioClip>();
  readonly HashSet<string> reported = new HashSet<string>();
  string musicId, ambienceId;
@@ -46,6 +54,7 @@ public sealed class AudioDirector : MonoBehaviour {
   music    = Channel("Music",    loop: true);
   ambience = Channel("Ambience", loop: true);
   effects  = Channel("Effects",  loop: false);
+  for (int i = 0; i < placed.Length; i++) placed[i] = Channel("Placed" + i, loop: false);
   ApplyLevels();
  }
 
@@ -83,6 +92,33 @@ public sealed class AudioDirector : MonoBehaviour {
   if (clip == null) return;
   effects.pitch = Mathf.Clamp(pitch, 0.5f, 2f);
   effects.PlayOneShot(clip, SoundSettings.SfxGain * Mathf.Clamp01(gain));
+ }
+
+ // Sesin masadaki yeri: -1 sol, 1 sağ. Faks tepsisi solda, monitör sağda duyulur.
+ // `ambient` sesler müzik/ortam düzeyini izler, efekt düzeyini değil.
+ public void PlayAt(string id, float pan, float gain, bool ambient = false) {
+  float level = ambient ? SoundSettings.MusicGain : SoundSettings.SfxGain;
+  if (effects == null || level <= 0f) return;
+  var clip = Clip(id);
+  if (clip == null) return;
+  var source = placed[nextPlaced];
+  nextPlaced = (nextPlaced + 1) % placed.Length;
+  source.panStereo = Mathf.Clamp(pan, -1f, 1f);
+  source.pitch = 1f;
+  source.PlayOneShot(clip, level * Mathf.Clamp01(gain));
+ }
+
+ // Uzak sesler açılır ya da kapanır. Açıkken 25-70 saniyede bir, rastgele
+ // bir yönden, alçak bir ses gelir.
+ public void Scatter(bool on) {
+  if (scatter != null) { StopCoroutine(scatter); scatter = null; }
+  if (on && isActiveAndEnabled) scatter = StartCoroutine(ScatterLoop());
+ }
+ System.Collections.IEnumerator ScatterLoop() {
+  while (true) {
+   yield return new WaitForSecondsRealtime(Random.Range(25f, 70f));
+   PlayAt(Distant[Random.Range(0, Distant.Length)], Random.Range(-.8f, .8f), .5f, ambient: true);
+  }
  }
 
  public void PlayMusic(string id) => Loop(music, id, ref musicId);

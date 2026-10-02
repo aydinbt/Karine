@@ -387,3 +387,13 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 ## 2 Ekim 2026 — Kare hızı ayarı
 
 - [~] Ayarlar → Oynanış: 30 / 60 / 120 fps seçimi (varsayılan 60), açılışta uygulanır. Cihazda ölçülmedi.
+
+## 2 Ekim 2026 — Efekt, ses ve sahne katmanı (A–G)
+Hepsi `[~]`: derlendi, 117 EditMode + 23 PlayMode geçti; Unity'de/cihazda gözle görülmedi.
+- [~] A Film katmanı: ince gren, tarama çizgisi ve vinyet her ekranın üstünde (`KarineUI.FilmLayer`). Kamera shader'ı UI Toolkit paneline ulaşmadığı için doku katmanı olarak yapıldı.
+- [~] B CCTV: CRT açılış/kapanış, VHS izi (renk hayaleti, takip şeridi, seyrek sarsıntı), sinyal boşluğunda kar + zaman kodu atlaması, kıstırarak/çift dokunarak yakınlaştırma (2.5×, yakında görüntü durur).
+- [~] C Masa: vaka saatine göre ışık tonu (#001 20:00, #002 23:00, #003 02:00), #003'te camda yağmur, gece far geçişi, fincandan buhar, lambanın yanması ve seyrek titremesi, eşya sesleri (sol-sağ konumlu).
+- [~] D Evrak: belgeye özgü sabit yıpranma, faks mürekkep taşması, faksın ilk okunuşta makineden çıkması, altı çizmede kalem sesi, deftere ataç, zaman çizelgesine raptiye.
+- [~] E Görüşme: yanıt beklerken üç nokta, portrede duruş kayması, piksel portrede göz kırpma, kaydı sürüklerken kâğıt kalkması, kapanan görüşmede kapı sesi, görüşme odasına kendi müziği (`interview_theme`, 36 s).
+- [~] F Rapor ve geçişler: gönderimde "GÖNDERİLDİ" damgası + sarsıntı, ilk varışta dosya başlığının yazılması, menüde neon yanışı ve Ken Burns kayması, sayfa çevirmede titreşim.
+- [~] G Ayarlar ve erişilebilirlik: Efektler Kapalı/Hafif/Tam, Titreşim aç/kapa, saniyede 3'ten az parlama sınırı, düşük pil/bellek/yavaş karede kendiliğinden hafifleme; "hareketi azalt" hepsini kapatır. Uzak ortam sesleri (araba, siren, köpek, telsiz) ofiste 25–70 s arayla.

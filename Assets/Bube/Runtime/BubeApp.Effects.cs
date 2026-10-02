@@ -44,17 +44,19 @@ public sealed partial class BubeApp {
  // kayıt öne sürülür; geçilmezse düğme yerine döner. Dokunmak da aynı işi görür.
  void DragToPresent(Button button,Action present) {
   float startX=0;bool dragging=false;
-  button.RegisterCallback<PointerDownEvent>(evt=>{startX=evt.position.x;dragging=!KarineMotion.Reduced;},TrickleDown.TrickleDown);
+  button.RegisterCallback<PointerDownEvent>(evt=>{startX=evt.position.x;dragging=!KarineMotion.Reduced;if(dragging)KarineUI.Lift(button,.5f);},TrickleDown.TrickleDown);
   button.RegisterCallback<PointerMoveEvent>(evt=>{
    if(!dragging)return;
    float dx=Mathf.Min(0,evt.position.x-startX);
    button.style.translate=new Translate(dx,0);
-   button.style.rotate=new Rotate(Angle.Degrees(dx*.02f));
-   if(-dx>Mathf.Min(KarineTheme.Effects.SwipeDistance,button.layout.width*.4f)){dragging=false;present();}
+   float reach=Mathf.Min(KarineTheme.Effects.SwipeDistance,button.layout.width*.4f);
+   button.style.rotate=new Rotate(Angle.Degrees(dx*.035f));
+   KarineUI.Lift(button,.5f+.5f*Mathf.Clamp01(-dx/Mathf.Max(1,reach)));
+   if(-dx>reach){dragging=false;KarineUI.Lift(button,0);Fx.Buzz(Haptic.Press);present();}
   });
   Action settle=()=>{
    if(!dragging)return;dragging=false;
-   float from=button.resolvedStyle.translate.x;
+   float from=button.resolvedStyle.translate.x;KarineUI.Lift(button,0);
    KarineMotion.Run(button,KarineTheme.Motion.CloseSeconds,t=>{
     button.style.translate=new Translate(from*(1-t),0);button.style.rotate=new Rotate(Angle.Degrees(from*.02f*(1-t)));
    });

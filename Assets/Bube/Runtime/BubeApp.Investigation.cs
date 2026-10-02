@@ -45,9 +45,10 @@ public sealed partial class BubeApp {
   var body=KarineUI.RequestDetail(detail,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey));
   var quoted=groups.First(g=>g.Key==selected.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
   KarineUI.DossierText(body,quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"),KarineTheme.Requests.BodySize);
+  if(game.Closed(selected))DoorClosed(selected);
   if(game.Closed(selected))KarineUI.DossierText(body,locale.Has(selected.closedNoteKey)?T(selected.closedNoteKey):T("interview.goneNote"),KarineTheme.Requests.BodySize);
   if(game.CanRequest(selected))KarineUI.PaperButton(detail,T("interview.request"),()=>{
-   if(game.RequestInterview(selected.id)){Save();InterviewRequests(false);}
+   if(game.RequestInterview(selected.id)){audio?.Play("ui_dial");Save();InterviewRequests(false);}
   });
   else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
  }
@@ -128,7 +129,7 @@ public sealed partial class BubeApp {
    foreach(var clue in available) {
     var id=clue.id;
     TimelineRow(availableList,clue,ink,muted,"timeline.add",()=>{
-     if(game.PinTimeline(id)){Save();refresh();}
+     if(game.PinTimeline(id)){audio?.Play("ui_pin");Fx.Buzz(Haptic.Tick);Save();refresh();}
     });
    }
   };
@@ -163,6 +164,7 @@ public sealed partial class BubeApp {
   KarineUI.InboxScene(root);
   var paper=KarineUI.DossierSheet(root);
   paper.userData=selectedFileSection;
+  KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
   if(openingFile)KarineMotion.Paper(paper);
   else if(switchingSection){KarineMotion.Page(paper);KarineUI.PageTurn(paper);}
   var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);

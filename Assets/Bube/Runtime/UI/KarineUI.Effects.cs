@@ -53,6 +53,7 @@ public static partial class KarineUI {
  // Sayfa çevrilir: gölgeli bir kenar sağdan sola sayfanın üstünden geçer.
  public static void PageTurn(VisualElement paper) {
   if(paper==null || KarineMotion.Reduced)return;
+  Fx.Buzz(Haptic.Tick);
   var fold=new VisualElement {name="PageTurn",pickingMode=PickingMode.Ignore};
   fold.style.position=Position.Absolute;fold.style.top=0;fold.style.bottom=0;
   fold.style.width=Length.Percent(KarineTheme.Effects.FoldWidth);

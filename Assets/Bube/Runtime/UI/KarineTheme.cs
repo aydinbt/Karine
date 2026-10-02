@@ -33,6 +33,34 @@ public static class KarineTheme {
   public const float CctvFlickerSeconds=.12f, CctvJitter=3f;
  }
 
+ // Üçüncü kademe (`KarineUI.Film`): ekranın film dokusu ve CCTV cihaz izleri.
+ public static class Film {
+  public static readonly Color Tone=Hex("#3A2A18");
+  public const float ToneAlpha=.06f, GrainAlpha=.07f, GrainPixel=2f;
+  public const int GrainMs=83;
+  public static readonly Color Phosphor=new Color(.88f,.97f,.94f,1);
+  public const float CrtSeconds=.42f, SnowAlpha=.5f, SnowSeconds=.45f, TimecodeSeconds=.4f;
+  public static readonly Color ChromaRed=new Color(1,.25f,.2f,.14f), ChromaCyan=new Color(.2f,.9f,1,.12f);
+  public const float ChromaShift=1.6f, TrackingAlpha=.22f, TrackingHeight=5f, TrackingJitter=6f;
+  public const float JerkChance=.012f, JerkPixels=10f; public const int JerkMs=70;
+  public const float ZoomMax=2.5f, ZoomDouble=2f;
+ }
+
+ // Kâğıt ve sahne dokunuşları (`KarineUI.Stagecraft`).
+ public static class Stagecraft {
+  public const int HoleSize=9, HoleInset=10, CoffeeSize=120, Specks=26, StampText=34, CurlHeight=10;
+  public const float HoleAlpha=.55f, CreaseAlpha=.35f, CoffeeAlpha=.16f;
+  public static readonly Color CoffeeColor=Hex("#5A3A1E");
+  public const float BleedBlur=1.2f, BleedAlpha=.35f, LineShift=1.5f;
+  public const float FeedSeconds=.9f, FeedSteps=9f, FeedOffset=60f, InkSeconds=.32f;
+  public const float StampSeconds=.75f, Shake=7f, SpotSeconds=.8f, SpotAlpha=.75f;
+  public const float DriftSeconds=40f, DriftZoom=.05f, DriftPan=24f; public const int MenuRain=40;
+  public const float NeonSeconds=1.2f;
+  public const float PostureSeconds=1.6f, PostureShift=2.5f, PostureTilt=.4f;
+  public const int PostureMinMs=6000, PostureMaxMs=14000, BlinkMs=130, BlinkMinMs=3000, BlinkMaxMs=7000;
+  public const float LiftScale=.04f, LiftShadow=6f;
+ }
+
  public static class Settings {
   public const int SideWidth=210, TabHeight=84, ChoiceHeight=74, HeadingSize=26, TextSize=17, SectionIcon=34, Radio=24, ActionWidth=240;
   public const int Inset=14, Top=12, Bottom=6, NarrowInset=4;
@@ -189,6 +217,19 @@ public static class KarineTheme {
   public static readonly Rect EvidenceLabel=new Rect(82,77.9f,15.1f,6.7f);
   // Masanın havası (`KarineUI.OfficeAtmosphere`). Işık ve kararma kit paletinden
   // boyanır; buradaki sayılar yalnız miktar ve hızdır.
+  // Masanın hâli (`KarineUI.OfficeWeather`): saat tonu, yağmur, far, buhar, lamba.
+  public static class Weather {
+   public static readonly Color DayTone=Hex("#B9C4C9"), EveningTone=Hex("#C98A3E"), LateTone=Hex("#0E1A2E");
+   public const float DayAlpha=.08f, EveningAlpha=.07f, LateAlpha=.16f;
+   public const float LampOnSeconds=.7f, FlickerLow=.35f; public const int FlickerMs=70, FlickerMinMs=25000, FlickerMaxMs=70000;
+   public static readonly Color RainColor=Hex("#C9D6E0");
+   public const int RainStreaks=34, RainDrops=10;
+   public const float StreakLength=9f, StreakAlpha=.22f, RainSlant=7f, RainSpeed=95f, DropAlpha=.35f, DropSpeed=6f;
+   public static readonly Color BeamColor=Hex("#FFE9C2");
+   public const float BeamWidth=38f, BeamAlpha=.16f, BeamSeconds=2.6f, CarGain=.35f; public const int BeamMinMs=30000, BeamMaxMs=80000;
+   public static readonly Rect SteamArea=new Rect(1.2f,38,6.5f,16);
+   public const int SteamPuffs=5; public const float SteamAlpha=.10f, PanWidth=.7f;
+  }
   public static class Atmosphere {
    public static readonly Rect LightPool=new Rect(-14,26,62,74);
    public static readonly Rect DustArea=new Rect(4,24,34,48);

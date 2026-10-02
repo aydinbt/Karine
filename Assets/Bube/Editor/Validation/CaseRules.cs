@@ -41,6 +41,8 @@ public static class CaseRules {
 
   // Vaka kendi ortam sesini söyleyebilir; söylediyse dosyası olmalı. Eksik
   // klip sessiz geçtiği için yazım hatası başka hiçbir yerde duyulmaz.
+  report.Require(data.deskHour >= -1 && data.deskHour <= 23, "Vakanın masa saati 0-23 arasında olmalı: " + data.deskHour);
+  report.Require(string.IsNullOrEmpty(data.weather) || data.weather == "rain", "Bilinmeyen hava: " + data.weather);
   if (!string.IsNullOrEmpty(data.ambienceId))
    report.Require(Resources.Load<AudioClip>(AudioDirector.Folder + data.ambienceId) != null,
     "Vakanın ortam sesi yok: " + AudioDirector.Folder + data.ambienceId);

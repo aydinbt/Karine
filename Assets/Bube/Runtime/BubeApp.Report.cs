@@ -399,7 +399,9 @@ public sealed partial class BubeApp {
  void Result() {
   if(game.SubmitFinalReport(selectedSuspect,selectedMethod,selectedEvidence,selectedSuspectSource,selectedMethodSource,selectedEvidenceSource,selectedCustody,selectedCustodySource)) {
    game.BeginNextCaseReview(7);
-   Save();PlayReportSend(CaseSummary);
+   Save();
+   // Mühür her raporda aynı biçimde iner; sonucu faks söyler.
+   KarineUI.StampDown(root,T("report.stamp"),()=>PlayReportSend(CaseSummary));
   }
  }
  void ContinueToNextCase() {

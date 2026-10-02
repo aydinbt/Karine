@@ -24,7 +24,8 @@ public sealed partial class BubeApp {
   foreach(var mark in Investigation.NotebookMarks) {
    var chosen=mark;
    var button=KarineUI.PaperButton(bar,T("notebook.mark."+mark),()=>{
-    if(game.MarkNote(compareLeftId,compareRightId,chosen)){Save();ComparePage();}
+    // İki kaynak ataçla tutturulur: her hükümde aynı ses.
+    if(game.MarkNote(compareLeftId,compareRightId,chosen)){audio?.Play("ui_clip");Fx.Buzz(Haptic.Tick);Save();ComparePage();}
    },existing!=null && existing.mark==mark?KarinePaperKind.Action:KarinePaperKind.Choice);
    button.style.marginLeft=6;button.style.minHeight=KarineTheme.TouchTarget;
    button.style.paddingLeft=14;button.style.paddingRight=14;button.style.fontSize=Typography.Snap(15);
@@ -48,7 +49,9 @@ public sealed partial class BubeApp {
     Save();
     bool now=game.State.highlights.Contains(Investigation.HighlightId(node.id,index));
     line.style.backgroundColor=now?KarineTheme.Paper.Tint:new StyleColor(Color.clear);
-    line.style.borderBottomWidth=now?2:0;line.style.borderBottomColor=KarineTheme.Paper.Stamp;
+    line.style.borderBottomColor=KarineTheme.Paper.Stamp;
+    // Altı kalemle çizilir; kalem geçince çizgi kalıcı olur.
+    if(now)KarineUI.InkStroke(line,()=>line.style.borderBottomWidth=2);else line.style.borderBottomWidth=0;
    });
   }
  }

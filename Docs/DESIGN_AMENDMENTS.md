@@ -926,3 +926,11 @@ Durum: hepsi `[~]`. Testlerle sınandı, Unity'de gözle görülmedi.
 ## Kare hızı ayarı (2 Ekim 2026)
 
 Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120 fps, varsayılan 60. Önceden hiçbir değer verilmediği için mobilde Unity varsayılanı olan 30 fps'te kalıyordu. Ekranın desteklemediği hız seçilirse cihaz kendi tavanında kalır.
+
+## Efekt katmanı kuralları (2 Ekim 2026)
+- Hiçbir efekt oyun durumunu kodlamaz: far, lamba titremesi, buhar, uzak sesler kendi rastgele saatinde olur; okuma, soru, kayıt onları tetiklemez.
+- Kâğıt yıpranması belge kimliğinden türetilir; herkes aynı belgeyi aynı görür, yıpranma önem belirtmez.
+- Görüşme müziği yanıtlara, yalana veya baskıya göre değişmez; duruş ve göz kırpma herkes için aynı rastgele zamanlamadadır.
+- Faksın ilk okunuştaki vurgusu (ışık halkası) yalnız evrağın kendisine düşer, bir kaynağa yönlendirmez.
+- Parlamalar saniyede 3'ün altında; "hareketi azalt" ve Efektler: Kapalı tüm hareketli katmanı kapatır.
+- Vaka verisi `deskHour` ve `weather` alanlarıyla masanın saatini ve havasını belirler.

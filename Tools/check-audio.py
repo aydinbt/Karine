@@ -10,7 +10,7 @@ import array, math, os, sys, wave
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 AUDIO = os.path.normpath(os.path.join(HERE, "..", "Assets", "Bube", "Resources", "Bube", "Audio"))
-LOOPS = {"room_interview", "room_rain", "room_night", "menu_theme", "desk_theme"}
+LOOPS = {"room_interview", "room_rain", "room_night", "menu_theme", "desk_theme", "interview_theme"}
 # Beklenen seviye aralığı (dBFS, RMS). Arayüz sesi alçak, ortam çok daha alçak.
 # Arayüz sesi alçak, oda ortamı çok daha alçak. Ürkütmeme kararından sonra
 # odaların üst sınırı indirildi: bir oda ortamı fark edilirse zaten gürültüdür.

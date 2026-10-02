@@ -250,6 +250,17 @@ def room_interview():
   t = i / RATE
   breath = 0.84 + 0.16 * math.sin(2*math.pi*t/LOOP + 0.9)
   out[i] = deep[i] * 0.58 + close[i] * 0.11 * breath
+ # Duvar saati ve floresanın **sabit** vızıltısı (2 Ekim 2026). Titreme yok —
+ # kaygı yapan oydu; burada vızıltı düz ve çok alçak. Saat her saniye bir kez,
+ # döngü 24 saniye olduğu için dikiş tıkın arasına düşer.
+ peak = max(abs(v) for v in out)
+ for k in range(int(LOOP)):
+  tick = noise(0.012, 900 + k % 2); highpass(tick, 2500); lowpass(tick, 6000)
+  i0 = int((k + 0.5) * RATE)
+  for i in range(len(tick)):
+   out[i0 + i] += tick[i] * peak * (0.20 if k % 2 == 0 else 0.15) * math.exp(-220 * i / RATE)
+ sine(out, 100.0, peak * 0.035, LOOP)
+ sine(out, 200.0, peak * 0.012, LOOP)
  return normalize(steady_reverb(out, mix=0.16, room=0.74, damp=0.30), 0.22)
 
 # Vakanın kendi ortamı (2 Ekim 2026). Masa müziğinin altında, `CaseData.ambienceId`
@@ -440,6 +451,199 @@ def desk_theme():
   out[i] += hiss[i] * 0.008
  return normalize(out, 0.42)
 
+
+# --- efekt katmanı sesleri (2 Ekim 2026) -------------------------------------
+# Masa eşyaları, CCTV cihazı, kapı ve uzak şehir. Hepsi alçak; hiçbiri bir
+# kaynağa dikkat çekmez, yalnız dokunulan eşyanın sesidir.
+
+def shaped(seconds, seed, band, q, k, amp, start=0.0, out=None):
+ out = out if out is not None else buf(seconds)
+ x = noise(seconds, seed); bandpass(x, band, q)
+ i0 = int(start * RATE)
+ for i in range(len(x)):
+  if i0 + i >= len(out): break
+  out[i0 + i] += x[i] * amp * math.exp(-k * i / RATE)
+ return out
+
+def ui_lamp():
+ # Lambanın düğmesi: küçük metal tık, ardından ince bir çınlama.
+ out = shaped(0.25, 401, 3200, 2.0, 120, 0.6)
+ shaped(0.25, 402, 1400, 3.0, 60, 0.25, start=0.012, out=out)
+ sine(out, 4100, 0.02, 0.12, env=decay(30))
+ reverb(out, mix=0.12, room=0.55)
+ return normalize(fade(out), 0.38)
+
+def ui_paper():
+ # Faks kâğıdı makineden sürülür: kısa kâğıt hışırtıları, tık tık.
+ out = buf(0.9)
+ for k in range(9):
+  shaped(0.09, 410 + k, 2600 + 300 * (k % 3), 0.9, 30, 0.25, start=k * 0.095, out=out)
+  sine(out, 140, 0.05, 0.03, start=k * 0.095, env=decay(60))
+ reverb(out, mix=0.10, room=0.55)
+ return normalize(fade(out, 0.004, 0.1), 0.34)
+
+def ui_folder():
+ # Karton dosya masaya bırakılır: tok vuruş, kâğıt sesi.
+ out = shaped(0.5, 420, 500, 1.0, 22, 0.7)
+ sine(out, 78, 0.4, 0.2, env=decay(24))
+ shaped(0.5, 421, 3000, 0.8, 9, 0.12, start=0.01, out=out)
+ reverb(out, mix=0.16, room=0.68)
+ return normalize(fade(out, 0.002, 0.1), 0.48)
+
+def ui_drawer():
+ # Çekmece: tahta kızakta kayma, sonda tok duruş.
+ out = buf(0.6)
+ slide = noise(0.38, 430); bandpass(slide, 900, 1.2)
+ for i in range(len(slide)):
+  t = i / len(slide)
+  out[i] += slide[i] * 0.25 * math.sin(math.pi * t) * (0.7 + 0.3 * math.sin(i / 300))
+ shaped(0.2, 431, 400, 1.0, 35, 0.6, start=0.38, out=out)
+ sine(out, 95, 0.3, 0.15, start=0.38, env=decay(30))
+ reverb(out, mix=0.14, room=0.62)
+ return normalize(fade(out, 0.01, 0.06), 0.42)
+
+def ui_dial():
+ # Telefon ahizesi kalkar, iki kısa çevir tıkırtısı ve uzak hat sesi.
+ out = shaped(0.9, 440, 1800, 2.0, 70, 0.4)
+ for k in range(4):
+  shaped(0.03, 441 + k, 2400, 3.0, 200, 0.3, start=0.18 + k * 0.07, out=out)
+ sine(out, 425, 0.06, 0.45, start=0.42, env=lambda t: min(1, t * 10) * (1 - t))
+ lowpass(out, 3400)
+ return normalize(fade(out, 0.003, 0.1), 0.34)
+
+def ui_crt_on():
+ # Tüp açılır: ince yüksek ıslık, statik bir çıtırtı.
+ out = buf(0.6)
+ sine(out, 15600, 0.03, 0.6, env=lambda t: min(1, t * 8) * (1 - t))
+ shaped(0.06, 450, 2000, 0.7, 50, 0.5, out=out)
+ shaped(0.5, 451, 5000, 0.6, 12, 0.06, start=0.02, out=out)
+ sine(out, 60, 0.25, 0.12, env=decay(25))
+ return normalize(fade(out, 0.002, 0.15), 0.32)
+
+def ui_crt_off():
+ out = buf(0.4)
+ sine(out, 220, 0.25, 0.3, env=lambda t: (1 - t) ** 2)
+ shaped(0.05, 452, 1800, 0.8, 70, 0.35, out=out)
+ lowpass(out, 2500)
+ return normalize(fade(out, 0.002, 0.1), 0.30)
+
+def ui_static():
+ # Sinyal kesildi: geniş bantlı cızırtı, yarım saniye.
+ out = buf(0.5)
+ x = noise(0.5, 460); highpass(x, 600)
+ for i in range(len(x)):
+  t = i / len(x)
+  out[i] = x[i] * 0.4 * (1 - t) * (0.6 + 0.4 * ((i // 900) % 2))
+ return normalize(fade(out, 0.004, 0.12), 0.30)
+
+def ui_door():
+ # Uzakta bir kapı kapanır: tok çarpma, koridorun yankısı.
+ out = shaped(0.9, 470, 300, 1.0, 14, 0.8)
+ sine(out, 55, 0.5, 0.35, env=decay(12))
+ shaped(0.9, 471, 2200, 1.5, 40, 0.15, out=out)   # kilidin dili
+ lowpass(out, 1800)
+ reverb(out, mix=0.35, room=0.84)
+ return normalize(fade(out, 0.002, 0.2), 0.48)
+
+def ui_clip():
+ # Ataç: iki küçük metal tık.
+ out = shaped(0.18, 480, 4200, 3.0, 160, 0.5)
+ shaped(0.1, 481, 3600, 3.0, 180, 0.4, start=0.05, out=out)
+ return normalize(fade(out), 0.30)
+
+def ui_pin():
+ # Raptiye panoya: kısa batma, mantarın tok sesi.
+ out = shaped(0.2, 490, 2500, 2.0, 120, 0.4)
+ sine(out, 180, 0.25, 0.08, env=decay(50))
+ return normalize(fade(out), 0.32)
+
+def ui_pen():
+ # Kalem kâğıtta çizgi çeker: kısa, ince sürtünme.
+ out = buf(0.32)
+ x = noise(0.32, 495); bandpass(x, 4800, 1.4)
+ for i in range(len(x)):
+  t = i / len(x)
+  out[i] = x[i] * 0.3 * math.sin(math.pi * t)
+ return normalize(fade(out, 0.01, 0.05), 0.26)
+
+def amb_car():
+ # Pencerenin önünden geçen araba: alçak motor, lastik hışırtısı, gelip gider.
+ dur = 3.0
+ out = buf(dur)
+ rumble = noise(dur, 500); lowpass(rumble, 120, poles=2)
+ tyre = noise(dur, 501); bandpass(tyre, 700, 0.7)
+ for i in range(len(out)):
+  t = i / len(out)
+  swell_ = math.sin(math.pi * t) ** 2
+  out[i] = (rumble[i] * 1.2 + tyre[i] * 0.25) * swell_
+ return normalize(fade(out, 0.05, 0.3), 0.22)
+
+def amb_siren():
+ # Çok uzakta bir siren: iki ton, perdesi hafif kayan, duvarların ardından.
+ dur = 4.5
+ out = buf(dur)
+ phase = 0.0
+ for i in range(len(out)):
+  t = i / RATE
+  f = 650 + 120 * math.sin(2 * math.pi * t / 1.6)
+  phase += 2 * math.pi * f / RATE
+  env = math.sin(math.pi * t / dur) ** 2
+  out[i] = math.sin(phase) * env * 0.4
+ lowpass(out, 900, poles=2)
+ reverb(out, mix=0.5, room=0.86)
+ return normalize(fade(out, 0.1, 0.4), 0.14)
+
+def amb_dog():
+ # Uzakta iki havlama.
+ out = buf(1.6)
+ for k, start in enumerate((0.1, 0.55)):
+  bark = noise(0.18, 510 + k); bandpass(bark, 700, 2.0)
+  i0 = int(start * RATE)
+  for i in range(len(bark)):
+   t = i / len(bark)
+   out[i0 + i] += bark[i] * math.sin(math.pi * t) * 0.6
+  sine(out, 420, 0.15, 0.15, start=start, env=lambda t: math.sin(math.pi * t))
+ lowpass(out, 1500, poles=2)
+ reverb(out, mix=0.45, room=0.84)
+ return normalize(fade(out, 0.01, 0.3), 0.14)
+
+def amb_radio():
+ # Komşu masadan telsiz cızırtısı: anlaşılmaz konuşma bandı, açılıp kapanır.
+ out = buf(1.4)
+ x = noise(1.4, 520); bandpass(x, 1600, 1.5)
+ for i in range(len(x)):
+  t = i / RATE
+  talk = 0.5 + 0.5 * math.sin(2 * math.pi * 5.3 * t) * math.sin(2 * math.pi * 1.7 * t)
+  gate = 1.0 if 0.1 < t < 1.25 else 0.0
+  out[i] = x[i] * 0.4 * (0.3 + 0.7 * talk) * gate
+ shaped(0.04, 521, 3000, 1.0, 100, 0.4, start=0.08, out=out)   # bas-konuş tıkı
+ shaped(0.04, 522, 3000, 1.0, 100, 0.4, start=1.25, out=out)
+ return normalize(fade(out, 0.01, 0.1), 0.14)
+
+def interview_theme():
+ """Görüşme odasının müziği: neredeyse yok. Alçak bir dron, çok seyrek iki
+ nota. Yanıta, kişiye ya da öne sürülen kayda göre **değişmez** — değişseydi
+ oyuncu onu gizli bir durum diye okurdu. Ortam sesinin hemen üstünde durur."""
+ LOOP, TAIL = 36.0, 4.0
+ lead = buf(LOOP + TAIL)
+ for start, freq in ((9.0, 233.08), (27.0, 220.0)):
+  sine(lead, freq, 0.07, 5.0, start=start, env=decay(0.9))
+ reverb(lead, mix=0.5, room=0.86, damp=0.3)
+ lead = wrap_tail(lead, LOOP)
+ # Dron döngüye tam oturur: her frekans 36 saniyede tam sayıda dönüş yapar,
+ # kuyruk eklemeye gerek kalmaz (eklemek başta seviye kamburu yapıyordu).
+ out = buf(LOOP)
+ for f, a in ((55.0, 0.26), (55.0 + 6 / LOOP, 0.18), (82.5, 0.10), (110.0, 0.05)):
+  sine(out, f, a, LOOP, phase=f % 3.0)
+ for i in range(len(out)):
+  t = i / RATE
+  out[i] = out[i] * (0.85 + 0.15 * math.sin(2 * math.pi * t / LOOP)) + lead[i]
+ # Süzgeç dikişte sıfırdan başlamasın: iki tur süzülür, ikincisi alınır.
+ twice = array.array('d', out); twice.extend(out)
+ lowpass(twice, 900, poles=2)
+ out = array.array('d', twice[len(out):])
+ return normalize(out, 0.32)
+
 # --- üretim ------------------------------------------------------------------
 
 SOUNDS = [
@@ -454,6 +658,23 @@ SOUNDS = [
  ("room_night",      room_night),
  ("menu_theme",      menu_theme),
  ("desk_theme",      desk_theme),
+ ("ui_lamp", ui_lamp),
+ ("ui_paper", ui_paper),
+ ("ui_folder", ui_folder),
+ ("ui_drawer", ui_drawer),
+ ("ui_dial", ui_dial),
+ ("ui_crt_on", ui_crt_on),
+ ("ui_crt_off", ui_crt_off),
+ ("ui_static", ui_static),
+ ("ui_door", ui_door),
+ ("ui_clip", ui_clip),
+ ("ui_pin", ui_pin),
+ ("ui_pen", ui_pen),
+ ("amb_car", amb_car),
+ ("amb_siren", amb_siren),
+ ("amb_dog", amb_dog),
+ ("amb_radio", amb_radio),
+ ("interview_theme", interview_theme),
 ]
 
 if __name__ == "__main__":

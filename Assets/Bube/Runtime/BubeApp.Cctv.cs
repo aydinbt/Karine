@@ -22,7 +22,11 @@ public sealed partial class BubeApp {
   }
   if(cctvTexture!=null){cctvTexture.Release();Destroy(cctvTexture);cctvTexture=null;}
   cctvFrameTask?.Pause();cctvFrameTask=null;cctvFrames=null;cctvFrameImage=null;cctvFrameRec=null;
-  if(cctvViewer!=null){cctvViewer.RemoveFromHierarchy();cctvViewer=null;}
+  if(cctvViewer!=null) {
+   // Ekran kapanırken görüntü bir çizgiye, çizgi bir noktaya söner.
+   if(cctvViewer.parent!=null && cctvViewer.panel!=null){audio?.Play("ui_crt_off",1f,.6f);KarineUI.CrtOff(cctvViewer.parent);}
+   cctvViewer.RemoveFromHierarchy();cctvViewer=null;
+  }
   cctvVideoStatus=null;
   cctvPlaybackButton=cctvStepButton=null;
   cctvReachedEnd=false;
@@ -85,7 +89,14 @@ public sealed partial class BubeApp {
   image.style.position=Position.Absolute;
   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
   videoFrame.Add(image);
-  videoFrame.schedule.Execute(()=>KarineUI.SignalSwitch(videoFrame)).StartingIn(0);
+  videoFrame.schedule.Execute(()=>{KarineUI.SignalSwitch(videoFrame);KarineUI.CrtOn(videoFrame);}).StartingIn(0);
+  audio?.Play("ui_crt_on",1f,.6f);
+  KarineUI.VhsTrace(videoFrame,image);
+  // Yaklaşmak oynatmayı durdurur; kare olduğu gibi kalır.
+  KarineUI.Zoomable(videoFrame,image,()=>{
+   if(cctvFrames!=null){if(cctvFramesPlaying)PlayCctvFrames(false);return;}
+   if(cctvPlayer!=null && cctvPlayer.isPlaying){cctvPlayer.Pause();if(cctvPlaybackButton!=null)cctvPlaybackButton.text=T("cctv.videoPlay");}
+  });
   var overlay=new VisualElement(){pickingMode=PickingMode.Ignore};
   overlay.style.position=Position.Absolute;
   overlay.style.backgroundColor=new Color(.025f,.055f,.06f,.12f);
@@ -315,8 +326,13 @@ public sealed partial class BubeApp {
      var line=lines[current];
      string finalText=T(string.IsNullOrEmpty(record.glitchKey)?record.textKey:record.glitchKey);
      stamps[current].text="▒▒▒";line.text=T("cctv.syncing");
+     // Sinyal satırı: görüntü karlanır, cızırtı duyulur, saat bir an karışır.
+     // Bütün sinyal satırlarında aynı; satırın kendisi zaten cihaz durumudur.
+     bool signal=!string.IsNullOrEmpty(record.signalKey);
+     if(signal){KarineUI.Snow(recordPanel,KarineTheme.Film.SnowSeconds);audio?.Play("ui_static",1f,.5f);}
      content.schedule.Execute(()=>{
       write(current,finalText);
+      if(signal)KarineUI.TimecodeSkip(stamps[current],stamps[current].text);
       stream.ScrollTo(rows[current]);
       addFootageButton(current);
       if(!string.IsNullOrEmpty(record.glitchKey)) {

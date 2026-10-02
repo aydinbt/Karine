@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 2 Ekim 2026 (defter, satır altı çizme, faks akıbeti, vaka ortam sesleri, kapanan görüşme; Dosya #003 yazıldı)
+**Son güncelleme:** 2 Ekim 2026 (efekt, ses ve sahne katmanı A–G)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**2 Ekim (gece, 2):** Efekt katmanı A–G girdi: film greni, CCTV'de CRT/VHS/kar ve yakınlaştırma, masada vaka saatine göre ışık, yağmur, far, buhar, lamba; evrak yıpranması, faks çıkışı, damga; görüşmede üç nokta, duruş, göz kırpma ve kendi müziği; 17 yeni ses; Ayarlar'da Efektler ve Titreşim. Hiçbir efekt oyun durumunu kodlamaz. 117 EditMode + 23 PlayMode geçti; **gözle görülmedi**.
 
 **2 Ekim (gece):** Ayarlar → Oynanış'a 30 / 60 / 120 fps seçimi eklendi (varsayılan 60; önceden mobilde Unity varsayılanı 30'du). Testler geçti; cihazda ölçülmedi.
 
