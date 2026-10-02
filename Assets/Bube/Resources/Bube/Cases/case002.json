@@ -1014,21 +1014,24 @@
    "supportingSourceIds": [
     "emre_follow",
     "medical"
-   ]
+   ],
+   "epilogueKey": "case002.epilogue.verdict.emre"
   },
   {
    "id": "kerem",
    "labelKey": "case002.verdict.kerem",
    "feedbackKey": "case002.feedback.kerem",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "case002.epilogue.verdict.kerem"
   },
   {
    "id": "deniz",
    "labelKey": "case002.verdict.deniz",
    "feedbackKey": "case002.feedback.deniz",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "case002.epilogue.verdict.deniz"
   }
  ],
  "methods": [
@@ -1066,17 +1069,20 @@
    "supportingSourceIds": [
     "financial",
     "kerem_follow"
-   ]
+   ],
+   "epilogueKey": "case002.epilogue.custody.kerem"
   },
   {
    "id": "emre",
    "labelKey": "case002.custody.emre",
-   "correct": false
+   "correct": false,
+   "epilogueKey": "case002.epilogue.custody.emre"
   },
   {
    "id": "deniz",
    "labelKey": "case002.custody.deniz",
-   "correct": false
+   "correct": false,
+   "epilogueKey": "case002.epilogue.custody.deniz"
   }
  ],
  "evidence": [
@@ -1123,5 +1129,6 @@
  },
  "successfulReportTrustGain": 6,
  "failedReportTrustLoss": 15,
- "nextCaseId": "case003"
+ "nextCaseId": "case003",
+ "ambienceId": "room_night"
 }

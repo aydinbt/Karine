@@ -787,21 +787,24 @@
    "supportingSourceIds": [
     "recovery",
     "hasan_follow"
-   ]
+   ],
+   "epilogueKey": "epilogue.verdict.hasan"
   },
   {
    "id": "elif",
    "labelKey": "verdict.elif",
    "feedbackKey": "feedback.elif",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "epilogue.verdict.elif"
   },
   {
    "id": "mert",
    "labelKey": "verdict.mert",
    "feedbackKey": "feedback.mert",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "epilogue.verdict.mert"
   }
  ],
  "methods": [

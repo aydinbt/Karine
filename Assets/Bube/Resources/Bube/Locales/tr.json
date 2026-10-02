@@ -2847,6 +2847,82 @@
   {
    "key": "career.noHistory",
    "value": "Henüz değerlendirilen dosya yok."
+  },
+  {
+   "key": "file.tab.notebook",
+   "value": "DEFTER"
+  },
+  {
+   "key": "notebook.title",
+   "value": "Defter"
+  },
+  {
+   "key": "notebook.help",
+   "value": "Karşılaştırma ekranında iki kaynağı yan yana koyup kendi hükmünü buraya işle. Belgelerde dokunduğun cümlelerin de altı çizilir ve burada toplanır. Defter yalnız senin notlarındır; doğru ya da yanlış olduğunu kimse söylemez."
+  },
+  {
+   "key": "notebook.pairs",
+   "value": "Kaynak çiftleri"
+  },
+  {
+   "key": "notebook.noPairs",
+   "value": "Henüz bir çift işlemedin."
+  },
+  {
+   "key": "notebook.lines",
+   "value": "Altını çizdiğin satırlar"
+  },
+  {
+   "key": "notebook.noLines",
+   "value": "Henüz bir satırın altını çizmedin."
+  },
+  {
+   "key": "notebook.open",
+   "value": "KARŞILAŞTIR"
+  },
+  {
+   "key": "notebook.write",
+   "value": "Deftere işle:"
+  },
+  {
+   "key": "notebook.mark.conflict",
+   "value": "ÇELİŞİYOR"
+  },
+  {
+   "key": "notebook.mark.agree",
+   "value": "ÖRTÜŞÜYOR"
+  },
+  {
+   "key": "notebook.mark.question",
+   "value": "SORULACAK"
+  },
+  {
+   "key": "notebook.markHelp",
+   "value": "Bir cümleye dokunursan altı çizilir ve deftere düşer."
+  },
+  {
+   "key": "fax.epilogue",
+   "value": "Dosyanın akıbeti"
+  },
+  {
+   "key": "fax.reason.custody.report",
+   "value": "İlk olay raporu olay yerinin ilk durumunu kaydeder. Bildirdiğiniz kişinin olay yerinde ne yaptığına ilişkin bağımsız bir tespit içermez."
+  },
+  {
+   "key": "fax.reason.custody.other",
+   "value": "Gösterdiğiniz kaynak, bildirdiğiniz kişi ile bu sorumluluk arasında yeterli bağlantı kurmadı."
+  },
+  {
+   "key": "interview.status.gone",
+   "value": "Artık görüşülemiyor"
+  },
+  {
+   "key": "interview.goneNote",
+   "value": "Kişi artık görüşmeye gelmiyor. Daha önce konuşulmadığı için ifadesi dosyada yok."
+  },
+  {
+   "key": "career.epilogue",
+   "value": "Akıbet"
   }
  ]
 }

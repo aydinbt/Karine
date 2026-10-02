@@ -45,13 +45,14 @@ public sealed partial class BubeApp {
   var body=KarineUI.RequestDetail(detail,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey));
   var quoted=groups.First(g=>g.Key==selected.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
   KarineUI.DossierText(body,quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"),KarineTheme.Requests.BodySize);
+  if(game.Closed(selected))KarineUI.DossierText(body,locale.Has(selected.closedNoteKey)?T(selected.closedNoteKey):T("interview.goneNote"),KarineTheme.Requests.BodySize);
   if(game.CanRequest(selected))KarineUI.PaperButton(detail,T("interview.request"),()=>{
    if(game.RequestInterview(selected.id)){Save();InterviewRequests(false);}
   });
   else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
  }
  string InterviewStatusKey(Node node) =>
-  game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?
+  game.Closed(node)?"interview.status.gone":game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?
    ((node.questions??new Question[0]).Any(q=>game.CanAskQuestion(node,q))?"interview.status.followup":"interview.status.complete"):"interview.status.ready";
  // Sekme sayacı yalnız oyuncunun zaten gördüğü durumları sayar: görüşmeye hazır kişi, dosyaya alınmamış gelen rapor.
  int InterviewBadgeCount() => game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId)
@@ -148,7 +149,7 @@ public sealed partial class BubeApp {
   var all=game.Data.nodes.Where(n=>game.Available(n) || game.State.closed && (game.State.read.Contains(n.id) || game.State.interviewTurns.Any(turn=>turn.nodeId==n.id))).ToArray();
   var interviewPages=all.Where(n=>n.kind=="interview" && (game.State.read.Contains(n.id) || game.State.interviewTurns.Any(turn=>turn.nodeId==n.id))).ToArray();
   var evidencePages=all.Where(n=>n.kind=="document" && n.id!=report.id).ToArray();
-  Node[] pages=selectedFileSection=="interview"?interviewPages:selectedFileSection=="evidence"?evidencePages:selectedFileSection=="timeline"?new Node[0]:new[]{report};
+  Node[] pages=selectedFileSection=="interview"?interviewPages:selectedFileSection=="evidence"?evidencePages:selectedFileSection=="timeline" || selectedFileSection=="notebook"?new Node[0]:new[]{report};
   var current=pages.FirstOrDefault(n=>n.id==selectedFileNode) ?? pages.FirstOrDefault();
   if(current!=null) {
    selectedFileNode=current.id;
@@ -173,6 +174,8 @@ public sealed partial class BubeApp {
    DossierOverview(paper,report);
   } else if(selectedFileSection=="timeline") {
    TimelineContents(paper,fileInk,fileMuted);
+  } else if(selectedFileSection=="notebook") {
+   NotebookContents(paper,fileInk,fileMuted);
   } else if(selectedFileSection=="visual") {
    Text(paper,T("file.visuals"),fileInk,22);
    var visual=Resources.Load<Texture2D>(report.imageResource);
@@ -198,7 +201,8 @@ public sealed partial class BubeApp {
     divider.style.backgroundColor=KarineTheme.Paper.Edge;textColumn.Add(divider);
    }
    var body=Scroll(textColumn);
-   Text(body,T(current.bodyKey),fileInk,17);
+   if(current.kind=="interview")Text(body,T(current.bodyKey),fileInk,17);
+   else MarkableBody(body,current,fileInk,fileMuted);
    if(current.kind=="interview") {
     var turns=game.State.interviewTurns.Where(turn=>turn.nodeId==current.id).ToArray();
     if(turns.Length>0) {
@@ -233,7 +237,7 @@ public sealed partial class BubeApp {
   // "1 / 1" sayacı ve Önceki/Sonraki, tek sayfalık bölümlerde bile duruyordu ve
   // istenen sayfaya varmak için art arda dokunmak gerekiyordu. Sayfa birden
   // çoksa adları doğrudan dokunulur; tekse alt şerit hiç çizilmez.
-  if(selectedFileSection!="timeline" && pages.Length>1) {
+  if(selectedFileSection!="timeline" && selectedFileSection!="notebook" && pages.Length>1) {
    var footerLine=new VisualElement();footerLine.style.height=1;footerLine.style.flexShrink=0;
    footerLine.style.backgroundColor=KarineTheme.Paper.Edge;footerLine.style.marginTop=10;paper.Add(footerLine);
    var footer=new KarineScrollView(ScrollViewMode.Horizontal);
@@ -253,8 +257,8 @@ public sealed partial class BubeApp {
   // Ayrıca dört ayrı yerde kopyalanan sekme biçimi tek yere toplandı; yeni bir
   // sekme eklemek artık tek satır.
   var tabs=new VisualElement();KarineUI.OfficePlace(tabs,KarineTheme.Dossier.Tabs);root.Add(tabs);
-  var icons=new[]{"document","person","fingerprint","clock","image"};int tabIndex=0;
-  foreach(var section in new[]{"report","interview","evidence","timeline","visual"}) {
+  var icons=new[]{"document","person","fingerprint","clock","pin","image"};int tabIndex=0;
+  foreach(var section in new[]{"report","interview","evidence","timeline","notebook","visual"}) {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
    KarineUI.DossierTab(tabs,icons[tabIndex++],T("file.tab."+choice)+(unread?"  •":""),choice==selectedFileSection,()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();},switchingSection);
@@ -480,6 +484,7 @@ public sealed partial class BubeApp {
     } else Text(body,T(current.bodyKey),ink,17);
    }
   }
+  NotebookBar(folder,ink);
  }
  void ReadPage(Node node) {
   showingInterviewList=false;

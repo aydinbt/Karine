@@ -84,8 +84,65 @@ public static class CaseRules {
   report.Forbid((data.conclusionRequires ?? new string[0]).Any(id => !nodes.Any(x => x.id == id)),
    "Bilinmeyen kapanış önkoşulu.");
 
+  ValidateEpilogues(data, locale, report);
+  ValidatePressure(data, locale, report);
   ValidateTimeline(data, locale, report);
   foreach (var node in nodes) ValidateNode(data, node, locale, report);
+ }
+
+ // Akıbet isteğe bağlıdır, ama bir sütunda bir seçenek yazdıysa hepsi yazmalı:
+ // yoksa faks bazı yanlış suçlamaların bedelini anlatır, bazılarını anlatmaz ve
+ // eksiklik kendisi bir işarete dönüşür.
+ static void ValidateEpilogues(CaseData data, Locale locale, ValidationReport report) {
+  var verdicts = data.verdicts ?? new Verdict[0];
+  if (verdicts.Any(v => !string.IsNullOrEmpty(v.epilogueKey)))
+   foreach (var v in verdicts)
+    report.Forbid(MissingText(locale, v.epilogueKey), "Akıbet metni eksik: şüpheli " + v.id);
+  var custody = data.custody ?? new Choice[0];
+  if (custody.Any(c => !string.IsNullOrEmpty(c.epilogueKey)))
+   foreach (var c in custody)
+    report.Forbid(MissingText(locale, c.epilogueKey), "Akıbet metni eksik: ikinci sorumluluk " + c.id);
+ }
+
+ // Baskı unsuru: bir görüşme belli kaynaklar okununca kapanabilir. Kapanan
+ // kaynak doğru sonucun dayandığı hiçbir yolda olamaz; yoksa oyuncu sırayla
+ // oynadı diye vakayı çözemez hâle gelir. Doğru seçeneklerin dayanakları,
+ // kapanış önkoşulları ve bunların bütün önkoşul zinciri korunur.
+ public static System.Collections.Generic.HashSet<string> EssentialNodes(CaseData data) {
+  var nodes = data.nodes ?? new Node[0];
+  var seeds = (data.verdicts ?? new Verdict[0]).Where(v => v.correct).SelectMany(v => v.supportingSourceIds ?? new string[0])
+   .Concat(new[] { data.methods, data.evidence, data.custody }.SelectMany(list => (list ?? new Choice[0]).Where(c => c.correct))
+    .SelectMany(c => c.supportingSourceIds ?? new string[0]))
+   .Select(id => id.Split('#')[0]).Concat(data.conclusionRequires ?? new string[0]);
+  var essential = new System.Collections.Generic.HashSet<string>();
+  var queue = new System.Collections.Generic.Queue<string>(seeds);
+  while (queue.Count > 0) {
+   var id = queue.Dequeue();
+   if (!essential.Add(id)) continue;
+   var node = nodes.FirstOrDefault(n => n.id == id);
+   if (node == null) continue;
+   var asked = (node.requiresAsked ?? new string[0]).Concat(node.requiresAnyAsked ?? new string[0])
+    .Concat((node.questions ?? new Question[0]).SelectMany(q => (q.requiresAsked ?? new string[0]).Concat(q.requiresAnyAsked ?? new string[0])));
+   var askedOwners = asked.SelectMany(q => nodes.Where(n => (n.questions ?? new Question[0]).Any(x => x.id == q)).Select(n => n.id));
+   foreach (var next in (node.requires ?? new string[0]).Concat(node.requiresAny ?? new string[0])
+    .Concat((node.questions ?? new Question[0]).SelectMany(q => q.requiresRead ?? new string[0])).Concat(askedOwners))
+    queue.Enqueue(next);
+  }
+  return essential;
+ }
+
+ static void ValidatePressure(CaseData data, Locale locale, ValidationReport report) {
+  var closing = (data.nodes ?? new Node[0]).Where(n => n.closesAfterRead != null && n.closesAfterRead.Length > 0).ToArray();
+  if (closing.Length == 0) return;
+  var essential = EssentialNodes(data);
+  foreach (var node in closing) {
+   report.Require(node.kind == "interview", "Yalnız görüşme kapanabilir: " + node.id);
+   report.Forbid(essential.Contains(node.id), "Doğru sonucun dayandığı görüşme kapanamaz: " + node.id);
+   report.Forbid(node.closesAfterRead.Any(id => !data.nodes.Any(n => n.id == id) || id == node.id),
+    "Bilinmeyen kapanış kaynağı: " + node.id);
+   report.Forbid(!string.IsNullOrEmpty(node.closedNoteKey) && MissingText(locale, node.closedNoteKey),
+    "Kapanış notu metni eksik: " + node.id);
+  }
  }
 
  static void RequireExactlyOneCorrect(System.Collections.Generic.IEnumerable<bool> flags, string label, ValidationReport report) {

@@ -908,3 +908,17 @@ Kerem (`third_in` 5 kare, `third_out` 3 kare) ve devriye (`patrol` 3 kare) eklen
 ## Dosya #003 "Son Teslimat" yazıldı (2 Ekim 2026)
 
 Kullanıcı senaryosu: şüpheli ölüm, fail yok — ölüm kaza (karbonmonoksit), olay yerini değiştiren ve delil alan kişi (Ozan) ölüme sebep olmadı. Eğitim eğrisi: 001 yalan ≠ fail, 002 yaralayan ≠ parayı alan, 003 olay yerini değiştiren ≠ ölüme sebep olan. Kullanıcı ilkesi: oyuncu sonucu faksa kadar bilmemeli; her kişi kendini korur, yanlış yollar (iş kazası, Seda, Barış, Ozan) savunulabilir olup kanıtla kapanır. Rapor dört sütunlu kaldı; fail ve yöntem sütunu başlıkları vakadan gelir. Zimmet raporda ayrı soru değil, güdüdür. Dosya #002 → #003 zinciri bağlandı. Ayrıntı: `CASE003_DESIGN.md`.
+
+## Oyunu derinleştiren yedi iş (2 Ekim 2026)
+
+Kullanıcı isteği: CCTV dışında oyunu ileri taşıyacak yedi öneri, önerilen sırayla. Hepsi oyuncu güdümlü soruşturma kuralına bağlı kaldı: hiçbiri sıradaki adımı söylemez, hükmü onaylamaz, faksa kadar sonucu sızdırmaz.
+
+1. **Zaman çizelgesi** — zaten vardı (açılan ipuçlarını oyuncu kendisi iğneler, saat sırasıyla dizilir). Yeni iş açılmadı; önerideki "yok" ifadesi yanlıştı.
+2. **Defter.** Dosyada yeni "Defter" sekmesi. Oyuncu karşılaştırma ekranında iki kaynağı yan yana koyup üç hükümden birini işler: *Çelişiyor / Örtüşüyor / Sorulacak*. Serbest yazı yok — telefonda klavye ekranı kapatıyordu, arama ekranında da aynı gerekçeyle kaldırılmıştı. Aynı çift için tek not tutulur; aynı hükme yeniden dokunmak notu siler. Oyun hükmün doğru olup olmadığını hiçbir zaman söylemez.
+3. **Satır altı çizme.** Belge metinleri cümle cümle dokunulur; dokunulan cümlenin altı çizilir ve defterde kaynağıyla toplanır. Görüşme dökümleri bunun dışında (zaten soru-cevap olarak ayrık). Önerideki "sorguda alıntı olarak öne sürme" **yapılmadı**: öne sürme kuralı "adı geçiyorsa" kaynak düzeyinde işliyor, cümle düzeyine inmek her vakanın verisini yeniden yazmak demekti.
+4. **Dosyanın akıbeti.** Faks artık rapordaki kişinin ve ikinci sorumluluğun gerçek dünyadaki sonucunu anlatır (`epilogueKey`). Yanlış suçlamanın bedeli somut: gözaltı, donan pay, kaybolan iz. Üç vakanın bütün seçenekleri yazıldı. Faks gelmeden hiçbir yerde görünmez. Aynı işte bir eksik kapandı: dört sütunlu vakalarda faks dördüncü sütunu hiç değerlendirmiyordu, artık değerlendiriyor.
+5. **Ses.** Vaka ortamı altyapısı vardı ama hiçbir vaka kullanmıyordu. İki yeni sentez döngü: `room_night` (Dosya #002, gece sokağı) ve `room_rain` (Dosya #003, yağmurlu depo sokağı). Dosya #001 gündüz geçtiği için ortam almadı. Geçen araç ya da gök gürültüsü gibi tek seferlik olay konmadı: döngüde aynı yerde tekrar eden olay saat gibi duyulur.
+6. **Kariyer bağı.** Sicil kaydı artık her raporun akıbetini ve dördüncü sütunu da gösterir: kariyer yalnız puan değil, raporların insanlara ne yaptığıdır. **Vakalar arası geri dönen isim yapılmadı**: bu bir içerik kararıdır, hangi kişinin hangi dosyada döneceği kullanıcıya aittir.
+7. **Baskı.** Görüşme belli kaynaklar dosyaya girdiğinde, henüz istenmemişse kapanabilir (`closesAfterRead`, `closedNoteKey`). Süre gerçek saatle değil soruşturmanın ilerleyişiyle işler. Doğrulayıcı, doğru sonucun dayandığı hiçbir kaynağın ve önkoşul zincirinin kapanmasına izin vermez. Uygulama: Dosya #003'te Barış Tümer'in ikinci görüşmesi, oyuncu Ozan'la üçüncü görüşmeyi bitirdiğinde hâlâ istenmemişse kapanır ("şehir dışına çıktı"). Barış'ın jeneratör tanıklığı kaybolabilir, ama aynı gerçeği jeneratör incelemesi taşır.
+
+Durum: hepsi `[~]`. Testlerle sınandı, Unity'de gözle görülmedi.

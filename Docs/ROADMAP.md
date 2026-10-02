@@ -372,3 +372,14 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 - [~] Portreler: Ozan, Seda, Barış (`Characters/`). Oyunda boyut/kırpma görülmedi.
 - [ ] Dosya #003 CCTV kareleri (altı an metin dökümü).
 - [ ] Dosya #001 → #002 → #003 baştan sona Play Mode oynanışı (kullanıcı).
+
+## 2 Ekim 2026 — Oyunu derinleştiren yedi iş
+
+- [x] Zaman çizelgesi: zaten vardı, yeni iş gerekmedi.
+- [~] Defter: karşılaştırmadan üç hükümle (çelişiyor/örtüşüyor/sorulacak) kaynak çifti işleme, dosyada "Defter" sekmesi.
+- [~] Belgelerde cümle altı çizme, deftere toplanma.
+- [~] Faksta dosyanın akıbeti (üç vakanın bütün şüpheli ve ikinci sorumluluk seçenekleri); faks dördüncü sütunu da değerlendiriyor.
+- [~] Vaka ortam sesleri: `room_night` (#002), `room_rain` (#003). Ölçüm aracı geçti; kulakla dinlenmedi.
+- [~] Sicil kaydında akıbet ve dördüncü sütun.
+- [~] Kapanan görüşme (`closesAfterRead`), doğrulayıcı güvencesi; Dosya #003'te Barış'ın ikinci görüşmesi.
+- [ ] Vakalar arası geri dönen isim — içerik kararı, kullanıcıda.

@@ -54,16 +54,23 @@ namespace Bube {
 [Serializable] public class AnswerVariant { public string answerKey; public string[] requiresAsked; public string[] requiresRead; public string[] excludesAsked; }
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
 [Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
-[Serializable] public class Node { public FileMeta[] fileMeta; public RelatedItem[] relatedItems; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public bool notReportSource; public string[] aboutPersonIds; }
+[Serializable] public class Node { public FileMeta[] fileMeta; public RelatedItem[] relatedItems; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public bool notReportSource; public string[] aboutPersonIds;
+ // Baskı: listedeki kaynakların hepsi dosyaya girdiğinde bu görüşme henüz istenmemişse artık istenemez
+ // (kişi şehirden ayrıldı, avukatı görüşmeyi kesti). Doğrulayıcı doğru sonucun dayandığı hiçbir
+ // kaynağın bu yolla kapanmasına izin vermez; kapanan yalnız ek bir okuma yoludur.
+ public string[] closesAfterRead; public string closedNoteKey; }
 [Serializable] public class CctvEvent { public string id; public string textKey; public string[] aboutPersonIds; public bool notPresentable; public string overlayTimeKey; public string glitchKey; public string signalKey; public string videoPath; public string[] framePaths; public string[] frameTimes; public int frameMs; public int delayMs;
  // Görüntü ya kare dizisidir (`framePaths`, Resources yolları; `frameTimes` her karenin damgası) ya da videodur.
  public bool HasFootage => (framePaths != null && framePaths.Length > 0) || !string.IsNullOrEmpty(videoPath); }
-[Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; }
-[Serializable] public class Verdict { public string id; public string labelKey; public string feedbackKey; public bool correct; public string[] requires; public string[] supportingSourceIds; }
+[Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; public string epilogueKey; }
+[Serializable] public class Verdict { public string id; public string labelKey; public string feedbackKey; public string epilogueKey; public bool correct; public string[] requires; public string[] supportingSourceIds; }
 [Serializable] public class InterviewRequest { public string nodeId; public long readyAtUtcTicks; }
 [Serializable] public class DocumentRequest { public string nodeId; public long readyAtUtcTicks; }
+// Oyuncunun defteri: iki kaynağı kendisi yan yana koyup kendi hükmünü yazar. Oyun hükmün doğru
+// olup olmadığını hiçbir zaman söylemez; not yalnız oyuncunun aklı içindir.
+[Serializable] public class NotebookEntry { public string leftId; public string rightId; public string mark; }
 [Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; }
-[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> timelinePinned = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
+[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
 // Kayit gocu. Eski surumden gelen kayit atilmaz, bugunku semaya yukseltilir;
 // gelecekten gelen (daha yeni surumlu) kayit cevrilemez ama silinmez de — oldugu
 // gibi birakilir ve oyuncuya soylenir.
@@ -127,6 +134,8 @@ public sealed class Investigation {
   State.read = (State.read ?? new List<string>()).Where(id => data.nodes.Any(n => n.id == id)).Distinct().ToList();
   State.asked = (State.asked ?? new List<string>()).Where(id => data.nodes.Any(n => (n.questions ?? new Question[0]).Any(q => q.id == id))).Distinct().ToList();
   State.timelinePinned=(State.timelinePinned ?? new List<string>()).Where(id=>(data.timelineClues ?? new TimelineClue[0]).Any(c=>c.id==id)).Distinct().ToList();
+  State.notebook=(State.notebook ?? new List<NotebookEntry>()).Where(e=>e!=null && NotebookMarks.Contains(e.mark) && e.leftId!=e.rightId && data.nodes.Any(n=>n.id==e.leftId) && data.nodes.Any(n=>n.id==e.rightId)).ToList();
+  State.highlights=(State.highlights ?? new List<string>()).Where(h=>h!=null && data.nodes.Any(n=>h.StartsWith(n.id+":",StringComparison.Ordinal))).Distinct().ToList();
   State.interviewTurns=(State.interviewTurns ?? new List<InterviewTurn>()).Where(turn=>turn!=null && data.nodes.Any(n=>n.id==turn.nodeId && (n.questions ?? new Question[0]).Any(q=>q.id==turn.questionId && q.promptKey==turn.promptKey)) && !string.IsNullOrEmpty(turn.answerKey)).ToList();
   State.seenInterviewTurns=Math.Max(0,Math.Min(State.seenInterviewTurns,State.interviewTurns.Count));
   State.interviewRequests = (State.interviewRequests ?? new List<InterviewRequest>()).Where(r => r != null && data.nodes.Any(n => n.id == r.nodeId && n.kind == "interview")).GroupBy(r => r.nodeId).Select(g => g.First()).ToList();
@@ -146,9 +155,53 @@ public sealed class Investigation {
  }
  public bool AcceptCase() { if(Career.retired || State.closed || State.caseAccepted)return false; State.caseAccepted=true; return true; }
  public bool Discovered(Node n) => State.caseAccepted && !Career.retired && !State.closed && Meets(n.requires) && (n.requiresAny == null || n.requiresAny.Length == 0 || n.requiresAny.Any(State.read.Contains)) && (n.requiresAsked==null || n.requiresAsked.All(State.asked.Contains)) && (n.requiresAnyAsked==null || n.requiresAnyAsked.Length==0 || n.requiresAnyAsked.Any(State.asked.Contains));
+ public static readonly string[] NotebookMarks = { "conflict", "agree", "question" };
+ // Deftere yalnız oyuncunun gerçekten açtığı kaynaklar girer: okunan belge/kayıt ya da konuşulan kişi.
+ public bool NotebookSource(string id) {
+  var n=Data.nodes.FirstOrDefault(x=>x.id==id);
+  return n!=null && (State.read.Contains(id) || n.kind=="interview" && State.interviewTurns.Any(t=>t.nodeId==id));
+ }
+ public NotebookEntry FindNote(string a,string b) => State.notebook.FirstOrDefault(e=>e.leftId==a && e.rightId==b || e.leftId==b && e.rightId==a);
+ // Aynı çift için ikinci not yazılmaz, eski hüküm değişir; aynı hüküm tekrar seçilirse not silinir.
+ public bool MarkNote(string left,string right,string mark) {
+  if(State.closed || left==right || !NotebookMarks.Contains(mark) || !NotebookSource(left) || !NotebookSource(right))return false;
+  var existing=FindNote(left,right);
+  if(existing!=null && existing.mark==mark){State.notebook.Remove(existing);return true;}
+  if(existing!=null){existing.mark=mark;return true;}
+  State.notebook.Add(new NotebookEntry { leftId=left, rightId=right, mark=mark });return true;
+ }
+ public bool RemoveNote(NotebookEntry entry) => !State.closed && entry!=null && State.notebook.Remove(entry);
+ public static string HighlightId(string nodeId,int sentence) => nodeId+":"+sentence;
+ // Altı çizilen satır: yalnız okunmuş belgede. Oyun hangi satırın önemli olduğunu işaretlemez.
+ public bool ToggleHighlight(string nodeId,int sentence) {
+  var n=Data.nodes.FirstOrDefault(x=>x.id==nodeId);
+  if(State.closed || n==null || n.kind=="interview" || sentence<0 || !State.read.Contains(nodeId))return false;
+  var id=HighlightId(nodeId,sentence);
+  if(!State.highlights.Remove(id))State.highlights.Add(id);
+  return true;
+ }
+ // Belge metnini cümlelere böler; altı çizme ve defter aynı bölmeyi kullanır.
+ public static string[] Sentences(string text) {
+  if(string.IsNullOrEmpty(text))return new string[0];
+  var parts=new List<string>();
+  foreach(var paragraph in text.Split('\n')) {
+   int start=0;
+   for(int i=0;i<paragraph.Length;i++) {
+    char c=paragraph[i];
+    if((c=='.' || c=='!' || c=='?' || c=='…') && (i+1==paragraph.Length || paragraph[i+1]==' ')) {
+     var piece=paragraph.Substring(start,i+1-start).Trim();if(piece.Length>0)parts.Add(piece);start=i+1;
+    }
+   }
+   var rest=paragraph.Substring(start).Trim();if(rest.Length>0)parts.Add(rest);
+  }
+  return parts.ToArray();
+ }
+ // Baskı: kişi artık görüşmeye gelmiyor. Daha önce istenmiş ya da yapılmış görüşme kapanmaz.
+ public bool Closed(Node n) => n.kind=="interview" && n.closesAfterRead!=null && n.closesAfterRead.Length>0
+  && n.closesAfterRead.All(State.read.Contains) && !Requested(n) && !State.read.Contains(n.id) && !State.interviewTurns.Any(t=>t.nodeId==n.id);
  public bool Requested(Node n) => State.interviewRequests.Any(r => r.nodeId == n.id);
  public bool Pending(Node n) => n.kind == "interview" && Requested(n) && !State.read.Contains(n.id) && !Available(n);
- public bool CanRequest(Node n) => n.kind == "interview" && Discovered(n) && !Requested(n) && !State.read.Contains(n.id);
+ public bool CanRequest(Node n) => n.kind == "interview" && Discovered(n) && !Requested(n) && !State.read.Contains(n.id) && !Closed(n);
  public bool RequestInterview(string id, double waitSeconds = 4) {
   var n = Data.nodes.FirstOrDefault(x => x.id == id);
   if (n == null || !CanRequest(n)) return false;

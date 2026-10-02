@@ -415,3 +415,13 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 ## CCTV kare dizisi (2 Ekim 2026)
 
 `CctvEvent.framePaths/frameTimes/frameMs`, `HasFootage`. Oynatıcı `BubeApp.CctvFrames.cs`: `StartCctvFrames`, `ShowCctvFrame`, `PlayCctvFrames` (UI Toolkit zamanlayıcısı), `StepCctvFrame`; kamera katmanı `OpenCctvVideo` ile ortak, `StopCctvVideo` kare durumunu da temizler. Doğrulayıcı her karenin `Resources.Load<Texture2D>` ile bulunduğunu ve damga sayısının kare sayısını tuttuğunu denetler. Ayar: `KarineTheme.Effects.CctvFrameMs/CctvFlickerSeconds/CctvJitter`.
+
+## Defter, altı çizili satırlar, akıbet ve kapanan görüşme (2 Ekim 2026)
+
+- **Kayıt:** `Progress.notebook` (`NotebookEntry { leftId, rightId, mark }`, `mark` ∈ `Investigation.NotebookMarks` = conflict/agree/question) ve `Progress.highlights` (`"<nodeId>:<cümle sırası>"`). Yeni alanlar boş liste varsayılanıyla gelir, kayıt sürümü değişmedi; yükleme bilinmeyen kaynaklı notu ve satırı atar.
+- **Motor:** `MarkNote` yalnız açılmış iki farklı kaynağı kabul eder (okunan belge/kayıt ya da konuşulan kişi); çift sırasızdır, aynı hükme yeniden dokunmak notu siler. `ToggleHighlight` yalnız okunmuş ve görüşme olmayan kaynakta çalışır. Kapanan dosyada ikisi de kilitlenir. Cümle bölme `Investigation.Sentences`: satır sonu ve ardından boşluk gelen `. ! ? …`; "23.35" gibi saatler bölünmez.
+- **Arayüz:** `BubeApp.Notebook.cs` — karşılaştırma ekranının altındaki defter şeridi, belge metninin dokunulur cümleleri (`MarkableBody`) ve dosyadaki "Defter" sekmesi.
+- **Akıbet:** `Verdict.epilogueKey` ve `Choice.epilogueKey` (ikinci sorumluluk için). Faks (`DrawEpilogue`) ve sicil kaydı gösterir. Doğrulayıcı: bir sütunda biri yazıldıysa hepsi yazılmalı. Faks artık dördüncü sütunu da değerlendirir (`fax.reason.custody.*`).
+- **Kapanan görüşme:** `Node.closesAfterRead` + `Node.closedNoteKey`. `Investigation.Closed(n)`: listedeki kaynakların hepsi okundu ve görüşme ne istendi ne yapıldı. `CanRequest` kapalı görüşmeyi reddeder; tabletteki durum "Artık görüşülemiyor". Doğrulayıcı `CaseRules.EssentialNodes` ile doğru seçeneklerin dayanaklarını, kapanış önkoşullarını ve bunların önkoşul/soru zincirini çıkarır; kapanan görüşme bu kümede olamaz.
+- **Ortam sesi:** `room_rain` ve `room_night`, `Tools/make-audio.py` üretir (`python3 Tools/make-audio.py room_rain room_night` yalnız ikisini yeniden yazar), `Tools/check-audio.py` döngü olarak ölçer. Vaka `ambienceId` ile seçer; masa sahnesinde müziğin altında çalar.
+- **Testler:** `NotebookAndPressureTests` (6 test). Toplam 117 EditMode + 23 PlayMode.

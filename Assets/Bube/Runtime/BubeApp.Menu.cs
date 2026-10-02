@@ -523,6 +523,14 @@ public sealed partial class BubeApp {
    if(person!=null)Text(card,T(SuspectKey(data))+": "+T(person.labelKey)+" · "+ReviewSourceTitle(data,review.suspectSourceId),Ink,16);
    if(method!=null)Text(card,T(MethodKey(data))+": "+T(method.labelKey)+" · "+ReviewSourceTitle(data,review.methodSourceId),Ink,16);
    if(proof!=null)Text(card,T("conclude.evidence")+": "+T(proof.labelKey)+" · "+ReviewSourceTitle(data,review.proofSourceId),Ink,16);
+   var custody=(data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==review.custodyId);
+   if(custody!=null)Text(card,T(string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey)+": "+T(custody.labelKey)+" · "+ReviewSourceTitle(data,review.custodySourceId),Ink,16);
+   // Sicil yalnız puan değildir: her raporun bir insana ne yaptığı da kayıtta kalır.
+   var epilogue=new[]{person?.epilogueKey,custody?.epilogueKey}.Where(locale.Has).ToArray();
+   if(epilogue.Length>0) {
+    Text(card,T("career.epilogue"),Gold,17);
+    foreach(var key in epilogue)Text(card,T(key),Ink,15);
+   }
   }
   Text(card,T("career.trust")+": "+T(TrustStatusKey(review.trustAfter)),Gold,18);
   if(review.reopened)Text(card,T("retry.recordNote"),Muted,16);

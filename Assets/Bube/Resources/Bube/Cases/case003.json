@@ -480,7 +480,11 @@
     "skinHex": "#A0714F",
     "shirtHex": "#5A5F44",
     "moustache": true
-   }
+   },
+   "closesAfterRead": [
+    "ozan_third"
+   ],
+   "closedNoteKey": "case003.baris_follow.gone"
   },
   {
    "id": "finance",
@@ -677,28 +681,32 @@
    "supportingSourceIds": [
     "medical",
     "generator"
-   ]
+   ],
+   "epilogueKey": "case003.epilogue.verdict.accident"
   },
   {
    "id": "ozan",
    "labelKey": "case003.verdict.ozan",
    "feedbackKey": "case003.feedback.ozan",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "case003.epilogue.verdict.ozan"
   },
   {
    "id": "seda",
    "labelKey": "case003.verdict.seda",
    "feedbackKey": "case003.feedback.seda",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "case003.epilogue.verdict.seda"
   },
   {
    "id": "baris",
    "labelKey": "case003.verdict.baris",
    "feedbackKey": "case003.feedback.baris",
    "correct": false,
-   "requires": []
+   "requires": [],
+   "epilogueKey": "case003.epilogue.verdict.baris"
   }
  ],
  "methods": [
@@ -738,22 +746,26 @@
    "supportingSourceIds": [
     "finance",
     "ozan_third"
-   ]
+   ],
+   "epilogueKey": "case003.epilogue.custody.ozan_usb"
   },
   {
    "id": "seda_usb",
    "labelKey": "case003.custody.seda_usb",
-   "correct": false
+   "correct": false,
+   "epilogueKey": "case003.epilogue.custody.seda_usb"
   },
   {
    "id": "baris_invoice",
    "labelKey": "case003.custody.baris_invoice",
-   "correct": false
+   "correct": false,
+   "epilogueKey": "case003.epilogue.custody.baris_invoice"
   },
   {
    "id": "none",
    "labelKey": "case003.custody.none",
-   "correct": false
+   "correct": false,
+   "epilogueKey": "case003.epilogue.custody.none"
   }
  ],
  "evidence": [
@@ -798,5 +810,6 @@
  },
  "successfulReportTrustGain": 6,
  "failedReportTrustLoss": 15,
- "nextCaseId": ""
+ "nextCaseId": "",
+ "ambienceId": "room_rain"
 }

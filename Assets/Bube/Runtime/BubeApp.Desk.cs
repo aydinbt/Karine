@@ -225,6 +225,10 @@ public sealed partial class BubeApp {
    if(person!=null)DrawFaxFinding(body,data,SuspectKey(data),person.labelKey,fax.suspectSourceId,fax.suspectSupported,"suspect",dark);
    if(method!=null)DrawFaxFinding(body,data,MethodKey(data),method.labelKey,fax.methodSourceId,fax.methodSupported,"method",dark);
    if(proof!=null)DrawFaxFinding(body,data,"conclude.evidence",proof.labelKey,fax.proofSourceId,fax.proofSupported,"evidence",dark);
+   // Dördüncü sütun da raporun parçasıydı; faks onu da değerlendirir.
+   var custody=(data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
+   if(custody!=null)DrawFaxFinding(body,data,string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey,custody.labelKey,fax.custodySourceId,fax.custodySupported,"custody",dark);
+   DrawEpilogue(body,data,fax,dark);
   }
   Text(body,T("fax.closing"),dark,15);
   Text(body,T("career.trust")+": "+T(TrustStatusKey(fax.trustAfter))+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);
@@ -303,6 +307,20 @@ public sealed partial class BubeApp {
  void CoverageMeter(VisualElement card,string icon,string label,int done,int total) =>
   KarineUI.Meter(card,icon,label+"  "+done+"/"+Mathf.Max(total,done),
    total<=0?1f:Mathf.Clamp01((float)done/total));
+ // Dosyanın akıbeti: raporun gerçek dünyada neye yol açtığı. Oyuncunun yazdığı kişi ve
+ // ikinci sorumluluk için vaka verisinden gelir; yanlış suçlamanın bedeli de burada görünür.
+ // Faks gelmeden hiçbir yerde gösterilmez.
+ void DrawEpilogue(VisualElement body,CaseData data,FaxReview fax,Color dark) {
+  var keys=new List<string>();
+  var person=data.verdicts.FirstOrDefault(v=>v.id==fax.suspectId);
+  if(person!=null && locale.Has(person.epilogueKey))keys.Add(person.epilogueKey);
+  var custody=(data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
+  if(custody!=null && locale.Has(custody.epilogueKey))keys.Add(custody.epilogueKey);
+  if(keys.Count==0)return;
+  var heading=Text(body,T("fax.epilogue"),dark,18);heading.style.marginTop=10;
+  if(dossierBoldFont!=null)heading.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
+  foreach(var key in keys)Text(body,T(key),dark,16);
+ }
  void DrawFaxFinding(VisualElement body,CaseData data,string headingKey,string choiceKey,string sourceId,bool supported,string claim,Color dark) {
   var block=new VisualElement();block.style.marginTop=7;block.style.marginBottom=8;
   block.style.paddingLeft=12;block.style.paddingRight=12;

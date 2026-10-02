@@ -119,3 +119,8 @@ Açılma zinciri: tutanak → Ozan 1 (`visitors` sorusu) → Barış 1 (`voices`
 - Zaman çizelgesi gece yarısını geçtiği için `sortMinute` değerleri 720 dakika kaydırıldı (yalnız sıralama içindir).
 - Rapor başlıkları vakadan gelir: `suspectLabelKey` "Ölümden kim sorumlu?", `methodLabelKey` "Ölüm nedeni", `custodyLabelKey` "Olay yerini kim değiştirdi, ne aldı?".
 - CCTV karesi yok; altı an metin dökümü. Kareler sonra eklenebilir.
+
+## Baskı ve akıbet (2 Ekim 2026)
+
+- **Kapanan görüşme:** Barış Tümer'in ikinci görüşmesi (`baris_follow`), Ozan'la üçüncü görüşme (`ozan_third`) dosyaya girdiğinde hâlâ istenmemişse kapanır: Barış şehir dışına çıkar, avukatı dönmeyeceğini bildirir. Kaybolan şey Barış'ın "jeneratörü Levent kendisi çalıştırdı" tanıklığı ve irsaliye çelişkisidir; kazanın kanıtı jeneratör incelemesinde ve adli tıp raporunda kalır. Doğrulayıcı bu görüşmenin doğru sonucun yolunda olmadığını denetler.
+- **Akıbet:** dört şüpheli ve dört ikinci sorumluluk seçeneğinin her biri faksta kendi sonucunu anlatır. Yanlış suçlamanın bedeli: Ozan dört ay tutuklu, Seda'nın payı donar, Barış'ın sözleşmeleri askıya alınır; ikinci sorumluluk yanlışsa zimmetin izi kaybolur.

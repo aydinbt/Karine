@@ -252,6 +252,46 @@ def room_interview():
   out[i] = deep[i] * 0.58 + close[i] * 0.11 * breath
  return normalize(steady_reverb(out, mix=0.16, room=0.74, damp=0.30), 0.22)
 
+# Vakanın kendi ortamı (2 Ekim 2026). Masa müziğinin altında, `CaseData.ambienceId`
+# ile seçilir. Görüşme odası kadar alçak: duyulmaz, yalnız eksikliği fark edilir.
+
+def room_rain():
+ # Dosya #003: yağmurlu gece, depo sokağı. Camdan duyulan geniş hışırtı,
+ # oluktan alçak bir akış ve seyrek damla tıkırtıları. Gök gürültüsü yok —
+ # tek seferlik olay döngüde tekrar edince saat gibi duyulur.
+ LOOP = 24.0
+ out = buf(LOOP)
+ n = len(out)
+ hiss = loop_noise(LOOP, 121, cutoff=5200, hp=1100)
+ body = loop_noise(LOOP, 122, cutoff=320, poles=2, hp=60)
+ for i in range(n):
+  t = i / RATE
+  breath = 0.9 + 0.1 * math.sin(2*math.pi*t/LOOP*2 + 0.4)
+  out[i] = hiss[i] * 0.55 * breath + body[i] * 0.9
+ rng = random.Random(123)
+ for _ in range(int(LOOP * 28)):
+  start = rng.randrange(n); freq = rng.uniform(1800, 4200)
+  k = rng.uniform(70, 240); level = rng.uniform(0.04, 0.16)
+  w = 2 * math.pi * freq / RATE
+  for j in range(900):
+   out[(start + j) % n] += level * math.exp(-j / k) * math.sin(w * j)
+ return normalize(out, 0.12)
+
+def room_night():
+ # Dosya #002: gece sokağı. Uzak trafik uğultusu, yavaş dalgalanma ve
+ # floresansız, sokak lambasının hafif şebeke vızıltısı. Geçen araç yok:
+ # döngünün her turunda aynı yerde geçen araç kulakta takvim olur.
+ LOOP = 24.0
+ out = buf(LOOP)
+ n = len(out)
+ far  = loop_noise(LOOP, 131, cutoff=140, poles=3, hp=25)
+ road = loop_noise(LOOP, 132, cutoff=480, poles=2, hp=120)
+ for i in range(n):
+  t = i / RATE
+  wave_ = 0.85 + 0.15 * math.sin(2*math.pi*t/LOOP*3 + 1.3)
+  out[i] = far[i] * 0.8 * wave_ + road[i] * 0.10 + 0.010 * math.sin(2*math.pi*50*t)
+ return normalize(steady_reverb(out, mix=0.12, room=0.70, damp=0.40), 0.20)
+
 # --- ifadenin belirme sesi ----------------------------------------------------
 
 def blip(freq=660.0, dur=0.11, seed=71, level=0.22, bell=2.01, air=0.05):
@@ -410,11 +450,16 @@ SOUNDS = [
  ("ui_chat",         ui_chat),
  ("ui_chat_low",     ui_chat_low),
  ("room_interview",  room_interview),
+ ("room_rain",       room_rain),
+ ("room_night",      room_night),
  ("menu_theme",      menu_theme),
  ("desk_theme",      desk_theme),
 ]
 
 if __name__ == "__main__":
+ import sys
+ only = set(sys.argv[1:])
  print("Karine ses varlıkları:")
  for name, make in SOUNDS:
+  if only and name not in only: continue
   write(name, make())

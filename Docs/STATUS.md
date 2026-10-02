@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 2 Ekim 2026 (Dosya #003 yazıldı; Dosya #002 CCTV kareleri kapandı; Vakalar ve Kariyer yeniden tasarlandı)
+**Son güncelleme:** 2 Ekim 2026 (defter, satır altı çizme, faks akıbeti, vaka ortam sesleri, kapanan görüşme; Dosya #003 yazıldı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**2 Ekim (akşam):** Oyunu derinleştiren yedi iş girdi. Oyuncunun kendi **defteri** (iki kaynağı çelişiyor/örtüşüyor/sorulacak diye işler, oyun hükmü onaylamaz), belgelerde **cümle altı çizme**, faksta **dosyanın akıbeti** (yanlış suçlamanın somut bedeli; üç vakanın bütün seçenekleri), Dosya #002 ve #003 için **ortam sesi**, sicilde akıbet ve **kapanan görüşme** (Dosya #003'te Barış'ın ikinci görüşmesi; doğrulayıcı doğru sonucun yolunu kesmediğini kanıtlıyor). Zaman çizelgesi zaten vardı. Faksın dördüncü sütunu hiç değerlendirmemesi de düzeldi. 117 EditMode + 23 PlayMode geçti; **Unity'de gözle görülmedi**. Vakalar arası geri dönen isim içerik kararı olarak kullanıcıda.
 
 **2 Ekim:** Üç vaka artık zincirde: #001 → #002 → #003. **Dosya #003 "Son Teslimat"** (şüpheli ölüm; ölüm kaza, olay yerini değiştiren çalışan ölüme sebep olmadı) veri, metin, portreler ve vakaya özel rapor başlıklarıyla yazıldı; doğrulayıcı vakayı otomatik oynayıp çözüyor. Dosya #002'nin kamera anları (dispute hariç) kare dizisine kavuştu. Vakalar ve Kariyer ekranları referansa göre yeniden kuruldu. 111 EditMode + 23 PlayMode geçti. **Hiçbiri Unity'de gözle görülmedi**; sıradaki darboğaz üç vakanın kullanıcı tarafından baştan sona oynanması. Açık içerik ihlali sürüyor: `DeskReference.png` içinde kurum adı ve arma.
 

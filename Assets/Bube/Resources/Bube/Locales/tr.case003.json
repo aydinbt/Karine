@@ -759,6 +759,42 @@
   {
    "key": "case003.verdict.seda",
    "value": "Seda Sarı"
+  },
+  {
+   "key": "case003.epilogue.verdict.accident",
+   "value": "Dosya kaza olarak kapandı. Jeneratörün eski egzoz bağlantısı rapora geçti; mahallede aynı tip cihaz kullanan dükkânlara uyarı dağıtıldı. Seda Sarı ağabeyini borç tartışmasının gölgesinde değil, bir kaza kurbanı olarak uğurladı."
+  },
+  {
+   "key": "case003.epilogue.verdict.ozan",
+   "value": "Ozan Çelik kasten öldürme şüphesiyle tutuklandı. Adli tıp raporu karbonmonoksiti gösterince suçlama düştü; ama dört ay tutuklu kaldı. Jeneratörün borusu o süre içinde kimse bakmadan aynı depoda durmaya devam etti."
+  },
+  {
+   "key": "case003.epilogue.verdict.seda",
+   "value": "Seda Sarı ağabeyini öldürmekle suçlandı ve şirketteki payı dava süresince donduruldu. Kamera kaydı ve ölüm saati onu aklayana kadar aylar geçti. Borç tartışması gazetelere düştü; cenazeye katılamadı."
+  },
+  {
+   "key": "case003.epilogue.verdict.baris",
+   "value": "Barış Tümer gözaltına alındı ve tedarik sözleşmeleri askıya alındı. 23.31'de ayrıldığında Levent Sarı'nın hayatta olduğu anlaşılınca serbest kaldı. İrsaliyedeki vergi düzensizliği ise ayrı bir dosyada işlem gördü."
+  },
+  {
+   "key": "case003.epilogue.custody.ozan_usb",
+   "value": "Ozan Çelik'in evinde USB bellek ve cari klasörü bulundu. 186.400 TL'lik zimmet ayrı bir dosyada yargılanacak. Olay yerini değiştirmesi ve ihbarı geciktirmesi de bu dosyaya eklendi."
+  },
+  {
+   "key": "case003.epilogue.custody.seda_usb",
+   "value": "Seda Sarı'nın evi ve bürosu arandı, bellek bulunamadı. Zimmet kayıtları bir süre daha Ozan Çelik'te kaldı; o hafta işten ayrılıp şehirden uzaklaştı."
+  },
+  {
+   "key": "case003.epilogue.custody.baris_invoice",
+   "value": "Barış Tümer'in irsaliyesi olay yerini değiştirme gerekçesi olarak incelendi. Vergi düzensizliği ortaya çıktı ama kayıp bellekle bağı kurulamadı. Zimmetin izi kayboldu."
+  },
+  {
+   "key": "case003.epilogue.custody.none",
+   "value": "Olay yerinin değiştirildiği rapora geçmedi. Boş anahtarlık ve kayıp klasör kimsenin sorusu olmadı; zimmet yıllarca ortaya çıkmadı."
+  },
+  {
+   "key": "case003.baris_follow.gone",
+   "value": "Barış Tümer tedarik işi için şehir dışına çıktı. Avukatı, yeni bir görüşme için dönmeyeceğini bildirdi."
   }
  ]
 }
