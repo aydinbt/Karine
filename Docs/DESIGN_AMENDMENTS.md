@@ -856,3 +856,7 @@ BDS rayı altında "GÖRÜŞME/İNCELEME TALEPLERİ" alt başlığı ve simgeli,
 ## 2 Ekim 2026 — Dokulu düğmeler (kit §24 kullanıcı kararıyla kaldırıldı)
 
 Düğmeler artık düz renk değil, dokuz parçalı gerdirilen görseller: ikincil = koyu deri + pirinç kenar (`btn_dark`), birincil/seçili = krem kâğıt + pirinç kenar (`btn_primary`), kâğıt üstü işlem/seçim = mürekkep damgası çerçevesi (`btn_paper`). Basınca görsel kararır ve bir piksel iner; her düğmede aynı. Devre dışı düğme koyu görseli gri tonla taşır. Ghost ve Quiet düz kalır. Ayar: `KarineTheme.Button`.
+
+## 2 Ekim 2026 — Dosya #002 kamera kareleri (ilk senaryo)
+
+Deniz Arslan kamerasının ilk senaryosu (taksi gelir, park eder, arka kapıdan yolcu iner, sokağın üst ucuna yürür) 12 kare olarak oynatılır: `park` olayına 01–06 (22.57.46–22.58.16), `passenger_out` olayına 07–12 (23.03.02–23.03.27), 700 ms. Bu iki olayın mp4 yolu kaldırıldı; metin olayları aynen duruyor, yeni ipucu eklenmedi. Kaynak: `Docs/case2/2–13.png`, 1280×720 JPG.

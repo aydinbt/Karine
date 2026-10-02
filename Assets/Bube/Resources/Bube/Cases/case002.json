@@ -212,7 +212,23 @@
      "delayMs": 620,
      "id": "park",
      "overlayTimeKey": "case002.time.park",
-     "videoPath": "Bube/CCTV/case002_2258.mp4"
+     "framePaths": [
+      "Bube/Cctv/case002_park/01",
+      "Bube/Cctv/case002_park/02",
+      "Bube/Cctv/case002_park/03",
+      "Bube/Cctv/case002_park/04",
+      "Bube/Cctv/case002_park/05",
+      "Bube/Cctv/case002_park/06"
+     ],
+     "frameTimes": [
+      "22.57.46",
+      "22.57.52",
+      "22.57.58",
+      "22.58.04",
+      "22.58.10",
+      "22.58.16"
+     ],
+     "frameMs": 700
     },
     {
      "textKey": "case002.cctv.event.dispute",
@@ -231,7 +247,24 @@
      "overlayTimeKey": "case002.time.passenger_out",
      "aboutPersonIds": [
       "deniz"
-     ]
+     ],
+     "framePaths": [
+      "Bube/Cctv/case002_passenger_out/01",
+      "Bube/Cctv/case002_passenger_out/02",
+      "Bube/Cctv/case002_passenger_out/03",
+      "Bube/Cctv/case002_passenger_out/04",
+      "Bube/Cctv/case002_passenger_out/05",
+      "Bube/Cctv/case002_passenger_out/06"
+     ],
+     "frameTimes": [
+      "23.03.02",
+      "23.03.07",
+      "23.03.12",
+      "23.03.17",
+      "23.03.22",
+      "23.03.27"
+     ],
+     "frameMs": 700
     },
     {
      "textKey": "case002.cctv.event.second_in",
