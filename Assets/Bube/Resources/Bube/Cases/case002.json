@@ -322,7 +322,22 @@
      "aboutPersonIds": [
       "emre",
       "selcuk"
-     ]
+     ],
+     "framePaths": [
+      "Bube/Cctv/case002_second_out/01",
+      "Bube/Cctv/case002_second_out/02",
+      "Bube/Cctv/case002_second_out/03",
+      "Bube/Cctv/case002_second_out/04",
+      "Bube/Cctv/case002_second_out/05"
+     ],
+     "frameTimes": [
+      "23.31.00",
+      "23.31.02",
+      "23.31.04",
+      "23.31.06",
+      "23.31.08"
+     ],
+     "frameMs": 500
     },
     {
      "textKey": "case002.cctv.event.third_in",
