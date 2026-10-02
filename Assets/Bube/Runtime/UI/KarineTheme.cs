@@ -193,7 +193,7 @@ public static class KarineTheme {
    public const float DustMin=2f, DustMax=4.5f, DustRise=1.6f, DustAlpha=.45f;
    public const float Reach=.011f, BackDepth=.5f, BackScale=1.03f;
    public const float Follow=.07f, TiltGain=2.2f, TiltRecenter=.004f;
-   public const float LiftSeconds=.26f, SettleSeconds=.34f, LiftOffset=3f, LiftScale=.012f, ShadowAlpha=.3f;
+   public const float PressSeconds=.07f, ReleaseSeconds=.26f, PressDepth=2f, PressScale=.03f, PopScale=.02f, ShadowAlpha=.25f;
   }
  }
 

@@ -146,27 +146,27 @@ public static partial class KarineUI {
   }).Every(KarineTheme.Motion.TickMs);
  }
 
- // Dokunulan eşya masadan bir parmak kalkar, gölgesi altına yayılır; bırakınca yerine oturur.
+ // Tıklama hissi: basınca eşya masaya hafifçe gömülür ve kararır, bırakınca küçük bir
+ // sekmeyle yerine oturur. Masa kımıldamaz; yalnız dokunulan eşya tepki verir.
  static void Liftable(Button button,VisualElement prop,VisualElement shadow) {
-  float lifted=0;
-  Action<float> to=target=> {
-   if(KarineMotion.Reduced)return;
-   float from=lifted;
-   KarineMotion.Run(prop,target>from?M.LiftSeconds:M.SettleSeconds,t=> {
-    lifted=Mathf.Lerp(from,target,t);
-    prop.style.translate=new Translate(0,-M.LiftOffset*lifted);
-    prop.style.scale=new Scale(Vector3.one*(1+M.LiftScale*lifted));
-    if(shadow!=null) {
-     shadow.style.opacity=M.ShadowAlpha*lifted;
-     shadow.style.translate=new Translate(0,M.LiftOffset*.5f*lifted);
-     shadow.style.scale=new Scale(Vector3.one*(1+M.LiftScale*2*lifted));
-    }
-   });
+  float pressed=0;bool down=false;
+  Action<float,float> apply=(press,pop)=> {
+   prop.style.translate=new Translate(0,M.PressDepth*press);
+   prop.style.scale=new Scale(Vector3.one*(1-M.PressScale*press+M.PopScale*pop));
+   if(prop is Image image)image.tintColor=Color.Lerp(Color.white,KarineTheme.Button.PressedTint,press);
+   if(shadow!=null)shadow.style.opacity=M.ShadowAlpha*press;
   };
-  button.RegisterCallback<PointerDownEvent>(_=>to(1),TrickleDown.TrickleDown);
-  button.RegisterCallback<PointerUpEvent>(_=>to(0));
-  button.RegisterCallback<PointerLeaveEvent>(_=>{if(lifted>0)to(0);});
-  button.RegisterCallback<PointerCancelEvent>(_=>to(0));
+  button.RegisterCallback<PointerDownEvent>(_=>{
+   if(KarineMotion.Reduced||down)return;down=true;float from=pressed;
+   KarineMotion.Run(prop,M.PressSeconds,t=>{pressed=Mathf.Lerp(from,1,t);apply(pressed,0);});
+  },TrickleDown.TrickleDown);
+  Action release=()=>{
+   if(!down)return;down=false;float from=pressed;
+   KarineMotion.Run(prop,M.ReleaseSeconds,t=>{pressed=Mathf.Lerp(from,0,t);apply(pressed,Mathf.Sin(t*Mathf.PI));},()=>apply(0,0));
+  };
+  button.RegisterCallback<PointerUpEvent>(_=>release());
+  button.RegisterCallback<PointerLeaveEvent>(_=>release());
+  button.RegisterCallback<PointerCancelEvent>(_=>release());
  }
 }
 }

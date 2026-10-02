@@ -56,17 +56,17 @@ public sealed class DeskAtmosphereTests {
   yield return null;
  }
 
- [UnityTest] public IEnumerator PressedProp_LiftsAndSettles() {
+ [UnityTest] public IEnumerator PressedProp_ClicksAndSettles() {
   var file = Root.Q<Button>("DeskFile");
   var folder = Root.Q("BlankCaseFolder");
   using (var down = PointerDownEvent.GetPooled()) { down.target = file; file.SendEvent(down); }
   float until = Time.realtimeSinceStartup + .3f;
   while (Time.realtimeSinceStartup < until) yield return null;
-  Assert.Less(folder.resolvedStyle.translate.y, -1f, "Basılan dosya masadan kalkmadı.");
+  Assert.Less(folder.resolvedStyle.scale.value.x, .99f, "Basılan dosya masaya gömülmedi.");
   using (var up = PointerUpEvent.GetPooled()) { up.target = file; file.SendEvent(up); }
   until = Time.realtimeSinceStartup + .4f;
   while (Time.realtimeSinceStartup < until) yield return null;
-  Assert.AreEqual(0f, folder.resolvedStyle.translate.y, .5f, "Bırakılan dosya yerine oturmadı.");
+  Assert.AreEqual(1f, folder.resolvedStyle.scale.value.x, .005f, "Bırakılan dosya yerine oturmadı.");
  }
 }
 }
