@@ -36,38 +36,22 @@ public static partial class KarineUI {
   parent.RegisterCallback(resize);
   stage.RegisterCallback<DetachFromPanelEvent>(_=>parent.UnregisterCallback(resize));
   fit();
-  var room=new Image {name="OfficeRoom",image=Resources.Load<Texture2D>("Bube/Art/OfficeRoomV2"),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+  // Tek parça masa plakası (2 Ekim 2026): eşyalar ve pencere resmin içinde. Eşya adları
+  // dokunma/katman düzeni için boş işaretçi olarak kalır; görünür bir şey çizmezler.
+  var room=new Image {name="OfficeRoom",image=Resources.Load<Texture2D>("Bube/Art/OfficeDesk"),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
   OfficePlace(room,new Rect(0,0,100,100));stage.Add(room);
   var window=new VisualElement {name="OfficeWindow-"+country,pickingMode=PickingMode.Ignore};
-  OfficePlace(window,KarineTheme.Office.Window);window.style.overflow=Overflow.Hidden;stage.Add(window);
-  CountryPostcard(window,country);
-  // Blinds and mullion are reusable geometry over the country postcard.
-  var tint=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(tint,new Rect(0,0,100,100));
-  tint.style.backgroundColor=KarineTheme.Veil(.22f);window.Add(tint);
-  var mullion=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(mullion,new Rect(29,0,2,100));
-  mullion.style.backgroundColor=KarineTheme.GlassDeep;window.Add(mullion);
-  for(int i=0;i<9;i++) {
-   var slat=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(slat,new Rect(0,i*5,100,2));
-   slat.style.backgroundColor=KarineTheme.GlassDeep;window.Add(slat);
-  }
-  Border(window,KarineTheme.PrimaryEdgeWidth,KarineTheme.Paper.FolderDeep);
-  OfficeProp(stage,4,KarineTheme.Office.Lamp,"DeskLamp");
-  OfficeProp(stage,3,KarineTheme.Office.Inbox,"InboxTray");
-  OfficeProp(stage,2,KarineTheme.Office.Phone,"DeskPhone");
-  OfficeProp(stage,1,KarineTheme.Office.Folder,"BlankCaseFolder");
-  OfficeProp(stage,0,KarineTheme.Office.Monitor,"CctvMonitor");
-  OfficeProp(stage,5,KarineTheme.Office.Evidence,"EvidencePile");
+  OfficePlace(window,KarineTheme.Office.Window);stage.Add(window);
+  OfficeProp(stage,KarineTheme.Office.Lamp,"DeskLamp");
+  OfficeProp(stage,KarineTheme.Office.Inbox,"InboxTray");
+  OfficeProp(stage,KarineTheme.Office.Phone,"DeskPhone");
+  OfficeProp(stage,KarineTheme.Office.Folder,"BlankCaseFolder");
+  OfficeProp(stage,KarineTheme.Office.Monitor,"CctvMonitor");
+  OfficeProp(stage,KarineTheme.Office.Evidence,"EvidencePile");
   return stage;
  }
- static void OfficeProp(VisualElement stage,int index,Rect box,string name) {
-  // Pixel bounds prevent atlas neighbours bleeding into another prop.
-  Rect[] cells={new Rect(25,5,505,500),new Rect(530,90,495,390),new Rect(1020,70,516,420),
-   new Rect(15,530,570,475),new Rect(590,480,420,515),new Rect(1010,555,526,469)};
-  var r=cells[index];
-  var image=new Image {name=name,image=Resources.Load<Texture2D>("Bube/Art/OfficeProps"),
-   scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,
-   uv=new Rect(r.x/1536f,1-(r.y+r.height)/1024f,r.width/1536f,r.height/1024f)};
-  OfficePlace(image,box);stage.Add(image);
+ static void OfficeProp(VisualElement stage,Rect box,string name) {
+  var marker=new VisualElement {name=name,pickingMode=PickingMode.Ignore};OfficePlace(marker,box);stage.Add(marker);
  }
  public static Button OfficeAction(VisualElement stage,string name,string icon,string label,Rect box,Action action) {
   var button=new Button(Sounded(action)) {name=name,tooltip=label};

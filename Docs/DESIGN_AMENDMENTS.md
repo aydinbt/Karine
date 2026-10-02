@@ -872,3 +872,7 @@ Referansa göre: sol rayda dürbün + "CCTV KAYITLARI" başlığı ve yönerge, 
 ## 2 Ekim 2026 — Masa referansına hizalama
 
 Masa etiketlerinin konumu/boyutu referans görselden ölçülerek birebir alındı, üst çubuk eylemleri 96 px genişledi, konum satırına iğne simgesi eklendi. Arka plan hâlâ parça parça (oda plakası + nesne atlası + ülke penceresi, piksel stili); referansın resim stiline birebir geçiş için kullanıcıdan yazısız temiz masa görseli bekleniyor.
+
+## 2 Ekim 2026 — Tek parça masa plakası
+
+Masa artık kullanıcının verdiği tek görsel (`Art/OfficeDesk.png`, 1672×941, yazısız). Oda plakası + nesne atlası + ülke penceresi katmanları kaldırıldı; eşya adları boş işaretçi olarak kalıyor (katman ve test düzeni bozulmasın diye). Bedeli: (1) basılan eşyanın masadan kalkma efekti artık görünmez, (2) pencere her ülkede aynı genel şehir manzarası. İkisi de geri istenirse eşya kesitleri (saydam PNG) ve ülke başına pencere görseli gerekir. Eski `OfficeRoomV2`/`OfficeProps` dünya seçici arka planında hâlâ kullanıldığı için silinmedi.
