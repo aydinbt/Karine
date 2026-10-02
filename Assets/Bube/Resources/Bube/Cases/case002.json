@@ -387,7 +387,16 @@
      "textKey": "case002.cctv.event.patrol",
      "delayMs": 620,
      "id": "patrol",
-     "overlayTimeKey": "case002.time.patrol"
+     "overlayTimeKey": "case002.time.patrol",
+     "framePaths": [
+      "Bube/Cctv/case002_patrol/01",
+      "Bube/Cctv/case002_patrol/02"
+     ],
+     "frameTimes": [
+      "23.46.00",
+      "23.46.03"
+     ],
+     "frameMs": 500
     }
    ]
   },
