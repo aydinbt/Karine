@@ -43,8 +43,8 @@ public sealed partial class BubeApp {
  void ResetPolishDraft(){draftColor=0;draftLamp=0;}
  void SavePolishDraft(){PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);SaveLampDraft();}
  void ColorOptions(VisualElement scroll) {
-  var row=KarineUI.Row(scroll);row.style.alignItems=Align.Stretch;row.style.flexWrap=Wrap.Wrap;
-  for(int i=0;i<4;i++){int v=i;var o=KarineUI.SettingsOption(row,T("settings.color."+v),T("settings.color.hint"),draftColor==v,()=>{draftColor=v;RenderSettings();});if(v<3)o.style.marginRight=KarineTheme.SpaceMd;}
+  // Alt alta: dört kart yan yana sığmıyor. Açıklama yalnız ilkinde, tekrar etmez.
+  for(int i=0;i<4;i++){int v=i;var o=KarineUI.SettingsOption(scroll,T("settings.color."+v),v==0?T("settings.color.hint"):null,draftColor==v,()=>{draftColor=v;RenderSettings();});o.style.flexGrow=0;o.style.flexBasis=StyleKeyword.Auto;o.style.marginBottom=KarineTheme.SpaceSm;}
  }
  void TextScaleSlider(VisualElement scroll) {
   var slider=new Slider(Typography.MinScale,Typography.MaxScale) {name="TextScaleSlider",value=draftScaleValue};
