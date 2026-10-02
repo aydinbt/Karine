@@ -148,6 +148,10 @@ public static class KarineTheme {
   public const int HeaderHeight=76, PortraitSize=64, TabGap=4;
   public static readonly Rect Sheet=new Rect(7,14,73,79);
   public static readonly Rect Tabs=new Rect(80,19,18,73);
+  // Yeni görünüm (2 Ekim 2026): kâğıdın arkasındaki karton dosya, polaroid fotoğraf.
+  public static readonly Rect Folder=new Rect(4.5f,11.5f,78,86);
+  public const float PhotoTilt=2.5f;
+  public const int PhotoCaptionPad=34, MetaIcon=22, SectionIcon=24;
  }
 
  public static class Office {

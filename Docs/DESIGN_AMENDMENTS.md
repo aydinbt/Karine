@@ -840,3 +840,7 @@ Kullanıcı arayüzü baştan yenilemeye karar verdi; referans görseller ChatGP
 ## 2 Ekim 2026 — Masa kalır, üst çubukta simgeyle gezinme yok
 
 Masa sahnesi merkez olarak kalır. Gelen Evraklar, dosya ve talep ekranlarının üst çubuğundaki dosya/görüşme/CCTV/evrak/ayarlar simgeleri kaldırıldı. Her ekran yalnız geri düğmesiyle masaya döner; oyuncu bir sonrakini masadan kendisi açar.
+
+## 2 Ekim 2026 — Dosya / Vaka Detayı yeni görünümde
+
+Gece ofisi sahnesi, karton dosya üstünde eskimiş kâğıt, sekmeler kâğıt dokulu kart. Künye iki sütunlu kart ızgarası (simge etiket anahtarından: konum→pin, numara→folder, tarih→calendar, ihbar eden→person). Olay fotoğrafı eğik polaroid ve ataşla. Bölüm başlıkları simge + çizgi. İlgili kişi kartı tıklanamaz kaldı (ok işareti konmadı: oyuncuyu bir yere yönlendirmez). Referanstaki "İlgili Eşyalar" galerisi için veri alanı ve eşya fotoğrafları bekleniyor. Yeni sekme simgeleri (person, fingerprint, clock, image, compare, search, calendar) gelene kadar boş görünür.

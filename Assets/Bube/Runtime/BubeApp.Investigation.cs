@@ -144,9 +144,7 @@ public sealed partial class BubeApp {
    Save();
   }
   Desk();
-  var shade=new VisualElement();
-  shade.style.position=Position.Absolute;shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.78f);root.Add(shade);
+  KarineUI.InboxScene(root);
   var paper=KarineUI.DossierSheet(root);
   paper.userData=selectedFileSection;
   if(openingFile)KarineMotion.Paper(paper);
@@ -240,14 +238,14 @@ public sealed partial class BubeApp {
   // Ayrıca dört ayrı yerde kopyalanan sekme biçimi tek yere toplandı; yeni bir
   // sekme eklemek artık tek satır.
   var tabs=new VisualElement();KarineUI.OfficePlace(tabs,KarineTheme.Dossier.Tabs);root.Add(tabs);
-  var icons=new[]{"document","people","binoculars","chart","folder"};int tabIndex=0;
+  var icons=new[]{"document","person","fingerprint","clock","image"};int tabIndex=0;
   foreach(var section in new[]{"report","interview","evidence","timeline","visual"}) {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
    KarineUI.DossierTab(tabs,icons[tabIndex++],T("file.tab."+choice)+(unread?"  •":""),choice==selectedFileSection,()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();},switchingSection);
   }
-  KarineUI.DossierTab(tabs,"people",T("file.tab.compare"),false,()=>{comparePicker=-1;ComparePage();});
-  KarineUI.DossierTab(tabs,"binoculars",T("file.tab.search"),false,FileSearchPage);
+  KarineUI.DossierTab(tabs,"compare",T("file.tab.compare"),false,()=>{comparePicker=-1;ComparePage();});
+  KarineUI.DossierTab(tabs,"search",T("file.tab.search"),false,FileSearchPage);
   if(game.CanConclude)KarineUI.DossierTab(tabs,"chart",T("conclude.tab"),false,Conclusion);
  }
  void DossierOverview(VisualElement paper,Node report) {
@@ -256,22 +254,31 @@ public sealed partial class BubeApp {
   var identity=KarineUI.DossierColumn(upper,48);
   KarineUI.DossierTitle(identity,T(game.Data.titleKey));
   KarineUI.DossierText(identity,CaseText("file.caseType","file.caseType"),KarineTheme.Dossier.BodySize);
-  if(report.fileMeta!=null)foreach(var field in report.fileMeta) {
-   KarineUI.DossierMeta(identity,T(field.labelKey),T(field.valueKey));
+  if(report.fileMeta!=null && report.fileMeta.Length>0) {
+   var grid=KarineUI.DossierMetaGrid(identity);
+   foreach(var field in report.fileMeta)KarineUI.DossierMeta(grid,MetaIcon(field.labelKey),T(field.labelKey),T(field.valueKey));
   }
   var photo=KarineUI.DossierColumn(upper,52);
   var texture=Resources.Load<Texture2D>(report.imageResource);
   if(texture!=null)KarineUI.DossierPhoto(photo,texture,T(report.imageCaptionKey));
   var lower=KarineUI.DossierRow(scroll);
   var story=KarineUI.DossierColumn(lower,65);
-  KarineUI.DossierText(story,T(report.titleKey).ToUpperInvariant(),KarineTheme.Dossier.BodySize);
+  KarineUI.DossierSection(story,"document",T(report.titleKey));
   KarineUI.DossierText(story,T(report.bodyKey),KarineTheme.Dossier.BodySize);
   var people=KarineUI.DossierColumn(lower,35);
-  KarineUI.DossierText(people,T("file.relatedPeople"),KarineTheme.Dossier.MetaSize);
+  KarineUI.DossierSection(people,"people",T("file.relatedPeople"));
   foreach(var person in game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).Select(g=>g.First()))
    KarineUI.DossierPerson(people,Resources.Load<Texture2D>("Bube/Characters/"+person.personId),T(person.personNameKey),T(person.personInfoKey));
  }
 
+ // Künye alanının simgesi etiketin anahtarından gelir; bilinmeyen alan simgesiz kalır.
+ static string MetaIcon(string labelKey) {
+  if(labelKey.EndsWith(".location"))return "pin";
+  if(labelKey.EndsWith(".number"))return "folder";
+  if(labelKey.EndsWith(".date"))return "calendar";
+  if(labelKey.EndsWith(".reporter"))return "person";
+  return "info";
+ }
  void FileSearchPage() {
   showingInterviewList=false;
   Desk();
