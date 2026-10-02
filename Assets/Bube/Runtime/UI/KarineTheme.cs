@@ -119,11 +119,12 @@ public static class KarineTheme {
 
  public static class CaseBrowser {
   public const int SidebarWidth=218, LogoWidth=194, Portrait=100;
-  public const int TitleSize=36, TextSize=15, SmallSize=12;
-  public const int CountryWidth=124, CountryHeight=132;
-  public const int CardWidth=118, CardHeight=194, PhotoHeight=78;
+  public const int TitleSize=44, TextSize=15, SmallSize=12;
+  public const int CountryWidth=124, CountryHeight=150, NextButton=44;
+  public const int CardWidth=124, CardHeight=214, PhotoHeight=84, Badge=28, StepDot=20;
   public const int MainLeft=254, Top=48, Bottom=28;
-  public const int TapeWidth=38, TapeHeight=9, BannerHeight=94, HeadingHeight=80, ProgressWidth=260, ProgressHeight=6;
+  public const string MapIcon="map"; // simge gelene kadar pin'e düşer
+  public const int TapeWidth=38, TapeHeight=9, BannerHeight=104, StampWidth=92, HeadingHeight=84, ProgressWidth=260, ProgressHeight=6;
  }
 
  public static class CctvArchive {

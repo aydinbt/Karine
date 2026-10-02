@@ -888,3 +888,7 @@ Kullanıcı kararı: ayrı kesitler gerçekçi durmadı (lamba bardağın üstü
 ## 2 Ekim 2026 — Ayarlar yeni görünüm
 
 Referansa göre: simgeli bölüm başlığı + açıklama, radyo daireli seçenek kartları (sağda simge ya da ses çubukları, 4 çubuk = seviye), alt çubukta simgeli "Varsayılanlara Dön" ve birincil "Kaydet". Referanstaki "Görüntü" sekmesi eklenmedi: oyunda ekran ayarı yok, boş sekme olurdu. Eksik simgeler (chat, music, gamepad, refresh, check) gelene kadar mevcut simgelere düşer (`KarineUI.IconOr`).
+
+## 2 Ekim 2026 — Vakalar sayfası yeni görünüm
+
+Referans görsele göre: büyük başlık; harita simgeli, yüzdeli "Genel ilerleme" kutusu; daha uzun ülke kartları, kilit ortada; şeridin sağında ileri oku; ülke bandında bayrak ve "N VAKA" damgası; polaroid vaka kartlarında sol üstte sıra rozeti, kilitli kartlar koyu, altta düğme gibi durum şeridi (etkin olan pas kırmızısı); alttaki adım çizgisinde kilitli adımlar kilit noktası taşır. Referanstaki "Türkiye'yi tamamla / Özel içerik açılır" kupası **eklenmedi**: böyle bir içerik yok, oyuncuya olmayan bir şey vaat edilmez. Durum: `[~]`, Unity'de gözle bakılmadı.

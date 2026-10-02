@@ -46,12 +46,15 @@ public sealed partial class BubeApp {
     },country.slots.Count==0?0:(float)Worlds.CompletedIn(country,closed)/country.slots.Count);
   }
   countries.schedule.Execute(()=>countries.scrollOffset=countryStripOffset);
+  var stripRow=KarineUI.Row(main);stripRow.style.flexShrink=0;stripRow.style.alignItems=Align.Center;main.Insert(main.IndexOf(countries),stripRow);
+  countries.style.flexGrow=1;stripRow.Add(countries);
+  KarineUI.IconButton(stripRow,"nav_next",()=>countries.scrollOffset=new Vector2(countries.scrollOffset.x+KarineTheme.CaseBrowser.CountryWidth+KarineTheme.SpaceSm,0),T("world.browser.next"));
   var current=atlas.countries[worldPick];
   var board=KarineUI.Panel(main,true);board.name="CaseBoard";
   board.style.marginTop=KarineTheme.SpaceSm;board.style.marginLeft=0;board.style.marginRight=0;
   board.style.backgroundColor=KarineTheme.GlassDeep;board.style.flexShrink=0;
   board.style.paddingLeft=KarineTheme.SpaceSm;board.style.paddingRight=KarineTheme.SpaceSm;board.style.paddingTop=KarineTheme.SpaceSm;board.style.paddingBottom=KarineTheme.SpaceSm;
-  KarineUI.BrowserBanner(board,current.id,LoadWorldArt(current.image),T(current.nameKey),T(current.descriptionKey));
+  KarineUI.BrowserBanner(board,current.id,LoadWorldArt(current.image),T(current.nameKey),T(current.descriptionKey),current.slots.Count+" "+T("world.cases").ToUpper(new System.Globalization.CultureInfo("tr-TR")));
   var head=KarineUI.Row(board);
   var title=KarineUI.Body_(head,T("world.cases"),KarineTheme.CaseBrowser.SmallSize);
   title.style.flexGrow=1;title.style.marginBottom=0;
@@ -71,7 +74,7 @@ public sealed partial class BubeApp {
    if(art==null&&slot.caseId=="case001") art=Resources.Load<Texture2D>("Bube/Case001Building");
    if(art==null&&slot.caseId=="case002") art=Resources.Load<Texture2D>("Bube/Art/Case002Cover");
    KarineUI.CasePhotoCard(cards.contentContainer,string.IsNullOrEmpty(slot.caseId)?current.id+"-"+i:slot.caseId,
-    current.id,T("world.browser.case")+" "+(i+1).ToString("000"),T(slot.titleKey).Split(new[]{'—'},2).Last().Trim(),WorldStateLabel(state),art,active,done,press);
+    current.id,T("world.browser.case")+" "+(i+1).ToString("000"),T(slot.titleKey).Split(new[]{'—'},2).Last().Trim(),WorldStateLabel(state),art,active,done,press,(i+1).ToString("00"));
   }
   KarineUI.BrowserSteps(board,current.slots.Select((s,i)=>Worlds.SlotState(current,i,closed,unlocked)==WorldSlotState.Completed).ToArray(),
    Array.FindIndex(current.slots.ToArray(),s=>Worlds.SlotState(current,current.slots.IndexOf(s),closed,unlocked)==WorldSlotState.Active));

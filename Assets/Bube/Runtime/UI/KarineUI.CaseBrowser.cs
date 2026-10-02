@@ -46,7 +46,7 @@ public static partial class KarineUI {
   tally.style.color=KarineTheme.Secondary;
   tally.style.marginBottom=KarineTheme.SpaceXs;
   BrowserMeter(plate,progress);
-  if(!unlocked) {var seal=new CaseSeal(false);seal.style.position=Position.Absolute;seal.style.top=KarineTheme.SpaceXs;seal.style.left=Length.Percent(32);card.Add(seal);}
+  if(!unlocked) {var seal=new CaseSeal(false);seal.style.position=Position.Absolute;seal.style.top=Length.Percent(30);seal.style.left=Length.Percent(50);seal.style.translate=new Translate(Length.Percent(-50),0);card.Add(seal);}
   parent.Add(card);
   return card;
  }
@@ -60,30 +60,45 @@ public static partial class KarineUI {
   var box=new VisualElement();box.style.width=KarineTheme.CaseBrowser.ProgressWidth;box.style.flexShrink=0;
   box.style.paddingLeft=KarineTheme.SpaceMd;box.style.paddingRight=KarineTheme.SpaceMd;box.style.paddingTop=KarineTheme.SpaceSm;
   box.style.backgroundColor=KarineTheme.GlassDeep;Border(box,KarineTheme.BorderWidth,KarineTheme.Panel2);parent.Add(box);
-  var heading=Technical(box,title,KarineTheme.CaseBrowser.SmallSize);heading.style.marginBottom=KarineTheme.SpaceXs;
-  var detail=Body_(box,summary,KarineTheme.CaseBrowser.SmallSize);detail.style.marginBottom=KarineTheme.SpaceXs;BrowserMeter(box,progress);
+  box.style.paddingBottom=KarineTheme.SpaceSm;Round(box,KarineTheme.Radius);
+  var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;box.Add(top);
+  Icon(top,IconOr(KarineTheme.CaseBrowser.MapIcon,"pin"),KarineTheme.Primary,KarineTheme.IconSize+KarineTheme.SpaceSm).style.marginRight=KarineTheme.SpaceSm;
+  var words=new VisualElement();words.style.flexGrow=1;top.Add(words);
+  var heading=Technical(words,title,KarineTheme.CaseBrowser.SmallSize);heading.style.marginBottom=KarineTheme.SpaceXs;
+  var detail=Body_(words,summary,KarineTheme.CaseBrowser.TextSize);detail.style.color=KarineTheme.Primary;detail.style.marginBottom=KarineTheme.SpaceXs;
+  var meter=new VisualElement();meter.style.flexDirection=FlexDirection.Row;meter.style.alignItems=Align.Center;box.Add(meter);
+  var track=new VisualElement();track.style.flexGrow=1;meter.Add(track);BrowserMeter(track,progress);
+  var pct=Technical(meter,Mathf.RoundToInt(Mathf.Clamp01(progress)*100)+"%",KarineTheme.CaseBrowser.SmallSize);pct.style.marginLeft=KarineTheme.SpaceSm;pct.style.marginBottom=0;
  }
- public static VisualElement BrowserBanner(VisualElement parent,string country,Texture2D art,string title,string description) {
+ public static VisualElement BrowserBanner(VisualElement parent,string country,Texture2D art,string title,string description,string stamp=null) {
   var banner=new VisualElement();banner.style.height=KarineTheme.CaseBrowser.BannerHeight;banner.style.flexShrink=0;banner.style.overflow=Overflow.Hidden;parent.Add(banner);
   CountryPostcard(banner,country,art);
   var shade=new VisualElement();OfficePlace(shade,new Rect(0,0,100,100));shade.style.backgroundColor=KarineTheme.Veil(.5f);banner.Add(shade);
-  var copy=new VisualElement();copy.style.paddingLeft=KarineTheme.SpaceMd;copy.style.paddingTop=KarineTheme.SpaceSm;banner.Add(copy);
-  var heading=Subtitle(copy,title,KarineTheme.CaseBrowser.TitleSize-KarineTheme.SpaceSm);heading.style.marginBottom=KarineTheme.SpaceXs;
+  var copy=new VisualElement();copy.style.paddingLeft=KarineTheme.SpaceMd;copy.style.paddingTop=KarineTheme.SpaceSm;copy.style.paddingRight=KarineTheme.CaseBrowser.StampWidth+KarineTheme.SpaceLg;banner.Add(copy);
+  var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.Center;copy.Add(line);
+  if(country=="tr") {var flag=new Image {image=Resources.Load<Texture2D>("Bube/TurkiyeFlag"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+   flag.style.width=KarineTheme.IconSize*2;flag.style.height=KarineTheme.IconSize+KarineTheme.SpaceSm;flag.style.marginRight=KarineTheme.SpaceSm;line.Add(flag);}
+  var heading=Subtitle(line,title,KarineTheme.CaseBrowser.TitleSize-KarineTheme.SpaceSm);heading.style.marginBottom=KarineTheme.SpaceXs;
   var desc=Body_(copy,description,KarineTheme.CaseBrowser.SmallSize);desc.style.marginBottom=0;
   return banner;
  }
  public static void BrowserSteps(VisualElement parent,bool[] completed,int active) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.marginTop=KarineTheme.SpaceSm;parent.Add(row);
   for(int i=0;i<completed.Length;i++) {
-   var step=new VisualElement();step.style.flexGrow=1;step.style.alignItems=Align.Center;step.style.borderTopWidth=KarineTheme.BorderWidth;step.style.borderTopColor=KarineTheme.Accent;row.Add(step);
+   var step=new VisualElement();step.style.flexGrow=1;step.style.alignItems=Align.Center;step.style.borderTopWidth=KarineTheme.BorderWidth;step.style.marginTop=KarineTheme.CaseBrowser.StepDot/2;step.style.borderTopColor=KarineTheme.Accent;row.Add(step);
+   bool open=completed[i]||active==i;
+   var dot=new VisualElement {pickingMode=PickingMode.Ignore};int d=KarineTheme.CaseBrowser.StepDot;
+   dot.style.width=d;dot.style.height=d;dot.style.marginTop=-d/2;Round(dot,d/2);dot.style.alignItems=Align.Center;dot.style.justifyContent=Justify.Center;
+   dot.style.backgroundColor=open?KarineTheme.Primary:KarineTheme.GlassDeep;Border(dot,KarineTheme.BorderWidth,open?KarineTheme.Primary:KarineTheme.Accent);step.Add(dot);
+   if(!open) Icon(dot,IconOr("lock","close"),KarineTheme.Muted,d-8);
    var label=Technical(step,(i+1).ToString("00"),KarineTheme.CaseBrowser.SmallSize);label.style.marginBottom=0;
-   label.style.color=completed[i]||active==i?KarineTheme.Primary:KarineTheme.Muted;
+   label.style.color=open?KarineTheme.Primary:KarineTheme.Muted;
   }
  }
 
  // Polaroid, tape, pin and status are individual UI elements, not a screen image.
  public static Button CasePhotoCard(VisualElement parent,string id,string country,string number,
-  string title,string state,Texture2D art,bool active,bool completed,Action click) {
+  string title,string state,Texture2D art,bool active,bool completed,Action click,string index="") {
   var card=new Button(Sounded(click)) {name="CaseCard-"+id};
   card.style.width=KarineTheme.CaseBrowser.CardWidth;card.style.height=KarineTheme.CaseBrowser.CardHeight;
   card.style.flexShrink=0;card.style.flexDirection=FlexDirection.Column;
@@ -92,7 +107,8 @@ public static partial class KarineUI {
   card.style.marginTop=KarineTheme.SpaceSm;card.style.marginBottom=KarineTheme.SpaceSm;
   card.style.paddingLeft=KarineTheme.SpaceXs;card.style.paddingRight=KarineTheme.SpaceXs;
   card.style.paddingTop=KarineTheme.SpaceSm;card.style.paddingBottom=KarineTheme.SpaceXs;
-  card.style.backgroundColor=active?KarineTheme.Paper.Light:KarineTheme.Paper.Tint;
+  bool locked=!active&&!completed;
+  card.style.backgroundColor=active?KarineTheme.Paper.Light:locked?KarineTheme.Alpha(KarineTheme.Paper.Tint,.55f):KarineTheme.Paper.Tint;
   Border(card,active?2:KarineTheme.BorderWidth,active?KarineTheme.Primary:KarineTheme.Paper.Edge);
   var photo=new VisualElement();photo.style.height=KarineTheme.CaseBrowser.PhotoHeight;
   photo.style.flexShrink=0;photo.style.overflow=Overflow.Hidden;card.Add(photo);
@@ -111,15 +127,21 @@ public static partial class KarineUI {
    var seal=new CaseSeal(true);seal.style.position=Position.Absolute;
    seal.style.right=KarineTheme.SpaceXs;seal.style.bottom=KarineTheme.SpaceXs;photo.Add(seal);
   }
+  var badge=Technical(card,index,KarineTheme.CaseBrowser.SmallSize);badge.pickingMode=PickingMode.Ignore;
+  badge.style.position=Position.Absolute;badge.style.left=-KarineTheme.SpaceXs;badge.style.top=-KarineTheme.SpaceXs;
+  badge.style.width=KarineTheme.CaseBrowser.Badge;badge.style.height=KarineTheme.CaseBrowser.Badge;badge.style.marginBottom=0;
+  badge.style.unityTextAlign=TextAnchor.MiddleCenter;badge.style.color=KarineTheme.Primary;badge.style.backgroundColor=KarineTheme.GlassDeep;
+  Border(badge,KarineTheme.BorderWidth,active?KarineTheme.Primary:KarineTheme.Accent);
   var no=Technical(card,number,KarineTheme.CaseBrowser.SmallSize);
   no.style.color=KarineTheme.Paper.Faded;no.style.marginTop=KarineTheme.SpaceXs;no.style.marginBottom=0;
   var name=Body_(card,title,KarineTheme.CaseBrowser.TextSize);
   name.style.color=KarineTheme.Paper.Ink;name.style.flexGrow=1;name.style.marginBottom=0;
-  var foot=Body_(card,state,KarineTheme.CaseBrowser.SmallSize);
-  foot.style.flexShrink=0;foot.style.backgroundColor=KarineTheme.GlassDeep;
-  foot.style.color=completed?KarineTheme.Primary:KarineTheme.Secondary;
-  foot.style.paddingLeft=KarineTheme.SpaceSm;foot.style.paddingTop=KarineTheme.SpaceXs;
+  var foot=Technical(card,state.ToUpper(new System.Globalization.CultureInfo("tr-TR")),KarineTheme.CaseBrowser.SmallSize);
+  foot.style.flexShrink=0;foot.style.backgroundColor=active?KarineTheme.Paper.Stamp:KarineTheme.GlassDeep;
+  foot.style.color=active||completed?KarineTheme.Primary:KarineTheme.Muted;foot.style.unityTextAlign=TextAnchor.MiddleCenter;
+  Round(foot,KarineTheme.Radius);foot.style.paddingTop=KarineTheme.SpaceXs;
   foot.style.paddingBottom=KarineTheme.SpaceXs;foot.style.marginBottom=0;
+  if(locked){no.style.color=KarineTheme.Paper.Ink;}
   var tape=new VisualElement();tape.pickingMode=PickingMode.Ignore;
   tape.style.position=Position.Absolute;tape.style.top=-KarineTheme.SpaceXs;
   tape.style.left=Length.Percent(38);tape.style.width=KarineTheme.CaseBrowser.TapeWidth;
