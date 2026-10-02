@@ -370,7 +370,18 @@
      "overlayTimeKey": "case002.time.third_out",
      "aboutPersonIds": [
       "kerem"
-     ]
+     ],
+     "framePaths": [
+      "Bube/Cctv/case002_third_out/01",
+      "Bube/Cctv/case002_third_out/02",
+      "Bube/Cctv/case002_third_out/03"
+     ],
+     "frameTimes": [
+      "23.39.00",
+      "23.39.02",
+      "23.39.04"
+     ],
+     "frameMs": 500
     },
     {
      "textKey": "case002.cctv.event.patrol",
