@@ -130,6 +130,11 @@ public static class KarineTheme {
   public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=48;
   public const float SidebarWidth=27;
  }
+ public static class Button {
+  public const int Slice=22;
+  public const float SliceScale=.75f, PressDepth=1;
+  public static readonly Color PressedTint=new Color(.78f,.74f,.68f,1), DisabledTint=new Color(.5f,.5f,.5f,.7f);
+ }
  public static class Requests {
   public const int Portrait=76, DetailPortrait=118, RowHeight=104, TitleSize=21, BodySize=15, Badge=24, Chevron=18;
   // Talep tableti üst çubuğun (yüzde 11) altına iner; genişlik de aynı oranda küçülür ki görsel bozulmasın.

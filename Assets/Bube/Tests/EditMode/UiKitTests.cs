@@ -16,6 +16,12 @@ public sealed class UiKitTests {
 
  // Kit görselindeki sekiz etiketli kutu. Bir renk değişirse burada da
  // değişmelidir — sessizce kaymasın.
+ // Düğmeler dokulu görsel taşır (2 Ekim 2026); hangi görselin bağlandığını döndürür.
+ static string Skin(VisualElement button) {
+  var image = button.style.backgroundImage.value.texture;
+  return image == null ? null : image.name;
+ }
+
  [Test]
  public void Palette_MatchesTheKitSwatches() {
   Assert.AreEqual("#0B0F14", KarineTheme.BackgroundHex);
@@ -36,7 +42,7 @@ public sealed class UiKitTests {
  [Test]
  public void PrimaryButton_IsCreamWithDarkText() {
   var button = KarineUI.Button_(Host(), "DEVAM ET", null, KarineButtonKind.Primary);
-  Assert.AreEqual(KarineTheme.Primary, button.style.backgroundColor.value);
+  Assert.AreEqual("btn_primary", Skin(button));
   Assert.AreEqual(KarineTheme.OnPrimary, button.style.color.value);
  }
 
@@ -44,10 +50,8 @@ public sealed class UiKitTests {
  [Test]
  public void SecondaryButton_IsDarkWithCreamBorder() {
   var button = KarineUI.Button_(Host(), "GERİ", null, KarineButtonKind.Secondary);
-  Assert.AreEqual(KarineTheme.Background, button.style.backgroundColor.value);
+  Assert.AreEqual("btn_dark", Skin(button));
   Assert.AreEqual(KarineTheme.Primary, button.style.color.value);
-  Assert.AreEqual(KarineTheme.Primary, button.style.borderTopColor.value);
-  Assert.AreEqual(KarineTheme.BorderWidth, button.style.borderTopWidth.value);
  }
 
  [Test]
@@ -68,7 +72,8 @@ public sealed class UiKitTests {
  public void DisabledButton_IsFlatAndNotClickable() {
   var button = KarineUI.Button_(Host(), "DEVAM ET", null, KarineButtonKind.Primary, false);
   Assert.IsFalse(button.enabledSelf);
-  Assert.AreEqual(KarineTheme.Disabled, button.style.backgroundColor.value);
+  Assert.AreEqual("btn_dark", Skin(button), "Devre dışı düğme ana görseli taşımaz.");
+  Assert.AreEqual(KarineTheme.Button.DisabledTint, button.style.unityBackgroundImageTintColor.value);
  }
 
  // Kit: yaklaşık 48–56 dp. Dokunma hedefi hiçbir bileşende bunun altına inmez.
@@ -112,8 +117,8 @@ public sealed class UiKitTests {
   Assert.AreEqual(2, buttons.Count, "Modal'da tek ikincil, tek birincil eylem olur.");
   Assert.AreEqual("VAZGEÇ", buttons[0].text);
   Assert.AreEqual("ONAYLA", buttons[1].text);
-  Assert.AreEqual(KarineTheme.Primary, buttons[1].style.backgroundColor.value);
-  Assert.AreNotEqual(KarineTheme.Primary, buttons[0].style.backgroundColor.value);
+  Assert.AreEqual("btn_primary", Skin(buttons[1]));
+  Assert.AreEqual("btn_dark", Skin(buttons[0]));
  }
 
  [Test]

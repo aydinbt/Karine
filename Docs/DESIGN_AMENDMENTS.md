@@ -852,3 +852,7 @@ Rapor düğümü `relatedItems` (ad, ayrıntı, fotoğraf) alır; dosya ekranın
 ## 2 Ekim 2026 — Tablet talep ekranı yeni görünümde
 
 BDS rayı altında "GÖRÜŞME/İNCELEME TALEPLERİ" alt başlığı ve simgeli, sayaçlı iki sekme. Sayaç yalnız oyuncunun zaten gördüğü durumları sayar (görüşmeye hazır kişi, dosyaya alınmamış gelen rapor). Liste satırı: portre, ad, durum (görüşmeye hazırsa kırmızı nokta), bilgi, dosyada zaten olan alıntı ve seçim oku. Ayrıntı kartı kâğıt dokulu; portre solda, ad/bilgi/durum sağda. Referanstaki yaş/meslek/ikamet alanları ve durum süzgeci veride olmadığı için eklenmedi; satırdaki alıntı yalnız okunmuş ifadeden gelir.
+
+## 2 Ekim 2026 — Dokulu düğmeler (kit §24 kullanıcı kararıyla kaldırıldı)
+
+Düğmeler artık düz renk değil, dokuz parçalı gerdirilen görseller: ikincil = koyu deri + pirinç kenar (`btn_dark`), birincil/seçili = krem kâğıt + pirinç kenar (`btn_primary`), kâğıt üstü işlem/seçim = mürekkep damgası çerçevesi (`btn_paper`). Basınca görsel kararır ve bir piksel iner; her düğmede aynı. Devre dışı düğme koyu görseli gri tonla taşır. Ghost ve Quiet düz kalır. Ayar: `KarineTheme.Button`.

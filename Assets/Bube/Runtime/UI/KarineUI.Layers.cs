@@ -117,6 +117,15 @@ public static partial class KarineUI {
   Round(button, KarineTheme.Radius);
   Border(button, KarineTheme.BorderWidth, KarineTheme.Paper.Edge);
   ApplyFont(button, kind == KarinePaperKind.Action ? BodyBold : Body);
+  // Kâğıt üstündeki işlem ve seçim düğmeleri mürekkep damgası görseli taşır.
+  if (kind != KarinePaperKind.Quiet && Skin(button, "btn_paper")) {
+   button.style.color = kind == KarinePaperKind.Action ? KarineTheme.Paper.Stamp : KarineTheme.Paper.Ink;
+   button.style.paddingLeft = Mathf.Max(KarineTheme.SpaceLg, (int)button.style.paddingLeft.value.value);
+   button.style.paddingRight = KarineTheme.SpaceLg;
+   Pressable(button);
+   parent?.Add(button);
+   return button;
+  }
   var pressed = Color.Lerp(fill, KarineTheme.Paper.Stamp, .30f);
   button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
   button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = fill);

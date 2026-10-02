@@ -225,19 +225,45 @@ public static partial class KarineUI {
     fill = KarineTheme.Background; text = KarineTheme.Primary; edge = KarineTheme.Primary; break;
   }
   if (!enabled) { fill = KarineTheme.Disabled; text = KarineTheme.Panel; edge = KarineTheme.Disabled; }
-  button.style.backgroundColor = fill;
   button.style.color = text;
-  Border(button, kind == KarineButtonKind.Ghost ? 0 : KarineTheme.BorderWidth, edge);
-  if (kind == KarineButtonKind.Primary && enabled) {
-   button.style.borderLeftWidth = KarineTheme.PrimaryEdgeWidth;
-   button.style.borderLeftColor = KarineTheme.Accent;
+  // Yeni görünüm (2 Ekim 2026): düğmeler dokulu, gerdirilebilir görseldir —
+  // koyu deri/pirinç, seçili/ana için krem kâğıt/pirinç. Ghost düz kalır.
+  if (kind != KarineButtonKind.Ghost && Skin(button, kind == KarineButtonKind.Primary && enabled ? "btn_primary" : "btn_dark")) {
+   if (!enabled) button.style.unityBackgroundImageTintColor = KarineTheme.Button.DisabledTint;
+   if (enabled) Pressable(button);
+   return;
   }
+  button.style.backgroundColor = fill;
+  Border(button, kind == KarineButtonKind.Ghost ? 0 : KarineTheme.BorderWidth, edge);
   if (!enabled) return;
   var normal = fill;
-  var pressed = Color.Lerp(fill, KarineTheme.Accent, kind == KarineButtonKind.Primary ? .35f : .25f);
+  var pressed = Color.Lerp(fill, KarineTheme.Accent, .25f);
   button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
   button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = normal);
   button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = normal);
+ }
+
+ // Düğme görselini dokuz parçalı gerer: köşeler ve pirinç kenar sabit, orta uzar.
+ public static bool Skin(VisualElement button, string name) {
+  var art = Resources.Load<Texture2D>("Bube/UI/" + name);
+  if (art == null) return false;
+  button.style.backgroundColor = Color.clear;
+  Border(button, 0, Color.clear);
+  button.style.backgroundImage = new StyleBackground(art);
+  int slice = KarineTheme.Button.Slice;
+  button.style.unitySliceLeft = slice; button.style.unitySliceRight = slice;
+  button.style.unitySliceTop = slice; button.style.unitySliceBottom = slice;
+  button.style.unitySliceScale = KarineTheme.Button.SliceScale;
+  button.style.unityBackgroundImageTintColor = Color.white;
+  return true;
+ }
+
+ // Basma geri bildirimi: görsel bir an kararır ve bir piksel içe iner. Her düğmede aynı.
+ public static void Pressable(VisualElement button) {
+  button.RegisterCallback<PointerDownEvent>(_ => { button.style.unityBackgroundImageTintColor = KarineTheme.Button.PressedTint; button.style.translate = new Translate(0, KarineTheme.Button.PressDepth); }, TrickleDown.TrickleDown);
+  EventCallback<EventBase> release = _ => { button.style.unityBackgroundImageTintColor = Color.white; button.style.translate = new Translate(0, 0); };
+  button.RegisterCallback<PointerUpEvent>(e => release(e));
+  button.RegisterCallback<PointerLeaveEvent>(e => release(e));
  }
 
  // Yalnız ikon: kare koyu düğme + krem çizgi ikon. İkon 22 px, hedef 48 px.
