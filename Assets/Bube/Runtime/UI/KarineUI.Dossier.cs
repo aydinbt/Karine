@@ -104,6 +104,13 @@ public static partial class KarineUI {
    pin.style.height=KarineTheme.Inbox.ClipWidth*clip.height/(float)clip.width;
    pin.style.right=Length.Percent(10);pin.style.top=-KarineTheme.SpaceXl;frame.Add(pin);
   }
+  var tape=Resources.Load<Texture2D>("Bube/UI/tape");
+  if(tape!=null) {
+   var strip=new Image {image=tape,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+   strip.style.position=Position.Absolute;strip.style.width=KarineTheme.Dossier.TapeWidth;
+   strip.style.height=KarineTheme.Dossier.TapeWidth*tape.height/(float)tape.width;
+   strip.style.left=-KarineTheme.SpaceLg;strip.style.top=KarineTheme.SpaceSm;strip.style.rotate=new Rotate(-38);frame.Add(strip);
+  }
  }
  public static void DossierPerson(VisualElement parent,Texture2D texture,string name,string info) {
   var row=DossierRow(parent);row.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Tint,.55f);
