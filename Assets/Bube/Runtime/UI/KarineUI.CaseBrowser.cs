@@ -58,14 +58,14 @@ public static partial class KarineUI {
  }
  public static void BrowserProgress(VisualElement parent,string title,string summary,float progress) {
   var box=new VisualElement();box.style.width=KarineTheme.CaseBrowser.ProgressWidth;box.style.flexShrink=0;
-  box.style.paddingLeft=KarineTheme.SpaceMd;box.style.paddingRight=KarineTheme.SpaceMd;box.style.paddingTop=KarineTheme.SpaceSm;
+  box.style.paddingLeft=KarineTheme.SpaceMd;box.style.paddingRight=KarineTheme.SpaceMd;box.style.paddingTop=KarineTheme.SpaceXs;
   box.style.backgroundColor=KarineTheme.GlassDeep;Border(box,KarineTheme.BorderWidth,KarineTheme.Panel2);parent.Add(box);
-  box.style.paddingBottom=KarineTheme.SpaceSm;Round(box,KarineTheme.Radius);
+  box.style.paddingBottom=KarineTheme.SpaceXs;Round(box,KarineTheme.Radius);
   var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;box.Add(top);
   Icon(top,IconOr(KarineTheme.CaseBrowser.MapIcon,"pin"),KarineTheme.Primary,KarineTheme.IconSize+KarineTheme.SpaceSm).style.marginRight=KarineTheme.SpaceSm;
   var words=new VisualElement();words.style.flexGrow=1;top.Add(words);
-  var heading=Technical(words,title,KarineTheme.CaseBrowser.SmallSize);heading.style.marginBottom=KarineTheme.SpaceXs;
-  var detail=Body_(words,summary,KarineTheme.CaseBrowser.TextSize);detail.style.color=KarineTheme.Primary;detail.style.marginBottom=KarineTheme.SpaceXs;
+  var heading=Technical(words,title,KarineTheme.CaseBrowser.SmallSize);heading.style.marginBottom=0;
+  var detail=Body_(words,summary,KarineTheme.CaseBrowser.TextSize);detail.style.color=KarineTheme.Primary;detail.style.marginBottom=0;
   var meter=new VisualElement();meter.style.flexDirection=FlexDirection.Row;meter.style.alignItems=Align.Center;box.Add(meter);
   var track=new VisualElement();track.style.flexGrow=1;meter.Add(track);BrowserMeter(track,progress);
   var pct=Technical(meter,Mathf.RoundToInt(Mathf.Clamp01(progress)*100)+"%",KarineTheme.CaseBrowser.SmallSize);pct.style.marginLeft=KarineTheme.SpaceSm;pct.style.marginBottom=0;

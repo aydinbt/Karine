@@ -185,7 +185,7 @@ public static class KarineTheme {
  public static class CaseBrowser {
   public const int SidebarWidth=218, LogoWidth=194, Portrait=100;
   public const int TitleSize=44, TextSize=15, SmallSize=12;
-  public const int CountryWidth=124, CountryHeight=150, NextButton=44;
+  public const int CountryWidth=124, CountryHeight=128, NextButton=44;
   public const int CardWidth=124, CardHeight=214, PhotoHeight=84, Badge=28, StepDot=20;
   public const int MainLeft=254, Top=48, Bottom=28;
   public const string MapIcon="map"; // simge gelene kadar pin'e düşer

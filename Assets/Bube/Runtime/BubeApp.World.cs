@@ -35,7 +35,7 @@ public sealed partial class BubeApp {
   int finishedWorlds=atlas.countries.Count(c=>c.slots.Count>0&&Worlds.CompletedIn(c,closed)==c.slots.Count);
   KarineUI.BrowserProgress(heading,T("world.browser.progress"),finishedWorlds+" / "+atlas.countries.Count+" "+T("world.browser.worlds")+" · "+completed+" / "+total+" "+T("world.cases"),total==0?0:(float)completed/total);
   var countries=new KarineScrollView(ScrollViewMode.Horizontal) {name="CountryStrip"};
-  countries.style.height=KarineTheme.CaseBrowser.CountryHeight+KarineTheme.SpaceXl;countries.style.flexShrink=0;
+  countries.style.height=KarineTheme.CaseBrowser.CountryHeight+KarineTheme.SpaceXs;countries.style.flexShrink=0;
   countries.horizontalScrollerVisibility=ScrollerVisibility.Hidden;
   countries.contentContainer.style.flexDirection=FlexDirection.Row;main.Add(countries);
   for(int i=0;i<atlas.countries.Count;i++) {
@@ -49,6 +49,9 @@ public sealed partial class BubeApp {
   var stripRow=KarineUI.Row(main);stripRow.style.flexShrink=0;stripRow.style.alignItems=Align.Center;main.Insert(main.IndexOf(countries),stripRow);
   // minWidth=0 olmadan şerit içeriği kadar genişleyip kutudan taşıyordu; ileri düğmesi de dışarıda kalıyordu.
   countries.style.flexGrow=1;countries.style.flexShrink=1;countries.style.minWidth=0;countries.style.overflow=Overflow.Hidden;stripRow.Add(countries);
+  // Geri düğmesi: şeridin başına dönmek için. Sona kadar kaydırmak zorunlu değil.
+  var prev=KarineUI.IconButton(stripRow,"nav_prev",()=>countries.scrollOffset=new Vector2(Mathf.Max(0,countries.scrollOffset.x-KarineTheme.CaseBrowser.CountryWidth-KarineTheme.SpaceSm),0),T("world.browser.prev"));
+  stripRow.Remove(prev);stripRow.Insert(0,prev);
   KarineUI.IconButton(stripRow,"nav_next",()=>countries.scrollOffset=new Vector2(countries.scrollOffset.x+KarineTheme.CaseBrowser.CountryWidth+KarineTheme.SpaceSm,0),T("world.browser.next"));
   var current=atlas.countries[worldPick];
   var board=KarineUI.Panel(main,true);board.name="CaseBoard";
