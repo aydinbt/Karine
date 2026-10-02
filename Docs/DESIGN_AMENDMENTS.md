@@ -973,3 +973,7 @@ Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120
 - Ödüllü görünüm yalnız masaya dokunur (lamba rengi); oynanışa, ipucuna, kaynağa hiçbir etkisi yoktur.
 - Ödüllü bekleme atlama yalnız 60 saniye ve üstü bekleyişte teklif edilir. Bugünkü bekleyişler kısa olduğundan görünmez. Bekleyişleri uzatmak bir tasarım kararıdır (zamanla kısıtlanan ilerleme) ve kullanıcıya sorulmadan yapılmaz.
 - Başta önerilen "faksı hemen al" düşürüldü: faks zaten 5–10 saniyede geliyor; atlatılacak bir bekleyiş yok.
+
+## 2 Ekim 2026 — Reklam ağı AdMob, banner yok
+
+**Kullanıcı:** "Banner yok reklam ağı ne varsa olur." Ağ olarak AdMob seçildi: herkese açık test kimlikleriyle hesap açılmadan denenebiliyor, AB izin formu (UMP) hazır. Banner hiçbir ekranda yok.

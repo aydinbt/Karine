@@ -457,3 +457,11 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Ödüllü bekleme atlama: yalnız kalan süre 60 saniye ve üstüyse. **Bugünkü bekleyişler 4–10 saniye; düğme görünmez.**
 - [ ] LevelPlay kurulumu (Unity Gaming Services oyun kimliği kullanıcıda).
 - [ ] Gizlilik politikası, Play "Data safety", yaş derecesi.
+
+## 2 Ekim 2026 — AdMob bağlandı (test kimlikleri)
+
+- [~] Google Mobile Ads 11.5.0 (OpenUPM) kuruldu; `Bube.Ads` derlemesi temiz, 121 EditMode + 23 PlayMode geçti.
+- [~] `AdMobProvider`: geçiş ve ödüllü reklam, Google UMP izin formu; yalnız mobil platformda devreye girer.
+- [ ] Cihazda test reklamının görünmesi (Android derlemesi).
+- [ ] Kullanıcının AdMob hesabı: gerçek uygulama ve reklam birimi kimlikleri.
+- [ ] Gizlilik politikası, Play "Data safety", AdMob'da UMP mesajının oluşturulması.

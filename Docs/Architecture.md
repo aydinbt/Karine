@@ -478,3 +478,10 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - `AdGateway`: `InterstitialGapSeconds` (240), `MinSkipSeconds` (60), `Now` (testte değiştirilebilir saat), `Seasoned` (her karede `reviewHistory.Count>0`), `MaySkipWait`, `ResetInterstitialClock`. Araya giren reklam `Request` içinde gösterilince saat kaydedilir.
 - Bağlantı: `BubeApp.Ads.cs` (`MenuReturnAd`, `LampOptions`, `SkipWait`). Teklif kabulü `Desk.cs`, menü `Menu.cs`, bekleme atlama görüşme talepleri ekranında.
 - PlayerPrefs: `karine.lamp.tint`, `karine.lamp.unlocked.<n>`. Renkler `KarineTheme.Scene.LampTints`.
+
+## AdMob (2 Ekim 2026)
+
+- Paket: `com.google.ads.mobile` 11.5.0, OpenUPM kapsamlı deposu (`Packages/manifest.json`).
+- `Assets/Bube/Ads/` ayrı derleme (`Bube.Ads` → `Bube.Runtime`). `AdMobProvider` mobilde `RuntimeInitializeOnLoad` ile `AdGateway.Provider`a takılır; Editor ve testlerde `NoAdProvider` kalır.
+- Akış: UMP `ConsentInformation.Update` → gerekirse form → `CanRequestAds` → `MobileAds.Initialize` → geçiş ve ödüllü reklam önceden yüklenir, gösterimden sonra yenisi yüklenir. Geri çağrılar `MainThread` kuyruğuyla ana döngüye taşınır. Oyunun kendi izin kuralı (`AdGateway.Consent`) ayrıca geçerlidir.
+- Kimlikler test: uygulama `Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset`, reklam birimleri `AdMobProvider.cs` başındaki iki sabit.
