@@ -48,7 +48,7 @@ public sealed partial class BubeApp {
   if(game.Closed(selected))DoorClosed(selected);
   if(game.Closed(selected))KarineUI.DossierText(body,locale.Has(selected.closedNoteKey)?T(selected.closedNoteKey):T("interview.goneNote"),KarineTheme.Requests.BodySize);
   if(game.CanRequest(selected))KarineUI.PaperButton(detail,T("interview.request"),()=>{
-   if(game.RequestInterview(selected.id)){audio?.Play("ui_dial");Save();InterviewRequests(false);}
+   if(game.RequestInterview(selected.id)){audioDirector?.Play("ui_dial");Save();InterviewRequests(false);}
   });
   else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
   else if(game.Pending(selected))SkipWait(detail,game.State.interviewRequests.First(r=>r.nodeId==selected.id),()=>InterviewRequests(false));

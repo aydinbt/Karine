@@ -54,7 +54,7 @@ public sealed partial class BubeApp {
   root.Add(dialogue);
   Text(dialogue,phase==1?T("interview.bora"):T(node.personNameKey).ToUpperInvariant(),Gold,15);
   var spoken=phase==1?T(active.promptKey):phase==2?T(answerKey):T(availableOptions.Length==0?"interview.noNewInfo":"interview.opening");
-  if(phase==2)audio?.Voice(answerKey);else audio?.StopVoice();
+  if(phase==2)audioDirector?.Voice(answerKey);else audioDirector?.StopVoice();
   var dialogueScroll=new KarineScrollView(ScrollViewMode.Vertical);
   dialogueScroll.style.position=Position.Absolute;
   dialogueScroll.style.left=18;dialogueScroll.style.right=12;

@@ -49,7 +49,7 @@ public sealed partial class BubeApp {
   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
   var frames=(game.Data.locationFrames ?? new string[0]).Select(p=>Resources.Load<Texture2D>(p)).Where(t=>t!=null).ToArray();
   root.schedule.Execute(()=>KarineUI.ChapterCard(root,ChapterTime(),ChapterPlace(),()=>
-   KarineUI.LocationReel(root,frames,()=>{audio?.Sting();KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null);}))).StartingIn(0);
+   KarineUI.LocationReel(root,frames,()=>{audioDirector?.Sting();KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null);}))).StartingIn(0);
  }
 
  // Kapanmış dosyalar rafı: masanın sol altında, her kapanan vaka için bir sırt.
@@ -142,7 +142,7 @@ public sealed partial class BubeApp {
    ("Geri sar",()=>KarineUI.Rewind(stage)),
    ("Kayma",()=>KarineUI.ChromaShake(root)),
    ("Altyazı",()=>KarineUI.Caption(root,T("caption.amb_phone"))),
-   ("Motif",()=>audio?.Sting()),
+   ("Motif",()=>audioDirector?.Sting()),
    ("Konum",PlaceRoom),
   }.Concat(PolishTests(stage)).ToArray();
   foreach(var test in tests){var b=KarineUI.Button_(grid,test.label,test.run,KarineButtonKind.Secondary);b.style.marginRight=6;b.style.marginBottom=6;}

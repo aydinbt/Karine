@@ -33,7 +33,7 @@ public sealed partial class BubeApp : MonoBehaviour {
  static BubeApp instance;
  Locale locale;
  CareerRules careerRules;
- AudioDirector audio;
+ AudioDirector audioDirector;
  // Android'de geri tuşu bir "geri" eylemidir. Karşılığı yoksa işletim sistemi
  // uygulamayı kapatır ve oyuncu bunu kazara yapar — soruşturmanın ortasında.
  // Her katman açıldığında geri tuşunun nereye gideceğini söyler.
@@ -178,10 +178,10 @@ public sealed partial class BubeApp : MonoBehaviour {
   SoundSettings.Load();
   FrameRate.Load();
   AdGateway.Load();
-  audio=AudioDirector.Attach(gameObject);
+  audioDirector=AudioDirector.Attach(gameObject);
   InstallFx();
   // Kit'in her düğmesi basıldığında ses ister; çalan tek yer burası.
-  KarineUI.Sound=id=>{ if(audio!=null)audio.Play(id); };
+  KarineUI.Sound=id=>{ if(audioDirector!=null)audioDirector.Play(id); };
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
   Typography.Load();KarineUI.AshSmoke=PlayerPrefs.GetInt(AshKey,0)==1;
   panel=ScriptableObject.CreateInstance<PanelSettings>();
@@ -248,13 +248,13 @@ public sealed partial class BubeApp : MonoBehaviour {
  // o müziğin altında durur. Ses dosyası yoksa sessizdir — ekranlar bunu
  // bilmek zorunda değil.
  void SetRoomSound(string sceneName) {
-  if(audio==null)return;
+  if(audioDirector==null)return;
   string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
   switch(sceneName) {
-   case "MainMenuScene": audio.PlayMusic("menu_theme"); audio.PlayAmbience(null); audio.Scatter(false); audio.Room("menu"); break;
+   case "MainMenuScene": audioDirector.PlayMusic("menu_theme"); audioDirector.PlayAmbience(null); audioDirector.Scatter(false); audioDirector.Room("menu"); break;
    // Görüşme odasında alçak bir gerilim katmanı çalar; yanıta göre değişmez.
-   case "InterviewScene": audio.PlayMusic("interview_theme"); audio.PlayAmbience("room_interview"); audio.Room("interview"); audio.Scatter(true); break;
-   default: audio.PlayMusic("desk_theme"); audio.PlayAmbience(caseAmbience); audio.Room("office"); audio.Scatter(true); break;
+   case "InterviewScene": audioDirector.PlayMusic("interview_theme"); audioDirector.PlayAmbience("room_interview"); audioDirector.Room("interview"); audioDirector.Scatter(true); break;
+   default: audioDirector.PlayMusic("desk_theme"); audioDirector.PlayAmbience(caseAmbience); audioDirector.Room("office"); audioDirector.Scatter(true); break;
   }
  }
 
@@ -436,9 +436,9 @@ public sealed partial class BubeApp : MonoBehaviour {
    length=Mathf.Min(line.Length,length+2);
    label.text=line.Substring(0,length);
    // Her karede değil: harf harf çalarsa gürültü olur.
-   if(audio!=null && ++tick%every==0)
+   if(audioDirector!=null && ++tick%every==0)
     // Perdedeki ve hece seçimindeki küçük oynama konuşmayı makineden ayırır.
-    audio.Play(sounds[UnityEngine.Random.Range(0,sounds.Length)],
+    audioDirector.Play(sounds[UnityEngine.Random.Range(0,sounds.Length)],
      pitch*(0.97f+0.06f*UnityEngine.Random.value),gain*(0.85f+0.3f*UnityEngine.Random.value));
    if(length>=line.Length)animation.Pause();
   }).Every(22);

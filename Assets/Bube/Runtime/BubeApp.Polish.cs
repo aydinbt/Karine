@@ -20,7 +20,7 @@ public sealed partial class BubeApp {
  void PolishTick() {
   AdGateway.Seasoned=game.Career.reviewHistory.Count>0;
   KarineUI.TouchFeel(root);
-  audio?.Duck(root.Q("DossierPaper")!=null);
+  audioDirector?.Duck(root.Q("DossierPaper")!=null);
   Reach();
  }
 

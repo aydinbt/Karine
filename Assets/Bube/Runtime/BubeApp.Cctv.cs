@@ -24,7 +24,7 @@ public sealed partial class BubeApp {
   cctvFrameTask?.Pause();cctvFrameTask=null;cctvFrames=null;cctvFrameImage=null;cctvFrameRec=null;
   if(cctvViewer!=null) {
    // Ekran kapanırken görüntü bir çizgiye, çizgi bir noktaya söner.
-   if(cctvViewer.parent!=null && cctvViewer.panel!=null){audio?.Play("ui_crt_off",1f,.6f);KarineUI.CrtOff(cctvViewer.parent);}
+   if(cctvViewer.parent!=null && cctvViewer.panel!=null){audioDirector?.Play("ui_crt_off",1f,.6f);KarineUI.CrtOff(cctvViewer.parent);}
    cctvViewer.RemoveFromHierarchy();cctvViewer=null;
   }
   cctvVideoStatus=null;
@@ -92,7 +92,7 @@ public sealed partial class BubeApp {
   videoFrame.Add(image);
   videoFrame.schedule.Execute(()=>{KarineUI.SignalSwitch(videoFrame);KarineUI.CrtOn(videoFrame);KarineUI.Glare(videoFrame);KarineUI.Cue("channel");TapeWear(videoFrame,node,record);}).StartingIn(0);
   cctvVideoFrame=videoFrame;cctvSpeed=1f;
-  audio?.Play("ui_crt_on",1f,.6f);
+  audioDirector?.Play("ui_crt_on",1f,.6f);
   KarineUI.VhsTrace(videoFrame,image);
   // Yaklaşmak oynatmayı durdurur; kare olduğu gibi kalır.
   KarineUI.Zoomable(videoFrame,image,()=>{
@@ -335,7 +335,7 @@ public sealed partial class BubeApp {
      // Sinyal satırı: görüntü karlanır, cızırtı duyulur, saat bir an karışır.
      // Bütün sinyal satırlarında aynı; satırın kendisi zaten cihaz durumudur.
      bool signal=!string.IsNullOrEmpty(record.signalKey);
-     if(signal){KarineUI.Snow(recordPanel,KarineTheme.Film.SnowSeconds);audio?.Play("ui_static",1f,.5f);}
+     if(signal){KarineUI.Snow(recordPanel,KarineTheme.Film.SnowSeconds);audioDirector?.Play("ui_static",1f,.5f);}
      content.schedule.Execute(()=>{
       write(current,finalText);
       if(signal)KarineUI.TimecodeSkip(stamps[current],stamps[current].text);

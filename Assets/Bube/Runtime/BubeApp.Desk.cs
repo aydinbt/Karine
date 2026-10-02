@@ -58,7 +58,7 @@ public sealed partial class BubeApp {
    keys.Add("fax:"+review.caseId+":"+review.readyAtUtcTicks);
   bool fresh=false;foreach(var key in keys)fresh|=presentedArrivals.Add(key);
   if(!fresh)return;
-  KarineUI.IncomingPaper(stage);audio?.Play(AudioDirector.Fax);
+  KarineUI.IncomingPaper(stage);audioDirector?.Play(AudioDirector.Fax);
   if(inboxBadge!=null)inboxBadge.style.opacity=1;
  }
  void AddFaxNotice() {

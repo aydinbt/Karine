@@ -50,7 +50,7 @@ public sealed partial class BubeApp {
   if(PlayerPrefs.GetInt(key,0)==1)return false;
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
-  audio?.Sting();
+  audioDirector?.Sting();
   KarineUI.FilmBurn(root,()=>KarineUI.CaseClosed(root,parts[0].Trim(),parts.Last().Trim(),T("case.closed"),()=>AfterClosing(again)));
   return true;
  }

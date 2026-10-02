@@ -30,7 +30,7 @@ public sealed partial class BubeApp {
   blocker.style.top=0;blocker.style.bottom=0;root.Add(blocker);
   root.Add(card);
   from.style.opacity=0;
-  audio?.Play(AudioDirector.Press,.8f,.9f);
+  audioDirector?.Play(AudioDirector.Press,.8f,.9f);
   float endX=root.layout.width*KarineTheme.Effects.SlideTargetX-width*.5f;
   float endY=root.layout.height*KarineTheme.Effects.SlideTargetY;
   KarineMotion.Run(card,KarineTheme.Effects.SlideSeconds,t=> {
@@ -96,8 +96,8 @@ public sealed partial class BubeApp {
    if(item is Label label && texts.TryGetValue(label,out var full)) {
     shown=Mathf.Min(full.Length,shown+KarineTheme.Effects.PrintChars);
     label.text=Unprinted(full,shown);
-    if(audio!=null && ++tick%KarineTheme.Effects.PrintSoundEvery==0)
-     audio.Play(AudioDirector.Typewriter,.9f+.1f*UnityEngine.Random.value,.55f);
+    if(audioDirector!=null && ++tick%KarineTheme.Effects.PrintSoundEvery==0)
+     audioDirector.Play(AudioDirector.Typewriter,.9f+.1f*UnityEngine.Random.value,.55f);
     if(shown>=full.Length){index++;shown=0;}
    } else {
     item.style.visibility=StyleKeyword.Null;index++;

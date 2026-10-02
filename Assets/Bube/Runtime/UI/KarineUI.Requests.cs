@@ -26,20 +26,22 @@ public static partial class KarineUI {
   detail.style.paddingLeft=KarineTheme.SpaceLg;detail.style.paddingRight=KarineTheme.SpaceLg;
   detail.style.paddingTop=KarineTheme.SpaceLg;detail.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(detail);
  }
+ // Simge ve sayaç üstte, yazı altta tam genişlikte: yan yana dar sütunda "GÖRÜŞME/LER" diye bölünüyordu.
  static void RequestTab(VisualElement rail,string icon,string title,int count,bool active,Action click) {
   var tab=Button_(rail,"",click,active?KarineButtonKind.Primary:KarineButtonKind.Secondary);
-  tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;tab.style.marginBottom=KarineTheme.SpaceSm;
-  tab.style.paddingLeft=KarineTheme.SpaceSm;tab.style.paddingRight=KarineTheme.SpaceSm;
+  tab.style.flexDirection=FlexDirection.Column;tab.style.alignItems=Align.Stretch;tab.style.marginBottom=KarineTheme.SpaceSm;
+  tab.style.paddingLeft=KarineTheme.SpaceSm;tab.style.paddingRight=KarineTheme.SpaceSm;tab.style.paddingTop=KarineTheme.SpaceSm;tab.style.paddingBottom=KarineTheme.SpaceSm;
   var ink=active?KarineTheme.Paper.Ink:KarineTheme.Primary;
-  Icon(tab,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceSm;
-  var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;label.style.flexGrow=1;label.style.flexShrink=1;
-  label.style.minWidth=0;label.style.whiteSpace=WhiteSpace.Normal;
+  var top=new VisualElement {pickingMode=PickingMode.Ignore};top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;top.style.justifyContent=Justify.SpaceBetween;top.style.marginBottom=KarineTheme.SpaceXs;tab.Add(top);
+  Icon(top,icon,ink,KarineTheme.IconSize);
   if(count>0) {
-   var badge=Body_(tab,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;
+   var badge=Body_(top,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;
    badge.style.color=KarineTheme.Primary;badge.style.backgroundColor=KarineTheme.Danger;badge.style.marginBottom=0;
    badge.style.minWidth=KarineTheme.Requests.Badge;badge.style.height=KarineTheme.Requests.Badge;badge.style.unityTextAlign=TextAnchor.MiddleCenter;
    Round(badge,KarineTheme.Radius);
   }
+  var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;
+  label.style.whiteSpace=WhiteSpace.NoWrap;label.style.unityTextAlign=TextAnchor.MiddleLeft;
  }
  public static Button RequestItem(VisualElement list,Texture2D portrait,string title,string info,bool selected,Action click,string status=null,bool fresh=false,string quote=null) {
   var button=Button_(list,"",click,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);

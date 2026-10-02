@@ -12,7 +12,7 @@ public sealed partial class BubeApp {
 
  void InstallFx() {
   Fx.Load();
-  KarineUI.SoundAt=(id,pan,gain)=>audio?.PlayAt(id,pan,gain,id.StartsWith("amb_"));
+  KarineUI.SoundAt=(id,pan,gain)=>audioDirector?.PlayAt(id,pan,gain,id.StartsWith("amb_"));
  }
 
  // Film katmanı her ekranın üstünde durur. Ekranlar kökü temizler; katman
@@ -48,7 +48,7 @@ public sealed partial class BubeApp {
    var button=stage.Q<Button>(entry.button);if(button==null)continue;
    string sound=entry.sound;float pan=KarineUI.PanOf(PropBox(entry.prop));
    string prop=entry.prop;
-   button.RegisterCallback<PointerDownEvent>(_=>{audio?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;if(prop=="Phone")KarineUI.CordSwing();},TrickleDown.TrickleDown);
+   button.RegisterCallback<PointerDownEvent>(_=>{audioDirector?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;if(prop=="Phone")KarineUI.CordSwing();},TrickleDown.TrickleDown);
   }
  }
 

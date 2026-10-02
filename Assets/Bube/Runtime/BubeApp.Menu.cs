@@ -152,7 +152,7 @@ public sealed partial class BubeApp {
   card=scroll.contentContainer;
   card.style.flexGrow=1;
  }
- void ApplySound() { if(audio!=null)audio.ApplyLevels(); }
+ void ApplySound() { if(audioDirector!=null)audioDirector.ApplyLevels(); }
 
  // Onay ekranı reklamdan **önce** gelir; onay yoksa hiçbir reklam gösterilmez
  // ve oyunun hiçbir bölümü kapanmaz. Kit'in modalı yıkıcı değil, bu bir tercih.

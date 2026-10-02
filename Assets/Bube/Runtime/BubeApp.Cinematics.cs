@@ -306,7 +306,7 @@ public sealed partial class BubeApp {
    float slide=Mathf.SmoothStep(0,1,Mathf.Clamp01((elapsed-.45f)/1.2f));
    folder.style.top=Length.Percent(Mathf.Lerp(-35,48,slide));
    if(!landed && slide>=1) {
-    landed=true;audio?.PlayAt("ui_folder",0,.9f);Fx.Buzz(Haptic.Thud);
+    landed=true;audioDirector?.PlayAt("ui_folder",0,.9f);Fx.Buzz(Haptic.Thud);
     if(Fx.On)Typewriter(label,title);
    }
    yield return null;
