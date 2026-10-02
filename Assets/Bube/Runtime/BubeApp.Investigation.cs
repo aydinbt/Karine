@@ -17,6 +17,9 @@ public sealed partial class BubeApp {
   var screen=content.parent;
   foreach(var child in screen.Children().Where(c=>c!=content).ToArray())child.RemoveFromHierarchy();
   KarineUI.DossierHeader(root,T("back.desk"),T(game.Data.titleKey),Desk);
+  var tablet=screen.parent;float bar=KarineTheme.Requests.HeaderClearance;
+  tablet.style.top=Length.Percent(bar);tablet.style.left=Length.Percent(bar/2);
+  tablet.style.width=Length.Percent(100-bar);tablet.style.height=Length.Percent(100-bar);
  }
  string selectedRequestPerson,selectedRequestDocument;
  void InterviewRequests(bool lift=true) {

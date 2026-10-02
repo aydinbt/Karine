@@ -26,10 +26,11 @@ public static partial class KarineUI {
  static void RequestTab(VisualElement rail,string icon,string title,int count,bool active,Action click) {
   var tab=Button_(rail,"",click,active?KarineButtonKind.Primary:KarineButtonKind.Secondary);
   tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;tab.style.marginBottom=KarineTheme.SpaceSm;
-  tab.style.paddingLeft=KarineTheme.SpaceMd;tab.style.paddingRight=KarineTheme.SpaceSm;
+  tab.style.paddingLeft=KarineTheme.SpaceSm;tab.style.paddingRight=KarineTheme.SpaceSm;
   var ink=active?KarineTheme.Paper.Ink:KarineTheme.Primary;
   Icon(tab,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceSm;
-  var label=Body_(tab,title,KarineTheme.Requests.BodySize);label.style.color=ink;label.style.marginBottom=0;label.style.flexGrow=1;label.style.flexShrink=1;
+  var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;label.style.flexGrow=1;label.style.flexShrink=1;
+  label.style.whiteSpace=WhiteSpace.NoWrap;label.style.overflow=Overflow.Hidden;label.style.textOverflow=TextOverflow.Ellipsis;
   if(count>0) {
    var badge=Body_(tab,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;
    badge.style.color=KarineTheme.Primary;badge.style.backgroundColor=KarineTheme.Danger;badge.style.marginBottom=0;
@@ -43,10 +44,10 @@ public static partial class KarineUI {
   button.style.marginBottom=KarineTheme.SpaceSm;button.style.paddingLeft=KarineTheme.SpaceSm;button.style.paddingRight=KarineTheme.SpaceSm;
   if(portrait!=null) {var photo=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop};photo.style.width=KarineTheme.Requests.Portrait;photo.style.height=KarineTheme.Requests.Portrait;photo.style.flexShrink=0;photo.style.marginRight=KarineTheme.SpaceMd;button.Add(photo);}
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;words.style.unityTextAlign=TextAnchor.MiddleLeft;button.Add(words);
-  var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;words.Add(head);
-  var name=Subtitle(head,title,KarineTheme.Requests.BodySize+2);name.style.color=selected?KarineTheme.Paper.Ink:KarineTheme.Primary;name.style.marginBottom=0;name.style.flexGrow=1;name.style.flexShrink=1;
+  var name=Subtitle(words,title,KarineTheme.Requests.BodySize+2);name.style.color=selected?KarineTheme.Paper.Ink:KarineTheme.Primary;name.style.marginBottom=0;
   var faded=selected?KarineTheme.Paper.Faded:KarineTheme.Secondary;
   if(!string.IsNullOrEmpty(status)) {
+   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;words.Add(head);
    if(fresh){var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.width=KarineTheme.SpaceSm+2;dot.style.height=KarineTheme.SpaceSm+2;dot.style.backgroundColor=KarineTheme.Danger;Round(dot,KarineTheme.SpaceSm);dot.style.marginRight=KarineTheme.SpaceXs;head.Add(dot);}
    var chip=Body_(head,status.TrimStart('●',' '),KarineTheme.Dossier.MetaSize);chip.style.color=faded;chip.style.marginBottom=0;
   }

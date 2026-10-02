@@ -132,7 +132,9 @@ public static class KarineTheme {
  }
  public static class Requests {
   public const int Portrait=76, DetailPortrait=118, RowHeight=104, TitleSize=21, BodySize=15, Badge=24, Chevron=18;
-  public const float RailWidth=20, ListWidth=45, DetailWidth=35;
+  // Talep tableti üst çubuğun (yüzde 11) altına iner; genişlik de aynı oranda küçülür ki görsel bozulmasın.
+  public const float HeaderClearance=11;
+  public const float RailWidth=21, ListWidth=46, DetailWidth=33;
  }
  public static class Inbox {
   public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;
