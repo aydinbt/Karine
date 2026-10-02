@@ -884,3 +884,7 @@ Masa artık boş plaka (`Art/OfficeDesk.png`) + altı ayrı eşya kesiti (`Art/D
 ## 2 Ekim 2026 — Tam masa görseline dönüş, ışıkla tıklama hissi
 
 Kullanıcı kararı: ayrı kesitler gerçekçi durmadı (lamba bardağın üstünde vb.). Masa yine ilk tam görsel. Tıklama hissi geometriyle değil ışıkla: basınca eşyanın üstüne yumuşak sıcak bir ışık lekesi 0,12 sn içinde düşer, bırakınca 0,45 sn içinde söner. Her eşyada aynı. Kesitler `Docs/desk_props/` altında saklı, oyunda kullanılmıyor.
+
+## 2 Ekim 2026 — Ayarlar yeni görünüm
+
+Referansa göre: simgeli bölüm başlığı + açıklama, radyo daireli seçenek kartları (sağda simge ya da ses çubukları, 4 çubuk = seviye), alt çubukta simgeli "Varsayılanlara Dön" ve birincil "Kaydet". Referanstaki "Görüntü" sekmesi eklenmedi: oyunda ekran ayarı yok, boş sekme olurdu. Eksik simgeler (chat, music, gamepad, refresh, check) gelene kadar mevcut simgelere düşer (`KarineUI.IconOr`).

@@ -34,7 +34,7 @@ public static class KarineTheme {
  }
 
  public static class Settings {
-  public const int SideWidth=210, TabHeight=84, ChoiceHeight=74, HeadingSize=26, TextSize=17;
+  public const int SideWidth=210, TabHeight=84, ChoiceHeight=74, HeadingSize=26, TextSize=17, SectionIcon=34, Radio=24, ActionWidth=240;
   public const int Inset=14, Top=12, Bottom=6, NarrowInset=4;
  }
 
