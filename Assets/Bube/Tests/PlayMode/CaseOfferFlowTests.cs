@@ -89,7 +89,7 @@ public sealed class CaseOfferFlowTests {
   for(int frame=0;frame<8;frame++)yield return null;
   Assert.IsNotNull(Root.Q("OfficeWindow-tr"));
   foreach(var name in new[]{"BlankCaseFolder","CctvMonitor","InboxTray","DeskPhone","EvidencePile"})
-   Assert.IsNotNull(Root.Q(name),"Prop marker missing: "+name);
+   Assert.IsNotNull(Root.Q<Image>(name)?.image,"Separate prop missing: "+name);
   foreach(var name in new[]{"DeskInbox","DeskFile","DeskInterviews","DeskTerminal","DeskEvidence"}) {
    var button=Root.Q<Button>(name);Assert.IsNotNull(button);
    Assert.GreaterOrEqual(button.layout.height,KarineTheme.TouchTarget);

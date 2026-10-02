@@ -171,12 +171,12 @@ public static class KarineTheme {
   // Coordinates in the reusable room plate; all props share the same stage.
   public static readonly Rect Window=new Rect(30.3f,7.8f,39.3f,35.9f);
   public static readonly Rect Board=new Rect(65,14,27,28);
-  public static readonly Rect Lamp=new Rect(2,22,24,43);
-  public static readonly Rect Inbox=new Rect(8,56,21,27);
-  public static readonly Rect Phone=new Rect(28,57,17,25);
-  public static readonly Rect Folder=new Rect(32,66,29,26);
-  public static readonly Rect Monitor=new Rect(62,41,28,32);
-  public static readonly Rect Evidence=new Rect(73,74,26,20);
+  public static readonly Rect Lamp=new Rect(1.79f,15.73f,25.72f,43.78f);
+  public static readonly Rect Inbox=new Rect(8.97f,52.07f,19.74f,14.67f);
+  public static readonly Rect Phone=new Rect(29.43f,48.67f,14.65f,16.37f);
+  public static readonly Rect Folder=new Rect(33.49f,56.11f,25.72f,27.84f);
+  public static readonly Rect Monitor=new Rect(62.8f,35.6f,25.72f,31.14f);
+  public static readonly Rect Evidence=new Rect(70.87f,59.62f,28.11f,29.12f);
   public static readonly Rect InboxLabel=new Rect(9.4f,51.3f,15.2f,6.7f);
   public static readonly Rect PhoneLabel=new Rect(30.3f,51.3f,15.4f,6.4f);
   public static readonly Rect FolderLabel=new Rect(40.6f,73.4f,15.1f,6.6f);

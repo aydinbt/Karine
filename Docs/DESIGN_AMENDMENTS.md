@@ -876,3 +876,7 @@ Masa etiketlerinin konumu/boyutu referans görselden ölçülerek birebir alınd
 ## 2 Ekim 2026 — Tek parça masa plakası
 
 Masa artık kullanıcının verdiği tek görsel (`Art/OfficeDesk.png`, 1672×941, yazısız). Oda plakası + nesne atlası + ülke penceresi katmanları kaldırıldı; eşya adları boş işaretçi olarak kalıyor (katman ve test düzeni bozulmasın diye). Bedeli: (1) basılan eşyanın masadan kalkma efekti artık görünmez, (2) pencere her ülkede aynı genel şehir manzarası. İkisi de geri istenirse eşya kesitleri (saydam PNG) ve ülke başına pencere görseli gerekir. Eski `OfficeRoomV2`/`OfficeProps` dünya seçici arka planında hâlâ kullanıldığı için silinmedi.
+
+## 2 Ekim 2026 — Boş masa + eşya kesitleri
+
+Masa artık boş plaka (`Art/OfficeDesk.png`) + altı ayrı eşya kesiti (`Art/Desk/`: lamba, tepsi, telefon, dosya, tablet, evrak yığını). Kalkma efekti yerine tıklama hissi: basınca eşya 0,07 sn içinde hafifçe gömülür ve kararır, bırakınca küçük bir sekmeyle oturur. Lamba da ayrı katman ama düğmesi yok, tepki vermez. Konumlar görselde birleştirilerek seçildi (`Docs/desk_props/preview.jpg`).

@@ -36,22 +36,23 @@ public static partial class KarineUI {
   parent.RegisterCallback(resize);
   stage.RegisterCallback<DetachFromPanelEvent>(_=>parent.UnregisterCallback(resize));
   fit();
-  // Tek parça masa plakası (2 Ekim 2026): eşyalar ve pencere resmin içinde. Eşya adları
-  // dokunma/katman düzeni için boş işaretçi olarak kalır; görünür bir şey çizmezler.
+  // Boş masa plakası + ayrı eşya kesitleri (2 Ekim 2026). Pencere manzarası plakanın içinde.
   var room=new Image {name="OfficeRoom",image=Resources.Load<Texture2D>("Bube/Art/OfficeDesk"),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
   OfficePlace(room,new Rect(0,0,100,100));stage.Add(room);
   var window=new VisualElement {name="OfficeWindow-"+country,pickingMode=PickingMode.Ignore};
   OfficePlace(window,KarineTheme.Office.Window);stage.Add(window);
-  OfficeProp(stage,KarineTheme.Office.Lamp,"DeskLamp");
-  OfficeProp(stage,KarineTheme.Office.Inbox,"InboxTray");
-  OfficeProp(stage,KarineTheme.Office.Phone,"DeskPhone");
-  OfficeProp(stage,KarineTheme.Office.Folder,"BlankCaseFolder");
-  OfficeProp(stage,KarineTheme.Office.Monitor,"CctvMonitor");
-  OfficeProp(stage,KarineTheme.Office.Evidence,"EvidencePile");
+  OfficeProp(stage,KarineTheme.Office.Lamp,"DeskLamp","lamp");
+  OfficeProp(stage,KarineTheme.Office.Inbox,"InboxTray","inbox");
+  OfficeProp(stage,KarineTheme.Office.Phone,"DeskPhone","phone");
+  OfficeProp(stage,KarineTheme.Office.Folder,"BlankCaseFolder","folder");
+  OfficeProp(stage,KarineTheme.Office.Monitor,"CctvMonitor","tablet");
+  OfficeProp(stage,KarineTheme.Office.Evidence,"EvidencePile","evidence");
   return stage;
  }
- static void OfficeProp(VisualElement stage,Rect box,string name) {
-  var marker=new VisualElement {name=name,pickingMode=PickingMode.Ignore};OfficePlace(marker,box);stage.Add(marker);
+ // Boş masa plakasının üstüne konan ayrı eşya kesiti; dokununca tıklama hissi buna uygulanır.
+ static void OfficeProp(VisualElement stage,Rect box,string name,string art) {
+  var image=new Image {name=name,image=Resources.Load<Texture2D>("Bube/Art/Desk/"+art),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+  OfficePlace(image,box);stage.Add(image);
  }
  public static Button OfficeAction(VisualElement stage,string name,string icon,string label,Rect box,Action action) {
   var button=new Button(Sounded(action)) {name=name,tooltip=label};
