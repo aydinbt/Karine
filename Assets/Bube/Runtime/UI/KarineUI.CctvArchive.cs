@@ -12,7 +12,7 @@ public static partial class KarineUI {
   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;head.style.marginBottom=KarineTheme.SpaceMd;side.Add(head);
   Icon(head,"binoculars",KarineTheme.Primary,KarineTheme.IconSize+KarineTheme.SpaceSm).style.marginRight=KarineTheme.SpaceSm;
   var words=new VisualElement();words.style.flexShrink=1;head.Add(words);
-  Subtitle(words,title.ToUpperInvariant(),KarineTheme.CctvArchive.TitleSize).style.marginBottom=0;
+  Subtitle(words,title.ToUpper(new System.Globalization.CultureInfo("tr-TR")),KarineTheme.CctvArchive.TitleSize).style.marginBottom=0;
   if(!string.IsNullOrEmpty(hint)){var h=Body_(words,hint,KarineTheme.CctvArchive.MetaSize-2);h.style.color=KarineTheme.Secondary;h.style.marginBottom=0;}
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;side.Add(scroll);cameras=scroll;
   var main=new VisualElement {name="CctvArchiveRecords"};main.style.flexGrow=1;main.style.minWidth=0;
@@ -23,10 +23,14 @@ public static partial class KarineUI {
   var button=Button_(list,"",click,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);
   button.style.flexDirection=FlexDirection.Row;button.style.alignItems=Align.Center;button.style.minHeight=KarineTheme.CctvArchive.CameraRow;
   button.style.marginBottom=KarineTheme.SpaceSm;button.style.paddingLeft=KarineTheme.SpaceSm;button.style.paddingRight=KarineTheme.SpaceSm;
-  var ink=selected?KarineTheme.Paper.Ink:KarineTheme.Primary;var faded=selected?KarineTheme.Paper.Faded:KarineTheme.Secondary;
+  // Kâğıt dokulu kart yerine düz cam: seçili kart biraz açık zemin ve turkuaz sol kenar.
+  Unskin(button,selected?KarineTheme.GlassLift:KarineTheme.GlassDeep);Round(button,KarineTheme.Radius);
+  Border(button,1,selected?KarineTheme.Active:KarineTheme.Alpha(KarineTheme.Secondary,.25f));
+  button.style.borderLeftWidth=KarineTheme.PrimaryEdgeWidth;
+  var ink=KarineTheme.Primary;var faded=KarineTheme.Secondary;
   var tile=new VisualElement {pickingMode=PickingMode.Ignore};tile.style.width=KarineTheme.CctvArchive.CameraTile;tile.style.height=KarineTheme.CctvArchive.CameraTile;
   tile.style.flexShrink=0;tile.style.alignItems=Align.Center;tile.style.justifyContent=Justify.Center;tile.style.marginRight=KarineTheme.SpaceMd;
-  tile.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,selected?.12f:.8f);Border(tile,KarineTheme.BorderWidth,selected?KarineTheme.Paper.Edge:KarineTheme.GlassLift);Round(tile,KarineTheme.Radius);
+  tile.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.8f);Border(tile,KarineTheme.BorderWidth,KarineTheme.Alpha(KarineTheme.Secondary,.25f));Round(tile,KarineTheme.Radius);
   button.Add(tile);Icon(tile,Resources.Load<Texture2D>("Bube/Art/Icons/"+KarineTheme.CctvArchive.CameraIcon)!=null?KarineTheme.CctvArchive.CameraIcon:"binoculars",ink,KarineTheme.IconSize+KarineTheme.SpaceSm);
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;button.Add(words);
   var name=Subtitle(words,title,KarineTheme.CctvArchive.TextSize);name.style.color=ink;name.style.marginBottom=0;
@@ -47,10 +51,15 @@ public static partial class KarineUI {
   row.style.alignItems=Align.Center;row.style.minHeight=KarineTheme.CctvArchive.RowHeight;
   row.style.paddingLeft=KarineTheme.SpaceXs;row.style.paddingRight=KarineTheme.SpaceSm;parent.Add(row);return row;
  }
+ // Döküm satırındaki küçük düğme (izle, netleştir): dokulu düğme yerine düz cam, turkuaz kenar.
+ public static void CctvChip(Button button) {
+  Unskin(button,KarineTheme.GlassLift);Border(button,1,KarineTheme.Active);Round(button,KarineTheme.Radius);
+  button.style.color=KarineTheme.Primary;button.style.marginLeft=KarineTheme.SpaceSm;
+ }
  // Döküm satırını saat ve metin olarak ayırır: "08.27 — metin" ya da ayrı saat anahtarı.
  public static void SplitCctvLine(string text,string time,out string stamp,out string body) {
   stamp=time??string.Empty;body=text??string.Empty;
-  if(stamp.Length>0)return;
+  if(stamp.Length>0){if(body.StartsWith(stamp+" — ",StringComparison.Ordinal))body=body.Substring(stamp.Length+3);return;}
   int dash=body.IndexOf(" — ",StringComparison.Ordinal);
   if(dash>0 && dash<=13){stamp=body.Substring(0,dash);body=body.Substring(dash+3);}
  }

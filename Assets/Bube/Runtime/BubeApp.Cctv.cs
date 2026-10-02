@@ -294,7 +294,7 @@ public sealed partial class BubeApp {
    watch.tooltip=T("cctv.watch");
    watch.style.minWidth=88;watch.style.height=MinimumTouchTarget;
    watch.style.marginRight=0;watch.style.marginBottom=0;
-   watch.style.fontSize=Typography.Snap(15);
+   watch.style.fontSize=Typography.Snap(15);KarineUI.CctvChip(watch);
   };
   var controls=new VisualElement();content.Add(controls);
   if(!string.IsNullOrEmpty(focusEventId) && game.State.read.Contains(node.id)) {
@@ -352,7 +352,7 @@ public sealed partial class BubeApp {
        clarify.style.width=KarineTheme.IconButtonSize;clarify.style.height=KarineTheme.IconButtonSize;
        clarify.style.paddingLeft=0;clarify.style.paddingRight=0;
        clarify.style.marginRight=0;clarify.style.marginBottom=0;
-       clarify.style.fontSize=Typography.Snap(25);
+       clarify.style.fontSize=Typography.Snap(22);KarineUI.CctvChip(clarify);
       }
       next();
      }).ExecuteLater(110+current%3*70);
