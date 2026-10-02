@@ -24,18 +24,21 @@ public sealed partial class BubeApp {
   VisualElement content;BpsTablet("tablet.interviews",out content,lift);RequestScreenHeader(content);showingInterviewList=true;
   VisualElement list,detail;
   KarineUI.RequestLayout(content,T("tablet.tab.interviews"),T("tablet.tab.investigations"),true,
-   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail);
+   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail,
+   T("tablet.interviews"),T("tablet.interviewHint"),InterviewBadgeCount(),InvestigationBadgeCount());
   var groups=game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).ToArray();
   var nodes=groups.Select(g=>g.FirstOrDefault(n=>!game.State.read.Contains(n.id))??g.Last()).ToArray();
   var selected=nodes.FirstOrDefault(n=>n.personId==selectedRequestPerson)??nodes.FirstOrDefault();
   if(selected==null){detail.style.display=DisplayStyle.None;Text(list,T("desk.none"),Muted,KarineTheme.Requests.BodySize);return;}
   foreach(var node in nodes) {
    var target=node;
+   var rowStatus=InterviewStatusKey(node);
+   var said=groups.First(g=>g.Key==node.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
    KarineUI.RequestItem(list,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),T(node.personNameKey),T(node.personInfoKey),node==selected,
-    ()=>{selectedRequestPerson=target.personId;InterviewRequests(false);});
+    ()=>{selectedRequestPerson=target.personId;InterviewRequests(false);},
+    T(rowStatus),rowStatus=="interview.status.ready",said==null?null:"“"+T(said.personQuoteKey)+"”");
   }
-  string statusKey=game.CanRequest(selected)?"interview.status.unrequested":game.Pending(selected)?"interview.pending":game.State.read.Contains(selected.id)?
-   ((selected.questions??new Question[0]).Any(q=>game.CanAskQuestion(selected,q))?"interview.status.followup":"interview.status.complete"):"interview.status.ready";
+  string statusKey=InterviewStatusKey(selected);
   var body=KarineUI.RequestDetail(detail,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey));
   var quoted=groups.First(g=>g.Key==selected.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
   KarineUI.DossierText(body,quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"),KarineTheme.Requests.BodySize);
@@ -44,12 +47,20 @@ public sealed partial class BubeApp {
   });
   else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
  }
+ string InterviewStatusKey(Node node) =>
+  game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?
+   ((node.questions??new Question[0]).Any(q=>game.CanAskQuestion(node,q))?"interview.status.followup":"interview.status.complete"):"interview.status.ready";
+ // Sekme sayacı yalnız oyuncunun zaten gördüğü durumları sayar: görüşmeye hazır kişi, dosyaya alınmamış gelen rapor.
+ int InterviewBadgeCount() => game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId)
+  .Count(g=>g.Any(n=>game.Available(n)&&!game.State.read.Contains(n.id)));
+ int InvestigationBadgeCount() => game.Data.nodes.Count(n=>n.kind=="document"&&n.requestable&&game.IncomingDocument(n)&&!game.State.read.Contains(n.id));
  void InvestigationRequests(bool lift=true) {
   lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);
   VisualElement content;BpsTablet("tablet.investigations",out content,lift);RequestScreenHeader(content);showingInvestigationRequests=true;
   VisualElement list,detail;
   KarineUI.RequestLayout(content,T("tablet.tab.interviews"),T("tablet.tab.investigations"),false,
-   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail);
+   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail,
+   T("tablet.investigations"),T("tablet.investigationHint"),InterviewBadgeCount(),InvestigationBadgeCount());
   var documents=game.Data.nodes.Where(n=>n.kind=="document"&&n.requestable&&(game.Discovered(n)||game.State.documentRequests.Any(r=>r.nodeId==n.id))).ToArray();
   var selected=documents.FirstOrDefault(n=>n.id==selectedRequestDocument)??documents.FirstOrDefault();
   if(selected==null){detail.style.display=DisplayStyle.None;Text(list,T("tablet.noInvestigations"),Muted,KarineTheme.Requests.BodySize);return;}
@@ -57,7 +68,8 @@ public sealed partial class BubeApp {
    var target=node;
    bool filed=game.State.read.Contains(node.id),arrived=game.IncomingDocument(node),requested=game.State.documentRequests.Any(r=>r.nodeId==node.id);
    string status=filed?"tablet.investigationFiled":arrived?"tablet.investigationArrived":requested?"tablet.investigationPending":"tablet.investigationAvailable";
-   KarineUI.RequestItem(list,null,T(node.titleKey),T(status),node==selected,()=>{selectedRequestDocument=target.id;InvestigationRequests(false);});
+   KarineUI.RequestItem(list,null,T(node.titleKey),T(status),node==selected,()=>{selectedRequestDocument=target.id;InvestigationRequests(false);},
+    null,arrived&&!filed);
    if(node==selected)KarineUI.RequestDetail(detail,null,T(node.titleKey),T("tablet.investigationHelp"),T(status));
   }
   if(game.CanRequestDocument(selected))KarineUI.PaperButton(detail,T(selected.requestLabelKey),()=>{

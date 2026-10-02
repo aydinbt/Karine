@@ -131,7 +131,7 @@ public static class KarineTheme {
   public const float SidebarWidth=27;
  }
  public static class Requests {
-  public const int Portrait=68, DetailPortrait=96, RowHeight=104, TitleSize=21, BodySize=15;
+  public const int Portrait=76, DetailPortrait=118, RowHeight=104, TitleSize=21, BodySize=15, Badge=24, Chevron=18;
   public const float RailWidth=20, ListWidth=45, DetailWidth=35;
  }
  public static class Inbox {

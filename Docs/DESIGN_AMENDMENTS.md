@@ -848,3 +848,7 @@ Gece ofisi sahnesi, karton dosya üstünde eskimiş kâğıt, sekmeler kâğıt 
 ## 2 Ekim 2026 — Dosya #001 "İlgili Eşyalar"
 
 Rapor düğümü `relatedItems` (ad, ayrıntı, fotoğraf) alır; dosya ekranında ilgili kişilerin altında fotoğraflı küçük kartlar olarak görünür, tıklanamaz. Yalnız raporun metninde geçen eşyalar ve bilgiler konur (dizüstü S/N LQ7B-024861, kol saati, nakit para "miktar belirsiz"); rapor metninde olmayan ayrıntı (renk, marka) eklenmez. Para fotoğrafında gerçek banknot okunmaz. Doğrulayıcı eşya metinlerini ve görsellerini denetler.
+
+## 2 Ekim 2026 — Tablet talep ekranı yeni görünümde
+
+BDS rayı altında "GÖRÜŞME/İNCELEME TALEPLERİ" alt başlığı ve simgeli, sayaçlı iki sekme. Sayaç yalnız oyuncunun zaten gördüğü durumları sayar (görüşmeye hazır kişi, dosyaya alınmamış gelen rapor). Liste satırı: portre, ad, durum (görüşmeye hazırsa kırmızı nokta), bilgi, dosyada zaten olan alıntı ve seçim oku. Ayrıntı kartı kâğıt dokulu; portre solda, ad/bilgi/durum sağda. Referanstaki yaş/meslek/ikamet alanları ve durum süzgeci veride olmadığı için eklenmedi; satırdaki alıntı yalnız okunmuş ifadeden gelir.
