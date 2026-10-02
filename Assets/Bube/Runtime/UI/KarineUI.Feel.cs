@@ -27,6 +27,7 @@ public static partial class KarineUI {
   },TrickleDown.TrickleDown);
   root.RegisterCallback<PointerUpEvent>(e=>Press(e.target as VisualElement,false),TrickleDown.TrickleDown);
   root.RegisterCallback<PointerCancelEvent>(e=>Press(e.target as VisualElement,false),TrickleDown.TrickleDown);
+  root.RegisterCallback<PointerMoveEvent>(e=>{if(pressed!=null && ((Vector2)e.deltaPosition).sqrMagnitude>4)Press(null,false);},TrickleDown.TrickleDown);
  }
  static VisualElement pressed;
  // Son basılan düğmenin ekrandaki yeri: kart → sayfa geçişi buradan büyür.

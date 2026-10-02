@@ -29,7 +29,7 @@ public sealed partial class BubeApp {
    var tab=KarineUI.SettingsChoice(navigation,T("settings.tab."+tabs[i]),T("settings.tab."+tabs[i]+".hint"),settingsTab==i,()=>{settingsTab=index;RenderSettings();},icons[i]);
    tab.style.flexGrow=0;tab.style.flexBasis=StyleKeyword.Auto;tab.style.minHeight=KarineTheme.Settings.TabHeight;tab.style.marginBottom=KarineTheme.SpaceMd;
   }
-  var header=KarineUI.Row(body);KarineUI.Icon(header,"gear",KarineTheme.Primary,KarineTheme.TouchTarget);
+  var header=KarineUI.Row(body);header.style.flexShrink=0;KarineUI.Icon(header,"gear",KarineTheme.Primary,KarineTheme.TouchTarget);
   var headings=new VisualElement();headings.style.flexGrow=1;headings.style.marginLeft=KarineTheme.SpaceLg;header.Add(headings);
   KarineUI.Title(headings,T("menu.settings"),KarineTheme.Settings.HeadingSize).style.marginBottom=0;
   var sub=KarineUI.Body_(headings,T("settings.subtitle"),KarineTheme.CaseBrowser.TextSize);sub.style.color=KarineTheme.Secondary;
@@ -61,7 +61,9 @@ public sealed partial class BubeApp {
    Button(scroll,T("settings.ads.change"),AskForAdConsent);
    KarineUI.Rule(scroll);Button(scroll,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
   }
-  KarineUI.Rule(body);var footer=KarineUI.Row(body);footer.style.justifyContent=Justify.SpaceBetween;
+  KarineUI.Rule(body);var footer=KarineUI.Row(body);footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;
+  // Kaydırma alanı üst ve alt şeridin altına taşmaz.
+  scroll.contentViewport.style.overflow=Overflow.Hidden;scroll.style.overflow=Overflow.Hidden;
   KarineUI.SettingsAction(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;draftFx=FxLevel.Full;draftHaptics=true;ResetSceneDraft();RenderSettings();});
   KarineUI.SettingsAction(footer,KarineUI.IconOr("check","nav_next"),T("settings.save"),T("settings.save.hint"),true,()=>{
    PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);

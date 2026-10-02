@@ -11,9 +11,8 @@ public sealed class KarineScrollView : ScrollView {
  public KarineScrollView(ScrollViewMode mode = ScrollViewMode.Vertical) : base(mode) {
   horizontalScrollerVisibility = ScrollerVisibility.Hidden;
   verticalScrollerVisibility = ScrollerVisibility.Hidden;
-  // Liste sonunda hafif lastik etkisi; bırakınca yerine oturur.
-  touchScrollBehavior = TouchScrollBehavior.Elastic;
-  elasticity = .12f;
+  // Lastik etkisi kapalı: kısa listelerde ve hızlı kaydırmada titriyordu.
+  touchScrollBehavior = TouchScrollBehavior.Clamped;
  }
 }
 
@@ -78,6 +77,8 @@ public static class KarineMotion {
   },TrickleDown.TrickleDown);
   root.RegisterCallback<PointerUpEvent>(_=>release(),TrickleDown.TrickleDown);
   root.RegisterCallback<PointerCancelEvent>(_=>release(),TrickleDown.TrickleDown);
+  // Parmak kaydırmaya geçince basılı düğme bırakılır; yoksa liste kayarken düğme küçülüp büyür.
+  root.RegisterCallback<PointerMoveEvent>(e=>{if(pressed!=null && e.pressedButtons!=0 && ((Vector2)e.deltaPosition).sqrMagnitude>4)release();},TrickleDown.TrickleDown);
   root.RegisterCallback<PointerLeaveEvent>(_=>release());
  }
 }
