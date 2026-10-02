@@ -7,13 +7,16 @@ public static partial class KarineUI {
  // ortada başlık + yönerge + kişi/inceleme listesi, sağda kâğıt ayrıntı kartı.
  public static void RequestLayout(VisualElement parent,string interviews,string investigations,bool active,Action showPeople,Action showDocuments,out VisualElement list,out VisualElement detail,
   string railSubtitle=null,string hint=null,int interviewCount=0,int investigationCount=0) {
-  parent.style.flexDirection=FlexDirection.Row;parent.style.minHeight=0;
-  var rail=new VisualElement();rail.style.width=Length.Percent(KarineTheme.Requests.RailWidth);rail.style.paddingRight=KarineTheme.SpaceMd;
-  rail.style.borderRightWidth=1;rail.style.borderRightColor=KarineTheme.GlassLift;rail.style.marginRight=KarineTheme.SpaceMd;parent.Add(rail);
-  Title(rail,"BDS",KarineTheme.Requests.TitleSize+KarineTheme.SpaceMd).style.marginBottom=0;
-  if(!string.IsNullOrEmpty(railSubtitle)){var sub=Body_(rail,railSubtitle,KarineTheme.Dossier.MetaSize);sub.style.color=KarineTheme.Secondary;sub.style.marginBottom=KarineTheme.SpaceLg;}
+  // Üstte şerit (BDS + sekmeler yan yana), altta liste ve ayrıntı: yan sütun dar kalıyordu.
+  parent.style.flexDirection=FlexDirection.Column;parent.style.minHeight=0;
+  var rail=new VisualElement();rail.style.flexDirection=FlexDirection.Row;rail.style.alignItems=Align.Center;rail.style.flexShrink=0;
+  rail.style.paddingBottom=KarineTheme.SpaceSm;rail.style.marginBottom=KarineTheme.SpaceMd;rail.style.borderBottomWidth=1;rail.style.borderBottomColor=KarineTheme.GlassLift;parent.Add(rail);
+  var brand=new VisualElement();brand.style.marginRight=KarineTheme.SpaceXl;rail.Add(brand);
+  Title(brand,"BDS",KarineTheme.Requests.TitleSize+KarineTheme.SpaceMd).style.marginBottom=0;
+  if(!string.IsNullOrEmpty(railSubtitle)){var sub=Body_(brand,railSubtitle,KarineTheme.Dossier.MetaSize);sub.style.color=KarineTheme.Secondary;sub.style.marginBottom=0;}
   RequestTab(rail,"people",interviews,interviewCount,active,showPeople);
   RequestTab(rail,"document",investigations,investigationCount,!active,showDocuments);
+  var below=new VisualElement();below.style.flexDirection=FlexDirection.Row;below.style.flexGrow=1;below.style.minHeight=0;parent.Add(below);parent=below;
   var middle=new VisualElement();middle.style.width=Length.Percent(KarineTheme.Requests.ListWidth);middle.style.paddingRight=KarineTheme.SpaceMd;parent.Add(middle);
   Subtitle(middle,active?interviews:investigations,KarineTheme.Requests.TitleSize).style.marginBottom=0;
   if(!string.IsNullOrEmpty(hint)){var h=Body_(middle,hint,KarineTheme.Dossier.MetaSize);h.style.color=KarineTheme.Secondary;h.style.marginBottom=KarineTheme.SpaceMd;}
@@ -26,22 +29,19 @@ public static partial class KarineUI {
   detail.style.paddingLeft=KarineTheme.SpaceLg;detail.style.paddingRight=KarineTheme.SpaceLg;
   detail.style.paddingTop=KarineTheme.SpaceLg;detail.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(detail);
  }
- // Simge ve sayaç üstte, yazı altta tam genişlikte: yan yana dar sütunda "GÖRÜŞME/LER" diye bölünüyordu.
  static void RequestTab(VisualElement rail,string icon,string title,int count,bool active,Action click) {
   var tab=Button_(rail,"",click,active?KarineButtonKind.Primary:KarineButtonKind.Secondary);
-  tab.style.flexDirection=FlexDirection.Column;tab.style.alignItems=Align.Stretch;tab.style.marginBottom=KarineTheme.SpaceSm;
-  tab.style.paddingLeft=KarineTheme.SpaceSm;tab.style.paddingRight=KarineTheme.SpaceSm;tab.style.paddingTop=KarineTheme.SpaceSm;tab.style.paddingBottom=KarineTheme.SpaceSm;
+  tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;tab.style.marginRight=KarineTheme.SpaceSm;tab.style.marginBottom=0;
+  tab.style.paddingLeft=KarineTheme.SpaceMd;tab.style.paddingRight=KarineTheme.SpaceMd;
   var ink=active?KarineTheme.Paper.Ink:KarineTheme.Primary;
-  var top=new VisualElement {pickingMode=PickingMode.Ignore};top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;top.style.justifyContent=Justify.SpaceBetween;top.style.marginBottom=KarineTheme.SpaceXs;tab.Add(top);
-  Icon(top,icon,ink,KarineTheme.IconSize);
+  Icon(tab,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceSm;
+  var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;label.style.whiteSpace=WhiteSpace.NoWrap;
   if(count>0) {
-   var badge=Body_(top,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;
+   var badge=Body_(tab,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;badge.style.marginLeft=KarineTheme.SpaceSm;
    badge.style.color=KarineTheme.Primary;badge.style.backgroundColor=KarineTheme.Danger;badge.style.marginBottom=0;
    badge.style.minWidth=KarineTheme.Requests.Badge;badge.style.height=KarineTheme.Requests.Badge;badge.style.unityTextAlign=TextAnchor.MiddleCenter;
    Round(badge,KarineTheme.Radius);
   }
-  var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;
-  label.style.whiteSpace=WhiteSpace.NoWrap;label.style.unityTextAlign=TextAnchor.MiddleLeft;
  }
  public static Button RequestItem(VisualElement list,Texture2D portrait,string title,string info,bool selected,Action click,string status=null,bool fresh=false,string quote=null) {
   var button=Button_(list,"",click,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);

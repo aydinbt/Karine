@@ -211,7 +211,7 @@ public static class KarineTheme {
   public const int Portrait=76, DetailPortrait=118, RowHeight=104, TitleSize=21, BodySize=15, Badge=24, Chevron=18;
   // Talep tableti üst çubuğun (yüzde 11) altına iner; genişlik de aynı oranda küçülür ki görsel bozulmasın.
   public const float HeaderClearance=11;
-  public const float RailWidth=24, ListWidth=42, DetailWidth=34;
+  public const float ListWidth=56, DetailWidth=44;
  }
  public static class Inbox {
   public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;
