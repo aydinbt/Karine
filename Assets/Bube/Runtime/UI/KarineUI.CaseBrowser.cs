@@ -90,7 +90,7 @@ public static partial class KarineUI {
    var dot=new VisualElement {pickingMode=PickingMode.Ignore};int d=KarineTheme.CaseBrowser.StepDot;
    dot.style.width=d;dot.style.height=d;dot.style.marginTop=-d/2;Round(dot,d/2);dot.style.alignItems=Align.Center;dot.style.justifyContent=Justify.Center;
    dot.style.backgroundColor=open?KarineTheme.Primary:KarineTheme.GlassDeep;Border(dot,KarineTheme.BorderWidth,open?KarineTheme.Primary:KarineTheme.Accent);step.Add(dot);
-   if(!open) Icon(dot,IconOr("lock","close"),KarineTheme.Muted,d-8);
+   if(!open&&IconOr("lock",null)!=null) Icon(dot,"lock",KarineTheme.Muted,d-8);
    var label=Technical(step,(i+1).ToString("00"),KarineTheme.CaseBrowser.SmallSize);label.style.marginBottom=0;
    label.style.color=open?KarineTheme.Primary:KarineTheme.Muted;
   }
