@@ -108,7 +108,7 @@ public static partial class KarineUI {
   button.style.backgroundColor = fill;
   button.style.color = ink;
   button.style.minHeight = KarineTheme.TouchTarget;
-  button.style.fontSize = Typography.Snap(17);
+  button.style.fontSize = Typography.Snap(20);
   button.style.whiteSpace = WhiteSpace.Normal;
   button.style.unityTextAlign = leftAlign ? TextAnchor.MiddleLeft : TextAnchor.MiddleCenter;
   if (leftAlign) button.style.paddingLeft = KarineTheme.SpaceMd;
@@ -117,14 +117,15 @@ public static partial class KarineUI {
   Round(button, KarineTheme.Radius);
   Border(button, KarineTheme.BorderWidth, KarineTheme.Paper.Edge);
   ApplyFont(button, kind == KarinePaperKind.Action ? BodyBold : Body);
-  // Kâğıt üstündeki işlem ve seçim düğmeleri mürekkep damgası görseli taşır.
-  if (kind != KarinePaperKind.Quiet && Skin(button, "btn_paper")) {
-   button.style.color = kind == KarinePaperKind.Action ? KarineTheme.Paper.Stamp : KarineTheme.Paper.Ink;
-   button.style.paddingLeft = Mathf.Max(KarineTheme.SpaceLg, (int)button.style.paddingLeft.value.value);
-   button.style.paddingRight = KarineTheme.SpaceLg;
-   Pressable(button);
-   parent?.Add(button);
-   return button;
+  // Damga dokusu (yırtık kırmızı şerit) yazıyı okunmaz yapıyordu: düz kâğıt, ince kenar,
+  // seçimlerde solda kırmızı çizgi; işlem düğmesi dolu kırmızı, açık yazı.
+  button.style.paddingLeft = Mathf.Max(KarineTheme.SpaceLg, (int)button.style.paddingLeft.value.value);
+  button.style.paddingRight = KarineTheme.SpaceLg;
+  button.style.paddingTop = KarineTheme.SpaceSm; button.style.paddingBottom = KarineTheme.SpaceSm;
+  button.style.marginBottom = KarineTheme.SpaceSm; button.style.flexShrink = 0;
+  if (kind == KarinePaperKind.Choice) {
+   fill = KarineTheme.Paper.Light; button.style.backgroundColor = fill;
+   button.style.borderLeftWidth = KarineTheme.PrimaryEdgeWidth; button.style.borderLeftColor = KarineTheme.Paper.Stamp;
   }
   var pressed = Color.Lerp(fill, KarineTheme.Paper.Stamp, .30f);
   button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
