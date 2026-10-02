@@ -37,7 +37,9 @@ namespace Bube {
  // Masanın hâli: vakanın masada geçtiği saat (0-23, -1 belirsiz) ve hava ("rain" ya da boş). Yalnız atmosfer; oynanışa girmez.
  public int deskHour = -1; public string weather; public CaseSummary summary;
  // Mekânın durağan kareleri (Resources yolları): vaka ilk açıldığında kart öncesi oynar. Boşsa atlanır.
- public string[] locationFrames; }
+ public string[] locationFrames;
+ // Bölüm başı kartının yeri (anahtar) ve kapanış sonrası epilog görseli (Resources yolu) ile satırı. Boşsa atlanır.
+ public string openingPlaceKey; public string epilogueImage; public string epilogueKey; }
 [Serializable] public class TimelineClue { public string id; public string timeKey; public string noteKey; public string sourceKey; public int sortMinute; public string[] requiresRead; public string[] requiresAsked; }
 [Serializable] public class CaseSummary { public string locationKey; public string truthKey; public string evidenceKey; public string lessonKey; }
 [Serializable] public class CareerRules { public int initialTrust = 60; public int strongGain = 5; public int incompleteLoss = 5; public int falseAccusationLoss = 15; public int unsolvedLoss = 2; public int endThreshold = 0; public int[] statusThresholds = {80,60,40,20,1}; }
@@ -59,6 +61,8 @@ namespace Bube {
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
 [Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
 [Serializable] public class Node { public FileMeta[] fileMeta; public RelatedItem[] relatedItems; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public bool notReportSource; public string[] aboutPersonIds;
+ // Görüşmede kişi sigara içiyor mu: yalnız görüntü (ince duman). Her soruda aynı kalır.
+ public bool smokes;
  // Baskı: listedeki kaynakların hepsi dosyaya girdiğinde bu görüşme henüz istenmemişse artık istenemez
  // (kişi şehirden ayrıldı, avukatı görüşmeyi kesti). Doğrulayıcı doğru sonucun dayandığı hiçbir
  // kaynağın bu yolla kapanmasına izin vermez; kapanan yalnız ek bir okuma yoludur.

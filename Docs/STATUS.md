@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 2 Ekim 2026 (sahne katmanı P–X)
+**Son güncelleme:** 2 Ekim 2026 (cila katmanı Y–AF)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**2 Ekim (gece, 5):** Cila katmanı Y–AF girdi: dokunuş halkası ve basılma derinliği, dosyaya büyüyerek geçiş; lamba, telefon kablosu, şehir ışıkları, takvim; floresan, ayna parlaması, bırakma sesleri; bant takılması, yazıcı, kare tekrarı; bölüm kartı, yankı, jenerik; okurken ses kısılması, kulaklık; renk körlüğü geçişi, sürekli yazı boyu, sistem hareket ayarı, tek elle erişim; efekt kaydı ve kare profili. Görsel/müzik/ses kaydı isteyen kancalar boş. 117 + 23 test geçti; **gözle görülmedi**.
 
 **2 Ekim (gece, 4):** Sahne katmanı P–X girdi (39 madde): efekt laboratuvarı ve konum ayarlayıcı, ekran görüntüsü testleri, kare bütçesi; vaka açılış kartı, görüşmeden çıkış, ışık akışı, dosya rafı; kamera nefesi, kişiye özel bekleme; CCTV hızı ve kare iğneleme; canlı ana menü, kariyer duvarı, rütbe töreni; oda yankısı, müzik katmanı; film yanığı; ses betimlemesi, karşıtlık, tek elle. 117 EditMode + 23 PlayMode geçti; **gözle görülmedi**.
 

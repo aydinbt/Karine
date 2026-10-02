@@ -953,3 +953,13 @@ Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120
 - Terminal bozulması rastgele satırda ve rastgele zamanda olur, metni hiçbir zaman kalıcı değiştirmez.
 - Ses betimlemesi yalnız duyulan sesi adlandırır.
 - Masaya sol altta kapanmış dosyalar rafı eklendi (yalnız kapanmış vaka varsa).
+
+## 2 Ekim 2026 — Cila katmanı (Y–AF)
+
+- Kayıt bırakma sesi kaydın **türünü** söyler (fotoğraf, dosya, torba), önemini değil; doğru kaynakta da yemde de aynıdır.
+- Kare tekrarı ve zaman damgası titremesi her kayıtta aynı olasılıkla olur.
+- Sigara dumanı kişinin verisindeki sabit bir işarettir; soru, yanıt ya da öne sürülen kayıtla değişmez.
+- Yankı yalnız oyuncunun kendi açtığı önceki sayfanın ilk satırını tekrar eder; seçme yapmaz.
+- Okurken sesin kısılması belgenin açık olmasına bağlıdır, içeriğine değil.
+- Masaya lamba düğmesi, telefon kablosu, şehir ışıkları ve takvim eklendi; takvim sürüklenebilir. Masa yerleşimi kullanıcınındır; istenirse kaldırılır.
+- Yazı boyu üç kademe yerine %90–150 arası kaydırıcı oldu.

@@ -73,7 +73,7 @@ public sealed partial class AudioDirector : MonoBehaviour {
  public void ApplyLevels() {
   if (music == null) return;
   music.volume = SoundSettings.MusicGain;
-  ambience.volume = SoundSettings.MusicGain;
+  ambience.volume = SoundSettings.MusicGain * duck;
   LevelSpace();
   effects.volume = SoundSettings.SfxGain;
   if (SoundSettings.MusicGain <= 0f) { music.Pause(); ambience.Pause(); }
@@ -105,7 +105,7 @@ public sealed partial class AudioDirector : MonoBehaviour {
   if (clip == null) return;
   var source = placed[nextPlaced];
   nextPlaced = (nextPlaced + 1) % placed.Length;
-  source.panStereo = Mathf.Clamp(pan, -1f, 1f);
+  source.panStereo = Mathf.Clamp(Widen(pan), -1f, 1f);
   Distance(source, ambient);
   if (ambient) Heard?.Invoke(id);
   source.pitch = 1f;
@@ -146,7 +146,8 @@ public sealed partial class AudioDirector : MonoBehaviour {
  AudioClip Clip(string id) {
   if (string.IsNullOrEmpty(id)) return null;
   if (cache.TryGetValue(id, out var clip)) return clip;
-  clip = Resources.Load<AudioClip>(Folder + id);
+  clip = Composed(id);
+  if (clip == null) clip = Resources.Load<AudioClip>(Folder + id);
   cache[id] = clip;
   if (clip == null && reported.Add(id))
    Debug.Log("Ses dosyası yok, sessiz geçiliyor: " + Folder + id);

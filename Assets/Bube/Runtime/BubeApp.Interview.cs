@@ -30,7 +30,7 @@ public sealed partial class BubeApp {
    background.style.left=0;background.style.right=0;background.style.top=0;background.style.bottom=0;
    root.Add(background);
   }
-  KarineUI.InterviewRoom(root,root.childCount,game.Data.deskHour);
+  KarineUI.InterviewRoom(root,root.childCount,game.Data.deskHour);KarineUI.Fluorescent(root);KarineUI.MirrorSheen(root);
   var top=new VisualElement();top.style.position=Position.Absolute;
   top.style.left=0;top.style.right=0;top.style.top=0;top.style.height=64;
   top.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.98f);
@@ -54,6 +54,7 @@ public sealed partial class BubeApp {
   root.Add(dialogue);
   Text(dialogue,phase==1?T("interview.bora"):T(node.personNameKey).ToUpperInvariant(),Gold,15);
   var spoken=phase==1?T(active.promptKey):phase==2?T(answerKey):T(availableOptions.Length==0?"interview.noNewInfo":"interview.opening");
+  if(phase==2)audio?.Voice(answerKey);else audio?.StopVoice();
   var dialogueScroll=new KarineScrollView(ScrollViewMode.Vertical);
   dialogueScroll.style.position=Position.Absolute;
   dialogueScroll.style.left=18;dialogueScroll.style.right=12;
@@ -217,7 +218,7 @@ public sealed partial class BubeApp {
    // kâğıt hareketiyle sonuçlanır.
    Button present=null;bool sent=false;
    var paperLabel=ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId));
-   Action slide=()=>{if(sent)return;sent=true;SlideToPerson(present,paperLabel,send);};
+   Action slide=()=>{if(sent)return;sent=true;DropFor(sourceId);SlideToPerson(present,paperLabel,send);};
    Button(questions,"‹  "+T("interview.presentSource"),slide,true);
    present=questions.Children().Last() as Button;
    present.style.minHeight=MinimumTouchTarget;
@@ -343,7 +344,8 @@ public sealed partial class BubeApp {
    var art=new Image {image=portrait,scaleMode=ScaleMode.ScaleToFit};
    art.style.width=Length.Percent(100);art.style.height=Length.Percent(100);
    holder.Add(art);
-   KarineUI.Breathe(holder);KarineUI.Posture(art);KarineUI.Idle(holder,personId);
+   KarineUI.Breathe(holder);KarineUI.Posture(art);KarineUI.Idle(holder,personId);KarineUI.Blink(art,personId);
+   if(game.Data.nodes.Any(n=>n.personId==personId && n.smokes))KarineUI.Smoke(holder);
    return;
   }
   string[] pixels={

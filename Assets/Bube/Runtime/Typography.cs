@@ -21,14 +21,14 @@ public static class Typography {
  public static int Snap(int size) =>
   (int)System.Math.Round(Steps.OrderBy(step => System.Math.Abs(step - size)).ThenByDescending(step => step).First() * Scale);
 
- // Erişilebilirlik: oyuncunun seçtiği yazı büyüklüğü (1, 1.15, 1.3). Basamak
- // önce seçilir, sonra büyütülür; ölçek dışı punto yine oluşmaz.
+ // Erişilebilirlik: oyuncunun seçtiği yazı büyüklüğü, kaydırıcıyla 0.9–1.5 arası,
+ // 0.05 adımla. Basamak önce seçilir, sonra büyütülür; ölçek dışı punto yine oluşmaz.
  public const string ScaleKey = "karine.textScale";
- public static readonly float[] Scales = { 1f, 1.15f, 1.3f };
+ public const float MinScale = .9f, MaxScale = 1.5f;
  public static float Scale { get; private set; } = 1f;
  public static void Load() => Scale = Pick(UnityEngine.PlayerPrefs.GetFloat(ScaleKey, 1f));
  public static void Set(float scale) { Scale = Pick(scale); UnityEngine.PlayerPrefs.SetFloat(ScaleKey, Scale); }
- static float Pick(float value) => Scales.OrderBy(s => System.Math.Abs(s - value)).First();
+ static float Pick(float value) => (float)System.Math.Round(System.Math.Min(MaxScale, System.Math.Max(MinScale, value)) * 20) / 20f;
 
 }
 }

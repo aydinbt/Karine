@@ -68,6 +68,7 @@ public sealed partial class BubeApp {
  void OpenCctvVideo(Node node,CctvEvent record,VisualElement content) {
   if(!record.HasFootage)return;
   StopCctvVideo();
+  KarineUI.TapeInsert(root);
   bool frames=record.framePaths!=null && record.framePaths.Length>0;
   var viewer=new VisualElement();cctvViewer=viewer;
   viewer.style.position=Position.Absolute;
@@ -139,7 +140,7 @@ public sealed partial class BubeApp {
   recDot.style.backgroundColor=KarineTheme.Danger;recRow.Add(recDot);
   var timeText=string.IsNullOrEmpty(record.overlayTimeKey)?string.Empty:T(record.overlayTimeKey);
   var recText=KarineUI.Technical(recRow,T("cctv.overlay.rec")+(timeText.Length==0?"":"  "+timeText),13);
-  recText.style.color=Ink;
+  recText.style.color=Ink;KarineUI.StampJitter(recText);
   recText.style.marginBottom=0;
   bool recVisible=true;
   recDot.schedule.Execute(()=>{recVisible=!recVisible;recDot.style.opacity=recVisible?1f:.15f;}).Every(480);

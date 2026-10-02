@@ -19,6 +19,7 @@ public sealed partial class BubeApp {
  static bool OneHand => PlayerPrefs.GetInt(OneHandKey,0)==1;
 
  void StageTick() {
+  PolishTick();
   if(!heardHooked){heardHooked=true;AudioDirector.Heard+=OnHeard;}
   if(leavingRoom){leavingRoom=false;KarineUI.LeaveRoom(root);}
   if(Time.frameCount%30==0)KarineUI.AccessPass(root,Spacing,HighContrast);
@@ -40,13 +41,15 @@ public sealed partial class BubeApp {
  void StageDesk(VisualElement stage) {
   KarineUI.DayDrift(stage);
   ClosedShelf(stage);
+  DeskPolish(stage);
   if(!game.State.caseAccepted || game.State.closed)return;
   string key="karine.opened."+game.Data.id;
   if(PlayerPrefs.GetInt(key,0)==1)return;
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
   var frames=(game.Data.locationFrames ?? new string[0]).Select(p=>Resources.Load<Texture2D>(p)).Where(t=>t!=null).ToArray();
-  root.schedule.Execute(()=>KarineUI.LocationReel(root,frames,()=>{audio?.Sting();KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null);})).StartingIn(0);
+  root.schedule.Execute(()=>KarineUI.ChapterCard(root,ChapterTime(),ChapterPlace(),()=>
+   KarineUI.LocationReel(root,frames,()=>{audio?.Sting();KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null);}))).StartingIn(0);
  }
 
  // Kapanmış dosyalar rafı: masanın sol altında, her kapanan vaka için bir sırt.
@@ -104,6 +107,7 @@ public sealed partial class BubeApp {
   KarineUI.SettingsOption(scroll,T("settings.spacing"),T("settings.spacing.hint"),draftSpacing,()=>{draftSpacing=!draftSpacing;RenderSettings();});
   KarineUI.SettingsOption(scroll,T("settings.contrast"),T("settings.contrast.hint"),draftContrast,()=>{draftContrast=!draftContrast;RenderSettings();});
   KarineUI.SettingsOption(scroll,T("settings.oneHand"),T("settings.oneHand.hint"),draftOneHand,()=>{draftOneHand=!draftOneHand;RenderSettings();});
+  ColorOptions(scroll);
  }
  void HapticOptions(VisualElement scroll) {
   var row=KarineUI.Row(scroll);row.style.alignItems=Align.Stretch;
@@ -124,7 +128,7 @@ public sealed partial class BubeApp {
   var stage=new VisualElement();stage.style.flexGrow=1;stage.style.marginTop=12;stage.style.backgroundColor=KarineTheme.Glass;stage.style.overflow=Overflow.Hidden;body.Add(stage);
   var art=new[]{Resources.Load<Texture2D>("Bube/Case001Building"),Resources.Load<Texture2D>("Bube/InterviewRoom")}.Where(t=>t!=null).ToArray();
   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
-  (string label,Action run)[] tests={
+  var tests=new (string label,Action run)[]{
    ("Açılış",()=>KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null)),
    ("Mekân",()=>KarineUI.LocationReel(root,art,null)),
    ("Çıkış",()=>KarineUI.LeaveRoom(root)),
@@ -139,7 +143,7 @@ public sealed partial class BubeApp {
    ("Altyazı",()=>KarineUI.Caption(root,T("caption.amb_phone"))),
    ("Motif",()=>audio?.Sting()),
    ("Konum",PlaceRoom),
-  };
+  }.Concat(PolishTests(stage)).ToArray();
   foreach(var test in tests){var b=KarineUI.Button_(grid,test.label,test.run,KarineButtonKind.Secondary);b.style.marginRight=6;b.style.marginBottom=6;}
  }
  void PlaceRoom() {

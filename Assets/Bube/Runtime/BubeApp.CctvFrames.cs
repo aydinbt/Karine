@@ -65,6 +65,7 @@ public sealed partial class BubeApp {
   cctvFrameTask=cctvFrameImage.schedule.Execute(()=>{
    if(cctvFrames==null)return;
    if(cctvFrameIndex>=cctvFrames.Length-1){EndCctvFrames();return;}
+   if(KarineUI.FrameRepeats())return;
    ShowCctvFrame(cctvFrameIndex+1);
   }).Every(FrameStep).StartingIn(FrameStep);
  }

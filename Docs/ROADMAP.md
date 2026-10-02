@@ -428,3 +428,20 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] X — Erişilebilirlik: ses betimlemesi, geniş aralık, yüksek karşıtlık (7:1'e itme), tek elle geri düğmesi, üç kademeli titreşim gücü.
 - [ ] Ekran görüntüsü referanslarını Editor Test Runner'da ilk kez üret (`Tools/Baselines/`).
 - [ ] Disleksi dostu yazı tipi dosyası yok; şimdilik yalnız aralık açılıyor.
+
+## 2 Ekim 2026 — Cila katmanı (Y–AF)
+
+117 EditMode + 23 PlayMode geçti (3 ekran görüntüsü testi başsız koşuda atlanır). Hiçbiri gözle görülmedi.
+
+- [~] Y — Dokunuş: parmak altında halka, düğmenin basılınca 1 px inmesi, basılı tutma çemberi (`KarineUI.Hold`, şimdilik yalnız kütüphanede), listelerde lastik sonu, dosya açılırken basılan düğmeden büyüyen kâğıt, bekleme için kâğıt karışması (`Shuffle`, yalnız laboratuvarda).
+- [~] Z — Masa: lamba düğmesi (tercih saklanır), telefon kablosu, pencerede uzak şehir ışıkları, takvim yaprağı (vaka başına bir kez koparılır), takvimin yeri hatırlanır. Masa kül tablası dumanı zaten vardı.
+- [~] AA — Görüşme odası: göz kırpma (`Characters/<kişi>_blink` görseli gerekir; **hiçbirinde yok**), floresan titremesi, aynada kayan parlama, sigara dumanı (`Node.smokes`; **hiçbir vakada işaretli değil**), kayıt türüne göre bırakma sesi. Nefes ve kayıt cihazı makarası zaten vardı.
+- [~] AB — Bant/terminal: zaman damgası titremesi, ara sıra tekrarlanan kare (her kayıtta aynı olasılık), kayıt ilk açılışta yazıcı çıktısı, terminal başlığında fosfor kalıntısı, görüntü açılırken bant takılması. CRT ısınması zaten vardı.
+- [~] AC — Anlatı: bölüm başı saat/yer kartı (`openingPlaceKey`; yoksa yalnız saat), dosyada sayfa değişince önceki sayfanın kenarda kalan yankısı, epilog (`epilogueImage`/`epilogueKey`; **görsel yok**), ilk kapanan vakadan sonra bir kez jenerik.
+- [~] AD — Ses: `Resources/Bube/Music/<ad>` varsa sentez yerine o çalar (**bestelenmiş parça yok**), görüşme odasında fayans adımı, belge açıkken ortam kısılır, Android'de kulaklık algılanınca geniş stereo, seslendirme kancası (`Resources/Bube/Voice/<cevap anahtarı>`; **kayıt yok**). 5 yeni ses.
+- [~] AE — Erişilebilirlik: renk körlüğü düzeltmesi (protan/deutan/tritan, tam ekran gölgelendirici geçişi, görseller dahil), sürekli yazı boyu kaydırıcısı (%90–150), Android "animasyonları kaldır" ayarına uyum, tek elle erişim (ekranı aşağı indiren düğme).
+- [~] AF — Teknik: laboratuvarda efekt kaydı (PNG dizisi, GIF değil), 60 saniyelik kare süresi profili (CSV + özet), CRT gölgelendiricisinde film tanesi ve renk matrisi.
+- [ ] Disleksi dostu yazı tipi dosyası (lisans kararı kullanıcıda).
+- [ ] Gerçek cihazda ekran görüntüsü testleri.
+- [ ] Büyük görsellerin sonradan indirilmesi (Play Asset Delivery / Addressables kararı).
+- [ ] iOS için sistem "hareketi azalt" okuması (yerel eklenti gerekir).

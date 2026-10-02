@@ -40,7 +40,7 @@ public sealed partial class BubeApp {
  }
  void TerminalTitle(Label title) {
   if(!typeTitle)return;typeTitle=false;
-  title.schedule.Execute(()=>KarineUI.TerminalType(title,title.text)).StartingIn(260);
+  title.schedule.Execute(()=>{KarineUI.TerminalType(title,title.text);KarineUI.Persist(title);}).StartingIn(260);
  }
 
  // Dosya kapandı kartı vaka başına bir kez; sonra `again` kaldığı yerden sürer.
@@ -51,7 +51,7 @@ public sealed partial class BubeApp {
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
   audio?.Sting();
-  KarineUI.FilmBurn(root,()=>KarineUI.CaseClosed(root,parts[0].Trim(),parts.Last().Trim(),T("case.closed"),again));
+  KarineUI.FilmBurn(root,()=>KarineUI.CaseClosed(root,parts[0].Trim(),parts.Last().Trim(),T("case.closed"),()=>AfterClosing(again)));
   return true;
  }
 
@@ -101,25 +101,21 @@ public sealed partial class BubeApp {
 
  // Ayarlar: okuma (yazı boyu, şekil işaretleri) ve oynanış (CRT, kül, sayaç).
  void LoadSceneDraft() {
-  draftScale=Array.IndexOf(Typography.Scales,Typography.Scale);if(draftScale<0)draftScale=0;
-  LoadAccessDraft();
+  draftScaleValue=Typography.Scale;
+  LoadAccessDraft();LoadPolishDraft();
   draftShapes=Shapes;draftCrt=CrtPass.Enabled;draftAsh=KarineUI.AshSmoke;draftMeter=PlayerPrefs.GetInt(MeterKey,0)==1;
  }
- void ResetSceneDraft(){ResetAccessDraft();draftScale=0;draftShapes=false;draftCrt=false;draftAsh=false;draftMeter=false;}
+ void ResetSceneDraft(){ResetAccessDraft();ResetPolishDraft();draftScaleValue=1f;draftShapes=false;draftCrt=false;draftAsh=false;draftMeter=false;}
  void SaveSceneDraft() {
   SaveAccessDraft();
-  Typography.Set(Typography.Scales[draftScale]);
+  Typography.Set(draftScaleValue);
   PlayerPrefs.SetInt(ShapesKey,draftShapes?1:0);PlayerPrefs.SetInt(AshKey,draftAsh?1:0);KarineUI.AshSmoke=draftAsh;
   PlayerPrefs.SetInt(MeterKey,draftMeter?1:0);
-  PlayerPrefs.SetInt(CrtPass.Key,draftCrt?1:0);GetComponent<CrtPass>()?.Apply(draftCrt);
+  PlayerPrefs.SetInt(CrtPass.Key,draftCrt?1:0);SavePolishDraft();GetComponent<CrtPass>()?.Apply(draftCrt);
  }
  void ReadingOptions(VisualElement scroll,string icon) {
   KarineUI.SettingsSection(scroll,icon,T("settings.textScale"),T("settings.textScale.hint"),true);
-  var sizes=KarineUI.Row(scroll);sizes.style.alignItems=Align.Stretch;
-  for(int i=0;i<Typography.Scales.Length;i++) {
-   int v=i;var o=KarineUI.SettingsOption(sizes,T("settings.textScale."+v),T("settings.textScale."+v+".hint"),draftScale==v,()=>{draftScale=v;RenderSettings();});
-   if(v<Typography.Scales.Length-1)o.style.marginRight=KarineTheme.SpaceMd;
-  }
+  TextScaleSlider(scroll);
   KarineUI.SettingsOption(scroll,T("settings.shapes"),T("settings.shapes.hint"),draftShapes,()=>{draftShapes=!draftShapes;RenderSettings();});
   AccessOptions(scroll);
  }

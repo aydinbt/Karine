@@ -48,7 +48,7 @@ public sealed partial class BubeApp {
    var button=stage.Q<Button>(entry.button);if(button==null)continue;
    string sound=entry.sound;float pan=KarineUI.PanOf(PropBox(entry.prop));
    string prop=entry.prop;
-   button.RegisterCallback<PointerDownEvent>(_=>{audio?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;},TrickleDown.TrickleDown);
+   button.RegisterCallback<PointerDownEvent>(_=>{audio?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;if(prop=="Phone")KarineUI.CordSwing();},TrickleDown.TrickleDown);
   }
  }
 

@@ -70,6 +70,13 @@ public static class KarineTheme {
   public static readonly Color DriftTone=new Color(.55f,.32f,.14f,1);
   public const float BurnSeconds=1.1f, ChromaSeconds=.28f, CaptionSeconds=3.2f, CoffeeColdMinutes=12f;
   public const float BudgetMs=26f, BudgetSeconds=6f;
+  // Y–AF: dokunuş, masa, oda, bant, anlatı.
+  public const float RingSeconds=.12f, RingPx=46f, PressPx=1f, MorphSeconds=.42f, ShuffleSeconds=.7f, HoldSeconds=.6f;
+  public static readonly Rect LampSwitch=new Rect(6,14,18,22), Calendar=new Rect(21,3,7,9), Cord=new Rect(28,60,6,8);
+  public const float LampOffAlpha=.38f, CordSeconds=1.6f, TearSeconds=.7f;
+  public const int WindowMinMs=4000, WindowMaxMs=11000, FlickerMinMs=18000, FlickerMaxMs=45000, BlinkMinMs=2600, BlinkMaxMs=6500;
+  public const float SmokeSeconds=5f, PrintSeconds=1.3f, InsertSeconds=.8f, GhostSeconds=.25f, RepeatChance=.03f;
+  public const float ChapterSeconds=3f, EchoSeconds=6f, EpilogueSeconds=6f, CreditsSeconds=14f, ReachPercent=38f;
   public static readonly Rect Shelf=new Rect(1.5f,70,20,11);
 
   public const float ZoomSeconds=.38f, ZoomFrom=.18f, DrawerSeconds=.42f, CoverSeconds=.45f, CutSeconds=.55f, RingHold=.9f;

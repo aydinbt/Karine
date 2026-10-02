@@ -13,7 +13,7 @@ namespace Bube {
 // Ayarlar ekranı. Bu dosya `BubeApp`in bir parçasıdır.
 public sealed partial class BubeApp {
  int settingsTab;
- bool draftInstant,draftReduced,draftHaptics,draftShapes,draftCrt,draftAsh,draftMeter;int draftScale;int draftFps;FxLevel draftFx;
+ bool draftInstant,draftReduced,draftHaptics,draftShapes,draftCrt,draftAsh,draftMeter;float draftScaleValue=1f;int draftFps;FxLevel draftFx;
  SoundLevel draftMusic,draftSfx;
  void SettingsPage() {
   settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();

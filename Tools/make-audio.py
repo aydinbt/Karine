@@ -852,6 +852,47 @@ def desk_layer():
  lowpass(out, 1600)
  return normalize(steady_reverb(out, mix=0.3), 0.10)
 
+def amb_steps_tile():
+ # Görüşme odasının önünde fayans: daha sert topuk, kısa yankı.
+ out = buf(3.0)
+ for k in range(6):
+  shaped(0.06, 860 + k, 420, 1.4, 70, 0.45, start=0.2 + k * 0.45, out=out)
+  shaped(0.03, 870 + k, 3600, 2.5, 200, 0.2, start=0.2 + k * 0.45, out=out)
+ lowpass(out, 1600, poles=2)
+ reverb(out, mix=0.35, room=0.6)
+ return normalize(fade(out, 0.02, 0.3), 0.10)
+
+def ui_printer():
+ # Nokta vuruşlu yazıcı: hızlı tık dizileri, satır sonunda kâğıt ilerletme.
+ out = buf(1.3)
+ for line in range(4):
+  for k in range(14):
+   shaped(0.02, 900 + line * 20 + k, 2800, 2.5, 260, 0.35, start=line * 0.3 + k * 0.016, out=out)
+  shaped(0.08, 990 + line, 300, 1.0, 40, 0.3, start=line * 0.3 + 0.24, out=out)
+ reverb(out, mix=0.1, room=0.5)
+ return normalize(fade(out), 0.42)
+
+def ui_drop_photo():
+ # Fotoğraf masaya: ince, düz bir şap.
+ out = shaped(0.15, 1001, 2200, 1.2, 70, 0.6)
+ shaped(0.15, 1002, 600, 1.0, 50, 0.2, out=out)
+ return normalize(fade(out), 0.30)
+
+def ui_drop_file():
+ # Dosya masaya: kalın kâğıt destesi, tok.
+ out = shaped(0.25, 1011, 380, 1.0, 30, 0.7)
+ shaped(0.1, 1012, 2600, 1.0, 90, 0.2, out=out)
+ reverb(out, mix=0.1, room=0.5)
+ return normalize(fade(out), 0.36)
+
+def ui_drop_bag():
+ # Delil torbası: plastik hışırtı ve içindeki nesnenin tok sesi.
+ out = buf(0.4)
+ for k in range(5):
+  shaped(0.06, 1020 + k, 4200 + 400 * k, 1.5, 60, 0.2, start=k * 0.03, out=out)
+ shaped(0.2, 1030, 220, 1.2, 25, 0.6, start=0.05, out=out)
+ return normalize(fade(out), 0.36)
+
 SOUNDS = [
  ("ui_press",        ui_press),
  ("ui_typewriter",   ui_typewriter),
@@ -901,6 +942,11 @@ SOUNDS = [
  ("ui_tape", ui_tape),
  ("case_sting", case_sting),
  ("desk_layer", desk_layer),
+ ("amb_steps_tile", amb_steps_tile),
+ ("ui_printer", ui_printer),
+ ("ui_drop_photo", ui_drop_photo),
+ ("ui_drop_file", ui_drop_file),
+ ("ui_drop_bag", ui_drop_bag),
 ]
 
 if __name__ == "__main__":

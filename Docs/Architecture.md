@@ -458,3 +458,16 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - Paketler: `com.unity.modules.screencapture`, `com.unity.modules.imageconversion` (ekran görüntüsü testleri). `Tools/run-tests.sh` `KARINE_BASELINES` dışa aktarır.
 - Unity bileşeninde `GetComponent<T>() ?? Add...` kullanılmaz: Editor'de eksik bileşen sahte-null döner ve `??` onu null saymaz.
 - PlayerPrefs: `karine.ink.<id>`, `karine.tapeWear.<node>.<record>`, `karine.opened.<case>`, `karine.playSeconds`, `karine.captions`, `karine.spacing`, `karine.contrast`, `karine.oneHand`, `karine.hapticStrength`.
+
+## Cila katmanı (Y–AF)
+
+- Kütüphane: `UI/KarineUI.Feel.cs` (dokunuş halkası, basılma, `Hold`, `MorphFrom`, `Shuffle`, `LastPressed`), `DeskLife.cs` (lamba, kablo, şehir, takvim, `Keepable`), `Presence.cs` (kırpma, floresan, ayna, duman, bırakma sesi), `Vhs.cs` (damga titremesi, `FrameRepeats`, yazıcı, `Persist`, bant takma), `Chapter.cs` (bölüm kartı, yankı, epilog, jenerik).
+- Bağlantı: `BubeApp.Polish.cs` (`PolishTick`, erişim düğmesi, renk ve yazı boyu ayarları, `DeskPolish`, `DropFor`, `EchoLeaving`, `PrintOnce`, `AfterClosing`, laboratuvar ekleri, efekt kaydı, kare profili).
+- Ses: `AudioDirector.Mix.cs` — `Bube/Music/` önceliği (`Clip` önce oraya bakar), `Duck`, `Headphones` (Android AudioManager), `Voice`/`StopVoice`, `StepsFor`.
+- `CrtPass` artık renk körlüğü filtresi açıkken de etkin (bükme/tarama sıfır); `Correction(kind)` Machado 2009 benzetiminden daltonlaştırma matrisi kurar. Gölgelendiricide `_Grain`, `_CR/_CG/_CB`.
+- `KarineMotion.SystemReduced`: Android `animator_duration_scale`=0.
+- `Typography`: `Scales` dizisi kalktı; `MinScale`/`MaxScale`, 0.05 adım.
+- `KarineScrollView` elastik.
+- Veri alanları: `Node.smokes`, `CaseData.openingPlaceKey`, `epilogueImage`, `epilogueKey`.
+- PlayerPrefs: `karine.lampOff`, `karine.calendar.<case>`, `karine.deskPos.<ad>`, `karine.colorFilter`, `karine.credits`.
+- Laboratuvar çıktıları: `persistentDataPath/fxrec/<zaman>/NNN.png`, `persistentDataPath/perf_<zaman>.csv`.

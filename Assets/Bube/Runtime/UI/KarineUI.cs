@@ -11,12 +11,34 @@ public sealed class KarineScrollView : ScrollView {
  public KarineScrollView(ScrollViewMode mode = ScrollViewMode.Vertical) : base(mode) {
   horizontalScrollerVisibility = ScrollerVisibility.Hidden;
   verticalScrollerVisibility = ScrollerVisibility.Hidden;
+  // Liste sonunda hafif lastik etkisi; bırakınca yerine oturur.
+  touchScrollBehavior = TouchScrollBehavior.Elastic;
+  elasticity = .12f;
  }
 }
 
 // Unscaled UI motion; each owner cancels pending work when detached.
 public static class KarineMotion {
- public static bool Reduced => PlayerPrefs.GetInt("karine.reducedMotion",0)==1;
+ // Oyuncunun seçimi ya da cihazın kendi "animasyonları kaldır" ayarı.
+ public static bool Reduced => PlayerPrefs.GetInt("karine.reducedMotion",0)==1 || SystemReduced;
+ static int systemReduced=-1;
+ // Android'de animasyon süresi ölçeği 0 ise sistem hareketi azaltmış demektir. Bir kez okunur.
+ public static bool SystemReduced {
+  get {
+   if(systemReduced>=0)return systemReduced==1;
+   systemReduced=0;
+#if UNITY_ANDROID && !UNITY_EDITOR
+   try {
+    using(var player=new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+    using(var activity=player.GetStatic<AndroidJavaObject>("currentActivity"))
+    using(var resolver=activity.Call<AndroidJavaObject>("getContentResolver"))
+    using(var global=new AndroidJavaClass("android.provider.Settings$Global"))
+     systemReduced=global.CallStatic<float>("getFloat",resolver,"animator_duration_scale",1f)==0f?1:0;
+   } catch(Exception){systemReduced=0;}
+#endif
+   return systemReduced==1;
+  }
+ }
  public static void Run(VisualElement owner,float seconds,Action<float> update,Action complete=null) {
   if(Reduced){update(1);complete?.Invoke();return;}
   float start=Time.realtimeSinceStartup;

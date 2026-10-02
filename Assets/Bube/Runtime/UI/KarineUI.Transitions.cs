@@ -20,6 +20,7 @@ public static partial class KarineUI {
   {"modem",("ui_modem",null)},{"envelope",("ui_envelope",Haptic.Press)},{"shelf",("ui_shelf",Haptic.Press)},
   {"polaroid",("ui_polaroid",Haptic.Tick)},{"rank",("ui_rank",Haptic.Thud)},{"warm",("ui_fax_warm",null)},
   {"paper",("ui_paper",null)},{"channel",("ui_channel",null)},{"tape",("ui_tape",null)},{"burn",("ui_burn",Haptic.Press)},{"step",("ui_press",Haptic.Tick)},
+  {"drop_photo",("ui_drop_photo",Haptic.Tick)},{"drop_file",("ui_drop_file",Haptic.Tick)},{"drop_bag",("ui_drop_bag",Haptic.Thud)},
  };
  public static void Cue(string id) {
   if(!cues.TryGetValue(id,out var cue)){Sound?.Invoke(id);return;}

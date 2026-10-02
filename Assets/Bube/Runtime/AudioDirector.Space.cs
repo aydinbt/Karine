@@ -9,7 +9,7 @@ namespace Bube {
 public sealed partial class AudioDirector {
  // Ortam sesi çaldığında altyazı isteyen dinler (ses betimlemesi).
  public static event Action<string> Heard;
- public static readonly string[] InterviewDistant = { "amb_steps" };
+ public static readonly string[] InterviewDistant = { StepsFor("interview") };
  string[] distantSet = Distant;
  AudioSource layer, bed;
  float layerSince = -1f;
@@ -57,12 +57,12 @@ public sealed partial class AudioDirector {
 
  void LevelSpace() {
   if (bed == null) return;
-  bed.volume = SoundSettings.MusicGain * BedGain;
+  bed.volume = SoundSettings.MusicGain * BedGain * duck;
   float ramp = layerSince < 0 ? 0 : Mathf.Clamp01((Time.unscaledTime - layerSince) / LayerRampSeconds);
-  layer.volume = SoundSettings.MusicGain * LayerMax * ramp * ramp;
+  layer.volume = SoundSettings.MusicGain * LayerMax * ramp * ramp * duck;
  }
 
- void Update() { if (layerSince >= 0) LevelSpace(); }
+ void Update() { StepDuck(); if (layerSince >= 0) LevelSpace(); }
 
  // Vaka motifi: açılış kartında ve dosya kapandığında aynı üç nota.
  public void Sting() => Play("case_sting", 1f, .9f);

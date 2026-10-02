@@ -165,8 +165,9 @@ public sealed partial class BubeApp {
   var paper=KarineUI.DossierSheet(root);
   paper.userData=selectedFileSection;
   KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
-  if(openingFile){KarineMotion.Paper(paper);KarineUI.Flex(paper);}
+  if(openingFile){KarineMotion.Paper(paper);KarineUI.Flex(paper);KarineUI.MorphFrom(root,KarineUI.LastPressed);}
   else if(switchingSection){KarineMotion.Page(paper);KarineUI.PageTurn(paper);}
+  EchoLeaving(current);
   var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
   var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
   if(selectedFileSection!="report") {
@@ -498,7 +499,7 @@ public sealed partial class BubeApp {
   if(node.kind=="bps") {
    VisualElement content;BpsTablet(node.titleKey,out content);
    TerminalSourceTabs(content,node);
-   var tabletScroll=Scroll(content);Text(tabletScroll,T(node.bodyKey),Ink,19);KarineUI.Corrupt(tabletScroll);
+   var tabletScroll=Scroll(content);Text(tabletScroll,T(node.bodyKey),Ink,19);KarineUI.Corrupt(tabletScroll);PrintOnce(node);
   } else {
    Frame(T("kind."+node.kind),T(node.titleKey),T("file.reference"));
    var scroll=Scroll(root);
