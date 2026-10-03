@@ -389,32 +389,34 @@ public sealed partial class BubeApp {
  }
 
  void CareerRecordPage(FaxReview review) {
-  VisualElement card;BpsTablet("career.record",out card);
+  Back(StatisticsPage);root.Clear();KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("career.backToCareer"),T("career.recordTitle"),T("file.unit"),StatisticsPage,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(()=>CareerRecordPage(review)));
+  var card=KarineUI.RecordPaper(root);
   if(PlayerPrefs.GetInt("karine.inkDry."+review.caseId,0)==0){PlayerPrefs.SetInt("karine.inkDry."+review.caseId,1);KarineUI.InkDry(card);}
   var asset=Resources.Load<TextAsset>("Bube/Cases/"+review.caseId);
   var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
-  Text(card,data==null?review.caseId:T(data.titleKey),Ink,19);
-  Text(card,EvaluationTitle(review),Gold,20);
-  if(review.evaluatedAtUtcTicks>0)Text(card,new DateTime(review.evaluatedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm"),Muted,14);
+  string date=review.evaluatedAtUtcTicks>0?T("career.evaluatedAt")+": "+new DateTime(review.evaluatedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm"):null;
+  KarineUI.RecordHead(card,data==null?review.caseId:T(data.titleKey),date,T(review.correct?"career.stamp.verified":"career.stamp.rejected"),!review.correct);
+  KarineUI.RecordAfter(card,EvaluationTitle(review));
   if(data!=null) {
    var person=data.verdicts.FirstOrDefault(v=>v.id==review.suspectId);
    var method=data.methods.FirstOrDefault(v=>v.id==review.methodId);
    var proof=data.evidence.FirstOrDefault(v=>v.id==review.proofId);
-   if(person!=null)Text(card,T(SuspectKey(data))+": "+T(person.labelKey)+" · "+ReviewSourceTitle(data,review.suspectSourceId),Ink,16);
-   if(method!=null)Text(card,T(MethodKey(data))+": "+T(method.labelKey)+" · "+ReviewSourceTitle(data,review.methodSourceId),Ink,16);
-   if(proof!=null)Text(card,T("conclude.evidence")+": "+T(proof.labelKey)+" · "+ReviewSourceTitle(data,review.proofSourceId),Ink,16);
    var custody=(data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==review.custodyId);
-   if(custody!=null)Text(card,T(string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey)+": "+T(custody.labelKey)+" · "+ReviewSourceTitle(data,review.custodySourceId),Ink,16);
+   KarineUI.RecordHeading(card,T("career.sentReport"));
+   string Basis(string id)=>T("career.basis")+": "+ReviewSourceTitle(data,id);
+   if(person!=null)KarineUI.RecordRow(card,T(SuspectKey(data)),T(person.labelKey),Resources.Load<Texture2D>("Bube/Characters/"+person.id),Basis(review.suspectSourceId));
+   if(method!=null)KarineUI.RecordRow(card,T(MethodKey(data)),T(method.labelKey),null,Basis(review.methodSourceId));
+   if(proof!=null)KarineUI.RecordRow(card,T("conclude.evidence"),T(proof.labelKey),null,Basis(review.proofSourceId));
+   if(custody!=null)KarineUI.RecordRow(card,T(string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey),T(custody.labelKey),null,Basis(review.custodySourceId));
    // Sicil yalnız puan değildir: her raporun bir insana ne yaptığı da kayıtta kalır.
    var epilogue=new[]{person?.epilogueKey,custody?.epilogueKey}.Where(locale.Has).ToArray();
-   if(epilogue.Length>0) {
-    Text(card,T("career.epilogue"),Gold,17);
-    foreach(var key in epilogue)Text(card,T(key),Ink,15);
-   }
+   if(epilogue.Length>0){KarineUI.RecordHeading(card,T("career.epilogue"));foreach(var key in epilogue)KarineUI.RecordAfter(card,T(key));}
   }
-  Text(card,T("career.trust")+": "+T(TrustStatusKey(review.trustAfter)),Gold,18);
-  if(review.reopened)Text(card,T("retry.recordNote"),Muted,16);
-  Button(card,T("offer.back"),StatisticsPage);
+  var status=TrustStatusKey(review.trustAfter);
+  KarineUI.RecordTrust(card,T("career.trustState"),T(status),status=="career.status.ended"||status=="career.status.risk"||status=="career.status.review"||status=="career.status.monitored",
+   review.reopened?T("retry.recordNote"):null);
  }
  string TrustStatusKey(int value) {
   var t=careerRules.statusThresholds;

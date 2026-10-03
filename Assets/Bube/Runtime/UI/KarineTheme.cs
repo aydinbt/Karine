@@ -332,6 +332,12 @@ public static class KarineTheme {
  }
 
  // Dosyada gezin (3 Ekim 2026 maketi, Docs/Reference/UI_SEARCH_2026-10.png): solda koyu süzgeç paneli, sağda sonuç kâğıdı.
+ public static class CareerRecord {
+  public static readonly Rect Paper=new Rect(14,11.5f,72,86);
+  public const int TitleSize=32, BodySize=15, StampSize=26, HeadingSize=20, RowHeight=44, KeyWidth=130, ValueSize=17, BasisSize=14, Portrait=64;
+  public const int TrustHeight=56, TrustSize=17, PillWidth=170, NoteSize=13;
+  public const float StampTilt=-8, ValueWidth=42;
+ }
  public static class Search {
   public static readonly Rect Filters=new Rect(2.4f,12.5f,10.8f,80);
   public static readonly Rect Paper=new Rect(14.2f,12,82,86);

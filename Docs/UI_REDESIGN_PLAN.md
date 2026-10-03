@@ -25,7 +25,7 @@ Akış her öğe için aynıdır:
 - [x] Hakkında modalı
 - [~] Vakalar / dünya seçici (`UI_CASES`)
 - [~] Kariyer panosu (`UI_CAREER`)
-- [ ] Kariyer geçmişi ve kayıt sayfası (CareerRecordPage)
+- [~] Kariyer kaydı sayfası (CareerRecordPage, `UI_CAREER_RECORD`): tam ekran sicil kâğıdı, damga, rapor tablosu, sonrası, güven şeridi; kariyer geçmişi listesi ayrı
 - [ ] Arşiv ve arşivdeki vaka (ArchivePage, ArchiveCasePage)
 - [ ] Yeniden başlatma onayı (RestartPage)
 - [ ] Reklam izni penceresi

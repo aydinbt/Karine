@@ -412,65 +412,6 @@ public sealed partial class BubeApp {
    unread.style.backgroundColor=KarineTheme.GlassDeep;unread.pickingMode=PickingMode.Ignore;
   }
  }
- void BpsTablet(string titleKey,out VisualElement content,bool lift=true) {
-  Desk();
-  var shade=new VisualElement();
-  shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=Color.black;
-  shade.style.opacity=0;
-  root.Add(shade);
-  var tablet=new VisualElement();
-  tablet.style.position=Position.Absolute;
-  tablet.style.left=Length.Percent(KarineTheme.Office.Monitor.x);tablet.style.top=Length.Percent(KarineTheme.Office.Monitor.y);
-  tablet.style.width=Length.Percent(KarineTheme.Office.Monitor.width);tablet.style.height=Length.Percent(KarineTheme.Office.Monitor.height);
-  root.Add(tablet);
-  var art=Resources.Load<Texture2D>("Bube/CctvTabletHands");
-  if(art!=null) {
-   art.filterMode=FilterMode.Point;
-   var image=new Image { image=art, scaleMode=ScaleMode.ScaleAndCrop, pickingMode=PickingMode.Ignore };
-   image.style.position=Position.Absolute;
-   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
-   tablet.Add(image);
-  } else {
-   tablet.style.backgroundColor=KarineTheme.GlassDeep;
-  }
-  var screen=new VisualElement();
-  screen.style.position=Position.Absolute;
-  screen.style.left=Length.Percent(14.7f);screen.style.right=Length.Percent(14.7f);
-  screen.style.top=Length.Percent(14);screen.style.bottom=Length.Percent(15);
-  screen.style.paddingLeft=18;screen.style.paddingRight=18;
-  screen.style.paddingTop=12;screen.style.paddingBottom=8;
-  screen.style.opacity=0;
-  tablet.Add(screen);
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
-  header.style.alignItems=Align.Center;screen.Add(header);
-  var brand=Text(header,"BDS",Ink,29);brand.style.marginRight=16;brand.style.marginBottom=0;
-  var title=Text(header,T(game.Data.titleKey)+" / "+T(titleKey),Ink,17);title.style.flexGrow=1;title.style.marginBottom=0;
-  GlitchHeading(title,T(titleKey));TerminalTitle(title);
-  bool closing=false;
-  Action close=()=>{
-   if(closing)return;closing=true;screen.SetEnabled(false);
-   KarineMotion.Run(tablet,KarineTheme.Motion.CloseSeconds,t=>{
-    tablet.style.translate=new Translate(0,Length.Percent(t*100));shade.style.opacity=1-t;
-   },Desk);
-  };
-  Back(close);KarineUI.CloseButton(header,close,T("cctv.back"));
-  var rule=new VisualElement();rule.style.height=2;rule.style.backgroundColor=KarineTheme.Panel2;
-  rule.style.marginTop=7;rule.style.marginBottom=8;screen.Add(rule);
-  content=new VisualElement();content.style.flexGrow=1;screen.Add(content);
-  tablet.style.left=0;tablet.style.top=0;
-  tablet.style.width=Length.Percent(100);tablet.style.height=Length.Percent(100);
-  screen.style.opacity=1;
-  if(lift) {
-   screen.SetEnabled(false);
-   KarineMotion.Run(tablet,KarineTheme.Motion.TabletSeconds,t=>{
-    if(closing)return;
-    tablet.style.translate=new Translate(0,Length.Percent((1-t)*100));shade.style.opacity=t;
-   },()=>{if(!closing)screen.SetEnabled(true);});
-  } else {shade.style.opacity=1;}
-
- }
  void OpenTerminal() {
   cctvFromDesk=true;
   var sources=game.Data.nodes.Where(n=>(n.kind=="cctv" || n.kind=="bps") && game.Available(n)).ToArray();
