@@ -83,9 +83,10 @@ public sealed partial class BubeApp {
   MenuRow(side,"person",T("menu.row.career"),StatisticsPage,false);
   MenuRow(side,"gear",T("menu.row.settings"),SettingsPage,false);
   MenuRow(side,"document",T("menu.about"),AboutPage,false);
-  var spacer=new VisualElement();spacer.style.flexGrow=1;side.Add(spacer);
+  // Kimlik kartı menünün hemen altında; sütunun dibine yapışmaz.
   KarineUI.AgentCard(side,Resources.Load<Texture2D>("Bube/Characters/bora_portrait") ?? Resources.Load<Texture2D>("Bube/Characters/bora"),T("menu.identity.name"),T("menu.identity.role"),
-   new[]{(T("menu.identity.unitLabel"),T("menu.identity.unit")),(T("menu.identity.locationLabel"),T("menu.identity.location"))},StatisticsPage);
+   new[]{(T("menu.identity.unitLabel"),T("menu.identity.unit")),(T("menu.identity.locationLabel"),T("menu.identity.location"))},StatisticsPage)
+   .style.marginTop=KarineTheme.SpaceMd;
  }
  void WorldEmpty() {
   var panel=KarineUI.Panel(root,true);KarineUI.Title(panel,T("world.page.title"));KarineUI.Body_(panel,T("world.slot.unwritten"));Button(panel,T("world.back"),Home);
