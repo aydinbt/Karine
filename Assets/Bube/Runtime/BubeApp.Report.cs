@@ -227,7 +227,7 @@ public sealed partial class BubeApp {
    game.BeginNextCaseReview(7);
    Save();
    // Mühür her raporda aynı biçimde iner; sonucu faks söyler.
-   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();PlayReportSend(CaseSummary);}));
+   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();CaseSummary();}));
   }
  }
  void ContinueToNextCase() {
