@@ -23,7 +23,7 @@ public sealed partial class BubeApp {
   showingInterviewList=false;
   root.Clear();
   root.style.backgroundColor=Color.black;
-  MenuBackdrop();KarineUI.LiveMenu(root);MenuReturnAd();
+  MenuBackdrop();MenuVeil();KarineUI.LiveMenu(root);MenuReturnAd();
   var left=new VisualElement();left.style.position=Position.Absolute;
   left.style.left=Length.Percent(6);left.style.top=Length.Percent(7);
   left.style.width=KarineTheme.MainMenu.LogoWidth;
@@ -48,17 +48,27 @@ public sealed partial class BubeApp {
   MenuRow(menu,"chart",T("menu.row.career"),StatisticsPage,false);
   MenuRow(menu,"gear",T("menu.row.settings"),SettingsPage,false);
   MenuRow(menu,"info",T("menu.about"),AboutPage,false);
+  // Çıkış ayrı bir çizginin altında; yanlışlıkla dokunulmasın diye onay modalını açar.
+  var cut=new VisualElement();cut.style.height=1;cut.style.backgroundColor=KarineTheme.Border;
+  cut.style.marginTop=KarineTheme.SpaceMd;cut.style.marginBottom=KarineTheme.SpaceMd+KarineTheme.MainMenu.RowGap;
+  menu.Add(cut);
+  KarineUI.MenuAction(menu,"menu_quit",T("menu.row.quit"),AskToQuit,false).name="MenuExit";
 
-  var identity=KarineUI.MenuIdentity(root,
-   Resources.Load<Texture2D>("Bube/Characters/bora"),
-   T("menu.identity.name"),T("menu.identity.role"),
-   T("menu.identity.unit"),T("menu.identity.location"),StatisticsPage);
-  identity.style.position=Position.Absolute;
-  identity.style.left=Length.Percent(6);
-  identity.style.bottom=Length.Percent(7);
-  identity.style.width=KarineTheme.MainMenu.ColumnWidth;
+  var version=KarineUI.Technical(root,"v"+Application.version,KarineTheme.MainMenu.TaglineSize);
+  version.style.position=Position.Absolute;version.style.right=Length.Percent(3);version.style.bottom=Length.Percent(4);
+  version.style.color=KarineTheme.Alpha(KarineTheme.Secondary,.7f);
   FadeIn(left);
-  FadeIn(identity);
+ }
+
+ // Sol sütunun arkası koyulaşır, sağdaki sahne açık kalır: kademeli üç bant.
+ void MenuVeil() {
+  float[] widths={52,40,30};float[] alphas={.28f,.28f,.3f};
+  for(int i=0;i<widths.Length;i++) {
+   var band=new VisualElement {pickingMode=PickingMode.Ignore};
+   band.style.position=Position.Absolute;band.style.left=0;band.style.top=0;band.style.bottom=0;
+   band.style.width=Length.Percent(widths[i]);band.style.backgroundColor=KarineTheme.Veil(alphas[i]);
+   root.Add(band);
+  }
  }
 
  // Satırın görseli ortak UI Kit bileşenindedir; burada yalnız eylem bağlanır.
@@ -164,6 +174,8 @@ public sealed partial class BubeApp {
 
  void AboutPage() {
   VisualElement card;MenuOverlay(T("menu.about"),out card);
+  var studio=new Image {image=Resources.Load<Texture2D>("Bube/UI/bube_wordmark"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
+  studio.style.height=72;studio.style.marginBottom=KarineTheme.SpaceLg;card.Add(studio);
   Text(card,T("about.body"),Ink,19);
   var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
   Button(card,T("offer.back"),Home);

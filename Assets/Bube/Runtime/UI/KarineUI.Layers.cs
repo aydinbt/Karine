@@ -22,25 +22,28 @@ public static partial class KarineUI {
   row.style.marginTop=0;row.style.marginBottom=KarineTheme.MainMenu.RowGap;
   row.style.paddingLeft=KarineTheme.SpaceLg;
   row.style.paddingRight=KarineTheme.SpaceMd;
+  // 3 Ekim 2026 ana menü maketi: düz koyu panel + gri kenar; ana eylem kehribar.
   var tone=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
-  row.style.backgroundColor=primary?KarineTheme.Primary:KarineTheme.Alpha(KarineTheme.Background,.88f);
-  Border(row,KarineTheme.BorderWidth,primary?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Secondary,.45f));
+  var normal=primary?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Panel,.92f);
+  Unskin(row,normal);
+  Border(row,KarineTheme.BorderWidth,primary?KarineTheme.Alpha(KarineTheme.Accent,1f):KarineTheme.Border);
   Round(row,KarineTheme.Radius);
   var mark=Icon(row,icon,tone,KarineTheme.IconSize);
   mark.style.marginRight=KarineTheme.SpaceLg;
   var text=new Label(label);
   text.style.color=tone;
   text.style.fontSize=Typography.Snap(KarineTheme.MainMenu.RowTextSize);
+  text.style.letterSpacing=1;
   text.style.flexGrow=1;
   text.style.unityTextAlign=TextAnchor.MiddleLeft;
-  ApplyFont(text,primary?BodyBold:Body);
+  ApplyFont(text,Heading);
   row.Add(text);
-  var next=Icon(row,"nav_next",tone,KarineTheme.IconSize);
+  var next=Icon(row,"nav_next",primary?tone:KarineTheme.Secondary,KarineTheme.IconSize-4);
   next.pickingMode=PickingMode.Ignore;
-  var normal=primary?KarineTheme.Primary:KarineTheme.Alpha(KarineTheme.Background,.88f);
-  var pressed=Color.Lerp(normal,KarineTheme.Accent,.28f);
+  var pressed=primary?Color.Lerp(normal,KarineTheme.Background,.2f):KarineTheme.Panel2;
   row.RegisterCallback<PointerDownEvent>(_=>row.style.backgroundColor=pressed);
   row.RegisterCallback<PointerUpEvent>(_=>row.style.backgroundColor=normal);
+  row.RegisterCallback<PointerLeaveEvent>(_=>row.style.backgroundColor=normal);
   parent?.Add(row);
   return row;
  }

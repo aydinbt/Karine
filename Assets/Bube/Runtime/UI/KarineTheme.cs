@@ -177,12 +177,12 @@ public static class KarineTheme {
  public static class MainMenu {
   public const int LogoWidth = 455;
   public const int ColumnWidth = 355;
-  public const int RowHeight = 48;
-  public const int RowGap = 5;
+  public const int RowHeight = 52;
+  public const int RowGap = 10;
   public const int PortraitSize = 78;
   public const int IdentityHeight = 108;
   public const int TaglineSize = 14;
-  public const int RowTextSize = 18;
+  public const int RowTextSize = 24;
  }
 
  public static class CaseBrowser {

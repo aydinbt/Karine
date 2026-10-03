@@ -100,7 +100,7 @@ public sealed class BootSmokeTests {
   var root = Object.FindFirstObjectByType<BubeApp>().GetComponent<UIDocument>().rootVisualElement;
   var labels = root.Query<Label>().ToList().Select(label => label.text).Where(text => !string.IsNullOrEmpty(text)).ToList();
 
-  CollectionAssert.Contains(labels, "SORULARIN İZİ, GERÇEĞE YAKLAŞTIRIR", "Marka alt basligi yok.");
+  CollectionAssert.Contains(labels, "BİR DEDEKTİF HİKAYESİ", "Marka alt basligi yok.");
   Assert.IsTrue(labels.Any(text => text == "Oyuna Başla" || text == "Devam Et"),
    "Kayit durumuna uygun ana eylem yok.");
   foreach (var row in new[] { "Vakalar", "Kariyer", "Ayarlar", "Hakkında" })
