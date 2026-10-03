@@ -56,7 +56,8 @@ public static partial class KarineUI {
  public static Button CaseFileCard(VisualElement parent,string id,string number,string title,string summary,
                                    string status,CaseFileState state,Texture2D art,Action click) {
   bool locked=state==CaseFileState.Locked;bool open=state==CaseFileState.Open;
-  var card=new Button(Sounded(click)) {name="CaseCard-"+id};
+  // Kilitli kartın eylemi yoktur: dokunuş yalnız sarsıntı ve çekmece sesi verir.
+  var card=locked?new Button {name="CaseCard-"+id}:new Button(Sounded(click)) {name="CaseCard-"+id};
   card.style.width=F.CardWidth;card.style.height=F.CardHeight;card.style.flexShrink=0;
   card.style.flexDirection=FlexDirection.Column;card.style.alignItems=Align.Stretch;
   card.style.marginLeft=0;card.style.marginTop=0;card.style.marginBottom=0;card.style.marginRight=KarineTheme.SpaceLg;
@@ -120,7 +121,10 @@ public static partial class KarineUI {
    arrow.style.borderLeftWidth=1;arrow.style.borderLeftColor=KarineTheme.Alpha(tone,.35f);bar.Add(arrow);
    Icon(arrow,"nav_next",tone,KarineTheme.IconSize-4);
   }
-  if(click==null){card.focusable=false;card.pickingMode=PickingMode.Ignore;}
+  // Kilitli kart dokunulunca sarsılır; açık olmayan diğer kartlar dokunuşu almaz.
+  if(locked){card.focusable=false;card.AddToClassList("case-locked");LockedShake(card);}
+  else if(click==null){card.focusable=false;card.pickingMode=PickingMode.Ignore;}
+  else CardHover(card,photo.childCount>0?photo[0]:null);
   parent.Add(card);return card;
  }
 
@@ -137,8 +141,8 @@ public static partial class KarineUI {
   var frame=new VisualElement {pickingMode=PickingMode.Ignore};
   frame.style.width=F.PortraitWidth;frame.style.height=F.PortraitHeight;frame.style.flexShrink=0;
   frame.style.backgroundColor=KarineTheme.Paper.Light;frame.style.paddingLeft=4;frame.style.paddingRight=4;
-  frame.style.paddingTop=4;frame.style.paddingBottom=4;frame.style.rotate=new Rotate(Angle.Degrees(-2));
-  frame.style.marginRight=KarineTheme.SpaceMd;card.Add(frame);
+  frame.style.paddingTop=4;frame.style.paddingBottom=4;frame.style.rotate=new Rotate(Angle.Degrees(KarineTheme.Stagecraft.PolaroidTilt));
+  frame.style.marginRight=KarineTheme.SpaceMd;card.Add(frame);Straighten(card,frame);
   if(portrait!=null) {
    var image=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
    image.style.flexGrow=1;frame.Add(image);

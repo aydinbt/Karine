@@ -142,7 +142,8 @@ public sealed class BootSmokeTests {
   Assert.AreEqual(7,cases.contentContainer.childCount);
   foreach(var card in cases.contentContainer.Children()) {
    Assert.IsFalse(card.focusable,"Unreleased cases cannot take keyboard focus.");
-   Assert.AreEqual(PickingMode.Ignore,card.pickingMode,"Locked cards cannot be pressed.");
+   // Kilitli kart dokunuşu alır ama yalnız sarsılır; eylemi yoktur.
+   Assert.IsTrue(card.ClassListContains("case-locked") || card.pickingMode==PickingMode.Ignore,"Locked cards cannot be pressed.");
   }
   CollectionAssert.IsEmpty(errors,string.Join(" | ",errors));
  }

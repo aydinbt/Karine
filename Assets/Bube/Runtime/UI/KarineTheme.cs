@@ -63,6 +63,12 @@ public static class KarineTheme {
   public const float IntroSeconds=.7f, LogoFrom=.94f, RowSeconds=.35f, RowSlide=24f, HoverShift=6f, HoverSeconds=.15f;
   public const int RowStaggerMs=60, HoverBar=3, Motes=18, MenuThunderMinMs=14000, MenuThunderMaxMs=32000;
   public const float MenuFlashAlpha=.22f, MoteAlpha=.35f, VignetteAlpha=.6f;
+  // Vakalar sayfası arka planı (CaseBrowserBackdrop yüzdeleri): soldaki pencere, ortadaki asılı lamba.
+  public static readonly Rect CaseWindow=new Rect(0,0,15,46), CaseDust=new Rect(36,8,22,48);
+  public const float CaseLampX=47f, CaseLampY=6f, CaseLampSize=30f, LampSwing=1.2f, LampSwingSeconds=6f; public const int CaseRain=26;
+  // Dosya kartları: masaya düşer, üstüne gelince kalkar, kilitliyse sarsılır.
+  public const float DropSeconds=.42f, DropFrom=34f, DropTilt=3f, HoverLift=6f, PhotoZoom=1.05f, ShakeSeconds=.35f, ShakePx=6f, PolaroidTilt=-2f;
+  public const int DropStaggerMs=70;
   public const float PostureSeconds=1.6f, PostureShift=2.5f, PostureTilt=.4f;
   public const int PostureMinMs=6000, PostureMaxMs=14000, BlinkMs=130, BlinkMinMs=3000, BlinkMaxMs=7000;
   public const float LiftScale=.04f, LiftShadow=6f;

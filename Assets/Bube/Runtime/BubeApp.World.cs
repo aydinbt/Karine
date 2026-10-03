@@ -18,7 +18,7 @@ public sealed partial class BubeApp {
   var art=Resources.Load<Texture2D>("Bube/Art/CaseBrowserBackdrop") ?? Resources.Load<Texture2D>("Bube/Art/OfficeRoomV2");
   var backdrop=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
   backdrop.style.position=Position.Absolute;backdrop.style.left=0;backdrop.style.right=0;
-  backdrop.style.top=0;backdrop.style.bottom=0;root.Add(backdrop);
+  backdrop.style.top=0;backdrop.style.bottom=0;root.Add(backdrop);KarineUI.CaseBrowserStage(backdrop,root);
   var veil=new VisualElement {pickingMode=PickingMode.Ignore};
   veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.backgroundColor=KarineTheme.Veil(.55f);root.Add(veil);WorldSidebar();
@@ -69,7 +69,7 @@ public sealed partial class BubeApp {
     T("world.browser.file")+" #"+(i+1).ToString("000"),title,summary,status,file,cover,press));
   }
   if(!unlocked) {var hint=KarineUI.Body_(main,T("world.locked.hint"),KarineTheme.CaseFiles.SmallSize);hint.style.marginTop=KarineTheme.SpaceMd;hint.style.color=KarineTheme.Secondary;}
-  FadeIn(main);
+  KarineUI.CardsDrop(cards.contentContainer);
  }
  static Texture2D LoadWorldArt(string path)=>string.IsNullOrEmpty(path)?null:Resources.Load<Texture2D>(path);
  void WorldSidebar() {

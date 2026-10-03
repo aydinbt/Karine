@@ -61,18 +61,21 @@ public static partial class KarineUI {
   frame.style.position=Position.Absolute;frame.style.left=0;frame.style.right=0;frame.style.top=0;frame.style.bottom=0;
   root.Insert(Mathf.Min(root.childCount,FirstAfter(root,"MenuRain")),frame);
   if(!Fx.On)return;
-  var flash=new VisualElement {name="MenuLightning",pickingMode=PickingMode.Ignore};
-  flash.style.position=Position.Absolute;
-  flash.style.left=Length.Percent(S.WindowLeft);flash.style.top=Length.Percent(S.WindowTop);
-  flash.style.width=Length.Percent(S.WindowWidth);flash.style.height=Length.Percent(S.WindowHeight);
-  flash.style.backgroundColor=new Color(.85f,.9f,1f,1);flash.style.opacity=0;
-  root.Insert(FirstAfter(root,"MenuRain"),flash);
+  int at=FirstAfter(root,"MenuRain");
+  Lightning(root,at,new Rect(S.WindowLeft,S.WindowTop,S.WindowWidth,S.WindowHeight));
+  Dust(root,at,new Rect(S.LampX-S.LampSize/2,S.LampY,S.LampSize,S.LampSize*1.4f));
+ }
+
+ // Pencerede iki kısa çakma (ilki güçlü, ikincisi yankı), ardından uzaktan gök gürültüsü.
+ public static void Lightning(VisualElement root,int at,Rect box) {
+  var flash=new VisualElement {name="StageLightning",pickingMode=PickingMode.Ignore};
+  Percent(flash,box);flash.style.backgroundColor=new Color(.85f,.9f,1f,1);flash.style.opacity=0;
+  root.Insert(Mathf.Min(at,root.childCount),flash);
   var random=new System.Random();
   Action plan=null;
   plan=()=>flash.schedule.Execute(()=> {
    if(flash.panel==null)return;
    if(Fx.On && Fx.MayFlash()) {
-    // İki kısa çakma: ilki güçlü, ikincisi zayıf yankı.
     KarineMotion.Run(flash,.45f,t=>flash.style.opacity=S.MenuFlashAlpha*Fx.Amount*(t<.25f?1-t*2:t<.45f?.6f*(1-(t-.25f)*5):0),
      ()=>flash.style.opacity=0);
     float pan=(float)random.NextDouble()*.8f-.4f;
@@ -81,12 +84,12 @@ public static partial class KarineUI {
    plan();
   }).StartingIn(random.Next(S.MenuThunderMinMs,S.MenuThunderMaxMs));
   plan();
-  // Toz: lambanın ışık konisinde yavaşça süzülen birkaç sıcak nokta.
-  var cone=new VisualElement {name="MenuDust",pickingMode=PickingMode.Ignore};
-  cone.style.position=Position.Absolute;
-  cone.style.left=Length.Percent(S.LampX-S.LampSize/2);cone.style.top=Length.Percent(S.LampY);
-  cone.style.width=Length.Percent(S.LampSize);cone.style.height=Length.Percent(S.LampSize*1.4f);
-  root.Insert(FirstAfter(root,"MenuRain"),cone);
+ }
+
+ // Işık konisinde yavaşça süzülen sıcak toz; ortada parlak, kenarda söner.
+ public static void Dust(VisualElement root,int at,Rect box) {
+  var cone=new VisualElement {name="StageDust",pickingMode=PickingMode.Ignore};
+  Percent(cone,box);root.Insert(Mathf.Min(at,root.childCount),cone);
   var seed=new System.Random(23);var motes=new List<(VisualElement e,float x,float y,float speed,float sway,float phase)>();
   for(int i=0;i<Fx.Count(S.Motes);i++) {
    var mote=new VisualElement {pickingMode=PickingMode.Ignore};
@@ -102,11 +105,16 @@ public static partial class KarineUI {
     float y=Mathf.Repeat(m.y-time*m.speed,100);
     float x=m.x+Mathf.Sin(time*.4f+m.phase)*m.sway;
     m.e.style.left=Length.Percent(x);m.e.style.top=Length.Percent(y);
-    // Konide ortaya yakın daha parlak, kenarda söner.
     float edge=1-Mathf.Abs(x-50)/55f;
     m.e.style.opacity=S.MoteAlpha*Fx.Amount*Mathf.Clamp01(edge)*(.6f+.4f*Mathf.Sin(time*1.3f+m.phase));
    }
   }).Every(KarineTheme.Motion.TickMs*2);
+ }
+
+ static void Percent(VisualElement e,Rect box) {
+  e.style.position=Position.Absolute;
+  e.style.left=Length.Percent(box.x);e.style.top=Length.Percent(box.y);
+  e.style.width=Length.Percent(box.width);e.style.height=Length.Percent(box.height);
  }
 
  static int FirstAfter(VisualElement root,string name) {
