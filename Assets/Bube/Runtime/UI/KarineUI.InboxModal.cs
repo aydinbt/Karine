@@ -51,7 +51,7 @@ public static partial class KarineUI {
    var p=Write(pill,status.ToUpper(Tr),KarineTheme.OnPrimary,I.PillSize,Heading);p.style.marginBottom=0;p.style.letterSpacing=1;
   } else {
    var s=Body_(line,status,I.RowMetaSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;s.style.flexShrink=1;s.style.minWidth=0;
-   s.style.whiteSpace=WhiteSpace.Normal;
+   s.style.whiteSpace=WhiteSpace.Normal;Left(s);
   }
   var gap=new VisualElement();gap.style.flexGrow=1;line.Add(gap);
   if(!string.IsNullOrEmpty(date)){var d=Technical(line,date,I.RowMetaSize);d.style.color=KarineTheme.Secondary;d.style.marginBottom=0;d.style.flexShrink=0;}
