@@ -48,8 +48,8 @@ Akış her öğe için aynıdır:
 - [x] Soruşturma talepleri (`UI_REQUESTS*`): tam ekran; görüşmeler ve incelemeler sekmesi, durum etiketleri, canlı geri sayım, beklemeyi atla, raporu aç
 
 ## 4. Sorgu
-- [ ] Sorgu odası ve kişi listesi (InterviewPage)
-- [ ] Kaydı öne sürme
+- [~] Sorgu odası (InterviewPage, `UI_INTERVIEW`): dosya şeridi, kimlik kartı, konuşma balonu, Sorular/Geçmiş sekmeleri, açılır konu başlıkları
+- [~] Kaydı öne sürme (`UI_INTERVIEW` alt kare): balon ortaya kayar; solda süzgeç ve kaynaklar, sağda kâğıt önizleme ve "Öne sür"
 
 ## 5. Sonuç
 - [~] Gerekçeli rapor (`UI_REPORT`): 3 Ekim kararıyla iki adım (şüpheli, ne ile) + varsa gözaltı + gönder; kanıt adımı ve dayanak seçici kaldırıldı

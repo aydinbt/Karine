@@ -277,6 +277,18 @@ public static class KarineTheme {
   public const int PillWidth=150, PillHeight=38, PillSize=14, Polaroid=170, HeadSize=30, HeadIcon=48, SectionSize=18, BodySize=15;
   public const int FactKey=150, ActionHeight=60, ActionSize=22, WaitIcon=64, CountdownSize=44;
  }
+ public static class Interview {
+  // 3 Ekim 2026 maketi (Docs/Reference/UI_INTERVIEW_2026-10.png): solda kimlik, ortada kişi,
+  // sağda konuşma balonu ve soru paneli; öne sürme halinde balon ortaya, sağa geniş kayıt paneli.
+  public static readonly Rect Identity=new Rect(5.6f,15,17.6f,30);
+  public static readonly Rect Bubble=new Rect(61.6f,13.5f,31.8f,25);
+  public static readonly Rect Questions=new Rect(61,41,33,54);
+  public static readonly Rect BubbleAside=new Rect(39.8f,17,17,28);
+  public static readonly Rect Present=new Rect(58.2f,15,37,80);
+  public const int Thumb=86, LabelSize=18, NameSize=22, InfoSize=14, SpeakerSize=16, SpeechSize=17, DemeanorSize=15, Tail=14;
+  public const int TabHeight=40, TabSize=16, TopicHeight=44, TopicSize=18, RowHeight=48, RowSize=15, Edge=4;
+  public const int PresentHead=26, PresentQuote=15, SourceRow=62, SourceIcon=30, SourceTitle=14, SourceSub=12, ActionHeight=54, ActionSize=22;
+ }
  public static class Inbox {
   public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;
   public static readonly Rect List=new Rect(6,15,32,78);

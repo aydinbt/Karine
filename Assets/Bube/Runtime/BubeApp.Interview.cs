@@ -31,38 +31,17 @@ public sealed partial class BubeApp {
    root.Add(background);
   }
   KarineUI.InterviewRoom(root,root.childCount,game.Data.deskHour);KarineUI.Fluorescent(root);KarineUI.MirrorSheen(root);
-  var top=new VisualElement();top.style.position=Position.Absolute;
-  top.style.left=0;top.style.right=0;top.style.top=0;top.style.height=64;
-  top.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.98f);
-  top.style.paddingLeft=26;top.style.paddingTop=12;root.Add(top);
-  Text(top,"bube DEPARTMAN  /  "+T("kind.interview")+"  /  "+T(game.Data.titleKey),Ink,17);
-  var identity=new VisualElement();identity.style.position=Position.Absolute;
-  identity.style.left=Length.Percent(2);identity.style.top=Length.Percent(17);
-  identity.style.width=Length.Percent(23);identity.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.94f);
-  identity.style.paddingLeft=16;identity.style.paddingRight=12;identity.style.paddingTop=14;
-  root.Add(identity);
-  Text(identity,T("interview.identity"),Gold,14);
-  Text(identity,T(node.personNameKey).ToUpperInvariant(),Ink,20);
-  Text(identity,T(node.personInfoKey),Muted,15);
   PixelPortrait(root,node.personId);
-  var dialogue=new VisualElement();dialogue.style.position=Position.Absolute;
-  dialogue.style.left=Length.Percent(62);dialogue.style.right=Length.Percent(2);
-  dialogue.style.top=Length.Percent(16);dialogue.style.height=Length.Percent(19);
-  dialogue.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Glass,.95f);
-  dialogue.style.paddingLeft=18;dialogue.style.paddingRight=16;dialogue.style.paddingTop=13;
-  dialogue.style.overflow=Overflow.Hidden;
-  root.Add(dialogue);
-  Text(dialogue,phase==1?T("interview.bora"):T(node.personNameKey).ToUpperInvariant(),Gold,15);
+  // Üst şerit diğer tam ekranlarla aynı: masaya dön, "Görüşme", kişi ve dosya, ayarlar.
+  KarineUI.DossierBar(root,T("back.desk"),T("kind.interview"),T(node.personNameKey)+"  ·  "+T(game.Data.titleKey),Desk,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(()=>InterviewPage(node)));
+  KarineUI.InterviewIdentity(root,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),T("interview.identity"),T(node.personNameKey),T(node.personInfoKey));
+  // Kayıt öne sürülürken balon ortaya kayar, sağı kayıt paneli alır.
+  bool presenting=phase==1 && game.QuestionNeedsSource(active);
+  var dialogueScroll=KarineUI.InterviewBubble(root,presenting,phase==1?T("interview.bora"):T(node.personNameKey),out var speech);
   var spoken=phase==1?T(active.promptKey):phase==2?T(answerKey):T(availableOptions.Length==0?"interview.noNewInfo":"interview.opening");
+  speech.text=spoken;
   if(phase==2)audioDirector?.Voice(answerKey);else audioDirector?.StopVoice();
-  var dialogueScroll=new KarineScrollView(ScrollViewMode.Vertical);
-  dialogueScroll.style.position=Position.Absolute;
-  dialogueScroll.style.left=18;dialogueScroll.style.right=12;
-  dialogueScroll.style.top=38;dialogueScroll.style.bottom=8;
-  dialogueScroll.verticalScrollerVisibility=ScrollerVisibility.Hidden;
-  dialogue.Add(dialogueScroll);
-  var speech=Text(dialogueScroll,spoken,Ink,17);
-  speech.style.whiteSpace=WhiteSpace.Normal;
   // Karşındaki konuşuyor: daktilo değil **ses**. Kelime yok (kelime olursa
   // Türkçe metnin üstüne yabancı bir dil biner), yalnız sesin gövdesi; perde
   // kişiden gelir, yani üç kişi üç ses olur.
@@ -78,108 +57,84 @@ public sealed partial class BubeApp {
   }
   // Dedektifin gördüğü davranış — yorum değil, gözlem. Yalan ya da çelişki
   // etiketi değildir; anlamını oyuncu kurar. Metni olmayan yanıtta satır yoktur.
-  if(phase==2 && locale.Has(answerKey+".demeanor")) {
-   var demeanor=Text(dialogueScroll,T(answerKey+".demeanor"),Muted,15);
-   demeanor.style.whiteSpace=WhiteSpace.Normal;demeanor.style.marginTop=10;
-   demeanor.style.unityFontStyleAndWeight=FontStyle.Italic;
-  }
+  if(phase==2 && locale.Has(answerKey+".demeanor"))KarineUI.InterviewDemeanor(dialogueScroll,T(answerKey+".demeanor"));
+  if(presenting){InterviewSourcePicker(node,active,sourceId);Arrive(enteringRoom);return;}
   var referenceCard=phase>0 && game.ReportSourceAvailable(sourceId)?InterviewReferenceCard(sourceId):null;
   var topics=availableOptions.GroupBy(q=>string.IsNullOrEmpty(q.topicKey)?"interview.topic.other":q.topicKey).ToArray();
   var initiallyOpen=topics.Any(g=>g.Key==selectedInterviewTopic)?selectedInterviewTopic:topics.FirstOrDefault()?.Key;
-  var questionArea=new VisualElement();questionArea.style.position=Position.Absolute;
-  questionArea.style.left=Length.Percent(62);questionArea.style.right=Length.Percent(2);
-  questionArea.style.top=Length.Percent(38);questionArea.style.bottom=Length.Percent(19);
-  questionArea.style.flexDirection=FlexDirection.Column;
-  root.Add(questionArea);
+  var panel=KarineUI.InterviewPanel(root,out var historyTabs);
   var turns=game.State.interviewTurns.Where(turn=>turn.nodeId==node.id).ToArray();
   if(turns.Length==0)showingInterviewHistory=false;
-  VisualElement historyTabs=null;
-  if(turns.Length>0) {
-   historyTabs=new VisualElement();historyTabs.style.flexDirection=FlexDirection.Row;
-   historyTabs.style.flexShrink=0;historyTabs.style.minHeight=MinimumTouchTarget+4;
-   questionArea.Add(historyTabs);
-  }
   var questions=new KarineScrollView();questions.style.flexGrow=1;questions.style.minHeight=0;
-  questionArea.Add(questions);
+  panel.Add(questions);
   if(phase==0) {
    for(int groupIndex=0;groupIndex<topics.Length;groupIndex++) {
     var topic=topics[groupIndex];
     var section=new VisualElement();questions.Add(section);
-    var choices=new VisualElement();section.Add(choices);
+    var choices=new VisualElement();
     if(topics.Length>1) {
-     choices.style.display=topic.Key==initiallyOpen?DisplayStyle.Flex:DisplayStyle.None;
-     var topicKey=topic.Key;
-     var header=KarineUI.Button_(null,T(topic.Key)+"  ·  "+topic.Count(),()=>{
-      choices.style.display=choices.style.display==DisplayStyle.None?DisplayStyle.Flex:DisplayStyle.None;
+     var topicKey=topic.Key;bool open=topic.Key==initiallyOpen;
+     choices.style.display=open?DisplayStyle.Flex:DisplayStyle.None;
+     Button header=null;
+     Action toggle=()=>{
+      bool show=choices.style.display==DisplayStyle.None;
+      choices.style.display=show?DisplayStyle.Flex:DisplayStyle.None;
       selectedInterviewTopic=topicKey;
-     });
-     KarineUI.Unskin(header,KarineTheme.Panel2);
-     header.style.marginBottom=6;header.style.marginRight=0;header.style.paddingLeft=12;
-     header.style.unityTextAlign=TextAnchor.MiddleLeft;header.style.fontSize=Typography.Snap(16);
-     section.Insert(0,header);
+      var fresh=KarineUI.InterviewTopic(null,T(topicKey)+"  ·  "+topic.Count(),show,null);
+      header.Clear();foreach(var child in fresh.Children().ToArray())header.Add(child);
+      header.style.borderLeftColor=fresh.style.borderLeftColor;
+     };
+     header=KarineUI.InterviewTopic(section,T(topic.Key)+"  ·  "+topic.Count(),open,()=>toggle());
     }
+    section.Add(choices);
     foreach(var q in topic) {
      var question=q;
-     Button(choices,"›  "+T(q.promptKey),()=>InterviewPage(node,question,1));
-     var choiceButton=choices.Children().Last() as Button;
-     choiceButton.style.whiteSpace=WhiteSpace.Normal;
-     choiceButton.style.fontSize=Typography.Snap(16);
-     choiceButton.style.minHeight=66;
-     KarineUI.Unskin(choiceButton,KarineTheme.GlassLift);
-     choiceButton.style.borderLeftWidth=3;
-     choiceButton.style.borderLeftColor=KarineTheme.Active;
+     KarineUI.InterviewQuestion(choices,T(q.promptKey),()=>InterviewPage(node,question,1));
     }
    }
    if(availableOptions.Length==0)Text(questions,T("interview.noNewInfo"),Muted,16);
   } else if(phase==1) {
-   if(game.QuestionNeedsSource(active)) {
-    InterviewSourcePicker(questions,node,active,sourceId,referenceCard);
-   } else {
-    Button(questions,T("interview.listen"),()=>{
-     var reply=game.AnswerKey(active);
-     if(game.Ask(node.id,active.id)){Save();InterviewPage(node,active,2,reply);}
-    },true);
-    // Soruyu seçtikten sonra da vazgeçebilmeli; tek çıkış görüşmeyi bitirmek olmamalı.
-    Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
-    var giveUp=questions.Children().Last() as Button;
-    giveUp.style.minHeight=MinimumTouchTarget;giveUp.style.fontSize=Typography.Snap(15);
-    giveUp.style.color=Ink;
-   }
+   Button(questions,T("interview.listen"),()=>{
+    var reply=game.AnswerKey(active);
+    if(game.Ask(node.id,active.id)){Save();InterviewPage(node,active,2,reply);}
+   },true);
+   // Soruyu seçtikten sonra da vazgeçebilmeli; tek çıkış görüşmeyi bitirmek olmamalı.
+   Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
+   var giveUp=questions.Children().Last() as Button;
+   giveUp.style.minHeight=MinimumTouchTarget;giveUp.style.fontSize=Typography.Snap(15);
+   giveUp.style.color=Ink;
   } else {
    if(referenceCard!=null)Button(questions,T("interview.openPresented"),()=>referenceCard.style.display=DisplayStyle.Flex);
    Button(questions,T(sourceAccepted?"interview.next":"interview.tryAnotherSource"),
     ()=>InterviewPage(node,sourceAccepted?null:active,sourceAccepted?0:1),true);
   }
-  if(turns.Length>0) {
-   var history=new KarineScrollView();history.style.flexGrow=1;history.style.minHeight=0;questionArea.Add(history);
-   for(int i=0;i<turns.Length;i++) {
-    var turn=turns[i];
-    var card=new VisualElement();card.style.paddingLeft=12;card.style.paddingRight=12;card.style.paddingTop=9;
-    card.style.marginBottom=7;card.style.backgroundColor=KarineTheme.Panel;
-    history.Add(card);
-    var number=KarineUI.Technical(card,(i+1).ToString("00")+"  ·  "+T("interview.bora"),13);number.style.marginBottom=3;
-    var prompt=Text(card,T(turn.promptKey),Ink,15);prompt.style.marginBottom=8;
-    var speaker=Text(card,T(node.personNameKey),Muted,13);speaker.style.marginBottom=3;
-    var reply=Text(card,T(turn.answerKey),Ink,16);reply.style.marginBottom=11;
-   }
-   // Soru/geçmiş ikilisi kit'in sekme şeridi. Sekme değişimi sayfayı yeniden
-   // kurmaz, yalnız görünürlüğü değiştirir; şerit seçili sekmeyi göstermek için
-   // yeniden çizilir.
-   var labels=new[]{T("interview.questions"),T("interview.history")+"  ·  "+turns.Length};
-   Action<bool> switchView=null;
-   switchView=showHistory=>{
-    showingInterviewHistory=showHistory;
-    questions.style.display=showHistory?DisplayStyle.None:DisplayStyle.Flex;
-    history.style.display=showHistory?DisplayStyle.Flex:DisplayStyle.None;
-    historyTabs.Clear();
-    KarineUI.Tabs(historyTabs,labels,showHistory?1:0,picked=>switchView(picked==1),true);
-   };
-   switchView(showingInterviewHistory);
+  // Sorular/geçmiş sekmeleri her zaman görünür; geçmiş boşken kapalıdır.
+  var history=new KarineScrollView();history.style.flexGrow=1;history.style.minHeight=0;panel.Add(history);
+  for(int i=0;i<turns.Length;i++) {
+   var turn=turns[i];
+   var card=new VisualElement();card.style.paddingLeft=12;card.style.paddingRight=12;card.style.paddingTop=9;
+   card.style.marginBottom=7;card.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Panel,.6f);
+   card.style.borderLeftWidth=KarineTheme.Interview.Edge-1;card.style.borderLeftColor=KarineTheme.Border;
+   history.Add(card);
+   var number=KarineUI.Technical(card,(i+1).ToString("00")+"  ·  "+T("interview.bora"),13);number.style.marginBottom=3;
+   var prompt=Text(card,T(turn.promptKey),Ink,15);prompt.style.marginBottom=8;
+   var speaker=Text(card,T(node.personNameKey),Gold,13);speaker.style.marginBottom=3;
+   var reply=Text(card,T(turn.answerKey),Ink,16);reply.style.marginBottom=11;
   }
-  var back=new VisualElement();back.style.position=Position.Absolute;
-  back.style.left=Length.Percent(62);back.style.right=Length.Percent(2);
-  back.style.bottom=Length.Percent(5);root.Add(back);
-  Button(back,T("interview.back"),Desk);
+  Action<bool> switchView=null;
+  switchView=showHistory=>{
+   showingInterviewHistory=showHistory;
+   questions.style.display=showHistory?DisplayStyle.None:DisplayStyle.Flex;
+   history.style.display=showHistory?DisplayStyle.Flex:DisplayStyle.None;
+   historyTabs.Clear();
+   KarineUI.InterviewTab(historyTabs,T("interview.questions"),!showHistory,()=>switchView(false));
+   var past=KarineUI.InterviewTab(historyTabs,T("interview.history")+(turns.Length>0?"  ·  "+turns.Length:""),showHistory,()=>switchView(true));
+   past.SetEnabled(turns.Length>0);
+  };
+  switchView(showingInterviewHistory);
+  Arrive(enteringRoom);
+ }
+ void Arrive(bool enteringRoom) {
   if(enteringRoom){KarineUI.InterviewStarted();FadeIn(root);KarineUI.CutIn(root,KarineTheme.Scene.RingHold);}
  }
  string ShortInterviewSourceLabel(string value) {
@@ -187,92 +142,56 @@ public sealed partial class BubeApp {
   // Satırlar iki satıra sarıyor; 66 karakter yanıtın anlamlı yerini kesiyordu.
   return value.Length<=110?value:value.Substring(0,109).TrimEnd()+"…";
  }
- void InterviewSourcePicker(ScrollView questions,Node node,Question active,string sourceId,VisualElement referenceCard) {
+ // Kaydı öne sür: solda süzgeç ve kaynaklar, sağda seçilen kaydın kâğıdı ve "Öne sür".
+ void InterviewSourcePicker(Node node,Question active,string sourceId) {
   if(interviewSourceQuestionId!=node.id+"/"+active.id) {
    interviewSourceQuestionId=node.id+"/"+active.id;interviewSourceFilter=0;
   }
-  Text(questions,T("interview.chooseSource"),Gold,16);
-  // Kaynak sunmaktan vazgeçmenin tek yolu görüşmeyi tümden bitirmekti.
-  Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
-  var cancel=questions.Children().Last() as Button;
-  cancel.style.minHeight=MinimumTouchTarget;cancel.style.fontSize=Typography.Snap(15);
-  cancel.style.color=Ink;
-  if(!string.IsNullOrEmpty(sourceId)) {
-   var chosen=Text(questions,T("interview.selectedSource")+"  ·  "+ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId)),Ink,15);
-   chosen.style.whiteSpace=WhiteSpace.Normal;
-   if(referenceCard!=null) {
-    Button(questions,T("interview.openReference"),()=>referenceCard.style.display=DisplayStyle.Flex);
-    var open=questions.Children().Last() as Button;
-    open.style.minHeight=MinimumTouchTarget;
-   }
-   Action send=()=>{
-    var decoy=game.DecoyAnswerKey(active,sourceId);
-    if(decoy!=null){InterviewPage(node,active,2,decoy,sourceId,false);return;}
-    var reply=game.AnswerKey(active,sourceId);
-    if(game.Ask(node.id,active.id,sourceId)){Save();InterviewPage(node,active,2,reply,sourceId);}
-    // `answerKey` bir anahtardır; çevrilmiş metin geçilirse ekrana "[...]" düşer.
-    // Yemi yazılmamış kaynak: genel "ne diyeyim" yerine kişinin kendi savuşturması.
-    else InterviewPage(node,active,2,node.deflectAnswerKey ?? "interview.unrelatedSource",sourceId,false);
-   };
-   // Dokunarak da, parmakla karşıdakine sürerek de öne sürülür; ikisi aynı
-   // kâğıt hareketiyle sonuçlanır.
-   Button present=null;bool sent=false;
-   var paperLabel=ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId));
-   Action slide=()=>{if(sent)return;sent=true;DropFor(sourceId);SlideToPerson(present,paperLabel,send);};
-   Button(questions,"‹  "+T("interview.presentSource"),slide,true);
-   present=questions.Children().Last() as Button;
-   present.style.minHeight=MinimumTouchTarget;
-   DragToPresent(present,slide);
-   var hint=Text(questions,T("interview.swipeHint"),Muted,13);hint.style.marginTop=-4;
-  }
-  var controls=new VisualElement();questions.Add(controls);
+  KarineUI.InterviewPresent(root,T("interview.presentSource"),T(active.promptKey),()=>InterviewPage(node),T("interview.cancelSource"),out var column,out var preview);
+  var controls=new VisualElement();controls.style.flexShrink=0;column.Add(controls);
+  var questions=new KarineScrollView();questions.style.flexGrow=1;questions.style.minHeight=0;column.Add(questions);
   // Sonuç ekranında her kaynak gösterilebilir, ama görüşmede öne sürülmesi
   // anlamsız olanlar (vakanın kendi raporu, sinyal telemetrisi) listeyi
   // kalabalıklaştırmaktan başka bir iş görmüyordu.
   var sources=ComparisonSources().Where(n=>(n.kind!="interview" || n.personId!=node.personId) && !n.notPresentable).ToArray();
   var rows=new List<VisualElement>();var categories=new List<int>();
   int[] categoryCounts=new int[4];
+  Action<string,string,string,string,int> add=(icon,title,sub,reference,category)=>{
+   rows.Add(KarineUI.InterviewSource(questions,icon,ShortInterviewSourceLabel(title),sub==null?null:ShortInterviewSourceLabel(sub),
+    reference==sourceId,()=>InterviewPage(node,active,1,null,reference)));
+   categories.Add(category);categoryCounts[category]++;
+  };
   foreach(var source in sources) {
    var item=source;
    int category=item.kind=="cctv"?3:item.kind=="interview"?2:1;
    if(category==3) {
     foreach(var record in item.cctvEvents ?? new CctvEvent[0]) {
-     var eventItem=record;var reference=item.id+"#"+eventItem.id;
-     if(eventItem.notPresentable)continue;
-     if(!game.SourceConcernsPerson(node,eventItem.aboutPersonIds,T(eventItem.textKey)))continue;
+     var reference=item.id+"#"+record.id;
+     if(record.notPresentable)continue;
+     if(!game.SourceConcernsPerson(node,record.aboutPersonIds,T(record.textKey)))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
-     Button(questions,ShortInterviewSourceLabel(T(item.titleKey)+" · "+T(eventItem.textKey)),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
-     var row=questions.Children().Last();
-     rows.Add(row);categories.Add(category);categoryCounts[category]++;
+     add("cctv",T(item.titleKey),T(record.textKey),reference,category);
     }
    } else if(category==2) {
     foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
-     var answer=turn;var reference=game.InterviewTurnReference(answer);
-     if(!game.SourceConcernsPerson(node,game.FindQuestion(item,answer.questionId)?.aboutPersonIds,
-      T(answer.promptKey)+" "+T(answer.answerKey)))continue;
+     var reference=game.InterviewTurnReference(turn);
+     if(!game.SourceConcernsPerson(node,game.FindQuestion(item,turn.questionId)?.aboutPersonIds,
+      T(turn.promptKey)+" "+T(turn.answerKey)))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
-     // Satırda sorunun metni yazıyordu; liste "soracağım sorular" gibi okunuyordu.
-     // Oysa öne sürülen şey kişinin **verdiği yanıttır**, tırnak içinde gösterilir.
-     Button(questions,ShortInterviewSourceLabel(T(item.personNameKey)+" · \u201c"+T(answer.answerKey)+"\u201d"),()=>InterviewPage(node,active,1,null,reference),reference==sourceId);
-     var row=questions.Children().Last();
-     rows.Add(row);categories.Add(category);categoryCounts[category]++;
+     // Öne sürülen şey kişinin **verdiği yanıttır**, tırnak içinde gösterilir.
+     add("chat",T(item.personNameKey),"“"+T(turn.answerKey)+"”",reference,category);
     }
    } else if(!game.SourceAlreadyPresented(node,active,item.id) &&
     game.SourceConcernsPerson(node,item.aboutPersonIds,T(item.titleKey)+" "+T(item.bodyKey))) {
-    Button(questions,ShortInterviewSourceLabel(T(item.titleKey)),()=>InterviewPage(node,active,1,null,item.id),item.id==sourceId);
-    var row=questions.Children().Last();
-    rows.Add(row);categories.Add(category);categoryCounts[category]++;
+    add("document",T(item.titleKey),locale.Has("kind."+item.kind)?T("kind."+item.kind):null,item.id,category);
    }
   }
   if(rows.Count==0) {Text(questions,T("interview.noSource"),Muted,15);return;}
-  // Telefonda arama alanı yoktu sayılır: klavye ekranın yarısını kaplıyor, liste
-  // zaten kişiye göre süzülüp 9-10 satıra indi. Yerine tür sekmeleri kalıyor.
+  InterviewPreview(preview,node,active,sourceId);
+  // Telefonda arama alanı yok sayılır; liste zaten kişiye göre süzülüyor. Yerine tür sekmeleri.
   var tabs=new VisualElement();controls.Add(tabs);
-  var count=Text(controls,"",Muted,13);
   var empty=Text(questions,T("conclude.noMatches"),Muted,15);empty.style.display=DisplayStyle.None;
   string[] labels={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
-  // Tür süzgeci kit'in sekme şeridi. Dar tablet için iki satıra bölünür;
-  // kayıt türü olmayan sekme kapalı kalır (kit'in DISABLED durumu).
   Action update=null;
   update=()=>{
    int visible=0;
@@ -280,7 +199,6 @@ public sealed partial class BubeApp {
     bool show=interviewSourceFilter==0 || interviewSourceFilter==categories[i];
     rows[i].style.display=show?DisplayStyle.Flex:DisplayStyle.None;if(show)visible++;
    }
-   count.text=visible+" "+T("conclude.sourceCount");
    empty.style.display=visible==0?DisplayStyle.Flex:DisplayStyle.None;
    tabs.Clear();
    for(int half=0;half<2;half++) {
@@ -291,12 +209,59 @@ public sealed partial class BubeApp {
     for(int i=0;i<2;i++)strip[i].SetEnabled(offset+i==0 || categoryCounts[offset+i]>0);
    }
   };
-  foreach(var row in rows) {row.style.minHeight=MinimumTouchTarget;row.style.whiteSpace=WhiteSpace.Normal;row.style.fontSize=Typography.Snap(15);}
   update();
  }
- VisualElement InterviewReferenceCard(string sourceId) {
+ void InterviewPreview(VisualElement preview,Node node,Question active,string sourceId) {
+  if(string.IsNullOrEmpty(sourceId)) {
+   var hint=Text(preview,T("interview.chooseSource"),Muted,15);hint.style.whiteSpace=WhiteSpace.Normal;
+   return;
+  }
+  var source=SourceNode(sourceId);
+  KarineUI.InterviewPaper(preview,source!=null?T(source.titleKey):CompactReportSourceLabel(sourceId),null,out var body);
+  InterviewSourceBody(body,sourceId);
+  Action send=()=>{
+   var decoy=game.DecoyAnswerKey(active,sourceId);
+   if(decoy!=null){InterviewPage(node,active,2,decoy,sourceId,false);return;}
+   var reply=game.AnswerKey(active,sourceId);
+   if(game.Ask(node.id,active.id,sourceId)){Save();InterviewPage(node,active,2,reply,sourceId);}
+   // `answerKey` bir anahtardır; çevrilmiş metin geçilirse ekrana "[...]" düşer.
+   // Yemi yazılmamış kaynak: genel "ne diyeyim" yerine kişinin kendi savuşturması.
+   else InterviewPage(node,active,2,node.deflectAnswerKey ?? "interview.unrelatedSource",sourceId,false);
+  };
+  // Dokunarak da, parmakla karşıdakine sürerek de öne sürülür; ikisi aynı kâğıt hareketiyle sonuçlanır.
+  Button present=null;bool sent=false;
+  var paperLabel=ShortInterviewSourceLabel(CompactReportSourceLabel(sourceId));
+  Action slide=()=>{if(sent)return;sent=true;DropFor(sourceId);SlideToPerson(present,paperLabel,send);};
+  present=KarineUI.InterviewAction(preview,"document",T("interview.present"),slide);
+  DragToPresent(present,slide);
+ }
+ Node SourceNode(string sourceId) {
   int separator=sourceId.IndexOf('#');
-  var source=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
+  return game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
+ }
+ // Kaydın kâğıda yazılan içeriği: CCTV satırı, görüşme yanıtı ya da belge gövdesi.
+ void InterviewSourceBody(VisualElement body,string sourceId) {
+  int separator=sourceId.IndexOf('#');
+  var source=SourceNode(sourceId);if(source==null)return;
+  var ink=KarineTheme.Paper.Ink;var muted=KarineTheme.Paper.Faded;
+  if(source.kind=="cctv" && separator>=0) {
+   if(!string.IsNullOrEmpty(source.cctvPeriodKey))Text(body,T(source.cctvPeriodKey),muted,12);
+   var record=(source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e=>e.id==sourceId.Substring(separator+1));
+   if(record!=null)Text(body,T(record.textKey),ink,16);
+  } else if(source.kind=="interview" && separator>=0) {
+   var turn=game.InterviewSourceTurn(sourceId);
+   if(turn!=null) {
+    Text(body,T(turn.promptKey),muted,13);
+    Text(body,"“"+T(turn.answerKey)+"”",ink,16);
+   }
+  } else {
+   if(source.fileMeta!=null)foreach(var field in source.fileMeta)
+    Text(body,T(field.labelKey)+" : "+T(field.valueKey),muted,12);
+   Text(body,T(source.bodyKey),ink,15);
+  }
+ }
+ VisualElement InterviewReferenceCard(string sourceId) {
+  var source=SourceNode(sourceId);
   if(source==null)return null;
   var ink=KarineTheme.Paper.Ink;
   var muted=KarineTheme.Paper.Faded;
@@ -316,21 +281,7 @@ public sealed partial class BubeApp {
   var name=Text(card,T(source.titleKey),ink,17);name.style.marginBottom=8;
   if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   var body=Scroll(card);
-  if(source.kind=="cctv" && separator>=0) {
-   if(!string.IsNullOrEmpty(source.cctvPeriodKey))Text(body,T(source.cctvPeriodKey),muted,12);
-   var record=(source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e=>e.id==sourceId.Substring(separator+1));
-   if(record!=null)Text(body,T(record.textKey),ink,16);
-  } else if(source.kind=="interview" && separator>=0) {
-   var turn=game.InterviewSourceTurn(sourceId);
-   if(turn!=null) {
-    Text(body,T(turn.promptKey),muted,13);
-    Text(body,T(turn.answerKey),ink,16);
-   }
-  } else {
-   if(source.fileMeta!=null)foreach(var field in source.fileMeta)
-    Text(body,T(field.labelKey)+" : "+T(field.valueKey),muted,12);
-   Text(body,T(source.bodyKey),ink,15);
-  }
+  InterviewSourceBody(body,sourceId);
   return card;
  }
  void PixelPortrait(VisualElement parent,string personId) {
