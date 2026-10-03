@@ -39,7 +39,7 @@ Akış her öğe için aynıdır:
 - [ ] Tablet çerçevesi (ertelendi; karar bekliyor: dijital kaynaklar tablette)
 
 ## 3. Soruşturma
-- [ ] Dosya ve kanıt sayfası (FilePage)
+- [~] Dosya ve kanıt sayfası (FilePage, `UI_FILE`): çerçeve kuruldu; kâğıt içerikleri sırada
 - [ ] Dosyada arama (FileSearchPage)
 - [ ] Belge okuma (ReadPage)
 - [ ] Karşılaştırma (ComparePage)

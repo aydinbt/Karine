@@ -286,6 +286,15 @@ public static class KarineTheme {
   public static readonly Rect Folder=new Rect(4.5f,11.5f,78,86);
   public const float PhotoTilt=2.5f;
   public const int PhotoCaptionPad=34, MetaIcon=22, SectionIcon=24, TapeWidth=90, ItemHeight=74;
+  // 3 Ekim 2026 dosya maketi (Docs/Reference/UI_FILE_2026-10.png): üst şerit, karton
+  // klasör, solda karton sekmeler, yanında koyu belge listesi, sağda kâğıt.
+  public static readonly Rect Bar=new Rect(15,1.2f,70,9);
+  public static readonly Rect Case=new Rect(11.5f,12,81,86);
+  public static readonly Rect TabColumn=new Rect(12.8f,15,9.6f,80);
+  public static readonly Rect List=new Rect(22.8f,15,15.6f,80);
+  public static readonly Rect Page=new Rect(39.2f,14,51.6f,82);
+  public const int BarTitleSize=26, BarSubSize=13, BackLabelSize=18, BackWidth=176;
+  public const int FolderTabSize=17, FolderTabIcon=26, RowTitleSize=18, RowSubSize=14, RowDot=10;
  }
 
  public static class Office {

@@ -163,16 +163,18 @@ public sealed partial class BubeApp {
   }
   Desk();
   KarineUI.InboxScene(root);
-  var paper=KarineUI.DossierSheet(root);
+  KarineUI.DossierCase(root);
+  var paper=KarineUI.DossierPage(root);
   paper.userData=selectedFileSection;
   KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
   if(openingFile || switchingSection)SceneVeil();
   EchoLeaving(current);
-  var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
+  KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.department"),Desk,out var tools);
+  KarineUI.DossierTool(tools,"search",T("file.tab.search"),FileSearchPage);
+  KarineUI.DossierTool(tools,"compare",T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();});
+  if(game.CanConclude)KarineUI.DossierTool(tools,"chart",T("conclude.tab"),Conclusion);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(FilePage));
   var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
-  if(selectedFileSection!="report") {
-   KarineUI.DossierText(paper,T(game.Data.titleKey),KarineTheme.Dossier.BodySize);
-  }
   if(selectedFileSection=="report") {
    DossierOverview(paper,report);
   } else if(selectedFileSection=="timeline") {
@@ -239,38 +241,26 @@ public sealed partial class BubeApp {
     }
    }
   }
-  // "1 / 1" sayacı ve Önceki/Sonraki, tek sayfalık bölümlerde bile duruyordu ve
-  // istenen sayfaya varmak için art arda dokunmak gerekiyordu. Sayfa birden
-  // çoksa adları doğrudan dokunulur; tekse alt şerit hiç çizilmez.
-  if(selectedFileSection!="timeline" && selectedFileSection!="notebook" && pages.Length>1) {
-   var footerLine=new VisualElement();footerLine.style.height=1;footerLine.style.flexShrink=0;
-   footerLine.style.backgroundColor=KarineTheme.Paper.Edge;footerLine.style.marginTop=10;paper.Add(footerLine);
-   var footer=new KarineScrollView(ScrollViewMode.Horizontal);
-   footer.style.flexShrink=0;footer.style.marginTop=8;
-   footer.contentContainer.style.flexDirection=FlexDirection.Row;paper.Add(footer);
-   foreach(var page in pages) {
-    var target=page;
-    var chip=KarineUI.PaperButton(footer,T(target.titleKey),()=>{selectedFileNode=target.id;FilePage();},
-     target==current?KarinePaperKind.Action:KarinePaperKind.Choice);
-    chip.style.marginRight=6;chip.style.paddingLeft=14;chip.style.paddingRight=14;
-    chip.style.fontSize=Typography.Snap(15);
-   }
+  // Belge listesi (maket): bölümün sayfaları koyu sütunda, okunmamışsa amber nokta.
+  // Eski alt şerit çipleri ve sağdaki sekiz sekme bunun ve üst şeridin yerine geçti.
+  var list=KarineUI.DossierList(root);
+  foreach(var page in pages) {
+   var target=page;
+   KarineUI.DossierListRow(list,T(target.titleKey),PageDate(target),target==current,!game.State.read.Contains(target.id),
+    ()=>{if(selectedFileNode==target.id)return;selectedFileNode=target.id;FilePage();});
   }
-  // Sekme şeridi kendi içinde kayıyordu: dar bir sütuna sekiz sekme sığmadığı
-  // için bir kısmı ekran dışında kalıyor, oraya varmak için önce şeridi
-  // kaydırmak gerekiyordu. Şerit genişledi, kaydırma kalktı — hepsi görünür.
-  // Ayrıca dört ayrı yerde kopyalanan sekme biçimi tek yere toplandı; yeni bir
-  // sekme eklemek artık tek satır.
-  var tabs=new VisualElement();KarineUI.OfficePlace(tabs,KarineTheme.Dossier.Tabs);root.Add(tabs);
-  var icons=new[]{"document","person","fingerprint","clock","pin","image"};int tabIndex=0;
-  foreach(var section in new[]{"report","interview","evidence","timeline","notebook","visual"}) {
+  var tabs=KarineUI.DossierTabColumn(root);
+  var icons=new[]{"document","fingerprint","person","clock","pin"};int tabIndex=0;
+  foreach(var section in new[]{"report","evidence","interview","timeline","notebook"}) {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
-   KarineUI.DossierTab(tabs,icons[tabIndex++],T("file.tab."+choice)+(unread?"  •":""),choice==selectedFileSection,()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();},switchingSection);
+   KarineUI.DossierFolderTab(tabs,icons[tabIndex++],T("file.tab."+choice),choice==selectedFileSection,unread,()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();});
   }
-  KarineUI.DossierTab(tabs,"compare",T("file.tab.compare"),false,()=>{comparePicker=-1;ComparePage();});
-  KarineUI.DossierTab(tabs,"search",T("file.tab.search"),false,FileSearchPage);
-  if(game.CanConclude)KarineUI.DossierTab(tabs,"chart",T("conclude.tab"),false,Conclusion);
+ }
+ // Satırın altındaki tarih yalnız belgenin künyesinde tarih varsa yazılır.
+ string PageDate(Node node) {
+  var field=node.fileMeta?.FirstOrDefault(f=>f.labelKey.EndsWith(".date"));
+  return field!=null?T(field.valueKey):null;
  }
  void DossierOverview(VisualElement paper,Node report) {
   var scroll=Scroll(paper);scroll.name="DossierOverview";scroll.style.flexGrow=1;scroll.style.minHeight=0;
