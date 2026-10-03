@@ -23,7 +23,7 @@ public static partial class KarineUI {
   var back=stage.Q("OfficeBack");var front=stage.Q("OfficeFront");var light=stage.Q<Image>("OfficeLight");
   if(back==null || front==null)return;
   HourTone(front,hour);
-  if(arriving)LampOn(light);
+  // Varışta lambanın titreyerek yanması kaldırıldı (3 Ekim 2026); geçişi düz perde yapar.
   if(!Fx.On)return;
   if(weather=="rain")Rain(back);
   Steam(front);
