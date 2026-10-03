@@ -45,7 +45,7 @@ Akış her öğe için aynıdır:
 - [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
 - [~] CCTV dökümü ve görüntüler (`UI_CCTV`, `UI_CCTV_PLAYER`)
 - [-] Not defteri (kaldırıldı; karşılaştırma notları raporda görünür)
-- [ ] Soruşturma talepleri
+- [~] Soruşturma talepleri (`UI_REQUESTS*`): tam ekran; görüşmeler ve incelemeler sekmesi, durum etiketleri, canlı geri sayım, beklemeyi atla, raporu aç
 
 ## 4. Sorgu
 - [ ] Sorgu odası ve kişi listesi (InterviewPage)

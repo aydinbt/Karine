@@ -1,84 +1,131 @@
 using System;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Q = Bube.KarineTheme.Requests;
 namespace Bube {
+public enum RequestTone { Ready, Waiting, Done, Open, Gone }
 public static partial class KarineUI {
- // Tablet talep ekranı (yeni görünüm, 2 Ekim 2026): solda BDS rayı ve sayaçlı iki sekme,
- // ortada başlık + yönerge + kişi/inceleme listesi, sağda kâğıt ayrıntı kartı.
- public static void RequestLayout(VisualElement parent,string interviews,string investigations,bool active,Action showPeople,Action showDocuments,out VisualElement list,out VisualElement detail,
-  string railSubtitle=null,string hint=null,int interviewCount=0,int investigationCount=0) {
-  // Üstte şerit (BDS + sekmeler yan yana), altta liste ve ayrıntı: yan sütun dar kalıyordu.
-  parent.style.flexDirection=FlexDirection.Column;parent.style.minHeight=0;
-  var rail=new VisualElement();rail.style.flexDirection=FlexDirection.Row;rail.style.alignItems=Align.Center;rail.style.flexShrink=0;
-  rail.style.paddingBottom=KarineTheme.SpaceSm;rail.style.marginBottom=KarineTheme.SpaceMd;rail.style.borderBottomWidth=1;rail.style.borderBottomColor=KarineTheme.GlassLift;parent.Add(rail);
-  var brand=new VisualElement();brand.style.marginRight=KarineTheme.SpaceXl;rail.Add(brand);
-  Title(brand,"BDS",KarineTheme.Requests.TitleSize+KarineTheme.SpaceMd).style.marginBottom=0;
-  if(!string.IsNullOrEmpty(railSubtitle)){var sub=Body_(brand,railSubtitle,KarineTheme.Dossier.MetaSize);sub.style.color=KarineTheme.Secondary;sub.style.marginBottom=0;}
-  RequestTab(rail,"people",interviews,interviewCount,active,showPeople);
-  RequestTab(rail,"document",investigations,investigationCount,!active,showDocuments);
-  var below=new VisualElement();below.style.flexDirection=FlexDirection.Row;below.style.flexGrow=1;below.style.minHeight=0;parent.Add(below);parent=below;
-  var middle=new VisualElement();middle.style.width=Length.Percent(KarineTheme.Requests.ListWidth);middle.style.paddingRight=KarineTheme.SpaceMd;parent.Add(middle);
-  Subtitle(middle,active?interviews:investigations,KarineTheme.Requests.TitleSize).style.marginBottom=0;
-  if(!string.IsNullOrEmpty(hint)){var h=Body_(middle,hint,KarineTheme.Dossier.MetaSize);h.style.color=KarineTheme.Secondary;h.style.marginBottom=KarineTheme.SpaceMd;}
-  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;middle.Add(scroll);list=scroll;
-  detail=new VisualElement {name="RequestDetail"};detail.style.width=Length.Percent(KarineTheme.Requests.DetailWidth);
-  // Koyu kart: beyaz kâğıt tablet ekranında sırıtıyordu. İçerik kâğıt mürekkebiyle yazılır;
-  // yerleşim bitince (ilk çizimden önce) mürekkep tonları ekran tonlarına çevrilir.
-  detail.style.backgroundColor=KarineTheme.GlassDeep;Border(detail,KarineTheme.BorderWidth,KarineTheme.Panel2);Round(detail,KarineTheme.Radius);
-  var card=detail;card.RegisterCallback<GeometryChangedEvent>(_=>OnScreenInk(card));
-  detail.style.paddingLeft=KarineTheme.SpaceLg;detail.style.paddingRight=KarineTheme.SpaceLg;
-  detail.style.paddingTop=KarineTheme.SpaceLg;detail.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(detail);
+ // Talepler ekranı (3 Ekim 2026 maketleri, Docs/Reference/UI_REQUESTS*_2026-10.png): solda koyu panel ve
+ // iki sekme, sağda ataşlı kâğıt. Tam ekran; masadaki tablet çerçevesi kaldırıldı.
+ public static VisualElement RequestPanel(VisualElement parent,out VisualElement tabs) {
+  var panel=new VisualElement {name="RequestPanel"};OfficePlace(panel,Q.Panel);
+  panel.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.96f);Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
+  parent.Add(panel);
+  tabs=new VisualElement();tabs.style.flexDirection=FlexDirection.Row;tabs.style.flexShrink=0;tabs.style.height=Q.TabHeight;
+  tabs.style.borderBottomWidth=1;tabs.style.borderBottomColor=KarineTheme.Border;panel.Add(tabs);
+  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;panel.Add(scroll);
+  var c=scroll.contentContainer;c.style.paddingLeft=KarineTheme.SpaceSm;c.style.paddingRight=KarineTheme.SpaceSm;c.style.paddingTop=KarineTheme.SpaceSm;
+  return c;
  }
- static void RequestTab(VisualElement rail,string icon,string title,int count,bool active,Action click) {
-  var tab=Button_(rail,"",click,active?KarineButtonKind.Primary:KarineButtonKind.Secondary);
-  tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;tab.style.marginRight=KarineTheme.SpaceSm;tab.style.marginBottom=0;
-  tab.style.paddingLeft=KarineTheme.SpaceMd;tab.style.paddingRight=KarineTheme.SpaceMd;
-  var ink=active?KarineTheme.Paper.Ink:KarineTheme.Primary;
-  Icon(tab,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceSm;
-  var label=Body_(tab,title,KarineTheme.Dossier.MetaSize);label.style.color=ink;label.style.marginBottom=0;label.style.whiteSpace=WhiteSpace.NoWrap;
-  if(count>0) {
-   var badge=Body_(tab,count.ToString(),KarineTheme.Dossier.MetaSize);badge.pickingMode=PickingMode.Ignore;badge.style.marginLeft=KarineTheme.SpaceSm;
-   badge.style.color=KarineTheme.Primary;badge.style.backgroundColor=KarineTheme.Danger;badge.style.marginBottom=0;
-   badge.style.minWidth=KarineTheme.Requests.Badge;badge.style.height=KarineTheme.Requests.Badge;badge.style.unityTextAlign=TextAnchor.MiddleCenter;
-   Round(badge,KarineTheme.Radius);
-  }
+ public static void RequestTab(VisualElement tabs,string icon,string label,int count,bool active,Action action) {
+  var tab=new Button(Sounded(action)) {name="RequestTab",tooltip=label};Unskin(tab,active?KarineTheme.Alpha(KarineTheme.Accent,.10f):Color.clear);
+  tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;tab.style.justifyContent=Justify.Center;
+  tab.style.marginLeft=0;tab.style.marginRight=0;tab.style.borderBottomWidth=3;tab.style.borderBottomColor=active?KarineTheme.Accent:Color.clear;tabs.Add(tab);
+  Icon(tab,icon,active?KarineTheme.Accent:KarineTheme.Secondary,Q.TabIcon).style.marginRight=KarineTheme.SpaceSm;
+  Write(tab,label.ToUpper(Tr),active?KarineTheme.Primary:KarineTheme.Secondary,Q.TabSize,Heading).style.marginBottom=0;
+  if(count<=0)return;
+  var badge=new VisualElement {pickingMode=PickingMode.Ignore};badge.style.width=Q.Badge;badge.style.height=Q.Badge;badge.style.marginLeft=KarineTheme.SpaceSm;
+  badge.style.alignItems=Align.Center;badge.style.justifyContent=Justify.Center;badge.style.backgroundColor=KarineTheme.Accent;Round(badge,Q.Badge/2);tab.Add(badge);
+  Write(badge,count.ToString(),KarineTheme.OnPrimary,Q.TabSize-2,Heading).style.marginBottom=0;
  }
- public static Button RequestItem(VisualElement list,Texture2D portrait,string title,string info,bool selected,Action click,string status=null,bool fresh=false,string quote=null) {
-  var button=Button_(list,"",click,selected?KarineButtonKind.Primary:KarineButtonKind.Secondary);
-  button.style.minHeight=KarineTheme.Requests.RowHeight;button.style.flexDirection=FlexDirection.Row;button.style.alignItems=Align.Center;
-  button.style.marginBottom=KarineTheme.SpaceSm;button.style.paddingLeft=KarineTheme.SpaceSm;button.style.paddingRight=KarineTheme.SpaceSm;
-  if(portrait!=null) {var photo=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop};photo.style.width=KarineTheme.Requests.Portrait;photo.style.height=KarineTheme.Requests.Portrait;photo.style.flexShrink=0;photo.style.marginRight=KarineTheme.SpaceMd;button.Add(photo);}
-  var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;words.style.unityTextAlign=TextAnchor.MiddleLeft;button.Add(words);
-  var name=Subtitle(words,title,KarineTheme.Requests.BodySize+2);name.style.color=selected?KarineTheme.Paper.Ink:KarineTheme.Primary;name.style.marginBottom=0;
-  var faded=selected?KarineTheme.Paper.Faded:KarineTheme.Secondary;
-  if(!string.IsNullOrEmpty(status)) {
-   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;words.Add(head);
-   if(fresh){var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.width=KarineTheme.SpaceSm+2;dot.style.height=KarineTheme.SpaceSm+2;dot.style.backgroundColor=KarineTheme.Danger;Round(dot,KarineTheme.SpaceSm);dot.style.marginRight=KarineTheme.SpaceXs;head.Add(dot);}
-   var chip=Body_(head,status.TrimStart('●',' '),KarineTheme.Dossier.MetaSize);chip.style.color=faded;chip.style.marginBottom=0;
-  }
-  var detail=Body_(words,info,KarineTheme.Dossier.MetaSize);detail.style.color=faded;detail.style.marginBottom=0;
-  if(!string.IsNullOrEmpty(quote)){var q=Body_(words,quote,KarineTheme.Dossier.MetaSize);q.style.color=faded;q.style.marginBottom=0;q.style.unityFontStyleAndWeight=FontStyle.Italic;}
-  var chevron=Icon(button,"nav_next",faded,KarineTheme.Requests.Chevron);chevron.style.marginLeft=KarineTheme.SpaceSm;chevron.pickingMode=PickingMode.Ignore;
-  return button;
+ // Liste satırı: kare portre ya da ikon kutusu, ad, bilgi, son söz; sağda durum etiketi. Seçili satır amber çerçeveli.
+ public static Button RequestRow(VisualElement list,Texture2D portrait,string icon,string title,string info,string quote,bool selected,bool fresh,string status,RequestTone tone,Action action) {
+  var row=new Button(Sounded(action)) {name="RequestRow",tooltip=title};row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
+  row.style.minHeight=Q.RowHeight;row.style.marginLeft=0;row.style.marginRight=0;row.style.marginBottom=KarineTheme.SpaceSm;
+  row.style.paddingLeft=KarineTheme.SpaceSm;row.style.paddingRight=KarineTheme.SpaceMd;row.style.paddingTop=KarineTheme.SpaceXs;row.style.paddingBottom=KarineTheme.SpaceXs;
+  Unskin(row,selected?KarineTheme.Alpha(KarineTheme.Accent,.08f):KarineTheme.Alpha(KarineTheme.Background,.7f));
+  Border(row,selected?KarineTheme.BorderWidth+1:KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Border,.6f));Round(row,KarineTheme.Radius);list.Add(row);
+  var box=new VisualElement {pickingMode=PickingMode.Ignore};box.style.width=Q.Portrait;box.style.height=Q.Portrait;box.style.flexShrink=0;box.style.marginRight=KarineTheme.SpaceMd;
+  box.style.alignItems=Align.Center;box.style.justifyContent=Justify.Center;box.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.9f);
+  Border(box,KarineTheme.BorderWidth,KarineTheme.Border);Round(box,KarineTheme.Radius);row.Add(box);
+  if(portrait!=null) {
+   var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};face.style.width=Length.Percent(100);face.style.height=Length.Percent(100);
+   if(tone==RequestTone.Gone)face.tintColor=KarineTheme.Alpha(KarineTheme.Secondary,.6f);box.Add(face);
+  } else Icon(box,icon??"document",tone==RequestTone.Done?KarineTheme.Secondary:KarineTheme.Accent,Q.Portrait/2);
+  var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;row.Add(words);
+  var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;words.Add(head);
+  var t=Write(head,title,KarineTheme.Primary,Q.NameSize,Typewriter);t.style.marginBottom=0;t.style.flexShrink=1;t.style.unityFontStyleAndWeight=FontStyle.Bold;
+  if(fresh){var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.width=Q.Dot;dot.style.height=Q.Dot;dot.style.marginLeft=KarineTheme.SpaceMd;dot.style.backgroundColor=KarineTheme.Accent;Round(dot,Q.Dot/2);head.Add(dot);}
+  if(!string.IsNullOrEmpty(info))Write(words,info,KarineTheme.Secondary,Q.InfoSize,Typewriter).style.marginBottom=0;
+  if(!string.IsNullOrEmpty(quote)){var q=Write(words,quote,KarineTheme.Secondary,Q.InfoSize,Typewriter);q.style.marginBottom=0;q.style.whiteSpace=WhiteSpace.NoWrap;q.style.overflow=Overflow.Hidden;q.style.textOverflow=TextOverflow.Ellipsis;}
+  RequestPill(row,status,tone).style.marginLeft=KarineTheme.SpaceSm;
+  return row;
  }
- static void OnScreenInk(VisualElement card) {
-  card.Query<Label>().ForEach(l=> {
-   var c=l.resolvedStyle.color;
-   if(c==KarineTheme.Paper.Ink)l.style.color=KarineTheme.Primary;
-   else if(c==KarineTheme.Paper.Faded)l.style.color=KarineTheme.Secondary;
-  });
+ // Durum etiketi: hazır amber dolu, bekleyen saatli çerçeve, biten soluk tikli, kapalı kırmızı çerçeve.
+ public static VisualElement RequestPill(VisualElement parent,string label,RequestTone tone) {
+  var pill=new VisualElement {name="RequestPill",pickingMode=PickingMode.Ignore};pill.style.flexDirection=FlexDirection.Row;pill.style.alignItems=Align.Center;pill.style.justifyContent=Justify.Center;
+  pill.style.minWidth=Q.PillWidth;pill.style.height=Q.PillHeight;pill.style.flexShrink=0;pill.style.paddingLeft=KarineTheme.SpaceSm;pill.style.paddingRight=KarineTheme.SpaceSm;Round(pill,KarineTheme.Radius);
+  Color ink=tone==RequestTone.Ready?KarineTheme.OnPrimary:tone==RequestTone.Done?KarineTheme.Alpha(KarineTheme.Secondary,.7f):tone==RequestTone.Gone?KarineTheme.Danger:KarineTheme.Primary;
+  pill.style.backgroundColor=tone==RequestTone.Ready?KarineTheme.Accent:tone==RequestTone.Done?KarineTheme.Alpha(KarineTheme.Border,.4f):KarineTheme.Alpha(KarineTheme.GlassDeep,.9f);
+  Border(pill,KarineTheme.BorderWidth,tone==RequestTone.Ready?KarineTheme.Accent:tone==RequestTone.Gone?KarineTheme.Danger:tone==RequestTone.Waiting?KarineTheme.Border:tone==RequestTone.Done?KarineTheme.Alpha(KarineTheme.Border,.5f):KarineTheme.Primary);
+  if(tone==RequestTone.Waiting||tone==RequestTone.Done)Icon(pill,tone==RequestTone.Waiting?"clock":"check",ink,Q.PillSize+2).style.marginRight=KarineTheme.SpaceXs;
+  var l=Write(pill,label.TrimStart('●',' ').ToUpper(Tr),ink,Q.PillSize,Heading);l.name="RequestPillText";l.style.marginBottom=0;l.style.whiteSpace=WhiteSpace.NoWrap;
+  parent.Add(pill);return pill;
  }
- public static VisualElement RequestDetail(VisualElement parent,Texture2D portrait,string title,string info,string status) {
-  parent.Clear();var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;parent.Add(scroll);
-  // Portre üstte, yazı altta: yan yana dar sütunda kelimeler bölünüyordu.
-  var top=new VisualElement();top.style.flexDirection=FlexDirection.Column;top.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(top);
-  if(portrait!=null) {var photo=new Image{image=portrait,scaleMode=ScaleMode.ScaleAndCrop};photo.style.width=KarineTheme.Requests.DetailPortrait;photo.style.height=KarineTheme.Requests.DetailPortrait;photo.style.flexShrink=0;photo.style.marginBottom=KarineTheme.SpaceSm;top.Add(photo);}
+ public static VisualElement RequestPaper(VisualElement parent) {
+  var paper=new VisualElement {name="RequestDetail"};OfficePlace(paper,Q.Paper);
+  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
+  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);parent.Add(paper);
+  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);
+  var c=scroll.contentContainer;c.style.paddingLeft=KarineTheme.SpaceXl;c.style.paddingRight=KarineTheme.SpaceXl;c.style.paddingTop=KarineTheme.SpaceLg;c.style.paddingBottom=KarineTheme.SpaceLg;
+  return c;
+ }
+ // Kişi kartı başı: ataşlı polaroid, ad, bilgi ve sağ üstte durum.
+ public static void RequestPersonHead(VisualElement paper,Texture2D portrait,string name,string info,string status,RequestTone tone) {
+  var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.marginBottom=KarineTheme.SpaceMd;paper.Add(top);
+  var frame=new VisualElement {pickingMode=PickingMode.Ignore};frame.style.width=Q.Polaroid;frame.style.height=Q.Polaroid*1.1f;frame.style.flexShrink=0;frame.style.marginRight=KarineTheme.SpaceLg;
+  frame.style.paddingLeft=KarineTheme.SpaceXs+2;frame.style.paddingRight=KarineTheme.SpaceXs+2;frame.style.paddingTop=KarineTheme.SpaceXs+2;frame.style.paddingBottom=KarineTheme.SpaceXs+2;
+  frame.style.backgroundColor=KarineTheme.Paper.Light;Border(frame,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);frame.style.rotate=new Rotate(-2);top.Add(frame);
+  if(portrait!=null){var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop};face.style.flexGrow=1;if(tone==RequestTone.Gone)face.tintColor=KarineTheme.Alpha(KarineTheme.Secondary,.6f);frame.Add(face);}
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;top.Add(words);
-  var name=Subtitle(words,title,KarineTheme.Requests.TitleSize);name.style.color=KarineTheme.Paper.Ink;
-  DossierText(words,info,KarineTheme.Requests.BodySize).style.color=KarineTheme.Paper.Faded;
-  DossierText(words,status,KarineTheme.Dossier.MetaSize);
-  var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Panel2;rule.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(rule);
-  return scroll;
+  var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.FlexStart;words.Add(line);
+  var n=Typed(line,name.ToUpper(Tr),Q.HeadSize,true);n.style.flexGrow=1;n.style.flexShrink=1;n.style.whiteSpace=WhiteSpace.Normal;
+  RequestPill(line,status,tone);
+  if(!string.IsNullOrEmpty(info))Typed(words,info,Q.BodySize,false,KarineTheme.Paper.Faded);
+  PaperRule(words,false);
+ }
+ // İnceleme kartı başı: büyük belge ikonu ve başlık; altında talebin adı ve çizgi.
+ public static void RequestDocumentHead(VisualElement paper,string icon,string heading,string title) {
+  var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;top.style.marginBottom=KarineTheme.SpaceSm;paper.Add(top);
+  Icon(top,icon,KarineTheme.Paper.Ink,Q.HeadIcon).style.marginRight=KarineTheme.SpaceMd;
+  Typed(top,heading.ToUpper(Tr),Q.HeadSize,true);
+  PaperRule(paper,false);
+  Typed(paper,title.ToUpper(Tr),Q.SectionSize,true).style.marginBottom=KarineTheme.SpaceXs;
+  PaperRule(paper,false);
+ }
+ public static void RequestSection(VisualElement paper,string heading,string text) {
+  Typed(paper,heading.ToUpper(Tr),Q.SectionSize,true).style.marginTop=KarineTheme.SpaceSm;
+  var b=Typed(paper,text,Q.BodySize);b.style.whiteSpace=WhiteSpace.Normal;b.style.marginBottom=KarineTheme.SpaceMd;
+ }
+ // DURUM / SONUÇ gibi anahtar–değer satırları; anahtar sütunu hafif gölgeli.
+ public static void RequestFact(VisualElement paper,string key,string value) {
+  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;row.style.marginBottom=2;paper.Add(row);
+  var k=new VisualElement();k.style.width=Q.FactKey;k.style.paddingLeft=KarineTheme.SpaceSm;k.style.paddingTop=2;k.style.paddingBottom=2;k.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.35f);row.Add(k);
+  Typed(k,key.ToUpper(Tr),Q.BodySize,true).style.marginBottom=0;
+  var v=Typed(row,":  "+value,Q.BodySize);v.style.marginLeft=KarineTheme.SpaceMd;v.style.marginBottom=0;v.style.flexShrink=1;v.style.whiteSpace=WhiteSpace.Normal;
+ }
+ // Büyük eylem: amber dolu ana düğme ya da koyu ikincil (reklamla beklemeyi atla).
+ public static Button RequestAction(VisualElement paper,string icon,string label,bool primary,Action action) {
+  var b=new Button(Sounded(action)) {name="RequestAction",tooltip=label};b.style.flexDirection=FlexDirection.Row;b.style.alignItems=Align.Center;b.style.justifyContent=Justify.Center;
+  b.style.height=Q.ActionHeight;b.style.marginLeft=0;b.style.marginRight=0;b.style.marginTop=KarineTheme.SpaceMd;
+  Unskin(b,primary?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.GlassDeep,.95f));Border(b,KarineTheme.BorderWidth,primary?KarineTheme.Paper.Ink:KarineTheme.Border);Round(b,KarineTheme.Radius);
+  var ink=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
+  if(!string.IsNullOrEmpty(icon))Icon(b,icon,ink,Q.ActionSize+4).style.marginRight=KarineTheme.SpaceMd;
+  Write(b,label.TrimEnd('›',' ').ToUpper(Tr),ink,Q.ActionSize,Heading).style.marginBottom=0;
+  paper.Add(b);return b;
+ }
+ // Bekleme hali: saat, başlık, açıklama ve büyük geri sayım; geri sayım her saniye kendini yazar.
+ public static void RequestWait(VisualElement paper,string title,string text,DateTime readyUtc) {
+  var box=new VisualElement {name="RequestWait"};box.style.alignItems=Align.Center;box.style.marginTop=KarineTheme.SpaceMd;paper.Add(box);
+  Icon(box,"clock",KarineTheme.Paper.Ink,Q.WaitIcon).style.marginBottom=KarineTheme.SpaceSm;
+  Typed(box,title.ToUpper(Tr),Q.SectionSize+2,true);
+  var t=Typed(box,text,Q.BodySize,false,KarineTheme.Paper.Faded);t.style.whiteSpace=WhiteSpace.Normal;t.style.unityTextAlign=TextAnchor.MiddleCenter;
+  var clock=Typed(box,Countdown(readyUtc),Q.CountdownSize,true);clock.name="RequestCountdown";
+  clock.schedule.Execute(()=>clock.text=Countdown(readyUtc)).Every(1000);
+ }
+ public static string Countdown(DateTime readyUtc) {
+  var left=readyUtc-DateTime.UtcNow;if(left<TimeSpan.Zero)left=TimeSpan.Zero;
+  return ((int)left.TotalMinutes).ToString("00")+":"+left.Seconds.ToString("00");
  }
 }
 }

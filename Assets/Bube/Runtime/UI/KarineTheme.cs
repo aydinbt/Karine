@@ -269,10 +269,12 @@ public static class KarineTheme {
   public static readonly Color PressedTint=new Color(.78f,.74f,.68f,1), DisabledTint=new Color(.5f,.5f,.5f,.7f);
  }
  public static class Requests {
-  public const int Portrait=76, DetailPortrait=118, RowHeight=104, TitleSize=21, BodySize=15, Badge=24, Chevron=18;
-  // Talep tableti üst çubuğun (yüzde 11) altına iner; genişlik de aynı oranda küçülür ki görsel bozulmasın.
-  public const float HeaderClearance=11;
-  public const float ListWidth=56, DetailWidth=44;
+  // 3 Ekim 2026 maketleri: solda koyu liste paneli, sağda kâğıt.
+  public static readonly Rect Panel=new Rect(2.4f,12.5f,46.6f,85);
+  public static readonly Rect Paper=new Rect(51,12.5f,46.6f,85);
+  public const int TabHeight=52, TabIcon=22, TabSize=17, Badge=24, RowHeight=96, Portrait=78, NameSize=17, InfoSize=13, Dot=10;
+  public const int PillWidth=150, PillHeight=38, PillSize=14, Polaroid=170, HeadSize=30, HeadIcon=48, SectionSize=18, BodySize=15;
+  public const int FactKey=150, ActionHeight=60, ActionSize=22, WaitIcon=64, CountdownSize=44;
  }
  public static class Inbox {
   public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;

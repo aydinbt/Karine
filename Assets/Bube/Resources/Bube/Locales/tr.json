@@ -3599,6 +3599,58 @@
   {
    "key": "file.folder.conclude",
    "value": "Sonuç"
+  },
+  {
+   "key": "requests.waiting",
+   "value": "Bekleniyor"
+  },
+  {
+   "key": "requests.waitTitle",
+   "value": "Görüşme bekleniyor"
+  },
+  {
+   "key": "requests.waitText",
+   "value": "Talep iletildi. Kişiye ulaşılıyor."
+  },
+  {
+   "key": "requests.lastStatement",
+   "value": "Son ifade"
+  },
+  {
+   "key": "requests.note",
+   "value": "Not"
+  },
+  {
+   "key": "requests.docHeading",
+   "value": "İnceleme talebi"
+  },
+  {
+   "key": "requests.description",
+   "value": "Açıklama"
+  },
+  {
+   "key": "requests.status",
+   "value": "Durum"
+  },
+  {
+   "key": "requests.result",
+   "value": "Sonuç"
+  },
+  {
+   "key": "requests.resultText",
+   "value": "Gelen Evraklar'a ulaşır"
+  },
+  {
+   "key": "requests.openReport",
+   "value": "Raporu aç"
+  },
+  {
+   "key": "requests.docWaitTitle",
+   "value": "İnceleme sürüyor"
+  },
+  {
+   "key": "requests.docWaitText",
+   "value": "Rapor hazırlanınca Gelen Evraklar'a düşer."
   }
  ]
 }

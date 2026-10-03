@@ -44,7 +44,7 @@ public sealed partial class BubeApp {
  void SkipWait(VisualElement parent,InterviewRequest request,Action refresh) {
   double remaining=(new DateTime(request.readyAtUtcTicks,DateTimeKind.Utc)-DateTime.UtcNow).TotalSeconds;
   if(!AdGateway.MaySkipWait(remaining))return;
-  KarineUI.PaperButton(parent,T("ads.skipWait"),()=>AdGateway.Request(AdPlacement.RewardedSkipWait,AdMoment.Waiting,granted=> {
+  KarineUI.RequestAction(parent,"clock",T("ads.skipWait"),false,()=>AdGateway.Request(AdPlacement.RewardedSkipWait,AdMoment.Waiting,granted=> {
    if(!granted)return;
    request.readyAtUtcTicks=DateTime.UtcNow.Ticks;Save();refresh?.Invoke();
   }));

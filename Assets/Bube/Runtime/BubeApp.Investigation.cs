@@ -13,45 +13,63 @@ namespace Bube {
 // Soruşturma talepleri, zaman çizelgesi, dosya ve karşılaştırma ekranları.
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
- void RequestScreenHeader(VisualElement content) {
-  var screen=content.parent;
-  foreach(var child in screen.Children().Where(c=>c!=content).ToArray())child.RemoveFromHierarchy();
-  KarineUI.DossierHeader(root,T("back.desk"),T(game.Data.titleKey),Desk);
-  var tablet=screen.parent;float bar=KarineTheme.Requests.HeaderClearance;
-  tablet.style.top=Length.Percent(bar);tablet.style.left=Length.Percent(bar/2);
-  tablet.style.width=Length.Percent(100-bar);tablet.style.height=Length.Percent(100-bar);
+ // Talepler tam ekrandır (3 Ekim 2026): masa üstünde koyu liste paneli ve kâğıt, üstte "Masaya dön".
+ VisualElement RequestFrame(bool interviews,Action self) {
+  showingInterviewList=false;showingInvestigationRequests=false;
+  Desk();KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.unit"),Desk,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(self));
+  Back(Desk);
+  var list=KarineUI.RequestPanel(root,out var tabs);
+  KarineUI.RequestTab(tabs,"people",T("tablet.tab.interviews"),InterviewBadgeCount(),interviews,()=>InterviewRequests(false));
+  KarineUI.RequestTab(tabs,"search",T("tablet.tab.investigations"),InvestigationBadgeCount(),!interviews,()=>InvestigationRequests(false));
+  return list;
+ }
+ // Bekleyen etiketin süresi her saniye yeniden yazılır.
+ void LiveWait(VisualElement pill,string label,long readyTicks) {
+  var text=pill.Q<Label>("RequestPillText");var ready=new DateTime(readyTicks,DateTimeKind.Utc);
+  Action write=()=>text.text=(label+" · "+KarineUI.Countdown(ready)).ToUpper(KarineUI.Tr);
+  write();text.schedule.Execute(write).Every(1000);
  }
  string selectedRequestPerson,selectedRequestDocument;
  void InterviewRequests(bool lift=true) {
-  lastPendingCount=game.Data.nodes.Count(pendingPredicate);
-  VisualElement content;BpsTablet("tablet.interviews",out content,lift);RequestScreenHeader(content);showingInterviewList=true;
-  VisualElement list,detail;
-  KarineUI.RequestLayout(content,T("tablet.tab.interviews"),T("tablet.tab.investigations"),true,
-   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail,
-   T("tablet.interviews"),T("tablet.interviewHint"),InterviewBadgeCount(),InvestigationBadgeCount());
+  var list=RequestFrame(true,()=>InterviewRequests(false));
+  lastPendingCount=game.Data.nodes.Count(pendingPredicate);showingInterviewList=true;
   var groups=game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).ToArray();
   var nodes=groups.Select(g=>g.FirstOrDefault(n=>!game.State.read.Contains(n.id))??g.Last()).ToArray();
   var selected=nodes.FirstOrDefault(n=>n.personId==selectedRequestPerson)??nodes.FirstOrDefault();
-  if(selected==null){detail.style.display=DisplayStyle.None;Text(list,T("desk.none"),Muted,KarineTheme.Requests.BodySize);return;}
+  if(selected==null){Text(list,T("desk.none"),Muted,KarineTheme.Requests.BodySize);return;}
+  Node Said(Node node)=>groups.First(g=>g.Key==node.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
   foreach(var node in nodes) {
-   var target=node;
-   var rowStatus=InterviewStatusKey(node);
-   var said=groups.First(g=>g.Key==node.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
-   KarineUI.RequestItem(list,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),T(node.personNameKey),T(node.personInfoKey),node==selected,
-    ()=>{selectedRequestPerson=target.personId;InterviewRequests(false);},
-    T(rowStatus),rowStatus=="interview.status.ready",said==null?null:"“"+T(said.personQuoteKey)+"”");
+   var target=node;var key=InterviewStatusKey(node);var said=Said(node);
+   var row=KarineUI.RequestRow(list,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),null,T(node.personNameKey),T(node.personInfoKey),
+    said==null?null:"“"+T(said.personQuoteKey)+"”",node==selected,key=="interview.status.ready",T(key),InterviewTone(node),
+    ()=>{selectedRequestPerson=target.personId;InterviewRequests(false);});
+   if(game.Pending(node))LiveWait(row.Q("RequestPill"),T("requests.waiting"),WaitTicks(node));
   }
+  var paper=KarineUI.RequestPaper(root);
   string statusKey=InterviewStatusKey(selected);
-  var body=KarineUI.RequestDetail(detail,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey));
-  var quoted=groups.First(g=>g.Key==selected.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
-  KarineUI.DossierText(body,quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"),KarineTheme.Requests.BodySize);
-  if(game.Closed(selected))DoorClosed(selected);
-  if(game.Closed(selected))KarineUI.DossierText(body,locale.Has(selected.closedNoteKey)?T(selected.closedNoteKey):T("interview.goneNote"),KarineTheme.Requests.BodySize);
-  if(game.CanRequest(selected))KarineUI.PaperButton(detail,T("interview.request"),()=>{
+  KarineUI.RequestPersonHead(paper,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey),InterviewTone(selected));
+  if(game.Pending(selected))LiveWait(paper.Q("RequestPill"),T("requests.waiting"),WaitTicks(selected));
+  if(game.Pending(selected)) {
+   var request=game.State.interviewRequests.First(r=>r.nodeId==selected.id);
+   KarineUI.RequestWait(paper,T("requests.waitTitle"),T("requests.waitText"),new DateTime(request.readyAtUtcTicks,DateTimeKind.Utc));
+   SkipWait(paper,request,()=>InterviewRequests(false));
+   return;
+  }
+  var quoted=Said(selected);
+  KarineUI.RequestSection(paper,T("requests.lastStatement"),quoted!=null?"“"+T(quoted.personQuoteKey)+"”":T("interview.noStatement"));
+  if(game.Closed(selected)){DoorClosed(selected);KarineUI.RequestSection(paper,T("requests.note"),locale.Has(selected.closedNoteKey)?T(selected.closedNoteKey):T("interview.goneNote"));}
+  if(game.CanRequest(selected))KarineUI.RequestAction(paper,"people",T("interview.request"),true,()=>{
    if(game.RequestInterview(selected.id)){audioDirector?.Play("ui_dial");Save();InterviewRequests(false);}
   });
-  else if(game.Available(selected))KarineUI.PaperButton(detail,T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),()=>InterviewPage(selected));
-  else if(game.Pending(selected))SkipWait(detail,game.State.interviewRequests.First(r=>r.nodeId==selected.id),()=>InterviewRequests(false));
+  else if(game.Available(selected))KarineUI.RequestAction(paper,"people",T(game.State.read.Contains(selected.id)?"interview.resume":"interview.begin"),true,()=>InterviewPage(selected));
+ }
+ long WaitTicks(Node node)=>game.State.interviewRequests.First(r=>r.nodeId==node.id).readyAtUtcTicks;
+ RequestTone InterviewTone(Node node) {
+  var key=InterviewStatusKey(node);
+  return key=="interview.status.gone"?RequestTone.Gone:key=="interview.status.unrequested"?RequestTone.Open:key=="interview.pending"?RequestTone.Waiting:
+   key=="interview.status.complete"?RequestTone.Done:RequestTone.Ready;
  }
  string InterviewStatusKey(Node node) =>
   game.Closed(node)?"interview.status.gone":game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?
@@ -61,26 +79,32 @@ public sealed partial class BubeApp {
   .Count(g=>g.Any(n=>game.Available(n)&&!game.State.read.Contains(n.id)));
  int InvestigationBadgeCount() => game.Data.nodes.Count(n=>n.kind=="document"&&n.requestable&&game.IncomingDocument(n)&&!game.State.read.Contains(n.id));
  void InvestigationRequests(bool lift=true) {
-  lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);
-  VisualElement content;BpsTablet("tablet.investigations",out content,lift);RequestScreenHeader(content);showingInvestigationRequests=true;
-  VisualElement list,detail;
-  KarineUI.RequestLayout(content,T("tablet.tab.interviews"),T("tablet.tab.investigations"),false,
-   ()=>InterviewRequests(false),()=>InvestigationRequests(false),out list,out detail,
-   T("tablet.investigations"),T("tablet.investigationHint"),InterviewBadgeCount(),InvestigationBadgeCount());
+  var list=RequestFrame(false,()=>InvestigationRequests(false));
+  lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);showingInvestigationRequests=true;
   var documents=game.Data.nodes.Where(n=>n.kind=="document"&&n.requestable&&(game.Discovered(n)||game.State.documentRequests.Any(r=>r.nodeId==n.id))).ToArray();
   var selected=documents.FirstOrDefault(n=>n.id==selectedRequestDocument)??documents.FirstOrDefault();
-  if(selected==null){detail.style.display=DisplayStyle.None;Text(list,T("tablet.noInvestigations"),Muted,KarineTheme.Requests.BodySize);return;}
+  if(selected==null){Text(list,T("tablet.noInvestigations"),Muted,KarineTheme.Requests.BodySize);return;}
+  string Status(Node node)=>game.State.read.Contains(node.id)?"tablet.investigationFiled":game.IncomingDocument(node)?"tablet.investigationArrived":
+   game.State.documentRequests.Any(r=>r.nodeId==node.id)?"tablet.investigationPending":"tablet.investigationAvailable";
+  RequestTone Tone(string key)=>key=="tablet.investigationFiled"?RequestTone.Done:key=="tablet.investigationArrived"?RequestTone.Open:
+   key=="tablet.investigationPending"?RequestTone.Waiting:RequestTone.Ready;
   foreach(var node in documents) {
-   var target=node;
-   bool filed=game.State.read.Contains(node.id),arrived=game.IncomingDocument(node),requested=game.State.documentRequests.Any(r=>r.nodeId==node.id);
-   string status=filed?"tablet.investigationFiled":arrived?"tablet.investigationArrived":requested?"tablet.investigationPending":"tablet.investigationAvailable";
-   KarineUI.RequestItem(list,null,T(node.titleKey),T(status),node==selected,()=>{selectedRequestDocument=target.id;InvestigationRequests(false);},
-    null,arrived&&!filed);
-   if(node==selected)KarineUI.RequestDetail(detail,null,T(node.titleKey),T("tablet.investigationHelp"),T(status));
+   var target=node;var key=Status(node);
+   var row=KarineUI.RequestRow(list,null,"document",T(node.titleKey),null,null,node==selected,key=="tablet.investigationArrived",T(key),Tone(key),
+    ()=>{selectedRequestDocument=target.id;InvestigationRequests(false);});
+   if(key=="tablet.investigationPending")LiveWait(row.Q("RequestPill"),T(key),game.State.documentRequests.First(r=>r.nodeId==node.id).readyAtUtcTicks);
   }
-  if(game.CanRequestDocument(selected))KarineUI.PaperButton(detail,T(selected.requestLabelKey),()=>{
+  var paper=KarineUI.RequestPaper(root);var status=Status(selected);
+  KarineUI.RequestDocumentHead(paper,"document",T("requests.docHeading"),T(selected.titleKey));
+  KarineUI.RequestSection(paper,T("requests.description"),T("tablet.investigationHelp"));
+  KarineUI.RequestFact(paper,T("requests.status"),T(status));
+  KarineUI.RequestFact(paper,T("requests.result"),T("requests.resultText"));
+  if(status=="tablet.investigationPending")KarineUI.RequestWait(paper,T("requests.docWaitTitle"),T("requests.docWaitText"),
+   new DateTime(game.State.documentRequests.First(r=>r.nodeId==selected.id).readyAtUtcTicks,DateTimeKind.Utc));
+  if(game.CanRequestDocument(selected))KarineUI.RequestAction(paper,"document",T(selected.requestLabelKey),true,()=>{
    if(game.RequestDocument(selected.id)){Save();InvestigationRequests(false);}
   });
+  else if(status=="tablet.investigationArrived")KarineUI.RequestAction(paper,"document",T("requests.openReport"),true,InboxPage);
  }
  void FilePage() {
   var previousPaper=root.Q("DossierPaper");
