@@ -28,7 +28,8 @@ public static partial class KarineUI {
   stage.style.position=Position.Absolute;stage.style.overflow=Overflow.Hidden;
   Action fit=()=> {
    var size=parent.contentRect.size;
-   float width=Mathf.Min(size.x,size.y*KarineTheme.Office.Aspect),height=width/KarineTheme.Office.Aspect;
+   // Ekranı kaplar (kenar kırpılır), siyah şerit kalmaz.
+   float width=Mathf.Max(size.x,size.y*KarineTheme.Office.Aspect),height=width/KarineTheme.Office.Aspect;
    stage.style.width=width;stage.style.height=height;
    stage.style.left=(size.x-width)*.5f;stage.style.top=(size.y-height)*.5f;
   };
@@ -124,7 +125,7 @@ public static partial class KarineUI {
   var holder=new VisualElement {pickingMode=PickingMode.Ignore};holder.style.width=KarineTheme.Office.BrandWidth;holder.style.flexShrink=0;
   KarineLogo.Hero(holder,KarineTheme.Office.BrandWidth);parent.Add(holder);
   var menu=new Button(Sounded(action)) {name="OfficeMenu",tooltip=title};
-  menu.style.width=KarineTheme.Office.MenuWidth;menu.style.height=KarineTheme.Office.TabHeight;menu.style.flexShrink=0;
+  menu.style.width=KarineTheme.Office.MenuWidth;menu.style.paddingLeft=0;menu.style.paddingRight=0;menu.style.height=KarineTheme.Office.TabHeight;menu.style.flexShrink=0;
   menu.style.flexDirection=FlexDirection.Row;menu.style.alignItems=Align.Center;menu.style.justifyContent=Justify.Center;
   menu.style.marginLeft=KarineTheme.SpaceLg;menu.style.marginRight=0;
   Unskin(menu,Color.clear);Border(menu,KarineTheme.BorderWidth,KarineTheme.Border);Round(menu,KarineTheme.Radius);
@@ -139,7 +140,7 @@ public static partial class KarineUI {
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;
   words.style.marginLeft=KarineTheme.SpaceLg;words.style.justifyContent=Justify.Center;parent.Add(words);
   var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,KarineTheme.Office.DeskTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;t.style.letterSpacing=1;
-  t.style.whiteSpace=WhiteSpace.NoWrap;t.style.overflow=Overflow.Hidden;t.style.textOverflow=TextOverflow.Ellipsis;
+  t.style.whiteSpace=WhiteSpace.NoWrap;
   if(!string.IsNullOrEmpty(sub)){var s=Body_(words,sub,KarineTheme.Office.SubSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;
    s.style.whiteSpace=WhiteSpace.NoWrap;s.style.overflow=Overflow.Hidden;s.style.textOverflow=TextOverflow.Ellipsis;}
  }
@@ -148,8 +149,8 @@ public static partial class KarineUI {
   var button=new Button(Sounded(action)) {tooltip=title};
   button.style.height=KarineTheme.Office.TabHeight;button.style.flexShrink=0;
   button.style.flexDirection=FlexDirection.Row;button.style.alignItems=Align.Center;button.style.justifyContent=Justify.Center;
-  button.style.paddingLeft=KarineTheme.SpaceMd;button.style.paddingRight=KarineTheme.SpaceMd;
-  button.style.marginLeft=KarineTheme.SpaceSm;button.style.marginRight=0;
+  button.style.paddingLeft=KarineTheme.SpaceSm+2;button.style.paddingRight=KarineTheme.SpaceSm+2;
+  button.style.marginLeft=KarineTheme.SpaceXs;button.style.marginRight=0;
   var ink=selected?KarineTheme.Accent:KarineTheme.Secondary;
   Unskin(button,KarineTheme.Alpha(selected?KarineTheme.Background:KarineTheme.Panel,.9f));
   Border(button,KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Border);Round(button,KarineTheme.Radius);
