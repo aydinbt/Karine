@@ -77,7 +77,7 @@ namespace Bube {
 // Oyuncunun defteri: iki kaynağı kendisi yan yana koyup kendi hükmünü yazar. Oyun hükmün doğru
 // olup olmadığını hiçbir zaman söylemez; not yalnız oyuncunun aklı içindir.
 [Serializable] public class NotebookEntry { public string leftId; public string rightId; public string mark; }
-[Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; }
+[Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; public long askedAtUtcTicks; }
 [Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> triedSources = new List<string>(); public List<string> seenRequests = new List<string>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
 // Kayit gocu. Eski surumden gelen kayit atilmaz, bugunku semaya yukseltilir;
 // gelecekten gelen (daha yeni surumlu) kayit cevrilemez ama silinmez de — oldugu
@@ -312,7 +312,7 @@ public sealed class Investigation {
   if(!SourceMatchesQuestion(q,sourceId) || QuestionNeedsSource(q) && SourceAlreadyPresented(n,q,sourceId))return false;
   var answerKey=AnswerKey(q,sourceId);
   if(!State.asked.Contains(q.id))State.asked.Add(q.id);
-  State.interviewTurns.Add(new InterviewTurn { nodeId=n.id, questionId=q.id, promptKey=q.promptKey, answerKey=answerKey, sourceId=sourceId });
+  State.interviewTurns.Add(new InterviewTurn { nodeId=n.id, questionId=q.id, promptKey=q.promptKey, answerKey=answerKey, sourceId=sourceId, askedAtUtcTicks=DateTime.UtcNow.Ticks });
   if(InterviewComplete(n) && !State.read.Contains(n.id))State.read.Add(n.id);
   return true;
  }

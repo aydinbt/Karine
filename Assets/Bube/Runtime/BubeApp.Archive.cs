@@ -9,8 +9,8 @@ namespace Bube {
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
  void ArchiveBar(string subtitle,Action redraw) {
-  Back(StatisticsPage);root.Clear();KarineUI.InboxScene(root);
-  KarineUI.DossierBar(root,T("career.backToCareer"),T("archive.screen"),subtitle,StatisticsPage,out var tools);
+  Back(Desk);root.Clear();KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.desk"),T("archive.screen"),subtitle,Desk,out var tools);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(redraw));
  }
  void ArchivePage() {
@@ -59,8 +59,12 @@ public sealed partial class BubeApp {
    foreach(var clue in pinned)KarineUI.ArchiveField(paper,T(clue.timeKey),T(clue.noteKey));
   } else if(selected==null)ArchiveReport(paper,item);
   else if(selected.kind=="interview") {
-   KarineUI.ArchiveHeading(paper,T("archive.transcript"));
-   foreach(var turn in progress.interviewTurns.Where(turn=>turn.nodeId==selected.id)) {
+   var turns=progress.interviewTurns.Where(turn=>turn.nodeId==selected.id).ToArray();
+   // Tarih yalnız kaydı tutulan görüşmede yazılır (3 Ekim 2026'dan önceki kayıtlarda saat yok).
+   var first=turns.FirstOrDefault(turn=>turn.askedAtUtcTicks>0);
+   KarineUI.ArchiveHeading(paper,T("archive.transcript"),first==null?null:
+    T("archive.date")+": "+new DateTime(first.askedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy  ·  HH:mm"));
+   foreach(var turn in turns) {
     KarineUI.ArchiveField(paper,T("interview.bora"),T(turn.promptKey));
     var answer=KarineUI.ArchiveField(paper,T(selected.personNameKey),T(turn.answerKey),focusReference==game.InterviewTurnReference(turn));
     if(!string.IsNullOrEmpty(turn.sourceId))ArchiveSourceLink(paper,item,turn.sourceId,T("archive.presented")+" ");
