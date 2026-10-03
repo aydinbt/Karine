@@ -2253,6 +2253,34 @@
    "value": "BİR DEDEKTİF HİKAYESİ"
   },
   {
+   "key": "world.state.ongoing",
+   "value": "DEVAM EDİYOR"
+  },
+  {
+   "key": "world.state.closed",
+   "value": "KAPANDI"
+  },
+  {
+   "key": "world.slot.lockedBody",
+   "value": "Bu dosya henüz erişime açık değil. Önceki vakaları tamamlayın."
+  },
+  {
+   "key": "world.country.cases",
+   "value": "VAKALAR"
+  },
+  {
+   "key": "world.browser.file",
+   "value": "DOSYA"
+  },
+  {
+   "key": "menu.identity.unitLabel",
+   "value": "Birim"
+  },
+  {
+   "key": "menu.identity.locationLabel",
+   "value": "Konum"
+  },
+  {
    "key": "menu.row.continue",
    "value": "Devam Et"
   },
