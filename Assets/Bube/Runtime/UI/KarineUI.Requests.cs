@@ -42,12 +42,13 @@ public static partial class KarineUI {
    var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};face.style.width=Length.Percent(100);face.style.height=Length.Percent(100);
    if(tone==RequestTone.Gone)face.tintColor=KarineTheme.Alpha(KarineTheme.Secondary,.6f);box.Add(face);
   } else Icon(box,icon??"document",tone==RequestTone.Done?KarineTheme.Secondary:KarineTheme.Accent,Q.Portrait/2);
-  var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;row.Add(words);
+  var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.alignItems=Align.FlexStart;row.Add(words);
   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;words.Add(head);
   var t=Write(head,title,KarineTheme.Primary,Q.NameSize,Typewriter);t.style.marginBottom=0;t.style.flexShrink=1;t.style.unityFontStyleAndWeight=FontStyle.Bold;
   if(fresh){var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.width=Q.Dot;dot.style.height=Q.Dot;dot.style.marginLeft=KarineTheme.SpaceMd;dot.style.backgroundColor=KarineTheme.Accent;Round(dot,Q.Dot/2);head.Add(dot);}
   if(!string.IsNullOrEmpty(info))Write(words,info,KarineTheme.Secondary,Q.InfoSize,Typewriter).style.marginBottom=0;
   if(!string.IsNullOrEmpty(quote)){var q=Write(words,quote,KarineTheme.Secondary,Q.InfoSize,Typewriter);q.style.marginBottom=0;q.style.whiteSpace=WhiteSpace.NoWrap;q.style.overflow=Overflow.Hidden;q.style.textOverflow=TextOverflow.Ellipsis;}
+  words.Query<Label>().ForEach(l=>l.style.unityTextAlign=TextAnchor.MiddleLeft);
   RequestPill(row,status,tone).style.marginLeft=KarineTheme.SpaceSm;
   return row;
  }
