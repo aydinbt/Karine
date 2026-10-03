@@ -8,7 +8,7 @@ namespace Bube {
 // üstte ülke sekmeleri, altta dikey dosya kartları, solda kâğıt kimlik kartı.
 // Kart yalnız durum gösterir; fail ipucu, zorluk veya gizli bilgi taşımaz.
 public static partial class KarineUI {
- static readonly System.Globalization.CultureInfo Tr=new System.Globalization.CultureInfo("tr-TR");
+ internal static readonly System.Globalization.CultureInfo Tr=new System.Globalization.CultureInfo("tr-TR");
 
  public static Button CountryTab(VisualElement parent,string id,string name,string tally,
                                  Texture2D art,bool selected,bool unlocked,Action click) {

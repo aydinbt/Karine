@@ -59,46 +59,5 @@ public sealed partial class BubeApp {
   var node=game.Data.nodes.FirstOrDefault(n=>n.id==id);
   return node==null?T("conclude.sourceUnknown"):node.kind=="interview"?T(node.personNameKey):T(node.titleKey);
  }
- void NotebookContents(VisualElement paper,Color ink,Color muted) {
-  if(!coverOpened){coverOpened=true;KarineUI.CoverOpen(paper);}
-  var title=Text(paper,T("notebook.title"),ink,21);title.style.marginBottom=4;
-  if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  Text(paper,T("notebook.help"),muted,14).style.marginBottom=10;
-  var scroll=Scroll(paper);
-  Text(scroll,T("notebook.pairs"),ink,17).style.marginBottom=5;
-  if(game.State.notebook.Count==0)Text(scroll,T("notebook.noPairs"),muted,15);
-  foreach(var entry in game.State.notebook.ToArray()) {
-   var note=entry;
-   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
-   row.style.minHeight=60;row.style.marginBottom=6;row.style.paddingLeft=9;row.style.paddingRight=8;
-   row.style.backgroundColor=KarineTheme.Paper.Tint;row.style.borderLeftWidth=3;
-   row.style.borderLeftColor=note.mark=="conflict"?KarineTheme.Paper.Stamp:KarineTheme.Paper.Edge;scroll.Add(row);
-   var mark=KarineUI.Technical(row,Shape(note.mark)+T("notebook.mark."+note.mark),14);mark.style.color=ink;KarineUI.Handwrite(mark,ink);mark.style.width=110;mark.style.marginBottom=0;
-   var pair=Text(row,NotebookSourceTitle(note.leftId)+"  ↔  "+NotebookSourceTitle(note.rightId),ink,15);
-   pair.style.flexGrow=1;pair.style.flexShrink=1;pair.style.marginBottom=0;
-   var open=KarineUI.PaperButton(row,T("notebook.open"),()=>{compareLeftId=note.leftId;compareRightId=note.rightId;comparePicker=-1;ComparePage();},KarinePaperKind.Quiet);
-   open.style.minHeight=40;open.style.marginLeft=6;open.style.fontSize=Typography.Snap(13);
-   if(!game.State.closed) {
-    var remove=KarineUI.PaperButton(row,T("timeline.remove"),()=>{if(game.RemoveNote(note)){Save();FilePage();}},KarinePaperKind.Action);
-    remove.style.minHeight=40;remove.style.marginLeft=6;remove.style.fontSize=Typography.Snap(13);
-   }
-  }
-  var divider=new VisualElement();divider.style.height=1;divider.style.marginTop=14;
-  divider.style.marginBottom=12;divider.style.backgroundColor=KarineTheme.Paper.Edge;scroll.Add(divider);
-  Text(scroll,T("notebook.lines"),ink,17).style.marginBottom=5;
-  bool any=false;
-  foreach(var node in game.Data.nodes) {
-   var sentences=Investigation.Sentences(T(node.bodyKey));
-   var picked=Enumerable.Range(0,sentences.Length).Where(i=>game.State.highlights.Contains(Investigation.HighlightId(node.id,i))).ToArray();
-   if(picked.Length==0)continue;
-   any=true;
-   Text(scroll,T(node.titleKey),muted,13).style.marginBottom=2;
-   foreach(var i in picked) {
-    var line=Text(scroll,"“"+sentences[i]+"”",ink,15);
-    line.style.marginBottom=6;line.style.paddingLeft=9;line.style.borderLeftWidth=2;line.style.borderLeftColor=KarineTheme.Paper.Stamp;
-   }
-  }
-  if(!any)Text(scroll,T("notebook.noLines"),muted,15);
- }
 }
 }

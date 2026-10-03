@@ -3479,6 +3479,74 @@
   {
    "key": "offer.accept.hint",
    "value": "İlk rapor masana gelir."
+  },
+  {
+   "key": "file.folder.report",
+   "value": "Rapor"
+  },
+  {
+   "key": "file.folder.evidence",
+   "value": "Kanıtlar"
+  },
+  {
+   "key": "file.folder.interview",
+   "value": "Sorgular"
+  },
+  {
+   "key": "file.folder.timeline",
+   "value": "Zaman Çizelgesi"
+  },
+  {
+   "key": "file.folder.notebook",
+   "value": "Not Defteri"
+  },
+  {
+   "key": "file.unit",
+   "value": "Soruşturma Birimi"
+  },
+  {
+   "key": "file.interviewTitle",
+   "value": "Sorgu Dökümü"
+  },
+  {
+   "key": "file.row.interview",
+   "value": "Sorgu Dökümü"
+  },
+  {
+   "key": "file.row.evidence",
+   "value": "Belge"
+  },
+  {
+   "key": "file.meta.speaker",
+   "value": "Konuşulan"
+  },
+  {
+   "key": "interview.presentedStamp",
+   "value": "Öne sürüldü"
+  },
+  {
+   "key": "timeline.listTitle",
+   "value": "Olay Zaman Çizelgesi"
+  },
+  {
+   "key": "timeline.addTitle",
+   "value": "Eklenebilir Olaylar"
+  },
+  {
+   "key": "timeline.addHelp",
+   "value": "Kaynaklarda geçen saatleri çizelgene sen eklersin."
+  },
+  {
+   "key": "notebook.listTitle",
+   "value": "Notlar"
+  },
+  {
+   "key": "notebook.pairTitle",
+   "value": "Kaynak çifti"
+  },
+  {
+   "key": "notebook.lineTitle",
+   "value": "Altı çizili satırlar"
   }
  ]
 }

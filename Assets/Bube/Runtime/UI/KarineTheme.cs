@@ -288,13 +288,18 @@ public static class KarineTheme {
   public const int PhotoCaptionPad=34, MetaIcon=22, SectionIcon=24, TapeWidth=90, ItemHeight=74;
   // 3 Ekim 2026 dosya maketi (Docs/Reference/UI_FILE_2026-10.png): üst şerit, karton
   // klasör, solda karton sekmeler, yanında koyu belge listesi, sağda kâğıt.
-  public static readonly Rect Bar=new Rect(15,1.2f,70,9);
-  public static readonly Rect Case=new Rect(11.5f,12,81,86);
-  public static readonly Rect TabColumn=new Rect(12.8f,15,9.6f,80);
-  public static readonly Rect List=new Rect(22.8f,15,15.6f,80);
-  public static readonly Rect Page=new Rect(39.2f,14,51.6f,82);
-  public const int BarTitleSize=26, BarSubSize=13, BackLabelSize=18, BackWidth=176;
-  public const int FolderTabSize=17, FolderTabIcon=26, RowTitleSize=18, RowSubSize=14, RowDot=10;
+  public static readonly Rect Bar=new Rect(0,0,100,11);
+  public static readonly Rect Case=new Rect(3.5f,12,93.5f,82);
+  public static readonly Rect TabColumn=new Rect(4.6f,14.5f,8.6f,77);
+  public static readonly Rect List=new Rect(13.4f,12.8f,24.3f,79.5f);
+  public static readonly Rect Page=new Rect(39.4f,14,55.6f,77);
+  public const int BarTitleSize=30, BarSubSize=13, BackLabelSize=18, BackWidth=176;
+  public const int FolderTabSize=15, FolderTabIcon=30, RowTitleSize=17, RowSubSize=14, RowDot=10, RowIcon=30, ListHeadSize=22;
+  // Kâğıdın içi: daktilo başlık, "ANAHTAR : değer" künyesi, konuşan/metin iki sütunu, sağ üstte polaroid.
+  public const int PageTitleSize=34, PageKickerSize=16, PageMetaSize=15, PageBodySize=16, SpeakerWidth=150, KeyWidth=130;
+  public const int PolaroidWidth=300, PolaroidHeight=200, StampSize=18;
+  public const float PolaroidTilt=3.5f, StampTilt=-6;
+  public const int LineTimeSize=24, LineNode=22, LineRowHeight=50, LineThumb=44, AddCardWidth=210, SpiralWidth=34, GridStep=22;
  }
 
  public static class Office {

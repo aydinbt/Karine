@@ -82,65 +82,6 @@ public sealed partial class BubeApp {
    if(game.RequestDocument(selected.id)){Save();InvestigationRequests(false);}
   });
  }
- void TimelineRow(VisualElement parent,TimelineClue clue,Color ink,Color muted,string actionKey,Action action) {
-  var row=new VisualElement{name="Clue-"+clue.id};row.style.flexDirection=FlexDirection.Row;
-  row.style.alignItems=Align.Center;row.style.minHeight=70;
-  row.style.marginBottom=6;row.style.paddingLeft=9;row.style.paddingRight=8;
-  row.style.backgroundColor=KarineTheme.Paper.Tint;
-  row.style.borderLeftWidth=3;row.style.borderLeftColor=KarineTheme.Paper.Stamp;
-  parent.Add(row);
-  // Saat teknik metindir (kit §4): monospace, sütun hizası bozulmaz.
-  var time=KarineUI.Technical(row,T(clue.timeKey),17);
-  time.style.color=ink;time.style.width=112;time.style.marginBottom=0;
-  var details=new VisualElement();details.style.flexGrow=1;row.Add(details);
-  Text(details,T(clue.noteKey),ink,15).style.marginBottom=2;
-  Text(details,T(clue.sourceKey),muted,12).style.marginBottom=0;
-  if(action==null)return;
-  var button=KarineUI.PaperButton(row,T(actionKey),action,KarinePaperKind.Action);
-  button.style.width=80;button.style.minHeight=40;
-  button.style.marginLeft=7;button.style.fontSize=Typography.Snap(13);
- }
- void TimelineContents(VisualElement paper,Color ink,Color muted) {
-  var title=Text(paper,T("timeline.title"),ink,21);
-  title.style.marginBottom=4;
-  if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  Text(paper,T("timeline.help"),muted,14).style.marginBottom=10;
-  var scroll=Scroll(paper);
-  Text(scroll,T("timeline.pinned"),ink,17).style.marginBottom=5;
-  var pinnedList=new VisualElement();scroll.Add(pinnedList);
-  var divider=new VisualElement();divider.style.height=1;divider.style.marginTop=14;
-  divider.style.marginBottom=12;divider.style.backgroundColor=KarineTheme.Paper.Edge;scroll.Add(divider);
-  Text(scroll,T("timeline.available"),ink,17).style.marginBottom=5;
-  var availableList=new VisualElement();scroll.Add(availableList);
-  Action refresh=null;
-  refresh=()=>{
-   pinnedList.Clear();availableList.Clear();
-   var clues=game.Data.timelineClues ?? new TimelineClue[0];
-   var pinned=clues.Where(c=>game.State.timelinePinned.Contains(c.id)).OrderBy(c=>c.sortMinute).ThenBy(c=>c.id).ToArray();
-   if(pinned.Length==0)Text(pinnedList,T("timeline.empty"),muted,15);
-   foreach(var clue in pinned) {
-    var id=clue.id;
-    TimelineRow(pinnedList,clue,ink,muted,game.State.closed?null:"timeline.remove",game.State.closed?null:(Action)(()=>{
-     if(game.UnpinTimeline(id)){Save();refresh();}
-    }));
-   }
-   var available=game.State.closed?new TimelineClue[0]:clues.Where(c=>game.TimelineAvailable(c) && !game.State.timelinePinned.Contains(c.id))
-    .OrderBy(c=>c.sortMinute).ThenBy(c=>c.id).ToArray();
-   if(available.Length==0)Text(availableList,T("timeline.noCandidates"),muted,15);
-   foreach(var clue in available) {
-    var id=clue.id;
-    TimelineRow(availableList,clue,ink,muted,"timeline.add",()=>{
-     if(game.PinTimeline(id)){KarineUI.Cue("pin");Save();refresh();KarineUI.PinShake(root.Q("Clue-"+id));}
-    });
-   }
-  };
-  refresh();
- }
- void FileTab(VisualElement column,string label,Action open,Color background) {
-  var tab=KarineUI.PaperButton(column,label,open,KarinePaperKind.Choice,true);
-  tab.style.flexGrow=1;tab.style.marginBottom=5;tab.style.paddingRight=8;
-  tab.style.backgroundColor=background;tab.style.fontSize=Typography.Snap(15);
- }
  void FilePage() {
   var previousPaper=root.Q("DossierPaper");
   bool openingFile=previousPaper==null;
@@ -169,130 +110,13 @@ public sealed partial class BubeApp {
   KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
   if(openingFile || switchingSection)SceneVeil();
   EchoLeaving(current);
-  KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.department"),Desk,out var tools);
-  KarineUI.DossierTool(tools,"search",T("file.tab.search"),FileSearchPage);
-  KarineUI.DossierTool(tools,"compare",T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();});
-  if(game.CanConclude)KarineUI.DossierTool(tools,"chart",T("conclude.tab"),Conclusion);
-  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(FilePage));
-  var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
-  if(selectedFileSection=="report") {
-   DossierOverview(paper,report);
-  } else if(selectedFileSection=="timeline") {
-   TimelineContents(paper,fileInk,fileMuted);
-  } else if(selectedFileSection=="notebook") {
-   NotebookContents(paper,fileInk,fileMuted);
-  } else if(selectedFileSection=="visual") {
-   Text(paper,T("file.visuals"),fileInk,22);
-   var visual=Resources.Load<Texture2D>(report.imageResource);
-   if(visual!=null) {
-    var img=new Image{image=visual,scaleMode=ScaleMode.ScaleToFit};img.style.flexGrow=1;paper.Add(img);
-    Text(paper,T(report.imageCaptionKey),fileMuted,15);
-   } else Text(paper,T("file.emptyVisual"),fileMuted,18);
-  } else if(current==null) {
-   Text(paper,T(selectedFileSection=="interview"?"file.emptyInterview":"file.emptyEvidence"),fileMuted,19);
-   var filler=new VisualElement();filler.style.flexGrow=1;paper.Add(filler);
-  } else {
-   var heading=Text(paper,T(current.titleKey).ToUpperInvariant(),fileInk,19);
-   if(dossierBoldFont!=null)heading.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-   // Metin ile görsel yan yana iki sütundaydı: telefonda metin yarı genişliğe
-   // düşüyor, kendi kaydırma çubuğunu kazanıyor ve sayfa içinde ikinci bir
-   // kaydırma alanı doğuyordu. Tek sütun, tek kaydırma; görsel akışın içinde.
-   var textColumn=new VisualElement();textColumn.style.flexGrow=1;paper.Add(textColumn);
-   if(current.fileMeta!=null)foreach(var field in current.fileMeta) {
-    var meta=Text(textColumn,T(field.labelKey)+"  :  "+T(field.valueKey),fileInk,14);meta.style.marginBottom=5;
-   }
-   if(current.fileMeta!=null && current.fileMeta.Length>0) {
-    var divider=new VisualElement();divider.style.height=1;divider.style.marginTop=9;divider.style.marginBottom=15;
-    divider.style.backgroundColor=KarineTheme.Paper.Edge;textColumn.Add(divider);
-   }
-   var body=Scroll(textColumn);
-   if(current.kind=="interview")Text(body,T(current.bodyKey),fileInk,17);
-   else MarkableBody(body,current,fileInk,fileMuted);
-   if(current.kind=="interview") {
-    var turns=game.State.interviewTurns.Where(turn=>turn.nodeId==current.id).ToArray();
-    if(turns.Length>0) {
-     var transcriptTitle=Text(body,T("file.transcript"),fileInk,18);
-     transcriptTitle.style.marginTop=16;
-     for(int turnIndex=0;turnIndex<turns.Length;turnIndex++) {
-      var turn=turns[turnIndex];
-      Text(body,(turnIndex+1)+"  "+T("interview.bora"),fileMuted,14);
-      Text(body,T(turn.promptKey),fileInk,16);
-      if(!string.IsNullOrEmpty(turn.sourceId)) {
-       Text(body,T("interview.presented")+"  "+ReviewSourceTitle(game.Data,turn.sourceId),fileMuted,14);
-      }
-      Text(body,T(current.personNameKey),fileMuted,14);
-      var answer=Text(body,T(turn.answerKey),fileInk,16);
-      answer.style.marginBottom=13;
-      if(game.InterviewTurnReference(turn)==selectedSearchTurn) {
-       selectedSearchTurn=null;
-       body.schedule.Execute(()=>body.ScrollTo(answer));
-      }
-     }
-    } else Text(body,T("file.noTranscript"),fileMuted,15);
-   }
-   if(!string.IsNullOrEmpty(current.imageResource)) {
-    var texture=Resources.Load<Texture2D>(current.imageResource);
-    if(texture!=null) {
-     var photo=new Image{image=texture,scaleMode=ScaleMode.ScaleAndCrop};
-     photo.style.height=240;photo.style.marginTop=16;
-     KarineUI.Develop(photo,current.imageResource);
-     KarineUI.Tilt(KarineUI.Inspectable(body,photo,current.imageResource,T("ink.draw"),T("ink.clear")));
-     Text(body,T(current.imageCaptionKey),fileMuted,13);
-    }
-   }
-  }
-  // Belge listesi (maket): bölümün sayfaları koyu sütunda, okunmamışsa amber nokta.
-  // Eski alt şerit çipleri ve sağdaki sekiz sekme bunun ve üst şeridin yerine geçti.
-  var list=KarineUI.DossierList(root);
-  foreach(var page in pages) {
-   var target=page;
-   KarineUI.DossierListRow(list,T(target.titleKey),PageDate(target),target==current,!game.State.read.Contains(target.id),
-    ()=>{if(selectedFileNode==target.id)return;selectedFileNode=target.id;FilePage();});
-  }
-  var tabs=KarineUI.DossierTabColumn(root);
-  var icons=new[]{"document","fingerprint","person","clock","pin"};int tabIndex=0;
-  foreach(var section in new[]{"report","evidence","interview","timeline","notebook"}) {
-   var choice=section;
-   var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
-   KarineUI.DossierFolderTab(tabs,icons[tabIndex++],T("file.tab."+choice),choice==selectedFileSection,unread,()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();});
-  }
+  FileFrame(paper,report,pages,current);
  }
  // Satırın altındaki tarih yalnız belgenin künyesinde tarih varsa yazılır.
  string PageDate(Node node) {
   var field=node.fileMeta?.FirstOrDefault(f=>f.labelKey.EndsWith(".date"));
   return field!=null?T(field.valueKey):null;
  }
- void DossierOverview(VisualElement paper,Node report) {
-  var scroll=Scroll(paper);scroll.name="DossierOverview";scroll.style.flexGrow=1;scroll.style.minHeight=0;
-  scroll.contentContainer.style.paddingBottom=KarineTheme.SpaceXl*2;
-  var upper=KarineUI.DossierRow(scroll);upper.style.alignItems=Align.Center;
-  var identity=KarineUI.DossierColumn(upper,48);
-  KarineUI.DossierTitle(identity,T(game.Data.titleKey));
-  KarineUI.DossierText(identity,CaseText("file.caseType","file.caseType"),KarineTheme.Dossier.BodySize);
-  if(report.fileMeta!=null && report.fileMeta.Length>0) {
-   var grid=KarineUI.DossierMetaGrid(identity);
-   foreach(var field in report.fileMeta)KarineUI.DossierMeta(grid,MetaIcon(field.labelKey),T(field.labelKey),T(field.valueKey));
-  }
-  var photo=KarineUI.DossierColumn(upper,52);
-  var texture=Resources.Load<Texture2D>(report.imageResource);
-  if(texture!=null)KarineUI.DossierPhoto(photo,texture,T(report.imageCaptionKey));
-  var lower=KarineUI.DossierRow(scroll);
-  var story=KarineUI.DossierColumn(lower,65);
-  KarineUI.DossierSection(story,"document",T(report.titleKey));
-  var body=KarineUI.DossierText(story,T(report.bodyKey),KarineTheme.Dossier.BodySize);body.style.whiteSpace=WhiteSpace.Normal;body.style.flexShrink=0;
-  var people=KarineUI.DossierColumn(lower,35);
-  KarineUI.DossierSection(people,"people",T("file.relatedPeople"));
-  foreach(var person in game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).Select(g=>g.First()))
-   KarineUI.DossierPerson(people,Resources.Load<Texture2D>("Bube/Characters/"+person.personId),T(person.personNameKey),T(person.personInfoKey));
-  if(report.relatedItems!=null && report.relatedItems.Length>0) {
-   var section=new VisualElement();section.style.marginTop=KarineTheme.SpaceLg;people.Add(section);
-   KarineUI.DossierSection(section,"image",T("file.relatedItems"));
-   var shelf=new VisualElement();shelf.style.flexDirection=FlexDirection.Row;section.Add(shelf);
-   foreach(var item in report.relatedItems)
-    KarineUI.DossierItem(shelf,Resources.Load<Texture2D>(item.imageResource),T(item.nameKey),T(item.detailKey));
-  }
- }
-
  // Künye alanının simgesi etiketin anahtarından gelir; bilinmeyen alan simgesiz kalır.
  static string MetaIcon(string labelKey) {
   if(labelKey.EndsWith(".location"))return "pin";
