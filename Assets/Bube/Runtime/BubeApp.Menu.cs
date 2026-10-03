@@ -146,7 +146,7 @@ public sealed partial class BubeApp {
  }
 
  // Hakkında: açıldığı ekranın üstünde modal. Emeği geçenler yalnız gerçek
- // kaynakları sayar; gizlilik ve geri bildirim bağlantısı adresleri gelince eklenir.
+ // kaynakları sayar; gizlilik ve geri bildirim düğmeleri adresler gelince açılır.
  void AboutPage() {
   var escape=escapeBack;
   System.Action close=()=>{root.Q("AboutModal")?.RemoveFromHierarchy();escapeBack=escape;};
@@ -171,7 +171,9 @@ public sealed partial class BubeApp {
   KarineUI.AboutCredit(list,T("about.credit.studio"),"bubeGames");
   KarineUI.AboutCredit(list,T("about.credit.fonts"),T("about.credit.fonts.detail"));
   KarineUI.ModalSection(list,T("about.links")).style.marginTop=KarineTheme.SpaceLg;
-  KarineUI.AboutLink(list,"info",T("settings.ads"),T("about.link.ads"),()=>AskForAdConsent(null));
+  // Adresler henüz yok: düğmeler yerinde durur ama basılmaz.
+  KarineUI.AboutLink(list,"lock",T("about.link.privacy"),T("about.link.privacy.hint"),null).SetEnabled(false);
+  KarineUI.AboutLink(list,"chat",T("about.link.feedback"),T("about.link.feedback.hint"),null).SetEnabled(false);
   KarineUI.ModalRule(panel);
   var footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;panel.Add(footer);
   var copy=KarineUI.Body_(footer,"© "+System.DateTime.Now.Year+" bubeGames. "+T("about.rights"),KarineTheme.SettingsModal.RowHintSize);copy.style.color=KarineTheme.Secondary;copy.style.marginBottom=0;

@@ -3417,12 +3417,24 @@
    "value": "Bağlantılar"
   },
   {
-   "key": "about.link.ads",
-   "value": "Kişiselleştirilmiş reklam tercihin."
-  },
-  {
    "key": "about.rights",
    "value": "Tüm hakları saklıdır."
+  },
+  {
+   "key": "about.link.privacy",
+   "value": "Gizlilik politikası"
+  },
+  {
+   "key": "about.link.privacy.hint",
+   "value": "Verilerinin nasıl işlendiğini öğren."
+  },
+  {
+   "key": "about.link.feedback",
+   "value": "Geri bildirim"
+  },
+  {
+   "key": "about.link.feedback.hint",
+   "value": "Görüş ve önerilerini bizimle paylaş."
   }
  ]
 }
