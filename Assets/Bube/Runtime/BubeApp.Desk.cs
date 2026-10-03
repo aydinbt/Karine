@@ -24,8 +24,15 @@ public sealed partial class BubeApp {
    game=new Investigation(Load<CaseData>("Bube/Cases/"+config.initialCase),null,null,careerRules){Text=locale};
    game.Career.activeCaseId=game.Data.id; selectedSuspect=selectedMethod=selectedEvidence=selectedCustody=null;
    selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=selectedCustodySource=null;
+   foreach(var file in Resources.LoadAll<TextAsset>("Bube/Cases"))ForgetCaseMoments(file.name);
    Save(); confirmRestart=false; MaybeWorldIntro(Desk);
   },true);
+ }
+ // Vaka başına bir kez oynayan anlar (açılış kartı, kapanış, mürekkep) PlayerPrefs'te işaretlidir.
+ // Yeni kariyerde ve yeni görevde vaka ilk kez başlıyormuş gibi davranmalı; işaretler silinir.
+ void ForgetCaseMoments(string caseId) {
+  foreach(var key in new[]{"karine.opened.","karine.caseClosed.","karine.inkDry."})PlayerPrefs.DeleteKey(key+caseId);
+  PlayerPrefs.Save();
  }
  void Hotspot(string label,float x,float y,float w,float h,Action action) {
   // Masadaki nesne de bir düğmedir: basıldığında duyulmalı. Kit dışında

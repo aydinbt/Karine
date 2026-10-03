@@ -276,7 +276,7 @@ public sealed partial class BubeApp {
    // (sıfırlanmış kariyerden kalan, hatta kapatılmış) yüklenmez; yoksa vaka oynanmadan atlanıyordu.
    // Önceki dosyanın değerlendirmesi faksla bu vakanın içinde gelir.
    Progress progress=null;
-   PlayerPrefs.DeleteKey("karine.caseClosed."+nextId);PlayerPrefs.DeleteKey("karine.inkDry."+nextId);PlayerPrefs.Save();
+   ForgetCaseMoments(nextId);
    game=new Investigation(nextData,progress,game.Career,careerRules){Text=locale};
    game.Career.activeCaseId=nextId;
    game.BeginNextCaseReview(7);
