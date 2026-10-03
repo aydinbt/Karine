@@ -290,23 +290,25 @@ public static class KarineTheme {
 
  public static class Office {
   public const float Aspect=1672f/941f;
-  public const int BrandWidth=185,TitleSize=19,LabelSize=14,SmallSize=12;
-  public const int BadgeSize=24,HeaderHeight=80,HeaderActionWidth=96,PortraitWidth=68,PortraitHeight=72;
+  // 3 Ekim 2026 masa maketi (Docs/Reference/UI_DESK_2026-10.png). Sahne resmi yazısızdır;
+  // dosya adı, bildirim ve tablet ekranı kodla üstüne yazılır, her vakada aynı resim kullanılır.
+  public const int BrandWidth=118,MenuWidth=120,TabHeight=44,TabIcon=20,TabLabelSize=15,DeskTitleSize=26,TitleSize=19,SubSize=13,LabelSize=14,SmallSize=12;
+  public const int BadgeSize=34,BadgeTextSize=20,NoticeTitleSize=18,NoticeSubSize=12,HeaderActionWidth=96,PortraitWidth=68,PortraitHeight=72;
+  public const int FolderLabelSize=14,ScreenTitleSize=16,ScreenTextSize=11;
+  public const float HeaderHeight=10.6f,FolderLabelTilt=-2.5f,ScreenTilt=3.5f,OutlineAlpha=.55f;
   public const int BlinkMs=520;
-  // Coordinates in the reusable room plate; all props share the same stage.
-  public static readonly Rect Window=new Rect(30.3f,7.8f,39.3f,35.9f);
-  public static readonly Rect Board=new Rect(65,14,27,28);
-  public static readonly Rect Lamp=new Rect(2.39f,13.28f,27.21f,41.98f);
-  public static readonly Rect Inbox=new Rect(7.66f,50.8f,21.29f,15.52f);
-  public static readonly Rect Phone=new Rect(28.47f,48.35f,15.49f,17f);
-  public static readonly Rect Folder=new Rect(32.06f,60.36f,28.47f,22.95f);
-  public static readonly Rect Monitor=new Rect(62.08f,35.39f,26.85f,30.29f);
-  public static readonly Rect Evidence=new Rect(72.67f,64.29f,27.33f,20.19f);
-  public static readonly Rect InboxLabel=new Rect(9.4f,51.3f,15.2f,6.7f);
-  public static readonly Rect PhoneLabel=new Rect(30.3f,51.3f,15.4f,6.4f);
-  public static readonly Rect FolderLabel=new Rect(40.6f,73.4f,15.1f,6.6f);
-  public static readonly Rect MonitorLabel=new Rect(67.3f,52.4f,16.9f,6.9f);
-  public static readonly Rect EvidenceLabel=new Rect(82,77.9f,15.1f,6.7f);
+  // Yazısız sahnedeki eşyaların yeri (yüzde).
+  public static readonly Rect Window=new Rect(0,0,26,40);
+  public static readonly Rect Board=new Rect(38,0,45,36);
+  public static readonly Rect Lamp=new Rect(67.6f,10,24.5f,40);
+  public static readonly Rect Inbox=new Rect(56.5f,43.6f,27.8f,16);
+  public static readonly Rect Phone=new Rect(3.3f,50,21.2f,22.3f);
+  public static readonly Rect Folder=new Rect(28.4f,56.9f,31.7f,28.7f);
+  public static readonly Rect Monitor=new Rect(68,54.5f,30.5f,36);
+  public static readonly Rect Evidence=new Rect(0,74.4f,23.6f,25.6f);
+  public static readonly Rect FolderLabel=new Rect(41.7f,62.5f,11.8f,6.1f);
+  public static readonly Rect Screen=new Rect(71,58.5f,25.5f,28);
+  public static readonly Rect Notice=new Rect(62.2f,41.3f,13.6f,7.6f);
   // Masanın havası (`KarineUI.OfficeAtmosphere`). Işık ve kararma kit paletinden
   // boyanır; buradaki sayılar yalnız miktar ve hızdır.
   // Masanın hâli (`KarineUI.OfficeWeather`): saat tonu, yağmur, far, buhar, lamba.
@@ -319,12 +321,12 @@ public static class KarineTheme {
    public const float StreakLength=9f, StreakAlpha=.22f, RainSlant=7f, RainSpeed=95f, DropAlpha=.35f, DropSpeed=6f;
    public static readonly Color BeamColor=Hex("#FFE9C2");
    public const float BeamWidth=38f, BeamAlpha=.16f, BeamSeconds=2.6f, CarGain=.35f; public const int BeamMinMs=30000, BeamMaxMs=80000;
-   public static readonly Rect SteamArea=new Rect(1.2f,38,6.5f,16);
+   public static readonly Rect SteamArea=new Rect(25,43,6.5f,11);
    public const int SteamPuffs=5; public const float SteamAlpha=.10f, PanWidth=.7f;
   }
   public static class Atmosphere {
-   public static readonly Rect LightPool=new Rect(-14,26,62,74);
-   public static readonly Rect DustArea=new Rect(4,24,34,48);
+   public static readonly Rect LightPool=new Rect(50,28,62,72);
+   public static readonly Rect DustArea=new Rect(64,20,30,40);
    public const float LightAlpha=.20f, LightBreath=.06f, LightBreathSpeed=.7f;
    public const float VignetteAlpha=.62f;
    public const int DustCount=18;
