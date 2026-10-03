@@ -27,7 +27,8 @@ public static partial class KarineUI {
   var stage=new VisualElement {name="OfficeStage"};parent.Add(stage);
   stage.style.position=Position.Absolute;stage.style.overflow=Overflow.Hidden;
   Action fit=()=> {
-   var size=parent.contentRect.size;
+   // Güvenli alan dolgusu contentRect'i küçültür; mutlak konum dolgu kutusuna göre olduğundan tam boy kullanılır.
+   var size=parent.layout.size;
    // Ekranı kaplar (kenar kırpılır), siyah şerit kalmaz.
    float width=Mathf.Max(size.x,size.y*KarineTheme.Office.Aspect),height=width/KarineTheme.Office.Aspect;
    stage.style.width=width;stage.style.height=height;
