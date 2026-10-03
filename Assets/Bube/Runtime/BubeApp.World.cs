@@ -76,7 +76,7 @@ public sealed partial class BubeApp {
   var side=new VisualElement {name="CaseBrowserSidebar"};
   side.style.position=Position.Absolute;side.style.left=KarineTheme.CaseFiles.SidebarLeft;side.style.top=KarineTheme.CaseFiles.Top-KarineTheme.SpaceMd;
   side.style.bottom=KarineTheme.CaseFiles.Bottom;side.style.width=KarineTheme.CaseFiles.SidebarWidth;root.Add(side);
-  KarineLogo.Hero(side,KarineTheme.CaseFiles.LogoWidth);
+  KarineLogo.Aligned(side,KarineTheme.CaseFiles.LogoWidth);
   KarineLogo.Tagline(side,KarineTheme.CaseFiles.LogoWidth,T("menu.tagline")).style.marginBottom=KarineTheme.SpaceXl;
   MenuRow(side,"cine_skip",T(game.State.caseAccepted?"menu.row.continue":"menu.row.start"),game.State.caseAccepted?(Action)Desk:()=>MaybeWorldIntro(Desk),false);
   MenuRow(side,"folder",T("menu.row.chapters"),WorldPage,true);
