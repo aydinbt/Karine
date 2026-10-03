@@ -41,7 +41,7 @@ Akış her öğe için aynıdır:
 ## 3. Soruşturma
 - [x] Dosya ve kanıt sayfası (FilePage, `UI_FILE*`): sekmeler, liste, rapor kâğıdı gözlendi; sorgu/zaman çizelgesi kâğıtları `[~]`; not defteri sekmesi kaldırıldı
 - [~] Dosyada arama (FileSearchPage, `UI_SEARCH`)
-- [ ] Belge okuma (ReadPage)
+- [-] Belge okuma (ReadPage): belgeler dosya kâğıdında açılıyor; ayrı ekran yalnız hiçbir vakada olmayan `bps` türü için kaldı, tablet kararına bağlı
 - [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
 - [ ] CCTV dökümü ve görüntüler
 - [-] Not defteri (kaldırıldı; karşılaştırma notları raporda görünür)
