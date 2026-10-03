@@ -59,6 +59,10 @@ public static class KarineTheme {
   public const float WindowLeft=34f, WindowTop=0f, WindowWidth=32f, WindowHeight=48f;
   public const float LampX=77f, LampY=44f, LampSize=22f;
   public const float NeonSeconds=1.2f;
+  // Ana menü canlılığı: açılış, satır tepkisi, pencerede şimşek, lamba ışığında toz.
+  public const float IntroSeconds=.7f, LogoFrom=.94f, RowSeconds=.35f, RowSlide=24f, HoverShift=6f, HoverSeconds=.15f;
+  public const int RowStaggerMs=60, HoverBar=3, Motes=18, MenuThunderMinMs=14000, MenuThunderMaxMs=32000;
+  public const float MenuFlashAlpha=.22f, MoteAlpha=.35f, VignetteAlpha=.6f;
   public const float PostureSeconds=1.6f, PostureShift=2.5f, PostureTilt=.4f;
   public const int PostureMinMs=6000, PostureMaxMs=14000, BlinkMs=130, BlinkMinMs=3000, BlinkMaxMs=7000;
   public const float LiftScale=.04f, LiftShadow=6f;

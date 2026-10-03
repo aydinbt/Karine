@@ -40,6 +40,7 @@ public static partial class KarineUI {
   row.Add(text);
   var next=Icon(row,"nav_next",primary?tone:KarineTheme.Secondary,KarineTheme.IconSize-4);
   next.pickingMode=PickingMode.Ignore;
+  MenuHover(row,primary);
   var pressed=primary?Color.Lerp(normal,KarineTheme.Background,.2f):KarineTheme.Panel2;
   row.RegisterCallback<PointerDownEvent>(_=>row.style.backgroundColor=pressed);
   row.RegisterCallback<PointerUpEvent>(_=>row.style.backgroundColor=normal);
