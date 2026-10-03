@@ -273,6 +273,11 @@ public sealed partial class BubeApp {
   if(fax.correct && !fax.reopened){ClosedCard(fax.caseId,()=>FaxSheet(fax));return;}
   FaxSheet(fax);
  }
+ // Faks tablosundaki açıklama: masadaki faksla aynı gerekçe metni.
+ string FaxReason(string sourceId,bool supported,string claim) {
+  var src=(sourceId??"").Split('#')[0];
+  return T(supported?"fax.reason.supported":src=="report"?"fax.reason."+claim+".report":"fax.reason."+claim+".other");
+ }
  void FaxSheet(FaxReview fax) {
   Back(Desk);root.Clear();KarineUI.InboxScene(root);
   var reviewedAsset=Resources.Load<TextAsset>("Bube/Cases/"+fax.caseId);
@@ -290,16 +295,16 @@ public sealed partial class BubeApp {
    var method=reviewed.methods.FirstOrDefault(v=>v.id==fax.methodId);
    var proof=reviewed.evidence.FirstOrDefault(v=>v.id==fax.proofId);
    var custody=(reviewed.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
-   if(person!=null)KarineUI.FaxRow(table,T(SuspectKey(reviewed)),T(person.labelKey),Verdict(fax.suspectSupported));
-   if(method!=null)KarineUI.FaxRow(table,T(MethodKey(reviewed)),T(method.labelKey),Verdict(fax.methodSupported));
-   if(custody!=null)KarineUI.FaxRow(table,ReportCustodyHeading(reviewed),T(custody.labelKey),Verdict(fax.custodySupported));
-   if(proof!=null)KarineUI.FaxRow(table,T("conclude.evidence"),T(proof.labelKey),Verdict(fax.proofSupported));
+   if(person!=null)KarineUI.FaxRow(table,T(SuspectKey(reviewed)),T(person.labelKey)+"\n"+FaxReason(fax.suspectSourceId,fax.suspectSupported,"suspect"),Verdict(fax.suspectSupported));
+   if(method!=null)KarineUI.FaxRow(table,T(MethodKey(reviewed)),T(method.labelKey)+"\n"+FaxReason(fax.methodSourceId,fax.methodSupported,"method"),Verdict(fax.methodSupported));
+   if(custody!=null)KarineUI.FaxRow(table,ReportCustodyHeading(reviewed),T(custody.labelKey)+"\n"+FaxReason(fax.custodySourceId,fax.custodySupported,"custody"),Verdict(fax.custodySupported));
+   if(proof!=null)KarineUI.FaxRow(table,T("conclude.evidence"),T(proof.labelKey)+"\n"+FaxReason(fax.proofSourceId,fax.proofSupported,"evidence"),Verdict(fax.proofSupported));
+   // Yalnız elimizdeki metin yazılır: dosyanın akıbeti (vaka verisi) ve kapanış notu.
+   foreach(var key in new[]{person?.epilogueKey,custody?.epilogueKey}.Where(k=>!string.IsNullOrEmpty(k) && locale.Has(k)))KarineUI.FaxNote(body,T(key));
   }
-  var type=string.IsNullOrEmpty(fax.evaluationType)?(fax.correct?"supported":"incomplete"):fax.evaluationType;
-  if(locale.Has("fax.note."+type))KarineUI.FaxNote(body,T("fax.note."+type));
+  KarineUI.FaxNote(body,T("fax.closing"));
   KarineUI.FaxSeal(body,T("fax.seal"));
-  var side=KarineUI.FaxSide(root,T("career.trust"),T(game.TrustStatusKey),fax.trustChange,
-   T(fax.trustChange>0?"fax.trustUp":fax.trustChange<0?"fax.trustDown":"fax.trustSame"));
+  var side=KarineUI.FaxSide(root,T("career.trust"),T(TrustStatusKey(fax.trustAfter)),fax.trustChange,null);
   KarineUI.FaxLink(side,"folder",T("career.openRecord"),StatisticsPage);
   if(RetryOffered(fax))KarineUI.FaxLink(side,"refresh",T("retry.watch"),OfferRetry);
   if(game.Career.retired)Text(side,T("career.ended"),KarineTheme.Danger,18);
