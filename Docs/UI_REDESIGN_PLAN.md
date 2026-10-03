@@ -34,9 +34,9 @@ Akış her öğe için aynıdır:
 - [x] Üst gezinme çubuğu: dosya başlığı, sekmeler, ayarlar
 - [x] Masa sahnesi ve nesne düğmeleri: telefon, dosya, tepsi, lamba, CCTV tableti
 - [x] Gelen evrak bildirimi: yanıp sönen rozet ve önizleme
-- [ ] Çıkış / ana menüye dönüş düğmesi
+- [x] Çıkış / ana menüye dönüş düğmesi: masadaki Menü düğmesi karşılıyor
 - [x] Gelen evrak modalı, teklif hali (`UI_INBOX`); diğer evrak türleri `[~]`
-- [ ] Tablet çerçevesi (karar bekliyor: dijital kaynaklar tablette)
+- [ ] Tablet çerçevesi (ertelendi; karar bekliyor: dijital kaynaklar tablette)
 
 ## 3. Soruşturma
 - [ ] Dosya ve kanıt sayfası (FilePage)
