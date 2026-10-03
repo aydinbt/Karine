@@ -284,6 +284,7 @@ public static class KarineTheme {
   public static readonly Rect Bubble=new Rect(61.6f,15,31.8f,20);
   public static readonly Rect Questions=new Rect(61,41,33,54);
   public static readonly Rect BubbleAside=new Rect(5.6f,48,24,24);
+  public static readonly Rect Reference=new Rect(5.6f,48,24,45);
   public static readonly Rect Present=new Rect(58.2f,15,37,80);
   public const int Thumb=86, LabelSize=18, NameSize=22, InfoSize=14, SpeakerSize=16, SpeechSize=17, DemeanorSize=15, Tail=14;
   public const int TabHeight=40, TabSize=16, TopicHeight=44, TopicSize=18, RowHeight=48, RowSize=15, Edge=4;

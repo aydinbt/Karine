@@ -94,19 +94,16 @@ public sealed partial class BubeApp {
    }
    if(availableOptions.Length==0)Text(questions,T("interview.noNewInfo"),Muted,16);
   } else if(phase==1) {
-   Button(questions,T("interview.listen"),()=>{
+   KarineUI.InterviewAction(questions,null,T("interview.listen"),()=>{
     var reply=game.AnswerKey(active);
     if(game.Ask(node.id,active.id)){Save();InterviewPage(node,active,2,reply);}
-   },true);
+   });
    // Soruyu seçtikten sonra da vazgeçebilmeli; tek çıkış görüşmeyi bitirmek olmamalı.
-   Button(questions,T("interview.cancelSource"),()=>InterviewPage(node));
-   var giveUp=questions.Children().Last() as Button;
-   giveUp.style.minHeight=MinimumTouchTarget;giveUp.style.fontSize=Typography.Snap(15);
-   giveUp.style.color=Ink;
+   KarineUI.InterviewQuestion(questions,T("interview.cancelSource"),()=>InterviewPage(node)).style.marginTop=KarineTheme.SpaceMd;
   } else {
-   if(referenceCard!=null)Button(questions,T("interview.openPresented"),()=>referenceCard.style.display=DisplayStyle.Flex);
-   Button(questions,T(sourceAccepted?"interview.next":"interview.tryAnotherSource"),
-    ()=>InterviewPage(node,sourceAccepted?null:active,sourceAccepted?0:1),true);
+   if(referenceCard!=null)KarineUI.InterviewQuestion(questions,T("interview.openPresented"),()=>referenceCard.style.display=DisplayStyle.Flex);
+   KarineUI.InterviewAction(questions,null,T(sourceAccepted?"interview.next":"interview.tryAnotherSource"),
+    ()=>InterviewPage(node,sourceAccepted?null:active,sourceAccepted?0:1));
   }
   // Sorular/geçmiş sekmeleri her zaman görünür; geçmiş boşken kapalıdır.
   var history=new KarineScrollView();history.style.flexGrow=1;history.style.minHeight=0;panel.Add(history);
@@ -260,29 +257,17 @@ public sealed partial class BubeApp {
    Text(body,T(source.bodyKey),ink,15);
   }
  }
+ // Öne sürülen kaydın kâğıdı: kimlik kartının altında, kapatılabilir.
  VisualElement InterviewReferenceCard(string sourceId) {
   var source=SourceNode(sourceId);
   if(source==null)return null;
-  var ink=KarineTheme.Paper.Ink;
-  var muted=KarineTheme.Paper.Faded;
-  var card=new VisualElement();card.style.position=Position.Absolute;
-  card.style.left=Length.Percent(2);card.style.width=Length.Percent(27);
-  card.style.top=Length.Percent(45);card.style.bottom=Length.Percent(15);
-  card.style.paddingLeft=16;card.style.paddingRight=15;card.style.paddingTop=10;card.style.paddingBottom=11;
-  card.style.backgroundColor=KarineTheme.Paper.Sheet;
-  card.style.borderLeftWidth=3;card.style.borderTopWidth=2;
-  card.style.borderLeftColor=KarineTheme.Paper.Stamp;card.style.borderTopColor=KarineTheme.Paper.Light;
-  root.Add(card);
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
-  header.style.alignItems=Align.Center;card.Add(header);
-  var title=Text(header,T("interview.referenceCard"),muted,13);
-  title.style.flexGrow=1;title.style.marginBottom=0;
-  KarineUI.CloseButton(header,()=>card.style.display=DisplayStyle.None,null,true);
-  var name=Text(card,T(source.titleKey),ink,17);name.style.marginBottom=8;
-  if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var body=Scroll(card);
+  var holder=new VisualElement {name="InterviewReference"};KarineUI.OfficePlace(holder,KarineTheme.Interview.Reference);root.Add(holder);
+  var paper=KarineUI.InterviewPaper(holder,T(source.titleKey),null,out var body);
+  KarineUI.CloseButton(paper,()=>holder.style.display=DisplayStyle.None,null,true).style.position=Position.Absolute;
+  paper.Children().Last().style.right=KarineTheme.SpaceSm;paper.Children().Last().style.top=KarineTheme.SpaceSm;
+  paper.style.paddingRight=KarineTheme.SpaceXl*2;
   InterviewSourceBody(body,sourceId);
-  return card;
+  return holder;
  }
  void PixelPortrait(VisualElement parent,string personId) {
   var holder=new VisualElement();holder.style.position=Position.Absolute;
