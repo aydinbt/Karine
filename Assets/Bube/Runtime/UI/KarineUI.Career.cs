@@ -64,7 +64,10 @@ public static partial class KarineUI {
   tile.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Panel,.9f);Border(tile,KarineTheme.BorderWidth,KarineTheme.Border);Round(tile,KarineTheme.Radius);
   Icon(tile,icon,KarineTheme.Primary,B.TileIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement();words.style.flexShrink=1;words.style.minWidth=0;tile.Add(words);
-  Write(words,value,KarineTheme.Primary,B.TileNumberSize,Heading).style.marginBottom=0;
+  // Bebas'ın satır yüksekliği geniş: sayı ile etiket arasındaki boşluk kapatılır, blok ikonla ortalanır.
+  words.style.justifyContent=Justify.Center;
+  var number=Write(words,value,KarineTheme.Primary,B.TileNumberSize,Heading);number.style.marginBottom=-KarineTheme.SpaceSm;
+  number.style.unityTextAlign=TextAnchor.MiddleLeft;
   var l=Write(words,label.ToUpper(Tr),KarineTheme.Primary,B.TileLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
   l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;l.style.unityTextAlign=TextAnchor.UpperLeft;
   parent.Add(tile);return tile;
