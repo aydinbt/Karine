@@ -251,10 +251,18 @@
       "seda"
      ],
      "framePaths": [
-      "Bube/Cctv/case003_seda_out/01"
+      "Bube/Cctv/case003_seda_out/01",
+      "Bube/Cctv/case003_seda_out/02",
+      "Bube/Cctv/case003_seda_out/03",
+      "Bube/Cctv/case003_seda_out/04",
+      "Bube/Cctv/case003_seda_out/05"
      ],
      "frameTimes": [
-      "22.31.00"
+      "22.31.00",
+      "22.31.03",
+      "22.31.08",
+      "22.31.14",
+      "22.31.20"
      ],
      "frameMs": 500
     },
