@@ -301,6 +301,17 @@
      "delayMs": 620,
      "id": "baris_out",
      "overlayTimeKey": "case003.time.baris_out",
+     "framePaths": [
+      "Bube/Cctv/case003_baris_out/01",
+      "Bube/Cctv/case003_baris_out/02",
+      "Bube/Cctv/case003_baris_out/03"
+     ],
+     "frameTimes": [
+      "23.31.00",
+      "23.31.04",
+      "23.31.10"
+     ],
+     "frameMs": 500,
      "aboutPersonIds": [
       "baris"
      ]
