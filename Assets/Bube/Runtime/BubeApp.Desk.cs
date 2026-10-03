@@ -390,12 +390,18 @@ public sealed partial class BubeApp {
    inboxBadge=KarineUI.OfficeNotice(stage,T("desk.inbox.new"),parts[0].Trim(),out inboxBadgeLabel);RefreshInboxBadge();
   } else {inboxBadge=null;inboxBadgeLabel=null;}
   if(usable) {
-   KarineUI.OfficeAction(stage,"DeskFile","folder",T("desk.view.folder"),KarineTheme.Office.Folder,FilePage);
+   // Halka yalnız bakılmamış bir şey olan eşyada atar; boş ya da görülmüş eşya sessiz durur.
+   var file=KarineUI.OfficeAction(stage,"DeskFile","folder",T("desk.view.folder"),KarineTheme.Office.Folder,FilePage);
+   KarineUI.OfficePulse(file,game.State.interviewTurns.Count>game.State.seenInterviewTurns || !game.State.read.Contains("report"));
    var phone=KarineUI.OfficeAction(stage,"DeskInterviews","people",T("desk.view.phone"),KarineTheme.Office.Phone,()=>InterviewRequests());
-   KarineUI.OfficeCount(phone,InterviewBadgeCount()+InvestigationBadgeCount());
-   KarineUI.OfficeTabletScreen(stage,KarineUI.OfficeAction(stage,"DeskTerminal","cctv",T("desk.view.cctv"),KarineTheme.Office.Monitor,OpenTerminal));
-   KarineUI.OfficeAction(stage,"DeskEvidence","document",T("desk.view.evidence"),KarineTheme.Office.Evidence,
+   int fresh=InterviewBadgeCount()+InvestigationBadgeCount();
+   KarineUI.OfficeCount(phone,fresh);KarineUI.OfficePulse(phone,fresh>0);
+   var terminal=KarineUI.OfficeAction(stage,"DeskTerminal","cctv",T("desk.view.cctv"),KarineTheme.Office.Monitor,OpenTerminal);
+   KarineUI.OfficeTabletScreen(stage,terminal);
+   KarineUI.OfficePulse(terminal,game.Data.nodes.Any(n=>(n.kind=="cctv"||n.kind=="bps")&&game.Available(n)&&!game.State.read.Contains(n.id)&&!Seen("desk:"+n.id)));
+   var evidence=KarineUI.OfficeAction(stage,"DeskEvidence","document",T("desk.view.evidence"),KarineTheme.Office.Evidence,
     ()=>{selectedFileSection="evidence";FilePage();});
+   KarineUI.OfficePulse(evidence,game.Data.nodes.Any(n=>n.kind=="document"&&n.id!="report"&&game.Available(n)&&!game.State.read.Contains(n.id)));
   } else if(game.Career.retired) {
    var end=Panel(stage);KarineUI.OfficePlace(end,new Rect(30,46,40,28));
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
@@ -413,9 +419,14 @@ public sealed partial class BubeApp {
    KarineUI.Unskin(unread,KarineTheme.GlassDeep);unread.style.fontSize=Typography.Snap(KarineTheme.Office.SmallSize);unread.style.minHeight=0;
   }
  }
+ bool Seen(string key) => (game.State.seenRequests ?? new List<string>()).Contains(key);
  void OpenTerminal() {
   cctvFromDesk=true;
   var sources=game.Data.nodes.Where(n=>(n.kind=="cctv" || n.kind=="bps") && game.Available(n)).ToArray();
+  // Açılan kayıtlar görülmüş sayılır; tabletin halkası yeni kayıt gelene kadar söner.
+  game.State.seenRequests??=new List<string>();
+  foreach(var n in sources)if(!Seen("desk:"+n.id))game.State.seenRequests.Add("desk:"+n.id);
+  if(sources.Length>0)Save();
   Dial();
   if(sources.Length==0){CctvEmpty();return;}
   if(sources[0].kind=="cctv")CctvScreen(sources[0]);else ReadPage(sources[0]);

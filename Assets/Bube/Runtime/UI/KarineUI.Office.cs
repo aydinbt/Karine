@@ -69,6 +69,11 @@ public static partial class KarineUI {
   var l=Write(badge,count.ToString(),KarineTheme.OnPrimary,KarineTheme.Office.BadgeTextSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
   badge.schedule.Execute(()=>badge.style.opacity=KarineMotion.Reduced?1f:(badge.style.opacity.value>.6f?.45f:1f)).Every(KarineTheme.Office.BlinkMs);
  }
+ // Bakılacak bir şey yoksa eşyanın halkası kaldırılır; eşya yine dokunulur kalır.
+ public static void OfficePulse(VisualElement action,bool on) {
+  if(action==null || on)return;
+  action.Q("OfficeHotspot")?.RemoveFromHierarchy();
+ }
  public static Button OfficeAction(VisualElement stage,string name,string icon,string label,Rect box,Action action) {
   var button=new Button(Sounded(action)) {name=name,tooltip=label};
   OfficePlace(button,box);button.style.minHeight=KarineTheme.TouchTarget;
