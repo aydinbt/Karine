@@ -10,37 +10,45 @@ namespace Bube {
 // seçim kartları), altta Varsayılana dön ve Kaydet.
 public static partial class KarineUI {
 
- public static VisualElement SettingsModal(VisualElement root,string title,string subtitle,Action close,
-                                           out VisualElement tabs,out VisualElement body,out VisualElement footer) {
-  root.Q("SettingsModal")?.RemoveFromHierarchy();
-  var veil=new VisualElement {name="SettingsModal"};
+ // Ortak modal çerçevesi: karartma, ortada panel, üstte ikon + başlık + alt
+ // satır + kapatma, altında ayırıcı. Dönen panel içeriği alır.
+ public static VisualElement ModalFrame(VisualElement root,string name,string panelName,string icon,string title,string subtitle,Action close) {
+  root.Q(name)?.RemoveFromHierarchy();
+  var veil=new VisualElement {name=name};
   veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.backgroundColor=KarineTheme.Veil(M.VeilAlpha);veil.style.alignItems=Align.Center;veil.style.justifyContent=Justify.Center;
   // Arkadaki ekrana dokunuş geçmez.
   veil.RegisterCallback<PointerDownEvent>(e=>e.StopPropagation());
   root.Add(veil);
-  var panel=new VisualElement {name="SettingsPanel"};
+  var panel=new VisualElement {name=panelName};
   panel.style.width=Length.Percent(M.Width);panel.style.height=Length.Percent(M.Height);
   panel.style.backgroundColor=KarineTheme.Panel;Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=KarineTheme.SpaceLg;panel.style.paddingRight=KarineTheme.SpaceLg;panel.style.paddingTop=KarineTheme.SpaceMd;panel.style.paddingBottom=KarineTheme.SpaceMd;
   veil.Add(panel);
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;header.style.flexShrink=0;panel.Add(header);
-  Icon(header,"gear",KarineTheme.Primary,M.HeaderIcon).style.marginRight=KarineTheme.SpaceLg;
+  Icon(header,icon,KarineTheme.Primary,M.HeaderIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement();words.style.flexGrow=1;header.Add(words);
   var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,M.TitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;
   var sub=Body_(words,subtitle,M.SubSize);sub.style.color=KarineTheme.Secondary;sub.style.marginBottom=0;
-  var x=new Button(Sounded(close)) {name="SettingsClose"};x.style.width=M.Close;x.style.height=M.Close;
+  var x=new Button(Sounded(close)) {name=name+"Close"};x.style.width=M.Close;x.style.height=M.Close;
   Unskin(x,Color.clear);Border(x,KarineTheme.BorderWidth,KarineTheme.Border);Round(x,KarineTheme.Radius);
   x.style.alignItems=Align.Center;x.style.justifyContent=Justify.Center;Icon(x,"close",KarineTheme.Primary,KarineTheme.IconSize);header.Add(x);
-  var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Border;rule.style.marginTop=KarineTheme.SpaceMd;rule.style.marginBottom=KarineTheme.SpaceMd;panel.Add(rule);
+  ModalRule(panel);
+  return panel;
+ }
+ public static void ModalRule(VisualElement parent){var rule=new VisualElement();rule.style.height=1;rule.style.flexShrink=0;rule.style.backgroundColor=KarineTheme.Border;rule.style.marginTop=KarineTheme.SpaceMd;rule.style.marginBottom=KarineTheme.SpaceMd;parent.Add(rule);}
+
+ public static VisualElement SettingsModal(VisualElement root,string title,string subtitle,Action close,
+                                           out VisualElement tabs,out VisualElement body,out VisualElement footer) {
+  var panel=ModalFrame(root,"SettingsModal","SettingsPanel","gear",title,subtitle,close);
   var columns=new VisualElement();columns.style.flexDirection=FlexDirection.Row;columns.style.flexGrow=1;columns.style.minHeight=0;panel.Add(columns);
   tabs=new VisualElement {name="SettingsTabs"};tabs.style.width=M.TabWidth;tabs.style.flexShrink=0;
   tabs.style.borderRightWidth=1;tabs.style.borderRightColor=KarineTheme.Border;tabs.style.paddingRight=KarineTheme.SpaceMd;columns.Add(tabs);
   var scroll=new KarineScrollView {name="SettingsBody"};scroll.style.flexGrow=1;scroll.style.minHeight=0;scroll.style.paddingLeft=KarineTheme.SpaceXl;
   scroll.contentViewport.style.overflow=Overflow.Hidden;columns.Add(scroll);body=scroll.contentContainer;
-  var cut=new VisualElement();cut.style.height=1;cut.style.backgroundColor=KarineTheme.Border;cut.style.marginTop=KarineTheme.SpaceMd;cut.style.marginBottom=KarineTheme.SpaceMd;panel.Add(cut);
+  ModalRule(panel);
   footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;panel.Add(footer);
-  return veil;
+  return panel.parent;
  }
 
  public static Button SettingsTab(VisualElement parent,string icon,string title,string hint,bool selected,Action click) {

@@ -107,7 +107,7 @@ public sealed partial class BubeApp {
   if(draftHaptics){var strength=CardRow(body,"settings.hapticPower","settings.hapticStrength.hint");
    for(int i=0;i<3;i++){int v=i;Choice(strength,T("settings.hapticStrength."+v),null,draftStrength==v,()=>draftStrength=v);}}
   var consent=AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown";
-  Button(KarineUI.SettingRow(body,T("settings.ads"),T("settings.ads.status."+consent)),T("settings.ads.change"),AskForAdConsent);
+  Button(KarineUI.SettingRow(body,T("settings.ads"),T("settings.ads.status."+consent)),T("settings.ads.change"),()=>AskForAdConsent(RenderSettings));
   Button(KarineUI.SettingRow(body,T("settings.career"),T("settings.career.hint")),T("menu.row.newCareer"),()=>{CloseSettings();confirmRestart=true;RestartPage();});
   if(DevMeterAllowed) {
    SwitchRow(body,"settings.devMeter",draftMeter,()=>draftMeter=!draftMeter);

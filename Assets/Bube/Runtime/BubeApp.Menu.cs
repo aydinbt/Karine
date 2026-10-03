@@ -139,19 +139,43 @@ public sealed partial class BubeApp {
 
  // Onay ekranı reklamdan **önce** gelir; onay yoksa hiçbir reklam gösterilmez
  // ve oyunun hiçbir bölümü kapanmaz. Kit'in modalı yıkıcı değil, bu bir tercih.
- void AskForAdConsent() {
+ void AskForAdConsent(Action after) {
   KarineUI.Modal(root,T("ads.consent.title"),T("ads.consent.body"),
-   T("ads.consent.deny"),()=>{AdGateway.SetConsent(AdConsent.Denied);RenderSettings();},
-   T("ads.consent.allow"),()=>{AdGateway.SetConsent(AdConsent.Granted);RenderSettings();});
+   T("ads.consent.deny"),()=>{AdGateway.SetConsent(AdConsent.Denied);after?.Invoke();},
+   T("ads.consent.allow"),()=>{AdGateway.SetConsent(AdConsent.Granted);after?.Invoke();});
  }
 
+ // Hakkında: açıldığı ekranın üstünde modal. Emeği geçenler yalnız gerçek
+ // kaynakları sayar; gizlilik ve geri bildirim bağlantısı adresleri gelince eklenir.
  void AboutPage() {
-  VisualElement card;MenuOverlay(T("menu.about"),out card);
-  var studio=new Image {image=Resources.Load<Texture2D>("Bube/UI/bube_wordmark"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
-  studio.style.height=72;studio.style.marginBottom=KarineTheme.SpaceLg;card.Add(studio);
-  Text(card,T("about.body"),Ink,19);
-  var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
-  Button(card,T("offer.back"),Home);
+  var escape=escapeBack;
+  System.Action close=()=>{root.Q("AboutModal")?.RemoveFromHierarchy();escapeBack=escape;};
+  var panel=KarineUI.ModalFrame(root,"AboutModal","AboutPanel","info",T("menu.about"),T("about.subtitle"),close);
+  Back(close);
+  var columns=new VisualElement();columns.style.flexDirection=FlexDirection.Row;columns.style.flexGrow=1;columns.style.minHeight=0;panel.Add(columns);
+  var left=new VisualElement();left.style.width=Length.Percent(42);left.style.alignItems=Align.Center;left.style.paddingRight=KarineTheme.SpaceLg;
+  left.style.borderRightWidth=1;left.style.borderRightColor=KarineTheme.Border;columns.Add(left);
+  float width=KarineTheme.Loading.LogoWidth*.62f;
+  var identity=new VisualElement();identity.style.alignItems=Align.FlexStart;left.Add(identity);
+  KarineLogo.Hero(identity,width);KarineLogo.Tagline(identity,width,T("menu.tagline"));
+  var version=KarineUI.Technical(left,T("about.version")+" "+Application.version,KarineTheme.Loading.LabelSize);version.style.color=KarineTheme.Secondary;version.style.letterSpacing=3;
+  version.style.marginTop=KarineTheme.SpaceSm;
+  var body=KarineUI.Body_(left,T("about.body"),KarineTheme.SettingsModal.RowTitleSize-2);body.style.whiteSpace=WhiteSpace.Normal;body.style.unityTextAlign=TextAnchor.MiddleCenter;
+  body.style.marginTop=KarineTheme.SpaceMd;
+  var spacer=new VisualElement();spacer.style.flexGrow=1;left.Add(spacer);
+  var made=KarineUI.Technical(left,T("about.madeBy"),KarineTheme.Loading.LabelSize);made.style.color=KarineTheme.Secondary;made.style.letterSpacing=4;made.style.marginBottom=KarineTheme.SpaceXs;
+  KarineUI.StudioMark(left,KarineTheme.Loading.StudioHeight+12);
+  var right=new KarineScrollView();right.style.flexGrow=1;right.style.minHeight=0;right.style.paddingLeft=KarineTheme.SpaceXl;columns.Add(right);
+  var list=right.contentContainer;
+  KarineUI.ModalSection(list,T("about.credits"));
+  KarineUI.AboutCredit(list,T("about.credit.studio"),"bubeGames");
+  KarineUI.AboutCredit(list,T("about.credit.fonts"),T("about.credit.fonts.detail"));
+  KarineUI.ModalSection(list,T("about.links")).style.marginTop=KarineTheme.SpaceLg;
+  KarineUI.AboutLink(list,"info",T("settings.ads"),T("about.link.ads"),()=>AskForAdConsent(null));
+  KarineUI.ModalRule(panel);
+  var footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;panel.Add(footer);
+  var copy=KarineUI.Body_(footer,"© "+System.DateTime.Now.Year+" bubeGames. "+T("about.rights"),KarineTheme.SettingsModal.RowHintSize);copy.style.color=KarineTheme.Secondary;copy.style.marginBottom=0;
+  var thanks=KarineUI.Body_(footer,T("credits.2"),KarineTheme.SettingsModal.RowHintSize+1);thanks.style.unityFontStyleAndWeight=FontStyle.Italic;thanks.style.marginBottom=0;
  }
  ArchivedCase[] ClosedCases() {
   var result=new List<ArchivedCase>();
