@@ -225,6 +225,14 @@ public static class KarineTheme {
   public const int HeadingSize=19, ValueSize=30, NavHeight=54, Portrait=132, Ring=150, RingWidth=18;
   public const int WorldRow=46, WorldRank=30, WorldThumb=70, ProfileWidth=330;
  }
+ // Kariyer panosu, 3 Ekim 2026 maketi (Docs/Reference/UI_CAREER_2026-10.png).
+ public static class CareerBoard {
+  public const int TabHeight=46, TabWidth=230, TabSize=22, PanelTitleSize=26, FigureSize=60, FigureLabelSize=20, FigureSubSize=14;
+  public const int BarHeight=12, TileHeight=86, TileNumberSize=40, TileLabelSize=13, TileIcon=34;
+  public const int Ring=168, RingWidth=22, RingTotalSize=40, LegendSize=16, CountryPhotoWidth=176, CountryRow=70, CountryNameSize=22;
+  // Sonuç halkası: uygun bulunan yeşil; yalnız bu grafikte kullanılır.
+  public static readonly Color Supported=Hex("#3E8E4A");
+ }
  public static class CctvArchive {
   public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=52, TimeWidth=150;
   public const int CameraRow=96, CameraTile=68, HeadingSize=21;

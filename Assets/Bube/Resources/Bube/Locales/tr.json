@@ -1,6 +1,46 @@
 {
  "entries": [
   {
+   "key": "career.board.countries",
+   "value": "ÜLKE"
+  },
+  {
+   "key": "career.board.cases",
+   "value": "TOPLAM VAKA"
+  },
+  {
+   "key": "career.board.progress",
+   "value": "KARİYER İLERLEMESİ"
+  },
+  {
+   "key": "career.board.done",
+   "value": "TAMAMLANAN VAKA"
+  },
+  {
+   "key": "career.board.failed",
+   "value": "HATALI SUÇLAMA"
+  },
+  {
+   "key": "career.board.pending",
+   "value": "BEKLEYEN DEĞERLENDİRME"
+  },
+  {
+   "key": "career.board.results",
+   "value": "VAKA SONUÇLARI"
+  },
+  {
+   "key": "career.board.countryProgress",
+   "value": "ÜLKE İLERLEMESİ"
+  },
+  {
+   "key": "career.board.total",
+   "value": "TOPLAM"
+  },
+  {
+   "key": "career.board.unit",
+   "value": "VAKA"
+  },
+  {
    "key": "intro.skip",
    "value": "GEÇ"
   },
@@ -2918,7 +2958,7 @@
   },
   {
    "key": "career.tab.general",
-   "value": "Genel İstatistikler"
+   "value": "Genel Durum"
   },
   {
    "key": "career.tab.history",

@@ -15,17 +15,7 @@ public sealed partial class BubeApp {
   atlas=atlas??Worlds.Load();var closed=Worlds.Closed(game.Career);
   if(atlas.countries.Count==0) {WorldEmpty();return;}
   if(worldPick<0||worldPick>=atlas.countries.Count) worldPick=Worlds.Resume(atlas,closed);
-  var art=Resources.Load<Texture2D>("Bube/Art/CaseBrowserBackdrop") ?? Resources.Load<Texture2D>("Bube/Art/OfficeRoomV2");
-  var backdrop=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
-  backdrop.style.position=Position.Absolute;backdrop.style.left=0;backdrop.style.right=0;
-  backdrop.style.top=0;backdrop.style.bottom=0;root.Add(backdrop);KarineUI.CaseBrowserStage(backdrop,root);
-  var veil=new VisualElement {pickingMode=PickingMode.Ignore};
-  veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
-  veil.style.backgroundColor=KarineTheme.Veil(.55f);root.Add(veil);WorldSidebar();
-  var main=new VisualElement {name="CaseBrowser"};
-  main.style.position=Position.Absolute;main.style.left=KarineTheme.CaseFiles.MainLeft;
-  main.style.right=KarineTheme.SpaceXl;main.style.top=KarineTheme.CaseFiles.Top;
-  main.style.bottom=KarineTheme.CaseFiles.Bottom;root.Add(main);
+  var main=CasePageShell("CaseBrowser",true);
 
   // Ülke sekmeleri: koyu bir rafın içinde yatay kayar.
   var shelf=new VisualElement();shelf.style.flexShrink=0;
@@ -71,16 +61,32 @@ public sealed partial class BubeApp {
   if(!unlocked) {var hint=KarineUI.Body_(main,T("world.locked.hint"),KarineTheme.CaseFiles.SmallSize);hint.style.marginTop=KarineTheme.SpaceMd;hint.style.color=KarineTheme.Secondary;}
   KarineUI.CardsDrop(cards.contentContainer);
  }
+ // Vakalar ve Kariyer'in ortak iskeleti: canlı büro arka planı, örtü, sol sütun
+ // ve sağdaki ana alan. `cases` hangi menü satırının amber olacağını seçer.
+ VisualElement CasePageShell(string name,bool cases) {
+  var art=Resources.Load<Texture2D>("Bube/Art/CaseBrowserBackdrop") ?? Resources.Load<Texture2D>("Bube/Art/OfficeRoomV2");
+  var backdrop=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
+  backdrop.style.position=Position.Absolute;backdrop.style.left=0;backdrop.style.right=0;
+  backdrop.style.top=0;backdrop.style.bottom=0;root.Add(backdrop);KarineUI.CaseBrowserStage(backdrop,root);
+  var veil=new VisualElement {pickingMode=PickingMode.Ignore};
+  veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
+  veil.style.backgroundColor=KarineTheme.Veil(.55f);root.Add(veil);WorldSidebar(cases);
+  var main=new VisualElement {name=name};
+  main.style.position=Position.Absolute;main.style.left=KarineTheme.CaseFiles.MainLeft;
+  main.style.right=KarineTheme.SpaceXl;main.style.top=KarineTheme.CaseFiles.Top;
+  main.style.bottom=KarineTheme.CaseFiles.Bottom;root.Add(main);
+  return main;
+ }
  static Texture2D LoadWorldArt(string path)=>string.IsNullOrEmpty(path)?null:Resources.Load<Texture2D>(path);
- void WorldSidebar() {
+ void WorldSidebar(bool cases) {
   var side=new VisualElement {name="CaseBrowserSidebar"};
   side.style.position=Position.Absolute;side.style.left=KarineTheme.CaseFiles.SidebarLeft;side.style.top=KarineTheme.CaseFiles.Top-KarineTheme.SpaceMd;
   side.style.bottom=KarineTheme.CaseFiles.Bottom;side.style.width=KarineTheme.CaseFiles.SidebarWidth;root.Add(side);
   KarineLogo.Aligned(side,KarineTheme.CaseFiles.LogoWidth);
   KarineLogo.Tagline(side,KarineTheme.CaseFiles.LogoWidth,T("menu.tagline")).style.marginBottom=KarineTheme.SpaceXl;
   MenuRow(side,"cine_skip",T(game.State.caseAccepted?"menu.row.continue":"menu.row.start"),game.State.caseAccepted?(Action)Desk:()=>MaybeWorldIntro(Desk),false);
-  MenuRow(side,"folder",T("menu.row.chapters"),WorldPage,true);
-  MenuRow(side,"person",T("menu.row.career"),StatisticsPage,false);
+  MenuRow(side,"folder",T("menu.row.chapters"),WorldPage,cases);
+  MenuRow(side,"chart",T("menu.row.career"),StatisticsPage,!cases);
   MenuRow(side,"gear",T("menu.row.settings"),SettingsPage,false);
   MenuRow(side,"document",T("menu.about"),AboutPage,false);
   // Kimlik kartı menünün hemen altında; sütunun dibine yapışmaz.
