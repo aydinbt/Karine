@@ -20,8 +20,9 @@ public sealed class FontSet {
   var set=new FontSet();
   set.Mono=First("ChakraPetch-Regular");
   set.MonoBold=First("ChakraPetch-SemiBold") ?? set.Mono;
-  var display=First("ChakraPetch-Bold");
-  var heading=First("ChakraPetch-Bold");
+  // 3 Ekim 2026 panosu: başlıklar dar ve kalın (Bebas Neue); bulunamazsa eski Chakra Petch.
+  var display=First("BebasNeue-Regular","ChakraPetch-Bold");
+  var heading=First("BebasNeue-Regular","ChakraPetch-Bold");
   var body=First("ChakraPetch-Regular");
   var bodyBold=First("ChakraPetch-SemiBold");
   set.Heading=heading ?? set.MonoBold;
@@ -29,8 +30,8 @@ public sealed class FontSet {
   set.Body=body ?? set.Mono;
   set.BodyBold=bodyBold ?? set.MonoBold;
   var missing=new System.Collections.Generic.List<string>();
-  if(display==null)missing.Add("Display (ChakraPetch-Bold)");
-  if(heading==null)missing.Add("Heading (ChakraPetch-Bold)");
+  if(display==null)missing.Add("Display (BebasNeue-Regular)");
+  if(heading==null)missing.Add("Heading (BebasNeue-Regular)");
   if(body==null)missing.Add("Body (ChakraPetch-Regular)");
   if(bodyBold==null)missing.Add("BodyBold (ChakraPetch-SemiBold)");
   set.Missing=missing.ToArray();
