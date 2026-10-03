@@ -985,3 +985,7 @@ Kullanıcı ChatGPT ile ürettiği panoyu (`Docs/Reference/UI_DESIGN_SYSTEM_2026
 - Turkuaz kalktı; etkin/dijital vurgu da kehribar.
 - Düğmeler dokulu görsel değil, düz yüzey: ana = dolu kehribar + koyu yazı; ikincil = koyu cam + gri kenar; ghost = zeminsiz + açık kenar; kilitli = sönük gri.
 - Tipografi (dar, kalın başlık yazısı) ve simge seti henüz koda girmedi; ekranlarla birlikte gelecek.
+
+## 3 Ekim 2026 — Tablet çerçevesi kaldırıldı
+
+Masadaki CCTV tableti artık bir çerçeve değil, yalnız bir giriş noktasıdır: dokununca CCTV arşivi dosya ekranlarıyla aynı üst şeritli tam ekran açılır ve "Masaya dön" ile masaya döner. Dosyada Gezin'den açılan CCTV "Dosyaya dön" der. Tablet içinde açılan ekran kalmadı; soruşturma talepleri ve kariyer kaydı kendi yenilemelerinde tam ekrana geçecek.

@@ -475,21 +475,8 @@ public sealed partial class BubeApp {
   cctvFromDesk=true;
   var sources=game.Data.nodes.Where(n=>(n.kind=="cctv" || n.kind=="bps") && game.Available(n)).ToArray();
   Dial();
-  if(sources.Length==0) {
-   VisualElement content;BpsTablet("terminal.title",out content);
-   Text(content,T("terminal.noRecords"),Muted,19);
-   return;
-  }
+  if(sources.Length==0){CctvEmpty();return;}
   if(sources[0].kind=="cctv")CctvScreen(sources[0]);else ReadPage(sources[0]);
- }
- void TerminalSourceTabs(VisualElement content,Node selected) {
-  var sources=game.Data.nodes.Where(n=>(n.kind=="cctv" || n.kind=="bps") && game.Available(n)).ToArray();
-  if(sources.Length<2)return;
-  var index=Array.FindIndex(sources,n=>n.id==selected.id);
-  KarineUI.Tabs(content,sources.Select(n=>T(n.titleKey)).ToArray(),index,picked=>{
-   var node=sources[picked];
-   if(node.kind=="cctv")CctvScreen(node);else ReadPage(node);
-  },true);
  }
  void RequestTabs(VisualElement content,bool interviews) {
   KarineUI.Tabs(content,new[]{T("tablet.tab.interviews"),T("tablet.tab.investigations")},

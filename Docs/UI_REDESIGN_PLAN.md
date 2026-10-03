@@ -36,12 +36,12 @@ Akış her öğe için aynıdır:
 - [x] Gelen evrak bildirimi: yanıp sönen rozet ve önizleme
 - [x] Çıkış / ana menüye dönüş düğmesi: masadaki Menü düğmesi karşılıyor
 - [x] Gelen evrak modalı, teklif hali (`UI_INBOX`); diğer evrak türleri `[~]`
-- [ ] Tablet çerçevesi (ertelendi; karar bekliyor: dijital kaynaklar tablette)
+- [-] Tablet çerçevesi: kaldırıldı (3 Ekim). CCTV tam ekran; talepler ve kariyer kaydı kendi yenilemelerinde tam ekrana geçer
 
 ## 3. Soruşturma
 - [x] Dosya ve kanıt sayfası (FilePage, `UI_FILE*`): sekmeler, liste, rapor kâğıdı gözlendi; sorgu/zaman çizelgesi kâğıtları `[~]`; not defteri sekmesi kaldırıldı
 - [~] Dosyada arama (FileSearchPage, `UI_SEARCH`)
-- [-] Belge okuma (ReadPage): belgeler dosya kâğıdında açılıyor; ayrı ekran yalnız hiçbir vakada olmayan `bps` türü için kaldı, tablet kararına bağlı
+- [-] Belge okuma (ReadPage): belgeler dosya kâğıdında açılıyor; ayrı ekran yalnız hiçbir vakada olmayan `bps` türü için kaldı
 - [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
 - [~] CCTV dökümü ve görüntüler (`UI_CCTV`, `UI_CCTV_PLAYER`)
 - [-] Not defteri (kaldırıldı; karşılaştırma notları raporda görünür)

@@ -229,6 +229,17 @@ public sealed partial class BubeApp {
   cctvPlayer.Prepare();
  }
  // 3 Ekim 2026 maketi: dosya ekranlarının üst şeridi, solda kamera listesi, sağda monitör dökümü.
+ // Henüz erişilebilir kamera kaydı yoksa aynı tam ekran çerçeve, boş monitörle açılır.
+ void CctvEmpty() {
+  Back(Desk);
+  Desk();
+  KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.unit"),Desk,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(CctvEmpty));
+  KarineUI.CctvCameras(root,T("cctv.cameras"));
+  var content=KarineUI.CctvMonitor(root);
+  KarineUI.CompareEmpty(content,T("terminal.noRecords"));
+ }
  // Masadaki tabletten açılırsa masaya, dosyadan (Dosyada Gezin) açılırsa dosyaya dönülür.
  bool cctvFromDesk;
  void CctvScreen(Node node,string focusEventId=null) {

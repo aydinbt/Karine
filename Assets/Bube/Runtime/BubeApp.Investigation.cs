@@ -198,17 +198,12 @@ public sealed partial class BubeApp {
  void ReadPage(Node node) {
   showingInterviewList=false;
   game.Read(node.id);Save();
-  if(node.kind=="bps") {
-   VisualElement content;BpsTablet(node.titleKey,out content);
-   TerminalSourceTabs(content,node);
-   var tabletScroll=Scroll(content);Text(tabletScroll,T(node.bodyKey),Ink,19);KarineUI.Corrupt(tabletScroll);PrintOnce(node);
-  } else {
-   Frame(T("kind."+node.kind),T(node.titleKey),T("file.reference"));
-   var scroll=Scroll(root);
-   var paper=Panel(scroll);
-   Text(paper,T(node.bodyKey),Ink,20);
-   Button(root,T("back.file"),FilePage,true);
-  }
+  // Tablet kaldırıldı (3 Ekim 2026): dijital kayıt da düz sayfada okunur.
+  Frame(T("kind."+node.kind),T(node.titleKey),T("file.reference"));
+  var scroll=Scroll(root);
+  var paper=Panel(scroll);
+  Text(paper,T(node.bodyKey),Ink,20);
+  Button(root,T("back.file"),FilePage,true);
  }
 }
 }
