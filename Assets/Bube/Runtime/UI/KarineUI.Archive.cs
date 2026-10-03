@@ -92,7 +92,8 @@ public static partial class KarineUI {
   var b=new Button(Sounded(action)) {name="ArchiveLink",tooltip=label};b.style.alignSelf=Align.FlexStart;
   b.style.marginLeft=b.style.marginRight=b.style.marginTop=0;b.style.marginBottom=KarineTheme.SpaceSm;b.style.paddingLeft=b.style.paddingRight=b.style.paddingTop=b.style.paddingBottom=0;
   Unskin(b,Color.clear);b.style.borderTopWidth=b.style.borderBottomWidth=b.style.borderLeftWidth=b.style.borderRightWidth=0;
-  var t=Write(b,"→ "+label,KarineTheme.Accent,A.SmallSize,Typewriter);t.style.marginBottom=0;t.style.whiteSpace=WhiteSpace.Normal;
+  var t=Write(b,"→ "+label,KarineTheme.Paper.Link,A.SmallSize,Typewriter);t.style.marginBottom=0;t.style.unityFontStyleAndWeight=FontStyle.Bold;
+  t.style.borderBottomWidth=1;t.style.borderBottomColor=KarineTheme.Alpha(KarineTheme.Paper.Link,.6f);t.style.whiteSpace=WhiteSpace.Normal;
   parent.Add(b);return b;
  }
  public static void ArchiveRule(VisualElement parent) {

@@ -375,7 +375,7 @@ public static class KarineTheme {
   public static readonly Rect Drawer=new Rect(6,13,64,84), Sources=new Rect(11,12,19,84), Sheet=new Rect(32,12,57,84);
   public const int Frame=6, PlateSize=16, Handle=120, CardIcon=80, CardTitle=26, CardDate=14, StampSize=24, EmptyIcon=48;
   public const int SourceHead=22, SourceRow=46, SourceIcon=24, SourceSize=14, HeadSize=28, SmallSize=13, FieldSize=15;
-  public const float KeyWidth=22;
+  public const float KeyWidth=34;
  }
  public static class Guidance {
   // 3 Ekim 2026 maketleri: solda ataçlı kâğıt + sağda ölçü paneli; yeniden açmada ortada tek kâğıt.
@@ -460,6 +460,7 @@ public static class KarineTheme {
   public static readonly Color Light = Hex("#FAEDD4"); // kâğıdın aydınlık yeri
   public static readonly Color Tint  = Hex("#C9A06B"); // manila: kâğıdın üstündeki kart/şerit
   public static readonly Color Edge  = Hex("#9E927C"); // kâğıt üstü çizgi ve kenar
+  public static readonly Color Link  = Hex("#8A4A10"); // kâğıt üstünde dokunulabilir bağlantı (koyu kehribar)
 
   // Kâğıdın altındaki fiziksel malzeme: dosya kabı, klasör sırtı, mukavva.
   // Ekranlar bu kahveleri tek tek uydurmasın diye üç durak yeter.
