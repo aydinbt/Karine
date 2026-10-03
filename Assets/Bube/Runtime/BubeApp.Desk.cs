@@ -391,7 +391,8 @@ public sealed partial class BubeApp {
   } else {inboxBadge=null;inboxBadgeLabel=null;}
   if(usable) {
    KarineUI.OfficeAction(stage,"DeskFile","folder",T("desk.view.folder"),KarineTheme.Office.Folder,FilePage);
-   KarineUI.OfficeAction(stage,"DeskInterviews","people",T("desk.view.phone"),KarineTheme.Office.Phone,()=>InterviewRequests());
+   var phone=KarineUI.OfficeAction(stage,"DeskInterviews","people",T("desk.view.phone"),KarineTheme.Office.Phone,()=>InterviewRequests());
+   KarineUI.OfficeCount(phone,InterviewBadgeCount()+InvestigationBadgeCount());
    KarineUI.OfficeTabletScreen(stage,KarineUI.OfficeAction(stage,"DeskTerminal","cctv",T("desk.view.cctv"),KarineTheme.Office.Monitor,OpenTerminal));
    KarineUI.OfficeAction(stage,"DeskEvidence","document",T("desk.view.evidence"),KarineTheme.Office.Evidence,
     ()=>{selectedFileSection="evidence";FilePage();});
@@ -406,9 +407,10 @@ public sealed partial class BubeApp {
   KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;StageDesk(stage);
   if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
   if(game.State.interviewTurns.Count>game.State.seenInterviewTurns&&!game.State.closed) {
-   var unread=KarineUI.Technical(stage,T("file.newTranscript"),KarineTheme.Office.SmallSize);
-   KarineUI.OfficePlace(unread,new Rect(5,46.5f,18,5));
-   unread.style.backgroundColor=KarineTheme.GlassDeep;unread.pickingMode=PickingMode.Ignore;
+   // Dokununca dosyanın tutanak sekmesi açılır; orada görülünce etiket düşer.
+   var unread=KarineUI.Button_(stage,T("file.newTranscript"),()=>{selectedFileSection="interview";selectedFileNode=null;FilePage();});
+   KarineUI.OfficePlace(unread,new Rect(5,46.5f,18,5));unread.name="DeskNewTranscript";
+   KarineUI.Unskin(unread,KarineTheme.GlassDeep);unread.style.fontSize=Typography.Snap(KarineTheme.Office.SmallSize);unread.style.minHeight=0;
   }
  }
  void OpenTerminal() {

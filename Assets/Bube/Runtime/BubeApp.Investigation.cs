@@ -77,13 +77,20 @@ public sealed partial class BubeApp {
  // Sekme sayacı yalnız oyuncunun zaten gördüğü durumları sayar: görüşmeye hazır kişi, dosyaya alınmamış gelen rapor.
  int InterviewBadgeCount() => game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId)
   .Count(g=>g.Any(n=>game.Available(n)&&!game.State.read.Contains(n.id)));
- int InvestigationBadgeCount() => game.Data.nodes.Count(n=>n.kind=="document"&&n.requestable&&game.IncomingDocument(n)&&!game.State.read.Contains(n.id));
+ // Gelen ama okunmamış inceleme raporları ile yeni açılmış ama listede henüz görülmemiş incelemeler.
+ // Yalnız "listede yeni bir satır var" der; hangisinin önemli olduğunu söylemez.
+ int InvestigationBadgeCount() => game.Data.nodes.Count(n=>n.kind=="document"&&n.requestable&&!game.State.read.Contains(n.id)&&
+  (game.IncomingDocument(n) || game.Discovered(n)&&!game.State.documentRequests.Any(r=>r.nodeId==n.id)&&!(game.State.seenRequests??new List<string>()).Contains(n.id)));
  void InvestigationRequests(bool lift=true) {
   var list=RequestFrame(false,()=>InvestigationRequests(false));
   lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);showingInvestigationRequests=true;
   var documents=game.Data.nodes.Where(n=>n.kind=="document"&&n.requestable&&(game.Discovered(n)||game.State.documentRequests.Any(r=>r.nodeId==n.id))).ToArray();
   var selected=documents.FirstOrDefault(n=>n.id==selectedRequestDocument)??documents.FirstOrDefault();
   if(selected==null){Text(list,T("tablet.noInvestigations"),Muted,KarineTheme.Requests.BodySize);return;}
+  // Listede görülen yeni inceleme bir daha sayılmaz; rozet sonraki açılışta düşer.
+  game.State.seenRequests??=new List<string>();
+  foreach(var d in documents)if(!game.State.seenRequests.Contains(d.id))game.State.seenRequests.Add(d.id);
+  Save();
   string Status(Node node)=>game.State.read.Contains(node.id)?"tablet.investigationFiled":game.IncomingDocument(node)?"tablet.investigationArrived":
    game.State.documentRequests.Any(r=>r.nodeId==node.id)?"tablet.investigationPending":"tablet.investigationAvailable";
   RequestTone Tone(string key)=>key=="tablet.investigationFiled"?RequestTone.Done:key=="tablet.investigationArrived"?RequestTone.Open:

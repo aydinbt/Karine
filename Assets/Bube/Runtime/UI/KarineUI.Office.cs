@@ -59,6 +59,16 @@ public static partial class KarineUI {
   OfficePlace(glow,box);glow.style.opacity=0;stage.Add(glow);
  }
  // Eşyanın kendisi düğmedir: yazı ya da kutu yok, yalnız ince amber kontur (3 Ekim maketi).
+ // Masadaki nesnenin köşesinde yanıp sönen amber sayı; sıfırsa hiçbir şey eklenmez.
+ public static void OfficeCount(VisualElement action,int count) {
+  if(action==null || count<=0)return;
+  int b=KarineTheme.Office.BadgeSize;
+  var badge=new VisualElement {name="DeskCount",pickingMode=PickingMode.Ignore};badge.style.position=Position.Absolute;badge.style.top=-b/3;badge.style.right=-b/3;
+  badge.style.width=b;badge.style.height=b;Round(badge,b/2);badge.style.backgroundColor=KarineTheme.Accent;
+  badge.style.alignItems=Align.Center;badge.style.justifyContent=Justify.Center;action.Add(badge);
+  var l=Write(badge,count.ToString(),KarineTheme.OnPrimary,KarineTheme.Office.BadgeTextSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
+  badge.schedule.Execute(()=>badge.style.opacity=KarineMotion.Reduced?1f:(badge.style.opacity.value>.6f?.45f:1f)).Every(KarineTheme.Office.BlinkMs);
+ }
  public static Button OfficeAction(VisualElement stage,string name,string icon,string label,Rect box,Action action) {
   var button=new Button(Sounded(action)) {name=name,tooltip=label};
   OfficePlace(button,box);button.style.minHeight=KarineTheme.TouchTarget;
