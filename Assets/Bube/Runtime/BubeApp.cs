@@ -322,7 +322,8 @@ public sealed partial class BubeApp : MonoBehaviour {
    root.style.top=Length.Percent((Screen.height-safe.yMax)/Screen.height*100);
    root.style.bottom=Length.Percent(safe.yMin/Screen.height*100);
   }
-  bool inOffice=SceneManager.GetActiveScene().name=="OfficeScene";
+  // Bildirimler yalnız masa ekrandayken iner; tam ekran sayfaların üstüne binmez.
+  bool inOffice=SceneManager.GetActiveScene().name=="OfficeScene" && deskStage!=null && deskStage.panel!=null;
   if(HasIncomingFax || HasIncomingDocument) {
    if(HasIncomingFax && inOffice)AddFaxNotice();
    if(HasIncomingDocument && inOffice)AddDocumentNotice();

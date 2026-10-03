@@ -13,6 +13,7 @@ public static partial class KarineUI {
   Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
   paper.style.flexDirection=FlexDirection.Row;paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;
   paper.style.paddingTop=paper.style.paddingBottom=KarineTheme.SpaceXl;parent.Add(paper);
+  if(photo!=null) {
   var left=new VisualElement();left.style.width=Length.Percent(C.PhotoWidth);left.style.flexShrink=0;paper.Add(left);
   var frame=new VisualElement {pickingMode=PickingMode.Ignore};frame.style.rotate=new Rotate(C.PhotoTilt);
   frame.style.paddingLeft=frame.style.paddingRight=frame.style.paddingTop=C.PhotoBorder;frame.style.paddingBottom=C.PhotoBorder*3;
@@ -20,14 +21,18 @@ public static partial class KarineUI {
   var image=new Image {image=photo,scaleMode=ScaleMode.ScaleAndCrop};image.style.height=C.PhotoHeight;
   image.style.backgroundColor=KarineTheme.Paper.Edge;frame.Add(image);
   var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.width=C.Clip;clip.style.height=C.Clip*2;Stretched(clip,"Bube/UI/paperclip");left.Add(clip);clip.style.position=Position.Absolute;clip.style.top=-C.Clip/2;clip.style.left=C.Clip;
-  right=new VisualElement();right.style.flexGrow=1;right.style.flexShrink=1;right.style.marginLeft=KarineTheme.SpaceXl*2;paper.Add(right);
+  }
+  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.flexShrink=1;scroll.style.minHeight=0;
+  if(photo!=null)scroll.style.marginLeft=KarineTheme.SpaceXl*2;paper.Add(scroll);
+  right=scroll.contentContainer;
   return paper;
  }
  public static void SummaryStamp(VisualElement parent,string stamp,string line) {
-  var s=new VisualElement {name="CaseSummaryStamp",pickingMode=PickingMode.Ignore};s.style.alignSelf=Align.FlexStart;
-  s.style.rotate=new Rotate(C.StampTilt);s.style.opacity=.9f;Border(s,4,KarineTheme.Paper.Stamp);Round(s,4);
-  s.style.paddingLeft=s.style.paddingRight=KarineTheme.SpaceLg;parent.Add(s);
-  var t=Write(s,stamp.ToUpper(Tr),KarineTheme.Paper.Stamp,C.StampSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=3;
+  var t=Write(parent,stamp.ToUpper(Tr),KarineTheme.Paper.Stamp,C.StampSize,Heading);t.name="CaseSummaryStamp";t.pickingMode=PickingMode.Ignore;
+  t.style.alignSelf=Align.FlexStart;t.style.rotate=new Rotate(C.StampTilt);t.style.opacity=.9f;t.style.letterSpacing=3;
+  Border(t,4,KarineTheme.Paper.Stamp);Round(t,4);t.style.unityTextAlign=TextAnchor.MiddleCenter;
+  t.style.paddingLeft=t.style.paddingRight=KarineTheme.SpaceLg;t.style.paddingTop=t.style.paddingBottom=KarineTheme.SpaceSm;
+  t.style.marginTop=KarineTheme.SpaceMd;t.style.marginLeft=KarineTheme.SpaceSm;t.style.marginBottom=0;
   var l=Typed(parent,line,C.LineSize);l.style.marginTop=KarineTheme.SpaceMd;l.style.whiteSpace=WhiteSpace.Normal;
   PaperRule(parent,false);
  }

@@ -49,22 +49,12 @@ public static partial class KarineUI {
  }
 
  // Dosya kapandı (3 Ekim 2026 maketi, Docs/Reference/UI_CASE_CLOSED_2026-10.png): rapor açık
- // klasörde, kapak kapanır, "KAPANDI" damgası iner, klasör arşiv rafına kalkar. Her vakada aynı;
+ // klasörde, kapak kapanır, "KAPANDI" damgası iner ve geçiş orada biter. Her vakada aynı;
  // sonucu söylemez. Dokunmak geçer.
- public static void CaseClosed(VisualElement root,string label,string stampText,string archivedText,Action done) {
+ public static void CaseClosed(VisualElement root,string label,string stampText,Action done) {
   if(root==null || !Fx.On){done?.Invoke();return;}
   var veil=Veil(root,"CaseClosedVeil",.92f);
-  // Raf: sağda, eski dosya sırtlarıyla. Son evrede belirir.
-  var shelf=new VisualElement {pickingMode=PickingMode.Ignore};shelf.style.position=Position.Absolute;
-  shelf.style.right=Length.Percent(8);shelf.style.width=Length.Percent(30);shelf.style.top=Length.Percent(18);shelf.style.height=Length.Percent(56);
-  shelf.style.flexDirection=FlexDirection.Row;shelf.style.alignItems=Align.FlexEnd;shelf.style.opacity=0;
-  shelf.style.borderBottomWidth=8;shelf.style.borderBottomColor=KarineTheme.Paper.FolderDeep;veil.Add(shelf);
-  for(int i=0;i<5;i++) {
-   var spine=new VisualElement {pickingMode=PickingMode.Ignore};spine.style.width=Length.Percent(13);spine.style.height=Length.Percent(80+(i%2)*8);
-   spine.style.marginLeft=Length.Percent(i==3?20:2);spine.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.FolderDeep,.7f);
-   Border(spine,1,KarineTheme.Alpha(KarineTheme.Paper.Edge,.4f));shelf.Add(spine);
-  }
-  var folder=new VisualElement {pickingMode=PickingMode.Ignore};folder.style.position=Position.Absolute;
+  var folder=new VisualElement {pickingMode=PickingMode.Ignore};
   folder.style.width=S.ClosedFolderWidth;folder.style.height=S.ClosedFolderHeight;
   folder.style.backgroundColor=KarineTheme.Paper.FolderDeep;Border(folder,2,KarineTheme.Paper.Edge);veil.Add(folder);
   var sheet=new VisualElement {pickingMode=PickingMode.Ignore};sheet.style.position=Position.Absolute;
@@ -86,33 +76,20 @@ public static partial class KarineUI {
   var stamp=Technical(folder,stampText,S.ClosedStampSize);stamp.style.color=KarineTheme.Paper.Stamp;stamp.style.position=Position.Absolute;
   stamp.style.alignSelf=Align.Center;stamp.style.top=Length.Percent(38);Border(stamp,4,KarineTheme.Paper.Stamp);Round(stamp,4);
   stamp.style.paddingLeft=stamp.style.paddingRight=KarineTheme.SpaceLg;stamp.style.letterSpacing=4;stamp.style.rotate=new Rotate(-10);stamp.style.opacity=0;
-  var note=Typewriter_(veil,archivedText);
-  bool finished=false,stamped=false,closed=false;int typed=0;
+  bool finished=false,stamped=false,closed=false;
   Action finish=()=>{if(finished)return;finished=true;KarineMotion.Run(veil,.35f,t=>veil.style.opacity=1-t,()=>{veil.RemoveFromHierarchy();done?.Invoke();});};
   veil.RegisterCallback<PointerDownEvent>(_=>finish());
   KarineMotion.Run(veil,S.ArchiveSeconds,t=> {
-   float shut=Smooth((t-.15f)/.18f);cover.style.scale=new Scale(new Vector3(shut,1,1));
+   float shut=Smooth((t-.2f)/.3f);cover.style.scale=new Scale(new Vector3(shut,1,1));
    if(shut>=1 && !closed){closed=true;Cue("shelf");}
-   float drop=Mathf.Clamp01((t-.38f)/.1f);
+   float drop=Mathf.Clamp01((t-.6f)/.12f);
    stamp.style.opacity=drop;stamp.style.scale=new Scale(Vector3.one*Mathf.Lerp(2.4f,1,drop*drop));
    if(drop>=1 && !stamped){stamped=true;Sound?.Invoke("ui_stamp");Fx.Buzz(Haptic.Thud);}
-   float shake=t>.48f && t<.54f?Mathf.Sin((t-.48f)*200)*3f:0;
-   float move=Smooth((t-.62f)/.22f);
-   shelf.style.opacity=Mathf.Clamp01((t-.58f)/.1f);
-   folder.style.left=Length.Percent(Mathf.Lerp(50,79,move));folder.style.top=Length.Percent(Mathf.Lerp(50,47,move));
-   folder.style.translate=new Translate(Length.Percent(-50),Length.Percent(-50));
-   folder.style.scale=new Scale(Vector3.one*Mathf.Lerp(1,.42f,move));folder.style.rotate=new Rotate(shake);
-   int want=Mathf.FloorToInt(Mathf.Clamp01((t-.86f)/.12f)*archivedText.Length);
-   if(want>typed){typed=want;note.text=archivedText.Substring(0,typed);Cue("key");}
+   float shake=t>.72f && t<.8f?Mathf.Sin((t-.72f)*200)*3f:0;
+   folder.style.rotate=new Rotate(shake);
   },()=>veil.schedule.Execute(finish).StartingIn(900));
  }
  static float Smooth(float x){x=Mathf.Clamp01(x);return x*x*(3-2*x);}
- static Label Typewriter_(VisualElement veil,string text) {
-  var note=Typed(veil,string.Empty,S.ClosedNoteSize);note.style.position=Position.Absolute;note.style.bottom=Length.Percent(12);
-  note.style.right=Length.Percent(10);note.style.backgroundColor=KarineTheme.Paper.Sheet;
-  note.style.paddingLeft=note.style.paddingRight=KarineTheme.SpaceLg;note.style.paddingTop=note.style.paddingBottom=KarineTheme.SpaceSm;
-  return note;
- }
 
  // Mürekkep kurur: yazı önce ıslak ve parlak, sonra olağan rengine oturur.
  public static void InkDry(VisualElement page) {

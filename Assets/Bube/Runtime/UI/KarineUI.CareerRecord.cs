@@ -41,6 +41,7 @@ public static partial class KarineUI {
    Border(frame,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);v.Add(frame);
    var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop};face.style.flexGrow=1;frame.Add(face);
   }
+  if(string.IsNullOrEmpty(basis)){v.style.width=StyleKeyword.Auto;v.style.flexGrow=1;v.style.flexShrink=1;return;}
   var b=Typed(row,basis,C.BasisSize,false,KarineTheme.Paper.Faded);b.style.flexGrow=1;b.style.flexShrink=1;b.style.marginBottom=0;b.style.whiteSpace=WhiteSpace.Normal;
   b.style.paddingLeft=KarineTheme.SpaceMd;b.style.borderLeftWidth=1;b.style.borderLeftColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.8f);
  }
