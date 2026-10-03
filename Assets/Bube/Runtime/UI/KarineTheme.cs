@@ -357,6 +357,14 @@ public static class KarineTheme {
   public const int PhotoHeight=300, PhotoBorder=10, Clip=40, StampSize=40, LineSize=17, HeadingSize=19, SourceSize=14, FaxIcon=30;
   public const float PhotoWidth=32, PhotoTilt=-2, StampTilt=-3, NoteTilt=-1, FaxTilt=-4, FaxWidth=34;
  }
+ public static class Fax {
+  // 3 Ekim 2026 maketi (Docs/Reference/UI_FAX_2026-10.png): ortada faks kâğıdı, sağda güven paneli.
+  public static readonly Rect Paper=new Rect(17,11,52,87);
+  public static readonly Rect Side=new Rect(73.6f,13,24,78);
+  public const int MetaSize=13, TitleSize=44, HeadSize=13, CellSize=14, NoteSize=14, Stamp=96;
+  public const int SideHead=26, StatusSize=22, StatusIcon=40, StatusBox=72, SideNote=14, LinkHeight=56, LinkSize=17;
+  public const float KeyWidth=24, VerdictWidth=28, Tilt=-.6f;
+ }
  public static class Search {
   public static readonly Rect Filters=new Rect(2.4f,12.5f,10.8f,80);
   public static readonly Rect Paper=new Rect(14.2f,12,82,86);

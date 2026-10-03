@@ -54,7 +54,7 @@ Akış her öğe için aynıdır:
 ## 5. Sonuç
 - [~] Gerekçeli rapor (`UI_REPORT`): 3 Ekim kararıyla iki adım (şüpheli, ne ile) + varsa gözaltı + gönder; kanıt adımı ve dayanak seçici kaldırıldı
 - [~] Vaka özeti / rapor gönderildi (CaseSummary, `UI_CASE_SUMMARY`): yeni görevlendirme düğmesi bilerek yok, sıradaki görev bildirimle gelir
-- [ ] Faks / değerlendirme (FaxPage)
+- [~] Faks / değerlendirme (FaxPage, `UI_FAX`): termal faks kâğıdı, sonuç başlığı, konu–raporda–değerlendirme tablosu, kurul mührü; sağda kurum güveni, kariyer kaydı, yeni görev
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 
 ## 6. Efekt ve geçişler (eskiler kaldırıldı, yenisi tasarlanacak)

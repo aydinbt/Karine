@@ -274,31 +274,37 @@ public sealed partial class BubeApp {
   FaxSheet(fax);
  }
  void FaxSheet(FaxReview fax) {
-  VisualElement body;
-  ReportSheet(T("inbox.faxTitle"),T("inbox.faxPending"),out body,Desk);
-  var dark=KarineTheme.Paper.Ink;
-  // Faks **basılıyor**: daktilo sesinin tek yeri burası. Arayüz düğmelerinde
-  // bu ses hiç yoktu; `ui_press` ona benzediği için öyle duyuluyordu.
-  Typewriter(Text(body,EvaluationTitle(fax),dark,20),
-   EvaluationTitle(fax));
+  Back(Desk);root.Clear();KarineUI.InboxScene(root);
   var reviewedAsset=Resources.Load<TextAsset>("Bube/Cases/"+fax.caseId);
   var reviewed=reviewedAsset==null?null:JsonUtility.FromJson<CaseData>(reviewedAsset.text);
+  KarineUI.DossierBar(root,T("back.desk"),T("fax.screen"),reviewed!=null?T(reviewed.titleKey):T("file.unit"),Desk,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(()=>FaxSheet(fax)));
+  var when=fax.evaluatedAtUtcTicks>0?new DateTime(fax.evaluatedAtUtcTicks,DateTimeKind.Utc).ToLocalTime():DateTime.Now;
+  var meta=T("fax.from")+"  ·  "+when.ToString("dd.MM.yyyy HH:mm",CultureInfo.InvariantCulture)+"  ·  S.1/1";
+  var body=KarineUI.FaxPaper(root,meta,EvaluationTitle(fax),out var heading);
+  // Faks **basılıyor**: daktilo sesinin tek yeri burası.
+  Typewriter(heading,EvaluationTitle(fax));
   if(reviewed!=null) {
-   Text(body,T("fax.reviewHeading"),dark,18);
+   var table=KarineUI.FaxTable(body,T("fax.col.topic"),T("fax.col.detail"),T("fax.col.verdict"));
    var person=reviewed.verdicts.FirstOrDefault(v=>v.id==fax.suspectId);
    var method=reviewed.methods.FirstOrDefault(v=>v.id==fax.methodId);
    var proof=reviewed.evidence.FirstOrDefault(v=>v.id==fax.proofId);
-   if(person!=null)SummaryField(body,T(SuspectKey(reviewed)),T(person.labelKey)+" · "+Verdict(fax.suspectSupported));
-   if(method!=null)SummaryField(body,T(MethodKey(reviewed)),T(method.labelKey)+" · "+Verdict(fax.methodSupported));
    var custody=(reviewed.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==fax.custodyId);
-   if(custody!=null)SummaryField(body,ReportCustodyHeading(reviewed),T(custody.labelKey)+" · "+Verdict(fax.custodySupported));
-   if(proof!=null)SummaryField(body,T("conclude.evidence"),T(proof.labelKey)+" · "+Verdict(fax.proofSupported));
+   if(person!=null)KarineUI.FaxRow(table,T(SuspectKey(reviewed)),T(person.labelKey),Verdict(fax.suspectSupported));
+   if(method!=null)KarineUI.FaxRow(table,T(MethodKey(reviewed)),T(method.labelKey),Verdict(fax.methodSupported));
+   if(custody!=null)KarineUI.FaxRow(table,ReportCustodyHeading(reviewed),T(custody.labelKey),Verdict(fax.custodySupported));
+   if(proof!=null)KarineUI.FaxRow(table,T("conclude.evidence"),T(proof.labelKey),Verdict(fax.proofSupported));
   }
-  Text(body,T("career.trust")+"  "+T(game.TrustStatusKey)+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);
-  Button(body,T("career.openRecord"),StatisticsPage);
-  AddRetryOffer(body,fax);
-  if(game.Career.retired)Text(body,T("career.ended"),KarineTheme.Danger,18);
-  else if(game.State.closed)Button(body,T("result.continue"),ContinueToNextCase,true);
+  var type=string.IsNullOrEmpty(fax.evaluationType)?(fax.correct?"supported":"incomplete"):fax.evaluationType;
+  if(locale.Has("fax.note."+type))KarineUI.FaxNote(body,T("fax.note."+type));
+  KarineUI.FaxSeal(body,T("fax.seal"));
+  var side=KarineUI.FaxSide(root,T("career.trust"),T(game.TrustStatusKey),fax.trustChange,
+   T(fax.trustChange>0?"fax.trustUp":fax.trustChange<0?"fax.trustDown":"fax.trustSame"));
+  KarineUI.FaxLink(side,"folder",T("career.openRecord"),StatisticsPage);
+  if(RetryOffered(fax))KarineUI.FaxLink(side,"refresh",T("retry.watch"),OfferRetry);
+  if(game.Career.retired)Text(side,T("career.ended"),KarineTheme.Danger,18);
+  else if(game.State.closed)KarineUI.InterviewAction(side,"document",T("next.openAssignment"),ContinueToNextCase);
  }
+
 }
 }

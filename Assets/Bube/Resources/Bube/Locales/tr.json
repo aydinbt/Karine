@@ -3723,6 +3723,42 @@
   {
    "key": "intro.welcome.sign",
    "value": "— Departman Müdürü"
+  },
+  {
+   "key": "fax.screen",
+   "value": "Değerlendirme"
+  },
+  {
+   "key": "fax.from",
+   "value": "Gönderen: Değerlendirme Kurulu"
+  },
+  {
+   "key": "fax.col.topic",
+   "value": "Konu"
+  },
+  {
+   "key": "fax.col.detail",
+   "value": "Raporda"
+  },
+  {
+   "key": "fax.col.verdict",
+   "value": "Değerlendirme"
+  },
+  {
+   "key": "fax.seal",
+   "value": "Değerlendirme Kurulu"
+  },
+  {
+   "key": "fax.trustUp",
+   "value": "Tutarlı raporlar kurum içi güveni artırıyor."
+  },
+  {
+   "key": "fax.trustDown",
+   "value": "Desteklenmeyen tespitler kurum içi güveni düşürdü."
+  },
+  {
+   "key": "fax.trustSame",
+   "value": "Kurum içi güven değişmedi."
   }
  ]
 }
