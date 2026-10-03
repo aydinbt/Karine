@@ -297,6 +297,15 @@ public sealed partial class BubeApp {
   // Kariyerin ilk dosyası ile sonraki dosyalar aynı animasyonu paylaşır, ama
   // şerit farklıdır: ikinci dosyaya "ilk görevlendirme" demek yanlış olurdu.
   Text(folder,T(game.Career.reviewHistory.Count==0?"intro.firstFile":"intro.newFile"),Base,17);
+  // Kariyerin ilk dosyasında departman müdürünün kısa karşılama notu iliştirilir. Not yalnız
+  // birimi tanıtır; soruşturma hakkında yönlendirme ya da ipucu vermez.
+  bool welcome=game.Career.reviewHistory.Count==0;
+  if(welcome) {
+   folder.style.top=Length.Percent(-60);folder.style.height=StyleKeyword.Auto;folder.style.paddingRight=24;folder.style.paddingBottom=18;
+   var note=Text(folder,T("intro.welcome.body"),Base,16);note.style.marginTop=10;
+   if(dossierBoldFont!=null)note.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
+   Text(folder,T("intro.welcome.sign"),Base,14).style.unityTextAlign=TextAnchor.MiddleRight;
+  }
   // Dosyanın numarası ve adı burada yazılmaz: oyuncu dosyayı kabul edince açılış
   // dizisi (saat kartı, mekân, başlık) onları zaten söylüyor; iki kez görünüyordu.
   float elapsed=0;bool landed=false;
@@ -305,13 +314,13 @@ public sealed partial class BubeApp {
    float reveal=Mathf.SmoothStep(0,1,Mathf.Clamp01(elapsed/.65f));
    shade.style.opacity=1-reveal*.62f;
    float slide=Mathf.SmoothStep(0,1,Mathf.Clamp01((elapsed-.45f)/1.2f));
-   folder.style.top=Length.Percent(Mathf.Lerp(-35,48,slide));
+   folder.style.top=Length.Percent(Mathf.Lerp(welcome?-60:-35,welcome?30:48,slide));
    if(!landed && slide>=1) {
     landed=true;audioDirector?.PlayAt("ui_folder",0,.9f);Fx.Buzz(Haptic.Thud);
    }
    yield return null;
   }
-  yield return new WaitForSecondsRealtime(Fx.On?1.1f:.65f);
+  yield return new WaitForSecondsRealtime(welcome?4.5f:Fx.On?1.1f:.65f);
   after();
  }
 }
