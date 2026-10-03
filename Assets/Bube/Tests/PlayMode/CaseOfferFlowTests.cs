@@ -70,7 +70,7 @@ public sealed class CaseOfferFlowTests {
   Call(app, "InboxPage");
   yield return null;
 
-  var accept = ButtonWithText(Root, "Dosyayı kabul et");
+  var accept = Root.Q<Button>("InboxAccept");
   Assert.IsNotNull(accept, "Tepside kabul düğmesi yok.");
   Assert.IsTrue(Root.Query<Label>().ToList().Any(l => l.text != null && l.text.Contains("KONUT HIRSIZLIĞI")),
    "Dosya önizlemesi tepside okunmuyor.");

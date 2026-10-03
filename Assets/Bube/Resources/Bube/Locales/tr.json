@@ -3435,6 +3435,34 @@
   {
    "key": "about.link.feedback.hint",
    "value": "Görüş ve önerilerini bizimle paylaş."
+  },
+  {
+   "key": "inbox.unreadCount",
+   "value": "{0} okunmamış evrak"
+  },
+  {
+   "key": "inbox.fresh",
+   "value": "Yeni"
+  },
+  {
+   "key": "inbox.back",
+   "value": "Geri"
+  },
+  {
+   "key": "offer.unit",
+   "value": "Soruşturma birimi"
+  },
+  {
+   "key": "offer.place",
+   "value": "Yer"
+  },
+  {
+   "key": "offer.state",
+   "value": "Durum"
+  },
+  {
+   "key": "offer.accept.hint",
+   "value": "İlk rapor masana gelir."
   }
  ]
 }

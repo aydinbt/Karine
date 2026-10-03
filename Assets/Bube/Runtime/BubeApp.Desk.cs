@@ -135,19 +135,17 @@ public sealed partial class BubeApp {
   }
   var visible=entries.Where(e=>filter=="unread"?e.unread:filter=="archive"?!e.unread && !e.pending:true).ToArray();
   var selected=visible.FirstOrDefault(e=>e.id==selectedId) ?? visible.FirstOrDefault();
+  // Masa altta kalır; evrak onun üstünde modal açılır (3 Ekim 2026 maketi).
   Desk();
-  KarineUI.InboxScene(root);
-  KarineUI.InboxHeader(root,T("inbox.title"),T("back.desk"),Desk);
-  var left=KarineUI.InboxList(root,T("file.department")+"\n"+T(game.Data.summary.locationKey));
-  var filters=new VisualElement();filters.style.flexDirection=FlexDirection.Row;
-  filters.style.marginBottom=12;left.Add(filters);
-  foreach(var choice in new[]{"all","unread","archive"}) {
-   var selectedFilter=choice;
-   var button=KarineUI.Button_(filters,T("inbox.filter."+choice),()=>InboxPage(null,selectedFilter),
-    choice==filter?KarineButtonKind.Primary:KarineButtonKind.Secondary);
-   button.style.flexGrow=1;button.style.marginRight=5;button.style.marginBottom=0;
-   button.style.fontSize=Typography.Snap(14);
-  }
+  var deskBack=escapeBack;
+  System.Action close=()=>{root.Q("InboxModal")?.RemoveFromHierarchy();escapeBack=deskBack;};
+  int unreadCount=entries.Count(e=>e.unread);
+  var panel=KarineUI.ModalFrame(root,"InboxModal","InboxPanel","document",T("inbox.title"),string.Format(T("inbox.unreadCount"),unreadCount),close);
+  Back(close);
+  var columns=new VisualElement();columns.style.flexDirection=FlexDirection.Row;columns.style.flexGrow=1;columns.style.minHeight=0;panel.Add(columns);
+  var left=new VisualElement {name="InboxListPanel"};left.style.width=Length.Percent(KarineTheme.InboxModal.ListWidth);left.style.flexShrink=0;
+  left.style.paddingRight=KarineTheme.SpaceLg;left.style.borderRightWidth=1;left.style.borderRightColor=KarineTheme.Border;columns.Add(left);
+  KarineUI.InboxTabs(left,new[]{"all","unread","archive"}.Select(choice=>(T("inbox.filter."+choice),choice==filter,(System.Action)(()=>InboxPage(null,choice)))).ToArray());
   var list=Scroll(left);
   if(visible.Length==0) {
    Text(list,filter=="unread"?T("inbox.empty"):T("inbox.noItems"),Muted,18);
@@ -155,17 +153,31 @@ public sealed partial class BubeApp {
   }
   foreach(var item in visible) {
    var current=item;
-   bool chosen=item.id==selected?.id;
    string date=item.review!=null&&item.review.evaluatedAtUtcTicks>0?
     new DateTime(item.review.evaluatedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy"):null;
-   KarineUI.InboxItem(list,item.title,item.status,date,item.unread,chosen,()=>InboxPage(current.id,filter));
+   KarineUI.InboxRow(list,item.title,item.unread?T("inbox.fresh"):item.status,item.unread,date,item.unread,item.id==selected?.id,()=>InboxPage(current.id,filter));
   }
-  var paper=KarineUI.InboxPaper(root);
+  var right=new VisualElement();right.style.flexGrow=1;right.style.minWidth=0;right.style.paddingLeft=KarineTheme.SpaceLg;columns.Add(right);
+  VisualElement paper;KarineUI.InboxDesk(right,out paper);
   var paperBody=Scroll(paper);
   var dark=KarineTheme.Paper.Ink;
+  var footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;
+  footer.style.marginTop=KarineTheme.SpaceMd;right.Add(footer);
+  KarineUI.SettingsFooterButton(footer,"nav_prev",T("inbox.back"),null,false,close).name="InboxBack";
   if(selected==null) {
    Text(paperBody,T("inbox.noItems"),dark,21);
    Text(paperBody,T("inbox.emptyHelp"),dark,16);
+   return;
+  }
+  if(selected.offer!=null) {
+   KarineUI.PaperLetterhead(paperBody,T("offer.unit"));
+   KarineUI.PaperText(paperBody,selected.title,KarineTheme.InboxModal.PaperTitleSize).style.marginTop=KarineTheme.SpaceLg;
+   KarineUI.PaperText(paperBody,CaseText("offer.subtitle","offer.subtitle"),KarineTheme.InboxModal.PaperSubSize);
+   KarineUI.PaperFields(paperBody,(T("offer.place"),T(game.Data.summary.locationKey)),(T("offer.state"),T("offer.title")));
+   KarineUI.PaperText(paperBody,CaseText("offer.summary","offer.summary"),KarineTheme.InboxModal.PaperBodySize).style.marginTop=KarineTheme.SpaceMd;
+   KarineUI.PaperStamp(paper,T("offer.title"));
+   KarineUI.SettingsFooterButton(footer,"check",T("offer.accept"),T("offer.accept.hint"),true,
+    ()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>Desk());} }).name="InboxAccept";
    return;
   }
   var brandRow=new VisualElement();brandRow.style.flexDirection=FlexDirection.Row;brandRow.style.alignItems=Align.Center;paperBody.Add(brandRow);
@@ -175,14 +187,10 @@ public sealed partial class BubeApp {
   KarineUI.DossierText(paperBody,T(game.Data.summary.locationKey),KarineTheme.Dossier.MetaSize);
   var title=Text(paperBody,selected.title,dark,22);
   if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  Text(paperBody,selected.review!=null || selected.assignment!=null || selected.offer!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,dark,14);
+  Text(paperBody,selected.review!=null || selected.assignment!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,dark,14);
   var line=new VisualElement();line.style.height=1;line.style.marginBottom=15;
   line.style.backgroundColor=KarineTheme.Paper.Edge;paperBody.Add(line);
-  if(selected.offer!=null) {
-   Text(paperBody,CaseText("offer.subtitle","offer.subtitle"),dark,18);
-   Text(paperBody,CaseText("offer.summary","offer.summary"),dark,18);
-   Button(paperBody,T("offer.accept"),()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>Desk());} },true);
-  } else if(selected.assignment!=null) {
+  if(selected.assignment!=null) {
    Text(paperBody,T("next.assignment.sender"),dark,16);
    Text(paperBody,T("next.assignment.body"),dark,18);
    Text(paperBody,T(selected.assignment.titleKey),dark,21);

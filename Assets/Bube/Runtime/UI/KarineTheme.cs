@@ -238,6 +238,12 @@ public static class KarineTheme {
   public const float MinSeconds=2.4f, TipSeconds=3.2f, FadeSeconds=.6f, BarWidth=42f;
   public const int LogoWidth=520, TipSize=18, LabelSize=14, BarHeight=6, StudioHeight=44, StudioTextSize=18;
  }
+ // Gelen evrak modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_INBOX_2026-10.png).
+ public static class InboxModal {
+  public const float ListWidth=32f, PaperTilt=-1.6f, SceneVeil=.35f, StampTilt=-8f;
+  public const int TabHeight=48, TabSize=20, RowHeight=84, RowTitleSize=20, RowMetaSize=13, PillSize=12;
+  public const int PaperTitleSize=40, PaperSubSize=20, PaperBodySize=17, PaperLabelSize=14, StampSize=30, Seal=46;
+ }
  // Ayarlar modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_SETTINGS_2026-10.png).
  public static class SettingsModal {
   public const float Width=76f, Height=86f, VeilAlpha=.7f;
