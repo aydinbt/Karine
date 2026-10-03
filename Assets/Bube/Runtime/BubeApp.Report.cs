@@ -181,8 +181,10 @@ public sealed partial class BubeApp {
   KarineUI.DossierBar(root,T("back.desk"),T("summary.title"),T("file.unit"),Desk,out var tools);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(CaseSummary));
   var report=game.Data.nodes.FirstOrDefault(n=>n.id=="report");
-  var photo=report==null || string.IsNullOrEmpty(report.imageResource)?null:Resources.Load<Texture2D>(report.imageResource);
-  KarineUI.SummaryPaper(root,photo,out var card);
+  // Her vakada aynı düzen: olay raporunun resmi yoksa vakanın kapak resmi kullanılır.
+  var photo=(report==null || string.IsNullOrEmpty(report.imageResource)?null:Resources.Load<Texture2D>(report.imageResource))
+   ?? Resources.Load<Texture2D>("Bube/Art/Covers/"+game.Data.id);
+  KarineUI.SummaryPaper(root,photo,out var card,out var footer);
   KarineUI.SummaryStamp(card,T("summary.stamp"),T(game.Data.titleKey)+" · "+T(game.Data.summary.locationKey));
   KarineUI.RecordHeading(card,T("career.sentReport"));
   var suspect=game.Data.verdicts.FirstOrDefault(v=>v.id==game.State.reportSuspect);
@@ -198,14 +200,14 @@ public sealed partial class BubeApp {
   if(sourceNames.Length==0)sourceNames=new[]{T("summary.noSources")};
   bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
   KarineUI.SummarySources(card,T("summary.sources").TrimStart('⌕',' '),sourceNames,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
-  var back=KarineUI.PaperButton(card,T("back.desk"),Desk);back.style.marginTop=KarineTheme.SpaceLg;back.style.minHeight=48;
+  var back=KarineUI.PaperButton(footer,T("back.desk"),Desk);back.style.marginTop=KarineTheme.SpaceLg;back.style.minHeight=48;
  }
  void Result() {
   if(game.SubmitReport(selectedSuspect,selectedMethod,selectedCustody)) {
    game.BeginNextCaseReview(7);
    Save();
    // Mühür her raporda aynı biçimde iner; sonucu faks söyler.
-   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();PlayReportSend(CaseSummary);}));
+   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();PlayReportSend(()=>ClosedCard(CaseSummary));}));
   }
  }
  void ContinueToNextCase() {

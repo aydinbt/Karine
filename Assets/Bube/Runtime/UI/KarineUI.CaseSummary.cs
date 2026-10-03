@@ -7,7 +7,7 @@ namespace Bube {
 // fotoğrafı, "rapor gönderildi" damgası, gönderilen raporun tablosu, bantlı kaynak notu ve faks notu.
 // Sonucu söylemez; sıradaki görev masadaki bildirimle gelir.
 public static partial class KarineUI {
- public static VisualElement SummaryPaper(VisualElement parent,Texture2D photo,out VisualElement right) {
+ public static VisualElement SummaryPaper(VisualElement parent,Texture2D photo,out VisualElement right,out VisualElement footer) {
   var paper=new VisualElement {name="CaseSummaryPaper"};OfficePlace(paper,C.Paper);
   Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
   Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
@@ -22,9 +22,11 @@ public static partial class KarineUI {
   image.style.backgroundColor=KarineTheme.Paper.Edge;frame.Add(image);
   var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.width=C.Clip;clip.style.height=C.Clip*2;Stretched(clip,"Bube/UI/paperclip");left.Add(clip);clip.style.position=Position.Absolute;clip.style.top=-C.Clip/2;clip.style.left=C.Clip;
   }
-  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.flexShrink=1;scroll.style.minHeight=0;
-  if(photo!=null)scroll.style.marginLeft=KarineTheme.SpaceXl*2;paper.Add(scroll);
-  right=scroll.contentContainer;
+  // Sağ sütun kayar; "Masaya dön" her zaman altta görünür kalır.
+  var side=new VisualElement();side.style.flexGrow=1;side.style.flexShrink=1;side.style.minHeight=0;
+  if(photo!=null)side.style.marginLeft=KarineTheme.SpaceXl*2;paper.Add(side);
+  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.flexShrink=1;scroll.style.minHeight=0;side.Add(scroll);
+  right=scroll.contentContainer;footer=side;
   return paper;
  }
  public static void SummaryStamp(VisualElement parent,string stamp,string line) {

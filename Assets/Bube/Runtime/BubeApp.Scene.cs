@@ -42,14 +42,22 @@ public sealed partial class BubeApp {
   title.schedule.Execute(()=>{KarineUI.TerminalType(title,title.text);KarineUI.Persist(title);}).StartingIn(260);
  }
 
- // Dosya kapandı kartı vaka başına bir kez; sonra `again` kaldığı yerden sürer.
+ // Rapor gönderilince, her vakada: klasör kapanır, "KAPANDI" damgası iner. Vaka başına bir kez.
+ void ClosedCard(Action then) {
+  string key="karine.closedCard."+game.Data.id;
+  if(PlayerPrefs.GetInt(key,0)==1){then();return;}
+  PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
+  KarineUI.CaseClosed(root,T(game.Data.titleKey),T("case.closedStamp"),then);
+ }
+
+ // Kapanış sonrası (epilog, jenerik) vaka başına bir kez; sonra `again` kaldığı yerden sürer.
  bool ShowCaseClosed(Action again) {
   if(!game.State.closed)return false;
   string key="karine.caseClosed."+game.Data.id;
   if(PlayerPrefs.GetInt(key,0)==1)return false;
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   audioDirector?.Sting();
-  KarineUI.FilmBurn(root,()=>KarineUI.CaseClosed(root,T(game.Data.titleKey),T("case.closedStamp"),()=>AfterClosing(again)));
+  AfterClosing(again);
   return true;
  }
 
