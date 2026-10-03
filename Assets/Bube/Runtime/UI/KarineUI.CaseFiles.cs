@@ -22,19 +22,23 @@ public static partial class KarineUI {
   Border(tab,selected?2:KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Border);
   Round(tab,KarineTheme.Radius);
   var photo=new VisualElement {pickingMode=PickingMode.Ignore};
-  photo.style.width=Length.Percent(44);photo.style.overflow=Overflow.Hidden;tab.Add(photo);
+  photo.style.width=Length.Percent(36);photo.style.overflow=Overflow.Hidden;tab.Add(photo);
   CountryPostcard(photo,id,art).style.opacity=unlocked?1f:.3f;
+  // Kilit görselin üstünde durur; yazı sütunu ülke adına kalır.
+  if(!unlocked) {
+   photo.style.alignItems=Align.Center;photo.style.justifyContent=Justify.Center;
+   Icon(photo,"lock",KarineTheme.Primary,KarineTheme.IconSize+6);
+  }
   var copy=new VisualElement {pickingMode=PickingMode.Ignore};
   copy.style.flexGrow=1;copy.style.flexDirection=FlexDirection.Row;copy.style.alignItems=Align.Center;
   copy.style.paddingLeft=KarineTheme.SpaceLg;tab.Add(copy);
-  if(!unlocked)Icon(copy,"lock",KarineTheme.Secondary,KarineTheme.IconSize+6).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};copy.Add(words);
   words.style.flexGrow=1;words.style.minWidth=0;words.style.paddingRight=KarineTheme.SpaceMd;
-  var title=Write(words,name.ToUpper(Tr),unlocked?KarineTheme.Primary:KarineTheme.Secondary,name.Length>9?F.CountryNameSize-8:F.CountryNameSize,Heading);
+  var title=Write(words,name.ToUpper(Tr),unlocked?KarineTheme.Primary:KarineTheme.Secondary,name.Length>12?F.CountryNameSize-12:name.Length>8?F.CountryNameSize-6:F.CountryNameSize,Heading);
   title.style.marginBottom=0;title.style.whiteSpace=WhiteSpace.NoWrap;Left(title);
   title.style.overflow=Overflow.Hidden;title.style.textOverflow=TextOverflow.Ellipsis;
   var count=Technical(words,tally,F.SmallSize);count.style.letterSpacing=2;count.style.marginBottom=0;
-  count.style.color=unlocked?KarineTheme.Primary:KarineTheme.Secondary;Left(count);
+  count.style.color=unlocked?KarineTheme.Primary:KarineTheme.Secondary;Left(count);count.style.whiteSpace=WhiteSpace.NoWrap;
   parent.Add(tab);return tab;
  }
 
@@ -125,7 +129,7 @@ public static partial class KarineUI {
  public static Button AgentCard(VisualElement parent,Texture2D portrait,string name,string role,
                                 (string label,string value)[] rows,Action click) {
   var card=new Button(Sounded(click)) {name="MenuIdentity"};
-  card.style.flexDirection=FlexDirection.Row;card.style.alignItems=Align.FlexStart;
+  card.style.flexDirection=FlexDirection.Row;card.style.alignItems=Align.Center;card.style.flexShrink=0;
   card.style.marginLeft=0;card.style.marginRight=0;card.style.marginTop=0;card.style.marginBottom=0;
   int pad=KarineTheme.SpaceMd;
   card.style.paddingLeft=pad;card.style.paddingRight=pad;card.style.paddingTop=pad;card.style.paddingBottom=pad;
@@ -142,12 +146,12 @@ public static partial class KarineUI {
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.minWidth=0;card.Add(words);
   var title=Write(words,name,KarineTheme.Paper.Ink,F.AgentNameSize,Heading);title.style.marginBottom=0;Left(title);
   var sub=Technical(words,role.ToUpper(Tr),F.SmallSize);sub.style.color=KarineTheme.Paper.Faded;sub.style.letterSpacing=2;
-  sub.style.marginBottom=KarineTheme.SpaceSm;Left(sub);
+  sub.style.marginBottom=KarineTheme.SpaceXs;Left(sub);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.height=1;rule.style.backgroundColor=KarineTheme.Paper.Edge;
-  rule.style.marginBottom=KarineTheme.SpaceSm;words.Add(rule);
+  rule.style.marginBottom=KarineTheme.SpaceXs;words.Add(rule);
   foreach(var row in rows) {
-   var key=Technical(words,row.label.ToUpper(Tr),F.SmallSize-1);key.style.color=KarineTheme.Paper.Faded;key.style.marginBottom=0;Left(key);
-   var value=Write(words,row.value,KarineTheme.Paper.Ink,F.SmallSize,Body);value.style.marginBottom=KarineTheme.SpaceXs;Left(value);
+   var value=Write(words,row.value,KarineTheme.Paper.Ink,F.SmallSize,Body);value.style.marginBottom=0;Left(value);
+   value.style.whiteSpace=WhiteSpace.NoWrap;value.style.overflow=Overflow.Hidden;value.style.textOverflow=TextOverflow.Ellipsis;
   }
   parent.Add(card);return card;
  }
