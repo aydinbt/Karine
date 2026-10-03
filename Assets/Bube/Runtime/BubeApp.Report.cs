@@ -207,15 +207,20 @@ public sealed partial class BubeApp {
  // Vaka sonrası akış kendi kendine ilerlemez: sıradaki iş bir düğmeyle açılır, oyuncu kaçırmaz.
  // Faks hazır değilse düğme beklediğini söyler ve hazır olunca kendini yeniler.
  void NextStep(VisualElement parent,Action refresh) {
+  string step=StepState();
   Button next=null;
-  if(HasIncomingFax)next=KarineUI.PaperButton(parent,T("next.openFax")+"  →",()=>InboxPage("fax:new","all"),KarinePaperKind.Action);
-  else if(game.Career.pendingReviews.Any(r=>r.caseId==game.Data.id)) {
-   next=KarineUI.PaperButton(parent,T("next.waitingFax"),()=>{});next.SetEnabled(false);
-   next.schedule.Execute(()=>{if(next.panel!=null && HasIncomingFax)refresh();}).Every(1000);
-  }
-  else if(AvailableAssignment()!=null)next=KarineUI.PaperButton(parent,T("next.openAssignment")+"  →",ContinueToNextCase,KarinePaperKind.Action);
+  if(step=="fax")next=KarineUI.PaperButton(parent,T("next.openFax")+"  →",()=>InboxPage("fax:new","all"),KarinePaperKind.Action);
+  else if(step=="waiting"){next=KarineUI.PaperButton(parent,T("next.waitingFax"),()=>{});next.SetEnabled(false);}
+  else if(step=="assignment")next=KarineUI.PaperButton(parent,T("next.openAssignment")+"  →",ContinueToNextCase,KarinePaperKind.Action);
+  // Durum değişince (faks geldi, faks okundu) düğme yenilenir; açık bir pencerenin altından yenilenmez.
+  parent.schedule.Execute(()=>{if(parent.panel!=null && root.Q("InboxModal")==null && StepState()!=step)refresh();}).Every(1000);
   if(next==null)return;
   next.style.flexGrow=1;next.style.minHeight=48;next.style.marginLeft=KarineTheme.SpaceMd;
+ }
+ string StepState() {
+  if(HasIncomingFax)return "fax";
+  if(game.Career.pendingReviews.Any(r=>r.caseId==game.Data.id))return "waiting";
+  return AvailableAssignment()!=null?"assignment":"none";
  }
  void Result() {
   if(game.SubmitReport(selectedSuspect,selectedMethod,selectedCustody)) {

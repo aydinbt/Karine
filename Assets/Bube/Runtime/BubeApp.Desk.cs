@@ -400,7 +400,7 @@ public sealed partial class BubeApp {
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
   } else if(game.State.closed) {
    var closed=Panel(stage);KarineUI.OfficePlace(closed,new Rect(36,65,30,30));
-   Text(closed,T("desk.closed"),Ink,20);
+   Text(closed,T(game.Career.pendingReviews.Any(r=>r.caseId==game.Data.id)?"desk.closed":"desk.reviewed"),Ink,20);
    NextStep(closed,Desk);
   }
   KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;StageDesk(stage);
