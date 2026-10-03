@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UIElements;
+using O = Bube.KarineTheme.Office;
 
 namespace Bube {
 public static partial class KarineUI {
@@ -70,7 +71,36 @@ public static partial class KarineUI {
   button.RegisterCallback<PointerDownEvent>(_=>Border(button,2,KarineTheme.Accent),TrickleDown.TrickleDown);
   button.RegisterCallback<PointerUpEvent>(_=>Border(button,1,Color.clear));
   button.RegisterCallback<PointerLeaveEvent>(_=>Border(button,1,Color.clear));
+  OfficeHotspot(button);
   stage.Add(button);return button;
+ }
+
+ // Dokunulabilir eşyanın işareti: ortada küçük amber nokta, çevresinden yayılan halka.
+ // Bütün eşyalarda aynı ritimde, sırayla atar; hiçbirini öne çıkarmaz (ipucu değil, yalnız "dokunulur").
+ static int hotspotCount;
+ static void OfficeHotspot(Button button) {
+  float phase=(hotspotCount++%5)*O.HotspotStagger;
+  var spot=new VisualElement {name="OfficeHotspot",pickingMode=PickingMode.Ignore};spot.style.position=Position.Absolute;
+  spot.style.left=Length.Percent(50);spot.style.top=Length.Percent(50);spot.style.width=0;spot.style.height=0;
+  spot.style.alignItems=Align.Center;spot.style.justifyContent=Justify.Center;spot.style.overflow=Overflow.Visible;button.Add(spot);
+  var ring=new VisualElement {pickingMode=PickingMode.Ignore};ring.style.position=Position.Absolute;
+  Border(ring,2,KarineTheme.Accent);spot.Add(ring);
+  var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.position=Position.Absolute;
+  dot.style.width=O.HotspotDot;dot.style.height=O.HotspotDot;dot.style.left=-O.HotspotDot/2f;dot.style.top=-O.HotspotDot/2f;Round(dot,(int)O.HotspotDot);
+  dot.style.backgroundColor=KarineTheme.Accent;Border(dot,2,KarineTheme.Alpha(KarineTheme.Background,.6f));spot.Add(dot);
+  Action<float> ringAt=t=>{float r=Mathf.Lerp(O.HotspotDot*.5f,O.HotspotRing,t);
+   ring.style.width=r*2;ring.style.height=r*2;ring.style.left=-r;ring.style.top=-r;Round(ring,(int)(r+1));ring.style.opacity=(1-t)*.9f;};
+  ringAt(1);
+  spot.schedule.Execute(()=>{
+   if(KarineMotion.Reduced){ringAt(1);dot.style.opacity=.9f;return;}
+   float t=Mathf.Repeat(Time.unscaledTime+phase,O.HotspotPeriod)/O.HotspotPeriod;
+   ringAt(Mathf.Clamp01(t*2.2f));
+   dot.style.opacity=.75f+.25f*Mathf.Cos(t*Mathf.PI*2);
+  }).Every(40);
+  // Basılırken işaret kaybolur; eşyanın kendisi görünsün.
+  button.RegisterCallback<PointerDownEvent>(_=>spot.style.display=DisplayStyle.None,TrickleDown.TrickleDown);
+  button.RegisterCallback<PointerUpEvent>(_=>spot.style.display=DisplayStyle.Flex);
+  button.RegisterCallback<PointerLeaveEvent>(_=>spot.style.display=DisplayStyle.Flex);
  }
  // Klasör etiketi: resimde boş kâğıt şerit, dosya adı daktiloyla üstüne yazılır.
  public static void OfficeFolderLabel(VisualElement stage,string number,string title) {
