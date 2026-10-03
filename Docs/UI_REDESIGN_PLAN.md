@@ -42,7 +42,7 @@ Akış her öğe için aynıdır:
 - [x] Dosya ve kanıt sayfası (FilePage, `UI_FILE*`): sekmeler, liste, rapor kâğıdı gözlendi; sorgu/zaman çizelgesi kâğıtları `[~]`; not defteri sekmesi kaldırıldı
 - [ ] Dosyada arama (FileSearchPage)
 - [ ] Belge okuma (ReadPage)
-- [ ] Karşılaştırma (ComparePage)
+- [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
 - [ ] CCTV dökümü ve görüntüler
 - [ ] Not defteri
 - [ ] Soruşturma talepleri
@@ -52,7 +52,7 @@ Akış her öğe için aynıdır:
 - [ ] Kaydı öne sürme
 
 ## 5. Sonuç
-- [ ] Gerekçeli rapor
+- [~] Gerekçeli rapor (`UI_REPORT`): adım sütunu, polaroid şüpheliler, dayanak kaynak, özet, onay kartı; kaynakta oyuncunun kendi karşılaştırma notu görünür
 - [ ] Faks / değerlendirme (FaxPage)
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 

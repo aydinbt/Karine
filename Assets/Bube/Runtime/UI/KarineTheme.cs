@@ -312,6 +312,17 @@ public static class KarineTheme {
   public const int PickerHeight=48, PickerSize=15, OptionSize=15, GroupSize=16, MenuMax=380, EmptyIcon=96, MarkGlyph=40, MarkLabel=15;
  }
 
+ // Sonuç raporu (3 Ekim 2026 maketi, Docs/Reference/UI_REPORT_2026-10.png): solda koyu adım sütunu, sağda form kâğıdı.
+ public static class Report {
+  public static readonly Rect Rail=new Rect(3.2f,13,9.6f,83);
+  public static readonly Rect Paper=new Rect(13.8f,12.5f,83,85);
+  public const int StepNumberSize=18, StepLabelSize=15, StepIcon=28, TitleSize=30, MetaSize=15, HelpSize=15, HeadingSize=20;
+  public const int CardWidth=150, PhotoHeight=150, CardLabelSize=15, ChoiceSize=15, ChoiceMinWidth=210;
+  public const int PickerHeight=48, QuoteSize=15, NoteSize=14, NavHeight=50, NavWidth=190, RowSize=15, RowKeyWidth=120, RowSourceKey=92;
+  public const int ConfirmWidth=520, ConfirmTitleSize=28, ConfirmGlyph=60, ConfirmGlyphSize=40;
+  public const float CardTilt=1.2f, ConfirmTilt=-1.2f;
+ }
+
  public static class Office {
   public const float Aspect=1672f/941f;
   // 3 Ekim 2026 masa maketi (Docs/Reference/UI_DESK_2026-10.png). Sahne resmi yazısızdır;

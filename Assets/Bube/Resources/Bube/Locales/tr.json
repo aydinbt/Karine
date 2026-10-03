@@ -374,7 +374,7 @@
   },
   {
    "key": "conclude.submit",
-   "value": "RAPORU GÖNDER · DOSYAYI KAPAT"
+   "value": "Raporu gönder"
   },
   {
    "key": "result.accepted",
@@ -2023,6 +2023,26 @@
   {
    "key": "interview.tryAnotherSource",
    "value": "BAŞKA KAYIT SEÇ"
+  },
+  {
+   "key": "conclude.step.send",
+   "value": "Gönder"
+  },
+  {
+   "key": "conclude.basis",
+   "value": "Dayanak"
+  },
+  {
+   "key": "conclude.basisSource",
+   "value": "Dayanak kaynak"
+  },
+  {
+   "key": "conclude.sourcePlaceholder",
+   "value": "Belge, ifade veya kayıt seç"
+  },
+  {
+   "key": "conclude.yourNote",
+   "value": "Senin notun"
   },
   {
    "key": "conclude.stepHelp",

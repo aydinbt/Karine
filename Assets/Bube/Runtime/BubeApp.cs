@@ -512,13 +512,6 @@ public sealed partial class BubeApp : MonoBehaviour {
   Back(backAction ?? (Action)FilePage);
   back.style.minHeight=42;back.style.fontSize=Typography.Snap(16);
  }
- Button ReportChoice(VisualElement parent,string label,bool selected,Action choose) {
-  var option=KarineUI.PaperButton(parent,(selected?"✓  ":"□  ")+label,choose,
-   selected?KarinePaperKind.Action:KarinePaperKind.Choice,true);
-  option.style.minHeight=40;option.style.fontSize=Typography.Snap(17);
-  option.style.marginBottom=4;
-  return option;
- }
  void RefreshReportChoices(List<Button> buttons,List<string> labels,List<string> ids,string selected) {
   for(int i=0;i<buttons.Count;i++) {
    bool active=ids[i]==selected;

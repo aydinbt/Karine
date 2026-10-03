@@ -45,61 +45,93 @@ public sealed partial class BubeApp {
    pick=()=>selectedEvidence,setPick=v=>selectedEvidence=v,source=()=>selectedEvidenceSource,setSource=v=>selectedEvidenceSource=v});
   return columns;
  }
+ // 3 Ekim 2026 maketi: solda adım sütunu, sağda form kâğıdı. Adım mantığı aynı kaldı.
  void ConclusionStep(int step) {
   if(!game.CanConclude){FilePage();return;}
   var columns=ReportColumns();
   int last=columns.Count;
   step=Mathf.Clamp(step,0,last);
   showingInterviewList=false;
-  VisualElement body;
-  ReportSheet(T("conclude"),T("conclude.prompt"),out body,null,true);
-  var scroll=body as ScrollView;
-  var dark=KarineTheme.Paper.Ink;
-  var muted=KarineTheme.Paper.Faded;
-  // Sayfa sayacı kit'in `03 / 07` biçimi: monospace, iki hane.
-  KarineUI.Technical(scroll,(step+1).ToString("00")+" / "+(last+1).ToString("00"),15).style.color=muted;
-  Text(scroll,T(step==last?"conclude.previewTitle":columns[step].headingKey),dark,23).style.marginBottom=9;
-  Button next=null;
   Func<ReportColumn,bool> done=c=>c.pick()!=null && game.ReportSourceAvailable(c.source());
-  Action refresh=()=>{
-   bool ready=step==last?columns.All(c=>done(c)):done(columns[step]);
-   if(next!=null){next.SetEnabled(ready);next.style.opacity=ready?1f:.45f;}
-  };
+  Desk();
+  KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.file"),T(game.Data.titleKey),T("file.unit"),FilePage,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(()=>ConclusionStep(step)));
+  Back(FilePage);
+  // Bir adıma ancak öncekilerin hepsi tamamsa atlanır; sütun yalnız ilerlemeyi gösterir.
+  int reachable=0;
+  while(reachable<last && done(columns[reachable]))reachable++;
+  var rail=KarineUI.ReportRail(root);
+  for(int i=0;i<=last;i++) {
+   int target=i;
+   string label=i==last?T("conclude.step.send"):T(columns[i].headingKey);
+   string icon=i==last?"document":i==0?"person":i==columns.Count-1?"folder":"fingerprint";
+   KarineUI.ReportStep(rail,(i+1).ToString("00"),label,icon,i<last && done(columns[i]),i==step,i<=reachable,()=>ConclusionStep(target));
+  }
+  var paper=KarineUI.ReportPaper(root);
+  KarineUI.ReportHead(paper,T("conclude"),CaseNumber(),(step+1).ToString("00")+" / "+(last+1).ToString("00"),
+   T(step==last?"conclude.reviewHelp":"conclude.stepHelp"));
+  var scroll=new KarineScrollView(ScrollViewMode.Vertical);scroll.style.flexGrow=1;paper.Add(scroll);
+  bool ready;
   if(step<last) {
    var column=columns[step];
-   Text(scroll,T("conclude.stepHelp"),muted,15);
+   KarineUI.ReportHeading(scroll,T(column.headingKey));
+   bool suspects=column.headingKey==SuspectKey(game.Data);
+   var wrap=new VisualElement();wrap.style.flexDirection=FlexDirection.Row;wrap.style.flexWrap=Wrap.Wrap;
+   if(suspects)wrap.style.justifyContent=Justify.Center;
+   wrap.style.marginBottom=KarineTheme.SpaceMd;scroll.Add(wrap);
+   int index=0;
    foreach(var v in column.choices) {
     var id=v.Key;var label=T(v.Value);
-    ReportChoice(scroll,label,column.pick()==id,()=>{
-     if(column.pick()!=id){column.setPick(id);column.setSource(null);ConclusionStep(step);}
-    });
+    Action choose=()=>{ if(column.pick()!=id){column.setPick(id);column.setSource(null);ConclusionStep(step);} };
+    if(suspects)KarineUI.ReportPortrait(wrap,Resources.Load<Texture2D>("Bube/Characters/"+id),label,column.pick()==id,index++,choose);
+    else KarineUI.ReportChoiceCard(wrap,label,column.pick()==id,choose);
    }
    ReportSourcePicker(scroll,column.sourceHeadingKey,column.source,column.setSource,step);
+   ready=done(column);
   } else {
-   Text(scroll,T("conclude.reviewHelp"),muted,15);
    foreach(var column in columns) {
     var chosen=column.choices.FirstOrDefault(v=>v.Key==column.pick());
-    ReportReviewClaim(scroll,column.headingKey,chosen.Value==null?"conclude.unselected":chosen.Value,column.source());
+    var source=column.source();
+    string icon=column==columns[0]?"person":column==columns[columns.Count-1]?"folder":"fingerprint";
+    KarineUI.ReportSummaryRow(scroll,icon,T(column.headingKey),T(chosen.Value==null?"conclude.unselected":chosen.Value),
+     T("conclude.basis"),CompactReportSourceLabel(source),()=>ShowReportSourceCard(source));
    }
+   ready=columns.All(c=>done(c));
   }
-  var nav=new VisualElement();nav.style.flexDirection=FlexDirection.Row;
-  nav.style.marginTop=12;nav.style.marginBottom=12;scroll.Add(nav);
-  if(step>0) {
-   var previous=KarineUI.PaperButton(nav,"‹  "+T("conclude.previous"),()=>ConclusionStep(step-1));
-   previous.style.flexGrow=1;previous.style.minHeight=50;previous.style.marginRight=7;
-  }
-  next=step==last
-   ?KarineUI.PaperButton(nav,T("conclude.submit"),ConfirmSubmit,KarinePaperKind.Action)
-   :KarineUI.PaperButton(nav,T("conclude.next")+"  ›",()=>ConclusionStep(step+1),KarinePaperKind.Action);
-  next.style.flexGrow=1;next.style.minHeight=50;
-  refresh();
+  var nav=KarineUI.ReportNav(paper);
+  if(step>0)KarineUI.ReportNavButton(nav,T("conclude.previous"),false,true,()=>ConclusionStep(step-1),"nav_prev");
+  var gap=new VisualElement {pickingMode=PickingMode.Ignore};gap.style.flexGrow=1;nav.Add(gap);
+  if(step==last)KarineUI.ReportNavButton(nav,T("conclude.submit"),true,ready,ConfirmSubmit,"document");
+  else KarineUI.ReportNavButton(nav,T("conclude.next"),true,ready,()=>ConclusionStep(step+1),"nav_next",true);
  }
- // Gönderilen rapor geri alınamaz; kit'in onay modalının var olma sebebi tam
- // olarak budur. Modal yalnız kararı sorar, ne seçileceğini söylemez.
+ // Gönderilen rapor geri alınamaz; onay kartı yalnız kararı sorar, ne seçileceğini söylemez.
  void ConfirmSubmit() {
-  KarineUI.Modal(root,T("conclude.confirm.title"),T("conclude.confirm.body"),
-   T("conclude.confirm.cancel"),()=>ConclusionStep(int.MaxValue),
+  VisualElement card=null;
+  card=KarineUI.ReportConfirm(root,T("conclude.confirm.title"),T("conclude.confirm.body"),
+   T("conclude.confirm.cancel"),()=>card.RemoveFromHierarchy(),
    T("conclude.confirm.send"),Result);
+ }
+ // Oyuncunun Karşılaştır'da bu kaynak için yazdığı kendi hükümleri. Oyun doğruluğunu söylemez.
+ string[] SourceNotes(string sourceId) {
+  if(string.IsNullOrEmpty(sourceId))return new string[0];
+  int separator=sourceId.IndexOf('#');
+  var nodeId=separator<0?sourceId:sourceId.Substring(0,separator);
+  return game.State.notebook.Where(e=>e.leftId==nodeId || e.rightId==nodeId).Select(e=>{
+   var other=game.Data.nodes.FirstOrDefault(n=>n.id==(e.leftId==nodeId?e.rightId:e.leftId));
+   return T("conclude.yourNote")+": "+T("notebook.mark."+e.mark)+(other==null?"":"  ·  "+CompareTitle(other));
+  }).ToArray();
+ }
+ string ReportSourceQuote(string sourceId) {
+  int separator=sourceId.IndexOf('#');
+  var node=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
+  if(node==null)return string.Empty;
+  string value;
+  if(node.kind=="interview" && separator>=0){var turn=game.InterviewSourceTurn(sourceId);value=turn==null?string.Empty:T(turn.answerKey);}
+  else if(node.kind=="cctv" && separator>=0){var record=(node.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e=>e.id==sourceId.Substring(separator+1));value=record==null?string.Empty:T(record.textKey);}
+  else return ReportSourcePreview(node);
+  value=value.Replace('\n',' ').Trim();
+  return value.Length>120?value.Substring(0,120)+"…":value;
  }
 
  // Vaka kendi sütun başlığını verebilir (Dosya #003: "Ölümden kim sorumlu?"); boşsa ortak başlık.
@@ -107,17 +139,6 @@ public sealed partial class BubeApp {
  static string MethodKey(CaseData data)=>string.IsNullOrEmpty(data?.methodLabelKey)?"conclude.method":data.methodLabelKey;
  string ReportCustodyHeading(CaseData data) =>
   T(string.IsNullOrEmpty(data.custodyLabelKey)?"conclude.custody":data.custodyLabelKey);
- void ReportReviewClaim(VisualElement parent,string headingKey,string choiceKey,string sourceId) {
-  var ink=KarineTheme.Paper.Ink;
-  var card=new VisualElement();card.style.backgroundColor=KarineTheme.Paper.Tint;
-  card.style.paddingLeft=12;card.style.paddingRight=12;
-  card.style.paddingTop=9;card.style.paddingBottom=9;card.style.marginBottom=8;
-  parent.Add(card);
-  Text(card,T(headingKey)+"  ·  "+T(choiceKey),ink,17).style.marginBottom=5;
-  var source=KarineUI.PaperButton(card,T("conclude.openSource")+"  ›  "+CompactReportSourceLabel(sourceId),
-   ()=>ShowReportSourceCard(sourceId),KarinePaperKind.Quiet,true);
-  source.style.minHeight=50;source.style.fontSize=Typography.Snap(15);
- }
  string ReportSourceLabel(string id) {
   if(string.IsNullOrEmpty(id))return T("conclude.chooseSource");
   int separator=id.IndexOf('#');
@@ -191,14 +212,11 @@ public sealed partial class BubeApp {
  // vardir. Arama alani kaldirildi — liste zaten bu vakada okunmus kayitlardir
  // ve dort filtre onu bolmeye yetiyor.
  void ReportSourcePicker(VisualElement parent,string promptKey,Func<string> selected,Action<string> setSelected,int step) {
-  var dark=KarineTheme.Paper.Ink;
-  Text(parent,T(promptKey),KarineTheme.Paper.Faded,14).style.marginBottom=3;
-  var opener=KarineUI.PaperButton(parent,CompactReportSourceLabel(selected())+"  ›",
-   ()=>ReportSourceSheet(reference=>{ setSelected(reference); ConclusionStep(step); }),
-   string.IsNullOrEmpty(selected())?KarinePaperKind.Choice:KarinePaperKind.Quiet,true);
-  opener.style.minHeight=MinimumTouchTarget;opener.style.marginBottom=10;
-  opener.style.fontSize=Typography.Snap(15);
-  opener.style.color=dark;
+  var current=selected();
+  KarineUI.ReportSourceBar(parent,T("conclude.basisSource"),string.IsNullOrEmpty(current)?T("conclude.sourcePlaceholder"):CompactReportSourceLabel(current),
+   ()=>ReportSourceSheet(reference=>{ setSelected(reference); ConclusionStep(step); }));
+  if(game.ReportSourceAvailable(current))
+   KarineUI.ReportQuote(parent,"\""+ReportSourceQuote(current)+"\"",SourceNotes(current),T("conclude.openSource"),()=>ShowReportSourceCard(current));
  }
  // Tam ekran kaynak listesi. Tek kaydirma, dort filtre, baska hicbir sey.
  void ReportSourceSheet(Action<string> choose) {
@@ -226,6 +244,8 @@ public sealed partial class BubeApp {
   var categories=new List<int>();
   int[] categoryCounts=new int[4];
   Action<string,string,int,int> add=(label,reference,category,height)=>{
+   var notes=SourceNotes(reference);
+   if(notes.Length>0)label+="\n"+string.Join("\n",notes);
    var option=KarineUI.PaperButton(choices,label,()=>{
     shade.RemoveFromHierarchy();choose(reference);
    },KarinePaperKind.Choice,true);
