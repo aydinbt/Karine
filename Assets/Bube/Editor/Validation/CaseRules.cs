@@ -240,11 +240,19 @@ public static class CaseRules {
     (data.nodes.FirstOrDefault(x => x.id == question.presentedSourceId)?.notPresentable ?? false),
     "Belirleyici kaynak görüşmede öne sürülemiyor: " + question.id);
 
-   foreach (var sourceRef in question.presentedSourceIds ?? new string[0]) {
+   // Tek belirleyici kaynak da (`presentedSourceId`) aynı süzgeçten geçer; eskiden
+   // yalnız `presentedSourceIds` içindeki `#` ayrıntılı kayıtlar denetleniyordu ve
+   // adı geçmeyen bir belge (Dosya #002 muayene raporu) soruyu kilitliyordu.
+   var singles = string.IsNullOrEmpty(question.presentedSourceId) ? new string[0] : new[] { question.presentedSourceId };
+   foreach (var sourceRef in singles.Concat(question.presentedSourceIds ?? new string[0]).Distinct()) {
     var separator = sourceRef.IndexOf('#');
     var source = data.nodes.FirstOrDefault(x => x.id == (separator < 0 ? sourceRef : sourceRef.Substring(0, separator)));
     if (!report.Step(source != null, "Bilinmeyen görüşme kaynağı: " + question.id + " → " + sourceRef)) continue;
-    if (separator < 0) continue;
+    if (separator < 0) {
+     report.Forbid(!Concerns(data, node, source, null, locale),
+      "Belirleyici kaynak bu kişiye kapalı (adı geçmiyor, aboutPersonIds de yok): " + question.id + " → " + sourceRef);
+     continue;
+    }
     var detail = sourceRef.Substring(separator + 1);
     report.Forbid(
      source.kind == "cctv" && !(source.cctvEvents ?? new CctvEvent[0]).Any(e => e.id == detail) ||

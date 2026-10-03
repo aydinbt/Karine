@@ -312,10 +312,11 @@ public sealed partial class BubeApp {
   // Dosyanın numarası ve adı burada yazılmaz: oyuncu dosyayı kabul edince açılış
   // dizisi (saat kartı, mekân, başlık) onları zaten söylüyor; iki kez görünüyordu.
   float elapsed=0;bool landed=false;
-  while(elapsed<2.1f) {
+  while(elapsed<(welcome?2.1f:.7f)) {
    elapsed+=Time.unscaledDeltaTime;
    float reveal=Mathf.SmoothStep(0,1,Mathf.Clamp01(elapsed/.65f));
-   shade.style.opacity=1-reveal*.62f;
+   // Kart yoksa masa tamamen açılır; yarı karanlıkta beklemek dokunulamayan bir boşluk gibiydi.
+   shade.style.opacity=1-reveal*(welcome?.62f:1f);
    float slide=Mathf.SmoothStep(0,1,Mathf.Clamp01((elapsed-.45f)/1.2f));
    folder.style.top=Length.Percent(Mathf.Lerp(welcome?-60:-35,welcome?30:48,slide));
    if(!landed && slide>=1) {
@@ -323,7 +324,7 @@ public sealed partial class BubeApp {
    }
    yield return null;
   }
-  yield return new WaitForSecondsRealtime(welcome?4.5f:Fx.On?1.1f:.65f);
+  if(welcome)yield return new WaitForSecondsRealtime(4.5f);
   after();
  }
 }
