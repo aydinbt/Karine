@@ -387,6 +387,8 @@ public sealed partial class BubeApp {
    inbox=KarineUI.OfficeAction(stage,"DeskInbox","document",T("desk.inbox"),KarineTheme.Office.Inbox,InboxPage);
   if(inbox!=null) {
    var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
+   // Tepsinin halkası yalnız okunmamış evrak varken atar.
+   KarineUI.OfficePulse(inbox,!game.State.caseAccepted||HasIncomingFax||HasIncomingDocument||AvailableAssignment()!=null);
    inboxBadge=KarineUI.OfficeNotice(stage,T("desk.inbox.new"),parts[0].Trim(),out inboxBadgeLabel);RefreshInboxBadge();
   } else {inboxBadge=null;inboxBadgeLabel=null;}
   if(usable) {
