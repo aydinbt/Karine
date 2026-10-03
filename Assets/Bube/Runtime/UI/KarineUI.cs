@@ -101,7 +101,7 @@ public static partial class KarineUI {
  // bileşenler yine çizilir, yalnız panelin varsayılan yazı tipiyle.
  public static FontSet Fonts;
 
- static void ApplyFont(VisualElement element, Font font) {
+ internal static void ApplyFont(VisualElement element, Font font) {
   if (font != null) element.style.unityFontDefinition = FontDefinition.FromFont(font);
  }
 

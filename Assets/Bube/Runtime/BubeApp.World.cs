@@ -77,8 +77,7 @@ public sealed partial class BubeApp {
   side.style.position=Position.Absolute;side.style.left=KarineTheme.CaseFiles.SidebarLeft;side.style.top=KarineTheme.CaseFiles.Top-KarineTheme.SpaceMd;
   side.style.bottom=KarineTheme.CaseFiles.Bottom;side.style.width=KarineTheme.CaseFiles.SidebarWidth;root.Add(side);
   KarineLogo.Hero(side,KarineTheme.CaseFiles.LogoWidth);
-  var tagline=KarineUI.Technical(side,T("menu.tagline"),KarineTheme.CaseFiles.SmallSize);
-  tagline.style.letterSpacing=4;tagline.style.color=KarineTheme.Primary;tagline.style.marginBottom=KarineTheme.SpaceXl;
+  KarineLogo.Tagline(side,KarineTheme.CaseFiles.LogoWidth,T("menu.tagline")).style.marginBottom=KarineTheme.SpaceXl;
   MenuRow(side,"cine_skip",T(game.State.caseAccepted?"menu.row.continue":"menu.row.start"),game.State.caseAccepted?(Action)Desk:()=>MaybeWorldIntro(Desk),false);
   MenuRow(side,"folder",T("menu.row.chapters"),WorldPage,true);
   MenuRow(side,"person",T("menu.row.career"),StatisticsPage,false);

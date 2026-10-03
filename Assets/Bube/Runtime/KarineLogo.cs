@@ -31,6 +31,21 @@ public static class KarineLogo {
  public const string BaseResource = "Bube/Art/KarineLogo";
  public const string DistressResource = "Bube/Art/KarineDistress";
 
+ // Logonun altındaki "BİR DEDEKTİF HİKAYESİ": seyrek aralıklı, K'nın sol
+ // kenarından E'nin sağ kenarına kadar uzanır (görselde harfler %9–%89 arasında).
+ public static Label Tagline(VisualElement parent,float logoWidth,string text) {
+  var label=new Label(text) {pickingMode=PickingMode.Ignore};
+  float inset=logoWidth*.09f,span=logoWidth*.80f;
+  int size=Mathf.RoundToInt(logoWidth/20f);
+  label.style.fontSize=Typography.Snap(size);label.style.color=KarineTheme.Primary;
+  label.style.marginLeft=inset;label.style.width=span;label.style.marginTop=-size*.4f;
+  // Harf aralığı genişliğe göre: kalan boşluk harfler arasına dağıtılır.
+  label.style.letterSpacing=Mathf.Max(2f,(span-text.Length*size*.62f)/Mathf.Max(1,text.Length-1));
+  label.style.whiteSpace=WhiteSpace.NoWrap;label.style.unityTextAlign=TextAnchor.MiddleLeft;
+  KarineUI.ApplyFont(label,KarineUI.Fonts?.Mono);
+  parent.Add(label);return label;
+ }
+
  public static VisualElement Hero(VisualElement parent,float width) => Build(parent,width,Color.white);
 
  // Ülke/vaka seçici, kariyer, dosya başlığı: küçük ama aynı marka.

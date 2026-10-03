@@ -30,11 +30,7 @@ public sealed partial class BubeApp {
   root.Add(left);
 
   var logo=KarineLogo.Hero(left,KarineTheme.MainMenu.LogoWidth);KarineUI.NeonIgnite(logo);KarineUI.NeonStutter(logo);
-  var tagline=KarineUI.Technical(left,T("menu.tagline"),KarineTheme.MainMenu.TaglineSize);
-  tagline.style.color=KarineTheme.Secondary;
-  tagline.style.letterSpacing=3;
-  tagline.style.marginTop=0;
-  tagline.style.marginBottom=KarineTheme.SpaceXl;
+  KarineLogo.Tagline(left,KarineTheme.MainMenu.LogoWidth,T("menu.tagline")).style.marginBottom=KarineTheme.SpaceXl;
 
   var menu=new VisualElement();
   menu.style.width=KarineTheme.MainMenu.ColumnWidth;
