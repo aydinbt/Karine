@@ -85,6 +85,7 @@ public sealed partial class BubeApp {
  void FilePage() {
   var previousPaper=root.Q("DossierPaper");
   bool openingFile=previousPaper==null;
+  if(selectedFileSection=="notebook")selectedFileSection="report";
   bool switchingSection=!openingFile && (previousPaper.userData as string)!=selectedFileSection;
   Back(Desk); // dosya masasının üstünde açılır
   showingInterviewList=false;
@@ -92,7 +93,7 @@ public sealed partial class BubeApp {
   var all=game.Data.nodes.Where(n=>game.Available(n) || game.State.closed && (game.State.read.Contains(n.id) || game.State.interviewTurns.Any(turn=>turn.nodeId==n.id))).ToArray();
   var interviewPages=all.Where(n=>n.kind=="interview" && (game.State.read.Contains(n.id) || game.State.interviewTurns.Any(turn=>turn.nodeId==n.id))).ToArray();
   var evidencePages=all.Where(n=>n.kind=="document" && n.id!=report.id).ToArray();
-  Node[] pages=selectedFileSection=="interview"?interviewPages:selectedFileSection=="evidence"?evidencePages:selectedFileSection=="timeline" || selectedFileSection=="notebook"?new Node[0]:new[]{report};
+  Node[] pages=selectedFileSection=="interview"?interviewPages:selectedFileSection=="evidence"?evidencePages:selectedFileSection=="timeline"?new Node[0]:new[]{report};
   var current=pages.FirstOrDefault(n=>n.id==selectedFileNode) ?? pages.FirstOrDefault();
   if(current!=null) {
    selectedFileNode=current.id;
@@ -108,7 +109,11 @@ public sealed partial class BubeApp {
   var paper=KarineUI.DossierPage(root);
   paper.userData=selectedFileSection;
   KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
-  if(openingFile || switchingSection)SceneVeil();
+  // Masadan açılış siyah perdeyle; dosyanın içinde sekme ve sayfa değişince yalnız kâğıt
+  // hafifçe yana kayarak gelir, çerçeve yerinde kalır.
+  bool switchingPage=!openingFile && !switchingSection && shownFileNode!=current?.id;
+  shownFileNode=current?.id;
+  if(openingFile)SceneVeil();else if(switchingSection || switchingPage)KarineMotion.Page(paper);
   EchoLeaving(current);
   FileFrame(paper,report,pages,current);
  }

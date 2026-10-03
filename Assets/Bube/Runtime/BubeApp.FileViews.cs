@@ -7,16 +7,13 @@ namespace Bube {
 // Docs/Reference/UI_FILE_*_2026-10.png). `FilePage` hangi bölümün ve sayfanın
 // açık olduğunu belirler; burası çizer.
 public sealed partial class BubeApp {
- string selectedTimelineClue, selectedNote;
+ string selectedTimelineClue,shownFileNode;
 
  void FileFrame(VisualElement paper,Node report,Node[] pages,Node current) {
   KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.unit"),Desk,out var tools);
-  KarineUI.DossierTool(tools,"search",T("file.tab.search"),FileSearchPage);
-  KarineUI.DossierTool(tools,"compare",T("file.tab.compare"),()=>{comparePicker=-1;ComparePage();});
-  if(game.CanConclude)KarineUI.DossierTool(tools,"chart",T("conclude.tab"),Conclusion);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(FilePage));
   if(selectedFileSection=="timeline")TimelineView(paper);
-  else if(selectedFileSection=="notebook")NotebookView(paper);
+  else if(selectedFileSection=="visual")VisualPaper(paper,report);
   else {
    var list=KarineUI.DossierList(root);
    foreach(var page in pages) {
@@ -32,13 +29,25 @@ public sealed partial class BubeApp {
    else EvidencePaper(paper,current);
   }
   var tabs=KarineUI.DossierTabColumn(root);
-  var icons=new[]{"document","people","folder","clock","document"};int tabIndex=0;
-  foreach(var section in new[]{"report","interview","evidence","timeline","notebook"}) {
+  // Not defteri sekmesi kaldırıldı (3 Ekim 2026); yerine eski dosya sayfasının sekmeleri:
+  // görseller, karşılaştır, dosyada gezin ve hazırsa sonuç.
+  var icons=new[]{"document","people","folder","clock","image"};int tabIndex=0;
+  foreach(var section in new[]{"report","interview","evidence","timeline","visual"}) {
    var choice=section;
    var unread=choice=="interview" && game.State.interviewTurns.Count>game.State.seenInterviewTurns;
    KarineUI.DossierFolderTab(tabs,icons[tabIndex++],T("file.folder."+choice),choice==selectedFileSection,unread,
     ()=>{if(selectedFileSection==choice)return;selectedFileSection=choice;FilePage();});
   }
+  KarineUI.DossierFolderTab(tabs,"compare",T("file.folder.compare"),false,false,()=>{comparePicker=-1;ComparePage();});
+  KarineUI.DossierFolderTab(tabs,"search",T("file.folder.search"),false,false,FileSearchPage);
+  if(game.CanConclude)KarineUI.DossierFolderTab(tabs,"chart",T("file.folder.conclude"),false,false,Conclusion);
+ }
+ void VisualPaper(VisualElement paper,Node report) {
+  KarineUI.DossierPageHead(paper,CaseNumber(),T("file.folder.visual"),null,"image");
+  var texture=Photo(report.imageResource);
+  if(texture==null){KarineUI.DossierParagraph(paper,T("file.emptyVisual"),KarineTheme.Paper.Faded);return;}
+  var img=new Image{image=texture,scaleMode=ScaleMode.ScaleToFit};img.style.flexGrow=1;paper.Add(img);
+  KarineUI.DossierParagraph(paper,T(report.imageCaptionKey),KarineTheme.Paper.Faded);
  }
  string CaseNumber() => T(game.Data.titleKey).Split(new[]{'—'},2)[0].Trim();
  Texture2D Photo(string resource) => string.IsNullOrEmpty(resource)?null:Resources.Load<Texture2D>(resource);
@@ -143,51 +152,6 @@ public sealed partial class BubeApp {
   }
  }
 
- // Not defteri: listede oyuncunun işlediği kaynak çiftleri ve altını çizdiği belgeler,
- // kâğıtta kareli yaprakta seçili not. Notlar oyuncunundur; doğru/yanlış söylenmez.
- void NotebookView(VisualElement paper) {
-  var pairs=game.State.notebook.ToArray();
-  var lined=game.Data.nodes.Select(n=>(node:n,lines:Investigation.Sentences(T(n.bodyKey))
-   .Where((_,i)=>game.State.highlights.Contains(Investigation.HighlightId(n.id,i))).ToArray())).Where(e=>e.lines.Length>0).ToArray();
-  var keys=pairs.Select((p,i)=>"pair:"+i).Concat(lined.Select(e=>"lines:"+e.node.id)).ToArray();
-  if(!keys.Contains(selectedNote))selectedNote=keys.FirstOrDefault();
-  var list=KarineUI.DossierList(root,T("notebook.listTitle"));
-  for(int i=0;i<pairs.Length;i++) {
-   var key="pair:"+i;var note=pairs[i];
-   KarineUI.DossierListRow(list,"compare",NotebookSourceTitle(note.leftId)+" ↔ "+NotebookSourceTitle(note.rightId),T("notebook.mark."+note.mark),null,
-    key==selectedNote,false,()=>{selectedNote=key;FilePage();});
-  }
-  foreach(var entry in lined) {
-   var key="lines:"+entry.node.id;
-   KarineUI.DossierListRow(list,"document",T(entry.node.titleKey),T("notebook.lineTitle"),null,key==selectedNote,false,()=>{selectedNote=key;FilePage();});
-  }
-  KarineUI.DossierNotebookSheet(paper);
-  var ink=KarineTheme.Paper.Ink;
-  if(selectedNote==null) {
-   var empty=Text(paper,T("notebook.title"),ink,28);KarineUI.Handwrite(empty,ink);
-   KarineUI.DossierParagraph(paper,T("notebook.help"),KarineTheme.Paper.Faded);
-   return;
-  }
-  var scroll=Scroll(paper);scroll.style.flexGrow=1;scroll.style.minHeight=0;
-  if(selectedNote.StartsWith("pair:")) {
-   var note=pairs[int.Parse(selectedNote.Substring(5))];
-   var title=Text(scroll,T("notebook.pairTitle"),ink,28);KarineUI.Handwrite(title,ink);
-   var markInk=note.mark=="conflict"?KarineTheme.Paper.Stamp:ink;
-   var mark=Text(scroll,Shape(note.mark)+T("notebook.mark."+note.mark),markInk,22);KarineUI.Handwrite(mark,markInk);
-   Text(scroll,"– "+NotebookSourceTitle(note.leftId),ink,19);
-   Text(scroll,"– "+NotebookSourceTitle(note.rightId),ink,19);
-   var strip=KarineUI.DossierToolStrip(paper);
-   KarineUI.DossierStripButton(strip,"compare",T("notebook.open"),()=>{compareLeftId=note.leftId;compareRightId=note.rightId;comparePicker=-1;ComparePage();},true);
-   if(!game.State.closed)KarineUI.DossierStripButton(strip,"close",T("timeline.remove"),()=>{if(game.RemoveNote(note)){selectedNote=null;Save();FilePage();}});
-  } else {
-   var entry=lined.First(e=>"lines:"+e.node.id==selectedNote);
-   var title=Text(scroll,T(entry.node.titleKey),ink,28);KarineUI.Handwrite(title,ink);
-   foreach(var line in entry.lines) {
-    var l=Text(scroll,"“"+line+"”",ink,18);l.style.marginBottom=8;l.style.paddingLeft=10;
-    l.style.borderLeftWidth=2;l.style.borderLeftColor=KarineTheme.Paper.Stamp;
-   }
-  }
- }
  // Arşivdeki vaka sayfası eski satırı kullanır.
  void TimelineRow(VisualElement parent,TimelineClue clue,Color ink,Color muted,string actionKey,Action action) {
   var row=new VisualElement{name="Clue-"+clue.id};row.style.flexDirection=FlexDirection.Row;

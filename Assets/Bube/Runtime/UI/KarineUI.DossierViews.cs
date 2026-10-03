@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 using D = Bube.KarineTheme.Dossier;
 namespace Bube {
 // Dosya kâğıdının içi (3 Ekim 2026 maketleri): daktilo başlık, künye, döküm satırları,
-// zaman çizgisi, eklenebilir olay şeridi ve kareli defter yaprağı.
+// zaman çizgisi ve eklenebilir olay şeridi.
 public static partial class KarineUI {
  static Font typewriterBold;
  static Font TypewriterBold=>typewriterBold=typewriterBold??Resources.Load<Font>("Bube/Fonts/IBMPlexMono-SemiBold");
@@ -16,14 +16,16 @@ public static partial class KarineUI {
  public static VisualElement DossierPageHead(VisualElement paper,string kicker,string title,Texture2D photo,string icon=null,string date=null) {
   var head=new VisualElement {name="DossierPageHead"};head.style.flexDirection=FlexDirection.Row;head.style.flexShrink=0;
   head.style.marginBottom=KarineTheme.SpaceMd;paper.Add(head);
-  var left=new VisualElement();left.style.flexGrow=1;left.style.flexShrink=1;left.style.minWidth=0;left.style.paddingRight=KarineTheme.SpaceLg;head.Add(left);
+  // Polaroid sağ üstte yüzer, akışı itmez; sol sütun onun genişliği kadar boş bırakır.
+  var left=new VisualElement();left.style.flexGrow=1;left.style.flexShrink=1;left.style.minWidth=0;
+  left.style.paddingRight=photo!=null?D.PolaroidWidth+KarineTheme.SpaceLg:0;head.Add(left);
   if(!string.IsNullOrEmpty(kicker))Typed(left,kicker.ToUpper(Tr),D.PageKickerSize,true).style.marginBottom=KarineTheme.SpaceXs;
   var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.Center;left.Add(line);
   if(!string.IsNullOrEmpty(icon))Icon(line,icon,KarineTheme.Paper.Ink,D.PageTitleSize).style.marginRight=KarineTheme.SpaceMd;
   var t=Typed(line,title.ToUpper(Tr),D.PageTitleSize,true);t.style.flexGrow=1;t.style.flexShrink=1;
   if(!string.IsNullOrEmpty(date))Typed(line,date.ToUpper(Tr),D.PageKickerSize,false,KarineTheme.Paper.Faded).style.alignSelf=Align.FlexEnd;
   PaperRule(left,false);
-  if(photo!=null)DossierPolaroid(head,photo);
+  if(photo!=null){var frame=DossierPolaroid(head,photo);frame.style.position=Position.Absolute;frame.style.right=0;frame.style.top=-KarineTheme.SpaceSm;head.style.minHeight=D.PolaroidHeight+KarineTheme.SpaceXl+KarineTheme.SpaceSm;}
   return left;
  }
  public static void PaperRule(VisualElement parent,bool doubled) {
@@ -111,47 +113,6 @@ public static partial class KarineUI {
   var t=Write(words,time,KarineTheme.Primary,D.RowTitleSize,Heading);t.style.marginBottom=0;
   var n=Body_(words,title,D.RowSubSize-1);n.style.color=KarineTheme.Secondary;n.style.marginBottom=0;
   PlusButton(card,"+",add,addTitle);
- }
- // Kareli defter yaprağı: solda spiral, zeminde ızgara. Dönen öğe yaprağın içidir.
- public static VisualElement DossierNotebookSheet(VisualElement paper) {
-  paper.style.backgroundImage=new StyleBackground(GridTile());
-  paper.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(D.GridStep,D.GridStep));
-  paper.style.backgroundRepeat=new StyleBackgroundRepeat(new BackgroundRepeat(Repeat.Repeat,Repeat.Repeat));
-  paper.style.backgroundColor=KarineTheme.Paper.Light;paper.style.paddingLeft=D.SpiralWidth+KarineTheme.SpaceXl;paper.style.overflow=Overflow.Visible;
-  var spiral=new VisualElement {name="NotebookSpiral",pickingMode=PickingMode.Ignore};spiral.style.position=Position.Absolute;
-  spiral.style.left=-D.SpiralWidth/2;spiral.style.top=KarineTheme.SpaceLg;spiral.style.bottom=KarineTheme.SpaceLg;spiral.style.width=D.SpiralWidth;
-  spiral.style.justifyContent=Justify.SpaceBetween;paper.Add(spiral);
-  for(int i=0;i<16;i++) {
-   var ring=new VisualElement {pickingMode=PickingMode.Ignore};ring.style.height=D.GridStep/2;ring.style.width=D.SpiralWidth;
-   Round(ring,D.GridStep/4);Border(ring,3,KarineTheme.Paper.FolderDeep);ring.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.4f);spiral.Add(ring);
-  }
-  return paper;
- }
- static Texture2D gridTile;
- static Texture2D GridTile() {
-  if(gridTile!=null)return gridTile;
-  const int n=32;gridTile=new Texture2D(n,n,TextureFormat.RGBA32,false){wrapMode=TextureWrapMode.Repeat,filterMode=FilterMode.Bilinear,name="NotebookGrid"};
-  var line=KarineTheme.Alpha(KarineTheme.Paper.Edge,.45f);var clear=KarineTheme.Alpha(KarineTheme.Paper.Edge,0);
-  var px=new Color[n*n];
-  for(int y=0;y<n;y++)for(int x=0;x<n;x++)px[y*n+x]=x==0||y==0?line:clear;
-  gridTile.SetPixels(px);gridTile.Apply();return gridTile;
- }
- // Defterin altındaki koyu araç şeridi; düğmeler `SettingsFooterButton` gibi çağıran tarafından eklenir.
- public static VisualElement DossierToolStrip(VisualElement paper) {
-  var strip=new VisualElement {name="DossierToolStrip"};strip.style.flexShrink=0;strip.style.flexDirection=FlexDirection.Row;strip.style.marginTop=KarineTheme.SpaceMd;
-  strip.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.96f);Round(strip,KarineTheme.Radius);
-  strip.style.paddingLeft=KarineTheme.SpaceSm;strip.style.paddingRight=KarineTheme.SpaceSm;strip.style.paddingTop=KarineTheme.SpaceSm;strip.style.paddingBottom=KarineTheme.SpaceSm;
-  paper.Add(strip);return strip;
- }
- public static Button DossierStripButton(VisualElement strip,string icon,string title,Action action,bool primary=false) {
-  var button=new Button(Sounded(action)) {tooltip=title};button.style.flexGrow=1;button.style.flexBasis=0;button.style.height=KarineTheme.TouchTarget+KarineTheme.SpaceXs;
-  button.style.flexDirection=FlexDirection.Row;button.style.alignItems=Align.Center;button.style.justifyContent=Justify.Center;
-  button.style.marginLeft=KarineTheme.SpaceXs;button.style.marginRight=KarineTheme.SpaceXs;
-  Unskin(button,KarineTheme.Alpha(primary?KarineTheme.Accent:KarineTheme.Background,primary?.16f:.9f));
-  Border(button,KarineTheme.BorderWidth,primary?KarineTheme.Accent:KarineTheme.Border);Round(button,KarineTheme.Radius);
-  if(!string.IsNullOrEmpty(icon))Icon(button,icon,KarineTheme.Primary,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
-  var l=Write(button,title.ToUpper(Tr),KarineTheme.Primary,D.RowTitleSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
-  strip.Add(button);return button;
  }
 }
 }

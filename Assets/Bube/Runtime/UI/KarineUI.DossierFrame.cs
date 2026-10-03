@@ -106,8 +106,8 @@ public static partial class KarineUI {
   if(unread)Dot(mark,KarineTheme.Accent);
   if(!string.IsNullOrEmpty(icon))Icon(row,icon,KarineTheme.Secondary,D.RowIcon).style.marginRight=KarineTheme.SpaceMd;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;row.Add(words);
-  var t=Write(words,title,KarineTheme.Primary,D.RowTitleSize,Heading);t.style.marginBottom=0;t.style.whiteSpace=WhiteSpace.Normal;
-  if(!string.IsNullOrEmpty(sub)){var s=Body_(words,sub,D.RowSubSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;}
+  var t=Write(words,title,KarineTheme.Primary,D.RowTitleSize,Heading);t.style.marginBottom=0;t.style.whiteSpace=WhiteSpace.Normal;t.style.unityTextAlign=TextAnchor.MiddleLeft;
+  if(!string.IsNullOrEmpty(sub)){var s=Body_(words,sub,D.RowSubSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;s.style.unityTextAlign=TextAnchor.MiddleLeft;}
   if(!string.IsNullOrEmpty(date)){var d=Technical(row,date,D.RowSubSize);d.style.color=KarineTheme.Accent;d.style.marginBottom=0;
    d.style.alignSelf=Align.FlexEnd;d.style.flexShrink=0;d.style.marginLeft=KarineTheme.SpaceSm;}
   list.Add(row);return row;

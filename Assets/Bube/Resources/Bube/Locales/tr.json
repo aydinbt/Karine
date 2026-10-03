@@ -3497,10 +3497,6 @@
    "value": "Zaman Çizelgesi"
   },
   {
-   "key": "file.folder.notebook",
-   "value": "Not Defteri"
-  },
-  {
    "key": "file.unit",
    "value": "Soruşturma Birimi"
   },
@@ -3537,16 +3533,20 @@
    "value": "Kaynaklarda geçen saatleri çizelgene sen eklersin."
   },
   {
-   "key": "notebook.listTitle",
-   "value": "Notlar"
+   "key": "file.folder.visual",
+   "value": "Görseller"
   },
   {
-   "key": "notebook.pairTitle",
-   "value": "Kaynak çifti"
+   "key": "file.folder.compare",
+   "value": "Karşılaştır"
   },
   {
-   "key": "notebook.lineTitle",
-   "value": "Altı çizili satırlar"
+   "key": "file.folder.search",
+   "value": "Dosyada Gezin"
+  },
+  {
+   "key": "file.folder.conclude",
+   "value": "Sonuç"
   }
  ]
 }

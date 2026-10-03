@@ -297,9 +297,9 @@ public static class KarineTheme {
   public const int FolderTabSize=15, FolderTabIcon=30, RowTitleSize=17, RowSubSize=14, RowDot=10, RowIcon=30, ListHeadSize=22;
   // Kâğıdın içi: daktilo başlık, "ANAHTAR : değer" künyesi, konuşan/metin iki sütunu, sağ üstte polaroid.
   public const int PageTitleSize=34, PageKickerSize=16, PageMetaSize=15, PageBodySize=16, SpeakerWidth=150, KeyWidth=130;
-  public const int PolaroidWidth=300, PolaroidHeight=200, StampSize=18;
+  public const int PolaroidWidth=230, PolaroidHeight=150, StampSize=18;
   public const float PolaroidTilt=3.5f, StampTilt=-6;
-  public const int LineTimeSize=24, LineNode=22, LineRowHeight=50, LineThumb=44, AddCardWidth=210, SpiralWidth=34, GridStep=22;
+  public const int LineTimeSize=24, LineNode=22, LineRowHeight=50, LineThumb=44, AddCardWidth=210;
  }
 
  public static class Office {
