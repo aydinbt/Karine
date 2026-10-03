@@ -53,7 +53,7 @@ public static partial class KarineUI {
   var ink=selected?KarineTheme.Accent:KarineTheme.Primary;
   Icon(tab,icon,ink,M.TabIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexShrink=1;words.style.minWidth=0;tab.Add(words);
-  var t=Write(words,title.ToUpper(Tr),ink,M.TabTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
+  var t=Write(words,title.ToUpper(Tr),ink,M.TabTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceXs;t.style.letterSpacing=1;Left(t);
   if(!string.IsNullOrEmpty(hint)){var h=Body_(words,hint,M.TabHintSize);h.style.color=KarineTheme.Secondary;h.style.marginBottom=0;Left(h);}
   parent.Add(tab);return tab;
  }
@@ -144,7 +144,9 @@ public static partial class KarineUI {
   var ink=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
   Icon(button,icon,ink,KarineTheme.IconSize+6).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};button.Add(words);
-  var t=Write(words,title.ToUpper(Tr),ink,M.FooterTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
+  // Bebas'ın satır yüksekliği geniş: başlık ile açıklama bitişir, blok ikonla ortalanır.
+  words.style.justifyContent=Justify.Center;
+  var t=Write(words,title.ToUpper(Tr),ink,M.FooterTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;t.style.letterSpacing=1;Left(t);
   if(!string.IsNullOrEmpty(detail)){var d=Body_(words,detail,M.TabHintSize);d.style.color=primary?KarineTheme.Paper.Ink:KarineTheme.Secondary;d.style.marginBottom=0;Left(d);}
   parent.Add(button);return button;
  }
