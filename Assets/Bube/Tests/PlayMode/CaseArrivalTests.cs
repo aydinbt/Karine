@@ -92,8 +92,8 @@ public sealed class CaseArrivalTests {
    .Invoke(app, new object[] { next });
   for (int frame = 0; frame < 30; frame++) yield return null;
   var labels = Labels(Root);
-  Assert.IsTrue(labels.Contains(Text("intro.firstFile")) || labels.Contains(Text("intro.newFile")),
-   "Sonraki dosya bırakılmadan geldi, bulunan: " + string.Join(" | ", labels));
+  Assert.IsFalse(labels.Contains(Text("intro.newFile")),
+   "Sonraki dosyada boş \"Yeni görevlendirme\" kartı hâlâ iniyor.");
  }
 
  [UnityTest] public IEnumerator AcceptedCase_IsNotDroppedAgain() {

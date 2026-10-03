@@ -306,6 +306,9 @@ public sealed partial class BubeApp {
    if(dossierBoldFont!=null)note.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
    Text(folder,T("intro.welcome.sign"),Base,14).style.unityTextAlign=TextAnchor.MiddleRight;
   }
+  // Sonraki dosyalarda yalnız "Yeni görevlendirme" yazan boş kart iner miydi; kaldırıldı (3 Ekim 2026).
+  // Dosya tepsiye gelir, masa kararıp açılır; kart yalnız müdür notunu taşıdığı ilk dosyada kalır.
+  else folder.style.display=DisplayStyle.None;
   // Dosyanın numarası ve adı burada yazılmaz: oyuncu dosyayı kabul edince açılış
   // dizisi (saat kartı, mekân, başlık) onları zaten söylüyor; iki kez görünüyordu.
   float elapsed=0;bool landed=false;
