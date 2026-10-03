@@ -13,24 +13,6 @@ namespace Bube {
 // Oyuncunun defteri: karşılaştırmadan işlenen kaynak çiftleri ve belgelerde altı çizilen cümleler.
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
- // Karşılaştırmanın altındaki defter şeridi: oyuncu iki kaynağı kendi hükmüyle deftere işler.
- // Oyun hükmü onaylamaz, düzeltmez; seçilen hüküm yalnız oyuncunun kendi notudur.
- void NotebookBar(VisualElement folder,Color ink) {
-  if(game.State.closed || string.IsNullOrEmpty(compareLeftId) || string.IsNullOrEmpty(compareRightId) || compareLeftId==compareRightId)return;
-  var bar=new VisualElement();bar.style.flexDirection=FlexDirection.Row;bar.style.alignItems=Align.Center;
-  bar.style.paddingLeft=20;bar.style.paddingRight=20;bar.style.paddingBottom=12;bar.style.flexShrink=0;folder.Add(bar);
-  var label=Text(bar,T("notebook.write"),Ink,16);label.style.marginBottom=0;label.style.marginRight=12;label.style.flexGrow=1;
-  var existing=game.FindNote(compareLeftId,compareRightId);
-  foreach(var mark in Investigation.NotebookMarks) {
-   var chosen=mark;
-   var button=KarineUI.PaperButton(bar,Shape(mark)+T("notebook.mark."+mark),()=>{
-    // İki kaynak ataçla tutturulur: her hükümde aynı ses.
-    if(game.MarkNote(compareLeftId,compareRightId,chosen)){KarineUI.Cue("clip");Save();KarineUI.RedString(folder,ComparePage);}
-   },existing!=null && existing.mark==mark?KarinePaperKind.Action:KarinePaperKind.Choice);
-   button.style.marginLeft=6;button.style.minHeight=KarineTheme.TouchTarget;
-   button.style.paddingLeft=14;button.style.paddingRight=14;button.style.fontSize=Typography.Snap(15);
-  }
- }
  // Belgenin cümleleri ayrı ayrı dokunulur: dokunulan cümlenin altı çizilir, deftere düşer.
  void MarkableBody(VisualElement body,Node node,Color ink,Color muted) {
   var sentences=Investigation.Sentences(T(node.bodyKey));

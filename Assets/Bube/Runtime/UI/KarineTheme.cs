@@ -302,6 +302,16 @@ public static class KarineTheme {
   public const int LineTimeSize=24, LineNode=22, LineRowHeight=50, LineThumb=44, AddCardWidth=210;
  }
 
+ // 3 Ekim 2026 karşılaştırma maketi (Docs/Reference/UI_COMPARE_2026-10.png): iki kâğıt,
+ // aralarında üç hüküm düğmesi.
+ public static class Compare {
+  public static readonly Rect Left=new Rect(4.5f,12.5f,40,84);
+  public static readonly Rect Right=new Rect(55.5f,12.5f,40,84);
+  public static readonly Rect Marks=new Rect(45.6f,22,8.8f,62);
+  public const float LeftTilt=-.8f, RightTilt=.6f;
+  public const int PickerHeight=48, PickerSize=15, OptionSize=15, GroupSize=16, MenuMax=380, EmptyIcon=96, MarkGlyph=40, MarkLabel=15;
+ }
+
  public static class Office {
   public const float Aspect=1672f/941f;
   // 3 Ekim 2026 masa maketi (Docs/Reference/UI_DESK_2026-10.png). Sahne resmi yazısızdır;
