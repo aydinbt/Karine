@@ -173,82 +173,30 @@ public sealed partial class BubeApp {
   var name=Text(row,label, KarineTheme.Paper.Faded,15);name.style.width=150;name.style.marginBottom=0;
   var detail=Text(row,":  "+value,dark,15);detail.style.flexGrow=1;detail.style.marginBottom=0;
  }
+ // Vaka özeti: kariyer kaydıyla aynı tam ekran kâğıt. Sonucu söylemez; sıradaki
+ // görev masadaki bildirimle gelir, bu yüzden burada yalnız masaya dönüş var.
  void CaseSummary() {
   if(!game.State.closed){Desk();return;}
-  Desk();
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.80f);root.Add(shade);
-  var folder=new VisualElement();folder.style.position=Position.Absolute;
-  folder.style.left=Length.Percent(9);folder.style.right=Length.Percent(9);
-  folder.style.top=Length.Percent(5);folder.style.bottom=Length.Percent(4);
-  folder.style.backgroundColor=KarineTheme.Paper.Folder;
-  folder.style.borderBottomWidth=8;folder.style.borderBottomColor=KarineTheme.Paper.FolderDeep;root.Add(folder);
-  var paper=new VisualElement();paper.style.position=Position.Absolute;
-  paper.style.left=Length.Percent(10);paper.style.right=Length.Percent(10);
-  paper.style.top=Length.Percent(6);paper.style.bottom=Length.Percent(6);
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  paper.style.paddingLeft=28;paper.style.paddingRight=28;
-  paper.style.paddingTop=18;paper.style.paddingBottom=16;root.Add(paper);
-  var dark=KarineTheme.Paper.Ink;var muted=KarineTheme.Paper.Faded;
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;paper.Add(header);
-  var mark=Text(header,"✓",KarineTheme.Paper.Approved,42);mark.style.width=64;mark.style.marginBottom=0;
-  var titles=new VisualElement();titles.style.flexGrow=1;header.Add(titles);
-  var kicker=Text(titles,T(game.Data.titleKey),muted,15);kicker.style.marginBottom=1;
-  var title=Text(titles,T("result.summary"),dark,28);title.style.marginBottom=2;
-  if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var subtitle=Text(titles,T("result.status"),dark,14);subtitle.style.marginBottom=0;
-  var brand=Text(header,T("summary.brand"),muted,14);brand.style.width=190;brand.style.unityTextAlign=TextAnchor.MiddleRight;
-  var line=new VisualElement();line.style.height=1;line.style.marginTop=13;line.style.marginBottom=13;
-  line.style.backgroundColor=KarineTheme.Paper.Edge;paper.Add(line);
-  bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
-  var status=new VisualElement();status.style.flexDirection=FlexDirection.Row;status.style.alignItems=Align.Center;
-  status.style.backgroundColor=KarineTheme.GlassLift;
-  status.style.paddingLeft=14;status.style.paddingRight=14;status.style.paddingTop=7;status.style.paddingBottom=6;
-  status.style.marginBottom=12;paper.Add(status);
-  var statusTitle=Text(status,T(reviewed?"summary.reviewReceived":"summary.reviewPending"),Ink,16);
-  statusTitle.style.marginBottom=0;statusTitle.style.flexGrow=1;
-  if(dossierBoldFont!=null)statusTitle.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var statusHint=Text(status,T(reviewed?"summary.faxAvailable":"summary.faxLater"),Muted,13);
-  statusHint.style.marginBottom=0;statusHint.style.unityTextAlign=TextAnchor.MiddleRight;
-  var content=Scroll(paper);
-  var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;content.Add(top);
-  var photoCard=new VisualElement();photoCard.style.width=Length.Percent(29);
-  photoCard.style.paddingRight=16;top.Add(photoCard);
-  var report=game.Data.nodes.FirstOrDefault(n=>n.id=="report");
-  var art=report==null || string.IsNullOrEmpty(report.imageResource)?null:Resources.Load<Texture2D>(report.imageResource);
-  if(art!=null){art.filterMode=FilterMode.Point;var photo=new Image{image=art,scaleMode=ScaleMode.ScaleAndCrop};photo.style.height=170;photoCard.Add(photo);}
-  Text(photoCard,T(game.Data.titleKey),dark,16);
-  Text(photoCard,T(game.Data.summary.locationKey),muted,14);
-  var details=new VisualElement();details.style.flexGrow=1;top.Add(details);
-  var band=Text(details,T("summary.report"),dark,17);band.style.backgroundColor=KarineTheme.Paper.Tint;
-  SummaryField(details,T("summary.subject"),T(game.Data.titleKey));
-  SummaryField(details,T("summary.status"),T("summary.sent"));
-  SummaryField(details,T("summary.investigator"),T("summary.bora"));
+  Back(Desk);root.Clear();KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.unit"),Desk,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(CaseSummary));
+  var card=KarineUI.RecordPaper(root);
   var submitted=game.State.submittedAtUtcTicks>0
-   ?new DateTime(game.State.submittedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm")
-   :T("summary.unknownDate");
-  SummaryField(details,T("summary.sentAt"),submitted);
+   ?T("summary.sentAt")+": "+new DateTime(game.State.submittedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm"):null;
+  KarineUI.RecordHead(card,T(game.Data.summary.locationKey),submitted,T("report.stamp"),false);
+  bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
+  KarineUI.RecordAfter(card,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
+  KarineUI.RecordHeading(card,T("career.sentReport"));
   var suspect=game.Data.verdicts.FirstOrDefault(v=>v.id==game.State.reportSuspect);
   var method=game.Data.methods.FirstOrDefault(v=>v.id==game.State.reportMethod);
-  var proof=game.Data.evidence.FirstOrDefault(v=>v.id==game.State.reportProof);
-  if(suspect!=null)SummaryField(details,T(SuspectKey(game.Data)),T(suspect.labelKey));
-  if(method!=null)SummaryField(details,T(MethodKey(game.Data)),T(method.labelKey));
   var custody=(game.Data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==game.State.reportCustody);
-  if(custody!=null)SummaryField(details,ReportCustodyHeading(game.Data),T(custody.labelKey));
-  if(proof!=null)SummaryField(details,T("conclude.evidence"),T(proof.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportProofSource));
-  var findings=Text(content,T("summary.sources"),dark,17);findings.style.marginTop=12;
-  findings.style.backgroundColor=KarineTheme.Paper.Tint;
-  var sourceNames=game.Data.nodes.Where(n=>game.State.read.Contains(n.id) && n.id!=game.State.reportProof)
-   .Select(n=>T(n.titleKey)).Distinct().Take(4).ToArray();
-  foreach(var name in sourceNames)Text(content,"•  "+name,dark,14);
-  if(sourceNames.Length==0)Text(content,T("summary.noSources"),muted,14);
-  var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;actions.style.marginTop=10;paper.Add(actions);
-  var back=KarineUI.PaperButton(actions,T("back.desk"),Desk);
-  back.style.flexGrow=1;back.style.minHeight=48;
-  var next=KarineUI.PaperButton(actions,T("result.continue")+"  →",ContinueToNextCase,KarinePaperKind.Action);
-  next.style.flexGrow=1;next.style.minHeight=48;next.style.marginLeft=12;
-  FadeIn(paper);
+  KarineUI.RecordRow(card,T("summary.investigator"),T("summary.bora"),null,"");
+  if(suspect!=null)KarineUI.RecordRow(card,T(SuspectKey(game.Data)),T(suspect.labelKey),Resources.Load<Texture2D>("Bube/Characters/"+suspect.id),"");
+  if(method!=null)KarineUI.RecordRow(card,T(MethodKey(game.Data)),T(method.labelKey),null,"");
+  if(custody!=null)KarineUI.RecordRow(card,ReportCustodyHeading(game.Data),T(custody.labelKey),null,"");
+  var sourceNames=game.Data.nodes.Where(n=>game.State.read.Contains(n.id)).Select(n=>T(n.titleKey)).Distinct().Take(4).ToArray();
+  KarineUI.RecordHeading(card,T("summary.sources").TrimStart('⌕','▣',' '));
+  KarineUI.RecordAfter(card,sourceNames.Length==0?T("summary.noSources"):string.Join("  ·  ",sourceNames));
  }
  void Result() {
   if(game.SubmitReport(selectedSuspect,selectedMethod,selectedCustody)) {
