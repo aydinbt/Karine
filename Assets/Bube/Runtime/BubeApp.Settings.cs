@@ -62,7 +62,7 @@ public sealed partial class BubeApp {
  // Satır yardımcıları: anahtar, seçim kartları, kaydırıcı.
  void SwitchRow(VisualElement body,string key,bool on,Action flip)=>
   KarineUI.SettingSwitch(KarineUI.SettingRow(body,T(key),T(key+".hint")),on,()=>{flip();RenderSettings();});
- VisualElement CardRow(VisualElement body,string key,string hint=null)=>KarineUI.SettingRow(body,T(key),hint??T(key+".hint"),true);
+ VisualElement CardRow(VisualElement body,string key,string hint=null)=>KarineUI.SettingRow(body,T(key),T(hint??key+".hint"),true);
  void Choice(VisualElement row,string title,string detail,bool selected,Action pick,bool quarter=false) {
   var card=KarineUI.SettingCard(row,null,title,detail,selected,()=>{pick();RenderSettings();});if(quarter)KarineUI.Quarter(card);
  }

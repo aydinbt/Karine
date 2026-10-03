@@ -38,8 +38,8 @@ Shader "Hidden/Karine/Crt" {
     float r = tex2D(_MainTex, uv + shift).r;
     float b = tex2D(_MainTex, uv - shift).b;
     fixed4 col = fixed4(r, mid.g, b, mid.a);
-    float line = 0.5 + 0.5 * sin(uv.y * _MainTex_TexelSize.w * 3.14159);
-    col.rgb *= 1 - _Scan * line;
+    float scanline = 0.5 + 0.5 * sin(uv.y * _MainTex_TexelSize.w * 3.14159);
+    col.rgb *= 1 - _Scan * scanline;
     float v = saturate(1 - _Vignette * dot(c * 0.7, c * 0.7));
     col.rgb *= v;
     // Film tanesi GPU'da: her karede yeni gürültü, önceden çarpılmış saydamlığa oranlı.
