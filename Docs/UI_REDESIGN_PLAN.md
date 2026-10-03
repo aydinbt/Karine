@@ -26,7 +26,7 @@ Akış her öğe için aynıdır:
 - [~] Vakalar / dünya seçici (`UI_CASES`)
 - [~] Kariyer panosu (`UI_CAREER`)
 - [~] Kariyer kaydı sayfası (CareerRecordPage, `UI_CAREER_RECORD`): tam ekran sicil kâğıdı, damga, rapor tablosu, sonrası, güven şeridi; kariyer geçmişi listesi ayrı
-- [ ] Arşiv ve arşivdeki vaka (ArchivePage, ArchiveCasePage)
+- [~] Arşiv ve arşivdeki vaka (ArchivePage, ArchiveCasePage; `UI_ARCHIVE`, `UI_ARCHIVE_CASE`): çekmecede dosya kartları + mühür; solda kaynaklar, sağda rapor–değerlendirme kâğıdı, tutanak, CCTV, çizelge
 - [ ] Yeniden başlatma onayı (RestartPage)
 - [ ] Reklam izni penceresi
 

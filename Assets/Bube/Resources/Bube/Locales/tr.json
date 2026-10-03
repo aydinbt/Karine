@@ -1961,6 +1961,34 @@
    "value": "Aç"
   },
   {
+   "key": "archive.screen",
+   "value": "Arşiv"
+  },
+  {
+   "key": "archive.plate",
+   "value": "Kapanmış dosyalar"
+  },
+  {
+   "key": "archive.reportAt",
+   "value": "Rapor"
+  },
+  {
+   "key": "archive.stamp.approved",
+   "value": "Onaylandı"
+  },
+  {
+   "key": "archive.reportAndReview",
+   "value": "Rapor ve değerlendirme"
+  },
+  {
+   "key": "archive.transcript",
+   "value": "Görüşme tutanağı"
+  },
+  {
+   "key": "archive.presented",
+   "value": "Öne sürülen:"
+  },
+  {
    "key": "archive.menu",
    "value": "Dosya Arşivi"
   },
@@ -1974,19 +2002,19 @@
   },
   {
    "key": "archive.count",
-   "value": "Kapanan dosya"
+   "value": "Kapanmış dosyalar"
   },
   {
    "key": "archive.empty",
-   "value": "Bu kariyerde henüz kapanmış dosya yok."
+   "value": "Henüz kapanmış dosya yok."
   },
   {
    "key": "archive.report",
-   "value": "Gönderilen sonuç raporu"
+   "value": "Gönderilen rapor"
   },
   {
    "key": "archive.sources",
-   "value": "İncelenen kaynaklar"
+   "value": "Kaynaklar"
   },
   {
    "key": "archive.reviewed",
@@ -2002,7 +2030,7 @@
   },
   {
    "key": "archive.fax",
-   "value": "Kurumsal değerlendirme faksı"
+   "value": "Değerlendirme"
   },
   {
    "key": "conclude.sourceHelp",

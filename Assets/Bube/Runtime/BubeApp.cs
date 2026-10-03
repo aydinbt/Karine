@@ -82,7 +82,6 @@ public sealed partial class BubeApp : MonoBehaviour {
  Label inboxBadgeLabel;
  VideoPlayer menuPlayer;
  RenderTexture menuTexture;
- bool menuVideoFailed;
  VideoPlayer introPlayer;
  RenderTexture introTexture;
  VisualElement introBrand;

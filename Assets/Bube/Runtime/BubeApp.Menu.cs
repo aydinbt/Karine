@@ -95,7 +95,6 @@ public sealed partial class BubeApp {
 
  void OnMenuVideoError(VideoPlayer player,string message) {
   Debug.LogWarning("Main menu loop unavailable: "+message);
-  menuVideoFailed=true;
   StopMenuVideo();
   if(root!=null && root.childCount>0)Home();
  }
@@ -203,48 +202,6 @@ public sealed partial class BubeApp {
   }
   return result.OrderByDescending(item=>item.progress.submittedAtUtcTicks).ToArray();
  }
- VisualElement ArchivePaper(string heading,out VisualElement content) {
-  Home();
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.82f);root.Add(shade);
-  var backing=new VisualElement();backing.style.position=Position.Absolute;
-  backing.style.left=Length.Percent(8);backing.style.right=Length.Percent(8);
-  backing.style.top=Length.Percent(6);backing.style.bottom=Length.Percent(5);
-  backing.style.backgroundColor=KarineTheme.Paper.Folder;root.Add(backing);
-  var paper=new VisualElement();paper.style.position=Position.Absolute;
-  paper.style.left=Length.Percent(9);paper.style.right=Length.Percent(9);
-  paper.style.top=Length.Percent(5);paper.style.bottom=Length.Percent(6);
-  paper.style.paddingLeft=28;paper.style.paddingRight=28;
-  paper.style.paddingTop=18;paper.style.paddingBottom=16;
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;root.Add(paper);
-  var dark=KarineTheme.Paper.Ink;
-  // Vaka secici basligi: sol ustte kompakt marka, altinda cizgi.
-  KarineLogo.Header(paper,150,KarineTheme.Paper.Stamp,KarineTheme.Paper.FolderEdge);
-  Text(paper,T("archive.kicker"),KarineTheme.Paper.Stamp,14).style.marginBottom=2;
-  var archiveHeading=Text(paper,heading,dark,27);archiveHeading.style.marginBottom=8;
-  if(fonts!=null && fonts.Heading!=null)archiveHeading.style.unityFontDefinition=FontDefinition.FromFont(fonts.Heading);
-  var line=new VisualElement();line.style.height=1;line.style.backgroundColor=KarineTheme.Paper.Edge;
-  line.style.marginBottom=12;paper.Add(line);
-  content=new VisualElement();content.style.flexGrow=1;paper.Add(content);
-  return paper;
- }
- void ArchivePage() {
-  VisualElement content;
-  var paper=ArchivePaper(T("archive.title"),out content);
-  var dark=KarineTheme.Paper.Ink;
-  var cases=ClosedCases();
-  KarineUI.Technical(content,T("archive.count")+"  "+cases.Length,15).style.color=dark;
-  var list=Scroll(content);
-  if(cases.Length==0)Text(list,T("archive.empty"),dark,18);
-  foreach(var item in cases) {
-   var stamp=item.progress.submittedAtUtcTicks>0
-    ?new DateTime(item.progress.submittedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm")
-    :T("summary.unknownDate");
-   Button(list,T(item.data.titleKey)+"  ·  "+stamp+"   ›",()=>ArchiveCasePage(item.data.id,null));
-  }
-  KarineUI.PaperButton(paper,T("offer.back"),Home).style.minHeight=45;
- }
  bool ArchiveReferenceAvailable(ArchivedCase item,string reference,out Node node) {
   node=null;
   if(string.IsNullOrEmpty(reference))return false;
@@ -262,118 +219,6 @@ public sealed partial class BubeApp {
   if(node.kind=="cctv")return separator>=0 && (node.cctvEvents ?? new CctvEvent[0])
    .Any(record=>record.id==reference.Substring(separator+1));
   return separator<0;
- }
- void ArchiveSourceLink(VisualElement parent,ArchivedCase item,string reference) {
-  Node source;
-  bool available=ArchiveReferenceAvailable(item,reference,out source);
-  var turn=source!=null && source.kind=="interview"
-   ?item.progress.interviewTurns.FirstOrDefault(t=>t.nodeId==source.id && game.InterviewTurnReference(t)==reference):null;
-  var sourceLabel=turn==null?ReviewSourceTitle(item.data,reference)
-   :T(source.personNameKey)+" · "+T(turn.promptKey)+" · "+T(turn.answerKey);
-  var label=T("conclude.source")+": "+sourceLabel;
-  if(!available) {
-   Text(parent,label,KarineTheme.Paper.Faded,13);
-   return;
-  }
-  var link=KarineUI.PaperButton(null,label+"  →",()=>ArchiveCasePage(item.data.id,source.id,reference),
-   KarinePaperKind.Choice,true);
-  link.style.minHeight=42;link.style.fontSize=Typography.Snap(13);
-  link.style.paddingLeft=9;link.style.paddingRight=8;link.style.marginBottom=10;
-  parent.Add(link);
- }
- void ArchiveCasePage(string caseId,string sourceId,string focusReference=null) {
-  var item=ClosedCases().FirstOrDefault(entry=>entry.data.id==caseId);
-  if(item==null){ArchivePage();return;}
-  var data=item.data;var progress=item.progress;
-  VisualElement content;
-  var paper=ArchivePaper(T(data.titleKey),out content);
-  var dark=KarineTheme.Paper.Ink;var muted=KarineTheme.Paper.Faded;
-  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.flexGrow=1;content.Add(row);
-  var sourceColumn=new VisualElement();sourceColumn.style.width=Length.Percent(28);
-  sourceColumn.style.paddingRight=14;row.Add(sourceColumn);
-  Text(sourceColumn,T("archive.sources"),dark,17);
-  var sourceList=Scroll(sourceColumn);
-  Button(sourceList,T("archive.report"),()=>ArchiveCasePage(caseId,null),sourceId==null);
-  if(data.timelineClues!=null && data.timelineClues.Length>0)
-   Button(sourceList,T("file.tab.timeline"),()=>ArchiveCasePage(caseId,ArchiveTimelineId),sourceId==ArchiveTimelineId);
-  var available=data.nodes.Where(node=>progress.read.Contains(node.id) || node.kind=="interview" && progress.interviewTurns.Any(turn=>turn.nodeId==node.id)).ToArray();
-  foreach(var node in available) {
-   if(node.id=="report")continue;
-   Button(sourceList,T(node.titleKey),()=>ArchiveCasePage(caseId,node.id),sourceId==node.id);
-  }
-  var detail=Scroll(row);detail.style.flexGrow=1;
-  detail.style.borderLeftWidth=1;detail.style.borderLeftColor=KarineTheme.Paper.Edge;
-  detail.style.paddingLeft=20;
-  var selected=available.FirstOrDefault(node=>node.id==sourceId);
-  if(sourceId==ArchiveTimelineId) {
-   Text(detail,T("timeline.title"),dark,21);
-   var pinned=(data.timelineClues ?? new TimelineClue[0])
-    .Where(clue=>progress.timelinePinned.Contains(clue.id) &&
-     (clue.requiresRead==null || clue.requiresRead.All(progress.read.Contains)) &&
-     (clue.requiresAsked==null || clue.requiresAsked.All(progress.asked.Contains)))
-    .OrderBy(clue=>clue.sortMinute).ThenBy(clue=>clue.id).ToArray();
-   if(pinned.Length==0)Text(detail,T("timeline.empty"),muted,16);
-   foreach(var clue in pinned)TimelineRow(detail,clue,dark,muted,null,null);
-  } else if(selected==null) {
-   var comparison=new VisualElement();comparison.style.flexDirection=FlexDirection.Row;
-   comparison.style.width=Length.Percent(100);detail.Add(comparison);
-   var reportColumn=new VisualElement();reportColumn.style.flexGrow=1;reportColumn.style.flexBasis=0;
-   reportColumn.style.paddingRight=14;comparison.Add(reportColumn);
-   Text(reportColumn,T("archive.report"),dark,19);
-   var suspect=data.verdicts.FirstOrDefault(v=>v.id==progress.reportSuspect);
-   var method=data.methods.FirstOrDefault(v=>v.id==progress.reportMethod);
-   var proof=data.evidence.FirstOrDefault(v=>v.id==progress.reportProof);
-   if(suspect!=null)Text(reportColumn,T(SuspectKey(data))+": "+T(suspect.labelKey),dark,15);
-   if(!string.IsNullOrEmpty(progress.reportSuspectSource))ArchiveSourceLink(reportColumn,item,progress.reportSuspectSource);
-   if(method!=null)Text(reportColumn,T(MethodKey(data))+": "+T(method.labelKey),dark,15);
-   if(!string.IsNullOrEmpty(progress.reportMethodSource))ArchiveSourceLink(reportColumn,item,progress.reportMethodSource);
-   if(proof!=null)Text(reportColumn,T("conclude.evidence")+": "+T(proof.labelKey),dark,15);
-   if(!string.IsNullOrEmpty(progress.reportProofSource))ArchiveSourceLink(reportColumn,item,progress.reportProofSource);
-   var faxColumn=new VisualElement();faxColumn.style.flexGrow=1;faxColumn.style.flexBasis=0;
-   faxColumn.style.paddingLeft=14;faxColumn.style.borderLeftWidth=1;
-   faxColumn.style.borderLeftColor=KarineTheme.Paper.Edge;comparison.Add(faxColumn);
-   Text(faxColumn,T("archive.fax"),dark,19);
-   // Ödüllü yeniden deneme aynı vaka için ikinci satır yazabilir; arşiv masadaki
-   // raporu en son değerlendirmeyle karşılaştırır.
-   var fax=game.Career.reviewHistory.LastOrDefault(review=>review.caseId==caseId);
-   if(fax==null)Text(faxColumn,T("archive.pendingReview"),muted,15);
-   else {
-    Text(faxColumn,EvaluationTitle(fax),dark,15);
-    if(suspect!=null)Text(faxColumn,T(SuspectKey(data))+": "+T(fax.suspectSupported?"fax.supported":"fax.unsupported"),dark,15);
-    if(method!=null)Text(faxColumn,T(MethodKey(data))+": "+T(fax.methodSupported?"fax.supported":"fax.unsupported"),dark,15);
-    if(proof!=null)Text(faxColumn,T("conclude.evidence")+": "+T(fax.proofSupported?"fax.supported":"fax.unsupported"),dark,15);
-    Text(faxColumn,T("career.trust")+": "+T(TrustStatusKey(fax.trustAfter))+
-     (fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),muted,14);
-    if(fax.reopened)Text(faxColumn,T("retry.recordNote"),muted,14);
-   }
-  } else {
-   Text(detail,T(selected.titleKey),dark,21);
-   if(selected.kind=="interview") {
-    var turns=progress.interviewTurns.Where(turn=>turn.nodeId==selected.id).ToArray();
-    foreach(var turn in turns) {
-     var turnReference=selected.id+"#"+turn.questionId+
-      (string.IsNullOrEmpty(turn.sourceId)?"":"|"+turn.sourceId);
-     var target=new VisualElement();target.style.marginBottom=10;detail.Add(target);
-     Text(target,T("interview.bora")+": "+T(turn.promptKey),muted,15);
-     if(!string.IsNullOrEmpty(turn.sourceId))Text(target,T("interview.presented")+"  "+ReviewSourceTitle(data,turn.sourceId),muted,13);
-     Text(target,T(selected.personNameKey)+": "+T(turn.answerKey),dark,16);
-     if(focusReference==turnReference)ArchiveFocus(detail,target);
-    }
-   } else if(selected.kind=="cctv") {
-    Text(detail,T(selected.cctvSourceKey),muted,15);
-    Text(detail,T(selected.cctvPeriodKey),muted,14);
-    foreach(var record in selected.cctvEvents ?? new CctvEvent[0]) {
-     var target=Text(detail,T(record.textKey),dark,16);
-     if(focusReference==selected.id+"#"+record.id)ArchiveFocus(detail,target);
-    }
-   } else Text(detail,T(selected.bodyKey),dark,16);
-  }
-  KarineUI.PaperButton(paper,T("archive.back"),ArchivePage).style.minHeight=45;
- }
- void ArchiveFocus(ScrollView scroll,VisualElement target) {
-  target.style.backgroundColor=KarineTheme.Paper.Tint;
-  target.style.paddingLeft=7;target.style.paddingRight=7;
-  scroll.schedule.Execute(()=>scroll.ScrollTo(target)).ExecuteLater(1);
  }
  int careerTab;
  // Kariyer ekranı (yeni görünüm, 2 Ekim 2026). Yalnız gerçekten tutulan sayılar gösterilir:
