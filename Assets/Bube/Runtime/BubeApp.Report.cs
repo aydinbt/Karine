@@ -272,12 +272,11 @@ public sealed partial class BubeApp {
  void OpenAssignment(CaseData nextData) {
   if(nextData==null || nextData.draft || !game.State.closed || game.Data.nextCaseId!=nextData.id)return;
   var nextId=nextData.id;
+   // Yeni görev her zaman ilk kez başlıyormuş gibi açılır: diskte kalmış eski bir kayıt
+   // (sıfırlanmış kariyerden kalan, hatta kapatılmış) yüklenmez; yoksa vaka oynanmadan atlanıyordu.
+   // Önceki dosyanın değerlendirmesi faksla bu vakanın içinde gelir.
    Progress progress=null;
-   try { if(File.Exists(CaseSavePath(nextId))) progress=JsonUtility.FromJson<Progress>(File.ReadAllText(CaseSavePath(nextId))); }
-   catch(Exception e) { Debug.LogWarning("Next case save could not be loaded: "+e.Message); }
-   // Kariyer bu vakayı hiç değerlendirmediyse kapalı kayıt eski bir oturumdan kalmadır
-   // (kariyer sıfırlanmış, vaka dosyası kalmış). Onu yüklemek vakayı oynatmadan atlatıyordu.
-   if(progress!=null && progress.closed && !game.Career.reviewHistory.Any(r=>r.caseId==nextId) && !game.Career.pendingReviews.Any(r=>r.caseId==nextId))progress=null;
+   PlayerPrefs.DeleteKey("karine.caseClosed."+nextId);PlayerPrefs.DeleteKey("karine.inkDry."+nextId);PlayerPrefs.Save();
    game=new Investigation(nextData,progress,game.Career,careerRules){Text=locale};
    game.Career.activeCaseId=nextId;
    game.BeginNextCaseReview(7);
