@@ -232,10 +232,10 @@ public sealed partial class BubeApp {
   var suspect=game.Data.verdicts.FirstOrDefault(v=>v.id==game.State.reportSuspect);
   var method=game.Data.methods.FirstOrDefault(v=>v.id==game.State.reportMethod);
   var proof=game.Data.evidence.FirstOrDefault(v=>v.id==game.State.reportProof);
-  if(suspect!=null)SummaryField(details,T(SuspectKey(game.Data)),T(suspect.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportSuspectSource));
-  if(method!=null)SummaryField(details,T(MethodKey(game.Data)),T(method.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportMethodSource));
+  if(suspect!=null)SummaryField(details,T(SuspectKey(game.Data)),T(suspect.labelKey));
+  if(method!=null)SummaryField(details,T(MethodKey(game.Data)),T(method.labelKey));
   var custody=(game.Data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==game.State.reportCustody);
-  if(custody!=null)SummaryField(details,ReportCustodyHeading(game.Data),T(custody.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportCustodySource));
+  if(custody!=null)SummaryField(details,ReportCustodyHeading(game.Data),T(custody.labelKey));
   if(proof!=null)SummaryField(details,T("conclude.evidence"),T(proof.labelKey)+" · "+ReviewSourceTitle(game.Data,game.State.reportProofSource));
   var findings=Text(content,T("summary.sources"),dark,17);findings.style.marginTop=12;
   findings.style.backgroundColor=KarineTheme.Paper.Tint;
@@ -275,6 +275,9 @@ public sealed partial class BubeApp {
    Progress progress=null;
    try { if(File.Exists(CaseSavePath(nextId))) progress=JsonUtility.FromJson<Progress>(File.ReadAllText(CaseSavePath(nextId))); }
    catch(Exception e) { Debug.LogWarning("Next case save could not be loaded: "+e.Message); }
+   // Kariyer bu vakayı hiç değerlendirmediyse kapalı kayıt eski bir oturumdan kalmadır
+   // (kariyer sıfırlanmış, vaka dosyası kalmış). Onu yüklemek vakayı oynatmadan atlatıyordu.
+   if(progress!=null && progress.closed && !game.Career.reviewHistory.Any(r=>r.caseId==nextId) && !game.Career.pendingReviews.Any(r=>r.caseId==nextId))progress=null;
    game=new Investigation(nextData,progress,game.Career,careerRules){Text=locale};
    game.Career.activeCaseId=nextId;
    game.BeginNextCaseReview(7);

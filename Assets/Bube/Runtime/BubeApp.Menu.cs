@@ -405,7 +405,7 @@ public sealed partial class BubeApp {
    var proof=data.evidence.FirstOrDefault(v=>v.id==review.proofId);
    var custody=(data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==review.custodyId);
    KarineUI.RecordHeading(card,T("career.sentReport"));
-   string Basis(string id)=>T("career.basis")+": "+ReviewSourceTitle(data,id);
+   string Basis(string id)=>string.IsNullOrEmpty(id)?"":T("career.basis")+": "+ReviewSourceTitle(data,id);
    if(person!=null)KarineUI.RecordRow(card,T(SuspectKey(data)),T(person.labelKey),Resources.Load<Texture2D>("Bube/Characters/"+person.id),Basis(review.suspectSourceId));
    if(method!=null)KarineUI.RecordRow(card,T(MethodKey(data)),T(method.labelKey),null,Basis(review.methodSourceId));
    if(proof!=null)KarineUI.RecordRow(card,T("conclude.evidence"),T(proof.labelKey),null,Basis(review.proofSourceId));
