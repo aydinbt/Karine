@@ -63,10 +63,13 @@ public static partial class KarineUI {
   OfficePlace(button,box);button.style.minHeight=KarineTheme.TouchTarget;
   button.style.marginLeft=0;button.style.marginRight=0;button.style.marginTop=0;button.style.marginBottom=0;
   Unskin(button,Color.clear);Round(button,KarineTheme.Radius*3);
-  var rest=KarineTheme.Alpha(KarineTheme.Accent,KarineTheme.Office.OutlineAlpha);
-  Border(button,1,rest);
-  button.RegisterCallback<PointerEnterEvent>(_=>Border(button,2,KarineTheme.Accent));
-  button.RegisterCallback<PointerLeaveEvent>(_=>Border(button,1,rest));
+  // Kontur yalnız dokunulurken görünür; dururken masa yalnız resimdir.
+  Border(button,1,Color.clear);
+  var on=KarineTheme.Alpha(KarineTheme.Accent,KarineTheme.Office.OutlineAlpha);
+  button.RegisterCallback<PointerEnterEvent>(_=>Border(button,1,on));
+  button.RegisterCallback<PointerDownEvent>(_=>Border(button,2,KarineTheme.Accent),TrickleDown.TrickleDown);
+  button.RegisterCallback<PointerUpEvent>(_=>Border(button,1,Color.clear));
+  button.RegisterCallback<PointerLeaveEvent>(_=>Border(button,1,Color.clear));
   stage.Add(button);return button;
  }
  // Klasör etiketi: resimde boş kâğıt şerit, dosya adı daktiloyla üstüne yazılır.
@@ -80,17 +83,37 @@ public static partial class KarineUI {
   }
   stage.Add(label);
  }
- // Tabletin ekranı: yalnız "CCTV" ve bekleme ışığı. Kamera listesi ya da kare göstermez; önizleme ipucu olurdu.
- public static void OfficeTabletScreen(VisualElement stage,string title,string standby) {
+ // Tabletin ekranı: yazı yok. Hafif fosfor parıltısı, tarama çizgileri ve küçük kayıt ışığı;
+ // basılınca ekran açılır gibi aydınlanır. Kamera ya da kare göstermez (önizleme ipucu olurdu).
+ static Texture2D scanlines;
+ public static VisualElement OfficeTabletScreen(VisualElement stage,Button press) {
   var screen=new VisualElement {name="OfficeTabletScreen",pickingMode=PickingMode.Ignore};OfficePlace(screen,KarineTheme.Office.Screen);
-  screen.style.rotate=new Rotate(KarineTheme.Office.ScreenTilt);
-  screen.style.paddingLeft=KarineTheme.SpaceMd;screen.style.paddingTop=KarineTheme.SpaceSm;
-  var t=Write(screen,title,KarineTheme.Primary,KarineTheme.Office.ScreenTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;t.style.opacity=.85f;
-  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;screen.Add(row);
-  var dot=new VisualElement();dot.style.width=8;dot.style.height=8;Round(dot,4);dot.style.backgroundColor=KarineTheme.Danger;dot.style.marginRight=KarineTheme.SpaceXs;row.Add(dot);
-  var s=Technical(row,standby.ToUpper(Tr),KarineTheme.Office.ScreenTextSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;
-  dot.schedule.Execute(()=>dot.style.opacity=KarineMotion.Reduced?1f:(dot.style.opacity.value>.6f?.25f:1f)).Every(900);
-  stage.Add(screen);
+  screen.style.rotate=new Rotate(KarineTheme.Office.ScreenTilt);screen.style.overflow=Overflow.Hidden;Round(screen,KarineTheme.Radius*2);
+  var glow=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Film.Phosphor};
+  glow.style.position=Position.Absolute;glow.style.left=Length.Percent(-20);glow.style.right=Length.Percent(-20);glow.style.top=Length.Percent(-30);glow.style.bottom=Length.Percent(-30);
+  screen.Add(glow);
+  if(scanlines==null) {
+   scanlines=new Texture2D(1,4,TextureFormat.RGBA32,false){wrapMode=TextureWrapMode.Repeat,filterMode=FilterMode.Point,hideFlags=HideFlags.DontSave};
+   scanlines.SetPixels(new[]{new Color(0,0,0,.55f),new Color(0,0,0,0),new Color(0,0,0,0),new Color(0,0,0,0)});scanlines.Apply();
+  }
+  var lines=new VisualElement {pickingMode=PickingMode.Ignore};lines.style.position=Position.Absolute;lines.style.left=0;lines.style.right=0;lines.style.top=0;lines.style.bottom=0;
+  lines.style.backgroundImage=new StyleBackground(scanlines);lines.style.backgroundRepeat=new BackgroundRepeat(Repeat.Repeat,Repeat.Repeat);
+  lines.style.backgroundSize=new BackgroundSize(new Length(100,LengthUnit.Percent),new Length(4,LengthUnit.Pixel));screen.Add(lines);
+  var dot=new VisualElement {pickingMode=PickingMode.Ignore};dot.style.position=Position.Absolute;dot.style.right=KarineTheme.SpaceMd;dot.style.top=KarineTheme.SpaceMd;
+  dot.style.width=7;dot.style.height=7;Round(dot,4);dot.style.backgroundColor=KarineTheme.Danger;screen.Add(dot);
+  float rest=KarineTheme.Office.ScreenGlow,lit=KarineTheme.Office.ScreenGlowLit;bool pressed=false;
+  glow.style.opacity=rest;
+  screen.schedule.Execute(()=>{
+   bool still=KarineMotion.Reduced;
+   float breath=still?0:Mathf.Sin(Time.unscaledTime*1.3f)*.03f;
+   glow.style.opacity=(pressed?lit:rest)+breath;
+   dot.style.opacity=still||Mathf.Repeat(Time.unscaledTime,1.6f)<.9f?1f:.15f;
+  }).Every(50);
+  if(press!=null) {
+   press.RegisterCallback<PointerDownEvent>(_=>pressed=true,TrickleDown.TrickleDown);
+   press.RegisterCallback<PointerUpEvent>(_=>pressed=false);press.RegisterCallback<PointerLeaveEvent>(_=>pressed=false);
+  }
+  stage.Add(screen);return screen;
  }
  // Tepsideki bildirim: amber yuvarlak sayı ve yanında koyu kart. Sayıyı uygulama yazar.
  public static VisualElement OfficeNotice(VisualElement stage,string title,string detail,out Label count) {

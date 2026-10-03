@@ -295,7 +295,7 @@ public static class KarineTheme {
   public const int BrandWidth=104,MenuWidth=100,TabHeight=42,TabIcon=18,TabLabelSize=14,DeskTitleSize=24,TitleSize=19,SubSize=13,LabelSize=14,SmallSize=12;
   public const int BadgeSize=34,BadgeTextSize=20,NoticeTitleSize=18,NoticeSubSize=12,HeaderActionWidth=96,PortraitWidth=68,PortraitHeight=72;
   public const int FolderLabelSize=14,ScreenTitleSize=16,ScreenTextSize=11;
-  public const float HeaderHeight=10.6f,FolderLabelTilt=-2.5f,ScreenTilt=3.5f,OutlineAlpha=.55f;
+  public const float HeaderHeight=10.6f,FolderLabelTilt=-2.5f,ScreenTilt=3.5f,OutlineAlpha=.55f,ScreenGlow=.10f,ScreenGlowLit=.32f;
   public const int BlinkMs=520;
   // Yazısız sahnedeki eşyaların yeri (yüzde).
   public static readonly Rect Window=new Rect(0,0,26,40);

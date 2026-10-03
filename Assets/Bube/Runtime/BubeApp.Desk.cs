@@ -392,7 +392,7 @@ public sealed partial class BubeApp {
   if(usable) {
    KarineUI.OfficeAction(stage,"DeskFile","folder",T("desk.view.folder"),KarineTheme.Office.Folder,FilePage);
    KarineUI.OfficeAction(stage,"DeskInterviews","people",T("desk.view.phone"),KarineTheme.Office.Phone,()=>InterviewRequests());
-   KarineUI.OfficeAction(stage,"DeskTerminal","cctv",T("desk.view.cctv"),KarineTheme.Office.Monitor,OpenTerminal);
+   KarineUI.OfficeTabletScreen(stage,KarineUI.OfficeAction(stage,"DeskTerminal","cctv",T("desk.view.cctv"),KarineTheme.Office.Monitor,OpenTerminal));
    KarineUI.OfficeAction(stage,"DeskEvidence","document",T("desk.view.evidence"),KarineTheme.Office.Evidence,
     ()=>{selectedFileSection="evidence";FilePage();});
   } else if(game.Career.retired) {
