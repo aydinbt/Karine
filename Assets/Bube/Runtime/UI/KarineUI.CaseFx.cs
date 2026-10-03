@@ -56,18 +56,15 @@ public static partial class KarineUI {
   }).Every(KarineTheme.Motion.TickMs*2);
  }
 
- // Kartlar masaya sırayla düşer: biraz yukarıdan, hafif eğik başlayıp düzelir.
+ // Kartlar ve paneller sırayla, yerinde yumuşakça belirir (kayma yok).
  public static void CardsDrop(VisualElement strip) {
   if(strip==null || KarineMotion.Reduced)return;
   int i=0;
   foreach(var child in strip.Children()) {
-   var card=child;int order=i++;float tilt=(order%2==0?-1:1)*S.DropTilt;
+   var card=child;int order=i++;
    card.style.opacity=0;
-   card.schedule.Execute(()=>KarineMotion.Run(card,S.DropSeconds,t=> {
-    card.style.opacity=Mathf.Clamp01(t*2);
-    card.style.translate=new Translate(0,-S.DropFrom*(1-t));
-    card.style.rotate=new Rotate(Angle.Degrees(tilt*(1-t)));
-   },()=>{card.style.opacity=StyleKeyword.Null;card.style.translate=StyleKeyword.Null;card.style.rotate=StyleKeyword.Null;})).StartingIn(order*S.DropStaggerMs);
+   card.schedule.Execute(()=>KarineMotion.Run(card,S.DropSeconds,t=>card.style.opacity=t,
+    ()=>card.style.opacity=StyleKeyword.Null)).StartingIn(order*S.DropStaggerMs);
   }
  }
 

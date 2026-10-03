@@ -67,7 +67,7 @@ public static class KarineTheme {
   public static readonly Rect CaseWindow=new Rect(0,0,15,46), CaseDust=new Rect(36,8,22,48);
   public const float CaseLampX=47f, CaseLampY=6f, CaseLampSize=30f, LampSwing=1.2f, LampSwingSeconds=6f; public const int CaseRain=26;
   // Dosya kartları: masaya düşer, üstüne gelince kalkar, kilitliyse sarsılır.
-  public const float DropSeconds=.42f, DropFrom=34f, DropTilt=3f, HoverLift=6f, PhotoZoom=1.05f, ShakeSeconds=.35f, ShakePx=6f, PolaroidTilt=-2f;
+  public const float DropSeconds=.5f, HoverLift=6f, PhotoZoom=1.05f, ShakeSeconds=.35f, ShakePx=6f, PolaroidTilt=-2f;
   public const int DropStaggerMs=70;
   // Ana menü sokağı (MainMenuBackdrop yüzdeleri): sokak lambaları, geçen arabalar, camdan süzülen damlalar.
   public static readonly Vector2[] StreetLamps={new Vector2(44,23),new Vector2(57,29),new Vector2(50,31)};
