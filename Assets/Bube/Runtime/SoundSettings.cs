@@ -19,9 +19,8 @@ public static class SoundSettings {
  public const string MusicKey = "bube.sound.music";
  public const string SfxKey   = "bube.sound.sfx";
 
- // Varsayılan: müzik kısık, efektler açık. Dedektiflik oyunu sessiz odada
- // oynanır; müzik öne çıkmaz.
- public static SoundLevel Music { get; private set; } = SoundLevel.Half;
+ // Varsayılan: her şey tam. Oyuncu en dolu deneyimle başlar, isterse kısar.
+ public static SoundLevel Music { get; private set; } = SoundLevel.Full;
  public static SoundLevel Sfx   { get; private set; } = SoundLevel.Full;
 
  // Kademeler ekranda da bu sırayla durur.
@@ -35,7 +34,7 @@ public static class SoundSettings {
  public static float SfxGain   => Gain(Sfx);
 
  public static void Load() {
-  Music = Read(MusicKey, SoundLevel.Half);
+  Music = Read(MusicKey, SoundLevel.Full);
   Sfx   = Read(SfxKey,   SoundLevel.Full);
  }
 

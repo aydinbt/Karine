@@ -34,8 +34,8 @@ public sealed class SoundTests {
  // Varsayılan: müzik yarım, efekt tam. Dedektiflik oyunu sessiz odada oynanır;
  // müzik öne çıkmaz ama duyulur (0,35'te duyulmuyordu).
  [Test]
- public void Defaults_KeepMusicQuiet() {
-  Assert.AreEqual(SoundLevel.Half, SoundSettings.Music);
+ public void Defaults_StartAtFull() {
+  Assert.AreEqual(SoundLevel.Full, SoundSettings.Music);
   Assert.AreEqual(SoundLevel.Full, SoundSettings.Sfx);
  }
 
@@ -53,7 +53,7 @@ public sealed class SoundTests {
  public void BrokenPreference_FallsBackToDefault() {
   PlayerPrefs.SetInt(SoundSettings.MusicKey, 99);
   SoundSettings.Load();
-  Assert.AreEqual(SoundLevel.Half, SoundSettings.Music);
+  Assert.AreEqual(SoundLevel.Full, SoundSettings.Music);
  }
 
  // Üç kademeden beşe geçildi ve kayıtta eski değerler duruyor. Oyuncunun ses

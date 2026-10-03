@@ -13,7 +13,7 @@ public sealed partial class BubeApp {
  int draftStrength;
  float playSeconds=-1,playSaved;
 
- static bool Captions => PlayerPrefs.GetInt(CaptionsKey,0)==1;
+ static bool Captions => PlayerPrefs.GetInt(CaptionsKey,1)==1;
  static bool Spacing => PlayerPrefs.GetInt(SpacingKey,0)==1;
  static bool HighContrast => PlayerPrefs.GetInt(ContrastKey,0)==1;
  static bool OneHand => PlayerPrefs.GetInt(OneHandKey,0)==1;
@@ -97,7 +97,7 @@ public sealed partial class BubeApp {
 
  // Ayarlar: okuma ve erişilebilirlik.
  void LoadAccessDraft(){draftCaptions=Captions;draftSpacing=Spacing;draftContrast=HighContrast;draftOneHand=OneHand;draftStrength=Fx.Strength;}
- void ResetAccessDraft(){draftCaptions=false;draftSpacing=false;draftContrast=false;draftOneHand=false;draftStrength=1;}
+ void ResetAccessDraft(){draftCaptions=true;draftSpacing=false;draftContrast=false;draftOneHand=false;draftStrength=2;}
  void SaveAccessDraft() {
   PlayerPrefs.SetInt(CaptionsKey,draftCaptions?1:0);PlayerPrefs.SetInt(SpacingKey,draftSpacing?1:0);
   PlayerPrefs.SetInt(ContrastKey,draftContrast?1:0);PlayerPrefs.SetInt(OneHandKey,draftOneHand?1:0);Fx.SetStrength(draftStrength);

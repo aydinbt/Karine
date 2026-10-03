@@ -44,7 +44,7 @@ public sealed partial class BubeApp {
   var scroll=root.Q<ScrollView>("SettingsBody");
   if(offset>0){EventCallback<GeometryChangedEvent> restore=null;restore=e=>{scroll.UnregisterCallback(restore);scroll.scrollOffset=new Vector2(0,offset);};scroll.RegisterCallback(restore);}
   KarineUI.SettingsFooterButton(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{
-   draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;draftFx=FxLevel.Full;draftHaptics=true;ResetSceneDraft();RenderSettings();});
+   draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Full;draftSfx=SoundLevel.Full;draftFps=120;draftFx=FxLevel.Full;draftHaptics=true;ResetSceneDraft();RenderSettings();});
   KarineUI.SettingsFooterButton(footer,KarineUI.IconOr("check","nav_next"),T("settings.save"),T("settings.save.hint"),true,SaveSettings);
  }
 

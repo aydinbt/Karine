@@ -11,7 +11,7 @@ namespace Bube {
 // gördüğü düğmeye basar. Doku kameranın üstüne saydamlıkla basılır.
 public sealed class CrtPass : MonoBehaviour {
  public const string Key = "karine.crt";
- public static bool Enabled => PlayerPrefs.GetInt(Key, 0) == 1;
+ public static bool Enabled => PlayerPrefs.GetInt(Key, 1) == 1;
  // Renk körlüğü düzeltmesi: 0 kapalı, 1 protan, 2 deutan, 3 tritan. Aynı geçişten gider;
  // CRT kapalıyken bükme, tarama ve kayma sıfırlanır, yalnız renk matrisi kalır.
  public const string ColorKey = "karine.colorFilter";

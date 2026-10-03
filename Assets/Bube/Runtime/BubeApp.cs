@@ -183,7 +183,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   // Kit'in her düğmesi basıldığında ses ister; çalan tek yer burası.
   KarineUI.Sound=id=>{ if(audioDirector!=null)audioDirector.Play(id); };
   var doc=GetComponent<UIDocument>() ?? gameObject.AddComponent<UIDocument>();
-  Typography.Load();KarineUI.AshSmoke=PlayerPrefs.GetInt(AshKey,0)==1;
+  Typography.Load();KarineUI.AshSmoke=PlayerPrefs.GetInt(AshKey,1)==1;
   panel=ScriptableObject.CreateInstance<PanelSettings>();
   panel.scaleMode=PanelScaleMode.ScaleWithScreenSize;
   panel.referenceResolution=new Vector2Int(1280,720);

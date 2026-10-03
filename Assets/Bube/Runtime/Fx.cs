@@ -30,7 +30,7 @@ public static class Fx {
   int level = PlayerPrefs.GetInt(LevelKey, (int)FxLevel.Full);
   Level = level >= 0 && level <= 2 ? (FxLevel)level : FxLevel.Full;
   Haptics = PlayerPrefs.GetInt(HapticsKey, 1) == 1;
-  Strength = Mathf.Clamp(PlayerPrefs.GetInt(StrengthKey, 1), 0, 2);
+  Strength = Mathf.Clamp(PlayerPrefs.GetInt(StrengthKey, 2), 0, 2);
   // Bellek ve çekirdek sayısı düşükse baştan hafif başlanır.
   Degraded = SystemInfo.systemMemorySize > 0 && SystemInfo.systemMemorySize < 3000 || SystemInfo.processorCount <= 4;
  }

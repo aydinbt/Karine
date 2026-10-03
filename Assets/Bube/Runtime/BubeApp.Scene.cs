@@ -15,7 +15,7 @@ public sealed partial class BubeApp {
  bool coverOpened,dialed,typeTitle;
  float meterFrames,meterTime,pendingAt;
 
- static bool Shapes => PlayerPrefs.GetInt(ShapesKey,0)==1;
+ static bool Shapes => PlayerPrefs.GetInt(ShapesKey,1)==1;
  static bool DevMeterAllowed => Debug.isDebugBuild || Application.isEditor;
 
  // Her karede: dokunulan eşyanın ekranı kurulduysa geçişi oynat; kare sayacını yaz.
@@ -105,7 +105,7 @@ public sealed partial class BubeApp {
   LoadAccessDraft();LoadPolishDraft();
   draftShapes=Shapes;draftCrt=CrtPass.Enabled;draftAsh=KarineUI.AshSmoke;draftMeter=PlayerPrefs.GetInt(MeterKey,0)==1;
  }
- void ResetSceneDraft(){ResetAccessDraft();ResetPolishDraft();draftScaleValue=1f;draftShapes=false;draftCrt=false;draftAsh=false;draftMeter=false;}
+ void ResetSceneDraft(){ResetAccessDraft();ResetPolishDraft();draftScaleValue=1f;draftShapes=true;draftCrt=true;draftAsh=true;draftMeter=false;}
  void SaveSceneDraft() {
   SaveAccessDraft();
   Typography.Set(draftScaleValue);
