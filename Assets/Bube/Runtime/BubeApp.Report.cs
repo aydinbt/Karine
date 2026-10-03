@@ -29,14 +29,14 @@ public sealed partial class BubeApp {
  static List<KeyValuePair<string,string>> Options(IEnumerable<KeyValuePair<string,string>> items) => items.ToList();
  List<ReportColumn> ReportColumns() {
   var columns=new List<ReportColumn> {
-   new ReportColumn{headingKey=SuspectKey(game.Data),sourceHeadingKey="conclude.suspectSource",choices=Options(game.Data.verdicts.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   new ReportColumn{headingKey=SuspectKey(game.Data),sourceHeadingKey="conclude.suspectSource",choices=Options(game.Data.verdicts.Where(v=>game.ChoiceKnown(v)).Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
     pick=()=>selectedSuspect,setPick=v=>selectedSuspect=v,source=()=>selectedSuspectSource,setSource=v=>selectedSuspectSource=v},
-   new ReportColumn{headingKey=MethodKey(game.Data),sourceHeadingKey="conclude.methodSource",choices=Options(game.Data.methods.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   new ReportColumn{headingKey=MethodKey(game.Data),sourceHeadingKey="conclude.methodSource",choices=Options(game.Data.methods.Where(v=>game.ChoiceKnown(v)).Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
     pick=()=>selectedMethod,setPick=v=>selectedMethod=v,source=()=>selectedMethodSource,setSource=v=>selectedMethodSource=v}
   };
   if(game.HasCustody)columns.Add(new ReportColumn{
    headingKey=string.IsNullOrEmpty(game.Data.custodyLabelKey)?"conclude.custody":game.Data.custodyLabelKey,
-   sourceHeadingKey="conclude.custodySource",choices=Options(game.Data.custody.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
+   sourceHeadingKey="conclude.custodySource",choices=Options(game.Data.custody.Where(v=>game.ChoiceKnown(v)).Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
    pick=()=>selectedCustody,setPick=v=>selectedCustody=v,source=()=>selectedCustodySource,setSource=v=>selectedCustodySource=v});
   return columns;
  }

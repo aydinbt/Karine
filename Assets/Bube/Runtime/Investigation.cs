@@ -314,6 +314,16 @@ public sealed class Investigation {
   if (!State.read.Contains(id)) State.read.Add(id);
   return true;
  }
+ // Raporda yalnız dinlenen kişi önerilebilir: seçeneğin kimliği (ya da "_" önündeki kısmı) bir
+ // görüşmeye denk geliyorsa o görüşme okunmuş olmalı. Kişi olmayan seçenekler ("kaza", yöntemler) hep açıktır.
+ public bool ChoiceKnown(Choice c) => c!=null && ChoiceKnown(c.id);
+ public bool ChoiceKnown(Verdict v) => v!=null && ChoiceKnown(v.id);
+ public bool ChoiceKnown(string id) {
+  if(string.IsNullOrEmpty(id))return false;
+  var person=id.Split('_')[0];
+  var node=Data.nodes.FirstOrDefault(n=>n.id==person && n.kind=="interview");
+  return node==null || State.read.Contains(node.id);
+ }
  public bool CanConclude => !Career.retired && !State.closed && Meets(Data.conclusionRequires);
  public string InterviewTurnReference(InterviewTurn turn) => turn.nodeId+"#"+turn.questionId+(string.IsNullOrEmpty(turn.sourceId)?"":"|"+turn.sourceId);
  public InterviewTurn InterviewSourceTurn(string reference) {
