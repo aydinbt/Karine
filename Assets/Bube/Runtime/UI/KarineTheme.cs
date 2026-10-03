@@ -365,6 +365,13 @@ public static class KarineTheme {
   public const int SideHead=26, StatusSize=22, StatusIcon=40, StatusBox=72, SideNote=14, LinkHeight=56, LinkSize=17;
   public const float KeyWidth=24, VerdictWidth=28, Tilt=-.6f;
  }
+ public static class Guidance {
+  // 3 Ekim 2026 maketleri: solda ataçlı kâğıt + sağda ölçü paneli; yeniden açmada ortada tek kâğıt.
+  public static readonly Rect Paper=new Rect(8,11,55,85), Side=new Rect(64.5f,17,31,70), Note=new Rect(18,12,46,84);
+  public const int Clip=54, TitleSize=48, IntroSize=15, Number=40, NumberSize=22, ItemSize=16;
+  public const int SideHead=26, MeterIconBox=72, MeterIcon=34, MeterSize=16, Bar=6, StampSize=34, StatusBox=64, StatusIcon=36, StatusSize=26;
+  public const float Tilt=-.6f;
+ }
  public static class Search {
   public static readonly Rect Filters=new Rect(2.4f,12.5f,10.8f,80);
   public static readonly Rect Paper=new Rect(14.2f,12,82,86);

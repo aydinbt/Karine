@@ -267,25 +267,36 @@ public sealed partial class BubeApp {
   b.style.minWidth=StyleKeyword.Auto;b.style.marginLeft=KarineTheme.SpaceSm;
  }
 
+ // Yeniden açma ve hatırlatma tam ekran (UI_RETRY / UI_GUIDANCE maketleri); her vakada aynı düzen.
+ VisualElement GuidanceScreen(string screenKey,Action redraw) {
+  Back(Desk);root.Clear();KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.desk"),T(screenKey),T(game.Data.titleKey),Desk,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(redraw));
+  return root;
+ }
  void OfferRetry() {
   AdGateway.Request(AdPlacement.RewardedRetry,AdMoment.ReportRejected,granted=>{
-   VisualElement card;
-   if(!granted) {
-    MenuOverlay(T("retry.title"),out card);
-    Text(card,T("guidance.unavailable"),Ink,17);
-   } else if(!game.ReopenForRetry()) {
-    MenuOverlay(T("retry.title"),out card);
-    Text(card,T("retry.unavailable"),Ink,17);
-   } else {
-    Save();
-    MenuOverlay(T("retry.title"),out card);
-    Text(card,T("retry.done"),Ink,17);
-    Text(card,T("career.trust")+": "+T(game.TrustStatusKey),Muted,16);
-    Text(card,T("retry.keptRecord"),Muted,15);
-   }
-   var gap=new VisualElement();gap.style.flexGrow=1;card.Add(gap);
-   Button(card,T("offer.back"),Desk);
+   bool reopened=granted && game.ReopenForRetry();
+   if(reopened)Save();
+   RetryPage(!granted?"guidance.unavailable":reopened?null:"retry.unavailable");
   });
+ }
+ // `message` boşsa dosya yeniden açıldı; değilse yalnız o tek cümle (reklam yok / açılamıyor).
+ void RetryPage(string message) {
+  GuidanceScreen("retry.screen",()=>RetryPage(message));
+  var paper=KarineUI.GuidancePaper(root,KarineTheme.Guidance.Note,KarineTheme.Guidance.Tilt);
+  if(message!=null) {
+   var gap=new VisualElement();gap.style.flexGrow=1;gap.style.minHeight=KarineTheme.SpaceXl*4;paper.Add(gap);
+   KarineUI.GuidanceText(paper,T(message),KarineTheme.Guidance.ItemSize+2).style.unityTextAlign=TextAnchor.MiddleCenter;
+  } else {
+   KarineUI.GuidanceStamp(paper,T("retry.stamp"));
+   KarineUI.GuidanceText(paper,T("retry.done"),KarineTheme.Guidance.ItemSize+4).style.whiteSpace=WhiteSpace.Normal;
+   KarineUI.GuidanceStatus(paper,"chart",T("career.trust"),T(game.TrustStatusKey),1);
+   KarineUI.PaperRule(paper,false);
+   KarineUI.GuidanceText(paper,T("retry.keptRecord"),KarineTheme.Guidance.IntroSize).style.whiteSpace=WhiteSpace.Normal;
+  }
+  var space=new VisualElement();space.style.flexGrow=1;paper.Add(space);
+  KarineUI.InterviewAction(paper,null,T("back.desk"),Desk);
  }
 
  // Ödüllü ipucu ekranı. İçinde vakanın gerçeği **yok**: yöntem hatırlatması
@@ -293,38 +304,35 @@ public sealed partial class BubeApp {
  // metinlerde kişi adı, kaynak başlığı ve karar etiketi geçmesini yasaklar.
  void OfferGuidance() {
   AdGateway.Request(AdPlacement.RewardedGuidance,AdMoment.ReportRejected,granted=>{
-   if(granted)GuidancePage();
-   else { VisualElement card;MenuOverlay(T("guidance.title"),out card);
-    Text(card,T("guidance.unavailable"),Ink,17);
-    var gap=new VisualElement();gap.style.flexGrow=1;card.Add(gap);
-    Button(card,T("offer.back"),InboxPage); }
+   if(granted){GuidancePage();return;}
+   GuidanceScreen("guidance.screen",OfferGuidance);
+   var paper=KarineUI.GuidancePaper(root,KarineTheme.Guidance.Note,KarineTheme.Guidance.Tilt);
+   KarineUI.GuidanceHeading(paper,T("guidance.title"),null);
+   KarineUI.GuidanceText(paper,T("guidance.unavailable"),KarineTheme.Guidance.ItemSize);
+   var space=new VisualElement();space.style.flexGrow=1;paper.Add(space);
+   KarineUI.InterviewAction(paper,null,T("offer.back"),InboxPage);
   });
  }
-
  void GuidancePage() {
-  VisualElement card;MenuOverlay(T("guidance.title"),out card);
-  Text(card,T("guidance.body"),Muted,15);
+  GuidanceScreen("guidance.screen",GuidancePage);
+  var paper=KarineUI.GuidancePaper(root,KarineTheme.Guidance.Paper,KarineTheme.Guidance.Tilt);
+  KarineUI.GuidanceHeading(paper,T("guidance.title"),T("guidance.body"));
   for(int index=1;index<=4;index++) {
    var key="guidance.method."+index;
-   if(locale.Has(key))Text(card,"· "+T(key),Ink,16);
+   if(locale.Has(key))KarineUI.GuidanceItem(paper,index,T(key));
   }
-  KarineUI.Rule(card);
-  KarineUI.Subtitle(card,T("guidance.coverage.title"),17);
+  var side=KarineUI.GuidanceSide(root,T("guidance.coverage.title"));
   var coverage=Coverage.Of(game);
-  if(coverage.Complete)Text(card,T("guidance.coverage.complete"),Ink,16);
+  if(coverage.Complete)KarineUI.GuidanceText(side,T("guidance.coverage.complete"),KarineTheme.Guidance.MeterSize).style.color=KarineTheme.Primary;
   else {
-   CoverageMeter(card,"folder",T("guidance.coverage.sources"),coverage.SourcesOpen,coverage.SourcesAvailable);
-   CoverageMeter(card,"people",T("guidance.coverage.questions"),coverage.QuestionsAsked,coverage.QuestionsAvailable);
-   CoverageMeter(card,"pin",T("guidance.coverage.clues"),coverage.CluesPinned,coverage.CluesAvailable);
+   KarineUI.GuidanceMeter(side,"folder",T("guidance.coverage.sources"),coverage.SourcesOpen,coverage.SourcesAvailable);
+   KarineUI.GuidanceMeter(side,"people",T("guidance.coverage.questions"),coverage.QuestionsAsked,coverage.QuestionsAvailable);
+   KarineUI.GuidanceMeter(side,"pin",T("guidance.coverage.clues"),coverage.CluesPinned,coverage.CluesAvailable);
   }
-  var spacer=new VisualElement();spacer.style.flexGrow=1;card.Add(spacer);
-  Button(card,T("offer.back"),InboxPage);
+  var spacer=new VisualElement();spacer.style.flexGrow=1;side.Add(spacer);
+  KarineUI.InterviewAction(side,null,T("offer.back"),InboxPage);
  }
 
- // Sayı da oranla birlikte verilir: "4/9" oyuncunun kendi çalışmasıdır.
- void CoverageMeter(VisualElement card,string icon,string label,int done,int total) =>
-  KarineUI.Meter(card,icon,label+"  "+done+"/"+Mathf.Max(total,done),
-   total<=0?1f:Mathf.Clamp01((float)done/total));
  // Dosyanın akıbeti: raporun gerçek dünyada neye yol açtığı. Oyuncunun yazdığı kişi ve
  // ikinci sorumluluk için vaka verisinden gelir; yanlış suçlamanın bedeli de burada görünür.
  // Faks gelmeden hiçbir yerde gösterilmez.

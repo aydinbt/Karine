@@ -55,7 +55,7 @@ Akış her öğe için aynıdır:
 - [~] Gerekçeli rapor (`UI_REPORT`): 3 Ekim kararıyla iki adım (şüpheli, ne ile) + varsa gözaltı + gönder; kanıt adımı ve dayanak seçici kaldırıldı
 - [~] Vaka özeti / rapor gönderildi (CaseSummary, `UI_CASE_SUMMARY`): yeni görevlendirme düğmesi bilerek yok, sıradaki görev bildirimle gelir
 - [~] Faks / değerlendirme (FaxPage, `UI_FAX`): termal faks kâğıdı, sonuç başlığı, konu–raporda–değerlendirme tablosu, kurul mührü; sağda kurum güveni, kariyer kaydı, yeni görev
-- [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
+- [~] Yönlendirme ve yeniden deneme (GuidancePage, RetryPage; `UI_GUIDANCE`, `UI_RETRY`): ataçlı yöntem kâğıdı + ölçü paneli; YENİDEN AÇILDI damgalı not, kurum güveni kutusu; her vakada aynı
 
 ## 6. Efekt ve geçişler (eskiler kaldırıldı, yenisi tasarlanacak)
 - [x] Ekran ve sahne geçişi: düz siyah perde (3 Ekim, gözlendi)

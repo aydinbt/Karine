@@ -2505,6 +2505,18 @@
    "value": "Kariyere bak"
   },
   {
+   "key": "guidance.screen",
+   "value": "Hatırlatma"
+  },
+  {
+   "key": "retry.screen",
+   "value": "Dosya"
+  },
+  {
+   "key": "retry.stamp",
+   "value": "Yeniden açıldı"
+  },
+  {
    "key": "guidance.title",
    "value": "Yöntem hatırlatması"
   },
@@ -2526,7 +2538,7 @@
   },
   {
    "key": "guidance.method.4",
-   "value": "Gönderdiğin sonucun üç ayağı da dayanağıyla birlikte durmalı: kişi, yöntem ve kanıt."
+   "value": "Gönderdiğin sonucun her ayağı dayanağıyla birlikte durmalı."
   },
   {
    "key": "guidance.coverage.title",
