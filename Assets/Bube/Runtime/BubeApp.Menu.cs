@@ -50,8 +50,10 @@ public sealed partial class BubeApp {
   menu.Add(cut);
   KarineUI.MenuAction(menu,"menu_quit",T("menu.row.quit"),AskToQuit,false).name="MenuExit";
 
+  var studio=KarineUI.StudioMark(root,KarineTheme.Loading.StudioHeight);studio.style.position=Position.Absolute;
+  studio.style.right=Length.Percent(3);studio.style.bottom=Length.Percent(4);studio.style.opacity=.85f;
   var version=KarineUI.Technical(root,"v"+Application.version,KarineTheme.MainMenu.TaglineSize);
-  version.style.position=Position.Absolute;version.style.right=Length.Percent(3);version.style.bottom=Length.Percent(4);
+  version.style.position=Position.Absolute;version.style.right=Length.Percent(3);version.style.bottom=Length.Percent(4);version.style.marginBottom=KarineTheme.Loading.StudioHeight+KarineTheme.SpaceSm;
   version.style.color=KarineTheme.Alpha(KarineTheme.Secondary,.7f);
   KarineUI.MenuStorm(root);KarineUI.MenuStreet(root);KarineUI.MenuParallax(root);KarineUI.MenuIntro(root,logo,menu);
  }

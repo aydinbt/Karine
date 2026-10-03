@@ -233,6 +233,11 @@ public static class KarineTheme {
   // Sonuç halkası: uygun bulunan yeşil; yalnız bu grafikte kullanılır.
   public static readonly Color Supported=Hex("#3E8E4A");
  }
+ // Açılış yüklemesi ve stüdyo imzası.
+ public static class Loading {
+  public const float MinSeconds=2.4f, TipSeconds=3.2f, FadeSeconds=.6f, BarWidth=42f;
+  public const int LogoWidth=520, TipSize=18, LabelSize=14, BarHeight=6, StudioHeight=44, StudioTextSize=18;
+ }
  // Ayarlar modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_SETTINGS_2026-10.png).
  public static class SettingsModal {
   public const float Width=76f, Height=86f, VeilAlpha=.7f;

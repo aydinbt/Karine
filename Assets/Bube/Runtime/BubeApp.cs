@@ -212,7 +212,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   root.style.paddingTop=26;
   root.style.paddingBottom=24;
   if(redirectedDraft)Save();
-  Home();
+  Home();ShowLoading();
   if(saveNotice!=null)Text(root,T("save.fromFuture"),Muted,15);
  }
 
