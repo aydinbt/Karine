@@ -44,7 +44,7 @@ Akış her öğe için aynıdır:
 - [ ] Belge okuma (ReadPage)
 - [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
 - [ ] CCTV dökümü ve görüntüler
-- [ ] Not defteri
+- [-] Not defteri (kaldırıldı; karşılaştırma notları raporda görünür)
 - [ ] Soruşturma talepleri
 
 ## 4. Sorgu
@@ -52,7 +52,7 @@ Akış her öğe için aynıdır:
 - [ ] Kaydı öne sürme
 
 ## 5. Sonuç
-- [~] Gerekçeli rapor (`UI_REPORT`): adım sütunu, polaroid şüpheliler, dayanak kaynak, özet, onay kartı; kaynakta oyuncunun kendi karşılaştırma notu görünür
+- [x] Gerekçeli rapor (`UI_REPORT`): adım sütunu, polaroid şüpheliler, dayanak kaynak, özet, onay kartı; kaynakta oyuncunun kendi karşılaştırma notu görünür
 - [ ] Faks / değerlendirme (FaxPage)
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 
