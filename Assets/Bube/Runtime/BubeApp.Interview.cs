@@ -170,7 +170,8 @@ public sealed partial class BubeApp {
      if(record.notPresentable)continue;
      if(!game.SourceConcernsPerson(node,record.aboutPersonIds,T(record.textKey)))continue;
      if(game.SourceAlreadyPresented(node,active,reference))continue;
-     add("cctv",T(item.titleKey),T(record.textKey),reference,category);
+     // Aynı kameranın satırları tek tek ayırt edilsin: başlık kaydın kendisi, alt satır kamera.
+     add("cctv",T(record.textKey),T(item.titleKey),reference,category);
     }
    } else if(category==2) {
     foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
@@ -201,12 +202,10 @@ public sealed partial class BubeApp {
    }
    empty.style.display=visible==0?DisplayStyle.Flex:DisplayStyle.None;
    tabs.Clear();
-   for(int half=0;half<2;half++) {
-    int offset=half*2;
-    var strip=KarineUI.Tabs(tabs,new[]{T(labels[offset]),T(labels[offset+1])},
-     interviewSourceFilter-offset,picked=>{interviewSourceFilter=offset+picked;update();},true);
-    strip.style.marginBottom=3;
-    for(int i=0;i<2;i++)strip[i].SetEnabled(offset+i==0 || categoryCounts[offset+i]>0);
+   var strip=new VisualElement();strip.style.flexDirection=FlexDirection.Row;strip.style.marginBottom=KarineTheme.SpaceSm;tabs.Add(strip);
+   for(int i=0;i<labels.Length;i++) {
+    int picked=i;
+    KarineUI.InterviewFilter(strip,T(labels[i]),interviewSourceFilter==i,i==0 || categoryCounts[i]>0,()=>{interviewSourceFilter=picked;update();});
    }
   };
   update();

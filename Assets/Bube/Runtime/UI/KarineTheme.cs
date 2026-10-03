@@ -283,11 +283,11 @@ public static class KarineTheme {
   public static readonly Rect Identity=new Rect(5.6f,15,20,30);
   public static readonly Rect Bubble=new Rect(61.6f,15,31.8f,20);
   public static readonly Rect Questions=new Rect(61,41,33,54);
-  public static readonly Rect BubbleAside=new Rect(39.8f,17,17,28);
+  public static readonly Rect BubbleAside=new Rect(5.6f,48,24,24);
   public static readonly Rect Present=new Rect(58.2f,15,37,80);
   public const int Thumb=86, LabelSize=18, NameSize=22, InfoSize=14, SpeakerSize=16, SpeechSize=17, DemeanorSize=15, Tail=14;
   public const int TabHeight=40, TabSize=16, TopicHeight=44, TopicSize=18, RowHeight=48, RowSize=15, Edge=4;
-  public const int PresentHead=26, PresentQuote=15, SourceRow=62, SourceIcon=30, SourceTitle=14, SourceSub=12, ActionHeight=54, ActionSize=22;
+  public const int PresentHead=26, PresentQuote=15, SourceRow=58, FilterHeight=34, FilterSize=13, SourceIcon=30, SourceTitle=14, SourceSub=12, ActionHeight=54, ActionSize=22;
  }
  public static class Inbox {
   public const int RowHeight=76, LogoWidth=145, HeadingSize=25, BodySize=17;

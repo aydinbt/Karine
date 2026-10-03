@@ -33,9 +33,9 @@ public static partial class KarineUI {
   var bubble=InterviewGlass(parent,"InterviewBubble",aside?I.BubbleAside:I.Bubble,false);
   bubble.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.97f);
   var tail=new VisualElement {pickingMode=PickingMode.Ignore};tail.style.position=Position.Absolute;
-  tail.style.width=tail.style.height=I.Tail;tail.style.left=-I.Tail/2-1;tail.style.top=Length.Percent(40);tail.style.rotate=new Rotate(45);
-  tail.style.backgroundColor=bubble.style.backgroundColor;tail.style.borderLeftWidth=tail.style.borderBottomWidth=KarineTheme.BorderWidth;
-  tail.style.borderLeftColor=tail.style.borderBottomColor=KarineTheme.Border;bubble.Add(tail);
+  tail.style.width=tail.style.height=I.Tail;if(aside)tail.style.right=-I.Tail/2-1;else tail.style.left=-I.Tail/2-1;tail.style.top=Length.Percent(40);tail.style.rotate=new Rotate(45);
+  tail.style.backgroundColor=bubble.style.backgroundColor;if(aside){tail.style.borderRightWidth=tail.style.borderTopWidth=KarineTheme.BorderWidth;tail.style.borderRightColor=tail.style.borderTopColor=KarineTheme.Border;}
+  else{tail.style.borderLeftWidth=tail.style.borderBottomWidth=KarineTheme.BorderWidth;tail.style.borderLeftColor=tail.style.borderBottomColor=KarineTheme.Border;}bubble.Add(tail);
   Write(bubble,speaker.ToUpper(Tr),KarineTheme.Accent,I.SpeakerSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
   var scroll=new KarineScrollView(ScrollViewMode.Vertical);scroll.style.flexGrow=1;scroll.style.minHeight=0;
   scroll.verticalScrollerVisibility=ScrollerVisibility.Hidden;bubble.Add(scroll);
@@ -82,6 +82,15 @@ public static partial class KarineUI {
   var l=Write(row,text,KarineTheme.Primary,I.RowSize,Typewriter);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleLeft;
   parent.Add(row);return row;
  }
+ // Kaynak süzgeci: tek satırda küçük çerçeveli düğmeler; seçili olan amber.
+ public static Button InterviewFilter(VisualElement row,string label,bool active,bool enabled,Action pick) {
+  var chip=new Button(Sounded(pick)) {name="InterviewFilter",tooltip=label};chip.style.flexGrow=1;chip.style.flexBasis=0;chip.style.height=I.FilterHeight;
+  chip.style.marginLeft=chip.style.marginTop=chip.style.marginBottom=0;chip.style.marginRight=KarineTheme.SpaceXs;chip.style.paddingLeft=chip.style.paddingRight=0;
+  Unskin(chip,active?KarineTheme.Alpha(KarineTheme.Accent,.14f):KarineTheme.Alpha(KarineTheme.Background,.6f));
+  Border(chip,KarineTheme.BorderWidth,active?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Border,.6f));Round(chip,KarineTheme.Radius);
+  var l=Write(chip,label.ToUpper(Tr),active?KarineTheme.Accent:KarineTheme.Secondary,I.FilterSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
+  chip.SetEnabled(enabled);row.Add(chip);return chip;
+ }
  // Kaydı öne sür paneli: başlık ve soru, solda kaynak listesi, sağda kâğıt önizleme ve düğme.
  public static VisualElement InterviewPresent(VisualElement parent,string heading,string question,Action cancel,string cancelTitle,out VisualElement list,out VisualElement preview) {
   var panel=InterviewGlass(parent,"InterviewPresent",I.Present,true);
@@ -106,7 +115,7 @@ public static partial class KarineUI {
   Border(row,selected?KarineTheme.BorderWidth+1:KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Border,.5f));Round(row,KarineTheme.Radius);
   Icon(row,icon,selected?KarineTheme.Accent:KarineTheme.Secondary,I.SourceIcon).style.marginRight=KarineTheme.SpaceSm;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;row.Add(words);
-  var t=Write(words,title,selected?KarineTheme.Accent:KarineTheme.Primary,I.SourceTitle,Typewriter);t.style.marginBottom=0;
+  var t=Write(words,title,selected?KarineTheme.Accent:KarineTheme.Primary,I.SourceTitle,Typewriter);t.style.marginBottom=0;t.style.whiteSpace=WhiteSpace.NoWrap;t.style.overflow=Overflow.Hidden;t.style.textOverflow=TextOverflow.Ellipsis;
   if(!string.IsNullOrEmpty(sub)){var s=Write(words,sub,KarineTheme.Secondary,I.SourceSub,Typewriter);s.style.marginBottom=0;s.style.whiteSpace=WhiteSpace.NoWrap;s.style.overflow=Overflow.Hidden;s.style.textOverflow=TextOverflow.Ellipsis;}
   words.Query<Label>().ForEach(l=>l.style.unityTextAlign=TextAnchor.MiddleLeft);
   list.Add(row);return row;
