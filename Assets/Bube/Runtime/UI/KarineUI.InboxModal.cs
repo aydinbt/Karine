@@ -42,15 +42,16 @@ public static partial class KarineUI {
   Icon(row,"document",KarineTheme.Primary,KarineTheme.IconSize+6).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;words.style.justifyContent=Justify.Center;row.Add(words);
   var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,I.RowTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
-  t.style.whiteSpace=WhiteSpace.NoWrap;t.style.overflow=Overflow.Hidden;t.style.textOverflow=TextOverflow.Ellipsis;
+  // Başlık kesilmez, sığmazsa alt satıra iner; satır yüksekliği buna göre uzar.
+  t.style.whiteSpace=WhiteSpace.Normal;
   var line=new VisualElement {pickingMode=PickingMode.Ignore};line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.Center;words.Add(line);
   if(fresh) {
    var pill=new VisualElement {pickingMode=PickingMode.Ignore};pill.style.backgroundColor=KarineTheme.Accent;Round(pill,10);
    pill.style.paddingLeft=KarineTheme.SpaceSm;pill.style.paddingRight=KarineTheme.SpaceSm;line.Add(pill);
    var p=Write(pill,status.ToUpper(Tr),KarineTheme.OnPrimary,I.PillSize,Heading);p.style.marginBottom=0;p.style.letterSpacing=1;
   } else {
-   var s=Body_(line,status,I.RowMetaSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;s.style.flexShrink=1;
-   s.style.whiteSpace=WhiteSpace.NoWrap;s.style.overflow=Overflow.Hidden;s.style.textOverflow=TextOverflow.Ellipsis;
+   var s=Body_(line,status,I.RowMetaSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;s.style.flexShrink=1;s.style.minWidth=0;
+   s.style.whiteSpace=WhiteSpace.Normal;
   }
   var gap=new VisualElement();gap.style.flexGrow=1;line.Add(gap);
   if(!string.IsNullOrEmpty(date)){var d=Technical(line,date,I.RowMetaSize);d.style.color=KarineTheme.Secondary;d.style.marginBottom=0;d.style.flexShrink=0;}
@@ -63,15 +64,16 @@ public static partial class KarineUI {
   var desk=new VisualElement {name="InboxDesk"};desk.style.flexGrow=1;desk.style.minHeight=0;desk.style.overflow=Overflow.Hidden;
   desk.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/UI/bg_office"));
   desk.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(BackgroundSizeType.Cover));
-  desk.style.paddingLeft=KarineTheme.SpaceXl;desk.style.paddingRight=KarineTheme.SpaceXl;desk.style.paddingTop=KarineTheme.SpaceXl;desk.style.paddingBottom=KarineTheme.SpaceMd;
+  desk.style.paddingLeft=KarineTheme.SpaceMd;desk.style.paddingRight=KarineTheme.SpaceMd;desk.style.paddingTop=KarineTheme.SpaceLg;desk.style.paddingBottom=KarineTheme.SpaceSm;
   parent.Add(desk);
   var veil=new VisualElement {pickingMode=PickingMode.Ignore};veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.backgroundColor=KarineTheme.Veil(I.SceneVeil);desk.Add(veil);
   paper=new VisualElement {name="InboxPaper"};paper.style.flexGrow=1;paper.style.minHeight=0;paper.style.rotate=new Rotate(I.PaperTilt);
   paper.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/UI/paper_sheet"));
   paper.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(Length.Percent(100),Length.Percent(100)));
-  paper.style.paddingLeft=KarineTheme.SpaceXl+KarineTheme.SpaceMd;paper.style.paddingRight=KarineTheme.SpaceXl+KarineTheme.SpaceMd;
-  paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceLg;desk.Add(paper);
+  // Kâğıt görselinin kenarları yırtık: yazı yüzdeyle içeride tutulur, eğim yok (eğik yazı bulanıklaşıyordu).
+  paper.style.paddingLeft=Length.Percent(I.PaperInsetX);paper.style.paddingRight=Length.Percent(I.PaperInsetX);
+  paper.style.paddingTop=Length.Percent(I.PaperInsetY);paper.style.paddingBottom=Length.Percent(I.PaperInsetY);desk.Add(paper);
   var clip=Resources.Load<Texture2D>("Bube/UI/paperclip");
   if(clip!=null) {
    var pin=new Image {name="InboxClip",image=clip,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};

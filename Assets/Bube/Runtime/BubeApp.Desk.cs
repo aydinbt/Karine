@@ -180,16 +180,11 @@ public sealed partial class BubeApp {
     ()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>Desk());} }).name="InboxAccept";
    return;
   }
-  var brandRow=new VisualElement();brandRow.style.flexDirection=FlexDirection.Row;brandRow.style.alignItems=Align.Center;paperBody.Add(brandRow);
-  var mark=new Image {image=Resources.Load<Texture2D>("Bube/UI/bube_logo"),scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
-  mark.style.width=KarineTheme.Inbox.BrandLogo;mark.style.height=KarineTheme.Inbox.BrandLogo;mark.style.marginRight=KarineTheme.SpaceMd;brandRow.Add(mark);
-  KarineUI.DossierText(brandRow,T("file.department"),KarineTheme.Inbox.HeadingSize).style.marginBottom=0;
-  KarineUI.DossierText(paperBody,T(game.Data.summary.locationKey),KarineTheme.Dossier.MetaSize);
-  var title=Text(paperBody,selected.title,dark,22);
-  if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  Text(paperBody,selected.review!=null || selected.assignment!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,dark,14);
-  var line=new VisualElement();line.style.height=1;line.style.marginBottom=15;
-  line.style.backgroundColor=KarineTheme.Paper.Edge;paperBody.Add(line);
+  // Diğer evraklar da aynı kâğıt dilinde: birim başlığı, daktilo başlık, künye.
+  KarineUI.PaperLetterhead(paperBody,T("file.department"));
+  KarineUI.PaperText(paperBody,selected.title,KarineTheme.InboxModal.PaperTitleSize-8).style.marginTop=KarineTheme.SpaceLg;
+  KarineUI.PaperText(paperBody,selected.review!=null || selected.assignment!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,KarineTheme.InboxModal.PaperLabelSize+2);
+  KarineUI.PaperText(paperBody,T(game.Data.summary.locationKey),KarineTheme.InboxModal.PaperLabelSize).style.marginBottom=KarineTheme.SpaceMd;
   if(selected.assignment!=null) {
    Text(paperBody,T("next.assignment.sender"),dark,16);
    Text(paperBody,T("next.assignment.body"),dark,18);

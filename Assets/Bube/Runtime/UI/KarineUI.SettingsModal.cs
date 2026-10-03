@@ -20,6 +20,8 @@ public static partial class KarineUI {
   // Arkadaki ekrana dokunuş geçmez.
   veil.RegisterCallback<PointerDownEvent>(e=>e.StopPropagation());
   root.Add(veil);
+  // Altındaki ekran bazı parçalarını bir an sonra ekliyor; modal hep en üstte kalır.
+  veil.schedule.Execute(()=>veil.BringToFront()).ExecuteLater(30);veil.schedule.Execute(()=>veil.BringToFront()).ExecuteLater(400);
   var panel=new VisualElement {name=panelName};
   panel.style.width=Length.Percent(M.Width);panel.style.height=Length.Percent(M.Height);
   panel.style.backgroundColor=KarineTheme.Panel;Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
@@ -28,7 +30,7 @@ public static partial class KarineUI {
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;header.style.flexShrink=0;panel.Add(header);
   Icon(header,icon,KarineTheme.Primary,M.HeaderIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement();words.style.flexGrow=1;header.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,M.TitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;
+  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,M.TitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceMd;t.style.letterSpacing=1;
   var sub=Body_(words,subtitle,M.SubSize);sub.style.color=KarineTheme.Secondary;sub.style.marginBottom=0;
   var x=new Button(Sounded(close)) {name=name+"Close"};x.style.width=M.Close;x.style.height=M.Close;
   Unskin(x,Color.clear);Border(x,KarineTheme.BorderWidth,KarineTheme.Border);Round(x,KarineTheme.Radius);
@@ -154,7 +156,9 @@ public static partial class KarineUI {
   var words=new VisualElement {pickingMode=PickingMode.Ignore};button.Add(words);
   // Bebas'ın satır yüksekliği geniş: başlık ile açıklama bitişir, blok ikonla ortalanır.
   words.style.justifyContent=Justify.Center;
-  var t=Write(words,title.ToUpper(Tr),ink,M.FooterTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;t.style.letterSpacing=1;Left(t);
+  var t=Write(words,title.ToUpper(Tr),ink,M.FooterTitleSize,Heading);t.style.letterSpacing=1;Left(t);
+  // Tek satırlıksa (Geri gibi) negatif boşluk yazıyı yukarı kaydırır; yalnız açıklama varken bitiştirilir.
+  t.style.marginBottom=string.IsNullOrEmpty(detail)?0:-KarineTheme.SpaceSm;
   if(!string.IsNullOrEmpty(detail)){var d=Body_(words,detail,M.TabHintSize);d.style.color=primary?KarineTheme.Paper.Ink:KarineTheme.Secondary;d.style.marginBottom=0;Left(d);}
   parent.Add(button);return button;
  }
