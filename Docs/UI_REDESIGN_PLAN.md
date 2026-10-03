@@ -61,7 +61,7 @@ Akış her öğe için aynıdır:
 - [x] Ekran ve sahne geçişi: düz siyah perde (3 Ekim, gözlendi)
 - [~] Masaya varış: sinematik yerine perde sönümü + 0,7 sn masa döngüsü (3 Ekim)
 - [~] Evrak açılışı: ortak kâğıt girişi `KarineMotion.Paper` (aşağıdan oturma + belirme); dosya içi sayfa geçişi `KarineMotion.Page`
-- [~] Modal açılışı: `ModalFrame`, `ConfirmPaper`, `GuidancePaper` aynı girişi kullanır; kapanış anında (ayrı kapanış devinimi maket isterse)
+- [~] Modal açılışı: `ModalFrame`, `ConfirmPaper`, `GuidancePaper` aynı girişi kullanır; kapanışta `KarineMotion.Leave` (karartma söner, kâğıt hafif iner, sonra eylem)
 - [~] Vaka açılış dizisi: mevcut `ChapterCard` + `LocationReel`, kart bitince açılış kaydı (3 Ekim düzeltmesi)
 - [~] Dosya kapandı geçişi (CaseClosed, `UI_CASE_CLOSED`)
 - [~] Ortak küçük öğeler: rozet `OfficeCount`, toast `KarineUI.Notification`, onay `ConfirmPaper`, boş durum `ArchiveEmpty`

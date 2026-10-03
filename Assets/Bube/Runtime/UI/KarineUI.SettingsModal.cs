@@ -22,7 +22,7 @@ public static partial class KarineUI {
   root.Add(veil);
   // Altındaki ekran bazı parçalarını bir an sonra ekliyor; modal hep en üstte kalır.
   veil.schedule.Execute(()=>veil.BringToFront()).ExecuteLater(30);veil.schedule.Execute(()=>veil.BringToFront()).ExecuteLater(400);
-  var panel=new VisualElement {name=panelName};
+  var panel=new VisualElement {name=panelName};close=KarineMotion.Leave(veil,panel,close);
   panel.style.width=Length.Percent(M.Width);panel.style.height=Length.Percent(M.Height);
   panel.style.backgroundColor=KarineTheme.Panel;Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=KarineTheme.SpaceLg;panel.style.paddingRight=KarineTheme.SpaceLg;panel.style.paddingTop=KarineTheme.SpaceMd;panel.style.paddingBottom=KarineTheme.SpaceMd;

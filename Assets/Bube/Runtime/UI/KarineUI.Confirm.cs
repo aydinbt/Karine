@@ -11,7 +11,7 @@ public static partial class KarineUI {
                                           string cancelLabel,Action onCancel,string confirmLabel,Action onConfirm) {
   var veil=new VisualElement {name="ConfirmVeil"};veil.style.position=Position.Absolute;veil.style.left=veil.style.top=veil.style.right=veil.style.bottom=0;
   veil.style.backgroundColor=KarineTheme.Veil(.8f);veil.style.alignItems=Align.Center;veil.style.justifyContent=Justify.Center;parent?.Add(veil);
-  var paper=new VisualElement {name="ConfirmPaper"};paper.style.width=Length.Percent(C.Width);paper.style.maxWidth=C.MaxWidth;paper.style.rotate=new Rotate(C.Tilt);
+  var paper=new VisualElement {name="ConfirmPaper"};onCancel=KarineMotion.Leave(veil,paper,onCancel);paper.style.width=Length.Percent(C.Width);paper.style.maxWidth=C.MaxWidth;paper.style.rotate=new Rotate(C.Tilt);
   Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;paper.style.paddingTop=KarineTheme.SpaceXl*2;paper.style.paddingBottom=KarineTheme.SpaceXl;veil.Add(paper);
   var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.position=Position.Absolute;clip.style.left=Length.Percent(6);clip.style.top=-C.Clip/3;

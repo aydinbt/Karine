@@ -64,6 +64,18 @@ public static class KarineMotion {
    paper.style.opacity=.65f+.35f*t;
   });
  }
+ // Kapanış: karartma söner, kâğıt hafifçe aşağı iner; bitince eylem çalışır. Çift dokunuş yok sayılır.
+ public static Action Leave(VisualElement veil,VisualElement paper,Action then) {
+  bool leaving=false;
+  return ()=>{
+   if(leaving)return;leaving=true;veil.pickingMode=PickingMode.Ignore;
+   Run(veil,KarineTheme.Motion.CloseSeconds,t=>{
+    veil.style.transitionDuration=new StyleList<TimeValue>(new System.Collections.Generic.List<TimeValue>{new TimeValue(0)});
+    veil.style.opacity=1-t;
+    if(paper!=null)paper.style.translate=new Translate(0,KarineTheme.Motion.PaperOffset*t);
+   },()=>then?.Invoke());
+  };
+ }
  public static void InstallPressFeedback(VisualElement root) {
   Button pressed=null;
   Action release=()=>{if(pressed!=null)pressed.style.scale=new Scale(Vector3.one);pressed=null;};
