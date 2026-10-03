@@ -200,7 +200,22 @@ public sealed partial class BubeApp {
   if(sourceNames.Length==0)sourceNames=new[]{T("summary.noSources")};
   bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
   KarineUI.SummarySources(card,T("summary.sources").TrimStart('⌕',' '),sourceNames,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
-  var back=KarineUI.PaperButton(footer,T("back.desk"),Desk);back.style.marginTop=KarineTheme.SpaceLg;back.style.minHeight=48;
+  var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;actions.style.marginTop=KarineTheme.SpaceLg;footer.Add(actions);
+  var back=KarineUI.PaperButton(actions,T("back.desk"),Desk);back.style.flexGrow=1;back.style.minHeight=48;
+  NextStep(actions,CaseSummary);
+ }
+ // Vaka sonrası akış kendi kendine ilerlemez: sıradaki iş bir düğmeyle açılır, oyuncu kaçırmaz.
+ // Faks hazır değilse düğme beklediğini söyler ve hazır olunca kendini yeniler.
+ void NextStep(VisualElement parent,Action refresh) {
+  Button next=null;
+  if(HasIncomingFax)next=KarineUI.PaperButton(parent,T("next.openFax")+"  →",FaxPage,KarinePaperKind.Action);
+  else if(game.Career.pendingReviews.Any(r=>r.caseId==game.Data.id)) {
+   next=KarineUI.PaperButton(parent,T("next.waitingFax"),()=>{});next.SetEnabled(false);
+   next.schedule.Execute(()=>{if(next.panel!=null && HasIncomingFax)refresh();}).Every(1000);
+  }
+  else if(AvailableAssignment()!=null)next=KarineUI.PaperButton(parent,T("next.openAssignment")+"  →",ContinueToNextCase,KarinePaperKind.Action);
+  if(next==null)return;
+  next.style.flexGrow=1;next.style.minHeight=48;next.style.marginLeft=KarineTheme.SpaceMd;
  }
  void Result() {
   if(game.SubmitReport(selectedSuspect,selectedMethod,selectedCustody)) {

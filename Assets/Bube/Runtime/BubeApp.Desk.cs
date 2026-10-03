@@ -409,7 +409,7 @@ public sealed partial class BubeApp {
   } else if(game.State.closed) {
    var closed=Panel(stage);KarineUI.OfficePlace(closed,new Rect(36,65,30,30));
    Text(closed,T("desk.closed"),Ink,20);
-   Button(closed,T("result.summaryOpen"),CaseSummary,true);Button(closed,T("result.continue"),ContinueToNextCase);
+   Button(closed,T("result.summaryOpen"),CaseSummary,true);NextStep(closed,Desk);
   }
   KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;StageDesk(stage);
   if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
