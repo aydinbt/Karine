@@ -39,6 +39,10 @@ public sealed partial class BubeApp {
   var nodes=groups.Select(g=>g.FirstOrDefault(n=>!game.State.read.Contains(n.id))??g.Last()).ToArray();
   var selected=nodes.FirstOrDefault(n=>n.personId==selectedRequestPerson)??nodes.FirstOrDefault();
   if(selected==null){Text(list,T("desk.none"),Muted,KarineTheme.Requests.BodySize);return;}
+  // Listede görülen, henüz istenmemiş kişi bir daha sayılmaz.
+  game.State.seenRequests??=new List<string>();
+  foreach(var n in nodes)if(game.CanRequest(n)&&!Seen("person:"+n.id))game.State.seenRequests.Add("person:"+n.id);
+  Save();
   Node Said(Node node)=>groups.First(g=>g.Key==node.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
   foreach(var node in nodes) {
    var target=node;var key=InterviewStatusKey(node);var said=Said(node);
@@ -74,9 +78,9 @@ public sealed partial class BubeApp {
  string InterviewStatusKey(Node node) =>
   game.Closed(node)?"interview.status.gone":game.CanRequest(node)?"interview.status.unrequested":game.Pending(node)?"interview.pending":game.State.read.Contains(node.id)?
    ((node.questions??new Question[0]).Any(q=>game.CanAskQuestion(node,q))?"interview.status.followup":"interview.status.complete"):"interview.status.ready";
- // Sekme sayacı yalnız oyuncunun zaten gördüğü durumları sayar: görüşmeye hazır kişi, dosyaya alınmamış gelen rapor.
+ // Sekme sayacı: görüşmeye hazır kişi ve yeni açılmış, listede henüz görülmemiş kişi.
  int InterviewBadgeCount() => game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId)
-  .Count(g=>g.Any(n=>game.Available(n)&&!game.State.read.Contains(n.id)));
+  .Count(g=>g.Any(n=>game.Available(n)&&!game.State.read.Contains(n.id) || game.CanRequest(n)&&!Seen("person:"+n.id)));
  // Gelen ama okunmamış inceleme raporları ile yeni açılmış ama listede henüz görülmemiş incelemeler.
  // Yalnız "listede yeni bir satır var" der; hangisinin önemli olduğunu söylemez.
  int InvestigationBadgeCount() => game.Data.nodes.Count(n=>n.kind=="document"&&n.requestable&&!game.State.read.Contains(n.id)&&
