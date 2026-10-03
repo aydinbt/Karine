@@ -297,11 +297,8 @@ public sealed partial class BubeApp {
   // Kariyerin ilk dosyası ile sonraki dosyalar aynı animasyonu paylaşır, ama
   // şerit farklıdır: ikinci dosyaya "ilk görevlendirme" demek yanlış olurdu.
   Text(folder,T(game.Career.reviewHistory.Count==0?"intro.firstFile":"intro.newFile"),Base,17);
-  // Dosya numarası ve başlık, dosya masaya oturduktan sonra daktiloyla yazılır.
-  string digits=new string(game.Data.id.Where(char.IsDigit).ToArray());
-  string title=(digits.Length>0?"#"+digits+"  ·  ":"")+T(game.Data.titleKey);
-  var label=Text(folder,Fx.On?string.Empty:title,Base,24);
-  if(dossierBoldFont!=null)label.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
+  // Dosyanın numarası ve adı burada yazılmaz: oyuncu dosyayı kabul edince açılış
+  // dizisi (saat kartı, mekân, başlık) onları zaten söylüyor; iki kez görünüyordu.
   float elapsed=0;bool landed=false;
   while(elapsed<2.1f) {
    elapsed+=Time.unscaledDeltaTime;
@@ -311,7 +308,6 @@ public sealed partial class BubeApp {
    folder.style.top=Length.Percent(Mathf.Lerp(-35,48,slide));
    if(!landed && slide>=1) {
     landed=true;audioDirector?.PlayAt("ui_folder",0,.9f);Fx.Buzz(Haptic.Thud);
-    if(Fx.On)Typewriter(label,title);
    }
    yield return null;
   }
