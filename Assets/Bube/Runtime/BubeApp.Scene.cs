@@ -113,17 +113,5 @@ public sealed partial class BubeApp {
   PlayerPrefs.SetInt(MeterKey,draftMeter?1:0);
   PlayerPrefs.SetInt(CrtPass.Key,draftCrt?1:0);SavePolishDraft();GetComponent<CrtPass>()?.Apply(draftCrt);
  }
- void ReadingOptions(VisualElement scroll,string icon) {
-  KarineUI.SettingsSection(scroll,icon,T("settings.textScale"),T("settings.textScale.hint"),true);
-  TextScaleSlider(scroll);
-  KarineUI.SettingsOption(scroll,T("settings.shapes"),T("settings.shapes.hint"),draftShapes,()=>{draftShapes=!draftShapes;RenderSettings();});
-  AccessOptions(scroll);
- }
- void SceneOptions(VisualElement scroll) {
-  HapticOptions(scroll);
-  KarineUI.SettingsOption(scroll,T("settings.ash"),T("settings.ash.hint"),draftAsh,()=>{draftAsh=!draftAsh;RenderSettings();});
-  KarineUI.SettingsOption(scroll,T("settings.crt"),T("settings.crt.hint"),draftCrt,()=>{draftCrt=!draftCrt;RenderSettings();});
-  if(DevMeterAllowed)KarineUI.SettingsOption(scroll,T("settings.devMeter"),T("settings.devMeter.hint"),draftMeter,()=>{draftMeter=!draftMeter;RenderSettings();});
- }
 }
 }

@@ -20,21 +20,20 @@ public sealed partial class BubeApp {
   AdGateway.Request(AdPlacement.MenuReturn,AdMoment.Menu,null);
  }
 
- // Ayarlar > Oynanış: lamba rengi. Kilitli renk ödüllü reklamla açılır; reklamsız
+ // Ayarlar > Görüntü: lamba rengi. Kilitli renk ödüllü reklamla açılır; reklamsız
  // oyuncuya hepsi açık. Ağ hazır değilse kilitli renk yalnız görünür, açılmaz.
- void LampOptions(VisualElement scroll) {
+ void LampOptions(VisualElement control) {
   for(int i=0;i<KarineTheme.Scene.LampTints.Length;i++) {
    int v=i;bool open=LampUnlocked(v);
-   string detail=!open?T("settings.lamp.locked"):v==0?T("settings.lamp.hint"):null;
-   var option=KarineUI.SettingsOption(scroll,T("settings.lamp."+v),detail,draftLamp==v,()=> {
+   var card=KarineUI.SettingCard(control,open?null:"lock",T("settings.lamp."+v),null,draftLamp==v,()=> {
     if(LampUnlocked(v)){draftLamp=v;RenderSettings();return;}
     AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
      if(!granted)return;
      PlayerPrefs.SetInt(LampUnlockKey+v,1);PlayerPrefs.Save();draftLamp=v;RenderSettings();
     });
    });
-   option.style.flexGrow=0;option.style.flexBasis=StyleKeyword.Auto;option.style.marginBottom=KarineTheme.SpaceSm;
-   if(!open && !AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))option.SetEnabled(false);
+   KarineUI.Quarter(card);
+   if(!open && !AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))card.SetEnabled(false);
   }
  }
  void LoadLampDraft()=>draftLamp=LampTint;

@@ -374,7 +374,7 @@ public sealed partial class BubeApp {
    KarineUI.OfficeHeaderAction(header,"binoculars",T("desk.view.clues"),()=>{selectedFileSection="evidence";FilePage();});
    KarineUI.OfficeHeaderAction(header,"document",T("desk.view.documents"),InboxPage);
    KarineUI.OfficeHeaderAction(header,"chart",T("menu.row.career"),StatisticsPage);
-   KarineUI.OfficeHeaderAction(header,"gear",T("menu.row.settings"),SettingsPage);
+   KarineUI.OfficeHeaderAction(header,"gear",T("menu.row.settings"),()=>SettingsFrom(Desk));
   }
 
 

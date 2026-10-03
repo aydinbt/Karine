@@ -42,17 +42,6 @@ public sealed partial class BubeApp {
  void LoadPolishDraft(){draftColor=CrtPass.ColorFilter;LoadLampDraft();}
  void ResetPolishDraft(){draftColor=0;draftLamp=0;}
  void SavePolishDraft(){PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);SaveLampDraft();}
- void ColorOptions(VisualElement scroll) {
-  // Alt alta: dört kart yan yana sığmıyor. Açıklama yalnız ilkinde, tekrar etmez.
-  for(int i=0;i<4;i++){int v=i;var o=KarineUI.SettingsOption(scroll,T("settings.color."+v),v==0?T("settings.color.hint"):null,draftColor==v,()=>{draftColor=v;RenderSettings();});o.style.flexGrow=0;o.style.flexBasis=StyleKeyword.Auto;o.style.marginBottom=KarineTheme.SpaceSm;}
- }
- void TextScaleSlider(VisualElement scroll) {
-  var slider=new Slider(Typography.MinScale,Typography.MaxScale) {name="TextScaleSlider",value=draftScaleValue};
-  slider.style.marginTop=KarineTheme.SpaceSm;slider.style.marginBottom=KarineTheme.SpaceMd;
-  var readout=KarineUI.Technical(scroll,Mathf.RoundToInt(draftScaleValue*100)+"%",KarineTheme.Office.SmallSize);readout.style.color=KarineTheme.Secondary;
-  slider.RegisterValueChangedCallback(e=>{draftScaleValue=Mathf.Round(e.newValue*20)/20f;readout.text=Mathf.RoundToInt(draftScaleValue*100)+"%";});
-  scroll.Add(slider);
- }
 
  // Masa: lamba, kablo, şehir pencereleri, takvim (yeri hatırlanır).
  void DeskPolish(VisualElement stage) {

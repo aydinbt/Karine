@@ -87,7 +87,7 @@ public sealed partial class BubeApp {
   MenuRow(side,"cine_skip",T(game.State.caseAccepted?"menu.row.continue":"menu.row.start"),game.State.caseAccepted?(Action)Desk:()=>MaybeWorldIntro(Desk),false);
   MenuRow(side,"folder",T("menu.row.chapters"),WorldPage,cases);
   MenuRow(side,"chart",T("menu.row.career"),StatisticsPage,!cases);
-  MenuRow(side,"gear",T("menu.row.settings"),SettingsPage,false);
+  MenuRow(side,"gear",T("menu.row.settings"),()=>SettingsFrom(cases?(Action)WorldPage:StatisticsPage),false);
   MenuRow(side,"document",T("menu.about"),AboutPage,false);
   // Kimlik kartı menünün hemen altında; sütunun dibine yapışmaz.
   KarineUI.AgentCard(side,Resources.Load<Texture2D>("Bube/Characters/bora_portrait") ?? Resources.Load<Texture2D>("Bube/Characters/bora"),T("menu.identity.name"),T("menu.identity.role"),

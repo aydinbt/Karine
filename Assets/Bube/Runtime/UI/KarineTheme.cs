@@ -233,6 +233,13 @@ public static class KarineTheme {
   // Sonuç halkası: uygun bulunan yeşil; yalnız bu grafikte kullanılır.
   public static readonly Color Supported=Hex("#3E8E4A");
  }
+ // Ayarlar modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_SETTINGS_2026-10.png).
+ public static class SettingsModal {
+  public const float Width=76f, Height=86f, VeilAlpha=.7f;
+  public const int TitleSize=40, SubSize=14, HeaderIcon=44, Close=48, TabWidth=250, TabHeight=78, TabIcon=34, TabTitleSize=20, TabHintSize=12;
+  public const int RowTitleSize=19, RowHintSize=13, RowGap=12, SwitchWidth=60, SwitchHeight=30, CardHeight=64, CardTitleSize=18;
+  public const int SliderWidth=360, TrackHeight=8, Knob=24, FooterHeight=62, FooterTitleSize=20;
+ }
  public static class CctvArchive {
   public const int TitleSize=19, TextSize=17, MetaSize=14, RowHeight=52, TimeWidth=150;
   public const int CameraRow=96, CameraTile=68, HeadingSize=21;

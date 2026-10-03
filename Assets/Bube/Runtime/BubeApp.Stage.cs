@@ -102,29 +102,16 @@ public sealed partial class BubeApp {
   PlayerPrefs.SetInt(CaptionsKey,draftCaptions?1:0);PlayerPrefs.SetInt(SpacingKey,draftSpacing?1:0);
   PlayerPrefs.SetInt(ContrastKey,draftContrast?1:0);PlayerPrefs.SetInt(OneHandKey,draftOneHand?1:0);Fx.SetStrength(draftStrength);
  }
- void AccessOptions(VisualElement scroll) {
-  KarineUI.SettingsOption(scroll,T("settings.captions"),T("settings.captions.hint"),draftCaptions,()=>{draftCaptions=!draftCaptions;RenderSettings();});
-  KarineUI.SettingsOption(scroll,T("settings.spacing"),T("settings.spacing.hint"),draftSpacing,()=>{draftSpacing=!draftSpacing;RenderSettings();});
-  KarineUI.SettingsOption(scroll,T("settings.contrast"),T("settings.contrast.hint"),draftContrast,()=>{draftContrast=!draftContrast;RenderSettings();});
-  KarineUI.SettingsOption(scroll,T("settings.oneHand"),T("settings.oneHand.hint"),draftOneHand,()=>{draftOneHand=!draftOneHand;RenderSettings();});
-  ColorOptions(scroll);
- }
- void HapticOptions(VisualElement scroll) {
-  var row=KarineUI.Row(scroll);row.style.alignItems=Align.Stretch;
-  for(int i=0;i<3;i++){int v=i;var o=KarineUI.SettingsOption(row,T("settings.hapticStrength."+v),T("settings.hapticStrength.hint"),draftStrength==v,()=>{draftStrength=v;RenderSettings();});if(v<2)o.style.marginRight=KarineTheme.SpaceMd;}
-  LampOptions(scroll);
-  if(DevMeterAllowed)Button(scroll,T("settings.devLab"),DevLab);
- }
 
  // Efekt laboratuvarı (yalnız geliştirme derlemesi): her efekt tek dokunuşla
  // denenir; "Konum" görüşme odasını açıp nesneleri sürüklenebilir yapar.
  void DevLab() {
-  Back(SettingsPage);
+  Back(()=>{Home();SettingsPage();});
   root.Clear();root.style.backgroundColor=KarineTheme.GlassDeep;
   var body=new VisualElement();body.style.flexGrow=1;body.style.paddingLeft=24;body.style.paddingRight=24;body.style.paddingTop=16;root.Add(body);
   var header=KarineUI.Row(body);header.style.justifyContent=Justify.SpaceBetween;
   KarineUI.Technical(header,T("settings.devLab"),KarineTheme.Office.TitleSize).style.color=KarineTheme.Primary;
-  KarineUI.IconButton(header,"close",SettingsPage,T("offer.back"));
+  KarineUI.IconButton(header,"close",()=>{Home();SettingsPage();},T("offer.back"));
   var grid=new VisualElement();grid.style.flexDirection=FlexDirection.Row;grid.style.flexWrap=Wrap.Wrap;body.Add(grid);
   var stage=new VisualElement();stage.style.flexGrow=1;stage.style.marginTop=12;stage.style.backgroundColor=KarineTheme.Glass;stage.style.overflow=Overflow.Hidden;body.Add(stage);
   var art=new[]{Resources.Load<Texture2D>("Bube/Case001Building"),Resources.Load<Texture2D>("Bube/InterviewRoom")}.Where(t=>t!=null).ToArray();

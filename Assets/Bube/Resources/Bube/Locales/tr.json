@@ -2801,14 +2801,6 @@
    "value": "Oyun deneyimi"
   },
   {
-   "key": "settings.tab.music",
-   "value": "Müzik"
-  },
-  {
-   "key": "settings.tab.music.hint",
-   "value": "Ses ayarları"
-  },
-  {
    "key": "settings.tab.play",
    "value": "Oynanış"
   },
@@ -3319,6 +3311,50 @@
   {
    "key": "ads.skipWait",
    "value": "Reklam izle, beklemeden al"
+  },
+  {
+   "key": "settings.tab.sound",
+   "value": "Ses"
+  },
+  {
+   "key": "settings.tab.sound.hint",
+   "value": "Müzik ve efektler"
+  },
+  {
+   "key": "settings.tab.display",
+   "value": "Görüntü"
+  },
+  {
+   "key": "settings.tab.display.hint",
+   "value": "Efekt ve ekran"
+  },
+  {
+   "key": "settings.tab.access",
+   "value": "Erişilebilirlik"
+  },
+  {
+   "key": "settings.tab.access.hint",
+   "value": "Okuma ve kontrol"
+  },
+  {
+   "key": "settings.colorFilter",
+   "value": "Renk filtresi"
+  },
+  {
+   "key": "settings.lampTint",
+   "value": "Lamba rengi"
+  },
+  {
+   "key": "settings.hapticPower",
+   "value": "Titreşim gücü"
+  },
+  {
+   "key": "settings.career",
+   "value": "Kariyer"
+  },
+  {
+   "key": "settings.career.hint",
+   "value": "Kayıtlı kariyeri silip baştan başlar."
   }
  ]
 }

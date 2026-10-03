@@ -1,84 +1,117 @@
 using System;
-using System.Collections;
-using System.IO;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.Video;
 using UnityEngine.UIElements;
 
 namespace Bube {
-// Ayarlar ekranı. Bu dosya `BubeApp`in bir parçasıdır.
+// Ayarlar modalı. Açıldığı ekranın üstüne biner; kapanınca o ekranda kalınır.
+// Beş kategori (Genel, Ses, Görüntü, Erişilebilirlik, Oynanış); her değişiklik
+// taslakta tutulur ve yalnız Kaydet ile yazılır. Bu dosya `BubeApp`in parçasıdır.
 public sealed partial class BubeApp {
  int settingsTab;
  bool draftInstant,draftReduced,draftHaptics,draftShapes,draftCrt,draftAsh,draftMeter;float draftScaleValue=1f;int draftFps;FxLevel draftFx;
  SoundLevel draftMusic,draftSfx;
- void SettingsPage() {
+ Action settingsOpener,settingsEscape;
+
+ void SettingsPage()=>SettingsFrom(Home);
+ void SettingsFrom(Action opener) {
+  settingsOpener=opener;settingsEscape=escapeBack;
   settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();
   RenderSettings();
  }
+ void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;}
+
+ static readonly string[] SettingsTabs={"general","sound","display","access","play"};
+ static readonly string[] SettingsIcons={"gear","music","binoculars","info","gamepad"};
+
  void RenderSettings() {
-  Home();Back(Home);
-  VisualElement navigation,body;KarineUI.SettingsShell(root,out navigation,out body);
-  var tabs=new[]{"general","music","play"};
-  var icons=new[]{KarineUI.IconOr("chat","document"),KarineUI.IconOr("music","chart"),KarineUI.IconOr("gamepad","gear")};
-  for(int i=0;i<tabs.Length;i++) {
+  // Yeniden çizimde kaydırma yeri korunur: bir anahtara basınca liste başa dönmez.
+  float offset=root.Q<ScrollView>("SettingsBody")?.scrollOffset.y??0;
+  VisualElement tabs,body,footer;
+  KarineUI.SettingsModal(root,T("menu.settings"),T("settings.subtitle"),CloseSettings,out tabs,out body,out footer);
+  Back(CloseSettings);
+  for(int i=0;i<SettingsTabs.Length;i++) {
    int index=i;
-   var tab=KarineUI.SettingsChoice(navigation,T("settings.tab."+tabs[i]),T("settings.tab."+tabs[i]+".hint"),settingsTab==i,()=>{settingsTab=index;RenderSettings();},icons[i]);
-   tab.style.flexGrow=0;tab.style.flexBasis=StyleKeyword.Auto;tab.style.minHeight=KarineTheme.Settings.TabHeight;tab.style.marginBottom=KarineTheme.SpaceMd;
+   KarineUI.SettingsTab(tabs,KarineUI.IconOr(SettingsIcons[i],"gear"),T("settings.tab."+SettingsTabs[i]),T("settings.tab."+SettingsTabs[i]+".hint"),settingsTab==i,()=>{settingsTab=index;RenderSettings();});
   }
-  var header=KarineUI.Row(body);header.style.flexShrink=0;KarineUI.Icon(header,"gear",KarineTheme.Primary,KarineTheme.TouchTarget);
-  var headings=new VisualElement();headings.style.flexGrow=1;headings.style.marginLeft=KarineTheme.SpaceLg;header.Add(headings);
-  KarineUI.Title(headings,T("menu.settings"),KarineTheme.Settings.HeadingSize).style.marginBottom=0;
-  var sub=KarineUI.Body_(headings,T("settings.subtitle"),KarineTheme.CaseBrowser.TextSize);sub.style.color=KarineTheme.Secondary;
-  KarineUI.IconButton(header,"close",Home,T("offer.back"));KarineUI.Rule(body);
-  var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;body.Add(scroll);
-  string chat=KarineUI.IconOr("chat","document"),music=KarineUI.IconOr("music","chart");
-  if(settingsTab==0) {
-   KarineUI.SettingsSection(scroll,chat,T("settings.textSpeed"),T("settings.text.hint"),false);
-   var choices=KarineUI.Row(scroll);choices.style.alignItems=Align.Stretch;
-   KarineUI.SettingsOption(choices,T("settings.instant"),T("settings.instant.hint"),draftInstant,()=>{draftInstant=true;RenderSettings();},chat).style.marginRight=KarineTheme.SpaceMd;
-   KarineUI.SettingsOption(choices,T("settings.normal"),T("settings.normal.hint"),!draftInstant,()=>{draftInstant=false;RenderSettings();},chat);
-   KarineUI.SettingsSection(scroll,music,T("settings.music"),T("settings.music.hint"),true);
-   SoundRow(scroll,draftMusic,level=>draftMusic=level);
-   ReadingOptions(scroll,chat);
-  } else if(settingsTab==1) {
-   KarineUI.SettingsSection(scroll,music,T("settings.music"),T("settings.music.hint"),false);SoundRow(scroll,draftMusic,level=>draftMusic=level);
-   KarineUI.SettingsSection(scroll,music,T("settings.sfx"),T("settings.sfx.hint"),true);SoundRow(scroll,draftSfx,level=>draftSfx=level);
-  } else {
-   KarineUI.SettingsOption(scroll,T("settings.motion"),T("settings.motion.hint"),draftReduced,()=>{draftReduced=!draftReduced;RenderSettings();});
-   KarineUI.SettingsSection(scroll,"gear",T("settings.fps"),T("settings.fps.hint"),true);var fps=KarineUI.Row(scroll);fps.style.alignItems=Align.Stretch;
-   foreach(int f in FrameRate.Options){int v=f;var o=KarineUI.SettingsOption(fps,T("settings.fps."+v),T("settings.fps."+v+".hint"),draftFps==v,()=>{draftFps=v;RenderSettings();});if(v!=FrameRate.Options[FrameRate.Options.Length-1])o.style.marginRight=KarineTheme.SpaceMd;}
-   // Efekt yoğunluğu: gren, yağmur, far, parazit. "Hareketi azalt" açıkken hepsi kapalıdır.
-   KarineUI.SettingsSection(scroll,"gear",T("settings.fx"),T("settings.fx.hint"),true);var fx=KarineUI.Row(scroll);fx.style.alignItems=Align.Stretch;
-   foreach(FxLevel l in new[]{FxLevel.Off,FxLevel.Light,FxLevel.Full}){var v=l;var o=KarineUI.SettingsOption(fx,T("settings.fx."+v.ToString().ToLowerInvariant()),T("settings.fx."+v.ToString().ToLowerInvariant()+".hint"),draftFx==v,()=>{draftFx=v;RenderSettings();});if(v!=FxLevel.Full)o.style.marginRight=KarineTheme.SpaceMd;}
-   KarineUI.FxPreview(scroll,draftFx);
-   KarineUI.SettingsOption(scroll,T("settings.haptics"),T("settings.haptics.hint"),draftHaptics,()=>{draftHaptics=!draftHaptics;RenderSettings();});
-   SceneOptions(scroll);
-   KarineUI.SettingsSection(scroll,"info",T("settings.ads"),T("settings.ads.status."+(AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown")),true);
-   Button(scroll,T("settings.ads.change"),AskForAdConsent);
-   KarineUI.Rule(scroll);Button(scroll,T("menu.row.newCareer"),()=>{confirmRestart=true;RestartPage();});
+  switch(settingsTab) {
+   case 0: GeneralSettings(body);break;
+   case 1: SoundSettingsTab(body);break;
+   case 2: DisplaySettings(body);break;
+   case 3: AccessSettings(body);break;
+   default: PlaySettings(body);break;
   }
-  KarineUI.Rule(body);var footer=KarineUI.Row(body);footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;
-  // Kaydırma alanı üst ve alt şeridin altına taşmaz.
-  scroll.contentViewport.style.overflow=Overflow.Hidden;scroll.style.overflow=Overflow.Hidden;
-  KarineUI.SettingsAction(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;draftFx=FxLevel.Full;draftHaptics=true;ResetSceneDraft();RenderSettings();});
-  KarineUI.SettingsAction(footer,KarineUI.IconOr("check","nav_next"),T("settings.save"),T("settings.save.hint"),true,()=>{
-   PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);
-   instantText=draftInstant;PlayerPrefs.SetInt("bube.instantText",instantText?1:0);
-   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);FrameRate.Set(draftFps);Fx.Set(draftFx,draftHaptics);SaveSceneDraft();PlayerPrefs.Save();ApplySound();Home();
-  });
+  var scroll=root.Q<ScrollView>("SettingsBody");
+  if(offset>0){EventCallback<GeometryChangedEvent> restore=null;restore=e=>{scroll.UnregisterCallback(restore);scroll.scrollOffset=new Vector2(0,offset);};scroll.RegisterCallback(restore);}
+  KarineUI.SettingsFooterButton(footer,KarineUI.IconOr("refresh","nav_prev"),T("settings.reset"),T("settings.reset.hint"),false,()=>{
+   draftReduced=false;draftInstant=false;draftMusic=SoundLevel.Half;draftSfx=SoundLevel.Full;draftFps=60;draftFx=FxLevel.Full;draftHaptics=true;ResetSceneDraft();RenderSettings();});
+  KarineUI.SettingsFooterButton(footer,KarineUI.IconOr("check","nav_next"),T("settings.save"),T("settings.save.hint"),true,SaveSettings);
  }
- void SoundRow(VisualElement card,SoundLevel current,Action<SoundLevel> onPick) {
-  var row=KarineUI.Row(card);row.style.alignItems=Align.Stretch;
-  var levels=SoundSettings.Levels.Reverse().ToArray();
-  for(int i=0;i<levels.Length;i++) {
-   var captured=levels[i];var key=SoundSettings.LabelKey(captured);
-   int bars=captured==SoundLevel.Off?0:Mathf.CeilToInt(4f*(int)captured/100f);
-   var choice=KarineUI.SettingsOption(row,key!=null?T(key):"%"+(int)captured,null,current==captured,()=>{onPick(captured);RenderSettings();},null,bars);
-   choice.style.minWidth=KarineTheme.TouchTarget*2;if(i<levels.Length-1)choice.style.marginRight=KarineTheme.SpaceSm;
+
+ void SaveSettings() {
+  // Yerleşimi değiştiren ayarlar açan ekranın yeniden çizilmesini ister.
+  bool relayout=!Mathf.Approximately(draftScaleValue,Typography.Scale)||draftShapes!=Shapes||draftSpacing!=(PlayerPrefs.GetInt(SpacingKey,0)==1)||
+   draftContrast!=(PlayerPrefs.GetInt(ContrastKey,0)==1)||draftOneHand!=(PlayerPrefs.GetInt(OneHandKey,0)==1);
+  PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);
+  instantText=draftInstant;PlayerPrefs.SetInt("bube.instantText",instantText?1:0);
+  SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);FrameRate.Set(draftFps);Fx.Set(draftFx,draftHaptics);SaveSceneDraft();PlayerPrefs.Save();ApplySound();
+  CloseSettings();
+  if(relayout)settingsOpener?.Invoke();
+ }
+
+ // Satır yardımcıları: anahtar, seçim kartları, kaydırıcı.
+ void SwitchRow(VisualElement body,string key,bool on,Action flip)=>
+  KarineUI.SettingSwitch(KarineUI.SettingRow(body,T(key),T(key+".hint")),on,()=>{flip();RenderSettings();});
+ VisualElement CardRow(VisualElement body,string key,string hint=null)=>KarineUI.SettingRow(body,T(key),hint??T(key+".hint"),true);
+ void Choice(VisualElement row,string title,string detail,bool selected,Action pick,bool quarter=false) {
+  var card=KarineUI.SettingCard(row,null,title,detail,selected,()=>{pick();RenderSettings();});if(quarter)KarineUI.Quarter(card);
+ }
+ void LevelRow(VisualElement body,string key,SoundLevel level,Action<SoundLevel> set)=>
+  KarineUI.SettingSlider(KarineUI.SettingRow(body,T(key),T(key+".hint")),(int)level/100f,4,v=>"%"+Mathf.RoundToInt(v*100),v=>set((SoundLevel)(Mathf.RoundToInt(v*4)*25)));
+
+ void GeneralSettings(VisualElement body) {
+  var speed=CardRow(body,"settings.textSpeed","settings.text.hint");
+  Choice(speed,T("settings.instant"),T("settings.instant.hint"),draftInstant,()=>draftInstant=true);
+  Choice(speed,T("settings.normal"),T("settings.normal.hint"),!draftInstant,()=>draftInstant=false);
+  float min=Typography.MinScale,max=Typography.MaxScale;
+  KarineUI.SettingSlider(KarineUI.SettingRow(body,T("settings.textScale"),T("settings.textScale.hint")),(draftScaleValue-min)/(max-min),
+   Mathf.RoundToInt((max-min)/.05f),v=>Mathf.RoundToInt((min+v*(max-min))*100)+"%",v=>draftScaleValue=Mathf.Round((min+v*(max-min))*20)/20f);
+ }
+ void SoundSettingsTab(VisualElement body) {
+  LevelRow(body,"settings.music",draftMusic,l=>draftMusic=l);
+  LevelRow(body,"settings.sfx",draftSfx,l=>draftSfx=l);
+ }
+ void DisplaySettings(VisualElement body) {
+  // Efekt yoğunluğu: gren, yağmur, far, parazit. "Hareketi azalt" açıkken hepsi kapalıdır.
+  var fx=CardRow(body,"settings.fx");
+  foreach(var level in new[]{FxLevel.Off,FxLevel.Light,FxLevel.Full}){var v=level;var id=v.ToString().ToLowerInvariant();Choice(fx,T("settings.fx."+id),T("settings.fx."+id+".hint"),draftFx==v,()=>draftFx=v);}
+  KarineUI.FxPreview(body,draftFx);
+  var fps=CardRow(body,"settings.fps");
+  foreach(int f in FrameRate.Options){int v=f;Choice(fps,T("settings.fps."+v),T("settings.fps."+v+".hint"),draftFps==v,()=>draftFps=v);}
+  SwitchRow(body,"settings.crt",draftCrt,()=>draftCrt=!draftCrt);
+  SwitchRow(body,"settings.ash",draftAsh,()=>draftAsh=!draftAsh);
+  var color=CardRow(body,"settings.colorFilter","settings.color.hint");
+  for(int i=0;i<4;i++){int v=i;Choice(color,T("settings.color."+v),null,draftColor==v,()=>draftColor=v,true);}
+  LampOptions(CardRow(body,"settings.lampTint","settings.lamp.hint"));
+ }
+ void AccessSettings(VisualElement body) {
+  SwitchRow(body,"settings.motion",draftReduced,()=>draftReduced=!draftReduced);
+  SwitchRow(body,"settings.captions",draftCaptions,()=>draftCaptions=!draftCaptions);
+  SwitchRow(body,"settings.spacing",draftSpacing,()=>draftSpacing=!draftSpacing);
+  SwitchRow(body,"settings.contrast",draftContrast,()=>draftContrast=!draftContrast);
+  SwitchRow(body,"settings.oneHand",draftOneHand,()=>draftOneHand=!draftOneHand);
+  SwitchRow(body,"settings.shapes",draftShapes,()=>draftShapes=!draftShapes);
+ }
+ void PlaySettings(VisualElement body) {
+  SwitchRow(body,"settings.haptics",draftHaptics,()=>draftHaptics=!draftHaptics);
+  if(draftHaptics){var strength=CardRow(body,"settings.hapticPower","settings.hapticStrength.hint");
+   for(int i=0;i<3;i++){int v=i;Choice(strength,T("settings.hapticStrength."+v),null,draftStrength==v,()=>draftStrength=v);}}
+  var consent=AdGateway.Consent==AdConsent.Granted?"granted":AdGateway.Consent==AdConsent.Denied?"denied":"unknown";
+  Button(KarineUI.SettingRow(body,T("settings.ads"),T("settings.ads.status."+consent)),T("settings.ads.change"),AskForAdConsent);
+  Button(KarineUI.SettingRow(body,T("settings.career"),T("settings.career.hint")),T("menu.row.newCareer"),()=>{CloseSettings();confirmRestart=true;RestartPage();});
+  if(DevMeterAllowed) {
+   SwitchRow(body,"settings.devMeter",draftMeter,()=>draftMeter=!draftMeter);
+   Button(KarineUI.SettingRow(body,T("settings.devLab"),null),T("settings.devLab"),()=>{CloseSettings();DevLab();});
   }
  }
 }
