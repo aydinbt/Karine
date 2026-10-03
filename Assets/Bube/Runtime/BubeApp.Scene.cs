@@ -25,8 +25,7 @@ public sealed partial class BubeApp {
    if(pressedScreen==null)pressedScreen=deskStage;
    else if(deskStage!=pressedScreen || pressedScreen.panel==null) {
     string prop=pendingProp;pendingProp=null;pressedScreen=null;
-    if(prop=="Evidence")KarineUI.DrawerRise(root);
-    else if(prop!="Phone")KarineUI.ZoomFrom(root,PropBox(prop));
+    if(prop!="Phone")SceneVeil();
    }
   }
   DevMeter();

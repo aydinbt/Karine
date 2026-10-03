@@ -166,8 +166,7 @@ public sealed partial class BubeApp {
   var paper=KarineUI.DossierSheet(root);
   paper.userData=selectedFileSection;
   KarineUI.PaperWear(paper,current!=null?current.id:selectedFileSection);
-  if(openingFile){KarineMotion.Paper(paper);KarineUI.Flex(paper);KarineUI.MorphFrom(root,KarineUI.LastPressed);}
-  else if(switchingSection){KarineMotion.Page(paper);KarineUI.PageTurn(paper);}
+  if(openingFile || switchingSection)SceneVeil();
   EchoLeaving(current);
   var top=KarineUI.DossierHeader(root,T("back.desk"),T("file.department"),Desk);
   var fileInk=KarineTheme.Paper.Ink;var fileMuted=KarineTheme.Paper.Faded;
