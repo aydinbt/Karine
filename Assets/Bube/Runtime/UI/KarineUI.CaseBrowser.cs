@@ -9,7 +9,7 @@ public static partial class KarineUI {
   string[] ids={"tr","uk","de","jp","fr","us","it","es","ca","au"};
   int index=Array.IndexOf(ids,id);
   var art=custom??Resources.Load<Texture2D>("Bube/Art/CountryPostcards");
-  var image=new Image {image=art,scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+  var image=new Image {image=art,scaleMode=custom!=null?ScaleMode.ScaleAndCrop:ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
   if(custom==null && index>=0) image.uv=new Rect((index%5)/5f,index<5?.5f:0f,.2f,.5f);
   image.style.position=Position.Absolute;
   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
