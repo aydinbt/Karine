@@ -236,31 +236,28 @@ public static partial class KarineUI {
  // renk kaymasıdır — ölçek/zıplama yok.
  public static void Paint(Button button, KarineButtonKind kind, bool enabled) {
   button.SetEnabled(enabled);
+  // Tasarım sistemi panosu (3 Ekim 2026): düz yüzeyler. Ana = dolu kehribar, koyu yazı;
+  // ikincil = koyu cam, ince gri kenar; ghost = zeminsiz, açık kenar; kilitli = sönük gri.
   Color fill, text, edge;
   switch (kind) {
    case KarineButtonKind.Primary:
-    fill = KarineTheme.Primary; text = KarineTheme.OnPrimary; edge = KarineTheme.Accent; break;
+    fill = KarineTheme.Accent; text = KarineTheme.OnPrimary; edge = KarineTheme.Accent; break;
    case KarineButtonKind.Danger:
-    fill = KarineTheme.Background; text = KarineTheme.Danger; edge = KarineTheme.Danger; break;
+    fill = KarineTheme.Panel; text = KarineTheme.Danger; edge = KarineTheme.Danger; break;
    case KarineButtonKind.Ghost:
-    fill = Color.clear; text = KarineTheme.Secondary; edge = Color.clear; break;
+    fill = Color.clear; text = KarineTheme.Primary; edge = KarineTheme.Alpha(KarineTheme.Primary, .55f); break;
    default:
-    fill = KarineTheme.Background; text = KarineTheme.Primary; edge = KarineTheme.Primary; break;
+    fill = KarineTheme.Panel; text = KarineTheme.Primary; edge = KarineTheme.Border; break;
   }
-  if (!enabled) { fill = KarineTheme.Disabled; text = KarineTheme.Panel; edge = KarineTheme.Disabled; }
+  if (!enabled) { fill = KarineTheme.Panel2; text = KarineTheme.Alpha(KarineTheme.Secondary, .6f); edge = KarineTheme.Border; }
+  Unskin(button, fill);
   button.style.color = text;
-  // Yeni görünüm (2 Ekim 2026): düğmeler dokulu, gerdirilebilir görseldir —
-  // koyu deri/pirinç, seçili/ana için krem kâğıt/pirinç. Ghost düz kalır.
-  if (kind != KarineButtonKind.Ghost && Skin(button, kind == KarineButtonKind.Primary && enabled ? "btn_primary" : "btn_dark")) {
-   if (!enabled) button.style.unityBackgroundImageTintColor = KarineTheme.Button.DisabledTint;
-   if (enabled) Pressable(button);
-   return;
-  }
+  ApplyFont(button, BodyBold);
   button.style.backgroundColor = fill;
-  Border(button, kind == KarineButtonKind.Ghost ? 0 : KarineTheme.BorderWidth, edge);
+  Border(button, KarineTheme.BorderWidth, edge);
   if (!enabled) return;
   var normal = fill;
-  var pressed = Color.Lerp(fill, KarineTheme.Accent, .25f);
+  var pressed = kind == KarineButtonKind.Primary ? Color.Lerp(fill, KarineTheme.Background, .3f) : Color.Lerp(fill, KarineTheme.Accent, .25f);
   button.RegisterCallback<PointerDownEvent>(_ => button.style.backgroundColor = pressed);
   button.RegisterCallback<PointerUpEvent>(_ => button.style.backgroundColor = normal);
   button.RegisterCallback<PointerLeaveEvent>(_ => button.style.backgroundColor = normal);

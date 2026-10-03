@@ -1,3 +1,5 @@
+> **3 Ekim 2026:** Palet ve düğme stili `Docs/Reference/UI_DESIGN_SYSTEM_2026-10.png` panosuyla değişti; ayrıntı `DESIGN_AMENDMENTS.md`. Aşağıdaki eski renk değerleri yerine `KarineTheme` geçerlidir.
+
 # KARINE — UI/UX Kit (bağlayıcı tasarım sistemi)
 
 **Referans görsel:** [Reference/UI_KIT.png](Reference/UI_KIT.png) — kullanıcı tarafından 25 Eylül 2026'da verildi.

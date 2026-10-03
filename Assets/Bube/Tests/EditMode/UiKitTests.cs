@@ -24,40 +24,42 @@ public sealed class UiKitTests {
 
  [Test]
  public void Palette_MatchesTheKitSwatches() {
-  Assert.AreEqual("#0B0F14", KarineTheme.BackgroundHex);
-  Assert.AreEqual("#1B2228", KarineTheme.PanelHex);
-  Assert.AreEqual("#2F3A3F", KarineTheme.Panel2Hex);
-  Assert.AreEqual("#E8DCC4", KarineTheme.PrimaryHex);
-  Assert.AreEqual("#C9B38C", KarineTheme.SecondaryHex);
-  Assert.AreEqual("#8F7A5A", KarineTheme.AccentHex);
-  Assert.AreEqual("#29D3C3", KarineTheme.ActiveHex);
-  Assert.AreEqual("#E94F4F", KarineTheme.DangerHex);
+  Assert.AreEqual("#0E0F11", KarineTheme.BackgroundHex);
+  Assert.AreEqual("#1A1D22", KarineTheme.PanelHex);
+  Assert.AreEqual("#252A32", KarineTheme.Panel2Hex);
+  Assert.AreEqual("#E6E1D3", KarineTheme.PrimaryHex);
+  Assert.AreEqual("#9AA0A6", KarineTheme.SecondaryHex);
+  Assert.AreEqual("#D99A2B", KarineTheme.AccentHex);
+  Assert.AreEqual("#D99A2B", KarineTheme.ActiveHex);
+  Assert.AreEqual("#C64040", KarineTheme.DangerHex);
  }
 
  [Test]
  public void Hex_ThatCannotBeParsed_IsLoudNotBlack() =>
   Assert.AreEqual(Color.magenta, KarineTheme.Hex("kirik-deger"));
 
- // PRIMARY = krem zemin + koyu yazı. Kit'in tek dominant eylem kuralı buna dayanır.
+ // PRIMARY = dolu kehribar + koyu yazı (3 Ekim 2026 panosu). Tek dominant eylem kuralı buna dayanır.
  [Test]
- public void PrimaryButton_IsCreamWithDarkText() {
+ public void PrimaryButton_IsAmberWithDarkText() {
   var button = KarineUI.Button_(Host(), "DEVAM ET", null, KarineButtonKind.Primary);
-  Assert.AreEqual("btn_primary", Skin(button));
+  Assert.IsNull(Skin(button));
+  Assert.AreEqual(KarineTheme.Accent, button.style.backgroundColor.value);
   Assert.AreEqual(KarineTheme.OnPrimary, button.style.color.value);
  }
 
- // SECONDARY = koyu zemin + krem kenar + krem yazı.
+ // SECONDARY = koyu cam + ince gri kenar + açık yazı.
  [Test]
- public void SecondaryButton_IsDarkWithCreamBorder() {
+ public void SecondaryButton_IsDarkGlassWithGreyBorder() {
   var button = KarineUI.Button_(Host(), "GERİ", null, KarineButtonKind.Secondary);
-  Assert.AreEqual("btn_dark", Skin(button));
+  Assert.IsNull(Skin(button));
+  Assert.AreEqual(KarineTheme.Border, button.style.borderTopColor.value);
   Assert.AreEqual(KarineTheme.Primary, button.style.color.value);
  }
 
  [Test]
- public void GhostButton_HasNoBorder() {
+ public void GhostButton_HasNoFill() {
   var button = KarineUI.Button_(Host(), "GEÇ", null, KarineButtonKind.Ghost);
-  Assert.AreEqual(0, button.style.borderTopWidth.value);
+  Assert.AreEqual(Color.clear, button.style.backgroundColor.value);
  }
 
  [Test]
@@ -72,8 +74,7 @@ public sealed class UiKitTests {
  public void DisabledButton_IsFlatAndNotClickable() {
   var button = KarineUI.Button_(Host(), "DEVAM ET", null, KarineButtonKind.Primary, false);
   Assert.IsFalse(button.enabledSelf);
-  Assert.AreEqual("btn_dark", Skin(button), "Devre dışı düğme ana görseli taşımaz.");
-  Assert.AreEqual(KarineTheme.Button.DisabledTint, button.style.unityBackgroundImageTintColor.value);
+  Assert.AreEqual(KarineTheme.Panel2, button.style.backgroundColor.value, "Devre dışı düğme kehribar taşımaz.");
  }
 
  // Kit: yaklaşık 48–56 dp. Dokunma hedefi hiçbir bileşende bunun altına inmez.
@@ -117,8 +118,8 @@ public sealed class UiKitTests {
   Assert.AreEqual(2, buttons.Count, "Modal'da tek ikincil, tek birincil eylem olur.");
   Assert.AreEqual("VAZGEÇ", buttons[0].text);
   Assert.AreEqual("ONAYLA", buttons[1].text);
-  Assert.AreEqual("btn_primary", Skin(buttons[1]));
-  Assert.AreEqual("btn_dark", Skin(buttons[0]));
+  Assert.AreEqual(KarineTheme.Accent, buttons[1].style.backgroundColor.value);
+  Assert.AreEqual(KarineTheme.Panel, buttons[0].style.backgroundColor.value);
  }
 
  [Test]

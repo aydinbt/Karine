@@ -977,3 +977,11 @@ Ayarlar → Oynanış sekmesine sabit kare hızı seçimi eklendi: 30 / 60 / 120
 ## 2 Ekim 2026 — Reklam ağı AdMob, banner yok
 
 **Kullanıcı:** "Banner yok reklam ağı ne varsa olur." Ağ olarak AdMob seçildi: herkese açık test kimlikleriyle hesap açılmadan denenebiliyor, AB izin formu (UMP) hazır. Banner hiçbir ekranda yok.
+
+## 3 Ekim 2026 — Arayüz baştan: tasarım sistemi panosu
+
+Kullanıcı ChatGPT ile ürettiği panoyu (`Docs/Reference/UI_DESIGN_SYSTEM_2026-10.png`) yeni kanon olarak verdi; ekranlar sırayla bu dile taşınacak.
+- Palet: zemin `#0E0F11`, cam `#1A1D22`, yükseltilmiş panel `#252A32`, kenar `#3A4048` (yeni `Border` tokenı), birincil metin `#E6E1D3`, ikincil metin `#9AA0A6`, vurgu kehribar `#D99A2B`, tehlike `#C64040`; kâğıt `#E8D9B7`, manila `#C9A06B`.
+- Turkuaz kalktı; etkin/dijital vurgu da kehribar.
+- Düğmeler dokulu görsel değil, düz yüzey: ana = dolu kehribar + koyu yazı; ikincil = koyu cam + gri kenar; ghost = zeminsiz + açık kenar; kilitli = sönük gri.
+- Tipografi (dar, kalın başlık yazısı) ve simge seti henüz koda girmedi; ekranlarla birlikte gelecek.

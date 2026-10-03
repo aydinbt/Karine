@@ -104,15 +104,18 @@ public static class KarineTheme {
  }
 
 
- // --- Palet (kit görselindeki etiketli sekiz kutu) ---------------------------
- public const string BackgroundHex = "#0B0F14";
- public const string PanelHex      = "#1B2228";
- public const string Panel2Hex     = "#2F3A3F";
- public const string PrimaryHex    = "#E8DCC4";
- public const string SecondaryHex  = "#C9B38C";
- public const string AccentHex     = "#8F7A5A";
- public const string ActiveHex     = "#29D3C3";
- public const string DangerHex     = "#E94F4F";
+ // --- Palet (3 Ekim 2026 tasarım sistemi panosu; Docs/Reference/UI_DESIGN_SYSTEM_2026-10.png) ---
+ // Turkuaz kalktı: vurgu ve etkin durum kehribar. Kenar çizgisi ayrı token.
+ public const string BorderHex     = "#3A4048";
+ public static readonly Color Border = Hex(BorderHex);
+ public const string BackgroundHex = "#0E0F11";
+ public const string PanelHex      = "#1A1D22";
+ public const string Panel2Hex     = "#252A32";
+ public const string PrimaryHex    = "#E6E1D3";
+ public const string SecondaryHex  = "#9AA0A6";
+ public const string AccentHex     = "#D99A2B";
+ public const string ActiveHex     = "#D99A2B";
+ public const string DangerHex     = "#C64040";
 
  public static readonly Color Background = Hex(BackgroundHex);
  public static readonly Color Panel      = Hex(PanelHex);
@@ -292,12 +295,12 @@ public static class KarineTheme {
  // HUD paletiyle boyanmaz — masadaki kâğıt kâğıt gibi görünür. Bu katman da
  // tek yerde tanımlıdır; ekranların içinde tekrar yazılmaz.
  public static class Paper {
-  public static readonly Color Sheet = Hex("#E8D9BA"); // kâğıdın kendisi
+  public static readonly Color Sheet = Hex("#E8D9B7"); // kâğıdın kendisi
   public static readonly Color Ink   = Hex("#212933"); // kâğıdın üstündeki yazı
   public static readonly Color Faded = Hex("#635C4F"); // ikincil satır, tarih
   public static readonly Color Stamp = Hex("#733A2E"); // mühür/arma kahvesi
   public static readonly Color Light = Hex("#FAEDD4"); // kâğıdın aydınlık yeri
-  public static readonly Color Tint  = Hex("#D1C2A6"); // kâğıdın üstündeki kart/şerit
+  public static readonly Color Tint  = Hex("#C9A06B"); // manila: kâğıdın üstündeki kart/şerit
   public static readonly Color Edge  = Hex("#9E927C"); // kâğıt üstü çizgi ve kenar
 
   // Kâğıdın altındaki fiziksel malzeme: dosya kabı, klasör sırtı, mukavva.
