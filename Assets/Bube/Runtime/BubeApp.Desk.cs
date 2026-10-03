@@ -472,6 +472,7 @@ public sealed partial class BubeApp {
 
  }
  void OpenTerminal() {
+  cctvFromDesk=true;
   var sources=game.Data.nodes.Where(n=>(n.kind=="cctv" || n.kind=="bps") && game.Available(n)).ToArray();
   Dial();
   if(sources.Length==0) {

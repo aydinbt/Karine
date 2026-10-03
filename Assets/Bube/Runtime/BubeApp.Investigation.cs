@@ -183,7 +183,7 @@ public sealed partial class BubeApp {
  void OpenSearchSource(SearchHit hit) {
   var source=game.Data.nodes.FirstOrDefault(n=>n.id==hit.nodeId);
   if(source==null)return;
-  if(source.kind=="cctv")CctvScreen(source,hit.eventId);
+  if(source.kind=="cctv"){cctvFromDesk=false;CctvScreen(source,hit.eventId);}
   else if(source.kind=="bps")ReadPage(source);
   else {
    selectedSearchTurn=hit.turnReference;

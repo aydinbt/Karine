@@ -229,13 +229,16 @@ public sealed partial class BubeApp {
   cctvPlayer.Prepare();
  }
  // 3 Ekim 2026 maketi: dosya ekranlarının üst şeridi, solda kamera listesi, sağda monitör dökümü.
+ // Masadaki tabletten açılırsa masaya, dosyadan (Dosyada Gezin) açılırsa dosyaya dönülür.
+ bool cctvFromDesk;
  void CctvScreen(Node node,string focusEventId=null) {
   StopCctvVideo();
-  Back(FilePage); // görüntüden dosyaya dönülür
+  Action leave=cctvFromDesk?(Action)Desk:FilePage;
+  Back(()=>{StopCctvVideo();leave();});
   showingInterviewList=false;
   Desk();
   KarineUI.InboxScene(root);
-  KarineUI.DossierBar(root,T("back.file"),T(game.Data.titleKey),T("file.unit"),()=>{StopCctvVideo();FilePage();},out var tools);
+  KarineUI.DossierBar(root,T(cctvFromDesk?"back.desk":"back.file"),T(game.Data.titleKey),T("file.unit"),()=>{StopCctvVideo();leave();},out var tools);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>{StopCctvVideo();SettingsFrom(()=>CctvScreen(node,focusEventId));});
   var cameraList=KarineUI.CctvCameras(root,T("cctv.cameras"));
   foreach(var source in game.Data.nodes.Where(n=>(n.kind=="cctv"||n.kind=="bps")&&(n==node||game.Available(n)))) {
