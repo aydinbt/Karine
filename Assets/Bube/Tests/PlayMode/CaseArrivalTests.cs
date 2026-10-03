@@ -113,7 +113,7 @@ public sealed class CaseArrivalTests {
    null, new[] { typeof(string), typeof(string) }, null)
    .Invoke(app, new object[] { "assignment:" + data.nextCaseId, "all" });
   yield return null;
-  var open = Root.Query<Button>().ToList().FirstOrDefault(b => b.text == Text("next.assignment.open"));
+  var open = Root.Query<Button>("InboxAction").ToList().FirstOrDefault(b => b.Query<Label>().ToList().Any(l => l.text == Text("next.assignment.open").ToUpper(new System.Globalization.CultureInfo("tr-TR"))));
   Assert.IsNotNull(open, "Tepside \"Dosyayı aç\" düğmesi yok.");
   using (var click = new NavigationSubmitEvent()) { click.target = open; open.SendEvent(click); }
   for (int frame = 0; frame < 30; frame++) yield return null;

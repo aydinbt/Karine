@@ -68,12 +68,15 @@ public static partial class KarineUI {
   parent.Add(desk);
   var veil=new VisualElement {pickingMode=PickingMode.Ignore};veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.backgroundColor=KarineTheme.Veil(I.SceneVeil);desk.Add(veil);
-  paper=new VisualElement {name="InboxPaper"};paper.style.flexGrow=1;paper.style.minHeight=0;paper.style.rotate=new Rotate(I.PaperTilt);
-  paper.style.backgroundImage=new StyleBackground(Resources.Load<Texture2D>("Bube/UI/paper_sheet"));
-  paper.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(Length.Percent(100),Length.Percent(100)));
-  // Kâğıt görselinin kenarları yırtık: yazı yüzdeyle içeride tutulur, eğim yok (eğik yazı bulanıklaşıyordu).
-  paper.style.paddingLeft=Length.Percent(I.PaperInsetX);paper.style.paddingRight=Length.Percent(I.PaperInsetX);
-  paper.style.paddingTop=Length.Percent(I.PaperInsetY);paper.style.paddingBottom=Length.Percent(I.PaperInsetY);desk.Add(paper);
+  // Düz krem kâğıt: dokulu görsel yazıyı okutmuyordu. Kenarı ince, altında gölge.
+  paper=new VisualElement {name="InboxPaper"};paper.style.flexGrow=1;paper.style.minHeight=0;
+  paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
+  paper.style.paddingLeft=KarineTheme.SpaceXl+KarineTheme.SpaceMd;paper.style.paddingRight=KarineTheme.SpaceXl;
+  paper.style.paddingTop=KarineTheme.SpaceLg;paper.style.paddingBottom=KarineTheme.SpaceSm;
+  var shadow=new VisualElement {pickingMode=PickingMode.Ignore};shadow.style.position=Position.Absolute;
+  shadow.style.left=KarineTheme.SpaceMd+6;shadow.style.right=KarineTheme.SpaceMd-6;shadow.style.top=KarineTheme.SpaceLg+8;shadow.style.bottom=KarineTheme.SpaceSm-8;
+  shadow.style.backgroundColor=KarineTheme.Veil(.45f);Round(shadow,KarineTheme.Radius);desk.Add(shadow);
+  desk.Add(paper);
   var clip=Resources.Load<Texture2D>("Bube/UI/paperclip");
   if(clip!=null) {
    var pin=new Image {name="InboxClip",image=clip,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
@@ -81,6 +84,32 @@ public static partial class KarineUI {
    pin.style.height=KarineTheme.Inbox.ClipWidth*clip.height/(float)clip.width;pin.style.left=Length.Percent(8);pin.style.top=-KarineTheme.SpaceLg;paper.Add(pin);
   }
   return desk;
+ }
+
+ // Kaydırılan yazının penceresi; geçişler bunun üstüne oturur.
+ public static VisualElement PaperWindow(VisualElement paper) {
+  var window=new VisualElement {name="InboxPaperWindow"};window.style.flexGrow=1;window.style.minHeight=0;window.style.overflow=Overflow.Hidden;
+  paper.Add(window);return window;
+ }
+
+ // Üstte ve altta yazının kâğıt rengine eriyerek kaybolduğu ince şerit: kesik satır görünmez.
+ public static void PaperFades(VisualElement window) {
+  Fade(window,true);Fade(window,false);
+ }
+ static Texture2D fadeTexture;
+ static void Fade(VisualElement window,bool top) {
+  if(fadeTexture==null) {
+   fadeTexture=new Texture2D(1,32,TextureFormat.RGBA32,false){wrapMode=TextureWrapMode.Clamp};
+   var sheet=KarineTheme.Paper.Sheet;
+   for(int y=0;y<32;y++)fadeTexture.SetPixel(0,y,new Color(sheet.r,sheet.g,sheet.b,y/31f));
+   fadeTexture.Apply();
+  }
+  var fade=new VisualElement {name=top?"PaperFadeTop":"PaperFadeBottom",pickingMode=PickingMode.Ignore};
+  fade.style.position=Position.Absolute;fade.style.left=0;fade.style.right=0;fade.style.height=I.FadeHeight;
+  if(top)fade.style.top=0;else{fade.style.bottom=0;fade.style.rotate=new Rotate(180);}
+  fade.style.backgroundImage=new StyleBackground(fadeTexture);
+  fade.style.backgroundSize=new StyleBackgroundSize(new BackgroundSize(Length.Percent(100),Length.Percent(100)));
+  window.Add(fade);
  }
 
  // Kâğıt başlığı: yuvarlak soyut kurum işareti ve birim adı, altında çift çizgi.

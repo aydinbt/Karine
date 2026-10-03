@@ -240,7 +240,7 @@ public static class KarineTheme {
  }
  // Gelen evrak modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_INBOX_2026-10.png).
  public static class InboxModal {
-  public const float ListWidth=32f, PaperTilt=0f, PaperInsetX=7f, PaperInsetY=6f, SceneVeil=.35f, StampTilt=-8f;
+  public const float ListWidth=32f, FadeHeight=28f, SceneVeil=.35f, StampTilt=-8f;
   public const int TabHeight=48, TabSize=20, RowHeight=84, RowTitleSize=20, RowMetaSize=13, PillSize=12;
   public const int PaperTitleSize=40, PaperSubSize=20, PaperBodySize=17, PaperLabelSize=14, StampSize=30, Seal=46;
  }

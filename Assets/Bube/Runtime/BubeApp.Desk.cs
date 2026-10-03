@@ -159,11 +159,13 @@ public sealed partial class BubeApp {
   }
   var right=new VisualElement();right.style.flexGrow=1;right.style.minWidth=0;right.style.paddingLeft=KarineTheme.SpaceLg;columns.Add(right);
   VisualElement paper;KarineUI.InboxDesk(right,out paper);
-  var paperBody=Scroll(paper);
+  var window=KarineUI.PaperWindow(paper);var paperBody=Scroll(window);KarineUI.PaperFades(window);
   var dark=KarineTheme.Paper.Ink;
   var footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;
   footer.style.marginTop=KarineTheme.SpaceMd;right.Add(footer);
   KarineUI.SettingsFooterButton(footer,"nav_prev",T("inbox.back"),null,false,close).name="InboxBack";
+  // Evrakın eylemleri kâğıdın içinde değil, alttaki şeritte; birincil olan amber.
+  var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;footer.Add(actions);
   if(selected==null) {
    Text(paperBody,T("inbox.noItems"),dark,21);
    Text(paperBody,T("inbox.emptyHelp"),dark,16);
@@ -176,7 +178,7 @@ public sealed partial class BubeApp {
    KarineUI.PaperFields(paperBody,(T("offer.place"),T(game.Data.summary.locationKey)),(T("offer.state"),T("offer.title")));
    KarineUI.PaperText(paperBody,CaseText("offer.summary","offer.summary"),KarineTheme.InboxModal.PaperBodySize).style.marginTop=KarineTheme.SpaceMd;
    KarineUI.PaperStamp(paper,T("offer.title"));
-   KarineUI.SettingsFooterButton(footer,"check",T("offer.accept"),T("offer.accept.hint"),true,
+   KarineUI.SettingsFooterButton(actions,"check",T("offer.accept"),T("offer.accept.hint"),true,
     ()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>Desk());} }).name="InboxAccept";
    return;
   }
@@ -189,26 +191,26 @@ public sealed partial class BubeApp {
    Text(paperBody,T("next.assignment.sender"),dark,16);
    Text(paperBody,T("next.assignment.body"),dark,18);
    Text(paperBody,T(selected.assignment.titleKey),dark,21);
-   Button(paperBody,T("next.assignment.open"),()=>OpenAssignment(selected.assignment),true);
+   InboxAction(actions,"folder",T("next.assignment.open"),true,()=>OpenAssignment(selected.assignment));
   } else if(selected.document!=null) {
    var document=selected.document;
    if(selected.pending)Text(paperBody,T("inbox.pendingDocument"),dark,18);
    else {
     Text(paperBody,T(document.bodyKey),dark,18);
-    if(selected.unread)Button(paperBody,T("inbox.receiveDocument"),()=>{
+    if(selected.unread)InboxAction(actions,"check",T("inbox.receiveDocument"),true,()=>{
      if(game.ReceiveDocument(document.id)){Save();InboxPage("document:"+document.id,"all");}
-    },true);
-    else Button(paperBody,T("inbox.openFile"),()=>{
+    });
+    else InboxAction(actions,"folder",T("inbox.openFile"),true,()=>{
      selectedFileSection="evidence";selectedFileNode=document.id;FilePage();
     });
    }
   } else if(selected.sealedFax) {
    Text(paperBody,T("inbox.faxSealed"),dark,18);
-   Button(paperBody,T("inbox.faxOpen"),()=>{
+   InboxAction(actions,"document",T("inbox.faxOpen"),true,()=>{
     var review=game.DeliverNextFax();
     if(review!=null){Save();InboxPage("fax:"+review.caseId,"all");}
-   },true);
-  } else if(selected.review!=null)DrawInboxFax(paperBody,selected.review,dark);
+   });
+  } else if(selected.review!=null)DrawInboxFax(paperBody,selected.review,dark,actions);
   // Faks ve yeni gelen evrak basılarak çıkar; sonuç ne olursa olsun aynı biçimde.
   if(selected.review!=null) {
    string faxKey=selected.id+":"+selected.review.evaluatedAtUtcTicks;
@@ -219,7 +221,7 @@ public sealed partial class BubeApp {
   }
   else if(selected.document!=null && selected.unread && !selected.pending)PrintOut(paperBody,selected.id);
  }
- void DrawInboxFax(VisualElement body,FaxReview fax,Color dark) {
+ void DrawInboxFax(VisualElement body,FaxReview fax,Color dark,VisualElement actions) {
   var conclusion=Text(body,EvaluationTitle(fax),dark,21);
   if(dossierBoldFont!=null)conclusion.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
   Text(body,T("fax.explainIntro"),dark,16);
@@ -246,16 +248,20 @@ public sealed partial class BubeApp {
   // Teklif yalnız reklam gösterilebilecekse görünür; gösterilemiyorsa ekranda
   // çalışmayan bir düğme durmaz.
   if(!fax.correct && AdGateway.MayShow(AdPlacement.RewardedGuidance,AdMoment.ReportRejected))
-   KarineUI.PaperButton(body,T("guidance.watch"),()=>OfferGuidance(),KarinePaperKind.Quiet);
-  AddRetryOffer(body,fax);
+   InboxAction(actions,"info",T("guidance.watch"),false,()=>OfferGuidance());
+  if(RetryOffered(fax))InboxAction(actions,"nav_next",T("retry.watch"),true,OfferRetry);
  }
 
  // Ödüllü yeniden deneme teklifi. Yalnız geri dönen faksın vakası hâlâ elimizde
  // olan vakaysa görünür; reklam gösterilemiyorsa hiç çizilmez.
  void AddRetryOffer(VisualElement body,FaxReview fax) {
-  if(fax==null || fax.correct || fax.caseId!=game.Data.id || !game.MayReopen)return;
-  if(!AdGateway.MayShow(AdPlacement.RewardedRetry,AdMoment.ReportRejected))return;
-  KarineUI.PaperButton(body,T("retry.watch"),OfferRetry,KarinePaperKind.Quiet);
+  if(RetryOffered(fax))KarineUI.PaperButton(body,T("retry.watch"),OfferRetry,KarinePaperKind.Quiet);
+ }
+ bool RetryOffered(FaxReview fax)=>fax!=null && !fax.correct && fax.caseId==game.Data.id && game.MayReopen &&
+  AdGateway.MayShow(AdPlacement.RewardedRetry,AdMoment.ReportRejected);
+ void InboxAction(VisualElement actions,string icon,string title,bool primary,Action click) {
+  var b=KarineUI.SettingsFooterButton(actions,icon,title,null,primary,click);b.name="InboxAction";
+  b.style.minWidth=StyleKeyword.Auto;b.style.marginLeft=KarineTheme.SpaceSm;
  }
 
  void OfferRetry() {
