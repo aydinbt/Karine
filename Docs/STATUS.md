@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 2 Ekim 2026 (cila katmanı Y–AF)
+**Son güncelleme:** 3 Ekim 2026 (arayüz yenilemesi, vaka sonu akışı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**3 Ekim:** Arayüz ekran ekran yeni tasarım diline taşınıyor ([UI_REDESIGN_PLAN.md](UI_REDESIGN_PLAN.md)). Talepler ekranı kullanıcı tarafından görüldü. Rapor iki iddiaya indi ve yalnız dinlenen kişileri sunuyor; rapor özeti ve "dosya kapandı" kartı maketlere göre kuruldu; dosya artık yalnız onay faksıyla kapanıyor; vaka sonrası her adım bir düğmeyle açılıyor, yeni dosya tek kabulle geliyor; açılış kartı tarih yazıyor. 127 EditMode + 22/25 PlayMode (3 ekran görüntüsü testi grafik aygıtı olmadığı için koşmuyor). Son değişiklikler **gözle görülmedi**.
 
 **2 Ekim (gece, 7):** AdMob bağlandı (Google test kimlikleri, UMP izin formu, banner yok). Cihazda görülmedi; gerçek kimlikler kullanıcının hesabından gelecek.
 

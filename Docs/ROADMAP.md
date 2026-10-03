@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 2 Ekim 2026 (Dosya #003 yazıldı, Dosya #002 CCTV kareleri kapandı)
+**Son durum:** 3 Ekim 2026 (arayüz yenilemesi; vaka sonu akışı düğmeli ve gerçekçi)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -223,6 +223,18 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] Ödüllü reklam ipuçları yalnızca karşılaştırmaya yönlendirir, faili vermez; Dosya #001 reklam ipucu içermez.
 - [ ] Vaka kataloğunun **ölçeği** 26 Eylül 2026'da karara bağlandı: on ülke × yedi dosya = 70 ([WORLD_OPENINGS.md](WORLD_OPENINGS.md)). Ülke listesi ve sırası kanon; her ülkenin mekânı, atmosferi ve yedi vakasının içeriği hâlâ yazılmamış iştir ve oynanış verisine göre şekillenir.
 - [x] **Bölüm seçici ekranı** maket yerleşimiyle kodlandı ve **Play Mode'da görüldü** (kullanıcı, 26 Eylül 2026): kimlik şeridi, ülke listesi, iğneli pano, ülke kartı ve yedi dosyalık şerit; veri `Bube/Worlds.json`dan gelir, kilit ilerlemeden türer (ülke sırayla, dosya sırayla), kapanmış dosya kariyer kaydını açar. 113 test yeşil (7 yeni kilit testi). Açık kalan iki iş ekranın kendisi değil **varlıklar**: dünya haritası ile ülke/dosya görselleri ve kit'te olmayan kilit/onay/oynat ikonları. Cihazda görülmedi.
+
+### 3 Ekim 2026 — Arayüz yenilemesi ve vaka sonu akışı
+- [x] Soruşturma talepleri tam ekran (görüşmeler/incelemeler, canlı geri sayım, beklemeyi atla, raporu aç) — kullanıcı gördü.
+- [~] Kariyer kaydı tam ekran sicil kâğıdı; tablet çerçevesi kaldırıldı.
+- [~] Gerekçeli rapor iki iddia: şüpheli + ne ile/nasıl (+ varsa gözaltı); kanıt adımı ve dayanak seçici kalktı. Genel ikinci soru etiketi "Ne ile / nasıl yaptı?".
+- [~] Raporda yalnız dinlenen kişiler seçilebilir (şüpheli ve gözaltı); kişi olmayan seçenekler ve yöntemler açık.
+- [~] Rapor özeti maket (`UI_CASE_SUMMARY`) ile: polaroid (yoksa vaka kapağı), "Rapor gönderildi" damgası, rapor tablosu, kaynak notu, faks notu; masaya dön sabit altta. Rapor sonrası video kalktı.
+- [~] Dosya rapor gönderilince değil, onay faksıyla kapanır: onay faksı ilk açılınca "KAPANDI" kartı (`UI_CASE_CLOSED`, raf evresi yok). Yanlış raporda dosya kapanmaz, ilerlemek yine mümkün.
+- [~] Vaka sonrası akış düğmeyle: "Değerlendirme bekleniyor…" → "Değerlendirme faksını aç" → "Yeni görevi aç"; durum değişince düğme kendini yeniler. Bölüm özeti düğmesi ve boş görevlendirme kartı kalktı; yeni dosya tek kabulle gelir.
+- [~] Masa bildirimleri yalnız masa ekrandayken iner; okunan faks/belgenin bildirimi kalkar.
+- [~] Açılış dizisi oyun geneli: ilk dosya da bırakılış + müdür karşılama notu; büyük vaka başlığı kalktı; saat kartı tarih de yazar (`deskDate`; #001 için 7 Kasım 2026 seçildi).
+- [~] Yeni görev her zaman sıfırdan başlar; eski kayıt ve vaka başı işaretleri yok sayılır (Dosya #002'nin atlanması düzeldi).
 
 ## Güncelleme kuralı
 

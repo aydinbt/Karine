@@ -997,3 +997,18 @@ Kullanıcı kararı: gerekçeli rapor artık **şüpheli** ve **ne ile / nasıl*
 - Her adımın altındaki dayanak kaynak seçicisi kalktı. Bütün ifade satırlarını ve CCTV sinyal boşluklarını listeliyordu, seçilen kişiyle ilgisiz kayıtlar da geliyordu ve oyuncuyu şaşırtıyordu.
 - Gerekçe gizli kalır: doğru seçenek, onu gösteren kaynak (`supportingSourceIds`) soruşturmada açılmışsa "uygun" sayılır. Açılmadan yapılan doğru tahmin "eksik", yanlış kişi "asılsız suçlama"dır. Oyuncuya hangi kaynağın sayıldığı söylenmez.
 - Motor: `Investigation.SubmitReport(suspect, method, custody)`. Eski `SubmitFinalReport` ve kayıtlardaki `proofId` / kaynak alanları eski kayıtlar ve doğrulayıcı için okunmaya devam eder.
+
+## 3 Ekim 2026 — Açılış dizisi oyun geneli
+
+Dünyanın ilk dosyası da sonraki dosyalar gibi gelir: dosya masaya bırakılır, bildirimler iner, kabulden sonra saat kartı ve mekân kareleri oynar. İlk dosyada departman müdürünün kısa karşılama notu bırakılışa iliştirilir; ipucu vermez. Bırakılışta ve açılışta büyük vaka başlığı yazılmaz (üst şeritte ve teklifte zaten var). Saat kartı vakanın tarihini de yazar (vaka verisinde `deskDate`).
+
+## 3 Ekim 2026 — Dosya onayla kapanır, akış düğmeyle ilerler
+
+Kullanıcı: "Dosyanın kapanması için gerçekten doğruyu bulmak gerekiyor." Rapor gönderilince dosya değerlendirmeye gider. Yalnız onay faksı geldiğinde, faks ilk açılırken o dosyanın "KAPANDI" kartı oynar. Yanlış ya da yeniden açılan raporda kart yoktur; oyuncu yine sonraki vakaya geçebilir.
+- Vaka sonrası hiçbir adım kendiliğinden ilerlemez: rapor özetinde ve masadaki panelde tek bir sıradaki adım düğmesi vardır ("Değerlendirme bekleniyor…", "Değerlendirme faksını aç", "Yeni görevi aç"). Bildirimler ek olarak masada kalır.
+- Yeni görev tepside ayrı bir kart olarak gelmez; düğme yeni dosyayı doğrudan bırakır ve dosya bir kez, teklif evrakında kabul edilir.
+- Rapor sonrası video kaldırıldı; zarf ve mühürden sonra doğrudan rapor özeti gelir.
+
+## 3 Ekim 2026 — Raporda yalnız dinlenen kişiler
+
+Kullanıcı: rapor için seçenekler oyunun takibine göre gelmeli. Şüpheli ve gözaltı seçeneklerinden yalnız görüşmesi okunmuş kişiler sunulur. Kural veriden türetilir: seçeneğin kimliği (ya da `_` önü) bir görüşme düğümüne denk geliyorsa o düğüm okunmuş olmalı. Kişi olmayan seçenekler ("Kimse — kaza", "Olay yeri değiştirilmedi") ve yöntemler hep açıktır: yöntemleri metinde geçince açmak, yalnız doğru seçeneği geç açacağı için ipucu olurdu. Genel ikinci soru etiketi "Ne ile / nasıl yaptı?" oldu.

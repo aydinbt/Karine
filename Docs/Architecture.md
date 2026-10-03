@@ -485,3 +485,13 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - `Assets/Bube/Ads/` ayrı derleme (`Bube.Ads` → `Bube.Runtime`). `AdMobProvider` mobilde `RuntimeInitializeOnLoad` ile `AdGateway.Provider`a takılır; Editor ve testlerde `NoAdProvider` kalır.
 - Akış: UMP `ConsentInformation.Update` → gerekirse form → `CanRequestAds` → `MobileAds.Initialize` → geçiş ve ödüllü reklam önceden yüklenir, gösterimden sonra yenisi yüklenir. Geri çağrılar `MainThread` kuyruğuyla ana döngüye taşınır. Oyunun kendi izin kuralı (`AdGateway.Consent`) ayrıca geçerlidir.
 - Kimlikler test: uygulama `Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset`, reklam birimleri `AdMobProvider.cs` başındaki iki sabit.
+
+## Vaka sonu akışı (3 Ekim 2026)
+
+- `Investigation.ChoiceKnown(id)`: rapor seçeneğinin sunulup sunulmayacağı; görüşme düğümüyle eşleşen kişi okunmuş olmalı. `BubeApp.Report.ReportColumns` şüpheli, yöntem ve gözaltı listelerini bununla süzer. Test: `KnownChoicesTests`.
+- `BubeApp.NextStep(parent, refresh)` + `StepState()`: "fax" / "waiting" / "assignment" / "none". Saniyede bir durum karşılaştırılır, değişince `refresh` çağrılır; `InboxModal` açıkken yenilenmez. Rapor özeti ve masadaki kapanış paneli kullanır.
+- `ClosedCard(caseId, then)`: onay faksı (`correct && !reopened`) ilk açılınca `KarineUI.CaseClosed`; işaret `karine.closedCard.<id>` (`ForgetCaseMoments` siler). Hem `FaxPage` hem tepsideki "faksı aç" yolu kullanır.
+- Rapor özeti `KarineUI.SummaryPaper/SummaryStamp/SummarySources` (`KarineUI.CaseSummary.cs`, ölçüler `KarineTheme.CaseSummary`); resim yoksa `Bube/Art/Covers/<id>`.
+- Masa bildirimleri `Update` içinde yalnız `deskStage` panelde iken eklenir; `HasIncomingFax/Document` düşünce kart kaldırılır.
+- `ContinueToNextCase` tepsiye gitmez, `OpenAssignment` çağırır; tepside "assignment" girdisi yok.
+- `CaseData.deskDate`: açılış kartında saatin önüne yazılan tarih (`ChapterTime`).
