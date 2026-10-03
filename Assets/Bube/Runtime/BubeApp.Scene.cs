@@ -42,12 +42,14 @@ public sealed partial class BubeApp {
   title.schedule.Execute(()=>{KarineUI.TerminalType(title,title.text);KarineUI.Persist(title);}).StartingIn(260);
  }
 
- // Rapor gönderilince, her vakada: klasör kapanır, "KAPANDI" damgası iner. Vaka başına bir kez.
- void ClosedCard(Action then) {
-  string key="karine.closedCard."+game.Data.id;
+ // Onay faksı gelince, her vakada: klasör kapanır, "KAPANDI" damgası iner. Vaka başına bir kez.
+ void ClosedCard(string caseId,Action then) {
+  string key="karine.closedCard."+caseId;
   if(PlayerPrefs.GetInt(key,0)==1){then();return;}
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
-  KarineUI.CaseClosed(root,T(game.Data.titleKey),T("case.closedStamp"),then);
+  var asset=Resources.Load<TextAsset>("Bube/Cases/"+caseId);
+  var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
+  KarineUI.CaseClosed(root,data==null?caseId:T(data.titleKey),T("case.closedStamp"),then);
  }
 
  // Kapanış sonrası (epilog, jenerik) vaka başına bir kez; sonra `again` kaldığı yerden sürer.

@@ -207,7 +207,7 @@ public sealed partial class BubeApp {
    game.BeginNextCaseReview(7);
    Save();
    // Mühür her raporda aynı biçimde iner; sonucu faks söyler.
-   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();PlayReportSend(()=>ClosedCard(CaseSummary));}));
+   KarineUI.EnvelopeSeal(root,envelope=>KarineUI.StampDown(root,T("report.stamp"),()=>{envelope?.RemoveFromHierarchy();PlayReportSend(CaseSummary);}));
   }
  }
  void ContinueToNextCase() {
@@ -246,6 +246,12 @@ public sealed partial class BubeApp {
   var fax=game.DeliverNextFax();
   if(fax==null){Desk();return;}
   Save();
+  // Gerçek işleyiş: rapor gönderilince dosya değerlendirmeye gider; ancak onaylanırsa kapanır.
+  // Onay faksı ilk açıldığında o dosyanın "KAPANDI" kartı oynar, faks arkasından basılır.
+  if(fax.correct && !fax.reopened){ClosedCard(fax.caseId,()=>FaxSheet(fax));return;}
+  FaxSheet(fax);
+ }
+ void FaxSheet(FaxReview fax) {
   VisualElement body;
   ReportSheet(T("inbox.faxTitle"),T("inbox.faxPending"),out body,Desk);
   var dark=KarineTheme.Paper.Ink;
