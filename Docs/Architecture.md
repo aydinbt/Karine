@@ -495,3 +495,11 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - Masa bildirimleri `Update` içinde yalnız `deskStage` panelde iken eklenir; `HasIncomingFax/Document` düşünce kart kaldırılır.
 - `ContinueToNextCase` tepsiye gitmez, `OpenAssignment` çağırır; tepside "assignment" girdisi yok.
 - `CaseData.deskDate`: açılış kartında saatin önüne yazılan tarih (`ChapterTime`).
+
+## Sorgu odası ve masa işaretleri (3 Ekim 2026)
+
+- Sorgu ekranı bileşenleri `KarineUI.Interview.cs` (`InterviewIdentity/Bubble/Panel/Tab/Topic/Question/Present/Filter/Source/Paper/Action`), ölçüler `KarineTheme.Interview`. `BubeApp.InterviewSourcePicker` paneli kurar, `InterviewPreview` kâğıdı ve "Öne sür"ü, `InterviewSourceBody` kayıt içeriğini (öne sürülen kayıt kartı da kullanır).
+- `Progress.triedSources` ("düğüm/soru/kaynak"): `Investigation.SourceTried` / `MarkSourceTried`. Test: `TriedSourceTests`.
+- `Progress.seenRequests`: listede görülen inceleme kimlikleri, `person:<düğüm>` (talep edilmemiş kişi) ve `desk:<düğüm>` (açılmış CCTV). `InterviewBadgeCount` / `InvestigationBadgeCount` bunlarla sayar.
+- `KarineUI.OfficePulse(action, on)`: `on` değilse eşyanın `OfficeHotspot` halkası kaldırılır. `KarineUI.OfficeCount(action, n)`: köşede yanıp sönen sayı. Koşullar `BubeApp.Desk` içinde.
+

@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**3 Ekim (akşam):** Sorgu odası ve "Kaydı öne sür" maket (`UI_INTERVIEW`) ile kuruldu; denenen kayıt o soruda tekrar listelenmez. Masada yalnız bakılmamış şeyi olan eşya yanıp söner, telefon yeni talep sayısını gösterir, "Yeni tutanak" dokunulur oldu. 128 EditMode + 22/25 PlayMode. Son hali **gözle görülmedi**.
+
 **3 Ekim:** Arayüz ekran ekran yeni tasarım diline taşınıyor ([UI_REDESIGN_PLAN.md](UI_REDESIGN_PLAN.md)). Talepler ekranı kullanıcı tarafından görüldü. Rapor iki iddiaya indi ve yalnız dinlenen kişileri sunuyor; rapor özeti ve "dosya kapandı" kartı maketlere göre kuruldu; dosya artık yalnız onay faksıyla kapanıyor; vaka sonrası her adım bir düğmeyle açılıyor, yeni dosya tek kabulle geliyor; açılış kartı tarih yazıyor. 127 EditMode + 22/25 PlayMode (3 ekran görüntüsü testi grafik aygıtı olmadığı için koşmuyor). Son değişiklikler **gözle görülmedi**.
 
 **2 Ekim (gece, 7):** AdMob bağlandı (Google test kimlikleri, UMP izin formu, banner yok). Cihazda görülmedi; gerçek kimlikler kullanıcının hesabından gelecek.

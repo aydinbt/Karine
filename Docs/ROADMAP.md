@@ -235,6 +235,9 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Masa bildirimleri yalnız masa ekrandayken iner; okunan faks/belgenin bildirimi kalkar.
 - [~] Açılış dizisi oyun geneli: ilk dosya da bırakılış + müdür karşılama notu; büyük vaka başlığı kalktı; saat kartı tarih de yazar (`deskDate`; #001 için 7 Kasım 2026 seçildi).
 - [~] Yeni görev her zaman sıfırdan başlar; eski kayıt ve vaka başı işaretleri yok sayılır (Dosya #002'nin atlanması düzeldi).
+- [~] Sorgu odası maket (`UI_INTERVIEW`) ile: dosya şeridi, kimlik kartı, konuşma balonu, Sorular/Geçmiş sekmeleri, açılır konu başlıkları; "Kaydı öne sür" paneli (süzgeç, kaynak satırları, kâğıt önizleme, "Öne sür"). Kullanıcı ekran görüntüleri gönderdi, düzeltmeler sonrası hali görülmedi.
+- [~] Bir soruda öne sürülen kayıt (tutsa da tutmasa da) o soruda bir daha listelenmez; kişi bazında değil soru bazında.
+- [~] Masada halka yalnız bakılmamış şeyi olan eşyada atar (tepsi, dosya, telefon, CCTV, kanıtlar); telefonda yeni talep sayısı; yeni açılan kişi ve inceleme sekmelerde sayılır; "Yeni tutanak" dokununca tutanakları açar.
 
 ## Güncelleme kuralı
 

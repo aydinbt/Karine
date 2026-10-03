@@ -1012,3 +1012,10 @@ Kullanıcı: "Dosyanın kapanması için gerçekten doğruyu bulmak gerekiyor." 
 ## 3 Ekim 2026 — Raporda yalnız dinlenen kişiler
 
 Kullanıcı: rapor için seçenekler oyunun takibine göre gelmeli. Şüpheli ve gözaltı seçeneklerinden yalnız görüşmesi okunmuş kişiler sunulur. Kural veriden türetilir: seçeneğin kimliği (ya da `_` önü) bir görüşme düğümüne denk geliyorsa o düğüm okunmuş olmalı. Kişi olmayan seçenekler ("Kimse — kaza", "Olay yeri değiştirilmedi") ve yöntemler hep açıktır: yöntemleri metinde geçince açmak, yalnız doğru seçeneği geç açacağı için ipucu olurdu. Genel ikinci soru etiketi "Ne ile / nasıl yaptı?" oldu.
+
+## 3 Ekim 2026 — Sorgu odası ve masadaki "yeni" işareti
+
+- Sorgu odası maketle (`UI_INTERVIEW`) yeniden kuruldu. Öne sürme halinde balon kimlik kartının altına kayar, sağı kayıt paneli alır; seçilen kayıt kâğıt olarak okunur, "Öne sür" ile ya da sürükleyerek verilir.
+- Kullanıcı: "Sunduğumuz kaydı tekrar seçenek olarak gösterme." Bir soruda öne sürülen kayıt, cevap işe yarasa da yaramasa da o soruda bir daha listelenmez. Kişi bazında gizlenmez: aynı kayıt aynı kişinin başka sorusunda gerekebilir (örn. Dosya #002, `camera#second_out`).
+- Kullanıcı: "Baktığımızda yanmasın, bakmadıklarımız için yansın." Masadaki halka yalnız bakılmamış bir şeyi olan eşyada atar; erişilecek bir şey yoksa (henüz CCTV yok) sessizdir. Telefon yeni talep sayısını gösterir. Bu işaret yalnız "burada yeni bir şey var" der; sırayı ya da önemi söylemez.
+
