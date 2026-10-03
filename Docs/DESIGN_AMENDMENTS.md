@@ -989,3 +989,11 @@ Kullanıcı ChatGPT ile ürettiği panoyu (`Docs/Reference/UI_DESIGN_SYSTEM_2026
 ## 3 Ekim 2026 — Tablet çerçevesi kaldırıldı
 
 Masadaki CCTV tableti artık bir çerçeve değil, yalnız bir giriş noktasıdır: dokununca CCTV arşivi dosya ekranlarıyla aynı üst şeritli tam ekran açılır ve "Masaya dön" ile masaya döner. Dosyada Gezin'den açılan CCTV "Dosyaya dön" der. Tablet içinde açılan ekran kalmadı; soruşturma talepleri ve kariyer kaydı kendi yenilemelerinde tam ekrana geçecek.
+
+## 3 Ekim 2026 — Rapor iki iddiaya indi: kim ve ne ile
+
+Kullanıcı kararı: gerekçeli rapor artık **şüpheli** ve **ne ile / nasıl** (vaka verisindeki `methods`) adımlarından oluşur. Gözaltı sütunu olan vakada (`custody`) üçüncü adım kalır.
+- "Belirleyici kanıt" adımı kalktı. Seçenekleri dosyanın kaynaklarıydı; kaynağın dayanağını yine kaynak olarak istemek döngüseldi.
+- Her adımın altındaki dayanak kaynak seçicisi kalktı. Bütün ifade satırlarını ve CCTV sinyal boşluklarını listeliyordu, seçilen kişiyle ilgisiz kayıtlar da geliyordu ve oyuncuyu şaşırtıyordu.
+- Gerekçe gizli kalır: doğru seçenek, onu gösteren kaynak (`supportingSourceIds`) soruşturmada açılmışsa "uygun" sayılır. Açılmadan yapılan doğru tahmin "eksik", yanlış kişi "asılsız suçlama"dır. Oyuncuya hangi kaynağın sayıldığı söylenmez.
+- Motor: `Investigation.SubmitReport(suspect, method, custody)`. Eski `SubmitFinalReport` ve kayıtlardaki `proofId` / kaynak alanları eski kayıtlar ve doğrulayıcı için okunmaya devam eder.

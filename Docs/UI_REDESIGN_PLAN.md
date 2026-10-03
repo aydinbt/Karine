@@ -52,7 +52,7 @@ Akış her öğe için aynıdır:
 - [ ] Kaydı öne sürme
 
 ## 5. Sonuç
-- [x] Gerekçeli rapor (`UI_REPORT`): adım sütunu, polaroid şüpheliler, dayanak kaynak, özet, onay kartı; kaynakta oyuncunun kendi karşılaştırma notu görünür
+- [~] Gerekçeli rapor (`UI_REPORT`): 3 Ekim kararıyla iki adım (şüpheli, ne ile) + varsa gözaltı + gönder; kanıt adımı ve dayanak seçici kaldırıldı
 - [ ] Faks / değerlendirme (FaxPage)
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 

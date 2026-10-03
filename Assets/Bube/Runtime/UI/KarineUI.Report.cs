@@ -123,13 +123,14 @@ public static partial class KarineUI {
  }
  // Özet satırı: ikon, "ŞÜPHELİ : seçim" ve dikey çizginin sağında "DAYANAK : kaynak". Dokununca kaynak açılır.
  public static Button ReportSummaryRow(VisualElement parent,string icon,string key,string value,string sourceKey,string source,Action open) {
-  var row=new Button(Sounded(open)) {name="ReportSummaryRow",tooltip=source};row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
+  var row=new Button(Sounded(open)) {name="ReportSummaryRow",tooltip=source??value};row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
   row.style.minHeight=KarineTheme.TouchTarget+KarineTheme.SpaceSm;row.style.marginLeft=0;row.style.marginRight=0;row.style.paddingLeft=0;row.style.paddingRight=0;
   Unskin(row,Color.clear);row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Paper.Edge;parent.Add(row);
   Icon(row,icon,KarineTheme.Paper.Ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
   var left=new VisualElement {pickingMode=PickingMode.Ignore};left.style.flexDirection=FlexDirection.Row;left.style.flexGrow=1;left.style.flexBasis=0;left.style.paddingRight=KarineTheme.SpaceMd;row.Add(left);
   var k=Typed(left,key.ToUpper(Tr),R.RowSize,true);k.style.width=R.RowKeyWidth;k.style.flexShrink=0;
   Typed(left,":  ",R.RowSize);Typed(left,value,R.RowSize).style.flexShrink=1;left.ElementAt(2).style.whiteSpace=WhiteSpace.Normal;
+  if(sourceKey==null)return row;
   var right=new VisualElement {pickingMode=PickingMode.Ignore};right.style.flexDirection=FlexDirection.Row;right.style.flexGrow=1;right.style.flexBasis=0;
   right.style.borderLeftWidth=1;right.style.borderLeftColor=KarineTheme.Paper.Edge;right.style.paddingLeft=KarineTheme.SpaceMd;row.Add(right);
   var s=Typed(right,sourceKey.ToUpper(Tr),R.RowSize,true);s.style.width=R.RowSourceKey;s.style.flexShrink=0;

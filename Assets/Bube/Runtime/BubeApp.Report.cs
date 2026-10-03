@@ -38,11 +38,6 @@ public sealed partial class BubeApp {
    headingKey=string.IsNullOrEmpty(game.Data.custodyLabelKey)?"conclude.custody":game.Data.custodyLabelKey,
    sourceHeadingKey="conclude.custodySource",choices=Options(game.Data.custody.Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
    pick=()=>selectedCustody,setPick=v=>selectedCustody=v,source=()=>selectedCustodySource,setSource=v=>selectedCustodySource=v});
-  // Kanıt sütunu yalnız **okunmuş** kayıtları listeler; okunmamış bir belgeyi
-  // rapora yazmak zaten mümkün değildi.
-  columns.Add(new ReportColumn{headingKey="conclude.evidence",sourceHeadingKey="conclude.evidenceSource",
-   choices=Options(game.Data.evidence.Where(v=>game.State.read.Contains(v.id)).Select(v=>new KeyValuePair<string,string>(v.id,v.labelKey))),
-   pick=()=>selectedEvidence,setPick=v=>selectedEvidence=v,source=()=>selectedEvidenceSource,setSource=v=>selectedEvidenceSource=v});
   return columns;
  }
  // 3 Ekim 2026 maketi: solda adım sütunu, sağda form kâğıdı. Adım mantığı aynı kaldı.
@@ -52,7 +47,7 @@ public sealed partial class BubeApp {
   int last=columns.Count;
   step=Mathf.Clamp(step,0,last);
   showingInterviewList=false;
-  Func<ReportColumn,bool> done=c=>c.pick()!=null && game.ReportSourceAvailable(c.source());
+  Func<ReportColumn,bool> done=c=>c.pick()!=null;
   Desk();
   KarineUI.InboxScene(root);
   KarineUI.DossierBar(root,T("back.file"),T(game.Data.titleKey),T("file.unit"),FilePage,out var tools);
@@ -65,7 +60,7 @@ public sealed partial class BubeApp {
   for(int i=0;i<=last;i++) {
    int target=i;
    string label=i==last?T("conclude.step.send"):T(columns[i].headingKey);
-   string icon=i==last?"document":i==0?"person":i==columns.Count-1?"folder":"fingerprint";
+   string icon=i==last?"document":i==0?"person":"fingerprint";
    KarineUI.ReportStep(rail,(i+1).ToString("00"),label,icon,i<last && done(columns[i]),i==step,i<=reachable,()=>ConclusionStep(target));
   }
   var paper=KarineUI.ReportPaper(root);
@@ -87,15 +82,13 @@ public sealed partial class BubeApp {
     if(suspects)KarineUI.ReportPortrait(wrap,Resources.Load<Texture2D>("Bube/Characters/"+id),label,column.pick()==id,index++,choose);
     else KarineUI.ReportChoiceCard(wrap,label,column.pick()==id,choose);
    }
-   ReportSourcePicker(scroll,column.sourceHeadingKey,column.source,column.setSource,step);
    ready=done(column);
   } else {
    foreach(var column in columns) {
     var chosen=column.choices.FirstOrDefault(v=>v.Key==column.pick());
-    var source=column.source();
-    string icon=column==columns[0]?"person":column==columns[columns.Count-1]?"folder":"fingerprint";
-    KarineUI.ReportSummaryRow(scroll,icon,T(column.headingKey),T(chosen.Value==null?"conclude.unselected":chosen.Value),
-     T("conclude.basis"),CompactReportSourceLabel(source),()=>ShowReportSourceCard(source));
+    string icon=column==columns[0]?"person":"fingerprint";
+    var target=columns.IndexOf(column);
+    KarineUI.ReportSummaryRow(scroll,icon,T(column.headingKey),T(chosen.Value==null?"conclude.unselected":chosen.Value),null,null,()=>ConclusionStep(target));
    }
    ready=columns.All(c=>done(c));
   }
@@ -112,28 +105,6 @@ public sealed partial class BubeApp {
    T("conclude.confirm.cancel"),()=>card.RemoveFromHierarchy(),
    T("conclude.confirm.send"),Result);
  }
- // Oyuncunun Karşılaştır'da bu kaynak için yazdığı kendi hükümleri. Oyun doğruluğunu söylemez.
- string[] SourceNotes(string sourceId) {
-  if(string.IsNullOrEmpty(sourceId))return new string[0];
-  int separator=sourceId.IndexOf('#');
-  var nodeId=separator<0?sourceId:sourceId.Substring(0,separator);
-  return game.State.notebook.Where(e=>e.leftId==nodeId || e.rightId==nodeId).Select(e=>{
-   var other=game.Data.nodes.FirstOrDefault(n=>n.id==(e.leftId==nodeId?e.rightId:e.leftId));
-   return T("conclude.yourNote")+": "+T("notebook.mark."+e.mark)+(other==null?"":"  ·  "+CompareTitle(other));
-  }).ToArray();
- }
- string ReportSourceQuote(string sourceId) {
-  int separator=sourceId.IndexOf('#');
-  var node=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
-  if(node==null)return string.Empty;
-  string value;
-  if(node.kind=="interview" && separator>=0){var turn=game.InterviewSourceTurn(sourceId);value=turn==null?string.Empty:T(turn.answerKey);}
-  else if(node.kind=="cctv" && separator>=0){var record=(node.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e=>e.id==sourceId.Substring(separator+1));value=record==null?string.Empty:T(record.textKey);}
-  else return ReportSourcePreview(node);
-  value=value.Replace('\n',' ').Trim();
-  return value.Length>120?value.Substring(0,120)+"…":value;
- }
-
  // Vaka kendi sütun başlığını verebilir (Dosya #003: "Ölümden kim sorumlu?"); boşsa ortak başlık.
  static string SuspectKey(CaseData data)=>string.IsNullOrEmpty(data?.suspectLabelKey)?"conclude.suspect":data.suspectLabelKey;
  static string MethodKey(CaseData data)=>string.IsNullOrEmpty(data?.methodLabelKey)?"conclude.method":data.methodLabelKey;
@@ -157,143 +128,6 @@ public sealed partial class BubeApp {
  string CompactReportSourceLabel(string id) {
   var label=ReportSourceLabel(id);
   return label.Length>76?label.Substring(0,76)+"…":label;
- }
- void ShowReportSourceCard(string sourceId) {
-  if(!game.ReportSourceAvailable(sourceId))return;
-  int separator=sourceId.IndexOf('#');
-  var source=game.Data.nodes.FirstOrDefault(n=>n.id==(separator<0?sourceId:sourceId.Substring(0,separator)));
-  if(source==null)return;
-  var ink=KarineTheme.Paper.Ink;
-  var muted=KarineTheme.Paper.Faded;
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.80f);root.Add(shade);
-  var paper=new VisualElement();paper.style.position=Position.Absolute;
-  paper.style.left=Length.Percent(10);paper.style.right=Length.Percent(10);
-  paper.style.top=Length.Percent(9);paper.style.bottom=Length.Percent(9);
-  paper.style.paddingLeft=20;paper.style.paddingRight=20;
-  paper.style.paddingTop=14;paper.style.paddingBottom=14;
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;shade.Add(paper);
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
-  header.style.alignItems=Align.Center;paper.Add(header);
-  var title=Text(header,CompactReportSourceLabel(sourceId),ink,18);
-  title.style.flexGrow=1;title.style.whiteSpace=WhiteSpace.Normal;
-  KarineUI.CloseButton(header,()=>shade.RemoveFromHierarchy(),null,true);
-  var content=Scroll(paper);
-  if(source.kind=="cctv" && separator>=0) {
-   if(!string.IsNullOrEmpty(source.cctvPeriodKey))Text(content,T(source.cctvPeriodKey),muted,14);
-   var record=(source.cctvEvents ?? new CctvEvent[0]).FirstOrDefault(e=>e.id==sourceId.Substring(separator+1));
-   if(record!=null)Text(content,T(record.textKey),ink,18);
-  } else if(source.kind=="interview" && separator>=0) {
-   var turn=game.InterviewSourceTurn(sourceId);
-   if(turn!=null) {
-    Text(content,T("interview.bora")+"  ·  "+T(turn.promptKey),muted,15);
-    Text(content,T(source.personNameKey)+"  ·  "+T(turn.answerKey),ink,18);
-   }
-  } else {
-   if(source.fileMeta!=null)foreach(var field in source.fileMeta)
-    Text(content,T(field.labelKey)+" : "+T(field.valueKey),muted,14);
-   Text(content,T(source.bodyKey),ink,17);
-  }
- }
- string ReportSourcePreview(Node source) {
-  string value;
-  if(source.kind=="interview") {
-   var turn=game.State.interviewTurns.LastOrDefault(item=>item.nodeId==source.id);
-   value=turn==null?string.Empty:T(turn.answerKey);
-  } else value=T(source.bodyKey);
-  value=value.Replace('\n',' ').Trim();
-  return value.Length>120?value.Substring(0,120)+"…":value;
- }
- // Kaynak secimi eskiden adimin icinde acilan bir panel idi: sayfanin kendi
- // kaydirmasinin icinde ikinci bir kaydirma, ustunde arama alani ve dort filtre.
- // Telefonda hem okunmuyor hem yonetilemiyordu. Artik satir yalnizca secimi
- // gosterir; dokununca kaynak listesi tam ekran acilir, yani her an tek bir is
- // vardir. Arama alani kaldirildi — liste zaten bu vakada okunmus kayitlardir
- // ve dort filtre onu bolmeye yetiyor.
- void ReportSourcePicker(VisualElement parent,string promptKey,Func<string> selected,Action<string> setSelected,int step) {
-  var current=selected();
-  KarineUI.ReportSourceBar(parent,T("conclude.basisSource"),string.IsNullOrEmpty(current)?T("conclude.sourcePlaceholder"):CompactReportSourceLabel(current),
-   ()=>ReportSourceSheet(reference=>{ setSelected(reference); ConclusionStep(step); }));
-  if(game.ReportSourceAvailable(current))
-   KarineUI.ReportQuote(parent,"\""+ReportSourceQuote(current)+"\"",SourceNotes(current),T("conclude.openSource"),()=>ShowReportSourceCard(current));
- }
- // Tam ekran kaynak listesi. Tek kaydirma, dort filtre, baska hicbir sey.
- void ReportSourceSheet(Action<string> choose) {
-  var dark=KarineTheme.Paper.Ink;
-  var muted=KarineTheme.Paper.Faded;
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.82f);root.Add(shade);
-  var paper=new VisualElement();paper.style.position=Position.Absolute;
-  paper.style.left=Length.Percent(8);paper.style.right=Length.Percent(8);
-  paper.style.top=Length.Percent(7);paper.style.bottom=Length.Percent(7);
-  paper.style.paddingLeft=18;paper.style.paddingRight=18;
-  paper.style.paddingTop=14;paper.style.paddingBottom=14;
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;shade.Add(paper);
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
-  header.style.alignItems=Align.Center;paper.Add(header);
-  var title=Text(header,T("conclude.source"),dark,20);
-  title.style.flexGrow=1;title.style.marginBottom=0;
-  KarineUI.CloseButton(header,()=>shade.RemoveFromHierarchy(),T("back.file"),true);
-  var tabs=new VisualElement();tabs.style.flexDirection=FlexDirection.Row;
-  tabs.style.marginTop=10;tabs.style.marginBottom=6;paper.Add(tabs);
-  var count=Text(paper,"",muted,13);count.style.marginBottom=4;
-  var choices=Scroll(paper);
-  var rows=new List<VisualElement>();
-  var categories=new List<int>();
-  int[] categoryCounts=new int[4];
-  Action<string,string,int,int> add=(label,reference,category,height)=>{
-   var notes=SourceNotes(reference);
-   if(notes.Length>0)label+="\n"+string.Join("\n",notes);
-   var option=KarineUI.PaperButton(choices,label,()=>{
-    shade.RemoveFromHierarchy();choose(reference);
-   },KarinePaperKind.Choice,true);
-   option.style.minHeight=height;option.style.fontSize=Typography.Snap(15);
-   option.style.marginBottom=6;
-   rows.Add(option);categories.Add(category);categoryCounts[category]++;
-  };
-  foreach(var source in ComparisonSources()) {
-   var item=source;
-   if(item.notReportSource)continue;
-   if(item.kind=="cctv") {
-    foreach(var record in item.cctvEvents ?? new CctvEvent[0])
-     add(T(item.titleKey)+"  ·  "+T(record.textKey),item.id+"#"+record.id,3,58);
-   } else if(item.kind=="interview") {
-    foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id))
-     add(T(item.personNameKey)+"  ·  "+T(turn.promptKey)+"\n"+T(turn.answerKey),
-      game.InterviewTurnReference(turn),2,64);
-   } else add(T(item.titleKey)+"\n"+ReportSourcePreview(item),item.id,1,64);
-  }
-  var empty=Text(choices,T("conclude.noMatches"),dark,15);
-  empty.style.display=DisplayStyle.None;
-  string[] labels={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
-  var tabButtons=new List<Button>();
-  int activeFilter=0;
-  Action updateFilter=()=>{
-   int visible=0;
-   for(int i=0;i<rows.Count;i++) {
-    bool show=activeFilter==0 || activeFilter==categories[i];
-    rows[i].style.display=show?DisplayStyle.Flex:DisplayStyle.None;
-    if(show)visible++;
-   }
-   empty.style.display=visible==0?DisplayStyle.Flex:DisplayStyle.None;
-   count.text=visible+" "+T("conclude.sourceCount");
-   for(int i=0;i<tabButtons.Count;i++) {
-    tabButtons[i].style.backgroundColor=i==activeFilter?KarineTheme.Paper.Stamp:KarineTheme.Paper.Tint;
-    tabButtons[i].style.color=dark;
-   }
-  };
-  for(int i=0;i<labels.Length;i++) {
-   int category=i;
-   var tab=KarineUI.PaperButton(tabs,T(labels[i]),()=>{activeFilter=category;updateFilter();});
-   tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.minWidth=0;
-   tab.style.fontSize=Typography.Snap(14);
-   tab.style.marginLeft=2;tab.style.marginRight=2;
-   tab.SetEnabled(i==0 || categoryCounts[i]>0);
-   tabButtons.Add(tab);
-  }
-  updateFilter();
  }
  string SourceTitle(string id) {
   if(string.IsNullOrEmpty(id))return T("conclude.chooseSource");
@@ -417,7 +251,7 @@ public sealed partial class BubeApp {
   FadeIn(paper);
  }
  void Result() {
-  if(game.SubmitFinalReport(selectedSuspect,selectedMethod,selectedEvidence,selectedSuspectSource,selectedMethodSource,selectedEvidenceSource,selectedCustody,selectedCustodySource)) {
+  if(game.SubmitReport(selectedSuspect,selectedMethod,selectedCustody)) {
    game.BeginNextCaseReview(7);
    Save();
    // Mühür her raporda aynı biçimde iner; sonucu faks söyler.

@@ -347,6 +347,37 @@ public sealed class Investigation {
  // eski kayıt da olduğu gibi çalışır.
  public bool HasCustody => (Data.custody ?? new Choice[0]).Length > 0;
 
+ // 3 Ekim 2026: rapor yalnız iki iddiadır — kim ve ne ile/nasıl (gözaltı sütunu olan vakada üçüncüsü).
+ // Oyuncu kaynak satırı seçmez; gerekçe, doğru seçeneği gösteren kaynağı soruşturmada
+ // açmış olmasıdır. Açmadan doğru tahmin "eksik" sayılır, yanlış kişi asılsız suçlamadır.
+ public bool SubmitReport(string suspect,string method,string custody) {
+  string Found(Choice c)=>c==null||!c.correct?null:(c.supportingSourceIds??new string[0]).FirstOrDefault(id=>ReportSourceAvailable(id)||State.read.Contains(id));
+  string FoundVerdict(Verdict v)=>v==null||!v.correct?null:(v.supportingSourceIds??new string[0]).FirstOrDefault(id=>ReportSourceAvailable(id)||State.read.Contains(id));
+  if(!CanConclude || !Data.verdicts.Any(v=>v.id==suspect) || !Data.methods.Any(v=>v.id==method))return false;
+  if(HasCustody && !Data.custody.Any(v=>v.id==custody))return false;
+  if(!HasCustody)custody=null;
+  var verdict=Data.verdicts.First(v=>v.id==suspect);var how=Data.methods.First(v=>v.id==method);
+  var held=HasCustody?Data.custody.First(v=>v.id==custody):null;
+  string suspectSource=FoundVerdict(verdict),methodSource=Found(how),custodySource=Found(held);
+  State.reportSuspect=suspect;State.reportMethod=method;State.reportProof=null;
+  State.reportSuspectSource=suspectSource;State.reportMethodSource=methodSource;State.reportProofSource=null;
+  State.reportCustody=custody;State.reportCustodySource=custodySource;
+  State.submittedAtUtcTicks=DateTime.UtcNow.Ticks;State.closed=true;
+  Career.faxReleased=Career.pendingReviews.Any(r=>r.readyAtUtcTicks>0);
+  bool personSupported=suspectSource!=null,methodSupported=methodSource!=null;
+  bool custodyCorrect=!HasCustody||held.correct,custodySupported=!HasCustody||custodySource!=null;
+  bool correct=personSupported&&methodSupported&&custodySupported;
+  string evaluationType=!verdict.correct||!custodyCorrect?"falseAccusation":correct?"supported":"incomplete";
+  int trustDelta=evaluationType=="supported"?Rules.strongGain:evaluationType=="incomplete"?-Rules.incompleteLoss:-Rules.falseAccusationLoss;
+  Career.pendingReviews.Add(new PendingReview {
+   caseId=Data.id,correct=correct,evaluationType=evaluationType,trustDelta=trustDelta,
+   successGain=Math.Max(0,Data.successfulReportTrustGain),failureLoss=Math.Max(0,Data.failedReportTrustLoss),
+   suspectId=suspect,methodId=method,suspectSourceId=suspectSource,methodSourceId=methodSource,
+   suspectSupported=personSupported,methodSupported=methodSupported,proofSupported=true,
+   custodyId=custody,custodySourceId=custodySource,custodySupported=HasCustody&&custodySupported
+  });
+  return true;
+ }
  public bool SubmitFinalReport(string suspect,string method,string proof,string suspectSource,string methodSource,string proofSource) =>
   SubmitFinalReport(suspect,method,proof,suspectSource,methodSource,proofSource,null,null);
 
