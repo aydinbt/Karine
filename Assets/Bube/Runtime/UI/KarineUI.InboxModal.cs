@@ -81,7 +81,7 @@ public static partial class KarineUI {
   if(clip!=null) {
    var pin=new Image {name="InboxClip",image=clip,scaleMode=ScaleMode.ScaleToFit,pickingMode=PickingMode.Ignore};
    pin.style.position=Position.Absolute;pin.style.width=KarineTheme.Inbox.ClipWidth;
-   pin.style.height=KarineTheme.Inbox.ClipWidth*clip.height/(float)clip.width;pin.style.left=Length.Percent(8);pin.style.top=-KarineTheme.SpaceLg;paper.Add(pin);
+   pin.style.height=KarineTheme.Inbox.ClipWidth*clip.height/(float)clip.width;pin.style.left=KarineTheme.SpaceXs;pin.style.top=-KarineTheme.SpaceLg;paper.Add(pin);
   }
   return desk;
  }

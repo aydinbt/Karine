@@ -220,10 +220,9 @@ public sealed partial class BubeApp {
    string faxKey=selected.id+":"+selected.review.evaluatedAtUtcTicks;
    KarineUI.FaxWear(paperBody,faxKey);
    // İlk okumada kâğıt makineden çıkar ve oda kararır; sonuç ne olursa olsun aynı.
-   if(!printedPapers.Contains(faxKey)){KarineUI.FeedOut(paperBody);KarineUI.Spotlight(root,paperBody);Fx.Buzz(Haptic.Press);}
-   PrintOut(paperBody,faxKey);
+   // Basılarak çıkma, oda kararması ve satır satır yazı kaldırıldı (3 Ekim 2026); yerine yeni efekt gelecek.
+   printedPapers.Add(faxKey);
   }
-  else if(selected.document!=null && selected.unread && !selected.pending)PrintOut(paperBody,selected.id);
  }
  void DrawInboxFax(VisualElement body,FaxReview fax,Color dark,VisualElement actions) {
   var conclusion=Text(body,EvaluationTitle(fax),dark,21);

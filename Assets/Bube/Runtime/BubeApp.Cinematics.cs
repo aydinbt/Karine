@@ -207,9 +207,12 @@ public sealed partial class BubeApp {
   if(introTexture!=null){introTexture.Release();Destroy(introTexture);introTexture=null;}
   if(!game.Career.seenWorldIntros.Contains(world.id))game.Career.seenWorldIntros.Add(world.id);
   Save();
-  if(!world.deskArrival){after();return;}
+  // 3 Ekim 2026: masaya varış sinematiği kaldırıldı; yerine yeni görsel/efekt kararlaştırılacak.
+  after();return;
+#pragma warning disable CS0162
   if(!string.IsNullOrEmpty(world.deskArrivalVideo))PlayDeskArrival(world,after);
   else StartCoroutine(FirstDeskArrival(after));
+#pragma warning restore CS0162
  }
  // Dosyanin masaya birakilisi artik cizilmis bir animasyon degil, sinematik bir
  // video. Video yoksa ya da oynatilamazsa asagidaki elle cizilmis animasyon
