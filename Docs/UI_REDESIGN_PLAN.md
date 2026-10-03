@@ -59,11 +59,11 @@ Akış her öğe için aynıdır:
 
 ## 6. Efekt ve geçişler (eskiler kaldırıldı, yenisi tasarlanacak)
 - [x] Ekran ve sahne geçişi: düz siyah perde (3 Ekim, gözlendi)
-- [ ] Masaya varış: 3 Ekim'de sinematik kaldırıldı
-- [ ] Evrak açılışı: basılarak çıkma, oda kararması ve satır satır yazı kaldırıldı
-- [ ] Modal açılış / kapanış geçişi
-- [ ] Vaka açılış dizisi (bölüm kartı, mekân karesi, başlık)
+- [~] Masaya varış: sinematik yerine perde sönümü + 0,7 sn masa döngüsü (3 Ekim)
+- [~] Evrak açılışı: ortak kâğıt girişi `KarineMotion.Paper` (aşağıdan oturma + belirme); dosya içi sayfa geçişi `KarineMotion.Page`
+- [~] Modal açılışı: `ModalFrame`, `ConfirmPaper`, `GuidancePaper` aynı girişi kullanır; kapanış anında (ayrı kapanış devinimi maket isterse)
+- [~] Vaka açılış dizisi: mevcut `ChapterCard` + `LocationReel`, kart bitince açılış kaydı (3 Ekim düzeltmesi)
 - [~] Dosya kapandı geçişi (CaseClosed, `UI_CASE_CLOSED`)
-- [ ] Ortak küçük öğeler: rozet, toast, onay penceresi, boş durum
+- [~] Ortak küçük öğeler: rozet `OfficeCount`, toast `KarineUI.Notification`, onay `ConfirmPaper`, boş durum `ArchiveEmpty`
 
 Sıra yukarıdan aşağıya. Masa en çok görülen ekran olduğu için 2. bölüm önceliklidir.

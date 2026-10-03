@@ -14,6 +14,7 @@ public static partial class KarineUI {
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;paper.style.paddingTop=KarineTheme.SpaceXl*2;paper.style.paddingBottom=KarineTheme.SpaceXl;parent.Add(paper);
   var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.position=Position.Absolute;clip.style.left=Length.Percent(6);clip.style.top=-G.Clip/3;
   clip.style.width=G.Clip/3;clip.style.height=G.Clip;Border(clip,3,KarineTheme.Alpha(KarineTheme.Secondary,.8f));Round(clip,G.Clip/6);clip.style.rotate=new Rotate(12);paper.Add(clip);
+  KarineMotion.Paper(paper);
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);
   return scroll.contentContainer;
  }

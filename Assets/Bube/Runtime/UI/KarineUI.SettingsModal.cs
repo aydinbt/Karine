@@ -26,7 +26,7 @@ public static partial class KarineUI {
   panel.style.width=Length.Percent(M.Width);panel.style.height=Length.Percent(M.Height);
   panel.style.backgroundColor=KarineTheme.Panel;Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=KarineTheme.SpaceLg;panel.style.paddingRight=KarineTheme.SpaceLg;panel.style.paddingTop=KarineTheme.SpaceMd;panel.style.paddingBottom=KarineTheme.SpaceMd;
-  veil.Add(panel);
+  veil.Add(panel);KarineMotion.Paper(panel);
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;header.style.flexShrink=0;panel.Add(header);
   Icon(header,icon,KarineTheme.Primary,M.HeaderIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement();words.style.flexGrow=1;header.Add(words);

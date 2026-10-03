@@ -27,7 +27,7 @@ public static partial class KarineUI {
   var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;paper.Add(actions);
   ConfirmButton(actions,cancelLabel,onCancel,KarineTheme.GlassDeep,KarineTheme.Primary).style.marginRight=KarineTheme.SpaceLg;
   ConfirmButton(actions,confirmLabel,onConfirm,KarineTheme.Paper.Stamp,KarineTheme.Paper.Light).style.flexGrow=2;
-  Enter(veil,KarineTheme.ModalMs);
+  Enter(veil,KarineTheme.ModalMs);KarineMotion.Paper(paper);
   return veil;
  }
  static Button ConfirmButton(VisualElement parent,string label,Action action,Color fill,Color ink) {
