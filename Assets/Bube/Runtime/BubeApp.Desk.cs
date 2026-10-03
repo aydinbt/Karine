@@ -93,6 +93,7 @@ public sealed partial class BubeApp {
   if(tone==KarineTone.Danger)KarineUI.Border(notice,KarineTheme.BorderWidth,KarineTheme.Danger);
   return notice;
  }
+ System.Action inboxDeskBack;
  void InboxPage() { InboxPage(null,"all"); }
  void InboxPage(string selectedId,string filter) {
   var entries=new List<InboxEntry>();
@@ -136,9 +137,12 @@ public sealed partial class BubeApp {
   var visible=entries.Where(e=>filter=="unread"?e.unread:filter=="archive"?!e.unread && !e.pending:true).ToArray();
   var selected=visible.FirstOrDefault(e=>e.id==selectedId) ?? visible.FirstOrDefault();
   // Masa altta kalır; evrak onun üstünde modal açılır (3 Ekim 2026 maketi).
-  Desk();
-  var deskBack=escapeBack;
-  System.Action close=()=>{root.Q("InboxModal")?.RemoveFromHierarchy();escapeBack=deskBack;};
+  // Masa zaten ekrandaysa yeniden kurulmaz: yeniden kurmak bir kare boş ekran gösteriyordu.
+  bool onDesk=SceneManager.GetActiveScene().name=="OfficeScene" && root.Q("OfficeHeader")!=null;
+  if(onDesk)root.Q("InboxModal")?.RemoveFromHierarchy();else Desk();
+  if(!onDesk || inboxDeskBack==null)inboxDeskBack=escapeBack;
+  var deskBack=inboxDeskBack;
+  System.Action close=()=>{root.Q("InboxModal")?.RemoveFromHierarchy();escapeBack=deskBack;inboxDeskBack=null;};
   int unreadCount=entries.Count(e=>e.unread);
   var panel=KarineUI.ModalFrame(root,"InboxModal","InboxPanel","document",T("inbox.title"),string.Format(T("inbox.unreadCount"),unreadCount),close);
   Back(close);
@@ -353,6 +357,7 @@ public sealed partial class BubeApp {
  }
  void Desk() {
   bool arriving=SceneManager.GetActiveScene().name!="OfficeScene";
+  inboxDeskBack=null;
   Back(Home);StopCctvVideo();StopMenuVideo();EnsureScene("OfficeScene");
   showingInterviewList=false;showingInvestigationRequests=false;root.Clear();
   root.style.backgroundColor=KarineTheme.Background;
