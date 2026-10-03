@@ -44,6 +44,10 @@ public sealed partial class BubeApp {
  void SavePolishDraft(){PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);SaveLampDraft();}
 
  // Masa: lamba, kablo, şehir pencereleri, takvim (yeri hatırlanır).
+ void LampTintOnly(VisualElement stage) {
+  var light=stage.Q<Image>("OfficeLight");
+  if(light!=null && LampTint>0)light.tintColor=KarineTheme.Alpha(KarineTheme.Scene.LampTints[LampTint],light.tintColor.a);
+ }
  void DeskPolish(VisualElement stage) {
   KarineUI.LampSwitch(stage);KarineUI.PhoneCord(stage);KarineUI.CityWindows(stage);
   var light=stage.Q<Image>("OfficeLight");

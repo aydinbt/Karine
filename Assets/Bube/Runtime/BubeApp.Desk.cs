@@ -389,11 +389,6 @@ public sealed partial class BubeApp {
    var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
    inboxBadge=KarineUI.OfficeNotice(stage,T("desk.inbox.new"),parts[0].Trim(),out inboxBadgeLabel);RefreshInboxBadge();
   } else {inboxBadge=null;inboxBadgeLabel=null;}
-  if(game.State.caseAccepted) {
-   var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
-   KarineUI.OfficeFolderLabel(stage,parts[0].Trim(),parts.Length>1?parts[1].Trim():null);
-  }
-  KarineUI.OfficeTabletScreen(stage,T("desk.tablet.title"),T("desk.tablet.standby"));
   if(usable) {
    KarineUI.OfficeAction(stage,"DeskFile","folder",T("desk.view.folder"),KarineTheme.Office.Folder,FilePage);
    KarineUI.OfficeAction(stage,"DeskInterviews","people",T("desk.view.phone"),KarineTheme.Office.Phone,()=>InterviewRequests());

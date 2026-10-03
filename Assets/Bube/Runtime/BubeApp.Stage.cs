@@ -40,8 +40,9 @@ public sealed partial class BubeApp {
  // Masa kurulunca: ışık akışı, raf ve (vaka başına bir kez) mekân kareleri ile açılış kartı.
  void StageDesk(VisualElement stage) {
   KarineUI.DayDrift(stage);
-  ClosedShelf(stage);
-  DeskPolish(stage);
+  // Eski masa plakasına göre yerleşmiş süsler (raf, takvim, lamba düğmesi, telefon kablosu, şehir ışıkları)
+  // yeni sahnede yanlış yere düşüyordu; 3 Ekim 2026'da kaldırıldı. Lamba rengi ayarı sürer.
+  LampTintOnly(stage);
   if(!game.State.caseAccepted || game.State.closed)return;
   string key="karine.opened."+game.Data.id;
   if(PlayerPrefs.GetInt(key,0)==1)return;
