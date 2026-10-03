@@ -136,14 +136,6 @@ public sealed partial class BubeApp {
  }
  void ApplySound() { if(audioDirector!=null)audioDirector.ApplyLevels(); }
 
- // Onay ekranı reklamdan **önce** gelir; onay yoksa hiçbir reklam gösterilmez
- // ve oyunun hiçbir bölümü kapanmaz. Kit'in modalı yıkıcı değil, bu bir tercih.
- void AskForAdConsent(Action after) {
-  KarineUI.Modal(root,T("ads.consent.title"),T("ads.consent.body"),
-   T("ads.consent.deny"),()=>{AdGateway.SetConsent(AdConsent.Denied);after?.Invoke();},
-   T("ads.consent.allow"),()=>{AdGateway.SetConsent(AdConsent.Granted);after?.Invoke();});
- }
-
  // Hakkında: açıldığı ekranın üstünde modal. Emeği geçenler yalnız gerçek
  // kaynakları sayar; gizlilik ve geri bildirim düğmeleri adresler gelince açılır.
  void AboutPage() {

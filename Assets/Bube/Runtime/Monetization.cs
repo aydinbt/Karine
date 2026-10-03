@@ -35,15 +35,11 @@ public sealed class NoAdProvider : IAdProvider {
  public void Show(AdPlacement placement, Action<bool> finished) => finished?.Invoke(false);
 }
 
-public enum AdConsent { Unknown = 0, Granted = 1, Denied = 2 }
-
 public static class AdGateway {
 
- public const string ConsentKey = "bube.ads.consent";
  public const string NoAdsKey   = "bube.ads.removed";
 
  public static IAdProvider Provider = new NoAdProvider();
- public static AdConsent Consent { get; private set; }
  // Satın alma (IAP) sonra gelir; bayrak bugünden var, çünkü bütün kurallar
  // ona bakar ve sonradan eklenen bir bayrak her karar noktasını yeniden açar.
  public static bool AdsRemoved { get; private set; }
@@ -61,16 +57,7 @@ public static class AdGateway {
  static bool Interstitial(AdPlacement p) => p == AdPlacement.CaseInterval || p == AdPlacement.CaseStart || p == AdPlacement.MenuReturn;
 
  public static void Load() {
-  int consent = PlayerPrefs.GetInt(ConsentKey, (int)AdConsent.Unknown);
-  Consent = consent == (int)AdConsent.Granted ? AdConsent.Granted
-   : consent == (int)AdConsent.Denied ? AdConsent.Denied : AdConsent.Unknown;
   AdsRemoved = PlayerPrefs.GetInt(NoAdsKey, 0) == 1;
- }
-
- public static void SetConsent(AdConsent value) {
-  Consent = value;
-  PlayerPrefs.SetInt(ConsentKey, (int)value);
-  PlayerPrefs.Save();
  }
 
  public static void SetAdsRemoved(bool removed) {
@@ -82,8 +69,8 @@ public static class AdGateway {
  // Kuralın tamamı burada ve tek yerde:
  //  · Reklam kaldırıldıysa hiçbir reklam yok — ödüllü olan bile; ödülü ise
  //    oyuncu reklamsız alır (`RewardEarnedWithoutAd`).
- //  · Onay verilmemişse (Unknown/Denied) reklam gösterilmez. Onay ekranı
- //    reklamdan **önce** gelir.
+ //  · Oyunun kendi izin penceresi yok (3 Ekim 2026): reklam kişiselleştirilmemiş
+ //    gösterilir; bölgeye göre gereken onayı reklam ağının kendi formu (UMP) sorar.
  //  · Araya giren reklam yalnız vaka kapandıktan sonraki değerlendirme anında
  //    olur. Soruşturmanın, sorgunun, CCTV'nin ve sinematiğin içi kapalıdır:
  //    oyuncunun düşündüğü an kesilmez.
@@ -92,7 +79,7 @@ public static class AdGateway {
  //  · Vaka başı ve menüye dönüş reklamları yalnız ilk vakasını kapatmış
  //    oyuncuya; tüm araya giren reklamlar arasında en az 4 dakika.
  public static bool MayShow(AdPlacement placement, AdMoment moment) {
-  if (AdsRemoved || Consent != AdConsent.Granted) return false;
+  if (AdsRemoved) return false;
   if (Interstitial(placement) && Now() - lastInterstitial < InterstitialGapSeconds) return false;
   switch (placement) {
    case AdPlacement.CaseInterval: return moment == AdMoment.CaseClosed;

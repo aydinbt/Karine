@@ -15,7 +15,6 @@ public sealed class MonetizationTests {
  }
 
  [SetUp] public void Setup() {
-  PlayerPrefs.DeleteKey(AdGateway.ConsentKey);
   PlayerPrefs.DeleteKey(AdGateway.NoAdsKey);
   AdGateway.Load();
   AdGateway.Provider = new NoAdProvider();
@@ -27,7 +26,6 @@ public sealed class MonetizationTests {
  float clock;
 
  [TearDown] public void TearDown() {
-  PlayerPrefs.DeleteKey(AdGateway.ConsentKey);
   PlayerPrefs.DeleteKey(AdGateway.NoAdsKey);
   AdGateway.Load();
   AdGateway.Provider = new NoAdProvider();
@@ -36,26 +34,10 @@ public sealed class MonetizationTests {
   AdGateway.Now = () => Time.realtimeSinceStartup;
  }
 
- // Onay alınmadan hiçbir reklam gösterilmez. Varsayılan "sorulmadı"dır ve
- // sorulmamış olmak izin değildir.
- [Test]
- public void WithoutConsent_NothingIsShown() {
-  Assert.AreEqual(AdConsent.Unknown, AdGateway.Consent);
-  foreach (AdPlacement placement in System.Enum.GetValues(typeof(AdPlacement)))
-  foreach (AdMoment moment in System.Enum.GetValues(typeof(AdMoment)))
-   Assert.IsFalse(AdGateway.MayShow(placement, moment),
-    "Onay yokken reklam gösterilemez: " + placement + " / " + moment);
-
-  AdGateway.SetConsent(AdConsent.Denied);
-  Assert.IsFalse(AdGateway.MayShow(AdPlacement.CaseInterval, AdMoment.CaseClosed),
-   "Onay reddedildiğinde de gösterilemez.");
- }
-
  // Kanonun kilidi: oyuncunun düşündüğü an kesilmez. Araya giren reklam yalnız
  // vaka kapandıktan sonraki değerlendirme anında olur.
  [Test]
  public void Interstitial_OnlyAfterTheCaseIsClosed() {
-  AdGateway.SetConsent(AdConsent.Granted);
   Assert.IsTrue(AdGateway.MayShow(AdPlacement.CaseInterval, AdMoment.CaseClosed));
   foreach (var moment in new[] { AdMoment.Investigation, AdMoment.Interview, AdMoment.Cctv, AdMoment.Cinematic, AdMoment.Menu })
    Assert.IsFalse(AdGateway.MayShow(AdPlacement.CaseInterval, moment),
@@ -66,7 +48,6 @@ public sealed class MonetizationTests {
  // sonra. Soruşturmanın ortasında ödül teklif etmek oyuncuyu oradan koparır.
  [Test]
  public void Rewarded_OnlyWhenTheReportCameBack() {
-  AdGateway.SetConsent(AdConsent.Granted);
   foreach (var placement in new[] { AdPlacement.RewardedGuidance, AdPlacement.RewardedRetry }) {
    Assert.IsTrue(AdGateway.MayShow(placement, AdMoment.ReportRejected), placement + " reddedilen raporda açık olmalı.");
    Assert.IsFalse(AdGateway.MayShow(placement, AdMoment.Investigation), placement + " soruşturmada kapalı olmalı.");
@@ -78,7 +59,6 @@ public sealed class MonetizationTests {
  // alınmaz — para ödeyen oyuncu ödülden mahrum kalmamalı.
  [Test]
  public void RemovingAds_StopsAdsButKeepsRewards() {
-  AdGateway.SetConsent(AdConsent.Granted);
   AdGateway.SetAdsRemoved(true);
   var provider = new AlwaysReady();
   AdGateway.Provider = provider;
@@ -97,17 +77,9 @@ public sealed class MonetizationTests {
  // gün oyun dengesi sessizce değişir.
  [Test]
  public void WithoutANetwork_RewardIsNotGranted() {
-  AdGateway.SetConsent(AdConsent.Granted);
   bool granted = true;
   AdGateway.Request(AdPlacement.RewardedGuidance, AdMoment.ReportRejected, result => granted = result);
   Assert.IsFalse(granted, "Ağ yokken ödül verilmemeli.");
- }
-
- [Test]
- public void Consent_SurvivesReload() {
-  AdGateway.SetConsent(AdConsent.Granted);
-  AdGateway.Load();
-  Assert.AreEqual(AdConsent.Granted, AdGateway.Consent);
  }
 
  // İpucu ekranı oyuncunun **kendi** çalışmasını sayar; vakanın gerçeğini değil.
@@ -130,7 +102,6 @@ public sealed class MonetizationTests {
  // Vaka başı ve menüye dönüş reklamı yeni oyuncuya gösterilmez; yalnız kendi anında.
  [Test]
  public void NewInterstitials_OnlyForSeasonedPlayers_AndOnlyAtTheirMoment() {
-  AdGateway.SetConsent(AdConsent.Granted);
   Assert.IsFalse(AdGateway.MayShow(AdPlacement.CaseStart, AdMoment.CaseAccepted), "İlk vakasını kapatmamış oyuncuya vaka başı reklamı yok.");
   Assert.IsFalse(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu), "İlk vakasını kapatmamış oyuncuya menü reklamı yok.");
   AdGateway.Seasoned = true;
@@ -144,7 +115,6 @@ public sealed class MonetizationTests {
  // Araya giren reklamlar arasında en az dört dakika; ödüllü reklam sınırdan etkilenmez.
  [Test]
  public void Interstitials_ShareAFrequencyCap() {
-  AdGateway.SetConsent(AdConsent.Granted);
   AdGateway.Seasoned = true;
   var provider = new AlwaysReady();
   AdGateway.Provider = provider;
@@ -161,11 +131,8 @@ public sealed class MonetizationTests {
  // Kısa bekleyişe reklam teklif edilmez.
  [Test]
  public void SkipWait_OnlyForLongWaits() {
-  AdGateway.SetConsent(AdConsent.Granted);
   Assert.IsFalse(AdGateway.MaySkipWait(10), "10 saniyelik bekleyiş için reklam yok.");
   Assert.IsTrue(AdGateway.MaySkipWait(AdGateway.MinSkipSeconds));
-  AdGateway.SetConsent(AdConsent.Denied);
-  Assert.IsFalse(AdGateway.MaySkipWait(600), "Onay yoksa teklif yok.");
   AdGateway.SetAdsRemoved(true);
   Assert.IsTrue(AdGateway.MaySkipWait(600), "Reklamsız oyuncu atlamayı reklamsız alır.");
  }
@@ -173,7 +140,6 @@ public sealed class MonetizationTests {
  // Reklamsız oyuncu görünüm ödülünü de reklamsız alır; araya giren yenileri görmez.
  [Test]
  public void RemovingAds_CoversNewPlacements() {
-  AdGateway.SetConsent(AdConsent.Granted);
   AdGateway.Seasoned = true;
   AdGateway.SetAdsRemoved(true);
   Assert.IsTrue(AdGateway.RewardEarnedWithoutAd(AdPlacement.RewardedCosmetic));

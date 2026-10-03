@@ -1019,3 +1019,7 @@ Kullanıcı: rapor için seçenekler oyunun takibine göre gelmeli. Şüpheli ve
 - Kullanıcı: "Sunduğumuz kaydı tekrar seçenek olarak gösterme." Bir soruda öne sürülen kayıt, cevap işe yarasa da yaramasa da o soruda bir daha listelenmez. Kişi bazında gizlenmez: aynı kayıt aynı kişinin başka sorusunda gerekebilir (örn. Dosya #002, `camera#second_out`).
 - Kullanıcı: "Baktığımızda yanmasın, bakmadıklarımız için yansın." Masadaki halka yalnız bakılmamış bir şeyi olan eşyada atar; erişilecek bir şey yoksa (henüz CCTV yok) sessizdir. Telefon yeni talep sayısını gösterir. Bu işaret yalnız "burada yeni bir şey var" der; sırayı ya da önemi söylemez.
 
+
+## 3 Ekim 2026 — Oyunun kendi reklam izni penceresi kaldırıldı
+
+Oyun artık reklam için kendi onay penceresini göstermiyor ve ayarlarda reklam izni satırı yok. Reklamlar kişiselleştirilmemiş olarak gösterilir; bölgeye göre gereken onayı (GDPR, iOS ATT) reklam ağının ve sistemin kendi formları sorar, bu da AdMob/LevelPlay entegrasyonunda (Faz 5) bağlanır. Reklam yerleri ve sıklık kuralları değişmedi: soruşturmanın içi kapalı, ödüllü reklam yalnız oyuncunun isteğiyle.
