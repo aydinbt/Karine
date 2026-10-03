@@ -348,7 +348,20 @@
      "textKey": "case003.cctv.event.team_in",
      "delayMs": 620,
      "id": "team_in",
-     "overlayTimeKey": "case003.time.team_in"
+     "overlayTimeKey": "case003.time.team_in",
+     "framePaths": [
+      "Bube/Cctv/case003_team_in/01",
+      "Bube/Cctv/case003_team_in/02",
+      "Bube/Cctv/case003_team_in/03",
+      "Bube/Cctv/case003_team_in/04"
+     ],
+     "frameTimes": [
+      "01.21.00",
+      "01.21.04",
+      "01.21.10",
+      "01.21.14"
+     ],
+     "frameMs": 500
     }
    ]
   },
