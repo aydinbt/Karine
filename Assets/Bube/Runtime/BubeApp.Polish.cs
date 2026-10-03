@@ -59,7 +59,8 @@ public sealed partial class BubeApp {
  }
 
  // Bölüm kartı: vaka saati ve (verisi varsa) yer.
- string ChapterTime()=>game.Data.deskHour<0?null:game.Data.deskHour.ToString("00")+":00";
+ // Açılış kartı saatle birlikte vakanın tarihini de yazar: "21 Kasım 2026 · 23:00".
+ string ChapterTime()=>game.Data.deskHour<0?null:(string.IsNullOrEmpty(game.Data.deskDate)?"":game.Data.deskDate+"  ·  ")+game.Data.deskHour.ToString("00")+":00";
  string ChapterPlace()=>string.IsNullOrEmpty(game.Data.openingPlaceKey)?null:T(game.Data.openingPlaceKey);
 
  // Kayıt masaya bırakılırken türünün sesi.

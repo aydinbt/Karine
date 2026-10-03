@@ -35,7 +35,7 @@ namespace Bube {
 [Serializable] public class WorldIntro { public string id; public string firstCaseId; public string countryKey; public string locationKey; public string flagResource; public string videoPath; public bool graphicsEmbedded; public bool skipCoversCornerMark; public CornerMark skipMark; public bool deskArrival; public string deskArrivalVideo; public CornerMark deskArrivalMark; }
 [Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public Choice[] custody; public string custodyLabelKey; public string suspectLabelKey; public string methodLabelKey; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public string ambienceId;
  // Masanın hâli: vakanın masada geçtiği saat (0-23, -1 belirsiz) ve hava ("rain" ya da boş). Yalnız atmosfer; oynanışa girmez.
- public int deskHour = -1; public string weather; public CaseSummary summary;
+ public int deskHour = -1; public string deskDate; public string weather; public CaseSummary summary;
  // Mekânın durağan kareleri (Resources yolları): vaka ilk açıldığında kart öncesi oynar. Boşsa atlanır.
  public string[] locationFrames;
  // Bölüm başı kartının yeri (anahtar) ve kapanış sonrası epilog görseli (Resources yolu) ile satırı. Boşsa atlanır.

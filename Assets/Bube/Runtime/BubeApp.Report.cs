@@ -215,7 +215,9 @@ public sealed partial class BubeApp {
   // Durum değişince (faks geldi, faks okundu) düğme yenilenir; açık bir pencerenin altından yenilenmez.
   parent.schedule.Execute(()=>{if(parent.panel!=null && root.Q("InboxModal")==null && StepState()!=step)refresh();}).Every(1000);
   if(next==null)return;
-  next.style.flexGrow=1;next.style.minHeight=48;next.style.marginLeft=KarineTheme.SpaceMd;
+  // Yan yana dizide eşit genişlik; masadaki dikey panelde yalnız kendi boyu (yoksa paneli doldurup dev oluyordu).
+  bool row=parent.style.flexDirection==FlexDirection.Row;
+  next.style.flexGrow=row?1:0;next.style.height=48;next.style.marginLeft=row?KarineTheme.SpaceMd:0;next.style.marginTop=row?0:KarineTheme.SpaceMd;
  }
  string StepState() {
   if(HasIncomingFax)return "fax";
