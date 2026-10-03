@@ -43,7 +43,7 @@ Akış her öğe için aynıdır:
 - [~] Dosyada arama (FileSearchPage, `UI_SEARCH`)
 - [-] Belge okuma (ReadPage): belgeler dosya kâğıdında açılıyor; ayrı ekran yalnız hiçbir vakada olmayan `bps` türü için kaldı, tablet kararına bağlı
 - [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
-- [ ] CCTV dökümü ve görüntüler
+- [~] CCTV dökümü ve görüntüler (`UI_CCTV`, `UI_CCTV_PLAYER`)
 - [-] Not defteri (kaldırıldı; karşılaştırma notları raporda görünür)
 - [ ] Soruşturma talepleri
 

@@ -256,6 +256,12 @@ public static class KarineTheme {
   public const int CameraRow=96, CameraTile=68, HeadingSize=21;
   public const float SidebarWidth=29;
   public const string CameraIcon="cctv"; // simge gelene kadar binoculars'a düşer
+  // 3 Ekim 2026 maketi (UI_CCTV_2026-10.png, UI_CCTV_PLAYER_2026-10.png): solda kameralar, sağda monitör.
+  public static readonly Color Signal=new Color(.36f,.82f,.62f); // monitörün "sinyal iyi" yeşili
+  public static readonly Rect Cameras=new Rect(2.4f,12.5f,19.6f,85);
+  public static readonly Rect Monitor=new Rect(23,12.5f,74.6f,85);
+  public const int ListTitleSize=20, MonitorTitleSize=26, StatusSize=18, LineSize=15, ThumbWidth=104, ThumbHeight=34, ActionWidth=150, FooterHeight=44, FooterSize=17;
+  public const int ControlHeight=48, ControlSize=14, CaptionSize=15, ProgressHeight=6, KnobSize=16, TimeSize=14;
  }
  public static class Button {
   public const int Slice=22;

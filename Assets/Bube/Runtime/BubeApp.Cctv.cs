@@ -74,8 +74,8 @@ public sealed partial class BubeApp {
   viewer.style.position=Position.Absolute;
   viewer.style.left=0;viewer.style.right=0;viewer.style.top=0;viewer.style.bottom=0;
   viewer.style.flexDirection=FlexDirection.Column;
-  viewer.style.paddingLeft=8;viewer.style.paddingRight=8;
-  viewer.style.paddingTop=5;viewer.style.paddingBottom=5;
+  viewer.style.paddingLeft=KarineTheme.SpaceLg;viewer.style.paddingRight=KarineTheme.SpaceLg;
+  viewer.style.paddingTop=KarineTheme.SpaceMd;viewer.style.paddingBottom=KarineTheme.SpaceMd;
   // CCTV görüntüsünün kendisi arayüz yüzeyi değil, **kameranın resmidir**:
   // yeşile çalan cam, tarama çizgisi, parazit bandı ve köşe işaretleri kit
   // paletinden gelmez; kamera görüntüsü gibi görünmeleri gerekir.
@@ -127,12 +127,13 @@ public sealed partial class BubeApp {
    overlay.Add(scanline);
   }
   var cameraLabel=new VisualElement(){pickingMode=PickingMode.Ignore};
-  cameraLabel.style.position=Position.Absolute;cameraLabel.style.left=19;cameraLabel.style.top=17;
+  cameraLabel.style.position=Position.Absolute;cameraLabel.style.right=19;cameraLabel.style.top=17;
+  cameraLabel.style.flexDirection=FlexDirection.Row;cameraLabel.style.alignItems=Align.Center;
   cameraLabel.style.paddingLeft=7;cameraLabel.style.paddingRight=7;
   cameraLabel.style.paddingTop=5;cameraLabel.style.paddingBottom=5;
   cameraLabel.style.backgroundColor=new Color(.02f,.04f,.05f,.55f);overlay.Add(cameraLabel);
   var overlayTitle=string.IsNullOrEmpty(node.cctvOverlayKey)?T(node.cctvSourceKey):T(node.cctvOverlayKey);
-  var cameraName=Text(cameraLabel,overlayTitle,Ink,14);cameraName.style.marginBottom=3;
+  var cameraName=Text(cameraLabel,overlayTitle,Ink,14);cameraName.style.marginBottom=0;cameraName.style.marginRight=12;
   var recRow=new VisualElement(){pickingMode=PickingMode.Ignore};
   recRow.style.flexDirection=FlexDirection.Row;recRow.style.alignItems=Align.Center;cameraLabel.Add(recRow);
   var recDot=new VisualElement(){pickingMode=PickingMode.Ignore};
@@ -153,14 +154,9 @@ public sealed partial class BubeApp {
    glitchBand.style.top=Length.Percent(UnityEngine.Random.Range(18f,82f));
    glitchBand.style.opacity=UnityEngine.Random.value<.13f?.38f:0f;
   }).Every(180);
-  // Keep the skip control over the supplied footage's lower-right mark,
-  // including when ScaleToFit adds letterboxing around the 16:9 frame.
-  // Görüntünün üstündeki düğmeler de kit bileşenidir; saydam zemin yok.
-  var skipVideo=KarineUI.SkipButton(videoFrame,T("intro.skip"),StopCctvVideo);
-  skipVideo.style.position=Position.Absolute;
-  var close=KarineUI.Button_(videoFrame,T("cctv.videoClose"),StopCctvVideo,KarineButtonKind.Secondary);
-  close.style.position=Position.Absolute;close.style.right=10;close.style.top=10;
-  close.style.marginRight=0;close.style.marginBottom=0;
+  // Sol üstte döküme dönüş; maketteki yeri.
+  var toLog=KarineUI.CctvControl(videoFrame,"nav_prev",T("cctv.videoClose"),false,StopCctvVideo);
+  toLog.style.position=Position.Absolute;toLog.style.left=10;toLog.style.top=10;
   videoFrame.RegisterCallback<GeometryChangedEvent>(evt=>{
    float width=videoFrame.resolvedStyle.width,height=videoFrame.resolvedStyle.height;
    if(float.IsNaN(width)||float.IsNaN(height)||width<=0||height<=0)return;
@@ -170,46 +166,46 @@ public sealed partial class BubeApp {
    overlay.style.left=offsetX;overlay.style.top=offsetY;
    overlay.style.width=1280f*scale;overlay.style.height=720f*scale;
    cameraName.style.fontSize=Mathf.Clamp(14f*scale,11f,14f);
-   cameraName.style.maxWidth=Mathf.Max(100f,1280f*scale-60f);
-   float buttonWidth=Mathf.Max(110f,150f*scale);
-   float buttonHeight=Mathf.Max(MinimumTouchTarget,84f*scale);
-   skipVideo.style.width=buttonWidth;skipVideo.style.height=buttonHeight;
-   skipVideo.style.left=Mathf.Clamp(offsetX+1280f*scale-buttonWidth,0f,Mathf.Max(0f,width-buttonWidth));
-   skipVideo.style.top=Mathf.Clamp(offsetY+575f*scale,0f,Mathf.Max(0f,height-buttonHeight));
   });
-  var controls=new VisualElement();controls.style.flexDirection=FlexDirection.Row;
+  // Denetim çubuğu: BAŞA AL, OYNAT/DURAKLAT (amber), KARE ›, ilerleme ve saat, kare geri, iğnele, hız.
+  var controls=new VisualElement {name="CctvControls"};controls.style.flexDirection=FlexDirection.Row;
   controls.style.alignItems=Align.Center;controls.style.flexShrink=0;viewer.Add(controls);
-  var caption=Text(controls,T(record.textKey),Ink,15);
-  caption.style.flexGrow=1;caption.style.minWidth=0;
-  caption.style.marginBottom=0;caption.style.marginRight=8;
-  cctvPlaybackButton=new Button(KarineUI.Sounded(()=>{
+  var replay=KarineUI.CctvControl(controls,"nav_prev",T("cctv.videoReplay"),false,()=>{KarineUI.Rewind(videoFrame);ReplayCctvVideo();});
+  cctvPlaybackButton=KarineUI.CctvControl(controls,null,T("cctv.videoPlay"),true,()=>{
    if(cctvFrames!=null){ToggleCctvFrames();return;}
    if(cctvPlayer==null || !cctvPlayer.isPrepared)return;
    if(cctvReachedEnd){ReplayCctvVideo();return;}
    if(cctvPlayer.isPlaying){cctvPlayer.Pause();cctvPlaybackButton.text=T("cctv.videoPlay");}
    else {cctvPlayer.Play();cctvPlaybackButton.text=T("cctv.videoPause");}
-  })){text=T("cctv.videoPlay")};
-  cctvStepButton=new Button(KarineUI.Sounded(()=>{
+  });
+  cctvPlaybackButton.style.minWidth=150;
+  cctvStepButton=KarineUI.CctvControl(controls,null,T("cctv.videoStep"),false,()=>{
    if(cctvFrames!=null){StepCctvFrame();return;}
    if(cctvPlayer==null || !cctvPlayer.isPrepared || cctvReachedEnd)return;
    if(cctvPlayer.isPlaying)cctvPlayer.Pause();
    cctvPlaybackButton.text=T("cctv.videoPlay");
    if(cctvPlayer.canStep)cctvPlayer.StepForward();
    else if(cctvPlayer.canSetTime)cctvPlayer.frame=Math.Max(0L,cctvPlayer.frame)+1L;
-  })){text=T("cctv.videoStep")};
-  var back=new Button(KarineUI.Sounded(StepCctvBack)){text=T("cctv.frameBack")};
-  var replay=new Button(KarineUI.Sounded(()=>{KarineUI.Rewind(videoFrame);ReplayCctvVideo();})){text=T("cctv.videoReplay")};
-  // Bu üçünün metni oynatma durumuna göre değişiyor, o yüzden düğme elle
-  // kuruluyor; biçimi yine kit'ten geliyor.
-  var speed=new Button{text="1x"};speed.clicked+=KarineUI.Sounded(()=>speed.text=CycleCctvSpeed());
-  var compare=new Button(KarineUI.Sounded(PinCctvFrame)){text="◫",tooltip=T("cctv.compare")};compare.style.display=frames?DisplayStyle.Flex:DisplayStyle.None;
-  foreach(var button in new[]{cctvPlaybackButton,back,cctvStepButton,replay,speed,compare}) {
-   KarineUI.Paint(button,KarineButtonKind.Secondary,true);
-   button.style.width=104;button.style.flexShrink=0;
-   button.style.minHeight=MinimumTouchTarget;button.style.fontSize=Typography.Snap(14);
-   button.style.marginRight=4;button.style.marginBottom=0;controls.Add(button);
-  }
-  speed.style.width=compare.style.width=58;
+  });
+  KarineUI.CctvProgress(controls,out var progressFill);
+  var clock=KarineUI.Technical(controls,timeText,KarineTheme.CctvArchive.TimeSize);clock.style.marginBottom=0;clock.style.marginRight=KarineTheme.SpaceMd;clock.style.color=Ink;
+  var back=KarineUI.CctvControl(controls,null,T("cctv.frameBack"),false,StepCctvBack);
+  var compare=KarineUI.CctvControl(controls,"pin",null,false,PinCctvFrame);compare.tooltip=T("cctv.compare");compare.style.display=frames?DisplayStyle.Flex:DisplayStyle.None;
+  Button speed=null;speed=KarineUI.CctvControl(controls,null,"1.0x",false,()=>KarineUI.CctvControlText(speed,CycleCctvSpeed()));
+  speed.style.marginRight=0;
+  // Düğme metni oynatma durumuyla değişir; `text` yerine iç etiket güncellenir.
+  controls.schedule.Execute(()=>{
+   KarineUI.CctvControlText(cctvPlaybackButton,cctvPlaybackButton.text);
+   float ratio=0f;string now=timeText;
+   if(cctvFrames!=null && cctvFrames.Length>1){ratio=Mathf.Max(0,cctvFrameIndex)/(float)(cctvFrames.Length-1);
+    if(cctvFrameTimes!=null && cctvFrameIndex>=0 && cctvFrameIndex<cctvFrameTimes.Length && !string.IsNullOrEmpty(cctvFrameTimes[cctvFrameIndex]))now=cctvFrameTimes[cctvFrameIndex];}
+   else if(cctvPlayer!=null && cctvPlayer.isPrepared && cctvPlayer.length>0){ratio=(float)(cctvPlayer.time/cctvPlayer.length);}
+   if(cctvReachedEnd)ratio=1f;
+   progressFill.style.width=Length.Percent(Mathf.Clamp01(ratio)*100f);clock.text=now;
+  }).Every(150);
+  string captionTime,captionBody;
+  KarineUI.SplitCctvLine(T(record.textKey),string.IsNullOrEmpty(record.overlayTimeKey)?null:T(record.overlayTimeKey),out captionTime,out captionBody);
+  KarineUI.CctvCaption(viewer,captionTime,captionBody);
   cctvPlaybackButton.SetEnabled(false);cctvStepButton.SetEnabled(false);
   cctvVideoStatus=Text(videoFrame,T("cctv.videoLoading"),Gold,13);
   cctvVideoStatus.style.position=Position.Absolute;
@@ -232,18 +228,16 @@ public sealed partial class BubeApp {
   cctvPlayer.loopPointReached+=OnCctvVideoEnded;
   cctvPlayer.Prepare();
  }
+ // 3 Ekim 2026 maketi: dosya ekranlarının üst şeridi, solda kamera listesi, sağda monitör dökümü.
  void CctvScreen(Node node,string focusEventId=null) {
+  StopCctvVideo();
   Back(FilePage); // görüntüden dosyaya dönülür
   showingInterviewList=false;
-  VisualElement content;
-  BpsTablet("cctv.archive",out content);
-  RequestScreenHeader(content);
-  VisualElement cameraList;
-  var tabletContent=content;
-  content=KarineUI.CctvArchiveLayout(tabletContent,T("cctv.archive"),out cameraList,T("cctv.archiveHint"));
-  var tabletScreen=tabletContent.parent;
-  var closeTablet=KarineUI.IconButton(tabletScreen,"close",FilePage,T("cctv.closeArchive"));
-  closeTablet.style.position=Position.Absolute;closeTablet.style.right=KarineTheme.SpaceSm;closeTablet.style.top=KarineTheme.SpaceSm;
+  Desk();
+  KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.file"),T(game.Data.titleKey),T("file.unit"),()=>{StopCctvVideo();FilePage();},out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>{StopCctvVideo();SettingsFrom(()=>CctvScreen(node,focusEventId));});
+  var cameraList=KarineUI.CctvCameras(root,T("cctv.cameras"));
   foreach(var source in game.Data.nodes.Where(n=>(n.kind=="cctv"||n.kind=="bps")&&(n==node||game.Available(n)))) {
    var target=source;
    string sourceTitle=string.IsNullOrEmpty(source.cctvSourceKey)?T(source.titleKey):T(source.cctvSourceKey),place=null;
@@ -258,16 +252,11 @@ public sealed partial class BubeApp {
     if(target.kind=="cctv")CctvScreen(target);else ReadPage(target);
    });
   }
-  var meta=new VisualElement();meta.style.flexDirection=FlexDirection.Row;
-  meta.style.alignItems=Align.Center;meta.style.paddingRight=KarineTheme.IconButtonSize+KarineTheme.SpaceSm;content.Add(meta);
-  var camera=KarineUI.Subtitle(meta,T(node.cctvSourceKey),KarineTheme.CctvArchive.HeadingSize);camera.style.color=KarineTheme.Primary;
-  camera.style.flexGrow=1;camera.style.flexShrink=1;camera.style.marginBottom=0;
-  var status=Text(meta,T("cctv.signal"),Gold,14);status.style.marginBottom=0;
-  var period=Text(content,T(node.cctvPeriodKey),Muted,KarineTheme.CctvArchive.MetaSize+1);period.style.marginBottom=KarineTheme.SpaceMd;
+  var content=KarineUI.CctvMonitor(root);
+  var status=KarineUI.CctvMonitorHead(content,T(node.cctvSourceKey),string.IsNullOrEmpty(node.cctvPeriodKey)?null:T(node.cctvPeriodKey),T("cctv.signal"),T("cctv.overlay.rec"));
   var recordPanel=KarineUI.CctvRecordPanel(content);
   KarineUI.SignalSwitch(recordPanel);
   var stream=Scroll(recordPanel);
-  stream.style.paddingTop=2;
   var records=node.cctvEvents ?? new CctvEvent[0];
   var rows=new List<VisualElement>();
   var lines=new List<Label>();
@@ -275,13 +264,18 @@ public sealed partial class BubeApp {
   var stamps=new List<Label>();
   foreach(var record in records) {
    var row=KarineUI.CctvRecordRow(stream);rows.Add(row);
-   var stamp=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.TextSize);stamp.style.width=KarineTheme.CctvArchive.TimeWidth;
-   stamp.style.flexShrink=0;stamp.style.marginBottom=0;stamp.style.color=KarineTheme.Secondary;stamps.Add(stamp);
-   var label=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.TextSize);label.style.flexGrow=1;label.style.flexShrink=1;
-   label.style.marginBottom=0;lines.Add(label);
+   var stamp=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.LineSize);stamp.style.width=KarineTheme.CctvArchive.TimeWidth-30;
+   stamp.style.flexShrink=0;stamp.style.marginBottom=0;stamp.style.color=KarineTheme.Primary;stamps.Add(stamp);
+   var dash=KarineUI.Technical(row,"--",KarineTheme.CctvArchive.LineSize);dash.style.width=40;dash.style.marginBottom=0;dash.style.color=KarineTheme.Primary;
+   var label=KarineUI.Technical(row,string.Empty,KarineTheme.CctvArchive.LineSize);label.style.flexGrow=1;label.style.flexShrink=1;
+   label.style.marginBottom=0;label.style.color=KarineTheme.Primary;lines.Add(label);
    // Sinyal satırları her vakada aynı kırmızıyla yazılır; içerik değil cihaz durumudur.
-   if(!string.IsNullOrEmpty(record.signalKey)||!string.IsNullOrEmpty(record.glitchKey)){label.style.color=KarineTheme.Danger;stamp.style.color=KarineTheme.Danger;}
-   var action=new VisualElement();row.Add(action);actions.Add(action);
+   bool alert=!string.IsNullOrEmpty(record.glitchKey);
+   if(alert){KarineUI.CctvRowAlert(row);label.style.color=dash.style.color=stamp.style.color=KarineTheme.Danger;}
+   else if(!string.IsNullOrEmpty(record.signalKey))label.style.color=KarineTheme.CctvArchive.Signal;
+   var still=record.framePaths!=null && record.framePaths.Length>0?Resources.Load<Texture2D>(record.framePaths[0]):null;
+   KarineUI.CctvThumb(row,still,record.HasFootage || alert);
+   actions.Add(KarineUI.CctvActionSlot(row));
   }
   Action<int,string> write=(i,text)=>{
    string time=string.IsNullOrEmpty(records[i].overlayTimeKey)?null:T(records[i].overlayTimeKey),stamp,body;
@@ -289,16 +283,13 @@ public sealed partial class BubeApp {
   };
   Action<int> addFootageButton=index=>{
    var record=records[index];
-   if(!record.HasFootage)return;
-   var watch=KarineUI.Button_(actions[index],"▶ "+T("cctv.watch"),()=>OpenCctvVideo(node,record,content));
-   watch.tooltip=T("cctv.watch");
-   watch.style.minWidth=88;watch.style.height=MinimumTouchTarget;
-   watch.style.marginRight=0;watch.style.marginBottom=0;
-   watch.style.fontSize=Typography.Snap(15);KarineUI.CctvChip(watch);
+   if(!record.HasFootage){if(actions[index].childCount==0 && string.IsNullOrEmpty(record.glitchKey) && string.IsNullOrEmpty(record.signalKey))KarineUI.Technical(actions[index],"---",KarineTheme.CctvArchive.LineSize).style.color=KarineTheme.Secondary;return;}
+   KarineUI.CctvRowButton(actions[index],"nav_next",T("cctv.watch"),false,()=>OpenCctvVideo(node,record,content));
   };
-  var controls=new VisualElement();content.Add(controls);
+  var footer=KarineUI.CctvFooter(content);
+  Action finish=()=>KarineUI.CctvFooterDone(footer,T("cctv.complete"),T("cctv.total")+" "+records.Length+" "+T("cctv.records"));
   if(!string.IsNullOrEmpty(focusEventId) && game.State.read.Contains(node.id)) {
-   status.text=T("cctv.complete");
+   finish();
    for(int i=0;i<records.Length;i++) {
     rows[i].style.display=DisplayStyle.Flex;
     write(i,T(records[i].textKey));
@@ -309,17 +300,15 @@ public sealed partial class BubeApp {
    return;
   }
   bool reviewing=false;
-  Button(controls,T("cctv.review"),()=>{
+  var review=KarineUI.CctvRowButton(footer,"search",T("cctv.review"),true,()=>{
    if(reviewing)return;
    reviewing=true;
-   controls.Clear();
-   Text(controls,T("cctv.scanning"),Gold,15);
+   KarineUI.CctvFooterText(footer,T("cctv.scanning"));
    int index=0;
    Action next=null;
    next=()=>{
     if(index>=records.Length) {
-     controls.Clear();
-     status.text=T("cctv.complete");
+     finish();
      game.Read(node.id);Save();
      return;
     }
@@ -327,7 +316,7 @@ public sealed partial class BubeApp {
     var record=records[current];
     int delay=record.delayMs>0?record.delayMs:650;
     content.schedule.Execute(()=>{
-     if(!string.IsNullOrEmpty(record.signalKey))status.text=T(record.signalKey);
+     if(!string.IsNullOrEmpty(record.signalKey))status.text=T(record.signalKey).TrimStart('●',' ').ToUpper(KarineUI.Tr);
      rows[current].style.display=DisplayStyle.Flex;
      var line=lines[current];
      string finalText=T(string.IsNullOrEmpty(record.glitchKey)?record.textKey:record.glitchKey);
@@ -343,23 +332,20 @@ public sealed partial class BubeApp {
       addFootageButton(current);
       if(!string.IsNullOrEmpty(record.glitchKey)) {
        Button clarify=null;
-       clarify=KarineUI.Button_(actions[current],"↻",()=>{
+       clarify=KarineUI.CctvRowButton(actions[current],"gear",T("cctv.clarifyShort"),true,()=>{
         clarify.RemoveFromHierarchy();
         line.text=T("cctv.syncing");
         content.schedule.Execute(()=>write(current,T(record.textKey))).ExecuteLater(360);
        });
        clarify.tooltip=T("cctv.clarify");
-       clarify.style.width=KarineTheme.IconButtonSize;clarify.style.height=KarineTheme.IconButtonSize;
-       clarify.style.paddingLeft=0;clarify.style.paddingRight=0;
-       clarify.style.marginRight=0;clarify.style.marginBottom=0;
-       clarify.style.fontSize=Typography.Snap(22);KarineUI.CctvChip(clarify);
       }
       next();
      }).ExecuteLater(110+current%3*70);
     }).ExecuteLater(delay);
    };
    next();
-  },true);
+  });
+  review.style.alignSelf=Align.Center;review.style.flexGrow=1;
  }
 }
 }
