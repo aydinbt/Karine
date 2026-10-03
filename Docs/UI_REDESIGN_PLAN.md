@@ -32,7 +32,7 @@ Akış her öğe için aynıdır:
 
 ## 2. Masa (ana oyun ekranı)
 - [ ] Üst gezinme çubuğu: dosya başlığı, sekmeler, ayarlar
-- [ ] Masa sahnesi ve nesne düğmeleri: telefon, dosya, tepsi, lamba
+- [ ] Masa sahnesi ve nesne düğmeleri: telefon, dosya, tepsi, lamba, CCTV tableti
 - [ ] Gelen evrak bildirimi: yanıp sönen rozet ve önizleme
 - [ ] Çıkış / ana menüye dönüş düğmesi
 - [x] Gelen evrak modalı, teklif hali (`UI_INBOX`); diğer evrak türleri `[~]`
