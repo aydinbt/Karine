@@ -174,6 +174,9 @@ public static partial class KarineUI {
  }
 
  // Menünün arka planı yavaşça yaklaşır ve kayar; üstünde ince yağmur iner.
+ // Durağan menü görselinin canlı katmanı: çok yavaş kamera nefesi, yalnız pencere
+ // camının içinde yağan yağmur, masa lambasının hafif titrek sıcak halesi.
+ // Konumlar görselin oranlarına göre yüzde olarak `KarineTheme.Stage`dadır.
  public static void MenuDrift(VisualElement film,VisualElement root) {
   if(film==null || !Fx.On)return;
   float start=Time.realtimeSinceStartup;
@@ -181,23 +184,39 @@ public static partial class KarineUI {
   film.schedule.Execute(()=> {
    float t=(Time.realtimeSinceStartup-start)/S.DriftSeconds;
    float wave=.5f-.5f*Mathf.Cos(t*Mathf.PI*2);
-   film.style.scale=new Scale(Vector3.one*(1.02f+S.DriftZoom*wave));
+   film.style.scale=new Scale(Vector3.one*(1.01f+S.DriftZoom*wave));
    film.style.translate=new Translate(-S.DriftPan*wave,S.DriftPan*.3f*wave);
   }).Every(KarineTheme.Motion.TickMs*2);
-  var rain=new VisualElement {name="MenuRain",pickingMode=PickingMode.Ignore};
-  rain.style.position=Position.Absolute;rain.style.left=0;rain.style.right=0;rain.style.top=0;rain.style.bottom=0;
-  rain.style.overflow=Overflow.Hidden;root.Insert(root.IndexOf(film)+1,rain);
+  int at=root.IndexOf(film)+1;
+  // Pencere: yağmur yalnız camın arkasında görünür, odanın içine yağmaz.
+  var glass=new VisualElement {name="MenuRain",pickingMode=PickingMode.Ignore};
+  glass.style.position=Position.Absolute;glass.style.overflow=Overflow.Hidden;
+  glass.style.left=Length.Percent(S.WindowLeft);glass.style.top=Length.Percent(S.WindowTop);
+  glass.style.width=Length.Percent(S.WindowWidth);glass.style.height=Length.Percent(S.WindowHeight);
+  root.Insert(at++,glass);
   var random=new System.Random(11);var streaks=new List<(VisualElement e,float x,float speed,float phase)>();
   for(int i=0;i<Fx.Count(S.MenuRain);i++) {
    var streak=new VisualElement {pickingMode=PickingMode.Ignore};
-   streak.style.position=Position.Absolute;streak.style.width=1;streak.style.height=Length.Percent(7);
-   streak.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Light,.05f+(float)random.NextDouble()*.07f);
-   streak.style.rotate=new Rotate(Angle.Degrees(12));rain.Add(streak);
-   streaks.Add((streak,(float)random.NextDouble()*115,60+(float)random.NextDouble()*40,(float)random.NextDouble()*100));
+   streak.style.position=Position.Absolute;streak.style.width=1;streak.style.height=Length.Percent(4+(float)random.NextDouble()*5);
+   streak.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Light,.06f+(float)random.NextDouble()*.10f);
+   streak.style.rotate=new Rotate(Angle.Degrees(6));glass.Add(streak);
+   streaks.Add((streak,(float)random.NextDouble()*110,70+(float)random.NextDouble()*50,(float)random.NextDouble()*100));
   }
-  rain.schedule.Execute(()=> {
+  glass.schedule.Execute(()=> {
    float time=Time.realtimeSinceStartup-start;
-   foreach(var s in streaks){float y=Mathf.Repeat(s.phase+time*s.speed,120)-10;s.e.style.left=Length.Percent(s.x-y*.2f);s.e.style.top=Length.Percent(y);}
+   foreach(var s in streaks){float y=Mathf.Repeat(s.phase+time*s.speed,120)-10;s.e.style.left=Length.Percent(s.x-y*.1f);s.e.style.top=Length.Percent(y);}
+  }).Every(KarineTheme.Motion.TickMs*2);
+  // Lamba: sıcak hale, nefes gibi yavaş ve arada küçük bir titreme.
+  var halo=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+  halo.style.position=Position.Absolute;
+  halo.style.left=Length.Percent(S.LampX-S.LampSize/2);halo.style.top=Length.Percent(S.LampY-S.LampSize/2);
+  halo.style.width=Length.Percent(S.LampSize);halo.style.height=Length.Percent(S.LampSize*1.6f);
+  root.Insert(at,halo);
+  halo.schedule.Execute(()=> {
+   float time=Time.realtimeSinceStartup-start;
+   float breath=.5f+.5f*Mathf.Sin(time*.9f);
+   float flicker=Mathf.PerlinNoise(time*7f,.3f)>.82f?.5f:1f;
+   halo.tintColor=KarineTheme.Alpha(KarineTheme.Accent,(.10f+.06f*breath)*flicker*Fx.Amount);
   }).Every(KarineTheme.Motion.TickMs*2);
  }
 

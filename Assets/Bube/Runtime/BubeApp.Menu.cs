@@ -23,7 +23,7 @@ public sealed partial class BubeApp {
   showingInterviewList=false;
   root.Clear();
   root.style.backgroundColor=Color.black;
-  MenuBackdrop();MenuVeil();KarineUI.LiveMenu(root);MenuReturnAd();
+  MenuBackdrop();MenuVeil();MenuReturnAd();
   var left=new VisualElement();left.style.position=Position.Absolute;
   left.style.left=Length.Percent(6);left.style.top=Length.Percent(7);
   left.style.width=KarineTheme.MainMenu.LogoWidth;
@@ -81,37 +81,12 @@ public sealed partial class BubeApp {
   Application.Quit();
  }
 
- // Arka plan: dönen animasyon. Video açılmazsa durağan görsele düşer — menü
- // hiçbir durumda boş siyah ekrana bakmaz.
+ // Arka plan: durağan görsel (3 Ekim 2026: video kaldırıldı). Canlılık
+ // `MenuDrift` katmanından gelir: pencerede yağmur, lambada titrek hale.
  void MenuBackdrop() {
-  if(!menuVideoFailed) {
-   if(menuTexture==null) {
-    menuTexture=new RenderTexture(1920,1080,0,RenderTextureFormat.ARGB32);
-    menuTexture.Create();
-   }
-   if(menuPlayer==null) {
-    menuPlayer=gameObject.AddComponent<VideoPlayer>();
-    menuPlayer.playOnAwake=false;
-    menuPlayer.isLooping=true;
-    menuPlayer.renderMode=VideoRenderMode.RenderTexture;
-    menuPlayer.targetTexture=menuTexture;
-    // Menü döngüsü sessizdir: müzik/ses ayrı bir karardır.
-    menuPlayer.audioOutputMode=VideoAudioOutputMode.None;
-    menuPlayer.source=VideoSource.Url;
-    menuPlayer.url=Application.streamingAssetsPath+"/Bube/main_menu_loop.mp4";
-    menuPlayer.errorReceived+=OnMenuVideoError;
-    menuPlayer.prepareCompleted+=OnMenuVideoPrepared;
-    menuPlayer.Prepare();
-   }
-   var film=new Image {image=menuTexture,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
-   film.style.position=Position.Absolute;
-   film.style.left=0;film.style.right=0;film.style.top=0;film.style.bottom=0;
-   root.Add(film);KarineUI.MenuDrift(film,root);
-   return;
-  }
-  var art=Resources.Load<Texture2D>("Bube/MainMenuNight");
+  var art=Resources.Load<Texture2D>("Bube/MainMenuBackdrop") ?? Resources.Load<Texture2D>("Bube/MainMenuNight");
   if(art==null)return;
-  art.filterMode=FilterMode.Point;
+  art.filterMode=FilterMode.Bilinear;
   var backdrop=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
   backdrop.style.position=Position.Absolute;
   backdrop.style.left=0;backdrop.style.right=0;backdrop.style.top=0;backdrop.style.bottom=0;
