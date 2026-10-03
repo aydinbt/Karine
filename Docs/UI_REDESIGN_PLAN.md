@@ -53,7 +53,7 @@ Akış her öğe için aynıdır:
 
 ## 5. Sonuç
 - [~] Gerekçeli rapor (`UI_REPORT`): 3 Ekim kararıyla iki adım (şüpheli, ne ile) + varsa gözaltı + gönder; kanıt adımı ve dayanak seçici kaldırıldı
-- [ ] Vaka özeti / rapor gönderildi (CaseSummary, `UI_CASE_SUMMARY`)
+- [~] Vaka özeti / rapor gönderildi (CaseSummary, `UI_CASE_SUMMARY`): yeni görevlendirme düğmesi bilerek yok, sıradaki görev bildirimle gelir
 - [ ] Faks / değerlendirme (FaxPage)
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 
@@ -63,7 +63,7 @@ Akış her öğe için aynıdır:
 - [ ] Evrak açılışı: basılarak çıkma, oda kararması ve satır satır yazı kaldırıldı
 - [ ] Modal açılış / kapanış geçişi
 - [ ] Vaka açılış dizisi (bölüm kartı, mekân karesi, başlık)
-- [ ] Dosya kapandı geçişi (CaseClosed, `UI_CASE_CLOSED`)
+- [~] Dosya kapandı geçişi (CaseClosed, `UI_CASE_CLOSED`)
 - [ ] Ortak küçük öğeler: rozet, toast, onay penceresi, boş durum
 
 Sıra yukarıdan aşağıya. Masa en çok görülen ekran olduğu için 2. bölüm önceliklidir.

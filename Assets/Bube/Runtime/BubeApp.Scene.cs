@@ -49,7 +49,7 @@ public sealed partial class BubeApp {
   if(PlayerPrefs.GetInt(key,0)==1)return false;
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   audioDirector?.Sting();
-  KarineUI.StampDown(root,T("case.closed"),()=>AfterClosing(again));
+  KarineUI.FilmBurn(root,()=>KarineUI.CaseClosed(root,T(game.Data.titleKey),T("case.closedStamp"),T("case.archived"),()=>AfterClosing(again)));
   return true;
  }
 

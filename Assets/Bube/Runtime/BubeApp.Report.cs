@@ -178,25 +178,27 @@ public sealed partial class BubeApp {
  void CaseSummary() {
   if(!game.State.closed){Desk();return;}
   Back(Desk);root.Clear();KarineUI.InboxScene(root);
-  KarineUI.DossierBar(root,T("back.desk"),T(game.Data.titleKey),T("file.unit"),Desk,out var tools);
+  KarineUI.DossierBar(root,T("back.desk"),T("summary.title"),T("file.unit"),Desk,out var tools);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(CaseSummary));
-  var card=KarineUI.RecordPaper(root);
-  var submitted=game.State.submittedAtUtcTicks>0
-   ?T("summary.sentAt")+": "+new DateTime(game.State.submittedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm"):null;
-  KarineUI.RecordHead(card,T(game.Data.summary.locationKey),submitted,T("report.stamp"),false);
-  bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
-  KarineUI.RecordAfter(card,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
+  var report=game.Data.nodes.FirstOrDefault(n=>n.id=="report");
+  var photo=report==null || string.IsNullOrEmpty(report.imageResource)?null:Resources.Load<Texture2D>(report.imageResource);
+  KarineUI.SummaryPaper(root,photo,out var card);
+  KarineUI.SummaryStamp(card,T("summary.stamp"),T(game.Data.titleKey)+" · "+T(game.Data.summary.locationKey));
   KarineUI.RecordHeading(card,T("career.sentReport"));
   var suspect=game.Data.verdicts.FirstOrDefault(v=>v.id==game.State.reportSuspect);
   var method=game.Data.methods.FirstOrDefault(v=>v.id==game.State.reportMethod);
   var custody=(game.Data.custody ?? new Choice[0]).FirstOrDefault(v=>v.id==game.State.reportCustody);
-  KarineUI.RecordRow(card,T("summary.investigator"),T("summary.bora"),null,"");
-  if(suspect!=null)KarineUI.RecordRow(card,T(SuspectKey(game.Data)),T(suspect.labelKey),Resources.Load<Texture2D>("Bube/Characters/"+suspect.id),"");
+  if(suspect!=null)KarineUI.RecordRow(card,T(SuspectKey(game.Data)),T(suspect.labelKey),null,"");
   if(method!=null)KarineUI.RecordRow(card,T(MethodKey(game.Data)),T(method.labelKey),null,"");
   if(custody!=null)KarineUI.RecordRow(card,ReportCustodyHeading(game.Data),T(custody.labelKey),null,"");
+  KarineUI.RecordRow(card,T("summary.investigator"),T("summary.bora"),null,"");
+  if(game.State.submittedAtUtcTicks>0)
+   KarineUI.RecordRow(card,T("summary.sentAt"),new DateTime(game.State.submittedAtUtcTicks,DateTimeKind.Utc).ToLocalTime().ToString("dd.MM.yyyy HH:mm"),null,"");
   var sourceNames=game.Data.nodes.Where(n=>game.State.read.Contains(n.id)).Select(n=>T(n.titleKey)).Distinct().Take(4).ToArray();
-  KarineUI.RecordHeading(card,T("summary.sources").TrimStart('⌕','▣',' '));
-  KarineUI.RecordAfter(card,sourceNames.Length==0?T("summary.noSources"):string.Join("  ·  ",sourceNames));
+  if(sourceNames.Length==0)sourceNames=new[]{T("summary.noSources")};
+  bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
+  KarineUI.SummarySources(card,T("summary.sources").TrimStart('⌕',' '),sourceNames,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
+  var back=KarineUI.PaperButton(card,T("back.desk"),Desk);back.style.marginTop=KarineTheme.SpaceLg;back.style.minHeight=48;
  }
  void Result() {
   if(game.SubmitReport(selectedSuspect,selectedMethod,selectedCustody)) {

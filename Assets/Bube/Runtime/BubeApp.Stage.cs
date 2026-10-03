@@ -124,7 +124,7 @@ public sealed partial class BubeApp {
    ("Zarf",()=>KarineUI.EnvelopeSeal(root,v=>v?.RemoveFromHierarchy())),
    ("Mühür",()=>KarineUI.StampDown(root,T("report.stamp"),null)),
    ("Yanık",()=>KarineUI.FilmBurn(root,null)),
-   ("Kapandı",()=>KarineUI.CaseClosed(root,parts[0].Trim(),parts.Last().Trim(),T("case.closed"),null)),
+   ("Kapandı",()=>KarineUI.CaseClosed(root,T(game.Data.titleKey),T("case.closedStamp"),T("case.archived"),null)),
    ("Rütbe",()=>KarineUI.RankCeremony(root,T(game.TrustStatusKey),null)),
    ("Bağlantı",()=>KarineUI.Connecting(root,T("terminal.connecting"))),
    ("Geri sar",()=>KarineUI.Rewind(stage)),

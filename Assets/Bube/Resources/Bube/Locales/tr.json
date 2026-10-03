@@ -1313,6 +1313,22 @@
    "value": "Faksı oku"
   },
   {
+   "key": "summary.stamp",
+   "value": "Rapor gönderildi"
+  },
+  {
+   "key": "summary.title",
+   "value": "Rapor özeti"
+  },
+  {
+   "key": "case.archived",
+   "value": "Dosya arşive kaldırıldı."
+  },
+  {
+   "key": "case.closedStamp",
+   "value": "KAPANDI"
+  },
+  {
    "key": "summary.brand",
    "value": "bube Departman\nİstanbul · Beşiktaş Şubesi"
   },
@@ -1378,7 +1394,7 @@
   },
   {
    "key": "summary.faxLater",
-   "value": "Sonuç Gelen Evraklar’a faksla bildirilecek"
+   "value": "Değerlendirme faksla bildirilecek."
   },
   {
    "key": "summary.faxAvailable",

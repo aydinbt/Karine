@@ -110,7 +110,8 @@ public static class KarineTheme {
   public const float MoonAlpha=.07f, CurtainAlpha=.22f, CurtainSeconds=9f, FlashAlpha=.35f, ThunderGain=.5f;
   public const int ThunderMinMs=40000, ThunderMaxMs=90000;
   public static readonly Rect AshArea=new Rect(24,52,4.5f,13);
-  public const float EnvelopeSeconds=1.1f, WarmSeconds=.7f, ArchiveSeconds=2.6f, DrySeconds=1.6f, ShineSeconds=1.1f;
+  public const int ClosedFolderWidth=300, ClosedFolderHeight=380, ClosedTab=34, ClosedStampSize=44, ClosedNoteSize=17;
+  public const float EnvelopeSeconds=1.1f, WarmSeconds=.7f, ArchiveSeconds=4.2f, DrySeconds=1.6f, ShineSeconds=1.1f;
   public const int NeonMinMs=20000, NeonMaxMs=50000, ShineEveryMs=8000, MeterMs=250;
   public const float PullLift=10f;
  }
@@ -337,6 +338,11 @@ public static class KarineTheme {
   public const int TitleSize=32, BodySize=15, StampSize=26, HeadingSize=20, RowHeight=44, KeyWidth=130, ValueSize=17, BasisSize=14, Portrait=64;
   public const int TrustHeight=56, TrustSize=17, PillWidth=170, NoteSize=13;
   public const float StampTilt=-8, ValueWidth=42;
+ }
+ public static class CaseSummary {
+  public static readonly Rect Paper=new Rect(11,12.5f,78,85);
+  public const int PhotoHeight=300, PhotoBorder=10, Clip=40, StampSize=40, LineSize=17, HeadingSize=19, SourceSize=14, FaxIcon=30;
+  public const float PhotoWidth=32, PhotoTilt=-2, StampTilt=-3, NoteTilt=-1, FaxTilt=-4, FaxWidth=34;
  }
  public static class Search {
   public static readonly Rect Filters=new Rect(2.4f,12.5f,10.8f,80);
