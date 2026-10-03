@@ -23,7 +23,7 @@ public sealed partial class BubeApp {
   float ratio=total==0?0:(float)done/total;
 
   var overall=KarineUI.BoardPanel(main,T("career.overall"));overall.style.flexShrink=0;
-  var figures=new VisualElement();figures.style.flexDirection=FlexDirection.Row;figures.style.marginBottom=KarineTheme.SpaceMd;overall.Add(figures);
+  var figures=new VisualElement();figures.style.flexDirection=FlexDirection.Row;figures.style.marginBottom=KarineTheme.SpaceSm;overall.Add(figures);
   KarineUI.BoardFigure(figures,atlas.countries.Count.ToString(),T("career.board.countries"),worlds+" / "+atlas.countries.Count,false);
   KarineUI.BoardFigure(figures,total.ToString(),T("career.board.cases"),done+" / "+total,true);
   KarineUI.BoardFigure(figures,"%"+Mathf.RoundToInt(ratio*100),T("career.board.progress"),null,true);
@@ -32,7 +32,7 @@ public sealed partial class BubeApp {
   int pending=game.Career.pendingReviews.Count;
   int supported=history.Count(r=>r.evaluationType=="supported"),incomplete=history.Count(r=>r.evaluationType=="incomplete"),wrong=history.Count(r=>r.evaluationType=="falseAccusation");
   var tiles=new VisualElement {name="CareerTiles"};tiles.style.flexDirection=FlexDirection.Row;tiles.style.flexShrink=0;
-  tiles.style.marginTop=KarineTheme.SpaceMd;tiles.style.marginBottom=KarineTheme.SpaceMd;main.Add(tiles);
+  tiles.style.marginTop=KarineTheme.SpaceSm;tiles.style.marginBottom=KarineTheme.SpaceSm;main.Add(tiles);
   KarineUI.BoardTile(tiles,"folder",history.Count.ToString(),T("career.board.done"));
   KarineUI.BoardTile(tiles,"document",wrong.ToString(),T("career.board.failed"));
   TrustBadge(KarineUI.BoardTile(tiles,"chart","%"+game.Career.departmentTrust,T(game.TrustStatusKey)));
@@ -45,7 +45,7 @@ public sealed partial class BubeApp {
   var tones=new[]{KarineTheme.CareerBoard.Supported,KarineTheme.Accent,KarineTheme.Secondary,KarineTheme.Danger};
   var counts=new[]{supported,pending,incomplete,wrong};int sum=counts.Sum();
   body.Add(new KarineUI.CareerRing(counts,tones,T("career.board.total"),sum.ToString(),T("career.board.unit")));
-  var legend=new VisualElement();legend.style.flexGrow=1;legend.style.marginLeft=KarineTheme.SpaceXl;body.Add(legend);
+  var legend=new VisualElement();legend.style.flexGrow=1;legend.style.marginLeft=KarineTheme.SpaceLg;legend.style.minWidth=0;legend.style.flexShrink=1;body.Add(legend);
   var labels=new[]{T("career.supportedCount"),T("career.pending"),T("career.incompleteCount"),T("career.falseCount")};
   for(int i=0;i<4;i++)KarineUI.BoardLegend(legend,tones[i],labels[i],counts[i],sum==0?0:Mathf.RoundToInt(100f*counts[i]/sum));
 

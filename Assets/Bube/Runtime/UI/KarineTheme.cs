@@ -227,9 +227,9 @@ public static class KarineTheme {
  }
  // Kariyer panosu, 3 Ekim 2026 maketi (Docs/Reference/UI_CAREER_2026-10.png).
  public static class CareerBoard {
-  public const int TabHeight=46, TabWidth=230, TabSize=22, PanelTitleSize=26, FigureSize=60, FigureLabelSize=20, FigureSubSize=14;
-  public const int BarHeight=12, TileHeight=86, TileNumberSize=40, TileLabelSize=13, TileIcon=34;
-  public const int Ring=168, RingWidth=22, RingTotalSize=40, LegendSize=16, CountryPhotoWidth=176, CountryRow=70, CountryNameSize=22;
+  public const int TabHeight=46, TabWidth=230, TabSize=22, PanelTitleSize=22, FigureSize=44, FigureLabelSize=17, FigureSubSize=13;
+  public const int BarHeight=10, TileHeight=72, TileNumberSize=34, TileLabelSize=13, TileIcon=30;
+  public const int Ring=128, RingWidth=16, RingTotalSize=32, LegendSize=14, CountryPhotoWidth=112, CountryRow=60, CountryNameSize=20;
   // Sonuç halkası: uygun bulunan yeşil; yalnız bu grafikte kullanılır.
   public static readonly Color Supported=Hex("#3E8E4A");
  }

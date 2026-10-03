@@ -44,7 +44,7 @@ public static partial class KarineUI {
   var cell=new VisualElement();cell.style.flexGrow=1;cell.style.flexBasis=0;cell.style.alignItems=Align.Center;
   if(divider){cell.style.borderLeftWidth=1;cell.style.borderLeftColor=KarineTheme.Border;}
   Write(cell,value,KarineTheme.Primary,B.FigureSize,Heading).style.marginBottom=0;
-  var l=Write(cell,label.ToUpper(Tr),KarineTheme.Primary,B.FigureLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
+  var l=Write(cell,label.ToUpper(Tr),KarineTheme.Primary,B.FigureLabelSize,Heading);l.style.marginBottom=0;l.style.marginTop=-KarineTheme.SpaceXs;l.style.letterSpacing=1;
   if(!string.IsNullOrEmpty(sub)){var s=Technical(cell,sub,B.FigureSubSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;}
   parent.Add(cell);
  }
@@ -66,17 +66,18 @@ public static partial class KarineUI {
   var words=new VisualElement();words.style.flexShrink=1;words.style.minWidth=0;tile.Add(words);
   Write(words,value,KarineTheme.Primary,B.TileNumberSize,Heading).style.marginBottom=0;
   var l=Write(words,label.ToUpper(Tr),KarineTheme.Primary,B.TileLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
+  l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;l.style.unityTextAlign=TextAnchor.UpperLeft;
   parent.Add(tile);return tile;
  }
 
  public static void BoardLegend(VisualElement parent,Color color,string label,int count,int percent) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
-  row.style.paddingTop=KarineTheme.SpaceSm;row.style.paddingBottom=KarineTheme.SpaceSm;parent.Add(row);
-  var dot=new VisualElement();dot.style.width=14;dot.style.height=14;Round(dot,7);dot.style.backgroundColor=color;dot.style.marginRight=KarineTheme.SpaceMd;row.Add(dot);
+  row.style.paddingTop=KarineTheme.SpaceXs;row.style.paddingBottom=KarineTheme.SpaceXs;parent.Add(row);
+  var dot=new VisualElement();dot.style.width=14;dot.style.height=14;Round(dot,7);dot.style.backgroundColor=color;dot.style.marginRight=KarineTheme.SpaceSm;row.Add(dot);
   var l=Body_(row,label,B.LegendSize);l.style.flexGrow=1;l.style.flexShrink=1;l.style.minWidth=0;l.style.marginBottom=0;
   l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;
-  var n=Write(row,count.ToString(),KarineTheme.Primary,B.LegendSize+4,Heading);n.style.marginBottom=0;n.style.width=40;n.style.unityTextAlign=TextAnchor.MiddleRight;
-  var p=Write(row,"%"+percent,KarineTheme.Primary,B.LegendSize+4,Heading);p.style.marginBottom=0;p.style.width=56;p.style.unityTextAlign=TextAnchor.MiddleRight;
+  var n=Write(row,count.ToString(),KarineTheme.Primary,B.LegendSize+4,Heading);n.style.marginBottom=0;n.style.width=28;n.style.unityTextAlign=TextAnchor.MiddleRight;
+  var p=Write(row,"%"+percent,KarineTheme.Primary,B.LegendSize+4,Heading);p.style.marginBottom=0;p.style.width=48;p.style.unityTextAlign=TextAnchor.MiddleRight;
  }
 
  public static Button BoardCountry(VisualElement parent,string id,Texture2D art,string name,string count,float ratio,bool locked,Action click) {
@@ -91,8 +92,8 @@ public static partial class KarineUI {
   if(locked)Icon(photo,"lock",KarineTheme.Primary,KarineTheme.IconSize+4);
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.paddingLeft=KarineTheme.SpaceLg;words.style.paddingRight=KarineTheme.SpaceSm;row.Add(words);
   var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;top.style.marginBottom=KarineTheme.SpaceXs;words.Add(top);
-  var n=Write(top,name.ToUpper(Tr),KarineTheme.Primary,B.CountryNameSize,Heading);n.style.flexGrow=1;n.style.marginBottom=0;n.style.letterSpacing=1;
-  Write(top,count,KarineTheme.Primary,B.CountryNameSize,Heading).style.marginBottom=0;
+  var n=Write(top,name.ToUpper(Tr),KarineTheme.Primary,B.CountryNameSize,Heading);n.style.flexGrow=1;n.style.marginBottom=0;n.style.letterSpacing=1;n.style.unityTextAlign=TextAnchor.MiddleLeft;
+  var c=Write(top,count,KarineTheme.Primary,B.CountryNameSize,Heading);c.style.marginBottom=0;c.style.unityTextAlign=TextAnchor.MiddleRight;
   BoardBar(words,ratio,B.BarHeight-4);
   parent.Add(row);return row;
  }
