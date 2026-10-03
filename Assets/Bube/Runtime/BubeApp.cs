@@ -239,27 +239,36 @@ public sealed partial class BubeApp : MonoBehaviour {
   SetRoomSound(sceneName);
   if(SceneManager.GetActiveScene().name=="InterviewScene" && sceneName!="InterviewScene")leavingRoom=true;
   if(SceneManager.GetActiveScene().name!=sceneName) {
-   SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
    SceneVeil();
+   SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
   }
  }
 
- // Sahne değişirken ilk kareler boş görünüyordu (sahne yükü, masanın ilk ölçümü). Yeni ekran
- // kurulduktan sonra üstüne düz zemin rengi bir perde konur, birkaç kare bekler ve yumuşakça açılır.
+ // Sahne geçişi: siyah perde sahne yüklenmeden ÖNCE iner, kökün dışında durur (root.Clear onu silmez),
+ // yeni sahne yüklenip ekran birkaç kare oturana dek kapalı kalır, sonra siyahtan açılır.
+ VisualElement sceneVeil;Coroutine veilRoutine;
  void SceneVeil() {
-  root.schedule.Execute(()=>{
-   root.Q("SceneVeil")?.RemoveFromHierarchy();
-   var veil=new VisualElement {name="SceneVeil",pickingMode=PickingMode.Ignore};
-   veil.style.position=Position.Absolute;veil.style.left=-200;veil.style.right=-200;veil.style.top=-200;veil.style.bottom=-200;
-   veil.style.backgroundColor=KarineTheme.Background;root.Add(veil);
-   float start=-1;IVisualElementScheduledItem fade=null;
-   fade=veil.schedule.Execute(()=>{
-    if(start<0){start=Time.unscaledTime+KarineTheme.Motion.VeilHold;return;}
-    float t=Mathf.Clamp01((Time.unscaledTime-start)/KarineTheme.Motion.VeilSeconds);
-    veil.style.opacity=1-t*t*(3-2*t);
-    if(t>=1){fade.Pause();veil.RemoveFromHierarchy();}
-   }).Every(16);
-  }).StartingIn(0);
+  var host=root.parent ?? root;
+  if(sceneVeil==null || sceneVeil.parent==null) {
+   sceneVeil=new VisualElement {name="SceneVeil",pickingMode=PickingMode.Position};
+   sceneVeil.style.position=Position.Absolute;sceneVeil.style.left=0;sceneVeil.style.right=0;sceneVeil.style.top=0;sceneVeil.style.bottom=0;
+   sceneVeil.style.backgroundColor=Color.black;host.Add(sceneVeil);
+  }
+  sceneVeil.BringToFront();sceneVeil.style.opacity=1;
+  if(veilRoutine!=null)StopCoroutine(veilRoutine);
+  veilRoutine=StartCoroutine(LiftVeil());
+ }
+ IEnumerator LiftVeil() {
+  float hold=Time.unscaledTime+KarineTheme.Motion.VeilHold;
+  for(int frame=0;frame<4 || Time.unscaledTime<hold;frame++)yield return null;
+  float start=Time.unscaledTime;
+  while(true) {
+   float t=Mathf.Clamp01((Time.unscaledTime-start)/KarineTheme.Motion.VeilSeconds);
+   if(sceneVeil!=null)sceneVeil.style.opacity=1-t*t*(3-2*t);
+   if(t>=1)break;
+   yield return null;
+  }
+  sceneVeil?.RemoveFromHierarchy();sceneVeil=null;veilRoutine=null;
  }
 
  // Odanın sesi sahneden gelir. Masada **müzik** çalar, oda gürültüsü değil:

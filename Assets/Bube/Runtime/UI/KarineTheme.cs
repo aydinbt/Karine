@@ -10,7 +10,7 @@ namespace Bube {
 // birlikte kayar. Yeni bir renk gerekiyorsa önce kitte karşılığı aranır.
 public static class KarineTheme {
  public static class Motion {
-  public const float PaperArrivalSeconds=.7f, PageSeconds=.2f, VeilHold=.08f, VeilSeconds=.35f;
+  public const float PaperArrivalSeconds=.7f, PageSeconds=.2f, VeilHold=.25f, VeilSeconds=.45f;
   public const int PageOffset=18, TabLift=8;
   public const float TabletSeconds=.45f, CloseSeconds=.3f, PaperSeconds=.28f, PressScale=.975f;
   public const int TickMs=16, ReleaseMs=120, PaperOffset=28;
