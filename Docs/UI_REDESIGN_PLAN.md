@@ -40,7 +40,7 @@ Akış her öğe için aynıdır:
 
 ## 3. Soruşturma
 - [x] Dosya ve kanıt sayfası (FilePage, `UI_FILE*`): sekmeler, liste, rapor kâğıdı gözlendi; sorgu/zaman çizelgesi kâğıtları `[~]`; not defteri sekmesi kaldırıldı
-- [ ] Dosyada arama (FileSearchPage)
+- [~] Dosyada arama (FileSearchPage, `UI_SEARCH`)
 - [ ] Belge okuma (ReadPage)
 - [~] Karşılaştırma (ComparePage, `UI_COMPARE`)
 - [ ] CCTV dökümü ve görüntüler

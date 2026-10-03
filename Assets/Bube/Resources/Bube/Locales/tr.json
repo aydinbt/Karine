@@ -1873,6 +1873,22 @@
    "value": "DOSYADA GEZİN"
   },
   {
+   "key": "search.kind",
+   "value": "Kayıt türü"
+  },
+  {
+   "key": "search.person",
+   "value": "Kişi"
+  },
+  {
+   "key": "search.recentTitle",
+   "value": "Son aramalar"
+  },
+  {
+   "key": "search.remove",
+   "value": "Aramayı sil"
+  },
+  {
    "key": "search.title",
    "value": "DOSYADA GEZİN"
   },
@@ -1882,7 +1898,7 @@
   },
   {
    "key": "search.count",
-   "value": "EŞLEŞEN SATIR"
+   "value": "Sonuç"
   },
   {
    "key": "search.everyone",
@@ -1890,11 +1906,11 @@
   },
   {
    "key": "search.empty",
-   "value": "Bu süzgeçle eşleşen satır yok."
+   "value": "Bu süzgeçlerle eşleşen kayıt yok."
   },
   {
    "key": "search.open",
-   "value": "KAYNAĞI AÇ"
+   "value": "Aç"
   },
   {
    "key": "archive.menu",

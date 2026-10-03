@@ -49,23 +49,20 @@ public sealed partial class BubeApp {
   KarineUI.TapeWear(frame,views);
  }
 
- // Son aramalar: oturumda kullanılan süzgeç birleşimleri, dokununca geri gelir.
- void RecentSearches(VisualElement host,Node[] people,Action render) {
+ // Son aramalar: oturumda kullanılan süzgeç birleşimleri. Çipe dokununca geri gelir, ✕ siler.
+ void RecentSearches(VisualElement paper,Node[] people) {
   var now=(fileFilterKind,fileFilterPerson??"");
   recentSearches.Remove(now);recentSearches.Insert(0,now);
   if(recentSearches.Count>5)recentSearches.RemoveAt(5);
-  host.Clear();
   var others=recentSearches.Skip(1).ToArray();
   if(others.Length==0)return;
-  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.flexWrap=Wrap.Wrap;row.style.alignItems=Align.Center;host.Add(row);
-  var label=KarineUI.Technical(row,T("search.recent"),13);label.style.color=KarineTheme.Paper.Faded;label.style.marginRight=6;label.style.marginBottom=0;
-  string[] kinds={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
+  var row=KarineUI.SearchRecentRow(paper,T("search.recentTitle"));
   foreach(var entry in others) {
    var pick=entry;
    var person=people.FirstOrDefault(p=>p.personId==pick.person);
-   string text=T(kinds[Mathf.Clamp(pick.kind,0,3)])+(person==null?"":" · "+T(person.personNameKey));
-   var chip=KarineUI.PaperButton(row,text,()=>{fileFilterKind=pick.kind;fileFilterPerson=pick.person;render();},KarinePaperKind.Quiet);
-   chip.style.minHeight=34;chip.style.fontSize=Typography.Snap(13);chip.style.marginRight=4;chip.style.marginBottom=4;
+   string text=T(SearchKinds[Mathf.Clamp(pick.kind,0,3)])+" · "+(person==null?T("search.everyone"):T(person.personNameKey));
+   KarineUI.SearchRecentChip(row,text,()=>{fileFilterKind=pick.kind;fileFilterPerson=pick.person;FileSearchPage();},
+    ()=>{recentSearches.Remove(pick);FileSearchPage();},T("search.remove"));
   }
  }
 }

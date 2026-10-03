@@ -323,6 +323,14 @@ public static class KarineTheme {
   public const float CardTilt=1.2f, ConfirmTilt=-1.2f;
  }
 
+ // Dosyada gezin (3 Ekim 2026 maketi, Docs/Reference/UI_SEARCH_2026-10.png): solda koyu süzgeç paneli, sağda sonuç kâğıdı.
+ public static class Search {
+  public static readonly Rect Filters=new Rect(2.4f,12.5f,10.8f,80);
+  public static readonly Rect Paper=new Rect(14.2f,12,82,86);
+  public const int GroupSize=20, FilterSize=15, FilterIcon=26, Portrait=40, TitleSize=30, CountSize=16, RecentSize=13, RecentHeight=34;
+  public const int ResultIcon=34, ResultTitleSize=16, ResultTextSize=14, DateSize=13, OpenWidth=66, EmptyIcon=120, EmptySize=17;
+ }
+
  public static class Office {
   public const float Aspect=1672f/941f;
   // 3 Ekim 2026 masa maketi (Docs/Reference/UI_DESK_2026-10.png). Sahne resmi yazısızdır;

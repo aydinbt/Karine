@@ -122,106 +122,63 @@ public sealed partial class BubeApp {
   var field=node.fileMeta?.FirstOrDefault(f=>f.labelKey.EndsWith(".date"));
   return field!=null?T(field.valueKey):null;
  }
- // Künye alanının simgesi etiketin anahtarından gelir; bilinmeyen alan simgesiz kalır.
- static string MetaIcon(string labelKey) {
-  if(labelKey.EndsWith(".location"))return "pin";
-  if(labelKey.EndsWith(".number"))return "folder";
-  if(labelKey.EndsWith(".date"))return "calendar";
-  if(labelKey.EndsWith(".reporter"))return "person";
-  return "info";
- }
+ // 3 Ekim 2026 maketi: solda tür ve kişi süzgeçleri, sağda sonuç kâğıdı. Yazı alanı yok —
+ // klavye telefonda ekranın yarısını kaplıyordu ve aranacak sözcüğü bilmek oyuncunun işi değil.
+ // Kişi süzgeci vakaya özel liste tutmaz, "adı geçtiyse" kuralını kullanır.
+ static readonly string[] SearchKinds={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
  void FileSearchPage() {
   showingInterviewList=false;
   Desk();
-  var dark=KarineTheme.Paper.Ink;
-  var muted=KarineTheme.Paper.Faded;
-  var shade=new VisualElement();shade.style.position=Position.Absolute;
-  shade.style.left=0;shade.style.right=0;shade.style.top=0;shade.style.bottom=0;
-  shade.style.backgroundColor=KarineTheme.Veil(.82f);root.Add(shade);
-  var folder=new VisualElement();folder.style.position=Position.Absolute;
-  folder.style.left=Length.Percent(11);folder.style.right=Length.Percent(11);
-  folder.style.top=Length.Percent(5);folder.style.bottom=Length.Percent(5);
-  folder.style.backgroundColor=KarineTheme.Paper.Folder;root.Add(folder);
-  var paper=new VisualElement();paper.style.position=Position.Absolute;
-  paper.style.left=Length.Percent(12);paper.style.right=Length.Percent(12);
-  paper.style.top=Length.Percent(6);paper.style.bottom=Length.Percent(7);
-  paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  paper.style.paddingLeft=28;paper.style.paddingRight=28;
-  paper.style.paddingTop=21;paper.style.paddingBottom=18;root.Add(paper);
-  var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;
-  header.style.alignItems=Align.Center;paper.Add(header);
-  var title=Text(header,T("search.title"),dark,24);title.style.flexGrow=1;
-  if(dossierBoldFont!=null)title.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-  var back=KarineUI.PaperButton(header,T("compare.back"),FilePage,KarinePaperKind.Action);
-  back.style.minHeight=43;back.style.paddingLeft=12;back.style.paddingRight=12;
-  Text(paper,T("search.help"),muted,15);
-  // Yazı alanı kaldırıldı: telefonda klavye ekranın yarısını kaplıyordu ve
-  // aranacak sözcüğü bilmek oyuncunun işi değil. Yerine iki dokunulur eksen —
-  // kayıt türü ve kişi. Kişi süzgeci vakaya özel liste tutmaz, "adı geçtiyse"
-  // kuralının aynısını kullanır, yani yeni vakalarda kendiliğinden işler.
+  KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("back.file"),T(game.Data.titleKey),T("file.unit"),FilePage,out var tools);
+  KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(FileSearchPage));
+  Back(FilePage);
   var lines=CaseSearch.Lines(game,locale);
   var people=game.Data.nodes.Where(n=>n.kind=="interview" && !string.IsNullOrEmpty(n.personId))
    .GroupBy(n=>n.personId).Select(g=>g.First()).ToArray();
-  var filters=new VisualElement();filters.style.marginTop=6;paper.Add(filters);
-  var recent=new VisualElement();paper.Add(recent);
-  var count=Text(paper,"",muted,14);count.style.marginTop=4;count.style.marginBottom=6;
-  var results=Scroll(paper);
-  var kindButtons=new List<Button>();var personButtons=new List<Button>();
-  Action render=null;
-  Func<VisualElement> shelf=()=>{
-   var row=new KarineScrollView(ScrollViewMode.Horizontal);row.style.flexShrink=0;
-   row.contentContainer.style.flexDirection=FlexDirection.Row;filters.Add(row);return row;
-  };
-  Action<VisualElement,List<Button>,string,Action> chip=(row,group,label,pick)=>{
-   var button=KarineUI.PaperButton(row,label,()=>{pick();render();});
-   button.style.marginRight=6;button.style.marginBottom=6;
-   button.style.paddingLeft=16;button.style.paddingRight=16;
-   button.style.fontSize=Typography.Snap(15);
-   group.Add(button);
-  };
-  var kindRow=shelf();
-  string[] kindLabels={"conclude.filter.all","conclude.filter.documents","conclude.filter.interviews","conclude.filter.cctv"};
-  for(int i=0;i<kindLabels.Length;i++){var pick=i;chip(kindRow,kindButtons,T(kindLabels[i]),()=>fileFilterKind=pick);}
-  var personRow=shelf();
-  chip(personRow,personButtons,T("search.everyone"),()=>fileFilterPerson="");
-  foreach(var person in people){var pick=person.personId;chip(personRow,personButtons,T(person.personNameKey),()=>fileFilterPerson=pick);}
-  render=()=>{
-   results.Clear();RecentSearches(recent,people,render);
-   for(int i=0;i<kindButtons.Count;i++) {
-    kindButtons[i].style.backgroundColor=i==fileFilterKind?KarineTheme.Paper.Stamp:KarineTheme.Paper.Sheet;
-    kindButtons[i].style.color=i==fileFilterKind?KarineTheme.Paper.Sheet:KarineTheme.Paper.Ink;
-   }
-   for(int i=0;i<personButtons.Count;i++) {
-    var chosen=i==0?fileFilterPerson=="":people[i-1].personId==fileFilterPerson;
-    personButtons[i].style.backgroundColor=chosen?KarineTheme.Paper.Stamp:KarineTheme.Paper.Sheet;
-    personButtons[i].style.color=chosen?KarineTheme.Paper.Sheet:KarineTheme.Paper.Ink;
-   }
-   var hits=lines.Where(line=>{
-    var source=game.Data.nodes.FirstOrDefault(n=>n.id==line.nodeId);
-    if(source==null)return false;
-    int kind=source.kind=="cctv"?3:source.kind=="interview"?2:1;
-    if(fileFilterKind!=0 && fileFilterKind!=kind)return false;
-    return string.IsNullOrEmpty(fileFilterPerson) || game.MentionsPerson(fileFilterPerson,line.text);
-   }).ToArray();
-   count.text=T("search.count")+"  "+hits.Length;
-   if(hits.Length==0){Text(results,T("search.empty"),muted,16);return;}
-   foreach(var hit in hits) {
-    var source=game.Data.nodes.FirstOrDefault(n=>n.id==hit.nodeId);
-    if(source==null)continue;
-    var selected=hit;
-    var row=new VisualElement();row.style.marginBottom=8;row.style.paddingLeft=14;
-    row.style.paddingRight=14;row.style.paddingTop=10;row.style.paddingBottom=8;
-    row.style.backgroundColor=KarineTheme.Paper.Tint;results.Add(row);
-    var name=Text(row,T(source.titleKey),dark,16);name.style.marginBottom=3;
-    if(dossierBoldFont!=null)name.style.unityFontDefinition=FontDefinition.FromFont(dossierBoldFont);
-    var excerpt=Text(row,hit.excerpt,dark,15);excerpt.style.marginBottom=4;
-    var open=KarineUI.PaperButton(row,T("search.open")+"  ›",()=>OpenSearchSource(selected),KarinePaperKind.Quiet);
-    open.style.minHeight=37;open.style.fontSize=Typography.Snap(15);
-    open.style.unityTextAlign=TextAnchor.MiddleRight;
-   }
-   KarineUI.Stream(results);
-  };
-  render();
+  if(!people.Any(p=>p.personId==fileFilterPerson))fileFilterPerson="";
+  var panel=KarineUI.SearchFilters(root);
+  KarineUI.SearchGroup(panel,T("search.kind"),true);
+  string[] kindIcons={"document","document","people","cctv"};
+  for(int i=0;i<SearchKinds.Length;i++){var pick=i;KarineUI.SearchFilter(panel,kindIcons[i],null,T(SearchKinds[i]),fileFilterKind==i,()=>{fileFilterKind=pick;FileSearchPage();});}
+  KarineUI.SearchGroup(panel,T("search.person"),false);
+  KarineUI.SearchFilter(panel,"people",null,T("search.everyone"),fileFilterPerson=="",()=>{fileFilterPerson="";FileSearchPage();});
+  foreach(var person in people){var pick=person.personId;
+   KarineUI.SearchFilter(panel,"person",Resources.Load<Texture2D>("Bube/Characters/"+pick),T(person.personNameKey),fileFilterPerson==pick,()=>{fileFilterPerson=pick;FileSearchPage();});}
+  var hits=lines.Where(line=>{
+   var source=game.Data.nodes.FirstOrDefault(n=>n.id==line.nodeId);
+   if(source==null)return false;
+   int kind=source.kind=="cctv"?3:source.kind=="interview"?2:1;
+   if(fileFilterKind!=0 && fileFilterKind!=kind)return false;
+   return string.IsNullOrEmpty(fileFilterPerson) || game.MentionsPerson(fileFilterPerson,line.text);
+  }).ToArray();
+  var paper=KarineUI.SearchPaper(root);
+  KarineUI.SearchHead(paper,T("search.title"),T("search.count")+"  "+hits.Length);
+  RecentSearches(paper,people);
+  if(hits.Length==0){KarineUI.SearchEmpty(paper,T("search.empty"));return;}
+  var results=new KarineScrollView(ScrollViewMode.Vertical);results.style.flexGrow=1;paper.Add(results);
+  var chosen=people.FirstOrDefault(p=>p.personId==fileFilterPerson);
+  var name=chosen==null?null:T(chosen.personNameKey);
+  foreach(var hit in hits) {
+   var source=game.Data.nodes.FirstOrDefault(n=>n.id==hit.nodeId);
+   if(source==null)continue;
+   var selected=hit;
+   string icon=source.kind=="cctv"?"cctv":source.kind=="interview"?"people":"document";
+   KarineUI.SearchResult(results,icon,CompareTitle(source),PageDate(source),"“"+Highlight(hit.excerpt,name)+"”",T("search.open"),()=>OpenSearchSource(selected));
+  }
+  KarineUI.Stream(results);
+ }
+ // Seçili kişinin adı (ya da yalnız ilk adı) satırda geçiyorsa amberle işaretlenir. Bu süzgecin
+ // kendisidir, ipucu değil: satır zaten bu ad geçtiği için listede.
+ static string Highlight(string text,string name) {
+  text=(text ?? string.Empty).Replace("<","‹");
+  if(string.IsNullOrEmpty(name))return text;
+  foreach(var candidate in new[]{name,name.Split(' ')[0]}) {
+   int at=KarineUI.Tr.CompareInfo.IndexOf(text,candidate,System.Globalization.CompareOptions.IgnoreCase);
+   if(at<0)continue;
+   return text.Substring(0,at)+"<mark=#E0A04070>"+text.Substring(at,candidate.Length)+"</mark>"+text.Substring(at+candidate.Length);
+  }
+  return text;
  }
  void OpenSearchSource(SearchHit hit) {
   var source=game.Data.nodes.FirstOrDefault(n=>n.id==hit.nodeId);
