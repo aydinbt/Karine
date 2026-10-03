@@ -324,6 +324,9 @@ public sealed partial class BubeApp : MonoBehaviour {
   }
   // Bildirimler yalnız masa ekrandayken iner; tam ekran sayfaların üstüne binmez.
   bool inOffice=SceneManager.GetActiveScene().name=="OfficeScene" && deskStage!=null && deskStage.panel!=null;
+  // Okunan evrakın bildirimi kalmaz: faks ya da belge alındıysa masadaki kart da kalkar.
+  if(!HasIncomingFax && faxNotice!=null){faxNotice.RemoveFromHierarchy();faxNotice=null;}
+  if(!HasIncomingDocument && documentNotice!=null){documentNotice.RemoveFromHierarchy();documentNotice=null;}
   if(HasIncomingFax || HasIncomingDocument) {
    if(HasIncomingFax && inOffice)AddFaxNotice();
    if(HasIncomingDocument && inOffice)AddDocumentNotice();

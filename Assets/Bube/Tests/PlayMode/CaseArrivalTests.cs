@@ -96,32 +96,6 @@ public sealed class CaseArrivalTests {
    "Sonraki dosya bırakılmadan geldi, bulunan: " + string.Join(" | ", labels));
  }
 
- // Oyuncunun gercekten bastigi dugme: tepsideki "Dosyayi ac". Yukaridaki test
- // `OpenAssignment`i dogrudan cagiriyor; burasi tikllamayi taklit eder, cunku
- // bildirilen hata tam bu dugmeden sonra animasyonun gelmemesiydi.
- [UnityTest] public IEnumerator InboxOpenButton_DropsTheFile() {
-  var game = Field(app, "game");
-  var state = (Progress)game.GetType().GetProperty("State").GetValue(game);
-  var career = (CareerProgress)game.GetType().GetProperty("Career").GetValue(game);
-  var config = (GameConfig)Field(app, "config");
-  foreach (var world in config.worldIntros ?? new WorldIntro[0])
-   if (!career.seenWorldIntros.Contains(world.id)) career.seenWorldIntros.Add(world.id);
-  state.caseAccepted = true;
-  state.closed = true;
-  var data = (CaseData)game.GetType().GetProperty("Data").GetValue(game);
-  app.GetType().GetMethod("InboxPage", BindingFlags.Instance | BindingFlags.NonPublic,
-   null, new[] { typeof(string), typeof(string) }, null)
-   .Invoke(app, new object[] { "assignment:" + data.nextCaseId, "all" });
-  yield return null;
-  var open = Root.Query<Button>("InboxAction").ToList().FirstOrDefault(b => b.Query<Label>().ToList().Any(l => l.text == Text("next.assignment.open").ToUpper(new System.Globalization.CultureInfo("tr-TR"))));
-  Assert.IsNotNull(open, "Tepside \"Dosyayı aç\" düğmesi yok.");
-  using (var click = new NavigationSubmitEvent()) { click.target = open; open.SendEvent(click); }
-  for (int frame = 0; frame < 30; frame++) yield return null;
-  var labels = Labels(Root);
-  Assert.IsTrue(labels.Contains(Text("intro.firstFile")) || labels.Contains(Text("intro.newFile")),
-   "Tepsiden açılan dosya bırakılmadan geldi, bulunan: " + string.Join(" | ", labels));
- }
-
  [UnityTest] public IEnumerator AcceptedCase_IsNotDroppedAgain() {
   var game = Field(app, "game");
   ((Progress)game.GetType().GetProperty("State").GetValue(game)).caseAccepted = true;

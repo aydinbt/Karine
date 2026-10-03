@@ -208,7 +208,7 @@ public sealed partial class BubeApp {
  // Faks hazır değilse düğme beklediğini söyler ve hazır olunca kendini yeniler.
  void NextStep(VisualElement parent,Action refresh) {
   Button next=null;
-  if(HasIncomingFax)next=KarineUI.PaperButton(parent,T("next.openFax")+"  →",FaxPage,KarinePaperKind.Action);
+  if(HasIncomingFax)next=KarineUI.PaperButton(parent,T("next.openFax")+"  →",()=>InboxPage("fax:new","all"),KarinePaperKind.Action);
   else if(game.Career.pendingReviews.Any(r=>r.caseId==game.Data.id)) {
    next=KarineUI.PaperButton(parent,T("next.waitingFax"),()=>{});next.SetEnabled(false);
    next.schedule.Execute(()=>{if(next.panel!=null && HasIncomingFax)refresh();}).Every(1000);
@@ -229,7 +229,7 @@ public sealed partial class BubeApp {
   if(ShowCaseClosed(ContinueToNextCase))return;
   if(game.Career.retired){Desk();return;}
   var nextData=AvailableAssignment();
-  if(nextData!=null){InboxPage("assignment:"+nextData.id,"all");return;}
+  if(nextData!=null){OpenAssignment(nextData);return;}
   Desk();
   var pending=Panel(root);pending.style.position=Position.Absolute;
   pending.style.left=Length.Percent(34);pending.style.top=Length.Percent(23);

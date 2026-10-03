@@ -59,7 +59,6 @@ public sealed partial class BubeApp {
   if(stage==null || root.Children().Any(e=>e!=stage && e!=faxNotice && e!=documentNotice && e!=chainEndNotice))return;
   var keys=new List<string>();
   if(!game.State.caseAccepted)keys.Add("offer:"+game.Data.id);
-  var assignment=AvailableAssignment();if(assignment!=null)keys.Add("assignment:"+assignment.id);
   foreach(var node in game.Data.nodes.Where(incomingDocumentPredicate))keys.Add("document:"+game.Data.id+":"+node.id);
   if(HasIncomingFax)foreach(var review in game.Career.pendingReviews.Where(r=>r.readyAtUtcTicks>0 && r.readyAtUtcTicks<=DateTime.UtcNow.Ticks))
    keys.Add("fax:"+review.caseId+":"+review.readyAtUtcTicks);
@@ -108,11 +107,6 @@ public sealed partial class BubeApp {
   if(!game.State.caseAccepted)entries.Add(new InboxEntry {
    id="offer:"+game.Data.id,title=CaseText("offer.title","offer.title"),
    status=T("inbox.status.new"),unread=true,offer=game.Data
-  });
-  var assignment=AvailableAssignment();
-  if(assignment!=null)entries.Add(new InboxEntry {
-   id="assignment:"+assignment.id,title=T("next.assignment"),
-   status=T(assignment.titleKey)+" · "+T("inbox.status.new"),unread=true,assignment=assignment
   });
   if(HasIncomingFax) {
    var pending=game.Career.pendingReviews.FirstOrDefault(review=>review.readyAtUtcTicks>0 && review.readyAtUtcTicks<=DateTime.UtcNow.Ticks);
@@ -196,14 +190,9 @@ public sealed partial class BubeApp {
   // Diğer evraklar da aynı kâğıt dilinde: birim başlığı, daktilo başlık, künye.
   KarineUI.PaperLetterhead(paperBody,T("file.department"));
   KarineUI.PaperText(paperBody,selected.title,KarineTheme.InboxModal.PaperTitleSize-8).style.marginTop=KarineTheme.SpaceLg;
-  KarineUI.PaperText(paperBody,selected.review!=null || selected.assignment!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,KarineTheme.InboxModal.PaperLabelSize+2);
+  KarineUI.PaperText(paperBody,selected.review!=null?selected.status:T(game.Data.titleKey)+"  ·  "+selected.status,KarineTheme.InboxModal.PaperLabelSize+2);
   KarineUI.PaperText(paperBody,T(game.Data.summary.locationKey),KarineTheme.InboxModal.PaperLabelSize).style.marginBottom=KarineTheme.SpaceMd;
-  if(selected.assignment!=null) {
-   Text(paperBody,T("next.assignment.sender"),dark,16);
-   Text(paperBody,T("next.assignment.body"),dark,18);
-   Text(paperBody,T(selected.assignment.titleKey),dark,21);
-   InboxAction(actions,"folder",T("next.assignment.open"),true,()=>OpenAssignment(selected.assignment));
-  } else if(selected.document!=null) {
+  if(selected.document!=null) {
    var document=selected.document;
    if(selected.pending)Text(paperBody,T("inbox.pendingDocument"),dark,18);
    else {
@@ -219,7 +208,11 @@ public sealed partial class BubeApp {
    Text(paperBody,T("inbox.faxSealed"),dark,18);
    InboxAction(actions,"document",T("inbox.faxOpen"),true,()=>{
     var review=game.DeliverNextFax();
-    if(review!=null){Save();InboxPage("fax:"+review.caseId,"all");}
+    if(review==null)return;
+    Save();faxNotice?.RemoveFromHierarchy();
+    // Onaylanan dosya burada kapanır: önce "KAPANDI" kartı, sonra faksın kendisi.
+    if(review.correct && !review.reopened)ClosedCard(review.caseId,()=>InboxPage("fax:"+review.caseId,"all"));
+    else InboxPage("fax:"+review.caseId,"all");
    });
   } else if(selected.review!=null)DrawInboxFax(paperBody,selected.review,dark,actions);
   // Faks ve yeni gelen evrak basılarak çıkar; sonuç ne olursa olsun aynı biçimde.
@@ -405,11 +398,10 @@ public sealed partial class BubeApp {
   } else if(game.Career.retired) {
    var end=Panel(stage);KarineUI.OfficePlace(end,new Rect(30,46,40,28));
    Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
-   if(game.State.closed)Button(end,T("result.summaryOpen"),CaseSummary);
   } else if(game.State.closed) {
    var closed=Panel(stage);KarineUI.OfficePlace(closed,new Rect(36,65,30,30));
    Text(closed,T("desk.closed"),Ink,20);
-   Button(closed,T("result.summaryOpen"),CaseSummary,true);NextStep(closed,Desk);
+   NextStep(closed,Desk);
   }
   KarineUI.OfficeAtmosphere(stage);DeskFx(stage,arriving);KarineUI.OfficeNight(stage,game.Data.deskHour,game.Data.weather);deskStage=stage;StageDesk(stage);
   if(HasIncomingFax)AddFaxNotice();if(HasIncomingDocument)AddDocumentNotice();
