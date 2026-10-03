@@ -31,9 +31,9 @@ Akış her öğe için aynıdır:
 - [ ] Reklam izni penceresi
 
 ## 2. Masa (ana oyun ekranı)
-- [ ] Üst gezinme çubuğu: dosya başlığı, sekmeler, ayarlar
-- [ ] Masa sahnesi ve nesne düğmeleri: telefon, dosya, tepsi, lamba, CCTV tableti
-- [ ] Gelen evrak bildirimi: yanıp sönen rozet ve önizleme
+- [x] Üst gezinme çubuğu: dosya başlığı, sekmeler, ayarlar
+- [x] Masa sahnesi ve nesne düğmeleri: telefon, dosya, tepsi, lamba, CCTV tableti
+- [x] Gelen evrak bildirimi: yanıp sönen rozet ve önizleme
 - [ ] Çıkış / ana menüye dönüş düğmesi
 - [x] Gelen evrak modalı, teklif hali (`UI_INBOX`); diğer evrak türleri `[~]`
 - [ ] Tablet çerçevesi (karar bekliyor: dijital kaynaklar tablette)
@@ -57,6 +57,7 @@ Akış her öğe için aynıdır:
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 
 ## 6. Efekt ve geçişler (eskiler kaldırıldı, yenisi tasarlanacak)
+- [~] Ekran ve sahne geçişi: düz siyah perde (3 Ekim, gözlendi)
 - [ ] Masaya varış: 3 Ekim'de sinematik kaldırıldı
 - [ ] Evrak açılışı: basılarak çıkma, oda kararması ve satır satır yazı kaldırıldı
 - [ ] Modal açılış / kapanış geçişi
