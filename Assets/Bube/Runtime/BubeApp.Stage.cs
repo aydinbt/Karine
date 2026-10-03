@@ -47,10 +47,10 @@ public sealed partial class BubeApp {
   string key="karine.opened."+game.Data.id;
   if(PlayerPrefs.GetInt(key,0)==1)return;
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
-  var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
+  // Vaka adı ayrıca büyük yazılmaz (3 Ekim 2026): üst şeritte ve teklifte zaten yazıyor.
   var frames=(game.Data.locationFrames ?? new string[0]).Select(p=>Resources.Load<Texture2D>(p)).Where(t=>t!=null).ToArray();
   root.schedule.Execute(()=>KarineUI.ChapterCard(root,ChapterTime(),ChapterPlace(),()=>
-   KarineUI.LocationReel(root,frames,()=>{audioDirector?.Sting();KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null);}))).StartingIn(0);
+   KarineUI.LocationReel(root,frames,()=>audioDirector?.Sting()))).StartingIn(0);
  }
 
  // Kapanmış dosyalar rafı: masanın sol altında, her kapanan vaka için bir sırt.
