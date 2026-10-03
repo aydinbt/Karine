@@ -15,16 +15,17 @@ public static partial class KarineUI {
  }
  public static VisualElement InterviewIdentity(VisualElement parent,Texture2D portrait,string label,string name,string info) {
   var card=InterviewGlass(parent,"InterviewIdentity",I.Identity,false);card.style.height=StyleKeyword.Auto;
-  card.style.flexDirection=FlexDirection.Row;card.style.alignItems=Align.FlexStart;
+  var top=new VisualElement {pickingMode=PickingMode.Ignore};top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.FlexStart;card.Add(top);
   if(portrait!=null) {
    var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};
    face.style.width=I.Thumb;face.style.height=I.Thumb*1.15f;face.style.flexShrink=0;face.style.marginRight=KarineTheme.SpaceMd;
-   Border(face,KarineTheme.BorderWidth,KarineTheme.Border);card.Add(face);
+   Border(face,KarineTheme.BorderWidth,KarineTheme.Border);top.Add(face);
   }
-  var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexShrink=1;words.style.flexGrow=1;card.Add(words);
+  var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexShrink=1;words.style.flexGrow=1;top.Add(words);
   Write(words,label.ToUpper(Tr),KarineTheme.Primary,I.LabelSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
   Write(words,name.ToUpper(Tr),KarineTheme.Primary,I.NameSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
-  Write(words,info,KarineTheme.Secondary,I.InfoSize,Typewriter).style.marginBottom=0;
+  // Bilgi satırı kartın tam genişliğinde; fotoğrafın yanındaki dar sütunda kelime kelime kırılıyordu.
+  var line=Write(card,info,KarineTheme.Secondary,I.InfoSize,Typewriter);line.style.marginTop=KarineTheme.SpaceMd;line.style.marginBottom=0;
   return card;
  }
  // Konuşma balonu: amber ad, söz, soluk italik gözlem. Sol kenarda kişiye bakan küçük kuyruk.
@@ -69,7 +70,7 @@ public static partial class KarineUI {
   head.style.paddingLeft=KarineTheme.SpaceMd;head.style.paddingRight=KarineTheme.SpaceMd;
   Unskin(head,KarineTheme.Alpha(KarineTheme.Background,.7f));Round(head,KarineTheme.Radius);
   head.style.borderLeftWidth=I.Edge;head.style.borderLeftColor=open?KarineTheme.Accent:KarineTheme.Border;
-  var t=Write(head,title.ToUpper(Tr),open?KarineTheme.Accent:KarineTheme.Secondary,I.TopicSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;
+  var t=Write(head,title.ToUpper(Tr),open?KarineTheme.Accent:KarineTheme.Secondary,I.TopicSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;t.style.unityTextAlign=TextAnchor.MiddleLeft;
   var arrow=Icon(head,"nav_next",open?KarineTheme.Accent:KarineTheme.Secondary,KarineTheme.IconSize-6);arrow.style.rotate=new Rotate(open?90:0);
   parent.Add(head);return head;
  }

@@ -280,8 +280,8 @@ public static class KarineTheme {
  public static class Interview {
   // 3 Ekim 2026 maketi (Docs/Reference/UI_INTERVIEW_2026-10.png): solda kimlik, ortada kişi,
   // sağda konuşma balonu ve soru paneli; öne sürme halinde balon ortaya, sağa geniş kayıt paneli.
-  public static readonly Rect Identity=new Rect(5.6f,15,17.6f,30);
-  public static readonly Rect Bubble=new Rect(61.6f,13.5f,31.8f,25);
+  public static readonly Rect Identity=new Rect(5.6f,15,20,30);
+  public static readonly Rect Bubble=new Rect(61.6f,15,31.8f,20);
   public static readonly Rect Questions=new Rect(61,41,33,54);
   public static readonly Rect BubbleAside=new Rect(39.8f,17,17,28);
   public static readonly Rect Present=new Rect(58.2f,15,37,80);
