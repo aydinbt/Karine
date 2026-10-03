@@ -57,7 +57,7 @@ Akış her öğe için aynıdır:
 - [ ] Yönlendirme ve yeniden deneme teklifleri (GuidancePage)
 
 ## 6. Efekt ve geçişler (eskiler kaldırıldı, yenisi tasarlanacak)
-- [~] Ekran ve sahne geçişi: düz siyah perde (3 Ekim, gözlendi)
+- [x] Ekran ve sahne geçişi: düz siyah perde (3 Ekim, gözlendi)
 - [ ] Masaya varış: 3 Ekim'de sinematik kaldırıldı
 - [ ] Evrak açılışı: basılarak çıkma, oda kararması ve satır satır yazı kaldırıldı
 - [ ] Modal açılış / kapanış geçişi
