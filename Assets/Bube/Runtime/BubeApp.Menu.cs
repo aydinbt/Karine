@@ -53,7 +53,7 @@ public sealed partial class BubeApp {
   var version=KarineUI.Technical(root,"v"+Application.version,KarineTheme.MainMenu.TaglineSize);
   version.style.position=Position.Absolute;version.style.right=Length.Percent(3);version.style.bottom=Length.Percent(4);
   version.style.color=KarineTheme.Alpha(KarineTheme.Secondary,.7f);
-  KarineUI.MenuStorm(root);KarineUI.MenuIntro(root,logo,menu);
+  KarineUI.MenuStorm(root);KarineUI.MenuStreet(root);KarineUI.MenuParallax(root);KarineUI.MenuIntro(root,logo,menu);
  }
 
  // Sol sütunun arkası koyulaşır, sağdaki sahne açık kalır: kademeli üç bant.

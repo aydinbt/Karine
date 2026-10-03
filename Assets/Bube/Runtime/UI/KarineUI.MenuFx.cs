@@ -111,6 +111,88 @@ public static partial class KarineUI {
   }).Every(KarineTheme.Motion.TickMs*2);
  }
 
+ // Paralaks: fare/parmak konumu ya da telefonun eğimi arka planı birkaç piksel kaydırır.
+ // `MenuDrift` bu değeri kendi kaymasına ekler.
+ public static Vector2 Lean;
+ public static void MenuParallax(VisualElement root) {
+  Lean=Vector2.zero;
+  if(!Fx.On || KarineMotion.Reduced)return;
+  Vector2 aim=Vector2.zero;
+  root.RegisterCallback<PointerMoveEvent>(e=> {
+   var size=root.contentRect.size;if(size.x<=0)return;
+   aim=new Vector2(.5f-e.localPosition.x/size.x,.5f-e.localPosition.y/size.y)*2*S.Parallax;
+  });
+  root.schedule.Execute(()=> {
+   var tilt=Input.acceleration;
+   if(tilt.sqrMagnitude>.01f)aim=new Vector2(-Mathf.Clamp(tilt.x,-.5f,.5f),Mathf.Clamp(tilt.y+.5f,-.5f,.5f))*2*S.Parallax;
+   Lean=Vector2.Lerp(Lean,aim,S.ParallaxEase);
+  }).Every(KarineTheme.Motion.TickMs*2);
+ }
+
+ // Pencerenin dışı: sokak lambaları nefes alır, arada bir araba farları sokaktan
+ // geçer, camdan iri damlalar yavaşça süzülür.
+ public static void MenuStreet(VisualElement root) {
+  if(!Fx.On)return;
+  int at=FirstAfter(root,"MenuRain");
+  float start=Time.realtimeSinceStartup;
+  var lamps=new List<Image>();
+  foreach(var p in S.StreetLamps) {
+   var glow=new Image {name="StreetLamp",image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+   Percent(glow,new Rect(p.x-2.5f,p.y-4,5,8));root.Insert(at,glow);lamps.Add(glow);
+  }
+  root.schedule.Execute(()=> {
+   float time=Time.realtimeSinceStartup-start;
+   for(int i=0;i<lamps.Count;i++) {
+    float buzz=Mathf.PerlinNoise(time*(3+i),i*1.7f)>.88f?.4f:1f;
+    lamps[i].tintColor=KarineTheme.Alpha(KarineTheme.Accent,(.22f+.06f*Mathf.Sin(time*1.1f+i))*buzz*Fx.Amount);
+   }
+  }).Every(KarineTheme.Motion.TickMs*2);
+  // Araba: iki sıcak far ya da iki kırmızı stop lambası soldan sağa veya sağdan sola.
+  var car=new VisualElement {name="StreetCar",pickingMode=PickingMode.Ignore};
+  Percent(car,new Rect(S.StreetLeft,S.StreetY,6,3));car.style.flexDirection=FlexDirection.Row;car.style.justifyContent=Justify.SpaceBetween;
+  car.style.opacity=0;root.Insert(at,car);
+  var lights=new List<Image>();
+  for(int i=0;i<2;i++) {
+   var light=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};
+   light.style.width=Length.Percent(40);light.style.height=Length.Percent(100);car.Add(light);lights.Add(light);
+  }
+  var random=new System.Random();
+  System.Action drive=null;
+  drive=()=>car.schedule.Execute(()=> {
+   if(car.panel==null)return;
+   if(Fx.On) {
+    bool right=random.Next(2)==0,tail=random.Next(2)==0;
+    var tint=tail?new Color(1f,.15f,.1f,.8f):new Color(1f,.9f,.7f,.9f);
+    foreach(var l in lights)l.tintColor=tint*Fx.Amount;
+    SoundAt?.Invoke("amb_car",right?-.3f:.3f,.25f);
+    KarineMotion.Run(car,S.CarSeconds,t=> {
+     float x=right?Mathf.Lerp(S.StreetLeft,S.StreetRight,t):Mathf.Lerp(S.StreetRight,S.StreetLeft,t);
+     car.style.left=Length.Percent(x);car.style.opacity=Mathf.Sin(t*Mathf.PI);
+    },()=>car.style.opacity=0);
+   }
+   drive();
+  }).StartingIn(random.Next(S.CarMinMs,S.CarMaxMs));
+  drive();
+  // Camdaki iri damlalar: bir süre durur, sonra hızlanarak aşağı kayar.
+  var glass=root.Q("MenuRain");if(glass==null)return;
+  var seed=new System.Random(41);var drops=new List<(VisualElement e,float x,float phase,float speed)>();
+  for(int i=0;i<Fx.Count(S.Drops);i++) {
+   var drop=new VisualElement {pickingMode=PickingMode.Ignore};
+   drop.style.position=Position.Absolute;drop.style.width=3;drop.style.height=5;Round(drop,2);
+   drop.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Light,.22f);glass.Add(drop);
+   drops.Add((drop,(float)seed.NextDouble()*96,(float)seed.NextDouble(),.05f+(float)seed.NextDouble()*.05f));
+  }
+  glass.schedule.Execute(()=> {
+   float time=Time.realtimeSinceStartup-start;
+   foreach(var d in drops) {
+    float life=Mathf.Repeat(d.phase+time*d.speed,1f);
+    float y=life<.4f?life*10:4+Mathf.Pow((life-.4f)/.6f,2)*100;
+    d.e.style.left=Length.Percent(d.x);d.e.style.top=Length.Percent(y);
+    d.e.style.height=life<.4f?5:9;
+   }
+  }).Every(KarineTheme.Motion.TickMs*2);
+ }
+
  static void Percent(VisualElement e,Rect box) {
   e.style.position=Position.Absolute;
   e.style.left=Length.Percent(box.x);e.style.top=Length.Percent(box.y);

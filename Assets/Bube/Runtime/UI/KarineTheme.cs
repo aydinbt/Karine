@@ -54,7 +54,7 @@ public static class KarineTheme {
   public const float BleedBlur=1.2f, BleedAlpha=.35f, LineShift=1.5f;
   public const float FeedSeconds=.9f, FeedSteps=9f, FeedOffset=60f, InkSeconds=.32f;
   public const float StampSeconds=.75f, Shake=7f, SpotSeconds=.8f, SpotAlpha=.75f;
-  public const float DriftSeconds=60f, DriftZoom=.015f, DriftPan=8f; public const int MenuRain=36;
+  public const float DriftSeconds=40f, DriftZoom=.03f, DriftPan=12f; public const int MenuRain=36;
   // Ana menü görselinde pencere camı ve lamba ampulü (ekranın yüzdesi).
   public const float WindowLeft=34f, WindowTop=0f, WindowWidth=32f, WindowHeight=48f;
   public const float LampX=77f, LampY=44f, LampSize=22f;
@@ -69,6 +69,10 @@ public static class KarineTheme {
   // Dosya kartları: masaya düşer, üstüne gelince kalkar, kilitliyse sarsılır.
   public const float DropSeconds=.42f, DropFrom=34f, DropTilt=3f, HoverLift=6f, PhotoZoom=1.05f, ShakeSeconds=.35f, ShakePx=6f, PolaroidTilt=-2f;
   public const int DropStaggerMs=70;
+  // Ana menü sokağı (MainMenuBackdrop yüzdeleri): sokak lambaları, geçen arabalar, camdan süzülen damlalar.
+  public static readonly Vector2[] StreetLamps={new Vector2(44,23),new Vector2(57,29),new Vector2(50,31)};
+  public const float StreetY=36f, StreetLeft=36f, StreetRight=64f, CarSeconds=4f, Parallax=10f, ParallaxEase=.08f;
+  public const int CarMinMs=8000, CarMaxMs=18000, Drops=9;
   public const float PostureSeconds=1.6f, PostureShift=2.5f, PostureTilt=.4f;
   public const int PostureMinMs=6000, PostureMaxMs=14000, BlinkMs=130, BlinkMinMs=3000, BlinkMaxMs=7000;
   public const float LiftScale=.04f, LiftShadow=6f;

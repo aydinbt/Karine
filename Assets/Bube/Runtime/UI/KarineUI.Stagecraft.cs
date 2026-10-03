@@ -185,7 +185,7 @@ public static partial class KarineUI {
    float t=(Time.realtimeSinceStartup-start)/S.DriftSeconds;
    float wave=.5f-.5f*Mathf.Cos(t*Mathf.PI*2);
    film.style.scale=new Scale(Vector3.one*(1.01f+S.DriftZoom*wave));
-   film.style.translate=new Translate(-S.DriftPan*wave,S.DriftPan*.3f*wave);
+   film.style.translate=new Translate(-S.DriftPan*wave+Lean.x,S.DriftPan*.3f*wave+Lean.y);
   }).Every(KarineTheme.Motion.TickMs*2);
   int at=root.IndexOf(film)+1;
   // Pencere: yağmur yalnız camın arkasında görünür, odanın içine yağmaz.
