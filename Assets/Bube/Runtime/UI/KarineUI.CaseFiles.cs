@@ -29,11 +29,22 @@ public static partial class KarineUI {
   copy.style.paddingLeft=KarineTheme.SpaceLg;tab.Add(copy);
   if(!unlocked)Icon(copy,"lock",KarineTheme.Secondary,KarineTheme.IconSize+6).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};copy.Add(words);
-  var title=Write(words,name.ToUpper(Tr),unlocked?KarineTheme.Primary:KarineTheme.Secondary,F.CountryNameSize,Heading);
-  title.style.marginBottom=0;title.style.whiteSpace=WhiteSpace.NoWrap;
+  words.style.flexGrow=1;words.style.minWidth=0;words.style.paddingRight=KarineTheme.SpaceMd;
+  var title=Write(words,name.ToUpper(Tr),unlocked?KarineTheme.Primary:KarineTheme.Secondary,name.Length>9?F.CountryNameSize-8:F.CountryNameSize,Heading);
+  title.style.marginBottom=0;title.style.whiteSpace=WhiteSpace.NoWrap;Left(title);
+  title.style.overflow=Overflow.Hidden;title.style.textOverflow=TextOverflow.Ellipsis;
   var count=Technical(words,tally,F.SmallSize);count.style.letterSpacing=2;count.style.marginBottom=0;
-  count.style.color=unlocked?KarineTheme.Primary:KarineTheme.Secondary;
+  count.style.color=unlocked?KarineTheme.Primary:KarineTheme.Secondary;Left(count);
   parent.Add(tab);return tab;
+ }
+
+ // Düğme içindeki yazılar ortalanır; dosya kâğıdı ise sola yaslı okunur.
+ static void Left(Label label){label.style.unityTextAlign=TextAnchor.UpperLeft;label.style.alignSelf=Align.Stretch;}
+ // Özet karta sığsın diye kelime sınırında kısaltılır; tam metin dosyanın içindedir.
+ static string Clip(string text,int max) {
+  if(string.IsNullOrEmpty(text)||text.Length<=max)return text;
+  int cut=text.LastIndexOf(' ',max);if(cut<max/2)cut=max;
+  return text.Substring(0,cut).TrimEnd(',',';','.',' ')+"…";
  }
 
  public enum CaseFileState{Open,Ongoing,Closed,Locked}
@@ -80,10 +91,10 @@ public static partial class KarineUI {
   tag.style.borderTopRightRadius=KarineTheme.Radius;
   var name=Write(paper,locked?"?????":title.ToUpper(Tr),ink,F.CardTitleSize,Heading);
   name.style.marginBottom=KarineTheme.SpaceXs;name.style.whiteSpace=WhiteSpace.NoWrap;
-  name.style.overflow=Overflow.Hidden;name.style.textOverflow=TextOverflow.Ellipsis;
+  name.style.overflow=Overflow.Hidden;name.style.textOverflow=TextOverflow.Ellipsis;Left(name);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.height=1;
   rule.style.backgroundColor=locked?KarineTheme.Border:KarineTheme.Paper.Edge;rule.style.marginBottom=KarineTheme.SpaceSm;paper.Add(rule);
-  var body=Write(paper,summary,ink,F.SummarySize,Body);
+  var body=Write(paper,Clip(summary,F.SummaryChars),ink,F.SummarySize,Body);Left(body);
   body.style.flexGrow=1;body.style.flexShrink=1;body.style.minHeight=0;body.style.overflow=Overflow.Hidden;body.style.marginBottom=KarineTheme.SpaceSm;
 
   // Durum çubuğu: etiket + ok bölmesi. Kilitli dosyada yalnız kilit.
@@ -129,14 +140,14 @@ public static partial class KarineUI {
    image.style.flexGrow=1;frame.Add(image);
   }
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.minWidth=0;card.Add(words);
-  var title=Write(words,name,KarineTheme.Paper.Ink,F.AgentNameSize,Heading);title.style.marginBottom=0;
+  var title=Write(words,name,KarineTheme.Paper.Ink,F.AgentNameSize,Heading);title.style.marginBottom=0;Left(title);
   var sub=Technical(words,role.ToUpper(Tr),F.SmallSize);sub.style.color=KarineTheme.Paper.Faded;sub.style.letterSpacing=2;
-  sub.style.marginBottom=KarineTheme.SpaceSm;
+  sub.style.marginBottom=KarineTheme.SpaceSm;Left(sub);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.height=1;rule.style.backgroundColor=KarineTheme.Paper.Edge;
   rule.style.marginBottom=KarineTheme.SpaceSm;words.Add(rule);
   foreach(var row in rows) {
-   var key=Technical(words,row.label.ToUpper(Tr),F.SmallSize-1);key.style.color=KarineTheme.Paper.Faded;key.style.marginBottom=0;
-   var value=Write(words,row.value,KarineTheme.Paper.Ink,F.SmallSize,Body);value.style.marginBottom=KarineTheme.SpaceXs;
+   var key=Technical(words,row.label.ToUpper(Tr),F.SmallSize-1);key.style.color=KarineTheme.Paper.Faded;key.style.marginBottom=0;Left(key);
+   var value=Write(words,row.value,KarineTheme.Paper.Ink,F.SmallSize,Body);value.style.marginBottom=KarineTheme.SpaceXs;Left(value);
   }
   parent.Add(card);return card;
  }

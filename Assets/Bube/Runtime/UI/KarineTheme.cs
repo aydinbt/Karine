@@ -193,8 +193,8 @@ public static class KarineTheme {
   public const int SidebarLeft=32, SidebarWidth=270, LogoWidth=256, MainLeft=332, Top=40, Bottom=28;
   public const int CountryWidth=290, CountryHeight=96, CountryNameSize=32, SmallSize=12;
   public const int CardWidth=222, CardHeight=404, PhotoHeight=214, TagHeight=24, CardTitleSize=28;
-  public const int SummarySize=12, StatusHeight=36, StatusSize=18, LockPlate=64;
-  public const int PortraitWidth=96, PortraitHeight=124, AgentNameSize=30, RowGap=10;
+  public const int SummarySize=12, SummaryChars=96, StatusHeight=36, StatusSize=18, LockPlate=64;
+  public const int PortraitWidth=84, PortraitHeight=108, AgentNameSize=30, RowGap=10;
  }
 
  public static class CaseBrowser {
