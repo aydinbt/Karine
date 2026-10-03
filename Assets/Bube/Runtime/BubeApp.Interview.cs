@@ -169,7 +169,7 @@ public sealed partial class BubeApp {
      var reference=item.id+"#"+record.id;
      if(record.notPresentable)continue;
      if(!game.SourceConcernsPerson(node,record.aboutPersonIds,T(record.textKey)))continue;
-     if(game.SourceAlreadyPresented(node,active,reference))continue;
+     if(game.SourceTried(node,active,reference))continue;
      // Aynı kameranın satırları tek tek ayırt edilsin: başlık kaydın kendisi, alt satır kamera.
      add("cctv",T(record.textKey),T(item.titleKey),reference,category);
     }
@@ -178,11 +178,11 @@ public sealed partial class BubeApp {
      var reference=game.InterviewTurnReference(turn);
      if(!game.SourceConcernsPerson(node,game.FindQuestion(item,turn.questionId)?.aboutPersonIds,
       T(turn.promptKey)+" "+T(turn.answerKey)))continue;
-     if(game.SourceAlreadyPresented(node,active,reference))continue;
+     if(game.SourceTried(node,active,reference))continue;
      // Öne sürülen şey kişinin **verdiği yanıttır**, tırnak içinde gösterilir.
      add("chat",T(item.personNameKey),"“"+T(turn.answerKey)+"”",reference,category);
     }
-   } else if(!game.SourceAlreadyPresented(node,active,item.id) &&
+   } else if(!game.SourceTried(node,active,item.id) &&
     game.SourceConcernsPerson(node,item.aboutPersonIds,T(item.titleKey)+" "+T(item.bodyKey))) {
     add("document",T(item.titleKey),locale.Has("kind."+item.kind)?T("kind."+item.kind):null,item.id,category);
    }
@@ -219,6 +219,7 @@ public sealed partial class BubeApp {
   KarineUI.InterviewPaper(preview,source!=null?T(source.titleKey):CompactReportSourceLabel(sourceId),null,out var body);
   InterviewSourceBody(body,sourceId);
   Action send=()=>{
+   game.MarkSourceTried(node,active,sourceId);Save();
    var decoy=game.DecoyAnswerKey(active,sourceId);
    if(decoy!=null){InterviewPage(node,active,2,decoy,sourceId,false);return;}
    var reply=game.AnswerKey(active,sourceId);

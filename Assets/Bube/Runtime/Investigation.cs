@@ -78,7 +78,7 @@ namespace Bube {
 // olup olmadığını hiçbir zaman söylemez; not yalnız oyuncunun aklı içindir.
 [Serializable] public class NotebookEntry { public string leftId; public string rightId; public string mark; }
 [Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; }
-[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
+[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> triedSources = new List<string>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
 // Kayit gocu. Eski surumden gelen kayit atilmaz, bugunku semaya yukseltilir;
 // gelecekten gelen (daha yeni surumlu) kayit cevrilemez ama silinmez de — oldugu
 // gibi birakilir ve oyuncuya soylenir.
@@ -246,6 +246,14 @@ public sealed class Investigation {
  public bool SourceMatchesQuestion(Question q,string sourceId) => !QuestionNeedsSource(q) || ReportSourceAvailable(sourceId) &&
   (sourceId==q.presentedSourceId || q.presentedSourceIds!=null && q.presentedSourceIds.Contains(sourceId));
  public bool SourceAlreadyPresented(Node n,Question q,string sourceId) => State.interviewTurns.Any(t=>t.nodeId==n.id && t.questionId==q.id && t.sourceId==sourceId);
+ // Bu soruda bir kez öne sürülen kayıt (tutsa da tutmasa da) o soruda bir daha listelenmez.
+ // Kişi bazında değil soru bazında: aynı kayıt aynı kişinin başka sorusunda gerekebilir.
+ public bool SourceTried(Node n,Question q,string sourceId) =>
+  SourceAlreadyPresented(n,q,sourceId) || (State.triedSources ?? new List<string>()).Contains(n.id+"/"+q.id+"/"+sourceId);
+ public void MarkSourceTried(Node n,Question q,string sourceId) {
+  State.triedSources ??= new List<string>();
+  var key=n.id+"/"+q.id+"/"+sourceId;if(!State.triedSources.Contains(key))State.triedSources.Add(key);
+ }
  // Yanitlanan soru listeden cikar. Bir soruyu birden cok kaynak kapatabilir
  // (`presentedSourceIds`), ama kisi cevabini bir kez verdikten sonra ayni seyi
  // ikinci bir kayitla tekrar sormak oyuncuya "bir sey eksik kaldi" izlenimi
