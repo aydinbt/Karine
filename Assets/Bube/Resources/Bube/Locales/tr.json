@@ -257,12 +257,28 @@
    "value": "BİR İFADE KANIT DEĞİLDİR."
   },
   {
+   "key": "restart.form",
+   "value": "Form 7-B · Kayıt imha talebi"
+  },
+  {
+   "key": "restart.stamp",
+   "value": "İmha"
+  },
+  {
+   "key": "quit.form",
+   "value": "Form 4-C · Oturum sonlandırma"
+  },
+  {
+   "key": "quit.stamp",
+   "value": "Uyarı"
+  },
+  {
    "key": "restart.title",
    "value": "Yeni soruşturma başlat"
   },
   {
    "key": "restart.body",
-   "value": "Bu cihazdaki Dosya #001 ilerlemesi sıfırlanacak."
+   "value": "Bu cihazdaki bütün kariyer ilerlemesi sıfırlanacak: açık dosya, arşiv ve kurum güveni."
   },
   {
    "key": "restart.confirm",

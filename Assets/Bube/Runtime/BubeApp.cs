@@ -229,9 +229,9 @@ public sealed partial class BubeApp : MonoBehaviour {
  // Ana menüde geri tuşu oyunu doğrudan kapatmaz; kit'in onay modalını açar.
  void AskToQuit() {
   askingToQuit=true;
-  KarineUI.Modal(root,T("quit.title"),T("quit.body"),
+  KarineUI.ConfirmPaper(root,T("quit.form"),T("quit.title"),T("quit.body"),T("quit.stamp"),
    T("quit.cancel"),()=>{askingToQuit=false;Home();},
-   T("quit.confirm"),()=>{askingToQuit=false;QuitGame();},true);
+   T("quit.confirm"),()=>{askingToQuit=false;QuitGame();});
  }
 
  void EnsureScene(string sceneName) {

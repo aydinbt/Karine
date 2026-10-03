@@ -365,6 +365,11 @@ public static class KarineTheme {
   public const int SideHead=26, StatusSize=22, StatusIcon=40, StatusBox=72, SideNote=14, LinkHeight=56, LinkSize=17;
   public const float KeyWidth=24, VerdictWidth=28, Tilt=-.6f;
  }
+ public static class Confirm {
+  // 3 Ekim 2026 maketi: ortada tek ataçlı form.
+  public const float Width=48, Tilt=-.5f;
+  public const int MaxWidth=900, Clip=54, FormSize=13, TitleSize=44, BodySize=17, Alert=64, StampSize=30, ButtonHeight=56, ButtonSize=18;
+ }
  public static class Archive {
   // 3 Ekim 2026 maketleri: ortada açık çekmece; dosyada solda kaynaklar, sağda kâğıt.
   public static readonly Rect Drawer=new Rect(6,13,64,84), Sources=new Rect(11,12,19,84), Sheet=new Rect(32,12,57,84);

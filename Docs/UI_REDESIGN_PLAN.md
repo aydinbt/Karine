@@ -27,7 +27,7 @@ Akış her öğe için aynıdır:
 - [~] Kariyer panosu (`UI_CAREER`)
 - [~] Kariyer kaydı sayfası (CareerRecordPage, `UI_CAREER_RECORD`): tam ekran sicil kâğıdı, damga, rapor tablosu, sonrası, güven şeridi; kariyer geçmişi listesi ayrı
 - [~] Arşiv ve arşivdeki vaka (ArchivePage, ArchiveCasePage; `UI_ARCHIVE`, `UI_ARCHIVE_CASE`): çekmecede dosya kartları + mühür; solda kaynaklar, sağda rapor–değerlendirme kâğıdı, tutanak, CCTV, çizelge
-- [ ] Yeniden başlatma onayı (RestartPage)
+- [~] Yeniden başlatma ve çıkış onayı (RestartPage, AskToQuit; `UI_CONFIRM`): ataçlı form, İMHA / UYARI damgası, mürekkep kırmızısı onay
 - [-] Reklam izni penceresi: kaldırıldı (3 Ekim 2026), reklam kişiselleştirilmemiş; gerekirse onayı reklam ağının kendi formu sorar
 
 ## 2. Masa (ana oyun ekranı)

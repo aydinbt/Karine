@@ -18,7 +18,7 @@ public sealed partial class BubeApp {
  void RestartPage() {
   if(!confirmRestart){Home();return;}
   Home();
-  KarineUI.Modal(root,T("restart.title"),T("restart.body"),
+  KarineUI.ConfirmPaper(root,T("restart.form"),T("restart.title"),T("restart.body"),T("restart.stamp"),
    T("restart.cancel"),()=>{confirmRestart=false;Home();},
    T("restart.confirm"),()=>{
    game=new Investigation(Load<CaseData>("Bube/Cases/"+config.initialCase),null,null,careerRules){Text=locale};
@@ -26,7 +26,7 @@ public sealed partial class BubeApp {
    selectedSuspectSource=selectedMethodSource=selectedEvidenceSource=selectedCustodySource=null;
    foreach(var file in Resources.LoadAll<TextAsset>("Bube/Cases"))ForgetCaseMoments(file.name);
    Save(); confirmRestart=false; MaybeWorldIntro(Desk);
-  },true);
+  });
  }
  // Vaka başına bir kez oynayan anlar (açılış kartı, kapanış, mürekkep) PlayerPrefs'te işaretlidir.
  // Yeni kariyerde ve yeni görevde vaka ilk kez başlıyormuş gibi davranmalı; işaretler silinir.
