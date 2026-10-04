@@ -721,7 +721,17 @@
      "textKey": "case005.cctv.event.ece_leaves",
      "delayMs": 620,
      "id": "ece_leaves",
-     "overlayTimeKey": "case005.time.ece_leaves"
+     "overlayTimeKey": "case005.time.ece_leaves",
+     "framePaths": [
+      "Bube/Cctv/case005_ece_leaves/01",
+      "Bube/Cctv/case005_ece_leaves/02",
+      "Bube/Cctv/case005_ece_leaves/03"
+     ],
+     "frameTimes": [
+      "00.08.00",
+      "00.08.04",
+      "00.08.08"
+     ]
     }
    ]
   },
