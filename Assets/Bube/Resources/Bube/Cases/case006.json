@@ -124,7 +124,17 @@
      "textKey": "case006.cctv.event.defne_home",
      "delayMs": 620,
      "id": "defne_home",
-     "overlayTimeKey": "case006.time.defne_home"
+     "overlayTimeKey": "case006.time.defne_home",
+     "framePaths": [
+      "Bube/Cctv/case006_defne_home/01",
+      "Bube/Cctv/case006_defne_home/02",
+      "Bube/Cctv/case006_defne_home/03"
+     ],
+     "frameTimes": [
+      "18.31.00",
+      "18.31.04",
+      "18.31.08"
+     ]
     },
     {
      "textKey": "case006.cctv.event.defne_out",
