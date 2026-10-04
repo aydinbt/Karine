@@ -83,7 +83,7 @@ public sealed partial class BubeApp {
    foreach(var v in column.choices) {
     var id=v.Key;var label=T(v.Value);
     Action choose=()=>{ if(column.pick()!=id){column.setPick(id);column.setSource(null);ConclusionStep(step);} };
-    if(suspects)KarineUI.ReportPortrait(wrap,Resources.Load<Texture2D>("Bube/Characters/"+id),label,column.pick()==id,index++,choose);
+    if(suspects)KarineUI.ReportPortrait(wrap,Portrait(id),label,column.pick()==id,index++,choose);
     else KarineUI.ReportChoiceCard(wrap,label,column.pick()==id,choose);
    }
    ready=done(column);

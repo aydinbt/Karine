@@ -30,5 +30,8 @@ public sealed partial class BubeApp {
    return (T(s.titleKey),T(approved?"finale.state.approved":reviews.Count>0?"finale.state.reviewed":"finale.state.none"));
   }).ToArray();
  }
+ // Portre: önce vakaya özel "Characters/<vaka>/<kişi>", yoksa ortak "Characters/<kişi>" (aynı adlı iki kişi için).
+ static Texture2D Portrait(string caseId,string personId)=>Resources.Load<Texture2D>("Bube/Characters/"+caseId+"/"+personId)??Resources.Load<Texture2D>("Bube/Characters/"+personId);
+ Texture2D Portrait(string personId)=>Portrait(game?.Data?.id,personId);
 }
 }

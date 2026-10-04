@@ -35,7 +35,7 @@ public sealed partial class BubeApp {
   // Üst şerit diğer tam ekranlarla aynı: masaya dön, "Görüşme", kişi ve dosya, ayarlar.
   KarineUI.DossierBar(root,T("back.desk"),T("kind.interview"),T(node.personNameKey)+"  ·  "+T(game.Data.titleKey),Desk,out var tools);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(()=>InterviewPage(node)));
-  KarineUI.InterviewIdentity(root,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),T("interview.identity"),T(node.personNameKey),T(node.personInfoKey));
+  KarineUI.InterviewIdentity(root,Portrait(node.personId),T("interview.identity"),T(node.personNameKey),T(node.personInfoKey));
   // Kayıt öne sürülürken balon ortaya kayar, sağı kayıt paneli alır.
   bool presenting=phase==1 && game.QuestionNeedsSource(active);
   var dialogueScroll=KarineUI.InterviewBubble(root,presenting,phase==1?T("interview.bora"):T(node.personNameKey),out var speech);
@@ -307,7 +307,7 @@ public sealed partial class BubeApp {
   holder.style.left=Length.Percent(31);holder.style.top=Length.Percent(23);
   holder.style.width=Length.Percent(27);holder.style.height=Length.Percent(51);
   parent.Add(holder);
-  var portrait=Resources.Load<Texture2D>("Bube/Characters/"+personId);
+  var portrait=Portrait(personId);
   if(portrait!=null)SeatInRoom(parent,holder,(float)portrait.width/portrait.height);
   if(portrait!=null) {
    portrait.filterMode=FilterMode.Point;

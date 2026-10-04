@@ -63,7 +63,7 @@ public sealed partial class BubeApp {
    KarineUI.PaperRule(scroll,true);
    KarineUI.DossierSection(scroll,"people",T("file.relatedPeople"));
    foreach(var person in people)
-    KarineUI.DossierPerson(scroll,Resources.Load<Texture2D>("Bube/Characters/"+person.personId),T(person.personNameKey),T(person.personInfoKey));
+    KarineUI.DossierPerson(scroll,Portrait(person.personId),T(person.personNameKey),T(person.personInfoKey));
   }
   if(report.relatedItems!=null && report.relatedItems.Length>0) {
    KarineUI.DossierSection(scroll,"image",T("file.relatedItems"));
@@ -91,7 +91,7 @@ public sealed partial class BubeApp {
  // Sorgu dökümü: künye, ifade, sonra sorulan her soru ve cevabı konuşan/metin sütunlarında.
  // Öne sürülen kaydın yanında kırmızı mühür; hükmü oyuncu verir, mühür yalnız "gösterildi" der.
  void InterviewPaper(VisualElement paper,Node current) {
-  var meta=KarineUI.DossierPageHead(paper,null,T("file.interviewTitle"),Photo(current.imageResource)??Resources.Load<Texture2D>("Bube/Characters/"+current.personId));
+  var meta=KarineUI.DossierPageHead(paper,null,T("file.interviewTitle"),Photo(current.imageResource)??Portrait(current.personId));
   KarineUI.DossierKeyValue(meta,T("file.meta.speaker"),T(current.personNameKey));
   if(current.fileMeta!=null)foreach(var field in current.fileMeta)KarineUI.DossierKeyValue(meta,T(field.labelKey),T(field.valueKey));
   KarineUI.PaperRule(paper,true);

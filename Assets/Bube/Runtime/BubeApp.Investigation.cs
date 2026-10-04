@@ -47,14 +47,14 @@ public sealed partial class BubeApp {
   Node Said(Node node)=>groups.First(g=>g.Key==node.personId).LastOrDefault(n=>game.State.read.Contains(n.id)&&!string.IsNullOrEmpty(n.personQuoteKey));
   foreach(var node in nodes) {
    var target=node;var key=InterviewStatusKey(node);var said=Said(node);
-   var row=KarineUI.RequestRow(list,Resources.Load<Texture2D>("Bube/Characters/"+node.personId),null,T(node.personNameKey),T(node.personInfoKey),
+   var row=KarineUI.RequestRow(list,Portrait(node.personId),null,T(node.personNameKey),T(node.personInfoKey),
     said==null?null:"“"+T(said.personQuoteKey)+"”",node==selected,key=="interview.status.ready",T(key),InterviewTone(node),
     ()=>{selectedRequestPerson=target.personId;InterviewRequests(false);});
    if(game.Pending(node))LiveWait(row.Q("RequestPill"),T("requests.waiting"),WaitTicks(node));
   }
   var paper=KarineUI.RequestPaper(root);
   string statusKey=InterviewStatusKey(selected);
-  KarineUI.RequestPersonHead(paper,Resources.Load<Texture2D>("Bube/Characters/"+selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey),InterviewTone(selected));
+  KarineUI.RequestPersonHead(paper,Portrait(selected.personId),T(selected.personNameKey),T(selected.personInfoKey),T(statusKey),InterviewTone(selected));
   if(game.Pending(selected))LiveWait(paper.Q("RequestPill"),T("requests.waiting"),WaitTicks(selected));
   if(game.Pending(selected)) {
    var request=game.State.interviewRequests.First(r=>r.nodeId==selected.id);
@@ -245,7 +245,7 @@ public sealed partial class BubeApp {
   KarineUI.SearchGroup(panel,T("search.person"),false);
   KarineUI.SearchFilter(panel,"people",null,T("search.everyone"),fileFilterPerson=="",()=>{fileFilterPerson="";FileSearchPage();});
   foreach(var person in people){var pick=person.personId;
-   KarineUI.SearchFilter(panel,"person",Resources.Load<Texture2D>("Bube/Characters/"+pick),T(person.personNameKey),fileFilterPerson==pick,()=>{fileFilterPerson=pick;FileSearchPage();});}
+   KarineUI.SearchFilter(panel,"person",Portrait(pick),T(person.personNameKey),fileFilterPerson==pick,()=>{fileFilterPerson=pick;FileSearchPage();});}
   var hits=lines.Where(line=>{
    var source=game.Data.nodes.FirstOrDefault(n=>n.id==line.nodeId);
    if(source==null)return false;
