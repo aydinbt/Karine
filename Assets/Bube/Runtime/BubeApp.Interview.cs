@@ -132,7 +132,7 @@ public sealed partial class BubeApp {
   Arrive(enteringRoom);
  }
  void Arrive(bool enteringRoom) {
-  if(enteringRoom){KarineUI.InterviewStarted();FadeIn(root);KarineUI.CutIn(root,KarineTheme.Scene.RingHold);}
+  if(enteringRoom){FadeIn(root);KarineUI.CutIn(root,KarineTheme.Scene.RingHold);}
  }
  string ShortInterviewSourceLabel(string value) {
   value=(value ?? "").Replace('\n',' ').Trim();
@@ -285,7 +285,7 @@ public sealed partial class BubeApp {
   table.style.left=0;table.style.right=0;table.style.bottom=0;table.style.overflow=Overflow.Hidden;
   var tableArt=new Image {image=room,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};tableArt.style.position=Position.Absolute;tableArt.style.left=0;
   table.Add(tableArt);parent.Insert(parent.IndexOf(holder)+1,table);
-  // Masadaki bardak, kayıt cihazı ve tepedeki lamba kişiden öndedir; oda efektleri masanın önüne alınır.
+  // Tepedeki lamba kişiden öndedir; oda efektleri masanın önüne alınır.
   var fx=parent.Q("InterviewRoomFx");if(fx!=null)parent.Insert(parent.IndexOf(table)+1,fx);
   System.Action place=()=>{
    float w=parent.resolvedStyle.width,h=parent.resolvedStyle.height;

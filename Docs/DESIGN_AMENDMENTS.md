@@ -1023,3 +1023,8 @@ Kullanıcı: rapor için seçenekler oyunun takibine göre gelmeli. Şüpheli ve
 ## 3 Ekim 2026 — Oyunun kendi reklam izni penceresi kaldırıldı
 
 Oyun artık reklam için kendi onay penceresini göstermiyor ve ayarlarda reklam izni satırı yok. Reklamlar kişiselleştirilmemiş olarak gösterilir; bölgeye göre gereken onayı (GDPR, iOS ATT) reklam ağının ve sistemin kendi formları sorar, bu da AdMob/LevelPlay entegrasyonunda (Faz 5) bağlanır. Reklam yerleri ve sıklık kuralları değişmedi: soruşturmanın içi kapalı, ödüllü reklam yalnız oyuncunun isteğiyle.
+
+## 4 Ekim 2026 — Sorgu odası
+- Kişi koltuğa oturur: yeri oda görselinin koordinatlarından (koltuk ortası, masa kenarı) hesaplanır; masanın ön kenarı kişinin önüne çizilir.
+- Masadaki su bardağı (ve kayıt sunulunca dalgalanması) ile kayıt cihazı (makara, ışık, süre sayacı) kaldırıldı — kullanıcı kararı.
+- Dosya #002/#003 portreleri olduğu gibi kalır; #001'in piksel tarzına çevrilmez (kullanıcı kararı).

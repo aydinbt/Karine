@@ -111,16 +111,5 @@ public static partial class KarineUI {
    portrait.style.translate=new Translate(Mathf.Sin(t*.5f)*lean*Fx.Amount,0);
   }).Every(KarineTheme.Motion.TickMs*2);
  }
-
- // Kayıt cihazının süre sayacı: görüşmeye girildiğinden beri.
- static float interviewSince;
- public static void InterviewStarted()=>interviewSince=Time.realtimeSinceStartup;
- static void RecorderTimer(VisualElement box) {
-  var time=Technical(box,"00:00",KarineTheme.Office.SmallSize);time.pickingMode=PickingMode.Ignore;
-  time.style.position=Position.Absolute;time.style.left=0;time.style.right=0;time.style.bottom=Length.Percent(-70);
-  time.style.unityTextAlign=TextAnchor.MiddleCenter;time.style.color=KarineTheme.Alpha(KarineTheme.Film.Phosphor,.8f);
-  Action paint=()=>{int s=Mathf.FloorToInt(Time.realtimeSinceStartup-interviewSince);time.text=(s/60).ToString("00")+":"+(s%60).ToString("00");};
-  paint();time.schedule.Execute(paint).Every(1000);
- }
 }
 }

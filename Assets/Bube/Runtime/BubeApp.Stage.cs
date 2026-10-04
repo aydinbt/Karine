@@ -143,7 +143,7 @@ public sealed partial class BubeApp {
   var people=game.Data.nodes.FirstOrDefault(n=>n.kind=="interview" && game.Available(n));
   if(people==null)return;
   InterviewPage(people);
-  root.schedule.Execute(()=>KarineUI.Placer(root,"RoomLamp","RoomGlass","RoomMirror","RoomRecorder","RoomClock")).StartingIn(300);
+  root.schedule.Execute(()=>KarineUI.Placer(root,"RoomLamp","RoomMirror","RoomClock")).StartingIn(300);
  }
 }
 }

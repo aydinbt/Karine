@@ -99,10 +99,9 @@ public static class KarineTheme {
   public static readonly Rect Shelf=new Rect(1.5f,70,20,11);
 
   public const float ZoomSeconds=.38f, ZoomFrom=.18f, DrawerSeconds=.42f, CoverSeconds=.45f, CutSeconds=.55f, RingHold=.9f;
-  public static readonly Rect RoomLamp=new Rect(40,0,20,38), RoomGlass=new Rect(56,70,3.2f,9), RoomMirror=new Rect(74,30,14,40);
-  public static readonly Rect RoomRecorder=new Rect(3,80,12,12), RoomClock=new Rect(90,11,5.5f,10);
-  public const float LampSway=2.2f, LampSwaySeconds=7f, LampAlpha=.22f, MirrorAlpha=.07f, RippleSeconds=1.6f;
-  public const int LedMs=1000;
+  public static readonly Rect RoomLamp=new Rect(40,0,20,38), RoomMirror=new Rect(74,30,14,40);
+  public static readonly Rect RoomClock=new Rect(90,11,5.5f,10);
+  public const float LampSway=2.2f, LampSwaySeconds=7f, LampAlpha=.22f, MirrorAlpha=.07f;
   public const float StringSeconds=.45f, PinShake=4f, DevelopSeconds=2.4f, FlexMax=1.4f, InkWidth=3f;
   public const float RewindSeconds=.9f, GlareAlpha=.06f; public const int KeyMs=34, CursorMs=530, StreamMs=45;
   public const float ModemSeconds=1.5f;
