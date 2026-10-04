@@ -72,7 +72,7 @@ public static partial class KarineUI {
   head.style.borderLeftWidth=I.Edge;head.style.borderLeftColor=open?KarineTheme.Accent:KarineTheme.Border;
   var t=Write(head,title.ToUpper(Tr),open?KarineTheme.Accent:KarineTheme.Secondary,I.TopicSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;t.style.unityTextAlign=TextAnchor.MiddleLeft;
   var arrow=Icon(head,"nav_next",open?KarineTheme.Accent:KarineTheme.Secondary,KarineTheme.IconSize-6);arrow.style.rotate=new Rotate(open?90:0);
-  parent.Add(head);return head;
+  parent?.Add(head);return head;
  }
  public static Button InterviewQuestion(VisualElement parent,string text,Action ask) {
   var row=new Button(Sounded(ask)) {name="InterviewQuestion",tooltip=text};row.style.minHeight=I.RowHeight;
