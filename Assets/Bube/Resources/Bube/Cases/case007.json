@@ -85,7 +85,17 @@
      "textKey": "case007.cctv.event.car_stop",
      "delayMs": 620,
      "id": "car_stop",
-     "overlayTimeKey": "case007.time.car_stop"
+     "overlayTimeKey": "case007.time.car_stop",
+     "framePaths": [
+      "Bube/Cctv/case007_car_stop/01",
+      "Bube/Cctv/case007_car_stop/02",
+      "Bube/Cctv/case007_car_stop/03"
+     ],
+     "frameTimes": [
+      "23.52.00",
+      "23.52.04",
+      "23.52.08"
+     ]
     },
     {
      "textKey": "case007.cctv.event.car_pass",
