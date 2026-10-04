@@ -69,7 +69,21 @@
      "textKey": "case010.cctv.event.taylan_in",
      "delayMs": 620,
      "id": "taylan_in",
-     "overlayTimeKey": "case010.time.taylan_in"
+     "overlayTimeKey": "case010.time.taylan_in",
+     "framePaths": [
+      "Bube/Cctv/case010_taylan_in/01",
+      "Bube/Cctv/case010_taylan_in/02",
+      "Bube/Cctv/case010_taylan_in/03",
+      "Bube/Cctv/case010_taylan_in/04",
+      "Bube/Cctv/case010_taylan_in/05"
+     ],
+     "frameTimes": [
+      "23.21.00",
+      "23.21.04",
+      "23.21.08",
+      "23.21.12",
+      "23.21.16"
+     ]
     },
     {
      "textKey": "case010.cctv.event.hood_in",
