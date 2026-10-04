@@ -72,7 +72,8 @@ public static partial class KarineUI {
   stage.Insert(at,back);stage.Insert(at+1,front);
   if(room!=null)back.Add(room);if(window!=null)back.Add(window);
   // Kenar boşluğu görünmesin diye arka plaka biraz büyük tutulur.
-  back.style.scale=new Scale(Vector3.one*M.BackScale);
+  // Eşyalar masaya oturmalı: ön katman da aynı ölçek ve aynı kaymayla gider, ikisi tek parça.
+  back.style.scale=new Scale(Vector3.one*M.BackScale);front.style.scale=new Scale(Vector3.one*M.BackScale);
 
   var moving=new List<VisualElement>();
   foreach(var child in stage.Children())if(child.name!=null&&DeskFront.Contains(child.name))moving.Add(child);
@@ -127,7 +128,7 @@ public static partial class KarineUI {
    current=Vector2.Lerp(current,target,M.Follow);
    float reach=stage.contentRect.width*M.Reach;
    back.style.translate=new Translate(-current.x*reach*M.BackDepth,-current.y*reach*M.BackDepth*.6f);
-   front.style.translate=new Translate(-current.x*reach,-current.y*reach*.6f);
+   front.style.translate=back.style.translate;
    light.style.opacity=1+M.LightBreath*Mathf.Sin(time*M.LightBreathSpeed);
    foreach(var m in motes) {
     float y=Mathf.Repeat(m.y-time*m.speed,100f);
