@@ -269,12 +269,32 @@ public sealed partial class BubeApp {
   InterviewSourceBody(body,sourceId);
   return holder;
  }
+ // Kişi koltuğa oturur: yer oda görselinin kendi koordinatlarından hesaplanır
+ // (koltuğun ortası, masanın ön kenarı). Görsel ekranı kırparak doldurduğu için
+ // ekran oranı değişse de kişi koltukta, gövdesi masanın kenarında kalır.
+ const float SeatX=.4975f, TableEdge=.726f, FigureWidth=.25f;
+ void SeatInRoom(VisualElement parent,VisualElement holder,float aspect) {
+  var room=Resources.Load<Texture2D>("Bube/InterviewRoom");
+  if(room==null)return;
+  System.Action place=()=>{
+   float w=parent.resolvedStyle.width,h=parent.resolvedStyle.height;
+   if(float.IsNaN(w) || w<=0 || h<=0)return;
+   float scale=Mathf.Max(w/room.width,h/room.height);
+   float offX=(w-room.width*scale)/2,offY=(h-room.height*scale)/2;
+   float figW=FigureWidth*room.width*scale,figH=figW/aspect;
+   holder.style.left=offX+SeatX*room.width*scale-figW/2;holder.style.top=offY+TableEdge*room.height*scale-figH;
+   holder.style.width=figW;holder.style.height=figH;
+  };
+  parent.RegisterCallback<GeometryChangedEvent>(_=>place());
+  place();
+ }
  void PixelPortrait(VisualElement parent,string personId) {
   var holder=new VisualElement();holder.style.position=Position.Absolute;
   holder.style.left=Length.Percent(31);holder.style.top=Length.Percent(23);
   holder.style.width=Length.Percent(27);holder.style.height=Length.Percent(51);
   parent.Add(holder);
   var portrait=Resources.Load<Texture2D>("Bube/Characters/"+personId);
+  if(portrait!=null)SeatInRoom(parent,holder,(float)portrait.width/portrait.height);
   if(portrait!=null) {
    portrait.filterMode=FilterMode.Point;
    var art=new Image {image=portrait,scaleMode=ScaleMode.ScaleToFit};
