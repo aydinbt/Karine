@@ -995,7 +995,17 @@
      "textKey": "case010.cctv.event.t_in",
      "delayMs": 620,
      "id": "t_in",
-     "overlayTimeKey": "case010.time.t_in"
+     "overlayTimeKey": "case010.time.t_in",
+     "framePaths": [
+      "Bube/Cctv/case010_t_in/01",
+      "Bube/Cctv/case010_t_in/02",
+      "Bube/Cctv/case010_t_in/03"
+     ],
+     "frameTimes": [
+      "22.06.00",
+      "22.06.04",
+      "22.06.08"
+     ]
     },
     {
      "textKey": "case010.cctv.event.argue",
