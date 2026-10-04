@@ -564,4 +564,5 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Bölüm finali sinematiği: `BubeApp.Finale.cs`, `KarineUI.Finale.cs` (telefon → personel değerlendirmesi → TAMAMLANDI → DOSYA 011).
 - [~] Zincir: #009 → #010; her ülkeye onuncu yuva.
 - [~] Görseller: Dosya #009–#010 portreleri (13 kişi, Taylan kurban — portre yok), iki kapak ve #010'un on CCTV olayı kare dizisi (taylan_in 5, diğerleri 3 kare). 126/126 EditMode, 25/25 PlayMode (1 atlandı). Unity'de görülmedi.
+- [~] CCTV kareleri, yalnız seyri değiştiren olaylara (olay başına çoğunlukla 3 kare): #005 on olay; #006 defne_home, defne_out, defne_leave, woman_bench, man_bench; #007 kerem_in, car_stop, light (2 kare); #008 glass. Gömülü kamera yazısı yok, etiketi oyun çiziyor. **Rafa kalktı (5 Ekim 2026):** #008 drop, garden ve #009 arda_in, empty. Unity'de görülmedi.
 - [ ] Rekonstrüksiyon ekranı, finale sinematiği ve Dosya #010 baştan sona Play Mode oynanışı (kullanıcı).

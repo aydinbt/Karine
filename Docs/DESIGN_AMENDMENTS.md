@@ -1064,3 +1064,7 @@ Kullanıcı kararları: adlar önceki vakalara benzemez (Onur Keskin → Serkan 
 ## CCTV kare sayısı olaya göre (4 Ekim 2026)
 
 Bir CCTV olayı beş kare olmak zorunda değil. Tek hareketli olaylar (giriş, çıkış, el uzatma) 3 kareyle anlatılır; beş kare yalnız olayın kendisi uzun ya da çok adımlıysa kullanılır. Kareler 4 saniye arayla zaman damgası alır ve olay metninden fazlasını göstermez (ör. #010 `pour`'da nesne seçilemez).
+
+## CCTV karesi yalnız kritik olaylara, görüntüde yazı yok (5 Ekim 2026)
+
+Kare dizisi her CCTV olayına konmaz; yalnız soruşturmanın seyrini değiştiren anlara (bırakılan/alınan nesne, masa altında kalan eller, cam kırma, şüpheli ışık). Rutin giriş/çıkış ve ara adımlar (zile basma) metin kalır. Görüntüye kamera adı, saat veya etiket gömülmez: oyun dili değişince sabit kalırdı; kamera etiketini oyun yerelleştirip kendisi çizer. Gelen görselde yazı varsa kırpılır. Kayıtta adı geçmeyen kişinin yüzü karede seçilmez.

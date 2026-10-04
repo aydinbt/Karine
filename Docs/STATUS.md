@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim:** CCTV kareleri yalnız soruşturmanın seyrini değiştiren olaylara konuyor; geri kalanı metin. #005 tamam; #006 beş, #007 üç, #008 bir olayın kareleri girdi. Görüntüye gömülü kamera yazısı yasak (dil değişince kalıyor). Kalan dört olay (#008 drop/garden, #009 arda_in/empty) rafa kaldırıldı. Sıradaki iş: Gemini ile yapılmamış portrelerin ChatGPT ile yenilenmesi. Unity'de görülmedi.
+
 **4 Ekim (gece, 7):** #009–#010 portreleri, kapakları ve #010'un on CCTV olayı girdi. **#005–#009'un CCTV kareleri (40 olay) henüz yok.** Kare sayısı artık olaya göre — çoğu olay 3 kare yetiyor. Testler yeşil; Unity'de görülmedi.
 
 **4 Ekim (gece, 6):** **Dosya #010 "Kırık Zincir"** — Türkiye finali. Yeni: kapsam genişletme (yangın kaydını dosyaya almak), rapordan önce yedi kartlık olay rekonstrüksiyonu (sıra + kaynak) ve bir kez oynayan bölüm finali sinematiği (telefon, personel değerlendirmesi, TÜRKİYE 10/10, DOSYA 011 Birleşik Krallık). 39 düğüm, 323 metin; onuncu yuva. Testler yeşil; Play Mode'da görülmedi.
