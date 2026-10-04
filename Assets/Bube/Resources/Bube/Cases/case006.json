@@ -505,7 +505,17 @@
      "textKey": "case006.cctv.event.woman_bench",
      "delayMs": 620,
      "id": "woman_bench",
-     "overlayTimeKey": "case006.time.woman_bench"
+     "overlayTimeKey": "case006.time.woman_bench",
+     "framePaths": [
+      "Bube/Cctv/case006_woman_bench/01",
+      "Bube/Cctv/case006_woman_bench/02",
+      "Bube/Cctv/case006_woman_bench/03"
+     ],
+     "frameTimes": [
+      "21.51.00",
+      "21.51.04",
+      "21.51.08"
+     ]
     },
     {
      "textKey": "case006.cctv.event.man_bench",
