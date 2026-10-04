@@ -1060,3 +1060,7 @@ Düzeltmeler: çakışan adlar değişti — Nermin Kaya → Nesrin Eker, Ali R�
 ## 4 Ekim 2026 — Dosya #010 "Kırık Zincir": Türkiye finali
 
 Kullanıcı kararları: adlar önceki vakalara benzemez (Onur Keskin → Serkan Ural, Seda → Pelin Kor); vakalar bağımsız kalır, "hepsinin arkasında aynı örgüt" yok; sonraki ülke Birleşik Krallık; bölüm sonu sinematiği eklenir. Mantık düzeltmeleri: Nehir'in gelişi 02.04 mesajı + misafir kartıyla açıklanır; Baran DNA ile değil özel güvenlik kimlik kartı iz kaydıyla eşleşir; Pelin'in telefon kaydı yalnız ölüm aralığını kapsar. Rekonstrüksiyon ipucu vermez: kartlar karışık havuzda, doğruluk yalnız faksta görünür.
+
+## CCTV kare sayısı olaya göre (4 Ekim 2026)
+
+Bir CCTV olayı beş kare olmak zorunda değil. Tek hareketli olaylar (giriş, çıkış, el uzatma) 3 kareyle anlatılır; beş kare yalnız olayın kendisi uzun ya da çok adımlıysa kullanılır. Kareler 4 saniye arayla zaman damgası alır ve olay metninden fazlasını göstermez (ör. #010 `pour`'da nesne seçilemez).

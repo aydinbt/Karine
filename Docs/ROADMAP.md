@@ -563,4 +563,5 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Olay rekonstrüksiyonu: `Investigation.Recon.cs`, `BubeApp.Recon.cs`, `KarineUI.ReconRow`; rapor adımı, faks satırı.
 - [~] Bölüm finali sinematiği: `BubeApp.Finale.cs`, `KarineUI.Finale.cs` (telefon → personel değerlendirmesi → TAMAMLANDI → DOSYA 011).
 - [~] Zincir: #009 → #010; her ülkeye onuncu yuva.
+- [~] Görseller: Dosya #009–#010 portreleri (13 kişi, Taylan kurban — portre yok), iki kapak ve #010'un on CCTV olayı kare dizisi (taylan_in 5, diğerleri 3 kare). 126/126 EditMode, 25/25 PlayMode (1 atlandı). Unity'de görülmedi.
 - [ ] Rekonstrüksiyon ekranı, finale sinematiği ve Dosya #010 baştan sona Play Mode oynanışı (kullanıcı).
