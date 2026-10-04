@@ -272,19 +272,33 @@ public sealed partial class BubeApp {
  // Kişi koltuğa oturur: yer oda görselinin kendi koordinatlarından hesaplanır
  // (koltuğun ortası, masanın ön kenarı). Görsel ekranı kırparak doldurduğu için
  // ekran oranı değişse de kişi koltukta, gövdesi masanın kenarında kalır.
- const float SeatX=.4975f, TableEdge=.726f, FigureWidth=.25f;
+ // Portrelerin altında birkaç piksellik saydam şerit olabiliyor; kişi biraz aşağı
+ // iner ve masanın ön kenarı önüne çizilir, şerit masanın arkasında kalır.
+ const float SeatX=.4975f, TableEdge=.726f, FigureWidth=.25f, Sink=.04f;
  void SeatInRoom(VisualElement parent,VisualElement holder,float aspect) {
   var room=Resources.Load<Texture2D>("Bube/InterviewRoom");
   if(room==null)return;
+  // Masanın ön kenarı: arka planın aynısı, yalnız kenarın altı görünür; arka planın
+  // kamera nefesi kopyalanır ki iki katman ayrışmasın.
+  var background=parent.Children().OfType<Image>().FirstOrDefault(i=>i.image==room);
+  var table=new VisualElement {name="InterviewTableFront",pickingMode=PickingMode.Ignore};table.style.position=Position.Absolute;
+  table.style.left=0;table.style.right=0;table.style.bottom=0;table.style.overflow=Overflow.Hidden;
+  var tableArt=new Image {image=room,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};tableArt.style.position=Position.Absolute;tableArt.style.left=0;
+  table.Add(tableArt);parent.Insert(parent.IndexOf(holder)+1,table);
+  // Masadaki bardak, kayıt cihazı ve tepedeki lamba kişiden öndedir; oda efektleri masanın önüne alınır.
+  var fx=parent.Q("InterviewRoomFx");if(fx!=null)parent.Insert(parent.IndexOf(table)+1,fx);
   System.Action place=()=>{
    float w=parent.resolvedStyle.width,h=parent.resolvedStyle.height;
    if(float.IsNaN(w) || w<=0 || h<=0)return;
    float scale=Mathf.Max(w/room.width,h/room.height);
    float offX=(w-room.width*scale)/2,offY=(h-room.height*scale)/2;
    float figW=FigureWidth*room.width*scale,figH=figW/aspect;
-   holder.style.left=offX+SeatX*room.width*scale-figW/2;holder.style.top=offY+TableEdge*room.height*scale-figH;
+   float edge=offY+TableEdge*room.height*scale;
+   holder.style.left=offX+SeatX*room.width*scale-figW/2;holder.style.top=edge-figH*(1-Sink);
    holder.style.width=figW;holder.style.height=figH;
+   table.style.top=edge;tableArt.style.top=-edge;tableArt.style.width=w;tableArt.style.height=h;
   };
+  if(background!=null)table.schedule.Execute(()=>{tableArt.style.scale=background.resolvedStyle.scale;tableArt.style.translate=background.resolvedStyle.translate;}).Every(KarineTheme.Motion.TickMs*2);
   parent.RegisterCallback<GeometryChangedEvent>(_=>place());
   place();
  }
