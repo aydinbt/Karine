@@ -1,6 +1,6 @@
 # Dosya #005 — Son Görüldüğü Yer (kesinleşti, 4 Ekim 2026)
 
-**Kategori:** Kayıp şahıs / şüpheli kaybolma · **Yer:** Kadıköy (Moda, Rıhtım) · **Zaman:** 15–16 Kasım 2026 · **Hedef:** 25–30 dk
+**Kategori:** Kayıp şahıs / şüpheli kaybolma · **Yer:** Kadıköy (Moda, Rıhtım) · **Zaman:** 14–15 Kasım 2027 (Pazar gecesi) · **Hedef:** 25–30 dk
 **Numara:** Oyuncu uzun süre ortada bir suç olup olmadığını bilmez. Rapor bir fail seçimi değil, gecenin kurulmasıdır.
 
 ## Hakikat
