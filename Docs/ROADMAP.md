@@ -264,7 +264,8 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Tasarım: `Docs/CASE005_DESIGN.md` — kayıp şahıs; kaybolma kendi isteğiyle, sebebi iş ortağının mali usulsüzlüğü; saldırı yok.
 - [~] Veri ve metin: `case005.json` (21 düğüm), `tr.case005.json` (280 metin). Doğrulayıcı vakayı otomatik çözüyor; 126/126 EditMode.
 - [~] Zincir: Dosya #004 → #005, haritada beşinci yuva.
-- [ ] Portreler (Aslı, Kaan, Murat, Nermin, Levent) ve vaka kapağı.
+- [~] Portreler (Aslı, Kaan, Murat, Nermin, Levent) girdi; sorgu ekranlarında galeri çekimiyle görüldü.
+- [ ] Vaka kapağı.
 - [ ] CCTV kareleri (22.41, 20.11, 23.19, 00.08).
 - [ ] Dosya #005 baştan sona Play Mode oynanışı (kullanıcı).
 
