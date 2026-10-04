@@ -174,7 +174,10 @@
      "textKey": "case004.cctv.event.cam2_back",
      "delayMs": 620,
      "id": "cam2_back",
-     "overlayTimeKey": "case004.time.cam2_back"
+     "overlayTimeKey": "case004.time.cam2_back",
+     "framePaths": ["Bube/Cctv/case004_cam2_back/01","Bube/Cctv/case004_cam2_back/02","Bube/Cctv/case004_cam2_back/03","Bube/Cctv/case004_cam2_back/04"],
+     "frameTimes": ["02.24.00","02.24.02","02.24.04","02.24.06"],
+     "frameMs": 500
     }
    ]
   },
