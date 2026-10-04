@@ -60,7 +60,17 @@
      "textKey": "case007.cctv.event.kerem_in",
      "delayMs": 620,
      "id": "kerem_in",
-     "overlayTimeKey": "case007.time.kerem_in"
+     "overlayTimeKey": "case007.time.kerem_in",
+     "framePaths": [
+      "Bube/Cctv/case007_kerem_in/01",
+      "Bube/Cctv/case007_kerem_in/02",
+      "Bube/Cctv/case007_kerem_in/03"
+     ],
+     "frameTimes": [
+      "22.48.00",
+      "22.48.04",
+      "22.48.08"
+     ]
     },
     {
      "textKey": "case007.cctv.event.melis_out",
