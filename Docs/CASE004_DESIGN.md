@@ -1,6 +1,6 @@
 # Dosya #004 — Sessiz Kat
 
-Bu sayfa içerik ekibi içindir; oyuncuya gösterilmez. **Durum: taslak (4 Ekim 2026).** Senaryo kullanıcıdan geldi. Aşağıdaki düzeltmeler önerimdir; kullanıcı onaylayınca veri (`case004.json`, `tr.case004.json`) yazılır.
+Bu sayfa içerik ekibi içindir; oyuncuya gösterilmez. **Durum: kesinleşti (4 Ekim 2026).** Senaryo kullanıcıdan geldi; düzeltmeler kullanıcı onayıyla işlendi. Veri yazıldı: `Cases/case004.json` (18 düğüm), `Locales/tr.case004.json` (247 metin). Doğrulayıcının otomatik gezintisi vakayı baştan sona açıyor; Play Mode'da insan eliyle oynanmadı.
 
 **Büro:** BDS — şüpheli ölüm / olası cinayet. **Yer/zaman:** Şişli, altı katlı bir apartman, 9 Ocak 2027 gecesi (#003'ün 12 Aralık'ından sonra). **Zorluk:** orta–yüksek. **Hedef süre:** 25–30 dk.
 **Yeni yetenek:** CCTV cevabı vermez. Oyuncu zaman çizelgesini **üç bağımsız kaynaktan** (otopark kaydı, telefon hareketi, servis kapısı) kendisi yeniden kurar.
@@ -121,8 +121,29 @@ Servis kapısı 02.03 bir **sensör satırıdır**, görüntüsü yoktur. Hiçbi
 - Vaka kapağı / olay yeri: apartman cephesi, gece, 6. kat penceresi açık.
 - CCTV kareleri: yukarıdaki üç an.
 
-## Açık kararlar
+## Kararlar (4 Ekim 2026)
 
-1. Yukarıdaki düzeltmeler (kilit notu, bakım kaydı, Gülay, Derya'nın yolculuk kaydı, dört sütun eşlemesi) onaylanıyor mu?
-2. "İtildi" seçeneği yanlış mı sayılsın (öneri: evet)?
-3. Tarih 9 Ocak 2027 uygun mu?
+Kullanıcı bütün düzeltmeleri onayladı; "itildi" yanlış; tarih 9 Ocak 2027.
+
+## Veride uygulanan yapı
+
+Açılma zinciri: tutanak → Gülay (`voices` hat kaydını, `time` kameraları, `door` kilit notunu, `back` bakım kaydını açar). Hat kaydı Derya, Cem ve Nihat'ı açar. Kamera olay yeri incelemesini açar. Derya'nın `night` sorusu yolculuk kaydını; yolculuk kaydı Derya 2'yi açar. Olay yeri incelemesi (fincanda Cem'in izi) Cem 2'yi açar. Cem 2'nin `way` sorusu otopark kaydını, `who` sorusu hesap incelemesini açar. Otopark Nihat 2'yi ve cihaz konum raporunu; cihaz raporu Nihat 3'ü açar.
+
+- "Adı geçiyorsa öne sürülür" kuralı için kaynaklar adı açıkça taşır: fincan raporu Cem'i (parmak izi), otopark iki ruhsat sahibini, cihaz raporu Nihat'ın adresini, yolculuk kaydı Derya'yı anar.
+- **Kapanan görüşme:** Derya 2, Nihat 2 okununca kapanır.
+- Yem yanıtlar: Derya 2 ve Cem 2'de hat kaydı, Nihat 2'de hat kaydı, Nihat 3'te otopark ve hesap incelemesi.
+- Zaman çizelgesi `sortMinute` = 22.00'dan itibaren dakika.
+- Rapor: şüpheli (Nihat; dayanak otopark + cihaz), düşüş (geri çekilirken; dayanak olay yeri + Nihat 3), telefon (Nihat; dayanak cihaz + otopark).
+
+## CCTV kare prompt'ları (sırayla, vaka metnine birebir)
+
+Ortak üslup: sabit tavan köşesi güvenlik kamerası, gece, düşük çözünürlük, hafif gren, soğuk mavi-gri ton, yüz seçilmez, yazı/logo yok, 16:9.
+
+1. **K01 01.31 — `case004_tolga_in` (5 kare):** apartman ön kapısı, dışarıdan içeriye bakan açı; (1) boş giriş, kapı lambası yanık; (2) kadrajın solundan yalnız bir erkek giriyor, koyu mont, başı eğik; (3) kapının önünde anahtarla kilidi açıyor, sırtı kameraya; (4) kapıyı itip içeri giriyor; (5) kapı kapanmış, giriş yine boş.
+2. **K02 01.46 — `case004_cam2_lost` (4 kare):** arka avlu ve servis kapısı, yukarıdan geniş açı, boş; (1) net boş avlu; (2) yatay parazit çizgileri; (3) görüntü renk kayması ve karlanma; (4) neredeyse siyah, yalnız parazit.
+3. **K02 02.24 — `case004_cam2_back` (4 kare):** aynı açı; (1) karlanma; (2) görüntü toparlanıyor, servis kapısı kapalı, avlu boş; (3) net; avlunun uzak köşesinde yerde belirsiz koyu bir karaltı (ayrıntısız); (4) aynı, hiçbir hareket yok.
+
+## Gereken görseller
+
+- Portreler: `Characters/cem`, `nihat`, `derya`, `gulay` (#002/#003 üslubu). Gelene kadar üretilmiş yedek portre kullanılır.
+- Vaka kapağı: apartman cephesi, gece, 6. kat penceresi açık.

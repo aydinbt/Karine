@@ -1,0 +1,992 @@
+{
+ "entries": [
+  {
+   "key": "case004.camera.body",
+   "value": "Ilgın Apartmanı’nın iki kamerasının 01.00 – 02.30 arası döküm kaydı. Kamera 01 ön kapıyı, Kamera 02 arka avluyu ve servis kapısını görüyor. Dairelerin içi ve merdivenler kadrajda değil. Servis kapısında ayrıca bir hareket sensörü var."
+  },
+  {
+   "key": "case004.camera.title",
+   "value": "APARTMAN KAMERALARI — kayıt dökümü"
+  },
+  {
+   "key": "case004.cctv.event.call_time",
+   "value": "Sistem notu: binadan acil çağrı kaydı düşüldü."
+  },
+  {
+   "key": "case004.cctv.event.cam2_back",
+   "value": "Kamera 02: Sinyal geri geliyor. Arka avlu ve servis kapısı boş görünüyor; avlunun köşesinde bir karaltı yerde."
+  },
+  {
+   "key": "case004.cctv.event.cam2_lost",
+   "value": "Kamera 02 (arka avlu ve servis kapısı): Görüntü parazitleniyor, ardından sinyal kesiliyor. Kayıt siyah."
+  },
+  {
+   "key": "case004.cctv.event.service_door",
+   "value": "Servis kapısı hareket sensörü: kapı açıldı, 6 saniye sonra kapandı. Bu satır sensör kaydıdır; görüntüsü yoktur."
+  },
+  {
+   "key": "case004.cctv.event.tolga_in",
+   "value": "Kamera 01 (ön kapı): Bir erkek yaya olarak gelip ön kapıyı anahtarıyla açıyor ve içeri giriyor. Yanında kimse yok. Kapı arkasından kapanıyor."
+  },
+  {
+   "key": "case004.cctv.overlay",
+   "value": "KAM 01 / 02"
+  },
+  {
+   "key": "case004.cctv.period",
+   "value": "9 Ocak 2027, 01.00 – 02.30"
+  },
+  {
+   "key": "case004.cctv.source",
+   "value": "Apartman kameraları"
+  },
+  {
+   "key": "case004.cem.body",
+   "value": "Hat kaydındaki gece aramasından sonra eski iş arkadaşının ifadesi."
+  },
+  {
+   "key": "case004.cem.call.answer",
+   "value": "İş teklifi. Benim büroda bir pozisyon açılıyordu, ona söyledim. O saatte aradım çünkü ikimiz de geç yatarız. İki dakika konuştuk, kapattık."
+  },
+  {
+   "key": "case004.cem.call.answer.demeanor",
+   "value": "‘İki dakika’ derken iki parmağını kaldırdı, sonra elini cebine soktu."
+  },
+  {
+   "key": "case004.cem.call.question",
+   "value": "Gece 01.20’de Tolga’yla neden konuştunuz?"
+  },
+  {
+   "key": "case004.cem.company.answer",
+   "value": "Daha iyi bir teklif aldım. Normal bir ayrılık. Şirketle bir alıp veremediğim yok."
+  },
+  {
+   "key": "case004.cem.company.question",
+   "value": "Kuzey Hat Lojistik’ten neden ayrıldınız?"
+  },
+  {
+   "key": "case004.cem.deflect",
+   "value": "Bu konuda bir şey söylemeyeceğim."
+  },
+  {
+   "key": "case004.cem.last.answer",
+   "value": "Aylar oldu. Ben şirketten ayrıldıktan sonra arada bir yazışırdık, o kadar. Tolga’yı aylardır görmedim."
+  },
+  {
+   "key": "case004.cem.last.answer.demeanor",
+   "value": "Gözünü masanın kenarındaki bir çizikten ayırmadı."
+  },
+  {
+   "key": "case004.cem.last.question",
+   "value": "Tolga Ergin’i en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case004.cem.quote",
+   "value": "“Tolga’yı aylardır görmedim.”"
+  },
+  {
+   "key": "case004.cem.title",
+   "value": "Cem Gür — görüşme"
+  },
+  {
+   "key": "case004.cem_follow.body",
+   "value": "Olay yeri inceleme raporundan sonra yapılan görüşme."
+  },
+  {
+   "key": "case004.cem_follow.there.answer",
+   "value": "…Oradaydım. Tamam. Bir buçuk gibi geldim, ikiye doğru çıktım. Tolga yaşıyordu, yemin ederim. Söylemedim çünkü adımın bu işe karışmasını istemedim. Neden istemediğimi de anlatırım, ama önce şunu bilin: ben çıktığımda pencere kapalıydı."
+  },
+  {
+   "key": "case004.cem_follow.there.answer.demeanor",
+   "value": "Uzun süre sustu. Sonra iki elini yüzüne kapadı."
+  },
+  {
+   "key": "case004.cem_follow.there.decoy.phone",
+   "value": "Aradım, evet, söyledim zaten. İş teklifi."
+  },
+  {
+   "key": "case004.cem_follow.there.decoy.phone.demeanor",
+   "value": "Omuz silkti ama gözünü kayıttan ayırmadı."
+  },
+  {
+   "key": "case004.cem_follow.there.question",
+   "value": "Tolga’yı aylardır görmediğinizi söylediniz. Masadaki fincanda sizin izleriniz var."
+  },
+  {
+   "key": "case004.cem_follow.title",
+   "value": "Cem Gür — ikinci görüşme"
+  },
+  {
+   "key": "case004.cem_follow.way.answer",
+   "value": "Arkadan. Arabamı arka otoparka bıraktım, servis geçidinden girdim. Tolga öyle istedi; kimse görmesin dedi. Çıkarken de aynı yoldan çıktım, arabama binip gittim."
+  },
+  {
+   "key": "case004.cem_follow.way.question",
+   "value": "Kamera sizi göstermiyor. Binaya nereden girdiniz?"
+  },
+  {
+   "key": "case004.cem_follow.who.answer",
+   "value": "Nihat Sönmez’in. Operasyon müdürü. Tolga’nın patronu. Tolga bu akşam ona bir şey belli etmiş mi, bilmiyorum. Ama ‘Nihat Bey bugün çok ilgiliydi’ dedi."
+  },
+  {
+   "key": "case004.cem_follow.who.question",
+   "value": "O onay zinciri kimin?"
+  },
+  {
+   "key": "case004.cem_follow.why.answer",
+   "value": "Şirketten ayrılmadan önce hesaplarda bir şey fark ettim. Küçük tutarlar, düzenli, hep aynı onay zinciri. Kimseye söyleyemedim, ayrıldım. Geçen ay Tolga aradı, aynı şeyi o da bulmuş. Elimdeki kopyaları ona verdim. O gece adımı vermemesini istedim. Tartıştık; o ‘yarın her şeyi yönetime götüreceğim’ dedi."
+  },
+  {
+   "key": "case004.cem_follow.why.answer.demeanor",
+   "value": "Sesini kısıp kapıya doğru baktı."
+  },
+  {
+   "key": "case004.cem_follow.why.question",
+   "value": "Tolga’yla o gece ne konuştunuz?"
+  },
+  {
+   "key": "case004.clue.call",
+   "value": "Acil çağrı"
+  },
+  {
+   "key": "case004.clue.call_time",
+   "value": "Acil çağrı"
+  },
+  {
+   "key": "case004.clue.cam2_back",
+   "value": "Arka kamera geri geliyor"
+  },
+  {
+   "key": "case004.clue.cam2_lost",
+   "value": "Arka kamera sinyali kesiliyor"
+  },
+  {
+   "key": "case004.clue.camera_cam2_back",
+   "value": "Arka kamera geri geliyor"
+  },
+  {
+   "key": "case004.clue.camera_cam2_lost",
+   "value": "Arka kamera sinyali kesiliyor"
+  },
+  {
+   "key": "case004.clue.camera_service_door",
+   "value": "Servis kapısı açılıp kapanıyor (sensör)"
+  },
+  {
+   "key": "case004.clue.camera_tolga_in",
+   "value": "Bir erkek ön kapıdan yalnız giriyor"
+  },
+  {
+   "key": "case004.clue.cem_arrive_claim",
+   "value": "Geldiğini söylüyor (servis geçidi)"
+  },
+  {
+   "key": "case004.clue.cem_call",
+   "value": "Cem Gür ile iki dakikalık arama"
+  },
+  {
+   "key": "case004.clue.cem_leave_claim",
+   "value": "Ayrıldığını söylüyor"
+  },
+  {
+   "key": "case004.clue.derya_msgs",
+   "value": "Derya Aksoy’un son mesajı"
+  },
+  {
+   "key": "case004.clue.device_moves",
+   "value": "Kayıp telefon binadan uzaklaşıyor"
+  },
+  {
+   "key": "case004.clue.device_off",
+   "value": "Telefon Ataşehir’de kapanıyor"
+  },
+  {
+   "key": "case004.clue.gulay_voices",
+   "value": "Yukarıda iki erkek sesi (saat yaklaşık)"
+  },
+  {
+   "key": "case004.clue.nihat_call",
+   "value": "Nihat Sönmez arıyor, cevapsız"
+  },
+  {
+   "key": "case004.clue.nihat_home_claim",
+   "value": "Ofisten çıkıp eve gittiğini söylüyor"
+  },
+  {
+   "key": "case004.clue.park_cem_in",
+   "value": "Cem Gür’ün aracı otoparka giriyor"
+  },
+  {
+   "key": "case004.clue.park_cem_out",
+   "value": "Cem Gür’ün aracı otoparktan çıkıyor"
+  },
+  {
+   "key": "case004.clue.park_nihat_in",
+   "value": "Nihat Sönmez’in aracı otoparka giriyor"
+  },
+  {
+   "key": "case004.clue.park_nihat_out",
+   "value": "Nihat Sönmez’in aracı otoparktan çıkıyor"
+  },
+  {
+   "key": "case004.clue.ride_out",
+   "value": "Moda’dan Bostancı’ya yolculuk"
+  },
+  {
+   "key": "case004.clue.service_door",
+   "value": "Servis kapısı açılıp kapanıyor (sensör)"
+  },
+  {
+   "key": "case004.clue.source.device",
+   "value": "Cihaz konum raporu"
+  },
+  {
+   "key": "case004.clue.source.parking",
+   "value": "Otopark plaka kaydı"
+  },
+  {
+   "key": "case004.clue.source.phone",
+   "value": "Hat kaydı"
+  },
+  {
+   "key": "case004.clue.source.report",
+   "value": "Olay tespit tutanağı"
+  },
+  {
+   "key": "case004.clue.source.ride",
+   "value": "Yolculuk kaydı"
+  },
+  {
+   "key": "case004.clue.tolga_in",
+   "value": "Bir erkek ön kapıdan yalnız giriyor"
+  },
+  {
+   "key": "case004.custody.cem",
+   "value": "Cem Gür — adının geçtiği mesajlar yüzünden"
+  },
+  {
+   "key": "case004.custody.derya",
+   "value": "Derya Aksoy — mesajları silmek için"
+  },
+  {
+   "key": "case004.custody.label",
+   "value": "Telefonu kim aldı?"
+  },
+  {
+   "key": "case004.custody.lost",
+   "value": "Kimse — düşerken kayboldu"
+  },
+  {
+   "key": "case004.custody.nihat",
+   "value": "Nihat Sönmez — yazışmaları saklamak için"
+  },
+  {
+   "key": "case004.derya.body",
+   "value": "Hat kaydındaki mesajlardan sonra eski sevgilinin ifadesi."
+  },
+  {
+   "key": "case004.derya.deflect",
+   "value": "Bunun Tolga’yla ne ilgisi var?"
+  },
+  {
+   "key": "case004.derya.messages.answer",
+   "value": "Kavga ettik, evet. Hep ederdik. Kişisel bir şeydi, ayrılıktan kalma. ‘Pişman olacaksın’ derken bir şey yapacağımı kastetmedim. İnsan sinirle yazıyor."
+  },
+  {
+   "key": "case004.derya.messages.answer.demeanor",
+   "value": "Telefonunu ters çevirip masaya bıraktı."
+  },
+  {
+   "key": "case004.derya.messages.question",
+   "value": "O akşam Tolga’ya yazdığınız mesajları açıklar mısınız?"
+  },
+  {
+   "key": "case004.derya.night.answer",
+   "value": "Evdeydim. Moda’da. Yazdım, cevap vermedi, ben de yattım. Gitmedim oraya."
+  },
+  {
+   "key": "case004.derya.night.answer.demeanor",
+   "value": "Cevabı soru bitmeden verdi."
+  },
+  {
+   "key": "case004.derya.night.question",
+   "value": "O gece neredeydiniz?"
+  },
+  {
+   "key": "case004.derya.quote",
+   "value": "“Kavga ettik, evet. Hep ederdik.”"
+  },
+  {
+   "key": "case004.derya.title",
+   "value": "Derya Aksoy — görüşme"
+  },
+  {
+   "key": "case004.derya.tolga.answer",
+   "value": "Bilmiyorum, aylardır doğru dürüst konuşmuyorduk. Ama Tolga kendine bir şey yapacak adam değildi. Bir şeyi bitirmeden bırakmazdı, sinir bozucu derecede."
+  },
+  {
+   "key": "case004.derya.tolga.question",
+   "value": "Tolga son zamanlarda nasıldı?"
+  },
+  {
+   "key": "case004.derya_follow.body",
+   "value": "Yolculuk kaydından sonra yapılan görüşme."
+  },
+  {
+   "key": "case004.derya_follow.gone",
+   "value": "Derya Aksoy iş için yurt dışına çıktı. Avukatı, dönüşüne kadar yeni bir görüşmeye katılmayacağını bildirdi."
+  },
+  {
+   "key": "case004.derya_follow.money.answer",
+   "value": "‘Az kaldı’ diyordu. Şirkette bir iş çözülünce rahatlayacakmış. Son konuşmamızda ‘patronum beni ya yükseltecek ya kovacak’ dedi. Ne demek istediğini sormadım."
+  },
+  {
+   "key": "case004.derya_follow.money.question",
+   "value": "Tolga parayı neden geri vermiyordu?"
+  },
+  {
+   "key": "case004.derya_follow.title",
+   "value": "Derya Aksoy — ikinci görüşme"
+  },
+  {
+   "key": "case004.derya_follow.where.answer",
+   "value": "Tamam. Ablamdaydım. Evde değildim, söylemedim çünkü… Mesajlar kıskançlık değildi. Tolga’ya geçen yıl 60 bin lira borç verdim, geri vermiyordu. Ablam da o parayı bana vermişti. Gece ona gittim, ağladım. Bunu anlatmak istemedim, o kadar."
+  },
+  {
+   "key": "case004.derya_follow.where.answer.demeanor",
+   "value": "Bir an güldü, sonra gözlerini sildi."
+  },
+  {
+   "key": "case004.derya_follow.where.decoy.phone",
+   "value": "Mesajları biliyorum, ben yazdım. Başka bir şey var mı?"
+  },
+  {
+   "key": "case004.derya_follow.where.decoy.phone.demeanor",
+   "value": "Sesi sertleşti."
+  },
+  {
+   "key": "case004.derya_follow.where.question",
+   "value": "Evde olduğunuzu söylemiştiniz. Bu kayıt başka bir şey söylüyor."
+  },
+  {
+   "key": "case004.device.body",
+   "value": "Tolga Ergin’in kayıp telefonunun şebeke konum kayıtları, 9 Ocak:\n\n01.31 – 02.20 · Şişli, Ilgın Apartmanı çevresi (sabit).\n02.21 · Cihaz binadan uzaklaşmaya başlıyor.\n02.25 · Şişli – Mecidiyeköy bağlantısı.\n02.33 · Köprü geçişi, Anadolu yakası.\n02.48 · Son sinyal: Ataşehir. Konum, Nihat Sönmez’in kayıtlı ikamet adresine yaklaşık 300 metre. Cihaz bu noktada kapanıyor.\n\nHareket hızı ve güzergâh araçla taşınmayla uyumlu."
+  },
+  {
+   "key": "case004.device.title",
+   "value": "CİHAZ KONUM RAPORU — TOLGA ERGİN’İN TELEFONU"
+  },
+  {
+   "key": "case004.epilogue.custody.cem",
+   "value": "Cem Gür’ün evi ve bürosu arandı, telefon bulunamadı. Ataşehir’de kapanan cihaz kimsenin sorusu olmadı."
+  },
+  {
+   "key": "case004.epilogue.custody.derya",
+   "value": "Derya Aksoy’un evi arandı, telefon bulunamadı. Mesajlar zaten hat kaydındaydı; arama bir şey kazandırmadı."
+  },
+  {
+   "key": "case004.epilogue.custody.lost",
+   "value": "Avlu ve çevre üç kez tarandı, telefon bulunamadı. Konum kaydı dosyada okunmadan kaldı."
+  },
+  {
+   "key": "case004.epilogue.custody.nihat",
+   "value": "Telefon Nihat Sönmez’in evinde bulundu. Tolga Ergin’in yönetime göndermeye hazırladığı döküm de içindeydi; zimmet davasının ilk delili oldu."
+  },
+  {
+   "key": "case004.epilogue.verdict.cem",
+   "value": "Cem Gür tutuklandı. Fincandaki iz ve yalanı onu üç hafta cezaevinde tuttu; otopark kaydı onu aklayana kadar Nihat Sönmez yurt dışına çıkmıştı."
+  },
+  {
+   "key": "case004.epilogue.verdict.derya",
+   "value": "Derya Aksoy gözaltına alındı, mesajları basına sızdı. Yolculuk kaydı onu iki gün içinde akladı; ama dosyanın asıl ucu çoktan soğumuştu."
+  },
+  {
+   "key": "case004.epilogue.verdict.nihat",
+   "value": "Nihat Sönmez tehdit, delil karartma ve iki yıllık zimmetle yargılanmak üzere tutuklandı. Tolga Ergin’in telefonu evinde, kapalı halde bulundu; içindeki yazışmalar dosyaya girdi."
+  },
+  {
+   "key": "case004.epilogue.verdict.nobody",
+   "value": "Dosya intihar olarak kapandı. Kuzey Hat Lojistik, açığı ‘Tolga Ergin’in kişisel sorunlarına’ bağlayan bir iç rapor yayımladı; zimmet yıllarca ortaya çıkmadı."
+  },
+  {
+   "key": "case004.evidence.camera",
+   "value": "Apartman kameraları dökümü"
+  },
+  {
+   "key": "case004.evidence.device",
+   "value": "Kayıp telefonun konum raporu"
+  },
+  {
+   "key": "case004.evidence.finance",
+   "value": "Şirket hesap incelemesi"
+  },
+  {
+   "key": "case004.evidence.parking",
+   "value": "Otopark plaka kaydı"
+  },
+  {
+   "key": "case004.evidence.scene",
+   "value": "Olay yeri inceleme raporu"
+  },
+  {
+   "key": "case004.feedback.cem",
+   "value": "Cem Gür o gece dairedeydi ve yalan söyledi, ama aracı 01.58’de otoparktan çıktı. Fincanı bir saatten uzun beklemişti; düşüşten önce gitmişti."
+  },
+  {
+   "key": "case004.feedback.derya",
+   "value": "Derya Aksoy o gece Bostancı’daydı; Şişli’ye hiç gelmedi. Mesajlar Tolga’ya verdiği borçla ilgiliydi."
+  },
+  {
+   "key": "case004.feedback.nihat",
+   "value": "Nihat Sönmez 01.57’de otoparka girdi, 02.03’te servis kapısından çıktı ve düşüş anında dairedeydi. Telefon 02.21’de onunla birlikte binadan ayrıldı."
+  },
+  {
+   "key": "case004.feedback.nobody",
+   "value": "Tolga Ergin düştüğünde yalnız değildi: Gülay Tan iki erkek sesi duydu, kapı dışarıdan çekilince kilitleniyor ve telefon binadan bir araçla ayrıldı."
+  },
+  {
+   "key": "case004.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case004.file.value.bureau",
+   "value": "BDS Şüpheli Ölüm Masası"
+  },
+  {
+   "key": "case004.file.value.location",
+   "value": "Şişli, Ilgın Apartmanı, daire 12"
+  },
+  {
+   "key": "case004.file.value.number",
+   "value": "BDS-2027-0014"
+  },
+  {
+   "key": "case004.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case004.file.value.reporter",
+   "value": "Gülay Tan, 02.17 çağrısı"
+  },
+  {
+   "key": "case004.finance.body",
+   "value": "Kuzey Hat Lojistik’in son iki yıllık ödeme kayıtları incelendi.\n\n‘Ek nakliye bedeli’ başlığıyla, üç taşeron firmaya düzenli küçük ödemeler yapılmış; toplam 2.840.000 TL. Üç firmanın da adresi aynı ve hiçbirinin sefer kaydı yok. Ödemelerin tamamının ikinci onayı Nihat Sönmez’e ait.\n\nTolga Ergin’in kullanıcı hesabı son üç haftada bu ödemelerin dökümünü dokuz kez indirmiş; son indirme 8 Ocak 21.40.\n\nArşivde Cem Gür imzalı, 2025 tarihli kısa bir iç not var: “Ek nakliye kalemlerinde tekrar eden tutarlar — incelenmeli.” Notun üzerine işlem yapılmamış."
+  },
+  {
+   "key": "case004.finance.title",
+   "value": "ŞİRKET HESAP İNCELEMESİ"
+  },
+  {
+   "key": "case004.gulay.back.answer",
+   "value": "Arkada servis kapısı var, yan binayla ortak geçide açılıyor. Otoparktan oraya geçiliyor. Kamerası da var ama hep bozuk, yöneticiye kaç kere söyledik."
+  },
+  {
+   "key": "case004.gulay.back.question",
+   "value": "Binaya ön kapıdan başka girilen bir yer var mı?"
+  },
+  {
+   "key": "case004.gulay.body",
+   "value": "Acil çağrıyı yapan alt kat komşusunun ifadesi."
+  },
+  {
+   "key": "case004.gulay.call.answer",
+   "value": "Bir gürültü geldi, bir şey devrildi gibi. Sonra pencerenin önünden bir şey geçti, aşağı. Önce perde mi düştü dedim. Balkona çıktım, avluya baktım… Hemen aradım."
+  },
+  {
+   "key": "case004.gulay.call.answer.demeanor",
+   "value": "Elindeki mendili katlayıp duruyor, açıp yeniden katlıyor."
+  },
+  {
+   "key": "case004.gulay.call.question",
+   "value": "Çağrıyı neden yaptınız?"
+  },
+  {
+   "key": "case004.gulay.deflect",
+   "value": "Bilmiyorum evladım, o kadarını bilemem."
+  },
+  {
+   "key": "case004.gulay.door.answer",
+   "value": "Ben balkondayken yukarıda bir kapı çarptı. Sertçe. Sonra merdivenden ayak sesi… ya da bana öyle geldi. O kadar telaşlıydım ki."
+  },
+  {
+   "key": "case004.gulay.door.answer.demeanor",
+   "value": "‘Bana öyle geldi’ derken sesi inceldi."
+  },
+  {
+   "key": "case004.gulay.door.question",
+   "value": "Düşüşten sonra yukarıda bir şey duydunuz mu?"
+  },
+  {
+   "key": "case004.gulay.quote",
+   "value": "“Yukarıda iki adam vardı. Biri bağırıyordu.”"
+  },
+  {
+   "key": "case004.gulay.time.answer",
+   "value": "Gece ikiyi geçiyordu. Saate bakmadım ama haberler bitmişti, ben de uyuyamıyordum. İkiyi geçiyordu, kaç geçiyordu bilemem."
+  },
+  {
+   "key": "case004.gulay.time.question",
+   "value": "Sesler saat kaçtaydı?"
+  },
+  {
+   "key": "case004.gulay.title",
+   "value": "Gülay Tan — görüşme"
+  },
+  {
+   "key": "case004.gulay.tolga.answer",
+   "value": "Kibar çocuktu. Son zamanlarda geç geliyordu, yorgundu. Ama üzgün değildi, öyle demeyin. Geçen hafta pazardan bana poşet taşıdı, gülüyordu."
+  },
+  {
+   "key": "case004.gulay.tolga.question",
+   "value": "Tolga Bey’i nasıl biri olarak tanırdınız?"
+  },
+  {
+   "key": "case004.gulay.voices.answer",
+   "value": "Duydum. İki adam vardı. Biri bağırıyordu, öteki daha alçaktan konuşuyordu. Tolga Bey’in sesi alçak olanıydı sanırım, o hiç bağırmazdı. Kelimeleri anlamadım."
+  },
+  {
+   "key": "case004.gulay.voices.answer.demeanor",
+   "value": "Tavana baktı, sanki ses hâlâ oradaymış gibi."
+  },
+  {
+   "key": "case004.gulay.voices.question",
+   "value": "Ondan önce yukarıdan bir şey duydunuz mu?"
+  },
+  {
+   "key": "case004.lock.body",
+   "value": "Daire 12’nin kapısı incelendi.\n\nKapıda gömme, yaylı dil mekanizmalı bir kilit var. Kapı dışarıdan çekildiğinde dil kendiliğinden yuvasına oturur; kapı anahtarsız açılamaz hale gelir. Ek sürgü ve zincir takılı değildi.\n\nSonuç: kapının kilitli bulunması, içeriden kilitlendiğini göstermez. Kapıyı son kapatan kişi dairenin dışında da olabilir.\n\nKapı kolunun dış yüzünde silinmiş gibi bozulmuş, kullanılamayan izler var."
+  },
+  {
+   "key": "case004.lock.title",
+   "value": "KİLİT İNCELEME NOTU"
+  },
+  {
+   "key": "case004.maintenance.body",
+   "value": "Ilgın Apartmanı yönetiminin güvenlik sistemi bakım defterinden:\n\n17 Aralık · Kamera 02 görüntü kaybı, kablo bağlantısı yenilendi.\n26 Aralık · Kamera 02 yine aralıklı kesiliyor; nem kaynaklı, kutu değişecek.\n3 Ocak · Kamera 02 iki gecede toplam altı kez kesildi. Parça siparişi verildi.\n8 Ocak · Parça gelmedi.\n\nYönetici notu: “Arka geçit yan binayla ortak, servis kapısı otopark tarafından içeriden açılıyor. Kamera düzelene kadar sensör kaydı tutuluyor.”"
+  },
+  {
+   "key": "case004.maintenance.title",
+   "value": "YÖNETİM BAKIM KAYDI"
+  },
+  {
+   "key": "case004.method.alone",
+   "value": "Yalnızken kazayla düştü"
+  },
+  {
+   "key": "case004.method.backed",
+   "value": "Tartışmada geri çekilirken sehpaya takılıp düştü"
+  },
+  {
+   "key": "case004.method.jumped",
+   "value": "Kendisi atladı"
+  },
+  {
+   "key": "case004.method.label",
+   "value": "Tolga nasıl düştü?"
+  },
+  {
+   "key": "case004.method.pushed",
+   "value": "İtildi"
+  },
+  {
+   "key": "case004.nihat.accounts.answer",
+   "value": "Hayır. Geçen yıl bağımsız denetimden temiz çıktık. Lojistikte küçük farklar olur, onlar da kapanır."
+  },
+  {
+   "key": "case004.nihat.accounts.question",
+   "value": "Şirket hesaplarında son zamanlarda bir sorun var mıydı?"
+  },
+  {
+   "key": "case004.nihat.body",
+   "value": "Hat kaydındaki arama ve mesajdan sonra Tolga Ergin’in yöneticisinin ifadesi."
+  },
+  {
+   "key": "case004.nihat.deflect",
+   "value": "Bunu şirketin avukatıyla konuşmanız daha doğru olur."
+  },
+  {
+   "key": "case004.nihat.message.answer",
+   "value": "Yeni yılın bütçe taslağını. Yönetim kurulundan önce dışarı sızmasın istedim. Tolga muhasebedeydi, ilk o görürdü."
+  },
+  {
+   "key": "case004.nihat.message.question",
+   "value": "Saat 23.12’deki mesajınızda “kimseyle paylaşma” diyorsunuz. Neyi?"
+  },
+  {
+   "key": "case004.nihat.night.answer",
+   "value": "Ofisten on bir buçuk gibi çıktım, eve gittim. Ataşehir’e. Tolga’yla konuşmadım; aradım, açmadı."
+  },
+  {
+   "key": "case004.nihat.night.answer.demeanor",
+   "value": "Cümleyi bitirince saatine baktı."
+  },
+  {
+   "key": "case004.nihat.night.question",
+   "value": "O gece neredeydiniz?"
+  },
+  {
+   "key": "case004.nihat.quote",
+   "value": "“O gece eve gittim. Tolga’yla konuşmadım.”"
+  },
+  {
+   "key": "case004.nihat.title",
+   "value": "Nihat Sönmez — görüşme"
+  },
+  {
+   "key": "case004.nihat.tolga.answer",
+   "value": "Titiz bir çalışandı. Ama son haftalarda gergindi, kendine kapanmıştı. Geç saatlere kadar ofiste kalıyordu. Bir şeyler yolunda değildi, ben de fark ettim, keşke sorsaydım."
+  },
+  {
+   "key": "case004.nihat.tolga.answer.demeanor",
+   "value": "Başını iki yana salladı; sesi bir an fazla yumuşadı."
+  },
+  {
+   "key": "case004.nihat.tolga.question",
+   "value": "Tolga son zamanlarda nasıldı?"
+  },
+  {
+   "key": "case004.nihat_follow.body",
+   "value": "Otopark kaydından sonra yapılan görüşme."
+  },
+  {
+   "key": "case004.nihat_follow.car.answer",
+   "value": "Evet… Gittim. Tolga mesajıma dönmemişti, merak ettim. Bütçe konusunu yüz yüze konuşmak istedim. Otoparka girdim, arabada oturdum. Sonra gece yarısı adamın kapısına dayanmak doğru değil dedim, çıkmadım. Vazgeçtim, döndüm."
+  },
+  {
+   "key": "case004.nihat_follow.car.answer.demeanor",
+   "value": "Kravatını gevşetti, sonra yeniden sıktı."
+  },
+  {
+   "key": "case004.nihat_follow.car.decoy.phone",
+   "value": "Aradım, açmadı. Bunu ilk görüşmede söyledim."
+  },
+  {
+   "key": "case004.nihat_follow.car.decoy.phone.demeanor",
+   "value": "Sabırsız bir nefes verdi."
+  },
+  {
+   "key": "case004.nihat_follow.car.question",
+   "value": "Eve gittiğinizi söylemiştiniz. Aracınız 01.57’de Tolga’nın binasının otoparkında."
+  },
+  {
+   "key": "case004.nihat_follow.cem.answer",
+   "value": "Eski çalışanımız. Hesaplara takıntılıydı, her şeyde bir komplo görürdü. Ayrılınca rahatladık açıkçası. O gece orada mıymış? Bakın, bu sizin için önemli bir şey olmalı."
+  },
+  {
+   "key": "case004.nihat_follow.cem.answer.demeanor",
+   "value": "Gözleri ilk kez canlandı, öne doğru eğildi."
+  },
+  {
+   "key": "case004.nihat_follow.cem.question",
+   "value": "Cem Gür’ü tanıyor musunuz?"
+  },
+  {
+   "key": "case004.nihat_follow.title",
+   "value": "Nihat Sönmez — ikinci görüşme"
+  },
+  {
+   "key": "case004.nihat_follow.wait.answer",
+   "value": "Düşündüm. Telefonla uğraştım. Bir ara uyuklamış olabilirim, yorgundum. Sonra çıktım."
+  },
+  {
+   "key": "case004.nihat_follow.wait.question",
+   "value": "Otoparkta yirmi altı dakika ne yaptınız?"
+  },
+  {
+   "key": "case004.nihat_third.body",
+   "value": "Kayıp telefonun konum raporundan sonra yapılan görüşme."
+  },
+  {
+   "key": "case004.nihat_third.money.answer",
+   "value": "Yapıldı. İki yıl önce bir açığı kapatmak için başladı, sonra duramadım. Tolga bunu bulunca her şey bitti zaten. Ama onu ben itmedim. Bunu yazın. Ben itmedim."
+  },
+  {
+   "key": "case004.nihat_third.money.answer.demeanor",
+   "value": "Son cümleyi iki kez söyledi; ikincisi fısıltıydı."
+  },
+  {
+   "key": "case004.nihat_third.money.question",
+   "value": "Ek nakliye ödemeleri sizin onayınızla mı yapıldı?"
+  },
+  {
+   "key": "case004.nihat_third.phone.answer",
+   "value": "…Yukarı çıktım. Servis kapısından. Tolga kapıyı açtı, içeride ikinci bir fincan vardı, biriyle konuştuğunu anladım. Dosyaları bırakmasını istedim. Bağırdım, evet. Üstüne yürüdüm. Ona dokunmadım. O geri çekildi, geri çekildi… sehpa. Takıldı. Pencere açıktı. Bir saniye bile sürmedi."
+  },
+  {
+   "key": "case004.nihat_third.phone.answer.demeanor",
+   "value": "Uzun süre konuşmadı. Ellerini masaya düz koydu, parmakları titriyordu."
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.finance",
+   "value": "Bu bir muhasebe meselesi. Bunu avukatlarım konuşur."
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.finance.demeanor",
+   "value": "Yüzü kapandı; sesi düzleşti."
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.parking",
+   "value": "Otoparkta olduğumu kabul ettim. Daha ne istiyorsunuz?"
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.parking.demeanor",
+   "value": "Masaya hafifçe vurdu."
+  },
+  {
+   "key": "case004.nihat_third.phone.question",
+   "value": "Tolga’nın telefonu 02.21’de binadan çıkıp sizin evinizin yanında kapanıyor."
+  },
+  {
+   "key": "case004.nihat_third.title",
+   "value": "Nihat Sönmez — üçüncü görüşme"
+  },
+  {
+   "key": "case004.nihat_third.took.answer",
+   "value": "İçinde bütün yazışmalar vardı. Benim mesajım da. Masada duruyordu. Aldım, kapıyı çekip çıktım. Merdivenden indim, arabaya bindim. Eve gidince kapattım. Hâlâ bende."
+  },
+  {
+   "key": "case004.nihat_third.took.question",
+   "value": "Telefonu neden aldınız?"
+  },
+  {
+   "key": "case004.offer.subtitle",
+   "value": "SESSİZ KAT  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case004.offer.summary",
+   "value": "Şişli’de bir apartmanın 6. katından bir adam düşüyor. Kapı kilitli, dairede kimse yok; ilk ekip intihar diyor. Ama telefonu kayıp ve masada iki fincan var. Tutanak masanızda."
+  },
+  {
+   "key": "case004.offer.title",
+   "value": "DOSYA #004"
+  },
+  {
+   "key": "case004.parking.body",
+   "value": "Ilgın Apartmanı ile yan bina arasındaki ortak otoparkın plaka okuma kaydı, 9 Ocak 01.00 – 03.00:\n\n01.36 · giriş · 34 KGR 418 · ruhsat sahibi Cem Gür\n01.57 · giriş · 34 NS 2207 · ruhsat sahibi Nihat Sönmez\n01.58 · çıkış · 34 KGR 418 · ruhsat sahibi Cem Gür\n02.23 · çıkış · 34 NS 2207 · ruhsat sahibi Nihat Sönmez\n\nAralıkta başka giriş ya da çıkış yok. Otopark kamerası yalnız plakayı okur; sürücü görünmez."
+  },
+  {
+   "key": "case004.parking.title",
+   "value": "OTOPARK PLAKA KAYDI"
+  },
+  {
+   "key": "case004.person.cem.info",
+   "value": "41 yaşında, mali müşavir. Bir yıl öncesine kadar Kuzey Hat Lojistik’te Tolga Ergin’le aynı birimde çalıştı."
+  },
+  {
+   "key": "case004.person.cem.name",
+   "value": "Cem Gür"
+  },
+  {
+   "key": "case004.person.derya.info",
+   "value": "35 yaşında, grafik tasarımcı. Tolga Ergin’in eski sevgilisi; sekiz ay önce ayrılmışlar. Moda’da oturuyor."
+  },
+  {
+   "key": "case004.person.derya.name",
+   "value": "Derya Aksoy"
+  },
+  {
+   "key": "case004.person.gulay.info",
+   "value": "67 yaşında, emekli öğretmen. Binanın 5. katında, Tolga Ergin’in tam altındaki dairede oturuyor. Acil çağrıyı yapan kişi."
+  },
+  {
+   "key": "case004.person.gulay.name",
+   "value": "Gülay Tan"
+  },
+  {
+   "key": "case004.person.nihat.info",
+   "value": "52 yaşında, Kuzey Hat Lojistik’in operasyon müdürü; Tolga Ergin’in bağlı olduğu yönetici. Ataşehir’de oturuyor."
+  },
+  {
+   "key": "case004.person.nihat.name",
+   "value": "Nihat Sönmez"
+  },
+  {
+   "key": "case004.phone.body",
+   "value": "Tolga Ergin adına kayıtlı hattın 8–9 Ocak arası arama ve mesaj dökümü (içerik yalnız mesajlar için).\n\n22.40 – 23.05 · Derya Aksoy ile 14 mesaj. Son mesajlar Derya Aksoy’dan: “Bu son kez söylüyorum.” · “Bu gece cevap vermezsen gelip kapında beklerim.” · “Pişman olacaksın Tolga.”\n\n23.10 · Nihat Sönmez’den gelen arama — cevapsız.\n23.12 · Nihat Sönmez’den mesaj: “Yarın sabah konuşalım. Kimseyle paylaşma.”\n\n01.20 · Cem Gür ile giden arama, 2 dakika 10 saniye.\n\n02.21’den sonra hat şebekeye bağlı görünüyor ama arama veya mesaj yok. 02.48’de cihaz kapanıyor."
+  },
+  {
+   "key": "case004.phone.title",
+   "value": "HAT KAYDI — TOLGA ERGİN"
+  },
+  {
+   "key": "case004.report.body",
+   "value": "9 Ocak 2027, saat 02.17’de alınan acil çağrı üzerine Şişli’de, Ilgın Apartmanı’na gidildi. Çağrıyı 5. kat sakini Gülay Tan yaptı.\n\nApartmanın 6. katındaki 12 numaralı dairede oturan Tolga Ergin (38), binanın arka avlusunda hareketsiz bulundu; olay yerinde ölümü tespit edildi. Dairenin salon penceresi açık.\n\nDaire kapısı kilitli bulundu; kapıda ve kilitte zorlama izi yok. Ekip içeri yöneticideki yedek anahtarla girdi. Dairede kimse yoktu.\n\nSalondaki masada iki kahve fincanı var. Pencerenin önündeki alçak sehpa devrik. Ölenin cüzdanı ve anahtarları üzerinde; cep telefonu ne üzerinde ne dairede bulundu.\n\nİlk ekip notu: kapı içeriden kilitli, dairede başka kimse yok; intihar ihtimali değerlendiriliyor."
+  },
+  {
+   "key": "case004.report.title",
+   "value": "OLAY TESPİT TUTANAĞI"
+  },
+  {
+   "key": "case004.request.device",
+   "value": "Kayıp telefonun konum kaydını iste"
+  },
+  {
+   "key": "case004.request.finance",
+   "value": "Şirket hesaplarının incelenmesini iste"
+  },
+  {
+   "key": "case004.request.lock",
+   "value": "Daire kapısının ve kilidin incelenmesini iste"
+  },
+  {
+   "key": "case004.request.maintenance",
+   "value": "Kamera sisteminin bakım kaydını iste"
+  },
+  {
+   "key": "case004.request.parking",
+   "value": "Arka otoparkın plaka kaydını iste"
+  },
+  {
+   "key": "case004.request.phone",
+   "value": "Tolga Ergin’in hat kaydını iste"
+  },
+  {
+   "key": "case004.request.ride",
+   "value": "Derya Aksoy’un o geceki yolculuk kaydını iste"
+  },
+  {
+   "key": "case004.request.scene",
+   "value": "Fincanların ve pencerenin incelenmesini iste"
+  },
+  {
+   "key": "case004.ride.body",
+   "value": "Derya Aksoy’un hesabından yapılan taksi uygulaması yolculukları, 9 Ocak:\n\n01.38 · Moda → Bostancı, Bağdat Caddesi. Varış 02.06.\n02.31 · Bostancı → Moda. Varış 02.52.\n\nBostancı adresi sürücü notunda “ablamın evi” olarak geçiyor. Şişli yönüne yolculuk yok."
+  },
+  {
+   "key": "case004.ride.title",
+   "value": "YOLCULUK KAYDI — DERYA AKSOY"
+  },
+  {
+   "key": "case004.scene.body",
+   "value": "Salon, pencere ve masadaki fincanlar ikinci kez incelendi (inceleme saati 02.50).\n\nFincan 1: yarısı dolu, kahve ve telve ıslak. Üzerindeki izler Tolga Ergin’e ait.\nFincan 2: boş. Dipteki telve kurumuş, kenarında kurumuş bir halka var; fincanın incelemeden en az bir saat önce boşaltıldığı değerlendirildi. Üzerindeki parmak izi sistemde kayıtlı: Cem Gür.\n\nPencere pervazında ve çerçevede tutunma, sürtünme ya da kırılma izi yok. Devrik alçak sehpa pencerenin hemen önünde; ayağı halıya takılı. Halıda sehpanın sürüklendiğini gösteren kısa bir kıvrılma var.\n\nÖlenin kollarında ve ellerinde savunma ya da kavrama izi saptanmadı (ön bilgi, adli tıp raporu bekleniyor). Düşüş noktası ile pencere arasındaki mesafe, sıçramadan çok geriye doğru devrilmeyle uyumlu."
+  },
+  {
+   "key": "case004.scene.title",
+   "value": "OLAY YERİ İNCELEME RAPORU"
+  },
+  {
+   "key": "case004.summary.evidence",
+   "value": "Otopark kaydı Nihat Sönmez’i düşüş saatinde binanın arkasına koyuyor; kayıp telefonun konum raporu 02.21’de binadan çıkıp onun evinin yanında kapandığını gösteriyor. Kilit notu ‘içeriden kilitli’ yorumunu, fincan raporu ve otopark çıkışı Cem Gür’ün düşüşten önce gittiğini kanıtlıyor; pervazda boğuşma izi yok, sehpa devrik."
+  },
+  {
+   "key": "case004.summary.lesson",
+   "value": "O gece orada olan, ölüm anında orada olan değildir. Kanıt yalan söylemez; onu yanlış saate oturtan yorum yanıltır. Tek bir kayıt kimseyi göstermedi — saatler yan yana gelince gösterdi."
+  },
+  {
+   "key": "case004.summary.location",
+   "value": "Şişli, Ilgın Apartmanı — 9 Ocak 2027"
+  },
+  {
+   "key": "case004.summary.truth",
+   "value": "Tolga Ergin, çalıştığı şirkette iki yıllık bir zimmeti ortaya çıkarmak üzereydi. 01.31’de eve yalnız döndü. Cem Gür 01.36’da arka otoparktan, kör noktadaki servis geçidinden geldi; kahve içtiler, belgeler yüzünden tartıştılar ve Cem 01.58’de ayrıldı. Nihat Sönmez 01.57’de otoparka girdi, 02.03’te servis kapısından çıktı. Tartışmada Tolga’nın üstüne yürüdü; Tolga geri çekilirken pencerenin önündeki sehpaya takılıp düştü. Nihat telefonu aldı, kendiliğinden kilitlenen kapıyı çekip çıktı ve 02.23’te otoparktan ayrıldı. Telefon 02.48’de evinin yanında kapandı."
+  },
+  {
+   "key": "case004.suspect.label",
+   "value": "Düştüğü anda dairede kim vardı?"
+  },
+  {
+   "key": "case004.tablet.caseLine",
+   "value": "DOSYA #004  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "case004.time.call",
+   "value": "02.17"
+  },
+  {
+   "key": "case004.time.call_time",
+   "value": "02.17"
+  },
+  {
+   "key": "case004.time.cam2_back",
+   "value": "02.24"
+  },
+  {
+   "key": "case004.time.cam2_lost",
+   "value": "01.46"
+  },
+  {
+   "key": "case004.time.cem_arrive_claim",
+   "value": "01.30"
+  },
+  {
+   "key": "case004.time.cem_call",
+   "value": "01.20"
+  },
+  {
+   "key": "case004.time.cem_leave_claim",
+   "value": "01.55"
+  },
+  {
+   "key": "case004.time.derya_msgs",
+   "value": "23.05"
+  },
+  {
+   "key": "case004.time.device_moves",
+   "value": "02.21"
+  },
+  {
+   "key": "case004.time.device_off",
+   "value": "02.48"
+  },
+  {
+   "key": "case004.time.gulay_voices",
+   "value": "02.10"
+  },
+  {
+   "key": "case004.time.nihat_call",
+   "value": "23.10"
+  },
+  {
+   "key": "case004.time.nihat_home_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case004.time.park_cem_in",
+   "value": "01.36"
+  },
+  {
+   "key": "case004.time.park_cem_out",
+   "value": "01.58"
+  },
+  {
+   "key": "case004.time.park_nihat_in",
+   "value": "01.57"
+  },
+  {
+   "key": "case004.time.park_nihat_out",
+   "value": "02.23"
+  },
+  {
+   "key": "case004.time.ride_out",
+   "value": "01.38"
+  },
+  {
+   "key": "case004.time.service_door",
+   "value": "02.03"
+  },
+  {
+   "key": "case004.time.tolga_in",
+   "value": "01.31"
+  },
+  {
+   "key": "case004.title",
+   "value": "Dosya #004 — Sessiz Kat"
+  },
+  {
+   "key": "case004.verdict.cem",
+   "value": "Cem Gür"
+  },
+  {
+   "key": "case004.verdict.derya",
+   "value": "Derya Aksoy"
+  },
+  {
+   "key": "case004.verdict.nihat",
+   "value": "Nihat Sönmez"
+  },
+  {
+   "key": "case004.verdict.nobody",
+   "value": "Kimse — Tolga yalnızdı"
+  }
+ ]
+}

@@ -249,6 +249,15 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [x] `Tools/capture-screens.sh`: her vakanın sorgu ekranlarını `Docs/Screenshots/<tarih>/` altına yazar (klasör git dışı).
 - [x] `run-tests.sh` Unity Hub kapalıyken sessizce çıkmıyor, uyarı yazıyor.
 
+### 4 Ekim 2026 — Dosya #004 "Sessiz Kat"
+
+- [~] Tasarım: `Docs/CASE004_DESIGN.md` — şüpheli ölüm; ölüm anında dairede olan yönetici, düşüş itmeden değil geri çekilmeden; saklanan suç zimmet.
+- [~] Veri ve metin: `case004.json` (18 düğüm), `tr.case004.json` (247 metin). Doğrulayıcının otomatik gezintisi doğru sonuca ulaşıyor.
+- [~] Zincir: Dosya #003 → #004, Türkiye haritasında dördüncü yuva bağlandı.
+- [ ] Portreler (Cem, Nihat, Derya, Gülay) ve vaka kapağı — kullanıcı.
+- [ ] CCTV kareleri (üç an; prompt'lar tasarım belgesinde).
+- [ ] Dosya #004 baştan sona Play Mode oynanışı (kullanıcı).
+
 ## Güncelleme kuralı
 
 Her geliştirme oturumunun sonunda:
