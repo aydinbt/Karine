@@ -23,6 +23,7 @@ public static class WalkRules {
      report.Require(game.RequestDocument(node.id, 0) && !game.Available(node) && game.HasIncomingDocument &&
       game.ReceiveDocument(node.id) && !game.ReceiveDocument(node.id),
       "Belge talebi/gelen kutusu akışı geçersiz: " + node.id);
+    if (game.CanRequestWarrant(node)) Warrant(data, game, node, report);
     foreach (var question in node.questions ?? new Question[0])
      if (game.QuestionAvailable(node, question)) {
       var chosen = question.presentedSourceIds != null && question.presentedSourceIds.Length > 0
@@ -40,6 +41,22 @@ public static class WalkRules {
    "Erişilemeyen içerik: okunan " + game.State.read.Count + "/" + data.nodes.Length +
    (unread.Length == 0 ? "" : ", açılmayan: " + string.Join(", ", unread)) +
    (game.CanConclude ? "" : ", rapor gönderilemiyor"));
+ }
+
+ // İnceleme izni: önce zayıf bir dayanakla reddedilmeli, sonra kabul yollarından biriyle
+ // onaylanıp gelen kutusundan geçmeli. Kabul yolunun kaynakları henüz okunmadıysa sonraki tura kalır.
+ static void Warrant(CaseData data, Investigation game, Node node, ValidationReport report) {
+  int slots = game.WarrantSlots(node);
+  var path = node.warrant.FirstOrDefault(p => p.sources.All(game.WarrantBasisAvailable));
+  if (path == null) return;
+  var pool = data.nodes.Where(n => n.kind == "document" && game.State.read.Contains(n.id) && !n.notReportSource).Select(n => n.id).ToList();
+  var weak = pool.Where(id => !node.warrant.Any(p => p.sources.Contains(id))).Take(slots).ToArray();
+  if (weak.Length == slots && !game.WarrantSatisfied(node, weak))
+   report.Require(game.SubmitWarrant(node.id, weak, 0) && game.WarrantDenied(node) && !game.HasIncomingDocument,
+    "Zayıf dayanaklı izin talebi reddedilmedi: " + node.id);
+  var basis = path.sources.Concat(pool.Where(id => !path.sources.Contains(id))).Take(slots).ToArray();
+  report.Require(basis.Length == slots && game.SubmitWarrant(node.id, basis, 0) && game.Denial(node) == null && game.ReceiveDocument(node.id),
+   "İzin talebi kabul yoluyla onaylanmadı: " + node.id);
  }
 
  public static void AfterWalk(CaseData data, Locale locale, Investigation game, ValidationReport report) {

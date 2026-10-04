@@ -32,6 +32,7 @@ public sealed partial class BubeApp {
   write();text.schedule.Execute(write).Every(1000);
  }
  string selectedRequestPerson,selectedRequestDocument;
+ readonly List<string> warrantBasis=new List<string>();
  void InterviewRequests(bool lift=true) {
   var list=RequestFrame(true,()=>InterviewRequests(false));
   lastPendingCount=game.Data.nodes.Count(pendingPredicate);showingInterviewList=true;
@@ -84,38 +85,75 @@ public sealed partial class BubeApp {
  // Gelen ama okunmamış inceleme raporları ile yeni açılmış ama listede henüz görülmemiş incelemeler.
  // Yalnız "listede yeni bir satır var" der; hangisinin önemli olduğunu söylemez.
  int InvestigationBadgeCount() => game.Data.nodes.Count(n=>n.kind=="document"&&n.requestable&&!game.State.read.Contains(n.id)&&
-  (game.IncomingDocument(n) || game.Discovered(n)&&!game.State.documentRequests.Any(r=>r.nodeId==n.id)&&!(game.State.seenRequests??new List<string>()).Contains(n.id)));
+  (game.IncomingDocument(n) || game.UnseenWarrantDenial(n) || game.Discovered(n)&&!game.State.documentRequests.Any(r=>r.nodeId==n.id)&&!(game.State.seenRequests??new List<string>()).Contains(n.id)));
  void InvestigationRequests(bool lift=true) {
   var list=RequestFrame(false,()=>InvestigationRequests(false));
   lastIncomingDocumentCount=game.Data.nodes.Count(incomingDocumentPredicate);showingInvestigationRequests=true;
   var documents=game.Data.nodes.Where(n=>n.kind=="document"&&n.requestable&&(game.Discovered(n)||game.State.documentRequests.Any(r=>r.nodeId==n.id))).ToArray();
   var selected=documents.FirstOrDefault(n=>n.id==selectedRequestDocument)??documents.FirstOrDefault();
   if(selected==null){Text(list,T("tablet.noInvestigations"),Muted,KarineTheme.Requests.BodySize);return;}
+  if(selectedRequestDocument!=selected.id)warrantBasis.Clear();
+  selectedRequestDocument=selected.id;
   // Listede görülen yeni inceleme bir daha sayılmaz; rozet sonraki açılışta düşer.
   game.State.seenRequests??=new List<string>();
   foreach(var d in documents)if(!game.State.seenRequests.Contains(d.id))game.State.seenRequests.Add(d.id);
   Save();
   string Status(Node node)=>game.State.read.Contains(node.id)?"tablet.investigationFiled":game.IncomingDocument(node)?"tablet.investigationArrived":
-   game.State.documentRequests.Any(r=>r.nodeId==node.id)?"tablet.investigationPending":"tablet.investigationAvailable";
-  RequestTone Tone(string key)=>key=="tablet.investigationFiled"?RequestTone.Done:key=="tablet.investigationArrived"?RequestTone.Open:
+   game.State.documentRequests.Any(r=>r.nodeId==node.id)||game.WarrantDenialPending(node)?"tablet.investigationPending":
+   game.WarrantDenied(node)?"tablet.warrantDenied":"tablet.investigationAvailable";
+  long ReadyTicks(Node node)=>game.State.documentRequests.FirstOrDefault(r=>r.nodeId==node.id)?.readyAtUtcTicks ?? game.Denial(node).readyAtUtcTicks;
+  RequestTone Tone(string key)=>key=="tablet.investigationFiled"?RequestTone.Done:key=="tablet.investigationArrived"||key=="tablet.warrantDenied"?RequestTone.Open:
    key=="tablet.investigationPending"?RequestTone.Waiting:RequestTone.Ready;
   foreach(var node in documents) {
    var target=node;var key=Status(node);
-   var row=KarineUI.RequestRow(list,null,"document",T(node.titleKey),null,null,node==selected,key=="tablet.investigationArrived",T(key),Tone(key),
+   var row=KarineUI.RequestRow(list,null,Investigation.IsWarrant(node)?"lock":"document",T(node.titleKey),null,null,node==selected,
+    key=="tablet.investigationArrived"||game.UnseenWarrantDenial(node),T(key),Tone(key),
     ()=>{selectedRequestDocument=target.id;InvestigationRequests(false);});
-   if(key=="tablet.investigationPending")LiveWait(row.Q("RequestPill"),T(key),game.State.documentRequests.First(r=>r.nodeId==node.id).readyAtUtcTicks);
+   if(key=="tablet.investigationPending")LiveWait(row.Q("RequestPill"),T(key),ReadyTicks(node));
   }
   var paper=KarineUI.RequestPaper(root);var status=Status(selected);
-  KarineUI.RequestDocumentHead(paper,"document",T("requests.docHeading"),T(selected.titleKey));
-  KarineUI.RequestSection(paper,T("requests.description"),T("tablet.investigationHelp"));
+  bool warrant=Investigation.IsWarrant(selected);
+  KarineUI.RequestDocumentHead(paper,warrant?"lock":"document",T(warrant?"requests.warrantHeading":"requests.docHeading"),T(selected.titleKey));
+  KarineUI.RequestSection(paper,T("requests.description"),T(warrant?"requests.warrantHelp":"tablet.investigationHelp"));
   KarineUI.RequestFact(paper,T("requests.status"),T(status));
-  KarineUI.RequestFact(paper,T("requests.result"),T("requests.resultText"));
-  if(status=="tablet.investigationPending")KarineUI.RequestWait(paper,T("requests.docWaitTitle"),T("requests.docWaitText"),
-   new DateTime(game.State.documentRequests.First(r=>r.nodeId==selected.id).readyAtUtcTicks,DateTimeKind.Utc));
-  if(game.CanRequestDocument(selected))KarineUI.RequestAction(paper,"document",T(selected.requestLabelKey),true,()=>{
+  if(!warrant)KarineUI.RequestFact(paper,T("requests.result"),T("requests.resultText"));
+  if(status=="tablet.investigationPending")KarineUI.RequestWait(paper,T(warrant?"requests.warrantWaitTitle":"requests.docWaitTitle"),T(warrant?"requests.warrantWaitText":"requests.docWaitText"),
+   new DateTime(ReadyTicks(selected),DateTimeKind.Utc));
+  if(warrant && status=="tablet.warrantDenied") {
+   KarineUI.RequestSection(paper,T("requests.warrantDeniedTitle"),T("requests.warrantDeniedText"));
+   var denial=game.Denial(selected);if(!denial.seen){denial.seen=true;Save();}
+  }
+  if(warrant && game.CanRequestWarrant(selected)) WarrantForm(paper,selected);
+  else if(game.CanRequestDocument(selected))KarineUI.RequestAction(paper,"document",T(selected.requestLabelKey),true,()=>{
    if(game.RequestDocument(selected.id)){Save();InvestigationRequests(false);}
   });
   else if(status=="tablet.investigationArrived")KarineUI.RequestAction(paper,"document",T("requests.openReport"),true,InboxPage);
+ }
+ // İnceleme izni formu: okunmuş kaynaklar arasından dayanak seçilir. Liste her okunmuş kaynağı
+ // aynı biçimde gösterir; hangisinin işe yarayacağını söylemez.
+ void WarrantForm(VisualElement paper,Node selected) {
+  int slots=game.WarrantSlots(selected);
+  KarineUI.RequestSection(paper,T("requests.warrantBasis"),string.Format(T("requests.warrantBasisHelp"),slots));
+  foreach(var id in WarrantCandidates()) {
+   var source=id;bool chosen=warrantBasis.Contains(source);
+   KarineUI.RequestBasis(paper,CompactReportSourceLabel(source),chosen,()=>{
+    if(warrantBasis.Contains(source))warrantBasis.Remove(source);
+    else if(warrantBasis.Count<slots)warrantBasis.Add(source);
+    InvestigationRequests(false);
+   });
+  }
+  bool ready=warrantBasis.Count==slots;
+  KarineUI.RequestAction(paper,"lock",ready?T("requests.warrantSend"):string.Format(T("requests.warrantChoose"),slots-warrantBasis.Count),ready,()=>{
+   if(ready && game.SubmitWarrant(selected.id,warrantBasis.ToArray())){warrantBasis.Clear();Save();InvestigationRequests(false);}
+  });
+ }
+ IEnumerable<string> WarrantCandidates() {
+  foreach(var n in game.Data.nodes) {
+   if(n.notReportSource)continue;
+   if(n.kind=="cctv"&&game.State.read.Contains(n.id)){foreach(var e in n.cctvEvents??new CctvEvent[0])yield return n.id+"#"+e.id;}
+   else if(n.kind=="interview"&&game.ReportSourceAvailable(n.id))yield return n.id;
+   else if(n.kind=="document"&&game.State.read.Contains(n.id))yield return n.id;
+  }
  }
  void FilePage() {
   var previousPaper=root.Q("DossierPaper");

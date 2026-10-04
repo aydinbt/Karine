@@ -1,0 +1,964 @@
+{
+ "entries": [
+  {
+   "key": "case007.autopsy.body",
+   "value": "Ölüm sebebine ilişkin bulgular:\n\n· Sol temporal bölgede künt travmayla uyumlu yaralanma. Yara kenarı yay biçimli; yaklaşık 6 cm çaplı, yuvarlak kenarlı sert bir cisimle uyumlu. Altında kafatası çatlağı.\n· Kandaki karbonmonoksit oranı %18. Uzun süre yoğun dumanda kalan birinde beklenenden belirgin biçimde düşük.\n· Solunum yollarında sınırlı is birikimi. Bulgular, kişinin yangının başlangıç aşamasında kısa bir süre solunum yaptığını düşündürmektedir.\n· Yanıklar ölüm sonrası ya da ölüm sırasında oluşmuş görünümdedir.\n\nDeğerlendirme: Yaralanma yangından önce meydana gelmiştir. Kişi yaralandıktan sonra bir süre bilinçsiz biçimde hayatta kalmış olabilir."
+  },
+  {
+   "key": "case007.autopsy.title",
+   "value": "ADLİ MUAYENE RAPORU — KEREM SARIGÜL"
+  },
+  {
+   "key": "case007.card.body",
+   "value": "TALEP ONAYLANDI.\n\nBelen & Sarıgül Restorasyon adına Serdar Belen’e tanımlı şirket kartının Eylül–Ekim harcamaları (seçilmiş kalemler):\n\n26 Eylül · Sigorta prim farkı · 18.400 TL\n10 Ekim · Karaköy’de bir hırdavat · “Programlanabilir zaman ayarlı priz ×1, fanlı seramik ısıtıcı 1500 W ×1” · 1.260 TL\n10 Ekim · Aynı hırdavat · “Uzatma kablosu 5 m ×1” · 190 TL\n\nKartın başka hiçbir döneminde ısıtıcı veya priz alımı yoktur. Atölyenin ısıtması merkezi sistemledir."
+  },
+  {
+   "key": "case007.card.title",
+   "value": "ŞİRKET KARTI HARCAMA DÖKÜMÜ — SERDAR BELEN"
+  },
+  {
+   "key": "case007.cctv.event.car_pass",
+   "value": "Kamera 01: Aynı renk ve görünüşte bir araç arka sokaktan çıkıp kameranın önünden geçiyor; durmuyor."
+  },
+  {
+   "key": "case007.cctv.event.car_stop",
+   "value": "Kamera 01: Koyu renk bir binek araç atölyenin önünde birkaç saniye duruyor, kimse inmiyor; sonra binanın yan tarafındaki arka sokağa dönüyor. Plaka açıdan okunmuyor."
+  },
+  {
+   "key": "case007.cctv.event.kerem_in",
+   "value": "Kamera 01 (sokak): Bir erkek atölyenin ön kapısını anahtarla açıp giriyor; elinde bir kâğıt torba. Kerem Sarıgül olarak tanındı."
+  },
+  {
+   "key": "case007.cctv.event.light",
+   "value": "Kamera 01: Atölyenin vitrin camının arkasında, iç bölümde ışık değişimi; titreşen turuncu bir aydınlık."
+  },
+  {
+   "key": "case007.cctv.event.melis_out",
+   "value": "Kamera 01: Bir kadın ön kapıdan çıkıyor; montunu yürürken giyiyor, hızlı adımlarla yokuş aşağı uzaklaşıyor."
+  },
+  {
+   "key": "case007.cctv.event.smoke",
+   "value": "Kamera 01: Ön kapının üst aralığından duman çıkıyor. Bir dakika sonra gece görevlisi kadraja koşarak giriyor."
+  },
+  {
+   "key": "case007.cctv.overlay",
+   "value": "KAM 01"
+  },
+  {
+   "key": "case007.cctv.period",
+   "value": "14–15 Ekim 2028, 22.00 – 02.30"
+  },
+  {
+   "key": "case007.cctv.source",
+   "value": "Sokak kamerası"
+  },
+  {
+   "key": "case007.clue.back_msg",
+   "value": "Kerem, Serdar’a: “Arka kapıdan gir.”"
+  },
+  {
+   "key": "case007.clue.call",
+   "value": "Kerem, Serdar’ı arıyor; dört dakika"
+  },
+  {
+   "key": "case007.clue.car_pass",
+   "value": "Aynı görünüşte bir araç arka sokaktan çıkıyor"
+  },
+  {
+   "key": "case007.clue.car_stop",
+   "value": "Koyu renk bir araç durup arka sokağa dönüyor"
+  },
+  {
+   "key": "case007.clue.erdal_saw",
+   "value": "Serdar’ı servis kapısından çıkarken gördüğünü söylüyor"
+  },
+  {
+   "key": "case007.clue.kerem_in",
+   "value": "Kerem atölyeye giriyor"
+  },
+  {
+   "key": "case007.clue.light",
+   "value": "Atölyenin içinde ışık değişimi"
+  },
+  {
+   "key": "case007.clue.melis_claim",
+   "value": "Çıktığı saati söylüyor (sonra düzeltti)"
+  },
+  {
+   "key": "case007.clue.melis_msg",
+   "value": "Kerem, Melis’e: “Bu akşam atölyede konuşalım.”"
+  },
+  {
+   "key": "case007.clue.melis_out",
+   "value": "Bir kadın atölyeden çıkıyor"
+  },
+  {
+   "key": "case007.clue.plate_in",
+   "value": "Serdar’ın şirket aracı Beyoğlu’na giriyor"
+  },
+  {
+   "key": "case007.clue.plate_out",
+   "value": "Şirket aracı Beyoğlu’ndan çıkıyor"
+  },
+  {
+   "key": "case007.clue.serdar_claim",
+   "value": "Evde çalıştığını söylüyor"
+  },
+  {
+   "key": "case007.clue.smoke",
+   "value": "Duman görülüyor"
+  },
+  {
+   "key": "case007.clue.source.kphone",
+   "value": "Kerem’in telefonu"
+  },
+  {
+   "key": "case007.clue.source.plate",
+   "value": "Plaka tanıma kaydı"
+  },
+  {
+   "key": "case007.clue.source.sphone",
+   "value": "Serdar’ın konum kaydı"
+  },
+  {
+   "key": "case007.clue.sphone_home",
+   "value": "Serdar’ın telefonu Ataşehir’de; kullanım yok"
+  },
+  {
+   "key": "case007.clue.street_car_pass",
+   "value": "Aynı görünüşte bir araç arka sokaktan çıkıyor"
+  },
+  {
+   "key": "case007.clue.street_car_stop",
+   "value": "Koyu renk bir araç durup arka sokağa dönüyor"
+  },
+  {
+   "key": "case007.clue.street_kerem_in",
+   "value": "Kerem atölyeye giriyor"
+  },
+  {
+   "key": "case007.clue.street_light",
+   "value": "Atölyenin içinde ışık değişimi"
+  },
+  {
+   "key": "case007.clue.street_melis_out",
+   "value": "Bir kadın atölyeden çıkıyor"
+  },
+  {
+   "key": "case007.clue.street_smoke",
+   "value": "Duman görülüyor"
+  },
+  {
+   "key": "case007.corridor.body",
+   "value": "TALEP ONAYLANDI.\n\nServis koridoru, servis kapısı ve arka sokak zemininin incelenmesi:\n\n· Servis kapısının iç kolunda ve kilit dilinde yakın tarihli kullanım izi; is tabakası yangından önce açılıp kapandığını gösteriyor. Kapı dışarıdan anahtarla kilitlenmiş.\n· Koridor zemininde, arşiv odasından kapıya doğru beyaz toz izleri; ayakkabı tabanından taşınmış.\n· Arka sokakta, servis kapısının hemen önündeki ıslak zeminde bir binek aracın lastik izi. İzin içinde beyaz toz; analiz: kalsiyum sülfat (restorasyon alçısı).\n\nNot: arka sokaktaki toz, araç incelemesinde alınan örnekle karşılaştırılabilir niteliktedir."
+  },
+  {
+   "key": "case007.corridor.title",
+   "value": "SERVİS KORİDORU VE ARKA SOKAK İNCELEME RAPORU"
+  },
+  {
+   "key": "case007.custody.cover",
+   "value": "Delilleri yok etmek"
+  },
+  {
+   "key": "case007.custody.insurance",
+   "value": "Sigorta kazancı"
+  },
+  {
+   "key": "case007.custody.kill",
+   "value": "Kerem’i öldürmek"
+  },
+  {
+   "key": "case007.custody.label",
+   "value": "Yangının ilk amacı"
+  },
+  {
+   "key": "case007.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case007.epilogue.custody.cover",
+   "value": "Yangının olayı örtmek için çıkarıldığı kabul edildi. Savunma, yangının ‘panikle verilmiş tek bir karar’ olduğunu söyledi; planlı sigorta dolandırıcılığı iddiası dosyadan düştü."
+  },
+  {
+   "key": "case007.epilogue.custody.insurance",
+   "value": "Zaman ayarlı priz kavgadan beş gün önce, teminat artışı on dokuz gün önce alınmıştı. Yangın, Kerem’in ölümünü gizlemek için doğaçlanmadı; zaten planlanmıştı. Sigorta tazminatı reddedildi."
+  },
+  {
+   "key": "case007.epilogue.custody.kill",
+   "value": "Yangının Kerem’i öldürmek için çıkarıldığı iddia edildi. Serdar Kerem’i öldü sanarak çıktığını söyledi; plan Kerem’in o gece orada olacağı bilinmeden kurulmuştu. İddia mahkemede tutunamadı."
+  },
+  {
+   "key": "case007.epilogue.custody.unknown",
+   "value": "Yangının amacı açık kaldı. Teminat artışı ve priz alımı dosyada birbirine bağlanmadan durdu."
+  },
+  {
+   "key": "case007.epilogue.verdict.melis_blow",
+   "value": "Melis Akın gözaltına alındı. Telefon kayıtları Kerem’in 23.17’de hâlâ mesaj attığını gösterince serbest bırakıldı; Serdar Belen o hafta yurt dışına çıkmaya çalıştı."
+  },
+  {
+   "key": "case007.epilogue.verdict.none_fall",
+   "value": "Ölüm yangının sonucu kabul edildi. Sigorta tazminatı askıdan çıkmak üzereyken eksper Oğuz Tezcan dosyayı yeniden açtırdı."
+  },
+  {
+   "key": "case007.epilogue.verdict.serdar_blow",
+   "value": "Serdar Belen kasten yaralama sonucu ölüme sebebiyet ve kundaklama şüphesiyle tutuklandı. Lambanın kaidesindeki kan Kerem Sarıgül’e ait çıktı."
+  },
+  {
+   "key": "case007.epilogue.verdict.serdar_fall",
+   "value": "Dosya taksirle ölüme sebebiyet olarak ilerledi. Serdar Belen’in avukatı ‘panik hâlinde bir kaza’ savunması kurdu; lamba ancak aylar sonra yeniden gündeme geldi."
+  },
+  {
+   "key": "case007.epilogue.verdict.undetermined",
+   "value": "Ölüm şüpheli olarak kaldı, dosya rafa kalktı. Serdar Belen atölyeyi kapatıp sigorta davasını sürdürdü."
+  },
+  {
+   "key": "case007.erdal.back.answer",
+   "value": "Arkada servis kapısı var, arka sokağa açılır. Hep kilitlidir. Anahtarı ortaklarda bir de bende."
+  },
+  {
+   "key": "case007.erdal.back.question",
+   "value": "Binanın başka girişi var mı?"
+  },
+  {
+   "key": "case007.erdal.body",
+   "value": "Gece görevlisinin ifadesi."
+  },
+  {
+   "key": "case007.erdal.deflect",
+   "value": "Ben kapıdaydım evladım, o işleri bilmem."
+  },
+  {
+   "key": "case007.erdal.kerem.answer",
+   "value": "Görmedim. Kulübedeydim. Kerem Bey akşamları gelir gider, ben her gelişine bakmam."
+  },
+  {
+   "key": "case007.erdal.kerem.answer.demeanor",
+   "value": "Cevaptan sonra uzun süre camdan dışarı baktı."
+  },
+  {
+   "key": "case007.erdal.kerem.question",
+   "value": "Kerem Bey’in o gece geldiğini görmediniz mi?"
+  },
+  {
+   "key": "case007.erdal.quote",
+   "value": "“Dumanı gördüğümde içeride kimse olduğunu bilmiyordum.”"
+  },
+  {
+   "key": "case007.erdal.smoke.answer",
+   "value": "İkiyi çeyrek geçe gibi kulübeden çıktım, tur atacaktım. Kapının üstünden duman geliyordu. İtfaiyeyi aradım. Dumanı gördüğümde içeride kimse olduğunu bilmiyordum."
+  },
+  {
+   "key": "case007.erdal.smoke.answer.demeanor",
+   "value": "Ellerini dizlerine koydu, kalkacakmış gibi yaptı, kalkmadı."
+  },
+  {
+   "key": "case007.erdal.smoke.question",
+   "value": "Yangını nasıl fark ettiniz?"
+  },
+  {
+   "key": "case007.erdal.title",
+   "value": "Erdal Kılıç — görüşme"
+  },
+  {
+   "key": "case007.erdal_follow.body",
+   "value": "Bina planından sonra yapılan görüşme."
+  },
+  {
+   "key": "case007.erdal_follow.car.answer",
+   "value": "Arka sokağa herkes park eder. Hatırlamıyorum."
+  },
+  {
+   "key": "case007.erdal_follow.car.question",
+   "value": "Gece yarısına doğru arka sokağa bir araç girdi mi?"
+  },
+  {
+   "key": "case007.erdal_follow.serdar.answer",
+   "value": "Tanırım. İyi adamdır. Oğluma iş buldu, geçen bahar. Zor zamanımızda yardım etti. Ne alakası var?"
+  },
+  {
+   "key": "case007.erdal_follow.serdar.answer.demeanor",
+   "value": "Sesi bir an yükseldi, sonra kendini toparladı."
+  },
+  {
+   "key": "case007.erdal_follow.serdar.question",
+   "value": "Serdar Bey’i tanır mısınız?"
+  },
+  {
+   "key": "case007.erdal_follow.title",
+   "value": "Erdal Kılıç — ikinci görüşme"
+  },
+  {
+   "key": "case007.erdal_follow.window.answer",
+   "value": "Görüyor. Ama ben hep bakmam ki. Gece uzun, radyo dinlerim, çay koyarım. Ben bir şey görmedim."
+  },
+  {
+   "key": "case007.erdal_follow.window.answer.demeanor",
+   "value": "‘Ben bir şey görmedim’ derken aynı cümleyi ikinci kez kurduğunu fark etmedi."
+  },
+  {
+   "key": "case007.erdal_follow.window.question",
+   "value": "Kulübenizin penceresi arka sokağın girişini görüyor."
+  },
+  {
+   "key": "case007.erdal_third.body",
+   "value": "Servis koridoru incelemesinden sonra yapılan görüşme."
+  },
+  {
+   "key": "case007.erdal_third.saw.answer",
+   "value": "…Gördüm. On ikiyi biraz geçiyordu. Serdar Bey servis kapısından çıktı, kapıyı kilitledi, arabasına bindi gitti. Elinde bir şey yoktu. Acele ediyordu. Ben… içeride Kerem Bey var mı yok mu bilmiyordum, yemin ederim. Yangını görünce aklıma geldi ama… oğlum o adamın yanında çalışıyor."
+  },
+  {
+   "key": "case007.erdal_third.saw.answer.demeanor",
+   "value": "Uzun süre sustu. Sonra şapkasını çıkarıp elinde döndürmeye başladı."
+  },
+  {
+   "key": "case007.erdal_third.saw.question",
+   "value": "Servis kapısı yangından önce açılıp kapanmış, dışarıdan kilitlenmiş. Kapının anahtarı üç kişide."
+  },
+  {
+   "key": "case007.erdal_third.time.answer",
+   "value": "Radyoda gece yarısı haberleri bitmişti. Çeyrek geçe falan. Arabası arka sokaktan çıktı."
+  },
+  {
+   "key": "case007.erdal_third.time.question",
+   "value": "Saati nasıl biliyorsunuz?"
+  },
+  {
+   "key": "case007.erdal_third.title",
+   "value": "Erdal Kılıç — üçüncü görüşme"
+  },
+  {
+   "key": "case007.erdal_third.why.answer",
+   "value": "Bir şey görmedim dersem kimseye zararım olmaz sandım. Serdar Bey bir şey yapmışsa da, ben görmedim diye olmamış olmaz. Öyle düşündüm. Yanlış düşündüm."
+  },
+  {
+   "key": "case007.erdal_third.why.question",
+   "value": "Neden söylemediniz?"
+  },
+  {
+   "key": "case007.evidence.autopsy",
+   "value": "Adli muayene raporu"
+  },
+  {
+   "key": "case007.evidence.corridor",
+   "value": "Servis koridoru ve arka sokak incelemesi"
+  },
+  {
+   "key": "case007.evidence.fire_full",
+   "value": "Yangın inceleme raporu"
+  },
+  {
+   "key": "case007.evidence.insurance",
+   "value": "Sigorta ekspertiz raporu"
+  },
+  {
+   "key": "case007.evidence.vehicle",
+   "value": "Araç inceleme raporu"
+  },
+  {
+   "key": "case007.feedback.melis_blow",
+   "value": "Melis 23.16’da ön kapıdan çıktı; Kerem 23.12–23.17 arasında Serdar’la konuşuyor ve mesaj atıyordu. Motif, yalan ve olay yerinde bulunmak fail yapmaz."
+  },
+  {
+   "key": "case007.feedback.none_fall",
+   "value": "Adli muayene yaralanmanın yangından önce olduğunu söylüyor; dumandan kaçarken düşen birinin yarası 6 cm çaplı yuvarlak bir iz bırakmaz."
+  },
+  {
+   "key": "case007.feedback.serdar_blow",
+   "value": "Kerem’in yarası 6 cm çaplı yuvarlak bir cisimle uyumlu; yanındaki lambanın kaidesi 6,2 cm ve kanlı. Serdar o gece servis kapısından girip çıktı. ‘İttim, düştü’ anlatımı yarayla uyuşmuyor."
+  },
+  {
+   "key": "case007.feedback.serdar_fall",
+   "value": "Yara masanın düz kenarıyla değil, 6 cm çaplı yuvarlak bir cisimle uyumlu; lamba kaidesi kanlı. Serdar’ın ‘düştü’ anlatımını kabul ettin."
+  },
+  {
+   "key": "case007.feedback.undetermined",
+   "value": "Adli muayene, yangın raporu ve servis koridoru incelemesi yaralanmanın nasıl ve kim tarafından olduğunu gösteriyordu."
+  },
+  {
+   "key": "case007.file.caseType",
+   "value": "ŞÜPHELİ YANGIN"
+  },
+  {
+   "key": "case007.file.value.bureau",
+   "value": "BDS Şüpheli Ölüm Masası"
+  },
+  {
+   "key": "case007.file.value.location",
+   "value": "Beyoğlu, Tomtom — Belen & Sarıgül Restorasyon"
+  },
+  {
+   "key": "case007.file.value.number",
+   "value": "BDS-2028-0312"
+  },
+  {
+   "key": "case007.file.value.offence",
+   "value": "Şüpheli yangın — ölüm"
+  },
+  {
+   "key": "case007.file.value.reporter",
+   "value": "İtfaiye ekibi ve gece görevlisi Erdal Kılıç"
+  },
+  {
+   "key": "case007.fire_full.body",
+   "value": "Yangın inceleme uzmanının ayrıntılı raporu:\n\n· Arka odadaki elektrik panosunda kısa devre veya ark izi yoktur. Pano üzerindeki is, dışarıdan gelen dumandan kaynaklanmaktadır.\n· Yanma yönü ve kömürleşme derinliği, çıkış noktasının arşiv/depo odasındaki ahşap raf sistemi olduğunu göstermektedir.\n· Raf dibinde yanıcı solvent kalıntısı. Restorasyon atölyesinde solvent bulunması olağandır; ancak dağılım biçimi bir kabın devrilmesiyle değil, raf boyunca dökülmesiyle uyumludur. Solvent dolabının kapağı açık, iki kap boş bulunmuştur.\n· Rafın dibinde erimiş plastik kalıntısı ve iç devresi: programlanabilir zaman ayarlı bir prizle uyumlu. Prize bağlı küçük fanlı ısıtıcının metal iskeleti.\n· Ofis bölümünde, ölünün yanında yere düşmüş metal masa lambası. Kaidesi yuvarlak, çapı 6,2 cm. Kaide kenarında ısıdan tam bozulmamış kan izi.\n\nDeğerlendirme: yangın elektrik arızasıyla değil, zaman ayarlı bir ısı kaynağının solvente bulanmış raf malzemesini tutuşturmasıyla başlamıştır."
+  },
+  {
+   "key": "case007.fire_full.title",
+   "value": "YANGIN İNCELEME RAPORU"
+  },
+  {
+   "key": "case007.fire_pre.body",
+   "value": "İtfaiye ekibinin olay yeri ön değerlendirmesi:\n\nYangın atölyenin arka bölümünde başlamış, ofis ve çalışma salonuna duman ve ısı yoluyla yayılmıştır. Arka odada elektrik panosu bulunmaktadır; pano çevresinde yoğun is vardır.\n\nÖn değerlendirme: elektrik kaynaklı işyeri yangını olasılığı.\n\nAyrıntılı inceleme yapılmamıştır. Kesin çıkış noktası ve nedeni için yangın inceleme raporu beklenmektedir."
+  },
+  {
+   "key": "case007.fire_pre.title",
+   "value": "ÖN YANGIN RAPORU"
+  },
+  {
+   "key": "case007.insurance.body",
+   "value": "Eksper Oğuz Tezcan’ın ön değerlendirmesi:\n\n· Yangından 19 gün önce (26 Eylül) işletmenin taşınır eser ve ekipman teminatı %240 oranında artırılmıştır. Değişiklik talebini ve imzayı veren: Serdar Belen.\n· Ortaklık sözleşmesine göre teminat değişikliği iki ortağın onayını gerektirir; dosyada Kerem Sarıgül’ün imzası yoktur.\n· Hasar ihbarı 15 Ekim, 11.40’ta Serdar Belen tarafından yapılmıştır.\n· İşletmenin iki bankaya toplam 3,1 milyon TL borcu bulunmaktadır; Eylül taksitleri ödenmemiştir.\n\nTazminat ödemesi, soruşturma sonuçlanana kadar askıya alınmıştır."
+  },
+  {
+   "key": "case007.insurance.title",
+   "value": "SİGORTA EKSPERTİZ RAPORU — ÖN DEĞERLENDİRME"
+  },
+  {
+   "key": "case007.kphone.body",
+   "value": "Olay yerinde bulunan telefonun incelemesi:\n\n11 Ekim · Taslaklar: muhasebeci Nur Hanım’a yazılmış, gönderilmemiş e-posta: “Melis Akın’ın sözleşmesini ay sonunda sonlandırmak istiyorum. Kendisine bu hafta söyleyeceğim. Tazminat hesabını çıkarır mısın?”\n\n14 Ekim:\n21.05 · Melis Akın’a mesaj: “Bu akşam atölyede konuşalım.”\n23.12 · Serdar Belen ile giden arama, 4 dk. 06 sn.\n23.17 · Serdar Belen’e mesaj: “Bekliyorum. Arka kapıdan gir.”\n\n23.17’den sonra giden veya cevaplanan arama yok."
+  },
+  {
+   "key": "case007.kphone.title",
+   "value": "TELEFON İNCELEME RAPORU — KEREM SARIGÜL"
+  },
+  {
+   "key": "case007.melis.body",
+   "value": "Atölye çalışanının ifadesi."
+  },
+  {
+   "key": "case007.melis.deflect",
+   "value": "Bilmiyorum. Gerçekten bilmiyorum."
+  },
+  {
+   "key": "case007.melis.night.answer",
+   "value": "Bir tablonun vernik temizliğini bitiriyordum. Kerem Bey on bire doğru geldi. Ben de on bir buçuğa doğru çıktım. Çalışıyordu, o kadar."
+  },
+  {
+   "key": "case007.melis.night.question",
+   "value": "O gece atölyede ne yapıyordunuz?"
+  },
+  {
+   "key": "case007.melis.quote",
+   "value": "“Kerem Bey’le iyi anlaşırdık.”"
+  },
+  {
+   "key": "case007.melis.relation.answer",
+   "value": "İyiydi. Bana bu mesleği o öğretti sayılır. Kerem Bey’le iyi anlaşırdık."
+  },
+  {
+   "key": "case007.melis.relation.answer.demeanor",
+   "value": "Gözünü masaya indirdi."
+  },
+  {
+   "key": "case007.melis.relation.question",
+   "value": "Kerem Sarıgül’le aranız nasıldı?"
+  },
+  {
+   "key": "case007.melis.solvent.answer",
+   "value": "Tabii. Solventler, vernikler, alkol. Restorasyonda olmazsa olmaz. Hepsi arka taraftaki arşiv odasında, metal dolapta durur. Kapakları kapalı, ben her akşam kontrol ederim."
+  },
+  {
+   "key": "case007.melis.solvent.question",
+   "value": "Atölyede yanıcı malzeme var mıydı?"
+  },
+  {
+   "key": "case007.melis.title",
+   "value": "Melis Akın — görüşme"
+  },
+  {
+   "key": "case007.melis_follow.body",
+   "value": "Telefon incelemesinden sonra yapılan görüşme."
+  },
+  {
+   "key": "case007.melis_follow.fired.answer",
+   "value": "…Evet. Tartıştık. Bana söyledi, ben de bağırdım. Dört yıl, dedim. Ağladım. Sonra çantamı aldım çıktım. Söylemedim çünkü… bakın şimdi bana nasıl bakıyorsunuz. Ben çıktığımda hayattaydı. On bir buçuk değil, on biri çeyrek geçe çıktım, onu da yanlış söyledim."
+  },
+  {
+   "key": "case007.melis_follow.fired.answer.demeanor",
+   "value": "Sesi titredi ama gözünü kaçırmadı."
+  },
+  {
+   "key": "case007.melis_follow.fired.question",
+   "value": "Kerem Bey sizi işten çıkarmak üzereymiş. O akşam bunu konuşmak için çağırmış."
+  },
+  {
+   "key": "case007.melis_follow.phone.answer",
+   "value": "Telefondaydı. Serdar Bey’le konuşuyordu, ismini söyledi. ‘Gel, yüz yüze konuşalım, bu iş telefonda olmaz’ dedi. Sesi çok sertti. Benimle konuşurken bile o kadar sert değildi."
+  },
+  {
+   "key": "case007.melis_follow.phone.question",
+   "value": "Çıkarken Kerem Bey ne yapıyordu?"
+  },
+  {
+   "key": "case007.melis_follow.title",
+   "value": "Melis Akın — ikinci görüşme"
+  },
+  {
+   "key": "case007.melis_follow.why.answer",
+   "value": "Para yok dedi. Atölye batıyor dedi. Serdar Bey’in bir şeyler çevirdiğini, kendisinin de yeni öğrendiğini söyledi. Ben kendi derdime düşmüştüm, dinlemedim."
+  },
+  {
+   "key": "case007.melis_follow.why.question",
+   "value": "Kerem Bey sizi neden çıkarıyordu?"
+  },
+  {
+   "key": "case007.method.accident",
+   "value": "Kazara — devrilen solvent"
+  },
+  {
+   "key": "case007.method.deliberate",
+   "value": "Kasıtlı"
+  },
+  {
+   "key": "case007.method.electric",
+   "value": "Elektrik arızası"
+  },
+  {
+   "key": "case007.method.label",
+   "value": "Yangının niteliği"
+  },
+  {
+   "key": "case007.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case007.offer.subtitle",
+   "value": "KÜL PAYI  /  ŞÜPHELİ YANGIN"
+  },
+  {
+   "key": "case007.offer.summary",
+   "value": "Beyoğlu’nda bir restorasyon atölyesi gece yanıyor; ortaklardan biri içeride ölü bulunuyor. İlk değerlendirme elektrik diyor. Bu dosyada bazı alanlar izinsiz incelenemez. Bildirim masanızda."
+  },
+  {
+   "key": "case007.offer.title",
+   "value": "DOSYA #007"
+  },
+  {
+   "key": "case007.oguz.body",
+   "value": "Sigorta eksperinin ifadesi."
+  },
+  {
+   "key": "case007.oguz.claim.answer",
+   "value": "Serdar Belen. Yangının ertesi günü, öğleden önce. Çok hızlı. Genelde insanlar bir hafta kendine gelemez."
+  },
+  {
+   "key": "case007.oguz.claim.question",
+   "value": "Hasar ihbarını kim yaptı?"
+  },
+  {
+   "key": "case007.oguz.deflect",
+   "value": "O, ekspertiz kapsamı dışında kalıyor."
+  },
+  {
+   "key": "case007.oguz.items.answer",
+   "value": "Envanterde yazanlarla enkazda bulunanlar tam örtüşmüyor. İki değerli tablonun çerçevesi var, kendisi yok. Henüz bir şey demiyorum; inceliyorum."
+  },
+  {
+   "key": "case007.oguz.items.question",
+   "value": "Atölyede yanan eserler neydi?"
+  },
+  {
+   "key": "case007.oguz.policy.answer",
+   "value": "Taşınır eser ve ekipman poliçesi var. Ben dosyaya hasar ihbarıyla girdim. Rakamlar kendi başına bir şey söylemez. Tarihler söyler. Size poliçe geçmişini yazılı vereceğim."
+  },
+  {
+   "key": "case007.oguz.policy.question",
+   "value": "Atölyenin sigorta durumu nedir?"
+  },
+  {
+   "key": "case007.oguz.quote",
+   "value": "“Rakamlar kendi başına bir şey söylemez. Tarihler söyler.”"
+  },
+  {
+   "key": "case007.oguz.title",
+   "value": "Oğuz Tezcan — görüşme"
+  },
+  {
+   "key": "case007.person.erdal.info",
+   "value": "57 yaşında, atölyenin bulunduğu binanın gece görevlisi. Yangını ilk fark eden kişi."
+  },
+  {
+   "key": "case007.person.erdal.name",
+   "value": "Erdal Kılıç"
+  },
+  {
+   "key": "case007.person.melis.info",
+   "value": "32 yaşında, restorasyon uzmanı. Atölyenin dört yıllık çalışanı."
+  },
+  {
+   "key": "case007.person.melis.name",
+   "value": "Melis Akın"
+  },
+  {
+   "key": "case007.person.oguz.info",
+   "value": "38 yaşında, sigorta eksperi. Yangından sonra hasar dosyasını inceliyor."
+  },
+  {
+   "key": "case007.person.oguz.name",
+   "value": "Oğuz Tezcan"
+  },
+  {
+   "key": "case007.person.serdar.info",
+   "value": "49 yaşında, Belen & Sarıgül Restorasyon’un ortağı. İşletmenin mali ve ticari işlerini yürütüyor."
+  },
+  {
+   "key": "case007.person.serdar.name",
+   "value": "Serdar Belen"
+  },
+  {
+   "key": "case007.plan.body",
+   "value": "Atölyenin bulunduğu binanın zemin kat planı ve yönetim anahtar kaydı:\n\n· Arşiv/depo odasının arka duvarındaki kapı, dar bir servis koridoruna açılır. Koridor binanın servis kapısıyla arka sokağa çıkar.\n· Arka sokak, sokak kamerasının görüş alanında değildir; araçla girilebilir.\n· Servis kapısının anahtarı: Kerem Sarıgül, Serdar Belen ve bina gece görevlisi Erdal Kılıç (ana anahtar).\n· Gece görevlisinin kulübesi binanın yan cephesindedir; penceresi arka sokağın girişini görür."
+  },
+  {
+   "key": "case007.plan.title",
+   "value": "BİNA PLANI VE ANAHTAR KAYDI"
+  },
+  {
+   "key": "case007.plate.body",
+   "value": "Beyoğlu’na Tarlabaşı Bulvarı’ndan giriş yapan araçların plaka tanıma kayıtları, 14 Ekim 23.00 – 15 Ekim 01.00.\n\n23.34 · giriş · 34 SBR 482 · koyu gri binek · ruhsat sahibi Belen & Sarıgül Restorasyon · şirket kaydına göre aracı kullanan: Serdar Belen.\n00.29 · çıkış · 34 SBR 482.\n\nTarlabaşı girişi ile atölye arası araçla yaklaşık 10–15 dakikadır."
+  },
+  {
+   "key": "case007.plate.title",
+   "value": "PLAKA TANIMA KAYDI — TARLABAŞI GİRİŞİ"
+  },
+  {
+   "key": "case007.report.body",
+   "value": "15 Ekim gecesi saat 02.14 civarında Beyoğlu, Tomtom’daki Belen & Sarıgül Restorasyon atölyesinde yangın meydana gelmiştir. İtfaiye yangını yaklaşık yirmi dakikada kontrol altına almıştır.\n\nYangının söndürülmesinin ardından işletme ortaklarından Kerem Sarıgül (46) atölyenin ofis bölümünde hareketsiz olarak bulunmuş, olay yerinde hayatını kaybettiği belirlenmiştir.\n\nKerem Sarıgül: restorasyon uzmanı, işletmenin %50 ortağı. Atölyede sık sık geç saatlere kadar çalıştığı bilinmektedir.\n\nİlk değerlendirmede yangının elektrik kaynaklı olabileceği bildirilmiştir."
+  },
+  {
+   "key": "case007.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case007.request.autopsy",
+   "value": "Adli muayene raporunu iste"
+  },
+  {
+   "key": "case007.request.card",
+   "value": "Serdar Belen’in şirket kartı dökümü için izin talep et"
+  },
+  {
+   "key": "case007.request.corridor",
+   "value": "Servis koridorunun incelenmesi için izin talep et"
+  },
+  {
+   "key": "case007.request.fire_full",
+   "value": "Ayrıntılı yangın incelemesini iste"
+  },
+  {
+   "key": "case007.request.insurance",
+   "value": "Sigorta ekspertiz raporunu iste"
+  },
+  {
+   "key": "case007.request.kphone",
+   "value": "Kerem Sarıgül’ün telefonunun incelenmesini iste"
+  },
+  {
+   "key": "case007.request.plan",
+   "value": "Binanın planını ve anahtar kaydını iste"
+  },
+  {
+   "key": "case007.request.plate",
+   "value": "Serdar Belen’in şirket aracının plaka kayıtlarını iste"
+  },
+  {
+   "key": "case007.request.sphone",
+   "value": "Serdar Belen’in telefon konum kaydını iste"
+  },
+  {
+   "key": "case007.request.vehicle",
+   "value": "Şirket aracının incelenmesi için izin talep et"
+  },
+  {
+   "key": "case007.serdar.body",
+   "value": "Ortağın ifadesi."
+  },
+  {
+   "key": "case007.serdar.deflect",
+   "value": "Bunu avukatım olmadan konuşmayalım."
+  },
+  {
+   "key": "case007.serdar.money.answer",
+   "value": "Zor bir yıl. Herkes için öyle. Ama batmak üzere değildik, bunu yazın lütfen."
+  },
+  {
+   "key": "case007.serdar.money.question",
+   "value": "İşletmenin mali durumu nasıldı?"
+  },
+  {
+   "key": "case007.serdar.night.answer",
+   "value": "Evdeydim. Ataşehir’de. Eşim uyuyordu, ben geç saate kadar çalıştım, telefonum da yanımdaydı. İsterseniz bakın."
+  },
+  {
+   "key": "case007.serdar.night.question",
+   "value": "O gece neredeydiniz?"
+  },
+  {
+   "key": "case007.serdar.quote",
+   "value": "“Ticari anlaşmazlıklarımız vardı ama olağan şeylerdi.”"
+  },
+  {
+   "key": "case007.serdar.relation.answer",
+   "value": "On iki yıllık ortağımdı. Kerem’le bazı ticari anlaşmazlıklarımız vardı ama işletme açısından olağan şeylerdi. Kim ortağıyla tartışmaz?"
+  },
+  {
+   "key": "case007.serdar.relation.answer.demeanor",
+   "value": "Gülümsedi; elindeki kalemi masaya tam paralel bıraktı."
+  },
+  {
+   "key": "case007.serdar.relation.question",
+   "value": "Kerem Sarıgül’le aranız nasıldı?"
+  },
+  {
+   "key": "case007.serdar.title",
+   "value": "Serdar Belen — görüşme"
+  },
+  {
+   "key": "case007.serdar.visit.answer",
+   "value": "Aylardır gitmedim. Atölyeyi Kerem yürütürdü, ben müşteri ve finans tarafındayım. Toz, solvent kokusu… benim işim değil."
+  },
+  {
+   "key": "case007.serdar.visit.answer.demeanor",
+   "value": "Cevabı bir an bile düşünmeden verdi."
+  },
+  {
+   "key": "case007.serdar.visit.question",
+   "value": "Atölyeye en son ne zaman gittiniz?"
+  },
+  {
+   "key": "case007.serdar_follow.body",
+   "value": "Plaka kaydından sonra yapılan görüşme."
+  },
+  {
+   "key": "case007.serdar_follow.call.answer",
+   "value": "Konuştuk. Bir müşteri meselesi. Sinirliydi, yarın konuşuruz dedim. Gitmedim."
+  },
+  {
+   "key": "case007.serdar_follow.call.question",
+   "value": "Kerem Bey sizi 23.12’de aramış, dört dakika konuşmuşsunuz."
+  },
+  {
+   "key": "case007.serdar_follow.car.answer",
+   "value": "Araç şirketin. Anahtarı ofiste, panoda durur. Çalışanlardan biri kullanmış olabilir. Ben evdeydim; telefon kayıtlarıma bakın, söyledim."
+  },
+  {
+   "key": "case007.serdar_follow.car.answer.demeanor",
+   "value": "Ses tonu hiç değişmedi; yalnız parmakları masada bir kez tıkırdadı."
+  },
+  {
+   "key": "case007.serdar_follow.car.question",
+   "value": "Evde olduğunuzu söylediniz. Aracınız 23.34’te Beyoğlu’na giriyor."
+  },
+  {
+   "key": "case007.serdar_follow.title",
+   "value": "Serdar Belen — ikinci görüşme"
+  },
+  {
+   "key": "case007.serdar_follow.who.answer",
+   "value": "Bilmiyorum. Bakmam gerek. Melis’in anahtara erişimi var mesela."
+  },
+  {
+   "key": "case007.serdar_follow.who.answer.demeanor",
+   "value": "Melis’in adını söylerken gözlerini kısıp size baktı."
+  },
+  {
+   "key": "case007.serdar_follow.who.question",
+   "value": "Aracı kim kullanmış olabilir?"
+  },
+  {
+   "key": "case007.serdar_third.body",
+   "value": "Araç ve servis koridoru incelemelerinden sonra yapılan görüşme."
+  },
+  {
+   "key": "case007.serdar_third.fire.answer",
+   "value": "Atölye soğuktu. Kış geliyor, diye aldım. Kerem’e götürdüm."
+  },
+  {
+   "key": "case007.serdar_third.fire.answer.demeanor",
+   "value": "Cevabı çok kısa kesti."
+  },
+  {
+   "key": "case007.serdar_third.fire.decoy.insurance",
+   "value": "Poliçeyi artırdım, evet. Değerli eserler geldi, korumamız lazımdı."
+  },
+  {
+   "key": "case007.serdar_third.fire.question",
+   "value": "Zaman ayarlı priz ve ısıtıcıyı 10 Ekim’de şirket kartınızla almışsınız."
+  },
+  {
+   "key": "case007.serdar_third.lamp.answer",
+   "value": "…Elimde bir şey yoktu. Masanın kenarı. Ya da lamba düştü, bilmiyorum. Karanlıktı, her şey çok hızlıydı."
+  },
+  {
+   "key": "case007.serdar_third.lamp.answer.demeanor",
+   "value": "Gözünü yeniden size kaldırmadı."
+  },
+  {
+   "key": "case007.serdar_third.lamp.question",
+   "value": "Kerem Bey’in yarası 6 cm çaplı, yuvarlak kenarlı bir cisimle uyumlu. Yanındaki lambanın kaidesi 6,2 cm ve kanlı."
+  },
+  {
+   "key": "case007.serdar_third.there.answer",
+   "value": "…Gittim. Kerem çağırdı. Bir şeyler öğrenmiş, poliçeyi. Bağırdı, polisi arayacağım dedi. Beni itti, ben de onu ittim. Düştü. Başını masanın kenarına çarptı. Nefes almıyordu sandım. Panikledim, çıktım. Bu kadar."
+  },
+  {
+   "key": "case007.serdar_third.there.answer.demeanor",
+   "value": "Ellerini yüzüne kapadı; sesi ilk kez kırıldı."
+  },
+  {
+   "key": "case007.serdar_third.there.decoy.plate",
+   "value": "Aracın orada olması benim orada olduğumu göstermez, söyledim."
+  },
+  {
+   "key": "case007.serdar_third.there.question",
+   "value": "Aracınızın lastiğindeki alçı arka sokakta, servis kapısının önünde. Gece görevlisi sizi 00.15’te o kapıdan çıkarken görmüş."
+  },
+  {
+   "key": "case007.serdar_third.title",
+   "value": "Serdar Belen — üçüncü görüşme"
+  },
+  {
+   "key": "case007.sphone.body",
+   "value": "Serdar Belen’in hattının 14–15 Ekim gecesi baz istasyonu kayıtları:\n\n20.40 – 08.15 · Ataşehir, konut çevresi. Konum değişmiyor.\n\n23.12 · Kerem Sarıgül’den gelen arama, 4 dk. 06 sn.\n23.17 · Kerem Sarıgül’den gelen mesaj.\n23.21 – 00.47 · Arama, mesaj veya veri kullanımı yok.\n\nNot: konum kaydı hattın, kişinin değil, yerini gösterir."
+  },
+  {
+   "key": "case007.sphone.title",
+   "value": "TELEFON KONUM KAYDI — SERDAR BELEN"
+  },
+  {
+   "key": "case007.street.body",
+   "value": "Atölyenin karşısındaki dükkânın sokak kamerasının 14 Ekim 22.00 – 15 Ekim 02.30 arası döküm kaydı. Kamera atölyenin ön kapısını ve vitrinini görüyor; binanın yan tarafı ve arka sokak kadrajda değil. 23.16 ile 02.14 arasında ön kapıdan çıkan kimse yok."
+  },
+  {
+   "key": "case007.street.title",
+   "value": "SOKAK KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case007.summary.evidence",
+   "value": "Adli muayene yaralanmanın yangından önce olduğunu ve yuvarlak bir cisimle uyumlu olduğunu, yangın raporu çıkış noktasının pano değil arşiv rafı olduğunu ve zaman ayarlı prizi gösterdi. Plaka kaydı ve araç incelemesi Serdar’ın aracını Beyoğlu’na ve alçıya, servis koridoru incelemesi aynı alçıyı arka sokağa bağladı. Kart dökümü ve sigorta raporu yangının kavgadan önce planlandığını ortaya koydu."
+  },
+  {
+   "key": "case007.summary.lesson",
+   "value": "Olay saati suç saati değildir: kamera 02.14’ü gördü, suç 00.05’te işlendi. Melis’in motifi, yalanı ve olay yerinde bulunması onu fail yapmadı. Ve bir sonucu amacıyla karıştırma: yangın Kerem’in ölümünü örttü, ama onun için kurulmadı."
+  },
+  {
+   "key": "case007.summary.location",
+   "value": "Beyoğlu, Tomtom — 14–15 Ekim 2028"
+  },
+  {
+   "key": "case007.summary.truth",
+   "value": "Belen & Sarıgül Restorasyon ağır borçluydu. Serdar Belen 26 Eylül’de sigorta teminatını Kerem’in imzası olmadan %240 artırdı, 10 Ekim’de zaman ayarlı priz ve ısıtıcı aldı; amacı atölye boşken küçük bir yangın çıkarmaktı. Kerem poliçeyi öğrendi. 14 Ekim akşamı önce Melis’le işten çıkarmayı konuştu, 23.12’de Serdar’ı arayıp çağırdı. Serdar telefonunu evde bırakıp geldi, aracını arka sokağa çekti, servis kapısından girdi. Kerem polisi arayacağını söyleyince Serdar ona metal masa lambasıyla vurdu. Kerem’i ölü sanıp hazırladığı düzeneği kurdu: solvent rafa döküldü, ısıtıcı zaman ayarlı prize bağlandı. 00.15’te servis kapısından çıktı; Erdal Kılıç onu gördü ve sustu. Yangın 02.11’de başladı. Kerem o sırada hâlâ hayattaydı."
+  },
+  {
+   "key": "case007.suspect.label",
+   "value": "Kerem’in yaralanmasından kim sorumlu ve nasıl oldu?"
+  },
+  {
+   "key": "case007.tablet.caseLine",
+   "value": "DOSYA #007  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "case007.time.back_msg",
+   "value": "23.17"
+  },
+  {
+   "key": "case007.time.call",
+   "value": "23.12"
+  },
+  {
+   "key": "case007.time.car_pass",
+   "value": "00.21"
+  },
+  {
+   "key": "case007.time.car_stop",
+   "value": "23.52"
+  },
+  {
+   "key": "case007.time.erdal_saw",
+   "value": "00.15"
+  },
+  {
+   "key": "case007.time.kerem_in",
+   "value": "22.48"
+  },
+  {
+   "key": "case007.time.light",
+   "value": "02.11"
+  },
+  {
+   "key": "case007.time.melis_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case007.time.melis_msg",
+   "value": "21.05"
+  },
+  {
+   "key": "case007.time.melis_out",
+   "value": "23.16"
+  },
+  {
+   "key": "case007.time.plate_in",
+   "value": "23.34"
+  },
+  {
+   "key": "case007.time.plate_out",
+   "value": "00.29"
+  },
+  {
+   "key": "case007.time.serdar_claim",
+   "value": "22.00"
+  },
+  {
+   "key": "case007.time.smoke",
+   "value": "02.14"
+  },
+  {
+   "key": "case007.time.sphone_home",
+   "value": "23.21"
+  },
+  {
+   "key": "case007.title",
+   "value": "Dosya #007 — Kül Payı"
+  },
+  {
+   "key": "case007.vehicle.body",
+   "value": "TALEP ONAYLANDI.\n\nBelen & Sarıgül Restorasyon adına kayıtlı aracın incelemesi:\n\n· Bagaj zemininde ve paspasta beyaz, ince toz. Analiz: kalsiyum sülfat; restorasyon alçısıyla uyumlu.\n· Sürücü paspasında ve pedal çevresinde aynı tozdan izler.\n· Sürücü koltuğu ve aynalar en son aynı ayarda; aracı düzenli kullanan kişinin ayarıyla uyumlu.\n· Lastik dişlerinde nemli toprak ve aynı beyaz toz.\n\nNot: restorasyon alçısı atölyede kullanılan bir malzemedir. Tek başına aracın atölyede bulunduğunu göstermez."
+  },
+  {
+   "key": "case007.vehicle.title",
+   "value": "ARAÇ İNCELEME RAPORU — 34 SBR 482"
+  },
+  {
+   "key": "case007.verdict.melis_blow",
+   "value": "Melis Akın — künt cisimle darbe"
+  },
+  {
+   "key": "case007.verdict.none_fall",
+   "value": "Kimse — yangında düşüp yaralandı"
+  },
+  {
+   "key": "case007.verdict.serdar_blow",
+   "value": "Serdar Belen — künt cisimle darbe"
+  },
+  {
+   "key": "case007.verdict.serdar_fall",
+   "value": "Serdar Belen — tartışmada düşme"
+  },
+  {
+   "key": "case007.verdict.undetermined",
+   "value": "Belirlenemedi"
+  }
+ ]
+}

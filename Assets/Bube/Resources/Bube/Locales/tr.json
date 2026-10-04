@@ -3771,6 +3771,50 @@
   {
    "key": "fax.seal",
    "value": "Değerlendirme Kurulu"
+  },
+  {
+   "key": "tablet.warrantDenied",
+   "value": "Ek dayanak gerekiyor"
+  },
+  {
+   "key": "requests.warrantHeading",
+   "value": "İnceleme izni talebi"
+  },
+  {
+   "key": "requests.warrantHelp",
+   "value": "Bu alan izinsiz incelenemez. Talebini, dosyada okuduğun kaynaklardan seçtiğin dayanaklarla gerekçelendir."
+  },
+  {
+   "key": "requests.warrantBasis",
+   "value": "Dayanak kaynaklar"
+  },
+  {
+   "key": "requests.warrantBasisHelp",
+   "value": "{0} kaynak seç."
+  },
+  {
+   "key": "requests.warrantChoose",
+   "value": "{0} dayanak daha seç"
+  },
+  {
+   "key": "requests.warrantSend",
+   "value": "Talebi gönder"
+  },
+  {
+   "key": "requests.warrantWaitTitle",
+   "value": "Talep değerlendiriliyor"
+  },
+  {
+   "key": "requests.warrantWaitText",
+   "value": "Sonuç Gelen Evraklar'a düşecek."
+  },
+  {
+   "key": "requests.warrantDeniedTitle",
+   "value": "Ek dayanak gerekiyor"
+  },
+  {
+   "key": "requests.warrantDeniedText",
+   "value": "Talep, gösterilen dayanaklarla onaylanmadı. Başka kaynaklarla yeniden gönderebilirsin."
   }
  ]
 }

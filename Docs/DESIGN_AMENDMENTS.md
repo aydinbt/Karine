@@ -1037,3 +1037,10 @@ Kullanıcı kararı: #005'te rapor "kim yaptı" sormaz, geceyi kurdurur. Motor d
 
 Kullanıcı kararı: #006 aynı vakayı tekrar oynatmasın. Senaryo #005'e çok benzediği için kişi (Defne Yalın), meslek (hakediş uzmanı), usulsüzlük (sahte taşeron hakedişi) ve semt (Üsküdar) değişti; çakışan adlar yenilendi. Rapor dört soru yerine motorun üç sütununa oturdu: ilk kayboluş, 23.41 mesajını gönderen, takibi organize eden ("üçüncü kişi müdahalesi" sorusu ilk ikisinden çıktığı için düştü). "Kendi isteğiyle" tek başına doğru ama eksiktir. Mantık açığı kapandı: gizli yeni hattın numarası şirket kayıtlarında olamazdı; Defne'nin 21.40 "deneme" mesajı ve kilidi kendisinin kapatması numarayı Cem'e verir. Kayıp kişinin kendisi sonda görüşme listesine girer.
 
+
+
+## 4 Ekim 2026 — İnceleme izni ve Dosya #007 "Kül Payı"
+
+Yeni mekanik: bazı kayıtlar (araç, şirket kartı, servis koridoru) doğrudan istenemez; oyuncu talebe elindeki kaynaklardan iki dayanak ekler. Dayanaklar tanımlı yollardan birini karşılıyorsa kayıt normal gecikmeyle gelir; karşılamıyorsa aynı gecikmeden sonra yalnız "Ek dayanak gerekiyor" döner. Hangi kaynağın eksik olduğu söylenmez, deneme cezası yoktur. Bu, değişmeyen kuralı korur: sistem oyuncuyu yönlendirmez, yalnız gerekçeyi sınar.
+
+#007 kararları: önceki vakalarla çakışan adlar değişti (ölen ortak Kerem Sarıgül, eksper Oğuz Tezcan). Rapor motorun üç sütununa oturdu: yaralanmadan kim sorumlu ve nasıl / yangının niteliği / yangının ilk amacı. "Düştü" ve "delilleri örtmek" kolay ama yanlış: yara 6 cm yuvarlak cisimle uyumlu, priz ve teminat artışı kavgadan önce. Melis motifli, yalan söylemiş ve olay yerinde bulunmuş ama fail değil. Gerçek kurum adları kullanılmadı (Adli Muayene Raporu, soruşturma birimi). Sokak kamerası arka sokağı görmez; olay saati (02.14) suç saati (≈00.05) değildir.

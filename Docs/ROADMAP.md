@@ -280,6 +280,18 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] CCTV kareleri (apartman 22.38, kafe 20.49, sahil 21.51 / 22.02 / 00.06).
 - [ ] Dosya #006 baştan sona Play Mode oynanışı (kullanıcı).
 
+### 4 Ekim 2026 — Dosya #007 "Kül Payı" ve inceleme izni
+
+- [~] İnceleme izni motoru: `Node.warrant` (dayanak yolları) + `warrantSlots`; `Investigation.SubmitWarrant` tam sayıda erişilebilir kaynak ister, yol tutarsa evrak talebi açar, tutmazsa aynı gecikmeyle "Ek dayanak gerekiyor" reddi yazar (`Progress.warrantDenials`). Ret yeniden denenebilir; ipucu verilmez.
+- [~] İzin arayüzü: talep kâğıdında dayanak seçme satırları (`KarineUI.RequestBasis`), ret notu, rozet sayımı.
+- [~] Doğrulayıcı: yürüyüş her izinli düğümde önce zayıf dayanağın reddini, sonra doğru yolun onayını sınar.
+- [~] Tasarım: `Docs/CASE007_DESIGN.md` — şüpheli yangın; darbe Serdar'ın, yangın kasıtlı, ilk amaç sigorta.
+- [~] Veri ve metin: `case007.json` (22 düğüm, 3 izinli), `tr.case007.json` (240 metin). `Case007Rules`: zayıf dayanak reddi, desteklenen rapor, "düştü"/"delilleri örtmek" desteklenmez. 126/126 EditMode, 25/25 PlayMode.
+- [~] Zincir: Dosya #006 → #007, haritada yedinci yuva; galeri listesinde.
+- [ ] Portreler: Serdar, Melis, Erdal, Oğuz.
+- [ ] Kapak ve sokak kamerası CCTV kareleri.
+- [ ] İzin akışı ve Dosya #007 baştan sona Play Mode oynanışı (kullanıcı).
+
 ## Güncelleme kuralı
 
 Her geliştirme oturumunun sonunda:

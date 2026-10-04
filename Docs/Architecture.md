@@ -71,7 +71,7 @@ Tek giriş: `ContentValidator.Run()` → `ValidationReport`. Menü komutu `Bube/
 | `LocaleRules.cs` | Yinelenen anahtar (sorun), ölü anahtar (not). |
 | `CaseRules.cs` | Her vakaya uygulanan yapı kuralları: sarkan referans, eksik metin, görüşme bütünlüğü, CCTV bütünlüğü, zaman çizelgesi, sütun başına tam bir `correct`. |
 | `WalkRules.cs` | Vakayı otomatik oynar: her düğümü açar, açılan her soruyu sorar, belge taleplerini gelen kutusundan geçirir. Erişilemeyen içeriğin tek kontrolü budur. |
-| `Case001Rules.cs` / `Case002Rules.cs` / `Case005Rules.cs` / `Case006Rules.cs` | Yalnız o vakanın tasarımını sabitleyen iddialar (#005: 00.08 ve emanet kaydı soru sorulmadan açılmaz; "saldırı yok" otopark kaydına dayanır; Murat + yanlış nitelik doğru sayılmaz; #006: garson ifadesi, zarf ve arama dökümü soruyla açılır; mesajı Defne'ye ya da takibi Cem'e yükleyen rapor desteklenmez). |
+| `Case001Rules.cs` / `Case002Rules.cs` / `Case005Rules.cs` / `Case006Rules.cs` / `Case007Rules.cs` | Yalnız o vakanın tasarımını sabitleyen iddialar (#005: 00.08 ve emanet kaydı soru sorulmadan açılmaz; "saldırı yok" otopark kaydına dayanır; Murat + yanlış nitelik doğru sayılmaz; #006: garson ifadesi, zarf ve arama dökümü soruyla açılır; mesajı Defne'ye ya da takibi Cem'e yükleyen rapor desteklenmez; #007: araç izni plaka + konum dayanağıyla reddedilir, "düştü" ve "delilleri örtmek" desteklenmez). |
 | `ContentValidator.cs` | Sırayı kurar; vakaya özel kancaları kimlik → yöntem sözlüğünden çağırır. |
 
 **Neden iki evreli kanca:** tempo ve kilit sırası kontrolleri gezintiden **önce** koşmak zorunda (gezinti her şeyi açar), rapor/arama/rota kontrolleri **sonra** (oynanmış `Investigation` ve kayıt anlık görüntüsü gerekir). Bu yüzden kanca sözlüğü iki tanedir: `EarlyHooks`, `AfterWalkHooks`.
@@ -515,3 +515,11 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır. Bunun yerine testler her `UIDocument`'a kopyalanmış bir `PanelSettings` verip `targetTexture`'ını 2400×1080 bir RenderTexture yapar ve onu `ReadPixels` ile okur; teardown eski ayarları geri koyar. Bu yüzden `run-tests.sh` PlayMode'u `-nographics` olmadan koşar (EditMode hâlâ grafiksiz). Referanslar `Tools/Baselines/`.
 
 `Tools/capture-screens.sh [GxY]` aynı yolla `GalleryTests`'i koşar ve her vakanın sorgu ekranlarını `Docs/Screenshots/<tarih>/` altına yazar (klasör git dışı). `KARINE_GALLERY` tanımlı değilse test atlanır; `run-tests.sh` atlanan testi düşmüş saymaz. `KARINE_TEST_FILTER` ile tek test sınıfı koşulabilir.
+
+
+## İnceleme izni (4 Ekim 2026)
+
+- Veri: `Node.warrant` = `WarrantPath[]` (her yol bir `sources` listesi), `Node.warrantSlots` (varsayılan 2). İzinli düğüm `requestable` bir belgedir ama `CanRequestDocument` onu dışlar; yerine `CanRequestWarrant`.
+- `SubmitWarrant(id, basis)`: tam `warrantSlots` kadar farklı, `WarrantBasisAvailable` kaynak ister (rapor kaynağı ya da okunmuş CCTV düğümünün yalın kimliği). Bir yolun tüm kaynakları seçimde varsa (`node#olay` için düğüm öneki de eşleşir) `DocumentRequest` açılır; yoksa aynı gecikmeyle `Progress.warrantDenials`a ret yazılır. Yeni talep eski reddi siler.
+- Arayüz: `BubeApp.Investigation` → `WarrantForm`; aday listesi okunmuş belgeler, görüşmeler ve okunmuş CCTV olaylarıdır (`notReportSource` hariç). Ret `UnseenWarrantDenial` ile rozete sayılır, açılınca görülmüş işaretlenir.
+- Doğrulama: `WalkRules.Warrant` her izinli düğümde hiçbir yolda geçmeyen okunmuş belgelerle reddi, ilk erişilebilir yolla onayı sınar.

@@ -105,6 +105,19 @@ public static partial class KarineUI {
   Typed(k,key.ToUpper(Tr),Q.BodySize,true).style.marginBottom=0;
   var v=Typed(row,":  "+value,Q.BodySize);v.style.marginLeft=KarineTheme.SpaceMd;v.style.marginBottom=0;v.style.flexShrink=1;v.style.whiteSpace=WhiteSpace.Normal;
  }
+ // İnceleme izni dayanağı: kâğıt üstünde işaret kutulu satır. İşaretli satır mürekkep dolu kutu, kalın yazı.
+ public static Button RequestBasis(VisualElement paper,string label,bool chosen,Action action) {
+  var row=new Button(Sounded(action)) {name="RequestBasis",tooltip=label};row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
+  row.style.marginLeft=0;row.style.marginRight=0;row.style.marginBottom=KarineTheme.SpaceXs;row.style.paddingLeft=KarineTheme.SpaceSm;row.style.paddingRight=KarineTheme.SpaceSm;
+  row.style.paddingTop=KarineTheme.SpaceXs;row.style.paddingBottom=KarineTheme.SpaceXs;
+  Unskin(row,chosen?KarineTheme.Alpha(KarineTheme.Accent,.14f):KarineTheme.Alpha(KarineTheme.Paper.Edge,.12f));Round(row,KarineTheme.Radius);
+  var box=new VisualElement {pickingMode=PickingMode.Ignore};box.style.width=Q.Dot*2;box.style.height=Q.Dot*2;box.style.flexShrink=0;box.style.marginRight=KarineTheme.SpaceMd;
+  box.style.alignItems=Align.Center;box.style.justifyContent=Justify.Center;Border(box,KarineTheme.BorderWidth+1,KarineTheme.Paper.Ink);
+  if(chosen){box.style.backgroundColor=KarineTheme.Paper.Ink;Icon(box,"check",KarineTheme.Paper.Sheet,Q.Dot*2-2);}
+  row.Add(box);
+  var t=Typed(row,label,Q.BodySize,chosen);t.style.marginBottom=0;t.style.flexShrink=1;t.style.whiteSpace=WhiteSpace.Normal;t.pickingMode=PickingMode.Ignore;
+  paper.Add(row);return row;
+ }
  // Büyük eylem: amber dolu ana düğme ya da koyu ikincil (reklamla beklemeyi atla).
  public static Button RequestAction(VisualElement paper,string icon,string label,bool primary,Action action) {
   var b=new Button(Sounded(action)) {name="RequestAction",tooltip=label};b.style.flexDirection=FlexDirection.Row;b.style.alignItems=Align.Center;b.style.justifyContent=Justify.Center;
