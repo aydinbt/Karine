@@ -131,7 +131,7 @@ public sealed class BootSmokeTests {
   var cases=root.Q<ScrollView>("CaseStrip");
   Assert.IsNotNull(countries);Assert.IsNotNull(cases);
   Assert.AreEqual(Worlds.Load().countries.Count,countries.contentContainer.childCount);
-  Assert.AreEqual(7,cases.contentContainer.childCount);
+  Assert.AreEqual(8,cases.contentContainer.childCount);
   Assert.IsNotNull(root.Q("CaseBrowserSidebar"));
   Assert.Greater(cases.contentContainer.layout.width,cases.contentViewport.layout.width,"Case cards must scroll, not shrink.");
   // Selecting another country is presentation only, and cannot open its cases.
@@ -139,7 +139,7 @@ public sealed class BootSmokeTests {
   method.Invoke(app,null);
   for(int frame=0;frame<5;frame++) yield return null;
   cases=root.Q<ScrollView>("CaseStrip");
-  Assert.AreEqual(7,cases.contentContainer.childCount);
+  Assert.AreEqual(8,cases.contentContainer.childCount);
   foreach(var card in cases.contentContainer.Children()) {
    Assert.IsFalse(card.focusable,"Unreleased cases cannot take keyboard focus.");
    // Kilitli kart dokunuşu alır ama yalnız sarsılır; eylemi yoktur.

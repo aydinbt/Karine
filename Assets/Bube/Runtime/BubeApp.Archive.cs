@@ -29,6 +29,9 @@ public sealed partial class BubeApp {
    KarineUI.ArchiveCard(drawer,T(item.data.titleKey),date,
     fax==null?null:T(fax.correct?"archive.stamp.approved":"fax.unsupported"),fax!=null && fax.correct,
     reopened?T("retry.recordShort"):null,()=>ArchiveCasePage(picked.data.id,null));
+   // Ayrılan dosyanın doğurduğu soğuk dosya: salt kart, henüz oynanmaz.
+   if(fax!=null && fax.correct && !string.IsNullOrEmpty(item.data.coldCaseTitleKey))
+    KarineUI.ArchiveCard(drawer,T(item.data.coldCaseTitleKey),T(item.data.coldCaseStatusKey),T("archive.stamp.cold"),false,null,()=>{});
   }
  }
  void ArchiveCasePage(string caseId,string sourceId,string focusReference=null) {

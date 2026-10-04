@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**4 Ekim (gece, 4):** **Dosya #008 "Kopya"** girdi: oyuncu üç olayı (zarf, araç camı, ev girişi) kendisi ilişkilendiriyor, birleşik fotoğrafla 2006 arşivini taratıyor. Eski dosya ilk açılışta "YENİDEN AÇILDI" kartıyla masaya düşüyor; rapor sonunda dosya "AYRILDI" damgası alıyor ve arşive soğuk dosya kartı ekleniyor. 32 düğüm, 309 metin; bölüm seçicide sekizinci yuva. Testler yeşil; Play Mode'da görülmedi. Olay panosu tasarım bekliyor.
+
 **4 Ekim (gece, 3):** **İnceleme izni** mekaniği ve **Dosya #007 "Kül Payı"** (şüpheli yangın) girdi. Bazı kayıtlar (araç, şirket kartı, servis koridoru) ancak oyuncunun seçtiği iki dayanakla talep edilebilir; dayanak yetersizse talep "Ek dayanak gerekiyor" diye döner. 22 düğüm, 240 metin, #006'nın ardından zincirde. Testler yeşil; Play Mode'da henüz görülmedi. Portre, kapak, CCTV sonra.
 
 **4 Ekim (gece, 2):** **Dosya #006 "Son Mesaj"** (kayıp kişi, iki katmanlı) veriye girdi: 24 düğüm, 323 metin, #005'in ardından zincirde. Rapor: ilk kayboluş / 23.41 mesajını kim gönderdi / takibi kim organize etti. Doğrulayıcı vakayı çözüyor (`Case006Rules`). Portre, kapak ve CCTV kareleri sonra.

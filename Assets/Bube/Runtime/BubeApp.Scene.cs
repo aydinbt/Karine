@@ -49,7 +49,10 @@ public sealed partial class BubeApp {
   PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
   var asset=Resources.Load<TextAsset>("Bube/Cases/"+caseId);
   var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
-  KarineUI.CaseClosed(root,data==null?caseId:T(data.titleKey),T("case.closedStamp"),then);
+  // Ayrılan dosya (#008): damga "AYRILDI", altında ayrı soruşturma notu.
+  bool split=data!=null && !string.IsNullOrEmpty(data.closedStampKey);
+  KarineUI.CaseClosed(root,data==null?caseId:T(data.titleKey),T(split?data.closedStampKey:"case.closedStamp"),then,
+   split && !string.IsNullOrEmpty(data.closedNoteKey)?T(data.closedNoteKey):null);
  }
 
  // Kapanış sonrası (epilog, jenerik) vaka başına bir kez; sonra `again` kaldığı yerden sürer.

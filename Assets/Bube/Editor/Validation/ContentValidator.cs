@@ -21,6 +21,7 @@ public static class ContentValidator {
   { "case005", Case005Rules.AfterWalk },
   { "case006", Case006Rules.AfterWalk },
   { "case007", Case007Rules.AfterWalk },
+  { "case008", Case008Rules.AfterWalk },
  };
 
  public static ValidationReport Run() {

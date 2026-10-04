@@ -3815,6 +3815,78 @@
   {
    "key": "requests.warrantDeniedText",
    "value": "Talep, gösterilen dayanaklarla onaylanmadı. Başka kaynaklarla yeniden gönderebilirsin."
+  },
+  {
+   "key": "file.reopenedStamp",
+   "value": "YENİDEN AÇILDI"
+  },
+  {
+   "key": "archive.stamp.cold",
+   "value": "SOĞUK DOSYA"
+  },
+  {
+   "key": "requests.linkHeading",
+   "value": "OLAY BAĞLANTISI TALEBİ"
+  },
+  {
+   "key": "requests.linkHelp",
+   "value": "İki olay kaydının aynı soruşturma dosyasında birleştirilmesini talep edersin. Talep, seçtiğin dayanaklarla değerlendirilir."
+  },
+  {
+   "key": "requests.linkBasis",
+   "value": "Bağlantı dayanakları"
+  },
+  {
+   "key": "requests.linkSend",
+   "value": "Bağlantı talebini gönder"
+  },
+  {
+   "key": "requests.linkWaitTitle",
+   "value": "Bağlantı talebi değerlendiriliyor"
+  },
+  {
+   "key": "requests.linkWaitText",
+   "value": "Dayanaklar inceleniyor. Sonuç gelen evraklara düşecek."
+  },
+  {
+   "key": "requests.linkDeniedTitle",
+   "value": "Olaylar birleştirilmedi"
+  },
+  {
+   "key": "requests.linkDeniedText",
+   "value": "Seçilen dayanaklar iki olayın aynı dosyada ele alınması için yeterli görülmedi. Başka dayanaklarla yeniden talep edebilirsin."
+  },
+  {
+   "key": "requests.archiveHeading",
+   "value": "ARŞİV TARAMA TALEBİ"
+  },
+  {
+   "key": "requests.archiveHelp",
+   "value": "Eski kayıtların taranmasını talep edersin. Tarama, seçtiğin dayanakların işaret ettiği dönem ve yerle sınırlıdır."
+  },
+  {
+   "key": "requests.archiveBasis",
+   "value": "Tarama dayanakları"
+  },
+  {
+   "key": "requests.archiveSend",
+   "value": "Tarama talebini gönder"
+  },
+  {
+   "key": "requests.archiveWaitTitle",
+   "value": "Arşiv taranıyor"
+  },
+  {
+   "key": "requests.archiveWaitText",
+   "value": "Eski kayıtlar elle taranıyor. Sonuç gelen evraklara düşecek."
+  },
+  {
+   "key": "requests.archiveDeniedTitle",
+   "value": "Kayıt bulunamadı"
+  },
+  {
+   "key": "requests.archiveDeniedText",
+   "value": "Seçilen dayanaklarla tarama daraltılamadı; eşleşen kayıt çıkmadı. Başka dayanaklarla yeniden talep edebilirsin."
   }
  ]
 }

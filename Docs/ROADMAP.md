@@ -292,6 +292,19 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] Kapak ve sokak kamerası CCTV kareleri.
 - [ ] İzin akışı ve Dosya #007 baştan sona Play Mode oynanışı (kullanıcı).
 
+### 4 Ekim 2026 — Dosya #008 "Kopya": olay bağlantısı, arşiv taraması, ayrılan dosya
+
+- [~] Olay bağlantısı ve arşiv taraması: inceleme izni motorunun üstünde `Node.requestKind` ("link" / "archive"); yalnız metinler ayrılır (`requests.link*`, `requests.archive*`), kurallar aynı.
+- [~] "Yeniden açıldı" kartı: `Node.reopenYear` taşıyan kayıt ilk açılışta `KarineUI.FileReopened` ile masaya düşer (sararmış klasör, yıl, damga, devir notu).
+- [~] Ayrılan dosya: `CaseData.closedStampKey/closedNoteKey` → kapanış kartında "AYRILDI" ve not; `coldCaseTitleKey/StatusKey` → arşivde "SOĞUK DOSYA — UMUT YÜCEL / 2006" kartı (oynanmaz).
+- [~] Tasarım: `Docs/CASE008_DESIGN.md` — üç olay, üç ayrı el; 2006'da itme düşme değil.
+- [~] Veri ve metin: `case008.json` (32 düğüm; 2 bağlantı, 1 arşiv, 1 izin), `tr.case008.json` (309 metin). `Case008Rules`. 126/126 EditMode, 25/25 PlayMode.
+- [~] Zincir: #007 → #008; bölüm seçicide her ülkeye sekizinci yuva (TR'de #008, diğerlerinde mühürlü).
+- [ ] Olay panosu (kart dizme, bağlantı türü, puansız teori) — tasarım kullanıcıdan gelince.
+- [ ] Portreler: Selim, Tolga, Aylin, Zeynep, Ferhat, Burak.
+- [ ] Kapak, birleştirilmiş fotoğraf görseli ve CCTV kareleri (site otoparkı, apartman girişi).
+- [ ] "Yeniden açıldı" kartı, "AYRILDI" damgası ve Dosya #008 baştan sona Play Mode oynanışı (kullanıcı).
+
 ## Güncelleme kuralı
 
 Her geliştirme oturumunun sonunda:

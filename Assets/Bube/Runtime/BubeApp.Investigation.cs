@@ -113,14 +113,14 @@ public sealed partial class BubeApp {
   }
   var paper=KarineUI.RequestPaper(root);var status=Status(selected);
   bool warrant=Investigation.IsWarrant(selected);
-  KarineUI.RequestDocumentHead(paper,warrant?"lock":"document",T(warrant?"requests.warrantHeading":"requests.docHeading"),T(selected.titleKey));
-  KarineUI.RequestSection(paper,T("requests.description"),T(warrant?"requests.warrantHelp":"tablet.investigationHelp"));
+  KarineUI.RequestDocumentHead(paper,warrant?"lock":"document",warrant?WT(selected,"Heading"):T("requests.docHeading"),T(selected.titleKey));
+  KarineUI.RequestSection(paper,T("requests.description"),warrant?WT(selected,"Help"):T("tablet.investigationHelp"));
   KarineUI.RequestFact(paper,T("requests.status"),T(status));
   if(!warrant)KarineUI.RequestFact(paper,T("requests.result"),T("requests.resultText"));
-  if(status=="tablet.investigationPending")KarineUI.RequestWait(paper,T(warrant?"requests.warrantWaitTitle":"requests.docWaitTitle"),T(warrant?"requests.warrantWaitText":"requests.docWaitText"),
+  if(status=="tablet.investigationPending")KarineUI.RequestWait(paper,warrant?WT(selected,"WaitTitle"):T("requests.docWaitTitle"),warrant?WT(selected,"WaitText"):T("requests.docWaitText"),
    new DateTime(ReadyTicks(selected),DateTimeKind.Utc));
   if(warrant && status=="tablet.warrantDenied") {
-   KarineUI.RequestSection(paper,T("requests.warrantDeniedTitle"),T("requests.warrantDeniedText"));
+   KarineUI.RequestSection(paper,WT(selected,"DeniedTitle"),WT(selected,"DeniedText"));
    var denial=game.Denial(selected);if(!denial.seen){denial.seen=true;Save();}
   }
   if(warrant && game.CanRequestWarrant(selected)) WarrantForm(paper,selected);
@@ -131,9 +131,14 @@ public sealed partial class BubeApp {
  }
  // İnceleme izni formu: okunmuş kaynaklar arasından dayanak seçilir. Liste her okunmuş kaynağı
  // aynı biçimde gösterir; hangisinin işe yarayacağını söylemez.
+ // İzin, olay bağlantısı ve arşiv taraması aynı motoru paylaşır; yalnız metinler ayrılır.
+ string WT(Node n,string suffix) {
+  string kind=string.IsNullOrEmpty(n.requestKind)?"warrant":n.requestKind,key="requests."+kind+suffix;
+  return locale.Has(key)?T(key):T("requests.warrant"+suffix);
+ }
  void WarrantForm(VisualElement paper,Node selected) {
   int slots=game.WarrantSlots(selected);
-  KarineUI.RequestSection(paper,T("requests.warrantBasis"),string.Format(T("requests.warrantBasisHelp"),slots));
+  KarineUI.RequestSection(paper,WT(selected,"Basis"),string.Format(T("requests.warrantBasisHelp"),slots));
   foreach(var id in WarrantCandidates()) {
    var source=id;bool chosen=warrantBasis.Contains(source);
    KarineUI.RequestBasis(paper,CompactReportSourceLabel(source),chosen,()=>{
@@ -143,7 +148,7 @@ public sealed partial class BubeApp {
    });
   }
   bool ready=warrantBasis.Count==slots;
-  KarineUI.RequestAction(paper,"lock",ready?T("requests.warrantSend"):string.Format(T("requests.warrantChoose"),slots-warrantBasis.Count),ready,()=>{
+  KarineUI.RequestAction(paper,"lock",ready?WT(selected,"Send"):string.Format(T("requests.warrantChoose"),slots-warrantBasis.Count),ready,()=>{
    if(ready && game.SubmitWarrant(selected.id,warrantBasis.ToArray())){warrantBasis.Clear();Save();InvestigationRequests(false);}
   });
  }
@@ -170,7 +175,15 @@ public sealed partial class BubeApp {
   var current=pages.FirstOrDefault(n=>n.id==selectedFileNode) ?? pages.FirstOrDefault();
   if(current!=null) {
    selectedFileNode=current.id;
-   if(!game.State.read.Contains(current.id) && game.Read(current.id))Save();
+   if(!game.State.read.Contains(current.id) && game.Read(current.id)) {
+    Save();
+    // Arşivden gelen eski dosya ilk açılışta masaya "yeniden açıldı" kartıyla düşer.
+    if(!string.IsNullOrEmpty(current.reopenYear)) {
+     var reopened=current;
+     root.schedule.Execute(()=>KarineUI.FileReopened(root,reopened.reopenYear,T(reopened.titleKey),T("file.reopenedStamp"),
+      string.IsNullOrEmpty(reopened.reopenNoteKey)?null:T(reopened.reopenNoteKey))).StartingIn(250);
+    }
+   }
   }
   if(selectedFileSection=="interview" && game.State.seenInterviewTurns!=game.State.interviewTurns.Count) {
    game.State.seenInterviewTurns=game.State.interviewTurns.Count;

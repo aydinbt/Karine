@@ -71,7 +71,7 @@ Tek giriş: `ContentValidator.Run()` → `ValidationReport`. Menü komutu `Bube/
 | `LocaleRules.cs` | Yinelenen anahtar (sorun), ölü anahtar (not). |
 | `CaseRules.cs` | Her vakaya uygulanan yapı kuralları: sarkan referans, eksik metin, görüşme bütünlüğü, CCTV bütünlüğü, zaman çizelgesi, sütun başına tam bir `correct`. |
 | `WalkRules.cs` | Vakayı otomatik oynar: her düğümü açar, açılan her soruyu sorar, belge taleplerini gelen kutusundan geçirir. Erişilemeyen içeriğin tek kontrolü budur. |
-| `Case001Rules.cs` / `Case002Rules.cs` / `Case005Rules.cs` / `Case006Rules.cs` / `Case007Rules.cs` | Yalnız o vakanın tasarımını sabitleyen iddialar (#005: 00.08 ve emanet kaydı soru sorulmadan açılmaz; "saldırı yok" otopark kaydına dayanır; Murat + yanlış nitelik doğru sayılmaz; #006: garson ifadesi, zarf ve arama dökümü soruyla açılır; mesajı Defne'ye ya da takibi Cem'e yükleyen rapor desteklenmez; #007: araç izni plaka + konum dayanağıyla reddedilir, "düştü" ve "delilleri örtmek" desteklenmez). |
+| `Case001Rules.cs` / `Case002Rules.cs` / `Case005Rules.cs` / `Case006Rules.cs` / `Case007Rules.cs` / `Case008Rules.cs` | Yalnız o vakanın tasarımını sabitleyen iddialar (#005: 00.08 ve emanet kaydı soru sorulmadan açılmaz; "saldırı yok" otopark kaydına dayanır; Murat + yanlış nitelik doğru sayılmaz; #006: garson ifadesi, zarf ve arama dökümü soruyla açılır; mesajı Defne'ye ya da takibi Cem'e yükleyen rapor desteklenmez; #007: araç izni plaka + konum dayanağıyla reddedilir, "düştü" ve "delilleri örtmek" desteklenmez; #008: Olay C bağlantısız açılmaz, bağlantı/arşiv/arama zayıf dayanakla reddedilir, "eve Burak girdi" ve "Tolga aşağı itti" desteklenmez). |
 | `ContentValidator.cs` | Sırayı kurar; vakaya özel kancaları kimlik → yöntem sözlüğünden çağırır. |
 
 **Neden iki evreli kanca:** tempo ve kilit sırası kontrolleri gezintiden **önce** koşmak zorunda (gezinti her şeyi açar), rapor/arama/rota kontrolleri **sonra** (oynanmış `Investigation` ve kayıt anlık görüntüsü gerekir). Bu yüzden kanca sözlüğü iki tanedir: `EarlyHooks`, `AfterWalkHooks`.
@@ -523,3 +523,9 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 - `SubmitWarrant(id, basis)`: tam `warrantSlots` kadar farklı, `WarrantBasisAvailable` kaynak ister (rapor kaynağı ya da okunmuş CCTV düğümünün yalın kimliği). Bir yolun tüm kaynakları seçimde varsa (`node#olay` için düğüm öneki de eşleşir) `DocumentRequest` açılır; yoksa aynı gecikmeyle `Progress.warrantDenials`a ret yazılır. Yeni talep eski reddi siler.
 - Arayüz: `BubeApp.Investigation` → `WarrantForm`; aday listesi okunmuş belgeler, görüşmeler ve okunmuş CCTV olaylarıdır (`notReportSource` hariç). Ret `UnseenWarrantDenial` ile rozete sayılır, açılınca görülmüş işaretlenir.
 - Doğrulama: `WalkRules.Warrant` her izinli düğümde hiçbir yolda geçmeyen okunmuş belgelerle reddi, ilk erişilebilir yolla onayı sınar.
+
+- Talep türleri (#008): `Node.requestKind` "link" ya da "archive" aynı izin motorunu kullanır; `BubeApp.WT` metni `requests.<tür><Ek>` anahtarından alır, yoksa `requests.warrant<Ek>`a düşer.
+- `Node.reopenYear` (+ `reopenNoteKey`): kayıt ilk okunduğunda `KarineUI.FileReopened` kartı oynar.
+- `CaseData.closedStampKey/closedNoteKey`: `ClosedCard` damgayı ve notu değiştirir. `coldCaseTitleKey/coldCaseStatusKey`: onaylanmış vakanın arkasından arşiv çekmecesine salt kart.
+- Bölüm seçici her ülkede 8 yuva gösterir (doğrulayıcı eşit sayı ister).
+- Zaman çizelgesi `sortMinute` 0–1439 aralığında; çok günlü vakalarda yalnız sıra taşır, gerçek tarih etikettedir.
