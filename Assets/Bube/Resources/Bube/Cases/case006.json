@@ -140,7 +140,17 @@
      "textKey": "case006.cctv.event.defne_out",
      "delayMs": 620,
      "id": "defne_out",
-     "overlayTimeKey": "case006.time.defne_out"
+     "overlayTimeKey": "case006.time.defne_out",
+     "framePaths": [
+      "Bube/Cctv/case006_defne_out/01",
+      "Bube/Cctv/case006_defne_out/02",
+      "Bube/Cctv/case006_defne_out/03"
+     ],
+     "frameTimes": [
+      "20.16.00",
+      "20.16.04",
+      "20.16.08"
+     ]
     },
     {
      "textKey": "case006.cctv.event.man_door",
