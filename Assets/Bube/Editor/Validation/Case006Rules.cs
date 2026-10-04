@@ -47,7 +47,7 @@ public static class Case006Rules {
   report.Require(fax != null && fax.correct && fax.suspectSupported && fax.methodSupported && fax.custodySupported,
    "Doğru rapor faksta desteklenmedi.");
 
-  // "Ece her şeyi sahneledi" kolay açıklaması: kayboluş doğru, mesaj Defne'ye yüklenmiş.
+  // "Defne her şeyi sahneledi" kolay açıklaması: kayboluş doğru, mesaj Defne'ye yüklenmiş.
   var staged = From(context);
   report.Require(Submit(staged, first.id, "defne_msg", organizer.id) && staged.Career.pendingReviews[0].evaluationType != "supported",
    "'Mesajı Defne attı' doğru sayılıyor.");
