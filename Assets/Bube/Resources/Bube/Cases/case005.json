@@ -575,7 +575,17 @@
      "textKey": "case005.cctv.event.ece_walk",
      "delayMs": 620,
      "id": "ece_walk",
-     "overlayTimeKey": "case005.time.ece_walk"
+     "overlayTimeKey": "case005.time.ece_walk",
+     "framePaths": [
+      "Bube/Cctv/case005_ece_walk/01",
+      "Bube/Cctv/case005_ece_walk/02",
+      "Bube/Cctv/case005_ece_walk/03"
+     ],
+     "frameTimes": [
+      "23.16.00",
+      "23.16.04",
+      "23.16.08"
+     ]
     },
     {
      "textKey": "case005.cctv.event.meet",
