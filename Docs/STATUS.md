@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-**5 Ekim:** CCTV kareleri yalnız soruşturmanın seyrini değiştiren olaylara konuyor; geri kalanı metin. #005 tamam; #006 beş, #007 üç, #008 bir olayın kareleri girdi. Görüntüye gömülü kamera yazısı yasak (dil değişince kalıyor). Kalan dört olay (#008 drop/garden, #009 arda_in/empty) rafa kaldırıldı. Sıradaki iş: Gemini ile yapılmamış portrelerin ChatGPT ile yenilenmesi. Unity'de görülmedi.
+**5 Ekim:** CCTV kareleri yalnız soruşturmanın seyrini değiştiren olaylara konuyor; geri kalanı metin. #005 tamam; #006 beş, #007 üç, #008 bir olayın kareleri girdi. Görüntüye gömülü kamera yazısı yasak (dil değişince kalıyor). Kalan dört olay (#008 drop/garden, #009 arda_in/empty) rafa kaldırıldı. #001–#003'ün on portresi Gemini ile yeni tarzda yeniden çizildi; tüm vakalar artık tek portre tarzında. Testler yeşil (126/126 EditMode, 25 PlayMode + 1 atlandı). Unity'de görülmedi.
 
 **4 Ekim (gece, 7):** #009–#010 portreleri, kapakları ve #010'un on CCTV olayı girdi. **#005–#009'un CCTV kareleri (40 olay) henüz yok.** Kare sayısı artık olaya göre — çoğu olay 3 kare yetiyor. Testler yeşil; Unity'de görülmedi.
 
