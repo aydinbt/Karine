@@ -132,7 +132,22 @@
      "textKey": "case004.cctv.event.tolga_in",
      "delayMs": 620,
      "id": "tolga_in",
-     "overlayTimeKey": "case004.time.tolga_in"
+     "overlayTimeKey": "case004.time.tolga_in",
+     "framePaths": [
+      "Bube/Cctv/case004_tolga_in/01",
+      "Bube/Cctv/case004_tolga_in/02",
+      "Bube/Cctv/case004_tolga_in/03",
+      "Bube/Cctv/case004_tolga_in/04",
+      "Bube/Cctv/case004_tolga_in/05"
+     ],
+     "frameTimes": [
+      "01.31.00",
+      "01.31.03",
+      "01.31.07",
+      "01.31.11",
+      "01.31.15"
+     ],
+     "frameMs": 500
     },
     {
      "textKey": "case004.cctv.event.cam2_lost",
