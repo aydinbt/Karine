@@ -107,7 +107,15 @@
      "textKey": "case007.cctv.event.light",
      "delayMs": 620,
      "id": "light",
-     "overlayTimeKey": "case007.time.light"
+     "overlayTimeKey": "case007.time.light",
+     "framePaths": [
+      "Bube/Cctv/case007_light/01",
+      "Bube/Cctv/case007_light/02"
+     ],
+     "frameTimes": [
+      "02.11.00",
+      "02.11.04"
+     ]
     },
     {
      "textKey": "case007.cctv.event.smoke",
