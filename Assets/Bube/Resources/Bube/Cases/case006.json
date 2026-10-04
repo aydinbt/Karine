@@ -319,7 +319,17 @@
      "textKey": "case006.cctv.event.defne_leave",
      "delayMs": 620,
      "id": "defne_leave",
-     "overlayTimeKey": "case006.time.defne_leave"
+     "overlayTimeKey": "case006.time.defne_leave",
+     "framePaths": [
+      "Bube/Cctv/case006_defne_leave/01",
+      "Bube/Cctv/case006_defne_leave/02",
+      "Bube/Cctv/case006_defne_leave/03"
+     ],
+     "frameTimes": [
+      "21.27.00",
+      "21.27.04",
+      "21.27.08"
+     ]
     },
     {
      "textKey": "case006.cctv.event.man_leave2",
