@@ -274,7 +274,7 @@ public sealed partial class BubeApp {
  // ekran oranı değişse de kişi koltukta, gövdesi masanın kenarında kalır.
  // Portrelerin altında birkaç piksellik saydam şerit olabiliyor; kişi biraz aşağı
  // iner ve masanın ön kenarı önüne çizilir, şerit masanın arkasında kalır.
- const float SeatX=.4975f, TableEdge=.726f, FigureWidth=.25f, Sink=.04f;
+ const float SeatX=.4975f, TableEdge=.734f, FigureWidth=.25f, Sink=.06f;
  void SeatInRoom(VisualElement parent,VisualElement holder,float aspect) {
   var room=Resources.Load<Texture2D>("Bube/InterviewRoom");
   if(room==null)return;
