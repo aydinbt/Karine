@@ -18,6 +18,7 @@ public static class ContentValidator {
  static readonly Dictionary<string, Action<CaseContext>> AfterWalkHooks = new Dictionary<string, Action<CaseContext>> {
   { "case001", Case001Rules.AfterWalk },
   { "case002", Case002Rules.AfterWalk },
+  { "case005", Case005Rules.AfterWalk },
  };
 
  public static ValidationReport Run() {

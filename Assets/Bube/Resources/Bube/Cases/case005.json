@@ -1075,11 +1075,11 @@
    "labelKey": "case005.method.murat_pressure",
    "correct": true,
    "supportingSourceIds": [
-    "murat_third",
     "invoice",
     "cloud",
     "bank",
-    "deposit"
+    "deposit",
+    "murat_third"
    ]
   },
   {

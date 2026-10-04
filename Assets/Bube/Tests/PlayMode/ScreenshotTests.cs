@@ -58,7 +58,11 @@ public sealed class ScreenshotTests {
 
  IEnumerator Check(string screen, string name) {
   typeof(BubeApp).GetMethod(screen, Any, null, Type.EmptyTypes, null).Invoke(app, null);
+  // Açılış geçişi kare sayısına değil süreye bağlı; yük altında 30 kare geçişin
+  // ortasına denk gelip ekranı karanlık yakalıyordu (4 Ekim 2026). Süre beklenir.
   for (int i = 0; i < 30; i++) yield return null;
+  float settle = Time.realtimeSinceStartup + 2f;
+  while (Time.realtimeSinceStartup < settle) yield return null;
   var before = RenderTexture.active; RenderTexture.active = target;
   var shot = new Texture2D(target.width, target.height, TextureFormat.RGBA32, false);
   shot.ReadPixels(new Rect(0, 0, target.width, target.height), 0, 0); shot.Apply();
