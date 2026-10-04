@@ -71,7 +71,7 @@ Tek giriş: `ContentValidator.Run()` → `ValidationReport`. Menü komutu `Bube/
 | `LocaleRules.cs` | Yinelenen anahtar (sorun), ölü anahtar (not). |
 | `CaseRules.cs` | Her vakaya uygulanan yapı kuralları: sarkan referans, eksik metin, görüşme bütünlüğü, CCTV bütünlüğü, zaman çizelgesi, sütun başına tam bir `correct`. |
 | `WalkRules.cs` | Vakayı otomatik oynar: her düğümü açar, açılan her soruyu sorar, belge taleplerini gelen kutusundan geçirir. Erişilemeyen içeriğin tek kontrolü budur. |
-| `Case001Rules.cs` / `Case002Rules.cs` | Yalnız o vakanın tasarımını sabitleyen iddialar. |
+| `Case001Rules.cs` / `Case002Rules.cs` / `Case005Rules.cs` | Yalnız o vakanın tasarımını sabitleyen iddialar (#005: 00.08 ve emanet kaydı soru sorulmadan açılmaz; "saldırı yok" otopark kaydına dayanır; Murat + yanlış nitelik doğru sayılmaz). |
 | `ContentValidator.cs` | Sırayı kurar; vakaya özel kancaları kimlik → yöntem sözlüğünden çağırır. |
 
 **Neden iki evreli kanca:** tempo ve kilit sırası kontrolleri gezintiden **önce** koşmak zorunda (gezinti her şeyi açar), rapor/arama/rota kontrolleri **sonra** (oynanmış `Investigation` ve kayıt anlık görüntüsü gerekir). Bu yüzden kanca sözlüğü iki tanedir: `EarlyHooks`, `AfterWalkHooks`.
