@@ -1049,7 +1049,17 @@
      "textKey": "case010.cctv.event.drink",
      "delayMs": 620,
      "id": "drink",
-     "overlayTimeKey": "case010.time.drink"
+     "overlayTimeKey": "case010.time.drink",
+     "framePaths": [
+      "Bube/Cctv/case010_drink/01",
+      "Bube/Cctv/case010_drink/02",
+      "Bube/Cctv/case010_drink/03"
+     ],
+     "frameTimes": [
+      "22.44.00",
+      "22.44.04",
+      "22.44.08"
+     ]
     },
     {
      "textKey": "case010.cctv.event.leave",
