@@ -54,3 +54,6 @@ sysinfo.txt
 *.keystore
 *.jks
 keystore.properties
+
+# Oyun içi ekran görüntüleri (Tools/capture-screens.sh) — yerel
+Docs/Screenshots/

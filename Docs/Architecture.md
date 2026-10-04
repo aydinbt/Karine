@@ -134,7 +134,7 @@ Toplam 51 test: 46 EditMode + 5 PlayMode.
 
 Kapsam dışı ve gözle doğrulanması gerekenler: video oynatma, çentik/güvenli alan görünümü, dokunma hedefi boyutları, Türkçe glifler, klavye davranışı, kare hızı ve okunabilirlik. Bunlar `Docs/PLAYTEST_001.md`'de.
 
-`Desk()` arka planı `Bube/DeskReference`'tır. Terminaldeki kurum adı görselden silinmiştir ve yerine bir şey yazılmaz; ekranda yalnız "CCTV ARŞİVİ" kutusu kalır, arma da silinmiştir. Künye şeridi tamamen opaktır — saydam bırakılırsa görsele gömülü kurum yazısı altından sızıyor.
+Masa arka planı `Bube/Art/OfficeDesk`'tir (`KarineUI.Office`). Eski `Bube/DeskReference.png` 4 Ekim 2026'da silindi; içerik doğrulayıcı (`ProjectRules`) masa görseli olarak `OfficeDesk`'i arar.
 
 ## Yazı ölçeği
 
@@ -189,7 +189,7 @@ Bırakılışın tersi: oyuncu son raporu gönderdiğinde `Result()` önce `Play
 
 Ayrı bir tam ekran teklif ekranı **yoktur** (`CaseOffer()` kaldırıldı). Kabul edilmemiş vaka, `InboxPage()` içinde `InboxEntry.offer` alanı dolu olan en üstteki okunmamış evrak olarak listelenir; sağ sütun `offer.subtitle` + `offer.summary` önizlemesini ve `offer.accept` düğmesini çizer, düğme `AcceptCase()` → `Save()` → `Desk()` yapar. `Desk()` kabul edilmeden yalnız tepsi ve ana ekran kısayolunu açar. Rozet açık teklifi de sayar ve `badge.schedule.Execute(...).Every(520)` ile yanıp söner — zamanlayıcı rozetin paneline bağlı olduğu için ekran değişince kendiliğinden durur. `FirstDeskArrival()` kendi masa görselini çizmez, `Desk()`'i arka plan alır.
 
-Bunun bir yan etkisi var: `Assets/Bube/Resources/Bube/DeskReference.png` artık yalnız `Desk()` içinden yükleniyor ve orası üst şeride opak bir başlık çizdiği için görselin içine gömülü kurum şeridi hiçbir ekranda görünmüyor. Terminaldeki yazı ve armalar hâlâ görselin içinde; ayrıntı `Docs/DESIGN_AMENDMENTS.md`.
+(Eski `DeskReference.png` ve içine gömülü kurum yazısı 4 Ekim 2026'da depodan silindi.)
 
 ## Rapor sütunları
 
@@ -503,3 +503,15 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 - `Progress.seenRequests`: listede görülen inceleme kimlikleri, `person:<düğüm>` (talep edilmemiş kişi) ve `desk:<düğüm>` (açılmış CCTV). `InterviewBadgeCount` / `InvestigationBadgeCount` bunlarla sayar.
 - `KarineUI.OfficePulse(action, on)`: `on` değilse eşyanın `OfficeHotspot` halkası kaldırılır. `KarineUI.OfficeCount(action, n)`: köşede yanıp sönen sayı. Koşullar `BubeApp.Desk` içinde.
 
+
+## Sorgu odası yerleşimi ve kapanış devinimi (4 Ekim 2026)
+
+`BubeApp.Interview.SeatInRoom` kişiyi ekran yüzdesine göre değil, **oda görselinin koordinatlarına** göre oturtur: koltuk ortası `SeatX=.4975`, masa kenarı `TableEdge=.726`, figür genişliği `.25`, batma `.04`. Arka plan ScaleAndCrop olduğundan ölçek = max(en oranı, boy oranı), kayma ortalanır; oran değişse de kişi koltukta kalır. Portrenin önüne `InterviewTableFront` çizilir: oda görselinin masa kenarından aşağısı, kamera nefesi dönüşümlerini kopyalar ve portre altındaki saydam boşluğu örter. `InterviewRoomFx` masanın önüne taşınır. Bardak ve kayıt cihazı yoktur.
+
+`KarineMotion.Leave(veil, paper, then)` kapanış eylemini sarar: karartma söner, kâğıt `PaperOffset` kadar iner, sonra `then` çalışır; çift dokunuşu yok sayar. Modal (`ModalFrame`), onay formu ve rehber kâğıdı bunu kullanır.
+
+## Ekran görüntüsü testleri ve galeri
+
+Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır. Bunun yerine testler her `UIDocument`'a kopyalanmış bir `PanelSettings` verip `targetTexture`'ını 2400×1080 bir RenderTexture yapar ve onu `ReadPixels` ile okur; teardown eski ayarları geri koyar. Bu yüzden `run-tests.sh` PlayMode'u `-nographics` olmadan koşar (EditMode hâlâ grafiksiz). Referanslar `Tools/Baselines/`.
+
+`Tools/capture-screens.sh [GxY]` aynı yolla `GalleryTests`'i koşar ve her vakanın sorgu ekranlarını `Docs/Screenshots/<tarih>/` altına yazar (klasör git dışı). `KARINE_GALLERY` tanımlı değilse test atlanır; `run-tests.sh` atlanan testi düşmüş saymaz. `KARINE_TEST_FILTER` ile tek test sınıfı koşulabilir.

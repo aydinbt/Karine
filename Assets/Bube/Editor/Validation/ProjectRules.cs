@@ -10,7 +10,7 @@ public static class ProjectRules {
  public static readonly string[] SceneOrder = { "BootScene", "MainMenuScene", "OfficeScene", "InterviewScene" };
 
  static readonly (string resource, string label)[] RequiredTextures = {
-  ("Bube/DeskReference", "masa arka planı"),
+  ("Bube/Art/OfficeDesk", "masa arka planı"),
   ("Bube/CctvTabletHands", "CCTV tablet görseli"),
   ("Bube/MainMenuNight", "ana menü arka planı"),
   ("Bube/InterviewRoom", "görüşme odası arka planı"),

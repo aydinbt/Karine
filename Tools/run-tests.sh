@@ -3,6 +3,7 @@
 #
 #   Tools/run-tests.sh                # ikisi de
 #   Tools/run-tests.sh EditMode       # yalnız biri
+#   KARINE_TEST_FILTER=Bube.Tests.X   # yalnız eşleşen testler
 #
 # İki incelik var, ikisi de bir oturum kaybettirdi:
 #  1) Unity batchmode kendi lisans istemcisini kuramıyor. Unity Hub ya da Editor
@@ -28,7 +29,8 @@ read -r -a PLATFORMS <<< "${PLATFORMS[*]}"
 # Yanlış kanal verilirse Unity 60 sn zaman aşımına düşer, lisanssız devam eder ve
 # paket çözümlemesi bozulduğu için SAHTE derleme hataları üretir — bu, bir oturum
 # boyunca "batchmode lisansı bozuk" sanılmasına yol açtı.
-channels="$(ps -Ao args= | tr ' ' '\n' | grep '^Unity-LicenseClient-' | sed 's/^Unity-//' | sort -u)"
+# Hub kapalıyken grep boş döner; `pipefail` betiği uyarı yazmadan kapatmasın.
+channels="$(ps -Ao args= | tr ' ' '\n' | grep '^Unity-LicenseClient-' | sed 's/^Unity-//' | sort -u || true)"
 CHANNEL="$(printf '%s\n' "$channels" | grep -v -- '-[0-9]' | grep -vx "LicenseClient-$(id -un)" | head -1 || true)"
 [ -z "$CHANNEL" ] && CHANNEL="$(printf '%s\n' "$channels" | head -1 || true)"
 if [ -z "$CHANNEL" ]; then
@@ -48,10 +50,10 @@ for platform in "${PLATFORMS[@]}"; do
   echo "== $platform =="
   results="$WORK/$platform.xml"; log="$WORK/$platform.log"
   rm -f "$results"
-  # PlayMode -nographics ile de koşuyor, ama grafik bağlamı gerektiren bir test
-  # eklenirse bayrağı kaldırmak gerekir.
-  "$UNITY" -batchmode -nographics -projectPath "$WORK/proj" \
-    -runTests -testPlatform "$platform" -testResults "$results" -logFile "$log" \
+  # PlayMode grafik bağlamıyla koşar: ekran görüntüsü testleri arayüzü bir dokuya çizer.
+  graphics=(-nographics); [ "$platform" = PlayMode ] && graphics=()
+  "$UNITY" -batchmode ${graphics[@]+"${graphics[@]}"} -projectPath "$WORK/proj" \
+    -runTests -testPlatform "$platform" ${KARINE_TEST_FILTER:+-testFilter "$KARINE_TEST_FILTER"} -testResults "$results" -logFile "$log" \
     -acceptSoftwareTermsForThisRunOnly -licensingIpc "$CHANNEL" >/dev/null 2>&1 || true
   if [ ! -f "$results" ]; then
     echo "  sonuç dosyası yazılmadı — derleme hatası olabilir:"
@@ -61,8 +63,8 @@ for platform in "${PLATFORMS[@]}"; do
   python3 - "$results" <<'PY' || STATUS=1
 import sys, xml.etree.ElementTree as ET
 root = ET.parse(sys.argv[1]).getroot()
-print("  toplam=%s geçti=%s düştü=%s" % (root.get('total'), root.get('passed'), root.get('failed')))
-failed = [tc for tc in root.iter('test-case') if tc.get('result') != 'Passed']
+print("  toplam=%s geçti=%s düştü=%s atlandı=%s" % (root.get('total'), root.get('passed'), root.get('failed'), root.get('skipped')))
+failed = [tc for tc in root.iter('test-case') if tc.get('result') not in ('Passed', 'Skipped')]
 for tc in failed:
     message = tc.find('.//message')
     print("  DÜŞTÜ", tc.get('name'), (message.text or '').strip()[:300] if message is not None else '')

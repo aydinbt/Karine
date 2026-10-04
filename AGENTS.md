@@ -34,9 +34,9 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 **Faz 2 başladı.** Beş performans düzeltmesi girildi (görev önbelleği, güvenli alan ve rozet yazımları, yüklem temsilcileri, sözlükle indeksli `Locale`) — hepsi `[~]`. Oynanış betiği: `Docs/PLAYTEST_001.md`. Vaka teklifi tam ekran olmaktan çıkıp masadaki gelen evrak tepsisine taşındı (yanıp sönen rozet, önizleme, kabul) ve akış başsız Play Mode testiyle **gözlendi**.
 
-**Açık içerik ihlali:** `DeskReference.png` görselinin içinde gerçek kurum adı ve polis armasına benzer rozet gömülüdür. Üst şerit artık her ekranda örtülüyor ama terminaldeki yazı ve armalar duruyor; **görselin yenilenmesi gerekiyor.** Metin denetimi görsellerin içini göremez.
+**İçerik ihlali kapandı (4 Ekim 2026):** gerçek kurum adı gömülü `DeskReference.png` silindi; masa `Bube/Art/OfficeDesk`. Metin denetimi görsellerin içini göremez — yeni görsellerde gözle bakılmalı.
 
-**Sıradaki darboğaz:** Masaya varış sinematiği, vaka teklifi ve masa yerleşimi 25 Eylül 2026'da Play Mode'da gözlendi. Ama Dosya #001 hâlâ **baştan sona** oynanmadı — soruşturma, sorgu, kanıt eşleme ve gerekçeli sonuç gönderme adımları kanıtlanmadı; **bu adım kullanıcıya ait**. M1 ve M2'nin bitiş ölçütleri buna bağlıdır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
+**Sıradaki darboğaz:** Masaya varış sinematiği, vaka teklifi ve masa yerleşimi 25 Eylül 2026'da Play Mode'da gözlendi. 4 Ekim 2026'da kullanıcı Dosya #001–#003'ü ve yeni arayüzü Unity'de baştan sona oynadı. Açık kalanlar cihaz testi, reklam hesapları ve yeni vakalardır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
 
 ## Testleri koşmak
 
