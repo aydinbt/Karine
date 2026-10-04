@@ -236,7 +236,17 @@
      "textKey": "case008.cctv.event.glass",
      "delayMs": 620,
      "id": "glass",
-     "overlayTimeKey": "case008.time.glass"
+     "overlayTimeKey": "case008.time.glass",
+     "framePaths": [
+      "Bube/Cctv/case008_glass/01",
+      "Bube/Cctv/case008_glass/02",
+      "Bube/Cctv/case008_glass/03"
+     ],
+     "frameTimes": [
+      "02.13.00",
+      "02.13.04",
+      "02.13.08"
+     ]
     },
     {
      "textKey": "case008.cctv.event.leave",
