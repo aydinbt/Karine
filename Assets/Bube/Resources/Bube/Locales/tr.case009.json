@@ -1,0 +1,1044 @@
+{
+ "entries": [
+  {
+   "key": "case009.a_bank.body",
+   "value": "· Kredi kartı borcu ~186.000 TL; son üç ayda iki gecikme.\n· 12–14 Aralık arasında nakit girişi yok, olağan dışı hareket yok.\n· Son altı ayda yapılandırma başvurusu var; reddedilmemiş, sürüyor."
+  },
+  {
+   "key": "case009.a_bank.title",
+   "value": "BANKA KAYITLARI — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.a_locker.body",
+   "value": "Personel dolabı. Yedek üniforma, iki kitap, şarj aleti, kızının çizdiği bir resim. Paket, ambalaj, bant artığı yok."
+  },
+  {
+   "key": "case009.a_locker.title",
+   "value": "DOLAP ARAMASI — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.a_vehicle.body",
+   "value": "Bagajda sentetik madde izi tespit edildi (eser miktar).\n\nAracın 11 Aralık gecesi delil taşıma kaydında “operasyon delili nakli — Kuzey Depo → BDS emanet” olarak geçtiği görülmüştür. İz, nakille uyumludur."
+  },
+  {
+   "key": "case009.a_vehicle.title",
+   "value": "ARAÇ İNCELEMESİ — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.alriza.body",
+   "value": "Laboratuvar sorumlusunun açıklaması."
+  },
+  {
+   "key": "case009.alriza.deflect",
+   "value": "Laboratuvar dışını bilmem. Bana gelen numuneyi bilirim."
+  },
+  {
+   "key": "case009.alriza.match.answer",
+   "value": "Partiyi aynı mutfaktan çıkmış gibi söylerim. Kesme maddesi bile aynı. Beş yıl rafta durmuş bir madde; nemi az, ambalajı yeni."
+  },
+  {
+   "key": "case009.alriza.match.question",
+   "value": "Karşılaştırma ne kadar kesin?"
+  },
+  {
+   "key": "case009.alriza.quote",
+   "value": "“Madde konuşmaz ama yalan da söylemez.”"
+  },
+  {
+   "key": "case009.alriza.title",
+   "value": "Ali Rıza Toprak — görüşme"
+  },
+  {
+   "key": "case009.arda.body",
+   "value": "Hakkında zimmet şüphesi bulunan memurun ifadesi."
+  },
+  {
+   "key": "case009.arda.count.answer",
+   "value": "Dört. Araçtan kucağımda taşıdım, biri büyüktü, en alttaydı. Formu ben doldurdum, dört yazdım. Neden üç olsun?"
+  },
+  {
+   "key": "case009.arda.count.question",
+   "value": "Kaç paket bıraktığınızdan emin misiniz?"
+  },
+  {
+   "key": "case009.arda.deflect",
+   "value": "Bilmiyorum. Ben paketleri bıraktım, gerisini bilmiyorum."
+  },
+  {
+   "key": "case009.arda.night.answer",
+   "value": "Tezgâhta kimse yoktu. Nesrin Hanım içeride, arka kasadaydı, sesi geliyordu. ‘Bırak, formu doldur’ dedi. Dört paketi tezgâha koydum, formu doldurdum, çıktım. Saat bir buçuk olmamıştı."
+  },
+  {
+   "key": "case009.arda.night.answer.demeanor",
+   "value": "Ellerini masada birleştirdi."
+  },
+  {
+   "key": "case009.arda.night.question",
+   "value": "Paketleri teslim ettiğinizde ne oldu?"
+  },
+  {
+   "key": "case009.arda.quote",
+   "value": "“Dört paket bıraktım. Dört.”"
+  },
+  {
+   "key": "case009.arda.title",
+   "value": "Arda Yılmaz — görüşme"
+  },
+  {
+   "key": "case009.arda.who.answer",
+   "value": "Ceren listeyi okudu, Hakan Amir paketleri tek tek bana uzattı. Son paketi en son o verdi; ‘bunu da al’ dedi."
+  },
+  {
+   "key": "case009.arda.who.answer.demeanor",
+   "value": "‘Son paketi’ derken bir an durdu."
+  },
+  {
+   "key": "case009.arda.who.question",
+   "value": "Paketleri araca kim verdi?"
+  },
+  {
+   "key": "case009.b_inventory.body",
+   "value": "12 Aralık öğleden sonra yapılan sayım: E-14, E-15, E-16 rafta, kayıtla uyumlu. E-17 büroda yok. Başka eksik ya da fazla yok."
+  },
+  {
+   "key": "case009.b_inventory.title",
+   "value": "EMANET FİZİKİ SAYIM"
+  },
+  {
+   "key": "case009.b_keycard.body",
+   "value": "12.12.2028\n· 01.21 — Emanet iç kapısı (amirlik koridoru tarafı) — Kart: HAKAN ÖZER\n· 01.27 — Emanet iç kapısı — Kart: HAKAN ÖZER (çıkış)\n· 02.06 — Personel çıkışı — Kart: NESRİN EKER\n· 03.38 — Amirlik koridoru — Kart: CEREN BAŞAR\n· 03.51 — Personel çıkışı — Kart: CEREN BAŞAR"
+  },
+  {
+   "key": "case009.b_keycard.title",
+   "value": "KARTLI GEÇİŞ KAYDI — EMANET VE AMİRLİK"
+  },
+  {
+   "key": "case009.b_syslog.body",
+   "value": "12.12.2028\n· 01.31 — N. EKER — tezgâh terminali — 3 giriş (E-14, E-15, E-16)\n· 03.42 — N. EKER — AMİRLİK ODASI TERMİNALİ (TRM-07) — “ön kayıt silindi: E-17 / ağırlık 420 g / kaynak: operasyon tutanağı”\n\nNot: E-17 için sistemde tutanaktan aktarılmış bir ön kayıt varmış; 03.42’de silinmiş. Nesrin Eker’in nöbeti 02.00’de bitmiş, kartıyla 02.06’da binadan çıkmıştır."
+  },
+  {
+   "key": "case009.b_syslog.title",
+   "value": "EMANET SİSTEMİ — ERİŞİM GÜNLÜĞÜ"
+  },
+  {
+   "key": "case009.c_moves.body",
+   "value": "· Hakan Özer’in aracı 00.08’de depoya geliyor; bagaj 00.10’da açılıp kapanıyor (depo dış kamerası, uzak görüntü).\n· Volkan, Ceren ve iki memur ekip aracıyla geliyor.\n· Arda Yılmaz delil aracıyla 00.58’de ayrılıyor.\n· Hakan Özer’in aracı 01.12’de BDS otoparkına giriyor, 01.40’ta çıkıyor."
+  },
+  {
+   "key": "case009.c_moves.title",
+   "value": "EKİP HAREKETLERİ — ARAÇ VE KONUM"
+  },
+  {
+   "key": "case009.c_photos.body",
+   "value": "· 00.24 — arka raf, bantlı paket; numara kartı “E-16”, sonradan “E-17” olarak yeniden etiketlenmiş.\n· 00.42 — kuzey rafın arkası; büyük, farklı bantlı paket. Bant beyaz, depodaki diğer paketlerin bandı kahverengi. Ambalajın köşesinde silinmiş bir barkod izi.\n\nBulunan son paket, diğer üçünden ambalaj olarak ayrışıyor."
+  },
+  {
+   "key": "case009.c_photos.title",
+   "value": "DELİL FOTOĞRAFLARI — KUZEY DEPO"
+  },
+  {
+   "key": "case009.c_radio.body",
+   "value": "· 00.22 — Volkan: “Arka raf, üç paket.”\n· 00.31 — Volkan: “Kuzey raf temiz.”\n· 00.36 — Hakan Özer: “Tekrar kontrol edin.”\n· 00.41 — Hakan Özer: “Bir paket daha var. Kuzey rafın arkası.”\n· 00.43 — Ceren: “E-17 diye yazıyorum.”"
+  },
+  {
+   "key": "case009.c_radio.title",
+   "value": "TELSİZ KAYDI — 11/12 ARALIK"
+  },
+  {
+   "key": "case009.c_rawlist.body",
+   "value": "Saha listesi, el yazısı:\n1. E-14 — arka raf — 00.23\n2. E-15 — arka raf — 00.23\n3. E-16 — arka raf — 00.24\n4. E-17 — kuzey raf — 00.42\n\nFotoğraf dosyalarının çekim saati ile numaralar karşılaştırıldığında: “E-16” etiketli fotoğraf 00.42’de, “E-17” etiketli fotoğraf 00.24’te çekilmiş. Etiket alanında elle düzeltme izi var: “16” üstüne “17”."
+  },
+  {
+   "key": "case009.c_rawlist.title",
+   "value": "HAM DELİL LİSTESİ — CEREN BAŞAR"
+  },
+  {
+   "key": "case009.cctv.event.arda_in",
+   "value": "Kamera 03 (emanet koridoru): Arda Yılmaz elinde koli bandıyla sarılmış dört paketle emanet bürosunun dış kapısından giriyor. Paketler kucağında üst üste."
+  },
+  {
+   "key": "case009.cctv.event.arda_out",
+   "value": "Kamera 03: Arda Yılmaz eli boş çıkıyor; koridorda telefonuna bakarak asansöre yürüyor."
+  },
+  {
+   "key": "case009.cctv.event.empty",
+   "value": "Kamera 03: Koridor boş. Dış kapıdan giren ya da çıkan yok."
+  },
+  {
+   "key": "case009.cctv.event.nesrin",
+   "value": "Kamera 03: Nesrin Eker dış kapıyı açıp koridora bakıyor, sonra içeri dönüyor."
+  },
+  {
+   "key": "case009.cctv.overlay",
+   "value": "KAM 03"
+  },
+  {
+   "key": "case009.cctv.period",
+   "value": "12 Aralık 2028, 01.00 – 02.00"
+  },
+  {
+   "key": "case009.cctv.source",
+   "value": "Emanet koridoru kamerası"
+  },
+  {
+   "key": "case009.ceren.after.answer",
+   "value": "Eve gittim. Ertesi sabah geldim."
+  },
+  {
+   "key": "case009.ceren.after.question",
+   "value": "Operasyondan sonra ne yaptınız?"
+  },
+  {
+   "key": "case009.ceren.body",
+   "value": "Operasyon kayıt memurunun ifadesi."
+  },
+  {
+   "key": "case009.ceren.deflect",
+   "value": "Bunu amirime sormanız gerekir."
+  },
+  {
+   "key": "case009.ceren.list.answer",
+   "value": "Her paket bulunduğunda fotoğraf, numara, ağırlık tahmini. Sonra listeyi tutanağa geçirdim. Amir imzaladı."
+  },
+  {
+   "key": "case009.ceren.list.question",
+   "value": "Delil listesini nasıl tuttunuz?"
+  },
+  {
+   "key": "case009.ceren.quote",
+   "value": "“Ben yazdım, amir imzaladı.”"
+  },
+  {
+   "key": "case009.ceren.title",
+   "value": "Ceren Başar — görüşme"
+  },
+  {
+   "key": "case009.ceren_2.body",
+   "value": "Kartlı geçiş kaydından sonra yapılan görüşme."
+  },
+  {
+   "key": "case009.ceren_2.card.answer",
+   "value": "…Amir aradı. ‘Sistemde tutanaktan aktarılmış hatalı bir ön kayıt var, numaralandırma kaymış, düzeltelim’ dedi. Odasında, onun terminalinde. Nesrin Hanım’ın kullanıcısı açıktı, amir şifreyi biliyordu. Ben sildim. Etiketi de ben düzelttim; o söyledi, ‘16 ile 17 karışmış’."
+  },
+  {
+   "key": "case009.ceren_2.card.answer.demeanor",
+   "value": "Gözlerini masadan kaldırmadı."
+  },
+  {
+   "key": "case009.ceren_2.card.question",
+   "value": "Kartınız 03.38’de amirlik koridorunda görünüyor."
+  },
+  {
+   "key": "case009.ceren_2.title",
+   "value": "Ceren Başar — ikinci görüşme"
+  },
+  {
+   "key": "case009.ceren_2.why.answer",
+   "value": "Amirdi. Bir yıllık kadroyum. ‘Arda zaten borçlu, düzgün kayıtla kurtulur’ dedi. Ben kurtaracağımızı sandım."
+  },
+  {
+   "key": "case009.ceren_2.why.question",
+   "value": "Neden yaptınız?"
+  },
+  {
+   "key": "case009.clue.again",
+   "value": "Hakan: “Tekrar kontrol edin”"
+  },
+  {
+   "key": "case009.clue.arda_in",
+   "value": "Arda dört paketle emanete giriyor"
+  },
+  {
+   "key": "case009.clue.arda_out",
+   "value": "Arda eli boş çıkıyor"
+  },
+  {
+   "key": "case009.clue.c_in",
+   "value": "Ceren’in kartı amirlik koridorunda"
+  },
+  {
+   "key": "case009.clue.clean",
+   "value": "“Kuzey raf temiz”"
+  },
+  {
+   "key": "case009.clue.corridor_arda_in",
+   "value": "Arda dört paketle emanete giriyor"
+  },
+  {
+   "key": "case009.clue.corridor_arda_out",
+   "value": "Arda eli boş çıkıyor"
+  },
+  {
+   "key": "case009.clue.corridor_empty",
+   "value": "Dış kapıdan giren yok"
+  },
+  {
+   "key": "case009.clue.corridor_nesrin",
+   "value": "Nesrin koridora bakıyor"
+  },
+  {
+   "key": "case009.clue.delete",
+   "value": "E-17 ön kaydı amirlik terminalinden siliniyor"
+  },
+  {
+   "key": "case009.clue.empty",
+   "value": "Dış kapıdan giren yok"
+  },
+  {
+   "key": "case009.clue.form",
+   "value": "Arda formu “Adet: 4” diye dolduruyor"
+  },
+  {
+   "key": "case009.clue.found",
+   "value": "Hakan: “Bir paket daha var”"
+  },
+  {
+   "key": "case009.clue.h_car",
+   "value": "Hakan’ın aracının bagajı açılıyor"
+  },
+  {
+   "key": "case009.clue.h_claim",
+   "value": "Hakan evde olduğunu söylüyor"
+  },
+  {
+   "key": "case009.clue.h_in",
+   "value": "Hakan’ın kartı emanet iç kapısında"
+  },
+  {
+   "key": "case009.clue.h_outdoor",
+   "value": "Hakan’ın kartı iç kapıdan çıkış"
+  },
+  {
+   "key": "case009.clue.h_park",
+   "value": "Hakan’ın aracı BDS otoparkına giriyor"
+  },
+  {
+   "key": "case009.clue.n_out",
+   "value": "Nesrin binadan çıkıyor"
+  },
+  {
+   "key": "case009.clue.nesrin",
+   "value": "Nesrin koridora bakıyor"
+  },
+  {
+   "key": "case009.clue.p16",
+   "value": "Arka rafta üçüncü paket fotoğraflanıyor"
+  },
+  {
+   "key": "case009.clue.scan",
+   "value": "Nesrin üç paketi tarıyor"
+  },
+  {
+   "key": "case009.clue.source.card",
+   "value": "Kartlı geçiş kaydı"
+  },
+  {
+   "key": "case009.clue.source.form",
+   "value": "Teslim formu"
+  },
+  {
+   "key": "case009.clue.source.moves",
+   "value": "Ekip hareketleri"
+  },
+  {
+   "key": "case009.clue.source.op",
+   "value": "Operasyon tutanağı"
+  },
+  {
+   "key": "case009.clue.source.radio",
+   "value": "Telsiz kaydı"
+  },
+  {
+   "key": "case009.clue.source.raw",
+   "value": "Ham delil listesi"
+  },
+  {
+   "key": "case009.clue.source.scan",
+   "value": "Emanet giriş kaydı"
+  },
+  {
+   "key": "case009.clue.source.sys",
+   "value": "Erişim günlüğü"
+  },
+  {
+   "key": "case009.corridor.body",
+   "value": "Emanet bürosunun dış kapısını gören koridor kamerasının 12 Aralık 01.00 – 02.00 arası dökümü. Büronun amirlik koridoruna açılan iç kapısı kadrajda değil; tezgâh da görünmüyor."
+  },
+  {
+   "key": "case009.corridor.title",
+   "value": "EMANET KORİDORU — kayıt dökümü"
+  },
+  {
+   "key": "case009.custody.arda_kept",
+   "value": "Arda zimmetine geçirdi"
+  },
+  {
+   "key": "case009.custody.label",
+   "value": "E-17 nasıl kayboldu?"
+  },
+  {
+   "key": "case009.custody.nesrin_took",
+   "value": "Nesrin aldı, kaydı sildi"
+  },
+  {
+   "key": "case009.custody.took_back",
+   "value": "Arda teslim etti; Nesrin’e ulaşmadan Hakan geri aldı"
+  },
+  {
+   "key": "case009.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case009.delivery_form.body",
+   "value": "Teslim eden: Arda Yılmaz. Teslim saati: 01.17.\n\nAdet: “4” — el yazısıyla, teslim eden tarafından doldurulmuş.\n\nTeslim alan: (boş). Emanet sorumlusu imzası: (boş).\n\nNot: form tezgâhta, teslim alan imzası olmadan bırakılmış."
+  },
+  {
+   "key": "case009.delivery_form.title",
+   "value": "EMANET TESLİM FORMU — 12.12.2028"
+  },
+  {
+   "key": "case009.emanet_scan.body",
+   "value": "12.12.2028 01.31 — Kullanıcı: N. EKER (emanet tezgâhı terminali)\n\n· E-14 — kaydedildi, 248 g\n· E-15 — kaydedildi, 251 g\n· E-16 — kaydedildi, 247 g\n\nToplam: 3 paket. Tutanaktaki E-17 için giriş yok."
+  },
+  {
+   "key": "case009.emanet_scan.title",
+   "value": "EMANET SİSTEMİ — GİRİŞ KAYDI"
+  },
+  {
+   "key": "case009.envelope.body",
+   "value": "Dosya #009 kapsamında bildirilen bulgular üzerine ilgili personel hakkında ayrı inceleme başlatılmıştır. Soruşturma materyallerine erişim kısıtlanmıştır."
+  },
+  {
+   "key": "case009.envelope.stamp",
+   "value": "İÇ DENETİM"
+  },
+  {
+   "key": "case009.envelope.title",
+   "value": "BDS İÇ DENETİM — GİZLİ"
+  },
+  {
+   "key": "case009.epilogue.custody.arda_kept",
+   "value": "Rapor E-17’yi Arda’nın aldığını yazdı. Koridor kaydı onu eli boş çıkarken, kart kaydı iç kapıda başka birini gösteriyordu; bölüm çürüdü."
+  },
+  {
+   "key": "case009.epilogue.custody.nesrin_took",
+   "value": "Rapor Nesrin Eker’i suçladı. Silme saatinde binada olmadığı kart kaydında duruyordu."
+  },
+  {
+   "key": "case009.epilogue.custody.took_back",
+   "value": "Rapor E-17’nin yolunu eksiksiz kurdu: 27-118’den kalan madde Hakan’ın bagajından rafa, tutanaktan Arda’nın kucağına, tezgâhtan iç kapıya ve oradan kayıttan silinmeye. Arda Yılmaz hakkındaki ön inceleme kapatıldı."
+  },
+  {
+   "key": "case009.epilogue.custody.unknown",
+   "value": "E-17’nin nasıl kaybolduğu belirsiz bırakıldı; Arda Yılmaz hakkındaki inceleme açık kaldı."
+  },
+  {
+   "key": "case009.epilogue.verdict.arda",
+   "value": "Arda Yılmaz’a yöneltilen suçlama dayanaksız kaldı; borcu tek gerekçe olarak geri çevrildi."
+  },
+  {
+   "key": "case009.epilogue.verdict.ceren",
+   "value": "Ceren Başar’a yüklenen operasyon suçlaması çürüdü."
+  },
+  {
+   "key": "case009.epilogue.verdict.hakan",
+   "value": "Komiser Hakan Özer görevden uzaklaştırıldı. 27-118 dosyasının imha ve saklama kayıtları yeniden incelemeye alındı."
+  },
+  {
+   "key": "case009.epilogue.verdict.legit",
+   "value": "Rapor E-17’yi meşru bir el koyma saydı. Laboratuvar profili ortaya çıkınca rapor geri döndü."
+  },
+  {
+   "key": "case009.epilogue.verdict.nesrin",
+   "value": "Nesrin Eker’e yöneltilen suçlama kart kaydıyla çürüdü."
+  },
+  {
+   "key": "case009.epilogue.verdict.undetermined",
+   "value": "E-17’nin nereden geldiği dosyada açık kaldı."
+  },
+  {
+   "key": "case009.evidence.bank",
+   "value": "Arda’nın banka kayıtları"
+  },
+  {
+   "key": "case009.evidence.card",
+   "value": "Kartlı geçiş kaydı"
+  },
+  {
+   "key": "case009.evidence.lab",
+   "value": "Laboratuvar karşılaştırması (27-118 ↔ E-17)"
+  },
+  {
+   "key": "case009.evidence.radio",
+   "value": "Telsiz kaydı"
+  },
+  {
+   "key": "case009.evidence.vehicle",
+   "value": "Arda’nın aracındaki madde izi"
+  },
+  {
+   "key": "case009.feedback.arda",
+   "value": "Arda paketleri yalnız taşıdı; son paketi ona Hakan uzattı."
+  },
+  {
+   "key": "case009.feedback.ceren",
+   "value": "Ceren kaydı düzeltti ama paketi depoya o koymadı; telsizde ve araç kaydında başka biri var."
+  },
+  {
+   "key": "case009.feedback.hakan",
+   "value": "Telsizde dördüncü paketi bulan Hakan; paket depo partisinden değil, sorumlusu olduğu 27-118’den. Kendisi bagajdan rafa koyduğunu anlattı."
+  },
+  {
+   "key": "case009.feedback.legit",
+   "value": "E-17 depodaki partiye ait değil; laboratuvar onu 2023 tarihli bir dosyaya bağlıyor."
+  },
+  {
+   "key": "case009.feedback.nesrin",
+   "value": "Nesrin silme saatinde binada değildi; hesabı onun dışında biri kullandı."
+  },
+  {
+   "key": "case009.feedback.undetermined",
+   "value": "E-17’nin kaynağı laboratuvar karşılaştırmasıyla belirlenebiliyordu."
+  },
+  {
+   "key": "case009.file.caseType",
+   "value": "İÇ SORUŞTURMA / EMANET"
+  },
+  {
+   "key": "case009.file.value.bureau",
+   "value": "BDS İç İşler Masası"
+  },
+  {
+   "key": "case009.file.value.location",
+   "value": "Fatih"
+  },
+  {
+   "key": "case009.file.value.number",
+   "value": "BDS-2028-0412"
+  },
+  {
+   "key": "case009.file.value.offence",
+   "value": "Emanet eksikliği — zimmet şüphesi"
+  },
+  {
+   "key": "case009.file.value.reporter",
+   "value": "BDS Emanet Bürosu"
+  },
+  {
+   "key": "case009.hakan.after.answer",
+   "value": "Hayır. Yarım birde evdeydim."
+  },
+  {
+   "key": "case009.hakan.after.question",
+   "value": "Operasyondan sonra binaya döndünüz mü?"
+  },
+  {
+   "key": "case009.hakan.arda.answer",
+   "value": "İyi çocuk. Ama borcu var, biliyoruz. Dört paket teslim etti diyor, emanet üç diyor. Ben size ancak yönü gösteririm."
+  },
+  {
+   "key": "case009.hakan.arda.answer.demeanor",
+   "value": "Kollarını kavuşturdu."
+  },
+  {
+   "key": "case009.hakan.arda.question",
+   "value": "Arda Yılmaz hakkında ne düşünüyorsunuz?"
+  },
+  {
+   "key": "case009.hakan.body",
+   "value": "Operasyon amirinin ilk ifadesi."
+  },
+  {
+   "key": "case009.hakan.deflect",
+   "value": "Bu konuyu ekip içinde konuşuruz."
+  },
+  {
+   "key": "case009.hakan.op.answer",
+   "value": "Temiz. Kuzey depoda dört paket. Ceren yazdı, Arda taşıdı. Ben tutanağı imzalayıp eve gittim."
+  },
+  {
+   "key": "case009.hakan.op.question",
+   "value": "Operasyon nasıl geçti?"
+  },
+  {
+   "key": "case009.hakan.quote",
+   "value": "“Çocuk dört dediyse dörttür, ama emanet üç diyor.”"
+  },
+  {
+   "key": "case009.hakan.title",
+   "value": "Komiser Hakan Özer — görüşme"
+  },
+  {
+   "key": "case009.hakan_2.after.answer",
+   "value": "Söyledim."
+  },
+  {
+   "key": "case009.hakan_2.after.answer.demeanor",
+   "value": "Başka bir şey eklemedi."
+  },
+  {
+   "key": "case009.hakan_2.after.question",
+   "value": "İlk görüşmede binaya dönmediğinizi söylediniz."
+  },
+  {
+   "key": "case009.hakan_2.back.answer",
+   "value": "Tutanağa girdi, operasyon kurtuldu. Ama emanette laboratuvara gidecekti. Profil 27-118’e çıkacaktı. Nesrin arkadaydı, iç kapıdan girdim, en alttaki büyük paketi aldım. Ön kaydı da sonra sildirdim. Arda’nın borcu vardı; kimse ikinci kez bakmazdı sandım."
+  },
+  {
+   "key": "case009.hakan_2.back.question",
+   "value": "Paket emanete girdikten sonra neden geri aldınız?"
+  },
+  {
+   "key": "case009.hakan_2.body",
+   "value": "Laboratuvar raporundan sonra yapılan görüşme."
+  },
+  {
+   "key": "case009.hakan_2.origin.answer",
+   "value": "…Depo boş çıkacaktı. Üç küçük paket, kiracı yok, gözaltı yok. Altı aylık takip boşa gidecekti. 27-118’den kalanı yıllardır saklıyordum, böyle bir gün için. Bagajdan rafın arkasına koydum. Operasyon dört paketle kapandı."
+  },
+  {
+   "key": "case009.hakan_2.origin.answer.demeanor",
+   "value": "Uzun süre pencereye baktı."
+  },
+  {
+   "key": "case009.hakan_2.origin.question",
+   "value": "Bu paketin nereden geldiğiyle ilgileniyorum."
+  },
+  {
+   "key": "case009.hakan_2.title",
+   "value": "Komiser Hakan Özer — son görüşme"
+  },
+  {
+   "key": "case009.lab.body",
+   "value": "Hazırlayan: Ali Rıza Toprak.\n\n· E-17’nin depoda alınan saha numunesi ile 27-118 dosyasının 2023 numunesi aynı kimyasal profili, aynı kesme maddesini ve aynı safsızlık oranını taşıyor. Aynı partiden oldukları kuvvetle muhtemel.\n· E-14, E-15, E-16 farklı bir profil taşıyor; depodaki partiyle uyumlu.\n· 27-118’in emanet sorumlusu Komiser Hakan Özer’dir.\n\nSonuç: E-17 Kuzey Depo partisine ait değil; 2023’te el konulan maddeyle aynı kaynaktan."
+  },
+  {
+   "key": "case009.lab.title",
+   "value": "KRİMİNAL LABORATUVAR — KARŞILAŞTIRMA RAPORU"
+  },
+  {
+   "key": "case009.line_a.body",
+   "value": "HAT AÇILDI.\n\nArda Yılmaz’ın mali durumu, dolabı ve aracı için kayıt talebi yetkisi verildi. Bu hat açıkken aşağıdaki kayıtlar istenebilir."
+  },
+  {
+   "key": "case009.line_a.title",
+   "value": "SORUŞTURMA HATTI A — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.line_b.body",
+   "value": "HAT AÇILDI.\n\nEmanet bürosunun sistem kayıtları, kartlı geçiş kayıtları ve fiziki sayımı için talep yetkisi verildi."
+  },
+  {
+   "key": "case009.line_b.title",
+   "value": "SORUŞTURMA HATTI B — EMANET BÜROSU"
+  },
+  {
+   "key": "case009.line_c.body",
+   "value": "HAT AÇILDI.\n\nOperasyonun telsiz kaydı, ham delil listesi, delil fotoğrafları ve ekip hareketleri için talep yetkisi verildi."
+  },
+  {
+   "key": "case009.line_c.title",
+   "value": "SORUŞTURMA HATTI C — OPERASYON"
+  },
+  {
+   "key": "case009.link_e17.body",
+   "value": "TALEP ONAYLANDI.\n\n2023 tarihli 27-118 el koyma dosyası ile bu dosyadaki E-17 paketi ilişkilendirilmiştir. 27-118’den saklanan numune ile E-17’ye ait operasyon numunesinin karşılaştırılması laboratuvara iletildi."
+  },
+  {
+   "key": "case009.link_e17.title",
+   "value": "DOSYA BAĞLANTISI — 27-118 ↔ E-17"
+  },
+  {
+   "key": "case009.method.arda",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.method.ceren",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.method.label",
+   "value": "Kayıt değişikliğine kim katıldı?"
+  },
+  {
+   "key": "case009.method.nesrin",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case009.nesrin.body",
+   "value": "Emanet bürosu sorumlusunun ifadesi."
+  },
+  {
+   "key": "case009.nesrin.deflect",
+   "value": "Kayıtta ne yazıyorsa o. Ben kayda bakarım."
+  },
+  {
+   "key": "case009.nesrin.gap.answer",
+   "value": "On dakika, belki biraz fazla. Kasayı kapatmadan çıkamam. Arada iç kapının kilidi tıkladı gibi geldi ama amirlikten biri olur, sık olur."
+  },
+  {
+   "key": "case009.nesrin.gap.answer.demeanor",
+   "value": "‘İç kapı’ derken sesini alçalttı."
+  },
+  {
+   "key": "case009.nesrin.gap.question",
+   "value": "Arda çıktıktan sonra tezgâha dönmeniz ne kadar sürdü?"
+  },
+  {
+   "key": "case009.nesrin.night.answer",
+   "value": "Arka kasada bir önceki haftanın sayımını yapıyordum. Arda geldi, seslendim, ‘bırak’ dedim. Çıktığımda tezgâhta üç paket ve doldurulmuş bir form vardı. Formda dört yazıyordu, ben de şaşırdım; üçünü taradım."
+  },
+  {
+   "key": "case009.nesrin.night.question",
+   "value": "O gece tezgâhta ne gördünüz?"
+  },
+  {
+   "key": "case009.nesrin.quote",
+   "value": "“Tezgâhta üç paket vardı.”"
+  },
+  {
+   "key": "case009.nesrin.report.answer",
+   "value": "Bildirdim. Sabah ilk iş. Gece Hakan Amir’i aradım, ‘sabah bakarız, Arda’ya sor’ dedi."
+  },
+  {
+   "key": "case009.nesrin.report.question",
+   "value": "Farkı neden hemen bildirmediniz?"
+  },
+  {
+   "key": "case009.nesrin.title",
+   "value": "Nesrin Eker — görüşme"
+  },
+  {
+   "key": "case009.nesrin_2.account.answer",
+   "value": "Ben 02.06’da çıktım, kartta görünür. Amirlik terminalinde benim hesabım açık kalırdı; Hakan Amir sayım onaylarını oradan yapardı, şifremi bilir. Yıllardır öyle."
+  },
+  {
+   "key": "case009.nesrin_2.account.answer.demeanor",
+   "value": "Sesi titremeden konuştu ama kalemi bıraktı."
+  },
+  {
+   "key": "case009.nesrin_2.account.question",
+   "value": "03.42’de sizin kullanıcınızla, amirlik terminalinden bir kayıt silinmiş."
+  },
+  {
+   "key": "case009.nesrin_2.body",
+   "value": "Erişim günlüğünden sonra yapılan görüşme."
+  },
+  {
+   "key": "case009.nesrin_2.title",
+   "value": "Nesrin Eker — ikinci görüşme"
+  },
+  {
+   "key": "case009.offer.subtitle",
+   "value": "EMANET  /  İÇ SORUŞTURMA"
+  },
+  {
+   "key": "case009.offer.summary",
+   "value": "Bir operasyonda el konulan dört paketten biri emanete hiç girmemiş. Teslim eden memur borçlu. Bu dosyada hangi hatları açacağına sen karar vereceksin; aynı anda yalnız ikisi açık kalabilir. Bildirim masanızda."
+  },
+  {
+   "key": "case009.offer.title",
+   "value": "DOSYA #009"
+  },
+  {
+   "key": "case009.office.body",
+   "value": "TALEP ONAYLANDI. Arama 13 Aralık 10.20’de yapılmıştır.\n\n· Odada uyuşturucu madde bulunmamıştır.\n· Kilitli dosya dolabında 2023 tarihli kapanmış bir el koyma dosyası: 27-118. Dosya sorumlusu: Hakan Özer.\n· 27-118 dosyasında: 500 g el konuldu; 80 g imha tutanağı; kalan 420 g için “numune saklama” notu var, ancak emanette 27-118 kodlu kayıt bulunmuyor.\n· Dolapta beyaz koli bandı rulosu."
+  },
+  {
+   "key": "case009.office.title",
+   "value": "ARAMA SONUÇ TUTANAĞI — AMİRLİK ODASI / H. ÖZER"
+  },
+  {
+   "key": "case009.op_report.body",
+   "value": "11 Aralık 2028, 23.40 – 00.55. Fatih, Kuzey Depo.\n\nEkip: Komiser Hakan Özer (amir), Volkan Ateş, Arda Yılmaz, Ceren Başar (kayıt) ve iki memur.\n\nEl konulanlar:\n· E-14 — 1 paket, ~250 g\n· E-15 — 1 paket, ~250 g\n· E-16 — 1 paket, ~250 g\n· E-17 — 1 paket, ~420 g\n\nGözaltı yok; depo kiracısı bulunamadı. Paketler Arda Yılmaz’a teslim edilmiş, emanete götürülmüştür.\n\nİmza: Komiser Hakan Özer. Tutanağı yazan: Ceren Başar."
+  },
+  {
+   "key": "case009.op_report.title",
+   "value": "OPERASYON TUTANAĞI — FATİH DEPO"
+  },
+  {
+   "key": "case009.person.alriza.info",
+   "value": "52 yaşında, BDS kriminal laboratuvar sorumlusu. Madde karşılaştırmalarını yapar."
+  },
+  {
+   "key": "case009.person.alriza.name",
+   "value": "Ali Rıza Toprak"
+  },
+  {
+   "key": "case009.person.arda.info",
+   "value": "34 yaşında, BDS operasyon ekibinde komiser yardımcısı. Pazartesi gecesi el konulan paketleri emanete teslim eden kişi."
+  },
+  {
+   "key": "case009.person.arda.name",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.person.ceren.info",
+   "value": "31 yaşında, operasyon ekibinde kayıt ve tutanak memuru. Ham delil listesini o tuttu."
+  },
+  {
+   "key": "case009.person.ceren.name",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.person.hakan.info",
+   "value": "47 yaşında, operasyonu yöneten ekip amiri. Yirmi yıllık meslek geçmişi var."
+  },
+  {
+   "key": "case009.person.hakan.name",
+   "value": "Komiser Hakan Özer"
+  },
+  {
+   "key": "case009.person.nesrin.info",
+   "value": "43 yaşında, BDS emanet bürosu sorumlusu. Olay gecesi nöbetteydi."
+  },
+  {
+   "key": "case009.person.nesrin.name",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.person.volkan.info",
+   "value": "39 yaşında, operasyon ekibinde kıdemli memur. Kuzey depoyu arayan grubun başında."
+  },
+  {
+   "key": "case009.person.volkan.name",
+   "value": "Volkan Ateş"
+  },
+  {
+   "key": "case009.report.body",
+   "value": "12 Aralık 2028 sabahı BDS emanet bürosu, bir önceki gece Fatih’teki depo operasyonunda el konulan paketlerde sayım farkı bildirmiştir.\n\nOperasyon tutanağında dört paket uyuşturucu madde (E-14, E-15, E-16, E-17) geçmektedir. Emanet sistemine üç paket kaydedilmiştir. E-17 kayıptır.\n\nPaketleri emanete teslim eden: Komiser Yardımcısı Arda Yılmaz. Arda Yılmaz hakkında zimmet şüphesiyle ön inceleme başlatılmıştır.\n\nDosya, birim içi personel söz konusu olduğundan sana verilmiştir."
+  },
+  {
+   "key": "case009.report.title",
+   "value": "İHBAR KAYDI — EMANET FARKI"
+  },
+  {
+   "key": "case009.request.a_bank",
+   "value": "Arda Yılmaz’ın banka kayıtlarını iste"
+  },
+  {
+   "key": "case009.request.a_locker",
+   "value": "Arda Yılmaz’ın dolabının aranmasını iste"
+  },
+  {
+   "key": "case009.request.a_vehicle",
+   "value": "Arda Yılmaz’ın aracının incelenmesini iste"
+  },
+  {
+   "key": "case009.request.b_inventory",
+   "value": "Emanet bürosunun fiziki sayımını iste"
+  },
+  {
+   "key": "case009.request.b_keycard",
+   "value": "Emanet ve amirlik kartlı geçiş kayıtlarını iste"
+  },
+  {
+   "key": "case009.request.b_syslog",
+   "value": "Emanet sisteminin erişim günlüğünü iste"
+  },
+  {
+   "key": "case009.request.c_moves",
+   "value": "Ekip hareket kayıtlarını iste"
+  },
+  {
+   "key": "case009.request.c_photos",
+   "value": "Operasyonun delil fotoğraflarını iste"
+  },
+  {
+   "key": "case009.request.c_radio",
+   "value": "Operasyonun telsiz kaydını iste"
+  },
+  {
+   "key": "case009.request.c_rawlist",
+   "value": "Ham delil listesini iste"
+  },
+  {
+   "key": "case009.request.lab",
+   "value": "Numunelerin karşılaştırılmasını iste"
+  },
+  {
+   "key": "case009.request.line_a",
+   "value": "Arda Yılmaz hattını aç"
+  },
+  {
+   "key": "case009.request.line_b",
+   "value": "Emanet bürosu hattını aç"
+  },
+  {
+   "key": "case009.request.line_c",
+   "value": "Operasyon hattını aç"
+  },
+  {
+   "key": "case009.request.link_e17",
+   "value": "27-118 dosyasının E-17 ile ilişkilendirilmesini talep et"
+  },
+  {
+   "key": "case009.request.office",
+   "value": "Amirlik odasının aranmasını talep et"
+  },
+  {
+   "key": "case009.summary.evidence",
+   "value": "Teslim formu ve koridor kaydı Arda’nın dört paketle girip eli boş çıktığını, kart kaydı Hakan’ın 01.21’de iç kapıda olduğunu gösterdi. Telsiz ve ham liste dördüncü paketin sonradan ve farklı bantla bulunduğunu; erişim günlüğü ve Ceren’in kartı kayıt silmeyi ortaya koydu. Amirlik araması 27-118’i, laboratuvar da E-17’nin o maddeyle aynı partiden olduğunu bağladı. Arda hattı ise borç dışında hiçbir şey vermedi."
+  },
+  {
+   "key": "case009.summary.lesson",
+   "value": "Her hattı açamazsın; hangi kaydın neyi açacağını tartmak soruşturmanın kendisidir. Borçlu olan şüphelinin kendisi değil, şüphenin kolay gideceği yer olabilir."
+  },
+  {
+   "key": "case009.summary.location",
+   "value": "Fatih — Kuzey Depo ve BDS emanet bürosu, 11–12 Aralık 2028"
+  },
+  {
+   "key": "case009.summary.truth",
+   "value": "Altı aylık takibin ardından Kuzey Depo boş çıkacaktı. Komiser Hakan Özer, 2023’teki 27-118 el koymasından kayıtsız sakladığı 420 gramı bagajında getirip rafın arkasına koydu; telsizde ‘tekrar kontrol edin’ deyip paketi kendisi ‘buldu’. Arda dört paketi tezgâha bırakıp çıktı. Laboratuvarın profili 27-118’e bağlayacağını bilen Hakan, Nesrin arka kasadayken iç kapıdan girip büyük paketi geri aldı. Gece 03.42’de Ceren, Hakan’ın isteğiyle amirlik terminalinde Nesrin’in açık hesabından E-17 ön kaydını sildi ve fotoğraf etiketini düzeltti. Borçlu Arda’nın şüpheli olması bekleniyordu."
+  },
+  {
+   "key": "case009.suspect.label",
+   "value": "E-17’yi operasyona kim soktu?"
+  },
+  {
+   "key": "case009.tablet.caseLine",
+   "value": "DOSYA #009  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "case009.time.again",
+   "value": "00.36"
+  },
+  {
+   "key": "case009.time.arda_in",
+   "value": "01.14"
+  },
+  {
+   "key": "case009.time.arda_out",
+   "value": "01.19"
+  },
+  {
+   "key": "case009.time.c_in",
+   "value": "03.38"
+  },
+  {
+   "key": "case009.time.clean",
+   "value": "00.31"
+  },
+  {
+   "key": "case009.time.delete",
+   "value": "03.42"
+  },
+  {
+   "key": "case009.time.empty",
+   "value": "01.20 – 01.30"
+  },
+  {
+   "key": "case009.time.form",
+   "value": "01.17"
+  },
+  {
+   "key": "case009.time.found",
+   "value": "00.41"
+  },
+  {
+   "key": "case009.time.h_car",
+   "value": "00.10"
+  },
+  {
+   "key": "case009.time.h_claim",
+   "value": "01.00 (beyan)"
+  },
+  {
+   "key": "case009.time.h_in",
+   "value": "01.21"
+  },
+  {
+   "key": "case009.time.h_outdoor",
+   "value": "01.27"
+  },
+  {
+   "key": "case009.time.h_park",
+   "value": "01.12"
+  },
+  {
+   "key": "case009.time.n_out",
+   "value": "02.06"
+  },
+  {
+   "key": "case009.time.nesrin",
+   "value": "01.33"
+  },
+  {
+   "key": "case009.time.p16",
+   "value": "00.24"
+  },
+  {
+   "key": "case009.time.scan",
+   "value": "01.31"
+  },
+  {
+   "key": "case009.title",
+   "value": "Dosya #009 — Emanet"
+  },
+  {
+   "key": "case009.verdict.arda",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.verdict.ceren",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.verdict.hakan",
+   "value": "Komiser Hakan Özer"
+  },
+  {
+   "key": "case009.verdict.legit",
+   "value": "Kimse — meşru el koyma"
+  },
+  {
+   "key": "case009.verdict.nesrin",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.verdict.undetermined",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case009.volkan.body",
+   "value": "Kuzey depoyu arayan grubun başındaki memurun ifadesi."
+  },
+  {
+   "key": "case009.volkan.deflect",
+   "value": "Ben aramadaydım, o kısmı amir bilir."
+  },
+  {
+   "key": "case009.volkan.fourth.answer",
+   "value": "Hakan Amir telsizden ‘tekrar kontrol edin’ dedi. Beş dakika sonra o kuzey rafın arkasında durmuş, ‘bir paket daha var’ diyordu. Ben o rafa bakmıştım. Ama karanlıktı, olabilir."
+  },
+  {
+   "key": "case009.volkan.fourth.answer.demeanor",
+   "value": "‘Ben o rafa bakmıştım’ derken sesi sertleşti."
+  },
+  {
+   "key": "case009.volkan.fourth.question",
+   "value": "Dördüncü paket nereden çıktı?"
+  },
+  {
+   "key": "case009.volkan.quote",
+   "value": "“Telsizde ne dediysem o.”"
+  },
+  {
+   "key": "case009.volkan.search.answer",
+   "value": "Rafları taradık. Üç paket arka rafta, bantlı. Kuzey rafı iki kere taradım; temizdi."
+  },
+  {
+   "key": "case009.volkan.search.question",
+   "value": "Kuzey depoda ne buldunuz?"
+  },
+  {
+   "key": "case009.volkan.title",
+   "value": "Volkan Ateş — görüşme"
+  }
+ ]
+}

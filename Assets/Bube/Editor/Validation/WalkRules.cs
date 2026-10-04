@@ -18,6 +18,10 @@ public static class WalkRules {
  public static void Walk(CaseData data, Investigation game, ValidationReport report) {
   for (int i = 0; i < data.nodes.Length; i++)
    foreach (var node in data.nodes.Where(game.Discovered)) {
+    // Soruşturma hattı: alt kayıtları bitince kapatılır, yer açılır; sonraki hat açılabilsin.
+    if (Investigation.IsLine(node) && game.LineActive(node.id) &&
+        data.nodes.Where(n => n.line == node.id).All(n => game.State.read.Contains(n.id)))
+     report.Require(game.CloseLine(node.id) && !game.LineActive(node.id), "Soruşturma hattı kapatılamadı: " + node.id);
     if (node.kind == "interview" && game.CanRequest(node)) game.RequestInterview(node.id, 0);
     if (game.CanRequestDocument(node))
      report.Require(game.RequestDocument(node.id, 0) && !game.Available(node) && game.HasIncomingDocument &&

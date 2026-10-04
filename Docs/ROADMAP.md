@@ -305,6 +305,16 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] Kapak, birleştirilmiş fotoğraf görseli ve CCTV kareleri (site otoparkı, apartman girişi).
 - [ ] "Yeniden açıldı" kartı, "AYRILDI" damgası ve Dosya #008 baştan sona Play Mode oynanışı (kullanıcı).
 
+### 4 Ekim 2026 — Dosya #009 "Emanet": soruşturma hattı, iç denetim zarfı, yetki
+
+- [~] Soruşturma hattı: `requestKind: "line"`, `CaseData.lineSlots` (2), `Node.line` alt kayıt kapısı; hat kapatma, gecikmeli yeniden açma (`lineReopenPenaltySeconds`). Motor `Investigation.Lines.cs`.
+- [~] İç denetim zarfı: `envelope*Key` → kapanış kartından sonra bir kez `FileReopened` ile "GİZLİ" zarf.
+- [~] Yetki genişletildi: `grantsAuthority` + doğru rapor → kariyer kartında yetki satırı.
+- [~] Tasarım: `Docs/CASE009_DESIGN.md`. Veri: `case009.json` (30 düğüm; 3 hat, 1 izin, 1 bağlantı), `tr.case009.json` (260 metin). `Case009Rules`; doğrulayıcı yürüyüşü biten hattı kapatır. 126/126 EditMode, 25/25 PlayMode.
+- [~] Zincir: #008 → #009; her ülkeye dokuzuncu yuva.
+- [ ] Portreler: Arda, Hakan, Nesrin, Volkan, Ceren, Ali Rıza. Kapak, koridor CCTV kareleri, delil fotoğrafları.
+- [ ] Hat yuvaları, zarf, yetki satırı ve Dosya #009 baştan sona Play Mode oynanışı (kullanıcı).
+
 ## Güncelleme kuralı
 
 Her geliştirme oturumunun sonunda:

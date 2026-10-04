@@ -55,6 +55,17 @@ public sealed partial class BubeApp {
    split && !string.IsNullOrEmpty(data.closedNoteKey)?T(data.closedNoteKey):null);
  }
 
+ // Gizli zarf (#009): onaylanan raporun ardından masaya mühürlü bir iç denetim zarfı düşer.
+ // Vaka başına bir kez; zarfı olmayan vakada doğrudan devam eder.
+ void EnvelopeCard(string caseId,Action then) {
+  var asset=Resources.Load<TextAsset>("Bube/Cases/"+caseId);
+  var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
+  string key="karine.envelope."+caseId;
+  if(data==null || string.IsNullOrEmpty(data.envelopeTitleKey) || PlayerPrefs.GetInt(key,0)==1){then();return;}
+  PlayerPrefs.SetInt(key,1);PlayerPrefs.Save();
+  KarineUI.FileReopened(root,T("envelope.confidential"),T(data.envelopeTitleKey),T(data.envelopeStampKey),T(data.envelopeBodyKey),then);
+ }
+
  // Kapanış sonrası (epilog, jenerik) vaka başına bir kez; sonra `again` kaldığı yerden sürer.
  bool ShowCaseClosed(Action again) {
   if(!game.State.closed)return false;

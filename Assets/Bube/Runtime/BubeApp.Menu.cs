@@ -254,6 +254,8 @@ public sealed partial class BubeApp {
   var status=TrustStatusKey(review.trustAfter);
   KarineUI.RecordTrust(card,T("career.trustState"),T(status),status=="career.status.ended"||status=="career.status.risk"||status=="career.status.review"||status=="career.status.monitored",
    review.reopened?T("retry.recordNote"):null);
+  // Yetki genişlemesi (#009): onaylanan raporu yetki veren vakada kalıcı satır.
+  if(data!=null && data.grantsAuthority && review.correct)KarineUI.RecordTrust(card,T("career.authority"),T("career.authorityExpanded"),false,null);
  }
  string TrustStatusKey(int value) {
   var t=careerRules.statusThresholds;

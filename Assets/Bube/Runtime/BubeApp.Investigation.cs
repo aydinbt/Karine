@@ -98,22 +98,26 @@ public sealed partial class BubeApp {
   game.State.seenRequests??=new List<string>();
   foreach(var d in documents)if(!game.State.seenRequests.Contains(d.id))game.State.seenRequests.Add(d.id);
   Save();
-  string Status(Node node)=>game.State.read.Contains(node.id)?"tablet.investigationFiled":game.IncomingDocument(node)?"tablet.investigationArrived":
+  string Status(Node node)=>Investigation.IsLine(node) && game.LineClosed(node.id)?"tablet.lineClosed":
+   Investigation.IsLine(node) && game.LineReopening(node.id)!=null?"tablet.investigationPending":
+   Investigation.IsLine(node) && game.LineActive(node.id)?"tablet.lineActive":
+   !string.IsNullOrEmpty(node.line) && !game.State.read.Contains(node.id) && !game.State.documentRequests.Any(r=>r.nodeId==node.id) && !game.LineActive(node.line)?"tablet.lineClosed":
+   game.State.read.Contains(node.id)?"tablet.investigationFiled":game.IncomingDocument(node)?"tablet.investigationArrived":
    game.State.documentRequests.Any(r=>r.nodeId==node.id)||game.WarrantDenialPending(node)?"tablet.investigationPending":
    game.WarrantDenied(node)?"tablet.warrantDenied":"tablet.investigationAvailable";
-  long ReadyTicks(Node node)=>game.State.documentRequests.FirstOrDefault(r=>r.nodeId==node.id)?.readyAtUtcTicks ?? game.Denial(node).readyAtUtcTicks;
-  RequestTone Tone(string key)=>key=="tablet.investigationFiled"?RequestTone.Done:key=="tablet.investigationArrived"||key=="tablet.warrantDenied"?RequestTone.Open:
+  long ReadyTicks(Node node)=>game.LineReopening(node.id)?.readyAtUtcTicks ?? game.State.documentRequests.FirstOrDefault(r=>r.nodeId==node.id)?.readyAtUtcTicks ?? game.Denial(node).readyAtUtcTicks;
+  RequestTone Tone(string key)=>key=="tablet.investigationFiled"||key=="tablet.lineClosed"?RequestTone.Done:key=="tablet.lineActive"?RequestTone.Open:key=="tablet.investigationArrived"||key=="tablet.warrantDenied"?RequestTone.Open:
    key=="tablet.investigationPending"?RequestTone.Waiting:RequestTone.Ready;
   foreach(var node in documents) {
    var target=node;var key=Status(node);
-   var row=KarineUI.RequestRow(list,null,Investigation.IsWarrant(node)?"lock":"document",T(node.titleKey),null,null,node==selected,
+   var row=KarineUI.RequestRow(list,null,Investigation.IsLine(node)?"search":Investigation.IsWarrant(node)?"lock":"document",T(node.titleKey),null,null,node==selected,
     key=="tablet.investigationArrived"||game.UnseenWarrantDenial(node),T(key),Tone(key),
     ()=>{selectedRequestDocument=target.id;InvestigationRequests(false);});
    if(key=="tablet.investigationPending")LiveWait(row.Q("RequestPill"),T(key),ReadyTicks(node));
   }
   var paper=KarineUI.RequestPaper(root);var status=Status(selected);
   bool warrant=Investigation.IsWarrant(selected);
-  KarineUI.RequestDocumentHead(paper,warrant?"lock":"document",warrant?WT(selected,"Heading"):T("requests.docHeading"),T(selected.titleKey));
+  KarineUI.RequestDocumentHead(paper,Investigation.IsLine(selected)?"search":warrant?"lock":"document",warrant?WT(selected,"Heading"):T("requests.docHeading"),T(selected.titleKey));
   KarineUI.RequestSection(paper,T("requests.description"),warrant?WT(selected,"Help"):T("tablet.investigationHelp"));
   KarineUI.RequestFact(paper,T("requests.status"),T(status));
   if(!warrant)KarineUI.RequestFact(paper,T("requests.result"),T("requests.resultText"));
@@ -123,6 +127,17 @@ public sealed partial class BubeApp {
    KarineUI.RequestSection(paper,WT(selected,"DeniedTitle"),WT(selected,"DeniedText"));
    var denial=game.Denial(selected);if(!denial.seen){denial.seen=true;Save();}
   }
+  bool line=Investigation.IsLine(selected);
+  if(line) KarineUI.RequestFact(paper,T("requests.lineSlots"),string.Format(T("requests.lineSlotsValue"),game.ActiveLines,game.LineSlots));
+  if(line && game.CanCloseLine(selected)) {
+   KarineUI.RequestSection(paper,T("requests.lineOpenTitle"),T("requests.lineOpenText"));
+   KarineUI.RequestAction(paper,"close",T("requests.lineClose"),true,()=>{if(game.CloseLine(selected.id)){Save();InvestigationRequests(false);}});
+  } else if(line && game.LineClosed(selected.id)) {
+   KarineUI.RequestSection(paper,T("requests.lineClosedTitle"),T("requests.lineClosedText"));
+   bool free=game.CanReopenLine(selected);
+   KarineUI.RequestAction(paper,"refresh",free?T("requests.lineReopen"):T("requests.lineFull"),free,()=>{if(game.ReopenLine(selected.id)){Save();InvestigationRequests(false);}});
+  } else if(line && !game.State.read.Contains(selected.id) && !game.State.documentRequests.Any(r=>r.nodeId==selected.id) && !game.LineSlotFree)
+   KarineUI.RequestSection(paper,T("requests.lineFullTitle"),T("requests.lineFullText"));
   if(warrant && game.CanRequestWarrant(selected)) WarrantForm(paper,selected);
   else if(game.CanRequestDocument(selected))KarineUI.RequestAction(paper,"document",T(selected.requestLabelKey),true,()=>{
    if(game.RequestDocument(selected.id)){Save();InvestigationRequests(false);}

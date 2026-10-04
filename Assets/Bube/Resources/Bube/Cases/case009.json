@@ -1,0 +1,1141 @@
+{
+ "id": "case009",
+ "deskHour": 21,
+ "deskDate": "12 Aralık 2028",
+ "titleKey": "case009.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case009.report.title",
+   "bodyKey": "case009.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case009.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case009.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case009.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case009.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case009.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "op_report",
+   "kind": "document",
+   "titleKey": "case009.op_report.title",
+   "bodyKey": "case009.op_report.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "delivery_form",
+   "kind": "document",
+   "titleKey": "case009.delivery_form.title",
+   "bodyKey": "case009.delivery_form.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "emanet_scan",
+   "kind": "document",
+   "titleKey": "case009.emanet_scan.title",
+   "bodyKey": "case009.emanet_scan.body",
+   "requires": [
+    "report"
+   ],
+   "aboutPersonIds": [
+    "nesrin"
+   ]
+  },
+  {
+   "id": "corridor",
+   "kind": "cctv",
+   "titleKey": "case009.corridor.title",
+   "bodyKey": "case009.corridor.body",
+   "requires": [
+    "report"
+   ],
+   "cctvSourceKey": "case009.cctv.source",
+   "cctvOverlayKey": "case009.cctv.overlay",
+   "cctvPeriodKey": "case009.cctv.period",
+   "cctvEvents": [
+    {
+     "textKey": "case009.cctv.event.arda_in",
+     "delayMs": 620,
+     "id": "arda_in",
+     "overlayTimeKey": "case009.time.arda_in",
+     "aboutPersonIds": [
+      "arda"
+     ]
+    },
+    {
+     "textKey": "case009.cctv.event.arda_out",
+     "delayMs": 620,
+     "id": "arda_out",
+     "overlayTimeKey": "case009.time.arda_out",
+     "aboutPersonIds": [
+      "arda"
+     ]
+    },
+    {
+     "textKey": "case009.cctv.event.empty",
+     "delayMs": 620,
+     "id": "empty",
+     "overlayTimeKey": "case009.time.empty"
+    },
+    {
+     "textKey": "case009.cctv.event.nesrin",
+     "delayMs": 620,
+     "id": "nesrin",
+     "overlayTimeKey": "case009.time.nesrin",
+     "aboutPersonIds": [
+      "nesrin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arda",
+   "kind": "interview",
+   "titleKey": "case009.arda.title",
+   "bodyKey": "case009.arda.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "arda",
+   "personNameKey": "case009.person.arda.name",
+   "personInfoKey": "case009.person.arda.info",
+   "questions": [
+    {
+     "id": "case009.arda.night",
+     "promptKey": "case009.arda.night.question",
+     "answerKey": "case009.arda.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case009.arda.count",
+     "promptKey": "case009.arda.count.question",
+     "answerKey": "case009.arda.count.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case009.arda.night"
+     ]
+    },
+    {
+     "id": "case009.arda.who",
+     "promptKey": "case009.arda.who.question",
+     "answerKey": "case009.arda.who.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case009.arda.count"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.arda.night",
+    "case009.arda.count"
+   ],
+   "deflectAnswerKey": "case009.arda.deflect",
+   "portrait": {
+    "hairHex": "#2A2420",
+    "skinHex": "#C09270",
+    "shirtHex": "#2E3A4A"
+   },
+   "personQuoteKey": "case009.arda.quote"
+  },
+  {
+   "id": "nesrin",
+   "kind": "interview",
+   "titleKey": "case009.nesrin.title",
+   "bodyKey": "case009.nesrin.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "nesrin",
+   "personNameKey": "case009.person.nesrin.name",
+   "personInfoKey": "case009.person.nesrin.info",
+   "questions": [
+    {
+     "id": "case009.nesrin.night",
+     "promptKey": "case009.nesrin.night.question",
+     "answerKey": "case009.nesrin.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case009.nesrin.gap",
+     "promptKey": "case009.nesrin.gap.question",
+     "answerKey": "case009.nesrin.gap.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case009.nesrin.night"
+     ]
+    },
+    {
+     "id": "case009.nesrin.report",
+     "promptKey": "case009.nesrin.report.question",
+     "answerKey": "case009.nesrin.report.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case009.nesrin.gap"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.nesrin.night",
+    "case009.nesrin.gap"
+   ],
+   "deflectAnswerKey": "case009.nesrin.deflect",
+   "portrait": {
+    "hairHex": "#4A3428",
+    "skinHex": "#C89E7E",
+    "shirtHex": "#5A6470",
+    "longHair": true
+   },
+   "personQuoteKey": "case009.nesrin.quote"
+  },
+  {
+   "id": "hakan",
+   "kind": "interview",
+   "titleKey": "case009.hakan.title",
+   "bodyKey": "case009.hakan.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "hakan",
+   "personNameKey": "case009.person.hakan.name",
+   "personInfoKey": "case009.person.hakan.info",
+   "questions": [
+    {
+     "id": "case009.hakan.op",
+     "promptKey": "case009.hakan.op.question",
+     "answerKey": "case009.hakan.op.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case009.hakan.arda",
+     "promptKey": "case009.hakan.arda.question",
+     "answerKey": "case009.hakan.arda.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case009.hakan.op"
+     ]
+    },
+    {
+     "id": "case009.hakan.after",
+     "promptKey": "case009.hakan.after.question",
+     "answerKey": "case009.hakan.after.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case009.hakan.op"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.hakan.op",
+    "case009.hakan.arda",
+    "case009.hakan.after"
+   ],
+   "deflectAnswerKey": "case009.hakan.deflect",
+   "portrait": {
+    "hairHex": "#5A544E",
+    "skinHex": "#B48660",
+    "shirtHex": "#3A3E44",
+    "moustache": true
+   },
+   "personQuoteKey": "case009.hakan.quote"
+  },
+  {
+   "id": "volkan",
+   "kind": "interview",
+   "titleKey": "case009.volkan.title",
+   "bodyKey": "case009.volkan.body",
+   "requires": [
+    "op_report"
+   ],
+   "personId": "volkan",
+   "personNameKey": "case009.person.volkan.name",
+   "personInfoKey": "case009.person.volkan.info",
+   "questions": [
+    {
+     "id": "case009.volkan.search",
+     "promptKey": "case009.volkan.search.question",
+     "answerKey": "case009.volkan.search.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case009.volkan.fourth",
+     "promptKey": "case009.volkan.fourth.question",
+     "answerKey": "case009.volkan.fourth.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case009.volkan.search"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.volkan.search",
+    "case009.volkan.fourth"
+   ],
+   "deflectAnswerKey": "case009.volkan.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#AE805C",
+    "shirtHex": "#4A4038"
+   },
+   "personQuoteKey": "case009.volkan.quote"
+  },
+  {
+   "id": "ceren",
+   "kind": "interview",
+   "titleKey": "case009.ceren.title",
+   "bodyKey": "case009.ceren.body",
+   "requires": [
+    "op_report"
+   ],
+   "personId": "ceren",
+   "personNameKey": "case009.person.ceren.name",
+   "personInfoKey": "case009.person.ceren.info",
+   "questions": [
+    {
+     "id": "case009.ceren.list",
+     "promptKey": "case009.ceren.list.question",
+     "answerKey": "case009.ceren.list.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case009.ceren.after",
+     "promptKey": "case009.ceren.after.question",
+     "answerKey": "case009.ceren.after.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case009.ceren.list"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.ceren.list",
+    "case009.ceren.after"
+   ],
+   "deflectAnswerKey": "case009.ceren.deflect",
+   "portrait": {
+    "hairHex": "#2E2420",
+    "skinHex": "#CCA484",
+    "shirtHex": "#2A2E34",
+    "longHair": true
+   },
+   "personQuoteKey": "case009.ceren.quote"
+  },
+  {
+   "id": "line_a",
+   "kind": "document",
+   "titleKey": "case009.line_a.title",
+   "bodyKey": "case009.line_a.body",
+   "requires": [
+    "arda"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.line_a",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "delivery_form",
+      "emanet_scan"
+     ]
+    },
+    {
+     "sources": [
+      "corridor",
+      "emanet_scan"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "a_bank",
+   "kind": "document",
+   "titleKey": "case009.a_bank.title",
+   "bodyKey": "case009.a_bank.body",
+   "requires": [
+    "line_a"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.a_bank",
+   "requestDelaySeconds": 6,
+   "line": "line_a"
+  },
+  {
+   "id": "a_locker",
+   "kind": "document",
+   "titleKey": "case009.a_locker.title",
+   "bodyKey": "case009.a_locker.body",
+   "requires": [
+    "line_a"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.a_locker",
+   "requestDelaySeconds": 6,
+   "line": "line_a"
+  },
+  {
+   "id": "a_vehicle",
+   "kind": "document",
+   "titleKey": "case009.a_vehicle.title",
+   "bodyKey": "case009.a_vehicle.body",
+   "requires": [
+    "line_a"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.a_vehicle",
+   "requestDelaySeconds": 6,
+   "line": "line_a"
+  },
+  {
+   "id": "line_b",
+   "kind": "document",
+   "titleKey": "case009.line_b.title",
+   "bodyKey": "case009.line_b.body",
+   "requires": [
+    "nesrin"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.line_b",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "emanet_scan",
+      "corridor"
+     ]
+    },
+    {
+     "sources": [
+      "delivery_form",
+      "corridor"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "b_syslog",
+   "kind": "document",
+   "titleKey": "case009.b_syslog.title",
+   "bodyKey": "case009.b_syslog.body",
+   "requires": [
+    "line_b"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.b_syslog",
+   "requestDelaySeconds": 6,
+   "line": "line_b"
+  },
+  {
+   "id": "b_keycard",
+   "kind": "document",
+   "titleKey": "case009.b_keycard.title",
+   "bodyKey": "case009.b_keycard.body",
+   "requires": [
+    "line_b"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.b_keycard",
+   "requestDelaySeconds": 6,
+   "line": "line_b"
+  },
+  {
+   "id": "b_inventory",
+   "kind": "document",
+   "titleKey": "case009.b_inventory.title",
+   "bodyKey": "case009.b_inventory.body",
+   "requires": [
+    "line_b"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.b_inventory",
+   "requestDelaySeconds": 6,
+   "line": "line_b"
+  },
+  {
+   "id": "line_c",
+   "kind": "document",
+   "titleKey": "case009.line_c.title",
+   "bodyKey": "case009.line_c.body",
+   "requires": [
+    "volkan"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.line_c",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "op_report",
+      "delivery_form"
+     ]
+    },
+    {
+     "sources": [
+      "op_report",
+      "emanet_scan"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "c_radio",
+   "kind": "document",
+   "titleKey": "case009.c_radio.title",
+   "bodyKey": "case009.c_radio.body",
+   "requires": [
+    "line_c"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.c_radio",
+   "requestDelaySeconds": 6,
+   "line": "line_c"
+  },
+  {
+   "id": "c_rawlist",
+   "kind": "document",
+   "titleKey": "case009.c_rawlist.title",
+   "bodyKey": "case009.c_rawlist.body",
+   "requires": [
+    "line_c"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.c_rawlist",
+   "requestDelaySeconds": 6,
+   "line": "line_c"
+  },
+  {
+   "id": "c_photos",
+   "kind": "document",
+   "titleKey": "case009.c_photos.title",
+   "bodyKey": "case009.c_photos.body",
+   "requires": [
+    "line_c"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.c_photos",
+   "requestDelaySeconds": 6,
+   "line": "line_c"
+  },
+  {
+   "id": "c_moves",
+   "kind": "document",
+   "titleKey": "case009.c_moves.title",
+   "bodyKey": "case009.c_moves.body",
+   "requires": [
+    "line_c"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.c_moves",
+   "requestDelaySeconds": 6,
+   "line": "line_c"
+  },
+  {
+   "id": "ceren_2",
+   "kind": "interview",
+   "titleKey": "case009.ceren_2.title",
+   "bodyKey": "case009.ceren_2.body",
+   "requires": [
+    "ceren",
+    "b_keycard"
+   ],
+   "personId": "ceren",
+   "personNameKey": "case009.person.ceren.name",
+   "personInfoKey": "case009.person.ceren.info",
+   "questions": [
+    {
+     "id": "case009.ceren_2.card",
+     "promptKey": "case009.ceren_2.card.question",
+     "answerKey": "case009.ceren_2.card.answer",
+     "topicKey": "interview.topic.day",
+     "presentedSourceIds": [
+      "b_keycard"
+     ]
+    },
+    {
+     "id": "case009.ceren_2.why",
+     "promptKey": "case009.ceren_2.why.question",
+     "answerKey": "case009.ceren_2.why.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case009.ceren_2.card"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.ceren_2.card",
+    "case009.ceren_2.why"
+   ],
+   "deflectAnswerKey": "case009.ceren.deflect",
+   "portrait": {
+    "hairHex": "#2E2420",
+    "skinHex": "#CCA484",
+    "shirtHex": "#2A2E34",
+    "longHair": true
+   }
+  },
+  {
+   "id": "nesrin_2",
+   "kind": "interview",
+   "titleKey": "case009.nesrin_2.title",
+   "bodyKey": "case009.nesrin_2.body",
+   "requires": [
+    "nesrin",
+    "b_syslog"
+   ],
+   "personId": "nesrin",
+   "personNameKey": "case009.person.nesrin.name",
+   "personInfoKey": "case009.person.nesrin.info",
+   "questions": [
+    {
+     "id": "case009.nesrin_2.account",
+     "promptKey": "case009.nesrin_2.account.question",
+     "answerKey": "case009.nesrin_2.account.answer",
+     "topicKey": "interview.topic.observations",
+     "presentedSourceIds": [
+      "b_syslog"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.nesrin_2.account"
+   ],
+   "deflectAnswerKey": "case009.nesrin.deflect",
+   "portrait": {
+    "hairHex": "#4A3428",
+    "skinHex": "#C89E7E",
+    "shirtHex": "#5A6470",
+    "longHair": true
+   }
+  },
+  {
+   "id": "office",
+   "kind": "document",
+   "titleKey": "case009.office.title",
+   "bodyKey": "case009.office.body",
+   "requires": [
+    "b_syslog"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.office",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "b_syslog",
+      "b_keycard"
+     ]
+    },
+    {
+     "sources": [
+      "b_syslog",
+      "c_radio"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  },
+  {
+   "id": "link_e17",
+   "kind": "document",
+   "titleKey": "case009.link_e17.title",
+   "bodyKey": "case009.link_e17.body",
+   "requires": [
+    "office"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.link_e17",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "office",
+      "c_photos"
+     ]
+    },
+    {
+     "sources": [
+      "office",
+      "c_rawlist"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "link"
+  },
+  {
+   "id": "lab",
+   "kind": "document",
+   "titleKey": "case009.lab.title",
+   "bodyKey": "case009.lab.body",
+   "requires": [
+    "link_e17"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case009.request.lab",
+   "requestDelaySeconds": 6,
+   "aboutPersonIds": [
+    "hakan"
+   ]
+  },
+  {
+   "id": "alriza",
+   "kind": "interview",
+   "titleKey": "case009.alriza.title",
+   "bodyKey": "case009.alriza.body",
+   "requires": [
+    "lab"
+   ],
+   "personId": "alriza",
+   "personNameKey": "case009.person.alriza.name",
+   "personInfoKey": "case009.person.alriza.info",
+   "questions": [
+    {
+     "id": "case009.alriza.match",
+     "promptKey": "case009.alriza.match.question",
+     "answerKey": "case009.alriza.match.answer",
+     "topicKey": "interview.topic.observations"
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.alriza.match"
+   ],
+   "deflectAnswerKey": "case009.alriza.deflect",
+   "portrait": {
+    "hairHex": "#8A847E",
+    "skinHex": "#B08460",
+    "shirtHex": "#5A5048",
+    "moustache": true
+   },
+   "personQuoteKey": "case009.alriza.quote"
+  },
+  {
+   "id": "hakan_2",
+   "kind": "interview",
+   "titleKey": "case009.hakan_2.title",
+   "bodyKey": "case009.hakan_2.body",
+   "requires": [
+    "hakan",
+    "lab"
+   ],
+   "personId": "hakan",
+   "personNameKey": "case009.person.hakan.name",
+   "personInfoKey": "case009.person.hakan.info",
+   "questions": [
+    {
+     "id": "case009.hakan_2.origin",
+     "promptKey": "case009.hakan_2.origin.question",
+     "answerKey": "case009.hakan_2.origin.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "lab"
+     ]
+    },
+    {
+     "id": "case009.hakan_2.back",
+     "promptKey": "case009.hakan_2.back.question",
+     "answerKey": "case009.hakan_2.back.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case009.hakan_2.origin"
+     ]
+    },
+    {
+     "id": "case009.hakan_2.after",
+     "promptKey": "case009.hakan_2.after.question",
+     "answerKey": "case009.hakan_2.after.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case009.hakan_2.origin"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case009.hakan_2.origin",
+    "case009.hakan_2.back"
+   ],
+   "deflectAnswerKey": "case009.hakan.deflect",
+   "portrait": {
+    "hairHex": "#5A544E",
+    "skinHex": "#B48660",
+    "shirtHex": "#3A3E44",
+    "moustache": true
+   }
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "h_car",
+   "timeKey": "case009.time.h_car",
+   "noteKey": "case009.clue.h_car",
+   "sourceKey": "case009.clue.source.moves",
+   "sortMinute": 0,
+   "requiresRead": [
+    "c_moves"
+   ]
+  },
+  {
+   "id": "p16",
+   "timeKey": "case009.time.p16",
+   "noteKey": "case009.clue.p16",
+   "sourceKey": "case009.clue.source.raw",
+   "sortMinute": 30,
+   "requiresRead": [
+    "c_rawlist"
+   ]
+  },
+  {
+   "id": "clean",
+   "timeKey": "case009.time.clean",
+   "noteKey": "case009.clue.clean",
+   "sourceKey": "case009.clue.source.radio",
+   "sortMinute": 60,
+   "requiresRead": [
+    "c_radio"
+   ]
+  },
+  {
+   "id": "again",
+   "timeKey": "case009.time.again",
+   "noteKey": "case009.clue.again",
+   "sourceKey": "case009.clue.source.radio",
+   "sortMinute": 90,
+   "requiresRead": [
+    "c_radio"
+   ]
+  },
+  {
+   "id": "found",
+   "timeKey": "case009.time.found",
+   "noteKey": "case009.clue.found",
+   "sourceKey": "case009.clue.source.radio",
+   "sortMinute": 120,
+   "requiresRead": [
+    "c_radio"
+   ]
+  },
+  {
+   "id": "h_park",
+   "timeKey": "case009.time.h_park",
+   "noteKey": "case009.clue.h_park",
+   "sourceKey": "case009.clue.source.moves",
+   "sortMinute": 180,
+   "requiresRead": [
+    "c_moves"
+   ]
+  },
+  {
+   "id": "corridor_arda_in",
+   "timeKey": "case009.time.arda_in",
+   "noteKey": "case009.clue.corridor_arda_in",
+   "sourceKey": "case009.cctv.source",
+   "sortMinute": 210,
+   "requiresRead": [
+    "corridor"
+   ]
+  },
+  {
+   "id": "corridor_arda_out",
+   "timeKey": "case009.time.arda_out",
+   "noteKey": "case009.clue.corridor_arda_out",
+   "sourceKey": "case009.cctv.source",
+   "sortMinute": 270,
+   "requiresRead": [
+    "corridor"
+   ]
+  },
+  {
+   "id": "corridor_empty",
+   "timeKey": "case009.time.empty",
+   "noteKey": "case009.clue.corridor_empty",
+   "sourceKey": "case009.cctv.source",
+   "sortMinute": 300,
+   "requiresRead": [
+    "corridor"
+   ]
+  },
+  {
+   "id": "corridor_nesrin",
+   "timeKey": "case009.time.nesrin",
+   "noteKey": "case009.clue.corridor_nesrin",
+   "sourceKey": "case009.cctv.source",
+   "sortMinute": 420,
+   "requiresRead": [
+    "corridor"
+   ]
+  },
+  {
+   "id": "form",
+   "timeKey": "case009.time.form",
+   "noteKey": "case009.clue.form",
+   "sourceKey": "case009.clue.source.form",
+   "sortMinute": 240,
+   "requiresRead": [
+    "delivery_form"
+   ]
+  },
+  {
+   "id": "h_in",
+   "timeKey": "case009.time.h_in",
+   "noteKey": "case009.clue.h_in",
+   "sourceKey": "case009.clue.source.card",
+   "sortMinute": 330,
+   "requiresRead": [
+    "b_keycard"
+   ]
+  },
+  {
+   "id": "h_outdoor",
+   "timeKey": "case009.time.h_outdoor",
+   "noteKey": "case009.clue.h_outdoor",
+   "sourceKey": "case009.clue.source.card",
+   "sortMinute": 360,
+   "requiresRead": [
+    "b_keycard"
+   ]
+  },
+  {
+   "id": "scan",
+   "timeKey": "case009.time.scan",
+   "noteKey": "case009.clue.scan",
+   "sourceKey": "case009.clue.source.scan",
+   "sortMinute": 390,
+   "requiresRead": [
+    "emanet_scan"
+   ]
+  },
+  {
+   "id": "n_out",
+   "timeKey": "case009.time.n_out",
+   "noteKey": "case009.clue.n_out",
+   "sourceKey": "case009.clue.source.card",
+   "sortMinute": 450,
+   "requiresRead": [
+    "b_keycard"
+   ]
+  },
+  {
+   "id": "c_in",
+   "timeKey": "case009.time.c_in",
+   "noteKey": "case009.clue.c_in",
+   "sourceKey": "case009.clue.source.card",
+   "sortMinute": 480,
+   "requiresRead": [
+    "b_keycard"
+   ]
+  },
+  {
+   "id": "delete",
+   "timeKey": "case009.time.delete",
+   "noteKey": "case009.clue.delete",
+   "sourceKey": "case009.clue.source.sys",
+   "sortMinute": 510,
+   "requiresRead": [
+    "b_syslog"
+   ]
+  },
+  {
+   "id": "h_claim",
+   "timeKey": "case009.time.h_claim",
+   "noteKey": "case009.clue.h_claim",
+   "sourceKey": "case009.person.hakan.name",
+   "sortMinute": 150,
+   "requiresAsked": [
+    "case009.hakan.after"
+   ]
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "hakan",
+   "labelKey": "case009.verdict.hakan",
+   "correct": true,
+   "feedbackKey": "case009.feedback.hakan",
+   "requires": [],
+   "supportingSourceIds": [
+    "lab",
+    "c_radio",
+    "hakan_2"
+   ],
+   "epilogueKey": "case009.epilogue.verdict.hakan"
+  },
+  {
+   "id": "legit",
+   "labelKey": "case009.verdict.legit",
+   "correct": false,
+   "feedbackKey": "case009.feedback.legit",
+   "requires": [],
+   "epilogueKey": "case009.epilogue.verdict.legit"
+  },
+  {
+   "id": "arda",
+   "labelKey": "case009.verdict.arda",
+   "correct": false,
+   "feedbackKey": "case009.feedback.arda",
+   "requires": [],
+   "epilogueKey": "case009.epilogue.verdict.arda"
+  },
+  {
+   "id": "ceren",
+   "labelKey": "case009.verdict.ceren",
+   "correct": false,
+   "feedbackKey": "case009.feedback.ceren",
+   "requires": [],
+   "epilogueKey": "case009.epilogue.verdict.ceren"
+  },
+  {
+   "id": "nesrin",
+   "labelKey": "case009.verdict.nesrin",
+   "correct": false,
+   "feedbackKey": "case009.feedback.nesrin",
+   "requires": [],
+   "epilogueKey": "case009.epilogue.verdict.nesrin"
+  },
+  {
+   "id": "undetermined",
+   "labelKey": "case009.verdict.undetermined",
+   "correct": false,
+   "feedbackKey": "case009.feedback.undetermined",
+   "requires": [],
+   "epilogueKey": "case009.epilogue.verdict.undetermined"
+  }
+ ],
+ "methods": [
+  {
+   "id": "ceren",
+   "labelKey": "case009.method.ceren",
+   "correct": true,
+   "supportingSourceIds": [
+    "b_keycard",
+    "ceren_2",
+    "c_rawlist"
+   ]
+  },
+  {
+   "id": "nesrin",
+   "labelKey": "case009.method.nesrin",
+   "correct": false
+  },
+  {
+   "id": "arda",
+   "labelKey": "case009.method.arda",
+   "correct": false
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case009.method.unknown",
+   "correct": false
+  }
+ ],
+ "suspectLabelKey": "case009.suspect.label",
+ "methodLabelKey": "case009.method.label",
+ "custodyLabelKey": "case009.custody.label",
+ "custody": [
+  {
+   "id": "took_back",
+   "labelKey": "case009.custody.took_back",
+   "correct": true,
+   "supportingSourceIds": [
+    "b_keycard",
+    "corridor",
+    "delivery_form",
+    "hakan_2"
+   ],
+   "epilogueKey": "case009.epilogue.custody.took_back"
+  },
+  {
+   "id": "arda_kept",
+   "labelKey": "case009.custody.arda_kept",
+   "correct": false,
+   "epilogueKey": "case009.epilogue.custody.arda_kept"
+  },
+  {
+   "id": "nesrin_took",
+   "labelKey": "case009.custody.nesrin_took",
+   "correct": false,
+   "epilogueKey": "case009.epilogue.custody.nesrin_took"
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case009.custody.unknown",
+   "correct": false,
+   "epilogueKey": "case009.epilogue.custody.unknown"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "lab",
+   "labelKey": "case009.evidence.lab",
+   "correct": true,
+   "supportingSourceIds": [
+    "lab"
+   ]
+  },
+  {
+   "id": "radio",
+   "labelKey": "case009.evidence.radio",
+   "correct": false
+  },
+  {
+   "id": "card",
+   "labelKey": "case009.evidence.card",
+   "correct": false
+  },
+  {
+   "id": "vehicle",
+   "labelKey": "case009.evidence.vehicle",
+   "correct": false
+  },
+  {
+   "id": "bank",
+   "labelKey": "case009.evidence.bank",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "summary": {
+  "locationKey": "case009.summary.location",
+  "truthKey": "case009.summary.truth",
+  "evidenceKey": "case009.summary.evidence",
+  "lessonKey": "case009.summary.lesson"
+ },
+ "successfulReportTrustGain": 10,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "",
+ "ambienceId": "room_night",
+ "lineSlots": 2,
+ "lineReopenPenaltySeconds": 20,
+ "envelopeTitleKey": "case009.envelope.title",
+ "envelopeStampKey": "case009.envelope.stamp",
+ "envelopeBodyKey": "case009.envelope.body",
+ "grantsAuthority": true
+}

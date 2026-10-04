@@ -3887,6 +3887,102 @@
   {
    "key": "requests.archiveDeniedText",
    "value": "Seçilen dayanaklarla tarama daraltılamadı; eşleşen kayıt çıkmadı. Başka dayanaklarla yeniden talep edebilirsin."
+  },
+  {
+   "key": "tablet.lineActive",
+   "value": "Hat açık"
+  },
+  {
+   "key": "tablet.lineClosed",
+   "value": "Hat kapalı"
+  },
+  {
+   "key": "requests.lineHeading",
+   "value": "SORUŞTURMA HATTI"
+  },
+  {
+   "key": "requests.lineHelp",
+   "value": "Bu hat için kurumsal kaynak ayrılmasını talep edersin. Hat açılırsa altındaki kayıtları ayrı ayrı isteyebilirsin. Aynı anda açık tutabileceğin hat sayısı sınırlıdır."
+  },
+  {
+   "key": "requests.lineBasis",
+   "value": "Hattın dayanakları"
+  },
+  {
+   "key": "requests.lineSend",
+   "value": "Hattı aç"
+  },
+  {
+   "key": "requests.lineWaitTitle",
+   "value": "Hat değerlendiriliyor"
+  },
+  {
+   "key": "requests.lineWaitText",
+   "value": "Kaynak ayrılması bekleniyor. Sonuç gelen evraklara düşecek."
+  },
+  {
+   "key": "requests.lineDeniedTitle",
+   "value": "Hat açılmadı"
+  },
+  {
+   "key": "requests.lineDeniedText",
+   "value": "Seçilen dayanaklar bu hatta kaynak ayrılması için yeterli görülmedi. Başka dayanaklarla yeniden talep edebilirsin."
+  },
+  {
+   "key": "requests.lineSlots",
+   "value": "Açık hatlar"
+  },
+  {
+   "key": "requests.lineSlotsValue",
+   "value": "{0} / {1}"
+  },
+  {
+   "key": "requests.lineOpenTitle",
+   "value": "Hat açık"
+  },
+  {
+   "key": "requests.lineOpenText",
+   "value": "Bu hattın kayıtlarını talep edebilirsin. Hattı kapatırsan gelmiş kayıtlar dosyada kalır, yeni kayıt istenemez."
+  },
+  {
+   "key": "requests.lineClose",
+   "value": "Hattı kapat"
+  },
+  {
+   "key": "requests.lineClosedTitle",
+   "value": "Hat kapalı"
+  },
+  {
+   "key": "requests.lineClosedText",
+   "value": "Bu hattan gelen kayıtlar dosyada duruyor. Hattı yeniden açmak kaynakların yeniden ayrılmasını bekletir."
+  },
+  {
+   "key": "requests.lineReopen",
+   "value": "Hattı yeniden aç"
+  },
+  {
+   "key": "requests.lineFull",
+   "value": "Açık hat sınırı dolu"
+  },
+  {
+   "key": "requests.lineFullTitle",
+   "value": "Açık hat sınırı dolu"
+  },
+  {
+   "key": "requests.lineFullText",
+   "value": "Yeni bir hat açmak için açık hatlardan birini kapatman gerekir."
+  },
+  {
+   "key": "envelope.confidential",
+   "value": "GİZLİ"
+  },
+  {
+   "key": "career.authority",
+   "value": "Yetki seviyesi"
+  },
+  {
+   "key": "career.authorityExpanded",
+   "value": "GENİŞLETİLDİ"
   }
  ]
 }

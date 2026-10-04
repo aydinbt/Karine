@@ -211,7 +211,7 @@ public sealed partial class BubeApp {
     if(review==null)return;
     Save();faxNotice?.RemoveFromHierarchy();
     // Onaylanan dosya burada kapanır: önce "KAPANDI" kartı, sonra faksın kendisi.
-    if(review.correct && !review.reopened)ClosedCard(review.caseId,()=>InboxPage("fax:"+review.caseId,"all"));
+    if(review.correct && !review.reopened)ClosedCard(review.caseId,()=>EnvelopeCard(review.caseId,()=>InboxPage("fax:"+review.caseId,"all")));
     else InboxPage("fax:"+review.caseId,"all");
    });
   } else if(selected.review!=null)DrawInboxFax(paperBody,selected.review,dark,actions);

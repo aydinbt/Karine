@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**4 Ekim (gece, 5):** **Dosya #009 "Emanet"** ve **soruşturma hattı** girdi: oyuncu üç hattan (Arda / Emanet / Operasyon) aynı anda yalnız ikisini açık tutabiliyor; biri kapatılınca yer açılıyor, kapanan hat gecikmeyle yeniden açılıyor. Vaka sonunda "BDS İÇ DENETİM — GİZLİ" zarfı ve doğru raporda "Yetki: GENİŞLETİLDİ". 30 düğüm, 260 metin; dokuzuncu yuva. Testler yeşil; Play Mode'da görülmedi.
+
 **4 Ekim (gece, 4):** **Dosya #008 "Kopya"** girdi: oyuncu üç olayı (zarf, araç camı, ev girişi) kendisi ilişkilendiriyor, birleşik fotoğrafla 2006 arşivini taratıyor. Eski dosya ilk açılışta "YENİDEN AÇILDI" kartıyla masaya düşüyor; rapor sonunda dosya "AYRILDI" damgası alıyor ve arşive soğuk dosya kartı ekleniyor. 32 düğüm, 309 metin; bölüm seçicide sekizinci yuva. Testler yeşil; Play Mode'da görülmedi. Olay panosu tasarım bekliyor.
 
 **4 Ekim (gece, 3):** **İnceleme izni** mekaniği ve **Dosya #007 "Kül Payı"** (şüpheli yangın) girdi. Bazı kayıtlar (araç, şirket kartı, servis koridoru) ancak oyuncunun seçtiği iki dayanakla talep edilebilir; dayanak yetersizse talep "Ek dayanak gerekiyor" diye döner. 22 düğüm, 240 metin, #006'nın ardından zincirde. Testler yeşil; Play Mode'da henüz görülmedi. Portre, kapak, CCTV sonra.

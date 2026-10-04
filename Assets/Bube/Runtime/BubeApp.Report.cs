@@ -270,7 +270,7 @@ public sealed partial class BubeApp {
   Save();
   // Gerçek işleyiş: rapor gönderilince dosya değerlendirmeye gider; ancak onaylanırsa kapanır.
   // Onay faksı ilk açıldığında o dosyanın "KAPANDI" kartı oynar, faks arkasından basılır.
-  if(fax.correct && !fax.reopened){ClosedCard(fax.caseId,()=>FaxSheet(fax));return;}
+  if(fax.correct && !fax.reopened){ClosedCard(fax.caseId,()=>EnvelopeCard(fax.caseId,()=>FaxSheet(fax)));return;}
   FaxSheet(fax);
  }
  // Faks tablosundaki açıklama: masadaki faksla aynı gerekçe metni.

@@ -33,7 +33,7 @@ namespace Bube {
 // (0..1), boylece her video kendi filigran yerini soyleyebilir.
 [Serializable] public class CornerMark { public float x=.9055f; public float y=.8333f; public float w=.0609f; public float h=.1056f; }
 [Serializable] public class WorldIntro { public string id; public string firstCaseId; public string countryKey; public string locationKey; public string flagResource; public string videoPath; public bool graphicsEmbedded; public bool skipCoversCornerMark; public CornerMark skipMark; public bool deskArrival; public string deskArrivalVideo; public CornerMark deskArrivalMark; }
-[Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public Choice[] custody; public string custodyLabelKey; public string suspectLabelKey; public string methodLabelKey; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public string ambienceId; public string closedStampKey; public string closedNoteKey; public string coldCaseTitleKey; public string coldCaseStatusKey;
+[Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public Choice[] custody; public string custodyLabelKey; public string suspectLabelKey; public string methodLabelKey; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public string ambienceId; public string closedStampKey; public string closedNoteKey; public string coldCaseTitleKey; public string coldCaseStatusKey; public int lineSlots; public int lineReopenPenaltySeconds; public string envelopeTitleKey; public string envelopeStampKey; public string envelopeBodyKey; public bool grantsAuthority;
  // Masanın hâli: vakanın masada geçtiği saat (0-23, -1 belirsiz) ve hava ("rain" ya da boş). Yalnız atmosfer; oynanışa girmez.
  public int deskHour = -1; public string deskDate; public string weather; public CaseSummary summary;
  // Mekânın durağan kareleri (Resources yolları): vaka ilk açıldığında kart öncesi oynar. Boşsa atlanır.
@@ -60,7 +60,7 @@ namespace Bube {
 [Serializable] public class AnswerVariant { public string answerKey; public string[] requiresAsked; public string[] requiresRead; public string[] excludesAsked; }
 [Serializable] public class PresentedAnswer { public string sourceId; public string answerKey; }
 [Serializable] public class Question { public string id; public string topicKey; public string[] aboutPersonIds; public string promptKey; public string answerKey; public string[] requiresAsked; public string[] requiresAnyAsked; public string[] excludesAsked; public string[] requiresRead; public string presentedSourceId; public string[] presentedSourceIds; public PresentedAnswer[] presentedAnswers; public PresentedAnswer[] decoyAnswers; public AnswerVariant[] answerVariants; }
-[Serializable] public class Node { public FileMeta[] fileMeta; public RelatedItem[] relatedItems; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public bool notReportSource; public string[] aboutPersonIds; public WarrantPath[] warrant; public int warrantSlots; public string requestKind; public string reopenYear; public string reopenNoteKey;
+[Serializable] public class Node { public FileMeta[] fileMeta; public RelatedItem[] relatedItems; public string imageResource; public string imageCaptionKey; public string id; public string kind; public string titleKey; public string bodyKey; public string[] requires; public string[] requiresAny; public string[] requiresAsked; public string[] requiresAnyAsked; public bool requestable; public string requestLabelKey; public int requestDelaySeconds; public string personId; public PortraitStyle portrait; public string personNameKey; public string personInfoKey; public string personQuoteKey; public Question[] questions; public string[] completionQuestionIds; public string cctvSourceKey; public string cctvOverlayKey; public string cctvPeriodKey; public CctvEvent[] cctvEvents; public string deflectAnswerKey; public bool notPresentable; public bool notReportSource; public string[] aboutPersonIds; public WarrantPath[] warrant; public int warrantSlots; public string requestKind; public string reopenYear; public string reopenNoteKey; public string line;
  // Görüşmede kişi sigara içiyor mu: yalnız görüntü (ince duman). Her soruda aynı kalır.
  public bool smokes;
  // Baskı: listedeki kaynakların hepsi dosyaya girdiğinde bu görüşme henüz istenmemişse artık istenemez
@@ -82,7 +82,7 @@ namespace Bube {
 // olup olmadığını hiçbir zaman söylemez; not yalnız oyuncunun aklı içindir.
 [Serializable] public class NotebookEntry { public string leftId; public string rightId; public string mark; }
 [Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; public long askedAtUtcTicks; }
-[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<WarrantDenial> warrantDenials = new List<WarrantDenial>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> triedSources = new List<string>(); public List<string> seenRequests = new List<string>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
+[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<WarrantDenial> warrantDenials = new List<WarrantDenial>(); public List<string> closedLines = new List<string>(); public List<DocumentRequest> lineReopens = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> triedSources = new List<string>(); public List<string> seenRequests = new List<string>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
 // Kayit gocu. Eski surumden gelen kayit atilmaz, bugunku semaya yukseltilir;
 // gelecekten gelen (daha yeni surumlu) kayit cevrilemez ama silinmez de — oldugu
 // gibi birakilir ve oyuncuya soylenir.
@@ -115,7 +115,7 @@ public static class SaveMigration {
  }
 }
 
-public sealed class Investigation {
+public sealed partial class Investigation {
  public CaseData Data { get; }
  // Ad geçme kuralı metne bakar; metin olmadan hiçbir kaynak kişiyle eşleşmez.
  public Locale Text { get; set; }
@@ -151,6 +151,8 @@ public sealed class Investigation {
   State.interviewTurns=(State.interviewTurns ?? new List<InterviewTurn>()).Where(turn=>turn!=null && data.nodes.Any(n=>n.id==turn.nodeId && (n.questions ?? new Question[0]).Any(q=>q.id==turn.questionId && q.promptKey==turn.promptKey)) && !string.IsNullOrEmpty(turn.answerKey)).ToList();
   State.seenInterviewTurns=Math.Max(0,Math.Min(State.seenInterviewTurns,State.interviewTurns.Count));
   State.interviewRequests = (State.interviewRequests ?? new List<InterviewRequest>()).Where(r => r != null && data.nodes.Any(n => n.id == r.nodeId && n.kind == "interview")).GroupBy(r => r.nodeId).Select(g => g.First()).ToList();
+  State.closedLines=(State.closedLines ?? new List<string>()).Where(id=>data.nodes.Any(n=>n.id==id && IsLine(n))).Distinct().ToList();
+  State.lineReopens=(State.lineReopens ?? new List<DocumentRequest>()).Where(r=>r!=null && data.nodes.Any(n=>n.id==r.nodeId && IsLine(n))).GroupBy(r=>r.nodeId).Select(g=>g.Last()).ToList();
   State.warrantDenials=(State.warrantDenials ?? new List<WarrantDenial>()).Where(d=>d!=null && data.nodes.Any(n=>n.id==d.nodeId && IsWarrant(n))).GroupBy(d=>d.nodeId).Select(g=>g.First()).ToList();
   State.documentRequests=(State.documentRequests ?? new List<DocumentRequest>()).Where(r=>r!=null && data.nodes.Any(n=>n.id==r.nodeId && n.kind=="document" && n.requestable)).GroupBy(r=>r.nodeId).Select(g=>g.First()).ToList();
   if(State.read.Count>0 || State.asked.Count>0 || State.timelinePinned.Count>0 || State.interviewRequests.Count>0 || State.documentRequests.Count>0 || State.closed)State.caseAccepted=true;
@@ -221,7 +223,8 @@ public sealed class Investigation {
   State.interviewRequests.Add(new InterviewRequest { nodeId = id, readyAtUtcTicks = DateTime.UtcNow.AddSeconds(waitSeconds).Ticks });
   return true;
  }
- public bool CanRequestDocument(Node n) => n.kind=="document" && n.requestable && !IsWarrant(n) && Discovered(n) && !State.read.Contains(n.id) && !State.documentRequests.Any(r=>r.nodeId==n.id);
+ public bool CanRequestDocument(Node n) => n.kind=="document" && n.requestable && !IsWarrant(n) && Discovered(n) && !State.read.Contains(n.id) && !State.documentRequests.Any(r=>r.nodeId==n.id)
+  && (string.IsNullOrEmpty(n.line) || LineActive(n.line));
  public bool RequestDocument(string id,double? waitSeconds=null) {
   var n=Data.nodes.FirstOrDefault(x=>x.id==id);
   if(n==null || !CanRequestDocument(n))return false;
@@ -238,7 +241,7 @@ public sealed class Investigation {
  public bool WarrantDenied(Node n) => Denial(n)?.readyAtUtcTicks<=DateTime.UtcNow.Ticks;
  public bool WarrantDenialPending(Node n) { var d=Denial(n); return d!=null && d.readyAtUtcTicks>DateTime.UtcNow.Ticks; }
  public bool CanRequestWarrant(Node n) => IsWarrant(n) && n.kind=="document" && n.requestable && Discovered(n) && !State.read.Contains(n.id)
-  && !State.documentRequests.Any(r=>r.nodeId==n.id) && !WarrantDenialPending(n);
+  && !State.documentRequests.Any(r=>r.nodeId==n.id) && !WarrantDenialPending(n) && (!IsLine(n) || LineSlotFree);
  public bool WarrantBasisAvailable(string id) => ReportSourceAvailable(id) || !id.Contains("#") && State.read.Contains(id) && Data.nodes.Any(x=>x.id==id && x.kind=="cctv" && !x.notReportSource);
  public bool WarrantSatisfied(Node n,IEnumerable<string> basis) {
   var chosen=basis.ToArray();
@@ -251,7 +254,8 @@ public sealed class Investigation {
   var chosen=basis.Where(b=>!string.IsNullOrEmpty(b)).Distinct().ToArray();
   if(chosen.Length!=WarrantSlots(n) || !chosen.All(WarrantBasisAvailable))return false;
   Denials.RemoveAll(d=>d.nodeId==id);
-  long ready=DateTime.UtcNow.AddSeconds(Math.Max(0,waitSeconds ?? n.requestDelaySeconds)).Ticks;
+  double wait=Math.Max(0,waitSeconds ?? n.requestDelaySeconds+(IsLine(n)?ClosedLines.Count*Math.Max(0,Data.lineReopenPenaltySeconds):0));
+  long ready=DateTime.UtcNow.AddSeconds(wait).Ticks;
   if(WarrantSatisfied(n,chosen))State.documentRequests.Add(new DocumentRequest { nodeId=id,readyAtUtcTicks=ready });
   else Denials.Add(new WarrantDenial { nodeId=id,readyAtUtcTicks=ready,basis=chosen });
   return true;
