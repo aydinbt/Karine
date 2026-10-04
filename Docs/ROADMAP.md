@@ -254,8 +254,9 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Tasarım: `Docs/CASE004_DESIGN.md` — şüpheli ölüm; ölüm anında dairede olan yönetici, düşüş itmeden değil geri çekilmeden; saklanan suç zimmet.
 - [~] Veri ve metin: `case004.json` (18 düğüm), `tr.case004.json` (247 metin). Doğrulayıcının otomatik gezintisi doğru sonuca ulaşıyor.
 - [~] Zincir: Dosya #003 → #004, Türkiye haritasında dördüncü yuva bağlandı.
-- [ ] Portreler (Cem, Nihat, Derya, Gülay) ve vaka kapağı — kullanıcı.
-- [ ] CCTV kareleri (üç an; prompt'lar tasarım belgesinde).
+- [~] Portreler (Cem, Nihat, Derya, Gülay) ve vaka kapağı girdi; sorgu ekranları galeri çekiminde görüldü.
+- [~] CCTV kareleri: 01.31 Tolga girişi (5), 01.46 sinyal kaybı (4, efekt), 02.24 sinyal dönüşü (4, efekt). Kare oynatımı gözlenmedi.
+- [~] Galeri: `KARINE_TOUR=case004 Tools/capture-screens.sh` masa, dosya, belge, CCTV, özet ve karşılaştırma sayfalarını da çeker.
 - [ ] Dosya #004 baştan sona Play Mode oynanışı (kullanıcı).
 
 ## Güncelleme kuralı

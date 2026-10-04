@@ -43,6 +43,19 @@ public sealed class GalleryTests {
     var node=n;game.State.read.Add(node.id);game.RequestInterview(node.id,0);
     yield return Shot(c+"_"+node.personId+"_"+w+"x"+h,()=>Call("InterviewPage",node));
    }
+   // KARINE_TOUR=case004 gibi: o vakanın masa, dosya, belge, CCTV ve özet sayfaları da çekilir.
+   if(!(Environment.GetEnvironmentVariable("KARINE_TOUR")??"").Split(',').Contains(c))continue;
+   foreach(var n in data.nodes)game.State.read.Add(n.id);
+   yield return Shot(c+"_00_desk",()=>Call("Desk"));
+   yield return Shot(c+"_01_file",()=>Call("FilePage"));
+   int k=0;
+   foreach(var n in data.nodes){
+    var node=n;
+    if(n.kind=="cctv"){foreach(var e in n.cctvEvents){var id=e.id;yield return Shot(c+"_cctv_"+id,()=>Call("CctvScreen",node,id));}}
+    else if(n.kind!="interview")yield return Shot(c+"_doc_"+(++k).ToString("00")+"_"+n.id,()=>Call("ReadPage",node));
+   }
+   yield return Shot(c+"_summary",()=>Call("CaseSummary"));
+   yield return Shot(c+"_compare",()=>Call("ComparePage"));
   }
  }
 }
