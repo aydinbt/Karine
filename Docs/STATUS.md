@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-**4 Ekim (gece):** **Dosya #005 "Son Görüldüğü Yer"** (kayıp şahıs) veriye girdi: 21 düğüm, 280 metin, #004’ün ardından zincirde. Rapor üç sütun: kaybolmanın niteliği, bağlantılı kişi+nitelik, fiziksel saldırı. Doğrulayıcı vakayı çözüyor; portre, kapak ve CCTV kareleri bekleniyor.
+**4 Ekim (gece):** **Dosya #005 "Son Görüldüğü Yer"** (kayıp şahıs) veriye girdi: 21 düğüm, 280 metin, #004’ün ardından zincirde. Rapor üç sütun: kaybolmanın niteliği, bağlantılı kişi+nitelik, fiziksel saldırı. Vaka Kasım 2027'de (14–15 Kasım). Doğrulayıcı vakayı çözüyor (`Case005Rules`); portreler girdi. Bekleyen: kapak ve CCTV için iki boş zemin (bina girişi, otopark), ardından kişili kareler.
 
 **4 Ekim (akşam):** **Dosya #004 "Sessiz Kat"** veriye girdi (18 düğüm, 247 metin) ve #003'ün ardından zincire bağlandı. Doğrulayıcı vakayı baştan sona açıyor; insan eliyle oynanmadı. Portreler, kapak ve üç CCTV anının kareleri girdi; 22 ekranlık galeri çekimi alındı. Sırada kullanıcının Unity'de baştan sona oynaması var.
 
