@@ -332,7 +332,17 @@
      "textKey": "case005.cctv.event.ece_out",
      "delayMs": 620,
      "id": "ece_out",
-     "overlayTimeKey": "case005.time.ece_out"
+     "overlayTimeKey": "case005.time.ece_out",
+     "framePaths": [
+      "Bube/Cctv/case005_ece_out/01",
+      "Bube/Cctv/case005_ece_out/02",
+      "Bube/Cctv/case005_ece_out/03"
+     ],
+     "frameTimes": [
+      "22.46.00",
+      "22.46.04",
+      "22.46.08"
+     ]
     }
    ]
   },
