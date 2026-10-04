@@ -610,7 +610,17 @@
      "textKey": "case005.cctv.event.car_out",
      "delayMs": 620,
      "id": "car_out",
-     "overlayTimeKey": "case005.time.car_out"
+     "overlayTimeKey": "case005.time.car_out",
+     "framePaths": [
+      "Bube/Cctv/case005_car_out/01",
+      "Bube/Cctv/case005_car_out/02",
+      "Bube/Cctv/case005_car_out/03"
+     ],
+     "frameTimes": [
+      "23.34.00",
+      "23.34.04",
+      "23.34.08"
+     ]
     }
    ]
   },
