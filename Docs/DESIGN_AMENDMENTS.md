@@ -1028,3 +1028,7 @@ Oyun artık reklam için kendi onay penceresini göstermiyor ve ayarlarda reklam
 - Kişi koltuğa oturur: yeri oda görselinin koordinatlarından (koltuk ortası, masa kenarı) hesaplanır; masanın ön kenarı kişinin önüne çizilir.
 - Masadaki su bardağı (ve kayıt sunulunca dalgalanması) ile kayıt cihazı (makara, ışık, süre sayacı) kaldırıldı — kullanıcı kararı.
 - Dosya #002/#003 portreleri olduğu gibi kalır; #001'in piksel tarzına çevrilmez (kullanıcı kararı).
+
+## 4 Ekim 2026 — Dosya #005: fail seçmeyen rapor
+
+Kullanıcı kararı: #005'te rapor "kim yaptı" sormaz, geceyi kurdurur. Motor değişmedi; üç sütunun etiketleri vakaya özel: `verdicts` = kaybolmanın niteliği, `methods` = bağlantılı kişi ve bağlantının niteliği (Murat'ı doğru seçip yanlış niteliği yükleyen yanılır), `custody` = fiziksel saldırı. Senaryodaki Barış/Seda/Tolga, önceki vakalardaki adlarla çakıştığı için Kaan/Nermin/Levent oldu. 00.08 kaydı ve emanet kaydı kendiliğinden düşmez; sırasıyla Murat'ın üçüncü görüşmesindeki ve Aslı'nın ikinci görüşmesindeki bir soruyla erişilebilir olur.

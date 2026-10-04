@@ -1,0 +1,1124 @@
+{
+ "entries": [
+  {
+   "key": "case005.asli.body",
+   "value": "Kayıp bildirimini yapan kardeşin ifadesi."
+  },
+  {
+   "key": "case005.asli.building.answer",
+   "value": "Ön kapıda var. Yönetici kayıtları polise verecekti, ben bakmaya dayanamadım."
+  },
+  {
+   "key": "case005.asli.building.question",
+   "value": "Binada kamera var mı?"
+  },
+  {
+   "key": "case005.asli.day.answer",
+   "value": "Öğlen Murat aradı, Ece toplantıya gelmemiş, telefonu kapalıymış. Ben de aradım, kapalı. Akşam nöbetten çıkınca eve gittim, yedek anahtarım var. Ece yoktu."
+  },
+  {
+   "key": "case005.asli.day.answer.demeanor",
+   "value": "Elindeki hastane kartını parmaklarının arasında çevirip duruyor."
+  },
+  {
+   "key": "case005.asli.day.question",
+   "value": "Pazartesi ne oldu, anlatır mısınız?"
+  },
+  {
+   "key": "case005.asli.deflect",
+   "value": "Bunu bilmiyorum. Bilsem söylerdim."
+  },
+  {
+   "key": "case005.asli.home.answer",
+   "value": "Her şey yerli yerindeydi. Bilgisayarı masada, pasaportu çekmecede. Kavga, kırık bir şey yok. Ama çantası yoktu. Hep taşıdığı küçük çanta. Polise de söyledim."
+  },
+  {
+   "key": "case005.asli.home.question",
+   "value": "Eve girdiğinizde ne gördünüz?"
+  },
+  {
+   "key": "case005.asli.last.answer",
+   "value": "Pazar akşamı. Dokuz gibi o aradı. Her zamanki gibi; işten, annemden konuştuk. Dört beş dakika."
+  },
+  {
+   "key": "case005.asli.last.answer.demeanor",
+   "value": "Cevabı bir an geç verdi, sonra çabuk bitirdi."
+  },
+  {
+   "key": "case005.asli.last.question",
+   "value": "Ece’yle en son ne zaman konuştunuz?"
+  },
+  {
+   "key": "case005.asli.quote",
+   "value": "“Ece’nin hayatında olağandışı hiçbir şey yoktu.”"
+  },
+  {
+   "key": "case005.asli.title",
+   "value": "Aslı Karaca — görüşme"
+  },
+  {
+   "key": "case005.asli.unusual.answer",
+   "value": "Hayır. Ece’nin hayatında olağandışı hiçbir şey yoktu. Çalışıyordu, o kadar. Kaan’la ayrılmışlardı ama o da iki ay oldu."
+  },
+  {
+   "key": "case005.asli.unusual.answer.demeanor",
+   "value": "Gözünü masaya indirdi; sesinde bir sertlik belirdi."
+  },
+  {
+   "key": "case005.asli.unusual.question",
+   "value": "Son zamanlarda Ece’nin hayatında olağandışı bir şey var mıydı?"
+  },
+  {
+   "key": "case005.asli_follow.body",
+   "value": "Konut inceleme notundan sonra yapılan görüşme."
+  },
+  {
+   "key": "case005.asli_follow.lawyer.answer",
+   "value": "Bir avukat arkadaşından bahsetti. Selin. Üniversiteden. ‘Ona bir zarf bırakacağım, sen bilme daha iyi’ dedi. Neden diye sormadım. Sormam gerekirdi."
+  },
+  {
+   "key": "case005.asli_follow.lawyer.question",
+   "value": "Başka ne söyledi?"
+  },
+  {
+   "key": "case005.asli_follow.packed.answer",
+   "value": "…Söylemedim. Geçen çarşamba Ece bana ‘Bir süre telefonumu kapatırsam telaşlanma’ dedi. Ben şaka sandım. Pazartesi o kapalı telefonu duyunca bir yandan korktum, bir yandan… belki kendi gitti dedim. Onun hayatını herkesin önüne dökmek istemedim."
+  },
+  {
+   "key": "case005.asli_follow.packed.answer.demeanor",
+   "value": "Gözleri doldu; sonra öfkeyle sildi."
+  },
+  {
+   "key": "case005.asli_follow.packed.decoy.phone",
+   "value": "Dokuzda konuştuk, söyledim ya. Normal bir konuşmaydı."
+  },
+  {
+   "key": "case005.asli_follow.packed.question",
+   "value": "Çantası, kıyafetleri, diş fırçası eksik; şarj cihazı yerinde. Olağandışı bir şey yok demiştiniz."
+  },
+  {
+   "key": "case005.asli_follow.sunday.answer",
+   "value": "‘Bu gece bir şeyi bitireceğim’ dedi. İş sandım. Sesi sakindi. Sakin olduğu için endişelenmedim."
+  },
+  {
+   "key": "case005.asli_follow.sunday.question",
+   "value": "Pazar akşamki konuşmanızda ne dedi?"
+  },
+  {
+   "key": "case005.asli_follow.title",
+   "value": "Aslı Karaca — ikinci görüşme"
+  },
+  {
+   "key": "case005.bank.body",
+   "value": "Karaca Acar Tasarım’ın son altı aylık tahsilat kayıtları incelendi.\n\nŞirketin standart tahsilat hesabı (…0912) dışında, üç müşteri ödemesinin farklı bir hesaba (…4471) yönlendirildiği görülmüştür:\n\nEylül · Keskin Yapı (Levent Keskin) · 412.000 TL\nEkim · Arda Mimarlık · 268.000 TL\nKasım · Bostan Gayrimenkul · 305.000 TL\n\n…4471 numaralı hesabın sahibinin kimliği bu inceleme kapsamında doğrulanamamıştır; banka yazısı beklenmektedir.\n\n“Tahsilat_2026” klasöründeki dökümlerde bu üç ödeme “bekleyen” olarak işaretlidir."
+  },
+  {
+   "key": "case005.bank.title",
+   "value": "ŞİRKET HESAP İNCELEME RAPORU"
+  },
+  {
+   "key": "case005.building.body",
+   "value": "Ece Karaca’nın oturduğu binanın ön kapı kamerasının 15 Kasım 18.00 – 24.00 arası döküm kaydı. Kamera ön kapıyı ve lobiyi görüyor; merdiven ve daireler kadrajda değil. Binanın başka girişi yok."
+  },
+  {
+   "key": "case005.building.title",
+   "value": "BİNA GİRİŞ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case005.cctv.event.car_in",
+   "value": "Kamera 04 (araç girişi): 34 MA 3108 plakalı araç giriş yapıyor. Ruhsat sahibi Murat Acar."
+  },
+  {
+   "key": "case005.cctv.event.car_out",
+   "value": "Kamera 04: 34 MA 3108 plakalı araç çıkış yapıyor. Araçta yalnız sürücü görünüyor."
+  },
+  {
+   "key": "case005.cctv.event.ece_bag",
+   "value": "Kamera 01: Ece Karaca lobide görünüyor; montunu giymiş, omzunda küçük açık renk çanta. Posta kutularının önünde bir süre telefonuna bakıyor."
+  },
+  {
+   "key": "case005.cctv.event.ece_home",
+   "value": "Kamera 01 (ön kapı): Bir kadın ön kapıdan giriyor; elinde market poşeti, omzunda küçük açık renk bir çanta. Kardeşi tarafından Ece Karaca olarak tanındı."
+  },
+  {
+   "key": "case005.cctv.event.ece_leaves",
+   "value": "Kamera 03 (yaya çıkışı): Bir kadın otoparktan tek başına, yaya çıkışından ayrılıyor. Omzunda küçük açık renk bir çanta. Sahil yönüne yürüyor; kadrajdan çıkıyor."
+  },
+  {
+   "key": "case005.cctv.event.ece_out",
+   "value": "Kamera 01: Ece Karaca ön kapıdan çıkıyor ve sahil yönüne yürüyor. Yanında kimse yok."
+  },
+  {
+   "key": "case005.cctv.event.ece_walk",
+   "value": "Kamera 03 (Rıhtım otoparkı, yaya girişi): Bir kadın yaya girişinden giriyor; omzunda küçük açık renk bir çanta. Rampanın yanında duruyor."
+  },
+  {
+   "key": "case005.cctv.event.kaan_in",
+   "value": "Kamera 01: Bir erkek ön kapının önünde telefonla konuşuyor; kapı içeriden açılıyor, içeri giriyor."
+  },
+  {
+   "key": "case005.cctv.event.kaan_out",
+   "value": "Kamera 01: Aynı erkek binadan çıkıyor. Kapının önünde durup yukarı bakıyor, sonra hızlı adımlarla uzaklaşıyor."
+  },
+  {
+   "key": "case005.cctv.event.meet",
+   "value": "Kamera 03: Aracın yanında iki kişi; araçtan inen bir erkek ve yaya gelen kadın. Konuşuyorlar. Erkek bir ara elini uzatıyor, kadın bir adım geri çekiliyor. Temas görülmüyor."
+  },
+  {
+   "key": "case005.cctv.late.overlay",
+   "value": "KAM 03"
+  },
+  {
+   "key": "case005.cctv.late.period",
+   "value": "15–16 Kasım 2026, 23.40 – 01.00"
+  },
+  {
+   "key": "case005.cctv.late.source",
+   "value": "Otopark kameraları (ek)"
+  },
+  {
+   "key": "case005.cctv.overlay",
+   "value": "KAM 01"
+  },
+  {
+   "key": "case005.cctv.parking.overlay",
+   "value": "KAM 03 / 04"
+  },
+  {
+   "key": "case005.cctv.parking.period",
+   "value": "15 Kasım 2026, 23.00 – 23.40"
+  },
+  {
+   "key": "case005.cctv.parking.source",
+   "value": "Otopark kameraları"
+  },
+  {
+   "key": "case005.cctv.period",
+   "value": "15 Kasım 2026, 18.00 – 24.00"
+  },
+  {
+   "key": "case005.cctv.source",
+   "value": "Bina giriş kamerası"
+  },
+  {
+   "key": "case005.cloud.body",
+   "value": "Şirketin ortak bulut hesabının 15 Kasım erişim kaydı:\n\n17.38 · E. Karaca, “Tahsilat_2026” klasörünü indirdi (42 dosya).\n17.38 · Sistem, yönetici hesabına (M. Acar) “toplu indirme” bildirimi gönderdi.\n17.52 · M. Acar oturum açtı; klasörü görüntüledi.\n18.05 · M. Acar, klasörün E. Karaca için paylaşım iznini kaldırdı.\n\nNot: izin kaldırılmadan önce indirilen dosyalar kullanıcının cihazında kalır."
+  },
+  {
+   "key": "case005.cloud.title",
+   "value": "BULUT ERİŞİM KAYDI — KARACA ACAR TASARIM"
+  },
+  {
+   "key": "case005.clue.asli_call",
+   "value": "Aslı ile dört dakikalık arama"
+  },
+  {
+   "key": "case005.clue.baz_rihtim",
+   "value": "Telefon Rıhtım otoparkı çevresinde"
+  },
+  {
+   "key": "case005.clue.building_ece_bag",
+   "value": "Ece lobide, omzunda çanta"
+  },
+  {
+   "key": "case005.clue.building_ece_home",
+   "value": "Ece eve geliyor"
+  },
+  {
+   "key": "case005.clue.building_ece_out",
+   "value": "Ece binadan çıkıyor"
+  },
+  {
+   "key": "case005.clue.building_kaan_in",
+   "value": "Bir erkek binaya giriyor"
+  },
+  {
+   "key": "case005.clue.building_kaan_out",
+   "value": "Aynı erkek binadan çıkıyor"
+  },
+  {
+   "key": "case005.clue.car_in",
+   "value": "Murat Acar’ın aracı otoparka giriyor"
+  },
+  {
+   "key": "case005.clue.car_out",
+   "value": "Murat Acar’ın aracı çıkıyor; içinde yalnız sürücü"
+  },
+  {
+   "key": "case005.clue.cloud_dl",
+   "value": "Ece klasörü indiriyor; Murat’a bildirim gidiyor"
+  },
+  {
+   "key": "case005.clue.cloud_revoke",
+   "value": "Murat, Ece’nin klasör iznini kaldırıyor"
+  },
+  {
+   "key": "case005.clue.ece_bag",
+   "value": "Ece lobide, omzunda çanta"
+  },
+  {
+   "key": "case005.clue.ece_home",
+   "value": "Ece eve geliyor"
+  },
+  {
+   "key": "case005.clue.ece_leaves",
+   "value": "Bir kadın otoparktan yalnız, yaya ayrılıyor"
+  },
+  {
+   "key": "case005.clue.ece_out",
+   "value": "Ece binadan çıkıyor"
+  },
+  {
+   "key": "case005.clue.ece_walk",
+   "value": "Bir kadın otoparka yaya giriyor"
+  },
+  {
+   "key": "case005.clue.kaan_claim",
+   "value": "Evde olduğunu söylüyor"
+  },
+  {
+   "key": "case005.clue.kaan_in",
+   "value": "Bir erkek binaya giriyor"
+  },
+  {
+   "key": "case005.clue.kaan_msg",
+   "value": "Kaan Erdem: “Aşağıdayım.”"
+  },
+  {
+   "key": "case005.clue.kaan_out",
+   "value": "Aynı erkek binadan çıkıyor"
+  },
+  {
+   "key": "case005.clue.last_data",
+   "value": "Son veri bağlantısı"
+  },
+  {
+   "key": "case005.clue.meet",
+   "value": "İki kişi araç yanında konuşuyor"
+  },
+  {
+   "key": "case005.clue.murat_call",
+   "value": "Murat Acar ile on bir dakikalık arama"
+  },
+  {
+   "key": "case005.clue.murat_claim",
+   "value": "Gitmediğini söylüyor"
+  },
+  {
+   "key": "case005.clue.murat_msg",
+   "value": "Murat Acar: “Rıhtım. 23.15. Yalnız gel.”"
+  },
+  {
+   "key": "case005.clue.nermin_saw",
+   "value": "Ece’yi çantasıyla çıkarken gördüğünü söylüyor (saat yaklaşık)"
+  },
+  {
+   "key": "case005.clue.parking_car_in",
+   "value": "Murat Acar’ın aracı otoparka giriyor"
+  },
+  {
+   "key": "case005.clue.parking_car_out",
+   "value": "Murat Acar’ın aracı çıkıyor; içinde yalnız sürücü"
+  },
+  {
+   "key": "case005.clue.parking_ece_walk",
+   "value": "Bir kadın otoparka yaya giriyor"
+  },
+  {
+   "key": "case005.clue.parking_late_ece_leaves",
+   "value": "Bir kadın otoparktan yalnız, yaya ayrılıyor"
+  },
+  {
+   "key": "case005.clue.parking_meet",
+   "value": "İki kişi araç yanında konuşuyor"
+  },
+  {
+   "key": "case005.clue.phone_off",
+   "value": "Telefon elle kapatılıyor"
+  },
+  {
+   "key": "case005.clue.search",
+   "value": "“Rıhtım otopark gece açık mı” araması"
+  },
+  {
+   "key": "case005.clue.source.cloud",
+   "value": "Bulut erişim kaydı"
+  },
+  {
+   "key": "case005.clue.source.laptop",
+   "value": "Dizüstü inceleme notu"
+  },
+  {
+   "key": "case005.clue.source.phone",
+   "value": "Telefon trafik raporu"
+  },
+  {
+   "key": "case005.clue.source.signal",
+   "value": "Baz kaydı"
+  },
+  {
+   "key": "case005.clue.usb",
+   "value": "Klasör USB belleğe kopyalanıyor"
+  },
+  {
+   "key": "case005.custody.kaan_attack",
+   "value": "Evet — Kaan Erdem saldırdı"
+  },
+  {
+   "key": "case005.custody.label",
+   "value": "Ece’ye fiziksel saldırı gerçekleşti mi?"
+  },
+  {
+   "key": "case005.custody.murat_attack",
+   "value": "Evet — Murat Acar saldırdı"
+  },
+  {
+   "key": "case005.custody.noevidence",
+   "value": "Destekleyen kanıt yok"
+  },
+  {
+   "key": "case005.deposit.body",
+   "value": "Av. Selin Arı Hukuk Bürosu’nun emanet defterinden:\n\n14 Kasım 2026, 16.20 · Ece Karaca kapalı bir zarf teslim etti. Zarfın üzerinde: “Yalnızca gerekli hâlde teslim edilmek üzere.”\n\nKayıp bildirimi üzerine zarf, soruşturma birimi talebiyle ve tutanakla açıldı. İçinden çıkanlar:\n· Karaca Acar Tasarım tahsilat dökümlerinin kopyaları (Haziran – Kasım).\n· …4471 numaralı hesaba giden üç ödemenin listesi; her birinin yanında el yazısıyla müşteri adı.\n· Levent Keskin’e ait dekontun çıktısı.\n· El yazısıyla tek satır: “Bana ulaşılamazsa bu zarf açılsın. — E.K.”"
+  },
+  {
+   "key": "case005.deposit.title",
+   "value": "EMANET TESLİM KAYDI"
+  },
+  {
+   "key": "case005.epilogue.custody.kaan_attack",
+   "value": "Kaan Erdem gözaltına alındı; Ece Karaca 22.46’da binadan sağ salim çıkıyordu. Kaan iki gün sonra serbest kaldı, adı ise haberlerde kaldı."
+  },
+  {
+   "key": "case005.epilogue.custody.murat_attack",
+   "value": "Murat Acar saldırı şüphesiyle gözaltına alındı. Kamera kaydında temas olmadığı görülünce serbest kaldı; avukatı mali dosyanın da ‘kişisel husumet’ olduğunu savundu."
+  },
+  {
+   "key": "case005.epilogue.custody.noevidence",
+   "value": "Otopark kayıtları Murat Acar’ın Ece Karaca’ya dokunmadığını gösterdi. Murat Acar hakkında saldırı değil, mali usulsüzlük soruşturması açıldı."
+  },
+  {
+   "key": "case005.epilogue.verdict.abducted",
+   "value": "Dosya kaçırma olarak işlem gördü. Murat Acar gözaltına alındı, üç gün sonra serbest kaldı. Ece Karaca, adının haberlerde ‘kaçırılan kadın’ diye geçtiğini görünce saklandığı yerden avukatı aracılığıyla ortaya çıktı; mali belgeler gölgede kaldı."
+  },
+  {
+   "key": "case005.epilogue.verdict.accident",
+   "value": "Sahil şeridi ve Rıhtım çevresi iki gün tarandı. Arama, kendi isteğiyle uzaklaşan birini aramaktı; ekipler boşuna yoruldu."
+  },
+  {
+   "key": "case005.epilogue.verdict.undetermined",
+   "value": "Dosya açık kaldı ve rafa kalktı. Ece Karaca bir hafta sonra kendiliğinden ortaya çıktığında, mali belgeler kimsenin sorusu olmamıştı."
+  },
+  {
+   "key": "case005.epilogue.verdict.voluntary",
+   "value": "KAYIP ŞAHIS GÜNCELLEMESİ — Ece Karaca kendi isteğiyle ilgili birime başvurmuştur. Sağlık durumunun iyi olduğu doğrulanmıştır. Karaca’nın talebi üzerine bulunduğu konum dosyaya eklenmemiştir.\n\nKaraca tarafından teslim edilen mali belgeler ayrı incelemeye alınmıştır."
+  },
+  {
+   "key": "case005.evidence.bank",
+   "value": "Şirket hesap inceleme raporu"
+  },
+  {
+   "key": "case005.evidence.building",
+   "value": "Bina giriş kamerası"
+  },
+  {
+   "key": "case005.evidence.deposit",
+   "value": "Emanet teslim kaydı"
+  },
+  {
+   "key": "case005.evidence.parking",
+   "value": "Otopark kameraları"
+  },
+  {
+   "key": "case005.evidence.parking_late",
+   "value": "Otopark geniş aralık dökümü"
+  },
+  {
+   "key": "case005.feedback.abducted",
+   "value": "Otopark kaydında Murat Acar’ın aracı 23.34’te yalnız sürücüyle çıkıyor; 00.08’de bir kadın otoparktan tek başına ayrılıyor. Zorlama gösteren hiçbir kayıt yok."
+  },
+  {
+   "key": "case005.feedback.accident",
+   "value": "Ece’nin telefonu bir kazayla değil, elle kapandı; çantasını ve eşyalarını önceden hazırlamıştı."
+  },
+  {
+   "key": "case005.feedback.undetermined",
+   "value": "Kayıtlar ortadaydı: otopark çıkışı, elle kapanan telefon, önceden bırakılan zarf. Dosya belirsiz değildi."
+  },
+  {
+   "key": "case005.feedback.voluntary",
+   "value": "Ece Karaca 00.08’de otoparktan tek başına, yürüyerek ayrıldı. Telefonunu kendisi kapattı, çantasını ve birkaç günlük eşyasını önceden aldı; iki gün önce de bir zarf bıraktı. Kaybolma planlıydı."
+  },
+  {
+   "key": "case005.file.caseType",
+   "value": "KAYIP ŞAHIS"
+  },
+  {
+   "key": "case005.file.value.bureau",
+   "value": "BDS Kayıp Şahıs Masası"
+  },
+  {
+   "key": "case005.file.value.location",
+   "value": "Kadıköy, Moda — Ece Karaca’nın konutu"
+  },
+  {
+   "key": "case005.file.value.number",
+   "value": "BDS-2026-0231"
+  },
+  {
+   "key": "case005.file.value.offence",
+   "value": "Kayıp şahıs — şüpheli kaybolma"
+  },
+  {
+   "key": "case005.file.value.reporter",
+   "value": "Aslı Karaca, kardeşi"
+  },
+  {
+   "key": "case005.home.body",
+   "value": "Ece Karaca’nın Moda’daki konutu kardeşi Aslı Karaca ile birlikte incelendi.\n\nKapı ve pencerelerde zorlama izi yok. Ev düzenli; devrik eşya, kırık ya da kan izi yok.\n\nPasaport yatak odası çekmecesinde. Dizüstü bilgisayar çalışma masasında, kapalı. Telefon şarj cihazı salondaki prizde takılı.\n\nAslı Karaca’ya göre eksik olanlar: günlük kullandığı bej, küçük deri omuz çantası; dolaptan iki üç günlük kıyafet; banyodan diş fırçası.\n\nAlt kat komşusu Nermin Öztürk, Pazar gecesi bir ara kapı sesi duyduğunu belirtti."
+  },
+  {
+   "key": "case005.home.title",
+   "value": "KONUT İNCELEME NOTU"
+  },
+  {
+   "key": "case005.invoice.body",
+   "value": "Levent Keskin’in teslim ettiği belgeler.\n\nFatura, 28 Ağustos · Karaca Acar Tasarım antetli. Alt bilgide şirketin tahsilat hesabı: …0912.\n\nE-posta, 2 Eylül, gönderen Murat Acar:\n“Levent Bey merhaba, tahsilat hesabımız değişmiştir. Bundan sonraki ödemelerinizi …4471 numaralı hesaba yapmanızı rica ederim. Ece Hanım’ı bu yazışmaya eklemiyorum, iş yükü fazla.”\n\nDekont, 5 Eylül · 412.000 TL · alıcı hesap …4471."
+  },
+  {
+   "key": "case005.invoice.title",
+   "value": "FATURA VE E-POSTA — KESKİN YAPI"
+  },
+  {
+   "key": "case005.kaan.body",
+   "value": "Eski sevgilinin ifadesi."
+  },
+  {
+   "key": "case005.kaan.breakup.answer",
+   "value": "O ayrıldı. Çok çalışıyordu, ben de… çok şey istiyordum herhalde. Kötü bitmedi. Yani bitti işte."
+  },
+  {
+   "key": "case005.kaan.breakup.question",
+   "value": "Neden ayrıldınız?"
+  },
+  {
+   "key": "case005.kaan.deflect",
+   "value": "Bunun Ece’yi bulmakla ne ilgisi var?"
+  },
+  {
+   "key": "case005.kaan.last.answer",
+   "value": "İki hafta kadar oldu. Bir kafede karşılaştık, selamlaştık. O kadar. Ece’yi iki haftadır görmedim."
+  },
+  {
+   "key": "case005.kaan.last.answer.demeanor",
+   "value": "Kollarını göğsünde kavuşturdu."
+  },
+  {
+   "key": "case005.kaan.last.question",
+   "value": "Ece’yi en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case005.kaan.night.answer",
+   "value": "Evdeydim. Üsküdar’da. Dizi izledim, erken yattım."
+  },
+  {
+   "key": "case005.kaan.night.answer.demeanor",
+   "value": "Cevabı soru bitmeden verdi."
+  },
+  {
+   "key": "case005.kaan.night.question",
+   "value": "Pazar akşamı neredeydiniz?"
+  },
+  {
+   "key": "case005.kaan.quote",
+   "value": "“Ece’yi iki haftadır görmedim.”"
+  },
+  {
+   "key": "case005.kaan.title",
+   "value": "Kaan Erdem — görüşme"
+  },
+  {
+   "key": "case005.kaan_follow.body",
+   "value": "Bina kamerasından sonra yapılan görüşme."
+  },
+  {
+   "key": "case005.kaan_follow.desk.answer",
+   "value": "Masada bir sürü kâğıt vardı. Banka dökümleri gibi, tablolar. Ben bakınca hemen kapattı. ‘Şu an başka derdim var Kaan’ dedi. Ben onu kendimle ilgili sandım."
+  },
+  {
+   "key": "case005.kaan_follow.desk.question",
+   "value": "O akşam evde dikkatinizi çeken bir şey oldu mu?"
+  },
+  {
+   "key": "case005.kaan_follow.mood.answer",
+   "value": "Gergindi. Telefonu iki kere titredi, bakıp kapattı. Korkmuş gibi değildi ama… bir şeye karar vermiş gibiydi. Öyle bakıyordu."
+  },
+  {
+   "key": "case005.kaan_follow.mood.question",
+   "value": "Ece nasıldı?"
+  },
+  {
+   "key": "case005.kaan_follow.there.answer",
+   "value": "…Evet. Gittim. Mesaj attım, aşağıdayım dedim, açtı. Barışmak istiyordum. Tartıştık. Yarım saat bile sürmedi, çıktım. Söylemedim çünkü kaybolduğu gece eski sevgilisinin evinde olduğunu söyleyen adam ne olur, biliyorum."
+  },
+  {
+   "key": "case005.kaan_follow.there.answer.demeanor",
+   "value": "Uzun süre yere baktı. Sonra başını kaldırmadan konuştu."
+  },
+  {
+   "key": "case005.kaan_follow.there.decoy.phone",
+   "value": "Mesaj attım, evet. Ama bu gittiğim anlamına gelmez… yani…"
+  },
+  {
+   "key": "case005.kaan_follow.there.decoy.phone.demeanor",
+   "value": "Cümlesini bitiremedi."
+  },
+  {
+   "key": "case005.kaan_follow.there.question",
+   "value": "İki haftadır görmediğinizi söylediniz. Kamera sizi Pazar akşamı binada gösteriyor."
+  },
+  {
+   "key": "case005.kaan_follow.title",
+   "value": "Kaan Erdem — ikinci görüşme"
+  },
+  {
+   "key": "case005.laptop.body",
+   "value": "Ece Karaca’nın konutta bulunan dizüstü bilgisayarı incelendi.\n\nSon oturum: 15 Kasım, 22.31’de kapanmış.\n22.18 · “Tahsilat_2026” klasöründen 42 dosya harici bir belleğe kopyalandı (32 GB USB bellek). Bellek konutta bulunamadı.\n22.24 · Tarayıcıda son arama: “Kadıköy Rıhtım otopark gece açık mı”.\n\nBilgisayarda şirketin ortak bulut hesabında açık bir oturum var. Klasör bu hesaptan indirilmiş."
+  },
+  {
+   "key": "case005.laptop.title",
+   "value": "DİZÜSTÜ İNCELEME NOTU"
+  },
+  {
+   "key": "case005.levent.body",
+   "value": "Hesap incelemesinde adı geçen müşterinin ifadesi."
+  },
+  {
+   "key": "case005.levent.deflect",
+   "value": "Orasını muhasebeci bilir, ben karışmam."
+  },
+  {
+   "key": "case005.levent.ece.answer",
+   "value": "Ekim sonunda aradı. ‘Ödemeyi hangi hesaba yaptınız?’ dedi, dekontu istedi. Gönderdim. Sesi tuhaftı, sordum, ‘bir kontrol’ dedi. Garipsedim açıkçası."
+  },
+  {
+   "key": "case005.levent.ece.question",
+   "value": "Ece Karaca bu konuda size bir şey sordu mu?"
+  },
+  {
+   "key": "case005.levent.paid.answer",
+   "value": "Bana gelen hesaba. Murat Bey e-posta attı, ‘tahsilat hesabımız değişti’ dedi. Ben de oraya yatırdım. Ben parayı ödedim, gerisi beni ilgilendirmez."
+  },
+  {
+   "key": "case005.levent.paid.answer.demeanor",
+   "value": "Telefonundan bir şey aradı, bulamadı, cebine koydu."
+  },
+  {
+   "key": "case005.levent.paid.question",
+   "value": "Eylül’deki ödemenizi hangi hesaba yaptınız?"
+  },
+  {
+   "key": "case005.levent.project.answer",
+   "value": "İyi. İşi Ece Hanım yürütüyordu. Murat Bey’i yalnız fatura zamanı görürdük."
+  },
+  {
+   "key": "case005.levent.project.question",
+   "value": "Proje nasıl gidiyordu?"
+  },
+  {
+   "key": "case005.levent.quote",
+   "value": "“Ben parayı ödedim. Gerisi beni ilgilendirmez.”"
+  },
+  {
+   "key": "case005.levent.title",
+   "value": "Levent Keskin — görüşme"
+  },
+  {
+   "key": "case005.method.kaan_argument",
+   "value": "Kaan Erdem — ilişki tartışması"
+  },
+  {
+   "key": "case005.method.label",
+   "value": "Kaybolmayla bağlantılı kişi ve bağlantının niteliği"
+  },
+  {
+   "key": "case005.method.murat_held",
+   "value": "Murat Acar — Ece’yi zorla alıkoydu"
+  },
+  {
+   "key": "case005.method.murat_pressure",
+   "value": "Murat Acar — mali usulsüzlük yüzünden baskı ve yüzleşme"
+  },
+  {
+   "key": "case005.method.none",
+   "value": "Kaybolmayla bağlantılı kimse yok"
+  },
+  {
+   "key": "case005.murat.body",
+   "value": "İş ortağının ifadesi."
+  },
+  {
+   "key": "case005.murat.company.answer",
+   "value": "Hayır. İşler iyi. Ufak tefek tahsilat gecikmeleri, her şirkette olur."
+  },
+  {
+   "key": "case005.murat.company.question",
+   "value": "Şirkette son zamanlarda bir sorun var mıydı?"
+  },
+  {
+   "key": "case005.murat.deflect",
+   "value": "Bu konuyu avukatımla konuşmadan cevaplamayacağım."
+  },
+  {
+   "key": "case005.murat.ece.answer",
+   "value": "Yorgundu. Kaan meselesi onu çok yıprattı. Biraz dağınıktı, bazı işleri aksattı. Kafasını dinlemek için bir yere gitmiş olabilir; Ece öyle yapar."
+  },
+  {
+   "key": "case005.murat.ece.answer.demeanor",
+   "value": "‘Ece öyle yapar’ derken omuz silkti."
+  },
+  {
+   "key": "case005.murat.ece.question",
+   "value": "Ece son zamanlarda nasıldı?"
+  },
+  {
+   "key": "case005.murat.last.answer",
+   "value": "En son cuma günü ofiste gördüm. Akşam altıya kadar beraberdik, sonra çıktı. Pazartesi toplantısına hazırdık."
+  },
+  {
+   "key": "case005.murat.last.answer.demeanor",
+   "value": "Telefonunu masaya ekranı aşağı bakacak şekilde bıraktı."
+  },
+  {
+   "key": "case005.murat.last.question",
+   "value": "Ece’yi en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case005.murat.meeting.answer",
+   "value": "Yeni bir otel projesi. Büyük iş. Ece sunumu yapacaktı. Gelmeyince müşteriye bir şey uydurdum, sonra Aslı’yı aradım."
+  },
+  {
+   "key": "case005.murat.meeting.question",
+   "value": "Pazartesi toplantısı neydi?"
+  },
+  {
+   "key": "case005.murat.quote",
+   "value": "“En son cuma günü ofiste gördüm.”"
+  },
+  {
+   "key": "case005.murat.title",
+   "value": "Murat Acar — görüşme"
+  },
+  {
+   "key": "case005.murat_follow.body",
+   "value": "Telefon trafik raporundan sonra yapılan görüşme."
+  },
+  {
+   "key": "case005.murat_follow.call.answer",
+   "value": "Konuştuk, evet. İşle ilgili rutin bir görüşme. Pazartesi sunumu. Cuma ofiste gördüm dedim, doğru; telefon görüşmesini sormadınız."
+  },
+  {
+   "key": "case005.murat_follow.call.answer.demeanor",
+   "value": "Gülümsedi ama gülümseme gözlerine ulaşmadı."
+  },
+  {
+   "key": "case005.murat_follow.call.question",
+   "value": "Pazar gecesi Ece’yle on bir dakika konuşmuşsunuz."
+  },
+  {
+   "key": "case005.murat_follow.files.answer",
+   "value": "Ece her şeyi kurcalar. Bazı tahsilatları sordu, açıkladım. Kapandı o konu."
+  },
+  {
+   "key": "case005.murat_follow.files.question",
+   "value": "Ece’nin şirketle ilgili bir derdi var mıydı?"
+  },
+  {
+   "key": "case005.murat_follow.message.answer",
+   "value": "Ece sunumdan önce yüz yüze konuşmak istedi. Ben de yol üstü bir yer söyledim. Gitmedim zaten. Yorgundum, vazgeçtim."
+  },
+  {
+   "key": "case005.murat_follow.message.answer.demeanor",
+   "value": "Mesajı okurken çenesi bir an kasıldı."
+  },
+  {
+   "key": "case005.murat_follow.message.question",
+   "value": "“Rıhtım. 23.15. Yalnız gel.” Bu da mı sunumdu?"
+  },
+  {
+   "key": "case005.murat_follow.title",
+   "value": "Murat Acar — ikinci görüşme"
+  },
+  {
+   "key": "case005.murat_third.account.answer",
+   "value": "O hesap… geçici bir düzenlemeydi. Nakit akışı için. Bu konuyu avukatım olmadan konuşmayacağım."
+  },
+  {
+   "key": "case005.murat_third.account.answer.demeanor",
+   "value": "Yüzü kapandı; sesi düzleşti."
+  },
+  {
+   "key": "case005.murat_third.account.decoy.phone",
+   "value": "Telefonda iş konuştuk dedim ya."
+  },
+  {
+   "key": "case005.murat_third.account.question",
+   "value": "Müşteri ödemeleri neden başka bir hesaba gidiyor?"
+  },
+  {
+   "key": "case005.murat_third.body",
+   "value": "Otopark kamerasından sonra yapılan görüşme."
+  },
+  {
+   "key": "case005.murat_third.left.answer",
+   "value": "Arabanın yanında duruyordu. Yaya çıkışına bakıyordu, telefonuyla uğraşıyordu. Onu orada bıraktım. Gece yarısı, otoparkta… Evet, bıraktım."
+  },
+  {
+   "key": "case005.murat_third.left.question",
+   "value": "Siz çıktığınızda Ece neredeydi?"
+  },
+  {
+   "key": "case005.murat_third.met.answer",
+   "value": "…Gittim. Tamam. Ece şirketin dosyalarını almıştı, geri vermesini istedim. Konuştuk, sesimi yükselttim, evet. Ama ona dokunmadım. Kayıtta da var, bakın."
+  },
+  {
+   "key": "case005.murat_third.met.answer.demeanor",
+   "value": "Ellerini masaya düz koydu, sonra kucağına çekti."
+  },
+  {
+   "key": "case005.murat_third.met.decoy.phone",
+   "value": "Telefonu konuştuk zaten. Başka bir şey var mı?"
+  },
+  {
+   "key": "case005.murat_third.met.decoy.phone.demeanor",
+   "value": "Sabırsız bir nefes verdi."
+  },
+  {
+   "key": "case005.murat_third.met.question",
+   "value": "Gitmediğinizi söylediniz. Aracınız 23.11’de Rıhtım otoparkında."
+  },
+  {
+   "key": "case005.murat_third.said.answer",
+   "value": "‘Kopyalar başka bir yerde. Bana bir şey olursa ortaya çıkar’ dedi. Tehdit gibi. Sanki ben ona bir şey yapacakmışım gibi. Ben sadece konuşmak istiyordum."
+  },
+  {
+   "key": "case005.murat_third.said.answer.demeanor",
+   "value": "Son cümleyi söylerken sesi inceldi."
+  },
+  {
+   "key": "case005.murat_third.said.question",
+   "value": "Ece size ne dedi?"
+  },
+  {
+   "key": "case005.murat_third.title",
+   "value": "Murat Acar — üçüncü görüşme"
+  },
+  {
+   "key": "case005.nermin.body",
+   "value": "Alt kat komşusunun ifadesi."
+  },
+  {
+   "key": "case005.nermin.deflect",
+   "value": "Ben o kadarını bilemem, kusura bakmayın."
+  },
+  {
+   "key": "case005.nermin.evening.answer",
+   "value": "Sekiz gibi yukarıda bir erkek sesi vardı. Yüksek sesle konuşuyordu, kavga gibi. Sonra sustu, kapı çarptı. Kimdi bilmiyorum."
+  },
+  {
+   "key": "case005.nermin.evening.question",
+   "value": "Akşam binaya gelen birini fark ettiniz mi?"
+  },
+  {
+   "key": "case005.nermin.noise.answer",
+   "value": "Bir kapı sesi. Yukarıda Ece’nin kapısı, sesini bilirim, biraz sert kapanır. Sonra merdivenden inen ayak sesi."
+  },
+  {
+   "key": "case005.nermin.noise.question",
+   "value": "Pazar gecesi ne duydunuz?"
+  },
+  {
+   "key": "case005.nermin.quote",
+   "value": "“Gece bir ara kapı sesi duydum.”"
+  },
+  {
+   "key": "case005.nermin.saw.answer",
+   "value": "Pencereden baktım. Ece’ydi, sokağa çıktı. Omzunda küçük bir çanta vardı. Saat? Gece yarısına doğru herhalde. Haberler bitmişti… ya da bitmek üzereydi. Emin değilim."
+  },
+  {
+   "key": "case005.nermin.saw.answer.demeanor",
+   "value": "Saati söylerken parmaklarıyla bir şey sayar gibi yaptı, sonra vazgeçti."
+  },
+  {
+   "key": "case005.nermin.saw.question",
+   "value": "Kimin indiğini gördünüz mü?"
+  },
+  {
+   "key": "case005.nermin.title",
+   "value": "Nermin Öztürk — görüşme"
+  },
+  {
+   "key": "case005.offer.subtitle",
+   "value": "SON GÖRÜLDÜĞÜ YER  /  KAYIP ŞAHIS"
+  },
+  {
+   "key": "case005.offer.summary",
+   "value": "Kadıköy’de yalnız yaşayan bir iç mimar Pazartesi sabahı ortadan kayboluyor. Evde zorlama yok, pasaportu çekmecede, telefonu Pazar gecesinden beri kapalı. Bildirim masanızda."
+  },
+  {
+   "key": "case005.offer.title",
+   "value": "DOSYA #005"
+  },
+  {
+   "key": "case005.parking.body",
+   "value": "Kadıköy Rıhtım katlı otoparkının iki kamerasının 15 Kasım 23.00 – 23.40 arası döküm kaydı. Kamera 03 yaya girişini ve zemin katı, Kamera 04 araç giriş-çıkışını görüyor."
+  },
+  {
+   "key": "case005.parking.title",
+   "value": "RIHTIM OTOPARKI KAMERALARI — kayıt dökümü"
+  },
+  {
+   "key": "case005.parking_late.body",
+   "value": "Aynı otoparkın kameralarının 15 Kasım 23.40 – 16 Kasım 01.00 arası ek döküm kaydı. Aralıkta araç giriş-çıkışı yok."
+  },
+  {
+   "key": "case005.parking_late.title",
+   "value": "RIHTIM OTOPARKI — geniş aralık dökümü"
+  },
+  {
+   "key": "case005.person.asli.info",
+   "value": "28 yaşında, hemşire. Ece Karaca’nın kardeşi; kayıp bildirimini yapan kişi."
+  },
+  {
+   "key": "case005.person.asli.name",
+   "value": "Aslı Karaca"
+  },
+  {
+   "key": "case005.person.kaan.info",
+   "value": "33 yaşında, yazılımcı. Ece Karaca’nın eski sevgilisi; yaklaşık iki ay önce ayrılmışlar."
+  },
+  {
+   "key": "case005.person.kaan.name",
+   "value": "Kaan Erdem"
+  },
+  {
+   "key": "case005.person.levent.info",
+   "value": "40 yaşında, Keskin Yapı’nın sahibi. Ece Karaca’nın son aylarda çalıştığı müşterisi."
+  },
+  {
+   "key": "case005.person.levent.name",
+   "value": "Levent Keskin"
+  },
+  {
+   "key": "case005.person.murat.info",
+   "value": "38 yaşında, iç mimar. Ece Karaca’nın iş ortağı; Karaca Acar Tasarım’ın kurucularından."
+  },
+  {
+   "key": "case005.person.murat.name",
+   "value": "Murat Acar"
+  },
+  {
+   "key": "case005.person.nermin.info",
+   "value": "36 yaşında, çevirmen. Ece Karaca’yla aynı binada, bir alt katta oturuyor."
+  },
+  {
+   "key": "case005.person.nermin.name",
+   "value": "Nermin Öztürk"
+  },
+  {
+   "key": "case005.phone.body",
+   "value": "Ece Karaca adına kayıtlı hattın 15 Kasım arama ve mesaj dökümü (içerik yalnız mesajlar için).\n\n19.58 · Kaan Erdem’den mesaj: “Aşağıdayım. Beş dakika.”\n21.06 · Aslı Karaca ile giden arama, 4 dk. 12 sn.\n21.52 · Murat Acar’dan gelen arama, 11 dk. 08 sn.\n22.05 · Murat Acar’dan mesaj: “Rıhtım. 23.15. Yalnız gel.”\n22.40 · Murat Acar’a giden mesaj: “Geliyorum.”\n\n23.41 · Son veri bağlantısı. 23.47 · Cihaz şebekeden çıkıyor; o saatten beri kapalı."
+  },
+  {
+   "key": "case005.phone.title",
+   "value": "TELEFON TRAFİK RAPORU — ECE KARACA"
+  },
+  {
+   "key": "case005.report.body",
+   "value": "Ece Karaca’ya (31) 16 Kasım Pazartesi günü saat 09.30’dan itibaren ulaşılamadığı bildirilmiştir. Bildirimi kardeşi Aslı Karaca yapmıştır.\n\nKaraca, Kadıköy Moda’da yalnız yaşamaktadır; serbest çalışan bir iç mimardır. Pazartesi sabahı bir müşteri toplantısına katılmamış, iş ortağı kendisine ulaşamamıştır. Telefonu kapalıdır.\n\nKonutunda yapılan ilk kontrolde zorla giriş veya fiziksel mücadele belirtisine rastlanmamıştır. Kişisel bilgisayarı ve pasaportu konutta bulunmuştur.\n\nKaraca’nın son doğrulanmış temasının bir önceki akşam gerçekleştiği düşünülmektedir."
+  },
+  {
+   "key": "case005.report.title",
+   "value": "KAYIP ŞAHIS BİLDİRİMİ"
+  },
+  {
+   "key": "case005.request.bank",
+   "value": "Şirket tahsilat kayıtlarının incelenmesini iste"
+  },
+  {
+   "key": "case005.request.cloud",
+   "value": "Şirketin bulut erişim kaydını iste"
+  },
+  {
+   "key": "case005.request.deposit",
+   "value": "Hukuk bürosunun emanet kaydını iste"
+  },
+  {
+   "key": "case005.request.home",
+   "value": "Ece Karaca’nın konutunun incelenmesini iste"
+  },
+  {
+   "key": "case005.request.invoice",
+   "value": "Levent Keskin’in fatura ve yazışmalarını iste"
+  },
+  {
+   "key": "case005.request.laptop",
+   "value": "Dizüstü bilgisayarın incelenmesini iste"
+  },
+  {
+   "key": "case005.request.phone",
+   "value": "Ece Karaca’nın telefon trafik raporunu iste"
+  },
+  {
+   "key": "case005.request.signal",
+   "value": "Telefonun baz istasyonu kaydını iste"
+  },
+  {
+   "key": "case005.signal.body",
+   "value": "Ece Karaca’nın hattının 15 Kasım gecesi baz istasyonu kayıtları:\n\n22.47 · Moda, konut çevresi.\n23.02 · Kadıköy Rıhtım, katlı otopark çevresi.\n23.02 – 23.41 · Aynı hücre; konum değişmiyor.\n23.41 · Son veri bağlantısı.\n23.47 · Cihaz şebekeden çıkıyor.\n\nKapanış kaydı, pilin bitmesiyle değil, cihazın kullanıcı tarafından kapatılmasıyla uyumlu."
+  },
+  {
+   "key": "case005.signal.title",
+   "value": "BAZ VE SON BAĞLANTI RAPORU — ECE KARACA"
+  },
+  {
+   "key": "case005.summary.evidence",
+   "value": "Otopark ek dökümü, Murat gittikten yarım saat sonra bir kadının yalnız ve yürüyerek çıktığını gösteriyor; çantası 22.41 karesindekiyle aynı. Baz kaydı telefonun elle kapandığını, konut notu eşyaların önceden toplandığını, emanet kaydı da kaybolmanın planlandığını gösteriyor. Bulut kaydı, fatura ve hesap incelemesi Murat’ın baskısının sebebini ortaya koyuyor; kamerada temas yok."
+  },
+  {
+   "key": "case005.summary.lesson",
+   "value": "Yalan söyleyen herkes suçlu değildir: Aslı kardeşini, Kaan kendini korudu, Nermin yalnızca saati yanlış hatırladı. Murat’ın kirli işi onu saldırgan yapmadı. Bu dosyada bir fail değil, bir gece kurulacaktı."
+  },
+  {
+   "key": "case005.summary.location",
+   "value": "Kadıköy, Moda ve Rıhtım — 15–16 Kasım 2026"
+  },
+  {
+   "key": "case005.summary.truth",
+   "value": "Ece Karaca, iş ortağı Murat Acar’ın üç müşteri ödemesini başka bir hesaba yönlendirdiğini fark etti ve belgeleri sessizce topladı. Pazar 17.38’de klasörü indirince Murat’a bildirim gitti. Akşam eski sevgilisi Kaan Erdem geldi, tartıştılar, 20.39’da gitti. Murat 21.52’de aradı ve Ece’yi Rıhtım otoparkına çağırdı. Ece belgeleri USB’ye aldı, 22.46’da çıktı. Otoparkta Murat belgeleri geri istedi; Ece ‘Bana bir şey olursa ortaya çıkar’ dedi. Murat 23.34’te yalnız ayrıldı. Ece 23.47’de telefonunu kapattı, 00.08’de otoparktan yürüyerek çıktı ve önceden hazırladığı yere gitti. Kopyaları iki gün önce bir hukuk bürosuna bırakmıştı."
+  },
+  {
+   "key": "case005.suspect.label",
+   "value": "Ece nasıl kayboldu?"
+  },
+  {
+   "key": "case005.tablet.caseLine",
+   "value": "DOSYA #005  /  BUBE SORUŞTURMA BİRİMİ"
+  },
+  {
+   "key": "case005.time.asli_call",
+   "value": "21.06"
+  },
+  {
+   "key": "case005.time.baz_rihtim",
+   "value": "23.02"
+  },
+  {
+   "key": "case005.time.car_in",
+   "value": "23.11"
+  },
+  {
+   "key": "case005.time.car_out",
+   "value": "23.34"
+  },
+  {
+   "key": "case005.time.cloud_dl",
+   "value": "17.38"
+  },
+  {
+   "key": "case005.time.cloud_revoke",
+   "value": "18.05"
+  },
+  {
+   "key": "case005.time.ece_bag",
+   "value": "22.41"
+  },
+  {
+   "key": "case005.time.ece_home",
+   "value": "18.42"
+  },
+  {
+   "key": "case005.time.ece_leaves",
+   "value": "00.08"
+  },
+  {
+   "key": "case005.time.ece_out",
+   "value": "22.46"
+  },
+  {
+   "key": "case005.time.ece_walk",
+   "value": "23.16"
+  },
+  {
+   "key": "case005.time.kaan_claim",
+   "value": "21.00"
+  },
+  {
+   "key": "case005.time.kaan_in",
+   "value": "20.11"
+  },
+  {
+   "key": "case005.time.kaan_msg",
+   "value": "19.58"
+  },
+  {
+   "key": "case005.time.kaan_out",
+   "value": "20.39"
+  },
+  {
+   "key": "case005.time.last_data",
+   "value": "23.41"
+  },
+  {
+   "key": "case005.time.meet",
+   "value": "23.19"
+  },
+  {
+   "key": "case005.time.murat_call",
+   "value": "21.52"
+  },
+  {
+   "key": "case005.time.murat_claim",
+   "value": "23.15"
+  },
+  {
+   "key": "case005.time.murat_msg",
+   "value": "22.05"
+  },
+  {
+   "key": "case005.time.nermin_saw",
+   "value": "23.50"
+  },
+  {
+   "key": "case005.time.phone_off",
+   "value": "23.47"
+  },
+  {
+   "key": "case005.time.search",
+   "value": "22.24"
+  },
+  {
+   "key": "case005.time.usb",
+   "value": "22.18"
+  },
+  {
+   "key": "case005.title",
+   "value": "Dosya #005 — Son Görüldüğü Yer"
+  },
+  {
+   "key": "case005.verdict.abducted",
+   "value": "Zorla kaçırılma"
+  },
+  {
+   "key": "case005.verdict.accident",
+   "value": "Kaza"
+  },
+  {
+   "key": "case005.verdict.undetermined",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case005.verdict.voluntary",
+   "value": "Kendi isteğiyle uzaklaşma"
+  }
+ ]
+}

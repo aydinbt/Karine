@@ -259,6 +259,15 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Galeri: `KARINE_TOUR=case004 Tools/capture-screens.sh` masa, dosya, belge, CCTV, özet ve karşılaştırma sayfalarını da çeker.
 - [ ] Dosya #004 baştan sona Play Mode oynanışı (kullanıcı).
 
+### 4 Ekim 2026 — Dosya #005 "Son Görüldüğü Yer"
+
+- [~] Tasarım: `Docs/CASE005_DESIGN.md` — kayıp şahıs; kaybolma kendi isteğiyle, sebebi iş ortağının mali usulsüzlüğü; saldırı yok.
+- [~] Veri ve metin: `case005.json` (21 düğüm), `tr.case005.json` (280 metin). Doğrulayıcı vakayı otomatik çözüyor; 126/126 EditMode.
+- [~] Zincir: Dosya #004 → #005, haritada beşinci yuva.
+- [ ] Portreler (Aslı, Kaan, Murat, Nermin, Levent) ve vaka kapağı.
+- [ ] CCTV kareleri (22.41, 20.11, 23.19, 00.08).
+- [ ] Dosya #005 baştan sona Play Mode oynanışı (kullanıcı).
+
 ## Güncelleme kuralı
 
 Her geliştirme oturumunun sonunda:

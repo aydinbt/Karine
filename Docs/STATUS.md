@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**4 Ekim (gece):** **Dosya #005 "Son Görüldüğü Yer"** (kayıp şahıs) veriye girdi: 21 düğüm, 280 metin, #004’ün ardından zincirde. Rapor üç sütun: kaybolmanın niteliği, bağlantılı kişi+nitelik, fiziksel saldırı. Doğrulayıcı vakayı çözüyor; portre, kapak ve CCTV kareleri bekleniyor.
+
 **4 Ekim (akşam):** **Dosya #004 "Sessiz Kat"** veriye girdi (18 düğüm, 247 metin) ve #003'ün ardından zincire bağlandı. Doğrulayıcı vakayı baştan sona açıyor; insan eliyle oynanmadı. Portreler, kapak ve üç CCTV anının kareleri girdi; 22 ekranlık galeri çekimi alındı. Sırada kullanıcının Unity'de baştan sona oynaması var.
 
 **4 Ekim:** Kullanıcı Dosya #001 → #002 → #003'ü ve yeni arayüzü **Unity'de oynadı**; ROADMAP'teki oynanış/arayüz maddeleri `[x]`. Sorgu odasında kişi koltuğa oturuyor, masanın ön kenarı portrenin önünde; bardak ve kayıt cihazı kalktı. Pencereler sönerek kapanıyor. Gerçek kurum adı gömülü `DeskReference.png` silindi — açık içerik ihlali kalmadı. Ekran görüntüsü testleri artık batchmode'da koşuyor: **126 EditMode + 25/25 PlayMode**. `Tools/capture-screens.sh` sorgu ekranlarını toplar. Açık kalanlar: cihaz testi, reklam hesabı (kullanıcıda), yeni vakalar.
