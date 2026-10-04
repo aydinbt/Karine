@@ -395,7 +395,7 @@ Son doğrulama notu: Unity önizlemesi incelendi; ardından yalnız liste hizas�
 - [x] Rapor başlıkları vakadan: `suspectLabelKey`, `methodLabelKey` (sihirbaz, özet, faks, arşiv). Doğrulayıcı başlık metnini arıyor.
 - [x] Zincir: Dosya #002 → #003, Türkiye haritasında üçüncü yuva bağlandı.
 - [x] Portreler: Ozan, Seda, Barış (`Characters/`). Oyunda boyut/kırpma görülmedi.
-- [ ] Dosya #003 CCTV kareleri (altı an metin dökümü).
+- [x] Dosya #003 CCTV kareleri: beş kayıt kare dizisine bağlı (Ozan, Barış giriş/çıkış…); kullanıcı Unity'de oynadı.
 - [x] Dosya #001 → #002 → #003 baştan sona Play Mode oynanışı (kullanıcı). **Kullanıcı Unity'de oynadı (4 Ekim 2026).**
 
 ## 2 Ekim 2026 — Oyunu derinleştiren yedi iş

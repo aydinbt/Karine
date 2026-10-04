@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-**4 Ekim:** Kullanıcı Dosya #001 → #002 → #003'ü ve yeni arayüzü **Unity'de oynadı**; ROADMAP'teki oynanış/arayüz maddeleri `[x]`. Sorgu odasında kişi koltuğa oturuyor, masanın ön kenarı portrenin önünde; bardak ve kayıt cihazı kalktı. Pencereler sönerek kapanıyor. Gerçek kurum adı gömülü `DeskReference.png` silindi — açık içerik ihlali kalmadı. Ekran görüntüsü testleri artık batchmode'da koşuyor: **126 EditMode + 25/25 PlayMode**. `Tools/capture-screens.sh` sorgu ekranlarını toplar. Açık kalanlar: cihaz testi, reklam hesabı (kullanıcıda), #003 CCTV kareleri, yeni vakalar.
+**4 Ekim:** Kullanıcı Dosya #001 → #002 → #003'ü ve yeni arayüzü **Unity'de oynadı**; ROADMAP'teki oynanış/arayüz maddeleri `[x]`. Sorgu odasında kişi koltuğa oturuyor, masanın ön kenarı portrenin önünde; bardak ve kayıt cihazı kalktı. Pencereler sönerek kapanıyor. Gerçek kurum adı gömülü `DeskReference.png` silindi — açık içerik ihlali kalmadı. Ekran görüntüsü testleri artık batchmode'da koşuyor: **126 EditMode + 25/25 PlayMode**. `Tools/capture-screens.sh` sorgu ekranlarını toplar. Açık kalanlar: cihaz testi, reklam hesabı (kullanıcıda), yeni vakalar.
 
 **3 Ekim (akşam):** Sorgu odası ve "Kaydı öne sür" maket (`UI_INTERVIEW`) ile kuruldu; denenen kayıt o soruda tekrar listelenmez. Masada yalnız bakılmamış şeyi olan eşya yanıp söner, telefon yeni talep sayısını gösterir, "Yeni tutanak" dokunulur oldu. 128 EditMode + 22/25 PlayMode. Son hali **gözle görülmedi**.
 
