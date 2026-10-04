@@ -1032,3 +1032,8 @@ Oyun artık reklam için kendi onay penceresini göstermiyor ve ayarlarda reklam
 ## 4 Ekim 2026 — Dosya #005: fail seçmeyen rapor
 
 Kullanıcı kararı: #005'te rapor "kim yaptı" sormaz, geceyi kurdurur. Motor değişmedi; üç sütunun etiketleri vakaya özel: `verdicts` = kaybolmanın niteliği, `methods` = bağlantılı kişi ve bağlantının niteliği (Murat'ı doğru seçip yanlış niteliği yükleyen yanılır), `custody` = fiziksel saldırı. Senaryodaki Barış/Seda/Tolga, önceki vakalardaki adlarla çakıştığı için Kaan/Nermin/Levent oldu. 00.08 kaydı ve emanet kaydı kendiliğinden düşmez; sırasıyla Murat'ın üçüncü görüşmesindeki ve Aslı'nın ikinci görüşmesindeki bir soruyla erişilebilir olur. Vaka Kasım 2027'de geçer (#004'ün Ocak 2027'sinden sonra; #004 öne alınmadı); hafta günleri tutsun diye kaybolma gecesi 14 Kasım 2027 Pazar.
+
+## 4 Ekim 2026 — Dosya #006: iki katmanlı kayboluş
+
+Kullanıcı kararı: #006 aynı vakayı tekrar oynatmasın. Senaryo #005'e çok benzediği için kişi (Defne Yalın), meslek (hakediş uzmanı), usulsüzlük (sahte taşeron hakedişi) ve semt (Üsküdar) değişti; çakışan adlar yenilendi. Rapor dört soru yerine motorun üç sütununa oturdu: ilk kayboluş, 23.41 mesajını gönderen, takibi organize eden ("üçüncü kişi müdahalesi" sorusu ilk ikisinden çıktığı için düştü). "Kendi isteğiyle" tek başına doğru ama eksiktir. Mantık açığı kapandı: gizli yeni hattın numarası şirket kayıtlarında olamazdı; Defne'nin 21.40 "deneme" mesajı ve kilidi kendisinin kapatması numarayı Cem'e verir. Kayıp kişinin kendisi sonda görüşme listesine girer.
+

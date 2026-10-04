@@ -270,6 +270,16 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [ ] CCTV kareleri (20.11, 22.41, 23.19, 00.08) — önce iki boş zemin: Moda apartman ön kapısı ve Rıhtım otoparkı zemin katı (prompt'lar verildi); kişili kareler sonra.
 - [ ] Dosya #005 baştan sona Play Mode oynanışı (kullanıcı).
 
+### 4 Ekim 2026 — Dosya #006 "Son Mesaj"
+
+- [~] Tasarım: `Docs/CASE006_DESIGN.md` — kayıp kişi; ilk kayboluş Defne'nin planı, 23.41 mesajı Cem'in, takip Halil'in. #005'ten ayrışsın diye kişi, meslek, usulsüzlük ve semt değişti.
+- [~] Veri ve metin: `case006.json` (24 düğüm), `tr.case006.json` (323 metin). Doğrulayıcı vakayı otomatik çözüyor; `Case006Rules` kırılma kayıtlarının soruyla açıldığını ve "eksik doğru" raporların desteklenmediğini sabitliyor. 126/126 EditMode, 25/25 PlayMode.
+- [~] Zincir: Dosya #005 → #006, haritada altıncı yuva; galeri listesinde.
+- [ ] Portreler (Buse, Halil, Onur, Cem, Defne, Sevim) — şimdilik yordamsal yer tutucu.
+- [ ] Vaka kapağı.
+- [ ] CCTV kareleri (apartman 22.38, kafe 20.49, sahil 21.51 / 22.02 / 00.06).
+- [ ] Dosya #006 baştan sona Play Mode oynanışı (kullanıcı).
+
 ## Güncelleme kuralı
 
 Her geliştirme oturumunun sonunda:
