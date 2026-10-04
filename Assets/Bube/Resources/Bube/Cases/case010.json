@@ -1,0 +1,1490 @@
+{
+ "id": "case010",
+ "deskHour": 9,
+ "deskDate": "15 Ocak 2029",
+ "titleKey": "case010.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case010.report.title",
+   "bodyKey": "case010.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case010.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case010.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case010.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case010.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case010.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "scene",
+   "kind": "document",
+   "titleKey": "case010.scene.title",
+   "bodyKey": "case010.scene.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "agenda",
+   "kind": "document",
+   "titleKey": "case010.agenda.title",
+   "bodyKey": "case010.agenda.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "entrance",
+   "kind": "cctv",
+   "titleKey": "case010.entrance.title",
+   "bodyKey": "case010.entrance.body",
+   "requires": [
+    "report"
+   ],
+   "cctvSourceKey": "case010.cctv.source",
+   "cctvOverlayKey": "case010.cctv.overlay",
+   "cctvPeriodKey": "case010.cctv.period",
+   "cctvEvents": [
+    {
+     "textKey": "case010.cctv.event.taylan_in",
+     "delayMs": 620,
+     "id": "taylan_in",
+     "overlayTimeKey": "case010.time.taylan_in"
+    },
+    {
+     "textKey": "case010.cctv.event.hood_in",
+     "delayMs": 620,
+     "id": "hood_in",
+     "overlayTimeKey": "case010.time.hood_in",
+     "aboutPersonIds": [
+      "serkan"
+     ]
+    },
+    {
+     "textKey": "case010.cctv.event.hood_out",
+     "delayMs": 620,
+     "id": "hood_out",
+     "overlayTimeKey": "case010.time.hood_out",
+     "aboutPersonIds": [
+      "serkan"
+     ]
+    },
+    {
+     "textKey": "case010.cctv.event.gulsum_in",
+     "delayMs": 620,
+     "id": "gulsum_in",
+     "overlayTimeKey": "case010.time.gulsum_in",
+     "aboutPersonIds": [
+      "gulsum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gulsum",
+   "kind": "interview",
+   "titleKey": "case010.gulsum.title",
+   "bodyKey": "case010.gulsum.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "gulsum",
+   "personNameKey": "case010.person.gulsum.name",
+   "personInfoKey": "case010.person.gulsum.info",
+   "questions": [
+    {
+     "id": "case010.gulsum.found",
+     "promptKey": "case010.gulsum.found.question",
+     "answerKey": "case010.gulsum.found.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case010.gulsum.routine",
+     "promptKey": "case010.gulsum.routine.question",
+     "answerKey": "case010.gulsum.routine.answer",
+     "topicKey": "interview.topic.home",
+     "requiresAsked": [
+      "case010.gulsum.found"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.gulsum.found",
+    "case010.gulsum.routine"
+   ],
+   "deflectAnswerKey": "case010.gulsum.deflect",
+   "portrait": {
+    "hairHex": "#6A625A",
+    "skinHex": "#B88C6A",
+    "shirtHex": "#4A5A6A"
+   },
+   "personQuoteKey": "case010.gulsum.quote"
+  },
+  {
+   "id": "pelin",
+   "kind": "interview",
+   "titleKey": "case010.pelin.title",
+   "bodyKey": "case010.pelin.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "pelin",
+   "personNameKey": "case010.person.pelin.name",
+   "personInfoKey": "case010.person.pelin.info",
+   "questions": [
+    {
+     "id": "case010.pelin.marriage",
+     "promptKey": "case010.pelin.marriage.question",
+     "answerKey": "case010.pelin.marriage.answer",
+     "topicKey": "interview.topic.relationships"
+    },
+    {
+     "id": "case010.pelin.night",
+     "promptKey": "case010.pelin.night.question",
+     "answerKey": "case010.pelin.night.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case010.pelin.marriage"
+     ]
+    },
+    {
+     "id": "case010.pelin.enemies",
+     "promptKey": "case010.pelin.enemies.question",
+     "answerKey": "case010.pelin.enemies.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case010.pelin.marriage"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.pelin.marriage",
+    "case010.pelin.night"
+   ],
+   "deflectAnswerKey": "case010.pelin.deflect",
+   "portrait": {
+    "hairHex": "#3A2A22",
+    "skinHex": "#C8A080",
+    "shirtHex": "#6A5A50",
+    "longHair": true
+   },
+   "personQuoteKey": "case010.pelin.quote"
+  },
+  {
+   "id": "id_serkan",
+   "kind": "document",
+   "titleKey": "case010.id_serkan.title",
+   "bodyKey": "case010.id_serkan.body",
+   "requires": [
+    "entrance"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.id_serkan",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "serkan",
+   "kind": "interview",
+   "titleKey": "case010.serkan.title",
+   "bodyKey": "case010.serkan.body",
+   "requires": [
+    "id_serkan"
+   ],
+   "personId": "serkan",
+   "personNameKey": "case010.person.serkan.name",
+   "personInfoKey": "case010.person.serkan.info",
+   "questions": [
+    {
+     "id": "case010.serkan.night",
+     "promptKey": "case010.serkan.night.question",
+     "answerKey": "case010.serkan.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case010.serkan.money",
+     "promptKey": "case010.serkan.money.question",
+     "answerKey": "case010.serkan.money.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case010.serkan.night"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.serkan.night",
+    "case010.serkan.money"
+   ],
+   "deflectAnswerKey": "case010.serkan.deflect",
+   "portrait": {
+    "hairHex": "#241E1A",
+    "skinHex": "#B8896A",
+    "shirtHex": "#3A3A3E"
+   },
+   "personQuoteKey": "case010.serkan.quote"
+  },
+  {
+   "id": "serkan_2",
+   "kind": "interview",
+   "titleKey": "case010.serkan_2.title",
+   "bodyKey": "case010.serkan_2.body",
+   "requires": [
+    "serkan"
+   ],
+   "personId": "serkan",
+   "personNameKey": "case010.person.serkan.name",
+   "personInfoKey": "case010.person.serkan.info",
+   "questions": [
+    {
+     "id": "case010.serkan_2.went",
+     "promptKey": "case010.serkan_2.went.question",
+     "answerKey": "case010.serkan_2.went.answer",
+     "topicKey": "interview.topic.day",
+     "presentedSourceIds": [
+      "entrance#hood_in"
+     ]
+    },
+    {
+     "id": "case010.serkan_2.alive",
+     "promptKey": "case010.serkan_2.alive.question",
+     "answerKey": "case010.serkan_2.alive.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case010.serkan_2.went"
+     ]
+    },
+    {
+     "id": "case010.serkan_2.laptop",
+     "promptKey": "case010.serkan_2.laptop.question",
+     "answerKey": "case010.serkan_2.laptop.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case010.serkan_2.went"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.serkan_2.went",
+    "case010.serkan_2.alive"
+   ],
+   "deflectAnswerKey": "case010.serkan.deflect",
+   "portrait": {
+    "hairHex": "#241E1A",
+    "skinHex": "#B8896A",
+    "shirtHex": "#3A3A3E"
+   }
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case010.autopsy.title",
+   "bodyKey": "case010.autopsy.body",
+   "requires": [
+    "scene"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.autopsy",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "glasses",
+   "kind": "document",
+   "titleKey": "case010.glasses.title",
+   "bodyKey": "case010.glasses.body",
+   "requires": [
+    "scene"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.glasses",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "glass_match",
+   "kind": "document",
+   "titleKey": "case010.glass_match.title",
+   "bodyKey": "case010.glass_match.body",
+   "requires": [
+    "glasses"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.glass_match",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "baran",
+   "kind": "interview",
+   "titleKey": "case010.baran.title",
+   "bodyKey": "case010.baran.body",
+   "requires": [
+    "glass_match"
+   ],
+   "personId": "baran",
+   "personNameKey": "case010.person.baran.name",
+   "personInfoKey": "case010.person.baran.info",
+   "questions": [
+    {
+     "id": "case010.baran.know",
+     "promptKey": "case010.baran.know.question",
+     "answerKey": "case010.baran.know.answer",
+     "topicKey": "interview.topic.relationships"
+    },
+    {
+     "id": "case010.baran.night",
+     "promptKey": "case010.baran.night.question",
+     "answerKey": "case010.baran.night.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case010.baran.know"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.baran.know",
+    "case010.baran.night"
+   ],
+   "deflectAnswerKey": "case010.baran.deflect",
+   "portrait": {
+    "hairHex": "#1A1816",
+    "skinHex": "#A87C5A",
+    "shirtHex": "#1E2228"
+   },
+   "personQuoteKey": "case010.baran.quote"
+  },
+  {
+   "id": "line_office",
+   "kind": "document",
+   "titleKey": "case010.line_office.title",
+   "bodyKey": "case010.line_office.body",
+   "requires": [
+    "scene"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.line_office",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "scene",
+      "entrance"
+     ]
+    },
+    {
+     "sources": [
+      "gulsum",
+      "entrance"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "plan",
+   "kind": "document",
+   "titleKey": "case010.plan.title",
+   "bodyKey": "case010.plan.body",
+   "requires": [
+    "line_office"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.plan",
+   "requestDelaySeconds": 6,
+   "line": "line_office"
+  },
+  {
+   "id": "freight",
+   "kind": "document",
+   "titleKey": "case010.freight.title",
+   "bodyKey": "case010.freight.body",
+   "requires": [
+    "line_office"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.freight",
+   "requestDelaySeconds": 6,
+   "line": "line_office"
+  },
+  {
+   "id": "window",
+   "kind": "document",
+   "titleKey": "case010.window.title",
+   "bodyKey": "case010.window.body",
+   "requires": [
+    "line_office"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.window",
+   "requestDelaySeconds": 6,
+   "line": "line_office"
+  },
+  {
+   "id": "line_money",
+   "kind": "document",
+   "titleKey": "case010.line_money.title",
+   "bodyKey": "case010.line_money.body",
+   "requires": [
+    "agenda"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.line_money",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "agenda",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "agenda",
+      "scene"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "bank",
+   "kind": "document",
+   "titleKey": "case010.bank.title",
+   "bodyKey": "case010.bank.body",
+   "requires": [
+    "line_money"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.bank",
+   "requestDelaySeconds": 6,
+   "line": "line_money"
+  },
+  {
+   "id": "reservation",
+   "kind": "document",
+   "titleKey": "case010.reservation.title",
+   "bodyKey": "case010.reservation.body",
+   "requires": [
+    "line_money",
+    "bank"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.reservation",
+   "requestDelaySeconds": 6,
+   "line": "line_money"
+  },
+  {
+   "id": "mavi_q",
+   "kind": "document",
+   "titleKey": "case010.mavi_q.title",
+   "bodyKey": "case010.mavi_q.body",
+   "requires": [
+    "line_money"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.mavi_q",
+   "requestDelaySeconds": 6,
+   "line": "line_money"
+  },
+  {
+   "id": "xfile",
+   "kind": "document",
+   "titleKey": "case010.xfile.title",
+   "bodyKey": "case010.xfile.body",
+   "requires": [
+    "agenda"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.xfile",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "mavi",
+   "kind": "document",
+   "titleKey": "case010.mavi.title",
+   "bodyKey": "case010.mavi.body",
+   "requires": [
+    "bank"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.mavi",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "bank",
+      "agenda"
+     ]
+    },
+    {
+     "sources": [
+      "bank",
+      "mavi_q"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  },
+  {
+   "id": "usb",
+   "kind": "document",
+   "titleKey": "case010.usb.title",
+   "bodyKey": "case010.usb.body",
+   "requires": [
+    "mavi"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.usb",
+   "requestDelaySeconds": 6,
+   "aboutPersonIds": [
+    "baran",
+    "pelin"
+   ]
+  },
+  {
+   "id": "phone",
+   "kind": "document",
+   "titleKey": "case010.phone.title",
+   "bodyKey": "case010.phone.body",
+   "requires": [
+    "mavi"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.phone",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "nehir",
+   "kind": "interview",
+   "titleKey": "case010.nehir.title",
+   "bodyKey": "case010.nehir.body",
+   "requires": [
+    "agenda"
+   ],
+   "personId": "nehir",
+   "personNameKey": "case010.person.nehir.name",
+   "personInfoKey": "case010.person.nehir.info",
+   "questions": [
+    {
+     "id": "case010.nehir.why",
+     "promptKey": "case010.nehir.why.question",
+     "answerKey": "case010.nehir.why.answer",
+     "topicKey": "interview.topic.relationships"
+    },
+    {
+     "id": "case010.nehir.pay",
+     "promptKey": "case010.nehir.pay.question",
+     "answerKey": "case010.nehir.pay.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case010.nehir.why"
+     ]
+    },
+    {
+     "id": "case010.nehir.night",
+     "promptKey": "case010.nehir.night.question",
+     "answerKey": "case010.nehir.night.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case010.nehir.why"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.nehir.why",
+    "case010.nehir.night"
+   ],
+   "deflectAnswerKey": "case010.nehir.deflect",
+   "portrait": {
+    "hairHex": "#5A3A2A",
+    "skinHex": "#CFA688",
+    "shirtHex": "#2E3440",
+    "longHair": true
+   },
+   "personQuoteKey": "case010.nehir.quote"
+  },
+  {
+   "id": "event_fire",
+   "kind": "document",
+   "titleKey": "case010.event_fire.title",
+   "bodyKey": "case010.event_fire.body",
+   "requires": [
+    "nehir"
+   ]
+  },
+  {
+   "id": "fire_link",
+   "kind": "document",
+   "titleKey": "case010.fire_link.title",
+   "bodyKey": "case010.fire_link.body",
+   "requires": [
+    "event_fire"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.fire_link",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "event_fire",
+      "nehir"
+     ]
+    },
+    {
+     "sources": [
+      "event_fire",
+      "agenda"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "scope"
+  },
+  {
+   "id": "car",
+   "kind": "document",
+   "titleKey": "case010.car.title",
+   "bodyKey": "case010.car.body",
+   "requires": [
+    "fire_link"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.car",
+   "requestDelaySeconds": 6,
+   "aboutPersonIds": [
+    "nehir"
+   ]
+  },
+  {
+   "id": "line_nehir",
+   "kind": "document",
+   "titleKey": "case010.line_nehir.title",
+   "bodyKey": "case010.line_nehir.body",
+   "requires": [
+    "fire_link"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.line_nehir",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "car",
+      "nehir"
+     ]
+    },
+    {
+     "sources": [
+      "event_fire",
+      "nehir"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "n_phone",
+   "kind": "document",
+   "titleKey": "case010.n_phone.title",
+   "bodyKey": "case010.n_phone.body",
+   "requires": [
+    "line_nehir"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.n_phone",
+   "requestDelaySeconds": 6,
+   "line": "line_nehir"
+  },
+  {
+   "id": "n_work",
+   "kind": "document",
+   "titleKey": "case010.n_work.title",
+   "bodyKey": "case010.n_work.body",
+   "requires": [
+    "line_nehir"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.n_work",
+   "requestDelaySeconds": 6,
+   "line": "line_nehir"
+  },
+  {
+   "id": "n_card",
+   "kind": "document",
+   "titleKey": "case010.n_card.title",
+   "bodyKey": "case010.n_card.body",
+   "requires": [
+    "line_nehir"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.n_card",
+   "requestDelaySeconds": 6,
+   "line": "line_nehir"
+  },
+  {
+   "id": "nehir_2",
+   "kind": "interview",
+   "titleKey": "case010.nehir_2.title",
+   "bodyKey": "case010.nehir_2.body",
+   "requires": [
+    "nehir",
+    "car"
+   ],
+   "personId": "nehir",
+   "personNameKey": "case010.person.nehir.name",
+   "personInfoKey": "case010.person.nehir.info",
+   "questions": [
+    {
+     "id": "case010.nehir_2.car",
+     "promptKey": "case010.nehir_2.car.question",
+     "answerKey": "case010.nehir_2.car.answer",
+     "topicKey": "interview.topic.day",
+     "presentedSourceIds": [
+      "car"
+     ]
+    },
+    {
+     "id": "case010.nehir_2.why",
+     "promptKey": "case010.nehir_2.why.question",
+     "answerKey": "case010.nehir_2.why.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case010.nehir_2.car"
+     ]
+    },
+    {
+     "id": "case010.nehir_2.fire",
+     "promptKey": "case010.nehir_2.fire.question",
+     "answerKey": "case010.nehir_2.fire.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case010.nehir_2.car"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.nehir_2.car",
+    "case010.nehir_2.fire"
+   ],
+   "deflectAnswerKey": "case010.nehir.deflect",
+   "portrait": {
+    "hairHex": "#5A3A2A",
+    "skinHex": "#CFA688",
+    "shirtHex": "#2E3440",
+    "longHair": true
+   }
+  },
+  {
+   "id": "baran_2",
+   "kind": "interview",
+   "titleKey": "case010.baran_2.title",
+   "bodyKey": "case010.baran_2.body",
+   "requires": [
+    "baran",
+    "glass_match"
+   ],
+   "personId": "baran",
+   "personNameKey": "case010.person.baran.name",
+   "personInfoKey": "case010.person.baran.info",
+   "questions": [
+    {
+     "id": "case010.baran_2.glass",
+     "promptKey": "case010.baran_2.glass.question",
+     "answerKey": "case010.baran_2.glass.answer",
+     "topicKey": "interview.topic.day",
+     "presentedSourceIds": [
+      "glass_match"
+     ]
+    },
+    {
+     "id": "case010.baran_2.state",
+     "promptKey": "case010.baran_2.state.question",
+     "answerKey": "case010.baran_2.state.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case010.baran_2.glass"
+     ]
+    },
+    {
+     "id": "case010.baran_2.left",
+     "promptKey": "case010.baran_2.left.question",
+     "answerKey": "case010.baran_2.left.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case010.baran_2.glass"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.baran_2.glass",
+    "case010.baran_2.state"
+   ],
+   "deflectAnswerKey": "case010.baran.deflect",
+   "portrait": {
+    "hairHex": "#1A1816",
+    "skinHex": "#A87C5A",
+    "shirtHex": "#1E2228"
+   }
+  },
+  {
+   "id": "pelin_2",
+   "kind": "interview",
+   "titleKey": "case010.pelin_2.title",
+   "bodyKey": "case010.pelin_2.body",
+   "requires": [
+    "pelin",
+    "phone"
+   ],
+   "personId": "pelin",
+   "personNameKey": "case010.person.pelin.name",
+   "personInfoKey": "case010.person.pelin.info",
+   "questions": [
+    {
+     "id": "case010.pelin_2.threat",
+     "promptKey": "case010.pelin_2.threat.question",
+     "answerKey": "case010.pelin_2.threat.answer",
+     "topicKey": "interview.topic.relationships",
+     "presentedSourceIds": [
+      "phone"
+     ]
+    },
+    {
+     "id": "case010.pelin_2.dinner",
+     "promptKey": "case010.pelin_2.dinner.question",
+     "answerKey": "case010.pelin_2.dinner.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case010.pelin_2.threat"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.pelin_2.threat",
+    "case010.pelin_2.dinner"
+   ],
+   "deflectAnswerKey": "case010.pelin.deflect",
+   "portrait": {
+    "hairHex": "#3A2A22",
+    "skinHex": "#C8A080",
+    "shirtHex": "#6A5A50",
+    "longHair": true
+   }
+  },
+  {
+   "id": "rest_req",
+   "kind": "document",
+   "titleKey": "case010.rest_req.title",
+   "bodyKey": "case010.rest_req.body",
+   "requires": [
+    "reservation"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case010.request.rest_req",
+   "requestDelaySeconds": 10,
+   "warrant": [
+    {
+     "sources": [
+      "reservation",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "reservation",
+      "phone"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  },
+  {
+   "id": "restaurant",
+   "kind": "cctv",
+   "titleKey": "case010.restaurant.title",
+   "bodyKey": "case010.restaurant.body",
+   "requires": [
+    "rest_req"
+   ],
+   "cctvSourceKey": "case010.cctv.source2",
+   "cctvOverlayKey": "case010.cctv.overlay2",
+   "cctvPeriodKey": "case010.cctv.period2",
+   "cctvEvents": [
+    {
+     "textKey": "case010.cctv.event.p_in",
+     "delayMs": 620,
+     "id": "p_in",
+     "overlayTimeKey": "case010.time.p_in",
+     "aboutPersonIds": [
+      "pelin"
+     ]
+    },
+    {
+     "textKey": "case010.cctv.event.t_in",
+     "delayMs": 620,
+     "id": "t_in",
+     "overlayTimeKey": "case010.time.t_in"
+    },
+    {
+     "textKey": "case010.cctv.event.argue",
+     "delayMs": 620,
+     "id": "argue",
+     "overlayTimeKey": "case010.time.argue",
+     "aboutPersonIds": [
+      "pelin"
+     ]
+    },
+    {
+     "textKey": "case010.cctv.event.pour",
+     "delayMs": 620,
+     "id": "pour",
+     "overlayTimeKey": "case010.time.pour",
+     "aboutPersonIds": [
+      "pelin"
+     ]
+    },
+    {
+     "textKey": "case010.cctv.event.drink",
+     "delayMs": 620,
+     "id": "drink",
+     "overlayTimeKey": "case010.time.drink"
+    },
+    {
+     "textKey": "case010.cctv.event.leave",
+     "delayMs": 620,
+     "id": "leave",
+     "overlayTimeKey": "case010.time.leave",
+     "aboutPersonIds": [
+      "pelin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pelin_3",
+   "kind": "interview",
+   "titleKey": "case010.pelin_3.title",
+   "bodyKey": "case010.pelin_3.body",
+   "requires": [
+    "pelin_2",
+    "restaurant"
+   ],
+   "personId": "pelin",
+   "personNameKey": "case010.person.pelin.name",
+   "personInfoKey": "case010.person.pelin.info",
+   "questions": [
+    {
+     "id": "case010.pelin_3.glass",
+     "promptKey": "case010.pelin_3.glass.question",
+     "answerKey": "case010.pelin_3.glass.answer",
+     "topicKey": "interview.topic.day",
+     "presentedSourceIds": [
+      "restaurant#pour"
+     ]
+    },
+    {
+     "id": "case010.pelin_3.dose",
+     "promptKey": "case010.pelin_3.dose.question",
+     "answerKey": "case010.pelin_3.dose.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case010.pelin_3.glass"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case010.pelin_3.glass",
+    "case010.pelin_3.dose"
+   ],
+   "deflectAnswerKey": "case010.pelin.deflect",
+   "portrait": {
+    "hairHex": "#3A2A22",
+    "skinHex": "#C8A080",
+    "shirtHex": "#6A5A50",
+    "longHair": true
+   }
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "msg",
+   "timeKey": "case010.time.msg",
+   "noteKey": "case010.clue.msg",
+   "sourceKey": "case010.clue.source.phone",
+   "sortMinute": 60,
+   "requiresRead": [
+    "phone"
+   ]
+  },
+  {
+   "id": "pos",
+   "timeKey": "case010.time.pos",
+   "noteKey": "case010.clue.pos",
+   "sourceKey": "case010.clue.source.bank",
+   "sortMinute": 150,
+   "requiresRead": [
+    "bank"
+   ]
+  },
+  {
+   "id": "restaurant_p_in",
+   "timeKey": "case010.time.p_in",
+   "noteKey": "case010.clue.restaurant_p_in",
+   "sourceKey": "case010.cctv.source2",
+   "sortMinute": 90,
+   "requiresRead": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "restaurant_t_in",
+   "timeKey": "case010.time.t_in",
+   "noteKey": "case010.clue.restaurant_t_in",
+   "sourceKey": "case010.cctv.source2",
+   "sortMinute": 120,
+   "requiresRead": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "restaurant_argue",
+   "timeKey": "case010.time.argue",
+   "noteKey": "case010.clue.restaurant_argue",
+   "sourceKey": "case010.cctv.source2",
+   "sortMinute": 180,
+   "requiresRead": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "restaurant_pour",
+   "timeKey": "case010.time.pour",
+   "noteKey": "case010.clue.restaurant_pour",
+   "sourceKey": "case010.cctv.source2",
+   "sortMinute": 210,
+   "requiresRead": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "restaurant_drink",
+   "timeKey": "case010.time.drink",
+   "noteKey": "case010.clue.restaurant_drink",
+   "sourceKey": "case010.cctv.source2",
+   "sortMinute": 240,
+   "requiresRead": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "restaurant_leave",
+   "timeKey": "case010.time.leave",
+   "noteKey": "case010.clue.restaurant_leave",
+   "sourceKey": "case010.cctv.source2",
+   "sortMinute": 270,
+   "requiresRead": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "entrance_taylan_in",
+   "timeKey": "case010.time.taylan_in",
+   "noteKey": "case010.clue.entrance_taylan_in",
+   "sourceKey": "case010.cctv.source",
+   "sortMinute": 300,
+   "requiresRead": [
+    "entrance"
+   ]
+  },
+  {
+   "id": "entrance_hood_in",
+   "timeKey": "case010.time.hood_in",
+   "noteKey": "case010.clue.entrance_hood_in",
+   "sourceKey": "case010.cctv.source",
+   "sortMinute": 360,
+   "requiresRead": [
+    "entrance"
+   ]
+  },
+  {
+   "id": "entrance_hood_out",
+   "timeKey": "case010.time.hood_out",
+   "noteKey": "case010.clue.entrance_hood_out",
+   "sourceKey": "case010.cctv.source",
+   "sortMinute": 420,
+   "requiresRead": [
+    "entrance"
+   ]
+  },
+  {
+   "id": "entrance_gulsum_in",
+   "timeKey": "case010.time.gulsum_in",
+   "noteKey": "case010.clue.entrance_gulsum_in",
+   "sourceKey": "case010.cctv.source",
+   "sortMinute": 600,
+   "requiresRead": [
+    "entrance"
+   ]
+  },
+  {
+   "id": "s_car",
+   "timeKey": "case010.time.s_car",
+   "noteKey": "case010.clue.s_car",
+   "sourceKey": "case010.clue.source.id",
+   "sortMinute": 330,
+   "requiresRead": [
+    "id_serkan"
+   ]
+  },
+  {
+   "id": "b_in",
+   "timeKey": "case010.time.b_in",
+   "noteKey": "case010.clue.b_in",
+   "sourceKey": "case010.clue.source.freight",
+   "sortMinute": 390,
+   "requiresRead": [
+    "freight"
+   ]
+  },
+  {
+   "id": "b_out",
+   "timeKey": "case010.time.b_out",
+   "noteKey": "case010.clue.b_out",
+   "sourceKey": "case010.clue.source.freight",
+   "sortMinute": 450,
+   "requiresRead": [
+    "freight"
+   ]
+  },
+  {
+   "id": "n_msg",
+   "timeKey": "case010.time.n_msg",
+   "noteKey": "case010.clue.n_msg",
+   "sourceKey": "case010.clue.source.nphone",
+   "sortMinute": 480,
+   "requiresRead": [
+    "n_phone"
+   ]
+  },
+  {
+   "id": "death",
+   "timeKey": "case010.time.death",
+   "noteKey": "case010.clue.death",
+   "sourceKey": "case010.clue.source.autopsy",
+   "sortMinute": 510,
+   "requiresRead": [
+    "autopsy"
+   ]
+  },
+  {
+   "id": "m3_in",
+   "timeKey": "case010.time.m3_in",
+   "noteKey": "case010.clue.m3_in",
+   "sourceKey": "case010.clue.source.freight",
+   "sortMinute": 540,
+   "requiresRead": [
+    "freight"
+   ]
+  },
+  {
+   "id": "m3_out",
+   "timeKey": "case010.time.m3_out",
+   "noteKey": "case010.clue.m3_out",
+   "sourceKey": "case010.clue.source.freight",
+   "sortMinute": 570,
+   "requiresRead": [
+    "freight"
+   ]
+  },
+  {
+   "id": "found",
+   "timeKey": "case010.time.found",
+   "noteKey": "case010.clue.found",
+   "sourceKey": "case010.clue.source.report",
+   "sortMinute": 630,
+   "requiresRead": [
+    "report"
+   ]
+  },
+  {
+   "id": "fire",
+   "timeKey": "case010.time.fire",
+   "noteKey": "case010.clue.fire",
+   "sourceKey": "case010.clue.source.fire",
+   "sortMinute": 660,
+   "requiresRead": [
+    "event_fire"
+   ]
+  },
+  {
+   "id": "p_claim",
+   "timeKey": "case010.time.p_claim",
+   "noteKey": "case010.clue.p_claim",
+   "sourceKey": "case010.person.pelin.name",
+   "sortMinute": 0,
+   "requiresAsked": [
+    "case010.pelin.night"
+   ]
+  },
+  {
+   "id": "s_claim",
+   "timeKey": "case010.time.s_claim",
+   "noteKey": "case010.clue.s_claim",
+   "sourceKey": "case010.person.serkan.name",
+   "sortMinute": 30,
+   "requiresAsked": [
+    "case010.serkan.night"
+   ]
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "pelin",
+   "labelKey": "case010.verdict.pelin",
+   "correct": true,
+   "feedbackKey": "case010.feedback.pelin",
+   "requires": [],
+   "supportingSourceIds": [
+    "restaurant",
+    "pelin_3",
+    "autopsy"
+   ],
+   "epilogueKey": "case010.epilogue.verdict.pelin"
+  },
+  {
+   "id": "serkan",
+   "labelKey": "case010.verdict.serkan",
+   "correct": false,
+   "feedbackKey": "case010.feedback.serkan",
+   "requires": [],
+   "epilogueKey": "case010.epilogue.verdict.serkan"
+  },
+  {
+   "id": "baran",
+   "labelKey": "case010.verdict.baran",
+   "correct": false,
+   "feedbackKey": "case010.feedback.baran",
+   "requires": [],
+   "epilogueKey": "case010.epilogue.verdict.baran"
+  },
+  {
+   "id": "nehir",
+   "labelKey": "case010.verdict.nehir",
+   "correct": false,
+   "feedbackKey": "case010.feedback.nehir",
+   "requires": [],
+   "epilogueKey": "case010.epilogue.verdict.nehir"
+  },
+  {
+   "id": "undetermined",
+   "labelKey": "case010.verdict.undetermined",
+   "correct": false,
+   "feedbackKey": "case010.feedback.undetermined",
+   "requires": [],
+   "epilogueKey": "case010.epilogue.verdict.undetermined"
+  }
+ ],
+ "methods": [
+  {
+   "id": "nehir",
+   "labelKey": "case010.method.nehir",
+   "correct": true,
+   "supportingSourceIds": [
+    "car",
+    "nehir_2",
+    "freight",
+    "n_card"
+   ]
+  },
+  {
+   "id": "baran",
+   "labelKey": "case010.method.baran",
+   "correct": false
+  },
+  {
+   "id": "serkan",
+   "labelKey": "case010.method.serkan",
+   "correct": false
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case010.method.unknown",
+   "correct": false
+  }
+ ],
+ "suspectLabelKey": "case010.suspect.label",
+ "methodLabelKey": "case010.method.label",
+ "custodyLabelKey": "case010.custody.label",
+ "custody": [
+  {
+   "id": "restaurant",
+   "labelKey": "case010.custody.restaurant",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "restaurant",
+    "baran_2",
+    "serkan_2"
+   ],
+   "epilogueKey": "case010.epilogue.custody.restaurant"
+  },
+  {
+   "id": "serkan_blow",
+   "labelKey": "case010.custody.serkan_blow",
+   "correct": false,
+   "epilogueKey": "case010.epilogue.custody.serkan_blow"
+  },
+  {
+   "id": "baran_drug",
+   "labelKey": "case010.custody.baran_drug",
+   "correct": false,
+   "epilogueKey": "case010.epilogue.custody.baran_drug"
+  },
+  {
+   "id": "nehir_poison",
+   "labelKey": "case010.custody.nehir_poison",
+   "correct": false,
+   "epilogueKey": "case010.epilogue.custody.nehir_poison"
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case010.custody.unknown",
+   "correct": false,
+   "epilogueKey": "case010.epilogue.custody.unknown"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "restaurant",
+   "labelKey": "case010.evidence.restaurant",
+   "correct": true,
+   "supportingSourceIds": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "entrance",
+   "labelKey": "case010.evidence.entrance",
+   "correct": false
+  },
+  {
+   "id": "glass_match",
+   "labelKey": "case010.evidence.glass_match",
+   "correct": false
+  },
+  {
+   "id": "car",
+   "labelKey": "case010.evidence.car",
+   "correct": false
+  },
+  {
+   "id": "autopsy",
+   "labelKey": "case010.evidence.autopsy",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "summary": {
+  "locationKey": "case010.summary.location",
+  "truthKey": "case010.summary.truth",
+  "evidenceKey": "case010.summary.evidence",
+  "lessonKey": "case010.summary.lesson"
+ },
+ "successfulReportTrustGain": 12,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "",
+ "ambienceId": "room_night",
+ "lineSlots": 2,
+ "lineReopenPenaltySeconds": 20,
+ "closedStampKey": "case010.closed.stamp",
+ "closedNoteKey": "case010.closed.note",
+ "reconstruction": [
+  {
+   "id": "r_dinner",
+   "labelKey": "case010.recon.r_dinner",
+   "supportingSourceIds": [
+    "restaurant",
+    "reservation",
+    "bank"
+   ]
+  },
+  {
+   "id": "k_serkan",
+   "labelKey": "case010.recon.k_serkan",
+   "supportingSourceIds": [
+    "entrance",
+    "id_serkan"
+   ]
+  },
+  {
+   "id": "f_fight",
+   "labelKey": "case010.recon.f_fight",
+   "supportingSourceIds": [
+    "serkan_2",
+    "scene"
+   ]
+  },
+  {
+   "id": "b_baran",
+   "labelKey": "case010.recon.b_baran",
+   "supportingSourceIds": [
+    "freight",
+    "glass_match",
+    "baran_2"
+   ]
+  },
+  {
+   "id": "d_death",
+   "labelKey": "case010.recon.d_death",
+   "supportingSourceIds": [
+    "autopsy"
+   ]
+  },
+  {
+   "id": "l_laptop",
+   "labelKey": "case010.recon.l_laptop",
+   "supportingSourceIds": [
+    "freight",
+    "n_phone",
+    "nehir_2",
+    "n_card",
+    "window"
+   ]
+  },
+  {
+   "id": "c_fire",
+   "labelKey": "case010.recon.c_fire",
+   "supportingSourceIds": [
+    "event_fire",
+    "car",
+    "nehir_2"
+   ]
+  }
+ ],
+ "chapterFinale": {
+  "countryKey": "finale.country.tr",
+  "progressKey": "finale.progress.tr",
+  "nextCountryKey": "finale.country.uk",
+  "nextFileKey": "finale.file.011"
+ }
+}

@@ -1056,3 +1056,7 @@ Düzeltmeler: oyun takvimi #007'den sonra Kasım 2028; eski olay 2006 (22 yıl k
 Kullanıcı kararı: oyuncu kurumsal kaynağı sınırlı kullanır. Hatlar önceden tanımlı (Arda / Emanet / Operasyon); aynı anda iki hat açık kalır. Kilitlenmeyi önlemek için kapatılan hat yeniden açılabilir; bedeli bekleme süresidir, ceza puanı yoktur. Hatlar açılırken iki dayanak ister, ret nötrdür. Vaka sonunda bir kez iç denetim zarfı düşer; doğru rapor "yetki genişletildi" satırı kazandırır (henüz oynanışa etkisi yok, ileriki vakalara bağlanabilir).
 
 Düzeltmeler: çakışan adlar değişti — Nermin Kaya → Nesrin Eker, Ali Rıza Demir → Ali Rıza Toprak. Takvim Aralık 2028. Hakan paketi iç kapıdan (kamera dışı) alır; silme Nesrin'in amirlik terminalinde açık kalan hesabıyla Ceren tarafından yapılır, Nesrin o saatte binada yoktur. Araçtaki iz delil nakliyle açıklanır (tuzak). Rapor üç sütun + laboratuvar delili.
+
+## 4 Ekim 2026 — Dosya #010 "Kırık Zincir": Türkiye finali
+
+Kullanıcı kararları: adlar önceki vakalara benzemez (Onur Keskin → Serkan Ural, Seda → Pelin Kor); vakalar bağımsız kalır, "hepsinin arkasında aynı örgüt" yok; sonraki ülke Birleşik Krallık; bölüm sonu sinematiği eklenir. Mantık düzeltmeleri: Nehir'in gelişi 02.04 mesajı + misafir kartıyla açıklanır; Baran DNA ile değil özel güvenlik kimlik kartı iz kaydıyla eşleşir; Pelin'in telefon kaydı yalnız ölüm aralığını kapsar. Rekonstrüksiyon ipucu vermez: kartlar karışık havuzda, doğruluk yalnız faksta görünür.

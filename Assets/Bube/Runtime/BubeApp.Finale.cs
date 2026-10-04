@@ -1,0 +1,34 @@
+using System;
+using System.Linq;
+using UnityEngine;
+
+namespace Bube {
+// Bölüm finali: onaylanan son dosyanın değerlendirmesi faks yerine telefonla gelir.
+// Telefon → personel belgesi → "ÜLKE — n / n" → yeni dosya; ardından faks tablosu açılır.
+// Vaka başına bir kez oynar.
+public sealed partial class BubeApp {
+ const string FinalePrefix="karine.finale.";
+ void ChapterFinale(string caseId,Action then) {
+  var asset=Resources.Load<TextAsset>("Bube/Cases/"+caseId);
+  var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
+  var finale=data?.chapterFinale;
+  if(finale==null || string.IsNullOrEmpty(finale.countryKey) || PlayerPrefs.GetInt(FinalePrefix+caseId,0)==1){then?.Invoke();return;}
+  PlayerPrefs.SetInt(FinalePrefix+caseId,1);PlayerPrefs.Save();
+  var lines=Enumerable.Range(1,5).Select(i=>"finale.call."+i).Where(locale.Has).Select(T).ToArray();
+  KarineUI.FinaleCall(root,T("finale.morning"),lines,()=>
+   KarineUI.PersonnelReview(root,T("finale.personnel"),PersonnelRows(caseId),T("finale.personnelBody"),T("finale.program"),T(finale.nextCountryKey),T("finale.closeFile"),()=>
+    KarineUI.ChapterComplete(root,T(finale.countryKey)+" — "+T(finale.progressKey),string.Format(T("finale.complete"),T(finale.countryKey)),()=>
+     KarineUI.NewFileDrop(root,T(finale.nextFileKey),T(finale.nextCountryKey),T("finale.sealed"),then))));
+ }
+ // Bölümdeki dosyalar bölüm seçici sırasıyla; durum yalnız değerlendirme geçmişinden.
+ (string,string)[] PersonnelRows(string caseId) {
+  var country=Worlds.Load().countries.FirstOrDefault(c=>c.slots.Any(s=>s.caseId==caseId));
+  if(country==null)return new (string,string)[0];
+  return country.slots.Where(s=>!string.IsNullOrEmpty(s.caseId)).Select(s=> {
+   var reviews=game.Career.reviewHistory.Where(r=>r.caseId==s.caseId).ToList();
+   bool approved=s.caseId==caseId || reviews.Any(r=>r.correct);
+   return (T(s.titleKey),T(approved?"finale.state.approved":reviews.Count>0?"finale.state.reviewed":"finale.state.none"));
+  }).ToArray();
+ }
+}
+}

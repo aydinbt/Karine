@@ -44,10 +44,13 @@ public sealed partial class BubeApp {
  void ConclusionStep(int step) {
   if(!game.CanConclude){FilePage();return;}
   var columns=ReportColumns();
-  int last=columns.Count;
+  // Rekonstrüksiyonlu vakada (#010) sütunlardan sonra kart dizme adımı gelir.
+  int recon=game.HasReconstruction?columns.Count:-1;
+  int last=columns.Count+(recon<0?0:1);
   step=Mathf.Clamp(step,0,last);
   showingInterviewList=false;
   Func<ReportColumn,bool> done=c=>c.pick()!=null;
+  Func<int,bool> stepDone=i=>i==recon?game.ReconComplete:done(columns[i]);
   Desk();
   KarineUI.InboxScene(root);
   KarineUI.DossierBar(root,T("back.file"),T(game.Data.titleKey),T("file.unit"),FilePage,out var tools);
@@ -55,20 +58,21 @@ public sealed partial class BubeApp {
   Back(FilePage);
   // Bir adıma ancak öncekilerin hepsi tamamsa atlanır; sütun yalnız ilerlemeyi gösterir.
   int reachable=0;
-  while(reachable<last && done(columns[reachable]))reachable++;
+  while(reachable<last && stepDone(reachable))reachable++;
   var rail=KarineUI.ReportRail(root);
   for(int i=0;i<=last;i++) {
    int target=i;
-   string label=i==last?T("conclude.step.send"):T(columns[i].headingKey);
-   string icon=i==last?"document":i==0?"person":"fingerprint";
-   KarineUI.ReportStep(rail,(i+1).ToString("00"),label,icon,i<last && done(columns[i]),i==step,i<=reachable,()=>ConclusionStep(target));
+   string label=i==last?T("conclude.step.send"):i==recon?T("recon.heading"):T(columns[i].headingKey);
+   string icon=i==last?"document":i==recon?"search":i==0?"person":"fingerprint";
+   KarineUI.ReportStep(rail,(i+1).ToString("00"),label,icon,i<last && stepDone(i),i==step,i<=reachable,()=>ConclusionStep(target));
   }
   var paper=KarineUI.ReportPaper(root);
   KarineUI.ReportHead(paper,T("conclude"),CaseNumber(),(step+1).ToString("00")+" / "+(last+1).ToString("00"),
    T(step==last?"conclude.reviewHelp":"conclude.stepHelp"));
   var scroll=new KarineScrollView(ScrollViewMode.Vertical);scroll.style.flexGrow=1;paper.Add(scroll);
   bool ready;
-  if(step<last) {
+  if(step==recon){ReconStep(scroll,step);ready=game.ReconComplete;}
+  else if(step<last) {
    var column=columns[step];
    KarineUI.ReportHeading(scroll,T(column.headingKey));
    bool suspects=column.headingKey==SuspectKey(game.Data);
@@ -90,7 +94,8 @@ public sealed partial class BubeApp {
     var target=columns.IndexOf(column);
     KarineUI.ReportSummaryRow(scroll,icon,T(column.headingKey),T(chosen.Value==null?"conclude.unselected":chosen.Value),null,null,()=>ConclusionStep(target));
    }
-   ready=columns.All(c=>done(c));
+   if(recon>=0)KarineUI.ReportSummaryRow(scroll,"search",T("recon.heading"),string.Format(T("recon.summary"),game.Recon.Count),null,null,()=>ConclusionStep(recon));
+   ready=columns.All(c=>done(c)) && game.ReconComplete;
   }
   var nav=KarineUI.ReportNav(paper);
   if(step>0)KarineUI.ReportNavButton(nav,T("conclude.previous"),false,true,()=>ConclusionStep(step-1),"nav_prev");
@@ -270,7 +275,7 @@ public sealed partial class BubeApp {
   Save();
   // Gerçek işleyiş: rapor gönderilince dosya değerlendirmeye gider; ancak onaylanırsa kapanır.
   // Onay faksı ilk açıldığında o dosyanın "KAPANDI" kartı oynar, faks arkasından basılır.
-  if(fax.correct && !fax.reopened){ClosedCard(fax.caseId,()=>EnvelopeCard(fax.caseId,()=>FaxSheet(fax)));return;}
+  if(fax.correct && !fax.reopened){ClosedCard(fax.caseId,()=>EnvelopeCard(fax.caseId,()=>ChapterFinale(fax.caseId,()=>FaxSheet(fax))));return;}
   FaxSheet(fax);
  }
  // Faks tablosundaki açıklama: masadaki faksla aynı gerekçe metni.
@@ -298,6 +303,7 @@ public sealed partial class BubeApp {
    if(person!=null)KarineUI.FaxRow(table,T(SuspectKey(reviewed)),T(person.labelKey)+"\n"+FaxReason(fax.suspectSourceId,fax.suspectSupported,"suspect"),Verdict(fax.suspectSupported));
    if(method!=null)KarineUI.FaxRow(table,T(MethodKey(reviewed)),T(method.labelKey)+"\n"+FaxReason(fax.methodSourceId,fax.methodSupported,"method"),Verdict(fax.methodSupported));
    if(custody!=null)KarineUI.FaxRow(table,ReportCustodyHeading(reviewed),T(custody.labelKey)+"\n"+FaxReason(fax.custodySourceId,fax.custodySupported,"custody"),Verdict(fax.custodySupported));
+   if(fax.hasRecon)KarineUI.FaxRow(table,T("recon.heading"),T(fax.reconSupported?"recon.fax.supported":"recon.fax.unsupported"),Verdict(fax.reconSupported));
    if(proof!=null)KarineUI.FaxRow(table,T("conclude.evidence"),T(proof.labelKey)+"\n"+FaxReason(fax.proofSourceId,fax.proofSupported,"evidence"),Verdict(fax.proofSupported));
    // Yalnız elimizdeki metin yazılır: dosyanın akıbeti (vaka verisi) ve kapanış notu.
    foreach(var key in new[]{person?.epilogueKey,custody?.epilogueKey}.Where(k=>!string.IsNullOrEmpty(k) && locale.Has(k)))KarineUI.FaxNote(body,T(key));

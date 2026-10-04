@@ -556,3 +556,11 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [ ] Cihazda test reklamının görünmesi (Android derlemesi).
 - [ ] Kullanıcının AdMob hesabı: gerçek uygulama ve reklam birimi kimlikleri.
 - [ ] Gizlilik politikası, Play "Data safety", AdMob'da UMP mesajının oluşturulması.
+
+### 4 Ekim 2026 — Dosya #010 "Kırık Zincir": kapsam genişletme, olay rekonstrüksiyonu, Türkiye bölüm finali
+
+- [~] Tasarım: `Docs/CASE010_DESIGN.md`. Veri: `case010.json` (39 düğüm; 3 hat, kapsam bağlantısı, 2 CCTV), `tr.case010.json` (323 metin). `Case010Rules`. 126/126 EditMode, 25/25 PlayMode.
+- [~] Olay rekonstrüksiyonu: `Investigation.Recon.cs`, `BubeApp.Recon.cs`, `KarineUI.ReconRow`; rapor adımı, faks satırı.
+- [~] Bölüm finali sinematiği: `BubeApp.Finale.cs`, `KarineUI.Finale.cs` (telefon → personel değerlendirmesi → TAMAMLANDI → DOSYA 011).
+- [~] Zincir: #009 → #010; her ülkeye onuncu yuva.
+- [ ] Rekonstrüksiyon ekranı, finale sinematiği ve Dosya #010 baştan sona Play Mode oynanışı (kullanıcı).

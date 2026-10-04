@@ -33,7 +33,7 @@ namespace Bube {
 // (0..1), boylece her video kendi filigran yerini soyleyebilir.
 [Serializable] public class CornerMark { public float x=.9055f; public float y=.8333f; public float w=.0609f; public float h=.1056f; }
 [Serializable] public class WorldIntro { public string id; public string firstCaseId; public string countryKey; public string locationKey; public string flagResource; public string videoPath; public bool graphicsEmbedded; public bool skipCoversCornerMark; public CornerMark skipMark; public bool deskArrival; public string deskArrivalVideo; public CornerMark deskArrivalMark; }
-[Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public Choice[] custody; public string custodyLabelKey; public string suspectLabelKey; public string methodLabelKey; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public string ambienceId; public string closedStampKey; public string closedNoteKey; public string coldCaseTitleKey; public string coldCaseStatusKey; public int lineSlots; public int lineReopenPenaltySeconds; public string envelopeTitleKey; public string envelopeStampKey; public string envelopeBodyKey; public bool grantsAuthority;
+[Serializable] public class CaseData { public string id; public string titleKey; public bool draft; public Node[] nodes; public TimelineClue[] timelineClues; public Verdict[] verdicts; public Choice[] methods; public Choice[] evidence; public string[] conclusionRequires; public Choice[] custody; public string custodyLabelKey; public string suspectLabelKey; public string methodLabelKey; public int successfulReportTrustGain; public int failedReportTrustLoss; public string nextCaseId; public string ambienceId; public string closedStampKey; public string closedNoteKey; public string coldCaseTitleKey; public string coldCaseStatusKey; public int lineSlots; public int lineReopenPenaltySeconds; public string envelopeTitleKey; public string envelopeStampKey; public string envelopeBodyKey; public bool grantsAuthority; public ReconCard[] reconstruction; public ChapterFinale chapterFinale;
  // Masanın hâli: vakanın masada geçtiği saat (0-23, -1 belirsiz) ve hava ("rain" ya da boş). Yalnız atmosfer; oynanışa girmez.
  public int deskHour = -1; public string deskDate; public string weather; public CaseSummary summary;
  // Mekânın durağan kareleri (Resources yolları): vaka ilk açıldığında kart öncesi oynar. Boşsa atlanır.
@@ -43,8 +43,8 @@ namespace Bube {
 [Serializable] public class TimelineClue { public string id; public string timeKey; public string noteKey; public string sourceKey; public int sortMinute; public string[] requiresRead; public string[] requiresAsked; }
 [Serializable] public class CaseSummary { public string locationKey; public string truthKey; public string evidenceKey; public string lessonKey; }
 [Serializable] public class CareerRules { public int initialTrust = 60; public int strongGain = 5; public int incompleteLoss = 5; public int falseAccusationLoss = 15; public int unsolvedLoss = 2; public int endThreshold = 0; public int[] statusThresholds = {80,60,40,20,1}; }
-[Serializable] public class PendingReview { public string caseId; public bool correct; public string evaluationType; public int trustDelta; public int successGain; public int failureLoss; public long readyAtUtcTicks; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; }
-[Serializable] public class FaxReview { public string caseId; public bool correct; public bool reopened; public bool trustRefunded; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; }
+[Serializable] public class PendingReview { public string caseId; public bool correct; public string evaluationType; public int trustDelta; public int successGain; public int failureLoss; public long readyAtUtcTicks; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; public bool hasRecon; public bool reconSupported; }
+[Serializable] public class FaxReview { public string caseId; public bool correct; public bool reopened; public bool trustRefunded; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; public bool hasRecon; public bool reconSupported; }
 [Serializable] public class CareerProgress { public int version = 1; public int departmentTrust = 60; public int retirementThreshold = 0; public string activeCaseId; public List<string> seenWorldIntros = new List<string>(); public List<PendingReview> pendingReviews = new List<PendingReview>(); public bool faxReleased; public FaxReview lastFax; public List<FaxReview> reviewHistory = new List<FaxReview>(); public string careerRankId = "investigator"; public bool retired; }
 // Kişinin PNG portresi yoksa piksel portre çizilir. Tonlar eskiden kodda
 // `personId=="hasan"` diye seçiliyordu, yani yeni vakanın yeni kişisi C#
@@ -82,7 +82,7 @@ namespace Bube {
 // olup olmadığını hiçbir zaman söylemez; not yalnız oyuncunun aklı içindir.
 [Serializable] public class NotebookEntry { public string leftId; public string rightId; public string mark; }
 [Serializable] public class InterviewTurn { public string nodeId; public string questionId; public string promptKey; public string answerKey; public string sourceId; public long askedAtUtcTicks; }
-[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<WarrantDenial> warrantDenials = new List<WarrantDenial>(); public List<string> closedLines = new List<string>(); public List<DocumentRequest> lineReopens = new List<DocumentRequest>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> triedSources = new List<string>(); public List<string> seenRequests = new List<string>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
+[Serializable] public class Progress { public int version = 1; public string caseId; public bool caseAccepted; public List<string> read = new List<string>(); public List<string> asked = new List<string>(); public List<InterviewRequest> interviewRequests = new List<InterviewRequest>(); public List<DocumentRequest> documentRequests = new List<DocumentRequest>(); public List<WarrantDenial> warrantDenials = new List<WarrantDenial>(); public List<string> closedLines = new List<string>(); public List<DocumentRequest> lineReopens = new List<DocumentRequest>(); public List<ReconPlacement> recon = new List<ReconPlacement>(); public List<InterviewTurn> interviewTurns = new List<InterviewTurn>(); public List<string> triedSources = new List<string>(); public List<string> seenRequests = new List<string>(); public List<string> timelinePinned = new List<string>(); public List<NotebookEntry> notebook = new List<NotebookEntry>(); public List<string> highlights = new List<string>(); public int seenInterviewTurns; public bool closed; public string reportSuspect; public string reportMethod; public string reportProof; public string reportSuspectSource; public string reportMethodSource; public string reportProofSource; public string reportCustody; public string reportCustodySource; public long submittedAtUtcTicks; }
 // Kayit gocu. Eski surumden gelen kayit atilmaz, bugunku semaya yukseltilir;
 // gelecekten gelen (daha yeni surumlu) kayit cevrilemez ama silinmez de — oldugu
 // gibi birakilir ve oyuncuya soylenir.
@@ -153,6 +153,7 @@ public sealed partial class Investigation {
   State.interviewRequests = (State.interviewRequests ?? new List<InterviewRequest>()).Where(r => r != null && data.nodes.Any(n => n.id == r.nodeId && n.kind == "interview")).GroupBy(r => r.nodeId).Select(g => g.First()).ToList();
   State.closedLines=(State.closedLines ?? new List<string>()).Where(id=>data.nodes.Any(n=>n.id==id && IsLine(n))).Distinct().ToList();
   State.lineReopens=(State.lineReopens ?? new List<DocumentRequest>()).Where(r=>r!=null && data.nodes.Any(n=>n.id==r.nodeId && IsLine(n))).GroupBy(r=>r.nodeId).Select(g=>g.Last()).ToList();
+  State.recon=(State.recon ?? new List<ReconPlacement>()).Where(p=>p!=null && (data.reconstruction ?? new ReconCard[0]).Any(c=>c.id==p.cardId)).GroupBy(p=>p.cardId).Select(g=>g.First()).ToList();
   State.warrantDenials=(State.warrantDenials ?? new List<WarrantDenial>()).Where(d=>d!=null && data.nodes.Any(n=>n.id==d.nodeId && IsWarrant(n))).GroupBy(d=>d.nodeId).Select(g=>g.First()).ToList();
   State.documentRequests=(State.documentRequests ?? new List<DocumentRequest>()).Where(r=>r!=null && data.nodes.Any(n=>n.id==r.nodeId && n.kind=="document" && n.requestable)).GroupBy(r=>r.nodeId).Select(g=>g.First()).ToList();
   if(State.read.Count>0 || State.asked.Count>0 || State.timelinePinned.Count>0 || State.interviewRequests.Count>0 || State.documentRequests.Count>0 || State.closed)State.caseAccepted=true;
@@ -409,7 +410,7 @@ public sealed partial class Investigation {
  public bool SubmitReport(string suspect,string method,string custody) {
   string Found(Choice c)=>c==null||!c.correct?null:(c.supportingSourceIds??new string[0]).FirstOrDefault(id=>ReportSourceAvailable(id)||State.read.Contains(id));
   string FoundVerdict(Verdict v)=>v==null||!v.correct?null:(v.supportingSourceIds??new string[0]).FirstOrDefault(id=>ReportSourceAvailable(id)||State.read.Contains(id));
-  if(!CanConclude || !Data.verdicts.Any(v=>v.id==suspect) || !Data.methods.Any(v=>v.id==method))return false;
+  if(!CanConclude || !ReconComplete || !Data.verdicts.Any(v=>v.id==suspect) || !Data.methods.Any(v=>v.id==method))return false;
   if(HasCustody && !Data.custody.Any(v=>v.id==custody))return false;
   if(!HasCustody)custody=null;
   var verdict=Data.verdicts.First(v=>v.id==suspect);var how=Data.methods.First(v=>v.id==method);
@@ -422,7 +423,7 @@ public sealed partial class Investigation {
   Career.faxReleased=Career.pendingReviews.Any(r=>r.readyAtUtcTicks>0);
   bool personSupported=suspectSource!=null,methodSupported=methodSource!=null;
   bool custodyCorrect=!HasCustody||held.correct,custodySupported=!HasCustody||custodySource!=null;
-  bool correct=personSupported&&methodSupported&&custodySupported;
+  bool correct=personSupported&&methodSupported&&custodySupported&&ReconSupported;
   string evaluationType=!verdict.correct||!custodyCorrect?"falseAccusation":correct?"supported":"incomplete";
   int trustDelta=evaluationType=="supported"?Rules.strongGain:evaluationType=="incomplete"?-Rules.incompleteLoss:-Rules.falseAccusationLoss;
   Career.pendingReviews.Add(new PendingReview {
@@ -430,7 +431,7 @@ public sealed partial class Investigation {
    successGain=Math.Max(0,Data.successfulReportTrustGain),failureLoss=Math.Max(0,Data.failedReportTrustLoss),
    suspectId=suspect,methodId=method,suspectSourceId=suspectSource,methodSourceId=methodSource,
    suspectSupported=personSupported,methodSupported=methodSupported,proofSupported=true,
-   custodyId=custody,custodySourceId=custodySource,custodySupported=HasCustody&&custodySupported
+   custodyId=custody,custodySourceId=custodySource,custodySupported=HasCustody&&custodySupported,hasRecon=HasReconstruction,reconSupported=ReconSupported
   });
   return true;
  }
@@ -438,7 +439,7 @@ public sealed partial class Investigation {
   SubmitFinalReport(suspect,method,proof,suspectSource,methodSource,proofSource,null,null);
 
  public bool SubmitFinalReport(string suspect,string method,string proof,string suspectSource,string methodSource,string proofSource,string custody,string custodySource) {
-  if(!CanConclude || !Data.verdicts.Any(v=>v.id==suspect) || !Data.methods.Any(v=>v.id==method) || !Data.evidence.Any(v=>v.id==proof) || !State.read.Contains(proof) || !ReportSourceAvailable(suspectSource) || !ReportSourceAvailable(methodSource) || !ReportSourceAvailable(proofSource))return false;
+  if(!CanConclude || !ReconComplete || !Data.verdicts.Any(v=>v.id==suspect) || !Data.methods.Any(v=>v.id==method) || !Data.evidence.Any(v=>v.id==proof) || !State.read.Contains(proof) || !ReportSourceAvailable(suspectSource) || !ReportSourceAvailable(methodSource) || !ReportSourceAvailable(proofSource))return false;
   if(HasCustody && (!Data.custody.Any(v=>v.id==custody) || !ReportSourceAvailable(custodySource)))return false;
   if(!HasCustody){custody=null;custodySource=null;}
   State.reportSuspect=suspect;State.reportMethod=method;State.reportProof=proof;
@@ -455,8 +456,8 @@ public sealed partial class Investigation {
   // olduğu gibi asılsız suçlamadır; doğru kişiyi kaynaksız yazmak eksiktir.
   bool custodyCorrect=!HasCustody || Data.custody.Any(v=>v.id==custody && v.correct);
   bool custodySupported=!HasCustody || Data.custody.Any(v=>v.id==custody && v.correct && Supports(v.supportingSourceIds,custodySource));
-  bool correct=personSupported && methodSupported && proofSupported && custodySupported;
-  string evaluationType=!suspectCorrect || !custodyCorrect?"falseAccusation":!personSupported || !methodSupported || !proofSupported || !custodySupported?"incomplete":"supported";
+  bool correct=personSupported && methodSupported && proofSupported && custodySupported && ReconSupported;
+  string evaluationType=!suspectCorrect || !custodyCorrect?"falseAccusation":!correct?"incomplete":"supported";
   int trustDelta=evaluationType=="supported"?Rules.strongGain:evaluationType=="incomplete"?-Rules.incompleteLoss:-Rules.falseAccusationLoss;
   Career.pendingReviews.Add(new PendingReview {
    caseId=Data.id,correct=correct,evaluationType=evaluationType,trustDelta=trustDelta,
@@ -465,7 +466,7 @@ public sealed partial class Investigation {
    suspectId=suspect,methodId=method,proofId=proof,
    suspectSourceId=suspectSource,methodSourceId=methodSource,proofSourceId=proofSource,
    suspectSupported=personSupported,methodSupported=methodSupported,proofSupported=proofSupported,
-   custodyId=custody,custodySourceId=custodySource,custodySupported=HasCustody && custodySupported
+   custodyId=custody,custodySourceId=custodySource,custodySupported=HasCustody && custodySupported,hasRecon=HasReconstruction,reconSupported=ReconSupported
   });
   return true;
  }
@@ -525,7 +526,8 @@ public sealed partial class Investigation {
    suspectId=pending.suspectId,methodId=pending.methodId,proofId=pending.proofId,
    suspectSourceId=pending.suspectSourceId,methodSourceId=pending.methodSourceId,proofSourceId=pending.proofSourceId,
    suspectSupported=pending.suspectSupported,methodSupported=pending.methodSupported,proofSupported=pending.proofSupported,
-   custodyId=pending.custodyId,custodySourceId=pending.custodySourceId,custodySupported=pending.custodySupported
+   custodyId=pending.custodyId,custodySourceId=pending.custodySourceId,custodySupported=pending.custodySupported,
+   hasRecon=pending.hasRecon,reconSupported=pending.reconSupported
   };
   // Bir vaka geçmişte birden çok satır tutabilir: ödüllü yeniden deneme eski
   // başarısızlığı silmez, yanına ikinci denemeyi yazar. Yeniden açılmamış bir

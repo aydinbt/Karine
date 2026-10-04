@@ -3983,6 +3983,150 @@
   {
    "key": "career.authorityExpanded",
    "value": "GENİŞLETİLDİ"
+  },
+  {
+   "key": "recon.heading",
+   "value": "Olay rekonstrüksiyonu"
+  },
+  {
+   "key": "recon.help",
+   "value": "Olay kartlarını gerçekleştikleri sıraya diz ve her karta dayandığın kaydı bağla. Saatleri kayıtlardan sen çıkar."
+  },
+  {
+   "key": "recon.pool",
+   "value": "Dizilmemiş kartlar"
+  },
+  {
+   "key": "recon.noSource",
+   "value": "Kaynak bağlanmadı — karta dokun"
+  },
+  {
+   "key": "recon.sourceHeading",
+   "value": "Kaynak bağla"
+  },
+  {
+   "key": "recon.sourceHelp",
+   "value": "Bu kartın gerçekleştiğini gösteren kaydı seç."
+  },
+  {
+   "key": "recon.summary",
+   "value": "{0} kart dizildi"
+  },
+  {
+   "key": "recon.fax.supported",
+   "value": "Olayların sırası ve dayanakları kayıtlarla uyumlu."
+  },
+  {
+   "key": "recon.fax.unsupported",
+   "value": "Olayların sırası ya da dayanakları kayıtlarla uyuşmuyor."
+  },
+  {
+   "key": "finale.morning",
+   "value": "Ertesi sabah."
+  },
+  {
+   "key": "finale.call.1",
+   "value": "— Bora?"
+  },
+  {
+   "key": "finale.call.2",
+   "value": "— Evet."
+  },
+  {
+   "key": "finale.call.3",
+   "value": "— Kor dosyasının değerlendirmesi tamamlandı."
+  },
+  {
+   "key": "finale.call.4",
+   "value": "— Dinliyorum."
+  },
+  {
+   "key": "finale.call.5",
+   "value": "— Gelmen gerekiyor."
+  },
+  {
+   "key": "finale.personnel",
+   "value": "PERSONEL DEĞERLENDİRMESİ — BORA"
+  },
+  {
+   "key": "finale.personnelBody",
+   "value": "Soruşturma yürütme yetkisi genişletilmiştir. Çoklu olay değerlendirmesi, bağımsız inceleme talebi ve dosyalar arası erişim yetkisi onaylanmıştır. Yeni görevlendirme uygun görülmüştür."
+  },
+  {
+   "key": "finale.program",
+   "value": "ULUSLARARASI İRTİBAT PROGRAMI"
+  },
+  {
+   "key": "finale.closeFile",
+   "value": "Belgeyi kapat"
+  },
+  {
+   "key": "finale.complete",
+   "value": "{0} TAMAMLANDI"
+  },
+  {
+   "key": "finale.sealed",
+   "value": "MÜHÜRLÜ"
+  },
+  {
+   "key": "finale.state.approved",
+   "value": "Onaylandı"
+  },
+  {
+   "key": "finale.state.reviewed",
+   "value": "Değerlendirildi"
+  },
+  {
+   "key": "finale.state.none",
+   "value": "—"
+  },
+  {
+   "key": "finale.country.tr",
+   "value": "TÜRKİYE"
+  },
+  {
+   "key": "finale.country.uk",
+   "value": "BİRLEŞİK KRALLIK"
+  },
+  {
+   "key": "finale.progress.tr",
+   "value": "10 / 10"
+  },
+  {
+   "key": "finale.file.011",
+   "value": "DOSYA 011"
+  },
+  {
+   "key": "requests.scopeHeading",
+   "value": "Dosya kapsamını genişlet"
+  },
+  {
+   "key": "requests.scopeHelp",
+   "value": "Başka bir olayın bu dosyayla ilişkili olduğunu düşünüyorsan, dosyaya dahil edilmesini resmî olarak talep edersin. Talep, seçtiğin dayanaklarla değerlendirilir."
+  },
+  {
+   "key": "requests.scopeBasis",
+   "value": "Kapsam dayanakları"
+  },
+  {
+   "key": "requests.scopeSend",
+   "value": "Kapsam talebini gönder"
+  },
+  {
+   "key": "requests.scopeWaitTitle",
+   "value": "Kapsam talebi değerlendiriliyor"
+  },
+  {
+   "key": "requests.scopeWaitText",
+   "value": "Dayanaklar inceleniyor. Sonuç gelen evraklara düşecek."
+  },
+  {
+   "key": "requests.scopeDeniedTitle",
+   "value": "Olay dosyaya dahil edilmedi"
+  },
+  {
+   "key": "requests.scopeDeniedText",
+   "value": "Seçilen dayanaklar olayın bu dosyaya dahil edilmesi için yeterli görülmedi. Başka dayanaklarla yeniden talep edebilirsin."
   }
  ]
 }

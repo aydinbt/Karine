@@ -531,3 +531,10 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 - `CaseData.envelopeTitleKey/StampKey/BodyKey`: `BubeApp.EnvelopeCard` kapanış kartından sonra vaka başına bir kez (`karine.envelope.<id>`). `grantsAuthority`: doğru raporda `RecordTrust` ile "Yetki: GENİŞLETİLDİ".
 - Bölüm seçici her ülkede 9 yuva gösterir (doğrulayıcı eşit sayı ister).
 - Zaman çizelgesi `sortMinute` 0–1439 aralığında; çok günlü vakalarda yalnız sıra taşır, gerçek tarih etikettedir.
+
+## Olay rekonstrüksiyonu ve bölüm finali (4 Ekim 2026)
+
+- `CaseData.reconstruction` (`ReconCard[]`): doluysa rapor sihirbazına sütunlardan sonra bir adım eklenir (`BubeApp.Recon.cs`). `Progress.recon` yerleşimleri tutar. `ReconComplete` değilse `SubmitReport`/`SubmitFinalReport` false döner; `ReconSupported` (sıra = veri sırası, kaynak önek eşleşmesi) değilse rapor doğru sayılmaz. `FaxReview.hasRecon/reconSupported` faks satırını besler.
+- `CaseData.chapterFinale`: faks sonrası (`FaxPage` ve masa gelen kutusu) `ChapterFinale` bir kez oynar (PlayerPrefs `karine.finale.<id>`); personel satırları Worlds yuvaları ve inceleme geçmişinden.
+- `requestKind: "scope"`: başka bir olay kaydını dosyaya alan izin; metinler `requests.scope*`.
+- `Investigation` artık `sealed partial` (Lines, Recon ayrı dosyalarda).

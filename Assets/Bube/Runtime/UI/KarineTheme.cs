@@ -110,6 +110,7 @@ public static class KarineTheme {
   public const int ThunderMinMs=40000, ThunderMaxMs=90000;
   public static readonly Rect AshArea=new Rect(24,52,4.5f,13);
   public const int ClosedFolderWidth=300, ClosedFolderHeight=380, ClosedTab=34, ClosedStampSize=44;
+  public const int FinaleSheetWidth=480, FinaleTitleSize=34, FinaleLineSize=20, FinaleLineMs=1300;
   public const float EnvelopeSeconds=1.1f, WarmSeconds=.7f, ArchiveSeconds=2.6f, DrySeconds=1.6f, ShineSeconds=1.1f;
   public const int NeonMinMs=20000, NeonMaxMs=50000, ShineEveryMs=8000, MeterMs=250;
   public const float PullLift=10f;

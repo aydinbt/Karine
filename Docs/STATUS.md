@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**4 Ekim (gece, 6):** **Dosya #010 "Kırık Zincir"** — Türkiye finali. Yeni: kapsam genişletme (yangın kaydını dosyaya almak), rapordan önce yedi kartlık olay rekonstrüksiyonu (sıra + kaynak) ve bir kez oynayan bölüm finali sinematiği (telefon, personel değerlendirmesi, TÜRKİYE 10/10, DOSYA 011 Birleşik Krallık). 39 düğüm, 323 metin; onuncu yuva. Testler yeşil; Play Mode'da görülmedi.
+
 **4 Ekim (gece, 5):** **Dosya #009 "Emanet"** ve **soruşturma hattı** girdi: oyuncu üç hattan (Arda / Emanet / Operasyon) aynı anda yalnız ikisini açık tutabiliyor; biri kapatılınca yer açılıyor, kapanan hat gecikmeyle yeniden açılıyor. Vaka sonunda "BDS İÇ DENETİM — GİZLİ" zarfı ve doğru raporda "Yetki: GENİŞLETİLDİ". 30 düğüm, 260 metin; dokuzuncu yuva. Testler yeşil; Play Mode'da görülmedi.
 
 **4 Ekim (gece, 4):** **Dosya #008 "Kopya"** girdi: oyuncu üç olayı (zarf, araç camı, ev girişi) kendisi ilişkilendiriyor, birleşik fotoğrafla 2006 arşivini taratıyor. Eski dosya ilk açılışta "YENİDEN AÇILDI" kartıyla masaya düşüyor; rapor sonunda dosya "AYRILDI" damgası alıyor ve arşive soğuk dosya kartı ekleniyor. 32 düğüm, 309 metin; bölüm seçicide sekizinci yuva. Testler yeşil; Play Mode'da görülmedi. Olay panosu tasarım bekliyor.

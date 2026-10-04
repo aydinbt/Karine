@@ -51,6 +51,11 @@
      "caseId": "case009",
      "titleKey": "case009.title",
      "image": ""
+    },
+    {
+     "caseId": "case010",
+     "titleKey": "case010.title",
+     "image": ""
     }
    ]
   },
@@ -61,6 +66,11 @@
    "descriptionKey": "world.uk.description",
    "image": "Bube/Worlds/uk",
    "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
     {
      "caseId": "",
      "titleKey": "world.slot.sealed",
@@ -159,6 +169,11 @@
      "caseId": "",
      "titleKey": "world.slot.sealed",
      "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
     }
    ]
   },
@@ -169,6 +184,11 @@
    "descriptionKey": "world.jp.description",
    "image": "Bube/Worlds/jp",
    "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
     {
      "caseId": "",
      "titleKey": "world.slot.sealed",
@@ -267,6 +287,11 @@
      "caseId": "",
      "titleKey": "world.slot.sealed",
      "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
     }
    ]
   },
@@ -277,6 +302,11 @@
    "descriptionKey": "world.us.description",
    "image": "Bube/Worlds/us",
    "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
     {
      "caseId": "",
      "titleKey": "world.slot.sealed",
@@ -375,6 +405,11 @@
      "caseId": "",
      "titleKey": "world.slot.sealed",
      "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
     }
    ]
   },
@@ -385,6 +420,11 @@
    "descriptionKey": "world.es.description",
    "image": "Bube/Worlds/es",
    "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
     {
      "caseId": "",
      "titleKey": "world.slot.sealed",
@@ -483,6 +523,11 @@
      "caseId": "",
      "titleKey": "world.slot.sealed",
      "image": ""
+    },
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
     }
    ]
   },
@@ -493,6 +538,11 @@
    "descriptionKey": "world.au.description",
    "image": "Bube/Worlds/au",
    "slots": [
+    {
+     "caseId": "",
+     "titleKey": "world.slot.sealed",
+     "image": ""
+    },
     {
      "caseId": "",
      "titleKey": "world.slot.sealed",
