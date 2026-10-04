@@ -24,7 +24,7 @@ public sealed class GalleryTests {
   var t=new Texture2D(rt.width,rt.height,TextureFormat.RGBA32,false);t.ReadPixels(new Rect(0,0,rt.width,rt.height),0,0);t.Apply();RenderTexture.active=prev;
   File.WriteAllBytes(Path.Combine(Folder,name+".png"),t.EncodeToPNG());UnityEngine.Object.Destroy(t);
  }
- [UnityTest] public IEnumerator Capture(){
+ [UnityTest,Timeout(1800000)] public IEnumerator Capture(){
   if(string.IsNullOrEmpty(Folder))Assert.Ignore("KARINE_GALLERY tanımlı değil");
   Directory.CreateDirectory(Folder);
   SceneManager.LoadScene("BootScene",LoadSceneMode.Single);
@@ -46,6 +46,8 @@ public sealed class GalleryTests {
    // KARINE_TOUR=case004 gibi: o vakanın masa, dosya, belge, CCTV ve özet sayfaları da çekilir.
    if(!(Environment.GetEnvironmentVariable("KARINE_TOUR")??"").Split(',').Contains(c))continue;
    foreach(var n in data.nodes)game.State.read.Add(n.id);
+   // Açılış kartı turu örtmesin; oyuncunun kendi kaydı bozulmasın diye sonra geri alınır.
+   string openedKey="karine.opened."+c;int opened=PlayerPrefs.GetInt(openedKey,0);PlayerPrefs.SetInt(openedKey,1);
    yield return Shot(c+"_00_desk",()=>Call("Desk"));
    yield return Shot(c+"_01_file",()=>Call("FilePage"));
    int k=0;
@@ -56,6 +58,7 @@ public sealed class GalleryTests {
    }
    yield return Shot(c+"_summary",()=>Call("CaseSummary"));
    yield return Shot(c+"_compare",()=>Call("ComparePage"));
+   PlayerPrefs.SetInt(openedKey,opened);
   }
  }
 }
