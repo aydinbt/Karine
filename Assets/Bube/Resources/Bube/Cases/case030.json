@@ -229,6 +229,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case030.nishida.roll"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case030.item.sheet.name",
+     "detailKey": "case030.item.sheet.detail",
+     "imageResource": "Bube/Items/case030_sheet"
+    }
    ]
   },
   {
@@ -241,7 +248,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case030.request.copy",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case030.item.ext.name",
+     "detailKey": "case030.item.ext.detail",
+     "imageResource": "Bube/Items/case030_ext"
+    },
+    {
+     "nameKey": "case030.item.tile.name",
+     "detailKey": "case030.item.tile.detail",
+     "imageResource": "Bube/Items/case030_tile"
+    }
+   ]
   },
   {
    "id": "file",

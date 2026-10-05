@@ -90,9 +90,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 53. **Taşıma minibüsünün anahtarı** → `case029_keys.png` ✅
 
 ## Dosya #030 (3)
-54. **Tatbikat yoklama kâğıdı** → `case030_sheet.png`
-55. **Yangın söndürücü** → `case030_ext.png`
-56. **Asma tavan plakası** → `case030_tile.png`
+54. **Tatbikat yoklama kâğıdı** → `case030_sheet.png` ✅
+55. **Yangın söndürücü** → `case030_ext.png` ✅
+56. **Asma tavan plakası** → `case030_tile.png` ✅
 
 ## Dosya #031 (4)
 57. **Hirezake kadehi** → `case031_cup.png`
