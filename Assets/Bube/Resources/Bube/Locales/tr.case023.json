@@ -1,0 +1,572 @@
+{
+ "entries": [
+  {
+   "key": "case023.autopsy.body",
+   "value": "· Ölüm sebebi: bağla boğma; boyunda 1,5 cm genişliğinde düz, dokuma bir bant izi.\n· Ölüm zamanı: 7 Kasım 22.30–23.30.\n· Bant izinde mavi dokuma polyester lifler.\n· Savunma izi yok; arkadan, oturur haldeyken.\n· Kanepe ve çevresinde ölüm sonrası dağınıklık; çekmeceler ölümden saatler sonra karıştırılmış (toz ve kan izleri üst üste değil)."
+  },
+  {
+   "key": "case023.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case023.cctv.event.in",
+   "value": "Kamera: Kapüşonlu, uzun boylu bir adam zile basmadan kapıyı açıyor; kapı içeriden açılmış. Boynunda bir kart askısı."
+  },
+  {
+   "key": "case023.cctv.event.none",
+   "value": "Kamera: Giriş boş; 03.00’e kadar kimse girmiyor."
+  },
+  {
+   "key": "case023.cctv.event.out",
+   "value": "Kamera: Aynı adam çıkıyor; elinde bir şey yok, kart askısı yok."
+  },
+  {
+   "key": "case023.cctv.overlay",
+   "value": "DOOR"
+  },
+  {
+   "key": "case023.cctv.period",
+   "value": "7–8 Kasım 2029"
+  },
+  {
+   "key": "case023.cctv.source",
+   "value": "Giriş kamerası"
+  },
+  {
+   "key": "case023.cell.body",
+   "value": "Talep: bube Berlin, şube şefinin onayıyla.\n\n· 7 Kasım 22.31–23.26 · Matthias Kern’in telefonu Friedrichshain, Krossener Straße hücresinde.\n· 23.48 · Wedding.\n\nKern “Wedding’de evdeydim” demişti."
+  },
+  {
+   "key": "case023.cell.title",
+   "value": "BAZ İSTASYONU KAYDI — MATTHIAS KERN"
+  },
+  {
+   "key": "case023.cloud.body",
+   "value": "Dizüstü bilgisayar Kevin Schulz’dan alındı; yerel dosyalar silinmemiş ama asıl iz bulutta.\n\n· 7 Kasım 22.51 · son yüklenen dosya: “Arendt — iç kaynak.docx”\n· İçerik: Arendt Handelsgesellschaft’ın bir Lüksemburg hesabından Matthias Kern’e 2028’den beri her ay €3.000; Clara’nın notu: “Holt’un dosyası kabulde kayboldu, Berlin’de de dosyalar kayboluyor. Yarın Ute.”\n· 22.53 · bilgisayardan oturum kapatma denemesi, başarısız."
+  },
+  {
+   "key": "case023.cloud.title",
+   "value": "BULUT EŞİTLEME KAYDI — CLARA WEISS"
+  },
+  {
+   "key": "case023.clue.burglar",
+   "value": "Kevin Schulz açık balkon kapısından giriyor; kadını ölü buluyor."
+  },
+  {
+   "key": "case023.clue.in",
+   "value": "Kart askılı, kapüşonlu bir adam binaya giriyor."
+  },
+  {
+   "key": "case023.clue.note",
+   "value": "Kern, hırsızlık dizisinin sıradaki bloklarını yazıyor; Clara’nınki listede."
+  },
+  {
+   "key": "case023.clue.out",
+   "value": "Aynı adam çıkıyor; kart askısı yok."
+  },
+  {
+   "key": "case023.clue.source.cloud",
+   "value": "Bulut eşitleme"
+  },
+  {
+   "key": "case023.clue.source.ilse",
+   "value": "Alt kat komşusu"
+  },
+  {
+   "key": "case023.clue.source.kevin",
+   "value": "Hırsız"
+  },
+  {
+   "key": "case023.clue.source.series",
+   "value": "Hırsızlık dizisi dosyası"
+  },
+  {
+   "key": "case023.clue.upload",
+   "value": "Clara ‘Arendt — iç kaynak’ dosyasını buluta yüklüyor."
+  },
+  {
+   "key": "case023.clue.voice",
+   "value": "Alt kat: ‘Dosyayı bana ver… yarın Ute’ye gitme.’"
+  },
+  {
+   "key": "case023.custody.label",
+   "value": "Dairede gece neler oldu?"
+  },
+  {
+   "key": "case023.custody.one",
+   "value": "Tek olay — hırsızlık sırasında cinayet"
+  },
+  {
+   "key": "case023.custody.staged",
+   "value": "Hırsızlık hiç olmadı, sahnelendi"
+  },
+  {
+   "key": "case023.custody.two",
+   "value": "İki ayrı olay — önce cinayet, saatler sonra hırsızlık"
+  },
+  {
+   "key": "case023.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case023.door.body",
+   "value": "Apartman giriş kapısı; balkon cephesini görmüyor. 7 Kasım 22.00 – 8 Kasım 03.00."
+  },
+  {
+   "key": "case023.door.title",
+   "value": "BİNA GİRİŞ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case023.epilogue.custody.one",
+   "value": "Hırsızlık ve ölüm tek olay sayıldı; asıl saat dosyadan düştü."
+  },
+  {
+   "key": "case023.epilogue.custody.staged",
+   "value": "Gerçek hırsızlık reddedildi; Schulz’un itirafı ve satılan bilgisayar açıklanamadı."
+  },
+  {
+   "key": "case023.epilogue.custody.two",
+   "value": "Hırsızlık ve cinayet ayrı yazıldı; Schulz’un dosyasından cinayet çıkarıldı."
+  },
+  {
+   "key": "case023.epilogue.custody.unknown",
+   "value": "Olayların sırası açık kaldı."
+  },
+  {
+   "key": "case023.epilogue.verdict.kevin",
+   "value": "Kevin Schulz cinayetten mahkûm oldu. Matthias Kern, Clara’nın masasına taşındı; Arendt dosyası onun elinde kapandı."
+  },
+  {
+   "key": "case023.epilogue.verdict.matthias",
+   "value": "Matthias Kern cinayetten tutuklandı; Arendt ödemeleri savcılığa gitti. Kevin Schulz on bir hırsızlıktan yargılandı, cinayetten değil."
+  },
+  {
+   "key": "case023.epilogue.verdict.nobody",
+   "value": "Dosya ‘hırsızlık sırasında ölüm’ diye kapandı."
+  },
+  {
+   "key": "case023.epilogue.verdict.ute",
+   "value": "Ute Sommer görevden uzaklaştırıldı; şube içi soruşturma Matthias Kern’e verildi."
+  },
+  {
+   "key": "case023.evidence.cell",
+   "value": "Kern’in baz kaydı"
+  },
+  {
+   "key": "case023.evidence.cloud",
+   "value": "Bulut eşitleme kaydı"
+  },
+  {
+   "key": "case023.evidence.fibre",
+   "value": "Kart askısı lif karşılaştırması"
+  },
+  {
+   "key": "case023.evidence.series",
+   "value": "Hırsızlık dizisi dosyası"
+  },
+  {
+   "key": "case023.feedback.kevin",
+   "value": "Hırsız ölümden saatler sonra, 02.00’de girdi; dizideki on bir olayın hiçbirinde kimseye dokunmamıştı."
+  },
+  {
+   "key": "case023.feedback.matthias",
+   "value": "Baz kaydı ve giriş kamerası onu ölüm saatinde binaya koyuyor; askısında Clara’nın derisi; Arendt’ten para alıyordu ve hırsızın gelişini kendi dosyasından biliyordu."
+  },
+  {
+   "key": "case023.feedback.nobody",
+   "value": "Bant izi bir bağla boğmayı gösteriyor; kaza değil."
+  },
+  {
+   "key": "case023.feedback.ute",
+   "value": "Şefin mesajı yarın sabah konuşmaktı; o gece binada olan o değildi."
+  },
+  {
+   "key": "case023.fibre.body",
+   "value": "Boyundaki mavi dokuma polyester lifler, bube Berlin personel kart askılarıyla aynı dokuma. Matthias Kern’in 8 Kasım’da “kaybettim” diye yenisini aldığı askı, Wedding’deki evinin çöp konteynerinde bulundu: dokuma kopmuş, üzerinde Clara Weiß’ın deri hücreleri."
+  },
+  {
+   "key": "case023.fibre.title",
+   "value": "LİF KARŞILAŞTIRMASI — KART ASKISI"
+  },
+  {
+   "key": "case023.file.caseType",
+   "value": "CİNAYET"
+  },
+  {
+   "key": "case023.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Şubesi"
+  },
+  {
+   "key": "case023.file.value.location",
+   "value": "Friedrichshain, apartman dairesi — 3. kat"
+  },
+  {
+   "key": "case023.file.value.number",
+   "value": "BDS-BER-2029-0094"
+  },
+  {
+   "key": "case023.file.value.offence",
+   "value": "Cinayet; hırsızlık"
+  },
+  {
+   "key": "case023.file.value.reporter",
+   "value": "Ute Sommer, şube şefi"
+  },
+  {
+   "key": "case023.ilse.balcony.answer",
+   "value": "Gece ikide balkonda tıkırtı. Hırsızdır dedim, bu mahallede her hafta. Yine de kalkmadım."
+  },
+  {
+   "key": "case023.ilse.balcony.question",
+   "value": "Başka?"
+  },
+  {
+   "key": "case023.ilse.body",
+   "value": "Alt kat komşusu."
+  },
+  {
+   "key": "case023.ilse.deflect",
+   "value": "Ben yaşlı bir kadınım, uyurum."
+  },
+  {
+   "key": "case023.ilse.title",
+   "value": "Ilse Brück — görüşme"
+  },
+  {
+   "key": "case023.ilse.voices.answer",
+   "value": "Onu çeyrek geçe yukarıda bir erkek sesi. Bağırmıyordu, iş konuşur gibi. ‘Dosyayı bana ver’ dedi, bir de ‘yarın Ute’ye gitme’. Sonra sessizlik. Ben de televizyonu açtım."
+  },
+  {
+   "key": "case023.ilse.voices.answer.demeanor",
+   "value": "Emin."
+  },
+  {
+   "key": "case023.ilse.voices.question",
+   "value": "O gece bir şey duydunuz mu?"
+  },
+  {
+   "key": "case023.kevin.body",
+   "value": "Hırsızlık dizisinin faili."
+  },
+  {
+   "key": "case023.kevin.dead.answer",
+   "value": "Çıkarken yüzüne fener tuttum. Gözleri açıktı. Koştum. Hırsızım, katil değilim. Hiçbir evde kimseye dokunmadım, dosyanıza bakın."
+  },
+  {
+   "key": "case023.kevin.dead.question",
+   "value": "Onun öldüğünü fark etmediniz mi?"
+  },
+  {
+   "key": "case023.kevin.deflect",
+   "value": "Avukatım olmadan cinayet konuşmam."
+  },
+  {
+   "key": "case023.kevin.night.answer",
+   "value": "Gece ikiye doğru. Balkon kapısı açıktı, açık bırakılmış, ben kırmadım bile. Kadın kanepedeydi, uyuyor sandım. Çekmeceleri karıştırdım, bilgisayarı aldım."
+  },
+  {
+   "key": "case023.kevin.night.answer.demeanor",
+   "value": "Hızlı konuşuyor."
+  },
+  {
+   "key": "case023.kevin.night.question",
+   "value": "Clara Weiß’ın dairesine ne zaman girdiniz?"
+  },
+  {
+   "key": "case023.kevin.quote",
+   "value": "“Balkon kapısı açıktı, ben kırmadım bile.”"
+  },
+  {
+   "key": "case023.kevin.title",
+   "value": "Kevin Schulz — görüşme"
+  },
+  {
+   "key": "case023.matthias.body",
+   "value": "Ekip arkadaşı."
+  },
+  {
+   "key": "case023.matthias.deflect",
+   "value": "Clara arkadaşımdı. Bunu bana sormanız…"
+  },
+  {
+   "key": "case023.matthias.night.answer",
+   "value": "Wedding’de, evde. Erken yattım. Clara’yla en son öğleden sonra şubede konuştuk."
+  },
+  {
+   "key": "case023.matthias.night.answer.demeanor",
+   "value": "Sakin, fazla sakin."
+  },
+  {
+   "key": "case023.matthias.night.question",
+   "value": "7 Kasım akşamı neredeydiniz?"
+  },
+  {
+   "key": "case023.matthias.series.answer",
+   "value": "Evet. Schulz. Balkonlardan girer, kimseye dokunmaz… genellikle. Bu sefer kadın uyanmış olmalı."
+  },
+  {
+   "key": "case023.matthias.series.question",
+   "value": "Hırsızlık dizisi sizin dosyanız."
+  },
+  {
+   "key": "case023.matthias.title",
+   "value": "Matthias Kern — görüşme"
+  },
+  {
+   "key": "case023.matthias_2.body",
+   "value": "Baz kaydı ve bulut kaydı üzerine."
+  },
+  {
+   "key": "case023.matthias_2.door.answer",
+   "value": "…Bilmiyorum."
+  },
+  {
+   "key": "case023.matthias_2.door.question",
+   "value": "Balkon kapısını kim açık bıraktı?"
+  },
+  {
+   "key": "case023.matthias_2.money.answer",
+   "value": "Danışmanlık. Eski bir iş."
+  },
+  {
+   "key": "case023.matthias_2.money.question",
+   "value": "Arendt size her ay üç bin avro gönderiyor."
+  },
+  {
+   "key": "case023.matthias_2.title",
+   "value": "Matthias Kern — ikinci görüşme"
+  },
+  {
+   "key": "case023.matthias_2.where.answer",
+   "value": "Uğradım. Dosya konuşmaya. Gittiğimde yaşıyordu."
+  },
+  {
+   "key": "case023.matthias_2.where.answer.demeanor",
+   "value": "Gözlerini kırpmadı."
+  },
+  {
+   "key": "case023.matthias_2.where.question",
+   "value": "Telefonunuz 22.31–23.26 arası Clara Weiß’ın sokağında."
+  },
+  {
+   "key": "case023.matthias_3.body",
+   "value": "Kart askısı üzerine."
+  },
+  {
+   "key": "case023.matthias_3.title",
+   "value": "Matthias Kern — üçüncü görüşme"
+  },
+  {
+   "key": "case023.matthias_3.truth.answer",
+   "value": "Bana bir gece verdi. ‘Kendin git Ute’ye, yoksa ben giderim.’ Gitseydim on yılım biterdi. Arkasındaydım, askı boynumdaydı… Sonra balkon kapısını açtım. Dizinin sıradaki bloğunu ben yazmıştım; Schulz’un geleceğini biliyordum. O gelecek, dağıtacak, siz onu bulacaktınız. Buldunuz da."
+  },
+  {
+   "key": "case023.matthias_3.truth.answer.demeanor",
+   "value": "Ellerini masaya düz koydu."
+  },
+  {
+   "key": "case023.matthias_3.truth.question",
+   "value": "Askınızda Clara Weiß’ın derisi var."
+  },
+  {
+   "key": "case023.method.burglar",
+   "value": "Uyanınca hırsız tarafından elle boğuldu"
+  },
+  {
+   "key": "case023.method.fall",
+   "value": "Düştü, başını çarptı"
+  },
+  {
+   "key": "case023.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case023.method.lanyard",
+   "value": "Arkadan, oturuyorken kart askısıyla boğuldu"
+  },
+  {
+   "key": "case023.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case023.offer.subtitle",
+   "value": "EV HIRSIZI  /  CİNAYET"
+  },
+  {
+   "key": "case023.offer.summary",
+   "value": "bube Berlin’in bir analisti dağıtılmış dairesinde ölü bulunuyor. Mahallenin balkon hırsızı aynı gün kadının bilgisayarını satarken yakalanıyor. Dosya kapanmış gibi."
+  },
+  {
+   "key": "case023.offer.title",
+   "value": "DOSYA #023"
+  },
+  {
+   "key": "case023.person.ilse.info",
+   "value": "73 yaşında, Clara Weiß’ın alt kat komşusu."
+  },
+  {
+   "key": "case023.person.ilse.name",
+   "value": "Ilse Brück"
+  },
+  {
+   "key": "case023.person.kevin.info",
+   "value": "29 yaşında, Friedrichshain’deki balkon hırsızlıkları dizisinin aranan faili; dizüstü bilgisayarı satarken yakalandı."
+  },
+  {
+   "key": "case023.person.kevin.name",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.person.matthias.info",
+   "value": "38 yaşında, bube Berlin analisti; Clara Weiß’ın ekip arkadaşı, hırsızlık dizisi dosyası onda."
+  },
+  {
+   "key": "case023.person.matthias.name",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.person.ute.info",
+   "value": "54 yaşında, bube Berlin — Kreuzberg şube şefi."
+  },
+  {
+   "key": "case023.person.ute.name",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.report.body",
+   "value": "8 Kasım 2029 saat 08.40’ta Friedrichshain’de, üçüncü kattaki dairesinde bube Berlin analisti Clara Weiß (34) kanepede ölü bulundu. İşe gelmeyince şube şefi Ute Sommer aradı, açılmayınca bina görevlisi kapıyı açtı.\n\nDaire dağıtılmış, balkon kapısı açık, dizüstü bilgisayar yok. Devriye notu: “Mahallede iki aydır süren balkon hırsızlıkları dizisinin aynısı. Hırsız Clara’yı uyurken basmış, uyanınca boğmuş.”\n\n8 Kasım öğleden sonra: Kevin Schulz, Clara Weiß’ın dizüstü bilgisayarını bir ikinci el dükkânında satarken yakalandı."
+  },
+  {
+   "key": "case023.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case023.request.cell",
+   "value": "Kern’in baz istasyonu kaydını iste"
+  },
+  {
+   "key": "case023.request.cloud",
+   "value": "Clara Weiß’ın bulut eşitleme kaydını iste"
+  },
+  {
+   "key": "case023.request.fibre",
+   "value": "Kern’in eski kart askısını iste"
+  },
+  {
+   "key": "case023.request.series",
+   "value": "Hırsızlık dizisi dosyasını iste"
+  },
+  {
+   "key": "case023.series.body",
+   "value": "Dosya sorumlusu: Matthias Kern, bube Berlin.\n\n· Eylül–Kasım 2029: 11 balkon girişi, hepsi 01.00–03.30 arası.\n· Fail hiçbir olayda kimseyle temas etmemiş; ev doluysa çekilmiş, uyuyan varsa dokunmamış.\n· Kern’in 30 Ekim notu: “Sıradaki muhtemel bloklar: Krossener Straße çevresi; kat 2–4, balkonu sokağa bakan daireler.”\n\nClara Weiß’ın dairesi o listedeki bir blokta, üçüncü katta."
+  },
+  {
+   "key": "case023.series.title",
+   "value": "HIRSIZLIK DİZİSİ DOSYASI — FRIEDRICHSHAIN"
+  },
+  {
+   "key": "case023.summary.evidence",
+   "value": "Otopsi ölüm saatini ve çekmecelerin saatler sonra karıştırıldığını gösterdi; giriş kamerası askılı bir adamı ölüm saatinde içeride, gece ikide ise girişi boş gösterdi. Komşunun duyduğu ‘yarın Ute’ye gitme’, bulut kaydındaki iç kaynak dosyası, baz kaydı ve askıdaki deri hücreleri zinciri kapattı."
+  },
+  {
+   "key": "case023.summary.lesson",
+   "value": "Gerçek bir suç, başka bir suçun en iyi saklandığı yerdir. Bir olayı tek olay saymadan önce saatlerini ayır."
+  },
+  {
+   "key": "case023.summary.location",
+   "value": "Friedrichshain, Berlin — Kasım 2029"
+  },
+  {
+   "key": "case023.summary.truth",
+   "value": "bube Berlin analisti Matthias Kern 2028’den beri Arendt Handelsgesellschaft’tan aylık para alıyordu. Ekip arkadaşı Clara Weiß bunu buldu ve şube şefine gidecekti. 7 Kasım gecesi Kern Clara’nın evine gitti, onu kart askısıyla boğdu ve balkon kapısını açık bıraktı; kendi yürüttüğü hırsızlık dizisinden, Kevin Schulz’un sıradaki bloğa geleceğini biliyordu. Schulz gece ikide geldi, ölüyü buldu, bilgisayarı alıp kaçtı."
+  },
+  {
+   "key": "case023.suspect.label",
+   "value": "Clara Weiß’ın ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case023.tablet.caseLine",
+   "value": "DOSYA #023  /  BUBE BERLİN — KREUZBERG"
+  },
+  {
+   "key": "case023.time.burglar",
+   "value": "8 Kasım 02.00"
+  },
+  {
+   "key": "case023.time.in",
+   "value": "22.38"
+  },
+  {
+   "key": "case023.time.none",
+   "value": "02.00"
+  },
+  {
+   "key": "case023.time.note",
+   "value": "30 Ekim"
+  },
+  {
+   "key": "case023.time.out",
+   "value": "23.21"
+  },
+  {
+   "key": "case023.time.upload",
+   "value": "22.51"
+  },
+  {
+   "key": "case023.time.voice",
+   "value": "7 Kasım 22.45"
+  },
+  {
+   "key": "case023.title",
+   "value": "Dosya #023 — Ev Hırsızı"
+  },
+  {
+   "key": "case023.ute.body",
+   "value": "Şube şefi."
+  },
+  {
+   "key": "case023.ute.deflect",
+   "value": "Bu şubenin işi, dışarı çıkmaz."
+  },
+  {
+   "key": "case023.ute.team.answer",
+   "value": "Matthias Kern. Arendt dosyasında onunla çalışıyordu; ayrıca balkon hırsızlıkları dizisi Matthias’ta."
+  },
+  {
+   "key": "case023.ute.team.question",
+   "value": "Ekibinde kim vardı?"
+  },
+  {
+   "key": "case023.ute.title",
+   "value": "Ute Sommer — görüşme"
+  },
+  {
+   "key": "case023.ute.work.answer",
+   "value": "Londra dosyasından gelen para izi: Arendt Handelsgesellschaft. Holt’un hesabına giden para. Clara 7 Kasım’da bana mesaj attı: ‘Yarın sabah konuşmamız lazım, şubenin içinden biri.’ Sabah gelmedi."
+  },
+  {
+   "key": "case023.ute.work.answer.demeanor",
+   "value": "Sesi sert, gözleri değil."
+  },
+  {
+   "key": "case023.ute.work.question",
+   "value": "Clara Weiß ne üzerinde çalışıyordu?"
+  },
+  {
+   "key": "case023.verdict.kevin",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.verdict.matthias",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.verdict.nobody",
+   "value": "Kimse — hırsızlık sırasında kaza"
+  },
+  {
+   "key": "case023.verdict.ute",
+   "value": "Ute Sommer"
+  }
+ ]
+}
