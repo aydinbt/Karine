@@ -86,7 +86,7 @@ A 27-year-old German man, athletic rower's build, short dark-blond hair, red-rim
 
 ## Dosya #022 (1)
 
-**Petra Lindner** → `case022/petra.png` (vakaya özel klasör; #020'deki Petra ile aynı kişi, 2 yıl sonra)
+**Petra Lindner** → `case022/petra.png` (vakaya özel klasör) ✅
 
 ```
 A 47-year-old German woman, ash-brown bob, reading glasses pushed up, cautious corporate expression. Purple cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
