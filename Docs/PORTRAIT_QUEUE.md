@@ -568,25 +568,25 @@ A 35-year-old Mexican-American man, black hair buzzed short, a faded tattoo on t
 
 ## Dosya #040 (4)
 
-86. **Megan Brennan** → `megan.png`
+86. **Megan Brennan** → `megan.png` ✅
 
 ```
 A 38-year-old Irish-American woman, copper-red hair tied back loosely, pale freckled skin, swollen grieving blue eyes. Light blue nurse's scrub top under an open grey cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-87. **Kyle Duffy** → `duffy.png`
+87. **Kyle Duffy** → `duffy.png` ✅
 
 ```
 A 41-year-old Irish-American man, short brown hair, reddish stubble, square friendly face with nervous eyes. Brown canvas work jacket over a plaid flannel shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-88. **Grace Okafor** → `okafor.png`
+88. **Grace Okafor** → `okafor.png` ✅
 
 ```
 A 70-year-old Nigerian-American woman, short grey natural hair, reading glasses on a beaded chain, warm sharp eyes. Plum-coloured cardigan over a patterned blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-89. **Luz Ramírez** → `ramirez.png`
+89. **Luz Ramírez** → `ramirez.png` ✅
 
 ```
 A 44-year-old Mexican-American woman, black hair in a tight bun, soot smudge on her cheekbone, steady dark eyes. Dark navy fire investigator's jacket with reflective stripes, no text or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
