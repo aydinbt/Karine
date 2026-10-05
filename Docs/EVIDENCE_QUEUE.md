@@ -95,10 +95,10 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 56. **Asma tavan plakası** → `case030_tile.png` ✅
 
 ## Dosya #031 (4)
-57. **Hirezake kadehi** → `case031_cup.png`
-58. **Mühürlü sakatat kutusu** → `case031_bin.png`
-59. **Boş ampul** → `case031_vial.png`
-60. **Başkanın defteri** → `case031_notebook.png`
+57. **Hirezake kadehi** → `case031_cup.png` ✅
+58. **Mühürlü sakatat kutusu** → `case031_bin.png` ✅
+59. **Boş ampul** → `case031_vial.png` ✅
+60. **Başkanın defteri** → `case031_notebook.png` ✅
 
 ## Dosya #032 (3)
 61. **Bronz kitap desteği** → `case032_bookend.png`

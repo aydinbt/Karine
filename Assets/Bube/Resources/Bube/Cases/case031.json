@@ -95,6 +95,13 @@
    "requestDelaySeconds": 4,
    "requiresAsked": [
     "case031.omura.fish"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case031.item.bin.name",
+     "detailKey": "case031.item.bin.detail",
+     "imageResource": "Bube/Items/case031_bin"
+    }
    ]
   },
   {
@@ -178,7 +185,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case031.request.cup",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case031.item.cup.name",
+     "detailKey": "case031.item.cup.detail",
+     "imageResource": "Bube/Items/case031_cup"
+    }
+   ]
   },
   {
    "id": "sayuri",
@@ -273,6 +287,13 @@
    "requestDelaySeconds": 4,
    "requiresAsked": [
     "case031.ikeda.book"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case031.item.notebook.name",
+     "detailKey": "case031.item.notebook.detail",
+     "imageResource": "Bube/Items/case031_notebook"
+    }
    ]
   },
   {
@@ -327,6 +348,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case031.saito.door"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case031.item.vial.name",
+     "detailKey": "case031.item.vial.detail",
+     "imageResource": "Bube/Items/case031_vial"
+    }
    ]
   },
   {
