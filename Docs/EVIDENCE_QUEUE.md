@@ -9,10 +9,10 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 4. **Kira defteri** → `case013_ledger.png` ✅
 
 ## Dosya #014 (4)
-5. **Yırtık not** → `case014_note.png`
-6. **İki fincan** → `case014_cups.png`
-7. **Grafitli sayfa** → `case014_graphite.png`
-8. **İğne deliği** → `case014_pinhole.png`
+5. **Yırtık not** → `case014_note.png` ✅
+6. **İki fincan** → `case014_cups.png` ✅
+7. **Grafitli sayfa** → `case014_graphite.png` ✅
+8. **İğne deliği** → `case014_pinhole.png` ✅
 
 ## Dosya #015 (3)
 9. **Bordür** → `case015_kerb.png`

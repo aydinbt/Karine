@@ -196,7 +196,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case014.request.scene",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case014.item.cups.name",
+     "detailKey": "case014.item.cups.detail",
+     "imageResource": "Bube/Items/case014_cups"
+    }
+   ]
   },
   {
    "id": "entry",
@@ -384,7 +391,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case014.request.framer",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case014.item.pinhole.name",
+     "detailKey": "case014.item.pinhole.detail",
+     "imageResource": "Bube/Items/case014_pinhole"
+    }
+   ]
   },
   {
    "id": "noah",
@@ -461,7 +475,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case014.request.notebook",
-   "requestDelaySeconds": 8
+   "requestDelaySeconds": 8,
+   "relatedItems": [
+    {
+     "nameKey": "case014.item.note.name",
+     "detailKey": "case014.item.note.detail",
+     "imageResource": "Bube/Items/case014_note"
+    },
+    {
+     "nameKey": "case014.item.graphite.name",
+     "detailKey": "case014.item.graphite.detail",
+     "imageResource": "Bube/Items/case014_graphite"
+    }
+   ]
   },
   {
    "id": "julian_2",
