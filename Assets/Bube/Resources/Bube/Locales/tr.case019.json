@@ -1,0 +1,588 @@
+{
+ "entries": [
+  {
+   "key": "case019.autopsy.body",
+   "value": "· Ölüm sebebi: kafatası kırığı, beyin kanaması. Tek, şiddetli darbe; mikrofon ayağının ağır tabanıyla uyumlu.\n· Vücut sıcaklığı (02.15 ölçümü), ölü katılığı ve mide içeriği ölümün 21.00 – 22.30 arasında gerçekleştiğini gösteriyor.\n· Not: Bu saat, yayının 23.00’te başlamasıyla bağdaşmıyor. Ölçümler iki kez tekrarlandı."
+  },
+  {
+   "key": "case019.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case019.bar.body",
+   "value": "Simon-Dach-Straße’de bir bar. Kart sahibi: Tobias Wendt.\n\n· 22.52 · iki bira\n· 00.05 · bir bira\n· 01.24 · hesap kapatma\n\nBar personeli: “Masada tek başınaydı, sürekli telefonuyla uğraşıyordu.”"
+  },
+  {
+   "key": "case019.bar.title",
+   "value": "BAR KART ÖDEMELERİ — 13/14 TEMMUZ"
+  },
+  {
+   "key": "case019.cctv.event.in",
+   "value": "Kamera: Sırt çantalı, açık renk ceketli bir erkek zil paneline dokunmadan, kendi anahtarıyla kapıyı açıp giriyor."
+  },
+  {
+   "key": "case019.cctv.event.out",
+   "value": "Kamera: Aynı sırt çantalı erkek çıkıyor; ceketi yok, kapüşonu başında, başı önde, hızlı adımlarla."
+  },
+  {
+   "key": "case019.cctv.event.sophie",
+   "value": "Kamera: Bir kadın zile basıyor, bekliyor, telefonuna bakıyor, gidiyor."
+  },
+  {
+   "key": "case019.cctv.overlay",
+   "value": "EINGANG"
+  },
+  {
+   "key": "case019.cctv.period",
+   "value": "13 Temmuz 2029, 20.30 – 02.00"
+  },
+  {
+   "key": "case019.cctv.source",
+   "value": "Bina giriş kamerası"
+  },
+  {
+   "key": "case019.chatlog.body",
+   "value": "Talep: bube Berlin. 14 Temmuz 00.30’daki mesaj.\n\n· Mesaj: “Evet gördüm, korkunç. Herkes güvende olsun.”\n· Gönderen cihaz: Android telefon, kayıtlı cihaz adı “Tobias – iş”. Moderatör yetkisiyle sunucu hesabına geçiş yapılmış.\n· Bağlantı: Simon-Dach-Straße’deki barın misafir ağı.\n· Aynı gece felix_hartung hesabından stüdyo bilgisayarıyla hiçbir oturum açılmamış."
+  },
+  {
+   "key": "case019.chatlog.title",
+   "value": "SOHBET OTURUM KAYDI — FELIX_HARTUNG HESABI"
+  },
+  {
+   "key": "case019.clue.bar",
+   "value": "Tobias Wendt barda ilk ödemesini yapıyor."
+  },
+  {
+   "key": "case019.clue.chat",
+   "value": "Felix’in hesabından, bardaki bir telefondan sohbet mesajı."
+  },
+  {
+   "key": "case019.clue.death",
+   "value": "Otopsiye göre ölüm aralığı."
+  },
+  {
+   "key": "case019.clue.edit",
+   "value": "Yayın dosyası kurgulanıyor; itiraf cümlesi siliniyor."
+  },
+  {
+   "key": "case019.clue.fire",
+   "value": "Oberbaum yakınında yangın; yayındaki Felix hiç söz etmiyor."
+  },
+  {
+   "key": "case019.clue.in",
+   "value": "Sırt çantalı bir erkek kendi anahtarıyla binaya giriyor."
+  },
+  {
+   "key": "case019.clue.out",
+   "value": "Aynı adam ceketsiz, kapüşonlu çıkıyor."
+  },
+  {
+   "key": "case019.clue.rain",
+   "value": "Berlin’de sağanak; Felix yayında “bugün öğleden sonraki sağanak” diyor."
+  },
+  {
+   "key": "case019.clue.sophie",
+   "value": "Bir kadın zile basıp yanıt alamıyor."
+  },
+  {
+   "key": "case019.clue.source.autopsy",
+   "value": "Otopsi"
+  },
+  {
+   "key": "case019.clue.source.bar",
+   "value": "Bar kayıtları"
+  },
+  {
+   "key": "case019.clue.source.chatlog",
+   "value": "Sohbet oturum kaydı"
+  },
+  {
+   "key": "case019.clue.source.edit",
+   "value": "Kurgu bilgisayarı"
+  },
+  {
+   "key": "case019.clue.source.encoder",
+   "value": "Yayın sunucusu"
+  },
+  {
+   "key": "case019.clue.source.weather",
+   "value": "Hava kaydı"
+  },
+  {
+   "key": "case019.clue.start",
+   "value": "Yayın kaynağı bağlanıyor: kamera değil, dosya."
+  },
+  {
+   "key": "case019.custody.after",
+   "value": "00.58 – 01.42 — yayından sonra"
+  },
+  {
+   "key": "case019.custody.before",
+   "value": "21.00 – 22.30 — yayın başlamadan önce"
+  },
+  {
+   "key": "case019.custody.during",
+   "value": "Yayın sırasında"
+  },
+  {
+   "key": "case019.custody.label",
+   "value": "Felix ne zaman öldü?"
+  },
+  {
+   "key": "case019.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case019.door.body",
+   "value": "Boxhagener Hof 12’nin sokak kapısı kamerası. 13 Temmuz 20.30 – 14 Temmuz 02.00."
+  },
+  {
+   "key": "case019.door.title",
+   "value": "BİNA GİRİŞ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case019.edit.body",
+   "value": "Talep: bube Berlin bilgi işlem. Stüdyodaki kurgu bilgisayarı.\n\n· gece_masasi_0712_son.mp4, 13 Temmuz 19.36’da düzenlenmiş; oturum: Tobias Wendt.\n· Silinen bölüm, ham kayıttan geri getirildi (00.57): Felix: “Ve yarın, 13 Temmuz gecesi, bu programın son altı ayda nasıl yapıldığını size kendim anlatacağım. Kimin hazırladığını da.”\n· Kurgu sonrası dosyada bu cümle yok; yerine 12 Temmuz kaydından “Yarın aynı saatte” eklenmiş."
+  },
+  {
+   "key": "case019.edit.title",
+   "value": "KURGU BİLGİSAYARI İNCELEMESİ — KURGU-BİLGİSAYARI-2"
+  },
+  {
+   "key": "case019.encoder.body",
+   "value": "Talep: bube Berlin. Yayın platformunun teknik kaydı.\n\n· 22.58 · yayın kaynağı bağlandı · tür: kamera DEĞİL — önceden yüklenmiş dosya\n· dosya adı: gece_masasi_0712_son.mp4 · oluşturma: 12 Temmuz 2029, 20.14 · son düzenleme: 13 Temmuz 2029, 19.36\n· yükleyen cihaz: kurgu-bilgisayarı-2 (stüdyo ağı)\n· 23.00 – 00.58 · dosya oynatıldı\n· Not: Son 30 günde 19 yayının 14’ü aynı yöntemle, dosyadan yapılmış."
+  },
+  {
+   "key": "case019.encoder.title",
+   "value": "YAYIN SUNUCUSU KAYDI — GECE MASASI, 13 TEMMUZ"
+  },
+  {
+   "key": "case019.epilogue.custody.after",
+   "value": "Dosya yayın sonrasına kuruldu; o saatte kapıda olan tek kişi Sophie’ydi."
+  },
+  {
+   "key": "case019.epilogue.custody.before",
+   "value": "Dosyaya bir not düştüldü: “Ekranda görülen kişi o anda yaşıyor sayılmaz; yayının kaynağı istenmeden mazeret kabul edilmez.” Sophie Lindner hakkındaki şüphe resmen kaldırıldı."
+  },
+  {
+   "key": "case019.epilogue.custody.during",
+   "value": "Yayın sırasında öldüğü varsayıldı; binlerce izleyicinin gördüğü görüntü dosyanın en güçlü tanığı oldu."
+  },
+  {
+   "key": "case019.epilogue.custody.unknown",
+   "value": "Ölüm saati belirsiz kaldı; mazeretler havada kaldı."
+  },
+  {
+   "key": "case019.epilogue.verdict.ines",
+   "value": "Sponsor şirket soruşturuldu, hiçbir şey çıkmadı. Tobias Wendt yeni bir programın kurgusunu almaya başladı."
+  },
+  {
+   "key": "case019.epilogue.verdict.nobody",
+   "value": "Ölüm kaza olarak kapandı. “Gece Masası”nın son yayını, sunucusunun öldükten sonra yaptığı bir yayın olarak hatırlandı; kimse nedenini sormadı."
+  },
+  {
+   "key": "case019.epilogue.verdict.sophie",
+   "value": "Sophie Lindner tutuklandı. Savunma, yayın saatini mazeret yerine suçlama olarak kullandı; dava bir yıl sürdü."
+  },
+  {
+   "key": "case019.epilogue.verdict.tobias",
+   "value": "Tobias Wendt cinayetten tutuklandı. “Gece Masası”nın son altı ayının kayıtlı olduğu açıklandı; sponsor sözleşmeyi feshetti. Felix’in silinen cümlesi bir haber sitesinde yayımlandı."
+  },
+  {
+   "key": "case019.evidence.bar",
+   "value": "Bar kart ödemeleri"
+  },
+  {
+   "key": "case019.evidence.encoder",
+   "value": "Yayın sunucusu kaydı"
+  },
+  {
+   "key": "case019.evidence.transcript",
+   "value": "Yayın dökümü"
+  },
+  {
+   "key": "case019.evidence.weather",
+   "value": "Hava kaydı"
+  },
+  {
+   "key": "case019.feedback.ines",
+   "value": "Ines’in denetim derdi vardı, ama o akşam yüz kişinin önündeydi ve sahte yayınları çözmek onun işine yarıyordu."
+  },
+  {
+   "key": "case019.feedback.nobody",
+   "value": "Kafatasındaki tek, şiddetli darbe mikrofon ayağının tabanıyla uyumlu; düşme izi yok."
+  },
+  {
+   "key": "case019.feedback.sophie",
+   "value": "Sophie 00.40’ta zile bastı ve yanıt alamadı; Felix o saatte iki saattir ölüydü."
+  },
+  {
+   "key": "case019.feedback.tobias",
+   "value": "21.05–22.20 arası telefonu ve kendisi binadaydı; ardından önceden kurguladığı dosya Felix’i ekranda yaşattı, sohbetteki “canlı” mesajı da barda kendisi yazdı."
+  },
+  {
+   "key": "case019.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case019.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Şubesi"
+  },
+  {
+   "key": "case019.file.value.location",
+   "value": "Friedrichshain, Boxhagener Hof 12 — çatı katı"
+  },
+  {
+   "key": "case019.file.value.number",
+   "value": "BDS-BER-2029-0044"
+  },
+  {
+   "key": "case019.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case019.file.value.reporter",
+   "value": "Eski sevgilisi"
+  },
+  {
+   "key": "case019.ines.body",
+   "value": "Sponsor şirketin müdürü."
+  },
+  {
+   "key": "case019.ines.contract.answer",
+   "value": "Canlı yayın. Reklamlarımız canlı izleyiciye satılıyor. Önümüzdeki hafta denetim vardı; yayınların kaydedildiğinden şüpheleniyorduk."
+  },
+  {
+   "key": "case019.ines.contract.question",
+   "value": "Sponsorluk sözleşmesi neyi şart koşuyordu?"
+  },
+  {
+   "key": "case019.ines.deflect",
+   "value": "Bunu hukuk birimimize sorun."
+  },
+  {
+   "key": "case019.ines.monday.answer",
+   "value": "Pazartesi beni aradı. ‘Denetimden önce açıklayacağım,’ dedi. ‘Kayıtlı yayınları kurgucum hazırladı, ben göz yumdum.’ Adını açık açık verecekti."
+  },
+  {
+   "key": "case019.ines.monday.question",
+   "value": "Felix size bir şey söyledi mi?"
+  },
+  {
+   "key": "case019.ines.title",
+   "value": "Ines Kraft — görüşme"
+  },
+  {
+   "key": "case019.ines.where.answer",
+   "value": "Mitte’de şirketin yaz resepsiyonunda, 20.00’den gece yarısına kadar. Yüz kişi gördü."
+  },
+  {
+   "key": "case019.ines.where.question",
+   "value": "13 Temmuz akşamı neredeydiniz?"
+  },
+  {
+   "key": "case019.method.fell",
+   "value": "Düşüp masaya çarptı"
+  },
+  {
+   "key": "case019.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case019.method.strangled",
+   "value": "Boğuldu"
+  },
+  {
+   "key": "case019.method.struck",
+   "value": "Mikrofon ayağıyla başına vuruldu"
+  },
+  {
+   "key": "case019.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case019.offer.subtitle",
+   "value": "CANLI YAYIN  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case019.offer.summary",
+   "value": "Gece programı sunucusu Felix Hartung, yayını bitirdikten kırk dakika sonra stüdyo dairesinde ölü bulunuyor. Binlerce izleyici onu 00.58’e kadar canlı gördü. Kapıdaki tek kişi eski sevgilisi."
+  },
+  {
+   "key": "case019.offer.title",
+   "value": "DOSYA #019"
+  },
+  {
+   "key": "case019.person.ines.info",
+   "value": "44 yaşında, Arendt Handelsgesellschaft’ın medya kolunda sponsorluk müdürü. “Gece Masası”nın ana sponsoru onun şirketi."
+  },
+  {
+   "key": "case019.person.ines.name",
+   "value": "Ines Kraft"
+  },
+  {
+   "key": "case019.person.sophie.info",
+   "value": "33 yaşında, grafik tasarımcı. Felix Hartung’un eski sevgilisi; yedek anahtarı hâlâ onda."
+  },
+  {
+   "key": "case019.person.sophie.name",
+   "value": "Sophie Lindner"
+  },
+  {
+   "key": "case019.person.tobias.info",
+   "value": "31 yaşında, video kurgucu. Üç yıldır “Gece Masası”nın kurgusunu ve sohbet moderasyonunu yapıyor."
+  },
+  {
+   "key": "case019.person.tobias.name",
+   "value": "Tobias Wendt"
+  },
+  {
+   "key": "case019.report.body",
+   "value": "14 Temmuz 2029 saat 01.42’de Friedrichshain’da, Boxhagener Hof 12’deki bir çatı katı stüdyo dairesinde bir erkek cesedi bulundu. Bulan kişi: eski sevgilisi Sophie Lindner, yedek anahtarla girmiş.\n\nÖlen: Felix Hartung (36), her gece 23.00–01.00 arası canlı yayınlanan “Gece Masası” programının sunucusu. Başında ağır bir darbe; yanında devrilmiş bir mikrofon ayağı.\n\nDevriye notu: “Yayın 00.58’de sona erdi; binlerce izleyici onu canlı gördü. Ölüm 00.58 ile 01.42 arasında. Bir komşu, Sophie Lindner’i 00.40’ta kapıda zile basarken görmüş. Şüpheli belli.”"
+  },
+  {
+   "key": "case019.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case019.request.bar",
+   "value": "Barın kart ödeme kaydını iste"
+  },
+  {
+   "key": "case019.request.chatlog",
+   "value": "Sohbet platformundan oturum kaydını iste"
+  },
+  {
+   "key": "case019.request.edit",
+   "value": "Kurgu bilgisayarının incelenmesini iste"
+  },
+  {
+   "key": "case019.request.encoder",
+   "value": "Yayın platformundan sunucu kaydını iste"
+  },
+  {
+   "key": "case019.request.tphone",
+   "value": "Tobias Wendt’in telefon konum kaydını iste"
+  },
+  {
+   "key": "case019.request.weather",
+   "value": "12–13 Temmuz hava kaydını iste"
+  },
+  {
+   "key": "case019.sophie.body",
+   "value": "Cesedi bulan eski sevgilisi."
+  },
+  {
+   "key": "case019.sophie.deflect",
+   "value": "Bilmiyorum. Yayını izliyordum, o kadar."
+  },
+  {
+   "key": "case019.sophie.night.answer",
+   "value": "Yayını izliyordum. Bir şey konuşmamız gerekiyordu. 00.40’ta zile bastım, ekranda konuşmaya devam etti. Zil sesi yayına girmedi — o tavan arasında her ses yayına girer. Tuhafıma gitti, gittim. Bir saat sonra dayanamadım, anahtarla girdim."
+  },
+  {
+   "key": "case019.sophie.night.answer.demeanor",
+   "value": "Sesi titredi."
+  },
+  {
+   "key": "case019.sophie.night.question",
+   "value": "Dün gece neden oraya gittiniz?"
+  },
+  {
+   "key": "case019.sophie.quote",
+   "value": "“Zil sesi yayına girmedi.”"
+  },
+  {
+   "key": "case019.sophie.talk.answer",
+   "value": "Bana geçen hafta ‘her şeyi itiraf edeceğim, yayınlar sahte’ dedi. Ne demek istediğini anlamadım. Korkmuş gibiydi."
+  },
+  {
+   "key": "case019.sophie.talk.question",
+   "value": "Ne konuşacaktınız?"
+  },
+  {
+   "key": "case019.sophie.title",
+   "value": "Sophie Lindner — görüşme"
+  },
+  {
+   "key": "case019.summary.evidence",
+   "value": "Otopsi ölümü yayından önceye koydu. Hava kaydı, yayındaki “bugünkü sağanağın” bir gün önce yağdığını; yayın sunucusu kaydı yayının kameradan değil dosyadan geldiğini gösterdi. Sohbet oturum kaydı “canlı” mesajı bardaki telefona, konum kaydı ve giriş kamerası Tobias’ı binaya, kurgu incelemesi silinen itirafa bağladı."
+  },
+  {
+   "key": "case019.summary.lesson",
+   "value": "Ekranda görmek, o anda yaşadığını kanıtlamaz: görüntünün kaynağını ve kaydın üstverisini iste. Mükemmel bir mazeret, en çok sorgulanması gereken mazerettir."
+  },
+  {
+   "key": "case019.summary.location",
+   "value": "Friedrichshain ve Simon-Dach-Straße — Temmuz 2029"
+  },
+  {
+   "key": "case019.summary.truth",
+   "value": "“Gece Masası” aylardır canlı değildi: kurgucu Tobias Wendt kayıtları hazırlıyor, Felix Hartung onları canlı diye yayınlıyordu. Sponsor denetiminden önce Felix her şeyi açıklayıp suçu kurgucusuna yüklemeye karar verdi. Tobias 13 Temmuz akşamı o geceki dosyadan itiraf cümlesini kesti, 21.00’den sonra Felix’e gitti ve onu mikrofon ayağıyla öldürdü. Sonra bara geçti; 23.00’te dosya oynadı ve Felix iki saat ekranda yaşadı. Yangın sohbeti patlatınca Felix’in hesabıyla barda bir mesaj yazdı."
+  },
+  {
+   "key": "case019.suspect.label",
+   "value": "Felix Hartung’un ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case019.tablet.caseLine",
+   "value": "DOSYA #019  /  BUBE BERLİN — KREUZBERG"
+  },
+  {
+   "key": "case019.time.bar",
+   "value": "22.52"
+  },
+  {
+   "key": "case019.time.chat",
+   "value": "00.30"
+  },
+  {
+   "key": "case019.time.death",
+   "value": "21.00 – 22.30"
+  },
+  {
+   "key": "case019.time.edit",
+   "value": "13 Temmuz 19.36"
+  },
+  {
+   "key": "case019.time.fire",
+   "value": "00.15"
+  },
+  {
+   "key": "case019.time.in",
+   "value": "21.08"
+  },
+  {
+   "key": "case019.time.out",
+   "value": "22.19"
+  },
+  {
+   "key": "case019.time.rain",
+   "value": "12 Temmuz 15.10"
+  },
+  {
+   "key": "case019.time.sophie",
+   "value": "00.40"
+  },
+  {
+   "key": "case019.time.start",
+   "value": "22.58"
+  },
+  {
+   "key": "case019.title",
+   "value": "Dosya #019 — Canlı Yayın"
+  },
+  {
+   "key": "case019.tobias.body",
+   "value": "Kurgucu ve sohbet moderatörü."
+  },
+  {
+   "key": "case019.tobias.deflect",
+   "value": "Teknik bir şey, anlatması uzun."
+  },
+  {
+   "key": "case019.tobias.files.answer",
+   "value": "Ben kurgularım, Felix yüklerdi. Gece yorgunluğu, anlarsınız. Kimse zarar görmüyordu."
+  },
+  {
+   "key": "case019.tobias.files.answer.demeanor",
+   "value": "Omuz silkti, ama elleri masanın altına kaydı."
+  },
+  {
+   "key": "case019.tobias.files.question",
+   "value": "Yayınların çoğu dosyadan oynatılmış. Dosyaları kim hazırladı?"
+  },
+  {
+   "key": "case019.tobias.night.answer",
+   "value": "22.45’ten gece bir buçuğa kadar Simon-Dach’ta bir barda. Yayını telefondan izledim. Felix canlıydı — sohbette yangına bile yazdı, gördünüz."
+  },
+  {
+   "key": "case019.tobias.night.question",
+   "value": "13 Temmuz akşamı neredeydiniz?"
+  },
+  {
+   "key": "case019.tobias.title",
+   "value": "Tobias Wendt — görüşme"
+  },
+  {
+   "key": "case019.tobias_2.body",
+   "value": "Oturum, konum ve kurgu kaydı üzerine."
+  },
+  {
+   "key": "case019.tobias_2.chat.answer",
+   "value": "Moderatörüm, hesabına geçerim. Sohbet çıldırmıştı, bir şey yazmak gerekiyordu. Bu bir suç mu?"
+  },
+  {
+   "key": "case019.tobias_2.chat.question",
+   "value": "00.30’daki mesajı barın ağından, kendi telefonunuzdan, Felix’in hesabıyla siz yazdınız."
+  },
+  {
+   "key": "case019.tobias_2.cut.answer",
+   "value": "…Beni yakacaktı. Altı ay boyunca o istedi, ben yaptım. Sonra ‘kurgucum yaptı’ diyecekti. Konuşmaya gittim. Dokuz gibi."
+  },
+  {
+   "key": "case019.tobias_2.cut.answer.demeanor",
+   "value": "Sesi kısıldı."
+  },
+  {
+   "key": "case019.tobias_2.cut.question",
+   "value": "Felix’in itiraf cümlesini yayından siz kestiniz. Saat 19.36’da."
+  },
+  {
+   "key": "case019.tobias_2.stand.answer",
+   "value": "Bağırdı, telefonunu aldı, sponsoru arayacaktı. Mikrofon ayağı oradaydı. Bir kere. Sonra dosyayı yayına zaten ayarlamıştım. Ekranda yaşıyordu. Gece boyunca yaşadı."
+  },
+  {
+   "key": "case019.tobias_2.stand.answer.demeanor",
+   "value": "Gözlerini ekrandan ayırmadı."
+  },
+  {
+   "key": "case019.tobias_2.stand.question",
+   "value": "Sonra ne oldu?"
+  },
+  {
+   "key": "case019.tobias_2.title",
+   "value": "Tobias Wendt — ikinci görüşme"
+  },
+  {
+   "key": "case019.tphone.body",
+   "value": "Hat: Tobias Wendt. 13 Temmuz 2029.\n\n· 19.30 · baz: Kreuzberg (stüdyo ağı oturumu)\n· 21.05 – 22.20 · baz: Friedrichshain, Boxhagener Hof çevresi\n· 22.44 · baz: Simon-Dach-Straße\n· 00.30 · veri oturumu: Simon-Dach-Straße"
+  },
+  {
+   "key": "case019.tphone.title",
+   "value": "TELEFON KONUM KAYDI — TOBIAS WENDT"
+  },
+  {
+   "key": "case019.transcript.body",
+   "value": "Seçilmiş anlar; video ve canlı sohbet aynı ekranda.\n\n· 23.02 · Felix: “İyi akşamlar Berlin. Bugün öğleden sonraki o sağanağı gördünüz mü? Balkonumda göl oluştu.”\n· 23.40 · Felix uzun bir monolog: sokak kiraları.\n· 00.21 · Sohbet: “Oberbaum Köprüsü’nde yangın var!!” — yüzlerce mesaj. Felix kira konusuna devam ediyor.\n· 00.30 · Sohbette sunucunun kendi hesabından mesaj (felix_hartung): “Evet gördüm, korkunç. Herkes güvende olsun.”\n· 00.31–00.58 · Felix yangından hiç söz etmiyor.\n· 00.58 · Felix: “Yarın aynı saatte. İyi geceler.”"
+  },
+  {
+   "key": "case019.transcript.title",
+   "value": "YAYIN DÖKÜMÜ — GECE MASASI, 13 TEMMUZ 23.00–00.58"
+  },
+  {
+   "key": "case019.verdict.ines",
+   "value": "Ines Kraft"
+  },
+  {
+   "key": "case019.verdict.nobody",
+   "value": "Kimse — düşüp başını çarptı"
+  },
+  {
+   "key": "case019.verdict.sophie",
+   "value": "Sophie Lindner"
+  },
+  {
+   "key": "case019.verdict.tobias",
+   "value": "Tobias Wendt"
+  },
+  {
+   "key": "case019.weather.body",
+   "value": "Kurmaca kent meteoroloji istasyonu, Friedrichshain ölçüm noktası.\n\n· 12 Temmuz · 15.10 – 17.20 · şiddetli sağanak, 31 mm\n· 13 Temmuz · bütün gün açık ve kuru; yağış yok\n· 13 Temmuz · 00.15 · Oberbaum Köprüsü yakınında bir depo yangını (itfaiye kaydı)"
+  },
+  {
+   "key": "case019.weather.title",
+   "value": "HAVA KAYDI — BERLİN, 12–13 TEMMUZ 2029"
+  }
+ ]
+}

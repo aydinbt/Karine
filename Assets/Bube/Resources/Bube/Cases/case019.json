@@ -1,0 +1,593 @@
+{
+ "deskHour": 9,
+ "deskDate": "14 Temmuz 2029",
+ "titleKey": "case019.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case019.report.title",
+   "bodyKey": "case019.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case019.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case019.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case019.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case019.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case019.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case019.autopsy.title",
+   "bodyKey": "case019.autopsy.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "transcript",
+   "kind": "document",
+   "titleKey": "case019.transcript.title",
+   "bodyKey": "case019.transcript.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "weather",
+   "kind": "document",
+   "titleKey": "case019.weather.title",
+   "bodyKey": "case019.weather.body",
+   "requires": [
+    "transcript"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case019.request.weather",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "encoder",
+   "kind": "document",
+   "titleKey": "case019.encoder.title",
+   "bodyKey": "case019.encoder.body",
+   "requires": [
+    "transcript",
+    "autopsy"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case019.request.encoder",
+   "requestDelaySeconds": 8
+  },
+  {
+   "id": "sophie",
+   "kind": "interview",
+   "titleKey": "case019.sophie.title",
+   "bodyKey": "case019.sophie.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "sophie",
+   "personNameKey": "case019.person.sophie.name",
+   "personInfoKey": "case019.person.sophie.info",
+   "questions": [
+    {
+     "id": "case019.sophie.night",
+     "promptKey": "case019.sophie.night.question",
+     "answerKey": "case019.sophie.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case019.sophie.talk",
+     "promptKey": "case019.sophie.talk.question",
+     "answerKey": "case019.sophie.talk.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case019.sophie.night"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case019.sophie.night",
+    "case019.sophie.talk"
+   ],
+   "deflectAnswerKey": "case019.sophie.deflect",
+   "portrait": {
+    "hairHex": "#3A2A20",
+    "skinHex": "#EACCB4",
+    "shirtHex": "#2A4A4A",
+    "longHair": true
+   },
+   "personQuoteKey": "case019.sophie.quote"
+  },
+  {
+   "id": "ines",
+   "kind": "interview",
+   "titleKey": "case019.ines.title",
+   "bodyKey": "case019.ines.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "ines",
+   "personNameKey": "case019.person.ines.name",
+   "personInfoKey": "case019.person.ines.info",
+   "questions": [
+    {
+     "id": "case019.ines.contract",
+     "promptKey": "case019.ines.contract.question",
+     "answerKey": "case019.ines.contract.answer",
+     "topicKey": "interview.topic.records"
+    },
+    {
+     "id": "case019.ines.monday",
+     "promptKey": "case019.ines.monday.question",
+     "answerKey": "case019.ines.monday.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case019.ines.contract"
+     ]
+    },
+    {
+     "id": "case019.ines.where",
+     "promptKey": "case019.ines.where.question",
+     "answerKey": "case019.ines.where.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case019.ines.contract"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case019.ines.contract",
+    "case019.ines.monday"
+   ],
+   "deflectAnswerKey": "case019.ines.deflect",
+   "portrait": {
+    "hairHex": "#A86A3A",
+    "skinHex": "#E6C4AA",
+    "shirtHex": "#1E1E24",
+    "longHair": true
+   }
+  },
+  {
+   "id": "tobias",
+   "kind": "interview",
+   "titleKey": "case019.tobias.title",
+   "bodyKey": "case019.tobias.body",
+   "requires": [
+    "encoder"
+   ],
+   "personId": "tobias",
+   "personNameKey": "case019.person.tobias.name",
+   "personInfoKey": "case019.person.tobias.info",
+   "questions": [
+    {
+     "id": "case019.tobias.files",
+     "promptKey": "case019.tobias.files.question",
+     "answerKey": "case019.tobias.files.answer",
+     "topicKey": "interview.topic.records"
+    },
+    {
+     "id": "case019.tobias.night",
+     "promptKey": "case019.tobias.night.question",
+     "answerKey": "case019.tobias.night.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case019.tobias.files"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case019.tobias.files",
+    "case019.tobias.night"
+   ],
+   "deflectAnswerKey": "case019.tobias.deflect",
+   "portrait": {
+    "hairHex": "#1E1A16",
+    "skinHex": "#E0BEA2",
+    "shirtHex": "#4A3A2A"
+   }
+  },
+  {
+   "id": "bar",
+   "kind": "document",
+   "titleKey": "case019.bar.title",
+   "bodyKey": "case019.bar.body",
+   "requires": [
+    "tobias"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case019.request.bar",
+   "requestDelaySeconds": 6,
+   "requiresAsked": [
+    "case019.tobias.night"
+   ]
+  },
+  {
+   "id": "chatlog",
+   "kind": "document",
+   "titleKey": "case019.chatlog.title",
+   "bodyKey": "case019.chatlog.body",
+   "requires": [
+    "bar",
+    "transcript"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case019.request.chatlog",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "door",
+   "kind": "cctv",
+   "titleKey": "case019.door.title",
+   "bodyKey": "case019.door.body",
+   "requires": [
+    "report"
+   ],
+   "cctvSourceKey": "case019.cctv.source",
+   "cctvOverlayKey": "case019.cctv.overlay",
+   "cctvPeriodKey": "case019.cctv.period",
+   "cctvEvents": [
+    {
+     "id": "in",
+     "textKey": "case019.cctv.event.in",
+     "delayMs": 620,
+     "overlayTimeKey": "case019.time.in"
+    },
+    {
+     "id": "out",
+     "textKey": "case019.cctv.event.out",
+     "delayMs": 620,
+     "overlayTimeKey": "case019.time.out"
+    },
+    {
+     "id": "sophie",
+     "textKey": "case019.cctv.event.sophie",
+     "delayMs": 620,
+     "overlayTimeKey": "case019.time.sophie"
+    }
+   ]
+  },
+  {
+   "id": "tphone",
+   "kind": "document",
+   "titleKey": "case019.tphone.title",
+   "bodyKey": "case019.tphone.body",
+   "requires": [
+    "tobias"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case019.request.tphone",
+   "requestDelaySeconds": 6,
+   "requiresAsked": [
+    "case019.tobias.night"
+   ]
+  },
+  {
+   "id": "edit",
+   "kind": "document",
+   "titleKey": "case019.edit.title",
+   "bodyKey": "case019.edit.body",
+   "requires": [
+    "tobias",
+    "encoder"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case019.request.edit",
+   "requestDelaySeconds": 8
+  },
+  {
+   "id": "tobias_2",
+   "kind": "interview",
+   "titleKey": "case019.tobias_2.title",
+   "bodyKey": "case019.tobias_2.body",
+   "requires": [
+    "tobias",
+    "chatlog",
+    "edit"
+   ],
+   "personId": "tobias",
+   "personNameKey": "case019.person.tobias.name",
+   "personInfoKey": "case019.person.tobias.info",
+   "questions": [
+    {
+     "id": "case019.tobias_2.chat",
+     "promptKey": "case019.tobias_2.chat.question",
+     "answerKey": "case019.tobias_2.chat.answer",
+     "topicKey": "interview.topic.records",
+     "presentedSourceIds": [
+      "chatlog"
+     ]
+    },
+    {
+     "id": "case019.tobias_2.cut",
+     "promptKey": "case019.tobias_2.cut.question",
+     "answerKey": "case019.tobias_2.cut.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case019.tobias_2.chat"
+     ],
+     "presentedSourceIds": [
+      "edit"
+     ]
+    },
+    {
+     "id": "case019.tobias_2.stand",
+     "promptKey": "case019.tobias_2.stand.question",
+     "answerKey": "case019.tobias_2.stand.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case019.tobias_2.cut"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case019.tobias_2.chat",
+    "case019.tobias_2.cut",
+    "case019.tobias_2.stand"
+   ],
+   "deflectAnswerKey": "case019.tobias.deflect",
+   "portrait": {
+    "hairHex": "#1E1A16",
+    "skinHex": "#E0BEA2",
+    "shirtHex": "#4A3A2A"
+   }
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "rain",
+   "timeKey": "case019.time.rain",
+   "noteKey": "case019.clue.rain",
+   "sourceKey": "case019.clue.source.weather",
+   "requiresRead": [
+    "weather"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "edit",
+   "timeKey": "case019.time.edit",
+   "noteKey": "case019.clue.edit",
+   "sourceKey": "case019.clue.source.edit",
+   "requiresRead": [
+    "edit"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "in",
+   "timeKey": "case019.time.in",
+   "noteKey": "case019.clue.in",
+   "sourceKey": "case019.cctv.source",
+   "requiresRead": [
+    "door"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "death",
+   "timeKey": "case019.time.death",
+   "noteKey": "case019.clue.death",
+   "sourceKey": "case019.clue.source.autopsy",
+   "requiresRead": [
+    "autopsy"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "out",
+   "timeKey": "case019.time.out",
+   "noteKey": "case019.clue.out",
+   "sourceKey": "case019.cctv.source",
+   "requiresRead": [
+    "door"
+   ],
+   "sortMinute": 480
+  },
+  {
+   "id": "bar",
+   "timeKey": "case019.time.bar",
+   "noteKey": "case019.clue.bar",
+   "sourceKey": "case019.clue.source.bar",
+   "requiresRead": [
+    "bar"
+   ],
+   "sortMinute": 600
+  },
+  {
+   "id": "start",
+   "timeKey": "case019.time.start",
+   "noteKey": "case019.clue.start",
+   "sourceKey": "case019.clue.source.encoder",
+   "requiresRead": [
+    "encoder"
+   ],
+   "sortMinute": 720
+  },
+  {
+   "id": "fire",
+   "timeKey": "case019.time.fire",
+   "noteKey": "case019.clue.fire",
+   "sourceKey": "case019.clue.source.weather",
+   "requiresRead": [
+    "weather"
+   ],
+   "sortMinute": 840
+  },
+  {
+   "id": "chat",
+   "timeKey": "case019.time.chat",
+   "noteKey": "case019.clue.chat",
+   "sourceKey": "case019.clue.source.chatlog",
+   "requiresRead": [
+    "chatlog"
+   ],
+   "sortMinute": 960
+  },
+  {
+   "id": "sophie",
+   "timeKey": "case019.time.sophie",
+   "noteKey": "case019.clue.sophie",
+   "sourceKey": "case019.cctv.source",
+   "requiresRead": [
+    "door"
+   ],
+   "sortMinute": 1080
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "tobias",
+   "labelKey": "case019.verdict.tobias",
+   "correct": true,
+   "feedbackKey": "case019.feedback.tobias",
+   "requires": [],
+   "epilogueKey": "case019.epilogue.verdict.tobias",
+   "supportingSourceIds": [
+    "tphone",
+    "edit",
+    "chatlog"
+   ]
+  },
+  {
+   "id": "sophie",
+   "labelKey": "case019.verdict.sophie",
+   "correct": false,
+   "feedbackKey": "case019.feedback.sophie",
+   "requires": [],
+   "epilogueKey": "case019.epilogue.verdict.sophie"
+  },
+  {
+   "id": "ines",
+   "labelKey": "case019.verdict.ines",
+   "correct": false,
+   "feedbackKey": "case019.feedback.ines",
+   "requires": [],
+   "epilogueKey": "case019.epilogue.verdict.ines"
+  },
+  {
+   "id": "nobody",
+   "labelKey": "case019.verdict.nobody",
+   "correct": false,
+   "feedbackKey": "case019.feedback.nobody",
+   "requires": [],
+   "epilogueKey": "case019.epilogue.verdict.nobody"
+  }
+ ],
+ "methods": [
+  {
+   "id": "struck",
+   "labelKey": "case019.method.struck",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "edit"
+   ]
+  },
+  {
+   "id": "fell",
+   "labelKey": "case019.method.fell",
+   "correct": false
+  },
+  {
+   "id": "strangled",
+   "labelKey": "case019.method.strangled",
+   "correct": false
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case019.method.unknown",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "before",
+   "labelKey": "case019.custody.before",
+   "correct": true,
+   "epilogueKey": "case019.epilogue.custody.before",
+   "supportingSourceIds": [
+    "autopsy"
+   ]
+  },
+  {
+   "id": "after",
+   "labelKey": "case019.custody.after",
+   "correct": false,
+   "epilogueKey": "case019.epilogue.custody.after"
+  },
+  {
+   "id": "during",
+   "labelKey": "case019.custody.during",
+   "correct": false,
+   "epilogueKey": "case019.epilogue.custody.during"
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case019.custody.unknown",
+   "correct": false,
+   "epilogueKey": "case019.epilogue.custody.unknown"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "encoder",
+   "labelKey": "case019.evidence.encoder",
+   "correct": true,
+   "supportingSourceIds": [
+    "encoder"
+   ]
+  },
+  {
+   "id": "transcript",
+   "labelKey": "case019.evidence.transcript",
+   "correct": false
+  },
+  {
+   "id": "bar",
+   "labelKey": "case019.evidence.bar",
+   "correct": false
+  },
+  {
+   "id": "weather",
+   "labelKey": "case019.evidence.weather",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case019.suspect.label",
+ "methodLabelKey": "case019.method.label",
+ "custodyLabelKey": "case019.custody.label",
+ "summary": {
+  "locationKey": "case019.summary.location",
+  "truthKey": "case019.summary.truth",
+  "evidenceKey": "case019.summary.evidence",
+  "lessonKey": "case019.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "",
+ "ambienceId": "room_night",
+ "id": "case019"
+}
