@@ -364,37 +364,37 @@ A 41-year-old French woman, dark brown hair in a sleek ponytail, discreet makeup
 
 ## Dosya #034 (6)
 
-54. **Amira Saïdi** → `amira.png`
+54. **Amira Saïdi** → `amira.png` ✅
 
 ```
 A 36-year-old French woman of Algerian descent, long dark hair in loose waves, dark eyes swollen from crying, strong brows. Deep plum blouse under a black cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-55. **Yacine Saïdi** → `yacine.png`
+55. **Yacine Saïdi** → `yacine.png` ✅
 
 ```
 A 31-year-old French man of Algerian descent, short black hair faded at the sides, neat short beard, alert eyes, faint smirk. Black zip-up track jacket over a grey t-shirt, a thin gold chain. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-56. **Léa Dubois** → `lea.png`
+56. **Léa Dubois** → `lea.png` ✅
 
 ```
 A 24-year-old French woman, copper-red hair in a messy bun, freckles, magnifying loupe headband pushed up into her hair, worried eyes. Teal work shirt with a pen in the pocket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-57. **Dimitri Popescu** → `popescu.png`
+57. **Dimitri Popescu** → `popescu.png` ✅
 
 ```
 A 47-year-old Romanian man, thinning dark hair combed back, heavy jowls, gold tooth glint, shrewd eyes. Brown leather jacket over a striped shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-58. **Zhou Meilin** → `zhou.png`
+58. **Zhou Meilin** → `zhou.png` ✅
 
 ```
 A 62-year-old Chinese-French woman, short grey permed hair, reading glasses on her nose, sharp watchful expression. Dark green padded vest over a floral blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-59. **Théo Marchand** → `theo.png`
+59. **Théo Marchand** → `theo.png` ✅
 
 ```
 A 17-year-old French boy, messy light-brown hair, acne on his chin, nervous big eyes, chewing his lip. Bright orange delivery-courier jacket without any logo, grey hoodie underneath. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
@@ -1286,7 +1286,7 @@ A 60-year-old Québécois man, grey hair, a gentle round face, red-rimmed eyes b
 
 ## Dosya #063 (7)
 
-198. **Théo Marchand** → `marchand.png`
+198. **Théo Marchand** → `marchand.png` ✅
 
 ```
 A 48-year-old French-Canadian man, slicked-back dark hair, designer stubble, a charming tired face with anxious grey eyes. A black turtleneck under a dark velvet blazer. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
