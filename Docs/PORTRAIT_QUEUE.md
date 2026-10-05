@@ -274,37 +274,37 @@ A 61-year-old Japanese man, grey crew-cut hair, weathered square face, calm atte
 
 ## Dosya #031 (6)
 
-40. **Hayashi Tōru** → `hayashi.png`
+40. **Hayashi Tōru** → `hayashi.png` ✅
 
 ```
 A 51-year-old Japanese man, immaculate short black hair with slight grey at the temples, rimless glasses, smooth clean-shaven face, calm controlled expression. Dark navy bespoke suit, white shirt, a muted dark grey tie with a tiny silver pin. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-41. **Kisaragi Sayuri** → `sayuri.png`
+41. **Kisaragi Sayuri** → `sayuri.png` ✅
 
 ```
 A 47-year-old Japanese woman, black hair pulled into an elegant low chignon, minimal makeup, red-rimmed eyes, composed mouth. Black mourning-style dress with a single strand of pearls. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-42. **Ōmura Takeshi** → `omura.png`
+42. **Ōmura Takeshi** → `omura.png` ✅
 
 ```
 A 64-year-old Japanese man, short white crew-cut hair, deep lines around a stern mouth, proud tired eyes. White traditional chef's jacket with a high collar, a white folded headband (hachimaki) around his forehead. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-43. **Fujimoto Kazue** → `kazue.png`
+43. **Fujimoto Kazue** → `kazue.png` ✅
 
 ```
 A 69-year-old Japanese woman, white hair in a tidy traditional updo with a simple comb, gentle wrinkled face, watchful eyes. Muted plum silk kimono with a cream collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-44. **Ikeda Mai** → `ikeda.png`
+44. **Ikeda Mai** → `ikeda.png` ✅
 
 ```
 A 36-year-old Japanese woman, straight black shoulder-length hair, thin gold-rimmed glasses, precise worried expression. Dark slate-blue tailored jacket over a cream blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-45. **Saitō Gō** → `saito.png`
+45. **Saitō Gō** → `saito.png` ✅
 
 ```
 A 43-year-old Japanese man, short neat black hair, broad shoulders, expressionless face, slightly nervous eyes. Black chauffeur's suit, white shirt, black tie, no insignia. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
