@@ -65,9 +65,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 38. **Mühürlü zarf** → `case024_envelope.png` ✅
 
 ## Dosya #025 (3)
-39. **Kapsül yastığı** → `case025_pillow.png`
-40. **Dolap bilekliği** → `case025_wristband.png`
-41. **‘Kimura’nın çantası** → `case025_bag.png`
+39. **Kapsül yastığı** → `case025_pillow.png` ✅
+40. **Dolap bilekliği** → `case025_wristband.png` ✅
+41. **‘Kimura’nın çantası** → `case025_bag.png` ✅
 
 ## Dosya #026 (3)
 42. **‘16. yüzyıl’ kâse** → `case026_bowl.png`

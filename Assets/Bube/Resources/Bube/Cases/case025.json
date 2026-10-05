@@ -216,7 +216,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case025.request.locker",
-   "requestDelaySeconds": 4
+   "requestDelaySeconds": 4,
+   "relatedItems": [
+    {
+     "nameKey": "case025.item.wristband.name",
+     "detailKey": "case025.item.wristband.detail",
+     "imageResource": "Bube/Items/case025_wristband"
+    },
+    {
+     "nameKey": "case025.item.bag.name",
+     "detailKey": "case025.item.bag.detail",
+     "imageResource": "Bube/Items/case025_bag"
+    }
+   ]
   },
   {
    "id": "kenta",
@@ -363,7 +375,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case025.request.pillowlab",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case025.item.pillow.name",
+     "detailKey": "case025.item.pillow.detail",
+     "imageResource": "Bube/Items/case025_pillow"
+    }
+   ]
   },
   {
    "id": "ota",
