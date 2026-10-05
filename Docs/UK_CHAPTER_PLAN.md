@@ -1,6 +1,6 @@
 # Birleşik Krallık bölümü — plan (taslak, 5 Ekim 2026)
 
-**Kullanıcı kararları (5 Ekim 2026):** Bora bube **Londra şubesine tayin** edilir — aynı kurum, yerel şube; kariyer, rütbe ve kurum güveni Türkiye'den devam eder. Oyun metni Türkçe kalır; kişi, sokak ve mekân adları İngiliz, kurumlar **kurmacadır** (gerçek polis birimi, mahkeme, şirket, marka yok). Vakalar **bağımsızdır**; #020 bölüm finalidir ve Almanya'ya geçişi açar. #011–#014 onaylandı ve veriye girdi (5 Ekim 2026). **Ton kararı:** her dosya üst üste binen sürprizlerle büyür; bir kayıt yeni bir katman açar (bkz. #012).
+**Kullanıcı kararları (5 Ekim 2026):** Bora bube **Londra şubesine tayin** edilir — aynı kurum, yerel şube; kariyer, rütbe ve kurum güveni Türkiye'den devam eder. Oyun metni Türkçe kalır; kişi, sokak ve mekân adları İngiliz, kurumlar **kurmacadır** (gerçek polis birimi, mahkeme, şirket, marka yok). Vakalar **bağımsızdır**; #020 bölüm finalidir ve Almanya'ya geçişi açar. #011–#015 onaylandı ve veriye girdi (5 Ekim 2026). **Ton kararı:** her dosya üst üste binen sürprizlerle büyür; bir kayıt yeni bir katman açar (bkz. #012).
 
 **Sayı:** ülke başına on dosya (5 Ekim 2026 kullanıcı kararı).
 

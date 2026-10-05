@@ -47,6 +47,31 @@ public static class CaseRules {
    report.Require(Resources.Load<AudioClip>(AudioDirector.Folder + data.ambienceId) != null,
     "Vakanın ortam sesi yok: " + AudioDirector.Folder + data.ambienceId);
 
+  // Olay yeri planı: engeller kapalı çokgen, her şey planın içinde, kilitler var olan
+  // kaynak ve sorulara bağlı. Plan bir belgedir; oyuncu onu masadan açar.
+  var askable = nodes.SelectMany(n => n.questions ?? new Question[0]).Select(q => q.id).ToHashSet();
+  bool Inside(float x, float y) => x >= 0 && x <= 1 && y >= 0 && y <= 1;
+  foreach (var host in nodes.Where(n => n.HasScenePlan)) {
+   var plan = host.scenePlan;
+   report.Require(host.kind == "document", "Olay yeri planı yalnız belgede durur: " + host.id);
+   report.Require(plan.incident != null && Inside(plan.incident.x, plan.incident.y), "Planın olay noktası eksik ya da dışarıda: " + host.id);
+   report.Require(!MissingText(locale, plan.incidentLabelKey), "Planın olay noktası etiketi eksik: " + host.id);
+   if (!string.IsNullOrEmpty(plan.imagePath))
+    report.Require(Resources.Load<Texture2D>(plan.imagePath) != null, "Plan görseli yok: " + plan.imagePath);
+   foreach (var o in plan.occluders ?? new PlanOccluder[0])
+    report.Require(o.points != null && o.points.Length >= 3 && o.points.All(p => Inside(p.x, p.y)),
+     "Plan engeli kapalı çokgen değil ya da dışarıda: " + host.id + "/" + o.id);
+   var markers = plan.markers ?? new PlanMarker[0];
+   report.Require(markers.Length > 0 && markers.Select(m => m.id).Distinct().Count() == markers.Length, "Planın işaretleri eksik ya da yinelenmiş: " + host.id);
+   foreach (var m in markers) {
+    report.Require(Inside(m.x, m.y) && m.fov > 0 && m.fov <= 360, "Plan işareti geçersiz: " + m.id);
+    report.Require(!MissingText(locale, m.labelKey), "Plan işaretinin etiketi eksik: " + m.id);
+    report.Require(m.kind == "claimed" || m.kind == "recorded", "Plan işaretinin türü claimed/recorded olmalı: " + m.id);
+    report.Require((m.requiresAsked ?? new string[0]).All(askable.Contains), "Plan işareti olmayan soruya bağlı: " + m.id);
+    report.Require((m.requiresRead ?? new string[0]).All(id => nodes.Any(n => n.id == id)), "Plan işareti olmayan kaynağa bağlı: " + m.id);
+   }
+  }
+
   // Rapor sihirbazının üç sütunu da tam olarak bir doğru seçenek içermeli.
   // Sıfır olursa vaka çözülemez, birden fazla olursa değerlendirme keyfîleşir.
   // Bu kontrol 25 Eylül 2026 denetiminde elle yapıldı; burada kalıcılaşıyor.

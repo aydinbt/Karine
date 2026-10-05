@@ -1,0 +1,1012 @@
+{
+ "entries": [
+  {
+   "key": "case015.autopsy.body",
+   "value": "· Ölüm sebebi: kafa arkasında (oksipital) kırık ve beyin kanaması.\n· Kırığın şekli düz bir kenara çarpmayla uyumlu değil; yuvarlak, sert bir cisimle ya da yumrukla destekli bir darbeyle uyumlu. Bordür çizgisi yok.\n· Sol elmacık kemiğinde yeni bir yumruk izi; düşüşten önce.\n· Sağ el parmaklarında sıyrık; bir şeyi sıkıca kavramış gibi.\n· Kanda 0,9 promil alkol.\n· Üzerinden cüzdan ve anahtar çıktı. Telefon yok."
+  },
+  {
+   "key": "case015.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU — CALLUM REID"
+  },
+  {
+   "key": "case015.bus.body",
+   "value": "Kart sahibi: Ryan Webb.\n\n13 Nisan 2029\n23.09 · otobüs 381 · Jamaica Road (Tanner Lane’e iki sokak, yürüme yaklaşık 4 dk)\n\n14 Nisan 2029\n07.12 · otobüs 381 · Rotherhithe"
+  },
+  {
+   "key": "case015.bus.title",
+   "value": "TOPLU TAŞIMA KARTI DÖKÜMÜ — RYAN WEBB"
+  },
+  {
+   "key": "case015.call999.body",
+   "value": "Arayan: Steve Barker (kendi numarası).\n\n“Ambulans lazım, Tanner Lane, The Lamplighter önü. Biri kavgada düştü, başını çarptı. İten çocuğun adı Ryan, içeride kavga etmişlerdi, kaçtı.”\nOperatör: “Olayı gördünüz mü efendim?”\n“Evet. Hepimiz gördük.”\n\nArka planda, kayıt 0.41’de, başka bir erkek sesi: “Telefonu da söyle—” Hat kısa bir süre kapanmış gibi sessizleşiyor."
+  },
+  {
+   "key": "case015.call999.title",
+   "value": "999 ÇAĞRI DÖKÜMÜ — 23.16"
+  },
+  {
+   "key": "case015.cctv.event.back",
+   "value": "Araç kamerası: Uzun boylu adam kamyonetin arkasından tek başına çıkıp sigara alanının kapısına yürüyor; elinde bir şeyi cebine koyuyor."
+  },
+  {
+   "key": "case015.cctv.event.follow",
+   "value": "Araç kamerası: Uzun boylu, şapkasız, koyu ceketli bir adam ön kapıdan hızla çıkıyor; kaldırımda öndeki adama yetişip kolundan çekiyor. Kamyonet ikisini kadrajdan kesiyor."
+  },
+  {
+   "key": "case015.cctv.event.out",
+   "value": "Araç kamerası: Kısa boylu, kapüşonlu bir adam pub’ın ön kapısından çıkıp telefonuna bakarak sola yürüyor."
+  },
+  {
+   "key": "case015.cctv.overlay",
+   "value": "DASH"
+  },
+  {
+   "key": "case015.cctv.period",
+   "value": "13 Nisan 2029, 23.05 – 23.20"
+  },
+  {
+   "key": "case015.cctv.source",
+   "value": "Taksi araç kamerası"
+  },
+  {
+   "key": "case015.cloud.body",
+   "value": "Callum Reid’in telefonu bulunamadı; hesabın bulut yedeği istendi. Son yüklemeler:\n\n· 12 Nisan 22.41 · video, 38 sn · The Lamplighter arka bahçesi. Pub sahibi Frank Doyle, Komiser Yardımcısı Neil Garrett’a kalın, kahverengi bir zarf uzatıyor; Garrett zarfı ceketinin iç cebine koyuyor. Çekim mutfak penceresinin aralığından.\n· 13 Nisan 21.36 · e-posta taslağı (gönderilmemiş), alıcı bir gazetecinin adresi: “Video ekte. Her perşembe. Yarın 11’de anlatırım. Kimseye söylemedim, Frank hariç; o da bana ‘sus’ dedi.”\n· 13 Nisan 23.12 · son eşitleme. Sonrası yok."
+  },
+  {
+   "key": "case015.cloud.title",
+   "value": "BULUT YEDEĞİ — CALLUM REID"
+  },
+  {
+   "key": "case015.clue.back",
+   "value": "Uzun boylu adam tek başına sigara alanına dönüyor."
+  },
+  {
+   "key": "case015.clue.bribe",
+   "value": "Callum, Frank Doyle’un Neil Garrett’a zarf verdiğini çekiyor."
+  },
+  {
+   "key": "case015.clue.call",
+   "value": "Steve Barker 999’u arıyor, ‘Ryan’ adını veriyor."
+  },
+  {
+   "key": "case015.clue.callum_out",
+   "value": "Kapüşonlu kısa boylu adam ön kapıdan çıkıp sola yürüyor."
+  },
+  {
+   "key": "case015.clue.claim",
+   "value": "Dört tanık sigara alanından düşüşü gördüklerini söylüyor."
+  },
+  {
+   "key": "case015.clue.draft",
+   "value": "Callum bir gazeteciye e-posta taslağı yazıyor."
+  },
+  {
+   "key": "case015.clue.follow",
+   "value": "Uzun boylu adam ön kapıdan çıkıp öndekini kolundan çekiyor."
+  },
+  {
+   "key": "case015.clue.gareth_pin",
+   "value": "Gareth Hollis barda PIN’le ödeme yapıyor."
+  },
+  {
+   "key": "case015.clue.pay_callum",
+   "value": "Callum barda ödeme yapıyor."
+  },
+  {
+   "key": "case015.clue.ryan_bus",
+   "value": "Ryan’ın kartı iki sokak ötede otobüste okunuyor."
+  },
+  {
+   "key": "case015.clue.ryan_out",
+   "value": "Ryan arka kapıdan çıkıyor."
+  },
+  {
+   "key": "case015.clue.source.bus",
+   "value": "Ryan’ın kart dökümü"
+  },
+  {
+   "key": "case015.clue.source.call999",
+   "value": "999 kaydı"
+  },
+  {
+   "key": "case015.clue.source.cloud",
+   "value": "Bulut yedeği"
+  },
+  {
+   "key": "case015.clue.source.till",
+   "value": "Bar terminali"
+  },
+  {
+   "key": "case015.custody.colluded",
+   "value": "Meslektaşlarını korumak için ifadeleri birlikte kurdular"
+  },
+  {
+   "key": "case015.custody.drunk",
+   "value": "Alkolün etkisiyle yanıldılar"
+  },
+  {
+   "key": "case015.custody.label",
+   "value": "Dört tanık neden aynı şeyi anlattı?"
+  },
+  {
+   "key": "case015.custody.saw",
+   "value": "Gerçekten gördüler"
+  },
+  {
+   "key": "case015.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case015.epilogue.custody.colluded",
+   "value": "Gareth Hollis, Paul Ainsworth ve Steve Barker adaleti engellemekten yargılandı. Frank Doyle’un ruhsatı iptal edildi. Faksın son satırı: “Devir yazısını imzalayan bölge irtibat amiri hakkında ayrı inceleme açıldı.”"
+  },
+  {
+   "key": "case015.epilogue.custody.drunk",
+   "value": "Savunma bunu ‘dürüst hata’ olarak sundu; üç tanığa hiçbir işlem yapılmadı."
+  },
+  {
+   "key": "case015.epilogue.custody.saw",
+   "value": "Dört polis Garrett’ın davasında ‘yanılmış olabiliriz’ diyerek tanıklık etti; Garrett beraat etti."
+  },
+  {
+   "key": "case015.epilogue.custody.unknown",
+   "value": "İfadelerin neden örtüştüğü dosyada açık kaldı; üç tanık görevine döndü."
+  },
+  {
+   "key": "case015.epilogue.verdict.frank",
+   "value": "Frank Doyle gözaltına alındı ve rüşveti itiraf etti; ölümle ilgisi kurulamadı, serbest kaldı. Garrett hakkında ifadesi tek başına yetmedi."
+  },
+  {
+   "key": "case015.epilogue.verdict.garrett",
+   "value": "Neil Garrett adam öldürme ve rüşvetten tutuklandı. Callum’un telefonu, Garrett’ın evine yakın bir rıhtımda nehre atılmış hâlde dalgıçlarca bulundu; SIM kartı okundu."
+  },
+  {
+   "key": "case015.epilogue.verdict.nobody",
+   "value": "Ölüm kaza olarak kapandı. Dört tanık dosyayı imzaladı; Callum’un bulut yedeği hiç açılmadı."
+  },
+  {
+   "key": "case015.epilogue.verdict.ryan",
+   "value": "Ryan Webb tutuklandı. Dört polis tanıklık etti; genç adam altı yıl aldı. Neil Garrett ertesi yıl komiserliğe terfi etti."
+  },
+  {
+   "key": "case015.evidence.call999",
+   "value": "999 çağrı dökümü"
+  },
+  {
+   "key": "case015.evidence.cloud",
+   "value": "Callum Reid’in bulut yedeği"
+  },
+  {
+   "key": "case015.evidence.plan",
+   "value": "Olay yeri planı"
+  },
+  {
+   "key": "case015.evidence.staff",
+   "value": "Asayiş birimi personel kaydı"
+  },
+  {
+   "key": "case015.evidence.till",
+   "value": "Bar terminali kayıtları"
+  },
+  {
+   "key": "case015.feedback.frank",
+   "value": "Frank Callum’u sattı; bu onun vicdanında. Ama o gece mutfaktaydı ve dışarıya çıkan o değildi."
+  },
+  {
+   "key": "case015.feedback.garrett",
+   "value": "Garrett’ın sigara alanında olduğunu söyleyen yalnız meslektaşlarıydı; barmen onu Callum’un ardından ön kapıdan çıkarken gördü, taksi kamerası 23.12’de birinin Callum’u kolundan çektiğini kaydetti. Callum, Garrett’ın rüşvet aldığını çekmişti ve Frank ona söylemişti."
+  },
+  {
+   "key": "case015.feedback.nobody",
+   "value": "Otopsi bordürle uyumlu olmayan bir darbe ve düşüşten önce bir yumruk izi gösteriyor. Telefon kayıp; son eşitleme 23.12."
+  },
+  {
+   "key": "case015.feedback.ryan",
+   "value": "Ryan 23.05’te arka kapıdan çıktı; kartı 23.09’da iki sokak ötede okundu. Adını 999’a veren Steve Barker onu tanımıyordu; adı kulağına biri fısıldadı."
+  },
+  {
+   "key": "case015.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case015.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case015.file.value.location",
+   "value": "Bermondsey, Tanner Lane — The Lamplighter önü"
+  },
+  {
+   "key": "case015.file.value.number",
+   "value": "BDS-LDN-2029-0091"
+  },
+  {
+   "key": "case015.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case015.file.value.reporter",
+   "value": "Paul Ainsworth, tanık"
+  },
+  {
+   "key": "case015.frank.body",
+   "value": "Pub sahibinin ifadesi."
+  },
+  {
+   "key": "case015.frank.deflect",
+   "value": "Avukatımla konuşun."
+  },
+  {
+   "key": "case015.frank.night.answer",
+   "value": "Mutfakta, hesap kapatıyordum. Hiçbir şey görmedim."
+  },
+  {
+   "key": "case015.frank.night.answer.demeanor",
+   "value": "Elleri titriyordu."
+  },
+  {
+   "key": "case015.frank.night.question",
+   "value": "Olay gecesi neredeydiniz?"
+  },
+  {
+   "key": "case015.frank.police.answer",
+   "value": "İyi müşteriler. Güvenli bir pub istiyorsanız iyi geçinirsiniz."
+  },
+  {
+   "key": "case015.frank.police.question",
+   "value": "Asayiş biriminden gelen dört müşteriniz için ne dersiniz?"
+  },
+  {
+   "key": "case015.frank.title",
+   "value": "Frank Doyle — görüşme"
+  },
+  {
+   "key": "case015.frank_2.body",
+   "value": "Video üzerine."
+  },
+  {
+   "key": "case015.frank_2.envelope.answer",
+   "value": "…Altı yıldır her ay. Vermezsen ruhsatın gider, kapında her gece devriye olur. Bunu herkes yapar burada."
+  },
+  {
+   "key": "case015.frank_2.envelope.answer.demeanor",
+   "value": "Yüzünü ellerine gömdü."
+  },
+  {
+   "key": "case015.frank_2.envelope.question",
+   "value": "12 Nisan gecesi arka bahçede Neil Garrett’a bir zarf verdiniz."
+  },
+  {
+   "key": "case015.frank_2.title",
+   "value": "Frank Doyle — ikinci görüşme"
+  },
+  {
+   "key": "case015.frank_2.told.answer",
+   "value": "Ben. Perşembe akşamı, barda. Callum bana ‘sus’ deme cesareti olan tek kişiydi ve ben onu sattım. Neil ‘Ben hallederim, sen bir şey yapma’ dedi. Öldüreceğini bilsem…"
+  },
+  {
+   "key": "case015.frank_2.told.question",
+   "value": "Callum’un videoyu çektiğini Garrett’a kim söyledi?"
+  },
+  {
+   "key": "case015.gareth.body",
+   "value": "Tanık ifadesi."
+  },
+  {
+   "key": "case015.gareth.deflect",
+   "value": "İfademe ekleyecek bir şeyim yok."
+  },
+  {
+   "key": "case015.gareth.job.answer",
+   "value": "Kamu görevlisiyim. Bunun ifadeyle ne ilgisi var?"
+  },
+  {
+   "key": "case015.gareth.job.question",
+   "value": "Ne iş yapıyorsunuz?"
+  },
+  {
+   "key": "case015.gareth.quote",
+   "value": "“Hep birlikte.”"
+  },
+  {
+   "key": "case015.gareth.saw.answer",
+   "value": "Genç olan, Ryan, onu itti. Callum geriye düştü, kafasını bordürün köşesine çarptı. Çok hızlı oldu."
+  },
+  {
+   "key": "case015.gareth.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case015.gareth.title",
+   "value": "Gareth Hollis — görüşme"
+  },
+  {
+   "key": "case015.gareth.where.answer",
+   "value": "Sigara alanında. Paul, Neil ve ben, hep birlikte. Steve kaldırıma doğru biraz ilerdeydi."
+  },
+  {
+   "key": "case015.gareth.where.answer.demeanor",
+   "value": "Hiç düşünmeden cevap verdi."
+  },
+  {
+   "key": "case015.gareth.where.question",
+   "value": "Olay anında tam olarak neredeydiniz?"
+  },
+  {
+   "key": "case015.gareth_2.body",
+   "value": "Bar terminali üzerine."
+  },
+  {
+   "key": "case015.gareth_2.pin.answer",
+   "value": "…Bir tur ısmarlamak için içeri girdim. Bir dakikalık iş."
+  },
+  {
+   "key": "case015.gareth_2.pin.answer.demeanor",
+   "value": "Yutkundu."
+  },
+  {
+   "key": "case015.gareth_2.pin.question",
+   "value": "23.11’de barda kartla, PIN girerek ödeme yapmışsınız."
+  },
+  {
+   "key": "case015.gareth_2.saw2.answer",
+   "value": "Ben… çıktığımda yerdeydi. Gerisini Neil anlattı. ‘Kafasını bordürün köşesine çarptı’ diyen oydu. Hepimiz öyle söyledik."
+  },
+  {
+   "key": "case015.gareth_2.saw2.question",
+   "value": "O hâlde düşüşü nasıl gördünüz?"
+  },
+  {
+   "key": "case015.gareth_2.title",
+   "value": "Gareth Hollis — ikinci görüşme"
+  },
+  {
+   "key": "case015.garrett.body",
+   "value": "Tanık ifadesi."
+  },
+  {
+   "key": "case015.garrett.callum.answer",
+   "value": "Hayır. Mahallenin çocuğu, yüzü tanıdık. O kadar."
+  },
+  {
+   "key": "case015.garrett.callum.question",
+   "value": "Callum Reid’i tanır mıydınız?"
+  },
+  {
+   "key": "case015.garrett.deflect",
+   "value": "İfademde ne yazıyorsa o."
+  },
+  {
+   "key": "case015.garrett.quote",
+   "value": "“Üçümüz, hep birlikte.”"
+  },
+  {
+   "key": "case015.garrett.saw.answer",
+   "value": "Bir itiş, bir düşüş. Ayrıntıyı arkadaşlarım daha iyi gördü. Ben kendi gözümle görmediğimi söylemem; tutanakta ne varsa o."
+  },
+  {
+   "key": "case015.garrett.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case015.garrett.title",
+   "value": "Neil Garrett — görüşme"
+  },
+  {
+   "key": "case015.garrett.where.answer",
+   "value": "Sigara alanında, arkadaşlarımla. Üçümüz, hep birlikte."
+  },
+  {
+   "key": "case015.garrett.where.answer.demeanor",
+   "value": "Sakin, alışkın; sorguyu yöneten kendisiymiş gibi."
+  },
+  {
+   "key": "case015.garrett.where.question",
+   "value": "Olay anında neredeydiniz?"
+  },
+  {
+   "key": "case015.garrett_2.body",
+   "value": "Kurum kaydı üzerine."
+  },
+  {
+   "key": "case015.garrett_2.colleagues.answer",
+   "value": "İzinli dört polisin bir pub’da olması suç mu? Gördük, anlattık. Meslektaşız diye görmediğimizi mi söyleyecektik?"
+  },
+  {
+   "key": "case015.garrett_2.colleagues.answer.demeanor",
+   "value": "İlk kez sesini yükseltti."
+  },
+  {
+   "key": "case015.garrett_2.colleagues.question",
+   "value": "Dört tanık sizin biriminiz. Tutanak da sizin sisteminize girilmiş."
+  },
+  {
+   "key": "case015.garrett_2.door.answer",
+   "value": "Hayır. Sigara alanındaydım. Kaç kez söyleyeceğim."
+  },
+  {
+   "key": "case015.garrett_2.door.question",
+   "value": "23.12’de ön kapıdan çıktınız mı?"
+  },
+  {
+   "key": "case015.garrett_2.title",
+   "value": "Neil Garrett — ikinci görüşme"
+  },
+  {
+   "key": "case015.garrett_3.body",
+   "value": "Video, kamera ve meslektaş ifadeleri üzerine."
+  },
+  {
+   "key": "case015.garrett_3.phone.answer",
+   "value": "Hangi telefon? Avukatım gelmeden başka bir şey söylemiyorum."
+  },
+  {
+   "key": "case015.garrett_3.phone.answer.demeanor",
+   "value": "Avukatı görüşmeyi kesti."
+  },
+  {
+   "key": "case015.garrett_3.phone.question",
+   "value": "Telefon nerede?"
+  },
+  {
+   "key": "case015.garrett_3.title",
+   "value": "Neil Garrett — üçüncü görüşme"
+  },
+  {
+   "key": "case015.garrett_3.video.answer",
+   "value": "…Callum’la konuşmak için çıktım. Telefonu istedim, bana saldırdı. Kendimi savundum. Düştü. Bu kadar."
+  },
+  {
+   "key": "case015.garrett_3.video.answer.demeanor",
+   "value": "Uzun süre pencereye baktı."
+  },
+  {
+   "key": "case015.garrett_3.video.question",
+   "value": "Frank Doyle size her ay zarf veriyordu ve Callum bunu çekti."
+  },
+  {
+   "key": "case015.handover.body",
+   "value": "14 Nisan 2029, 08.05. Konu: Tanner Lane şüpheli ölüm dosyasının bube Londra’ya devri.\n\n“Dört bağımsız tanığın ifadeleri tutarlıdır. Şüpheli bellidir. Dosyanın rutin işlemle, kısa sürede kapatılması önerilir. Ek inceleme gerekmemektedir.”\n\nİmza: bölge irtibat amiri. Dosya ekindeki görev geçmişi notu: imza sahibi 2019–2023 arasında Bermondsey Asayiş Birimi’nde, aynı devriye aracında Neil Garrett’ın ortağıydı."
+  },
+  {
+   "key": "case015.handover.title",
+   "value": "DEVİR YAZISI — BÖLGE İRTİBAT AMİRLİĞİ"
+  },
+  {
+   "key": "case015.josie.body",
+   "value": "Barmenin ifadesi."
+  },
+  {
+   "key": "case015.josie.callum.answer",
+   "value": "Gergin ve heyecanlı. Dokuz buçuk gibi bana ‘Yarın bir gazeteciyle buluşuyorum Josie, bu mahalle değişecek’ dedi. Telefonunu hiç elinden bırakmadı."
+  },
+  {
+   "key": "case015.josie.callum.answer.demeanor",
+   "value": "Sesini alçalttı, kapıya baktı."
+  },
+  {
+   "key": "case015.josie.callum.question",
+   "value": "Callum o akşam nasıldı?"
+  },
+  {
+   "key": "case015.josie.deflect",
+   "value": "Onu görmedim, uydurmayayım."
+  },
+  {
+   "key": "case015.josie.fight.answer",
+   "value": "On bire on kala. Callum’la o genç çocuk, masa yüzünden. Araya girdim, bitti. Çocuk özür bile diledi."
+  },
+  {
+   "key": "case015.josie.fight.question",
+   "value": "İçerideki itişmeyi anlatır mısınız?"
+  },
+  {
+   "key": "case015.josie.quote",
+   "value": "“Sigara alanına hiç gitmedi.”"
+  },
+  {
+   "key": "case015.josie.ryan.answer",
+   "value": "On biri beş geçe, arka kapıdan. Çöpleri çıkarıyordum, yanımdan geçti. Callum o sırada içerideydi, barın ucunda."
+  },
+  {
+   "key": "case015.josie.ryan.question",
+   "value": "Ryan Webb ne zaman çıktı?"
+  },
+  {
+   "key": "case015.josie.taxi.answer",
+   "value": "Kapının karşısında bir taksi bekliyordu, motoru çalışıyordu. Bir de kaldırıma çıkmış o kamyonet; Frank’e kaç kez söyledim."
+  },
+  {
+   "key": "case015.josie.taxi.question",
+   "value": "Dışarıda başka ne vardı?"
+  },
+  {
+   "key": "case015.josie.title",
+   "value": "Josie Lang — görüşme"
+  },
+  {
+   "key": "case015.josie_2.body",
+   "value": "Plan üzerine."
+  },
+  {
+   "key": "case015.josie_2.four.answer",
+   "value": "Asayiş biriminden. Her perşembe gelirler. Frank onlardan hesap almaz. Ben bir şey demem, ekmeğimi buradan kazanıyorum."
+  },
+  {
+   "key": "case015.josie_2.four.answer.demeanor",
+   "value": "Sesini alçalttı."
+  },
+  {
+   "key": "case015.josie_2.four.question",
+   "value": "O dört adam kim?"
+  },
+  {
+   "key": "case015.josie_2.title",
+   "value": "Josie Lang — ikinci görüşme"
+  },
+  {
+   "key": "case015.josie_2.window.answer",
+   "value": "Görünüyor. Bardak toplarken baktım. Callum çıktı, sola yürüdü. Bir iki dakika sonra Garrett bey de çıktı, ön kapıdan, hızlı. O akşam sigara alanına hiç gitmedi; bütün gece barın ucundaydı, Callum’un tam yanında."
+  },
+  {
+   "key": "case015.josie_2.window.answer.demeanor",
+   "value": "Uzun süre sustu, sonra bir kere söyledi ve geri almadı."
+  },
+  {
+   "key": "case015.josie_2.window.question",
+   "value": "Bar penceresinden kaldırım görünüyor mu?"
+  },
+  {
+   "key": "case015.method.drunk",
+   "value": "Sarhoşken düşüp başını çarptı"
+  },
+  {
+   "key": "case015.method.label",
+   "value": "Callum nasıl öldü?"
+  },
+  {
+   "key": "case015.method.pushed",
+   "value": "Kavgada itilip düştü"
+  },
+  {
+   "key": "case015.method.robbed",
+   "value": "Telefonu almak için vurulup düşürüldü"
+  },
+  {
+   "key": "case015.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case015.offer.subtitle",
+   "value": "KAPANIŞ SAATİ  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case015.offer.summary",
+   "value": "Bermondsey’de bir pub’ın önünde, kapanış saatinde bir adam düşüp ölüyor. Dört tanık aynı şeyi görmüş, aynı cümleyle anlatıyor. Dosya kapanmaya hazır."
+  },
+  {
+   "key": "case015.offer.title",
+   "value": "DOSYA #015"
+  },
+  {
+   "key": "case015.paul.body",
+   "value": "Tanık ifadesi."
+  },
+  {
+   "key": "case015.paul.deflect",
+   "value": "Tutanakta yazıyor."
+  },
+  {
+   "key": "case015.paul.saw.answer",
+   "value": "İçeride kavga eden genç dışarıda onu itti. Adam düştü, kafasını bordürün köşesine çarptı. İfademde yazdığım gibi."
+  },
+  {
+   "key": "case015.paul.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case015.paul.title",
+   "value": "Paul Ainsworth — görüşme"
+  },
+  {
+   "key": "case015.paul.where.answer",
+   "value": "Sigara alanında, Gareth’in yanında. Neil de oradaydı."
+  },
+  {
+   "key": "case015.paul.where.answer.demeanor",
+   "value": "Not defterine bakar gibi yaptı; defter kapalıydı."
+  },
+  {
+   "key": "case015.paul.where.question",
+   "value": "Olay anında neredeydiniz?"
+  },
+  {
+   "key": "case015.paul.wrote.answer",
+   "value": "Devriye bana rica etti, olayı en iyi ben anlatabilirdim. Usule aykırı bir şey yok."
+  },
+  {
+   "key": "case015.paul.wrote.question",
+   "value": "Tutanağı neden siz yazdınız? Tanıksınız."
+  },
+  {
+   "key": "case015.paul_2.body",
+   "value": "Kurum kaydı üzerine."
+  },
+  {
+   "key": "case015.paul_2.job.answer",
+   "value": "Önemli değildi. Tanık tanıktır."
+  },
+  {
+   "key": "case015.paul_2.job.answer.demeanor",
+   "value": "Ceketini ilikledi."
+  },
+  {
+   "key": "case015.paul_2.job.question",
+   "value": "Dört tanık da aynı birimden, aynı gece izinli polisler. Tutanakta bu yok."
+  },
+  {
+   "key": "case015.paul_2.title",
+   "value": "Paul Ainsworth — ikinci görüşme"
+  },
+  {
+   "key": "case015.paul_2.who.answer",
+   "value": "Neil hepimizi sigara alanına topladı, ‘Herkes aynı şeyi görmüş olsun, uzamasın’ dedi. Cümleyi o söyledi, ben yazdım. Ne gördüğümü hiç sormadı kimse."
+  },
+  {
+   "key": "case015.paul_2.who.question",
+   "value": "İfadeleri siz mi birleştirdiniz?"
+  },
+  {
+   "key": "case015.person.frank.info",
+   "value": "57 yaşında, The Lamplighter’ın sahibi."
+  },
+  {
+   "key": "case015.person.frank.name",
+   "value": "Frank Doyle"
+  },
+  {
+   "key": "case015.person.gareth.info",
+   "value": "39 yaşında. Olay gecesi pub’daydı; tanık."
+  },
+  {
+   "key": "case015.person.gareth.name",
+   "value": "Gareth Hollis"
+  },
+  {
+   "key": "case015.person.garrett.info",
+   "value": "45 yaşında, Bermondsey Asayiş Birimi’nde komiser yardımcısı. Olay gecesi izinliydi; tanık."
+  },
+  {
+   "key": "case015.person.garrett.name",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case015.person.josie.info",
+   "value": "38 yaşında, The Lamplighter’ın on yıllık barmeni. Olay gecesi barın arkasındaydı."
+  },
+  {
+   "key": "case015.person.josie.name",
+   "value": "Josie Lang"
+  },
+  {
+   "key": "case015.person.paul.info",
+   "value": "34 yaşında. Olay gecesi pub’daydı; tanık. İlk tutanaktaki ifadenin sahibi."
+  },
+  {
+   "key": "case015.person.paul.name",
+   "value": "Paul Ainsworth"
+  },
+  {
+   "key": "case015.person.ryan.info",
+   "value": "24 yaşında, inşaat işçisi. Olay gecesi pub’da Callum Reid’le itişti; ilk tutanakta şüpheli."
+  },
+  {
+   "key": "case015.person.ryan.name",
+   "value": "Ryan Webb"
+  },
+  {
+   "key": "case015.person.steve.info",
+   "value": "41 yaşında. Olay gecesi pub’daydı; 999’u arayan tanık."
+  },
+  {
+   "key": "case015.person.steve.name",
+   "value": "Steve Barker"
+  },
+  {
+   "key": "case015.plan.body",
+   "value": "Kuşbakışı kroki, olay yeri ekibinin ölçümlerinden. Üstte pub’ın salonu ve bar; altta kaldırım ve Tanner Lane. Sağda, yan duvarla çevrili sigara alanı. Olay gecesi kaldırıma yarı çıkmış park hâlindeki teslimat kamyoneti işaretlendi.\n\nTanıkların anlattığı ve kayıtların gösterdiği konumlar planda işaretlenir."
+  },
+  {
+   "key": "case015.plan.incident",
+   "value": "Çarpı: Callum Reid’in bulunduğu yer, kaldırım. İşaretlere dokununca o noktadan görülebilen alan çizilir."
+  },
+  {
+   "key": "case015.plan.marker.gareth_claim",
+   "value": "Gareth Hollis — kendi anlattığı yer: sigara alanı"
+  },
+  {
+   "key": "case015.plan.marker.gareth_till",
+   "value": "Gareth Hollis — bar terminalindeki kart ödemesi, 23.11"
+  },
+  {
+   "key": "case015.plan.marker.garrett_claim",
+   "value": "Neil Garrett — kendi anlattığı yer: sigara alanı"
+  },
+  {
+   "key": "case015.plan.marker.josie_window",
+   "value": "Josie Lang — barın penceresi"
+  },
+  {
+   "key": "case015.plan.marker.paul_claim",
+   "value": "Paul Ainsworth — kendi anlattığı yer: sigara alanı"
+  },
+  {
+   "key": "case015.plan.marker.steve_claim",
+   "value": "Steve Barker — kendi anlattığı yer: sigara alanının önü, kaldırım"
+  },
+  {
+   "key": "case015.plan.marker.taxi_door",
+   "value": "Taksi kamerası — kapıdan çıkan uzun boylu adam, 23.12"
+  },
+  {
+   "key": "case015.plan.title",
+   "value": "OLAY YERİ PLANI — THE LAMPLIGHTER VE TANNER LANE"
+  },
+  {
+   "key": "case015.report.body",
+   "value": "13 Nisan 2029 saat 23.16’da Bermondsey, Tanner Lane’deki The Lamplighter pub’ının önünde bir erkeğin kaldırımda yaralı yattığı 999’a bildirildi. Callum Reid (33) olay yerinde öldü.\n\nTanık ifadesi (alan devriyesine, 23.40): “Kapanışta içeride itişen iki adamdan biri, Ryan adında genç bir inşaatçı, dışarıda Callum’u tekrar itti. Callum geriye düştü, kafasını bordürün köşesine çarptı. Biz sigara alanındaydık, dördümüz de gördük.”\n\nİfadeyi veren ve tutanağı ertesi sabah yazan: Paul Ainsworth. Dosya, rutin şüpheli ölüm olarak bube Londra’ya devredildi."
+  },
+  {
+   "key": "case015.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case015.request.bus",
+   "value": "Ryan Webb’in kart dökümünü iste"
+  },
+  {
+   "key": "case015.request.call999",
+   "value": "999 çağrı kaydını iste"
+  },
+  {
+   "key": "case015.request.cloud",
+   "value": "Callum Reid’in bulut yedeğini iste"
+  },
+  {
+   "key": "case015.request.handover",
+   "value": "Dosyanın devir yazısını iste"
+  },
+  {
+   "key": "case015.request.staff",
+   "value": "Tanıkların kurum kaydını iste"
+  },
+  {
+   "key": "case015.request.till",
+   "value": "Bar terminalinin kart kayıtlarını iste"
+  },
+  {
+   "key": "case015.ryan.body",
+   "value": "İlk tutanaktaki şüpheliyle."
+  },
+  {
+   "key": "case015.ryan.deflect",
+   "value": "Bilmiyorum dostum. Ben gitmiştim."
+  },
+  {
+   "key": "case015.ryan.fight.answer",
+   "value": "Masa yüzünden, saçma bir şey. Bardağımı devirdi, ittim, o da beni itti. Barmen ayırdı. Bitti."
+  },
+  {
+   "key": "case015.ryan.fight.answer.demeanor",
+   "value": "Ellerini masanın altına sakladı."
+  },
+  {
+   "key": "case015.ryan.fight.question",
+   "value": "Callum Reid’le neden itiştiniz?"
+  },
+  {
+   "key": "case015.ryan.left.answer",
+   "value": "Arka kapıdan çıktım, on biri beş geçe falan. Kavga uzasın istemedim. Otobüse bindim, eve gittim. Onu dışarıda hiç görmedim, yemin ederim."
+  },
+  {
+   "key": "case015.ryan.left.question",
+   "value": "Sonra ne yaptınız?"
+  },
+  {
+   "key": "case015.ryan.quote",
+   "value": "“Onu dışarıda hiç görmedim.”"
+  },
+  {
+   "key": "case015.ryan.title",
+   "value": "Ryan Webb — görüşme"
+  },
+  {
+   "key": "case015.ryan.who.answer",
+   "value": "Kimseyi. Sigara alanında dört adam vardı, yüksek sesle gülüyorlardı. Biri bana ‘Otur yerine evlat’ dedi, polis gibi."
+  },
+  {
+   "key": "case015.ryan.who.question",
+   "value": "O gece pub’da kimleri tanıyordunuz?"
+  },
+  {
+   "key": "case015.staff.body",
+   "value": "Talep: bube Londra. 13 Nisan 2029 izin çizelgesi, aynı birim:\n\n· Komiser Yardımcısı Neil Garrett — izinli\n· Komiser Muavini Gareth Hollis — izinli\n· Memur Paul Ainsworth — izinli\n· Memur Steve Barker — izinli\n\nNot: Paul Ainsworth’un 14 Nisan sabahı yazdığı tutanakta kendi mesleği ve diğer tanıkların mesleği belirtilmemiş. Tutanak Neil Garrett’ın amirliğindeki birimin sistemine girilmiş."
+  },
+  {
+   "key": "case015.staff.title",
+   "value": "PERSONEL KAYDI — BERMONDSEY ASAYİŞ BİRİMİ"
+  },
+  {
+   "key": "case015.steve.body",
+   "value": "Tanık ve 999’u arayan."
+  },
+  {
+   "key": "case015.steve.call.answer",
+   "value": "Ne gördüysem. Ambulans istedim."
+  },
+  {
+   "key": "case015.steve.call.question",
+   "value": "Aramada ne söylediniz?"
+  },
+  {
+   "key": "case015.steve.deflect",
+   "value": "Hatırlamıyorum."
+  },
+  {
+   "key": "case015.steve.saw.answer",
+   "value": "Callum yerdeydi. Genç olan, ittiği için, kafasını bordürün köşesine çarptı. Hemen 999’u aradım."
+  },
+  {
+   "key": "case015.steve.saw.answer.demeanor",
+   "value": "Cümlenin sonunu ezberden söyler gibiydi."
+  },
+  {
+   "key": "case015.steve.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case015.steve.title",
+   "value": "Steve Barker — görüşme"
+  },
+  {
+   "key": "case015.steve.where.answer",
+   "value": "Sigara alanının önünde, kaldırımda. Telefonuma bakıyordum, sesleri duyup kafamı kaldırdım."
+  },
+  {
+   "key": "case015.steve.where.question",
+   "value": "Olay anında neredeydiniz?"
+  },
+  {
+   "key": "case015.steve_2.body",
+   "value": "999 kaydı üzerine."
+  },
+  {
+   "key": "case015.steve_2.name.answer",
+   "value": "…Neil söyledi. İçeride kavga edince adını duymuş. Arıyorum, kulağıma ‘Ryan de, Ryan’ diyordu."
+  },
+  {
+   "key": "case015.steve_2.name.answer.demeanor",
+   "value": "Telefonunu masaya ters çevirdi."
+  },
+  {
+   "key": "case015.steve_2.name.question",
+   "value": "Aramada ‘itenin adı Ryan’ dediniz. O çocuğu adıyla nereden tanıyordunuz?"
+  },
+  {
+   "key": "case015.steve_2.phone.answer",
+   "value": "Bilmiyorum. Gerçekten bilmiyorum. Neil’in elinde iki telefon vardı, o kadar."
+  },
+  {
+   "key": "case015.steve_2.phone.question",
+   "value": "Arka plandaki ses ‘Telefonu da söyle’ diyor. Hangi telefon?"
+  },
+  {
+   "key": "case015.steve_2.title",
+   "value": "Steve Barker — ikinci görüşme"
+  },
+  {
+   "key": "case015.summary.evidence",
+   "value": "Olay yeri planı, ‘sigara alanından gördük’ diyen tanıkların görüş hattını yan duvarın ve kamyonetin kestiğini gösterdi. Bar terminali bir tanığı o dakikada içeride, kart dökümü Ryan’ı iki sokak ötede buldu. Personel kaydı tanıkların meslektaş olduğunu, taksi kamerası ve barmen Garrett’ın Callum’un ardından çıktığını, bulut yedeği nedenini ortaya koydu."
+  },
+  {
+   "key": "case015.summary.lesson",
+   "value": "Tanığın ne gördüğünü sormadan önce nereden bakabildiğini sor. Birbirini tutan dört ifade dört kanıt değildir; aynı cümleyi kuran dört ağız tek bir kaynaktır."
+  },
+  {
+   "key": "case015.summary.location",
+   "value": "Bermondsey, Tanner Lane — 12–14 Nisan 2029"
+  },
+  {
+   "key": "case015.summary.truth",
+   "value": "Callum Reid, pub sahibi Frank Doyle’un Komiser Yardımcısı Neil Garrett’a her ay verdiği zarfı çekti ve bir gazeteciye göndermeye hazırlandı. Frank bunu Garrett’a söyledi. Kapanışta Garrett, Callum’un ardından çıktı, telefonu istedi, Callum direnince yumrukladı ve başına vurdu; düşen adamın telefonunu alıp sigara alanına döndü. Aynı birimden üç izinli polis, içeride kavga eden Ryan Webb’i suçlayan tek bir hikâyede birleşti; tutanağı tanıklardan biri yazdı."
+  },
+  {
+   "key": "case015.suspect.label",
+   "value": "Callum Reid’in ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case015.tablet.caseLine",
+   "value": "DOSYA #015  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case015.taxi.body",
+   "value": "Pub’ın karşısında bekleyen bir taksinin ön kamerası. Sürücü kaydı kendiliğinden teslim etti. 13 Nisan 23.05 – 23.20. Görüntü yağmurlu, yüzler yarı seçilir."
+  },
+  {
+   "key": "case015.taxi.title",
+   "value": "TAKSİ ARAÇ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case015.till.body",
+   "value": "The Lamplighter, bar terminali (salonun arka ucu, sigara alanına açılan kapıdan 14 metre). Seçilmiş işlemler:\n\n22.48 · £18,40 · temassız · Callum Reid\n23.02 · £6,20 · temassız · Josie Lang (personel)\n23.11 · £24,80 · kart, PIN girildi · Gareth Hollis — dört bira\n23.19 · iade · —\n\nPIN’li işlem kart sahibinin terminalin başında olmasını gerektirir."
+  },
+  {
+   "key": "case015.till.title",
+   "value": "BAR TERMİNALİ — KART ÖDEMELERİ, 13 NİSAN"
+  },
+  {
+   "key": "case015.time.back",
+   "value": "23.14"
+  },
+  {
+   "key": "case015.time.bribe",
+   "value": "12 Nisan 22.41"
+  },
+  {
+   "key": "case015.time.call",
+   "value": "23.16"
+  },
+  {
+   "key": "case015.time.claim",
+   "value": "23.13"
+  },
+  {
+   "key": "case015.time.draft",
+   "value": "13 Nisan 21.36"
+  },
+  {
+   "key": "case015.time.follow",
+   "value": "23.12"
+  },
+  {
+   "key": "case015.time.gareth_pin",
+   "value": "23.11"
+  },
+  {
+   "key": "case015.time.out",
+   "value": "23.10"
+  },
+  {
+   "key": "case015.time.pay_callum",
+   "value": "22.48"
+  },
+  {
+   "key": "case015.time.ryan_bus",
+   "value": "23.09"
+  },
+  {
+   "key": "case015.time.ryan_out",
+   "value": "23.05"
+  },
+  {
+   "key": "case015.title",
+   "value": "Dosya #015 — Kapanış Saati"
+  },
+  {
+   "key": "case015.verdict.frank",
+   "value": "Frank Doyle"
+  },
+  {
+   "key": "case015.verdict.garrett",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case015.verdict.nobody",
+   "value": "Kimse — sarhoş düştü"
+  },
+  {
+   "key": "case015.verdict.ryan",
+   "value": "Ryan Webb"
+  }
+ ]
+}

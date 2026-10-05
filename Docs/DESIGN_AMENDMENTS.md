@@ -1076,3 +1076,7 @@ ChatGPT ile yapılmış portreler (#001–#006'nın büyük kısmı) Gemini ile,
 ## Birleşik Krallık bölümü başladı (5 Ekim 2026)
 
 Kullanıcı kararları: Bora bube Londra şubesine (Southwark) **tayin** edilir; kariyer ve güven devam eder. Metin Türkçe, adlar İngiliz, kurumlar kurmaca. Vakalar bağımsız, #020 bölüm finali. Plan: [UK_CHAPTER_PLAN.md](UK_CHAPTER_PLAN.md); ilk dosya: [CASE011_DESIGN.md](CASE011_DESIGN.md) — onay bekliyor, veri yazılmadı. Açık çelişki: Kullanıcı on dosyada karar kıldı; `WORLD_OPENINGS.md` düzeltildi.
+
+## Olay Yeri Planı (5 Ekim 2026)
+
+Kullanıcı #015 için "bir üst seviye konu, yeni özellik" istedi ve tasarımı onayladı. Yeni yetenek: tanığın **nereden bakabildiğini** sınamak. Plan bir belgedir; tanığa ilgili soru sorulunca anlattığı yer, bir kayıt okununca kaydın gösterdiği yer planda işaret olur. Dokununca görüş konisi çizilir; engeller gölge bırakır. Oyun hiçbir işaretin doğru olup olmadığını söylemez, işaretleri renklendirmez; beyan ile kayıt yalnız dolgu tonuyla ayrılır (iki tür kaynak, hüküm değil). Plan adsızdır, kimseye öne sürülemez. Sonraki vakalar aynı alanı kullanabilir.

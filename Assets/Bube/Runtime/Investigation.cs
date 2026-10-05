@@ -66,10 +66,21 @@ namespace Bube {
  // Baskı: listedeki kaynakların hepsi dosyaya girdiğinde bu görüşme henüz istenmemişse artık istenemez
  // (kişi şehirden ayrıldı, avukatı görüşmeyi kesti). Doğrulayıcı doğru sonucun dayandığı hiçbir
  // kaynağın bu yolla kapanmasına izin vermez; kapanan yalnız ek bir okuma yoludur.
- public string[] closesAfterRead; public string closedNoteKey; }
+ public string[] closesAfterRead; public string closedNoteKey;
+ // Olay yeri planı (Dosya #015'ten itibaren): kuşbakışı çizim, engeller ve tanıkların durduğu yerler.
+ public ScenePlan scenePlan;
+ // JsonUtility boş bir plan nesnesi kurar; işaretsiz plan yok sayılır.
+ public bool HasScenePlan => scenePlan!=null && scenePlan.markers!=null && scenePlan.markers.Length>0; }
 [Serializable] public class CctvEvent { public string id; public string textKey; public string[] aboutPersonIds; public bool notPresentable; public string overlayTimeKey; public string glitchKey; public string signalKey; public string videoPath; public string[] framePaths; public string[] frameTimes; public int frameMs; public int delayMs;
  // Görüntü ya kare dizisidir (`framePaths`, Resources yolları; `frameTimes` her karenin damgası) ya da videodur.
  public bool HasFootage => (framePaths != null && framePaths.Length > 0) || !string.IsNullOrEmpty(videoPath); }
+// Olay yeri planı. Koordinatlar plan görselinin içinde 0–1 arasıdır (sol üst 0,0). Bir işaret,
+// kilidi açıldığında (`requiresAsked` / `requiresRead`) planda belirir; oyuncu dokununca o noktadan
+// görüş konisi çizilir ve engeller gölge bırakır. Oyun hiçbir işaretin doğru ya da yalan olduğunu söylemez.
+[Serializable] public class PlanPoint { public float x; public float y; }
+[Serializable] public class PlanOccluder { public string id; public PlanPoint[] points; }
+[Serializable] public class PlanMarker { public string id; public string personId; public string labelKey; public float x; public float y; public float facing; public float fov; public string kind; public string[] requiresAsked; public string[] requiresRead; }
+[Serializable] public class ScenePlan { public string imagePath; public PlanPoint incident; public string incidentLabelKey; public PlanOccluder[] occluders; public PlanMarker[] markers; }
 [Serializable] public class Choice { public string id; public string labelKey; public bool correct; public string[] supportingSourceIds; public string epilogueKey; }
 [Serializable] public class Verdict { public string id; public string labelKey; public string feedbackKey; public string epilogueKey; public bool correct; public string[] requires; public string[] supportingSourceIds; }
 [Serializable] public class InterviewRequest { public string nodeId; public long readyAtUtcTicks; }
@@ -297,6 +308,7 @@ public sealed partial class Investigation {
  // (`presentedSourceIds`), ama kisi cevabini bir kez verdikten sonra ayni seyi
  // ikinci bir kayitla tekrar sormak oyuncuya "bir sey eksik kaldi" izlenimi
  // veriyordu; oysa mesele kapanmisti.
+ public bool MarkerAvailable(PlanMarker m) => m!=null && Meets(m.requiresRead) && (m.requiresAsked==null || m.requiresAsked.All(State.asked.Contains));
  public bool CanAskQuestion(Node n,Question q) => QuestionAvailable(n,q) && !State.asked.Contains(q.id);
  // Temel kural: **adı geçtiyse cevap verme hakkı doğar.** Bir kaydı ancak
  // karşımızdaki kişinin adı orada geçiyorsa öne sürebiliriz; geçmiyorsa o kayıt

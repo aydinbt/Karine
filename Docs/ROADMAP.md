@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011–#014 veride)
+**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011–#015 veride; Olay Yeri Planı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -593,3 +593,8 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Veri: `case014.json` (23 düğüm), `tr.case014.json` (216 metin), `Case014Rules`; #013 → #014, UK dördüncü yuva. Asistanın adı "Ben" değil "Oliver": ad eşleşmesi Türkçe "ben" sözcüğünü yakalardı. 126/126 EditMode, 26 PlayMode + 1 atlandı. Oynanmadı.
 - [ ] Görseller: `Docs/CASE014_PROMPTS.md`. CCTV gelince `yard#leave` olayına `framePaths`.
 
+## 5 Ekim 2026 — Birleşik Krallık: Dosya #015 "Kapanış Saati" ve Olay Yeri Planı
+- [x] Tasarım onaylandı: `Docs/CASE015_DESIGN.md` (dört izinli polis aynı cümleyi kurar; görüş hattı onları yalanlar; fail komiser yardımcısı; devir yazısı #020'ye tohum).
+- [~] Yeni özellik — Olay Yeri Planı: `Node.scenePlan` (`ScenePlan`, `PlanPoint`, `PlanOccluder`, `PlanMarker`), `Investigation.MarkerAvailable`, saf geometri `SightLine` (kesişim, görüş, koni) + 6 EditMode testi; doğrulayıcı kuralları (`CaseRules`); `KarineUI.ScenePlanView` belgede çizilir: engeller, olay çarpısı, kilidi açık işaretler, dokununca koni. Başsız PlayMode testi (`ScenePlanTests`) kilidi ve dokunuşu gözledi. Elle oynanmadı; tasarım panosu bekleniyor.
+- [~] Veri: `case015.json` (24 düğüm), `tr.case015.json` (252 metin), `Case015Rules` (plan geometrisini de sınar: dört beyan ve bar terminali olay noktasını göremez, barmenin penceresi görür); #014 → #015, UK beşinci yuva. "karakol" yasak kelime listesinde → "Asayiş Birimi". 132/132 EditMode, 27 PlayMode + 1 atlandı. Oynanmadı.
+- [ ] Görseller: `Docs/CASE015_PROMPTS.md` — plan görseli gelince `scenePlan.imagePath` ve koordinat kontrolü; CCTV gelince `taxi#follow` olayına `framePaths`.

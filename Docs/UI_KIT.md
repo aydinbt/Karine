@@ -166,3 +166,6 @@ Yeni evrak/teklif/faks masa tepsisine kısa bir kâğıt kaymasıyla gelir. Orta
 ## 1 Ekim 2026 — Dosya sekmesi geçişi
 
 Dosya sekmesi değişince yeni sayfa 200 ms içinde 18 px yatay hareketle ve hafif saydamlık geçişiyle yerleşir; aktif sekme 8 px öne çıkar. Aynı sekmeye tekrar dokunma geçiş başlatmaz. Hareketi azalt açıkken son görünüm anında uygulanır.
+
+## 5 Ekim 2026 — Olay yeri planı
+`KarineUI.ScenePlanView`: belge sayfasında, metnin altında kare kroki. Zemin `Paper.Light` (görsel gelince görsel), kenar `Paper.Edge`; engeller `Paper.Edge` dolgu + `Paper.Faded` çizgi; olay çarpısı `Paper.Stamp`; işaret düğmesi `SpaceLg` çaplı daire — beyan `Paper.Sheet`, kayıt `Paper.Ink` dolgu, ikisi de `Paper.Ink` kenar; görüş konisi `Accent` %28. Koni her işarette aynı renktir: doğru/yalan, görüyor/görmüyor hiçbir yerde renklenmez ya da yazılmaz. Geçici sade sürüm; ChatGPT tasarım panosu gelince ona uyarlanır.

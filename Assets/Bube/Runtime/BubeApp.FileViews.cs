@@ -86,6 +86,12 @@ public sealed partial class BubeApp {
    KarineUI.Tilt(KarineUI.Inspectable(body,photo,current.imageResource,T("ink.draw"),T("ink.clear")));
    Text(body,T(current.imageCaptionKey),KarineTheme.Paper.Faded,13);
   }
+  // Olay yeri planı: yalnız kilidi açılmış işaretler görünür.
+  if(current.HasScenePlan) {
+   var plan=current.scenePlan;
+   KarineUI.ScenePlanView(body,plan,Photo(plan.imagePath),
+    (plan.markers ?? new PlanMarker[0]).Where(game.MarkerAvailable).ToList(),T,T(plan.incidentLabelKey));
+  }
  }
 
  // Sorgu dökümü: künye, ifade, sonra sorulan her soru ve cevabı konuşan/metin sütunlarında.

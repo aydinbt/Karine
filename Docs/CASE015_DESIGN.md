@@ -5,7 +5,7 @@
 **Seviye:** Bu dosyada kötü adam tek bir kişi değil, bir kurumun içindeki bir grup. Dört tanık aynı şeyi söyler; dördü de yalan söyler; biri ilk polis tutanağını kendi eliyle yazmıştır. Bora'nın Londra'daki ilk "kendi tarafına" karşı dosyası.
 
 ## Yeni özellik: Olay Yeri Planı (görüş hattı)
-Masada yeni bir kaynak türü: **kuşbakışı plan** (`kind: "scenePlan"`). Pub'ın içi, sigara alanı ve sokak tek bir çizimde. Planda duvarlar, sütunlar ve olay gecesi park etmiş bir teslimat kamyoneti **engel** olarak durur.
+Masada yeni bir kaynak: **kuşbakışı plan** — uygulamada ayrı bir tür değil, `scenePlan` alanı taşıyan bir belge düğümü (`plan`); böylece okuma, rapor ve kanıt altyapısı değişmeden çalışır. Pub'ın içi, sigara alanı ve sokak tek bir çizimde. Planda duvarlar, sütunlar ve olay gecesi park etmiş bir teslimat kamyoneti **engel** olarak durur.
 
 - Bir tanık "şuradaydım" dediğinde (o soruyu sorduğunda), planda o tanığın **beyan ettiği konuma** bir işaret düşer.
 - İşarete dokununca o noktadan bir **görüş konisi** çizilir; engellerin arkası gölgede kalır. Oyuncu olay noktasının (kaldırımda bir çarpı) ışıkta mı gölgede mi kaldığını kendisi görür.

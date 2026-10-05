@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim (gece, 4):** **Dosya #015 "Kapanış Saati"** veride ve yeni özellik **Olay Yeri Planı** kodda: kuşbakışı krokide engeller, olay çarpısı ve tanık işaretleri; işarete dokununca görüş konisi, engeller gölge bırakır. Dört izinli polis "sigara alanından gördük" der; plan duvarın ve kamyonetin görüşü kestiğini gösterir, oyun bunu söylemez. 24 düğüm, 252 metin. Testler yeşil (132 EditMode, 27 PlayMode); elle oynanmadı.
+
 **5 Ekim (gece, 3):** **Dosya #014 "İkinci Görüş"** veride: rezil edilmiş müzayede uzmanının "intiharı". Ters köşe: çelişen iki uzman raporu da doğru — ikinci görüş iki ayrı tabloya bakıldığını gösterir; alıcı Ashby tabloyu satıştan sonra kopyayla değiştirmişti. "Yanıldım" notu, defterden koparılmış "Yanıldım sandılar…" cümlesinin başı. 23 düğüm, 216 metin. Testler yeşil; oynanmadı.
 
 **5 Ekim (gece, 2):** **Dosya #013 "Kiracı"** veride: paylaşımlı evde karbonmonoksit. Bakım kayıtları (sertifika, servis raporu, anahtar kaydı) kaza/ihmal/kasıt ayrımını oyuncuya bırakır. Katmanlar: ihmal → bacada bez → ölen kişi kiracı değil, hedef Ellie → emlakçı Simon odayı ev sahibinden gizleyip kiralıyordu. 19 düğüm, 204 metin; UK üçüncü yuva. Testler yeşil; oynanmadı.
