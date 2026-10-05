@@ -638,19 +638,19 @@ A 45-year-old Italian-American man, slicked-back dark hair, thin moustache, worl
 
 ## Dosya #042 (3)
 
-97. **Wade Tanner** → `tanner.png`
+97. **Wade Tanner** → `tanner.png` ✅
 
 ```
 A 48-year-old white American man, shaggy dirty-blond hair under a faded trucker cap with no logo, sunburned face, wiry goatee, restless pale eyes. Red flannel shirt with cut-off sleeves over a grey T-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-98. **Bev Hollis** → `hollis.png`
+98. **Bev Hollis** → `hollis.png` ✅
 
 ```
 A 56-year-old white American woman, permed honey-blonde hair, reading glasses pushed into her hair, smoker's lines around her mouth, shrewd tired eyes. Lilac fleece zip-up over a blouse, a telephone headset around her neck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-99. **Sunny Patel** → `patel.png`
+99. **Sunny Patel** → `patel.png` ✅
 
 ```
 A 33-year-old Indian-American man, neat black hair, clean-shaven, earnest worried brown eyes. Teal convenience-store work polo with no text, a name tag with no readable letters. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
