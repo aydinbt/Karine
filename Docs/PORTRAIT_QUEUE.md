@@ -402,25 +402,25 @@ A 17-year-old French boy, messy light-brown hair, acne on his chin, nervous big 
 
 ## Dosya #035 (4)
 
-60. **Karim Benhamou** → `benhamou.png`
+60. **Karim Benhamou** → `benhamou.png` ✅
 
 ```
 A 44-year-old French man of Algerian descent, short black hair, neat moustache, shocked hollow eyes, pale under his tan. Dark blue metro-driver uniform jacket without any logo or text, light blue shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-61. **Odile Vasseur** → `odile.png`
+61. **Odile Vasseur** → `odile.png` ✅
 
 ```
 A 70-year-old French woman, white hair in a short neat bob, round wire glasses, alert intelligent eyes, a slightly stern mouth. Sage-green wool coat with a patterned silk scarf. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-62. **Lucien Mallet** → `mallet.png`
+62. **Lucien Mallet** → `mallet.png` ✅
 
 ```
 A 58-year-old French man, short greying hair, lined weary face, soft sad grey eyes, faint stubble, calm. Grey wool overcoat over a dark charcoal jumper. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-63. **Pascal Royer** → `royer.png`
+63. **Pascal Royer** → `royer.png` ✅
 
 ```
 A 39-year-old French man, side-parted brown hair, clean-shaven, nervous darting eyes, slightly sweaty forehead. Navy suit, white shirt, loosened blue tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
