@@ -23,3 +23,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 - Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; sonra `python3 Tools/bind-items.py` çalıştırılır; oyuna bağlar.
 | `Items/case013_ledger` | Okunur yazı var ("Monthly Rent Statement", "Police…") | "all text must be blurred squiggles, no readable words or numbers" |
 | `Items/case014_note` | Gemini okunur bir ad yazdı ("Maria", vakada yok); silindi, sayfa artık boş, üstünde hafif bir yama var | "one illegible pencil scrawl, not a name, no readable letters" |
+| `Items/case016_letters` | Prompt'taki "angry scrawl" ifadesi imza yerine okunur yazı olarak çizilmiş | "an illegible scribbled signature, no readable words" |

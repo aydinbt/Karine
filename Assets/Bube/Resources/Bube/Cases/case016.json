@@ -52,6 +52,13 @@
    "bodyKey": "case016.letters.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case016.item.letters.name",
+     "detailKey": "case016.item.letters.detail",
+     "imageResource": "Bube/Items/case016_letters"
+    }
    ]
   },
   {
@@ -200,7 +207,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case016.request.fraud",
-   "requestDelaySeconds": 8
+   "requestDelaySeconds": 8,
+   "relatedItems": [
+    {
+     "nameKey": "case016.item.envelope.name",
+     "detailKey": "case016.item.envelope.detail",
+     "imageResource": "Bube/Items/case016_envelope"
+    }
+   ]
   },
   {
    "id": "passport",
@@ -353,7 +367,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case016.request.death",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case016.item.grave.name",
+     "detailKey": "case016.item.grave.detail",
+     "imageResource": "Bube/Items/case016_grave"
+    }
+   ]
   },
   {
    "id": "leah_2",
@@ -597,6 +618,13 @@
      "textKey": "case016.cctv.event.empty",
      "delayMs": 620,
      "overlayTimeKey": "case016.time.empty"
+    }
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case016.item.wallet.name",
+     "detailKey": "case016.item.wallet.detail",
+     "imageResource": "Bube/Items/case016_wallet"
     }
    ]
   }

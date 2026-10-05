@@ -20,10 +20,10 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 11. **Telefon kılıfı** → `case015_case.png` ✅
 
 ## Dosya #016 (4)
-12. **Islak cüzdan** → `case016_wallet.png`
-13. **Tahsilat mektupları** → `case016_letters.png`
-14. **Çocuk mezar taşı** → `case016_grave.png`
-15. **Kart zarfı** → `case016_envelope.png`
+12. **Islak cüzdan** → `case016_wallet.png` ✅
+13. **Tahsilat mektupları** → `case016_letters.png` ✅
+14. **Çocuk mezar taşı** → `case016_grave.png` ✅
+15. **Kart zarfı** → `case016_envelope.png` ✅
 
 ## Dosya #017 (3)
 16. **Yanmış zarf** → `case017_envelope.png`
