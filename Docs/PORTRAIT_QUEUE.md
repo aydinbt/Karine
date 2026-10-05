@@ -1126,43 +1126,43 @@ A 29-year-old Spanish woman, dark hair in a ponytail, glasses, nervous earnest f
 
 ## Dosya #058 (7)
 
-173. **Sergio Vidaurre** → `sergio.png`
+173. **Sergio Vidaurre** → `sergio.png` ✅
 
 ```
 A 47-year-old Spanish man, dark hair greying at the temples, reading glasses pushed up on his head, precise thin face, guarded grey-brown eyes. A charcoal grey work apron over a dark shirt, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-174. **Aurora Benítez** → `aurora.png`
+174. **Aurora Benítez** → `aurora.png` ✅
 
 ```
 A 59-year-old Spanish woman, grey hair in a sleek bob, elegant composed face, tired worried eyes. A dark teal jacket over a silk blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-175. **Fermín Gil** → `fermin.png`
+175. **Fermín Gil** → `fermin.png` ✅
 
 ```
 A 56-year-old Spanish man, thinning grey hair, heavy jowls, resentful wary eyes. A blue-grey cleaner's work coat with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-176. **Naomi Park** → `naomi.png`
+176. **Naomi Park** → `naomi.png` ✅
 
 ```
 A 36-year-old Korean-American woman, long straight black hair, round glasses, sharp intelligent face. A sand-coloured linen jacket with a canvas tote strap on her shoulder. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-177. **Blanca Ortiz** → `blanca.png`
+177. **Blanca Ortiz** → `blanca.png` ✅
 
 ```
 A 27-year-old Spanish woman, wavy honey-blonde hair, freckles, anxious helpful face. A dark purple cardigan with a lanyard holding a blank card. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-178. **Osman Kılınç** → `osman.png`
+178. **Osman Kılınç** → `osman.png` ✅
 
 ```
 A 44-year-old Turkish man, short dark hair, trimmed beard, broad calm face, glue-stained fingers. A brown leather bookbinder's apron. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-179. **Candela Medina** → `candela.png`
+179. **Candela Medina** → `candela.png` ✅
 
 ```
 A 33-year-old Spanish woman, long dark hair loose, red-rimmed eyes, determined grieving face. A plain black coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
