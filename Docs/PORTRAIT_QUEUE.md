@@ -94,25 +94,25 @@ A 47-year-old German woman, ash-brown bob, reading glasses pushed up, cautious c
 
 ## Dosya #025 (4)
 
-12. **Sakai Yū** → `sakai.png`
+12. **Sakai Yū** → `sakai.png` ✅
 
 ```
 A 26-year-old Japanese man, neat short black hair, thin face, anxious darting eyes, biting his lower lip. Navy hotel staff uniform jacket with a plain name-badge holder (no text), white shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-13. **Ishii Daisuke** → `ishii.png`
+13. **Ishii Daisuke** → `ishii.png` ✅
 
 ```
 A 52-year-old Japanese man, greying hair combed back, reading glasses pushed up on his forehead, tired puffy eyes, stubble. Plain grey hotel yukata robe over a white undershirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-14. **Mori Kenta** → `kenta.png`
+14. **Mori Kenta** → `kenta.png` ✅
 
 ```
 A 38-year-old Japanese man, slightly messy black hair, pale and sleepless, dark circles, frightened but determined expression. Wrinkled white business shirt, loosened dark tie, no jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-15. **Ōta Ren** → `ota.png`
+15. **Ōta Ren** → `ota.png` ✅
 
 ```
 A 44-year-old Japanese man, short-cropped black hair with grey at the temples, square jaw, calm unreadable expression, a thin scar through his left eyebrow. Black suit, black shirt, no tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
