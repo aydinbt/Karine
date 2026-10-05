@@ -1,11 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 4 Ekim 2026 (kapanış turu)
+**Son güncelleme:** 5 Ekim 2026
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
 
-**5 Ekim:** CCTV kareleri yalnız soruşturmanın seyrini değiştiren olaylara konuyor; geri kalanı metin. #005 tamam; #006 beş, #007 üç, #008 bir olayın kareleri girdi. Görüntüye gömülü kamera yazısı yasak (dil değişince kalıyor). Kalan dört olay (#008 drop/garden, #009 arda_in/empty) rafa kaldırıldı. #001–#003'ün on portresi Gemini ile yeni tarzda yeniden çizildi; tüm vakalar artık tek portre tarzında. Testler yeşil (126/126 EditMode, 25 PlayMode + 1 atlandı). Unity'de görülmedi.
+**5 Ekim:** CCTV kareleri yalnız soruşturmanın seyrini değiştiren olaylara konuyor; geri kalanı metin. #005 tamam; #006 beş, #007 üç, #008 bir olayın kareleri girdi. Görüntüye gömülü kamera yazısı yasak (dil değişince kalıyor). Kalan dört olay (#008 drop/garden, #009 arda_in/empty) rafa kaldırıldı. #001–#003'ün on portresi Gemini ile yeni tarzda yeniden çizildi; tüm vakalar artık tek portre tarzında. Testler yeşil (126/126 EditMode, 25 PlayMode + 1 atlandı). Unity'de görülmedi. Ardından #004–#006 portreleri de Gemini ile yenilendi (tüm vakalar tek tarz). Masada eşyaların havada durması (paralaks farkı) ve sorgu odasında kişiyle masa arasındaki koyu şerit düzeltildi. Galeri turu açılış kartında takılmıyor; #005–#010 tur görüntüleri alındı. Testler yeşil.
 
 **4 Ekim (gece, 7):** #009–#010 portreleri, kapakları ve #010'un on CCTV olayı girdi. **#005–#009'un CCTV kareleri (40 olay) henüz yok.** Kare sayısı artık olaya göre — çoğu olay 3 kare yetiyor. Testler yeşil; Unity'de görülmedi.
 

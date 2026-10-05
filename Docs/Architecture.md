@@ -398,7 +398,7 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 
 `Desk()` masayı kurduktan sonra `KarineUI.OfficeAtmosphere(stage)` çağrılır (`Assets/Bube/Runtime/UI/KarineUI.Atmosphere.cs`). Bu çağrı:
 
-- `OfficeRoom` ve `OfficeWindow-*` öğelerini `OfficeBack` kabına, `DeskFront` kümesindeki eşya görsellerini ve masa düğmelerini `OfficeFront` kabına taşır (sıra korunur). Parallax kapların `translate`'iyle yapılır; böylece çocukların kendi `translate`'i (kalkma, kâğıt varışı) serbest kalır. Düğme ile eşyası aynı kapta olduğu için dokunma alanı görselden kaymaz.
+- `OfficeRoom` ve `OfficeWindow-*` öğelerini `OfficeBack` kabına, `DeskFront` kümesindeki eşya görsellerini ve masa düğmelerini `OfficeFront` kabına taşır (sıra korunur). Parallax kapların `translate`'iyle yapılır; 5 Ekim 2026'dan beri `OfficeFront` da `OfficeBack` ile aynı ölçek (`BackScale`) ve aynı kaymayı alır, çünkü masa yüzeyi arka plakada olduğundan ayrı kayma eşyaları masadan koparıyordu; derinlik hissi yalnız ışık ve tozda kalır. böylece çocukların kendi `translate`'i (kalkma, kâğıt varışı) serbest kalır. Düğme ile eşyası aynı kapta olduğu için dokunma alanı görselden kaymaz.
 - Işık havuzu, eşya gölgeleri ve kararma çalışma anında üretilen iki 128×128 dokudan çizilir (`Glow`, `Vignette`; statik, bir kez). Kararma `OfficeFront` içinde ilk düğmenin hemen önüne konur.
 - Eğme: `SystemInfo.supportsAccelerometer` ise `Input.acceleration` (proje eski Input Manager'da, `activeInputHandler: 0`), değilse fare. Taban `TiltRecenter` hızıyla yeni duruşa yaklaşır.
 - Bütün sayılar `KarineTheme.Office.Atmosphere` içinde. `KarineMotion.Reduced` iken toz, parallax ve kalkma kurulmaz.
@@ -506,7 +506,7 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 
 ## Sorgu odası yerleşimi ve kapanış devinimi (4 Ekim 2026)
 
-`BubeApp.Interview.SeatInRoom` kişiyi ekran yüzdesine göre değil, **oda görselinin koordinatlarına** göre oturtur: koltuk ortası `SeatX=.4975`, masa kenarı `TableEdge=.726`, figür genişliği `.25`, batma `.04`. Arka plan ScaleAndCrop olduğundan ölçek = max(en oranı, boy oranı), kayma ortalanır; oran değişse de kişi koltukta kalır. Portrenin önüne `InterviewTableFront` çizilir: oda görselinin masa kenarından aşağısı, kamera nefesi dönüşümlerini kopyalar ve portre altındaki saydam boşluğu örter. `InterviewRoomFx` masanın önüne taşınır. Bardak ve kayıt cihazı yoktur.
+`BubeApp.Interview.SeatInRoom` kişiyi ekran yüzdesine göre değil, **oda görselinin koordinatlarına** göre oturtur: koltuk ortası `SeatX=.4975`, masa kenarı `TableEdge=.734` (ahşabın başladığı çizgi; .726 koyu arka kenar bandını kişinin önüne çiziyordu), figür genişliği `.25`, batma `.06`. Arka plan ScaleAndCrop olduğundan ölçek = max(en oranı, boy oranı), kayma ortalanır; oran değişse de kişi koltukta kalır. Portrenin önüne `InterviewTableFront` çizilir: oda görselinin masa kenarından aşağısı, kamera nefesi dönüşümlerini kopyalar ve portre altındaki saydam boşluğu örter. `InterviewRoomFx` masanın önüne taşınır. Bardak ve kayıt cihazı yoktur.
 
 `KarineMotion.Leave(veil, paper, then)` kapanış eylemini sarar: karartma söner, kâğıt `PaperOffset` kadar iner, sonra `then` çalışır; çift dokunuşu yok sayar. Modal (`ModalFrame`), onay formu ve rehber kâğıdı bunu kullanır.
 
@@ -514,7 +514,7 @@ DossierPaper.userData görüntülenen bölüm kimliğini tutar. FilePage ilk aç
 
 Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır. Bunun yerine testler her `UIDocument`'a kopyalanmış bir `PanelSettings` verip `targetTexture`'ını 2400×1080 bir RenderTexture yapar ve onu `ReadPixels` ile okur; teardown eski ayarları geri koyar. Bu yüzden `run-tests.sh` PlayMode'u `-nographics` olmadan koşar (EditMode hâlâ grafiksiz). Referanslar `Tools/Baselines/`.
 
-`Tools/capture-screens.sh [GxY]` aynı yolla `GalleryTests`'i koşar ve her vakanın sorgu ekranlarını `Docs/Screenshots/<tarih>/` altına yazar (klasör git dışı). `KARINE_GALLERY` tanımlı değilse test atlanır; `run-tests.sh` atlanan testi düşmüş saymaz. `KARINE_TEST_FILTER` ile tek test sınıfı koşulabilir.
+`Tools/capture-screens.sh [GxY]` aynı yolla `GalleryTests`'i koşar ve her vakanın sorgu ekranlarını `Docs/Screenshots/<tarih>/` altına yazar (klasör git dışı). `KARINE_GALLERY` tanımlı değilse test atlanır; `run-tests.sh` atlanan testi düşmüş saymaz. `KARINE_TEST_FILTER` ile tek test sınıfı koşulabilir. `KARINE_TOUR=case005,...` turu masa, dosya, belge, CCTV, özet ve karşılaştırma sayfalarını da çeker; tur sırasında `karine.opened.<vaka>` geçici olarak 1 yapılır ki açılış kartı sayfaları örtmesin, sonra eski değer geri yazılır. Test süre sınırı 30 dk. `capture-screens.sh` ve `run-tests.sh` aynı geçici proje klasörünü kullanır; ikisi aynı anda koşturulmamalı.
 
 
 ## İnceleme izni (4 Ekim 2026)

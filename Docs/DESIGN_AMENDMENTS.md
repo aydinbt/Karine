@@ -1068,3 +1068,7 @@ Bir CCTV olayı beş kare olmak zorunda değil. Tek hareketli olaylar (giriş, �
 ## CCTV karesi yalnız kritik olaylara, görüntüde yazı yok (5 Ekim 2026)
 
 Kare dizisi her CCTV olayına konmaz; yalnız soruşturmanın seyrini değiştiren anlara (bırakılan/alınan nesne, masa altında kalan eller, cam kırma, şüpheli ışık). Rutin giriş/çıkış ve ara adımlar (zile basma) metin kalır. Görüntüye kamera adı, saat veya etiket gömülmez: oyun dili değişince sabit kalırdı; kamera etiketini oyun yerelleştirip kendisi çizer. Gelen görselde yazı varsa kırpılır. Kayıtta adı geçmeyen kişinin yüzü karede seçilmez.
+
+## Tek portre tarzı: #001–#010 Gemini (5 Ekim 2026)
+
+ChatGPT ile yapılmış portreler (#001–#006'nın büyük kısmı) Gemini ile, #007 sonrası tarzda yeniden çizildi: önden bakış, şeffaf zemin, dokulu mürekkep. Bundan sonra tüm portreler bu tarzda. Masa eşyaları da masa yüzeyiyle tek parça hareket eder; eşyalar ile masa arasında paralaks yoktur.
