@@ -1234,19 +1234,19 @@ A 37-year-old Lebanese-Canadian woman, long black hair straightened, sharp profe
 
 ## Dosya #061 (3)
 
-190. **Marc-André Lavoie** → `lavoie.png`
+190. **Marc-André Lavoie** → `lavoie.png` ✅
 
 ```
 A 49-year-old Québécois man, dark brown hair neatly cut, clean-shaven, a polished smile and restless hazel eyes. A navy blue fleece zip-up with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-191. **Denis Ouellet** → `ouellet.png`
+191. **Denis Ouellet** → `ouellet.png` ✅
 
 ```
 A 55-year-old Québécois man, grey crew cut, a broken nose, a thick neck, a hard but honest face. A red tracksuit jacket with a whistle on a cord. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-192. **Anika Sharma** → `anika.png`
+192. **Anika Sharma** → `anika.png` ✅
 
 ```
 A 16-year-old Indo-Canadian girl, long black hair in a tight braid, shocked wide dark eyes, a hockey helmet held under one arm. A white practice jersey with no logo or number. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
