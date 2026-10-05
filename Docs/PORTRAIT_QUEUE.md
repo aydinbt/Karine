@@ -504,25 +504,25 @@ A 61-year-old French man, short grey hair, heavy jowls, bushy eyebrows, patient 
 Same man as file #036: a 57-year-old French man, tall and lean, iron-grey hair cut close, hawk-like nose, thin unreadable smile. Charcoal double-breasted suit, white shirt, no tie, a heavy gold signet ring. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-76. **Céline Delorme** → `celine.png`
+76. **Céline Delorme** → `celine.png` ✅
 
 ```
 A 38-year-old French woman, long auburn hair pulled back severely, sharp cheekbones, composed but shaken green eyes, small diamond studs. Black tailored blazer over a black silk top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-77. **Martin Faure** → `faure.png`
+77. **Martin Faure** → `faure.png` ✅
 
 ```
 A 60-year-old French man, silver hair swept back, florid face, half-moon reading glasses pushed up on his head, theatrical expressive eyebrows. Dark burgundy velvet jacket, white shirt, black bow tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-78. **Carla Lopes** → `lopes.png`
+78. **Carla Lopes** → `lopes.png` ✅
 
 ```
 A 29-year-old Portuguese-French woman, dark hair in a tight low ponytail, olive skin, anxious earnest brown eyes. Plain charcoal art-handler's work jacket, a pair of white cotton gloves tucked into the breast pocket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-79. **Vincent Morel** → `morel.png`
+79. **Vincent Morel** → `morel.png` ✅
 
 ```
 A 52-year-old French man, dark hair thinning at the crown, rectangular steel glasses, guarded lawyerly expression. Grey three-piece suit, dark blue tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
