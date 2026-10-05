@@ -14,7 +14,7 @@ Ortak kısım (#015 ile aynı):
 > A 63-year-old British man, weathered face, white stubble, woollen beanie pushed back, stubborn certain expression. Navy pea coat.
 3. **Aisha Rahman** — `Bube/Characters/aisha`
 > A 40-year-old British-Bangladeshi woman, long black hair tied back, sharp intelligent eyes, controlled but troubled expression. Charcoal tailored jacket.
-4. **Graham Holt** — `Bube/Characters/graham`
+4. **Graham Holt** — `Bube/Characters/case017/graham`
 > A 52-year-old British man, neat thinning grey-brown hair, rimless glasses, soft office face, mild polite smile that does not reach the eyes. Dark blue suit, loosened tie, lanyard with blank card.
 
 ## Adli bulgular — Gemini (`Bube/Items/case017_*`)
