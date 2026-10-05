@@ -50,8 +50,8 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 29. **Röntgen** → `case021_xray.png` ✅
 
 ## Dosya #022 (2)
-30. **Bilet terminali** → `case022_terminal.png`
-31. **Ceza fişleri** → `case022_receipts.png`
+30. **Bilet terminali** → `case022_terminal.png` ✅
+31. **Ceza fişleri** → `case022_receipts.png` ✅
 
 ## Dosya #023 (3)
 32. **Kart askısı** → `case023_lanyard.png`

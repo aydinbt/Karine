@@ -334,6 +334,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case022.petra.device"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case022.item.receipts.name",
+     "detailKey": "case022.item.receipts.detail",
+     "imageResource": "Bube/Items/case022_receipts"
+    }
    ]
   },
   {
@@ -365,6 +372,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case022.petra.pair"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case022.item.terminal.name",
+     "detailKey": "case022.item.terminal.detail",
+     "imageResource": "Bube/Items/case022_terminal"
+    }
    ]
   },
   {
