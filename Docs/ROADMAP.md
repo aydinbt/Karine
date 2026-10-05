@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011–#013 veride)
+**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011–#014 veride)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -587,4 +587,9 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [x] Tasarım onaylandı: `Docs/CASE013_DESIGN.md` (bakım kayıtları; katmanlar: ihmal → kasıt → yanlış kurban → gizli kiralama).
 - [~] Veri: `case013.json` (19 düğüm), `tr.case013.json` (204 metin), `Case013Rules`; #012 → #013 zinciri, UK üçüncü yuva. Çok günlü çizelge sırası korunarak 0–1439 aralığına sıkıştırıldı (doğrulayıcı tek gün ister). 126/126 EditMode, 26 PlayMode + 1 atlandı. Play Mode'da oynanmadı.
 - [ ] Görseller: `Docs/CASE013_PROMPTS.md`. CCTV gelince `alley#ladder` olayına `framePaths`.
+
+## 5 Ekim 2026 — Birleşik Krallık: Dosya #014 "İkinci Görüş"
+- [x] Tasarım onaylandı: `Docs/CASE014_DESIGN.md` (çelişen iki dürüst rapor; ikinci görüş iki ayrı tablo olduğunu gösterir; intihar notu koparılmış bir cümle).
+- [~] Veri: `case014.json` (23 düğüm), `tr.case014.json` (216 metin), `Case014Rules`; #013 → #014, UK dördüncü yuva. Asistanın adı "Ben" değil "Oliver": ad eşleşmesi Türkçe "ben" sözcüğünü yakalardı. 126/126 EditMode, 26 PlayMode + 1 atlandı. Oynanmadı.
+- [ ] Görseller: `Docs/CASE014_PROMPTS.md`. CCTV gelince `yard#leave` olayına `framePaths`.
 

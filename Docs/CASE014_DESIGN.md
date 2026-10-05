@@ -21,7 +21,7 @@ Dosyada iki uzman raporu birbiriyle çelişir: biri tablo gerçek der, öteki sa
 - 24 Mart: Hugh Linton (Ashby'nin tuttuğu uzman) "sahte" raporu verir. Hugh dürüsttür; önüne konan tabloyu inceledi.
 - 1 Nisan 14.00: Clara, iade edilen tabloyu müzayede deposunda inceler; 14.40 Ashby'yi arar (6 dk).
 - 1 Nisan 21.10: Atölye binası giriş kaydı: ziyaretçi "J. Ashby", Clara'nın onayıyla. 22.05 çıkış.
-- 2 Nisan 08.30: Clara'nın asistanı Ben Hartley cesedi bulur.
+- 2 Nisan 08.30: Clara'nın asistanı Oliver Hartley cesedi bulur.
 
 ## Kişiler
 | Kişi | Yaş | Rol |
@@ -31,7 +31,7 @@ Dosyada iki uzman raporu birbiriyle çelişir: biri tablo gerçek der, öteki sa
 | Hugh Linton | 61 | alıcının uzmanı; dürüst, yanlış tabloya baktı |
 | Rebecca Finch | 46 | müzayede evinin direktörü; skandalı kapatmak için Clara'yı feda etmeye hazırdı — kırmızı ringa |
 | Noah Kemp | 29 | kopyacı ressam; habersiz |
-| Ben Hartley | 27 | Clara'nın asistanı, cesedi bulan |
+| Oliver Hartley | 27 | Clara'nın asistanı, cesedi bulan |
 
 İkinci görüşü yazan konservatör (Dr. Amara Osei) yalnız rapor olarak var, görüşme yok.
 
@@ -41,7 +41,7 @@ Oyuncu iki raporu yan yana okur, birini seçmek yerine üçüncüsünü **talep 
 ## Akış
 - **Açık:** olay raporu (intihar şüphesi, not), otopsi ön notu (barbitürat + alkol; bilekte hafif morluk; mide içeriğinde çay), Ben görüşmesi, Rebecca görüşmesi, basın kupürü (Hugh'nun açıklaması).
 - **İstenebilir:** Clara'nın satış öncesi raporu, Hugh Linton raporu, olay yeri notu (iki fincan; biri yıkanmış, rafta ıslak), atölye binası giriş kaydı.
-- **Ben:** "Clara dün öğleden sonra depodan döndü, çok heyecanlıydı, ‘Bir şey buldum’ dedi. Bu, intihar eden birinin hâli değildi."
+- **Oliver:** "Clara dün öğleden sonra depodan döndü, çok heyecanlıydı, ‘Bir şey buldum’ dedi. Bu, intihar eden birinin hâli değildi."
 - **İki rapor okununca** → ikinci görüş talep edilebilir (uzun bekleme). Hugh görüşmesi açılır.
 - **Hugh:** "Ben önüme konan tuvali inceledim. Tuval modern. Tartışma yok." İkinci görüş okununca **Hugh 2**: "Bana tabloyu kim getirdi? Ashby'nin kendi kuryesi."
 - **Giriş kaydı** → Ashby görüşmesi açılır. **Ashby 1:** Clara'yı tanımadığını, hiç görüşmediğini söyler.
@@ -71,4 +71,4 @@ Faksta akıbet: Ashby cinayet ve dolandırıcılıktan tutuklanır; gerçek tabl
 İki dürüst ölçüm çelişiyorsa, belki aynı şeyi ölçmüyorlardır: önce nesnenin aynı nesne olduğunu doğrula. Koparılmış bir cümle, bütün cümlenin tersini söyleyebilir.
 
 ## Görseller (onaydan sonra prompt dosyası)
-Portreler (Gemini): Julian, Hugh, Rebecca, Noah, Ben. Adli bulgular (Gemini): yırtık "Yanıldım" notu, iki fincan, grafitle açılmış defter sayfası, tablonun köşesinde iğne deliği (UV yakın plan). Kapak (ChatGPT): loş bir müzayede salonunda örtüsü yarı kalkmış Viktorya dönemi nehir manzarası. CCTV (ChatGPT): avlu 22.04, 3 kare.
+Portreler (Gemini): Julian, Hugh, Rebecca, Noah, Oliver. Adli bulgular (Gemini): yırtık "Yanıldım" notu, iki fincan, grafitle açılmış defter sayfası, tablonun köşesinde iğne deliği (UV yakın plan). Kapak (ChatGPT): loş bir müzayede salonunda örtüsü yarı kalkmış Viktorya dönemi nehir manzarası. CCTV (ChatGPT): avlu 22.04, 3 kare.

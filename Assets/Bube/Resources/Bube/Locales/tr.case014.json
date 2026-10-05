@@ -1,0 +1,868 @@
+{
+ "entries": [
+  {
+   "key": "case014.autopsy.body",
+   "value": "· Kanda yüksek düzeyde barbitürat ve 1,1 promil alkol. Ölüm sebebi: solunum depresyonu.\n· Mide içeriğinde viskiyle birlikte demlenmiş çay; ilaç kalıntısı en yoğun çayın içinde.\n· Sağ bilekte hafif, yeni bir morluk; kavrama ya da çarpma ile uyumlu.\n· Tahmini ölüm zamanı: 1 Nisan 22.00 – 2 Nisan 01.00."
+  },
+  {
+   "key": "case014.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU — CLARA VOSS"
+  },
+  {
+   "key": "case014.bag.body",
+   "value": "2 Nisan 13.00’te belediye toplamasından önce alınan küçük çöp poşeti:\n\n· Kullanılmış iki çay poşeti.\n· Boş bir barbitürat blister şeridi (10’luk); masadaki kutuyla aynı seri numarası.\n· Buruşturulmuş, yırtık bir defter sayfası parçası. Üzerinde kalemle: “…sandılar. Bu benim gördüğüm tablo değil — iğne deliği yok…”\n· Bir parça mutfak kâğıdı, ıslak.\n\nParmak izi incelemesi sürüyor."
+  },
+  {
+   "key": "case014.bag.title",
+   "value": "AVLU ÇÖP KUTUSU — POŞET İÇERİĞİ"
+  },
+  {
+   "key": "case014.cctv.event.arrive",
+   "value": "Kamera 04: Uzun paltolu, şapkalı bir adam avludan binaya giriyor. Elinde ince bir evrak çantası."
+  },
+  {
+   "key": "case014.cctv.event.fox",
+   "value": "Kamera 04: Bir tilki çöp kutusunun etrafında dolaşıyor, sonra uzaklaşıyor."
+  },
+  {
+   "key": "case014.cctv.event.leave",
+   "value": "Kamera 04: Aynı adam binadan çıkıyor. Bir elinde çanta, ötekinde küçük, düğümlenmiş bir çöp poşeti. Avlunun köşesindeki belediye çöp kutusuna poşeti atıp sokağa yürüyor."
+  },
+  {
+   "key": "case014.cctv.overlay",
+   "value": "KAM 04"
+  },
+  {
+   "key": "case014.cctv.period",
+   "value": "1 Nisan 2029, 20.30 – 23.30"
+  },
+  {
+   "key": "case014.cctv.source",
+   "value": "Avlu kamerası"
+  },
+  {
+   "key": "case014.clara_report.body",
+   "value": "Harrow & Finch, 20 Şubat 2029. Konu: Edwin Marlowe, “Thames’te Son Işık”, tuval üzerine yağlıboya.\n\n· Pigment analizi (beş örnek): kurşun beyazı, Prusya mavisi, doğal toprak boyalar. 1880’lerle uyumlu; modern pigment yok.\n· Tuval: el dokuması keten, 19. yüzyıl.\n· UV incelemesi: iki eski rötuş alanı; ince, düzenli bir krakle (çatlak) ağı. Fotoğraflar ekte.\n· Sol alt köşede, tuvalin kenarında küçük bir iğne deliği; muhtemelen eski bir sergi asılış izi. Fotoğraflandı.\n\nSonuç: Eser Marlowe’a aittir."
+  },
+  {
+   "key": "case014.clara_report.title",
+   "value": "SATIŞ ÖNCESİ UZMAN RAPORU — DR. CLARA VOSS"
+  },
+  {
+   "key": "case014.clue.call",
+   "value": "Clara Ashby’yi arıyor; 6 dakika."
+  },
+  {
+   "key": "case014.clue.clara_ok",
+   "value": "Clara tabloyu gerçek buluyor; iğne deliği fotoğraflanıyor."
+  },
+  {
+   "key": "case014.clue.gap",
+   "value": "Tablo çerçeveciye iki gün geç geliyor; Kemp’in atölyesinden."
+  },
+  {
+   "key": "case014.clue.hugh_fake",
+   "value": "Hugh’nun incelediği eser sahte çıkıyor."
+  },
+  {
+   "key": "case014.clue.j_claim",
+   "value": "Ashby evde olduğunu, Clara’yla hiç görüşmediğini söylüyor."
+  },
+  {
+   "key": "case014.clue.order",
+   "value": "Ashby Noah Kemp’e bir Marlowe kopyası sipariş ediyor."
+  },
+  {
+   "key": "case014.clue.source.clara_report",
+   "value": "Clara Voss’un raporu"
+  },
+  {
+   "key": "case014.clue.source.cphone",
+   "value": "Clara’nın telefonu"
+  },
+  {
+   "key": "case014.clue.source.entry",
+   "value": "Bina giriş kaydı"
+  },
+  {
+   "key": "case014.clue.source.framer",
+   "value": "Çerçeveci kaydı"
+  },
+  {
+   "key": "case014.clue.source.hugh_report",
+   "value": "Hugh Linton’ın raporu"
+  },
+  {
+   "key": "case014.clue.source.invoice",
+   "value": "Kemp faturası"
+  },
+  {
+   "key": "case014.clue.visit_in",
+   "value": "Ashby binaya giriyor; Clara onaylıyor."
+  },
+  {
+   "key": "case014.clue.visit_out",
+   "value": "Ashby binadan çıkıyor."
+  },
+  {
+   "key": "case014.clue.yard_leave",
+   "value": "Şapkalı adam çöp poşetiyle çıkıyor, poşeti atıyor."
+  },
+  {
+   "key": "case014.cphone.body",
+   "value": "1 Nisan 2029, seçilmiş kayıtlar:\n\n09.12 · gelen · Harrow & Finch · 4 dk\n14.40 · giden · Julian Ashby · 6 dk 05 sn\n15.02 · giden · Dr. Hugh Linton · cevapsız\n18.30 · gelen · Oliver Hartley · 2 dk"
+  },
+  {
+   "key": "case014.cphone.title",
+   "value": "TELEFON KAYDI — CLARA VOSS"
+  },
+  {
+   "key": "case014.custody.auction",
+   "value": "Müzayedede satılan tablo"
+  },
+  {
+   "key": "case014.custody.both_fake",
+   "value": "İkisi de sahte"
+  },
+  {
+   "key": "case014.custody.both_real",
+   "value": "İkisi de gerçek"
+  },
+  {
+   "key": "case014.custody.label",
+   "value": "Sahte olan hangi tablo?"
+  },
+  {
+   "key": "case014.custody.swapped",
+   "value": "Satıştan sonra alıcının elinde değiştirilen kopya"
+  },
+  {
+   "key": "case014.entry.body",
+   "value": "Ziyaretçiler resepsiyon tabletinden kaydolur, kiracı onaylar.\n\n13.05 · Clara Voss · kart · çıkış\n15.20 · Clara Voss · kart · giriş\n21.10 · ziyaretçi: Julian Ashby · onaylayan: C. Voss (3. kat)\n22.05 · ziyaretçi çıkışı: Julian Ashby\n\nSonraki giriş: 2 Nisan 08.24, Oliver Hartley."
+  },
+  {
+   "key": "case014.entry.title",
+   "value": "PEREGRINE YARD — BİNA GİRİŞ KAYDI, 1 NİSAN"
+  },
+  {
+   "key": "case014.epilogue.custody.auction",
+   "value": "Clara’nın raporu çöpe atıldı; ikinci görüş göz ardı edildi. Müzayede evi iadeyi ödedi."
+  },
+  {
+   "key": "case014.epilogue.custody.both_fake",
+   "value": "Satış öncesi raporun 19. yüzyıl pigmentleri açıklanamadı; savunma bunu dosyanın tutarsızlığı olarak sundu."
+  },
+  {
+   "key": "case014.epilogue.custody.both_real",
+   "value": "Kopya ‘gerçek’ sayılınca titanyum beyazı açıklanamadı; dosya bilirkişi çatışmasında boğuldu."
+  },
+  {
+   "key": "case014.epilogue.custody.swapped",
+   "value": "Harrow & Finch iadeyi durdurdu. Clara Voss’un adı kataloğa uzman olarak yeniden yazıldı; Hugh Linton bunu bir basın açıklamasıyla kendisi istedi. Noah Kemp’in imzası kopyanın çıtasının altında bulundu."
+  },
+  {
+   "key": "case014.epilogue.verdict.hugh",
+   "value": "Hugh Linton’a yönelik suçlama ilk duruşmada düştü. Otuz yıllık itibarı bir daha toparlanmadı."
+  },
+  {
+   "key": "case014.epilogue.verdict.julian",
+   "value": "Julian Ashby kasten öldürme ve dolandırıcılıktan tutuklandı. Gerçek “Thames’te Son Işık”, Belgravia’daki evinin kilitli bir odasında, iğne deliğiyle birlikte bulundu."
+  },
+  {
+   "key": "case014.epilogue.verdict.rebecca",
+   "value": "Rebecca Finch gözaltına alındı; tanıkları ertesi gün onu serbest bıraktırdı. Harrow & Finch 2,4 milyonu ödedi ve kapandı. Ashby tabloyu iki yıl sonra Cenevre’de sattırdı."
+  },
+  {
+   "key": "case014.epilogue.verdict.suicide",
+   "value": "Ölüm intihar olarak kapandı. Ashby garanti bedelini tahsil etti; gerçek tablo yıllar sonra bir başka müzayedede belirdi."
+  },
+  {
+   "key": "case014.evidence.clara_report",
+   "value": "Clara Voss’un satış öncesi raporu"
+  },
+  {
+   "key": "case014.evidence.entry",
+   "value": "Bina giriş kaydı"
+  },
+  {
+   "key": "case014.evidence.hugh_report",
+   "value": "Hugh Linton’ın raporu"
+  },
+  {
+   "key": "case014.evidence.press",
+   "value": "Basın kupürü"
+  },
+  {
+   "key": "case014.evidence.second",
+   "value": "İkinci görüş raporu"
+  },
+  {
+   "key": "case014.feedback.hugh",
+   "value": "Hugh’nun raporu doğruydu; ona bir kopya getirilmişti. Clara’nın onu da aradığı ama ulaşamadığı görülüyor."
+  },
+  {
+   "key": "case014.feedback.julian",
+   "value": "Clara gerçek tabloyu, Hugh bir kopyayı inceledi. Kopyayı Ashby sipariş etti ve tabloyu satıştan sonra iki gün elinde tuttu. Clara farkı anlayıp onu aradı; Ashby o akşam atölyeye girdi, çıkarken çöp poşetini attı. Poşette defterin koparılan cümlesi vardı."
+  },
+  {
+   "key": "case014.feedback.rebecca",
+   "value": "Rebecca Clara’yı feda etmeye hazırdı; bu ahlaki bir suç. Ama o gece on bir kişiyle yemekteydi ve sahtelik onun kurumunu batırıyordu."
+  },
+  {
+   "key": "case014.feedback.suicide",
+   "value": "Not koparılmış bir cümlenin başıydı. Clara o öğleden sonra yanılmadığını anlamıştı; çaydaki ilaç ve yıkanmış ikinci fincan bir misafiri gösteriyor."
+  },
+  {
+   "key": "case014.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case014.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case014.file.value.location",
+   "value": "Clerkenwell, Peregrine Yard — 3. kat atölye"
+  },
+  {
+   "key": "case014.file.value.number",
+   "value": "BDS-LDN-2029-0078"
+  },
+  {
+   "key": "case014.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case014.file.value.reporter",
+   "value": "Oliver Hartley, asistan"
+  },
+  {
+   "key": "case014.framer.body",
+   "value": "İş no. 2291 · müşteri: Julian Ashby · “Marlowe, Thames — yeni çerçeve”.\n\n14 Mart · “Teslim bekleniyor (müşteri kuryesi)” — gelmedi.\n15 Mart · müşteriye arandı; “yarın getirilecek”.\n16 Mart 17.40 · tablo geldi. Kurye: “Hackney’deki atölyeden alıp getirdim.”\n18 Mart · çerçeve takıldı, müşteri kuryesi aldı.\n\nAtölye çalışanı notu: “Kurye, Noah Kemp’in atölyesinin adını verdi. Kemp’i tanırız; iyi kopyalar yapar.”"
+  },
+  {
+   "key": "case014.framer.title",
+   "value": "BELLAMY ÇERÇEVE — İŞ KAYDI"
+  },
+  {
+   "key": "case014.hugh.body",
+   "value": "Alıcının uzmanıyla."
+  },
+  {
+   "key": "case014.hugh.clara.answer",
+   "value": "Otuz yıldır. Ondan iyi göz tanımam. Raporumu verirken midem bulanıyordu; onun böyle bir hata yapmasına inanamadım."
+  },
+  {
+   "key": "case014.hugh.clara.question",
+   "value": "Clara Voss’u tanır mıydınız?"
+  },
+  {
+   "key": "case014.hugh.deflect",
+   "value": "Raporumda olmayan bir şeye yorum yapmam."
+  },
+  {
+   "key": "case014.hugh.hired.answer",
+   "value": "Alıcı. Julian Ashby. İlk kez bir alıcı beni teslimattan sonraki gün aradı. ‘İçime kurt düştü’ dedi."
+  },
+  {
+   "key": "case014.hugh.hired.question",
+   "value": "Sizi kim görevlendirdi?"
+  },
+  {
+   "key": "case014.hugh.quote",
+   "value": "“Önüme konan tuval modern.”"
+  },
+  {
+   "key": "case014.hugh.test.answer",
+   "value": "Kesinlikle. Titanyum beyazı tartışılmaz. Önüme konan tuval modern. Clara’nın neyi gördüğünü bilmiyorum; ama gördüğü bu tablo değilse, o başka bir mesele."
+  },
+  {
+   "key": "case014.hugh.test.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp masaya koydu."
+  },
+  {
+   "key": "case014.hugh.test.question",
+   "value": "Raporunuzdan emin misiniz?"
+  },
+  {
+   "key": "case014.hugh.title",
+   "value": "Hugh Linton — görüşme"
+  },
+  {
+   "key": "case014.hugh_2.body",
+   "value": "İkinci görüş üzerine."
+  },
+  {
+   "key": "case014.hugh_2.brought.answer",
+   "value": "Bay Ashby’nin kendi kuryesiyle, onun evinden. Çerçevesi yeniydi; ‘Çerçeveciden yeni geldi’ dendi."
+  },
+  {
+   "key": "case014.hugh_2.brought.question",
+   "value": "Tablo size nasıl geldi?"
+  },
+  {
+   "key": "case014.hugh_2.same.answer",
+   "value": "…Tanrım. Ben yalnız önüme konanı inceledim. Satış öncesi fotoğraflarla karşılaştırmadım; neden karşılaştırayım ki, aynı tablo olmalıydı. İkimiz de haklıymışız."
+  },
+  {
+   "key": "case014.hugh_2.same.answer.demeanor",
+   "value": "Uzun süre konuşamadı."
+  },
+  {
+   "key": "case014.hugh_2.same.question",
+   "value": "Clara ile siz aynı tabloya mı baktınız?"
+  },
+  {
+   "key": "case014.hugh_2.title",
+   "value": "Hugh Linton — ikinci görüşme"
+  },
+  {
+   "key": "case014.hugh_report.body",
+   "value": "Alıcı adına, 24 Mart 2029. Konu: “Thames’te Son Işık” olarak teslim edilen eser.\n\n· Pigment analizi (dört örnek): titanyum beyazı tespit edildi. Bu pigment 1920’lerden önce ticari olarak kullanılmamıştır.\n· Tuval: makine dokuması keten, modern.\n· UV incelemesi: rötuş alanı görülmedi. Krakle yapay olarak oluşturulmuş görünüyor.\n\nSonuç: Eser 19. yüzyıla ait olamaz. Sahtedir."
+  },
+  {
+   "key": "case014.hugh_report.title",
+   "value": "BAĞIMSIZ UZMAN RAPORU — DR. HUGH LINTON"
+  },
+  {
+   "key": "case014.invoice.body",
+   "value": "Fatura no. 0117 · 3 Şubat 2029\nMüşteri: Julian Ashby, Belgravia\nİş: E. Marlowe, “Thames’te Son Işık” — tam boy dekoratif kopya, eskitme ve krakle dahil.\nTutar: £18.000 · ödendi (havale).\n\nNot (Kemp’in el yazısı): “Teslim 14 Mart’tan sonra — müşteri isteği.”"
+  },
+  {
+   "key": "case014.invoice.title",
+   "value": "FATURA — NOAH KEMP ATÖLYESİ"
+  },
+  {
+   "key": "case014.julian.body",
+   "value": "Alıcının ifadesi."
+  },
+  {
+   "key": "case014.julian.clara.answer",
+   "value": "Hayır. Satışta uzaktan gördüm, o kadar. Üzücü. Baskı ağır olmalı."
+  },
+  {
+   "key": "case014.julian.clara.question",
+   "value": "Clara Voss’la hiç görüştünüz mü?"
+  },
+  {
+   "key": "case014.julian.deflect",
+   "value": "Bunu avukatım cevaplasın."
+  },
+  {
+   "key": "case014.julian.night.answer",
+   "value": "Evde, Belgravia’da. Erken yattım."
+  },
+  {
+   "key": "case014.julian.night.question",
+   "value": "1 Nisan akşamı neredeydiniz?"
+  },
+  {
+   "key": "case014.julian.painting.answer",
+   "value": "Hayatımın en kötü alışverişi. Gerçek olduğuna inandım; uzmanlarına inandım. Neyse ki garanti var."
+  },
+  {
+   "key": "case014.julian.painting.answer.demeanor",
+   "value": "Rahattı; saatini düzeltti."
+  },
+  {
+   "key": "case014.julian.painting.question",
+   "value": "Tabloyu anlatır mısınız?"
+  },
+  {
+   "key": "case014.julian.quote",
+   "value": "“Neyse ki garanti var.”"
+  },
+  {
+   "key": "case014.julian.title",
+   "value": "Julian Ashby — görüşme"
+  },
+  {
+   "key": "case014.julian_2.body",
+   "value": "Telefon kaydı üzerine."
+  },
+  {
+   "key": "case014.julian_2.call.answer",
+   "value": "Ah, o. Evet, aradı. Çok gergindi, tabloyu yeniden incelemiş, saçma sapan şeyler söyledi. Ben de avukatıma yönlendirdim. Görüşme demem buna."
+  },
+  {
+   "key": "case014.julian_2.call.answer.demeanor",
+   "value": "Bacak bacak üstüne attı."
+  },
+  {
+   "key": "case014.julian_2.call.question",
+   "value": "Clara Voss 1 Nisan’da sizi aradı, altı dakika konuştunuz."
+  },
+  {
+   "key": "case014.julian_2.framer.answer",
+   "value": "Çerçevecide. Nerede olacak?"
+  },
+  {
+   "key": "case014.julian_2.framer.question",
+   "value": "Tablo satıştan sonra iki gün neredeydi?"
+  },
+  {
+   "key": "case014.julian_2.title",
+   "value": "Julian Ashby — ikinci görüşme"
+  },
+  {
+   "key": "case014.julian_3.body",
+   "value": "Defter, fatura ve giriş kaydı üzerine."
+  },
+  {
+   "key": "case014.julian_3.copy.answer",
+   "value": "Salonum için. Aslını kasada tutmak isteyen her koleksiyoncu yapar."
+  },
+  {
+   "key": "case014.julian_3.copy.question",
+   "value": "Şubat’ta bir kopya sipariş etmişsiniz. Teslim, satıştan sonra."
+  },
+  {
+   "key": "case014.julian_3.title",
+   "value": "Julian Ashby — üçüncü görüşme"
+  },
+  {
+   "key": "case014.julian_3.visit.answer",
+   "value": "…Peki. Gittim. Beni suçlayan saçmalıklarını yüzüme söylesin diye. Konuştuk, sakinleşti, çıktım. Sağdı."
+  },
+  {
+   "key": "case014.julian_3.visit.answer.demeanor",
+   "value": "İlk kez avukatına baktı."
+  },
+  {
+   "key": "case014.julian_3.visit.question",
+   "value": "1 Nisan 21.10’da Clara’nın binasındaydınız."
+  },
+  {
+   "key": "case014.julian_3.where.answer",
+   "value": "…"
+  },
+  {
+   "key": "case014.julian_3.where.answer.demeanor",
+   "value": "Cevap vermedi. Avukatı görüşmeyi kesti."
+  },
+  {
+   "key": "case014.julian_3.where.question",
+   "value": "O hâlde asıl tablo şimdi nerede?"
+  },
+  {
+   "key": "case014.method.accident",
+   "value": "Kaza — ilaç ve alkol"
+  },
+  {
+   "key": "case014.method.label",
+   "value": "Clara nasıl öldü?"
+  },
+  {
+   "key": "case014.method.poisoned",
+   "value": "Çaya katılan hapla zehirlendi; intihar gibi düzenlendi"
+  },
+  {
+   "key": "case014.method.suicide",
+   "value": "Haplarla kendi canına kıydı"
+  },
+  {
+   "key": "case014.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case014.noah.body",
+   "value": "Kopyacı ressamla."
+  },
+  {
+   "key": "case014.noah.deflect",
+   "value": "Ben resim yaparım. Gerisinden anlamam."
+  },
+  {
+   "key": "case014.noah.fake.answer",
+   "value": "Ne? Hayır! Ben arkasına adımı yazarım, her zaman. Tuvalin arkasında, çıtanın altında. Bakın, orada olmalı."
+  },
+  {
+   "key": "case014.noah.fake.answer.demeanor",
+   "value": "Ayağa kalktı."
+  },
+  {
+   "key": "case014.noah.fake.question",
+   "value": "Kopyanızın gerçek diye satıldığını biliyor muydunuz?"
+  },
+  {
+   "key": "case014.noah.order.answer",
+   "value": "Bir koleksiyoncu, Şubat başında. Fotoğraflar gönderdi, çok ayrıntılı; çatlaklar bile. ‘Salonuma, aslı kasada dursun’ dedi. Çok para verdi. Eski tuval bulamadım, modern keten kullandım; dekor için kimin umurunda?"
+  },
+  {
+   "key": "case014.noah.order.answer.demeanor",
+   "value": "Gururla başladı, sonra tedirgin oldu."
+  },
+  {
+   "key": "case014.noah.order.question",
+   "value": "Marlowe kopyasını size kim sipariş etti?"
+  },
+  {
+   "key": "case014.noah.pickup.answer",
+   "value": "Garip olan o. Hazırdı ama ‘14’ünü bekle’ dedi. 14 Mart akşamı kuryesi geldi, bir tablo bıraktı, ‘bir gece dursun’ dedi. İki gün sonra ikisini birden aldı. Bıraktığı tabloya bakmadım bile. Bakmalı mıydım?"
+  },
+  {
+   "key": "case014.noah.pickup.question",
+   "value": "Kopya ne zaman teslim edildi?"
+  },
+  {
+   "key": "case014.noah.quote",
+   "value": "“Aslı kasada dursun, dedi.”"
+  },
+  {
+   "key": "case014.noah.title",
+   "value": "Noah Kemp — görüşme"
+  },
+  {
+   "key": "case014.notebook.body",
+   "value": "Koparılan sayfanın altındaki boş sayfaya grafit tozu uygulandı. Kalem baskısından okunan satırlar:\n\n“1 Nisan. Depo. İade edilen tablo.\nYanıldım sandılar. Bu benim gördüğüm tablo değil — iğne deliği yok, rötuşlar yok, krakle başka.\nBirisi değiştirmiş. Satıştan sonra.\nJulian Ashby’ye sordum. Akşam gelecek, ‘açıklayacağım’ dedi.”\n\nOlay yerindeki kâğıtta yalnız ilk kelime kalmış: “Yanıldım.” Kâğıdın geri kalanı yok."
+  },
+  {
+   "key": "case014.notebook.title",
+   "value": "CLARA VOSS’UN DEFTERİ — GRAFİTLE OKUNAN SAYFA"
+  },
+  {
+   "key": "case014.offer.subtitle",
+   "value": "İKİNCİ GÖRÜŞ  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case014.offer.summary",
+   "value": "Sattığı milyonluk tablo sahte çıkan bir müzayede uzmanı atölyesinde ölü bulunuyor. Masasında tek kelimelik bir not: “Yanıldım.” İntihar gibi duruyor."
+  },
+  {
+   "key": "case014.offer.title",
+   "value": "DOSYA #014"
+  },
+  {
+   "key": "case014.oliver.body",
+   "value": "Asistanın ifadesi."
+  },
+  {
+   "key": "case014.oliver.deflect",
+   "value": "Bilmiyorum. Clara bana her şeyi anlatmazdı."
+  },
+  {
+   "key": "case014.oliver.found.answer",
+   "value": "Kapı kilitli değildi; Clara hep kilitlerdi. Masada başı öne düşmüştü. O kâğıdı gördüm, ‘Yanıldım’. Elleri soğuktu."
+  },
+  {
+   "key": "case014.oliver.found.answer.demeanor",
+   "value": "Sesi titredi."
+  },
+  {
+   "key": "case014.oliver.found.question",
+   "value": "Sabah ne gördünüz?"
+  },
+  {
+   "key": "case014.oliver.mood.answer",
+   "value": "Kötüydü, evet. Gazeteler, telefonlar… Ama dün öğleden sonra depodan döndüğünde bambaşkaydı. ‘Bir şey buldum, Oliver. Yanılmadım’ dedi. Gözleri parlıyordu. İntihar eden biri böyle konuşmaz."
+  },
+  {
+   "key": "case014.oliver.mood.question",
+   "value": "Son günlerde nasıldı?"
+  },
+  {
+   "key": "case014.oliver.notebook.answer",
+   "value": "Her şeyi defterine yazardı. Kalın, kurşun kalemle, bastıra bastıra. O defter masadaydı."
+  },
+  {
+   "key": "case014.oliver.notebook.question",
+   "value": "Bulduğu şeyi bir yere yazmış mıdır?"
+  },
+  {
+   "key": "case014.oliver.quote",
+   "value": "“Yanılmadım, dedi.”"
+  },
+  {
+   "key": "case014.oliver.tea.answer",
+   "value": "Çok nadiren. Akşamları çay içerdi, hep aynı mavi fincanlarda. İki tane var; misafir gelince ikincisini çıkarırdı."
+  },
+  {
+   "key": "case014.oliver.tea.question",
+   "value": "Clara viski içer miydi?"
+  },
+  {
+   "key": "case014.oliver.title",
+   "value": "Oliver Hartley — görüşme"
+  },
+  {
+   "key": "case014.person.hugh.info",
+   "value": "61 yaşında, emekli müze konservatörü, bağımsız uzman. Tablonun sahte olduğunu açıklayan rapor onun."
+  },
+  {
+   "key": "case014.person.hugh.name",
+   "value": "Hugh Linton"
+  },
+  {
+   "key": "case014.person.julian.info",
+   "value": "49 yaşında, fon yöneticisi ve koleksiyoncu. Marlowe tablosunu Mart’ta 2,4 milyon sterline satın aldı."
+  },
+  {
+   "key": "case014.person.julian.name",
+   "value": "Julian Ashby"
+  },
+  {
+   "key": "case014.person.noah.info",
+   "value": "29 yaşında, Hackney’de atölyesi olan ressam; ünlü tabloların dekoratif kopyalarını yapıyor."
+  },
+  {
+   "key": "case014.person.noah.name",
+   "value": "Noah Kemp"
+  },
+  {
+   "key": "case014.person.oliver.info",
+   "value": "27 yaşında, Dr. Clara Voss’un iki yıllık asistanı. Cesedi bulan kişi."
+  },
+  {
+   "key": "case014.person.oliver.name",
+   "value": "Oliver Hartley"
+  },
+  {
+   "key": "case014.person.rebecca.info",
+   "value": "46 yaşında, Harrow & Finch müzayede evinin direktörü ve kurucu ailenin üyesi."
+  },
+  {
+   "key": "case014.person.rebecca.name",
+   "value": "Rebecca Finch"
+  },
+  {
+   "key": "case014.press.body",
+   "value": "“90 YILLIK KAYIP TABLO SAHTE ÇIKTI”\n\nGeçen ay 2,4 milyon sterline satılan Edwin Marlowe imzalı “Thames’te Son Işık”ın sahte olduğu açıklandı. Alıcının görevlendirdiği bağımsız uzman Dr. Hugh Linton, boyada 1920’lerden önce kullanılmayan titanyum beyazı ve modern dokuma tuval bulduğunu söyledi.\n\nTabloyu satış öncesinde onaylayan Harrow & Finch uzmanı Dr. Clara Voss yorum yapmadı. Müzayede evi “iç inceleme başlattığını” duyurdu. Sanat çevrelerinde Voss’un kariyerinin bittiği konuşuluyor."
+  },
+  {
+   "key": "case014.press.title",
+   "value": "BASIN KUPÜRÜ — 25 MART 2029"
+  },
+  {
+   "key": "case014.rebecca.body",
+   "value": "Müzayede direktörünün ifadesi."
+  },
+  {
+   "key": "case014.rebecca.clara.answer",
+   "value": "Yirmi yıllık bir uzman. Titizdi. Bu yüzden olanlar daha da trajik. Herkes hata yapabilir."
+  },
+  {
+   "key": "case014.rebecca.clara.answer.demeanor",
+   "value": "Cümleleri önceden hazırlanmış gibiydi."
+  },
+  {
+   "key": "case014.rebecca.clara.question",
+   "value": "Clara Voss’la çalışmanız nasıldı?"
+  },
+  {
+   "key": "case014.rebecca.deflect",
+   "value": "Bu konuda kurumun basın açıklamasına bakın."
+  },
+  {
+   "key": "case014.rebecca.last.answer",
+   "value": "Dün öğleden sonra depoda. İade edilen tabloyu yeniden incelemek istedi; izin verdim. Çıkarken bir şey söylemedi."
+  },
+  {
+   "key": "case014.rebecca.last.question",
+   "value": "Clara’yı en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case014.rebecca.quote",
+   "value": "“Herkes hata yapabilir.”"
+  },
+  {
+   "key": "case014.rebecca.sale.answer",
+   "value": "Alıcı orijinallik garantimize dayanarak iade istedi. Tablo geçen hafta depomuza geri geldi. 2,4 milyonu iade edeceğiz; sigorta karşılamıyor. Kurum için bir felaket."
+  },
+  {
+   "key": "case014.rebecca.sale.question",
+   "value": "Tablonun şu anki durumu nedir?"
+  },
+  {
+   "key": "case014.rebecca.title",
+   "value": "Rebecca Finch — görüşme"
+  },
+  {
+   "key": "case014.rebecca_2.body",
+   "value": "Kurum içi inceleme üzerine."
+  },
+  {
+   "key": "case014.rebecca_2.night.answer",
+   "value": "Kurul yemeğinde, on bir kişiyle, gece yarısına kadar. Dilediğinizi arayın."
+  },
+  {
+   "key": "case014.rebecca_2.night.question",
+   "value": "1 Nisan akşamı neredeydiniz?"
+  },
+  {
+   "key": "case014.rebecca_2.plan.answer",
+   "value": "Açık konuşayım. Kurul, suçu Clara’ya yüklemeye karar verdi; onu kovup ‘bireysel hata’ diyecektik. Mektubu ben yazdım, cuma imzalanacaktı. Bundan gurur duymuyorum."
+  },
+  {
+   "key": "case014.rebecca_2.plan.answer.demeanor",
+   "value": "Gözleri doldu, hemen sildi."
+  },
+  {
+   "key": "case014.rebecca_2.plan.question",
+   "value": "‘İç inceleme’ tam olarak neydi?"
+  },
+  {
+   "key": "case014.rebecca_2.title",
+   "value": "Rebecca Finch — ikinci görüşme"
+  },
+  {
+   "key": "case014.report.body",
+   "value": "2 Nisan 2029 saat 08.30’da Clerkenwell’deki bir atölye binasının üçüncü katında, Harrow & Finch müzayede evinin resim uzmanı Dr. Clara Voss (54) çalışma masasının başında ölü bulundu. Bulan kişi asistanı Oliver Hartley.\n\nMasada yarısı içilmiş bir viski bardağı, boş bir uyku ilacı kutusu ve el yazısıyla tek kelime yazılmış yırtık bir kâğıt: “Yanıldım.”\n\nDevriye notu: “Voss, sattığı bir tablonun bir hafta önce sahte ilan edilmesinin ardından basında ağır eleştiri almıştı. İntihar şüphesi güçlü.”"
+  },
+  {
+   "key": "case014.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case014.request.bag",
+   "value": "Avludaki çöp kutusunun içeriğini iste"
+  },
+  {
+   "key": "case014.request.clara_report",
+   "value": "Clara Voss’un satış öncesi raporunu iste"
+  },
+  {
+   "key": "case014.request.cphone",
+   "value": "Clara Voss’un telefon kaydını iste"
+  },
+  {
+   "key": "case014.request.entry",
+   "value": "Binanın giriş kaydını iste"
+  },
+  {
+   "key": "case014.request.framer",
+   "value": "Çerçevecinin iş kaydını iste"
+  },
+  {
+   "key": "case014.request.hugh_report",
+   "value": "Alıcının uzman raporunu iste"
+  },
+  {
+   "key": "case014.request.invoice",
+   "value": "Noah Kemp’in faturasını iste"
+  },
+  {
+   "key": "case014.request.notebook",
+   "value": "Defterin grafitle incelenmesini iste"
+  },
+  {
+   "key": "case014.request.scene",
+   "value": "Olay yeri inceleme notunu iste"
+  },
+  {
+   "key": "case014.request.second",
+   "value": "Bağımsız bir konservatörden ikinci görüş iste"
+  },
+  {
+   "key": "case014.scene.body",
+   "value": "· Masada: viski bardağı (yarım), boş barbitürat kutusu, yırtık kâğıt (“Yanıldım.”). Kâğıdın üst kenarı düz, alt kenarı yırtık; masadaki defterden koparılmış.\n· Defterde koparılan sayfanın altındaki sayfa boş görünüyor.\n· Lavabonun yanındaki rafta iki mavi çay fincanı. Biri kuru ve içinde çay kalıntısı var; öteki yıkanmış, hâlâ ıslak.\n· Çöp kutusu boş; içinde poşet yok.\n· Pencere kapalı. Zorlama izi yok."
+  },
+  {
+   "key": "case014.scene.title",
+   "value": "OLAY YERİ İNCELEME NOTU — ATÖLYE"
+  },
+  {
+   "key": "case014.second.body",
+   "value": "Dr. Amara Osei, 2 Nisan 2029. Talep: bube Londra. İncelenen: Harrow & Finch deposundaki, alıcıdan iade edilen eser. Karşılaştırma: 20 Şubat satış öncesi raporunun UV fotoğrafları.\n\n· İade edilen eserin pigment ve tuval bulguları, 24 Mart bağımsız raporuyla örtüşüyor (titanyum beyazı; makine dokuması).\n· Krakle ağı: 20 Şubat fotoğraflarındaki çatlak deseniyle karşılaştırıldı. Eşleşme yok. Desen doğal değil; ısıyla oluşturulmuş.\n· Sol alt köşe: 20 Şubat fotoğrafındaki iğne deliği bu eserde yok. Tuval kenarı bütün.\n· Rötuş alanları: 20 Şubat’ta belgelenen iki alan bu eserde yok.\n\nÖlçüm sonucu: İncelenen eser, 20 Şubat’ta fotoğraflanan eserle fiziksel olarak aynı nesne değildir."
+  },
+  {
+   "key": "case014.second.title",
+   "value": "İKİNCİ GÖRÜŞ — BAĞIMSIZ KONSERVATÖR RAPORU"
+  },
+  {
+   "key": "case014.summary.evidence",
+   "value": "İki uzman raporu çelişiyordu; ikinci görüş, iade edilen eserin satış öncesi fotoğraflanan eserle aynı nesne olmadığını gösterdi. Çerçeveci kaydı ve Kemp faturası değiştirme penceresini, giriş kaydı ve telefon o akşamı, defterin grafit izi ve çöp poşeti koparılan cümleyi ortaya çıkardı."
+  },
+  {
+   "key": "case014.summary.lesson",
+   "value": "İki dürüst ölçüm çelişiyorsa, belki aynı şeyi ölçmüyorlardır: önce nesnenin aynı nesne olduğunu doğrula. Koparılmış bir cümle, bütününün tersini söyleyebilir."
+  },
+  {
+   "key": "case014.summary.location",
+   "value": "Clerkenwell ve Mayfair — Şubat–Nisan 2029"
+  },
+  {
+   "key": "case014.summary.truth",
+   "value": "Koleksiyoncu Julian Ashby, Marlowe tablosunu satın almadan önce Noah Kemp’e birebir bir kopya sipariş etti. Satıştan sonra tabloyu çerçeveci bahanesiyle iki gün elinde tuttu, kopyayla değiştirdi ve kopyayı Hugh Linton’a inceletip ‘sahte’ ilan ettirdi; müzayede garantisiyle parasını geri isteyecek, gerçeği saklayacaktı. Clara Voss iade edilen eseri inceleyince başka bir tablo olduğunu anladı ve Ashby’yi aradı. Ashby o akşam atölyesine gitti, çayına ilaç kattı, defterdeki sayfayı yırtıp yalnız ilk kelimeyi bıraktı ve kalanını çöple birlikte attı."
+  },
+  {
+   "key": "case014.suspect.label",
+   "value": "Clara Voss’un ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case014.tablet.caseLine",
+   "value": "DOSYA #014  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case014.time.arrive",
+   "value": "21.08"
+  },
+  {
+   "key": "case014.time.call",
+   "value": "1 Nisan 14.40"
+  },
+  {
+   "key": "case014.time.clara_ok",
+   "value": "20 Şubat"
+  },
+  {
+   "key": "case014.time.fox",
+   "value": "23.12"
+  },
+  {
+   "key": "case014.time.gap",
+   "value": "14–16 Mart"
+  },
+  {
+   "key": "case014.time.hugh_fake",
+   "value": "24 Mart"
+  },
+  {
+   "key": "case014.time.j_claim",
+   "value": "1 Nisan akşam"
+  },
+  {
+   "key": "case014.time.leave",
+   "value": "22.04"
+  },
+  {
+   "key": "case014.time.order",
+   "value": "3 Şubat"
+  },
+  {
+   "key": "case014.time.visit_in",
+   "value": "1 Nisan 21.10"
+  },
+  {
+   "key": "case014.time.visit_out",
+   "value": "1 Nisan 22.05"
+  },
+  {
+   "key": "case014.title",
+   "value": "Dosya #014 — İkinci Görüş"
+  },
+  {
+   "key": "case014.verdict.hugh",
+   "value": "Hugh Linton"
+  },
+  {
+   "key": "case014.verdict.julian",
+   "value": "Julian Ashby"
+  },
+  {
+   "key": "case014.verdict.rebecca",
+   "value": "Rebecca Finch"
+  },
+  {
+   "key": "case014.verdict.suicide",
+   "value": "Kimse — intihar"
+  },
+  {
+   "key": "case014.yard.body",
+   "value": "Atölye binasının avluya açılan kapısını gören kamera. 1 Nisan 20.30 – 23.30 arası. Avlu loş; yüzler seçilmez."
+  },
+  {
+   "key": "case014.yard.title",
+   "value": "PEREGRINE YARD AVLU KAMERASI — kayıt dökümü"
+  }
+ ]
+}

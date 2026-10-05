@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim (gece, 3):** **Dosya #014 "İkinci Görüş"** veride: rezil edilmiş müzayede uzmanının "intiharı". Ters köşe: çelişen iki uzman raporu da doğru — ikinci görüş iki ayrı tabloya bakıldığını gösterir; alıcı Ashby tabloyu satıştan sonra kopyayla değiştirmişti. "Yanıldım" notu, defterden koparılmış "Yanıldım sandılar…" cümlesinin başı. 23 düğüm, 216 metin. Testler yeşil; oynanmadı.
+
 **5 Ekim (gece, 2):** **Dosya #013 "Kiracı"** veride: paylaşımlı evde karbonmonoksit. Bakım kayıtları (sertifika, servis raporu, anahtar kaydı) kaza/ihmal/kasıt ayrımını oyuncuya bırakır. Katmanlar: ihmal → bacada bez → ölen kişi kiracı değil, hedef Ellie → emlakçı Simon odayı ev sahibinden gizleyip kiralıyordu. 19 düğüm, 204 metin; UK üçüncü yuva. Testler yeşil; oynanmadı.
 
 **5 Ekim (gece):** **Dosya #012 "Son Sefer Değil"** veride: gece otobüsünde saldırı, biniş dökümünden zaman çizelgesi (yalnız biniş okutulur; adsız ·4417 kartını banka hareketleri Liam'a bağlar). Kullanıcı isteğiyle dört katmanlı sürpriz: kavgacı genç → adsız kart → kurban ölür, dosya cinayete döner → ihbarı yaptıran amir Helen. Rapor: Liam + kışkırtma + Helen + banka hareketleri. 24 düğüm, 250 metin; UK ikinci yuvası. Testler yeşil; Unity'de oynanmadı. Bekleyen: #011 ve #012 görselleri.
