@@ -850,25 +850,25 @@ A 25-year-old Ghanaian man, very short black hair, young round face, frightened 
 
 ## Dosya #049 (4)
 
-130. **Vittoria Sala** → `vittoria.png`
+130. **Vittoria Sala** → `vittoria.png` ✅
 
 ```
 A 58-year-old elegant Italian woman, silver hair in a chic short bob, high cheekbones, cool appraising green eyes, an antique cameo brooch. Deep plum silk blouse under a fine black wool coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-131. **Matteo Cuomo** → `matteo.png`
+131. **Matteo Cuomo** → `matteo.png` ✅
 
 ```
 A 27-year-old Italian man, messy dark brown hair, clay under his fingernails, sad gentle brown eyes, thin face. Brown canvas work apron over a grey T-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-132. **Teresa Cuomo** → `teresa.png`
+132. **Teresa Cuomo** → `teresa.png` ✅
 
 ```
 A 50-year-old Italian woman, dark hair with a grey streak tied back, reading glasses pushed up, stern tired eyes. Olive green knitted cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-133. **Bruno Gallo** → `bruno.png`
+133. **Bruno Gallo** → `bruno.png` ✅
 
 ```
 A 19-year-old Italian boy, short black hair with gel, a few teenage spots, anxious eager eyes. White barista shirt with a black bow tie, holding a small round tray. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
