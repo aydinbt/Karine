@@ -728,25 +728,25 @@ A 36-year-old Korean-American woman, wet black hair pulled back tight, a red mar
 
 ## Dosya #045 (4)
 
-111. **Marjorie Quinn** → `quinn.png`
+111. **Marjorie Quinn** → `quinn.png` ✅
 
 ```
 A 55-year-old white American woman, steel-grey hair in a sleek low chignon, thin arched brows, pale skin, composed calculating grey eyes, small diamond studs. Black tailored trouser suit with a high-collared ivory blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-112. **Trevor Kincaid** → `trevor.png`
+112. **Trevor Kincaid** → `trevor.png` ✅
 
 ```
 A 31-year-old white American man, longish dark-blond hair pushed back, stubble, bloodshot defensive blue eyes. Wrinkled light blue oxford shirt, open collar, sleeves pushed up. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-113. **Lupe Ochoa** → `ochoa.png`
+113. **Lupe Ochoa** → `ochoa.png` ✅
 
 ```
 A 49-year-old Mexican-American woman, dark hair in a neat bun, round gentle face, frightened careful brown eyes. Slate-grey housekeeper's tunic with a small white collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-114. **Sid Abrams** → `abrams.png`
+114. **Sid Abrams** → `abrams.png` ✅
 
 ```
 A 52-year-old white American man, close-cropped dark hair, heavy brow, broken-nosed boxer's face, watchful eyes. Black suit, black shirt, a coiled earpiece wire with no visible brand. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
