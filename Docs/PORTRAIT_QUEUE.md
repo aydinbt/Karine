@@ -934,31 +934,31 @@ A 64-year-old Swedish woman, short white hair, pale skin with sunburnt cheeks, b
 
 ## Dosya #052 (5)
 
-143. **Lorenzo Conte** → `lorenzo.png`
+143. **Lorenzo Conte** → `lorenzo.png` ✅
 
 ```
 A 46-year-old Italian man, neatly cut dark hair with grey at the temples, clean-shaven, handsome hard face, impatient dark eyes, a gold signet ring. Midnight navy tailored suit, open white collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-144. **Carmela Caruso** → `carmela.png`
+144. **Carmela Caruso** → `carmela.png` ✅
 
 ```
 A 44-year-old Italian woman, long black hair pulled into a severe low bun, dark mourning veil pushed back, strong brows, proud grief-stricken eyes. Black mourning dress with a simple gold cross. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-145. **Aldo Ruggiero** → `aldo.png`
+145. **Aldo Ruggiero** → `aldo.png` ✅
 
 ```
 A 68-year-old Neapolitan port foreman, white hair cropped short, white stubble, deep-lined sun-dark face, loyal sorrowful eyes. Faded blue work jacket with no logo, a flat cap in his hands. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-146. **Samir Haddad** → `samir.png`
+146. **Samir Haddad** → `samir.png` ✅
 
 ```
 A 39-year-old Moroccan-Italian man, short black hair, neat beard, worried attentive brown eyes. Yellow fumigation technician's overalls with no logo, a gas mask hanging around his neck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-147. **Ottavio Mele** → `ottavio.png`
+147. **Ottavio Mele** → `ottavio.png` ✅
 
 ```
 A 33-year-old Italian man, brown hair under a hard hat pushed back, tired young face, nervous eyes. Orange high-visibility crane operator's vest over a dark sweatshirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
