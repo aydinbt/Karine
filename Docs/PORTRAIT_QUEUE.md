@@ -178,43 +178,43 @@ A 66-year-old Japanese man, thin grey hair combed over, deep smile lines, thick 
 
 ## Dosya #028 (7)
 
-25. **Kobayashi Nana** → `nana.png`
+25. **Kobayashi Nana** → `nana.png` ✅
 
 ```
 A 22-year-old Japanese woman, honey-brown dyed hair in soft waves past the shoulders, idol-style makeup slightly smudged under the eyes, worried expression. Pastel pink oversized knit cardigan over a white top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-26. **Mizuno Reina** → `reina.png`
+26. **Mizuno Reina** → `reina.png` ✅
 
 ```
 A 20-year-old Japanese woman, long straight black hair with blunt bangs, a small sparkly hair clip, wide shocked eyes, glitter on her cheekbones. Lavender party dress with a white collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-27. **Kanda Shūji** → `kanda.png`
+27. **Kanda Shūji** → `kanda.png` ✅
 
 ```
 A 46-year-old Japanese man, slicked-back black hair, thin rectangular glasses, clean-shaven, controlled faint smile. Black fitted suit, black shirt open at the collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-28. **Endō Yamato** → `yamato.png`
+28. **Endō Yamato** → `yamato.png` ✅
 
 ```
 A 31-year-old Japanese man, messy short brown hair, earring in one ear, tired eyes. Dark green karaoke-staff polo shirt with a blank name badge. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-29. **Inoue Haru** → `haru.png`
+29. **Inoue Haru** → `haru.png` ✅
 
 ```
 A 27-year-old Japanese man, medium-length black hair falling over his forehead, stubble, sleepless red eyes. Grey hoodie under an unzipped black denim jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-30. **Tsuda Miki** → `miki.png`
+30. **Tsuda Miki** → `miki.png` ✅
 
 ```
 A 35-year-old Japanese woman, brown hair in a high ponytail, round face, determined eyes, large fan-club pin with only a heart shape on her collar. Bright pink fan-club jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-31. **Gotō Ryū** → `goto.png`
+31. **Gotō Ryū** → `goto.png` ✅
 
 ```
 A 40-year-old Japanese man, short black hair under a black baseball cap, unshaven, cynical half-smile. Khaki photographer's vest over a dark t-shirt, camera strap over the shoulder. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
