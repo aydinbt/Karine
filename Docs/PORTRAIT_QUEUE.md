@@ -1036,19 +1036,19 @@ A 45-year-old Spanish woman, straight black hair to her shoulders, elegant tired
 
 ## Dosya #055 (3)
 
-159. **Ignacio Lara** → `ignacio.png`
+159. **Ignacio Lara** → `ignacio.png` ✅
 
 ```
 A 67-year-old distinguished Spanish man, thick white hair combed back, aristocratic thin face, pale blue eyes, a gold brotherhood medal on a ribbon at his chest. A dark navy suit with a black tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-160. **Paco Romero** → `paco.png`
+160. **Paco Romero** → `paco.png` ✅
 
 ```
 A 48-year-old Andalusian man, short black hair, broad muscular shoulders, a thick neck, honest brown eyes, a padded costalero headband around his neck. A plain white shirt with rolled sleeves. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-161. **Amparo Soto** → `amparo.png`
+161. **Amparo Soto** → `amparo.png` ✅
 
 ```
 A 56-year-old Spanish woman, chestnut hair in a neat bob, a jeweller's loupe hanging on a chain, precise sceptical green eyes. A plum-coloured blouse with a small brooch. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
