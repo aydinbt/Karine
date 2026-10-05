@@ -1094,13 +1094,13 @@ A 50-year-old Moroccan-Spanish man, greying short hair, a neat moustache, tired 
 
 ## Dosya #057 (5)
 
-168. **Beatriz Soto** → `beatriz.png`
+168. **Beatriz Soto** → `beatriz.png` ✅
 
 ```
 A 52-year-old Spanish woman, chestnut hair in a neat low bun, composed managerial face, small gold earrings, watchful hazel eyes. A cream linen blouse under a beige gilet with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-169. **Esteban Heredia** → `esteban.png`
+169. **Esteban Heredia** → `esteban.png` ✅
 
 ```
 A 41-year-old Andalusian man, thick black hair, sun-darkened skin, strong jaw, angry burning dark eyes. A faded navy work shirt with sleeves rolled. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
@@ -1112,13 +1112,13 @@ A 41-year-old Andalusian man, thick black hair, sun-darkened skin, strong jaw, a
 A 70-year-old Andalusian woman, white hair tied back, deeply lined sun-browned face, sharp knowing eyes. A dark wine-red cardigan over a black dress. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-171. **Karim Ouazzani** → `karim.png`
+171. **Karim Ouazzani** → `karim.png` ✅
 
 ```
 A 33-year-old Moroccan man, short black hair, light beard, lean, tired cautious eyes, a straw hat pushed back. An olive green picking shirt with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-172. **Anabel Ríos** → `anabel.png`
+172. **Anabel Ríos** → `anabel.png` ✅
 
 ```
 A 29-year-old Spanish woman, dark hair in a ponytail, glasses, nervous earnest face. A white laboratory coat with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
