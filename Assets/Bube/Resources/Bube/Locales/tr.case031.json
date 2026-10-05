@@ -1,0 +1,656 @@
+{
+ "entries": [
+  {
+   "key": "case031.autopsy.body",
+   "value": "· Tetrodotoksin (fugu zehri) zehirlenmesi; solunum felci.\n· Mide içeriği: fugu sashimi, fugu güveç, pirinç lapası, ve son olarak yanık yüzgeçli sıcak sake.\n· Belirtilerin başlangıcı (dilde uyuşma) 22.05 civarı. Tetrodotoksin genellikle alındıktan 20–40 dakika sonra belirti verir.\n· Kandaki düzey yüksek; birkaç gram karaciğerle değil, saf bir maddeyle uyumlu."
+  },
+  {
+   "key": "case031.autopsy.title",
+   "value": "OTOPSİ VE TOKSİKOLOJİ"
+  },
+  {
+   "key": "case031.bin.body",
+   "value": "Fugu atık kutusunun mührü sağlam. Kutu açıldı, içerik tartıldı:\n\n· Karaciğer 412 g, yumurtalık 188 g, gözler, bağırsak.\n· Ōmura Takeshi’nin aynı gece tuttuğu el kaydı: karaciğer 410 g, yumurtalık 190 g.\n\nFark tartı hassasiyeti içinde. Balığın zehirli kısımlarından eksik yok."
+  },
+  {
+   "key": "case031.bin.title",
+   "value": "MUTFAK ATIK KUTUSU KAYDI"
+  },
+  {
+   "key": "case031.cctv.event.enter",
+   "value": "Kamera: Adam özel odanın kapısını açıp diz çökerek giriyor; tepsiyi iki eliyle tutuyor, kadehin üstünde küçük bir alev."
+  },
+  {
+   "key": "case031.cctv.event.pause",
+   "value": "Kamera: Adam koridorda duruyor, başı tepsiye eğik, bir eli ceket cebinde."
+  },
+  {
+   "key": "case031.cctv.event.take",
+   "value": "Kamera: Koyu takım elbiseli bir adam mutfak penceresinden tepside kapaklı küçük bir kadeh alıyor; bir an sırtını kameraya dönüyor."
+  },
+  {
+   "key": "case031.cctv.overlay",
+   "value": "RYO-2"
+  },
+  {
+   "key": "case031.cctv.period",
+   "value": "18 Nisan 2030"
+  },
+  {
+   "key": "case031.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case031.clue.cancel",
+   "value": "Başkan sofrada ‘Paris satışı olmayacak’ diyor."
+  },
+  {
+   "key": "case031.clue.lab",
+   "value": "Mali işler direktörü yan kuruluştan 1 mg tetrodotoksin çıkartıyor."
+  },
+  {
+   "key": "case031.clue.msg",
+   "value": "‘Bitti. Satış pazartesi imzaya hazır.’"
+  },
+  {
+   "key": "case031.clue.numb",
+   "value": "Başkanın dili uyuşuyor."
+  },
+  {
+   "key": "case031.clue.pause",
+   "value": "Adam koridorda duruyor, eli ceket cebinde."
+  },
+  {
+   "key": "case031.clue.source.autopsy",
+   "value": "Otopsi"
+  },
+  {
+   "key": "case031.clue.source.lab",
+   "value": "Laboratuvar envanteri"
+  },
+  {
+   "key": "case031.clue.source.phone",
+   "value": "Telefon"
+  },
+  {
+   "key": "case031.clue.source.sayuri",
+   "value": "Başkanın kızı"
+  },
+  {
+   "key": "case031.clue.take",
+   "value": "Takım elbiseli adam kadehi mutfak penceresinden alıyor."
+  },
+  {
+   "key": "case031.corridor.body",
+   "value": "Mutfak penceresi ile özel oda arasındaki koridor. 18 Nisan 21.30 – 22.30."
+  },
+  {
+   "key": "case031.corridor.title",
+   "value": "RYŌTEİ KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case031.cup.body",
+   "value": "· Başkanın hirezake kadehinin dibindeki sake kalıntısı: tetrodotoksin, yüksek yoğunluk.\n· Mutfakta aynı sakenin döküldüğü sürahi: temiz.\n· Kızartılmış yüzgeçler (aynı tavadan çıkan dört yüzgeç): temiz.\n· Diğer üç kadeh: temiz.\n\nZehir kadehe, mutfaktan çıktıktan sonra girdi."
+  },
+  {
+   "key": "case031.cup.title",
+   "value": "KADEH VE SÜRAHİ ANALİZİ"
+  },
+  {
+   "key": "case031.custody.kitchen",
+   "value": "Ryōteinin mutfağından"
+  },
+  {
+   "key": "case031.custody.lab",
+   "value": "Şirketin ilaç laboratuvarından, damadın imzasıyla"
+  },
+  {
+   "key": "case031.custody.label",
+   "value": "Zehir nereden geldi?"
+  },
+  {
+   "key": "case031.custody.market",
+   "value": "Balık pazarından getirilen bir parça"
+  },
+  {
+   "key": "case031.epilogue.custody.kitchen",
+   "value": "Zehrin balıktan geldiği kabul edildi; mutfak kapatıldı."
+  },
+  {
+   "key": "case031.epilogue.custody.lab",
+   "value": "Zehrin yan kuruluştan Hayashi’nin yetkisiyle çıktığı ve şoförle taşındığı yazıldı."
+  },
+  {
+   "key": "case031.epilogue.custody.market",
+   "value": "Zehrin kaynağı dışarıda arandı; bulunamadı."
+  },
+  {
+   "key": "case031.epilogue.verdict.hayashi",
+   "value": "Hayashi Tōru tutuklandı. Kisaragi Shōji’nin Paris satışı durduruldu. Başkanın defteri ve Hayashi’nin yazışmaları bube Paris — Belleville şubesine gönderildi. ‘E.V.’ hiçbir kayıtta tam adıyla geçmiyor."
+  },
+  {
+   "key": "case031.epilogue.verdict.ikeda",
+   "value": "Ikeda Mai gözaltına alındı; başkanın defteri hiç okunmadı."
+  },
+  {
+   "key": "case031.epilogue.verdict.omura",
+   "value": "Ōmura Takeshi ihmalden yargılandı, lisansını kaybetti. Paris satışı pazartesi imzalandı."
+  },
+  {
+   "key": "case031.epilogue.verdict.sayuri",
+   "value": "Kisaragi Sayuri suçlandı; Hayashi şirketin başına geçti."
+  },
+  {
+   "key": "case031.evidence.bin",
+   "value": "Mutfak atık kutusu"
+  },
+  {
+   "key": "case031.evidence.cup",
+   "value": "Kadeh ve sürahi analizi"
+  },
+  {
+   "key": "case031.evidence.lab",
+   "value": "Laboratuvar envanteri ve araba"
+  },
+  {
+   "key": "case031.evidence.phone",
+   "value": "Hayashi’nin telefonu"
+  },
+  {
+   "key": "case031.feedback.hayashi",
+   "value": "Zehir yalnız onun yakıp sunduğu kadehte; koridorda durduğu an kamerada, ampulü kendi imzasıyla çıkarttı ve parmak izi arabadaki kırık ampulde. Başkan o gece Paris satışını iptal etti; mesajı ‘Bitti’."
+  },
+  {
+   "key": "case031.feedback.ikeda",
+   "value": "Sekreter pazartesi randevusunu ayarladı; o randevunun olmasını isteyen tek kişi oydu."
+  },
+  {
+   "key": "case031.feedback.omura",
+   "value": "Usta balığı kurala uygun temizledi; atık kutusunda eksik yok, güveç ve sürahi temiz."
+  },
+  {
+   "key": "case031.feedback.sayuri",
+   "value": "Kızı babasının kararını biliyordu ama kadehe dokunmadı; satış kocasının projesiydi."
+  },
+  {
+   "key": "case031.file.caseType",
+   "value": "BÖLÜM FİNALİ"
+  },
+  {
+   "key": "case031.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case031.file.value.location",
+   "value": "Tsukiji, ryōtei — özel oda"
+  },
+  {
+   "key": "case031.file.value.number",
+   "value": "BDS-TYO-2030-0050"
+  },
+  {
+   "key": "case031.file.value.offence",
+   "value": "Şüpheli ölüm; zehirlenme"
+  },
+  {
+   "key": "case031.file.value.reporter",
+   "value": "Ryōtei"
+  },
+  {
+   "key": "case031.hayashi.body",
+   "value": "Damat; mali işler direktörü."
+  },
+  {
+   "key": "case031.hayashi.deflect",
+   "value": "Şirketin mali işleri gizlidir."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer",
+   "value": "Kayınpederim yaşlıydı, son aylarda yorgundu, kararları değişkendi. Fugu her yıl birkaç kişiyi öldürür. Ōmura ustaya güvenirdik; demek ki yaşlandı."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp mendille siliyor."
+  },
+  {
+   "key": "case031.hayashi.dinner.question",
+   "value": "Yemekte ne oldu?"
+  },
+  {
+   "key": "case031.hayashi.dinner.variant0",
+   "value": "Kutu tam mı çıktı? O zaman ustanın kaydı yanlış olabilir. Ya da başka bir balık. Ben mutfakta değildim."
+  },
+  {
+   "key": "case031.hayashi.sake.answer",
+   "value": "Saygı. Damat olarak. Japonya’da bu bir jesttir, siz bilmezsiniz."
+  },
+  {
+   "key": "case031.hayashi.sake.question",
+   "value": "Hirezakeyi neden siz sundunuz?"
+  },
+  {
+   "key": "case031.hayashi.title",
+   "value": "Hayashi Tōru — görüşme"
+  },
+  {
+   "key": "case031.hayashi_2.body",
+   "value": "Kayıtlar üzerine."
+  },
+  {
+   "key": "case031.hayashi_2.title",
+   "value": "Hayashi Tōru — ikinci görüşme"
+  },
+  {
+   "key": "case031.hayashi_2.vial.answer",
+   "value": "Denetim örneği."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.lab",
+   "value": "Denetim için. Arabada kırıldı, kazara. Bunun kayınpederimle ne ilgisi var?"
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.notebook",
+   "value": "‘Tōru bunu bilmemeli.’ …Biliyordum. Yemekten önce bana söylemişti zaten. Bu bir şey kanıtlamaz."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.phone",
+   "value": "E.V.… Ben onu hiç görmedim. Yalnız e-posta, yalnız iki harf. Paris’teki ev her şeyi hazırlamıştı: koleksiyon, ağ, havaleler. Kayınpederim bir gecede on yılı iptal ediyordu. ‘Paris bekliyor’ ne demek biliyor musunuz? Beklemezler. Koridorda ampulü kadehe kırdım. Alevi kendim yaktım. Sofrada ona kendi elimle uzattım."
+  },
+  {
+   "key": "case031.hayashi_2.vial.question",
+   "value": "Ampulü 17 Nisan’da imzaladınız."
+  },
+  {
+   "key": "case031.ikeda.body",
+   "value": "Başkanın sekreteri."
+  },
+  {
+   "key": "case031.ikeda.book.answer",
+   "value": "Siyah bir defteri vardı, her yere taşırdı. Yemekten önce arabada bir şey yazdı, uzun uzun. Defter cebindeydi; hastaneye giderken yanında olmalı."
+  },
+  {
+   "key": "case031.ikeda.book.question",
+   "value": "Başkanın kişisel notları?"
+  },
+  {
+   "key": "case031.ikeda.deflect",
+   "value": "Başkanın yazışmaları gizlidir."
+  },
+  {
+   "key": "case031.ikeda.monday.answer",
+   "value": "Pazartesi 09.00, bube Tokyo şubesiyle görüşme. Kendisi aradı, ‘Arendt adlı bir Alman’ın defterini konuşacağız’ dedi. Bunu yalnız ben ve… o akşam yemekte söyledi. Herkes duydu."
+  },
+  {
+   "key": "case031.ikeda.monday.answer.demeanor",
+   "value": "Not defterini kapatıp açıyor."
+  },
+  {
+   "key": "case031.ikeda.monday.question",
+   "value": "Başkanın takviminde ne vardı?"
+  },
+  {
+   "key": "case031.ikeda.title",
+   "value": "Ikeda Mai — görüşme"
+  },
+  {
+   "key": "case031.kazue.body",
+   "value": "Okami."
+  },
+  {
+   "key": "case031.kazue.deflect",
+   "value": "Misafirlerimin konuşmalarını duymam."
+  },
+  {
+   "key": "case031.kazue.pour.answer",
+   "value": "Damat bey. Genelde ben sunarım, ateşi ben yakarım; misafir üzülmesin diye. Ama o gece ‘bu son gece, babama ben sunacağım’ dedi. Ne demek istediğini anlamadım."
+  },
+  {
+   "key": "case031.kazue.pour.answer.demeanor",
+   "value": "Kimonosunun kolunu düzeltiyor."
+  },
+  {
+   "key": "case031.kazue.pour.question",
+   "value": "Hirezakeyi kim sundu?"
+  },
+  {
+   "key": "case031.kazue.pour.variant0",
+   "value": "Kadehte mi? O zaman şunu da söyleyeyim: koridorda bir an durdu. Ben kapının aralığından gördüm, sırtı bana dönüktü. Kibriti arıyordur sandım. Kibrit bendeydi."
+  },
+  {
+   "key": "case031.kazue.quote",
+   "value": "“Bu son gece, babama ben sunacağım.”"
+  },
+  {
+   "key": "case031.kazue.title",
+   "value": "Fujimoto Kazue — görüşme"
+  },
+  {
+   "key": "case031.lab.body",
+   "value": "Kisaragi Shōji’nin Kawasaki’deki ilaç yan kuruluşu, araştırma standartları envanteri:\n\n· 17 Nisan · tetrodotoksin referans standardı, 1 mg, kahverengi ampul — çıkış. Yetki imzası: Hayashi Tōru (mali işler). Gerekçe: ‘denetim örneği’.\n\nHayashi ailesinin arabası, arka sağ kapı cebi: kırık boyunlu kahverengi bir ampul. Kalıntı: tetrodotoksin. Ampulün üzerinde Hayashi Tōru’nun parmak izi."
+  },
+  {
+   "key": "case031.lab.title",
+   "value": "LABORATUVAR ENVANTERİ VE ARABA ARAMASI"
+  },
+  {
+   "key": "case031.method.fugu",
+   "value": "Usta hatası — zehirli fugu kısmı"
+  },
+  {
+   "key": "case031.method.heart",
+   "value": "Yaşa bağlı kalp yetmezliği"
+  },
+  {
+   "key": "case031.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case031.method.liver",
+   "value": "Güvece katılan karaciğer"
+  },
+  {
+   "key": "case031.method.ttx",
+   "value": "Hirezake kadehine kırılan saf tetrodotoksin ampulü"
+  },
+  {
+   "key": "case031.notebook.body",
+   "value": "Kisaragi Genzō’nun siyah defteri, son sayfa, 18 Nisan:\n\n“Arendt’in alıcısı ben değilim; ben aracıyım. Mallar Tokyo’dan geçti, Paris’e gitti. Kâseler, faturalar, havaleler: hepsi oraya. Pazartesi bube’ye her şeyi vereceğim. Damadım Hayashi Tōru bunu bilmemeli. Satışı bu gece iptal ediyorum.”"
+  },
+  {
+   "key": "case031.notebook.title",
+   "value": "BAŞKANIN DEFTERİ"
+  },
+  {
+   "key": "case031.offer.subtitle",
+   "value": "KİSARAGİ  /  BÖLÜM FİNALİ"
+  },
+  {
+   "key": "case031.offer.summary",
+   "value": "Kisaragi Shōji’nin başkanı bir ryōteide fugu yemeğinden sonra ölüyor. Usta lisansını kaybetmek üzere; sofrada ailesi vardı."
+  },
+  {
+   "key": "case031.offer.title",
+   "value": "DOSYA #031"
+  },
+  {
+   "key": "case031.omura.body",
+   "value": "Fugu ustası."
+  },
+  {
+   "key": "case031.omura.deflect",
+   "value": "Mutfağım hakkında söylenecek her şey lisansımda yazılı."
+  },
+  {
+   "key": "case031.omura.fish.answer",
+   "value": "Kırk yıldır ben temizlerim. Karaciğer, yumurtalık, göz: hepsi tartılır, kilitli kutuya girer, kutu mühürlenir, ertesi gün belediye alır. O gece de öyle oldu. Kutuyu açtırın, tartın."
+  },
+  {
+   "key": "case031.omura.fish.answer.demeanor",
+   "value": "Ellerini önlüğüne siliyor, durmadan."
+  },
+  {
+   "key": "case031.omura.fish.question",
+   "value": "Balığı siz mi temizlediniz?"
+  },
+  {
+   "key": "case031.omura.order.answer",
+   "value": "Sashimi 21.00, güveç 21.25, lapa 21.40, sonra hirezake: yüzgeci kızartır, sıcak sakeye koyarım, kapağı kapatıp pencereden veririm. O gece Hayashi Bey ‘Başkana ben götüreceğim, yakmayı ben yapacağım’ dedi. Pencereden aldı."
+  },
+  {
+   "key": "case031.omura.order.question",
+   "value": "Yemeğin sırası neydi?"
+  },
+  {
+   "key": "case031.omura.title",
+   "value": "Ōmura Takeshi — görüşme"
+  },
+  {
+   "key": "case031.person.hayashi.info",
+   "value": "51 yaşında, Kisaragi Shōji’nin mali işler direktörü; başkanın damadı."
+  },
+  {
+   "key": "case031.person.hayashi.name",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.person.ikeda.info",
+   "value": "36 yaşında, başkanın özel sekreteri."
+  },
+  {
+   "key": "case031.person.ikeda.name",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.person.kazue.info",
+   "value": "69 yaşında, ryōteinin sahibi ve ev sahibesi (okami)."
+  },
+  {
+   "key": "case031.person.kazue.name",
+   "value": "Fujimoto Kazue"
+  },
+  {
+   "key": "case031.person.omura.info",
+   "value": "64 yaşında, ryōteinin lisanslı fugu ustası; kırk yıldır aynı mutfakta."
+  },
+  {
+   "key": "case031.person.omura.name",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.person.saito.info",
+   "value": "43 yaşında, Hayashi ailesinin şoförü."
+  },
+  {
+   "key": "case031.person.saito.name",
+   "value": "Saitō Gō"
+  },
+  {
+   "key": "case031.person.sayuri.info",
+   "value": "47 yaşında, başkanın tek kızı; Hayashi’nin eşi, şirketin yönetim kurulunda."
+  },
+  {
+   "key": "case031.person.sayuri.name",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.phone.body",
+   "value": "Hayashi Tōru’nun iş telefonunun incelemesi (arama izniyle):\n\n· 18 Nisan 22.58 (başkan hastaneye giderken) giden mesaj, şifreli uygulama: ‘Bitti. Satış pazartesi imzaya hazır.’\n· 15 Nisan, gelen e-posta, imza yok, alt satır yalnız iki harf: “Satış onaylanmazsa Paris bekliyor. — E.V.”\n· Aynı adresten Mart ayında üç e-posta: Maison Delorme, Paris — ‘katalog hazırlığı’."
+  },
+  {
+   "key": "case031.phone.title",
+   "value": "HAYASHİ’NİN TELEFONU"
+  },
+  {
+   "key": "case031.recon.r_cancel",
+   "value": "Sofrada başkan Paris satışını iptal ediyor ve pazartesi randevusunu söylüyor."
+  },
+  {
+   "key": "case031.recon.r_cup",
+   "value": "Zehir yalnız başkanın kadehinde; balık, sürahi ve atık kutusu temiz."
+  },
+  {
+   "key": "case031.recon.r_email",
+   "value": "15 Nisan: ‘Satış onaylanmazsa Paris bekliyor. — E.V.’"
+  },
+  {
+   "key": "case031.recon.r_msg",
+   "value": "Başkan hastaneye giderken Hayashi yazıyor: ‘Bitti.’ Ampulü arabanın kapı cebine bırakıyor."
+  },
+  {
+   "key": "case031.recon.r_note",
+   "value": "Başkan arabada defterine yazıyor: ‘Pazartesi bube’ye her şeyi vereceğim; satışı bu gece iptal ediyorum.’"
+  },
+  {
+   "key": "case031.recon.r_pour",
+   "value": "Hayashi hirezakeyi okamiden alıyor; koridorda durup ampulü kadehe kırıyor, alevi yakıyor."
+  },
+  {
+   "key": "case031.recon.r_vial",
+   "value": "17 Nisan: Hayashi ‘denetim örneği’ diye tetrodotoksin ampulünü imzalatıp şoförüne aldırıyor."
+  },
+  {
+   "key": "case031.report.body",
+   "value": "18 Nisan 2030 gecesi Tsukiji yakınındaki bir ryōteinin özel odasında Kisaragi Shōji’nin yönetim kurulu başkanı Kisaragi Genzō (77), fugu yemeğinin sonunda dili uyuşup konuşamaz hâle geldi; 22.40’ta bayıldı, hastaneye giderken öldü.\n\nSofrada: kızı Kisaragi Sayuri, damadı ve mali işler direktörü Hayashi Tōru, sekreteri Ikeda Mai. Yemeği ryōteinin fugu ustası Ōmura Takeshi hazırladı; sofrayı okami Fujimoto Kazue yönetti.\n\nİlk değerlendirme: fugu zehirlenmesi; ustanın lisansı askıya alındı."
+  },
+  {
+   "key": "case031.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case031.request.bin",
+   "value": "Mutfağın atık kutusunun açılmasını iste"
+  },
+  {
+   "key": "case031.request.cup",
+   "value": "Başkanın kadehini ve sürahiyi analize gönder"
+  },
+  {
+   "key": "case031.request.lab",
+   "value": "Laboratuvar envanterini ve arabanın aranmasını iste"
+  },
+  {
+   "key": "case031.request.notebook",
+   "value": "Başkanın defterini iste"
+  },
+  {
+   "key": "case031.request.phone",
+   "value": "Hayashi Tōru’nun telefonunun incelenmesini iste"
+  },
+  {
+   "key": "case031.saito.body",
+   "value": "Hayashi ailesinin şoförü."
+  },
+  {
+   "key": "case031.saito.deflect",
+   "value": "Ben yalnız arabayı sürerim."
+  },
+  {
+   "key": "case031.saito.door.answer",
+   "value": "Görmedim. Ama dönüşte, hastaneden sonra, kapı cebine bir şey koydu. Sabah temizlerken kırık bir cam parçası elime battı."
+  },
+  {
+   "key": "case031.saito.door.question",
+   "value": "Paketin içinden ne çıktı?"
+  },
+  {
+   "key": "case031.saito.errand.answer",
+   "value": "Sabah Hayashi Bey’i ofise bıraktım. Öğlen bir paket almaya gönderdi, şirketin Kawasaki’deki ilaç laboratuvarından. Küçük bir kutu. ‘Arabada kalsın, kimseye verme’ dedi. Akşam yemeğe giderken kutuyu açtı, içindekini cebine koydu."
+  },
+  {
+   "key": "case031.saito.errand.answer.demeanor",
+   "value": "Şapkasını dizinde tutuyor."
+  },
+  {
+   "key": "case031.saito.errand.question",
+   "value": "Dün gün içinde ne yaptınız?"
+  },
+  {
+   "key": "case031.saito.title",
+   "value": "Saitō Gō — görüşme"
+  },
+  {
+   "key": "case031.sayuri.body",
+   "value": "Başkanın kızı."
+  },
+  {
+   "key": "case031.sayuri.deflect",
+   "value": "Aile meselelerimizi konuşmam."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer",
+   "value": "Babam bir şey açıklayacaktı. Son aylarda değişmişti: Kamakura’daki kâse, pachinko faturaları, ofisteki o ölüm… ‘Benim adımla yapılan şeyleri bilmiyormuşum’ dedi. Yemekte ‘Paris satışı olmayacak’ dedi. Tōru bardağını bıraktı, hiçbir şey söylemedi."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer.demeanor",
+   "value": "İnci kolyesini parmaklarında çeviriyor."
+  },
+  {
+   "key": "case031.sayuri.dinner.question",
+   "value": "Akşam yemeği neden yapıldı?"
+  },
+  {
+   "key": "case031.sayuri.title",
+   "value": "Kisaragi Sayuri — görüşme"
+  },
+  {
+   "key": "case031.sayuri.toru.answer",
+   "value": "Yıllardır onun projesi. Şirketin sanat koleksiyonu ve ‘lojistik ağı’ bir Paris müzayede evine devredilecekti. Tōru ‘Babanın imzası yeter, gerisi formalite’ derdi."
+  },
+  {
+   "key": "case031.sayuri.toru.question",
+   "value": "Eşiniz Paris satışı için ne düşünüyordu?"
+  },
+  {
+   "key": "case031.summary.evidence",
+   "value": "Atık kutusu ve sürahi balığı temize çıkardı; zehir yalnız kadehteydi. Koridor kamerası duraksamayı, okami sunumu, şoför paketi, laboratuvar envanteri imzayı, araba ampulü, telefon ‘Bitti’ mesajını ve E.V.’yi verdi."
+  },
+  {
+   "key": "case031.summary.lesson",
+   "value": "Bir sofrada herkesin gözü ustanın bıçağındaydı. Zehir, en son ve en saygılı görünen elden geldi."
+  },
+  {
+   "key": "case031.summary.location",
+   "value": "Tsukiji — Nisan 2030"
+  },
+  {
+   "key": "case031.summary.truth",
+   "value": "Kisaragi Genzō, Arendt defterinin son alıcısı sanılan şirketin yalnız bir aracı olduğunu ve malların, kâselerin, havalelerin Paris’e aktığını anladı. 18 Nisan’da Paris satışını iptal etti ve pazartesi bube’ye her şeyi anlatacağını sofrada söyledi. ‘E.V.’ imzalı bir e-postayla uyarılan damadı Hayashi Tōru, bir gün önce şirketin laboratuvarından aldırdığı tetrodotoksin ampulünü hirezake kadehine kırdı, alevi kendisi yaktı ve kadehi kayınpederine kendi eliyle sundu."
+  },
+  {
+   "key": "case031.suspect.label",
+   "value": "Kisaragi Genzō’yu kim öldürdü?"
+  },
+  {
+   "key": "case031.tablet.caseLine",
+   "value": "DOSYA #031  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case031.time.cancel",
+   "value": "21.30"
+  },
+  {
+   "key": "case031.time.enter",
+   "value": "21.46"
+  },
+  {
+   "key": "case031.time.lab",
+   "value": "17 Nisan"
+  },
+  {
+   "key": "case031.time.msg",
+   "value": "22.58"
+  },
+  {
+   "key": "case031.time.numb",
+   "value": "22.05"
+  },
+  {
+   "key": "case031.time.pause",
+   "value": "21.45"
+  },
+  {
+   "key": "case031.time.take",
+   "value": "21.44"
+  },
+  {
+   "key": "case031.title",
+   "value": "Dosya #031 — Kisaragi"
+  },
+  {
+   "key": "case031.verdict.hayashi",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.verdict.ikeda",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.verdict.omura",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.verdict.sayuri",
+   "value": "Kisaragi Sayuri"
+  }
+ ]
+}

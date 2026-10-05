@@ -1,0 +1,553 @@
+{
+ "deskHour": 9,
+ "deskDate": "23 Mart 2030",
+ "titleKey": "case029.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case029.report.title",
+   "bodyKey": "case029.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case029.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case029.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case029.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case029.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case029.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case029.autopsy.title",
+   "bodyKey": "case029.autopsy.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "naoko",
+   "kind": "interview",
+   "titleKey": "case029.naoko.title",
+   "bodyKey": "case029.naoko.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "naoko",
+   "personNameKey": "case029.person.naoko.name",
+   "personInfoKey": "case029.person.naoko.info",
+   "questions": [
+    {
+     "id": "case029.naoko.watch",
+     "promptKey": "case029.naoko.watch.question",
+     "answerKey": "case029.naoko.watch.answer",
+     "topicKey": "interview.topic.home",
+     "answerVariants": [
+      {
+       "answerKey": "case029.naoko.watch.variant0",
+       "requiresRead": [
+        "dental"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case029.naoko.debt",
+     "promptKey": "case029.naoko.debt.question",
+     "answerKey": "case029.naoko.debt.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case029.naoko.watch"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case029.naoko.watch",
+    "case029.naoko.debt"
+   ],
+   "deflectAnswerKey": "case029.naoko.deflect",
+   "portrait": {
+    "hairHex": "#2A2220",
+    "skinHex": "#E6C8AC",
+    "shirtHex": "#A0B0C0",
+    "longHair": true
+   }
+  },
+  {
+   "id": "daisuke",
+   "kind": "interview",
+   "titleKey": "case029.daisuke.title",
+   "bodyKey": "case029.daisuke.body",
+   "requires": [
+    "naoko"
+   ],
+   "personId": "daisuke",
+   "personNameKey": "case029.person.daisuke.name",
+   "personInfoKey": "case029.person.daisuke.info",
+   "questions": [
+    {
+     "id": "case029.daisuke.night",
+     "promptKey": "case029.daisuke.night.question",
+     "answerKey": "case029.daisuke.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case029.daisuke.claim",
+     "promptKey": "case029.daisuke.claim.question",
+     "answerKey": "case029.daisuke.claim.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case029.daisuke.night"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case029.daisuke.night",
+    "case029.daisuke.claim"
+   ],
+   "deflectAnswerKey": "case029.daisuke.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#C8A27E",
+    "shirtHex": "#2A3A4A"
+   }
+  },
+  {
+   "id": "matsui",
+   "kind": "interview",
+   "titleKey": "case029.matsui.title",
+   "bodyKey": "case029.matsui.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "matsui",
+   "personNameKey": "case029.person.matsui.name",
+   "personInfoKey": "case029.person.matsui.info",
+   "questions": [
+    {
+     "id": "case029.matsui.records",
+     "promptKey": "case029.matsui.records.question",
+     "answerKey": "case029.matsui.records.answer",
+     "topicKey": "interview.topic.records"
+    }
+   ],
+   "completionQuestionIds": [
+    "case029.matsui.records"
+   ],
+   "deflectAnswerKey": "case029.matsui.deflect",
+   "portrait": {
+    "hairHex": "#3A3230",
+    "skinHex": "#E2C6AA",
+    "shirtHex": "#E8E8EC"
+   }
+  },
+  {
+   "id": "dental",
+   "kind": "document",
+   "titleKey": "case029.dental.title",
+   "bodyKey": "case029.dental.body",
+   "requires": [
+    "matsui",
+    "autopsy"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case029.request.dental",
+   "requestDelaySeconds": 5,
+   "requiresAsked": [
+    "case029.matsui.records"
+   ]
+  },
+  {
+   "id": "emiko",
+   "kind": "interview",
+   "titleKey": "case029.emiko.title",
+   "bodyKey": "case029.emiko.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "emiko",
+   "personNameKey": "case029.person.emiko.name",
+   "personInfoKey": "case029.person.emiko.info",
+   "questions": [
+    {
+     "id": "case029.emiko.service",
+     "promptKey": "case029.emiko.service.question",
+     "answerKey": "case029.emiko.service.answer",
+     "topicKey": "interview.topic.records",
+     "answerVariants": [
+      {
+       "answerKey": "case029.emiko.service.variant0",
+       "requiresRead": [
+        "dental"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case029.emiko.hamada",
+     "promptKey": "case029.emiko.hamada.question",
+     "answerKey": "case029.emiko.hamada.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case029.emiko.service"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case029.emiko.service",
+    "case029.emiko.hamada"
+   ],
+   "deflectAnswerKey": "case029.emiko.deflect",
+   "portrait": {
+    "hairHex": "#5A5048",
+    "skinHex": "#DEC0A4",
+    "shirtHex": "#3A2A3A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "ledger",
+   "kind": "document",
+   "titleKey": "case029.ledger.title",
+   "bodyKey": "case029.ledger.body",
+   "requires": [
+    "emiko"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case029.request.ledger",
+   "requestDelaySeconds": 4,
+   "requiresAsked": [
+    "case029.emiko.hamada"
+   ]
+  },
+  {
+   "id": "kazuki",
+   "kind": "interview",
+   "titleKey": "case029.kazuki.title",
+   "bodyKey": "case029.kazuki.body",
+   "requires": [
+    "ledger"
+   ],
+   "personId": "kazuki",
+   "personNameKey": "case029.person.kazuki.name",
+   "personInfoKey": "case029.person.kazuki.info",
+   "questions": [
+    {
+     "id": "case029.kazuki.why",
+     "promptKey": "case029.kazuki.why.question",
+     "answerKey": "case029.kazuki.why.answer",
+     "topicKey": "interview.topic.explanation"
+    },
+    {
+     "id": "case029.kazuki.watch",
+     "promptKey": "case029.kazuki.watch.question",
+     "answerKey": "case029.kazuki.watch.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case029.kazuki.why"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case029.kazuki.why",
+    "case029.kazuki.watch"
+   ],
+   "deflectAnswerKey": "case029.kazuki.deflect",
+   "portrait": {
+    "hairHex": "#2A2622",
+    "skinHex": "#DCBC9C",
+    "shirtHex": "#6A6A60"
+   }
+  },
+  {
+   "id": "station",
+   "kind": "cctv",
+   "titleKey": "case029.station.title",
+   "bodyKey": "case029.station.body",
+   "requires": [
+    "daisuke"
+   ],
+   "cctvSourceKey": "case029.cctv.source",
+   "cctvOverlayKey": "case029.cctv.overlay",
+   "cctvPeriodKey": "case029.cctv.period",
+   "cctvEvents": [
+    {
+     "id": "fill",
+     "textKey": "case029.cctv.event.fill",
+     "delayMs": 620,
+     "overlayTimeKey": "case029.time.fill"
+    },
+    {
+     "id": "boot",
+     "textKey": "case029.cctv.event.boot",
+     "delayMs": 620,
+     "overlayTimeKey": "case029.time.boot"
+    },
+    {
+     "id": "leave",
+     "textKey": "case029.cctv.event.leave",
+     "delayMs": 620,
+     "overlayTimeKey": "case029.time.leave"
+    }
+   ]
+  },
+  {
+   "id": "garage",
+   "kind": "document",
+   "titleKey": "case029.garage.title",
+   "bodyKey": "case029.garage.body",
+   "requires": [
+    "station",
+    "ledger"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case029.request.garage",
+   "requestDelaySeconds": 7
+  },
+  {
+   "id": "daisuke_2",
+   "kind": "interview",
+   "titleKey": "case029.daisuke_2.title",
+   "bodyKey": "case029.daisuke_2.body",
+   "requires": [
+    "daisuke",
+    "garage"
+   ],
+   "personId": "daisuke",
+   "personNameKey": "case029.person.daisuke.name",
+   "personInfoKey": "case029.person.daisuke.info",
+   "questions": [
+    {
+     "id": "case029.daisuke_2.who",
+     "promptKey": "case029.daisuke_2.who.question",
+     "answerKey": "case029.daisuke_2.who.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "garage"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "garage",
+       "answerKey": "case029.daisuke_2.who.presented.garage"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case029.daisuke_2.who"
+   ],
+   "deflectAnswerKey": "case029.daisuke.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#C8A27E",
+    "shirtHex": "#2A3A4A"
+   }
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "vanish",
+   "timeKey": "case029.time.vanish",
+   "noteKey": "case029.clue.vanish",
+   "sourceKey": "case029.clue.source.ledger",
+   "requiresRead": [
+    "ledger"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "pickup",
+   "timeKey": "case029.time.pickup",
+   "noteKey": "case029.clue.pickup",
+   "sourceKey": "case029.clue.source.emiko",
+   "requiresRead": [
+    "emiko"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "blow",
+   "timeKey": "case029.time.blow",
+   "noteKey": "case029.clue.blow",
+   "sourceKey": "case029.clue.source.autopsy",
+   "requiresRead": [
+    "autopsy"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "fill",
+   "timeKey": "case029.time.fill",
+   "noteKey": "case029.clue.fill",
+   "sourceKey": "case029.cctv.source",
+   "requiresRead": [
+    "station"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "leave",
+   "timeKey": "case029.time.leave",
+   "noteKey": "case029.clue.leave",
+   "sourceKey": "case029.cctv.source",
+   "requiresRead": [
+    "station"
+   ],
+   "sortMinute": 480
+  },
+  {
+   "id": "found",
+   "timeKey": "case029.time.found",
+   "noteKey": "case029.clue.found",
+   "sourceKey": "case029.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 600
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "daisuke",
+   "labelKey": "case029.verdict.daisuke",
+   "correct": true,
+   "feedbackKey": "case029.feedback.daisuke",
+   "requires": [],
+   "epilogueKey": "case029.epilogue.verdict.daisuke",
+   "supportingSourceIds": [
+    "garage",
+    "dental",
+    "station"
+   ]
+  },
+  {
+   "id": "naoko",
+   "labelKey": "case029.verdict.naoko",
+   "correct": false,
+   "feedbackKey": "case029.feedback.naoko",
+   "requires": [],
+   "epilogueKey": "case029.epilogue.verdict.naoko"
+  },
+  {
+   "id": "kazuki",
+   "labelKey": "case029.verdict.kazuki",
+   "correct": false,
+   "feedbackKey": "case029.feedback.kazuki",
+   "requires": [],
+   "epilogueKey": "case029.epilogue.verdict.kazuki"
+  },
+  {
+   "id": "emiko",
+   "labelKey": "case029.verdict.emiko",
+   "correct": false,
+   "feedbackKey": "case029.feedback.emiko",
+   "requires": [],
+   "epilogueKey": "case029.epilogue.verdict.emiko"
+  }
+ ],
+ "methods": [
+  {
+   "id": "hammer",
+   "labelKey": "case029.method.hammer",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "garage"
+   ]
+  },
+  {
+   "id": "fire",
+   "labelKey": "case029.method.fire",
+   "correct": false
+  },
+  {
+   "id": "crash",
+   "labelKey": "case029.method.crash",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "hamada",
+   "labelKey": "case029.custody.hamada",
+   "correct": true,
+   "epilogueKey": "case029.epilogue.custody.hamada",
+   "supportingSourceIds": [
+    "dental",
+    "garage"
+   ]
+  },
+  {
+   "id": "kazuki",
+   "labelKey": "case029.custody.kazuki",
+   "correct": false,
+   "epilogueKey": "case029.epilogue.custody.kazuki"
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case029.custody.unknown",
+   "correct": false,
+   "epilogueKey": "case029.epilogue.custody.unknown"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "dental",
+   "labelKey": "case029.evidence.dental",
+   "correct": true,
+   "supportingSourceIds": [
+    "dental"
+   ]
+  },
+  {
+   "id": "garage",
+   "labelKey": "case029.evidence.garage",
+   "correct": false
+  },
+  {
+   "id": "station",
+   "labelKey": "case029.evidence.station",
+   "correct": false
+  },
+  {
+   "id": "ledger",
+   "labelKey": "case029.evidence.ledger",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case029.suspect.label",
+ "methodLabelKey": "case029.method.label",
+ "custodyLabelKey": "case029.custody.label",
+ "summary": {
+  "locationKey": "case029.summary.location",
+  "truthKey": "case029.summary.truth",
+  "evidenceKey": "case029.summary.evidence",
+  "lessonKey": "case029.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case030",
+ "ambienceId": "room_night",
+ "id": "case029"
+}

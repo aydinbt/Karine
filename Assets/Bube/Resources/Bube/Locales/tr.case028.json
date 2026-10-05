@@ -1,0 +1,596 @@
+{
+ "entries": [
+  {
+   "key": "case028.autopsy.body",
+   "value": "· Ölüm şiddetli astım krizinden. Hava yollarında kriz bulgusu belirgin.\n· Kanında kurbanın kullandığı ilaçtan iz yok: krizin içinde inhaler hiç işe yaramamış.\n· Ölüm zamanı: 22.50–23.20.\n· Odanın havalandırması kapalı; sigara dumanı ve kuru buz sisi kalıntısı."
+  },
+  {
+   "key": "case028.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case028.backdoor.body",
+   "value": "Magazin fotoğrafçısı Gotō Ryū binanın karşısından arka servis kapısını çekiyormuş. Dosyaya verdiği üç kare:\n\n· 23.08 · Arka kapıdan çıkan takım elbiseli adam, sigara yakıyor; yüz kısmen görünür. Fotoğrafçının notu: ‘Kanda, yalnız, gergin’.\n· 23.11 · Aynı adam lobi kapısından geri giriyor.\n· 23.14 · Adam kolunu kaldırıp kol düğmesine bakıyor; bir kolunda düğme yok."
+  },
+  {
+   "key": "case028.backdoor.title",
+   "value": "FOTOĞRAFÇININ KARELERİ"
+  },
+  {
+   "key": "case028.cctv.event.in",
+   "value": "Kamera: Koyu takım elbiseli bir adam koridorun sonundaki odaya yürüyor, omzunun üstünden geriye bakıyor."
+  },
+  {
+   "key": "case028.cctv.event.out",
+   "value": "Kamera: Aynı adam asansöre değil, acil merdivene yürüyor; bir eli cebinde."
+  },
+  {
+   "key": "case028.cctv.event.shut",
+   "value": "Kamera: Koridor boş; son odanın kapısı kapalı, altından renkli ışık yanıp sönüyor."
+  },
+  {
+   "key": "case028.cctv.overlay",
+   "value": "6F-C"
+  },
+  {
+   "key": "case028.cctv.period",
+   "value": "3 Mart 2030"
+  },
+  {
+   "key": "case028.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case028.clue.fog",
+   "value": "606’da kuru buz açılıyor, havalandırma kapatılıyor."
+  },
+  {
+   "key": "case028.clue.in",
+   "value": "Takım elbiseli adam son odaya giriyor."
+  },
+  {
+   "key": "case028.clue.lobby",
+   "value": "Menajer acil merdivenden lobiye iniyor."
+  },
+  {
+   "key": "case028.clue.out",
+   "value": "Adam acil merdivene yürüyor."
+  },
+  {
+   "key": "case028.clue.remote",
+   "value": "601’e uzaktan ‘Kanda’ isteği, ardından bir yıl önceki kayıt."
+  },
+  {
+   "key": "case028.clue.solo",
+   "value": "Mio tek başına 606’da kalıyor."
+  },
+  {
+   "key": "case028.clue.source.miki",
+   "value": "Hayran kulübü yöneticisi"
+  },
+  {
+   "key": "case028.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case028.clue.source.syslog",
+   "value": "Sistem kaydı"
+  },
+  {
+   "key": "case028.corridor.body",
+   "value": "Koridoru gören tek kamera; odaların içini görmez. 3 Mart 22.30 – 23.45."
+  },
+  {
+   "key": "case028.corridor.title",
+   "value": "6. KAT KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case028.cuff.body",
+   "value": "Acil merdivenin 6. kat sahanlığında siyah oniks bir kol düğmesi. Düğmenin eşi Kanda Shūji’nin sol kolunda.\n\nSahanlıktaki çöpte boşaltılmış bir inhaler haznesi, düzeltici sıvı noktalı; üzerinde Kanda’nın parmak izi."
+  },
+  {
+   "key": "case028.cuff.title",
+   "value": "ACİL MERDİVEN ARAMASI"
+  },
+  {
+   "key": "case028.custody.label",
+   "value": "Menajerin alibisi neydi?"
+  },
+  {
+   "key": "case028.custody.live",
+   "value": "Gerçekten 601’de söylüyordu"
+  },
+  {
+   "key": "case028.custody.none",
+   "value": "Alibisi yoktu"
+  },
+  {
+   "key": "case028.custody.remote",
+   "value": "Uzaktan istek ve eski kayıt"
+  },
+  {
+   "key": "case028.epilogue.custody.live",
+   "value": "Menajerin ‘canlı’ şarkısı alibi sayıldı."
+  },
+  {
+   "key": "case028.epilogue.custody.none",
+   "value": "Menajerin alibisi hiç incelenmedi."
+  },
+  {
+   "key": "case028.epilogue.custody.remote",
+   "value": "Menajerin alibisinin uzaktan istek ve bir yıllık kayıttan kurulduğu yazıldı."
+  },
+  {
+   "key": "case028.epilogue.verdict.accident",
+   "value": "Ölüm talihsiz bir kriz olarak kapandı; ajans Paris sözleşmesini başka bir üyeyle imzaladı."
+  },
+  {
+   "key": "case028.epilogue.verdict.haru",
+   "value": "Inoue Haru suçlandı; menajerin uzaktan alibisi hiç sorgulanmadı."
+  },
+  {
+   "key": "case028.epilogue.verdict.kanda",
+   "value": "Kanda Shūji tutuklandı. Ajansın borcunu satın alan fonun Kisaragi Shōji’ye bağlı olduğu dosyaya not düşüldü; Paris sözleşmesi iptal edildi."
+  },
+  {
+   "key": "case028.epilogue.verdict.nana",
+   "value": "Kobayashi Nana gözaltına alındı; grup dağıldı."
+  },
+  {
+   "key": "case028.evidence.backdoor",
+   "value": "Fotoğrafçının kareleri"
+  },
+  {
+   "key": "case028.evidence.cuff",
+   "value": "Acil merdiven araması"
+  },
+  {
+   "key": "case028.evidence.inhalerlab",
+   "value": "İnhaler incelemesi"
+  },
+  {
+   "key": "case028.evidence.syslog",
+   "value": "Karaoke sistem kaydı"
+  },
+  {
+   "key": "case028.feedback.accident",
+   "value": "İnhalerde ilaç yoktu, havalandırma ve kuru buz oda içinden kapatıldı; biri krizi hazırladı."
+  },
+  {
+   "key": "case028.feedback.haru",
+   "value": "Şarkı yazarı koridorda tartıştı ama 23.00’ten önce dışarı çıktı; kriz havalandırma kapatıldıktan sonra geldi."
+  },
+  {
+   "key": "case028.feedback.kanda",
+   "value": "Sistem kaydı 601’deki ‘canlı’ şarkının uzaktan istek ve bir yıllık kayıt olduğunu, telefonunun 606’dan bağlandığını gösteriyor; koridor, merdiven, kol düğmesi ve boş hazneler onu odaya ve kriz anına koyuyor."
+  },
+  {
+   "key": "case028.feedback.nana",
+   "value": "Ev arkadaşı inhaleri biliyordu ama hazneleri ajans getiriyordu; 22.30’dan sonra 601’deydi."
+  },
+  {
+   "key": "case028.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case028.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case028.file.value.location",
+   "value": "Shinjuku, karaoke binası — 6. kat"
+  },
+  {
+   "key": "case028.file.value.number",
+   "value": "BDS-TYO-2030-0027"
+  },
+  {
+   "key": "case028.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case028.file.value.reporter",
+   "value": "Salon sorumlusu"
+  },
+  {
+   "key": "case028.goto.body",
+   "value": "Fotoğrafçı."
+  },
+  {
+   "key": "case028.goto.deflect",
+   "value": "Kaynaklarımı vermem."
+  },
+  {
+   "key": "case028.goto.title",
+   "value": "Gotō Ryū — görüşme"
+  },
+  {
+   "key": "case028.goto.why.answer",
+   "value": "Biri beni aradı: ‘Mio bu gece gruptan ayrılacak, binanın arka kapısını bekle.’ Kim aradı, bilmiyorum, numara gizliydi. Gelen haber bende kalmaz, satarım."
+  },
+  {
+   "key": "case028.goto.why.question",
+   "value": "O gece neden bekliyordunuz?"
+  },
+  {
+   "key": "case028.haru.body",
+   "value": "Şarkı yazarı."
+  },
+  {
+   "key": "case028.haru.deflect",
+   "value": "Eski şeyleri konuşmak istemiyorum."
+  },
+  {
+   "key": "case028.haru.fight.answer",
+   "value": "Koridorda, saat on bir civarı. Benim yazdığım şarkıyı o markanın reklamına vermek istiyorlarmış; Mio ‘ben de istemiyorum’ dedi. Sonra ben çıktım, sigara içmeye. Kapı kapandığında hâlâ konuşuyordu."
+  },
+  {
+   "key": "case028.haru.fight.answer.demeanor",
+   "value": "Gözlerini masadan kaldırmıyor."
+  },
+  {
+   "key": "case028.haru.fight.question",
+   "value": "Mio ile tartıştınız mı?"
+  },
+  {
+   "key": "case028.haru.title",
+   "value": "Inoue Haru — görüşme"
+  },
+  {
+   "key": "case028.inhalerlab.body",
+   "value": "Kurbanın elindeki inhalerin haznesi boş: yalnız itici gaz, ilaç yok. Hazne üzerinde küçük beyaz düzeltici sıvı noktası.\n\nAjansın ilaç dolabında, Kanda Shūji’nin masa çekmecesinde aynı noktalı üç boş hazne daha ve kurbanın reçeteli dolu iki haznesi."
+  },
+  {
+   "key": "case028.inhalerlab.title",
+   "value": "İNHALER İNCELEMESİ"
+  },
+  {
+   "key": "case028.kanda.body",
+   "value": "Menajer."
+  },
+  {
+   "key": "case028.kanda.deflect",
+   "value": "Sözleşmeler gizlidir."
+  },
+  {
+   "key": "case028.kanda.title",
+   "value": "Kanda Shūji — görüşme"
+  },
+  {
+   "key": "case028.kanda.where.answer",
+   "value": "Altıncı kattaki diğer odada, kızlarla birlikteydim. Reina için şarkı söyledim, kaydı bile var. Bakın, sistemden siz de görürsünüz: 22.58’de benim telefonumdan istek, 23.04’te benim sesim."
+  },
+  {
+   "key": "case028.kanda.where.answer.demeanor",
+   "value": "Telefonunu masaya ters bırakıyor."
+  },
+  {
+   "key": "case028.kanda.where.question",
+   "value": "22.30–23.30 arası neredeydiniz?"
+  },
+  {
+   "key": "case028.kanda.where.variant0",
+   "value": "Uzaktan istek mi? Uygulama öyle çalışır, odada da gönderilir. Ben oradaydım, kızlar söyler."
+  },
+  {
+   "key": "case028.kanda_2.606.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.cuff",
+   "value": "…Paris sözleşmesi şirketin son nefesiydi. Borcumuzu satın alan fon ‘Mio imzalamazsa her şey biter’ dedi. Konuşmaya girdim, kuru buzu açtım, havalandırmayı kapattım, inhaler cebimdeydi, dolusunu aldım. Kriz çabuk geldi. Kapıyı kapattım."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.inhalerlab",
+   "value": "Hazneleri ben alırım, sigorta öyle istiyor. Biri karıştırmış olabilir."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.syslog",
+   "value": "Eski kayıt mı… Kızların telefonunda o kaydı ben bulmuştum. ‘Birinin sesi lazım olursa’ diye. Ama ben ona dokunmadım."
+  },
+  {
+   "key": "case028.kanda_2.606.question",
+   "value": "22.52’de 606’ya girdiniz."
+  },
+  {
+   "key": "case028.kanda_2.body",
+   "value": "Kayıtlar üzerine."
+  },
+  {
+   "key": "case028.kanda_2.title",
+   "value": "Kanda Shūji — ikinci görüşme"
+  },
+  {
+   "key": "case028.method.asthma",
+   "value": "Kuru buz ve kapatılan havalandırmayla tetiklenen kriz; inhaler boş hazneyle değiştirilmiş"
+  },
+  {
+   "key": "case028.method.drug",
+   "value": "İçkisine bir şey katıldı"
+  },
+  {
+   "key": "case028.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case028.method.natural",
+   "value": "Kendiliğinden kriz"
+  },
+  {
+   "key": "case028.method.smother",
+   "value": "Boğuldu"
+  },
+  {
+   "key": "case028.miki.body",
+   "value": "Hayran kulübü yöneticisi."
+  },
+  {
+   "key": "case028.miki.deflect",
+   "value": "Kulüp meselesi."
+  },
+  {
+   "key": "case028.miki.lift.answer",
+   "value": "Lobide bekliyordum, Mio’ya hediye getirmiştim. 23.10 gibi Kanda Bey acil merdivenden lobiye indi, ceketini düzeltiyordu, beni görünce şaşırdı. ‘Asansör bozuk’ dedi. Asansör çalışıyordu."
+  },
+  {
+   "key": "case028.miki.lift.question",
+   "value": "Binada mıydınız?"
+  },
+  {
+   "key": "case028.miki.title",
+   "value": "Tsuda Miki — görüşme"
+  },
+  {
+   "key": "case028.nana.body",
+   "value": "Ev arkadaşı."
+  },
+  {
+   "key": "case028.nana.deflect",
+   "value": "Grubun işleri ajansa sorulur."
+  },
+  {
+   "key": "case028.nana.inhaler.answer",
+   "value": "Hep yanında taşırdı. Geçen hafta ‘yeni hazne’ geldi, ajans gönderdi; menajerimiz ilaçlarımızı kendisi alır, sigorta öyle istiyormuş."
+  },
+  {
+   "key": "case028.nana.inhaler.answer.demeanor",
+   "value": "Kucağındaki çantayı iki eliyle tutuyor."
+  },
+  {
+   "key": "case028.nana.inhaler.question",
+   "value": "Mio’nun astımı?"
+  },
+  {
+   "key": "case028.nana.paris.answer",
+   "value": "Paris’teki marka için sözleşme. Mio imzalamak istemiyordu, ‘gruptan ayrılıp yazmak istiyorum’ dedi. Menajerle o gün bağırıştılar."
+  },
+  {
+   "key": "case028.nana.paris.question",
+   "value": "Son günlerde bir şey değişmiş miydi?"
+  },
+  {
+   "key": "case028.nana.title",
+   "value": "Kobayashi Nana — görüşme"
+  },
+  {
+   "key": "case028.offer.subtitle",
+   "value": "KARAOKE  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case028.offer.summary",
+   "value": "Shinjuku’da bir idol, doğum günü partisinin ortasında yalnız kaldığı karaoke odasında ölü bulunuyor. İlk değerlendirme: astım."
+  },
+  {
+   "key": "case028.offer.title",
+   "value": "DOSYA #028"
+  },
+  {
+   "key": "case028.person.goto.info",
+   "value": "40 yaşında, magazin fotoğrafçısı; binanın karşısında bekliyordu."
+  },
+  {
+   "key": "case028.person.goto.name",
+   "value": "Gotō Ryū"
+  },
+  {
+   "key": "case028.person.haru.info",
+   "value": "27 yaşında, grubun şarkı yazarı; kurbanın eski sevgilisi."
+  },
+  {
+   "key": "case028.person.haru.name",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.person.kanda.info",
+   "value": "46 yaşında, grubun menajeri; ajansın sahibi."
+  },
+  {
+   "key": "case028.person.kanda.name",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.person.miki.info",
+   "value": "35 yaşında, hayran kulübü yöneticisi; kurbanın her konserinde ön sırada."
+  },
+  {
+   "key": "case028.person.miki.name",
+   "value": "Tsuda Miki"
+  },
+  {
+   "key": "case028.person.nana.info",
+   "value": "22 yaşında, grubun ikinci vokali; kurbanla aynı evde kalıyor."
+  },
+  {
+   "key": "case028.person.nana.name",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.person.reina.info",
+   "value": "20 yaşında, grubun en genç üyesi; o gece doğum günüydü."
+  },
+  {
+   "key": "case028.person.reina.name",
+   "value": "Mizuno Reina"
+  },
+  {
+   "key": "case028.person.yamato.info",
+   "value": "31 yaşında, karaoke salonunun gece sorumlusu."
+  },
+  {
+   "key": "case028.person.yamato.name",
+   "value": "Endō Yamato"
+  },
+  {
+   "key": "case028.reina.body",
+   "value": "Doğum günü kızı."
+  },
+  {
+   "key": "case028.reina.deflect",
+   "value": "Bunu menajerime sormalısınız."
+  },
+  {
+   "key": "case028.reina.party.answer",
+   "value": "Benim günümdü… Mio en çok güldüren oydu. Sonra ‘bir şarkı çalışacağım’ dedi. Sonra biz diğer odaya geçtik. Bu kadar."
+  },
+  {
+   "key": "case028.reina.party.question",
+   "value": "Parti nasıldı?"
+  },
+  {
+   "key": "case028.reina.title",
+   "value": "Mizuno Reina — görüşme"
+  },
+  {
+   "key": "case028.report.body",
+   "value": "3 Mart 2030 saat 23.40’ta Shinjuku’daki bir karaoke binasının 6. katındaki özel odada idol grubu üyesi Aikawa Mio (23) ölü bulundu. Grup Reina’nın doğum gününü kutluyordu; Mio 22.30’da ‘bir şarkı çalışacağım’ diyerek tek başına odada kaldı.\n\nİlk değerlendirme: astım krizi. İnhaler elinde.\n\nOdada bulunanlar ve o akşam binaya gelenler: Kobayashi Nana, Mizuno Reina, menajer Kanda Shūji, şarkı yazarı Inoue Haru, hayran kulübü yöneticisi Tsuda Miki; salon sorumlusu Endō Yamato."
+  },
+  {
+   "key": "case028.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case028.request.backdoor",
+   "value": "Karşıdaki fotoğrafçıdan kareleri iste"
+  },
+  {
+   "key": "case028.request.cuff",
+   "value": "Acil merdiveni ara"
+  },
+  {
+   "key": "case028.request.inhalerlab",
+   "value": "İnhaleri incelemeye gönder"
+  },
+  {
+   "key": "case028.request.syslog",
+   "value": "Sistemin istek ve kayıt dökümünü iste"
+  },
+  {
+   "key": "case028.summary.evidence",
+   "value": "Koridor kamerası girişini, sistem kaydı ‘canlı’ şarkının uzaktan ve bir yıllık olduğunu, inhaler incelemesi değiştirilen hazneyi, acil merdiven kol düğmesini ve son hazneyi verdi."
+  },
+  {
+   "key": "case028.summary.lesson",
+   "value": "Bir kayıt, kaydedildiği anın kanıtıdır; çalındığı anın değil."
+  },
+  {
+   "key": "case028.summary.location",
+   "value": "Shinjuku — Mart 2030"
+  },
+  {
+   "key": "case028.summary.truth",
+   "value": "Ajansın borcu Kisaragi Shōji’ye bağlı bir fona geçmişti ve fon, Aikawa Mio’nun Paris’teki bir moda markasıyla imzasını şart koşuyordu. Mio gruptan ayrılmak isteyince menajer Kanda Shūji 22.52’de onun yalnız kaldığı odaya girdi; kuru buzu açtı, havalandırmayı kapattı ve dolu inhaleri aldı, elinde ilacı olmayan hazne kaldı. Alibi için parti odasına telefonundan uzaktan şarkı istedi ve bir yıl önceki doğum günü kaydını çaldırdı."
+  },
+  {
+   "key": "case028.suspect.label",
+   "value": "Aikawa Mio’nun ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case028.syslog.body",
+   "value": "Parti odası (601):\n· 22.58 · istek — kaynak: UYGULAMA (uzaktan), hesap: Kanda Shūji\n· 23.04 · çalan: ‘mikrofon kaydı’ — dosya oluşturma tarihi: 3 Mart 2029, aynı odada, önceki yılın doğum günü\n\nSon oda (606):\n· 22.31 · istek, oda içi\n· 22.55 · kuru buz efekti ve havalandırma kapatma — oda içinden\n\nAynı saatlerde Kanda’nın telefonu binanın Wi-Fi’ına 606’nın erişim noktasından bağlı."
+  },
+  {
+   "key": "case028.syslog.title",
+   "value": "KARAOKE SİSTEM KAYDI — 6. KAT"
+  },
+  {
+   "key": "case028.tablet.caseLine",
+   "value": "DOSYA #028  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case028.time.fog",
+   "value": "22.55"
+  },
+  {
+   "key": "case028.time.in",
+   "value": "22.52"
+  },
+  {
+   "key": "case028.time.lobby",
+   "value": "23.10"
+  },
+  {
+   "key": "case028.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case028.time.remote",
+   "value": "22.58"
+  },
+  {
+   "key": "case028.time.shut",
+   "value": "22.53"
+  },
+  {
+   "key": "case028.time.solo",
+   "value": "22.30"
+  },
+  {
+   "key": "case028.title",
+   "value": "Dosya #028 — Karaoke"
+  },
+  {
+   "key": "case028.verdict.accident",
+   "value": "Kimse — kendiliğinden astım krizi"
+  },
+  {
+   "key": "case028.verdict.haru",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.verdict.kanda",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.verdict.nana",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.yamato.body",
+   "value": "Salon sorumlusu."
+  },
+  {
+   "key": "case028.yamato.deflect",
+   "value": "Müşteri bilgisi veremem."
+  },
+  {
+   "key": "case028.yamato.stairs.answer",
+   "value": "Acil merdiven kapısının alarmı 23.07’de bir kez çaldı. Sigara içenler hep açar, sustururum."
+  },
+  {
+   "key": "case028.yamato.stairs.question",
+   "value": "O saatte bir şey dikkatinizi çekti mi?"
+  },
+  {
+   "key": "case028.yamato.system.answer",
+   "value": "Her istek, istek kaynağı, oda içi mikrofon kaydı isterseniz. Uygulamadan istek gelebilir, binada olmak gerekmez, oda kodu yeter. Kayıtları verebilirim."
+  },
+  {
+   "key": "case028.yamato.system.question",
+   "value": "Odaların sistemi neleri kaydeder?"
+  },
+  {
+   "key": "case028.yamato.title",
+   "value": "Endō Yamato — görüşme"
+  }
+ ]
+}

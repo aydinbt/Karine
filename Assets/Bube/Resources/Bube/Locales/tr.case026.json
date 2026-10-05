@@ -1,0 +1,632 @@
+{
+ "entries": [
+  {
+   "key": "case026.aoi.body",
+   "value": "Çırak; cesedi bulan."
+  },
+  {
+   "key": "case026.aoi.bowl.answer",
+   "value": "Ustanın atölyede sakladığı eski bir kâse. Kimseye göstermezdi."
+  },
+  {
+   "key": "case026.aoi.bowl.question",
+   "value": "Kayıp kâse neydi?"
+  },
+  {
+   "key": "case026.aoi.deflect",
+   "value": "Ustamın işleri hakkında konuşamam."
+  },
+  {
+   "key": "case026.aoi.night.answer",
+   "value": "Erken yattım. Usta akşam ‘yorgunum’ dedi, odasına çekildi. Sabah çay için sergi odasına geçtim, onu öyle buldum. Dolap açıktı, kâse yoktu."
+  },
+  {
+   "key": "case026.aoi.night.answer.demeanor",
+   "value": "Ellerini dizlerine bastırıyor."
+  },
+  {
+   "key": "case026.aoi.night.question",
+   "value": "Gece ne oldu?"
+  },
+  {
+   "key": "case026.aoi.night.variant0",
+   "value": "Erken yattım… Kamerayı mı gördünüz? Bahçedeki yaban domuzu kamerasını. Onu ben kurmuştum. …Gece yarısından sonrasını anlatmayacağım."
+  },
+  {
+   "key": "case026.aoi.quote",
+   "value": "“Sabah çay için sergi odasına geçtim.”"
+  },
+  {
+   "key": "case026.aoi.title",
+   "value": "Hoshino Aoi — görüşme"
+  },
+  {
+   "key": "case026.aoi_2.body",
+   "value": "İz incelemesi üzerine."
+  },
+  {
+   "key": "case026.aoi_2.found.answer",
+   "value": "Anlatmayacağım dedim."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.drag",
+   "value": "Saat beşte uyandım, kulübenin ışığı yanıyordu. Kapıyı açtım, duman… Usta taburenin dibindeydi. Soğuktu. Fırının içinde yedi ‘eski’ kâse vardı. Kim bulsa ustamın kırk yılı bir gecede biterdi. Onu battaniyeye sardım, sergi odasına taşıdım, rafı devirdim. Başını rafın köşesine… ben vurdum. Öldükten sonra. Kâseyi ben sakladım."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.shed",
+   "value": "Defteri buldunuz. O zaman biliyorsunuz. Ben sadece onun adını korumak istedim. Sabah beşte kulübeyi açtım, o zaten ölüydü. Gerisi benim işim: taşıdım, sahneledim, kâseyi sakladım."
+  },
+  {
+   "key": "case026.aoi_2.found.question",
+   "value": "Kulübenin tek anahtarı sizde."
+  },
+  {
+   "key": "case026.aoi_2.title",
+   "value": "Hoshino Aoi — ikinci görüşme"
+  },
+  {
+   "key": "case026.aoi_2.why.answer",
+   "value": "Bana çömleği o öğretti. Sahteleri neden yaptığını hiç sormadım. Bir gece ‘Gerçeklerimi kimse kırk milyona almıyor,’ dedi. Bu kadar."
+  },
+  {
+   "key": "case026.aoi_2.why.question",
+   "value": "Neden?"
+  },
+  {
+   "key": "case026.autopsy.body",
+   "value": "· Başta, sağ şakakta 3 cm’lik yara. Yarada kanama yok denecek kadar az; yara **ölümden sonra** oluşmuş.\n· Ölü morluğu sırtta ve kalçalarda sabitlenmiş; ceset yüzüstü bulundu.\n· Morluğun rengi alışılmadık biçimde parlak, kiraz kırmızısı.\n· Ölüm zamanı: 01.00–03.00.\n· Ayaklarda tabi çorap; topuklarında kül ve toprak."
+  },
+  {
+   "key": "case026.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case026.cctv.event.back",
+   "value": "Kamera: Aynı figür kulübeye geri dönüyor; elinde bir kâse ve bir kova. Kulübenin kapısı açık kalıyor."
+  },
+  {
+   "key": "case026.cctv.event.drag",
+   "value": "Kamera: İnce yapılı bir figür kulübeden geri geri çıkıyor; battaniyeye sarılı ağır bir şeyi taş yol boyunca sürüklüyor."
+  },
+  {
+   "key": "case026.cctv.event.shed",
+   "value": "Kamera: Bir figür elinde fenerle evden fırın kulübesine yürüyor; kulübenin kapısını kapatıyor."
+  },
+  {
+   "key": "case026.cctv.overlay",
+   "value": "TRAIL"
+  },
+  {
+   "key": "case026.cctv.period",
+   "value": "21 Ocak 2030"
+  },
+  {
+   "key": "case026.cctv.source",
+   "value": "Bahçe kamerası"
+  },
+  {
+   "key": "case026.clue.cold",
+   "value": "Fırını kimse beslemiyor; sıcaklık düşmeye başlıyor."
+  },
+  {
+   "key": "case026.clue.drag",
+   "value": "İnce bir figür battaniyeye sarılı bir yükü kulübeden eve sürüklüyor."
+  },
+  {
+   "key": "case026.clue.fight",
+   "value": "Galerici ile usta, sahte kâse yüzünden tartışıyor."
+  },
+  {
+   "key": "case026.clue.fire",
+   "value": "Kulübedeki çatlak bacalı eski fırın ateşleniyor."
+  },
+  {
+   "key": "case026.clue.shed",
+   "value": "Fenerli bir figür kulübeye girip kapıyı kapatıyor."
+  },
+  {
+   "key": "case026.clue.smoke",
+   "value": "Komşu bacadan çöken dumanı görüyor."
+  },
+  {
+   "key": "case026.clue.source.emi",
+   "value": "Ustanın kızı"
+  },
+  {
+   "key": "case026.clue.source.kilnlog",
+   "value": "Fırın kaydedicisi"
+  },
+  {
+   "key": "case026.clue.source.okabe",
+   "value": "Komşu"
+  },
+  {
+   "key": "case026.co.body",
+   "value": "Ustanın kanında karboksihemoglobin oranı %58. Öldürücü düzey.\n\nKiraz kırmızısı morluk bununla uyumlu. Akciğerlerde is yok; yangın değil, kapalı alanda yanma gazı.\n\nKafadaki yara bu ölümden sonra."
+  },
+  {
+   "key": "case026.co.title",
+   "value": "KAN GAZI — KARBOKSİHEMOGLOBİN"
+  },
+  {
+   "key": "case026.custody.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.custody.fujita",
+   "value": "Fujita Masaru — galeri"
+  },
+  {
+   "key": "case026.custody.label",
+   "value": "Sahte antik kâseleri kim yapıyordu?"
+  },
+  {
+   "key": "case026.custody.seiji",
+   "value": "Nakamura Seiji’nin kendisi"
+  },
+  {
+   "key": "case026.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case026.drag.body",
+   "value": "Sergi odasındaki iki paralel gri çizgi: odun külü. Aynı kül ustanın tabi çoraplarının topuklarında, ikisinde de aynı yönde sürtünme.\n\nKül, fırın kulübesinin zeminindeki külle aynı. Kulübe kapısının içindeki battaniye liflerinde ustanın saçı.\n\nKulübenin asma kilidinin tek anahtarı çırak Hoshino Aoi’nin anahtarlığında."
+  },
+  {
+   "key": "case026.drag.title",
+   "value": "İZ İNCELEMESİ — TATAMİ ÇİZGİLERİ VE ÇORAP"
+  },
+  {
+   "key": "case026.emi.body",
+   "value": "Ustanın kızı."
+  },
+  {
+   "key": "case026.emi.deflect",
+   "value": "Babamın işlerini bilmem, yıllardır uzaktayım."
+  },
+  {
+   "key": "case026.emi.title",
+   "value": "Nakamura Emi — görüşme"
+  },
+  {
+   "key": "case026.emi.weekend.answer",
+   "value": "Gergin. Pazar akşamı galerici Fujita geldi, bağırdılar. Babam ‘O kâse benim değil, bende hiç öyle bir kâse yok!’ dedi. Ben de trene binip Yokohama’ya döndüm. Saat dokuzdu."
+  },
+  {
+   "key": "case026.emi.weekend.answer.demeanor",
+   "value": "Sesi düz, bakışı sabit."
+  },
+  {
+   "key": "case026.emi.weekend.question",
+   "value": "Babanızla hafta sonu nasıl geçti?"
+  },
+  {
+   "key": "case026.emi.will.answer",
+   "value": "Bir ev, bir fırın ve borç. Babam son iki yılda çok para kazandığını söylüyordu ama hesabında para yok. Nereye gittiğini bilmiyorum."
+  },
+  {
+   "key": "case026.emi.will.question",
+   "value": "Mirasçı sizsiniz."
+  },
+  {
+   "key": "case026.epilogue.custody.aoi",
+   "value": "Sahte kâselerin çırağın elinden çıktığı düşünüldü; ustanın defteri dikkate alınmadı."
+  },
+  {
+   "key": "case026.epilogue.custody.fujita",
+   "value": "Galerici sahtekâr ilan edildi; asıl atölye kapandı, kulübe hiç aranmadı."
+  },
+  {
+   "key": "case026.epilogue.custody.seiji",
+   "value": "Sahtekârlığın ustanın kendi işi olduğu yazıldı; çırak ve galerici ayrı ayrı değerlendirildi."
+  },
+  {
+   "key": "case026.epilogue.custody.unknown",
+   "value": "Kâselerin kaynağı açık kaldı."
+  },
+  {
+   "key": "case026.epilogue.verdict.aoi",
+   "value": "Hoshino Aoi cinayetten yargılandı. Sahte kâseler ‘çırağın işi’ sayıldı; ustanın adı temiz kaldı."
+  },
+  {
+   "key": "case026.epilogue.verdict.fujita",
+   "value": "Fujita Masaru tutuklandı; galerisindeki ‘aile mirası’ satışları onun sahteciliği diye kapandı."
+  },
+  {
+   "key": "case026.epilogue.verdict.kuroda",
+   "value": "Kuroda Isao gözaltına alındı, delil yetersizliğinden bırakıldı; dosya açık kaldı."
+  },
+  {
+   "key": "case026.epilogue.verdict.nobody",
+   "value": "Ölüm kaza olarak kaydedildi. Hoshino Aoi cesedi taşıma ve delil karartmadan ceza aldı, ertelendi. Fujita galerisinin sattığı yedi ‘aile mirası’ geri çağrıldı; Kuroda’nın kâsesi Kisaragi koleksiyonundan çıkarıldı."
+  },
+  {
+   "key": "case026.evidence.co",
+   "value": "Kan gazı — karboksihemoglobin"
+  },
+  {
+   "key": "case026.evidence.drag",
+   "value": "Tatami ve çorap iz incelemesi"
+  },
+  {
+   "key": "case026.evidence.kilnlog",
+   "value": "Fırın sıcaklık kaydı"
+  },
+  {
+   "key": "case026.evidence.xrf",
+   "value": "Sır analizi"
+  },
+  {
+   "key": "case026.feedback.aoi",
+   "value": "Çırak cesedi taşıdı ve sahneyi kurdu; ama usta kulübede, onun gelmesinden saatler önce gazdan öldü."
+  },
+  {
+   "key": "case026.feedback.fujita",
+   "value": "Galerici pazar akşamı tartıştı ve gitti; ölüm gece kulübede, kapalı bir fırının gazından oldu."
+  },
+  {
+   "key": "case026.feedback.kuroda",
+   "value": "Koleksiyoncu dava açacaktı; ustanın ölmesi parasını geri almasını zorlaştırıyordu ve o gece atölyede değildi."
+  },
+  {
+   "key": "case026.feedback.nobody",
+   "value": "Kan gazı öldürücü karbonmonoksit, kafa yarası ölüm sonrası; morluk cesedin sırtüstü öldüğünü, kül izleri kulübeden sürüklendiğini gösteriyor. Fırın çatlak bacayla gece yakıldı."
+  },
+  {
+   "key": "case026.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case026.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case026.file.value.location",
+   "value": "Kamakura, atölye evi — sergi odası"
+  },
+  {
+   "key": "case026.file.value.number",
+   "value": "BDS-TYO-2030-0011"
+  },
+  {
+   "key": "case026.file.value.offence",
+   "value": "Şüpheli ölüm; hırsızlık"
+  },
+  {
+   "key": "case026.file.value.reporter",
+   "value": "Çırak"
+  },
+  {
+   "key": "case026.fujita.body",
+   "value": "Galerici."
+  },
+  {
+   "key": "case026.fujita.count.answer",
+   "value": "Son iki yılda yedi. Hepsi Seiji’den, hepsi ‘aile mirası’. Hepsine Shimizu Hanım sertifika yazdı."
+  },
+  {
+   "key": "case026.fujita.count.question",
+   "value": "Kaç ‘eski’ kâse sattınız?"
+  },
+  {
+   "key": "case026.fujita.deflect",
+   "value": "Ticari ilişkilerimiz gizlidir."
+  },
+  {
+   "key": "case026.fujita.fight.answer",
+   "value": "Kuroda Bey’in geçen yıl benden aldığı on altıncı yüzyıl kâsesinden bir parça kırıldı, altında yeni çamur çıkmış. Sahte diyor, dava açacak. Seiji bana o kâseyi ‘bir tapınaktan gelen aile mirası’ diye vermişti. Sordum, inkâr etti."
+  },
+  {
+   "key": "case026.fujita.fight.answer.demeanor",
+   "value": "Gözlüğünü durmadan siliyor."
+  },
+  {
+   "key": "case026.fujita.fight.question",
+   "value": "Pazar akşamı neden tartıştınız?"
+  },
+  {
+   "key": "case026.fujita.fight.variant0",
+   "value": "Sırrın analizini gördünüz demek. Modern kobalt. Seiji bana o kâseyi ‘tapınak mirası’ diye verdi. Benden önce iki eksper bakmıştı. Ben satıcıyım, kimyager değilim."
+  },
+  {
+   "key": "case026.fujita.title",
+   "value": "Fujita Masaru — görüşme"
+  },
+  {
+   "key": "case026.kilnlog.body",
+   "value": "Kulübedeki eski odun-gaz fırınına sigorta şirketi için takılmış sıcaklık kaydedicisi.\n\n· 20 Ocak 23.10 · ateşleme\n· 00.30–02.40 · 900–1.050 °C\n· 02.40 · kaydedicinin son okuması; sonra sürekli düşüş, kimse beslememiş\n· 05.30 · kapak açılmış (ani düşüş)\n\nNot: Fırının bacasında, Kasım’daki bakım raporuna göre ‘çatlak; kullanılmamalı’."
+  },
+  {
+   "key": "case026.kilnlog.title",
+   "value": "FIRIN SICAKLIK KAYDEDİCİSİ"
+  },
+  {
+   "key": "case026.kuroda.body",
+   "value": "Koleksiyoncu."
+  },
+  {
+   "key": "case026.kuroda.bowl.answer",
+   "value": "Kisaragi Genzō Bey’in koleksiyonu için. Şirket hesabından ödendi: kırk milyon yen. Bir sahte için. Pazartesi avukatlarım dava açacaktı. Seiji’nin ölmesi bana bir şey kazandırmaz; parayı kimden alacağım şimdi?"
+  },
+  {
+   "key": "case026.kuroda.bowl.answer.demeanor",
+   "value": "Masaya parmaklarıyla vuruyor."
+  },
+  {
+   "key": "case026.kuroda.bowl.question",
+   "value": "Kâseyi kimin için aldınız?"
+  },
+  {
+   "key": "case026.kuroda.deflect",
+   "value": "Koleksiyonum benim özel işimdir."
+  },
+  {
+   "key": "case026.kuroda.title",
+   "value": "Kuroda Isao — görüşme"
+  },
+  {
+   "key": "case026.method.blow",
+   "value": "Başına vuruldu"
+  },
+  {
+   "key": "case026.method.co",
+   "value": "Kulübedeki çatlak bacalı fırının karbonmonoksitinden zehirlendi"
+  },
+  {
+   "key": "case026.method.fall",
+   "value": "Raftan düşüp başını çarptı"
+  },
+  {
+   "key": "case026.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case026.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case026.offer.subtitle",
+   "value": "KİNTSUGİ  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case026.offer.summary",
+   "value": "Kamakura’da ünlü bir çömlekçi sergi odasında ölü bulunuyor. Devrilmiş raf, açık dolap, kayıp bir kâse: devriye hırsızlık diyor."
+  },
+  {
+   "key": "case026.offer.title",
+   "value": "DOSYA #026"
+  },
+  {
+   "key": "case026.okabe.body",
+   "value": "Alt yamaçtaki komşu."
+  },
+  {
+   "key": "case026.okabe.deflect",
+   "value": "Ben bahçemden başka bir şeye karışmam."
+  },
+  {
+   "key": "case026.okabe.smoke.answer",
+   "value": "Gece birde tuvalete kalktım, yukarıdaki fırın kulübesinin bacası tütüyordu. Seiji gece de çalışır bazen. Rüzgâr yoktu, duman çöktü, bahçeme kadar kokusu geldi."
+  },
+  {
+   "key": "case026.okabe.smoke.question",
+   "value": "Gece bir şey gördünüz mü?"
+  },
+  {
+   "key": "case026.okabe.smoke.variant0",
+   "value": "Duman gece birdeydi, evet. Ama o fırın… Seiji bana geçen ay ‘büyük fırını kapattım, artık yalnız elektrikli fırın’ demişti. Demek kulübedeki küçük, eski fırını yakıyormuş. Onun bacası bozuktu, hep söylerdim."
+  },
+  {
+   "key": "case026.okabe.title",
+   "value": "Okabe Tetsu — görüşme"
+  },
+  {
+   "key": "case026.path.body",
+   "value": "Fırın kulübesiyle ev arasındaki taş yolu gören kızılötesi kamera; harekete göre kare alır. 21 Ocak 00.00 – 06.00."
+  },
+  {
+   "key": "case026.path.title",
+   "value": "BAHÇE YABAN HAYATI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case026.person.aoi.info",
+   "value": "24 yaşında, usta çömlekçi Nakamura Seiji’nin dört yıllık çırağı; atölyenin arkasındaki odada kalıyor."
+  },
+  {
+   "key": "case026.person.aoi.name",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.person.emi.info",
+   "value": "41 yaşında, ustanın kızı; Yokohama’da yaşıyor, hafta sonu babasındaydı."
+  },
+  {
+   "key": "case026.person.emi.name",
+   "value": "Nakamura Emi"
+  },
+  {
+   "key": "case026.person.fujita.info",
+   "value": "59 yaşında, Ginza’daki bir seramik galerisinin sahibi; ustanın eserlerini otuz yıldır satıyor."
+  },
+  {
+   "key": "case026.person.fujita.name",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.person.kuroda.info",
+   "value": "63 yaşında, koleksiyoncu; Kisaragi Shōji başkanının koleksiyon danışmanı."
+  },
+  {
+   "key": "case026.person.kuroda.name",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.person.okabe.info",
+   "value": "70 yaşında, atölyenin alt yamacındaki komşu; mandalina bahçesi var."
+  },
+  {
+   "key": "case026.person.okabe.name",
+   "value": "Okabe Tetsu"
+  },
+  {
+   "key": "case026.person.shimizu.info",
+   "value": "47 yaşında, bağımsız seramik eksperi; ‘16. yüzyıl’ kâseye sertifika yazmış."
+  },
+  {
+   "key": "case026.person.shimizu.name",
+   "value": "Shimizu Rie"
+  },
+  {
+   "key": "case026.report.body",
+   "value": "21 Ocak 2030 saat 06.40’ta Kamakura tepelerindeki atölye evinin sergi odasında usta çömlekçi Nakamura Seiji (68) yüzüstü, ölü bulundu. Çırağı Hoshino Aoi buldu ve aradı.\n\nBir sergi rafı devrilmiş, başında bir yara var. Raftaki camlı dolap açık; çırağın ifadesine göre ustanın ‘en değerli kâsesi’ yerinde değil. Devriye notu: “Gece hırsız girmiş, yaşlı adam uyanınca vurulmuş ya da düşmüş.”"
+  },
+  {
+   "key": "case026.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case026.request.co",
+   "value": "Kan gazı analizini iste"
+  },
+  {
+   "key": "case026.request.drag",
+   "value": "Tatamideki izlerin incelenmesini iste"
+  },
+  {
+   "key": "case026.request.kilnlog",
+   "value": "Fırın kulübesinin sıcaklık kaydını iste"
+  },
+  {
+   "key": "case026.request.shed",
+   "value": "Fırın kulübesinin aranmasını iste"
+  },
+  {
+   "key": "case026.request.xrf",
+   "value": "Kâsenin sır analizini iste"
+  },
+  {
+   "key": "case026.scene.body",
+   "value": "· Devrilmiş rafın köşesinde kıl ve deri var, kan yok.\n· Camlı dolabın kilidi anahtarla açılmış; zorlama yok. Anahtar ustanın ve çırağın üzerinde.\n· Sergi odasının tatamisinde, kapıdan cesede doğru iki paralel, silik gri çizgi.\n· Ev kapıları içeriden kilitli; bahçe kapısı açık."
+  },
+  {
+   "key": "case026.scene.title",
+   "value": "OLAY YERİ İNCELEMESİ — SERGİ ODASI"
+  },
+  {
+   "key": "case026.shed.body",
+   "value": "· Fırının içinde yarım pişmiş yedi çay kâsesi; yanlarında çay yaprağı ve seyreltik asitle dolu ‘yaşlandırma’ kavanozları, kül çukurunda gömülü dört kâse daha.\n· Raf altında bir zarf: Fujita galerisinin ödeme makbuzları, 2028–2029; ‘aile mirası’ notuyla.\n· Bir çalışma defteri, Nakamura Seiji’nin el yazısıyla: “Sırrı modern kobaltla değil, eski demirle yap — Shimizu fark etti.”\n· Kapının iç tarafında, yerde, devrilmiş bir tabure ve sönmüş bir fener.\n· Kapının asma kilidi açık; tek anahtarı Hoshino Aoi’de."
+  },
+  {
+   "key": "case026.shed.title",
+   "value": "FIRIN KULÜBESİ ARAMASI"
+  },
+  {
+   "key": "case026.shimizu.body",
+   "value": "Eksper."
+  },
+  {
+   "key": "case026.shimizu.cert.answer",
+   "value": "Mesleki görüşüm yazılıdır."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.shed",
+   "value": "Defterde adım geçiyor demek. ‘Shimizu fark etti.’ Evet, fark ettim. Söyledim. Sonra sustum, çünkü o kâseleri ben onaylamıştım; açılırsa ilk ben batarım."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.xrf",
+   "value": "Kobalt… Ben ona bakarken sırrı kazımadım. Kimse kazımaz; yüz yıllık bir kâseyi kazımazsınız. Eski görünüyordu. Ama şunu söyleyeyim: üçüncü kâsede içime bir şey düştü. Seiji’ye söyledim. Sonra ücretimi iki katına çıkardı."
+  },
+  {
+   "key": "case026.shimizu.cert.question",
+   "value": "Bu kâseye sertifika yazdınız."
+  },
+  {
+   "key": "case026.shimizu.deflect",
+   "value": "Mesleki görüşlerim yazılıdır."
+  },
+  {
+   "key": "case026.shimizu.title",
+   "value": "Shimizu Rie — görüşme"
+  },
+  {
+   "key": "case026.summary.evidence",
+   "value": "Otopsi kanamasız, ölüm sonrası bir yarayı ve sırtta sabitlenmiş, kiraz kırmızısı morluğu gösterdi; kan gazı öldürücü karbonmonoksiti doğruladı. Tatamideki kül çizgileri ve çorap topukları sürüklemeyi, yaban hayatı kamerası kulübeden eve taşınan yükü, fırın kaydı gece yakılan ve 02.40’ta sahipsiz kalan ateşi gösterdi. Kulübe araması sahteciliği ustaya bağladı."
+  },
+  {
+   "key": "case026.summary.lesson",
+   "value": "Bir sahne her zaman bir suçu örtmez; bazen bir sırrı örter. Önce ölümün nerede olduğunu bul, sonra sahnenin neyi sakladığını."
+  },
+  {
+   "key": "case026.summary.location",
+   "value": "Kamakura tepeleri — Ocak 2030"
+  },
+  {
+   "key": "case026.summary.truth",
+   "value": "Usta çömlekçi Nakamura Seiji iki yıldır kendi yaptığı kâseleri yaşlandırıp ‘tapınak mirası’ diye galerici Fujita’ya satıyordu; biri Kisaragi koleksiyonuna kırk milyon yene gitti. Alıcının sahte iddiası üzerine gece, çatlak bacalı eski fırınında yeni partiyi ‘eski demir’ sırla yeniden pişirmeye girdi ve kapısı kapalı kulübede karbonmonoksitten öldü. Sabah beşte onu bulan çırağı Hoshino Aoi, ustanın adını korumak için cesedi sergi odasına sürükledi, rafı devirdi, başını rafa vurdu ve hırsızlık sahneledi."
+  },
+  {
+   "key": "case026.suspect.label",
+   "value": "Nakamura Seiji’nin ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case026.tablet.caseLine",
+   "value": "DOSYA #026  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case026.time.back",
+   "value": "05.21"
+  },
+  {
+   "key": "case026.time.cold",
+   "value": "02.40"
+  },
+  {
+   "key": "case026.time.drag",
+   "value": "05.06"
+  },
+  {
+   "key": "case026.time.fight",
+   "value": "Pazar 20.30"
+  },
+  {
+   "key": "case026.time.fire",
+   "value": "23.10"
+  },
+  {
+   "key": "case026.time.shed",
+   "value": "00.48"
+  },
+  {
+   "key": "case026.time.smoke",
+   "value": "01.00"
+  },
+  {
+   "key": "case026.title",
+   "value": "Dosya #026 — Kintsugi"
+  },
+  {
+   "key": "case026.verdict.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.verdict.fujita",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.verdict.kuroda",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.verdict.nobody",
+   "value": "Kimse — kulübede karbonmonoksitten öldü; ceset sonradan taşındı"
+  },
+  {
+   "key": "case026.xrf.body",
+   "value": "Kırık parçanın sırrında modern sentetik kobalt ve 1950 sonrası bir kurşunsuz eritken. On altıncı yüzyıl değil.\n\nÇamurun bileşimi Kamakura atölyesinin çamur deposuyla aynı.\n\nSertifikayı yazan eksper: Shimizu Rie."
+  },
+  {
+   "key": "case026.xrf.title",
+   "value": "SIR ANALİZİ — KURODA’NIN KÂSESİ"
+  }
+ ]
+}

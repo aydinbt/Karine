@@ -1,0 +1,480 @@
+{
+ "entries": [
+  {
+   "key": "case030.autopsy.body",
+   "value": "· Başın sol üst kısmında yuvarlak, ağır bir cisimle tek darbe; yarada kırmızı boya pulları.\n· Merdiven düşüşüne özgü çok noktalı sıyrık yok; kemiklerde düşme kırığı yok.\n· Ölüm zamanı: 09.55–10.15."
+  },
+  {
+   "key": "case030.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case030.cctv.event.door",
+   "value": "Kamera: Lobi boş; merdiven kapısı yavaşça kapanıyor."
+  },
+  {
+   "key": "case030.cctv.event.out",
+   "value": "Kamera: Aynı adam merdivenden geri çıkıyor; panosu elinde değil, fotokopi odasına hızla yürüyor."
+  },
+  {
+   "key": "case030.cctv.event.wait",
+   "value": "Kamera: Kolunda bant olan bir adam boş lobide tek başına duruyor, elinde yoklama panosu, merdiven kapısına bakıyor."
+  },
+  {
+   "key": "case030.cctv.overlay",
+   "value": "9F-L"
+  },
+  {
+   "key": "case030.cctv.period",
+   "value": "1 Nisan 2030"
+  },
+  {
+   "key": "case030.cctv.source",
+   "value": "Lobi kamerası"
+  },
+  {
+   "key": "case030.clue.alarm",
+   "value": "Tatbikat alarmı; muhasebe katı merdivene yöneliyor."
+  },
+  {
+   "key": "case030.clue.found",
+   "value": "Güvenlik görevlisi cesedi sahanlıkta buluyor."
+  },
+  {
+   "key": "case030.clue.out",
+   "value": "Adam merdivenden panosuz dönüp fotokopi odasına gidiyor."
+  },
+  {
+   "key": "case030.clue.roll",
+   "value": "Meydanda yoklama ‘tam’; kurbanın adı mavi kalemle tikli."
+  },
+  {
+   "key": "case030.clue.scan",
+   "value": "Tahliye sorumlusunun QR okutması 9. kattan."
+  },
+  {
+   "key": "case030.clue.source.ono",
+   "value": "Güvenlik"
+  },
+  {
+   "key": "case030.clue.source.qr",
+   "value": "Uygulama kaydı"
+  },
+  {
+   "key": "case030.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case030.clue.source.sheet",
+   "value": "Yoklama kâğıdı"
+  },
+  {
+   "key": "case030.clue.wait",
+   "value": "Bantlı adam boş lobide merdiven kapısına bakıyor."
+  },
+  {
+   "key": "case030.copy.body",
+   "value": "9. kat fotokopi odası:\n\n· Asma tavan plakalarından biri yerinden oynamış. İçinde kırmızı yangın söndürücü; tabanında ezik, ezikte kıl ve kurumuş kan. Kat planına göre doğu merdiven kapısının yanındaki söndürücü yerinde yok.\n· Söndürücünün sapında ve tavan plakasının çerçevesinde Nishida Kōhei’nin parmak izleri.\n· Plakanın üstünde bir yoklama panosu."
+  },
+  {
+   "key": "case030.copy.title",
+   "value": "FOTOKOPİ ODASI ARAMASI"
+  },
+  {
+   "key": "case030.custody.forged",
+   "value": "Sorumlu kurbanın yerine kendisi tikledi"
+  },
+  {
+   "key": "case030.custody.genuine",
+   "value": "Kurban meydandaydı, sonra döndü"
+  },
+  {
+   "key": "case030.custody.label",
+   "value": "Tatbikat yoklaması neyi gösteriyor?"
+  },
+  {
+   "key": "case030.custody.mistake",
+   "value": "Kalabalıkta yanlış tiklendi"
+  },
+  {
+   "key": "case030.epilogue.custody.forged",
+   "value": "Yoklamanın tahliye sorumlusu tarafından sahte tamamlandığı yazıldı."
+  },
+  {
+   "key": "case030.epilogue.custody.genuine",
+   "value": "Kurbanın meydanda olduğu kabul edildi; ölüm saati tatbikat sonrasına kaydı."
+  },
+  {
+   "key": "case030.epilogue.custody.mistake",
+   "value": "Yoklama hatası iyi niyetli sayıldı."
+  },
+  {
+   "key": "case030.epilogue.verdict.fall",
+   "value": "Ölüm tatbikat kazası olarak kapandı; binada tırabzanlar yenilendi."
+  },
+  {
+   "key": "case030.epilogue.verdict.hirano",
+   "value": "Hirano Saki suçlandı; yoklama kâğıdı kimse tarafından sorgulanmadı."
+  },
+  {
+   "key": "case030.epilogue.verdict.nishida",
+   "value": "Nishida Kōhei tutuklandı. Maison Delorme havaleleri iç denetime, oradan Paris’teki bube şubesine gönderildi."
+  },
+  {
+   "key": "case030.evidence.copy",
+   "value": "Fotokopi odası araması"
+  },
+  {
+   "key": "case030.evidence.file",
+   "value": "Kurbanın dosyası"
+  },
+  {
+   "key": "case030.evidence.qr",
+   "value": "Tahliye uygulaması kaydı"
+  },
+  {
+   "key": "case030.evidence.sheet",
+   "value": "Yoklama kâğıdı"
+  },
+  {
+   "key": "case030.feedback.fall",
+   "value": "Otopsi düşme kırığı değil, kırmızı boya pullu tek darbe gösteriyor."
+  },
+  {
+   "key": "case030.feedback.hirano",
+   "value": "Masa arkadaşı tartıştı ama 10.07’de meydanda okuttu; söndürücüde izi yok."
+  },
+  {
+   "key": "case030.feedback.nishida",
+   "value": "Uygulama kaydı onu 10.09’da hâlâ 9. katta, kamera merdivenden panosuz dönerken gösteriyor; söndürücü ve tavan plakasında izleri, yoklamadaki tek mavi tik onun kaleminden."
+  },
+  {
+   "key": "case030.file.body",
+   "value": "Kurbanın kilitli çekmecesinde: ‘Danışmanlık’ başlıklı 14 havale, alıcı Paris’teki Maison Delorme müzayede evi, toplam 380 milyon yen. Her havale formunda onay imzası: Nishida Kōhei.\n\nSon formda imzanın yanında el yazısıyla: ‘E.V. onaylı.’\n\nKurbanın yapışkan notu: “İç denetime pazartesi. Nishida’ya sormadan.”"
+  },
+  {
+   "key": "case030.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case030.file.title",
+   "value": "AOKİ’NİN MASASINDAKİ DOSYA"
+  },
+  {
+   "key": "case030.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case030.file.value.location",
+   "value": "Nihonbashi, ofis kulesi — doğu merdiven"
+  },
+  {
+   "key": "case030.file.value.number",
+   "value": "BDS-TYO-2030-0041"
+  },
+  {
+   "key": "case030.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case030.file.value.reporter",
+   "value": "Bina güvenliği"
+  },
+  {
+   "key": "case030.hirano.body",
+   "value": "Masa arkadaşı."
+  },
+  {
+   "key": "case030.hirano.deflect",
+   "value": "Bunu şefime sorun."
+  },
+  {
+   "key": "case030.hirano.drill.answer",
+   "value": "Alarm çaldığında masasında, dosyalarına gömülüydü. ‘Geliyorum’ dedi. Merdivende görmedim, meydanda da… dikkat etmedim. Kâğıtta adı var dediler."
+  },
+  {
+   "key": "case030.hirano.drill.question",
+   "value": "Tatbikatta Rin’i gördünüz mü?"
+  },
+  {
+   "key": "case030.hirano.rin.answer",
+   "value": "Dün bağırıştık, herkes duydu. Benim hazırladığım havale listesini ‘eksik’ diye şefe geri gönderdi. Ama o liste eksik değildi; Rin başka bir şeyin peşindeydi, Paris’e giden havalelerin."
+  },
+  {
+   "key": "case030.hirano.rin.answer.demeanor",
+   "value": "Kaskını iki elinde çeviriyor."
+  },
+  {
+   "key": "case030.hirano.rin.question",
+   "value": "Aoki Rin’le aranız nasıldı?"
+  },
+  {
+   "key": "case030.hirano.rin.variant0",
+   "value": "O dosyayı buldunuz demek. Rin bana dün akşam ‘Nishida Bey bunu imzalamış, imzanın yanında E.V. yazıyor, kim bu’ dedi. Ben de ‘bulaşma’ dedim. Tartışma oydu."
+  },
+  {
+   "key": "case030.hirano.title",
+   "value": "Hirano Saki — görüşme"
+  },
+  {
+   "key": "case030.lobby.body",
+   "value": "Lobi ve doğu merdiven kapısını görür. 1 Nisan 09.55 – 10.20."
+  },
+  {
+   "key": "case030.lobby.title",
+   "value": "9. KAT ASANSÖR LOBİSİ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case030.method.ext",
+   "value": "Yangın söndürücüyle başına vuruldu"
+  },
+  {
+   "key": "case030.method.fall",
+   "value": "Kalabalıkta düştü"
+  },
+  {
+   "key": "case030.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case030.method.push",
+   "value": "Merdivenden itildi"
+  },
+  {
+   "key": "case030.nishida.body",
+   "value": "Tahliye sorumlusu."
+  },
+  {
+   "key": "case030.nishida.deflect",
+   "value": "Şirket bilgilerini veremem."
+  },
+  {
+   "key": "case030.nishida.last.answer",
+   "value": "Elbette. Katı kontrol ettim, boştu, doğu merdivenden indim."
+  },
+  {
+   "key": "case030.nishida.last.question",
+   "value": "Kattan en son siz mi çıktınız?"
+  },
+  {
+   "key": "case030.nishida.roll.answer",
+   "value": "Meydanda, saat 10.12’de. Herkesin adı tek tek okundu; Aoki ‘burada’ dedi, ben tikledim. Sonra kalabalıkta kaybettim, erken içeri dönmüş olmalı."
+  },
+  {
+   "key": "case030.nishida.roll.answer.demeanor",
+   "value": "Gözlüğünü burnunun üstüne itiyor."
+  },
+  {
+   "key": "case030.nishida.roll.question",
+   "value": "Yoklamayı siz mi aldınız?"
+  },
+  {
+   "key": "case030.nishida.title",
+   "value": "Nishida Kōhei — görüşme"
+  },
+  {
+   "key": "case030.nishida_2.body",
+   "value": "Kayıtlar üzerine."
+  },
+  {
+   "key": "case030.nishida_2.nine.answer",
+   "value": "Kat kontrolü yapıyordum."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.copy",
+   "value": "…Alarm çaldı, herkes çıktı, o kalktı ve dosyayla bana geldi. ‘Bunu denetime götürüyorum’ dedi. Merdiven kapısında. Söndürücü elimin altındaydı. Sonra yoklamada adını tikledim, kalabalıkta kimse sayamaz."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.file",
+   "value": "Danışmanlık ödemeleri yukarıdan gelir. Ben yalnız imzalarım. Bunun için birini öldürmem."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.qr",
+   "value": "Telefonum… merdivende okuttum, sinyal öyle yakalamış olabilir."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.sheet",
+   "value": "Aoki kalabalıktaydı, ‘burada’ dediğini duydum sandım. Kalemin rengi bir şey kanıtlamaz."
+  },
+  {
+   "key": "case030.nishida_2.nine.question",
+   "value": "10.09’da hâlâ 9. kattaydınız."
+  },
+  {
+   "key": "case030.nishida_2.title",
+   "value": "Nishida Kōhei — ikinci görüşme"
+  },
+  {
+   "key": "case030.offer.subtitle",
+   "value": "TATBİKAT  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case030.offer.summary",
+   "value": "Bir deprem tatbikatından sonra merdiven boşluğunda bir ceset. Yoklamaya göre kurban o sırada meydandaydı."
+  },
+  {
+   "key": "case030.offer.title",
+   "value": "DOSYA #030"
+  },
+  {
+   "key": "case030.ono.body",
+   "value": "Bina güvenliği."
+  },
+  {
+   "key": "case030.ono.deflect",
+   "value": "Benim görevim kapı ve merdiven."
+  },
+  {
+   "key": "case030.ono.drill.answer",
+   "value": "Alarm, sonra her katın tahliye sorumlusu kendi insanlarını merdivenden indirir, meydanda kâğıtla yoklama alır, bana ‘tam’ der. Asansör kapalı. Sorumlu en son çıkar, katı kontrol eder. Muhasebede sorumlu Nishida Bey."
+  },
+  {
+   "key": "case030.ono.drill.question",
+   "value": "Tatbikat nasıl işler?"
+  },
+  {
+   "key": "case030.ono.found.answer",
+   "value": "Dönüşte merdiven kapılarını tek tek kapatıyordum. Sahanlıkta yatıyordu, başının altında kan yok gibiydi. Merdivenden düşen öyle durmaz, otuz yıldır görüyorum."
+  },
+  {
+   "key": "case030.ono.found.question",
+   "value": "Cesedi nasıl buldunuz?"
+  },
+  {
+   "key": "case030.ono.title",
+   "value": "Ōno Tadashi — görüşme"
+  },
+  {
+   "key": "case030.person.hirano.info",
+   "value": "33 yaşında, kurbanın masa arkadaşı; aynı ekipte."
+  },
+  {
+   "key": "case030.person.hirano.name",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.person.nishida.info",
+   "value": "48 yaşında, Kisaragi Shōji muhasebe katının tahliye sorumlusu; kıdemli şef."
+  },
+  {
+   "key": "case030.person.nishida.name",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.person.ono.info",
+   "value": "61 yaşında, binanın güvenlik görevlisi; tatbikatı yöneten kişi."
+  },
+  {
+   "key": "case030.person.ono.name",
+   "value": "Ōno Tadashi"
+  },
+  {
+   "key": "case030.qr.body",
+   "value": "Bina, tatbikatta her çalışandan meydandaki QR kodu telefonla okutmasını istiyor; uygulama okutmanın yapıldığı Wi-Fi erişim noktasını da kaydeder.\n\n· Aoki Rin: okutma yok.\n· Nishida Kōhei: 10.09, erişim noktası ‘9F-DOĞU’. Meydan değil, 9. kat.\n· Muhasebenin diğer 22 kişisi: 10.06–10.11, meydan."
+  },
+  {
+   "key": "case030.qr.title",
+   "value": "TAHLİYE UYGULAMASI KAYDI"
+  },
+  {
+   "key": "case030.report.body",
+   "value": "1 Nisan 2030, Nihonbashi’deki bir ofis kulesinde saat 10.00’da yıllık deprem tatbikatı başladı. Kisaragi Shōji’nin 9. kattaki muhasebe bölümü 10.12’de meydanda yoklama verdi: ‘tam’.\n\nTatbikat bitip çalışanlar döndüğünde, 10.41’de güvenlik görevlisi Ōno Tadashi doğu merdiven boşluğunun 8–9. kat sahanlığında muhasebe uzmanı Aoki Rin’i (29) ölü buldu.\n\nİlk değerlendirme: kalabalıkta merdivenden düştü. Ama yoklamaya göre Aoki 10.12’de meydandaydı."
+  },
+  {
+   "key": "case030.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case030.request.copy",
+   "value": "Fotokopi odasının aranmasını iste"
+  },
+  {
+   "key": "case030.request.file",
+   "value": "Kurbanın kilitli çekmecesini aç"
+  },
+  {
+   "key": "case030.request.qr",
+   "value": "Tahliye uygulamasının okutma kaydını iste"
+  },
+  {
+   "key": "case030.request.sheet",
+   "value": "Yoklama kâğıdını incelemeye gönder"
+  },
+  {
+   "key": "case030.sheet.body",
+   "value": "Meydanda ‘tam’ verilen yoklama kâğıdı. 23 isim, 23 tik.\n\nTiklerin 22’si siyah mürekkep. Aoki Rin’in yanındaki tik mavi tükenmez; aynı mavi mürekkep Nishida Kōhei’nin gömlek cebindeki kalemde.\n\nKâğıdın kenarında, mavi kalemle ‘10.12 tam — N.’"
+  },
+  {
+   "key": "case030.sheet.title",
+   "value": "YOKLAMA KÂĞIDI İNCELEMESİ"
+  },
+  {
+   "key": "case030.summary.evidence",
+   "value": "Otopsi düşme değil tek darbe gösterdi. Tahliye uygulaması Nishida’nın 10.09’da hâlâ katta olduğunu, lobi kamerası merdivenden panosuz dönüşünü, yoklama kâğıdı tek mavi tiki, fotokopi odası araması söndürücüyü verdi."
+  },
+  {
+   "key": "case030.summary.lesson",
+   "value": "Bir yoklama kimin orada olduğunu değil, kimin ‘orada’ yazdığını kaydeder. Kâğıdı tutan elin de nerede olduğunu sor."
+  },
+  {
+   "key": "case030.summary.location",
+   "value": "Nihonbashi — Nisan 2030"
+  },
+  {
+   "key": "case030.summary.truth",
+   "value": "Muhasebe uzmanı Aoki Rin, Kisaragi Shōji’den Paris’teki Maison Delorme müzayede evine giden 380 milyon yenlik ‘danışmanlık’ havalelerinin hepsinde şefi Nishida Kōhei’nin imzasını ve bir ‘E.V. onaylı’ notunu buldu. Tatbikat alarmında dosyayla şefine gitti; tahliye sorumlusu Nishida onu merdiven kapısında söndürücüyle öldürdü, söndürücüyü ve panoyu fotokopi odasının tavanına sakladı, meydanda kurbanın adını kendi kalemiyle tikleyip ‘tam’ dedi."
+  },
+  {
+   "key": "case030.suspect.label",
+   "value": "Aoki Rin’i kim öldürdü?"
+  },
+  {
+   "key": "case030.tablet.caseLine",
+   "value": "DOSYA #030  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case030.time.alarm",
+   "value": "10.00"
+  },
+  {
+   "key": "case030.time.door",
+   "value": "10.04"
+  },
+  {
+   "key": "case030.time.found",
+   "value": "10.41"
+  },
+  {
+   "key": "case030.time.out",
+   "value": "10.07"
+  },
+  {
+   "key": "case030.time.roll",
+   "value": "10.12"
+  },
+  {
+   "key": "case030.time.scan",
+   "value": "10.09"
+  },
+  {
+   "key": "case030.time.wait",
+   "value": "10.03"
+  },
+  {
+   "key": "case030.title",
+   "value": "Dosya #030 — Tatbikat"
+  },
+  {
+   "key": "case030.verdict.fall",
+   "value": "Kimse — merdivenden düştü"
+  },
+  {
+   "key": "case030.verdict.hirano",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.verdict.nishida",
+   "value": "Nishida Kōhei"
+  }
+ ]
+}

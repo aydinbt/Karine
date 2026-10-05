@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case029.autopsy.body",
+   "value": "· Hava yollarında is yok; kanda karbonmonoksit yok. Yangın başladığında ölüydü.\n· Kafatasının arkasında, ağır, yuvarlak bir aletle tek darbe. Ölüm nedeni bu.\n· Yaş 30–40 arası; boy 1,68. Sol önkolda eski bir kırık izi.\n· Ölüm, yangından birkaç saat önce: 21 Mart gecesi."
+  },
+  {
+   "key": "case029.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case029.cctv.event.boot",
+   "value": "Kamera: Adam bidonu sedanın bagajına taşıyor, yola bakıyor."
+  },
+  {
+   "key": "case029.cctv.event.fill",
+   "value": "Kamera: İş ceketli iri bir adam kırmızı bir bidonu dolduruyor; arkasında ışıkları kapalı koyu bir sedan."
+  },
+  {
+   "key": "case029.cctv.event.leave",
+   "value": "Kamera: Sedan orman yoluna çıkıyor; küçük beyaz bir minibüs istasyonun kenarında park hâlinde kalıyor."
+  },
+  {
+   "key": "case029.cctv.overlay",
+   "value": "PUMP-1"
+  },
+  {
+   "key": "case029.cctv.period",
+   "value": "22 Mart 2030"
+  },
+  {
+   "key": "case029.cctv.source",
+   "value": "İstasyon kamerası"
+  },
+  {
+   "key": "case029.clue.blow",
+   "value": "Kafaya tek darbe; ölüm yangından saatler önce."
+  },
+  {
+   "key": "case029.clue.fill",
+   "value": "İş ceketli adam bidonu dolduruyor; arkada koyu bir sedan."
+  },
+  {
+   "key": "case029.clue.found",
+   "value": "Ormanda yanmış sedan bulunuyor."
+  },
+  {
+   "key": "case029.clue.leave",
+   "value": "Sedan orman yoluna çıkıyor; beyaz minibüs geride kalıyor."
+  },
+  {
+   "key": "case029.clue.pickup",
+   "value": "Şoför Hamada, Kazuki’nin eşyalarını almaya Chiba’ya gidiyor."
+  },
+  {
+   "key": "case029.clue.source.autopsy",
+   "value": "Otopsi"
+  },
+  {
+   "key": "case029.clue.source.emiko",
+   "value": "Gece taşıyıcı"
+  },
+  {
+   "key": "case029.clue.source.ledger",
+   "value": "Taşıma defteri"
+  },
+  {
+   "key": "case029.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case029.clue.vanish",
+   "value": "Kazuki gece taşıma firmasıyla Sendai’ye gidiyor; saati rehin kalıyor."
+  },
+  {
+   "key": "case029.custody.hamada",
+   "value": "Hamada Jun — gece taşıma şoförü"
+  },
+  {
+   "key": "case029.custody.kazuki",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.custody.label",
+   "value": "Yanan araçtaki ceset kimin?"
+  },
+  {
+   "key": "case029.custody.unknown",
+   "value": "Kimliği belirlenemedi"
+  },
+  {
+   "key": "case029.daisuke.body",
+   "value": "Naoko’nun ağabeyi."
+  },
+  {
+   "key": "case029.daisuke.claim.answer",
+   "value": "Ben. Kız kardeşim perişan, kâğıt işi bana kaldı. Ne var bunda?"
+  },
+  {
+   "key": "case029.daisuke.claim.question",
+   "value": "Sigorta başvurusunu kim yaptı?"
+  },
+  {
+   "key": "case029.daisuke.deflect",
+   "value": "Atölyemle ilgili soru varsa sorun."
+  },
+  {
+   "key": "case029.daisuke.night.answer",
+   "value": "Atölyede, bir müşterinin arabasında. Sabaha kadar. Kazuki’yi bulursam boynunu kırarım, bunu herkes bilir; ama o yanmış, ben ne yapayım."
+  },
+  {
+   "key": "case029.daisuke.night.answer.demeanor",
+   "value": "Kollarını göğsünde kavuşturuyor."
+  },
+  {
+   "key": "case029.daisuke.night.question",
+   "value": "21 Mart gecesi neredeydiniz?"
+  },
+  {
+   "key": "case029.daisuke.title",
+   "value": "Kudō Daisuke — görüşme"
+  },
+  {
+   "key": "case029.daisuke_2.body",
+   "value": "Arama üzerine."
+  },
+  {
+   "key": "case029.daisuke_2.title",
+   "value": "Kudō Daisuke — ikinci görüşme"
+  },
+  {
+   "key": "case029.daisuke_2.who.answer",
+   "value": "Bu adı hiç duymadım."
+  },
+  {
+   "key": "case029.daisuke_2.who.presented.garage",
+   "value": "O herif kız kardeşimin evinden Kazuki’nin eşyalarıyla çıktı, kolunda Kazuki’nin saati. Atölyeye getirdim, konuşsun diye. ‘Söylemem’ dedi, gülümsedi. Elimde balyoz vardı. Sonra… ölü bir kocadan çok para çıkar. Saati koluna taktım, Kazuki’nin arabasına koydum. Kimse dişlerine bakmaz sandım."
+  },
+  {
+   "key": "case029.daisuke_2.who.question",
+   "value": "Yanan adam Hamada Jun."
+  },
+  {
+   "key": "case029.dental.body",
+   "value": "Ishida Kazuki’nin kayıtlı röntgeni: dört dolgu, sağ alt azıda altın kuron.\n\nCesedin çenesi: dolgu yok, kuron yok, doğal dişler. Eşleşme yok.\n\nCeset Ishida Kazuki değil."
+  },
+  {
+   "key": "case029.dental.title",
+   "value": "DİŞ KİMLİK KARŞILAŞTIRMASI"
+  },
+  {
+   "key": "case029.emiko.body",
+   "value": "Gece taşıma firmasının sahibi."
+  },
+  {
+   "key": "case029.emiko.deflect",
+   "value": "Müşterilerimi asla söylemem."
+  },
+  {
+   "key": "case029.emiko.hamada.answer",
+   "value": "Otuz beş yaşında, sessiz bir çocuk. Gençken kolunu kırmış. Müşterilerin eşyasını getirip götürürdü; ‘eşyasını almaya bir daha gidiyorum’ dedi o gece. Ishida’nın evine."
+  },
+  {
+   "key": "case029.emiko.hamada.question",
+   "value": "Hamada kimdi?"
+  },
+  {
+   "key": "case029.emiko.service.answer",
+   "value": "Benim işim insanların kaybolmasına yardım etmek. Bir isim söylersem işim biter."
+  },
+  {
+   "key": "case029.emiko.service.answer.demeanor",
+   "value": "Elleri kucağında, kıpırtısız."
+  },
+  {
+   "key": "case029.emiko.service.question",
+   "value": "Ishida Kazuki’yi tanıyor musunuz?"
+  },
+  {
+   "key": "case029.emiko.service.variant0",
+   "value": "Ceset o değil, öyle mi? …O zaman konuşalım. Kazuki’yi 12 Mart gecesi ben taşıttım, şoförüm Hamada Jun’la. Kazuki yaşıyor. Ama Hamada 21 Mart’tan beri dönmedi. Minibüsü de yok."
+  },
+  {
+   "key": "case029.emiko.title",
+   "value": "Fukuda Emiko — görüşme"
+  },
+  {
+   "key": "case029.epilogue.custody.hamada",
+   "value": "Cesedin şoför Hamada Jun olduğu diş kaydı ve aile DNA’sıyla yazıldı."
+  },
+  {
+   "key": "case029.epilogue.custody.kazuki",
+   "value": "Ceset kayıp adam sayıldı; sigorta ödendi."
+  },
+  {
+   "key": "case029.epilogue.custody.unknown",
+   "value": "Ceset kimliksiz kaldı; dosya açık."
+  },
+  {
+   "key": "case029.epilogue.verdict.daisuke",
+   "value": "Kudō Daisuke tutuklandı. Ishida Kazuki Sendai’den döndü, Naoko ile görüştü. Fukuda firmasının defteri ayrı dosyaya alındı; ‘Mori K.’ kaydı Tokyo şubesine not düşüldü."
+  },
+  {
+   "key": "case029.epilogue.verdict.emiko",
+   "value": "Fukuda Emiko gözaltına alındı; firmasının müşterileri açığa çıktı."
+  },
+  {
+   "key": "case029.epilogue.verdict.kazuki",
+   "value": "Ishida Kazuki aranan şüpheli ilan edildi; gerçek kurban kimliksiz kaldı."
+  },
+  {
+   "key": "case029.epilogue.verdict.naoko",
+   "value": "Ishida Naoko sigorta dolandırıcılığından yargılandı; ağabeyi tanık olarak dinlendi."
+  },
+  {
+   "key": "case029.evidence.dental",
+   "value": "Diş kimlik karşılaştırması"
+  },
+  {
+   "key": "case029.evidence.garage",
+   "value": "Atölye araması"
+  },
+  {
+   "key": "case029.evidence.ledger",
+   "value": "Taşıma defteri"
+  },
+  {
+   "key": "case029.evidence.station",
+   "value": "İstasyon kamerası"
+  },
+  {
+   "key": "case029.feedback.daisuke",
+   "value": "Ceset Kazuki değil, şoför Hamada; atölyede kanı, balyoz, kayıp minibüsün anahtarı ve sapı kanlı bidon var. İstasyon kamerası bidonu dolduran iri adamı gösteriyor; sigorta başvurusunu o yaptı."
+  },
+  {
+   "key": "case029.feedback.emiko",
+   "value": "Taşıyıcı şoförünü kaybetti; minibüsü ve şoförünün kanı başkasının atölyesinde."
+  },
+  {
+   "key": "case029.feedback.kazuki",
+   "value": "Kayıp adam o gece Sendai’deydi ve yanan arabanın içindeki o değil."
+  },
+  {
+   "key": "case029.feedback.naoko",
+   "value": "Karısı saati tanıdı ve lehdardı, ama atölyede değildi; başvuruyu ağabeyi yaptı."
+  },
+  {
+   "key": "case029.file.caseType",
+   "value": "KİMLİK"
+  },
+  {
+   "key": "case029.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case029.file.value.location",
+   "value": "Chiba, orman yolu"
+  },
+  {
+   "key": "case029.file.value.number",
+   "value": "BDS-TYO-2030-0034"
+  },
+  {
+   "key": "case029.file.value.offence",
+   "value": "Şüpheli ölüm; kayıp kişi"
+  },
+  {
+   "key": "case029.file.value.reporter",
+   "value": "Orman bekçisi"
+  },
+  {
+   "key": "case029.garage.body",
+   "value": "Kudō Daisuke’nin oto tamir atölyesi:\n\n· Zeminde, temizlenmiş bir alanda kan; DNA Hamada Jun’un annesinden alınan örnekle akrabalık uyumu.\n· Alet tezgâhında yuvarlak başlı bir balyoz; başı yeni yıkanmış.\n· Çekmecede beyaz etiketli bir minibüs anahtarı: Fukuda firmasının kayıp minibüsü.\n· Atölyenin arkasında kırmızı metal bidon; sapında kan."
+  },
+  {
+   "key": "case029.garage.title",
+   "value": "ATÖLYE ARAMASI"
+  },
+  {
+   "key": "case029.kazuki.body",
+   "value": "Sendai’de bulundu."
+  },
+  {
+   "key": "case029.kazuki.deflect",
+   "value": "Bunu konuşmayacağım."
+  },
+  {
+   "key": "case029.kazuki.title",
+   "value": "Ishida Kazuki — görüşme"
+  },
+  {
+   "key": "case029.kazuki.watch.answer",
+   "value": "Ödemeyi tamamlayamadım, Hamada’ya rehin verdim. Sonra karıma eşyalarımı almaya gitti… Hamada mı yandı? Benim arabamda mı?"
+  },
+  {
+   "key": "case029.kazuki.watch.question",
+   "value": "Saatiniz?"
+  },
+  {
+   "key": "case029.kazuki.why.answer",
+   "value": "Daisuke her hafta geliyordu. Son gelişinde ‘ölü kocadan daha çok para çıkar’ dedi. Karımın önünde. O gece Fukuda Hanım’ı aradım."
+  },
+  {
+   "key": "case029.kazuki.why.answer.demeanor",
+   "value": "Kendi ellerine bakıyor."
+  },
+  {
+   "key": "case029.kazuki.why.question",
+   "value": "Neden kayboldunuz?"
+  },
+  {
+   "key": "case029.ledger.body",
+   "value": "Fukuda Emiko’nun el defteri, son iki ay:\n\n· 12 Mart · Ishida K. — Chiba’dan Sendai’ye. Şoför: Hamada. Not: ‘Saatini rehin bıraktı, ödeme eksik.’\n· 21 Mart · Ishida K. eşyaları — Chiba. Şoför: Hamada. Dönüş yok.\n· 18 Şubat · Mori K. — Tokyo’dan Osaka’ya. Ödeme: kurumsal havale, Kisaragi Shōji."
+  },
+  {
+   "key": "case029.ledger.title",
+   "value": "TAŞIMA DEFTERİ"
+  },
+  {
+   "key": "case029.matsui.body",
+   "value": "Ailenin diş hekimi."
+  },
+  {
+   "key": "case029.matsui.deflect",
+   "value": "Hasta bilgisi gizlidir."
+  },
+  {
+   "key": "case029.matsui.records.answer",
+   "value": "On iki yıldır hastam. Dört dolgu, bir altın kuron, sağ alt azı. Röntgenleri gönderirim; yanmış bir çenede bile kuron kalır."
+  },
+  {
+   "key": "case029.matsui.records.question",
+   "value": "Ishida Kazuki’nin kayıtları sizde mi?"
+  },
+  {
+   "key": "case029.matsui.title",
+   "value": "Matsui Kei — görüşme"
+  },
+  {
+   "key": "case029.method.crash",
+   "value": "Kaza sonrası araç yandı"
+  },
+  {
+   "key": "case029.method.fire",
+   "value": "Arabada yanarak öldü"
+  },
+  {
+   "key": "case029.method.hammer",
+   "value": "Kafasına balyozla vuruldu, sonra arabada yakıldı"
+  },
+  {
+   "key": "case029.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case029.naoko.body",
+   "value": "Kayıp adamın karısı."
+  },
+  {
+   "key": "case029.naoko.debt.answer",
+   "value": "Kazuki ağabeyimden atölyeye ortak olmak için para aldı, sonra işten çıkarıldı. Ağabeyim her hafta geliyordu. Kazuki’nin üzerinde benim lehdar olduğum bir hayat sigortası var. Ağabeyim ‘en azından o işe yarar’ demişti, şakaydı."
+  },
+  {
+   "key": "case029.naoko.debt.question",
+   "value": "Borç neydi?"
+  },
+  {
+   "key": "case029.naoko.deflect",
+   "value": "Ailemizin işleri sizi ilgilendirmez."
+  },
+  {
+   "key": "case029.naoko.title",
+   "value": "Ishida Naoko — görüşme"
+  },
+  {
+   "key": "case029.naoko.watch.answer",
+   "value": "Düğünümüzde ben aldım. Arkasında kazıma var. Kazuki onu hiç çıkarmazdı."
+  },
+  {
+   "key": "case029.naoko.watch.answer.demeanor",
+   "value": "Bir mendili katlayıp açıyor."
+  },
+  {
+   "key": "case029.naoko.watch.question",
+   "value": "Saati nasıl tanıdınız?"
+  },
+  {
+   "key": "case029.naoko.watch.variant0",
+   "value": "Dişleri… tutmuyor mu? O zaman saat neden onun kolundaydı? Kazuki saatini birine vermiş olmalı. Ama kime?"
+  },
+  {
+   "key": "case029.offer.subtitle",
+   "value": "BUHARLAŞMA  /  KİMLİK"
+  },
+  {
+   "key": "case029.offer.summary",
+   "value": "Chiba’da ormanda yanmış bir araba, içinde bir ceset. Araba on gün önce kaybolan bir sigortacının; karısı onu tanıdı."
+  },
+  {
+   "key": "case029.offer.title",
+   "value": "DOSYA #029"
+  },
+  {
+   "key": "case029.person.daisuke.info",
+   "value": "44 yaşında, Naoko’nun ağabeyi; küçük bir oto tamir atölyesi işletiyor."
+  },
+  {
+   "key": "case029.person.daisuke.name",
+   "value": "Kudō Daisuke"
+  },
+  {
+   "key": "case029.person.emiko.info",
+   "value": "57 yaşında, ‘gece taşıma’ firmasının sahibi; insanları iz bırakmadan başka şehre taşıyor."
+  },
+  {
+   "key": "case029.person.emiko.name",
+   "value": "Fukuda Emiko"
+  },
+  {
+   "key": "case029.person.kazuki.info",
+   "value": "42 yaşında, sigorta satış elemanı; on gün önce ortadan kayboldu."
+  },
+  {
+   "key": "case029.person.kazuki.name",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.person.matsui.info",
+   "value": "50 yaşında, Ishida ailesinin diş hekimi."
+  },
+  {
+   "key": "case029.person.matsui.name",
+   "value": "Matsui Kei"
+  },
+  {
+   "key": "case029.person.naoko.info",
+   "value": "39 yaşında, kayıp Ishida Kazuki’nin karısı; Chiba’da bir eczanede çalışıyor."
+  },
+  {
+   "key": "case029.person.naoko.name",
+   "value": "Ishida Naoko"
+  },
+  {
+   "key": "case029.report.body",
+   "value": "22 Mart 2030 sabahı Chiba’nın orman yolunda yanmış bir sedan ve sürücü koltuğunda yanmış bir ceset bulundu. Araç plakası Ishida Kazuki (42) adına kayıtlı; Ishida 12 Mart’ta evden çıkmış, dönmemiş, karısı kayıp bildirmişti.\n\nKarısı Ishida Naoko’ya cesedin yanında bulunan yanık bir saat gösterildi; Naoko saati kocasının saati olarak tanıdı.\n\nKayıp bildirimi kayıt notu: ‘Aile borçtan söz etti; gece taşıma ihtimali.’"
+  },
+  {
+   "key": "case029.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case029.request.dental",
+   "value": "Diş karşılaştırması iste"
+  },
+  {
+   "key": "case029.request.garage",
+   "value": "Kudō Daisuke’nin atölyesini aramak için izin iste"
+  },
+  {
+   "key": "case029.request.ledger",
+   "value": "Taşıma defterini iste"
+  },
+  {
+   "key": "case029.station.body",
+   "value": "Orman yoluna 3 km mesafedeki istasyon. 21 Mart 23.00 – 22 Mart 03.00."
+  },
+  {
+   "key": "case029.station.title",
+   "value": "BENZİN İSTASYONU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case029.summary.evidence",
+   "value": "Otopsi yangından önce ölümü, diş karşılaştırması cesedin Kazuki olmadığını gösterdi. Taşıyıcının defteri şoförü ve saati, istasyon kamerası bidonu, atölye araması kanı ve minibüs anahtarını verdi."
+  },
+  {
+   "key": "case029.summary.lesson",
+   "value": "Bir ceset kimin arabasında bulunduğu değildir. Önce kim olduğunu sor; sonra kimin onun başkası sanılmasını istediğini."
+  },
+  {
+   "key": "case029.summary.location",
+   "value": "Chiba — Mart 2030"
+  },
+  {
+   "key": "case029.summary.truth",
+   "value": "Ishida Kazuki, kayınbiraderi Kudō Daisuke’nin borç baskısından kaçmak için 12 Mart’ta bir gece taşıma firmasıyla Sendai’ye ‘buharlaştı’; ödeme eksik kalınca saatini şoför Hamada Jun’a rehin bıraktı. 21 Mart’ta eşyaları almaya gelen Hamada’yı yakalayan Daisuke, Kazuki’nin yerini söyletmek için atölyesine götürdü, balyozla öldürdü, saati koluna takıp Kazuki’nin arabasında yaktı ve kardeşi adına sigorta başvurusu yaptı."
+  },
+  {
+   "key": "case029.suspect.label",
+   "value": "Yanan adamı kim öldürdü?"
+  },
+  {
+   "key": "case029.tablet.caseLine",
+   "value": "DOSYA #029  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case029.time.blow",
+   "value": "21 Mart gece"
+  },
+  {
+   "key": "case029.time.boot",
+   "value": "01.15"
+  },
+  {
+   "key": "case029.time.fill",
+   "value": "01.12"
+  },
+  {
+   "key": "case029.time.found",
+   "value": "22 Mart sabah"
+  },
+  {
+   "key": "case029.time.leave",
+   "value": "01.17"
+  },
+  {
+   "key": "case029.time.pickup",
+   "value": "21 Mart"
+  },
+  {
+   "key": "case029.time.vanish",
+   "value": "12 Mart"
+  },
+  {
+   "key": "case029.title",
+   "value": "Dosya #029 — Buharlaşma"
+  },
+  {
+   "key": "case029.verdict.daisuke",
+   "value": "Kudō Daisuke"
+  },
+  {
+   "key": "case029.verdict.emiko",
+   "value": "Fukuda Emiko"
+  },
+  {
+   "key": "case029.verdict.kazuki",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.verdict.naoko",
+   "value": "Ishida Naoko"
+  }
+ ]
+}

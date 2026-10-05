@@ -1,0 +1,476 @@
+{
+ "entries": [
+  {
+   "key": "case027.autopsy.body",
+   "value": "· Boğma; ince, sert bir kayışla. Tırnak altında kırmızı kumaş lifi.\n· Rektal ısı 31 °C. Normal oda sıcaklığında bu iki saat eder; ancak bulunduğu deponun ortamı bilinmeden ölüm saati kesinleştirilemez.\n· Mide: pirinç topu ve yeşil çay, yenmesinin üzerinden en fazla bir saat geçmiş."
+  },
+  {
+   "key": "case027.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case027.cctv.event.back",
+   "value": "Kamera: Kasiyer kasaya dönüyor, yeleğini düzeltiyor; tepsi dolu. Kasanın arkasına eğiliyor."
+  },
+  {
+   "key": "case027.cctv.event.empty",
+   "value": "Kamera: Kasa boş; sıranın sonunda yalnız bir makine yanıyor."
+  },
+  {
+   "key": "case027.cctv.event.go",
+   "value": "Kamera: Kasiyer kasadan, elinde boş bir tepsiyle depo kapısına yürüyor."
+  },
+  {
+   "key": "case027.cctv.overlay",
+   "value": "CAM-03"
+  },
+  {
+   "key": "case027.cctv.period",
+   "value": "14 Şubat 2030"
+  },
+  {
+   "key": "case027.cctv.source",
+   "value": "Salon kamerası"
+  },
+  {
+   "key": "case027.clue.back",
+   "value": "Kasiyer dolu tepsiyle kasaya dönüp arkasına eğiliyor."
+  },
+  {
+   "key": "case027.clue.close",
+   "value": "Salon kapanıyor; içeride kasiyer, müdavim ve muhasebeci kalıyor."
+  },
+  {
+   "key": "case027.clue.cold",
+   "value": "Depo kliması 14 °C sürekli moda alınıyor."
+  },
+  {
+   "key": "case027.clue.found",
+   "value": "Müdür buz gibi depoda cesedi buluyor."
+  },
+  {
+   "key": "case027.clue.go",
+   "value": "Kasiyer elinde boş tepsiyle depoya gidiyor."
+  },
+  {
+   "key": "case027.clue.jackpot",
+   "value": "114 numarada büyük ikramiye; ödül çağrısı kasada yanıtsız kalıyor."
+  },
+  {
+   "key": "case027.clue.source.counter114",
+   "value": "Makine sayacı"
+  },
+  {
+   "key": "case027.clue.source.hideo",
+   "value": "Müdür"
+  },
+  {
+   "key": "case027.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case027.clue.source.thermo",
+   "value": "Klima kaydı"
+  },
+  {
+   "key": "case027.counter.body",
+   "value": "Kasa ve 110–120 sırasını gören kamera. 14 Şubat 01.00 – 06.00. Kamera kare atlatıyor; saat damgası bozuk, yalnız sıra numarası var."
+  },
+  {
+   "key": "case027.counter.title",
+   "value": "SALON TAVAN KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case027.counter114.body",
+   "value": "Makinenin dahili kaydı (dakikalık top sayımı):\n\n· 01.10–04.28 kesintisiz oyun\n· Büyük ikramiye: 02.47\n· İkramiyeden hemen sonra oyuncu ‘ödül çağrısı’ düğmesine basmış: 02.48. Kasadan yanıt: 03.09; ödülü getiren kasiyer Takeda Yuki.\n\nKamera karelerinin sırasıyla eşleştirme: kare 2214 ≈ 02.49, kare 2371 ≈ 03.08."
+  },
+  {
+   "key": "case027.counter114.title",
+   "value": "114 NUMARALI MAKİNE SAYACI"
+  },
+  {
+   "key": "case027.custody.cold",
+   "value": "02.00–03.30 — klima ölüm saatini gizledi"
+  },
+  {
+   "key": "case027.custody.dawn",
+   "value": "04.00–06.00 — doktorun ilk tahmini"
+  },
+  {
+   "key": "case027.custody.label",
+   "value": "Ölüm ne zaman oldu?"
+  },
+  {
+   "key": "case027.custody.midnight",
+   "value": "01.00’den önce"
+  },
+  {
+   "key": "case027.epilogue.custody.cold",
+   "value": "Ölüm saati, deponun 14 °C’ye düşürülmesiyle düzeltilerek yazıldı."
+  },
+  {
+   "key": "case027.epilogue.custody.dawn",
+   "value": "Ölüm sabaha yakın sayıldı; o saatte salonda yalnız müdür vardı."
+  },
+  {
+   "key": "case027.epilogue.custody.midnight",
+   "value": "Ölüm kapanıştan önce sayıldı; mide içeriği bunu taşımıyor."
+  },
+  {
+   "key": "case027.epilogue.verdict.hideo",
+   "value": "Arai Hideo gözaltına alındı; ödül faturaları hiç incelenmedi."
+  },
+  {
+   "key": "case027.epilogue.verdict.sato",
+   "value": "Satō Minoru suçlandı, sayaç kaydı sonradan onu temize çıkardı; dosya geri döndü."
+  },
+  {
+   "key": "case027.epilogue.verdict.yuki",
+   "value": "Takeda Yuki itiraf etti. Faturalardaki fark Kisaragi’nin yan şirketine kadar izlendi; kurye bir daha görünmedi."
+  },
+  {
+   "key": "case027.evidence.counter114",
+   "value": "Makine sayacı"
+  },
+  {
+   "key": "case027.evidence.ledger",
+   "value": "Ödül faturaları"
+  },
+  {
+   "key": "case027.evidence.thermo",
+   "value": "Depo klima kaydı"
+  },
+  {
+   "key": "case027.evidence.tray",
+   "value": "Kasa arkası araması"
+  },
+  {
+   "key": "case027.feedback.hideo",
+   "value": "Müdür sabah altıda geldi; ‘iki saat’ hesabı onu suçlu gösteriyordu ama soğuk depo ölüm saatini gecenin ortasına çekiyor."
+  },
+  {
+   "key": "case027.feedback.sato",
+   "value": "Müdavimin makinesi 01.10–04.28 arasında kesintisiz oynadı; ikramiyesinin ödülünü bekliyordu."
+  },
+  {
+   "key": "case027.feedback.yuki",
+   "value": "Klima kaydı ölüm saatini 02.00–03.30’a çekiyor; o aralıkta kamera kasiyeri depoya giderken gösteriyor, makine sayacı yokluğunu 20 dakikaya sabitliyor. Tırnak altındaki lif onun yaka kartı kayışından."
+  },
+  {
+   "key": "case027.file.caseType",
+   "value": "CİNAYET"
+  },
+  {
+   "key": "case027.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case027.file.value.location",
+   "value": "Nihonbashi, pachinko salonu — ödül deposu"
+  },
+  {
+   "key": "case027.file.value.number",
+   "value": "BDS-TYO-2030-0019"
+  },
+  {
+   "key": "case027.file.value.offence",
+   "value": "Kasten öldürme"
+  },
+  {
+   "key": "case027.file.value.reporter",
+   "value": "Salon müdürü"
+  },
+  {
+   "key": "case027.hideo.body",
+   "value": "Salon müdürü."
+  },
+  {
+   "key": "case027.hideo.debt.answer",
+   "value": "Merkezden gelen ödül faturaları. ‘Ödül gelmiyor ama fatura geliyor’ diyordu. Bana söylemişti, ben de… kendi borcum varken başıma iş açmak istemedim."
+  },
+  {
+   "key": "case027.hideo.debt.question",
+   "value": "Ueno Bey neyle uğraşıyordu?"
+  },
+  {
+   "key": "case027.hideo.deflect",
+   "value": "Şirket içi konular."
+  },
+  {
+   "key": "case027.hideo.morning.answer",
+   "value": "Altıda geldim. Depo buz gibiydi, kapıyı açınca nefesim buhar oldu. Ueno yerdeydi. Dokundum, hâlâ yumuşaktı."
+  },
+  {
+   "key": "case027.hideo.morning.answer.demeanor",
+   "value": "Sözlerinin arasında uzun nefes alıyor."
+  },
+  {
+   "key": "case027.hideo.morning.question",
+   "value": "Sabah nasıl buldunuz?"
+  },
+  {
+   "key": "case027.hideo.title",
+   "value": "Arai Hideo — görüşme"
+  },
+  {
+   "key": "case027.ledger.body",
+   "value": "Kurbanın masasında, sarı notla işaretli on iki fatura. Tedarikçi: Kisaragi Shōji’nin bir yan şirketi. Fatura edilen ödül miktarı ile depoya giren ödül arasında aylık 9 milyon yen fark.\n\nFark nakit olarak kasiyerin günlük teslim zarfına giriyor ve bir kurye her sabah alıyor. Son sekiz ayın teslim imzaları: Takeda Yuki.\n\nKurbanın taslak e-postası, gönderilmemiş: “Yarın merkeze bildiriyorum. Kasiyer de bilmeli.”"
+  },
+  {
+   "key": "case027.ledger.title",
+   "value": "ÖDÜL FATURALARI"
+  },
+  {
+   "key": "case027.method.cord",
+   "value": "Klima kablosuyla boğuldu"
+  },
+  {
+   "key": "case027.method.hands",
+   "value": "Elle boğuldu"
+  },
+  {
+   "key": "case027.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case027.method.strap",
+   "value": "Yaka kartı kayışıyla boğuldu"
+  },
+  {
+   "key": "case027.offer.subtitle",
+   "value": "PACHİNKO  /  CİNAYET"
+  },
+  {
+   "key": "case027.offer.summary",
+   "value": "Kapanmış bir pachinko salonunun deposunda muhasebeci boğulmuş. Doktor iki saat diyor; o saatte salonda yalnız müdür var."
+  },
+  {
+   "key": "case027.offer.title",
+   "value": "DOSYA #027"
+  },
+  {
+   "key": "case027.person.hideo.info",
+   "value": "52 yaşında, salonun gündüz müdürü; borcunu ödemek için ikinci iş arıyor."
+  },
+  {
+   "key": "case027.person.hideo.name",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.person.sato.info",
+   "value": "66 yaşında, emekli otobüs şoförü; her gece aynı 114 numaralı makinede oynuyor."
+  },
+  {
+   "key": "case027.person.sato.name",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.person.yuki.info",
+   "value": "29 yaşında, salonun gece kasiyeri; jeton ve ödül değişimini yapıyor."
+  },
+  {
+   "key": "case027.person.yuki.name",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.report.body",
+   "value": "14 Şubat 2030 saat 06.05’te Nihonbashi’deki bir pachinko salonunun ödül deposunda salon muhasebecisi Ueno Sōta (38) ölü bulundu. Müdür Arai Hideo sabah kasayı açmaya gelince buldu.\n\nBoyunda boğma izi. Salon 01.00’de kapanmış; içeride yalnız gece kasiyeri Takeda Yuki ve kapanıştan sonra ‘sayım bitene kadar’ oynamasına izin verilen müdavim Satō Minoru kalmış. İkisi de 04.30’a kadar salondaydı.\n\nÇağrılan doktor: “Vücut hâlâ ılık sayılır, en fazla iki saat.”"
+  },
+  {
+   "key": "case027.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case027.request.counter114",
+   "value": "114 numaralı makinenin sayacını iste"
+  },
+  {
+   "key": "case027.request.ledger",
+   "value": "Kurbanın masasındaki faturaları incele"
+  },
+  {
+   "key": "case027.request.thermo",
+   "value": "Depo klimasının panel kaydını iste"
+  },
+  {
+   "key": "case027.request.tray",
+   "value": "Kasanın arkasının aranmasını iste"
+  },
+  {
+   "key": "case027.sato.body",
+   "value": "Müdavim."
+  },
+  {
+   "key": "case027.sato.deflect",
+   "value": "Ben oynarım, karışmam."
+  },
+  {
+   "key": "case027.sato.machine.answer",
+   "value": "114 numarada oynuyordum. Bir ara kasiyer kız kasayı bırakıp arkaya gitti, tepsi boştu. Kısa sürdü. Ne zaman mı? Saate bakmam ben, makineye bakarım."
+  },
+  {
+   "key": "case027.sato.machine.question",
+   "value": "Gece ne gördünüz?"
+  },
+  {
+   "key": "case027.sato.title",
+   "value": "Satō Minoru — görüşme"
+  },
+  {
+   "key": "case027.summary.evidence",
+   "value": "Doktorun ‘iki saat’ tahmini soğuk depo bilinmeden yapılmıştı. Klima kaydı ayarın 02.51’de değiştiğini, makine sayacı kamera karelerinin saatini, kasa arkasındaki kopuk kayış tırnak altındaki lifi verdi."
+  },
+  {
+   "key": "case027.summary.lesson",
+   "value": "Isı bir saat değil, bir koşuldur. Ölüm saatini söyleyen her bulgunun ortamını sor."
+  },
+  {
+   "key": "case027.summary.location",
+   "value": "Nihonbashi — Şubat 2030"
+  },
+  {
+   "key": "case027.summary.truth",
+   "value": "Salon muhasebecisi Ueno Sōta, Kisaragi Shōji’nin yan şirketinden gelen ödül faturalarının aylık 9 milyon yenlik nakdi kasiyer zarfıyla taşıdığını buldu ve merkeze bildirecekti. Zarfları imzalayan gece kasiyeri Takeda Yuki, 02.49’da boş bir tepsiyle depoya girdi, yaka kartının kayışıyla onu boğdu ve ölüm saatini ileri kaydırmak için klimayı 14 °C’ye aldı."
+  },
+  {
+   "key": "case027.suspect.label",
+   "value": "Ueno Sōta’yı kim öldürdü?"
+  },
+  {
+   "key": "case027.tablet.caseLine",
+   "value": "DOSYA #027  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case027.thermo.body",
+   "value": "Depo klimasının panel geçmişi:\n\n· 02.51 · mod: SÜREKLİ, hedef 14 °C, fan en yüksek\n· 05.58 · kapı sensörü açık\n\nKlimanın ayarı gece 02.51’de değiştirildi. Bu ortamda 31 °C rektal ısı iki değil, üç–dört saate denk gelir: ölüm 02.00–03.30 arası."
+  },
+  {
+   "key": "case027.thermo.title",
+   "value": "DEPO KLİMA KAYDI"
+  },
+  {
+   "key": "case027.time.back",
+   "value": "kare 2371"
+  },
+  {
+   "key": "case027.time.close",
+   "value": "01.00"
+  },
+  {
+   "key": "case027.time.cold",
+   "value": "02.51"
+  },
+  {
+   "key": "case027.time.empty",
+   "value": "kare 2290"
+  },
+  {
+   "key": "case027.time.found",
+   "value": "06.05"
+  },
+  {
+   "key": "case027.time.go",
+   "value": "kare 2214"
+  },
+  {
+   "key": "case027.time.jackpot",
+   "value": "02.47"
+  },
+  {
+   "key": "case027.title",
+   "value": "Dosya #027 — Pachinko"
+  },
+  {
+   "key": "case027.tray.body",
+   "value": "Kasanın altındaki ödül tepsisinde 180 jeton ve kopmuş bir yaka kartı klipsi; klipsin kırmızı kumaş kayışı yırtık.\n\nKayışın lifi, Ueno Sōta’nın tırnak altındaki kırmızı lifle aynı.\n\nSalonun kırmızı kumaş kayışlı yaka kartı yalnız kasiyerlerde: gece vardiyasında tek kasiyer Takeda Yuki."
+  },
+  {
+   "key": "case027.tray.title",
+   "value": "KASA ARKASI ARAMASI"
+  },
+  {
+   "key": "case027.verdict.hideo",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.verdict.sato",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.verdict.yuki",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.yuki.badge.answer",
+   "value": "Çantamda."
+  },
+  {
+   "key": "case027.yuki.badge.presented.tray",
+   "value": "Klipsi kopmuş, evet. Kasada takıldı, düştü. O tepsi kasanın arkasında duruyor, herkes eli değer."
+  },
+  {
+   "key": "case027.yuki.badge.question",
+   "value": "Yaka kartınız nerede?"
+  },
+  {
+   "key": "case027.yuki.body",
+   "value": "Gece kasiyeri."
+  },
+  {
+   "key": "case027.yuki.deflect",
+   "value": "Kasa işleri bana sorulmaz."
+  },
+  {
+   "key": "case027.yuki.night.answer",
+   "value": "Kapanıştan sonra sayım. Ueno Bey depoda faturalarla uğraşıyordu, ikide ‘Sen git’ dedi ama Satō Bey oynuyordu, bekledim. Dört buçukta çıktık, Ueno Bey o zaman yaşıyordu, ışığı yanıyordu."
+  },
+  {
+   "key": "case027.yuki.night.answer.demeanor",
+   "value": "Yaka kartının ipini parmağına doluyor."
+  },
+  {
+   "key": "case027.yuki.night.question",
+   "value": "Gece ne yaptınız?"
+  },
+  {
+   "key": "case027.yuki.night.variant0",
+   "value": "Depo mu soğukmuş? Ben girmedim ki depoya. Ueno Bey üşür, klimayı hep kendisi açardı. Ben dört buçukta çıktım."
+  },
+  {
+   "key": "case027.yuki.quote",
+   "value": "“Dört buçukta çıktık, ışığı yanıyordu.”"
+  },
+  {
+   "key": "case027.yuki.title",
+   "value": "Takeda Yuki — görüşme"
+  },
+  {
+   "key": "case027.yuki_2.body",
+   "value": "Kayıtlar üzerine."
+  },
+  {
+   "key": "case027.yuki_2.title",
+   "value": "Takeda Yuki — ikinci görüşme"
+  },
+  {
+   "key": "case027.yuki_2.when.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.counter114",
+   "value": "Satō Bey ikramiye vurdu, ödülünü götürmem gerekiyordu, geç kaldım. O kadar."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.ledger",
+   "value": "Zarfları ben imzalıyorum, evet. Kurye alıyor, ben sormuyorum. Ama bu Ueno Bey’le ilgili bir şey değil, depoya girmedim."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.tray",
+   "value": "Kayış… Ben onu öldürmek istemedim. Faturaları merkeze verecekti; zarfları ben imzalıyorum, hapse ben girerdim, onlar değil. Konuşmaya gittim. Bağırdı. Kayışı boynuna… sonra klimayı açtım. Soğuk kalırsa geç ölmüş görünür diye internette okumuştum."
+  },
+  {
+   "key": "case027.yuki_2.when.question",
+   "value": "Saat üçte depodaydınız."
+  }
+ ]
+}

@@ -1,0 +1,636 @@
+{
+ "entries": [
+  {
+   "key": "case025.autopsy.body",
+   "value": "· Ölüm sebebi: ağız ve burnun yumuşak bir cisimle kapatılmasıyla boğulma. Burun kemiğinde hafif ezik, dudak içinde diş izleri.\n· Kanda alkol 0,9 promil; kendi başına öldürücü değil.\n· Ölüm zamanı: 01.00–02.30.\n· Savunma izi az: sarhoş ve uykudayken.\n· Sol bilekte dolap bilekliği izi: spiral bileklik geceyi bu bilekte geçirmiş."
+  },
+  {
+   "key": "case025.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case025.camera.body",
+   "value": "Dolapları ve B koridorunun girişini gören tavan kamerası; kapsüllerin içini görmüyor. 13 Ocak 23.30 – 14 Ocak 02.00."
+  },
+  {
+   "key": "case025.camera.title",
+   "value": "4. KAT KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case025.cardlog.body",
+   "value": "· 01.30.58 · 4. kat B koridoru kapısı · kart: ANA KART (personel) · kayıtlı kullanıcı: gece resepsiyonu (vardiya: Sakai Yū)\n· 01.39.12 · aynı kapı, içeriden çıkış\n· 06.18 · temizlik kartı\n\nOtel müdürünün notu: “Ana kart gece boyunca gece resepsiyonistinde olmalıdır. Kopyası yoktur.”"
+  },
+  {
+   "key": "case025.cardlog.title",
+   "value": "KAPI KARTI KAYDI — 4. KAT"
+  },
+  {
+   "key": "case025.cctv.event.in",
+   "value": "Kamera: Takım elbiseli, yukatasız bir adam bir kartla koridora giriyor; terlik değil, ayakkabı giyiyor."
+  },
+  {
+   "key": "case025.cctv.event.out",
+   "value": "Kamera: Aynı adam hızla çıkıyor; ince eldivenlerini çıkarıyor."
+  },
+  {
+   "key": "case025.cctv.event.reach",
+   "value": "Kamera: Adam üst sıradaki bir kapsülün perdesini kaldırıp gövdesinin yarısıyla içine uzanıyor."
+  },
+  {
+   "key": "case025.cctv.event.swap",
+   "value": "Kamera: Yukata giymiş iki adam dolapların önünde bilekliklerini değiştiriyor; biri üst sıradaki bir kapsülü gösteriyor."
+  },
+  {
+   "key": "case025.cctv.overlay",
+   "value": "4F-B"
+  },
+  {
+   "key": "case025.cctv.period",
+   "value": "13–14 Ocak 2030"
+  },
+  {
+   "key": "case025.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case025.checkin.body",
+   "value": "4. kat, B koridoru.\n\n· 4B-11 · Tanabe Kōji · giriş 22.05 · dolap 4B-11\n· 4B-12 · Kimura Shin · giriş 22.40 · dolap 4B-12 · nakit · kimlik “unutulmuş”, resepsiyonist onayıyla kabul\n· 4B-13 · Ishii Daisuke · giriş 21.30 · dolap 4B-13\n\n23.41 · 4B-11’den şikâyet: “Yandaki horluyor.” Resepsiyon notu: “Boş kapsül yok, kulak tıkacı verildi.”\n\nGece resepsiyonisti: Sakai Yū."
+  },
+  {
+   "key": "case025.checkin.title",
+   "value": "OTEL KAYIT DEFTERİ — 13/14 OCAK"
+  },
+  {
+   "key": "case025.clue.in",
+   "value": "Ayakkabılı, takım elbiseli bir adam ana kartla koridora giriyor."
+  },
+  {
+   "key": "case025.clue.kimura",
+   "value": "‘Kimura Shin’ kimliksiz, nakitle 4B-12’ye yerleşiyor."
+  },
+  {
+   "key": "case025.clue.msg",
+   "value": "Bilinmeyen numaradan resepsiyoniste: ‘Geldim.’"
+  },
+  {
+   "key": "case025.clue.out",
+   "value": "Adam eldivenlerini çıkararak çıkıyor."
+  },
+  {
+   "key": "case025.clue.snore",
+   "value": "4B-11’den horlama şikâyeti; boş kapsül yok."
+  },
+  {
+   "key": "case025.clue.source.checkin",
+   "value": "Otel kayıt defteri"
+  },
+  {
+   "key": "case025.clue.source.sakaiphone",
+   "value": "Resepsiyonistin telefonu"
+  },
+  {
+   "key": "case025.clue.swap",
+   "value": "İki adam dolapların önünde bileklik değiştiriyor."
+  },
+  {
+   "key": "case025.custody.kenta",
+   "value": "Mori Kenta — 4B-12’nin kayıtlı sahibi"
+  },
+  {
+   "key": "case025.custody.label",
+   "value": "Katil kimi öldürmeye gelmişti?"
+  },
+  {
+   "key": "case025.custody.sakai",
+   "value": "Sakai Yū — resepsiyonist"
+  },
+  {
+   "key": "case025.custody.tanabe",
+   "value": "Tanabe Kōji — ölen adamın kendisi"
+  },
+  {
+   "key": "case025.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case025.dna.body",
+   "value": "Yastık kılıfının dış yüzündeki deri hücreleri ile Ōta Ren’in ağız içi örneği: **eşleşme**.\n\nÖlünün kendi DNA’sı kılıfın yalnız iç yüzünde."
+  },
+  {
+   "key": "case025.dna.title",
+   "value": "DNA KARŞILAŞTIRMASI"
+  },
+  {
+   "key": "case025.epilogue.custody.kenta",
+   "value": "Hedefin Mori olduğu yazıldı; Mori korumaya alındı."
+  },
+  {
+   "key": "case025.epilogue.custody.sakai",
+   "value": "Resepsiyonistin tehdit altında olduğu düşünüldü; asıl hedef görülmedi."
+  },
+  {
+   "key": "case025.epilogue.custody.tanabe",
+   "value": "Tanabe’nin hayatı didik didik edildi, hiçbir neden bulunamadı; Mori korumasız kaldı."
+  },
+  {
+   "key": "case025.epilogue.custody.unknown",
+   "value": "Hedef açık kaldı."
+  },
+  {
+   "key": "case025.epilogue.verdict.kenta",
+   "value": "Mori Kenta tutuklandı; defter kopyası ‘çalıntı veri’ diye imha edildi."
+  },
+  {
+   "key": "case025.epilogue.verdict.nobody",
+   "value": "Ölüm doğal sayıldı. Kapsüllerin karışması otelin ihmali diye para cezasıyla kapandı."
+  },
+  {
+   "key": "case025.epilogue.verdict.ota",
+   "value": "Ōta Ren cinayetten tutuklandı. Mori Kenta tanık koruma altına alındı; USB bellekteki ‘Arendt — devir’ tablosu bube Tokyo’nun masasına kondu."
+  },
+  {
+   "key": "case025.epilogue.verdict.sakai",
+   "value": "Sakai Yū cinayetten yargılandı. Ōta Ren ertesi hafta Ueno’da Mori Kenta’yı buldu."
+  },
+  {
+   "key": "case025.evidence.cardlog",
+   "value": "Kat kapısı kart kaydı"
+  },
+  {
+   "key": "case025.evidence.dna",
+   "value": "Yastık kılıfı DNA karşılaştırması"
+  },
+  {
+   "key": "case025.evidence.sakaiphone",
+   "value": "Resepsiyonistin mesajları"
+  },
+  {
+   "key": "case025.evidence.taxi",
+   "value": "Taksi kaydı"
+  },
+  {
+   "key": "case025.feedback.kenta",
+   "value": "Mori yer değiştirmeyi kendisi önerdi; ölen adamı tanımıyordu ve o saatte 4B-11’deydi."
+  },
+  {
+   "key": "case025.feedback.nobody",
+   "value": "Otopsi yumuşak bir cisimle boğulmayı ve diş izlerini gösteriyor."
+  },
+  {
+   "key": "case025.feedback.ota",
+   "value": "Mesajlar kapsül numarasını ve kartı onun hattına bağlıyor; taksi onu otelin arka sokağına getiriyor; kılıfın dış yüzündeki deri onun."
+  },
+  {
+   "key": "case025.feedback.sakai",
+   "value": "Resepsiyonist kartı ve numarayı sattı, ama koridora giren o değildi; kamera ayakkabılı, takım elbiseli bir adam gösteriyor."
+  },
+  {
+   "key": "case025.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case025.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Şubesi"
+  },
+  {
+   "key": "case025.file.value.location",
+   "value": "Shinjuku, kapsül otel — 4. kat, 4B-12"
+  },
+  {
+   "key": "case025.file.value.number",
+   "value": "BDS-TYO-2030-0007"
+  },
+  {
+   "key": "case025.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case025.file.value.reporter",
+   "value": "Otel temizlik görevlisi"
+  },
+  {
+   "key": "case025.ishii.body",
+   "value": "4B-13’ün müşterisi."
+  },
+  {
+   "key": "case025.ishii.deflect",
+   "value": "Ben uyumaya çalışıyordum, o kadar."
+  },
+  {
+   "key": "case025.ishii.late.answer",
+   "value": "Birinin koridorda yürüdüğünü duydum, bir buçuk sularında. Ayakkabıyla. Burada herkes terlikle yürür. Perdeyi açmadım."
+  },
+  {
+   "key": "case025.ishii.late.question",
+   "value": "Daha geç bir saatte?"
+  },
+  {
+   "key": "case025.ishii.night.answer",
+   "value": "Horlamayı. Herkes duydu. Sonra bir tartışma, fısıltıyla. Uyumaya çalıştım."
+  },
+  {
+   "key": "case025.ishii.night.answer.demeanor",
+   "value": "Yorgun, sabırsız."
+  },
+  {
+   "key": "case025.ishii.night.question",
+   "value": "Gece bir şey duydunuz mu?"
+  },
+  {
+   "key": "case025.ishii.night.variant0",
+   "value": "Horlamayı. Bir de… tamam, gördüm. 4B-12’deki zayıf adam aşağı indi, 4B-11’in şikâyetçisiyle dolapların önünde konuştular. Bileklik değiştirdiler, gülüştüler. ‘Ben zaten uyuyamıyorum, sen yat,’ dedi zayıf olan. Sonra yer değiştirdiler."
+  },
+  {
+   "key": "case025.ishii.title",
+   "value": "Ishii Daisuke — görüşme"
+  },
+  {
+   "key": "case025.kenta.body",
+   "value": "Ueno’da bir internet kafede bulundu; 4B-11 bilekliği hâlâ bileğinde."
+  },
+  {
+   "key": "case025.kenta.deflect",
+   "value": "Bunu konuşursam ölürüm."
+  },
+  {
+   "key": "case025.kenta.swap.answer",
+   "value": "Uyuyamıyordum zaten. Yandaki adam horluyordu, alttaki adam da sinirden çıldıracaktı. ‘Yer değiştirelim,’ dedim. Bilekliklerimizi değiştirdik. Sabah uyandım, koridor polis doluydu. Benim kapsülümde biri ölmüştü. Koştum."
+  },
+  {
+   "key": "case025.kenta.swap.answer.demeanor",
+   "value": "Elleri titriyor."
+  },
+  {
+   "key": "case025.kenta.swap.question",
+   "value": "4B-12 sizin kapsülünüzdü."
+  },
+  {
+   "key": "case025.kenta.title",
+   "value": "Mori Kenta — görüşme"
+  },
+  {
+   "key": "case025.kenta.who.answer",
+   "value": "Ōta Ren. Şirketin ‘güvenlik danışmanı’. Kimse ne iş yaptığını bilmez. Asansörde yanıma durdu, hiçbir şey demedi, sadece gülümsedi."
+  },
+  {
+   "key": "case025.kenta.who.question",
+   "value": "Takip eden kimdi?"
+  },
+  {
+   "key": "case025.kenta.why.answer",
+   "value": "Kisaragi’nin defterlerini kopyaladım. Berlin’den gelen bir hattı devralıyorlar, Ocak’ta. Bunu bir gazeteciye verecektim. İki gündür biri beni takip ediyordu. Evime gidemedim."
+  },
+  {
+   "key": "case025.kenta.why.question",
+   "value": "Neden sahte adla kaldınız?"
+  },
+  {
+   "key": "case025.locker.body",
+   "value": "Dolap, 4B-12 bilekliğiyle açılmamış: bileklik ölünün bileğinde, ama dolaptaki eşyalar ölüye ait değil.\n\n· Siyah sırt çantası: bir USB bellek, gömlek, Kisaragi Shōji personel kartı — **Mori Kenta**, muhasebe bölümü.\n· USB bellekte: Kisaragi Shōji’nin 2029–2030 hesap dökümleri; “Arendt — devir” başlıklı bir tablo.\n\nTanabe Kōji’nin bavulu 4B-11 dolabında. 4B-11 bilekliği bulunamadı."
+  },
+  {
+   "key": "case025.locker.title",
+   "value": "4B-12 DOLABININ İÇERİĞİ"
+  },
+  {
+   "key": "case025.method.cord",
+   "value": "İple boğuldu"
+  },
+  {
+   "key": "case025.method.heart",
+   "value": "Alkol ve kalp yetmezliği"
+  },
+  {
+   "key": "case025.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case025.method.pillow",
+   "value": "Uyurken yastıkla boğuldu"
+  },
+  {
+   "key": "case025.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case025.offer.subtitle",
+   "value": "KAPSÜL  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case025.offer.summary",
+   "value": "Shinjuku’da bir kapsül otelde, sahte adla tutulmuş bir kapsülde başka birinin cesedi bulunuyor. Devriye ‘kalp krizi, kapsüller karışmış’ diyor."
+  },
+  {
+   "key": "case025.offer.title",
+   "value": "DOSYA #025"
+  },
+  {
+   "key": "case025.ota.body",
+   "value": "Kisaragi Shōji’nin güvenlik danışmanı."
+  },
+  {
+   "key": "case025.ota.deflect",
+   "value": "Şirketimin hukuk müşavirine yazın."
+  },
+  {
+   "key": "case025.ota.mori.answer",
+   "value": "Mori şirket verisi çaldı. Onu bulmak işim. Bulmak, başka bir şey değil."
+  },
+  {
+   "key": "case025.ota.mori.question",
+   "value": "Mori Kenta’yı takip ediyordunuz."
+  },
+  {
+   "key": "case025.ota.night.answer",
+   "value": "Evde. Meguro’da. Yalnız yaşarım."
+  },
+  {
+   "key": "case025.ota.night.answer.demeanor",
+   "value": "Hiç kıpırdamıyor."
+  },
+  {
+   "key": "case025.ota.night.question",
+   "value": "13–14 Ocak gecesi neredeydiniz?"
+  },
+  {
+   "key": "case025.ota.night.variant0",
+   "value": "Şirket binasından çıktım, Shinjuku’da bir bara uğradım. Taksi kaydını gördünüz, demek. Bir içki suç değil."
+  },
+  {
+   "key": "case025.ota.sample.answer",
+   "value": "Avukatımı bekleyeceğim."
+  },
+  {
+   "key": "case025.ota.sample.presented.sakaiphone",
+   "value": "Kurumsal hat. Kimin elinde olduğunu kim bilir. Ağız örneği mi istiyorsunuz? Alın. Sonuç gelince konuşuruz."
+  },
+  {
+   "key": "case025.ota.sample.presented.taxi",
+   "value": "Bara gittim dedim ya. Örnek mi? Alın, buyurun."
+  },
+  {
+   "key": "case025.ota.sample.question",
+   "value": "Bunu açıklayın."
+  },
+  {
+   "key": "case025.ota.title",
+   "value": "Ōta Ren — görüşme"
+  },
+  {
+   "key": "case025.ota_2.body",
+   "value": "DNA sonucu üzerine."
+  },
+  {
+   "key": "case025.ota_2.end.answer",
+   "value": "Kapsülde karanlıktı. Bileklik 4B-12’ydi, kayıt 4B-12’ydi. Yüzüne bakmadım; bakmam gerekmiyordu. …Yanlış adam. Bunu yazın: yanlış adam. Mori hâlâ dışarıda, ve ben burada oturuyorum."
+  },
+  {
+   "key": "case025.ota_2.end.answer.demeanor",
+   "value": "İlk kez gözlerini kaçırıyor."
+  },
+  {
+   "key": "case025.ota_2.end.question",
+   "value": "Kılıfın dış yüzünde sizin deriniz var."
+  },
+  {
+   "key": "case025.ota_2.title",
+   "value": "Ōta Ren — ikinci görüşme"
+  },
+  {
+   "key": "case025.person.ishii.info",
+   "value": "52 yaşında, 4B-13 numaralı kapsülün müşterisi; Sendai’den iş için gelmiş bir sigorta eksperi."
+  },
+  {
+   "key": "case025.person.ishii.name",
+   "value": "Ishii Daisuke"
+  },
+  {
+   "key": "case025.person.kenta.info",
+   "value": "38 yaşında, Kisaragi Shōji muhasebe bölümü çalışanı; otele ‘Kimura Shin’ adıyla kaydolmuş."
+  },
+  {
+   "key": "case025.person.kenta.name",
+   "value": "Mori Kenta"
+  },
+  {
+   "key": "case025.person.ota.info",
+   "value": "44 yaşında, Kisaragi Shōji’nin ‘kurumsal güvenlik danışmanı’."
+  },
+  {
+   "key": "case025.person.ota.name",
+   "value": "Ōta Ren"
+  },
+  {
+   "key": "case025.person.sakai.info",
+   "value": "26 yaşında, Shinjuku’daki kapsül otelin gece resepsiyonisti."
+  },
+  {
+   "key": "case025.person.sakai.name",
+   "value": "Sakai Yū"
+  },
+  {
+   "key": "case025.pillowlab.body",
+   "value": "4B-12 yastık kılıfı.\n\n· İç yüz: Tanabe Kōji’nin tükürüğü ve diş izi.\n· Dış yüz: nitril eldiven dokusu ve kılıfın kenarında, eldivenin bittiği bilek hizasında deri hücreleri. DNA profili kayıtlarda yok.\n· Karşılaştırma için şüpheliden ağız içi örneği gerekir."
+  },
+  {
+   "key": "case025.pillowlab.title",
+   "value": "YASTIK KILIFI — LABORATUVAR"
+  },
+  {
+   "key": "case025.report.body",
+   "value": "14 Ocak 2030 saat 06.20’de Shinjuku’daki bir kapsül otelin dördüncü katında, 4B-12 numaralı üst kapsülde bir erkek ölü bulundu. Temizlik görevlisi, perdesi inik kapsülden alarm saatinin yirmi dakikadır çaldığını duyunca açtı.\n\nOtel kaydına göre 4B-12’nin müşterisi “Kimura Shin”. Cesedin cüzdanındaki ehliyet ise Tanabe Kōji’ye (41) ait: Osaka’dan gelen bir satış temsilcisi. Tanabe’nin otel kaydı **4B-11** için.\n\nDevriye notu: “Alkol kokusu var. Kalp krizi ya da uyurken boğulma. Kapsüller karışmış, otelin hatası.”"
+  },
+  {
+   "key": "case025.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case025.request.cardlog",
+   "value": "Kat kapısının kart kaydını iste"
+  },
+  {
+   "key": "case025.request.dna",
+   "value": "Ōta’nın DNA karşılaştırmasını iste"
+  },
+  {
+   "key": "case025.request.locker",
+   "value": "4B-12 dolabının açılmasını iste"
+  },
+  {
+   "key": "case025.request.pillowlab",
+   "value": "Yastık kılıfının incelenmesini iste"
+  },
+  {
+   "key": "case025.request.sakaiphone",
+   "value": "Sakai’nin telefon mesajlarını iste"
+  },
+  {
+   "key": "case025.request.taxi",
+   "value": "Ōta’nın taksi kaydını iste"
+  },
+  {
+   "key": "case025.sakai.body",
+   "value": "Gece resepsiyonisti."
+  },
+  {
+   "key": "case025.sakai.complaint.answer",
+   "value": "Tanabe Bey geldi, sinirliydi. Boş kapsül yoktu, kulak tıkacı verdim. Sonra döndü. Değiştirme kaydı yok, ben bir şey değiştirmedim."
+  },
+  {
+   "key": "case025.sakai.complaint.question",
+   "value": "23.41’deki horlama şikâyeti?"
+  },
+  {
+   "key": "case025.sakai.complaint.variant0",
+   "value": "Kayıtta değiştirme yok çünkü ben değiştirmedim. Kendi aralarında bileklik değiştirdilerse… o müşterilerin bileceği iş. Kurala aykırı ama kimse bize sormaz."
+  },
+  {
+   "key": "case025.sakai.deflect",
+   "value": "Müşteri bilgileri gizlidir, müdürüme sorun."
+  },
+  {
+   "key": "case025.sakai.kimura.answer",
+   "value": "Kibar bir adamdı. Kimliğini kaybetmiş, gece yarısı sokakta kalmasın dedim. Nakit ödedi. Olur böyle şeyler."
+  },
+  {
+   "key": "case025.sakai.kimura.answer.demeanor",
+   "value": "Gözlerini kayıt defterinden kaldırmıyor."
+  },
+  {
+   "key": "case025.sakai.kimura.question",
+   "value": "‘Kimura Shin’ kimdi? Kimliksiz kabul etmişsiniz."
+  },
+  {
+   "key": "case025.sakai.kimura.variant0",
+   "value": "Kibar bir adamdı, nakit ödedi… Ana kartı mı soruyorsunuz? O kart hep bende, belimde. Gece kimse istemedi. Ben kimseye vermedim."
+  },
+  {
+   "key": "case025.sakai.quote",
+   "value": "“Kimliğini kaybetmiş, sokakta kalmasın dedim.”"
+  },
+  {
+   "key": "case025.sakai.title",
+   "value": "Sakai Yū — görüşme"
+  },
+  {
+   "key": "case025.sakai_2.body",
+   "value": "Ana kart üzerine."
+  },
+  {
+   "key": "case025.sakai_2.card.answer",
+   "value": "Ben resepsiyondaydım."
+  },
+  {
+   "key": "case025.sakai_2.card.presented.cardlog",
+   "value": "…Kartı vermedim. Bir adam gece onda geldi. ‘Kimura’nın kapsül numarası ve kat kartı, yarım saatliğine,’ dedi. Elli bin yen. Bir alacak meselesi dedi. Ben… kartı bir buçukta tezgâhın üstünde bıraktım, tuvalete gittim. Döndüğümde yerindeydi."
+  },
+  {
+   "key": "case025.sakai_2.card.presented.checkin",
+   "value": "Kimliksiz kabul ettim, evet, kural dışı. Ama kayıt bu, odası bu. Gece ne olduysa ben resepsiyondaydım."
+  },
+  {
+   "key": "case025.sakai_2.card.question",
+   "value": "01.31’de koridor kapısı ana kartla açılmış."
+  },
+  {
+   "key": "case025.sakai_2.title",
+   "value": "Sakai Yū — ikinci görüşme"
+  },
+  {
+   "key": "case025.sakai_2.who.answer",
+   "value": "Telefonuma yazdı, önce. Numarayı nereden bulduğunu bilmiyorum. Mesajlar duruyor, silmedim. Korktum."
+  },
+  {
+   "key": "case025.sakai_2.who.question",
+   "value": "Adam size nasıl ulaştı?"
+  },
+  {
+   "key": "case025.sakaiphone.body",
+   "value": "13 Ocak 2030.\n\n· 19.02 · bilinmeyen numara: “Kimura Shin adıyla bir müşteri gelecek. Kapsül numarası ve kat kartı. Yarım saat. 50.000.”\n· 22.44 · Sakai: “4B-12.”\n· 01.24 · bilinmeyen numara: “Geldim.”\n· 01.42 · bilinmeyen numara: “Kart yerinde.”\n\nNumara sorgusu: hat Kisaragi Shōji adına kurumsal kayıtlı; kullanıcı **Ōta Ren**."
+  },
+  {
+   "key": "case025.sakaiphone.title",
+   "value": "SAKAI YŪ’NUN TELEFONU — MESAJLAR"
+  },
+  {
+   "key": "case025.summary.evidence",
+   "value": "Kayıt defteri iki kapsül ve bir şikâyet gösterdi; kamera bileklik değiş tokuşunu ve ayakkabılı adamı; kart kaydı ana kartı. Resepsiyonistin mesajları Ōta’nın hattına, taksi kaydı otelin arka sokağına çıktı. Yastık kılıfının dış yüzündeki deri hücreleri Ōta’yla eşleşti."
+  },
+  {
+   "key": "case025.summary.lesson",
+   "value": "Kayıt kimin nerede yattığını değil, kimin nerede yatması gerektiğini söyler. Önce kimin öldüğünü, sonra kimin ölmesinin istendiğini sor."
+  },
+  {
+   "key": "case025.summary.location",
+   "value": "Shinjuku, Tokyo — Ocak 2030"
+  },
+  {
+   "key": "case025.summary.truth",
+   "value": "Kisaragi Shōji muhasebecisi Mori Kenta şirketin defterlerini kopyalayıp ‘Kimura Shin’ adıyla bir kapsül otele saklandı. Gece yandaki horlama yüzünden uyuyamayan Tanabe Kōji’yle bilekliklerini değiştirip yer değiştirdi. Şirketin güvenlik danışmanı Ōta Ren resepsiyonistten kapsül numarasını ve kat kartını satın aldı, 01.31’de 4B-12’ye girdi ve içerideki adamı yastıkla boğdu. Ölen, Mori değil Tanabe’ydi."
+  },
+  {
+   "key": "case025.suspect.label",
+   "value": "Tanabe Kōji’nin ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case025.tablet.caseLine",
+   "value": "DOSYA #025  /  BUBE TOKYO — NİHONBASHİ"
+  },
+  {
+   "key": "case025.taxi.body",
+   "value": "Talep: bube Tokyo, şube şefinin onayıyla.\n\n· 14 Ocak 01.06 · Minato, Kisaragi Shōji binası önü → Shinjuku, otelin bir sokak arkası · varış 01.22\n· 01.51 · Shinjuku → Meguro, Ōta Ren’in ev adresi\n\nYolcu hesabı: Ōta Ren."
+  },
+  {
+   "key": "case025.taxi.title",
+   "value": "TAKSİ UYGULAMASI KAYDI — ŌTA REN"
+  },
+  {
+   "key": "case025.time.in",
+   "value": "01.31"
+  },
+  {
+   "key": "case025.time.kimura",
+   "value": "13 Ocak 22.40"
+  },
+  {
+   "key": "case025.time.msg",
+   "value": "01.24"
+  },
+  {
+   "key": "case025.time.out",
+   "value": "01.39"
+  },
+  {
+   "key": "case025.time.reach",
+   "value": "01.33"
+  },
+  {
+   "key": "case025.time.snore",
+   "value": "23.41"
+  },
+  {
+   "key": "case025.time.swap",
+   "value": "23.47"
+  },
+  {
+   "key": "case025.title",
+   "value": "Dosya #025 — Kapsül"
+  },
+  {
+   "key": "case025.verdict.kenta",
+   "value": "Mori Kenta"
+  },
+  {
+   "key": "case025.verdict.nobody",
+   "value": "Kimse — alkol ve kalp"
+  },
+  {
+   "key": "case025.verdict.ota",
+   "value": "Ōta Ren"
+  },
+  {
+   "key": "case025.verdict.sakai",
+   "value": "Sakai Yū"
+  }
+ ]
+}

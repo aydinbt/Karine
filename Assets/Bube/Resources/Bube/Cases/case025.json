@@ -1,0 +1,688 @@
+{
+ "deskHour": 9,
+ "deskDate": "14 Ocak 2030",
+ "titleKey": "case025.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case025.report.title",
+   "bodyKey": "case025.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case025.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case025.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case025.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case025.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case025.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case025.autopsy.title",
+   "bodyKey": "case025.autopsy.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "checkin",
+   "kind": "document",
+   "titleKey": "case025.checkin.title",
+   "bodyKey": "case025.checkin.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "sakai",
+   "kind": "interview",
+   "titleKey": "case025.sakai.title",
+   "bodyKey": "case025.sakai.body",
+   "requires": [
+    "checkin"
+   ],
+   "personId": "sakai",
+   "personNameKey": "case025.person.sakai.name",
+   "personInfoKey": "case025.person.sakai.info",
+   "questions": [
+    {
+     "id": "case025.sakai.kimura",
+     "promptKey": "case025.sakai.kimura.question",
+     "answerKey": "case025.sakai.kimura.answer",
+     "topicKey": "interview.topic.records",
+     "answerVariants": [
+      {
+       "answerKey": "case025.sakai.kimura.variant0",
+       "requiresRead": [
+        "cardlog"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case025.sakai.complaint",
+     "promptKey": "case025.sakai.complaint.question",
+     "answerKey": "case025.sakai.complaint.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case025.sakai.kimura"
+     ],
+     "answerVariants": [
+      {
+       "answerKey": "case025.sakai.complaint.variant0",
+       "requiresRead": [
+        "camera"
+       ]
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case025.sakai.kimura",
+    "case025.sakai.complaint"
+   ],
+   "deflectAnswerKey": "case025.sakai.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#E8CDB0",
+    "shirtHex": "#2A3A5A"
+   },
+   "personQuoteKey": "case025.sakai.quote"
+  },
+  {
+   "id": "ishii",
+   "kind": "interview",
+   "titleKey": "case025.ishii.title",
+   "bodyKey": "case025.ishii.body",
+   "requires": [
+    "checkin"
+   ],
+   "personId": "ishii",
+   "personNameKey": "case025.person.ishii.name",
+   "personInfoKey": "case025.person.ishii.info",
+   "questions": [
+    {
+     "id": "case025.ishii.night",
+     "promptKey": "case025.ishii.night.question",
+     "answerKey": "case025.ishii.night.answer",
+     "topicKey": "interview.topic.observations",
+     "answerVariants": [
+      {
+       "answerKey": "case025.ishii.night.variant0",
+       "requiresRead": [
+        "camera"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case025.ishii.late",
+     "promptKey": "case025.ishii.late.question",
+     "answerKey": "case025.ishii.late.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case025.ishii.night"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case025.ishii.night",
+    "case025.ishii.late"
+   ],
+   "deflectAnswerKey": "case025.ishii.deflect",
+   "portrait": {
+    "hairHex": "#6A625A",
+    "skinHex": "#E2C2A2",
+    "shirtHex": "#4A4A4A"
+   }
+  },
+  {
+   "id": "camera",
+   "kind": "cctv",
+   "titleKey": "case025.camera.title",
+   "bodyKey": "case025.camera.body",
+   "requires": [
+    "checkin"
+   ],
+   "cctvSourceKey": "case025.cctv.source",
+   "cctvOverlayKey": "case025.cctv.overlay",
+   "cctvPeriodKey": "case025.cctv.period",
+   "cctvEvents": [
+    {
+     "id": "swap",
+     "textKey": "case025.cctv.event.swap",
+     "delayMs": 620,
+     "overlayTimeKey": "case025.time.swap"
+    },
+    {
+     "id": "in",
+     "textKey": "case025.cctv.event.in",
+     "delayMs": 620,
+     "overlayTimeKey": "case025.time.in"
+    },
+    {
+     "id": "reach",
+     "textKey": "case025.cctv.event.reach",
+     "delayMs": 620,
+     "overlayTimeKey": "case025.time.reach"
+    },
+    {
+     "id": "out",
+     "textKey": "case025.cctv.event.out",
+     "delayMs": 620,
+     "overlayTimeKey": "case025.time.out"
+    }
+   ]
+  },
+  {
+   "id": "cardlog",
+   "kind": "document",
+   "titleKey": "case025.cardlog.title",
+   "bodyKey": "case025.cardlog.body",
+   "requires": [
+    "camera"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case025.request.cardlog",
+   "requestDelaySeconds": 5
+  },
+  {
+   "id": "locker",
+   "kind": "document",
+   "titleKey": "case025.locker.title",
+   "bodyKey": "case025.locker.body",
+   "requires": [
+    "autopsy",
+    "checkin"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case025.request.locker",
+   "requestDelaySeconds": 4
+  },
+  {
+   "id": "kenta",
+   "kind": "interview",
+   "titleKey": "case025.kenta.title",
+   "bodyKey": "case025.kenta.body",
+   "requires": [
+    "locker"
+   ],
+   "personId": "kenta",
+   "personNameKey": "case025.person.kenta.name",
+   "personInfoKey": "case025.person.kenta.info",
+   "questions": [
+    {
+     "id": "case025.kenta.swap",
+     "promptKey": "case025.kenta.swap.question",
+     "answerKey": "case025.kenta.swap.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case025.kenta.why",
+     "promptKey": "case025.kenta.why.question",
+     "answerKey": "case025.kenta.why.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case025.kenta.swap"
+     ]
+    },
+    {
+     "id": "case025.kenta.who",
+     "promptKey": "case025.kenta.who.question",
+     "answerKey": "case025.kenta.who.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case025.kenta.why"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case025.kenta.swap",
+    "case025.kenta.why",
+    "case025.kenta.who"
+   ],
+   "deflectAnswerKey": "case025.kenta.deflect",
+   "portrait": {
+    "hairHex": "#1A1614",
+    "skinHex": "#E6C8AA",
+    "shirtHex": "#D8D8D0"
+   }
+  },
+  {
+   "id": "sakai_2",
+   "kind": "interview",
+   "titleKey": "case025.sakai_2.title",
+   "bodyKey": "case025.sakai_2.body",
+   "requires": [
+    "sakai",
+    "cardlog"
+   ],
+   "personId": "sakai",
+   "personNameKey": "case025.person.sakai.name",
+   "personInfoKey": "case025.person.sakai.info",
+   "questions": [
+    {
+     "id": "case025.sakai_2.card",
+     "promptKey": "case025.sakai_2.card.question",
+     "answerKey": "case025.sakai_2.card.answer",
+     "topicKey": "interview.topic.records",
+     "presentedSourceIds": [
+      "cardlog",
+      "checkin"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "cardlog",
+       "answerKey": "case025.sakai_2.card.presented.cardlog"
+      },
+      {
+       "sourceId": "checkin",
+       "answerKey": "case025.sakai_2.card.presented.checkin"
+      }
+     ]
+    },
+    {
+     "id": "case025.sakai_2.who",
+     "promptKey": "case025.sakai_2.who.question",
+     "answerKey": "case025.sakai_2.who.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case025.sakai_2.card"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case025.sakai_2.card",
+    "case025.sakai_2.who"
+   ],
+   "deflectAnswerKey": "case025.sakai.deflect",
+   "portrait": {
+    "hairHex": "#1E1A18",
+    "skinHex": "#E8CDB0",
+    "shirtHex": "#2A3A5A"
+   }
+  },
+  {
+   "id": "sakaiphone",
+   "kind": "document",
+   "titleKey": "case025.sakaiphone.title",
+   "bodyKey": "case025.sakaiphone.body",
+   "requires": [
+    "sakai_2"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case025.request.sakaiphone",
+   "requestDelaySeconds": 5,
+   "requiresAsked": [
+    "case025.sakai_2.who"
+   ]
+  },
+  {
+   "id": "taxi",
+   "kind": "document",
+   "titleKey": "case025.taxi.title",
+   "bodyKey": "case025.taxi.body",
+   "requires": [
+    "kenta",
+    "sakaiphone"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case025.request.taxi",
+   "requestDelaySeconds": 6,
+   "requiresAsked": [
+    "case025.kenta.who"
+   ]
+  },
+  {
+   "id": "pillowlab",
+   "kind": "document",
+   "titleKey": "case025.pillowlab.title",
+   "bodyKey": "case025.pillowlab.body",
+   "requires": [
+    "autopsy",
+    "camera"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case025.request.pillowlab",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "ota",
+   "kind": "interview",
+   "titleKey": "case025.ota.title",
+   "bodyKey": "case025.ota.body",
+   "requires": [
+    "kenta"
+   ],
+   "personId": "ota",
+   "personNameKey": "case025.person.ota.name",
+   "personInfoKey": "case025.person.ota.info",
+   "questions": [
+    {
+     "id": "case025.ota.night",
+     "promptKey": "case025.ota.night.question",
+     "answerKey": "case025.ota.night.answer",
+     "topicKey": "interview.topic.day",
+     "answerVariants": [
+      {
+       "answerKey": "case025.ota.night.variant0",
+       "requiresRead": [
+        "taxi"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case025.ota.mori",
+     "promptKey": "case025.ota.mori.question",
+     "answerKey": "case025.ota.mori.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case025.ota.night"
+     ]
+    },
+    {
+     "id": "case025.ota.sample",
+     "promptKey": "case025.ota.sample.question",
+     "answerKey": "case025.ota.sample.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case025.ota.mori"
+     ],
+     "presentedSourceIds": [
+      "sakaiphone",
+      "taxi"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "sakaiphone",
+       "answerKey": "case025.ota.sample.presented.sakaiphone"
+      },
+      {
+       "sourceId": "taxi",
+       "answerKey": "case025.ota.sample.presented.taxi"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case025.ota.night",
+    "case025.ota.mori",
+    "case025.ota.sample"
+   ],
+   "deflectAnswerKey": "case025.ota.deflect",
+   "portrait": {
+    "hairHex": "#2A2622",
+    "skinHex": "#DCBC9C",
+    "shirtHex": "#1A1A1E"
+   }
+  },
+  {
+   "id": "dna",
+   "kind": "document",
+   "titleKey": "case025.dna.title",
+   "bodyKey": "case025.dna.body",
+   "requires": [
+    "pillowlab",
+    "ota"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case025.request.dna",
+   "requestDelaySeconds": 8,
+   "requiresAsked": [
+    "case025.ota.sample"
+   ]
+  },
+  {
+   "id": "ota_2",
+   "kind": "interview",
+   "titleKey": "case025.ota_2.title",
+   "bodyKey": "case025.ota_2.body",
+   "requires": [
+    "ota",
+    "dna"
+   ],
+   "personId": "ota",
+   "personNameKey": "case025.person.ota.name",
+   "personInfoKey": "case025.person.ota.info",
+   "questions": [
+    {
+     "id": "case025.ota_2.end",
+     "promptKey": "case025.ota_2.end.question",
+     "answerKey": "case025.ota_2.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "dna"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case025.ota_2.end"
+   ],
+   "deflectAnswerKey": "case025.ota.deflect",
+   "portrait": {
+    "hairHex": "#2A2622",
+    "skinHex": "#DCBC9C",
+    "shirtHex": "#1A1A1E"
+   }
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "kimura",
+   "timeKey": "case025.time.kimura",
+   "noteKey": "case025.clue.kimura",
+   "sourceKey": "case025.clue.source.checkin",
+   "requiresRead": [
+    "checkin"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "snore",
+   "timeKey": "case025.time.snore",
+   "noteKey": "case025.clue.snore",
+   "sourceKey": "case025.clue.source.checkin",
+   "requiresRead": [
+    "checkin"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "swap",
+   "timeKey": "case025.time.swap",
+   "noteKey": "case025.clue.swap",
+   "sourceKey": "case025.cctv.source",
+   "requiresRead": [
+    "camera"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "msg",
+   "timeKey": "case025.time.msg",
+   "noteKey": "case025.clue.msg",
+   "sourceKey": "case025.clue.source.sakaiphone",
+   "requiresRead": [
+    "sakaiphone"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "in",
+   "timeKey": "case025.time.in",
+   "noteKey": "case025.clue.in",
+   "sourceKey": "case025.cctv.source",
+   "requiresRead": [
+    "camera"
+   ],
+   "sortMinute": 480
+  },
+  {
+   "id": "out",
+   "timeKey": "case025.time.out",
+   "noteKey": "case025.clue.out",
+   "sourceKey": "case025.cctv.source",
+   "requiresRead": [
+    "camera"
+   ],
+   "sortMinute": 600
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "ota",
+   "labelKey": "case025.verdict.ota",
+   "correct": true,
+   "feedbackKey": "case025.feedback.ota",
+   "requires": [],
+   "epilogueKey": "case025.epilogue.verdict.ota",
+   "supportingSourceIds": [
+    "dna",
+    "sakaiphone",
+    "taxi"
+   ]
+  },
+  {
+   "id": "sakai",
+   "labelKey": "case025.verdict.sakai",
+   "correct": false,
+   "feedbackKey": "case025.feedback.sakai",
+   "requires": [],
+   "epilogueKey": "case025.epilogue.verdict.sakai"
+  },
+  {
+   "id": "kenta",
+   "labelKey": "case025.verdict.kenta",
+   "correct": false,
+   "feedbackKey": "case025.feedback.kenta",
+   "requires": [],
+   "epilogueKey": "case025.epilogue.verdict.kenta"
+  },
+  {
+   "id": "nobody",
+   "labelKey": "case025.verdict.nobody",
+   "correct": false,
+   "feedbackKey": "case025.feedback.nobody",
+   "requires": [],
+   "epilogueKey": "case025.epilogue.verdict.nobody"
+  }
+ ],
+ "methods": [
+  {
+   "id": "pillow",
+   "labelKey": "case025.method.pillow",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "pillowlab"
+   ]
+  },
+  {
+   "id": "heart",
+   "labelKey": "case025.method.heart",
+   "correct": false
+  },
+  {
+   "id": "cord",
+   "labelKey": "case025.method.cord",
+   "correct": false
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case025.method.unknown",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "kenta",
+   "labelKey": "case025.custody.kenta",
+   "correct": true,
+   "epilogueKey": "case025.epilogue.custody.kenta",
+   "supportingSourceIds": [
+    "locker",
+    "kenta"
+   ]
+  },
+  {
+   "id": "tanabe",
+   "labelKey": "case025.custody.tanabe",
+   "correct": false,
+   "epilogueKey": "case025.epilogue.custody.tanabe"
+  },
+  {
+   "id": "sakai",
+   "labelKey": "case025.custody.sakai",
+   "correct": false,
+   "epilogueKey": "case025.epilogue.custody.sakai"
+  },
+  {
+   "id": "unknown",
+   "labelKey": "case025.custody.unknown",
+   "correct": false,
+   "epilogueKey": "case025.epilogue.custody.unknown"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "dna",
+   "labelKey": "case025.evidence.dna",
+   "correct": true,
+   "supportingSourceIds": [
+    "dna"
+   ]
+  },
+  {
+   "id": "sakaiphone",
+   "labelKey": "case025.evidence.sakaiphone",
+   "correct": false
+  },
+  {
+   "id": "taxi",
+   "labelKey": "case025.evidence.taxi",
+   "correct": false
+  },
+  {
+   "id": "cardlog",
+   "labelKey": "case025.evidence.cardlog",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case025.suspect.label",
+ "methodLabelKey": "case025.method.label",
+ "custodyLabelKey": "case025.custody.label",
+ "summary": {
+  "locationKey": "case025.summary.location",
+  "truthKey": "case025.summary.truth",
+  "evidenceKey": "case025.summary.evidence",
+  "lessonKey": "case025.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case026",
+ "ambienceId": "room_night",
+ "id": "case025"
+}
