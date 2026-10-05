@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 4 Ekim 2026 (kullanıcı üç vakayı ve yeni arayüzü Unity'de oynadı; kapanış turu)
+**Son durum:** 5 Ekim 2026 (Birleşik Krallık bölümü başladı: Dosya #011 veride)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -571,3 +571,10 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Sorgu odası: masa ön kenarı ahşap çizgisine indi (`TableEdge` .734, `Sink` .06); kişiyle masa arasındaki koyu şerit kalktı. Ekran görüntüsünde görüldü (2400×1080), cihazda bakılmadı.
 - [~] Galeri turu: açılış kartı tur boyunca atlanıyor (oyuncu kaydı geri yükleniyor), süre sınırı 30 dk; #005–#010 turları çekildi.
 - [ ] Rekonstrüksiyon ekranı, finale sinematiği ve Dosya #010 baştan sona Play Mode oynanışı (kullanıcı).
+
+## 5 Ekim 2026 — Birleşik Krallık: Dosya #011 "Sis Altında"
+- [~] Bölüm planı `Docs/UK_CHAPTER_PLAN.md`; ülke başına on dosya kanonu (kullanıcı kararı).
+- [~] Veri: `case011.json` (21 düğüm), `tr.case011.json` (217 metin), `Case011Rules`; #010 → #011 zinciri, `Worlds.json` UK ilk yuvası. 126/126 EditMode, 25 PlayMode + 1 atlandı. Play Mode'da oynanmadı.
+- [ ] Görseller: portreler (Daniel, Sam, Margaret, Graham, Lucy — Gemini), adli bulgu görselleri (Gemini), kapak ve CCTV 23.12 koşan figür 3 kare (ChatGPT). Kareler gelince `road#runner` olayına `framePaths` eklenecek.
+- [ ] Dünya geçişi sırası: #010 faksı artık #011'in masasında geliyor; Türkiye finali (DOSYA 011 mühürlü) UK dosyası açıldıktan sonra oynuyor. UK açılış sinematiğiyle birlikte düzeltilecek.
+

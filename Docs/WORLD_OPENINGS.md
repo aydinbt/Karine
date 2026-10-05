@@ -1,10 +1,10 @@
 # bube — dünya açılış sinematikleri
 
-**26 Eylül 2026 kullanıcı kararı.** Oyun **on ülke/dünya** için planlanır ve her dünya **yedi dosya** taşır — toplam 70. Bu sayı, 24 Eylül 2026'daki yedi dünya kararının yerine geçer; bölüm seçici ekranı birebir bu yerleşimle istendi ve kanon ona göre güncellendi. Dünya 1 Türkiye'dir; 2–10 arasındaki ülkeler artık **adlandırıldı** (aşağıdaki çizelge), ama mekânları, vakaları ve açılışları henüz yazılmadı.
+**26 Eylül 2026 kullanıcı kararı.** Oyun **on ülke/dünya** için planlanır ve her dünya **on dosya** taşır — toplam 100 (5 Ekim 2026 kullanıcı kararı; önce yedi/70 idi). Bu sayı, 24 Eylül 2026'daki yedi dünya kararının yerine geçer; bölüm seçici ekranı birebir bu yerleşimle istendi ve kanon ona göre güncellendi. Dünya 1 Türkiye'dir; 2–10 arasındaki ülkeler artık **adlandırıldı** (aşağıdaki çizelge), ama mekânları, vakaları ve açılışları henüz yazılmadı.
 
-**Sıra artık ilerleme kuralıdır.** Önceki not sırayı bağlayıcı saymıyordu; bölüm seçici geldikten sonra sayıyor: bir ülke, kendinden önceki ülkenin yedi dosyası kapanmadan açılmaz ve dosyalar ülke içinde sırayla açılır. Kilit yalnız ilerlemeyi gösterir — hiçbir yerde sıradaki adım söylenmez, fail veya ipucu verilmez. Teknik karşılığı `Docs/Architecture.md` → "Bölüm seçici verisi"; veri `Assets/Bube/Resources/Bube/Worlds.json`.
+**Sıra artık ilerleme kuralıdır.** Önceki not sırayı bağlayıcı saymıyordu; bölüm seçici geldikten sonra sayıyor: bir ülke, kendinden önceki ülkenin on dosyası kapanmadan açılmaz ve dosyalar ülke içinde sırayla açılır. Kilit yalnız ilerlemeyi gösterir — hiçbir yerde sıradaki adım söylenmez, fail veya ipucu verilmez. Teknik karşılığı `Docs/Architecture.md` → "Bölüm seçici verisi"; veri `Assets/Bube/Resources/Bube/Worlds.json`.
 
-**Ülke listesi kanon, içeriği değil.** Aşağıdaki on ülke seçicide görünür ve kilit sırasını belirler; her birinin şehri, atmosferi ve yedi dosyası ayrı yazılacak iştir. Bir ülkenin yeri değiştirilecekse tek düzenleme `Worlds.json` sırasıdır, ama o zaman bu belge de aynı oturumda güncellenir.
+**Ülke listesi kanon, içeriği değil.** Aşağıdaki on ülke seçicide görünür ve kilit sırasını belirler; her birinin şehri, atmosferi ve on dosyası ayrı yazılacak iştir. Bir ülkenin yeri değiştirilecekse tek düzenleme `Worlds.json` sırasıdır, ama o zaman bu belge de aynı oturumda güncellenir.
 
 ## Dünya 1 / Türkiye
 
@@ -18,17 +18,17 @@ Yeni kariyer ilk başladığında ve yalnız bu kariyerde bir kez yaklaşık 10 
 
 | Dünya | Ülke | Şehir | Dosya | Açılış |
 | --- | --- | --- | --- | --- |
-| 1 | Türkiye | İstanbul | 7 | Bora'nın Beşiktaş şubesine ilk gelişi — ilk sürüm mevcut |
-| 2 | Birleşik Krallık | Londra | 7 | Ayrı açılış gerekir |
-| 3 | Almanya | Berlin | 7 | Ayrı açılış gerekir |
-| 4 | Japonya | Tokyo | 7 | Ayrı açılış gerekir |
-| 5 | Fransa | Paris | 7 | Ayrı açılış gerekir |
-| 6 | ABD | Chicago | 7 | Ayrı açılış gerekir |
-| 7 | İtalya | Napoli | 7 | Ayrı açılış gerekir |
-| 8 | İspanya | Sevilla | 7 | Ayrı açılış gerekir |
-| 9 | Kanada | Montreal | 7 | Ayrı açılış gerekir |
-| 10 | Avustralya | Melbourne | 7 | Ayrı açılış gerekir |
+| 1 | Türkiye | İstanbul | 10 | Bora'nın Beşiktaş şubesine ilk gelişi — ilk sürüm mevcut |
+| 2 | Birleşik Krallık | Londra | 10 | Ayrı açılış gerekir; plan `UK_CHAPTER_PLAN.md` |
+| 3 | Almanya | Berlin | 10 | Ayrı açılış gerekir |
+| 4 | Japonya | Tokyo | 10 | Ayrı açılış gerekir |
+| 5 | Fransa | Paris | 10 | Ayrı açılış gerekir |
+| 6 | ABD | Chicago | 10 | Ayrı açılış gerekir |
+| 7 | İtalya | Napoli | 10 | Ayrı açılış gerekir |
+| 8 | İspanya | Sevilla | 10 | Ayrı açılış gerekir |
+| 9 | Kanada | Montreal | 10 | Ayrı açılış gerekir |
+| 10 | Avustralya | Melbourne | 10 | Ayrı açılış gerekir |
 
-Şehirler bölüm seçicinin ülke kartında görünür ve `Worlds.json` ile aynıdır; Türkiye dışındakiler ilk taslaktır, o ülkenin vakaları yazılırken değişebilir. Dosya sayısı on ülkede de yedidir: seçicinin ilerleme çubuğu ve `n / 70` sayacı aynı ölçeği gösterir, doğrulayıcı eşitliği kilitler.
+Şehirler bölüm seçicinin ülke kartında görünür ve `Worlds.json` ile aynıdır; Türkiye dışındakiler ilk taslaktır, o ülkenin vakaları yazılırken değişebilir. Dosya sayısı on ülkede de ondur: seçicinin ilerleme çubuğu ve `n / 100` sayacı aynı ölçeği gösterir, doğrulayıcı eşitliği kilitler.
 
 Her yeni açılış, o ülkenin yerel atmosferini taşımalı; Bora'yı ve bube kimliğini tutarlı korumalı. Bu açılışlar soruşturma kaynağı veya oyuncuya ipucu veren sahneler değildir.

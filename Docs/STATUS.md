@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim (akşam):** **Birleşik Krallık bölümü başladı.** Ülke başına on dosya kanonlaştı. **Dosya #011 "Sis Altında"** (Rotherhithe, rıhtımda ölüm; özet ile tam döküm) veriye girdi: 21 düğüm, 217 metin, #010'un ardından zincirde, UK'nin ilk yuvasında. Testler yeşil; Unity'de oynanmadı. Bekleyen: portreler ve adli görseller (Gemini), kapak ve CCTV kareleri (ChatGPT), dünya geçişi sırası.
+
 **5 Ekim:** CCTV kareleri yalnız soruşturmanın seyrini değiştiren olaylara konuyor; geri kalanı metin. #005 tamam; #006 beş, #007 üç, #008 bir olayın kareleri girdi. Görüntüye gömülü kamera yazısı yasak (dil değişince kalıyor). Kalan dört olay (#008 drop/garden, #009 arda_in/empty) rafa kaldırıldı. #001–#003'ün on portresi Gemini ile yeni tarzda yeniden çizildi; tüm vakalar artık tek portre tarzında. Testler yeşil (126/126 EditMode, 25 PlayMode + 1 atlandı). Unity'de görülmedi. Ardından #004–#006 portreleri de Gemini ile yenilendi (tüm vakalar tek tarz). Masada eşyaların havada durması (paralaks farkı) ve sorgu odasında kişiyle masa arasındaki koyu şerit düzeltildi. Galeri turu açılış kartında takılmıyor; #005–#010 tur görüntüleri alındı. Testler yeşil.
 
 **4 Ekim (gece, 7):** #009–#010 portreleri, kapakları ve #010'un on CCTV olayı girdi. **#005–#009'un CCTV kareleri (40 olay) henüz yok.** Kare sayısı artık olaya göre — çoğu olay 3 kare yetiyor. Testler yeşil; Unity'de görülmedi.

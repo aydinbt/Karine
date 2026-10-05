@@ -1,0 +1,872 @@
+{
+ "entries": [
+  {
+   "key": "case011.autopsy.body",
+   "value": "Bulgular:\n\n· Sağ temporal bölgede künt travma. Yarada pas ve demir oksit kalıntısı; iskeledeki demir halat babasının kenarıyla uyumlu.\n· Akciğerlerde ve mide içeriğinde nehir suyu, köpüklü sıvı. Kişi suya canlı hâlde düşmüştür. Ölüm sebebi: boğulma.\n· Kanda alkol: 0,9 promil. Orta düzey; tek başına denge kaybını açıklamaya yetmez.\n· Sol üst kolun iç yüzünde dört, dış yüzünde bir adet yuvarlak morluk. Bir elle sıkıca kavranmayla uyumlu; ölüme yakın zamanda oluşmuş.\n· Başka savunma yarası yok.\n\nTahmini ölüm zamanı: 9 Mart 22.45 – 23.45."
+  },
+  {
+   "key": "case011.autopsy.title",
+   "value": "OTOPSİ RAPORU — THOMAS REED"
+  },
+  {
+   "key": "case011.cctv.event.car",
+   "value": "Kamera 03: Bir binek araç lambanın altında duruyor, sürücü iniyor, rıhtıma doğru yürüyor. Araç orada kalıyor."
+  },
+  {
+   "key": "case011.cctv.event.car_out",
+   "value": "Kamera 03: Aynı kişi hızlı adımlarla araca dönüyor, kapıyı sertçe kapatıyor; araç uzaklaşıyor."
+  },
+  {
+   "key": "case011.cctv.event.runner",
+   "value": "Kamera 03: Sisin içinden kapüşonlu biri koşarak çıkıyor; rıhtımın çit tarafından geliyor. Sırtında bir çanta. Yüz seçilmiyor. Ana yola doğru kayboluyor."
+  },
+  {
+   "key": "case011.cctv.event.thomas_in",
+   "value": "Kamera 03: Bir erkek yoldan rıhtım kapısına doğru yürüyor; adımları düzgün. Kısa boylu, kalın montlu."
+  },
+  {
+   "key": "case011.cctv.overlay",
+   "value": "KAM 03"
+  },
+  {
+   "key": "case011.cctv.period",
+   "value": "9–10 Mart 2029, 21.00 – 00.30"
+  },
+  {
+   "key": "case011.cctv.source",
+   "value": "Rıhtım yolu kamerası"
+  },
+  {
+   "key": "case011.clue.bad_card",
+   "value": "Kart #07 ile geçiş denemesi reddediliyor."
+  },
+  {
+   "key": "case011.clue.call",
+   "value": "Thomas Daniel’i arıyor; cevapsız. Telefonun son hareketi."
+  },
+  {
+   "key": "case011.clue.d_claim",
+   "value": "Daniel babasını o akşam hiç görmediğini söylüyor."
+  },
+  {
+   "key": "case011.clue.d_in",
+   "value": "Daniel’in kartı giriş."
+  },
+  {
+   "key": "case011.clue.d_out",
+   "value": "Daniel’in kartı çıkış."
+  },
+  {
+   "key": "case011.clue.fired",
+   "value": "Kart #07’nin yetkisi kaldırılıyor."
+  },
+  {
+   "key": "case011.clue.m_heard",
+   "value": "Margaret bağırış ve suya düşme sesi duyduğunu söylüyor."
+  },
+  {
+   "key": "case011.clue.pub_out",
+   "value": "Thomas pub’da hesabı kapatıyor; üç bira."
+  },
+  {
+   "key": "case011.clue.road_car",
+   "value": "Bir araç duruyor, sürücü rıhtıma yürüyor."
+  },
+  {
+   "key": "case011.clue.road_car_out",
+   "value": "Sürücü araca dönüp uzaklaşıyor."
+  },
+  {
+   "key": "case011.clue.road_runner",
+   "value": "Kapüşonlu biri çit tarafından koşarak çıkıyor."
+  },
+  {
+   "key": "case011.clue.road_thomas_in",
+   "value": "Bir erkek yürüyerek rıhtım kapısına doğru."
+  },
+  {
+   "key": "case011.clue.s_claim",
+   "value": "Sam 18.30’dan sonra bütün gece evde olduğunu söylüyor."
+  },
+  {
+   "key": "case011.clue.source.gate",
+   "value": "Rıhtım kapısı kart kaydı"
+  },
+  {
+   "key": "case011.clue.source.pub",
+   "value": "Pub hesap fişi"
+  },
+  {
+   "key": "case011.clue.source.tphone",
+   "value": "Thomas Reed’in telefonu"
+  },
+  {
+   "key": "case011.clue.t_in",
+   "value": "Thomas’ın kartı rıhtım kapısından giriş."
+  },
+  {
+   "key": "case011.custody.fled",
+   "value": "Yardım çağırmadan kaçtı"
+  },
+  {
+   "key": "case011.custody.label",
+   "value": "Düşüşten sonra ne oldu?"
+  },
+  {
+   "key": "case011.custody.pushed_body",
+   "value": "Bilincini kaybeden Thomas’ı suya itti"
+  },
+  {
+   "key": "case011.custody.staged",
+   "value": "Olay yerini kaza gibi düzenledi"
+  },
+  {
+   "key": "case011.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case011.daniel.body",
+   "value": "Maktulün oğlunun ifadesi."
+  },
+  {
+   "key": "case011.daniel.deflect",
+   "value": "Bunu bilmiyorum. Babamın işleriydi."
+  },
+  {
+   "key": "case011.daniel.night.answer",
+   "value": "Evdeydim, Bermondsey’de. Babamı dün hiç görmedim. Telefonum sessizdeydi; sabah bir cevapsız araması olduğunu gördüm. Saat on bir gibi."
+  },
+  {
+   "key": "case011.daniel.night.answer.demeanor",
+   "value": "Cevabı hazır bekliyormuş gibi verdi."
+  },
+  {
+   "key": "case011.daniel.night.question",
+   "value": "Dün akşam neredeydiniz?"
+  },
+  {
+   "key": "case011.daniel.quote",
+   "value": "“Atölye onun hayatıydı.”"
+  },
+  {
+   "key": "case011.daniel.relation.answer",
+   "value": "İyiydi. Ortağız. Her baba oğul gibi tartışırdık, o kadar. Atölye onun hayatıydı."
+  },
+  {
+   "key": "case011.daniel.relation.answer.demeanor",
+   "value": "Gözlerini masadan kaldırmadı."
+  },
+  {
+   "key": "case011.daniel.relation.question",
+   "value": "Babanızla aranız nasıldı?"
+  },
+  {
+   "key": "case011.daniel.sale.answer",
+   "value": "Bir geliştirici teklif verdi. Graham Pike. Ben satalım diyordum; borç var, bina çürüyor. Babam istemiyordu. Bu yüzden mi soruyorsunuz? Ben babama…"
+  },
+  {
+   "key": "case011.daniel.sale.question",
+   "value": "Atölyenin geleceği konusunda anlaşıyor muydunuz?"
+  },
+  {
+   "key": "case011.daniel.staff.answer",
+   "value": "Bir çırak var. Babam onunla ilgilenirdi, ben pek karışmam. Kart listesi rıhtım yönetimindedir."
+  },
+  {
+   "key": "case011.daniel.staff.question",
+   "value": "Atölyede başka kim çalışıyor?"
+  },
+  {
+   "key": "case011.daniel.title",
+   "value": "Daniel Reed — görüşme"
+  },
+  {
+   "key": "case011.daniel_2.body",
+   "value": "Oğulla kart kaydı üzerine."
+  },
+  {
+   "key": "case011.daniel_2.card.answer",
+   "value": "Peki. Gittim. Dokuz buçuk gibi. Satışı konuşmak için. Bağırıştık, çıktım. Söylemedim çünkü nasıl görüneceğini biliyordum."
+  },
+  {
+   "key": "case011.daniel_2.card.answer.demeanor",
+   "value": "Omuzları düştü."
+  },
+  {
+   "key": "case011.daniel_2.card.question",
+   "value": "Dün akşamı yeniden anlatır mısınız?"
+  },
+  {
+   "key": "case011.daniel_2.left.answer",
+   "value": "İskeledeydi, sinirliydi. Ama sağdı. Kayıt ne diyorsa o saatte çıktım; eve gittim, telefonu sessize aldım. Aramasını sabah gördüm."
+  },
+  {
+   "key": "case011.daniel_2.left.question",
+   "value": "Çıktığınızda babanız ne durumdaydı?"
+  },
+  {
+   "key": "case011.daniel_2.stock.answer",
+   "value": "Babam bir şeylerin eksildiğini söylüyordu. Bronz bağlantılar, pervane somunları. Envanter defterine bakıyordu. Dün de ‘Hallediyorum’ dedi. O kadar."
+  },
+  {
+   "key": "case011.daniel_2.stock.question",
+   "value": "Atölyede son zamanlarda olağandışı bir şey var mıydı?"
+  },
+  {
+   "key": "case011.daniel_2.title",
+   "value": "Daniel Reed — ikinci görüşme"
+  },
+  {
+   "key": "case011.epilogue.custody.fled",
+   "value": "Thomas suya canlı düştü. Sam’in koştuğu çit ile iskele arası otuz metreydi; arama yapılsaydı ekip on dakikada gelebilirdi."
+  },
+  {
+   "key": "case011.epilogue.custody.pushed_body",
+   "value": "Suçlama, Thomas’ın düştüğü yerde tahtada sürüklenme izi bulunmayınca savunmayı güçlendirdi; dosya bu noktada zayıfladı."
+  },
+  {
+   "key": "case011.epilogue.custody.staged",
+   "value": "İskelede düzenleme izi aranıp bulunamadı. Savunma bunu Sam’in hiçbir şeye dokunmadan kaçtığının kanıtı olarak sundu."
+  },
+  {
+   "key": "case011.epilogue.custody.unknown",
+   "value": "Olaydan sonraki dakikalar dosyada açık kaldı."
+  },
+  {
+   "key": "case011.epilogue.verdict.daniel",
+   "value": "Daniel Reed gözaltına alındı. Telefonu 23.01’de babasının aramasını hâlâ cevapsız gösteriyordu; üç gün sonra serbest kaldı. Sam Okafor o hafta Londra’dan ayrılmıştı."
+  },
+  {
+   "key": "case011.epilogue.verdict.graham",
+   "value": "Graham Pike hakkındaki suçlama otel kaydı karşısında ilk duruşmada düştü. Şirketi rıhtım projesini bir yıl erteledi."
+  },
+  {
+   "key": "case011.epilogue.verdict.none",
+   "value": "Ölüm kaza olarak kapandı. Margaret Hale aylar sonra yerel bir gazeteye ‘O gece iki kişi vardı’ dedi; dosya yeniden açılmadı."
+  },
+  {
+   "key": "case011.epilogue.verdict.sam",
+   "value": "Sam Okafor ölüme sebebiyet ve yardım etmemek suçlamasıyla yargılanmak üzere tutuklandı. Avukatı itişmenin kasıtsız olduğunu kabul ettirdi; yardım çağırmadığı yirmi dakika dosyanın ağırlığı oldu."
+  },
+  {
+   "key": "case011.epilogue.verdict.undetermined",
+   "value": "Dosya şüpheli ölüm olarak açık kaldı. Atölye altı ay sonra satıldı."
+  },
+  {
+   "key": "case011.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case011.evidence.gate",
+   "value": "Rıhtım kapısı kart kaydı"
+  },
+  {
+   "key": "case011.evidence.note",
+   "value": "Devriye memurunun tutanak özeti"
+  },
+  {
+   "key": "case011.evidence.scrap",
+   "value": "Hurda metal alım kaydı"
+  },
+  {
+   "key": "case011.evidence.transcript",
+   "value": "İfade kaydının tam dökümü"
+  },
+  {
+   "key": "case011.feedback.daniel",
+   "value": "Özet ‘Daniel adı geçti’ diyordu; tam döküm bağıranın Thomas olduğunu ve Daniel’e bir şey söylemek istediğini gösteriyor. Daniel 21.52’de çıktı; 23.01’de babası onu arıyordu. Yalan söylemesi orada olduğunu göstermez."
+  },
+  {
+   "key": "case011.feedback.graham",
+   "value": "Graham’ın motifi vardı ama o gece Manchester’daydı; otel kaydı 22.31’de odaya girişini gösteriyor. Motif fırsat değildir."
+  },
+  {
+   "key": "case011.feedback.none",
+   "value": "Otopsi sol kolda bir elin kavrama izini, tanık bir boğuşmayı ve koşan birini anlatıyor. 0,9 promil alkol tek başına düşmeyi açıklamaya yetmiyor."
+  },
+  {
+   "key": "case011.feedback.sam",
+   "value": "Sam’in kartı 18.00’de iptal edilmişti ve 23.04’te reddedildi; çitten girdi. Margaret’in tam ifadesinde bağıran Thomas’tı: “Daniel’e söyleyeceğim.” Söyleyeceği şey Sam’in hurdaya sattığı parçalardı. Koldaki kavrama izi ve Sam’in kendi anlatımı aynı anı gösteriyor."
+  },
+  {
+   "key": "case011.feedback.undetermined",
+   "value": "Kart kaydı, tam döküm, otopsi ve hurda kayıtları o gece iskelede kimin olduğunu gösteriyordu."
+  },
+  {
+   "key": "case011.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case011.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case011.file.value.location",
+   "value": "Rotherhithe, Halyard Rıhtımı — Reed & Oğlu Tekne Atölyesi"
+  },
+  {
+   "key": "case011.file.value.number",
+   "value": "BDS-LDN-2029-0041"
+  },
+  {
+   "key": "case011.file.value.offence",
+   "value": "Şüpheli ölüm — suda bulunma"
+  },
+  {
+   "key": "case011.file.value.reporter",
+   "value": "Lucy Tran, sabah kürekçisi"
+  },
+  {
+   "key": "case011.gate.body",
+   "value": "Halyard Rıhtımı yaya kapısı kart okuyucusu. 9 Mart 17.30 – 10 Mart 06.30 arası kayıtlar:\n\n18.00 · Sistem · Kart #07 yetkisi kaldırıldı\n18.12 · Kart #02 · Thomas Reed · çıkış\n21.14 · Kart #02 · Thomas Reed · giriş\n21.28 · Kart #03 · Daniel Reed · giriş\n21.52 · Kart #03 · Daniel Reed · çıkış\n23.04 · Kart #07 · GEÇERSİZ KART — geçiş reddedildi\n06.31 · Polis · kapı elle açıldı\n\nRıhtım yönetimi notu: Kapının iki yanındaki çit 1,2 metredir; kapı dışından da geçilebilir."
+  },
+  {
+   "key": "case011.gate.title",
+   "value": "RIHTIM KAPISI KART KAYDI — 9/10 MART"
+  },
+  {
+   "key": "case011.graham.body",
+   "value": "Geliştiricinin ifadesi."
+  },
+  {
+   "key": "case011.graham.daniel.answer",
+   "value": "İki kez. Satmak istiyordu, babasını ikna edemiyordu. Bunu bir motif olarak görüyorsanız, benim değil onun dosyasına yazın."
+  },
+  {
+   "key": "case011.graham.daniel.question",
+   "value": "Daniel Reed’le görüştünüz mü?"
+  },
+  {
+   "key": "case011.graham.deflect",
+   "value": "Bu konuda avukatımla konuşmanızı isterim."
+  },
+  {
+   "key": "case011.graham.night.answer",
+   "value": "Manchester’da. Akşam yemekli bir yatırımcı toplantısı, ardından otel. Sabah haberi oradayken aldım."
+  },
+  {
+   "key": "case011.graham.night.question",
+   "value": "Dün akşam neredeydiniz?"
+  },
+  {
+   "key": "case011.graham.offer.answer",
+   "value": "Adil bir teklifti. Daha fazlasını da verirdim. Thomas inatçıydı ama dürüst adamdı; masaya oturmayı reddetmedi, sadece ‘hayır’ dedi. İş böyle yürür."
+  },
+  {
+   "key": "case011.graham.offer.question",
+   "value": "Thomas Reed’e verdiğiniz teklifi anlatır mısınız?"
+  },
+  {
+   "key": "case011.graham.quote",
+   "value": "“İş böyle yürür.”"
+  },
+  {
+   "key": "case011.graham.title",
+   "value": "Graham Pike — görüşme"
+  },
+  {
+   "key": "case011.hotel.body",
+   "value": "9 Mart 2029 · giriş 17.40\nRestoran hesabı · 19.30 – 22.15 · 4 kişi\nOda kartı · 22.31 giriş\nOda kartı · 10 Mart 07.02 çıkış\nKahvaltı · 07.10\n\nOtel ile Halyard Rıhtımı arası karayoluyla yaklaşık dört saattir."
+  },
+  {
+   "key": "case011.hotel.title",
+   "value": "OTEL KAYDI — GRAHAM PIKE, MANCHESTER"
+  },
+  {
+   "key": "case011.inventory.body",
+   "value": "El yazısıyla tutulmuş defterden seçilmiş satırlar:\n\n12 Ocak · bronz pervane somunu ×6 — rafta 2 kaldı?\n29 Ocak · bronz bağlantı (kosters) ×10 — eksik 4\n24 Şubat · bronz menteşe takımı yok. Daniel almadı.\n8 Mart · Old Kent Road’daki hurdacıya sordum. Fişleri gösterdiler. Yarın konuşacağım.\n9 Mart · Konuştum. Bitti."
+  },
+  {
+   "key": "case011.inventory.title",
+   "value": "ATÖLYE ENVANTER DEFTERİ — THOMAS REED’İN NOTLARI"
+  },
+  {
+   "key": "case011.lucy.body",
+   "value": "Cesedi bulan kürekçinin ifadesi."
+  },
+  {
+   "key": "case011.lucy.deflect",
+   "value": "Ben sadece kürek çekiyordum, başka bir şey bilmiyorum."
+  },
+  {
+   "key": "case011.lucy.fog.answer",
+   "value": "Kimseyi. O saatte burası bomboştur. Yalnızca teknedeki kadın, Margaret, polis gelince dışarı çıktı."
+  },
+  {
+   "key": "case011.lucy.fog.question",
+   "value": "Rıhtımda başka birini gördünüz mü?"
+  },
+  {
+   "key": "case011.lucy.found.answer",
+   "value": "Altı buçuğa doğru suya çıktım, sis hâlâ kalkmamıştı. İskelenin dibinde koyu bir şey gördüm, önce bir çuval sandım. Yaklaşınca… ceketiydi. Yüzüstü, kazığa takılmıştı. Sol kolundan ceketi sıyrılmıştı, kolu açıktaydı. Hemen aradım."
+  },
+  {
+   "key": "case011.lucy.found.question",
+   "value": "Cesedi nasıl buldunuz?"
+  },
+  {
+   "key": "case011.lucy.quote",
+   "value": "“Önce bir çuval sandım.”"
+  },
+  {
+   "key": "case011.lucy.title",
+   "value": "Lucy Tran — görüşme"
+  },
+  {
+   "key": "case011.lucy.usual.answer",
+   "value": "Genç bir çırak bazen erkenden gelir, kapıyı açardı. Bu sabah yoktu. Ama zaten erkendi."
+  },
+  {
+   "key": "case011.lucy.usual.question",
+   "value": "Atölyede sabahları kimseyi görür müydünüz?"
+  },
+  {
+   "key": "case011.margaret.body",
+   "value": "Komşu teknede yaşayan tanığın ifadesi."
+  },
+  {
+   "key": "case011.margaret.deflect",
+   "value": "Ben yalnızca duyduğumu anlatabilirim, tatlım."
+  },
+  {
+   "key": "case011.margaret.heard.answer",
+   "value": "Bağırış. Bir adam. Sonra o ses… suya bir şey düşünce çıkan ses. Ne dediğini memur beye bir bir anlattım, kaydetti de. Bir daha baştan anlatmaya gücüm yok, kusura bakmayın."
+  },
+  {
+   "key": "case011.margaret.heard.question",
+   "value": "O gece ne duydunuz?"
+  },
+  {
+   "key": "case011.margaret.quote",
+   "value": "“Rıhtımda gece bağıran çok olur.”"
+  },
+  {
+   "key": "case011.margaret.steps.answer",
+   "value": "Ayak sesi. İskele tahtası gıcırdar, bilirsiniz. Biri koştu, çit tarafına doğru. Kapıya değil, çite."
+  },
+  {
+   "key": "case011.margaret.steps.question",
+   "value": "Başka bir şey duydunuz mu?"
+  },
+  {
+   "key": "case011.margaret.thomas.answer",
+   "value": "On iki yıldır komşuyuz. Sessiz adamdı. İçerdi ama kendini kaybetmezdi; iskelede sarhoş gördüğümü hatırlamıyorum."
+  },
+  {
+   "key": "case011.margaret.thomas.question",
+   "value": "Thomas Reed’i tanır mıydınız?"
+  },
+  {
+   "key": "case011.margaret.time.answer",
+   "value": "Radyoda haberler bitmişti. On biri biraz geçiyordu. On bir on, belki."
+  },
+  {
+   "key": "case011.margaret.time.question",
+   "value": "Saat kaçtı?"
+  },
+  {
+   "key": "case011.margaret.title",
+   "value": "Margaret Hale — görüşme"
+  },
+  {
+   "key": "case011.method.accident",
+   "value": "Tek başına kaza — alkol ve sis"
+  },
+  {
+   "key": "case011.method.deliberate",
+   "value": "Kasten öldürme"
+  },
+  {
+   "key": "case011.method.label",
+   "value": "Ölüm nasıl oldu?"
+  },
+  {
+   "key": "case011.method.push_fall",
+   "value": "İtişme sırasında düşme"
+  },
+  {
+   "key": "case011.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case011.note.body",
+   "value": "Devriye memurunun ön görüşme özeti. Yer: Hale’in teknesi ‘Wren’, Halyard Rıhtımı. Saat 07.05.\n\nTanık, gece saat 23.00 sularında uyanık olduğunu, sis nedeniyle dışarıyı göremediğini beyan etti. Bir erkeğin bağırdığını duydu; ‘Daniel’ adı geçti. Ardından suya bir şey düşmüş gibi bir ses duydu. Dışarı baktı, kimseyi görmedi. Polisi aramadı; “Rıhtımda gece bağıran çok olur” dedi.\n\nNot: Maktulün oğlunun adı Daniel’dir.\n\nGörüşme ses kaydına alınmıştır."
+  },
+  {
+   "key": "case011.note.title",
+   "value": "TUTANAK ÖZETİ — MARGARET HALE"
+  },
+  {
+   "key": "case011.offer.body",
+   "value": "2 Şubat 2029 tarihli mektup, Thomas Reed’e:\n\n“Halyard Rıhtımı’ndaki atölye ve iskele hakkınız için önceki teklifimizi %15 artırarak yineliyoruz. Bölgedeki diğer iki mülk sahibi anlaşmayı imzalamıştır. Projenin takvimi açısından Nisan sonuna kadar yanıtınızı bekliyoruz. — Graham Pike”\n\nMektubun altında Thomas Reed’in el yazısıyla tek kelime: “Hayır.”"
+  },
+  {
+   "key": "case011.offer.subtitle",
+   "value": "SİS ALTINDA  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case011.offer.summary",
+   "value": "Rotherhithe’de sisli bir gecenin sabahında yaşlı bir tekne ustası, kendi iskelesinin dibinde suda bulunuyor. İlk not ‘alkollü, kaza’ diyor. Londra şubesindeki ilk dosyan."
+  },
+  {
+   "key": "case011.offer.title",
+   "value": "DOSYA #011"
+  },
+  {
+   "key": "case011.person.daniel.info",
+   "value": "34 yaşında, Thomas Reed’in oğlu ve atölyenin ortağı. İşin müşteri ve hesap tarafını yürütüyor."
+  },
+  {
+   "key": "case011.person.daniel.name",
+   "value": "Daniel Reed"
+  },
+  {
+   "key": "case011.person.graham.info",
+   "value": "52 yaşında, kıyı konutları geliştiren bir şirketin sahibi. Rıhtımı satın almak istiyor."
+  },
+  {
+   "key": "case011.person.graham.name",
+   "value": "Graham Pike"
+  },
+  {
+   "key": "case011.person.lucy.info",
+   "value": "40 yaşında, sabah kürek antrenmanı yapan bir sporcu. Cesedi bulan kişi."
+  },
+  {
+   "key": "case011.person.lucy.name",
+   "value": "Lucy Tran"
+  },
+  {
+   "key": "case011.person.margaret.info",
+   "value": "58 yaşında, emekli müzik öğretmeni. Atölyenin iskelesine bağlı ‘Wren’ adlı teknede yaşıyor."
+  },
+  {
+   "key": "case011.person.margaret.name",
+   "value": "Margaret Hale"
+  },
+  {
+   "key": "case011.person.sam.info",
+   "value": "27 yaşında, atölyede üç yıldır çalışan çırak."
+  },
+  {
+   "key": "case011.person.sam.name",
+   "value": "Sam Okafor"
+  },
+  {
+   "key": "case011.pub.body",
+   "value": "9 Mart 2029, masa 4 · Thomas Reed\n\n19.22 · bira (pint)\n20.05 · bira (pint)\n20.40 · bira (pint)\n21.08 · hesap kapatıldı · nakit\n\nBarmenin notu: “Her zamanki gibiydi. Ayaktaydı, düzgün konuşuyordu. Telefonla biriyle sinirli konuştu, sonra erken kalktı.”"
+  },
+  {
+   "key": "case011.pub.title",
+   "value": "THE MOORING LINE — HESAP FİŞİ"
+  },
+  {
+   "key": "case011.report.body",
+   "value": "10 Mart 2029 sabahı saat 06.20’de Rotherhithe, Halyard Rıhtımı’nda kürek antrenmanı yapan Lucy Tran, Reed & Oğlu Tekne Atölyesi’nin iskelesi yanında suda bir ceset gördüğünü bildirdi.\n\nCeset atölyenin sahibi Thomas Reed (61) olarak tanındı. Kişi iskelenin kazıklarından birine takılı hâlde, yüzüstü bulundu.\n\nİlk gelen devriye memurunun notu: “Maktulün önceki akşam yakındaki bir pub’da bulunduğu öğrenildi. Alkollü hâlde iskeleden düşmüş olabilir. İlk bakışta yabancı müdahale bulgusu görülmedi.”\n\nOlay gecesi rıhtımda yoğun sis vardı. Görüş mesafesi birkaç metreydi.\n\nÖlüm şüpheli sayılarak dosya bube Londra — Southwark şubesine devredildi."
+  },
+  {
+   "key": "case011.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case011.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case011.request.gate",
+   "value": "Rıhtım kapısı kart kaydını iste"
+  },
+  {
+   "key": "case011.request.hotel",
+   "value": "Graham Pike’ın otel kaydını iste"
+  },
+  {
+   "key": "case011.request.inventory",
+   "value": "Atölyenin envanter defterini iste"
+  },
+  {
+   "key": "case011.request.pub",
+   "value": "Pub’ın hesap kaydını iste"
+  },
+  {
+   "key": "case011.request.scrap",
+   "value": "Bölgedeki hurda alım kayıtlarını iste"
+  },
+  {
+   "key": "case011.request.tphone",
+   "value": "Thomas Reed’in telefon kaydını iste"
+  },
+  {
+   "key": "case011.request.transcript",
+   "value": "Margaret Hale’in ifade kaydının tam dökümünü iste"
+  },
+  {
+   "key": "case011.road.body",
+   "value": "Rıhtım yolunun girişindeki bir dükkânın kamerası. 9 Mart 21.00 – 10 Mart 00.30 arası. Sis yüzünden görüntü çoğu zaman yalnızca sokak lambasının halesinden ibarettir; yüzler seçilmez."
+  },
+  {
+   "key": "case011.road.title",
+   "value": "RIHTIM YOLU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case011.sam.body",
+   "value": "Atölye çırağının ifadesi."
+  },
+  {
+   "key": "case011.sam.deflect",
+   "value": "Bilmiyorum… gerçekten bilmiyorum."
+  },
+  {
+   "key": "case011.sam.job.answer",
+   "value": "Evet. Yani… dün biraz tartıştık ama o kadar. Her usta bağırır."
+  },
+  {
+   "key": "case011.sam.job.answer.demeanor",
+   "value": "Bir an durdu, sonra hızlı konuştu."
+  },
+  {
+   "key": "case011.sam.job.question",
+   "value": "Hâlâ atölyede çalışıyor musunuz?"
+  },
+  {
+   "key": "case011.sam.night.answer",
+   "value": "Altı buçukta çıktım, eve gittim, Deptford. Bütün gece evdeydim. Oyun oynadım, sonra yattım."
+  },
+  {
+   "key": "case011.sam.night.question",
+   "value": "Dün akşam neredeydiniz?"
+  },
+  {
+   "key": "case011.sam.quote",
+   "value": "“Bana her şeyi o öğretti.”"
+  },
+  {
+   "key": "case011.sam.relation.answer",
+   "value": "İyi bir ustaydı. Bana her şeyi o öğretti, rendeyi bile. Ne olduğuna inanamıyorum."
+  },
+  {
+   "key": "case011.sam.relation.answer.demeanor",
+   "value": "Ellerini dizlerinin arasında sıkıyordu."
+  },
+  {
+   "key": "case011.sam.relation.question",
+   "value": "Thomas Reed’le nasıl çalışıyordunuz?"
+  },
+  {
+   "key": "case011.sam.title",
+   "value": "Sam Okafor — görüşme"
+  },
+  {
+   "key": "case011.sam_2.body",
+   "value": "Çırakla kart listesi üzerine."
+  },
+  {
+   "key": "case011.sam_2.card.answer",
+   "value": "Tamam. Kovdu beni. Utandım, söylemedim. Gece aletlerim için gittim; kendi aletlerim, üç yılda aldım. Kartım çalışmadı. Çitten geçtim, alçaktır."
+  },
+  {
+   "key": "case011.sam_2.card.answer.demeanor",
+   "value": "Sesi kısıldı."
+  },
+  {
+   "key": "case011.sam_2.card.question",
+   "value": "Dün akşamı yeniden anlatır mısınız?"
+  },
+  {
+   "key": "case011.sam_2.thomas.answer",
+   "value": "İskeledeydi. Konuştuk. Biraz bağırdı; ben aletlerimi aldım, çıktım. Sağdı. Yemin ederim sağdı."
+  },
+  {
+   "key": "case011.sam_2.thomas.answer.demeanor",
+   "value": "Gözlerini kaçırdı."
+  },
+  {
+   "key": "case011.sam_2.thomas.question",
+   "value": "Thomas Reed’i gördünüz mü?"
+  },
+  {
+   "key": "case011.sam_2.title",
+   "value": "Sam Okafor — ikinci görüşme"
+  },
+  {
+   "key": "case011.sam_2.why.answer",
+   "value": "Bir yanlış anlaşılma. Atölyeden bir şeylerin kaybolduğunu düşünüyordu. Ben değildim."
+  },
+  {
+   "key": "case011.sam_2.why.question",
+   "value": "Sizi neden kovdu?"
+  },
+  {
+   "key": "case011.sam_3.body",
+   "value": "Çırakla hurda kayıtları üzerine."
+  },
+  {
+   "key": "case011.sam_3.help.answer",
+   "value": "Korktum. Herkes benim ittiğimi düşünecekti. Çite koştum. Bütün gece telefona baktım, aramadım. Aramadım."
+  },
+  {
+   "key": "case011.sam_3.help.question",
+   "value": "Neden kimseyi aramadınız?"
+  },
+  {
+   "key": "case011.sam_3.money.answer",
+   "value": "Evet. Sattım. Borcum vardı, annemin kirası… Thomas biliyordu. Dün akşam beni kovdu, gece de ‘Daniel’e söyleyeceğim, sonra polise’ dedi. Yalvarmaya gitmiştim aslında. Aletler bahaneydi."
+  },
+  {
+   "key": "case011.sam_3.money.answer.demeanor",
+   "value": "Uzun bir süre sustu, sonra konuştu."
+  },
+  {
+   "key": "case011.sam_3.money.question",
+   "value": "Bu satışları açıklar mısınız?"
+  },
+  {
+   "key": "case011.sam_3.pier.answer",
+   "value": "Telefonu çıkardı, Daniel’i arıyordu. Kolundan tuttum, ‘Yapma’ dedim. Silkindi, ayağı kaydı, sis, tahtalar ıslak… Başı demire çarptı. Sonra su. Seslendim, göremedim. Hiçbir şey göremedim."
+  },
+  {
+   "key": "case011.sam_3.pier.question",
+   "value": "İskelede tam olarak ne oldu?"
+  },
+  {
+   "key": "case011.sam_3.title",
+   "value": "Sam Okafor — üçüncü görüşme"
+  },
+  {
+   "key": "case011.scrap.body",
+   "value": "Old Kent Road’daki bir hurda alım noktasının satıcı kayıtları (kimlik ibrazlı):\n\n14 Ocak 2029 · Sam Okafor · bronz, karışık · 4,2 kg · £96\n3 Şubat 2029 · Sam Okafor · bronz bağlantı parçaları · 3,1 kg · £71\n1 Mart 2029 · Sam Okafor · bronz menteşe, somun · 5,6 kg · £128\n\nGörevli notu: 8 Mart’ta yaşlı bir adam gelip bu fişleri sordu; kendini atölye sahibi olarak tanıttı."
+  },
+  {
+   "key": "case011.scrap.title",
+   "value": "HURDA METAL ALIM KAYDI — KEMBLE METAL"
+  },
+  {
+   "key": "case011.staff.body",
+   "value": "Reed & Oğlu Tekne Atölyesi adına tanımlı kartlar:\n\n#02 · Thomas Reed · sahip · etkin\n#03 · Daniel Reed · ortak · etkin\n#07 · Sam Okafor · çırak · 9 Mart 18.00 itibarıyla iptal (talep eden: T. Reed, telefonla 17.52; gerekçe: “iş ilişkisi sona erdi”)\n#11 · Temizlik firması · pasif"
+  },
+  {
+   "key": "case011.staff.title",
+   "value": "ATÖLYE KART LİSTESİ — RIHTIM YÖNETİMİ"
+  },
+  {
+   "key": "case011.summary.evidence",
+   "value": "Devriye özeti ‘Daniel adı geçti’ diyordu; ses kaydının tam dökümü bağıranın Thomas olduğunu ve cümlenin “Daniel’e söyleyeceğim” olduğunu gösterdi. Kart listesi geçersiz kartın Sam’e ait olduğunu, hurda kayıtları Thomas’ın neyi söyleyeceğini, otopsi koldaki kavrama izini ve suya canlı düşüşü ortaya koydu."
+  },
+  {
+   "key": "case011.summary.lesson",
+   "value": "Özet kayıt değildir: bir ifadenin kim tarafından, nasıl yazıldığına bak. Yalan söyleyen kişi fail olmayabilir; motif fırsat değildir."
+  },
+  {
+   "key": "case011.summary.location",
+   "value": "Rotherhithe, Halyard Rıhtımı — 9–10 Mart 2029"
+  },
+  {
+   "key": "case011.summary.truth",
+   "value": "Thomas Reed, çırağı Sam Okafor’un atölyeden bronz parçalar çalıp hurdaya sattığını öğrendi; 9 Mart akşamı onu kovdu ve kartını iptal ettirdi. Gece 23.04’te Sam’in kartı rıhtım kapısında reddedildi; Sam çitten girdi. Thomas iskelede “Daniel’e söyleyeceğim!” diye bağırıp oğlunu aradı. Sam kolundan tuttu; Thomas silkindi, kaydı, başını halat babasına çarpıp suya düştü. Sam yardım çağırmadan kaçtı. Thomas boğuldu. Daniel o akşam babasıyla tartıştığını saklamıştı ama 21.52’de çıkmıştı."
+  },
+  {
+   "key": "case011.suspect.label",
+   "value": "O gece iskelede Thomas’la kim vardı?"
+  },
+  {
+   "key": "case011.tablet.caseLine",
+   "value": "DOSYA #011  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case011.time.bad_card",
+   "value": "23.04"
+  },
+  {
+   "key": "case011.time.call",
+   "value": "23.01"
+  },
+  {
+   "key": "case011.time.car",
+   "value": "21.26"
+  },
+  {
+   "key": "case011.time.car_out",
+   "value": "21.54"
+  },
+  {
+   "key": "case011.time.d_claim",
+   "value": "akşam"
+  },
+  {
+   "key": "case011.time.d_in",
+   "value": "21.28"
+  },
+  {
+   "key": "case011.time.d_out",
+   "value": "21.52"
+  },
+  {
+   "key": "case011.time.fired",
+   "value": "18.00"
+  },
+  {
+   "key": "case011.time.m_heard",
+   "value": "~23.10"
+  },
+  {
+   "key": "case011.time.pub_out",
+   "value": "21.08"
+  },
+  {
+   "key": "case011.time.runner",
+   "value": "23.12"
+  },
+  {
+   "key": "case011.time.s_claim",
+   "value": "18.30 →"
+  },
+  {
+   "key": "case011.time.t_in",
+   "value": "21.14"
+  },
+  {
+   "key": "case011.time.thomas_in",
+   "value": "21.13"
+  },
+  {
+   "key": "case011.title",
+   "value": "Dosya #011 — Sis Altında"
+  },
+  {
+   "key": "case011.tphone.body",
+   "value": "9 Mart 2029, seçilmiş kayıtlar:\n\n17.52 · giden · Halyard Rıhtım Yönetimi · 3 dk 40 sn\n18.40 · gelen · Daniel Reed · 1 dk 12 sn\n21.05 · giden · The Mooring Line (pub) · 0 sn\n23.01 · giden · Daniel Reed · cevapsız\n\n23.01’den sonra telefonda hiçbir hareket yok. Cihaz suda bulundu."
+  },
+  {
+   "key": "case011.tphone.title",
+   "value": "TELEFON KAYDI — THOMAS REED"
+  },
+  {
+   "key": "case011.transcript.body",
+   "value": "Ses kaydından tam döküm. 10 Mart 07.05, ‘Wren’ teknesi.\n\nMEMUR: Ne duydunuz?\nHALE: Uyuyamamıştım. Bir adam bağırdı, çok öfkeliydi. “Daniel’e söyleyeceğim!” dedi. Tam böyle. Öteki bir şey dedi, alçak sesle, anlamadım. Tahtalar gıcırdadı, bir boğuşma gibi. Sonra şapırtı.\nMEMUR: Bağıran kimdi?\nHALE: Thomas’tı herhalde. Sesi kalındı. Kiminle konuştuğunu bilmiyorum.\nMEMUR: Yani Daniel adı geçti.\nHALE: Geçti, evet.\nMEMUR: Tamam. Başka?\nHALE: Biri koştu. Çit tarafına. Sonra hiçbir şey.\nMEMUR: Neden aramadınız?\nHALE: Rıhtımda gece bağıran çok olur. Şapırtıyı şişe sandım. Keşke…"
+  },
+  {
+   "key": "case011.transcript.title",
+   "value": "İFADE KAYDI DÖKÜMÜ — MARGARET HALE"
+  },
+  {
+   "key": "case011.verdict.daniel",
+   "value": "Daniel Reed"
+  },
+  {
+   "key": "case011.verdict.graham",
+   "value": "Graham Pike"
+  },
+  {
+   "key": "case011.verdict.none",
+   "value": "Kimse — tek başına düştü"
+  },
+  {
+   "key": "case011.verdict.sam",
+   "value": "Sam Okafor"
+  },
+  {
+   "key": "case011.verdict.undetermined",
+   "value": "Belirlenemedi"
+  }
+ ]
+}

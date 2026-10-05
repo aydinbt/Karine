@@ -1,8 +1,8 @@
 # Birleşik Krallık bölümü — plan (taslak, 5 Ekim 2026)
 
-**Kullanıcı kararları (5 Ekim 2026):** Bora bube **Londra şubesine tayin** edilir — aynı kurum, yerel şube; kariyer, rütbe ve kurum güveni Türkiye'den devam eder. Oyun metni Türkçe kalır; kişi, sokak ve mekân adları İngiliz, kurumlar **kurmacadır** (gerçek polis birimi, mahkeme, şirket, marka yok). Vakalar **bağımsızdır**; #020 bölüm finalidir ve Almanya'ya geçişi açar. İlk adım bu plan + `CASE011_DESIGN.md`; veri ve metin onaydan sonra.
+**Kullanıcı kararları (5 Ekim 2026):** Bora bube **Londra şubesine tayin** edilir — aynı kurum, yerel şube; kariyer, rütbe ve kurum güveni Türkiye'den devam eder. Oyun metni Türkçe kalır; kişi, sokak ve mekân adları İngiliz, kurumlar **kurmacadır** (gerçek polis birimi, mahkeme, şirket, marka yok). Vakalar **bağımsızdır**; #020 bölüm finalidir ve Almanya'ya geçişi açar. #011 onaylandı ve veriye girdi (5 Ekim 2026).
 
-**Sayı:** `Worlds.json` her ülkeye **on** yuva veriyor ve Türkiye on dosyayla kapandı. `WORLD_OPENINGS.md` hâlâ "yedi dosya / 70" yazıyor — bu belge veriyle çelişiyor; on dosya (100) kabul edilirse kanon aynı oturumda düzeltilecek.
+**Sayı:** ülke başına on dosya (5 Ekim 2026 kullanıcı kararı).
 
 ## Yer ve ton
 Şube: **bube Londra — Southwark**, Thames'in güney kıyısında eski bir depo binası. Zaman Mart 2029'dan başlar (Türkiye finali Ocak 2029). Ton: sis, yağmur, gece otobüsleri, rıhtımlar, pub kapanış saati. Masa aynı; pencere Londra kartpostalını gösterir.
@@ -30,3 +30,7 @@ Her dosya kendi içinde kapanır; ortak örgüt yok. Adlar Türkiye bölümünde
 - Dünya geçişi: #010 faksı → final sinematiği → UK açılışı → #011 teklifi; kilit `Worlds.json`'dan.
 - `Worlds.json` UK yuvalarına `case011…` bağlanması; UK kartpostalı, bayrak, pencere görseli.
 - Doğrulayıcı: `Case011Rules` (vaka başına kural dosyası, mevcut düzen).
+
+## Görsel üretimi (5 Ekim 2026 kullanıcı kararı)
+- **ChatGPT:** CCTV kareleri ve bölüm/dosya kapakları.
+- **Gemini:** portreler ve oyun içi adli bulgu görselleri (delil fotoğrafları vb.).
