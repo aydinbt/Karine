@@ -33,7 +33,19 @@
     }
    ],
    "notPresentable": true,
-   "notReportSource": true
+   "notReportSource": true,
+   "relatedItems": [
+    {
+     "nameKey": "case011.item.bollard.name",
+     "detailKey": "case011.item.bollard.detail",
+     "imageResource": "Bube/Items/case011_bollard"
+    },
+    {
+     "nameKey": "case011.item.phone.name",
+     "detailKey": "case011.item.phone.detail",
+     "imageResource": "Bube/Items/case011_phone"
+    }
+   ]
   },
   {
    "id": "note",
@@ -472,6 +484,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case011.daniel_2.stock"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case011.item.ledger.name",
+     "detailKey": "case011.item.ledger.detail",
+     "imageResource": "Bube/Items/case011_ledger"
+    }
    ]
   },
   {
@@ -484,7 +503,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case011.request.scrap",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case011.item.bronze.name",
+     "detailKey": "case011.item.bronze.detail",
+     "imageResource": "Bube/Items/case011_bronze"
+    }
+   ]
   },
   {
    "id": "sam_3",
