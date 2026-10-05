@@ -914,19 +914,19 @@ A 70-year-old Neapolitan doorman, white hair combed neatly, bushy white eyebrows
 
 ## Dosya #051 (3)
 
-140. **Gianni De Luca** → `gianni.png`
+140. **Gianni De Luca** → `gianni.png` ✅
 
 ```
 A 56-year-old Italian ferry captain, short grey hair, deeply tanned leathery face, heavy grey moustache, cold narrow eyes. White short-sleeved captain's shirt with plain epaulettes and no insignia. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-141. **Tommaso Scotto** → `tommaso.png`
+141. **Tommaso Scotto** → `tommaso.png` ✅
 
 ```
 A 31-year-old Italian deckhand, curly black hair, sun-darkened skin, a small scar on his chin, uneasy downcast eyes. Navy blue crew sweater with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-142. **Birgit Holm** → `holm.png`
+142. **Birgit Holm** → `holm.png` ✅
 
 ```
 A 64-year-old Swedish woman, short white hair, pale skin with sunburnt cheeks, bright alert blue eyes, reading glasses on a cord. Red windbreaker over a striped top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
