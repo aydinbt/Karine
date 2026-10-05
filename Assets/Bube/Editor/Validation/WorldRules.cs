@@ -25,10 +25,10 @@ public static class WorldRules {
    if (!ids.Add(country.id)) report.Problem("Ülke kimliği iki kez geçiyor: " + country.id);
    foreach (var key in new[] { country.nameKey, country.cityKey, country.descriptionKey })
     report.Require(locale.Has(key), "Ülke metni yok (" + country.id + "): " + key);
-   // Yuva sayısı ülkeler arasında değişmez: ilerleme çubuğu ve "3 / 7" sayacı
-   // aynı ölçeği gösterir.
-   if (slots == 0) slots = country.slots.Count;
-   report.Require(country.slots.Count == slots,
+   // İlk ülke (Türkiye) 10 dosyalık öğretici bölümdür; sonraki ülkelerin yuva
+   // sayısı birbirine eşittir (5 Ekim 2026 kullanıcı kararı: 7).
+   if (country != atlas.countries[0] && slots == 0) slots = country.slots.Count;
+   report.Require(country == atlas.countries[0] || country.slots.Count == slots,
     "Ülkenin dosya yuvası sayısı farklı (" + country.id + "): " + country.slots.Count + " ≠ " + slots);
    foreach (var slot in country.slots) {
     report.Require(locale.Has(slot.titleKey), "Dosya başlığı yok (" + country.id + "): " + slot.titleKey);

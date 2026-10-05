@@ -1080,3 +1080,7 @@ Kullanıcı kararları: Bora bube Londra şubesine (Southwark) **tayin** edilir;
 ## Olay Yeri Planı (5 Ekim 2026)
 
 Kullanıcı #015 için "bir üst seviye konu, yeni özellik" istedi ve tasarımı onayladı. Yeni yetenek: tanığın **nereden bakabildiğini** sınamak. Plan bir belgedir; tanığa ilgili soru sorulunca anlattığı yer, bir kayıt okununca kaydın gösterdiği yer planda işaret olur. Dokununca görüş konisi çizilir; engeller gölge bırakır. Oyun hiçbir işaretin doğru olup olmadığını söylemez, işaretleri renklendirmez; beyan ile kayıt yalnız dolgu tonuyla ayrılır (iki tür kaynak, hüküm değil). Plan adsızdır, kimseye öne sürülemez. Sonraki vakalar aynı alanı kullanabilir.
+
+## Dosya sayısı: Türkiye 10, sonraki ülkeler 7 (5 Ekim 2026)
+
+Kullanıcı ülke başına on dosya kararını değiştirdi: Türkiye öğretici bölüm olarak on dosyada kalır (hikâyeleri, görselleri ve yetenek sırası korunur), sonraki dokuz ülke yedişer dosya. On ülkeyle toplam 73. Birleşik Krallık #011–#017; #015 yazılı, #016 seçilecek, #017 final. Seçicideki yuva sayısı artık yalnız Türkiye dışındaki ülkeler arasında eşit tutulur. Türkiye'den dosya taşıma önerisi değerlendirildi, yapılmadı.

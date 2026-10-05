@@ -85,9 +85,10 @@ public sealed class WorldTests {
  public void ShippedAtlasLoads() {
   var atlas = Worlds.Load();
   Assert.Greater(atlas.countries.Count, 0, "Bölüm seçici verisi okunamadı.");
-  foreach (var country in atlas.countries)
-   Assert.AreEqual(atlas.countries[0].slots.Count, country.slots.Count,
-    "Her ülke aynı sayıda dosya yuvası göstermeli: " + country.id);
+  // Türkiye 10 dosyalık öğretici bölüm; sonraki her ülke 7 dosya (5 Ekim 2026).
+  Assert.AreEqual(10, atlas.countries[0].slots.Count, "Türkiye 10 dosya yuvası göstermeli.");
+  foreach (var country in atlas.countries.Skip(1))
+   Assert.AreEqual(7, country.slots.Count, "Ülke 7 dosya yuvası göstermeli: " + country.id);
  }
 }
 }

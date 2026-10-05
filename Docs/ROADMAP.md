@@ -598,3 +598,9 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Yeni özellik — Olay Yeri Planı: `Node.scenePlan` (`ScenePlan`, `PlanPoint`, `PlanOccluder`, `PlanMarker`), `Investigation.MarkerAvailable`, saf geometri `SightLine` (kesişim, görüş, koni) + 6 EditMode testi; doğrulayıcı kuralları (`CaseRules`); `KarineUI.ScenePlanView` belgede çizilir: engeller, olay çarpısı, kilidi açık işaretler, dokununca koni. Başsız PlayMode testi (`ScenePlanTests`) kilidi ve dokunuşu gözledi. Elle oynanmadı; tasarım panosu bekleniyor.
 - [~] Veri: `case015.json` (24 düğüm), `tr.case015.json` (252 metin), `Case015Rules` (plan geometrisini de sınar: dört beyan ve bar terminali olay noktasını göremez, barmenin penceresi görür); #014 → #015, UK beşinci yuva. "karakol" yasak kelime listesinde → "Asayiş Birimi". 132/132 EditMode, 27 PlayMode + 1 atlandı. Oynanmadı.
 - [ ] Görseller: `Docs/CASE015_PROMPTS.md` — plan görseli gelince `scenePlan.imagePath` ve koordinat kontrolü; CCTV gelince `taxi#follow` olayına `framePaths`.
+
+## 5 Ekim 2026 — Dosya sayısı: Türkiye 10, diğerleri 7
+- [~] `Worlds.json`: Türkiye 10 yuva, diğer dokuz ülke 7 (boş yuvalar kırpıldı). `WorldRules` eşit yuva kuralı Türkiye'yi dışarıda tutar; `WorldTests.ShippedAtlasLoads` 10/7 sınar. Seçici Unity'de görülmedi.
+- [x] Birleşik Krallık planı 7 dosyaya daraltıldı (`UK_CHAPTER_PLAN.md`); #017 final.
+- [ ] #016 konusu seçilecek.
+

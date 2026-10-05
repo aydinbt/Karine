@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim (gece, 5):** Dosya sayısı yeniden kararlaştırıldı: **Türkiye 10, sonraki dokuz ülke 7'şer** (toplam 73). `Worlds.json` yuvaları kırpıldı, doğrulayıcı ve test buna göre; Birleşik Krallık #011–#017 (#016 seçilecek, #017 final).
+
 **5 Ekim (gece, 4):** **Dosya #015 "Kapanış Saati"** veride ve yeni özellik **Olay Yeri Planı** kodda: kuşbakışı krokide engeller, olay çarpısı ve tanık işaretleri; işarete dokununca görüş konisi, engeller gölge bırakır. Dört izinli polis "sigara alanından gördük" der; plan duvarın ve kamyonetin görüşü kestiğini gösterir, oyun bunu söylemez. 24 düğüm, 252 metin. Testler yeşil (132 EditMode, 27 PlayMode); elle oynanmadı.
 
 **5 Ekim (gece, 3):** **Dosya #014 "İkinci Görüş"** veride: rezil edilmiş müzayede uzmanının "intiharı". Ters köşe: çelişen iki uzman raporu da doğru — ikinci görüş iki ayrı tabloya bakıldığını gösterir; alıcı Ashby tabloyu satıştan sonra kopyayla değiştirmişti. "Yanıldım" notu, defterden koparılmış "Yanıldım sandılar…" cümlesinin başı. 23 düğüm, 216 metin. Testler yeşil; oynanmadı.

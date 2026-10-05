@@ -139,7 +139,7 @@ public sealed class BootSmokeTests {
   method.Invoke(app,null);
   for(int frame=0;frame<5;frame++) yield return null;
   cases=root.Q<ScrollView>("CaseStrip");
-  Assert.AreEqual(10,cases.contentContainer.childCount);
+  Assert.AreEqual(Worlds.Load().countries[1].slots.Count,cases.contentContainer.childCount);
   foreach(var card in cases.contentContainer.Children()) {
    Assert.IsFalse(card.focusable,"Unreleased cases cannot take keyboard focus.");
    // Kilitli kart dokunuşu alır ama yalnız sarsılır; eylemi yoktur.

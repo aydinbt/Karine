@@ -1,10 +1,10 @@
 # bube — dünya açılış sinematikleri
 
-**26 Eylül 2026 kullanıcı kararı.** Oyun **on ülke/dünya** için planlanır ve her dünya **on dosya** taşır — toplam 100 (5 Ekim 2026 kullanıcı kararı; önce yedi/70 idi). Bu sayı, 24 Eylül 2026'daki yedi dünya kararının yerine geçer; bölüm seçici ekranı birebir bu yerleşimle istendi ve kanon ona göre güncellendi. Dünya 1 Türkiye'dir; 2–10 arasındaki ülkeler artık **adlandırıldı** (aşağıdaki çizelge), ama mekânları, vakaları ve açılışları henüz yazılmadı.
+**26 Eylül 2026 kullanıcı kararı.** Oyun **on ülke/dünya** için planlanır ve **Türkiye on dosya, sonraki dokuz ülke yedişer dosya** taşır — toplam 73 (5 Ekim 2026 kullanıcı kararı; önce herkese on/100, ondan önce yedi/70 idi). Türkiye öğretici bölümdür: yetenekler orada tanıtılır. Bu sayı, 24 Eylül 2026'daki yedi dünya kararının yerine geçer; bölüm seçici ekranı birebir bu yerleşimle istendi ve kanon ona göre güncellendi. Dünya 1 Türkiye'dir; 2–10 arasındaki ülkeler artık **adlandırıldı** (aşağıdaki çizelge), ama mekânları, vakaları ve açılışları henüz yazılmadı.
 
-**Sıra artık ilerleme kuralıdır.** Önceki not sırayı bağlayıcı saymıyordu; bölüm seçici geldikten sonra sayıyor: bir ülke, kendinden önceki ülkenin on dosyası kapanmadan açılmaz ve dosyalar ülke içinde sırayla açılır. Kilit yalnız ilerlemeyi gösterir — hiçbir yerde sıradaki adım söylenmez, fail veya ipucu verilmez. Teknik karşılığı `Docs/Architecture.md` → "Bölüm seçici verisi"; veri `Assets/Bube/Resources/Bube/Worlds.json`.
+**Sıra artık ilerleme kuralıdır.** Önceki not sırayı bağlayıcı saymıyordu; bölüm seçici geldikten sonra sayıyor: bir ülke, kendinden önceki ülkenin bütün dosyaları kapanmadan açılmaz ve dosyalar ülke içinde sırayla açılır. Kilit yalnız ilerlemeyi gösterir — hiçbir yerde sıradaki adım söylenmez, fail veya ipucu verilmez. Teknik karşılığı `Docs/Architecture.md` → "Bölüm seçici verisi"; veri `Assets/Bube/Resources/Bube/Worlds.json`.
 
-**Ülke listesi kanon, içeriği değil.** Aşağıdaki on ülke seçicide görünür ve kilit sırasını belirler; her birinin şehri, atmosferi ve on dosyası ayrı yazılacak iştir. Bir ülkenin yeri değiştirilecekse tek düzenleme `Worlds.json` sırasıdır, ama o zaman bu belge de aynı oturumda güncellenir.
+**Ülke listesi kanon, içeriği değil.** Aşağıdaki on ülke seçicide görünür ve kilit sırasını belirler; her birinin şehri, atmosferi ve yedi dosyası ayrı yazılacak iştir. Bir ülkenin yeri değiştirilecekse tek düzenleme `Worlds.json` sırasıdır, ama o zaman bu belge de aynı oturumda güncellenir.
 
 ## Dünya 1 / Türkiye
 
