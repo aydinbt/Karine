@@ -1,0 +1,452 @@
+{
+ "entries": [
+  {
+   "key": "case072.archive.body",
+   "value": "Arşivden yeniden açılan dosya (2012, ‘hijyen ihlali — kapatma’):\n\n· İşletme: Hoang Thi Lan, Barkly Caddesi.\n· Rapor: ‘kabuklu deniz ürünü çapraz bulaşma’; denetçi Robert Sinclair. Laboratuvar sonucu dosyada yok.\n· Kapanıştan dört ay sonra Barkly Caddesi bloğu bir geliştiriciye satıldı; geliştiricinin danışmanı: R. Sinclair.\n· Lan’ın itiraz dilekçesi: ‘benim mutfağıma karides girmez.’"
+  },
+  {
+   "key": "case072.archive.reopen",
+   "value": "On sekiz yıl önce bir hijyen raporuyla kapanan dosya yeniden açıldı."
+  },
+  {
+   "key": "case072.archive.title",
+   "value": "2012 DOSYASI — İLK DÜKKÂN"
+  },
+  {
+   "key": "case072.autopsy.body",
+   "value": "· Ölüm nedeni: anafilaktik şok.\n· Midede pho suyu ve fermente karides; suyun tencere numunesinde karides yok, yalnız onun kâsesinde.\n· Sol uylukta enjeksiyon izi yok; kalem kullanılmamış.\n· Ölüm zamanı: 21.00–21.40."
+  },
+  {
+   "key": "case072.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case072.car.body",
+   "value": "Robert Sinclair’in lacivert sedanı (şube şefinin onayıyla):\n\n· Torpidoda Hoang Thi Lan’ın adrenalin kalemi; kapağı açılmamış, üzerinde Robert Sinclair’in parmak izi.\n· Paspasta bir karides ezmesi kavanozunun kapağı; kavanozun kendisi dükkânın çöpünde bulundu.\n· Arka koltukta caddenin canlandırma planı: son parsel kırmızıyla çevrili, kenarında ‘Liaison — Ocak’a kadar’."
+  },
+  {
+   "key": "case072.car.title",
+   "value": "İMAR MÜDÜRÜNÜN ARABASI — ARAMA"
+  },
+  {
+   "key": "case072.clue.out",
+   "value": "Yardımcı aşçı arka kapıdan çıkıyor; kapı aralık."
+  },
+  {
+   "key": "case072.clue.pay",
+   "value": "İmar müdürü masa 4’ün hesabını ödüyor."
+  },
+  {
+   "key": "case072.clue.sedan",
+   "value": "Arka sokakta motoru açık bir sedan; gözlüklü biri arka kapıdan çıkıp biniyor."
+  },
+  {
+   "key": "case072.clue.source.duncan",
+   "value": "Duncan Pryor"
+  },
+  {
+   "key": "case072.clue.source.kalani",
+   "value": "Kalani Mahoe"
+  },
+  {
+   "key": "case072.clue.source.receipt",
+   "value": "Kasa fişi"
+  },
+  {
+   "key": "case072.custody.apron",
+   "value": "Önlüğünün cebinde kaldı"
+  },
+  {
+   "key": "case072.custody.bin",
+   "value": "Dükkânın çöpüne"
+  },
+  {
+   "key": "case072.custody.car",
+   "value": "İmar müdürünün arabasının torpidosuna"
+  },
+  {
+   "key": "case072.custody.label",
+   "value": "Adrenalin kalemi nereye gitti?"
+  },
+  {
+   "key": "case072.duncan.alley.answer",
+   "value": "Her sabah oradan girerim. Dün gece dokuz gibi kamyoneti almaya geldim; sokakta lacivert bir sedan duruyordu, motoru açık. Belediyenin plakası değil, özel. Biri arka kapıdan çıktı, arabaya bindi. Gözlüklüydü."
+  },
+  {
+   "key": "case072.duncan.alley.answer.demeanor",
+   "value": "Anahtarlığını parmağında çeviriyor."
+  },
+  {
+   "key": "case072.duncan.alley.question",
+   "value": "Arka sokağı bilir misiniz?"
+  },
+  {
+   "key": "case072.duncan.body",
+   "value": "Sebze tedarikçisi."
+  },
+  {
+   "key": "case072.duncan.deflect",
+   "value": "Her sabah altıda kasaları bırakırım."
+  },
+  {
+   "key": "case072.duncan.title",
+   "value": "Duncan Pryor — görüşme"
+  },
+  {
+   "key": "case072.epilogue.custody.apron",
+   "value": "Önlükte kalem yoktu."
+  },
+  {
+   "key": "case072.epilogue.custody.bin",
+   "value": "Çöpte yalnız kavanoz vardı."
+  },
+  {
+   "key": "case072.epilogue.custody.car",
+   "value": "Kalemin torpidoda bulunduğu yazıldı."
+  },
+  {
+   "key": "case072.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; parsel Ocak’ta boşaldı."
+  },
+  {
+   "key": "case072.epilogue.verdict.hoang",
+   "value": "Hoang Minh tutuklandı; dükkân satıldı."
+  },
+  {
+   "key": "case072.epilogue.verdict.kalani",
+   "value": "Kalani Mahoe tutuklandı; kalem torpidoda kaldı."
+  },
+  {
+   "key": "case072.epilogue.verdict.sinclair",
+   "value": "Robert Sinclair tutuklandı; caddenin canlandırma planı askıya alındı. 2012 raporu geçersiz sayıldı."
+  },
+  {
+   "key": "case072.evidence.archive",
+   "value": "2012 dosyası"
+  },
+  {
+   "key": "case072.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case072.evidence.car",
+   "value": "Araba araması"
+  },
+  {
+   "key": "case072.evidence.receipt",
+   "value": "Kasa fişi"
+  },
+  {
+   "key": "case072.feedback.accident",
+   "value": "Tencerede karides yok, yalnız onun kâsesinde; kalemi de biri almış."
+  },
+  {
+   "key": "case072.feedback.hoang",
+   "value": "Oğul satmak istiyordu, ama kalem ve kavanoz onda değil; sedan onun değil."
+  },
+  {
+   "key": "case072.feedback.kalani",
+   "value": "Yardımcı aşçı dokuzda çıktı ve kapıyı anlattı; kalem onda değildi."
+  },
+  {
+   "key": "case072.feedback.sinclair",
+   "value": "Kurbanın adrenalin kalemi ve kavanozun kapağı onun arabasında, kalemde onun izi var; tedarikçi gözlüklü birini arka kapıdan sedanına binerken gördü. Kasa fişi yalnız ödemeyi gösteriyor. 2012 dosyası aynı ‘karides’ bahanesini taşıyor."
+  },
+  {
+   "key": "case072.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case072.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Şubesi"
+  },
+  {
+   "key": "case072.file.value.location",
+   "value": "Hopkins Caddesi, Footscray"
+  },
+  {
+   "key": "case072.file.value.number",
+   "value": "BDA-MEL-2030-0381"
+  },
+  {
+   "key": "case072.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case072.file.value.reporter",
+   "value": "Kurbanın oğlu"
+  },
+  {
+   "key": "case072.hoang.body",
+   "value": "Kurbanın oğlu."
+  },
+  {
+   "key": "case072.hoang.deflect",
+   "value": "Annemin tencereleri benden yaşlı."
+  },
+  {
+   "key": "case072.hoang.shop.answer",
+   "value": "Ben satmak istiyordum, kabul ediyorum; teklif iyiydi. Annem 2012’yi unutmadı. İlk dükkânımızı bir hijyen raporuyla kapattılar, raporu yazan şimdi imar müdürü. Annem ‘aynı adam, aynı oyun’ derdi. Akşam ben mutfaktaydım, sonra eve gittim, saat on gibi döndüm."
+  },
+  {
+   "key": "case072.hoang.shop.answer.demeanor",
+   "value": "Ceketinin kollarını indirip düğmeliyor."
+  },
+  {
+   "key": "case072.hoang.shop.question",
+   "value": "Annen dükkânı satacak mıydı?"
+  },
+  {
+   "key": "case072.hoang.title",
+   "value": "Hoang Minh — görüşme"
+  },
+  {
+   "key": "case072.kalani.body",
+   "value": "Yardımcı aşçı."
+  },
+  {
+   "key": "case072.kalani.bowl.answer",
+   "value": "Kendisi, kapanıştan sonra, her gece. Kâseyi tezgâha koydu, ön kapıyı kilitlemeye gitti. Ben dokuzda çıktım, arka kapıdan. Kapı aralıktı. Bu mutfağa karides girmez, otuz yıldır."
+  },
+  {
+   "key": "case072.kalani.bowl.answer.demeanor",
+   "value": "Bandanasını çıkarıp elinde sıkıyor."
+  },
+  {
+   "key": "case072.kalani.bowl.question",
+   "value": "Lan’ın son kâsesini kim hazırladı?"
+  },
+  {
+   "key": "case072.kalani.deflect",
+   "value": "Ben kişniş doğrarım, kimseye karışmam."
+  },
+  {
+   "key": "case072.kalani.title",
+   "value": "Kalani Mahoe — görüşme"
+  },
+  {
+   "key": "case072.method.cross",
+   "value": "Mutfakta kazara bulaşma"
+  },
+  {
+   "key": "case072.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case072.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case072.method.paste",
+   "value": "Kâsesine karides ezmesi katıldı, kalemi alındı"
+  },
+  {
+   "key": "case072.offer.subtitle",
+   "value": "PHO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case072.offer.summary",
+   "value": "Caddenin en eski pho dükkânının sahibi, kendi mutfağında, kalemsiz bulundu."
+  },
+  {
+   "key": "case072.offer.title",
+   "value": "DOSYA #072"
+  },
+  {
+   "key": "case072.person.duncan.info",
+   "value": "47 yaşında, sebze tedarikçisi."
+  },
+  {
+   "key": "case072.person.duncan.name",
+   "value": "Duncan Pryor"
+  },
+  {
+   "key": "case072.person.hoang.info",
+   "value": "36 yaşında, kurbanın oğlu; restoranda aşçıbaşı."
+  },
+  {
+   "key": "case072.person.hoang.name",
+   "value": "Hoang Minh"
+  },
+  {
+   "key": "case072.person.kalani.info",
+   "value": "30 yaşında, mutfakta yardımcı aşçı."
+  },
+  {
+   "key": "case072.person.kalani.name",
+   "value": "Kalani Mahoe"
+  },
+  {
+   "key": "case072.person.sinclair.info",
+   "value": "58 yaşında, belediyenin imar planlama müdürü."
+  },
+  {
+   "key": "case072.person.sinclair.name",
+   "value": "Robert Sinclair"
+  },
+  {
+   "key": "case072.person.vy.info",
+   "value": "22 yaşında, garson; öğrenci."
+  },
+  {
+   "key": "case072.person.vy.name",
+   "value": "Vy Lam"
+  },
+  {
+   "key": "case072.receipt.body",
+   "value": "Hopkins Caddesi pho dükkânı, 29 Kasım akşamı:\n\n· Masa 4 — 1 pho tái, 1 çay. Ödeme 19.40, kart sahibi: Robert Sinclair.\n· 19.40’tan sonra kasa işlemi yok.\n\nNot: kasa yalnız ödemeleri kaydeder; dükkândan kimin çıkıp girdiğini kaydetmez."
+  },
+  {
+   "key": "case072.receipt.title",
+   "value": "KASA FİŞİ"
+  },
+  {
+   "key": "case072.report.body",
+   "value": "29 Kasım 2030 gecesi Footscray, Hopkins Caddesi’ndeki pho dükkânının sahibi Hoang Thi Lan (69) kapanıştan sonra mutfakta ölü bulundu. Ağır kabuklu deniz ürünü alerjisi vardı; adrenalin kalemi üzerinde değildi.\n\nCesedi oğlu, aşçıbaşı Hoang Minh 22.15’te buldu. Yardımcı aşçı Kalani Mahoe, garson Vy Lam, tedarikçi Duncan Pryor ve akşam yemeğe gelen belediye imar müdürü Robert Sinclair dinlenecek."
+  },
+  {
+   "key": "case072.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case072.request.archive",
+   "value": "2012 dosyasını arşivden açmak için izin iste"
+  },
+  {
+   "key": "case072.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case072.request.car",
+   "value": "İmar müdürünün arabasını aramak için izin iste"
+  },
+  {
+   "key": "case072.request.receipt",
+   "value": "Dükkânın kasa fişlerini iste"
+  },
+  {
+   "key": "case072.sinclair.body",
+   "value": "Belediye imar planlama müdürü."
+  },
+  {
+   "key": "case072.sinclair.deflect",
+   "value": "Ben bu mahalleyi yirmi yıldır planlıyorum."
+  },
+  {
+   "key": "case072.sinclair.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case072.sinclair.end.decoy.receipt",
+   "value": "Fiş ortada: yediyi kırkta ödedim ve çıktım. Ölüm dokuzdan sonra. Ben o saatte orada değildim."
+  },
+  {
+   "key": "case072.sinclair.end.presented.car",
+   "value": "Arka kapı açıktı, dönüp konuşmak istedim. Kâse tezgâhtaydı, o önde kilit başındaydı. Kavanoz cebimdeydi; 2012’de de kullanmıştım, raporun ‘kanıtı’ olarak. Kalemi önlüğünden ben aldım, askıdaydı. Ocak’a kadar o parsel boşalmalıydı. Koordinatöre söz vermiştim."
+  },
+  {
+   "key": "case072.sinclair.end.question",
+   "value": "Lan’ı siz öldürdünüz."
+  },
+  {
+   "key": "case072.sinclair.night.answer",
+   "value": "Yemek yedim, plan hakkında nazikçe bilgi verdim. Lan Hanım sinirliydi. Alerjisi herkesçe biliniyordu; belki bir tedarikçi hatası."
+  },
+  {
+   "key": "case072.sinclair.night.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp mendiliyle siliyor."
+  },
+  {
+   "key": "case072.sinclair.night.question",
+   "value": "Akşam dükkânda ne konuştunuz?"
+  },
+  {
+   "key": "case072.sinclair.title",
+   "value": "Robert Sinclair — görüşme"
+  },
+  {
+   "key": "case072.summary.evidence",
+   "value": "Garson otopsiden önce dinlenmeliydi. Kasa fişi yemdi. Oğul 2012’yi, tedarikçi sedanı anlattı; arşiv ve arama birbirini tamamladı."
+  },
+  {
+   "key": "case072.summary.lesson",
+   "value": "Fiş, çıktığını söylüyordu. Dönmediğini söylemiyordu."
+  },
+  {
+   "key": "case072.summary.location",
+   "value": "Hopkins Caddesi — Kasım 2030"
+  },
+  {
+   "key": "case072.summary.truth",
+   "value": "2012’de denetçi Robert Sinclair, ‘karides bulaşması’ raporuyla Lan’ın ilk dükkânını kapattı ve blok bir geliştiriciye geçti. On sekiz yıl sonra, imar müdürü olarak, aynı caddenin son parseline ihtiyacı vardı. Hesabı ödedi, arka kapıdan döndü, Lan’ın kâsesine karides ezmesi kattı ve kalemini aldı."
+  },
+  {
+   "key": "case072.suspect.label",
+   "value": "Hoang Thi Lan’ı kim öldürdü?"
+  },
+  {
+   "key": "case072.tablet.caseLine",
+   "value": "DOSYA #072  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case072.time.out",
+   "value": "21.00"
+  },
+  {
+   "key": "case072.time.pay",
+   "value": "19.40"
+  },
+  {
+   "key": "case072.time.sedan",
+   "value": "21.10"
+  },
+  {
+   "key": "case072.title",
+   "value": "Dosya #072 — Pho"
+  },
+  {
+   "key": "case072.verdict.accident",
+   "value": "Kimse — tedarikçi hatası"
+  },
+  {
+   "key": "case072.verdict.hoang",
+   "value": "Hoang Minh"
+  },
+  {
+   "key": "case072.verdict.kalani",
+   "value": "Kalani Mahoe"
+  },
+  {
+   "key": "case072.verdict.sinclair",
+   "value": "Robert Sinclair"
+  },
+  {
+   "key": "case072.vy.body",
+   "value": "Garson."
+  },
+  {
+   "key": "case072.vy.deflect",
+   "value": "Ben sadece tabak taşırım."
+  },
+  {
+   "key": "case072.vy.gone",
+   "value": "Vy Lam işi bıraktı ve Sydney’deki ailesinin yanına gitti. Telefonu kapalı."
+  },
+  {
+   "key": "case072.vy.table.answer",
+   "value": "Belediyeden o bey yine geldi. Lan teyzeyle konuştular, sesler yükseldi; ‘bu sefer kâğıt temiz, bu sefer kapatamazsınız’ dedi teyze. Bey hesabı ödedi, çıktı. Sonra… ben mutfağın arka kapısını kapatmayı unuttum. Ben bırakıyorum bu işi."
+  },
+  {
+   "key": "case072.vy.table.answer.demeanor",
+   "value": "Önlüğünü çıkarıp katlıyor, yine açıyor."
+  },
+  {
+   "key": "case072.vy.table.question",
+   "value": "Akşam masalarda olağandışı bir şey oldu mu?"
+  },
+  {
+   "key": "case072.vy.title",
+   "value": "Vy Lam — görüşme"
+  }
+ ]
+}

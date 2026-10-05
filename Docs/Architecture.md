@@ -548,3 +548,15 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 - Geometri `Runtime/SightLine.cs`: `Hit` (parça kesişimi), `Blocked`, `Sees` (koni + engel), `Cone` (64 ışınlık yelpaze, ilk engelde ya da plan kenarında durur). Arayüzden bağımsız; EditMode testli. Vaka kuralları da kullanır (`Case015Rules`).
 - Çizim `KarineUI.ScenePlanView` (`BubeApp.EvidencePaper` içinden): kare çerçeve, görsel yoksa engeller çizilir, olay çarpısı, işaret düğmeleri (`PlanMarker_<id>`), seçilene koni; alttaki `ScenePlanCaption` işaretin etiketini yazar. Renk/punto tokenlardan.
 - Doğrulayıcı: plan yalnız belgede; olay noktası ve etiketi var; engeller ≥3 noktalı ve içeride; işaret kimlikleri tekil, içeride, türü geçerli, kilitleri var olan soru/düğüme bağlı; `imagePath` verildiyse dosya var.
+
+
+## Vaka üretim hattı (5 Ekim 2026)
+#025–#073 elle değil, oturum karalama klasöründeki bir Python hattıyla üretildi; hat depoya girmedi, çıktıları girdi. Her dosya için:
+- `genNNN.py` (`lib.py` üstünde): `init` kişileri ve görünüşlerini, `setup` kanca/ip/görsel briefini, `doc`/`interview`/`clue`/`V`/`Mth`/`K`/`E`/`Rc` düğümleri ve rapor seçeneklerini kurar; `write` `Cases/caseNNN.json` ile `Locales/tr.caseNNN.json`'u yazar. Görüşme sorusunda `present` (çözücü kaynaklar), `presented`, `decoy {kaynak: yanıt}`, `variants`, `after`; düğümde `warrant`/`slots`, `requestKind` (`line`, `archive`), `line`, `reopenYear`/`reopenNoteKey`, `closes`/`closedNote`.
+- `wire.py` `Worlds.json` yuvasını ve önceki dosyanın `nextCaseId`'sini bağlar. (İki kopukluk bu adımın yeniden çalıştırılmamasından doğdu; `CaseChainRules` notu yakaladı.)
+- `lint.py` ek metin kuralları: öne sürülen ve yem kaynak kişinin ilk adını metinde taşımalı; dosyalar arası ad çakışması (`ids.py`); yasak kelimeler.
+- `rules.py rNNN.json` → `Editor/Validation/CaseNNNRules.cs`: `forbid` (adsız kaynaklar), `require` (kişiye görünmesi gerekenler), `warrants {node, weak, strong}`, `lines`, `closes`, `archive {node: yıl}`, `decoys [{node, q, src}]` (yem bir yanıt döndürür ve soruyu çözmez: `DecoyAnswerKey != null && !SourceMatchesQuestion`), `recon`, `finale` (sonraki dosya anahtarı), `correct`/`wrong`.
+- `design.py` `Docs/CASENNN_DESIGN.md` ve `Docs/CASENNN_PROMPTS.md`'yi yazar; `trkeys.py` final metin anahtarlarını `tr.json`'a ekler; `intro.py` `worldIntros` girişini kurar.
+- Not: zayıf izin denemesi `report` gibi `notReportSource` bir düğüm içeremez; `SubmitWarrant` onu kaynak saymaz ve kural yanlış nedenle düşer.
+- Bulgu görselleri (`setup(items=…)`) yalnız prompt belgesine gider; `report.relatedItems` #013 sonrası bağlı değildir.
+- Son dosya (`case073`) `nextCaseId` boştur; `chapterFinale.nextCountryKey = finale.country.archive`, `nextFileKey = finale.file.end`. `NewFileDrop` bu metinlerle bir kez oynar; sonra açılacak dosya yoktur.

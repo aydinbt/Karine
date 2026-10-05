@@ -1,0 +1,416 @@
+{
+ "entries": [
+  {
+   "key": "case069.archive.body",
+   "value": "Arşivden yeniden açılan dosya (2004, ‘yetersiz delil’ ile kapanmış):\n\n· Şikâyet eden: P. Doyle-Hart ve Q. Bui. Konu: tersanenin nehre çözücü boşaltması.\n· Delil olarak teslim edilen numune şişeleri ‘kaybolmuş’.\n· Kapanıştan iki ay sonra tersaneyi satın alan: Alistair Fenwick.\n· Ekte Fenwick’in eski bir yazışması: ‘dosyanın kapanması için gereken bağış yapıldı.’"
+  },
+  {
+   "key": "case069.archive.reopen",
+   "value": "Yirmi altı yıl önce ‘yetersiz delil’ diye kapanan dosya yeniden açıldı."
+  },
+  {
+   "key": "case069.archive.title",
+   "value": "2004 DOSYASI — MARIBYRNONG KİRLENMESİ"
+  },
+  {
+   "key": "case069.autopsy.body",
+   "value": "· Ölüm nedeni: boğulma.\n· Başın arkasında yuvarlak kenarlı bir darbe; tahta kıymığı.\n· Kanında alkol yok.\n· Ölüm zamanı: 22.00–23.00."
+  },
+  {
+   "key": "case069.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case069.boatshed.body",
+   "value": "Marina kano barınağı ve sahibin ofisi (şube şefinin onayıyla):\n\n· Ters bağlanmış kanonun küreğinin sapında kurumuş kan ve tek bir uzun gri saç; kürekte Alistair Fenwick’in parmak izi.\n· Ofiste kurbanın evinden alınmış dört numune şişesi.\n· Pacific Liaison Trust’ın bağış makbuzu: ‘Bölge Koordinatörü adına’."
+  },
+  {
+   "key": "case069.boatshed.title",
+   "value": "MARİNA KANO BARINAĞI — ARAMA"
+  },
+  {
+   "key": "case069.clue.canoe",
+   "value": "Işıksız bir kano marina tarafından kurbanın güvertesine yanaşıyor."
+  },
+  {
+   "key": "case069.clue.found",
+   "value": "Koruma görevlisi cesedi ve ters bağlanmış kanoyu görüyor."
+  },
+  {
+   "key": "case069.clue.out",
+   "value": "Marina sahibi kart kaydında kapıdan çıkıyor."
+  },
+  {
+   "key": "case069.clue.source.eloise",
+   "value": "Eloise Marr"
+  },
+  {
+   "key": "case069.clue.source.gate",
+   "value": "Kapı kaydı"
+  },
+  {
+   "key": "case069.clue.source.jarrah",
+   "value": "Jarrah Collins"
+  },
+  {
+   "key": "case069.custody.label",
+   "value": "Kurbanın numune şişeleri nereye gitti?"
+  },
+  {
+   "key": "case069.custody.office",
+   "value": "Marina sahibinin ofisine"
+  },
+  {
+   "key": "case069.custody.quoc",
+   "value": "Eski ortağın atölyesine"
+  },
+  {
+   "key": "case069.custody.river",
+   "value": "Nehre"
+  },
+  {
+   "key": "case069.eloise.body",
+   "value": "Komşu, ressam."
+  },
+  {
+   "key": "case069.eloise.deflect",
+   "value": "Ben gece boyarım, ışık başka."
+  },
+  {
+   "key": "case069.eloise.saw.answer",
+   "value": "On bir gibi boyuyordum. Sudan bir kano geldi, marinanın tarafından, ışıksız. Patricia’nın güvertesine yanaştı. Konuşma, sonra bir çarpma sesi. Ben kapı kaydında olmadığımı biliyorum; ben de kanoyla gelirim eve, herkes öyle."
+  },
+  {
+   "key": "case069.eloise.saw.answer.demeanor",
+   "value": "Fırçasını bezle siliyor, durmadan."
+  },
+  {
+   "key": "case069.eloise.saw.question",
+   "value": "Gece ne gördünüz?"
+  },
+  {
+   "key": "case069.eloise.title",
+   "value": "Eloise Marr — görüşme"
+  },
+  {
+   "key": "case069.epilogue.custody.office",
+   "value": "Şişelerin ofiste bulunduğu yazıldı."
+  },
+  {
+   "key": "case069.epilogue.custody.quoc",
+   "value": "Atölyede şişe yoktu."
+  },
+  {
+   "key": "case069.epilogue.custody.river",
+   "value": "Şişeler nehirde değildi."
+  },
+  {
+   "key": "case069.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; marina büyüdü."
+  },
+  {
+   "key": "case069.epilogue.verdict.eloise",
+   "value": "Eloise Marr tutuklandı; gerçek kano barınağa döndü."
+  },
+  {
+   "key": "case069.epilogue.verdict.fenwick",
+   "value": "Alistair Fenwick tutuklandı; marinanın genişleme ruhsatı askıya alındı. ‘Bölge Koordinatörü’ unvanı Footscray şubesinin panosuna yazıldı."
+  },
+  {
+   "key": "case069.epilogue.verdict.quoc",
+   "value": "Quoc Bui tutuklandı; şişeler ofiste kaldı."
+  },
+  {
+   "key": "case069.evidence.archive",
+   "value": "2004 dosyası"
+  },
+  {
+   "key": "case069.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case069.evidence.boatshed",
+   "value": "Kano barınağı araması"
+  },
+  {
+   "key": "case069.evidence.gate",
+   "value": "Kapı kaydı"
+  },
+  {
+   "key": "case069.feedback.accident",
+   "value": "Başın arkasındaki darbede tahta kıymığı var; kayan biri kürekle vurulmaz."
+  },
+  {
+   "key": "case069.feedback.eloise",
+   "value": "Komşu kanoyu gördü ve anlattı; kürek ve şişeler onda değildi."
+  },
+  {
+   "key": "case069.feedback.fenwick",
+   "value": "Kürekte onun parmak izi ve kurbanın saçı var; numune şişeleri onun ofisinde. Kapı kaydı onu temize çıkarmıyor: su tarafı kayıt dışı. 2004 dosyası nedeni gösteriyor."
+  },
+  {
+   "key": "case069.feedback.quoc",
+   "value": "Eski ortak aradı ama gece nehirde değildi; kürekte onun izi yok."
+  },
+  {
+   "key": "case069.fenwick.body",
+   "value": "Marina sahibi."
+  },
+  {
+   "key": "case069.fenwick.deflect",
+   "value": "Bu nehri ben temizledim. Kimse hatırlamıyor."
+  },
+  {
+   "key": "case069.fenwick.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case069.fenwick.end.decoy.gate",
+   "value": "Kapı kaydı ortada: yediyi kırk ikide çıktım, sabaha kadar kimse girmedi. Ben nasıl orada olayım?"
+  },
+  {
+   "key": "case069.fenwick.end.presented.boatshed",
+   "value": "Kapıdan çıktım, kanoyla geri döndüm. Şişeleri istedim; ‘2004’te de kaybettiniz, bu sefer kaybolmayacak’ dedi. Kürek elimdeydi. Genişleme ruhsatı yarın onaylanacaktı; koordinatör ‘pürüz istemiyoruz’ demişti."
+  },
+  {
+   "key": "case069.fenwick.end.question",
+   "value": "Patricia’yı siz öldürdünüz."
+  },
+  {
+   "key": "case069.fenwick.night.answer",
+   "value": "Sekize yirmi kala çıktım; kartım orada. Patricia yaşlıydı, güvertede kaydı. Üzücü."
+  },
+  {
+   "key": "case069.fenwick.night.answer.demeanor",
+   "value": "Güneş gözlüğünü yakasından alıp katlıyor."
+  },
+  {
+   "key": "case069.fenwick.night.question",
+   "value": "Dün gece neredeydiniz?"
+  },
+  {
+   "key": "case069.fenwick.title",
+   "value": "Alistair Fenwick — görüşme"
+  },
+  {
+   "key": "case069.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case069.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Şubesi"
+  },
+  {
+   "key": "case069.file.value.location",
+   "value": "Maribyrnong Nehri, Melbourne"
+  },
+  {
+   "key": "case069.file.value.number",
+   "value": "BDA-MEL-2030-0339"
+  },
+  {
+   "key": "case069.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case069.file.value.reporter",
+   "value": "Nehir koruma görevlisi"
+  },
+  {
+   "key": "case069.gate.body",
+   "value": "Marina iskele kapısı, 8 Kasım:\n\n· 19.42 — çıkış (Alistair Fenwick’in kartı).\n· 19.42’den sabah 06.00’ya kadar giriş yok.\n\nNot: kapı yalnızca kara tarafındadır. Marinanın kiralık kanoları su tarafında bağlıdır ve kayıt dışıdır."
+  },
+  {
+   "key": "case069.gate.title",
+   "value": "İSKELE KAPISI KAYDI"
+  },
+  {
+   "key": "case069.jarrah.body",
+   "value": "Nehir koruma görevlisi."
+  },
+  {
+   "key": "case069.jarrah.deflect",
+   "value": "Nehir her şeyi geri getirir; er geç."
+  },
+  {
+   "key": "case069.jarrah.river.answer",
+   "value": "Gece devriyem yok. Ama sabah marinanın kiralık kanolarından biri ters bağlanmıştı; Fenwick’in adamları hiç öyle bağlamaz. Patricia’yla geçen ay marinanın gider borusundan numune aldık. Yağlıydı. Ona ‘2004’teki gibi’ dedi."
+  },
+  {
+   "key": "case069.jarrah.river.answer.demeanor",
+   "value": "Kanonun halatını elinde sarıyor."
+  },
+  {
+   "key": "case069.jarrah.river.question",
+   "value": "Gece nehirde bir şey gördünüz mü?"
+  },
+  {
+   "key": "case069.jarrah.title",
+   "value": "Jarrah Collins — görüşme"
+  },
+  {
+   "key": "case069.method.heart",
+   "value": "Kalp krizi geçirip suya düştü"
+  },
+  {
+   "key": "case069.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case069.method.oar",
+   "value": "Kürekle vurulup suya itildi"
+  },
+  {
+   "key": "case069.method.slip",
+   "value": "Güverteden kayıp düştü"
+  },
+  {
+   "key": "case069.offer.subtitle",
+   "value": "YÜZEN EV  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case069.offer.summary",
+   "value": "Emekli bir çevre mühendisi, yüzen evinin altındaki suda bulundu; marinanın kapısından kimse girmemiş."
+  },
+  {
+   "key": "case069.offer.title",
+   "value": "DOSYA #069"
+  },
+  {
+   "key": "case069.person.eloise.info",
+   "value": "40 yaşında, kurbanın komşusu; yüzen evde ressam."
+  },
+  {
+   "key": "case069.person.eloise.name",
+   "value": "Eloise Marr"
+  },
+  {
+   "key": "case069.person.fenwick.info",
+   "value": "57 yaşında, Maribyrnong kıyısında marina sahibi."
+  },
+  {
+   "key": "case069.person.fenwick.name",
+   "value": "Alistair Fenwick"
+  },
+  {
+   "key": "case069.person.jarrah.info",
+   "value": "33 yaşında, nehir koruma görevlisi."
+  },
+  {
+   "key": "case069.person.jarrah.name",
+   "value": "Jarrah Collins"
+  },
+  {
+   "key": "case069.person.quoc.info",
+   "value": "46 yaşında, kurbanın eski ortağı; tekne tamircisi."
+  },
+  {
+   "key": "case069.person.quoc.name",
+   "value": "Quoc Bui"
+  },
+  {
+   "key": "case069.quoc.body",
+   "value": "Eski ortak."
+  },
+  {
+   "key": "case069.quoc.deflect",
+   "value": "Ortaklığımız bitmişti. Dostluğumuz değil."
+  },
+  {
+   "key": "case069.quoc.part.answer",
+   "value": "Patricia’yla 2004’te bir dosyayı birlikte hazırladık: nehre kimyasal boşaltan bir tersane. Dosya kapandı, tersane satıldı, alan Alistair Fenwick’ti; marinayı oraya kurdu. Patricia unutmadı. Ben unuttum, para lazımdı. Dün akşam onu aradım, açmadı."
+  },
+  {
+   "key": "case069.quoc.part.answer.demeanor",
+   "value": "Yağlı ellerini önlüğüne siliyor."
+  },
+  {
+   "key": "case069.quoc.part.question",
+   "value": "Ortaklığınız neden bitti?"
+  },
+  {
+   "key": "case069.quoc.title",
+   "value": "Quoc Bui — görüşme"
+  },
+  {
+   "key": "case069.report.body",
+   "value": "9 Kasım 2030 sabahı Maribyrnong Nehri’nde emekli çevre mühendisi Patricia Doyle-Hart (66), yüzen evinin altındaki suda ölü bulundu.\n\nCesedi nehir koruma görevlisi Jarrah Collins 06.20’de devriye kanosundan gördü. Marina sahibi Alistair Fenwick ‘kapı kaydında kimse yok, düşmüş olmalı’ dedi. Komşusu ressam Eloise Marr ve kurbanın eski ortağı Quoc Bui dinlenecek."
+  },
+  {
+   "key": "case069.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case069.request.archive",
+   "value": "2004 dosyasını arşivden açmak için izin iste"
+  },
+  {
+   "key": "case069.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case069.request.boatshed",
+   "value": "Kano barınağını aramak için izin iste"
+  },
+  {
+   "key": "case069.request.gate",
+   "value": "Marinanın kapı kaydını iste"
+  },
+  {
+   "key": "case069.summary.evidence",
+   "value": "Kapı kaydı yemdi: su tarafını saymıyordu. Komşu kanoyu, eski ortak 2004’ü anlattı; arşiv açıldı, arama küreği ve şişeleri buldu."
+  },
+  {
+   "key": "case069.summary.lesson",
+   "value": "Kapıdan kimse girmemişti. Nehirden girmişti."
+  },
+  {
+   "key": "case069.summary.location",
+   "value": "Maribyrnong Nehri — Kasım 2030"
+  },
+  {
+   "key": "case069.summary.truth",
+   "value": "2004’te nehri kirleten tersanenin dosyası bir ‘bağışla’ kapandı; tersaneyi Alistair Fenwick aldı ve marina yaptı. Yirmi altı yıl sonra Patricia Doyle-Hart yeniden numune aldı. Fenwick kart kaydıyla kapıdan çıktı, kanoyla sudan döndü, şişeleri istedi, alamayınca kürekle vurdu."
+  },
+  {
+   "key": "case069.suspect.label",
+   "value": "Patricia Doyle-Hart’ı kim öldürdü?"
+  },
+  {
+   "key": "case069.tablet.caseLine",
+   "value": "DOSYA #069  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case069.time.canoe",
+   "value": "23.00"
+  },
+  {
+   "key": "case069.time.found",
+   "value": "06.20"
+  },
+  {
+   "key": "case069.time.out",
+   "value": "19.42"
+  },
+  {
+   "key": "case069.title",
+   "value": "Dosya #069 — Yüzen Ev"
+  },
+  {
+   "key": "case069.verdict.accident",
+   "value": "Kimse — güverteden kaydı"
+  },
+  {
+   "key": "case069.verdict.eloise",
+   "value": "Eloise Marr"
+  },
+  {
+   "key": "case069.verdict.fenwick",
+   "value": "Alistair Fenwick"
+  },
+  {
+   "key": "case069.verdict.quoc",
+   "value": "Quoc Bui"
+  }
+ ]
+}

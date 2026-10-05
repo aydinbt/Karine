@@ -1,0 +1,380 @@
+{
+ "entries": [
+  {
+   "key": "case071.autopsy.body",
+   "value": "· Ölüm nedeni: yüksekten düşmeye bağlı çoklu travma.\n· Avuç içlerinde pas ve boya; düşerken korkuluğa tutunmuş, korkuluk elinde kalmış.\n· Başka bir darbe yok.\n· Ölüm zamanı: 21.00–22.00."
+  },
+  {
+   "key": "case071.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case071.bao.body",
+   "value": "İskele balıkçısı."
+  },
+  {
+   "key": "case071.bao.deflect",
+   "value": "Ben otuz yıldır aynı taşta otururum."
+  },
+  {
+   "key": "case071.bao.light.answer",
+   "value": "Galeride okuma lambası yandı, her akşamki gibi. Dokuz gibi ikinci bir ışık çıktı merdivenden, bir fener. Sonra bağırış. Sonra ikinci ışık aşağı indi, liman başkanlığına doğru yürüdü. Lachlan Reid’in yürüyüşünü tanırım; hep elinde bir telsiz olur."
+  },
+  {
+   "key": "case071.bao.light.answer.demeanor",
+   "value": "Oltasının ipini sararken başını kaldırmıyor."
+  },
+  {
+   "key": "case071.bao.light.question",
+   "value": "Akşam kulede bir şey gördünüz mü?"
+  },
+  {
+   "key": "case071.bao.title",
+   "value": "Bao Tran-Le — görüşme"
+  },
+  {
+   "key": "case071.clue.found",
+   "value": "Rehber kulenin dibinde arşivciyi buluyor."
+  },
+  {
+   "key": "case071.clue.lamp",
+   "value": "Galerinin okuma lambası her akşamki gibi yanıyor."
+  },
+  {
+   "key": "case071.clue.second",
+   "value": "Merdivenden ikinci bir ışık çıkıyor; ardından bir bağırış."
+  },
+  {
+   "key": "case071.clue.source.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.clue.source.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.custody.label",
+   "value": "Arşivcinin dosyası nereye gitti?"
+  },
+  {
+   "key": "case071.custody.office",
+   "value": "Liman başkanının çekmecesine"
+  },
+  {
+   "key": "case071.custody.sea",
+   "value": "Denize"
+  },
+  {
+   "key": "case071.custody.tower",
+   "value": "Kulede kaldı"
+  },
+  {
+   "key": "case071.epilogue.custody.office",
+   "value": "Dosyanın başkanın odasında bulunduğu yazıldı."
+  },
+  {
+   "key": "case071.epilogue.custody.sea",
+   "value": "Dosya denizde değildi."
+  },
+  {
+   "key": "case071.epilogue.custody.tower",
+   "value": "Galerideki klasör boştu."
+  },
+  {
+   "key": "case071.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; dosya kayboldu."
+  },
+  {
+   "key": "case071.epilogue.verdict.bao",
+   "value": "Bao Tran-Le tutuklandı; iskele boş kaldı."
+  },
+  {
+   "key": "case071.epilogue.verdict.lachlan",
+   "value": "Lachlan Reid tutuklandı; Liaison Freight manifestoları Footscray şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case071.epilogue.verdict.ruby",
+   "value": "Ruby Aldous tutuklandı; cıvatalar çekmecede kaldı."
+  },
+  {
+   "key": "case071.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case071.evidence.office",
+   "value": "Başkanlık araması"
+  },
+  {
+   "key": "case071.evidence.radio",
+   "value": "Telsiz kaydı"
+  },
+  {
+   "key": "case071.evidence.tower",
+   "value": "Kule incelemesi"
+  },
+  {
+   "key": "case071.feedback.accident",
+   "value": "Cıvatalar yerinde değildi ve yuvalarında anahtar çizikleri var."
+  },
+  {
+   "key": "case071.feedback.bao",
+   "value": "Balıkçı iskeledeydi ve gördüğünü anlattı."
+  },
+  {
+   "key": "case071.feedback.lachlan",
+   "value": "Korkuluğun cıvataları ve gevşeten anahtar onun çekmecesinde, onun iziyle; el telsizi 21.40’ta kullanılmış. Telsiz kaydı onu kurtarmıyor: kayıt el telsizini ayırmıyor. Balıkçı ışığın başkanlığa indiğini gördü."
+  },
+  {
+   "key": "case071.feedback.ruby",
+   "value": "Rehberin anahtarı vardı ama ışık başkanlığa yürüdü; cıvatalar ondan çıkmadı."
+  },
+  {
+   "key": "case071.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case071.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Şubesi"
+  },
+  {
+   "key": "case071.file.value.location",
+   "value": "Williamstown, Melbourne"
+  },
+  {
+   "key": "case071.file.value.number",
+   "value": "BDA-MEL-2030-0367"
+  },
+  {
+   "key": "case071.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case071.file.value.reporter",
+   "value": "Gönüllü rehber"
+  },
+  {
+   "key": "case071.lachlan.body",
+   "value": "Liman başkanı."
+  },
+  {
+   "key": "case071.lachlan.deflect",
+   "value": "Liman benim sorumluluğumda; her ışık, her ses."
+  },
+  {
+   "key": "case071.lachlan.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case071.lachlan.end.decoy.radio",
+   "value": "Telsiz kaydı orada: dokuza çeyrek kala ondan sonrasına kadar kanaldaydım. Sesim kesilmiyor."
+  },
+  {
+   "key": "case071.lachlan.end.presented.office",
+   "value": "El telsizi cebimdeydi; kanalı aktardım, konuşa konuşa çıktım. Cıvataları öğleden sonra gevşetmiştim; o galeriye yaslanarak okurdu. Dosyayı istedim, vermedi, geri çekildi. Otuz yıl önce o konteynerlere bakmadan imza attım; para iyiydi. ‘Liaison’ın insanları hâlâ arıyor, hâlâ ödüyor."
+  },
+  {
+   "key": "case071.lachlan.end.question",
+   "value": "Graham’ı galeriden siz düşürdünüz."
+  },
+  {
+   "key": "case071.lachlan.night.answer",
+   "value": "Görevdeydim. Graham yaşlıydı, o korkuluk yüz yıllık."
+  },
+  {
+   "key": "case071.lachlan.night.answer.demeanor",
+   "value": "Sakalını avucuyla sıvazlıyor."
+  },
+  {
+   "key": "case071.lachlan.night.question",
+   "value": "Akşam neredeydiniz?"
+  },
+  {
+   "key": "case071.lachlan.title",
+   "value": "Lachlan Reid — görüşme"
+  },
+  {
+   "key": "case071.method.faint",
+   "value": "Baş dönmesiyle düştü"
+  },
+  {
+   "key": "case071.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case071.method.rail",
+   "value": "Cıvataları gevşetilmiş korkuluktan itildi"
+  },
+  {
+   "key": "case071.method.rot",
+   "value": "Çürük korkuluk kendiliğinden koptu"
+  },
+  {
+   "key": "case071.offer.subtitle",
+   "value": "ZAMAN TOPU  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case071.offer.summary",
+   "value": "Liman arşivcisi eski kulenin dibinde bulundu; liman başkanının sesi o saatte telsizde."
+  },
+  {
+   "key": "case071.offer.title",
+   "value": "DOSYA #071"
+  },
+  {
+   "key": "case071.office.body",
+   "value": "Lachlan Reid’in liman başkanlığındaki odası (şube şefinin onayıyla):\n\n· Masada yedek el telsizi; şarjı bitmek üzere, son kullanım 21.40, kanalı ana telsize aktarılmış.\n· Çekmecede bir cıvata anahtarı ve galeri korkuluğunun iki cıvatası; anahtarda Lachlan Reid’in parmak izi.\n· Arşivcinin kayıp dosyası: 1990’lardan yük manifestoları, alıcı ‘Liaison Freight’, liman tarafı imza: L. Reid."
+  },
+  {
+   "key": "case071.office.title",
+   "value": "LİMAN BAŞKANLIĞI — ARAMA"
+  },
+  {
+   "key": "case071.person.bao.info",
+   "value": "60 yaşında, iskelede balıkçı."
+  },
+  {
+   "key": "case071.person.bao.name",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.person.lachlan.info",
+   "value": "54 yaşında, Williamstown liman başkanı."
+  },
+  {
+   "key": "case071.person.lachlan.name",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.person.ruby.info",
+   "value": "26 yaşında, deniz fenerinde gönüllü rehber."
+  },
+  {
+   "key": "case071.person.ruby.name",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.radio.body",
+   "value": "Williamstown liman başkanlığı telsiz kaydı, 21 Kasım:\n\n· 20.45 – 22.10 arası Lachlan Reid’in sesi, ana kanalda, kesintisiz: gemi trafiği, römorkör çağrıları.\n\nNot: ana kanal, başkanlığın yedek el telsizinden gelen yayını da aynı kayda yazar; kayıt yayının hangi cihazdan geldiğini ayırmaz."
+  },
+  {
+   "key": "case071.radio.title",
+   "value": "LİMAN TELSİZ KAYDI"
+  },
+  {
+   "key": "case071.report.body",
+   "value": "22 Kasım 2030 sabahı Williamstown’daki eski zaman topu kulesinin dibinde liman arşivcisi Graham Teale (71) ölü bulundu. Galeri korkuluğunun bir bölümü eksikti.\n\nCesedi gönüllü rehber Ruby Aldous 07.30’da buldu. Liman başkanı Lachlan Reid ‘akşam boyunca telsizdeydim’ dedi. İskeledeki balıkçı Bao Tran-Le dinlenecek."
+  },
+  {
+   "key": "case071.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case071.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case071.request.office",
+   "value": "Liman başkanının odasını aramak için izin iste"
+  },
+  {
+   "key": "case071.request.radio",
+   "value": "Liman telsiz kaydını iste"
+  },
+  {
+   "key": "case071.request.tower",
+   "value": "Kulenin incelenmesini iste"
+  },
+  {
+   "key": "case071.ruby.body",
+   "value": "Gönüllü rehber."
+  },
+  {
+   "key": "case071.ruby.deflect",
+   "value": "Ben sadece turları anlatıyorum."
+  },
+  {
+   "key": "case071.ruby.gone",
+   "value": "Ruby Aldous ifadesini avukatı aracılığıyla geri çekti. Bir daha görüşmeyi kabul etmedi."
+  },
+  {
+   "key": "case071.ruby.key.answer",
+   "value": "Bende ve liman başkanında. Graham dün öğlen bana bir dosya gösterdi, ‘bunu yarın gazeteye vereceğim, kim olduğunu herkes görecek’ dedi. Akşam kuleye çıkacaktı, galeride okumayı severdi. Ben… ben artık bir şey söylemek istemiyorum, galiba."
+  },
+  {
+   "key": "case071.ruby.key.answer.demeanor",
+   "value": "Rüzgârlığının fermuarını çenesine kadar çekiyor."
+  },
+  {
+   "key": "case071.ruby.key.question",
+   "value": "Kulenin anahtarı kimde?"
+  },
+  {
+   "key": "case071.ruby.title",
+   "value": "Ruby Aldous — görüşme"
+  },
+  {
+   "key": "case071.summary.evidence",
+   "value": "Rehber kule incelemesinden önce dinlenmeliydi. Telsiz kaydı yemdi: el telsizini ayırmıyordu. Balıkçı ikinci ışığı gördü; arama cıvataları ve dosyayı buldu."
+  },
+  {
+   "key": "case071.summary.lesson",
+   "value": "Sesi kanaldaydı. Kendisi merdivendeydi."
+  },
+  {
+   "key": "case071.summary.location",
+   "value": "Williamstown — Kasım 2030"
+  },
+  {
+   "key": "case071.summary.truth",
+   "value": "Otuz yıl önce Lachlan Reid, ‘Liaison Freight’ adına gelen konteynerlere bakmadan imza attı. Arşivci Graham Teale manifestoları buldu ve gazeteye verecekti. Reid öğleden sonra galeri korkuluğunun cıvatalarını gevşetti; akşam el telsiziyle konuşa konuşa kuleye çıktı, dosyayı aldı, Graham geri çekilince korkuluk koptu."
+  },
+  {
+   "key": "case071.suspect.label",
+   "value": "Graham Teale’i kim öldürdü?"
+  },
+  {
+   "key": "case071.tablet.caseLine",
+   "value": "DOSYA #071  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case071.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case071.time.lamp",
+   "value": "akşam"
+  },
+  {
+   "key": "case071.time.second",
+   "value": "21.00"
+  },
+  {
+   "key": "case071.title",
+   "value": "Dosya #071 — Zaman Topu"
+  },
+  {
+   "key": "case071.tower.body",
+   "value": "Zaman topu kulesi, galeri:\n\n· Eksik korkuluk parçasının iki cıvatası yerinde değil; cıvata yuvalarında yeni çizikler, anahtarla gevşetilmiş.\n· Galeride bir okuma lambası ve boş bir dosya klasörü.\n· Kapı kilitli bulundu; zorlanmamış."
+  },
+  {
+   "key": "case071.tower.title",
+   "value": "KULE İNCELEMESİ"
+  },
+  {
+   "key": "case071.verdict.accident",
+   "value": "Kimse — korkuluk çürüktü"
+  },
+  {
+   "key": "case071.verdict.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.verdict.lachlan",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.verdict.ruby",
+   "value": "Ruby Aldous"
+  }
+ ]
+}

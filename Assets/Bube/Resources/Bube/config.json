@@ -88,6 +88,15 @@
       "videoPath": "",
       "backdropResource": "Bube/Worlds/ca",
       "graphicsEmbedded": false
+    },
+    {
+      "id": "world10",
+      "firstCaseId": "case067",
+      "countryKey": "world.au.name",
+      "locationKey": "intro.world10.city",
+      "videoPath": "",
+      "backdropResource": "Bube/Worlds/au",
+      "graphicsEmbedded": false
     }
   ],
   "reportSendVideo": "Bube/report_send.mp4",

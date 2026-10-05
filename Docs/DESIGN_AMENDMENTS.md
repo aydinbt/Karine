@@ -1092,3 +1092,16 @@ Kullanıcı ön onayı: "Birleşik Krallığı bitir, sonra Almanya'ya geç, gü
 ## Kişi sayısı sabit değil (5 Ekim 2026)
 
 Kullanıcı: "Her dosyada sabit beş kişi olmasın; 3–4 de olur, 6–7 de." Japonya (#025) ve sonrasında her dosyanın görüşülebilir kişi sayısı 3 ile 7 arasında, vakanın ihtiyacına göre ve ülke içinde dağınık seçilir; aynı ülkede iki dosya üst üste aynı sayıda olmaz. Mevcut dosyalar değiştirilmez (#011–#014 beşer kişi; #015–#024 zaten 3–7 arası).
+
+
+## Bütün dünyalar: her bölüm bir alet (5 Ekim 2026)
+
+Kullanıcı kararı: "Japonya dahil bütün dünyaları yaz ve bitir; sabit bir fikre takılma, daha özgün ve sürükleyici; sürekli beş kişi olmasın; hep üstüne koyarak ilerlesin; yeni özellik ekleyebilirsin, oyunda hep aynı şeyler denmesin; birbirine bağla."
+
+**Her bölüm bir alet ekler, öncekiler kalır.** Japonya önceki yetenekleri yeni bağlamda kullanır; Fransa gerekçeli arama izni; ABD soruşturma hatları (aynı anda iki hat, kapanan hat geç açılır); İtalya beklemeyen tanıklar (bir belge okununca görüşme kapanır; kapanan görüşme hiçbir zaman zorunlu zincirde değildir); İspanya arşivden yeniden açma (bugünkü cinayet eski bir dosyanın konuşulmasını önlemek içindir); Kanada yem kayıtlar (katilin adını taşıyan, onu aklıyor gibi görünen ama hikâyenin yarısını anlatan kayıt); Avustralya yeni alet eklemez, hepsini dosyadan dosyaya farklı birleşimlerle karıştırır. Giriş metni aletin adını vermez, yalnızca dosyanın tonunu söyler.
+
+**İp.** Her ülkenin parası bir sonraki ülkeye uzanır: Arendt (Berlin) → Kisaragi (Tokyo) → Maison Delorme (Paris) → Lakeshore (Chicago) → Caruso (Napoli) → Santa Ana Vakfı (Sevilla) → Laurentide (Montreal) → Pacific Liaison Trust (Melbourne). Hepsinin lehtarı "Uluslararası İrtibat Programı", direktörü Dr. Edda Varga. İp hiçbir dosyayı çözmek için gerekmez; her dosyada bir iki satır geçer, finalde merkeze oturur.
+
+**Son dosya açık kalır.** #073'te bölge koordinatörü kırk yıllık defterini şubeye getirmeden öldürülür; katil yakalanır ama defter Budapeşte'ye, "E. V."ye gitmiştir. Final telefonu bu sefer çalmaz; sonraki ülke "ARŞİV", sonraki dosya "AÇIK DOSYA". Edda Varga bulunmaz — olası bir devam için kapı, ama oyun bunu vaat etmez.
+
+**CCTV.** Fransa'dan Kanada'ya kadar CCTV yalnız kritik olaylarda ve 3 karedir; Avustralya'da hiç yok, çünkü o bölümün kurgusu kaydın kör noktasıdır (yangın merdiveni, su tarafı, el telsizi).

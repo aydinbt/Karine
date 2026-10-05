@@ -1,0 +1,399 @@
+{
+ "deskHour": 7,
+ "deskDate": "2 Aralık 2030",
+ "titleKey": "case067.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case067.report.title",
+   "bodyKey": "case067.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case067.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case067.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case067.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case067.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case067.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case067.autopsy.title",
+   "bodyKey": "case067.autopsy.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case067.request.autopsy",
+   "requestDelaySeconds": 7
+  },
+  {
+   "id": "tavita",
+   "kind": "interview",
+   "titleKey": "case067.tavita.title",
+   "bodyKey": "case067.tavita.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "tavita",
+   "personNameKey": "case067.person.tavita.name",
+   "personInfoKey": "case067.person.tavita.info",
+   "questions": [
+    {
+     "id": "case067.tavita.found",
+     "promptKey": "case067.tavita.found.question",
+     "answerKey": "case067.tavita.found.answer",
+     "topicKey": "interview.topic.observations"
+    }
+   ],
+   "completionQuestionIds": [
+    "case067.tavita.found"
+   ],
+   "deflectAnswerKey": "case067.tavita.deflect",
+   "portrait": {
+    "hairHex": "#121010",
+    "skinHex": "#9A6A48",
+    "shirtHex": "#1A5A5A"
+   }
+  },
+  {
+   "id": "linh",
+   "kind": "interview",
+   "titleKey": "case067.linh.title",
+   "bodyKey": "case067.linh.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "linh",
+   "personNameKey": "case067.person.linh.name",
+   "personInfoKey": "case067.person.linh.info",
+   "questions": [
+    {
+     "id": "case067.linh.sell",
+     "promptKey": "case067.linh.sell.question",
+     "answerKey": "case067.linh.sell.answer",
+     "topicKey": "interview.topic.relationships"
+    }
+   ],
+   "completionQuestionIds": [
+    "case067.linh.sell"
+   ],
+   "deflectAnswerKey": "case067.linh.deflect",
+   "portrait": {
+    "hairHex": "#121010",
+    "skinHex": "#E4C29A",
+    "shirtHex": "#C82A3A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "alarm",
+   "kind": "document",
+   "titleKey": "case067.alarm.title",
+   "bodyKey": "case067.alarm.body",
+   "requires": [
+    "tavita"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case067.request.alarm",
+   "requestDelaySeconds": 3
+  },
+  {
+   "id": "archive",
+   "kind": "document",
+   "titleKey": "case067.archive.title",
+   "bodyKey": "case067.archive.body",
+   "requires": [
+    "linh"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case067.request.archive",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "linh",
+      "tavita"
+     ]
+    },
+    {
+     "sources": [
+      "linh",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "tavita",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "archive",
+   "reopenYear": "1998",
+   "reopenNoteKey": "case067.archive.reopen"
+  },
+  {
+   "id": "brennan",
+   "kind": "interview",
+   "titleKey": "case067.brennan.title",
+   "bodyKey": "case067.brennan.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "brennan",
+   "personNameKey": "case067.person.brennan.name",
+   "personInfoKey": "case067.person.brennan.info",
+   "questions": [
+    {
+     "id": "case067.brennan.night",
+     "promptKey": "case067.brennan.night.question",
+     "answerKey": "case067.brennan.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case067.brennan.end",
+     "promptKey": "case067.brennan.end.question",
+     "answerKey": "case067.brennan.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "office"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "office",
+       "answerKey": "case067.brennan.end.presented.office"
+      }
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "alarm",
+       "answerKey": "case067.brennan.end.decoy.alarm"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case067.brennan.night"
+   ],
+   "deflectAnswerKey": "case067.brennan.deflect",
+   "portrait": {
+    "hairHex": "#C8A878",
+    "skinHex": "#E8B898",
+    "shirtHex": "#2A4A6A"
+   }
+  },
+  {
+   "id": "office",
+   "kind": "document",
+   "titleKey": "case067.office.title",
+   "bodyKey": "case067.office.body",
+   "requires": [
+    "archive",
+    "alarm"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case067.request.office",
+   "requestDelaySeconds": 6,
+   "warrant": [
+    {
+     "sources": [
+      "archive",
+      "alarm"
+     ]
+    },
+    {
+     "sources": [
+      "archive",
+      "tavita"
+     ]
+    },
+    {
+     "sources": [
+      "alarm",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "send",
+   "timeKey": "case067.time.send",
+   "noteKey": "case067.clue.send",
+   "sourceKey": "case067.clue.source.tavita",
+   "requiresRead": [
+    "tavita"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "set",
+   "timeKey": "case067.time.set",
+   "noteKey": "case067.clue.set",
+   "sourceKey": "case067.clue.source.alarm",
+   "requiresRead": [
+    "alarm"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "found",
+   "timeKey": "case067.time.found",
+   "noteKey": "case067.clue.found",
+   "sourceKey": "case067.clue.source.tavita",
+   "requiresRead": [
+    "tavita"
+   ],
+   "sortMinute": 240
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "brennan",
+   "labelKey": "case067.verdict.brennan",
+   "correct": true,
+   "feedbackKey": "case067.feedback.brennan",
+   "requires": [],
+   "epilogueKey": "case067.epilogue.verdict.brennan",
+   "supportingSourceIds": [
+    "office",
+    "archive",
+    "tavita"
+   ]
+  },
+  {
+   "id": "tavita",
+   "labelKey": "case067.verdict.tavita",
+   "correct": false,
+   "feedbackKey": "case067.feedback.tavita",
+   "requires": [],
+   "epilogueKey": "case067.epilogue.verdict.tavita"
+  },
+  {
+   "id": "linh",
+   "labelKey": "case067.verdict.linh",
+   "correct": false,
+   "feedbackKey": "case067.feedback.linh",
+   "requires": [],
+   "epilogueKey": "case067.epilogue.verdict.linh"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case067.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case067.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case067.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "tank",
+   "labelKey": "case067.method.tank",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "tavita"
+   ]
+  },
+  {
+   "id": "fall",
+   "labelKey": "case067.method.fall",
+   "correct": false
+  },
+  {
+   "id": "heart",
+   "labelKey": "case067.method.heart",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "scale",
+   "labelKey": "case067.custody.scale",
+   "correct": true,
+   "epilogueKey": "case067.epilogue.custody.scale",
+   "supportingSourceIds": [
+    "office",
+    "tavita"
+   ]
+  },
+  {
+   "id": "river",
+   "labelKey": "case067.custody.river",
+   "correct": false,
+   "epilogueKey": "case067.epilogue.custody.river"
+  },
+  {
+   "id": "drain",
+   "labelKey": "case067.custody.drain",
+   "correct": false,
+   "epilogueKey": "case067.epilogue.custody.drain"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "office",
+   "labelKey": "case067.evidence.office",
+   "correct": true,
+   "supportingSourceIds": [
+    "office"
+   ]
+  },
+  {
+   "id": "archive",
+   "labelKey": "case067.evidence.archive",
+   "correct": false
+  },
+  {
+   "id": "alarm",
+   "labelKey": "case067.evidence.alarm",
+   "correct": false
+  },
+  {
+   "id": "autopsy",
+   "labelKey": "case067.evidence.autopsy",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case067.suspect.label",
+ "methodLabelKey": "case067.method.label",
+ "custodyLabelKey": "case067.custody.label",
+ "summary": {
+  "locationKey": "case067.summary.location",
+  "truthKey": "case067.summary.truth",
+  "evidenceKey": "case067.summary.evidence",
+  "lessonKey": "case067.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case068",
+ "ambienceId": "room_night",
+ "id": "case067"
+}

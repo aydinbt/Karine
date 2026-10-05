@@ -19,16 +19,16 @@ Yeni kariyer ilk başladığında ve yalnız bu kariyerde bir kez yaklaşık 10 
 | Dünya | Ülke | Şehir | Dosya | Açılış |
 | --- | --- | --- | --- | --- |
 | 1 | Türkiye | İstanbul | 10 | Bora'nın Beşiktaş şubesine ilk gelişi — ilk sürüm mevcut |
-| 2 | Birleşik Krallık | Londra | 10 | Ayrı açılış gerekir; plan `UK_CHAPTER_PLAN.md` |
-| 3 | Almanya | Berlin | 10 | Ayrı açılış gerekir |
-| 4 | Japonya | Tokyo | 10 | Ayrı açılış gerekir |
-| 5 | Fransa | Paris | 10 | Ayrı açılış gerekir |
-| 6 | ABD | Chicago | 10 | Ayrı açılış gerekir |
-| 7 | İtalya | Napoli | 10 | Ayrı açılış gerekir |
-| 8 | İspanya | Sevilla | 10 | Ayrı açılış gerekir |
-| 9 | Kanada | Montreal | 10 | Ayrı açılış gerekir |
-| 10 | Avustralya | Melbourne | 10 | Ayrı açılış gerekir |
+| 2 | Birleşik Krallık | Londra — Southwark | 7 | Kartpostal açılışı (`world02`), video yok |
+| 3 | Almanya | Berlin — Kreuzberg | 7 | Kartpostal açılışı (`world03`) |
+| 4 | Japonya | Tokyo — Nihonbashi | 7 | Kartpostal açılışı (`world04`) |
+| 5 | Fransa | Paris — Belleville | 7 | Kartpostal açılışı (`world05`) |
+| 6 | ABD | Chicago — Pilsen | 7 | Kartpostal açılışı (`world06`) |
+| 7 | İtalya | Napoli — Quartieri Spagnoli | 7 | Kartpostal açılışı (`world07`) |
+| 8 | İspanya | Sevilla — Triana | 7 | Kartpostal açılışı (`world08`) |
+| 9 | Kanada | Montreal — Mile End | 7 | Kartpostal açılışı (`world09`) |
+| 10 | Avustralya | Melbourne — Footscray | 7 | Kartpostal açılışı (`world10`); son bölüm |
 
-Şehirler bölüm seçicinin ülke kartında görünür ve `Worlds.json` ile aynıdır; Türkiye dışındakiler ilk taslaktır, o ülkenin vakaları yazılırken değişebilir. Dosya sayısı on ülkede de ondur: seçicinin ilerleme çubuğu ve `n / 100` sayacı aynı ölçeği gösterir, doğrulayıcı eşitliği kilitler.
+Şehirler bölüm seçicinin ülke kartında görünür ve `Worlds.json` ile aynıdır; Türkiye dışındakiler ilk taslaktır, o ülkenin vakaları yazılırken değişebilir. Dosya sayısı: Türkiye 10, sonraki dokuz ülke 7 (toplam 73); doğrulayıcı Türkiye dışındaki eşitliği kilitler. Kartpostal açılışları `backdropResource` görseli bekler (ChatGPT prompt’ları her bölümün ilk `CASE0NN_PROMPTS.md`’sinde).
 
 Her yeni açılış, o ülkenin yerel atmosferini taşımalı; Bora'yı ve bube kimliğini tutarlı korumalı. Bu açılışlar soruşturma kaynağı veya oyuncuya ipucu veren sahneler değildir.

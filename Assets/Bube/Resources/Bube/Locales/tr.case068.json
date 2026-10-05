@@ -1,0 +1,556 @@
+{
+ "entries": [
+  {
+   "key": "case068.ainsley.body",
+   "value": "Antrenör."
+  },
+  {
+   "key": "case068.ainsley.deflect",
+   "value": "Atlar yalan söylemez. İnsanlar söyler."
+  },
+  {
+   "key": "case068.ainsley.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case068.ainsley.end.presented.bets",
+   "value": "Hesaplar benim değil. Kızımın adını kullandılar. Ama tüpü almak için oradaydım, evet."
+  },
+  {
+   "key": "case068.ainsley.end.presented.float",
+   "value": "Tüp laboratuvara giderse ben biterdim, kızım biterdi. Atın kanında ne olduğunu ben biliyordum. Owen’a ‘ver’ dedim, vermedi. Nal çekici elimdeydi. Atı arkaya bağladım ki tekme gibi görünsün. Talimat yukarıdan geliyordu; ‘kazanmasın’ dediler, ben de sağladım."
+  },
+  {
+   "key": "case068.ainsley.end.question",
+   "value": "Owen Pryce’ı siz öldürdünüz."
+  },
+  {
+   "key": "case068.ainsley.night.answer",
+   "value": "Evde. Atlar onda beslenir, ben dokuzda çıkarım. Owen o bölmeye girmiş, at korkmuş. Olur."
+  },
+  {
+   "key": "case068.ainsley.night.answer.demeanor",
+   "value": "Gözlerini kısıp ahır kapısına bakıyor."
+  },
+  {
+   "key": "case068.ainsley.night.question",
+   "value": "Dün gece neredeydiniz?"
+  },
+  {
+   "key": "case068.ainsley.title",
+   "value": "Grant Ainsley — görüşme"
+  },
+  {
+   "key": "case068.autopsy.body",
+   "value": "· Ölüm nedeni: kafatası kırığı; sol şakakta tek darbe.\n· Yaranın biçimi nal izine uyuyor, ama açısı bir atın tekmesine değil, ayakta duran bir insanın elindeki aletin savuruşuna uyuyor.\n· Yarada at kılı ya da gübre yok; demir pası var.\n· Ölüm zamanı: 22.00–23.30."
+  },
+  {
+   "key": "case068.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case068.bets.body",
+   "value": "Southern Liaison aleyhine son dört gün:\n\n· 412 hesap, toplam 1,9 milyon dolar.\n· Hesapların 300’ü aynı üç telefondan açılmış; biri Grant Ainsley’in kızının adına.\n· Kazanç halinde ödemeler Pacific Liaison Trust’ın bir alt hesabına aktarılacak."
+  },
+  {
+   "key": "case068.bets.title",
+   "value": "BAHİS DÖKÜMÜ"
+  },
+  {
+   "key": "case068.clue.blood",
+   "value": "Müfettiş atın kanından kendi numunesini alıyor; antrenör yanında."
+  },
+  {
+   "key": "case068.clue.found",
+   "value": "Seyis müfettişi bölmede, atı bağlı buluyor."
+  },
+  {
+   "key": "case068.clue.shout",
+   "value": "Ahırda ‘yarın tüp laboratuvara gidecek’ diye bir bağırış; ardından römork kapısı."
+  },
+  {
+   "key": "case068.clue.source.deng",
+   "value": "Deng Akol"
+  },
+  {
+   "key": "case068.clue.source.harriet",
+   "value": "Harriet Combe"
+  },
+  {
+   "key": "case068.custody.forge",
+   "value": "Nalbantın ocağına"
+  },
+  {
+   "key": "case068.custody.lab",
+   "value": "Laboratuvara"
+  },
+  {
+   "key": "case068.custody.label",
+   "value": "Müfettişin kayıp numune tüpü nereye gitti?"
+  },
+  {
+   "key": "case068.custody.tube",
+   "value": "Antrenörün römorkunda saman altına"
+  },
+  {
+   "key": "case068.deng.body",
+   "value": "Seyis."
+  },
+  {
+   "key": "case068.deng.deflect",
+   "value": "O ahırda ben uyurum, efendim."
+  },
+  {
+   "key": "case068.deng.night.answer",
+   "value": "Ben bölmenin üstündeki odada uyurum. On bir gibi sesler duydum, birisi bağırdı ‘yarın tüp laboratuvara gidecek’ diye. Sonra bir römork kapısı. Sabah müfettişi buldum. At bağlıydı; ben bağlamadım, o at gece hiç bağlanmaz."
+  },
+  {
+   "key": "case068.deng.night.answer.demeanor",
+   "value": "Parmaklarını birbirine geçirip sıkıyor."
+  },
+  {
+   "key": "case068.deng.night.question",
+   "value": "Gece ahırda ne oldu?"
+  },
+  {
+   "key": "case068.deng.title",
+   "value": "Deng Akol — görüşme"
+  },
+  {
+   "key": "case068.epilogue.custody.forge",
+   "value": "Ocakta tüp yoktu."
+  },
+  {
+   "key": "case068.epilogue.custody.lab",
+   "value": "Tüp laboratuvara hiç ulaşmadı."
+  },
+  {
+   "key": "case068.epilogue.custody.tube",
+   "value": "Tüpün römorkta saklandığı yazıldı."
+  },
+  {
+   "key": "case068.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; at kupada koştu ve kaybetti."
+  },
+  {
+   "key": "case068.epilogue.verdict.ainsley",
+   "value": "Grant Ainsley tutuklandı; Southern Liaison kupadan çekildi. Pacific Liaison Trust’ın alt hesabı donduruldu."
+  },
+  {
+   "key": "case068.epilogue.verdict.rafferty",
+   "value": "Declan Rafferty sorgulandı; asıl el serbest kaldı."
+  },
+  {
+   "key": "case068.epilogue.verdict.sione",
+   "value": "Sione Taufa tutuklandı; çekiç römorkta kaldı."
+  },
+  {
+   "key": "case068.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case068.evidence.bets",
+   "value": "Bahis dökümü"
+  },
+  {
+   "key": "case068.evidence.float",
+   "value": "Römork araması"
+  },
+  {
+   "key": "case068.evidence.syndicate",
+   "value": "Ortaklık sözleşmesi"
+  },
+  {
+   "key": "case068.feedback.accident",
+   "value": "Yarada at kılı yok, açı bir insan savuruşuna uyuyor; at arkada bağlıydı."
+  },
+  {
+   "key": "case068.feedback.ainsley",
+   "value": "Nal çekici ve müfettişin kayıp tüpü onun römorkundan çıktı; bahislerin yığıldığı hesaplardan biri kızının adına. Ortaklık ona ‘talimata uyma’ primi vaat ediyordu."
+  },
+  {
+   "key": "case068.feedback.rafferty",
+   "value": "Sahip talimatı verdi, ama o gece ahırda değildi ve çekiç onun değil."
+  },
+  {
+   "key": "case068.feedback.sione",
+   "value": "Nalbantın çekiçlerinin hepsi yerinde; eski nalları başkası almıştı."
+  },
+  {
+   "key": "case068.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case068.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Şubesi"
+  },
+  {
+   "key": "case068.file.value.location",
+   "value": "Flemington ahırları, Melbourne"
+  },
+  {
+   "key": "case068.file.value.number",
+   "value": "BDA-MEL-2030-0322"
+  },
+  {
+   "key": "case068.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case068.file.value.reporter",
+   "value": "Seyis"
+  },
+  {
+   "key": "case068.float.body",
+   "value": "Grant Ainsley’in at römorku (ahır otoparkı):\n\n· Alet kutusunda ucuna eski bir nal perçinlenmiş kısa saplı çekiç; nalda kurumuş kan ve pas.\n· Saman altında mühürlü bir numune tüpü; etiketinde müfettişin parafı ve ‘S. Liaison’.\n· Römork kapısının menteşesi yeni yağlanmış."
+  },
+  {
+   "key": "case068.float.title",
+   "value": "ANTRENÖRÜN RÖMORKU — ARAMA"
+  },
+  {
+   "key": "case068.harriet.body",
+   "value": "Ahırın veteriner hekimi."
+  },
+  {
+   "key": "case068.harriet.deflect",
+   "value": "Benim işim atların sağlığı."
+  },
+  {
+   "key": "case068.harriet.gone",
+   "value": "Harriet Combe öğle uçağıyla Londra’ya gitti. Yeni işyeri görüşmeyi reddetti."
+  },
+  {
+   "key": "case068.harriet.horse.answer",
+   "value": "Atın arka nallarına baktım; kan yok, kıl yok. Ve bu at sakin. Müfettiş dün akşam atın kanını istedi; numuneyi ben almadım, o kendi aldı. Antrenör yanındaydı, çok gergindi. Yarın Londra’ya uçuyorum; bir iş teklifi."
+  },
+  {
+   "key": "case068.harriet.horse.answer.demeanor",
+   "value": "Kollarını göğsünde kavuşturup ahır kapısına bakıyor."
+  },
+  {
+   "key": "case068.harriet.horse.question",
+   "value": "At tekmelemiş olabilir mi?"
+  },
+  {
+   "key": "case068.harriet.title",
+   "value": "Harriet Combe — görüşme"
+  },
+  {
+   "key": "case068.keogh.body",
+   "value": "Jokey."
+  },
+  {
+   "key": "case068.keogh.deflect",
+   "value": "Ben bindirildiğim atı sürerim."
+  },
+  {
+   "key": "case068.keogh.ride.answer",
+   "value": "Söylendiği gibi. Bana ‘ilk dörde girmesin’ denmedi, ‘zorlama’ dendi. Fark var. Mai Pham geçen hafta beni aradı, bir sürü bahis varmış atın aleyhine."
+  },
+  {
+   "key": "case068.keogh.ride.answer.demeanor",
+   "value": "Gözlerini yere dikiyor."
+  },
+  {
+   "key": "case068.keogh.ride.question",
+   "value": "Kupada atı nasıl sürecektiniz?"
+  },
+  {
+   "key": "case068.keogh.title",
+   "value": "Shane Keogh — görüşme"
+  },
+  {
+   "key": "case068.line_bets.body",
+   "value": "Bahis hattı açıldı: hesaplar, yatırımlar, bağlantılar."
+  },
+  {
+   "key": "case068.line_bets.title",
+   "value": "HAT B — BAHİS"
+  },
+  {
+   "key": "case068.line_owner.body",
+   "value": "Sahiplik hattı açıldı: ortaklık sözleşmeleri, vakıf bağlantıları."
+  },
+  {
+   "key": "case068.line_owner.title",
+   "value": "HAT C — SAHİPLİK"
+  },
+  {
+   "key": "case068.line_stable.body",
+   "value": "Ahır hattı açıldı: römorklar, alet kutuları, ahır giriş çıkışları."
+  },
+  {
+   "key": "case068.line_stable.title",
+   "value": "HAT A — AHIR"
+  },
+  {
+   "key": "case068.mai.body",
+   "value": "Bahis şirketinin risk analisti."
+  },
+  {
+   "key": "case068.mai.deflect",
+   "value": "Rakamlar bir şey söylüyorsa dinlerim."
+  },
+  {
+   "key": "case068.mai.money.answer",
+   "value": "Favori bir atın aleyhine, dört gün kala, küçük küçük ama yüzlerce hesap. Müfettiş Pryce’a ben haber verdim. Kendisi ‘atın kanına bakacağım’ dedi."
+  },
+  {
+   "key": "case068.mai.money.answer.demeanor",
+   "value": "Gözlüğünü burnunda yukarı itiyor."
+  },
+  {
+   "key": "case068.mai.money.question",
+   "value": "Ne tür bir hareket gördünüz?"
+  },
+  {
+   "key": "case068.mai.title",
+   "value": "Mai Pham — görüşme"
+  },
+  {
+   "key": "case068.method.fall",
+   "value": "Düşüp başını çarptı"
+  },
+  {
+   "key": "case068.method.kick",
+   "value": "At tekmeledi"
+  },
+  {
+   "key": "case068.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case068.method.mallet",
+   "value": "Nal perçinli çekiçle vuruldu"
+  },
+  {
+   "key": "case068.offer.subtitle",
+   "value": "AHIR  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case068.offer.summary",
+   "value": "Kupanın favorisinin bölmesinde bir yarış müfettişi ölü; ilk rapor ‘at tekmesi’ diyor."
+  },
+  {
+   "key": "case068.offer.title",
+   "value": "DOSYA #068"
+  },
+  {
+   "key": "case068.person.ainsley.info",
+   "value": "49 yaşında, Flemington’da antrenör; ‘Southern Liaison’ atının hocası."
+  },
+  {
+   "key": "case068.person.ainsley.name",
+   "value": "Grant Ainsley"
+  },
+  {
+   "key": "case068.person.deng.info",
+   "value": "24 yaşında, seyis; cesedi bulan."
+  },
+  {
+   "key": "case068.person.deng.name",
+   "value": "Deng Akol"
+  },
+  {
+   "key": "case068.person.harriet.info",
+   "value": "45 yaşında, ahırın veteriner hekimi."
+  },
+  {
+   "key": "case068.person.harriet.name",
+   "value": "Harriet Combe"
+  },
+  {
+   "key": "case068.person.keogh.info",
+   "value": "27 yaşında, jokey."
+  },
+  {
+   "key": "case068.person.keogh.name",
+   "value": "Shane Keogh"
+  },
+  {
+   "key": "case068.person.mai.info",
+   "value": "31 yaşında, bahis şirketinde risk analisti."
+  },
+  {
+   "key": "case068.person.mai.name",
+   "value": "Mai Pham"
+  },
+  {
+   "key": "case068.person.rafferty.info",
+   "value": "61 yaşında, at sahibi; ortaklığın temsilcisi."
+  },
+  {
+   "key": "case068.person.rafferty.name",
+   "value": "Declan Rafferty"
+  },
+  {
+   "key": "case068.person.sione.info",
+   "value": "38 yaşında, nalbant."
+  },
+  {
+   "key": "case068.person.sione.name",
+   "value": "Sione Taufa"
+  },
+  {
+   "key": "case068.rafferty.body",
+   "value": "At sahibi."
+  },
+  {
+   "key": "case068.rafferty.deflect",
+   "value": "Ben yalnızca çek imzalarım."
+  },
+  {
+   "key": "case068.rafferty.own.answer",
+   "value": "Bir ortaklık. Ben temsilciyim. Para bir vakıftan geliyor; adını sormak sizin işiniz değil. Atın adını onlar koydu."
+  },
+  {
+   "key": "case068.rafferty.own.answer.demeanor",
+   "value": "Kravatını gevşetmeden düzeltiyor."
+  },
+  {
+   "key": "case068.rafferty.own.question",
+   "value": "Atın gerçek sahibi kim?"
+  },
+  {
+   "key": "case068.rafferty.title",
+   "value": "Declan Rafferty — görüşme"
+  },
+  {
+   "key": "case068.report.body",
+   "value": "1 Kasım 2030 sabahı Flemington ahırlarında yarış komiserliği müfettişi Owen Pryce (44), ‘Southern Liaison’ adlı atın bölmesinde ölü bulundu. Başında ağır bir yara vardı; ilk değerlendirme ‘at tekmesi’ydi.\n\nCesedi seyis Deng Akol 05.10’da buldu. Antrenör Grant Ainsley, sahip Declan Rafferty, jokey Shane Keogh, veteriner Harriet Combe ve nalbant Sione Taufa sabah ahırdaydı. Bahis şirketinden Mai Pham, ‘olağandışı hareket’ bildirimi için daha önce aramıştı."
+  },
+  {
+   "key": "case068.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case068.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case068.request.bets",
+   "value": "Bahis dökümünü iste"
+  },
+  {
+   "key": "case068.request.float",
+   "value": "Antrenörün römorkunu aramak için izin iste"
+  },
+  {
+   "key": "case068.request.line_bets",
+   "value": "Bahis hattını aç"
+  },
+  {
+   "key": "case068.request.line_owner",
+   "value": "Sahiplik hattını aç"
+  },
+  {
+   "key": "case068.request.line_stable",
+   "value": "Ahır hattını aç"
+  },
+  {
+   "key": "case068.request.stall",
+   "value": "Bölmenin incelenmesini iste"
+  },
+  {
+   "key": "case068.request.syndicate",
+   "value": "Ortaklık sözleşmesini iste"
+  },
+  {
+   "key": "case068.sione.body",
+   "value": "Nalbant."
+  },
+  {
+   "key": "case068.sione.deflect",
+   "value": "Nalı ben çakarım, gerisini bilmem."
+  },
+  {
+   "key": "case068.sione.shoe.answer",
+   "value": "Benim çekiçlerim ocağın yanında, sayın; altısı da yerinde. Eski nalları biriktiririm, isteyen alır; geçen hafta Grant iki tane aldı, ‘şans için’ dedi."
+  },
+  {
+   "key": "case068.sione.shoe.answer.demeanor",
+   "value": "Önlüğünün cebindeki çiviyle oynuyor."
+  },
+  {
+   "key": "case068.sione.shoe.question",
+   "value": "Yaradaki iz bir nala benziyormuş."
+  },
+  {
+   "key": "case068.sione.title",
+   "value": "Sione Taufa — görüşme"
+  },
+  {
+   "key": "case068.stall.body",
+   "value": "Southern Liaison’ın bölmesi:\n\n· Kan yalnızca kapı tarafında; at bölmenin arkasında bağlıymış, ipi gergin.\n· Samanda sürüklenme izi, kapıdan içeri.\n· Müfettişin numune çantası köşede; on iki yuvanın biri boş, mühür kırık."
+  },
+  {
+   "key": "case068.stall.title",
+   "value": "BÖLME İNCELEMESİ"
+  },
+  {
+   "key": "case068.summary.evidence",
+   "value": "Veteriner otopsiden önce dinlenmeliydi; sonra gitti. Üç hattan ikisi aynı anda açıktı: ahır hattı çekici, bahis hattı kızın adını, sahiplik hattı primi verdi."
+  },
+  {
+   "key": "case068.summary.lesson",
+   "value": "At tekmelememişti. Yalnızca orada duruyordu."
+  },
+  {
+   "key": "case068.summary.location",
+   "value": "Flemington ahırları — Kasım 2030"
+  },
+  {
+   "key": "case068.summary.truth",
+   "value": "Pacific Liaison Trust’ın sahibi olduğu favori at, kupayı kazanmamalıydı. Antrenör Grant Ainsley atı ilaçladı; yüzlerce hesap atın aleyhine oynadı. Müfettiş Owen Pryce atın kanından numune aldı. Ainsley gece tüpü geri istedi, alamadı, nal perçinli çekiçle vurdu ve atı arkaya bağlayıp tekme süsü verdi."
+  },
+  {
+   "key": "case068.suspect.label",
+   "value": "Owen Pryce’ı kim öldürdü?"
+  },
+  {
+   "key": "case068.syndicate.body",
+   "value": "‘Southern Liaison’ ortaklığı:\n\n· Tek ortak: Pacific Liaison Trust (Melbourne). Temsilci Declan Rafferty.\n· Antrenör Grant Ainsley’e ‘sonuç primi’: at kazanırsa yüzde on, ‘ortaklık talimatına uyulursa’ yüzde otuz.\n· Talimatlar sözlü verilir."
+  },
+  {
+   "key": "case068.syndicate.title",
+   "value": "ORTAKLIK SÖZLEŞMESİ"
+  },
+  {
+   "key": "case068.tablet.caseLine",
+   "value": "DOSYA #068  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case068.time.blood",
+   "value": "akşam"
+  },
+  {
+   "key": "case068.time.found",
+   "value": "05.10"
+  },
+  {
+   "key": "case068.time.shout",
+   "value": "23.00"
+  },
+  {
+   "key": "case068.title",
+   "value": "Dosya #068 — Ahır"
+  },
+  {
+   "key": "case068.verdict.accident",
+   "value": "Kimse — at tekmeledi"
+  },
+  {
+   "key": "case068.verdict.ainsley",
+   "value": "Grant Ainsley"
+  },
+  {
+   "key": "case068.verdict.rafferty",
+   "value": "Declan Rafferty"
+  },
+  {
+   "key": "case068.verdict.sione",
+   "value": "Sione Taufa"
+  }
+ ]
+}

@@ -1,0 +1,524 @@
+{
+ "entries": [
+  {
+   "key": "case070.autopsy.body",
+   "value": "· Ölüm nedeni: göğüs ezilmesi.\n· Bileklerde tutunma izi yok; düşerken bilinçliymiş, çıkmaya çalışmış.\n· Ensede küçük, eski bir yara; ilgisiz.\n· Ölüm zamanı: 23.30–00.30."
+  },
+  {
+   "key": "case070.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case070.bid.body",
+   "value": "Konsorsiyum dosyası:\n\n· Güvence veren: Pacific Liaison Trust. İmza yetkilisi ‘Bölge Koordinatörü’.\n· Ek: ‘mevcut depo personeline geçiş primi’ listesi; ilk sırada Paul Kerrigan, ‘vardiya şefi — sorunsuz devir’.\n· Maeve Sullivan’ın notu: ‘rapor ihaleyi geciktirir.’"
+  },
+  {
+   "key": "case070.bid.title",
+   "value": "İHALE DOSYASI"
+  },
+  {
+   "key": "case070.clue.found",
+   "value": "Teknisyen tramvayın altında Neil’i buluyor; anahtar yuvası boş."
+  },
+  {
+   "key": "case070.clue.hiss",
+   "value": "Bekçi bir fren havasının boşaldığını, ardından ofise giden adımları duyuyor."
+  },
+  {
+   "key": "case070.clue.park",
+   "value": "Sürücü tramvayı çukurun üstüne park edip fren anahtarını şefin panosuna asıyor."
+  },
+  {
+   "key": "case070.clue.source.cormac",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.clue.source.dimitri",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.clue.source.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.cormac.body",
+   "value": "Sürücü."
+  },
+  {
+   "key": "case070.cormac.deflect",
+   "value": "Ben sadece sürerim."
+  },
+  {
+   "key": "case070.cormac.park.answer",
+   "value": "Saat onda, çukurun üstüne. Freni çektim, anahtarı şefin panosuna astım; kural bu. O tramvay geçen hafta iki kez durmakta zorlandı, Neil’e söyledim."
+  },
+  {
+   "key": "case070.cormac.park.answer.demeanor",
+   "value": "Şapkasını iki elinde döndürüyor."
+  },
+  {
+   "key": "case070.cormac.park.question",
+   "value": "Tramvayı siz mi park ettiniz?"
+  },
+  {
+   "key": "case070.cormac.title",
+   "value": "Cormac Byrne — görüşme"
+  },
+  {
+   "key": "case070.custody.board",
+   "value": "Anahtar panosuna geri"
+  },
+  {
+   "key": "case070.custody.label",
+   "value": "Fren kolunun anahtarı nereye gitti?"
+  },
+  {
+   "key": "case070.custody.locker",
+   "value": "Vardiya şefinin dolabına"
+  },
+  {
+   "key": "case070.custody.pit",
+   "value": "Çukurun dibine"
+  },
+  {
+   "key": "case070.dimitri.body",
+   "value": "Gece bekçisi."
+  },
+  {
+   "key": "case070.dimitri.deflect",
+   "value": "Kırk yıl bu raylarda; ses tanırım."
+  },
+  {
+   "key": "case070.dimitri.sound.answer",
+   "value": "Gece yarısına doğru bir fren havası boşaldı; o tıslamayı kırk yıl dinledim. Sonra ray sesi. Sonra ayak sesi, ofise doğru. Ofiste yalnız şef vardı; Paul Kerrigan ışığı yaktı, söndürdü."
+  },
+  {
+   "key": "case070.dimitri.sound.answer.demeanor",
+   "value": "Bıyığını sıvazlıyor."
+  },
+  {
+   "key": "case070.dimitri.sound.question",
+   "value": "Gece ne duydunuz?"
+  },
+  {
+   "key": "case070.dimitri.title",
+   "value": "Dimitri Kostas — görüşme"
+  },
+  {
+   "key": "case070.epilogue.custody.board",
+   "value": "Panoda o anahtar yoktu."
+  },
+  {
+   "key": "case070.epilogue.custody.locker",
+   "value": "Anahtarın şefin dolabında bulunduğu yazıldı."
+  },
+  {
+   "key": "case070.epilogue.custody.pit",
+   "value": "Çukurda yalnız fener ve balata vardı."
+  },
+  {
+   "key": "case070.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; tramvaylar raylarda kaldı."
+  },
+  {
+   "key": "case070.epilogue.verdict.kerrigan",
+   "value": "Paul Kerrigan tutuklandı; on dört tramvay seferden çekildi. İhale komisyonu Pacific Liaison güvencesini dosyadan çıkardı."
+  },
+  {
+   "key": "case070.epilogue.verdict.maeve",
+   "value": "Maeve Sullivan sorgulandı; şef işine döndü."
+  },
+  {
+   "key": "case070.epilogue.verdict.wiremu",
+   "value": "Wiremu Tane tutuklandı; anahtar dolapta kaldı."
+  },
+  {
+   "key": "case070.evidence.bid",
+   "value": "İhale dosyası"
+  },
+  {
+   "key": "case070.evidence.locker",
+   "value": "Dolap araması"
+  },
+  {
+   "key": "case070.evidence.mail",
+   "value": "Sendika yazışmaları"
+  },
+  {
+   "key": "case070.evidence.pit",
+   "value": "Çukur incelemesi"
+  },
+  {
+   "key": "case070.feedback.accident",
+   "value": "Fren boşaltma kolunun anahtarı yuvada değildi; biri takıp çıkardı."
+  },
+  {
+   "key": "case070.feedback.kerrigan",
+   "value": "Fren anahtarı ve defterden kopan sayfalar onun dolabında, anahtarda onun izi var; Neil ona o gece geleceğini yazmıştı. Bekçi frenden sonra ofise giden adımları duydu."
+  },
+  {
+   "key": "case070.feedback.maeve",
+   "value": "Sözleşme müdürü raporu ertelemek istedi, ama o gece depoda değildi."
+  },
+  {
+   "key": "case070.feedback.wiremu",
+   "value": "Teknisyen cesedi buldu; fren anahtarı panoda, sonra şefin dolabındaydı, onda değil."
+  },
+  {
+   "key": "case070.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case070.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Şubesi"
+  },
+  {
+   "key": "case070.file.value.location",
+   "value": "Footscray tramvay deposu, Melbourne"
+  },
+  {
+   "key": "case070.file.value.number",
+   "value": "BDA-MEL-2030-0351"
+  },
+  {
+   "key": "case070.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case070.file.value.reporter",
+   "value": "Bakım teknisyeni"
+  },
+  {
+   "key": "case070.haddad.body",
+   "value": "Sendika iş güvenliği temsilcisi."
+  },
+  {
+   "key": "case070.haddad.deflect",
+   "value": "Bir freni kâğıt üstünde onarmak kolaydır."
+  },
+  {
+   "key": "case070.haddad.rep.answer",
+   "value": "On dört tramvayın frenleri. Bakım defterinde ‘sağlam’ yazıyor, ama parçalar hiç değiştirilmemiş. Rapor pazartesi ihale komisyonuna gidecekti. Maeve Sullivan raporu ‘ihaleden sonraya’ ertelememizi istedi."
+  },
+  {
+   "key": "case070.haddad.rep.answer.demeanor",
+   "value": "Telefonunu masaya yüzüstü koyuyor."
+  },
+  {
+   "key": "case070.haddad.rep.question",
+   "value": "Neil neyi raporluyordu?"
+  },
+  {
+   "key": "case070.haddad.title",
+   "value": "Rania Haddad — görüşme"
+  },
+  {
+   "key": "case070.kerrigan.body",
+   "value": "Gece vardiya şefi."
+  },
+  {
+   "key": "case070.kerrigan.deflect",
+   "value": "Depoda her şey kayıtlıdır."
+  },
+  {
+   "key": "case070.kerrigan.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.locker",
+   "value": "Anahtarı panodan aldım. Onu korkutmak istedim, çukurdan çıksın, raporu bıraksın. Hava boşalınca tramvay yürüdü. Durduramadım. Durdurmadım. Sayfaları kopardım. Prim listesinde adım vardı; o listeye girmek on yılımı aldı."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.mail",
+   "value": "‘Gelme’ dedim. Geldi. Gerisini biliyorsunuz."
+  },
+  {
+   "key": "case070.kerrigan.end.question",
+   "value": "Freni siz boşalttınız."
+  },
+  {
+   "key": "case070.kerrigan.night.answer",
+   "value": "Ofiste, kâğıt işi. Neil izinsiz çukura inmiş. Tramvaylar eski; fren kendiliğinden boşaldı."
+  },
+  {
+   "key": "case070.kerrigan.night.answer.demeanor",
+   "value": "Yeleğinin fermuarını çekiyor."
+  },
+  {
+   "key": "case070.kerrigan.night.question",
+   "value": "Gece yarısı neredeydiniz?"
+  },
+  {
+   "key": "case070.kerrigan.title",
+   "value": "Paul Kerrigan — görüşme"
+  },
+  {
+   "key": "case070.line_bid.body",
+   "value": "İhale hattı açıldı: konsorsiyum, güvenceler, ödemeler."
+  },
+  {
+   "key": "case070.line_bid.title",
+   "value": "HAT C — İHALE"
+  },
+  {
+   "key": "case070.line_depot.body",
+   "value": "Depo hattı açıldı: dolaplar, bakım defterleri, anahtar panosu."
+  },
+  {
+   "key": "case070.line_depot.title",
+   "value": "HAT A — DEPO"
+  },
+  {
+   "key": "case070.line_union.body",
+   "value": "Sendika hattı açıldı: yazışmalar, rapor taslakları, toplantı notları."
+  },
+  {
+   "key": "case070.line_union.title",
+   "value": "HAT B — SENDİKA"
+  },
+  {
+   "key": "case070.locker.body",
+   "value": "Paul Kerrigan’ın depo dolabı:\n\n· 6 numaralı tramvayın fren boşaltma kolu anahtarı; gres içinde Kerrigan’ın parmak izi.\n· Bakım defterinden koparılmış iki sayfa; on dört tramvayın ‘değiştirilmeli’ notları.\n· Neil Ashworth’un rapor taslağı, yarısı yırtık."
+  },
+  {
+   "key": "case070.locker.title",
+   "value": "VARDİYA ŞEFİNİN DOLABI — ARAMA"
+  },
+  {
+   "key": "case070.maeve.bid.answer",
+   "value": "Çünkü ihale bir rakamdır, rapor ise bir başlık. Konsorsiyumun güvencesi bir vakıf; vakıf ‘sürpriz istemiyor’. Bu bir cinayet sebebi değil, bir iş prosedürü."
+  },
+  {
+   "key": "case070.maeve.bid.answer.demeanor",
+   "value": "Gözlüğünü zincirinden alıp takıyor."
+  },
+  {
+   "key": "case070.maeve.bid.question",
+   "value": "Raporu neden ertelemek istediniz?"
+  },
+  {
+   "key": "case070.maeve.body",
+   "value": "Ulaşım idaresinde sözleşme müdürü."
+  },
+  {
+   "key": "case070.maeve.deflect",
+   "value": "Sözleşme bir rakamdır, gerisi gürültü."
+  },
+  {
+   "key": "case070.maeve.title",
+   "value": "Maeve Sullivan — görüşme"
+  },
+  {
+   "key": "case070.mail.body",
+   "value": "Neil Ashworth’un son yazışmaları:\n\n· Paul Kerrigan’a, 14 Kasım: ‘Defterdeki “sağlam” notlarını sen imzaladın. Pazartesi raporda adın geçecek. Bu gece balatalara son kez bakacağım.’\n· Kerrigan’ın yanıtı: ‘Gece gelme. Konuşalım.’"
+  },
+  {
+   "key": "case070.mail.title",
+   "value": "SENDİKA YAZIŞMALARI"
+  },
+  {
+   "key": "case070.method.brake",
+   "value": "Freni bilerek boşaltılan tramvay çukurdaki kurbanın üstüne yürüdü"
+  },
+  {
+   "key": "case070.method.fall",
+   "value": "Çukura düşüp ezildi"
+  },
+  {
+   "key": "case070.method.fault",
+   "value": "Fren kendiliğinden boşaldı"
+  },
+  {
+   "key": "case070.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case070.offer.subtitle",
+   "value": "DEPO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case070.offer.summary",
+   "value": "Bir sendika temsilcisi, bakım çukurunda üstüne kayan bir tramvayın altında bulundu."
+  },
+  {
+   "key": "case070.offer.title",
+   "value": "DOSYA #070"
+  },
+  {
+   "key": "case070.person.cormac.info",
+   "value": "29 yaşında, tramvay sürücüsü."
+  },
+  {
+   "key": "case070.person.cormac.name",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.person.dimitri.info",
+   "value": "62 yaşında, emekli sürücü; deponun gece bekçisi."
+  },
+  {
+   "key": "case070.person.dimitri.name",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.person.haddad.info",
+   "value": "38 yaşında, sendikanın iş güvenliği temsilcisi."
+  },
+  {
+   "key": "case070.person.haddad.name",
+   "value": "Rania Haddad"
+  },
+  {
+   "key": "case070.person.kerrigan.info",
+   "value": "50 yaşında, tramvay deposunun gece vardiya şefi."
+  },
+  {
+   "key": "case070.person.kerrigan.name",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.person.maeve.info",
+   "value": "55 yaşında, ulaşım idaresinde sözleşme müdürü."
+  },
+  {
+   "key": "case070.person.maeve.name",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.person.wiremu.info",
+   "value": "44 yaşında, bakım teknisyeni; cesedi bulan."
+  },
+  {
+   "key": "case070.person.wiremu.name",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.pit.body",
+   "value": "6 numaralı çukur ve üstündeki tramvay:\n\n· Tramvay kendi rayında 2,1 metre ilerlemiş; fren silindiri havasız.\n· Fren boşaltma kolunun yuvası boş; anahtar takılı değil.\n· Çukurun dibinde bir el feneri ve bir fren balatası; kurban balatayı inceliyormuş."
+  },
+  {
+   "key": "case070.pit.title",
+   "value": "BAKIM ÇUKURU İNCELEMESİ"
+  },
+  {
+   "key": "case070.report.body",
+   "value": "15 Kasım 2030 gecesi Footscray tramvay deposunda sendika iş güvenliği temsilcisi Neil Ashworth (47), 6 numaralı bakım çukurunda, üstüne kaymış bir tramvayın altında ölü bulundu.\n\nCesedi bakım teknisyeni Wiremu Tane 01.40’ta buldu. Vardiya şefi Paul Kerrigan, sendikadan Rania Haddad, tramvayı park eden sürücü Cormac Byrne, ulaşım idaresinden Maeve Sullivan ve gece bekçisi Dimitri Kostas dinlenecek."
+  },
+  {
+   "key": "case070.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case070.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case070.request.bid",
+   "value": "İhale dosyasını iste"
+  },
+  {
+   "key": "case070.request.line_bid",
+   "value": "İhale hattını aç"
+  },
+  {
+   "key": "case070.request.line_depot",
+   "value": "Depo hattını aç"
+  },
+  {
+   "key": "case070.request.line_union",
+   "value": "Sendika hattını aç"
+  },
+  {
+   "key": "case070.request.locker",
+   "value": "Vardiya şefinin dolabını aramak için izin iste"
+  },
+  {
+   "key": "case070.request.mail",
+   "value": "Sendika yazışmalarını iste"
+  },
+  {
+   "key": "case070.request.pit",
+   "value": "Bakım çukurunun incelenmesini iste"
+  },
+  {
+   "key": "case070.summary.evidence",
+   "value": "Üç hattan ikisi yetti: depo hattı anahtarı, sendika hattı ‘gelme’ mesajını verdi. İhale hattı nedeni gösterdi."
+  },
+  {
+   "key": "case070.summary.lesson",
+   "value": "Defter freni sağlam diyordu. Defteri o yazmıştı."
+  },
+  {
+   "key": "case070.summary.location",
+   "value": "Footscray tramvay deposu — Kasım 2030"
+  },
+  {
+   "key": "case070.summary.truth",
+   "value": "Vardiya şefi Paul Kerrigan yıllarca bakım defterine ‘sağlam’ yazdı. İhaleyi kazanacak konsorsiyum onu ‘sorunsuz devir’ primi listesine koymuştu. Sendikanın Neil Ashworth’u frenleri raporlayacaktı. Kerrigan gece panodan anahtarı aldı ve Neil çukurdayken freni boşalttı."
+  },
+  {
+   "key": "case070.suspect.label",
+   "value": "Neil Ashworth’u kim öldürdü?"
+  },
+  {
+   "key": "case070.tablet.caseLine",
+   "value": "DOSYA #070  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case070.time.found",
+   "value": "01.40"
+  },
+  {
+   "key": "case070.time.hiss",
+   "value": "gece yarısı"
+  },
+  {
+   "key": "case070.time.park",
+   "value": "22.00"
+  },
+  {
+   "key": "case070.title",
+   "value": "Dosya #070 — Depo"
+  },
+  {
+   "key": "case070.verdict.accident",
+   "value": "Kimse — fren kendiliğinden boşaldı"
+  },
+  {
+   "key": "case070.verdict.kerrigan",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.verdict.maeve",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.verdict.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.wiremu.body",
+   "value": "Bakım teknisyeni."
+  },
+  {
+   "key": "case070.wiremu.deflect",
+   "value": "O çukura her gün inerim."
+  },
+  {
+   "key": "case070.wiremu.found.answer",
+   "value": "Neil gece balatalara bakacağını söylemişti. Ben kahve getirdim. Tramvay kaymıştı. Fren anahtarı yoktu; o anahtar vardiya şefinde durur, bizde değil. Ben de raporuna yardım ettim, evet."
+  },
+  {
+   "key": "case070.wiremu.found.answer.demeanor",
+   "value": "Ellerini önüne açıp bakıyor."
+  },
+  {
+   "key": "case070.wiremu.found.question",
+   "value": "Çukura neden indiniz?"
+  },
+  {
+   "key": "case070.wiremu.title",
+   "value": "Wiremu Tane — görüşme"
+  }
+ ]
+}

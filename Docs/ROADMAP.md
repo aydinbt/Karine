@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (Birleşik Krallık #011–#017 ve Almanya #018–#024 veride; hiçbiri oynanmadı)
+**Son durum:** 5 Ekim 2026 (on ülkenin 73 dosyasının tamamı veride — #011–#073 oynanmadı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -621,4 +621,20 @@ Kullanıcı yokken verdiği ön onayla yazıldı ("Birleşik Krallığı bitir, 
 - [~] #024 "Defter" — Almanya finali: kurulmuş ölüm, 7 kartlık rekonstrüksiyon, JAPONYA / DOSYA 025.
 - [ ] Görseller: `CASE016_PROMPTS.md` … `CASE024_PROMPTS.md` (portre, kapak, CCTV, planlar; plan görselleri gelince koordinat kontrolü).
 - [ ] Kullanıcı Almanya senaryosunu gözden geçirecek.
-- [ ] Japonya bölüm planı (#025–#031).
+- [~] Japonya bölüm planı (#025–#031) — aşağıda.
+
+
+## 5 Ekim 2026 — Japonya'dan Avustralya'ya: bütün dünyalar yazıldı (kullanıcı ön onayı)
+Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosunu yaz ve bitir; birbirine bağla; kişi sayısını dağıt; yeni özellik ekleyebilirsin." Her dosya doğrulayıcıda çözülüyor, kendi `CaseNNNRules.cs`'i var; **hiçbiri Unity'de oynanmadı.** 132/132 EditMode, 27 PlayMode + 1 atlandı.
+- [~] Japonya #025–#031 (`JP_CHAPTER_PLAN.md`, `world04` Tokyo — Nihonbashi). İp: Kisaragi → Paris.
+- [~] Fransa #032–#038 (`FR_CHAPTER_PLAN.md`, `world05`). Mekanik: gerekçeli arama izni. Final Delorme → Chicago.
+- [~] ABD #039–#045 (`US_CHAPTER_PLAN.md`, `world06`). Mekanik: soruşturma hatları (aynı anda iki). Final Lakeshore → Napoli.
+- [~] İtalya #046–#052 (`IT_CHAPTER_PLAN.md`, `world07`). Mekanik: tanıklar beklemez (`closesAfterRead`). Final Caruso → Sevilla.
+- [~] İspanya #053–#059 (`ES_CHAPTER_PLAN.md`, `world08`). Mekanik: arşivden yeniden açma. Final Santa Ana → Montreal.
+- [~] Kanada #060–#066 (`CA_CHAPTER_PLAN.md`, `world09`). Mekanik: yem kayıtlar. Final Laurentide → Melbourne.
+- [~] Avustralya #067–#073 (`AU_CHAPTER_PLAN.md`, `world10`). Bütün aletler karışık; #073 "İrtibat" son dosya, `finale.country.archive` / `finale.file.end`, telefon çalmaz, E. V. bulunmaz.
+- [~] Vaka zinciri onarıldı: #048 → #049 ve #055 → #056 `nextCaseId` boştu (doğrulayıcı notu "zincire bağlı değil: case049"); şimdi #001–#073 kesintisiz.
+- [~] Kural üreticisi `decoys`, `archive`, `lines`, `closes`, `recon`, `finale` anahtarları (bkz. `Architecture.md` → "Vaka üretim hattı").
+- [ ] Görseller: `CASE025_PROMPTS.md` … `CASE073_PROMPTS.md` (portre, bulgu, kapak, CCTV), `EVIDENCE_PROMPTS.md` (#013–#024 ayrıntılı bulgular), `WORLD_BACKDROP_PROMPTS.md` (jp … au kartpostalları).
+- [ ] Bulgu görselleri gelince #013–#073'te `report.relatedItems` bağlanacak (şu an yalnız prompt belgelerinde; veri bağlı değil).
+- [ ] Kullanıcı bütün bölümleri gözden geçirecek; Unity'de her bölümden en az bir dosya oynanacak.
