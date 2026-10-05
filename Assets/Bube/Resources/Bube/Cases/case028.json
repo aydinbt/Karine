@@ -41,6 +41,13 @@
    "bodyKey": "case028.autopsy.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case028.item.inhaler.name",
+     "detailKey": "case028.item.inhaler.detail",
+     "imageResource": "Bube/Items/case028_inhaler"
+    }
    ]
   },
   {
@@ -294,6 +301,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case028.yamato.system"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case028.item.remote.name",
+     "detailKey": "case028.item.remote.detail",
+     "imageResource": "Bube/Items/case028_remote"
+    }
    ]
   },
   {
@@ -366,7 +380,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case028.request.cuff",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case028.item.cuff.name",
+     "detailKey": "case028.item.cuff.detail",
+     "imageResource": "Bube/Items/case028_cuff"
+    }
+   ]
   },
   {
    "id": "kanda_2",

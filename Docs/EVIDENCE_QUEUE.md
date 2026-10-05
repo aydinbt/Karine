@@ -80,9 +80,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 47. **Ödül faturaları** → `case027_ledger.png` ✅
 
 ## Dosya #028 (3)
-48. **Boş inhaler** → `case028_inhaler.png`
-49. **Karaoke kumandası** → `case028_remote.png`
-50. **Kol düğmesi** → `case028_cuff.png`
+48. **Boş inhaler** → `case028_inhaler.png` ✅
+49. **Karaoke kumandası** → `case028_remote.png` ✅
+50. **Kol düğmesi** → `case028_cuff.png` ✅
 
 ## Dosya #029 (3)
 51. **Diş kalıpları** → `case029_dental.png`
