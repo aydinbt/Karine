@@ -754,19 +754,19 @@ A 52-year-old white American man, close-cropped dark hair, heavy brow, broken-no
 
 ## Dosya #046 (3)
 
-115. **Gennaro Russo** → `gennaro.png`
+115. **Gennaro Russo** → `gennaro.png` ✅
 
 ```
 A 26-year-old Neapolitan man, short black hair with a fade, a thin gold chain, tanned skin, restless guilty dark eyes. Navy delivery rider's windbreaker with no logo, a motorcycle helmet under his arm. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-116. **Assunta Esposito** → `assunta.png`
+116. **Assunta Esposito** → `assunta.png` ✅
 
 ```
 A 71-year-old Neapolitan woman, grey hair pinned in a bun, deep-set sharp black eyes, a heavy gold crucifix necklace. Black mourning dress with a dark knitted shawl. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-117. **Pieter de Vries** → `pieter.png`
+117. **Pieter de Vries** → `pieter.png` ✅
 
 ```
 A 38-year-old Dutch man, tousled blond hair, sunburned nose, pale blue eyes, uneasy polite smile. Orange linen shirt, a camera strap around his neck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
