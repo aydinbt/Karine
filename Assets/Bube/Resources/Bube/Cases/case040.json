@@ -278,7 +278,19 @@
    "requestable": true,
    "requestLabelKey": "case040.request.prints",
    "requestDelaySeconds": 5,
-   "line": "line_fire"
+   "line": "line_fire",
+   "relatedItems": [
+    {
+     "nameKey": "case040.item.detector.name",
+     "detailKey": "case040.item.detector.detail",
+     "imageResource": "Bube/Items/case040_detector"
+    },
+    {
+     "nameKey": "case040.item.glass.name",
+     "detailKey": "case040.item.glass.detail",
+     "imageResource": "Bube/Items/case040_glass"
+    }
+   ]
   },
   {
    "id": "line_money",
@@ -360,7 +372,14 @@
    "requestable": true,
    "requestLabelKey": "case040.request.waltbook",
    "requestDelaySeconds": 5,
-   "line": "line_archive"
+   "line": "line_archive",
+   "relatedItems": [
+    {
+     "nameKey": "case040.item.notebook.name",
+     "detailKey": "case040.item.notebook.detail",
+     "imageResource": "Bube/Items/case040_notebook"
+    }
+   ]
   }
  ],
  "timelineClues": [

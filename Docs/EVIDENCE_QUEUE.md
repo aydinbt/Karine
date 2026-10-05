@@ -137,13 +137,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 
 ## Dosya #039 (3)
 82. **Kopmuş ankraj cıvataları** → `case039_bolts.png` ✅
-83. **Levye** → `case039_bar.png`
-84. **Çift etiketli sandık** → `case039_labels.png`
+83. **Levye** → `case039_bar.png` ✅
+84. **Çift etiketli sandık** → `case039_labels.png` ✅
 
 ## Dosya #040 (3)
-85. **Duman dedektörü** → `case040_detector.png`
-86. **Viski bardağı** → `case040_glass.png`
-87. **Walt’ın defteri** → `case040_notebook.png`
+85. **Duman dedektörü** → `case040_detector.png` ✅
+86. **Viski bardağı** → `case040_glass.png` ✅
+87. **Walt’ın defteri** → `case040_notebook.png` ✅
 
 ## Dosya #041 (3)
 88. **Soda bardağı** → `case041_glass.png`

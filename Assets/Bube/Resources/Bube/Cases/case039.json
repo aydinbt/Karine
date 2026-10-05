@@ -394,7 +394,14 @@
    "requestable": true,
    "requestLabelKey": "case039.request.texts",
    "requestDelaySeconds": 5,
-   "line": "line_phone"
+   "line": "line_phone",
+   "relatedItems": [
+    {
+     "nameKey": "case039.item.labels.name",
+     "detailKey": "case039.item.labels.detail",
+     "imageResource": "Bube/Items/case039_labels"
+    }
+   ]
   },
   {
    "id": "tower",
@@ -407,7 +414,14 @@
    "requestable": true,
    "requestLabelKey": "case039.request.tower",
    "requestDelaySeconds": 5,
-   "line": "line_phone"
+   "line": "line_phone",
+   "relatedItems": [
+    {
+     "nameKey": "case039.item.bar.name",
+     "detailKey": "case039.item.bar.detail",
+     "imageResource": "Bube/Items/case039_bar"
+    }
+   ]
   },
   {
    "id": "line_parole",
