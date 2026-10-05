@@ -1,0 +1,1004 @@
+{
+ "entries": [
+  {
+   "key": "case012.adebayo.body",
+   "value": "Otobüs şoförünün ifadesi."
+  },
+  {
+   "key": "case012.adebayo.camera.answer",
+   "value": "Bilmiyorum. Ekranda üst kat karanlık görünüyordu, birkaç gündür öyleydi. Garaja söyledim. Herkes söyler, kimse bakmaz."
+  },
+  {
+   "key": "case012.adebayo.camera.question",
+   "value": "Üst kat kamerası neden kayıt vermedi?"
+  },
+  {
+   "key": "case012.adebayo.deflect",
+   "value": "Ben yolu izlerim. Üst kat aynada bile görünmez."
+  },
+  {
+   "key": "case012.adebayo.kieran.answer",
+   "value": "Kırmızı şapkalı çocuk. Bindiğinde sarhoştu, yukarı bakıp bir şeyler söylendi, aşağıda kaldı. Birkaç durak sonra indi galiba; emin değilim. Kaç kişi iner, sayamam."
+  },
+  {
+   "key": "case012.adebayo.kieran.question",
+   "value": "Kieran Doyle’u hatırlıyor musunuz?"
+  },
+  {
+   "key": "case012.adebayo.night.answer",
+   "value": "Yağmur vardı, otobüs yarı boştu. Bricklayers’dan, hastaneden, sonra birkaç durak daha… Yukarıdan bir kadın çığlık attı, düğmeye bastım. Canal Bridge’de durdum, kapıları açtım. Kuralı bu; içeride kimseyi tutamam."
+  },
+  {
+   "key": "case012.adebayo.night.question",
+   "value": "O seferi anlatır mısınız?"
+  },
+  {
+   "key": "case012.adebayo.quote",
+   "value": "“İçeride kimseyi tutamam.”"
+  },
+  {
+   "key": "case012.adebayo.runner.answer",
+   "value": "Arka kapıdan biri fırladı. Kapüşonlu, sırtında çanta. Aynada bir saniye gördüm, yüz yok. Yağmura karıştı gitti."
+  },
+  {
+   "key": "case012.adebayo.runner.question",
+   "value": "Otobüsten kim indi?"
+  },
+  {
+   "key": "case012.adebayo.title",
+   "value": "Adebayo Bello — görüşme"
+  },
+  {
+   "key": "case012.bank.body",
+   "value": "Hesap sahibi: Liam Carter · kart ·4417 (temassız).\n\n15 Mart · 18.22 · market · £14,60\n16 Mart · 12.05 · eczane · £6,10\n17 Mart · 01.31 · RIVERSIDE TRANSIT · £1,75\n17 Mart · 02.40 · gece marketi, Walworth · £3,20"
+  },
+  {
+   "key": "case012.bank.title",
+   "value": "BANKA HESAP HAREKETLERİ — LIAM CARTER"
+  },
+  {
+   "key": "case012.cabinet.body",
+   "value": "Kartlı kilit kaydı, 1 Şubat – 16 Mart 2029. Yalnız sayım eksiği bildirilen günler:\n\n22 Şubat · 03.14 · kart: Helen Shaw · morfin −2\n2 Mart · 02.51 · kart: Helen Shaw · morfin −3\n8 Mart · 03.40 · kart: Helen Shaw · morfin −2\n14 Mart · 02.58 · kart: Helen Shaw · morfin −4\n\nAynı günlerde başka kart erişimi yok. Şubat’tan önce kayıt tutulmuyordu."
+  },
+  {
+   "key": "case012.cabinet.title",
+   "value": "İLAÇ DOLABI ERİŞİM KAYDI — GECE DEPOSU"
+  },
+  {
+   "key": "case012.camlog.body",
+   "value": "14 Mart · gece temizliği sonrası not: “Üst kat arka kamera lensinin üstünde siyah izole bant. Bildirildi.”\n15 Mart · garaj: iş emri açıldı, öncelik düşük.\n16 Mart · şoför bildirimi: üst kat ekranı karanlık.\n17 Mart · iş emri hâlâ açık.\n\nBandın ne zaman yapıştırıldığı bilinmiyor. Önceki temizlik: 11 Mart, kamera temizdi."
+  },
+  {
+   "key": "case012.camlog.title",
+   "value": "ARAÇ KAMERA BAKIM KAYDI — N219, ARAÇ 4471"
+  },
+  {
+   "key": "case012.cctv.event.ambulance",
+   "value": "Kamera 02: Bir ambulans otobüsün arkasında duruyor. Görevliler üst kata çıkıyor."
+  },
+  {
+   "key": "case012.cctv.event.bus_pass",
+   "value": "Kamera 02: Bir çift katlı otobüs durağa yaklaşmadan geçiyor. Karşı yönde aynı hattın başka bir aracı."
+  },
+  {
+   "key": "case012.cctv.event.bus_stop",
+   "value": "Kamera 02: Çift katlı bir otobüs durakta sert biçimde duruyor; dörtlüler yanıyor."
+  },
+  {
+   "key": "case012.cctv.event.runner",
+   "value": "Kamera 02: Arka kapı açılır açılmaz kapüşonlu biri koşarak iniyor. Sırtında, lambanın ışığında parlayan şeritli bir çanta. Yüz seçilmiyor. Köprünün altına, kanal yoluna doğru kayboluyor."
+  },
+  {
+   "key": "case012.cctv.overlay",
+   "value": "KAM 02"
+  },
+  {
+   "key": "case012.cctv.period",
+   "value": "17 Mart 2029, 01.20 – 02.10"
+  },
+  {
+   "key": "case012.cctv.source",
+   "value": "Canal Bridge sokak kamerası"
+  },
+  {
+   "key": "case012.clue.alarm",
+   "value": "Şoför acil düğmesine basıyor."
+  },
+  {
+   "key": "case012.clue.bank",
+   "value": "Liam’ın ·4417 kartından Riverside Transit ödemesi."
+  },
+  {
+   "key": "case012.clue.death",
+   "value": "Owen hayatını kaybediyor."
+  },
+  {
+   "key": "case012.clue.fight",
+   "value": "Kebapçıda Owen ile Kieran arasında arbede."
+  },
+  {
+   "key": "case012.clue.k_n63",
+   "value": "Kieran’ın kartı Dun Cow’da ters yöndeki N63’te okutuluyor."
+  },
+  {
+   "key": "case012.clue.l_claim",
+   "value": "Liam bütün gece evde olduğunu, otobüse binmediğini söylüyor."
+  },
+  {
+   "key": "case012.clue.o_out",
+   "value": "Owen vardiyadan çıkıyor."
+  },
+  {
+   "key": "case012.clue.source.bank",
+   "value": "Liam Carter’ın banka hareketleri"
+  },
+  {
+   "key": "case012.clue.source.death",
+   "value": "Hastane bildirimi"
+  },
+  {
+   "key": "case012.clue.source.fight",
+   "value": "Olay tutanağı"
+  },
+  {
+   "key": "case012.clue.source.helen",
+   "value": "Helen Shaw"
+  },
+  {
+   "key": "case012.clue.source.kieran_card",
+   "value": "Kieran Doyle’un kart dökümü"
+  },
+  {
+   "key": "case012.clue.source.lphone",
+   "value": "Liam Carter’ın telefon kaydı"
+  },
+  {
+   "key": "case012.clue.source.ophone",
+   "value": "Owen Marsh’ın telefonu"
+  },
+  {
+   "key": "case012.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case012.clue.source.taps",
+   "value": "N219 biniş dökümü"
+  },
+  {
+   "key": "case012.clue.street_runner",
+   "value": "Arka kapıdan şeritli çantalı biri koşarak iniyor."
+  },
+  {
+   "key": "case012.clue.tap4417",
+   "value": "Bricklayers: temassız banka kartı ·4417 okutuluyor."
+  },
+  {
+   "key": "case012.clue.tap5562",
+   "value": "Hastane durağı: Tidecard ·5562."
+  },
+  {
+   "key": "case012.clue.tap6119",
+   "value": "Old Kent Rd: Tidecard ·6119."
+  },
+  {
+   "key": "case012.custody.helen",
+   "value": "Helen Shaw — kendi hırsızlığını örtmek için Liam’ı kışkırttı"
+  },
+  {
+   "key": "case012.custody.kieran",
+   "value": "Kieran Doyle — Liam’la birlikte hareket etti"
+  },
+  {
+   "key": "case012.custody.label",
+   "value": "Ölümden sorumlu başka biri var mı?"
+  },
+  {
+   "key": "case012.custody.none",
+   "value": "Kimse — Liam tek başına karar verdi"
+  },
+  {
+   "key": "case012.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case012.death.body",
+   "value": "17 Mart 2029, 14.20.\n\nOwen Marsh yoğun bakımda hayatını kaybetmiştir. Ölüm sebebi: kafa travmasına bağlı beyin kanaması.\n\nDosyanın niteliği ağır yaralamadan kasten öldürmeye çevrilmiştir.\n\nEk: Kişisel eşyalar teslim listesi — cüzdan, Tidecard ·5562, hastane yaka kartı, anahtarlık, cep telefonu (ekranı kırık). Eşyalar şube emanetinde."
+  },
+  {
+   "key": "case012.death.title",
+   "value": "HASTANE BİLDİRİMİ — OWEN MARSH"
+  },
+  {
+   "key": "case012.discipline.body",
+   "value": "St. Clement Hastanesi, 9 Şubat 2029.\n\nKonu: Gece deposu ilaç dolabında Ocak ayı boyunca 14 ampul morfin eksiği.\nBildiren: O. Marsh (hamal), amir H. Shaw aracılığıyla.\nDayanak: H. Shaw’un sunduğu sayım çizelgeleri; eksiklerin Carter’ın vardiyalarına denk gelmesi.\nCarter’ın beyanı: “Dolabı hiç açmadım, anahtarım yok.”\nKarar: Güven kaybı nedeniyle iş akdinin feshi. Polis şikâyeti yapılmadı.\n\nNot: Dolabın kartlı kilidi Mart’ta yenilenecek; Şubat itibarıyla erişim kaydı tutuluyor."
+  },
+  {
+   "key": "case012.discipline.title",
+   "value": "DİSİPLİN TUTANAĞI — LIAM CARTER"
+  },
+  {
+   "key": "case012.epilogue.custody.helen",
+   "value": "Helen Shaw azmettirme ve ilaç hırsızlığından tutuklandı. Dolap erişim kaydı ve Owen’ın gönderilmemiş taslağı dosyanın omurgası oldu. Liam Carter’ın Şubat’taki işten çıkarılması geri alındı; o artık başka bir suçtan yargılanıyordu."
+  },
+  {
+   "key": "case012.epilogue.custody.kieran",
+   "value": "Kieran’ın Liam’la hiçbir bağlantısı bulunamadı; suçlama düştü. Helen Shaw hastanede çalışmaya devam etti; faks bir hafta sonra yeni bir sayım eksiğini not ediyordu."
+  },
+  {
+   "key": "case012.epilogue.custody.none",
+   "value": "Liam tek fail olarak yargılandı. Helen Shaw hastanede kaldı; bir hafta sonra gece deposunda yeni bir sayım eksiği bildirildi."
+  },
+  {
+   "key": "case012.epilogue.custody.unknown",
+   "value": "Liam’a o gece ‘birinin söylediği’ şey dosyada açık kaldı."
+  },
+  {
+   "key": "case012.epilogue.verdict.adebayo",
+   "value": "Şoföre yönelik şüphe sendikanın tepkisini çekti; şube özür yazısı yayımladı."
+  },
+  {
+   "key": "case012.epilogue.verdict.kieran",
+   "value": "Kieran Doyle gözaltına alındı; kart dökümü avukatının elinde ilk duruşmada dosyayı çökertti. ·4417 kartının sahibi aranmadı."
+  },
+  {
+   "key": "case012.epilogue.verdict.liam",
+   "value": "Liam Carter Owen Marsh’ı öldürmekten tutuklandı. Duruşmada Helen Shaw’un telefonunu anlattı; savunması kışkırtmayı hafifletici neden olarak sundu."
+  },
+  {
+   "key": "case012.epilogue.verdict.undetermined",
+   "value": "Dosya faili meçhul kaldı. Hastanedeki sayım eksikleri sürdü."
+  },
+  {
+   "key": "case012.evidence.bank",
+   "value": "Biniş dökümü ve banka hareketleri (·4417)"
+  },
+  {
+   "key": "case012.evidence.camlog",
+   "value": "Araç kamera bakım kaydı"
+  },
+  {
+   "key": "case012.evidence.fight",
+   "value": "Kebapçı kavgası tutanağı"
+  },
+  {
+   "key": "case012.evidence.kieran_card",
+   "value": "Kieran Doyle’un kart dökümü"
+  },
+  {
+   "key": "case012.evidence.street",
+   "value": "Canal Bridge sokak kamerası"
+  },
+  {
+   "key": "case012.feedback.adebayo",
+   "value": "Şoför kabindeydi, acil düğmesine bastı ve otobüsü durdurdu. Üst kata çıkmadı."
+  },
+  {
+   "key": "case012.feedback.kieran",
+   "value": "Kavga gerçekti ama Kieran’ın kartı 01.44’te Dun Cow’da ters yöne giden N63’te okutuldu; saldırı 01.47’de, Canal Bridge’e üç durak ötede oldu. Saldırgan üst kata Owen’dan önce çıkmıştı."
+  },
+  {
+   "key": "case012.feedback.liam",
+   "value": "Biniş dökümünde 01.31’de Bricklayers’dan okutulan ·4417 kartı, Liam’ın banka hareketlerinde aynı dakikada görünüyor. Nadia saldırganın Owen’dan önce bindiğini söyledi; Kieran sonra bindi ve 01.44’te başka otobüsteydi. Liam binişi ve kilidi sonunda kendisi anlattı."
+  },
+  {
+   "key": "case012.feedback.undetermined",
+   "value": "Biniş dökümü, banka hareketleri ve tanık ifadesi saldırganı adıyla gösteriyordu."
+  },
+  {
+   "key": "case012.fight.body",
+   "value": "Bir kebapçı önünde iki erkek arasında arbede. Taraflar: Owen Marsh (38) ve Kieran Doyle (24). Neden: sıra tartışması. Doyle’da hafif alkol. Yaralanma yok. Taraflar uyarılarak serbest bırakıldı; ikisi de şikâyetçi olmadı.\n\nMemur notu: “Marsh sakindi, ‘Vardiyaya geç kalıyorum’ deyip hastaneye yürüdü.”"
+  },
+  {
+   "key": "case012.fight.title",
+   "value": "OLAY TUTANAĞI — OLD KENT ROAD, 16 MART 21.40"
+  },
+  {
+   "key": "case012.file.caseType",
+   "value": "AĞIR YARALAMA"
+  },
+  {
+   "key": "case012.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case012.file.value.location",
+   "value": "N219 gece otobüsü, Old Kent Road — Canal Bridge"
+  },
+  {
+   "key": "case012.file.value.number",
+   "value": "BDS-LDN-2029-0057"
+  },
+  {
+   "key": "case012.file.value.offence",
+   "value": "Ağır yaralama"
+  },
+  {
+   "key": "case012.file.value.reporter",
+   "value": "Adebayo Bello, otobüs şoförü"
+  },
+  {
+   "key": "case012.helen.body",
+   "value": "Mağdurun amiriyle."
+  },
+  {
+   "key": "case012.helen.deflect",
+   "value": "Bu konuda hastane yönetimiyle görüşmeniz gerekir."
+  },
+  {
+   "key": "case012.helen.feb.answer",
+   "value": "Şubat’ta bir olay oldu. İlaç dolabında sayım eksikleri. Owen birini fark etti, bana geldi; ben yönetime taşıdım. Liam Carter adında bir hamal işten çıkarıldı. Liam bunu Owen’a hiç bağışlamadı."
+  },
+  {
+   "key": "case012.helen.feb.answer.demeanor",
+   "value": "Ellerini masada birleştirdi."
+  },
+  {
+   "key": "case012.helen.feb.question",
+   "value": "Owen’la sorun yaşayan biri var mıydı?"
+  },
+  {
+   "key": "case012.helen.owen.answer",
+   "value": "Titiz. Fazla titiz bazen. Sayım saatini kaçırmaz, herkese de kaçırtmaz. İnanamıyorum."
+  },
+  {
+   "key": "case012.helen.owen.answer.demeanor",
+   "value": "Sesini düzgün tutmaya çalışıyordu."
+  },
+  {
+   "key": "case012.helen.owen.question",
+   "value": "Owen Marsh nasıl biridir?"
+  },
+  {
+   "key": "case012.helen.quote",
+   "value": "“Sayım saatini kaçırmaz.”"
+  },
+  {
+   "key": "case012.helen.route.answer",
+   "value": "Herkes bilir. Üç yıl aynı vardiyada çalıştılar."
+  },
+  {
+   "key": "case012.helen.route.question",
+   "value": "Liam Owen’ın çıkış saatini bilir miydi?"
+  },
+  {
+   "key": "case012.helen.shift.answer",
+   "value": "Bire yirmi geçe çıktı. Her zamanki otobüse yetişmek için koşuyordu. Durak hastanenin hemen önünde."
+  },
+  {
+   "key": "case012.helen.shift.question",
+   "value": "O gece vardiyası nasıl bitti?"
+  },
+  {
+   "key": "case012.helen.title",
+   "value": "Helen Shaw — görüşme"
+  },
+  {
+   "key": "case012.helen_2.body",
+   "value": "Owen’ın telefonu üzerine."
+  },
+  {
+   "key": "case012.helen_2.cabinet.answer",
+   "value": "Amirlerin ve gece sorumlu hemşiresinin. Kartlı kilit var artık. Kayıtları yönetim tutar."
+  },
+  {
+   "key": "case012.helen_2.cabinet.question",
+   "value": "İlaç dolabına kimlerin erişimi var?"
+  },
+  {
+   "key": "case012.helen_2.draft.answer",
+   "value": "Owen son haftalarda çok yorgundu. Sayımları karıştırıyordu. Beni aradı, evet; sakinleştirdim. ‘Müdüre gitmeden bir bakalım’ dedim. Hepsi bu."
+  },
+  {
+   "key": "case012.helen_2.draft.answer.demeanor",
+   "value": "Gülümsedi; gülümseme gözlerine çıkmadı."
+  },
+  {
+   "key": "case012.helen_2.draft.question",
+   "value": "Owen size ne anlatmak istiyordu?"
+  },
+  {
+   "key": "case012.helen_2.liam.answer",
+   "value": "Hayır. Neden görüşeyim? İşten çıkarılmasında benim de payım vardı; benden nefret eder."
+  },
+  {
+   "key": "case012.helen_2.liam.question",
+   "value": "Liam Carter’la son zamanlarda görüştünüz mü?"
+  },
+  {
+   "key": "case012.helen_2.title",
+   "value": "Helen Shaw — ikinci görüşme"
+  },
+  {
+   "key": "case012.helen_3.body",
+   "value": "Telefon kaydı ve erişim kaydı üzerine."
+  },
+  {
+   "key": "case012.helen_3.call.answer",
+   "value": "…Aradım. Uyarmak için. Owen’ın yeniden polise gideceğini, onun adını vereceğini söyledim. Hazırlıklı olsun diye. Ona bir şey yap demedim. Asla."
+  },
+  {
+   "key": "case012.helen_3.call.answer.demeanor",
+   "value": "Sesi ilk kez titredi."
+  },
+  {
+   "key": "case012.helen_3.call.question",
+   "value": "15 Mart akşamki görüşmeyi anlatır mısınız?"
+  },
+  {
+   "key": "case012.helen_3.morph.answer",
+   "value": "Kart benim, evet. Başkası da kullanmış olabilir. Avukatım gelmeden başka bir şey söylemeyeceğim."
+  },
+  {
+   "key": "case012.helen_3.morph.question",
+   "value": "Dolap kayıtları sizin kartınızı gösteriyor."
+  },
+  {
+   "key": "case012.helen_3.title",
+   "value": "Helen Shaw — üçüncü görüşme"
+  },
+  {
+   "key": "case012.helen_3.why.answer",
+   "value": "Çünkü… Owen yanılıyordu. Ben… avukatımı istiyorum."
+  },
+  {
+   "key": "case012.helen_3.why.answer.demeanor",
+   "value": "Masadaki kâğıda baktı, kalktı, yeniden oturdu."
+  },
+  {
+   "key": "case012.helen_3.why.question",
+   "value": "Owen’ın taslağına göre Liam değildi. Bunu neden Liam’a söylemediniz?"
+  },
+  {
+   "key": "case012.hospital.body",
+   "value": "17 Mart 2029, 06.30.\n\n· Oksipital bölgede (başın arkası) tek, ağır künt travma. Yara kenarı dar ve uzun; metal, silindirik bir cisimle uyumlu.\n· Kollarda, ellerde savunma yarası yok. Darbe arkadan, beklenmedik anda gelmiş.\n· Kanda alkol yok.\n· Kişi entübe, yoğun bakımda. Bilinci kapalı."
+  },
+  {
+   "key": "case012.hospital.title",
+   "value": "HASTANE BİLGİ NOTU — OWEN MARSH"
+  },
+  {
+   "key": "case012.kieran.body",
+   "value": "Kavgaya karışan gencin ifadesi."
+  },
+  {
+   "key": "case012.kieran.bus.answer",
+   "value": "Eve giden tek otobüs o! Bindim, yukarıda onu gördüm, bir şey dedim, aşağıda kaldım. Sonra indim. Ona dokunmadım."
+  },
+  {
+   "key": "case012.kieran.bus.question",
+   "value": "Aynı otobüse neden bindiniz?"
+  },
+  {
+   "key": "case012.kieran.deflect",
+   "value": "Bilmiyorum dostum, ben sadece eve gidiyordum."
+  },
+  {
+   "key": "case012.kieran.fight.answer",
+   "value": "Kebapçıda sıra yüzünden. Omzuma çarptı, ben de ağzıma geleni söyledim. İki yumruk, o kadar. Sonra polis geldi, ayırdılar."
+  },
+  {
+   "key": "case012.kieran.fight.answer.demeanor",
+   "value": "Kollarını kavuşturdu."
+  },
+  {
+   "key": "case012.kieran.fight.question",
+   "value": "Owen Marsh’la ne oldu?"
+  },
+  {
+   "key": "case012.kieran.quote",
+   "value": "“Ona dokunmadım.”"
+  },
+  {
+   "key": "case012.kieran.title",
+   "value": "Kieran Doyle — görüşme"
+  },
+  {
+   "key": "case012.kieran.where.answer",
+   "value": "Bilmiyorum, bir durak. Kafam güzeldi. Yanlış yöne gidiyordum zaten, indim, karşıdan başka bir otobüse bindim. Kardeşimin evine."
+  },
+  {
+   "key": "case012.kieran.where.answer.demeanor",
+   "value": "Hatırlamaya çalışırken yüzünü buruşturdu."
+  },
+  {
+   "key": "case012.kieran.where.question",
+   "value": "Nerede indiniz?"
+  },
+  {
+   "key": "case012.kieran_2.body",
+   "value": "Kart dökümü üzerine."
+  },
+  {
+   "key": "case012.kieran_2.card.answer",
+   "value": "Dun Cow… evet! Orada indim, karşıya geçtim, N63’e bindim. Bakın işte, söylemiştim. O vurulduğunda ben başka otobüsteydim, değil mi?"
+  },
+  {
+   "key": "case012.kieran_2.card.answer.demeanor",
+   "value": "Rahatladı, sonra gözleri doldu."
+  },
+  {
+   "key": "case012.kieran_2.card.question",
+   "value": "Bu dökümü birlikte okuyalım mı?"
+  },
+  {
+   "key": "case012.kieran_2.saw.answer",
+   "value": "Arkada biri oturuyordu, Owen’dan iki sıra geride. Kapüşonlu. Owen ona bakıyordu, sinirli gibiydi. Ben kendi derdimdeydim."
+  },
+  {
+   "key": "case012.kieran_2.saw.question",
+   "value": "Üst kata baktığınızda Owen’ın yanında kimse var mıydı?"
+  },
+  {
+   "key": "case012.kieran_2.title",
+   "value": "Kieran Doyle — ikinci görüşme"
+  },
+  {
+   "key": "case012.kieran_card.body",
+   "value": "Kart ·6119 · kayıtlı sahip: Kieran Doyle.\n\n17 Mart 2029:\n01.35 · N219 · Old Kent Rd / Asylum\n01.44 · N63 · Dun Cow (ters yön)\n02.02 · N63 · ayrıldı (iniş kaydı tutulmaz; sonraki okutma yok)\n\nDun Cow, Canal Bridge’e üç durak, otobüsle yaklaşık dört dakika uzaklıktadır."
+  },
+  {
+   "key": "case012.kieran_card.title",
+   "value": "TIDECARD DÖKÜMÜ — KIERAN DOYLE"
+  },
+  {
+   "key": "case012.liam.body",
+   "value": "Eski hamalın ifadesi."
+  },
+  {
+   "key": "case012.liam.deflect",
+   "value": "Bunu bilmiyorum. Ben artık orada çalışmıyorum."
+  },
+  {
+   "key": "case012.liam.fired.answer",
+   "value": "Hayır. O dolabın anahtarı bende yoktu bile. Ama çizelgeler benim vardiyamı gösteriyordu, o kadar. Kimse dinlemedi."
+  },
+  {
+   "key": "case012.liam.fired.question",
+   "value": "Morfini siz mi aldınız?"
+  },
+  {
+   "key": "case012.liam.night.answer",
+   "value": "Evdeydim, Walworth’te. Tek başıma. Otobüse binmedim; isterseniz Tidecard’ıma bakın, dünden beri okutulmadı."
+  },
+  {
+   "key": "case012.liam.night.question",
+   "value": "Dün gece neredeydiniz?"
+  },
+  {
+   "key": "case012.liam.owen.answer",
+   "value": "Üç yıl yan yana çalıştık. Sonra beni hırsız diye ihbar etti. Ne hissetmemi bekliyorsunuz? Ama ona bir şey olmasını istemedim."
+  },
+  {
+   "key": "case012.liam.owen.answer.demeanor",
+   "value": "Çenesi kasıldı."
+  },
+  {
+   "key": "case012.liam.owen.question",
+   "value": "Owen Marsh’ı tanıyor musunuz?"
+  },
+  {
+   "key": "case012.liam.quote",
+   "value": "“Tidecard’ıma bakın.”"
+  },
+  {
+   "key": "case012.liam.title",
+   "value": "Liam Carter — görüşme"
+  },
+  {
+   "key": "case012.liam_2.again.answer",
+   "value": "Düşündüm. Evdeydim."
+  },
+  {
+   "key": "case012.liam_2.again.question",
+   "value": "Dün geceyi yeniden düşünün."
+  },
+  {
+   "key": "case012.liam_2.bag.answer",
+   "value": "Var, bisiklet çantası. Yansıtıcılı. Bisikletle gidip gelirdim; hastaneden atılınca o da bitti. Bunun ne ilgisi var?"
+  },
+  {
+   "key": "case012.liam_2.bag.question",
+   "value": "Sırt çantanız var mı?"
+  },
+  {
+   "key": "case012.liam_2.body",
+   "value": "Biniş dökümü üzerine."
+  },
+  {
+   "key": "case012.liam_2.contactless.answer",
+   "value": "Genelde. Bazen bakiye bitince banka kartını okutursun, herkes yapar. Ne olmuş?"
+  },
+  {
+   "key": "case012.liam_2.contactless.answer.demeanor",
+   "value": "Bir an durakladı."
+  },
+  {
+   "key": "case012.liam_2.contactless.question",
+   "value": "Otobüste yalnız Tidecard mı kullanırsınız?"
+  },
+  {
+   "key": "case012.liam_2.title",
+   "value": "Liam Carter — ikinci görüşme"
+  },
+  {
+   "key": "case012.liam_3.body",
+   "value": "Banka hareketleri üzerine."
+  },
+  {
+   "key": "case012.liam_3.card.answer",
+   "value": "…Tamam. Bindim. Bricklayers’dan. Konuşmak istedim, sadece konuşmak. Hastanenin önünde bineceğini biliyordum; yüzüme bakıp ‘Liam değildi’ demesini istedim."
+  },
+  {
+   "key": "case012.liam_3.card.answer.demeanor",
+   "value": "Uzun süre sustu, sonra sesi çatallandı."
+  },
+  {
+   "key": "case012.liam_3.card.question",
+   "value": "Bu satırı açıklar mısınız?"
+  },
+  {
+   "key": "case012.liam_3.lock.answer",
+   "value": "Kilit. Bisiklet kilidi. Hep çantamda durur. Ne yaptığımı bilmiyordum, yemin ederim."
+  },
+  {
+   "key": "case012.liam_3.lock.question",
+   "value": "Çantanızda ne vardı?"
+  },
+  {
+   "key": "case012.liam_3.title",
+   "value": "Liam Carter — üçüncü görüşme"
+  },
+  {
+   "key": "case012.liam_3.upstairs.answer",
+   "value": "Bindi, beni gördü, iki sıra öne oturdu. Adını söyledim. Dönmedi bile. Sonra… sonrasını hatırlamıyorum. Kadın bağırdı, ben koştum."
+  },
+  {
+   "key": "case012.liam_3.upstairs.question",
+   "value": "Üst katta ne oldu?"
+  },
+  {
+   "key": "case012.liam_3.why.answer",
+   "value": "Çünkü yeniden başlıyordu. Biri bana söyledi; Owen polise gidecekmiş, adımı yine verecekmiş. Hapse girecektim, yapmadığım bir şey için."
+  },
+  {
+   "key": "case012.liam_3.why.answer.demeanor",
+   "value": "Kim olduğunu söylemedi; gözünü kaçırdı."
+  },
+  {
+   "key": "case012.liam_3.why.question",
+   "value": "Neden o gece? Aylardır ondan uzaktınız."
+  },
+  {
+   "key": "case012.liam_4.body",
+   "value": "Helen Shaw’la görüşmesi üzerine."
+  },
+  {
+   "key": "case012.liam_4.helen.answer",
+   "value": "Owen’ın yeniden polise gittiğini. Bu sefer ‘kanıtıyla’. Benim hapse gireceğimi, onun bile bir şey yapamayacağını söyledi. ‘Ben sana iyilik olsun diye söylüyorum’ dedi. İki gün uyuyamadım."
+  },
+  {
+   "key": "case012.liam_4.helen.answer.demeanor",
+   "value": "Gözleri doldu."
+  },
+  {
+   "key": "case012.liam_4.helen.question",
+   "value": "15 Mart akşamı Helen Shaw sizi aradı. Ne dedi?"
+  },
+  {
+   "key": "case012.liam_4.title",
+   "value": "Liam Carter — dördüncü görüşme"
+  },
+  {
+   "key": "case012.liam_4.truth.answer",
+   "value": "Ne?… Hayır. Hayır, bana… Bana tam tersini söyledi. Ben… Ben onu bunun için mi…"
+  },
+  {
+   "key": "case012.liam_4.truth.answer.demeanor",
+   "value": "Yüzünü ellerine gömdü; bir süre konuşamadı."
+  },
+  {
+   "key": "case012.liam_4.truth.question",
+   "value": "Owen müdüre sizin masum olduğunuzu anlatacaktı."
+  },
+  {
+   "key": "case012.lphone.body",
+   "value": "Abone: Liam Carter. Operatör kaydı, seçilmiş satırlar:\n\n12 Mart · 19.02 · gelen · gizli numara · cevapsız\n15 Mart · 21.47 · gelen · Helen Shaw (kayıtlı numara) · 11 dk 20 sn\n15 Mart · 22.10 · giden · Helen Shaw · cevapsız\n17 Mart · 02.31 · giden · Helen Shaw · 0 sn (iptal)"
+  },
+  {
+   "key": "case012.lphone.title",
+   "value": "TELEFON KAYDI — LIAM CARTER"
+  },
+  {
+   "key": "case012.method.fight",
+   "value": "Kebapçıdaki kavganın devamı"
+  },
+  {
+   "key": "case012.method.grudge",
+   "value": "Yalnız eski ihbara duyulan kin"
+  },
+  {
+   "key": "case012.method.incited",
+   "value": "Kışkırtma — biri onu Owen’a karşı doldurdu"
+  },
+  {
+   "key": "case012.method.label",
+   "value": "Saldırıyı ne tetikledi?"
+  },
+  {
+   "key": "case012.method.random",
+   "value": "Rastgele saldırı"
+  },
+  {
+   "key": "case012.method.robbery",
+   "value": "Soygun"
+  },
+  {
+   "key": "case012.nadia.before.answer",
+   "value": "Arkada biri vardı zaten. Ben Bricklayers’dan sonraki durakta bindim, yukarı çıktığımda oradaydı. Kapüşonlu, sırt çantası kucağında. Sonra hastanenin önünden bir adam bindi, o da arkaya geçti. Hastane kartı boynundaydı."
+  },
+  {
+   "key": "case012.nadia.before.question",
+   "value": "Siz bindiğinizde üst katta kim vardı?"
+  },
+  {
+   "key": "case012.nadia.body",
+   "value": "Üst kattaki yolcunun ifadesi."
+  },
+  {
+   "key": "case012.nadia.deflect",
+   "value": "Bunu göremedim. Önüme bakıyordum."
+  },
+  {
+   "key": "case012.nadia.quote",
+   "value": "“Arkada biri vardı zaten.”"
+  },
+  {
+   "key": "case012.nadia.scream.answer",
+   "value": "Bir ses. Tok bir ses, metal gibi. Döndüm, adam yere kaymıştı, öteki merdivene koşuyordu. Çığlık attım. Yüzünü görmedim; kapüşon ve çanta. Çantada parlayan bir şerit vardı."
+  },
+  {
+   "key": "case012.nadia.scream.question",
+   "value": "Ne oldu?"
+  },
+  {
+   "key": "case012.nadia.seat.answer",
+   "value": "Öndeydim, en ön camın oradaki koltukta. Yolu izlemeyi severim. Kulaklığım takılıydı ama müzik kısıktı."
+  },
+  {
+   "key": "case012.nadia.seat.question",
+   "value": "Üst katta nerede oturuyordunuz?"
+  },
+  {
+   "key": "case012.nadia.talk.answer",
+   "value": "Bir kere bir isim söylendi galiba. ‘Owen.’ Sonra sessizlik. Sonra o ses."
+  },
+  {
+   "key": "case012.nadia.talk.question",
+   "value": "Arkadakiler konuşuyor muydu?"
+  },
+  {
+   "key": "case012.nadia.title",
+   "value": "Nadia Okonjo — görüşme"
+  },
+  {
+   "key": "case012.offer.subtitle",
+   "value": "SON SEFER DEĞİL  /  AĞIR YARALAMA"
+  },
+  {
+   "key": "case012.offer.summary",
+   "value": "Bir gece otobüsünün üst katında, vardiyadan dönen bir hastane hamalı arkadan başına vurularak ağır yaralanıyor. Birkaç saat önce kavga ettiği genç de aynı otobüsteydi."
+  },
+  {
+   "key": "case012.offer.title",
+   "value": "DOSYA #012"
+  },
+  {
+   "key": "case012.ophone.body",
+   "value": "Emanetteki cihazdan alınan seçilmiş kayıtlar.\n\nMesaj taslağı (gönderilmemiş), alıcı: Helen Shaw, yazılma: 15 Mart 23.52\n“Dolaptaki sayımlar Liam gittikten sonra da eksik. Mart’ta dört kez. Liam değildi, Helen. Çizelgeleri bana sen göstermiştin. Yarın müdüre gidiyorum, önce senin bilmeni istedim.”\n\nArama kaydı: 16 Mart 08.10 · giden · Helen Shaw · 6 dk\nTakvim: 17 Mart 10.00 · “Müdür — sayımlar”"
+  },
+  {
+   "key": "case012.ophone.title",
+   "value": "CEP TELEFONU İNCELEMESİ — OWEN MARSH"
+  },
+  {
+   "key": "case012.person.adebayo.info",
+   "value": "47 yaşında, Riverside Transit’in N219 gece hattı şoförü. On bir yıldır aynı hatta."
+  },
+  {
+   "key": "case012.person.adebayo.name",
+   "value": "Adebayo Bello"
+  },
+  {
+   "key": "case012.person.helen.info",
+   "value": "44 yaşında, St. Clement Hastanesi hamal ve depo birimi vardiya amiri. Owen Marsh’ın amiri."
+  },
+  {
+   "key": "case012.person.helen.name",
+   "value": "Helen Shaw"
+  },
+  {
+   "key": "case012.person.kieran.info",
+   "value": "24 yaşında, depo işçisi. Olaydan dört saat önce Owen Marsh’la bir kebapçıda kavga etti."
+  },
+  {
+   "key": "case012.person.kieran.name",
+   "value": "Kieran Doyle"
+  },
+  {
+   "key": "case012.person.liam.info",
+   "value": "31 yaşında. Şubat’a kadar St. Clement Hastanesi’nde gece hamalıydı; ilaç dolabından morfin aldığı gerekçesiyle işten çıkarıldı."
+  },
+  {
+   "key": "case012.person.liam.name",
+   "value": "Liam Carter"
+  },
+  {
+   "key": "case012.person.nadia.info",
+   "value": "29 yaşında, gece vardiyasından dönen bir çağrı merkezi çalışanı. Üst kattaki tek diğer yolcu."
+  },
+  {
+   "key": "case012.person.nadia.name",
+   "value": "Nadia Okonjo"
+  },
+  {
+   "key": "case012.report.body",
+   "value": "17 Mart 2029 saat 01.48’de Riverside Transit’e ait N219 gece otobüsünün şoförü acil durum düğmesine bastı. Otobüs 01.49’da Canal Bridge durağında durdu.\n\nÜst katın arka sırasında bilinci kapalı bir erkek bulundu: Owen Marsh (38), St. Clement Hastanesi gece hamalı. Başının arkasında ağır bir darbe vardı. Kişi kaldırıldı; durumu ağır.\n\nÜst kattaki diğer yolcu bir çığlık duyduğunu, arkasını döndüğünde bir kişinin merdivenden aşağı koştuğunu söyledi. Durak açılınca biri arka kapıdan inip uzaklaştı.\n\nDevriye notu: “Mağdurun aynı gece saat 21.40 sularında Old Kent Road’daki bir kebapçıda Kieran Doyle adlı biriyle kavga ettiği, olayın kayda geçtiği öğrenildi. Doyle’un da aynı otobüse bindiği şoför tarafından teyit edildi.”\n\nÜst kat kamerası kayıt vermedi."
+  },
+  {
+   "key": "case012.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case012.request.bank",
+   "value": "Liam Carter’ın banka hareketlerini iste"
+  },
+  {
+   "key": "case012.request.cabinet",
+   "value": "İlaç dolabı erişim kaydını iste"
+  },
+  {
+   "key": "case012.request.camlog",
+   "value": "Araç kamera bakım kaydını iste"
+  },
+  {
+   "key": "case012.request.discipline",
+   "value": "Liam Carter’ın disiplin tutanağını iste"
+  },
+  {
+   "key": "case012.request.fight",
+   "value": "Kebapçı kavgasının tutanağını iste"
+  },
+  {
+   "key": "case012.request.kieran_card",
+   "value": "Kieran Doyle’un kart dökümünü iste"
+  },
+  {
+   "key": "case012.request.lphone",
+   "value": "Liam Carter’ın telefon kaydını iste"
+  },
+  {
+   "key": "case012.request.ophone",
+   "value": "Owen Marsh’ın telefonunun incelenmesini iste"
+  },
+  {
+   "key": "case012.request.taps",
+   "value": "Seferin biniş dökümünü iste"
+  },
+  {
+   "key": "case012.street.body",
+   "value": "Canal Bridge durağının karşısındaki bir dükkânın kamerası. 17 Mart 01.20 – 02.10 arası. Yağmur ve sokak lambası nedeniyle görüntü yer yer parlıyor; yüzler seçilmez."
+  },
+  {
+   "key": "case012.street.title",
+   "value": "CANAL BRIDGE SOKAK KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case012.summary.evidence",
+   "value": "Biniş dökümü adsızdı ama ·4417 kartı Liam’ın banka hareketlerinde aynı dakikadaydı. Kieran’ın kart dökümü onu saldırı anında başka bir otobüse koydu. Owen’ın gönderilmemiş taslağı, dolap erişim kaydı ve Liam’ın telefon kaydı Helen’ı gösterdi."
+  },
+  {
+   "key": "case012.summary.lesson",
+   "value": "Kayıt neyi tuttuğu kadar neyi tutmadığıyla da konuşur: yalnız biniş okutulur, temiz bir kart kişinin orada olmadığını göstermez. Vuranı bulmak dosyayı kapatmaz; kimin, neden vurdurduğuna bak."
+  },
+  {
+   "key": "case012.summary.location",
+   "value": "N219 gece otobüsü, Old Kent Road — 17 Mart 2029"
+  },
+  {
+   "key": "case012.summary.truth",
+   "value": "Hastanenin gece deposundan morfini aylardır vardiya amiri Helen Shaw alıyordu. Şubat’ta Owen Marsh’a eksik sayım çizelgelerini gösterip Liam Carter’ı ihbar ettirdi; Liam işten atıldı. Eksikler sürünce Owen gerçeği anladı ve müdüre gitmeye karar verdi. Helen 15 Mart akşamı Liam’ı arayıp Owen’ın onu yeniden polise vereceğini söyledi. Liam 17 Mart gecesi banka kartıyla N219’a bindi, Owen’ı üst katta bekledi ve bisiklet kilidiyle başına vurdu. Owen öğleden sonra öldü. Kavga ettiği Kieran Doyle saldırıdan önce otobüsten inmişti."
+  },
+  {
+   "key": "case012.suspect.label",
+   "value": "Owen’a üst katta kim vurdu?"
+  },
+  {
+   "key": "case012.tablet.caseLine",
+   "value": "DOSYA #012  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case012.taps.body",
+   "value": "Riverside Transit ödeme sistemi. Bu seferde okutulan kartlar. Londra otobüslerinde yalnız binişte okutma yapılır; iniş kaydı tutulmaz.\n\n01.24 · Elephant & Castle · Tidecard ·2291\n01.31 · Bricklayers · temassız banka kartı ·4417\n01.32 · Bricklayers sonrası durak (Dunton Rd) · Tidecard ·8030\n01.33 · St. Clement Hastanesi · Tidecard ·5562\n01.35 · Old Kent Rd / Asylum · Tidecard ·6119\n01.38 · Peckham Park Rd · Tidecard ·0447\n\nNot: Kart sahiplerinin kimliği bu dökümde yer almaz; kart başına ayrı talep gerekir."
+  },
+  {
+   "key": "case012.taps.title",
+   "value": "N219 BİNİŞ DÖKÜMÜ — 17 MART, 01.20 SEFERİ"
+  },
+  {
+   "key": "case012.time.alarm",
+   "value": "01.48"
+  },
+  {
+   "key": "case012.time.ambulance",
+   "value": "01.58"
+  },
+  {
+   "key": "case012.time.bank",
+   "value": "01.31"
+  },
+  {
+   "key": "case012.time.bus_pass",
+   "value": "01.27"
+  },
+  {
+   "key": "case012.time.bus_stop",
+   "value": "01.49"
+  },
+  {
+   "key": "case012.time.death",
+   "value": "14.20"
+  },
+  {
+   "key": "case012.time.fight",
+   "value": "21.40"
+  },
+  {
+   "key": "case012.time.k_n63",
+   "value": "01.44"
+  },
+  {
+   "key": "case012.time.l_claim",
+   "value": "gece"
+  },
+  {
+   "key": "case012.time.o_out",
+   "value": "01.20"
+  },
+  {
+   "key": "case012.time.runner",
+   "value": "01.49"
+  },
+  {
+   "key": "case012.time.tap4417",
+   "value": "01.31"
+  },
+  {
+   "key": "case012.time.tap5562",
+   "value": "01.33"
+  },
+  {
+   "key": "case012.time.tap6119",
+   "value": "01.35"
+  },
+  {
+   "key": "case012.title",
+   "value": "Dosya #012 — Son Sefer Değil"
+  },
+  {
+   "key": "case012.verdict.adebayo",
+   "value": "Adebayo Bello"
+  },
+  {
+   "key": "case012.verdict.kieran",
+   "value": "Kieran Doyle"
+  },
+  {
+   "key": "case012.verdict.liam",
+   "value": "Liam Carter"
+  },
+  {
+   "key": "case012.verdict.undetermined",
+   "value": "Belirlenemedi"
+  }
+ ]
+}

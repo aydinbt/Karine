@@ -28,7 +28,7 @@ Morfini başından beri **Helen Shaw** alıyordu. Owen Şubat'ta Liam'ı ihbar e
 | Owen Marsh | 38 | kurban, komada; portre yok |
 | Liam Carter | 31 | eski hamal, işten atılmış; fail |
 | Kieran Doyle | 24 | o akşam Owen'la kavga etmiş; kırmızı ringa |
-| Ade Bello | 47 | otobüs şoförü |
+| Adebayo Bello | 47 | otobüs şoförü |
 | Nadia Okonjo | 29 | üst kattaki tek yolcu, kulak ve göz tanığı (önünde oturuyordu, arkayı görmedi) |
 | Helen Shaw | 44 | Owen'ın vardiya amiri; morfini o alıyor, Liam'ı kışkırttı |
 
@@ -41,7 +41,7 @@ Londra otobüslerinde yalnız **biniş** okutulur, iniş kaydı yoktur. Oyuncu i
 Yeni kod gerekmez: hepsi belge. Oyun "·4417 eşleşti" demez; oyuncu iki belgedeki dört haneyi kendisi bağlar.
 
 ## Akış
-- **Açık:** olay raporu, şoför Ade görüşmesi, Nadia görüşmesi, hastane bilgi notu (Owen komada; kafada tek ağır darbe, savunma yarası yok → arkadan), Kieran görüşmesi (kebapçı kavgası polis kaydında, adı ilk raporda geçiyor).
+- **Açık:** olay raporu, şoför Adebayo görüşmesi, Nadia görüşmesi, hastane bilgi notu (Owen komada; kafada tek ağır darbe, savunma yarası yok → arkadan), Kieran görüşmesi (kebapçı kavgası polis kaydında, adı ilk raporda geçiyor).
 - **İstenebilir:** N219 biniş dökümü, otobüs kamera bakım kaydı, kebapçı kavgası tutanağı.
 - **Nadia:** "Arkada biri vardı, ben binmeden önce oradaydı. Sırt çantası, kapüşon." → Saldırgan Owen'dan **önce** binmiş olmalı. Kieran sonra bindi; bu, oyuncunun kendi çıkarımı.
 - **Biniş dökümü** okununca → Kieran Tidecard dökümü istenebilir; Helen Shaw görüşmesi açılır (Owen'ın Şubat'taki ihbarı, Liam'ın kovulması).
@@ -64,9 +64,9 @@ Yeni kod gerekmez: hepsi belge. Oyun "·4417 eşleşti" demez; oyuncu iki belged
 - Banka hareketleri Liam'ın adını anar → Liam'a öne sürülebilir.
 
 ## Rapor
-- **Saldırgan:** **Liam** ✔ · Kieran · Ade · belirlenemedi.
+- **Saldırgan:** **Liam** ✔ · Kieran · Adebayo · belirlenemedi.
 - **Saldırının nedeni:** soygun · kavganın devamı · ihbara kin · **kışkırtma: Helen, kendi hırsızlığını örtmek için** ✔.
-- **Ek sorumlu:** **Helen Shaw** ✔ · Ade · kimse.
+- **Ek sorumlu:** **Helen Shaw** ✔ · Adebayo · kimse.
 - **Belirleyici kanıt:** **biniş dökümü + banka hareketleri (·4417)** ✔ · Kieran Tidecard dökümü · kamera bakım kaydı · tutanak.
 Faksta akıbet: Liam cinayetten, Helen azmettirme ve ilaç hırsızlığından yargılanır. Yalnız Liam seçilirse Helen hastanede kalır ve faks bir hafta sonra yeni bir eksik sayımı not eder. Kieran seçilirse ikisi de kaybolur.
 

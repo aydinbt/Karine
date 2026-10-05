@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (Birleşik Krallık bölümü başladı: Dosya #011 veride)
+**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011 ve #012 veride)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -577,4 +577,9 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [~] Veri: `case011.json` (21 düğüm), `tr.case011.json` (217 metin), `Case011Rules`; #010 → #011 zinciri, `Worlds.json` UK ilk yuvası. 126/126 EditMode, 25 PlayMode + 1 atlandı. Play Mode'da oynanmadı.
 - [ ] Görseller: portreler (Daniel, Sam, Margaret, Graham, Lucy — Gemini), adli bulgu görselleri (Gemini), kapak ve CCTV 23.12 koşan figür 3 kare (ChatGPT). Kareler gelince `road#runner` olayına `framePaths` eklenecek.
 - [~] Dünya geçişi: kod incelemesi önceki notu düzeltti — #010 faksı #010'un içinde okunmadan "sıradaki görev" düğmesi açılmıyor, yani sıra zaten Türkiye finali → faks → #011. Eksik olan UK açılışıydı: `worldIntros` içine `world02` eklendi; videosu olmayan dünya siyah ekran yerine kartpostal (`Bube/Worlds/uk`) üstünde ülke/şube ve stüdyo kartı gösterir, 5,6 sn sonra dosya bırakılır. Video gelince yalnız `videoPath` doldurulur. Başsız test `WorldWithoutVideo_ShowsCardThenDropsFile` geçiyor (126 EditMode, 26 PlayMode + 1 atlandı); kart gözle görülmedi.
+
+## 5 Ekim 2026 — Birleşik Krallık: Dosya #012 "Son Sefer Değil"
+- [x] Tasarım onaylandı: `Docs/CASE012_DESIGN.md` (biniş dökümünden zaman çizelgesi; dört katmanlı sürpriz: Kieran → ·4417 → Owen ölür → Helen).
+- [~] Veri: `case012.json` (24 düğüm), `tr.case012.json` (250 metin), `Case012Rules`; #011 → #012 zinciri, `Worlds.json` UK ikinci yuvası. 126/126 EditMode, 26 PlayMode + 1 atlandı. Play Mode'da oynanmadı.
+- [ ] Görseller: `Docs/CASE012_PROMPTS.md` — 5 portre ve 4 adli bulgu (Gemini), kapak ve 3 CCTV karesi (ChatGPT). CCTV gelince `street#runner` olayına `framePaths`.
 
