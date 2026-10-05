@@ -1056,37 +1056,37 @@ A 56-year-old Spanish woman, chestnut hair in a neat bob, a jeweller's loupe han
 
 ## Dosya #056 (6)
 
-162. **Ramón Castillo** → `ramon.png`
+162. **Ramón Castillo** → `ramon.png` ✅
 
 ```
 A 64-year-old Spanish man, silver hair neatly side-parted, tanned athletic face, a club tie, cold confident grey eyes. A navy blue blazer with gold buttons and no crest. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-163. **Gonzalo Castillo** → `gonzalo.png`
+163. **Gonzalo Castillo** → `gonzalo.png` ✅
 
 ```
 A 38-year-old Spanish man, wavy brown hair, square jaw, broad rower's shoulders, defensive guilty brown eyes. A white polo shirt with the collar up. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-164. **Carmen Prieto** → `prieto.png`
+164. **Carmen Prieto** → `prieto.png` ✅
 
 ```
 A 61-year-old Spanish woman, grey hair cut short, thin strong face, deep grief lines, unwavering dark eyes. A black cardigan buttoned up, a small photo locket around her neck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-165. **Iker Salas** → `iker.png`
+165. **Iker Salas** → `iker.png` ✅
 
 ```
 A 45-year-old Basque-Spanish man, short brown hair, stubble, weathered hands with varnish stains, quiet careful eyes. A dark green work fleece with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-166. **Valeria Cruz** → `valeria.png`
+166. **Valeria Cruz** → `valeria.png` ✅
 
 ```
 A 20-year-old Spanish woman, long dark hair in a wet ponytail, athletic, shocked wide eyes, a towel around her shoulders. A red rowing unisuit under an open jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-167. **Hamid Benali** → `hamid.png`
+167. **Hamid Benali** → `hamid.png` ✅
 
 ```
 A 50-year-old Moroccan-Spanish man, greying short hair, a neat moustache, tired kind eyes. A dark navy night guard's jacket with no badge. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
