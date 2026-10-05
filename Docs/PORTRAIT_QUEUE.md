@@ -32,19 +32,19 @@ A 35-year-old Turkish-German woman, dark hair in a low ponytail, glasses, embarr
 
 ## Dosya #019 (3)
 
-4. **Sophie Lindner** → `sophie.png`
+4. **Sophie Lindner** → `sophie.png` ✅
 
 ```
 A 33-year-old German woman, dark-brown bob haircut, red-rimmed eyes, shaken but sharp expression. Teal linen shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-5. **Ines Kraft** → `ines.png`
+5. **Ines Kraft** → `ines.png` ✅
 
 ```
 A 44-year-old German woman, auburn hair in a sleek low bun, cool corporate composure. Black blazer, thin gold necklace. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-6. **Tobias Wendt** → `tobias.png`
+6. **Tobias Wendt** → `tobias.png` ✅
 
 ```
 A 31-year-old German man, messy black hair, stubble, dark circles under his eyes, evasive half-smile. Brown corduroy overshirt over a black t-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
