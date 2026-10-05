@@ -1,0 +1,492 @@
+{
+ "entries": [
+  {
+   "key": "case059.amaia.body",
+   "value": "Kurbanın kızı."
+  },
+  {
+   "key": "case059.amaia.deflect",
+   "value": "Babamla son iki yıldır konuşmuyorduk."
+  },
+  {
+   "key": "case059.amaia.title",
+   "value": "Amaia Santa Ana — görüşme"
+  },
+  {
+   "key": "case059.amaia.will.answer",
+   "value": "Vakfı kapatmak istiyordum, çünkü kirli olduğunu biliyordum. O ‘dedenin mirası’ diyordu. Geçen hafta beni aradı, ilk kez iki yıl sonra. ‘Haklıydın’ dedi. ‘Yarın her şeyi götürüyorum.’ Mirasçı benim, evet; ama ben dün gece Madrid’deydim, sabah ilk trenle geldim."
+  },
+  {
+   "key": "case059.amaia.will.answer.demeanor",
+   "value": "Gümüş yüzüğünü parmağında döndürüyor."
+  },
+  {
+   "key": "case059.amaia.will.question",
+   "value": "Babanızla neden konuşmuyordunuz?"
+  },
+  {
+   "key": "case059.archive.body",
+   "value": "Arşivden yeniden açılan dosya (Haziran 1989, ‘kaza’ olarak kapanmış):\n\n· Fernando Santa Ana (61), sarayın sarnıcında boğulmuş halde bulundu; kapak açık. ‘Gece serinlemeye inip düştü.’\n· Kâhyanın o günkü ifadesi: ‘Yanında bir hanım vardı.’ Bu cümlenin üstü çizilmiş, kenarda ‘tanık yanılıyor’ notu.\n· Bir hafta sonra Fundación Santa Ana kuruldu; ilk danışman Dr. Edda Varga. Kuruluş sermayesi Napoli’den, Caruso Marittima üzerinden.\n· Dosyayı kapatan memurun adı, iki yıl sonra vakfın burs listesinde.\n· Vakfın 1994 personel kaydı: ‘Mercedes Llorente, stajyer — Dr. Varga’nın tavsiyesiyle.’"
+  },
+  {
+   "key": "case059.archive.reopen",
+   "value": "Kırk bir yıl önce ‘kaza’ diye kapanan dosya yeniden açıldı."
+  },
+  {
+   "key": "case059.archive.title",
+   "value": "1989 DOSYASI — FERNANDO SANTA ANA"
+  },
+  {
+   "key": "case059.autopsy.body",
+   "value": "· Ölüm nedeni: boğulma; sarnıçta bir metre su.\n· Altı metrelik düşüşte sağ köprücük kemiği ve bilek kırık; kafada ağır bir darbe yok, düştüğünde bilinci açıkmış.\n· Tırnaklarda sarnıç duvarının kireci: tırmanmaya çalışmış.\n· Sırtta, kürek kemiklerinin arasında iki el büyüklüğünde hafif bir morluk.\n· Ölüm zamanı: 23.30–01.00."
+  },
+  {
+   "key": "case059.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case059.bermejo.body",
+   "value": "Mali denetçi."
+  },
+  {
+   "key": "case059.bermejo.deflect",
+   "value": "Ben rakamlara bakarım."
+  },
+  {
+   "key": "case059.bermejo.money.answer",
+   "value": "Benim hazırladığım tablolar. Otuz yılın bağışları: kayıkhane, arşivin dijitalleştirmesi, kardeşliğin restorasyonu, kooperatifin tarlası… Hepsinin karşılığında bir ‘danışmanlık’ ödemesi, hepsi aynı reasürans şirketi üzerinden Montreal’e. Lehtar: ‘bube Uluslararası İrtibat Programı’. Adı sizinkine benziyor, biliyorum. Gece on bir buçukta çıktım; Mercedes dosyayı ‘ben direktöre veririm’ diye benden aldı."
+  },
+  {
+   "key": "case059.bermejo.money.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp kravatının ucuyla siliyor."
+  },
+  {
+   "key": "case059.bermejo.money.question",
+   "value": "Rodrigo’nun dosyasında ne vardı?"
+  },
+  {
+   "key": "case059.bermejo.title",
+   "value": "Héctor Bermejo — görüşme"
+  },
+  {
+   "key": "case059.cctv.event.lean",
+   "value": "Kamera: Adam açık ağızdan aşağı eğiliyor; kadın hemen arkasında, eli kalkık."
+  },
+  {
+   "key": "case059.cctv.event.lock",
+   "value": "Kamera: Kadın yalnız; demir kapağı kapatıp anahtarı çeviriyor."
+  },
+  {
+   "key": "case059.cctv.event.talk",
+   "value": "Kamera: Koyu takım elbiseli yaşlı bir adam ile koyu döpiyesli bir kadın sarnıcın başında; demir kapak açık."
+  },
+  {
+   "key": "case059.cctv.overlay",
+   "value": "PSA-PATIO"
+  },
+  {
+   "key": "case059.cctv.period",
+   "value": "28 Ekim 2030"
+  },
+  {
+   "key": "case059.cctv.source",
+   "value": "Avlu kamerası"
+  },
+  {
+   "key": "case059.clue.found",
+   "value": "Kâhya kapaktan sarkan atkıyı görüyor."
+  },
+  {
+   "key": "case059.clue.lean",
+   "value": "Adam aşağı eğiliyor; kadın arkasında, eli kalkık."
+  },
+  {
+   "key": "case059.clue.left",
+   "value": "Denetçi saraydan çıkıyor; dosya müdür yardımcısında."
+  },
+  {
+   "key": "case059.clue.lock",
+   "value": "Kadın yalnız; kapağı kapatıp kilitliyor."
+  },
+  {
+   "key": "case059.clue.source.bermejo",
+   "value": "Héctor Bermejo"
+  },
+  {
+   "key": "case059.clue.source.isidro",
+   "value": "Isidro Navas"
+  },
+  {
+   "key": "case059.clue.talk",
+   "value": "Yaşlı adam ve döpiyesli kadın açık sarnıcın başında."
+  },
+  {
+   "key": "case059.custody.drawer",
+   "value": "Müdür yardımcısının masasındaki gizli göze"
+  },
+  {
+   "key": "case059.custody.kitchen",
+   "value": "Kâhyanın çekmecesine"
+  },
+  {
+   "key": "case059.custody.label",
+   "value": "Sarnıç anahtarı nereye gitti?"
+  },
+  {
+   "key": "case059.custody.well",
+   "value": "Sarnıca atıldı"
+  },
+  {
+   "key": "case059.epilogue.custody.drawer",
+   "value": "Anahtarın masanın gizli gözünde bulunduğu yazıldı."
+  },
+  {
+   "key": "case059.epilogue.custody.kitchen",
+   "value": "Kâhyanın anahtarı kendi çekmecesindeydi; ikinci anahtar orada değildi."
+  },
+  {
+   "key": "case059.epilogue.custody.well",
+   "value": "Sarnıç boşaltıldı; anahtar yoktu."
+  },
+  {
+   "key": "case059.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; babası gibi. Randevu saati boş geçti."
+  },
+  {
+   "key": "case059.epilogue.verdict.amaia",
+   "value": "Amaia Santa Ana tutuklandı; vakfın yönetimi müdür yardımcısına kaldı."
+  },
+  {
+   "key": "case059.epilogue.verdict.isidro",
+   "value": "Isidro Navas tutuklandı; kırk bir yıllık sessizliği hapiste sürdü."
+  },
+  {
+   "key": "case059.epilogue.verdict.mercedes",
+   "value": "Mercedes Llorente tutuklandı. 1989 dosyası yeniden açıldı. Fundación Santa Ana’nın otuz yıllık ödemeleri, Montreal’deki reasürans şirketi ve ‘bube Uluslararası İrtibat Programı’ adlı lehtar bube Montreal — Mile End şubesine gönderildi."
+  },
+  {
+   "key": "case059.evidence.archive",
+   "value": "1989 dosyası"
+  },
+  {
+   "key": "case059.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case059.evidence.office",
+   "value": "Müdür yardımcısının odası araması"
+  },
+  {
+   "key": "case059.evidence.patio",
+   "value": "Avlu kamerası"
+  },
+  {
+   "key": "case059.feedback.accident",
+   "value": "Sırtta iki el izi var ve kapak dışarıdan kilitlenmişti."
+  },
+  {
+   "key": "case059.feedback.amaia",
+   "value": "Kızı mirasçı ve babasıyla küsdü, ama o gece Madrid’deydi; vakfı kapatmak isteyen oydu."
+  },
+  {
+   "key": "case059.feedback.isidro",
+   "value": "Kâhyanın anahtarı çekmecesindeydi ve kamera kapağı kilitleyen bir kadın gösteriyor."
+  },
+  {
+   "key": "case059.feedback.mercedes",
+   "value": "Sarnıç anahtarı onun masasının gizli gözünden, taze kireç ve onun iziyle çıktı; yanmış dosya onun şöminesindeydi. Kâhya onu direktörle avluya inerken gördü, kamera kapağı tek başına kilitleyen kadını gösteriyor."
+  },
+  {
+   "key": "case059.file.caseType",
+   "value": "CİNAYET"
+  },
+  {
+   "key": "case059.file.value.bureau",
+   "value": "BDS Sevilla — Triana Şubesi"
+  },
+  {
+   "key": "case059.file.value.location",
+   "value": "Palacio Santa Ana, Triana, Sevilla"
+  },
+  {
+   "key": "case059.file.value.number",
+   "value": "BDS-SVQ-2030-0133"
+  },
+  {
+   "key": "case059.file.value.offence",
+   "value": "Cinayet"
+  },
+  {
+   "key": "case059.file.value.reporter",
+   "value": "Kâhya"
+  },
+  {
+   "key": "case059.isidro.1989.answer",
+   "value": "Aynı sarnıç. Ben yirmi altı yaşındaydım. O gece de bir kadın vardı yanında, yabancı, açık renk saçlı; Fernando Bey ona ‘Edda, olmaz’ dedi, duydum. Sabah ‘kaza’ dediler. Bir hafta sonra vakıf kuruldu ve ilk danışman oldu. Kırk bir yıl sustum. Mercedes Hanım o kadının buradaki eli."
+  },
+  {
+   "key": "case059.isidro.1989.answer.demeanor",
+   "value": "Gözlerini avludaki portakal ağacından ayırmıyor."
+  },
+  {
+   "key": "case059.isidro.1989.question",
+   "value": "1989’da Don Fernando’ya ne oldu?"
+  },
+  {
+   "key": "case059.isidro.body",
+   "value": "Kâhya."
+  },
+  {
+   "key": "case059.isidro.deflect",
+   "value": "Ben bu evin kapısını açarım, kapatırım."
+  },
+  {
+   "key": "case059.isidro.night.answer",
+   "value": "Don Rodrigo bütün gün çalışma odasında bir dosya hazırladı, kalın bir dosya. Gece on bire doğru Mercedes Hanım ‘bir şey göstereceğim’ dedi, avluya indiler. Sarnıcın anahtarı yalnız iki kişide: bende ve Mercedes Hanım’da. Benimki çekmecemde duruyordu. Sabah atkıyı gördüm."
+  },
+  {
+   "key": "case059.isidro.night.answer.demeanor",
+   "value": "Yeleğinin düğmelerini birer birer kontrol ediyor."
+  },
+  {
+   "key": "case059.isidro.night.question",
+   "value": "Dün gece avluda ne oldu?"
+  },
+  {
+   "key": "case059.isidro.title",
+   "value": "Isidro Navas — görüşme"
+  },
+  {
+   "key": "case059.mercedes.body",
+   "value": "Müdür yardımcısı."
+  },
+  {
+   "key": "case059.mercedes.deflect",
+   "value": "Vakıf otuz yıldır bu şehre okul, kayıkhane, arşiv verdi."
+  },
+  {
+   "key": "case059.mercedes.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case059.mercedes.end.presented.archive",
+   "value": "Babası da hayır demişti. Edda bir kere hayır denildiğini unutmaz."
+  },
+  {
+   "key": "case059.mercedes.end.presented.office",
+   "value": "Rodrigo ‘E. V. ile bitirdim’ dedi, bir dosya hazırladı, bube’ye gidecekti. Edda’yı aradım; ‘Fernando’yu hatırla’ dedi, o kadar. Ona sarnıcı açtım, ‘baban burada bir şey saklamış’ dedim. Eğildi. İttim. Kapağı kilitledim, dosyayı şöminede yaktım, anahtarı gizli göze koydum. Sonra mesaj attım. Cevap gelmedi. Hiç gelmez."
+  },
+  {
+   "key": "case059.mercedes.end.question",
+   "value": "Rodrigo’yu sarnıca siz ittiniz."
+  },
+  {
+   "key": "case059.mercedes.patio.answer",
+   "value": "Rodrigo yorgundu, biraz hava almak istedi. Sarnıcı açtırdı, bakmak istedi; babasından beri takıntısıydı. Onu orada bıraktım, yukarı çıktım."
+  },
+  {
+   "key": "case059.mercedes.patio.answer.demeanor",
+   "value": "İnci küpesine dokunup elini indiriyor."
+  },
+  {
+   "key": "case059.mercedes.patio.question",
+   "value": "Dün gece avluya neden indiniz?"
+  },
+  {
+   "key": "case059.mercedes.patio.variant0",
+   "value": "1989’da ben on üç yaşındaydım. Bunu bana yüklemeyin."
+  },
+  {
+   "key": "case059.mercedes.title",
+   "value": "Mercedes Llorente — görüşme"
+  },
+  {
+   "key": "case059.method.cistern",
+   "value": "Açık sarnıca itildi, kapak üstüne kilitlendi"
+  },
+  {
+   "key": "case059.method.heart",
+   "value": "Kalbi durdu, düştü"
+  },
+  {
+   "key": "case059.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case059.method.slip",
+   "value": "Eğilirken kayıp düştü"
+  },
+  {
+   "key": "case059.offer.subtitle",
+   "value": "SANTA ANA  /  CİNAYET"
+  },
+  {
+   "key": "case059.offer.summary",
+   "value": "Bölüm boyunca her dosyanın kenarından geçen vakfın direktörü, sarayının sarnıcında ölü bulundu."
+  },
+  {
+   "key": "case059.offer.title",
+   "value": "DOSYA #059"
+  },
+  {
+   "key": "case059.office.body",
+   "value": "Mercedes Llorente’nin saraydaki odası ve şömine (şube şefinin onayıyla):\n\n· Yazı masasının gizli gözünde sarnıç kapağının anahtarı; anahtar ucunda taze kireç ve yosun, üzerinde Mercedes Llorente’nin parmak izi.\n· Şöminenin külünde yarısı yanmış kalın bir dosya: denetçinin tabloları ve Montreal’e giden reasürans ödemelerinin dekontları.\n· Telefonunda 28 Ekim 23.51, kayıtsız bir numaraya: ‘Sevilla kapandı.’ Yanıt yok. Aynı numaraya 1994’ten beri 1.140 mesaj."
+  },
+  {
+   "key": "case059.office.title",
+   "value": "MÜDÜR YARDIMCISININ ODASI — ARAMA"
+  },
+  {
+   "key": "case059.patio.body",
+   "value": "Palacio Santa Ana avlusu. 28 Ekim 22.30 – 29 Ekim 00.30."
+  },
+  {
+   "key": "case059.patio.title",
+   "value": "AVLU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case059.person.amaia.info",
+   "value": "31 yaşında, kurbanın kızı; vakfın mütevelli heyetinde."
+  },
+  {
+   "key": "case059.person.amaia.name",
+   "value": "Amaia Santa Ana"
+  },
+  {
+   "key": "case059.person.bermejo.info",
+   "value": "45 yaşında, vakfın mali denetçisi."
+  },
+  {
+   "key": "case059.person.bermejo.name",
+   "value": "Héctor Bermejo"
+  },
+  {
+   "key": "case059.person.isidro.info",
+   "value": "67 yaşında, sarayın kâhyası; kırk yıldır ailenin yanında."
+  },
+  {
+   "key": "case059.person.isidro.name",
+   "value": "Isidro Navas"
+  },
+  {
+   "key": "case059.person.mercedes.info",
+   "value": "54 yaşında, Fundación Santa Ana’nın müdür yardımcısı."
+  },
+  {
+   "key": "case059.person.mercedes.name",
+   "value": "Mercedes Llorente"
+  },
+  {
+   "key": "case059.recon.r_1989",
+   "value": "1989: Fernando Santa Ana ‘Edda, olmaz’ diyor ve aynı sarnıçta ölüyor; bir hafta sonra vakıf kuruluyor."
+  },
+  {
+   "key": "case059.recon.r_call",
+   "value": "28 Ekim: Rodrigo Santa Ana bube’yi arayıp ertesi sabah için randevu alıyor."
+  },
+  {
+   "key": "case059.recon.r_folder",
+   "value": "23.30: Denetçi otuz yılın ödeme tablolarını bırakıp çıkıyor; dosyayı Mercedes Llorente alıyor."
+  },
+  {
+   "key": "case059.recon.r_lock",
+   "value": "23.43: Kapak kilitleniyor; anahtar gizli göze, dosya şömineye gidiyor."
+  },
+  {
+   "key": "case059.recon.r_msg",
+   "value": "23.51: ‘Sevilla kapandı.’ Kırk yılda bin yüz kırkıncı mesaja da cevap gelmiyor."
+  },
+  {
+   "key": "case059.recon.r_patio",
+   "value": "23.36: Mercedes Llorente direktörü avluya indirip sarnıcı açıyor."
+  },
+  {
+   "key": "case059.recon.r_push",
+   "value": "23.41: Direktör aşağı eğiliyor; arkasından itiliyor."
+  },
+  {
+   "key": "case059.report.body",
+   "value": "29 Ekim 2030 sabahı Triana’daki Palacio Santa Ana’da, Fundación Santa Ana’nın direktörü Rodrigo Santa Ana (66), avlunun altındaki eski sarnıçta ölü bulundu. Sarnıcın demir kapağı kilitliydi.\n\nCesedi kâhya Isidro Navas 07.30’da, kapağın kenarından sarkan atkıyı görünce buldu. Gece sarayda: müdür yardımcısı Mercedes Llorente ve mali denetçi Héctor Bermejo geç saate kadar çalıştı. Kurbanın kızı Amaia Santa Ana sabah geldi.\n\nKurban bir gün önce bube Sevilla — Triana şubesini arayıp 29 Ekim 10.00 için randevu almıştı."
+  },
+  {
+   "key": "case059.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case059.request.archive",
+   "value": "1989 dosyasını arşivden açmak için izin iste"
+  },
+  {
+   "key": "case059.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case059.request.office",
+   "value": "Müdür yardımcısının odasını aramak için izin iste"
+  },
+  {
+   "key": "case059.summary.evidence",
+   "value": "Kâhya, kız ve denetçi geceyi ve 1989’u anlattı; bunlar arşivi açtırdı. Kamera kapağı kilitleyen kadını gösterdi. Arama anahtarı gizli gözde, dosyanın küllerini şöminede buldu."
+  },
+  {
+   "key": "case059.summary.lesson",
+   "value": "Baba da oğul da aynı kelimeyi söyledi. Cevap ikisine de aynı oldu."
+  },
+  {
+   "key": "case059.summary.location",
+   "value": "Palacio Santa Ana — Ekim 2030"
+  },
+  {
+   "key": "case059.summary.truth",
+   "value": "1989’da Fernando Santa Ana bir kadına ‘Edda, olmaz’ dedi ve sarnıçta öldü; vakıf bir hafta sonra Napoli parasıyla kuruldu, ilk danışmanı Dr. Edda Varga oldu. Otuz yıl boyunca vakıf Sevilla’daki kirli işlerin bağışını yaptı, karşılığını Montreal’e aktardı. Oğlu Rodrigo her şeyi bube’ye götürmeye karar verdi. Müdür yardımcısı Mercedes Llorente onu avluya indirip sarnıca itti, kapağı kilitledi, dosyayı yaktı."
+  },
+  {
+   "key": "case059.suspect.label",
+   "value": "Rodrigo Santa Ana’yı kim öldürdü?"
+  },
+  {
+   "key": "case059.tablet.caseLine",
+   "value": "DOSYA #059  /  BUBE SEVİLLA — TRİANA"
+  },
+  {
+   "key": "case059.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case059.time.lean",
+   "value": "23.41"
+  },
+  {
+   "key": "case059.time.left",
+   "value": "23.30"
+  },
+  {
+   "key": "case059.time.lock",
+   "value": "23.43"
+  },
+  {
+   "key": "case059.time.talk",
+   "value": "23.36"
+  },
+  {
+   "key": "case059.title",
+   "value": "Dosya #059 — Santa Ana"
+  },
+  {
+   "key": "case059.verdict.accident",
+   "value": "Kimse — eğilip düştü"
+  },
+  {
+   "key": "case059.verdict.amaia",
+   "value": "Amaia Santa Ana"
+  },
+  {
+   "key": "case059.verdict.isidro",
+   "value": "Isidro Navas"
+  },
+  {
+   "key": "case059.verdict.mercedes",
+   "value": "Mercedes Llorente"
+  }
+ ]
+}

@@ -1,0 +1,459 @@
+{
+ "deskHour": 10,
+ "deskDate": "17 Ekim 2030",
+ "titleKey": "case054.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case054.report.title",
+   "bodyKey": "case054.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case054.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case054.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case054.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case054.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case054.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case054.autopsy.title",
+   "bodyKey": "case054.autopsy.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case054.request.autopsy",
+   "requestDelaySeconds": 7
+  },
+  {
+   "id": "rocio",
+   "kind": "interview",
+   "titleKey": "case054.rocio.title",
+   "bodyKey": "case054.rocio.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "rocio",
+   "personNameKey": "case054.person.rocio.name",
+   "personInfoKey": "case054.person.rocio.info",
+   "questions": [
+    {
+     "id": "case054.rocio.night",
+     "promptKey": "case054.rocio.night.question",
+     "answerKey": "case054.rocio.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case054.rocio.kiln",
+     "promptKey": "case054.rocio.kiln.question",
+     "answerKey": "case054.rocio.kiln.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case054.rocio.night"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case054.rocio.night",
+    "case054.rocio.kiln"
+   ],
+   "deflectAnswerKey": "case054.rocio.deflect",
+   "portrait": {
+    "hairHex": "#5A3A24",
+    "skinHex": "#E4C0A0",
+    "shirtHex": "#C8B49A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "nuria",
+   "kind": "interview",
+   "titleKey": "case054.nuria.title",
+   "bodyKey": "case054.nuria.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "nuria",
+   "personNameKey": "case054.person.nuria.name",
+   "personInfoKey": "case054.person.nuria.info",
+   "questions": [
+    {
+     "id": "case054.nuria.call",
+     "promptKey": "case054.nuria.call.question",
+     "answerKey": "case054.nuria.call.answer",
+     "topicKey": "interview.topic.home"
+    }
+   ],
+   "completionQuestionIds": [
+    "case054.nuria.call"
+   ],
+   "deflectAnswerKey": "case054.nuria.deflect",
+   "portrait": {
+    "hairHex": "#1E1410",
+    "skinHex": "#E0BA98",
+    "shirtHex": "#1A2A4A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "tomas",
+   "kind": "interview",
+   "titleKey": "case054.tomas.title",
+   "bodyKey": "case054.tomas.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "tomas",
+   "personNameKey": "case054.person.tomas.name",
+   "personInfoKey": "case054.person.tomas.info",
+   "questions": [
+    {
+     "id": "case054.tomas.2003",
+     "promptKey": "case054.tomas.2003.question",
+     "answerKey": "case054.tomas.2003.answer",
+     "topicKey": "interview.topic.records"
+    }
+   ],
+   "completionQuestionIds": [
+    "case054.tomas.2003"
+   ],
+   "deflectAnswerKey": "case054.tomas.deflect",
+   "portrait": {
+    "hairHex": "#E0DCD6",
+    "skinHex": "#E0BCA0",
+    "shirtHex": "#4A5A3A"
+   }
+  },
+  {
+   "id": "archive",
+   "kind": "document",
+   "titleKey": "case054.archive.title",
+   "bodyKey": "case054.archive.body",
+   "requires": [
+    "tomas"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case054.request.archive",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "tomas",
+      "nuria"
+     ]
+    },
+    {
+     "sources": [
+      "tomas",
+      "rocio"
+     ]
+    },
+    {
+     "sources": [
+      "nuria",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "archive",
+   "reopenYear": "2003",
+   "reopenNoteKey": "case054.archive.reopen"
+  },
+  {
+   "id": "workshop",
+   "kind": "document",
+   "titleKey": "case054.workshop.title",
+   "bodyKey": "case054.workshop.body",
+   "requires": [
+    "autopsy",
+    "rocio"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case054.request.workshop",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "alvaro",
+   "kind": "interview",
+   "titleKey": "case054.alvaro.title",
+   "bodyKey": "case054.alvaro.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "alvaro",
+   "personNameKey": "case054.person.alvaro.name",
+   "personInfoKey": "case054.person.alvaro.info",
+   "questions": [
+    {
+     "id": "case054.alvaro.visit",
+     "promptKey": "case054.alvaro.visit.question",
+     "answerKey": "case054.alvaro.visit.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case054.alvaro.end",
+     "promptKey": "case054.alvaro.end.question",
+     "answerKey": "case054.alvaro.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "van",
+      "archive"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "archive",
+       "answerKey": "case054.alvaro.end.presented.archive"
+      },
+      {
+       "sourceId": "van",
+       "answerKey": "case054.alvaro.end.presented.van"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case054.alvaro.visit"
+   ],
+   "deflectAnswerKey": "case054.alvaro.deflect",
+   "portrait": {
+    "hairHex": "#3A2A20",
+    "skinHex": "#DCB494",
+    "shirtHex": "#6A7A8A"
+   }
+  },
+  {
+   "id": "van",
+   "kind": "document",
+   "titleKey": "case054.van.title",
+   "bodyKey": "case054.van.body",
+   "requires": [
+    "archive",
+    "workshop"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case054.request.van",
+   "requestDelaySeconds": 6,
+   "warrant": [
+    {
+     "sources": [
+      "archive",
+      "workshop"
+     ]
+    },
+    {
+     "sources": [
+      "workshop",
+      "nuria"
+     ]
+    },
+    {
+     "sources": [
+      "archive",
+      "rocio"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "call",
+   "timeKey": "case054.time.call",
+   "noteKey": "case054.clue.call",
+   "sourceKey": "case054.clue.source.nuria",
+   "requiresRead": [
+    "nuria"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "leave",
+   "timeKey": "case054.time.leave",
+   "noteKey": "case054.clue.leave",
+   "sourceKey": "case054.clue.source.rocio",
+   "requiresRead": [
+    "rocio"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "blow",
+   "timeKey": "case054.time.blow",
+   "noteKey": "case054.clue.blow",
+   "sourceKey": "case054.clue.source.autopsy",
+   "requiresRead": [
+    "autopsy"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "kiln",
+   "timeKey": "case054.time.kiln",
+   "noteKey": "case054.clue.kiln",
+   "sourceKey": "case054.clue.source.workshop",
+   "requiresRead": [
+    "workshop"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "found",
+   "timeKey": "case054.time.found",
+   "noteKey": "case054.clue.found",
+   "sourceKey": "case054.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 480
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "alvaro",
+   "labelKey": "case054.verdict.alvaro",
+   "correct": true,
+   "feedbackKey": "case054.feedback.alvaro",
+   "requires": [],
+   "epilogueKey": "case054.epilogue.verdict.alvaro",
+   "supportingSourceIds": [
+    "van",
+    "archive",
+    "workshop"
+   ]
+  },
+  {
+   "id": "rocio",
+   "labelKey": "case054.verdict.rocio",
+   "correct": false,
+   "feedbackKey": "case054.feedback.rocio",
+   "requires": [],
+   "epilogueKey": "case054.epilogue.verdict.rocio"
+  },
+  {
+   "id": "nuria",
+   "labelKey": "case054.verdict.nuria",
+   "correct": false,
+   "feedbackKey": "case054.feedback.nuria",
+   "requires": [],
+   "epilogueKey": "case054.epilogue.verdict.nuria"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case054.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case054.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case054.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "mould",
+   "labelKey": "case054.method.mould",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "workshop"
+   ]
+  },
+  {
+   "id": "smoke",
+   "labelKey": "case054.method.smoke",
+   "correct": false
+  },
+  {
+   "id": "fall",
+   "labelKey": "case054.method.fall",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "slip",
+   "labelKey": "case054.custody.slip",
+   "correct": true,
+   "epilogueKey": "case054.epilogue.custody.slip",
+   "supportingSourceIds": [
+    "workshop",
+    "rocio"
+   ]
+  },
+  {
+   "id": "kiln",
+   "labelKey": "case054.custody.kiln",
+   "correct": false,
+   "epilogueKey": "case054.epilogue.custody.kiln"
+  },
+  {
+   "id": "van",
+   "labelKey": "case054.custody.van",
+   "correct": false,
+   "epilogueKey": "case054.epilogue.custody.van"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "van",
+   "labelKey": "case054.evidence.van",
+   "correct": true,
+   "supportingSourceIds": [
+    "van"
+   ]
+  },
+  {
+   "id": "archive",
+   "labelKey": "case054.evidence.archive",
+   "correct": false
+  },
+  {
+   "id": "workshop",
+   "labelKey": "case054.evidence.workshop",
+   "correct": false
+  },
+  {
+   "id": "autopsy",
+   "labelKey": "case054.evidence.autopsy",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case054.suspect.label",
+ "methodLabelKey": "case054.method.label",
+ "custodyLabelKey": "case054.custody.label",
+ "summary": {
+  "locationKey": "case054.summary.location",
+  "truthKey": "case054.summary.truth",
+  "evidenceKey": "case054.summary.evidence",
+  "lessonKey": "case054.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case055",
+ "ambienceId": "room_night",
+ "id": "case054"
+}

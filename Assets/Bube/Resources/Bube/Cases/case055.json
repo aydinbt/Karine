@@ -1,0 +1,426 @@
+{
+ "deskHour": 10,
+ "deskDate": "18 Ekim 2030",
+ "titleKey": "case055.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case055.report.title",
+   "bodyKey": "case055.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case055.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case055.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case055.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case055.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case055.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case055.autopsy.title",
+   "bodyKey": "case055.autopsy.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case055.request.autopsy",
+   "requestDelaySeconds": 7
+  },
+  {
+   "id": "chapel",
+   "kind": "document",
+   "titleKey": "case055.chapel.title",
+   "bodyKey": "case055.chapel.body",
+   "requires": [
+    "autopsy"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case055.request.chapel",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "amparo",
+   "kind": "interview",
+   "titleKey": "case055.amparo.title",
+   "bodyKey": "case055.amparo.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "amparo",
+   "personNameKey": "case055.person.amparo.name",
+   "personInfoKey": "case055.person.amparo.info",
+   "questions": [
+    {
+     "id": "case055.amparo.stones",
+     "promptKey": "case055.amparo.stones.question",
+     "answerKey": "case055.amparo.stones.answer",
+     "topicKey": "interview.topic.explanation"
+    }
+   ],
+   "completionQuestionIds": [
+    "case055.amparo.stones"
+   ],
+   "deflectAnswerKey": "case055.amparo.deflect",
+   "portrait": {
+    "hairHex": "#6A4A30",
+    "skinHex": "#E8C6A8",
+    "shirtHex": "#4A2A3A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "paco",
+   "kind": "interview",
+   "titleKey": "case055.paco.title",
+   "bodyKey": "case055.paco.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "paco",
+   "personNameKey": "case055.person.paco.name",
+   "personInfoKey": "case055.person.paco.info",
+   "questions": [
+    {
+     "id": "case055.paco.keys",
+     "promptKey": "case055.paco.keys.question",
+     "answerKey": "case055.paco.keys.answer",
+     "topicKey": "interview.topic.observations"
+    },
+    {
+     "id": "case055.paco.1987",
+     "promptKey": "case055.paco.1987.question",
+     "answerKey": "case055.paco.1987.answer",
+     "topicKey": "interview.topic.records",
+     "requiresAsked": [
+      "case055.paco.keys"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case055.paco.keys",
+    "case055.paco.1987"
+   ],
+   "deflectAnswerKey": "case055.paco.deflect",
+   "portrait": {
+    "hairHex": "#2A2018",
+    "skinHex": "#C89670",
+    "shirtHex": "#F2F2F2"
+   }
+  },
+  {
+   "id": "archive",
+   "kind": "document",
+   "titleKey": "case055.archive.title",
+   "bodyKey": "case055.archive.body",
+   "requires": [
+    "amparo"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case055.request.archive",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "amparo",
+      "paco"
+     ]
+    },
+    {
+     "sources": [
+      "amparo",
+      "chapel"
+     ]
+    },
+    {
+     "sources": [
+      "paco",
+      "chapel"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "archive",
+   "reopenYear": "1987",
+   "reopenNoteKey": "case055.archive.reopen"
+  },
+  {
+   "id": "ignacio",
+   "kind": "interview",
+   "titleKey": "case055.ignacio.title",
+   "bodyKey": "case055.ignacio.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "ignacio",
+   "personNameKey": "case055.person.ignacio.name",
+   "personInfoKey": "case055.person.ignacio.info",
+   "questions": [
+    {
+     "id": "case055.ignacio.night",
+     "promptKey": "case055.ignacio.night.question",
+     "answerKey": "case055.ignacio.night.answer",
+     "topicKey": "interview.topic.day",
+     "answerVariants": [
+      {
+       "answerKey": "case055.ignacio.night.variant0",
+       "requiresRead": [
+        "chapel"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case055.ignacio.end",
+     "promptKey": "case055.ignacio.end.question",
+     "answerKey": "case055.ignacio.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "house",
+      "archive"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "archive",
+       "answerKey": "case055.ignacio.end.presented.archive"
+      },
+      {
+       "sourceId": "house",
+       "answerKey": "case055.ignacio.end.presented.house"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case055.ignacio.night"
+   ],
+   "deflectAnswerKey": "case055.ignacio.deflect",
+   "portrait": {
+    "hairHex": "#E2DED8",
+    "skinHex": "#E2BEA0",
+    "shirtHex": "#1A1A2A"
+   }
+  },
+  {
+   "id": "house",
+   "kind": "document",
+   "titleKey": "case055.house.title",
+   "bodyKey": "case055.house.body",
+   "requires": [
+    "archive",
+    "chapel"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case055.request.house",
+   "requestDelaySeconds": 6,
+   "warrant": [
+    {
+     "sources": [
+      "archive",
+      "chapel"
+     ]
+    },
+    {
+     "sources": [
+      "chapel",
+      "paco"
+     ]
+    },
+    {
+     "sources": [
+      "archive",
+      "paco"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "lock",
+   "timeKey": "case055.time.lock",
+   "noteKey": "case055.clue.lock",
+   "sourceKey": "case055.clue.source.paco",
+   "requiresRead": [
+    "paco"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "blow",
+   "timeKey": "case055.time.blow",
+   "noteKey": "case055.clue.blow",
+   "sourceKey": "case055.clue.source.autopsy",
+   "requiresRead": [
+    "autopsy"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "polish",
+   "timeKey": "case055.time.polish",
+   "noteKey": "case055.clue.polish",
+   "sourceKey": "case055.clue.source.chapel",
+   "requiresRead": [
+    "chapel"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "found",
+   "timeKey": "case055.time.found",
+   "noteKey": "case055.clue.found",
+   "sourceKey": "case055.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 360
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "ignacio",
+   "labelKey": "case055.verdict.ignacio",
+   "correct": true,
+   "feedbackKey": "case055.feedback.ignacio",
+   "requires": [],
+   "epilogueKey": "case055.epilogue.verdict.ignacio",
+   "supportingSourceIds": [
+    "house",
+    "archive",
+    "paco"
+   ]
+  },
+  {
+   "id": "paco",
+   "labelKey": "case055.verdict.paco",
+   "correct": false,
+   "feedbackKey": "case055.feedback.paco",
+   "requires": [],
+   "epilogueKey": "case055.epilogue.verdict.paco"
+  },
+  {
+   "id": "amparo",
+   "labelKey": "case055.verdict.amparo",
+   "correct": false,
+   "feedbackKey": "case055.feedback.amparo",
+   "requires": [],
+   "epilogueKey": "case055.epilogue.verdict.amparo"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case055.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case055.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case055.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "candle",
+   "labelKey": "case055.method.candle",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "chapel"
+   ]
+  },
+  {
+   "id": "fall",
+   "labelKey": "case055.method.fall",
+   "correct": false
+  },
+  {
+   "id": "heart",
+   "labelKey": "case055.method.heart",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "altar",
+   "labelKey": "case055.custody.altar",
+   "correct": true,
+   "epilogueKey": "case055.epilogue.custody.altar",
+   "supportingSourceIds": [
+    "chapel",
+    "house"
+   ]
+  },
+  {
+   "id": "river",
+   "labelKey": "case055.custody.river",
+   "correct": false,
+   "epilogueKey": "case055.epilogue.custody.river"
+  },
+  {
+   "id": "crypt",
+   "labelKey": "case055.custody.crypt",
+   "correct": false,
+   "epilogueKey": "case055.epilogue.custody.crypt"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "house",
+   "labelKey": "case055.evidence.house",
+   "correct": true,
+   "supportingSourceIds": [
+    "house"
+   ]
+  },
+  {
+   "id": "archive",
+   "labelKey": "case055.evidence.archive",
+   "correct": false
+  },
+  {
+   "id": "chapel",
+   "labelKey": "case055.evidence.chapel",
+   "correct": false
+  },
+  {
+   "id": "autopsy",
+   "labelKey": "case055.evidence.autopsy",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case055.suspect.label",
+ "methodLabelKey": "case055.method.label",
+ "custodyLabelKey": "case055.custody.label",
+ "summary": {
+  "locationKey": "case055.summary.location",
+  "truthKey": "case055.summary.truth",
+  "evidenceKey": "case055.summary.evidence",
+  "lessonKey": "case055.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case056",
+ "ambienceId": "room_night",
+ "id": "case055"
+}

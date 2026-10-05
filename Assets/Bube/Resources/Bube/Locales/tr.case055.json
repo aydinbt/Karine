@@ -1,0 +1,408 @@
+{
+ "entries": [
+  {
+   "key": "case055.amparo.body",
+   "value": "Kuyumcu."
+  },
+  {
+   "key": "case055.amparo.deflect",
+   "value": "Ben taşa bakarım, insana değil."
+  },
+  {
+   "key": "case055.amparo.stones.answer",
+   "value": "On iki taştan on biri cam; iyi cam, 1980’lerin işi. Tek gerçek zümrüt, en küçüğü. Saymana pazartesi söyledim. ‘1987’de çalınan taşlar geri gelmedi demek’ dedi. Kâğıda yazdı, cebine koydu."
+  },
+  {
+   "key": "case055.amparo.stones.answer.demeanor",
+   "value": "Büyütecini zincirinde parmaklarıyla tutuyor."
+  },
+  {
+   "key": "case055.amparo.stones.question",
+   "value": "Değerleme ne gösterdi?"
+  },
+  {
+   "key": "case055.amparo.title",
+   "value": "Amparo Soto — görüşme"
+  },
+  {
+   "key": "case055.archive.body",
+   "value": "Arşivden yeniden açılan dosya (Mart 1987, ‘faili meçhul, eşya bulundu’ olarak kapanmış):\n\n· Meryem Ana heykelinin tacındaki on iki zümrüt şapelden çalındı. O yıl kardeşliğin saymanı: Ignacio Lara.\n· Bir ay sonra Ignacio Lara taşları ‘isimsiz bir aracı’dan geri satın aldığını bildirdi; bedel 38 milyon peseta, Fundación Santa Ana’nın bağışıyla ödendi.\n· Taşlar değerlenmeden yerine takıldı; tutanakta ‘kardeşlik başkanının talebiyle’.\n· Vakfın 1987 bağış kararında danışman imzası: ‘Dr. E. Varga’."
+  },
+  {
+   "key": "case055.archive.reopen",
+   "value": "‘Mucize’ diye kapanan 1987 dosyası yeniden açıldı."
+  },
+  {
+   "key": "case055.archive.title",
+   "value": "1987 DOSYASI — TACIN ZÜMRÜTLERİ"
+  },
+  {
+   "key": "case055.autopsy.body",
+   "value": "· Ölüm nedeni: başın üst kısmına, tepeden, ağır ve köşeli bir cisimle iki darbe. Yaralarda gümüş parlatma pastası.\n· Düşmeyle uyumlu kırık yok; kalça, bilek ve omuzlar sağlam.\n· Ölüm zamanı: 21.00–22.30."
+  },
+  {
+   "key": "case055.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case055.chapel.body",
+   "value": "· İskelenin frenleri kilitli, korkuluğu yerinde; üst platformda ayak izi yok, toz bozulmamış.\n· Sunaktaki altı gümüş şamdandan biri yeni parlatılmış, diğerleri tozlu. Luminol: tabanın oyuklarında kan.\n· Kurbanın cebinde bir kâğıt: ‘12 taştan 11’i cam. 1987.’"
+  },
+  {
+   "key": "case055.chapel.title",
+   "value": "ŞAPEL İNCELEMESİ"
+  },
+  {
+   "key": "case055.clue.blow",
+   "value": "Sayman başına tepeden iki darbe alıyor."
+  },
+  {
+   "key": "case055.clue.found",
+   "value": "Capataz saymanı buluyor."
+  },
+  {
+   "key": "case055.clue.lock",
+   "value": "Capataz çıkıyor; başkan şapele giriyor."
+  },
+  {
+   "key": "case055.clue.polish",
+   "value": "Bir şamdan parlatılıp sunağa geri konuyor."
+  },
+  {
+   "key": "case055.clue.source.autopsy",
+   "value": "Otopsi"
+  },
+  {
+   "key": "case055.clue.source.chapel",
+   "value": "Şapel incelemesi"
+  },
+  {
+   "key": "case055.clue.source.paco",
+   "value": "Paco Romero"
+  },
+  {
+   "key": "case055.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case055.custody.altar",
+   "value": "Parlatılıp sunağa geri kondu"
+  },
+  {
+   "key": "case055.custody.crypt",
+   "value": "Mahzene saklandı"
+  },
+  {
+   "key": "case055.custody.label",
+   "value": "Cinayet silahı nereye gitti?"
+  },
+  {
+   "key": "case055.custody.river",
+   "value": "Nehre atıldı"
+  },
+  {
+   "key": "case055.epilogue.custody.altar",
+   "value": "Şamdanın parlatılıp sunaktaki yerine konduğu yazıldı."
+  },
+  {
+   "key": "case055.epilogue.custody.crypt",
+   "value": "Şamdan saklanmamış, ortadaydı."
+  },
+  {
+   "key": "case055.epilogue.custody.river",
+   "value": "Şamdan şapelden çıkmadı."
+  },
+  {
+   "key": "case055.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; Ignacio Lara cenazede konuştu."
+  },
+  {
+   "key": "case055.epilogue.verdict.amparo",
+   "value": "Amparo Soto gözaltına alındı; değerleme raporu kayboldu."
+  },
+  {
+   "key": "case055.epilogue.verdict.ignacio",
+   "value": "Ignacio Lara tutuklandı; 1987 dosyası ‘hırsızlık ve sahtecilik’ olarak yeniden açıldı. Fundación Santa Ana’nın 1987 kararı ve ‘Dr. E. Varga’ imzası Triana şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case055.epilogue.verdict.paco",
+   "value": "Paco Romero tutuklandı; kardeşlik Kutsal Hafta’da tacı camlarıyla taşıdı."
+  },
+  {
+   "key": "case055.evidence.archive",
+   "value": "1987 dosyası"
+  },
+  {
+   "key": "case055.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case055.evidence.chapel",
+   "value": "Şapel incelemesi"
+  },
+  {
+   "key": "case055.evidence.house",
+   "value": "Ev araması"
+  },
+  {
+   "key": "case055.feedback.accident",
+   "value": "İskelenin üstünde ayak izi yok; düşmeyle uyumlu bir kırık yok ve yaralar tepeden."
+  },
+  {
+   "key": "case055.feedback.amparo",
+   "value": "Kuyumcu camları buldu ve saymana söyledi; o akşam şapelde değildi."
+  },
+  {
+   "key": "case055.feedback.ignacio",
+   "value": "Capataz onu şapelde saymanla yalnız bıraktı; evinde kurbanın kanını taşıyan bir parlatma bezi var. 1987 dosyası, taşların çalındığı yıl saymanın kendisi olduğunu ve ‘mucize’yi kendisinin yürüttüğünü gösteriyor."
+  },
+  {
+   "key": "case055.feedback.paco",
+   "value": "Capataz dokuzda kapıyı kilitleyip çıktı; içeride sayman ve başkan kaldı."
+  },
+  {
+   "key": "case055.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case055.file.value.bureau",
+   "value": "BDS Sevilla — Triana Şubesi"
+  },
+  {
+   "key": "case055.file.value.location",
+   "value": "Triana, Sevilla — kardeşlik şapeli"
+  },
+  {
+   "key": "case055.file.value.number",
+   "value": "BDS-SVQ-2030-0111"
+  },
+  {
+   "key": "case055.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case055.file.value.reporter",
+   "value": "Capataz"
+  },
+  {
+   "key": "case055.house.body",
+   "value": "Ignacio Lara’nın evi (şube şefinin onayıyla):\n\n· Çalışma odasında gümüş parlatma pastası ve kanlı bir bez; kan kurbanın.\n· Kasada 1987 tarihli bir mektup, İspanyolca, imzasız, daktiloyla: ‘Taşlar Zürih’te. Karşılığı başkanlık. Camlar cuma gelir.’\n· Fundación Santa Ana’dan 1987’den bu yana her Kutsal Hafta’da Ignacio Lara’ya ‘onursal danışmanlık’ ödemesi."
+  },
+  {
+   "key": "case055.house.title",
+   "value": "IGNACIO LARA’NIN EVİ — ARAMA"
+  },
+  {
+   "key": "case055.ignacio.body",
+   "value": "Kardeşliğin başkanı."
+  },
+  {
+   "key": "case055.ignacio.deflect",
+   "value": "Kardeşliğin işleri kardeşliğin içinde kalır."
+  },
+  {
+   "key": "case055.ignacio.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case055.ignacio.end.presented.archive",
+   "value": "1987’de taşları kurtardım. Kardeşlik bana minnettardı."
+  },
+  {
+   "key": "case055.ignacio.end.presented.house",
+   "value": "Taşları ben aldım, 1987’de; borcum vardı. Vakıftan bir hanım geldi, ‘biz geri alırız, siz başkan olursunuz’ dedi. Camları taktık. Fernando ‘Kutsal Hafta’dan önce kardeşlere anlatacağım’ dedi. Şamdanı aldım. Sonra parlattım, yerine koydum. Meryem Ana gördü; başka kimse görmesin istedim."
+  },
+  {
+   "key": "case055.ignacio.end.question",
+   "value": "Fernando’yu şamdanla siz vurdunuz."
+  },
+  {
+   "key": "case055.ignacio.night.answer",
+   "value": "Kısa bir süre. Fernando’ya Kutsal Hafta bütçesini sordum, iskeledeydi. Dokuz buçukta çıktım. Yaşlıydı, iskele dar; düşmüş."
+  },
+  {
+   "key": "case055.ignacio.night.answer.demeanor",
+   "value": "Göğsündeki madalyayı düzeltiyor."
+  },
+  {
+   "key": "case055.ignacio.night.question",
+   "value": "Dün akşam şapelde miydiniz?"
+  },
+  {
+   "key": "case055.ignacio.night.variant0",
+   "value": "Şamdanları ben parlatırım, her hafta. Bir tanesini parlatmışım, ne var bunda?"
+  },
+  {
+   "key": "case055.ignacio.title",
+   "value": "Ignacio Lara — görüşme"
+  },
+  {
+   "key": "case055.method.candle",
+   "value": "Gümüş şamdanla başına vuruldu"
+  },
+  {
+   "key": "case055.method.fall",
+   "value": "İskeleden düştü"
+  },
+  {
+   "key": "case055.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case055.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case055.offer.subtitle",
+   "value": "HERMANDAD  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case055.offer.summary",
+   "value": "Triana’da bir kardeşlik şapelinde sayman, geçit platformunun dibinde ölü. Tacın zümrütleri değerlemedeydi."
+  },
+  {
+   "key": "case055.offer.title",
+   "value": "DOSYA #055"
+  },
+  {
+   "key": "case055.paco.1987.answer",
+   "value": "Ben o zaman çocuktum ama herkes bilir. Taç çalındı, bir ay sonra Ignacio Bey ‘bağışçıların yardımıyla geri bulduk’ dedi, mucize dendi. Fernando bu hafta bana ‘Paco, o mucizeyi bir gün anlatırım’ dedi."
+  },
+  {
+   "key": "case055.paco.1987.question",
+   "value": "1987’de ne olmuştu?"
+  },
+  {
+   "key": "case055.paco.body",
+   "value": "Capataz."
+  },
+  {
+   "key": "case055.paco.deflect",
+   "value": "Ben omuz veririm, soru sormam."
+  },
+  {
+   "key": "case055.paco.keys.answer",
+   "value": "Bende, saymanda, başkanda. Dün akşam dokuzda kapıyı kilitledim, içeride sayman vardı, gölgeliği temizliyordu. Kapıdan çıkarken başkan geldi, ‘ben Fernando’yla konuşacağım’ dedi. Ben gittim."
+  },
+  {
+   "key": "case055.paco.keys.answer.demeanor",
+   "value": "Boynundaki yastığı düzeltiyor."
+  },
+  {
+   "key": "case055.paco.keys.question",
+   "value": "Şapelin anahtarı kimlerde?"
+  },
+  {
+   "key": "case055.paco.title",
+   "value": "Paco Romero — görüşme"
+  },
+  {
+   "key": "case055.person.amparo.info",
+   "value": "56 yaşında, kuyumcu; kardeşliğin mücevherlerini değerleyen bilirkişi."
+  },
+  {
+   "key": "case055.person.amparo.name",
+   "value": "Amparo Soto"
+  },
+  {
+   "key": "case055.person.ignacio.info",
+   "value": "67 yaşında, kardeşliğin başkanı (hermano mayor)."
+  },
+  {
+   "key": "case055.person.ignacio.name",
+   "value": "Ignacio Lara"
+  },
+  {
+   "key": "case055.person.paco.info",
+   "value": "48 yaşında, geçit platformunu taşıyan ekibin şefi (capataz)."
+  },
+  {
+   "key": "case055.person.paco.name",
+   "value": "Paco Romero"
+  },
+  {
+   "key": "case055.report.body",
+   "value": "18 Ekim 2030 sabahı Triana’daki bir kardeşlik şapelinde kardeşliğin saymanı Fernando Ibáñez (59), geçit platformunun dibinde ölü bulundu. Yanında tekerlekli temizlik iskelesi.\n\nCesedi capataz Paco Romero 07.30’da, şapeli açınca buldu. Kardeşliğin başkanı Ignacio Lara ‘iskeleden düştü’ dedi. Tacın zümrütleri o hafta kuyumcu Amparo Soto’da değerlemedeydi."
+  },
+  {
+   "key": "case055.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case055.request.archive",
+   "value": "1987 zümrüt dosyasını arşivden açmak için izin iste"
+  },
+  {
+   "key": "case055.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case055.request.chapel",
+   "value": "Şapelin olay yeri incelemesini iste"
+  },
+  {
+   "key": "case055.request.house",
+   "value": "Ignacio Lara’nın evini aramak için izin iste"
+  },
+  {
+   "key": "case055.summary.evidence",
+   "value": "Kuyumcu camları, capataz o akşam kimin içeride kaldığını ve 1987 ‘mucize’sini anlattı; bunlar arşivi açtırdı. Şapel incelemesi iskelenin dokunulmamış olduğunu ve tek parlak şamdanı buldu. Ev araması bezi ve 1987 mektubunu verdi."
+  },
+  {
+   "key": "case055.summary.lesson",
+   "value": "Bir şamdanı saklamanın en iyi yeri, sunaktır."
+  },
+  {
+   "key": "case055.summary.location",
+   "value": "Triana — Ekim 2030"
+  },
+  {
+   "key": "case055.summary.truth",
+   "value": "1987’de kardeşliğin saymanı Ignacio Lara borcunu kapatmak için tacın zümrütlerini sattı; bir ay sonra Fundación Santa Ana’nın parasıyla ‘geri bulunan’ taşlar camdı ve Ignacio başkan oldu. Bugünkü sayman Fernando Ibáñez değerlemede camları öğrenince kardeşlere anlatmaya karar verdi. Ignacio onu şapelde gümüş şamdanla vurdu, şamdanı parlatıp sunağa geri koydu."
+  },
+  {
+   "key": "case055.suspect.label",
+   "value": "Fernando Ibáñez’i kim öldürdü?"
+  },
+  {
+   "key": "case055.tablet.caseLine",
+   "value": "DOSYA #055  /  BUBE SEVİLLA — TRİANA"
+  },
+  {
+   "key": "case055.time.blow",
+   "value": "21.15"
+  },
+  {
+   "key": "case055.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case055.time.lock",
+   "value": "21.00"
+  },
+  {
+   "key": "case055.time.polish",
+   "value": ""
+  },
+  {
+   "key": "case055.title",
+   "value": "Dosya #055 — Hermandad"
+  },
+  {
+   "key": "case055.verdict.accident",
+   "value": "Kimse — iskeleden düştü"
+  },
+  {
+   "key": "case055.verdict.amparo",
+   "value": "Amparo Soto"
+  },
+  {
+   "key": "case055.verdict.ignacio",
+   "value": "Ignacio Lara"
+  },
+  {
+   "key": "case055.verdict.paco",
+   "value": "Paco Romero"
+  }
+ ]
+}
