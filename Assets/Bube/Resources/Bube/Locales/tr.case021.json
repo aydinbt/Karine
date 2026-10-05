@@ -1,0 +1,600 @@
+{
+ "entries": [
+  {
+   "key": "case021.anja.betting.answer",
+   "value": "Lukas geçen hafta yanıma geldi. ‘Moritz yarış satıyormuş, bahisçilere. Doping de değilmiş asıl mesele. Federasyona söyleyeceğim,’ dedi. Ona önce kardeşinle konuş dedim. Keşke demeseydim."
+  },
+  {
+   "key": "case021.anja.betting.answer.demeanor",
+   "value": "Sesi kısıldı."
+  },
+  {
+   "key": "case021.anja.betting.question",
+   "value": "Son günlerde bir sorun var mıydı?"
+  },
+  {
+   "key": "case021.anja.body",
+   "value": "Baş antrenör."
+  },
+  {
+   "key": "case021.anja.deflect",
+   "value": "Bunu federasyona sorun."
+  },
+  {
+   "key": "case021.anja.night.answer",
+   "value": "Moritz, yasaktan beri. Ama seçmeden önceki hafta Lukas da gece çıkıyordu, sessiz suda çalışmak için. Ben söyledim ona."
+  },
+  {
+   "key": "case021.anja.night.question",
+   "value": "Gece kim kürek çekerdi?"
+  },
+  {
+   "key": "case021.anja.title",
+   "value": "Anja Richter — görüşme"
+  },
+  {
+   "key": "case021.anja.twins.answer",
+   "value": "Kürekten. Lukas’ın çekişi daha kısa, 2027’deki sol omuz ameliyatından beri. Bir sezon kaçırdı, sonra kardeşinden daha iyi döndü. Moritz bunu hiç kabullenmedi."
+  },
+  {
+   "key": "case021.anja.twins.question",
+   "value": "İkizleri nasıl ayırırdınız?"
+  },
+  {
+   "key": "case021.autopsy.body",
+   "value": "· Ölüm sebebi: boğulma; suya girdiğinde yaşıyordu ama bilinçsiz olabilir.\n· Sağ şakakta suya girmeden önce oluşmuş, geniş ve düz bir darbe; kürek palasıyla uyumlu.\n· Sol omuzda eski bir ameliyat izi; röntgende iki titanyum vida.\n· Ceketin fermuarı ters takılmış, iç astarı dışarı dönük bir cepte.\n· Kimlik: olay yerinde ikiz kardeşin görsel tanıması. Tek yumurta ikizlerinde DNA ayırt etmez."
+  },
+  {
+   "key": "case021.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case021.betting.body",
+   "value": "Kurmaca bir bahis bütünlüğü kuruluşu.\n\n· Yedi yarışta, Moritz Berger’in teknesinin kaybetmesine olağandışı yüksek bahisler.\n· Moritz Berger adına bir hesaba, Arendt Handelsgesellschaft üzerinden “sponsorluk” adıyla toplam €64.000.\n· Hesap, men kararından sonra da kullanılmaya devam etmiş."
+  },
+  {
+   "key": "case021.betting.title",
+   "value": "BAHİS İZLEME RAPORU — DAHME REGATTALARI 2027–2028"
+  },
+  {
+   "key": "case021.cctv.event.launch",
+   "value": "Kamera: Koyu ceketli bir kürekçi tek kişilik tekneyi kızaktan suya indiriyor; yalnız."
+  },
+  {
+   "key": "case021.cctv.event.leave",
+   "value": "Kamera: Bir adam iskele yönünden kulüp kapısına yürüyor, koyu bir ceketi giyerken; arkasından su damlıyor."
+  },
+  {
+   "key": "case021.cctv.event.wait",
+   "value": "Kamera: İkinci bir adam, aynı boyda, kızağın kenarından iskeleye doğru geçiyor; elinde bir kürek."
+  },
+  {
+   "key": "case021.cctv.overlay",
+   "value": "SLIP"
+  },
+  {
+   "key": "case021.cctv.period",
+   "value": "21 Eylül 2029, 21.30 – 22.40"
+  },
+  {
+   "key": "case021.cctv.source",
+   "value": "Kızak kamerası"
+  },
+  {
+   "key": "case021.clue.bets",
+   "value": "Moritz Berger’in yarışlarına olağandışı bahisler; Arendt üzerinden ödeme."
+  },
+  {
+   "key": "case021.clue.fight",
+   "value": "İskelenin ucunda iki adam; biri uzun bir şey kaldırıyor."
+  },
+  {
+   "key": "case021.clue.launch",
+   "value": "Bir kürekçi kızaktan yalnız suya iniyor."
+  },
+  {
+   "key": "case021.clue.leave",
+   "value": "Bir adam iskeleden kulüp kapısına yürüyor, ıslak, ceketini giyerek."
+  },
+  {
+   "key": "case021.clue.source.betting",
+   "value": "Bahis raporu"
+  },
+  {
+   "key": "case021.clue.source.medical",
+   "value": "Ortopedi kaydı"
+  },
+  {
+   "key": "case021.clue.source.rolf",
+   "value": "Karşı kıyıdaki balıkçı"
+  },
+  {
+   "key": "case021.clue.surgery",
+   "value": "Lukas Berger’in sol omzuna iki vida takılıyor."
+  },
+  {
+   "key": "case021.clue.wait",
+   "value": "Aynı boyda ikinci bir adam elinde kürekle iskeleye geçiyor."
+  },
+  {
+   "key": "case021.custody.both",
+   "value": "İkisi ayırt edilemez"
+  },
+  {
+   "key": "case021.custody.label",
+   "value": "Ölen ikiz hangisiydi?"
+  },
+  {
+   "key": "case021.custody.lukas",
+   "value": "Lukas Berger — omzunda vidalar olan kardeş"
+  },
+  {
+   "key": "case021.custody.moritz",
+   "value": "Moritz Berger — men edilen kardeş"
+  },
+  {
+   "key": "case021.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case021.epilogue.custody.both",
+   "value": "Tek yumurta ikizleri ayırt edilemez denildi; dava kimlik belirsizliği yüzünden düştü."
+  },
+  {
+   "key": "case021.epilogue.custody.lukas",
+   "value": "Nüfus kaydı düzeltildi: ölen Lukas Berger, yaşayan Moritz Berger. Annesi oğullarını ilk kez ayrı ayrı yasladı."
+  },
+  {
+   "key": "case021.epilogue.custody.moritz",
+   "value": "Kimlik tespiti olduğu gibi kaldı; yaşayan ikiz kardeşinin adıyla yaşamaya devam etti."
+  },
+  {
+   "key": "case021.epilogue.custody.unknown",
+   "value": "Kimlik sorusu açık kaldı; savunma bunu ilk günden kullandı."
+  },
+  {
+   "key": "case021.epilogue.verdict.anja",
+   "value": "Anja Richter görevden alındı. Moritz Berger Ekim’de “Lukas” olarak milli takım teknesine oturdu."
+  },
+  {
+   "key": "case021.epilogue.verdict.holger",
+   "value": "Holger Mertens’in ifadesi yalan sayıldı, yaşlı adam kulüpten ayrıldı. Dosya kaza olarak kapandı."
+  },
+  {
+   "key": "case021.epilogue.verdict.nobody",
+   "value": "Ölüm kaza olarak kapandı. “Moritz Berger” toprağa verildi; kardeşi milli takımda kürek çekti."
+  },
+  {
+   "key": "case021.epilogue.verdict.survivor",
+   "value": "Moritz Berger cinayetten tutuklandı. Lukas Berger kendi adıyla gömüldü; Ekim’deki milli takım teknesinde bir koltuk boş bırakıldı."
+  },
+  {
+   "key": "case021.evidence.betting",
+   "value": "Bahis izleme raporu"
+  },
+  {
+   "key": "case021.evidence.medical",
+   "value": "Ortopedi kaydı"
+  },
+  {
+   "key": "case021.evidence.prints",
+   "value": "Parmak izi karşılaştırması"
+  },
+  {
+   "key": "case021.evidence.xray",
+   "value": "Omuz röntgeni"
+  },
+  {
+   "key": "case021.feedback.anja",
+   "value": "Antrenör Lukas’a kardeşiyle konuşmasını söyledi; o gece kulüpte değildi ve vida kaydına götüren oydu."
+  },
+  {
+   "key": "case021.feedback.holger",
+   "value": "Holger yalnız kızaktan inen kürekçiyi gördü ve onun kim olduğunu tahmin etti; iskeleyi penceresinden göremezdi."
+  },
+  {
+   "key": "case021.feedback.nobody",
+   "value": "Şakaktaki darbe suya girmeden önce oluştu; iskelede kan ve kürek izi var, balıkçı iki adam gördü."
+  },
+  {
+   "key": "case021.feedback.survivor",
+   "value": "Parmak izleri Moritz’in, omzunda vida yok; iskelede kardeşini kürekle vurdu, ceketleri değiştirdi ve sabah onu kendi adıyla tanıdı."
+  },
+  {
+   "key": "case021.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case021.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Şubesi"
+  },
+  {
+   "key": "case021.file.value.location",
+   "value": "Köpenick, Dahme Kürek Kulübü — iskele"
+  },
+  {
+   "key": "case021.file.value.number",
+   "value": "BDS-BER-2029-0071"
+  },
+  {
+   "key": "case021.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case021.file.value.reporter",
+   "value": "Kulüp görevlisi"
+  },
+  {
+   "key": "case021.holger.body",
+   "value": "Tekne bakımcısı."
+  },
+  {
+   "key": "case021.holger.deflect",
+   "value": "Ben teknelere bakarım, insanlara değil."
+  },
+  {
+   "key": "case021.holger.saw.answer",
+   "value": "22.00’ye doğru penceremden baktım: Moritz tek kişilik tekneyi kızaktan indirdi, yalnızdı. Hep gece çıkardı, yasaktan beri. Sonra yattım."
+  },
+  {
+   "key": "case021.holger.saw.answer.demeanor",
+   "value": "Emin."
+  },
+  {
+   "key": "case021.holger.saw.question",
+   "value": "Dün gece ne gördünüz?"
+  },
+  {
+   "key": "case021.holger.title",
+   "value": "Holger Mertens — görüşme"
+  },
+  {
+   "key": "case021.holger.which.answer",
+   "value": "Gece kürek çeken o. Lukas sabah çocuğudur. Yüzünü görmedim, o mesafeden ikisini kimse ayıramaz. Ama gece… Moritz’tir."
+  },
+  {
+   "key": "case021.holger.which.question",
+   "value": "Moritz olduğunu nereden bildiniz?"
+  },
+  {
+   "key": "case021.lukas.body",
+   "value": "Hayatta kalan ikiz."
+  },
+  {
+   "key": "case021.lukas.brother.answer",
+   "value": "İkiz olmak… her şeyi paylaşırsın, sonra biri her şeyi alır. Ben seçildim, o men edildi. Ama kardeşimdi."
+  },
+  {
+   "key": "case021.lukas.brother.question",
+   "value": "Kardeşinizle aranız nasıldı?"
+  },
+  {
+   "key": "case021.lukas.deflect",
+   "value": "Kardeşimi daha yeni kaybettim. Lütfen."
+  },
+  {
+   "key": "case021.lukas.night.answer",
+   "value": "Evde, Adlershof’ta. Ekim’de milli takım seçmesi var, erken yattım. Moritz gece çıkardı, yasağından beri kimse onu görmesin diye."
+  },
+  {
+   "key": "case021.lukas.night.answer.demeanor",
+   "value": "Gözleri kızarık, sesi düz."
+  },
+  {
+   "key": "case021.lukas.night.question",
+   "value": "Dün gece neredeydiniz?"
+  },
+  {
+   "key": "case021.lukas.quote",
+   "value": "“Sonra biri her şeyi alır.”"
+  },
+  {
+   "key": "case021.lukas.title",
+   "value": "Lukas Berger — görüşme"
+  },
+  {
+   "key": "case021.lukas_2.body",
+   "value": "Ortopedi kaydı ve röntgen üzerine."
+  },
+  {
+   "key": "case021.lukas_2.jacket.answer",
+   "value": "Moritz’in ceketi. Kendi ceketi. Ben ne bileyim."
+  },
+  {
+   "key": "case021.lukas_2.jacket.question",
+   "value": "Cesedin ceketi ters giydirilmiş."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer",
+   "value": "…Moritz da ameliyat olmuştu. Başka bir hastanede. Kayıtlar karışmıştır."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer.demeanor",
+   "value": "İlk kez gözlerini kaçırdı."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.question",
+   "value": "Lukas Berger’in sol omzunda iki vida var. Sudan çıkan cesedin omzunda o iki vida var. Sizin omzunuzda yok."
+  },
+  {
+   "key": "case021.lukas_2.title",
+   "value": "Kendini Lukas Berger olarak tanıtan kişi — ikinci görüşme"
+  },
+  {
+   "key": "case021.lukas_3.body",
+   "value": "Parmak izi karşılaştırması üzerine."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer",
+   "value": "Dönüşte iskelede bekledim. ‘Söyleme,’ dedim. ‘Söyleyeceğim,’ dedi. Kürek elimdeydi. Düştü, kıpırdamadı. Ceketleri değiştirdim, onu suya bıraktım, tekneyi ters çevirdim. Sabah kendi cesedimi tanıdım."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer.demeanor",
+   "value": "Ellerine baktı."
+  },
+  {
+   "key": "case021.lukas_3.jetty.question",
+   "value": "İskelede ne oldu?"
+  },
+  {
+   "key": "case021.lukas_3.name.answer",
+   "value": "…Ekim’de o teknede ben oturacaktım. Onun adıyla. Kimse fark etmezdi; annem bile bizi sesimizden ayırır. Lukas federasyona gidecekti, ben hapse."
+  },
+  {
+   "key": "case021.lukas_3.name.answer.demeanor",
+   "value": "Uzun bir sessizlik, sonra düz bir ses."
+  },
+  {
+   "key": "case021.lukas_3.name.question",
+   "value": "Parmak izleriniz Moritz Berger’in. Ölen Lukas."
+  },
+  {
+   "key": "case021.lukas_3.title",
+   "value": "Moritz Berger — üçüncü görüşme"
+  },
+  {
+   "key": "case021.medical.body",
+   "value": "Kurmaca bir spor hastanesi, Berlin. Hasta: Lukas Berger, d. 2002.\n\n· Mart 2027 · sol omuz, labrum onarımı; iki titanyum vida yerleştirildi.\n· Kontrol, Eylül 2028: vidalar yerinde, çıkarılması planlanmıyor.\n\nKardeşi Moritz Berger için aynı hastanede kayıt yok."
+  },
+  {
+   "key": "case021.medical.title",
+   "value": "ORTOPEDİ KAYDI — LUKAS BERGER"
+  },
+  {
+   "key": "case021.method.capsized",
+   "value": "Tekne devrildi, boğuldu"
+  },
+  {
+   "key": "case021.method.drunk",
+   "value": "Sarhoş suya düştü"
+  },
+  {
+   "key": "case021.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case021.method.oar",
+   "value": "İskelede kürekle başına vuruldu, suya bırakıldı; tekne ters çevrildi"
+  },
+  {
+   "key": "case021.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case021.offer.subtitle",
+   "value": "KÜREK  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case021.offer.summary",
+   "value": "Dopingden men edilmiş bir kürekçi, Köpenick’te kulübünün iskelesi yakınında suda ölü bulunuyor. Cesedi tek yumurta ikizi tanıyor. Bakımcı onu yalnız suya inerken görmüş."
+  },
+  {
+   "key": "case021.offer.title",
+   "value": "DOSYA #021"
+  },
+  {
+   "key": "case021.person.anja.info",
+   "value": "49 yaşında, Dahme Kürek Kulübü’nün baş antrenörü. İkizleri on iki yaşından beri çalıştırıyor."
+  },
+  {
+   "key": "case021.person.anja.name",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.person.holger.info",
+   "value": "66 yaşında, kulübün tekne bakımcısı; kulüp binasının üst katında oturuyor."
+  },
+  {
+   "key": "case021.person.holger.name",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.person.lukas.info",
+   "value": "27 yaşında, kürekçi. Ölen Moritz Berger’in tek yumurta ikizi; cesedi olay yerinde o tanıdı."
+  },
+  {
+   "key": "case021.person.lukas.name",
+   "value": "Lukas Berger"
+  },
+  {
+   "key": "case021.person.rolf.info",
+   "value": "58 yaşında, otobüs şoförü. Geceleri Dahme’nin karşı kıyısında olta atıyor."
+  },
+  {
+   "key": "case021.person.rolf.name",
+   "value": "Rolf Kaiser"
+  },
+  {
+   "key": "case021.plan.body",
+   "value": "Kuşbakışı kroki. Kuzeybatıda kulüp binası; önünde tekne hangarı. Batıda teknelerin suya indirildiği beton kızak; ortada nehre uzanan ahşap iskele. Güneydoğuda Dahme’nin karşı kıyısı.\n\nTanıkların anlattığı ve kayıtların gösterdiği konumlar planda işaretlenir."
+  },
+  {
+   "key": "case021.plan.incident",
+   "value": "Çarpı: iskelenin ucu; olay yeri ekibi tahtada kan ve kürek palası izi buldu. İşaretlere dokununca o noktadan görülebilen alan çizilir."
+  },
+  {
+   "key": "case021.plan.marker.holger_claim",
+   "value": "Holger Mertens — kendi anlattığı yer: kulüp binasının üst kat penceresi"
+  },
+  {
+   "key": "case021.plan.marker.rolf_claim",
+   "value": "Rolf Kaiser — kendi anlattığı yer: karşı kıyı, olta yeri"
+  },
+  {
+   "key": "case021.plan.marker.slip_cam",
+   "value": "Kızak kamerası — tekne indirme rampası"
+  },
+  {
+   "key": "case021.plan.title",
+   "value": "OLAY YERİ PLANI — DAHME KÜREK KULÜBÜ"
+  },
+  {
+   "key": "case021.prints.body",
+   "value": "Talep: bube Berlin. Tek yumurta ikizlerinin parmak izleri farklıdır.\n\n· Karşılaştırma kaydı: 2028 doping dosyasından Moritz Berger’in parmak izleri.\n· Kendini Lukas Berger olarak tanıtan kişinin parmak izleri: Moritz Berger kaydıyla eşleşiyor.\n· Sudan çıkan cesedin parmak izleri: Moritz Berger kaydıyla eşleşmiyor."
+  },
+  {
+   "key": "case021.prints.title",
+   "value": "PARMAK İZİ KARŞILAŞTIRMASI"
+  },
+  {
+   "key": "case021.report.body",
+   "value": "22 Eylül 2029 saat 06.20’de Köpenick’te, Dahme Kürek Kulübü’nün iskelesinin yakınında suda bir erkek cesedi bulundu; yüz metre ötede ters dönmüş tek kişilik bir yarış teknesi.\n\nCeset, olay yerinde tek yumurta ikizi Lukas Berger tarafından tanındı: Moritz Berger (27). Üzerinde göğsünde “M. BERGER” işlemeli kulüp ceketi.\n\nDevriye notu: “Moritz Berger 2028’de dopingden iki yıl men edilmiş, gece tek başına kürek çekermiş. Kulübün tekne bakımcısı onu 22.00’de yalnız suya inerken görmüş. Karanlıkta tekne devrilmiş, kaza.”"
+  },
+  {
+   "key": "case021.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case021.request.betting",
+   "value": "Bahis izleme raporunu iste"
+  },
+  {
+   "key": "case021.request.medical",
+   "value": "Lukas Berger’in ortopedi kaydını iste"
+  },
+  {
+   "key": "case021.request.prints",
+   "value": "Parmak izi karşılaştırması iste"
+  },
+  {
+   "key": "case021.request.xray",
+   "value": "Hayatta kalan ikizin omuz röntgenini iste"
+  },
+  {
+   "key": "case021.rolf.after.answer",
+   "value": "Biri iskelede uzun süre eğildi, bir şeyle uğraştı. Sonra kulübün kapısına doğru yürüdü, ceketini giyerken."
+  },
+  {
+   "key": "case021.rolf.after.question",
+   "value": "Sonra ne oldu?"
+  },
+  {
+   "key": "case021.rolf.body",
+   "value": "Karşı kıyıdaki balıkçı."
+  },
+  {
+   "key": "case021.rolf.deflect",
+   "value": "Ben balık tutuyordum, gerisini bilmem."
+  },
+  {
+   "key": "case021.rolf.saw.answer",
+   "value": "Onu biraz geçe iskelenin ucunda iki adam. Bağırıyorlardı, aynı boyda, aynı yapıda. Biri kürek gibi uzun bir şey kaldırdı. Sonra suya bir şey düştü, bir tekne de ters döndü. Gençler sarhoş sandım, aramadım. Aramalıydım."
+  },
+  {
+   "key": "case021.rolf.saw.answer.demeanor",
+   "value": "Başını önüne eğdi."
+  },
+  {
+   "key": "case021.rolf.saw.question",
+   "value": "Dün gece ne gördünüz?"
+  },
+  {
+   "key": "case021.rolf.title",
+   "value": "Rolf Kaiser — görüşme"
+  },
+  {
+   "key": "case021.slip.body",
+   "value": "Kulübün tekne indirme rampasını gören kamera; iskelenin ucu görüş alanı dışında. 21 Eylül 21.30 – 22.40."
+  },
+  {
+   "key": "case021.slip.title",
+   "value": "KIZAK KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case021.summary.evidence",
+   "value": "Olay yeri planı, bakımcının iskeleyi göremediğini, karşı kıyıdaki balıkçının gördüğünü gösterdi; kızak kamerası ikinci bir adamı yakaladı. Otopsideki iki vida, Lukas’ın ortopedi kaydıyla eşleşti; hayatta kalanın röntgeninde vida yoktu. Parmak izi karşılaştırması yaşayan ikizi Moritz’in doping dosyasına bağladı."
+  },
+  {
+   "key": "case021.summary.lesson",
+   "value": "Tanımanın kendisi de bir ifadedir: kimliği kimin tanıdığına ve neye dayandığına bak. DNA’nın ayırt edemediğini beden ve kayıt ayırt eder."
+  },
+  {
+   "key": "case021.summary.location",
+   "value": "Köpenick, Dahme Kürek Kulübü — Eylül 2029"
+  },
+  {
+   "key": "case021.summary.truth",
+   "value": "Moritz Berger yıllarca yarış satıp Arendt üzerinden para aldı; dopingden men edildi. Tek yumurta ikizi Lukas milli takıma seçildi ve kardeşini federasyona bildirmeye karar verdi. 21 Eylül gecesi Lukas seçmeye hazırlık için gece suya indi; Moritz iskelede bekledi, dönüşte onu kürekle vurdu, ceketlerini değiştirdi, kardeşini suya bırakıp tekneyi ters çevirdi. Sabah kendi adını taşıyan cesedi tanıdı ve Lukas olarak yaşamaya başladı."
+  },
+  {
+   "key": "case021.suspect.label",
+   "value": "Dahme’deki ölümden kim sorumlu?"
+  },
+  {
+   "key": "case021.tablet.caseLine",
+   "value": "DOSYA #021  /  BUBE BERLİN — KREUZBERG"
+  },
+  {
+   "key": "case021.time.bets",
+   "value": "2027–2028"
+  },
+  {
+   "key": "case021.time.fight",
+   "value": "21 Eylül 22.10"
+  },
+  {
+   "key": "case021.time.launch",
+   "value": "21.58"
+  },
+  {
+   "key": "case021.time.leave",
+   "value": "22.24"
+  },
+  {
+   "key": "case021.time.surgery",
+   "value": "Mart 2027"
+  },
+  {
+   "key": "case021.time.wait",
+   "value": "22.03"
+  },
+  {
+   "key": "case021.title",
+   "value": "Dosya #021 — Kürek"
+  },
+  {
+   "key": "case021.verdict.anja",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.verdict.holger",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.verdict.nobody",
+   "value": "Kimse — karanlıkta tekne devrildi"
+  },
+  {
+   "key": "case021.verdict.survivor",
+   "value": "Hayatta kalan ikiz — kendini Lukas Berger diye tanıtan"
+  },
+  {
+   "key": "case021.xray.body",
+   "value": "bube Berlin talebi; kişinin rızasıyla, 23 Eylül 2029.\n\nKendini Lukas Berger olarak tanıtan kişi: sol omuzda ameliyat izi yok, vida yok, kemik yapısı ameliyat görmemiş bir eklemle uyumlu."
+  },
+  {
+   "key": "case021.xray.title",
+   "value": "OMUZ RÖNTGENİ — HAYATTA KALAN İKİZ"
+  }
+ ]
+}
