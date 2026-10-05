@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Duman dedektörü** → `Bube/Items/case040_detector` — Tavandan sökülmüş dedektör; pil yuvası boş, kapağında parmak izi tozu.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A round white ceiling smoke detector, slightly smoke-stained, its battery compartment open and empty, black fingerprint powder dusted on the plastic cover showing a partial print. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A round white ceiling smoke detector, slightly smoke-stained, its battery compartment open and empty, black fingerprint powder dusted on the plastic cover showing a partial print. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Viski bardağı** → `Bube/Items/case040_glass` — Koltuğun yanındaki kalın dipli bardak; dibinde çözünmemiş beyaz tortu.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A heavy cut-glass whisky tumbler, soot-darkened on the outside, a thin film of amber liquid at the bottom with a faint white powdery residue settled in it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A heavy cut-glass whisky tumbler, soot-darkened on the outside, a thin film of amber liquid at the bottom with a faint white powdery residue settled in it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Walt’ın defteri** → `Bube/Items/case040_notebook` — Yarısı yanmış spiralli bloknot; plaka ve saat sütunları.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small spiral-bound police-style notebook, its edges charred and curled, open to a page of handwritten columns of numbers and times that are blurred and unreadable, a coffee ring stain. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small spiral-bound police-style notebook, its edges charred and curled, open to a page of handwritten columns of numbers and times that are blurred and unreadable, a coffee ring stain. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case040.jpg`, yatay 16:9)

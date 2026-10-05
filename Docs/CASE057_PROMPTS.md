@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kurbanın termosu** → `Bube/Items/case057_thermos` — Eski, ezik yeşil bir termos; içinde kalan kahvede böcek ilacı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old dented green metal thermos flask with its cup-lid unscrewed beside it, a dark ring of coffee residue inside the cup, a few orange leaves stuck to the base. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. An old dented green metal thermos flask with its cup-lid unscrewed beside it, a dark ring of coffee residue inside the cup, a few orange leaves stuck to the base. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Laboratuvar şişesi** → `Bube/Items/case057_vial` — Laboratuvarın ilaç dolabından eksilen küçük cam şişe; müdürün arabasının kapı cebinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small amber laboratory glass bottle with a black screw cap, a plain white blank label, nearly empty, lying in an open evidence bag beside a car door pocket liner. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small amber laboratory glass bottle with a black screw cap, a plain white blank label, nearly empty, lying in an open evidence bag beside a car door pocket liner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **1999 kaza defteri** → `Bube/Items/case057_ledger` — Paketleme hanesinin 1999 kaza defteri; bir sayfanın üstüne sonradan yazılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old hardbound accident logbook open to a page where a handwritten entry has been scraped and rewritten in different ink, the paper thinned and slightly rough, handwriting deliberately illegible. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. An old hardbound accident logbook open to a page where a handwritten entry has been scraped and rewritten in different ink, the paper thinned and slightly rough, handwriting deliberately illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case057.jpg`, yatay 16:9)

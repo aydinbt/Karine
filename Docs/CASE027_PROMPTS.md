@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Depo termostatı** → `Bube/Items/case027_thermo` — Ödül deposunun klima paneli; 14 °C’ye ve ‘sürekli’ moduna ayarlanmış.
 
 ```
-Forensic evidence photograph, close frontal view of a wall-mounted air conditioner control panel in a dim storage room, plain beige plastic, small dark LCD screen showing only a snowflake symbol and the number 14, a fan symbol at maximum, no other text. A faint dusting of fingerprint powder around the buttons. Neutral flat forensic lighting, photorealistic, no brand names, no logos, no words.
+Forensic evidence photograph, close frontal view of a wall-mounted air conditioner control panel in a dim storage room, plain beige plastic, small dark LCD screen showing only a snowflake symbol and the number 14, a fan symbol at maximum, no other text. A faint dusting of fingerprint powder around the buttons. Neutral flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no brand names, no logos, no words.
 ```
 
 2. **Ödül tepsisi** → `Bube/Items/case027_tray` — Kasa arkasındaki plastik tepsi; içinde 180 jeton ve bir kopmuş kasiyer yaka kartı klipsi.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A shallow black plastic tray holding about two hundred small shiny silver steel balls (pachinko balls) spilled unevenly, and among them a broken small metal badge clip with a torn red fabric strap. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A shallow black plastic tray holding about two hundred small shiny silver steel balls (pachinko balls) spilled unevenly, and among them a broken small metal badge clip with a torn red fabric strap. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 3. **Ödül faturaları** → `Bube/Items/case027_ledger` — Kurbanın masasında, sarı yapışkan notla işaretlenmiş on iki fatura.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small stack of twelve generic printed invoices, deliberately blurred so no text is readable, held with a black binder clip, one yellow sticky note on top with a single hand-drawn question mark. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small stack of twelve generic printed invoices, deliberately blurred so no text is readable, held with a black binder clip, one yellow sticky note on top with a single hand-drawn question mark. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case027.jpg`, yatay 16:9)

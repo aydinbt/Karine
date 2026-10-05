@@ -27,7 +27,7 @@ Ortak kısım, her prompt'un sonuna eklenir:
 
 Ortak kısım:
 
-> Forensic evidence photograph, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, photorealistic, no text, no labels, no logos.
+> Forensic evidence photograph, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 
 1. **Bordür** — `case015_kerb`: *A wet granite street kerb at night under sodium light, rounded edge, no blood smear on the edge, a few cigarette butts nearby.* (Olay yeri fotoğrafı; evidence-mat kullanma.)
 2. **Zarf** — `case015_envelope`: *A thick plain brown paper envelope, slightly torn at the corner, banknote edges visible inside, in a clear evidence bag.*

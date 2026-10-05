@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kompresör vanası kolu** → `Bube/Items/case061_valve` — Amonyak hattının tahliye vanasının sökülmüş kolu; müdürün masasının alt çekmecesinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A red-painted steel T-handle valve wheel removed from an industrial refrigeration pipe valve, chipped paint, a frosty white residue on the square socket, lying beside an open grey metal desk drawer. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A red-painted steel T-handle valve wheel removed from an industrial refrigeration pipe valve, chipped paint, a frosty white residue on the square socket, lying beside an open grey metal desk drawer. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Bakım defteri** → `Bube/Items/case061_log` — Kompresör odasının bakım defteri; dünkü satır ‘vanalar kontrol edildi, normal’.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A battered spiral-bound maintenance logbook with a frost-damp cover, open to a ruled page with tick marks and a short handwritten entry in blue ink, illegible, a pencil tucked in the spiral. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A battered spiral-bound maintenance logbook with a frost-damp cover, open to a ruled page with tick marks and a short handwritten entry in blue ink, illegible, a pencil tucked in the spiral. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Gaz maskesi askısı** → `Bube/Items/case061_mask` — Kompresör odasının kapısındaki acil durum maskesi askısı; boş.
 
 ```
-Forensic evidence photograph, three-quarter view of a grey painted cinder-block wall beside a steel door, an empty red emergency equipment hook with a dust outline where a gas mask used to hang, a small blank sign plate above it. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, three-quarter view of a grey painted cinder-block wall beside a steel door, an empty red emergency equipment hook with a dust outline where a gas mask used to hang, a small blank sign plate above it. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case061.jpg`, yatay 16:9)

@@ -49,25 +49,25 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Hirezake kadehi** → `Bube/Items/case031_cup` — Başkanın önündeki kapaklı seramik kadeh; dibinde yanık fugu yüzgeci ve kurumuş sake.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small traditional Japanese lidded ceramic sake cup, cream glaze with a thin blue rim, its lid set beside it, inside a charred dried pufferfish fin floating in a little amber sake residue. A forensic swab in a clear tube lies beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no labels, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small traditional Japanese lidded ceramic sake cup, cream glaze with a thin blue rim, its lid set beside it, inside a charred dried pufferfish fin floating in a little amber sake residue. A forensic swab in a clear tube lies beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 ```
 
 2. **Mühürlü sakatat kutusu** → `Bube/Items/case031_bin` — Mutfağın kilitli fugu atık kutusu; mühür sağlam, karaciğer ve yumurtalıklar tartılıp kayda geçmiş.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small stainless steel waste container with a hinged lid and a red tamper-evident plastic seal intact on the latch, a small padlock, droplets of condensation. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no labels, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small stainless steel waste container with a hinged lid and a red tamper-evident plastic seal intact on the latch, a small padlock, droplets of condensation. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 ```
 
 3. **Boş ampul** → `Bube/Items/case031_vial` — Arabanın kapı cebinde: laboratuvar tipi, kahverengi cam mini ampul; kırık boynu.
 
 ```
-Forensic evidence photograph, macro top-down on a neutral grey evidence mat. A tiny brown glass laboratory ampoule, about 3 cm long, its neck snapped off cleanly, the broken tip lying beside it, a small strip of blank white label with no writing. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, macro top-down on a neutral grey evidence mat. A tiny brown glass laboratory ampoule, about 3 cm long, its neck snapped off cleanly, the broken tip lying beside it, a small strip of blank white label with no writing. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 4. **Başkanın defteri** → `Bube/Items/case031_notebook` — Siyah deri kaplı küçük defter; son sayfa yeni yazılmış, kalem bastırılarak.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small black leather-bound notebook lying open, the handwriting in Japanese-style ink strokes deliberately blurred and unreadable, the last written page pressed hard so the strokes are deep, a fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small black leather-bound notebook lying open, the handwriting in Japanese-style ink strokes deliberately blurred and unreadable, the last written page pressed hard so the strokes are deep, a fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case031.jpg`, yatay 16:9)

@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Tatbikat yoklama kâğıdı** → `Bube/Items/case030_sheet` — Kat yoklaması; kurbanın adının yanında farklı renk kalemle atılmış tik.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A single clipboard holding a printed grid form, the text deliberately blurred and unreadable, a column of hand-drawn check marks in black ink with one check mark visibly in blue ink. A cheap blue ballpoint pen lying beside the clipboard. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A single clipboard holding a printed grid form, the text deliberately blurred and unreadable, a column of hand-drawn check marks in black ink with one check mark visibly in blue ink. A cheap blue ballpoint pen lying beside the clipboard. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Yangın söndürücü** → `Bube/Items/case030_ext` — Asma tavanın içinde bulunan kırmızı söndürücü; tabanında ezilme ve kıl.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small red fire extinguisher with a black hose, the round metal base dented on one edge with a few dark hairs caught in the dent, flakes of red paint chipped off. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no labels, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small red fire extinguisher with a black hose, the round metal base dented on one edge with a few dark hairs caught in the dent, flakes of red paint chipped off. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 ```
 
 3. **Asma tavan plakası** → `Bube/Items/case030_tile` — 9. kat fotokopi odasının tavan plakası; yerinden oynamış, kenarında parmak izi tozu.
 
 ```
-Forensic evidence photograph, looking up at an office drop ceiling: one white acoustic ceiling tile pushed slightly aside revealing a dark gap above, black fingerprint powder on its metal frame edge, harsh flash lighting. Photorealistic, no text, no logos.
+Forensic evidence photograph, looking up at an office drop ceiling: one white acoustic ceiling tile pushed slightly aside revealing a dark gap above, black fingerprint powder on its metal frame edge, harsh flash lighting. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case030.jpg`, yatay 16:9)

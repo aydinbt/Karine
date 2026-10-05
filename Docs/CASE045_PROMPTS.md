@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **İnsülin kalemi** → `Bube/Items/case045_pen` — Kurbanın masasındaki kalem; içindeki kartuşun etiketi kalemin standardıyla uyuşmuyor.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A grey reusable insulin injection pen unscrewed into two halves, a small glass insulin cartridge beside it with a differently coloured cap band, both labels blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no brand names, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A grey reusable insulin injection pen unscrewed into two halves, a small glass insulin cartridge beside it with a differently coloured cap band, both labels blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no brand names, no logos.
 ```
 
 2. **Masa ses kaydedicisi** → `Bube/Items/case045_recorder` — Kurbanın çalışma masasının çekmecesinde, sesle çalışan küçük bir kayıt cihazı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small black digital voice recorder with a tiny red light, a short microphone grille, lying beside an open leather desk drawer, its screen blank. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small black digital voice recorder with a tiny red light, a short microphone grille, lying beside an open leather desk drawer, its screen blank. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Boş kartuş kutusu** → `Bube/Items/case045_vials` — Bir el çantasının yan cebinden çıkan, iki kartuşu eksik küçük karton kutu.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small white pharmacy carton opened to show a plastic tray with five slots, three holding glass insulin cartridges with bright coloured cap bands and two empty, next to the open side pocket of a black leather handbag. Labels blurred, unreadable. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small white pharmacy carton opened to show a plastic tray with five slots, three holding glass insulin cartridges with bright coloured cap bands and two empty, next to the open side pocket of a black leather handbag. Labels blurred, unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case045.jpg`, yatay 16:9)

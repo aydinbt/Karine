@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Boş inhaler** → `Bube/Items/case028_inhaler` — Kurbanın astım inhaleri; hazne çıkarılmış, yerine boş bir hazne takılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A generic plastic asthma inhaler in pale blue, its metal canister pulled out and lying beside it; a second identical canister beside it, one of them marked with a small dot of white correction fluid. No brand names. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A generic plastic asthma inhaler in pale blue, its metal canister pulled out and lying beside it; a second identical canister beside it, one of them marked with a small dot of white correction fluid. No brand names. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 2. **Karaoke kumandası** → `Bube/Items/case028_remote` — Odanın şarkı tableti; geçmişinde iki istek uzaktan uygulamadan gelmiş.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A karaoke song-selection tablet in a chunky plastic frame with a wired microphone lying beside it, the screen dark and blank, a sticker of a small star on the frame. Fingerprint powder on the edges. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A karaoke song-selection tablet in a chunky plastic frame with a wired microphone lying beside it, the screen dark and blank, a sticker of a small star on the frame. Fingerprint powder on the edges. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kol düğmesi** → `Bube/Items/case028_cuff` — Asansör boşluğunun önünde bulunan siyah oniks kol düğmesi.
 
 ```
-Forensic evidence photograph, macro top-down on a neutral grey evidence mat. A single square black onyx cufflink with a thin silver edge, lying next to a small evidence number tent without any number printed on it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, macro top-down on a neutral grey evidence mat. A single square black onyx cufflink with a thin silver edge, lying next to a small evidence number tent without any number printed on it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case028.jpg`, yatay 16:9)

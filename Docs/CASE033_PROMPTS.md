@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kâğıt un torbası** → `Bube/Items/case033_flour` — ‘Müşterinin kendi unu’ diye getirilen kraft kâğıt torba; ağzı katlanmış, içinde sarımsı toz.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A plain brown kraft paper flour bag about 30 cm tall with its top folded over twice, a little pale yellowish powder spilled at its base, no printing or label on the bag. A forensic swab tube beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A plain brown kraft paper flour bag about 30 cm tall with its top folded over twice, a little pale yellowish powder spilled at its base, no printing or label on the bag. A forensic swab tube beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 2. **Yarım somun** → `Bube/Items/case033_loaf` — Tezgâhta, bir dilimi kesilmiş küçük yuvarlak glütensiz somun.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small round rustic loaf of bread with a pale dense crumb, one slice cut from it and the slice lying beside it with a bite missing, a bread knife next to them. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small round rustic loaf of bread with a pale dense crumb, one slice cut from it and the slice lying beside it with a bite missing, a bread knife next to them. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 3. **Nakit zarfı** → `Bube/Items/case033_envelope` — İkram koordinatörünün arabasının torpidosunda, içinde 5.000 avro bulunan beyaz zarf.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A plain white envelope lying open with a thick stack of generic banknotes partly pulled out, the notes' details blurred so no denomination or text is readable. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A plain white envelope lying open with a thick stack of generic banknotes partly pulled out, the notes' details blurred so no denomination or text is readable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case033.jpg`, yatay 16:9)

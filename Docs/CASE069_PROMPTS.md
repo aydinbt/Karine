@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kürek sapı** → `Bube/Items/case069_oar` — Marinanın kiralık kanolarından birinin küreği; sapta kurbanın saç teli.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A wooden canoe paddle with a scuffed green-painted blade, the grip end showing a small dark stain and a single long grey hair caught in a splinter, river mud dried along the shaft. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A wooden canoe paddle with a scuffed green-painted blade, the grip end showing a small dark stain and a single long grey hair caught in a splinter, river mud dried along the shaft. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **İskele kapısı kaydı** → `Bube/Items/case069_gate` — Marinanın elektronik kapı kaydı; 20.00’den sonra giriş yok.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed access-control log page with columns of entry times, all text illegible, beside a grey plastic RFID key fob on a lanyard. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed access-control log page with columns of entry times, all text illegible, beside a grey plastic RFID key fob on a lanyard. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Su numunesi şişeleri** → `Bube/Items/case069_sample` — Kurbanın evindeki etiketli su numuneleri; marinanın gider çıkışından.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Four small glass sample bottles with murky brownish river water and blank paper labels, in a wooden rack, one bottle with a faint oily sheen on top. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. Four small glass sample bottles with murky brownish river water and blank paper labels, in a wooden rack, one bottle with a faint oily sheen on top. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case069.jpg`, yatay 16:9)

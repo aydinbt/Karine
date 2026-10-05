@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kırık magnum şişe** → `Bube/Items/case036_magnum` — Mahzen zemininde, boynundan kırılmış bir magnum; etiketi 1961 tarihli.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat in a stone wine cellar. A large dark green magnum wine bottle broken at the shoulder, its neck lying separately, red wine stains on the glass and a faint smear of blood on the heavy base, an old-looking cream label with blurred unreadable lettering. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat in a stone wine cellar. A large dark green magnum wine bottle broken at the shoulder, its neck lying separately, red wine stains on the glass and a faint smear of blood on the heavy base, an old-looking cream label with blurred unreadable lettering. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Boş etiketler** → `Bube/Items/case036_labels` — Sommelier’nin kiraladığı depoda, kutularca eskitilmiş boş şarap etiketi ve mantar.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An open cardboard box filled with dozens of blank aged-looking cream wine labels with no printing, a bundle of old corks held with an elastic band, a small bottle of brown tea-stain liquid and a soft brush. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. An open cardboard box filled with dozens of blank aged-looking cream wine labels with no printing, a bundle of old corks held with an elastic band, a small bottle of brown tea-stain liquid and a soft brush. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Şarap asansörü** → `Bube/Items/case036_lift` — Mahzenden yemek salonuna çıkan eski el asansörü; kabin tabanında toz izi ve şarap damlası.
 
 ```
-Forensic evidence photograph, looking into an old wooden dumbwaiter shaft opened in a stone wall, the small wooden cabin floor showing scuffed dust marks and two dark red drops, a rope pulley above, harsh flash lighting. Photorealistic, no text, no logos.
+Forensic evidence photograph, looking into an old wooden dumbwaiter shaft opened in a stone wall, the small wooden cabin floor showing scuffed dust marks and two dark red drops, a rope pulley above, harsh flash lighting. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case036.jpg`, yatay 16:9)

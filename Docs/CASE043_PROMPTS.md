@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Köprü kablosu** → `Bube/Items/case043_jumper` — Amfinin içinde, toprak ucunu mikrofon standının gövdesine bağlayan ince bir kablo.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A short length of thin red electrical wire with two small alligator clips on the ends, one clip slightly scorched black, beside a cut-off three-prong plug ground pin. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A short length of thin red electrical wire with two small alligator clips on the ends, one clip slightly scorched black, beside a cut-off three-prong plug ground pin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Mikrofon standı** → `Bube/Items/case043_stand` — Sahnedeki krom stand; tutma yerinde yanık izi.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A chrome microphone stand lying on its side, the grip area showing a small dark scorch mark and pitting on the metal, the microphone removed. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A chrome microphone stand lying on its side, the grip area showing a small dark scorch mark and pitting on the metal, the microphone removed. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Nakit zarfları** → `Bube/Items/case043_cash` — Ofis kasasında, bantla bağlanmış yirmilik desteleri olan kahverengi zarflar.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Several thick brown paper envelopes, one open showing a stack of twenty-dollar-like banknotes with blurred unreadable printing held by a rubber band, a pencilled tick mark on each envelope. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. Several thick brown paper envelopes, one open showing a stack of twenty-dollar-like banknotes with blurred unreadable printing held by a rubber band, a pencilled tick mark on each envelope. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case043.jpg`, yatay 16:9)

@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Nal çekici** → `Bube/Items/case068_mallet` — Ucuna eski bir nal perçinlenmiş kısa saplı çekiç; antrenörün at römorkunun alet kutusundan çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A short wooden-handled steel hammer with an old worn horseshoe riveted onto its head so the shoe forms the striking face, a dark dried stain and a few horse hairs on the shoe, inside an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A short wooden-handled steel hammer with an old worn horseshoe riveted onto its head so the shoe forms the striking face, a dark dried stain and a few horse hairs on the shoe, inside an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Eksik numune tüpü** → `Bube/Items/case068_swab` — Müfettişin numune çantası; on iki yuvanın biri boş, mühür kırık.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An open black hard-shell sampling case with twelve foam slots holding sealed plastic urine/blood sample tubes with blank white labels, one slot empty, a broken tamper-evident seal strip lying beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. An open black hard-shell sampling case with twelve foam slots holding sealed plastic urine/blood sample tubes with blank white labels, one slot empty, a broken tamper-evident seal strip lying beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Bahis dökümü** → `Bube/Items/case068_slip` — Kupadan dört gün önce atın aleyhine yığılan bahislerin dökümü.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A few printed pages of a betting transaction ledger, dense columns of small figures, all illegible, with a yellow highlighter stripe across several rows, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A few printed pages of a betting transaction ledger, dense columns of small figures, all illegible, with a yellow highlighter stripe across several rows, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case068.jpg`, yatay 16:9)

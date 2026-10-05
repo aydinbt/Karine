@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Gaz sistemi manuel tetik anahtarı** → `Bube/Items/case066_key` — Yangın söndürme sisteminin manuel tetik anahtarı; başkan yardımcısının spor kulübü dolabındaki squash çantasından çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small red-tagged fire suppression system manual release key with a numbered tag left blank, lying on top of an open sports bag next to a squash racket and a folded towel. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small red-tagged fire suppression system manual release key with a numbered tag left blank, lying on top of an open sports bag next to a squash racket and a folded towel. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Yönetim kurulu toplantı tutanağı** → `Bube/Items/case066_minutes` — Gece toplantısının tutanağı; başkan yardımcısı ‘video bağlantıyla, Toronto’dan’ 20.00–21.30.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A corporate board meeting minutes document on heavy white paper with a blank header block, an attendance list with one line marked by a small pencil tick, all text illegible, a silver fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A corporate board meeting minutes document on heavy white paper with a blank header block, an attendance list with one line marked by a small pencil tick, all text illegible, a silver fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kovač’ın tablosu** → `Bube/Items/case066_table` — Baş aktüerin masasından çıkan çıktı; lehtar sütununda tek bir isim tekrar ediyor.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed spreadsheet page of dense numeric columns with one entire column highlighted in yellow, the same short entry repeated down every row, all figures and words blurred and unreadable, a red pen circle around the total. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed spreadsheet page of dense numeric columns with one entire column highlighted in yellow, the same short entry repeated down every row, all figures and words blurred and unreadable, a red pen circle around the total. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case066.jpg`, yatay 16:9)

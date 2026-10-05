@@ -11,7 +11,7 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case012_camera` | Tavandaki bantlı kamera yerine fotoğraf makinesi | yerinde fotoğraf: "small dome security camera on a bus ceiling, lens covered with black electrical tape, no evidence mat" |
 | `Items/case012_sheet` | Boş kâğıt; panoya takılı sayım çizelgesi değil | "clipboard with handwritten tally columns, unreadable, some numbers circled in red" |
 
-Üslup notu: #011 telefonu ve #012 bulguları foto-gerçekçi, #011'in diğerleri çizgi tarzı. Hepsi tek tarza çekilecekse burada karar verilir.
+Üslup kararı (5 Ekim 2026): bütün bulgular portrelerle aynı 2D mürekkep çizim tarzında; prompt'lardaki "photorealistic" bu tarzla değiştirildi. #011–#012 de bu tarzda yenilenir.
 
 ## Bulgular ayrı turda (5 Ekim 2026, kullanıcı kararı)
 #013'ten itibaren yalnız portreler geliyor. Adli bulgular, portreler bitince her biri için ayrıntılı (nesne, konum, durum, yasaklar açık) yeni prompt'larla topluca üretilecek; #011–#012'nin bulguları da o turda yenilenir. Henüz bulgusu olmayan dosyalar: #013–#024.

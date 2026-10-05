@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Soğuk oda iç kolu** → `Bube/Items/case047_handle` — Bir arabanın torpidosundan çıkan, sökülmüş krom kapı kolu ve iki vida.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A chrome interior safety release handle of a walk-in cold room, unscrewed, with two loose screws and a small flat screwdriver beside it, faint frost marks and flour dust on the chrome. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A chrome interior safety release handle of a walk-in cold room, unscrewed, with two loose screws and a small flat screwdriver beside it, faint frost marks and flour dust on the chrome. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Soğuk oda termostatı** → `Bube/Items/case047_thermo` — Soğuk odanın dış duvarındaki termostat; gece -18’e çevrilmiş.
 
 ```
-Forensic evidence photograph, close-up on a stainless steel wall. A rectangular digital thermostat panel of a walk-in cold room with a blank dark display, a single dial turned to the far blue end, flour fingerprints on the dial. Flat forensic lighting, photorealistic, no readable text, no numbers, no logos.
+Forensic evidence photograph, close-up on a stainless steel wall. A rectangular digital thermostat panel of a walk-in cold room with a blank dark display, a single dial turned to the far blue end, flour fingerprints on the dial. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no numbers, no logos.
 ```
 
 3. **Kasa defteri** → `Bube/Items/case047_ledger` — Kasanın altından çıkan küçük kareli defter; son sayfada iki sütun rakam ve bir çizgi.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small worn squared-paper notebook lying open, two columns of handwritten figures on the last page heavily crossed out with one firm pen line, the writing blurred and unreadable, a pencil beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A small worn squared-paper notebook lying open, two columns of handwritten figures on the last page heavily crossed out with one firm pen line, the writing blurred and unreadable, a pencil beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case047.jpg`, yatay 16:9)

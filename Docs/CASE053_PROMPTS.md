@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Gitar teli kangalı** → `Bube/Items/case053_string` — Yarısı açılmış bir kangal çelik gitar teli; iki ucunda deri parçacıkları.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A partially unwound coil of thin steel guitar string, both ends bent into small loops, tiny traces of skin on the metal, beside its small open paper sleeve with blurred unreadable print. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no brand names, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A partially unwound coil of thin steel guitar string, both ends bent into small loops, tiny traces of skin on the metal, beside its small open paper sleeve with blurred unreadable print. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no brand names, no logos.
 ```
 
 2. **1994 dosyası** → `Bube/Items/case053_file1994` — Sararmış karton bir dosya; içinde bir merdiven fotoğrafı ve tek sayfalık bir ifade.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A yellowed old cardboard case folder lying open, inside a faded 1990s colour photograph of a narrow wooden backstage staircase and a single typed statement page with a signature, a red 'reopened' paper band across the folder, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A yellowed old cardboard case folder lying open, inside a faded 1990s colour photograph of a narrow wooden backstage staircase and a single typed statement page with a signature, a red 'reopened' paper band across the folder, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Siyah deri eldivenler** → `Bube/Items/case053_gloves` — Bir kasanın içinden çıkan, avuçlarında ince çelik izleri olan eldivenler.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A pair of thin black leather gloves, the palms showing fine straight cut marks and grey metal traces, lying beside the open door of a small steel office safe. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A pair of thin black leather gloves, the palms showing fine straight cut marks and grey metal traces, lying beside the open door of a small steel office safe. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case053.jpg`, yatay 16:9)

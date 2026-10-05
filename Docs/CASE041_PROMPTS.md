@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Soda bardağı** → `Bube/Items/case041_glass` — Kurbanın bardaki son bardağı; limonlu soda, alkol yok.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A tall highball glass with a little clear soda left at the bottom, a lime wedge, condensation drops, a paper straw. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A tall highball glass with a little clear soda left at the bottom, a lime wedge, condensation drops, a paper straw. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Kol düğmesi** → `Bube/Items/case041_cufflink` — Havuzun süzgecinden çıkan tek bir kol düğmesi; kırmızı-beyaz-mavi emaye.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A single gold shirt cufflink with red, white and blue enamel stripes and no emblem, still wet, a few strands of pool filter debris beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A single gold shirt cufflink with red, white and blue enamel stripes and no emblem, still wet, a few strands of pool filter debris beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Bağış dökümü** → `Bube/Items/case041_ledger` — Kurbanın dizüstünden basılan tablo; aynı adresten yirmi ayrı bağışçı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed spreadsheet page with rows of blurred unreadable names and amounts, twenty rows highlighted in yellow marker, a handwritten circle and arrow in red pen pointing to one column. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed spreadsheet page with rows of blurred unreadable names and amounts, twenty rows highlighted in yellow marker, a handwritten circle and arrow in red pen pointing to one column. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case041.jpg`, yatay 16:9)

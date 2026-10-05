@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kazıma bıçağı** → `Bube/Items/case034_knife` — Ekran sökmede kullanılan ince, sivri uçlu bıçak; tezgâhtaki takımdan eksik olan.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A slim pointed hobby-style scraping knife with a thin steel blade and a black rubber handle, dried dark blood along the blade, next to an empty slot in an open phone-repair tool roll with other small screwdrivers and pry tools. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A slim pointed hobby-style scraping knife with a thin steel blade and a black rubber handle, dried dark blood along the blade, next to an empty slot in an open phone-repair tool roll with other small screwdrivers and pry tools. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 2. **SIM defteri** → `Bube/Items/case034_simbook` — Kareli bir okul defteri; tarih, SIM numarası ve müşteri tarifi sütunları.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A worn square-ruled school notebook lying open, columns of handwritten entries deliberately blurred and unreadable, one line circled twice in red pen, several loose plastic SIM card holders with the cards punched out scattered beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A worn square-ruled school notebook lying open, columns of handwritten entries deliberately blurred and unreadable, one line circled twice in red pen, several loose plastic SIM card holders with the cards punched out scattered beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kapüşonlu sweatshirt** → `Bube/Items/case034_hoodie` — Yacine’in dairesinde, çamaşır makinesinin içinde ıslak, kollarında açık kahverengi leke halkası.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A damp dark grey hooded sweatshirt laid flat, the right cuff showing a faint pale brown ring stain that survived washing, a fluorescent forensic marker beside it. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A damp dark grey hooded sweatshirt laid flat, the right cuff showing a faint pale brown ring stain that survived washing, a fluorescent forensic marker beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case034.jpg`, yatay 16:9)

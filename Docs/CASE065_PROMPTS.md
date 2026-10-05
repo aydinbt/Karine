@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kask kamerası hafıza kartı** → `Bube/Items/case065_card` — Kurbanın kask kamerasının hafıza kartı; proje maketinin oyuk kaidesinin içinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A tiny black microSD memory card in a clear evidence bag beside the upturned hollow base of a white architectural scale model, a small cavity cut into the foam board underneath. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A tiny black microSD memory card in a clear evidence bag beside the upturned hollow base of a white architectural scale model, a small cavity cut into the foam board underneath. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Restoran fişi** → `Bube/Items/case065_receipt` — Proje müdürünün cebinden çıkan fiş; 21.15, iki kişilik akşam yemeği, kartla ödeme.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Hazne kapağı** → `Bube/Items/case065_hatch` — Silonun en üst katındaki tahıl haznesi kapağı; menteşesindeki yeni çizikler.
 
 ```
-Forensic evidence photograph, close-up of a heavy square steel hatch cover on a dusty concrete floor at the top of an old grain silo, its hinge showing fresh bright scratch marks through old rust, a dark drop below the open edge. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, close-up of a heavy square steel hatch cover on a dusty concrete floor at the top of an old grain silo, its hinge showing fresh bright scratch marks through old rust, a dark drop below the open edge. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case065.jpg`, yatay 16:9)

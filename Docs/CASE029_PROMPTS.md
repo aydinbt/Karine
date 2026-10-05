@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Diş kalıpları** → `Bube/Items/case029_dental` — Cesedin çene röntgeni ile Ishida Kazuki’nin kayıtlı röntgeni yan yana.
 
 ```
-Forensic evidence photograph, top-down on a lightbox. Two dental panoramic X-ray films side by side, glowing on the white lightbox: one shows several bright metal fillings and a gold crown on a molar, the other shows clean natural teeth with no fillings. A small dental mirror lies between them. No text, no labels, no names, no logos. Photorealistic, clinical.
+Forensic evidence photograph, top-down on a lightbox. Two dental panoramic X-ray films side by side, glowing on the white lightbox: one shows several bright metal fillings and a gold crown on a molar, the other shows clean natural teeth with no fillings. A small dental mirror lies between them. No text, no labels, no names, no logos. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, clinical.
 ```
 
 2. **Benzin bidonu** → `Bube/Items/case029_can` — Atölyenin arkasında; kırmızı metal bidon, kapağında yanık izi.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A dented red metal jerrycan with a scorched black lid, a faint smear of dried dark red on the handle. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no labels, no logos.
+Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A dented red metal jerrycan with a scorched black lid, a faint smear of dried dark red on the handle. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 ```
 
 3. **Taşıma minibüsünün anahtarı** → `Bube/Items/case029_keys` — Atölyedeki alet çekmecesinde, beyaz plastik etiketli tek anahtar.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A single car key on a ring with a blank white plastic tag, lying next to a greasy socket wrench. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A single car key on a ring with a blank white plastic tag, lying next to a greasy socket wrench. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case029.jpg`, yatay 16:9)

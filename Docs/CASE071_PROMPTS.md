@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **El telsizi** → `Bube/Items/case071_radio` — Liman başkanlığının yedek el telsizi; kanalı ana telsize aktarılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A rugged black handheld marine VHF radio with a stubby antenna and a scratched belt clip, its small screen dark, beside a coiled charging cable. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A rugged black handheld marine VHF radio with a stubby antenna and a scratched belt clip, its small screen dark, beside a coiled charging cable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Yük manifestosu** → `Bube/Items/case071_manifest` — 1990’lardan sararmış bir manifesto; alıcı ‘Liaison Freight’.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A yellowed multi-part carbon shipping manifest form from the 1990s, columns of typed entries and stamps, all illegible, with a coffee stain and a torn corner. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A yellowed multi-part carbon shipping manifest form from the 1990s, columns of typed entries and stamps, all illegible, with a coffee stain and a torn corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Galeri korkuluğu parçası** → `Bube/Items/case071_rail` — Kulenin galeri korkuluğundan sökülmüş, vidaları yeni gevşetilmiş bir parça.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A short section of old painted iron balcony railing with flaking cream paint, two bolts beside it with fresh bright scratch marks on their threads, rust dust on the mat. Small blank scale ruler without numbers. Flat forensic lighting, photorealistic, no readable text, no logos.
+Forensic evidence photograph, top-down on a neutral grey evidence mat. A short section of old painted iron balcony railing with flaking cream paint, two bolts beside it with fresh bright scratch marks on their threads, rust dust on the mat. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case071.jpg`, yatay 16:9)
