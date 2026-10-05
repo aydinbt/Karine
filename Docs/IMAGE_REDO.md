@@ -26,4 +26,5 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case016_letters` | Prompt'taki "angry scrawl" ifadesi imza yerine okunur yazı olarak çizilmiş | "an illegible scribbled signature, no readable words" |
 | `Items/case027_ledger` | Başlıkta okunur "Invoice/INVOICE" yazısı | "remove all text, keep everything else identical" |
 | `Items/case031_notebook` | Sayfalar okunur gibi Japonca yazıyla dolu; zeminde pikselli bozulma | yeni sohbet; "handwriting as illegible wavy lines, no real characters" |
-| `Items/case028–032_*` | Aynı Gemini sohbetinde biriken pikselli kenar dokusu | gerekirse yeni sohbette yeniden üret |
+| `Items/case028–033_*` | Aynı Gemini sohbetinde biriken pikselli kenar dokusu | gerekirse yeni sohbette yeniden üret |
+| `Items/case033_envelope` | Gerçek 100 dolarlık banknot (portre, yazı, seri no.) neredeyse fotoğraf gibi çizilmiş; gerçek para + üslup dışı | "plain blank generic paper notes, no portrait, no numbers, no real currency" |
