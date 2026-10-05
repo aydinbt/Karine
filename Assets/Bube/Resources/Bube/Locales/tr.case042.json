@@ -1,0 +1,480 @@
+{
+ "entries": [
+  {
+   "key": "case042.autopsy.body",
+   "value": "· Kandaki karboksihemoglobin %62: karbonmonoksit zehirlenmesi.\n· Ölü lekeleri parlak kiraz kırmızısı.\n· Uyku pozisyonunda; boğuşma izi yok. Ölüm zamanı: 01.30–03.00.\n· Kabin havalandırması dış havaya değil, iç devreye ayarlı."
+  },
+  {
+   "key": "case042.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case042.cctv.event.climb",
+   "value": "Kamera: Şapkalı bir adam uçtaki kamyonun kabininin arkasına tırmanıp egzoz borusuna uzanıyor."
+  },
+  {
+   "key": "case042.cctv.event.load",
+   "value": "Kamera: İkinci bir kamyon uçtaki kamyonun açık dorsesine geri yanaşıyor; iki kişi yağmurda sandık aktarıyor."
+  },
+  {
+   "key": "case042.cctv.event.pull",
+   "value": "Kamera: Aynı adam yine kabine tırmanıp egzoz borusundan bir şey çekiyor."
+  },
+  {
+   "key": "case042.cctv.overlay",
+   "value": "LOT-N"
+  },
+  {
+   "key": "case042.cctv.period",
+   "value": "13–14 Ağustos 2030"
+  },
+  {
+   "key": "case042.cctv.source",
+   "value": "Otopark kamerası"
+  },
+  {
+   "key": "case042.clue.climb",
+   "value": "Şapkalı adam uçtaki kamyonun egzozuna uzanıyor."
+  },
+  {
+   "key": "case042.clue.found",
+   "value": "Kasiyer cesedi buluyor."
+  },
+  {
+   "key": "case042.clue.load",
+   "value": "İkinci kamyon dorseye yanaşıyor; sandıklar aktarılıyor."
+  },
+  {
+   "key": "case042.clue.pull",
+   "value": "Aynı adam egzozdan bir şey çekiyor."
+  },
+  {
+   "key": "case042.clue.radio",
+   "value": "Kurban telsizle fırtına yüzünden durduğunu söylüyor."
+  },
+  {
+   "key": "case042.clue.source.hollis",
+   "value": "Sevk memuru"
+  },
+  {
+   "key": "case042.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case042.custody.label",
+   "value": "Gaz kabine nasıl doldu?"
+  },
+  {
+   "key": "case042.custody.leak",
+   "value": "Egzoz borusu delikti"
+  },
+  {
+   "key": "case042.custody.plug",
+   "value": "Egzoz bir bezle tıkandı, sonra bez çekildi"
+  },
+  {
+   "key": "case042.custody.storm",
+   "value": "Fırtınada yağmur egzozu doldurdu"
+  },
+  {
+   "key": "case042.eld.body",
+   "value": "Kurbanın kamyonu:\n\n· 00.42 park; motor rölantide, kabin klimalı.\n· 01.05 egzoz geri basıncı ani yükseliş; motor rölantide devam.\n· 03.21 dorse kapısı sensörü: açıldı.\n· 04.02 egzoz basıncı normale dönüyor.\n· 05.10 yakıt bitti, motor durdu."
+  },
+  {
+   "key": "case042.eld.title",
+   "value": "KURBANIN KAMYONU — SEYİR KAYDI"
+  },
+  {
+   "key": "case042.epilogue.custody.leak",
+   "value": "Kurbanın egzozunda delik yoktu."
+  },
+  {
+   "key": "case042.epilogue.custody.plug",
+   "value": "Egzozun üç saat bir bezle tıkandığı ve sabaha karşı çekildiği yazıldı."
+  },
+  {
+   "key": "case042.epilogue.custody.storm",
+   "value": "Yağmur egzozu üç saat tıkayıp aynı anda açmaz."
+  },
+  {
+   "key": "case042.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; Lakeshore yük için sigortaya başvurdu."
+  },
+  {
+   "key": "case042.epilogue.verdict.hollis",
+   "value": "Bev Hollis kovuldu ve suçlandı; sandıklar Newark’tan gemiye bindi."
+  },
+  {
+   "key": "case042.epilogue.verdict.patel",
+   "value": "Sunny Patel gözaltına alındı; Tanner Newark’a vardı."
+  },
+  {
+   "key": "case042.epilogue.verdict.tanner",
+   "value": "Wade Tanner tutuklandı; sandıklar Pilsen şubesinin deposuna alındı. Mesajdaki ‘H.’ numarası Lakeshore’un kurumsal hattına çıktı."
+  },
+  {
+   "key": "case042.evidence.eld",
+   "value": "Kurbanın seyir kaydı"
+  },
+  {
+   "key": "case042.evidence.lot",
+   "value": "Otopark kamerası"
+  },
+  {
+   "key": "case042.evidence.manifest",
+   "value": "Yük manifestosu"
+  },
+  {
+   "key": "case042.evidence.ragcheck",
+   "value": "Wade Tanner’ın kamyonu — inceleme"
+  },
+  {
+   "key": "case042.feedback.accident",
+   "value": "Egzoz basıncı tam üç saat yükselip aynı anda düştü; kamera birinin borudan bir şey çektiğini gösteriyor."
+  },
+  {
+   "key": "case042.feedback.hollis",
+   "value": "Sevk memuru o gece Chicago’daki masasındaydı; rotayı değiştirmedi."
+  },
+  {
+   "key": "case042.feedback.patel",
+   "value": "Kasiyer cesedi buldu ve kamerayı verdi; kuzey uca hiç gitmedi."
+  },
+  {
+   "key": "case042.feedback.tanner",
+   "value": "Kamyonunda egzoz çapında isli bir bez ve kayıp on dört sandık var; seyir kaydı ‘sabaha kadar uyudum’ dediği saatte hareket gösteriyor. Mesajlarında ‘Yük bende.’"
+  },
+  {
+   "key": "case042.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case042.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case042.file.value.location",
+   "value": "I-80/90 dinlenme tesisi, Indiana"
+  },
+  {
+   "key": "case042.file.value.number",
+   "value": "BDC-CHI-2030-0251"
+  },
+  {
+   "key": "case042.file.value.offence",
+   "value": "Şüpheli ölüm / yük kaybı"
+  },
+  {
+   "key": "case042.file.value.reporter",
+   "value": "Tesis işletmesi"
+  },
+  {
+   "key": "case042.hollis.body",
+   "value": "Gece sevk memuru."
+  },
+  {
+   "key": "case042.hollis.deflect",
+   "value": "Sevkiyat bilgileri şirketin."
+  },
+  {
+   "key": "case042.hollis.radio.answer",
+   "value": "00.50’de telsizle. Fırtına yüzünden durduğunu söyledi. Sonra Wade bana yazdı, ‘ben de buradayım, sabah konvoy gideriz’ dedi. Yük Newark’a gidiyordu, oradan gemiye. Merkez bu yük için üç kere arayıp durumunu sordu, hiç olmayan bir şey."
+  },
+  {
+   "key": "case042.hollis.radio.answer.demeanor",
+   "value": "Kulaklığının kablosunu parmağına doluyor."
+  },
+  {
+   "key": "case042.hollis.radio.question",
+   "value": "Earl’le son ne zaman konuştunuz?"
+  },
+  {
+   "key": "case042.hollis.title",
+   "value": "Bev Hollis — görüşme"
+  },
+  {
+   "key": "case042.line_cargo.body",
+   "value": "Dorsedeki yükün manifestosu ve gümrük kayıtları için hat açıldı."
+  },
+  {
+   "key": "case042.line_cargo.title",
+   "value": "HAT C — YÜK VE GÜMRÜK"
+  },
+  {
+   "key": "case042.line_phone.body",
+   "value": "Şoförlerin ve sevk memurunun telefon kayıtları için hat açıldı."
+  },
+  {
+   "key": "case042.line_phone.title",
+   "value": "HAT B — TELEFON KAYITLARI"
+  },
+  {
+   "key": "case042.line_truck.body",
+   "value": "İki kamyonun elektronik seyir defteri ve adli incelemesi için hat açıldı."
+  },
+  {
+   "key": "case042.line_truck.title",
+   "value": "HAT A — KAMYONLAR VE ADLİ İNCELEME"
+  },
+  {
+   "key": "case042.lot.body",
+   "value": "Otoparkın kuzey ucu. 13–14 Ağustos 23.00 – 06.30."
+  },
+  {
+   "key": "case042.lot.title",
+   "value": "TESİS OTOPARK KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case042.manifest.body",
+   "value": "· Yük: Konteynır 22’den çıkan 14 sandık, ‘makine parçası’.\n· Varış: Newark limanı; 16 Ağustos’ta Napoli’ye kalkan bir gemiye aktarma.\n· Napoli’deki alıcı: bir liman nakliye şirketi; onay kutusunda iki harf: ‘E. V.’"
+  },
+  {
+   "key": "case042.manifest.title",
+   "value": "YÜK MANİFESTOSU"
+  },
+  {
+   "key": "case042.method.co",
+   "value": "Egzoz tıkandı, kabin karbonmonoksitle doldu"
+  },
+  {
+   "key": "case042.method.cold",
+   "value": "Klimada donarak öldü"
+  },
+  {
+   "key": "case042.method.heart",
+   "value": "Uykuda kalp krizi"
+  },
+  {
+   "key": "case042.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case042.offer.subtitle",
+   "value": "FIRTINA  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case042.offer.summary",
+   "value": "Indiana’da bir dinlenme tesisinde Lakeshore’un şoförü kendi kabininde ölü; dorsesi boş."
+  },
+  {
+   "key": "case042.offer.title",
+   "value": "DOSYA #042"
+  },
+  {
+   "key": "case042.patel.body",
+   "value": "Gece kasiyeri."
+  },
+  {
+   "key": "case042.patel.deflect",
+   "value": "Ben kasadayım, park yeri benim işim değil."
+  },
+  {
+   "key": "case042.patel.earl.answer",
+   "value": "Ayda iki kere uğrardı. Bu sefer gergindi. ‘Bu yük bitince emekliyim, Sunny’ dedi. ‘Bu yükte iyi bir şey yok.’"
+  },
+  {
+   "key": "case042.patel.earl.question",
+   "value": "Earl’ü tanır mıydınız?"
+  },
+  {
+   "key": "case042.patel.night.answer",
+   "value": "Yağmur, şimşek. Gece yarısı iki şoför kahve aldı, beraber; şapkalı olan ‘Earl, bu gece ben ısmarlıyorum’ dedi. 03.30 gibi kuzey uçta farlar gördüm, bir kamyon manevra yapıyordu. Kamera oraya bakıyor; kaydı vereyim."
+  },
+  {
+   "key": "case042.patel.night.answer.demeanor",
+   "value": "Yaka kartını parmaklarıyla düzeltiyor."
+  },
+  {
+   "key": "case042.patel.night.question",
+   "value": "Gece ne gördünüz?"
+  },
+  {
+   "key": "case042.patel.title",
+   "value": "Sunny Patel — görüşme"
+  },
+  {
+   "key": "case042.person.hollis.info",
+   "value": "56 yaşında, Lakeshore Freight’ın gece sevk memuru."
+  },
+  {
+   "key": "case042.person.hollis.name",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.person.patel.info",
+   "value": "33 yaşında, otoyol dinlenme tesisinin gece kasiyeri."
+  },
+  {
+   "key": "case042.person.patel.name",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.person.tanner.info",
+   "value": "48 yaşında, tır şoförü; Lakeshore’un taşeronu."
+  },
+  {
+   "key": "case042.person.tanner.name",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.ragcheck.body",
+   "value": "Wade Tanner’ın kamyonunda yapılan incelemede:\n\n· Alet kutusunda kırmızı bir bez; bir ucu egzoz borusu çapında kıvrılmış ve isle sertleşmiş. Lifleri kurbanın egzozunun ağzındaki liflerle aynı.\n· Dorsede on dört sandık; ‘makine parçası’ etiketli, altlarında Paris müzayede lot numaraları.\n· Tanner’ın kendi seyir kaydı 03.18–03.58 arası hareket gösteriyor; ‘sabaha kadar uyudum’ ifadesiyle çelişiyor."
+  },
+  {
+   "key": "case042.ragcheck.title",
+   "value": "WADE TANNER’IN KAMYONU — İNCELEME"
+  },
+  {
+   "key": "case042.report.body",
+   "value": "14 Ağustos 2030 sabahı Indiana’da I-80/90 üzerindeki bir dinlenme tesisinde, Lakeshore Freight adına çalışan tır şoförü Earl Gaines (59) kendi kabininin yatağında ölü bulundu. Motor durmuş, yakıt deposu boş; soğutmalı dorsenin kapıları açık ve dorse boş.\n\nCesedi tesis kasiyeri Sunny Patel 06.20’de buldu. Aynı gece tesiste bir taşeron Lakeshore şoförü, Wade Tanner, de park etmişti. Kurbanın son telsiz teması gece sevk memuru Bev Hollis’le."
+  },
+  {
+   "key": "case042.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case042.request.eld",
+   "value": "Kurbanın seyir kaydını iste"
+  },
+  {
+   "key": "case042.request.line_cargo",
+   "value": "Yük ve gümrük hattını aç"
+  },
+  {
+   "key": "case042.request.line_phone",
+   "value": "Telefon kayıtları hattını aç"
+  },
+  {
+   "key": "case042.request.line_truck",
+   "value": "Kamyonlar ve adli inceleme hattını aç"
+  },
+  {
+   "key": "case042.request.manifest",
+   "value": "Yük manifestosunu iste"
+  },
+  {
+   "key": "case042.request.ragcheck",
+   "value": "Wade Tanner’ın kamyonunu incelemeye al"
+  },
+  {
+   "key": "case042.request.texts",
+   "value": "Wade Tanner’ın mesajlarını iste"
+  },
+  {
+   "key": "case042.summary.evidence",
+   "value": "Otopsi karbonmonoksiti, kamera egzoza uzanan adamı gösterdi. Kamyon hattı egzoz basıncını ve Tanner’ın dorsesindeki sandıkları, telefon hattı ‘Yük bende’ mesajını verdi. Yük hattı sandıkların varacağı yeri verdi: Napoli."
+  },
+  {
+   "key": "case042.summary.lesson",
+   "value": "Uykuda gelmiş gibi görünen bir ölüm, yalnız kanın rengiyle başka bir şey söyler."
+  },
+  {
+   "key": "case042.summary.location",
+   "value": "Indiana — Ağustos 2030"
+  },
+  {
+   "key": "case042.summary.truth",
+   "value": "Taşeron şoför Wade Tanner’a, Konteynır 22’nin sandıklarını Newark’a götüren Earl Gaines’i durdurması için on bin dolar teklif edildi. Fırtına gecesi dinlenme tesisinde Earl klimalı kabininde uyurken Tanner egzozu bir bezle tıkadı, sandıkları kendi dorsesine aktardı ve sabaha karşı bezi geri çekti."
+  },
+  {
+   "key": "case042.suspect.label",
+   "value": "Earl Gaines’i kim öldürdü?"
+  },
+  {
+   "key": "case042.tablet.caseLine",
+   "value": "DOSYA #042  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case042.tanner.body",
+   "value": "Taşeron şoför."
+  },
+  {
+   "key": "case042.tanner.deflect",
+   "value": "Yükümün ne olduğunu sormam, sürerim."
+  },
+  {
+   "key": "case042.tanner.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case042.tanner.end.presented.ragcheck",
+   "value": "Biri bana sandıklar için on bin dolar verdi, ‘Earl’ü uyut, yükü al, Newark’a sen götür’ dedi. Earl yükü bırakmazdı. Fırtınada herkes klimayla uyur, motor çalışır. Bezi tıkadım. Sandıkları aldım, bezi geri çektim. Donmuş görünür sanıyordum."
+  },
+  {
+   "key": "case042.tanner.end.presented.texts",
+   "value": "Mesajlar. Konvoy planı."
+  },
+  {
+   "key": "case042.tanner.end.question",
+   "value": "Egzozu siz tıkadınız."
+  },
+  {
+   "key": "case042.tanner.night.answer",
+   "value": "Earl’le kahve içtim, kendi kabinime gittim, sabaha kadar uyudum. Fırtınada kim yola çıkar? Sabah kalktım, Earl’ün yanına gittim, polis gelmişti."
+  },
+  {
+   "key": "case042.tanner.night.answer.demeanor",
+   "value": "Şapkasını çıkarıp saçını geriye atıyor."
+  },
+  {
+   "key": "case042.tanner.night.question",
+   "value": "Gece ne yaptınız?"
+  },
+  {
+   "key": "case042.tanner.night.variant0",
+   "value": "Kamera mı? Gece bir kez kalktım, Earl’ün egzozuna yağmur doluyordu, baktım, o kadar."
+  },
+  {
+   "key": "case042.tanner.title",
+   "value": "Wade Tanner — görüşme"
+  },
+  {
+   "key": "case042.texts.body",
+   "value": "· 12 Ağustos, bilinmeyen numaradan Wade Tanner’a: ‘Gaines bırakmayacak. On bin. Newark’ta gemi 16’sında. — H.’\n· 13 Ağustos 23.58, Wade Tanner → Bev Hollis: ‘Ben de buradayım, sabah konvoy.’\n· 14 Ağustos 04.10, Wade Tanner → bilinmeyen numara: ‘Yük bende.’\n\nBilinmeyen numaranın kaydı: Lakeshore Freight kurumsal hattı, kullanıcı ‘C. Harlan’."
+  },
+  {
+   "key": "case042.texts.title",
+   "value": "WADE TANNER’IN MESAJLARI"
+  },
+  {
+   "key": "case042.time.climb",
+   "value": "01.04"
+  },
+  {
+   "key": "case042.time.found",
+   "value": "06.20"
+  },
+  {
+   "key": "case042.time.load",
+   "value": "03.20–03.55"
+  },
+  {
+   "key": "case042.time.pull",
+   "value": "04.02"
+  },
+  {
+   "key": "case042.time.radio",
+   "value": "00.50"
+  },
+  {
+   "key": "case042.title",
+   "value": "Dosya #042 — Fırtına"
+  },
+  {
+   "key": "case042.verdict.accident",
+   "value": "Kimse — fırtınada egzoz gazı kabine doldu"
+  },
+  {
+   "key": "case042.verdict.hollis",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.verdict.patel",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.verdict.tanner",
+   "value": "Wade Tanner"
+  }
+ ]
+}

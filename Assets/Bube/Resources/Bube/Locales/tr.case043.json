@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case043.ampservice.body",
+   "value": "Cedric Banks’in amfisi 2 Ağustos’ta bir atölyede bakımdan geçmiş; toprak hattı sağlam, fiş üç uçlu ve tam. Banks’in sabıka kaydı yok."
+  },
+  {
+   "key": "case043.ampservice.title",
+   "value": "AMFİ BAKIM KAYDI"
+  },
+  {
+   "key": "case043.autopsy.body",
+   "value": "· Elektrik çarpması; sağ avuçta giriş, sol ayak tabanında çıkış yanığı.\n· Kalp ritim bozukluğu; anlık ölüm.\n· Akım, standın tutma yerinden geçmiş. Ölüm saati 18.04."
+  },
+  {
+   "key": "case043.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case043.banks.amp.answer",
+   "value": "Kırk yıllık amfim. Öğlen bıraktım, 17.45’te geldiğimde sahneye kurulmuştu; ben kurmadım, Reggie ‘ben hallettim’ dedi. Mavis benim için ikinci annemdi."
+  },
+  {
+   "key": "case043.banks.amp.answer.demeanor",
+   "value": "Kulağının arkasındaki penayı alıp parmaklarında çeviriyor."
+  },
+  {
+   "key": "case043.banks.amp.question",
+   "value": "Amfi sizin miydi?"
+  },
+  {
+   "key": "case043.banks.body",
+   "value": "Gitarist."
+  },
+  {
+   "key": "case043.banks.deflect",
+   "value": "Ben çalarım, gerisini bilmem."
+  },
+  {
+   "key": "case043.banks.title",
+   "value": "Cedric Banks — görüşme"
+  },
+  {
+   "key": "case043.cctv.event.empty",
+   "value": "Kamera: Koridor boş; pano kapalı."
+  },
+  {
+   "key": "case043.cctv.event.off",
+   "value": "Kamera: Aynı adam dönüp panoyu yeniden açıyor, anahtarı geri çeviriyor ve hızla uzaklaşıyor."
+  },
+  {
+   "key": "case043.cctv.event.on",
+   "value": "Kamera: Koyu ceketli bir adam sigorta panosunu açıp bir anahtarı çeviriyor."
+  },
+  {
+   "key": "case043.cctv.overlay",
+   "value": "BACK-1"
+  },
+  {
+   "key": "case043.cctv.period",
+   "value": "23 Ağustos 2030"
+  },
+  {
+   "key": "case043.cctv.source",
+   "value": "Arka koridor kamerası"
+  },
+  {
+   "key": "case043.clue.death",
+   "value": "Mavis mikrofon standını tutuyor."
+  },
+  {
+   "key": "case043.clue.off",
+   "value": "Aynı adam anahtarı geri çevirip uzaklaşıyor."
+  },
+  {
+   "key": "case043.clue.on",
+   "value": "Koyu ceketli adam panoda bir anahtarı çeviriyor."
+  },
+  {
+   "key": "case043.clue.rom",
+   "value": "Bina sahibi kirayı alıp çıkıyor."
+  },
+  {
+   "key": "case043.clue.source.autopsy",
+   "value": "Otopsi"
+  },
+  {
+   "key": "case043.clue.source.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.custody.label",
+   "value": "Stand nasıl elektriklendi?"
+  },
+  {
+   "key": "case043.custody.old",
+   "value": "Amfinin içi çürümüştü"
+  },
+  {
+   "key": "case043.custody.rain",
+   "value": "Sahneye su sızmıştı"
+  },
+  {
+   "key": "case043.custody.rigged",
+   "value": "Toprak kesildi, köprü kablosu bağlandı, koruma kapatıldı"
+  },
+  {
+   "key": "case043.elec.body",
+   "value": "· Kablolar geçen ay yenilenmiş; sağlam.\n· Amfinin fişindeki toprak ucu yeni kesilmiş; amfinin içinde, şasiyi mikrofon standına bağlayan kırmızı bir köprü kablosu. Kablonun klipslerinde Reggie Holloway’in parmak izi.\n· Sahne devresinin kaçak akım koruması 17.58’de panodan elle kapatılmış, 18.06’da geri açılmış. Pano anahtarı yalnız müdürde."
+  },
+  {
+   "key": "case043.elec.title",
+   "value": "ELEKTRİK İNCELEMESİ — SAHNE VE PANO"
+  },
+  {
+   "key": "case043.epilogue.custody.old",
+   "value": "Amfi üç hafta önce bakımdan geçmişti."
+  },
+  {
+   "key": "case043.epilogue.custody.rain",
+   "value": "Sahne kuruydu."
+  },
+  {
+   "key": "case043.epilogue.custody.rigged",
+   "value": "Standın bir köprü kablosuyla elektriklendiği ve koruma devresinin elle kapatıldığı yazıldı."
+  },
+  {
+   "key": "case043.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; bina sahibine para cezası kesildi."
+  },
+  {
+   "key": "case043.epilogue.verdict.banks",
+   "value": "Cedric Banks tutuklandı; kulüp kapandı, defter yakıldı."
+  },
+  {
+   "key": "case043.epilogue.verdict.reggie",
+   "value": "Reggie Holloway tutuklandı. Kulübün nakit defteri Lakeshore şoförlerinin adlarıyla bube Chicago dosyasına girdi."
+  },
+  {
+   "key": "case043.epilogue.verdict.romano",
+   "value": "Vic Romano gözaltına alındı ve avukatıyla çıktı; dosya kaza olarak kapandı."
+  },
+  {
+   "key": "case043.evidence.ampservice",
+   "value": "Amfi bakım kaydı"
+  },
+  {
+   "key": "case043.evidence.elec",
+   "value": "Elektrik incelemesi"
+  },
+  {
+   "key": "case043.evidence.ledger",
+   "value": "Kasa ve banka kayıtları"
+  },
+  {
+   "key": "case043.evidence.panel",
+   "value": "Arka koridor kamerası"
+  },
+  {
+   "key": "case043.feedback.accident",
+   "value": "Kablolar yeniydi; toprak ucu kesilmiş, koruma devresi elle kapatılmıştı."
+  },
+  {
+   "key": "case043.feedback.banks",
+   "value": "Amfi onundu ama bakımı sağlamdı ve sahneye onu o kurmadı."
+  },
+  {
+   "key": "case043.feedback.reggie",
+   "value": "Köprü kablosunda onun izi var; koruma devresi yalnız onda anahtarı olan panodan, ölümden altı dakika önce kapatılıp iki dakika sonra açıldı. Mavis Lakeshore nakdini bulmuş ve ona sormuştu."
+  },
+  {
+   "key": "case043.feedback.romano",
+   "value": "Bina sahibi ölümden on dört dakika önce çıkmıştı; panonun anahtarı onda değil."
+  },
+  {
+   "key": "case043.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case043.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case043.file.value.location",
+   "value": "South Side, Chicago — müzik kulübü"
+  },
+  {
+   "key": "case043.file.value.number",
+   "value": "BDC-CHI-2030-0266"
+  },
+  {
+   "key": "case043.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case043.file.value.reporter",
+   "value": "Ambulans ekibi"
+  },
+  {
+   "key": "case043.ledger.body",
+   "value": "· Son on iki ayda 1,8 milyon dolar nakit; bilet ve bar satışının dört katı.\n· Nakit, Lakeshore Freight şoförleri tarafından haftada iki kez getirilmiş; teslim alan imza: Reggie Holloway.\n· Mavis Holloway’in 22 Ağustos tarihli el yazısı notu: ‘Reggie’ye sordum. Yalan söyledi. Sabah bube.’"
+  },
+  {
+   "key": "case043.ledger.title",
+   "value": "KASA VE BANKA KAYITLARI"
+  },
+  {
+   "key": "case043.line_cash.body",
+   "value": "Kulübün banka ve kasa kayıtları için hat açıldı."
+  },
+  {
+   "key": "case043.line_cash.title",
+   "value": "HAT B — KULÜBÜN KASASI"
+  },
+  {
+   "key": "case043.line_elec.body",
+   "value": "Sahnenin ve sigorta panosunun elektrik incelemesi için hat açıldı."
+  },
+  {
+   "key": "case043.line_elec.title",
+   "value": "HAT A — ELEKTRİK İNCELEMESİ"
+  },
+  {
+   "key": "case043.line_union.body",
+   "value": "Cedric Banks’in sicili ve amfisinin bakım kayıtları için hat açıldı."
+  },
+  {
+   "key": "case043.line_union.title",
+   "value": "HAT C — GİTARİSTİN GEÇMİŞİ"
+  },
+  {
+   "key": "case043.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case043.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case043.method.shock",
+   "value": "Amfiye köprü kablosu bağlanıp stand elektriklendi"
+  },
+  {
+   "key": "case043.method.wiring",
+   "value": "Eski kablolardan kaçak akım"
+  },
+  {
+   "key": "case043.monroe.body",
+   "value": "Solist."
+  },
+  {
+   "key": "case043.monroe.deflect",
+   "value": "Ben buraya ilk kez geldim."
+  },
+  {
+   "key": "case043.monroe.stage.answer",
+   "value": "Mavis Hanım ‘mikrofona bir bakayım, ses çatlıyor’ dedi, standı tuttu. Bir ses, bir koku… Cedric Bey’in amfisinin ışığı bir an sönüp yandı. Biri ‘sigortalar’ diye bağırdı, ama sigorta atmamıştı."
+  },
+  {
+   "key": "case043.monroe.stage.answer.demeanor",
+   "value": "Örgülerini omzunun üstünde topluyor."
+  },
+  {
+   "key": "case043.monroe.stage.question",
+   "value": "Sahnede ne gördünüz?"
+  },
+  {
+   "key": "case043.monroe.title",
+   "value": "Tasha Monroe — görüşme"
+  },
+  {
+   "key": "case043.offer.subtitle",
+   "value": "BLUES  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case043.offer.summary",
+   "value": "South Side’da kırk yıllık bir blues kulübünün sahibi ses kontrolünde mikrofon standını tutup öldü."
+  },
+  {
+   "key": "case043.offer.title",
+   "value": "DOSYA #043"
+  },
+  {
+   "key": "case043.panel.body",
+   "value": "Sigorta panosunun önü. 23 Ağustos 17.30 – 18.30."
+  },
+  {
+   "key": "case043.panel.title",
+   "value": "ARKA KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case043.person.banks.info",
+   "value": "61 yaşında, kulübün emektar gitaristi."
+  },
+  {
+   "key": "case043.person.banks.name",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.person.monroe.info",
+   "value": "29 yaşında, o gecenin solisti."
+  },
+  {
+   "key": "case043.person.monroe.name",
+   "value": "Tasha Monroe"
+  },
+  {
+   "key": "case043.person.pope.info",
+   "value": "66 yaşında, kulübün barmeni; kurbanın kırk yıllık arkadaşı."
+  },
+  {
+   "key": "case043.person.pope.name",
+   "value": "Earline Pope"
+  },
+  {
+   "key": "case043.person.reggie.info",
+   "value": "44 yaşında, kurbanın yeğeni; kulübün müdürü."
+  },
+  {
+   "key": "case043.person.reggie.name",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.person.romano.info",
+   "value": "57 yaşında, binanın sahibi; Lakeshore’un eski ortağı."
+  },
+  {
+   "key": "case043.person.romano.name",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.pope.body",
+   "value": "Barmen."
+  },
+  {
+   "key": "case043.pope.deflect",
+   "value": "Kırk yıldır bardayım, dedikodu yapmam."
+  },
+  {
+   "key": "case043.pope.last.answer",
+   "value": "Öğlen bara oturdu, defterleri önüne koydu. ‘Earline, bu kulüpten geçen para bizim değil’ dedi. ‘Sabah bube’ye gideceğim. Reggie’ye de söyledim, yüzü bembeyaz oldu.’ Arka koridorda kamera var, Mavis taktırmıştı; ona bakın."
+  },
+  {
+   "key": "case043.pope.last.answer.demeanor",
+   "value": "Gözlüğünü burnundan indirip tezgâhı siliyor."
+  },
+  {
+   "key": "case043.pope.last.question",
+   "value": "Mavis bugün ne söyledi?"
+  },
+  {
+   "key": "case043.pope.title",
+   "value": "Earline Pope — görüşme"
+  },
+  {
+   "key": "case043.reggie.body",
+   "value": "Kulübün müdürü."
+  },
+  {
+   "key": "case043.reggie.deflect",
+   "value": "Kulübün defterleri benim işim, teyzemin değil."
+  },
+  {
+   "key": "case043.reggie.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case043.reggie.end.presented.elec",
+   "value": "Biliyordu. Sabah gidecekti; Lakeshore’un adamları beni öldürürdü, sonra onu. Amfinin toprağını kestim, kabloyu standa bağladım. Panoda koruma devresini kapattım, açtım. Kaza gibi dursun diye. Bir saniye sürer dediler."
+  },
+  {
+   "key": "case043.reggie.end.presented.ledger",
+   "value": "Kulüp yaşasın diye para aldım, evet. Teyzem bilmiyordu."
+  },
+  {
+   "key": "case043.reggie.end.question",
+   "value": "Amfinin toprağını siz kestiniz."
+  },
+  {
+   "key": "case043.reggie.night.answer",
+   "value": "Ofiste, telefondaydım. Bağırışları duyup koştum. Bu bina yüz yaşında, kablolar çürük, Cedric’in amfisi de antika. Kaç kere söyledim."
+  },
+  {
+   "key": "case043.reggie.night.answer.demeanor",
+   "value": "Altın zincirini parmağıyla çekiştiriyor."
+  },
+  {
+   "key": "case043.reggie.night.question",
+   "value": "Ses kontrolü sırasında neredeydiniz?"
+  },
+  {
+   "key": "case043.reggie.night.variant0",
+   "value": "Panoya mı? Sahnede ses çatlıyordu, devreyi kontrol ettim. Bu da mı suç?"
+  },
+  {
+   "key": "case043.reggie.title",
+   "value": "Reggie Holloway — görüşme"
+  },
+  {
+   "key": "case043.report.body",
+   "value": "23 Ağustos 2030 akşamı South Side’daki bir blues kulübünde, ses kontrolü sırasında kulübün sahibi Mavis Holloway (68) sahnede mikrofon standına dokununca yere yığıldı; ambulansta öldü.\n\nKulüpte bulunanlar: müdür Reggie Holloway, gitarist Cedric Banks, solist Tasha Monroe, barmen Earline Pope. Bina sahibi Vic Romano olaydan on dakika önce kulüpten çıkmıştı."
+  },
+  {
+   "key": "case043.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case043.request.ampservice",
+   "value": "Amfi bakım kaydını iste"
+  },
+  {
+   "key": "case043.request.elec",
+   "value": "Sahne ve pano incelemesini iste"
+  },
+  {
+   "key": "case043.request.ledger",
+   "value": "Kasa ve banka kayıtlarını iste"
+  },
+  {
+   "key": "case043.request.line_cash",
+   "value": "Kulübün kasa hattını aç"
+  },
+  {
+   "key": "case043.request.line_elec",
+   "value": "Elektrik incelemesi hattını aç"
+  },
+  {
+   "key": "case043.request.line_union",
+   "value": "Gitaristin geçmiş hattını aç"
+  },
+  {
+   "key": "case043.romano.body",
+   "value": "Bina sahibi."
+  },
+  {
+   "key": "case043.romano.deflect",
+   "value": "Kira sözleşmesi avukatımda."
+  },
+  {
+   "key": "case043.romano.title",
+   "value": "Vic Romano — görüşme"
+  },
+  {
+   "key": "case043.romano.visit.answer",
+   "value": "Kira. Mavis kirayı her ay elden öder. Bu ay ‘bu son, Vic, bu binayı ve bu parayı istemiyorum’ dedi. 17.50’de çıktım. Lakeshore mu? Yıllar önce ortaktık, çoktan çıktım."
+  },
+  {
+   "key": "case043.romano.visit.answer.demeanor",
+   "value": "Serçe parmağındaki yüzüğü çeviriyor."
+  },
+  {
+   "key": "case043.romano.visit.question",
+   "value": "Bugün neden kulüpteydiniz?"
+  },
+  {
+   "key": "case043.summary.evidence",
+   "value": "Barmen Mavis’in son sözlerini ve koridor kamerasını, solist sahnede olanı verdi. Elektrik hattı köprü kablosundaki izi ve panoyu, kasa hattı Lakeshore nakdini gösterdi. Gitaristin hattı yalnız amfiyi akladı."
+  },
+  {
+   "key": "case043.summary.lesson",
+   "value": "Eski bir bina her şeyin bahanesi olabilir. Önce en son neyin yenilendiğine bak."
+  },
+  {
+   "key": "case043.summary.location",
+   "value": "South Side — Ağustos 2030"
+  },
+  {
+   "key": "case043.summary.truth",
+   "value": "Kulüp müdürü Reggie Holloway, Lakeshore Freight’ın nakdini teyzesinin kulübünden geçiriyordu. Mavis Holloway parayı bulup sabah bube’ye gideceğini söyleyince Reggie gitaristin amfisinin toprağını kesti, bir köprü kablosuyla mikrofon standını elektriklendirdi ve ses kontrolünden önce panodan koruma devresini kapattı."
+  },
+  {
+   "key": "case043.suspect.label",
+   "value": "Mavis Holloway’i kim öldürdü?"
+  },
+  {
+   "key": "case043.tablet.caseLine",
+   "value": "DOSYA #043  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case043.time.death",
+   "value": "18.04"
+  },
+  {
+   "key": "case043.time.empty",
+   "value": "17.59–18.05"
+  },
+  {
+   "key": "case043.time.off",
+   "value": "18.06"
+  },
+  {
+   "key": "case043.time.on",
+   "value": "17.58"
+  },
+  {
+   "key": "case043.time.rom",
+   "value": "17.50"
+  },
+  {
+   "key": "case043.title",
+   "value": "Dosya #043 — Blues"
+  },
+  {
+   "key": "case043.verdict.accident",
+   "value": "Kimse — eski kablolar"
+  },
+  {
+   "key": "case043.verdict.banks",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.verdict.reggie",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.verdict.romano",
+   "value": "Vic Romano"
+  }
+ ]
+}

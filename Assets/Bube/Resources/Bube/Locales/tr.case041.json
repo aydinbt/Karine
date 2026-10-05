@@ -1,0 +1,608 @@
+{
+ "entries": [
+  {
+   "key": "case041.autopsy.body",
+   "value": "· Boğulma; akciğerlerde klorlu su.\n· Kanda alkol yok.\n· İki omuzda ve ense kökünde parmak şeklinde taze morluklar; biri onu suyun altında tutmuş.\n· Sağ elin tırnaklarında lacivert yün lifleri. Ölüm zamanı: 23.45–00.15."
+  },
+  {
+   "key": "case041.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case041.bellini.body",
+   "value": "Barmen."
+  },
+  {
+   "key": "case041.bellini.deflect",
+   "value": "Ben içki dökerim, dinlemem."
+  },
+  {
+   "key": "case041.bellini.drink.answer",
+   "value": "Limonlu soda, bütün gece. Bana ‘patronların önünde ayık kalmam lazım’ dedi. Bu çocuk sarhoş olup havuza düşmedi."
+  },
+  {
+   "key": "case041.bellini.drink.answer.demeanor",
+   "value": "Bıyığını başparmağıyla düzeltiyor."
+  },
+  {
+   "key": "case041.bellini.drink.question",
+   "value": "Tyler ne içti?"
+  },
+  {
+   "key": "case041.bellini.talk.answer",
+   "value": "23.30 gibi saymanla bar ucunda. Sayman kızgındı, çocuğun koluna yapıştı. Sonra çocuk telefonla dışarı, havuz kapısına doğru çıktı."
+  },
+  {
+   "key": "case041.bellini.talk.question",
+   "value": "Biriyle tartıştı mı?"
+  },
+  {
+   "key": "case041.bellini.title",
+   "value": "Marco Bellini — görüşme"
+  },
+  {
+   "key": "case041.cctv.event.back",
+   "value": "Kamera: Aynı adam yalnız dönüyor; gömlek kolları ıslak, ceketinin kollarını aşağı çekiyor."
+  },
+  {
+   "key": "case041.cctv.event.older",
+   "value": "Kamera: Koyu takımlı, iri yapılı yaşlıca bir adam kart okutup aynı kapıdan geçiyor."
+  },
+  {
+   "key": "case041.cctv.event.young",
+   "value": "Kamera: Gömlekli genç bir adam elinde telefonla çatı kapısından geçiyor."
+  },
+  {
+   "key": "case041.cctv.overlay",
+   "value": "ROOF-2"
+  },
+  {
+   "key": "case041.cctv.period",
+   "value": "26 Temmuz 2030"
+  },
+  {
+   "key": "case041.cctv.source",
+   "value": "Servis koridoru kamerası"
+  },
+  {
+   "key": "case041.clue.argue",
+   "value": "Sayman, kurbanın koluna yapışıyor."
+  },
+  {
+   "key": "case041.clue.back",
+   "value": "Aynı adam ıslak kollarla dönüyor."
+  },
+  {
+   "key": "case041.clue.call",
+   "value": "Kurban gazeteciyi arıyor; bir adam ‘konuşalım’ diyor."
+  },
+  {
+   "key": "case041.clue.found",
+   "value": "Gece müdürü cesedi buluyor."
+  },
+  {
+   "key": "case041.clue.older",
+   "value": "İri yapılı adam kart okutup çatıya çıkıyor."
+  },
+  {
+   "key": "case041.clue.source.bellini",
+   "value": "Barmen"
+  },
+  {
+   "key": "case041.clue.source.kessler",
+   "value": "Nina Kessler"
+  },
+  {
+   "key": "case041.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case041.clue.young",
+   "value": "Genç adam çatı kapısından geçiyor."
+  },
+  {
+   "key": "case041.custody.card",
+   "value": "Saymanın süit kartıyla"
+  },
+  {
+   "key": "case041.custody.label",
+   "value": "Kapalı havuzun kapısı nasıl açıldı?"
+  },
+  {
+   "key": "case041.custody.own",
+   "value": "Kurban kendi kartıyla"
+  },
+  {
+   "key": "case041.custody.staff",
+   "value": "Personel kapıyı açık unuttu"
+  },
+  {
+   "key": "case041.donors.body",
+   "value": "Kurbanın dizüstü bilgisayarından ve seçim kurulu kayıtlarından:\n\n· 20 bağışçı, aynı adres: Lakeshore Freight Pilsen deposu. Her biri yasal üst sınırda.\n· Bağışların hepsini kaydeden ve onaylayan: sayman Gordon Pratt.\n· Bağışçıların on ikisi, bağış tarihinde deponun bordrosunda yok."
+  },
+  {
+   "key": "case041.donors.title",
+   "value": "BAĞIŞ DÖKÜMÜ"
+  },
+  {
+   "key": "case041.epilogue.custody.card",
+   "value": "Kapının 23.47’de saymanın süit kartıyla açıldığı yazıldı."
+  },
+  {
+   "key": "case041.epilogue.custody.own",
+   "value": "Kurbanın çatıya erişen kartı yoktu."
+  },
+  {
+   "key": "case041.epilogue.custody.staff",
+   "value": "Kayıtta kapının bir misafir kartıyla açıldığı görülüyordu."
+  },
+  {
+   "key": "case041.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; otel havuz kapısına yeni bir kilit taktı."
+  },
+  {
+   "key": "case041.epilogue.verdict.harlan",
+   "value": "Clint Harlan gözaltına alındı ve ertesi sabah avukatlarıyla çıktı; sayman kampanyayı yürütmeye devam etti."
+  },
+  {
+   "key": "case041.epilogue.verdict.pratt",
+   "value": "Gordon Pratt tutuklandı. Paravan bağışlar seçim kuruluna bildirildi; Clint Harlan’ın ifadesi Lakeshore avukatlarının huzurunda alındı."
+  },
+  {
+   "key": "case041.epilogue.verdict.vega",
+   "value": "Dolores Vega’ya soruşturma açıldı; seçimi kaybetti, dosya kapandı."
+  },
+  {
+   "key": "case041.evidence.donors",
+   "value": "Bağış dökümü"
+  },
+  {
+   "key": "case041.evidence.keycard",
+   "value": "Havuz kapısı kart kaydı"
+  },
+  {
+   "key": "case041.evidence.pressfile",
+   "value": "Gazetecinin notları"
+  },
+  {
+   "key": "case041.evidence.roof",
+   "value": "Servis koridoru kamerası"
+  },
+  {
+   "key": "case041.feedback.accident",
+   "value": "Kurbanın kanında alkol yok; omuzlarında ve ensesinde parmak morlukları var."
+  },
+  {
+   "key": "case041.feedback.harlan",
+   "value": "Lakeshore’un adamı paranın kaynağıydı ama bütün gece meclis üyesinin masasındaydı."
+  },
+  {
+   "key": "case041.feedback.pratt",
+   "value": "Havuz kapısını 23.47’de onun süit kartı açtı; on bir dakika sonra kolları ıslak döndü. Kurban paravan bağışları bulmuştu ve hepsini onaylayan saymandı."
+  },
+  {
+   "key": "case041.feedback.vega",
+   "value": "Meclis üyesi o saatte yüz kişinin önünde fotoğraf çektiriyordu."
+  },
+  {
+   "key": "case041.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case041.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case041.file.value.location",
+   "value": "Loop, Chicago — otel çatısı"
+  },
+  {
+   "key": "case041.file.value.number",
+   "value": "BDC-CHI-2030-0233"
+  },
+  {
+   "key": "case041.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case041.file.value.reporter",
+   "value": "Otel yönetimi"
+  },
+  {
+   "key": "case041.harlan.body",
+   "value": "Lakeshore Freight başkan yardımcısı."
+  },
+  {
+   "key": "case041.harlan.deflect",
+   "value": "Şirketimin bağışları yasaldır, başka söyleyecek yok."
+  },
+  {
+   "key": "case041.harlan.donate.answer",
+   "value": "Çalışanlarımız sivil katılımcıdır. Adres deponun adresi, posta oraya gelir. Ben bütün gece Bayan Vega’nın masasındaydım."
+  },
+  {
+   "key": "case041.harlan.donate.answer.demeanor",
+   "value": "Saatini bileğinde çeviriyor."
+  },
+  {
+   "key": "case041.harlan.donate.question",
+   "value": "Şirketinizin işçileri neden aynı adresten bağış yapıyor?"
+  },
+  {
+   "key": "case041.harlan.title",
+   "value": "Clint Harlan — görüşme"
+  },
+  {
+   "key": "case041.jordan.body",
+   "value": "Ev arkadaşı."
+  },
+  {
+   "key": "case041.jordan.deflect",
+   "value": "Tyler’ın işini pek bilmezdim."
+  },
+  {
+   "key": "case041.jordan.last.answer",
+   "value": "Bir haftadır geceleri bağış tablolarına bakıyordu. ‘Aynı adresten yirmi kişi bağış yapmış, hepsi bir nakliye şirketinin depo işçisi’ dedi. Bir gazeteciyle görüşüyordu. 23.40’ta bana yazdı: ‘Çatıya çıkıyorum, Nina’yı arayacağım.’"
+  },
+  {
+   "key": "case041.jordan.last.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp gözlerini ovuşturuyor."
+  },
+  {
+   "key": "case041.jordan.last.question",
+   "value": "Tyler size bir şey söyledi mi?"
+  },
+  {
+   "key": "case041.jordan.title",
+   "value": "Jordan Lee — görüşme"
+  },
+  {
+   "key": "case041.kessler.body",
+   "value": "Gazeteci."
+  },
+  {
+   "key": "case041.kessler.call.answer",
+   "value": "23.43’te. ‘Buldum, sayman hepsini biliyor, yarın her şeyi getiriyorum’ dedi. Arkadan bir kapı sesi, bir adam ‘Tyler, konuşalım’ dedi. Hat kesildi. Ben aşağıda, lobideydim; yukarı çıkmama izin vermediler."
+  },
+  {
+   "key": "case041.kessler.call.answer.demeanor",
+   "value": "Gözlüğünü kafasının üstüne itiyor."
+  },
+  {
+   "key": "case041.kessler.call.question",
+   "value": "Tyler sizi aradı mı?"
+  },
+  {
+   "key": "case041.kessler.deflect",
+   "value": "Kaynaklarımı açıklamam."
+  },
+  {
+   "key": "case041.kessler.title",
+   "value": "Nina Kessler — görüşme"
+  },
+  {
+   "key": "case041.keycard.body",
+   "value": "26 Temmuz:\n\n· 23.41 — kapı itilerek açıldı (içeriden tutulmuş, kart yok)\n· 23.47 — Çatı süiti 2 kartı: misafir Gordon Pratt\n· 23.58 — çıkış, aynı kart\n· 00.40 — personel kartı: Ahmed Saleh\n\nHavuz süzgecinden bir kol düğmesi ve suya düşmüş bir telefon çıkarıldı."
+  },
+  {
+   "key": "case041.keycard.title",
+   "value": "HAVUZ KAPISI KART KAYDI"
+  },
+  {
+   "key": "case041.line_finance.body",
+   "value": "Vega kampanyasının bağış ve harcama kayıtları için hat açıldı."
+  },
+  {
+   "key": "case041.line_finance.title",
+   "value": "HAT B — KAMPANYA FİNANSI"
+  },
+  {
+   "key": "case041.line_hotel.body",
+   "value": "Otelin kart, oda ve havuz kayıtları için hat açıldı."
+  },
+  {
+   "key": "case041.line_hotel.title",
+   "value": "HAT A — OTEL SİSTEMLERİ"
+  },
+  {
+   "key": "case041.line_press.body",
+   "value": "Nina Kessler’in gönüllü olarak verdiği dosya ve kayıtlar için hat açıldı."
+  },
+  {
+   "key": "case041.line_press.title",
+   "value": "HAT C — GAZETECİNİN DOSYASI"
+  },
+  {
+   "key": "case041.method.drown",
+   "value": "Havuzda suyun altında tutuldu"
+  },
+  {
+   "key": "case041.method.fall",
+   "value": "Sarhoşken havuza düştü"
+  },
+  {
+   "key": "case041.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case041.method.slip",
+   "value": "Kenarda kayıp başını çarptı"
+  },
+  {
+   "key": "case041.offer.subtitle",
+   "value": "KONGRE  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case041.offer.summary",
+   "value": "Loop’ta bir otelin çatısında bağış yemeğinin ardından kampanyanın genç asistanı kapalı havuzda ölü bulundu."
+  },
+  {
+   "key": "case041.offer.title",
+   "value": "DOSYA #041"
+  },
+  {
+   "key": "case041.person.bellini.info",
+   "value": "45 yaşında, çatı barının barmeni."
+  },
+  {
+   "key": "case041.person.bellini.name",
+   "value": "Marco Bellini"
+  },
+  {
+   "key": "case041.person.harlan.info",
+   "value": "61 yaşında, Lakeshore Freight’ın kurumsal ilişkiler başkan yardımcısı; bağışçı."
+  },
+  {
+   "key": "case041.person.harlan.name",
+   "value": "Clint Harlan"
+  },
+  {
+   "key": "case041.person.jordan.info",
+   "value": "27 yaşında, kurbanın ev arkadaşı; kampanyada gönüllü."
+  },
+  {
+   "key": "case041.person.jordan.name",
+   "value": "Jordan Lee"
+  },
+  {
+   "key": "case041.person.kessler.info",
+   "value": "34 yaşında, yerel bir haber sitesinde araştırmacı gazeteci."
+  },
+  {
+   "key": "case041.person.kessler.name",
+   "value": "Nina Kessler"
+  },
+  {
+   "key": "case041.person.pratt.info",
+   "value": "58 yaşında, kampanyanın saymanı."
+  },
+  {
+   "key": "case041.person.pratt.name",
+   "value": "Gordon Pratt"
+  },
+  {
+   "key": "case041.person.saleh.info",
+   "value": "39 yaşında, otelin gece müdürü."
+  },
+  {
+   "key": "case041.person.saleh.name",
+   "value": "Ahmed Saleh"
+  },
+  {
+   "key": "case041.person.vega.info",
+   "value": "52 yaşında, Pilsen meclis üyesi; bağış yemeğinin ev sahibi."
+  },
+  {
+   "key": "case041.person.vega.name",
+   "value": "Dolores Vega"
+  },
+  {
+   "key": "case041.pratt.body",
+   "value": "Kampanya saymanı."
+  },
+  {
+   "key": "case041.pratt.deflect",
+   "value": "Bağış kayıtları seçim kuruluna verildi."
+  },
+  {
+   "key": "case041.pratt.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case041.pratt.end.presented.donors",
+   "value": "Tablolar, yorumlanabilir."
+  },
+  {
+   "key": "case041.pratt.end.presented.keycard",
+   "value": "Yirmi iki yıl bu işi yaptım. O çocuk bir telefonla bitirecekti. Telefonu elinden almaya çalıştım, havuzun kenarındaydık, düştü, ben de… tuttum. Bırakmadım. Telefonu suya attım. Harlan’a ‘halloldu’ dedim, hepsi bu."
+  },
+  {
+   "key": "case041.pratt.end.question",
+   "value": "23.47’de çatıya sizin kartınız açtı."
+  },
+  {
+   "key": "case041.pratt.night.answer",
+   "value": "Barda, sonra salonda. Çocukla mı? Bir rakam hatası için konuştuk, iş meselesi. Havuza hiç çıkmadım, yüzme bilmem bile."
+  },
+  {
+   "key": "case041.pratt.night.answer.demeanor",
+   "value": "Gözlüğünü burnunun üstüne itiyor."
+  },
+  {
+   "key": "case041.pratt.night.question",
+   "value": "Gece yarısından önce neredeydiniz?"
+  },
+  {
+   "key": "case041.pratt.night.variant0",
+   "value": "Hava almaya çıktım bir dakika. Çocuk orada değildi."
+  },
+  {
+   "key": "case041.pratt.title",
+   "value": "Gordon Pratt — görüşme"
+  },
+  {
+   "key": "case041.pressfile.body",
+   "value": "Nina Kessler’in Lakeshore dosyası:\n\n· Tyler’ın verdiği tabloların ilk sürümleri.\n· Bir eski Lakeshore şoförünün ifadesi: ‘Bir dinleme kaydı var. Bir kadın sesi. E. diye imzalıyor. Napoli diye bir yer geçiyor.’\n· Kayıt kimde, bilinmiyor."
+  },
+  {
+   "key": "case041.pressfile.title",
+   "value": "GAZETECİNİN NOTLARI"
+  },
+  {
+   "key": "case041.report.body",
+   "value": "26 Temmuz 2030 gecesi Loop’taki bir otelin çatısında meclis üyesi Dolores Vega için düzenlenen bağış yemeğinin ardından kampanya asistanı Tyler Brooks (26), saat 23.00’te kapanan çatı havuzunda ölü bulundu.\n\nCesedi gece müdürü Ahmed Saleh 00.40’ta buldu. Çatıda ve barda yemeğe katılanlar arasında: Dolores Vega, Gordon Pratt, Clint Harlan, Nina Kessler, Jordan Lee; barmen Marco Bellini."
+  },
+  {
+   "key": "case041.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case041.request.donors",
+   "value": "Bağış dökümünü iste"
+  },
+  {
+   "key": "case041.request.keycard",
+   "value": "Havuz kapısı kart kaydını iste"
+  },
+  {
+   "key": "case041.request.line_finance",
+   "value": "Kampanya finansı hattını aç"
+  },
+  {
+   "key": "case041.request.line_hotel",
+   "value": "Otel sistemleri hattını aç"
+  },
+  {
+   "key": "case041.request.line_press",
+   "value": "Gazetecinin dosya hattını aç"
+  },
+  {
+   "key": "case041.request.pressfile",
+   "value": "Gazetecinin notlarını iste"
+  },
+  {
+   "key": "case041.roof.body",
+   "value": "Havuz kapısı. 26 Temmuz 23.00 – 00.45."
+  },
+  {
+   "key": "case041.roof.title",
+   "value": "ÇATI SERVİS KORİDORU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case041.saleh.body",
+   "value": "Gece müdürü."
+  },
+  {
+   "key": "case041.saleh.deflect",
+   "value": "Misafir bilgileri otel politikasına tabidir."
+  },
+  {
+   "key": "case041.saleh.door.answer",
+   "value": "Kilitlenir. Sonra yalnız personel kartları ve çatı süiti misafirlerinin kartı açar. Kart kaydını çıkarabiliriz, ama otelin avukatı bir talep ister."
+  },
+  {
+   "key": "case041.saleh.door.answer.demeanor",
+   "value": "Yaka iğnesini düzeltiyor."
+  },
+  {
+   "key": "case041.saleh.door.question",
+   "value": "Havuz kapısı 23.00’te kilitlenmiyor mu?"
+  },
+  {
+   "key": "case041.saleh.title",
+   "value": "Ahmed Saleh — görüşme"
+  },
+  {
+   "key": "case041.summary.evidence",
+   "value": "Barmen kurbanın ayık olduğunu, gazeteci son aramayı, kamera ıslak kollarla dönen adamı gösterdi. Otel hattı kart kaydını, finans hattı paravan bağışları verdi. Gazetecinin hattı bir sesten söz etti: E. ve Napoli."
+  },
+  {
+   "key": "case041.summary.lesson",
+   "value": "Kalabalık bir masada herkes bir şey bilir; yalnız biri kapıyı açar."
+  },
+  {
+   "key": "case041.summary.location",
+   "value": "Loop — Temmuz 2030"
+  },
+  {
+   "key": "case041.summary.truth",
+   "value": "Kampanya saymanı Gordon Pratt, Lakeshore Freight’ın parasını depo işçisi adlarıyla meclis üyesinin kampanyasına akıtıyordu. Asistan Tyler Brooks bağışçıların yirmisinin aynı adreste olduğunu bulup gazeteciyi çatıdan arayınca Pratt kendi süit kartıyla kapalı havuza çıktı, telefonu almaya çalıştı ve onu suyun altında tuttu."
+  },
+  {
+   "key": "case041.suspect.label",
+   "value": "Tyler Brooks’u kim öldürdü?"
+  },
+  {
+   "key": "case041.tablet.caseLine",
+   "value": "DOSYA #041  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case041.time.argue",
+   "value": "23.30"
+  },
+  {
+   "key": "case041.time.back",
+   "value": "23.58"
+  },
+  {
+   "key": "case041.time.call",
+   "value": "23.43"
+  },
+  {
+   "key": "case041.time.found",
+   "value": "00.40"
+  },
+  {
+   "key": "case041.time.older",
+   "value": "23.47"
+  },
+  {
+   "key": "case041.time.young",
+   "value": "23.41"
+  },
+  {
+   "key": "case041.title",
+   "value": "Dosya #041 — Kongre"
+  },
+  {
+   "key": "case041.vega.body",
+   "value": "Meclis üyesi."
+  },
+  {
+   "key": "case041.vega.deflect",
+   "value": "Kampanya meselelerini saymanıma sorun."
+  },
+  {
+   "key": "case041.vega.night.answer",
+   "value": "Ana salonda, konuşmamdan sonra bağışçılarla fotoğraf. Yüz kişi gördü. Tyler benim en iyi çocuğumdu. Bağışları Gordon yönetir; ben hiç bakmam, bakmam da gerekmez."
+  },
+  {
+   "key": "case041.vega.night.answer.demeanor",
+   "value": "Küpesine dokunuyor."
+  },
+  {
+   "key": "case041.vega.night.question",
+   "value": "23.30’dan sonra neredeydiniz?"
+  },
+  {
+   "key": "case041.vega.title",
+   "value": "Dolores Vega — görüşme"
+  },
+  {
+   "key": "case041.verdict.accident",
+   "value": "Kimse — sarhoş düştü"
+  },
+  {
+   "key": "case041.verdict.harlan",
+   "value": "Clint Harlan"
+  },
+  {
+   "key": "case041.verdict.pratt",
+   "value": "Gordon Pratt"
+  },
+  {
+   "key": "case041.verdict.vega",
+   "value": "Dolores Vega"
+  }
+ ]
+}

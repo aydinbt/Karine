@@ -1,0 +1,496 @@
+{
+ "entries": [
+  {
+   "key": "case040.autopsy.body",
+   "value": "· Kandaki karbonmonoksit yüksek; yangın sırasında canlıymış ve nefes almış.\n· Kanda yüksek dozda zolpidem (uyku ilacı); kurbanın reçetesinde yok.\n· Kaçmaya çalışmamış: koltuktan kalkmamış."
+  },
+  {
+   "key": "case040.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case040.cctv.event.glow",
+   "value": "Kamera: Karşı evin ön penceresinin arkasında turuncu bir ışık; saçaklardan duman."
+  },
+  {
+   "key": "case040.cctv.event.in",
+   "value": "Kamera: Kanvas iş ceketli bir adam karşı evin merdivenlerinden çıkıp içeri giriyor."
+  },
+  {
+   "key": "case040.cctv.event.out",
+   "value": "Kamera: Aynı adam hızla çıkıyor, kapıyı çekiyor, bir kamyonete yürüyor."
+  },
+  {
+   "key": "case040.cctv.overlay",
+   "value": "DOOR-1"
+  },
+  {
+   "key": "case040.cctv.period",
+   "value": "18–19 Temmuz 2030"
+  },
+  {
+   "key": "case040.cctv.source",
+   "value": "Kapı kamerası"
+  },
+  {
+   "key": "case040.clue.call",
+   "value": "Komşu yangını bildiriyor."
+  },
+  {
+   "key": "case040.clue.glow",
+   "value": "Pencerede turuncu ışık."
+  },
+  {
+   "key": "case040.clue.in",
+   "value": "İş ceketli adam karşı eve giriyor."
+  },
+  {
+   "key": "case040.clue.out",
+   "value": "Aynı adam hızla çıkıp kamyonete yürüyor."
+  },
+  {
+   "key": "case040.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case040.custody.dead",
+   "value": "Pil zaten bitmişti"
+  },
+  {
+   "key": "case040.custody.label",
+   "value": "Duman dedektörü neden ötmedi?"
+  },
+  {
+   "key": "case040.custody.never",
+   "value": "Dedektör hiç takılmamıştı"
+  },
+  {
+   "key": "case040.custody.removed",
+   "value": "Pili katil çıkardı"
+  },
+  {
+   "key": "case040.door.body",
+   "value": "Sokak, karşı kaldırım. 18–19 Temmuz 22.30 – 00.30."
+  },
+  {
+   "key": "case040.door.title",
+   "value": "KARŞI EVİN KAPI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case040.duffy.body",
+   "value": "Kurbanın damadı."
+  },
+  {
+   "key": "case040.duffy.deflect",
+   "value": "Şirketimin hesapları beni ilgilendirir."
+  },
+  {
+   "key": "case040.duffy.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case040.duffy.end.presented.policy",
+   "value": "Poliçe mi? Megan’ın babası, ailevi iş. Borcum var, evet, herkesin var."
+  },
+  {
+   "key": "case040.duffy.end.presented.prints",
+   "value": "Yüz yirmi bin dolar. Bahisçiler kapıma geldi. Walt ölse poliçe Megan’a kalacaktı, Megan’a kalan bana. İlacı viskisine attım, uyuyana kadar oturdum. Pili çıkardım, sigarayı gazetelerin arasına koydum, çıktım. Uyandığında acı çekmez sandım."
+  },
+  {
+   "key": "case040.duffy.end.question",
+   "value": "Dedektörün pilini siz çıkardınız."
+  },
+  {
+   "key": "case040.duffy.night.answer",
+   "value": "Walt’a yemek götürdüm, 22.30 gibi çıktım. Sonra Halsted’de bir bardaydım, gece yarısına kadar. Bir viski içtik, o kadar."
+  },
+  {
+   "key": "case040.duffy.night.answer.demeanor",
+   "value": "Ceketinin fermuarını açıp kapatıyor."
+  },
+  {
+   "key": "case040.duffy.night.question",
+   "value": "O akşam neredeydiniz?"
+  },
+  {
+   "key": "case040.duffy.night.variant0",
+   "value": "Kamera mı? Saatler yanlış olabilir. Tamam, biraz daha kaldım, maç izledik."
+  },
+  {
+   "key": "case040.duffy.title",
+   "value": "Kyle Duffy — görüşme"
+  },
+  {
+   "key": "case040.epilogue.custody.dead",
+   "value": "Pil çöpte, içi doluydu."
+  },
+  {
+   "key": "case040.epilogue.custody.never",
+   "value": "Dedektör tavandaydı; pil yuvası boştu."
+  },
+  {
+   "key": "case040.epilogue.custody.removed",
+   "value": "Pilin çıkarılıp mutfak çöpüne atıldığı yazıldı."
+  },
+  {
+   "key": "case040.epilogue.verdict.accident",
+   "value": "Yangın kaza sayıldı; poliçe ödendi."
+  },
+  {
+   "key": "case040.epilogue.verdict.duffy",
+   "value": "Kyle Duffy tutuklandı. Walt Brennan’ın defteri bube Chicago’nun Lakeshore dosyasına eklendi."
+  },
+  {
+   "key": "case040.epilogue.verdict.megan",
+   "value": "Megan Brennan tutuklandı; hastane kayıtları üç hafta sonra onu akladı."
+  },
+  {
+   "key": "case040.epilogue.verdict.okafor",
+   "value": "Grace Okafor sorgulandı; dosya yanlış yoldaydı."
+  },
+  {
+   "key": "case040.evidence.door",
+   "value": "Kapı kamerası"
+  },
+  {
+   "key": "case040.evidence.policy",
+   "value": "Sigorta ve borç kayıtları"
+  },
+  {
+   "key": "case040.evidence.prints",
+   "value": "Dedektör ve bardak analizi"
+  },
+  {
+   "key": "case040.evidence.waltbook",
+   "value": "Walt’ın defteri"
+  },
+  {
+   "key": "case040.feedback.accident",
+   "value": "Kurban sigara içmiyordu, kanında reçetesiz uyku ilacı vardı, dedektör pilsizdi."
+  },
+  {
+   "key": "case040.feedback.duffy",
+   "value": "Kapı kamerası onu 22.30’da değil 23.51’de çıkarken gösteriyor; dedektörün pil yuvasında ve pilde onun izi var. 120.000 dolar borcu vardı ve iki gün önce reçetesiz uyku ilacı aramıştı."
+  },
+  {
+   "key": "case040.feedback.megan",
+   "value": "Lehdar oydu ama bütün gece hastanede nöbetteydi."
+  },
+  {
+   "key": "case040.feedback.okafor",
+   "value": "Komşu yangını bildirdi ve kendi kamerasını verdi; eve hiç girmedi."
+  },
+  {
+   "key": "case040.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case040.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case040.file.value.location",
+   "value": "Bridgeport, Chicago — konut"
+  },
+  {
+   "key": "case040.file.value.number",
+   "value": "BDC-CHI-2030-0219"
+  },
+  {
+   "key": "case040.file.value.offence",
+   "value": "Şüpheli ölüm / yangın"
+  },
+  {
+   "key": "case040.file.value.reporter",
+   "value": "İtfaiye"
+  },
+  {
+   "key": "case040.line_archive.body",
+   "value": "Walt Brennan’ın evden kurtarılan kâğıtları ve eski dosya talepleri için hat açıldı."
+  },
+  {
+   "key": "case040.line_archive.title",
+   "value": "HAT C — KURBANIN ESKİ POLİS ARŞİVİ"
+  },
+  {
+   "key": "case040.line_fire.body",
+   "value": "Yangın yerinden alınan örneklerin laboratuvar hattı açıldı."
+  },
+  {
+   "key": "case040.line_fire.title",
+   "value": "HAT A — YANGIN LABORATUVARI"
+  },
+  {
+   "key": "case040.line_money.body",
+   "value": "Kurbanın ve ailesinin mali kayıtları için hat açıldı."
+  },
+  {
+   "key": "case040.line_money.title",
+   "value": "HAT B — MALİ KAYITLAR"
+  },
+  {
+   "key": "case040.megan.body",
+   "value": "Kurbanın kızı."
+  },
+  {
+   "key": "case040.megan.deflect",
+   "value": "Babamın eski işleri hakkında bir şey bilmem."
+  },
+  {
+   "key": "case040.megan.kyle.answer",
+   "value": "Kyle o akşam ona yemek götürdü, her perşembe götürür. Sonra bara gittiğini söyledi."
+  },
+  {
+   "key": "case040.megan.kyle.question",
+   "value": "Kocanız babanızla nasıldı?"
+  },
+  {
+   "key": "case040.megan.night.answer",
+   "value": "Hastanede, gece nöbetindeydim, 19.00’dan 07.00’ye. Kyle aradı, ‘babanın evi yanıyor’ dedi. Babam sigarayı yirmi yıl önce bıraktı. Ve uyku ilacı mı? Ben hemşireyim, ona hiç yazdırmadım."
+  },
+  {
+   "key": "case040.megan.night.answer.demeanor",
+   "value": "Hırkasının kollarını parmaklarının üstüne çekiyor."
+  },
+  {
+   "key": "case040.megan.night.question",
+   "value": "O gece neredeydiniz?"
+  },
+  {
+   "key": "case040.megan.title",
+   "value": "Megan Brennan — görüşme"
+  },
+  {
+   "key": "case040.method.heart",
+   "value": "Kalp krizi geçirdi, ardından yangın"
+  },
+  {
+   "key": "case040.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case040.method.sedate",
+   "value": "Uyku ilacıyla bayıltıldı, ev ateşe verildi"
+  },
+  {
+   "key": "case040.method.smoke",
+   "value": "Sigarası yangın çıkardı"
+  },
+  {
+   "key": "case040.offer.subtitle",
+   "value": "YANGIN  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case040.offer.summary",
+   "value": "Bridgeport’ta emekli bir polis dedektifi gece yangınında koltuğunda öldü. Yirmi yıldır sigara içmiyordu."
+  },
+  {
+   "key": "case040.offer.title",
+   "value": "DOSYA #040"
+  },
+  {
+   "key": "case040.okafor.body",
+   "value": "Komşu."
+  },
+  {
+   "key": "case040.okafor.deflect",
+   "value": "Ben yalnız gördüğümü söylerim."
+  },
+  {
+   "key": "case040.okafor.night.answer",
+   "value": "Saat on ikiyi geçiyordu, duman kokusu. Pencereden baktım, Walt’ın camı turuncuydu. Aradım. Torunum bana bir kapı kamerası taktı, sokağı görür; ne kaydettiyse bakın."
+  },
+  {
+   "key": "case040.okafor.night.answer.demeanor",
+   "value": "Gözlüğünü zincirinden alıp takıyor."
+  },
+  {
+   "key": "case040.okafor.night.question",
+   "value": "Gece ne gördünüz?"
+  },
+  {
+   "key": "case040.okafor.title",
+   "value": "Grace Okafor — görüşme"
+  },
+  {
+   "key": "case040.okafor.walt.answer",
+   "value": "Emekliydi ama emekli gibi yaşamadı. Son aylarda her gece arabasıyla çıkıp Pilsen’de kamyon izliyordu. ‘Grace, bunu bitirince kitap yazacağım’ dedi."
+  },
+  {
+   "key": "case040.okafor.walt.question",
+   "value": "Walt nasıl biriydi?"
+  },
+  {
+   "key": "case040.person.duffy.info",
+   "value": "41 yaşında, kurbanın damadı; inşaat müteahhidi."
+  },
+  {
+   "key": "case040.person.duffy.name",
+   "value": "Kyle Duffy"
+  },
+  {
+   "key": "case040.person.megan.info",
+   "value": "38 yaşında, kurbanın kızı; hemşire."
+  },
+  {
+   "key": "case040.person.megan.name",
+   "value": "Megan Brennan"
+  },
+  {
+   "key": "case040.person.okafor.info",
+   "value": "70 yaşında, kurbanın komşusu; emekli öğretmen."
+  },
+  {
+   "key": "case040.person.okafor.name",
+   "value": "Grace Okafor"
+  },
+  {
+   "key": "case040.person.ramirez.info",
+   "value": "44 yaşında, itfaiyenin yangın araştırmacısı."
+  },
+  {
+   "key": "case040.person.ramirez.name",
+   "value": "Luz Ramírez"
+  },
+  {
+   "key": "case040.policy.body",
+   "value": "· Walt Brennan’ın 400.000 dolarlık hayat poliçesi; lehdar Megan Brennan.\n· Kyle Duffy adına üç çevrimiçi bahis hesabında toplam 120.000 dolar borç; son tahsilat uyarısı 15 Temmuz.\n· Kyle Duffy’nin telefonunda 17 Temmuz araması: ‘zolpidem reçetesiz’."
+  },
+  {
+   "key": "case040.policy.title",
+   "value": "HAYAT SİGORTASI VE BORÇ KAYITLARI"
+  },
+  {
+   "key": "case040.prints.body",
+   "value": "· Duman dedektörünün pil yuvası kapağında tek bir net parmak izi: Kyle Duffy (müteahhit lisansı kaydından).\n· Pil, mutfak çöpünde; üzerinde aynı iz.\n· Viski bardağının dibindeki tortu: zolpidem, ezilmiş tablet.\n· Sigara izmariti: kurbanın ağız salgısı yok."
+  },
+  {
+   "key": "case040.prints.title",
+   "value": "DEDEKTÖR VE BARDAK — LABORATUVAR"
+  },
+  {
+   "key": "case040.ramirez.body",
+   "value": "Yangın araştırmacısı."
+  },
+  {
+   "key": "case040.ramirez.deflect",
+   "value": "Rapor bitmeden yorum yapmam."
+  },
+  {
+   "key": "case040.ramirez.origin.answer",
+   "value": "Koltuğun yanındaki sehpadan, bir sigaradan, yanındaki gazete yığınından. Ama sigara kül tablasında değil, gazetelerin arasına sıkışmış. Dedektör pilsizdi. Pil yuvasından iz almak için laboratuvara gönderebiliriz."
+  },
+  {
+   "key": "case040.ramirez.origin.answer.demeanor",
+   "value": "Yanağındaki isi elinin tersiyle siliyor."
+  },
+  {
+   "key": "case040.ramirez.origin.question",
+   "value": "Yangın nereden başladı?"
+  },
+  {
+   "key": "case040.ramirez.title",
+   "value": "Luz Ramírez — görüşme"
+  },
+  {
+   "key": "case040.report.body",
+   "value": "19 Temmuz 2030 gecesi Bridgeport’taki bir sıra evde çıkan yangında emekli polis dedektifi Walt Brennan (72) oturma odasındaki koltukta ölü bulundu.\n\nYangını 00.21’de komşu Grace Okafor bildirdi. İtfaiye 00.29’da ulaştı. Ev sahibinin kızı Megan Brennan ve damadı Kyle Duffy aynı gece bilgilendirildi."
+  },
+  {
+   "key": "case040.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case040.request.line_archive",
+   "value": "Kurbanın arşiv hattını aç"
+  },
+  {
+   "key": "case040.request.line_fire",
+   "value": "Yangın laboratuvarı hattını aç"
+  },
+  {
+   "key": "case040.request.line_money",
+   "value": "Mali kayıtlar hattını aç"
+  },
+  {
+   "key": "case040.request.policy",
+   "value": "Sigorta ve borç kayıtlarını iste"
+  },
+  {
+   "key": "case040.request.prints",
+   "value": "Dedektör ve bardak analizini iste"
+  },
+  {
+   "key": "case040.request.waltbook",
+   "value": "Kurtarılan defteri iste"
+  },
+  {
+   "key": "case040.summary.evidence",
+   "value": "Otopsi kurbanın yangında canlı ve uyutulmuş olduğunu, kapı kamerası damadın gerçek çıkış saatini gösterdi. Laboratuvar hattı pildeki izi, mali hat borcu verdi. Arşiv hattı katili değil, Walt’ın Lakeshore defterini verdi: Konteynır 22 ve ‘E.’"
+  },
+  {
+   "key": "case040.summary.lesson",
+   "value": "Üçüncü hat bu dosyayı çözmedi. Ama bir sonrakini değiştirebilir."
+  },
+  {
+   "key": "case040.summary.location",
+   "value": "Bridgeport — Temmuz 2030"
+  },
+  {
+   "key": "case040.summary.truth",
+   "value": "Kyle Duffy 120.000 dolarlık bahis borcunu kayınpederinin hayat poliçesiyle kapatmayı planladı. Perşembe yemeğinde Walt Brennan’ın viskisine uyku ilacı attı, uyuyana kadar bekledi, dedektörün pilini çıkardı ve sigarayı gazetelerin arasına koydu. Walt hiç uyanmadı."
+  },
+  {
+   "key": "case040.suspect.label",
+   "value": "Walt Brennan’ı kim öldürdü?"
+  },
+  {
+   "key": "case040.tablet.caseLine",
+   "value": "DOSYA #040  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case040.time.call",
+   "value": "00.21"
+  },
+  {
+   "key": "case040.time.glow",
+   "value": "00.14"
+  },
+  {
+   "key": "case040.time.in",
+   "value": "23.12"
+  },
+  {
+   "key": "case040.time.out",
+   "value": "23.51"
+  },
+  {
+   "key": "case040.title",
+   "value": "Dosya #040 — Yangın"
+  },
+  {
+   "key": "case040.verdict.accident",
+   "value": "Kimse — sigaradan çıkan kaza"
+  },
+  {
+   "key": "case040.verdict.duffy",
+   "value": "Kyle Duffy"
+  },
+  {
+   "key": "case040.verdict.megan",
+   "value": "Megan Brennan"
+  },
+  {
+   "key": "case040.verdict.okafor",
+   "value": "Grace Okafor"
+  },
+  {
+   "key": "case040.waltbook.body",
+   "value": "Yarısı yanmış bloknottan okunabilenler:\n\n· Mart–Temmuz: Lakeshore Freight kamyonları, plaka ve saat sütunları; Pilsen deposu, gece 01.00–03.00.\n· ‘Konteynır 22 — Paris’ten. Beyan: makine.’\n· ‘Eski bir muhbir bir ses kaydından söz ediyor. Biri E. diye birine rapor veriyor.’\n· Son satır: ‘Pazartesi Pilsen’deki yeni şubeye götür.’"
+  },
+  {
+   "key": "case040.waltbook.title",
+   "value": "WALT’IN DEFTERİ"
+  }
+ ]
+}

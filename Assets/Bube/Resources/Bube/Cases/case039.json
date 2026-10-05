@@ -1,0 +1,638 @@
+{
+ "deskHour": 8,
+ "deskDate": "12 Temmuz 2030",
+ "titleKey": "case039.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case039.report.title",
+   "bodyKey": "case039.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case039.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case039.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case039.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case039.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case039.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case039.autopsy.title",
+   "bodyKey": "case039.autopsy.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "inspect",
+   "kind": "document",
+   "titleKey": "case039.inspect.title",
+   "bodyKey": "case039.inspect.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.inspect",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "dock",
+   "kind": "cctv",
+   "titleKey": "case039.dock.title",
+   "bodyKey": "case039.dock.body",
+   "requires": [
+    "report"
+   ],
+   "cctvSourceKey": "case039.cctv.source",
+   "cctvOverlayKey": "case039.cctv.overlay",
+   "cctvPeriodKey": "case039.cctv.period",
+   "cctvEvents": [
+    {
+     "id": "lying",
+     "textKey": "case039.cctv.event.lying",
+     "delayMs": 620,
+     "overlayTimeKey": "case039.time.lying"
+    },
+    {
+     "id": "drive",
+     "textKey": "case039.cctv.event.drive",
+     "delayMs": 620,
+     "overlayTimeKey": "case039.time.drive"
+    },
+    {
+     "id": "fall",
+     "textKey": "case039.cctv.event.fall",
+     "delayMs": 620,
+     "overlayTimeKey": "case039.time.fall"
+    }
+   ]
+  },
+  {
+   "id": "reyes",
+   "kind": "interview",
+   "titleKey": "case039.reyes.title",
+   "bodyKey": "case039.reyes.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "reyes",
+   "personNameKey": "case039.person.reyes.name",
+   "personInfoKey": "case039.person.reyes.info",
+   "questions": [
+    {
+     "id": "case039.reyes.labels",
+     "promptKey": "case039.reyes.labels.question",
+     "answerKey": "case039.reyes.labels.answer",
+     "topicKey": "interview.topic.records"
+    },
+    {
+     "id": "case039.reyes.night",
+     "promptKey": "case039.reyes.night.question",
+     "answerKey": "case039.reyes.night.answer",
+     "topicKey": "interview.topic.day",
+     "requiresAsked": [
+      "case039.reyes.labels"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case039.reyes.labels",
+    "case039.reyes.night"
+   ],
+   "deflectAnswerKey": "case039.reyes.deflect",
+   "portrait": {
+    "hairHex": "#1E1410",
+    "skinHex": "#C89870",
+    "shirtHex": "#6A7A3A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "novak",
+   "kind": "interview",
+   "titleKey": "case039.novak.title",
+   "bodyKey": "case039.novak.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "novak",
+   "personNameKey": "case039.person.novak.name",
+   "personInfoKey": "case039.person.novak.info",
+   "questions": [
+    {
+     "id": "case039.novak.msg",
+     "promptKey": "case039.novak.msg.question",
+     "answerKey": "case039.novak.msg.answer",
+     "topicKey": "interview.topic.relationships"
+    }
+   ],
+   "completionQuestionIds": [
+    "case039.novak.msg"
+   ],
+   "deflectAnswerKey": "case039.novak.deflect",
+   "portrait": {
+    "hairHex": "#B89A6A",
+    "skinHex": "#EED2BC",
+    "shirtHex": "#D86A2A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "carter",
+   "kind": "interview",
+   "titleKey": "case039.carter.title",
+   "bodyKey": "case039.carter.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "carter",
+   "personNameKey": "case039.person.carter.name",
+   "personInfoKey": "case039.person.carter.info",
+   "questions": [
+    {
+     "id": "case039.carter.cam",
+     "promptKey": "case039.carter.cam.question",
+     "answerKey": "case039.carter.cam.answer",
+     "topicKey": "interview.topic.observations"
+    }
+   ],
+   "completionQuestionIds": [
+    "case039.carter.cam"
+   ],
+   "deflectAnswerKey": "case039.carter.deflect",
+   "portrait": {
+    "hairHex": "#141010",
+    "skinHex": "#6A4430",
+    "shirtHex": "#1E2A3A"
+   }
+  },
+  {
+   "id": "lindqvist",
+   "kind": "interview",
+   "titleKey": "case039.lindqvist.title",
+   "bodyKey": "case039.lindqvist.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "lindqvist",
+   "personNameKey": "case039.person.lindqvist.name",
+   "personInfoKey": "case039.person.lindqvist.info",
+   "questions": [
+    {
+     "id": "case039.lindqvist.rack",
+     "promptKey": "case039.lindqvist.rack.question",
+     "answerKey": "case039.lindqvist.rack.answer",
+     "topicKey": "interview.topic.explanation"
+    }
+   ],
+   "completionQuestionIds": [
+    "case039.lindqvist.rack"
+   ],
+   "deflectAnswerKey": "case039.lindqvist.deflect",
+   "portrait": {
+    "hairHex": "#E0DCD4",
+    "skinHex": "#F0D6C4",
+    "shirtHex": "#5A5A4A"
+   }
+  },
+  {
+   "id": "hector",
+   "kind": "interview",
+   "titleKey": "case039.hector.title",
+   "bodyKey": "case039.hector.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "hector",
+   "personNameKey": "case039.person.hector.name",
+   "personInfoKey": "case039.person.hector.info",
+   "questions": [
+    {
+     "id": "case039.hector.debt",
+     "promptKey": "case039.hector.debt.question",
+     "answerKey": "case039.hector.debt.answer",
+     "topicKey": "interview.topic.relationships"
+    }
+   ],
+   "completionQuestionIds": [
+    "case039.hector.debt"
+   ],
+   "deflectAnswerKey": "case039.hector.deflect",
+   "portrait": {
+    "hairHex": "#1A1410",
+    "skinHex": "#B88A64",
+    "shirtHex": "#2A2A2A"
+   }
+  },
+  {
+   "id": "kowalski",
+   "kind": "interview",
+   "titleKey": "case039.kowalski.title",
+   "bodyKey": "case039.kowalski.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "kowalski",
+   "personNameKey": "case039.person.kowalski.name",
+   "personInfoKey": "case039.person.kowalski.info",
+   "questions": [
+    {
+     "id": "case039.kowalski.night",
+     "promptKey": "case039.kowalski.night.question",
+     "answerKey": "case039.kowalski.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case039.kowalski.end",
+     "promptKey": "case039.kowalski.end.question",
+     "answerKey": "case039.kowalski.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "telematics",
+      "texts"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "texts",
+       "answerKey": "case039.kowalski.end.presented.texts"
+      },
+      {
+       "sourceId": "telematics",
+       "answerKey": "case039.kowalski.end.presented.telematics"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case039.kowalski.night",
+    "case039.kowalski.end"
+   ],
+   "deflectAnswerKey": "case039.kowalski.deflect",
+   "portrait": {
+    "hairHex": "#9A8A74",
+    "skinHex": "#EACCB4",
+    "shirtHex": "#3A4A5A"
+   }
+  },
+  {
+   "id": "line_ops",
+   "kind": "document",
+   "titleKey": "case039.line_ops.title",
+   "bodyKey": "case039.line_ops.body",
+   "requires": [
+    "inspect"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.line_ops",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "inspect",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "inspect",
+      "dock"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "telematics",
+   "kind": "document",
+   "titleKey": "case039.telematics.title",
+   "bodyKey": "case039.telematics.body",
+   "requires": [
+    "line_ops"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.telematics",
+   "requestDelaySeconds": 5,
+   "line": "line_ops"
+  },
+  {
+   "id": "roster",
+   "kind": "document",
+   "titleKey": "case039.roster.title",
+   "bodyKey": "case039.roster.body",
+   "requires": [
+    "line_ops"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.roster",
+   "requestDelaySeconds": 4,
+   "line": "line_ops"
+  },
+  {
+   "id": "line_phone",
+   "kind": "document",
+   "titleKey": "case039.line_phone.title",
+   "bodyKey": "case039.line_phone.body",
+   "requires": [
+    "novak"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.line_phone",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "novak",
+      "reyes"
+     ]
+    },
+    {
+     "sources": [
+      "novak",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "texts",
+   "kind": "document",
+   "titleKey": "case039.texts.title",
+   "bodyKey": "case039.texts.body",
+   "requires": [
+    "line_phone"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.texts",
+   "requestDelaySeconds": 5,
+   "line": "line_phone"
+  },
+  {
+   "id": "tower",
+   "kind": "document",
+   "titleKey": "case039.tower.title",
+   "bodyKey": "case039.tower.body",
+   "requires": [
+    "line_phone"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.tower",
+   "requestDelaySeconds": 5,
+   "line": "line_phone"
+  },
+  {
+   "id": "line_parole",
+   "kind": "document",
+   "titleKey": "case039.line_parole.title",
+   "bodyKey": "case039.line_parole.body",
+   "requires": [
+    "hector"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.line_parole",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "hector",
+      "report"
+     ]
+    },
+    {
+     "sources": [
+      "hector",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "monitor",
+   "kind": "document",
+   "titleKey": "case039.monitor.title",
+   "bodyKey": "case039.monitor.body",
+   "requires": [
+    "line_parole"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case039.request.monitor",
+   "requestDelaySeconds": 4,
+   "line": "line_parole"
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "t1",
+   "timeKey": "case039.time.t1",
+   "noteKey": "case039.clue.t1",
+   "sourceKey": "case039.clue.source.texts",
+   "requiresRead": [
+    "texts"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "t2",
+   "timeKey": "case039.time.t2",
+   "noteKey": "case039.clue.t2",
+   "sourceKey": "case039.clue.source.texts",
+   "requiresRead": [
+    "texts"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "lying",
+   "timeKey": "case039.time.lying",
+   "noteKey": "case039.clue.lying",
+   "sourceKey": "case039.cctv.source",
+   "requiresRead": [
+    "dock"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "login",
+   "timeKey": "case039.time.login",
+   "noteKey": "case039.clue.login",
+   "sourceKey": "case039.clue.source.telematics",
+   "requiresRead": [
+    "telematics"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "fall",
+   "timeKey": "case039.time.fall",
+   "noteKey": "case039.clue.fall",
+   "sourceKey": "case039.cctv.source",
+   "requiresRead": [
+    "dock"
+   ],
+   "sortMinute": 480
+  },
+  {
+   "id": "call",
+   "timeKey": "case039.time.call",
+   "noteKey": "case039.clue.call",
+   "sourceKey": "case039.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 600
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "kowalski",
+   "labelKey": "case039.verdict.kowalski",
+   "correct": true,
+   "feedbackKey": "case039.feedback.kowalski",
+   "requires": [],
+   "epilogueKey": "case039.epilogue.verdict.kowalski",
+   "supportingSourceIds": [
+    "telematics",
+    "texts",
+    "tower"
+   ]
+  },
+  {
+   "id": "hector",
+   "labelKey": "case039.verdict.hector",
+   "correct": false,
+   "feedbackKey": "case039.feedback.hector",
+   "requires": [],
+   "epilogueKey": "case039.epilogue.verdict.hector"
+  },
+  {
+   "id": "novak",
+   "labelKey": "case039.verdict.novak",
+   "correct": false,
+   "feedbackKey": "case039.feedback.novak",
+   "requires": [],
+   "epilogueKey": "case039.epilogue.verdict.novak"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case039.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case039.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case039.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "bar",
+   "labelKey": "case039.method.bar",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "inspect"
+   ]
+  },
+  {
+   "id": "crush",
+   "labelKey": "case039.method.crush",
+   "correct": false
+  },
+  {
+   "id": "forklift",
+   "labelKey": "case039.method.forklift",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "staged",
+   "labelKey": "case039.custody.staged",
+   "correct": true,
+   "epilogueKey": "case039.epilogue.custody.staged",
+   "supportingSourceIds": [
+    "inspect",
+    "telematics",
+    "autopsy"
+   ]
+  },
+  {
+   "id": "fatigue",
+   "labelKey": "case039.custody.fatigue",
+   "correct": false,
+   "epilogueKey": "case039.epilogue.custody.fatigue"
+  },
+  {
+   "id": "hit",
+   "labelKey": "case039.custody.hit",
+   "correct": false,
+   "epilogueKey": "case039.epilogue.custody.hit"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "telematics",
+   "labelKey": "case039.evidence.telematics",
+   "correct": true,
+   "supportingSourceIds": [
+    "telematics"
+   ]
+  },
+  {
+   "id": "texts",
+   "labelKey": "case039.evidence.texts",
+   "correct": false
+  },
+  {
+   "id": "inspect",
+   "labelKey": "case039.evidence.inspect",
+   "correct": false
+  },
+  {
+   "id": "monitor",
+   "labelKey": "case039.evidence.monitor",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "lineSlots": 2,
+ "lineReopenPenaltySeconds": 20,
+ "suspectLabelKey": "case039.suspect.label",
+ "methodLabelKey": "case039.method.label",
+ "custodyLabelKey": "case039.custody.label",
+ "summary": {
+  "locationKey": "case039.summary.location",
+  "truthKey": "case039.summary.truth",
+  "evidenceKey": "case039.summary.evidence",
+  "lessonKey": "case039.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case040",
+ "ambienceId": "room_night",
+ "id": "case039"
+}

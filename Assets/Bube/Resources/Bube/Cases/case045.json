@@ -1,0 +1,638 @@
+{
+ "deskHour": 8,
+ "deskDate": "13 Eylül 2030",
+ "titleKey": "case045.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case045.report.title",
+   "bodyKey": "case045.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case045.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case045.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case045.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case045.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case045.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case045.autopsy.title",
+   "bodyKey": "case045.autopsy.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "lobby",
+   "kind": "cctv",
+   "titleKey": "case045.lobby.title",
+   "bodyKey": "case045.lobby.body",
+   "requires": [
+    "abrams"
+   ],
+   "cctvSourceKey": "case045.cctv.source",
+   "cctvOverlayKey": "case045.cctv.overlay",
+   "cctvPeriodKey": "case045.cctv.period",
+   "cctvEvents": [
+    {
+     "id": "arrive",
+     "textKey": "case045.cctv.event.arrive",
+     "delayMs": 620,
+     "overlayTimeKey": "case045.time.arrive"
+    },
+    {
+     "id": "console",
+     "textKey": "case045.cctv.event.console",
+     "delayMs": 620,
+     "overlayTimeKey": "case045.time.console"
+    },
+    {
+     "id": "leave",
+     "textKey": "case045.cctv.event.leave",
+     "delayMs": 620,
+     "overlayTimeKey": "case045.time.leave"
+    }
+   ]
+  },
+  {
+   "id": "ochoa",
+   "kind": "interview",
+   "titleKey": "case045.ochoa.title",
+   "bodyKey": "case045.ochoa.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "ochoa",
+   "personNameKey": "case045.person.ochoa.name",
+   "personInfoKey": "case045.person.ochoa.info",
+   "questions": [
+    {
+     "id": "case045.ochoa.pen",
+     "promptKey": "case045.ochoa.pen.question",
+     "answerKey": "case045.ochoa.pen.answer",
+     "topicKey": "interview.topic.home"
+    },
+    {
+     "id": "case045.ochoa.study",
+     "promptKey": "case045.ochoa.study.question",
+     "answerKey": "case045.ochoa.study.answer",
+     "topicKey": "interview.topic.observations",
+     "requiresAsked": [
+      "case045.ochoa.pen"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case045.ochoa.pen",
+    "case045.ochoa.study"
+   ],
+   "deflectAnswerKey": "case045.ochoa.deflect",
+   "portrait": {
+    "hairHex": "#2A1E18",
+    "skinHex": "#C49470",
+    "shirtHex": "#4A4A5A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "abrams",
+   "kind": "interview",
+   "titleKey": "case045.abrams.title",
+   "bodyKey": "case045.abrams.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "abrams",
+   "personNameKey": "case045.person.abrams.name",
+   "personInfoKey": "case045.person.abrams.info",
+   "questions": [
+    {
+     "id": "case045.abrams.door",
+     "promptKey": "case045.abrams.door.question",
+     "answerKey": "case045.abrams.door.answer",
+     "topicKey": "interview.topic.observations"
+    }
+   ],
+   "completionQuestionIds": [
+    "case045.abrams.door"
+   ],
+   "deflectAnswerKey": "case045.abrams.deflect",
+   "portrait": {
+    "hairHex": "#2A2420",
+    "skinHex": "#E2C0A4",
+    "shirtHex": "#1A1A1A"
+   }
+  },
+  {
+   "id": "trevor",
+   "kind": "interview",
+   "titleKey": "case045.trevor.title",
+   "bodyKey": "case045.trevor.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "trevor",
+   "personNameKey": "case045.person.trevor.name",
+   "personInfoKey": "case045.person.trevor.info",
+   "questions": [
+    {
+     "id": "case045.trevor.fight",
+     "promptKey": "case045.trevor.fight.question",
+     "answerKey": "case045.trevor.fight.answer",
+     "topicKey": "interview.topic.relationships"
+    }
+   ],
+   "completionQuestionIds": [
+    "case045.trevor.fight"
+   ],
+   "deflectAnswerKey": "case045.trevor.deflect",
+   "portrait": {
+    "hairHex": "#C8A060",
+    "skinHex": "#F0D6C0",
+    "shirtHex": "#6A8AA0"
+   }
+  },
+  {
+   "id": "quinn",
+   "kind": "interview",
+   "titleKey": "case045.quinn.title",
+   "bodyKey": "case045.quinn.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "quinn",
+   "personNameKey": "case045.person.quinn.name",
+   "personInfoKey": "case045.person.quinn.info",
+   "questions": [
+    {
+     "id": "case045.quinn.night",
+     "promptKey": "case045.quinn.night.question",
+     "answerKey": "case045.quinn.night.answer",
+     "topicKey": "interview.topic.day",
+     "answerVariants": [
+      {
+       "answerKey": "case045.quinn.night.variant0",
+       "requiresRead": [
+        "lobby"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case045.quinn.end",
+     "promptKey": "case045.quinn.end.question",
+     "answerKey": "case045.quinn.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "medlab",
+      "tape"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "medlab",
+       "answerKey": "case045.quinn.end.presented.medlab"
+      },
+      {
+       "sourceId": "tape",
+       "answerKey": "case045.quinn.end.presented.tape"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case045.quinn.night",
+    "case045.quinn.end"
+   ],
+   "deflectAnswerKey": "case045.quinn.deflect",
+   "portrait": {
+    "hairHex": "#8A8278",
+    "skinHex": "#EED4C0",
+    "shirtHex": "#1E1E24",
+    "longHair": true
+   }
+  },
+  {
+   "id": "line_med",
+   "kind": "document",
+   "titleKey": "case045.line_med.title",
+   "bodyKey": "case045.line_med.body",
+   "requires": [
+    "ochoa"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case045.request.line_med",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "ochoa",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "ochoa",
+      "lobby"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "medlab",
+   "kind": "document",
+   "titleKey": "case045.medlab.title",
+   "bodyKey": "case045.medlab.body",
+   "requires": [
+    "line_med"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case045.request.medlab",
+   "requestDelaySeconds": 6,
+   "line": "line_med"
+  },
+  {
+   "id": "line_tape",
+   "kind": "document",
+   "titleKey": "case045.line_tape.title",
+   "bodyKey": "case045.line_tape.body",
+   "requires": [
+    "abrams"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case045.request.line_tape",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "abrams",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "abrams",
+      "trevor"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "tape",
+   "kind": "document",
+   "titleKey": "case045.tape.title",
+   "bodyKey": "case045.tape.body",
+   "requires": [
+    "line_tape"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case045.request.tape",
+   "requestDelaySeconds": 6,
+   "line": "line_tape"
+  },
+  {
+   "id": "line_money",
+   "kind": "document",
+   "titleKey": "case045.line_money.title",
+   "bodyKey": "case045.line_money.body",
+   "requires": [
+    "trevor"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case045.request.line_money",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "trevor",
+      "report"
+     ]
+    },
+    {
+     "sources": [
+      "trevor",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "accounts",
+   "kind": "document",
+   "titleKey": "case045.accounts.title",
+   "bodyKey": "case045.accounts.body",
+   "requires": [
+    "line_money"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case045.request.accounts",
+   "requestDelaySeconds": 5,
+   "line": "line_money"
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "fight",
+   "timeKey": "case045.time.fight",
+   "noteKey": "case045.clue.fight",
+   "sourceKey": "case045.clue.source.trevor",
+   "requiresRead": [
+    "trevor"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "prep",
+   "timeKey": "case045.time.prep",
+   "noteKey": "case045.clue.prep",
+   "sourceKey": "case045.clue.source.ochoa",
+   "requiresRead": [
+    "ochoa"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "arrive",
+   "timeKey": "case045.time.arrive",
+   "noteKey": "case045.clue.arrive",
+   "sourceKey": "case045.cctv.source",
+   "requiresRead": [
+    "lobby"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "say",
+   "timeKey": "case045.time.say",
+   "noteKey": "case045.clue.say",
+   "sourceKey": "case045.clue.source.tape",
+   "requiresRead": [
+    "tape"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "console",
+   "timeKey": "case045.time.console",
+   "noteKey": "case045.clue.console",
+   "sourceKey": "case045.cctv.source",
+   "requiresRead": [
+    "lobby"
+   ],
+   "sortMinute": 480
+  },
+  {
+   "id": "leave",
+   "timeKey": "case045.time.leave",
+   "noteKey": "case045.clue.leave",
+   "sourceKey": "case045.cctv.source",
+   "requiresRead": [
+    "lobby"
+   ],
+   "sortMinute": 600
+  },
+  {
+   "id": "dose",
+   "timeKey": "case045.time.dose",
+   "noteKey": "case045.clue.dose",
+   "sourceKey": "case045.clue.source.tape",
+   "requiresRead": [
+    "tape"
+   ],
+   "sortMinute": 720
+  },
+  {
+   "id": "found",
+   "timeKey": "case045.time.found",
+   "noteKey": "case045.clue.found",
+   "sourceKey": "case045.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 840
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "quinn",
+   "labelKey": "case045.verdict.quinn",
+   "correct": true,
+   "feedbackKey": "case045.feedback.quinn",
+   "requires": [],
+   "epilogueKey": "case045.epilogue.verdict.quinn",
+   "supportingSourceIds": [
+    "medlab",
+    "tape",
+    "ochoa"
+   ]
+  },
+  {
+   "id": "trevor",
+   "labelKey": "case045.verdict.trevor",
+   "correct": false,
+   "feedbackKey": "case045.feedback.trevor",
+   "requires": [],
+   "epilogueKey": "case045.epilogue.verdict.trevor"
+  },
+  {
+   "id": "ochoa",
+   "labelKey": "case045.verdict.ochoa",
+   "correct": false,
+   "feedbackKey": "case045.feedback.ochoa",
+   "requires": [],
+   "epilogueKey": "case045.epilogue.verdict.ochoa"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case045.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case045.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case045.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "insulin",
+   "labelKey": "case045.method.insulin",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "medlab"
+   ]
+  },
+  {
+   "id": "overdose",
+   "labelKey": "case045.method.overdose",
+   "correct": false
+  },
+  {
+   "id": "heart",
+   "labelKey": "case045.method.heart",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "swapped",
+   "labelKey": "case045.custody.swapped",
+   "correct": true,
+   "epilogueKey": "case045.epilogue.custody.swapped",
+   "supportingSourceIds": [
+    "medlab",
+    "ochoa",
+    "lobby"
+   ]
+  },
+  {
+   "id": "pharmacy",
+   "labelKey": "case045.custody.pharmacy",
+   "correct": false,
+   "epilogueKey": "case045.epilogue.custody.pharmacy"
+  },
+  {
+   "id": "maid",
+   "labelKey": "case045.custody.maid",
+   "correct": false,
+   "epilogueKey": "case045.epilogue.custody.maid"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "medlab",
+   "labelKey": "case045.evidence.medlab",
+   "correct": true,
+   "supportingSourceIds": [
+    "medlab"
+   ]
+  },
+  {
+   "id": "tape",
+   "labelKey": "case045.evidence.tape",
+   "correct": false
+  },
+  {
+   "id": "lobby",
+   "labelKey": "case045.evidence.lobby",
+   "correct": false
+  },
+  {
+   "id": "accounts",
+   "labelKey": "case045.evidence.accounts",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "reconstruction": [
+  {
+   "id": "r_buy",
+   "labelKey": "case045.recon.r_buy",
+   "supportingSourceIds": [
+    "medlab"
+   ]
+  },
+  {
+   "id": "r_call",
+   "labelKey": "case045.recon.r_call",
+   "supportingSourceIds": [
+    "abrams"
+   ]
+  },
+  {
+   "id": "r_prep",
+   "labelKey": "case045.recon.r_prep",
+   "supportingSourceIds": [
+    "ochoa"
+   ]
+  },
+  {
+   "id": "r_warn",
+   "labelKey": "case045.recon.r_warn",
+   "supportingSourceIds": [
+    "tape"
+   ]
+  },
+  {
+   "id": "r_swap",
+   "labelKey": "case045.recon.r_swap",
+   "supportingSourceIds": [
+    "tape",
+    "medlab",
+    "ochoa"
+   ]
+  },
+  {
+   "id": "r_leave",
+   "labelKey": "case045.recon.r_leave",
+   "supportingSourceIds": [
+    "lobby"
+   ]
+  },
+  {
+   "id": "r_dose",
+   "labelKey": "case045.recon.r_dose",
+   "supportingSourceIds": [
+    "tape",
+    "autopsy"
+   ]
+  }
+ ],
+ "lineSlots": 2,
+ "lineReopenPenaltySeconds": 20,
+ "chapterFinale": {
+  "countryKey": "finale.country.us",
+  "progressKey": "finale.progress.us",
+  "nextCountryKey": "finale.country.it",
+  "nextFileKey": "finale.file.046",
+  "callKeys": [
+   "finale.call.1",
+   "finale.call.2",
+   "finale.us.call.3",
+   "finale.call.4",
+   "finale.us.call.5"
+  ],
+  "personnelBodyKey": "finale.us.personnelBody"
+ },
+ "suspectLabelKey": "case045.suspect.label",
+ "methodLabelKey": "case045.method.label",
+ "custodyLabelKey": "case045.custody.label",
+ "summary": {
+  "locationKey": "case045.summary.location",
+  "truthKey": "case045.summary.truth",
+  "evidenceKey": "case045.summary.evidence",
+  "lessonKey": "case045.summary.lesson"
+ },
+ "successfulReportTrustGain": 10,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "",
+ "ambienceId": "room_night",
+ "id": "case045"
+}

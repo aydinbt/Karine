@@ -1,0 +1,612 @@
+{
+ "entries": [
+  {
+   "key": "case039.autopsy.body",
+   "value": "· Başın sol yanında düz kenarlı, yaklaşık 3 cm genişliğinde derin bir darbe; kafatası kırığı. Bu yarada canlı doku tepkisi var.\n· Göğüs ve bacaklardaki ezilme yaralarında kanama çok az; ölüm sonrası.\n· Ölüm zamanı: 01.50–02.10. Raf, ölümden sonra devrilmiş."
+  },
+  {
+   "key": "case039.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case039.carter.body",
+   "value": "Güvenlik görevlisi."
+  },
+  {
+   "key": "case039.carter.cam.answer",
+   "value": "Kulübede tek ekran var, on altı kamera dönüyor. 02.00 sularında kapıdaki kamyona bakıyordum. Koridorlardaki herkes aynı yeleği giyer, ekrandan kimseyi tanıyamazsın."
+  },
+  {
+   "key": "case039.carter.cam.answer.demeanor",
+   "value": "Sakalını avucuyla sıvazlıyor."
+  },
+  {
+   "key": "case039.carter.cam.question",
+   "value": "Kameralara bakıyor muydunuz?"
+  },
+  {
+   "key": "case039.carter.deflect",
+   "value": "Ben kapıya bakarım, kutulara değil."
+  },
+  {
+   "key": "case039.carter.title",
+   "value": "Dwayne Carter — görüşme"
+  },
+  {
+   "key": "case039.cctv.event.drive",
+   "value": "Kamera: Reflektörlü yelekli biri forklifti koridora sürüyor; çatallar raf ayağının dibinde, alçakta."
+  },
+  {
+   "key": "case039.cctv.event.fall",
+   "value": "Kamera: Uzun raf eğilip devriliyor, sandıklar koridora düşüyor; forklift geri çekiliyor."
+  },
+  {
+   "key": "case039.cctv.event.lying",
+   "value": "Kamera: Koridorun sonunda bir forklift; yanında yerde hareketsiz yatan reflektörlü yelekli biri."
+  },
+  {
+   "key": "case039.cctv.overlay",
+   "value": "AISLE-14"
+  },
+  {
+   "key": "case039.cctv.period",
+   "value": "12 Temmuz 2030"
+  },
+  {
+   "key": "case039.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case039.clue.call",
+   "value": "Vardiya şefi kazayı bildiriyor."
+  },
+  {
+   "key": "case039.clue.fall",
+   "value": "Raf devriliyor; forklift geri çekiliyor."
+  },
+  {
+   "key": "case039.clue.login",
+   "value": "3 numaralı forklifte SUP-01 kartıyla oturum açılıyor."
+  },
+  {
+   "key": "case039.clue.lying",
+   "value": "Forkliftin yanında yerde hareketsiz biri."
+  },
+  {
+   "key": "case039.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case039.clue.source.telematics",
+   "value": "Telematik"
+  },
+  {
+   "key": "case039.clue.source.texts",
+   "value": "Mesajlar"
+  },
+  {
+   "key": "case039.clue.t1",
+   "value": "Luis, Novak’a yazıyor: ‘Konteynır 22.’"
+  },
+  {
+   "key": "case039.clue.t2",
+   "value": "Luis, Reyes’e yazıyor: ‘Konteynırın yanına çağırdı.’"
+  },
+  {
+   "key": "case039.custody.fatigue",
+   "value": "Cıvatalar yoruldu, kendiliğinden devrildi"
+  },
+  {
+   "key": "case039.custody.hit",
+   "value": "Kurban forkliftle çarptı"
+  },
+  {
+   "key": "case039.custody.label",
+   "value": "Raf nasıl devrildi?"
+  },
+  {
+   "key": "case039.custody.staged",
+   "value": "Ölümden sonra forkliftle devrildi"
+  },
+  {
+   "key": "case039.dock.body",
+   "value": "14 numaralı koridor. 12 Temmuz 01.30 – 02.30."
+  },
+  {
+   "key": "case039.dock.title",
+   "value": "KORİDOR 14 KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case039.epilogue.custody.fatigue",
+   "value": "Teftiş raporunda cıvataların yeni koptuğu yazıyordu."
+  },
+  {
+   "key": "case039.epilogue.custody.hit",
+   "value": "Kurban o saatte ölüydü; forklifte başka bir kartla girilmişti."
+  },
+  {
+   "key": "case039.epilogue.custody.staged",
+   "value": "Rafın ölümden sonra, bir forkliftin çatalıyla devrildiği yazıldı."
+  },
+  {
+   "key": "case039.epilogue.verdict.accident",
+   "value": "Ölüm iş kazası sayıldı; Lakeshore bir para cezası ödedi."
+  },
+  {
+   "key": "case039.epilogue.verdict.hector",
+   "value": "Hector Ortega tutuklandı; konteynır 22 ertesi gün yola çıktı."
+  },
+  {
+   "key": "case039.epilogue.verdict.kowalski",
+   "value": "Ray Kowalski tutuklandı. Konteynır 22 mühürlendi: içinde Maison Delorme’dan gelmiş on dört sandık, ‘makine parçası’ beyanlı. Lakeshore Freight’ın avukatları ertesi sabah şubedeydi."
+  },
+  {
+   "key": "case039.epilogue.verdict.novak",
+   "value": "Teresa Novak gözaltına alındı; sendika depoyu greve soktu, dosya kapandı."
+  },
+  {
+   "key": "case039.evidence.inspect",
+   "value": "İş güvenliği teftişi"
+  },
+  {
+   "key": "case039.evidence.monitor",
+   "value": "Elektronik kelepçe kaydı"
+  },
+  {
+   "key": "case039.evidence.telematics",
+   "value": "Forklift telematiği"
+  },
+  {
+   "key": "case039.evidence.texts",
+   "value": "Kurbanın mesajları"
+  },
+  {
+   "key": "case039.feedback.accident",
+   "value": "Kafadaki darbe canlıyken, ezilme yaraları ölümden sonra; cıvatalar yandan koparılmış."
+  },
+  {
+   "key": "case039.feedback.hector",
+   "value": "Ağabeyin borcu vardı ama kelepçe kaydı onu bütün gece Little Village’da gösteriyor."
+  },
+  {
+   "key": "case039.feedback.kowalski",
+   "value": "Luis’in son mesajı onu konteynırın yanına çağıranın Ray olduğunu yazıyor; baz istasyonu ikisini aynı yerde gösteriyor. Ölümden sonra 02.09’da forklifte onun kartıyla girilmiş, raf 02.12’de çatalla devrilmiş."
+  },
+  {
+   "key": "case039.feedback.novak",
+   "value": "Sendika temsilcisi o sırada 7 numaralı rampadaydı; Luis’in güvendiği kişi oydu."
+  },
+  {
+   "key": "case039.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case039.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case039.file.value.location",
+   "value": "Pilsen, Chicago — depo"
+  },
+  {
+   "key": "case039.file.value.number",
+   "value": "BDC-CHI-2030-0207"
+  },
+  {
+   "key": "case039.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case039.file.value.reporter",
+   "value": "Depo yönetimi"
+  },
+  {
+   "key": "case039.hector.body",
+   "value": "Kurbanın ağabeyi."
+  },
+  {
+   "key": "case039.hector.debt.answer",
+   "value": "Üç bin dolar. Kavga ettik, geçen hafta. Ama kardeşimi öldürmem. Ayağımda bilezik var, gece 22.00’den sonra evden çıkamam."
+  },
+  {
+   "key": "case039.hector.debt.answer.demeanor",
+   "value": "Boynundaki dövmeyi eliyle kapatıyor."
+  },
+  {
+   "key": "case039.hector.debt.question",
+   "value": "Kardeşinize borcunuz varmış."
+  },
+  {
+   "key": "case039.hector.deflect",
+   "value": "Şartlı tahliye memurumla konuşun."
+  },
+  {
+   "key": "case039.hector.title",
+   "value": "Hector Ortega — görüşme"
+  },
+  {
+   "key": "case039.inspect.body",
+   "value": "14 numaralı koridordaki raf:\n\n· Dört ankraj cıvatası kopmuş; kopma yüzeyleri parlak ve yeni, yorulma izi yok. Cıvatalar yandan, zemin hizasında itilerek koparılmış.\n· Raf ayağının dibinde iki paralel forklift çatalı sürtme izi; boya 3 numaralı forkliftin sarısı.\n· Rafın yükü sınırın altında. Kendiliğinden devrilmesi mümkün değil."
+  },
+  {
+   "key": "case039.inspect.title",
+   "value": "İŞ GÜVENLİĞİ TEFTİŞİ"
+  },
+  {
+   "key": "case039.kowalski.body",
+   "value": "Vardiya şefi."
+  },
+  {
+   "key": "case039.kowalski.deflect",
+   "value": "Depo prosedürleri şirketin işi, ben vardiyayı yürütürüm."
+  },
+  {
+   "key": "case039.kowalski.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case039.kowalski.end.presented.telematics",
+   "value": "Kartım… Sandıkları gördü, bir telefon yeter, her şey biter, iş biter. Levyeyle konteynırın yanında konuştuk, ‘bube’ dedi. Sonra… Rafı ben devirdim, forkliftle. Kaza gibi dursun diye."
+  },
+  {
+   "key": "case039.kowalski.end.presented.texts",
+   "value": "Luis’in mesajları. Herkes herkes hakkında konuşur."
+  },
+  {
+   "key": "case039.kowalski.end.question",
+   "value": "02.11’de 3 numaralı forklifti siz kullandınız."
+  },
+  {
+   "key": "case039.kowalski.night.answer",
+   "value": "Ofiste, vardiya raporu yazıyordum. Gürültüyü duyup koştum. Luis yorgundu, forkliftle rafa çarptı, bu kadar. Kaç kere uyardım."
+  },
+  {
+   "key": "case039.kowalski.night.answer.demeanor",
+   "value": "Ensesini ovuşturuyor."
+  },
+  {
+   "key": "case039.kowalski.night.question",
+   "value": "Olay sırasında neredeydiniz?"
+  },
+  {
+   "key": "case039.kowalski.title",
+   "value": "Ray Kowalski — görüşme"
+  },
+  {
+   "key": "case039.lindqvist.body",
+   "value": "Müfettiş."
+  },
+  {
+   "key": "case039.lindqvist.deflect",
+   "value": "Teftiş raporum resmî kanaldan çıkar."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer",
+   "value": "Otuz yıldır raf görüyorum. Bu raf yorulmadan, itilerek devrilmiş. Birisi forkliftin çatalını ayağın dibine dayayıp cıvataları yandan koparmış. Bu işi yalnız forklift kullanmayı bilen biri yapar."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer.demeanor",
+   "value": "Gözlüğünü burnunun üstüne itiyor."
+  },
+  {
+   "key": "case039.lindqvist.rack.question",
+   "value": "Raf kendiliğinden devrilebilir mi?"
+  },
+  {
+   "key": "case039.lindqvist.title",
+   "value": "Pete Lindqvist — görüşme"
+  },
+  {
+   "key": "case039.line_ops.body",
+   "value": "Lakeshore Freight Pilsen deposunun operasyon kayıtları için hat açıldı: forklift telematiği, vardiya çizelgesi."
+  },
+  {
+   "key": "case039.line_ops.title",
+   "value": "HAT A — DEPO OPERASYONU"
+  },
+  {
+   "key": "case039.line_parole.body",
+   "value": "Hector Ortega’nın şartlı tahliye dosyası için hat açıldı."
+  },
+  {
+   "key": "case039.line_parole.title",
+   "value": "HAT C — ŞARTLI TAHLİYE KAYITLARI"
+  },
+  {
+   "key": "case039.line_phone.body",
+   "value": "Kurbanın ve vardiyadakilerin telefon kayıtları için hat açıldı."
+  },
+  {
+   "key": "case039.line_phone.title",
+   "value": "HAT B — TELEFON KAYITLARI"
+  },
+  {
+   "key": "case039.method.bar",
+   "value": "Levyeyle başına vuruldu, raf sonradan devrildi"
+  },
+  {
+   "key": "case039.method.crush",
+   "value": "Raf üstüne devrildi"
+  },
+  {
+   "key": "case039.method.forklift",
+   "value": "Forklift çarptı"
+  },
+  {
+   "key": "case039.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case039.monitor.body",
+   "value": "Hector Ortega, 11–12 Temmuz: 21.48’den 07.10’a kadar evinde, Little Village. Sinyal kesintisi yok."
+  },
+  {
+   "key": "case039.monitor.title",
+   "value": "ELEKTRONİK KELEPÇE KAYDI"
+  },
+  {
+   "key": "case039.novak.body",
+   "value": "Sendika temsilcisi."
+  },
+  {
+   "key": "case039.novak.deflect",
+   "value": "Sendika üyelerimizin dosyaları gizli."
+  },
+  {
+   "key": "case039.novak.msg.answer",
+   "value": "Gece 01.31’de mesaj attı. Sabah sendikaya gelecekti, bir avukat ayarlamamı istedi. Ben 7 numaralı rampadaydım, bir kamyon boşaltıyordum; gürültüyü duydum, koştum."
+  },
+  {
+   "key": "case039.novak.msg.answer.demeanor",
+   "value": "Örgüsünü omzunun üstünden geriye atıyor."
+  },
+  {
+   "key": "case039.novak.msg.question",
+   "value": "Luis size bir şey söyledi mi?"
+  },
+  {
+   "key": "case039.novak.title",
+   "value": "Teresa Novak — görüşme"
+  },
+  {
+   "key": "case039.offer.subtitle",
+   "value": "DEPO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case039.offer.summary",
+   "value": "Pilsen’deki Lakeshore Freight deposunda bir forklift operatörü devrilen rafın altında ölü. İş kazası, diyor herkes."
+  },
+  {
+   "key": "case039.offer.title",
+   "value": "DOSYA #039"
+  },
+  {
+   "key": "case039.person.carter.info",
+   "value": "47 yaşında, deponun gece güvenlik görevlisi."
+  },
+  {
+   "key": "case039.person.carter.name",
+   "value": "Dwayne Carter"
+  },
+  {
+   "key": "case039.person.hector.info",
+   "value": "35 yaşında, kurbanın ağabeyi; şartlı tahliyede."
+  },
+  {
+   "key": "case039.person.hector.name",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.person.kowalski.info",
+   "value": "54 yaşında, Lakeshore Freight Pilsen deposunun gece vardiya şefi."
+  },
+  {
+   "key": "case039.person.kowalski.name",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.person.lindqvist.info",
+   "value": "62 yaşında, şehrin iş güvenliği müfettişi."
+  },
+  {
+   "key": "case039.person.lindqvist.name",
+   "value": "Pete Lindqvist"
+  },
+  {
+   "key": "case039.person.novak.info",
+   "value": "50 yaşında, sendika temsilcisi; forklift operatörü."
+  },
+  {
+   "key": "case039.person.novak.name",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.person.reyes.info",
+   "value": "31 yaşında, depoda envanter memuru; kurbanın sevgilisi."
+  },
+  {
+   "key": "case039.person.reyes.name",
+   "value": "Marisol Reyes"
+  },
+  {
+   "key": "case039.report.body",
+   "value": "12 Temmuz 2030 gecesi Chicago Pilsen’deki Lakeshore Freight deposunda forklift operatörü Luis Ortega (29) 14 numaralı koridorda devrilen bir palet rafının altında ölü bulundu.\n\nVardiya şefi olayı 02.20’de iş kazası olarak bildirdi. Gece vardiyasında depoda: vardiya şefi Ray Kowalski, envanter memuru Marisol Reyes, güvenlik görevlisi Dwayne Carter, sendika temsilcisi Teresa Novak. Şehir iş güvenliği müfettişi Pete Lindqvist sabah geldi."
+  },
+  {
+   "key": "case039.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case039.request.inspect",
+   "value": "Şehrin iş güvenliği teftiş raporunu iste"
+  },
+  {
+   "key": "case039.request.line_ops",
+   "value": "Depo operasyon hattını aç"
+  },
+  {
+   "key": "case039.request.line_parole",
+   "value": "Şartlı tahliye hattını aç"
+  },
+  {
+   "key": "case039.request.line_phone",
+   "value": "Telefon kayıtları hattını aç"
+  },
+  {
+   "key": "case039.request.monitor",
+   "value": "Elektronik kelepçe kaydını iste"
+  },
+  {
+   "key": "case039.request.roster",
+   "value": "Vardiya çizelgesini iste"
+  },
+  {
+   "key": "case039.request.telematics",
+   "value": "Forklift telematiğini iste"
+  },
+  {
+   "key": "case039.request.texts",
+   "value": "Kurbanın mesajlarını iste"
+  },
+  {
+   "key": "case039.request.tower",
+   "value": "Baz istasyonu kaydını iste"
+  },
+  {
+   "key": "case039.reyes.body",
+   "value": "Envanter memuru."
+  },
+  {
+   "key": "case039.reyes.deflect",
+   "value": "Sevkiyat listeleri bana gelir, ötesini bilmem."
+  },
+  {
+   "key": "case039.reyes.labels.answer",
+   "value": "Sandıklar. Paris’ten gelenler. Üstüne ‘makine parçası’ etiketi yapıştırıyorlarmış, altında müzayede numaraları. Benim envanterimde de makine parçası diye geçiyorlar. Luis ‘bunu birine söyleyeceğim’ dedi."
+  },
+  {
+   "key": "case039.reyes.labels.answer.demeanor",
+   "value": "Kollarını göğsünde kavuşturup çenesini kaldırıyor."
+  },
+  {
+   "key": "case039.reyes.labels.question",
+   "value": "Luis son günlerde ne konuşuyordu?"
+  },
+  {
+   "key": "case039.reyes.night.answer",
+   "value": "01.30 molasında. Telefonuyla bir şey yazıyordu. Sonra ofise döndüm, envanter sayımına."
+  },
+  {
+   "key": "case039.reyes.night.question",
+   "value": "O gece onu en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case039.reyes.title",
+   "value": "Marisol Reyes — görüşme"
+  },
+  {
+   "key": "case039.roster.body",
+   "value": "12 Temmuz gece vardiyası:\n\n· Luis Ortega — rampa 4, forklift 3\n· Teresa Novak — rampa 7\n· Marisol Reyes — envanter ofisi\n· Ray Kowalski — vardiya şefi; ‘özel sevkiyat, konteynır 22’ notu\n\nKonteynır 22: gönderen Maison Delorme, Paris. Beyan: makine parçası."
+  },
+  {
+   "key": "case039.roster.title",
+   "value": "VARDİYA ÇİZELGESİ"
+  },
+  {
+   "key": "case039.summary.evidence",
+   "value": "Otopsi kafadaki darbenin canlıyken, ezilmenin ölümden sonra olduğunu; teftiş cıvataların itilerek koptuğunu gösterdi. Operasyon hattı forkliftteki kartı, telefon hattı son mesajları verdi. Şartlı tahliye hattı yalnız ağabeyi akladı."
+  },
+  {
+   "key": "case039.summary.lesson",
+   "value": "İki hat açabilirsin. Hangisinin cevabı değiştireceğini, açmadan önce düşün."
+  },
+  {
+   "key": "case039.summary.location",
+   "value": "Pilsen — Temmuz 2030"
+  },
+  {
+   "key": "case039.summary.truth",
+   "value": "Vardiya şefi Ray Kowalski, Paris’ten gelen müzayede sandıklarını ‘makine parçası’ diye yeniden etiketliyordu. Forklift operatörü Luis Ortega fotoğraf çekip sendikaya gideceğini yazınca Kowalski onu konteynırın yanına çağırdı, levyeyle öldürdü. Yirmi dakika sonra kendi kartıyla forklifte bindi, rafın cıvatalarını çatalla kopardı ve rafı cesedin üstüne devirdi."
+  },
+  {
+   "key": "case039.suspect.label",
+   "value": "Luis Ortega’yı kim öldürdü?"
+  },
+  {
+   "key": "case039.tablet.caseLine",
+   "value": "DOSYA #039  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case039.telematics.body",
+   "value": "3 numaralı forkliftin kart ve sensör kaydı:\n\n· 01.12–01.48 Luis Ortega kartıyla, rampa 4’te.\n· 02.09 oturum açıldı: SUP-01 — Ray Kowalski.\n· 02.11 çatal yüksekliği 6 cm, ileri baskı; 02.12 ani yük kaybı.\n· 02.13 oturum kapandı; forklift 14 numaralı koridordan geri çıkıyor."
+  },
+  {
+   "key": "case039.telematics.title",
+   "value": "FORKLİFT TELEMATİĞİ — 3 NUMARA"
+  },
+  {
+   "key": "case039.texts.body",
+   "value": "· 01.31 → Teresa Novak: ‘Ray Paris sandıklarının etiketini değiştiriyor. Konteynır 22. Fotoğrafları çektim. Sabah sendikaya geliyorum, avukat lazım.’\n· 01.44 → Marisol Reyes: ‘Ray beni konteynırın yanına çağırdı. Bir şey olursa fotoğraflar bulutta.’\n· Buluttaki fotoğraflar: çift etiketli sandıklar; birinde Paris müzayede lot numarası."
+  },
+  {
+   "key": "case039.texts.title",
+   "value": "LUIS ORTEGA’NIN MESAJLARI"
+  },
+  {
+   "key": "case039.time.call",
+   "value": "02.20"
+  },
+  {
+   "key": "case039.time.drive",
+   "value": "02.11"
+  },
+  {
+   "key": "case039.time.fall",
+   "value": "02.12"
+  },
+  {
+   "key": "case039.time.login",
+   "value": "02.09"
+  },
+  {
+   "key": "case039.time.lying",
+   "value": "02.02"
+  },
+  {
+   "key": "case039.time.t1",
+   "value": "01.31"
+  },
+  {
+   "key": "case039.time.t2",
+   "value": "01.44"
+  },
+  {
+   "key": "case039.title",
+   "value": "Dosya #039 — Depo"
+  },
+  {
+   "key": "case039.tower.body",
+   "value": "01.40–02.20 arası depo içi hücre:\n\n· Luis Ortega’nın telefonu 01.46’dan sonra hareketsiz; konteynır sökme alanı.\n· Ray Kowalski’nin telefonu 01.45–01.58 sökme alanında, 02.05’ten sonra ofiste."
+  },
+  {
+   "key": "case039.tower.title",
+   "value": "BAZ İSTASYONU KAYDI"
+  },
+  {
+   "key": "case039.verdict.accident",
+   "value": "Kimse — iş kazası"
+  },
+  {
+   "key": "case039.verdict.hector",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.verdict.kowalski",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.verdict.novak",
+   "value": "Teresa Novak"
+  }
+ ]
+}

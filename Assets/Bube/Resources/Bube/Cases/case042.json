@@ -1,0 +1,522 @@
+{
+ "deskHour": 9,
+ "deskDate": "14 Ağustos 2030",
+ "titleKey": "case042.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case042.report.title",
+   "bodyKey": "case042.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case042.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case042.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case042.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case042.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case042.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case042.autopsy.title",
+   "bodyKey": "case042.autopsy.body",
+   "requires": [
+    "report"
+   ]
+  },
+  {
+   "id": "lot",
+   "kind": "cctv",
+   "titleKey": "case042.lot.title",
+   "bodyKey": "case042.lot.body",
+   "requires": [
+    "patel"
+   ],
+   "cctvSourceKey": "case042.cctv.source",
+   "cctvOverlayKey": "case042.cctv.overlay",
+   "cctvPeriodKey": "case042.cctv.period",
+   "cctvEvents": [
+    {
+     "id": "climb",
+     "textKey": "case042.cctv.event.climb",
+     "delayMs": 620,
+     "overlayTimeKey": "case042.time.climb"
+    },
+    {
+     "id": "load",
+     "textKey": "case042.cctv.event.load",
+     "delayMs": 620,
+     "overlayTimeKey": "case042.time.load"
+    },
+    {
+     "id": "pull",
+     "textKey": "case042.cctv.event.pull",
+     "delayMs": 620,
+     "overlayTimeKey": "case042.time.pull"
+    }
+   ]
+  },
+  {
+   "id": "patel",
+   "kind": "interview",
+   "titleKey": "case042.patel.title",
+   "bodyKey": "case042.patel.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "patel",
+   "personNameKey": "case042.person.patel.name",
+   "personInfoKey": "case042.person.patel.info",
+   "questions": [
+    {
+     "id": "case042.patel.night",
+     "promptKey": "case042.patel.night.question",
+     "answerKey": "case042.patel.night.answer",
+     "topicKey": "interview.topic.observations"
+    },
+    {
+     "id": "case042.patel.earl",
+     "promptKey": "case042.patel.earl.question",
+     "answerKey": "case042.patel.earl.answer",
+     "topicKey": "interview.topic.relationships",
+     "requiresAsked": [
+      "case042.patel.night"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case042.patel.night",
+    "case042.patel.earl"
+   ],
+   "deflectAnswerKey": "case042.patel.deflect",
+   "portrait": {
+    "hairHex": "#141012",
+    "skinHex": "#B88A64",
+    "shirtHex": "#2A6A5A"
+   }
+  },
+  {
+   "id": "hollis",
+   "kind": "interview",
+   "titleKey": "case042.hollis.title",
+   "bodyKey": "case042.hollis.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "hollis",
+   "personNameKey": "case042.person.hollis.name",
+   "personInfoKey": "case042.person.hollis.info",
+   "questions": [
+    {
+     "id": "case042.hollis.radio",
+     "promptKey": "case042.hollis.radio.question",
+     "answerKey": "case042.hollis.radio.answer",
+     "topicKey": "interview.topic.records"
+    }
+   ],
+   "completionQuestionIds": [
+    "case042.hollis.radio"
+   ],
+   "deflectAnswerKey": "case042.hollis.deflect",
+   "portrait": {
+    "hairHex": "#C8A878",
+    "skinHex": "#EED0BA",
+    "shirtHex": "#5A4A6A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "tanner",
+   "kind": "interview",
+   "titleKey": "case042.tanner.title",
+   "bodyKey": "case042.tanner.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "tanner",
+   "personNameKey": "case042.person.tanner.name",
+   "personInfoKey": "case042.person.tanner.info",
+   "questions": [
+    {
+     "id": "case042.tanner.night",
+     "promptKey": "case042.tanner.night.question",
+     "answerKey": "case042.tanner.night.answer",
+     "topicKey": "interview.topic.day",
+     "answerVariants": [
+      {
+       "answerKey": "case042.tanner.night.variant0",
+       "requiresRead": [
+        "lot"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case042.tanner.end",
+     "promptKey": "case042.tanner.end.question",
+     "answerKey": "case042.tanner.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "ragcheck",
+      "texts"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "texts",
+       "answerKey": "case042.tanner.end.presented.texts"
+      },
+      {
+       "sourceId": "ragcheck",
+       "answerKey": "case042.tanner.end.presented.ragcheck"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case042.tanner.night",
+    "case042.tanner.end"
+   ],
+   "deflectAnswerKey": "case042.tanner.deflect",
+   "portrait": {
+    "hairHex": "#7A5A3A",
+    "skinHex": "#E2BC9C",
+    "shirtHex": "#8A2A2A"
+   }
+  },
+  {
+   "id": "line_truck",
+   "kind": "document",
+   "titleKey": "case042.line_truck.title",
+   "bodyKey": "case042.line_truck.body",
+   "requires": [
+    "autopsy"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.line_truck",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "autopsy",
+      "lot"
+     ]
+    },
+    {
+     "sources": [
+      "autopsy",
+      "patel"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "eld",
+   "kind": "document",
+   "titleKey": "case042.eld.title",
+   "bodyKey": "case042.eld.body",
+   "requires": [
+    "line_truck"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.eld",
+   "requestDelaySeconds": 5,
+   "line": "line_truck"
+  },
+  {
+   "id": "ragcheck",
+   "kind": "document",
+   "titleKey": "case042.ragcheck.title",
+   "bodyKey": "case042.ragcheck.body",
+   "requires": [
+    "line_truck"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.ragcheck",
+   "requestDelaySeconds": 6,
+   "line": "line_truck"
+  },
+  {
+   "id": "line_phone",
+   "kind": "document",
+   "titleKey": "case042.line_phone.title",
+   "bodyKey": "case042.line_phone.body",
+   "requires": [
+    "hollis"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.line_phone",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "hollis",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "hollis",
+      "patel"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "texts",
+   "kind": "document",
+   "titleKey": "case042.texts.title",
+   "bodyKey": "case042.texts.body",
+   "requires": [
+    "line_phone"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.texts",
+   "requestDelaySeconds": 5,
+   "line": "line_phone"
+  },
+  {
+   "id": "line_cargo",
+   "kind": "document",
+   "titleKey": "case042.line_cargo.title",
+   "bodyKey": "case042.line_cargo.body",
+   "requires": [
+    "patel"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.line_cargo",
+   "requestDelaySeconds": 8,
+   "warrant": [
+    {
+     "sources": [
+      "patel",
+      "report"
+     ]
+    },
+    {
+     "sources": [
+      "patel",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2,
+   "requestKind": "line"
+  },
+  {
+   "id": "manifest",
+   "kind": "document",
+   "titleKey": "case042.manifest.title",
+   "bodyKey": "case042.manifest.body",
+   "requires": [
+    "line_cargo"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case042.request.manifest",
+   "requestDelaySeconds": 5,
+   "line": "line_cargo"
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "radio",
+   "timeKey": "case042.time.radio",
+   "noteKey": "case042.clue.radio",
+   "sourceKey": "case042.clue.source.hollis",
+   "requiresRead": [
+    "hollis"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "climb",
+   "timeKey": "case042.time.climb",
+   "noteKey": "case042.clue.climb",
+   "sourceKey": "case042.cctv.source",
+   "requiresRead": [
+    "lot"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "load",
+   "timeKey": "case042.time.load",
+   "noteKey": "case042.clue.load",
+   "sourceKey": "case042.cctv.source",
+   "requiresRead": [
+    "lot"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "pull",
+   "timeKey": "case042.time.pull",
+   "noteKey": "case042.clue.pull",
+   "sourceKey": "case042.cctv.source",
+   "requiresRead": [
+    "lot"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "found",
+   "timeKey": "case042.time.found",
+   "noteKey": "case042.clue.found",
+   "sourceKey": "case042.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 480
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "tanner",
+   "labelKey": "case042.verdict.tanner",
+   "correct": true,
+   "feedbackKey": "case042.feedback.tanner",
+   "requires": [],
+   "epilogueKey": "case042.epilogue.verdict.tanner",
+   "supportingSourceIds": [
+    "ragcheck",
+    "texts",
+    "eld"
+   ]
+  },
+  {
+   "id": "hollis",
+   "labelKey": "case042.verdict.hollis",
+   "correct": false,
+   "feedbackKey": "case042.feedback.hollis",
+   "requires": [],
+   "epilogueKey": "case042.epilogue.verdict.hollis"
+  },
+  {
+   "id": "patel",
+   "labelKey": "case042.verdict.patel",
+   "correct": false,
+   "feedbackKey": "case042.feedback.patel",
+   "requires": [],
+   "epilogueKey": "case042.epilogue.verdict.patel"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case042.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case042.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case042.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "co",
+   "labelKey": "case042.method.co",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "eld"
+   ]
+  },
+  {
+   "id": "cold",
+   "labelKey": "case042.method.cold",
+   "correct": false
+  },
+  {
+   "id": "heart",
+   "labelKey": "case042.method.heart",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "plug",
+   "labelKey": "case042.custody.plug",
+   "correct": true,
+   "epilogueKey": "case042.epilogue.custody.plug",
+   "supportingSourceIds": [
+    "eld",
+    "ragcheck"
+   ]
+  },
+  {
+   "id": "storm",
+   "labelKey": "case042.custody.storm",
+   "correct": false,
+   "epilogueKey": "case042.epilogue.custody.storm"
+  },
+  {
+   "id": "leak",
+   "labelKey": "case042.custody.leak",
+   "correct": false,
+   "epilogueKey": "case042.epilogue.custody.leak"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "ragcheck",
+   "labelKey": "case042.evidence.ragcheck",
+   "correct": true,
+   "supportingSourceIds": [
+    "ragcheck"
+   ]
+  },
+  {
+   "id": "eld",
+   "labelKey": "case042.evidence.eld",
+   "correct": false
+  },
+  {
+   "id": "lot",
+   "labelKey": "case042.evidence.lot",
+   "correct": false
+  },
+  {
+   "id": "manifest",
+   "labelKey": "case042.evidence.manifest",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "lineSlots": 2,
+ "lineReopenPenaltySeconds": 20,
+ "suspectLabelKey": "case042.suspect.label",
+ "methodLabelKey": "case042.method.label",
+ "custodyLabelKey": "case042.custody.label",
+ "summary": {
+  "locationKey": "case042.summary.location",
+  "truthKey": "case042.summary.truth",
+  "evidenceKey": "case042.summary.evidence",
+  "lessonKey": "case042.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case043",
+ "ambienceId": "room_night",
+ "id": "case042"
+}

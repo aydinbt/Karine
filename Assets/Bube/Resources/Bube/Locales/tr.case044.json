@@ -1,0 +1,564 @@
+{
+ "entries": [
+  {
+   "key": "case044.ais.body",
+   "value": "· 23.04 tekne rüzgâra dönüyor, hız 1,2 knot.\n· 23.10 konum: cesedin bulunduğu nokta.\n· 23.30 telsiz: ‘Adam denize’ çağrısı yok; ilk çağrı 23.31’de, ‘bir yolcuyu bulamıyoruz’."
+  },
+  {
+   "key": "case044.ais.title",
+   "value": "AIS ROTA KAYDI"
+  },
+  {
+   "key": "case044.autopsy.body",
+   "value": "· Boğulma; akciğerlerde tatlı su.\n· Başın arkasında yarım ay biçiminde, yaklaşık 4 cm’lik darbe; suya düşmeden önce. Bilinci kapanmış halde suya girmiş.\n· Kanda alkol düşük. Ölüm zamanı: 23.00–23.30."
+  },
+  {
+   "key": "case044.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case044.boat.body",
+   "value": "· Kokpit dolabındaki vinç kolu: tutamağın altındaki dikişte kurbanın kanı; tutamakta Brent Calloway’in parmak izleri, üzeri silinmiş.\n· Kolun ucunun kesiti, kafadaki yarım ay biçimli yarayla örtüşüyor.\n· Brent Calloway’in deri sefer çantasının iç cebinde bir CO₂ kartuşu; dişlerinde kurbanın yeleğinin kırmızı boyası."
+  },
+  {
+   "key": "case044.boat.title",
+   "value": "TEKNE VE ÇANTA İNCELEMESİ"
+  },
+  {
+   "key": "case044.calloway.body",
+   "value": "Hukuk müşaviri."
+  },
+  {
+   "key": "case044.calloway.deflect",
+   "value": "Avukat-müvekkil gizliliği."
+  },
+  {
+   "key": "case044.calloway.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case044.calloway.end.presented.boat",
+   "value": "Clint pazartesi her şeyi verecekti, beni de. Kalkıştan önce yeleğinin kartuşunu söktüm, çantama koydum. Rüzgâra dönerken baş güvertede vinç koluyla vurdum, suya kaydı. Yeleği şişmeyecekti. ‘Kamarada’ dedim. Gece olunca göl hiçbir şey göstermez."
+  },
+  {
+   "key": "case044.calloway.end.presented.phone",
+   "value": "Mesajlar avukat gizliliği kapsamında."
+  },
+  {
+   "key": "case044.calloway.end.question",
+   "value": "Kartuşu siz söktünüz."
+  },
+  {
+   "key": "case044.calloway.night.answer",
+   "value": "Onu baş güvertede bıraktım, kamaraya indim. Clint içmişti, dengesizdi. Vinç kolu düşmüştü, yerine koydum. Bir avukat olarak, bundan fazlasını söylemem."
+  },
+  {
+   "key": "case044.calloway.night.answer.demeanor",
+   "value": "Gömleğinin kollarını tek tek indiriyor."
+  },
+  {
+   "key": "case044.calloway.night.question",
+   "value": "Clint düştüğünde neredeydiniz?"
+  },
+  {
+   "key": "case044.calloway.night.variant0",
+   "value": "Çantamda müvekkilimin belgeleri vardı. Korumak görevim."
+  },
+  {
+   "key": "case044.calloway.title",
+   "value": "Brent Calloway — görüşme"
+  },
+  {
+   "key": "case044.cctv.event.board",
+   "value": "Kamera: Kalkıştan önce lacivert yelekli bir adam deri bir sefer çantasıyla tekneye binip tek başına aşağı iniyor."
+  },
+  {
+   "key": "case044.cctv.event.dock",
+   "value": "Kamera: Dönüşte tekne yanaşıyor; hırkalı bir kadın ve beyaz gömlekli genç tayfa güverte boyunca bağırıyor."
+  },
+  {
+   "key": "case044.cctv.event.leave",
+   "value": "Kamera: Lacivert yelekli adam aynı çantayla tekneden inip iskelede hızla uzaklaşıyor."
+  },
+  {
+   "key": "case044.cctv.overlay",
+   "value": "PIER-4"
+  },
+  {
+   "key": "case044.cctv.period",
+   "value": "30–31 Ağustos 2030"
+  },
+  {
+   "key": "case044.cctv.source",
+   "value": "İskele kamerası"
+  },
+  {
+   "key": "case044.cho.body",
+   "value": "Kurtarma dalgıcı."
+  },
+  {
+   "key": "case044.cho.deflect",
+   "value": "Raporumu yazdım."
+  },
+  {
+   "key": "case044.cho.title",
+   "value": "Lauren Cho — görüşme"
+  },
+  {
+   "key": "case044.cho.vest.answer",
+   "value": "On beş yıldır bu işi yapıyorum. Bu yelekler suya değince ya da ipi çekince şişer. İpi çekmiş, belki de bilinci yerine gelip bir an. Ama kartuş yok. Yuvası temiz. Biri onu sökmüş."
+  },
+  {
+   "key": "case044.cho.vest.answer.demeanor",
+   "value": "Islak saçını sıkıp geriye atıyor."
+  },
+  {
+   "key": "case044.cho.vest.question",
+   "value": "Yelekte ne gördünüz?"
+  },
+  {
+   "key": "case044.clue.board",
+   "value": "Lacivert yelekli adam erkenden tekneye binip aşağı iniyor."
+  },
+  {
+   "key": "case044.clue.dock",
+   "value": "Tekne yanaşıyor; kadın bağırıyor."
+  },
+  {
+   "key": "case044.clue.leave",
+   "value": "Avukat çantasıyla hızla iniyor."
+  },
+  {
+   "key": "case044.clue.metal",
+   "value": "Metal bir ses; avukat vinç kolunu dolaba koyuyor."
+  },
+  {
+   "key": "case044.clue.source.mendes",
+   "value": "Tayfa"
+  },
+  {
+   "key": "case044.clue.source.morrow",
+   "value": "Kaptan"
+  },
+  {
+   "key": "case044.clue.turn",
+   "value": "Tekne rüzgâra dönüyor; kurban ve avukat baş güverteye gidiyor."
+  },
+  {
+   "key": "case044.custody.faulty",
+   "value": "Yelek arızalıydı"
+  },
+  {
+   "key": "case044.custody.label",
+   "value": "Can yeleği neden şişmedi?"
+  },
+  {
+   "key": "case044.custody.never",
+   "value": "Kurban kartuşsuz yelek giymişti"
+  },
+  {
+   "key": "case044.custody.removed",
+   "value": "Kartuşu katil kalkıştan önce söktü"
+  },
+  {
+   "key": "case044.diane.body",
+   "value": "Kurbanın eşi."
+  },
+  {
+   "key": "case044.diane.deflect",
+   "value": "Kocamın işleri hakkında avukatımız konuşur."
+  },
+  {
+   "key": "case044.diane.monday.answer",
+   "value": "Korkmuştu. Sayman tutuklanınca, o şoför de… ‘Pazartesi bube’ye gidip her şeyi anlatacağım, Diane, sahibini, Napoli’yi’ dedi. Brent’e söylemişti; Brent ‘seninle geleyim’ dedi. Ben kamaradaydım, deniz tutmuştu."
+  },
+  {
+   "key": "case044.diane.monday.answer.demeanor",
+   "value": "Hırkasını omuzlarına çekiyor."
+  },
+  {
+   "key": "case044.diane.monday.question",
+   "value": "Kocanız son günlerde nasıldı?"
+  },
+  {
+   "key": "case044.diane.title",
+   "value": "Diane Harlan — görüşme"
+  },
+  {
+   "key": "case044.divenote.body",
+   "value": "· Ceset teknenin AIS rotasının yaklaşık üç mil gerisinde, 23.10 civarındaki konumda.\n· Yelek tam bağlı; şişirme mekanizmasının çekme ipi çekilmiş, ama yuvada CO₂ kartuşu yok. Yuvanın dişleri temiz; kartuş sökülmüş, kırılmamış."
+  },
+  {
+   "key": "case044.divenote.title",
+   "value": "DALGIÇ RAPORU"
+  },
+  {
+   "key": "case044.epilogue.custody.faulty",
+   "value": "Mekanizma sağlam, ipi çekilmişti; yalnız kartuş yoktu."
+  },
+  {
+   "key": "case044.epilogue.custody.never",
+   "value": "Kartuş katilin çantasından çıktı."
+  },
+  {
+   "key": "case044.epilogue.custody.removed",
+   "value": "Kartuşun kalkıştan önce sökülüp katilin çantasına konduğu yazıldı."
+  },
+  {
+   "key": "case044.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; Lakeshore bir taziye bildirisi yayımladı."
+  },
+  {
+   "key": "case044.epilogue.verdict.calloway",
+   "value": "Brent Calloway tutuklandı. Napoli numarasındaki mesajlar ‘Edda’ adıyla birlikte bube Chicago’nun Lakeshore dosyasına girdi."
+  },
+  {
+   "key": "case044.epilogue.verdict.diane",
+   "value": "Diane Harlan tutuklandı; avukat dosyayı ‘müvekkilinin mirası’ adına yönetti."
+  },
+  {
+   "key": "case044.epilogue.verdict.morrow",
+   "value": "Skip Morrow gözaltına alındı; tekne sezon sonuna kadar mühürlendi."
+  },
+  {
+   "key": "case044.evidence.ais",
+   "value": "AIS rota kaydı"
+  },
+  {
+   "key": "case044.evidence.boat",
+   "value": "Tekne ve çanta incelemesi"
+  },
+  {
+   "key": "case044.evidence.phone",
+   "value": "Avukatın mesajları"
+  },
+  {
+   "key": "case044.evidence.pier",
+   "value": "İskele kamerası"
+  },
+  {
+   "key": "case044.feedback.accident",
+   "value": "Kafadaki darbe suya girmeden önce; yeleğin kartuşu sökülmüş, kırılmamış."
+  },
+  {
+   "key": "case044.feedback.calloway",
+   "value": "Vinç kolunda onun izi ve kurbanın kanı var; kolun ucu yarayla örtüşüyor. Yeleğin kartuşu onun çantasında. Kurbanın pazartesi konuşacağını bir gece önce Napoli’deki bir numaraya yazmıştı."
+  },
+  {
+   "key": "case044.feedback.diane",
+   "value": "Eş mirasçıydı ama deniz tutmuştu ve kamaradaydı; baş güverteye çıkmadı."
+  },
+  {
+   "key": "case044.feedback.morrow",
+   "value": "Kaptan dümendeydi; dümeni bırakamazdı ve tayfa onu kıçta gördü."
+  },
+  {
+   "key": "case044.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case044.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case044.file.value.location",
+   "value": "Michigan Gölü, Chicago açıkları"
+  },
+  {
+   "key": "case044.file.value.number",
+   "value": "BDC-CHI-2030-0280"
+  },
+  {
+   "key": "case044.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case044.file.value.reporter",
+   "value": "Marina"
+  },
+  {
+   "key": "case044.jensen.body",
+   "value": "Liman müdürü."
+  },
+  {
+   "key": "case044.jensen.deflect",
+   "value": "Marina kayıtları şirketin."
+  },
+  {
+   "key": "case044.jensen.return.answer",
+   "value": "Gece yarısı yanaştılar, kadın bağırıyordu. Avukat olan adam polisi beklemeden çantasıyla indi, ‘müvekkilim adına belgeleri korumam lazım’ dedi. Kalkışta da çantayla erkenden gelip aşağı inmişti. İskelenin kamerası var."
+  },
+  {
+   "key": "case044.jensen.return.answer.demeanor",
+   "value": "Kasketini çıkarıp eline alıyor."
+  },
+  {
+   "key": "case044.jensen.return.question",
+   "value": "Dönüşte ne gördünüz?"
+  },
+  {
+   "key": "case044.jensen.title",
+   "value": "Arne Jensen — görüşme"
+  },
+  {
+   "key": "case044.line_ais.body",
+   "value": "Teknenin AIS konum kaydı ve marina telsiz kayıtları için hat açıldı."
+  },
+  {
+   "key": "case044.line_ais.title",
+   "value": "HAT C — TEKNENİN ROTASI"
+  },
+  {
+   "key": "case044.line_boat.body",
+   "value": "Teknenin ve yolcuların eşyalarının adli incelemesi için hat açıldı."
+  },
+  {
+   "key": "case044.line_boat.title",
+   "value": "HAT A — TEKNE İNCELEMESİ"
+  },
+  {
+   "key": "case044.line_phone.body",
+   "value": "Teknedekilerin telefon kayıtları için hat açıldı."
+  },
+  {
+   "key": "case044.line_phone.title",
+   "value": "HAT B — TELEFON KAYITLARI"
+  },
+  {
+   "key": "case044.mendes.body",
+   "value": "Tayfa."
+  },
+  {
+   "key": "case044.mendes.deck.answer",
+   "value": "Ben flokun iplerindeydim, sırtım dönük. Bir ses oldu, metal gibi. Döndüm, avukat bey vinç kolunu dolaba koyuyordu. ‘Kol düştü’ dedi. Bir şey sormadım. Ben sadece tayfayım."
+  },
+  {
+   "key": "case044.mendes.deck.answer.demeanor",
+   "value": "Omzundaki ipi sıkıca kavrıyor."
+  },
+  {
+   "key": "case044.mendes.deck.question",
+   "value": "Ön güvertede ne gördünüz?"
+  },
+  {
+   "key": "case044.mendes.deflect",
+   "value": "Ben ip çekerim, efendim."
+  },
+  {
+   "key": "case044.mendes.title",
+   "value": "Rico Mendes — görüşme"
+  },
+  {
+   "key": "case044.method.boom",
+   "value": "Bumba çarptı"
+  },
+  {
+   "key": "case044.method.fall",
+   "value": "Sarhoş güverteden düştü"
+  },
+  {
+   "key": "case044.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case044.method.winch",
+   "value": "Vinç koluyla vuruldu, göle itildi"
+  },
+  {
+   "key": "case044.morrow.body",
+   "value": "Kaptan."
+  },
+  {
+   "key": "case044.morrow.deflect",
+   "value": "Ben tekneyi yönetirim, sohbetleri değil."
+  },
+  {
+   "key": "case044.morrow.night.answer",
+   "value": "Dümende, kıçta. 23.05 gibi yelkenleri indirmek için rüzgâra döndük, karanlık, dalga var. Clint ‘baş güvertede bir şeye bakacağım’ dedi, Brent de peşinden gitti. Dönüp bakınca yalnız Brent vardı; ‘Clint kamarada’ dedi. Yirmi dakika sonra Diane ‘Clint yok’ diye bağırdı."
+  },
+  {
+   "key": "case044.morrow.night.answer.demeanor",
+   "value": "Güneş gözlüğünü ipinden çekip bırakıyor."
+  },
+  {
+   "key": "case044.morrow.night.question",
+   "value": "Düştüğü an neredeydiniz?"
+  },
+  {
+   "key": "case044.morrow.title",
+   "value": "Skip Morrow — görüşme"
+  },
+  {
+   "key": "case044.offer.subtitle",
+   "value": "GÖL  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case044.offer.summary",
+   "value": "Lakeshore’un başkan yardımcısı Michigan Gölü’nde kendi teknesinden düştü. Pazartesi bube’de randevusu vardı."
+  },
+  {
+   "key": "case044.offer.title",
+   "value": "DOSYA #044"
+  },
+  {
+   "key": "case044.person.calloway.info",
+   "value": "50 yaşında, Lakeshore Freight’ın baş hukuk müşaviri."
+  },
+  {
+   "key": "case044.person.calloway.name",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.person.cho.info",
+   "value": "36 yaşında, kurtarma dalgıcı."
+  },
+  {
+   "key": "case044.person.cho.name",
+   "value": "Lauren Cho"
+  },
+  {
+   "key": "case044.person.diane.info",
+   "value": "57 yaşında, kurbanın eşi."
+  },
+  {
+   "key": "case044.person.diane.name",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.person.jensen.info",
+   "value": "68 yaşında, marinanın liman müdürü."
+  },
+  {
+   "key": "case044.person.jensen.name",
+   "value": "Arne Jensen"
+  },
+  {
+   "key": "case044.person.mendes.info",
+   "value": "24 yaşında, teknenin tayfası."
+  },
+  {
+   "key": "case044.person.mendes.name",
+   "value": "Rico Mendes"
+  },
+  {
+   "key": "case044.person.morrow.info",
+   "value": "63 yaşında, teknenin kaptanı."
+  },
+  {
+   "key": "case044.person.morrow.name",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.phone.body",
+   "value": "· 29 Ağustos 22.14, Brent Calloway → kayıtsız bir Napoli numarası: ‘C. pazartesi konuşmak istiyor. Edda’ya söyle.’\n· 29 Ağustos 22.40, yanıt: ‘Hafta sonu çözülsün.’\n· 31 Ağustos 00.30, Brent Calloway → aynı numara: ‘Çözüldü.’"
+  },
+  {
+   "key": "case044.phone.title",
+   "value": "BRENT CALLOWAY’İN MESAJLARI"
+  },
+  {
+   "key": "case044.pier.body",
+   "value": "İskele 4. 30 Ağustos 16.00 – 31 Ağustos 01.00."
+  },
+  {
+   "key": "case044.pier.title",
+   "value": "MARİNA İSKELE KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case044.report.body",
+   "value": "30 Ağustos 2030 gecesi Michigan Gölü’nde bir yelken yarışından dönen bir teknede, Lakeshore Freight’ın kurumsal ilişkiler başkan yardımcısı Clint Harlan (61) güverteden düştü. Kurtarma dalgıçları cesedi 01.40’ta, teknenin rotasının üç mil gerisinde buldu. Can yeleği üstündeydi, şişmemişti.\n\nTeknede: eşi Diane Harlan, Lakeshore hukuk müşaviri Brent Calloway, kaptan Skip Morrow, tayfa Rico Mendes. Liman müdürü Arne Jensen dönüşü kaydetti."
+  },
+  {
+   "key": "case044.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case044.request.ais",
+   "value": "AIS rota kaydını iste"
+  },
+  {
+   "key": "case044.request.boat",
+   "value": "Tekne ve çanta incelemesini iste"
+  },
+  {
+   "key": "case044.request.line_ais",
+   "value": "Teknenin rota hattını aç"
+  },
+  {
+   "key": "case044.request.line_boat",
+   "value": "Tekne incelemesi hattını aç"
+  },
+  {
+   "key": "case044.request.line_phone",
+   "value": "Telefon kayıtları hattını aç"
+  },
+  {
+   "key": "case044.request.phone",
+   "value": "Brent Calloway’in mesajlarını iste"
+  },
+  {
+   "key": "case044.summary.evidence",
+   "value": "Otopsi darbenin suya düşmeden önce olduğunu, dalgıç kartuşun söküldüğünü, tayfa vinç kolunu, iskele kamerası çantayı gösterdi. Tekne hattı kolu ve kartuşu, telefon hattı Napoli mesajlarını verdi."
+  },
+  {
+   "key": "case044.summary.lesson",
+   "value": "Herkesin başka yöne baktığı bir teknede, hiç bakmayan kişi her şeyi önceden hazırlamıştır."
+  },
+  {
+   "key": "case044.summary.location",
+   "value": "Michigan Gölü — Ağustos 2030"
+  },
+  {
+   "key": "case044.summary.truth",
+   "value": "Clint Harlan pazartesi bube’ye Lakeshore’un sahibini ve Napoli bağlantısını anlatacaktı. Şirketin hukuk müşaviri Brent Calloway bunu Napoli’deki bir numaraya bildirdi, ‘hafta sonu çözülsün’ yanıtını aldı. Kalkıştan önce Harlan’ın yeleğinin kartuşunu söktü; tekne rüzgâra dönerken baş güvertede onu vinç koluyla vurup göle itti ve ‘kamarada’ dedi."
+  },
+  {
+   "key": "case044.suspect.label",
+   "value": "Clint Harlan’ı kim öldürdü?"
+  },
+  {
+   "key": "case044.tablet.caseLine",
+   "value": "DOSYA #044  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case044.time.board",
+   "value": "16.12"
+  },
+  {
+   "key": "case044.time.dock",
+   "value": "00.05"
+  },
+  {
+   "key": "case044.time.leave",
+   "value": "00.11"
+  },
+  {
+   "key": "case044.time.metal",
+   "value": "23.08"
+  },
+  {
+   "key": "case044.time.turn",
+   "value": "23.05"
+  },
+  {
+   "key": "case044.title",
+   "value": "Dosya #044 — Göl"
+  },
+  {
+   "key": "case044.verdict.accident",
+   "value": "Kimse — sarhoş düştü"
+  },
+  {
+   "key": "case044.verdict.calloway",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.verdict.diane",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.verdict.morrow",
+   "value": "Skip Morrow"
+  }
+ ]
+}

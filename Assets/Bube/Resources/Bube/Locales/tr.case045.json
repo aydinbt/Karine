@@ -1,0 +1,560 @@
+{
+ "entries": [
+  {
+   "key": "case045.abrams.body",
+   "value": "Şoför ve koruma."
+  },
+  {
+   "key": "case045.abrams.deflect",
+   "value": "Ben arabayı sürerim, kapıyı açarım."
+  },
+  {
+   "key": "case045.abrams.door.answer",
+   "value": "Ben. Kim gelir, kim gider, ben açarım. Trevor yedi buçukta, Bayan Quinn sekizi çeyrek geçe. Holde kamera var, patron taktırdı. Bir de… patron dün bana ‘Sid, yarın sabah beni Pilsen’e, bube’ye götür’ dedi. Avukatlara söyleme, dedi."
+  },
+  {
+   "key": "case045.abrams.door.answer.demeanor",
+   "value": "Kulağındaki kabloyu düzeltiyor."
+  },
+  {
+   "key": "case045.abrams.door.question",
+   "value": "Akşam kapıda kim vardı?"
+  },
+  {
+   "key": "case045.abrams.title",
+   "value": "Sid Abrams — görüşme"
+  },
+  {
+   "key": "case045.accounts.body",
+   "value": "· Trevor Kincaid’e son yılda aylık harçlık; borcu yok, mirastan payı vakfa bağlı.\n· Lakeshore Freight’tan Napoli’deki bir liman nakliye şirketine son iki yılda 43 ödeme; her birinin onay kutusunda ‘E. V.’.\n· Ödemelerin hepsini yürüten: mali işler direktörlüğü."
+  },
+  {
+   "key": "case045.accounts.title",
+   "value": "ŞİRKET HESAPLARI"
+  },
+  {
+   "key": "case045.autopsy.body",
+   "value": "· Ağır hipoglisemi; kan şekeri ölçülemeyecek kadar düşük.\n· Kandaki insülin düzeyi normal akşam dozunun yaklaşık beş katı.\n· Karnında tek bir iğne izi. Ölüm zamanı: 22.30–00.30.\n· Masadaki bardakta yalnız su."
+  },
+  {
+   "key": "case045.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case045.cctv.event.arrive",
+   "value": "Kamera: Koyu takım elbiseli bir kadın el çantasıyla asansörden geliyor; siyah takımlı bir adam ona daire kapısını açıyor."
+  },
+  {
+   "key": "case045.cctv.event.console",
+   "value": "Kamera: Aynı kadın konsol masasının başında yalnız; el çantasından küçük bir şey alıp ceketinin cebine koyuyor."
+  },
+  {
+   "key": "case045.cctv.event.leave",
+   "value": "Kamera: Aynı kadın asansöre biniyor; siyah takımlı adam kapıyı tutuyor."
+  },
+  {
+   "key": "case045.cctv.overlay",
+   "value": "PH-LOBBY"
+  },
+  {
+   "key": "case045.cctv.period",
+   "value": "12 Eylül 2030"
+  },
+  {
+   "key": "case045.cctv.source",
+   "value": "Asansör holü kamerası"
+  },
+  {
+   "key": "case045.clue.arrive",
+   "value": "Koyu takımlı kadın daireye geliyor."
+  },
+  {
+   "key": "case045.clue.console",
+   "value": "Aynı kadın çantasından küçük bir şey alıyor."
+  },
+  {
+   "key": "case045.clue.dose",
+   "value": "Kurban akşam dozunu yapıyor."
+  },
+  {
+   "key": "case045.clue.fight",
+   "value": "Oğul babasıyla bağırışıyor, 19.50’de çıkıyor."
+  },
+  {
+   "key": "case045.clue.found",
+   "value": "Kâhya cesedi buluyor."
+  },
+  {
+   "key": "case045.clue.leave",
+   "value": "Aynı kadın asansöre biniyor."
+  },
+  {
+   "key": "case045.clue.prep",
+   "value": "Kâhya kalemi yeni kartuşla masaya koyuyor."
+  },
+  {
+   "key": "case045.clue.say",
+   "value": "‘Edda’ya söyle, Napoli hazır.’"
+  },
+  {
+   "key": "case045.clue.source.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case045.clue.source.tape",
+   "value": "Ses kaydı"
+  },
+  {
+   "key": "case045.clue.source.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.custody.label",
+   "value": "Kalemdeki kartuşa ne oldu?"
+  },
+  {
+   "key": "case045.custody.maid",
+   "value": "Kâhya yanlış kartuşu taktı"
+  },
+  {
+   "key": "case045.custody.pharmacy",
+   "value": "Eczane yanlış kartuş verdi"
+  },
+  {
+   "key": "case045.custody.swapped",
+   "value": "Katil masanın başında kartuşu değiştirdi"
+  },
+  {
+   "key": "case045.epilogue.custody.maid",
+   "value": "Kâhyanın taktığı standart kartuş çöpte, kullanılmamış bulundu."
+  },
+  {
+   "key": "case045.epilogue.custody.pharmacy",
+   "value": "U-500 kutusu eczaneden katilin kendisi tarafından alınmıştı."
+  },
+  {
+   "key": "case045.epilogue.custody.swapped",
+   "value": "Standart kartuşun çıkarılıp yerine U-500 takıldığı yazıldı."
+  },
+  {
+   "key": "case045.epilogue.verdict.accident",
+   "value": "Ölüm yanlış doz sayıldı; Lakeshore yeni bir yönetim kurulu atadı."
+  },
+  {
+   "key": "case045.epilogue.verdict.ochoa",
+   "value": "Lupe Ochoa gözaltına alındı; ses kaydı hiç dinlenmedi."
+  },
+  {
+   "key": "case045.epilogue.verdict.quinn",
+   "value": "Marjorie Quinn tutuklandı. Lakeshore Freight’ın Napoli’deki liman şirketine yaptığı 43 ödeme ve ses kaydı bube Napoli — Quartieri Spagnoli şubesine gönderildi."
+  },
+  {
+   "key": "case045.epilogue.verdict.trevor",
+   "value": "Trevor Kincaid tutuklandı; Quinn ertesi hafta Napoli’ye uçtu."
+  },
+  {
+   "key": "case045.evidence.accounts",
+   "value": "Şirket hesapları"
+  },
+  {
+   "key": "case045.evidence.lobby",
+   "value": "Asansör holü kamerası"
+  },
+  {
+   "key": "case045.evidence.medlab",
+   "value": "Kalem, kartuş ve eczane analizi"
+  },
+  {
+   "key": "case045.evidence.tape",
+   "value": "Ses kaydı dökümü"
+  },
+  {
+   "key": "case045.feedback.accident",
+   "value": "Kurbanın reçetesinde olmayan beş kat güçlü bir kartuş kalemin içindeydi."
+  },
+  {
+   "key": "case045.feedback.ochoa",
+   "value": "Kalemi kâhya taktı ama standart bir kartuşla; o kartuşun eşi buzdolabında, değiştirilen kartuş çöpte."
+  },
+  {
+   "key": "case045.feedback.quinn",
+   "value": "Kalemdeki beş kat güçlü kartuşta onun izi var ve kartuşu kendisi satın almış; ses kaydında kurbanın ertesi gün bube’ye gideceğini duyduktan sonra ‘Edda’ya söyle, Napoli hazır’ diyor. Kâhya onu masanın başında, kalemin yanında gördü."
+  },
+  {
+   "key": "case045.feedback.trevor",
+   "value": "Oğul bağırıştı ama kalem hazırlanmadan önce çıktı; mirastan payı bir vakfa bağlı."
+  },
+  {
+   "key": "case045.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case045.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Şubesi"
+  },
+  {
+   "key": "case045.file.value.location",
+   "value": "Gold Coast, Chicago — konut"
+  },
+  {
+   "key": "case045.file.value.number",
+   "value": "BDC-CHI-2030-0301"
+  },
+  {
+   "key": "case045.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case045.file.value.reporter",
+   "value": "Kâhya"
+  },
+  {
+   "key": "case045.line_med.body",
+   "value": "İnsülin kalemi, kartuşlar ve eczane kayıtları için hat açıldı."
+  },
+  {
+   "key": "case045.line_med.title",
+   "value": "HAT A — TIBBİ İNCELEME"
+  },
+  {
+   "key": "case045.line_money.body",
+   "value": "Lakeshore Freight’ın ve Kincaid ailesinin hesapları için hat açıldı."
+  },
+  {
+   "key": "case045.line_money.title",
+   "value": "HAT C — ŞİRKET HESAPLARI"
+  },
+  {
+   "key": "case045.line_tape.body",
+   "value": "Kurbanın masasındaki sesle çalışan kayıt cihazının dökümü için hat açıldı."
+  },
+  {
+   "key": "case045.line_tape.title",
+   "value": "HAT B — MASA SES KAYDEDİCİSİ"
+  },
+  {
+   "key": "case045.lobby.body",
+   "value": "Çatı katı asansör holü. 12 Eylül 19.00 – 23.30."
+  },
+  {
+   "key": "case045.lobby.title",
+   "value": "ASANSÖR HOLÜ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case045.medlab.body",
+   "value": "· Kalemdeki kartuş: beş kat yoğun (U-500) insülin; kalem standart (U-100) kartuş için ayarlı. Kurbanın reçetesinde U-500 yok.\n· Kartuşun cam yüzeyinde Marjorie Quinn’in parmak izi.\n· Buzdolabında kâhyanın taktığı U-100 kartuşun eşi eksik değil; çöpte bir U-100 kartuş, dolu, kullanılmamış.\n· Eczane kaydı: 9 Eylül’de bir U-500 kutusu, Marjorie Quinn’in annesi adına yazılmış reçeteyle, Marjorie Quinn tarafından alınmış."
+  },
+  {
+   "key": "case045.medlab.title",
+   "value": "KALEM, KARTUŞ VE ECZANE"
+  },
+  {
+   "key": "case045.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case045.method.insulin",
+   "value": "Kalemdeki kartuş beş kat güçlüsüyle değiştirildi"
+  },
+  {
+   "key": "case045.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case045.method.overdose",
+   "value": "Kendisi fazla doz yaptı"
+  },
+  {
+   "key": "case045.ochoa.body",
+   "value": "Kâhya."
+  },
+  {
+   "key": "case045.ochoa.deflect",
+   "value": "Ben evi çekip çeviririm."
+  },
+  {
+   "key": "case045.ochoa.pen.answer",
+   "value": "Akşam dozunu her gece 22.00’de kendisi yapardı, ben kalemi masasına hazırlardım. Kartuşları buzdolabında saklarım, her birini sayarım. Dün akşam kalemi 20.00’de masaya koydum; içinde yeni kartuş vardı, ben taktım."
+  },
+  {
+   "key": "case045.ochoa.pen.answer.demeanor",
+   "value": "Tunikasının yakasını düzeltiyor."
+  },
+  {
+   "key": "case045.ochoa.pen.question",
+   "value": "Bay Kincaid insülinini nasıl kullanırdı?"
+  },
+  {
+   "key": "case045.ochoa.study.answer",
+   "value": "Trevor 19.30’da, bağırıştılar, çıktı gitti. Sonra Quinn Hanım geldi, 20.30’dan 21.30’a kadar beyefendiyle odadaydı. Kapı kapalıydı, bir ara beyefendi su istedi, ben getirdim; Quinn Hanım masanın başında, kalemin yanında ayaktaydı."
+  },
+  {
+   "key": "case045.ochoa.study.question",
+   "value": "Akşam çalışma odasına kim girdi?"
+  },
+  {
+   "key": "case045.ochoa.title",
+   "value": "Lupe Ochoa — görüşme"
+  },
+  {
+   "key": "case045.offer.subtitle",
+   "value": "LAKESHORE  /  BÖLÜM FİNALİ"
+  },
+  {
+   "key": "case045.offer.summary",
+   "value": "Lakeshore Freight’ın kurucusu Gold Coast’taki dairesinde ölü. Bir gün önce bube’yi aramıştı."
+  },
+  {
+   "key": "case045.offer.title",
+   "value": "DOSYA #045"
+  },
+  {
+   "key": "case045.person.abrams.info",
+   "value": "52 yaşında, kurbanın şoförü ve koruması."
+  },
+  {
+   "key": "case045.person.abrams.name",
+   "value": "Sid Abrams"
+  },
+  {
+   "key": "case045.person.ochoa.info",
+   "value": "49 yaşında, kurbanın evinin kâhyası."
+  },
+  {
+   "key": "case045.person.ochoa.name",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.person.quinn.info",
+   "value": "55 yaşında, Lakeshore Freight’ın mali işler direktörü."
+  },
+  {
+   "key": "case045.person.quinn.name",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.person.trevor.info",
+   "value": "31 yaşında, kurbanın oğlu."
+  },
+  {
+   "key": "case045.person.trevor.name",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.quinn.body",
+   "value": "Mali işler direktörü."
+  },
+  {
+   "key": "case045.quinn.deflect",
+   "value": "Şirketin finansal bilgileri gizlidir."
+  },
+  {
+   "key": "case045.quinn.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case045.quinn.end.presented.medlab",
+   "value": "Parmak izi mi? Hesapları gösterirken her şeye dokundum."
+  },
+  {
+   "key": "case045.quinn.end.presented.tape",
+   "value": "Yirmi yıl o şirketi ben taşıdım; kamyonları değil, parayı. Walter bir sabah bube’ye gidip hepsini anlatacaktı, Paris’i, Tokyo’yu, Napoli’yi, onu. O kadın asla affetmez. Kalemdeki kartuşu beş kat güçlüsüyle değiştirdim. Kendi eliyle yaptı. Ve evet, o ses benim. Edda’ya Napoli’nin hazır olduğunu söyledim. Onu bulamazsınız; o zaten oradadır."
+  },
+  {
+   "key": "case045.quinn.end.question",
+   "value": "Kalemdeki kartuşu siz değiştirdiniz."
+  },
+  {
+   "key": "case045.quinn.night.answer",
+   "value": "Üç aylık hesaplar. Walter yorgundu, yaşlıydı, son günlerde kafası karışıktı. 21.40’ta çıktım. İnsülinine hiç dokunmadım, ne işim olur?"
+  },
+  {
+   "key": "case045.quinn.night.answer.demeanor",
+   "value": "Elmas küpesine dokunup elini indiriyor."
+  },
+  {
+   "key": "case045.quinn.night.question",
+   "value": "Akşam neden oradaydınız?"
+  },
+  {
+   "key": "case045.quinn.night.variant0",
+   "value": "Çantamdan ruj aldım. Bunu da mı yorumlayacaksınız?"
+  },
+  {
+   "key": "case045.quinn.title",
+   "value": "Marjorie Quinn — görüşme"
+  },
+  {
+   "key": "case045.recon.r_buy",
+   "value": "9 Eylül: Quinn annesinin reçetesiyle bir U-500 insülin kutusu alıyor."
+  },
+  {
+   "key": "case045.recon.r_call",
+   "value": "11 Eylül: Kincaid bube Chicago’yu arıyor; şoförüne ‘yarın beni Pilsen’e götür’ diyor."
+  },
+  {
+   "key": "case045.recon.r_dose",
+   "value": "21.58: Kincaid akşam dozunu kendi eliyle yapıyor; gece hipoglisemiden ölüyor."
+  },
+  {
+   "key": "case045.recon.r_leave",
+   "value": "21.40: Quinn çatı katından çıkıyor."
+  },
+  {
+   "key": "case045.recon.r_prep",
+   "value": "20.00: Kâhya kalemi yeni bir standart kartuşla masaya koyuyor."
+  },
+  {
+   "key": "case045.recon.r_swap",
+   "value": "Quinn masanın başında kalemdeki kartuşu U-500’le değiştiriyor; çıkarken ‘Edda’ya söyle, Napoli hazır’ diyor."
+  },
+  {
+   "key": "case045.recon.r_warn",
+   "value": "20.36: Kincaid, Quinn’e ertesi gün Pilsen’e gideceğini söylüyor."
+  },
+  {
+   "key": "case045.report.body",
+   "value": "13 Eylül 2030 sabahı Gold Coast’taki bir çatı katı dairesinde Lakeshore Freight’ın kurucusu Walter Kincaid (74), çalışma masasında ölü bulundu. Kurban tip 1 şeker hastasıydı; insülin kalemi masanın üstündeydi.\n\nCesedi kâhya Lupe Ochoa 07.10’da buldu. Önceki akşam dairede bulunanlar: oğlu Trevor Kincaid, mali işler direktörü Marjorie Quinn, şoför Sid Abrams, kâhya Lupe Ochoa."
+  },
+  {
+   "key": "case045.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case045.request.accounts",
+   "value": "Şirket hesaplarını iste"
+  },
+  {
+   "key": "case045.request.line_med",
+   "value": "Tıbbi inceleme hattını aç"
+  },
+  {
+   "key": "case045.request.line_money",
+   "value": "Şirket hesapları hattını aç"
+  },
+  {
+   "key": "case045.request.line_tape",
+   "value": "Ses kaydedicisi hattını aç"
+  },
+  {
+   "key": "case045.request.medlab",
+   "value": "Kalem, kartuş ve eczane analizini iste"
+  },
+  {
+   "key": "case045.request.tape",
+   "value": "Ses kaydının dökümünü iste"
+  },
+  {
+   "key": "case045.summary.evidence",
+   "value": "Kâhya kalemi ve masanın başındaki kadını, şoför kurbanın son planını verdi. Tıbbi hat kartuştaki izi ve eczaneyi, ses hattı gecenin konuşmalarını verdi. Hesaplar hattı 43 ödemeyi Napoli’ye bağladı."
+  },
+  {
+   "key": "case045.summary.lesson",
+   "value": "Chicago’daki bütün kamyonlar aynı limana gidiyordu. Sıradaki şehir: Napoli."
+  },
+  {
+   "key": "case045.summary.location",
+   "value": "Gold Coast — Eylül 2030"
+  },
+  {
+   "key": "case045.summary.truth",
+   "value": "Lakeshore Freight’ın kurucusu Walter Kincaid, Chicago’daki tutuklamalardan sonra her şeyi bube’ye anlatmaya karar verdi. Mali işler direktörü Marjorie Quinn bunu öğrendiği akşam, kâhyanın hazırladığı insülin kalemindeki kartuşu beş kat güçlüsüyle değiştirdi ve odadan çıkarken birine ‘Edda’ya söyle, Napoli hazır’ dedi. Kincaid akşam dozunu kendi eliyle yaptı."
+  },
+  {
+   "key": "case045.suspect.label",
+   "value": "Walter Kincaid’i kim öldürdü?"
+  },
+  {
+   "key": "case045.tablet.caseLine",
+   "value": "DOSYA #045  /  BUBE CHICAGO — PİLSEN"
+  },
+  {
+   "key": "case045.tape.body",
+   "value": "12 Eylül:\n\n· 20.36 Walter Kincaid: ‘Marjorie, yarın Pilsen’e gidiyorum. Sana bir avukat bulmanı öneririm.’\n· 20.37 Marjorie Quinn: ‘Walter, bu senin kararın değil.’\n· 20.51 Marjorie Quinn (odadan çıkarken telefonla, kapı aralık): ‘Edda’ya söyle, Napoli hazır. Yaşlı adam sabahı görmeyecek.’\n· 21.58 Walter Kincaid tek başına: ‘Akşam dozu.’ Kalemin tık sesi."
+  },
+  {
+   "key": "case045.tape.title",
+   "value": "SES KAYDI DÖKÜMÜ"
+  },
+  {
+   "key": "case045.time.arrive",
+   "value": "20.14"
+  },
+  {
+   "key": "case045.time.console",
+   "value": "20.52"
+  },
+  {
+   "key": "case045.time.dose",
+   "value": "21.58"
+  },
+  {
+   "key": "case045.time.fight",
+   "value": "19.30"
+  },
+  {
+   "key": "case045.time.found",
+   "value": "07.10"
+  },
+  {
+   "key": "case045.time.leave",
+   "value": "21.40"
+  },
+  {
+   "key": "case045.time.prep",
+   "value": "20.00"
+  },
+  {
+   "key": "case045.time.say",
+   "value": "20.51"
+  },
+  {
+   "key": "case045.title",
+   "value": "Dosya #045 — Lakeshore"
+  },
+  {
+   "key": "case045.trevor.body",
+   "value": "Kurbanın oğlu."
+  },
+  {
+   "key": "case045.trevor.deflect",
+   "value": "Babamın şirketiyle ilgim yok."
+  },
+  {
+   "key": "case045.trevor.fight.answer",
+   "value": "Para istedim, her zamanki gibi. Vermedi. ‘Yarın her şeyi kaybedeceğiz zaten, Trevor, ben de kaybedeceğim’ dedi. Ne demek istediğini anlamadım. 19.50’de çıktım, Wicker Park’ta bir bardaydım, sabaha kadar."
+  },
+  {
+   "key": "case045.trevor.fight.answer.demeanor",
+   "value": "Gömleğinin kollarını yukarı itiyor."
+  },
+  {
+   "key": "case045.trevor.fight.question",
+   "value": "Babanızla neden bağırıştınız?"
+  },
+  {
+   "key": "case045.trevor.title",
+   "value": "Trevor Kincaid — görüşme"
+  },
+  {
+   "key": "case045.verdict.accident",
+   "value": "Kimse — yanlış doz"
+  },
+  {
+   "key": "case045.verdict.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.verdict.quinn",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.verdict.trevor",
+   "value": "Trevor Kincaid"
+  }
+ ]
+}
