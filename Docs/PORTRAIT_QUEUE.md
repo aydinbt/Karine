@@ -774,31 +774,31 @@ A 38-year-old Dutch man, tousled blond hair, sunburned nose, pale blue eyes, une
 
 ## Dosya #047 (5)
 
-118. **Enzo Ferraro** → `enzo.png`
+118. **Enzo Ferraro** → `enzo.png` ✅
 
 ```
 A 44-year-old Neapolitan man, thick dark hair greying at the temples, heavy moustache, flour-dusted forearms, evasive brown eyes. White pizzaiolo jacket with rolled sleeves. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-119. **Rosaria Amato** → `rosaria.png`
+119. **Rosaria Amato** → `rosaria.png` ✅
 
 ```
 A 39-year-old Neapolitan woman, long dark brown hair tied back, red-rimmed grieving eyes, small gold earrings. Dark burgundy cardigan over a black top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-120. **Moussa Diop** → `moussa.png`
+120. **Moussa Diop** → `moussa.png` ✅
 
 ```
 A 29-year-old Senegalese man, short black hair, slim face, calm attentive dark eyes, a small beard. Green T-shirt under an open light jacket, a bundle of folded umbrellas over his shoulder. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-121. **Rocco Greco** → `rocco.png`
+121. **Rocco Greco** → `rocco.png` ✅
 
 ```
 A 57-year-old Neapolitan man, slicked-back grey hair, tanned heavy face, a pinky ring, a thin smile that does not reach his eyes. Dark charcoal suit with an open-collared black shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-122. **Lucia Bianco** → `lucia.png`
+122. **Lucia Bianco** → `lucia.png` ✅
 
 ```
 A 23-year-old Neapolitan woman, long black hair in a high ponytail, nervous wide eyes, a small nose stud. Black waitress shirt with a short apron. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
