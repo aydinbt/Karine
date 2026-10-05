@@ -59,9 +59,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 34. **Dağınık daire** → `case023_drawers.png` ✅
 
 ## Dosya #024 (4)
-35. **Defter** → `case024_ledger.png`
-36. **İnfüzyon pompası** → `case024_pump.png`
-37. **Şömine demiri** → `case024_poker.png`
+35. **Defter** → `case024_ledger.png` ✅
+36. **İnfüzyon pompası** → `case024_pump.png` ✅
+37. **Şömine demiri** → `case024_poker.png` ✅
 38. **Mühürlü zarf** → `case024_envelope.png`
 
 ## Dosya #025 (3)

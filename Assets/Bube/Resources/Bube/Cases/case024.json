@@ -50,6 +50,13 @@
    "bodyKey": "case024.scene.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case024.item.poker.name",
+     "detailKey": "case024.item.poker.detail",
+     "imageResource": "Bube/Items/case024_poker"
+    }
    ]
   },
   {
@@ -222,6 +229,13 @@
    "requestDelaySeconds": 4,
    "requiresAsked": [
     "case024.leon.code"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case024.item.pump.name",
+     "detailKey": "case024.item.pump.detail",
+     "imageResource": "Bube/Items/case024_pump"
+    }
    ]
   },
   {
@@ -301,6 +315,13 @@
    "bodyKey": "case024.ledger.body",
    "requires": [
     "notary"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case024.item.ledger.name",
+     "detailKey": "case024.item.ledger.detail",
+     "imageResource": "Bube/Items/case024_ledger"
+    }
    ]
   },
   {
