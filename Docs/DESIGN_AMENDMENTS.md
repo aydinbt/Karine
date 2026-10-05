@@ -1088,3 +1088,7 @@ Kullanıcı ülke başına on dosya kararını değiştirdi: Türkiye öğretici
 ## Birleşik Krallık finali ve Almanya bölümü (5 Ekim 2026)
 
 Kullanıcı ön onayı: "Birleşik Krallığı bitir, sonra Almanya'ya geç, güçlü bir senaryo yaz, onaylıyorum; birbirine bağla." #016–#024 bu onayla yazıldı; kullanıcı dönünce gözden geçirecek. Almanya: bube Berlin — Kreuzberg şubesi, Haziran–Aralık 2029, plan [DE_CHAPTER_PLAN.md](DE_CHAPTER_PLAN.md). Bölümleri bağlayan ip **Arendt Handelsgesellschaft**: vakalar kendi içinde kapanır, ip yalnız birer satırla geçer ve finalde merkeze oturur. Her bölüm finali ülkeye özel telefon satırları ve personel metni taşıyabilir. Almanya finali bir cinayet değil, kurulmuş bir ölümdür; defterin son sayfası Japonya'yı açar.
+
+## Kişi sayısı sabit değil (5 Ekim 2026)
+
+Kullanıcı: "Her dosyada sabit beş kişi olmasın; 3–4 de olur, 6–7 de." Japonya (#025) ve sonrasında her dosyanın görüşülebilir kişi sayısı 3 ile 7 arasında, vakanın ihtiyacına göre ve ülke içinde dağınık seçilir; aynı ülkede iki dosya üst üste aynı sayıda olmaz. Mevcut dosyalar değiştirilmez (#011–#014 beşer kişi; #015–#024 zaten 3–7 arası).
