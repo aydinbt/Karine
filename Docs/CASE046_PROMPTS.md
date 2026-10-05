@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Yastık** → `Bube/Items/case046_pillow` — Kurbanın yatağındaki işlemeli yastık; ortasında ruj ve tükürük lekesi.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old white cotton pillow with hand-made lace edging, a faint pinkish lipstick smear and a damp stain in the middle, slightly crumpled. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old white cotton pillow with hand-made lace edging, a faint pinkish lipstick smear and a damp stain in the middle, slightly crumpled. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Teneke kutu** → `Bube/Items/case046_tin` — Bir motosiklet selesinin altından çıkan eski bisküvi kutusu; içinde sararmış sevk fişleri.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old dented decorative biscuit tin with faded flower patterns, lid open, filled with yellowed carbon-copy shipping slips held with a string, the writing on them blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old dented decorative biscuit tin with faded flower patterns, lid open, filled with yellowed carbon-copy shipping slips held with a string, the writing on them blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Yarım kalmış dantel** → `Bube/Items/case046_lace` — Kurbanın sandalyesindeki tığ işi; tığ hâlâ ilmekte.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A half-finished white crochet lace doily with the steel crochet hook still caught in the last loop, a small ball of white thread beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A half-finished white crochet lace doily with the steel crochet hook still caught in the last loop, a small ball of white thread beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case046.jpg`, yatay 16:9)

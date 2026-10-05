@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Suyla dolu varil** → `Bube/Items/case062_barrel` — Patlamış bir şurup varili; içindeki sıvı renklendirilmiş su, yalnızca üstte bir parmak şurup.
 
 ```
-Forensic evidence photograph, three-quarter view on a concrete warehouse floor. A burst blue steel 200-litre maple syrup drum lying on its side, a split seam, a puddle of thin pale amber liquid spreading around it, a thin dark syrup layer visible at the rim, evidence markers with blank faces. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a concrete warehouse floor. A burst blue steel 200-litre maple syrup drum lying on its side, a split seam, a puddle of thin pale amber liquid spreading around it, a thin dark syrup layer visible at the rim, evidence markers with blank faces. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Sayım tutanağı** → `Bube/Items/case062_count` — Deponun aylık sayım tutanağı; ‘1.200 varil, tam’, ustabaşının imzası.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A carbon-copy warehouse inventory form on a clipboard, columns of handwritten tallies all ticked, a large confident signature at the bottom, every number and word illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbon-copy warehouse inventory form on a clipboard, columns of handwritten tallies all ticked, a large confident signature at the bottom, every number and word illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Forklift kontak anahtarı** → `Bube/Items/case062_key` — İkinci forkliftin kontak anahtarı; ustabaşının kamyonetinin güneşliğinin arkasından çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A single forklift ignition key on a yellow plastic tag with no writing, lying next to a folded-down pickup truck sun visor with a clip. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A single forklift ignition key on a yellow plastic tag with no writing, lying next to a folded-down pickup truck sun visor with a clip. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case062.jpg`, yatay 16:9)

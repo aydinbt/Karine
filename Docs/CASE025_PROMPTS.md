@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kapsül yastığı** → `Bube/Items/case025_pillow` — 4B-12’den alınan yastık; kılıfın dışında bir el izi.
 
 ```
-Forensic evidence photograph, top-down view on a neutral grey evidence mat. A small rectangular white capsule-hotel pillow (about 40 cm wide) in a plain white cotton pillowcase. The pillowcase is creased and slightly pressed in the middle, with a faint, barely visible greyish handprint smudge on one side near the edge. No stains of blood. A small blank grey scale ruler with no numbers lies beside it. Flat, even forensic lighting from above. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. No text, no labels, no logos, no hotel branding.
+Forensic evidence illustration, top-down view on a neutral grey evidence mat. A small rectangular white capsule-hotel pillow (about 40 cm wide) in a plain white cotton pillowcase. The pillowcase is creased and slightly pressed in the middle, with a faint, barely visible greyish handprint smudge on one side near the edge. No stains of blood. A small blank grey scale ruler with no numbers lies beside it. Flat, even forensic lighting from above. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. No text, no labels, no logos, no hotel branding.
 ```
 
 2. **Dolap bilekliği** → `Bube/Items/case025_wristband` — 4B-12 dolabının anahtar bilekliği; Tanabe’nin bileğinde, 4B-11 dolabınınki Mori’de.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A single coiled spiral plastic locker-key wristband, dark blue coil, with a small flat plastic tag and a short metal key attached. The tag is blank (no numbers, no text). Inside a clear transparent zip evidence bag with a blank white label area (no writing). Small blank scale ruler beside it, no numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A single coiled spiral plastic locker-key wristband, dark blue coil, with a small flat plastic tag and a short metal key attached. The tag is blank (no numbers, no text). Inside a clear transparent zip evidence bag with a blank white label area (no writing). Small blank scale ruler beside it, no numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 3. **‘Kimura’nın çantası** → `Bube/Items/case025_bag` — Dolapta kalan siyah sırt çantası; içinde bir USB bellek ve şirket kartı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An open plain black nylon business backpack lying flat. Beside it, arranged neatly: a small silver USB flash drive, a folded white shirt, a plastic employee ID card turned face-down so only the plain white back is visible, and a thin stack of printed spreadsheet pages turned face-down. Small blank scale ruler without numbers. Flat even lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. No readable text anywhere, no logos, no brand names.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An open plain black nylon business backpack lying flat. Beside it, arranged neatly: a small silver USB flash drive, a folded white shirt, a plastic employee ID card turned face-down so only the plain white back is visible, and a thin stack of printed spreadsheet pages turned face-down. Small blank scale ruler without numbers. Flat even lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. No readable text anywhere, no logos, no brand names.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case025.jpg`, yatay 16:9)

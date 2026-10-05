@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Tekne tahliye tapası** → `Bube/Items/case056_plug` — Tek kişilik teknenin kıçındaki tahliye tapası; bir kupa vitrininin arkasından çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small black rubber and white plastic screw-in drain plug from a racing rowing shell, slightly wet, beside a tarnished silver rowing trophy cup lying on its side. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small black rubber and white plastic screw-in drain plug from a racing rowing shell, slightly wet, beside a tarnished silver rowing trophy cup lying on its side. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Kesilmiş plastik kelepçeler** → `Bube/Items/case056_ties` — Teknenin ayakkabılarının topuk iplerine takılmış, sonradan kesilmiş iki siyah kelepçe.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Two thin black plastic cable ties cut cleanly open, lying beside a pair of rowing shell foot-stretcher shoes whose heel restraint cords are tight and shortened. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. Two thin black plastic cable ties cut cleanly open, lying beside a pair of rowing shell foot-stretcher shoes whose heel restraint cords are tight and shortened. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **2009 kupası** → `Bube/Items/case056_cup` — Kulübün vitrinindeki 2009 şampiyonluk kupası; altında sekiz kürekçinin adı.
 
 ```
-Forensic evidence photograph, three-quarter view inside a glass trophy cabinet. A silver rowing championship cup on a wooden plinth with a small engraved plate whose names are blurred and unreadable, a black mourning ribbon tied around one handle, dust everywhere except one clean rectangle behind it. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view inside a glass trophy cabinet. A silver rowing championship cup on a wooden plinth with a small engraved plate whose names are blurred and unreadable, a black mourning ribbon tied around one handle, dust everywhere except one clean rectangle behind it. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case056.jpg`, yatay 16:9)

@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **İsli bez** → `Bube/Items/case042_rag` — Bir kamyonun alet kutusundan çıkan bez; bir ucu siyah isle sertleşmiş, egzoz borusu çapında kıvrılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A dirty red shop rag twisted into a tight plug shape, one end stiff and blackened with oily exhaust soot in a circular pattern, the rest stained with grease. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A dirty red shop rag twisted into a tight plug shape, one end stiff and blackened with oily exhaust soot in a circular pattern, the rest stained with grease. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Egzoz borusu** → `Bube/Items/case042_pipe` — Kurbanın kamyonunun dikey egzoz çıkışı; ağzının içinde kırmızı pamuk lifleri.
 
 ```
-Forensic evidence photograph, close-up of the top of a chrome vertical exhaust stack on a semi-truck cab, black soot inside the opening with a few red cotton fibres caught on the rim, a yellow evidence marker taped beside it, harsh flash. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, close-up of the top of a chrome vertical exhaust stack on a semi-truck cab, black soot inside the opening with a few red cotton fibres caught on the rim, a yellow evidence marker taped beside it, harsh flash. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kırık dorse mührü** → `Bube/Items/case042_seal` — Dorsenin kapısındaki numaralı plastik güvenlik mührü; makasla kesilmiş.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A yellow plastic pull-tight trailer security seal cut cleanly through with shears, its printed numbers blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellow plastic pull-tight trailer security seal cut cleanly through with shears, its printed numbers blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case042.jpg`, yatay 16:9)

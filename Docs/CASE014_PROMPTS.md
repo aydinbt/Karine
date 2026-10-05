@@ -27,7 +27,7 @@ Ortak kısım, her prompt'un sonuna eklenir:
 
 Ortak kısım:
 
-> Forensic evidence photograph, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
+> Forensic evidence illustration, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 
 1. **Yırtık not** — `case014_note`: *A small torn notebook page with a single handwritten word in pencil, illegible scrawl, the bottom edge ragged, in a clear evidence bag.*
 2. **İki fincan** — `case014_cups`: *Two matching blue porcelain teacups on a shelf beside a sink, one dry with a brown tea stain inside, the other freshly washed and glistening with water drops.* (Evidence-mat kısmını kullanma; olay yeri fotoğrafı.)

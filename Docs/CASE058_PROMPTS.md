@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kayar raf kolu** → `Bube/Items/case058_handle` — Kayar rafların döner kolu; restorasyon atölyesindeki cilt presinin içinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A detached three-spoke steel crank wheel from a mobile compact archive shelving unit, worn black grip knobs, a square socket in the centre, a few fibres of old paper stuck to one spoke. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A detached three-spoke steel crank wheel from a mobile compact archive shelving unit, worn black grip knobs, a square socket in the centre, a few fibres of old paper stuck to one spoke. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **1752 haritası fotoğrafı** → `Bube/Items/case058_map` — Rosa’nın kataloktan kestiği fotoğraf; haritanın köşesinde arşivin silinmiş mührünün izi.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A glossy auction-catalogue page showing an antique hand-drawn eighteenth-century river map in sepia ink, with a faint ghost of an erased round stamp in one corner circled in pencil, the catalogue text replaced by blank grey blocks. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A glossy auction-catalogue page showing an antique hand-drawn eighteenth-century river map in sepia ink, with a faint ghost of an erased round stamp in one corner circled in pencil, the catalogue text replaced by blank grey blocks. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Restorasyon defteri** → `Bube/Items/case058_cradle` — Atölyenin 2015 restorasyon defteri; haritanın ‘restorasyona alındı’ kaydı, dönüş kaydı yok.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An open green cloth-bound conservation workshop register with ruled columns, one row filled in neat handwriting and the matching return column left conspicuously empty, a bone folder lying across the page, handwriting illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An open green cloth-bound conservation workshop register with ruled columns, one row filled in neat handwriting and the matching return column left conspicuously empty, a bone folder lying across the page, handwriting illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case058.jpg`, yatay 16:9)

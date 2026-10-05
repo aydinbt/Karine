@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kopmuş ankraj cıvataları** → `Bube/Items/case039_bolts` — Rafın zemine bağlandığı dört cıvata; kesilme yüzeyleri parlak, yeni kopmuş.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Four heavy steel anchor bolts sheared off near the base, their broken ends bright and fresh against older rusted threads, each with a small yellow numbered tag without readable text. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. Four heavy steel anchor bolts sheared off near the base, their broken ends bright and fresh against older rusted threads, each with a small yellow numbered tag without readable text. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Levye** → `Bube/Items/case039_bar` — Konteynır sökme alanındaki alet panosunda; ucunda temizlenmeye çalışılmış koyu leke.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A long steel crowbar with a flat chisel end, the end showing a faint dark brownish residue in the grooves despite being wiped, a few smeared streaks. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A long steel crowbar with a flat chisel end, the end showing a faint dark brownish residue in the grooves despite being wiped, a few smeared streaks. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Çift etiketli sandık** → `Bube/Items/case039_labels` — Bir sandığın üzerinde, ‘makine parçası’ etiketinin altından görünen eski bir müzayede lot etiketi.
 
 ```
-Forensic evidence photograph, close-up of the side of a wooden shipping crate in a warehouse. A fresh white shipping label partly peeled back to reveal an older cream-coloured auction lot label underneath with an elegant printed number and blurred unreadable words, stencilled marks on the wood blurred. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, close-up of the side of a wooden shipping crate in a warehouse. A fresh white shipping label partly peeled back to reveal an older cream-coloured auction lot label underneath with an elegant printed number and blurred unreadable words, stencilled marks on the wood blurred. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case039.jpg`, yatay 16:9)

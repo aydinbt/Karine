@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Buhar presi** → `Bube/Items/case037_press` — Atölyedeki endüstriyel buhar presi; kablosunun yalıtımı bıçakla sıyrılmış.
 
 ```
-Forensic evidence photograph, three-quarter view in a Paris fashion workshop. A large industrial garment steam press with a padded white board, its power cable lying across the wooden floor with a short section of the insulation neatly sliced open exposing copper wire, a yellow evidence marker beside the cut. Bolts of fabric blurred in the background. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view in a Paris fashion workshop. A large industrial garment steam press with a padded white board, its power cable lying across the wooden floor with a short section of the insulation neatly sliced open exposing copper wire, a yellow evidence marker beside the cut. Bolts of fabric blurred in the background. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Terzi metresi** → `Bube/Items/case037_tape` — Kurbanın masasının altından çıkan bez mezura; ortasında gerilmiş, buruşmuş bir bölüm.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A yellow fabric tailor's measuring tape laid out in a loose curve, one middle section stretched, twisted and creased with faint skin-coloured smudges, the printed numbers blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellow fabric tailor's measuring tape laid out in a loose curve, one middle section stretched, twisted and creased with faint skin-coloured smudges, the printed numbers blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Lisans faturaları** → `Bube/Items/case037_invoices` — Kurbanın dolabında saklı fotokopiler: Tokyo lisans faturaları, köşelerinde el yazısıyla iki harf.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small stack of photocopied invoices with blurred unreadable columns of figures, one corner showing a tiny handwritten two-letter initial in blue ink, illegible, a yellow sticky note with a question mark drawn on it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small stack of photocopied invoices with blurred unreadable columns of figures, one corner showing a tiny handwritten two-letter initial in blue ink, illegible, a yellow sticky note with a question mark drawn on it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case037.jpg`, yatay 16:9)

@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Ofisteki fotoğraf** → `Bube/Items/case052_photo` — Don Vittorio’nun ofis duvarından indirilen eski fotoğraf: bir vinç önünde iki kişi; kadının yüzü kadraj dışında, bileğinde eski bir erkek saati.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old faded colour photograph from the late 1980s in a simple wooden frame with cracked glass: a middle-aged man in a suit standing beside a woman in front of a harbour crane, the woman's face cut off by the top edge of the frame, only her shoulder and her wrist visible, on her wrist a heavy vintage men's wristwatch with a thick leather strap. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old faded colour photograph from the late 1980s in a simple wooden frame with cracked glass: a middle-aged man in a suit standing beside a woman in front of a harbour crane, the woman's face cut off by the top edge of the frame, only her shoulder and her wrist visible, on her wrist a heavy vintage men's wristwatch with a thick leather strap. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Konteyner mührü** → `Bube/Items/case052_seal` — İlaçlama konteynerinin kapı mührü; numaralı plastik şerit iki kez takılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Two yellow plastic shipping-container security seals, one cut cleanly with pliers and one intact and still looped, a yellow fumigation warning placard with a skull symbol beside them, any numbers and words blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. Two yellow plastic shipping-container security seals, one cut cleanly with pliers and one intact and still looped, a yellow fumigation warning placard with a skull symbol beside them, any numbers and words blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Fosfin tablet kutusu** → `Bube/Items/case052_tablets` — Bir arabanın bagajından çıkan, yarısı boş alüminyum kutu.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A dented grey aluminium flask-shaped canister for fumigation tablets with its screw lid off, a few small grey tablets spilled on a plastic sheet beside it, a pair of nitrile gloves, all labels blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A dented grey aluminium flask-shaped canister for fumigation tablets with its screw lid off, a few small grey tablets spilled on a plastic sheet beside it, a pair of nitrile gloves, all labels blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case052.jpg`, yatay 16:9)

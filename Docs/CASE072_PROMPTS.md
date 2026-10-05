@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Adrenalin kalemi** → `Bube/Items/case072_pen` — Kurbanın oto-enjektörü; imar müdürünün arabasının torpidosundan çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A generic yellow-and-grey epinephrine auto-injector pen with its blue safety cap still on, no brand name visible, lying in an open clear evidence bag beside a car glovebox key. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A generic yellow-and-grey epinephrine auto-injector pen with its blue safety cap still on, no brand name visible, lying in an open clear evidence bag beside a car glovebox key. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Karides ezmesi kavanozu** → `Bube/Items/case072_paste` — Mutfakta olmaması gereken küçük bir karides ezmesi kavanozu; çöpte.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small glass jar of dark purple-brown fermented shrimp paste with a lid, a blank paper label, a smear on the rim, a teaspoon beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small glass jar of dark purple-brown fermented shrimp paste with a lid, a blank paper label, a smear on the rim, a teaspoon beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **2012 hijyen raporu** → `Bube/Items/case072_hygiene` — İlk dükkânı kapatan rapor; imzası net.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old council hygiene inspection form, two pages, a large red rubber-stamp mark and a signature at the bottom, all text illegible, slightly yellowed and folded in thirds. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old council hygiene inspection form, two pages, a large red rubber-stamp mark and a signature at the bottom, all text illegible, slightly yellowed and folded in thirds. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case072.jpg`, yatay 16:9)

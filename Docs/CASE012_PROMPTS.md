@@ -27,7 +27,7 @@ Ortak kısım, her prompt'un sonuna eklenir:
 
 Ortak kısım:
 
-> Forensic evidence photograph, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
+> Forensic evidence illustration, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 
 1. **Bisiklet kilidi** — `case012_lock`: *A heavy black steel U-shaped bicycle lock, slightly wet, a faint dark stain on the curved end, inside a clear evidence bag.*
 2. **Bantlı kamera** — `case012_camera`: *Close-up of a small dome security camera on a bus ceiling, its lens covered with a strip of black electrical tape.* (Evidence-mat kısmını kullanma; yerinde fotoğraf.)

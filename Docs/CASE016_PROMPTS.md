@@ -23,7 +23,7 @@ Ortak kısım, her prompt'un sonuna eklenir:
 
 Ortak kısım:
 
-> Forensic evidence photograph, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
+> Forensic evidence illustration, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 
 1. **Islak cüzdan** — `case016_wallet`: *A soaked brown leather wallet open, a blank identity card with a photo area blurred, water droplets, inside a clear evidence bag.*
 2. **Tahsilat mektupları** — `case016_letters`: *A small stack of folded debt collection letters, text unreadable and blurred, one with a handwritten scrawl in pen, in an evidence bag.*

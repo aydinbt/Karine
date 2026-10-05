@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Acil çağrı kaydı** → `Bube/Items/case035_call` — Çağrı merkezi ekran görüntüsü: arayan numara, saat, konum.
 
 ```
-Forensic evidence photograph of a computer monitor in a dim emergency call centre showing a generic call-log interface with blurred unreadable rows, one row highlighted in yellow, a headset lying on the desk in front of the screen. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration of a computer monitor in a dim emergency call centre showing a generic call-log interface with blurred unreadable rows, one row highlighted in yellow, a headset lying on the desk in front of the screen. 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Metro kartı** → `Bube/Items/case035_card` — Lucien Mallet’nin cüzdanındaki aylık metro kartı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A plain blue plastic transit card with no text or logo, next to a worn brown leather wallet lying open with a faded small photograph of a young girl tucked behind a clear window. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A plain blue plastic transit card with no text or logo, next to a worn brown leather wallet lying open with a faded small photograph of a young girl tucked behind a clear window. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 3. **Eski dava kararı** → `Bube/Items/case035_ruling` — 2019 tarihli, beraatle sonuçlanmış trafik kazası dosyasının kapağı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A thick beige cardboard legal file folder tied with a faded red ribbon, a blank white label on its cover with no writing, a newspaper clipping with a blurred unreadable headline and a small blurred photo of a crashed car tucked under the ribbon. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick beige cardboard legal file folder tied with a faded red ribbon, a blank white label on its cover with no writing, a newspaper clipping with a blurred unreadable headline and a small blurred photo of a crashed car tucked under the ribbon. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case035.jpg`, yatay 16:9)

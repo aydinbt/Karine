@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Kumanda kolu** → `Bube/Items/case048_lever` — Kumanda odasındaki ana kolun kapağı; mühür teli koparılmış.
 
 ```
-Forensic evidence photograph, close-up of an old industrial control panel. A heavy black lever with a red knob in the 'run' position, a small broken lead seal wire dangling beside it, smudged fingerprints dusted with grey powder on the metal. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no numbers, no logos.
+Forensic evidence illustration, close-up of an old industrial control panel. A heavy black lever with a red knob in the 'run' position, a small broken lead seal wire dangling beside it, smudged fingerprints dusted with grey powder on the metal. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no numbers, no logos.
 ```
 
 2. **Bakım asma etiketi** → `Bube/Items/case048_tag` — Bakım çukurunun girişinde olması gereken kırmızı ‘içeride çalışan var’ etiketi; bir çöp kutusundan çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A red plastic lockout safety tag with a black hand symbol and a brass padlock attached, the tag slightly bent and stained with coffee grounds, any writing blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A red plastic lockout safety tag with a black hand symbol and a brass padlock attached, the tag slightly bent and stained with coffee grounds, any writing blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kablo denetim raporu** → `Bube/Items/case048_report` — Son altı ayın denetim raporları; imzalar birbirinin aynısı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Three stapled inspection report forms fanned out, each with an identical-looking ink signature at the bottom traced over in the same way, one held under a magnifying glass showing a faint pencil underline beneath the ink, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. Three stapled inspection report forms fanned out, each with an identical-looking ink signature at the bottom traced over in the same way, one held under a magnifying glass showing a faint pencil underline beneath the ink, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case048.jpg`, yatay 16:9)

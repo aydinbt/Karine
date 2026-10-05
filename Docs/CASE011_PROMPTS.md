@@ -27,7 +27,7 @@ Ortak kısım, her prompt'un sonuna eklenir:
 
 Ortak kısım:
 
-> Forensic evidence photograph, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
+> Forensic evidence illustration, top-down or three-quarter view, single object centred, neutral grey evidence mat with a small blank scale ruler (no numbers or text), flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 
 1. **Halat babası** — `case011_bollard`: *A rusty black cast-iron mooring bollard on old wet wooden pier planks, a faint dark smear on its upper rim, river fog in the background.* (Evidence-mat kısmını bu görselde kullanma; olay yeri fotoğrafı.)
 2. **Envanter defteri** — `case011_ledger`: *An open, worn cloth-bound workshop ledger with handwritten pencil columns, unreadable scribbles, a few lines crossed out, a brass screw resting on the page.*

@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Buz tankı kilidinin anahtarı** → `Bube/Items/case067_key` — Tankın kapağındaki asma kilidin anahtarı; müdürün ofisindeki balık tartısının çekmecesinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small brass padlock key on a split ring with a faded blue plastic tag with no writing, wet and speckled with fish scales, lying beside the open drawer of an old steel commercial fish scale. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small brass padlock key on a split ring with a faded blue plastic tag with no writing, wet and speckled with fish scales, lying beside the open drawer of an old steel commercial fish scale. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Pazar alarm kaydı** → `Bube/Items/case067_alarm` — Pazarın alarm paneli dökümü; ‘kuruldu 18.30’, müdürün kodu.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A narrow thermal printout strip from an alarm control panel, a column of short event lines with times, all text faded and illegible, curled at the ends, beside a keypad fob. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A narrow thermal printout strip from an alarm control panel, a column of short event lines with times, all text faded and illegible, curled at the ends, beside a keypad fob. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **1998 fotoğrafı** → `Bube/Items/case067_lighter` — Long’un sakladığı eski bir fotoğraf; yangından bir saat önce tezgâhın yanında genç bir bekçi, elinde çakmak.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old faded 1990s colour photo print with rounded corners showing a blurry young man in a night watchman's jacket standing beside a market stall, a small flame of a lighter in his hand, face not recognisable, a crease across it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old faded 1990s colour photo print with rounded corners showing a blurry young man in a night watchman's jacket standing beside a market stall, a small flame of a lighter in his hand, face not recognisable, a crease across it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case067.jpg`, yatay 16:9)

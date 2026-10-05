@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Fren kolu anahtarı** → `Bube/Items/case070_key` — Tramvayın fren boşaltma kolunun sökülebilir anahtarı; vardiya şefinin dolabından çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A heavy L-shaped steel tram control handle key with a worn black grip and a square socket end, smeared with grease, a small oily fingerprint visible on the metal, inside an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A heavy L-shaped steel tram control handle key with a worn black grip and a square socket end, smeared with grease, a small oily fingerprint visible on the metal, inside an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Fren bakım kaydı** → `Bube/Items/case070_log` — Deponun bakım defteri; ‘frenler sağlam’ notu yeni mürekkeple.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An open hardbound maintenance logbook with handwritten rows in faded blue ink, one recent line in fresh darker ink, all writing illegible, a pen lying across the page. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An open hardbound maintenance logbook with handwritten rows in faded blue ink, one recent line in fresh darker ink, all writing illegible, a pen lying across the page. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Sendika güvenlik raporu** → `Bube/Items/case070_report` — Kurbanın hazırladığı rapor taslağı; on dört tramvayın frenleri.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A stapled draft report of several pages with a simple table and photos of brake components, all text illegible, coffee ring on the cover, a red pen annotation scribble. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A stapled draft report of several pages with a simple table and photos of brake components, all text illegible, coffee ring on the cover, a red pen annotation scribble. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case070.jpg`, yatay 16:9)

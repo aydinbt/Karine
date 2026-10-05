@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Su geçirmez tablet** → `Bube/Items/case051_tablet` — Kurbanın denetim tableti; kaptan kabinindeki can yeleği dolabından çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A rugged tablet in a thick orange waterproof case with a lanyard, its screen dark, lying on an orange life jacket folded in a locker, a few drops of seawater on the case. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A rugged tablet in a thick orange waterproof case with a lanyard, its screen dark, lying on an orange life jacket folded in a locker, a few drops of seawater on the case. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Küpeşte** → `Bube/Items/case051_rail` — Kıç güvertedeki küpeştenin üstünde yeni bir sürtünme izi ve kopmuş bir yaka düğmesi.
 
 ```
-Forensic evidence photograph, close-up of a white painted steel ferry deck railing at night under a forensic lamp. A fresh scuff mark on the paint and a small dark blue coat button caught in the joint of the railing. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, close-up of a white painted steel ferry deck railing at night under a forensic lamp. A fresh scuff mark on the paint and a small dark blue coat button caught in the joint of the railing. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Seyir defteri** → `Bube/Items/case051_log` — Feribotun seyir defterinin son sayfası; bir saat yanlış yazılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A ship's logbook open on its last page, columns of handwritten entries in blue ink with one entry overwritten in darker ink, a brass pen beside it, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A ship's logbook open on its last page, columns of handwritten entries in blue ink with one entry overwritten in darker ink, a brass pen beside it, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case051.jpg`, yatay 16:9)

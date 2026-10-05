@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Alçı kalıp parçaları** → `Bube/Items/case054_mould` — Çamur fıçısının dibinden çıkan kırık alçı kalıp parçaları; birinde kurumuş kan.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Several broken pieces of a heavy white plaster tile mould, wet grey clay slip clinging to them, one corner stained with a dried dark brown blood mark. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. Several broken pieces of a heavy white plaster tile mould, wet grey clay slip clinging to them, one corner stained with a dried dark brown blood mark. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **‘Yanmış’ çiniler** → `Bube/Items/case054_tiles` — Bir kamyonetten çıkan, 2003 yangınında yok olduğu yazılı on iki çini.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. Twelve hand-painted Sevillian azulejo ceramic tiles laid out in a grid, intricate blue, ochre and green floral patterns, perfectly intact, no scorch marks, wrapped partly in old newspaper with blurred unreadable print. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. Twelve hand-painted Sevillian azulejo ceramic tiles laid out in a grid, intricate blue, ochre and green floral patterns, perfectly intact, no scorch marks, wrapped partly in old newspaper with blurred unreadable print. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Fırın kumanda paneli** → `Bube/Items/case054_kiln` — Fırının dijital paneli; program gece 01.10’da elle başlatılmış.
 
 ```
-Forensic evidence photograph, close-up of an old electric ceramic kiln's control panel on a brick wall. A small panel with a dark display, two dials and a single red emergency cut-out button that has popped out, dusty clay fingerprints on the dials. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no numbers, no logos.
+Forensic evidence illustration, close-up of an old electric ceramic kiln's control panel on a brick wall. A small panel with a dark display, two dials and a single red emergency cut-out button that has popped out, dusty clay fingerprints on the dials. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no numbers, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case054.jpg`, yatay 16:9)

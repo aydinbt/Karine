@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Topraklama kesici adaptör** → `Bube/Items/case063_adapter` — Topraklama ucu kesilmiş, kutupları ters bağlanmış bir fiş adaptörü; kulüp sahibinin kasasından çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small grey electrical plug adapter with its ground pin cut off, the casing opened slightly to show two wires deliberately swapped and re-taped with black electrical tape, beside a velvet-lined office safe tray. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small grey electrical plug adapter with its ground pin cut off, the casing opened slightly to show two wires deliberately swapped and re-taped with black electrical tape, beside a velvet-lined office safe tray. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Elektrik denetim raporu** → `Bube/Items/case063_inspect` — Kulübün geçen haftaki elektrik denetim raporu; ‘sahne topraklaması uygun’, imza kulüp sahibinin.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A one-page electrical safety inspection checklist on white paper with every box ticked, a single bold signature at the bottom and a blank round stamp outline, all text illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A one-page electrical safety inspection checklist on white paper with every box ticked, a single bold signature at the bottom and a blank round stamp outline, all text illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Bas amfisinin fişi** → `Bube/Items/case063_plug` — Kontrbas amfisinin orijinal fişi; adaptörsüz, topraklama ucu sağlam.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A heavy black three-prong instrument amplifier power cable plug with an intact ground pin, slightly scorched around the base, coiled cable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A heavy black three-prong instrument amplifier power cable plug with an intact ground pin, slightly scorched around the base, coiled cable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case063.jpg`, yatay 16:9)

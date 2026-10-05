@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Güvenlik pimi** → `Bube/Items/case050_pin` — Askı sisteminin halat kilidinden çıkan çelik pim; bir sahne masasının çekmecesinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A steel safety locking pin from a theatre fly-system rope lock, about fifteen centimetres long with a ring at one end, a strip of white glow tape on the ring, lying beside a small open wooden desk drawer with pencils inside. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A steel safety locking pin from a theatre fly-system rope lock, about fifteen centimetres long with a ring at one end, a strip of white glow tape on the ring, lying beside a small open wooden desk drawer with pencils inside. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Kum torbası** → `Bube/Items/case050_sandbag` — Yirmi beş kiloluk kanvas kum torbası; kancası açık.
 
 ```
-Forensic evidence photograph, three-quarter view on a dark wooden stage floor. A heavy grey canvas theatre sandbag split slightly at one seam with sand spilling out, a steel snap hook attached at the top hanging open, a frayed short length of rope. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a dark wooden stage floor. A heavy grey canvas theatre sandbag split slightly at one seam with sand spilling out, a steel snap hook attached at the top hanging open, a frayed short length of rope. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Replik defteri** → `Bube/Items/case050_book` — Sahne amirinin işaret defteri; ikinci perdenin sayfasında silinmiş bir satır.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A thick ring-bound theatre prompt book lying open, pages of sheet music interleaved with handwritten cue marks in pencil, one line on the right page rubbed out with an eraser leaving a grey smudge, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick ring-bound theatre prompt book lying open, pages of sheet music interleaved with handwritten cue marks in pencil, one line on the right page rubbed out with an eraser leaving a grey smudge, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case050.jpg`, yatay 16:9)

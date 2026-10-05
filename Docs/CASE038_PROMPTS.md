@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Beyaz taşıma eldivenleri** → `Bube/Items/case038_gloves` — Kurbanın ellerinden alınan pamuk eldivenler; sağ eldivenin parmak uçlarında yağ lekesi.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A pair of white cotton museum handling gloves laid flat, the fingertips of the right glove showing faint translucent yellowish oil stains, the left glove clean, each in an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A pair of white cotton museum handling gloves laid flat, the fingertips of the right glove showing faint translucent yellowish oil stains, the left glove clean, each in an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Adrenalin kalemi** → `Bube/Items/case038_pen` — Aramada bulunan otomatik enjektör; kurbanın adı yazılı reçete etiketi, kullanılmamış.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A yellow and grey epinephrine auto-injector pen with its blue safety cap still on, unused, a small pharmacy label with blurred unreadable lettering, lying beside a small amber glass vial of golden oil with a dropper cap. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no brand names, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A yellow and grey epinephrine auto-injector pen with its blue safety cap still on, unused, a small pharmacy label with blurred unreadable lettering, lying beside a small amber glass vial of golden oil with a dropper cap. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no brand names, no logos.
 ```
 
 3. **Chicago manifestosu** → `Bube/Items/case038_manifest` — Lakeshore Freight sevk belgesi; Chicago’da bir depo adresi ve ‘Dr. E. Varga’ imzalı köken mektubu.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A multi-part shipping manifest form with blurred unreadable fields and a stylised lake-and-wave freight company stamp without readable words, paper-clipped to a cream letter with an elegant looping handwritten signature that is illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A multi-part shipping manifest form with blurred unreadable fields and a stylised lake-and-wave freight company stamp without readable words, paper-clipped to a cream letter with an elegant looping handwritten signature that is illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case038.jpg`, yatay 16:9)

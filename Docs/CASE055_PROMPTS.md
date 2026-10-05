@@ -31,19 +31,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Tacın zümrütleri** → `Bube/Items/case055_crown` — Değerleme kutusunda tacın on iki ‘zümrüdü’; biri ultraviyole ışıkta parlıyor.
 
 ```
-Forensic evidence photograph, top-down on a black velvet jeweller's tray. Twelve large green faceted gemstones arranged in a circle, one of them glowing unnaturally bright under a small ultraviolet lamp, a jeweller's loupe and tweezers beside them. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a black velvet jeweller's tray. Twelve large green faceted gemstones arranged in a circle, one of them glowing unnaturally bright under a small ultraviolet lamp, a jeweller's loupe and tweezers beside them. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Gümüş şamdan** → `Bube/Items/case055_candle` — Sunaktaki gümüş şamdanlardan biri; tabanının oyuklarında kan izi.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A tall ornate antique silver church candlestick with a heavy square base, freshly polished, the deep engraved grooves of its base showing faint traces of dried blood glowing blue under luminol spray. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A tall ornate antique silver church candlestick with a heavy square base, freshly polished, the deep engraved grooves of its base showing faint traces of dried blood glowing blue under luminol spray. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **İskele** → `Bube/Items/case055_scaffold` — Gölgeliğin yanındaki tekerlekli iskele; frenleri kilitli, korkuluğu yerinde.
 
 ```
-Forensic evidence photograph of a small rolling aluminium scaffold tower beside a richly embroidered velvet canopy of a religious procession float in a dim chapel, its wheel brakes locked, a cleaning cloth hanging from the top rail, a yellow forensic marker on the marble floor. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration of a small rolling aluminium scaffold tower beside a richly embroidered velvet canopy of a religious procession float in a dim chapel, its wheel brakes locked, a cleaning cloth hanging from the top rail, a yellow forensic marker on the marble floor. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case055.jpg`, yatay 16:9)

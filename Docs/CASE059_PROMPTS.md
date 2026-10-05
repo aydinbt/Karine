@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Sarnıç anahtarı** → `Bube/Items/case059_key` — Avlunun sarnıç kapağının büyük demir anahtarı; müdür yardımcısının masasının gizli gözünden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A large antique hand-forged iron key with an ornate oval bow and a long shaft, traces of wet limestone dust and green moss on the bit, lying next to an open hidden drawer compartment of dark walnut. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A large antique hand-forged iron key with an ornate oval bow and a long shaft, traces of wet limestone dust and green moss on the bit, lying next to an open hidden drawer compartment of dark walnut. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Mütevelli listesi** → `Bube/Items/case059_list` — Vakfın 1989’dan bu yana mütevelli ve danışman listesi; bir adın yanına kurşunkalemle bir yıldız konmuş.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. An old typed foundation board list on cream letterhead paper, the letterhead emblem blank, the names replaced by illegible grey type lines, one line marked with a small pencilled star in the margin, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old typed foundation board list on cream letterhead paper, the letterhead emblem blank, the names replaced by illegible grey type lines, one line marked with a small pencilled star in the margin, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Rodrigo’nun dosyası** → `Bube/Items/case059_folder` — Rodrigo’nun bube’ye götüreceği kalın dosya; şömine külünün içinden yarısı yanmış çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A thick brown cardboard document folder half burned, charred black edges curling, partially burnt typed pages and bank transfer slips inside with all text illegible, flakes of grey fireplace ash around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick brown cardboard document folder half burned, charred black edges curling, partially burnt typed pages and bank transfer slips inside with all text illegible, flakes of grey fireplace ash around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case059.jpg`, yatay 16:9)

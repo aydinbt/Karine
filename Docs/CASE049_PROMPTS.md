@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Espresso fincanı** → `Bube/Items/case049_cup` — İçi yıkanmış bir fincan; altında kurumuş yeşil bir halka.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A small white porcelain espresso cup and saucer, rinsed but with a faint dried bright green ring stuck to the bottom inside the cup, a small evidence swab beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A small white porcelain espresso cup and saucer, rinsed but with a faint dried bright green ring stuck to the bottom inside the cup, a small evidence swab beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Eski pigment kavanozu** → `Bube/Items/case049_pigment` — Ağzı mumla kapatılmış küçük cam kavanoz; içinde parlak zümrüt yeşili toz.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small antique glass jar with a cork stopper sealed in old red wax, containing a vivid emerald-green powder, a little powder spilled beside it, a paper label faded to blankness. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small antique glass jar with a cork stopper sealed in old red wax, containing a vivid emerald-green powder, a little powder spilled beside it, a paper label faded to blankness. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Çoban figürü** → `Bube/Items/case049_figure` — Yarım kalmış terakota çoban; başı boyanmış, gövdesi çıplak kil.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A hand-sculpted terracotta Neapolitan nativity shepherd figurine about twenty centimetres tall, its head finely painted with rosy cheeks while the body is still bare unglazed clay, a fine brush lying beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A hand-sculpted terracotta Neapolitan nativity shepherd figurine about twenty centimetres tall, its head finely painted with rosy cheeks while the body is still bare unglazed clay, a fine brush lying beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case049.jpg`, yatay 16:9)

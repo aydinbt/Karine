@@ -37,19 +37,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Denetçinin tableti** → `Bube/Items/case064_tablet` — Isabelle Moreau’nun belediye tableti; şirketin tuz deposundaki tuz yığınının içinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A rugged grey municipal field tablet in a rubber case, the screen cracked and crusted with coarse road salt crystals, a few salt grains scattered around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A rugged grey municipal field tablet in a rubber case, the screen cracked and crusted with coarse road salt crystals, a few salt grains scattered around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Filo GPS dökümü** → `Bube/Items/case064_gps` — Şirketin gece GPS dökümü; sahibinin kamyoneti 00.30–02.00 arası depoda ‘park’.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A printed fleet tracking report with a street map grid and coloured route lines, one vehicle shown as a single stationary dot, all street names and numbers blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed fleet tracking report with a street map grid and coloured route lines, one vehicle shown as a single stationary dot, all street names and numbers blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kepçenin koltuk minderi** → `Bube/Items/case064_loader` — Şirketin küçük kepçesinin sürücü koltuğu; minderde Isabelle’in atkısından kırmızı yün lifleri.
 
 ```
-Forensic evidence photograph, close-up of a worn black vinyl seat of a compact wheel loader cab, a few bright red wool fibres caught in a split seam, evidence tape marking them, a frosted cab window behind. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, close-up of a worn black vinyl seat of a compact wheel loader cab, a few bright red wool fibres caught in a split seam, evidence tape marking them, a frosted cab window behind. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case064.jpg`, yatay 16:9)

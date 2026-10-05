@@ -55,19 +55,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **İnsülin kalemi** → `Bube/Items/case073_pen` — Koordinatörün insülin kalemi; dozu en yükseğe çevrilmiş, iki kez boşaltılmış.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A generic grey-and-orange insulin injection pen with its cap off and the dose dial turned to maximum, a used needle tip beside it in a small sharps tube, inside an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A generic grey-and-orange insulin injection pen with its cap off and the dose dial turned to maximum, a used needle tip beside it in a small sharps tube, inside an open clear evidence bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Veda notu** → `Bube/Items/case073_note` — Bilgisayardan basılmış, imzasız bir veda notu.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A single sheet of white printer paper with a few short typed lines, illegible, no signature, folded once, lying beside a modern office desk lamp base. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A single sheet of white printer paper with a few short typed lines, illegible, no signature, folded once, lying beside a modern office desk lamp base. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Kurye makbuzu** → `Bube/Items/case073_courier` — Uluslararası kurye makbuzu; varış Budapeşte.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A carbonless international courier receipt slip with a barcode and handwritten address boxes, all text illegible, beside a small padded envelope big enough for a USB stick, torn open. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbonless international courier receipt slip with a barcode and handwritten address boxes, all text illegible, beside a small padded envelope big enough for a USB stick, torn open. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case073.jpg`, yatay 16:9)

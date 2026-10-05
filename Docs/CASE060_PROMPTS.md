@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Fırın küreği ferrulü** → `Bube/Items/case060_peel` — Uzun ahşap simit küreğinin metal halkası; odun fırınının külünün içinden çıktı.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A blackened, heat-discoloured steel ferrule ring and a few charred wood fragments from the end of a long wooden bakery peel, sifted out of grey wood ash, a small heap of ash beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A blackened, heat-discoloured steel ferrule ring and a few charred wood fragments from the end of a long wooden bakery peel, sifted out of grey wood ash, a small heap of ash beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Sigorta poliçesi zeyilnamesi** → `Bube/Items/case060_policy` — Fırının iki ay önceki poliçe zeyilnamesi; ‘kilit kişi’ teminatı, lehtar şirket.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A stapled insurance policy amendment on plain white paper with a blank grey header block, one paragraph highlighted in yellow, two signature lines with illegible scrawls, a blue ballpoint pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A stapled insurance policy amendment on plain white paper with a blank grey header block, one paragraph highlighted in yellow, two signature lines with illegible scrawls, a blue ballpoint pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **Mesai kartı** → `Bube/Items/case060_clock` — Müdürün mesai kartı; ‘23.05 çıkış’ damgası.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A buff cardboard employee time card with a column of purple stamped clock-out marks, the last one smudged, the printed numbers blurred and unreadable, lying next to a wall punch-clock slot. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A buff cardboard employee time card with a column of purple stamped clock-out marks, the last one smudged, the printed numbers blurred and unreadable, lying next to a wall punch-clock slot. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case060.jpg`, yatay 16:9)

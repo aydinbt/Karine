@@ -43,19 +43,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Bronz kitap desteği** → `Bube/Items/case032_bookend` — Asya bölümü ofisindeki çift bronz destekten biri; tabanında silinmiş kan izi.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A heavy antique bronze bookend shaped like a seated foo dog, dark green patina, the flat base showing faint brownish smears revealed under a forensic light, a few fibres caught at the edge. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A heavy antique bronze bookend shaped like a seated foo dog, dark green patina, the flat base showing faint brownish smears revealed under a forensic light, a few fibres caught at the edge. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 2. **Lot 47 köken mektubu** → `Bube/Items/case032_letter` — Fildişi kâğıda daktiloyla yazılmış, mavi mürekkep imzalı uzman mektubu; imzanın üstünde ‘E. V.’ baş harfleri.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A single sheet of aged ivory typewriter paper with a short typed paragraph, the type deliberately blurred and unreadable, a looping blue-ink signature at the bottom with only two clear initials 'E.V.' readable above it, a faint embossed seal without words in the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no other readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A single sheet of aged ivory typewriter paper with a short typed paragraph, the type deliberately blurred and unreadable, a looping blue-ink signature at the bottom with only two clear initials 'E.V.' readable above it, a faint embossed seal without words in the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no other readable text, no logos.
 ```
 
 3. **Kart panosu** → `Bube/Items/case032_badge` — Kasa dairesinin girişinde, taşıyıcı kartlarının asılı durduğu açık pano.
 
 ```
-Forensic evidence photograph, close frontal view of a small wall-mounted board with six metal hooks, five of them holding plain white plastic access cards on grey lanyards, one hook empty, fingerprint powder dusted around the empty hook. Neutral flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text on the cards, no logos.
+Forensic evidence illustration, close frontal view of a small wall-mounted board with six metal hooks, five of them holding plain white plastic access cards on grey lanyards, one hook empty, fingerprint powder dusted around the empty hook. Neutral flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text on the cards, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case032.jpg`, yatay 16:9)

@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **‘16. yüzyıl’ kâse** → `Bube/Items/case026_bowl` — Kuroda’nın aldığı çay kâsesi; kırık yerleri altın tutkalla onarılmış (kintsugi).
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A single hand-made Japanese tea bowl (chawan), about 12 cm wide, dark brown-black glaze with a rough earthy texture, deliberately aged look. Three thin gold seams of kintsugi repair run across its side like golden cracks. One very small fresh chip on the rim showing a lighter, clean, modern-looking clay underneath. Small blank grey scale ruler without numbers beside it. Flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A single hand-made Japanese tea bowl (chawan), about 12 cm wide, dark brown-black glaze with a rough earthy texture, deliberately aged look. Three thin gold seams of kintsugi repair run across its side like golden cracks. One very small fresh chip on the rim showing a lighter, clean, modern-looking clay underneath. Small blank grey scale ruler without numbers beside it. Flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels, no logos.
 ```
 
 2. **Fırın külü ve yaşlandırma kavanozu** → `Bube/Items/case026_ash` — Fırın kulübesinden: çay yaprağı ve asitle dolu cam kavanoz, yanında yarı gömülü kâseler.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A wide-mouthed glass jar with a cork lid, half-filled with a murky brown liquid and soaked dark tea leaves. Next to it, two small unglazed clay tea bowls partly covered in grey wood ash, and a small pile of grey ash. A pair of worn cotton work gloves. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels on the jar, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A wide-mouthed glass jar with a cork lid, half-filled with a murky brown liquid and soaked dark tea leaves. Next to it, two small unglazed clay tea bowls partly covered in grey wood ash, and a small pile of grey ash. A pair of worn cotton work gloves. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no labels on the jar, no logos.
 ```
 
 3. **Ustanın tabi çorabı** → `Bube/Items/case026_heel` — Topuklarında kül ve toprak; ceset galeride, çorapsız ayaklarında değil, çorabın içinde.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A pair of white Japanese split-toe tabi socks laid flat side by side. The heels are smeared with grey ash and brown soil, with faint drag streaks pointing in the same direction on both heels. The soles are otherwise clean. Small blank scale ruler without numbers. Flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A pair of white Japanese split-toe tabi socks laid flat side by side. The heels are smeared with grey ash and brown soil, with faint drag streaks pointing in the same direction on both heels. The soles are otherwise clean. Small blank scale ruler without numbers. Flat even forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case026.jpg`, yatay 16:9)

@@ -49,19 +49,19 @@ Her prompt nesneyi, malzemesini, açıyı, ışığı ve olmaması gerekenleri t
 1. **Can yeleği** → `Bube/Items/case044_vest` — Kurbanın üstündeki otomatik şişen yelek; CO₂ kartuşunun yuvası boş.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A deflated red automatic inflatable life vest, still wet, its small inflation mechanism opened to show an empty threaded socket where the gas cartridge should be, the pull tab intact. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A deflated red automatic inflatable life vest, still wet, its small inflation mechanism opened to show an empty threaded socket where the gas cartridge should be, the pull tab intact. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 2. **Vinç kolu** → `Bube/Items/case044_winch` — Kokpit dolabındaki krom vinç kolu; tutamağın altında silinmeye çalışılmış kan.
 
 ```
-Forensic evidence photograph, three-quarter view on a neutral grey evidence mat. A chrome sailing winch handle with a black grip, a thin line of dark dried blood in the seam under the grip despite having been wiped, smeared water spots. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, three-quarter view on a neutral grey evidence mat. A chrome sailing winch handle with a black grip, a thin line of dark dried blood in the seam under the grip despite having been wiped, smeared water spots. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 3. **CO₂ kartuşu** → `Bube/Items/case044_cartridge` — Bir sefer çantasının iç cebinden çıkan küçük gaz kartuşu; dişlerinde yeşil yelek boyası.
 
 ```
-Forensic evidence photograph, top-down on a neutral grey evidence mat. A small silver CO2 gas cartridge with a threaded neck, tiny flakes of red paint caught in the threads, lying next to the open inner zip pocket of a navy leather weekend bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A small silver CO2 gas cartridge with a threaded neck, tiny flakes of red paint caught in the threads, lying next to the open inner zip pocket of a navy leather weekend bag. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos.
 ```
 
 ## Kapak — ChatGPT (`Bube/Art/Covers/case044.jpg`, yatay 16:9)
