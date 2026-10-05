@@ -1574,31 +1574,31 @@ A 60-year-old Vietnamese-Australian man, short silver hair, a lean sun-darkened 
 
 ## Dosya #072 (5)
 
-243. **Robert Sinclair** → `sinclair.png`
+243. **Robert Sinclair** → `sinclair.png` ✅
 
 ```
 A 58-year-old Anglo-Australian man, neat silver hair, rimless glasses, a pleasant bland face with a tight mouth. A navy suit jacket over an open-collared shirt, no lanyard or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-244. **Hoang Minh** → `hoang.png`
+244. **Hoang Minh** → `hoang.png` ✅
 
 ```
 A 36-year-old Vietnamese-Australian man, short black hair, a tense grieving face, red-rimmed eyes. A white chef's jacket with rolled sleeves. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-245. **Kalani Mahoe** → `kalani.png`
+245. **Kalani Mahoe** → `kalani.png` ✅
 
 ```
 A 30-year-old Native Hawaiian-Australian woman, long dark hair in a bun under a black bandana, a calm strong face. A black kitchen apron over a black T-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-246. **Vy Lam** → `vy.png`
+246. **Vy Lam** → `vy.png` ✅
 
 ```
 A 22-year-old Vietnamese-Australian woman, long black hair loose, a young scared face, glancing eyes. A plain black waitress shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-247. **Duncan Pryor** → `duncan.png`
+247. **Duncan Pryor** → `duncan.png` ✅
 
 ```
 A 47-year-old Australian man, sandy brown hair, a sunburnt honest face, stubble. A green work polo with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
