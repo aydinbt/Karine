@@ -122,7 +122,14 @@
       ]
      }
     ]
-   }
+   },
+   "relatedItems": [
+    {
+     "nameKey": "case021.item.jacket.name",
+     "detailKey": "case021.item.jacket.detail",
+     "imageResource": "Bube/Items/case021_jacket"
+    }
+   ]
   },
   {
    "id": "holger",
@@ -317,7 +324,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case021.request.xray",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case021.item.xray.name",
+     "detailKey": "case021.item.xray.detail",
+     "imageResource": "Bube/Items/case021_xray"
+    }
+   ]
   },
   {
    "id": "prints",
@@ -329,7 +343,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case021.request.prints",
-   "requestDelaySeconds": 8
+   "requestDelaySeconds": 8,
+   "relatedItems": [
+    {
+     "nameKey": "case021.item.oar.name",
+     "detailKey": "case021.item.oar.detail",
+     "imageResource": "Bube/Items/case021_oar"
+    }
+   ]
   },
   {
    "id": "betting",

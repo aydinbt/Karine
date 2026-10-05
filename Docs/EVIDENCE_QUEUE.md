@@ -45,9 +45,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 26. **Yastık kılıfı** → `case020_pillow.png` ✅
 
 ## Dosya #021 (3)
-27. **Kürek** → `case021_oar.png`
-28. **Kürek ceketi** → `case021_jacket.png`
-29. **Röntgen** → `case021_xray.png`
+27. **Kürek** → `case021_oar.png` ✅
+28. **Kürek ceketi** → `case021_jacket.png` ✅
+29. **Röntgen** → `case021_xray.png` ✅
 
 ## Dosya #022 (2)
 30. **Bilet terminali** → `case022_terminal.png`
