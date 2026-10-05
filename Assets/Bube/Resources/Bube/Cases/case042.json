@@ -254,7 +254,19 @@
    "requestable": true,
    "requestLabelKey": "case042.request.ragcheck",
    "requestDelaySeconds": 6,
-   "line": "line_truck"
+   "line": "line_truck",
+   "relatedItems": [
+    {
+     "nameKey": "case042.item.rag.name",
+     "detailKey": "case042.item.rag.detail",
+     "imageResource": "Bube/Items/case042_rag"
+    },
+    {
+     "nameKey": "case042.item.pipe.name",
+     "detailKey": "case042.item.pipe.detail",
+     "imageResource": "Bube/Items/case042_pipe"
+    }
+   ]
   },
   {
    "id": "line_phone",

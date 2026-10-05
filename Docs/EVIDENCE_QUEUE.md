@@ -146,13 +146,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 87. **Walt’ın defteri** → `case040_notebook.png` ✅
 
 ## Dosya #041 (3)
-88. **Soda bardağı** → `case041_glass.png`
-89. **Kol düğmesi** → `case041_cufflink.png`
-90. **Bağış dökümü** → `case041_ledger.png`
+88. **Soda bardağı** → `case041_glass.png` ✅
+89. **Kol düğmesi** → `case041_cufflink.png` ✅
+90. **Bağış dökümü** → `case041_ledger.png` ✅
 
 ## Dosya #042 (3)
-91. **İsli bez** → `case042_rag.png`
-92. **Egzoz borusu** → `case042_pipe.png`
+91. **İsli bez** → `case042_rag.png` ✅
+92. **Egzoz borusu** → `case042_pipe.png` ✅
 93. **Kırık dorse mührü** → `case042_seal.png`
 
 ## Dosya #043 (3)

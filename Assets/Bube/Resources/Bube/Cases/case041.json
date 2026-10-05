@@ -358,7 +358,19 @@
    "requestable": true,
    "requestLabelKey": "case041.request.keycard",
    "requestDelaySeconds": 5,
-   "line": "line_hotel"
+   "line": "line_hotel",
+   "relatedItems": [
+    {
+     "nameKey": "case041.item.glass.name",
+     "detailKey": "case041.item.glass.detail",
+     "imageResource": "Bube/Items/case041_glass"
+    },
+    {
+     "nameKey": "case041.item.cufflink.name",
+     "detailKey": "case041.item.cufflink.detail",
+     "imageResource": "Bube/Items/case041_cufflink"
+    }
+   ]
   },
   {
    "id": "line_finance",
@@ -399,7 +411,14 @@
    "requestable": true,
    "requestLabelKey": "case041.request.donors",
    "requestDelaySeconds": 5,
-   "line": "line_finance"
+   "line": "line_finance",
+   "relatedItems": [
+    {
+     "nameKey": "case041.item.ledger.name",
+     "detailKey": "case041.item.ledger.detail",
+     "imageResource": "Bube/Items/case041_ledger"
+    }
+   ]
   },
   {
    "id": "line_press",
