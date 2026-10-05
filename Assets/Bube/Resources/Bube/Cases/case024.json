@@ -306,6 +306,13 @@
    "bodyKey": "case024.letter.body",
    "requires": [
     "notary"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case024.item.envelope.name",
+     "detailKey": "case024.item.envelope.detail",
+     "imageResource": "Bube/Items/case024_envelope"
+    }
    ]
   },
   {
