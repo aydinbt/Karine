@@ -40,9 +40,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 23. **Ev stüdyosu** → `case019_studio.png` ✅
 
 ## Dosya #020 (3)
-24. **Arşiv klasörü** → `case020_file.png`
-25. **Daktilo müsvedde** → `case020_manuscript.png`
-26. **Yastık kılıfı** → `case020_pillow.png`
+24. **Arşiv klasörü** → `case020_file.png` ✅
+25. **Daktilo müsvedde** → `case020_manuscript.png` ✅
+26. **Yastık kılıfı** → `case020_pillow.png` ✅
 
 ## Dosya #021 (3)
 27. **Kürek** → `case021_oar.png`

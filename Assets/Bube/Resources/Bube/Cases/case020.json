@@ -50,6 +50,13 @@
    "bodyKey": "case020.file.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case020.item.file.name",
+     "detailKey": "case020.item.file.detail",
+     "imageResource": "Bube/Items/case020_file"
+    }
    ]
   },
   {
@@ -178,6 +185,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case020.ingrid.memoir"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case020.item.manuscript.name",
+     "detailKey": "case020.item.manuscript.detail",
+     "imageResource": "Bube/Items/case020_manuscript"
+    }
    ]
   },
   {
@@ -358,7 +372,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case020.request.search",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case020.item.pillow.name",
+     "detailKey": "case020.item.pillow.detail",
+     "imageResource": "Bube/Items/case020_pillow"
+    }
+   ]
   },
   {
    "id": "stefan_2",
