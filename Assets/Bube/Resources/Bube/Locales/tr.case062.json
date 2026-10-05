@@ -1,0 +1,476 @@
+{
+ "entries": [
+  {
+   "key": "case062.aisle.body",
+   "value": "Deponun arka koridoru. 9 Kasım 22.30 – 23.45."
+  },
+  {
+   "key": "case062.aisle.title",
+   "value": "ARKA KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case062.autopsy.body",
+   "value": "· Ölüm nedeni: ezilme; çoklu kırık.\n· Yaralar birden çok ağır varilin aynı anda yukarıdan düşmesiyle uyumlu.\n· Elinde küçük bir lastik çekiç; sıkıca kavranmış.\n· Ölüm zamanı: 23.25–23.40."
+  },
+  {
+   "key": "case062.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case062.cctv.event.lift",
+   "value": "Kamera: Tek, iri yarı sürücülü bir forklift çatalları yukarıda, koridorun öbür ucundan dönüyor."
+  },
+  {
+   "key": "case062.cctv.event.rev",
+   "value": "Kamera: Forklift hızla geri çıkıyor; arkasında toz ve devrilen variller."
+  },
+  {
+   "key": "case062.cctv.event.tap",
+   "value": "Kamera: Elinde tutanak tahtasıyla bir kadın koridorda yürüyor, varillere küçük bir çekiçle tek tek vuruyor."
+  },
+  {
+   "key": "case062.cctv.overlay",
+   "value": "EDE-AIS"
+  },
+  {
+   "key": "case062.cctv.period",
+   "value": "9 Kasım 2030"
+  },
+  {
+   "key": "case062.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case062.clue.charge",
+   "value": "Operatör kendi forkliftini şarja takıp çıkıyor."
+  },
+  {
+   "key": "case062.clue.found",
+   "value": "Bekçi müfettişi varillerin altında buluyor."
+  },
+  {
+   "key": "case062.clue.lift",
+   "value": "İri yarı sürücülü forklift çatalları yukarıda koridora dönüyor."
+  },
+  {
+   "key": "case062.clue.rev",
+   "value": "Forklift geri çıkıyor; variller devriliyor."
+  },
+  {
+   "key": "case062.clue.source.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.clue.source.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.clue.tap",
+   "value": "Müfettiş varillere tek tek çekiçle vuruyor."
+  },
+  {
+   "key": "case062.count.body",
+   "value": "Ekim ayı sayım tutanağı:\n\n· Toplam stok: 1.200 varil, A sınıfı şurup. ‘Tam.’\n· Sayımı yapan ve imzalayan: ustabaşı Réjean Gauthier.\n· Kooperatif adına onay: Claudette Marceau (tutanağa dayanarak).\n· Müfettiş denetimi talebi: 2 Kasım, kooperatif başkanı tarafından."
+  },
+  {
+   "key": "case062.count.title",
+   "value": "DEPO SAYIM TUTANAĞI"
+  },
+  {
+   "key": "case062.custody.board",
+   "value": "Anahtar panosuna geri asıldı"
+  },
+  {
+   "key": "case062.custody.drain",
+   "value": "Deponun gider ızgarasına"
+  },
+  {
+   "key": "case062.custody.label",
+   "value": "İkinci forkliftin anahtarı nereye gitti?"
+  },
+  {
+   "key": "case062.custody.visor",
+   "value": "Ustabaşının kamyonetinin güneşliğinin arkasına"
+  },
+  {
+   "key": "case062.epilogue.custody.board",
+   "value": "Panoda o anahtar yoktu."
+  },
+  {
+   "key": "case062.epilogue.custody.drain",
+   "value": "Izgara açıldı; anahtar yoktu."
+  },
+  {
+   "key": "case062.epilogue.custody.visor",
+   "value": "Kontak anahtarının kamyonetin güneşliğinde bulunduğu yazıldı."
+  },
+  {
+   "key": "case062.epilogue.verdict.accident",
+   "value": "Ölüm iş kazası sayıldı; sayım tutanağı yine ‘tam’ dedi."
+  },
+  {
+   "key": "case062.epilogue.verdict.fortin",
+   "value": "Kayla Fortin tutuklandı; on dördüncü sıra yeniden dizildi."
+  },
+  {
+   "key": "case062.epilogue.verdict.gauthier",
+   "value": "Réjean Gauthier tutuklandı; deponun dörtte biri sudan çıktı. Laurentide Réassurance’ın ‘tarımsal rezerv’ poliçesi Mile End şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case062.epilogue.verdict.tran",
+   "value": "Minh Tran tutuklandı; anahtar güneşlikte kaldı."
+  },
+  {
+   "key": "case062.evidence.aisle",
+   "value": "Arka koridor kamerası"
+  },
+  {
+   "key": "case062.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case062.evidence.count",
+   "value": "Depo sayım tutanağı"
+  },
+  {
+   "key": "case062.evidence.truck",
+   "value": "Ustabaşının kamyoneti ve ofisi araması"
+  },
+  {
+   "key": "case062.feedback.accident",
+   "value": "Variller kendiliğinden değil, çatalı kaldırılmış bir forkliftle itildi."
+  },
+  {
+   "key": "case062.feedback.fortin",
+   "value": "Operatörün forklifti olay saatinde şarjdaydı; ikinci forkliftin anahtarı ondan değil."
+  },
+  {
+   "key": "case062.feedback.gauthier",
+   "value": "İkinci forkliftin anahtarı onun kamyonetinden, onun iziyle çıktı; operatörün forklifti şarjdaydı. Kamera iri yarı tek bir sürücünün çatalı kaldırıp geri çıktığını gösteriyor. Sayım tutanağı onu temize çıkarmıyor: tutanağı yazan oydu."
+  },
+  {
+   "key": "case062.feedback.tran",
+   "value": "Bekçi gürültüden sonra koştu; forklift kullanmayı bilmiyor ve kamera onu göstermiyor."
+  },
+  {
+   "key": "case062.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case062.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case062.file.value.location",
+   "value": "Entrepôt des Érablières, Montreal"
+  },
+  {
+   "key": "case062.file.value.number",
+   "value": "BDM-MTL-2030-0212"
+  },
+  {
+   "key": "case062.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case062.file.value.reporter",
+   "value": "Gece bekçisi"
+  },
+  {
+   "key": "case062.fortin.body",
+   "value": "Forklift operatörü."
+  },
+  {
+   "key": "case062.fortin.deflect",
+   "value": "Ben forklifti sürerim, varilleri saymam."
+  },
+  {
+   "key": "case062.fortin.shift.answer",
+   "value": "Saat dokuzda şarja taktım, çıktım. İkinci forkliftin anahtarı ustabaşında durur, kimseye vermez; geçen ay ‘varilleri ben dizerim, sen dokunma’ dedi, on dördüncü sırayı. Sordum neden, ‘sınıflandırma’ dedi. Ben kimseyi ezmedim. Benim forkliftim şarjdaydı."
+  },
+  {
+   "key": "case062.fortin.shift.answer.demeanor",
+   "value": "Yeleğinin fermuarıyla oynuyor."
+  },
+  {
+   "key": "case062.fortin.shift.question",
+   "value": "Akşam forkliftinizi kullandınız mı?"
+  },
+  {
+   "key": "case062.fortin.title",
+   "value": "Kayla Fortin — görüşme"
+  },
+  {
+   "key": "case062.gauthier.body",
+   "value": "Ustabaşı."
+  },
+  {
+   "key": "case062.gauthier.deflect",
+   "value": "Ben depoyu otuz yıldır çeviriyorum."
+  },
+  {
+   "key": "case062.gauthier.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case062.gauthier.end.decoy.count",
+   "value": "Tutanak orada: bin iki yüz varil, tam. Ben saydım, başkan onayladı. Saklayacak bir şeyim yoksa neden birini öldüreyim?"
+  },
+  {
+   "key": "case062.gauthier.end.presented.truck",
+   "value": "On dördüncü sıranın yarısı su. Altı yıl, her yıl biraz. Laurentide’den bir adam ‘stok kâğıtta tam olsun, gerisi bizde’ dedi; prim ödendi, şurup satıldı. Hélène sırayı buldu. İkinci forklifti aldım, çatalı en üst rafa kaldırdım, ittim. Anahtarı kamyonetime koydum. Ertesi sabah sayımı yine ‘tam’ yazacaktım."
+  },
+  {
+   "key": "case062.gauthier.end.question",
+   "value": "Varilleri Hélène’in üstüne siz devirdiniz."
+  },
+  {
+   "key": "case062.gauthier.night.answer",
+   "value": "Ofisteydim, kâğıt işi. Müfettişe ‘raflar yüksek, gece tehlikeli’ dedim, dinlemedi. Varillere çekiçle vura vura yığını oynattı, devrildi."
+  },
+  {
+   "key": "case062.gauthier.night.answer.demeanor",
+   "value": "Bıyığını alt dudağıyla çekiştiriyor."
+  },
+  {
+   "key": "case062.gauthier.night.question",
+   "value": "Bu akşam depoda neredeydiniz?"
+  },
+  {
+   "key": "case062.gauthier.title",
+   "value": "Réjean Gauthier — görüşme"
+  },
+  {
+   "key": "case062.leblanc.body",
+   "value": "Kurbanın kocası."
+  },
+  {
+   "key": "case062.leblanc.deflect",
+   "value": "Hélène işini evine getirmezdi."
+  },
+  {
+   "key": "case062.leblanc.notes.answer",
+   "value": "Bir şey anlatmazdı, ama dün akşam yemekte ‘ustabaşı beni depoya gece almak istemedi, ısrar ettim’ dedi. ‘Varillerin yarısını boşaltıp suyla doldurmuşlarsa sigorta da yalan’ dedi. Ben güldüm. Gülmemeliydim."
+  },
+  {
+   "key": "case062.leblanc.notes.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp avucunda tutuyor."
+  },
+  {
+   "key": "case062.leblanc.notes.question",
+   "value": "Hélène son günlerde ne anlattı?"
+  },
+  {
+   "key": "case062.leblanc.title",
+   "value": "Paul Leblanc — görüşme"
+  },
+  {
+   "key": "case062.marceau.body",
+   "value": "Kooperatif başkanı."
+  },
+  {
+   "key": "case062.marceau.deflect",
+   "value": "Kooperatif dört yüz üreticinin."
+  },
+  {
+   "key": "case062.marceau.title",
+   "value": "Claudette Marceau — görüşme"
+  },
+  {
+   "key": "case062.marceau.why.answer",
+   "value": "Piyasada bizim şurubumuzun fiyatının altında bir şurup dolaşıyordu, varilleri bizimkine benziyordu. Tutanak ‘tam’ diyordu ama ben Hélène’e ‘tek tek vur’ dedim. Dolu şurup varili tok ses çıkarır, su başka. Bu akşam bana mesaj attı: ‘On dördüncü sırada sesler yanlış.’"
+  },
+  {
+   "key": "case062.marceau.why.answer.demeanor",
+   "value": "Hırkasının kemerini sıkıca bağlıyor."
+  },
+  {
+   "key": "case062.marceau.why.question",
+   "value": "Müfettişi neden çağırdınız?"
+  },
+  {
+   "key": "case062.method.forklift",
+   "value": "Forkliftle en üst raftaki variller üstüne itildi"
+  },
+  {
+   "key": "case062.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case062.method.slip",
+   "value": "Raftan düştü"
+  },
+  {
+   "key": "case062.method.topple",
+   "value": "Kendi vurduğu yığın devrildi"
+  },
+  {
+   "key": "case062.offer.subtitle",
+   "value": "ŞURUP DEPOSU  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case062.offer.summary",
+   "value": "Bir şurup müfettişi devrilen varillerin altında kaldı; patlayan varillerden su aktı."
+  },
+  {
+   "key": "case062.offer.title",
+   "value": "DOSYA #062"
+  },
+  {
+   "key": "case062.person.fortin.info",
+   "value": "29 yaşında, forklift operatörü."
+  },
+  {
+   "key": "case062.person.fortin.name",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.person.gauthier.info",
+   "value": "51 yaşında, akçaağaç şurubu deposunun ustabaşı."
+  },
+  {
+   "key": "case062.person.gauthier.name",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.person.leblanc.info",
+   "value": "60 yaşında, kurbanın kocası."
+  },
+  {
+   "key": "case062.person.leblanc.name",
+   "value": "Paul Leblanc"
+  },
+  {
+   "key": "case062.person.marceau.info",
+   "value": "63 yaşında, üreticiler kooperatifinin başkanı."
+  },
+  {
+   "key": "case062.person.marceau.name",
+   "value": "Claudette Marceau"
+  },
+  {
+   "key": "case062.person.tran.info",
+   "value": "46 yaşında, deponun gece bekçisi."
+  },
+  {
+   "key": "case062.person.tran.name",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.report.body",
+   "value": "9 Kasım 2030 gecesi Montreal’in kuzeyindeki Entrepôt des Érablières deposunda şurup derecelendirme müfettişi Hélène Côté (58), yüksek raftan devrilen bir varil yığınının altında ölü bulundu. Patlayan iki varilden su aktı.\n\nCesedi gece bekçisi Minh Tran 23.40’ta, gürültüyü duyunca buldu. Depoda akşam: ustabaşı Réjean Gauthier, forklift operatörü Kayla Fortin. Kooperatif başkanı Claudette Marceau ve kurbanın kocası Paul Leblanc gece geldi."
+  },
+  {
+   "key": "case062.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case062.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case062.request.count",
+   "value": "Deponun sayım tutanağını iste"
+  },
+  {
+   "key": "case062.request.truck",
+   "value": "Ustabaşının kamyonetini ve ofisini aramak için izin iste"
+  },
+  {
+   "key": "case062.summary.evidence",
+   "value": "Tutanak yemdi: imzası ustabaşını temize çıkarmıyor, yalanın sahibini gösteriyordu. Bekçi, operatör ve kamera forklifti; başkan ve koca nedeni gösterdi. Arama anahtarı güneşlikte buldu."
+  },
+  {
+   "key": "case062.summary.lesson",
+   "value": "Tutanak tamdı. Variller değil."
+  },
+  {
+   "key": "case062.summary.location",
+   "value": "Entrepôt des Érablières — Kasım 2030"
+  },
+  {
+   "key": "case062.summary.truth",
+   "value": "Ustabaşı Réjean Gauthier altı yıl boyunca on dördüncü sıradaki varillerin şurubunu satıp yerine renklendirilmiş su doldurdu; sayım tutanağını kendisi ‘tam’ yazdı, sigorta primleri gerçek stok gibi ödendi. Kooperatifin çağırdığı müfettiş Hélène Côté varillere çekiçle vurarak sırayı buldu. Gauthier ikinci forklifti alıp en üst raftaki varilleri üstüne itti ve anahtarı kamyonetine sakladı."
+  },
+  {
+   "key": "case062.suspect.label",
+   "value": "Hélène Côté’yi kim öldürdü?"
+  },
+  {
+   "key": "case062.tablet.caseLine",
+   "value": "DOSYA #062  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case062.time.charge",
+   "value": "21.00"
+  },
+  {
+   "key": "case062.time.found",
+   "value": "23.40"
+  },
+  {
+   "key": "case062.time.lift",
+   "value": "23.27"
+  },
+  {
+   "key": "case062.time.rev",
+   "value": "23.29"
+  },
+  {
+   "key": "case062.time.tap",
+   "value": "23.12"
+  },
+  {
+   "key": "case062.title",
+   "value": "Dosya #062 — Şurup Deposu"
+  },
+  {
+   "key": "case062.tran.body",
+   "value": "Gece bekçisi."
+  },
+  {
+   "key": "case062.tran.deflect",
+   "value": "Ben gece kapıdayım."
+  },
+  {
+   "key": "case062.tran.noise.answer",
+   "value": "23.30 gibi bir forklift sesi, sonra büyük bir gürültü. Koştum; Kayla’nın forklifti yerindeydi, şarjdaydı. İkinci forklift koridorun sonundaydı, kontak anahtarı yoktu. Depoda arka koridora bakan bir kamera var, ben ekranı izlemem, kaydeder."
+  },
+  {
+   "key": "case062.tran.noise.answer.demeanor",
+   "value": "Gözlüğünü iki eliyle düzeltiyor."
+  },
+  {
+   "key": "case062.tran.noise.question",
+   "value": "Gece ne duydunuz?"
+  },
+  {
+   "key": "case062.tran.title",
+   "value": "Minh Tran — görüşme"
+  },
+  {
+   "key": "case062.truck.body",
+   "value": "Réjean Gauthier’nin kamyoneti ve depodaki ofisi (şube şefinin onayıyla):\n\n· Kamyonetin güneşliğinin arkasında ikinci forkliftin kontak anahtarı; anahtarda Réjean Gauthier’nin parmak izi ve şurup.\n· Ofis dolabında renklendirici sıvı bidonları ve boş şurup varili kapakları.\n· Telefonunda Laurentide Réassurance’taki bir numaraya 9 Kasım 23.52: ‘Müfettiş sorun olmayacak.’"
+  },
+  {
+   "key": "case062.truck.title",
+   "value": "USTABAŞININ KAMYONETİ VE OFİSİ — ARAMA"
+  },
+  {
+   "key": "case062.verdict.accident",
+   "value": "Kimse — yığın devrildi"
+  },
+  {
+   "key": "case062.verdict.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.verdict.gauthier",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.verdict.tran",
+   "value": "Minh Tran"
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+{
+ "entries": [
+  {
+   "key": "case066.autopsy.body",
+   "value": "· Ölüm nedeni: oksijensizlik; söndürme gazının odadaki oksijeni yüzde on ikinin altına düşürmesi.\n· Parmak uçlarında ve tırnaklarda kapının iç yüzündeki boya: kapıyı açmaya çalışmış.\n· Darbe, ilaç yok.\n· Ölüm zamanı: 21.10–21.25."
+  },
+  {
+   "key": "case066.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case066.cctv.event.lamp",
+   "value": "Kamera: Arşiv kapısının üstündeki kırmızı lamba yanıp sönüyor; koridor boş; sondaki toplantı odasının kapısı kapalı."
+  },
+  {
+   "key": "case066.cctv.event.panel",
+   "value": "Kamera: Aynı adam arşiv kapısının önünde; kapıyı dışarıdan kapatıyor, yanındaki kırmızı panelde küçük bir şeyi çeviriyor."
+  },
+  {
+   "key": "case066.cctv.event.walk",
+   "value": "Kamera: Çizgili takım elbiseli, koltuğunun altında dizüstü bilgisayarı olan bir adam küçük bir toplantı odasına yürüyor, arşiv kapısına bakıyor."
+  },
+  {
+   "key": "case066.cctv.overlay",
+   "value": "TL-42"
+  },
+  {
+   "key": "case066.cctv.period",
+   "value": "25 Kasım 2030"
+  },
+  {
+   "key": "case066.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case066.clue.alarm",
+   "value": "Alarm güvenliğe düşüyor."
+  },
+  {
+   "key": "case066.clue.in",
+   "value": "Başkan yardımcısının kartı 42. katı açıyor."
+  },
+  {
+   "key": "case066.clue.lamp",
+   "value": "Arşivin kırmızı lambası yanıp sönüyor; koridor boş."
+  },
+  {
+   "key": "case066.clue.panel",
+   "value": "Aynı adam arşiv kapısını kapatıp kırmızı panelde bir şey çeviriyor."
+  },
+  {
+   "key": "case066.clue.source.renaud",
+   "value": "Luc-Antoine Renaud"
+  },
+  {
+   "key": "case066.clue.walk",
+   "value": "Takım elbiseli adam küçük toplantı odasına yürüyor."
+  },
+  {
+   "key": "case066.custody.desk",
+   "value": "Teknisyenin masasına"
+  },
+  {
+   "key": "case066.custody.label",
+   "value": "Gaz sisteminin manuel anahtarı nereye gitti?"
+  },
+  {
+   "key": "case066.custody.panel",
+   "value": "Panelde takılı bırakıldı"
+  },
+  {
+   "key": "case066.custody.squash",
+   "value": "Başkan yardımcısının spor dolabındaki squash çantasına"
+  },
+  {
+   "key": "case066.epilogue.custody.desk",
+   "value": "Teknisyenin anahtarı boynundaydı; ikinci anahtar masasında değildi."
+  },
+  {
+   "key": "case066.epilogue.custody.panel",
+   "value": "Panelde anahtar yoktu."
+  },
+  {
+   "key": "case066.epilogue.custody.squash",
+   "value": "Manuel anahtarın squash çantasında bulunduğu yazıldı."
+  },
+  {
+   "key": "case066.epilogue.verdict.accident",
+   "value": "Ölüm arıza sayıldı; Melbourne’a son aktarım tamamlandı."
+  },
+  {
+   "key": "case066.epilogue.verdict.leduc",
+   "value": "Anne-Marie Leduc tutuklandı; özel programlar kolu büyümeye devam etti."
+  },
+  {
+   "key": "case066.epilogue.verdict.obi",
+   "value": "Chidi Obi tutuklandı; anahtar squash çantasında kaldı."
+  },
+  {
+   "key": "case066.epilogue.verdict.whitfield",
+   "value": "Graham Whitfield tutuklandı. Laurentide Réassurance’ın ‘özel programlar’ kolu donduruldu. ‘bube Uluslararası İrtibat Programı’nın kayıtları ve Avustralya numarası bube Melbourne — Footscray şubesine gönderildi."
+  },
+  {
+   "key": "case066.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case066.evidence.floor",
+   "value": "42. kat koridor kamerası"
+  },
+  {
+   "key": "case066.evidence.locker",
+   "value": "Spor dolabı ve ofis araması"
+  },
+  {
+   "key": "case066.evidence.minutes",
+   "value": "Yönetim kurulu toplantı tutanağı"
+  },
+  {
+   "key": "case066.feedback.accident",
+   "value": "Gaz manuel anahtarla, siren devre dışı ve kapı kilitliyken boşaltılmıştı."
+  },
+  {
+   "key": "case066.feedback.leduc",
+   "value": "Genel müdür bütün toplantı boyunca salonda, açık kapının ardındaydı; raporu kurula getirmesini isteyen oydu."
+  },
+  {
+   "key": "case066.feedback.obi",
+   "value": "Teknisyenin anahtarı boynundaydı ve kamera onu değil, takım elbiseli bir adamı gösteriyor."
+  },
+  {
+   "key": "case066.feedback.whitfield",
+   "value": "Gaz sisteminin özel programlara ait manuel anahtarı onun squash çantasından, onun iziyle çıktı; kart kaydı onu kırk ikinci katta gösteriyor, kamera arşiv kapısını kapatıp paneli çeviren takım elbiseli adamı. Toplantı tutanağı onu temize çıkarmıyor: tam o on dakika kamerası kapalıydı."
+  },
+  {
+   "key": "case066.file.caseType",
+   "value": "CİNAYET"
+  },
+  {
+   "key": "case066.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case066.file.value.location",
+   "value": "Tour Laurentide, 42. kat, Montreal"
+  },
+  {
+   "key": "case066.file.value.number",
+   "value": "BDM-MTL-2030-0235"
+  },
+  {
+   "key": "case066.file.value.offence",
+   "value": "Cinayet"
+  },
+  {
+   "key": "case066.file.value.reporter",
+   "value": "Güvenlik amiri"
+  },
+  {
+   "key": "case066.floor.body",
+   "value": "42. kat koridoru, veri arşivi kapısı. 25 Kasım 20.30 – 21.30."
+  },
+  {
+   "key": "case066.floor.title",
+   "value": "42. KAT KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case066.leduc.body",
+   "value": "Genel müdür."
+  },
+  {
+   "key": "case066.leduc.deflect",
+   "value": "Bu şirket yüz yıllık; bir başkan yardımcısıyla batmaz."
+  },
+  {
+   "key": "case066.leduc.programs.answer",
+   "value": "Graham’ın kolu: küçük işletme, belediye altyapısı, tarımsal rezerv, sanatçı kilit kişi… On yıldır şirketin en kârlı kolu, ben de sormadım. Daniel bu toplantıda soracaktı. Bana önceden söyledi; ben ‘kurula getir’ dedim. Şimdi düşünüyorum da, belki Graham’a da söyledim. Hayır, söyledim."
+  },
+  {
+   "key": "case066.leduc.programs.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp masaya katlayarak koyuyor."
+  },
+  {
+   "key": "case066.leduc.programs.question",
+   "value": "‘Özel programlar’ nedir?"
+  },
+  {
+   "key": "case066.leduc.title",
+   "value": "Anne-Marie Leduc — görüşme"
+  },
+  {
+   "key": "case066.locker.body",
+   "value": "Graham Whitfield’in kuledeki spor kulübü dolabı ve ofisi (şube şefinin onayıyla):\n\n· Squash çantasında yangın söndürme sisteminin özel programlara ait manuel tetik anahtarı; anahtarda Graham Whitfield’in parmak izi.\n· Ofisinde ‘bube Uluslararası İrtibat Programı’na on dört yıllık ödeme talimatları; lehtar direktörü: Edda Varga. Son talimat 24 Kasım: Melbourne, Footscray’deki bir banka şubesi.\n· Telefonunda 25 Kasım 21.40, kayıtsız bir numaraya: ‘Montreal kapandı.’ Yanıt 21.41: ‘Biliyorum.’ Numara Avustralya’da."
+  },
+  {
+   "key": "case066.locker.title",
+   "value": "BAŞKAN YARDIMCISININ SPOR DOLABI VE ODASI — ARAMA"
+  },
+  {
+   "key": "case066.method.fault",
+   "value": "Sistem arızasıyla gaz boşaldı"
+  },
+  {
+   "key": "case066.method.gas",
+   "value": "Kilitli arşivde yangın söndürme gazı elle boşaltıldı"
+  },
+  {
+   "key": "case066.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case066.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case066.minutes.body",
+   "value": "Laurentide Réassurance yönetim kurulu olağanüstü toplantısı, 25 Kasım 2030, 20.00–21.30:\n\n· Başkan: Anne-Marie Leduc (toplantı salonunda).\n· Katılımcılar: yedi üye video bağlantıyla.\n· Graham Whitfield — video bağlantıyla, ‘Toronto’dan’. 20.00–21.30 kesintisiz bağlı; 21.05–21.15 arası kamerası kapalı, ‘bağlantı sorunu’.\n· Gündem: baş aktüerin ‘özel programlar’ hakkındaki iç raporu. Rapor sunulmadı; baş aktüer toplantıya katılmadı."
+  },
+  {
+   "key": "case066.minutes.title",
+   "value": "YÖNETİM KURULU TOPLANTI TUTANAĞI"
+  },
+  {
+   "key": "case066.mirela.body",
+   "value": "Kurbanın asistanı."
+  },
+  {
+   "key": "case066.mirela.day.answer",
+   "value": "Bütün gün arşivdeydi, eski poliçe dosyalarını tarıyordu. ‘Hepsi aynı lehtara ödüyor, Mirela; adı bir kuruma benziyor ama kurum değil, bir kadın’ dedi. Toplantıda sunacaktı. Akşam çıkarken ‘Whitfield bu gece burada; Toronto’da olduğunu söylüyor ama aşağıda arabasını gördüm’ dedi. Gülümsedi, ben de güldüm."
+  },
+  {
+   "key": "case066.mirela.day.answer.demeanor",
+   "value": "Bluzunun kolunu bileğine kadar çekiyor."
+  },
+  {
+   "key": "case066.mirela.day.question",
+   "value": "Daniel’in son günü nasıldı?"
+  },
+  {
+   "key": "case066.mirela.deflect",
+   "value": "Ben onun takvimini tutardım."
+  },
+  {
+   "key": "case066.mirela.title",
+   "value": "Mirela Popescu — görüşme"
+  },
+  {
+   "key": "case066.obi.body",
+   "value": "Veri merkezi teknisyeni."
+  },
+  {
+   "key": "case066.obi.deflect",
+   "value": "Ben sunuculara bakarım, insanlara değil."
+  },
+  {
+   "key": "case066.obi.gas.answer",
+   "value": "İki yolla: duman algılanınca otomatik, ya da kapının yanındaki kırmızı panelden manuel anahtarla. Otomatik tetiklenmeden önce otuz saniye siren çalar, kapı kilitlenmez. Kayıt manuel diyor: anahtarla, kapı kilitli, siren devre dışı. Manuel anahtar üç kişide: bende, güvenlikte ve özel programlarda, çünkü arşiv onların. Benimki boynumda."
+  },
+  {
+   "key": "case066.obi.gas.answer.demeanor",
+   "value": "Kartlığının makarasını çekip bırakıyor."
+  },
+  {
+   "key": "case066.obi.gas.question",
+   "value": "Gaz sistemi nasıl boşalır?"
+  },
+  {
+   "key": "case066.obi.title",
+   "value": "Chidi Obi — görüşme"
+  },
+  {
+   "key": "case066.offer.subtitle",
+   "value": "LAURENTIDE  /  CİNAYET"
+  },
+  {
+   "key": "case066.offer.summary",
+   "value": "Bölüm boyunca her poliçenin arkasından çıkan reasürans şirketinin baş aktüeri, kilitli veri arşivinde gazla öldü."
+  },
+  {
+   "key": "case066.offer.title",
+   "value": "DOSYA #066"
+  },
+  {
+   "key": "case066.person.leduc.info",
+   "value": "60 yaşında, Laurentide Réassurance’ın genel müdürü."
+  },
+  {
+   "key": "case066.person.leduc.name",
+   "value": "Anne-Marie Leduc"
+  },
+  {
+   "key": "case066.person.mirela.info",
+   "value": "29 yaşında, kurbanın asistanı."
+  },
+  {
+   "key": "case066.person.mirela.name",
+   "value": "Mirela Popescu"
+  },
+  {
+   "key": "case066.person.obi.info",
+   "value": "33 yaşında, binanın veri merkezi teknisyeni."
+  },
+  {
+   "key": "case066.person.obi.name",
+   "value": "Chidi Obi"
+  },
+  {
+   "key": "case066.person.renaud.info",
+   "value": "50 yaşında, kulenin gece güvenlik amiri."
+  },
+  {
+   "key": "case066.person.renaud.name",
+   "value": "Luc-Antoine Renaud"
+  },
+  {
+   "key": "case066.person.whitfield.info",
+   "value": "56 yaşında, Laurentide Réassurance’ın özel programlar başkan yardımcısı."
+  },
+  {
+   "key": "case066.person.whitfield.name",
+   "value": "Graham Whitfield"
+  },
+  {
+   "key": "case066.recon.r_back",
+   "value": "21.15: Kamerası yeniden açılıyor; toplantı 21.30’da bitiyor."
+  },
+  {
+   "key": "case066.recon.r_badge",
+   "value": "20.48: Graham Whitfield ‘Toronto’dan’ bağlanacağı toplantıya kırk ikinci kattan giriyor."
+  },
+  {
+   "key": "case066.recon.r_lock",
+   "value": "21.09: Arşiv kapısını dışarıdan kapatıp manuel anahtarla gazı boşaltıyor."
+  },
+  {
+   "key": "case066.recon.r_msg",
+   "value": "21.40: ‘Montreal kapandı.’ Cevap ilk kez geliyor, Avustralya’dan: ‘Biliyorum.’"
+  },
+  {
+   "key": "case066.recon.r_off",
+   "value": "21.05: Kamerasını ‘bağlantı sorunu’ diye kapatıyor."
+  },
+  {
+   "key": "case066.recon.r_report",
+   "value": "24 Kasım: Baş aktüer ‘özel programlar’ raporunu hazırlıyor ve Mile End şubesine yazıyor."
+  },
+  {
+   "key": "case066.recon.r_room",
+   "value": "20.52: Küçük toplantı odasından video bağlantısını açıyor."
+  },
+  {
+   "key": "case066.renaud.alarm.answer",
+   "value": "Alarm 21.12’de geldi; çıktım, kapı kilitliydi, kendi anahtarımla açtım, geç. Kart kayıtları 42. kat: Kovač 20.40, Whitfield 20.48, Obi 19.30’dan beri. Genel müdür toplantı salonundaydı, kapısı açıktı, onu gördüm. Koridorda bir kamera var."
+  },
+  {
+   "key": "case066.renaud.alarm.answer.demeanor",
+   "value": "Blazerinin düğmesini ilikleyip ellerini arkasında birleştiriyor."
+  },
+  {
+   "key": "case066.renaud.alarm.question",
+   "value": "Gece katta kim vardı?"
+  },
+  {
+   "key": "case066.renaud.body",
+   "value": "Gece güvenlik amiri."
+  },
+  {
+   "key": "case066.renaud.deflect",
+   "value": "Ben kapıları açarım, kapatırım."
+  },
+  {
+   "key": "case066.renaud.title",
+   "value": "Luc-Antoine Renaud — görüşme"
+  },
+  {
+   "key": "case066.report.body",
+   "value": "25 Kasım 2030 gecesi Montreal’deki Tour Laurentide’in 42. katında, Laurentide Réassurance’ın baş aktüeri Daniel Kovač (54), veri arşivi odasında ölü bulundu. Odanın yangın söndürme gazı boşalmıştı; kapı dışarıdan kilitliydi.\n\nCesedi gece güvenlik amiri Luc-Antoine Renaud 22.05’te, alarm üzerine buldu. Katta akşam: genel müdür Anne-Marie Leduc’un yönettiği yönetim kurulu toplantısı (çoğu üye video bağlantıyla), özel programlar başkan yardımcısı Graham Whitfield, veri merkezi teknisyeni Chidi Obi. Kurbanın asistanı Mirela Popescu 19.00’da çıkmıştı.\n\nKurban bir gün önce bube Montreal — Mile End şubesine bir yazı göndermişti."
+  },
+  {
+   "key": "case066.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case066.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case066.request.locker",
+   "value": "Başkan yardımcısının spor dolabını ve ofisini aramak için izin iste"
+  },
+  {
+   "key": "case066.request.minutes",
+   "value": "Yönetim kurulu toplantı tutanağını iste"
+  },
+  {
+   "key": "case066.summary.evidence",
+   "value": "Tutanak yemdi: yedi tanık ekranı gördü, ama on dakikalık karanlığı değil. Güvenlik, teknisyen ve asistan kat, anahtar ve araba ile boşluğu doldurdu. Arama anahtarı squash çantasında, ödeme talimatlarını ofiste buldu."
+  },
+  {
+   "key": "case066.summary.lesson",
+   "value": "Yedi kişi onu ekranda gördü. Hiçbiri kapalı kamerayı sormadı."
+  },
+  {
+   "key": "case066.summary.location",
+   "value": "Tour Laurentide — Kasım 2030"
+  },
+  {
+   "key": "case066.summary.truth",
+   "value": "On dört yıl boyunca Laurentide Réassurance’ın ‘özel programlar’ kolu, Mile End’in fırınından siloya kadar sahte ya da şişirilmiş poliçeleri reasüre etti ve hasar ödemelerini ‘bube Uluslararası İrtibat Programı’na, yani Edda Varga’ya aktardı. Baş aktüer Daniel Kovač bunu yönetim kuruluna sunacaktı. Başkan yardımcısı Graham Whitfield ‘Toronto’dan’ bağlandığı toplantıda kamerasını on dakika kapattı, Kovač’ı arşive kilitleyip gazı elle boşalttı."
+  },
+  {
+   "key": "case066.suspect.label",
+   "value": "Daniel Kovač’ı kim öldürdü?"
+  },
+  {
+   "key": "case066.tablet.caseLine",
+   "value": "DOSYA #066  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case066.time.alarm",
+   "value": "21.12"
+  },
+  {
+   "key": "case066.time.in",
+   "value": "20.48"
+  },
+  {
+   "key": "case066.time.lamp",
+   "value": "21.11"
+  },
+  {
+   "key": "case066.time.panel",
+   "value": "21.09"
+  },
+  {
+   "key": "case066.time.walk",
+   "value": "20.52"
+  },
+  {
+   "key": "case066.title",
+   "value": "Dosya #066 — Laurentide"
+  },
+  {
+   "key": "case066.verdict.accident",
+   "value": "Kimse — sistem arızası"
+  },
+  {
+   "key": "case066.verdict.leduc",
+   "value": "Anne-Marie Leduc"
+  },
+  {
+   "key": "case066.verdict.obi",
+   "value": "Chidi Obi"
+  },
+  {
+   "key": "case066.verdict.whitfield",
+   "value": "Graham Whitfield"
+  },
+  {
+   "key": "case066.whitfield.body",
+   "value": "Özel programlar başkan yardımcısı."
+  },
+  {
+   "key": "case066.whitfield.deflect",
+   "value": "Özel programlar şirketin en kârlı kolu."
+  },
+  {
+   "key": "case066.whitfield.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case066.whitfield.end.decoy.minutes",
+   "value": "Tutanağa bakın: yirmiden yirmi bir buçuğa kadar bağlıyım. Yedi tanık. Bir adam aynı anda iki yerde olamaz."
+  },
+  {
+   "key": "case066.whitfield.end.presented.locker",
+   "value": "Toronto’da değildim; kırk ikinci katın küçük toplantı odasındaydım. On dakika kamerayı kapattım. Daniel tablosunu sunarsa ‘İrtibat Programı’nın ne olduğu çıkardı, kimin olduğu da. Edda’yı on beş yıl önce Londra’da tanıdım; ‘poliçeyi siz yazın, gerisi bizde’ dedi. Ve hep öyle oldu: Mile End’de, silo’da, kar fırtınasında, hep. Ona son kez yazdım: ‘Montreal kapandı.’ Cevap Melbourne’dan geldi, ilk kez: ‘Biliyorum.’"
+  },
+  {
+   "key": "case066.whitfield.end.question",
+   "value": "Daniel’i arşive siz kilitlediniz."
+  },
+  {
+   "key": "case066.whitfield.night.answer",
+   "value": "Toplantıdaydım, bir buçuk saat, yedi kişi beni ekranda gördü. Daniel çok çalışırdı; arşivde yalnız, gece, bir sistem arızası. Trajik."
+  },
+  {
+   "key": "case066.whitfield.night.answer.demeanor",
+   "value": "Kravatının düğümünü iki parmağıyla düzeltiyor."
+  },
+  {
+   "key": "case066.whitfield.night.question",
+   "value": "Dün akşam neredeydiniz?"
+  },
+  {
+   "key": "case066.whitfield.title",
+   "value": "Graham Whitfield — görüşme"
+  }
+ ]
+}

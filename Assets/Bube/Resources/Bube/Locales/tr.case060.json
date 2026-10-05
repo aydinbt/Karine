@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case060.alley.body",
+   "value": "Fırının arka sokağı. 3 Kasım 22.45 – 23.59."
+  },
+  {
+   "key": "case060.alley.title",
+   "value": "ARA SOKAK KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case060.autopsy.body",
+   "value": "· Ölüm nedeni: kafatası kırığı.\n· Başın arkasında uzun, düz kenarlı bir darbe izi; içinde ahşap kıymıkları ve un. Taş zemindeki düşüşle uyuşmuyor: ikinci, daha hafif bir yara var, o düşüşten.\n· Kanda alkol yok.\n· Ölüm zamanı: 23.00–23.40."
+  },
+  {
+   "key": "case060.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case060.bouchard.body",
+   "value": "Sigorta eksperi."
+  },
+  {
+   "key": "case060.bouchard.deflect",
+   "value": "Ben poliçelere bakarım."
+  },
+  {
+   "key": "case060.bouchard.policy.answer",
+   "value": "Fırına ‘kilit kişi’ teminatı eklendi: sahibi ölürse işletmeye 2,4 milyon dolar. Lehtar işletme; işletmenin yeni ortağı ise müdürün kurduğu bir şirket. Zeyilnamede Bay Klein’ın imzası var ama imza karşılaştırması bende tutmadı. Bu poliçenin reasüransı Laurentide’de; Laurentide bu tür ‘küçük işletme’ poliçelerini son iki yılda neden çoğalttı, ben de merak ediyorum."
+  },
+  {
+   "key": "case060.bouchard.policy.answer.demeanor",
+   "value": "Kartlığını boynundan çıkarıp masaya koyuyor."
+  },
+  {
+   "key": "case060.bouchard.policy.question",
+   "value": "İki ay önce poliçede ne değişti?"
+  },
+  {
+   "key": "case060.bouchard.title",
+   "value": "Nadia Bouchard — görüşme"
+  },
+  {
+   "key": "case060.cctv.event.back",
+   "value": "Kamera: Aynı adam sekiz dakika sonra ara sokağa dönüyor, arka kapıyı anahtarla açıyor."
+  },
+  {
+   "key": "case060.cctv.event.out",
+   "value": "Kamera: Kapitone yelekli bir adam ara sokaktan caddeye çıkıp uzaklaşıyor."
+  },
+  {
+   "key": "case060.cctv.event.sack",
+   "value": "Kamera: Adam arka kapıdan elinde çuvala sarılı uzun bir şeyle çıkıyor, odun yığınına yürüyor."
+  },
+  {
+   "key": "case060.cctv.overlay",
+   "value": "MTL-ALY"
+  },
+  {
+   "key": "case060.cctv.period",
+   "value": "3 Kasım 2030"
+  },
+  {
+   "key": "case060.cctv.source",
+   "value": "Karşı dükkânın kamerası"
+  },
+  {
+   "key": "case060.clock.body",
+   "value": "Fırının mesai saati kayıtları, 3 Kasım:\n\n· Sophie Gagnon — giriş 07.00, çıkış 22.00.\n· Yan Tremblay — giriş 09.12, çıkış 23.05.\n· Dmitri Volkov — giriş 00.14.\n· Mordecai Klein kart basmaz.\n\nArka kapının bir saati yok."
+  },
+  {
+   "key": "case060.clock.title",
+   "value": "MESAİ SAATİ KAYDI"
+  },
+  {
+   "key": "case060.clue.back",
+   "value": "Aynı adam dönüp arka kapıyı anahtarla açıyor."
+  },
+  {
+   "key": "case060.clue.deliv",
+   "value": "Odun teslim ediliyor."
+  },
+  {
+   "key": "case060.clue.found",
+   "value": "Gece fırıncısı Mordecai’yi buluyor."
+  },
+  {
+   "key": "case060.clue.out",
+   "value": "Yelekli adam sokaktan caddeye çıkıyor."
+  },
+  {
+   "key": "case060.clue.sack",
+   "value": "Adam çuvala sarılı uzun bir şeyle odun yığınına yürüyor."
+  },
+  {
+   "key": "case060.clue.source.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.clue.source.luc",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.custody.ash",
+   "value": "Odun fırınında yakıldı"
+  },
+  {
+   "key": "case060.custody.label",
+   "value": "Kürek nereye gitti?"
+  },
+  {
+   "key": "case060.custody.river",
+   "value": "Nehre atıldı"
+  },
+  {
+   "key": "case060.custody.woodpile",
+   "value": "Odun yığınına saklandı"
+  },
+  {
+   "key": "case060.dmitri.body",
+   "value": "Gece fırıncısı."
+  },
+  {
+   "key": "case060.dmitri.deflect",
+   "value": "Ben hamur yaparım, gece."
+  },
+  {
+   "key": "case060.dmitri.found.answer",
+   "value": "Arka kapıdan girdim, her gece gibi. Fırın harlıydı; Mordecai fırını kimseye bırakmaz ama bu gece bırakmış. Yerdeydi. Kürekler eksikti, dikkat ettim, çünkü kürekleri ben sayarım. Arka kapı kilitliydi; anahtar yalnız bende, Mordecai’de ve müdürde."
+  },
+  {
+   "key": "case060.dmitri.found.answer.demeanor",
+   "value": "Önlüğündeki unu iki eliyle silkeliyor."
+  },
+  {
+   "key": "case060.dmitri.found.question",
+   "value": "Mordecai’yi nasıl buldunuz?"
+  },
+  {
+   "key": "case060.dmitri.title",
+   "value": "Dmitri Volkov — görüşme"
+  },
+  {
+   "key": "case060.epilogue.custody.ash",
+   "value": "Küreğin fırının külünde yakıldığı yazıldı."
+  },
+  {
+   "key": "case060.epilogue.custody.river",
+   "value": "Küreğin metal halkası fırının külünden çıktı."
+  },
+  {
+   "key": "case060.epilogue.custody.woodpile",
+   "value": "Odun yığını tek tek dağıtıldı; kürek orada değildi, yalnızca çuval bir süre orada kalmıştı."
+  },
+  {
+   "key": "case060.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; poliçe ödendi."
+  },
+  {
+   "key": "case060.epilogue.verdict.dmitri",
+   "value": "Dmitri Volkov tutuklandı; fırın kapandı."
+  },
+  {
+   "key": "case060.epilogue.verdict.rivka",
+   "value": "Rivka Klein tutuklandı; 2,4 milyon doların yolu açıldı."
+  },
+  {
+   "key": "case060.epilogue.verdict.tremblay",
+   "value": "Yan Tremblay tutuklandı; sahte zeyilname iptal edildi. Laurentide Réassurance’taki numara Mile End şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case060.evidence.alley",
+   "value": "Ara sokak kamerası"
+  },
+  {
+   "key": "case060.evidence.clock",
+   "value": "Mesai saati kaydı"
+  },
+  {
+   "key": "case060.evidence.home",
+   "value": "Müdürün evi ve arabası araması"
+  },
+  {
+   "key": "case060.evidence.oven",
+   "value": "Fırın incelemesi"
+  },
+  {
+   "key": "case060.feedback.accident",
+   "value": "Zemin kuruydu, başın arkasındaki ilk yara düz kenarlı bir aletten."
+  },
+  {
+   "key": "case060.feedback.dmitri",
+   "value": "Gece fırıncısı ölümden yarım saat sonra kart bastı; kamera onu değil, yelekli bir adamı gösteriyor."
+  },
+  {
+   "key": "case060.feedback.rivka",
+   "value": "Kızı mirasçı ama o gece Toronto’daydı; fırını zaten satacaktı."
+  },
+  {
+   "key": "case060.feedback.tremblay",
+   "value": "Kurbanın kanı ve küreğin lifleri onun bagajındaki çuvalda; kart basıp çıktıktan sekiz dakika sonra arka kapıyı anahtarla açarken kameraya girdi. Mesai kartı yalnızca kapıdan çıktığını gösteriyor, eve gittiğini değil."
+  },
+  {
+   "key": "case060.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case060.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case060.file.value.location",
+   "value": "Bagels Clark, Mile End, Montreal"
+  },
+  {
+   "key": "case060.file.value.number",
+   "value": "BDM-MTL-2030-0201"
+  },
+  {
+   "key": "case060.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case060.file.value.reporter",
+   "value": "Gece fırıncısı"
+  },
+  {
+   "key": "case060.gagnon.argue.answer",
+   "value": "Ben onda çıktım. Ondan önce Mordecai ile müdür arka odada bağırıştılar. Mordecai ‘bu poliçeyi imzalamadım, imzam değil’ diyordu. Müdür ‘sizin iyiliğiniz için’ dedi. Ben kulaklığımı taktım."
+  },
+  {
+   "key": "case060.gagnon.argue.answer.demeanor",
+   "value": "Kapüşonunun iplerini çekiştiriyor."
+  },
+  {
+   "key": "case060.gagnon.argue.question",
+   "value": "Akşam fırında ne oldu?"
+  },
+  {
+   "key": "case060.gagnon.body",
+   "value": "Kasiyer."
+  },
+  {
+   "key": "case060.gagnon.deflect",
+   "value": "Ben kasadayım, gündüz."
+  },
+  {
+   "key": "case060.gagnon.title",
+   "value": "Sophie Gagnon — görüşme"
+  },
+  {
+   "key": "case060.home.body",
+   "value": "Yan Tremblay’in evi ve arabası (şube şefinin onayıyla):\n\n· Arabanın bagajında un ve odun kabuğu bulaşmış bir çuval; çuvalda kurbanın kanı ve küreğin sapından ahşap lifleri.\n· Evdeki çalışma masasında Mordecai Klein’ın imzasının on dört deneme kopyası.\n· Telefonunda Laurentide Réassurance’taki bir numaraya 1 Kasım: ‘Yaşlı pazartesi avukata gidiyor.’ Yanıt: ‘Poliçe sağlam.’"
+  },
+  {
+   "key": "case060.home.title",
+   "value": "MÜDÜRÜN EVİ VE ARABASI — ARAMA"
+  },
+  {
+   "key": "case060.luc.alley.answer",
+   "value": "22.30’da odunu bıraktım. Sokağın başında bir kamera var, belediyenin değil, karşıdaki dükkânın; ara sokağa bakıyor. Ben bir şey görmedim; ama gece yarısından önce birinin odun yığınını karıştırdığını sabah fark ettim, düzenim bozulmuştu."
+  },
+  {
+   "key": "case060.luc.alley.answer.demeanor",
+   "value": "Berenin altından alnını kaşıyor."
+  },
+  {
+   "key": "case060.luc.alley.question",
+   "value": "Teslimatta ara sokakta ne gördünüz?"
+  },
+  {
+   "key": "case060.luc.body",
+   "value": "Odun tedarikçisi."
+  },
+  {
+   "key": "case060.luc.deflect",
+   "value": "Ben odunu getiririm, giderim."
+  },
+  {
+   "key": "case060.luc.title",
+   "value": "Luc Pelletier — görüşme"
+  },
+  {
+   "key": "case060.method.faint",
+   "value": "Fırının sıcağında bayıldı"
+  },
+  {
+   "key": "case060.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case060.method.peel",
+   "value": "Başının arkasına fırın küreğiyle vuruldu"
+  },
+  {
+   "key": "case060.method.slip",
+   "value": "Islak zeminde kayıp düştü"
+  },
+  {
+   "key": "case060.offer.subtitle",
+   "value": "SİMİT FIRINI  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case060.offer.summary",
+   "value": "Yetmiş yıllık bir simit fırınının sahibi, odun fırınının önünde ölü bulundu; fırın iki ay önce on katına sigortalanmıştı."
+  },
+  {
+   "key": "case060.offer.title",
+   "value": "DOSYA #060"
+  },
+  {
+   "key": "case060.oven.body",
+   "value": "· Fırının önündeki taş zemin un ve su değil, kuru: kaymaya yol açacak bir şey yok.\n· Duvardaki küreklerden biri eksik; askıda dört kürek, toz izinde beş.\n· Odun fırınının külünde gece bir şey yakılmış: kömürleşmiş ahşap ve metal bir halka."
+  },
+  {
+   "key": "case060.oven.title",
+   "value": "FIRIN İNCELEMESİ"
+  },
+  {
+   "key": "case060.person.bouchard.info",
+   "value": "37 yaşında, Laurentide Réassurance’ın sigorta eksperi."
+  },
+  {
+   "key": "case060.person.bouchard.name",
+   "value": "Nadia Bouchard"
+  },
+  {
+   "key": "case060.person.dmitri.info",
+   "value": "52 yaşında, gece fırıncısı; cesedi bulan."
+  },
+  {
+   "key": "case060.person.dmitri.name",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.person.gagnon.info",
+   "value": "24 yaşında, kasiyer."
+  },
+  {
+   "key": "case060.person.gagnon.name",
+   "value": "Sophie Gagnon"
+  },
+  {
+   "key": "case060.person.luc.info",
+   "value": "58 yaşında, odun tedarikçisi."
+  },
+  {
+   "key": "case060.person.luc.name",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.person.rivka.info",
+   "value": "40 yaşında, kurbanın kızı."
+  },
+  {
+   "key": "case060.person.rivka.name",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.person.tremblay.info",
+   "value": "44 yaşında, fırının müdürü."
+  },
+  {
+   "key": "case060.person.tremblay.name",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.report.body",
+   "value": "3 Kasım 2030 gecesi Mile End’deki Bagels Clark fırınında sahibi Mordecai Klein (78), odun fırınının önünde taş zeminde ölü bulundu. Başının arkasında yara.\n\nCesedi gece fırıncısı Dmitri Volkov 00.15’te, vardiyaya geldiğinde buldu. Akşam fırında: müdür Yan Tremblay, kasiyer Sophie Gagnon; odun tedarikçisi Luc Pelletier 22.30’da teslimat yaptı. Kurbanın kızı Rivka Klein ve sigorta eksperi Nadia Bouchard sabah geldi."
+  },
+  {
+   "key": "case060.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case060.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case060.request.clock",
+   "value": "Mesai saati kayıtlarını iste"
+  },
+  {
+   "key": "case060.request.home",
+   "value": "Müdürün evini ve arabasını aramak için izin iste"
+  },
+  {
+   "key": "case060.request.oven",
+   "value": "Fırının incelenmesini iste"
+  },
+  {
+   "key": "case060.rivka.body",
+   "value": "Kurbanın kızı."
+  },
+  {
+   "key": "case060.rivka.deflect",
+   "value": "Babam bu fırından başka bir şey bilmezdi."
+  },
+  {
+   "key": "case060.rivka.title",
+   "value": "Rivka Klein — görüşme"
+  },
+  {
+   "key": "case060.rivka.will.answer",
+   "value": "Bana; ama ben Toronto’dayım, fırını istemiyordum, satacaktım, herkes biliyordu. Babam dün telefonda ‘Yan beni bir şeye imza ettirmeye çalışıyor, pazartesi avukata gidiyorum’ dedi. Ben dün gece Toronto’daydım, sabah ilk uçakla geldim."
+  },
+  {
+   "key": "case060.rivka.will.answer.demeanor",
+   "value": "Paltosunun yakasını parmaklarıyla düzeltiyor."
+  },
+  {
+   "key": "case060.rivka.will.question",
+   "value": "Babanız fırını kime bırakacaktı?"
+  },
+  {
+   "key": "case060.summary.evidence",
+   "value": "Fırıncı, kasiyer ve eksper geceyi ve poliçeyi anlattı. Mesai kartı bir yemdi: çıkışı gösteriyordu, eve gidişi değil. Kamera dönüşü gösterdi; arama çuvalı ve imza denemelerini buldu."
+  },
+  {
+   "key": "case060.summary.lesson",
+   "value": "Kart doğruyu söylüyordu; yalnızca hikâyenin yarısını."
+  },
+  {
+   "key": "case060.summary.location",
+   "value": "Mile End — Kasım 2030"
+  },
+  {
+   "key": "case060.summary.truth",
+   "value": "Müdür Yan Tremblay, sahibi Mordecai Klein’ın imzasını taklit ederek fırına 2,4 milyonluk ‘kilit kişi’ teminatı ekletti ve lehtarı kendi şirketine bağladı. Mordecai sahteliği fark edip avukata gitmeye karar verdi. Yan kart basıp çıktı, sekiz dakika sonra arka kapıdan döndü, Mordecai’ye kürekle vurdu, onu fırının önüne yatırdı ve küreği fırında yaktı."
+  },
+  {
+   "key": "case060.suspect.label",
+   "value": "Mordecai Klein’ı kim öldürdü?"
+  },
+  {
+   "key": "case060.tablet.caseLine",
+   "value": "DOSYA #060  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case060.time.back",
+   "value": "23.14"
+  },
+  {
+   "key": "case060.time.deliv",
+   "value": "22.30"
+  },
+  {
+   "key": "case060.time.found",
+   "value": "00.15"
+  },
+  {
+   "key": "case060.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case060.time.sack",
+   "value": "23.37"
+  },
+  {
+   "key": "case060.title",
+   "value": "Dosya #060 — Simit Fırını"
+  },
+  {
+   "key": "case060.tremblay.body",
+   "value": "Fırının müdürü."
+  },
+  {
+   "key": "case060.tremblay.deflect",
+   "value": "Fırını ben ayakta tuttum, on beş yıl."
+  },
+  {
+   "key": "case060.tremblay.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case060.tremblay.end.decoy.clock",
+   "value": "Kartıma bakın: 23.05 çıkış. Ölüm on bir buçukta diyorsunuz. Ben o saatte yoldaydım."
+  },
+  {
+   "key": "case060.tremblay.end.presented.home",
+   "value": "Pazartesi avukata gidecekti; zeyilname sahte çıkardı, ben de çıkardım. Kartı bastım, sokağın başına kadar yürüdüm, döndüm. Kürekle vurdum. Fırının önüne yatırdım, kürek fırına girdi. Laurentide’deki adam ‘poliçe sağlam, kimse sormaz’ demişti. Sordular."
+  },
+  {
+   "key": "case060.tremblay.end.question",
+   "value": "Mordecai’ye kürekle siz vurdunuz."
+  },
+  {
+   "key": "case060.tremblay.night.answer",
+   "value": "Kartımı bastım, eve gittim. Mordecai fırının başındaydı, yaşlıydı, ayakta duramıyordu artık. Kaydı, belli."
+  },
+  {
+   "key": "case060.tremblay.night.answer.demeanor",
+   "value": "Yeleğinin fermuarını açıp kapıyor."
+  },
+  {
+   "key": "case060.tremblay.night.question",
+   "value": "Dün gece fırından ne zaman çıktınız?"
+  },
+  {
+   "key": "case060.tremblay.title",
+   "value": "Yan Tremblay — görüşme"
+  },
+  {
+   "key": "case060.verdict.accident",
+   "value": "Kimse — kaydı"
+  },
+  {
+   "key": "case060.verdict.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.verdict.rivka",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.verdict.tremblay",
+   "value": "Yan Tremblay"
+  }
+ ]
+}

@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case065.autopsy.body",
+   "value": "· Ölüm nedeni: yüksekten düşme; çoklu travma.\n· Sağ ön kolda, düşüşten önce oluşmuş dört parmak izli bir morluk: biri onu sıkıca tutmuş.\n· Midede yemek yok; son öğün öğlen.\n· Ölüm zamanı: 21.30–22.30."
+  },
+  {
+   "key": "case065.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case065.beaulieu.body",
+   "value": "Proje müdürü."
+  },
+  {
+   "key": "case065.beaulieu.deflect",
+   "value": "Bu silo altmış yıldır boş; biz ona hayat veriyoruz."
+  },
+  {
+   "key": "case065.beaulieu.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case065.beaulieu.end.decoy.receipt",
+   "value": "Fişe bakın: 21.15, restoran, iki kişi. Ben yemekteydim. Kartım da söylüyor."
+  },
+  {
+   "key": "case065.beaulieu.end.presented.site",
+   "value": "Hesabı ödedim, beş dakika dedim, siloya koştum. Olivier ahşap iskeleti gösterdi, ‘bitti’ dedi. Kolunu tuttum, kartı istedim. Çekti, kaydı. Kapağın kenarında… tutmadım. Kartı kasktan çıkardım, maketin altına koydum; her sabah o maketin önünde toplantı yapıyoruz."
+  },
+  {
+   "key": "case065.beaulieu.end.question",
+   "value": "Olivier’i hazneden siz ittiniz."
+  },
+  {
+   "key": "case065.beaulieu.night.answer",
+   "value": "Genel müdürümüzle yemekteydim, Eski Liman’da. Olivier’in gece siloya çıktığını sabah öğrendim. Bir mimar kask ve iple o hazneye yalnız çıkar mı?"
+  },
+  {
+   "key": "case065.beaulieu.night.answer.demeanor",
+   "value": "Kaskını kucağında bir yana bir yana çeviriyor."
+  },
+  {
+   "key": "case065.beaulieu.night.question",
+   "value": "Dün akşam neredeydiniz?"
+  },
+  {
+   "key": "case065.beaulieu.title",
+   "value": "Étienne Beaulieu — görüşme"
+  },
+  {
+   "key": "case065.cctv.event.in",
+   "value": "Kamera: Teknik ceketli, kaskı kolunun altında bir adam şantiye kapısından hızla, yalnız giriyor."
+  },
+  {
+   "key": "case065.cctv.event.out",
+   "value": "Kamera: Teknik ceketli adam kapıdan yalnız, aceleyle çıkıyor, kapüşonunu çekiyor."
+  },
+  {
+   "key": "case065.cctv.event.wait",
+   "value": "Kamera: Uzun paltolu, kasklı, elinde fotoğraf makinesi olan biri silonun merdiven kulesi kapısında bekliyor."
+  },
+  {
+   "key": "case065.cctv.overlay",
+   "value": "SLM-GATE"
+  },
+  {
+   "key": "case065.cctv.period",
+   "value": "20 Kasım 2030"
+  },
+  {
+   "key": "case065.cctv.source",
+   "value": "Şantiye kamerası"
+  },
+  {
+   "key": "case065.clue.arch",
+   "value": "Mimar ‘ölçüm yapacağım’ diyerek şantiyeye giriyor."
+  },
+  {
+   "key": "case065.clue.in",
+   "value": "Teknik ceketli adam şantiyeye yalnız giriyor."
+  },
+  {
+   "key": "case065.clue.msg",
+   "value": "Mimar ortağına yazıyor: ‘Étienne geldi, konuşacağız.’"
+  },
+  {
+   "key": "case065.clue.out",
+   "value": "Teknik ceketli adam aceleyle, yalnız çıkıyor."
+  },
+  {
+   "key": "case065.clue.pay",
+   "value": "Proje müdürü hesabı ödüyor, ‘beş dakika’ deyip çıkıyor."
+  },
+  {
+   "key": "case065.clue.source.gendron",
+   "value": "Max Gendron"
+  },
+  {
+   "key": "case065.clue.source.kwan",
+   "value": "Grace Kwan"
+  },
+  {
+   "key": "case065.clue.source.rousseau",
+   "value": "Alain Rousseau"
+  },
+  {
+   "key": "case065.clue.wait",
+   "value": "Fotoğraf makineli kişi merdiven kulesinin kapısında bekliyor."
+  },
+  {
+   "key": "case065.custody.label",
+   "value": "Kask kamerasının kartı nereye gitti?"
+  },
+  {
+   "key": "case065.custody.model",
+   "value": "Proje maketinin oyuk kaidesine"
+  },
+  {
+   "key": "case065.custody.river",
+   "value": "Nehre atıldı"
+  },
+  {
+   "key": "case065.custody.silo",
+   "value": "Silonun dibinde kaldı"
+  },
+  {
+   "key": "case065.epilogue.custody.model",
+   "value": "Hafıza kartının proje maketinin kaidesinde bulunduğu yazıldı."
+  },
+  {
+   "key": "case065.epilogue.custody.river",
+   "value": "Kart nehirde değildi."
+  },
+  {
+   "key": "case065.epilogue.custody.silo",
+   "value": "Silonun dibi tarandı; kart yoktu."
+  },
+  {
+   "key": "case065.epilogue.verdict.accident",
+   "value": "Ölüm iş kazası sayıldı; miras raporu hiç yazılmadı."
+  },
+  {
+   "key": "case065.epilogue.verdict.beaulieu",
+   "value": "Étienne Beaulieu tutuklandı; silo koruma altına alındı. Laurentide Réassurance’ın ‘miras uygunluğu’ teminatları Mile End şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case065.epilogue.verdict.farah",
+   "value": "Farah Siddiqui tutuklandı; silo yıkım iznini aldı."
+  },
+  {
+   "key": "case065.epilogue.verdict.morin",
+   "value": "Sylvie Morin tutuklandı; hafıza kartı maketin altında kaldı."
+  },
+  {
+   "key": "case065.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case065.evidence.gate",
+   "value": "Şantiye kapısı kamerası"
+  },
+  {
+   "key": "case065.evidence.receipt",
+   "value": "Restoran fişi ve kart hareketi"
+  },
+  {
+   "key": "case065.evidence.site",
+   "value": "Şantiye ofisi ve maket araması"
+  },
+  {
+   "key": "case065.farah.body",
+   "value": "Miras koruma aktivisti."
+  },
+  {
+   "key": "case065.farah.deflect",
+   "value": "O silo yıkılırsa şehrin hafızası gider."
+  },
+  {
+   "key": "case065.farah.fence.answer",
+   "value": "Her gece fotoğraf çekerim; içeri girmem, bir kere yakalandım, yeter. Dün gece 22.10’da kapıdan aceleyle çıkan birini çektim, teknik ceketli, kapüşonu kafasında. Fotoğraf telefonumda; yüzü yok, ama ceketi var."
+  },
+  {
+   "key": "case065.farah.fence.answer.demeanor",
+   "value": "Ceketinin cebindeki telefonu çıkarıp ekranını size çeviriyor."
+  },
+  {
+   "key": "case065.farah.fence.question",
+   "value": "Dün gece çitin dışında ne yapıyordunuz?"
+  },
+  {
+   "key": "case065.farah.title",
+   "value": "Farah Siddiqui — görüşme"
+  },
+  {
+   "key": "case065.feedback.accident",
+   "value": "Kolunda düşüşten önce oluşmuş bir tutma izi var ve kask kamerasının kartı çıkarılmıştı."
+  },
+  {
+   "key": "case065.feedback.beaulieu",
+   "value": "Hafıza kartı onun her sabah önünde toplantı yaptığı maketin altından, onun iziyle çıktı; 21.38 girişi onun kartıyla. Garson onu hesabı ödedikten sonra yarım saat masadan kalkmış gördü. Restoran fişi onu temize çıkarmıyor: hesap 21.15’te ödendi, ölüm sonra."
+  },
+  {
+   "key": "case065.feedback.farah",
+   "value": "Aktivist çitin dışındaydı ve içeri girmedi; çektiği fotoğraf teknik ceketli bir adamı gösteriyor."
+  },
+  {
+   "key": "case065.feedback.morin",
+   "value": "Genel müdür baskı yaptı, ama bütün akşam restoranda kaldı."
+  },
+  {
+   "key": "case065.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case065.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case065.file.value.location",
+   "value": "Silo Lemoyne şantiyesi, Eski Liman, Montreal"
+  },
+  {
+   "key": "case065.file.value.number",
+   "value": "BDM-MTL-2030-0229"
+  },
+  {
+   "key": "case065.file.value.offence",
+   "value": "Şüpheli ölüm — düşme"
+  },
+  {
+   "key": "case065.file.value.reporter",
+   "value": "Gece bekçisi"
+  },
+  {
+   "key": "case065.gate.body",
+   "value": "Silo Lemoyne şantiye kapısı. 20 Kasım 20.45 – 23.00."
+  },
+  {
+   "key": "case065.gate.title",
+   "value": "ŞANTİYE KAPISI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case065.gendron.body",
+   "value": "Restoran garsonu."
+  },
+  {
+   "key": "case065.gendron.deflect",
+   "value": "Ben masalara servis yaparım."
+  },
+  {
+   "key": "case065.gendron.table.answer",
+   "value": "Teknik ceketli bey, evet, bir hanımla, siyah kaşe paltolu. Hanım konuşuyordu, bey dinliyordu. 21.15’te hesabı istedi, ödedi, ama hanım tatlı söyledi. Bey ‘beş dakika’ deyip çıktı. Yarım saatten fazla döndü, kapüşonu ıslaktı. Hanım bekliyordu, sinirliydi."
+  },
+  {
+   "key": "case065.gendron.table.answer.demeanor",
+   "value": "Not defterini cebinden çıkarıp yine koyuyor."
+  },
+  {
+   "key": "case065.gendron.table.question",
+   "value": "Dün akşam proje müdürü masanızda mıydı?"
+  },
+  {
+   "key": "case065.gendron.title",
+   "value": "Max Gendron — görüşme"
+  },
+  {
+   "key": "case065.kwan.body",
+   "value": "Fotoğrafçı ortak."
+  },
+  {
+   "key": "case065.kwan.camera.answer",
+   "value": "Hazne katındaki 1904 ahşap iskeletini. Proje çizimlerinde ‘yok, yıkılmış’ yazıyordu; varsa bina korunmalı, proje biter. Olivier gördü, kaskıyla çekti, bana ‘yarın raporu yazıyorum, sigorta da kredi de yatar’ diye mesaj attı. 21.41’de son mesajı: ‘Étienne geldi, konuşacağız.’"
+  },
+  {
+   "key": "case065.kwan.camera.answer.demeanor",
+   "value": "Göğsündeki fotoğraf makinesi kayışını iki eliyle tutuyor."
+  },
+  {
+   "key": "case065.kwan.camera.question",
+   "value": "Olivier dün gece silonun tepesinde ne arıyordu?"
+  },
+  {
+   "key": "case065.kwan.deflect",
+   "value": "Ben fotoğraf çekerim, karar vermem."
+  },
+  {
+   "key": "case065.kwan.title",
+   "value": "Grace Kwan — görüşme"
+  },
+  {
+   "key": "case065.method.hatch",
+   "value": "Tahıl haznesinin kapağından aşağı düşürüldü"
+  },
+  {
+   "key": "case065.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case065.method.rope",
+   "value": "İpi koptu"
+  },
+  {
+   "key": "case065.method.slip",
+   "value": "Ölçüm yaparken kayıp düştü"
+  },
+  {
+   "key": "case065.morin.body",
+   "value": "Genel müdür."
+  },
+  {
+   "key": "case065.morin.deflect",
+   "value": "Şirket bir kişiden büyüktür."
+  },
+  {
+   "key": "case065.morin.dinner.answer",
+   "value": "Evet. Ona projenin miras raporu olmadan kredinin düşeceğini, Laurentide’in sigortayı çekeceğini söyledim. ‘Halledeceğim’ dedi, çıktı. Yarım saat sonra döndü, ıslaktı. Ne halletti diye sormadım. Belki sormalıydım."
+  },
+  {
+   "key": "case065.morin.dinner.answer.demeanor",
+   "value": "Kaşe paltosunun düğmesini ilikliyor."
+  },
+  {
+   "key": "case065.morin.dinner.question",
+   "value": "Dün akşam proje müdürüyle yemekte miydiniz?"
+  },
+  {
+   "key": "case065.morin.title",
+   "value": "Sylvie Morin — görüşme"
+  },
+  {
+   "key": "case065.offer.subtitle",
+   "value": "SİLO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case065.offer.summary",
+   "value": "Bir silo dönüşüm projesinin miras danışmanı, silonun dibinde bulundu; kask kamerasının kartı yoktu."
+  },
+  {
+   "key": "case065.offer.title",
+   "value": "DOSYA #065"
+  },
+  {
+   "key": "case065.person.beaulieu.info",
+   "value": "46 yaşında, silo dönüşüm projesinin proje müdürü."
+  },
+  {
+   "key": "case065.person.beaulieu.name",
+   "value": "Étienne Beaulieu"
+  },
+  {
+   "key": "case065.person.farah.info",
+   "value": "30 yaşında, miras koruma aktivisti."
+  },
+  {
+   "key": "case065.person.farah.name",
+   "value": "Farah Siddiqui"
+  },
+  {
+   "key": "case065.person.gendron.info",
+   "value": "23 yaşında, Eski Liman’daki bir restoranın garsonu."
+  },
+  {
+   "key": "case065.person.gendron.name",
+   "value": "Max Gendron"
+  },
+  {
+   "key": "case065.person.kwan.info",
+   "value": "38 yaşında, kurbanın fotoğrafçı ortağı."
+  },
+  {
+   "key": "case065.person.kwan.name",
+   "value": "Grace Kwan"
+  },
+  {
+   "key": "case065.person.morin.info",
+   "value": "61 yaşında, geliştirici şirketin genel müdürü."
+  },
+  {
+   "key": "case065.person.morin.name",
+   "value": "Sylvie Morin"
+  },
+  {
+   "key": "case065.person.rousseau.info",
+   "value": "59 yaşında, şantiyenin gece bekçisi."
+  },
+  {
+   "key": "case065.person.rousseau.name",
+   "value": "Alain Rousseau"
+  },
+  {
+   "key": "case065.receipt.body",
+   "value": "Étienne Beaulieu’nun kredi kartı hareketi, 20 Kasım:\n\n· 21.15 — Eski Liman’da bir restoran, iki kişilik akşam yemeği, 186 dolar. Fiş Étienne Beaulieu’nun ceket cebinde.\n· Restoran şantiyeye 600 metre."
+  },
+  {
+   "key": "case065.receipt.title",
+   "value": "RESTORAN FİŞİ VE KART HAREKETİ"
+  },
+  {
+   "key": "case065.report.body",
+   "value": "21 Kasım 2030 sabahı Eski Liman’daki Silo Lemoyne şantiyesinde, projenin miras danışmanı mimar Olivier Dufresne (52), silonun dibinde, en üst kattaki tahıl haznesinin otuz metre altında ölü bulundu. Kask kamerasında hafıza kartı yok.\n\nCesedi gece bekçisi Alain Rousseau sabah turunda 06.40’ta buldu. Projenin proje müdürü Étienne Beaulieu, genel müdürü Sylvie Morin ve kurbanın fotoğrafçı ortağı Grace Kwan sabah geldi. Miras aktivisti Farah Siddiqui o gece şantiyenin çevresinde görülmüştü."
+  },
+  {
+   "key": "case065.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case065.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case065.request.receipt",
+   "value": "Proje müdürünün kart hareketlerini iste"
+  },
+  {
+   "key": "case065.request.site",
+   "value": "Şantiye ofisini ve proje maketini aramak için izin iste"
+  },
+  {
+   "key": "case065.rousseau.body",
+   "value": "Gece bekçisi."
+  },
+  {
+   "key": "case065.rousseau.deflect",
+   "value": "Ben kapıdayım, içeriye bakmam."
+  },
+  {
+   "key": "case065.rousseau.gate.answer",
+   "value": "Mimar 21.00’de geldi, ‘ölçüm yapacağım, gece ışığı lazım’ dedi, kartını okuttu. Sonra bir kişi daha kartla girdi, ekranda yalnız ‘yönetim kartı’ yazar, ad yazmaz. Yönetim kartı üç kişide. Kapıya bir kamera bakıyor. Aktivist kız sık sık çitin dışında dolaşır, o gece de oradaydı, ama içeri girmedi."
+  },
+  {
+   "key": "case065.rousseau.gate.answer.demeanor",
+   "value": "Parkasının kapüşonunu indirip saçını düzeltiyor."
+  },
+  {
+   "key": "case065.rousseau.gate.question",
+   "value": "Gece şantiyeye kim girdi?"
+  },
+  {
+   "key": "case065.rousseau.title",
+   "value": "Alain Rousseau — görüşme"
+  },
+  {
+   "key": "case065.site.body",
+   "value": "Silo Lemoyne şantiye ofisi ve proje maketi (şube şefinin onayıyla):\n\n· Proje maketinin oyuk kaidesinde kurbanın kask kamerasının hafıza kartı; kartın son kaydı 21.44: hazne katında ahşap iskelet, sonra bir el, kamera sarsılıyor. Kartın kılıfında Étienne Beaulieu’nun parmak izi.\n· Yönetim kartları kayıtları: 21.38 girişi Étienne Beaulieu’nun kartı.\n· Masada Laurentide Réassurance’ın ‘miras uygunluğu’ teminat yazısı: ‘Rapor 25 Kasım’a kadar gelmezse poliçe askıya alınır.’"
+  },
+  {
+   "key": "case065.site.title",
+   "value": "ŞANTİYE OFİSİ VE PROJE MAKETİ — ARAMA"
+  },
+  {
+   "key": "case065.summary.evidence",
+   "value": "Restoran fişi yemdi: hesap ödendikten sonra masadan kalkılmıştı. Garson, genel müdür, fotoğrafçı ve kamera yarım saati doldurdu. Arama kartı maketin altında buldu."
+  },
+  {
+   "key": "case065.summary.lesson",
+   "value": "Fiş saatin doğrusunu söylüyordu. Tatlıyı beklemedi."
+  },
+  {
+   "key": "case065.summary.location",
+   "value": "Silo Lemoyne — Kasım 2030"
+  },
+  {
+   "key": "case065.summary.truth",
+   "value": "Silonun lüks konuta dönüşümü, ‘yıkılmış’ diye çizilen 1904 ahşap iskeletinin yokluğuna dayanıyordu. Miras danışmanı Olivier Dufresne iskeleti gece buldu ve kaskıyla kaydetti. Proje müdürü Étienne Beaulieu genel müdürle yemekteyken hesabı ödeyip siloya koştu, Olivier’in kolunu tutup kartı istedi; Olivier hazneden düştü. Étienne kartı proje maketinin kaidesine sakladı."
+  },
+  {
+   "key": "case065.suspect.label",
+   "value": "Olivier Dufresne’i kim öldürdü?"
+  },
+  {
+   "key": "case065.tablet.caseLine",
+   "value": "DOSYA #065  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case065.time.arch",
+   "value": "21.00"
+  },
+  {
+   "key": "case065.time.in",
+   "value": "21.38"
+  },
+  {
+   "key": "case065.time.msg",
+   "value": "21.41"
+  },
+  {
+   "key": "case065.time.out",
+   "value": "22.09"
+  },
+  {
+   "key": "case065.time.pay",
+   "value": "21.15"
+  },
+  {
+   "key": "case065.time.wait",
+   "value": "21.40"
+  },
+  {
+   "key": "case065.title",
+   "value": "Dosya #065 — Silo"
+  },
+  {
+   "key": "case065.verdict.accident",
+   "value": "Kimse — gece hazneden kaydı"
+  },
+  {
+   "key": "case065.verdict.beaulieu",
+   "value": "Étienne Beaulieu"
+  },
+  {
+   "key": "case065.verdict.farah",
+   "value": "Farah Siddiqui"
+  },
+  {
+   "key": "case065.verdict.morin",
+   "value": "Sylvie Morin"
+  }
+ ]
+}

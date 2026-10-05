@@ -1,0 +1,376 @@
+{
+ "entries": [
+  {
+   "key": "case061.anika.body",
+   "value": "Hokey oyuncusu."
+  },
+  {
+   "key": "case061.anika.deflect",
+   "value": "Ben sadece erken antrenmana geldim."
+  },
+  {
+   "key": "case061.anika.found.answer",
+   "value": "Kapının altından beyaz bir duman geliyordu, gözlerim yandı. Kapının yanındaki maskeyi almak istedim, askı boştu. Nefesimi tutup kapıyı açtım, Gilles yerdeydi. Vananın kolu yoktu, bunu sonra polise söyledim; çünkü Gilles bana kolları göstermişti, ‘bunlara dokunma’ demişti."
+  },
+  {
+   "key": "case061.anika.found.answer.demeanor",
+   "value": "Kaskını kucağında iki eliyle tutuyor."
+  },
+  {
+   "key": "case061.anika.found.question",
+   "value": "Ne gördün?"
+  },
+  {
+   "key": "case061.anika.title",
+   "value": "Anika Sharma — görüşme"
+  },
+  {
+   "key": "case061.autopsy.body",
+   "value": "· Ölüm nedeni: amonyak soluma; akciğer ödemi.\n· Sol şakakta küçük, yuvarlak bir darbe; düşüşle oluşmayacak kadar keskin. Bilinci kapalıyken gazı solumuş.\n· Ölüm zamanı: 22.00–23.30 (önceki gece)."
+  },
+  {
+   "key": "case061.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case061.clue.check",
+   "value": "Müdür deftere ‘vanalar normal’ yazıyor."
+  },
+  {
+   "key": "case061.clue.found",
+   "value": "Oyuncu kapının altından sızan buharı görüyor."
+  },
+  {
+   "key": "case061.clue.note",
+   "value": "Buz ustası deftere kompresörün eski olduğunu yazıyor."
+  },
+  {
+   "key": "case061.clue.source.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.clue.source.log",
+   "value": "Bakım defteri"
+  },
+  {
+   "key": "case061.custody.bin",
+   "value": "Soyunma odasının çöpüne"
+  },
+  {
+   "key": "case061.custody.drawer",
+   "value": "Müdürün masasının çekmecesine"
+  },
+  {
+   "key": "case061.custody.ice",
+   "value": "Pistin altındaki boru kanalına"
+  },
+  {
+   "key": "case061.custody.label",
+   "value": "Vananın kolu nereye gitti?"
+  },
+  {
+   "key": "case061.epilogue.custody.bin",
+   "value": "Çöp boştu."
+  },
+  {
+   "key": "case061.epilogue.custody.drawer",
+   "value": "Vana kolunun müdürün çekmecesinde bulunduğu yazıldı."
+  },
+  {
+   "key": "case061.epilogue.custody.ice",
+   "value": "Kanallar açıldı; kol yoktu."
+  },
+  {
+   "key": "case061.epilogue.verdict.accident",
+   "value": "Ölüm arıza sayıldı; pist bir hafta kapandı, sonra eski kompresörle açıldı."
+  },
+  {
+   "key": "case061.epilogue.verdict.anika",
+   "value": "Anika Sharma sorgulandı, takımdan ayrıldı; kol çekmecede kaldı."
+  },
+  {
+   "key": "case061.epilogue.verdict.lavoie",
+   "value": "Marc-André Lavoie tutuklandı; sahte yenileme belediyeye bildirildi. Laurentide Réassurance’ın ‘belediye altyapısı programı’ Mile End şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case061.epilogue.verdict.ouellet",
+   "value": "Denis Ouellet tutuklandı; eski kompresör çalışmaya devam etti."
+  },
+  {
+   "key": "case061.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case061.evidence.log",
+   "value": "Bakım defteri"
+  },
+  {
+   "key": "case061.evidence.office",
+   "value": "Müdürün odası araması"
+  },
+  {
+   "key": "case061.evidence.room",
+   "value": "Kompresör odası incelemesi"
+  },
+  {
+   "key": "case061.feedback.accident",
+   "value": "Vananın kolu sökülmüştü ve kapı dışarıdan kilitliydi."
+  },
+  {
+   "key": "case061.feedback.anika",
+   "value": "Oyuncu sabah geldi ve kapıyı açtı; ölüm önceki gece."
+  },
+  {
+   "key": "case061.feedback.lavoie",
+   "value": "Vananın kolu ve kayıp maske onun odasından çıktı; kolda onun izi var. Defterdeki ‘normal’ satırı ölüm saatinin içinde ve odaya anahtarla yalnız o ve kurban girebiliyordu."
+  },
+  {
+   "key": "case061.feedback.ouellet",
+   "value": "Antrenör kurbanla kavgalıydı, ama kompresör odasının anahtarı yok ve gece evindeydi."
+  },
+  {
+   "key": "case061.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case061.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case061.file.value.location",
+   "value": "Aréna du Parc, Mile End, Montreal"
+  },
+  {
+   "key": "case061.file.value.number",
+   "value": "BDM-MTL-2030-0206"
+  },
+  {
+   "key": "case061.file.value.offence",
+   "value": "Şüpheli ölüm — gaz"
+  },
+  {
+   "key": "case061.file.value.reporter",
+   "value": "Oyuncu"
+  },
+  {
+   "key": "case061.lavoie.body",
+   "value": "Pistin müdürü."
+  },
+  {
+   "key": "case061.lavoie.deflect",
+   "value": "Bu pist mahallenin; ben yalnız işletiyorum."
+  },
+  {
+   "key": "case061.lavoie.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case061.lavoie.end.decoy.log",
+   "value": "Deftere bakın: 21.40, ‘vanalar kontrol edildi, normal’. Benim imzam. Ben çıktığımda her şey yerindeydi."
+  },
+  {
+   "key": "case061.lavoie.end.presented.office",
+   "value": "Gilles kompresörün plakasını görmüştü, belediyeye yazacaktı. Yenileme parası… Laurentide’den bir adam ‘kimse eski kompresörün altına bakmaz’ demişti. Gilles baktı. Ona anahtarla vurdum, vanayı açtım, kolu söktüm, maskeyi aldım. Deftere ‘normal’ yazdım. O satırı yazarken elim titremedi bile."
+  },
+  {
+   "key": "case061.lavoie.end.question",
+   "value": "Gilles’i kompresör odasında siz bıraktınız."
+  },
+  {
+   "key": "case061.lavoie.night.answer",
+   "value": "Akşam kontrol turumu attım, her akşam olduğu gibi. Gilles yoktu o saatte. Yaşlıydı, belki vanayı kendisi açtı, belki bir arıza."
+  },
+  {
+   "key": "case061.lavoie.night.answer.demeanor",
+   "value": "Polarının fermuarını çeneye kadar çekiyor."
+  },
+  {
+   "key": "case061.lavoie.night.question",
+   "value": "Dün gece kompresör odasına girdiniz mi?"
+  },
+  {
+   "key": "case061.lavoie.title",
+   "value": "Marc-André Lavoie — görüşme"
+  },
+  {
+   "key": "case061.log.body",
+   "value": "Kompresör odasının bakım defteri, 5 Kasım:\n\n· 16.00 — G. Roy: ‘Ana hat basıncı yüksek. Yeni sistem diye takılan kompresör eski, etiketi değiştirilmiş. Müdüre söyleyeceğim.’\n· 21.40 — Marc-André Lavoie: ‘Vanalar kontrol edildi, normal.’\n\nKompresör odasına giriş kartla değil, anahtarla; anahtarlar müdürde ve buz ustasında."
+  },
+  {
+   "key": "case061.log.title",
+   "value": "KOMPRESÖR BAKIM DEFTERİ"
+  },
+  {
+   "key": "case061.method.ammonia",
+   "value": "Bayıltılıp amonyak vanası açık odaya kilitlendi"
+  },
+  {
+   "key": "case061.method.fall",
+   "value": "Kayıp başını çarptı"
+  },
+  {
+   "key": "case061.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case061.method.leak",
+   "value": "Kendiliğinden bir sızıntıda zehirlendi"
+  },
+  {
+   "key": "case061.offer.subtitle",
+   "value": "BUZ PİSTİ  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case061.offer.summary",
+   "value": "Otuz yıllık bir buz ustası, pistin kompresör odasında amonyakla öldü; vananın kolu yoktu."
+  },
+  {
+   "key": "case061.offer.title",
+   "value": "DOSYA #061"
+  },
+  {
+   "key": "case061.office.body",
+   "value": "Marc-André Lavoie’nin pistteki odası (şube şefinin onayıyla):\n\n· Masanın alt çekmecesinde tahliye vanasının kolu; kolun yuvasında amonyak kalıntısı, üzerinde Marc-André Lavoie’nin parmak izi.\n· Dolapta kompresör odasının acil durum maskesi.\n· Bir klasörde soğutma sistemi ‘yenileme’ faturası: 1,8 milyon dolar; sigortası Laurentide Réassurance, ‘belediye altyapısı programı’."
+  },
+  {
+   "key": "case061.office.title",
+   "value": "MÜDÜRÜN ODASI — ARAMA"
+  },
+  {
+   "key": "case061.ouellet.body",
+   "value": "Antrenör."
+  },
+  {
+   "key": "case061.ouellet.deflect",
+   "value": "Ben çocuklara paten öğretirim."
+  },
+  {
+   "key": "case061.ouellet.fight.answer",
+   "value": "Buz saatleri yüzünden; o hep yetişkin liglerine verirdi. Bağırdım, evet, geçen hafta herkesin önünde. Ama dün gece evdeydim, karım ve üç çocuğum var. Gilles bana bir şey söylemişti ama: ‘Marc-André’nin yenilemesi bir sahtekârlık, belediyeye yazacağım.’"
+  },
+  {
+   "key": "case061.ouellet.fight.answer.demeanor",
+   "value": "Düdüğünün ipini parmağına sarıyor."
+  },
+  {
+   "key": "case061.ouellet.fight.question",
+   "value": "Gilles’le neden kavgalıydınız?"
+  },
+  {
+   "key": "case061.ouellet.title",
+   "value": "Denis Ouellet — görüşme"
+  },
+  {
+   "key": "case061.person.anika.info",
+   "value": "16 yaşında, hokey oyuncusu; cesedi bulan."
+  },
+  {
+   "key": "case061.person.anika.name",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.person.lavoie.info",
+   "value": "49 yaşında, mahalle buz pistinin müdürü."
+  },
+  {
+   "key": "case061.person.lavoie.name",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.person.ouellet.info",
+   "value": "55 yaşında, gençlik hokey takımının antrenörü."
+  },
+  {
+   "key": "case061.person.ouellet.name",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.report.body",
+   "value": "6 Kasım 2030 sabahı Mile End’deki Aréna du Parc buz pistinin kompresör odasında buz ustası Gilles Roy (61) ölü bulundu. Odada yoğun amonyak; tahliye vanası açık, kolu yok.\n\nCesedi gençlik takımı oyuncusu Anika Sharma 06.10’da, kompresör odasının kapısının altından sızan beyaz buharı görünce buldu. Pistin müdürü Marc-André Lavoie ve antrenör Denis Ouellet 06.20’de geldi."
+  },
+  {
+   "key": "case061.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case061.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case061.request.log",
+   "value": "Kompresör bakım defterini iste"
+  },
+  {
+   "key": "case061.request.office",
+   "value": "Müdürün odasını aramak için izin iste"
+  },
+  {
+   "key": "case061.request.room",
+   "value": "Kompresör odasının incelenmesini iste"
+  },
+  {
+   "key": "case061.room.body",
+   "value": "· Tahliye vanası tamamen açık; kol sökülmüş. Kolsuz vana elle kapatılamıyor.\n· Kapı dışarıdan kilitli. Acil durum maskesi askısı boş; maske odanın içinde de yok.\n· ‘Yeni’ diye kayıtlı kompresörün plakası sökülüp yeniden perçinlenmiş; altındaki üretim yılı 1998."
+  },
+  {
+   "key": "case061.room.title",
+   "value": "KOMPRESÖR ODASI İNCELEMESİ"
+  },
+  {
+   "key": "case061.summary.evidence",
+   "value": "Defter bir yemdi: müdürün imzası onun odadaki son kişi olduğunu söylüyordu, temize çıktığını değil. Oda incelemesi ve antrenör aramayı açtırdı; arama kolu ve maskeyi buldu."
+  },
+  {
+   "key": "case061.summary.lesson",
+   "value": "‘Normal’ yazdı. Gilles’in bir önceki satırını silmeyi unuttu."
+  },
+  {
+   "key": "case061.summary.location",
+   "value": "Aréna du Parc — Kasım 2030"
+  },
+  {
+   "key": "case061.summary.truth",
+   "value": "Müdür Marc-André Lavoie pistin soğutma sistemini ‘yenilemiş’ gibi gösterip 1,8 milyon dolar aldı; takılan kompresör etiketi değiştirilmiş 1998 malıydı. Buz ustası Gilles Roy plakayı gördü ve belediyeye yazacaktı. Lavoie onu kompresör odasında bayılttı, amonyak vanasını açıp kolunu söktü, maskeyi alıp kapıyı kilitledi ve deftere ‘normal’ yazdı."
+  },
+  {
+   "key": "case061.suspect.label",
+   "value": "Gilles Roy’u kim öldürdü?"
+  },
+  {
+   "key": "case061.tablet.caseLine",
+   "value": "DOSYA #061  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case061.time.check",
+   "value": "21.40"
+  },
+  {
+   "key": "case061.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case061.time.note",
+   "value": "16.00"
+  },
+  {
+   "key": "case061.title",
+   "value": "Dosya #061 — Buz Pisti"
+  },
+  {
+   "key": "case061.verdict.accident",
+   "value": "Kimse — arıza"
+  },
+  {
+   "key": "case061.verdict.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.verdict.lavoie",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.verdict.ouellet",
+   "value": "Denis Ouellet"
+  }
+ ]
+}

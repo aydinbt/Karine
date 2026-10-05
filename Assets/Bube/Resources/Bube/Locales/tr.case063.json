@@ -1,0 +1,540 @@
+{
+ "entries": [
+  {
+   "key": "case063.adeyemi.body",
+   "value": "Ses mühendisi."
+  },
+  {
+   "key": "case063.adeyemi.deflect",
+   "value": "Benim işim ses, kablo değil."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer",
+   "value": "Ses kabloları benim, güç değil. Ses kontrolünde amfi doğrudan prizdeydi, adaptörsüz; fotoğrafını çekerim her gece, telefonumda. Arada ben bara gittim, Zoé bilir. Herkes beni suçlayacak, biliyorum."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer.demeanor",
+   "value": "Kulaklığını boynundan çıkarıp masaya koyuyor."
+  },
+  {
+   "key": "case063.adeyemi.rig.question",
+   "value": "Kablolar sizin sorumluluğunuzda mı?"
+  },
+  {
+   "key": "case063.adeyemi.title",
+   "value": "Tunde Adeyemi — görüşme"
+  },
+  {
+   "key": "case063.amara.body",
+   "value": "Şarkıcı."
+  },
+  {
+   "key": "case063.amara.deflect",
+   "value": "Ben şarkı söylüyordum."
+  },
+  {
+   "key": "case063.amara.mic.answer",
+   "value": "Benim mikrofonum. İkinci sette ben açacaktım, ama Théo ‘ilk şarkıyı Clifford söylesin, sürpriz’ dedi. Sehpayı amfinin yanına o itti, ‘ses daha iyi’ diye. Bunu şimdi düşünüyorum."
+  },
+  {
+   "key": "case063.amara.mic.answer.demeanor",
+   "value": "Saçındaki tokayı çıkarıp yeniden takıyor."
+  },
+  {
+   "key": "case063.amara.mic.question",
+   "value": "O mikrofon sizin miydi?"
+  },
+  {
+   "key": "case063.amara.title",
+   "value": "Amara Diallo — görüşme"
+  },
+  {
+   "key": "case063.autopsy.body",
+   "value": "· Ölüm nedeni: elektrik çarpmasına bağlı kalp ritim bozukluğu.\n· Giriş yanığı sol avuçta (mikrofon sehpası), çıkış yanığı sağ avuçta (amfi tutamağı): akım bir elden öbürüne, kalbin üstünden geçmiş.\n· Kurbanın kalbi yaşına göre sağlam.\n· Ölüm zamanı: 22.41."
+  },
+  {
+   "key": "case063.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case063.backstage.body",
+   "value": "Sahne arkası koridoru, güç dağıtım kutusu. 13 Kasım 22.15 – 23.00."
+  },
+  {
+   "key": "case063.backstage.title",
+   "value": "SAHNE ARKASI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case063.cctv.event.box",
+   "value": "Kamera: Koyu ceketli bir adam arada duvardaki güç kutusunu açıyor, omzunun üstünden geriye bakıyor."
+  },
+  {
+   "key": "case063.cctv.event.plug",
+   "value": "Kamera: Aynı adam sahne kenarındaki uzatma prizine çömeliyor, kalın bir kabloyla priz arasına küçük bir şey takıyor."
+  },
+  {
+   "key": "case063.cctv.event.pocket",
+   "value": "Kamera: Kargaşadan sonra aynı adam aynı prize yine çömeliyor, küçük bir şeyi ceketinin cebine atıyor."
+  },
+  {
+   "key": "case063.cctv.overlay",
+   "value": "SS-BACK"
+  },
+  {
+   "key": "case063.cctv.period",
+   "value": "13 Kasım 2030"
+  },
+  {
+   "key": "case063.cctv.source",
+   "value": "Sahne arkası kamerası"
+  },
+  {
+   "key": "case063.clue.box",
+   "value": "Koyu ceketli adam arada güç kutusunu açıyor."
+  },
+  {
+   "key": "case063.clue.plug",
+   "value": "Aynı adam sahne prizine küçük bir şey takıyor."
+  },
+  {
+   "key": "case063.clue.pocket",
+   "value": "Kargaşadan sonra aynı adam priza çömelip bir şeyi cebine atıyor."
+  },
+  {
+   "key": "case063.clue.song",
+   "value": "Clifford mikrofona eğilip ‘bu şarkı Théo’ya’ diyor; düşüyor."
+  },
+  {
+   "key": "case063.clue.source.nowak",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.custody.label",
+   "value": "Adaptör nereye gitti?"
+  },
+  {
+   "key": "case063.custody.safe",
+   "value": "Kulüp sahibinin kasasına"
+  },
+  {
+   "key": "case063.custody.sound",
+   "value": "Ses masasının çekmecesine"
+  },
+  {
+   "key": "case063.custody.trash",
+   "value": "Barın çöpüne"
+  },
+  {
+   "key": "case063.deschamps.body",
+   "value": "Emekli elektrikçi."
+  },
+  {
+   "key": "case063.deschamps.deflect",
+   "value": "Ben emekliyim, yalnız dinlerim."
+  },
+  {
+   "key": "case063.deschamps.help.answer",
+   "value": "Kırk yıl elektrikçilik. Adam düştü, önce sigortayı kestirdim, sonra kalp masajı. Ama şunu söyleyeyim: o amfi normal fişle kimseyi öldürmez. Arada topraklaması kesilmiş, kutupları ters bir adaptör olmalı. Ben düştükten sonra prize baktım; adaptör vardı. On dakika sonra tekrar baktım; yoktu."
+  },
+  {
+   "key": "case063.deschamps.help.answer.demeanor",
+   "value": "Bifokal gözlüğünü burnunun ucuna indiriyor."
+  },
+  {
+   "key": "case063.deschamps.help.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case063.deschamps.title",
+   "value": "Guy Deschamps — görüşme"
+  },
+  {
+   "key": "case063.epilogue.custody.safe",
+   "value": "Adaptörün kulüp sahibinin kasasında bulunduğu yazıldı."
+  },
+  {
+   "key": "case063.epilogue.custody.sound",
+   "value": "Ses masasında adaptör yoktu."
+  },
+  {
+   "key": "case063.epilogue.custody.trash",
+   "value": "Barın çöpü tek tek açıldı."
+  },
+  {
+   "key": "case063.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; Laurentide iki milyonu ödedi."
+  },
+  {
+   "key": "case063.epilogue.verdict.adeyemi",
+   "value": "Tunde Adeyemi tutuklandı; kulüp ertesi hafta yeniden açıldı."
+  },
+  {
+   "key": "case063.epilogue.verdict.jules",
+   "value": "Jules Baptiste tutuklandı; poliçe ödendi."
+  },
+  {
+   "key": "case063.epilogue.verdict.marchand",
+   "value": "Théo Marchand tutuklandı; poliçe iptal edildi. Laurentide Réassurance’ın ‘sanatçı kilit kişi’ programı Mile End şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case063.evidence.backstage",
+   "value": "Sahne arkası kamerası"
+  },
+  {
+   "key": "case063.evidence.inspect",
+   "value": "Elektrik denetim raporu"
+  },
+  {
+   "key": "case063.evidence.office",
+   "value": "Kulüp sahibinin odası araması"
+  },
+  {
+   "key": "case063.evidence.stage",
+   "value": "Sahne elektriği incelemesi"
+  },
+  {
+   "key": "case063.feedback.accident",
+   "value": "Amfinin fişi sağlamdı; arada bir adaptör takılıp sonra sökülmüştü."
+  },
+  {
+   "key": "case063.feedback.adeyemi",
+   "value": "Ses mühendisi aradayken bardaydı ve ses kontrolünde amfinin adaptörsüz olduğunun fotoğrafını çekmişti."
+  },
+  {
+   "key": "case063.feedback.jules",
+   "value": "Torun sahnedeydi ve mirası bir kontrbas ile kira borcu."
+  },
+  {
+   "key": "case063.feedback.marchand",
+   "value": "Adaptör onun kasasından, onun iziyle çıktı; kamera onu arada prize küçük bir şey takarken ve kargaşadan sonra cebine atarken gösteriyor. Elektrikçi adaptörü önce görüp sonra kaybolduğunu fark etti. Denetim raporu onu temize çıkarmıyor: raporu kendisi imzalamıştı."
+  },
+  {
+   "key": "case063.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case063.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case063.file.value.location",
+   "value": "Le Sous-Sol, Saint-Laurent Bulvarı, Montreal"
+  },
+  {
+   "key": "case063.file.value.number",
+   "value": "BDM-MTL-2030-0218"
+  },
+  {
+   "key": "case063.file.value.offence",
+   "value": "Şüpheli ölüm — elektrik"
+  },
+  {
+   "key": "case063.file.value.reporter",
+   "value": "Barmen"
+  },
+  {
+   "key": "case063.inspect.body",
+   "value": "Le Sous-Sol kulübünün elektrik güvenlik denetimi, 6 Kasım 2030:\n\n· Sahne topraklaması: uygun.\n· Uzatma prizleri: uygun.\n· Acil kesici: uygun.\n\nDenetimi yapan: ‘öz denetim’. İmza: Théo Marchand, işletme sahibi. Sigorta şirketinin ‘sanatçı kilit kişi’ poliçesi için istenen belge."
+  },
+  {
+   "key": "case063.inspect.title",
+   "value": "ELEKTRİK DENETİM RAPORU"
+  },
+  {
+   "key": "case063.jules.body",
+   "value": "Kurbanın torunu."
+  },
+  {
+   "key": "case063.jules.deflect",
+   "value": "Dedem bana sahnede durmayı öğretti."
+  },
+  {
+   "key": "case063.jules.grand.answer",
+   "value": "Théo ona bir kâğıt imzalatmıştı, ‘sigorta, kulüp için’ demiş. Dedem okumadı. Geçen hafta bir mektup geldi, poliçenin kendisi; ‘iki milyon dolar, lehtar Le Sous-Sol’. Dedem gülmedi. ‘Pazartesi Théo’yla konuşacağım, imzamı geri alacağım’ dedi. Mirası bana kalır, evet: bir kontrbas ve kira borcu."
+  },
+  {
+   "key": "case063.jules.grand.answer.demeanor",
+   "value": "Gevşek kravatını parmaklarının arasında düzeltiyor."
+  },
+  {
+   "key": "case063.jules.grand.question",
+   "value": "Dedeniz son günlerde neden huzursuzdu?"
+  },
+  {
+   "key": "case063.jules.title",
+   "value": "Jules Baptiste — görüşme"
+  },
+  {
+   "key": "case063.marchand.body",
+   "value": "Kulübün sahibi."
+  },
+  {
+   "key": "case063.marchand.deflect",
+   "value": "Bu kulüp kırk yıldır Montreal cazının evi."
+  },
+  {
+   "key": "case063.marchand.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case063.marchand.end.decoy.inspect",
+   "value": "Denetim raporu orada: sahne topraklaması uygun. Ben her şeyi yaptırdım. Bu bir kaza."
+  },
+  {
+   "key": "case063.marchand.end.presented.office",
+   "value": "Kulüp batıyordu. Laurentide’den bir adam ‘kilit kişi poliçesi, yaşlı müzisyenler için ideal’ dedi; raporu kendim imzaladım, adam ‘yeter’ dedi. Clifford pazartesi imzasını geri alacaktı. Adaptörü arada taktım, sehpayı yanına ittirdim. Kargaşada söktüm. Kasama koydum, çünkü atmaya kıyamadım: atarsam olmamış gibi olacaktı."
+  },
+  {
+   "key": "case063.marchand.end.question",
+   "value": "Adaptörü amfinin prizine siz taktınız."
+  },
+  {
+   "key": "case063.marchand.night.answer",
+   "value": "Sahibiyim, her yere giderim. Ama o an salonun en arkasındaydım, herkes gördü. Tunde’nin kabloları… ben ona kaç kere söyledim."
+  },
+  {
+   "key": "case063.marchand.night.answer.demeanor",
+   "value": "Kadife ceketinin yakasını düzeltiyor."
+  },
+  {
+   "key": "case063.marchand.night.question",
+   "value": "Arada sahne arkasına gittiniz mi?"
+  },
+  {
+   "key": "case063.marchand.title",
+   "value": "Théo Marchand — görüşme"
+  },
+  {
+   "key": "case063.method.heart",
+   "value": "Sahnede kalp krizi geçirdi"
+  },
+  {
+   "key": "case063.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case063.method.shock",
+   "value": "Topraklaması kesik adaptörle elektriklenen amfi ve mikrofonla çarpıldı"
+  },
+  {
+   "key": "case063.method.wiring",
+   "value": "Eski tesisat kısa devre yaptı"
+  },
+  {
+   "key": "case063.nowak.body",
+   "value": "Davulcu."
+  },
+  {
+   "key": "case063.nowak.deflect",
+   "value": "Ben arkadaydım, davulun arkasında."
+  },
+  {
+   "key": "case063.nowak.set.answer",
+   "value": "Clifford basını kaldırdı, mikrofona eğilip ‘bu şarkı Théo’ya’ dedi, şaka yollu, borcu var diye. Eli sehpada, öbürü amfide. Bir ses çıkardı. Ben davulun arkasından fırladım. Théo o an salonun arkasındaydı, en uzakta."
+  },
+  {
+   "key": "case063.nowak.set.answer.demeanor",
+   "value": "Bagetlerini dizinde yan yana diziyor."
+  },
+  {
+   "key": "case063.nowak.set.question",
+   "value": "İkinci setin başında ne oldu?"
+  },
+  {
+   "key": "case063.nowak.title",
+   "value": "Piotr Nowak — görüşme"
+  },
+  {
+   "key": "case063.offer.subtitle",
+   "value": "LE SOUS-SOL  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case063.offer.summary",
+   "value": "Yaşlı bir kontrbasçı, yetmiş kişinin önünde ikinci setin ilk notasında elektrik çarpmasıyla öldü."
+  },
+  {
+   "key": "case063.offer.title",
+   "value": "DOSYA #063"
+  },
+  {
+   "key": "case063.office.body",
+   "value": "Théo Marchand’ın kulüpteki odası ve kasası (şube şefinin onayıyla):\n\n· Kasada topraklama ucu kesilmiş, kutupları ters bağlanmış bir adaptör; prizdeki iz ve amfinin fişindeki yanıkla uyumlu, üzerinde Théo Marchand’ın parmak izi.\n· Masada Clifford Baptiste üzerine iki milyon dolarlık ‘sanatçı kilit kişi’ poliçesi; reasürans Laurentide Réassurance.\n· Üç aylık ödenmemiş maaş bordrosu."
+  },
+  {
+   "key": "case063.office.title",
+   "value": "KULÜP SAHİBİNİN ODASI — ARAMA"
+  },
+  {
+   "key": "case063.person.adeyemi.info",
+   "value": "39 yaşında, kulübün ses mühendisi."
+  },
+  {
+   "key": "case063.person.adeyemi.name",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.person.amara.info",
+   "value": "35 yaşında, grubun şarkıcısı."
+  },
+  {
+   "key": "case063.person.amara.name",
+   "value": "Amara Diallo"
+  },
+  {
+   "key": "case063.person.deschamps.info",
+   "value": "62 yaşında, emekli elektrikçi; kulübün müdavimi."
+  },
+  {
+   "key": "case063.person.deschamps.name",
+   "value": "Guy Deschamps"
+  },
+  {
+   "key": "case063.person.jules.info",
+   "value": "26 yaşında, kurbanın torunu; grubun piyanisti."
+  },
+  {
+   "key": "case063.person.jules.name",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.person.marchand.info",
+   "value": "48 yaşında, caz kulübünün sahibi."
+  },
+  {
+   "key": "case063.person.marchand.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.person.nowak.info",
+   "value": "44 yaşında, grubun davulcusu."
+  },
+  {
+   "key": "case063.person.nowak.name",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.person.zoe.info",
+   "value": "31 yaşında, barmen."
+  },
+  {
+   "key": "case063.person.zoe.name",
+   "value": "Zoé Lambert"
+  },
+  {
+   "key": "case063.report.body",
+   "value": "13 Kasım 2030 gecesi Saint-Laurent Bulvarı’ndaki Le Sous-Sol caz kulübünde kontrbasçı Clifford Baptiste (70), ikinci setin başında sahnede elektrik çarpmasıyla öldü.\n\nSahnede: piyanist Jules Baptiste (kurbanın torunu), davulcu Piotr Nowak, şarkıcı Amara Diallo. Ses mühendisi Tunde Adeyemi ses masasında, barmen Zoé Lambert bardaydı. Kulübün sahibi Théo Marchand salondaydı. Müdavim Guy Deschamps ilk müdahaleyi yaptı."
+  },
+  {
+   "key": "case063.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case063.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case063.request.inspect",
+   "value": "Kulübün elektrik denetim raporunu iste"
+  },
+  {
+   "key": "case063.request.office",
+   "value": "Kulüp sahibinin odasını aramak için izin iste"
+  },
+  {
+   "key": "case063.request.stage",
+   "value": "Sahne elektriğinin incelenmesini iste"
+  },
+  {
+   "key": "case063.stage.body",
+   "value": "· Bas amfisinin kasası elektrikli: amfinin fişi ile priz arasında bir adaptör kullanılmış olmalı; prizdeki iz ve amfinin fişindeki yanık bunu gösteriyor. Adaptör yerinde yok.\n· Amfinin kendi fişi sağlam, topraklama ucu yerinde: tek başına tehlikesiz.\n· Mikrofon sehpası topraklı; amfiye ve sehpaya aynı anda dokunan kişi devreyi tamamlıyor."
+  },
+  {
+   "key": "case063.stage.title",
+   "value": "SAHNE ELEKTRİĞİ İNCELEMESİ"
+  },
+  {
+   "key": "case063.summary.evidence",
+   "value": "Denetim raporu yemdi: sahibin kendi imzasıydı. Elektrikçi adaptörü, barmen kamerayı, şarkıcı ve davulcu sehpayla şakayı anlattı. Arama adaptörü kasada buldu."
+  },
+  {
+   "key": "case063.summary.lesson",
+   "value": "‘Bu şarkı Théo’ya.’ Son şarkı gerçekten onaydı."
+  },
+  {
+   "key": "case063.summary.location",
+   "value": "Le Sous-Sol — Kasım 2030"
+  },
+  {
+   "key": "case063.summary.truth",
+   "value": "Batmak üzere olan kulübün sahibi Théo Marchand, yaşlı kontrbasçı Clifford Baptiste’e okumadan bir kâğıt imzalattı: iki milyon dolarlık ‘kilit kişi’ poliçesi, lehtar kulüp; gerekli denetim raporunu kendisi imzaladı. Clifford imzasını geri almaya karar verdi. Théo arada amfinin prizine topraklaması kesik bir adaptör taktı, mikrofon sehpasını amfinin yanına ittirdi, kargaşada adaptörü söküp kasasına koydu."
+  },
+  {
+   "key": "case063.suspect.label",
+   "value": "Clifford Baptiste’i kim öldürdü?"
+  },
+  {
+   "key": "case063.tablet.caseLine",
+   "value": "DOSYA #063  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case063.time.box",
+   "value": "22.24"
+  },
+  {
+   "key": "case063.time.plug",
+   "value": "22.27"
+  },
+  {
+   "key": "case063.time.pocket",
+   "value": "22.52"
+  },
+  {
+   "key": "case063.time.song",
+   "value": "22.41"
+  },
+  {
+   "key": "case063.title",
+   "value": "Dosya #063 — Le Sous-Sol"
+  },
+  {
+   "key": "case063.verdict.accident",
+   "value": "Kimse — eski tesisat"
+  },
+  {
+   "key": "case063.verdict.adeyemi",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.verdict.jules",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.verdict.marchand",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.zoe.body",
+   "value": "Barmen."
+  },
+  {
+   "key": "case063.zoe.deflect",
+   "value": "Ben bardaydım, sahneye sırtım dönüktü."
+  },
+  {
+   "key": "case063.zoe.interval.answer",
+   "value": "Tunde arada barda bir su içti, benimle konuştu, on dakika. Grup dışarıda sigara içti. Patron sahne arkasına geçti; o koridora kamera bakıyor, sigorta şirketi istedi diye taktırdı. Bir şey: patron bu ay bana maaş ödemedi. Kimseye ödemedi."
+  },
+  {
+   "key": "case063.zoe.interval.answer.demeanor",
+   "value": "Önlüğünün ipini parmağına doluyor."
+  },
+  {
+   "key": "case063.zoe.interval.question",
+   "value": "Arada kim nereye gitti?"
+  },
+  {
+   "key": "case063.zoe.title",
+   "value": "Zoé Lambert — görüşme"
+  }
+ ]
+}

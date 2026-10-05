@@ -1,0 +1,375 @@
+{
+ "deskHour": 8,
+ "deskDate": "6 Kasım 2030",
+ "titleKey": "case061.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case061.report.title",
+   "bodyKey": "case061.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case061.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case061.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case061.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case061.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case061.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "autopsy",
+   "kind": "document",
+   "titleKey": "case061.autopsy.title",
+   "bodyKey": "case061.autopsy.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case061.request.autopsy",
+   "requestDelaySeconds": 7
+  },
+  {
+   "id": "anika",
+   "kind": "interview",
+   "titleKey": "case061.anika.title",
+   "bodyKey": "case061.anika.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "anika",
+   "personNameKey": "case061.person.anika.name",
+   "personInfoKey": "case061.person.anika.info",
+   "questions": [
+    {
+     "id": "case061.anika.found",
+     "promptKey": "case061.anika.found.question",
+     "answerKey": "case061.anika.found.answer",
+     "topicKey": "interview.topic.observations"
+    }
+   ],
+   "completionQuestionIds": [
+    "case061.anika.found"
+   ],
+   "deflectAnswerKey": "case061.anika.deflect",
+   "portrait": {
+    "hairHex": "#121010",
+    "skinHex": "#B88E6A",
+    "shirtHex": "#F0F0F0",
+    "longHair": true
+   }
+  },
+  {
+   "id": "log",
+   "kind": "document",
+   "titleKey": "case061.log.title",
+   "bodyKey": "case061.log.body",
+   "requires": [
+    "anika"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case061.request.log",
+   "requestDelaySeconds": 3
+  },
+  {
+   "id": "room",
+   "kind": "document",
+   "titleKey": "case061.room.title",
+   "bodyKey": "case061.room.body",
+   "requires": [
+    "log"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case061.request.room",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "ouellet",
+   "kind": "interview",
+   "titleKey": "case061.ouellet.title",
+   "bodyKey": "case061.ouellet.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "ouellet",
+   "personNameKey": "case061.person.ouellet.name",
+   "personInfoKey": "case061.person.ouellet.info",
+   "questions": [
+    {
+     "id": "case061.ouellet.fight",
+     "promptKey": "case061.ouellet.fight.question",
+     "answerKey": "case061.ouellet.fight.answer",
+     "topicKey": "interview.topic.relationships"
+    }
+   ],
+   "completionQuestionIds": [
+    "case061.ouellet.fight"
+   ],
+   "deflectAnswerKey": "case061.ouellet.deflect",
+   "portrait": {
+    "hairHex": "#9A9088",
+    "skinHex": "#E0BA9A",
+    "shirtHex": "#C82A2A"
+   }
+  },
+  {
+   "id": "lavoie",
+   "kind": "interview",
+   "titleKey": "case061.lavoie.title",
+   "bodyKey": "case061.lavoie.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "lavoie",
+   "personNameKey": "case061.person.lavoie.name",
+   "personInfoKey": "case061.person.lavoie.info",
+   "questions": [
+    {
+     "id": "case061.lavoie.night",
+     "promptKey": "case061.lavoie.night.question",
+     "answerKey": "case061.lavoie.night.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case061.lavoie.end",
+     "promptKey": "case061.lavoie.end.question",
+     "answerKey": "case061.lavoie.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "office"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "office",
+       "answerKey": "case061.lavoie.end.presented.office"
+      }
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "log",
+       "answerKey": "case061.lavoie.end.decoy.log"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case061.lavoie.night"
+   ],
+   "deflectAnswerKey": "case061.lavoie.deflect",
+   "portrait": {
+    "hairHex": "#3A2A1E",
+    "skinHex": "#E4C2A2",
+    "shirtHex": "#1A2A5A"
+   }
+  },
+  {
+   "id": "office",
+   "kind": "document",
+   "titleKey": "case061.office.title",
+   "bodyKey": "case061.office.body",
+   "requires": [
+    "room",
+    "ouellet"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case061.request.office",
+   "requestDelaySeconds": 6,
+   "warrant": [
+    {
+     "sources": [
+      "room",
+      "ouellet"
+     ]
+    },
+    {
+     "sources": [
+      "room",
+      "autopsy"
+     ]
+    },
+    {
+     "sources": [
+      "ouellet",
+      "autopsy"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "note",
+   "timeKey": "case061.time.note",
+   "noteKey": "case061.clue.note",
+   "sourceKey": "case061.clue.source.log",
+   "requiresRead": [
+    "log"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "check",
+   "timeKey": "case061.time.check",
+   "noteKey": "case061.clue.check",
+   "sourceKey": "case061.clue.source.log",
+   "requiresRead": [
+    "log"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "found",
+   "timeKey": "case061.time.found",
+   "noteKey": "case061.clue.found",
+   "sourceKey": "case061.clue.source.anika",
+   "requiresRead": [
+    "anika"
+   ],
+   "sortMinute": 240
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "lavoie",
+   "labelKey": "case061.verdict.lavoie",
+   "correct": true,
+   "feedbackKey": "case061.feedback.lavoie",
+   "requires": [],
+   "epilogueKey": "case061.epilogue.verdict.lavoie",
+   "supportingSourceIds": [
+    "office",
+    "room",
+    "ouellet"
+   ]
+  },
+  {
+   "id": "ouellet",
+   "labelKey": "case061.verdict.ouellet",
+   "correct": false,
+   "feedbackKey": "case061.feedback.ouellet",
+   "requires": [],
+   "epilogueKey": "case061.epilogue.verdict.ouellet"
+  },
+  {
+   "id": "anika",
+   "labelKey": "case061.verdict.anika",
+   "correct": false,
+   "feedbackKey": "case061.feedback.anika",
+   "requires": [],
+   "epilogueKey": "case061.epilogue.verdict.anika"
+  },
+  {
+   "id": "accident",
+   "labelKey": "case061.verdict.accident",
+   "correct": false,
+   "feedbackKey": "case061.feedback.accident",
+   "requires": [],
+   "epilogueKey": "case061.epilogue.verdict.accident"
+  }
+ ],
+ "methods": [
+  {
+   "id": "ammonia",
+   "labelKey": "case061.method.ammonia",
+   "correct": true,
+   "supportingSourceIds": [
+    "autopsy",
+    "room"
+   ]
+  },
+  {
+   "id": "leak",
+   "labelKey": "case061.method.leak",
+   "correct": false
+  },
+  {
+   "id": "fall",
+   "labelKey": "case061.method.fall",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "drawer",
+   "labelKey": "case061.custody.drawer",
+   "correct": true,
+   "epilogueKey": "case061.epilogue.custody.drawer",
+   "supportingSourceIds": [
+    "office",
+    "room"
+   ]
+  },
+  {
+   "id": "ice",
+   "labelKey": "case061.custody.ice",
+   "correct": false,
+   "epilogueKey": "case061.epilogue.custody.ice"
+  },
+  {
+   "id": "bin",
+   "labelKey": "case061.custody.bin",
+   "correct": false,
+   "epilogueKey": "case061.epilogue.custody.bin"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "office",
+   "labelKey": "case061.evidence.office",
+   "correct": true,
+   "supportingSourceIds": [
+    "office"
+   ]
+  },
+  {
+   "id": "room",
+   "labelKey": "case061.evidence.room",
+   "correct": false
+  },
+  {
+   "id": "log",
+   "labelKey": "case061.evidence.log",
+   "correct": false
+  },
+  {
+   "id": "autopsy",
+   "labelKey": "case061.evidence.autopsy",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case061.suspect.label",
+ "methodLabelKey": "case061.method.label",
+ "custodyLabelKey": "case061.custody.label",
+ "summary": {
+  "locationKey": "case061.summary.location",
+  "truthKey": "case061.summary.truth",
+  "evidenceKey": "case061.summary.evidence",
+  "lessonKey": "case061.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case062",
+ "ambienceId": "room_night",
+ "id": "case061"
+}

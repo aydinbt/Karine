@@ -1,0 +1,400 @@
+{
+ "entries": [
+  {
+   "key": "case064.autopsy.body",
+   "value": "· Ölüm nedeni: hipotermi ve boğulma; ağız ve burunda sıkışmış kar.\n· Göğüste geniş, düz bir ezik: bir kepçe ağzıyla uyumlu. Kaburgalar kırık.\n· Üfleme makinesinin yarası yok: makine cesede ulaşmadan durmuş.\n· Ölüm zamanı: 00.45–01.30."
+  },
+  {
+   "key": "case064.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case064.clue.found",
+   "value": "Üfleme sürücüsü kar yığınında kırmızı atkıyı görüyor."
+  },
+  {
+   "key": "case064.clue.photo",
+   "value": "Denetçinin tableti ara sokakta kepçeyi ve sürücüsünü fotoğraflıyor."
+  },
+  {
+   "key": "case064.clue.radio",
+   "value": "Patron telsizden ‘depodayım, kepçeyle tuz yükleyeceğim’ diyor."
+  },
+  {
+   "key": "case064.clue.source.depot",
+   "value": "Depo araması"
+  },
+  {
+   "key": "case064.clue.source.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.clue.source.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.custody.label",
+   "value": "Denetçinin tableti nereye gitti?"
+  },
+  {
+   "key": "case064.custody.salt",
+   "value": "Şirketin tuz kubbesindeki yığına"
+  },
+  {
+   "key": "case064.custody.snow",
+   "value": "Kar boşaltma sahasına"
+  },
+  {
+   "key": "case064.custody.truck",
+   "value": "Patronun kamyonetine"
+  },
+  {
+   "key": "case064.depot.body",
+   "value": "Şirketin deposu, tuz kubbesi ve Kepçe 2 (şube şefinin onayıyla):\n\n· Tuz kubbesindeki yığının içinde Isabelle Moreau’nun belediye tableti; kılıfında Serge Paquette’in parmak izi.\n· Kepçe 2’nin sürücü koltuğunda kırmızı yün lifleri; kurbanın atkısıyla aynı. Kepçenin GPS modülü sökülmüş, alet çantasında.\n· Tabletin son fotoğrafı 00.52: ara sokakta Kepçe 2, sürücü koltuğunda yeşil parkalı bir adam."
+  },
+  {
+   "key": "case064.depot.title",
+   "value": "ŞİRKET DEPOSU VE KEPÇE — ARAMA"
+  },
+  {
+   "key": "case064.epilogue.custody.salt",
+   "value": "Tabletin tuz kubbesinde bulunduğu yazıldı."
+  },
+  {
+   "key": "case064.epilogue.custody.snow",
+   "value": "Tablet kar sahasında değildi."
+  },
+  {
+   "key": "case064.epilogue.custody.truck",
+   "value": "Kamyonette tablet yoktu."
+  },
+  {
+   "key": "case064.epilogue.verdict.accident",
+   "value": "Ölüm fırtına kazası sayıldı; Laurentide teminatı ‘mücbir sebep’ diye ödedi."
+  },
+  {
+   "key": "case064.epilogue.verdict.oneill",
+   "value": "Ryan O’Neill tutuklandı; kepçe sonraki fırtınada yine çalıştı."
+  },
+  {
+   "key": "case064.epilogue.verdict.paquette",
+   "value": "Serge Paquette tutuklandı; şişirilmiş faturalar belediyeye bildirildi. Laurentide Réassurance’ın ihale teminatları Mile End şubesinin dosyasına girdi."
+  },
+  {
+   "key": "case064.epilogue.verdict.yusra",
+   "value": "Yusra Haddadi tutuklandı; tablet tuzda kaldı."
+  },
+  {
+   "key": "case064.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case064.evidence.depot",
+   "value": "Depo ve kepçe araması"
+  },
+  {
+   "key": "case064.evidence.gps",
+   "value": "Filo GPS dökümü"
+  },
+  {
+   "key": "case064.evidence.oneill",
+   "value": "Üfleme sürücüsünün ifadesi"
+  },
+  {
+   "key": "case064.feedback.accident",
+   "value": "Göğüsteki ezik bir kepçe ağzıyla uyumlu ve o sokağa kepçe atanmamıştı."
+  },
+  {
+   "key": "case064.feedback.oneill",
+   "value": "Üfleme sürücüsü ara sokağa 01.50’de girdi, ölümden sonra; makinesi cesede ulaşmadan durdu."
+  },
+  {
+   "key": "case064.feedback.paquette",
+   "value": "Denetçinin tableti onun tuz kubbesinden, onun iziyle çıktı; tabletin son fotoğrafı ara sokakta GPS’siz kepçeyi ve yeşil parkalı sürücüsünü gösteriyor. GPS dökümü onu temize çıkarmıyor: depoda duran kamyonetiydi, kendisi değil."
+  },
+  {
+   "key": "case064.feedback.yusra",
+   "value": "Sevk görevlisi bütün gece ekranın başındaydı."
+  },
+  {
+   "key": "case064.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case064.file.value.bureau",
+   "value": "BDM Montreal — Mile End Şubesi"
+  },
+  {
+   "key": "case064.file.value.location",
+   "value": "Rue Waverly arkası, Mile End, Montreal"
+  },
+  {
+   "key": "case064.file.value.number",
+   "value": "BDM-MTL-2030-0224"
+  },
+  {
+   "key": "case064.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case064.file.value.reporter",
+   "value": "Makine sürücüsü"
+  },
+  {
+   "key": "case064.gps.body",
+   "value": "Şirketin 16–17 Kasım gecesi GPS dökümü:\n\n· Üfleme 3 (Ryan O’Neill): Waverly güzergâhı, 01.50 ara sokağa giriş.\n· Kamyon 7 ve 9: kar boşaltma sahası arası.\n· Serge Paquette’in kamyoneti: 00.30–02.00 depoda, park.\n· Kepçe 2: sinyal yok (arıza kaydı 12 Ekim)."
+  },
+  {
+   "key": "case064.gps.title",
+   "value": "FİLO GPS DÖKÜMÜ"
+  },
+  {
+   "key": "case064.lachance.audit.answer",
+   "value": "Şirketin faturalarını kamyonların gerçek yükleriyle. Üç yıldır faturalanan karın yüzde kırkı hiç taşınmamış. Isabelle o gece fırtınada sahaya çıkıp kamyonları kendisi sayacaktı; ‘Paquette’e haber vermeden’ dedi. Tableti her şeyi kaydediyordu, fotoğraflar, plakalar. Tablet bulunmadı, değil mi?"
+  },
+  {
+   "key": "case064.lachance.audit.answer.demeanor",
+   "value": "Atkısını iki eliyle boynuna sarıyor."
+  },
+  {
+   "key": "case064.lachance.audit.question",
+   "value": "Isabelle neyi denetliyordu?"
+  },
+  {
+   "key": "case064.lachance.body",
+   "value": "Belediye denetçisi."
+  },
+  {
+   "key": "case064.lachance.deflect",
+   "value": "Biz denetçiyiz, kimseyi sevmeyiz."
+  },
+  {
+   "key": "case064.lachance.title",
+   "value": "Martine Lachance — görüşme"
+  },
+  {
+   "key": "case064.method.blower",
+   "value": "Kar üfleme makinesi çarptı"
+  },
+  {
+   "key": "case064.method.cold",
+   "value": "Fırtınada donarak öldü"
+  },
+  {
+   "key": "case064.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case064.method.loader",
+   "value": "Kepçenin ağzıyla itilip kar yığınına gömüldü"
+  },
+  {
+   "key": "case064.offer.subtitle",
+   "value": "KAR FIRTINASI  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case064.offer.summary",
+   "value": "Bir belediye denetçisi fırtına gecesi bir ara sokakta kar yığınının içinde bulundu."
+  },
+  {
+   "key": "case064.offer.title",
+   "value": "DOSYA #064"
+  },
+  {
+   "key": "case064.oneill.body",
+   "value": "Kar üfleme makinesinin sürücüsü."
+  },
+  {
+   "key": "case064.oneill.deflect",
+   "value": "Ben makineyi sürerim, sokak sokak."
+  },
+  {
+   "key": "case064.oneill.found.answer",
+   "value": "Yığın normalden yüksekti, sanki biri sokağın karını tek yere toplamış. Ben gelmeden bir kepçe geçmiş, izleri vardı; ama o sokağa kepçe atanmamıştı, sevk ekranında yok. Kırmızıyı gördüm, makineyi durdurdum. Bir saniye daha…"
+  },
+  {
+   "key": "case064.oneill.found.answer.demeanor",
+   "value": "Sakalındaki karı eldiveniyle silkeliyor."
+  },
+  {
+   "key": "case064.oneill.found.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case064.oneill.title",
+   "value": "Ryan O’Neill — görüşme"
+  },
+  {
+   "key": "case064.paquette.body",
+   "value": "Kar temizleme şirketinin sahibi."
+  },
+  {
+   "key": "case064.paquette.deflect",
+   "value": "Bu şehrin karını otuz yıldır ben kaldırıyorum."
+  },
+  {
+   "key": "case064.paquette.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case064.paquette.end.decoy.gps",
+   "value": "GPS’e bakın: kamyonetim on ikibuçuktan ikiye kadar depoda. Ben oradan hiç çıkmadım."
+  },
+  {
+   "key": "case064.paquette.end.presented.depot",
+   "value": "Kamyonetim depodaydı, ben değil. Kepçenin GPS’ini geçen ay ben söktüm. Isabelle ara sokakta kamyonları fotoğraflıyordu; kepçeyle yanına gittim, ‘konuşalım’ dedim, tabletini istemedi vermeye. Kepçenin ağzıyla ittim, karı üstüne yığdım. Tableti tuz yığınına gömdüm. Laurentide’nin teminatı ‘fırtına mücbir sebep’ diye öderdi zaten, herkes öyle derdi."
+  },
+  {
+   "key": "case064.paquette.end.question",
+   "value": "Isabelle’i kepçeyle kar yığınına siz gömdünüz."
+  },
+  {
+   "key": "case064.paquette.night.answer",
+   "value": "Depoda, tuz yükledim. Fırtına gecesi patron masada oturmaz. Denetçi fırtınada ara sokakta ne arıyordu? Kar yığınının yanında durursan olur böyle şeyler."
+  },
+  {
+   "key": "case064.paquette.night.answer.demeanor",
+   "value": "Şapkasının kulaklığını kaldırıp indiriyor."
+  },
+  {
+   "key": "case064.paquette.night.question",
+   "value": "Gece neredeydiniz?"
+  },
+  {
+   "key": "case064.paquette.title",
+   "value": "Serge Paquette — görüşme"
+  },
+  {
+   "key": "case064.person.lachance.info",
+   "value": "45 yaşında, belediye denetçisi; kurbanın iş arkadaşı."
+  },
+  {
+   "key": "case064.person.lachance.name",
+   "value": "Martine Lachance"
+  },
+  {
+   "key": "case064.person.oneill.info",
+   "value": "34 yaşında, kar üfleme makinesinin sürücüsü."
+  },
+  {
+   "key": "case064.person.oneill.name",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.person.paquette.info",
+   "value": "57 yaşında, kar temizleme şirketinin sahibi."
+  },
+  {
+   "key": "case064.person.paquette.name",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.person.yusra.info",
+   "value": "28 yaşında, şirketin gece sevk görevlisi."
+  },
+  {
+   "key": "case064.person.yusra.name",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.report.body",
+   "value": "17 Kasım 2030 gecesi Mile End’de, Rue Waverly’nin arkasındaki ara sokakta belediyenin kar temizleme denetçisi Isabelle Moreau (49), bir kar yığınının içinde ölü bulundu.\n\nCesedi kar üfleme makinesinin sürücüsü Ryan O’Neill 02.10’da, yığını kamyona püskürtürken kırmızı bir atkı görünce buldu. Kar temizleme şirketinin sahibi Serge Paquette ve sevk görevlisi Yusra Haddadi gece görevdeydi. Denetçinin iş arkadaşı Martine Lachance sabah geldi."
+  },
+  {
+   "key": "case064.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case064.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case064.request.depot",
+   "value": "Şirketin deposunu ve kepçeyi aramak için izin iste"
+  },
+  {
+   "key": "case064.request.gps",
+   "value": "Filonun GPS dökümünü iste"
+  },
+  {
+   "key": "case064.summary.evidence",
+   "value": "GPS dökümü yemdi: depoda duran kamyonetti, adam değil. Sevk görevlisi kepçenin sinyalsiz olduğunu, üfleme sürücüsü atanmamış kepçenin izini anlattı. Arama tableti ve son fotoğrafını buldu."
+  },
+  {
+   "key": "case064.summary.lesson",
+   "value": "GPS doğruyu söyledi: kamyonet hiç kıpırdamadı."
+  },
+  {
+   "key": "case064.summary.location",
+   "value": "Mile End — Kasım 2030"
+  },
+  {
+   "key": "case064.summary.truth",
+   "value": "Kar temizleme şirketinin sahibi Serge Paquette üç yıl boyunca taşınmayan karı belediyeye faturaladı. Denetçi Isabelle Moreau fırtına gecesi kamyonları kendisi saymaya çıktı. Paquette kamyonetini depoda bırakıp GPS’ini söktüğü kepçeyle ara sokağa gitti, Isabelle’i kepçenin ağzıyla itip karın altına gömdü ve tabletini tuz kubbesine sakladı."
+  },
+  {
+   "key": "case064.suspect.label",
+   "value": "Isabelle Moreau’yu kim öldürdü?"
+  },
+  {
+   "key": "case064.tablet.caseLine",
+   "value": "DOSYA #064  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case064.time.found",
+   "value": "02.10"
+  },
+  {
+   "key": "case064.time.photo",
+   "value": "00.52"
+  },
+  {
+   "key": "case064.time.radio",
+   "value": "00.30"
+  },
+  {
+   "key": "case064.title",
+   "value": "Dosya #064 — Kar Fırtınası"
+  },
+  {
+   "key": "case064.verdict.accident",
+   "value": "Kimse — fırtınada kar altında kaldı"
+  },
+  {
+   "key": "case064.verdict.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.verdict.paquette",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.verdict.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.yusra.body",
+   "value": "Gece sevk görevlisi."
+  },
+  {
+   "key": "case064.yusra.deflect",
+   "value": "Ben ekrana bakarım."
+  },
+  {
+   "key": "case064.yusra.screen.answer",
+   "value": "Ekranımda kamyonlar, üfleme makineleri, patronun kamyoneti var. Küçük kepçe ekranda yok; GPS’i geçen ay ‘arızalandı’, patron ‘tamir ettiririm’ dedi, ettirmedi. Gece 00.30’da patron telsizden ‘ben depodayım, kepçeyle tuz yükleyeceğim’ dedi. Bir saat sonra döndü, kepçenin ağzı tuzsuzdu."
+  },
+  {
+   "key": "case064.yusra.screen.answer.demeanor",
+   "value": "Kulaklığını boynunda düzeltiyor."
+  },
+  {
+   "key": "case064.yusra.screen.question",
+   "value": "Gece hangi araçlar nerede çalıştı?"
+  },
+  {
+   "key": "case064.yusra.title",
+   "value": "Yusra Haddadi — görüşme"
+  }
+ ]
+}
