@@ -123,6 +123,13 @@
    "requestDelaySeconds": 4,
    "requiresAsked": [
     "case032.bastien.round"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case032.item.badge.name",
+     "detailKey": "case032.item.badge.detail",
+     "imageResource": "Bube/Items/case032_badge"
+    }
    ]
   },
   {
@@ -254,6 +261,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case032.colette.letter"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case032.item.letter.name",
+     "detailKey": "case032.item.letter.detail",
+     "imageResource": "Bube/Items/case032_letter"
+    }
    ]
   },
   {
@@ -326,7 +340,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case032.item.bookend.name",
+     "detailKey": "case032.item.bookend.detail",
+     "imageResource": "Bube/Items/case032_bookend"
+    }
+   ]
   },
   {
    "id": "mercier_2",
