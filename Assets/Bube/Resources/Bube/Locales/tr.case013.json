@@ -1,0 +1,820 @@
+{
+ "entries": [
+  {
+   "key": "case013.alley.body",
+   "value": "Ashgrove Road 14’ün yan duvarına bakan bir garajın kamerası. 22 Mart 14.30 – 17.00 arası. Açı geniş; yüzler küçük ve seçilmiyor."
+  },
+  {
+   "key": "case013.alley.title",
+   "value": "YAN SOKAK GARAJ KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case013.autopsy.body",
+   "value": "· Kanda karboksihemoglobin %58. Ölüm sebebi: karbonmonoksit zehirlenmesi.\n· Cilt ve organlarda tipik kiraz kırmızısı renk.\n· Travma, savunma izi yok. Alkol 0,3 promil.\n· Tahmini ölüm zamanı: 23 Mart 01.00 – 04.00."
+  },
+  {
+   "key": "case013.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU — MARTIN HUGHES"
+  },
+  {
+   "key": "case013.cctv.event.ladder",
+   "value": "Kamera 01: Merdiven evin yan duvarına dayanıyor. Şapkalı, yelekli biri çıkıyor; kolunu duvardaki küçük ızgaraya uzatıyor, bir süre orada kalıyor. Yüz seçilmiyor."
+  },
+  {
+   "key": "case013.cctv.event.passer",
+   "value": "Kamera 01: Sokağın ucundan bir yaya geçiyor, merdivendekine el sallıyor. Merdivendeki başını sallıyor."
+  },
+  {
+   "key": "case013.cctv.event.van",
+   "value": "Kamera 01: Beyaz küçük bir servis aracı sokağın girişine park ediyor. Biri arka kapıdan katlanır bir merdiven çıkarıyor."
+  },
+  {
+   "key": "case013.cctv.event.van_out",
+   "value": "Kamera 01: Merdiven araca geri konuyor; araç uzaklaşıyor."
+  },
+  {
+   "key": "case013.cctv.overlay",
+   "value": "KAM 01"
+  },
+  {
+   "key": "case013.cctv.period",
+   "value": "22 Mart 2029, 14.30 – 17.00"
+  },
+  {
+   "key": "case013.cctv.source",
+   "value": "Yan sokak garaj kamerası"
+  },
+  {
+   "key": "case013.cert.body",
+   "value": "Ashgrove Road 14. Ev sahibinin dosyasındaki son sertifika.\n\nKontrol tarihi: 14 Şubat 2028\nGeçerlilik: 12 ay — 14 Şubat 2029’da sona erdi.\nCihazlar: kombi (mutfak), gaz sobası (3 no.), ocak.\nSonuç: güvenli.\n\nDosyada daha yeni bir sertifika yok."
+  },
+  {
+   "key": "case013.cert.title",
+   "value": "GAZ GÜVENLİK SERTİFİKASI — FOTOKOPİ"
+  },
+  {
+   "key": "case013.clue.alley_ladder",
+   "value": "Merdivendeki biri duvardaki ızgaraya uzanıyor."
+  },
+  {
+   "key": "case013.clue.death",
+   "value": "Martin odasında ölüyor."
+  },
+  {
+   "key": "case013.clue.found",
+   "value": "Tom 999’u arıyor."
+  },
+  {
+   "key": "case013.clue.key_in",
+   "value": "Anahtar iade ediliyor."
+  },
+  {
+   "key": "case013.clue.key_out",
+   "value": "Simon 3 numaranın anahtarını alıyor: “alarm pil kontrolü”."
+  },
+  {
+   "key": "case013.clue.moved",
+   "value": "Ellie evden ayrılıyor; Martin odaya geçiyor."
+  },
+  {
+   "key": "case013.clue.service",
+   "value": "Teknisyen bacayı temiz, alarmları çalışır buluyor."
+  },
+  {
+   "key": "case013.clue.source.autopsy",
+   "value": "Otopsi ön notu"
+  },
+  {
+   "key": "case013.clue.source.keylog",
+   "value": "Büro anahtar kaydı"
+  },
+  {
+   "key": "case013.clue.source.messages",
+   "value": "Ellie Ward’ın mesajları"
+  },
+  {
+   "key": "case013.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case013.clue.source.service",
+   "value": "Gaz servis raporu"
+  },
+  {
+   "key": "case013.clue.threat",
+   "value": "Ellie: “Yoksa Victor’a söyleyeceğim.”"
+  },
+  {
+   "key": "case013.custody.ellie",
+   "value": "Ellie Ward — Simon’u ihbar edecekti"
+  },
+  {
+   "key": "case013.custody.label",
+   "value": "Asıl hedef kimdi?"
+  },
+  {
+   "key": "case013.custody.martin",
+   "value": "Martin Hughes"
+  },
+  {
+   "key": "case013.custody.none",
+   "value": "Hedef yoktu"
+  },
+  {
+   "key": "case013.custody.tom",
+   "value": "Tom Becker"
+  },
+  {
+   "key": "case013.ellie.afraid.answer",
+   "value": "Bir mesaj yazdım. Sonra cevap geldi; ‘bunu yapma’ gibi bir şey. Sonra gece biri kapımın kolunu denedi. Ertesi sabah çıktım. Kimseye söylemedim, Martin’e bile."
+  },
+  {
+   "key": "case013.ellie.afraid.answer.demeanor",
+   "value": "Sesi kısıldı."
+  },
+  {
+   "key": "case013.ellie.afraid.question",
+   "value": "Birinden korkuyor muydunuz?"
+  },
+  {
+   "key": "case013.ellie.body",
+   "value": "Odanın kayıtlı kiracısıyla."
+  },
+  {
+   "key": "case013.ellie.deflect",
+   "value": "Bunu bilmiyorum. Ben oradan çıktım."
+  },
+  {
+   "key": "case013.ellie.quote",
+   "value": "“Martin öldü mü? Benim odamda mı?”"
+  },
+  {
+   "key": "case013.ellie.rent.answer",
+   "value": "Emlakçıya. Elden, nakit. Makbuz istedim, hep ‘sonra’ dedi. Ev sahibinin adını bile bana söylemedi; ben belediyeden öğrendim."
+  },
+  {
+   "key": "case013.ellie.rent.question",
+   "value": "Kirayı kime ödüyordunuz?"
+  },
+  {
+   "key": "case013.ellie.room.answer",
+   "value": "Ben… odayı ona verdim. Martin kafede birlikte çalıştığım biriydi, evinden çıkarılmıştı. Ben de gidecektim zaten. Kimseye söylemedik; kiramı ödedim, o bana öder diye konuştuk. Martin öldü mü? Benim odamda mı?"
+  },
+  {
+   "key": "case013.ellie.room.answer.demeanor",
+   "value": "Yüzü bembeyaz oldu."
+  },
+  {
+   "key": "case013.ellie.room.question",
+   "value": "3 numaralı oda size kayıtlı. Orada Martin Hughes neden kalıyordu?"
+  },
+  {
+   "key": "case013.ellie.title",
+   "value": "Ellie Ward — görüşme"
+  },
+  {
+   "key": "case013.ellie.why.answer",
+   "value": "Kişisel sebepler."
+  },
+  {
+   "key": "case013.ellie.why.answer.demeanor",
+   "value": "Gözlerini kaçırdı, ellerini kolunun altına sakladı."
+  },
+  {
+   "key": "case013.ellie.why.question",
+   "value": "Neden bu kadar aceleyle taşındınız?"
+  },
+  {
+   "key": "case013.epilogue.custody.ellie",
+   "value": "Ellie Ward duruşmada tanık oldu. Simon’un ‘Ellie’nin orada olmadığını mı söylüyorsunuz?’ cümlesi tutanaktan okundu. Ellie Martin’in cenazesine gitti; kimseyle konuşmadı."
+  },
+  {
+   "key": "case013.epilogue.custody.martin",
+   "value": "Savunma Simon’un Martin’i hiç tanımadığını kanıtladı; motif boşluğu yüzünden suçlama taksirle öldürmeye düştü."
+  },
+  {
+   "key": "case013.epilogue.custody.none",
+   "value": "Hedef aranmayınca dosya ihmal çerçevesinde kaldı; Simon’un neden o odaya girdiği açıklanmadı."
+  },
+  {
+   "key": "case013.epilogue.custody.tom",
+   "value": "Tom’un ne Simon’la ne de odayla bir bağı bulundu; bu soru dosyayı zayıflattı."
+  },
+  {
+   "key": "case013.epilogue.verdict.priya",
+   "value": "Teknisyenin lisansı soruşturma boyunca askıya alındı; sonra iade edildi. Asıl fail aranmadı."
+  },
+  {
+   "key": "case013.epilogue.verdict.simon",
+   "value": "Simon Pryce kasten öldürme ve dolandırıcılıktan tutuklandı. Bacadaki bezin büro aracındaki temizlik bezleriyle aynı partiden olduğu ortaya çıktı."
+  },
+  {
+   "key": "case013.epilogue.verdict.undetermined",
+   "value": "Dosya kaza olarak kapandı. Harbour Lettings evin yönetimini bir başka sorumluya devretti."
+  },
+  {
+   "key": "case013.epilogue.verdict.victor",
+   "value": "Victor Crane ihmalden yargılandı; teknisyen raporu ilk duruşmada suçlamayı düşürdü. Simon Pryce üç ev daha yönetmeye devam etti."
+  },
+  {
+   "key": "case013.evidence.alley",
+   "value": "Yan sokak kamerası"
+  },
+  {
+   "key": "case013.evidence.cert",
+   "value": "Süresi dolmuş gaz sertifikası"
+  },
+  {
+   "key": "case013.evidence.keylog",
+   "value": "Büronun anahtar ve ziyaret kaydı"
+  },
+  {
+   "key": "case013.evidence.ledger",
+   "value": "Kira defteri"
+  },
+  {
+   "key": "case013.evidence.service",
+   "value": "Gaz servis raporu"
+  },
+  {
+   "key": "case013.feedback.priya",
+   "value": "Priya’nın raporu, bacayı dışarıdan kontrol ettiğini yazıyor. Bez kuruydu ve isi yalnız iç yüzündeydi; yani servisten sonra, kısa süre önce konmuştu."
+  },
+  {
+   "key": "case013.feedback.simon",
+   "value": "9 Mart’ta temiz olan baca 23 Mart’ta bezle tıkalıydı. Arada odaya giren tek kayıtlı kişi 22 Mart’ta anahtarı alan Simon’dı; kamera ve Tom aynı saatte merdivende birini gösteriyor. Ellie onu Victor’a anlatmakla tehdit etmişti."
+  },
+  {
+   "key": "case013.feedback.undetermined",
+   "value": "Anahtar kaydı, kamera ve tanık 22 Mart öğleden sonra kimin bacaya uzandığını gösteriyordu."
+  },
+  {
+   "key": "case013.feedback.victor",
+   "value": "Sertifika eksiği gerçekti ama servis yapılmış, yeni sertifika büroya gitmişti. Victor’ın defterine göre o odada kimse yaşamıyordu; Ellie’yi tanımıyordu bile."
+  },
+  {
+   "key": "case013.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case013.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case013.file.value.location",
+   "value": "Deptford, Ashgrove Road 14 — 3 numaralı oda"
+  },
+  {
+   "key": "case013.file.value.number",
+   "value": "BDS-LDN-2029-0063"
+  },
+  {
+   "key": "case013.file.value.offence",
+   "value": "Şüpheli ölüm — karbonmonoksit"
+  },
+  {
+   "key": "case013.file.value.reporter",
+   "value": "Tom Becker, kiracı"
+  },
+  {
+   "key": "case013.keylog.body",
+   "value": "Bürodaki anahtar dolabının imzalı çizelgesi, Ashgrove Road 14, Mart 2029:\n\n9 Mart · 09.05 alındı / 12.40 iade · Simon Pryce · “gaz servisi — teknisyene kapı”\n22 Mart · 15.10 alındı / 16.05 iade · Simon Pryce · “3 no. alarm pil kontrolü”\n\nBaşka ziyaret kaydı yok. Büronun servis aracında katlanır bir merdiven bulunur."
+  },
+  {
+   "key": "case013.keylog.title",
+   "value": "HARBOUR LETTINGS — ANAHTAR VE ZİYARET KAYDI"
+  },
+  {
+   "key": "case013.ledger.body",
+   "value": "Emlak bürosunun ev sahibine aylık gönderdiği döküm.\n\nOcak 2029: 1 dolu · 2 dolu · 3 BOŞ · 4 dolu · 5 dolu · 6 boş\nŞubat 2029: 1 dolu · 2 dolu · 3 BOŞ · 4 dolu · 5 dolu · 6 boş\nMart 2029: 1 dolu · 2 dolu · 3 BOŞ · 4 dolu · 5 dolu · 6 boş\n\nAylık net: £3.120. Büro komisyonu düşülmüş."
+  },
+  {
+   "key": "case013.ledger.title",
+   "value": "KİRA DEFTERİ — ASHGROVE ROAD 14 (EV SAHİBİNE GİDEN)"
+  },
+  {
+   "key": "case013.messages.body",
+   "value": "Ellie Ward’ın telefonundan, kendi izniyle alınan yazışma. Karşı taraf: Simon Pryce (Harbour Lettings).\n\n18 Mart 19.40 · Ellie: Üç aydır elden kira veriyorum, tek makbuz yok. Ev sahibi Victor Crane’miş. Ona sorsam bu odayı biliyor mu?\n18 Mart 19.52 · Simon: Lütfen bunu yapma. Her şey kayıtlı. Yarın konuşalım.\n18 Mart 21.15 · Ellie: Makbuzları cuma gününe kadar istiyorum. Yoksa Victor’a söyleyeceğim.\n18 Mart 21.16 · Simon: Anlaştık. Cuma.\n\nSonrasında yazışma yok. Ellie 20 Mart’ta evden ayrıldı."
+  },
+  {
+   "key": "case013.messages.title",
+   "value": "ELLIE WARD — MESAJLAR"
+  },
+  {
+   "key": "case013.method.accident",
+   "value": "Kaza — baca kendiliğinden tıkandı"
+  },
+  {
+   "key": "case013.method.blocked",
+   "value": "Baca kasten tıkandı, alarmın pili söküldü"
+  },
+  {
+   "key": "case013.method.label",
+   "value": "Karbonmonoksit nasıl sızdı?"
+  },
+  {
+   "key": "case013.method.neglect",
+   "value": "Ev sahibinin ihmali — bakımsız soba"
+  },
+  {
+   "key": "case013.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case013.offer.subtitle",
+   "value": "KİRACI  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case013.offer.summary",
+   "value": "Deptford’da paylaşımlı bir kiralık evde bir adam, odasındaki sobadan sızan karbonmonoksitle ölü bulunuyor. Sertifikası dolmuş bir ev, şikâyetli bir ev sahibi. İlk not: ihmal."
+  },
+  {
+   "key": "case013.offer.title",
+   "value": "DOSYA #013"
+  },
+  {
+   "key": "case013.person.ellie.info",
+   "value": "26 yaşında, bir kafede vardiya sorumlusu. Ashgrove Road 14’ün 3 numaralı odasının kayıtlı kiracısı."
+  },
+  {
+   "key": "case013.person.ellie.name",
+   "value": "Ellie Ward"
+  },
+  {
+   "key": "case013.person.priya.info",
+   "value": "41 yaşında, serbest çalışan kayıtlı gaz teknisyeni."
+  },
+  {
+   "key": "case013.person.priya.name",
+   "value": "Priya Nair"
+  },
+  {
+   "key": "case013.person.simon.info",
+   "value": "35 yaşında, Crane’in evlerini yöneten Harbour Lettings bürosunda mülk sorumlusu."
+  },
+  {
+   "key": "case013.person.simon.name",
+   "value": "Simon Pryce"
+  },
+  {
+   "key": "case013.person.tom.info",
+   "value": "30 yaşında, kurye. Aynı evin 2 numaralı odasında kalıyor; olay gecesi hafif zehirlendi."
+  },
+  {
+   "key": "case013.person.tom.name",
+   "value": "Tom Becker"
+  },
+  {
+   "key": "case013.person.victor.info",
+   "value": "63 yaşında, Deptford ve Lewisham’da dokuz kiralık evin sahibi. Evleri bir emlak bürosu yönetiyor."
+  },
+  {
+   "key": "case013.person.victor.name",
+   "value": "Victor Crane"
+  },
+  {
+   "key": "case013.priya.body",
+   "value": "Gaz teknisyeninin ifadesi."
+  },
+  {
+   "key": "case013.priya.cert.answer",
+   "value": "Büroya. Beni arayan da onlardı, kapıyı açan da. Mülk sorumlusu — adı Simon’du. Ev sahibini hiç görmedim."
+  },
+  {
+   "key": "case013.priya.cert.question",
+   "value": "Sertifikayı kime verdiniz?"
+  },
+  {
+   "key": "case013.priya.cloth.answer",
+   "value": "Rüzgârla mı? Yirmi santim içeri, sıkıştırılmış hâlde? Hayır. Kuş yuvası olur, yaprak olur. Bez, birinin eliyle girer. Hem de 2,8 metreden; merdiven ister."
+  },
+  {
+   "key": "case013.priya.cloth.question",
+   "value": "Baca ağzına bir bez kendiliğinden girebilir mi?"
+  },
+  {
+   "key": "case013.priya.deflect",
+   "value": "Raporumda ne yazıyorsa o. Fazlasını uyduramam."
+  },
+  {
+   "key": "case013.priya.quote",
+   "value": "“Bez, birinin eliyle girer.”"
+  },
+  {
+   "key": "case013.priya.title",
+   "value": "Priya Nair — görüşme"
+  },
+  {
+   "key": "case013.priya.visit.answer",
+   "value": "Üç cihaz, iki alarm. Sobanın bacasına merdivenle çıkıp kendim baktım; temizdi, çekiş iyiydi. Alarmları denedim, ikisi de öttü. Raporda ne yazıyorsa, o gün gördüğüm o."
+  },
+  {
+   "key": "case013.priya.visit.question",
+   "value": "9 Mart’taki servisi anlatır mısınız?"
+  },
+  {
+   "key": "case013.report.body",
+   "value": "23 Mart 2029 saat 08.40’ta Deptford, Ashgrove Road 14’te kalan Tom Becker şiddetli baş ağrısı ve bulantıyla 999’u aradı. Gelen ekip evde gaz alarmı çalmadığını, ancak üst kattaki 3 numaralı odada karbonmonoksit ölçümünün çok yüksek olduğunu tespit etti.\n\nOdada yatakta hareketsiz bir erkek bulundu; olay yerinde öldüğü belirlendi. Cüzdanındaki kimliğe göre Martin Hughes (52). Odadaki gaz sobası açıktı, pencere kapalıydı.\n\nBecker hastaneye kaldırıldı; durumu iyi.\n\nDevriye notu: “Evin gaz güvenlik sertifikasının Şubat’ta dolduğu, ev sahibinin daha önce iki kez kiracı şikâyeti aldığı öğrenildi. İhmal ihtimali öncelikli.”"
+  },
+  {
+   "key": "case013.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case013.request.keylog",
+   "value": "Büronun anahtar ve ziyaret kaydını iste"
+  },
+  {
+   "key": "case013.request.messages",
+   "value": "Ellie Ward’ın emlakçıyla yazışmasını iste"
+  },
+  {
+   "key": "case013.request.scene",
+   "value": "Olay yeri inceleme notunu iste"
+  },
+  {
+   "key": "case013.request.service",
+   "value": "Evin son gaz servis raporunu iste"
+  },
+  {
+   "key": "case013.request.tenants",
+   "value": "Evin kiracı listesini iste"
+  },
+  {
+   "key": "case013.scene.body",
+   "value": "· Gaz sobası çalışır durumda; brülör temiz, alev ayarı normal.\n· Sobanın dış duvardaki baca ağzının içinde, yaklaşık 20 cm derinde sıkıştırılmış gri bir temizlik bezi. Bez kuru; is tabakası yalnız iç yüzünde. Baca bezle tamamen kapanmış.\n· Odadaki karbonmonoksit alarmı tavanda takılı; pil yuvası boş. Pil odada bulunamadı.\n· Pencere içeriden kilitli. Kapı kilitli değil.\n· Baca ağzı yan sokağa bakan duvarda, yerden yaklaşık 2,8 metre yükseklikte."
+  },
+  {
+   "key": "case013.scene.title",
+   "value": "OLAY YERİ İNCELEME NOTU — 3 NUMARALI ODA"
+  },
+  {
+   "key": "case013.service.body",
+   "value": "Kayıtlı teknisyen: Priya Nair. Adres: Ashgrove Road 14. Talep eden: emlak bürosu.\n\n· Kombi (mutfak): servis yapıldı, güvenli.\n· Gaz sobası (3 no.): yanma testi yapıldı, baca çekişi ölçüldü, baca ağzı dışarıdan kontrol edildi — temiz. Güvenli.\n· Ocak: güvenli.\n· CO alarmları: 3 no. ve mutfak, test düğmesiyle denendi, ötüyor.\n\nYeni gaz güvenlik sertifikası düzenlendi (9 Mart 2029 – 9 Mart 2030). Kopyası talep eden büroya postayla gönderildi."
+  },
+  {
+   "key": "case013.service.title",
+   "value": "GAZ SERVİS RAPORU — 9 MART 2029"
+  },
+  {
+   "key": "case013.simon.body",
+   "value": "Emlak bürosunun mülk sorumlusuyla."
+  },
+  {
+   "key": "case013.simon.deflect",
+   "value": "Bu bilgiye dosyaya bakmadan cevap veremem."
+  },
+  {
+   "key": "case013.simon.ellie.answer",
+   "value": "Makbuz meselesiydi. Sistemde gecikme vardı. Bana kızgındı, haklıydı da. Cuma görüşecektik."
+  },
+  {
+   "key": "case013.simon.ellie.answer.demeanor",
+   "value": "Gülümsemesini korudu ama kalemiyle masaya vurmaya başladı."
+  },
+  {
+   "key": "case013.simon.ellie.question",
+   "value": "Ellie Ward’la yazışmanızı açıklar mısınız?"
+  },
+  {
+   "key": "case013.simon.house.answer",
+   "value": "Evet, dokuz evle birlikte. Korkunç bir olay. Sertifika gecikmesi bizim hatamız olabilir, kabul ediyorum; teknisyenin kâğıdı postada kaybolmuş."
+  },
+  {
+   "key": "case013.simon.house.question",
+   "value": "Ashgrove Road 14’ü siz mi yönetiyorsunuz?"
+  },
+  {
+   "key": "case013.simon.quote",
+   "value": "“Odalara girmem.”"
+  },
+  {
+   "key": "case013.simon.title",
+   "value": "Simon Pryce — görüşme"
+  },
+  {
+   "key": "case013.simon.visit.answer",
+   "value": "Geçen hafta galiba, ortak alanlara bakmaya. Odalara girmem; kiracıların özel alanı."
+  },
+  {
+   "key": "case013.simon.visit.question",
+   "value": "Son ne zaman eve gittiniz?"
+  },
+  {
+   "key": "case013.simon_2.body",
+   "value": "Anahtar kaydı üzerine."
+  },
+  {
+   "key": "case013.simon_2.key.answer",
+   "value": "Ah, evet. Pil kontrolü. Rutin. Alarmlara bakıp çıktım. ‘Odalara girmem’ derken genel olarak demek istedim."
+  },
+  {
+   "key": "case013.simon_2.key.answer.demeanor",
+   "value": "Hızlı ve düz bir sesle konuştu."
+  },
+  {
+   "key": "case013.simon_2.key.question",
+   "value": "22 Mart’ta evdeydiniz."
+  },
+  {
+   "key": "case013.simon_2.ladder.answer",
+   "value": "Tavandaki alarm için, evet, araçtaki merdiveni aldım. Ne olmuş?"
+  },
+  {
+   "key": "case013.simon_2.ladder.question",
+   "value": "O gün merdiven kullandınız mı?"
+  },
+  {
+   "key": "case013.simon_2.room3.answer",
+   "value": "Boş odalara da bakarız. Güvenlik. Yangın yönetmeliği."
+  },
+  {
+   "key": "case013.simon_2.room3.answer.demeanor",
+   "value": "Bir saniye fazla sustu."
+  },
+  {
+   "key": "case013.simon_2.room3.question",
+   "value": "3 numarada pil kontrolü neden? Deftere göre oda boş."
+  },
+  {
+   "key": "case013.simon_2.title",
+   "value": "Simon Pryce — ikinci görüşme"
+  },
+  {
+   "key": "case013.simon_3.body",
+   "value": "Kira defteri, kamera ve mesajlar üzerine."
+  },
+  {
+   "key": "case013.simon_3.flue.answer",
+   "value": "Bacaya bakıyordum. Kuş yuvası şikâyeti vardı. Hiçbir şey koymadım."
+  },
+  {
+   "key": "case013.simon_3.flue.question",
+   "value": "Merdivende baca ağzında ne yapıyordunuz?"
+  },
+  {
+   "key": "case013.simon_3.rent.answer",
+   "value": "…Tamam. Odayı deftere yazmadım. Victor’ın haberi yoktu. Üç evde böyle birkaç oda. Bu dolandırıcılık, evet. Ama kimseyi öldürmedim."
+  },
+  {
+   "key": "case013.simon_3.rent.answer.demeanor",
+   "value": "Gözlüklerini çıkarıp masaya bıraktı."
+  },
+  {
+   "key": "case013.simon_3.rent.question",
+   "value": "Ellie üç aydır size nakit kira ödüyordu. Deftere göre oda boş."
+  },
+  {
+   "key": "case013.simon_3.slip.answer",
+   "value": "Tabii ki, Ellie’nin odası. Ellie… Ellie’nin orada olmadığını mı söylüyorsunuz? O zaman…"
+  },
+  {
+   "key": "case013.simon_3.slip.answer.demeanor",
+   "value": "Cümleyi bitirmedi. Rengi değişti."
+  },
+  {
+   "key": "case013.simon_3.slip.question",
+   "value": "Odada kimin uyuduğunu biliyor muydunuz?"
+  },
+  {
+   "key": "case013.simon_3.title",
+   "value": "Simon Pryce — üçüncü görüşme"
+  },
+  {
+   "key": "case013.summary.evidence",
+   "value": "Teknisyenin 9 Mart raporu bacayı temiz gösterdi; olay yerinde baca bezle tıkalıydı. Arada odaya giren tek kayıtlı kişi, anahtar kaydına göre Simon’dı. Kamera ve Tom merdivendeki kişiyi o saate koydu. Kira defteri ile kiracı listesi gizli kiralamayı, Ellie’nin mesajları motifi ortaya çıkardı."
+  },
+  {
+   "key": "case013.summary.lesson",
+   "value": "Bir kaydın tarihi, sonraki kaydın yanında anlam kazanır: sağlam bırakılan bir şeyin bozulduğu aralığa kimin girdiğine bak. Ölen kişi her zaman hedef değildir."
+  },
+  {
+   "key": "case013.summary.location",
+   "value": "Deptford, Ashgrove Road 14 — 22–23 Mart 2029"
+  },
+  {
+   "key": "case013.summary.truth",
+   "value": "Emlakçı Simon Pryce, Victor Crane’in evlerinde boş görünen odaları gizlice kiralayıp kirayı cebine koyuyordu. 3 numaranın kiracısı Ellie Ward bunu fark etti ve 18 Mart’ta Simon’u ev sahibine söylemekle tehdit etti. Korkan Ellie 20 Mart’ta odayı kimseye söylemeden iş arkadaşı Martin Hughes’a bırakıp gitti. 22 Mart’ta Simon anahtarı aldı, alarmın pilini söktü ve sobanın bacasını dışarıdan bezle tıkadı. Odada Ellie’nin uyuduğunu sanıyordu. Martin o gece sobayı yaktı ve öldü."
+  },
+  {
+   "key": "case013.suspect.label",
+   "value": "Martin’in ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case013.tablet.caseLine",
+   "value": "DOSYA #013  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case013.tenants.body",
+   "value": "Emlak bürosunun belediyeye bildirdiği çok kiracılı ev listesi. Ev sahibi: Victor Crane.\n\n1 · Joe Martins · Eylül 2027’den beri\n2 · Tom Becker · Mayıs 2028’den beri\n3 · Ellie Ward · Ocak 2029’dan beri\n4 · Ana Lopes · Kasım 2027’den beri\n5 · Rahim Uddin · Haziran 2028’den beri\n6 · boş\n\nMartin Hughes listede yok."
+  },
+  {
+   "key": "case013.tenants.title",
+   "value": "KİRACI LİSTESİ — ASHGROVE ROAD 14"
+  },
+  {
+   "key": "case013.time.death",
+   "value": "23 Mart 01–04"
+  },
+  {
+   "key": "case013.time.found",
+   "value": "23 Mart 08.40"
+  },
+  {
+   "key": "case013.time.key_in",
+   "value": "22 Mart 16.05"
+  },
+  {
+   "key": "case013.time.key_out",
+   "value": "22 Mart 15.10"
+  },
+  {
+   "key": "case013.time.ladder",
+   "value": "15.24"
+  },
+  {
+   "key": "case013.time.moved",
+   "value": "20 Mart"
+  },
+  {
+   "key": "case013.time.passer",
+   "value": "15.31"
+  },
+  {
+   "key": "case013.time.service",
+   "value": "9 Mart"
+  },
+  {
+   "key": "case013.time.threat",
+   "value": "18 Mart 21.15"
+  },
+  {
+   "key": "case013.time.van",
+   "value": "15.18"
+  },
+  {
+   "key": "case013.time.van_out",
+   "value": "16.02"
+  },
+  {
+   "key": "case013.title",
+   "value": "Dosya #013 — Kiracı"
+  },
+  {
+   "key": "case013.tom.body",
+   "value": "Hastanedeki kiracının ifadesi."
+  },
+  {
+   "key": "case013.tom.deflect",
+   "value": "Bilmiyorum, ben çoğu gün yoldayım."
+  },
+  {
+   "key": "case013.tom.martin.answer",
+   "value": "Üç gündür evdeydi. Ellie’nin odasına geçmişti. Ellie bir şey demedi, bir sabah çantasıyla gitti, ertesi gün bu adam geldi. Kibar biriydi. Sobayı hep açardı, üşürdü."
+  },
+  {
+   "key": "case013.tom.martin.question",
+   "value": "Martin Hughes’u tanır mıydınız?"
+  },
+  {
+   "key": "case013.tom.night.answer",
+   "value": "Gece yarısı gibi geldim, yattım. Sabah başım çatlıyordu, kusacak gibiydim. Alarmlar hiç ötmedi. Koridorda kendimi zor taşıdım, telefonu açtım."
+  },
+  {
+   "key": "case013.tom.night.question",
+   "value": "Dün gece ne oldu?"
+  },
+  {
+   "key": "case013.tom.quote",
+   "value": "“Alarmlar hiç ötmedi.”"
+  },
+  {
+   "key": "case013.tom.title",
+   "value": "Tom Becker — görüşme"
+  },
+  {
+   "key": "case013.tom.visit.answer",
+   "value": "Bilmem. Ben gündüz çalışırım. Bir gün öğleden sonra eve uğradığımda koridorda emlakçının anahtarlığını gördüm galiba, masada. Emin değilim, hangi gündü, hatırlamıyorum."
+  },
+  {
+   "key": "case013.tom.visit.question",
+   "value": "Son günlerde eve başka kim geldi?"
+  },
+  {
+   "key": "case013.tom_2.body",
+   "value": "Anahtar kaydı üzerine."
+  },
+  {
+   "key": "case013.tom_2.day.answer",
+   "value": "22 mi? Dur… Evet, perşembe. Öğle arası eve şarj aletimi almaya uğradım. Üç buçuk gibi. Yan sokakta duvara dayalı bir merdiven vardı, üstünde yelekli biri. ‘Emlakçı’ diye el salladım, o da başını salladı. Yüzüne bakmadım ki."
+  },
+  {
+   "key": "case013.tom_2.day.question",
+   "value": "22 Mart öğleden sonra neredeydiniz?"
+  },
+  {
+   "key": "case013.tom_2.title",
+   "value": "Tom Becker — ikinci görüşme"
+  },
+  {
+   "key": "case013.tom_2.where.answer",
+   "value": "Ellie’nin odasının hizasında. Yani Martin’in. Duvarda şu küçük ızgaralı delik var ya, onun altında."
+  },
+  {
+   "key": "case013.tom_2.where.question",
+   "value": "Merdiven tam olarak neredeydi?"
+  },
+  {
+   "key": "case013.verdict.priya",
+   "value": "Priya Nair"
+  },
+  {
+   "key": "case013.verdict.simon",
+   "value": "Simon Pryce"
+  },
+  {
+   "key": "case013.verdict.undetermined",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case013.verdict.victor",
+   "value": "Victor Crane"
+  },
+  {
+   "key": "case013.victor.body",
+   "value": "Ev sahibinin ifadesi."
+  },
+  {
+   "key": "case013.victor.cert.answer",
+   "value": "Yenilendi diye biliyorum! Büro ‘teknisyen geldi’ dedi. Kâğıt bana gelmedi, o ayrı. İşte dosyamdaki son kopya, alın bakın."
+  },
+  {
+   "key": "case013.victor.cert.question",
+   "value": "Gaz sertifikası neden yenilenmedi?"
+  },
+  {
+   "key": "case013.victor.deflect",
+   "value": "Bunu büroya sorun. Ben kiramı alırım, gerisi onların işi."
+  },
+  {
+   "key": "case013.victor.house.answer",
+   "value": "Eski bir ev, altı oda. Büro yönetir; ben ayda bir hesap dökümü alırım, o kadar. Şikâyetler mi? Kiracılar her şeyden şikâyet eder."
+  },
+  {
+   "key": "case013.victor.house.answer.demeanor",
+   "value": "Saatine baktı."
+  },
+  {
+   "key": "case013.victor.house.question",
+   "value": "Ashgrove Road 14’ü anlatır mısınız?"
+  },
+  {
+   "key": "case013.victor.quote",
+   "value": "“Kiracılar her şeyden şikâyet eder.”"
+  },
+  {
+   "key": "case013.victor.room3.answer",
+   "value": "Kimse. O oda Ocak’tan beri boş. Büro kiracı bulamadı dedi. Orada bir adam ne arıyordu, ben de bilmek isterim."
+  },
+  {
+   "key": "case013.victor.room3.answer.demeanor",
+   "value": "İlk kez gerçekten şaşırmış görünüyordu."
+  },
+  {
+   "key": "case013.victor.room3.question",
+   "value": "3 numaralı odada kim kalıyordu?"
+  },
+  {
+   "key": "case013.victor.title",
+   "value": "Victor Crane — görüşme"
+  },
+  {
+   "key": "case013.victor_2.body",
+   "value": "Kiracı listesi üzerine."
+  },
+  {
+   "key": "case013.victor_2.list.answer",
+   "value": "Bu liste benim değil. İşte büronun her ay bana yolladığı kira defteri. 3 numara Ocak’tan beri boş, kira yok. Ben o odadan tek kuruş almadım."
+  },
+  {
+   "key": "case013.victor_2.list.answer.demeanor",
+   "value": "Sinirle kâğıtları masaya bıraktı."
+  },
+  {
+   "key": "case013.victor_2.list.question",
+   "value": "Belediyeye bildirilen listede 3 numara dolu görünüyor."
+  },
+  {
+   "key": "case013.victor_2.title",
+   "value": "Victor Crane — ikinci görüşme"
+  },
+  {
+   "key": "case013.victor_2.who.answer",
+   "value": "Büro. Benim evlerimin hepsine bakan mülk sorumlusu. Dokuz ev, on yıl. Güvenirdim."
+  },
+  {
+   "key": "case013.victor_2.who.question",
+   "value": "Defteri kim hazırlıyor?"
+  }
+ ]
+}

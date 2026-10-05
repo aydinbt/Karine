@@ -35,7 +35,7 @@ public sealed class GalleryTests {
   foreach(var d in UnityEngine.Object.FindObjectsByType<UnityEngine.UIElements.UIDocument>(FindObjectsSortMode.None)){var ps=UnityEngine.Object.Instantiate(d.panelSettings);ps.targetTexture=rt;ps.clearColor=true;d.panelSettings=ps;}
   var cfg=(GameConfig)F("config");var loc=(Locale)F("locale");var rules=(CareerRules)F("careerRules");
 
-  foreach(var c in new[]{"case001","case002","case003","case004","case005","case006","case007","case008","case009","case010","case011","case012"}){
+  foreach(var c in new[]{"case001","case002","case003","case004","case005","case006","case007","case008","case009","case010","case011","case012","case013"}){
    var data=JsonUtility.FromJson<CaseData>(Resources.Load<TextAsset>("Bube/Cases/"+c).text);
    var game=new Investigation(data,null,null,rules){Text=loc};game.Career.activeCaseId=c;game.AcceptCase();
    typeof(BubeApp).GetField("game",Any).SetValue(app,game);

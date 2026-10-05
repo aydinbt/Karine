@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011 ve #012 veride)
+**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011–#013 veride)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -582,4 +582,9 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 - [x] Tasarım onaylandı: `Docs/CASE012_DESIGN.md` (biniş dökümünden zaman çizelgesi; dört katmanlı sürpriz: Kieran → ·4417 → Owen ölür → Helen).
 - [~] Veri: `case012.json` (24 düğüm), `tr.case012.json` (250 metin), `Case012Rules`; #011 → #012 zinciri, `Worlds.json` UK ikinci yuvası. 126/126 EditMode, 26 PlayMode + 1 atlandı. Play Mode'da oynanmadı.
 - [ ] Görseller: `Docs/CASE012_PROMPTS.md` — 5 portre ve 4 adli bulgu (Gemini), kapak ve 3 CCTV karesi (ChatGPT). CCTV gelince `street#runner` olayına `framePaths`.
+
+## 5 Ekim 2026 — Birleşik Krallık: Dosya #013 "Kiracı"
+- [x] Tasarım onaylandı: `Docs/CASE013_DESIGN.md` (bakım kayıtları; katmanlar: ihmal → kasıt → yanlış kurban → gizli kiralama).
+- [~] Veri: `case013.json` (19 düğüm), `tr.case013.json` (204 metin), `Case013Rules`; #012 → #013 zinciri, UK üçüncü yuva. Çok günlü çizelge sırası korunarak 0–1439 aralığına sıkıştırıldı (doğrulayıcı tek gün ister). 126/126 EditMode, 26 PlayMode + 1 atlandı. Play Mode'da oynanmadı.
+- [ ] Görseller: `Docs/CASE013_PROMPTS.md`. CCTV gelince `alley#ladder` olayına `framePaths`.
 

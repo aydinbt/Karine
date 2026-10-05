@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim (gece, 2):** **Dosya #013 "Kiracı"** veride: paylaşımlı evde karbonmonoksit. Bakım kayıtları (sertifika, servis raporu, anahtar kaydı) kaza/ihmal/kasıt ayrımını oyuncuya bırakır. Katmanlar: ihmal → bacada bez → ölen kişi kiracı değil, hedef Ellie → emlakçı Simon odayı ev sahibinden gizleyip kiralıyordu. 19 düğüm, 204 metin; UK üçüncü yuva. Testler yeşil; oynanmadı.
+
 **5 Ekim (gece):** **Dosya #012 "Son Sefer Değil"** veride: gece otobüsünde saldırı, biniş dökümünden zaman çizelgesi (yalnız biniş okutulur; adsız ·4417 kartını banka hareketleri Liam'a bağlar). Kullanıcı isteğiyle dört katmanlı sürpriz: kavgacı genç → adsız kart → kurban ölür, dosya cinayete döner → ihbarı yaptıran amir Helen. Rapor: Liam + kışkırtma + Helen + banka hareketleri. 24 düğüm, 250 metin; UK ikinci yuvası. Testler yeşil; Unity'de oynanmadı. Bekleyen: #011 ve #012 görselleri.
 
 **5 Ekim (akşam):** **Birleşik Krallık bölümü başladı.** Ülke başına on dosya kanonlaştı. **Dosya #011 "Sis Altında"** (Rotherhithe, rıhtımda ölüm; özet ile tam döküm) veriye girdi: 21 düğüm, 217 metin, #010'un ardından zincirde, UK'nin ilk yuvasında. Testler yeşil; Unity'de oynanmadı. Bekleyen: portreler ve adli görseller (Gemini), kapak ve CCTV kareleri (ChatGPT), dünya geçişi sırası.
