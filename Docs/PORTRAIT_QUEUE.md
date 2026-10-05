@@ -472,25 +472,25 @@ A 57-year-old French man, tall and lean, iron-grey hair cut close, hawk-like nos
 
 ## Dosya #037 (4)
 
-71. **Clémence Roux** → `clemence.png`
+71. **Clémence Roux** → `clemence.png` ✅
 
 ```
 A 41-year-old French woman, sleek black bob with a sharp fringe, pale skin, red lipstick, intense tired dark eyes. Oversized ivory linen shirt, a pincushion bracelet on her wrist. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-72. **Baptiste Lenoir** → `lenoir.png`
+72. **Baptiste Lenoir** → `lenoir.png` ✅
 
 ```
 A 49-year-old French man, neatly combed brown hair greying at the sides, clean-shaven, smooth charming face, slightly too-white teeth. Midnight navy suit, light grey shirt, a thin silk pocket square. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-73. **Fatou Diallo** → `diallo.png`
+73. **Fatou Diallo** → `diallo.png` ✅
 
 ```
 A 36-year-old Senegalese-French woman, dark hair wrapped in a patterned orange and brown headscarf, warm brown skin, red-rimmed grieving eyes, a measuring tape around her neck. Burnt-orange work smock. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-74. **Serge Aubert** → `aubert.png`
+74. **Serge Aubert** → `aubert.png` ✅
 
 ```
 A 61-year-old French man, short grey hair, heavy jowls, bushy eyebrows, patient tired eyes. Dark green security guard jumper with shoulder patches, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
