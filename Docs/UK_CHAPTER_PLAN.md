@@ -18,7 +18,7 @@ Dünya 2 açılış sinematiği (`worldIntros`): Bora'nın Londra'ya varışı, 
 | 013 | Kiracı | paylaşımlı evde karbonmonoksit | Bakım/servis kayıtları; kaza ile ihmal ayrımı |
 | 014 | İkinci Görüş | müzayedede sahte tablo | Çelişen uzman raporları; ikinci uzman talebi |
 | 015 | Kapanış Saati | pub önünde ölüm, örtbas | Olay Yeri Planı (görüş hattı) |
-| 016 | *seçilecek* | — | Aday: Daktilo (el yazısı/daktilo karşılaştırması), Başkasının Adı (para izi + kimlik belgeleri), Manşet (zamanla değişen haber baskıları). Gece Vardiyası #012'nin hastane/ilaç hattına çok yakın, düştü. |
+| 016 | Başkasının Adı | kanalda ölüm, kimlik dolandırıcılığı | Para izi + kimlik kayıtları; ölen adam kim? |
 | 017 | Köprü | **bölüm finali** | Önceki yeteneklerin birleşimi; #015 devir yazısındaki irtibat amiri tohumu; final sinematiği, Almanya'yı açar |
 
 Her dosya kendi içinde kapanır; ortak örgüt yok. Adlar Türkiye bölümündekilere benzemez. CCTV yalnız seyri değiştiren olaylara, olay başına üç kare.
