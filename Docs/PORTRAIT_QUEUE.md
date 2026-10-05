@@ -12,19 +12,19 @@ Kontrol listesi: önden bakış, göz teması, omuzlardan yukarı, eller yok, ya
 
 ## Dosya #018 (3)
 
-1. **Markus Vogt** → `markus.png`
+1. **Markus Vogt** → `markus.png` ✅
 
 ```
 A 38-year-old German man, short light-brown hair, tense jaw, controlled stare, a scrape on his knuckles. Grey hoodie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-2. **Lena Vogt** → `lena.png`
+2. **Lena Vogt** → `lena.png` ✅
 
 ```
 A 34-year-old German woman, dark-blonde hair loose, faint old bruise near the collarbone, exhausted but resolute eyes. Mauve sweater. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-3. **Selin Aras** → `selin.png`
+3. **Selin Aras** → `selin.png` ✅
 
 ```
 A 35-year-old Turkish-German woman, dark hair in a low ponytail, glasses, embarrassed professional expression. Navy blazer. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
