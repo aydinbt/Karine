@@ -966,43 +966,43 @@ A 33-year-old Italian man, brown hair under a hard hat pushed back, tired young 
 
 ## Dosya #053 (7)
 
-148. **Joaquín Ortega** → `joaquin.png`
+148. **Joaquín Ortega** → `joaquin.png` ✅
 
 ```
 A 63-year-old Andalusian man, silver hair swept back with gel, a trimmed silver goatee, heavy gold rings, hooded watchful dark eyes. Black shirt buttoned to the collar under a black velvet jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-149. **Macarena Flores** → `triana.png`
+149. **Macarena Flores** → `triana.png` ✅
 
 ```
 A 29-year-old Andalusian flamenco dancer, glossy black hair in a tight bun with a red carnation, bold red lips, fierce proud dark eyes. A red polka-dot flamenco dress with ruffled sleeves. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-150. **Curro Amaya** → `curro.png`
+150. **Curro Amaya** → `curro.png` ✅
 
 ```
 A 58-year-old Spanish Roma flamenco singer, greying black curly hair, heavy-lidded sad eyes, a deep-lined weathered face. Dark grey suit jacket over an open-collared shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-151. **Inés Montoya** → `montoya.png`
+151. **Inés Montoya** → `montoya.png` ✅
 
 ```
 A 34-year-old Spanish woman, dark brown hair in a sleek low ponytail, sharp intelligent eyes red from crying, minimal makeup. A charcoal lawyer's blazer over a black top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-152. **Pilar Ruiz** → `pilar.png`
+152. **Pilar Ruiz** → `pilar.png` ✅
 
 ```
 A 71-year-old Andalusian woman, white hair in a bun, reading glasses on a chain, a thimble on one finger, knowing tired eyes. A dark purple cardigan with pins stuck in the lapel. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-153. **Mateo Santos** → `mateo.png`
+153. **Mateo Santos** → `mateo.png` ✅
 
 ```
 A 26-year-old Spanish man, short black hair with a fade, a small earring, quick friendly eyes. White bartender shirt with rolled sleeves and a black waistcoat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-154. **Elif Kaya** → `kaya.png`
+154. **Elif Kaya** → `kaya.png` ✅
 
 ```
 A 31-year-old Turkish woman, long dark brown wavy hair loose, warm brown eyes, nervous careful smile. A navy blue rehearsal top with a flamenco practice skirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
