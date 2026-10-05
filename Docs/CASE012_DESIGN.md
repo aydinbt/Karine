@@ -74,4 +74,4 @@ Faksta akıbet: Liam cinayetten, Helen azmettirme ve ilaç hırsızlığından y
 Kayıt neyi tuttuğu kadar neyi tutmadığıyla da konuşur: yalnız biniş okutulur, iniş yazmaz; temiz bir kart, kişinin orada olmadığını göstermez. Kavga etmek saldırmak değildir. Vuranı bulmak dosyayı kapatmaz: kimin, neden vurdurduğuna bak.
 
 ## Görseller (onaydan sonra prompt dosyası)
-Portreler (Gemini): Liam, Kieran, Ade, Nadia, Helen — Owen komada, portre yok. Adli bulgular (Gemini): Owen'ın kırık ekranlı telefonu, ilaç dolabı sayım çizelgesi, bisiklet kilidi (Canal Bridge çöpünden), bantlı kamera lensi, üst kat koltuk. Kapak (ChatGPT): yağmurlu gece, boş çift katlı otobüs üst katı. CCTV (ChatGPT): Canal Bridge 01.49, 3 kare.
+Portreler (Gemini): Liam, Kieran, Adebayo, Nadia, Helen — Owen komada, portre yok. Adli bulgular (Gemini): Owen'ın kırık ekranlı telefonu, ilaç dolabı sayım çizelgesi, bisiklet kilidi (Canal Bridge çöpünden), bantlı kamera lensi, üst kat koltuk. Kapak (ChatGPT): yağmurlu gece, boş çift katlı otobüs üst katı. CCTV (ChatGPT): Canal Bridge 01.49, 3 kare.
