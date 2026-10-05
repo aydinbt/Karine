@@ -153,15 +153,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #042 (3)
 91. **İsli bez** → `case042_rag.png` ✅
 92. **Egzoz borusu** → `case042_pipe.png` ✅
-93. **Kırık dorse mührü** → `case042_seal.png`
+93. **Kırık dorse mührü** → `case042_seal.png` ✅
 
 ## Dosya #043 (3)
-94. **Köprü kablosu** → `case043_jumper.png`
-95. **Mikrofon standı** → `case043_stand.png`
-96. **Nakit zarfları** → `case043_cash.png`
+94. **Köprü kablosu** → `case043_jumper.png` ✅
+95. **Mikrofon standı** → `case043_stand.png` ✅
+96. **Nakit zarfları** → `case043_cash.png` ✅
 
 ## Dosya #044 (3)
-97. **Can yeleği** → `case044_vest.png`
+97. **Can yeleği** → `case044_vest.png` ✅
 98. **Vinç kolu** → `case044_winch.png`
 99. **CO₂ kartuşu** → `case044_cartridge.png`
 

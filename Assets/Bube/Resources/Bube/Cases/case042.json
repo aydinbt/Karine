@@ -241,7 +241,14 @@
    "requestable": true,
    "requestLabelKey": "case042.request.eld",
    "requestDelaySeconds": 5,
-   "line": "line_truck"
+   "line": "line_truck",
+   "relatedItems": [
+    {
+     "nameKey": "case042.item.seal.name",
+     "detailKey": "case042.item.seal.detail",
+     "imageResource": "Bube/Items/case042_seal"
+    }
+   ]
   },
   {
    "id": "ragcheck",

@@ -41,6 +41,13 @@
    "bodyKey": "case043.autopsy.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case043.item.stand.name",
+     "detailKey": "case043.item.stand.detail",
+     "imageResource": "Bube/Items/case043_stand"
+    }
    ]
   },
   {
@@ -289,7 +296,19 @@
    "requestable": true,
    "requestLabelKey": "case043.request.elec",
    "requestDelaySeconds": 5,
-   "line": "line_elec"
+   "line": "line_elec",
+   "relatedItems": [
+    {
+     "nameKey": "case043.item.jumper.name",
+     "detailKey": "case043.item.jumper.detail",
+     "imageResource": "Bube/Items/case043_jumper"
+    },
+    {
+     "nameKey": "case043.item.cash.name",
+     "detailKey": "case043.item.cash.detail",
+     "imageResource": "Bube/Items/case043_cash"
+    }
+   ]
   },
   {
    "id": "line_cash",

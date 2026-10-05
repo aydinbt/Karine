@@ -328,7 +328,14 @@
    "requestable": true,
    "requestLabelKey": "case044.request.boat",
    "requestDelaySeconds": 6,
-   "line": "line_boat"
+   "line": "line_boat",
+   "relatedItems": [
+    {
+     "nameKey": "case044.item.vest.name",
+     "detailKey": "case044.item.vest.detail",
+     "imageResource": "Bube/Items/case044_vest"
+    }
+   ]
   },
   {
    "id": "line_phone",
