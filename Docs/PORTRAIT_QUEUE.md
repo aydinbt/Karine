@@ -428,43 +428,43 @@ A 39-year-old French man, side-parted brown hair, clean-shaven, nervous darting 
 
 ## Dosya #036 (7)
 
-64. **Hélène de Vauclair** → `helene.png`
+64. **Hélène de Vauclair** → `helene.png` ✅
 
 ```
 A 63-year-old French woman, silver-blonde hair in an elegant French twist, fine wrinkles, cool composed grey eyes, pearl earrings. Navy silk blouse under a dark tailored cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-65. **Gaspard de Vauclair** → `gaspard.png`
+65. **Gaspard de Vauclair** → `gaspard.png` ✅
 
 ```
 A 34-year-old French man, tousled light-brown hair, unshaven, resentful tired eyes, a slightly crooked aristocratic nose. Slate-blue cashmere jumper over an open-collared shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-66. **Arnaud Petit** → `petit.png`
+66. **Arnaud Petit** → `petit.png` ✅
 
 ```
 A 52-year-old French man, short dark hair greying at the temples, thin moustache, pale careful face, very still eyes. Black sommelier's waistcoat over a white shirt, a small silver tastevin cup on a chain around his neck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-67. **Rosa Pinto** → `pinto.png`
+67. **Rosa Pinto** → `pinto.png` ✅
 
 ```
 A 58-year-old Portuguese woman, dark hair streaked with grey in a practical bun, round kind face, worried dark eyes. Charcoal housekeeper's dress with a white collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-68. **Yves Caron** → `caron.png`
+68. **Yves Caron** → `caron.png` ✅
 
 ```
 A 66-year-old French man, white wavy hair, bushy white eyebrows, red-veined cheeks, shrewd amused eyes. Brown corduroy jacket over a mustard waistcoat and a knitted tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-69. **Marcus Doyle** → `doyle.png`
+69. **Marcus Doyle** → `doyle.png` ✅
 
 ```
 A 45-year-old American man, sandy-brown hair cut short, square jaw, polite professional smile that doesn't reach his eyes. Navy blazer over a light blue open-collar shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-70. **Antoine Brassard** → `brassard.png`
+70. **Antoine Brassard** → `brassard.png` ✅
 
 ```
 A 57-year-old French man, tall and lean, iron-grey hair cut close, hawk-like nose, thin unreadable smile. Charcoal double-breasted suit, white shirt, no tie, a heavy gold signet ring visible only as a glint near the collar where his hand rests against it. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
@@ -498,7 +498,7 @@ A 61-year-old French man, short grey hair, heavy jowls, bushy eyebrows, patient 
 
 ## Dosya #038 (5)
 
-75. **Antoine Brassard** → `antoine.png`
+75. **Antoine Brassard** → `antoine.png` ✅
 
 ```
 Same man as file #036: a 57-year-old French man, tall and lean, iron-grey hair cut close, hawk-like nose, thin unreadable smile. Charcoal double-breasted suit, white shirt, no tie, a heavy gold signet ring. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
