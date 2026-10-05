@@ -1292,37 +1292,37 @@ A 60-year-old Québécois man, grey hair, a gentle round face, red-rimmed eyes b
 A 48-year-old French-Canadian man, slicked-back dark hair, designer stubble, a charming tired face with anxious grey eyes. A black turtleneck under a dark velvet blazer. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-199. **Tunde Adeyemi** → `adeyemi.png`
+199. **Tunde Adeyemi** → `adeyemi.png` ✅
 
 ```
 A 39-year-old Nigerian-Canadian man, close-cropped hair, a short beard, headphones around his neck, a focused defensive face. A dark grey work shirt with sleeves rolled. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-200. **Jules Baptiste** → `jules.png`
+200. **Jules Baptiste** → `jules.png` ✅
 
 ```
 A 26-year-old Haitian-Canadian man, short twists, a slim face with his grandfather's deep eyes, devastated. A white shirt with the collar open, a loosened thin black tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-201. **Zoé Lambert** → `zoe.png`
+201. **Zoé Lambert** → `zoe.png` ✅
 
 ```
 A 31-year-old French-Canadian woman, platinum blonde bob, a nose ring, sharp observant face. A black bartender's apron over a black T-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-202. **Piotr Nowak** → `nowak.png`
+202. **Piotr Nowak** → `nowak.png` ✅
 
 ```
 A 44-year-old Polish-Canadian man, sandy hair tied back, a big friendly face now pale, drumstick calluses. A maroon short-sleeve shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-203. **Amara Diallo** → `amara.png`
+203. **Amara Diallo** → `amara.png` ✅
 
 ```
 A 35-year-old Senegalese-Canadian woman, long braids pinned up, high cheekbones, tearful proud eyes. A mustard-yellow silk stage dress. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-204. **Guy Deschamps** → `deschamps.png`
+204. **Guy Deschamps** → `deschamps.png` ✅
 
 ```
 A 62-year-old Québécois man, white hair, a neat white beard, kind shrewd eyes behind bifocals. A brown corduroy jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
