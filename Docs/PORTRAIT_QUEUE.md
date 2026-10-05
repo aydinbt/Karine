@@ -312,31 +312,31 @@ A 43-year-old Japanese man, short neat black hair, broad shoulders, expressionle
 
 ## Dosya #032 (5)
 
-46. **Julien Mercier** → `mercier.png`
+46. **Julien Mercier** → `mercier.png` ✅
 
 ```
 A 54-year-old French man, wavy salt-and-pepper hair swept back, neatly trimmed grey beard, half-moon reading glasses pushed up on his head, cultured composed expression with cold eyes. Burgundy wool cardigan over a crisp white shirt and a dark silk scarf. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-47. **Inès Benali** → `benali.png`
+47. **Inès Benali** → `benali.png` ✅
 
 ```
 A 28-year-old French woman of North African descent, black curly hair tied up in a bun, strong eyebrows, tired defiant eyes. Grey art-handler's work coat over a black t-shirt, white cotton gloves tucked in the breast pocket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-48. **Hugo Lefèvre** → `hugo.png`
+48. **Hugo Lefèvre** → `hugo.png` ✅
 
 ```
 A 33-year-old French man, messy chestnut hair, three-day stubble, red sleepless eyes, angry grief. Olive-green field jacket over a dark grey hoodie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-49. **Colette Arnaud** → `colette.png`
+49. **Colette Arnaud** → `colette.png` ✅
 
 ```
 A 61-year-old French woman, silver-white hair in a soft chignon, tortoiseshell glasses on a beaded chain, sharp kind eyes. Deep wine-red knitted jacket over a cream blouse with a cameo brooch. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-50. **Bastien Morel** → `bastien.png`
+50. **Bastien Morel** → `bastien.png` ✅
 
 ```
 A 45-year-old French man of Caribbean descent, close-cropped black hair, calm broad face, tired eyes. Dark navy night-guard jacket with plain shoulder epaulettes, no insignia or text. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
