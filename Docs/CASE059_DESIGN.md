@@ -8,7 +8,7 @@
 İspanya bölümünün finali. Bölüm boyunca her dosyanın kenarından geçen Fundación Santa Ana’nın direktörü Rodrigo Santa Ana, vakfın Triana’daki sarayının avlusunun altındaki eski sarnıçta ölü bulunuyor. Bir gün önce bube’ye telefon edip randevu istemişti.
 
 ## Gerçek
-1989’da Fernando Santa Ana bir kadına ‘Edda, olmaz’ dedi ve sarnıçta öldü; vakıf bir hafta sonra Napoli parasıyla kuruldu, ilk danışmanı Dr. Edda Varga oldu. Otuz yıl boyunca vakıf Sevilla’daki kirli işlerin bağışını yaptı, karşılığını Montreal’e aktardı. Oğlu Rodrigo her şeyi bube’ye götürmeye karar verdi. Müdür yardımcısı Mercedes Llorente onu avluya indirip sarnıca itti, kapağı kilitledi, dosyayı yaktı.
+1989’da Gaspar Santa Ana bir kadına ‘Edda, olmaz’ dedi ve sarnıçta öldü; bir hafta sonra Dr. Edda Varga vakfın baş danışmanı oldu ve Napoli parası akmaya başladı. Otuz yıl boyunca vakıf Sevilla’daki kirli işlerin bağışını yaptı, karşılığını Montreal’e aktardı. Oğlu Rodrigo her şeyi bube’ye götürmeye karar verdi. Müdür yardımcısı Mercedes Llorente onu avluya indirip sarnıca itti, kapağı kilitledi, dosyayı yaktı.
 
 ## Kişiler
 | Kişi | Bilgi | Rol (gizli) |
@@ -21,7 +21,7 @@
 Görüşülebilir kişi sayısı: **4**.
 
 ## Merkez yetenek
-Dört kişi. 1989’da vakfın kurucusu, Rodrigo’nun babası Fernando Santa Ana aynı sarnıçta ölmüştü; ‘kaza’. Vakıf o yıl kuruldu. Önceki beş dosyanın bağışları, satışları ve imzaları aynı mütevelli listesine çıkıyor.
+Dört kişi. 1989’da vakfın kurucusu, Rodrigo’nun babası Gaspar Santa Ana aynı sarnıçta ölmüştü; ‘kaza’. Vakfı 1985’te o kurmuştu; ölümünden sonra vakfın parası on katına çıktı. Önceki beş dosyanın bağışları, satışları ve imzaları aynı mütevelli listesine çıkıyor.
 
 ## Dünya ipi
 Mütevelli listesi: ‘Dr. Edda Varga, danışman’. Rodrigo’nun randevu notu: ‘E. V. ile bitirdim. Her şeyi getiriyorum.’ Reasürans ödemeleri Montreal’e gidiyor.
@@ -36,7 +36,7 @@ Mütevelli listesi: ‘Dr. Edda Varga, danışman’. Rodrigo’nun randevu notu
   - 23.43 · Kamera: Kadın yalnız; demir kapağı kapatıp anahtarı çeviriyor.
 - **Isidro Navas — görüşme** (`isidro`, interview) — açılır: report okununca
   - Dün gece avluda ne oldu?
-  - 1989’da Don Fernando’ya ne oldu?
+  - 1989’da Don Gaspar’ya ne oldu?
 - **Amaia Santa Ana — görüşme** (`amaia`, interview) — açılır: report okununca
   - Babanızla neden konuşmuyordunuz?
 - **Héctor Bermejo — görüşme** (`bermejo`, interview) — açılır: report okununca
@@ -54,7 +54,7 @@ Mütevelli listesi: ‘Dr. Edda Varga, danışman’. Rodrigo’nun randevu notu
 - **Belirleyici kanıt:** **Müdür yardımcısının odası araması** ✔ · 1989 dosyası · Avlu kamerası · Otopsi raporu
 
 ## Rekonstrüksiyon (doğru sıra)
-1. 1989: Fernando Santa Ana ‘Edda, olmaz’ diyor ve aynı sarnıçta ölüyor; bir hafta sonra vakıf kuruluyor.
+1. 1989: Gaspar Santa Ana ‘Edda, olmaz’ diyor ve aynı sarnıçta ölüyor; bir hafta sonra Edda Varga baş danışman oluyor.
 2. 28 Ekim: Rodrigo Santa Ana bube’yi arayıp ertesi sabah için randevu alıyor.
 3. 23.30: Denetçi otuz yılın ödeme tablolarını bırakıp çıkıyor; dosyayı Mercedes Llorente alıyor.
 4. 23.36: Mercedes Llorente direktörü avluya indirip sarnıcı açıyor.

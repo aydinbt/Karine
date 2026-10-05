@@ -8,7 +8,7 @@
 Sevilla’da dört yüz yıllık bir tarihi arşiv. Kıdemli arşivci Rosa Medina, kapanıştan sonra bodrumdaki kayar raflı depoda, iki raf dolabının arasında ezilmiş halde bulunuyor. Rafların kolu yerinde değil.
 
 ## Gerçek
-2015’te restoratör Sergio Lara 1752 haritasını restorasyona alıp geri vermedi; harita vakfın koleksiyonuna geçti, bekçi kovuldu. On beş yıl sonra arşivci Rosa Medina haritayı bir katalogda tanıdı ve Sergio’ya ‘önce sen git’ dedi. Sergio akşam depoda rafın kolunu çevirip onu iki dolabın arasında sıkıştırdı, kolu söküp cilt presine sakladı.
+2015’te restoratör Sergio Vidaurre 1752 haritasını restorasyona alıp geri vermedi; harita vakfın koleksiyonuna geçti, bekçi kovuldu. On beş yıl sonra arşivci Rosa Medina haritayı bir katalogda tanıdı ve Sergio’ya ‘önce sen git’ dedi. Sergio akşam depoda rafın kolunu çevirip onu iki dolabın arasında sıkıştırdı, kolu söküp cilt presine sakladı.
 
 ## Kişiler
 | Kişi | Bilgi | Rol (gizli) |
@@ -19,7 +19,7 @@ Sevilla’da dört yüz yıllık bir tarihi arşiv. Kıdemli arşivci Rosa Medin
 | Candela Medina | 33 yaşında, kurbanın kızı. | kızı; Rosa’nın notları |
 | Osman Kılınç | 44 yaşında, cilt ustası. | cilt ustası; pres |
 | Aurora Benítez | 59 yaşında, arşiv müdürü. | müdür; sessiz kalan |
-| Sergio Lara | 47 yaşında, arşivin restoratörü. | restoratör; katil, 2015 hırsızı |
+| Sergio Vidaurre | 47 yaşında, arşivin restoratörü. | restoratör; katil, 2015 hırsızı |
 
 Görüşülebilir kişi sayısı: **7**.
 
@@ -51,13 +51,13 @@ Katalog, Fundación Santa Ana’nın özel koleksiyonu. Bağış listesinde dan�
 - **Aurora Benítez — görüşme** (`aurora`, interview) — açılır: report okununca
   - 2015’teki kayıp haritayı ne biliyorsunuz?
 - **2015 DOSYASI — KAYIP HARİTA** (`archive`, document) — açılır: candela okununca; istenir (2015 dosyasını arşivden açmak için izin iste, 8 sn); gerekçeli talep: candela + naomi | candela + stack | naomi + aurora
-- **Sergio Lara — görüşme** (`sergio`, interview) — açılır: report okununca
+- **Sergio Vidaurre — görüşme** (`sergio`, interview) — açılır: report okununca
   - Akşam bodruma neden indiniz?
   - Rosa’yı rafların arasında siz kapattınız. _(öne sür: workshop, archive)_
 - **RESTORASYON ATÖLYESİ — ARAMA** (`workshop`, document) — açılır: archive, corridor okununca; istenir (Restorasyon atölyesini aramak için izin iste, 6 sn); gerekçeli talep: archive + osman | corridor + osman | archive + corridor
 
 ## Rapor
-- **Rosa Medina’yı kim öldürdü?** **Sergio Lara** ✔ · Fermín Gil · Aurora Benítez · Kimse — gevşek raf
+- **Rosa Medina’yı kim öldürdü?** **Sergio Vidaurre** ✔ · Fermín Gil · Aurora Benítez · Kimse — gevşek raf
 - **Nasıl öldü?** **Kayar raflar kolu çevrilerek üstüne kapatıldı** ✔ · Merdivenden düştü · Raflar kendi kendine kaydı
 - **Rafın kolu nereye gitti?** **Restorasyon atölyesindeki cilt presine** ✔ · Bodrumdaki çöpe · Bir arşiv kutusuna
 - **Belirleyici kanıt:** **Restorasyon atölyesi araması** ✔ · 2015 dosyası · Bodrum kamerası · Depo incelemesi
@@ -66,7 +66,7 @@ Katalog, Fundación Santa Ana’nın özel koleksiyonu. Bağış listesinde dan�
 Kız, araştırmacı ve deponun durumu arşivi açtırdı. Kamera ve cilt ustası atölyeyi gösterdi; arama kolu presin içinde buldu.
 
 ## Akıbet
-- Sergio Lara: Sergio Lara tutuklandı; 2015 dosyası yeniden açıldı ve Fermín Gil’in adı aklandı. 1752 haritasının iadesi için Fundación Santa Ana’ya resmi yazı gitti; vakıf ‘danışmanımız yurt dışında’ yanıtını verdi.
+- Sergio Vidaurre: Sergio Vidaurre tutuklandı; 2015 dosyası yeniden açıldı ve Fermín Gil’in adı aklandı. 1752 haritasının iadesi için Fundación Santa Ana’ya resmi yazı gitti; vakıf ‘danışmanımız yurt dışında’ yanıtını verdi.
 - Fermín Gil: Fermín Gil ikinci kez suçlandı; pres yine sıkıldı.
 - Aurora Benítez: Aurora Benítez tutuklandı; kol preste kaldı.
 - Kimse — gevşek raf: Ölüm kaza sayıldı; atölye defteri yine kayboldu.

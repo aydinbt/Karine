@@ -23,7 +23,7 @@ Görüşülebilir kişi sayısı: **3**.
 Üç kişi ve tek bir şapel. 1987’de tacın zümrütleri çalınmış, sonra ‘mucize eseri’ geri bulunmuştu. O dosya açılmadan bugünkü düşüş bir kaza kalır.
 
 ## Dünya ipi
-1987’de zümrütlerin ‘geri bulunması’nı finanse eden bağış Fundación Santa Ana’dan gelmiş. Vakfın o yılki kuruluş tutanağında bir danışmanın adı var: Dr. E. Varga.
+1987’de zümrütlerin ‘geri bulunması’nı finanse eden bağış Fundación Santa Ana’dan gelmiş. Vakfın o yılki bağış kararında bir danışmanın adı var: Dr. E. Varga.
 (Çözüm şartı değildir; yalnız bir satır olarak geçer.)
 
 ## Akış

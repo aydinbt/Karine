@@ -6,7 +6,7 @@ Araç dağılımı: **Gemini** portreler ve adli bulgular (beyaz/gri zemin), **C
 
 Her prompt kendi içinde tamdır; olduğu gibi yapıştır.
 
-1. **Sergio Lara** → `Bube/Characters/sergio`
+1. **Sergio Vidaurre** → `Bube/Characters/sergio`
 
 ```
 A 47-year-old Spanish man, dark hair greying at the temples, reading glasses pushed up on his head, precise thin face, guarded grey-brown eyes. A charcoal grey work apron over a dark shirt, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
