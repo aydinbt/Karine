@@ -1,0 +1,532 @@
+{
+ "entries": [
+  {
+   "key": "case032.autopsy.body",
+   "value": "· Başın arka-sol kısmında ağır, köşeli bir cisimle iki darbe. Yarada yeşil-kahverengi metal oksit (bronz patinası) izi.\n· Savunma yarası yok; arkasını dönmüştü.\n· Ölüm zamanı: 12 Mayıs 21.00–22.30."
+  },
+  {
+   "key": "case032.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case032.bastien.body",
+   "value": "Gece bekçisi."
+  },
+  {
+   "key": "case032.bastien.deflect",
+   "value": "Ben kapıya bakarım."
+  },
+  {
+   "key": "case032.bastien.round.answer",
+   "value": "21.30’da bodrum turu. Kart panosunda Benali Hanım’ın kartı yoktu, not aldım: ‘eve götürmüş’. 22.00’de ikinci tur: kart yerindeydi. Arada yukarıda Mercier Bey’in ofisinin ışığı yanıyordu, geç çalışır."
+  },
+  {
+   "key": "case032.bastien.round.answer.demeanor",
+   "value": "Defterini dizine dayıyor."
+  },
+  {
+   "key": "case032.bastien.round.question",
+   "value": "O gece turunuz nasıldı?"
+  },
+  {
+   "key": "case032.bastien.title",
+   "value": "Bastien Morel — görüşme"
+  },
+  {
+   "key": "case032.benali.body",
+   "value": "Taşıyıcı."
+  },
+  {
+   "key": "case032.benali.card.answer",
+   "value": "Ben 19.00’da çıktım. Kartım panoda asılı kalır, hepimizinki öyle; eve götürmemiz yasak. Herkes bilir. Bana bunu sormanız…"
+  },
+  {
+   "key": "case032.benali.card.answer.demeanor",
+   "value": "Eldivenleri cebinden çıkarıp geri sokuyor."
+  },
+  {
+   "key": "case032.benali.card.question",
+   "value": "Kartınız 21.38’de kasayı açmış."
+  },
+  {
+   "key": "case032.benali.card.variant0",
+   "value": "Bekçi de söyledi mi? Panoda kartımın yeri o gece boştu, sabah yerindeydi. Ben 19.00’dan sonra metrodaydım; Belleville’de ablamın kafesine gittim, kamerası var."
+  },
+  {
+   "key": "case032.benali.deflect",
+   "value": "Ben kutu taşırım, içini bilmem."
+  },
+  {
+   "key": "case032.benali.title",
+   "value": "Inès Benali — görüşme"
+  },
+  {
+   "key": "case032.board.body",
+   "value": "Bastien Morel’in tur defteri, 12 Mayıs:\n· 21.30 · bodrum — ‘Pano: Benali kartı yok.’\n· 22.00 · bodrum — ‘Pano: tam.’\n· 22.05 · 3. kat — ‘Julien Mercier’in ofisi ışık açık, kapı kapalı.’\n\nPano, kasa kapısının yanında, kilitsiz. Boş kancanın çevresinde parmak izi: Inès Benali’nin (beklenen) ve bir lekeli, tanımlanamayan iz."
+  },
+  {
+   "key": "case032.board.title",
+   "value": "BEKÇİ TUR DEFTERİ VE PANO"
+  },
+  {
+   "key": "case032.cctv.event.in",
+   "value": "Kamera: Gri taşıyıcı önlüklü, yakası kalkık bir figür kasa kapısına yürüyor, kart okutuyor; elinde bir şey yok."
+  },
+  {
+   "key": "case032.cctv.event.open",
+   "value": "Kamera: Kasa kapısı aralık, içeriden ince bir ışık; koridor boş."
+  },
+  {
+   "key": "case032.cctv.event.out",
+   "value": "Kamera: Aynı figür kasadan hızla çıkıyor; göğsüne bastırdığı küçük ahşap bir kutu var, yüzünü kameradan çeviriyor."
+  },
+  {
+   "key": "case032.cctv.overlay",
+   "value": "B-02"
+  },
+  {
+   "key": "case032.cctv.period",
+   "value": "12 Mayıs 2030"
+  },
+  {
+   "key": "case032.cctv.source",
+   "value": "Bodrum kamerası"
+  },
+  {
+   "key": "case032.clue.back",
+   "value": "Kart panoda yerinde; üst katta ofis ışığı açık."
+  },
+  {
+   "key": "case032.clue.in",
+   "value": "Gri önlüklü figür kasaya kart okutuyor."
+  },
+  {
+   "key": "case032.clue.lamp",
+   "value": "Bekçi: panoda taşıyıcının kartı yok."
+  },
+  {
+   "key": "case032.clue.msg",
+   "value": "Mathilde: ‘Lot 47 Kamakura’dan. Mercier’ye soracağım.’"
+  },
+  {
+   "key": "case032.clue.out",
+   "value": "Figür kasadan küçük bir kutuyla çıkıyor."
+  },
+  {
+   "key": "case032.clue.source.board",
+   "value": "Tur defteri"
+  },
+  {
+   "key": "case032.clue.source.hugo",
+   "value": "Sevgilisi"
+  },
+  {
+   "key": "case032.colette.body",
+   "value": "Köken arşivi sorumlusu."
+  },
+  {
+   "key": "case032.colette.deflect",
+   "value": "Arşiv kayıtları müzayede evinindir."
+  },
+  {
+   "key": "case032.colette.letter.answer",
+   "value": "Mercier Bey getirdi, ben dosyaladım: ‘Viyanalı bir diplomatın koleksiyonu, 1998, uzman görüşü Dr. E. Varga.’ Varga imzalı mektuplardan son on yılda dokuz tane geldi; hepsi Asya bölümünden, hepsi Mercier Bey’in eliyle."
+  },
+  {
+   "key": "case032.colette.letter.answer.demeanor",
+   "value": "Gözlüğünü zincirinden tutup çeviriyor."
+  },
+  {
+   "key": "case032.colette.letter.question",
+   "value": "Lot 47’nin köken mektubu arşivde mi?"
+  },
+  {
+   "key": "case032.colette.title",
+   "value": "Colette Arnaud — görüşme"
+  },
+  {
+   "key": "case032.colette.woman.answer",
+   "value": "Hiç görmedim. Ama geçen ay arşive bir kadın geldi, gri bir şemsiyesi vardı, yağmur yoktu. ‘Varga mektuplarının kopyaları bende kalsın’ dedi, bir kart bıraktı. Kartta yalnız bir telefon numarası. Numara artık kullanılmıyor."
+  },
+  {
+   "key": "case032.colette.woman.question",
+   "value": "Varga’yı tanıyor musunuz?"
+  },
+  {
+   "key": "case032.custody.copy",
+   "value": "Paris’te yapılmış bir kopya"
+  },
+  {
+   "key": "case032.custody.fake",
+   "value": "Kamakura’da yapılmış sahte; köken mektubu Paris’te yazılmış"
+  },
+  {
+   "key": "case032.custody.label",
+   "value": "Lot 47 neydi?"
+  },
+  {
+   "key": "case032.custody.real",
+   "value": "Gerçek 16. yüzyıl kâsesi"
+  },
+  {
+   "key": "case032.epilogue.custody.copy",
+   "value": "Kâse Paris’te bir atölyeye bağlandı; Tokyo bildirimi dosyaya girmedi."
+  },
+  {
+   "key": "case032.epilogue.custody.fake",
+   "value": "Lot 47’nin sahte olduğu ve köken mektubunun Mercier’nin ofisinde yazıldığı belgelendi."
+  },
+  {
+   "key": "case032.epilogue.custody.real",
+   "value": "Lot 47 gerçek kabul edildi ve satıldı."
+  },
+  {
+   "key": "case032.epilogue.verdict.bastien",
+   "value": "Bastien Morel gözaltına alındı; tur defteri hiç incelenmedi."
+  },
+  {
+   "key": "case032.epilogue.verdict.benali",
+   "value": "Inès Benali tutuklandı; Lot 47 ertesi gün satıldı."
+  },
+  {
+   "key": "case032.epilogue.verdict.hugo",
+   "value": "Hugo Lefèvre suçlandı; Mathilde’in mesajı ‘kıskançlık’ diye okundu."
+  },
+  {
+   "key": "case032.epilogue.verdict.mercier",
+   "value": "Julien Mercier tutuklandı. Lot 47 müzayededen çekildi; dokuz ‘Varga’ mektubunun hepsi şüpheli ilan edildi. Ajandadaki ‘Chicago sevkiyatı: Lakeshore’ satırı şube dosyasına not düşüldü."
+  },
+  {
+   "key": "case032.evidence.board",
+   "value": "Tur defteri ve pano"
+  },
+  {
+   "key": "case032.evidence.letter",
+   "value": "Köken mektubu incelemesi"
+  },
+  {
+   "key": "case032.evidence.recall",
+   "value": "Geri çağırma bildirimi"
+  },
+  {
+   "key": "case032.evidence.search",
+   "value": "Asya bölümü ofisi araması"
+  },
+  {
+   "key": "case032.feedback.bastien",
+   "value": "Bekçi turlarını yazdı; kart panosundaki boşluğu fark eden oydu."
+  },
+  {
+   "key": "case032.feedback.benali",
+   "value": "Kartı kullanıldı ama kendisi 19.00’da çıktı; kart panoda herkesin elinin altındaydı ve bekçi 21.30’da yerinin boş olduğunu yazdı."
+  },
+  {
+   "key": "case032.feedback.hugo",
+   "value": "Sevgili kurbanın son mesajını aldı ama binaya girmedi; kartı yoktu."
+  },
+  {
+   "key": "case032.feedback.mercier",
+   "value": "Ofisindeki bronz destekte kurbanın kanı, gri önlükte saçı; Lot 47’nin mektubu onun daktilosunda yazıldı. Kurban onu sorgulamaya gitmişti; kart panodan alındı ve geri asıldı."
+  },
+  {
+   "key": "case032.file.caseType",
+   "value": "CİNAYET"
+  },
+  {
+   "key": "case032.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case032.file.value.location",
+   "value": "Paris 7. bölge, müzayede evi — kasa dairesi"
+  },
+  {
+   "key": "case032.file.value.number",
+   "value": "BDP-PAR-2030-0112"
+  },
+  {
+   "key": "case032.file.value.offence",
+   "value": "Kasten öldürme"
+  },
+  {
+   "key": "case032.file.value.reporter",
+   "value": "Gece bekçisi"
+  },
+  {
+   "key": "case032.hugo.body",
+   "value": "Kurbanın sevgilisi."
+  },
+  {
+   "key": "case032.hugo.deflect",
+   "value": "Kaynaklarımı paylaşmam."
+  },
+  {
+   "key": "case032.hugo.msg.answer",
+   "value": "Saat 20.10’da mesaj attı: ‘Lot 47 Kamakura’dan. Tokyo’dan geri çağırma bildirimi gelmiş, kimse okumamış. Mercier’ye soracağım.’ Bir de fotoğraf. Sonra hiçbir şey."
+  },
+  {
+   "key": "case032.hugo.msg.answer.demeanor",
+   "value": "Telefonu masaya bırakmıyor, ekranına bakıyor."
+  },
+  {
+   "key": "case032.hugo.msg.question",
+   "value": "Mathilde son gün ne anlattı?"
+  },
+  {
+   "key": "case032.hugo.title",
+   "value": "Hugo Lefèvre — görüşme"
+  },
+  {
+   "key": "case032.letter.body",
+   "value": "Lot 47’nin ‘1998’ tarihli köken mektubu:\n\n· Kâğıt: 2010 sonrası üretilen optik ağartıcılı kâğıt. 1998 olamaz.\n· Daktilo yazısı: elektronik daktilo, Asya bölümü ofisindeki makineyle harf aşınmaları aynı.\n· İmza: ‘E. Varga’ — diğer sekiz mektuptaki imzayla aynı el. Baş harflerin üstünde mavi mürekkeple ‘E.V.’\n\nSonuç: mektup Julien Mercier’nin ofisinde yazıldı. İmzanın kime ait olduğu belirlenemedi."
+  },
+  {
+   "key": "case032.letter.title",
+   "value": "KÖKEN MEKTUBU İNCELEMESİ"
+  },
+  {
+   "key": "case032.mercier.body",
+   "value": "Asya sanatı bölüm başkanı."
+  },
+  {
+   "key": "case032.mercier.deflect",
+   "value": "Bölümümün işleri müzayede evini ilgilendirir."
+  },
+  {
+   "key": "case032.mercier.lot.answer",
+   "value": "Saygın bir aracıdan. Köken mektubu kusursuz. Bir Tokyo bildirimi bir kâseyi sahte yapmaz, mademoiselle Roux gençti, heyecanlıydı."
+  },
+  {
+   "key": "case032.mercier.lot.question",
+   "value": "Lot 47’yi nereden aldınız?"
+  },
+  {
+   "key": "case032.mercier.night.answer",
+   "value": "Ofisimde, katalog düzeltmeleri. 21.00’de çıktım. Zavallı Mathilde… taşıyıcıların kart disiplini felaket, bunu yıllardır söylüyorum."
+  },
+  {
+   "key": "case032.mercier.night.answer.demeanor",
+   "value": "Gözlüğünü başından indirip katlıyor."
+  },
+  {
+   "key": "case032.mercier.night.question",
+   "value": "12 Mayıs akşamı neredeydiniz?"
+  },
+  {
+   "key": "case032.mercier.title",
+   "value": "Julien Mercier — görüşme"
+  },
+  {
+   "key": "case032.mercier_2.body",
+   "value": "Arama üzerine."
+  },
+  {
+   "key": "case032.mercier_2.title",
+   "value": "Julien Mercier — ikinci görüşme"
+  },
+  {
+   "key": "case032.mercier_2.vault.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.board",
+   "value": "Panodan kart almak için taşıyıcı olmak gerekmez, doğru. Ama bu benim aldığımı göstermez."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.letter",
+   "value": "Kâğıt mı? 1998’de hangi kâğıdı kullandıklarını kim bilir. Varga’yı tanımam; mektuplar aracıyla gelir, ben yalnız temize çekerim."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.search",
+   "value": "…Bana ofisimde ‘Bu kâse Kamakura’dan’ dedi, fotoğrafı gösterdi. ‘Yarın Delorme Bey’e söyleyeceğim’ dedi. Kâseyi kasadan çıkarıp karşılaştırmak istedi, birlikte indik. Kartı panodan ben aldım, önlüğü ben giydim; o kutuyu açarken… destek elimdeydi. Fotoğrafı ve bildirimi aldım. Yalnız masasındakini unuttum."
+  },
+  {
+   "key": "case032.mercier_2.vault.question",
+   "value": "21.38’de kasaya giren sizdiniz."
+  },
+  {
+   "key": "case032.method.bookend",
+   "value": "Bronz kitap desteğiyle başına vuruldu"
+  },
+  {
+   "key": "case032.method.crate",
+   "value": "Üstüne sandık devrildi"
+  },
+  {
+   "key": "case032.method.fall",
+   "value": "Kasa merdiveninden düştü"
+  },
+  {
+   "key": "case032.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case032.offer.subtitle",
+   "value": "LOT 47  /  CİNAYET"
+  },
+  {
+   "key": "case032.offer.summary",
+   "value": "Paris’te bir müzayede evinin kasa dairesinde katalogcu ölü. Müzayede yarın; kart kaydı bir taşıyıcıyı gösteriyor."
+  },
+  {
+   "key": "case032.offer.title",
+   "value": "DOSYA #032"
+  },
+  {
+   "key": "case032.person.bastien.info",
+   "value": "45 yaşında, gece bekçisi."
+  },
+  {
+   "key": "case032.person.bastien.name",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.person.benali.info",
+   "value": "28 yaşında, müzayede evinin eser taşıyıcısı; kasa dairesine giriş kartı var."
+  },
+  {
+   "key": "case032.person.benali.name",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.person.colette.info",
+   "value": "61 yaşında, müzayede evinin köken arşivi sorumlusu."
+  },
+  {
+   "key": "case032.person.colette.name",
+   "value": "Colette Arnaud"
+  },
+  {
+   "key": "case032.person.hugo.info",
+   "value": "33 yaşında, serbest gazeteci; kurbanın sevgilisi."
+  },
+  {
+   "key": "case032.person.hugo.name",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.person.mercier.info",
+   "value": "54 yaşında, Maison Delorme müzayede evinin Asya sanatı bölüm başkanı."
+  },
+  {
+   "key": "case032.person.mercier.name",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.recall.body",
+   "value": "Kurbanın masasında, bube Tokyo şubesinden müzayede evlerine gönderilen 3 Mayıs tarihli bildirim (Dosya #026 sonrası):\n\n“Kamakura’daki bir atölyede üretilmiş, ‘aile mirası’ diye satılmış yedi çay kâsesi sahte çıkmıştır. Fotoğraflar eklidir.”\n\nEkteki üçüncü fotoğraf ile Lot 47’nin katalog fotoğrafı aynı kâse: aynı üç altın dikiş, aynı ağız kırığı.\n\nBildirim zarfının üstünde kurbanın notu: ‘Mercier köken mektubunu kimden aldı?’"
+  },
+  {
+   "key": "case032.recall.title",
+   "value": "GERİ ÇAĞIRMA BİLDİRİMİ"
+  },
+  {
+   "key": "case032.report.body",
+   "value": "13 Mayıs 2030 saat 07.20’de 7. bölgedeki Maison Delorme müzayede evinin bodrum kasa dairesinde katalogcu Mathilde Roux (31) ölü bulundu. Başının arkasında ağır bir yara.\n\nKasa dairesinde 14 Mayıs müzayedesinin eserleri bekliyor. Lot 47’nin, ‘16. yüzyıl Japon çay kâsesi’nin, kutusu yerinde; kâse kutusunun içinde.\n\nKasa kapısı kart kaydı, 12 Mayıs 21.38 ve 21.52: taşıyıcı Inès Benali’nin kartı."
+  },
+  {
+   "key": "case032.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case032.request.board",
+   "value": "Bekçinin tur defterini ve panoyu incele"
+  },
+  {
+   "key": "case032.request.letter",
+   "value": "Köken mektubunu belge incelemesine gönder"
+  },
+  {
+   "key": "case032.request.recall",
+   "value": "Kurbanın masasındaki yazışmaları iste"
+  },
+  {
+   "key": "case032.request.search",
+   "value": "Julien Mercier’nin ofisini aramak için izin iste"
+  },
+  {
+   "key": "case032.search.body",
+   "value": "Julien Mercier’nin ofisi (şube şefinin onayıyla):\n\n· Raftaki çift bronz kitap desteğinden biri yeni silinmiş; tabanında kan, DNA Mathilde Roux.\n· Masa çekmecesinde boş bir taşıyıcı önlüğü askısı; dolapta gri taşıyıcı önlüğü, yakasında kurbanın saç teli.\n· Elektronik daktilo; şeridinde Lot 47 mektubunun metni.\n· Bir ajanda: ‘14/5 — Lot 47 satıldıktan sonra E.V.’ye %20. Chicago sevkiyatı: Lakeshore.’"
+  },
+  {
+   "key": "case032.search.title",
+   "value": "ASYA BÖLÜMÜ OFİSİ ARAMASI"
+  },
+  {
+   "key": "case032.summary.evidence",
+   "value": "Bekçinin tur defteri kartın 21.30’da yerinde olmadığını, kamera kasaya giren gri önlüklüyü, kurbanın masasındaki bildirim kâsenin kimliğini, mektup incelemesi Mercier’nin daktilosunu verdi. İki sağlam gerekçeyle açılan ofis araması desteği ve önlüğü buldu."
+  },
+  {
+   "key": "case032.summary.lesson",
+   "value": "Bir kart, onu taşıyanın değil, panodan alanın izidir. Kimin elinin altında durduğunu sor."
+  },
+  {
+   "key": "case032.summary.location",
+   "value": "Paris 7. bölge — Mayıs 2030"
+  },
+  {
+   "key": "case032.summary.truth",
+   "value": "Katalogcu Mathilde Roux, bube Tokyo’nun geri çağırma bildirimindeki fotoğraflardan birinin Lot 47 olduğunu fark etti: Kamakura’da yapılmış sahte bir kâse. Köken mektubunu getiren Asya bölümü başkanı Julien Mercier’ye sordu; karşılaştırmak için kasa dairesine birlikte indiler. Mercier taşıyıcı panosundan Inès Benali’nin kartını almış, gri önlüğü giymişti; kutuyu açarken kurbanı bronz kitap desteğiyle öldürdü, fotoğrafı ve bildirimi aldı, kartı panoya geri astı."
+  },
+  {
+   "key": "case032.suspect.label",
+   "value": "Mathilde Roux’yu kim öldürdü?"
+  },
+  {
+   "key": "case032.tablet.caseLine",
+   "value": "DOSYA #032  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case032.time.back",
+   "value": "22.00"
+  },
+  {
+   "key": "case032.time.in",
+   "value": "21.38"
+  },
+  {
+   "key": "case032.time.lamp",
+   "value": "21.30"
+  },
+  {
+   "key": "case032.time.msg",
+   "value": "20.10"
+  },
+  {
+   "key": "case032.time.open",
+   "value": "21.45"
+  },
+  {
+   "key": "case032.time.out",
+   "value": "21.52"
+  },
+  {
+   "key": "case032.title",
+   "value": "Dosya #032 — Lot 47"
+  },
+  {
+   "key": "case032.vault.body",
+   "value": "Kasa kapısına giden koridoru görür. 12 Mayıs 21.00 – 23.00."
+  },
+  {
+   "key": "case032.vault.title",
+   "value": "BODRUM KORİDOR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case032.verdict.bastien",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.verdict.benali",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.verdict.hugo",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.verdict.mercier",
+   "value": "Julien Mercier"
+  }
+ ]
+}

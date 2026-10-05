@@ -1,0 +1,448 @@
+{
+ "entries": [
+  {
+   "key": "case033.backdoor.body",
+   "value": "Avluyu ve arka kapıyı görür. 16 Mayıs 04.30 – 05.30."
+  },
+  {
+   "key": "case033.backdoor.title",
+   "value": "FIRIN ARKA KAPI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case033.cctv.event.hand",
+   "value": "Kamera: Kadın torbayı kapıdaki beyazlı gence veriyor, torbayı işaret ederek bir şey söylüyor."
+  },
+  {
+   "key": "case033.cctv.event.leave",
+   "value": "Kamera: Kadın minibüse yalnız dönüyor, ellerini bir kâğıt mendille siliyor."
+  },
+  {
+   "key": "case033.cctv.event.van",
+   "value": "Kamera: Koyu ceketli bir kadın küçük bir minibüsten iniyor, kalçasına dayadığı kahverengi kâğıt un torbası taşıyor."
+  },
+  {
+   "key": "case033.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case033.cctv.period",
+   "value": "16 Mayıs 2030"
+  },
+  {
+   "key": "case033.cctv.source",
+   "value": "Arka kapı kamerası"
+  },
+  {
+   "key": "case033.clue.collapse",
+   "value": "Fırıncı tezgâhın yanında yığılıyor."
+  },
+  {
+   "key": "case033.clue.form",
+   "value": "Sipariş formu: tek glütensiz somun, ‘1 numaralı masa: A. Delorme’, un müşteriden."
+  },
+  {
+   "key": "case033.clue.hand",
+   "value": "Kadın torbayı kapıdaki gence veriyor."
+  },
+  {
+   "key": "case033.clue.source.order",
+   "value": "Sipariş formu"
+  },
+  {
+   "key": "case033.clue.source.rayan",
+   "value": "Çırak"
+  },
+  {
+   "key": "case033.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case033.clue.taste",
+   "value": "Fırıncı alışkanlığıyla özel somunu ilk o tadıyor."
+  },
+  {
+   "key": "case033.clue.van",
+   "value": "Koyu ceketli kadın minibüsten kâğıt torbayla iniyor."
+  },
+  {
+   "key": "case033.custody.delorme",
+   "value": "Auguste Delorme — müzayede evinin sahibi"
+  },
+  {
+   "key": "case033.custody.didier",
+   "value": "Didier Fontaine — fırıncının kendisi"
+  },
+  {
+   "key": "case033.custody.label",
+   "value": "Zehir kimin için hazırlanmıştı?"
+  },
+  {
+   "key": "case033.custody.random",
+   "value": "Rastgele — müzayede misafirlerinden biri"
+  },
+  {
+   "key": "case033.epilogue.custody.delorme",
+   "value": "Zehrin fırıncıya değil, müzayede yemeğinde Auguste Delorme’a gideceği yazıldı."
+  },
+  {
+   "key": "case033.epilogue.custody.didier",
+   "value": "Hedef fırıncı sayıldı; somunun kime gittiği sorulmadı."
+  },
+  {
+   "key": "case033.epilogue.custody.random",
+   "value": "Zehrin genel bir saldırı olduğu düşünüldü; tek somun dikkate alınmadı."
+  },
+  {
+   "key": "case033.epilogue.verdict.garnier",
+   "value": "Sophie Garnier tutuklandı. Auguste Delorme’a koruma önerildi, kabul etmedi. Kayıtsız numara ‘Maison Delorme nakliye bölümü’ notuyla şubede açık kaldı."
+  },
+  {
+   "key": "case033.epilogue.verdict.nadine",
+   "value": "Nadine Fontaine suçlandı; fırın kapandı."
+  },
+  {
+   "key": "case033.epilogue.verdict.rayan",
+   "value": "Rayan Haddad tutuklandı; sipariş formu ve un torbası dosyaya girmedi."
+  },
+  {
+   "key": "case033.evidence.flour",
+   "value": "Un torbası analizi"
+  },
+  {
+   "key": "case033.evidence.order",
+   "value": "Sipariş formu"
+  },
+  {
+   "key": "case033.evidence.tox",
+   "value": "Toksikoloji"
+  },
+  {
+   "key": "case033.evidence.van",
+   "value": "İkram minibüsü araması"
+  },
+  {
+   "key": "case033.feedback.garnier",
+   "value": "Akonitin yalnız onun getirdiği torbada, sonradan eklenmiş; minibüsünde boş ikinci torba, nakit ve ‘yalnız 1 numaralı masa’ mesajı var. Kamera torbayı kapıda verenin o olduğunu gösteriyor."
+  },
+  {
+   "key": "case033.feedback.nadine",
+   "value": "Eşi borçla kaldı, sigorta yoktu; somun ve un ona hiç dokunmadı."
+  },
+  {
+   "key": "case033.feedback.rayan",
+   "value": "Çırak torbayı açıp hamuru yaptı ama un ona verildi; zehir torbada geldi, fırının kendi unları temiz."
+  },
+  {
+   "key": "case033.file.caseType",
+   "value": "ZEHİRLENME"
+  },
+  {
+   "key": "case033.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case033.file.value.location",
+   "value": "Paris 20. bölge, Belleville — fırın"
+  },
+  {
+   "key": "case033.file.value.number",
+   "value": "BDP-PAR-2030-0118"
+  },
+  {
+   "key": "case033.file.value.offence",
+   "value": "Zehirlenme"
+  },
+  {
+   "key": "case033.file.value.reporter",
+   "value": "Çırak"
+  },
+  {
+   "key": "case033.flour.body",
+   "value": "Garnier’in getirdiği kraft torba:\n· Glütensiz un karışımı (pirinç, karabuğday) ve içinde ince öğütülmüş kurutulmuş kurtboğan kökü: akonitin.\n· Toz homojen değil; kök tozu torbanın üst kısmında yoğun. Karışım torba doldurulduktan sonra eklenmiş.\n· Torbanın dış yüzünde parmak izi: Rayan Haddad (beklenen) ve Sophie Garnier."
+  },
+  {
+   "key": "case033.flour.title",
+   "value": "UN TORBASI ANALİZİ"
+  },
+  {
+   "key": "case033.garnier.body",
+   "value": "İkram koordinatörü."
+  },
+  {
+   "key": "case033.garnier.deflect",
+   "value": "Müşteri bilgileri gizlidir."
+  },
+  {
+   "key": "case033.garnier.flour.answer",
+   "value": "Müzayede evinden bir bey getirdi, ‘Delorme Bey’in kendi güvendiği un, alerjisi çok ağır’ dedi. Ben yalnız taşıdım. Paketi açmadım bile."
+  },
+  {
+   "key": "case033.garnier.flour.answer.demeanor",
+   "value": "Çantasının sapını iki eliyle tutuyor."
+  },
+  {
+   "key": "case033.garnier.flour.question",
+   "value": "Unu nereden aldınız?"
+  },
+  {
+   "key": "case033.garnier.title",
+   "value": "Sophie Garnier — görüşme"
+  },
+  {
+   "key": "case033.garnier_2.body",
+   "value": "Kayıtlar üzerine."
+  },
+  {
+   "key": "case033.garnier_2.title",
+   "value": "Sophie Garnier — ikinci görüşme"
+  },
+  {
+   "key": "case033.garnier_2.who.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case033.garnier_2.who.presented.flour",
+   "value": "Parmak izim elbette olacak, taşıdım. Getiren bey…"
+  },
+  {
+   "key": "case033.garnier_2.who.presented.van",
+   "value": "Beş bin avro. Firma batıyordu. Adam ‘Delorme yaşlı, kalbi zaten zayıf, kimse sormaz’ dedi. Tozu kendi verdi, ben torbaya ben karıştırdım, arabada. Fırıncının tadacağını bilmiyordum; bilsem… Adın ne olduğunu sormadım. Müzayede evinin nakliye bölümünden olduğunu söyledi, kartvizit vermedi, uzun boylu, sol elinde yüzük."
+  },
+  {
+   "key": "case033.garnier_2.who.question",
+   "value": "Torbaya kök tozunu siz eklediniz."
+  },
+  {
+   "key": "case033.method.aconite",
+   "value": "Glütensiz una karıştırılmış kurtboğan kökü (akonitin)"
+  },
+  {
+   "key": "case033.method.coffee",
+   "value": "Kahvesine bir şey katıldı"
+  },
+  {
+   "key": "case033.method.heart",
+   "value": "Kendiliğinden kalp ritim bozukluğu"
+  },
+  {
+   "key": "case033.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case033.nadine.body",
+   "value": "Kurbanın eşi."
+  },
+  {
+   "key": "case033.nadine.deflect",
+   "value": "Fırının hesapları benim işim."
+  },
+  {
+   "key": "case033.nadine.enemy.answer",
+   "value": "Didier mi? Mahallenin yarısına veresiye verirdi. Borcumuz var, evet, sigortamız yok, evet; ölmesi bana yalnız borç bıraktı. Kimse Didier’i öldürmek istemez."
+  },
+  {
+   "key": "case033.nadine.enemy.answer.demeanor",
+   "value": "Önlüğünün ipini düğümleyip çözüyor."
+  },
+  {
+   "key": "case033.nadine.enemy.question",
+   "value": "Didier’in düşmanı var mıydı?"
+  },
+  {
+   "key": "case033.nadine.order.answer",
+   "value": "Garnier Hanım’ın firması. Bir müzayede evinin yemeği; yüz kişilik ekmek, bir de tek bir glütensiz somun. Sipariş formunda yazıyor."
+  },
+  {
+   "key": "case033.nadine.order.question",
+   "value": "O özel sipariş neydi?"
+  },
+  {
+   "key": "case033.nadine.title",
+   "value": "Nadine Fontaine — görüşme"
+  },
+  {
+   "key": "case033.offer.subtitle",
+   "value": "EKMEK  /  ZEHİRLENME"
+  },
+  {
+   "key": "case033.offer.summary",
+   "value": "Belleville’de bir fırıncı sabah dördünde tattığı bir somundan zehirlenip ölüyor. Mahallenin herkesi onu seviyordu."
+  },
+  {
+   "key": "case033.offer.title",
+   "value": "DOSYA #033"
+  },
+  {
+   "key": "case033.order.body",
+   "value": "İkram firmasının fırına gönderdiği form, 15 Mayıs:\n\n· 120 adet küçük köy ekmeği — Maison Delorme, müzayede sonrası yemek, 16 Mayıs.\n· 1 adet glütensiz somun, AYRI paketlenecek — ‘1 numaralı masa: M. Auguste Delorme (çölyak). Un müşteri tarafından sağlanacaktır.’\n\nFormu imzalayan: Sophie Garnier, koordinatör."
+  },
+  {
+   "key": "case033.order.title",
+   "value": "SİPARİŞ FORMU"
+  },
+  {
+   "key": "case033.person.garnier.info",
+   "value": "41 yaşında, bir ikram firmasının koordinatörü; fırından özel sipariş alıyor."
+  },
+  {
+   "key": "case033.person.garnier.name",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.person.nadine.info",
+   "value": "55 yaşında, fırının ortağı; kurbanın eşi."
+  },
+  {
+   "key": "case033.person.nadine.name",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.person.rayan.info",
+   "value": "22 yaşında, fırının çırağı; gece vardiyasında hamuru o hazırlar."
+  },
+  {
+   "key": "case033.person.rayan.name",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.rayan.body",
+   "value": "Çırak."
+  },
+  {
+   "key": "case033.rayan.deflect",
+   "value": "Ustam öğretti, ben yaparım."
+  },
+  {
+   "key": "case033.rayan.flour.answer",
+   "value": "Bizim değil. İkram firmasındaki hanım sabah beşte getirdi, kapıda bana verdi: ‘Müşterinin kendi unu, alerjisi ağır, başka un kullanmayın.’ Ben hamuru o unla yaptım, ustam fırına verdi."
+  },
+  {
+   "key": "case033.rayan.flour.question",
+   "value": "Glütensiz unu nereden aldınız?"
+  },
+  {
+   "key": "case033.rayan.flour.variant0",
+   "value": "Un mu? …O torbayı ben açtım. Ellerime bir şey olmadı, eldiven takıyorum. Sabah beşte hanım verdi, ben yoğurdum. Sanki benim suçummuş gibi bakmayın."
+  },
+  {
+   "key": "case033.rayan.quote",
+   "value": "“Müşterinin ağzına girmeden benim ağzıma girecek.”"
+  },
+  {
+   "key": "case033.rayan.taste.answer",
+   "value": "Her özel somunu tadar. Kırk yıllık alışkanlık. ‘Müşterinin ağzına girmeden benim ağzıma girecek’ derdi. Glütensiz olanlar kolay yanar, o yüzden o somunu ilk kesti."
+  },
+  {
+   "key": "case033.rayan.taste.answer.demeanor",
+   "value": "Şapkasını iki eliyle sıkıyor."
+  },
+  {
+   "key": "case033.rayan.taste.question",
+   "value": "Usta neden o somunu tattı?"
+  },
+  {
+   "key": "case033.rayan.title",
+   "value": "Rayan Haddad — görüşme"
+  },
+  {
+   "key": "case033.report.body",
+   "value": "16 Mayıs 2030 saat 04.25’te Belleville’deki bir fırında fırıncı Didier Fontaine (58) tezgâhın yanında yığıldı. Çırak Rayan Haddad acil çağrı yaptı; Didier yolda öldü.\n\nTezgâhta bir dilimi kesilmiş, ısırılmış küçük bir glütensiz somun. Ölümden önce kusma, kollarda uyuşma, düzensiz nabız.\n\nFırın, gece özel siparişleri hazırlıyordu: bir ikram firmasının sabah 11.00 teslimi."
+  },
+  {
+   "key": "case033.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case033.request.flour",
+   "value": "Un torbasını analize gönder"
+  },
+  {
+   "key": "case033.request.order",
+   "value": "Sipariş formunu iste"
+  },
+  {
+   "key": "case033.request.van",
+   "value": "İkram minibüsünü aramak için izin iste"
+  },
+  {
+   "key": "case033.summary.evidence",
+   "value": "Toksikoloji zehri somunda buldu; sipariş formu somunun kime gittiğini, kamera torbayı kimin getirdiğini, analiz tozun sonradan eklendiğini gösterdi. İki gerekçeyle açılan minibüs araması nakdi, ikinci torbayı ve mesajları verdi."
+  },
+  {
+   "key": "case033.summary.lesson",
+   "value": "Ölen kişi hedef olmayabilir. Önce zehrin kime gittiğini sor, sonra yolda kimin eline geçtiğini."
+  },
+  {
+   "key": "case033.summary.location",
+   "value": "Belleville — Mayıs 2030"
+  },
+  {
+   "key": "case033.summary.truth",
+   "value": "Mercier’nin tutuklanmasından sonra müzayede evinin sahibi Auguste Delorme’un konuşmasından korkan biri, borç içindeki ikram koordinatörü Sophie Garnier’e beş bin avro ve bir kese kurtboğan kökü tozu verdi. Garnier tozu Delorme’un ‘kendi glütensiz unu’ diye fırına getirdiği torbaya karıştırdı. Fırıncı Didier Fontaine, her özel somunu müşteriden önce tatma alışkanlığıyla o somunun ilk dilimini yedi ve öldü."
+  },
+  {
+   "key": "case033.suspect.label",
+   "value": "Zehri kim hazırladı?"
+  },
+  {
+   "key": "case033.tablet.caseLine",
+   "value": "DOSYA #033  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case033.time.collapse",
+   "value": "04.25"
+  },
+  {
+   "key": "case033.time.form",
+   "value": "15 Mayıs"
+  },
+  {
+   "key": "case033.time.hand",
+   "value": "05.10"
+  },
+  {
+   "key": "case033.time.leave",
+   "value": "05.11"
+  },
+  {
+   "key": "case033.time.taste",
+   "value": "04.20"
+  },
+  {
+   "key": "case033.time.van",
+   "value": "05.08"
+  },
+  {
+   "key": "case033.title",
+   "value": "Dosya #033 — Ekmek"
+  },
+  {
+   "key": "case033.tox.body",
+   "value": "· Kanda ve mide içeriğinde akonitin (kurtboğan bitkisinden). Kalp ritmini bozar; dakikalar içinde etki.\n· Mide: yalnız birkaç lokma ekmek ve kahve.\n· Somunun kalanı: akonitin, yüksek yoğunluk; hamurun tamamına karışmış.\n· Fırının diğer hamurları ve unları: temiz."
+  },
+  {
+   "key": "case033.tox.title",
+   "value": "TOKSİKOLOJİ"
+  },
+  {
+   "key": "case033.van.body",
+   "value": "Sophie Garnier’in kullandığı firma minibüsü (şube şefinin onayıyla):\n\n· Torpidoda beyaz zarf, içinde 5.000 avro nakit.\n· Kapı cebinde aynı tip kraft torbadan katlanmış bir tane daha, içi boş; dibinde akonitin tozu.\n· Telefonunda 14 Mayıs, kayıtsız numaradan mesaj: ‘Torba yarın sabah. Yalnız 1 numaralı masa. Gerisi temiz.’\n· Aynı numaradan 12 Mayıs: ‘Mercier’den sonra Delorme konuşacak. Konuşmadan.’"
+  },
+  {
+   "key": "case033.van.title",
+   "value": "İKRAM MİNİBÜSÜ ARAMASI"
+  },
+  {
+   "key": "case033.verdict.garnier",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.verdict.nadine",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.verdict.rayan",
+   "value": "Rayan Haddad"
+  }
+ ]
+}

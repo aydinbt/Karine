@@ -43,6 +43,15 @@
       "videoPath": "",
       "backdropResource": "Bube/Worlds/jp",
       "graphicsEmbedded": false
+    },
+    {
+      "id": "world05",
+      "firstCaseId": "case032",
+      "countryKey": "world.fr.name",
+      "locationKey": "intro.world05.city",
+      "videoPath": "",
+      "backdropResource": "Bube/Worlds/fr",
+      "graphicsEmbedded": false
     }
   ],
   "reportSendVideo": "Bube/report_send.mp4",

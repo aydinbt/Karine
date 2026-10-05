@@ -1,0 +1,568 @@
+{
+ "entries": [
+  {
+   "key": "case036.autopsy.body",
+   "value": "· Başın sağ arkasında ağır, yuvarlak tabanlı bir cisimle tek darbe; yarada cam tozu ve şarap.\n· Ölüm zamanı: 22.00–22.30.\n· Ellerde ve tırnaklarda kırmızı şarap; cebinde mahzen anahtarı ve küçük bir şarap açacağı."
+  },
+  {
+   "key": "case036.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case036.brassard.body",
+   "value": "Maison Delorme’un nakliye direktörü."
+  },
+  {
+   "key": "case036.brassard.deflect",
+   "value": "Maison Delorme’un iş ilişkileri gizlidir."
+  },
+  {
+   "key": "case036.brassard.sale.answer",
+   "value": "Maison Delorme adına. Mercier’nin talihsiz olayından sonra özel satışları ben devraldım. Henri’nin ölümü satışı erteler, o kadar. Ben bütün akşam kütüphanedeydim; Bay Doyle şahidim."
+  },
+  {
+   "key": "case036.brassard.sale.answer.demeanor",
+   "value": "Yüzüğünü baş parmağıyla çeviriyor."
+  },
+  {
+   "key": "case036.brassard.sale.question",
+   "value": "Satışı siz mi yönetiyordunuz?"
+  },
+  {
+   "key": "case036.brassard.title",
+   "value": "Antoine Brassard — görüşme"
+  },
+  {
+   "key": "case036.caron.body",
+   "value": "Şarap eksperi."
+  },
+  {
+   "key": "case036.caron.bottle.answer",
+   "value": "Satış listesindeki on iki şişe. Bir 1961’in mantarı yeni; altı ayda açılmış, yeniden mantarlanmış. İçindeki şarap 1961 değil, en fazla beş yaşında. Henri’ye 21.45’te söyledim. Yüzü bembeyaz oldu, ‘mahzene ineceğim, hepsine bakacağım’ dedi."
+  },
+  {
+   "key": "case036.caron.bottle.answer.demeanor",
+   "value": "Kaşlarını kaldırıp parmaklarıyla masaya vuruyor."
+  },
+  {
+   "key": "case036.caron.bottle.question",
+   "value": "Akşam ne incelediniz?"
+  },
+  {
+   "key": "case036.caron.deflect",
+   "value": "Ekspertiz raporlarım müşterime aittir."
+  },
+  {
+   "key": "case036.caron.title",
+   "value": "Yves Caron — görüşme"
+  },
+  {
+   "key": "case036.caron.who.answer",
+   "value": "Sommelier, yirmi yıldır. Henri ona körü körüne güvenirdi."
+  },
+  {
+   "key": "case036.caron.who.question",
+   "value": "Mahzeni kim yönetiyordu?"
+  },
+  {
+   "key": "case036.cctv.event.down",
+   "value": "Kamera: Smokinli yaşlı bir adam mahzen kapısının kilidini açıp tek başına iniyor; kapı arkasından kapanıyor."
+  },
+  {
+   "key": "case036.cctv.event.pass",
+   "value": "Kamera: Siyah yelekli bir adam elinde gümüş tepsiyle kapalı mahzen kapısının önünden durmadan geçiyor."
+  },
+  {
+   "key": "case036.cctv.event.still",
+   "value": "Kamera: Koridor uzun süre boş; mahzen kapısı kapalı ve kilitli kalıyor."
+  },
+  {
+   "key": "case036.cctv.overlay",
+   "value": "CAVE-1"
+  },
+  {
+   "key": "case036.cctv.period",
+   "value": "8 Haziran 2030"
+  },
+  {
+   "key": "case036.cctv.source",
+   "value": "Koridor kamerası"
+  },
+  {
+   "key": "case036.cellar.body",
+   "value": "Mahzen kapısının önü. 8 Haziran 21.30 – 23.45."
+  },
+  {
+   "key": "case036.cellar.title",
+   "value": "MAHZEN KORİDORU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case036.clue.bell",
+   "value": "Şarap asansörünün zili çalıyor; kabin boş."
+  },
+  {
+   "key": "case036.clue.caron",
+   "value": "Eksper, 1961’in sahte olduğunu ev sahibine söylüyor."
+  },
+  {
+   "key": "case036.clue.down",
+   "value": "Ev sahibi mahzen kapısını açıp tek başına iniyor."
+  },
+  {
+   "key": "case036.clue.open",
+   "value": "Mahzen kapısı yedek anahtarla açılıyor."
+  },
+  {
+   "key": "case036.clue.pass",
+   "value": "Siyah yelekli adam kapalı mahzen kapısının önünden geçiyor."
+  },
+  {
+   "key": "case036.clue.source.caron",
+   "value": "Şarap eksperi"
+  },
+  {
+   "key": "case036.clue.source.pinto",
+   "value": "Kâhya"
+  },
+  {
+   "key": "case036.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case036.custody.door",
+   "value": "Kapıdan, kopya anahtarla"
+  },
+  {
+   "key": "case036.custody.inside",
+   "value": "Çıkmadı — kurban yalnızdı"
+  },
+  {
+   "key": "case036.custody.label",
+   "value": "Katil kilitli mahzenden nasıl çıktı?"
+  },
+  {
+   "key": "case036.custody.lift",
+   "value": "Şarap asansörüyle yemek salonuna"
+  },
+  {
+   "key": "case036.doyle.body",
+   "value": "Chicago’dan alıcı temsilcisi."
+  },
+  {
+   "key": "case036.doyle.buy.answer",
+   "value": "Müvekkilim adına beş eser. Köken mektupları kusursuz, Dr. Varga imzalı. Sevkiyatı Lakeshore Freight yapacak, her zamanki gibi. Ben kütüphanedeydim, Antoine Brassard’la; şarap umurumda değil."
+  },
+  {
+   "key": "case036.doyle.buy.answer.demeanor",
+   "value": "Gülümsüyor, gözleri sabit."
+  },
+  {
+   "key": "case036.doyle.buy.question",
+   "value": "Ne almaya geldiniz?"
+  },
+  {
+   "key": "case036.doyle.deflect",
+   "value": "Müvekkilimin adını veremem."
+  },
+  {
+   "key": "case036.doyle.title",
+   "value": "Marcus Doyle — görüşme"
+  },
+  {
+   "key": "case036.epilogue.custody.door",
+   "value": "Kopya anahtar arandı, bulunamadı; kamera kapıyı kapalı gösteriyordu."
+  },
+  {
+   "key": "case036.epilogue.custody.inside",
+   "value": "Mahzenin kilitli olması kazanın kanıtı sayıldı."
+  },
+  {
+   "key": "case036.epilogue.custody.lift",
+   "value": "Katilin mahzenden eski şarap asansörüyle çıktığı yazıldı."
+  },
+  {
+   "key": "case036.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; satış iki hafta sonra yapıldı."
+  },
+  {
+   "key": "case036.epilogue.verdict.brassard",
+   "value": "Antoine Brassard gözaltına alındı, ertesi gün bırakıldı; sommelier işine devam etti."
+  },
+  {
+   "key": "case036.epilogue.verdict.gaspard",
+   "value": "Gaspard de Vauclair tutuklandı; mahzenin ikinci yolu hiç aranmadı."
+  },
+  {
+   "key": "case036.epilogue.verdict.petit",
+   "value": "Arnaud Petit tutuklandı. Satış iptal edildi. Marcus Doyle ertesi sabah Chicago’ya döndü; Antoine Brassard satış dosyasını Maison Delorme’a geri götürdü."
+  },
+  {
+   "key": "case036.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case036.evidence.cellar",
+   "value": "Mahzen koridoru kamerası"
+  },
+  {
+   "key": "case036.evidence.liftlog",
+   "value": "Şarap asansörü incelemesi"
+  },
+  {
+   "key": "case036.evidence.storage",
+   "value": "Sommelier’nin deposu — arama"
+  },
+  {
+   "key": "case036.feedback.accident",
+   "value": "Darbe arkadan, tek ve yuvarlak tabanlı; kırık magnumun tabanında kan var, raftan düşen bir şişe böyle vurmaz."
+  },
+  {
+   "key": "case036.feedback.brassard",
+   "value": "Delorme’un direktörü bütün akşam kütüphanedeydi; Chicago temsilcisi ve kâhya bunu doğruluyor."
+  },
+  {
+   "key": "case036.feedback.gaspard",
+   "value": "Oğul tartıştı ama 22.00’de annesinin kapısının önünden odasına geçti; mahzen kapısı kilitliydi."
+  },
+  {
+   "key": "case036.feedback.petit",
+   "value": "Eksper sahteciliği 21.45’te ortaya çıkardı; sommelier asansörle mahzene inip çıktı, zil 22.17’de çaldı. Kabindeki lif ve şarap, deposundaki yelekle eşleşiyor; depoda altı yıllık sahtecilik var."
+  },
+  {
+   "key": "case036.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case036.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case036.file.value.location",
+   "value": "Fontainebleau, şato — şarap mahzeni"
+  },
+  {
+   "key": "case036.file.value.number",
+   "value": "BDP-PAR-2030-0140"
+  },
+  {
+   "key": "case036.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case036.file.value.reporter",
+   "value": "Şato"
+  },
+  {
+   "key": "case036.gaspard.body",
+   "value": "Kurbanın oğlu."
+  },
+  {
+   "key": "case036.gaspard.deflect",
+   "value": "Mali konular avukatımızda."
+  },
+  {
+   "key": "case036.gaspard.fight.answer",
+   "value": "Satış yüzünden. Şatonun borcu üç milyon. Babam ‘Delorme’la bu satışı yapıp her şeyi kapatacağız’ dedi; ben o Chicago’lu adamlarla iş yapmak istemedim. 22.00’de odama çıktım, annemin kapısının önünden geçtim."
+  },
+  {
+   "key": "case036.gaspard.fight.answer.demeanor",
+   "value": "Kazağının kolunu çekiştiriyor."
+  },
+  {
+   "key": "case036.gaspard.fight.question",
+   "value": "Babanızla tartışmışsınız."
+  },
+  {
+   "key": "case036.gaspard.title",
+   "value": "Gaspard de Vauclair — görüşme"
+  },
+  {
+   "key": "case036.helene.body",
+   "value": "Kurbanın eşi."
+  },
+  {
+   "key": "case036.helene.deflect",
+   "value": "Ailemizin işlerini konuşmam."
+  },
+  {
+   "key": "case036.helene.night.answer",
+   "value": "Odamda. Gaspard 22.00’de koridordan geçti, sesini duydum. Henri ile otuz yıl… Ayrı odalarda uyuyorduk, ama mahzene onun yanına inmezdim, inmem."
+  },
+  {
+   "key": "case036.helene.night.question",
+   "value": "Gece neredeydiniz?"
+  },
+  {
+   "key": "case036.helene.title",
+   "value": "Hélène de Vauclair — görüşme"
+  },
+  {
+   "key": "case036.liftlog.body",
+   "value": "Mahzenden yemek salonuna çıkan el asansörü:\n\n· Kabin iç ölçüsü 70 × 60 × 90 cm. Ortalama yapılı bir yetişkin dizlerini çekerek sığar; yük sınırı 120 kg.\n· Kabin tabanında kaygan toz izleri ve iki damla kırmızı şarap; zeminde bir siyah yün lifi.\n· Mahzen tarafında makara iki elle çekilerek kabin içinden de yukarı alınabilir.\n· Yemek salonu tarafındaki kapağın iç kolunda Arnaud Petit’nin parmak izi; sommelier asansörü her gün kullanır."
+  },
+  {
+   "key": "case036.liftlog.title",
+   "value": "ŞARAP ASANSÖRÜ İNCELEMESİ"
+  },
+  {
+   "key": "case036.method.fall",
+   "value": "Merdivende düştü"
+  },
+  {
+   "key": "case036.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case036.method.magnum",
+   "value": "Magnum şişeyle başına vuruldu"
+  },
+  {
+   "key": "case036.method.rack",
+   "value": "Raf devrildi"
+  },
+  {
+   "key": "case036.offer.subtitle",
+   "value": "MAHZEN  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case036.offer.summary",
+   "value": "Fontainebleau’da bir şatonun sahibi, özel bir satış gecesinde kilitli şarap mahzeninde ölü. Anahtar cebinde."
+  },
+  {
+   "key": "case036.offer.title",
+   "value": "DOSYA #036"
+  },
+  {
+   "key": "case036.person.brassard.info",
+   "value": "57 yaşında, Maison Delorme’un nakliye ve özel satışlar direktörü."
+  },
+  {
+   "key": "case036.person.brassard.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.person.caron.info",
+   "value": "66 yaşında, şarap eksperi; satış için şişeleri inceliyordu."
+  },
+  {
+   "key": "case036.person.caron.name",
+   "value": "Yves Caron"
+  },
+  {
+   "key": "case036.person.doyle.info",
+   "value": "45 yaşında, Chicago’dan gelen alıcı temsilcisi; sanat lojistiği yapıyor."
+  },
+  {
+   "key": "case036.person.doyle.name",
+   "value": "Marcus Doyle"
+  },
+  {
+   "key": "case036.person.gaspard.info",
+   "value": "34 yaşında, kurbanın oğlu; şatonun borçlarını yönetiyor."
+  },
+  {
+   "key": "case036.person.gaspard.name",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.person.helene.info",
+   "value": "63 yaşında, kurbanın eşi; şatonun sahibi."
+  },
+  {
+   "key": "case036.person.helene.name",
+   "value": "Hélène de Vauclair"
+  },
+  {
+   "key": "case036.person.petit.info",
+   "value": "52 yaşında, şatonun sommelier’si; mahzenden yirmi yıldır sorumlu."
+  },
+  {
+   "key": "case036.person.petit.name",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.person.pinto.info",
+   "value": "58 yaşında, şatonun kâhyası."
+  },
+  {
+   "key": "case036.person.pinto.name",
+   "value": "Rosa Pinto"
+  },
+  {
+   "key": "case036.petit.body",
+   "value": "Sommelier."
+  },
+  {
+   "key": "case036.petit.deflect",
+   "value": "Mahzenin kayıtları bende değil, beyefendide."
+  },
+  {
+   "key": "case036.petit.night.answer",
+   "value": "Kütüphanede misafirlere konyak servisi. 22.03’te koridordan geçtim, kamera beni görmüştür; mahzen kapısı kapalıydı, beyefendi aşağıdaydı, rahatsız etmedim."
+  },
+  {
+   "key": "case036.petit.night.answer.demeanor",
+   "value": "Gümüş tastevini parmaklarıyla çeviriyor."
+  },
+  {
+   "key": "case036.petit.night.question",
+   "value": "22.00–22.30 arası neredeydiniz?"
+  },
+  {
+   "key": "case036.petit.night.variant0",
+   "value": "Asansör mü? O asansör yirmi yıldır yalnız şişe taşır. Bir insan sığmaz. Ben 22.03’te koridordaydım."
+  },
+  {
+   "key": "case036.petit.title",
+   "value": "Arnaud Petit — görüşme"
+  },
+  {
+   "key": "case036.petit_2.body",
+   "value": "Arama üzerine."
+  },
+  {
+   "key": "case036.petit_2.lift.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.liftlog",
+   "value": "İzim her gün orada olur. Bir şey kanıtlamaz."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.storage",
+   "value": "Altı yıl. Kimse fark etmedi, ta ki o yaşlı eksper mantarı koklayana kadar. Konyak servisinden sonra salonun asansörüyle aşağı indim, beyefendi raflarda şişeleri tek tek çekiyordu. ‘Arnaud, bu ne?’ dedi. Elimdeki magnumla… Sonra kabine sığdım, makarayı çektim. Kapı hep kilitli kaldı, anahtarı onun cebindeydi."
+  },
+  {
+   "key": "case036.petit_2.lift.question",
+   "value": "22.17’de asansörle salona çıkan sizdiniz."
+  },
+  {
+   "key": "case036.petit_2.title",
+   "value": "Arnaud Petit — ikinci görüşme"
+  },
+  {
+   "key": "case036.pinto.bell.answer",
+   "value": "Yemek salonunun duvarındaki şarap asansörünün zili 22.17’de çaldı. Asansör mahzenden yukarı gelince çalar. Gittim, kabin boştu. Beyefendi bazen şişe gönderir, gönderemezse… boş kabin tuhaftı. Kimseye söylemedim."
+  },
+  {
+   "key": "case036.pinto.bell.answer.demeanor",
+   "value": "Önlüğünün ucunu katlayıp düzeltiyor."
+  },
+  {
+   "key": "case036.pinto.bell.question",
+   "value": "Gece bir şey duydunuz mu?"
+  },
+  {
+   "key": "case036.pinto.body",
+   "value": "Kâhya."
+  },
+  {
+   "key": "case036.pinto.deflect",
+   "value": "Ben evi çekip çeviririm, gerisini bilmem."
+  },
+  {
+   "key": "case036.pinto.title",
+   "value": "Rosa Pinto — görüşme"
+  },
+  {
+   "key": "case036.pinto.who.answer",
+   "value": "Kimse. Misafirler kütüphanedeydi. Arnaud Bey bir ara kütüphanede yoktu, mahzene şişe almaya gitmiştir diye düşündüm."
+  },
+  {
+   "key": "case036.pinto.who.question",
+   "value": "Zil çaldığında salonda kim vardı?"
+  },
+  {
+   "key": "case036.report.body",
+   "value": "8 Haziran 2030 gecesi Fontainebleau yakınlarındaki bir şatoda, özel bir eser satışının ardından şato sahibi Henri de Vauclair (68) kendi şarap mahzeninde ölü bulundu. Başında ağır yara; yanında kırık bir magnum.\n\nMahzenin tek kapısı kilitli bulundu; anahtar kurbanın cebinde. Kapıyı kâhya Rosa Pinto’nun yedek anahtarıyla 23.40’ta açtılar.\n\nŞatoda o gece: eşi Hélène, oğlu Gaspard, sommelier Arnaud Petit, kâhya Rosa Pinto, şarap eksperi Yves Caron, Chicago’dan alıcı temsilcisi Marcus Doyle, Maison Delorme’dan Antoine Brassard."
+  },
+  {
+   "key": "case036.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case036.request.liftlog",
+   "value": "Şarap asansörünü incelemeye gönder"
+  },
+  {
+   "key": "case036.request.storage",
+   "value": "Arnaud Petit’nin deposunu aramak için izin iste"
+  },
+  {
+   "key": "case036.storage.body",
+   "value": "Arnaud Petit adına Melun’de kiralanmış bir depo (şube şefinin onayıyla):\n\n· 214 boş, eskitilmiş şarap etiketi; 1945–1990 arası büyük şato yılları. Kutularca eski mantar, çay ve kahve boyası.\n· Şato mahzeninden çıkmış 86 gerçek şişe; bir Lüksemburg alıcısıyla yazışma: ‘altı yılda 1,4 milyon avro’.\n· Asılı bir siyah yün yelek; yakasında cam tozu ve kırmızı şarap; lifleri asansördeki lifle aynı."
+  },
+  {
+   "key": "case036.storage.title",
+   "value": "SOMMELİER’NİN DEPOSU — ARAMA"
+  },
+  {
+   "key": "case036.summary.evidence",
+   "value": "Koridor kamerası kapının hiç açılmadığını, kâhya 22.17’de çalan asansör zilini, asansör incelemesi kabindeki lifi ve şarabı gösterdi. İki gerekçeyle açılan depo araması sahteciliği ve yeleği verdi."
+  },
+  {
+   "key": "case036.summary.lesson",
+   "value": "Kilitli bir oda, yalnız bilinen kapıları kilitlidir. Evi yöneten kişinin her gün kullandığı yolu sor."
+  },
+  {
+   "key": "case036.summary.location",
+   "value": "Fontainebleau — Haziran 2030"
+  },
+  {
+   "key": "case036.summary.truth",
+   "value": "Sommelier Arnaud Petit altı yıldır şatonun büyük şaraplarını sahteleriyle değiştirip gerçeklerini satıyordu. Özel satış gecesi eksper Yves Caron bir 1961’in sahte olduğunu bulunca Henri de Vauclair mahzene indi. Petit konyak servisinin arasında yemek salonundaki şarap asansörüyle aşağı indi, raflarda şişeleri çeken ev sahibini magnumla öldürdü ve kabine sığıp makarayla yukarı çıktı. Kapı baştan sona kilitli kaldı."
+  },
+  {
+   "key": "case036.suspect.label",
+   "value": "Henri de Vauclair’i kim öldürdü?"
+  },
+  {
+   "key": "case036.tablet.caseLine",
+   "value": "DOSYA #036  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case036.time.bell",
+   "value": "22.17"
+  },
+  {
+   "key": "case036.time.caron",
+   "value": "21.45"
+  },
+  {
+   "key": "case036.time.down",
+   "value": "21.58"
+  },
+  {
+   "key": "case036.time.open",
+   "value": "23.40"
+  },
+  {
+   "key": "case036.time.pass",
+   "value": "22.03"
+  },
+  {
+   "key": "case036.time.still",
+   "value": "22.04–23.39"
+  },
+  {
+   "key": "case036.title",
+   "value": "Dosya #036 — Mahzen"
+  },
+  {
+   "key": "case036.verdict.accident",
+   "value": "Kimse — raftan şişe düştü"
+  },
+  {
+   "key": "case036.verdict.brassard",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.verdict.gaspard",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.verdict.petit",
+   "value": "Arnaud Petit"
+  }
+ ]
+}

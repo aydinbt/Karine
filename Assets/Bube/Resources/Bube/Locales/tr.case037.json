@@ -1,0 +1,512 @@
+{
+ "entries": [
+  {
+   "key": "case037.aubert.body",
+   "value": "Gece bekçisi."
+  },
+  {
+   "key": "case037.aubert.car.answer",
+   "value": "Lenoir Bey’in sedanı. 21.30 turunda hâlâ oradaydı; ‘taksiyle gitmiş, arabayı sabah alır’ dedim. Bir sonraki turda yoktu."
+  },
+  {
+   "key": "case037.aubert.car.answer.demeanor",
+   "value": "Fenerini avucunda çeviriyor."
+  },
+  {
+   "key": "case037.aubert.car.question",
+   "value": "Avluda ne gördünüz?"
+  },
+  {
+   "key": "case037.aubert.deflect",
+   "value": "Ben kapıya bakarım, ofislere girmem."
+  },
+  {
+   "key": "case037.aubert.light.answer",
+   "value": "21.30’da atölyenin ışığı kapalıydı. 23.10’da açıktı, pres vınlıyordu."
+  },
+  {
+   "key": "case037.aubert.light.question",
+   "value": "Atölyede ışık?"
+  },
+  {
+   "key": "case037.aubert.title",
+   "value": "Serge Aubert — görüşme"
+  },
+  {
+   "key": "case037.autopsy.body",
+   "value": "· Avuç içindeki yanık izleri yüzeysel ve ölüm sonrası; dokuda canlı tepki yok.\n· Dil kemiğinde kırık; boyunda yaklaşık 2 cm genişliğinde yatay, düz bir bant izi.\n· Ölüm nedeni: boğulma. Ölüm zamanı: 20.45–21.15."
+  },
+  {
+   "key": "case037.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case037.badges.body",
+   "value": "14 Haziran:\n\n· Clémence Roux — çıkış 19.40\n· Fatou Diallo — çıkış 20.02\n· Baptiste Lenoir — çıkış 20.10\n· Lina Haddad — çıkış kaydı yok\n\nArka merdivenin kapısı kartsızdır; içeriden açılır."
+  },
+  {
+   "key": "case037.badges.title",
+   "value": "GİRİŞ KARTI KAYITLARI"
+  },
+  {
+   "key": "case037.cctv.event.car",
+   "value": "Kamera: Avlu boş; lambanın altında koyu renk bir sedan park halinde."
+  },
+  {
+   "key": "case037.cctv.event.leave",
+   "value": "Kamera: Aynı sedanın farları yanıyor, araba kapıdan çıkıyor."
+  },
+  {
+   "key": "case037.cctv.event.walk",
+   "value": "Kamera: Koyu takım elbiseli bir adam telefonla konuşarak araba kapısından yürüyerek çıkıyor."
+  },
+  {
+   "key": "case037.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case037.cctv.period",
+   "value": "14 Haziran 2030"
+  },
+  {
+   "key": "case037.cctv.source",
+   "value": "Avlu kamerası"
+  },
+  {
+   "key": "case037.clemence.body",
+   "value": "Baş tasarımcı."
+  },
+  {
+   "key": "case037.clemence.deflect",
+   "value": "Koleksiyonu konuşurum, muhasebeyi değil."
+  },
+  {
+   "key": "case037.clemence.fight.answer",
+   "value": "Bir kumaşı ters kesmişti, bağırdım. Utanıyorum. 19.40’ta çıktım, Bastille’de yemekteydim; masadaki altı kişi şahit."
+  },
+  {
+   "key": "case037.clemence.fight.answer.demeanor",
+   "value": "Bileğindeki iğnelikle oynuyor."
+  },
+  {
+   "key": "case037.clemence.fight.question",
+   "value": "Lina’yla öğlen tartışmışsınız."
+  },
+  {
+   "key": "case037.clemence.licence.answer",
+   "value": "Baptiste. Benim tasarımlarımı Japon kızlara giydirdi, bana sormadı bile. Ödemeler neden Delorme diye bir şirketten geçiyor, onu da bilmiyorum."
+  },
+  {
+   "key": "case037.clemence.licence.question",
+   "value": "Tokyo lisansını kim yürütüyor?"
+  },
+  {
+   "key": "case037.clemence.title",
+   "value": "Clémence Roux — görüşme"
+  },
+  {
+   "key": "case037.clue.dout",
+   "value": "Fatou Diallo çıkıyor; Lina kalıyor."
+  },
+  {
+   "key": "case037.clue.found",
+   "value": "Bekçi cesedi buluyor."
+  },
+  {
+   "key": "case037.clue.leave",
+   "value": "Sedan avludan çıkıyor."
+  },
+  {
+   "key": "case037.clue.msg",
+   "value": "Lina’nın son mesajı: ‘Faturalar ikiye katlanıyor.’"
+  },
+  {
+   "key": "case037.clue.on",
+   "value": "Pres telefondan açılıyor."
+  },
+  {
+   "key": "case037.clue.source.badges",
+   "value": "Kart kayıtları"
+  },
+  {
+   "key": "case037.clue.source.diallo",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.clue.source.presslog",
+   "value": "Enerji kaydı"
+  },
+  {
+   "key": "case037.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case037.clue.walk",
+   "value": "Takım elbiseli adam avludan yürüyerek çıkıyor; araba kalıyor."
+  },
+  {
+   "key": "case037.court.body",
+   "value": "Binanın avlusu. 14 Haziran 20.00 – 23.15."
+  },
+  {
+   "key": "case037.court.title",
+   "value": "AVLU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case037.custody.fault",
+   "value": "Arızadan kendiliğinden açıldı"
+  },
+  {
+   "key": "case037.custody.forgot",
+   "value": "Kurban kendisi açık unuttu"
+  },
+  {
+   "key": "case037.custody.label",
+   "value": "Pres neden açıktı?"
+  },
+  {
+   "key": "case037.custody.staged",
+   "value": "Ölümden sonra telefonla açıldı"
+  },
+  {
+   "key": "case037.diallo.body",
+   "value": "Terzi."
+  },
+  {
+   "key": "case037.diallo.deflect",
+   "value": "Ben dikerim, kâğıtları ben görmem."
+  },
+  {
+   "key": "case037.diallo.msg.answer",
+   "value": "20.02’de çıkarken ‘sen git, ben kalıyorum, birine bir şey göstereceğim’ dedi. 20.31’de mesaj attı: ‘Haklıymışım. Faturalar ikiye katlanıyor. Yarın anlatırım.’ Yarın olmadı."
+  },
+  {
+   "key": "case037.diallo.msg.answer.demeanor",
+   "value": "Boynundaki mezurayı iki eliyle tutuyor."
+  },
+  {
+   "key": "case037.diallo.msg.question",
+   "value": "Lina size bir şey söyledi mi?"
+  },
+  {
+   "key": "case037.diallo.title",
+   "value": "Fatou Diallo — görüşme"
+  },
+  {
+   "key": "case037.diallo.who.answer",
+   "value": "Söylemedi. Ama hafta boyunca lisans dosyalarının fotokopisini çekiyordu, dolabında saklıyordu."
+  },
+  {
+   "key": "case037.diallo.who.question",
+   "value": "Kime gösterecekti?"
+  },
+  {
+   "key": "case037.epilogue.custody.fault",
+   "value": "Prizin elle açıldığı kayıtta yazıyordu."
+  },
+  {
+   "key": "case037.epilogue.custody.forgot",
+   "value": "Kayıt 21.41’i gösteriyor; kurban o saatte ölüydü."
+  },
+  {
+   "key": "case037.epilogue.custody.staged",
+   "value": "Presin ölümden sonra, uzaktan, sahne kurmak için açıldığı yazıldı."
+  },
+  {
+   "key": "case037.epilogue.verdict.accident",
+   "value": "Ölüm iş kazası sayıldı; marka bir tazminat ödedi."
+  },
+  {
+   "key": "case037.epilogue.verdict.aubert",
+   "value": "Serge Aubert gözaltına alındı; lisans dosyası açılmadı."
+  },
+  {
+   "key": "case037.epilogue.verdict.clemence",
+   "value": "Clémence Roux tutuklandı; faturalar dolapta kaldı."
+  },
+  {
+   "key": "case037.epilogue.verdict.lenoir",
+   "value": "Baptiste Lenoir tutuklandı. Faturalar Maison Delorme’a ve Tokyo’daki ajansa kadar izlendi. Antoine Brassard’a giden mesaj dosyaya girdi; Brassard ifade vermeyi reddetti."
+  },
+  {
+   "key": "case037.evidence.court",
+   "value": "Avlu kamerası"
+  },
+  {
+   "key": "case037.evidence.locker",
+   "value": "Kurbanın dolabı"
+  },
+  {
+   "key": "case037.evidence.presslog",
+   "value": "Pres enerji kaydı"
+  },
+  {
+   "key": "case037.evidence.search",
+   "value": "Baptiste Lenoir’ın ofisi ve telefonu — arama"
+  },
+  {
+   "key": "case037.feedback.accident",
+   "value": "Yanıklar ölüm sonrası; ölüm boğulma, pres ölümden yarım saat sonra açılmış."
+  },
+  {
+   "key": "case037.feedback.aubert",
+   "value": "Bekçinin tur saatleri pres kaydıyla çelişmiyor; ne prizin uygulamasına ne faturaya erişimi var."
+  },
+  {
+   "key": "case037.feedback.clemence",
+   "value": "Tasarımcı öğlen bağırdı ama 19.40’ta çıktı; altı kişi Bastille’de onunla yemekteydi."
+  },
+  {
+   "key": "case037.feedback.lenoir",
+   "value": "Kartını okutup yürüyerek çıktı ama arabası 21.54’e dek avludaydı; pres onun telefonundan 21.41’de açıldı, ölümden yarım saat sonra. Ofisindeki bıçakta kablonun yalıtımı var; kurban onun hazırladığı çift faturaları bulmuştu."
+  },
+  {
+   "key": "case037.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case037.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case037.file.value.location",
+   "value": "Le Marais, moda atölyesi"
+  },
+  {
+   "key": "case037.file.value.number",
+   "value": "BDP-PAR-2030-0151"
+  },
+  {
+   "key": "case037.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case037.file.value.reporter",
+   "value": "Gece bekçisi"
+  },
+  {
+   "key": "case037.lenoir.body",
+   "value": "Lisans direktörü."
+  },
+  {
+   "key": "case037.lenoir.deflect",
+   "value": "Lisans sözleşmeleri gizlilik maddesine tabidir."
+  },
+  {
+   "key": "case037.lenoir.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case037.lenoir.end.presented.badges",
+   "value": "Kartımı okuttum, evet. Bu kadar."
+  },
+  {
+   "key": "case037.lenoir.end.presented.locker",
+   "value": "Bir terzinin fotokopileri. Neyi kanıtlar?"
+  },
+  {
+   "key": "case037.lenoir.end.presented.search",
+   "value": "Delorme ödüyordu, Tokyo alıyordu, ben de arada payımı. Lina iki faturayı yan yana koydu, ‘polise götüreceğim’ dedi. Elinde mezura vardı… Sonra presin kablosunu kestim, avucuna verdim, prizi telefondan açtım. Brassard’a yazdım, çünkü o sorar."
+  },
+  {
+   "key": "case037.lenoir.end.question",
+   "value": "Lina size faturaları gösterdi."
+  },
+  {
+   "key": "case037.lenoir.night.answer",
+   "value": "20.10’da kartımı okuttum, çıktım, yürüdüm. Kamera da gösterir. Arabamı bıraktım, şarap içmiştim."
+  },
+  {
+   "key": "case037.lenoir.night.answer.demeanor",
+   "value": "Mendilini düzeltiyor."
+  },
+  {
+   "key": "case037.lenoir.night.question",
+   "value": "Akşam neredeydiniz?"
+  },
+  {
+   "key": "case037.lenoir.night.variant0",
+   "value": "Arabamı sonra almaya döndüm, evet. Arka merdivenden mi? Ofisime bir dosya için çıktım, atölyeye girmedim."
+  },
+  {
+   "key": "case037.lenoir.title",
+   "value": "Baptiste Lenoir — görüşme"
+  },
+  {
+   "key": "case037.locker.body",
+   "value": "Lina Haddad’ın atölye dolabından:\n\n· Tokyo lisans faturalarının fotokopileri: aynı koleksiyon için iki ayrı fatura; biri Maison Lévrier’ye 180.000 avro, öbürü Maison Delorme hesabına 410.000 avro. İkincisinin köşesinde mavi mürekkeple ‘E. V.’ onayı.\n· Faturaları hazırlayan: lisans direktörü Baptiste Lenoir.\n· Bir yapışkan kâğıt: ‘B. L.’ye sor?’"
+  },
+  {
+   "key": "case037.locker.title",
+   "value": "KURBANIN DOLABI"
+  },
+  {
+   "key": "case037.method.fall",
+   "value": "Düşüp başını çarptı"
+  },
+  {
+   "key": "case037.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case037.method.shock",
+   "value": "Buhar presinden elektrik çarptı"
+  },
+  {
+   "key": "case037.method.strangle",
+   "value": "Terzi mezurasıyla boğuldu"
+  },
+  {
+   "key": "case037.offer.subtitle",
+   "value": "ATÖLYE  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case037.offer.summary",
+   "value": "Le Marais’de bir moda evinde genç bir terzi buhar presinin önünde ölü. Pres, öldükten sonra açılmış."
+  },
+  {
+   "key": "case037.offer.title",
+   "value": "DOSYA #037"
+  },
+  {
+   "key": "case037.person.aubert.info",
+   "value": "61 yaşında, binanın gece bekçisi."
+  },
+  {
+   "key": "case037.person.aubert.name",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.person.clemence.info",
+   "value": "41 yaşında, Maison Lévrier’nin baş tasarımcısı."
+  },
+  {
+   "key": "case037.person.clemence.name",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.person.diallo.info",
+   "value": "36 yaşında, atölyede terzi; kurbanın en yakın arkadaşı."
+  },
+  {
+   "key": "case037.person.diallo.name",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.person.lenoir.info",
+   "value": "49 yaşında, markanın lisans ve uluslararası anlaşmalar direktörü."
+  },
+  {
+   "key": "case037.person.lenoir.name",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.presslog.body",
+   "value": "Presin akıllı prizinden alınan kayıt:\n\n· 19.52 kapatıldı (gün sonu)\n· 21.41 açıldı\n· 21.41’den itibaren sürekli akım; 21.43’te kısa devre sigortayı attırmadı, yalıtım sıyrığı tek tel.\n\nPrizin uygulaması atölye şefi hesabına bağlı; telefon dışından elle açılmış."
+  },
+  {
+   "key": "case037.presslog.title",
+   "value": "BUHAR PRESİ — ENERJİ KAYDI"
+  },
+  {
+   "key": "case037.report.body",
+   "value": "14 Haziran 2030 gecesi Le Marais’deki Maison Lévrier atölyesinde terzi Lina Haddad (27) buhar presinin önünde ölü bulundu. Pres açık; elinde presin kablosu.\n\nCesedi gece bekçisi Serge Aubert 23.10’daki turunda buldu. Atölye 20.00’de kapanır; o akşam binaya giriş kartıyla girip çıkanlar: Clémence Roux, Baptiste Lenoir, Fatou Diallo."
+  },
+  {
+   "key": "case037.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case037.request.locker",
+   "value": "Kurbanın dolabını aç"
+  },
+  {
+   "key": "case037.request.presslog",
+   "value": "Presin akıllı priz kaydını iste"
+  },
+  {
+   "key": "case037.request.search",
+   "value": "Baptiste Lenoir’ın ofisi ve telefonu için arama izni iste"
+  },
+  {
+   "key": "case037.search.body",
+   "value": "Şube şefinin onayıyla:\n\n· Baptiste Lenoir’ın telefonunda 21.41’de atölye prizinin uygulaması açılmış; hesap atölye şefinden paylaşılmış.\n· Ofis çekmecesinde maket bıçağı; bıçakta pres kablosunun gri yalıtımından parçalar.\n· Silinen bir e-posta taslağı, 20.38: ‘Lina, gel konuşalım, ofisteyim.’\n· Brassard’a 22.06’da mesaj: ‘Sorun çözüldü. Tokyo faturaları temiz.’"
+  },
+  {
+   "key": "case037.search.title",
+   "value": "BAPTISTE LENOIR’IN OFİSİ VE TELEFONU — ARAMA"
+  },
+  {
+   "key": "case037.summary.evidence",
+   "value": "Otopsi yanıkların ölüm sonrası olduğunu, priz kaydı presin ölümden yarım saat sonra açıldığını, avlu kamerası ve bekçi arabanın 21.54’e dek kaldığını gösterdi. İki gerekçeyle açılan arama bıçağı, telefonu ve Brassard’a giden mesajı verdi."
+  },
+  {
+   "key": "case037.summary.lesson",
+   "value": "Makinenin kaydı, cesedin saatiyle tutmuyorsa sahneyi kuran kişiyi ara."
+  },
+  {
+   "key": "case037.summary.location",
+   "value": "Le Marais — Haziran 2030"
+  },
+  {
+   "key": "case037.summary.truth",
+   "value": "Maison Lévrier’nin lisans direktörü Baptiste Lenoir, Tokyo lisansını iki faturayla yürütüyor, farkı Maison Delorme hesabından geçiriyordu. Terzi Lina Haddad iki faturayı yan yana koyunca Lenoir kartını okutup çıkmış gibi yaptı, arka merdivenden döndü ve onu mezurayla boğdu. Presin kablosunu kesip avucuna verdi, prizi 21.41’de telefonundan açtı."
+  },
+  {
+   "key": "case037.suspect.label",
+   "value": "Lina Haddad’ı kim öldürdü?"
+  },
+  {
+   "key": "case037.tablet.caseLine",
+   "value": "DOSYA #037  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case037.time.car",
+   "value": "20.10–21.53"
+  },
+  {
+   "key": "case037.time.dout",
+   "value": "20.02"
+  },
+  {
+   "key": "case037.time.found",
+   "value": "23.10"
+  },
+  {
+   "key": "case037.time.leave",
+   "value": "21.54"
+  },
+  {
+   "key": "case037.time.msg",
+   "value": "20.31"
+  },
+  {
+   "key": "case037.time.on",
+   "value": "21.41"
+  },
+  {
+   "key": "case037.time.walk",
+   "value": "20.10"
+  },
+  {
+   "key": "case037.title",
+   "value": "Dosya #037 — Atölye"
+  },
+  {
+   "key": "case037.verdict.accident",
+   "value": "Kimse — presten elektrik çarptı"
+  },
+  {
+   "key": "case037.verdict.aubert",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.verdict.clemence",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.verdict.lenoir",
+   "value": "Baptiste Lenoir"
+  }
+ ]
+}

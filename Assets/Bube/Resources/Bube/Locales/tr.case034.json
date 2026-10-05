@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case034.amira.body",
+   "value": "Kurbanın eşi."
+  },
+  {
+   "key": "case034.amira.deflect",
+   "value": "Dükkânın işlerine karışmazdım."
+  },
+  {
+   "key": "case034.amira.last.answer",
+   "value": "‘Bu gece defterleri temizleyeceğim, yarın Belleville şubesine gideceğim’ dedi. Şubeden geçen hafta biri gelmiş, bir telefon numarasını soruyormuş, bir zehirlenme yüzünden. Malik o numarayı bizim sattığımızı anlamış."
+  },
+  {
+   "key": "case034.amira.last.answer.demeanor",
+   "value": "Saçını kulağının arkasına itiyor, yine düşüyor."
+  },
+  {
+   "key": "case034.amira.last.question",
+   "value": "Malik dün akşam ne dedi?"
+  },
+  {
+   "key": "case034.amira.title",
+   "value": "Amira Saïdi — görüşme"
+  },
+  {
+   "key": "case034.autopsy.body",
+   "value": "· Göğüste tek, derin, dar bıçak yarası; ince ve sivri bir uç.\n· Sağ elde tezgâh tozu, sol avuçta küçük kesik: bıçağı tutmaya çalışmış.\n· Ölüm zamanı: 19 Mayıs 21.45–22.45."
+  },
+  {
+   "key": "case034.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case034.cctv.event.in",
+   "value": "Kamera: Kapüşonu başında koyu gri sweatshirtli bir figür yarı açık kepengin altından dükkâna giriyor."
+  },
+  {
+   "key": "case034.cctv.event.light",
+   "value": "Kamera: Sokak boş; dükkânın içinde ampul sallanıyor, arka duvarda bir gölge geçiyor."
+  },
+  {
+   "key": "case034.cctv.event.out",
+   "value": "Kamera: Kapüşonlu figür kepengin altından çıkıyor, sağ elini ön cebine gömmüş, yokuş yukarı hızla yürüyor."
+  },
+  {
+   "key": "case034.cctv.overlay",
+   "value": "ZH-1"
+  },
+  {
+   "key": "case034.cctv.period",
+   "value": "19 Mayıs 2030"
+  },
+  {
+   "key": "case034.cctv.source",
+   "value": "Bakkal kamerası"
+  },
+  {
+   "key": "case034.clue.handoff",
+   "value": "Yacine telefonunu kurye gence veriyor."
+  },
+  {
+   "key": "case034.clue.in",
+   "value": "Kapüşonlu figür kepengin altından giriyor."
+  },
+  {
+   "key": "case034.clue.out",
+   "value": "Figür sağ eli cebinde çıkıp yokuş yukarı yürüyor."
+  },
+  {
+   "key": "case034.clue.route",
+   "value": "Yacine’in telefonu bir kurye güzergâhında dolaşıyor."
+  },
+  {
+   "key": "case034.clue.sim",
+   "value": "Kayıtsız üç SIM, ‘uzun boylu, sol elinde yüzük’ bir müşteriye."
+  },
+  {
+   "key": "case034.clue.source.simbook",
+   "value": "SIM defteri"
+  },
+  {
+   "key": "case034.clue.source.theo",
+   "value": "Kurye genç"
+  },
+  {
+   "key": "case034.clue.source.track",
+   "value": "Konum kaydı"
+  },
+  {
+   "key": "case034.custody.label",
+   "value": "Yacine’in telefonu o gece kimdeydi?"
+  },
+  {
+   "key": "case034.custody.shop",
+   "value": "Dükkânda unutulmuş"
+  },
+  {
+   "key": "case034.custody.theo",
+   "value": "Kurye genç Théo Marchand’da"
+  },
+  {
+   "key": "case034.custody.yacine",
+   "value": "Yacine’in kendisinde"
+  },
+  {
+   "key": "case034.epilogue.custody.shop",
+   "value": "Telefonun dükkânda kaldığı düşünüldü; konum kaydı hata sayıldı."
+  },
+  {
+   "key": "case034.epilogue.custody.theo",
+   "value": "Konum alibisinin kurye gence verilen telefonla kurulduğu yazıldı."
+  },
+  {
+   "key": "case034.epilogue.custody.yacine",
+   "value": "Konum kaydı Yacine’in yeri kabul edildi."
+  },
+  {
+   "key": "case034.epilogue.verdict.amira",
+   "value": "Amira Saïdi suçlandı; defterin kopyası hiç okunmadı."
+  },
+  {
+   "key": "case034.epilogue.verdict.popescu",
+   "value": "Dimitri Popescu tutuklandı; konum kaydı Yacine’i temize çıkarmış sayıldı."
+  },
+  {
+   "key": "case034.epilogue.verdict.theo",
+   "value": "Théo Marchand gözaltına alındı; kimse onun neden başkasının telefonunu taşıdığını sormadı."
+  },
+  {
+   "key": "case034.epilogue.verdict.yacine",
+   "value": "Yacine Saïdi tutuklandı. SIM defterinin kopyası Dosya #033 ile birleştirildi; ‘uzun boylu, sol elinde yüzük’ tarifi iki dosyada aynı."
+  },
+  {
+   "key": "case034.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case034.evidence.flat",
+   "value": "Yacine Saïdi’nin dairesi — arama"
+  },
+  {
+   "key": "case034.evidence.simbook",
+   "value": "SIM defteri"
+  },
+  {
+   "key": "case034.evidence.track",
+   "value": "Telefon konum kaydı"
+  },
+  {
+   "key": "case034.feedback.amira",
+   "value": "Eşi sabah geldi; defterin kopyasını ona bırakan kocasıydı."
+  },
+  {
+   "key": "case034.feedback.popescu",
+   "value": "Aracı para için tartıştı ama Montreuil’deydi; dükkândan bir şey alınmadı, yalnız defter ve arka kasa."
+  },
+  {
+   "key": "case034.feedback.theo",
+   "value": "Genç telefonu taşıdı; konumu, gece boyunca scooterla teslimatta olduğunu gösteriyor."
+  },
+  {
+   "key": "case034.feedback.yacine",
+   "value": "Konum alibisi kurye gencin scooterından; dairesinde kanlı sweatshirt, bıçak, kasanın parası ve defterin yanık aslı var. Kurban SIM satışlarını şubeye götürecekti."
+  },
+  {
+   "key": "case034.file.caseType",
+   "value": "CİNAYET"
+  },
+  {
+   "key": "case034.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case034.file.value.location",
+   "value": "Paris 20. bölge, Belleville — tamir dükkânı"
+  },
+  {
+   "key": "case034.file.value.number",
+   "value": "BDP-PAR-2030-0124"
+  },
+  {
+   "key": "case034.file.value.offence",
+   "value": "Kasten öldürme"
+  },
+  {
+   "key": "case034.file.value.reporter",
+   "value": "Kurbanın eşi"
+  },
+  {
+   "key": "case034.flat.body",
+   "value": "Şube şefinin onayıyla:\n\n· Çamaşır makinesinde ıslak, koyu gri kapüşonlu sweatshirt; sağ manşette yıkamaya rağmen kalan kan halkası, DNA Malik Saïdi.\n· Mutfak çöpünde ince, sivri uçlu ekran kazıma bıçağı; kanlı. Sapta Léa Dubois’nın (beklenen) ve Yacine’in izleri.\n· Yatağın altında arka kasadaki para (3.100 avro) ve kareli defterin aslı, yarısı yakılmış."
+  },
+  {
+   "key": "case034.flat.title",
+   "value": "YACİNE SAİDİ’NİN DAİRESİ — ARAMA"
+  },
+  {
+   "key": "case034.lea.body",
+   "value": "Çırak."
+  },
+  {
+   "key": "case034.lea.book.answer",
+   "value": "Kayıtsız olanları Yacine satardı, arka kasadan. Malik bilmiyordu sanıyordum; geçen hafta öğrendi, çok kızdı. Satışları kareli bir deftere yazardık. Defter arka kasadaydı."
+  },
+  {
+   "key": "case034.lea.book.answer.demeanor",
+   "value": "Büyüteç bandını saçından çıkarıp elinde döndürüyor."
+  },
+  {
+   "key": "case034.lea.book.question",
+   "value": "Dükkân SIM kart da satıyor muydu?"
+  },
+  {
+   "key": "case034.lea.deflect",
+   "value": "Bunu Yacine’e sorun."
+  },
+  {
+   "key": "case034.lea.title",
+   "value": "Léa Dubois — görüşme"
+  },
+  {
+   "key": "case034.lea.tool.answer",
+   "value": "Benim ekran kazıma bıçağım. İnce, sivri. Takımımda yeri boş."
+  },
+  {
+   "key": "case034.lea.tool.question",
+   "value": "Tezgâhta eksik bir şey var mı?"
+  },
+  {
+   "key": "case034.method.knife",
+   "value": "Tezgâhtaki ekran kazıma bıçağıyla göğsünden bıçaklandı"
+  },
+  {
+   "key": "case034.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case034.method.robbery",
+   "value": "Soygun sırasında bıçaklandı"
+  },
+  {
+   "key": "case034.method.screwdriver",
+   "value": "Tornavidayla saldırıya uğradı"
+  },
+  {
+   "key": "case034.offer.subtitle",
+   "value": "TAMİRCİ  /  CİNAYET"
+  },
+  {
+   "key": "case034.offer.summary",
+   "value": "Belleville’de bir telefon tamircisi arka odasında bıçaklanmış. Kasa açılmamış; kuzeninin telefonu o gece mahallenin öbür ucunda."
+  },
+  {
+   "key": "case034.offer.title",
+   "value": "DOSYA #034"
+  },
+  {
+   "key": "case034.person.amira.info",
+   "value": "36 yaşında, kurbanın eşi; mahallede kuaför."
+  },
+  {
+   "key": "case034.person.amira.name",
+   "value": "Amira Saïdi"
+  },
+  {
+   "key": "case034.person.lea.info",
+   "value": "24 yaşında, dükkânın çırağı; anakart onarımı yapıyor."
+  },
+  {
+   "key": "case034.person.lea.name",
+   "value": "Léa Dubois"
+  },
+  {
+   "key": "case034.person.popescu.info",
+   "value": "47 yaşında, ikinci el telefon alıp satan bir aracı."
+  },
+  {
+   "key": "case034.person.popescu.name",
+   "value": "Dimitri Popescu"
+  },
+  {
+   "key": "case034.person.theo.info",
+   "value": "17 yaşında, mahalleden bir genç; scooterla kuryelik yapıyor."
+  },
+  {
+   "key": "case034.person.theo.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case034.person.yacine.info",
+   "value": "31 yaşında, kurbanın kuzeni ve dükkân ortağı."
+  },
+  {
+   "key": "case034.person.yacine.name",
+   "value": "Yacine Saïdi"
+  },
+  {
+   "key": "case034.person.zhou.info",
+   "value": "62 yaşında, karşıdaki bakkalın sahibi."
+  },
+  {
+   "key": "case034.person.zhou.name",
+   "value": "Zhou Meilin"
+  },
+  {
+   "key": "case034.popescu.body",
+   "value": "İkinci el aracı."
+  },
+  {
+   "key": "case034.popescu.deflect",
+   "value": "Ticaretim yasal."
+  },
+  {
+   "key": "case034.popescu.fight.answer",
+   "value": "Pazartesi, para yüzünden. Bana kırk telefon borcu vardı. Ama ölü adam borç ödemez, değil mi? Dün akşam Montreuil’deydim, bir pazarda, kırk kişi gördü beni."
+  },
+  {
+   "key": "case034.popescu.fight.answer.demeanor",
+   "value": "Altın dişini dilinle yokluyor."
+  },
+  {
+   "key": "case034.popescu.fight.question",
+   "value": "Malik’le tartışmışsınız."
+  },
+  {
+   "key": "case034.popescu.title",
+   "value": "Dimitri Popescu — görüşme"
+  },
+  {
+   "key": "case034.report.body",
+   "value": "20 Mayıs 2030 saat 07.40’ta Belleville’deki bir telefon tamir dükkânının arka odasında dükkân sahibi Malik Saïdi (39) bıçaklanmış olarak ölü bulundu. Eşi Amira Saïdi, kocası eve gelmeyince sabah dükkâna geldi.\n\nKepenk yarı açık. Kasa açılmamış; vitrindeki telefonlar yerinde. Arka odadaki küçük kasa açık, boş.\n\nDükkân ortağı ve kuzen Yacine Saïdi, gece 21.00’den sonra mahalleden ayrıldığını ve sabaha kadar arkadaşlarıyla dolaştığını söyledi; telefon konumu bunu destekliyor."
+  },
+  {
+   "key": "case034.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case034.request.flat",
+   "value": "Yacine Saïdi’nin dairesini aramak için izin iste"
+  },
+  {
+   "key": "case034.request.simbook",
+   "value": "Defterin bir kopyası olup olmadığını araştır"
+  },
+  {
+   "key": "case034.request.track",
+   "value": "Yacine Saïdi’nin telefon konum kaydını iste"
+  },
+  {
+   "key": "case034.simbook.body",
+   "value": "Arka kasadan kaybolan defterin fotokopisi: Malik Saïdi ölmeden bir gün önce defteri fotokopi dükkânında çoğaltmış, kopyayı eşinin kuaför salonuna bırakmış.\n\n· 9 Nisan · kayıtsız SIM ×3 — ‘Yacine’in müşterisi; uzun boylu, sol elinde yüzük, nakit 900’.\n· Satırın yanında Malik’in el yazısı: ‘Bu numara fırıncıyı öldürdü. Yacine’e sor, sonra şubeye.’\n· Nisan–Mayıs: Yacine Saïdi adına 61 kayıtsız SIM satışı."
+  },
+  {
+   "key": "case034.simbook.title",
+   "value": "SIM DEFTERİ"
+  },
+  {
+   "key": "case034.street.body",
+   "value": "Karşı kaldırımdaki tamir dükkânını görür. 19 Mayıs 21.00 – 23.00."
+  },
+  {
+   "key": "case034.street.title",
+   "value": "BAKKAL TENTE KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case034.summary.evidence",
+   "value": "Konum kaydı scooter hızında bir kurye güzergâhı gösterdi; genç, defterin kopyası ortaya çıkınca konuştu. Bakkal kamerası giriş ve çıkışı, iki gerekçeyle açılan daire araması sweatshirt, bıçak, para ve yanık defteri verdi."
+  },
+  {
+   "key": "case034.summary.lesson",
+   "value": "Bir telefonun nerede olduğu, sahibinin nerede olduğu değildir. Cihazı taşıyan eli sor."
+  },
+  {
+   "key": "case034.summary.location",
+   "value": "Belleville — Mayıs 2030"
+  },
+  {
+   "key": "case034.summary.truth",
+   "value": "Malik Saïdi, kuzeni Yacine’in arka kasadan kayıtsız SIM sattığını ve fırıncıyı öldüren numaranın bu satışlardan biri olduğunu buldu; defteri çoğaltıp şubeye gitmeye karar verdi. Yacine telefonunu yirmi avroya kurye bir gence verip konum alibisi kurdu, 22.02’de kapüşonla dükkâna girdi, defteri vermeyen kuzenini tezgâhtaki kazıma bıçağıyla öldürdü, defteri ve parayı aldı."
+  },
+  {
+   "key": "case034.suspect.label",
+   "value": "Malik Saïdi’yi kim öldürdü?"
+  },
+  {
+   "key": "case034.tablet.caseLine",
+   "value": "DOSYA #034  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case034.theo.body",
+   "value": "Mahalleden bir genç."
+  },
+  {
+   "key": "case034.theo.deflect",
+   "value": "Bilmiyorum abi."
+  },
+  {
+   "key": "case034.theo.night.answer",
+   "value": "Kuryelik. Her gece yapıyorum. Ménilmontant, Oberkampf… normal."
+  },
+  {
+   "key": "case034.theo.night.answer.demeanor",
+   "value": "Fermuarını yukarı aşağı çekiyor."
+  },
+  {
+   "key": "case034.theo.night.question",
+   "value": "Dün gece ne yaptın?"
+  },
+  {
+   "key": "case034.theo.night.variant0",
+   "value": "…Tamam. Yacine abi dokuzda telefonunu verdi, yirmi avro. ‘Cebinde taşı, teslimatlarını yap, gece yarısı getir’ dedi. ‘Kız arkadaşım takip ediyor’ dedi. Gece yarısı kapısına bıraktım. Ben bıçak falan bilmem abi, ben scooterdaydım."
+  },
+  {
+   "key": "case034.theo.title",
+   "value": "Théo Marchand — görüşme"
+  },
+  {
+   "key": "case034.time.handoff",
+   "value": "21.00"
+  },
+  {
+   "key": "case034.time.in",
+   "value": "22.02"
+  },
+  {
+   "key": "case034.time.light",
+   "value": "22.06"
+  },
+  {
+   "key": "case034.time.out",
+   "value": "22.11"
+  },
+  {
+   "key": "case034.time.route",
+   "value": "21.20–23.40"
+  },
+  {
+   "key": "case034.time.sim",
+   "value": "9 Nisan"
+  },
+  {
+   "key": "case034.title",
+   "value": "Dosya #034 — Tamirci"
+  },
+  {
+   "key": "case034.track.body",
+   "value": "Yacine Saïdi’nin telefonu, 19 Mayıs:\n· 21.05 · Belleville, dükkânın önü\n· 21.20–23.40 · Ménilmontant, Père-Lachaise, Oberkampf, République arasında sürekli hareket; ortalama hız 18–22 km/s, 14 durak, her biri 2–4 dakika.\n· 23.55 · Belleville, Yacine’in dairesi.\n\nNot: yürüme hızı değil; Yacine’in kayıtlı aracı yok. Durak düzeni, bir kurye uygulamasının teslimat güzergâhıyla örtüşüyor."
+  },
+  {
+   "key": "case034.track.title",
+   "value": "TELEFON KONUM KAYDI — YACİNE SAİDİ"
+  },
+  {
+   "key": "case034.verdict.amira",
+   "value": "Amira Saïdi"
+  },
+  {
+   "key": "case034.verdict.popescu",
+   "value": "Dimitri Popescu"
+  },
+  {
+   "key": "case034.verdict.theo",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case034.verdict.yacine",
+   "value": "Yacine Saïdi"
+  },
+  {
+   "key": "case034.yacine.body",
+   "value": "Kuzen ve ortak."
+  },
+  {
+   "key": "case034.yacine.deflect",
+   "value": "Dükkânın defterleri bizim işimiz."
+  },
+  {
+   "key": "case034.yacine.night.answer",
+   "value": "Dolaştım, arkadaşlarla. Konumuma bakın, Oberkampf’a kadar gittim. Malik’i ben mi öldüreceğim? O benim kanım."
+  },
+  {
+   "key": "case034.yacine.night.answer.demeanor",
+   "value": "Zinciriyle oynuyor."
+  },
+  {
+   "key": "case034.yacine.night.question",
+   "value": "Dün gece neredeydiniz?"
+  },
+  {
+   "key": "case034.yacine.title",
+   "value": "Yacine Saïdi — görüşme"
+  },
+  {
+   "key": "case034.yacine_2.body",
+   "value": "Arama üzerine."
+  },
+  {
+   "key": "case034.yacine_2.title",
+   "value": "Yacine Saïdi — ikinci görüşme"
+  },
+  {
+   "key": "case034.yacine_2.why.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.flat",
+   "value": "…Defteri şubeye götürecekti. O adam, yüzüklü olan, ‘bir daha satış kaydı tutarsan senin için de bir torba un var’ demişti bana. Malik dinlemedi. Defteri istedim, vermedi, bıçak tezgâhtaydı."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.simbook",
+   "value": "SIM satmak suç değil. Uzun boylu adam mı? Bir müşteri. Adını bilmem. Bir daha gelmedi."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.track",
+   "value": "Telefonum arkadaşımdaydı, ödünç verdim. Bu yasak mı?"
+  },
+  {
+   "key": "case034.yacine_2.why.question",
+   "value": "22.02’de dükkâna giren sizdiniz."
+  },
+  {
+   "key": "case034.zhou.body",
+   "value": "Karşıdaki bakkal."
+  },
+  {
+   "key": "case034.zhou.deflect",
+   "value": "Ben kendi dükkânıma bakarım."
+  },
+  {
+   "key": "case034.zhou.saw.answer",
+   "value": "Saat on gibi kapüşonlu biri kepengin altından girdi. Uzun değil, kısa da değil. Yürüyüşünü tanır gibi oldum, ama kapüşon… Benim tentemde kamera var, oğlum taktı, bakın."
+  },
+  {
+   "key": "case034.zhou.saw.question",
+   "value": "Dün gece bir şey gördünüz mü?"
+  },
+  {
+   "key": "case034.zhou.title",
+   "value": "Zhou Meilin — görüşme"
+  }
+ ]
+}

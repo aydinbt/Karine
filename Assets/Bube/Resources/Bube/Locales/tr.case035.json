@@ -1,0 +1,488 @@
+{
+ "entries": [
+  {
+   "key": "case035.autopsy.body",
+   "value": "· Ölüm, trenin çarpmasıyla oluşan çoklu travmadan.\n· Sırtın ortasında, kürek kemikleri arasında, çarpmadan önce oluşmuş el ayası büyüklüğünde hafif bir morluk.\n· Kanda alkol veya ilaç yok."
+  },
+  {
+   "key": "case035.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case035.benhamou.body",
+   "value": "Metro sürücüsü."
+  },
+  {
+   "key": "case035.benhamou.deflect",
+   "value": "İşletmenin kuralları var, onlara sorun."
+  },
+  {
+   "key": "case035.benhamou.saw.answer",
+   "value": "Hiçbir şey göremedim, yalnız bir gölge. Fren yaptım. Yirmi iki yıl… Kabinde kamera var, ön camı görür. İsterseniz kaydı verin, ben bakamam."
+  },
+  {
+   "key": "case035.benhamou.saw.answer.demeanor",
+   "value": "Ellerini dizlerinin arasına sıkıştırıyor."
+  },
+  {
+   "key": "case035.benhamou.saw.question",
+   "value": "Kabinden ne gördünüz?"
+  },
+  {
+   "key": "case035.benhamou.title",
+   "value": "Karim Benhamou — görüşme"
+  },
+  {
+   "key": "case035.cab.body",
+   "value": "Trenin ön kamerası; peron 2’ye giriş. 28 Mayıs 08.13.50 – 08.14.20."
+  },
+  {
+   "key": "case035.cab.title",
+   "value": "TREN KABİN KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case035.calllog.body",
+   "value": "Çağrı merkezi kaydı, 28 Mayıs:\n\n· 08.14.04 · arayan: Lucien Mallet’nin cep telefonu · konum: Belleville istasyonu · ilk cümle: ‘Raylara biri düştü, tren geliyor.’\n\nKabin kamerasında itme anı 08.14.11; çarpma 08.14.12.\n\nÇağrı, düşmeden yedi saniye önce başlamış."
+  },
+  {
+   "key": "case035.calllog.title",
+   "value": "ACİL ÇAĞRI KAYDI"
+  },
+  {
+   "key": "case035.cctv.event.back",
+   "value": "Kamera: Gri paltolu adam kalabalığın içine geri çekiliyor, telefon hâlâ kulağında, öbür eli yardım ister gibi havada."
+  },
+  {
+   "key": "case035.cctv.event.push",
+   "value": "Kamera: Gri paltolu adamın boştaki eli çantalı adamın sırtında; çantalı adam sarı çizginin üstünden öne düşüyor."
+  },
+  {
+   "key": "case035.cctv.event.stand",
+   "value": "Kamera: Çantalı bir adam peron kenarında telefonuna bakıyor; hemen arkasında gri paltolu bir adam, bir eli kulağında, telefon tutuyor."
+  },
+  {
+   "key": "case035.cctv.overlay",
+   "value": "CAB-F"
+  },
+  {
+   "key": "case035.cctv.period",
+   "value": "28 Mayıs 2030"
+  },
+  {
+   "key": "case035.cctv.source",
+   "value": "Kabin kamerası"
+  },
+  {
+   "key": "case035.clue.call",
+   "value": "Acil çağrı: ‘Raylara biri düştü.’"
+  },
+  {
+   "key": "case035.clue.entry",
+   "value": "Mallet istasyona giriyor; 38 dakika peronda bekliyor."
+  },
+  {
+   "key": "case035.clue.push",
+   "value": "Gri paltolunun eli çantalı adamın sırtında."
+  },
+  {
+   "key": "case035.clue.source.calllog",
+   "value": "Çağrı kaydı"
+  },
+  {
+   "key": "case035.clue.source.navigo",
+   "value": "Kart kaydı"
+  },
+  {
+   "key": "case035.clue.stand",
+   "value": "Gri paltolu adam, telefonu kulağında, çantalı adamın arkasında."
+  },
+  {
+   "key": "case035.clue.vidal",
+   "value": "Vidal her sabahki saatinde istasyona giriyor."
+  },
+  {
+   "key": "case035.custody.after",
+   "value": "Düştükten hemen sonra"
+  },
+  {
+   "key": "case035.custody.before",
+   "value": "Düşmeden yedi saniye önce"
+  },
+  {
+   "key": "case035.custody.label",
+   "value": "Acil çağrı ne zaman başladı?"
+  },
+  {
+   "key": "case035.custody.late",
+   "value": "Tren durduktan sonra"
+  },
+  {
+   "key": "case035.epilogue.custody.after",
+   "value": "Çağrı kahramanca bir tepki sayıldı."
+  },
+  {
+   "key": "case035.epilogue.custody.before",
+   "value": "Acil çağrının itme anından önce başladığı yazıldı."
+  },
+  {
+   "key": "case035.epilogue.custody.late",
+   "value": "Çağrı saatine bakılmadı."
+  },
+  {
+   "key": "case035.epilogue.verdict.accident",
+   "value": "Ölüm kaza olarak kapandı; Lucien Mallet’ye belediye bir madalya verdi."
+  },
+  {
+   "key": "case035.epilogue.verdict.mallet",
+   "value": "Lucien Mallet tutuklandı; mahkemede kızının adını söyledi. Vidal’in çantasındaki Lakeshore beyannameleri ayrı dosyaya alındı."
+  },
+  {
+   "key": "case035.epilogue.verdict.royer",
+   "value": "Pascal Royer suçlandı; ‘kahraman’ yolcuya kimse soru sormadı."
+  },
+  {
+   "key": "case035.evidence.cab",
+   "value": "Tren kabin kamerası"
+  },
+  {
+   "key": "case035.evidence.calllog",
+   "value": "Acil çağrı kaydı"
+  },
+  {
+   "key": "case035.evidence.navigo",
+   "value": "Kart okutma kaydı"
+  },
+  {
+   "key": "case035.evidence.phone",
+   "value": "Lucien Mallet’nin telefonu"
+  },
+  {
+   "key": "case035.feedback.accident",
+   "value": "Kabin kamerası bir eli kurbanın sırtında gösteriyor; o an peron kalabalık değildi."
+  },
+  {
+   "key": "case035.feedback.mallet",
+   "value": "Acil çağrısı düşmeden yedi saniye önce; kabin kamerası elini kurbanın sırtında gösteriyor, otopsi sırttaki morluğu doğruluyor. 38 dakika peronda bekledi, beş hafta boyunca kurbanın saatlerini yazdı."
+  },
+  {
+   "key": "case035.feedback.royer",
+   "value": "Ortak sigortadan pay alıyordu ama istasyonda değildi."
+  },
+  {
+   "key": "case035.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case035.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case035.file.value.location",
+   "value": "Paris 20. bölge, metro istasyonu — peron 2"
+  },
+  {
+   "key": "case035.file.value.number",
+   "value": "BDP-PAR-2030-0131"
+  },
+  {
+   "key": "case035.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case035.file.value.reporter",
+   "value": "İşletme"
+  },
+  {
+   "key": "case035.mallet.body",
+   "value": "Acil çağrıyı yapan yolcu."
+  },
+  {
+   "key": "case035.mallet.deflect",
+   "value": "Bunun konuyla ilgisi yok."
+  },
+  {
+   "key": "case035.mallet.help.answer",
+   "value": "İstasyona yeni girmiştim. Adam telefona bakıyordu, arkadan kalabalık itti, düştü. Ben hemen aradım, koştum. Yapılacak bir şey yoktu."
+  },
+  {
+   "key": "case035.mallet.help.answer.demeanor",
+   "value": "Paltosunun düğmesini iliklemeye çalışıyor."
+  },
+  {
+   "key": "case035.mallet.help.question",
+   "value": "Ne oldu?"
+  },
+  {
+   "key": "case035.mallet.know.answer",
+   "value": "Hayır. Hayatımda ilk kez gördüm."
+  },
+  {
+   "key": "case035.mallet.know.question",
+   "value": "Rémi Vidal’i tanıyor muydunuz?"
+  },
+  {
+   "key": "case035.mallet.know.variant0",
+   "value": "…Kızımın adını okudunuz demek. Evet, tanıyordum. Mahkemede on bir gün aynı salonda oturduk. O bana hiç bakmadı."
+  },
+  {
+   "key": "case035.mallet.title",
+   "value": "Lucien Mallet — görüşme"
+  },
+  {
+   "key": "case035.mallet_2.body",
+   "value": "Kayıtlar üzerine."
+  },
+  {
+   "key": "case035.mallet_2.seven.answer",
+   "value": "Saatler yanlış olabilir."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.calllog",
+   "value": "Yedi saniye… Telefonu kulağıma götürdüm ki elim meşgul görünsün. Sonra öbür elim… Kimse bir elinde telefon tutan adamın öbür eliyle ittiğini düşünmez."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.navigo",
+   "value": "Peronda bekledim, evet. Bekleyecek kimsem yok artık, sabahları uzun."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.phone",
+   "value": "Beş hafta saydım. Sütunun arkasını, kameranın açısını ölçtüm. Camille on altı yaşındaydı. O adam her sabah aynı trene binip işine gitti. Ben de bir sabah gittim."
+  },
+  {
+   "key": "case035.mallet_2.seven.question",
+   "value": "Aramanız düşmeden yedi saniye önce başladı."
+  },
+  {
+   "key": "case035.mallet_2.title",
+   "value": "Lucien Mallet — ikinci görüşme"
+  },
+  {
+   "key": "case035.method.crowd",
+   "value": "Kalabalık itti"
+  },
+  {
+   "key": "case035.method.faint",
+   "value": "Baygınlık geçirip düştü"
+  },
+  {
+   "key": "case035.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case035.method.push",
+   "value": "Bir elinde telefon tutan adam öbür eliyle raylara itti"
+  },
+  {
+   "key": "case035.navigo.body",
+   "value": "Lucien Mallet’nin aylık metro kartı, 28 Mayıs:\n\n· 07.36 · Belleville istasyonu girişi.\n\nMallet ‘istasyona yeni girmiştim’ dedi; 38 dakika peronda bekledi. Aynı peronda bu sürede yedi tren geçti, hiçbirine binmedi.\n\nRémi Vidal’in kartı: 08.11, Belleville girişi. Son beş haftada her iş günü 08.08–08.13 arası."
+  },
+  {
+   "key": "case035.navigo.title",
+   "value": "KART OKUTMA KAYDI"
+  },
+  {
+   "key": "case035.odile.body",
+   "value": "Bankta oturan tanık."
+  },
+  {
+   "key": "case035.odile.deflect",
+   "value": "Ben yalnız gördüğümü söylerim."
+  },
+  {
+   "key": "case035.odile.saw.answer",
+   "value": "Tren gelmeden önce o gri paltolu bey çantalı adamın tam arkasındaydı, kalabalık değildi o an. Telefonla konuşuyordu. Sonra çantalı adam… düştü mü itildi mi, gözlüklerimle yemin edemem. Gri paltolu bey hemen ‘Yardım edin!’ diye bağırdı. Çok çabuk bağırdı."
+  },
+  {
+   "key": "case035.odile.saw.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp camlarını eteğine siliyor."
+  },
+  {
+   "key": "case035.odile.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case035.odile.title",
+   "value": "Odile Vasseur — görüşme"
+  },
+  {
+   "key": "case035.offer.subtitle",
+   "value": "METRO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case035.offer.summary",
+   "value": "Belleville metrosunda bir adam sabah treninin altında kalıyor. Gazeteler, yardıma ilk koşan yolcuyu kahraman ilan ediyor."
+  },
+  {
+   "key": "case035.offer.title",
+   "value": "DOSYA #035"
+  },
+  {
+   "key": "case035.person.benhamou.info",
+   "value": "44 yaşında, metro sürücüsü; treni o kullanıyordu."
+  },
+  {
+   "key": "case035.person.benhamou.name",
+   "value": "Karim Benhamou"
+  },
+  {
+   "key": "case035.person.mallet.info",
+   "value": "58 yaşında, acil çağrıyı yapan ve kurbanın yanına ilk koşan yolcu."
+  },
+  {
+   "key": "case035.person.mallet.name",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.person.odile.info",
+   "value": "70 yaşında, emekli öğretmen; peronda bankta oturuyordu."
+  },
+  {
+   "key": "case035.person.odile.name",
+   "value": "Odile Vasseur"
+  },
+  {
+   "key": "case035.person.royer.info",
+   "value": "39 yaşında, kurbanın gümrük müşavirliği ofisindeki ortağı."
+  },
+  {
+   "key": "case035.person.royer.name",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.phone.body",
+   "value": "Lucien Mallet’nin telefonu, şube şefinin onayıyla:\n\n· Not uygulamasında 21 Nisan’dan beri bir liste: ‘08.08 / 08.11 / 08.13 / 08.09 / 08.12 …’ — beş haftalık sabah saatleri.\n· Fotoğraflarda peron 2’nin, sütunun ve tavan kamerasının açısının fotoğrafları.\n· Son arama: acil çağrı, 08.14.04. Aramadan önceki son not, 08.13: ‘Camille.’"
+  },
+  {
+   "key": "case035.phone.title",
+   "value": "LUCİEN MALLET’NİN TELEFONU"
+  },
+  {
+   "key": "case035.report.body",
+   "value": "28 Mayıs 2030 saat 08.14’te Belleville metro istasyonunda gümrük müşaviri Rémi Vidal (49) peron kenarından raylara düştü ve gelen trenin altında kaldı.\n\nAcil çağrıyı yapan ve peron kenarına ilk koşan yolcu Lucien Mallet; ifadesinde “adam telefona bakıyordu, kalabalık itti, düştü” dedi. Sabah gazeteleri onu ‘peronun kahramanı’ diye yazdı.\n\nPeron kamerasının görüşü o noktada bir sütunla kapalı."
+  },
+  {
+   "key": "case035.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case035.request.calllog",
+   "value": "Acil çağrının saat kaydını iste"
+  },
+  {
+   "key": "case035.request.navigo",
+   "value": "Metro kartlarının okutma kaydını iste"
+  },
+  {
+   "key": "case035.request.phone",
+   "value": "Lucien Mallet’nin telefonunu incelemek için izin iste"
+  },
+  {
+   "key": "case035.request.ruling",
+   "value": "2019 kaza dosyasını arşivden iste"
+  },
+  {
+   "key": "case035.royer.bag.answer",
+   "value": "Delorme’un Chicago sandıkları. Lakeshore Freight taşıyor. Her sandığa bir uzman mektubu ekliyorlar, hep aynı imza, Varga. Rémi geçen hafta ‘Bu mektupları ben imzalamam’ dedi."
+  },
+  {
+   "key": "case035.royer.bag.question",
+   "value": "Çantasında ne vardı?"
+  },
+  {
+   "key": "case035.royer.body",
+   "value": "Kurbanın ortağı."
+  },
+  {
+   "key": "case035.royer.deflect",
+   "value": "Müşteri dosyaları gizlidir."
+  },
+  {
+   "key": "case035.royer.partner.answer",
+   "value": "Ortaklık sigortası var, evet, ölürse pay bana kalıyor. Bunu sorduğunuzu biliyordum. Ama Rémi’yi kimse sevmezdi; 2019’da bir kaza geçirdi, bir kız öldü, beraat etti. Ailesi mahkemede ona ‘katil’ diye bağırmıştı."
+  },
+  {
+   "key": "case035.royer.partner.answer.demeanor",
+   "value": "Kravatını gevşetip yeniden sıkıyor."
+  },
+  {
+   "key": "case035.royer.partner.question",
+   "value": "Ortaklıkta sorun var mıydı?"
+  },
+  {
+   "key": "case035.royer.title",
+   "value": "Pascal Royer — görüşme"
+  },
+  {
+   "key": "case035.ruling.body",
+   "value": "Şube arşivinden çekilen eski karar:\n\n· 3 Mart 2019, Bagnolet. Rémi Vidal’in kullandığı araç yaya geçidinde 16 yaşındaki Camille Mallet’ye çarptı; Camille öldü.\n· Alkol testi sonucu kayboldu; Vidal beraat etti.\n· Karar duruşmasında kızın babası Lucien Mallet salondan çıkarıldı."
+  },
+  {
+   "key": "case035.ruling.title",
+   "value": "2019 KAZA DOSYASI"
+  },
+  {
+   "key": "case035.summary.evidence",
+   "value": "Çağrı kaydı itmeden önce başladı; kabin kamerası eli, otopsi sırttaki morluğu, kart kaydı uzun bekleyişi, eski kaza dosyası bağı gösterdi. İki gerekçeyle açılan telefon, beş haftalık saat listesini verdi."
+  },
+  {
+   "key": "case035.summary.lesson",
+   "value": "İlk koşan, her zaman ilk gören değildir; bazen önceden bilendir. Saniyeleri sırala."
+  },
+  {
+   "key": "case035.summary.location",
+   "value": "Belleville — Mayıs 2030"
+  },
+  {
+   "key": "case035.summary.truth",
+   "value": "2019’da kızı Camille’i bir yaya geçidinde öldüren ve beraat eden Rémi Vidal’in sabah saatlerini Lucien Mallet beş hafta boyunca not etti, peronun kör noktasını ölçtü. 28 Mayıs’ta 07.36’dan beri peronda bekledi; telefonu kulağına götürüp acil çağrıyı başlattı ve yedi saniye sonra boştaki eliyle Vidal’i trenin önüne itti, ardından ‘yardım edin’ diye bağırdı."
+  },
+  {
+   "key": "case035.suspect.label",
+   "value": "Rémi Vidal’in ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case035.tablet.caseLine",
+   "value": "DOSYA #035  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case035.time.back",
+   "value": "08.14.13"
+  },
+  {
+   "key": "case035.time.call",
+   "value": "08.14.04"
+  },
+  {
+   "key": "case035.time.entry",
+   "value": "07.36"
+  },
+  {
+   "key": "case035.time.push",
+   "value": "08.14.11"
+  },
+  {
+   "key": "case035.time.stand",
+   "value": "08.14.03"
+  },
+  {
+   "key": "case035.time.vidal",
+   "value": "08.11"
+  },
+  {
+   "key": "case035.title",
+   "value": "Dosya #035 — Metro"
+  },
+  {
+   "key": "case035.verdict.accident",
+   "value": "Kimse — kalabalıkta düştü"
+  },
+  {
+   "key": "case035.verdict.mallet",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.verdict.royer",
+   "value": "Pascal Royer"
+  }
+ ]
+}

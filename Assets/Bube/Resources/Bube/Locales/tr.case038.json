@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case038.antoine.body",
+   "value": "Nakliye direktörü."
+  },
+  {
+   "key": "case038.antoine.deflect",
+   "value": "Nakliye bilgileri müşterilerimize aittir."
+  },
+  {
+   "key": "case038.antoine.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case038.antoine.end.presented.search",
+   "value": "Kırk yıl, Auguste bir pazartesiyle hepsini bitirecekti. Paris’i, Tokyo’yu, Lakeshore’u. O kadın bize ‘mal kaybolmaz, yer değiştirir’ derdi. Ben de… En üstteki çifte yağı sürdüm, kalemi cebinden aldım. Kâseyi kaldırınca dudağına dokunacağını bilirdim. Chicago’ya mesaj attım. Bulamazsınız onu."
+  },
+  {
+   "key": "case038.antoine.end.question",
+   "value": "Kalem sizin çantanızdaydı."
+  },
+  {
+   "key": "case038.antoine.night.answer",
+   "value": "Bir an. Katalog almaya. Auguste yığılınca kalemi almaya ilk ben koştum; ceketinde yoktu. Belki evde unuttu."
+  },
+  {
+   "key": "case038.antoine.night.answer.demeanor",
+   "value": "Yüzüğünü baş parmağıyla çeviriyor."
+  },
+  {
+   "key": "case038.antoine.night.question",
+   "value": "Satıştan önce arka odada mıydınız?"
+  },
+  {
+   "key": "case038.antoine.night.variant0",
+   "value": "Pazartesi mi? Auguste her ay bir şey ‘kapatırdı’. Kırk yıldır yanındayım."
+  },
+  {
+   "key": "case038.antoine.title",
+   "value": "Antoine Brassard — görüşme"
+  },
+  {
+   "key": "case038.autopsy.body",
+   "value": "· Anafilaktik şok; boğaz ve dilde ağır ödem.\n· Sağ elin parmak uçlarında ve dudak kenarında ceviz yağı kalıntısı.\n· Mide boş; son yemek dört saat önce. Alerjen ağızdan değil, eldivenden dudağa geçmiş."
+  },
+  {
+   "key": "case038.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case038.back.body",
+   "value": "Eldiven tepsisi ve askılık. 21 Haziran 18.00 – 19.20."
+  },
+  {
+   "key": "case038.back.title",
+   "value": "ARKA ODA KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case038.cctv.event.coat",
+   "value": "Kamera: Aynı adam askılıkta asılı bir ceketin cebine elini sokuyor, çıkıyor."
+  },
+  {
+   "key": "case038.cctv.event.lay",
+   "value": "Kamera: İş ceketli genç bir kadın beyaz eldiven çiftlerini tepsiye dizip çıkıyor."
+  },
+  {
+   "key": "case038.cctv.event.tray",
+   "value": "Kamera: Koyu kruvaze takımlı uzun boylu bir adam odada yalnız; eldiven tepsisinin üzerine eğiliyor, bir eli ceketinin içinde."
+  },
+  {
+   "key": "case038.cctv.overlay",
+   "value": "SALLE-B"
+  },
+  {
+   "key": "case038.cctv.period",
+   "value": "21 Haziran 2030"
+  },
+  {
+   "key": "case038.cctv.source",
+   "value": "Arka oda kamerası"
+  },
+  {
+   "key": "case038.celine.body",
+   "value": "Kurbanın kızı."
+  },
+  {
+   "key": "case038.celine.deflect",
+   "value": "Babamın işleri hakkında avukatımızla konuşun."
+  },
+  {
+   "key": "case038.celine.title",
+   "value": "Céline Delorme — görüşme"
+  },
+  {
+   "key": "case038.celine.will.answer",
+   "value": "Evi değil, borçlarını. Müzayede evinin yarısı batık. Ben satış boyunca ön sıradaydım; arka odaya hiç girmedim. Babam son hafta Antoine’la hep kapalı kapı ardında konuşuyordu, bağırışlar duydum."
+  },
+  {
+   "key": "case038.celine.will.answer.demeanor",
+   "value": "Çenesini kaldırıyor, sesi sabit."
+  },
+  {
+   "key": "case038.celine.will.question",
+   "value": "Babanızın mirası size kalıyor."
+  },
+  {
+   "key": "case038.clue.check",
+   "value": "Asistan kalemin ceket cebinde olduğunu kontrol ediyor."
+  },
+  {
+   "key": "case038.clue.coat",
+   "value": "Aynı adam askıdaki ceketin cebine elini sokuyor."
+  },
+  {
+   "key": "case038.clue.fall",
+   "value": "Delorme kâseyi kaldırıyor, dudağına dokunuyor, yığılıyor."
+  },
+  {
+   "key": "case038.clue.lay",
+   "value": "Eldivenler tepsiye diziliyor."
+  },
+  {
+   "key": "case038.clue.msg",
+   "value": "Chicago’ya mesaj: ‘Paris kapandı.’"
+  },
+  {
+   "key": "case038.clue.source.faure",
+   "value": "Müzayedeci"
+  },
+  {
+   "key": "case038.clue.source.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.clue.source.search",
+   "value": "Arama"
+  },
+  {
+   "key": "case038.clue.tray",
+   "value": "Uzun boylu adam tepsinin üzerine eğiliyor."
+  },
+  {
+   "key": "case038.custody.home",
+   "value": "Kurban evde unuttu"
+  },
+  {
+   "key": "case038.custody.label",
+   "value": "Adrenalin kalemi nereye gitti?"
+  },
+  {
+   "key": "case038.custody.lost",
+   "value": "Kargaşada düştü, kayboldu"
+  },
+  {
+   "key": "case038.custody.taken",
+   "value": "Katil satıştan önce ceketten aldı"
+  },
+  {
+   "key": "case038.epilogue.custody.home",
+   "value": "Asistan kalemi 17.30’da cepte görmüştü."
+  },
+  {
+   "key": "case038.epilogue.custody.lost",
+   "value": "Salon arandı ama kalem başka yerdeydi."
+  },
+  {
+   "key": "case038.epilogue.custody.taken",
+   "value": "Kalemin 18.43’te ceketten alındığı ve katilin çantasında bulunduğu yazıldı."
+  },
+  {
+   "key": "case038.epilogue.verdict.accident",
+   "value": "Ölüm talihsiz bir alerji krizi sayıldı; Lakeshore sevkiyatı yoluna devam etti."
+  },
+  {
+   "key": "case038.epilogue.verdict.antoine",
+   "value": "Antoine Brassard tutuklandı. Lakeshore manifestoları Chicago Pilsen’deki bir depoya uzanıyor; köken mektuplarının hepsinde Dr. E. Varga imzası. Görevlendirme bube Chicago — Pilsen şubesine aktarıldı."
+  },
+  {
+   "key": "case038.epilogue.verdict.celine",
+   "value": "Céline Delorme tutuklandı; Chicago numarası hiç aranmadı."
+  },
+  {
+   "key": "case038.epilogue.verdict.lopes",
+   "value": "Carla Lopes gözaltına alındı; Brassard ertesi sabah Chicago uçağındaydı."
+  },
+  {
+   "key": "case038.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case038.evidence.back",
+   "value": "Arka oda kamerası"
+  },
+  {
+   "key": "case038.evidence.glovelab",
+   "value": "Eldiven analizi"
+  },
+  {
+   "key": "case038.evidence.search",
+   "value": "Antoine Brassard’ın çantası ve arabası — arama"
+  },
+  {
+   "key": "case038.faure.body",
+   "value": "Müzayedeci."
+  },
+  {
+   "key": "case038.faure.deflect",
+   "value": "Ben çekici vururum, kâğıtlar beni ilgilendirmez."
+  },
+  {
+   "key": "case038.faure.rostrum.answer",
+   "value": "Auguste kâseyi eldivenleriyle kaldırdı, salona gösterdi. Burnunu kaşıdı, dudağına dokundu, eski alışkanlık. Bir dakika sonra nefes alamıyordu. Antoine ilk koşan oldu; ‘kalemi ceketinde, getiriyorum’ diye arka odaya gitti, eli boş döndü."
+  },
+  {
+   "key": "case038.faure.rostrum.answer.demeanor",
+   "value": "Gözlüğünü başından indirip tekrar kaldırıyor."
+  },
+  {
+   "key": "case038.faure.rostrum.question",
+   "value": "Kürsüden ne gördünüz?"
+  },
+  {
+   "key": "case038.faure.title",
+   "value": "Martin Faure — görüşme"
+  },
+  {
+   "key": "case038.feedback.accident",
+   "value": "Yağ yalnız başkanın sağ eldiveninde, iç yüzde; öbür on bir çift temiz. Kalem de cebinden çıkmış."
+  },
+  {
+   "key": "case038.feedback.antoine",
+   "value": "Arka oda kamerası 18.41’de tepsiye eğilen, 18.43’te askıdaki ceketin cebine el atan adamı gösteriyor; yağ yalnız başkanın çiftinde, iç yüzde. Kalem ve ceviz yağı onun çantasında; pazartesi randevusunu bilen iki kişiden biri."
+  },
+  {
+   "key": "case038.feedback.celine",
+   "value": "Mirasçı ön sıradaydı ve arka odaya girmedi; miras borçtan ibaret."
+  },
+  {
+   "key": "case038.feedback.lopes",
+   "value": "Eldivenleri mühürlü paketten dizdi; yağ eldivenler dizildikten sonra, 18.41’de sürüldü."
+  },
+  {
+   "key": "case038.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case038.file.value.bureau",
+   "value": "BDS Paris — Belleville Şubesi"
+  },
+  {
+   "key": "case038.file.value.location",
+   "value": "Paris 8, müzayede salonu"
+  },
+  {
+   "key": "case038.file.value.number",
+   "value": "BDP-PAR-2030-0163"
+  },
+  {
+   "key": "case038.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case038.file.value.reporter",
+   "value": "Müzayede evi"
+  },
+  {
+   "key": "case038.glovelab.body",
+   "value": "Kurbanın ellerinden alınan beyaz pamuk eldivenler:\n\n· Sağ eldivenin üç parmak ucunda yoğun ceviz yağı; iç yüzde, dış yüzde değil. Yağ, eldiven giyilmeden önce sürülmüş.\n· Sol eldiven temiz.\n· Tepsideki öbür on bir çift temiz. Yağlanmış çift tepsinin en üstündeydi; müzayede evinin kuralına göre en üstteki çift başkanındır."
+  },
+  {
+   "key": "case038.glovelab.title",
+   "value": "ELDİVEN ANALİZİ"
+  },
+  {
+   "key": "case038.lopes.body",
+   "value": "Taşıma asistanı."
+  },
+  {
+   "key": "case038.lopes.coat.answer",
+   "value": "Arka odaya, askılığa. Satıştan önce ceketsiz, yelekle çıkar. Kalemi cebindeydi; 17.30’da kontrol etmiştim, her satıştan önce kontrol ederim."
+  },
+  {
+   "key": "case038.lopes.coat.question",
+   "value": "Ceketini nereye asmıştı?"
+  },
+  {
+   "key": "case038.lopes.deflect",
+   "value": "Ben eserleri taşırım, satışları bilmem."
+  },
+  {
+   "key": "case038.lopes.title",
+   "value": "Carla Lopes — görüşme"
+  },
+  {
+   "key": "case038.lopes.tray.answer",
+   "value": "18.05’te, yeni ve mühürlü paketten. Bay Delorme’un çifti hep en üsttedir, bunu herkes bilir. Ondan sonra odaya girmedim; salonda eserleri diziyordum."
+  },
+  {
+   "key": "case038.lopes.tray.answer.demeanor",
+   "value": "Göğüs cebindeki eldivenlere dokunup duruyor."
+  },
+  {
+   "key": "case038.lopes.tray.question",
+   "value": "Eldivenleri siz mi hazırladınız?"
+  },
+  {
+   "key": "case038.method.bowl",
+   "value": "Kâsenin üstüne yağ sürüldü"
+  },
+  {
+   "key": "case038.method.food",
+   "value": "Yemeğine fıstık katıldı"
+  },
+  {
+   "key": "case038.method.glove",
+   "value": "Eldivenin içine ceviz yağı sürüldü, adrenalin kalemi alındı"
+  },
+  {
+   "key": "case038.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case038.morel.body",
+   "value": "Aile avukatı."
+  },
+  {
+   "key": "case038.morel.deflect",
+   "value": "Müvekkilimin işleri avukat gizliliği kapsamında."
+  },
+  {
+   "key": "case038.morel.monday.answer",
+   "value": "Auguste beni çağırdı. ‘Nakliye bölümünü kapatıyorum, bütün Lakeshore dosyalarını bube’ye vereceğim’ dedi. Bir isim vardı: Varga. Kim olduğunu sordum, ‘pazartesi’ dedi. Bunu yalnız ben ve Antoine biliyorduk; Antoine’a kendisi söylemiş."
+  },
+  {
+   "key": "case038.morel.monday.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp siliyor."
+  },
+  {
+   "key": "case038.morel.monday.question",
+   "value": "Pazartesi bir randevunuz vardı."
+  },
+  {
+   "key": "case038.morel.title",
+   "value": "Vincent Morel — görüşme"
+  },
+  {
+   "key": "case038.offer.subtitle",
+   "value": "DELORME  /  BÖLÜM FİNALİ"
+  },
+  {
+   "key": "case038.offer.summary",
+   "value": "Maison Delorme’un yıllık müzayedesinde Auguste Delorme kürsünün yanında yığıldı. Adrenalin kalemi cebinde değildi."
+  },
+  {
+   "key": "case038.offer.title",
+   "value": "DOSYA #038"
+  },
+  {
+   "key": "case038.person.antoine.info",
+   "value": "57 yaşında, Maison Delorme’un nakliye ve özel satışlar direktörü (Dosya #036’dan)."
+  },
+  {
+   "key": "case038.person.antoine.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.person.celine.info",
+   "value": "38 yaşında, kurbanın kızı; müzayede evinin genel müdür yardımcısı."
+  },
+  {
+   "key": "case038.person.celine.name",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.person.faure.info",
+   "value": "60 yaşında, müzayedeci; çekici o gece o tutuyordu."
+  },
+  {
+   "key": "case038.person.faure.name",
+   "value": "Martin Faure"
+  },
+  {
+   "key": "case038.person.lopes.info",
+   "value": "29 yaşında, eser taşıma asistanı; eldivenleri o hazırlar."
+  },
+  {
+   "key": "case038.person.lopes.name",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.person.morel.info",
+   "value": "52 yaşında, Delorme ailesinin avukatı."
+  },
+  {
+   "key": "case038.person.morel.name",
+   "value": "Vincent Morel"
+  },
+  {
+   "key": "case038.recon.r_bowl",
+   "value": "19.12: Delorme kâseyi kaldırıyor, dudağına dokunuyor; Brassard ‘kalemi getiriyorum’ diye koşup eli boş dönüyor."
+  },
+  {
+   "key": "case038.recon.r_check",
+   "value": "17.30: Asistan kalemi ceket cebinde görüyor; 18.05’te eldivenleri diziyor."
+  },
+  {
+   "key": "case038.recon.r_chicago",
+   "value": "19.30: Chicago’daki ‘E.V.’ye mesaj: ‘Paris kapandı. Mal yolda.’"
+  },
+  {
+   "key": "case038.recon.r_monday",
+   "value": "Delorme, pazartesi bütün Lakeshore dosyalarını bube’ye vereceğini Brassard’a söylüyor."
+  },
+  {
+   "key": "case038.recon.r_oil",
+   "value": "19 Haziran: Brassard bir ceviz yağı şişesi satın alıyor."
+  },
+  {
+   "key": "case038.recon.r_pen",
+   "value": "18.43: Askıdaki ceketten adrenalin kalemini alıyor."
+  },
+  {
+   "key": "case038.recon.r_tray",
+   "value": "18.41: Brassard arka odada yalnız; en üstteki çiftin sağ eldivenine yağ sürüyor."
+  },
+  {
+   "key": "case038.report.body",
+   "value": "21 Haziran 2030 akşamı Paris 8. bölgedeki Maison Delorme müzayede salonunda, satışın 19.12’sinde Auguste Delorme (71) kürsünün yanında yere yığıldı; hastaneye kaldırılırken öldü.\n\nAğır fıstık ve ceviz alerjisi aile ve personel tarafından biliniyordu. Adrenalin kalemini her zaman ceketinin iç cebinde taşırdı; kalem bulunamadı.\n\nArka odada ve salonda bulunanlar: Céline Delorme, Antoine Brassard, müzayedeci Martin Faure, asistan Carla Lopes, avukat Vincent Morel."
+  },
+  {
+   "key": "case038.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case038.request.glovelab",
+   "value": "Eldivenleri analize gönder"
+  },
+  {
+   "key": "case038.request.search",
+   "value": "Antoine Brassard’ın evrak çantası ve arabası için arama izni iste"
+  },
+  {
+   "key": "case038.search.body",
+   "value": "Şube şefinin onayıyla:\n\n· Antoine Brassard’ın evrak çantasında kullanılmamış bir adrenalin kalemi; reçete etiketinde ‘A. Delorme’.\n· Aynı çantada küçük bir ceviz yağı şişesi, damlalıklı; restorasyon malzemesi faturası Brassard adına, 19 Haziran.\n· Arabanın torpidosunda Lakeshore Freight manifestoları: Chicago, Pilsen’de bir depo adresi; her sevkiyatın köken mektubu ‘Dr. E. Varga’ imzalı.\n· Telefonda 19.30’da ‘E.V.’ diye kayıtlı bir Chicago numarasına mesaj: ‘Paris kapandı. Mal yolda.’"
+  },
+  {
+   "key": "case038.search.title",
+   "value": "ANTOINE BRASSARD’IN EVRAK ÇANTASI VE ARABASI — ARAMA"
+  },
+  {
+   "key": "case038.summary.evidence",
+   "value": "Otopsi alerjenin eldivenden geçtiğini, eldiven analizi yağın yalnız o çiftin iç yüzünde olduğunu, arka oda kamerası tepsi ve ceketteki adamı gösterdi. İki gerekçeyle açılan arama kalemi, yağı ve Chicago’ya giden manifestoları verdi."
+  },
+  {
+   "key": "case038.summary.lesson",
+   "value": "Paris’teki bütün yollar tek bir masada birleşti. Mal yer değiştirdi: Chicago."
+  },
+  {
+   "key": "case038.summary.location",
+   "value": "Paris — Haziran 2030"
+  },
+  {
+   "key": "case038.summary.truth",
+   "value": "Maison Delorme’un nakliye direktörü Antoine Brassard, kırk yıllık patronu Auguste Delorme’un pazartesi bütün Lakeshore dosyalarını bube’ye vereceğini öğrendi. Müzayede akşamı arka odada, başkana ayrılmış en üstteki eldiven çiftinin içine ceviz yağı sürdü ve askıdaki ceketten adrenalin kalemini aldı. Delorme kâseyi gösterirken dudağına dokundu; Brassard kalemi getirmeye koşar gibi yaptı."
+  },
+  {
+   "key": "case038.suspect.label",
+   "value": "Auguste Delorme’u kim öldürdü?"
+  },
+  {
+   "key": "case038.tablet.caseLine",
+   "value": "DOSYA #038  /  BUBE PARİS — BELLEVİLLE"
+  },
+  {
+   "key": "case038.time.check",
+   "value": "17.30"
+  },
+  {
+   "key": "case038.time.coat",
+   "value": "18.43"
+  },
+  {
+   "key": "case038.time.fall",
+   "value": "19.12"
+  },
+  {
+   "key": "case038.time.lay",
+   "value": "18.05"
+  },
+  {
+   "key": "case038.time.msg",
+   "value": "19.30"
+  },
+  {
+   "key": "case038.time.tray",
+   "value": "18.41"
+  },
+  {
+   "key": "case038.title",
+   "value": "Dosya #038 — Delorme"
+  },
+  {
+   "key": "case038.verdict.accident",
+   "value": "Kimse — salonda bir alerjen vardı"
+  },
+  {
+   "key": "case038.verdict.antoine",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.verdict.celine",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.verdict.lopes",
+   "value": "Carla Lopes"
+  }
+ ]
+}
