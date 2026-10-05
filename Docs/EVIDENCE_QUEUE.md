@@ -54,9 +54,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 31. **Ceza fişleri** → `case022_receipts.png` ✅
 
 ## Dosya #023 (3)
-32. **Kart askısı** → `case023_lanyard.png`
-33. **Dizüstü** → `case023_laptop.png`
-34. **Dağınık daire** → `case023_drawers.png`
+32. **Kart askısı** → `case023_lanyard.png` ✅
+33. **Dizüstü** → `case023_laptop.png` ✅
+34. **Dağınık daire** → `case023_drawers.png` ✅
 
 ## Dosya #024 (4)
 35. **Defter** → `case024_ledger.png`

@@ -213,6 +213,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case023.matthias.series"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case023.item.drawers.name",
+     "detailKey": "case023.item.drawers.detail",
+     "imageResource": "Bube/Items/case023_drawers"
+    }
    ]
   },
   {
@@ -244,6 +251,13 @@
      "textKey": "case023.cctv.event.none",
      "delayMs": 620,
      "overlayTimeKey": "case023.time.none"
+    }
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case023.item.lanyard.name",
+     "detailKey": "case023.item.lanyard.detail",
+     "imageResource": "Bube/Items/case023_lanyard"
     }
    ]
   },
@@ -287,7 +301,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case023.request.fibre",
-   "requestDelaySeconds": 8
+   "requestDelaySeconds": 8,
+   "relatedItems": [
+    {
+     "nameKey": "case023.item.laptop.name",
+     "detailKey": "case023.item.laptop.detail",
+     "imageResource": "Bube/Items/case023_laptop"
+    }
+   ]
   },
   {
    "id": "matthias_2",
