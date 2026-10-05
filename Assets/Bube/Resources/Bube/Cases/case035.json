@@ -195,6 +195,13 @@
    "requestDelaySeconds": 4,
    "requiresAsked": [
     "case035.mallet.help"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case035.item.call.name",
+     "detailKey": "case035.item.call.detail",
+     "imageResource": "Bube/Items/case035_call"
+    }
    ]
   },
   {
@@ -210,6 +217,13 @@
    "requestDelaySeconds": 4,
    "requiresAsked": [
     "case035.mallet.help"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case035.item.card.name",
+     "detailKey": "case035.item.card.detail",
+     "imageResource": "Bube/Items/case035_card"
+    }
    ]
   },
   {
@@ -264,6 +278,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case035.royer.partner"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case035.item.ruling.name",
+     "detailKey": "case035.item.ruling.detail",
+     "imageResource": "Bube/Items/case035_ruling"
+    }
    ]
   },
   {
