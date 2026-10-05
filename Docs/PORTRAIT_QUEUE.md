@@ -344,19 +344,19 @@ A 45-year-old French man of Caribbean descent, close-cropped black hair, calm br
 
 ## Dosya #033 (3)
 
-51. **Nadine Fontaine** → `nadine.png`
+51. **Nadine Fontaine** → `nadine.png` ✅
 
 ```
 A 55-year-old French woman, light brown hair streaked with grey tied back loosely, flour on one cheek, red-rimmed eyes, stunned expression. Cream baker's apron over a beige knitted jumper. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-52. **Rayan Haddad** → `rayan.png`
+52. **Rayan Haddad** → `rayan.png` ✅
 
 ```
 A 22-year-old French man of Maghrebi descent, short black hair under a white baker's cap, thin moustache, shocked young face, flour-dusted. White baker's jacket with rolled sleeves visible at the shoulders. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-53. **Sophie Garnier** → `garnier.png`
+53. **Sophie Garnier** → `garnier.png` ✅
 
 ```
 A 41-year-old French woman, dark brown hair in a sleek ponytail, discreet makeup, tense polite smile, eyes looking slightly away. Charcoal blazer over a black top, a thin silver necklace. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
