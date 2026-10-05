@@ -77,7 +77,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case049.request.tox",
-   "requestDelaySeconds": 7
+   "requestDelaySeconds": 7,
+   "relatedItems": [
+    {
+     "nameKey": "case049.item.cup.name",
+     "detailKey": "case049.item.cup.detail",
+     "imageResource": "Bube/Items/case049_cup"
+    }
+   ]
   },
   {
    "id": "matteo",

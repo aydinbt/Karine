@@ -109,6 +109,13 @@
      "delayMs": 620,
      "overlayTimeKey": "case048.time.leave"
     }
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case048.item.lever.name",
+     "detailKey": "case048.item.lever.detail",
+     "imageResource": "Bube/Items/case048_lever"
+    }
    ]
   },
   {
@@ -358,7 +365,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case048.request.forms",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case048.item.report.name",
+     "detailKey": "case048.item.report.detail",
+     "imageResource": "Bube/Items/case048_report"
+    }
+   ]
   },
   {
    "id": "locker",
@@ -391,7 +405,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case048.item.tag.name",
+     "detailKey": "case048.item.tag.detail",
+     "imageResource": "Bube/Items/case048_tag"
+    }
+   ]
   }
  ],
  "timelineClues": [

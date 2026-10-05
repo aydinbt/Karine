@@ -306,7 +306,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case047.request.ledger",
-   "requestDelaySeconds": 4
+   "requestDelaySeconds": 4,
+   "relatedItems": [
+    {
+     "nameKey": "case047.item.ledger.name",
+     "detailKey": "case047.item.ledger.detail",
+     "imageResource": "Bube/Items/case047_ledger"
+    }
+   ]
   },
   {
    "id": "car",

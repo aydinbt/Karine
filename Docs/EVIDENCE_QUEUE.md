@@ -178,15 +178,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #047 (3)
 106. **Soğuk oda iç kolu** → `case047_handle.png` ✅
 107. **Soğuk oda termostatı** → `case047_thermo.png` ✅
-108. **Kasa defteri** → `case047_ledger.png`
+108. **Kasa defteri** → `case047_ledger.png` ✅
 
 ## Dosya #048 (3)
-109. **Kumanda kolu** → `case048_lever.png`
-110. **Bakım asma etiketi** → `case048_tag.png`
-111. **Kablo denetim raporu** → `case048_report.png`
+109. **Kumanda kolu** → `case048_lever.png` ✅
+110. **Bakım asma etiketi** → `case048_tag.png` ✅
+111. **Kablo denetim raporu** → `case048_report.png` ✅
 
 ## Dosya #049 (3)
-112. **Espresso fincanı** → `case049_cup.png`
+112. **Espresso fincanı** → `case049_cup.png` ✅
 113. **Eski pigment kavanozu** → `case049_pigment.png`
 114. **Çoban figürü** → `case049_figure.png`
 
