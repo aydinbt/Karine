@@ -53,7 +53,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case039.request.inspect",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case039.item.bolts.name",
+     "detailKey": "case039.item.bolts.detail",
+     "imageResource": "Bube/Items/case039_bolts"
+    }
+   ]
   },
   {
    "id": "dock",

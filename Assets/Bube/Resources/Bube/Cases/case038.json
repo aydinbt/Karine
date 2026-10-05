@@ -53,7 +53,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case038.request.glovelab",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case038.item.gloves.name",
+     "detailKey": "case038.item.gloves.detail",
+     "imageResource": "Bube/Items/case038_gloves"
+    }
+   ]
   },
   {
    "id": "back",
@@ -247,7 +254,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case038.item.pen.name",
+     "detailKey": "case038.item.pen.detail",
+     "imageResource": "Bube/Items/case038_pen"
+    },
+    {
+     "nameKey": "case038.item.manifest.name",
+     "detailKey": "case038.item.manifest.detail",
+     "imageResource": "Bube/Items/case038_manifest"
+    }
+   ]
   },
   {
    "id": "antoine",

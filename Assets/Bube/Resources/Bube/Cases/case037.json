@@ -229,6 +229,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case037.diallo.who"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case037.item.invoices.name",
+     "detailKey": "case037.item.invoices.detail",
+     "imageResource": "Bube/Items/case037_invoices"
+    }
    ]
   },
   {

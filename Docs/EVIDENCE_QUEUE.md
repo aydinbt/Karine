@@ -128,15 +128,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #037 (3)
 76. **Buhar presi** → `case037_press.png` ✅
 77. **Terzi metresi** → `case037_tape.png` ✅
-78. **Lisans faturaları** → `case037_invoices.png`
+78. **Lisans faturaları** → `case037_invoices.png` ✅
 
 ## Dosya #038 (3)
-79. **Beyaz taşıma eldivenleri** → `case038_gloves.png`
-80. **Adrenalin kalemi** → `case038_pen.png`
-81. **Chicago manifestosu** → `case038_manifest.png`
+79. **Beyaz taşıma eldivenleri** → `case038_gloves.png` ✅
+80. **Adrenalin kalemi** → `case038_pen.png` ✅
+81. **Chicago manifestosu** → `case038_manifest.png` ✅
 
 ## Dosya #039 (3)
-82. **Kopmuş ankraj cıvataları** → `case039_bolts.png`
+82. **Kopmuş ankraj cıvataları** → `case039_bolts.png` ✅
 83. **Levye** → `case039_bar.png`
 84. **Çift etiketli sandık** → `case039_labels.png`
 
