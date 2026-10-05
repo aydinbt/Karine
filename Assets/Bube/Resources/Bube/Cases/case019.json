@@ -41,6 +41,13 @@
    "bodyKey": "case019.autopsy.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case019.item.stand.name",
+     "detailKey": "case019.item.stand.detail",
+     "imageResource": "Bube/Items/case019_stand"
+    }
    ]
   },
   {
@@ -263,6 +270,13 @@
      "textKey": "case019.cctv.event.sophie",
      "delayMs": 620,
      "overlayTimeKey": "case019.time.sophie"
+    }
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case019.item.studio.name",
+     "detailKey": "case019.item.studio.detail",
+     "imageResource": "Bube/Items/case019_studio"
     }
    ]
   },

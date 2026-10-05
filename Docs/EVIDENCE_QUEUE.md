@@ -36,8 +36,8 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 21. **Telefon** → `case018_phone.png` ✅
 
 ## Dosya #019 (2)
-22. **Mikrofon ayağı** → `case019_stand.png`
-23. **Ev stüdyosu** → `case019_studio.png`
+22. **Mikrofon ayağı** → `case019_stand.png` ✅
+23. **Ev stüdyosu** → `case019_studio.png` ✅
 
 ## Dosya #020 (3)
 24. **Arşiv klasörü** → `case020_file.png`
