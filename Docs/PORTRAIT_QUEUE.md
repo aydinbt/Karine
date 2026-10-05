@@ -120,37 +120,37 @@ A 44-year-old Japanese man, short-cropped black hair with grey at the temples, s
 
 ## Dosya #026 (6)
 
-16. **Hoshino Aoi** → `aoi.png`
+16. **Hoshino Aoi** → `aoi.png` ✅
 
 ```
 A 24-year-old Japanese woman, black hair tied in a low practical ponytail with loose strands, clay-dusted cheek, red-rimmed exhausted eyes, lips pressed together. Indigo work jacket (samue) over a grey t-shirt, a faint grey ash smudge on the collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-17. **Nakamura Emi** → `emi.png`
+17. **Nakamura Emi** → `emi.png` ✅
 
 ```
 A 41-year-old Japanese woman, shoulder-length black hair, composed but grieving face, light makeup, guarded eyes. Camel-coloured wool coat over a cream blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-18. **Fujita Masaru** → `fujita.png`
+18. **Fujita Masaru** → `fujita.png` ✅
 
 ```
 A 59-year-old Japanese man, swept-back silver-grey hair, round tortoiseshell glasses, polished and worried expression. Charcoal three-piece suit, pale grey shirt, dark tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-19. **Kuroda Isao** → `kuroda.png`
+19. **Kuroda Isao** → `kuroda.png` ✅
 
 ```
 A 63-year-old Japanese man, thick white hair cut short, heavy eyebrows, stern displeased expression. Dark brown tweed jacket over a black turtleneck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-20. **Okabe Tetsu** → `okabe.png`
+20. **Okabe Tetsu** → `okabe.png` ✅
 
 ```
 A 70-year-old Japanese man, thin white hair, deeply sun-tanned and wrinkled face, kind squinting eyes. Faded olive-green work vest over a checked flannel shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-21. **Shimizu Rie** → `shimizu.png`
+21. **Shimizu Rie** → `shimizu.png` ✅
 
 ```
 A 47-year-old Japanese woman, black bob haircut with a few grey strands, thin silver-rimmed glasses, sharp intelligent eyes, tense jaw. Navy blazer over a white high-neck top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
