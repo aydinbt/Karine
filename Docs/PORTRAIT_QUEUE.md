@@ -1554,19 +1554,19 @@ A 62-year-old Greek-Australian man, white hair and a thick white moustache, a de
 
 ## Dosya #071 (3)
 
-240. **Lachlan Reid** → `lachlan.png`
+240. **Lachlan Reid** → `lachlan.png` ✅
 
 ```
 A 54-year-old Scottish-Australian man, grey-brown hair cut short, a weather-beaten firm face with a trimmed grey beard, controlled blue eyes. A navy harbourmaster's jumper with shoulder patches, no badge or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-241. **Ruby Aldous** → `ruby.png`
+241. **Ruby Aldous** → `ruby.png` ✅
 
 ```
 A 26-year-old Australian woman, long dark brown hair in a braid, a young frightened face, wide hazel eyes. A mustard-yellow volunteer windbreaker with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-242. **Bao Tran-Le** → `bao.png`
+242. **Bao Tran-Le** → `bao.png` ✅
 
 ```
 A 60-year-old Vietnamese-Australian man, short silver hair, a lean sun-darkened face, quiet amused eyes. A faded sage-green fishing jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
