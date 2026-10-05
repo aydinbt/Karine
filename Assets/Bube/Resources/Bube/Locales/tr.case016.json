@@ -1,0 +1,820 @@
+{
+ "entries": [
+  {
+   "key": "case016.autopsy.body",
+   "value": "· Ölüm sebebi: boğulma. Akciğerlerde kanal suyu; suya düştüğünde yaşıyordu.\n· Sol şakakta, düşmeden önce oluşmuş bir darbe; köprü ayağının taş kenarıyla uyumlu.\n· Yakada yırtık, boyunda tutma izi.\n· Sağ elin tırnak altında başka birine ait deri; DNA incelemesine gönderildi.\n· Kanda 0,6 promil alkol.\n· Parmak izleri kimlik doğrulama için ulusal kayda soruldu; sonuç bekleniyor."
+  },
+  {
+   "key": "case016.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case016.badge.body",
+   "value": "Kart sahibi: Adrian Pell. Islington ofisi. Seçilmiş günler:\n\n· 5 Şubat · giriş 08.41 · çıkış 18.10\n· 15 Şubat · giriş 08.39 · öğle çıkışı 13.02 · dönüş 13.48 · çıkış 17.55\n· 28 Şubat · giriş 08.44 · çıkış 19.20\n· 3 Mart · giriş 08.40 · çıkış 17.30\n\nOfis Islington’da; Leeds’e tren yolculuğu en az 2 saat 15 dakika."
+  },
+  {
+   "key": "case016.badge.title",
+   "value": "DUNN & WARD — BÜRO GİRİŞ KARTI KAYDI"
+  },
+  {
+   "key": "case016.cctv.event.empty",
+   "value": "Kamera 12: Yürüyüş yolu boş. Suyun yüzeyinde hareket yok."
+  },
+  {
+   "key": "case016.cctv.event.struggle",
+   "value": "Kamera 12: Paltolu ikinci bir adam yürüyüş yolundan geliyor. Kısa bir konuşma. Bereli adam ötekini yakasından tutup sarsıyor, itiyor. Paltolu adam köprü ayağına çarpıp suya düşüyor. Bereli adam bir an kıyıda duruyor, sonra koşarak uzaklaşıyor."
+  },
+  {
+   "key": "case016.cctv.event.wait",
+   "value": "Kamera 12: Köprü altında, bere takmış bir adam duvara yaslanmış bekliyor."
+  },
+  {
+   "key": "case016.cctv.overlay",
+   "value": "KAM 12"
+  },
+  {
+   "key": "case016.cctv.period",
+   "value": "2 Mayıs 2029, 23.00 – 00.30"
+  },
+  {
+   "key": "case016.cctv.source",
+   "value": "Yürüyüş yolu kamerası"
+  },
+  {
+   "key": "case016.clue.atm",
+   "value": "Leeds’te ATM’den nakit çekiliyor."
+  },
+  {
+   "key": "case016.clue.badge",
+   "value": "Adrian’ın kartı Islington’daki büroda okutuluyor."
+  },
+  {
+   "key": "case016.clue.darren",
+   "value": "Darren Fisk Croydon’da bir kapıda."
+  },
+  {
+   "key": "case016.clue.dead1994",
+   "value": "Adrian Pell altı yaşında ölüyor."
+  },
+  {
+   "key": "case016.clue.email",
+   "value": "Craig, “Adrian”a yazıyor: “Adını geri istiyorum.”"
+  },
+  {
+   "key": "case016.clue.hart2006",
+   "value": "Lewis Hart Kent’te bir çocuğu ezip kaçıyor; aynı yıl “Adrian Pell” adına sürücü belgesi çıkıyor."
+  },
+  {
+   "key": "case016.clue.passport",
+   "value": "Leeds’te “Adrian Pell” adına pasaport başvurusu; fotoğraf Craig Pell’e benziyor."
+  },
+  {
+   "key": "case016.clue.source.badge",
+   "value": "Büro giriş kartı"
+  },
+  {
+   "key": "case016.clue.source.darren_log",
+   "value": "Saha kaydı"
+  },
+  {
+   "key": "case016.clue.source.death",
+   "value": "Nüfus kaydı"
+  },
+  {
+   "key": "case016.clue.source.email",
+   "value": "E-posta"
+  },
+  {
+   "key": "case016.clue.source.loans",
+   "value": "Kredi dökümü"
+  },
+  {
+   "key": "case016.clue.source.passport",
+   "value": "Pasaport dosyası"
+  },
+  {
+   "key": "case016.clue.source.phone",
+   "value": "Craig’in telefon kaydı"
+  },
+  {
+   "key": "case016.clue.source.prints",
+   "value": "Parmak izi sonucu"
+  },
+  {
+   "key": "case016.clue.struggle",
+   "value": "Köprü altında boğuşma; bir adam suya düşüyor, öteki kaçıyor."
+  },
+  {
+   "key": "case016.clue.train",
+   "value": "Craig Leeds’ten Londra’ya trene biniyor."
+  },
+  {
+   "key": "case016.craig.body",
+   "value": "Leeds’ten, pasaport başvurusu üzerine."
+  },
+  {
+   "key": "case016.craig.brother.answer",
+   "value": "Kardeşim. Otuz beş yıl önce öldü, altı yaşında. Menenjit. Annem bir daha hiç gülmedi."
+  },
+  {
+   "key": "case016.craig.brother.answer.demeanor",
+   "value": "Sesi düz, gözleri kıpırtısız."
+  },
+  {
+   "key": "case016.craig.brother.question",
+   "value": "Adrian Pell kim?"
+  },
+  {
+   "key": "case016.craig.deflect",
+   "value": "Avukatım gelmeden konuşmam."
+  },
+  {
+   "key": "case016.craig.london.answer",
+   "value": "Londra’da işim yok. Ben Leeds’ten çıkmam."
+  },
+  {
+   "key": "case016.craig.london.question",
+   "value": "Son aylarda Londra’ya geldiniz mi?"
+  },
+  {
+   "key": "case016.craig.passport.answer",
+   "value": "Bilmiyorum ne diyorsunuz. Biri benim yüzümü kullanmışsa, onu da bulun."
+  },
+  {
+   "key": "case016.craig.passport.question",
+   "value": "Aralık’ta kardeşinizin adına bir pasaport çıkarılmış. Fotoğraf sizin."
+  },
+  {
+   "key": "case016.craig.quote",
+   "value": "“Annem bir daha hiç gülmedi.”"
+  },
+  {
+   "key": "case016.craig.title",
+   "value": "Craig Pell — görüşme"
+  },
+  {
+   "key": "case016.craig_2.body",
+   "value": "E-posta ve telefon kaydı üzerine."
+  },
+  {
+   "key": "case016.craig_2.canal.answer",
+   "value": "Konuşmaya gittim. Özür diledi. Özür! Kardeşimin adını yirmi yıl giyip özür diledi. Ben… sonra gittim. O oradaydı, ayaktaydı."
+  },
+  {
+   "key": "case016.craig_2.canal.question",
+   "value": "2 Mayıs gecesi kanaldaydınız."
+  },
+  {
+   "key": "case016.craig_2.loans.answer",
+   "value": "Evet, krediler benim. O adamın her şeyi kardeşimin adından geliyordu. Evi, işi, kadını. O paranın yarısı benim ailemin hakkıydı. Hırsızdan çalmak hırsızlık mı?"
+  },
+  {
+   "key": "case016.craig_2.loans.answer.demeanor",
+   "value": "İlk kez sesi çatladı."
+  },
+  {
+   "key": "case016.craig_2.loans.question",
+   "value": "E-postayı siz yazdınız. ‘Parasını da’ diyorsunuz."
+  },
+  {
+   "key": "case016.craig_2.title",
+   "value": "Craig Pell — ikinci görüşme"
+  },
+  {
+   "key": "case016.craig_3.body",
+   "value": "DNA sonucu üzerine."
+  },
+  {
+   "key": "case016.craig_3.fight.answer",
+   "value": "…Yakasından tuttum. ‘Söyle adını’ dedim, ‘gerçek adını söyle.’ Söylemedi. İttim. Başı taşa çarptı, suya düştü."
+  },
+  {
+   "key": "case016.craig_3.fight.answer.demeanor",
+   "value": "Ellerine baktı."
+  },
+  {
+   "key": "case016.craig_3.fight.question",
+   "value": "Tırnağının altında sizin deriniz var."
+  },
+  {
+   "key": "case016.craig_3.title",
+   "value": "Craig Pell — üçüncü görüşme"
+  },
+  {
+   "key": "case016.craig_3.water.answer",
+   "value": "Çıkaramadım. …Çıkarmadım. Bir an orada durdum ve düşündüm: kardeşim de böyle gitti, kimse bir şey yapamadı. Sonra yürüdüm."
+  },
+  {
+   "key": "case016.craig_3.water.answer.demeanor",
+   "value": "Gözlerini kapadı."
+  },
+  {
+   "key": "case016.craig_3.water.question",
+   "value": "Onu sudan çıkarmaya çalıştınız mı?"
+  },
+  {
+   "key": "case016.custody.adrian",
+   "value": "Adrian Pell"
+  },
+  {
+   "key": "case016.custody.brother",
+   "value": "Craig Pell’in kardeşi"
+  },
+  {
+   "key": "case016.custody.hart",
+   "value": "Lewis Hart — ölmüş bir çocuğun kimliğiyle yaşayan kaçak"
+  },
+  {
+   "key": "case016.custody.label",
+   "value": "Ölen adam kimdi?"
+  },
+  {
+   "key": "case016.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case016.darren.body",
+   "value": "Tahsilat elemanıyla."
+  },
+  {
+   "key": "case016.darren.deflect",
+   "value": "Şirkete sorun, ben sadece kapı çalarım."
+  },
+  {
+   "key": "case016.darren.night.answer",
+   "value": "Croydon’da, iki ayrı kapıda. Akşam dokuzdan yarım gibi. Şirketin uygulaması her ziyareti konumla kaydeder, bakın."
+  },
+  {
+   "key": "case016.darren.night.question",
+   "value": "2 Mayıs gecesi neredeydiniz?"
+  },
+  {
+   "key": "case016.darren.note.answer",
+   "value": "Bizim üslup bu. Korkutmak işin yarısı. Ama ben kimseyi suya atmam, ben para isterim, ceset para ödemez."
+  },
+  {
+   "key": "case016.darren.note.answer.demeanor",
+   "value": "Omuz silkti."
+  },
+  {
+   "key": "case016.darren.note.question",
+   "value": "Son ihtara ‘Kaçamazsın. — D.’ diye siz mi yazdınız?"
+  },
+  {
+   "key": "case016.darren.pell.answer",
+   "value": "İki kez kapısına gittim. ‘Ben çekmedim’ dedi. Hepsi öyle der. Ama bu… bu adamın gözünde başka bir korku vardı. Benden değil."
+  },
+  {
+   "key": "case016.darren.pell.question",
+   "value": "Adrian Pell’le konuştunuz mu?"
+  },
+  {
+   "key": "case016.darren.title",
+   "value": "Darren Fisk — görüşme"
+  },
+  {
+   "key": "case016.darren_log.body",
+   "value": "Saha temsilcisi: Darren Fisk.\n\n· 21.05 · Croydon, Addiscombe · ziyaret, kimse yok · konum doğrulandı\n· 22.20 · Croydon, Thornton Heath · ziyaret, görüşüldü · konum doğrulandı\n· 23.41 · Croydon, Thornton Heath · uygulama kapatıldı\n\nThornton Heath’ten Hackney’e araçla yaklaşık 50 dakika."
+  },
+  {
+   "key": "case016.darren_log.title",
+   "value": "TAHSİLAT ŞİRKETİ — SAHA ZİYARET KAYDI, 2 MAYIS"
+  },
+  {
+   "key": "case016.death.body",
+   "value": "Ad: Adrian Pell. Doğum: 12 Mart 1988, Leeds. Ölüm: 4 Kasım 1994, Leeds Genel Hastanesi. Neden: menenjit.\n\nAnne: Margaret Pell (öl. Kasım 2028). Baba: kayıtlı değil. Kardeş: Craig Pell (d. 1984).\n\nAynı doğum belgesiyle sonraki işlemler: 2006 sürücü belgesi (Londra); 2015 vergi kaydı (Islington); 2028 pasaport başvurusu (Leeds)."
+  },
+  {
+   "key": "case016.death.title",
+   "value": "NÜFUS KAYDI — ÖLÜM, LEEDS 1994"
+  },
+  {
+   "key": "case016.dna.body",
+   "value": "Talep: bube Londra. Ölenin sağ el tırnak altından alınan deri örneği.\n\nKarşılaştırma: Craig Pell’den alınan ağız içi örnek. Sonuç: eşleşme.\n\nNot: Craig Pell’in sol ön kolunda, gözaltında belgelenen üç paralel, iyileşmekte olan çizik var; yaşı 2–4 gün."
+  },
+  {
+   "key": "case016.dna.title",
+   "value": "DNA SONUCU — TIRNAK ALTI"
+  },
+  {
+   "key": "case016.edith.body",
+   "value": "Leeds’ten, Pell ailesinin komşusu."
+  },
+  {
+   "key": "case016.edith.deflect",
+   "value": "Hatırlamıyorum canım, çok eski."
+  },
+  {
+   "key": "case016.edith.funeral.answer",
+   "value": "Küçük Adrian. Sarı saçlı, hep Craig’in peşinde. Cenazesinde Craig on yaşındaydı, mezarın başından kimse ayıramadı onu. Margaret o günden sonra yarım kaldı."
+  },
+  {
+   "key": "case016.edith.funeral.question",
+   "value": "Adrian Pell’i hatırlıyor musunuz?"
+  },
+  {
+   "key": "case016.edith.quote",
+   "value": "“Kardeşimi çalmış, dedi.”"
+  },
+  {
+   "key": "case016.edith.title",
+   "value": "Edith Mayhew — görüşme"
+  },
+  {
+   "key": "case016.edith.winter.answer",
+   "value": "Kışın, Margaret’in evini boşaltırken geldi, elinde bir zarf. ‘Edith, Adrian’a kredi kartı gelmiş’ dedi. Yüzünü öyle görmedim hiç. ‘Biri onu çalmış’ dedi, ‘kardeşimi çalmış.’"
+  },
+  {
+   "key": "case016.edith.winter.answer.demeanor",
+   "value": "Mendilini sıktı."
+  },
+  {
+   "key": "case016.edith.winter.question",
+   "value": "Craig’i son zamanlarda gördünüz mü?"
+  },
+  {
+   "key": "case016.email.body",
+   "value": "Gönderen: Craig Pell (kişisel adres). Konu: Kardeşim.\n\n“Senin kim olduğunu bilmiyorum. Kardeşimin adını kim olduğunu bilmediğim biri taşıyor. Annem öldüğünde kapısına senin kredi kartın geldi, Adrian Pell adına. Otuz beş yıldır mezarı var, sen onun adıyla yaşıyorsun. Adını geri istiyorum. Parasını da. Çarşamba gece, kanalda, De Beauvoir köprüsünün altında. Gelmezsen herkese söylerim.”\n\nYanıt taslağı (gönderilmemiş, silinmiş klasöründen kurtarıldı): “Adını aldığım için özür dilerim. Para meselesini konuşalım. Geleceğim.”"
+  },
+  {
+   "key": "case016.email.title",
+   "value": "E-POSTA — “ADRIAN PELL” HESABI, 28 NİSAN"
+  },
+  {
+   "key": "case016.epilogue.custody.adrian",
+   "value": "Dosya “Adrian Pell”in ölümü olarak kapandı. Kent’teki aile cevapsız kaldı; Craig yalnız dolandırıcılıktan ceza aldı."
+  },
+  {
+   "key": "case016.epilogue.custody.brother",
+   "value": "Yanlış kimlik tespiti savunmaya geçti: ölen kişinin otuz beş yıl önce gömüldüğü mahkemede gösterildi."
+  },
+  {
+   "key": "case016.epilogue.custody.hart",
+   "value": "Kent’teki 2006 dosyası, ezilen çocuğun ailesine yazılan bir mektupla kapandı: “Sürücü bulundu. Yaşamıyor.” Leah Morgan’a sigorta ödenmedi; poliçe yaşamayan bir adın üstündeydi. Adrian Pell’in mezar taşı Leeds’te yeniden yazıldı."
+  },
+  {
+   "key": "case016.epilogue.custody.unknown",
+   "value": "Ceset kimliği belirsiz kaldı; dava kimlik tartışmasında uzadı."
+  },
+  {
+   "key": "case016.epilogue.verdict.craig",
+   "value": "Craig Pell adam öldürme ve dolandırıcılıktan tutuklandı. Duruşmada tek bir cümle söyledi: “Kardeşimin adı yine mezarında.”"
+  },
+  {
+   "key": "case016.epilogue.verdict.darren",
+   "value": "Darren Fisk’e karşı dava kurulamadı. Craig Pell’in kredileri tahsilata devam etti; borç, ölü bir adamın adına yazılı kaldı."
+  },
+  {
+   "key": "case016.epilogue.verdict.leah",
+   "value": "Leah Morgan gözaltına alındı, iki gün sonra bırakıldı. Craig Pell Leeds’te Adrian adına yeni bir kart açtı."
+  },
+  {
+   "key": "case016.epilogue.verdict.nobody",
+   "value": "Ölüm kaza olarak kapandı. “Adrian Pell” bir kez daha toprağa verildi; Kent’teki aile, oğullarını ezen adamın yaşadığını hiç öğrenmedi."
+  },
+  {
+   "key": "case016.evidence.badge",
+   "value": "Büro giriş kartı"
+  },
+  {
+   "key": "case016.evidence.darren_log",
+   "value": "Tahsilat saha kaydı"
+  },
+  {
+   "key": "case016.evidence.letters",
+   "value": "Tahsilat mektupları"
+  },
+  {
+   "key": "case016.evidence.loans",
+   "value": "Kredi dökümü"
+  },
+  {
+   "key": "case016.evidence.prints",
+   "value": "Parmak izi sonucu"
+  },
+  {
+   "key": "case016.feedback.craig",
+   "value": "Craig, ölen kardeşinin adının yaşadığını öğrenip o adla kredi çekti, sonra adamı kanala çağırdı. Telefonu o saatte köprünün altındaydı, derisi ölenin tırnağının altındaydı."
+  },
+  {
+   "key": "case016.feedback.darren",
+   "value": "Darren tehdit etti ama o gece Croydon’daydı; konum kaydı onu kanaldan uzak tutuyor."
+  },
+  {
+   "key": "case016.feedback.leah",
+   "value": "Leah’nın sigortası 2024’ten beri vardı ve o gece evdeydi. Yanındaki adamın kim olduğunu bile bilmiyordu."
+  },
+  {
+   "key": "case016.feedback.nobody",
+   "value": "Boyundaki tutma izi, yırtık yaka ve tırnak altındaki deri bir boğuşmayı gösteriyor."
+  },
+  {
+   "key": "case016.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case016.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case016.file.value.location",
+   "value": "Hackney, Regent’s Canal yürüyüş yolu — köprü altı"
+  },
+  {
+   "key": "case016.file.value.number",
+   "value": "BDS-LDN-2029-0107"
+  },
+  {
+   "key": "case016.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case016.file.value.reporter",
+   "value": "Yöre sakini; kayıp bildirimi Leah Morgan"
+  },
+  {
+   "key": "case016.fraud.body",
+   "value": "Talep: bube Londra. Konu: Adrian Pell adına Ocak–Nisan 2029 başvuruları.\n\n· Başvuruların tümü aynı cihazdan, Leeds’teki bir ev internet bağlantısından yapılmış. Adrian Pell’in Londra’daki cihazlarıyla hiçbir başvuru yapılmamış.\n· Kimlik doğrulaması için Aralık 2028’de çıkarılmış yeni bir pasaport kullanılmış. Adres: Leeds, Harehills.\n· Hesaplara bağlı telefon numarası Leeds’te kayıtlı bir hatta ait.\n\nDeğerlendirme: Kimlik bilgilerinin üçüncü bir kişi tarafından kullanıldığına dair güçlü bulgular var. Pasaport başvuru dosyasının incelenmesi önerilir."
+  },
+  {
+   "key": "case016.fraud.title",
+   "value": "BANKA DOLANDIRICILIK ANALİZİ — HANNAH COLE"
+  },
+  {
+   "key": "case016.leah.body",
+   "value": "Partnerinin ifadesi."
+  },
+  {
+   "key": "case016.leah.debt.answer",
+   "value": "Mart’ta mektupları buldum. Ağladı, yemin etti: ‘Ben çekmedim Leah, bir hata var.’ Bankaya yazdı, kimse dinlemedi. Bir adam iki kez kapıya geldi."
+  },
+  {
+   "key": "case016.leah.debt.question",
+   "value": "Borçlardan haberiniz var mıydı?"
+  },
+  {
+   "key": "case016.leah.deflect",
+   "value": "Bilmiyorum. Artık hiçbir şeyi bildiğimden emin değilim."
+  },
+  {
+   "key": "case016.leah.insurance.answer",
+   "value": "Var, 2024’te ev kredisi için yaptırdık, birbirimize. Neden soruyorsunuz?"
+  },
+  {
+   "key": "case016.leah.insurance.answer.demeanor",
+   "value": "Yüzü sertleşti."
+  },
+  {
+   "key": "case016.leah.insurance.question",
+   "value": "Adrian’ın hayat sigortası var mı?"
+  },
+  {
+   "key": "case016.leah.night.answer",
+   "value": "Dokuz gibi ‘biriyle konuşmam lazım, geç kalırım’ dedi. Kimle olduğunu sordum, söylemedi. Telefonunu kapatmıştı."
+  },
+  {
+   "key": "case016.leah.night.answer.demeanor",
+   "value": "Elleri kucağında kenetliydi."
+  },
+  {
+   "key": "case016.leah.night.question",
+   "value": "Adrian dün akşam ne yaptı?"
+  },
+  {
+   "key": "case016.leah.past.answer",
+   "value": "Yok. Leeds’te yetimhanede büyümüş, öyle anlattı. Hiç fotoğrafı yoktu çocukluğundan. Bunu konuşmayı sevmezdi."
+  },
+  {
+   "key": "case016.leah.past.question",
+   "value": "Adrian’ın ailesi var mı?"
+  },
+  {
+   "key": "case016.leah.quote",
+   "value": "“Ben çekmedim Leah.”"
+  },
+  {
+   "key": "case016.leah.title",
+   "value": "Leah Morgan — görüşme"
+  },
+  {
+   "key": "case016.leah_2.body",
+   "value": "Parmak izi sonucu üzerine."
+  },
+  {
+   "key": "case016.leah_2.email.answer",
+   "value": "Geçen hafta bir e-posta okudu, bembeyaz oldu. Laptop’u kapattı, ‘iş’ dedi. Bütün gece balkonda oturdu. Şifresi doğum günüm, onu biliyorum."
+  },
+  {
+   "key": "case016.leah_2.email.question",
+   "value": "Son günlerde onu korkutan bir şey oldu mu?"
+  },
+  {
+   "key": "case016.leah_2.lewis.answer",
+   "value": "Hayır. Hayır… Altı yıl. Annemin cenazesinde elimi tutan adam. Adını bile bilmiyormuşum."
+  },
+  {
+   "key": "case016.leah_2.lewis.answer.demeanor",
+   "value": "Uzun süre konuşamadı."
+  },
+  {
+   "key": "case016.leah_2.lewis.question",
+   "value": "Birlikte yaşadığınız adamın adı Lewis Hart’mış."
+  },
+  {
+   "key": "case016.leah_2.title",
+   "value": "Leah Morgan — ikinci görüşme"
+  },
+  {
+   "key": "case016.letters.body",
+   "value": "Dört mektup, Ocak–Nisan 2029, alıcı: Adrian Pell.\n\n· Ocak: “Kredi kartı borcunuz £12.400.”\n· Şubat: “Üç tüketici kredisi, toplam £96.000, ödemeler gecikmiştir.”\n· Mart: “Dosyanız saha ekibimize devredilmiştir.”\n· Nisan (son ihtar): “Toplam borç £181.300. Saha temsilcimiz sizi evinizde ziyaret edecektir.” Altında elle yazılmış not: “Kaçamazsın. — D.”"
+  },
+  {
+   "key": "case016.letters.title",
+   "value": "TAHSİLAT MEKTUPLARI — CEPTEN VE EVDEN"
+  },
+  {
+   "key": "case016.loans.body",
+   "value": "Ocak–Nisan 2029, seçilmiş hareketler. Tüm başvurular çevrimiçi.\n\n· 9 Ocak · kredi kartı başvurusu · onaylandı\n· 2 Şubat · tüketici kredisi £40.000 · onaylandı\n· 14 Şubat · tüketici kredisi £30.000 · onaylandı\n· 27 Şubat · tüketici kredisi £26.000 · onaylandı\n\nNakit çekimleri (seçilmiş):\n· 5 Şubat 10.12 · ATM, Leeds, Briggate · £500\n· 15 Şubat 14.40 · ATM, Leeds, Kirkgate · £500\n· 28 Şubat 11.05 · ATM, Leeds, Briggate · £500\n· 3 Mart 09.58 · banka şubesi, Leeds · £18.000 nakit"
+  },
+  {
+   "key": "case016.loans.title",
+   "value": "KREDİ VE HESAP DÖKÜMÜ — ADRIAN PELL ADINA"
+  },
+  {
+   "key": "case016.method.drunk",
+   "value": "Sarhoşken düşüp boğuldu"
+  },
+  {
+   "key": "case016.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case016.method.pushed",
+   "value": "Boğuşmada kanala itildi ve suda bırakıldı"
+  },
+  {
+   "key": "case016.method.suicide",
+   "value": "Borç baskısıyla intihar etti"
+  },
+  {
+   "key": "case016.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case016.offer.subtitle",
+   "value": "BAŞKASININ ADI  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case016.offer.summary",
+   "value": "Borç batağındaki bir muhasebeci Regent’s Canal’da ölü bulunuyor. Adına açılmış 180 bin sterlinlik kredi, cebinde son ihtar. Biri onun adını çalmış — ya da öyle görünüyor."
+  },
+  {
+   "key": "case016.offer.title",
+   "value": "DOSYA #016"
+  },
+  {
+   "key": "case016.passport.body",
+   "value": "Başvuru: ilk pasaport, yetişkin. Sunulan belge: doğum belgesi aslı (Leeds, 1988). Adres: Harehills, Leeds. Tanık imzası: bir mahalle eczacısı.\n\nFotoğraf karşılaştırma notu (bube talebi üzerine): Başvuru fotoğrafı, sürücü belgesi kaydındaki Craig Pell (45, Harehills, aynı adres) ile yüksek benzerlik gösteriyor. Craig Pell, doğum belgesindeki Adrian Pell’in ağabeyi olarak aynı nüfus kaydında geçiyor."
+  },
+  {
+   "key": "case016.passport.title",
+   "value": "PASAPORT BAŞVURU DOSYASI — “ADRIAN PELL”, ARALIK 2028"
+  },
+  {
+   "key": "case016.person.craig.info",
+   "value": "45 yaşında, Leeds’te forklift operatörü."
+  },
+  {
+   "key": "case016.person.craig.name",
+   "value": "Craig Pell"
+  },
+  {
+   "key": "case016.person.darren.info",
+   "value": "50 yaşında, bir tahsilat şirketinde saha elemanı."
+  },
+  {
+   "key": "case016.person.darren.name",
+   "value": "Darren Fisk"
+  },
+  {
+   "key": "case016.person.edith.info",
+   "value": "71 yaşında, Leeds’te emekli terzi. Pell ailesinin otuz yıllık komşusu."
+  },
+  {
+   "key": "case016.person.edith.name",
+   "value": "Edith Mayhew"
+  },
+  {
+   "key": "case016.person.leah.info",
+   "value": "38 yaşında, ilkokul öğretmeni. Adrian Pell’le altı yıldır birlikte yaşıyor."
+  },
+  {
+   "key": "case016.person.leah.name",
+   "value": "Leah Morgan"
+  },
+  {
+   "key": "case016.person.rachel.info",
+   "value": "55 yaşında, Dunn & Ward muhasebe bürosunun ortağı; Adrian’ın on dört yıllık patronu."
+  },
+  {
+   "key": "case016.person.rachel.name",
+   "value": "Rachel Dunn"
+  },
+  {
+   "key": "case016.phone.body",
+   "value": "Hat: Craig Pell adına kayıtlı.\n\n2 Mayıs 2029\n· 17.30 · Leeds tren istasyonu, Londra’ya bilet (nakit değil, kartla)\n· 21.40 · baz: Londra, King’s Cross\n· 23.22 – 23.51 · baz: Hackney, De Beauvoir (kanal kıyısı)\n· 23.58 · baz: Hackney Central\n\n3 Mayıs 2029\n· 01.15 · Leeds’e gece treni, King’s Cross"
+  },
+  {
+   "key": "case016.phone.title",
+   "value": "TELEFON VE YOLCULUK KAYDI — CRAIG PELL"
+  },
+  {
+   "key": "case016.prints.body",
+   "value": "Talep: bube Londra. Kanaldan çıkarılan erkek cesedinin parmak izleri.\n\nEşleşme: LEWIS HART, d. 1987, Maidstone. Kayıt nedeni: 2006, Kent — ölümle sonuçlanan trafik kazası sonrası olay yerini terk etme. 11 yaşında bir çocuk hayatını kaybetti. Şüpheli o tarihten beri aranıyor.\n\nKimlik notu: Ceset “Adrian Pell” kimliğiyle bulunmuştur. Sonuç, partneri Leah Morgan’a bildirilmek üzere dosyaya eklendi."
+  },
+  {
+   "key": "case016.prints.title",
+   "value": "PARMAK İZİ SONUCU — ULUSAL KAYIT"
+  },
+  {
+   "key": "case016.rachel.body",
+   "value": "Bürodaki patronuyla."
+  },
+  {
+   "key": "case016.rachel.deflect",
+   "value": "Bunu dosyalarımıza bakmadan söyleyemem."
+  },
+  {
+   "key": "case016.rachel.hire.answer",
+   "value": "Doğum belgesi, sigorta numarası, bir de referans mektubu getirdi. 2015’te kim daha fazlasına bakardı ki?"
+  },
+  {
+   "key": "case016.rachel.hire.question",
+   "value": "İşe alırken geçmişine baktınız mı?"
+  },
+  {
+   "key": "case016.rachel.lately.answer",
+   "value": "Bankadan, kredi bürolarından telefonlar. Bir gün bana ‘Birisi ben olmuş Rachel’ dedi. Güldüm. Gülmemeliydim."
+  },
+  {
+   "key": "case016.rachel.lately.question",
+   "value": "Son aylarda bir değişiklik oldu mu?"
+  },
+  {
+   "key": "case016.rachel.title",
+   "value": "Rachel Dunn — görüşme"
+  },
+  {
+   "key": "case016.rachel.work.answer",
+   "value": "On dört yıldır yanımda. En titiz muhasebecim. Tatile gitmezdi, yurt dışına hiç çıkmazdı; pasaportu bile yoktu sanırım."
+  },
+  {
+   "key": "case016.rachel.work.question",
+   "value": "Adrian nasıl biriydi?"
+  },
+  {
+   "key": "case016.report.body",
+   "value": "3 Mayıs 2029 saat 06.50’de Hackney’de, Regent’s Canal yürüyüş yolunda bir köprünün altında suda bir erkek cesedi bulundu. Bulan kişi köpek gezdiren bir yöre sakini.\n\nCebindeki cüzdandan çıkan kimlik: Adrian Pell (41), muhasebeci, Islington’da bir büroda çalışıyor. Partneri Leah Morgan gece eve gelmediğini bildirmişti.\n\nDevriye notu: “Kanda alkol olabilir. Ceketinin cebinde bir tahsilat şirketinden son ihtar mektubu. Borç baskısı, düşme ya da intihar.”"
+  },
+  {
+   "key": "case016.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case016.request.badge",
+   "value": "Büro giriş kartı kayıtlarını iste"
+  },
+  {
+   "key": "case016.request.darren_log",
+   "value": "Darren Fisk’in saha kaydını iste"
+  },
+  {
+   "key": "case016.request.death",
+   "value": "Adrian Pell’in nüfus kayıtlarını iste"
+  },
+  {
+   "key": "case016.request.dna",
+   "value": "Tırnak altı DNA karşılaştırmasını iste"
+  },
+  {
+   "key": "case016.request.email",
+   "value": "Adrian Pell hesabının e-postalarını iste"
+  },
+  {
+   "key": "case016.request.fraud",
+   "value": "Bankanın dolandırıcılık analizini iste"
+  },
+  {
+   "key": "case016.request.loans",
+   "value": "Adrian Pell adına açılan kredilerin dökümünü iste"
+  },
+  {
+   "key": "case016.request.passport",
+   "value": "Pasaport başvuru dosyasını iste"
+  },
+  {
+   "key": "case016.request.phone",
+   "value": "Craig Pell’in telefon ve yolculuk kaydını iste"
+  },
+  {
+   "key": "case016.request.prints",
+   "value": "Parmak izi sonucunu iste"
+  },
+  {
+   "key": "case016.summary.evidence",
+   "value": "Kredi dökümü ile büro giriş kartı aynı saatlerde iki ayrı şehri gösterdi; dolandırıcılık analizi ve pasaport dosyası Craig’e götürdü. Parmak izi ölen adamın Lewis Hart olduğunu, nüfus kaydı gerçek Adrian Pell’in 1994’te öldüğünü ortaya koydu. E-posta, telefon kaydı ve tırnak altındaki DNA o geceyi kapattı."
+  },
+  {
+   "key": "case016.summary.lesson",
+   "value": "En temel bilgiyi de doğrula: kurbanın kim olduğu, sorulmadan kabul edilen ilk gerçektir. Bir adın iki kullanıcısı varsa, kayıtlar hangisinin kim olduğunu tarih ve yerle söyler."
+  },
+  {
+   "key": "case016.summary.location",
+   "value": "Hackney ve Leeds — 1994–2029"
+  },
+  {
+   "key": "case016.summary.truth",
+   "value": "2006’da Kent’te bir çocuğu ezip kaçan Lewis Hart, 1994’te ölmüş altı yaşındaki Adrian Pell’in doğum belgesiyle yeni bir hayat kurdu ve 23 yıl o adla yaşadı. Ölen çocuğun ağabeyi Craig Pell, annesinin ölümünden sonra kardeşi adına gelmiş bir kart mektubu bulunca adın yaşadığını öğrendi; o adla pasaport çıkarıp kredi çekti, sonra adamı kanala çağırdı. Boğuşmada onu itti; başı köprü ayağına çarpan adam suya düştü, Craig onu çıkarmadı."
+  },
+  {
+   "key": "case016.suspect.label",
+   "value": "Kanaldaki ölümden kim sorumlu?"
+  },
+  {
+   "key": "case016.tablet.caseLine",
+   "value": "DOSYA #016  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case016.time.atm",
+   "value": "5 Şubat 10.12"
+  },
+  {
+   "key": "case016.time.badge",
+   "value": "5 Şubat 08.41"
+  },
+  {
+   "key": "case016.time.darren",
+   "value": "2 Mayıs 22.20"
+  },
+  {
+   "key": "case016.time.dead1994",
+   "value": "4 Kasım 1994"
+  },
+  {
+   "key": "case016.time.email",
+   "value": "28 Nisan"
+  },
+  {
+   "key": "case016.time.empty",
+   "value": "23.45"
+  },
+  {
+   "key": "case016.time.hart2006",
+   "value": "2006"
+  },
+  {
+   "key": "case016.time.passport",
+   "value": "Aralık 2028"
+  },
+  {
+   "key": "case016.time.struggle",
+   "value": "23.38"
+  },
+  {
+   "key": "case016.time.train",
+   "value": "2 Mayıs 17.30"
+  },
+  {
+   "key": "case016.time.wait",
+   "value": "23.24"
+  },
+  {
+   "key": "case016.title",
+   "value": "Dosya #016 — Başkasının Adı"
+  },
+  {
+   "key": "case016.towpath.body",
+   "value": "De Beauvoir köprüsünün yakınındaki belediye kamerası, yürüyüş yolunu ve köprü altını uzaktan görüyor. 2 Mayıs 23.00 – 3 Mayıs 00.30. Görüntü karanlık, yüzler seçilmez."
+  },
+  {
+   "key": "case016.towpath.title",
+   "value": "KANAL YÜRÜYÜŞ YOLU KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case016.verdict.craig",
+   "value": "Craig Pell"
+  },
+  {
+   "key": "case016.verdict.darren",
+   "value": "Darren Fisk"
+  },
+  {
+   "key": "case016.verdict.leah",
+   "value": "Leah Morgan"
+  },
+  {
+   "key": "case016.verdict.nobody",
+   "value": "Kimse — düştü ya da intihar etti"
+  }
+ ]
+}
