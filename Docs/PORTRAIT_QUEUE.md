@@ -658,31 +658,31 @@ A 33-year-old Indian-American man, neat black hair, clean-shaven, earnest worrie
 
 ## Dosya #043 (5)
 
-100. **Reggie Holloway** → `reggie.png`
+100. **Reggie Holloway** → `reggie.png` ✅
 
 ```
 A 44-year-old African-American man, close-cropped hair with a sharp line-up, thin moustache, smooth confident face with evasive eyes, a gold chain. Purple silk shirt under a black blazer. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-101. **Cedric Banks** → `banks.png`
+101. **Cedric Banks** → `banks.png` ✅
 
 ```
 A 61-year-old African-American man, short white hair, white stubble, deep laugh lines, gentle tired eyes, a guitar pick tucked behind one ear. Charcoal pinstripe waistcoat over a dark shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-102. **Tasha Monroe** → `monroe.png`
+102. **Tasha Monroe** → `monroe.png` ✅
 
 ```
 A 29-year-old African-American woman, long box braids pulled over one shoulder, bold gold eye makeup, shaken wide eyes. Mustard-gold sequinned stage top under a denim jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-103. **Vic Romano** → `romano.png`
+103. **Vic Romano** → `romano.png` ✅
 
 ```
 A 57-year-old Italian-American man, slicked dark hair greying at the temples, heavy-lidded eyes, a pinky ring, a smile that doesn't move his face. Charcoal leather car coat over a black turtleneck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-104. **Earline Pope** → `pope.png`
+104. **Earline Pope** → `pope.png` ✅
 
 ```
 A 66-year-old African-American woman, silver hair in a short natural cut, large hoop earrings, reading glasses on her nose, stern grieving eyes. Dark green bar apron over a white blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
