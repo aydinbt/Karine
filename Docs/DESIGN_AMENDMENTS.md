@@ -1072,3 +1072,7 @@ Kare dizisi her CCTV olayına konmaz; yalnız soruşturmanın seyrini değiştir
 ## Tek portre tarzı: #001–#010 Gemini (5 Ekim 2026)
 
 ChatGPT ile yapılmış portreler (#001–#006'nın büyük kısmı) Gemini ile, #007 sonrası tarzda yeniden çizildi: önden bakış, şeffaf zemin, dokulu mürekkep. Bundan sonra tüm portreler bu tarzda. Masa eşyaları da masa yüzeyiyle tek parça hareket eder; eşyalar ile masa arasında paralaks yoktur.
+
+## Birleşik Krallık bölümü başladı (5 Ekim 2026)
+
+Kullanıcı kararları: Bora bube Londra şubesine (Southwark) **tayin** edilir; kariyer ve güven devam eder. Metin Türkçe, adlar İngiliz, kurumlar kurmaca. Vakalar bağımsız, #020 bölüm finali. Plan: [UK_CHAPTER_PLAN.md](UK_CHAPTER_PLAN.md); ilk dosya: [CASE011_DESIGN.md](CASE011_DESIGN.md) — onay bekliyor, veri yazılmadı. Açık çelişki: `Worlds.json` ülke başına on yuva, `WORLD_OPENINGS.md` yedi diyor.
