@@ -31,9 +31,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 18. **Çelik fener** → `case017_torch.png` ✅
 
 ## Dosya #018 (3)
-19. **Taşıma kutusu** → `case018_box.png`
-20. **Pasaport** → `case018_passport.png`
-21. **Telefon** → `case018_phone.png`
+19. **Taşıma kutusu** → `case018_box.png` ✅
+20. **Pasaport** → `case018_passport.png` ✅
+21. **Telefon** → `case018_phone.png` ✅
 
 ## Dosya #019 (2)
 22. **Mikrofon ayağı** → `case019_stand.png`

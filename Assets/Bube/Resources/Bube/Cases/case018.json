@@ -41,6 +41,13 @@
    "bodyKey": "case018.autopsy.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case018.item.phone.name",
+     "detailKey": "case018.item.phone.detail",
+     "imageResource": "Bube/Items/case018_phone"
+    }
    ]
   },
   {
@@ -290,6 +297,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case018.markus.lena"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case018.item.passport.name",
+     "detailKey": "case018.item.passport.detail",
+     "imageResource": "Bube/Items/case018_passport"
+    }
    ]
   },
   {
@@ -400,6 +414,13 @@
      "textKey": "case018.cctv.event.back",
      "delayMs": 620,
      "overlayTimeKey": "case018.time.back"
+    }
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case018.item.box.name",
+     "detailKey": "case018.item.box.detail",
+     "imageResource": "Bube/Items/case018_box"
     }
    ]
   },
