@@ -144,6 +144,13 @@
    "requestDelaySeconds": 3,
    "requiresAsked": [
     "case033.nadine.order"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case033.item.loaf.name",
+     "detailKey": "case033.item.loaf.detail",
+     "imageResource": "Bube/Items/case033_loaf"
+    }
    ]
   },
   {
@@ -189,7 +196,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case033.request.flour",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case033.item.flour.name",
+     "detailKey": "case033.item.flour.detail",
+     "imageResource": "Bube/Items/case033_flour"
+    }
+   ]
   },
   {
    "id": "garnier",
@@ -246,7 +260,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case033.item.envelope.name",
+     "detailKey": "case033.item.envelope.detail",
+     "imageResource": "Bube/Items/case033_envelope"
+    }
+   ]
   },
   {
    "id": "garnier_2",

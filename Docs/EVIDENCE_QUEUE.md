@@ -106,9 +106,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 63. **Kart panosu** → `case032_badge.png` ✅
 
 ## Dosya #033 (3)
-64. **Kâğıt un torbası** → `case033_flour.png`
-65. **Yarım somun** → `case033_loaf.png`
-66. **Nakit zarfı** → `case033_envelope.png`
+64. **Kâğıt un torbası** → `case033_flour.png` ✅
+65. **Yarım somun** → `case033_loaf.png` ✅
+66. **Nakit zarfı** → `case033_envelope.png` ✅
 
 ## Dosya #034 (3)
 67. **Kazıma bıçağı** → `case034_knife.png`
