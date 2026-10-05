@@ -33,7 +33,14 @@
     }
    ],
    "notPresentable": true,
-   "notReportSource": true
+   "notReportSource": true,
+   "relatedItems": [
+    {
+     "nameKey": "case012.item.lock.name",
+     "detailKey": "case012.item.lock.detail",
+     "imageResource": "Bube/Items/case012_lock"
+    }
+   ]
   },
   {
    "id": "hospital",
@@ -248,6 +255,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case012.adebayo.camera"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case012.item.camera.name",
+     "detailKey": "case012.item.camera.detail",
+     "imageResource": "Bube/Items/case012_camera"
+    }
    ]
   },
   {
@@ -574,7 +588,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case012.request.ophone",
-   "requestDelaySeconds": 8
+   "requestDelaySeconds": 8,
+   "relatedItems": [
+    {
+     "nameKey": "case012.item.phone.name",
+     "detailKey": "case012.item.phone.detail",
+     "imageResource": "Bube/Items/case012_phone"
+    }
+   ]
   },
   {
    "id": "helen_2",
@@ -642,6 +663,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case012.helen_2.cabinet"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case012.item.sheet.name",
+     "detailKey": "case012.item.sheet.detail",
+     "imageResource": "Bube/Items/case012_sheet"
+    }
    ]
   },
   {
