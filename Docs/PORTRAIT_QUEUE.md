@@ -222,31 +222,31 @@ A 40-year-old Japanese man, short black hair under a black baseball cap, unshave
 
 ## Dosya #029 (5)
 
-32. **Ishida Naoko** → `naoko.png`
+32. **Ishida Naoko** → `naoko.png` ✅
 
 ```
 A 39-year-old Japanese woman, straight black hair to the shoulders tucked behind one ear, pale tired face without makeup, red eyes. Light blue pharmacy cardigan over a white blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-33. **Kudō Daisuke** → `daisuke.png`
+33. **Kudō Daisuke** → `daisuke.png` ✅
 
 ```
 A 44-year-old Japanese man, very short black hair, broad face, a small healed scar on the eyebrow, sun-darkened skin, hard stare. Navy mechanic's work jacket with oil stains, collar up. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-34. **Fukuda Emiko** → `emiko.png`
+34. **Fukuda Emiko** → `emiko.png` ✅
 
 ```
 A 57-year-old Japanese woman, greying hair in a loose low bun, small reading glasses on a chain, calm unreadable face. Dark plum cardigan over a black turtleneck. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-35. **Matsui Kei** → `matsui.png`
+35. **Matsui Kei** → `matsui.png` ✅
 
 ```
 A 50-year-old Japanese man, neatly parted black hair, rimless glasses, polite professional face. White dentist's coat over a light blue shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-36. **Ishida Kazuki** → `kazuki.png`
+36. **Ishida Kazuki** → `kazuki.png` ✅
 
 ```
 A 42-year-old Japanese man, slightly overgrown black hair, ten days of stubble, hollow cheeks, ashamed eyes. Cheap grey sweater over a wrinkled shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
