@@ -1426,19 +1426,19 @@ A 29-year-old Romanian-Canadian woman, long dark brown hair, a pale anxious face
 
 ## Dosya #067 (3)
 
-220. **Craig Brennan** → `brennan.png`
+220. **Craig Brennan** → `brennan.png` ✅
 
 ```
 A 52-year-old Anglo-Australian man, sandy thinning hair, a sunburnt broad face, a gold chain at his open collar, wary pale eyes. A navy short-sleeve work shirt with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-221. **Linh Nguyen** → `linh.png`
+221. **Linh Nguyen** → `linh.png` ✅
 
 ```
 A 34-year-old Vietnamese-Australian woman, long straight black hair tied back, a determined grieving face, sharp dark eyes. A red jacket over a black top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-222. **Tavita Faleolo** → `tavita.png`
+222. **Tavita Faleolo** → `tavita.png` ✅
 
 ```
 A 41-year-old Samoan-Australian man, short black hair, a big gentle face with a short beard, huge shoulders, shocked kind eyes. A teal rubber apron over a grey singlet. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
