@@ -1330,25 +1330,25 @@ A 62-year-old Québécois man, white hair, a neat white beard, kind shrewd eyes 
 
 ## Dosya #064 (4)
 
-205. **Serge Paquette** → `paquette.png`
+205. **Serge Paquette** → `paquette.png` ✅
 
 ```
 A 57-year-old Québécois man, grey hair under a fur-lined trapper hat pushed back, a broad weathered face, a confident jaw, cold small blue eyes. A dark green insulated work parka with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-206. **Ryan O’Neill** → `oneill.png`
+206. **Ryan O’Neill** → `oneill.png` ✅
 
 ```
 A 34-year-old Irish-Canadian man, ginger hair and beard flecked with snow, a pale shocked face. A hi-vis orange winter jacket with reflective strips, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-207. **Martine Lachance** → `lachance.png`
+207. **Martine Lachance** → `lachance.png` ✅
 
 ```
 A 45-year-old Québécoise woman, brown hair in a ponytail under a knit hat, a sharp intelligent face, grieving angry eyes. A navy blue down parka. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-208. **Yusra Haddadi** → `yusra.png`
+208. **Yusra Haddadi** → `yusra.png` ✅
 
 ```
 A 28-year-old Moroccan-Canadian woman, dark hair under a burgundy headscarf, a headset around her neck, a careful worried face. A burgundy fleece. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
