@@ -690,37 +690,37 @@ A 66-year-old African-American woman, silver hair in a short natural cut, large 
 
 ## Dosya #044 (6)
 
-105. **Brent Calloway** → `calloway.png`
+105. **Brent Calloway** → `calloway.png` ✅
 
 ```
 A 50-year-old white American man, wavy dark-brown hair neatly parted, clean-shaven, handsome controlled face, cold grey eyes. White linen shirt with rolled sleeves under a navy sailing gilet with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-106. **Diane Harlan** → `diane.png`
+106. **Diane Harlan** → `diane.png` ✅
 
 ```
 A 57-year-old white American woman, champagne-blonde bob, tanned skin, pearl studs, brittle composed blue eyes. Navy and white striped boat-neck top, a cream cardigan over her shoulders. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-107. **Skip Morrow** → `morrow.png`
+107. **Skip Morrow** → `morrow.png` ✅
 
 ```
 A 63-year-old white American man, white beard trimmed short, deeply tanned leathery face, squinting pale eyes. Faded navy captain's polo shirt with no text, a pair of sunglasses hanging on a cord. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-108. **Rico Mendes** → `mendes.png`
+108. **Rico Mendes** → `mendes.png` ✅
 
 ```
 A 24-year-old Puerto Rican-American man, short black curly hair, thin moustache, nervous young dark eyes. White crew T-shirt with no text, a coiled rope over one shoulder. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-109. **Arne Jensen** → `jensen.png`
+109. **Arne Jensen** → `jensen.png` ✅
 
 ```
 A 68-year-old Danish-American man, thin grey hair under a flat cap, ruddy cheeks, steady watery blue eyes. Brown waxed jacket over a cable-knit sweater. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-110. **Lauren Cho** → `cho.png`
+110. **Lauren Cho** → `cho.png` ✅
 
 ```
 A 36-year-old Korean-American woman, wet black hair pulled back tight, a red mark from a dive mask around her eyes, calm focused expression. Black neoprene wetsuit unzipped to the chest. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
