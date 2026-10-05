@@ -1,0 +1,420 @@
+{
+ "entries": [
+  {
+   "key": "case051.autopsy.body",
+   "value": "· Ölüm nedeni: boğulma; ciğerlerde deniz suyu.\n· Sol bilekte parmak şeklinde morluklar; sağ köprücük kemiğinde küpeşte yüksekliğinde bir çizik.\n· Paltonun üst düğmesi kopuk. Alkol yok.\n· Ölüm zamanı: 23.30–00.30."
+  },
+  {
+   "key": "case051.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case051.cabin.body",
+   "value": "Gianni De Luca’nın feribottaki kabini (şube şefinin onayıyla):\n\n· Can yeleği dolabında, yeleklerin arasında kurbanın turuncu kılıflı denetim tableti; içinde Caruso Marittima’nın üç römorkörüne ait 214 fotoğraf ve imzalanmamış bir rapor taslağı.\n· Kılıfta Gianni De Luca’nın parmak izi.\n· Seyir defterinin son sayfasında ‘23.45 — rüzgâr kuvvetli’ satırı; o geceki meteoroloji kaydında körfezde rüzgâr yok.\n· Kaptanın telefonunda 00.12, ‘Lorenzo C.’ kaydına: ‘Tamam.’"
+  },
+  {
+   "key": "case051.cabin.title",
+   "value": "KAPTAN KABİNİ — ARAMA"
+  },
+  {
+   "key": "case051.cctv.event.alone",
+   "value": "Kamera: Turuncu kılıflı tabletiyle koyu mavi paltolu bir kadın kıçtaki küpeştede yalnız duruyor."
+  },
+  {
+   "key": "case051.cctv.event.back",
+   "value": "Kamera: Adam küpeştede yalnız; elinde turuncu bir şeyle güverte kapısına dönüyor."
+  },
+  {
+   "key": "case051.cctv.event.come",
+   "value": "Kamera: Beyaz kısa kollu gömlekli bir adam güverte kapısından çıkıp kadına doğru yürüyor."
+  },
+  {
+   "key": "case051.cctv.overlay",
+   "value": "PRC-STERN"
+  },
+  {
+   "key": "case051.cctv.period",
+   "value": "10 Ekim 2030"
+  },
+  {
+   "key": "case051.cctv.source",
+   "value": "Kıç güverte kamerası"
+  },
+  {
+   "key": "case051.clue.alone",
+   "value": "Mavi paltolu kadın kıçta yalnız."
+  },
+  {
+   "key": "case051.clue.back",
+   "value": "Adam elinde turuncu bir şeyle dönüyor."
+  },
+  {
+   "key": "case051.clue.board",
+   "value": "Kurban biletini veriyor; kaptan ‘yazma’ diyor."
+  },
+  {
+   "key": "case051.clue.come",
+   "value": "Beyaz gömlekli adam yanına yürüyor."
+  },
+  {
+   "key": "case051.clue.found",
+   "value": "Balıkçılar cesedi buluyor."
+  },
+  {
+   "key": "case051.clue.source.cabin",
+   "value": "Kabin araması"
+  },
+  {
+   "key": "case051.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case051.clue.source.tommaso",
+   "value": "Tommaso Scotto"
+  },
+  {
+   "key": "case051.clue.text",
+   "value": "‘Tamam.’"
+  },
+  {
+   "key": "case051.custody.label",
+   "value": "Kurbanın denetim tableti nereye gitti?"
+  },
+  {
+   "key": "case051.custody.locker",
+   "value": "Kaptan kabinindeki can yeleği dolabına"
+  },
+  {
+   "key": "case051.custody.sea",
+   "value": "Kurbanla denize düştü"
+  },
+  {
+   "key": "case051.custody.shore",
+   "value": "Rıhtımda biri aldı"
+  },
+  {
+   "key": "case051.epilogue.custody.locker",
+   "value": "Tabletin kaptan kabinindeki can yeleği dolabında bulunduğu yazıldı."
+  },
+  {
+   "key": "case051.epilogue.custody.sea",
+   "value": "Tablet denizde değildi."
+  },
+  {
+   "key": "case051.epilogue.custody.shore",
+   "value": "Tablet feribottan hiç inmedi."
+  },
+  {
+   "key": "case051.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; feribot ertesi gece yine sefere çıktı."
+  },
+  {
+   "key": "case051.epilogue.verdict.gianni",
+   "value": "Gianni De Luca tutuklandı. Tabletteki 214 fotoğraf ve ‘Lorenzo C.’ mesajı bube Napoli’nin Caruso dosyasına eklendi."
+  },
+  {
+   "key": "case051.epilogue.verdict.holm",
+   "value": "İsveç’ten Birgit Holm’ün iadesi istendi; dosya bir yıl bekledi."
+  },
+  {
+   "key": "case051.epilogue.verdict.tommaso",
+   "value": "Tommaso Scotto tutuklandı; tablet dolapta kaldı."
+  },
+  {
+   "key": "case051.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case051.evidence.cabin",
+   "value": "Kaptan kabini araması"
+  },
+  {
+   "key": "case051.evidence.stern",
+   "value": "Kıç güverte kamerası"
+  },
+  {
+   "key": "case051.feedback.accident",
+   "value": "Bilekte parmak morlukları ve köprücükte küpeşte çiziği var; o gece rüzgâr yoktu."
+  },
+  {
+   "key": "case051.feedback.gianni",
+   "value": "Kurbanın tableti onun kabinindeki can yeleği dolabından, kılıfında onun iziyle çıktı; seyir defterine olmayan bir rüzgâr yazdı ve tayfayı makine dairesine gönderip kurbanı listeye yazdırmadı."
+  },
+  {
+   "key": "case051.feedback.holm",
+   "value": "Yolcu salondaydı, camın arkasındaydı."
+  },
+  {
+   "key": "case051.feedback.tommaso",
+   "value": "Tayfa kaptanın emriyle makine dairesindeydi; kamera küpeştede beyaz gömlekli kaptanı gösteriyor."
+  },
+  {
+   "key": "case051.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case051.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case051.file.value.location",
+   "value": "Procida, Marina Corricella açığı"
+  },
+  {
+   "key": "case051.file.value.number",
+   "value": "BDN-NAP-2030-0336"
+  },
+  {
+   "key": "case051.file.value.offence",
+   "value": "Şüpheli ölüm — boğulma"
+  },
+  {
+   "key": "case051.file.value.reporter",
+   "value": "Balıkçı"
+  },
+  {
+   "key": "case051.gianni.body",
+   "value": "Kaptan."
+  },
+  {
+   "key": "case051.gianni.deflect",
+   "value": "Denizde kaptan benim; orada ne olduğunu ben bilirim."
+  },
+  {
+   "key": "case051.gianni.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case051.gianni.end.presented.cabin",
+   "value": "Römorkörlerin belgeleri sahteydi, evet; benim imzam yok ama Caruso’ların damadı ‘bu kadın limana dönmeyecek’ dedi. Tableti istedim, vermedi. Bileğinden tuttum, küpeşte alçaktı. Tableti dolaba koydum; atamadım, belki biri bir gün…"
+  },
+  {
+   "key": "case051.gianni.end.question",
+   "value": "Kadını küpeşteden siz ittiniz."
+  },
+  {
+   "key": "case051.gianni.night.answer",
+   "value": "Listede yok. Ben yolculara bakmam, denize bakarım. Gece rüzgârlıydı, herkes salondaydı; defterimde yazıyor."
+  },
+  {
+   "key": "case051.gianni.night.answer.demeanor",
+   "value": "Bıyığını iki parmağıyla düzeltiyor."
+  },
+  {
+   "key": "case051.gianni.night.question",
+   "value": "Kurban feribotunuzdaydı."
+  },
+  {
+   "key": "case051.gianni.night.variant0",
+   "value": "Kıça çıktım, bir yolcuya ‘içeri girin, tehlikeli’ dedim. Tableti düşürdü, aldım, geri verecektim. Sonra… sonra bilmiyorum."
+  },
+  {
+   "key": "case051.gianni.title",
+   "value": "Gianni De Luca — görüşme"
+  },
+  {
+   "key": "case051.holm.body",
+   "value": "Yolcu."
+  },
+  {
+   "key": "case051.holm.deck.answer",
+   "value": "Evet! Mavi paltolu bir kadın, turuncu bir tabletle. Kıçtaydı, ben salonda, camın arkasında. Beyaz gömlekli kaptan dışarı çıktı, yanına gitti. Bir şey konuştular, kadın tableti göğsüne bastırdı. Sonra ben kitabıma döndüm. Başımı kaldırdığımda kaptan yalnızdı. Kadının indiğini sandım. Ama ada daha gelmemişti, değil mi?"
+  },
+  {
+   "key": "case051.holm.deck.answer.demeanor",
+   "value": "Gözlüğünü kordonundan çekip takıyor."
+  },
+  {
+   "key": "case051.holm.deck.question",
+   "value": "Feribotta başka biri var mıydı?"
+  },
+  {
+   "key": "case051.holm.deflect",
+   "value": "I’m just a tourist — ben sadece adayı görmeye geldim."
+  },
+  {
+   "key": "case051.holm.gone",
+   "value": "Birgit Holm aynı gün Stockholm’e döndü. Kızı ‘annem çok sarsıldı, konuşmayacak’ diye yazdı."
+  },
+  {
+   "key": "case051.holm.title",
+   "value": "Birgit Holm — görüşme"
+  },
+  {
+   "key": "case051.method.jump",
+   "value": "Kendisi atladı"
+  },
+  {
+   "key": "case051.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case051.method.overboard",
+   "value": "Küpeşteden denize itildi"
+  },
+  {
+   "key": "case051.method.slip",
+   "value": "Rüzgârda kaydı, düştü"
+  },
+  {
+   "key": "case051.offer.subtitle",
+   "value": "PROCİDA  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case051.offer.summary",
+   "value": "Procida’ya giden son feribotta bir gemi denetim uzmanı kayboldu; sabah denizde bulundu."
+  },
+  {
+   "key": "case051.offer.title",
+   "value": "DOSYA #051"
+  },
+  {
+   "key": "case051.person.gianni.info",
+   "value": "56 yaşında, Procida hattındaki gece feribotunun kaptanı."
+  },
+  {
+   "key": "case051.person.gianni.name",
+   "value": "Gianni De Luca"
+  },
+  {
+   "key": "case051.person.holm.info",
+   "value": "64 yaşında, emekli İsveçli öğretmen; feribotta tek yolcu."
+  },
+  {
+   "key": "case051.person.holm.name",
+   "value": "Birgit Holm"
+  },
+  {
+   "key": "case051.person.tommaso.info",
+   "value": "31 yaşında, feribotun güverte tayfası."
+  },
+  {
+   "key": "case051.person.tommaso.name",
+   "value": "Tommaso Scotto"
+  },
+  {
+   "key": "case051.report.body",
+   "value": "11 Ekim 2030 sabahı Procida’da, Marina Corricella açığında balıkçılar denizde bir kadın cesedi buldu: Marta Iacono (38), gemi denetim uzmanı.\n\nKurban bir önceki gece Pozzuoli’den Procida’ya giden 23.15 feribotuna binmişti. Feribotun kaptanı Gianni De Luca, tayfası Tommaso Scotto. Yolcu listesinde tek isim var: İsveçli Birgit Holm."
+  },
+  {
+   "key": "case051.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case051.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case051.request.cabin",
+   "value": "Kaptan kabinini aramak için izin iste"
+  },
+  {
+   "key": "case051.stern.body",
+   "value": "Gece feribotunun kıç güvertesi. 10 Ekim 23.15 – 00.10."
+  },
+  {
+   "key": "case051.stern.title",
+   "value": "KIÇ GÜVERTE KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case051.summary.evidence",
+   "value": "Yolcu her şeyi camın arkasından gördü; kamera kaydı açıldıktan sonra sorulmadıysa Stockholm’e döndü. Tayfa listeyi ve sahte rüzgârı, kamera kıçtaki beyaz gömlekli adamı verdi. Gerekçeli arama tableti can yeleklerinin arasında buldu."
+  },
+  {
+   "key": "case051.summary.lesson",
+   "value": "Mesajın alıcısı: Lorenzo C. Napoli’de kimse soyadını sormadı."
+  },
+  {
+   "key": "case051.summary.location",
+   "value": "Procida — Ekim 2030"
+  },
+  {
+   "key": "case051.summary.truth",
+   "value": "Denetim uzmanı Marta Iacono, Caruso Marittima’nın üç römorkörünün sahte belgeyle çalıştığını raporlamak üzereydi. Feribot şirketinin sahibi, Caruso’ların damadı, kaptana ‘bu kadın limana dönmeyecek’ dedi. Kaptan Gianni De Luca kurbanı yolcu listesine yazdırmadı, tayfayı makine dairesine gönderdi, kıçta tableti istedi ve vermeyince kurbanı küpeşteden itti."
+  },
+  {
+   "key": "case051.suspect.label",
+   "value": "Marta Iacono’yu kim öldürdü?"
+  },
+  {
+   "key": "case051.tablet.caseLine",
+   "value": "DOSYA #051  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case051.time.alone",
+   "value": "23.38"
+  },
+  {
+   "key": "case051.time.back",
+   "value": "23.47"
+  },
+  {
+   "key": "case051.time.board",
+   "value": "23.15"
+  },
+  {
+   "key": "case051.time.come",
+   "value": "23.44"
+  },
+  {
+   "key": "case051.time.found",
+   "value": "06.30"
+  },
+  {
+   "key": "case051.time.text",
+   "value": "00.12"
+  },
+  {
+   "key": "case051.title",
+   "value": "Dosya #051 — Procida"
+  },
+  {
+   "key": "case051.tommaso.body",
+   "value": "Güverte tayfası."
+  },
+  {
+   "key": "case051.tommaso.deflect",
+   "value": "Ben halat atarım, kaptan söyler."
+  },
+  {
+   "key": "case051.tommaso.list.answer",
+   "value": "Bileti vardı, ben kopardım. Kaptan rıhtımda ‘bu kadını yazma, şirketin misafiri’ dedi. Yazmadım. Yolda kaptan beni makine dairesine gönderdi, ‘yağ basıncına bak, on dakika çıkma’ dedi. Basınç normaldi."
+  },
+  {
+   "key": "case051.tommaso.list.answer.demeanor",
+   "value": "Çenesindeki yarayı başparmağıyla ovuyor."
+  },
+  {
+   "key": "case051.tommaso.list.question",
+   "value": "Kurban neden yolcu listesinde yok?"
+  },
+  {
+   "key": "case051.tommaso.log.answer",
+   "value": "Kaptan. Her saat başı. Sabah defterde ‘23.45 — rüzgâr kuvvetli, yolcular salonda’ yazıyordu. O saatte rüzgâr yoktu. Deniz yağ gibiydi."
+  },
+  {
+   "key": "case051.tommaso.log.question",
+   "value": "Seyir defterine kim yazar?"
+  },
+  {
+   "key": "case051.tommaso.title",
+   "value": "Tommaso Scotto — görüşme"
+  },
+  {
+   "key": "case051.verdict.accident",
+   "value": "Kimse — denize düştü"
+  },
+  {
+   "key": "case051.verdict.gianni",
+   "value": "Gianni De Luca"
+  },
+  {
+   "key": "case051.verdict.holm",
+   "value": "Birgit Holm"
+  },
+  {
+   "key": "case051.verdict.tommaso",
+   "value": "Tommaso Scotto"
+  }
+ ]
+}

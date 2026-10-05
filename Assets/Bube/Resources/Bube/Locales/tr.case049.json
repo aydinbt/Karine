@@ -1,0 +1,432 @@
+{
+ "entries": [
+  {
+   "key": "case049.bruno.body",
+   "value": "Kahve taşıyan çocuk."
+  },
+  {
+   "key": "case049.bruno.deflect",
+   "value": "Ben kahve taşırım, signo’."
+  },
+  {
+   "key": "case049.bruno.gone",
+   "value": "Bruno Gallo akşam feribotuyla Sardinya’ya, Costa Smeralda’da bir otele gitti. Telefonu kapalı."
+  },
+  {
+   "key": "case049.bruno.title",
+   "value": "Bruno Gallo — görüşme"
+  },
+  {
+   "key": "case049.bruno.tray.answer",
+   "value": "Saat on ikide, her gün olduğu gibi, şekersiz. İçeride gümüş saçlı şık bir hanım vardı. Ben fincanı tezgâha koyarken ‘Ben veririm, Bruno’ dedi, fincanı benden aldı. Usta arkada, rafta bir şey arıyordu. Sonra çıktım. Yarın akşam Sardinya’ya gidiyorum, sezon işi; anneme söylemeyin, daha bilmiyor."
+  },
+  {
+   "key": "case049.bruno.tray.answer.demeanor",
+   "value": "Tepsiyi göğsüne bastırıyor."
+  },
+  {
+   "key": "case049.bruno.tray.question",
+   "value": "Ustaya kahveyi ne zaman götürdün?"
+  },
+  {
+   "key": "case049.clue.arrive",
+   "value": "Antikacı atölyeye geliyor."
+  },
+  {
+   "key": "case049.clue.coffee",
+   "value": "Kahve çocuğu fincanı getiriyor; antikacı ‘Ben veririm’ diyor."
+  },
+  {
+   "key": "case049.clue.found",
+   "value": "Çırak ustayı yığılmış buluyor."
+  },
+  {
+   "key": "case049.clue.leave",
+   "value": "Antikacı atölyeden çıkıyor."
+  },
+  {
+   "key": "case049.clue.lunch",
+   "value": "Çırak yemeğe çıkıyor."
+  },
+  {
+   "key": "case049.clue.source.bruno",
+   "value": "Bruno Gallo"
+  },
+  {
+   "key": "case049.clue.source.matteo",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case049.clue.source.vittoria",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.custody.bag",
+   "value": "Antikacının el çantasına"
+  },
+  {
+   "key": "case049.custody.burnt",
+   "value": "Usta kendisi yaktı"
+  },
+  {
+   "key": "case049.custody.label",
+   "value": "Ustanın geri çekme mektubu nereye gitti?"
+  },
+  {
+   "key": "case049.custody.posted",
+   "value": "Postalandı"
+  },
+  {
+   "key": "case049.epilogue.custody.bag",
+   "value": "Geri çekme mektubunun Vittoria Sala’nın çantasında bulunduğu yazıldı."
+  },
+  {
+   "key": "case049.epilogue.custody.burnt",
+   "value": "Mektubun aslı yakılmamıştı."
+  },
+  {
+   "key": "case049.epilogue.custody.posted",
+   "value": "Mektup pullu ama postalanmamış halde bulundu."
+  },
+  {
+   "key": "case049.epilogue.verdict.matteo",
+   "value": "Matteo Cuomo tutuklandı; mektup hiçbir zaman postalanmadı."
+  },
+  {
+   "key": "case049.epilogue.verdict.natural",
+   "value": "Ölüm doğal sayıldı; atölye kapandı."
+  },
+  {
+   "key": "case049.epilogue.verdict.teresa",
+   "value": "Teresa Cuomo gözaltına alındı; figürler satılmaya devam etti."
+  },
+  {
+   "key": "case049.epilogue.verdict.vittoria",
+   "value": "Vittoria Sala tutuklandı. 61 sahte figürün Caruso Marittima’yla yapılan sevkiyatları Zürih, Tokyo ve New York şubelerine bildirildi."
+  },
+  {
+   "key": "case049.evidence.export",
+   "value": "İhracat belgeleri"
+  },
+  {
+   "key": "case049.evidence.shop",
+   "value": "Antika dükkânı araması"
+  },
+  {
+   "key": "case049.evidence.tox",
+   "value": "Toksikoloji raporu"
+  },
+  {
+   "key": "case049.export.body",
+   "value": "· Son dört yılda Napoli limanından Zürih, Tokyo ve New York’a 61 ‘18. yüzyıl Napoli figürü’ ihracı; hepsinin bilirkişi raporunda ‘Raffaele Cuomo’ imzası. Satıcı: Vittoria Sala. Gönderici: Caruso Marittima.\n· Ustanın masasındaki taslak mektup (kopya): ‘Vittoria Sala’nın sattığı ve benim imzaladığım bütün figürlere verdiğim bilirkişi görüşünü geri çekiyorum.’ Asıl mektup bulunamadı."
+  },
+  {
+   "key": "case049.export.title",
+   "value": "İHRACAT BELGELERİ"
+  },
+  {
+   "key": "case049.feedback.matteo",
+   "value": "Çırak boyaları biliyordu ama atölyede yalnız akrilik var; öldürücü pigment başka bir dükkândan çıktı."
+  },
+  {
+   "key": "case049.feedback.natural",
+   "value": "Midede ve fincanda arsenikli eski bir boya pigmenti bulundu."
+  },
+  {
+   "key": "case049.feedback.teresa",
+   "value": "Kız hesapları tuttu ve imzaların hikâyesini anlattı; o gün atölyede değildi."
+  },
+  {
+   "key": "case049.feedback.vittoria",
+   "value": "Dükkânındaki pigment kavanozu yeni açılmış ve üzerinde onun izi var; ustanın geri çekme mektubu onun çantasından çıktı. Usta, onun sattığı sahte figürlere verdiği imzaları geri çekecekti."
+  },
+  {
+   "key": "case049.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case049.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case049.file.value.location",
+   "value": "San Gregorio Armeno, Napoli — atölye"
+  },
+  {
+   "key": "case049.file.value.number",
+   "value": "BDN-NAP-2030-0327"
+  },
+  {
+   "key": "case049.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case049.file.value.reporter",
+   "value": "Yeğen"
+  },
+  {
+   "key": "case049.matteo.body",
+   "value": "Yeğen ve çırak."
+  },
+  {
+   "key": "case049.matteo.deflect",
+   "value": "Zio’mu ben bulmadım, ben sadece kil yoğururum."
+  },
+  {
+   "key": "case049.matteo.found.answer",
+   "value": "Bir’de yemeğe çıktım, Zio ‘sen git, Vittoria Hanım gelecek, konuşacağız’ dedi. Döndüğümde başı çobanın üstündeydi. Fincan tezgâhtaydı ama yıkanmıştı. Zio fincanını asla yıkamaz, Bruno alır götürür."
+  },
+  {
+   "key": "case049.matteo.found.answer.demeanor",
+   "value": "Tırnaklarının altındaki kili kazıyor."
+  },
+  {
+   "key": "case049.matteo.found.question",
+   "value": "Ustayı nasıl buldunuz?"
+  },
+  {
+   "key": "case049.matteo.green.answer",
+   "value": "Bizde akrilik var, zararsız. O eski zehirli yeşili kimse kullanmaz, yasak. Ama 18. yüzyıl figürlerinin kopyasını yapan biri, ‘orijinal’ görünsün diye eski pigmenti arar. Antikacılar bulur onu. Zio buna ‘sahtekâr yeşili’ derdi."
+  },
+  {
+   "key": "case049.matteo.green.question",
+   "value": "Atölyede yeşil boya kullanılır mı?"
+  },
+  {
+   "key": "case049.matteo.title",
+   "value": "Matteo Cuomo — görüşme"
+  },
+  {
+   "key": "case049.method.arsenic",
+   "value": "Kahvesine arsenikli eski pigment katıldı"
+  },
+  {
+   "key": "case049.method.fumes",
+   "value": "Boya buharından zehirlendi"
+  },
+  {
+   "key": "case049.method.heart",
+   "value": "Kalp yetmezliği"
+  },
+  {
+   "key": "case049.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case049.offer.subtitle",
+   "value": "PRESEPE  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case049.offer.summary",
+   "value": "San Gregorio Armeno’da bir figür ustası tezgâhının başında ölü. Dudakları yeşilimsi."
+  },
+  {
+   "key": "case049.offer.title",
+   "value": "DOSYA #049"
+  },
+  {
+   "key": "case049.person.bruno.info",
+   "value": "19 yaşında, karşıdaki barın kahve taşıyan çocuğu."
+  },
+  {
+   "key": "case049.person.bruno.name",
+   "value": "Bruno Gallo"
+  },
+  {
+   "key": "case049.person.matteo.info",
+   "value": "27 yaşında, kurbanın yeğeni ve çırağı."
+  },
+  {
+   "key": "case049.person.matteo.name",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.person.teresa.info",
+   "value": "50 yaşında, kurbanın kızı; atölyenin hesaplarını tutar."
+  },
+  {
+   "key": "case049.person.teresa.name",
+   "value": "Teresa Cuomo"
+  },
+  {
+   "key": "case049.person.vittoria.info",
+   "value": "58 yaşında, Via dei Tribunali’de antika dükkânı sahibi."
+  },
+  {
+   "key": "case049.person.vittoria.name",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.report.body",
+   "value": "8 Ekim 2030 öğleden sonra San Gregorio Armeno’daki bir figür atölyesinde usta Raffaele Cuomo (76) tezgâhının başında ölü bulundu.\n\nCesedi yeğeni ve çırağı Matteo Cuomo 15.20’de, öğle yemeğinden dönünce buldu. Kızı Teresa Cuomo atölyenin hesaplarını tutuyor. Öğleden önce atölyeye antikacı Vittoria Sala uğramış. Kahveyi her gün karşıdaki bardan Bruno Gallo getiriyor."
+  },
+  {
+   "key": "case049.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case049.request.export",
+   "value": "İhracat belgelerini iste"
+  },
+  {
+   "key": "case049.request.shop",
+   "value": "Vittoria Sala’nın dükkânını aramak için izin iste"
+  },
+  {
+   "key": "case049.request.tox",
+   "value": "Toksikoloji raporunu iste"
+  },
+  {
+   "key": "case049.shop.body",
+   "value": "Vittoria Sala’nın Via dei Tribunali’deki dükkânı (şube şefinin onayıyla):\n\n· Arka odada, ağzı kırmızı mumla kapalı bir kavanoz bakır asetoarsenit; mum yeni kırılıp yeniden kapatılmış. Kavanozda Vittoria Sala’nın parmak izi.\n· Yeni kille yapılmış, eski pigmentle eskitilmiş on dört figür.\n· Vittoria Sala’nın el çantasında ustanın imzalı asıl geri çekme mektubu, zarfı pullu, postalanmamış."
+  },
+  {
+   "key": "case049.shop.title",
+   "value": "ANTİKA DÜKKÂNI — ARAMA"
+  },
+  {
+   "key": "case049.summary.evidence",
+   "value": "Kahve çocuğu fincanı kimin aldığını gördü; otopsi sonucu gelmeden sorulmadıysa Sardinya’ya gitti. Çırak ‘sahtekâr yeşili’ni, kız imzaların bedelini anlattı. Toksikoloji pigmenti adlandırdı; gerekçeli arama kavanozu ve mektubu buldu."
+  },
+  {
+   "key": "case049.summary.lesson",
+   "value": "Eski görünmek için yeni bir şeye zehir gerekiyordu."
+  },
+  {
+   "key": "case049.summary.location",
+   "value": "San Gregorio Armeno — Ekim 2030"
+  },
+  {
+   "key": "case049.summary.truth",
+   "value": "Antikacı Vittoria Sala kırk yıldır yeni kilden yapılıp eski pigmentle eskitilen figürleri ‘18. yüzyıl’ diye satıyor, Caruso Marittima onları gemiye koyuyordu; bilirkişi imzası usta Raffaele Cuomo’dandı. Usta imzalarını geri çekmeye karar verince Vittoria kahve fincanını çocuğun elinden aldı, içine arsenikli yeşil pigment kattı, fincanı yıkadı ve mektubu çantasına koydu."
+  },
+  {
+   "key": "case049.suspect.label",
+   "value": "Raffaele Cuomo’yu kim öldürdü?"
+  },
+  {
+   "key": "case049.tablet.caseLine",
+   "value": "DOSYA #049  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case049.teresa.body",
+   "value": "Kurbanın kızı."
+  },
+  {
+   "key": "case049.teresa.deflect",
+   "value": "Babamın işleri bana sorulur."
+  },
+  {
+   "key": "case049.teresa.papers.answer",
+   "value": "Bilirkişi raporları. Yıllardır Vittoria Sala’nın sattığı ‘eski’ figürlere ‘18. yüzyıl, orijinal’ diye imza atıyordu; her imza için bin euro. Geçen hafta bir figürü kırdı, içinden yeni kil çıktı. ‘Teresa, bunların hepsi sahte, ben de sahtekâr oldum’ dedi. İmzalarını geri çekecekti, mektubu bile yazdı."
+  },
+  {
+   "key": "case049.teresa.papers.answer.demeanor",
+   "value": "Gözlüğünü indirip yeniden yukarı itiyor."
+  },
+  {
+   "key": "case049.teresa.papers.question",
+   "value": "Babanız son günlerde ne üzerinde çalışıyordu?"
+  },
+  {
+   "key": "case049.teresa.title",
+   "value": "Teresa Cuomo — görüşme"
+  },
+  {
+   "key": "case049.time.arrive",
+   "value": "11.00"
+  },
+  {
+   "key": "case049.time.coffee",
+   "value": "12.00"
+  },
+  {
+   "key": "case049.time.found",
+   "value": "15.20"
+  },
+  {
+   "key": "case049.time.leave",
+   "value": "12.30"
+  },
+  {
+   "key": "case049.time.lunch",
+   "value": "13.00"
+  },
+  {
+   "key": "case049.title",
+   "value": "Dosya #049 — Presepe"
+  },
+  {
+   "key": "case049.tox.body",
+   "value": "· Ölüm nedeni: akut arsenik zehirlenmesi.\n· Midede espresso ve bakır asetoarsenit: tarihte ‘Paris yeşili’ ya da ‘Schweinfurt yeşili’ diye bilinen, bugün satışı yasak bir boya pigmenti.\n· Fincanın dibindeki yeşil halkada aynı pigment.\n· Alım: ölümden 2–3 saat önce."
+  },
+  {
+   "key": "case049.tox.title",
+   "value": "TOKSİKOLOJİ RAPORU"
+  },
+  {
+   "key": "case049.verdict.matteo",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.verdict.natural",
+   "value": "Kimse — kalp yetmezliği"
+  },
+  {
+   "key": "case049.verdict.teresa",
+   "value": "Teresa Cuomo"
+  },
+  {
+   "key": "case049.verdict.vittoria",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.vittoria.body",
+   "value": "Antikacı."
+  },
+  {
+   "key": "case049.vittoria.deflect",
+   "value": "Ben eski şeylerin değerini bilirim, insanlarınkini de."
+  },
+  {
+   "key": "case049.vittoria.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case049.vittoria.end.presented.export",
+   "value": "Bilirkişi imzası, evet. Raffaele her imzanın parasını aldı. Şimdi temiz mi olacaktı?"
+  },
+  {
+   "key": "case049.vittoria.end.presented.shop",
+   "value": "Kırk yıldır o figürleri ben satıyorum; Caruso’lar gemiye koyar, Zürih’te, Tokyo’da, New York’ta alıcıları bekler. Raffaele mektubu postalasaydı hepsi biterdi. O yeşili figürleri eskitmek için kullanırım. Biraz da fincanına koydum. Fincanı yıkadım. Mektubu çantama aldım."
+  },
+  {
+   "key": "case049.vittoria.end.question",
+   "value": "Fincana yeşil pigmenti siz kattınız."
+  },
+  {
+   "key": "case049.vittoria.title",
+   "value": "Vittoria Sala — görüşme"
+  },
+  {
+   "key": "case049.vittoria.visit.answer",
+   "value": "Bir çoban figürü sipariş etmiştim. On bire doğru geldim, on iki buçukta çıktım. Raffaele yorgundu, hep kahve içerdi, kalbi zayıftı. Ben fincanına dokunmadım bile."
+  },
+  {
+   "key": "case049.vittoria.visit.answer.demeanor",
+   "value": "Kamesini parmağıyla düzeltiyor."
+  },
+  {
+   "key": "case049.vittoria.visit.question",
+   "value": "Ustanın atölyesine neden gittiniz?"
+  },
+  {
+   "key": "case049.vittoria.visit.variant0",
+   "value": "Fincanı çocuğun elinden aldım, evet; titriyordu, dökecekti. Raffaele’ye uzattım. Bunun bir anlamı yok."
+  }
+ ]
+}

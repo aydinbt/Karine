@@ -1,0 +1,552 @@
+{
+ "entries": [
+  {
+   "key": "case052.aldo.body",
+   "value": "Ustabaşı."
+  },
+  {
+   "key": "case052.aldo.deflect",
+   "value": "Ben bu limanda Don Vittorio’dan önce de vardım."
+  },
+  {
+   "key": "case052.aldo.last.answer",
+   "value": "Saat on birde, ofisinde. Lorenzo’yla bağırışıyorlardı. Don Vittorio ‘O kadınla işimiz bitti, Lorenzo. Amerika’da, Fransa’da insanlar öldü. Caruso adı bunun için kurulmadı’ dedi. Lorenzo ‘Edda’ya hayır denmez, baba’ dedi. Sonra ‘Gel, rıhtımda konuşalım’ dedi, çıktılar. Rıhtımda kamera var, Don Vittorio taktırmıştı."
+  },
+  {
+   "key": "case052.aldo.last.answer.demeanor",
+   "value": "Kasketini iki elinin arasında döndürüyor."
+  },
+  {
+   "key": "case052.aldo.last.question",
+   "value": "Don Vittorio’yu en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case052.aldo.photo.answer",
+   "value": "1989. Limana bir kadın geldi, yabancı, aksanlı İtalyanca. Don Vittorio ona ‘Dottoressa’ derdi. Yüzünü hatırlamıyorum, doğrusu hiç bakmadım; bileğinde bir erkek saati vardı, onu hatırlıyorum, kocasının olduğunu söylemişti. O yıldan sonra Caruso’ların gemileri iki katına çıktı."
+  },
+  {
+   "key": "case052.aldo.photo.question",
+   "value": "Ofisteki fotoğraftaki kadın kim?"
+  },
+  {
+   "key": "case052.aldo.title",
+   "value": "Aldo Ruggiero — görüşme"
+  },
+  {
+   "key": "case052.autopsy.body",
+   "value": "· Ölüm nedeni: fosfin gazı zehirlenmesi; akciğer ödemi.\n· Sağ elin parmak uçlarında ve tırnaklarda konteyner kapısının iç yüzünden boya ve pas.\n· Ensede hafif bir şişlik. Kanda bir uyku ilacı yok.\n· Ölüm zamanı: 23.30–01.00."
+  },
+  {
+   "key": "case052.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case052.car.body",
+   "value": "Lorenzo Conte’nin arabası ve telefonu (şube şefinin onayıyla):\n\n· Bagajda yarısı boş bir alüminyum fosfin tablet kutusu ve bir çift nitril eldiven; kutuda Lorenzo Conte’nin parmak izi.\n· Paltosunun cebinde Don Vittorio’nun ofis anahtarları.\n· Telefonunda kayıtsız bir İspanya numarasına 13 Ekim 00.07: ‘Yaşlı adam sorun değil artık. Napoli sizindir.’ Cevap yok. Aynı numaraya son iki yılda 212 mesaj; hiçbirine cevap gelmemiş.\n· 10 Ekim, feribot kaptanı Gianni De Luca’ya giden mesaj: ‘Kadın limana dönmesin.’ Yanıt: ‘Tamam.’"
+  },
+  {
+   "key": "case052.car.title",
+   "value": "LORENZO CONTE’NİN ARABASI VE TELEFONU — ARAMA"
+  },
+  {
+   "key": "case052.carmela.body",
+   "value": "Kurbanın kızı."
+  },
+  {
+   "key": "case052.carmela.deflect",
+   "value": "Babamın yasındayım."
+  },
+  {
+   "key": "case052.carmela.title",
+   "value": "Carmela Caruso — görüşme"
+  },
+  {
+   "key": "case052.carmela.will.answer",
+   "value": "Şirketi küçültmek. Basso, pizzacı, füniküler, tiyatro, feribot; her hafta bir haber. ‘Carmela, bu bizim değil, bu o kadının işi’ dedi. Vasiyetini değiştirecekti; Lorenzo genel müdürlükten alınacaktı. Notere salı günü gidecekti. Pazartesi gecesi öldü."
+  },
+  {
+   "key": "case052.carmela.will.answer.demeanor",
+   "value": "Altın haçını parmaklarıyla kavrıyor."
+  },
+  {
+   "key": "case052.carmela.will.question",
+   "value": "Babanız son günlerde ne yapmak istiyordu?"
+  },
+  {
+   "key": "case052.cctv.event.close",
+   "value": "Kamera: Takım elbiseli adam bir konteynerin kapılarını yalnız kapatıyor, kapı kollarına bir şey takıyor."
+  },
+  {
+   "key": "case052.cctv.event.leave",
+   "value": "Kamera: Aynı adam elinde küçük metal bir kutuyla park etmiş bir arabaya hızla yürüyor."
+  },
+  {
+   "key": "case052.cctv.event.walk",
+   "value": "Kamera: Uzun paltolu yaşlı bir adam, takım elbiseli daha genç bir adamla konteyner sıralarının arasında yürüyor."
+  },
+  {
+   "key": "case052.cctv.overlay",
+   "value": "NAP-Q21"
+  },
+  {
+   "key": "case052.cctv.period",
+   "value": "12–13 Ekim 2030"
+  },
+  {
+   "key": "case052.cctv.source",
+   "value": "Rıhtım kamerası"
+  },
+  {
+   "key": "case052.clue.argue",
+   "value": "Kurban ve damat ofiste bağırışıyor: ‘Edda’ya hayır denmez.’"
+  },
+  {
+   "key": "case052.clue.close",
+   "value": "Takım elbiseli adam konteyneri yalnız kapatıp mühürlüyor."
+  },
+  {
+   "key": "case052.clue.found",
+   "value": "İlaçlamacı mührü kesip konteyneri açıyor."
+  },
+  {
+   "key": "case052.clue.leave",
+   "value": "Aynı adam metal bir kutuyla arabasına yürüyor."
+  },
+  {
+   "key": "case052.clue.msg",
+   "value": "‘Napoli sizindir.’ Cevap yok."
+  },
+  {
+   "key": "case052.clue.seal",
+   "value": "Depodaki mühür destesinden bir mühür çekiliyor."
+  },
+  {
+   "key": "case052.clue.source.aldo",
+   "value": "Aldo Ruggiero"
+  },
+  {
+   "key": "case052.clue.source.car",
+   "value": "Araba ve telefon araması"
+  },
+  {
+   "key": "case052.clue.source.samir",
+   "value": "Samir Haddad"
+  },
+  {
+   "key": "case052.clue.source.seals",
+   "value": "Mühür kayıtları"
+  },
+  {
+   "key": "case052.clue.walk",
+   "value": "Yaşlı adam ve takım elbiseli adam konteynerlerin arasında yürüyor."
+  },
+  {
+   "key": "case052.custody.depot",
+   "value": "Depoya geri kondu"
+  },
+  {
+   "key": "case052.custody.fumigator",
+   "value": "İlaçlamacının dolabında"
+  },
+  {
+   "key": "case052.custody.label",
+   "value": "Fosfin tablet kutusu nereye gitti?"
+  },
+  {
+   "key": "case052.custody.trunk",
+   "value": "Damadın arabasının bagajına"
+  },
+  {
+   "key": "case052.epilogue.custody.depot",
+   "value": "Kutu depoya dönmemişti."
+  },
+  {
+   "key": "case052.epilogue.custody.fumigator",
+   "value": "İlaçlamacının dolabındaki kutular sayılıydı ve eksiksizdi."
+  },
+  {
+   "key": "case052.epilogue.custody.trunk",
+   "value": "Yarısı boş fosfin kutusunun Lorenzo Conte’nin bagajında bulunduğu yazıldı."
+  },
+  {
+   "key": "case052.epilogue.verdict.accident",
+   "value": "Ölüm iş kazası sayıldı; Caruso Marittima’nın gemileri Sevilla’ya yola çıktı."
+  },
+  {
+   "key": "case052.epilogue.verdict.carmela",
+   "value": "Carmela Caruso tutuklandı; şirketin başına Lorenzo Conte geçti."
+  },
+  {
+   "key": "case052.epilogue.verdict.lorenzo",
+   "value": "Lorenzo Conte tutuklandı. Caruso Marittima’nın 1989’dan bu yana kayıtları, ofisteki fotoğraf ve cevapsız 212 mesajın gittiği İspanya numarası bube Sevilla — Triana şubesine gönderildi."
+  },
+  {
+   "key": "case052.epilogue.verdict.samir",
+   "value": "Samir Haddad tutuklandı; liman bir hafta sonra açıldı."
+  },
+  {
+   "key": "case052.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case052.evidence.car",
+   "value": "Araba ve telefon araması"
+  },
+  {
+   "key": "case052.evidence.quay",
+   "value": "Rıhtım kamerası"
+  },
+  {
+   "key": "case052.evidence.seals",
+   "value": "Mühür ve ilaçlama kayıtları"
+  },
+  {
+   "key": "case052.feedback.accident",
+   "value": "Konteyner dışarıdan mühürlenmişti ve tabletler programdan önce atılmıştı."
+  },
+  {
+   "key": "case052.feedback.carmela",
+   "value": "Kız vasiyetin değişeceğini biliyordu ama bu ona yarardı; o gece Posillipo’da değil, annesinin yanındaydı ve rıhtımda görülmedi."
+  },
+  {
+   "key": "case052.feedback.lorenzo",
+   "value": "Konteynerdeki ilk mühür ve fosfin tabletleri onun imzasıyla depodan çekilmiş; yarısı boş tablet kutusu onun bagajında, onun iziyle bulundu. Ustabaşı onu kurbanı rıhtıma götürürken gördü, kamera kapıyı tek başına kapatan takım elbiseli adamı gösteriyor."
+  },
+  {
+   "key": "case052.feedback.samir",
+   "value": "İlaçlamacı konteyneri sabah açtı; ilk mühür onun firmasının değil, Caruso deposunundu."
+  },
+  {
+   "key": "case052.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case052.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case052.file.value.location",
+   "value": "Napoli limanı — 21 numaralı rıhtım"
+  },
+  {
+   "key": "case052.file.value.number",
+   "value": "BDN-NAP-2030-0340"
+  },
+  {
+   "key": "case052.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case052.file.value.reporter",
+   "value": "İlaçlama firması"
+  },
+  {
+   "key": "case052.lorenzo.body",
+   "value": "Damat ve genel müdür."
+  },
+  {
+   "key": "case052.lorenzo.deflect",
+   "value": "Bu şirket bir aile şirketidir."
+  },
+  {
+   "key": "case052.lorenzo.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case052.lorenzo.end.presented.car",
+   "value": "Vittorio kırk yıl o kadının parasıyla büyüdü, sonra temiz bir yaşlı adam olmak istedi. Edda bunu kabul etmez; ben de etmem. Ensesine vurdum, konteynere koydum, tabletleri attım, mühürledim, plakayı astım. Sabah ilaçlamacı açacaktı, kaza derdik. Onu bulamazsınız. Telefonumdaki o numaraya kimse cevap vermez; ben yazarım, o okur. Madrid’den, Sevilla’dan, nereden bilmiyorum."
+  },
+  {
+   "key": "case052.lorenzo.end.presented.seals",
+   "value": "Mühür numaraları depoda herkesin elindedir."
+  },
+  {
+   "key": "case052.lorenzo.end.question",
+   "value": "Konteyneri siz mühürlediniz."
+  },
+  {
+   "key": "case052.lorenzo.night.answer",
+   "value": "Evde, Posillipo’da. Kayınpederimle ofiste kısa bir iş konuşması yaptık, 22.40’ta çıktım. Yaşlıydı, gece rıhtımda dolaşırdı; bir konteynere girmiş olmalı."
+  },
+  {
+   "key": "case052.lorenzo.night.answer.demeanor",
+   "value": "Mühür yüzüğünü parmağında çeviriyor."
+  },
+  {
+   "key": "case052.lorenzo.night.question",
+   "value": "Dün gece saat on birden sonra neredeydiniz?"
+  },
+  {
+   "key": "case052.lorenzo.night.variant0",
+   "value": "Rıhtımda yürüdük, evet. Konteynerin kapısını kapattım, açık kalmıştı. İçinde olduğunu bilmiyordum."
+  },
+  {
+   "key": "case052.lorenzo.title",
+   "value": "Lorenzo Conte — görüşme"
+  },
+  {
+   "key": "case052.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case052.method.label",
+   "value": "Nasıl?"
+  },
+  {
+   "key": "case052.method.lost",
+   "value": "Konteynere kazara girip kapandı"
+  },
+  {
+   "key": "case052.method.phosphine",
+   "value": "Konteynere kapatılıp fosfin gazıyla zehirlendi"
+  },
+  {
+   "key": "case052.offer.subtitle",
+   "value": "CARUSO  /  BÖLÜM FİNALİ"
+  },
+  {
+   "key": "case052.offer.summary",
+   "value": "Napoli limanında mühürlü bir ilaçlama konteynerinde Caruso Marittima’nın kurucusu ölü bulundu."
+  },
+  {
+   "key": "case052.offer.title",
+   "value": "DOSYA #052"
+  },
+  {
+   "key": "case052.ottavio.body",
+   "value": "Vinç operatörü."
+  },
+  {
+   "key": "case052.ottavio.cabin.answer",
+   "value": "Vincin kabini kırk metre yukarıda, bütün rıhtımı görürüm. Saat on bir gibi Don Vittorio ile damadı konteynerlerin arasında yürüyordu. Sonra yalnız damadı gördüm; kırmızı konteynerin kapısını kapattı, kollarına bir şey taktı, arabasına koştu. Vardiyam sabah altıda bitiyor; sonra Salerno’ya, yeni işime gidiyorum. Burada bir daha çalışmam."
+  },
+  {
+   "key": "case052.ottavio.cabin.answer.demeanor",
+   "value": "Baretini başında geriye itiyor."
+  },
+  {
+   "key": "case052.ottavio.cabin.question",
+   "value": "Gece kabinden ne gördünüz?"
+  },
+  {
+   "key": "case052.ottavio.deflect",
+   "value": "Ben yukarıdayım, kabinde."
+  },
+  {
+   "key": "case052.ottavio.gone",
+   "value": "Ottavio Mele sabah vardiyası bitince Salerno’ya gitti; yeni işvereni ‘kendisi görüşmek istemiyor’ diyor."
+  },
+  {
+   "key": "case052.ottavio.title",
+   "value": "Ottavio Mele — görüşme"
+  },
+  {
+   "key": "case052.person.aldo.info",
+   "value": "68 yaşında, kırk yıllık liman ustabaşı."
+  },
+  {
+   "key": "case052.person.aldo.name",
+   "value": "Aldo Ruggiero"
+  },
+  {
+   "key": "case052.person.carmela.info",
+   "value": "44 yaşında, kurbanın kızı; Lorenzo Conte’nin karısı."
+  },
+  {
+   "key": "case052.person.carmela.name",
+   "value": "Carmela Caruso"
+  },
+  {
+   "key": "case052.person.lorenzo.info",
+   "value": "46 yaşında, Caruso ailesinin damadı; feribot şirketinin ve Caruso Marittima’nın genel müdürü."
+  },
+  {
+   "key": "case052.person.lorenzo.name",
+   "value": "Lorenzo Conte"
+  },
+  {
+   "key": "case052.person.ottavio.info",
+   "value": "33 yaşında, rıhtım vinci operatörü."
+  },
+  {
+   "key": "case052.person.ottavio.name",
+   "value": "Ottavio Mele"
+  },
+  {
+   "key": "case052.person.samir.info",
+   "value": "39 yaşında, konteyner ilaçlama firmasının teknisyeni."
+  },
+  {
+   "key": "case052.person.samir.name",
+   "value": "Samir Haddad"
+  },
+  {
+   "key": "case052.quay.body",
+   "value": "21 numaralı rıhtım, konteyner sıraları. 12 Ekim 22.30 – 13 Ekim 00.30."
+  },
+  {
+   "key": "case052.quay.title",
+   "value": "RIHTIM KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case052.recon.r_argue",
+   "value": "23.00: Ofiste ‘O kadınla işimiz bitti’ — ‘Edda’ya hayır denmez.’"
+  },
+  {
+   "key": "case052.recon.r_buy",
+   "value": "6 Ekim: Lorenzo Conte şirket deposundan ‘tahıl için’ bir kutu fosfin tableti alıyor."
+  },
+  {
+   "key": "case052.recon.r_close",
+   "value": "23.19: Damat kurbanı konteynere koyup tabletleri atıyor, kapıyı mühürleyip ilaçlama plakasını asıyor."
+  },
+  {
+   "key": "case052.recon.r_msg",
+   "value": "00.07: Lorenzo Conte İspanya’daki numaraya yazıyor: ‘Napoli sizindir.’ Cevap gelmiyor."
+  },
+  {
+   "key": "case052.recon.r_seal",
+   "value": "22.51: Depodaki mühür destesinden bir mühür Lorenzo Conte imzasıyla çekiliyor."
+  },
+  {
+   "key": "case052.recon.r_walk",
+   "value": "23.02: Damat kayınpederini rıhtımda konuşmaya götürüyor."
+  },
+  {
+   "key": "case052.recon.r_will",
+   "value": "Don Vittorio vasiyetini değiştirip damadını genel müdürlükten almaya karar veriyor."
+  },
+  {
+   "key": "case052.report.body",
+   "value": "13 Ekim 2030 sabahı Napoli limanında, Caruso Marittima’nın 21 numaralı rıhtımında ilaçlama sonrası açılan bir konteynerde şirketin kurucusu Vittorio Caruso (81) ölü bulundu.\n\nKonteyneri açan: ilaçlama teknisyeni Samir Haddad. Gece rıhtımda bulunanlar: ustabaşı Aldo Ruggiero, vinç operatörü Ottavio Mele. Kurbanın kızı Carmela Caruso ve damadı, şirketin genel müdürü Lorenzo Conte haberi sabah aldı."
+  },
+  {
+   "key": "case052.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case052.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case052.request.car",
+   "value": "Lorenzo Conte’nin arabasını ve telefonunu aramak için izin iste"
+  },
+  {
+   "key": "case052.request.seals",
+   "value": "Mühür ve ilaçlama kayıtlarını iste"
+  },
+  {
+   "key": "case052.samir.body",
+   "value": "İlaçlama teknisyeni."
+  },
+  {
+   "key": "case052.samir.deflect",
+   "value": "Ben ilacı atarım, kâğıdı imzalarım."
+  },
+  {
+   "key": "case052.samir.keys.answer",
+   "value": "Bizde, kilitli dolapta. Bir de şirketin kendi deposunda, gemiye yüklenecek tahıl için. O deponun anahtarı genel müdürde ve ustabaşında. Geçen hafta Lorenzo Bey bir kutu istedi, ‘tahıl için’ dedi, imzasıyla verdim."
+  },
+  {
+   "key": "case052.samir.keys.question",
+   "value": "Fosfin tableti kimde olur?"
+  },
+  {
+   "key": "case052.samir.seal.answer",
+   "value": "Programda vardı, sabah yedide atacaktım. Ama sabah geldiğimde kapıda zaten bir mühür vardı, ilaçlama plakası da asılıydı, ilacın atıldığını söyleyen. Ben atmadım. Mührü kestim, havalandırmak için açtım. Don Vittorio içerideydi."
+  },
+  {
+   "key": "case052.samir.seal.answer.demeanor",
+   "value": "Boynundaki gaz maskesinin kayışını çekiştiriyor."
+  },
+  {
+   "key": "case052.samir.seal.question",
+   "value": "Konteyneri siz mi ilaçladınız?"
+  },
+  {
+   "key": "case052.samir.title",
+   "value": "Samir Haddad — görüşme"
+  },
+  {
+   "key": "case052.seals.body",
+   "value": "· Konteynerin kapısındaki ilk mühür ‘CM-44817’: Caruso Marittima deposunun mühür destesinden; deste kaydında son çekiş 12 Ekim 22.51, imza: Lorenzo Conte.\n· İlaçlama programı: konteyner 13 Ekim 07.00’de ilaçlanacaktı; ilaçlama firmasının mührü ikinci mühür.\n· Şirket deposundan 6 Ekim’de bir kutu fosfin tableti, ‘tahıl için’, imza: Lorenzo Conte. O hafta tahıl sevkiyatı yok."
+  },
+  {
+   "key": "case052.seals.title",
+   "value": "MÜHÜR VE İLAÇLAMA KAYITLARI"
+  },
+  {
+   "key": "case052.summary.evidence",
+   "value": "Vinç operatörü her şeyi kabinden gördü; rıhtım kaydı açılmadan sorulmadıysa Salerno’ya gitti. Ustabaşı son konuşmayı ve fotoğrafı, ilaçlamacı mühürleri, kız vasiyeti verdi. Gerekçeli arama tablet kutusunu ve İspanya’daki numarayı buldu: 212 mesaj, tek cevap yok."
+  },
+  {
+   "key": "case052.summary.lesson",
+   "value": "Fotoğraftaki kadının yüzü yok; bir saati var. Sıradaki şehir: Sevilla."
+  },
+  {
+   "key": "case052.summary.location",
+   "value": "Napoli limanı — Ekim 2030"
+  },
+  {
+   "key": "case052.summary.truth",
+   "value": "Vittorio Caruso, 1989’da limana gelen ‘Dottoressa’nın parasıyla büyüttüğü şirketi, Chicago’dan Napoli’ye uzanan ölümlerden sonra küçültmek ve damadını görevden almak istedi. Lorenzo Conte, ‘Edda’ya hayır denmez’ diyerek kayınpederini gece rıhtıma götürdü, ensesine vurdu, onu bir konteynere koydu, depodan aldığı fosfin tabletlerini attı ve kapıyı ilaçlama mührüyle kapattı."
+  },
+  {
+   "key": "case052.suspect.label",
+   "value": "Vittorio Caruso’yu kim öldürdü?"
+  },
+  {
+   "key": "case052.tablet.caseLine",
+   "value": "DOSYA #052  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case052.time.argue",
+   "value": "23.00"
+  },
+  {
+   "key": "case052.time.close",
+   "value": "23.19"
+  },
+  {
+   "key": "case052.time.found",
+   "value": "07.00"
+  },
+  {
+   "key": "case052.time.leave",
+   "value": "23.24"
+  },
+  {
+   "key": "case052.time.msg",
+   "value": "00.07"
+  },
+  {
+   "key": "case052.time.seal",
+   "value": "22.51"
+  },
+  {
+   "key": "case052.time.walk",
+   "value": "23.02"
+  },
+  {
+   "key": "case052.title",
+   "value": "Dosya #052 — Caruso"
+  },
+  {
+   "key": "case052.verdict.accident",
+   "value": "Kimse — konteynere kazara girdi"
+  },
+  {
+   "key": "case052.verdict.carmela",
+   "value": "Carmela Caruso"
+  },
+  {
+   "key": "case052.verdict.lorenzo",
+   "value": "Lorenzo Conte"
+  },
+  {
+   "key": "case052.verdict.samir",
+   "value": "Samir Haddad"
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+ "entries": [
+  {
+   "key": "case046.assunta.body",
+   "value": "Komşu."
+  },
+  {
+   "key": "case046.assunta.deflect",
+   "value": "Ben vicoloda ne görürsem onu söylerim."
+  },
+  {
+   "key": "case046.assunta.night.answer",
+   "value": "Gennaro’nun motoru. Gece on bir gibi kapının önüne geldi, motoru çalışır bıraktı, girdi. Yarım saat sonra çıktı, selenin altına bir şey koydu, gitti. Benim kapım tam karşıda, ben her şeyi görürüm."
+  },
+  {
+   "key": "case046.assunta.night.answer.demeanor",
+   "value": "Haçını avucunun içinde sıkıyor."
+  },
+  {
+   "key": "case046.assunta.night.question",
+   "value": "Gece bir şey gördünüz mü?"
+  },
+  {
+   "key": "case046.assunta.tin.answer",
+   "value": "Kocası Salvatore’nin kutusu. Limanda, Caruso’larda katipti. Ölmeden önce ‘Nunzia, bu kutuyu kimseye verme, Caruso’lar bir gün ister’ demiş. Geçen hafta iki adam gelip sordu. Nunzia kapıyı yüzlerine kapadı."
+  },
+  {
+   "key": "case046.assunta.tin.question",
+   "value": "Nunzia’nın teneke kutusunu bilir misiniz?"
+  },
+  {
+   "key": "case046.assunta.title",
+   "value": "Assunta Esposito — görüşme"
+  },
+  {
+   "key": "case046.autopsy.body",
+   "value": "· Göz kapaklarının içinde ve yüzde noktasal kanamalar; burun ve dudak iç yüzünde ezikler.\n· Ağızda pamuk lifleri. Kalp yaşına göre yorgun, ama ölüm nedeni değil.\n· Ölüm nedeni: yumuşak bir cisimle ağız ve burnun kapatılması. Ölüm zamanı: 23.00–00.30."
+  },
+  {
+   "key": "case046.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case046.bank.body",
+   "value": "Gennaro Russo’nun hesabı:\n\n· 28 Eylül: 2.500 euro nakit yatırma.\n· Telefonunda 28 Eylül, kayıtsız bir numaradan: ‘Kutu gelince yarısı daha. — C.M.’\n· Numaranın son aradığı yer: Napoli limanında Caruso Marittima ofisi."
+  },
+  {
+   "key": "case046.bank.title",
+   "value": "BANKA KAYDI"
+  },
+  {
+   "key": "case046.clue.arrive",
+   "value": "Torunun motosikleti bassonun önünde duruyor."
+  },
+  {
+   "key": "case046.clue.found",
+   "value": "Komşu cesedi buluyor."
+  },
+  {
+   "key": "case046.clue.leave",
+   "value": "Motosiklet yeniden yola çıkıyor."
+  },
+  {
+   "key": "case046.clue.shout",
+   "value": "‘Nonna, beş bin euro!’ — ‘Mai!’"
+  },
+  {
+   "key": "case046.clue.source.orders",
+   "value": "Kurye kaydı"
+  },
+  {
+   "key": "case046.clue.source.pieter",
+   "value": "Turist"
+  },
+  {
+   "key": "case046.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case046.custody.hidden",
+   "value": "Kurban kendisi sakladı"
+  },
+  {
+   "key": "case046.custody.label",
+   "value": "Teneke kutu nereye gitti?"
+  },
+  {
+   "key": "case046.custody.men",
+   "value": "Kapıya gelen iki adam aldı"
+  },
+  {
+   "key": "case046.custody.seat",
+   "value": "Torunun motosiklet selesinin altına"
+  },
+  {
+   "key": "case046.epilogue.custody.hidden",
+   "value": "Kutu bassoda değildi."
+  },
+  {
+   "key": "case046.epilogue.custody.men",
+   "value": "Adamlar kutuyu henüz almamıştı."
+  },
+  {
+   "key": "case046.epilogue.custody.seat",
+   "value": "Kutunun torunun motosikletinin selesinin altında bulunduğu yazıldı."
+  },
+  {
+   "key": "case046.epilogue.verdict.assunta",
+   "value": "Assunta Esposito sorgulandı; dosya bir aile kavgası gibi kapandı."
+  },
+  {
+   "key": "case046.epilogue.verdict.gennaro",
+   "value": "Gennaro Russo tutuklandı. Salvatore Russo’nun 212 sevk fişi bube Napoli’nin Caruso dosyasına girdi."
+  },
+  {
+   "key": "case046.epilogue.verdict.natural",
+   "value": "Ölüm doğal sayıldı; Nunzia ertesi gün gömüldü, kutu kayboldu."
+  },
+  {
+   "key": "case046.epilogue.verdict.pieter",
+   "value": "Pieter de Vries’in Hollanda’dan iadesi istendi; kutu limana gitti."
+  },
+  {
+   "key": "case046.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case046.evidence.bank",
+   "value": "Banka kaydı"
+  },
+  {
+   "key": "case046.evidence.orders",
+   "value": "Kurye uygulaması kaydı"
+  },
+  {
+   "key": "case046.evidence.scooter",
+   "value": "Motosiklet araması"
+  },
+  {
+   "key": "case046.feedback.assunta",
+   "value": "Komşu kapının karşısında oturuyordu; cesedi buldu ve gördüğünü anlattı."
+  },
+  {
+   "key": "case046.feedback.gennaro",
+   "value": "Kurye kaydı 22.48–23.52 arası onu bassonun önünde, komşu içeride gösteriyor; selesinin altında kutu, montunda yastığın lifleri. Kutu için Caruso’nun ofisinden para almıştı."
+  },
+  {
+   "key": "case046.feedback.natural",
+   "value": "Otopsi noktasal kanamaları, ağızdaki lifleri ve dudak içindeki ezikleri gösteriyor."
+  },
+  {
+   "key": "case046.feedback.pieter",
+   "value": "Turist yukarıda kalıyordu; bassoya girdiğine dair bir şey yok."
+  },
+  {
+   "key": "case046.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case046.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case046.file.value.location",
+   "value": "Quartieri Spagnoli, Napoli — basso"
+  },
+  {
+   "key": "case046.file.value.number",
+   "value": "BDN-NAP-2030-0312"
+  },
+  {
+   "key": "case046.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case046.file.value.reporter",
+   "value": "Komşu"
+  },
+  {
+   "key": "case046.gennaro.body",
+   "value": "Kurbanın torunu."
+  },
+  {
+   "key": "case046.gennaro.deflect",
+   "value": "Ailemizin işi bizi ilgilendirir."
+  },
+  {
+   "key": "case046.gennaro.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case046.gennaro.end.presented.bank",
+   "value": "Beş bin, bir iş. Kurye işi."
+  },
+  {
+   "key": "case046.gennaro.end.presented.scooter",
+   "value": "Adamlar beş bin verdiler, ‘kutuyu getir’ dediler. Nonna vermedi. Bağırdı, komşular duyacaktı. Yastığı yüzüne tuttum, sadece susması için. Sonra… susmadı, hiç. Kutuyu aldım. Yarın verecektim."
+  },
+  {
+   "key": "case046.gennaro.end.question",
+   "value": "Gece yarısından önce bassodaydınız."
+  },
+  {
+   "key": "case046.gennaro.night.answer",
+   "value": "İşteydim, gece yarısına kadar paket taşıdım. Nonna’mı ben çok severdim. Kalbi zayıftı, herkes biliyordu."
+  },
+  {
+   "key": "case046.gennaro.night.answer.demeanor",
+   "value": "Kaskını iki elinin arasında çeviriyor."
+  },
+  {
+   "key": "case046.gennaro.night.question",
+   "value": "Dün gece neredeydiniz?"
+  },
+  {
+   "key": "case046.gennaro.title",
+   "value": "Gennaro Russo — görüşme"
+  },
+  {
+   "key": "case046.method.fall",
+   "value": "Yataktan düştü"
+  },
+  {
+   "key": "case046.method.heart",
+   "value": "Kalp yetmezliği"
+  },
+  {
+   "key": "case046.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case046.method.pillow",
+   "value": "Yastıkla boğuldu"
+  },
+  {
+   "key": "case046.offer.subtitle",
+   "value": "BASSO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case046.offer.summary",
+   "value": "Quartieri Spagnoli’de seksen iki yaşında bir dantelci yatağında ölü. Kocasından kalan kutu kayıp."
+  },
+  {
+   "key": "case046.offer.title",
+   "value": "DOSYA #046"
+  },
+  {
+   "key": "case046.orders.body",
+   "value": "Gennaro Russo’nun kurye hesabı, 3 Ekim:\n\n· 19.00–22.48 arası 14 teslimat.\n· 22.48–23.52 hesap ‘mola’da; motosiklet konumu: Vico Lungo, kurbanın bassosunun önü.\n· 23.58’den sonra yeniden teslimat."
+  },
+  {
+   "key": "case046.orders.title",
+   "value": "KURYE UYGULAMASI KAYDI"
+  },
+  {
+   "key": "case046.person.assunta.info",
+   "value": "71 yaşında, karşı bassoda oturan komşu."
+  },
+  {
+   "key": "case046.person.assunta.name",
+   "value": "Assunta Esposito"
+  },
+  {
+   "key": "case046.person.gennaro.info",
+   "value": "26 yaşında, kurbanın torunu; motosikletli kurye."
+  },
+  {
+   "key": "case046.person.gennaro.name",
+   "value": "Gennaro Russo"
+  },
+  {
+   "key": "case046.person.pieter.info",
+   "value": "38 yaşında, üst kattaki kiralık dairede kalan Hollandalı turist."
+  },
+  {
+   "key": "case046.person.pieter.name",
+   "value": "Pieter de Vries"
+  },
+  {
+   "key": "case046.pieter.body",
+   "value": "Turist."
+  },
+  {
+   "key": "case046.pieter.deflect",
+   "value": "I’m sorry — ben sadece tatildeyim."
+  },
+  {
+   "key": "case046.pieter.gone",
+   "value": "Pieter de Vries sabah uçağıyla Amsterdam’a döndü. Bir daha ulaşılamadı."
+  },
+  {
+   "key": "case046.pieter.heard.answer",
+   "value": "Döşemem onun tavanı. 23.10 gibi bağırış; bir genç erkek sesi, ‘Nonna, beş bin euro!’ diye. Kadın ‘Mai!’ dedi, asla. Sonra sessizlik. Yarın sabah uçağım var, İtalyanca bilmiyorum ama bu iki kelimeyi biliyorum."
+  },
+  {
+   "key": "case046.pieter.heard.answer.demeanor",
+   "value": "Fotoğraf makinesinin askısını çekiştiriyor."
+  },
+  {
+   "key": "case046.pieter.heard.question",
+   "value": "Gece bir şey duydunuz mu?"
+  },
+  {
+   "key": "case046.pieter.title",
+   "value": "Pieter de Vries — görüşme"
+  },
+  {
+   "key": "case046.report.body",
+   "value": "4 Ekim 2030 sabahı Quartieri Spagnoli’de, sokağa açılan bir bassoda dantelci Nunzia Russo (82) yatağında ölü bulundu.\n\nCesedi karşıdaki komşusu Assunta Esposito 07.15’te buldu: kapı her sabah altıda açılırdı, açılmamıştı. Torunu Gennaro Russo haberi telefonla aldı. Üst kattaki kiralık dairede Hollandalı turist Pieter de Vries kalıyor."
+  },
+  {
+   "key": "case046.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case046.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case046.request.bank",
+   "value": "Gennaro Russo’nun banka kaydını iste"
+  },
+  {
+   "key": "case046.request.orders",
+   "value": "Kurye uygulamasının kaydını iste"
+  },
+  {
+   "key": "case046.request.scooter",
+   "value": "Gennaro Russo’nun motosikletini aramak için izin iste"
+  },
+  {
+   "key": "case046.scooter.body",
+   "value": "Gennaro Russo’nun motosikletinin sele altı (şube şefinin onayıyla):\n\n· Eski bir bisküvi kutusu; içinde 1978–1999 tarihli 212 Caruso Marittima sevk fişi; birçoğunun arkasında Salvatore Russo’nun el yazısıyla notlar.\n· Kutunun kapağında kurbanın dantel ipliğinden bir parça.\n· Gennaro Russo’nun montunun cebinde kurbanın yastığından pamuk lifleri."
+  },
+  {
+   "key": "case046.scooter.title",
+   "value": "MOTOSİKLET ARAMASI"
+  },
+  {
+   "key": "case046.summary.evidence",
+   "value": "Otopsi boğulmayı, komşu motosikleti ve selenin altına konan şeyi, kurye kaydı mola saatlerini gösterdi. Arama kutuyu ve lifleri verdi. Turist kavgayı duymuştu; otopsi gelmeden sorulmadıysa sabah uçağıyla gitti."
+  },
+  {
+   "key": "case046.summary.lesson",
+   "value": "Napoli’de tanık beklemez. Kimin yarın gideceğini bugün sor."
+  },
+  {
+   "key": "case046.summary.location",
+   "value": "Quartieri Spagnoli — Ekim 2030"
+  },
+  {
+   "key": "case046.summary.truth",
+   "value": "Caruso Marittima’dan biri, Nunzia Russo’nun kocasından kalan eski liman fişlerini istiyordu. Nunzia vermeyince torunu Gennaro’ya beş bin euro teklif edildi. Gennaro gece kurye molasında bassoya gitti, büyükannesi ‘asla’ deyince yastığı yüzüne bastırdı ve kutuyu motosikletinin selesinin altına koydu."
+  },
+  {
+   "key": "case046.suspect.label",
+   "value": "Nunzia Russo’yu kim öldürdü?"
+  },
+  {
+   "key": "case046.tablet.caseLine",
+   "value": "DOSYA #046  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case046.time.arrive",
+   "value": "22.48"
+  },
+  {
+   "key": "case046.time.found",
+   "value": "07.15"
+  },
+  {
+   "key": "case046.time.leave",
+   "value": "23.52"
+  },
+  {
+   "key": "case046.time.shout",
+   "value": "23.10"
+  },
+  {
+   "key": "case046.title",
+   "value": "Dosya #046 — Basso"
+  },
+  {
+   "key": "case046.verdict.assunta",
+   "value": "Assunta Esposito"
+  },
+  {
+   "key": "case046.verdict.gennaro",
+   "value": "Gennaro Russo"
+  },
+  {
+   "key": "case046.verdict.natural",
+   "value": "Kimse — kalp yetmezliği"
+  },
+  {
+   "key": "case046.verdict.pieter",
+   "value": "Pieter de Vries"
+  }
+ ]
+}

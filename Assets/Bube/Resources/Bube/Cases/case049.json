@@ -1,0 +1,429 @@
+{
+ "deskHour": 16,
+ "deskDate": "8 Ekim 2030",
+ "titleKey": "case049.title",
+ "nodes": [
+  {
+   "id": "report",
+   "kind": "document",
+   "titleKey": "case049.report.title",
+   "bodyKey": "case049.report.body",
+   "requires": [],
+   "fileMeta": [
+    {
+     "labelKey": "file.meta.number",
+     "valueKey": "case049.file.value.number"
+    },
+    {
+     "labelKey": "file.meta.location",
+     "valueKey": "case049.file.value.location"
+    },
+    {
+     "labelKey": "file.meta.bureau",
+     "valueKey": "case049.file.value.bureau"
+    },
+    {
+     "labelKey": "file.meta.offence",
+     "valueKey": "case049.file.value.offence"
+    },
+    {
+     "labelKey": "file.meta.reporter",
+     "valueKey": "case049.file.value.reporter"
+    }
+   ],
+   "notPresentable": true,
+   "notReportSource": true
+  },
+  {
+   "id": "bruno",
+   "kind": "interview",
+   "titleKey": "case049.bruno.title",
+   "bodyKey": "case049.bruno.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "bruno",
+   "personNameKey": "case049.person.bruno.name",
+   "personInfoKey": "case049.person.bruno.info",
+   "questions": [
+    {
+     "id": "case049.bruno.tray",
+     "promptKey": "case049.bruno.tray.question",
+     "answerKey": "case049.bruno.tray.answer",
+     "topicKey": "interview.topic.observations"
+    }
+   ],
+   "completionQuestionIds": [
+    "case049.bruno.tray"
+   ],
+   "deflectAnswerKey": "case049.bruno.deflect",
+   "portrait": {
+    "hairHex": "#1A1412",
+    "skinHex": "#E2BE9E",
+    "shirtHex": "#F2F2F2"
+   },
+   "closesAfterRead": [
+    "tox"
+   ],
+   "closedNoteKey": "case049.bruno.gone"
+  },
+  {
+   "id": "tox",
+   "kind": "document",
+   "titleKey": "case049.tox.title",
+   "bodyKey": "case049.tox.body",
+   "requires": [
+    "report"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case049.request.tox",
+   "requestDelaySeconds": 7
+  },
+  {
+   "id": "matteo",
+   "kind": "interview",
+   "titleKey": "case049.matteo.title",
+   "bodyKey": "case049.matteo.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "matteo",
+   "personNameKey": "case049.person.matteo.name",
+   "personInfoKey": "case049.person.matteo.info",
+   "questions": [
+    {
+     "id": "case049.matteo.found",
+     "promptKey": "case049.matteo.found.question",
+     "answerKey": "case049.matteo.found.answer",
+     "topicKey": "interview.topic.day"
+    },
+    {
+     "id": "case049.matteo.green",
+     "promptKey": "case049.matteo.green.question",
+     "answerKey": "case049.matteo.green.answer",
+     "topicKey": "interview.topic.explanation",
+     "requiresAsked": [
+      "case049.matteo.found"
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case049.matteo.found",
+    "case049.matteo.green"
+   ],
+   "deflectAnswerKey": "case049.matteo.deflect",
+   "portrait": {
+    "hairHex": "#3A2418",
+    "skinHex": "#DCB494",
+    "shirtHex": "#6A5A4A"
+   }
+  },
+  {
+   "id": "teresa",
+   "kind": "interview",
+   "titleKey": "case049.teresa.title",
+   "bodyKey": "case049.teresa.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "teresa",
+   "personNameKey": "case049.person.teresa.name",
+   "personInfoKey": "case049.person.teresa.info",
+   "questions": [
+    {
+     "id": "case049.teresa.papers",
+     "promptKey": "case049.teresa.papers.question",
+     "answerKey": "case049.teresa.papers.answer",
+     "topicKey": "interview.topic.records"
+    }
+   ],
+   "completionQuestionIds": [
+    "case049.teresa.papers"
+   ],
+   "deflectAnswerKey": "case049.teresa.deflect",
+   "portrait": {
+    "hairHex": "#2A1E18",
+    "skinHex": "#E0BC9C",
+    "shirtHex": "#4A5A3A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "vittoria",
+   "kind": "interview",
+   "titleKey": "case049.vittoria.title",
+   "bodyKey": "case049.vittoria.body",
+   "requires": [
+    "report"
+   ],
+   "personId": "vittoria",
+   "personNameKey": "case049.person.vittoria.name",
+   "personInfoKey": "case049.person.vittoria.info",
+   "questions": [
+    {
+     "id": "case049.vittoria.visit",
+     "promptKey": "case049.vittoria.visit.question",
+     "answerKey": "case049.vittoria.visit.answer",
+     "topicKey": "interview.topic.day",
+     "answerVariants": [
+      {
+       "answerKey": "case049.vittoria.visit.variant0",
+       "requiresRead": [
+        "bruno"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "case049.vittoria.end",
+     "promptKey": "case049.vittoria.end.question",
+     "answerKey": "case049.vittoria.end.answer",
+     "topicKey": "interview.topic.explanation",
+     "presentedSourceIds": [
+      "shop",
+      "export"
+     ],
+     "presentedAnswers": [
+      {
+       "sourceId": "export",
+       "answerKey": "case049.vittoria.end.presented.export"
+      },
+      {
+       "sourceId": "shop",
+       "answerKey": "case049.vittoria.end.presented.shop"
+      }
+     ]
+    }
+   ],
+   "completionQuestionIds": [
+    "case049.vittoria.visit"
+   ],
+   "deflectAnswerKey": "case049.vittoria.deflect",
+   "portrait": {
+    "hairHex": "#C8C0B4",
+    "skinHex": "#EED2BC",
+    "shirtHex": "#3A2A4A",
+    "longHair": true
+   }
+  },
+  {
+   "id": "export",
+   "kind": "document",
+   "titleKey": "case049.export.title",
+   "bodyKey": "case049.export.body",
+   "requires": [
+    "teresa"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case049.request.export",
+   "requestDelaySeconds": 6
+  },
+  {
+   "id": "shop",
+   "kind": "document",
+   "titleKey": "case049.shop.title",
+   "bodyKey": "case049.shop.body",
+   "requires": [
+    "tox",
+    "matteo"
+   ],
+   "requestable": true,
+   "requestLabelKey": "case049.request.shop",
+   "requestDelaySeconds": 6,
+   "warrant": [
+    {
+     "sources": [
+      "tox",
+      "matteo"
+     ]
+    },
+    {
+     "sources": [
+      "tox",
+      "teresa"
+     ]
+    },
+    {
+     "sources": [
+      "matteo",
+      "export"
+     ]
+    }
+   ],
+   "warrantSlots": 2
+  }
+ ],
+ "timelineClues": [
+  {
+   "id": "arrive",
+   "timeKey": "case049.time.arrive",
+   "noteKey": "case049.clue.arrive",
+   "sourceKey": "case049.clue.source.vittoria",
+   "requiresRead": [
+    "vittoria"
+   ],
+   "sortMinute": 0
+  },
+  {
+   "id": "coffee",
+   "timeKey": "case049.time.coffee",
+   "noteKey": "case049.clue.coffee",
+   "sourceKey": "case049.clue.source.bruno",
+   "requiresRead": [
+    "bruno"
+   ],
+   "sortMinute": 120
+  },
+  {
+   "id": "leave",
+   "timeKey": "case049.time.leave",
+   "noteKey": "case049.clue.leave",
+   "sourceKey": "case049.clue.source.vittoria",
+   "requiresRead": [
+    "vittoria"
+   ],
+   "sortMinute": 240
+  },
+  {
+   "id": "lunch",
+   "timeKey": "case049.time.lunch",
+   "noteKey": "case049.clue.lunch",
+   "sourceKey": "case049.clue.source.matteo",
+   "requiresRead": [
+    "matteo"
+   ],
+   "sortMinute": 360
+  },
+  {
+   "id": "found",
+   "timeKey": "case049.time.found",
+   "noteKey": "case049.clue.found",
+   "sourceKey": "case049.clue.source.report",
+   "requiresRead": [
+    "report"
+   ],
+   "sortMinute": 480
+  }
+ ],
+ "verdicts": [
+  {
+   "id": "vittoria",
+   "labelKey": "case049.verdict.vittoria",
+   "correct": true,
+   "feedbackKey": "case049.feedback.vittoria",
+   "requires": [],
+   "epilogueKey": "case049.epilogue.verdict.vittoria",
+   "supportingSourceIds": [
+    "shop",
+    "export",
+    "matteo"
+   ]
+  },
+  {
+   "id": "matteo",
+   "labelKey": "case049.verdict.matteo",
+   "correct": false,
+   "feedbackKey": "case049.feedback.matteo",
+   "requires": [],
+   "epilogueKey": "case049.epilogue.verdict.matteo"
+  },
+  {
+   "id": "teresa",
+   "labelKey": "case049.verdict.teresa",
+   "correct": false,
+   "feedbackKey": "case049.feedback.teresa",
+   "requires": [],
+   "epilogueKey": "case049.epilogue.verdict.teresa"
+  },
+  {
+   "id": "natural",
+   "labelKey": "case049.verdict.natural",
+   "correct": false,
+   "feedbackKey": "case049.feedback.natural",
+   "requires": [],
+   "epilogueKey": "case049.epilogue.verdict.natural"
+  }
+ ],
+ "methods": [
+  {
+   "id": "arsenic",
+   "labelKey": "case049.method.arsenic",
+   "correct": true,
+   "supportingSourceIds": [
+    "tox",
+    "shop"
+   ]
+  },
+  {
+   "id": "heart",
+   "labelKey": "case049.method.heart",
+   "correct": false
+  },
+  {
+   "id": "fumes",
+   "labelKey": "case049.method.fumes",
+   "correct": false
+  }
+ ],
+ "custody": [
+  {
+   "id": "bag",
+   "labelKey": "case049.custody.bag",
+   "correct": true,
+   "epilogueKey": "case049.epilogue.custody.bag",
+   "supportingSourceIds": [
+    "shop",
+    "export"
+   ]
+  },
+  {
+   "id": "posted",
+   "labelKey": "case049.custody.posted",
+   "correct": false,
+   "epilogueKey": "case049.epilogue.custody.posted"
+  },
+  {
+   "id": "burnt",
+   "labelKey": "case049.custody.burnt",
+   "correct": false,
+   "epilogueKey": "case049.epilogue.custody.burnt"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "shop",
+   "labelKey": "case049.evidence.shop",
+   "correct": true,
+   "supportingSourceIds": [
+    "shop"
+   ]
+  },
+  {
+   "id": "tox",
+   "labelKey": "case049.evidence.tox",
+   "correct": false
+  },
+  {
+   "id": "export",
+   "labelKey": "case049.evidence.export",
+   "correct": false
+  }
+ ],
+ "conclusionRequires": [
+  "report"
+ ],
+ "suspectLabelKey": "case049.suspect.label",
+ "methodLabelKey": "case049.method.label",
+ "custodyLabelKey": "case049.custody.label",
+ "summary": {
+  "locationKey": "case049.summary.location",
+  "truthKey": "case049.summary.truth",
+  "evidenceKey": "case049.summary.evidence",
+  "lessonKey": "case049.summary.lesson"
+ },
+ "successfulReportTrustGain": 8,
+ "failedReportTrustLoss": 15,
+ "nextCaseId": "case050",
+ "ambienceId": "room_night",
+ "id": "case049"
+}

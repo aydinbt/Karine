@@ -1,0 +1,480 @@
+{
+ "entries": [
+  {
+   "key": "case050.amedeo.body",
+   "value": "İp ustası."
+  },
+  {
+   "key": "case050.amedeo.deflect",
+   "value": "Otuz beş yıl, bir ip bile koparmadım."
+  },
+  {
+   "key": "case050.amedeo.title",
+   "value": "Amedeo Pace — görüşme"
+  },
+  {
+   "key": "case050.amedeo.where.answer",
+   "value": "Arka kapıda. Nicola kulaklıktan ‘Amedeo, arka kapı, kamyon geldi, hemen’ dedi. Gittim, kamyon yoktu. Döndüğümde Aurelio yerdeydi. 14 numara ikinci perdede kullanılmaz, ben pimini kendi elimle takarım, her akşam."
+  },
+  {
+   "key": "case050.amedeo.where.answer.demeanor",
+   "value": "Eldivenlerini kemerinden çıkarıp geri takıyor."
+  },
+  {
+   "key": "case050.amedeo.where.question",
+   "value": "Torba düştüğünde neredeydiniz?"
+  },
+  {
+   "key": "case050.chiara.body",
+   "value": "Kostüm tasarımcısı."
+  },
+  {
+   "key": "case050.chiara.crate.answer",
+   "value": "Tokyo turnesinden dönen dekor sandıkları. Ben kostümleri çıkarırken Aurelio bir sandığın dibine vurdu, boş ses verdi. ‘Chiara, bunun iki dibi var’ dedi. Nicola geldi, ‘dokunmayın, gümrük mührü var’ dedi. Ertesi gün o sandık yoktu."
+  },
+  {
+   "key": "case050.chiara.crate.answer.demeanor",
+   "value": "Boynundaki mezurayı çekiştiriyor."
+  },
+  {
+   "key": "case050.chiara.crate.question",
+   "value": "Aurelio son günlerde neyle uğraşıyordu?"
+  },
+  {
+   "key": "case050.chiara.deflect",
+   "value": "Ben kumaşla ilgilenirim."
+  },
+  {
+   "key": "case050.chiara.title",
+   "value": "Chiara Fontana — görüşme"
+  },
+  {
+   "key": "case050.clue.back",
+   "value": "İp ustası geri dönüyor; bariton yerde."
+  },
+  {
+   "key": "case050.clue.door",
+   "value": "İp ustası arka kapıda; kamyon yok."
+  },
+  {
+   "key": "case050.clue.drop",
+   "value": "14 numaralı hattın kum torbası sahneye iniyor."
+  },
+  {
+   "key": "case050.clue.send",
+   "value": "Sahne amiri ip ustasını ‘kamyon için’ arka kapıya gönderiyor."
+  },
+  {
+   "key": "case050.clue.source.amedeo",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.clue.source.cues",
+   "value": "Kulaklık kaydı"
+  },
+  {
+   "key": "case050.clue.source.pasquale",
+   "value": "Pasquale Vitale"
+  },
+  {
+   "key": "case050.clue.source.rigging",
+   "value": "Askı incelemesi"
+  },
+  {
+   "key": "case050.cues.body",
+   "value": "· Sahne amirinin replik defteri, ikinci perde: ‘LX 47 — git’ ile ‘LX 48’ arasında bir satır silgiyle silinmiş; silginin altında kurşun kalem izi: ‘14’.\n· Kulaklık sisteminin kaydı: 20.41 Nicola Costa: ‘Amedeo, arka kapı, kamyon geldi, hemen.’ 20.42: kanal sessiz. 20.43: düşüş sesi.\n· Kapıcının defterinde akşam hiçbir kamyon kaydı yok."
+  },
+  {
+   "key": "case050.cues.title",
+   "value": "REPLİK DEFTERİ VE KULAKLIK KAYDI"
+  },
+  {
+   "key": "case050.custody.drawer",
+   "value": "Sahne amiri masasının çekmecesine"
+  },
+  {
+   "key": "case050.custody.floor",
+   "value": "Sahneye düştü"
+  },
+  {
+   "key": "case050.custody.label",
+   "value": "14 numaralı hattın güvenlik pimi nereye gitti?"
+  },
+  {
+   "key": "case050.custody.never",
+   "value": "Hiç takılmamıştı"
+  },
+  {
+   "key": "case050.desk.body",
+   "value": "Nicola Costa’nın sahne amiri masası ve dolabı (şube şefinin onayıyla):\n\n· Masanın çekmecesinde, kalemlerin altında 14 numaralı hattın güvenlik pimi; halkasında fosforlu bant ve ince bir deri eldivenin lifleri.\n· Dolapta ince siyah deri eldivenler; avuçlarında halatın kenevir lifleri.\n· Bir zarf içinde Caruso Marittima’nın Tokyo turnesi sandık listesi; üç sandığın yanında Nicola Costa’nın el yazısıyla ‘doppio’."
+  },
+  {
+   "key": "case050.desk.title",
+   "value": "SAHNE AMİRİ MASASI — ARAMA"
+  },
+  {
+   "key": "case050.epilogue.custody.drawer",
+   "value": "Güvenlik piminin Nicola Costa’nın masasının çekmecesinde bulunduğu yazıldı."
+  },
+  {
+   "key": "case050.epilogue.custody.floor",
+   "value": "Pim sahnede değildi."
+  },
+  {
+   "key": "case050.epilogue.custody.never",
+   "value": "İp ustası pimi her akşam taktığını söyledi ve pim çekmecede bulundu."
+  },
+  {
+   "key": "case050.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; ip ustası emekliye ayrıldı."
+  },
+  {
+   "key": "case050.epilogue.verdict.amedeo",
+   "value": "Amedeo Pace tutuklandı ve otuz beş yılın ardından tiyatrodan atıldı; çekmece hiç açılmadı."
+  },
+  {
+   "key": "case050.epilogue.verdict.nicola",
+   "value": "Nicola Costa tutuklandı. Caruso Marittima’nın çift dipli turne sandıkları Tokyo şubesine bildirildi."
+  },
+  {
+   "key": "case050.epilogue.verdict.sofia",
+   "value": "Sofia Marchetti tutuklandı; turne sandıkları limana döndü."
+  },
+  {
+   "key": "case050.evidence.cues",
+   "value": "Replik defteri ve kulaklık kaydı"
+  },
+  {
+   "key": "case050.evidence.desk",
+   "value": "Sahne amiri masası araması"
+  },
+  {
+   "key": "case050.evidence.rigging",
+   "value": "Askı sistemi incelemesi"
+  },
+  {
+   "key": "case050.feedback.accident",
+   "value": "Pim unutulmamıştı; sahne amiri masasının çekmecesinde bulundu."
+  },
+  {
+   "key": "case050.feedback.amedeo",
+   "value": "İp ustası düşüş anında arka kapıdaydı; kapıcı onu orada gördü."
+  },
+  {
+   "key": "case050.feedback.nicola",
+   "value": "14 numaralı hattın pimi onun masasının çekmecesinden çıktı; replik defterindeki silinmiş satırın altında ‘14’ yazıyor. Olaydan iki dakika önce ip ustasını var olmayan bir kamyon için uzaklaştırdı."
+  },
+  {
+   "key": "case050.feedback.sofia",
+   "value": "Soprano düşüş anında sahnede, kurbanın karşısındaydı."
+  },
+  {
+   "key": "case050.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case050.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case050.file.value.location",
+   "value": "Teatro Partenope, Napoli"
+  },
+  {
+   "key": "case050.file.value.number",
+   "value": "BDN-NAP-2030-0331"
+  },
+  {
+   "key": "case050.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case050.file.value.reporter",
+   "value": "Tiyatro yönetimi"
+  },
+  {
+   "key": "case050.kenji.body",
+   "value": "Misafir şef."
+  },
+  {
+   "key": "case050.kenji.deflect",
+   "value": "Ben orkestra çukurundaydım, yalnız müziği dinliyordum."
+  },
+  {
+   "key": "case050.kenji.gone",
+   "value": "Kenji Arai sabah uçağıyla Tokyo’ya döndü; ajansı ‘şef bir süre röportaj vermeyecek’ diyor."
+  },
+  {
+   "key": "case050.kenji.pit.answer",
+   "value": "Sahnenin sağ kanadını görürüm, ip ustasının yeri orası. İkinci perdenin başında ip ustası yoktu; sahne amiri onu bir dakika önce arka sahneye göndermişti, kulaklıkla, ben duydum: ‘Amedeo, arka kapı, hemen.’ Sonra torba düştü. Yarın sabah Tokyo’ya uçuyorum."
+  },
+  {
+   "key": "case050.kenji.pit.answer.demeanor",
+   "value": "Gözlüğünü burnunda yukarı itiyor."
+  },
+  {
+   "key": "case050.kenji.pit.question",
+   "value": "Çukurdan ne gördünüz?"
+  },
+  {
+   "key": "case050.kenji.title",
+   "value": "Kenji Arai — görüşme"
+  },
+  {
+   "key": "case050.method.forgot",
+   "value": "İp ustası pimi unuttu"
+  },
+  {
+   "key": "case050.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case050.method.sandbag",
+   "value": "Güvenlik pimi çekilip kum torbası üstüne bırakıldı"
+  },
+  {
+   "key": "case050.method.snap",
+   "value": "Halat kendiliğinden koptu"
+  },
+  {
+   "key": "case050.nicola.body",
+   "value": "Sahne amiri."
+  },
+  {
+   "key": "case050.nicola.deflect",
+   "value": "Sahnede ne olursa olsun, perde zamanında açılır."
+  },
+  {
+   "key": "case050.nicola.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case050.nicola.end.presented.cues",
+   "value": "Silinmiş bir satır mı? Defterimde her gün yüz satır silinir."
+  },
+  {
+   "key": "case050.nicola.end.presented.desk",
+   "value": "Aurelio sandığı açacaktı. Sandıkların içinde ne olduğunu sormayın; ben yalnızca hangi sandığın hangi kamyona bineceğini söylerdim, Caruso’ların adamı da teşekkür ederdi. Amedeo’yu uzaklaştırdım, eldivenimi taktım, pimi çektim, kilidi bıraktım. Pimi masamın çekmecesine koydum. Perde zamanında açılsın diye her şeyi yazarım; onu da yazdım, sonra sildim."
+  },
+  {
+   "key": "case050.nicola.end.question",
+   "value": "14’ün pimini siz çektiniz."
+  },
+  {
+   "key": "case050.nicola.night.answer",
+   "value": "Sahne amiri masasında, her zamanki yerimde. Amedeo 14’ün pimini takmayı unutmuş; yaşlandı, kaç kez uyardım."
+  },
+  {
+   "key": "case050.nicola.night.answer.demeanor",
+   "value": "Kulaklığı boynunda düzeltiyor."
+  },
+  {
+   "key": "case050.nicola.night.question",
+   "value": "Torba düştüğünde neredeydiniz?"
+  },
+  {
+   "key": "case050.nicola.night.variant0",
+   "value": "Amedeo’yu arka kapıya bir kamyon için gönderdim; yanlış haber almışım. Masamdan kalkmadım."
+  },
+  {
+   "key": "case050.nicola.title",
+   "value": "Nicola Costa — görüşme"
+  },
+  {
+   "key": "case050.offer.subtitle",
+   "value": "SİPARİO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case050.offer.summary",
+   "value": "Teatro Partenope’de genel provada bir baritonun üstüne kum torbası düştü. İp ustası ipin kendi elinde olmadığını söylüyor."
+  },
+  {
+   "key": "case050.offer.title",
+   "value": "DOSYA #050"
+  },
+  {
+   "key": "case050.pasquale.body",
+   "value": "Kapıcı."
+  },
+  {
+   "key": "case050.pasquale.deflect",
+   "value": "Kapıdan giren benim defterime girer."
+  },
+  {
+   "key": "case050.pasquale.title",
+   "value": "Pasquale Vitale — görüşme"
+  },
+  {
+   "key": "case050.pasquale.truck.answer",
+   "value": "Hayır, akşam kamyon gelmez, defterimde yok. Amedeo koşarak geldi, ‘Kamyon nerede?’ dedi. ‘Ne kamyonu?’ dedim. Bir dakika bile durmadı, geri koştu."
+  },
+  {
+   "key": "case050.pasquale.truck.answer.demeanor",
+   "value": "Defterinin kenarını parmağıyla düzeltiyor."
+  },
+  {
+   "key": "case050.pasquale.truck.question",
+   "value": "Prova sırasında arka kapıya kamyon geldi mi?"
+  },
+  {
+   "key": "case050.person.amedeo.info",
+   "value": "61 yaşında, ip ve askı sisteminden sorumlu sahne işçisi."
+  },
+  {
+   "key": "case050.person.amedeo.name",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.person.chiara.info",
+   "value": "42 yaşında, kostüm tasarımcısı."
+  },
+  {
+   "key": "case050.person.chiara.name",
+   "value": "Chiara Fontana"
+  },
+  {
+   "key": "case050.person.kenji.info",
+   "value": "45 yaşında, misafir Japon şef."
+  },
+  {
+   "key": "case050.person.kenji.name",
+   "value": "Kenji Arai"
+  },
+  {
+   "key": "case050.person.nicola.info",
+   "value": "49 yaşında, Teatro Partenope’nin sahne amiri."
+  },
+  {
+   "key": "case050.person.nicola.name",
+   "value": "Nicola Costa"
+  },
+  {
+   "key": "case050.person.pasquale.info",
+   "value": "70 yaşında, sahne kapısının kapıcısı."
+  },
+  {
+   "key": "case050.person.pasquale.name",
+   "value": "Pasquale Vitale"
+  },
+  {
+   "key": "case050.person.sofia.info",
+   "value": "35 yaşında, soprano; kurbanın eski sevgilisi."
+  },
+  {
+   "key": "case050.person.sofia.name",
+   "value": "Sofia Marchetti"
+  },
+  {
+   "key": "case050.report.body",
+   "value": "9 Ekim 2030 akşamı Teatro Partenope’de ‘Tosca’ genel provası sırasında bariton Aurelio Mancini (54), tavandaki askı sisteminden düşen yirmi beş kiloluk bir kum torbasının altında kalarak öldü.\n\nProvada sahnede ve kulislerde bulunanlar: sahne amiri Nicola Costa, ip ustası Amedeo Pace, soprano Sofia Marchetti, kostüm tasarımcısı Chiara Fontana. Orkestrayı misafir şef Kenji Arai yönetiyordu. Sahne kapısında kapıcı Pasquale Vitale vardı."
+  },
+  {
+   "key": "case050.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case050.request.cues",
+   "value": "Replik defterini ve kulaklık kaydını iste"
+  },
+  {
+   "key": "case050.request.desk",
+   "value": "Sahne amiri masasını aramak için izin iste"
+  },
+  {
+   "key": "case050.request.rigging",
+   "value": "Askı sisteminin incelenmesini iste"
+  },
+  {
+   "key": "case050.rigging.body",
+   "value": "· 14 numaralı halat hattının kilidi açık; güvenlik pimi yerinde yok.\n· Pim olmadan kilit, halatın üstüne tek bir el darbesiyle bırakılabilir; kum torbası yaklaşık iki saniyede sahneye iner.\n· 14 numaralı hat ikinci perdede hiç kullanılmaz; o perdede sahnenin ortasında yalnız bariton durur.\n· Halatta ip ustasının değil, ince bir eldivenin izleri."
+  },
+  {
+   "key": "case050.rigging.title",
+   "value": "ASKI SİSTEMİ İNCELEMESİ"
+  },
+  {
+   "key": "case050.sofia.body",
+   "value": "Soprano."
+  },
+  {
+   "key": "case050.sofia.deflect",
+   "value": "Ben sesimi korurum, gerisi beni ilgilendirmez."
+  },
+  {
+   "key": "case050.sofia.fight.answer",
+   "value": "Bir yıl önce bitti. Herkes kavgamızı bilir, çünkü ben kavgalarımı sahnede bile saklamam. Ama ben o anda onun karşısında, sahnedeydim. Torba düşseydi bana da düşebilirdi. Kim olursa olsun, beni de öldürebilirdi."
+  },
+  {
+   "key": "case050.sofia.fight.answer.demeanor",
+   "value": "Pelerinini omzunda topluyor."
+  },
+  {
+   "key": "case050.sofia.fight.question",
+   "value": "Aurelio’yla aranızda ne vardı?"
+  },
+  {
+   "key": "case050.sofia.title",
+   "value": "Sofia Marchetti — görüşme"
+  },
+  {
+   "key": "case050.summary.evidence",
+   "value": "Şef kulaklıktaki emri duydu ama askı incelemesinden önce konuşulmazsa Tokyo’ya döndü. Kapıcı kamyon olmadığını, kostümcü çift dipli sandığı anlattı. Replik defterinin silinmiş satırı ve kulaklık kaydı gerekçeli aramayı açtı; pim çekmecedeydi."
+  },
+  {
+   "key": "case050.summary.lesson",
+   "value": "Perde zamanında açıldı. Her şey yazılıydı; yalnız bir satır silinmişti."
+  },
+  {
+   "key": "case050.summary.location",
+   "value": "Teatro Partenope — Ekim 2030"
+  },
+  {
+   "key": "case050.summary.truth",
+   "value": "Sahne amiri Nicola Costa, tiyatronun turne dekorlarını taşıyan Caruso Marittima sandıklarının hangilerinin çift dipli olduğunu biliyordu. Bariton Aurelio Mancini bir sandığı açmaya karar verince Costa genel provada ip ustasını sahte bir kamyon haberiyle arka kapıya gönderdi, eldivenini taktı, 14 numaralı hattın pimini çekti ve kilidi bıraktı."
+  },
+  {
+   "key": "case050.suspect.label",
+   "value": "Aurelio Mancini’yi kim öldürdü?"
+  },
+  {
+   "key": "case050.tablet.caseLine",
+   "value": "DOSYA #050  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case050.time.back",
+   "value": "20.44"
+  },
+  {
+   "key": "case050.time.door",
+   "value": "20.42"
+  },
+  {
+   "key": "case050.time.drop",
+   "value": "20.43"
+  },
+  {
+   "key": "case050.time.send",
+   "value": "20.41"
+  },
+  {
+   "key": "case050.title",
+   "value": "Dosya #050 — Sipario"
+  },
+  {
+   "key": "case050.verdict.accident",
+   "value": "Kimse — pim unutuldu"
+  },
+  {
+   "key": "case050.verdict.amedeo",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.verdict.nicola",
+   "value": "Nicola Costa"
+  },
+  {
+   "key": "case050.verdict.sofia",
+   "value": "Sofia Marchetti"
+  }
+ ]
+}

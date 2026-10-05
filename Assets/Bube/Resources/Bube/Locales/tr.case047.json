@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case047.autopsy.body",
+   "value": "· Ölüm nedeni: hipotermi. Dizlerde ve ellerde soğuk yanıkları; parmak uçlarında metalle sürtünme izleri.\n· Ensede, kafatasında küçük bir şişlik: düşme ya da hafif bir darbe; bilinç kaybettirecek kadar değil.\n· Ölüm zamanı: 01.00–03.00."
+  },
+  {
+   "key": "case047.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case047.car.body",
+   "value": "Enzo Ferraro’nun arabası (şube şefinin onayıyla):\n\n· Torpidoda sökülmüş krom soğuk oda iç kolu, iki vida ve bir düz tornavida; kolda un ve kurbanın parmak izi.\n· Bagajda kurbanın önlüğü.\n· Telefonunda 6 Ekim 00.04, ‘R.’ kaydına giden mesaj: ‘Bitti. Un pazartesi gelsin.’"
+  },
+  {
+   "key": "case047.car.title",
+   "value": "ENZO FERRARO’NUN ARABASI — ARAMA"
+  },
+  {
+   "key": "case047.cctv.event.half",
+   "value": "Kamera: Beyaz mutfak ceketli iri bir adam kepengi dışarıdan yarıya indiriyor, altından içeri giriyor."
+  },
+  {
+   "key": "case047.cctv.event.out",
+   "value": "Kamera: Aynı adam kepengin altından yalnız çıkıyor, kepengi tam indirip kilitliyor, sokağa bakıyor."
+  },
+  {
+   "key": "case047.cctv.event.watch",
+   "value": "Kamera: Omzunda şemsiyelerle zayıf genç bir adam karşıda durup kapalı kepenge bakıyor."
+  },
+  {
+   "key": "case047.cctv.overlay",
+   "value": "VICO-07"
+  },
+  {
+   "key": "case047.cctv.period",
+   "value": "5–6 Ekim 2030"
+  },
+  {
+   "key": "case047.cctv.source",
+   "value": "Sokak kamerası"
+  },
+  {
+   "key": "case047.clue.argue",
+   "value": "Ortaklar kasa defteri yüzünden tartışıyor."
+  },
+  {
+   "key": "case047.clue.found",
+   "value": "Ortak kepengi açıp cesedi buluyor."
+  },
+  {
+   "key": "case047.clue.half",
+   "value": "Önlüklü iri adam kepengi yarıya indirip içeri giriyor."
+  },
+  {
+   "key": "case047.clue.msg",
+   "value": "‘Bitti. Un pazartesi gelsin.’"
+  },
+  {
+   "key": "case047.clue.out",
+   "value": "Aynı adam yalnız çıkıp kepengi kilitliyor."
+  },
+  {
+   "key": "case047.clue.source.car",
+   "value": "Araba araması"
+  },
+  {
+   "key": "case047.clue.source.lucia",
+   "value": "Lucia Bianco"
+  },
+  {
+   "key": "case047.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case047.coldroom.body",
+   "value": "· İç güvenlik kolu sökülmüş; iki vida deliği yeni, kenarlarında un.\n· Termostat gece -18’e çevrilmiş; normal ayarı +2. Kadranda unlu parmak izleri.\n· Kapının iç yüzünde tırnak çizikleri. Kurbanın yanında yere düşmüş bir telefon; şebeke yok."
+  },
+  {
+   "key": "case047.coldroom.title",
+   "value": "SOĞUK ODA İNCELEMESİ"
+  },
+  {
+   "key": "case047.custody.broken",
+   "value": "Kol zaten kırıktı"
+  },
+  {
+   "key": "case047.custody.glovebox",
+   "value": "Katilin arabasının torpidosuna"
+  },
+  {
+   "key": "case047.custody.label",
+   "value": "Soğuk odanın iç kolu nereye gitti?"
+  },
+  {
+   "key": "case047.custody.sea",
+   "value": "Denize atıldı"
+  },
+  {
+   "key": "case047.enzo.body",
+   "value": "Ortak."
+  },
+  {
+   "key": "case047.enzo.deflect",
+   "value": "Fırın benim de fırınım, bunu unutmayın."
+  },
+  {
+   "key": "case047.enzo.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case047.enzo.end.presented.car",
+   "value": "Ensesine bir tane vurdum, sadece düştü. Soğuk odaya taşıdım, kolu söktüm, termostatı çevirdim. Sabah ben bulacaktım, kalp derdik. Rocco ‘Ciro gitmezse sen gidersin’ dedi. Kolu atamadım. Kızkardeşimin kocasıydı."
+  },
+  {
+   "key": "case047.enzo.end.presented.ledger",
+   "value": "Borç, evet. Rocco’ya. Ciro ödemeyi reddetti, unu reddetti, beni reddetti."
+  },
+  {
+   "key": "case047.enzo.end.question",
+   "value": "Kolu siz söktünüz."
+  },
+  {
+   "key": "case047.enzo.night.answer",
+   "value": "23.30’da, Lucia’yla birlikte. Ciro içerideydi, ‘ben kapatırım’ dedi. Her gece öyle yapardı."
+  },
+  {
+   "key": "case047.enzo.night.answer.demeanor",
+   "value": "Unlu kollarını göğsünde kavuşturuyor."
+  },
+  {
+   "key": "case047.enzo.night.question",
+   "value": "Dün gece dükkândan ne zaman çıktınız?"
+  },
+  {
+   "key": "case047.enzo.night.variant0",
+   "value": "Kepengi ben indirdim, Ciro içerideydi, kendisi kapatsın diye yarıya bıraktım. Sonra… kilitlediğimi hatırlamıyorum."
+  },
+  {
+   "key": "case047.enzo.title",
+   "value": "Enzo Ferraro — görüşme"
+  },
+  {
+   "key": "case047.epilogue.custody.broken",
+   "value": "Vida delikleri yeniydi ve kenarlarında un vardı."
+  },
+  {
+   "key": "case047.epilogue.custody.glovebox",
+   "value": "İç kolun Enzo Ferraro’nun torpidosunda bulunduğu yazıldı."
+  },
+  {
+   "key": "case047.epilogue.custody.sea",
+   "value": "Kol atılmamıştı."
+  },
+  {
+   "key": "case047.epilogue.verdict.accident",
+   "value": "Ölüm kaza sayıldı; dükkân bir ay sonra Caruso ununa geçti."
+  },
+  {
+   "key": "case047.epilogue.verdict.enzo",
+   "value": "Enzo Ferraro tutuklandı. ‘Un pazartesi gelsin’ mesajı ve Caruso un sevkiyatları dosyaya eklendi."
+  },
+  {
+   "key": "case047.epilogue.verdict.rocco",
+   "value": "Rocco Greco gözaltına alındı ve iki gün sonra serbest kaldı; un pazartesi geldi."
+  },
+  {
+   "key": "case047.epilogue.verdict.rosaria",
+   "value": "Rosaria Amato tutuklandı; kardeşi dükkânı devraldı."
+  },
+  {
+   "key": "case047.evidence.car",
+   "value": "Araba araması"
+  },
+  {
+   "key": "case047.evidence.coldroom",
+   "value": "Soğuk oda incelemesi"
+  },
+  {
+   "key": "case047.evidence.ledger",
+   "value": "Kasa defteri"
+  },
+  {
+   "key": "case047.evidence.street",
+   "value": "Sokak kamerası"
+  },
+  {
+   "key": "case047.feedback.accident",
+   "value": "İç kol sökülmüştü ve termostat elle -18’e çevrilmişti."
+  },
+  {
+   "key": "case047.feedback.enzo",
+   "value": "Arabasının torpidosunda soğuk odanın iç kolu ve vidalar var; sokak kamerası onu kepengi indirip yalnız çıkarken gösteriyor. Kasa defterinde tahsildara 12.000 euro borcu yazıyor."
+  },
+  {
+   "key": "case047.feedback.rocco",
+   "value": "Tahsildar o gece Ischia’da bir düğündeydi; sokak kamerası kepengi başka birinin kapattığını gösteriyor."
+  },
+  {
+   "key": "case047.feedback.rosaria",
+   "value": "Dul o gece evdeydi ve kocasını arıyordu; dükkâna gelmedi."
+  },
+  {
+   "key": "case047.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case047.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case047.file.value.location",
+   "value": "Forcella, Napoli — pizzacı"
+  },
+  {
+   "key": "case047.file.value.number",
+   "value": "BDN-NAP-2030-0318"
+  },
+  {
+   "key": "case047.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case047.file.value.reporter",
+   "value": "Ortak"
+  },
+  {
+   "key": "case047.ledger.body",
+   "value": "Kasanın altında bulunan, Ciro Amato’nun el yazısıyla tutulmuş defter:\n\n· Son üç ayda kasadan ‘E.’ diye işaretli on bir çekiş, toplam 9.400 euro.\n· Son sayfada: ‘Enzo — Rocco’ya borç 12.000. Un Caruso’dan gelirse silinir. ASLA.’ Altında kalın bir çizgi."
+  },
+  {
+   "key": "case047.ledger.title",
+   "value": "KASA DEFTERİ"
+  },
+  {
+   "key": "case047.lucia.body",
+   "value": "Garson."
+  },
+  {
+   "key": "case047.lucia.close.answer",
+   "value": "23.30’da. Ciro mutfakta hamuru yarına hazırlıyordu. Enzo da oradaydı, ikisi kasadaki defter yüzünden tartışıyordu. Enzo ‘Rocco’yla konuşursak her şey biter’ dedi, Ciro ‘O unu bir daha dükkânıma sokmam’ dedi. Ben çıktım."
+  },
+  {
+   "key": "case047.lucia.close.answer.demeanor",
+   "value": "Önlüğünün ipini parmağına doluyor."
+  },
+  {
+   "key": "case047.lucia.close.question",
+   "value": "Dün gece dükkândan ne zaman çıktınız?"
+  },
+  {
+   "key": "case047.lucia.deflect",
+   "value": "Ben masalara bakarım."
+  },
+  {
+   "key": "case047.lucia.title",
+   "value": "Lucia Bianco — görüşme"
+  },
+  {
+   "key": "case047.method.cold",
+   "value": "Kolu sökülmüş soğuk odaya kapatıldı"
+  },
+  {
+   "key": "case047.method.heart",
+   "value": "Kalp krizi"
+  },
+  {
+   "key": "case047.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case047.method.trapped",
+   "value": "Kapı kazara kapandı"
+  },
+  {
+   "key": "case047.moussa.body",
+   "value": "Seyyar satıcı."
+  },
+  {
+   "key": "case047.moussa.deflect",
+   "value": "Ben kapının önündeyim, içeriyi bilmem."
+  },
+  {
+   "key": "case047.moussa.gone",
+   "value": "Moussa Diop sabah trenle Milano’ya, mevsimlik işe gitti. Numarası kapalı."
+  },
+  {
+   "key": "case047.moussa.night.answer",
+   "value": "Ciro her gece kendisi kapatır, şarkı söyleyerek. Dün gece şarkı yoktu. Önlüklü, iri biri kepengi yarıya indirdi, içeri girdi, on dakika sonra yalnız çıktı, kilitledi. Ciro çıkmadı. Ben Ciro’nun çıkmasını beklerim çünkü bana her gece bir dilim verir. Dün vermedi."
+  },
+  {
+   "key": "case047.moussa.night.answer.demeanor",
+   "value": "Şemsiyeleri omzunda düzeltiyor."
+  },
+  {
+   "key": "case047.moussa.night.question",
+   "value": "Gece kepengi kim kapattı?"
+  },
+  {
+   "key": "case047.moussa.rocco.answer",
+   "value": "Gümüş yüzüklü adam. Geçen ay geldi, Ciro onu kapıdan çevirdi, herkes gördü. Ama dün gece o adam yoktu. Ben bu sokağı bilirim, o adam gelse bilirim."
+  },
+  {
+   "key": "case047.moussa.rocco.question",
+   "value": "Mahallede Ciro’yla kimin derdi vardı?"
+  },
+  {
+   "key": "case047.moussa.title",
+   "value": "Moussa Diop — görüşme"
+  },
+  {
+   "key": "case047.offer.subtitle",
+   "value": "FORNO  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case047.offer.summary",
+   "value": "Forcella’da yüz yıllık bir pizzacının ustası soğuk odada donmuş halde bulundu. İç kol yerinde yok."
+  },
+  {
+   "key": "case047.offer.title",
+   "value": "DOSYA #047"
+  },
+  {
+   "key": "case047.person.enzo.info",
+   "value": "44 yaşında, pizzacının ortağı ve kayınbiraderi."
+  },
+  {
+   "key": "case047.person.enzo.name",
+   "value": "Enzo Ferraro"
+  },
+  {
+   "key": "case047.person.lucia.info",
+   "value": "23 yaşında, garson."
+  },
+  {
+   "key": "case047.person.lucia.name",
+   "value": "Lucia Bianco"
+  },
+  {
+   "key": "case047.person.moussa.info",
+   "value": "29 yaşında, pizzacının önünde çakmak ve şemsiye satan Senegalli seyyar satıcı."
+  },
+  {
+   "key": "case047.person.moussa.name",
+   "value": "Moussa Diop"
+  },
+  {
+   "key": "case047.person.rocco.info",
+   "value": "57 yaşında, mahallede ‘tahsildar’ diye bilinen adam."
+  },
+  {
+   "key": "case047.person.rocco.name",
+   "value": "Rocco Greco"
+  },
+  {
+   "key": "case047.person.rosaria.info",
+   "value": "39 yaşında, kurbanın karısı; kasada çalışır."
+  },
+  {
+   "key": "case047.person.rosaria.name",
+   "value": "Rosaria Amato"
+  },
+  {
+   "key": "case047.report.body",
+   "value": "6 Ekim 2030 sabahı Forcella’daki bir pizzacıda usta ve sahip Ciro Amato (47), mutfağın arkasındaki soğuk odada ölü bulundu.\n\nCesedi ortağı Enzo Ferraro 06.40’ta, kepengi açtığında buldu. Kurbanın karısı Rosaria Amato kocasının gece eve gelmediğini söyledi. Akşam vardiyasında garson Lucia Bianco çalışıyordu. Dükkânın önünde Senegalli seyyar satıcı Moussa Diop her gece tezgâh açıyor."
+  },
+  {
+   "key": "case047.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case047.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case047.request.car",
+   "value": "Enzo Ferraro’nun arabasını aramak için izin iste"
+  },
+  {
+   "key": "case047.request.coldroom",
+   "value": "Soğuk odanın incelenmesini iste"
+  },
+  {
+   "key": "case047.request.ledger",
+   "value": "Kasa defterinin incelenmesini iste"
+  },
+  {
+   "key": "case047.rocco.body",
+   "value": "Mahallenin ‘dostu’."
+  },
+  {
+   "key": "case047.rocco.deflect",
+   "value": "Ben bir dostum, o kadar."
+  },
+  {
+   "key": "case047.rocco.title",
+   "value": "Rocco Greco — görüşme"
+  },
+  {
+   "key": "case047.rocco.visit.answer",
+   "value": "Ciro inatçıydı. Un meselesi, iş meselesi. Ben kimseyi soğuk odaya kapatmam; ben dün gece Ischia’daydım, düğündeydim, yüz kişi gördü. Ama Enzo… Enzo bana borçlu. Bunu da söyleyeyim, size hediyem olsun."
+  },
+  {
+   "key": "case047.rocco.visit.answer.demeanor",
+   "value": "Serçe parmağındaki yüzüğü çeviriyor."
+  },
+  {
+   "key": "case047.rocco.visit.question",
+   "value": "Ciro Amato sizi kapıdan çevirmiş."
+  },
+  {
+   "key": "case047.rosaria.body",
+   "value": "Kurbanın karısı."
+  },
+  {
+   "key": "case047.rosaria.debt.answer",
+   "value": "Kasa defterini Ciro tutardı. Son ay ‘Enzo kasadan alıyor, Rosaria, kardeşin kumar borcunu bizim fırından ödüyor’ dedi. Ben inanmak istemedim."
+  },
+  {
+   "key": "case047.rosaria.debt.question",
+   "value": "Dükkânın parası nasıldı?"
+  },
+  {
+   "key": "case047.rosaria.deflect",
+   "value": "Ciro’dan başka kimseyi konuşmam."
+  },
+  {
+   "key": "case047.rosaria.home.answer",
+   "value": "Gece bir’de aradım, kapalıydı. Enzo’yu aradım, ‘Ciro çıktı, bara gitti herhalde’ dedi. Enzo benim kardeşim. Yalan söylemez diye düşündüm."
+  },
+  {
+   "key": "case047.rosaria.home.answer.demeanor",
+   "value": "Hırkasının düğmesini çeviriyor."
+  },
+  {
+   "key": "case047.rosaria.home.question",
+   "value": "Kocanız gece eve gelmeyince ne yaptınız?"
+  },
+  {
+   "key": "case047.rosaria.title",
+   "value": "Rosaria Amato — görüşme"
+  },
+  {
+   "key": "case047.street.body",
+   "value": "Vico dei Panettieri, pizzacının karşısındaki dükkânın kamerası. 5 Ekim 23.00 – 6 Ekim 01.00."
+  },
+  {
+   "key": "case047.street.title",
+   "value": "SOKAK KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case047.summary.evidence",
+   "value": "Seyyar satıcı kepengi indireni gördü; sokak kamerası onu doğruladı. Garson tartışmayı, dul kasadaki çekişleri verdi. Gerekçeli arama kolu torpidoda buldu. Tahsildarın Ischia’daki düğünü kendini kurtardı ama Enzo’yu ele verdi."
+  },
+  {
+   "key": "case047.summary.lesson",
+   "value": "Napoli’de un bile birinin adına gelir."
+  },
+  {
+   "key": "case047.summary.location",
+   "value": "Forcella — Ekim 2030"
+  },
+  {
+   "key": "case047.summary.truth",
+   "value": "Enzo Ferraro mahallenin tahsildarına kumar borcu yüzünden 12.000 euro borçluydu; borç, pizzacı Caruso ununa geçerse silinecekti. Ortağı ve eniştesi Ciro reddedince Enzo gece kepengi indirip içeri döndü, Ciro’nun ensesine vurdu, onu soğuk odaya taşıdı, iç kolu söktü ve termostatı -18’e çevirdi."
+  },
+  {
+   "key": "case047.suspect.label",
+   "value": "Ciro Amato’yu kim öldürdü?"
+  },
+  {
+   "key": "case047.tablet.caseLine",
+   "value": "DOSYA #047  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case047.time.argue",
+   "value": "23.30"
+  },
+  {
+   "key": "case047.time.found",
+   "value": "06.40"
+  },
+  {
+   "key": "case047.time.half",
+   "value": "23.41"
+  },
+  {
+   "key": "case047.time.msg",
+   "value": "00.04"
+  },
+  {
+   "key": "case047.time.out",
+   "value": "23.53"
+  },
+  {
+   "key": "case047.time.watch",
+   "value": "00.10"
+  },
+  {
+   "key": "case047.title",
+   "value": "Dosya #047 — Forno"
+  },
+  {
+   "key": "case047.verdict.accident",
+   "value": "Kimse — kaza"
+  },
+  {
+   "key": "case047.verdict.enzo",
+   "value": "Enzo Ferraro"
+  },
+  {
+   "key": "case047.verdict.rocco",
+   "value": "Rocco Greco"
+  },
+  {
+   "key": "case047.verdict.rosaria",
+   "value": "Rosaria Amato"
+  }
+ ]
+}

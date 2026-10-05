@@ -1,0 +1,592 @@
+{
+ "entries": [
+  {
+   "key": "case048.autopsy.body",
+   "value": "· Ölüm nedeni: göğüs ve karın ezilmesi.\n· Kurbanın elinde çukurun merdiven korkuluğundan pas; ayakkabıları çukurun dibindeki yağla kaplı. Kafada darbe izi yok; kabin geldiğinde ayaktaydı ve bilinci açıktı.\n· Ölüm zamanı: 04.00–04.20."
+  },
+  {
+   "key": "case048.autopsy.title",
+   "value": "OTOPSİ RAPORU"
+  },
+  {
+   "key": "case048.cctv.event.enter",
+   "value": "Kamera: Yansıtıcı şeritli lacivert ceketli bir adam boş kumanda odasına girip kapıyı kapatıyor."
+  },
+  {
+   "key": "case048.cctv.event.leave",
+   "value": "Kamera: Aynı adam ceketine kırmızı bir şey sokuşturarak odadan hızla çıkıyor."
+  },
+  {
+   "key": "case048.cctv.event.lever",
+   "value": "Kamera: Aynı adam duvardaki kancadan kırmızı bir etiketi çekip alıyor, ana kolu ileri itiyor."
+  },
+  {
+   "key": "case048.cctv.overlay",
+   "value": "MSN-CTRL"
+  },
+  {
+   "key": "case048.cctv.period",
+   "value": "7 Ekim 2030"
+  },
+  {
+   "key": "case048.cctv.source",
+   "value": "Kumanda odası kamerası"
+  },
+  {
+   "key": "case048.clue.bin",
+   "value": "Şef koridordaki çöpe kırmızı bir şey atıyor."
+  },
+  {
+   "key": "case048.clue.enter",
+   "value": "Lacivert ceketli adam kumanda odasına giriyor."
+  },
+  {
+   "key": "case048.clue.found",
+   "value": "Sabah ekibi cesedi buluyor."
+  },
+  {
+   "key": "case048.clue.lever",
+   "value": "Aynı adam etiketi kancadan alıp kolu itiyor."
+  },
+  {
+   "key": "case048.clue.pit",
+   "value": "Teknisyen etiketini asıp çukura iniyor."
+  },
+  {
+   "key": "case048.clue.radio",
+   "value": "‘Sergio, Yusuf’un yanında kal, ben denerim.’"
+  },
+  {
+   "key": "case048.clue.source.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.clue.source.kofi",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.clue.source.locker",
+   "value": "Dolap araması"
+  },
+  {
+   "key": "case048.clue.source.report",
+   "value": "Olay raporu"
+  },
+  {
+   "key": "case048.conti.body",
+   "value": "Teknisyen."
+  },
+  {
+   "key": "case048.conti.chief.answer",
+   "value": "Kötü. Luca denetim raporlarına baktı, ‘Dario altı aydır gelmiyor, ama imzası her ay var’ dedi. Şefe söyledi. Şef ‘senin işin kablo, kâğıt değil’ dedi."
+  },
+  {
+   "key": "case048.conti.chief.question",
+   "value": "Luca’nın şefle arası nasıldı?"
+  },
+  {
+   "key": "case048.conti.deflect",
+   "value": "Ben vardiyamı yaptım."
+  },
+  {
+   "key": "case048.conti.pit.answer",
+   "value": "Kablo makarasında bir ses vardı, Luca ‘ben bakarım’ dedi. Kural şu: biri çukura inerse kumanda koluna kırmızı etiket asılır, asma kilitle. Luca kendi etiketini astı, kilidin anahtarı cebindeydi. Etiket asılıyken kabin hareket etmez. Etmemesi lazım."
+  },
+  {
+   "key": "case048.conti.pit.answer.demeanor",
+   "value": "Yanağındaki yağı koluyla siliyor."
+  },
+  {
+   "key": "case048.conti.pit.question",
+   "value": "Luca çukura neden indi?"
+  },
+  {
+   "key": "case048.conti.title",
+   "value": "Sergio Conti — görüşme"
+  },
+  {
+   "key": "case048.control.body",
+   "value": "Alt istasyon kumanda odası. 7 Ekim 03.30 – 04.30."
+  },
+  {
+   "key": "case048.control.title",
+   "value": "KUMANDA ODASI KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case048.custody.bin",
+   "value": "Koridordaki çöpe, kahve telvesinin altına"
+  },
+  {
+   "key": "case048.custody.label",
+   "value": "Kırmızı bakım etiketi nereye gitti?"
+  },
+  {
+   "key": "case048.custody.never",
+   "value": "Hiç asılmamıştı"
+  },
+  {
+   "key": "case048.custody.tunnel",
+   "value": "Tünele düştü"
+  },
+  {
+   "key": "case048.dario.body",
+   "value": "Dış müfettiş."
+  },
+  {
+   "key": "case048.dario.deflect",
+   "value": "Raporum dosyada."
+  },
+  {
+   "key": "case048.dario.sign.answer",
+   "value": "Hayır. Firmamın sözleşmesi Mart’ta askıya alındı, şirket ‘bütçe yok’ dedi. Raporlarda benim imzam varsa, ben atmadım. Bu imza benim değil."
+  },
+  {
+   "key": "case048.dario.sign.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp siliyor."
+  },
+  {
+   "key": "case048.dario.sign.question",
+   "value": "Son altı ayda hattı denetlediniz mi?"
+  },
+  {
+   "key": "case048.dario.title",
+   "value": "Dario Ricci — görüşme"
+  },
+  {
+   "key": "case048.epilogue.custody.bin",
+   "value": "Kırmızı etiketin koridor çöpünde bulunduğu yazıldı."
+  },
+  {
+   "key": "case048.epilogue.custody.never",
+   "value": "Kilitli etiketin anahtarı kurbanın cebindeydi."
+  },
+  {
+   "key": "case048.epilogue.custody.tunnel",
+   "value": "Etiket tünelde değil, istasyondaydı."
+  },
+  {
+   "key": "case048.epilogue.verdict.accident",
+   "value": "Ölüm prosedür hatası sayıldı; hat iki gün sonra yeniden açıldı."
+  },
+  {
+   "key": "case048.epilogue.verdict.conti",
+   "value": "Sergio Conti tutuklandı; sahte imzalar aynı dolapta kaldı."
+  },
+  {
+   "key": "case048.epilogue.verdict.ilaria",
+   "value": "Ilaria Romano görevden alındı; ölüm iş kazası sayıldı."
+  },
+  {
+   "key": "case048.epilogue.verdict.marino",
+   "value": "Fabio Marino tutuklandı. Caruso Marittima Danışmanlık’a giden 186.000 euro ve sahte raporlar dosyaya eklendi; işletme müdürü hakkında ayrı soruşturma açıldı."
+  },
+  {
+   "key": "case048.evidence.autopsy",
+   "value": "Otopsi raporu"
+  },
+  {
+   "key": "case048.evidence.control",
+   "value": "Kumanda odası kamerası"
+  },
+  {
+   "key": "case048.evidence.forms",
+   "value": "Denetim raporları"
+  },
+  {
+   "key": "case048.evidence.locker",
+   "value": "Dolap ve çöp araması"
+  },
+  {
+   "key": "case048.feedback.accident",
+   "value": "Etiket asılmıştı; kilitli haliyle çöpte, anahtarı kurbanın cebinde bulundu."
+  },
+  {
+   "key": "case048.feedback.conti",
+   "value": "Teknisyen 03.30–04.00 arası bekçinin yanındaydı; şef onu telsizle orada tutmuştu."
+  },
+  {
+   "key": "case048.feedback.ilaria",
+   "value": "Müdür bütçeyi örttü ama gece istasyonda değildi; kolu iten lacivert ceketli bir adamdı."
+  },
+  {
+   "key": "case048.feedback.marino",
+   "value": "Koridor çöpünden çıkan kırmızı etikette onun parmak izi var ve telsizle Sergio’yu kumanda odasından uzak tuttu; kamera etiketi alıp kolu iten lacivert ceketli adamı gösteriyor. Sahte denetim imzaları onun dolabından çıktı."
+  },
+  {
+   "key": "case048.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case048.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Şubesi"
+  },
+  {
+   "key": "case048.file.value.location",
+   "value": "Montesanto füniküleri, Napoli"
+  },
+  {
+   "key": "case048.file.value.number",
+   "value": "BDN-NAP-2030-0322"
+  },
+  {
+   "key": "case048.file.value.offence",
+   "value": "Şüpheli ölüm — iş kazası iddiası"
+  },
+  {
+   "key": "case048.file.value.reporter",
+   "value": "İşletme"
+  },
+  {
+   "key": "case048.forms.body",
+   "value": "· Nisan–Eylül arası altı kablo denetim raporu; hepsinde ‘Dario Ricci’ imzası. İmzaların altında kurşun kalemle çizilmiş yardımcı çizgi izleri; imza kalıbı bakım şefinin dolabındaki bir fotokopiyle aynı.\n· Raporları dosyalayan: bakım şefi Fabio Marino.\n· Aynı dönemde bakım bütçesinden Caruso Marittima Danışmanlık’a 186.000 euro; ödemeleri onaylayan Ilaria Romano."
+  },
+  {
+   "key": "case048.forms.title",
+   "value": "DENETİM RAPORLARI VE BÜTÇE"
+  },
+  {
+   "key": "case048.greta.body",
+   "value": "Kurbanın nişanlısı."
+  },
+  {
+   "key": "case048.greta.deflect",
+   "value": "Ben sadece onun ne yaşadığını bilmek istiyorum."
+  },
+  {
+   "key": "case048.greta.msg.answer",
+   "value": "Korkuyordu. Bir sendika temsilcisine yazdı, bana da kopyasını attı: ‘Bütçenin yarısı bir liman şirketine danışmanlık diye gidiyor, kablolar dokuz yıllık. Bir gün biri ölecek.’ Kendisi öldü."
+  },
+  {
+   "key": "case048.greta.msg.answer.demeanor",
+   "value": "Ceketinin kolunu avucunda sıkıyor."
+  },
+  {
+   "key": "case048.greta.msg.question",
+   "value": "Luca son günlerde ne anlatıyordu?"
+  },
+  {
+   "key": "case048.greta.title",
+   "value": "Greta Lombardi — görüşme"
+  },
+  {
+   "key": "case048.ilaria.body",
+   "value": "İşletme müdürü."
+  },
+  {
+   "key": "case048.ilaria.budget.answer",
+   "value": "Bunu yönetim kurulu bilir."
+  },
+  {
+   "key": "case048.ilaria.budget.presented.forms",
+   "value": "Danışmanlık ödemeleri bir hissedarın talebiydi. Caruso Marittima. Ben onaylamak zorundaydım. Kimseyi öldürmedim."
+  },
+  {
+   "key": "case048.ilaria.budget.question",
+   "value": "Bakım bütçesi nereye gitti?"
+  },
+  {
+   "key": "case048.ilaria.deflect",
+   "value": "Şirketin açıklamasını basın bürosu yapar."
+  },
+  {
+   "key": "case048.ilaria.rule.answer",
+   "value": "Çünkü etiket yoktu. Sabah kumanda koluna bakıldığında etiket asılı değildi. Luca etiket asmadan inmiş. Üzücü ama bu bir prosedür hatası."
+  },
+  {
+   "key": "case048.ilaria.rule.answer.demeanor",
+   "value": "İnci küpesine dokunuyor."
+  },
+  {
+   "key": "case048.ilaria.rule.question",
+   "value": "Şirket neden ‘kural dışı’ diyor?"
+  },
+  {
+   "key": "case048.ilaria.rule.variant0",
+   "value": "Denetim sözleşmesini ben askıya aldım, bütçe yüzünden. İmzaları Fabio’nun ekibi dosyalıyordu. Ben kâğıtlara bakmadım."
+  },
+  {
+   "key": "case048.ilaria.title",
+   "value": "Ilaria Romano — görüşme"
+  },
+  {
+   "key": "case048.kofi.bin.answer",
+   "value": "Saat dört gibi lacivert ceketli şef kumanda odasından çıktı, hızlı. Koridordaki çöpe kırmızı bir şey attı. Ben çöpü sabah boşaltırım. Kırmızı plastik, kilitli. Çöpü boşaltmadım, korktum, öyle bıraktım."
+  },
+  {
+   "key": "case048.kofi.bin.answer.demeanor",
+   "value": "Paspasın sapını iki eliyle tutuyor."
+  },
+  {
+   "key": "case048.kofi.bin.question",
+   "value": "Gece istasyonda ne gördünüz?"
+  },
+  {
+   "key": "case048.kofi.body",
+   "value": "Temizlik işçisi."
+  },
+  {
+   "key": "case048.kofi.deflect",
+   "value": "Ben yerleri silerim."
+  },
+  {
+   "key": "case048.kofi.gone",
+   "value": "Kofi Mensah’ın oturma izni o hafta doldu; Accra’ya döndü. Ulaşılamıyor."
+  },
+  {
+   "key": "case048.kofi.title",
+   "value": "Kofi Mensah — görüşme"
+  },
+  {
+   "key": "case048.locker.body",
+   "value": "Fabio Marino’nun istasyondaki dolabı ve koridor çöpü (şube şefinin onayıyla):\n\n· Koridor çöpünde, kahve telvesinin altında kırmızı ‘içeride çalışan var’ etiketi; asma kilidi kapalı, anahtarı kurbanın cebinde bulunan anahtar. Etikette Fabio Marino’nun parmak izi.\n· Dolapta Dario Ricci imzasının yirmi kez çalışılmış bir fotokopisi.\n· Telsiz kaydı: 03.55 Fabio Marino: ‘Sergio, Yusuf’un yanında kal, ben denerim.’"
+  },
+  {
+   "key": "case048.locker.title",
+   "value": "BAKIM ŞEFİNİN DOLABI VE ÇÖP — ARAMA"
+  },
+  {
+   "key": "case048.marino.body",
+   "value": "Bakım şefi."
+  },
+  {
+   "key": "case048.marino.deflect",
+   "value": "Hat güvenlidir; benim imzam var."
+  },
+  {
+   "key": "case048.marino.end.answer",
+   "value": "Hayır."
+  },
+  {
+   "key": "case048.marino.end.presented.forms",
+   "value": "İmzaları ben attım, evet. Kablolar dayanır diye düşündüm. Bütçe yukarıdan alınıyordu."
+  },
+  {
+   "key": "case048.marino.end.presented.locker",
+   "value": "Luca sendikaya gidecekti, sonra savcıya. Raporlar, imzalar, her şey benim adıma çıkacaktı. Kırmızı etiketi kancadan aldım, kolu ittim. Bir dakika. Bir dakika sürdü. Kilidi kesmeye bile gerek kalmadı, Luca kilidi asmış ama kancayı kapatmamıştı."
+  },
+  {
+   "key": "case048.marino.end.question",
+   "value": "Etiketi siz kaldırdınız."
+  },
+  {
+   "key": "case048.marino.night.answer",
+   "value": "Üst istasyonda, makara dairesinde. Kabini denemek için Sergio’ya telsizle haber verdim; o kolu itti sanıyordum."
+  },
+  {
+   "key": "case048.marino.night.answer.demeanor",
+   "value": "Çenesini sıkıp başını iki yana sallıyor."
+  },
+  {
+   "key": "case048.marino.night.question",
+   "value": "Saat dörtte neredeydiniz?"
+  },
+  {
+   "key": "case048.marino.night.variant0",
+   "value": "Kumanda odasına uğradım, evet. Etiket yoktu, ben kolu ittim. Luca’nın çukurda olduğunu bilmiyordum."
+  },
+  {
+   "key": "case048.marino.title",
+   "value": "Fabio Marino — görüşme"
+  },
+  {
+   "key": "case048.method.cabin",
+   "value": "Etiket kaldırılıp kabin üzerine sürüldü"
+  },
+  {
+   "key": "case048.method.cable",
+   "value": "Kopan kablo çarptı"
+  },
+  {
+   "key": "case048.method.fall",
+   "value": "Çukura düştü"
+  },
+  {
+   "key": "case048.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case048.offer.subtitle",
+   "value": "FUNICOLARE  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case048.offer.summary",
+   "value": "Montesanto füniküler hattında bir teknisyen bakım çukurunda kabinin altında kaldı. Şirket ‘kural dışı’ diyor."
+  },
+  {
+   "key": "case048.offer.title",
+   "value": "DOSYA #048"
+  },
+  {
+   "key": "case048.person.conti.info",
+   "value": "34 yaşında, gece vardiyasındaki teknisyen; kurbanın ekip arkadaşı."
+  },
+  {
+   "key": "case048.person.conti.name",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.person.dario.info",
+   "value": "47 yaşında, kabloları denetleyen dış firmanın müfettişi."
+  },
+  {
+   "key": "case048.person.dario.name",
+   "value": "Dario Ricci"
+  },
+  {
+   "key": "case048.person.greta.info",
+   "value": "30 yaşında, kurbanın nişanlısı; hemşire."
+  },
+  {
+   "key": "case048.person.greta.name",
+   "value": "Greta Lombardi"
+  },
+  {
+   "key": "case048.person.ilaria.info",
+   "value": "41 yaşında, hattın işletme müdürü."
+  },
+  {
+   "key": "case048.person.ilaria.name",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.person.kofi.info",
+   "value": "25 yaşında, Ganalı temizlik işçisi; gece istasyonu temizler."
+  },
+  {
+   "key": "case048.person.kofi.name",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.person.marino.info",
+   "value": "52 yaşında, füniküler hattının bakım şefi."
+  },
+  {
+   "key": "case048.person.marino.name",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.person.yusuf.info",
+   "value": "36 yaşında, istasyonda gece bekçisi; Türk asıllı."
+  },
+  {
+   "key": "case048.person.yusuf.name",
+   "value": "Yusuf Demir"
+  },
+  {
+   "key": "case048.report.body",
+   "value": "7 Ekim 2030 sabahı Montesanto füniküler hattında, alt istasyonun 140 metre yukarısındaki bakım çukurunda teknisyen Luca Ferri (33) ölü bulundu. Gece bakımından sonra ilk deneme seferindeki kabin üzerinden geçmişti.\n\nGece bakım ekibi: bakım şefi Fabio Marino, teknisyen Sergio Conti, kurban. İstasyonda bekçi Yusuf Demir ve temizlik işçisi Kofi Mensah vardı. Şirketi işletme müdürü Ilaria Romano temsil ediyor."
+  },
+  {
+   "key": "case048.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case048.request.autopsy",
+   "value": "Otopsi raporunu iste"
+  },
+  {
+   "key": "case048.request.forms",
+   "value": "Denetim raporlarını ve bütçe kayıtlarını iste"
+  },
+  {
+   "key": "case048.request.locker",
+   "value": "Fabio Marino’nun dolabını ve koridor çöpünü aramak için izin iste"
+  },
+  {
+   "key": "case048.summary.evidence",
+   "value": "Temizlikçi etiketin çöpe atılışını gördü ama otopsi gelmeden konuşulmazsa ülkesine döndü. Bekçi kartları ve kamerayı, müfettiş imzasının sahte olduğunu verdi. Gerekçeli arama etiketi ve imza fotokopisini buldu."
+  },
+  {
+   "key": "case048.summary.lesson",
+   "value": "Kabloyu değil, kâğıdı değiştirmek daha ucuzdu."
+  },
+  {
+   "key": "case048.summary.location",
+   "value": "Montesanto — Ekim 2030"
+  },
+  {
+   "key": "case048.summary.truth",
+   "value": "Bakım şefi Fabio Marino, denetim firması çekildikten sonra altı ay boyunca müfettişin imzasını taklit etti; bütçe Caruso Marittima’ya ‘danışmanlık’ olarak gidiyordu. Teknisyen Luca Ferri bunu sendikaya yazdı. Marino, Luca çukura inip etiketini astığında Sergio’yu telsizle bekçinin yanında tuttu, kumanda odasına girip etiketi kancadan aldı ve kolu itti."
+  },
+  {
+   "key": "case048.suspect.label",
+   "value": "Luca Ferri’yi kim öldürdü?"
+  },
+  {
+   "key": "case048.tablet.caseLine",
+   "value": "DOSYA #048  /  BUBE NAPOLİ — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case048.time.bin",
+   "value": "04.05"
+  },
+  {
+   "key": "case048.time.enter",
+   "value": "03.58"
+  },
+  {
+   "key": "case048.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case048.time.leave",
+   "value": "04.04"
+  },
+  {
+   "key": "case048.time.lever",
+   "value": "04.02"
+  },
+  {
+   "key": "case048.time.pit",
+   "value": "03.40"
+  },
+  {
+   "key": "case048.time.radio",
+   "value": "03.55"
+  },
+  {
+   "key": "case048.title",
+   "value": "Dosya #048 — Funicolare"
+  },
+  {
+   "key": "case048.verdict.accident",
+   "value": "Kimse — etiket asılmadı"
+  },
+  {
+   "key": "case048.verdict.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.verdict.ilaria",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.verdict.marino",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.yusuf.body",
+   "value": "Gece bekçisi."
+  },
+  {
+   "key": "case048.yusuf.deflect",
+   "value": "Ben kapıdaydım, ağabey."
+  },
+  {
+   "key": "case048.yusuf.door.answer",
+   "value": "Kapı kartla açılır, ağabey. Gece üçten sonra yalnız şefin ve Sergio’nun kartı. Sergio üç buçukta çay için yanıma geldi, dörde kadar benimleydi, ikimiz radyo dinledik. Kumanda odasında kamera var, ben kayıtları açarım."
+  },
+  {
+   "key": "case048.yusuf.door.answer.demeanor",
+   "value": "Kartını boynundaki ipte çeviriyor."
+  },
+  {
+   "key": "case048.yusuf.door.question",
+   "value": "Kumanda odasına gece kim girdi?"
+  },
+  {
+   "key": "case048.yusuf.title",
+   "value": "Yusuf Demir — görüşme"
+  }
+ ]
+}
