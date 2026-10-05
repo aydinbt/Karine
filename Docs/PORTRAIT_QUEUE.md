@@ -530,37 +530,37 @@ A 52-year-old French man, dark hair thinning at the crown, rectangular steel gla
 
 ## Dosya #039 (6)
 
-80. **Ray Kowalski** → `kowalski.png`
+80. **Ray Kowalski** → `kowalski.png` ✅
 
 ```
 A 54-year-old Polish-American man, thick neck, close-cropped greying sandy hair, a broad weathered face with a broken nose, small hard blue eyes. Navy work jacket over a grey hoodie, a high-visibility vest open over it. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-81. **Marisol Reyes** → `reyes.png`
+81. **Marisol Reyes** → `reyes.png` ✅
 
 ```
 A 31-year-old Mexican-American woman, long black hair in a high ponytail, small gold hoop earrings, red-rimmed angry brown eyes. Olive green work shirt with rolled sleeves. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-82. **Dwayne Carter** → `carter.png`
+82. **Dwayne Carter** → `carter.png` ✅
 
 ```
 A 47-year-old African-American man, shaved head, short grey beard, heavy-lidded patient eyes. Dark navy security uniform jumper with shoulder epaulettes, no logo or badge text. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-83. **Teresa Novak** → `novak.png`
+83. **Teresa Novak** → `novak.png` ✅
 
 ```
 A 50-year-old Czech-American woman, dirty-blonde hair in a thick braid, freckled weathered face, fierce green eyes. Bright orange high-visibility work jacket over a flannel shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-84. **Pete Lindqvist** → `lindqvist.png`
+84. **Pete Lindqvist** → `lindqvist.png` ✅
 
 ```
 A 62-year-old Swedish-American man, white hair combed neatly, rimless glasses, long thoughtful face. Khaki field jacket over a checked shirt, a white hard hat under his arm. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-85. **Hector Ortega** → `hector.png`
+85. **Hector Ortega** → `hector.png` ✅
 
 ```
 A 35-year-old Mexican-American man, black hair buzzed short, a faded tattoo on the side of his neck, tired defensive dark eyes. Plain black T-shirt under a grey work jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
