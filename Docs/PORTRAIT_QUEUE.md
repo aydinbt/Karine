@@ -1606,43 +1606,43 @@ A 47-year-old Australian man, sandy brown hair, a sunburnt honest face, stubble.
 
 ## Dosya #073 (7)
 
-248. **Victor Quinlan** → `quinlan.png`
+248. **Victor Quinlan** → `quinlan.png` ✅
 
 ```
 A 56-year-old Anglo-Australian man, slicked-back dark hair greying at the temples, a long composed face, thin lips, cold grey eyes. An immaculate black suit, white shirt, dark tie, no pin or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-249. **Fiona Marlowe** → `marlowe.png`
+249. **Fiona Marlowe** → `marlowe.png` ✅
 
 ```
 A 41-year-old Australian woman, shoulder-length light brown hair, a pale anxious face, careful hazel eyes. A cream silk blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-250. **Kiran Naidoo** → `naidoo.png`
+250. **Kiran Naidoo** → `naidoo.png` ✅
 
 ```
 A 35-year-old South African Indian-Australian man, short black hair, thin glasses, a tired clever face. A steel-blue button-down shirt with rolled sleeves. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-251. **Tamsin Grey** → `tamsin.png`
+251. **Tamsin Grey** → `tamsin.png` ✅
 
 ```
 A 50-year-old Australian woman, long grey hair in a ponytail, a worn kind face, startled blue eyes. A teal cleaning tunic with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-252. **Emeka Okeke** → `okeke.png`
+252. **Emeka Okeke** → `okeke.png` ✅
 
 ```
 A 39-year-old Nigerian-Australian man, shaved head, a calm square face, alert brown eyes. A dark charcoal security blazer with no badge or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-253. **Brodie Walsh** → `brodie.png`
+253. **Brodie Walsh** → `brodie.png` ✅
 
 ```
 A 45-year-old Australian man, short brown hair, a broad impassive face, a scar through one eyebrow. A plain black driver's suit. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-254. **Yindi Marrawa** → `yindi.png`
+254. **Yindi Marrawa** → `yindi.png` ✅
 
 ```
 A 32-year-old Aboriginal Australian woman, long dark curly hair, a sharp searching face, direct brown eyes. A rust-coloured jacket over a black top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
