@@ -7,7 +7,7 @@ Araç dağılımı ve ortak portre/bulgu kısımları #015 dosyasındakiyle ayn�
 2. **Nele Hartmann** (`nele`) — *A 31-year-old German woman, short copper-red hair, helmet strap marks, irritated look. Mustard-yellow cycling jacket.*
 3. **Jannik Lorenz** (`jannik`) — *A 17-year-old German boy, black hair under a grey hoodie, earphones around neck, scared defiant face.*
 4. **Okan Yıldız** (`okan`) — *A 52-year-old Turkish-German man, greying dark hair, glasses, calm careful face. Dark suit, loosened tie.*
-5. **Petra Lindner** (`petra`) — *A 47-year-old German woman, ash-brown bob, reading glasses pushed up, cautious corporate expression. Purple cardigan.*
+5. **Petra Lindner** (`Bube/Characters/case022/petra` — #020 Petra ile aynı kimlik, vakaya özel klasör) — *A 47-year-old German woman, ash-brown bob, reading glasses pushed up, cautious corporate expression. Purple cardigan.*
 
 ## Adli bulgular — Gemini (`Bube/Items/case022_*`)
 1. `terminal` — *A black handheld ticket-inspection terminal with a cracked corner, in an evidence bag, screen dark.*
