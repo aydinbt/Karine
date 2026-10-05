@@ -158,19 +158,19 @@ A 47-year-old Japanese woman, black bob haircut with a few grey strands, thin si
 
 ## Dosya #027 (3)
 
-22. **Takeda Yuki** → `yuki.png`
+22. **Takeda Yuki** → `yuki.png` ✅
 
 ```
 A 29-year-old Japanese woman, dark brown hair in a neat low bun with a few loose strands, tired but composed face, small silver stud earrings. Dark red pachinko parlour staff vest over a white shirt with a thin black ribbon tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-23. **Arai Hideo** → `hideo.png`
+23. **Arai Hideo** → `hideo.png` ✅
 
 ```
 A 52-year-old Japanese man, short black hair greying at the temples, heavy bags under his eyes, unshaven, anxious frown. Black suit jacket, loosened grey tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-24. **Satō Minoru** → `sato.png`
+24. **Satō Minoru** → `sato.png` ✅
 
 ```
 A 66-year-old Japanese man, thin grey hair combed over, deep smile lines, thick black-framed glasses, calm stubborn face. Faded blue zip-up windbreaker over a beige polo shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
