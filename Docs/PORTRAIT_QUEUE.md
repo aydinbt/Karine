@@ -1356,37 +1356,37 @@ A 28-year-old Moroccan-Canadian woman, dark hair under a burgundy headscarf, a h
 
 ## Dosya #065 (6)
 
-209. **Étienne Beaulieu** → `beaulieu.png`
+209. **Étienne Beaulieu** → `beaulieu.png` ✅
 
 ```
 A 46-year-old French-Canadian man, neat dark hair with a side part, clean-shaven, a handsome tense face, quick nervous brown eyes. A navy technical jacket over a white shirt, a site helmet under one arm, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-210. **Grace Kwan** → `kwan.png`
+210. **Grace Kwan** → `kwan.png` ✅
 
 ```
 A 38-year-old Chinese-Canadian woman, long straight black hair, a camera strap across her chest, a composed grieving face. A charcoal wool coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-211. **Alain Rousseau** → `rousseau.png`
+211. **Alain Rousseau** → `rousseau.png` ✅
 
 ```
 A 59-year-old Québécois man, short grey hair, heavy eyelids, a tired honest face. A dark navy security guard parka with no badge. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-212. **Farah Siddiqui** → `farah.png`
+212. **Farah Siddiqui** → `farah.png` ✅
 
 ```
 A 30-year-old Pakistani-Canadian woman, long dark hair loose, a nose stud, a fierce passionate face. A green canvas utility jacket with patches that have no text. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-213. **Sylvie Morin** → `morin.png`
+213. **Sylvie Morin** → `morin.png` ✅
 
 ```
 A 61-year-old Québécoise woman, silver hair in a sleek low bun, a stern elegant face, pale grey eyes. A black cashmere coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-214. **Max Gendron** → `gendron.png`
+214. **Max Gendron** → `gendron.png` ✅
 
 ```
 A 23-year-old French-Canadian man, sandy curly hair, a young open face, a waiter's notepad in his shirt pocket. A white waiter's shirt with a black vest. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
