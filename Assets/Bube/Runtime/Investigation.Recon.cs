@@ -10,7 +10,9 @@ namespace Bube {
 [Serializable] public class ReconPlacement { public string cardId; public string sourceId; }
 // Bölüm finali (#010): onaylı değerlendirme yerine telefon, personel belgesi ve
 // bölüm kapanışı oynar; yeni ülkenin ilk dosyası gelen evraka düşer.
-[Serializable] public class ChapterFinale { public string countryKey; public string progressKey; public string nextCountryKey; public string nextFileKey; }
+[Serializable] public class ChapterFinale { public string countryKey; public string progressKey; public string nextCountryKey; public string nextFileKey;
+ // İsteğe bağlı: bu finale özel telefon satırları ve personel metni; boşsa ortak finale.call.* ve finale.personnelBody.
+ public string[] callKeys; public string personnelBodyKey; }
 
 public sealed partial class Investigation {
  public bool HasReconstruction => (Data.reconstruction ?? new ReconCard[0]).Length>0;

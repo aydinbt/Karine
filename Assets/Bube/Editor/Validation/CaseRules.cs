@@ -72,6 +72,15 @@ public static class CaseRules {
    }
   }
 
+  // Bölüm finali: telefon, personel belgesi ve "ÜLKE — n / n" ekranının her metni var olmalı.
+  if (data.chapterFinale != null && !string.IsNullOrEmpty(data.chapterFinale.countryKey)) {
+   var f = data.chapterFinale;
+   foreach (var key in new[] { f.countryKey, f.progressKey, f.nextCountryKey, f.nextFileKey }.Concat(f.callKeys ?? new string[0]))
+    report.Require(!MissingText(locale, key), "Bölüm finali metni eksik: " + key);
+   if (!string.IsNullOrEmpty(f.personnelBodyKey))
+    report.Require(!MissingText(locale, f.personnelBodyKey), "Bölüm finali personel metni eksik: " + f.personnelBodyKey);
+  }
+
   // Rapor sihirbazının üç sütunu da tam olarak bir doğru seçenek içermeli.
   // Sıfır olursa vaka çözülemez, birden fazla olursa değerlendirme keyfîleşir.
   // Bu kontrol 25 Eylül 2026 denetiminde elle yapıldı; burada kalıcılaşıyor.

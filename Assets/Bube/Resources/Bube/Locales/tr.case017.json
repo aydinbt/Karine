@@ -1,0 +1,840 @@
+{
+ "entries": [
+  {
+   "key": "case017.aisha.body",
+   "value": "İç inceleme görevlisiyle."
+  },
+  {
+   "key": "case017.aisha.deflect",
+   "value": "İnceleme dosyası gizli, bunu söyleyemem."
+  },
+  {
+   "key": "case017.aisha.met.answer",
+   "value": "Dün gece. 22.40’ta, köprünün doğu merdiveninde. Ofislerden uzakta konuşmak istedi. ‘Devir yazılarını ben yazmadım,’ dedi. ‘Kanıtı birine gönderdim. Bu gece bir kişi daha gelecek.’ Ona inanmadım. Yirmi dakika sonra ayrıldım."
+  },
+  {
+   "key": "case017.aisha.met.answer.demeanor",
+   "value": "Gözlerini kaçırmadı."
+  },
+  {
+   "key": "case017.aisha.met.question",
+   "value": "Onu en son ne zaman gördünüz?"
+  },
+  {
+   "key": "case017.aisha.review.answer",
+   "value": "Görevden almaya. Tanner Lane devir yazısı, eski ortağını korumak için yazılmış gibi duruyordu. Öyle olduğunu düşündüm. Sert davrandım."
+  },
+  {
+   "key": "case017.aisha.review.question",
+   "value": "Malcolm Reeve hakkındaki inceleme nereye gidiyordu?"
+  },
+  {
+   "key": "case017.aisha.title",
+   "value": "Aisha Rahman — görüşme"
+  },
+  {
+   "key": "case017.aisha.who.answer",
+   "value": "Söylemedi. Telefonuna bir mesaj bekliyordu, sürekli ekrana bakıyordu."
+  },
+  {
+   "key": "case017.aisha.who.question",
+   "value": "Kim gelecekti?"
+  },
+  {
+   "key": "case017.aisha_log.body",
+   "value": "10 Mayıs 2029, Aisha Rahman adına kayıtlı araç.\n\n· 22.31 · Rotherhithe, Salter Road · havzaya doğru\n· 23.08 · Rotherhithe, Lower Road · havzadan uzaklaşıyor\n· 23.31 · Greenwich · ev adresine 400 metre\n\nAraç 23.31’den sabaha kadar hiçbir okuma noktasından geçmedi."
+  },
+  {
+   "key": "case017.aisha_log.title",
+   "value": "PLAKA OKUMA KAYDI — AISHA RAHMAN’IN ARACI"
+  },
+  {
+   "key": "case017.autopsy.body",
+   "value": "· Ölüm sebebi: yüksekten düşmeye bağlı çoklu kırık ve iç kanama.\n· Başın arkasında, düşmeden önce oluşmuş ayrı bir darbe: dar, silindir biçimli, sert bir cisimle uyumlu. Rıhtım taşlarındaki çarpma izinden farklı yönde.\n· İki üst kolda, parmak uçlarıyla uyumlu taze morluklar.\n· Elinde ve avuçlarında korkuluğa tutunma izi yok.\n· Kanda alkol yok.\n· Tahmini ölüm saati: 23.30 – 00.30."
+  },
+  {
+   "key": "case017.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case017.badge.body",
+   "value": "bube Londra, Southwark şubesi. Kart sahibi: Bora.\n\n· 08.52 · giriş\n· 18.40 · çıkış\n\n18.40’tan 11 Mayıs 08.47’ye kadar kartla giriş yok. Gece güvenlik defteri: “Üçüncü kat 21.00’den sonra boş.”"
+  },
+  {
+   "key": "case017.badge.title",
+   "value": "ŞUBE GİRİŞ KAYDI — BORA, 10 MAYIS"
+  },
+  {
+   "key": "case017.bank.body",
+   "value": "Talep: bube Londra mali inceleme. 2023–2029, seçilmiş hareketler.\n\n· Her devir yazısından 2–6 gün sonra şubeye yakın ATM’lere nakit yatırma, toplam £41.000.\n· 2024’ten beri üç ayda bir, Berlin’de kayıtlı bir şirketten “danışmanlık” havalesi: Arendt Handelsgesellschaft. Toplam €118.000.\n· Hesap sahibi: Graham Holt.\n\nNot: Arendt Handelsgesellschaft’ın adı, kapanmış altı dosyanın ikisinde tanık işvereni olarak geçiyor."
+  },
+  {
+   "key": "case017.bank.title",
+   "value": "HESAP DÖKÜMÜ — GRAHAM HOLT"
+  },
+  {
+   "key": "case017.cam.body",
+   "value": "Havzanın kuzeydoğusundaki bir deponun duvar kamerası, köprü güvertesini uzaktan ve yandan görüyor. 10 Mayıs 23.20 – 11 Mayıs 00.10. Görüntü karanlık, yüzler seçilmez."
+  },
+  {
+   "key": "case017.cam.title",
+   "value": "DEPO DUVAR KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case017.cctv.event.leave",
+   "value": "Kamera 03: Kalan adam yere eğilip bir şey alıyor, cebine koyuyor. Batı merdiven kulesine doğru yürüyüp kayboluyor."
+  },
+  {
+   "key": "case017.cctv.event.meet",
+   "value": "Kamera 03: Köprü güvertesinin ortasında iki adam. Biri korkuluğa yaslanmış; ikincisi batı merdiven kulesinden gelmiş, elinde uzun, ince bir nesne."
+  },
+  {
+   "key": "case017.cctv.event.strike",
+   "value": "Kamera 03: Gelen adam kolunu kaldırıp ötekinin başının arkasına vuruyor. Sendeleyen adamı iki koluyla korkuluğa bastırıp üstünden itiyor. Bir beden güverteden aşağı düşüyor."
+  },
+  {
+   "key": "case017.cctv.overlay",
+   "value": "KAM 03"
+  },
+  {
+   "key": "case017.cctv.period",
+   "value": "10 Mayıs 2029, 23.20 – 00.10"
+  },
+  {
+   "key": "case017.cctv.source",
+   "value": "Depo duvar kamerası"
+  },
+  {
+   "key": "case017.clue.aisha_in",
+   "value": "Aisha Rahman’ın aracı havzaya geliyor."
+  },
+  {
+   "key": "case017.clue.aisha_out",
+   "value": "Aisha Rahman’ın aracı havzadan ayrılıyor."
+  },
+  {
+   "key": "case017.clue.badgeout",
+   "value": "Bora şubeden çıkıyor."
+  },
+  {
+   "key": "case017.clue.drafts",
+   "value": "Altı devir yazısı aynı dosya kabul hesabında hazırlanıyor."
+  },
+  {
+   "key": "case017.clue.drop",
+   "value": "Reeve’in telefonu şebekeden düşüyor."
+  },
+  {
+   "key": "case017.clue.holt_in",
+   "value": "Graham Holt’un telefonu havzada."
+  },
+  {
+   "key": "case017.clue.mail",
+   "value": "Reeve’in “Bora’ya” zarfını dosya kabul şefi teslim alıyor."
+  },
+  {
+   "key": "case017.clue.sms",
+   "value": "Dahili 214 adına “Köprüde buluşalım” mesajı gidiyor."
+  },
+  {
+   "key": "case017.clue.source.aisha_log",
+   "value": "Plaka kaydı"
+  },
+  {
+   "key": "case017.clue.source.badge",
+   "value": "Şube giriş kaydı"
+  },
+  {
+   "key": "case017.clue.source.drafts",
+   "value": "Belge kaydı"
+  },
+  {
+   "key": "case017.clue.source.holt_phone",
+   "value": "Holt’un konum kaydı"
+  },
+  {
+   "key": "case017.clue.source.mailroom",
+   "value": "Posta kaydı"
+  },
+  {
+   "key": "case017.clue.source.phone",
+   "value": "Reeve’in telefon kaydı"
+  },
+  {
+   "key": "case017.clue.strike",
+   "value": "Köprüde bir adam ötekine vurup korkuluktan itiyor."
+  },
+  {
+   "key": "case017.custody.aisha",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.custody.bora",
+   "value": "Bora — mesaj onun dahili hattından"
+  },
+  {
+   "key": "case017.custody.graham",
+   "value": "Graham Holt — senin masa hattının adıyla"
+  },
+  {
+   "key": "case017.custody.label",
+   "value": "Reeve’i köprüye çağıran mesajı kim gönderdi?"
+  },
+  {
+   "key": "case017.custody.none",
+   "value": "Mesaj yoktu, Reeve kendisi gitti"
+  },
+  {
+   "key": "case017.drafts.body",
+   "value": "Talep: bube Londra bilgi işlem. Reeve’in mektubundaki altı devir yazısı, 2023–2029.\n\nAltısının da ilk taslağı aynı şube hesabında oluşturulmuş: dosyakabul-03. Altısında da aynı cümle var: “kısa sürede kapatılması önerilir.” Reeve’e e-postayla imzaya gönderilmiş; Reeve hiçbirinde metni değiştirmemiş.\n\nHesap sahibi: Graham Holt, dosya kabul şefi.\n\nEk not: 11 Mayıs 07.30 tarihli Cutter’s Basin devir notu da aynı hesapta oluşturulmuş."
+  },
+  {
+   "key": "case017.drafts.title",
+   "value": "BELGE KAYDI — ALTI DEVİR YAZISI"
+  },
+  {
+   "key": "case017.epilogue.custody.aisha",
+   "value": "Aisha Rahman’ın telefonu incelendi, hiçbir şey çıkmadı. Mesajın gerçek göndericisi dosyada adsız kaldı."
+  },
+  {
+   "key": "case017.epilogue.custody.bora",
+   "value": "İç inceleme seni dinledi. Giriş kaydın aklandı, ama dosya senden alındı; Holt yeni dosyayı kendi masasından devretti."
+  },
+  {
+   "key": "case017.epilogue.custody.graham",
+   "value": "Şube, santral ağ geçidindeki açığı aynı hafta kapattı. Bora’nın dahili hattı 214’ten 215’e alındı; eski numara rehberden silinmedi, yanına bir not düşüldü: “Malcolm Reeve, bölge irtibat amiri. Son mesajına yanıt verdi.”"
+  },
+  {
+   "key": "case017.epilogue.custody.none",
+   "value": "Telefon dökümü dosyada okunmadan kaldı. Reeve’in son “Buradayım.” yanıtı kimseye ulaşmadı."
+  },
+  {
+   "key": "case017.epilogue.verdict.aisha",
+   "value": "Aisha Rahman görevden uzaklaştırıldı. Graham Holt yedinci devir notunu yazdı: “kısa sürede kapatılması önerilir.”"
+  },
+  {
+   "key": "case017.epilogue.verdict.garrett",
+   "value": "Garrett’ın dosyasına yeni suçlama eklendi. Dosya kabul biriminden şubeye bir teşekkür notu geldi."
+  },
+  {
+   "key": "case017.epilogue.verdict.graham",
+   "value": "Graham Holt cinayet ve rüşvetten tutuklandı. Kapanmış altı dosya yeniden açıldı; ikisinde yanlış kişi serbest kaldı, birinde masum biri tahliye edildi."
+  },
+  {
+   "key": "case017.epilogue.verdict.nobody",
+   "value": "Malcolm Reeve’in ölümü intihar olarak kapandı. Hakkındaki iç inceleme “suçunu kabul ederek kendini öldürdü” notuyla sonuçlandı."
+  },
+  {
+   "key": "case017.evidence.aisha_log",
+   "value": "Plaka kaydı"
+  },
+  {
+   "key": "case017.evidence.letter",
+   "value": "Taslak mektup"
+  },
+  {
+   "key": "case017.evidence.mailroom",
+   "value": "Şube posta kaydı"
+  },
+  {
+   "key": "case017.evidence.phone",
+   "value": "Reeve’in telefon kaydı"
+  },
+  {
+   "key": "case017.evidence.switchboard",
+   "value": "Şube santral kaydı"
+  },
+  {
+   "key": "case017.feedback.aisha",
+   "value": "Aisha Reeve’le görüştü ve onu ezdi, ama 23.08’de havzadan ayrıldı; düşüş 23.47’de."
+  },
+  {
+   "key": "case017.feedback.garrett",
+   "value": "Garrett parayı ödedi ama kime ödediğini bilmiyordu; o gece bir hücredeydi ve Reeve’i kimseye işaret etmedi."
+  },
+  {
+   "key": "case017.feedback.graham",
+   "value": "Altı yıl boyunca devir yazılarını o yazdı, Reeve’in zarfını o aldı, Reeve’i senin hattınla o çağırdı. Telefonu köprüdeydi; Reeve’in telefonu onun çekmecesindeydi."
+  },
+  {
+   "key": "case017.feedback.nobody",
+   "value": "Başın arkasındaki darbe, kollardaki morluklar ve kamera kaydı bir itişi gösteriyor; tanığın görüşünü merdiven kulesi kesiyordu."
+  },
+  {
+   "key": "case017.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case017.file.value.bureau",
+   "value": "BDS Londra — Southwark Şubesi"
+  },
+  {
+   "key": "case017.file.value.location",
+   "value": "Rotherhithe, Cutter’s Basin — eski yaya köprüsü"
+  },
+  {
+   "key": "case017.file.value.number",
+   "value": "BDS-LDN-2029-0119"
+  },
+  {
+   "key": "case017.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case017.file.value.reporter",
+   "value": "Yöre sakini"
+  },
+  {
+   "key": "case017.garrett.body",
+   "value": "Reeve’in mektubu üzerine."
+  },
+  {
+   "key": "case017.garrett.deflect",
+   "value": "Avukatım olmadan bunu konuşmam."
+  },
+  {
+   "key": "case017.garrett.malcolm.answer",
+   "value": "Malcolm mu? Malcolm beni hiç korumadı, devriyede bile. O adam kural kitabıydı. Devir yazısını kim yazdıysa ona sorun."
+  },
+  {
+   "key": "case017.garrett.malcolm.answer.demeanor",
+   "value": "Kısa, kuru bir gülüş."
+  },
+  {
+   "key": "case017.garrett.malcolm.question",
+   "value": "Malcolm Reeve sizi korumak için mi imza attı?"
+  },
+  {
+   "key": "case017.garrett.paid.answer",
+   "value": "…Bir telefon numarası verilmişti bana, yıllar önce. ‘Dosyan şubeye gelirse ara, bin beş yüze kapanır.’ Aradım. Sesini bilmem, yüzünü bilmem. Nakit, bir çöp kutusuna. Benden yukarısını sorma."
+  },
+  {
+   "key": "case017.garrett.paid.answer.demeanor",
+   "value": "Sesini alçalttı."
+  },
+  {
+   "key": "case017.garrett.paid.question",
+   "value": "Tanner Lane dosyasının hızlı kapanması için birine para verdiniz mi?"
+  },
+  {
+   "key": "case017.garrett.quote",
+   "value": "“Malcolm kural kitabıydı.”"
+  },
+  {
+   "key": "case017.garrett.title",
+   "value": "Neil Garrett — tutukevi görüşmesi"
+  },
+  {
+   "key": "case017.graham.body",
+   "value": "Dosya kabul şefiyle."
+  },
+  {
+   "key": "case017.graham.deflect",
+   "value": "Bunu tutanaklara bakmadan söyleyemem."
+  },
+  {
+   "key": "case017.graham.drafts.answer",
+   "value": "Elbette. Şablon benim işim. Amirler yoğun, ben taslak yazarım, onlar okur ve imzalar. Malcolm hiçbir zaman itiraz etmedi."
+  },
+  {
+   "key": "case017.graham.drafts.answer.demeanor",
+   "value": "Rahat, kollarını kavuşturdu."
+  },
+  {
+   "key": "case017.graham.drafts.question",
+   "value": "Altı devir yazısının taslağı sizin hesabınızda oluşturulmuş."
+  },
+  {
+   "key": "case017.graham.envelope.answer",
+   "value": "Günde yüz zarf teslim alırım. Dağıtım kutusuna koymuşumdur. Kaybolduysa posta biriminin sorunu."
+  },
+  {
+   "key": "case017.graham.envelope.question",
+   "value": "Reeve’in Bora’ya gönderdiği zarfı siz teslim aldınız."
+  },
+  {
+   "key": "case017.graham.night.answer",
+   "value": "Evde, Bermondsey’de. Erken yattım."
+  },
+  {
+   "key": "case017.graham.night.question",
+   "value": "10 Mayıs gecesi neredeydiniz?"
+  },
+  {
+   "key": "case017.graham.quote",
+   "value": "“Benden yukarısı orada.”"
+  },
+  {
+   "key": "case017.graham.title",
+   "value": "Graham Holt — görüşme"
+  },
+  {
+   "key": "case017.graham_2.body",
+   "value": "Santral ve konum kaydı üzerine."
+  },
+  {
+   "key": "case017.graham_2.sms.answer",
+   "value": "O ağ geçidine şubede yirmi kişi girebilir. Şifrem masamda yazılı duruyor, herkes bilir."
+  },
+  {
+   "key": "case017.graham_2.sms.answer.demeanor",
+   "value": "İlk kez sesi yükseldi."
+  },
+  {
+   "key": "case017.graham_2.sms.question",
+   "value": "23.21’deki mesajı sizin hesabınız, Bora’nın hattı adına, köprünün yanından gönderdi."
+  },
+  {
+   "key": "case017.graham_2.there.answer",
+   "value": "…Malcolm beni aradı, zarfı sordu. Konuşmaya gittim. Onu ayakta bıraktım. Korkuluğa yaslanmıştı, ağlıyordu. Gerisi onun kararı."
+  },
+  {
+   "key": "case017.graham_2.there.question",
+   "value": "Telefonunuz 23.12 – 23.58 arası Cutter’s Basin’deydi."
+  },
+  {
+   "key": "case017.graham_2.title",
+   "value": "Graham Holt — ikinci görüşme"
+  },
+  {
+   "key": "case017.graham_3.berlin.answer",
+   "value": "Ben altı cümle yazdım, altı yılda. Para Berlin’den geliyordu. Kim gönderdiğini hiç bilmedim, bilmek de istemedim. Benden yukarısı orada. Asla bulamazsınız."
+  },
+  {
+   "key": "case017.graham_3.berlin.answer.demeanor",
+   "value": "İlk kez gülümsedi."
+  },
+  {
+   "key": "case017.graham_3.berlin.question",
+   "value": "Berlin’deki şirket kim?"
+  },
+  {
+   "key": "case017.graham_3.body",
+   "value": "Arama tutanağı üzerine."
+  },
+  {
+   "key": "case017.graham_3.bridge.answer",
+   "value": "Zarfı ona geri vermek istedim, okuyamasın diye değil, yeniden düşünsün diye. ‘Bora yarın her şeyi öğrenecek’ dedi. Fener elimdeydi. …Bir kez. Sonra korkuluk. O kadar."
+  },
+  {
+   "key": "case017.graham_3.bridge.answer.demeanor",
+   "value": "Ellerini masaya düz koydu."
+  },
+  {
+   "key": "case017.graham_3.bridge.question",
+   "value": "Reeve’in telefonu sizin alet çekmecenizde."
+  },
+  {
+   "key": "case017.graham_3.title",
+   "value": "Graham Holt — üçüncü görüşme"
+  },
+  {
+   "key": "case017.holt_phone.body",
+   "value": "Hat: Graham Holt.\n\n10 Mayıs 2029\n· 22.10 · baz: Bermondsey (ev)\n· 23.12 · baz: Rotherhithe, Cutter’s Basin\n· 23.21 · veri oturumu · Rotherhithe, Cutter’s Basin\n· 23.58 · baz: Rotherhithe, Lower Road\n· 00.20 · baz: Bermondsey (ev)"
+  },
+  {
+   "key": "case017.holt_phone.title",
+   "value": "TELEFON KONUM KAYDI — GRAHAM HOLT"
+  },
+  {
+   "key": "case017.joan.body",
+   "value": "Eşinin ifadesi."
+  },
+  {
+   "key": "case017.joan.deflect",
+   "value": "Bunu Malcolm bilirdi. Ben bilmiyorum."
+  },
+  {
+   "key": "case017.joan.letter.answer",
+   "value": "Bir mektup. Türk dedektife, Tanner Lane dosyasını çözen adama. ‘O imzayı neden attığımı bilmesi lazım’ dedi. Salı sabahı şubeye postaladı. Taslağı bilgisayarında olmalı."
+  },
+  {
+   "key": "case017.joan.letter.answer.demeanor",
+   "value": "Sesi ilk kez titredi."
+  },
+  {
+   "key": "case017.joan.letter.question",
+   "value": "Ne yazıyordu?"
+  },
+  {
+   "key": "case017.joan.mood.answer",
+   "value": "Uyumuyordu. Ama intihar edecek bir adam değildi, bir şeyi düzeltmeye çalışan bir adamdı. Geceleri çalışma odasında yazıyordu."
+  },
+  {
+   "key": "case017.joan.mood.question",
+   "value": "Son haftalarda nasıldı?"
+  },
+  {
+   "key": "case017.joan.night.answer",
+   "value": "Dokuzda çıktı. ‘Biriyle buluşacağım, sonra her şey bitecek’ dedi. Ben ‘inceleme mi?’ dedim. ‘Hayır,’ dedi, ‘başlangıç.’"
+  },
+  {
+   "key": "case017.joan.night.answer.demeanor",
+   "value": "Yüzüğünü çevirip durdu."
+  },
+  {
+   "key": "case017.joan.night.question",
+   "value": "Malcolm dün akşam ne yaptı?"
+  },
+  {
+   "key": "case017.joan.quote",
+   "value": "“Bir şeyi düzeltmeye çalışan bir adamdı.”"
+  },
+  {
+   "key": "case017.joan.title",
+   "value": "Joan Reeve — görüşme"
+  },
+  {
+   "key": "case017.letter.body",
+   "value": "Dosya adı: “Bora’ya”. Son kayıt: 7 Mayıs 2029, 02.14.\n\n“Tanner Lane devir yazısını ben yazmadım. Altı yıldır şubenin dosya kabul biriminden bana hazır devir metinleri geliyor; ‘rutin, imzanız yeter’ diye. İmzaladım. Okumadan değil — ama sorgulamadan. Neil Garrett’la ortaklığım yüzünden kimse inanmayacak, biliyorum.\n\nAltı dosyanın listesi ekte. Hepsi ‘kısa sürede kapatılması önerilir’ cümlesiyle devredildi, hepsi kapandı. Metinlerin belge kayıtlarına bakarsan kimin yazdığını görürsün. Ben bakmaya korktum. Aslını şubeye, senin adına postaladım.”"
+  },
+  {
+   "key": "case017.letter.title",
+   "value": "TASLAK MEKTUP — MALCOLM REEVE’İN EV BİLGİSAYARI"
+  },
+  {
+   "key": "case017.mailroom.body",
+   "value": "bube Londra, Southwark şubesi, gelen evrak.\n\n· 09.12 · zarf, el yazısıyla “BORA’YA — ŞAHSEN” · gönderen: M. Reeve · kayıt no. 0510-07\n· 09.20 · dağıtım için teslim alan: Graham Holt, dosya kabul\n\nDağıtım sütunu boş. Zarf Bora’nın masasına ulaşmadı."
+  },
+  {
+   "key": "case017.mailroom.title",
+   "value": "ŞUBE POSTA KAYDI — 10 MAYIS"
+  },
+  {
+   "key": "case017.method.fell",
+   "value": "Korkuluğa yaslanırken düştü"
+  },
+  {
+   "key": "case017.method.jumped",
+   "value": "Korkuluğa çıkıp atladı"
+  },
+  {
+   "key": "case017.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case017.method.struck",
+   "value": "Başının arkasına vurulup korkuluktan itildi"
+  },
+  {
+   "key": "case017.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case017.offer.subtitle",
+   "value": "KÖPRÜ  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case017.offer.summary",
+   "value": "Tanner Lane devir yazısını imzalayan bölge irtibat amiri, Rotherhithe’de eski bir köprünün altında ölü bulunuyor. Tanık “kendi atladı” diyor. Telefonundaki son mesaj senin masa hattından gelmiş."
+  },
+  {
+   "key": "case017.offer.title",
+   "value": "DOSYA #017"
+  },
+  {
+   "key": "case017.person.aisha.info",
+   "value": "40 yaşında, bube iç inceleme görevlisi. Nisan’dan beri Malcolm Reeve hakkındaki incelemeyi yürütüyor."
+  },
+  {
+   "key": "case017.person.aisha.name",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.person.garrett.info",
+   "value": "45 yaşında, Tanner Lane dosyasından tutuklu; duruşmasını Thamesmead Tutukevi’nde bekliyor."
+  },
+  {
+   "key": "case017.person.garrett.name",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case017.person.graham.info",
+   "value": "52 yaşında, bube Londra şubesinin dosya kabul şefi. Gelen her devir dosyası onun masasından geçer."
+  },
+  {
+   "key": "case017.person.graham.name",
+   "value": "Graham Holt"
+  },
+  {
+   "key": "case017.person.joan.info",
+   "value": "56 yaşında, emekli hemşire. Malcolm Reeve’in otuz yıllık eşi."
+  },
+  {
+   "key": "case017.person.joan.name",
+   "value": "Joan Reeve"
+  },
+  {
+   "key": "case017.person.tommy.info",
+   "value": "63 yaşında, Cutter’s Basin’de bağlı bir mavnada yaşıyor; geceleri iskelenin bekçiliğini yapıyor."
+  },
+  {
+   "key": "case017.person.tommy.name",
+   "value": "Tommy Blake"
+  },
+  {
+   "key": "case017.phone.body",
+   "value": "Hat: Malcolm Reeve. Telefonun kendisi kayıp; dökümü operatörden.\n\n10 Mayıs 2029\n· 21.58 · giden arama · Aisha Rahman · 2 dk\n· 23.21 · gelen kısa mesaj · gönderen: bube Londra şube santrali, dahili 214\n   “Zarfı aldım. Köprüde buluşalım. Yalnız gel. — Bora”\n· 23.22 · giden kısa mesaj · aynı numaraya · “Buradayım.”\n· 23.52 · telefon şebekeden düştü · son baz: Rotherhithe, Cutter’s Basin\n\nDahili 214, şube rehberinde Bora’nın masa hattı olarak kayıtlı."
+  },
+  {
+   "key": "case017.phone.title",
+   "value": "TELEFON KAYDI — MALCOLM REEVE"
+  },
+  {
+   "key": "case017.plan.body",
+   "value": "Kuşbakışı kroki, olay yeri ekibinin ölçümlerinden. Havzayı yatay geçen eski demiryolu yaya köprüsü; batı ucunda tuğla merdiven kulesi, doğu ucunda açık merdiven. Güneyde rıhtım ve bağlı mavnalar, rıhtımda eski bir yük vinci. Kuzeydoğuda bir deponun duvar kamerası.\n\nTanıkların anlattığı ve kayıtların gösterdiği konumlar planda işaretlenir."
+  },
+  {
+   "key": "case017.plan.incident",
+   "value": "Çarpı: köprü güvertesinde korkuluğun eğildiği nokta; ceset tam altındaki rıhtımda bulundu. İşaretlere dokununca o noktadan görülebilen alan çizilir."
+  },
+  {
+   "key": "case017.plan.marker.aisha_claim",
+   "value": "Aisha Rahman — Reeve’le konuştuğu yer: doğu merdiveni, 22.40"
+  },
+  {
+   "key": "case017.plan.marker.tommy_claim",
+   "value": "Tommy Blake — kendi anlattığı yer: mavnanın güvertesi"
+  },
+  {
+   "key": "case017.plan.marker.warehouse_cam",
+   "value": "Depo kamerası — köprü güvertesi, 23.20 – 00.10"
+  },
+  {
+   "key": "case017.plan.title",
+   "value": "OLAY YERİ PLANI — CUTTER’S BASIN YAYA KÖPRÜSÜ"
+  },
+  {
+   "key": "case017.recon.r_aisha",
+   "value": "Reeve köprüde iç inceleme görevlisiyle görüşüyor; Aisha 23.08’de ayrılıyor."
+  },
+  {
+   "key": "case017.recon.r_bridge",
+   "value": "Holt köprüde Reeve’in başına fenerle vuruyor ve onu korkuluktan itiyor."
+  },
+  {
+   "key": "case017.recon.r_burn",
+   "value": "Holt zarfı yakmaya çalışıyor, Reeve’in telefonunu çekmecesine saklıyor."
+  },
+  {
+   "key": "case017.recon.r_drafts",
+   "value": "Altı yıl boyunca devir yazıları dosya kabul hesabında hazırlanıp Reeve’e imzaya gönderiliyor."
+  },
+  {
+   "key": "case017.recon.r_letter",
+   "value": "Reeve her şeyi Bora’ya yazıyor ve zarfı şubeye postalıyor."
+  },
+  {
+   "key": "case017.recon.r_mail",
+   "value": "Zarf şubede Graham Holt’un imzasıyla teslim alınıyor, Bora’ya ulaşmıyor."
+  },
+  {
+   "key": "case017.recon.r_sms",
+   "value": "Bora’nın dahili hattı adına “Köprüde buluşalım” mesajı gidiyor; gönderen Holt’un hesabı."
+  },
+  {
+   "key": "case017.report.body",
+   "value": "11 Mayıs 2029 saat 05.40’ta Rotherhithe’de, Cutter’s Basin üzerindeki eski demiryolu yaya köprüsünün altında, rıhtım taşlarının üstünde bir erkek cesedi bulundu. Köprü güvertesi rıhtımdan dokuz metre yüksekte. Bulan kişi sabah koşusundaki bir yöre sakini.\n\nÖlen: Malcolm Reeve (58), bölge irtibat amiri. Arabası köprünün doğu merdiveninin yanında park hâlinde. Telefonu üzerinden çıkmadı.\n\nDevriye notu: “Nisan’dan beri hakkında iç inceleme sürüyor (Tanner Lane devir yazısı). Baskı altındaydı. Atlama ihtimali yüksek.”\n\nDosya kabul birimi devir notu, 11 Mayıs 07.30: “Şüpheli ölüm. Bulgular intiharla tutarlıdır. Dosyanın rutin işlemle, kısa sürede kapatılması önerilir.” İmza: dosya kabul şefi."
+  },
+  {
+   "key": "case017.report.title",
+   "value": "OLAY RAPORU VE DEVİR NOTU"
+  },
+  {
+   "key": "case017.request.aisha_log",
+   "value": "Aisha Rahman’ın plaka kaydını iste"
+  },
+  {
+   "key": "case017.request.badge",
+   "value": "Kendi şube giriş kaydını iste"
+  },
+  {
+   "key": "case017.request.bank",
+   "value": "Graham Holt’un hesap dökümünü iste"
+  },
+  {
+   "key": "case017.request.drafts",
+   "value": "Devir yazılarının belge kayıtlarını iste"
+  },
+  {
+   "key": "case017.request.holt_phone",
+   "value": "Graham Holt’un telefon konum kaydını iste"
+  },
+  {
+   "key": "case017.request.letter",
+   "value": "Reeve’in ev bilgisayarındaki taslakları iste"
+  },
+  {
+   "key": "case017.request.mailroom",
+   "value": "Şubenin gelen evrak kaydını iste"
+  },
+  {
+   "key": "case017.request.phone",
+   "value": "Malcolm Reeve’in telefon dökümünü iste"
+  },
+  {
+   "key": "case017.request.search",
+   "value": "Graham Holt’un evinde arama tutanağını iste"
+  },
+  {
+   "key": "case017.request.switchboard",
+   "value": "Şube santralinin mesaj kaydını iste"
+  },
+  {
+   "key": "case017.search.body",
+   "value": "Bermondsey, 11 Mayıs 2029.\n\n· Garajda metal bir çöp kovasında kısmen yanmış kâğıtlar: kahverengi zarf parçası, el yazısıyla “…RA’YA — ŞAH…”; liste hâlinde altı dosya numarasının yarısı.\n· Alet çekmecesinde kapalı, ekranı kırık bir cep telefonu. Seri numarası Malcolm Reeve’in hattıyla eşleşiyor.\n· Arabanın bagajında uzun, çelik gövdeli bir el feneri. Gövdenin ucunda saç ve kan; inceleme için gönderildi.\n\nArama sırasında Graham Holt hazır bulundu."
+  },
+  {
+   "key": "case017.search.title",
+   "value": "ARAMA TUTANAĞI — GRAHAM HOLT’UN EVİ VE GARAJI"
+  },
+  {
+   "key": "case017.summary.evidence",
+   "value": "Olay yeri planı, “kendi atladı” diyen tanığın görüşünü merdiven kulesinin kestiğini gösterdi; depo kamerası ikinci bir adamı gösterdi. Reeve’in taslak mektubu ve posta kaydı zarfın Holt’ta kaldığını, belge kaydı altı devir yazısının onun hesabında doğduğunu ortaya koydu. Santral kaydı mesajı Holt’un hesabına ve köprüye bağladı; konum kaydı ve arama tutanağı geceyi kapattı."
+  },
+  {
+   "key": "case017.summary.lesson",
+   "value": "Bir mesajın görünen göndericisi, gerçek göndericisi değildir: kaydın kendisini, oturumu ve yeri iste. Ve dosyanın sana nasıl geldiğine de bak — devir notu da bir tanıktır."
+  },
+  {
+   "key": "case017.summary.location",
+   "value": "Rotherhithe ve bube Londra şubesi — 2023–2029"
+  },
+  {
+   "key": "case017.summary.truth",
+   "value": "Dosya kabul şefi Graham Holt altı yıl boyunca para karşılığı devir yazıları hazırladı ve bölge irtibat amiri Malcolm Reeve’e “rutin” diye imzalattı; Tanner Lane bunlardan biriydi. İç incelemeyle köşeye sıkışan Reeve gerçeği Bora’ya yazıp şubeye postaladı. Zarfı Holt teslim aldı. 10 Mayıs gecesi şube santralinin ağ geçidinden Bora’nın dahili hattı adına mesaj atıp Reeve’i köprüye çağırdı, başının arkasına fenerle vurdu ve korkuluktan itti. Ertesi sabah Reeve’in ölümünü devralan dosyanın devir notunu da kendisi yazdı. Para Berlin’deki bir şirketten geliyordu."
+  },
+  {
+   "key": "case017.suspect.label",
+   "value": "Malcolm Reeve’in ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case017.switchboard.body",
+   "value": "Talep: bube Londra bilgi işlem. 10 Mayıs 23.21’de dahili 214’ten giden kısa mesaj.\n\n· Mesaj masa telefonundan gönderilmemiş. Santralin web üzerinden mesaj ağ geçidi kullanılmış; gönderen hat “dahili 214” olarak seçilmiş.\n· Ağ geçidine giriş yapan hesap: dosyakabul-03 (Graham Holt).\n· Girişin yapıldığı cihaz: bir cep telefonu. Bağlantı noktası: Rotherhithe, Cutter’s Basin çevresi.\n· 23.22’de gelen “Buradayım.” yanıtı aynı oturumda okundu olarak işaretlenmiş.\n\nNot: Ağ geçidi, herhangi bir dahili hattın adına mesaj göndermeye izin veriyor. Bu açık 2027’den beri raporlu."
+  },
+  {
+   "key": "case017.switchboard.title",
+   "value": "ŞUBE SANTRAL KAYDI — DAHİLİ 214"
+  },
+  {
+   "key": "case017.tablet.caseLine",
+   "value": "DOSYA #017  /  BUBE LONDRA — SOUTHWARK"
+  },
+  {
+   "key": "case017.time.aisha_in",
+   "value": "10 Mayıs 22.31"
+  },
+  {
+   "key": "case017.time.aisha_out",
+   "value": "10 Mayıs 23.08"
+  },
+  {
+   "key": "case017.time.badgeout",
+   "value": "10 Mayıs 18.40"
+  },
+  {
+   "key": "case017.time.drafts",
+   "value": "2023–2029"
+  },
+  {
+   "key": "case017.time.drop",
+   "value": "10 Mayıs 23.52"
+  },
+  {
+   "key": "case017.time.holt_in",
+   "value": "10 Mayıs 23.12"
+  },
+  {
+   "key": "case017.time.leave",
+   "value": "23.48"
+  },
+  {
+   "key": "case017.time.mail",
+   "value": "10 Mayıs 09.20"
+  },
+  {
+   "key": "case017.time.meet",
+   "value": "23.44"
+  },
+  {
+   "key": "case017.time.sms",
+   "value": "10 Mayıs 23.21"
+  },
+  {
+   "key": "case017.time.strike",
+   "value": "23.47"
+  },
+  {
+   "key": "case017.title",
+   "value": "Dosya #017 — Köprü"
+  },
+  {
+   "key": "case017.tommy.before.answer",
+   "value": "Bir araba kapısı, on biri biraz geçe. Bir de… sesler mi, rüzgâr mı. Burada rüzgâr çok olur."
+  },
+  {
+   "key": "case017.tommy.before.question",
+   "value": "Ondan önce bir şey duydunuz mu?"
+  },
+  {
+   "key": "case017.tommy.body",
+   "value": "Mavnadaki bekçiyle."
+  },
+  {
+   "key": "case017.tommy.deflect",
+   "value": "Ben gördüğümü söyledim, gerisini bilmem."
+  },
+  {
+   "key": "case017.tommy.saw.answer",
+   "value": "On ikiye on kala güverteye çıktım, sigara için. Köprüde bir adam korkuluğun üstündeydi, sonra düştü. Yanında kimse yoktu, yemin ederim. Kendi atladı."
+  },
+  {
+   "key": "case017.tommy.saw.answer.demeanor",
+   "value": "Emin, neredeyse öfkeli."
+  },
+  {
+   "key": "case017.tommy.saw.question",
+   "value": "Dün gece ne gördünüz?"
+  },
+  {
+   "key": "case017.tommy.title",
+   "value": "Tommy Blake — görüşme"
+  },
+  {
+   "key": "case017.tommy_2.body",
+   "value": "Olay yeri planı üzerine."
+  },
+  {
+   "key": "case017.tommy_2.title",
+   "value": "Tommy Blake — ikinci görüşme"
+  },
+  {
+   "key": "case017.tommy_2.tower.answer",
+   "value": "…Kule. Evet. Ben adamı kulenin arkasından çıkarken gördüm, düşerken. Korkuluğun üstünde durduğunu… görmedim aslında. Gördüğümü sandım. İnsan bir düşüş görünce gerisini kendi tamamlıyor."
+  },
+  {
+   "key": "case017.tommy_2.tower.answer.demeanor",
+   "value": "Uzun süre plana baktı."
+  },
+  {
+   "key": "case017.tommy_2.tower.question",
+   "value": "Mavnanızla köprünün o noktası arasında merdiven kulesi var."
+  },
+  {
+   "key": "case017.verdict.aisha",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.verdict.garrett",
+   "value": "Neil Garrett — tutukevinden birine yaptırdı"
+  },
+  {
+   "key": "case017.verdict.graham",
+   "value": "Graham Holt"
+  },
+  {
+   "key": "case017.verdict.nobody",
+   "value": "Kimse — Reeve atladı"
+  }
+ ]
+}

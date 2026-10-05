@@ -14,9 +14,11 @@ public sealed partial class BubeApp {
   var finale=data?.chapterFinale;
   if(finale==null || string.IsNullOrEmpty(finale.countryKey) || PlayerPrefs.GetInt(FinalePrefix+caseId,0)==1){then?.Invoke();return;}
   PlayerPrefs.SetInt(FinalePrefix+caseId,1);PlayerPrefs.Save();
-  var lines=Enumerable.Range(1,5).Select(i=>"finale.call."+i).Where(locale.Has).Select(T).ToArray();
+  var keys=finale.callKeys!=null && finale.callKeys.Length>0?finale.callKeys:Enumerable.Range(1,5).Select(i=>"finale.call."+i).ToArray();
+  var lines=keys.Where(locale.Has).Select(T).ToArray();
+  var personnelBody=string.IsNullOrEmpty(finale.personnelBodyKey)?"finale.personnelBody":finale.personnelBodyKey;
   KarineUI.FinaleCall(root,T("finale.morning"),lines,()=>
-   KarineUI.PersonnelReview(root,T("finale.personnel"),PersonnelRows(caseId),T("finale.personnelBody"),T("finale.program"),T(finale.nextCountryKey),T("finale.closeFile"),()=>
+   KarineUI.PersonnelReview(root,T("finale.personnel"),PersonnelRows(caseId),T(personnelBody),T("finale.program"),T(finale.nextCountryKey),T("finale.closeFile"),()=>
     KarineUI.ChapterComplete(root,T(finale.countryKey)+" — "+T(finale.progressKey),string.Format(T("finale.complete"),T(finale.countryKey)),()=>
      KarineUI.NewFileDrop(root,T(finale.nextFileKey),T(finale.nextCountryKey),T("finale.sealed"),then))));
  }
