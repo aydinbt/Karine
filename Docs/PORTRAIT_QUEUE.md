@@ -52,25 +52,25 @@ A 31-year-old German man, messy black hair, stubble, dark circles under his eyes
 
 ## Dosya #020 (4)
 
-7. **Ingrid Albrecht** → `ingrid.png`
+7. **Ingrid Albrecht** → `ingrid.png` ✅
 
 ```
 A 51-year-old German woman, short ash-brown hair, practical glasses, tired determined face. Slate-blue cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-8. **Günter Albrecht** → `gunter.png`
+8. **Günter Albrecht** → `gunter.png` ✅
 
 ```
 A 76-year-old German man, white hair combed back, deep lines, calm dignified sadness, trembling hands. Brown wool jacket over a checked shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-9. **Petra Neumann** → `petra.png`
+9. **Petra Neumann** → `petra.png` ✅
 
 ```
 A 58-year-old German woman, greying brown hair in a loose bun, reading glasses on her head, careful precise expression. Dark green knit top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-10. **Stefan Hahn** → `stefan.png`
+10. **Stefan Hahn** → `stefan.png` ✅
 
 ```
 A 52-year-old German man, receding brown hair, trimmed beard, intense wounded eyes. Navy sweater over a collared shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
