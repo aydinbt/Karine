@@ -121,13 +121,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 72. **Eski dava kararı** → `case035_ruling.png` ✅
 
 ## Dosya #036 (3)
-73. **Kırık magnum şişe** → `case036_magnum.png`
-74. **Boş etiketler** → `case036_labels.png`
-75. **Şarap asansörü** → `case036_lift.png`
+73. **Kırık magnum şişe** → `case036_magnum.png` ✅
+74. **Boş etiketler** → `case036_labels.png` ✅
+75. **Şarap asansörü** → `case036_lift.png` ✅
 
 ## Dosya #037 (3)
-76. **Buhar presi** → `case037_press.png`
-77. **Terzi metresi** → `case037_tape.png`
+76. **Buhar presi** → `case037_press.png` ✅
+77. **Terzi metresi** → `case037_tape.png` ✅
 78. **Lisans faturaları** → `case037_invoices.png`
 
 ## Dosya #038 (3)

@@ -53,7 +53,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case037.request.presslog",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case037.item.press.name",
+     "detailKey": "case037.item.press.detail",
+     "imageResource": "Bube/Items/case037_press"
+    }
+   ]
   },
   {
    "id": "court",
@@ -256,7 +263,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case037.item.tape.name",
+     "detailKey": "case037.item.tape.detail",
+     "imageResource": "Bube/Items/case037_tape"
+    }
+   ]
   },
   {
    "id": "lenoir",

@@ -204,6 +204,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case036.pinto.bell"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case036.item.lift.name",
+     "detailKey": "case036.item.lift.detail",
+     "imageResource": "Bube/Items/case036_lift"
+    }
    ]
   },
   {
@@ -355,7 +362,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case036.item.magnum.name",
+     "detailKey": "case036.item.magnum.detail",
+     "imageResource": "Bube/Items/case036_magnum"
+    },
+    {
+     "nameKey": "case036.item.labels.name",
+     "detailKey": "case036.item.labels.detail",
+     "imageResource": "Bube/Items/case036_labels"
+    }
+   ]
   },
   {
    "id": "petit_2",
