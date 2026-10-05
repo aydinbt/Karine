@@ -1446,43 +1446,43 @@ A 41-year-old Samoan-Australian man, short black hair, a big gentle face with a 
 
 ## Dosya #068 (7)
 
-223. **Grant Ainsley** → `ainsley.png`
+223. **Grant Ainsley** → `ainsley.png` ✅
 
 ```
 A 49-year-old Anglo-Australian man, greying brown hair under no hat, a weathered lean face with deep squint lines, hard grey eyes. A dark green quilted stable vest over a check shirt, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-224. **Declan Rafferty** → `rafferty.png`
+224. **Declan Rafferty** → `rafferty.png` ✅
 
 ```
 A 61-year-old Irish-Australian man, thick white hair combed back, a ruddy jowly face, small amused blue eyes. A maroon tie and a tailored grey suit. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-225. **Shane Keogh** → `keogh.png`
+225. **Shane Keogh** → `keogh.png` ✅
 
 ```
 A 27-year-old Australian jockey, very slight build, short brown hair, a narrow nervous face, freckles. A yellow-and-white silk racing shirt with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-226. **Deng Akol** → `deng.png`
+226. **Deng Akol** → `deng.png` ✅
 
 ```
 A 24-year-old South Sudanese-Australian man, very tall, close-cropped hair, a long gentle face, frightened dark eyes. A navy stable hoodie with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-227. **Harriet Combe** → `harriet.png`
+227. **Harriet Combe** → `harriet.png` ✅
 
 ```
 A 45-year-old English-born Australian woman, auburn hair in a loose low bun, a pale freckled composed face, guarded green eyes. A slate-blue veterinary scrub top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-228. **Sione Taufa** → `sione.png`
+228. **Sione Taufa** → `sione.png` ✅
 
 ```
 A 38-year-old Tongan-Australian man, short black hair, a broad calm face, heavy forearms. A dark grey leather farrier's apron over a black T-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-229. **Mai Pham** → `mai.png`
+229. **Mai Pham** → `mai.png` ✅
 
 ```
 A 31-year-old Vietnamese-Australian woman, long black hair worn loose, rimless glasses, a precise alert face. A black blazer over a dark top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
