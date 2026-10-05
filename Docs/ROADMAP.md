@@ -636,5 +636,6 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [~] Vaka zinciri onarıldı: #048 → #049 ve #055 → #056 `nextCaseId` boştu (doğrulayıcı notu "zincire bağlı değil: case049"); şimdi #001–#073 kesintisiz.
 - [~] Kural üreticisi `decoys`, `archive`, `lines`, `closes`, `recon`, `finale` anahtarları (bkz. `Architecture.md` → "Vaka üretim hattı").
 - [ ] Görseller: `CASE025_PROMPTS.md` … `CASE073_PROMPTS.md` (portre, bulgu, kapak, CCTV), `EVIDENCE_PROMPTS.md` (#013–#024 ayrıntılı bulgular), `WORLD_BACKDROP_PROMPTS.md` (jp … au kartpostalları).
-- [ ] Bulgu görselleri gelince #013–#073'te `report.relatedItems` bağlanacak (şu an yalnız prompt belgelerinde; veri bağlı değil).
+- [~] Bulgu bağlama aracı: `Tools/bind-items.py` + `Tools/item_bindings.json` (186 bulgu, #013–#073; her biri bir belgeye eşli). Görseli olan bulguyu `relatedItems`'a ve yerele yazar, `.meta`'yı `nPOTScale: 0` ile kurar; görseli olmayanı atlar. Geçici görselle denendi, 132/132 geçti.
+- [ ] Görseller geldikçe `python3 Tools/bind-items.py` çalıştırılacak (şu an 186 bulgu görsel bekliyor).
 - [ ] Kullanıcı bütün bölümleri gözden geçirecek; Unity'de her bölümden en az bir dosya oynanacak.

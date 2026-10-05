@@ -1,0 +1,1240 @@
+{
+ "case013": [
+  {
+   "id": "cloth",
+   "node": "scene",
+   "name": "Baca bezi",
+   "detail": "Bir yüzü isle kararmış gri temizlik bezi; öbür yüzü temiz."
+  },
+  {
+   "id": "alarm",
+   "node": "scene",
+   "name": "Pilsiz alarm",
+   "detail": "Karbonmonoksit alarmı; pil yuvası boş."
+  },
+  {
+   "id": "fire",
+   "node": "service",
+   "name": "Gaz sobası",
+   "detail": "Duvardaki eski gaz sobası; üstünde is lekesi."
+  },
+  {
+   "id": "ledger",
+   "node": "ledger",
+   "name": "Kira defteri",
+   "detail": "Aylık kira dökümü; bir satır sarıyla işaretli."
+  }
+ ],
+ "case014": [
+  {
+   "id": "note",
+   "node": "notebook",
+   "name": "Yırtık not",
+   "detail": "Defterden yırtılmış küçük bir sayfa; tek kelime, okunmuyor."
+  },
+  {
+   "id": "cups",
+   "node": "scene",
+   "name": "İki fincan",
+   "detail": "Biri kurumuş çay izli, öbürü yeni yıkanmış iki fincan."
+  },
+  {
+   "id": "graphite",
+   "node": "notebook",
+   "name": "Grafitli sayfa",
+   "detail": "Grafit tozuyla beliren, alttaki sayfanın bastırma izleri."
+  },
+  {
+   "id": "pinhole",
+   "node": "framer",
+   "name": "İğne deliği",
+   "detail": "Tuvalin köşesinde UV ışıkta görünen küçük bir iğne deliği."
+  }
+ ],
+ "case015": [
+  {
+   "id": "kerb",
+   "node": "plan",
+   "name": "Bordür",
+   "detail": "Islak granit bordür; kenarında kan izi yok."
+  },
+  {
+   "id": "envelope",
+   "node": "handover",
+   "name": "Zarf",
+   "detail": "Köşesi yırtık, içinde banknot olan kahverengi zarf."
+  },
+  {
+   "id": "case",
+   "node": "cloud",
+   "name": "Telefon kılıfı",
+   "detail": "Çamurlu, çatlak siyah telefon kılıfı; telefon yok."
+  }
+ ],
+ "case016": [
+  {
+   "id": "wallet",
+   "node": "towpath",
+   "name": "Islak cüzdan",
+   "detail": "Sudan çıkmış deri cüzdan; içinde kimlik kartı."
+  },
+  {
+   "id": "letters",
+   "node": "letters",
+   "name": "Tahsilat mektupları",
+   "detail": "Katlanmış borç yazıları; birinin kenarında el yazısı."
+  },
+  {
+   "id": "grave",
+   "node": "death",
+   "name": "Çocuk mezar taşı",
+   "detail": "Yorkshire'da aşınmış küçük bir mezar taşı."
+  },
+  {
+   "id": "envelope",
+   "node": "fraud",
+   "name": "Kart zarfı",
+   "detail": "Açılmış bir banka kartı zarfı ve boş kart."
+  }
+ ],
+ "case017": [
+  {
+   "id": "envelope",
+   "node": "search",
+   "name": "Yanmış zarf",
+   "detail": "Kovada yarı yanmış zarf parçaları."
+  },
+  {
+   "id": "phone",
+   "node": "holt_phone",
+   "name": "Kırık telefon",
+   "detail": "Ekranı paramparça, kapalı bir telefon."
+  },
+  {
+   "id": "torch",
+   "node": "search",
+   "name": "Çelik fener",
+   "detail": "Uzun çelik fener; arka kapağında koyu leke."
+  }
+ ],
+ "case018": [
+  {
+   "id": "box",
+   "node": "yard",
+   "name": "Taşıma kutusu",
+   "detail": "Bantlı, köşesi ezik taşıma kutusu."
+  },
+  {
+   "id": "passport",
+   "node": "shelter",
+   "name": "Pasaport",
+   "detail": "Kapalı, lekeli bir pasaport."
+  },
+  {
+   "id": "phone",
+   "node": "autopsy",
+   "name": "Telefon",
+   "detail": "Kılıfında kan lekesi olan çatlak telefon."
+  }
+ ],
+ "case019": [
+  {
+   "id": "stand",
+   "node": "autopsy",
+   "name": "Mikrofon ayağı",
+   "detail": "Tabanı ezik ve lekeli ağır mikrofon ayağı."
+  },
+  {
+   "id": "studio",
+   "node": "door",
+   "name": "Ev stüdyosu",
+   "detail": "Çatı katı stüdyosu; devrilmiş sandalye."
+  }
+ ],
+ "case020": [
+  {
+   "id": "file",
+   "node": "file",
+   "name": "Arşiv klasörü",
+   "detail": "Karartılmış satırlarla dolu eski arşiv klasörü."
+  },
+  {
+   "id": "manuscript",
+   "node": "memoir",
+   "name": "Daktilo müsvedde",
+   "detail": "İple bağlı, kenarı notlu daktilo sayfaları."
+  },
+  {
+   "id": "pillow",
+   "node": "search",
+   "name": "Yastık kılıfı",
+   "detail": "Delil torbasında beyaz yastık kılıfı."
+  }
+ ],
+ "case021": [
+  {
+   "id": "oar",
+   "node": "prints",
+   "name": "Kürek",
+   "detail": "Ucunda koyu leke olan yarış küreği."
+  },
+  {
+   "id": "jacket",
+   "node": "plan",
+   "name": "Kürek ceketi",
+   "detail": "Ters çevrilmiş ıslak kürek ceketi."
+  },
+  {
+   "id": "xray",
+   "node": "xray",
+   "name": "Röntgen",
+   "detail": "Omuz eklemindeki iki metal vida."
+  }
+ ],
+ "case022": [
+  {
+   "id": "terminal",
+   "node": "audit",
+   "name": "Bilet terminali",
+   "detail": "Köşesi kırık el terminali."
+  },
+  {
+   "id": "receipts",
+   "node": "fines",
+   "name": "Ceza fişleri",
+   "detail": "Vagon zeminine saçılmış ceza fişleri."
+  }
+ ],
+ "case023": [
+  {
+   "id": "lanyard",
+   "node": "door",
+   "name": "Kart askısı",
+   "detail": "Ortasından kopmuş mavi kart askısı."
+  },
+  {
+   "id": "laptop",
+   "node": "fibre",
+   "name": "Dizüstü",
+   "detail": "İkinci el dükkânı etiketli dizüstü bilgisayar."
+  },
+  {
+   "id": "drawers",
+   "node": "series",
+   "name": "Dağınık daire",
+   "detail": "Çekmeceleri çekilmiş, balkon kapısı aralık daire."
+  }
+ ],
+ "case024": [
+  {
+   "id": "ledger",
+   "node": "ledger",
+   "name": "Defter",
+   "detail": "Eski, deri ciltli kalın defter."
+  },
+  {
+   "id": "pump",
+   "node": "pump",
+   "name": "İnfüzyon pompası",
+   "detail": "El düğmeli ilaç pompası."
+  },
+  {
+   "id": "poker",
+   "node": "scene",
+   "name": "Şömine demiri",
+   "detail": "Ucunda cam kırıkları olan şömine demiri."
+  },
+  {
+   "id": "envelope",
+   "node": "letter",
+   "name": "Mühürlü zarf",
+   "detail": "Kırmızı mumla mühürlü krem zarf."
+  }
+ ],
+ "case025": [
+  {
+   "id": "pillow",
+   "node": "pillowlab",
+   "name": "Kapsül yastığı",
+   "detail": "4B-12’den alınan yastık; kılıfın dışında bir el izi."
+  },
+  {
+   "id": "wristband",
+   "node": "locker",
+   "name": "Dolap bilekliği",
+   "detail": "4B-12 dolabının anahtar bilekliği; Tanabe’nin bileğinde, 4B-11 dolabınınki Mori’de."
+  },
+  {
+   "id": "bag",
+   "node": "locker",
+   "name": "‘Kimura’nın çantası",
+   "detail": "Dolapta kalan siyah sırt çantası; içinde bir USB bellek ve şirket kartı."
+  }
+ ],
+ "case026": [
+  {
+   "id": "bowl",
+   "node": "xrf",
+   "name": "‘16. yüzyıl’ kâse",
+   "detail": "Kuroda’nın aldığı çay kâsesi; kırık yerleri altın tutkalla onarılmış (kintsugi)."
+  },
+  {
+   "id": "ash",
+   "node": "shed",
+   "name": "Fırın külü ve yaşlandırma kavanozu",
+   "detail": "Fırın kulübesinden: çay yaprağı ve asitle dolu cam kavanoz, yanında yarı gömülü kâseler."
+  },
+  {
+   "id": "heel",
+   "node": "autopsy",
+   "name": "Ustanın tabi çorabı",
+   "detail": "Topuklarında kül ve toprak; ceset galeride, çorapsız ayaklarında değil, çorabın içinde."
+  }
+ ],
+ "case027": [
+  {
+   "id": "thermo",
+   "node": "thermo",
+   "name": "Depo termostatı",
+   "detail": "Ödül deposunun klima paneli; 14 °C’ye ve ‘sürekli’ moduna ayarlanmış."
+  },
+  {
+   "id": "tray",
+   "node": "tray",
+   "name": "Ödül tepsisi",
+   "detail": "Kasa arkasındaki plastik tepsi; içinde 180 jeton ve bir kopmuş kasiyer yaka kartı klipsi."
+  },
+  {
+   "id": "ledger",
+   "node": "ledger",
+   "name": "Ödül faturaları",
+   "detail": "Kurbanın masasında, sarı yapışkan notla işaretlenmiş on iki fatura."
+  }
+ ],
+ "case028": [
+  {
+   "id": "inhaler",
+   "node": "autopsy",
+   "name": "Boş inhaler",
+   "detail": "Kurbanın astım inhaleri; hazne çıkarılmış, yerine boş bir hazne takılmış."
+  },
+  {
+   "id": "remote",
+   "node": "syslog",
+   "name": "Karaoke kumandası",
+   "detail": "Odanın şarkı tableti; geçmişinde iki istek uzaktan uygulamadan gelmiş."
+  },
+  {
+   "id": "cuff",
+   "node": "cuff",
+   "name": "Kol düğmesi",
+   "detail": "Asansör boşluğunun önünde bulunan siyah oniks kol düğmesi."
+  }
+ ],
+ "case029": [
+  {
+   "id": "dental",
+   "node": "dental",
+   "name": "Diş kalıpları",
+   "detail": "Cesedin çene röntgeni ile Ishida Kazuki’nin kayıtlı röntgeni yan yana."
+  },
+  {
+   "id": "can",
+   "node": "garage",
+   "name": "Benzin bidonu",
+   "detail": "Atölyenin arkasında; kırmızı metal bidon, kapağında yanık izi."
+  },
+  {
+   "id": "keys",
+   "node": "garage",
+   "name": "Taşıma minibüsünün anahtarı",
+   "detail": "Atölyedeki alet çekmecesinde, beyaz plastik etiketli tek anahtar."
+  }
+ ],
+ "case030": [
+  {
+   "id": "sheet",
+   "node": "sheet",
+   "name": "Tatbikat yoklama kâğıdı",
+   "detail": "Kat yoklaması; kurbanın adının yanında farklı renk kalemle atılmış tik."
+  },
+  {
+   "id": "ext",
+   "node": "copy",
+   "name": "Yangın söndürücü",
+   "detail": "Asma tavanın içinde bulunan kırmızı söndürücü; tabanında ezilme ve kıl."
+  },
+  {
+   "id": "tile",
+   "node": "copy",
+   "name": "Asma tavan plakası",
+   "detail": "9. kat fotokopi odasının tavan plakası; yerinden oynamış, kenarında parmak izi tozu."
+  }
+ ],
+ "case031": [
+  {
+   "id": "cup",
+   "node": "cup",
+   "name": "Hirezake kadehi",
+   "detail": "Başkanın önündeki kapaklı seramik kadeh; dibinde yanık fugu yüzgeci ve kurumuş sake."
+  },
+  {
+   "id": "bin",
+   "node": "bin",
+   "name": "Mühürlü sakatat kutusu",
+   "detail": "Mutfağın kilitli fugu atık kutusu; mühür sağlam, karaciğer ve yumurtalıklar tartılıp kayda geçmiş."
+  },
+  {
+   "id": "vial",
+   "node": "lab",
+   "name": "Boş ampul",
+   "detail": "Arabanın kapı cebinde: laboratuvar tipi, kahverengi cam mini ampul; kırık boynu."
+  },
+  {
+   "id": "notebook",
+   "node": "notebook",
+   "name": "Başkanın defteri",
+   "detail": "Siyah deri kaplı küçük defter; son sayfa yeni yazılmış, kalem bastırılarak."
+  }
+ ],
+ "case032": [
+  {
+   "id": "bookend",
+   "node": "search",
+   "name": "Bronz kitap desteği",
+   "detail": "Asya bölümü ofisindeki çift bronz destekten biri; tabanında silinmiş kan izi."
+  },
+  {
+   "id": "letter",
+   "node": "letter",
+   "name": "Lot 47 köken mektubu",
+   "detail": "Fildişi kâğıda daktiloyla yazılmış, mavi mürekkep imzalı uzman mektubu; imzanın üstünde ‘E. V.’ baş harfleri."
+  },
+  {
+   "id": "badge",
+   "node": "board",
+   "name": "Kart panosu",
+   "detail": "Kasa dairesinin girişinde, taşıyıcı kartlarının asılı durduğu açık pano."
+  }
+ ],
+ "case033": [
+  {
+   "id": "flour",
+   "node": "flour",
+   "name": "Kâğıt un torbası",
+   "detail": "‘Müşterinin kendi unu’ diye getirilen kraft kâğıt torba; ağzı katlanmış, içinde sarımsı toz."
+  },
+  {
+   "id": "loaf",
+   "node": "order",
+   "name": "Yarım somun",
+   "detail": "Tezgâhta, bir dilimi kesilmiş küçük yuvarlak glütensiz somun."
+  },
+  {
+   "id": "envelope",
+   "node": "van",
+   "name": "Nakit zarfı",
+   "detail": "İkram koordinatörünün arabasının torpidosunda, içinde 5.000 avro bulunan beyaz zarf."
+  }
+ ],
+ "case034": [
+  {
+   "id": "knife",
+   "node": "flat",
+   "name": "Kazıma bıçağı",
+   "detail": "Ekran sökmede kullanılan ince, sivri uçlu bıçak; tezgâhtaki takımdan eksik olan."
+  },
+  {
+   "id": "simbook",
+   "node": "simbook",
+   "name": "SIM defteri",
+   "detail": "Kareli bir okul defteri; tarih, SIM numarası ve müşteri tarifi sütunları."
+  },
+  {
+   "id": "hoodie",
+   "node": "flat",
+   "name": "Kapüşonlu sweatshirt",
+   "detail": "Yacine’in dairesinde, çamaşır makinesinin içinde ıslak, kollarında açık kahverengi leke halkası."
+  }
+ ],
+ "case035": [
+  {
+   "id": "call",
+   "node": "calllog",
+   "name": "Acil çağrı kaydı",
+   "detail": "Çağrı merkezi ekran görüntüsü: arayan numara, saat, konum."
+  },
+  {
+   "id": "card",
+   "node": "navigo",
+   "name": "Metro kartı",
+   "detail": "Lucien Mallet’nin cüzdanındaki aylık metro kartı."
+  },
+  {
+   "id": "ruling",
+   "node": "ruling",
+   "name": "Eski dava kararı",
+   "detail": "2019 tarihli, beraatle sonuçlanmış trafik kazası dosyasının kapağı."
+  }
+ ],
+ "case036": [
+  {
+   "id": "magnum",
+   "node": "storage",
+   "name": "Kırık magnum şişe",
+   "detail": "Mahzen zemininde, boynundan kırılmış bir magnum; etiketi 1961 tarihli."
+  },
+  {
+   "id": "labels",
+   "node": "storage",
+   "name": "Boş etiketler",
+   "detail": "Sommelier’nin kiraladığı depoda, kutularca eskitilmiş boş şarap etiketi ve mantar."
+  },
+  {
+   "id": "lift",
+   "node": "liftlog",
+   "name": "Şarap asansörü",
+   "detail": "Mahzenden yemek salonuna çıkan eski el asansörü; kabin tabanında toz izi ve şarap damlası."
+  }
+ ],
+ "case037": [
+  {
+   "id": "press",
+   "node": "presslog",
+   "name": "Buhar presi",
+   "detail": "Atölyedeki endüstriyel buhar presi; kablosunun yalıtımı bıçakla sıyrılmış."
+  },
+  {
+   "id": "tape",
+   "node": "search",
+   "name": "Terzi metresi",
+   "detail": "Kurbanın masasının altından çıkan bez mezura; ortasında gerilmiş, buruşmuş bir bölüm."
+  },
+  {
+   "id": "invoices",
+   "node": "locker",
+   "name": "Lisans faturaları",
+   "detail": "Kurbanın dolabında saklı fotokopiler: Tokyo lisans faturaları, köşelerinde el yazısıyla iki harf."
+  }
+ ],
+ "case038": [
+  {
+   "id": "gloves",
+   "node": "glovelab",
+   "name": "Beyaz taşıma eldivenleri",
+   "detail": "Kurbanın ellerinden alınan pamuk eldivenler; sağ eldivenin parmak uçlarında yağ lekesi."
+  },
+  {
+   "id": "pen",
+   "node": "search",
+   "name": "Adrenalin kalemi",
+   "detail": "Aramada bulunan otomatik enjektör; kurbanın adı yazılı reçete etiketi, kullanılmamış."
+  },
+  {
+   "id": "manifest",
+   "node": "search",
+   "name": "Chicago manifestosu",
+   "detail": "Lakeshore Freight sevk belgesi; Chicago’da bir depo adresi ve ‘Dr. E. Varga’ imzalı köken mektubu."
+  }
+ ],
+ "case039": [
+  {
+   "id": "bolts",
+   "node": "inspect",
+   "name": "Kopmuş ankraj cıvataları",
+   "detail": "Rafın zemine bağlandığı dört cıvata; kesilme yüzeyleri parlak, yeni kopmuş."
+  },
+  {
+   "id": "bar",
+   "node": "tower",
+   "name": "Levye",
+   "detail": "Konteynır sökme alanındaki alet panosunda; ucunda temizlenmeye çalışılmış koyu leke."
+  },
+  {
+   "id": "labels",
+   "node": "texts",
+   "name": "Çift etiketli sandık",
+   "detail": "Bir sandığın üzerinde, ‘makine parçası’ etiketinin altından görünen eski bir müzayede lot etiketi."
+  }
+ ],
+ "case040": [
+  {
+   "id": "detector",
+   "node": "prints",
+   "name": "Duman dedektörü",
+   "detail": "Tavandan sökülmüş dedektör; pil yuvası boş, kapağında parmak izi tozu."
+  },
+  {
+   "id": "glass",
+   "node": "prints",
+   "name": "Viski bardağı",
+   "detail": "Koltuğun yanındaki kalın dipli bardak; dibinde çözünmemiş beyaz tortu."
+  },
+  {
+   "id": "notebook",
+   "node": "waltbook",
+   "name": "Walt’ın defteri",
+   "detail": "Yarısı yanmış spiralli bloknot; plaka ve saat sütunları."
+  }
+ ],
+ "case041": [
+  {
+   "id": "glass",
+   "node": "keycard",
+   "name": "Soda bardağı",
+   "detail": "Kurbanın bardaki son bardağı; limonlu soda, alkol yok."
+  },
+  {
+   "id": "cufflink",
+   "node": "keycard",
+   "name": "Kol düğmesi",
+   "detail": "Havuzun süzgecinden çıkan tek bir kol düğmesi; kırmızı-beyaz-mavi emaye."
+  },
+  {
+   "id": "ledger",
+   "node": "donors",
+   "name": "Bağış dökümü",
+   "detail": "Kurbanın dizüstünden basılan tablo; aynı adresten yirmi ayrı bağışçı."
+  }
+ ],
+ "case042": [
+  {
+   "id": "rag",
+   "node": "ragcheck",
+   "name": "İsli bez",
+   "detail": "Bir kamyonun alet kutusundan çıkan bez; bir ucu siyah isle sertleşmiş, egzoz borusu çapında kıvrılmış."
+  },
+  {
+   "id": "pipe",
+   "node": "ragcheck",
+   "name": "Egzoz borusu",
+   "detail": "Kurbanın kamyonunun dikey egzoz çıkışı; ağzının içinde kırmızı pamuk lifleri."
+  },
+  {
+   "id": "seal",
+   "node": "eld",
+   "name": "Kırık dorse mührü",
+   "detail": "Dorsenin kapısındaki numaralı plastik güvenlik mührü; makasla kesilmiş."
+  }
+ ],
+ "case043": [
+  {
+   "id": "jumper",
+   "node": "elec",
+   "name": "Köprü kablosu",
+   "detail": "Amfinin içinde, toprak ucunu mikrofon standının gövdesine bağlayan ince bir kablo."
+  },
+  {
+   "id": "stand",
+   "node": "autopsy",
+   "name": "Mikrofon standı",
+   "detail": "Sahnedeki krom stand; tutma yerinde yanık izi."
+  },
+  {
+   "id": "cash",
+   "node": "elec",
+   "name": "Nakit zarfları",
+   "detail": "Ofis kasasında, bantla bağlanmış yirmilik desteleri olan kahverengi zarflar."
+  }
+ ],
+ "case044": [
+  {
+   "id": "vest",
+   "node": "boat",
+   "name": "Can yeleği",
+   "detail": "Kurbanın üstündeki otomatik şişen yelek; CO₂ kartuşunun yuvası boş."
+  },
+  {
+   "id": "winch",
+   "node": "boat",
+   "name": "Vinç kolu",
+   "detail": "Kokpit dolabındaki krom vinç kolu; tutamağın altında silinmeye çalışılmış kan."
+  },
+  {
+   "id": "cartridge",
+   "node": "boat",
+   "name": "CO₂ kartuşu",
+   "detail": "Bir sefer çantasının iç cebinden çıkan küçük gaz kartuşu; dişlerinde yeşil yelek boyası."
+  }
+ ],
+ "case045": [
+  {
+   "id": "pen",
+   "node": "medlab",
+   "name": "İnsülin kalemi",
+   "detail": "Kurbanın masasındaki kalem; içindeki kartuşun etiketi kalemin standardıyla uyuşmuyor."
+  },
+  {
+   "id": "recorder",
+   "node": "line_tape",
+   "name": "Masa ses kaydedicisi",
+   "detail": "Kurbanın çalışma masasının çekmecesinde, sesle çalışan küçük bir kayıt cihazı."
+  },
+  {
+   "id": "vials",
+   "node": "medlab",
+   "name": "Boş kartuş kutusu",
+   "detail": "Bir el çantasının yan cebinden çıkan, iki kartuşu eksik küçük karton kutu."
+  }
+ ],
+ "case046": [
+  {
+   "id": "pillow",
+   "node": "scooter",
+   "name": "Yastık",
+   "detail": "Kurbanın yatağındaki işlemeli yastık; ortasında ruj ve tükürük lekesi."
+  },
+  {
+   "id": "tin",
+   "node": "scooter",
+   "name": "Teneke kutu",
+   "detail": "Bir motosiklet selesinin altından çıkan eski bisküvi kutusu; içinde sararmış sevk fişleri."
+  },
+  {
+   "id": "lace",
+   "node": "scooter",
+   "name": "Yarım kalmış dantel",
+   "detail": "Kurbanın sandalyesindeki tığ işi; tığ hâlâ ilmekte."
+  }
+ ],
+ "case047": [
+  {
+   "id": "handle",
+   "node": "car",
+   "name": "Soğuk oda iç kolu",
+   "detail": "Bir arabanın torpidosundan çıkan, sökülmüş krom kapı kolu ve iki vida."
+  },
+  {
+   "id": "thermo",
+   "node": "coldroom",
+   "name": "Soğuk oda termostatı",
+   "detail": "Soğuk odanın dış duvarındaki termostat; gece -18’e çevrilmiş."
+  },
+  {
+   "id": "ledger",
+   "node": "ledger",
+   "name": "Kasa defteri",
+   "detail": "Kasanın altından çıkan küçük kareli defter; son sayfada iki sütun rakam ve bir çizgi."
+  }
+ ],
+ "case048": [
+  {
+   "id": "lever",
+   "node": "control",
+   "name": "Kumanda kolu",
+   "detail": "Kumanda odasındaki ana kolun kapağı; mühür teli koparılmış."
+  },
+  {
+   "id": "tag",
+   "node": "locker",
+   "name": "Bakım asma etiketi",
+   "detail": "Bakım çukurunun girişinde olması gereken kırmızı ‘içeride çalışan var’ etiketi; bir çöp kutusundan çıktı."
+  },
+  {
+   "id": "report",
+   "node": "forms",
+   "name": "Kablo denetim raporu",
+   "detail": "Son altı ayın denetim raporları; imzalar birbirinin aynısı."
+  }
+ ],
+ "case049": [
+  {
+   "id": "cup",
+   "node": "tox",
+   "name": "Espresso fincanı",
+   "detail": "İçi yıkanmış bir fincan; altında kurumuş yeşil bir halka."
+  },
+  {
+   "id": "pigment",
+   "node": "shop",
+   "name": "Eski pigment kavanozu",
+   "detail": "Ağzı mumla kapatılmış küçük cam kavanoz; içinde parlak zümrüt yeşili toz."
+  },
+  {
+   "id": "figure",
+   "node": "shop",
+   "name": "Çoban figürü",
+   "detail": "Yarım kalmış terakota çoban; başı boyanmış, gövdesi çıplak kil."
+  }
+ ],
+ "case050": [
+  {
+   "id": "pin",
+   "node": "desk",
+   "name": "Güvenlik pimi",
+   "detail": "Askı sisteminin halat kilidinden çıkan çelik pim; bir sahne masasının çekmecesinden çıktı."
+  },
+  {
+   "id": "sandbag",
+   "node": "rigging",
+   "name": "Kum torbası",
+   "detail": "Yirmi beş kiloluk kanvas kum torbası; kancası açık."
+  },
+  {
+   "id": "book",
+   "node": "cues",
+   "name": "Replik defteri",
+   "detail": "Sahne amirinin işaret defteri; ikinci perdenin sayfasında silinmiş bir satır."
+  }
+ ],
+ "case051": [
+  {
+   "id": "tablet",
+   "node": "cabin",
+   "name": "Su geçirmez tablet",
+   "detail": "Kurbanın denetim tableti; kaptan kabinindeki can yeleği dolabından çıktı."
+  },
+  {
+   "id": "rail",
+   "node": "autopsy",
+   "name": "Küpeşte",
+   "detail": "Kıç güvertedeki küpeştenin üstünde yeni bir sürtünme izi ve kopmuş bir yaka düğmesi."
+  },
+  {
+   "id": "log",
+   "node": "cabin",
+   "name": "Seyir defteri",
+   "detail": "Feribotun seyir defterinin son sayfası; bir saat yanlış yazılmış."
+  }
+ ],
+ "case052": [
+  {
+   "id": "photo",
+   "node": "car",
+   "name": "Ofisteki fotoğraf",
+   "detail": "Don Vittorio’nun ofis duvarından indirilen eski fotoğraf: bir vinç önünde iki kişi; kadının yüzü kadraj dışında, bileğinde eski bir erkek saati."
+  },
+  {
+   "id": "seal",
+   "node": "seals",
+   "name": "Konteyner mührü",
+   "detail": "İlaçlama konteynerinin kapı mührü; numaralı plastik şerit iki kez takılmış."
+  },
+  {
+   "id": "tablets",
+   "node": "car",
+   "name": "Fosfin tablet kutusu",
+   "detail": "Bir arabanın bagajından çıkan, yarısı boş alüminyum kutu."
+  }
+ ],
+ "case053": [
+  {
+   "id": "string",
+   "node": "autopsy",
+   "name": "Gitar teli kangalı",
+   "detail": "Yarısı açılmış bir kangal çelik gitar teli; iki ucunda deri parçacıkları."
+  },
+  {
+   "id": "file1994",
+   "node": "archive",
+   "name": "1994 dosyası",
+   "detail": "Sararmış karton bir dosya; içinde bir merdiven fotoğrafı ve tek sayfalık bir ifade."
+  },
+  {
+   "id": "gloves",
+   "node": "safe",
+   "name": "Siyah deri eldivenler",
+   "detail": "Bir kasanın içinden çıkan, avuçlarında ince çelik izleri olan eldivenler."
+  }
+ ],
+ "case054": [
+  {
+   "id": "mould",
+   "node": "workshop",
+   "name": "Alçı kalıp parçaları",
+   "detail": "Çamur fıçısının dibinden çıkan kırık alçı kalıp parçaları; birinde kurumuş kan."
+  },
+  {
+   "id": "tiles",
+   "node": "archive",
+   "name": "‘Yanmış’ çiniler",
+   "detail": "Bir kamyonetten çıkan, 2003 yangınında yok olduğu yazılı on iki çini."
+  },
+  {
+   "id": "kiln",
+   "node": "workshop",
+   "name": "Fırın kumanda paneli",
+   "detail": "Fırının dijital paneli; program gece 01.10’da elle başlatılmış."
+  }
+ ],
+ "case055": [
+  {
+   "id": "crown",
+   "node": "archive",
+   "name": "Tacın zümrütleri",
+   "detail": "Değerleme kutusunda tacın on iki ‘zümrüdü’; biri ultraviyole ışıkta parlıyor."
+  },
+  {
+   "id": "candle",
+   "node": "chapel",
+   "name": "Gümüş şamdan",
+   "detail": "Sunaktaki gümüş şamdanlardan biri; tabanının oyuklarında kan izi."
+  },
+  {
+   "id": "scaffold",
+   "node": "chapel",
+   "name": "İskele",
+   "detail": "Gölgeliğin yanındaki tekerlekli iskele; frenleri kilitli, korkuluğu yerinde."
+  }
+ ],
+ "case056": [
+  {
+   "id": "plug",
+   "node": "office",
+   "name": "Tekne tahliye tapası",
+   "detail": "Tek kişilik teknenin kıçındaki tahliye tapası; bir kupa vitrininin arkasından çıktı."
+  },
+  {
+   "id": "ties",
+   "node": "boat",
+   "name": "Kesilmiş plastik kelepçeler",
+   "detail": "Teknenin ayakkabılarının topuk iplerine takılmış, sonradan kesilmiş iki siyah kelepçe."
+  },
+  {
+   "id": "cup",
+   "node": "archive",
+   "name": "2009 kupası",
+   "detail": "Kulübün vitrinindeki 2009 şampiyonluk kupası; altında sekiz kürekçinin adı."
+  }
+ ],
+ "case057": [
+  {
+   "id": "thermos",
+   "node": "car",
+   "name": "Kurbanın termosu",
+   "detail": "Eski, ezik yeşil bir termos; içinde kalan kahvede böcek ilacı."
+  },
+  {
+   "id": "vial",
+   "node": "car",
+   "name": "Laboratuvar şişesi",
+   "detail": "Laboratuvarın ilaç dolabından eksilen küçük cam şişe; müdürün arabasının kapı cebinden çıktı."
+  },
+  {
+   "id": "ledger",
+   "node": "archive",
+   "name": "1999 kaza defteri",
+   "detail": "Paketleme hanesinin 1999 kaza defteri; bir sayfanın üstüne sonradan yazılmış."
+  }
+ ],
+ "case058": [
+  {
+   "id": "handle",
+   "node": "workshop",
+   "name": "Kayar raf kolu",
+   "detail": "Kayar rafların döner kolu; restorasyon atölyesindeki cilt presinin içinden çıktı."
+  },
+  {
+   "id": "map",
+   "node": "archive",
+   "name": "1752 haritası fotoğrafı",
+   "detail": "Rosa’nın kataloktan kestiği fotoğraf; haritanın köşesinde arşivin silinmiş mührünün izi."
+  },
+  {
+   "id": "cradle",
+   "node": "archive",
+   "name": "Restorasyon defteri",
+   "detail": "Atölyenin 2015 restorasyon defteri; haritanın ‘restorasyona alındı’ kaydı, dönüş kaydı yok."
+  }
+ ],
+ "case059": [
+  {
+   "id": "key",
+   "node": "office",
+   "name": "Sarnıç anahtarı",
+   "detail": "Avlunun sarnıç kapağının büyük demir anahtarı; müdür yardımcısının masasının gizli gözünden çıktı."
+  },
+  {
+   "id": "list",
+   "node": "archive",
+   "name": "Mütevelli listesi",
+   "detail": "Vakfın 1989’dan bu yana mütevelli ve danışman listesi; bir adın yanına kurşunkalemle bir yıldız konmuş."
+  },
+  {
+   "id": "folder",
+   "node": "office",
+   "name": "Rodrigo’nun dosyası",
+   "detail": "Rodrigo’nun bube’ye götüreceği kalın dosya; şömine külünün içinden yarısı yanmış çıktı."
+  }
+ ],
+ "case060": [
+  {
+   "id": "peel",
+   "node": "oven",
+   "name": "Fırın küreği ferrulü",
+   "detail": "Uzun ahşap simit küreğinin metal halkası; odun fırınının külünün içinden çıktı."
+  },
+  {
+   "id": "policy",
+   "node": "home",
+   "name": "Sigorta poliçesi zeyilnamesi",
+   "detail": "Fırının iki ay önceki poliçe zeyilnamesi; ‘kilit kişi’ teminatı, lehtar şirket."
+  },
+  {
+   "id": "clock",
+   "node": "clock",
+   "name": "Mesai kartı",
+   "detail": "Müdürün mesai kartı; ‘23.05 çıkış’ damgası."
+  }
+ ],
+ "case061": [
+  {
+   "id": "valve",
+   "node": "office",
+   "name": "Kompresör vanası kolu",
+   "detail": "Amonyak hattının tahliye vanasının sökülmüş kolu; müdürün masasının alt çekmecesinden çıktı."
+  },
+  {
+   "id": "log",
+   "node": "log",
+   "name": "Bakım defteri",
+   "detail": "Kompresör odasının bakım defteri; dünkü satır ‘vanalar kontrol edildi, normal’."
+  },
+  {
+   "id": "mask",
+   "node": "room",
+   "name": "Gaz maskesi askısı",
+   "detail": "Kompresör odasının kapısındaki acil durum maskesi askısı; boş."
+  }
+ ],
+ "case062": [
+  {
+   "id": "barrel",
+   "node": "truck",
+   "name": "Suyla dolu varil",
+   "detail": "Patlamış bir şurup varili; içindeki sıvı renklendirilmiş su, yalnızca üstte bir parmak şurup."
+  },
+  {
+   "id": "count",
+   "node": "count",
+   "name": "Sayım tutanağı",
+   "detail": "Deponun aylık sayım tutanağı; ‘1.200 varil, tam’, ustabaşının imzası."
+  },
+  {
+   "id": "key",
+   "node": "truck",
+   "name": "Forklift kontak anahtarı",
+   "detail": "İkinci forkliftin kontak anahtarı; ustabaşının kamyonetinin güneşliğinin arkasından çıktı."
+  }
+ ],
+ "case063": [
+  {
+   "id": "adapter",
+   "node": "office",
+   "name": "Topraklama kesici adaptör",
+   "detail": "Topraklama ucu kesilmiş, kutupları ters bağlanmış bir fiş adaptörü; kulüp sahibinin kasasından çıktı."
+  },
+  {
+   "id": "inspect",
+   "node": "inspect",
+   "name": "Elektrik denetim raporu",
+   "detail": "Kulübün geçen haftaki elektrik denetim raporu; ‘sahne topraklaması uygun’, imza kulüp sahibinin."
+  },
+  {
+   "id": "plug",
+   "node": "stage",
+   "name": "Bas amfisinin fişi",
+   "detail": "Kontrbas amfisinin orijinal fişi; adaptörsüz, topraklama ucu sağlam."
+  }
+ ],
+ "case064": [
+  {
+   "id": "tablet",
+   "node": "depot",
+   "name": "Denetçinin tableti",
+   "detail": "Isabelle Moreau’nun belediye tableti; şirketin tuz deposundaki tuz yığınının içinden çıktı."
+  },
+  {
+   "id": "gps",
+   "node": "gps",
+   "name": "Filo GPS dökümü",
+   "detail": "Şirketin gece GPS dökümü; sahibinin kamyoneti 00.30–02.00 arası depoda ‘park’."
+  },
+  {
+   "id": "loader",
+   "node": "depot",
+   "name": "Kepçenin koltuk minderi",
+   "detail": "Şirketin küçük kepçesinin sürücü koltuğu; minderde Isabelle’in atkısından kırmızı yün lifleri."
+  }
+ ],
+ "case065": [
+  {
+   "id": "card",
+   "node": "site",
+   "name": "Kask kamerası hafıza kartı",
+   "detail": "Kurbanın kask kamerasının hafıza kartı; proje maketinin oyuk kaidesinin içinden çıktı."
+  },
+  {
+   "id": "receipt",
+   "node": "receipt",
+   "name": "Restoran fişi",
+   "detail": "Proje müdürünün cebinden çıkan fiş; 21.15, iki kişilik akşam yemeği, kartla ödeme."
+  },
+  {
+   "id": "hatch",
+   "node": "site",
+   "name": "Hazne kapağı",
+   "detail": "Silonun en üst katındaki tahıl haznesi kapağı; menteşesindeki yeni çizikler."
+  }
+ ],
+ "case066": [
+  {
+   "id": "key",
+   "node": "locker",
+   "name": "Gaz sistemi manuel tetik anahtarı",
+   "detail": "Yangın söndürme sisteminin manuel tetik anahtarı; başkan yardımcısının spor kulübü dolabındaki squash çantasından çıktı."
+  },
+  {
+   "id": "minutes",
+   "node": "minutes",
+   "name": "Yönetim kurulu toplantı tutanağı",
+   "detail": "Gece toplantısının tutanağı; başkan yardımcısı ‘video bağlantıyla, Toronto’dan’ 20.00–21.30."
+  },
+  {
+   "id": "table",
+   "node": "locker",
+   "name": "Kovač’ın tablosu",
+   "detail": "Baş aktüerin masasından çıkan çıktı; lehtar sütununda tek bir isim tekrar ediyor."
+  }
+ ],
+ "case067": [
+  {
+   "id": "key",
+   "node": "office",
+   "name": "Buz tankı kilidinin anahtarı",
+   "detail": "Tankın kapağındaki asma kilidin anahtarı; müdürün ofisindeki balık tartısının çekmecesinden çıktı."
+  },
+  {
+   "id": "alarm",
+   "node": "alarm",
+   "name": "Pazar alarm kaydı",
+   "detail": "Pazarın alarm paneli dökümü; ‘kuruldu 18.30’, müdürün kodu."
+  },
+  {
+   "id": "lighter",
+   "node": "archive",
+   "name": "1998 fotoğrafı",
+   "detail": "Long’un sakladığı eski bir fotoğraf; yangından bir saat önce tezgâhın yanında genç bir bekçi, elinde çakmak."
+  }
+ ],
+ "case068": [
+  {
+   "id": "mallet",
+   "node": "float",
+   "name": "Nal çekici",
+   "detail": "Ucuna eski bir nal perçinlenmiş kısa saplı çekiç; antrenörün at römorkunun alet kutusundan çıktı."
+  },
+  {
+   "id": "swab",
+   "node": "stall",
+   "name": "Eksik numune tüpü",
+   "detail": "Müfettişin numune çantası; on iki yuvanın biri boş, mühür kırık."
+  },
+  {
+   "id": "slip",
+   "node": "bets",
+   "name": "Bahis dökümü",
+   "detail": "Kupadan dört gün önce atın aleyhine yığılan bahislerin dökümü."
+  }
+ ],
+ "case069": [
+  {
+   "id": "oar",
+   "node": "boatshed",
+   "name": "Kürek sapı",
+   "detail": "Marinanın kiralık kanolarından birinin küreği; sapta kurbanın saç teli."
+  },
+  {
+   "id": "gate",
+   "node": "gate",
+   "name": "İskele kapısı kaydı",
+   "detail": "Marinanın elektronik kapı kaydı; 20.00’den sonra giriş yok."
+  },
+  {
+   "id": "sample",
+   "node": "boatshed",
+   "name": "Su numunesi şişeleri",
+   "detail": "Kurbanın evindeki etiketli su numuneleri; marinanın gider çıkışından."
+  }
+ ],
+ "case070": [
+  {
+   "id": "key",
+   "node": "locker",
+   "name": "Fren kolu anahtarı",
+   "detail": "Tramvayın fren boşaltma kolunun sökülebilir anahtarı; vardiya şefinin dolabından çıktı."
+  },
+  {
+   "id": "log",
+   "node": "locker",
+   "name": "Fren bakım kaydı",
+   "detail": "Deponun bakım defteri; ‘frenler sağlam’ notu yeni mürekkeple."
+  },
+  {
+   "id": "report",
+   "node": "locker",
+   "name": "Sendika güvenlik raporu",
+   "detail": "Kurbanın hazırladığı rapor taslağı; on dört tramvayın frenleri."
+  }
+ ],
+ "case071": [
+  {
+   "id": "radio",
+   "node": "office",
+   "name": "El telsizi",
+   "detail": "Liman başkanlığının yedek el telsizi; kanalı ana telsize aktarılmış."
+  },
+  {
+   "id": "manifest",
+   "node": "office",
+   "name": "Yük manifestosu",
+   "detail": "1990’lardan sararmış bir manifesto; alıcı ‘Liaison Freight’."
+  },
+  {
+   "id": "rail",
+   "node": "tower",
+   "name": "Galeri korkuluğu parçası",
+   "detail": "Kulenin galeri korkuluğundan sökülmüş, vidaları yeni gevşetilmiş bir parça."
+  }
+ ],
+ "case072": [
+  {
+   "id": "pen",
+   "node": "car",
+   "name": "Adrenalin kalemi",
+   "detail": "Kurbanın oto-enjektörü; imar müdürünün arabasının torpidosundan çıktı."
+  },
+  {
+   "id": "paste",
+   "node": "car",
+   "name": "Karides ezmesi kavanozu",
+   "detail": "Mutfakta olmaması gereken küçük bir karides ezmesi kavanozu; çöpte."
+  },
+  {
+   "id": "hygiene",
+   "node": "archive",
+   "name": "2012 hijyen raporu",
+   "detail": "İlk dükkânı kapatan rapor; imzası net."
+  }
+ ],
+ "case073": [
+  {
+   "id": "pen",
+   "node": "desk",
+   "name": "İnsülin kalemi",
+   "detail": "Koordinatörün insülin kalemi; dozu en yükseğe çevrilmiş, iki kez boşaltılmış."
+  },
+  {
+   "id": "note",
+   "node": "desk",
+   "name": "Veda notu",
+   "detail": "Bilgisayardan basılmış, imzasız bir veda notu."
+  },
+  {
+   "id": "courier",
+   "node": "courier",
+   "name": "Kurye makbuzu",
+   "detail": "Uluslararası kurye makbuzu; varış Budapeşte."
+  }
+ ]
+}

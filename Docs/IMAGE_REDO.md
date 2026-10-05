@@ -20,4 +20,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 - #013–#024: ayrıntılı Gemini prompt'ları `EVIDENCE_PROMPTS.md`'de (nesne → durum → ortam → kamera → ışık → yasaklar).
 - #025–#073: ayrıntılı bulgu prompt'ları her dosyanın `CASE0NN_PROMPTS.md` → "Adli bulgular" bölümünde.
 - Dünya kartpostalları (jp, fr, us, it, es, ca, au): `WORLD_BACKDROP_PROMPTS.md`.
-- Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; veriye (`report.relatedItems`) bağlama ayrı adımdır.
+- Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; sonra `python3 Tools/bind-items.py` çalıştırılır; oyuna bağlar.
