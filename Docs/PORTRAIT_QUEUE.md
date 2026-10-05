@@ -1196,37 +1196,37 @@ A 45-year-old Spanish man, short brown hair, rimless glasses, a careful nervous 
 
 ## Dosya #060 (6)
 
-184. **Yan Tremblay** → `tremblay.png`
+184. **Yan Tremblay** → `tremblay.png` ✅
 
 ```
 A 44-year-old French-Canadian man, light brown hair receding, a trimmed beard, a friendly face with evasive pale blue eyes. A dark green quilted vest over a flannel shirt, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-185. **Rivka Klein** → `rivka.png`
+185. **Rivka Klein** → `rivka.png` ✅
 
 ```
 A 40-year-old Jewish-Canadian woman, dark curly shoulder-length hair, an intelligent tired face, grieving brown eyes. A navy wool coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-186. **Dmitri Volkov** → `dmitri.png`
+186. **Dmitri Volkov** → `dmitri.png` ✅
 
 ```
 A 52-year-old Russian-Canadian man, grey buzz cut, a broad flushed face dusted with flour, heavy forearms, shocked grey eyes. A white baker's T-shirt and apron. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-187. **Sophie Gagnon** → `gagnon.png`
+187. **Sophie Gagnon** → `gagnon.png` ✅
 
 ```
 A 24-year-old French-Canadian woman, copper hair in a messy bun, freckles, nervous honest face. A dark red hoodie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-188. **Luc Pelletier** → `luc.png`
+188. **Luc Pelletier** → `luc.png` ✅
 
 ```
 A 58-year-old Québécois man, grizzled grey-brown hair under a wool toque, weathered red cheeks, gruff eyes. A red-and-black buffalo check jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-189. **Nadia Bouchard** → `bouchard.png`
+189. **Nadia Bouchard** → `bouchard.png` ✅
 
 ```
 A 37-year-old Lebanese-Canadian woman, long black hair straightened, sharp professional face, cool dark eyes. A charcoal tailored blazer, a lanyard with a blank card. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
