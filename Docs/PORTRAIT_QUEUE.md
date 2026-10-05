@@ -1254,31 +1254,31 @@ A 16-year-old Indo-Canadian girl, long black hair in a tight braid, shocked wide
 
 ## Dosya #062 (5)
 
-193. **Réjean Gauthier** → `gauthier.png`
+193. **Réjean Gauthier** → `gauthier.png` ✅
 
 ```
 A 51-year-old Québécois man, thinning brown-grey hair, a heavy moustache, big shoulders, a ruddy face with small calculating eyes. A charcoal work jacket with reflective strips and no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-194. **Claudette Marceau** → `marceau.png`
+194. **Claudette Marceau** → `marceau.png` ✅
 
 ```
 A 63-year-old Québécois woman, silver hair in a short practical cut, a weathered farmer's face, steady blue eyes. A rust-brown wool cardigan. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-195. **Kayla Fortin** → `fortin.png`
+195. **Kayla Fortin** → `fortin.png` ✅
 
 ```
 A 29-year-old Métis woman, long dark hair in a low ponytail, strong jaw, defiant brown eyes. A hi-vis yellow work vest over a dark hoodie, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-196. **Minh Tran** → `tran.png`
+196. **Minh Tran** → `tran.png` ✅
 
 ```
 A 46-year-old Vietnamese-Canadian man, short black hair, glasses, a calm careful face. A dark slate-blue guard's jacket with no badge. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-197. **Paul Leblanc** → `leblanc.png`
+197. **Paul Leblanc** → `leblanc.png` ✅
 
 ```
 A 60-year-old Québécois man, grey hair, a gentle round face, red-rimmed eyes behind glasses. A forest green sweater. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
