@@ -111,9 +111,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 66. **Nakit zarfı** → `case033_envelope.png` ✅
 
 ## Dosya #034 (3)
-67. **Kazıma bıçağı** → `case034_knife.png`
-68. **SIM defteri** → `case034_simbook.png`
-69. **Kapüşonlu sweatshirt** → `case034_hoodie.png`
+67. **Kazıma bıçağı** → `case034_knife.png` ✅
+68. **SIM defteri** → `case034_simbook.png` ✅
+69. **Kapüşonlu sweatshirt** → `case034_hoodie.png` ✅
 
 ## Dosya #035 (3)
 70. **Acil çağrı kaydı** → `case035_call.png`

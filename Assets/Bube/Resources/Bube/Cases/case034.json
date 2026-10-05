@@ -267,6 +267,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case034.lea.book"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case034.item.simbook.name",
+     "detailKey": "case034.item.simbook.detail",
+     "imageResource": "Bube/Items/case034_simbook"
+    }
    ]
   },
   {
@@ -300,7 +307,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case034.item.knife.name",
+     "detailKey": "case034.item.knife.detail",
+     "imageResource": "Bube/Items/case034_knife"
+    },
+    {
+     "nameKey": "case034.item.hoodie.name",
+     "detailKey": "case034.item.hoodie.detail",
+     "imageResource": "Bube/Items/case034_hoodie"
+    }
+   ]
   },
   {
    "id": "yacine",
