@@ -86,6 +86,8 @@ public sealed partial class BubeApp : MonoBehaviour {
  RenderTexture introTexture;
  VisualElement introBrand;
  VisualElement introPlace;
+ // Videosuz dünya açılışı: kart ne zaman başladı (yoksa -1).
+ float introCardStart=-1;
  Button introSkip;
  WorldIntro activeIntro;
  CornerMark activeMark;
@@ -290,8 +292,8 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(root==null)return;
   KeepFilmOnTop();
   ScreenReader.Tick(root);
-  if(introBrand!=null && introBrand.panel!=null && introPlayer!=null) {
-   double time=introPlayer.time;
+  if(introBrand!=null && introBrand.panel!=null && (introPlayer!=null || introCardStart>=0)) {
+   double time=introPlayer!=null?introPlayer.time:Time.unscaledTime-introCardStart;
    float reveal=Mathf.Clamp01((float)(time-3.0)/0.3f);
    float hide=1-Mathf.Clamp01((float)(time-4.55)/0.3f);
    introBrand.style.opacity=reveal*hide;

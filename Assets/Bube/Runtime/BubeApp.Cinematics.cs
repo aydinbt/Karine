@@ -133,6 +133,22 @@ public sealed partial class BubeApp {
    root.RegisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
    skip.schedule.Execute(PositionIntroSkip).StartingIn(0);
   } else PlaceSkipInCorner(skip);
+  // Videosu henüz olmayan dünya: ülkenin kartpostalı üstünde yer ve stüdyo kartı.
+  // Aynı yazı zamanlaması, sonra masaya bırakılış. Oyuncu hiçbir zaman siyah ekranda kalmaz.
+  if(string.IsNullOrEmpty(activeIntro.videoPath)) {
+   var backdrop=string.IsNullOrEmpty(activeIntro.backdropResource)?null:Resources.Load<Texture2D>(activeIntro.backdropResource);
+   if(backdrop!=null) {
+    film.image=backdrop;
+    var dim=new VisualElement{pickingMode=PickingMode.Ignore};
+    dim.style.position=Position.Absolute;dim.style.left=0;dim.style.right=0;dim.style.top=0;dim.style.bottom=0;
+    dim.style.backgroundColor=KarineTheme.Veil(.38f);
+    root.Insert(root.IndexOf(film)+1,dim);
+   }
+   introCardStart=Time.unscaledTime;
+   var card=activeIntro;
+   root.schedule.Execute(()=>{if(activeIntro==card)FinishWorldIntro();}).StartingIn(5600);
+   return;
+  }
   introPlayer=gameObject.AddComponent<VideoPlayer>();
   introPlayer.playOnAwake=false;
   introPlayer.isLooping=false;
@@ -197,7 +213,7 @@ public sealed partial class BubeApp {
   var after=introAfter;
   if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
   introSkip=null;
-  activeIntro=null;introAfter=null;introBrand=null;introPlace=null;activeMark=null;
+  activeIntro=null;introAfter=null;introBrand=null;introPlace=null;activeMark=null;introCardStart=-1;
   if(introPlayer!=null) {
    introPlayer.prepareCompleted-=OnIntroPrepared;
    introPlayer.loopPointReached-=OnIntroEnded;

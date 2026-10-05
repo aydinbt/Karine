@@ -16,6 +16,15 @@
       "deskArrival": true,
       "deskArrivalVideo": "Bube/case001_arrival.mp4",
       "deskArrivalMark": { "x": 0.906, "y": 0.8329, "w": 0.07, "h": 0.105 }
+    },
+    {
+      "id": "world02",
+      "firstCaseId": "case011",
+      "countryKey": "world.uk.name",
+      "locationKey": "intro.world02.city",
+      "videoPath": "",
+      "backdropResource": "Bube/Worlds/uk",
+      "graphicsEmbedded": false
     }
   ],
   "reportSendVideo": "Bube/report_send.mp4",

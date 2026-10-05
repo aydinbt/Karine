@@ -112,5 +112,28 @@ public sealed class CaseArrivalTests {
   Assert.IsFalse(labels.Contains(Text("intro.firstFile")) || labels.Contains(Text("intro.newFile")),
    "Kabul edilmiş vakada bırakılış tekrar oynamamalı.");
  }
+ // Videosu olmayan dünya (Birleşik Krallık): siyah ekran yerine kartpostal üstünde
+ // ülke kartı oynar, kendiliğinden biter, dünya görülmüş sayılır ve dosya bırakılır.
+ [UnityTest] public IEnumerator WorldWithoutVideo_ShowsCardThenDropsFile() {
+  var game = Field(app, "game");
+  var career = (CareerProgress)game.GetType().GetProperty("Career").GetValue(game);
+  var asset = Resources.Load<TextAsset>("Bube/Cases/case011");
+  Assert.IsNotNull(asset, "case011 yok.");
+  var data = JsonUtility.FromJson<CaseData>(asset.text);
+  var uk = new Investigation(data, null, career, (CareerRules)Field(app, "careerRules")) { Text = (Locale)Field(app, "locale") };
+  app.GetType().GetField("game", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(app, uk);
+  career.seenWorldIntros.Remove("world02");
+  bool done = false;
+  app.GetType().GetMethod("MaybeWorldIntro", BindingFlags.Instance | BindingFlags.NonPublic)
+   .Invoke(app, new object[] { (Action)(() => done = true) });
+  for (int frame = 0; frame < 10; frame++) yield return null;
+  Assert.IsTrue(Labels(Root).Contains(Text("world.uk.name")), "Ülke kartı görünmedi: " + string.Join(" | ", Labels(Root)));
+  yield return new WaitForSecondsRealtime(6.2f);
+  for (int frame = 0; frame < 30; frame++) yield return null;
+  Assert.IsTrue(career.seenWorldIntros.Contains("world02"), "Videosuz açılış bitmedi.");
+  var labels = Labels(Root);
+  Assert.IsTrue(done || labels.Any(l => l.Contains("#011")),
+   "Açılıştan sonra dosya bırakılmadı: " + string.Join(" | ", labels));
+ }
 }
 }

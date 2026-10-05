@@ -538,3 +538,7 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 - `CaseData.chapterFinale`: faks sonrası (`FaxPage` ve masa gelen kutusu) `ChapterFinale` bir kez oynar (PlayerPrefs `karine.finale.<id>`); personel satırları Worlds yuvaları ve inceleme geçmişinden.
 - `requestKind: "scope"`: başka bir olay kaydını dosyaya alan izin; metinler `requests.scope*`.
 - `Investigation` artık `sealed partial` (Lines, Recon ayrı dosyalarda).
+
+## Videosuz dünya açılışı (5 Ekim 2026)
+`WorldIntro.videoPath` boşsa `PlayWorldIntro` video oynatıcı kurmaz: `backdropResource` (ülke kartpostalı) `KarineTheme.Veil` ile karartılarak tam ekran çizilir, `graphicsEmbedded=false` yer/stüdyo katmanları aynı zamanlamayla (`introCardStart`, `Update` içinde video saati yerine) belirip söner, 5,6 sn sonra `FinishWorldIntro` normal yoldan dosyayı bırakır. GEÇ aynı. `world02` (Birleşik Krallık, `case011`) bu yolla açılır. Bölüm finali (`chapterFinale`) önceki dosyanın onay faksında, o dosyanın içinde oynar; "sıradaki görev" faks okunmadan açılmaz, yani sıra finale → faks → yeni dünya açılışı → dosya.
+
