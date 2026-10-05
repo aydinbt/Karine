@@ -1170,25 +1170,25 @@ A 33-year-old Spanish woman, long dark hair loose, red-rimmed eyes, determined g
 
 ## Dosya #059 (4)
 
-180. **Mercedes Llorente** → `mercedes.png`
+180. **Mercedes Llorente** → `mercedes.png` ✅
 
 ```
 A 54-year-old Spanish woman, black hair in an elegant chignon, a fine-boned composed face, pearl earrings, cold assessing dark eyes. A tailored midnight navy dress suit. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-181. **Amaia Santa Ana** → `amaia.png`
+181. **Amaia Santa Ana** → `amaia.png` ✅
 
 ```
 A 31-year-old Spanish woman, long chestnut hair, an angry proud face, tear-swollen eyes, a single silver ring. A deep red coat over a black top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-182. **Isidro Navas** → `isidro.png`
+182. **Isidro Navas** → `isidro.png` ✅
 
 ```
 A 67-year-old Spanish man, white hair combed back, a long solemn lined face, faithful sad eyes. A black butler's waistcoat over a white shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-183. **Héctor Bermejo** → `bermejo.png`
+183. **Héctor Bermejo** → `bermejo.png` ✅
 
 ```
 A 45-year-old Spanish man, short brown hair, rimless glasses, a careful nervous face. A blue-grey suit with a loosened tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
