@@ -7,7 +7,6 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case011_bronze` | Bronz parçalar yerine eski bir anahtar çizilmiş | "small pile of bronze boat fittings — propeller nuts, cleats, hinges — no keys" |
 | `Items/case011_bollard` | İskele yok, leke yok; zeminde sarı silindir | olay yeri fotoğrafı: "on old wet wooden pier planks, river fog, dark smear on the rim, no evidence mat" |
 | `Characters/kieran` | Şapkanın tepesi kadrajda kesik, yüz fazla yakın | "full head with space above the cap, head-and-shoulders framing" |
-| `Characters/craig` | Kollar masada, kadraj geniş; yüz ötekilerden küçük, altta masa çizgisi | "head-and-shoulders only, arms not visible, no table" |
 | `Items/case012_lock` | U kilit yerine asma kilit | "heavy black steel U-shaped bicycle lock, not a padlock" |
 | `Items/case012_camera` | Tavandaki bantlı kamera yerine fotoğraf makinesi | yerinde fotoğraf: "small dome security camera on a bus ceiling, lens covered with black electrical tape, no evidence mat" |
 | `Items/case012_sheet` | Boş kâğıt; panoya takılı sayım çizelgesi değil | "clipboard with handwritten tally columns, unreadable, some numbers circled in red" |
