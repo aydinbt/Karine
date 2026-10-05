@@ -1516,37 +1516,37 @@ A 46-year-old Vietnamese-Australian man, short black hair, a lined patient face,
 
 ## Dosya #070 (6)
 
-234. **Paul Kerrigan** → `kerrigan.png`
+234. **Paul Kerrigan** → `kerrigan.png` ✅
 
 ```
 A 50-year-old Anglo-Australian man, dark brown hair cut short, a heavy square face with a moustache, tired defensive eyes. A high-visibility orange work shirt with reflective stripes, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-235. **Rania Haddad** → `haddad.png`
+235. **Rania Haddad** → `haddad.png` ✅
 
 ```
 A 38-year-old Lebanese-Australian woman, long dark hair pulled back, a sharp determined face, intense brown eyes. A dark red jacket over a black top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-236. **Cormac Byrne** → `cormac.png`
+236. **Cormac Byrne** → `cormac.png` ✅
 
 ```
 A 29-year-old Irish-Australian man, ginger hair, a pale freckled anxious face, light blue eyes. A navy driver's uniform jacket with no logo or badge. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-237. **Maeve Sullivan** → `maeve.png`
+237. **Maeve Sullivan** → `maeve.png` ✅
 
 ```
 A 55-year-old Australian woman, silver bob haircut, reading glasses on a chain, a composed corporate face. A charcoal blazer. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-238. **Wiremu Tane** → `wiremu.png`
+238. **Wiremu Tane** → `wiremu.png` ✅
 
 ```
 A 44-year-old Māori New Zealander man, short black hair, a broad strong face with a subtle chin moko, shaken eyes. A high-visibility orange overall top, no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-239. **Dimitri Kostas** → `dimitri.png`
+239. **Dimitri Kostas** → `dimitri.png` ✅
 
 ```
 A 62-year-old Greek-Australian man, white hair and a thick white moustache, a deeply lined kind face, sharp dark eyes. A worn olive cardigan over a shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
