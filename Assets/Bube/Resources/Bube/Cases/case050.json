@@ -77,7 +77,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case050.request.rigging",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case050.item.sandbag.name",
+     "detailKey": "case050.item.sandbag.detail",
+     "imageResource": "Bube/Items/case050_sandbag"
+    }
+   ]
   },
   {
    "id": "amedeo",
@@ -208,7 +215,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case050.request.cues",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case050.item.book.name",
+     "detailKey": "case050.item.book.detail",
+     "imageResource": "Bube/Items/case050_book"
+    }
+   ]
   },
   {
    "id": "nicola",
@@ -299,7 +313,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case050.item.pin.name",
+     "detailKey": "case050.item.pin.detail",
+     "imageResource": "Bube/Items/case050_pin"
+    }
+   ]
   }
  ],
  "timelineClues": [

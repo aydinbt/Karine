@@ -187,13 +187,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 
 ## Dosya #049 (3)
 112. **Espresso fincanı** → `case049_cup.png` ✅
-113. **Eski pigment kavanozu** → `case049_pigment.png`
-114. **Çoban figürü** → `case049_figure.png`
+113. **Eski pigment kavanozu** → `case049_pigment.png` ✅
+114. **Çoban figürü** → `case049_figure.png` ✅
 
 ## Dosya #050 (3)
-115. **Güvenlik pimi** → `case050_pin.png`
-116. **Kum torbası** → `case050_sandbag.png`
-117. **Replik defteri** → `case050_book.png`
+115. **Güvenlik pimi** → `case050_pin.png` ✅
+116. **Kum torbası** → `case050_sandbag.png` ✅
+117. **Replik defteri** → `case050_book.png` ✅
 
 ## Dosya #051 (3)
 118. **Su geçirmez tablet** → `case051_tablet.png`
