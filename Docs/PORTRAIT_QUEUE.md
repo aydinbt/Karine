@@ -806,43 +806,43 @@ A 23-year-old Neapolitan woman, long black hair in a high ponytail, nervous wide
 
 ## Dosya #048 (7)
 
-123. **Fabio Marino** → `marino.png`
+123. **Fabio Marino** → `marino.png` ✅
 
 ```
 A 52-year-old Italian man, grey crew-cut hair, square jaw, deep frown lines, hard pale grey eyes. Navy blue maintenance supervisor's jacket with reflective strips and no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-124. **Sergio Conti** → `conti.png`
+124. **Sergio Conti** → `conti.png` ✅
 
 ```
 A 34-year-old Italian man, short dark curly hair, stubble, shaken tired brown eyes, grease on his cheek. Orange high-visibility technician's overalls with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-125. **Ilaria Romano** → `ilaria.png`
+125. **Ilaria Romano** → `ilaria.png` ✅
 
 ```
 A 41-year-old Italian woman, shoulder-length chestnut hair, sharp cheekbones, guarded hazel eyes, small pearl earrings. Dark navy business suit with a white shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-126. **Yusuf Demir** → `yusuf.png`
+126. **Yusuf Demir** → `yusuf.png` ✅
 
 ```
 A 36-year-old Turkish man, short black hair, neat beard, kind tired dark eyes. Dark green night watchman's uniform jacket with no badge or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-127. **Greta Lombardi** → `greta.png`
+127. **Greta Lombardi** → `greta.png` ✅
 
 ```
 A 30-year-old Italian woman, wavy honey-blond hair loose, swollen eyes from crying, freckles. Light blue nurse's scrub top under an open denim jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-128. **Dario Ricci** → `dario.png`
+128. **Dario Ricci** → `dario.png` ✅
 
 ```
 A 47-year-old Italian man, thinning dark hair, rimless glasses, careful precise expression. Grey suit jacket over a checked shirt, a clipboard under his arm. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-129. **Kofi Mensah** → `kofi.png`
+129. **Kofi Mensah** → `kofi.png` ✅
 
 ```
 A 25-year-old Ghanaian man, very short black hair, young round face, frightened wide eyes. Royal blue cleaner's work shirt with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
