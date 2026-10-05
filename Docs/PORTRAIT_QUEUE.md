@@ -1010,25 +1010,25 @@ A 31-year-old Turkish woman, long dark brown wavy hair loose, warm brown eyes, n
 
 ## Dosya #054 (4)
 
-155. **Álvaro Méndez** → `alvaro.png`
+155. **Álvaro Méndez** → `alvaro.png` ✅
 
 ```
 A 52-year-old Spanish man, short dark hair greying at the sides, square tanned face, confident salesman's smile, watchful eyes. A light grey-blue linen blazer over a white polo shirt, a builder's tape measure clipped to his belt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-156. **Rocío Navarro** → `rocio.png`
+156. **Rocío Navarro** → `rocio.png` ✅
 
 ```
 A 24-year-old Spanish woman, wavy chestnut hair tied up in a scarf, clay smudges on her cheek and forearms, earnest frightened eyes. A beige canvas work apron over a T-shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-157. **Tomás Herrera** → `tomas.png`
+157. **Tomás Herrera** → `tomas.png` ✅
 
 ```
 A 69-year-old Spanish man, thin white hair, neat white moustache, small round glasses, sharp retired-investigator eyes. An olive green cardigan over a checked shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-158. **Nuria Vidal** → `nuria.png`
+158. **Nuria Vidal** → `nuria.png` ✅
 
 ```
 A 45-year-old Spanish woman, straight black hair to her shoulders, elegant tired face, guilt in her dark eyes. A navy trench coat over a dark sweater. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
