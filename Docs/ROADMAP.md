@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (Birleşik Krallık: Dosya #011–#015 veride; Olay Yeri Planı)
+**Son durum:** 5 Ekim 2026 (Birleşik Krallık #011–#017 ve Almanya #018–#024 veride; hiçbiri oynanmadı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -602,5 +602,23 @@ Hepsi statik doğrulamadan geçti (117 EditMode + 23 PlayMode); hiçbiri gözle 
 ## 5 Ekim 2026 — Dosya sayısı: Türkiye 10, diğerleri 7
 - [~] `Worlds.json`: Türkiye 10 yuva, diğer dokuz ülke 7 (boş yuvalar kırpıldı). `WorldRules` eşit yuva kuralı Türkiye'yi dışarıda tutar; `WorldTests.ShippedAtlasLoads` 10/7 sınar. Seçici Unity'de görülmedi.
 - [x] Birleşik Krallık planı 7 dosyaya daraltıldı (`UK_CHAPTER_PLAN.md`); #017 final.
-- [ ] #016 konusu seçilecek.
+- [x] #016 konusu seçildi: "Başkasının Adı".
 
+
+## 5 Ekim 2026 — Birleşik Krallık finali ve Almanya bölümü (kullanıcı ön onayı)
+Kullanıcı yokken verdiği ön onayla yazıldı ("Birleşik Krallığı bitir, Almanya'ya geç, güçlü bir senaryo yaz, onaylıyorum"). Hepsi doğrulayıcıda çözülüyor; **hiçbiri Unity'de oynanmadı.** 132/132 EditMode, 27 PlayMode + 1 atlandı.
+- [~] #016 "Başkasının Adı" — para izi + kimlik kayıtları (`CASE016_DESIGN.md`).
+- [~] #017 "Köprü" — UK finali: santral izi, olay yeri planı, 7 kartlık rekonstrüksiyon, Almanya'yı açan final.
+- [~] `ChapterFinale.callKeys` / `personnelBodyKey` — finale özel telefon ve personel metni; boşsa genel `finale.call.*`. `CaseRules` final metin anahtarlarını sınar.
+- [~] `world03` açılışı: "Berlin — Kreuzberg şubesi", `Bube/Worlds/de` (görsel yok, kartpostal bekliyor).
+- [~] Almanya planı: `DE_CHAPTER_PLAN.md` (Arendt ipi).
+- [~] #018 "Birinci Kat" — çeviri tutanağı ile özgün ifade.
+- [~] #019 "Canlı Yayın" — medya üstverisi.
+- [~] #020 "Karartılmış Satır" — iki arşiv sürümü.
+- [~] #021 "Kürek" — olay yeri planı, ikizler; ölen Lukas.
+- [~] #022 "Gece Treni" — vagon planı, terminal kayıtları; üç tanık üç ceza.
+- [~] #023 "Ev Hırsızı" — gerçek hırsızlık saatler sonra; katil Arendt'ten para alan analist.
+- [~] #024 "Defter" — Almanya finali: kurulmuş ölüm, 7 kartlık rekonstrüksiyon, JAPONYA / DOSYA 025.
+- [ ] Görseller: `CASE016_PROMPTS.md` … `CASE024_PROMPTS.md` (portre, kapak, CCTV, planlar; plan görselleri gelince koordinat kontrolü).
+- [ ] Kullanıcı Almanya senaryosunu gözden geçirecek.
+- [ ] Japonya bölüm planı (#025–#031).

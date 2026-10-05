@@ -1,0 +1,612 @@
+{
+ "entries": [
+  {
+   "key": "case024.autopsy.body",
+   "value": "· Ölüm sebebi: morfin zehirlenmesi; kandaki düzey reçeteli dozun yaklaşık on katı.\n· İleri evre pankreas kanseri; karaciğere yayılmış. Beklenen yaşam süresi en fazla birkaç hafta.\n· Göğüsteki port kateteri morfin pompasına bağlı; başka iğne izi yok.\n· Alındaki sıyrık ölümden kısa süre önce; düşmeyle uyumlu, darbe değil.\n· Boğuşma izi, tırnak altında başkasına ait doku yok.\n· Ölüm zamanı: 22.30–00.30."
+  },
+  {
+   "key": "case024.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case024.cctv.event.alone",
+   "value": "Kamera: Aydınlık çalışma odasında tek bir yaşlı adam; masada bir defteri bir zarfa koyuyor."
+  },
+  {
+   "key": "case024.cctv.event.look",
+   "value": "Kamera: Adam kameraya doğru bakıyor, elini kaldırıyor; görüntü kesiliyor."
+  },
+  {
+   "key": "case024.cctv.event.smash",
+   "value": "Kamera: Aynı adam şömine maşasıyla pencereyi içeriden kırıyor; camlar bahçeye düşüyor."
+  },
+  {
+   "key": "case024.cctv.overlay",
+   "value": "GARDEN"
+  },
+  {
+   "key": "case024.cctv.period",
+   "value": "2 Aralık 2029, 21.40 – 21.55"
+  },
+  {
+   "key": "case024.cctv.source",
+   "value": "Bahçe kamerası"
+  },
+  {
+   "key": "case024.clue.alone",
+   "value": "Konrad odada tek başına defteri zarfa koyuyor."
+  },
+  {
+   "key": "case024.clue.cam",
+   "value": "Bahçe kamerası Konrad’ın PIN’iyle kapatılıyor; kasa onun kombinasyonuyla açılıyor."
+  },
+  {
+   "key": "case024.clue.dose",
+   "value": "Pompanın kilidi açılıyor; hasta düğmesinden 14 ek doz."
+  },
+  {
+   "key": "case024.clue.notary",
+   "value": "Konrad zarfı ve vasiyet değişikliğini notere bırakıyor."
+  },
+  {
+   "key": "case024.clue.show",
+   "value": "Leon, gece ağrısında Konrad’a pompanın servis kodunu gösteriyor."
+  },
+  {
+   "key": "case024.clue.smash",
+   "value": "Konrad pencereyi içeriden maşayla kırıyor."
+  },
+  {
+   "key": "case024.clue.source.leon",
+   "value": "Bakım hemşiresi"
+  },
+  {
+   "key": "case024.clue.source.notary",
+   "value": "Noter tutanağı"
+  },
+  {
+   "key": "case024.clue.source.panel",
+   "value": "Ev yönetim paneli"
+  },
+  {
+   "key": "case024.clue.source.pump",
+   "value": "Pompa kaydı"
+  },
+  {
+   "key": "case024.custody.konrad",
+   "value": "Konrad Arendt’in kendisi — noter aracılığıyla"
+  },
+  {
+   "key": "case024.custody.label",
+   "value": "Defteri bube Berlin’e kim gönderdi?"
+  },
+  {
+   "key": "case024.custody.philipp",
+   "value": "Philipp Arendt — babasından intikam için"
+  },
+  {
+   "key": "case024.custody.sabine",
+   "value": "Sabine Roth — kasadan aldı"
+  },
+  {
+   "key": "case024.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case024.epilogue.custody.konrad",
+   "value": "Defteri bube Berlin’e ölen adamın kendisi gönderdi; zarfın talimatı bunu söylüyordu."
+  },
+  {
+   "key": "case024.epilogue.custody.philipp",
+   "value": "Oğlun defteri sızdırdığı düşünüldü; savunma defteri onun uydurması diye çürüttü."
+  },
+  {
+   "key": "case024.epilogue.custody.sabine",
+   "value": "Defter Sabine’nin elinden geldi sayıldı; Konrad’ın mektubu ‘yönlendirme’ diye bir kenara konuldu."
+  },
+  {
+   "key": "case024.epilogue.custody.unknown",
+   "value": "Defterin bube’ye nasıl geldiği açık kaldı; delil zinciri mahkemede koptu."
+  },
+  {
+   "key": "case024.epilogue.verdict.konrad",
+   "value": "Konrad Arendt’in ölümü intihar olarak kaydedildi. Defter savcılığa gitti; Londra’dan Berlin’e kapanmış on bir dosya yeniden açıldı. Son sayfadaki ad Tokyo şubesine iletildi."
+  },
+  {
+   "key": "case024.epilogue.verdict.leon",
+   "value": "Leon Fischer cinayetten yargılandı. Defter bir ‘hasta ile hemşire’ davasının dipnotunda kayboldu."
+  },
+  {
+   "key": "case024.epilogue.verdict.philipp",
+   "value": "Philipp Arendt babasını öldürmekle suçlandı. Dava sürerken defter ‘sahte delil’ sayıldı; ödemeler Tokyo’ya devredildi."
+  },
+  {
+   "key": "case024.epilogue.verdict.sabine",
+   "value": "Sabine Roth tutuklandı; Lüksemburg hesapları onun adına donduruldu, gerisi kaldı."
+  },
+  {
+   "key": "case024.evidence.letter",
+   "value": "Konrad Arendt’in mektubu"
+  },
+  {
+   "key": "case024.evidence.panel",
+   "value": "Ev yönetim paneli"
+  },
+  {
+   "key": "case024.evidence.pump",
+   "value": "Morfin pompası kaydı"
+  },
+  {
+   "key": "case024.evidence.tox",
+   "value": "Toksikoloji"
+  },
+  {
+   "key": "case024.feedback.konrad",
+   "value": "Pencereyi içeriden kendisi kırdı, kamerayı ve kasayı kendi PIN’iyle açtı, pompanın kilidini Leon’dan öğrendiği kodla açıp ek dozları kendisi verdi; defter noter yoluyla bube’ye ulaşsın diye."
+  },
+  {
+   "key": "case024.feedback.leon",
+   "value": "Hemşire 20.04’te çıktı; kod onundu ama düğmede yalnız Konrad’ın izleri var."
+  },
+  {
+   "key": "case024.feedback.philipp",
+   "value": "Oğul mirastan çıkarıldı ama 21.00’de evden çıktı; kapı gece boyunca açılmadı ve pompa kaydı başka bir eli göstermiyor."
+  },
+  {
+   "key": "case024.feedback.sabine",
+   "value": "Sabine öğleden sonra döküm getirdi ve gitti; o gece villada değildi."
+  },
+  {
+   "key": "case024.file.caseType",
+   "value": "CİNAYET ŞÜPHESİ"
+  },
+  {
+   "key": "case024.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Şubesi"
+  },
+  {
+   "key": "case024.file.value.location",
+   "value": "Grunewald, Arendt villası — çalışma odası"
+  },
+  {
+   "key": "case024.file.value.number",
+   "value": "BDS-BER-2029-0101"
+  },
+  {
+   "key": "case024.file.value.offence",
+   "value": "Cinayet şüphesi"
+  },
+  {
+   "key": "case024.file.value.reporter",
+   "value": "Kâhya"
+  },
+  {
+   "key": "case024.garden.body",
+   "value": "Çalışma odasının bahçe penceresini gören kamera; 21.55’te kapanıyor. 2 Aralık 21.40 – 21.55."
+  },
+  {
+   "key": "case024.garden.title",
+   "value": "BAHÇE KAMERASI — kayıt dökümü"
+  },
+  {
+   "key": "case024.ledger.body",
+   "value": "Konrad Arendt’in el yazısı; 1989–2029.\n\n· 2023–2029 · “G. H., Londra, dosya kabul” — aylık; Tanner Lane notu.\n· 2027–2028 · “M. B., kürek, Köpenick” — yarış başına.\n· 2028–2029 · “M. K., bube Berlin” — aylık €3.000.\n· 2029 · “İ. medya, Kreuzberg” — yayın hattı.\n· Son sayfa: “Alıcı: Kisaragi Shōji, Tokyo — tüm hatlar devredilecek, Ocak 2030.”"
+  },
+  {
+   "key": "case024.ledger.title",
+   "value": "DEFTER — SEÇİLMİŞ SATIRLAR"
+  },
+  {
+   "key": "case024.leon.body",
+   "value": "Bakım hemşiresi."
+  },
+  {
+   "key": "case024.leon.code.answer",
+   "value": "Servis menüsüyle. Ben… bir kez gösterdim ona. Geçen ay, gece ağrısı dayanılmazdı, beni çağırdı, ‘bir dahaki sefere sen gelmeden ben yapayım’ dedi. Yapmamalıydım."
+  },
+  {
+   "key": "case024.leon.code.answer.demeanor",
+   "value": "Rengi attı."
+  },
+  {
+   "key": "case024.leon.code.question",
+   "value": "Kilit aşılabilir mi?"
+  },
+  {
+   "key": "case024.leon.deflect",
+   "value": "Hasta mahremiyeti var."
+  },
+  {
+   "key": "case024.leon.pump.answer",
+   "value": "Sürekli düşük doz, ağrı artınca hastanın elindeki düğmeyle ek doz. Kilitli: saatte en fazla iki ek doz. Akşam sekizde kontrol ettim, her şey normaldi."
+  },
+  {
+   "key": "case024.leon.pump.answer.demeanor",
+   "value": "Kendinden emin."
+  },
+  {
+   "key": "case024.leon.pump.question",
+   "value": "Pompa nasıl çalışıyordu?"
+  },
+  {
+   "key": "case024.leon.title",
+   "value": "Leon Fischer — görüşme"
+  },
+  {
+   "key": "case024.leon_2.body",
+   "value": "Pompa kaydı üzerine."
+  },
+  {
+   "key": "case024.leon_2.code.answer",
+   "value": "O gece sekizde çıktım, Neukölln’de evdeydim, kız arkadaşım… Ben yapmadım. Ama kodu ona ben verdim. Bu da bir şey değil mi?"
+  },
+  {
+   "key": "case024.leon_2.code.answer.demeanor",
+   "value": "Ağlıyor."
+  },
+  {
+   "key": "case024.leon_2.code.question",
+   "value": "Kilit sizin servis kodunuzla açılmış."
+  },
+  {
+   "key": "case024.leon_2.title",
+   "value": "Leon Fischer — ikinci görüşme"
+  },
+  {
+   "key": "case024.letter.body",
+   "value": "“bube Berlin’e,\n\nBir yaşlının ölümü doğal sayılırsa kimse kasasına bakmaz. Bir cinayet sayılırsa herkes bakar. Oğlum defteri yakardı; Sabine saklardı; benim parayla tuttuğum adamlar sizin içinizde bile. Matthias Kern’i ben besledim; Clara Weiß’ı ben öldürdüm, kendi elimle değil ama kendi paramla.\n\nCamı kırdım ki gelesiniz. Kamerayı kapattım ki kimse suçlanmasın; son karede yüzümü görün diye. Pompanın kodunu Leon’dan ben aldım; o çocuğun hiçbir suçu yok.\n\nDefter Londra’dan, Berlin’den, Rostock’tan geçer. Son sayfası Tokyo’da biter. Oraya gitmeyecek kadar yaşlıyım.\n\nK. A.”"
+  },
+  {
+   "key": "case024.letter.title",
+   "value": "KONRAD ARENDT’İN MEKTUBU"
+  },
+  {
+   "key": "case024.marta.body",
+   "value": "Kâhya."
+  },
+  {
+   "key": "case024.marta.deflect",
+   "value": "Bey’in işlerine karışmazdım."
+  },
+  {
+   "key": "case024.marta.night.answer",
+   "value": "Bey beni 21.30’da yatmaya gönderdi. ‘Bu gece dinlen Marta, yarın uzun bir gün olacak,’ dedi. Otuz yılda bir kez bile böyle demedi. Sonra uyudum, hiçbir şey duymadım."
+  },
+  {
+   "key": "case024.marta.night.answer.demeanor",
+   "value": "Mendilini sıkıyor."
+  },
+  {
+   "key": "case024.marta.night.question",
+   "value": "Dün gece ne oldu?"
+  },
+  {
+   "key": "case024.marta.quote",
+   "value": "“Yarın uzun bir gün olacak.”"
+  },
+  {
+   "key": "case024.marta.title",
+   "value": "Marta Nowak — görüşme"
+  },
+  {
+   "key": "case024.marta.visit.answer",
+   "value": "Philipp Bey akşam yemeğine geldi, bağırdılar, 21.00’de çıktı. Sabine Hanım öğleden sonra. Hemşire Leon her akşam 20.00’de gelir, pompayı kontrol eder, gider."
+  },
+  {
+   "key": "case024.marta.visit.question",
+   "value": "O akşam eve kimler geldi?"
+  },
+  {
+   "key": "case024.method.injected",
+   "value": "Biri dışarıdan morfin enjekte etti"
+  },
+  {
+   "key": "case024.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case024.method.natural",
+   "value": "Hastalıktan doğal ölüm"
+  },
+  {
+   "key": "case024.method.pump",
+   "value": "Pompanın kilidini açıp kendi kendine morfin verdi"
+  },
+  {
+   "key": "case024.method.struck",
+   "value": "Boğuşmada başına vuruldu"
+  },
+  {
+   "key": "case024.notary.body",
+   "value": "Kurmaca bir Charlottenburg noterliği. Zarf 2 Aralık 2029 saat 18.10’da Konrad Arendt tarafından şahsen bırakıldı; noter yazıcısı 3 Aralık sabahı bir kurye çağırdı.\n\nTalimat: “Ölümüm şüpheli bulunursa bube Berlin — Kreuzberg’e. Doğal sayılırsa imha edilsin.”\n\nAynı gün imzalanan vasiyet değişikliği: Philipp Arendt’in payı vakfa; şirket tasfiye edilecek.\n\nZarfta: kırk yıllık defter ve bir mektup."
+  },
+  {
+   "key": "case024.notary.title",
+   "value": "NOTER TUTANAĞI VE MÜHÜRLÜ ZARF"
+  },
+  {
+   "key": "case024.offer.subtitle",
+   "value": "DEFTER  /  CİNAYET ŞÜPHESİ"
+  },
+  {
+   "key": "case024.offer.summary",
+   "value": "Arendt Handelsgesellschaft’ın kurucusu Grunewald’daki villasında ölü bulunuyor: kırık pencere, boş kasa, kapanmış kamera. Dosya şubeye bir noterin mühürlü zarfıyla geliyor — adresi yalnız bube Berlin."
+  },
+  {
+   "key": "case024.offer.title",
+   "value": "DOSYA #024"
+  },
+  {
+   "key": "case024.panel.body",
+   "value": "· 21.31 · Marta Nowak’ın odası: ışık kapandı.\n· 21.52 · bahçe penceresi alarmı: kırılma.\n· 21.55 · bahçe kamerası kapatıldı; kullanılan PIN: Konrad Arendt.\n· 21.58 · kasa açıldı; kullanılan kombinasyon yalnız Konrad Arendt’te.\n· 22.40 · ön kapı kilidi gece moduna; açılma yok."
+  },
+  {
+   "key": "case024.panel.title",
+   "value": "EV YÖNETİM PANELİ KAYDI"
+  },
+  {
+   "key": "case024.person.leon.info",
+   "value": "35 yaşında, evde bakım hemşiresi; son üç aydır Konrad Arendt’e bakıyor."
+  },
+  {
+   "key": "case024.person.leon.name",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.person.marta.info",
+   "value": "61 yaşında, villanın kâhyası; Konrad’ın yanında otuz yıl."
+  },
+  {
+   "key": "case024.person.marta.name",
+   "value": "Marta Nowak"
+  },
+  {
+   "key": "case024.person.philipp.info",
+   "value": "43 yaşında, Konrad Arendt’in oğlu; Arendt Handelsgesellschaft’ın yönetim kurulu başkan yardımcısı."
+  },
+  {
+   "key": "case024.person.philipp.name",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.person.sabine.info",
+   "value": "56 yaşında, şirketin mali işler direktörü; yirmi beş yıldır Konrad’ın yanında."
+  },
+  {
+   "key": "case024.person.sabine.name",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.philipp.body",
+   "value": "Oğul."
+  },
+  {
+   "key": "case024.philipp.deflect",
+   "value": "Avukatlarımız sizinle görüşecek."
+  },
+  {
+   "key": "case024.philipp.dinner.answer",
+   "value": "Şirketi bana bırakmayacağını söyledi. ‘Şirketi kimseye bırakmayacağım, ortadan kaldıracağım,’ dedi. Hastalık aklını almıştı. Saat dokuzda çıktım, Mitte’de bir bardaydım, gece yarısına kadar."
+  },
+  {
+   "key": "case024.philipp.dinner.answer.demeanor",
+   "value": "Öfkesini zor tutuyor."
+  },
+  {
+   "key": "case024.philipp.dinner.question",
+   "value": "Babanızla neden tartıştınız?"
+  },
+  {
+   "key": "case024.philipp.safe.answer",
+   "value": "Babamın defteri. Kırk yıllık. Her ödeme, her ‘danışman’. Kim aldıysa o deftere ihtiyacı olan biridir. Ben değilim, benim zaten kopyam var… vardı."
+  },
+  {
+   "key": "case024.philipp.safe.question",
+   "value": "Kasada ne vardı?"
+  },
+  {
+   "key": "case024.philipp.title",
+   "value": "Philipp Arendt — görüşme"
+  },
+  {
+   "key": "case024.philipp_2.body",
+   "value": "Vasiyet değişikliği üzerine."
+  },
+  {
+   "key": "case024.philipp_2.title",
+   "value": "Philipp Arendt — ikinci görüşme"
+  },
+  {
+   "key": "case024.philipp_2.will.answer",
+   "value": "Biliyordum. Yemekte söyledi. Bu yüzden bağırdım. Ama öldürmek? Ölüyordu zaten. Birkaç hafta bekleyecektim, avukatlar halledecekti. Beklememesi… onu ancak o yapar."
+  },
+  {
+   "key": "case024.philipp_2.will.answer.demeanor",
+   "value": "İlk kez sesi kırıldı."
+  },
+  {
+   "key": "case024.philipp_2.will.question",
+   "value": "Babanız o gün sizi mirastan çıkardı."
+  },
+  {
+   "key": "case024.pump.body",
+   "value": "Hasta: Konrad Arendt. Bakım hemşiresi: Leon Fischer (son kontrol 2 Aralık 20.04).\n\n· 22.12 · servis menüsü açıldı; kilit kapatıldı. Kod: Leon Fischer’in Kasım’da hastaya gösterdiği servis kodu.\n· 22.14–22.31 · hasta düğmesinden 14 ek doz.\n· 22.33 · servis menüsü kapandı; kilit yeniden açıldı.\n· Pompa kendi saatiyle kayıt tutar; uzaktan erişim yok."
+  },
+  {
+   "key": "case024.pump.title",
+   "value": "MORFİN POMPASI KAYDI"
+  },
+  {
+   "key": "case024.recon.r_camera",
+   "value": "Kameraya yüzünü gösterip kendi PIN’iyle kapatıyor."
+  },
+  {
+   "key": "case024.recon.r_clara",
+   "value": "Clara Weiß’ın ölümünü okuyan Konrad, ‘benim param bir kadını öldürdü’ diyor ve Lüksemburg dökümünü istiyor."
+  },
+  {
+   "key": "case024.recon.r_code",
+   "value": "Konrad, pompanın servis kodunu Leon’dan bir gece ağrısında öğreniyor."
+  },
+  {
+   "key": "case024.recon.r_dose",
+   "value": "Pompanın kilidini açıp on dört ek dozu kendisi veriyor; düşerken alnını çarpıyor."
+  },
+  {
+   "key": "case024.recon.r_marta",
+   "value": "Marta’yı erken yatırıyor, Philipp’le yemekte tartışıyor; Philipp 21.00’de çıkıyor."
+  },
+  {
+   "key": "case024.recon.r_notary",
+   "value": "2 Aralık’ta defteri, mektubu ve vasiyet değişikliğini notere bırakıyor; talimat: şüpheli ölümse bube Berlin’e."
+  },
+  {
+   "key": "case024.recon.r_window",
+   "value": "Pencereyi içeriden maşayla kırıyor, kasayı açıp boşaltıyor, dosyaları dağıtıyor."
+  },
+  {
+   "key": "case024.report.body",
+   "value": "3 Aralık 2029 saat 07.10’da Grunewald’daki villasının çalışma odasında Arendt Handelsgesellschaft’ın kurucusu Konrad Arendt (71) ölü bulundu. Kâhya Marta Nowak buldu.\n\nOda dağınık: devrilmiş sandalye, kırık bahçe penceresi, alnında bir sıyrık, yerde dağılmış dosyalar. Kasa açık ve boş. Bahçe kamerası gece 21.55’te kapanmış.\n\nNot: Dosya, olağan kanaldan değil, bir noterin şubeye gönderdiği mühürlü zarfla bube Berlin’e geldi. Zarfın üzerinde: “Konrad Arendt’in ölümü şüpheli bulunursa yalnız bube Berlin — Kreuzberg şubesine teslim edilecektir.”"
+  },
+  {
+   "key": "case024.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case024.request.notary",
+   "value": "Noterlikteki zarfı ve tutanağı iste"
+  },
+  {
+   "key": "case024.request.panel",
+   "value": "Ev yönetim panelinin kaydını iste"
+  },
+  {
+   "key": "case024.request.pump",
+   "value": "Morfin pompasının kaydını iste"
+  },
+  {
+   "key": "case024.request.tox",
+   "value": "Toksikoloji ve port karşılaştırmasını iste"
+  },
+  {
+   "key": "case024.sabine.body",
+   "value": "Mali işler direktörü."
+  },
+  {
+   "key": "case024.sabine.deflect",
+   "value": "Şirket bilgisi gizlidir."
+  },
+  {
+   "key": "case024.sabine.fear.answer",
+   "value": "Berlin’de bir analist öldü, Kasım’da. Haberini okuyunca Konrad bir saat konuşmadı. Sonra bana ‘Benim param bir kadını öldürdü,’ dedi."
+  },
+  {
+   "key": "case024.sabine.fear.question",
+   "value": "Son haftalarda farklı bir şey var mıydı?"
+  },
+  {
+   "key": "case024.sabine.title",
+   "value": "Sabine Roth — görüşme"
+  },
+  {
+   "key": "case024.sabine.visit.answer",
+   "value": "Konrad beni çağırdı. Lüksemburg hesaplarının dökümünü istedi, her şeyi, 2018’den bu yana. ‘Son bir kez toparlamak istiyorum,’ dedi. Verdim."
+  },
+  {
+   "key": "case024.sabine.visit.answer.demeanor",
+   "value": "Dik oturuyor, sesi düz."
+  },
+  {
+   "key": "case024.sabine.visit.question",
+   "value": "Öğleden sonra neden geldiniz?"
+  },
+  {
+   "key": "case024.scene.body",
+   "value": "· Bahçe penceresinin camları dışarıda, çimlerde; pencere içeriden kırılmış. Şöminenin demir maşasında cam kırıntıları.\n· Kasa kombinasyonla açılmış; zorlama yok.\n· Dağılmış dosyalar şirketin 2027–2029 yıllık raporları; hiçbiri eksik değil.\n· Bahçe kamerası ev içindeki yönetim panelinden kapatılmış."
+  },
+  {
+   "key": "case024.scene.title",
+   "value": "OLAY YERİ İNCELEMESİ"
+  },
+  {
+   "key": "case024.summary.evidence",
+   "value": "Olay yeri incelemesi camın içeriden kırıldığını, kasanın zorlanmadığını gösterdi. Ev paneli kamera ve kasa için Konrad’ın kendi PIN’ini, bahçe kamerasının son kareleri onu yalnız gösterdi. Pompa kaydı ve toksikoloji morfinin yalnız onun düğmesinden geldiğini kanıtladı; noter tutanağı ve mektup nedenini anlattı."
+  },
+  {
+   "key": "case024.summary.lesson",
+   "value": "Bir sahne her zaman bir failin sahnesi değildir; bazen ölen, kendi ölümünü bir mesaj olarak kurar. Kimin kurduğunu, kime ulaşmak için kurduğunu sor."
+  },
+  {
+   "key": "case024.summary.location",
+   "value": "Grunewald, Arendt villası — Aralık 2029"
+  },
+  {
+   "key": "case024.summary.truth",
+   "value": "Ölümcül hasta Konrad Arendt, parasının Kasım’da bir bube analistini öldürttüğünü öğrenince kırk yıllık defterini teslim etmeye karar verdi; ama doğal bir ölümde kasasına kimsenin bakmayacağını, oğlunun defteri yakacağını biliyordu. 2 Aralık’ta defteri notere bıraktı, talimat yazdı: ölüm şüpheliyse bube Berlin’e. Gece pencereyi içeriden kırdı, kasayı boşalttı, kameraya yüzünü gösterip kapattı ve pompanın kilidini hemşiresinden öğrendiği kodla açarak kendine on dört ek doz verdi."
+  },
+  {
+   "key": "case024.suspect.label",
+   "value": "Konrad Arendt’in ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case024.tablet.caseLine",
+   "value": "DOSYA #024  /  BUBE BERLİN — KREUZBERG"
+  },
+  {
+   "key": "case024.time.alone",
+   "value": "21.48"
+  },
+  {
+   "key": "case024.time.cam",
+   "value": "21.55"
+  },
+  {
+   "key": "case024.time.dose",
+   "value": "22.12–22.33"
+  },
+  {
+   "key": "case024.time.look",
+   "value": "21.54"
+  },
+  {
+   "key": "case024.time.notary",
+   "value": "2 Aralık 18.10"
+  },
+  {
+   "key": "case024.time.show",
+   "value": "Kasım 2029"
+  },
+  {
+   "key": "case024.time.smash",
+   "value": "21.52"
+  },
+  {
+   "key": "case024.title",
+   "value": "Dosya #024 — Defter"
+  },
+  {
+   "key": "case024.tox.body",
+   "value": "Morfinin tamamı pompa hattından, port kateteri yoluyla verilmiş; haznedeki eksilme ile kandaki düzey uyuşuyor. Dışarıdan enjeksiyon yok. Hasta düğmesinde yalnız Konrad Arendt’in parmak izleri."
+  },
+  {
+   "key": "case024.tox.title",
+   "value": "TOKSİKOLOJİ VE PORT KARŞILAŞTIRMASI"
+  },
+  {
+   "key": "case024.verdict.konrad",
+   "value": "Konrad Arendt — kendi ölümünü cinayet gibi kurdu"
+  },
+  {
+   "key": "case024.verdict.leon",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.verdict.philipp",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.verdict.sabine",
+   "value": "Sabine Roth"
+  }
+ ]
+}

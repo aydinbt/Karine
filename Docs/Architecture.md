@@ -535,7 +535,7 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 ## Olay rekonstrüksiyonu ve bölüm finali (4 Ekim 2026)
 
 - `CaseData.reconstruction` (`ReconCard[]`): doluysa rapor sihirbazına sütunlardan sonra bir adım eklenir (`BubeApp.Recon.cs`). `Progress.recon` yerleşimleri tutar. `ReconComplete` değilse `SubmitReport`/`SubmitFinalReport` false döner; `ReconSupported` (sıra = veri sırası, kaynak önek eşleşmesi) değilse rapor doğru sayılmaz. `FaxReview.hasRecon/reconSupported` faks satırını besler.
-- `CaseData.chapterFinale`: faks sonrası (`FaxPage` ve masa gelen kutusu) `ChapterFinale` bir kez oynar (PlayerPrefs `karine.finale.<id>`); personel satırları Worlds yuvaları ve inceleme geçmişinden.
+- `CaseData.chapterFinale`: faks sonrası (`FaxPage` ve masa gelen kutusu) `ChapterFinale` bir kez oynar (PlayerPrefs `karine.finale.<id>`); personel satırları Worlds yuvaları ve inceleme geçmişinden. İsteğe bağlı `callKeys` (telefon satırları) ve `personnelBodyKey` finale özel metin verir; boşsa genel `finale.call.1..5` ve `finale.personnelBody`. `CaseRules` final metin anahtarlarının yerelde var olduğunu sınar. `world03` (Almanya, `case018`) `world02` ile aynı kartpostal yolundan açılır.
 - `requestKind: "scope"`: başka bir olay kaydını dosyaya alan izin; metinler `requests.scope*`.
 - `Investigation` artık `sealed partial` (Lines, Recon ayrı dosyalarda).
 

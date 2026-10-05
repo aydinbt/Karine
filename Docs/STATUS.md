@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**5 Ekim (gece, 6):** Kullanıcının ön onayıyla **Birleşik Krallık tamamlandı (#016–#017)** ve **Almanya bölümü yazıldı (#018–#024)**. Bölümün ipi Arendt Handelsgesellschaft: Londra'daki rüşvetin parası Berlin'den geliyor, #019/#021/#023'te birer satırla geçiyor, #024 "Defter"de ölümcül hasta kurucu kendi ölümünü cinayet gibi kurup defteri bube'ye ulaştırıyor; son sayfa Tokyo'yu gösteriyor. Finaller artık ülkeye özel telefon/personel metni taşıyabiliyor; `world03` Berlin açılışı eklendi. Testler yeşil (132 EditMode, 27 PlayMode); **hiçbiri Unity'de oynanmadı**, görseller bekliyor (prompt dosyaları hazır).
+
 **5 Ekim (gece, 5):** Dosya sayısı yeniden kararlaştırıldı: **Türkiye 10, sonraki dokuz ülke 7'şer** (toplam 73). `Worlds.json` yuvaları kırpıldı, doğrulayıcı ve test buna göre; Birleşik Krallık #011–#017 (#016 seçilecek, #017 final).
 
 **5 Ekim (gece, 4):** **Dosya #015 "Kapanış Saati"** veride ve yeni özellik **Olay Yeri Planı** kodda: kuşbakışı krokide engeller, olay çarpısı ve tanık işaretleri; işarete dokununca görüş konisi, engeller gölge bırakır. Dört izinli polis "sigara alanından gördük" der; plan duvarın ve kamyonetin görüşü kestiğini gösterir, oyun bunu söylemez. 24 düğüm, 252 metin. Testler yeşil (132 EditMode, 27 PlayMode); elle oynanmadı.

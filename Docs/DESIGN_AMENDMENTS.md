@@ -1084,3 +1084,7 @@ Kullanıcı #015 için "bir üst seviye konu, yeni özellik" istedi ve tasarım�
 ## Dosya sayısı: Türkiye 10, sonraki ülkeler 7 (5 Ekim 2026)
 
 Kullanıcı ülke başına on dosya kararını değiştirdi: Türkiye öğretici bölüm olarak on dosyada kalır (hikâyeleri, görselleri ve yetenek sırası korunur), sonraki dokuz ülke yedişer dosya. On ülkeyle toplam 73. Birleşik Krallık #011–#017; #015 yazılı, #016 seçilecek, #017 final. Seçicideki yuva sayısı artık yalnız Türkiye dışındaki ülkeler arasında eşit tutulur. Türkiye'den dosya taşıma önerisi değerlendirildi, yapılmadı.
+
+## Birleşik Krallık finali ve Almanya bölümü (5 Ekim 2026)
+
+Kullanıcı ön onayı: "Birleşik Krallığı bitir, sonra Almanya'ya geç, güçlü bir senaryo yaz, onaylıyorum; birbirine bağla." #016–#024 bu onayla yazıldı; kullanıcı dönünce gözden geçirecek. Almanya: bube Berlin — Kreuzberg şubesi, Haziran–Aralık 2029, plan [DE_CHAPTER_PLAN.md](DE_CHAPTER_PLAN.md). Bölümleri bağlayan ip **Arendt Handelsgesellschaft**: vakalar kendi içinde kapanır, ip yalnız birer satırla geçer ve finalde merkeze oturur. Her bölüm finali ülkeye özel telefon satırları ve personel metni taşıyabilir. Almanya finali bir cinayet değil, kurulmuş bir ölümdür; defterin son sayfası Japonya'yı açar.
