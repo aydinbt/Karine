@@ -165,7 +165,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case013.request.scene",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case013.item.cloth.name",
+     "detailKey": "case013.item.cloth.detail",
+     "imageResource": "Bube/Items/case013_cloth"
+    },
+    {
+     "nameKey": "case013.item.alarm.name",
+     "detailKey": "case013.item.alarm.detail",
+     "imageResource": "Bube/Items/case013_alarm"
+    }
+   ]
   },
   {
    "id": "service",
@@ -177,7 +189,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case013.request.service",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case013.item.fire.name",
+     "detailKey": "case013.item.fire.detail",
+     "imageResource": "Bube/Items/case013_fire"
+    }
+   ]
   },
   {
    "id": "priya",
@@ -370,6 +389,13 @@
    "bodyKey": "case013.ledger.body",
    "requires": [
     "victor_2"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case013.item.ledger.name",
+     "detailKey": "case013.item.ledger.detail",
+     "imageResource": "Bube/Items/case013_ledger"
+    }
    ]
   },
   {

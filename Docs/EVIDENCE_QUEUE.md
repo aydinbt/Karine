@@ -3,10 +3,10 @@
 Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md`, #025–#073 `CASE0NN_PROMPTS.md` → "Adli bulgular". Kaydedilen yol `Assets/Bube/Resources/Bube/Items/<dosya>.png`; ardından `python3 Tools/bind-items.py`. #011–#012 düzeltmeleri `IMAGE_REDO.md`'de, en sona kalır.
 
 ## Dosya #013 (4)
-1. **Baca bezi** → `case013_cloth.png`
-2. **Pilsiz alarm** → `case013_alarm.png`
-3. **Gaz sobası** → `case013_fire.png`
-4. **Kira defteri** → `case013_ledger.png`
+1. **Baca bezi** → `case013_cloth.png` ✅
+2. **Pilsiz alarm** → `case013_alarm.png` ✅
+3. **Gaz sobası** → `case013_fire.png` ✅
+4. **Kira defteri** → `case013_ledger.png` ✅
 
 ## Dosya #014 (4)
 5. **Yırtık not** → `case014_note.png`
