@@ -26,9 +26,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 15. **Kart zarfı** → `case016_envelope.png` ✅
 
 ## Dosya #017 (3)
-16. **Yanmış zarf** → `case017_envelope.png`
-17. **Kırık telefon** → `case017_phone.png`
-18. **Çelik fener** → `case017_torch.png`
+16. **Yanmış zarf** → `case017_envelope.png` ✅
+17. **Kırık telefon** → `case017_phone.png` ✅
+18. **Çelik fener** → `case017_torch.png` ✅
 
 ## Dosya #018 (3)
 19. **Taşıma kutusu** → `case018_box.png`

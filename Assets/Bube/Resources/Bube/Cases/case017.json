@@ -550,6 +550,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case017.graham.night"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case017.item.phone.name",
+     "detailKey": "case017.item.phone.detail",
+     "imageResource": "Bube/Items/case017_phone"
+    }
    ]
   },
   {
@@ -621,7 +628,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case017.request.search",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case017.item.envelope.name",
+     "detailKey": "case017.item.envelope.detail",
+     "imageResource": "Bube/Items/case017_envelope"
+    },
+    {
+     "nameKey": "case017.item.torch.name",
+     "detailKey": "case017.item.torch.detail",
+     "imageResource": "Bube/Items/case017_torch"
+    }
+   ]
   },
   {
    "id": "graham_3",
