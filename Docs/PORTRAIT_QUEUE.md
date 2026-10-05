@@ -1394,31 +1394,31 @@ A 23-year-old French-Canadian man, sandy curly hair, a young open face, a waiter
 
 ## Dosya #066 (5)
 
-215. **Graham Whitfield** → `whitfield.png`
+215. **Graham Whitfield** → `whitfield.png` ✅
 
 ```
 A 56-year-old English-Canadian man, silver hair swept back, a tanned lean face, a thin smile and pale blue eyes that do not smile. An impeccable charcoal pinstripe suit with a silk tie. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-216. **Anne-Marie Leduc** → `leduc.png`
+216. **Anne-Marie Leduc** → `leduc.png` ✅
 
 ```
 A 60-year-old Québécoise woman, chestnut hair in a precise bob, a powerful composed face, tired eyes behind tortoiseshell glasses. A burgundy tailored suit. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-217. **Chidi Obi** → `obi.png`
+217. **Chidi Obi** → `obi.png` ✅
 
 ```
 A 33-year-old Nigerian-Canadian man, short hair, a neat beard, a calm technical face, a badge reel clipped to his belt with a blank card. A steel-blue polo shirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-218. **Luc-Antoine Renaud** → `renaud.png`
+218. **Luc-Antoine Renaud** → `renaud.png` ✅
 
 ```
 A 50-year-old Québécois man, short dark hair, a square jaw, an alert professional face. A black security blazer with no badge. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-219. **Mirela Popescu** → `mirela.png`
+219. **Mirela Popescu** → `mirela.png` ✅
 
 ```
 A 29-year-old Romanian-Canadian woman, long dark brown hair, a pale anxious face, red eyes. A lavender-grey blouse. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
