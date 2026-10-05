@@ -87,7 +87,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case047.request.coldroom",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case047.item.thermo.name",
+     "detailKey": "case047.item.thermo.detail",
+     "imageResource": "Bube/Items/case047_thermo"
+    }
+   ]
   },
   {
    "id": "autopsy",
@@ -333,7 +340,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case047.item.handle.name",
+     "detailKey": "case047.item.handle.detail",
+     "imageResource": "Bube/Items/case047_handle"
+    }
+   ]
   }
  ],
  "timelineClues": [

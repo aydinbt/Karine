@@ -171,13 +171,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 102. **Boş kartuş kutusu** → `case045_vials.png` ✅
 
 ## Dosya #046 (3)
-103. **Yastık** → `case046_pillow.png`
-104. **Teneke kutu** → `case046_tin.png`
-105. **Yarım kalmış dantel** → `case046_lace.png`
+103. **Yastık** → `case046_pillow.png` ✅
+104. **Teneke kutu** → `case046_tin.png` ✅
+105. **Yarım kalmış dantel** → `case046_lace.png` ✅
 
 ## Dosya #047 (3)
-106. **Soğuk oda iç kolu** → `case047_handle.png`
-107. **Soğuk oda termostatı** → `case047_thermo.png`
+106. **Soğuk oda iç kolu** → `case047_handle.png` ✅
+107. **Soğuk oda termostatı** → `case047_thermo.png` ✅
 108. **Kasa defteri** → `case047_ledger.png`
 
 ## Dosya #048 (3)

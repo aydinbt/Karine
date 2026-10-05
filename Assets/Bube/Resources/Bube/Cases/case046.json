@@ -191,7 +191,24 @@
    ],
    "requestable": true,
    "requestLabelKey": "case046.request.scooter",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case046.item.pillow.name",
+     "detailKey": "case046.item.pillow.detail",
+     "imageResource": "Bube/Items/case046_pillow"
+    },
+    {
+     "nameKey": "case046.item.tin.name",
+     "detailKey": "case046.item.tin.detail",
+     "imageResource": "Bube/Items/case046_tin"
+    },
+    {
+     "nameKey": "case046.item.lace.name",
+     "detailKey": "case046.item.lace.detail",
+     "imageResource": "Bube/Items/case046_lace"
+    }
+   ]
   },
   {
    "id": "bank",
