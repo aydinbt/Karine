@@ -85,9 +85,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 50. **Kol düğmesi** → `case028_cuff.png` ✅
 
 ## Dosya #029 (3)
-51. **Diş kalıpları** → `case029_dental.png`
-52. **Benzin bidonu** → `case029_can.png`
-53. **Taşıma minibüsünün anahtarı** → `case029_keys.png`
+51. **Diş kalıpları** → `case029_dental.png` ✅
+52. **Benzin bidonu** → `case029_can.png` ✅
+53. **Taşıma minibüsünün anahtarı** → `case029_keys.png` ✅
 
 ## Dosya #030 (3)
 54. **Tatbikat yoklama kâğıdı** → `case030_sheet.png`

@@ -173,6 +173,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case029.matsui.records"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case029.item.dental.name",
+     "detailKey": "case029.item.dental.detail",
+     "imageResource": "Bube/Items/case029_dental"
+    }
    ]
   },
   {
@@ -320,7 +327,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case029.request.garage",
-   "requestDelaySeconds": 7
+   "requestDelaySeconds": 7,
+   "relatedItems": [
+    {
+     "nameKey": "case029.item.can.name",
+     "detailKey": "case029.item.can.detail",
+     "imageResource": "Bube/Items/case029_can"
+    },
+    {
+     "nameKey": "case029.item.keys.name",
+     "detailKey": "case029.item.keys.detail",
+     "imageResource": "Bube/Items/case029_keys"
+    }
+   ]
   },
   {
    "id": "daisuke_2",
