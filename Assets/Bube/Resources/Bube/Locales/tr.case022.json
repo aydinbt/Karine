@@ -1,0 +1,584 @@
+{
+ "entries": [
+  {
+   "key": "case022.audit.body",
+   "value": "Şirket içi denetim, Dieter Brandt’ın talebi üzerine başlatılmış, sonuçlanmamış.\n\n· Sven Ott’un defterinde 412 nakit ceza makbuzu; kasaya giren 196’sı.\n· Fark: yaklaşık €12.900.\n· Dieter Brandt’ın notu, 9 Ekim: “Sven’le konuştum. Hafta sonuna kadar süre verdim.”"
+  },
+  {
+   "key": "case022.audit.title",
+   "value": "NAKİT CEZA DENETİMİ — 2028–2029"
+  },
+  {
+   "key": "case022.autopsy.body",
+   "value": "· Ölüm sebebi: başın arkasına tek, ağır darbe; direğe çarpmayla değil, dar, kenarlı bir nesneyle uyumlu.\n· Darbe arkadan, yukarıdan aşağı; vuran kurbandan uzun ya da ayakta, kurban eğilmiş.\n· Ölüm zamanı: 23.50–00.05.\n· Yarada plastik kırıntıları: siyah, sert ABS; el terminali kasasıyla uyumlu."
+  },
+  {
+   "key": "case022.autopsy.title",
+   "value": "OTOPSİ ÖN NOTU"
+  },
+  {
+   "key": "case022.clue.audit9",
+   "value": "Brandt, Ott’a nakit makbuzlar için hafta sonuna kadar süre veriyor."
+  },
+  {
+   "key": "case022.clue.f1",
+   "value": "Jannik Lorenz’e ceza."
+  },
+  {
+   "key": "case022.clue.f2",
+   "value": "Nele Hartmann’a ceza."
+  },
+  {
+   "key": "case022.clue.f3",
+   "value": "Okan Yıldız’a ceza."
+  },
+  {
+   "key": "case022.clue.hit",
+   "value": "Brandt’ın terminali yere düşüyor; Ott’un terminalinde darbe sinyali."
+  },
+  {
+   "key": "case022.clue.source.audit",
+   "value": "Nakit ceza denetimi"
+  },
+  {
+   "key": "case022.clue.source.fines",
+   "value": "Brandt’ın terminali"
+  },
+  {
+   "key": "case022.clue.source.svenlog",
+   "value": "Ott’un terminali"
+  },
+  {
+   "key": "case022.clue.sv1",
+   "value": "Ott’un terminali son vagona geçiyor."
+  },
+  {
+   "key": "case022.custody.label",
+   "value": "Üç tanık neden üç ayrı kişi anlattı?"
+  },
+  {
+   "key": "case022.custody.liar",
+   "value": "Tanıklardan en az ikisi yalan söylüyor"
+  },
+  {
+   "key": "case022.custody.one",
+   "value": "Tek bir kaçak yolcu, üç farklı gözle"
+  },
+  {
+   "key": "case022.custody.three",
+   "value": "Üç ayrı kaçak yolcu — her tanık kendi cezasını anlattı"
+  },
+  {
+   "key": "case022.custody.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case022.epilogue.custody.liar",
+   "value": "Tanıklar yalancı sayıldı; asıl tanığın ifadesi de onlarla birlikte çöpe gitti."
+  },
+  {
+   "key": "case022.epilogue.custody.one",
+   "value": "Var olmayan tek bir kaçak yolcu arandı; aylarca."
+  },
+  {
+   "key": "case022.epilogue.custody.three",
+   "value": "Üç tanığın ifadesi birbirini yalanlamıyordu: üçü de kendi cezasını anlatmıştı. Okan Yıldız’ın ‘meslektaşı’ cümlesi dosyaya geri kondu."
+  },
+  {
+   "key": "case022.epilogue.custody.unknown",
+   "value": "Tanıkların neden ayrıştığı açık kaldı."
+  },
+  {
+   "key": "case022.epilogue.verdict.jannik",
+   "value": "Jannik Lorenz gözaltına alındı, okuldan uzaklaştırıldı. Sven Ott ertesi hafta yeni ortağıyla vardiyaya çıktı."
+  },
+  {
+   "key": "case022.epilogue.verdict.nele",
+   "value": "Nele Hartmann suçlandı, işini kaybetti. Nakit makbuz farkı kimsenin dosyasına girmedi."
+  },
+  {
+   "key": "case022.epilogue.verdict.okan",
+   "value": "Okan Yıldız yargılandı; mahkemede ‘meslektaşı oradaydı’ cümlesini kimse kayda geçirmedi."
+  },
+  {
+   "key": "case022.epilogue.verdict.sven",
+   "value": "Sven Ott cinayetten tutuklandı; nakit ceza dosyası ayrıca açıldı. Üç yolcu cezalarını ödedi."
+  },
+  {
+   "key": "case022.evidence.audit",
+   "value": "Nakit ceza denetimi"
+  },
+  {
+   "key": "case022.evidence.fines",
+   "value": "Brandt’ın ceza kaydı"
+  },
+  {
+   "key": "case022.evidence.plastic",
+   "value": "Terminal kasası karşılaştırması"
+  },
+  {
+   "key": "case022.evidence.svenlog",
+   "value": "Ott’un konum kaydı"
+  },
+  {
+   "key": "case022.feedback.jannik",
+   "value": "Genç 23.31’de ceza yedi ve ön tarafta oturdu; bisiklet bölmesi arkayı görmesini bile engelliyordu."
+  },
+  {
+   "key": "case022.feedback.nele",
+   "value": "Kurye 23.39’da ceza yedi ve bisiklet bölmesinin önünde kaldı; arka kapıda yalnız bir turuncu yelek gördü."
+  },
+  {
+   "key": "case022.feedback.okan",
+   "value": "Okan cezasını kibarca ödedi ve meslektaşı gördüğünü baştan söyledi."
+  },
+  {
+   "key": "case022.feedback.sven",
+   "value": "Konum kaydı onu 23.48’de arka kapıya koyuyor; terminal kasası yaraya oturuyor; nakit makbuzlar yüzünden Brandt onu bildirecekti."
+  },
+  {
+   "key": "case022.file.caseType",
+   "value": "ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case022.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Şubesi"
+  },
+  {
+   "key": "case022.file.value.location",
+   "value": "S-Bahn çevre hattı, son vagon — Ostkreuz"
+  },
+  {
+   "key": "case022.file.value.number",
+   "value": "BDS-BER-2029-0083"
+  },
+  {
+   "key": "case022.file.value.offence",
+   "value": "Şüpheli ölüm"
+  },
+  {
+   "key": "case022.file.value.reporter",
+   "value": "Tren sürücüsü"
+  },
+  {
+   "key": "case022.fines.body",
+   "value": "16–17 Ekim 2029 gece vardiyası, son vagon.\n\n· 23.31 · Treptower Park öncesi · Jannik Lorenz · biletsiz, 60 €\n· 23.39 · Plänterwald · Nele Hartmann · bisiklet bileti yok, 60 €\n· 23.47 · Ostkreuz öncesi · Okan Yıldız · süresi dolmuş abonman, 60 €\n· 23.49 · terminal yere düşme sinyali; sonra kayıt yok.\n\nÜç tanık üç ayrı kişiyi anlatıyor; üçü de ceza yemiş."
+  },
+  {
+   "key": "case022.fines.title",
+   "value": "CEZA KAYDI — DIETER BRANDT’IN TERMİNALİ"
+  },
+  {
+   "key": "case022.jannik.body",
+   "value": "Kapüşonlu genç."
+  },
+  {
+   "key": "case022.jannik.deflect",
+   "value": "Annem gelmeden konuşmam."
+  },
+  {
+   "key": "case022.jannik.saw.answer",
+   "value": "Kontrolör benim önümde kapüşonlu bir çocukla bağırıştı, Treptower Park’tan önce. Çocuk ‘Bileti telefonumda’ dedi, kontrolör ceza yazdı. Ben kulaklıktaydım. Arkayı görmedim, bisiklet bölmesi var."
+  },
+  {
+   "key": "case022.jannik.saw.answer.demeanor",
+   "value": "Kapüşonunu çekiştirdi."
+  },
+  {
+   "key": "case022.jannik.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case022.jannik.title",
+   "value": "Jannik Lorenz — görüşme"
+  },
+  {
+   "key": "case022.jannik.who.answer",
+   "value": "…Evet. Bileti unuttum. Ceza yedim, sonra oturdum. Söyleseydim katil derlerdi."
+  },
+  {
+   "key": "case022.jannik.who.question",
+   "value": "O kapüşonlu çocuk siz olabilir misiniz?"
+  },
+  {
+   "key": "case022.method.device",
+   "value": "Arkadan, eğilmişken el terminaliyle başına vuruldu"
+  },
+  {
+   "key": "case022.method.fall",
+   "value": "Fren sırasında düştü"
+  },
+  {
+   "key": "case022.method.label",
+   "value": "Nasıl öldü?"
+  },
+  {
+   "key": "case022.method.pole",
+   "value": "Tartışmada itildi, direğe çarptı"
+  },
+  {
+   "key": "case022.method.unknown",
+   "value": "Belirlenemedi"
+  },
+  {
+   "key": "case022.nele.body",
+   "value": "Bisiklet kuryesi."
+  },
+  {
+   "key": "case022.nele.deflect",
+   "value": "Ceza kestiler diye beni katil mi yapacaksınız?"
+  },
+  {
+   "key": "case022.nele.later.answer",
+   "value": "Ostkreuz’dan önce bir tok ses. Bisiklet bölmesinin üstünden bakamazsın, çok yüksek. Arka kapı tarafında turuncu bir yelek gördüm sadece, tepesinden."
+  },
+  {
+   "key": "case022.nele.later.question",
+   "value": "Sonra arkada bir şey duydunuz mu?"
+  },
+  {
+   "key": "case022.nele.saw.answer",
+   "value": "Kontrolör bisikletli bir kadınla tartıştı, bisiklet bileti yok diye. Plänterwald civarı. Kadın ağzına geleni söyledi. O kadın bendim, evet. Sonra bisikletimin yanında telefonuma gömüldüm."
+  },
+  {
+   "key": "case022.nele.saw.answer.demeanor",
+   "value": "Kollarını kavuşturdu."
+  },
+  {
+   "key": "case022.nele.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case022.nele.title",
+   "value": "Nele Hartmann — görüşme"
+  },
+  {
+   "key": "case022.offer.subtitle",
+   "value": "GECE TRENİ  /  ŞÜPHELİ ÖLÜM"
+  },
+  {
+   "key": "case022.offer.summary",
+   "value": "Gece yarısı bir S-Bahn kontrolörü son vagonda ölü bulunuyor. Üç yolcu, kontrolörle tartışan kaçak yolcuyu tarif ediyor — ama üç ayrı kişiyi."
+  },
+  {
+   "key": "case022.offer.title",
+   "value": "DOSYA #022"
+  },
+  {
+   "key": "case022.okan.body",
+   "value": "Takım elbiseli adam."
+  },
+  {
+   "key": "case022.okan.deflect",
+   "value": "Ben sadece eve gidiyordum."
+  },
+  {
+   "key": "case022.okan.quote",
+   "value": "“Meslektaşı tabii ki oradaydı, dediler.”"
+  },
+  {
+   "key": "case022.okan.saw.answer",
+   "value": "Ben de ceza yedim, kabul. Abonmanım dün bitmiş. Kontrolör Ostkreuz’dan önce benimle konuştu, kibar bir adamdı. Gittikten sonra arka kapıda iki yelekli tartıştı. Kontrolörle meslektaşı, aynı yelek."
+  },
+  {
+   "key": "case022.okan.saw.answer.demeanor",
+   "value": "Gözlüğünü çıkarıp sildi."
+  },
+  {
+   "key": "case022.okan.saw.question",
+   "value": "Ne gördünüz?"
+  },
+  {
+   "key": "case022.okan.title",
+   "value": "Okan Yıldız — görüşme"
+  },
+  {
+   "key": "case022.okan.who.answer",
+   "value": "Uzun. Kontrolör eğilmiş, yerden bir şey alıyordu, ceza makbuzları dağılmıştı. Öteki elindeki cihazı kaldırdı. Ben başımı çevirdim, kendi işime baktım. Söyledim bunu devriyeye, ‘meslektaşı tabii ki oradaydı’ dediler."
+  },
+  {
+   "key": "case022.okan.who.question",
+   "value": "Meslektaşı nasıl biriydi?"
+  },
+  {
+   "key": "case022.person.jannik.info",
+   "value": "17 yaşında, lise öğrencisi. Kapüşonlu, kulaklıklı."
+  },
+  {
+   "key": "case022.person.jannik.name",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.person.nele.info",
+   "value": "31 yaşında, bisiklet kuryesi. O gece trende bisikletiyle."
+  },
+  {
+   "key": "case022.person.nele.name",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.person.okan.info",
+   "value": "52 yaşında, Neukölln’de muhasebeci; Kreuzberg’de doğmuş."
+  },
+  {
+   "key": "case022.person.okan.name",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.person.petra.info",
+   "value": "47 yaşında, kontrol ekiplerinin vardiya amiri."
+  },
+  {
+   "key": "case022.person.petra.name",
+   "value": "Petra Lindner"
+  },
+  {
+   "key": "case022.person.sven.info",
+   "value": "44 yaşında, bilet kontrolörü. On bir yıldır Dieter Brandt’ın ekip ortağı."
+  },
+  {
+   "key": "case022.person.sven.name",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.petra.body",
+   "value": "Vardiya amiri."
+  },
+  {
+   "key": "case022.petra.deflect",
+   "value": "Bunu şirket hukukçusuna sorun."
+  },
+  {
+   "key": "case022.petra.device.answer",
+   "value": "Her cezayı, saati, durağı ve cihazın vagondaki konumunu. Sven’in terminali çatlak geldi, depoda."
+  },
+  {
+   "key": "case022.petra.device.question",
+   "value": "Terminaller kayıt tutar mı?"
+  },
+  {
+   "key": "case022.petra.pair.answer",
+   "value": "On bir yıl. Ama Dieter geçen ay bana nakit ceza defterlerini sordu. ‘Makbuzlar ile kasaya giren tutmuyor, kimin defteri olduğunu biliyorum, önce onunla konuşacağım,’ dedi. Kimin dediğini söylemedi."
+  },
+  {
+   "key": "case022.petra.pair.question",
+   "value": "Brandt ve Ott nasıl bir ekipti?"
+  },
+  {
+   "key": "case022.petra.title",
+   "value": "Petra Lindner — görüşme"
+  },
+  {
+   "key": "case022.plan.body",
+   "value": "Kuşbakışı kroki. Soldan sağa: ön kapı, koltuk sıraları, ortada boydan boya yüksek bisiklet bölmesi, arka koltuklar ve arka kapı. Kurban arka kapının önünde bulundu.\n\nTanıkların anlattığı konumlar planda işaretlenir."
+  },
+  {
+   "key": "case022.plan.incident",
+   "value": "Çarpı: vagonun arka kapısının önü, kurbanın bulunduğu yer. İşaretlere dokununca o noktadan görülebilen alan çizilir."
+  },
+  {
+   "key": "case022.plan.marker.jannik_claim",
+   "value": "Jannik Lorenz — kendi anlattığı yer: ön kapı yanındaki koltuk"
+  },
+  {
+   "key": "case022.plan.marker.nele_claim",
+   "value": "Nele Hartmann — kendi anlattığı yer: bisiklet bölmesinin önü"
+  },
+  {
+   "key": "case022.plan.marker.okan_claim",
+   "value": "Okan Yıldız — kendi anlattığı yer: arka kapıya yakın koltuk"
+  },
+  {
+   "key": "case022.plan.title",
+   "value": "VAGON PLANI — SON VAGON"
+  },
+  {
+   "key": "case022.plastic.body",
+   "value": "Yaradaki siyah ABS kırıntıları ile Sven Ott’un teslim ettiği çatlak terminal kasası karşılaştırıldı: kırık kenarlar birebir oturuyor. Kasanın köşesinde Dieter Brandt’ın kanı."
+  },
+  {
+   "key": "case022.plastic.title",
+   "value": "ADLİ KARŞILAŞTIRMA — TERMİNAL KASASI"
+  },
+  {
+   "key": "case022.report.body",
+   "value": "17 Ekim 2029 saat 00.14’te, S-Bahn çevre hattının son vagonunda, Ostkreuz’a varışta bir kontrolör yerde ölü bulundu: Dieter Brandt (58). Başının arkasında ağır bir darbe; yanında tutunma direği.\n\nDevriye notu: “Vagondaki üç yolcu, son durakta kontrolörle tartışan kaçak yolcuyu tarif etti — ama üç ayrı kişi: biri kapüşonlu bir genç, biri bisikletli bir kadın, biri takım elbiseli bir adam. Tanıklar birbirini yalanlıyor. Kaçak yolcu bulunamadı.”"
+  },
+  {
+   "key": "case022.report.title",
+   "value": "OLAY RAPORU"
+  },
+  {
+   "key": "case022.request.audit",
+   "value": "Nakit ceza denetimini iste"
+  },
+  {
+   "key": "case022.request.fines",
+   "value": "Brandt’ın terminal kayıtlarını iste"
+  },
+  {
+   "key": "case022.request.plastic",
+   "value": "Ott’un terminal kasasını yarayla karşılaştır"
+  },
+  {
+   "key": "case022.request.svenlog",
+   "value": "Ott’un terminal kayıtlarını iste"
+  },
+  {
+   "key": "case022.summary.evidence",
+   "value": "Ceza kaydı, ‘birbirini yalanlayan’ üç tanığın üç ayrı ceza anlattığını gösterdi. Vagon planı bisiklet bölmesinin önden arkayı kapattığını, Okan Yıldız’ın arka kapıyı gördüğünü ortaya koydu. Ott’un terminal konum kaydı, denetim ve kasa kırıntıları zinciri tamamladı."
+  },
+  {
+   "key": "case022.summary.lesson",
+   "value": "Çelişen tanıklar yalancı olmak zorunda değildir; farklı anları anlatıyor olabilirler. En sıradan kişi — ‘meslektaşı tabii ki oradaydı’ — çoğu zaman en az sorulandır."
+  },
+  {
+   "key": "case022.summary.location",
+   "value": "Berlin, S-Bahn çevre hattı — Ekim 2029"
+  },
+  {
+   "key": "case022.summary.truth",
+   "value": "Kontrolör Sven Ott iki yıldır nakit ceza makbuzlarının yarısını cebine atıyordu. Ortağı Dieter Brandt fark etti, süre verdi. 16 Ekim gecesi Brandt son vagonda üç ayrı kaçak yolcuya ceza yazdı. Ostkreuz’dan önce Ott son vagona geldi; Brandt yerden makbuzları toplarken onu el terminaliyle arkadan vurdu ve ön vagona döndü."
+  },
+  {
+   "key": "case022.suspect.label",
+   "value": "Dieter Brandt’ın ölümünden kim sorumlu?"
+  },
+  {
+   "key": "case022.sven.body",
+   "value": "Kurbanın ekip ortağı."
+  },
+  {
+   "key": "case022.sven.deflect",
+   "value": "Ortağımı kaybettim. Bunu konuşmak istemiyorum."
+  },
+  {
+   "key": "case022.sven.night.answer",
+   "value": "Dieter son vagonu aldı, ben öndekini. Ostkreuz’da indim, telsizden ulaşamayınca arkaya koştum. Yerdeydi. Kaçak yolcunun biri yaptı, o tartışmalardan biri."
+  },
+  {
+   "key": "case022.sven.night.answer.demeanor",
+   "value": "Ellerini cebinde tuttu."
+  },
+  {
+   "key": "case022.sven.night.question",
+   "value": "O gece neredeydiniz?"
+  },
+  {
+   "key": "case022.sven.terminal.answer",
+   "value": "Düşürdüm, kasası çatladı, vardiya amirine teslim ettim."
+  },
+  {
+   "key": "case022.sven.terminal.question",
+   "value": "El terminaliniz nerede?"
+  },
+  {
+   "key": "case022.sven.title",
+   "value": "Sven Ott — görüşme"
+  },
+  {
+   "key": "case022.sven_2.body",
+   "value": "Konum kaydı ve denetim üzerine."
+  },
+  {
+   "key": "case022.sven_2.money.answer",
+   "value": "On bir yıl birlikte çalıştık. On bir yıl. Kızım okuyor, kira…"
+  },
+  {
+   "key": "case022.sven_2.money.question",
+   "value": "Brandt size hafta sonuna kadar süre vermişti."
+  },
+  {
+   "key": "case022.sven_2.title",
+   "value": "Sven Ott — ikinci görüşme"
+  },
+  {
+   "key": "case022.sven_2.where.answer",
+   "value": "Ona bir şey sormaya gittim. Ceza tarifesi. Döndüm."
+  },
+  {
+   "key": "case022.sven_2.where.answer.demeanor",
+   "value": "Sesi yükseldi."
+  },
+  {
+   "key": "case022.sven_2.where.question",
+   "value": "Terminaliniz 23.48’de son vagonun arka kapısında."
+  },
+  {
+   "key": "case022.sven_3.body",
+   "value": "Kasa karşılaştırması üzerine."
+  },
+  {
+   "key": "case022.sven_3.title",
+   "value": "Sven Ott — üçüncü görüşme"
+  },
+  {
+   "key": "case022.sven_3.truth.answer",
+   "value": "Yerden makbuzları topluyordu, benimkileri. ‘Pazartesi Petra’ya veriyorum,’ dedi, yüzüme bakmadan. Elimdeki cihazla… Sonra öne yürüdüm. Üç kaçak yolcu vardı vagonda; biri yapmış derler diye düşündüm."
+  },
+  {
+   "key": "case022.sven_3.truth.answer.demeanor",
+   "value": "Başını ellerine gömdü."
+  },
+  {
+   "key": "case022.sven_3.truth.question",
+   "value": "Kasanız yaraya oturuyor."
+  },
+  {
+   "key": "case022.svenlog.body",
+   "value": "Aynı vardiya.\n\n· 23.20–23.44 · ön vagon, dört ceza.\n· 23.45 · konum: son vagon, ön kapı.\n· 23.48 · konum: son vagon, arka kapı.\n· 23.49 · darbe sensörü: sert çarpma; kasa hasarı.\n· 23.53 · konum: ön vagon.\n\nSven Ott “ön vagondaydım” demişti."
+  },
+  {
+   "key": "case022.svenlog.title",
+   "value": "KONUM KAYDI — SVEN OTT’UN TERMİNALİ"
+  },
+  {
+   "key": "case022.tablet.caseLine",
+   "value": "DOSYA #022  /  BUBE BERLİN — KREUZBERG"
+  },
+  {
+   "key": "case022.time.audit9",
+   "value": "9 Ekim"
+  },
+  {
+   "key": "case022.time.f1",
+   "value": "16 Ekim 23.31"
+  },
+  {
+   "key": "case022.time.f2",
+   "value": "23.39"
+  },
+  {
+   "key": "case022.time.f3",
+   "value": "23.47"
+  },
+  {
+   "key": "case022.time.hit",
+   "value": "23.49"
+  },
+  {
+   "key": "case022.time.sv1",
+   "value": "23.45"
+  },
+  {
+   "key": "case022.title",
+   "value": "Dosya #022 — Gece Treni"
+  },
+  {
+   "key": "case022.verdict.jannik",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.verdict.nele",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.verdict.okan",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.verdict.sven",
+   "value": "Sven Ott"
+  }
+ ]
+}
