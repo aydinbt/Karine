@@ -75,9 +75,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 44. **Ustanın tabi çorabı** → `case026_heel.png` ✅
 
 ## Dosya #027 (3)
-45. **Depo termostatı** → `case027_thermo.png`
-46. **Ödül tepsisi** → `case027_tray.png`
-47. **Ödül faturaları** → `case027_ledger.png`
+45. **Depo termostatı** → `case027_thermo.png` ✅
+46. **Ödül tepsisi** → `case027_tray.png` ✅
+47. **Ödül faturaları** → `case027_ledger.png` ✅
 
 ## Dosya #028 (3)
 48. **Boş inhaler** → `case028_inhaler.png`

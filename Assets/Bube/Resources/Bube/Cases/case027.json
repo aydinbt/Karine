@@ -231,6 +231,13 @@
    "requestDelaySeconds": 5,
    "requiresAsked": [
     "case027.hideo.morning"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case027.item.thermo.name",
+     "detailKey": "case027.item.thermo.detail",
+     "imageResource": "Bube/Items/case027_thermo"
+    }
    ]
   },
   {
@@ -243,7 +250,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case027.request.tray",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case027.item.tray.name",
+     "detailKey": "case027.item.tray.detail",
+     "imageResource": "Bube/Items/case027_tray"
+    }
+   ]
   },
   {
    "id": "ledger",
@@ -258,6 +272,13 @@
    "requestDelaySeconds": 6,
    "requiresAsked": [
     "case027.hideo.debt"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case027.item.ledger.name",
+     "detailKey": "case027.item.ledger.detail",
+     "imageResource": "Bube/Items/case027_ledger"
+    }
    ]
   },
   {
