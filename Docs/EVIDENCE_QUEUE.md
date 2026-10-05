@@ -15,9 +15,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 8. **İğne deliği** → `case014_pinhole.png` ✅
 
 ## Dosya #015 (3)
-9. **Bordür** → `case015_kerb.png`
-10. **Zarf** → `case015_envelope.png`
-11. **Telefon kılıfı** → `case015_case.png`
+9. **Bordür** → `case015_kerb.png` ✅
+10. **Zarf** → `case015_envelope.png` ✅
+11. **Telefon kılıfı** → `case015_case.png` ✅
 
 ## Dosya #016 (4)
 12. **Islak cüzdan** → `case016_wallet.png`

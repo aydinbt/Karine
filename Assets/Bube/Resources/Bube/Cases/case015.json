@@ -239,7 +239,14 @@
       ]
      }
     ]
-   }
+   },
+   "relatedItems": [
+    {
+     "nameKey": "case015.item.kerb.name",
+     "detailKey": "case015.item.kerb.detail",
+     "imageResource": "Bube/Items/case015_kerb"
+    }
+   ]
   },
   {
    "id": "ryan",
@@ -818,6 +825,13 @@
    "requestDelaySeconds": 8,
    "requiresAsked": [
     "case015.josie.callum"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case015.item.case.name",
+     "detailKey": "case015.item.case.detail",
+     "imageResource": "Bube/Items/case015_case"
+    }
    ]
   },
   {
@@ -1000,7 +1014,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case015.request.handover",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case015.item.envelope.name",
+     "detailKey": "case015.item.envelope.detail",
+     "imageResource": "Bube/Items/case015_envelope"
+    }
+   ]
   }
  ],
  "timelineClues": [
