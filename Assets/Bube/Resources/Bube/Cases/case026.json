@@ -41,6 +41,13 @@
    "bodyKey": "case026.autopsy.body",
    "requires": [
     "report"
+   ],
+   "relatedItems": [
+    {
+     "nameKey": "case026.item.heel.name",
+     "detailKey": "case026.item.heel.detail",
+     "imageResource": "Bube/Items/case026_heel"
+    }
    ]
   },
   {
@@ -337,7 +344,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case026.request.shed",
-   "requestDelaySeconds": 8
+   "requestDelaySeconds": 8,
+   "relatedItems": [
+    {
+     "nameKey": "case026.item.ash.name",
+     "detailKey": "case026.item.ash.detail",
+     "imageResource": "Bube/Items/case026_ash"
+    }
+   ]
   },
   {
    "id": "xrf",
@@ -349,7 +363,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case026.request.xrf",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case026.item.bowl.name",
+     "detailKey": "case026.item.bowl.detail",
+     "imageResource": "Bube/Items/case026_bowl"
+    }
+   ]
   },
   {
    "id": "shimizu",

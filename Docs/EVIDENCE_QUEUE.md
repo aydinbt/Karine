@@ -70,9 +70,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 41. **‘Kimura’nın çantası** → `case025_bag.png` ✅
 
 ## Dosya #026 (3)
-42. **‘16. yüzyıl’ kâse** → `case026_bowl.png`
-43. **Fırın külü ve yaşlandırma kavanozu** → `case026_ash.png`
-44. **Ustanın tabi çorabı** → `case026_heel.png`
+42. **‘16. yüzyıl’ kâse** → `case026_bowl.png` ✅
+43. **Fırın külü ve yaşlandırma kavanozu** → `case026_ash.png` ✅
+44. **Ustanın tabi çorabı** → `case026_heel.png` ✅
 
 ## Dosya #027 (3)
 45. **Depo termostatı** → `case027_thermo.png`
