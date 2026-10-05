@@ -876,37 +876,37 @@ A 19-year-old Italian boy, short black hair with gel, a few teenage spots, anxio
 
 ## Dosya #050 (6)
 
-134. **Nicola Costa** → `nicola.png`
+134. **Nicola Costa** → `nicola.png` ✅
 
 ```
 A 49-year-old Italian man, slicked-back dark hair, sharp nose, tense controlled eyes, a headset around his neck. All-black stage manager's clothes, a small torch clipped to his belt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-135. **Sofia Marchetti** → `sofia.png`
+135. **Sofia Marchetti** → `sofia.png` ✅
 
 ```
 A 35-year-old Italian soprano, long wavy auburn hair, porcelain skin, dramatic dark eyeliner, proud wounded eyes. A golden opera costume gown with a velvet cloak over her shoulders. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-136. **Amedeo Pace** → `amedeo.png`
+136. **Amedeo Pace** → `amedeo.png` ✅
 
 ```
 A 61-year-old Italian stagehand, white stubble, weathered face, thick rope-calloused hands, steady honest grey eyes. Faded dark grey work shirt with sleeves rolled, leather gloves tucked into his belt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-137. **Chiara Fontana** → `chiara.png`
+137. **Chiara Fontana** → `chiara.png` ✅
 
 ```
 A 42-year-old Italian woman, black hair in a messy bun pierced with pencils, red lipstick, observant dark eyes, a tape measure around her neck. Magenta knitted top. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-138. **Kenji Arai** → `kenji.png`
+138. **Kenji Arai** → `kenji.png` ✅
 
 ```
 A 45-year-old Japanese conductor, neat black hair swept back, rimless glasses, composed polite expression. Black mandarin-collar shirt, a conductor's baton in his breast pocket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-139. **Pasquale Vitale** → `pasquale.png`
+139. **Pasquale Vitale** → `pasquale.png` ✅
 
 ```
 A 70-year-old Neapolitan doorman, white hair combed neatly, bushy white eyebrows, kind watery eyes. Old burgundy doorman's jacket with brass buttons and no insignia. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
