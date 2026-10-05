@@ -271,7 +271,19 @@
    "requestable": true,
    "requestLabelKey": "case045.request.medlab",
    "requestDelaySeconds": 6,
-   "line": "line_med"
+   "line": "line_med",
+   "relatedItems": [
+    {
+     "nameKey": "case045.item.pen.name",
+     "detailKey": "case045.item.pen.detail",
+     "imageResource": "Bube/Items/case045_pen"
+    },
+    {
+     "nameKey": "case045.item.vials.name",
+     "detailKey": "case045.item.vials.detail",
+     "imageResource": "Bube/Items/case045_vials"
+    }
+   ]
   },
   {
    "id": "line_tape",
@@ -299,7 +311,14 @@
     }
    ],
    "warrantSlots": 2,
-   "requestKind": "line"
+   "requestKind": "line",
+   "relatedItems": [
+    {
+     "nameKey": "case045.item.recorder.name",
+     "detailKey": "case045.item.recorder.detail",
+     "imageResource": "Bube/Items/case045_recorder"
+    }
+   ]
   },
   {
    "id": "tape",

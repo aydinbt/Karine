@@ -334,6 +334,16 @@
      "nameKey": "case044.item.vest.name",
      "detailKey": "case044.item.vest.detail",
      "imageResource": "Bube/Items/case044_vest"
+    },
+    {
+     "nameKey": "case044.item.winch.name",
+     "detailKey": "case044.item.winch.detail",
+     "imageResource": "Bube/Items/case044_winch"
+    },
+    {
+     "nameKey": "case044.item.cartridge.name",
+     "detailKey": "case044.item.cartridge.detail",
+     "imageResource": "Bube/Items/case044_cartridge"
     }
    ]
   },

@@ -162,13 +162,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 
 ## Dosya #044 (3)
 97. **Can yeleği** → `case044_vest.png` ✅
-98. **Vinç kolu** → `case044_winch.png`
-99. **CO₂ kartuşu** → `case044_cartridge.png`
+98. **Vinç kolu** → `case044_winch.png` ✅
+99. **CO₂ kartuşu** → `case044_cartridge.png` ✅
 
 ## Dosya #045 (3)
-100. **İnsülin kalemi** → `case045_pen.png`
-101. **Masa ses kaydedicisi** → `case045_recorder.png`
-102. **Boş kartuş kutusu** → `case045_vials.png`
+100. **İnsülin kalemi** → `case045_pen.png` ✅
+101. **Masa ses kaydedicisi** → `case045_recorder.png` ✅
+102. **Boş kartuş kutusu** → `case045_vials.png` ✅
 
 ## Dosya #046 (3)
 103. **Yastık** → `case046_pillow.png`
