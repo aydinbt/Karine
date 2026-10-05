@@ -1490,25 +1490,25 @@ A 31-year-old Vietnamese-Australian woman, long black hair worn loose, rimless g
 
 ## Dosya #069 (4)
 
-230. **Alistair Fenwick** → `fenwick.png`
+230. **Alistair Fenwick** → `fenwick.png` ✅
 
 ```
 A 57-year-old Anglo-Australian man, silver hair neatly side-parted, a tanned smooth face, practised smile that stops at his pale eyes. A crisp white linen shirt, sunglasses hooked in the collar. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-231. **Jarrah Collins** → `jarrah.png`
+231. **Jarrah Collins** → `jarrah.png` ✅
 
 ```
 A 33-year-old Aboriginal Australian man, short dark curly hair, a calm observant face with a short beard, steady brown eyes. An olive-green ranger shirt with no badge or logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-232. **Eloise Marr** → `eloise.png`
+232. **Eloise Marr** → `eloise.png` ✅
 
 ```
 A 40-year-old Australian woman, long wavy dirty-blonde hair, paint smudges on her cheek, a dreamy tired face, grey eyes. A plum-coloured smock. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
 ```
 
-233. **Quoc Bui** → `quoc.png`
+233. **Quoc Bui** → `quoc.png` ✅
 
 ```
 A 46-year-old Vietnamese-Australian man, short black hair, a lined patient face, oil on his hands, wary eyes. A slate-blue mechanic's work shirt with no logo. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia.
