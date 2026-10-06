@@ -263,7 +263,7 @@
      "id": "out",
      "textKey": "case019.cctv.event.out",
      "delayMs": 620,
-     "overlayTimeKey": "case019.time.out"
+     "overlayTimeKey": "case019.time.out", "framePaths": ["Bube/Cctv/case019_out/01", "Bube/Cctv/case019_out/02", "Bube/Cctv/case019_out/03"], "frameTimes": ["22.19.00", "22.19.06", "22.19.12"]
     },
     {
      "id": "sophie",
