@@ -295,7 +295,7 @@
      "id": "down",
      "textKey": "case020.cctv.event.down",
      "delayMs": 620,
-     "overlayTimeKey": "case020.time.down"
+     "overlayTimeKey": "case020.time.down", "framePaths": ["Bube/Cctv/case020_down/01", "Bube/Cctv/case020_down/02", "Bube/Cctv/case020_down/03"], "frameTimes": ["22.12.00", "22.12.30", "22.12.58"]
     },
     {
      "id": "lobby",
