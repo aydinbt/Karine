@@ -336,7 +336,7 @@
      "id": "runner",
      "textKey": "case011.cctv.event.runner",
      "delayMs": 620,
-     "overlayTimeKey": "case011.time.runner"
+     "overlayTimeKey": "case011.time.runner", "framePaths": ["Bube/Cctv/case011_runner/01", "Bube/Cctv/case011_runner/02", "Bube/Cctv/case011_runner/03"], "frameTimes": ["23.12.00", "23.12.04", "23.12.08"]
     }
    ]
   },
