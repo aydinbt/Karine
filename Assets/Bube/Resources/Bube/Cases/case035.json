@@ -124,7 +124,7 @@
      "id": "push",
      "textKey": "case035.cctv.event.push",
      "delayMs": 620,
-     "overlayTimeKey": "case035.time.push"
+     "overlayTimeKey": "case035.time.push", "framePaths": ["Bube/Cctv/case035_push/01", "Bube/Cctv/case035_push/02", "Bube/Cctv/case035_push/03"], "frameTimes": ["08.14.10", "08.14.11", "08.14.12"]
     },
     {
      "id": "back",
