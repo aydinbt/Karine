@@ -47,7 +47,7 @@ Close-up looking up at a small white dome security camera mounted on a city bus 
 Sorun: Kâğıt boş
 
 ```
-A clipboard holding a hospital medicine count sheet with ruled tally columns filled with handwritten marks and illegible scribbles, a few entries circled in red pen, NO title or heading at the top of the sheet. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands.
+A clipboard holding a hospital medicine count sheet with ruled tally columns filled with handwritten marks and illegible scribbles, a few entries circled in red pen, NO title or heading at the top of the sheet. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## ✅ case013_ledger → `Items/case013_ledger.png`
@@ -165,7 +165,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A stapled insurance policy amendment on plain white paper with a blank grey header block, one paragraph highlighted in yellow, two signature lines with illegible scrawls, a blue ballpoint pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A stapled insurance policy amendment on plain white paper with a blank grey header block, one paragraph highlighted in yellow, two signature lines with illegible scrawls, a blue ballpoint pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case060_clock → `Items/case060_clock.png`
@@ -173,7 +173,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A stapl
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A buff cardboard employee time card with a column of purple stamped clock-out marks, the last one smudged, the printed numbers blurred and unreadable, lying next to a wall punch-clock slot. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A buff cardboard employee time card with a column of purple stamped clock-out marks, the last one smudged, the printed numbers blurred and unreadable, lying next to a wall punch-clock slot. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case062_count → `Items/case062_count.png`
@@ -181,7 +181,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A buff 
 Sorun: Okunur İngilizce "Carbon-Copy Warehouse Inventory" başlığı ve sütun adları
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbon-copy warehouse inventory form on a clipboard, columns of handwritten tallies all ticked, a large confident signature at the bottom, every number and word illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbon-copy warehouse inventory form on a clipboard, columns of handwritten tallies all ticked, a large confident signature at the bottom, every number and word illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case064_loader → `Items/case064_loader.png`
@@ -197,7 +197,7 @@ Forensic evidence illustration, close-up of a worn black vinyl seat of a compact
 Sorun: Fişte okunur "RESTAURANT" ve yarı okunur satırlar
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case066_minutes → `Items/case066_minutes.png`
@@ -205,7 +205,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A crump
 Sorun: Okunur "CORPORATE BOARD MEETING MINUTES" başlığı ve uydurma isim listesi
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A corporate board meeting minutes document on heavy white paper with a blank header block, an attendance list with one line marked by a small pencil tick, all text illegible, a silver fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A corporate board meeting minutes document on heavy white paper with a blank header block, an attendance list with one line marked by a small pencil tick, all text illegible, a silver fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case066_table → `Items/case066_table.png`
@@ -213,7 +213,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A corpo
 Sorun: Yarı okunur el yazısı tablo ve "Total" satırı
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed spreadsheet page of dense numeric columns with one entire column highlighted in yellow, the same short entry repeated down every row, all figures and words blurred and unreadable, a red pen circle around the total. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed spreadsheet page of dense numeric columns with one entire column highlighted in yellow, the same short entry repeated down every row, all figures and words blurred and unreadable, a red pen circle around the total. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case068_slip → `Items/case068_slip.png`
@@ -221,7 +221,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A print
 Sorun: Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar)
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A few printed pages of a betting transaction ledger, dense columns of small figures, all illegible, with a yellow highlighter stripe across several rows, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A few printed pages of a betting transaction ledger, dense columns of small figures, all illegible, with a yellow highlighter stripe across several rows, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case069_gate → `Items/case069_gate.png`
@@ -229,7 +229,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A few p
 Sorun: "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed access-control log page with columns of entry times, all text illegible, beside a grey plastic RFID key fob on a lanyard. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed access-control log page with columns of entry times, all text illegible, beside a grey plastic RFID key fob on a lanyard. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case071_manifest → `Items/case071_manifest.png`
@@ -237,7 +237,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A print
 Sorun: "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, okunur satırlar
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellowed multi-part carbon shipping manifest form from the 1990s, columns of typed entries and stamps, all illegible, with a coffee stain and a torn corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers, blank stamps. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellowed multi-part carbon shipping manifest form from the 1990s, columns of typed entries and stamps, all illegible, with a coffee stain and a torn corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers, blank stamps. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case072_hygiene → `Items/case072_hygiene.png`
@@ -245,7 +245,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A yello
 Sorun: "Council Hygiene Inspection Form" başlığı ve okunur madde satırları
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. An old council hygiene inspection form, two pages, a large red rubber-stamp mark and a signature at the bottom, all text illegible, slightly yellowed and folded in thirds. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old council hygiene inspection form, two pages, a large red rubber-stamp mark and a signature at the bottom, all text illegible, slightly yellowed and folded in thirds. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
 ## case073_courier → `Items/case073_courier.png`
@@ -253,5 +253,5 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. An old 
 Sorun: "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbonless international courier receipt slip with a barcode and handwritten address boxes, all text illegible, beside a small padded envelope big enough for a USB stick, torn open. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbonless international courier receipt slip with a barcode and handwritten address boxes, all text illegible, beside a small padded envelope big enough for a USB stick, torn open. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
