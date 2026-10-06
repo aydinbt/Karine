@@ -336,7 +336,7 @@ A NEW, DISTINCT face, not resembling any previous portrait in this conversation.
 
 Gagnon, Kwan, Rivka, Naomi aynı sohbetten çıktığı için aynı yüzü aldı. Her birine ayrı yüz yapısı verildi; çiller yalnız Gagnon'da.
 
-## Sophie Gagnon (v2) → `Characters/gagnon.png`
+## ✅ Sophie Gagnon (v2) → `Characters/gagnon.png`
 
 ```
 A NEW, DISTINCT face, not resembling any previous portrait in this conversation. A YOUNG 24-year-old French-Canadian woman who clearly looks in her early twenties: smooth youthful skin with no wrinkles and no under-eye lines, a small round face with soft full cheeks, a short upturned button nose, wide-set light green eyes, thin light eyebrows, dense freckles across nose and cheeks, a small mouth biting her lower lip, a nervous, honest, slightly scared expression. Copper-red hair in a neat tight bun on top of her head, shaded darker at the edges. A dark red hoodie with the hood down. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. No text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands; clothing is mid-to-dark in tone, nothing white or pale on the outer silhouette; no rim light, no glow, no halo; the background is flat pure white #FFFFFF and touches the dark outline directly.
