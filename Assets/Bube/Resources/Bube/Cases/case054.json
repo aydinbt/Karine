@@ -179,7 +179,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "2003",
-   "reopenNoteKey": "case054.archive.reopen"
+   "reopenNoteKey": "case054.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case054.item.tiles.name",
+     "detailKey": "case054.item.tiles.detail",
+     "imageResource": "Bube/Items/case054_tiles"
+    }
+   ]
   },
   {
    "id": "workshop",
@@ -198,6 +205,11 @@
      "nameKey": "case054.item.mould.name",
      "detailKey": "case054.item.mould.detail",
      "imageResource": "Bube/Items/case054_mould"
+    },
+    {
+     "nameKey": "case054.item.kiln.name",
+     "detailKey": "case054.item.kiln.detail",
+     "imageResource": "Bube/Items/case054_kiln"
     }
    ]
   },

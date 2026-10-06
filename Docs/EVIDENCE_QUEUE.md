@@ -212,13 +212,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 
 ## Dosya #054 (3)
 127. **Alçı kalıp parçaları** → `case054_mould.png` ✅
-128. **‘Yanmış’ çiniler** → `case054_tiles.png`
-129. **Fırın kumanda paneli** → `case054_kiln.png`
+128. **‘Yanmış’ çiniler** → `case054_tiles.png` ✅
+129. **Fırın kumanda paneli** → `case054_kiln.png` ✅
 
 ## Dosya #055 (3)
-130. **Tacın zümrütleri** → `case055_crown.png`
-131. **Gümüş şamdan** → `case055_candle.png`
-132. **İskele** → `case055_scaffold.png`
+130. **Tacın zümrütleri** → `case055_crown.png` ✅
+131. **Gümüş şamdan** → `case055_candle.png` ✅
+132. **İskele** → `case055_scaffold.png` ✅
 
 ## Dosya #056 (3)
 133. **Tekne tahliye tapası** → `case056_plug.png`

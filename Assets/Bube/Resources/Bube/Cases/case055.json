@@ -56,7 +56,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case055.request.chapel",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case055.item.candle.name",
+     "detailKey": "case055.item.candle.detail",
+     "imageResource": "Bube/Items/case055_candle"
+    },
+    {
+     "nameKey": "case055.item.scaffold.name",
+     "detailKey": "case055.item.scaffold.detail",
+     "imageResource": "Bube/Items/case055_scaffold"
+    }
+   ]
   },
   {
    "id": "amparo",
@@ -161,7 +173,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "1987",
-   "reopenNoteKey": "case055.archive.reopen"
+   "reopenNoteKey": "case055.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case055.item.crown.name",
+     "detailKey": "case055.item.crown.detail",
+     "imageResource": "Bube/Items/case055_crown"
+    }
+   ]
   },
   {
    "id": "ignacio",
