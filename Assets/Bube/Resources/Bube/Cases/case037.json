@@ -78,7 +78,7 @@
      "id": "walk",
      "textKey": "case037.cctv.event.walk",
      "delayMs": 620,
-     "overlayTimeKey": "case037.time.walk"
+     "overlayTimeKey": "case037.time.walk", "framePaths": ["Bube/Cctv/case037_walk/01", "Bube/Cctv/case037_walk/02"], "frameTimes": ["20.10.00", "20.10.08"]
     },
     {
      "id": "car",
