@@ -117,7 +117,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case062.request.count",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case062.item.count.name",
+     "detailKey": "case062.item.count.detail",
+     "imageResource": "Bube/Items/case062_count"
+    }
+   ]
   },
   {
    "id": "marceau",
@@ -290,7 +297,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case062.item.barrel.name",
+     "detailKey": "case062.item.barrel.detail",
+     "imageResource": "Bube/Items/case062_barrel"
+    }
+   ]
   }
  ],
  "timelineClues": [

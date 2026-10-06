@@ -86,7 +86,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case061.request.log",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case061.item.log.name",
+     "detailKey": "case061.item.log.detail",
+     "imageResource": "Bube/Items/case061_log"
+    }
+   ]
   },
   {
    "id": "room",
@@ -98,7 +105,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case061.request.room",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case061.item.mask.name",
+     "detailKey": "case061.item.mask.detail",
+     "imageResource": "Bube/Items/case061_mask"
+    }
+   ]
   },
   {
    "id": "ouellet",
@@ -211,7 +225,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case061.item.valve.name",
+     "detailKey": "case061.item.valve.detail",
+     "imageResource": "Bube/Items/case061_valve"
+    }
+   ]
   }
  ],
  "timelineClues": [

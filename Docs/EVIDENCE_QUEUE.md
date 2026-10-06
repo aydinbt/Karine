@@ -246,13 +246,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 147. **Mesai kartı** → `case060_clock.png` ✅
 
 ## Dosya #061 (3)
-148. **Kompresör vanası kolu** → `case061_valve.png`
-149. **Bakım defteri** → `case061_log.png`
-150. **Gaz maskesi askısı** → `case061_mask.png`
+148. **Kompresör vanası kolu** → `case061_valve.png` ✅
+149. **Bakım defteri** → `case061_log.png` ✅
+150. **Gaz maskesi askısı** → `case061_mask.png` ✅
 
 ## Dosya #062 (3)
-151. **Suyla dolu varil** → `case062_barrel.png`
-152. **Sayım tutanağı** → `case062_count.png`
+151. **Suyla dolu varil** → `case062_barrel.png` ✅
+152. **Sayım tutanağı** → `case062_count.png` ✅
 153. **Forklift kontak anahtarı** → `case062_key.png`
 
 ## Dosya #063 (3)
