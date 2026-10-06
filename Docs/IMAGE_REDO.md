@@ -42,3 +42,5 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | case068_slip | Bahis dökümü | Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar) | "illegible scribbles, no readable words or numbers" |
 | case069_gate | İskele kapısı kaydı | "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar | "illegible scribbles, no readable words or numbers" |
 | case071_manifest | Yük manifestosu | "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, okunur satırlar | "illegible scribbles, no readable words or numbers, blank stamps" |
+| case072_hygiene | 2012 hijyen raporu | "Council Hygiene Inspection Form" başlığı ve okunur madde satırları | "illegible scribbles, no readable words" |
+| case073_courier | Kurye makbuzu | "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası | "illegible scribbles, no readable words or numbers" |
