@@ -32,31 +32,31 @@ A dim, empty auction room after hours, rows of chairs, a single spotlight on an 
 A traditional London corner pub at closing time on a rainy night in Bermondsey. Warm lights inside being switched off one by one, a white delivery van parked half on the pavement in front, a small walled smoking area on the right side, a black taxi waiting across the street with its headlights on, wet cobbles reflecting amber light. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #016 → `Covers/case016.jpg`
+## ✅ #016 → `Covers/case016.jpg`
 
 ```
 Regent's Canal in Hackney at night in the rain, a low brick arch bridge over still black water, a single lamp on the towpath, a narrowboat moored in shadow, ripples spreading on the water under the bridge. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #017 → `Covers/case017.jpg`
+## ✅ #017 → `Covers/case017.jpg`
 
 ```
 A disused iron railway footbridge over a dark dock basin in Rotherhithe, London, at night in drizzle. A brick stair tower at one end, a moored barge with a single lit porthole below, an old cargo crane on the quay, a warehouse wall with a small camera. One section of the bridge railing slightly bent. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #018 → `Covers/case018.jpg`
+## ✅ #018 → `Covers/case018.jpg`
 
 ```
 The stairwell of an old Berlin Altbau apartment building at night, worn wooden stairs spiralling down, ornate iron railing, one landing light on, a cardboard box at the bottom of the stairs, a door slightly open on the first floor landing. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #019 → `Covers/case019.jpg`
+## ✅ #019 → `Covers/case019.jpg`
 
 ```
 A Berlin attic studio at night: a ring light still glowing over an empty chair, a camera with a red recording light, a laptop showing an abstract live chat of blurred lines, through the skylight a distant orange glow of a fire over the river. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #020 → `Covers/case020.jpg`
+## ✅ #020 → `Covers/case020.jpg`
 
 ```
 A 1970s East Berlin prefab apartment interior at night: a table lamp over scattered archive pages with black redaction bars, a typewriter, an old family photo face-down, through the window rows of lit prefab tower blocks. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
