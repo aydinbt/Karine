@@ -389,7 +389,7 @@
      "id": "wait",
      "textKey": "case021.cctv.event.wait",
      "delayMs": 620,
-     "overlayTimeKey": "case021.time.wait"
+     "overlayTimeKey": "case021.time.wait", "framePaths": ["Bube/Cctv/case021_wait/01", "Bube/Cctv/case021_wait/02", "Bube/Cctv/case021_wait/03"], "frameTimes": ["22.03.00", "22.03.15", "22.03.40"]
     },
     {
      "id": "leave",
