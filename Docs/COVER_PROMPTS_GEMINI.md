@@ -242,31 +242,31 @@ A tiny nativity-figure workshop on Via San Gregorio Armeno in Naples at dusk: sh
 The stage of an ornate old Neapolitan opera house during a rehearsal, seen from the wings: red velvet tiers and gold boxes in darkness, a single follow-spot on an empty stage set of a Roman church, a heavy sandbag lying on the boards where it fell, ropes and counterweights rising into the dark fly tower above. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #051 → `Covers/case051.jpg`
+## ✅ #051 → `Covers/case051.jpg`
 
 ```
 A small night ferry crossing the Bay of Naples towards the island of Procida: the ferry's stern deck empty under a single yellow lamp, the white wake churning behind, the pastel houses of Marina Corricella glowing faintly on the dark shore ahead, a lost blue scarf caught on the railing. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #052 → `Covers/case052.jpg`
+## ✅ #052 → `Covers/case052.jpg`
 
 ```
 The container quay of the port of Naples at night: towering stacks of shipping containers, a single red container sealed with yellow fumigation warning tape and a skull placard in the foreground under a floodlight, giant gantry cranes silhouetted against a stormy sky, Vesuvius dark on the horizon, the lit window of a small port office in the distance. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #053 → `Covers/case053.jpg`
+## ✅ #053 → `Covers/case053.jpg`
 
 ```
 An old flamenco tablao in Triana, Seville, after the show: an empty wooden stage under a single warm spotlight, a Spanish guitar lying on a rush chair, a dancer's red fan on the boards, and at the back a narrow steep wooden staircase leading up into darkness towards a half-open dressing room door. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #054 → `Covers/case054.jpg`
+## ✅ #054 → `Covers/case054.jpg`
 
 ```
 A traditional ceramics workshop on Calle Alfarería in Triana, Seville, at dawn: walls covered in hand-painted blue and ochre azulejo tiles, a squat brick kiln with its door ajar and a thin trail of smoke, shelves of unfired tiles, a potter's wheel, and a large barrel of grey clay slip in the corner. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #055 → `Covers/case055.jpg`
+## ✅ #055 → `Covers/case055.jpg`
 
 ```
 A baroque brotherhood chapel in Triana, Seville, at night: a towering Holy Week float with a silver canopy and rows of unlit candles, the crowned Virgin statue in a dark velvet mantle, a rolling scaffold beside it, silver candlesticks on the altar gleaming in a single shaft of moonlight, an empty marble floor. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
