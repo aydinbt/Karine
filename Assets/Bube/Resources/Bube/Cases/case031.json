@@ -165,7 +165,7 @@
      "id": "pause",
      "textKey": "case031.cctv.event.pause",
      "delayMs": 620,
-     "overlayTimeKey": "case031.time.pause"
+     "overlayTimeKey": "case031.time.pause", "framePaths": ["Bube/Cctv/case031_pause/01", "Bube/Cctv/case031_pause/02", "Bube/Cctv/case031_pause/03"], "frameTimes": ["21.45.00", "21.45.12", "21.45.25"]
     },
     {
      "id": "enter",
