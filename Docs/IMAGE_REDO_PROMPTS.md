@@ -318,13 +318,13 @@ A 24-year-old French-Canadian woman, copper hair in a neat tight bun, freckles, 
 A 38-year-old Chinese-Canadian woman, long straight black hair, a camera strap across her chest, a composed grieving face. A charcoal wool coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
 ```
 
-## Farah Siddiqui → `Characters/farah.png`
+## ✅ Farah Siddiqui → `Characters/farah.png`
 
 ```
 A 30-year-old Pakistani-Canadian woman, long dark hair, smooth, tucked behind the shoulders, a nose stud, a fierce passionate face. A green canvas utility jacket with patches that have no text. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
 ```
 
-## Farah Siddiqui (v2 — farklı yüz) → `Characters/farah.png`
+## ✅ Farah Siddiqui (v2 — farklı yüz) → `Characters/farah.png`
 
 Önceki deneme Grace Kwan ile aynı yüzü verdi. Yüz yapısı açıkça farklı tarif edildi.
 
