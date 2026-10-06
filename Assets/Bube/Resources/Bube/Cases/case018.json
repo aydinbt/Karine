@@ -407,7 +407,7 @@
      "id": "bin",
      "textKey": "case018.cctv.event.bin",
      "delayMs": 620,
-     "overlayTimeKey": "case018.time.bin"
+     "overlayTimeKey": "case018.time.bin", "framePaths": ["Bube/Cctv/case018_bin/01", "Bube/Cctv/case018_bin/02", "Bube/Cctv/case018_bin/03"], "frameTimes": ["21.14.00", "21.14.12", "21.14.20"]
     },
     {
      "id": "back",
