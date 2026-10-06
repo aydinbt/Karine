@@ -62,31 +62,31 @@ A Berlin attic studio at night: a ring light still glowing over an empty chair, 
 A 1970s East Berlin prefab apartment interior at night: a table lamp over scattered archive pages with black redaction bars, a typewriter, an old family photo face-down, through the window rows of lit prefab tower blocks. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #021 → `Covers/case021.jpg`
+## ✅ #021 → `Covers/case021.jpg`
 
 ```
 Misty dawn on a river in Köpenick, Berlin: a wooden rowing-club jetty, an overturned single racing scull drifting nearby, an old brick boathouse with a lit upstairs window, reeds and still grey water. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #022 → `Covers/case022.jpg`
+## ✅ #022 → `Covers/case022.jpg`
 
 ```
 Interior of an empty Berlin suburban train carriage late at night, harsh fluorescent light, a tall bicycle rack in the middle, scattered paper slips near the rear door, dark city lights beyond the windows. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #023 → `Covers/case023.jpg`
+## ✅ #023 → `Covers/case023.jpg`
 
 ```
 A Berlin Friedrichshain apartment block at night seen from the street, one third-floor balcony door standing open with a curtain moving, all other windows dark, wet cobbles, a lone streetlight. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #024 → `Covers/case024.jpg`
+## ✅ #024 → `Covers/case024.jpg`
 
 ```
 A grand villa in Berlin Grunewald on a snowy December night, one ground-floor study window broken with glass on the snow outside, warm lamp light inside, bare trees, a dark security camera on the wall. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #025 → `Covers/case025.jpg`
+## ✅ #025 → `Covers/case025.jpg`
 
 ```
 The interior of a Tokyo capsule hotel corridor late at night: two stacked rows of pale capsule pods along both walls, small round entrances with thin roll-down blinds, one blind on the upper row half-open with darkness inside, dim blue-white strip lighting on the floor, a pair of plastic slippers neatly placed below. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
