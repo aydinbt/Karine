@@ -656,7 +656,7 @@
      "id": "leave",
      "textKey": "case014.cctv.event.leave",
      "delayMs": 620,
-     "overlayTimeKey": "case014.time.leave"
+     "overlayTimeKey": "case014.time.leave", "framePaths": ["Bube/Cctv/case014_leave/01", "Bube/Cctv/case014_leave/02", "Bube/Cctv/case014_leave/03"], "frameTimes": ["22.04.00", "22.04.10", "22.04.20"]
     },
     {
      "id": "fox",
