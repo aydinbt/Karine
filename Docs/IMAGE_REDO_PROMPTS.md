@@ -256,7 +256,7 @@ Sorun: "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbonless international courier receipt slip with a barcode and handwritten address boxes, all text illegible, beside a small padded envelope big enough for a USB stick, torn open. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case028_inhaler → `Items/case028_inhaler.png`
+## ✅ case028_inhaler → `Items/case028_inhaler.png`
 
 Sorun: Zemin baştan sona pikselli; kırpma kurtarmıyor
 
@@ -264,7 +264,7 @@ Sorun: Zemin baştan sona pikselli; kırpma kurtarmıyor
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A generic plastic asthma inhaler in pale blue, its metal canister pulled out and lying beside it; a second identical canister beside it, one of them marked with a small dot of white correction fluid. No brand names. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no text, no logos. Clean smooth evidence mat, no pixelation, no blocky artifacts.
 ```
 
-## case028_remote → `Items/case028_remote.png`
+## ✅ case028_remote → `Items/case028_remote.png`
 
 Sorun: Zemin baştan sona pikselli; kırpma kurtarmıyor
 
