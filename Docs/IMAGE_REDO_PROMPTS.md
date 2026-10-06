@@ -248,7 +248,7 @@ Sorun: "Council Hygiene Inspection Form" başlığı ve okunur madde satırları
 Forensic evidence illustration, top-down on a neutral grey evidence mat. An old council hygiene inspection form, two pages, a large red rubber-stamp mark and a signature at the bottom, all text illegible, slightly yellowed and folded in thirds. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case073_courier → `Items/case073_courier.png`
+## ✅ case073_courier → `Items/case073_courier.png`
 
 Sorun: "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası
 

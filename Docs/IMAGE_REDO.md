@@ -16,4 +16,3 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 - Dünya kartpostalları (jp, fr, us, it, es, ca, au): `WORLD_BACKDROP_PROMPTS.md`.
 - Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; sonra `python3 Tools/bind-items.py` çalıştırılır; oyuna bağlar.
 | `Items/case028–033_*` | Pikselli kenar — 1024×765 olanlar kırpılarak temizlendi; 1024×1024 kalan #028–#029 kontrol edilecek | gerekirse yeniden üret |
-| `Items/case073_courier` | "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası | "illegible scribbles, no readable words or numbers" |
