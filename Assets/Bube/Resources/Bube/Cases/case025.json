@@ -171,7 +171,7 @@
      "id": "swap",
      "textKey": "case025.cctv.event.swap",
      "delayMs": 620,
-     "overlayTimeKey": "case025.time.swap"
+     "overlayTimeKey": "case025.time.swap", "framePaths": ["Bube/Cctv/case025_swap/01", "Bube/Cctv/case025_swap/02", "Bube/Cctv/case025_swap/03"], "frameTimes": ["23.47.00", "23.47.40", "23.48.10"]
     },
     {
      "id": "in",
