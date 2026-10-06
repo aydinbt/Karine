@@ -47,7 +47,7 @@ Close-up looking up at a small white dome security camera mounted on a city bus 
 Sorun: Kâğıt boş
 
 ```
-A clipboard holding a hospital medicine count sheet with ruled tally columns filled with handwritten marks and illegible scribbles, a few entries circled in red pen. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands.
+A clipboard holding a hospital medicine count sheet with ruled tally columns filled with handwritten marks and illegible scribbles, a few entries circled in red pen, NO title or heading at the top of the sheet. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands.
 ```
 
 ## ✅ case013_ledger → `Items/case013_ledger.png`
