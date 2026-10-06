@@ -59,7 +59,7 @@
      "id": "down",
      "textKey": "case036.cctv.event.down",
      "delayMs": 620,
-     "overlayTimeKey": "case036.time.down"
+     "overlayTimeKey": "case036.time.down", "framePaths": ["Bube/Cctv/case036_down/01", "Bube/Cctv/case036_down/02"], "frameTimes": ["21.58.00", "21.58.15"]
     },
     {
      "id": "pass",
