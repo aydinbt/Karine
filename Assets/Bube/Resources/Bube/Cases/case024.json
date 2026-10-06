@@ -272,7 +272,7 @@
      "id": "smash",
      "textKey": "case024.cctv.event.smash",
      "delayMs": 620,
-     "overlayTimeKey": "case024.time.smash"
+     "overlayTimeKey": "case024.time.smash", "framePaths": ["Bube/Cctv/case024_smash/01", "Bube/Cctv/case024_smash/02", "Bube/Cctv/case024_smash/03"], "frameTimes": ["21.52.00", "21.52.04", "21.52.20"]
     },
     {
      "id": "look",
