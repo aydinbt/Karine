@@ -90,7 +90,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case071.request.tower",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case071.item.rail.name",
+     "detailKey": "case071.item.rail.detail",
+     "imageResource": "Bube/Items/case071_rail"
+    }
+   ]
   },
   {
    "id": "bao",
@@ -165,7 +172,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case071.item.radio.name",
+     "detailKey": "case071.item.radio.detail",
+     "imageResource": "Bube/Items/case071_radio"
+    },
+    {
+     "nameKey": "case071.item.manifest.name",
+     "detailKey": "case071.item.manifest.detail",
+     "imageResource": "Bube/Items/case071_manifest"
+    }
+   ]
   },
   {
    "id": "lachlan",

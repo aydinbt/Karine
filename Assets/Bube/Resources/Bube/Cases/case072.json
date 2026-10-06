@@ -248,7 +248,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case072.item.pen.name",
+     "detailKey": "case072.item.pen.detail",
+     "imageResource": "Bube/Items/case072_pen"
+    },
+    {
+     "nameKey": "case072.item.paste.name",
+     "detailKey": "case072.item.paste.detail",
+     "imageResource": "Bube/Items/case072_paste"
+    }
+   ]
   },
   {
    "id": "sinclair",

@@ -296,13 +296,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 177. **Sendika güvenlik raporu** → `case070_report.png` ✅
 
 ## Dosya #071 (3)
-178. **El telsizi** → `case071_radio.png`
-179. **Yük manifestosu** → `case071_manifest.png`
-180. **Galeri korkuluğu parçası** → `case071_rail.png`
+178. **El telsizi** → `case071_radio.png` ✅
+179. **Yük manifestosu** → `case071_manifest.png` ✅
+180. **Galeri korkuluğu parçası** → `case071_rail.png` ✅
 
 ## Dosya #072 (3)
-181. **Adrenalin kalemi** → `case072_pen.png`
-182. **Karides ezmesi kavanozu** → `case072_paste.png`
+181. **Adrenalin kalemi** → `case072_pen.png` ✅
+182. **Karides ezmesi kavanozu** → `case072_paste.png` ✅
 183. **2012 hijyen raporu** → `case072_hygiene.png`
 
 ## Dosya #073 (3)
