@@ -617,7 +617,7 @@
      "id": "follow",
      "textKey": "case015.cctv.event.follow",
      "delayMs": 620,
-     "overlayTimeKey": "case015.time.follow"
+     "overlayTimeKey": "case015.time.follow", "framePaths": ["Bube/Cctv/case015_follow/01", "Bube/Cctv/case015_follow/02", "Bube/Cctv/case015_follow/03"], "frameTimes": ["23.12.00", "23.12.06", "23.12.12"]
     },
     {
      "id": "back",
