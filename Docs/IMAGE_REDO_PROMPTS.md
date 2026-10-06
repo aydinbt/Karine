@@ -120,7 +120,7 @@ Sorun: Tel paketinde ayna gibi ters, gerçek bir tel markasını andıran logo v
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A partially unwound coil of thin steel guitar string, both ends bent into small loops, tiny traces of skin on the metal, beside its small open paper sleeve with blurred unreadable print. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no brand names, no logos. IMPORTANT FIX: plain blank paper sleeve, no logo, no text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case053_file1994 → `Items/case053_file1994.png`
+## ✅ case053_file1994 → `Items/case053_file1994.png`
 
 Sorun: Daktilo sayfası yarı okunur sahte İngilizce, tarih "1990" gibi okunuyor (dosya 1994); "REOPENED" bandı okunur
 
@@ -128,7 +128,7 @@ Sorun: Daktilo sayfası yarı okunur sahte İngilizce, tarih "1990" gibi okunuyo
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellowed old cardboard case folder lying open, inside a faded 1990s colour photograph of a narrow wooden backstage staircase and a single typed statement page with a signature, a plain blank red paper band across the folder with NO writing on it, the typed page shows only grey horizontal smudge lines, no letters, no date, no greeting. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: typed lines as illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case057_ledger → `Items/case057_ledger.png`
+## ✅ case057_ledger → `Items/case057_ledger.png`
 
 Sorun: Okunur İngilizce "Accident Logbook" başlığı ve yarı okunur el yazısı
 
@@ -136,7 +136,7 @@ Sorun: Okunur İngilizce "Accident Logbook" başlığı ve yarı okunur el yazı
 Forensic evidence illustration, top-down on a neutral grey evidence mat. An old hardbound accident logbook open to a page where a handwritten entry has been scraped and rewritten in different ink, the paper thinned and slightly rough, handwriting deliberately illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: handwriting as illegible wavy lines, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case058_cradle → `Items/case058_cradle.png`
+## ✅ case058_cradle → `Items/case058_cradle.png`
 
 Sorun: Okunur İngilizce sütun başlıkları (Date/Item/Condition/Notes) ve tarihler
 
@@ -149,7 +149,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. An open
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. An old typed foundation board list on cream letterhead paper, the letterhead emblem blank, the names replaced by illegible grey type lines, one line marked with a small pencilled star in the margin, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. An old typed list on cream paper with no emblem, every line drawn only as solid grey horizontal smudge bars like the 1994 folder page, no letters at all, one line marked with a small pencilled star in the margin, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
 ## case059_folder → `Items/case059_folder.png`
@@ -157,7 +157,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. An old 
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick brown cardboard document folder half burned, charred black edges curling, partially burnt typed pages and bank transfer slips inside with all text illegible, flakes of grey fireplace ash around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick brown cardboard document folder half burned, charred black edges curling, partially burnt blank pages and small payment slips inside, every line drawn only as solid grey horizontal smudge bars, no letters, no numbers, no currency symbols, no headings, flakes of grey fireplace ash around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
 ## case060_policy → `Items/case060_policy.png`
