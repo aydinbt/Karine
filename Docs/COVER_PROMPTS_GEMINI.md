@@ -2,31 +2,31 @@
 
 Mevcut #001–#010 kapaklarıyla aynı: foto-gerçekçi gece sahnesi, **dikey 3:4** (768×1024). Hedef: `Assets/Bube/Resources/Bube/Art/Covers/caseNNN.jpg`. Sahne tarifi her vakanın `CASE0NN_PROMPTS.md` kapak bölümünden.
 
-## #011 → `Covers/case011.jpg`
+## ✅ #011 → `Covers/case011.jpg`
 
 ```
 Night turning to dawn on a foggy London riverside wharf in Rotherhithe. An old wooden boat workshop with a pitched roof and large doors on a narrow timber pier; a single sodium street lamp glowing in thick fog; a moored narrowboat beside it with a dim window light; black water, mooring ropes, a cast-iron bollard in the foreground. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #012 → `Covers/case012.jpg`
+## ✅ #012 → `Covers/case012.jpg`
 
 ```
 The empty upper deck of a London double-decker night bus, seen from the back row, rain-streaked front windows with blurred orange street lights, one seat at the back in shadow, a dropped hospital ID lanyard on the floor. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #013 → `Covers/case013.jpg`
+## ✅ #013 → `Covers/case013.jpg`
 
 ```
 A narrow old Victorian terraced house on a rainy south London street at dawn, peeling paint, a single faint light in an upper window, a small metal vent grille high on the side wall facing a dark alley, an ambulance light reflected blue on wet pavement. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #014 → `Covers/case014.jpg`
+## ✅ #014 → `Covers/case014.jpg`
 
 ```
 A dim, empty auction room after hours, rows of chairs, a single spotlight on an easel holding a Victorian-style river landscape at sunset whose dust sheet has half slipped off, rain on tall windows. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #015 → `Covers/case015.jpg`
+## ✅ #015 → `Covers/case015.jpg`
 
 ```
 A traditional London corner pub at closing time on a rainy night in Bermondsey. Warm lights inside being switched off one by one, a white delivery van parked half on the pavement in front, a small walled smoking area on the right side, a black taxi waiting across the street with its headlights on, wet cobbles reflecting amber light. Photorealistic cinematic night photograph, moody and atmospheric, wet reflective surfaces, warm practical lights against deep blue-black shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. No people in the frame or only tiny distant silhouettes, no faces. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
