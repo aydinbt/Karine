@@ -580,7 +580,7 @@
      "id": "ladder",
      "textKey": "case013.cctv.event.ladder",
      "delayMs": 620,
-     "overlayTimeKey": "case013.time.ladder"
+     "overlayTimeKey": "case013.time.ladder", "framePaths": ["Bube/Cctv/case013_ladder/01", "Bube/Cctv/case013_ladder/02", "Bube/Cctv/case013_ladder/03"], "frameTimes": ["15.24.00", "15.24.20", "15.24.40"]
     },
     {
      "id": "passer",
