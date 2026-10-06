@@ -84,7 +84,7 @@
      "id": "drive",
      "textKey": "case039.cctv.event.drive",
      "delayMs": 620,
-     "overlayTimeKey": "case039.time.drive"
+     "overlayTimeKey": "case039.time.drive", "framePaths": ["Bube/Cctv/case039_drive/01", "Bube/Cctv/case039_drive/02"], "frameTimes": ["02.11.00", "02.11.20"]
     },
     {
      "id": "fall",
