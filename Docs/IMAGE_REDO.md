@@ -40,3 +40,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case066_minutes` | Okunur "CORPORATE BOARD MEETING MINUTES" başlığı ve uydurma isim listesi | "illegible grey marks, no readable text" |
 | `Items/case066_table` | Yarı okunur el yazısı tablo ve "Total" satırı | "illegible grey marks, no readable text" |
 | case068_slip | Bahis dökümü | Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar) | "illegible scribbles, no readable words or numbers" |
+| case069_gate | İskele kapısı kaydı | "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar | "illegible scribbles, no readable words or numbers" |
