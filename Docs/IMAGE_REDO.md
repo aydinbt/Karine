@@ -33,3 +33,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case053_file1994` | Daktilo sayfası yarı okunur sahte İngilizce, tarih "1990" gibi okunuyor (dosya 1994); "REOPENED" bandı okunur | "typed lines as illegible grey marks, no readable text" |
 | `Items/case057_ledger` | Okunur İngilizce "Accident Logbook" başlığı ve yarı okunur el yazısı | "handwriting as illegible wavy lines, no readable text" |
 | `Items/case058_cradle` | Okunur İngilizce sütun başlıkları (Date/Item/Condition/Notes) ve tarihler | "illegible handwritten entries, no readable text" |
+| `Items/case059_list`, `case059_folder`, `case060_policy`, `case060_clock` | Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler) | "illegible grey marks, no readable text" |
