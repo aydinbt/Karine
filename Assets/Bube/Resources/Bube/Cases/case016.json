@@ -611,7 +611,7 @@
      "id": "struggle",
      "textKey": "case016.cctv.event.struggle",
      "delayMs": 620,
-     "overlayTimeKey": "case016.time.struggle"
+     "overlayTimeKey": "case016.time.struggle", "framePaths": ["Bube/Cctv/case016_struggle/01", "Bube/Cctv/case016_struggle/02", "Bube/Cctv/case016_struggle/03", "Bube/Cctv/case016_struggle/04"], "frameTimes": ["23.38.00", "23.39.10", "23.39.14", "23.39.20"]
     },
     {
      "id": "empty",
