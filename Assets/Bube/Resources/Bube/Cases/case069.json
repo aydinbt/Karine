@@ -144,7 +144,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case069.request.gate",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case069.item.gate.name",
+     "detailKey": "case069.item.gate.detail",
+     "imageResource": "Bube/Items/case069_gate"
+    }
+   ]
   },
   {
    "id": "archive",
@@ -220,6 +227,11 @@
      "nameKey": "case069.item.oar.name",
      "detailKey": "case069.item.oar.detail",
      "imageResource": "Bube/Items/case069_oar"
+    },
+    {
+     "nameKey": "case069.item.sample.name",
+     "detailKey": "case069.item.sample.detail",
+     "imageResource": "Bube/Items/case069_sample"
     }
    ]
   },

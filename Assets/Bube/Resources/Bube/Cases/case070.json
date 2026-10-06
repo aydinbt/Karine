@@ -244,7 +244,24 @@
    "requestable": true,
    "requestLabelKey": "case070.request.locker",
    "requestDelaySeconds": 5,
-   "line": "line_depot"
+   "line": "line_depot",
+   "relatedItems": [
+    {
+     "nameKey": "case070.item.key.name",
+     "detailKey": "case070.item.key.detail",
+     "imageResource": "Bube/Items/case070_key"
+    },
+    {
+     "nameKey": "case070.item.log.name",
+     "detailKey": "case070.item.log.detail",
+     "imageResource": "Bube/Items/case070_log"
+    },
+    {
+     "nameKey": "case070.item.report.name",
+     "detailKey": "case070.item.report.detail",
+     "imageResource": "Bube/Items/case070_report"
+    }
+   ]
   },
   {
    "id": "line_union",
