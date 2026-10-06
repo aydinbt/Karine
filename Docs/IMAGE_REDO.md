@@ -31,4 +31,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case043_cash` | Gerçek 20 dolarlık banknotlar (portre, rakam, seri no.) | "plain blank generic paper notes, no portrait, no numbers, no real currency" |
 | `Items/case053_string` | Tel paketinde ayna gibi ters, gerçek bir tel markasını andıran logo ve "33" yazısı | "plain blank paper sleeve, no logo, no text" |
 | `Items/case053_file1994` | Daktilo sayfası yarı okunur sahte İngilizce, tarih "1990" gibi okunuyor (dosya 1994); "REOPENED" bandı okunur | "typed lines as illegible grey marks, no readable text" |
-| `Items/case040–054_*` | Kenarlarda yine pikselli bozulma ve altlıkta yatay ek yeri (uzun sohbet) | gerekirse yeni sohbette yeniden üret |
+| `Items/case040–055_*` | Kenarlarda yine pikselli bozulma ve altlıkta yatay ek yeri (uzun sohbet) | gerekirse yeni sohbette yeniden üret |
