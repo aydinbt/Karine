@@ -228,15 +228,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #057 (3)
 136. **Kurbanın termosu** → `case057_thermos.png` ✅
 137. **Laboratuvar şişesi** → `case057_vial.png` ✅
-138. **1999 kaza defteri** → `case057_ledger.png`
+138. **1999 kaza defteri** → `case057_ledger.png` ✅
 
 ## Dosya #058 (3)
-139. **Kayar raf kolu** → `case058_handle.png`
-140. **1752 haritası fotoğrafı** → `case058_map.png`
-141. **Restorasyon defteri** → `case058_cradle.png`
+139. **Kayar raf kolu** → `case058_handle.png` ✅
+140. **1752 haritası fotoğrafı** → `case058_map.png` ✅
+141. **Restorasyon defteri** → `case058_cradle.png` ✅
 
 ## Dosya #059 (3)
-142. **Sarnıç anahtarı** → `case059_key.png`
+142. **Sarnıç anahtarı** → `case059_key.png` ✅
 143. **Mütevelli listesi** → `case059_list.png`
 144. **Rodrigo’nun dosyası** → `case059_folder.png`
 

@@ -301,7 +301,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case059.item.key.name",
+     "detailKey": "case059.item.key.detail",
+     "imageResource": "Bube/Items/case059_key"
+    }
+   ]
   }
  ],
  "timelineClues": [

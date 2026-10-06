@@ -230,7 +230,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "1999",
-   "reopenNoteKey": "case057.archive.reopen"
+   "reopenNoteKey": "case057.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case057.item.ledger.name",
+     "detailKey": "case057.item.ledger.detail",
+     "imageResource": "Bube/Items/case057_ledger"
+    }
+   ]
   },
   {
    "id": "beatriz",

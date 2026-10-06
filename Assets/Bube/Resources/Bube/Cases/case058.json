@@ -302,7 +302,19 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "2015",
-   "reopenNoteKey": "case058.archive.reopen"
+   "reopenNoteKey": "case058.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case058.item.map.name",
+     "detailKey": "case058.item.map.detail",
+     "imageResource": "Bube/Items/case058_map"
+    },
+    {
+     "nameKey": "case058.item.cradle.name",
+     "detailKey": "case058.item.cradle.detail",
+     "imageResource": "Bube/Items/case058_cradle"
+    }
+   ]
   },
   {
    "id": "sergio",
@@ -385,7 +397,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case058.item.handle.name",
+     "detailKey": "case058.item.handle.detail",
+     "imageResource": "Bube/Items/case058_handle"
+    }
+   ]
   }
  ],
  "timelineClues": [
