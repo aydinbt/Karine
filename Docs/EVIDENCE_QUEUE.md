@@ -196,13 +196,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 117. **Replik defteri** → `case050_book.png` ✅
 
 ## Dosya #051 (3)
-118. **Su geçirmez tablet** → `case051_tablet.png`
-119. **Küpeşte** → `case051_rail.png`
-120. **Seyir defteri** → `case051_log.png`
+118. **Su geçirmez tablet** → `case051_tablet.png` ✅
+119. **Küpeşte** → `case051_rail.png` ✅
+120. **Seyir defteri** → `case051_log.png` ✅
 
 ## Dosya #052 (3)
-121. **Ofisteki fotoğraf** → `case052_photo.png`
-122. **Konteyner mührü** → `case052_seal.png`
+121. **Ofisteki fotoğraf** → `case052_photo.png` ✅
+122. **Konteyner mührü** → `case052_seal.png` ✅
 123. **Fosfin tablet kutusu** → `case052_tablets.png`
 
 ## Dosya #053 (3)

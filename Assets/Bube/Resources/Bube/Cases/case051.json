@@ -110,7 +110,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case051.request.autopsy",
-   "requestDelaySeconds": 7
+   "requestDelaySeconds": 7,
+   "relatedItems": [
+    {
+     "nameKey": "case051.item.rail.name",
+     "detailKey": "case051.item.rail.detail",
+     "imageResource": "Bube/Items/case051_rail"
+    }
+   ]
   },
   {
    "id": "tommaso",
@@ -235,7 +242,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case051.item.tablet.name",
+     "detailKey": "case051.item.tablet.detail",
+     "imageResource": "Bube/Items/case051_tablet"
+    },
+    {
+     "nameKey": "case051.item.log.name",
+     "detailKey": "case051.item.log.detail",
+     "imageResource": "Bube/Items/case051_log"
+    }
+   ]
   }
  ],
  "timelineClues": [

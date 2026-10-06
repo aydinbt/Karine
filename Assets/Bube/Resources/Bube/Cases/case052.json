@@ -286,7 +286,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case052.request.seals",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case052.item.seal.name",
+     "detailKey": "case052.item.seal.detail",
+     "imageResource": "Bube/Items/case052_seal"
+    }
+   ]
   },
   {
    "id": "car",
@@ -320,7 +327,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case052.item.photo.name",
+     "detailKey": "case052.item.photo.detail",
+     "imageResource": "Bube/Items/case052_photo"
+    }
+   ]
   }
  ],
  "timelineClues": [
