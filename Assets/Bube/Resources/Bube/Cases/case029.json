@@ -312,7 +312,7 @@
      "id": "leave",
      "textKey": "case029.cctv.event.leave",
      "delayMs": 620,
-     "overlayTimeKey": "case029.time.leave"
+     "overlayTimeKey": "case029.time.leave", "framePaths": ["Bube/Cctv/case029_leave/01", "Bube/Cctv/case029_leave/02", "Bube/Cctv/case029_leave/03"], "frameTimes": ["01.16.50", "01.17.05", "01.17.15"]
     }
    ]
   },
