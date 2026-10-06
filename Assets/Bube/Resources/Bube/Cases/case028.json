@@ -283,7 +283,7 @@
      "id": "out",
      "textKey": "case028.cctv.event.out",
      "delayMs": 620,
-     "overlayTimeKey": "case028.time.out"
+     "overlayTimeKey": "case028.time.out", "framePaths": ["Bube/Cctv/case028_out/01", "Bube/Cctv/case028_out/02", "Bube/Cctv/case028_out/03"], "frameTimes": ["23.06.00", "23.06.08", "23.06.16"]
     }
    ]
   },
