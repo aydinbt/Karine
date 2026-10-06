@@ -144,7 +144,7 @@ Sorun: Okunur İngilizce sütun başlıkları (Date/Item/Condition/Notes) ve tar
 Forensic evidence illustration, top-down on a neutral grey evidence mat. An open green cloth-bound conservation workshop register with ruled columns, one row filled in neat handwriting and the matching return column left conspicuously empty, a bone folder lying across the page, handwriting illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible handwritten entries, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case059_list → `Items/case059_list.png`
+## ✅ case059_list → `Items/case059_list.png`
 
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
@@ -152,7 +152,7 @@ Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOY
 Forensic evidence illustration, top-down on a neutral grey evidence mat. An old typed list on cream paper with no emblem, every line drawn only as solid grey horizontal smudge bars like the 1994 folder page, no letters at all, one line marked with a small pencilled star in the margin, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case059_folder → `Items/case059_folder.png`
+## ✅ case059_folder → `Items/case059_folder.png`
 
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
@@ -160,7 +160,7 @@ Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOY
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A thick brown cardboard document folder half burned, charred black edges curling, partially burnt blank pages and small payment slips inside, every line drawn only as solid grey horizontal smudge bars, no letters, no numbers, no currency symbols, no headings, flakes of grey fireplace ash around it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case060_policy → `Items/case060_policy.png`
+## ✅ case060_policy → `Items/case060_policy.png`
 
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
@@ -168,7 +168,7 @@ Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOY
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A stapled insurance policy amendment on plain white paper with a blank grey header block, one paragraph highlighted in yellow, two signature lines with illegible scrawls, a blue ballpoint pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case060_clock → `Items/case060_clock.png`
+## ✅ case060_clock → `Items/case060_clock.png`
 
 Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler)
 
@@ -176,7 +176,7 @@ Sorun: Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOY
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A buff cardboard employee time card with a column of purple stamped clock-out marks, the last one smudged, the printed numbers blurred and unreadable, lying next to a wall punch-clock slot. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case062_count → `Items/case062_count.png`
+## ✅ case062_count → `Items/case062_count.png`
 
 Sorun: Okunur İngilizce "Carbon-Copy Warehouse Inventory" başlığı ve sütun adları
 
