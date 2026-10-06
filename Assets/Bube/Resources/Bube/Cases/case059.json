@@ -209,7 +209,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "1989",
-   "reopenNoteKey": "case059.archive.reopen"
+   "reopenNoteKey": "case059.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case059.item.list.name",
+     "detailKey": "case059.item.list.detail",
+     "imageResource": "Bube/Items/case059_list"
+    }
+   ]
   },
   {
    "id": "mercedes",
@@ -307,6 +314,11 @@
      "nameKey": "case059.item.key.name",
      "detailKey": "case059.item.key.detail",
      "imageResource": "Bube/Items/case059_key"
+    },
+    {
+     "nameKey": "case059.item.folder.name",
+     "detailKey": "case059.item.folder.detail",
+     "imageResource": "Bube/Items/case059_folder"
     }
    ]
   }

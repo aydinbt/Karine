@@ -56,7 +56,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case060.request.oven",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case060.item.peel.name",
+     "detailKey": "case060.item.peel.detail",
+     "imageResource": "Bube/Items/case060_peel"
+    }
+   ]
   },
   {
    "id": "dmitri",
@@ -97,7 +104,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case060.request.clock",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case060.item.clock.name",
+     "detailKey": "case060.item.clock.detail",
+     "imageResource": "Bube/Items/case060_clock"
+    }
+   ]
   },
   {
    "id": "gagnon",
@@ -332,7 +346,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case060.item.policy.name",
+     "detailKey": "case060.item.policy.detail",
+     "imageResource": "Bube/Items/case060_policy"
+    }
+   ]
   }
  ],
  "timelineClues": [

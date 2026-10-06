@@ -237,13 +237,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 
 ## Dosya #059 (3)
 142. **Sarnıç anahtarı** → `case059_key.png` ✅
-143. **Mütevelli listesi** → `case059_list.png`
-144. **Rodrigo’nun dosyası** → `case059_folder.png`
+143. **Mütevelli listesi** → `case059_list.png` ✅
+144. **Rodrigo’nun dosyası** → `case059_folder.png` ✅
 
 ## Dosya #060 (3)
-145. **Fırın küreği ferrulü** → `case060_peel.png`
-146. **Sigorta poliçesi zeyilnamesi** → `case060_policy.png`
-147. **Mesai kartı** → `case060_clock.png`
+145. **Fırın küreği ferrulü** → `case060_peel.png` ✅
+146. **Sigorta poliçesi zeyilnamesi** → `case060_policy.png` ✅
+147. **Mesai kartı** → `case060_clock.png` ✅
 
 ## Dosya #061 (3)
 148. **Kompresör vanası kolu** → `case061_valve.png`
