@@ -37,3 +37,5 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case062_count` | Okunur İngilizce "Carbon-Copy Warehouse Inventory" başlığı ve sütun adları | "illegible grey marks, no readable text" |
 | `Items/case064_loader` | **Gerçek marka:** koltuk sırtında kabartma "CATERPILLAR" yazısı | "plain seat back, no logo, no brand, no text" — öncelikli |
 | `Items/case065_receipt` | Fişte okunur "RESTAURANT" ve yarı okunur satırlar | "illegible grey marks, no readable text" |
+| `Items/case066_minutes` | Okunur "CORPORATE BOARD MEETING MINUTES" başlığı ve uydurma isim listesi | "illegible grey marks, no readable text" |
+| `Items/case066_table` | Yarı okunur el yazısı tablo ve "Total" satırı | "illegible grey marks, no readable text" |
