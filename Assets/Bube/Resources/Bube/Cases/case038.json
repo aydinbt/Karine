@@ -84,7 +84,7 @@
      "id": "tray",
      "textKey": "case038.cctv.event.tray",
      "delayMs": 620,
-     "overlayTimeKey": "case038.time.tray"
+     "overlayTimeKey": "case038.time.tray", "framePaths": ["Bube/Cctv/case038_tray/01", "Bube/Cctv/case038_tray/02", "Bube/Cctv/case038_tray/03"], "frameTimes": ["18.41.00", "18.41.20", "18.41.45"]
     },
     {
      "id": "coat",
