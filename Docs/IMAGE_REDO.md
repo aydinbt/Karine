@@ -35,3 +35,5 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case058_cradle` | Okunur İngilizce sütun başlıkları (Date/Item/Condition/Notes) ve tarihler | "illegible handwritten entries, no readable text" |
 | `Items/case059_list`, `case059_folder`, `case060_policy`, `case060_clock` | Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler) | "illegible grey marks, no readable text" |
 | `Items/case062_count` | Okunur İngilizce "Carbon-Copy Warehouse Inventory" başlığı ve sütun adları | "illegible grey marks, no readable text" |
+| `Items/case064_loader` | **Gerçek marka:** koltuk sırtında kabartma "CATERPILLAR" yazısı | "plain seat back, no logo, no brand, no text" — öncelikli |
+| `Items/case065_receipt` | Fişte okunur "RESTAURANT" ve yarı okunur satırlar | "illegible grey marks, no readable text" |
