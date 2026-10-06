@@ -42,7 +42,7 @@ Sorun: Tavan kamerası yerine fotoğraf makinesi
 Close-up looking up at a small white dome security camera mounted on a city bus ceiling, its lens covered with a strip of black electrical tape. Not a handheld camera. On-site scene, no evidence mat, no ruler. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. No readable text, no logos.
 ```
 
-## case012_sheet → `Items/case012_sheet.png`
+## ✅ case012_sheet → `Items/case012_sheet.png`
 
 Sorun: Kâğıt boş
 
@@ -184,7 +184,7 @@ Sorun: Okunur İngilizce "Carbon-Copy Warehouse Inventory" başlığı ve sütun
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A carbon-copy warehouse inventory form on a clipboard, columns of handwritten tallies all ticked, a large confident signature at the bottom, every number and word illegible. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case064_loader → `Items/case064_loader.png`
+## ✅ case064_loader → `Items/case064_loader.png`
 
 Sorun: **Gerçek marka:** koltuk sırtında kabartma "CATERPILLAR" yazısı
 
@@ -196,11 +196,11 @@ Forensic evidence illustration, close-up of a worn black vinyl seat of a compact
 
 Sorun: Fişte okunur "RESTAURANT" ve yarı okunur satırlar
 
-```
+``` The receipt has NO words at all: no restaurant name, no 'TOTAL', no dollar signs, no prices — only grey smudge bars.
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case066_minutes → `Items/case066_minutes.png`
+## ✅ case066_minutes → `Items/case066_minutes.png`
 
 Sorun: Okunur "CORPORATE BOARD MEETING MINUTES" başlığı ve uydurma isim listesi
 
@@ -208,7 +208,7 @@ Sorun: Okunur "CORPORATE BOARD MEETING MINUTES" başlığı ve uydurma isim list
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A corporate board meeting minutes document on heavy white paper with a blank header block, an attendance list with one line marked by a small pencil tick, all text illegible, a silver fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case066_table → `Items/case066_table.png`
+## ✅ case066_table → `Items/case066_table.png`
 
 Sorun: Yarı okunur el yazısı tablo ve "Total" satırı
 
