@@ -514,7 +514,7 @@
      "id": "strike",
      "textKey": "case017.cctv.event.strike",
      "delayMs": 620,
-     "overlayTimeKey": "case017.time.strike"
+     "overlayTimeKey": "case017.time.strike", "framePaths": ["Bube/Cctv/case017_strike/01", "Bube/Cctv/case017_strike/02", "Bube/Cctv/case017_strike/03", "Bube/Cctv/case017_strike/04"], "frameTimes": ["23.46.40", "23.46.55", "23.47.02", "23.47.08"]
     },
     {
      "id": "leave",
