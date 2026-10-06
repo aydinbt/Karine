@@ -71,7 +71,7 @@
      "id": "pull",
      "textKey": "case042.cctv.event.pull",
      "delayMs": 620,
-     "overlayTimeKey": "case042.time.pull"
+     "overlayTimeKey": "case042.time.pull", "framePaths": ["Bube/Cctv/case042_pull/01", "Bube/Cctv/case042_pull/02"], "frameTimes": ["04.02.00", "04.02.08"]
     }
    ]
   },
