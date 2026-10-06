@@ -362,19 +362,19 @@ A houseboat moored on the Maribyrnong River in Melbourne at night: a small timbe
 A tram depot in Footscray, Melbourne at night: a long shed with rows of parked green-and-cream trams, overhead catenary wires, one tram standing over a lit maintenance pit with its doors open, oil-stained concrete and tool trolleys, sodium lights casting long shadows. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #071 → `Covers/case071.jpg`
+## ✅ #071 → `Covers/case071.jpg`
 
 ```
 The old bluestone time-ball tower at Williamstown, Melbourne at night: a squat stone tower with a small railed gallery near the top and a mast with a ball, waves breaking on the rocks below, a fishing pier with a single lantern, the Melbourne skyline glittering across the bay. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #072 → `Covers/case072.jpg`
+## ✅ #072 → `Covers/case072.jpg`
 
 ```
 A small Vietnamese pho restaurant on Hopkins Street in Footscray, Melbourne late at night: closed metal shutter half down, a warm steamy kitchen visible through the doorway with big stock pots, fluorescent light spilling onto a wet pavement, red paper lanterns, a quiet tram line in the street. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #073 → `Covers/case073.jpg`
+## ✅ #073 → `Covers/case073.jpg`
 
 ```
 A glass office tower in Docklands, Melbourne at night: the 38th floor is the only lit floor, a single office with a desk lamp glowing and a figure-less chair, the harbour and Bolte Bridge lit below, rain streaking the glass facade, a lone tram crossing far below. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
