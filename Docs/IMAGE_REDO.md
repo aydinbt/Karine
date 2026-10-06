@@ -34,3 +34,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case057_ledger` | Okunur İngilizce "Accident Logbook" başlığı ve yarı okunur el yazısı | "handwriting as illegible wavy lines, no readable text" |
 | `Items/case058_cradle` | Okunur İngilizce sütun başlıkları (Date/Item/Condition/Notes) ve tarihler | "illegible handwritten entries, no readable text" |
 | `Items/case059_list`, `case059_folder`, `case060_policy`, `case060_clock` | Yarı okunur sahte İngilizce ("Bank Transfer Slip", "Amendment", "EMPLOYEEE", tarihler) | "illegible grey marks, no readable text" |
+| `Items/case062_count` | Okunur İngilizce "Carbon-Copy Warehouse Inventory" başlığı ve sütun adları | "illegible grey marks, no readable text" |
