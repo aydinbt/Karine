@@ -332,31 +332,31 @@ A Montreal back alley during a heavy night snowstorm: a huge orange snow blower 
 A colossal abandoned concrete grain silo complex in Montreal's Old Port at dawn: rows of tall cylindrical silos, rusted conveyor galleries bridging them, construction scaffolding and a crane on one side, a single open hatch lit from inside at the very top, mist over the frozen river and the city skyline behind. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #066 → `Covers/case066.jpg`
+## ✅ #066 → `Covers/case066.jpg`
 
 ```
 A glass skyscraper in downtown Montreal at night in winter: one floor high up glowing red behind its windows with emergency strobe light, a faint white haze pressed against the glass, the rest of the tower dark, Mount Royal's cross lit in the distance, snow falling over the city lights. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #067 → `Covers/case067.jpg`
+## ✅ #067 → `Covers/case067.jpg`
 
 ```
 A covered fish market in Footscray, Melbourne before dawn: rows of stainless steel stalls with crushed ice, styrofoam boxes, hanging bare bulbs, a single stall at the back with its big insulated ice tank lid open and cold mist rising, a tram wire and the corrugated market roof above, wet concrete floor reflecting light. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #068 → `Covers/case068.jpg`
+## ✅ #068 → `Covers/case068.jpg`
 
 ```
 The Flemington racecourse stable block in Melbourne at night: a long row of timber horse stalls under a corrugated roof, one stall door open with straw spilling out and warm light inside, a bay racehorse's head looking out from the neighbouring stall, a horse float parked at the end of the lane, the grandstand silhouette and floodlit track far behind. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #069 → `Covers/case069.jpg`
+## ✅ #069 → `Covers/case069.jpg`
 
 ```
 A houseboat moored on the Maribyrnong River in Melbourne at night: a small timber floating home with a lit window and potted plants on its deck, dark rippling water reflecting the light, a marina of white boats and a locked gangway gate in the background, eucalyptus trees on the riverbank and a distant city glow. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #070 → `Covers/case070.jpg`
+## ✅ #070 → `Covers/case070.jpg`
 
 ```
 A tram depot in Footscray, Melbourne at night: a long shed with rows of parked green-and-cream trams, overhead catenary wires, one tram standing over a lit maintenance pit with its doors open, oil-stained concrete and tool trolleys, sodium lights casting long shadows. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
