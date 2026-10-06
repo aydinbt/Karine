@@ -276,31 +276,31 @@ Forensic evidence illustration, three-quarter view on a neutral grey evidence ma
 
 Sorun: beyaz zeminden kesilirken saç uçlarında ve açık renk giysi kenarında beyaz hale kalıyor. Prompt'lar bunu baştan önleyecek biçimde değiştirildi: koyu kesintisiz dış çizgi, toplu ve koyu gölgeli saç, açık renk giysi yok, parlama yok. Karakterin kimliği (yaş, köken, saç rengi, ifade) aynı.
 
-## Greta Lombardi → `Characters/greta.png`
+## ✅ Greta Lombardi → `Characters/greta.png`
 
 ```
 A 30-year-old Italian woman, honey-blond hair tied back neatly in a low ponytail, shaded darker at the edges, swollen eyes from crying, freckles. Dusty mid-blue nurse's scrub top under an open denim jacket. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
 ```
 
-## Sofia Marchetti → `Characters/sofia.png`
+## ✅ Sofia Marchetti → `Characters/sofia.png`
 
 ```
 A 35-year-old Italian soprano, long auburn hair, styled smooth and close to the head, fair skin, dramatic dark eyeliner, proud wounded eyes. A golden opera costume gown with a velvet cloak over her shoulders. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
 ```
 
-## Elif Kaya → `Characters/kaya.png`
+## ✅ Elif Kaya → `Characters/kaya.png`
 
 ```
 A 31-year-old Turkish woman, long dark brown hair, smooth and gathered over one shoulder, warm brown eyes, nervous careful smile. A navy blue rehearsal top with a flamenco practice skirt. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
 ```
 
-## Naomi Park → `Characters/naomi.png`
+## ✅ Naomi Park → `Characters/naomi.png`
 
 ```
 A 36-year-old Korean-American woman, long straight black hair, round glasses, sharp intelligent face. A dark olive linen jacket with a canvas tote strap on her shoulder. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
 ```
 
-## Rivka Klein → `Characters/rivka.png`
+## ✅ Rivka Klein → `Characters/rivka.png`
 
 ```
 A 40-year-old Jewish-Canadian woman, dark shoulder-length hair in tight defined curls with solid dark shading, an intelligent tired face, grieving brown eyes. A navy wool coat. Head-and-shoulders portrait only, arms and hands not visible, no table, facing the camera directly, eyes looking at the viewer, neutral seated posture as if across an interrogation table. Detailed ink-line graphic-novel illustration with soft painted shading, muted realistic colours, same style as a gritty detective game character sheet. Plain solid pure white background, no shadow on the background, no text, no border, no badges or insignia. CUTOUT RULES: the whole figure is surrounded by one bold, continuous, dark black ink outline with no gaps; hair is drawn as solid, dark-shaded masses with crisp outlined edges, no loose flyaway strands, no wispy or translucent hair, no light-coloured highlights on the outer edge of the hair; clothing is mid-to-dark in tone, nothing white, cream or pale grey anywhere on the outer silhouette; no rim light, no glow, no soft fade, no white outline, no halo around the figure; the background is flat pure white #FFFFFF and touches the dark outline directly.
