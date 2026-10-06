@@ -175,7 +175,7 @@
      "id": "hand",
      "textKey": "case033.cctv.event.hand",
      "delayMs": 620,
-     "overlayTimeKey": "case033.time.hand"
+     "overlayTimeKey": "case033.time.hand", "framePaths": ["Bube/Cctv/case033_hand/01", "Bube/Cctv/case033_hand/02", "Bube/Cctv/case033_hand/03"], "frameTimes": ["05.10.00", "05.10.12", "05.10.30"]
     },
     {
      "id": "leave",
