@@ -2,7 +2,7 @@
 
 `IMAGE_REDO.md`deki her satır için Gemini'ye yapıştırılacak tam prompt. Her biri yeni sohbette. Düzeltme cümlesi sonda.
 
-## case011_bollard → `Items/case011_bollard.png`
+## ✅ case011_bollard → `Items/case011_bollard.png`
 
 Sorun: İskele yok, leke yok
 
@@ -10,7 +10,7 @@ Sorun: İskele yok, leke yok
 A rusty black cast-iron mooring bollard bolted onto old wet wooden pier planks, a faint dark smear on its upper rim, river fog in the background. On-site scene, no evidence mat, no ruler. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. No readable text, no logos.
 ```
 
-## case011_bronze → `Items/case011_bronze.png`
+## ✅ case011_bronze → `Items/case011_bronze.png`
 
 Sorun: Bronz parçalar yerine anahtar çizilmiş
 
@@ -18,7 +18,7 @@ Sorun: Bronz parçalar yerine anahtar çizilmiş
 A small pile of tarnished bronze boat fittings — propeller nuts, deck cleats, small hinges — inside a clear plastic evidence bag. No keys. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands.
 ```
 
-## kieran → `Characters/kieran.png`
+## ✅ kieran → `Characters/kieran.png`
 
 Sorun: Şapka tepesi kesik, yüz fazla yakın
 
@@ -26,7 +26,7 @@ Sorun: Şapka tepesi kesik, yüz fazla yakın
 A 24-year-old Irish-British man, ginger hair under a red baseball cap, freckles, a small fresh bruise on the cheekbone, defensive and scared expression. Faded red work jacket. IMPORTANT FIX: full head visible with clear space above the cap, head-and-shoulders framing, not a close-up.
 ```
 
-## case012_lock → `Items/case012_lock.png`
+## ✅ case012_lock → `Items/case012_lock.png`
 
 Sorun: U kilit yerine asma kilit
 
@@ -34,7 +34,7 @@ Sorun: U kilit yerine asma kilit
 A heavy black steel U-shaped bicycle lock (D-lock with straight crossbar), slightly wet, a faint dark stain on the curved end, inside a clear plastic evidence bag. Not a padlock. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands.
 ```
 
-## case012_camera → `Items/case012_camera.png`
+## ✅ case012_camera → `Items/case012_camera.png`
 
 Sorun: Tavan kamerası yerine fotoğraf makinesi
 
