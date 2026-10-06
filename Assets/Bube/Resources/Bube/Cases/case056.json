@@ -56,7 +56,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case056.request.boat",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case056.item.ties.name",
+     "detailKey": "case056.item.ties.detail",
+     "imageResource": "Bube/Items/case056_ties"
+    }
+   ]
   },
   {
    "id": "valeria",
@@ -239,7 +246,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "2009",
-   "reopenNoteKey": "case056.archive.reopen"
+   "reopenNoteKey": "case056.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case056.item.cup.name",
+     "detailKey": "case056.item.cup.detail",
+     "imageResource": "Bube/Items/case056_cup"
+    }
+   ]
   },
   {
    "id": "ramon",
@@ -330,7 +344,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case056.item.plug.name",
+     "detailKey": "case056.item.plug.detail",
+     "imageResource": "Bube/Items/case056_plug"
+    }
+   ]
   }
  ],
  "timelineClues": [

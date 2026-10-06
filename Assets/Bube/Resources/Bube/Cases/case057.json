@@ -314,7 +314,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case057.item.thermos.name",
+     "detailKey": "case057.item.thermos.detail",
+     "imageResource": "Bube/Items/case057_thermos"
+    },
+    {
+     "nameKey": "case057.item.vial.name",
+     "detailKey": "case057.item.vial.detail",
+     "imageResource": "Bube/Items/case057_vial"
+    }
+   ]
   }
  ],
  "timelineClues": [

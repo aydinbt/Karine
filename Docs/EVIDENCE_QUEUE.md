@@ -221,13 +221,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 132. **İskele** → `case055_scaffold.png` ✅
 
 ## Dosya #056 (3)
-133. **Tekne tahliye tapası** → `case056_plug.png`
-134. **Kesilmiş plastik kelepçeler** → `case056_ties.png`
-135. **2009 kupası** → `case056_cup.png`
+133. **Tekne tahliye tapası** → `case056_plug.png` ✅
+134. **Kesilmiş plastik kelepçeler** → `case056_ties.png` ✅
+135. **2009 kupası** → `case056_cup.png` ✅
 
 ## Dosya #057 (3)
-136. **Kurbanın termosu** → `case057_thermos.png`
-137. **Laboratuvar şişesi** → `case057_vial.png`
+136. **Kurbanın termosu** → `case057_thermos.png` ✅
+137. **Laboratuvar şişesi** → `case057_vial.png` ✅
 138. **1999 kaza defteri** → `case057_ledger.png`
 
 ## Dosya #058 (3)
