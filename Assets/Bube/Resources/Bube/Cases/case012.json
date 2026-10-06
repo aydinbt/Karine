@@ -814,7 +814,7 @@
      "id": "runner",
      "textKey": "case012.cctv.event.runner",
      "delayMs": 620,
-     "overlayTimeKey": "case012.time.runner"
+     "overlayTimeKey": "case012.time.runner", "framePaths": ["Bube/Cctv/case012_runner/01", "Bube/Cctv/case012_runner/02", "Bube/Cctv/case012_runner/03"], "frameTimes": ["01.49.00", "01.49.04", "01.49.08"]
     },
     {
      "id": "ambulance",
