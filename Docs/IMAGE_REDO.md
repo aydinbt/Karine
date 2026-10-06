@@ -16,11 +16,7 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 - #025–#073: ayrıntılı bulgu prompt'ları her dosyanın `CASE0NN_PROMPTS.md` → "Adli bulgular" bölümünde.
 - Dünya kartpostalları (jp, fr, us, it, es, ca, au): `WORLD_BACKDROP_PROMPTS.md`.
 - Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; sonra `python3 Tools/bind-items.py` çalıştırılır; oyuna bağlar.
-| `Items/case031_notebook` | Sayfalar okunur gibi Japonca yazıyla dolu; zeminde pikselli bozulma | yeni sohbet; "handwriting as illegible wavy lines, no real characters" |
 | `Items/case028–033_*` | Pikselli kenar — 1024×765 olanlar kırpılarak temizlendi; 1024×1024 kalan #028–#029 kontrol edilecek | gerekirse yeniden üret |
-| `Items/case033_envelope` | Gerçek 100 dolarlık banknot (portre, yazı, seri no.) neredeyse fotoğraf gibi çizilmiş; gerçek para + üslup dışı | "plain blank generic paper notes, no portrait, no numbers, no real currency" |
-| `Items/case043_cash` | Gerçek 20 dolarlık banknotlar (portre, rakam, seri no.) | "plain blank generic paper notes, no portrait, no numbers, no real currency" |
-| `Items/case053_string` | Tel paketinde ayna gibi ters, gerçek bir tel markasını andıran logo ve "33" yazısı | "plain blank paper sleeve, no logo, no text" |
 | `Items/case053_file1994` | Daktilo sayfası yarı okunur sahte İngilizce, tarih "1990" gibi okunuyor (dosya 1994); "REOPENED" bandı okunur | "typed lines as illegible grey marks, no readable text" |
 | `Items/case057_ledger` | Okunur İngilizce "Accident Logbook" başlığı ve yarı okunur el yazısı | "handwriting as illegible wavy lines, no readable text" |
 | `Items/case058_cradle` | Okunur İngilizce sütun başlıkları (Date/Item/Condition/Notes) ve tarihler | "illegible handwritten entries, no readable text" |

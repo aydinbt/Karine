@@ -88,7 +88,7 @@ Sorun: Başlıkta okunur "Invoice/INVOICE" yazısı
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A small stack of twelve generic printed invoices, deliberately blurred so no text is readable, held with a black binder clip, one yellow sticky note on top with a single hand-drawn question mark. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: remove all text, keep everything else identical. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case031_notebook → `Items/case031_notebook.png`
+## ✅ case031_notebook → `Items/case031_notebook.png`
 
 Sorun: Sayfalar okunur gibi Japonca yazıyla dolu; zeminde pikselli bozulma
 
@@ -96,7 +96,7 @@ Sorun: Sayfalar okunur gibi Japonca yazıyla dolu; zeminde pikselli bozulma
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A small black leather-bound notebook lying open, the handwriting in Japanese-style ink strokes deliberately blurred and unreadable, the last written page pressed hard so the strokes are deep, a fountain pen beside it. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: handwriting as illegible wavy lines, no real characters. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case033_envelope → `Items/case033_envelope.png`
+## ✅ case033_envelope → `Items/case033_envelope.png`
 
 Sorun: Gerçek 100 dolarlık banknot (portre, yazı, seri no.) neredeyse fotoğraf gibi çizilmiş; gerçek para + üslup dışı
 
@@ -104,7 +104,7 @@ Sorun: Gerçek 100 dolarlık banknot (portre, yazı, seri no.) neredeyse fotoğr
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A plain white envelope lying open with a thick stack of generic banknotes partly pulled out, the notes' details blurred so no denomination or text is readable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: plain blank generic paper notes, no portrait, no numbers, no real currency. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case043_cash → `Items/case043_cash.png`
+## ✅ case043_cash → `Items/case043_cash.png`
 
 Sorun: Gerçek 20 dolarlık banknotlar (portre, rakam, seri no.)
 
@@ -112,7 +112,7 @@ Sorun: Gerçek 20 dolarlık banknotlar (portre, rakam, seri no.)
 Forensic evidence illustration, top-down on a neutral grey evidence mat. Several thick brown paper envelopes, one open showing a stack of twenty-dollar-like banknotes with blurred unreadable printing held by a rubber band, a pencilled tick mark on each envelope. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: plain blank generic paper notes, no portrait, no numbers, no real currency. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case053_string → `Items/case053_string.png`
+## ✅ case053_string → `Items/case053_string.png`
 
 Sorun: Tel paketinde ayna gibi ters, gerçek bir tel markasını andıran logo ve "33" yazısı
 
@@ -125,7 +125,7 @@ Forensic evidence illustration, top-down on a neutral grey evidence mat. A parti
 Sorun: Daktilo sayfası yarı okunur sahte İngilizce, tarih "1990" gibi okunuyor (dosya 1994); "REOPENED" bandı okunur
 
 ```
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellowed old cardboard case folder lying open, inside a faded 1990s colour photograph of a narrow wooden backstage staircase and a single typed statement page with a signature, a red 'reopened' paper band across the folder, all text blurred and unreadable. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: typed lines as illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellowed old cardboard case folder lying open, inside a faded 1990s colour photograph of a narrow wooden backstage staircase and a single typed statement page with a signature, a plain blank red paper band across the folder with NO writing on it, the typed page shows only grey horizontal smudge lines, no letters, no date, no greeting. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: typed lines as illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
 ## case057_ledger → `Items/case057_ledger.png`
