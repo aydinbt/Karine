@@ -271,13 +271,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 162. **Hazne kapağı** → `case065_hatch.png` ✅
 
 ## Dosya #066 (3)
-163. **Gaz sistemi manuel tetik anahtarı** → `case066_key.png`
-164. **Yönetim kurulu toplantı tutanağı** → `case066_minutes.png`
-165. **Kovač’ın tablosu** → `case066_table.png`
+163. **Gaz sistemi manuel tetik anahtarı** → `case066_key.png` ✅
+164. **Yönetim kurulu toplantı tutanağı** → `case066_minutes.png` ✅
+165. **Kovač’ın tablosu** → `case066_table.png` ✅
 
 ## Dosya #067 (3)
-166. **Buz tankı kilidinin anahtarı** → `case067_key.png`
-167. **Pazar alarm kaydı** → `case067_alarm.png`
+166. **Buz tankı kilidinin anahtarı** → `case067_key.png` ✅
+167. **Pazar alarm kaydı** → `case067_alarm.png` ✅
 168. **1998 fotoğrafı** → `case067_lighter.png`
 
 ## Dosya #068 (3)

@@ -115,7 +115,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case067.request.alarm",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case067.item.alarm.name",
+     "detailKey": "case067.item.alarm.detail",
+     "imageResource": "Bube/Items/case067_alarm"
+    }
+   ]
   },
   {
    "id": "archive",
@@ -235,7 +242,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case067.item.key.name",
+     "detailKey": "case067.item.key.detail",
+     "imageResource": "Bube/Items/case067_key"
+    }
+   ]
   }
  ],
  "timelineClues": [

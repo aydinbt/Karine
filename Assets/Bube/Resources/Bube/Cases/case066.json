@@ -146,7 +146,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case066.request.minutes",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case066.item.minutes.name",
+     "detailKey": "case066.item.minutes.detail",
+     "imageResource": "Bube/Items/case066_minutes"
+    }
+   ]
   },
   {
    "id": "mirela",
@@ -290,7 +297,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case066.item.key.name",
+     "detailKey": "case066.item.key.detail",
+     "imageResource": "Bube/Items/case066_key"
+    },
+    {
+     "nameKey": "case066.item.table.name",
+     "detailKey": "case066.item.table.detail",
+     "imageResource": "Bube/Items/case066_table"
+    }
+   ]
   }
  ],
  "timelineClues": [
