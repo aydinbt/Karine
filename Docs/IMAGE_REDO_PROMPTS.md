@@ -196,8 +196,8 @@ Forensic evidence illustration, close-up of a worn black vinyl seat of a compact
 
 Sorun: Fişte okunur "RESTAURANT" ve yarı okunur satırlar
 
-``` The receipt has NO words at all: no restaurant name, no 'TOTAL', no dollar signs, no prices — only grey smudge bars.
-Forensic evidence illustration, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
+```
+Forensic evidence illustration, top-down on a neutral grey evidence mat. A crumpled thermal restaurant receipt smoothed flat, faded print lines all illegible, a small wine stain in one corner, beside a folded paper napkin. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings. The receipt has NO words at all: no restaurant name, no 'TOTAL', no dollar signs, no prices — only grey smudge bars.
 ```
 
 ## ✅ case066_minutes → `Items/case066_minutes.png`
