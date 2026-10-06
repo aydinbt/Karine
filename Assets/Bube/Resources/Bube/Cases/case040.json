@@ -65,7 +65,7 @@
      "id": "out",
      "textKey": "case040.cctv.event.out",
      "delayMs": 620,
-     "overlayTimeKey": "case040.time.out"
+     "overlayTimeKey": "case040.time.out", "framePaths": ["Bube/Cctv/case040_out/01", "Bube/Cctv/case040_out/02"], "frameTimes": ["23.51.06", "23.51.14"]
     },
     {
      "id": "glow",
