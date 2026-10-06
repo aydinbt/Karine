@@ -214,7 +214,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "2012",
-   "reopenNoteKey": "case072.archive.reopen"
+   "reopenNoteKey": "case072.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case072.item.hygiene.name",
+     "detailKey": "case072.item.hygiene.detail",
+     "imageResource": "Bube/Items/case072_hygiene"
+    }
+   ]
   },
   {
    "id": "car",

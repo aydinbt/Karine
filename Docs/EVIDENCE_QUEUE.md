@@ -303,9 +303,9 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #072 (3)
 181. **Adrenalin kalemi** → `case072_pen.png` ✅
 182. **Karides ezmesi kavanozu** → `case072_paste.png` ✅
-183. **2012 hijyen raporu** → `case072_hygiene.png`
+183. **2012 hijyen raporu** → `case072_hygiene.png` ✅
 
 ## Dosya #073 (3)
-184. **İnsülin kalemi** → `case073_pen.png`
-185. **Veda notu** → `case073_note.png`
-186. **Kurye makbuzu** → `case073_courier.png`
+184. **İnsülin kalemi** → `case073_pen.png` ✅
+185. **Veda notu** → `case073_note.png` ✅
+186. **Kurye makbuzu** → `case073_courier.png` ✅

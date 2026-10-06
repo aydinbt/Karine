@@ -56,7 +56,19 @@
    ],
    "requestable": true,
    "requestLabelKey": "case073.request.desk",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case073.item.pen.name",
+     "detailKey": "case073.item.pen.detail",
+     "imageResource": "Bube/Items/case073_pen"
+    },
+    {
+     "nameKey": "case073.item.note.name",
+     "detailKey": "case073.item.note.detail",
+     "imageResource": "Bube/Items/case073_note"
+    }
+   ]
   },
   {
    "id": "tamsin",
@@ -327,7 +339,14 @@
    "requestable": true,
    "requestLabelKey": "case073.request.courier",
    "requestDelaySeconds": 5,
-   "line": "line_money"
+   "line": "line_money",
+   "relatedItems": [
+    {
+     "nameKey": "case073.item.courier.name",
+     "detailKey": "case073.item.courier.detail",
+     "imageResource": "Bube/Items/case073_courier"
+    }
+   ]
   },
   {
    "id": "line_programme",
