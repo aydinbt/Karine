@@ -257,7 +257,7 @@
      "id": "in",
      "textKey": "case019.cctv.event.in",
      "delayMs": 620,
-     "overlayTimeKey": "case019.time.in"
+     "overlayTimeKey": "case019.time.in", "framePaths": ["Bube/Cctv/case019_in/01", "Bube/Cctv/case019_in/02", "Bube/Cctv/case019_in/03"], "frameTimes": ["21.08.00", "21.08.10", "21.08.18"]
     },
     {
      "id": "out",
