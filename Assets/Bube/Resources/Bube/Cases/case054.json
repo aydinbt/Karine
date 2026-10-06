@@ -192,7 +192,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case054.request.workshop",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case054.item.mould.name",
+     "detailKey": "case054.item.mould.detail",
+     "imageResource": "Bube/Items/case054_mould"
+    }
+   ]
   },
   {
    "id": "alvaro",

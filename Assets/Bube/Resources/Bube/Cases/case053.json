@@ -44,7 +44,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case053.request.autopsy",
-   "requestDelaySeconds": 7
+   "requestDelaySeconds": 7,
+   "relatedItems": [
+    {
+     "nameKey": "case053.item.string.name",
+     "detailKey": "case053.item.string.detail",
+     "imageResource": "Bube/Items/case053_string"
+    }
+   ]
   },
   {
    "id": "curro",
@@ -278,7 +285,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "1994",
-   "reopenNoteKey": "case053.archive.reopen"
+   "reopenNoteKey": "case053.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case053.item.file1994.name",
+     "detailKey": "case053.item.file1994.detail",
+     "imageResource": "Bube/Items/case053_file1994"
+    }
+   ]
   },
   {
    "id": "joaquin",
@@ -369,7 +383,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case053.item.gloves.name",
+     "detailKey": "case053.item.gloves.detail",
+     "imageResource": "Bube/Items/case053_gloves"
+    }
+   ]
   }
  ],
  "timelineClues": [

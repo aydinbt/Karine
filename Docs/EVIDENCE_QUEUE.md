@@ -203,15 +203,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #052 (3)
 121. **Ofisteki fotoğraf** → `case052_photo.png` ✅
 122. **Konteyner mührü** → `case052_seal.png` ✅
-123. **Fosfin tablet kutusu** → `case052_tablets.png`
+123. **Fosfin tablet kutusu** → `case052_tablets.png` ✅
 
 ## Dosya #053 (3)
-124. **Gitar teli kangalı** → `case053_string.png`
-125. **1994 dosyası** → `case053_file1994.png`
-126. **Siyah deri eldivenler** → `case053_gloves.png`
+124. **Gitar teli kangalı** → `case053_string.png` ✅
+125. **1994 dosyası** → `case053_file1994.png` ✅
+126. **Siyah deri eldivenler** → `case053_gloves.png` ✅
 
 ## Dosya #054 (3)
-127. **Alçı kalıp parçaları** → `case054_mould.png`
+127. **Alçı kalıp parçaları** → `case054_mould.png` ✅
 128. **‘Yanmış’ çiniler** → `case054_tiles.png`
 129. **Fırın kumanda paneli** → `case054_kiln.png`
 
