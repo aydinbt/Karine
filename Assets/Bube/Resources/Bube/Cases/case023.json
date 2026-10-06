@@ -244,7 +244,7 @@
      "id": "out",
      "textKey": "case023.cctv.event.out",
      "delayMs": 620,
-     "overlayTimeKey": "case023.time.out"
+     "overlayTimeKey": "case023.time.out", "framePaths": ["Bube/Cctv/case023_out/01", "Bube/Cctv/case023_out/02", "Bube/Cctv/case023_out/03"], "frameTimes": ["23.21.00", "23.21.06", "23.21.14"]
     },
     {
      "id": "none",
