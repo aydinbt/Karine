@@ -16,9 +16,4 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 - Dünya kartpostalları (jp, fr, us, it, es, ca, au): `WORLD_BACKDROP_PROMPTS.md`.
 - Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; sonra `python3 Tools/bind-items.py` çalıştırılır; oyuna bağlar.
 | `Items/case028–033_*` | Pikselli kenar — 1024×765 olanlar kırpılarak temizlendi; 1024×1024 kalan #028–#029 kontrol edilecek | gerekirse yeniden üret |
-| `Items/case065_receipt` | Fişte okunur "RESTAURANT" ve yarı okunur satırlar | "illegible grey marks, no readable text" |
-| `Items/case068_slip` | Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar) | "illegible scribbles, no readable words or numbers" |
-| `Items/case069_gate` | "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar | "illegible scribbles, no readable words or numbers" |
-| `Items/case071_manifest` | "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, okunur satırlar | "illegible scribbles, no readable words or numbers, blank stamps" |
-| `Items/case072_hygiene` | "Council Hygiene Inspection Form" başlığı ve okunur madde satırları | "illegible scribbles, no readable words" |
 | `Items/case073_courier` | "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası | "illegible scribbles, no readable words or numbers" |

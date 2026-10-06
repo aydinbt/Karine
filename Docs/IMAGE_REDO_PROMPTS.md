@@ -192,7 +192,7 @@ Sorun: **Gerçek marka:** koltuk sırtında kabartma "CATERPILLAR" yazısı
 Forensic evidence illustration, close-up of a worn black vinyl seat of a compact wheel loader cab, a few bright red wool fibres caught in a split seam, evidence tape marking them, a frosted cab window behind. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: plain seat back, no logo, no brand, no text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case065_receipt → `Items/case065_receipt.png`
+## ✅ case065_receipt → `Items/case065_receipt.png`
 
 Sorun: Fişte okunur "RESTAURANT" ve yarı okunur satırlar
 
@@ -216,7 +216,7 @@ Sorun: Yarı okunur el yazısı tablo ve "Total" satırı
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed spreadsheet page of dense numeric columns with one entire column highlighted in yellow, the same short entry repeated down every row, all figures and words blurred and unreadable, a red pen circle around the total. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible grey marks, no readable text. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case068_slip → `Items/case068_slip.png`
+## ✅ case068_slip → `Items/case068_slip.png`
 
 Sorun: Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar)
 
@@ -224,7 +224,7 @@ Sorun: Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar)
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A few printed pages of a betting transaction ledger, dense columns of small figures, all illegible, with a yellow highlighter stripe across several rows, a paperclip at the corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case069_gate → `Items/case069_gate.png`
+## ✅ case069_gate → `Items/case069_gate.png`
 
 Sorun: "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar
 
@@ -232,7 +232,7 @@ Sorun: "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A printed access-control log page with columns of entry times, all text illegible, beside a grey plastic RFID key fob on a lanyard. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case071_manifest → `Items/case071_manifest.png`
+## ✅ case071_manifest → `Items/case071_manifest.png`
 
 Sorun: "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, okunur satırlar
 
@@ -240,7 +240,7 @@ Sorun: "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, ok
 Forensic evidence illustration, top-down on a neutral grey evidence mat. A yellowed multi-part carbon shipping manifest form from the 1990s, columns of typed entries and stamps, all illegible, with a coffee stain and a torn corner. Small blank scale ruler without numbers. Flat forensic lighting, 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D, no readable text, no logos. IMPORTANT FIX: illegible scribbles, no readable words or numbers, blank stamps. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere. Every line of writing or print is drawn only as solid grey horizontal smudge bars, no letters, no numbers, no headings.
 ```
 
-## case072_hygiene → `Items/case072_hygiene.png`
+## ✅ case072_hygiene → `Items/case072_hygiene.png`
 
 Sorun: "Council Hygiene Inspection Form" başlığı ve okunur madde satırları
 
