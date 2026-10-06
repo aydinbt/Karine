@@ -283,7 +283,7 @@
      "id": "drag",
      "textKey": "case026.cctv.event.drag",
      "delayMs": 620,
-     "overlayTimeKey": "case026.time.drag"
+     "overlayTimeKey": "case026.time.drag", "framePaths": ["Bube/Cctv/case026_drag/01", "Bube/Cctv/case026_drag/02", "Bube/Cctv/case026_drag/03"], "frameTimes": ["05.06.00", "05.06.40", "05.07.20"]
     },
     {
      "id": "back",
