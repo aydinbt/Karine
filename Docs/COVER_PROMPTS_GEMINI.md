@@ -302,31 +302,31 @@ A Seville palace courtyard at night: Moorish arches and azulejo-tiled walls arou
 A small old bagel bakery in Montreal's Mile End at midnight in winter: a glowing wood-fired brick oven seen through a steamy shop window, wooden peels leaning on the wall, sesame bagels piled in bins, a snowy street with a spiral outdoor staircase and a single street lamp outside. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #061 → `Covers/case061.jpg`
+## ✅ #061 → `Covers/case061.jpg`
 
 ```
 A small neighbourhood indoor ice rink in Montreal before dawn: empty glossy ice under a few working floodlights, hockey nets pushed to the boards, wooden bleachers, a half-open steel door at the far end leaking a faint white chemical mist, frost on the glass. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #062 → `Covers/case062.jpg`
+## ✅ #062 → `Covers/case062.jpg`
 
 ```
 A vast maple syrup warehouse at night: towering steel racks of blue syrup drums stacked to the ceiling, one section collapsed with drums scattered and burst on the concrete floor, a stopped yellow forklift with its forks raised, a single row of high bay lights on. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #063 → `Covers/case063.jpg`
+## ✅ #063 → `Covers/case063.jpg`
 
 ```
 A basement jazz club in Montreal: a small stage under a single warm spotlight with a double bass lying on its side beside an upright amplifier and a microphone stand, a piano in shadow, empty bistro tables with half-finished drinks, brick walls and a staircase up to a snowy street door. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #064 → `Covers/case064.jpg`
+## ✅ #064 → `Covers/case064.jpg`
 
 ```
 A Montreal back alley during a heavy night snowstorm: a huge orange snow blower machine stopped with its chute aimed into a dump truck, headlights cutting through falling snow, a tall snowbank with a single red knitted scarf trailing out of it, spiral iron staircases on the brick houses, orange sodium street light. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #065 → `Covers/case065.jpg`
+## ✅ #065 → `Covers/case065.jpg`
 
 ```
 A colossal abandoned concrete grain silo complex in Montreal's Old Port at dawn: rows of tall cylindrical silos, rusted conveyor galleries bridging them, construction scaffolding and a crane on one side, a single open hatch lit from inside at the very top, mist over the frozen river and the city skyline behind. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
