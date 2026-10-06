@@ -117,7 +117,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case065.request.receipt",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case065.item.receipt.name",
+     "detailKey": "case065.item.receipt.detail",
+     "imageResource": "Bube/Items/case065_receipt"
+    }
+   ]
   },
   {
    "id": "gendron",
@@ -320,7 +327,19 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case065.item.card.name",
+     "detailKey": "case065.item.card.detail",
+     "imageResource": "Bube/Items/case065_card"
+    },
+    {
+     "nameKey": "case065.item.hatch.name",
+     "detailKey": "case065.item.hatch.detail",
+     "imageResource": "Bube/Items/case065_hatch"
+    }
+   ]
   }
  ],
  "timelineClues": [

@@ -262,13 +262,13 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 
 ## Dosya #064 (3)
 157. **Denetçinin tableti** → `case064_tablet.png` ✅
-158. **Filo GPS dökümü** → `case064_gps.png`
-159. **Kepçenin koltuk minderi** → `case064_loader.png`
+158. **Filo GPS dökümü** → `case064_gps.png` ✅
+159. **Kepçenin koltuk minderi** → `case064_loader.png` ✅
 
 ## Dosya #065 (3)
-160. **Kask kamerası hafıza kartı** → `case065_card.png`
-161. **Restoran fişi** → `case065_receipt.png`
-162. **Hazne kapağı** → `case065_hatch.png`
+160. **Kask kamerası hafıza kartı** → `case065_card.png` ✅
+161. **Restoran fişi** → `case065_receipt.png` ✅
+162. **Hazne kapağı** → `case065_hatch.png` ✅
 
 ## Dosya #066 (3)
 163. **Gaz sistemi manuel tetik anahtarı** → `case066_key.png`
