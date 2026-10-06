@@ -272,31 +272,31 @@ A traditional ceramics workshop on Calle Alfarería in Triana, Seville, at dawn:
 A baroque brotherhood chapel in Triana, Seville, at night: a towering Holy Week float with a silver canopy and rows of unlit candles, the crowned Virgin statue in a dark velvet mantle, a rolling scaffold beside it, silver candlesticks on the altar gleaming in a single shaft of moonlight, an empty marble floor. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #056 → `Covers/case056.jpg`
+## ✅ #056 → `Covers/case056.jpg`
 
 ```
 The Guadalquivir river in Seville at dawn: mist on the water under the iron arches of the Triana Bridge, a capsized white single rowing shell floating upside down near a stone pier, an oar adrift, the colourful houses of Triana and an old rowing club boathouse with open doors on the bank. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #057 → `Covers/case057.jpg`
+## ✅ #057 → `Covers/case057.jpg`
 
 ```
 An Andalusian orange grove at noon heat: long rows of dark green orange trees heavy with fruit, an abandoned old green thermos and a straw hat lying on the dusty red earth between the rows, plastic picking crates stacked, a white cooperative packing house with a rusty corrugated roof in the background under a white-hot sky. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #058 → `Covers/case058.jpg`
+## ✅ #058 → `Covers/case058.jpg`
 
 ```
 A basement archive stack room in an old Seville archive at night: long rows of mobile compact shelving on floor rails, two units closed tight together, a single crank wheel missing from one end panel, a fallen archive box and scattered old documents on the floor, a vaulted brick ceiling above and one caged work light. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #059 → `Covers/case059.jpg`
+## ✅ #059 → `Covers/case059.jpg`
 
 ```
 A Seville palace courtyard at night: Moorish arches and azulejo-tiled walls around a central courtyard, an orange tree, an ancient stone cistern well-head in the middle with its heavy iron grille lid hinged open, lantern light reflecting on wet flagstones, a single upper window lit. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #060 → `Covers/case060.jpg`
+## ✅ #060 → `Covers/case060.jpg`
 
 ```
 A small old bagel bakery in Montreal's Mile End at midnight in winter: a glowing wood-fired brick oven seen through a steamy shop window, wooden peels leaning on the wall, sesame bagels piled in bins, a snowy street with a spiral outdoor staircase and a single street lamp outside. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
