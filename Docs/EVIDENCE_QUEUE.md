@@ -253,15 +253,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #062 (3)
 151. **Suyla dolu varil** → `case062_barrel.png` ✅
 152. **Sayım tutanağı** → `case062_count.png` ✅
-153. **Forklift kontak anahtarı** → `case062_key.png`
+153. **Forklift kontak anahtarı** → `case062_key.png` ✅
 
 ## Dosya #063 (3)
-154. **Topraklama kesici adaptör** → `case063_adapter.png`
-155. **Elektrik denetim raporu** → `case063_inspect.png`
-156. **Bas amfisinin fişi** → `case063_plug.png`
+154. **Topraklama kesici adaptör** → `case063_adapter.png` ✅
+155. **Elektrik denetim raporu** → `case063_inspect.png` ✅
+156. **Bas amfisinin fişi** → `case063_plug.png` ✅
 
 ## Dosya #064 (3)
-157. **Denetçinin tableti** → `case064_tablet.png`
+157. **Denetçinin tableti** → `case064_tablet.png` ✅
 158. **Filo GPS dökümü** → `case064_gps.png`
 159. **Kepçenin koltuk minderi** → `case064_loader.png`
 

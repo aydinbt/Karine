@@ -56,7 +56,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case063.request.stage",
-   "requestDelaySeconds": 6
+   "requestDelaySeconds": 6,
+   "relatedItems": [
+    {
+     "nameKey": "case063.item.plug.name",
+     "detailKey": "case063.item.plug.detail",
+     "imageResource": "Bube/Items/case063_plug"
+    }
+   ]
   },
   {
    "id": "deschamps",
@@ -276,7 +283,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case063.request.inspect",
-   "requestDelaySeconds": 3
+   "requestDelaySeconds": 3,
+   "relatedItems": [
+    {
+     "nameKey": "case063.item.inspect.name",
+     "detailKey": "case063.item.inspect.detail",
+     "imageResource": "Bube/Items/case063_inspect"
+    }
+   ]
   },
   {
    "id": "marchand",
@@ -360,7 +374,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case063.item.adapter.name",
+     "detailKey": "case063.item.adapter.detail",
+     "imageResource": "Bube/Items/case063_adapter"
+    }
+   ]
   }
  ],
  "timelineClues": [
