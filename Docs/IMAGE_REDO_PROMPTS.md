@@ -50,7 +50,7 @@ Sorun: Kâğıt boş
 A clipboard holding a hospital medicine count sheet with ruled tally columns filled with handwritten marks and illegible scribbles, a few entries circled in red pen. Lying flat on a neutral mid-grey forensic evidence mat, a small plain scale ruler with tick marks but no numbers. Camera: straight top-down, object centred, filling about 60% of the frame. Flat even forensic lighting, soft shadow. Style: 2D hand-drawn ink illustration in the same style as the character portraits: fine black ink linework, cross-hatching and stippling, muted realistic colour wash, not a photograph, not 3D. Absolutely no readable text, letters, numbers, logos or brands.
 ```
 
-## case013_ledger → `Items/case013_ledger.png`
+## ✅ case013_ledger → `Items/case013_ledger.png`
 
 Sorun: Okunur yazı var ("Monthly Rent Statement", "Police…")
 
@@ -60,7 +60,7 @@ Setting: lying flat on a neutral mid-grey forensic evidence mat, a small plain s
 Must NOT contain: any readable letters, numbers or words; any logo, brand, emblem, police crest or real institution name; people or hands; extra objects not listed. IMPORTANT FIX: all text must be blurred squiggles, no readable words or numbers. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case014_note → `Items/case014_note.png`
+## ✅ case014_note → `Items/case014_note.png`
 
 Sorun: Gemini okunur bir ad yazdı ("Maria", vakada yok); silindi, sayfa artık boş, üstünde hafif bir yama var
 
@@ -70,7 +70,7 @@ Setting: lying flat on a neutral mid-grey forensic evidence mat, a small plain s
 Must NOT contain: any readable letters, numbers or words; any logo, brand, emblem, police crest or real institution name; people or hands; extra objects not listed. IMPORTANT FIX: one illegible pencil scrawl, not a name, no readable letters. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case016_letters → `Items/case016_letters.png`
+## ✅ case016_letters → `Items/case016_letters.png`
 
 Sorun: Prompt'taki "angry scrawl" ifadesi imza yerine okunur yazı olarak çizilmiş
 
@@ -80,7 +80,7 @@ Setting: lying flat on a neutral mid-grey forensic evidence mat, a small plain s
 Must NOT contain: any readable letters, numbers or words; any logo, brand, emblem, police crest or real institution name; people or hands; extra objects not listed. IMPORTANT FIX: an illegible scribbled signature, no readable words. Absolutely no readable text, letters, numbers, logos, brands or real currency anywhere.
 ```
 
-## case027_ledger → `Items/case027_ledger.png`
+## ✅ case027_ledger → `Items/case027_ledger.png`
 
 Sorun: Başlıkta okunur "Invoice/INVOICE" yazısı
 

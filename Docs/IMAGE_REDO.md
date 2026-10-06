@@ -4,7 +4,7 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 
 | Yol | Sorun | Gemini'ye ek |
 |---|---|---|
-| `Items/case012_sheet` | Boş kâğıt; panoya takılı sayım çizelgesi değil | "clipboard with handwritten tally columns, unreadable, some numbers circled in red" |
+| `Items/case012_sheet` | Yenisi geldi ama başlık okunur: "Hospital Medicine Count Sheet" — yalnız başlıksız tekrar | "clipboard with handwritten tally columns, unreadable, some numbers circled in red" |
 
 Üslup kararı (5 Ekim 2026): bütün bulgular portrelerle aynı 2D mürekkep çizim tarzında; prompt'lardaki "photorealistic" bu tarzla değiştirildi. #011–#012 de bu tarzda yenilenir.
 
@@ -16,10 +16,6 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 - #025–#073: ayrıntılı bulgu prompt'ları her dosyanın `CASE0NN_PROMPTS.md` → "Adli bulgular" bölümünde.
 - Dünya kartpostalları (jp, fr, us, it, es, ca, au): `WORLD_BACKDROP_PROMPTS.md`.
 - Görsel geldikçe bu tabloya sorunlu olanlar eklenir. Bulgular `Bube/Items/caseNNN_<ad>.png` yoluna yazılır; sonra `python3 Tools/bind-items.py` çalıştırılır; oyuna bağlar.
-| `Items/case013_ledger` | Okunur yazı var ("Monthly Rent Statement", "Police…") | "all text must be blurred squiggles, no readable words or numbers" |
-| `Items/case014_note` | Gemini okunur bir ad yazdı ("Maria", vakada yok); silindi, sayfa artık boş, üstünde hafif bir yama var | "one illegible pencil scrawl, not a name, no readable letters" |
-| `Items/case016_letters` | Prompt'taki "angry scrawl" ifadesi imza yerine okunur yazı olarak çizilmiş | "an illegible scribbled signature, no readable words" |
-| `Items/case027_ledger` | Başlıkta okunur "Invoice/INVOICE" yazısı | "remove all text, keep everything else identical" |
 | `Items/case031_notebook` | Sayfalar okunur gibi Japonca yazıyla dolu; zeminde pikselli bozulma | yeni sohbet; "handwriting as illegible wavy lines, no real characters" |
 | `Items/case028–033_*` | Pikselli kenar — 1024×765 olanlar kırpılarak temizlendi; 1024×1024 kalan #028–#029 kontrol edilecek | gerekirse yeniden üret |
 | `Items/case033_envelope` | Gerçek 100 dolarlık banknot (portre, yazı, seri no.) neredeyse fotoğraf gibi çizilmiş; gerçek para + üslup dışı | "plain blank generic paper notes, no portrait, no numbers, no real currency" |
