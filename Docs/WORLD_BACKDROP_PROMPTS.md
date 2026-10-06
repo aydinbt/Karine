@@ -1,45 +1,45 @@
-# Dünya kartpostalları — ChatGPT prompt'ları
+# Ülke arka planları — Gemini prompt'ları
 
-Videosuz dünya açılışı (`Architecture.md` → "Videosuz dünya açılışı") `config.json` → `worldIntros[].backdropResource` görselini karartıp tam ekran çizer. `uk` ve `de` mevcut; aşağıdakiler bekliyor. Yatay 16:9, en az 1920×1080, jpg. Şehir/şube yazısını oyun kendisi bindirir; görselde yazı olmaz.
+Dünya açılışında tam ekran, karartılarak çizilir (`config.json` → `worldIntros[].backdropResource`). Mevcut `tr`/`uk`/`de` ile aynı tarz: gün batımında foto-gerçekçi şehir panoraması. Yatay 16:9, jpg. Şehir adını oyun bindirir; görselde yazı olmaz.
 
-## Tokyo — Nihonbashi → `Assets/Bube/Resources/Bube/Worlds/jp.jpg`
-
-```
-Cinematic painted postcard view of Nihonbashi in Tokyo at dusk: the old stone Nihonbashi bridge under the elevated expressway, lanterns on a narrow side street, a small second-floor detective office window lit above a closed shutter shop, light rain, vending machine glow. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
-```
-
-## Paris — Belleville → `Assets/Bube/Resources/Bube/Worlds/fr.jpg`
+## Tokyo → `Assets/Bube/Resources/Bube/Worlds/jp.jpg`
 
 ```
-Cinematic painted postcard view of Belleville in Paris at dusk: steep cobbled street with graffiti walls, a café terrace with folding chairs stacked, zinc rooftops and chimney pots, a small upstairs office window lit, the Eiffel Tower tiny on the far horizon. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
+A panoramic view of the Tokyo skyline at sunset seen from across the Sumida River: Tokyo Skytree on the right, a dense band of high-rise towers, a low arched bridge lit with warm lamps, small river boats moored along the embankment, Mount Fuji faintly silhouetted on the far horizon. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
 ```
 
-## Chicago — Pilsen → `Assets/Bube/Resources/Bube/Worlds/us.jpg`
+## Paris → `Assets/Bube/Resources/Bube/Worlds/fr.jpg`
 
 ```
-Cinematic painted postcard view of Pilsen in Chicago at dusk: brick buildings covered in bright murals, an elevated train crossing on steel tracks, a corner taquería sign without text, fire escapes, a lit second-floor office window, cold blue winter sky. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
+A panoramic view of Paris at sunset from the right bank of the Seine: the Eiffel Tower on the left, zinc rooftops and chimney pots, the dome of the Panthéon in the distance, a stone bridge with ornate lamps lit over the river, a few moored barges along the quay. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
 ```
 
-## Napoli — Quartieri Spagnoli → `Assets/Bube/Resources/Bube/Worlds/it.jpg`
+## Chicago → `Assets/Bube/Resources/Bube/Worlds/us.jpg`
 
 ```
-Cinematic painted postcard view of the Quartieri Spagnoli in Naples at dusk: narrow alley with laundry lines overhead, Vespas parked, a small votive shrine with a candle, pastel peeling walls, Vesuvius silhouette at the end of the street. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
+A panoramic view of the Chicago skyline at sunset from across the Chicago River: tall glass and steel skyscrapers with their windows lit, a red steel bascule bridge in the middle ground, the river reflecting orange light, the elevated train tracks faintly visible. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
 ```
 
-## Sevilla — Triana → `Assets/Bube/Resources/Bube/Worlds/es.jpg`
+## Napoli → `Assets/Bube/Resources/Bube/Worlds/it.jpg`
 
 ```
-Cinematic painted postcard view of Triana in Seville at dusk: the Triana bridge over the Guadalquivir, colourful tiled facades, orange trees, a ceramics workshop with its door open, a lit upstairs office window with an iron balcony. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
+A panoramic view of Naples at sunset from the hills above the bay: dense pastel buildings tumbling down to the harbour, the castle Castel dell'Ovo on the water, small fishing boats, and the silhouette of Mount Vesuvius dominating the horizon under a glowing sky. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
 ```
 
-## Montreal — Mile End → `Assets/Bube/Resources/Bube/Worlds/ca.jpg`
+## Sevilla → `Assets/Bube/Resources/Bube/Worlds/es.jpg`
 
 ```
-Cinematic painted postcard view of Mile End in Montreal on a snowy evening: outdoor spiral iron staircases on duplex facades, a bagel bakery window glowing, snowbanks, a lit upstairs office window, Mount Royal's cross faint on the hill. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
+A panoramic view of Seville at sunset from the bank of the Guadalquivir river: the Triana iron bridge with lamps lit, the Giralda bell tower and cathedral rising behind the old town, palm and orange trees along the river, colourful low facades, the Torre del Oro on the right. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
 ```
 
-## Melbourne — Footscray → `Assets/Bube/Resources/Bube/Worlds/au.jpg`
+## Montréal → `Assets/Bube/Resources/Bube/Worlds/ca.jpg`
 
 ```
-Cinematic painted postcard view of Footscray in Melbourne at dusk: a tram on Hopkins Street, Vietnamese shopfront awnings without text, the old market roof, eucalyptus and power lines, the Melbourne CBD skyline glowing beyond the Maribyrnong River, a lit upstairs office window. Painterly graphic-novel style matching a moody detective game, rich but muted palette, strong atmosphere, horizontal 16:9 composition with calm empty sky or wall area in the upper third for overlay text. No people in focus, no readable text or signs, no logos, no real company names, no police insignia.
+A panoramic view of the Montreal skyline on a winter evening from Mount Royal: snow on the trees in the foreground, the downtown towers lit, old church spires, the Jacques Cartier bridge glowing over the frozen Saint Lawrence river, a cold violet and orange sky. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
+```
+
+## Melbourne → `Assets/Bube/Resources/Bube/Worlds/au.jpg`
+
+```
+A panoramic view of the Melbourne skyline at sunset from Southbank across the Yarra River: tall city towers with lit windows, a pedestrian footbridge, the Flinders Street station dome with its clock (no readable numbers), eucalyptus trees on the bank, rowing sculls moored by the water. Cinematic, photorealistic wide-angle evening photograph, golden-hour to blue-hour light, dramatic glowing sky with layered clouds, warm city lights reflecting on the water, rich contrast, slightly moody colour grade, sharp detail. Horizontal 16:9 landscape image, about 1920×1080. The upper third is mostly open sky (overlay text will be placed there by the game). Keep the scene calm and empty: no people in the foreground, no vehicles in focus. NO text anywhere: no signs, no shop names, no billboards, no logos, no watermarks, no captions, no borders, no police or government insignia. Do not add any lettering to the sky.
 ```
