@@ -122,31 +122,31 @@ At dawn in a pine forest outside Chiba: a burned-out sedan smouldering on a dirt
 A glass office tower in Nihonbashi, Tokyo, on a bright cold morning: hundreds of office workers in white disaster-drill helmets gathered in the plaza below in neat lines, one emergency stairwell window high on the building lit red. No readable text, no logos, no real company names. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #031 → `Covers/case031.jpg`
+## ✅ #031 → `Covers/case031.jpg`
 
 ```
 A traditional Japanese ryōtei restaurant in Tokyo at night: a quiet stone-paved alley, a wooden gate with a hanging noren curtain without any writing, paper lanterns, a private tatami room glowing through shoji screens on the upper floor, a black luxury car waiting at the kerb with its headlights off, light rain. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #032 → `Covers/case032.jpg`
+## ✅ #032 → `Covers/case032.jpg`
 
 ```
 A grand Parisian auction house façade at dusk on a narrow street near the Seine: tall arched windows lit gold, a banner without any text above the door, rain-slick cobblestones, a single figure-free grey umbrella left leaning by the door. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #033 → `Covers/case033.jpg`
+## ✅ #033 → `Covers/case033.jpg`
 
 ```
 A small corner bakery on a sloping Belleville street in Paris at 4 a.m.: warm yellow light pouring from the back kitchen window, a delivery scooter parked outside, steam from a vent, graffiti-free stone walls, wet pavement, blue pre-dawn sky. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #034 → `Covers/case034.jpg`
+## ✅ #034 → `Covers/case034.jpg`
 
 ```
 A narrow Belleville street in Paris at night: a tiny phone repair shop with its metal shutter half down and a single bare bulb inside, phone cases hanging in the window, a Chinese grocery with fruit crates opposite, a courier scooter speeding away leaving a light trail, wet street. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #035 → `Covers/case035.jpg`
+## ✅ #035 → `Covers/case035.jpg`
 
 ```
 A Paris metro platform at morning rush hour seen from the end of the platform: curved white-tiled vault, a train's headlights bursting out of the dark tunnel, a crowd of commuters frozen as silhouettes, one empty gap at the platform edge, a dropped leather briefcase lying open on the tiles. No readable station name, no text, no logos. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
