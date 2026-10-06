@@ -182,31 +182,31 @@ A large freight warehouse in Pilsen, Chicago at night: brick and corrugated stee
 A narrow brick row house in Bridgeport, Chicago at night after a fire: blackened front windows, smoke stains above the frames, a fire truck's red lights reflecting on wet pavement, a small front porch with a melted plastic chair, neighbouring houses with lit windows, bare trees. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #041 → `Covers/case041.jpg`
+## ✅ #041 → `Covers/case041.jpg`
 
 ```
 A rooftop pool on a downtown Chicago hotel at night: glowing turquoise water with a dark shape floating face down, deck chairs, string lights, a deserted bar with abandoned campaign balloons, the skyscrapers of the Loop towering around, a thin mist. No readable text, no logos, no visible faces. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #042 → `Covers/case042.jpg`
+## ✅ #042 → `Covers/case042.jpg`
 
 ```
 A highway truck stop in northern Indiana at night: rows of parked semi-trucks with their running lights glowing, one truck isolated at the far end of the lot with its cab dark and the rear doors of its refrigerated trailer hanging open and empty, a lit diner and fuel canopy in the distance, heavy summer rain and lightning over flat fields. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #043 → `Covers/case043.jpg`
+## ✅ #043 → `Covers/case043.jpg`
 
 ```
 An old blues club on the South Side of Chicago at dusk: a narrow brick façade with a glowing neon guitar sign without any letters, a small stage visible through the front window with a single chrome microphone stand fallen over and an amplifier glowing red, empty tables with candles, rain on the sidewalk. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #044 → `Covers/case044.jpg`
+## ✅ #044 → `Covers/case044.jpg`
 
 ```
 A large sailing yacht on Lake Michigan at night, sails half lowered, its deck lights glowing, the Chicago skyline glittering far away across black water, a single deflated red life vest floating on the waves in the foreground, moonlight breaking through clouds. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
 ```
 
-## #045 → `Covers/case045.jpg`
+## ✅ #045 → `Covers/case045.jpg`
 
 ```
 A Gold Coast penthouse study in Chicago at night: floor-to-ceiling windows overlooking the dark lake and the glittering Lake Shore Drive, a big walnut desk lit by a green banker's lamp, a leather chair pushed back, an insulin pen lying beside a glass of water, framed photos of freight trucks on the wall. Photorealistic cinematic photograph at exactly the time of day and weather described above, moody and atmospheric, low-key lighting with deep shadows, slight film grain, rich detail, the same look as a gritty detective-game case file cover. VERTICAL portrait orientation, 3:4 aspect ratio (about 768×1024), the main subject in the middle and lower part, darker calm area at the top. Any people stay small, anonymous and faceless; if the scene above names no people, show none. NO text anywhere: no signs, no shop names, no house numbers, no licence plates, no logos, no watermarks, no captions, no borders, no police or government insignia, no lettering on documents or screens.
