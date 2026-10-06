@@ -39,8 +39,8 @@ Portreler ve adli bulgular bitince topluca yeniden üretilecek. Şu anki görsel
 | `Items/case065_receipt` | Fişte okunur "RESTAURANT" ve yarı okunur satırlar | "illegible grey marks, no readable text" |
 | `Items/case066_minutes` | Okunur "CORPORATE BOARD MEETING MINUTES" başlığı ve uydurma isim listesi | "illegible grey marks, no readable text" |
 | `Items/case066_table` | Yarı okunur el yazısı tablo ve "Total" satırı | "illegible grey marks, no readable text" |
-| case068_slip | Bahis dökümü | Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar) | "illegible scribbles, no readable words or numbers" |
-| case069_gate | İskele kapısı kaydı | "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar | "illegible scribbles, no readable words or numbers" |
-| case071_manifest | Yük manifestosu | "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, okunur satırlar | "illegible scribbles, no readable words or numbers, blank stamps" |
-| case072_hygiene | 2012 hijyen raporu | "Council Hygiene Inspection Form" başlığı ve okunur madde satırları | "illegible scribbles, no readable words" |
-| case073_courier | Kurye makbuzu | "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası | "illegible scribbles, no readable words or numbers" |
+| `Items/case068_slip` | Okunur sahte-İngilizce tablo ("Ledger" satırları, rakamlar) | "illegible scribbles, no readable words or numbers" |
+| `Items/case069_gate` | "ACCESS-CONTROL LOG" başlığı, İngilizce sütun başlıkları, okunur rakamlar | "illegible scribbles, no readable words or numbers" |
+| `Items/case071_manifest` | "Carbon Shipping Manifest" başlığı, "RECEIVED/SHIPPED" damgaları, okunur satırlar | "illegible scribbles, no readable words or numbers, blank stamps" |
+| `Items/case072_hygiene` | "Council Hygiene Inspection Form" başlığı ve okunur madde satırları | "illegible scribbles, no readable words" |
+| `Items/case073_courier` | "CARBORLESS INTERNATIONAL RECEIPT" başlığı, okunur barkod numarası | "illegible scribbles, no readable words or numbers" |
