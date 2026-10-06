@@ -214,7 +214,14 @@
      ]
     }
    ],
-   "warrantSlots": 2
+   "warrantSlots": 2,
+   "relatedItems": [
+    {
+     "nameKey": "case069.item.oar.name",
+     "detailKey": "case069.item.oar.detail",
+     "imageResource": "Bube/Items/case069_oar"
+    }
+   ]
   },
   {
    "id": "fenwick",

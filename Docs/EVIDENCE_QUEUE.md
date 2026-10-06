@@ -278,15 +278,15 @@ Görseller bu sırayla gönderilir; prompt'lar: #013–#024 `EVIDENCE_PROMPTS.md
 ## Dosya #067 (3)
 166. **Buz tankı kilidinin anahtarı** → `case067_key.png` ✅
 167. **Pazar alarm kaydı** → `case067_alarm.png` ✅
-168. **1998 fotoğrafı** → `case067_lighter.png`
+168. **1998 fotoğrafı** → `case067_lighter.png` ✅
 
 ## Dosya #068 (3)
-169. **Nal çekici** → `case068_mallet.png`
-170. **Eksik numune tüpü** → `case068_swab.png`
-171. **Bahis dökümü** → `case068_slip.png`
+169. **Nal çekici** → `case068_mallet.png` ✅
+170. **Eksik numune tüpü** → `case068_swab.png` ✅
+171. **Bahis dökümü** → `case068_slip.png` ✅
 
 ## Dosya #069 (3)
-172. **Kürek sapı** → `case069_oar.png`
+172. **Kürek sapı** → `case069_oar.png` ✅
 173. **İskele kapısı kaydı** → `case069_gate.png`
 174. **Su numunesi şişeleri** → `case069_sample.png`
 

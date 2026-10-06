@@ -90,7 +90,14 @@
    ],
    "requestable": true,
    "requestLabelKey": "case068.request.stall",
-   "requestDelaySeconds": 5
+   "requestDelaySeconds": 5,
+   "relatedItems": [
+    {
+     "nameKey": "case068.item.swab.name",
+     "detailKey": "case068.item.swab.detail",
+     "imageResource": "Bube/Items/case068_swab"
+    }
+   ]
   },
   {
    "id": "deng",
@@ -277,7 +284,14 @@
    "requestable": true,
    "requestLabelKey": "case068.request.float",
    "requestDelaySeconds": 5,
-   "line": "line_stable"
+   "line": "line_stable",
+   "relatedItems": [
+    {
+     "nameKey": "case068.item.mallet.name",
+     "detailKey": "case068.item.mallet.detail",
+     "imageResource": "Bube/Items/case068_mallet"
+    }
+   ]
   },
   {
    "id": "line_bets",
@@ -318,7 +332,14 @@
    "requestable": true,
    "requestLabelKey": "case068.request.bets",
    "requestDelaySeconds": 5,
-   "line": "line_bets"
+   "line": "line_bets",
+   "relatedItems": [
+    {
+     "nameKey": "case068.item.slip.name",
+     "detailKey": "case068.item.slip.detail",
+     "imageResource": "Bube/Items/case068_slip"
+    }
+   ]
   },
   {
    "id": "line_owner",

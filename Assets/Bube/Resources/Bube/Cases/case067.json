@@ -158,7 +158,14 @@
    "warrantSlots": 2,
    "requestKind": "archive",
    "reopenYear": "1998",
-   "reopenNoteKey": "case067.archive.reopen"
+   "reopenNoteKey": "case067.archive.reopen",
+   "relatedItems": [
+    {
+     "nameKey": "case067.item.lighter.name",
+     "detailKey": "case067.item.lighter.detail",
+     "imageResource": "Bube/Items/case067_lighter"
+    }
+   ]
   },
   {
    "id": "brennan",
