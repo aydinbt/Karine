@@ -175,7 +175,7 @@
      "id": "plug",
      "textKey": "case063.cctv.event.plug",
      "delayMs": 620,
-     "overlayTimeKey": "case063.time.plug"
+     "overlayTimeKey": "case063.time.plug", "framePaths": ["Bube/Cctv/case063_plug/01", "Bube/Cctv/case063_plug/02"], "frameTimes": ["22.27.00", "22.27.06"]
     },
     {
      "id": "pocket",
