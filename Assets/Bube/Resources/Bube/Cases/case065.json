@@ -97,7 +97,7 @@
      "id": "wait",
      "textKey": "case065.cctv.event.wait",
      "delayMs": 620,
-     "overlayTimeKey": "case065.time.wait"
+     "overlayTimeKey": "case065.time.wait", "framePaths": ["Bube/Cctv/case065_wait/01", "Bube/Cctv/case065_wait/02"], "frameTimes": ["21.40.00", "21.40.10"]
     },
     {
      "id": "out",
