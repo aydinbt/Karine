@@ -78,7 +78,7 @@
      "id": "off",
      "textKey": "case043.cctv.event.off",
      "delayMs": 620,
-     "overlayTimeKey": "case043.time.off"
+     "overlayTimeKey": "case043.time.off", "framePaths": ["Bube/Cctv/case043_off/01", "Bube/Cctv/case043_off/02", "Bube/Cctv/case043_off/03"], "frameTimes": ["18.06.00", "18.06.05", "18.06.12"]
     }
    ]
   },
