@@ -1107,5 +1107,13 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları yaz ve bitir; sabit bir 
 **CCTV.** Fransa'dan Kanada'ya kadar CCTV yalnız kritik olaylarda ve 3 karedir; Avustralya'da hiç yok, çünkü o bölümün kurgusu kaydın kör noktasıdır (yangın merdiveni, su tarafı, el telsizi).
 
 ## 7 Ekim 2026 — Oyunda CCTV videosu kalmadı
-Dosya #001'in dört CCTV videosu (08.27, 11.48, 12.16, 17.54) kaldırıldı; her olay artık diğer vakalar gibi 2 karelik görsel dizisi (`Bube/Cctv/case001_<olay>/01-02`). Şimdilik kareler eski videodan çıkarıldı; diğer vakalarla aynı kalitede yeniden üretilip üzerine yazılacak. Sinematik videolar (menü, dünya girişi, masaya varış, rapor gönderme) bu kararın dışında.
+Dosya #001'in dört CCTV videosu (08.27, 11.48, 12.16, 17.54) kaldırıldı; her olay artık diğer vakalar gibi 2 karelik görsel dizisi (`Bube/Cctv/case001_<olay>/01-02`). Kareler önce eski videodan çıkarıldı, sonra diğer vakalarla aynı kalitede yeniden üretilip yerine kondu. Sinematik videolar (menü, dünya girişi, masaya varış, rapor gönderme) bu kararın dışında.
 Aynı gün: #001'de yalnız en kritik olay (12.16, Elif'in çıkışı — anahtarın saksıya bırakıldığı an) karelendi; 08.27, 11.48 ve 17.54 metin olarak kaldı.
+
+## 7 Ekim 2026 — Sorgu bir soruşturma gibi akmalı
+Kullanıcı: "Bir şey sunuldu ve cevap alındıysa başka görüşmede aynısı sorulmamalı; ama metin o duruma atıfta bulunuyorsa şaşırtma veya karşılaştırma için yeniden verilebilir." Ve: "Sinyal bulunamadıysa bunu ifadede sunmak çok saçma."
+- **Sinyal boşluğu ve "kayıt yok" satırı öne sürülemez.** `signalKey`/`glitchKey` taşıyan ya da metni "KAYIT BULUNAMADI"/"sinyal kesil" içeren CCTV olayı `notPresentable` olmak zorunda; doğrulayıcı bunu sorun sayar. #001'de Hasan'a boşluk artık düz soru olarak sorulur (kamera okunduktan sonra), #004'te `cam2_lost` öne sürülemez.
+- **Yem soruyu kapatır.** Yanlış ama ilgili kayıt öne sürülüp yanıt alınınca soru, oyuncu yeni bir ilerleme yapana kadar (yeni okuma ya da başka bir soru) listeden düşer. Soracak başka iş yoksa kapanmaz, oyuncu kilitlenmez. Böylece "cevap aldım ama yine sunmamı istiyor" hissi biter. (25 Eylül'deki "yem soruyu kapatmaz" kararının yerini alır.)
+- **Aynı kişiye aynı kayıt iki kez gerekmez.** İlk görüşmede kayda dayanan soru, kayıt okunduktan sonra sorulan düz soruya çevrildi; kayıt yalnız asıl yüzleşmede kalır (#013 Simon/mesajlar, #027 Yuki/tepsi). Farklı kişilere aynı kaydın sunulması serbest; kişi kendi önceki sözüne "kaç kez söyleyeceğim" diye atıf yapıyorsa tekrar bilerek bırakıldı.
+- **Her soru kayıt istemez.** 916 sorunun yalnız %17'si kayıt ister; bu oran korunur. Yanıtlar arası yinelenen cümleler ve başka sorunun cevabını önceden veren satırlar ayıklandı (#001, #009, #011), #003'te iddia saatiyle çelişen yazım düzeltildi.
+

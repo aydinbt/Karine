@@ -560,3 +560,9 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 - Not: zayıf izin denemesi `report` gibi `notReportSource` bir düğüm içeremez; `SubmitWarrant` onu kaynak saymaz ve kural yanlış nedenle düşer.
 - Bulgu görselleri: `Tools/item_bindings.json` (vaka → `{id, node, name, detail}`) ve `Tools/bind-items.py`. Araç `Items/<vaka>_<id>.png|jpg` varsa bulguyu o düğümün `relatedItems`'ına (`<vaka>.item.<id>.name/detail`) ekler ve `.meta`'yı `nPOTScale: 0` ile kurar (Unity varsayılanı 1, `CaseRules` reddeder); yoksa atlar, çünkü `CaseRules` olmayan görseli hata sayar. Tekrar çalıştırmak güvenli. #025–#073 düğüm eşlemesi metin benzerliğiyle çıkarıldı, #013–#024 elle; yanlış düşen olursa JSON'da düzeltilir. `--check` yalnız raporlar.
 - Son dosya (`case073`) `nextCaseId` boştur; `chapterFinale.nextCountryKey = finale.country.archive`, `nextFileKey = finale.file.end`. `NewFileDrop` bu metinlerle bir kez oynar; sonra açılacak dosya yoktur.
+
+## Yem bekletmesi ve öne sürülemez sinyal satırları (7 Ekim 2026)
+- `Investigation.Decoy.cs` (kısmi sınıf): `HoldAfterDecoy(node, q)` `Progress.decoyHolds`'a `düğüm/soru/işaret` yazar; işaret `read.Count + asked.Count`. `DecoyHeld` işaret değişmediyse ve `OtherWorkLeft` (keşfedilmiş okunmamış görüşme dışı düğüm ya da sorulabilir başka soru) doğruysa soruyu tutar. `CanAskQuestion` artık `!DecoyHeld` da ister. `BubeApp.Interview.cs` yem yanıtında `HoldAfterDecoy` + `Save()` çağırır. Eski kayıtlarda `decoyHolds` boş gelir (`??=`).
+- `CaseRules.ValidateCctv`: `signalKey`/`glitchKey` taşıyan ya da metni "KAYIT BULUNAMADI"/"sinyal kesil" içeren olay `notPresentable` değilse sorun.
+- Test: `DecoyHoldTests.DecoyClosesQuestionUntilNewProgress`.
+

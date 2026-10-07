@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 5 Ekim 2026 (on ülkenin 73 dosyasının tamamı veride — #011–#073 oynanmadı)
+**Son durum:** 7 Ekim 2026 (sorgu akışı ayıklandı, CCTV videosu kalmadı — #011–#073 oynanmadı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -128,7 +128,7 @@ Bu bölümdeki işaretler teslim edilmiş davranışları gösterir; otomatik do
 **Durum: hepsi `[~]`.** Kodlandı, 51 test geçiyor, kullanıcı ekranlara baktı ve "normal görünüyor" dedi — ama hiçbiri **oynanarak** doğrulanmadı. Tasarım gerekçeleri: `DESIGN_AMENDMENTS.md`.
 
 - [x] **"Adı geçtiyse cevap verme hakkı doğar"** — bir kaydı kişiye ancak adı orada geçiyorsa öne sürebilirsin. Kural metinden türer (`Investigation.MentionsPerson`), elle etiketlemeye bağlı değil, yeni vakalarda kendiliğinden işler. `aboutPersonIds` artık **ek**: yalnız kaydın kişiden adını anmadan söz ettiği yerler için (kamera satırları, kayıt boşluğu, Hasan'ın "kadın" dediği üç ifade). Otuz soru etiketi kaldırıldı. Kural belgelere de işliyor; belgeler eskiden hiç süzülmüyordu. Kişi başı kaynak: Elif 10→10, Hasan 9→8, Mert 11→20.
-- [x] **Yem kaynaklar.** Yanlış kaynağı öne sürmek artık "ne diyeyim" değil, gerçek ama yanıltıcı bir yanıt üretir; soru kapanmaz. 29 yem. Metinler yeni olgu uydurmaz, yorumu ağırlaştırır: masum kişi kendi aleyhine konuşur, fail düz kalır.
+- [x] **Yem kaynaklar.** Yanlış kaynağı öne sürmek artık "ne diyeyim" değil, gerçek ama yanıltıcı bir yanıt üretir; soru kapanmaz. *(7 Ekim 2026: değişti — yem artık soruyu yeni ilerlemeye kadar kapatır.)* 29 yem. Metinler yeni olgu uydurmaz, yorumu ağırlaştırır: masum kişi kendi aleyhine konuşur, fail düz kalır.
 - [x] **Davranış satırı** (Dosya #001'de dört kaynak sorusu, Dosya #002'de bütün görüşmeler). Yanıtın altında dedektifin *gördüğü* davranış; gözlem, yorum değil. `answerKey + ".demeanor"` sözleşmesi, `Locale.Has` ile isteğe bağlı. Teşhis edilebilir olmaması bilinçli: sakinlik ve gerginlik dört kişiye de dağıtıldı, satır failden söz etmez. Toplam 103 satır (38 + 65).
 - [x] **Yanıtlanan soru kapanır.** Birden çok belirleyici kaynağı olan soru "YENİ KAYITLA" önekiyle listede kalıyordu; oyuncu bunu "eksik kaldı" diye okuyordu. Yem denemeleri etkilenmez.
 - [x] **Görüşmede vazgeçme.** Soru seçtikten sonra tek çıkış görüşmeyi bitirmekti; hem kaynak seçicisine hem "dinle" adımına geri dönüş kondu.
@@ -639,3 +639,11 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [~] Bulgu bağlama aracı: `Tools/bind-items.py` + `Tools/item_bindings.json` (186 bulgu, #013–#073; her biri bir belgeye eşli). Görseli olan bulguyu `relatedItems`'a ve yerele yazar, `.meta`'yı `nPOTScale: 0` ile kurar; görseli olmayanı atlar. Geçici görselle denendi, 132/132 geçti.
 - [ ] Görseller geldikçe `python3 Tools/bind-items.py` çalıştırılacak (şu an 186 bulgu görsel bekliyor).
 - [ ] Kullanıcı bütün bölümleri gözden geçirecek; Unity'de her bölümden en az bir dosya oynanacak.
+
+## 7 Ekim 2026 — Sorgu akışı ve CCTV videosunun kalkması
+- [~] Oyunda CCTV videosu kalmadı; #001'de yalnız 12.16 çıkışı iki kare, diğer olaylar metin. Bütün CCTV olaylarının kareleri girdi. Play Mode'da görülmedi.
+- [~] Sinyal boşluğu / "kayıt yok" satırı öne sürülemez; doğrulayıcı kuralı. #001 `gap`, #004 `cam2_lost`.
+- [~] Yem soruyu yeni ilerlemeye kadar kapatır (`Investigation.Decoy.cs`, `DecoyHoldTests`). Play Mode'da hissi gözlenmedi.
+- [~] 73 dosyanın sorguları okundu: aynı kişiye aynı kaydın iki kez sunulması (#013, #027), boş tekrar soru (#009 `hakan_2.after`, #001 `hasan_follow.memory`), yinelenen cümleler (#001, #011), saat çelişkisi (#003), yazım (#033). 133/133 EditMode.
+- [ ] Kullanıcı #001 ve #002'yi yeniden oynayıp sorgunun artık tekrar etmediğini doğrulayacak.
+

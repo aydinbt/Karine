@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 5 Ekim 2026
+**Son güncelleme:** 7 Ekim 2026
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**7 Ekim:** **Sorgu akışı ayıklandı ve oyunda CCTV videosu kalmadı.** Sinyal boşluğu ya da "kayıt yok" satırı artık görüşmede öne sürülemiyor (doğrulayıcı kuralı). Yanlış ama ilgili kayıt sunulup yanıt alınınca soru, oyuncu yeni bir şey okuyana ya da başka soru sorana kadar kapanıyor. 73 dosyanın bütün sorguları okundu; aynı kişiye aynı kaydın iki kez sunulması, boş tekrar sorular, yinelenen cümleler ve bir saat çelişkisi düzeltildi. Bütün CCTV olaylarının kareleri girdi; #001'de yalnız 12.16 çıkışı karelendi. 133/133 EditMode; **hiçbiri Play Mode'da görülmedi.**
 
 **5 Ekim (gece, 7):** **Bütün dünyalar yazıldı: on ülke, 73 dosya veride.** Japonya (#025–#031), Fransa (#032–#038), ABD (#039–#045), İtalya (#046–#052), İspanya (#053–#059), Kanada (#060–#066) ve Avustralya (#067–#073). Her bölüm bir alet ekler ve öncekileri korur: gerekçeli izin, soruşturma hatları, beklemeyen tanıklar, arşivden yeniden açma, yem kayıtlar; Avustralya hepsini karıştırır. Kişi sayısı dosya başına 3–7, dağınık. Bölümleri bağlayan ip Arendt → Kisaragi → Delorme → Lakeshore → Caruso → Santa Ana → Laurentide → Pacific Liaison Trust; hepsi "Uluslararası İrtibat Programı"na ve direktör Edda Varga'ya çıkar. #073 son dosyadır: telefon çalmaz, defter Budapeşte'ye gitmiştir, dosya açık kalır. Vaka zincirindeki iki kopukluk (#048, #055) onarıldı. Testler yeşil (132 EditMode, 27 PlayMode); **#011–#073 hiçbiri Unity'de oynanmadı.** Görsel prompt'ları hazır: vaka başına `CASE0NN_PROMPTS.md`, `EVIDENCE_PROMPTS.md`, `WORLD_BACKDROP_PROMPTS.md`.
 
