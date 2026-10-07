@@ -96,7 +96,7 @@
      "id": "back",
      "textKey": "case051.cctv.event.back",
      "delayMs": 620,
-     "overlayTimeKey": "case051.time.back"
+     "overlayTimeKey": "case051.time.back", "framePaths": ["Bube/Cctv/case051_back/01", "Bube/Cctv/case051_back/02"], "frameTimes": ["23.47.00", "23.47.08"]
     }
    ]
   },
