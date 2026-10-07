@@ -130,6 +130,12 @@ public sealed partial class Investigation {
  public CaseData Data { get; }
  // Ad geçme kuralı metne bakar; metin olmadan hiçbir kaynak kişiyle eşleşmez.
  public Locale Text { get; set; }
+ // Kuralın okuduğu metin: oyuncu hangi dilde oynarsa oynasın ad eşleşmesi
+ // kanon (Türkçe) metinden yapılır; çeviri kayıt sunma hakkını değiştirmesin.
+ public Locale RuleText { get => ruleText ?? Text; set => ruleText = value; }
+ Locale ruleText;
+ public string RuleString(params string[] keys) =>
+  RuleText==null ? "" : string.Join(" ", keys.Where(k=>!string.IsNullOrEmpty(k)).Select(k=>RuleText.Get(k)));
  public Progress State { get; }
  public CareerProgress Career { get; }
  public CareerRules Rules { get; }
@@ -328,7 +334,7 @@ public sealed partial class Investigation {
    || MentionsPerson(subject.personId,sourceText);
  }
  public bool MentionsPerson(string personId,string sourceText) {
-  if(Text==null || string.IsNullOrEmpty(sourceText))return false;
+  if(RuleText==null || string.IsNullOrEmpty(sourceText))return false;
   var haystack=Fold(sourceText);
   foreach(var name in PersonNames(personId))if(NameOccurs(haystack,Fold(name)))return true;
   return false;
@@ -336,7 +342,7 @@ public sealed partial class Investigation {
  IEnumerable<string> PersonNames(string personId) {
   foreach(var n in Data.nodes) {
    if(n.personId!=personId || string.IsNullOrEmpty(n.personNameKey))continue;
-   var full=Text.Get(n.personNameKey);
+   var full=RuleText.Get(n.personNameKey);
    if(full.Length==0 || full[0]=='[')continue;
    yield return full;
    var space=full.IndexOf(' ');
@@ -509,12 +515,13 @@ public sealed partial class Investigation {
   State.submittedAtUtcTicks=0;
   return true;
  }
- public string TrustStatusKey { get {
-  int value=Career.departmentTrust;var t=Rules.statusThresholds;
-  if(value<=Rules.endThreshold)return "career.status.ended";
-  if(t==null || t.Length!=5)t=new[]{80,60,40,20,1};
+ public string TrustStatusKey => StatusKeyFor(Career.departmentTrust,Rules);
+ // Kademe yalnız güven değerinden türer; sicil geçmişi de aynı kuralla hesaplar.
+ public static string StatusKeyFor(int value,CareerRules rules) {
+  rules=rules??new CareerRules();var t=rules.statusThresholds;if(t==null || t.Length!=5)t=new[]{80,60,40,20,1};
+  if(value<=rules.endThreshold)return "career.status.ended";
   return value>=t[0]?"career.status.high":value>=t[1]?"career.status.reliable":value>=t[2]?"career.status.monitored":value>=t[3]?"career.status.review":"career.status.risk";
- } }
+ }
  public bool HasIncomingFax => Career.faxReleased && Career.pendingReviews.Any(r=>r.readyAtUtcTicks>0 && r.readyAtUtcTicks<=DateTime.UtcNow.Ticks);
  public void BeginNextCaseReview(double delaySeconds=7) {
   var pending=Career.pendingReviews.FirstOrDefault(r=>r.readyAtUtcTicks==0);

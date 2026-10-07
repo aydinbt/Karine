@@ -123,7 +123,7 @@ public static partial class KarineUI {
   label.style.alignItems=Align.Center;label.style.justifyContent=Justify.Center;label.style.rotate=new Rotate(KarineTheme.Office.FolderLabelTilt);
   foreach(var line in new[]{number,title}) {
    if(string.IsNullOrEmpty(line))continue;
-   var t=Write(label,line.ToUpper(Tr),KarineTheme.Paper.Ink,KarineTheme.Office.FolderLabelSize,null);t.style.marginBottom=0;t.style.letterSpacing=1;
+   var t=Write(label,line.ToUpper(TextCulture),KarineTheme.Paper.Ink,KarineTheme.Office.FolderLabelSize,null);t.style.marginBottom=0;t.style.letterSpacing=1;
    ApplyFont(t,Typewriter);
   }
   stage.Add(label);
@@ -168,7 +168,7 @@ public static partial class KarineUI {
   card.style.paddingLeft=KarineTheme.Office.BadgeSize/2+KarineTheme.SpaceSm;card.style.paddingRight=KarineTheme.SpaceSm;
   card.style.paddingTop=KarineTheme.SpaceXs;card.style.paddingBottom=KarineTheme.SpaceXs;
   card.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.94f);Border(card,KarineTheme.BorderWidth,KarineTheme.Border);Round(card,KarineTheme.Radius);
-  var t=Write(card,title.ToUpper(Tr),KarineTheme.Accent,KarineTheme.Office.NoticeTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceXs;t.style.letterSpacing=1;
+  var t=Write(card,title.ToUpper(TextCulture),KarineTheme.Accent,KarineTheme.Office.NoticeTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceXs;t.style.letterSpacing=1;
   var d=Body_(card,detail,KarineTheme.Office.NoticeSubSize);d.style.color=KarineTheme.Primary;d.style.marginBottom=0;
   d.style.whiteSpace=WhiteSpace.NoWrap;d.style.overflow=Overflow.Hidden;d.style.textOverflow=TextOverflow.Ellipsis;
   notice.Add(card);
@@ -199,7 +199,7 @@ public static partial class KarineUI {
   menu.style.marginLeft=KarineTheme.SpaceLg;menu.style.marginRight=0;
   Unskin(menu,Color.clear);Border(menu,KarineTheme.BorderWidth,KarineTheme.Border);Round(menu,KarineTheme.Radius);
   Icon(menu,"home",KarineTheme.Primary,KarineTheme.Office.TabIcon+2).style.marginRight=KarineTheme.SpaceMd;
-  var l=Write(menu,title.ToUpper(Tr),KarineTheme.Primary,KarineTheme.Office.TabLabelSize+2,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
+  var l=Write(menu,title.ToUpper(TextCulture),KarineTheme.Primary,KarineTheme.Office.TabLabelSize+2,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
   parent.Add(menu);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.width=1;rule.style.alignSelf=Align.Stretch;
   rule.style.marginTop=KarineTheme.SpaceSm;rule.style.marginBottom=KarineTheme.SpaceSm;rule.style.marginLeft=KarineTheme.SpaceLg;
@@ -208,7 +208,7 @@ public static partial class KarineUI {
  public static void OfficeTitle(VisualElement parent,string title,string sub) {
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;
   words.style.marginLeft=KarineTheme.SpaceLg;words.style.justifyContent=Justify.Center;parent.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,KarineTheme.Office.DeskTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;t.style.letterSpacing=1;
+  var t=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,KarineTheme.Office.DeskTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;t.style.letterSpacing=1;
   t.style.whiteSpace=WhiteSpace.NoWrap;
   if(!string.IsNullOrEmpty(sub)){var s=Body_(words,sub,KarineTheme.Office.SubSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;
    s.style.whiteSpace=WhiteSpace.NoWrap;s.style.overflow=Overflow.Hidden;s.style.textOverflow=TextOverflow.Ellipsis;}
@@ -225,7 +225,7 @@ public static partial class KarineUI {
   Border(button,KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Border);Round(button,KarineTheme.Radius);
   if(selected){button.style.borderBottomWidth=3;}
   Icon(button,icon,selected?KarineTheme.Accent:KarineTheme.Primary,KarineTheme.Office.TabIcon).style.marginRight=KarineTheme.SpaceSm;
-  var l=Write(button,title.ToUpper(Tr),ink,KarineTheme.Office.TabLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;l.style.whiteSpace=WhiteSpace.NoWrap;
+  var l=Write(button,title.ToUpper(TextCulture),ink,KarineTheme.Office.TabLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;l.style.whiteSpace=WhiteSpace.NoWrap;
   parent.Add(button);return button;
  }
 }

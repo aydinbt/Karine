@@ -19,7 +19,7 @@ public sealed partial class BubeApp {
    foreach(var page in pages) {
     var target=page;
     bool person=target.kind=="interview";
-    KarineUI.DossierListRow(list,"document",person?T(target.personNameKey).ToUpper(KarineUI.Tr):T(target.titleKey).ToUpper(KarineUI.Tr),
+    KarineUI.DossierListRow(list,"document",person?T(target.personNameKey).ToUpper(KarineUI.TextCulture):T(target.titleKey).ToUpper(KarineUI.TextCulture),
      person?T("file.row.interview"):null,PageDate(target),target==current,!game.State.read.Contains(target.id),
      ()=>{if(selectedFileNode==target.id)return;selectedFileNode=target.id;FilePage();});
    }

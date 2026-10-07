@@ -16,15 +16,15 @@ public static partial class KarineUI {
  public static void RecordHead(VisualElement paper,string title,string date,string stamp,bool rejected) {
   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.FlexStart;paper.Add(head);
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;head.Add(words);
-  Typed(words,title.ToUpper(Tr),C.TitleSize,true).style.whiteSpace=WhiteSpace.Normal;
+  Typed(words,title.ToUpper(TextCulture),C.TitleSize,true).style.whiteSpace=WhiteSpace.Normal;
   if(!string.IsNullOrEmpty(date))Typed(words,date,C.BodySize);
   var s=new VisualElement {name="CareerRecordStamp",pickingMode=PickingMode.Ignore};s.style.rotate=new Rotate(C.StampTilt);s.style.opacity=.85f;s.style.flexShrink=0;
   var ink=rejected?KarineTheme.Danger:KarineTheme.Paper.Stamp;Border(s,4,ink);Round(s,4);s.style.paddingLeft=KarineTheme.SpaceMd;s.style.paddingRight=KarineTheme.SpaceMd;head.Add(s);
-  var t=Write(s,stamp.ToUpper(Tr),ink,C.StampSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=2;
+  var t=Write(s,stamp.ToUpper(TextCulture),ink,C.StampSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=2;
   PaperRule(paper,false);
  }
  public static void RecordHeading(VisualElement paper,string text) {
-  Typed(paper,text.ToUpper(Tr),C.HeadingSize,true).style.marginTop=KarineTheme.SpaceSm;
+  Typed(paper,text.ToUpper(TextCulture),C.HeadingSize,true).style.marginTop=KarineTheme.SpaceSm;
  }
  // Rapor satırı: gölgeli anahtar, seçim (şüphelide küçük polaroid), sağda soluk dayanak.
  public static void RecordRow(VisualElement paper,string key,string value,Texture2D portrait,string basis) {
@@ -32,7 +32,7 @@ public static partial class KarineUI {
   row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.8f);paper.Add(row);
   var k=new VisualElement();k.style.width=C.KeyWidth;k.style.alignSelf=Align.Stretch;k.style.justifyContent=Justify.Center;k.style.paddingLeft=KarineTheme.SpaceSm;
   k.style.marginTop=2;k.style.marginBottom=2;k.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.35f);row.Add(k);
-  Typed(k,key.ToUpper(Tr),C.BodySize,true).style.marginBottom=0;
+  Typed(k,key.ToUpper(TextCulture),C.BodySize,true).style.marginBottom=0;
   var v=new VisualElement();v.style.width=Length.Percent(C.ValueWidth);v.style.flexDirection=FlexDirection.Row;v.style.alignItems=Align.Center;v.style.marginLeft=KarineTheme.SpaceMd;row.Add(v);
   var l=Typed(v,":  "+value,C.ValueSize);l.style.marginBottom=0;l.style.flexGrow=1;l.style.flexShrink=1;l.style.whiteSpace=WhiteSpace.Normal;
   if(portrait!=null) {
@@ -53,12 +53,12 @@ public static partial class KarineUI {
   var bar=new VisualElement {name="CareerRecordTrust"};bar.style.flexDirection=FlexDirection.Row;bar.style.alignItems=Align.Center;bar.style.marginTop=KarineTheme.SpaceLg;
   bar.style.minHeight=C.TrustHeight;bar.style.paddingLeft=KarineTheme.SpaceLg;bar.style.paddingRight=KarineTheme.SpaceLg;
   bar.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.95f);Round(bar,KarineTheme.Radius);paper.Add(bar);
-  Write(bar,label.ToUpper(Tr),KarineTheme.Secondary,C.TrustSize,Heading).style.marginBottom=0;
+  Write(bar,label.ToUpper(TextCulture),KarineTheme.Secondary,C.TrustSize,Heading).style.marginBottom=0;
   var ink=bad?KarineTheme.Danger:KarineTheme.Accent;
   var pill=new VisualElement();pill.style.minWidth=C.PillWidth;pill.style.height=C.TrustHeight-KarineTheme.SpaceLg;pill.style.marginLeft=KarineTheme.SpaceLg;
   pill.style.alignItems=Align.Center;pill.style.justifyContent=Justify.Center;pill.style.paddingLeft=KarineTheme.SpaceMd;pill.style.paddingRight=KarineTheme.SpaceMd;
   Border(pill,KarineTheme.BorderWidth+1,ink);Round(pill,KarineTheme.Radius);bar.Add(pill);
-  Write(pill,status.ToUpper(Tr),ink,C.TrustSize+2,Heading).style.marginBottom=0;
+  Write(pill,status.ToUpper(TextCulture),ink,C.TrustSize+2,Heading).style.marginBottom=0;
   var gap=new VisualElement();gap.style.flexGrow=1;bar.Add(gap);
   if(!string.IsNullOrEmpty(note)){var n=Write(bar,note,KarineTheme.Secondary,C.NoteSize,Typewriter);n.style.marginBottom=0;n.style.flexShrink=1;n.style.whiteSpace=WhiteSpace.Normal;}
  }

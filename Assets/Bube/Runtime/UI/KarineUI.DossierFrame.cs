@@ -16,9 +16,9 @@ public static partial class KarineUI {
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.position=Position.Absolute;
   words.style.left=0;words.style.right=0;words.style.top=0;words.style.bottom=0;
   words.style.alignItems=Align.Center;words.style.justifyContent=Justify.Center;bar.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,D.BarTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;
+  var t=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,D.BarTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceSm;
   t.style.whiteSpace=WhiteSpace.NoWrap;t.style.letterSpacing=1;
-  var s=Write(words,department.ToUpper(Tr),KarineTheme.Secondary,D.BarSubSize,Heading);s.style.marginBottom=0;s.style.letterSpacing=2;
+  var s=Write(words,department.ToUpper(TextCulture),KarineTheme.Secondary,D.BarSubSize,Heading);s.style.marginBottom=0;s.style.letterSpacing=2;
   var backButton=new Button(Sounded(close)) {name="DossierBack",tooltip=back};
   backButton.style.height=KarineTheme.TouchTarget+KarineTheme.SpaceSm;backButton.style.flexShrink=0;
   backButton.style.flexDirection=FlexDirection.Row;backButton.style.alignItems=Align.Stretch;
@@ -28,7 +28,7 @@ public static partial class KarineUI {
   Icon(arrow,"nav_prev",KarineTheme.Primary,KarineTheme.IconSize);
   var box=new VisualElement {pickingMode=PickingMode.Ignore};box.style.justifyContent=Justify.Center;BarBox(box);box.style.marginLeft=-1;
   box.style.paddingLeft=KarineTheme.SpaceLg;box.style.paddingRight=KarineTheme.SpaceLg;backButton.Add(box);
-  var label=Write(box,back.ToUpper(Tr),KarineTheme.Primary,D.BackLabelSize,Heading);label.style.marginBottom=0;label.style.whiteSpace=WhiteSpace.NoWrap;
+  var label=Write(box,back.ToUpper(TextCulture),KarineTheme.Primary,D.BackLabelSize,Heading);label.style.marginBottom=0;label.style.whiteSpace=WhiteSpace.NoWrap;
   bar.Add(backButton);
   var gap=new VisualElement {pickingMode=PickingMode.Ignore};gap.style.flexGrow=1;bar.Add(gap);
   tools=new VisualElement {pickingMode=PickingMode.Ignore};tools.style.flexDirection=FlexDirection.Row;tools.style.alignItems=Align.Center;bar.Add(tools);
@@ -62,7 +62,7 @@ public static partial class KarineUI {
   Round(tab,KarineTheme.Radius);tab.style.borderTopRightRadius=0;tab.style.borderBottomRightRadius=0;
   if(active){tab.style.borderLeftWidth=KarineTheme.PrimaryEdgeWidth+2;tab.style.borderLeftColor=KarineTheme.Accent;}
   Icon(tab,icon,KarineTheme.Paper.Ink,D.FolderTabIcon).style.marginBottom=KarineTheme.SpaceXs;
-  var text=Write(tab,title.ToUpper(Tr),KarineTheme.Paper.Ink,D.FolderTabSize,Heading);text.style.marginBottom=0;
+  var text=Write(tab,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,D.FolderTabSize,Heading);text.style.marginBottom=0;
   text.style.unityTextAlign=TextAnchor.MiddleCenter;text.style.whiteSpace=WhiteSpace.Normal;
   if(unread){var dot=Dot(tab,KarineTheme.Accent);dot.style.position=Position.Absolute;dot.style.top=KarineTheme.SpaceSm;dot.style.right=KarineTheme.SpaceSm;}
   column.Add(tab);return tab;
@@ -76,7 +76,7 @@ public static partial class KarineUI {
   if(!string.IsNullOrEmpty(head)) {
    var top=new VisualElement {pickingMode=PickingMode.Ignore};top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;
    top.style.marginBottom=KarineTheme.SpaceMd;top.style.paddingLeft=KarineTheme.SpaceSm;panel.Add(top);
-   var h=Write(top,head.ToUpper(Tr),KarineTheme.Primary,D.ListHeadSize,Heading);h.style.marginBottom=0;h.style.flexGrow=1;h.style.letterSpacing=1;
+   var h=Write(top,head.ToUpper(TextCulture),KarineTheme.Primary,D.ListHeadSize,Heading);h.style.marginBottom=0;h.style.flexGrow=1;h.style.letterSpacing=1;
    if(add!=null)PlusButton(top,"+",add,addTitle);
   }
   var scroll=new KarineScrollView(ScrollViewMode.Vertical);scroll.style.flexGrow=1;panel.Add(scroll);return scroll;

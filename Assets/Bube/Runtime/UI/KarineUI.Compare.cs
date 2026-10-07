@@ -19,7 +19,7 @@ public static partial class KarineUI {
   bar.style.paddingLeft=KarineTheme.SpaceMd;bar.style.paddingRight=KarineTheme.SpaceMd;
   Unskin(bar,KarineTheme.Alpha(KarineTheme.GlassDeep,.97f));Border(bar,KarineTheme.BorderWidth,open?KarineTheme.Accent:KarineTheme.Border);Round(bar,KarineTheme.Radius);
   Icon(bar,"document",KarineTheme.Primary,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
-  var l=Write(bar,label.ToUpper(Tr),KarineTheme.Primary,C.PickerSize,Heading);l.style.marginBottom=0;l.style.flexGrow=1;l.style.flexShrink=1;
+  var l=Write(bar,label.ToUpper(TextCulture),KarineTheme.Primary,C.PickerSize,Heading);l.style.marginBottom=0;l.style.flexGrow=1;l.style.flexShrink=1;
   l.style.unityTextAlign=TextAnchor.MiddleLeft;l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;
   var chevron=Icon(bar,"nav_next",KarineTheme.Primary,KarineTheme.IconSize);chevron.style.rotate=new Rotate(open?-90:90);
   sheet.Add(bar);return bar;
@@ -34,7 +34,7 @@ public static partial class KarineUI {
   sheet.Add(menu);return menu;
  }
  public static void CompareGroup(VisualElement menu,string title) {
-  var g=Write(menu,title.ToUpper(Tr),KarineTheme.Accent,C.GroupSize,Heading);g.style.marginTop=KarineTheme.SpaceSm;g.style.marginBottom=KarineTheme.SpaceXs;g.style.marginLeft=KarineTheme.SpaceSm;
+  var g=Write(menu,title.ToUpper(TextCulture),KarineTheme.Accent,C.GroupSize,Heading);g.style.marginTop=KarineTheme.SpaceSm;g.style.marginBottom=KarineTheme.SpaceXs;g.style.marginLeft=KarineTheme.SpaceSm;
  }
  public static Button CompareOption(VisualElement menu,string title,bool selected,Action action) {
   var row=new Button(Sounded(action)) {name="CompareOption",tooltip=title};row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
@@ -63,7 +63,7 @@ public static partial class KarineUI {
   Unskin(button,KarineTheme.Alpha(KarineTheme.GlassDeep,.96f));Border(button,selected?KarineTheme.BorderWidth+1:KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Border);Round(button,KarineTheme.Radius);
   var color=enabled?tone:KarineTheme.Alpha(KarineTheme.Secondary,.5f);
   var g=Write(button,glyph,color,C.MarkGlyph,Heading);g.style.marginBottom=0;g.style.unityTextAlign=TextAnchor.MiddleCenter;
-  var l=Write(button,label.ToUpper(Tr),enabled?KarineTheme.Primary:KarineTheme.Alpha(KarineTheme.Secondary,.6f),C.MarkLabel,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
+  var l=Write(button,label.ToUpper(TextCulture),enabled?KarineTheme.Primary:KarineTheme.Alpha(KarineTheme.Secondary,.6f),C.MarkLabel,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
   strip.Add(button);return button;
  }
 }

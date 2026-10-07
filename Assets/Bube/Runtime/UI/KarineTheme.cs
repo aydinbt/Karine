@@ -231,6 +231,8 @@ public static class KarineTheme {
   public const int TabHeight=46, TabWidth=230, TabSize=22, PanelTitleSize=22, FigureSize=44, FigureLabelSize=17, FigureSubSize=13;
   public const int BarHeight=10, TileHeight=72, TileNumberSize=34, TileLabelSize=13, TileIcon=30;
   public const int Ring=128, RingWidth=16, RingTotalSize=32, LegendSize=14, CountryPhotoWidth=112, CountryRow=60, CountryNameSize=20;
+  // Sicil: güven seyri sütunları ve karne satırları.
+  public const int CurveHeight=120, CurveColumnMax=28, RecordLineSize=15;
   // Sonuç halkası: uygun bulunan yeşil; yalnız bu grafikte kullanılır.
   public static readonly Color Supported=Hex("#3E8E4A");
  }

@@ -19,11 +19,11 @@ public static partial class KarineUI {
   // Polaroid sağ üstte yüzer, akışı itmez; sol sütun onun genişliği kadar boş bırakır.
   var left=new VisualElement();left.style.flexGrow=1;left.style.flexShrink=1;left.style.minWidth=0;
   left.style.paddingRight=photo!=null?D.PolaroidWidth+KarineTheme.SpaceLg:0;head.Add(left);
-  if(!string.IsNullOrEmpty(kicker))Typed(left,kicker.ToUpper(Tr),D.PageKickerSize,true).style.marginBottom=KarineTheme.SpaceXs;
+  if(!string.IsNullOrEmpty(kicker))Typed(left,kicker.ToUpper(TextCulture),D.PageKickerSize,true).style.marginBottom=KarineTheme.SpaceXs;
   var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.Center;left.Add(line);
   if(!string.IsNullOrEmpty(icon))Icon(line,icon,KarineTheme.Paper.Ink,D.PageTitleSize).style.marginRight=KarineTheme.SpaceMd;
-  var t=Typed(line,title.ToUpper(Tr),D.PageTitleSize,true);t.style.flexGrow=1;t.style.flexShrink=1;
-  if(!string.IsNullOrEmpty(date))Typed(line,date.ToUpper(Tr),D.PageKickerSize,false,KarineTheme.Paper.Faded).style.alignSelf=Align.FlexEnd;
+  var t=Typed(line,title.ToUpper(TextCulture),D.PageTitleSize,true);t.style.flexGrow=1;t.style.flexShrink=1;
+  if(!string.IsNullOrEmpty(date))Typed(line,date.ToUpper(TextCulture),D.PageKickerSize,false,KarineTheme.Paper.Faded).style.alignSelf=Align.FlexEnd;
   PaperRule(left,false);
   if(photo!=null){var frame=DossierPolaroid(head,photo);frame.style.position=Position.Absolute;frame.style.right=0;frame.style.top=-KarineTheme.SpaceSm;head.style.minHeight=D.PolaroidHeight+KarineTheme.SpaceXl+KarineTheme.SpaceSm;}
   return left;
@@ -37,18 +37,18 @@ public static partial class KarineUI {
  // Künye satırı: "ANAHTAR  :  değer", daktilo.
  public static void DossierKeyValue(VisualElement parent,string key,string value) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.marginBottom=KarineTheme.SpaceXs;parent.Add(row);
-  var k=Typed(row,key.ToUpper(Tr),D.PageMetaSize,true);k.style.width=D.KeyWidth;k.style.flexShrink=0;
+  var k=Typed(row,key.ToUpper(TextCulture),D.PageMetaSize,true);k.style.width=D.KeyWidth;k.style.flexShrink=0;
   Typed(row,":  ",D.PageMetaSize);
   Typed(row,value,D.PageMetaSize).style.flexShrink=1;
  }
  // Döküm satırı: konuşan kalın, iki nokta, metin; `stamp` verilirse yanına kırmızı mühür.
  public static VisualElement DossierLine(VisualElement parent,string speaker,string text,string stamp=null) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.marginBottom=KarineTheme.SpaceMd;parent.Add(row);
-  var s=Typed(row,speaker.ToUpper(Tr),D.PageBodySize,true);s.style.width=D.SpeakerWidth;s.style.flexShrink=0;
+  var s=Typed(row,speaker.ToUpper(TextCulture),D.PageBodySize,true);s.style.width=D.SpeakerWidth;s.style.flexShrink=0;
   Typed(row,":  ",D.PageBodySize);
   var body=Typed(row,text,D.PageBodySize);body.style.flexShrink=1;body.style.flexGrow=1;
   if(!string.IsNullOrEmpty(stamp)) {
-   var seal=Typed(row,stamp.ToUpper(Tr),D.StampSize,true,KarineTheme.Danger);seal.style.alignSelf=Align.Center;seal.style.flexShrink=0;
+   var seal=Typed(row,stamp.ToUpper(TextCulture),D.StampSize,true,KarineTheme.Danger);seal.style.alignSelf=Align.Center;seal.style.flexShrink=0;
    Border(seal,2,KarineTheme.Danger);Round(seal,KarineTheme.Radius);seal.style.marginLeft=KarineTheme.SpaceMd;
    seal.style.paddingLeft=KarineTheme.SpaceSm;seal.style.paddingRight=KarineTheme.SpaceSm;seal.style.rotate=new Rotate(D.StampTilt);seal.style.opacity=.85f;
   }
@@ -99,7 +99,7 @@ public static partial class KarineUI {
   strip.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.96f);Round(strip,KarineTheme.Radius);
   strip.style.paddingLeft=KarineTheme.SpaceMd;strip.style.paddingRight=KarineTheme.SpaceMd;strip.style.paddingTop=KarineTheme.SpaceSm;strip.style.paddingBottom=KarineTheme.SpaceMd;
   paper.Add(strip);
-  var h=Write(strip,title.ToUpper(Tr),KarineTheme.Primary,D.RowTitleSize,Heading);h.style.marginBottom=0;h.style.letterSpacing=1;
+  var h=Write(strip,title.ToUpper(TextCulture),KarineTheme.Primary,D.RowTitleSize,Heading);h.style.marginBottom=0;h.style.letterSpacing=1;
   var s=Body_(strip,help,D.RowSubSize-1);s.style.color=KarineTheme.Secondary;s.style.marginBottom=KarineTheme.SpaceSm;
   var scroll=new KarineScrollView(ScrollViewMode.Horizontal);scroll.contentContainer.style.flexDirection=FlexDirection.Row;strip.Add(scroll);
   return scroll.contentContainer;

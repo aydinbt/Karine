@@ -8,7 +8,13 @@ namespace Bube {
 // üstte ülke sekmeleri, altta dikey dosya kartları, solda kâğıt kimlik kartı.
 // Kart yalnız durum gösterir; fail ipucu, zorluk veya gizli bilgi taşımaz.
 public static partial class KarineUI {
- internal static readonly System.Globalization.CultureInfo Tr=new System.Globalization.CultureInfo("tr-TR");
+ // Büyük harf dönüşümü oynanan dilin kuralıyla: Türkçede "i"→"İ", diğerlerinde "I".
+ internal static System.Globalization.CultureInfo TextCulture=new System.Globalization.CultureInfo("tr-TR");
+ // Yüzde dile göre yazılır: Türkçe "%60", Fransızca "60 %", diğerleri "60%".
+ public static string Percent(int value) {
+  var lang=TextCulture.TwoLetterISOLanguageName;
+  return lang=="tr"?"%"+value:lang=="fr"?value+"\u00a0%":value+"%";
+ }
 
  public static Button CountryTab(VisualElement parent,string id,string name,string tally,
                                  Texture2D art,bool selected,bool unlocked,Action click) {
@@ -34,7 +40,7 @@ public static partial class KarineUI {
   copy.style.paddingLeft=KarineTheme.SpaceLg;tab.Add(copy);
   var words=new VisualElement {pickingMode=PickingMode.Ignore};copy.Add(words);
   words.style.flexGrow=1;words.style.minWidth=0;words.style.paddingRight=KarineTheme.SpaceMd;
-  var title=Write(words,name.ToUpper(Tr),unlocked?KarineTheme.Primary:KarineTheme.Secondary,name.Length>12?F.CountryNameSize-12:name.Length>8?F.CountryNameSize-6:F.CountryNameSize,Heading);
+  var title=Write(words,name.ToUpper(TextCulture),unlocked?KarineTheme.Primary:KarineTheme.Secondary,name.Length>12?F.CountryNameSize-12:name.Length>8?F.CountryNameSize-6:F.CountryNameSize,Heading);
   title.style.marginBottom=0;title.style.whiteSpace=WhiteSpace.NoWrap;Left(title);
   title.style.overflow=Overflow.Hidden;title.style.textOverflow=TextOverflow.Ellipsis;
   var count=Technical(words,tally,F.SmallSize);count.style.letterSpacing=2;count.style.marginBottom=0;
@@ -94,7 +100,7 @@ public static partial class KarineUI {
   tag.style.unityTextAlign=TextAnchor.MiddleLeft;tag.style.marginBottom=0;tag.style.letterSpacing=1;
   tag.style.backgroundColor=locked?KarineTheme.Alpha(KarineTheme.Panel2,.9f):KarineTheme.Paper.Sheet;tag.style.color=ink;
   tag.style.borderTopRightRadius=KarineTheme.Radius;
-  var name=Write(paper,locked?"?????":title.ToUpper(Tr),ink,F.CardTitleSize,Heading);
+  var name=Write(paper,locked?"?????":title.ToUpper(TextCulture),ink,F.CardTitleSize,Heading);
   name.style.marginBottom=KarineTheme.SpaceXs;name.style.whiteSpace=WhiteSpace.NoWrap;
   name.style.overflow=Overflow.Hidden;name.style.textOverflow=TextOverflow.Ellipsis;Left(name);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.height=1;
@@ -114,7 +120,7 @@ public static partial class KarineUI {
    bar.style.justifyContent=Justify.Center;bar.style.alignItems=Align.Center;
    Icon(bar,"lock",KarineTheme.Secondary,KarineTheme.IconSize-4);
   } else {
-   var label=Write(bar,status.ToUpper(Tr),tone,F.StatusSize,Heading);
+   var label=Write(bar,status.ToUpper(TextCulture),tone,F.StatusSize,Heading);
    label.style.flexGrow=1;label.style.unityTextAlign=TextAnchor.MiddleCenter;label.style.marginBottom=0;label.style.letterSpacing=1;
    var arrow=new VisualElement {pickingMode=PickingMode.Ignore};
    arrow.style.width=F.StatusHeight;arrow.style.alignItems=Align.Center;arrow.style.justifyContent=Justify.Center;
@@ -149,7 +155,7 @@ public static partial class KarineUI {
   }
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.minWidth=0;card.Add(words);
   var title=Write(words,name,KarineTheme.Paper.Ink,F.AgentNameSize,Heading);title.style.marginBottom=0;Left(title);
-  var sub=Technical(words,role.ToUpper(Tr),F.SmallSize);sub.style.color=KarineTheme.Paper.Faded;sub.style.letterSpacing=2;
+  var sub=Technical(words,role.ToUpper(TextCulture),F.SmallSize);sub.style.color=KarineTheme.Paper.Faded;sub.style.letterSpacing=2;
   sub.style.marginBottom=KarineTheme.SpaceXs;Left(sub);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.height=1;rule.style.backgroundColor=KarineTheme.Paper.Edge;
   rule.style.marginBottom=KarineTheme.SpaceXs;words.Add(rule);

@@ -19,7 +19,7 @@ public static partial class KarineUI {
   return scroll.contentContainer;
  }
  public static void GuidanceHeading(VisualElement parent,string title,string intro) {
-  var h=Write(parent,title.ToUpper(Tr),KarineTheme.Paper.Ink,G.TitleSize,Heading);h.style.marginBottom=KarineTheme.SpaceXs;
+  var h=Write(parent,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,G.TitleSize,Heading);h.style.marginBottom=KarineTheme.SpaceXs;
   var rule=new VisualElement();rule.style.height=3;rule.style.backgroundColor=KarineTheme.Paper.Ink;rule.style.marginBottom=KarineTheme.SpaceMd;parent.Add(rule);
   if(string.IsNullOrEmpty(intro))return;
   var l=Typed(parent,intro,G.IntroSize);l.style.unityFontStyleAndWeight=FontStyle.Italic;l.style.whiteSpace=WhiteSpace.Normal;l.style.marginBottom=KarineTheme.SpaceSm;
@@ -39,7 +39,7 @@ public static partial class KarineUI {
   var panel=new VisualElement {name="GuidanceSide"};OfficePlace(panel,G.Side);
   panel.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.95f);Border(panel,KarineTheme.BorderWidth,KarineTheme.Alpha(KarineTheme.Accent,.6f));Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=panel.style.paddingRight=KarineTheme.SpaceXl;panel.style.paddingTop=KarineTheme.SpaceXl;panel.style.paddingBottom=KarineTheme.SpaceXl;parent.Add(panel);
-  Write(panel,heading.ToUpper(Tr),KarineTheme.Primary,G.SideHead,Heading).style.marginBottom=KarineTheme.SpaceSm;
+  Write(panel,heading.ToUpper(TextCulture),KarineTheme.Primary,G.SideHead,Heading).style.marginBottom=KarineTheme.SpaceSm;
   var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Border;rule.style.marginBottom=KarineTheme.SpaceLg;panel.Add(rule);
   return panel;
  }
@@ -65,7 +65,7 @@ public static partial class KarineUI {
   var row=new VisualElement {pickingMode=PickingMode.Ignore};row.style.alignItems=Align.FlexEnd;row.style.marginBottom=KarineTheme.SpaceMd;parent.Add(row);
   var stamp=new VisualElement {name="GuidanceStamp",pickingMode=PickingMode.Ignore};Border(stamp,4,KarineTheme.Alpha(KarineTheme.Paper.Stamp,.85f));Round(stamp,KarineTheme.Radius);
   stamp.style.paddingLeft=stamp.style.paddingRight=KarineTheme.SpaceLg;stamp.style.rotate=new Rotate(-8);row.Add(stamp);
-  var t=Write(stamp,text.ToUpper(Tr),KarineTheme.Alpha(KarineTheme.Paper.Stamp,.9f),G.StampSize,Heading);t.style.marginBottom=0;
+  var t=Write(stamp,text.ToUpper(TextCulture),KarineTheme.Alpha(KarineTheme.Paper.Stamp,.9f),G.StampSize,Heading);t.style.marginBottom=0;
  }
  // Kâğıt üstünde koyu durum kutusu: ikon, küçük başlık, büyük kehribar durum.
  public static void GuidanceStatus(VisualElement parent,string icon,string heading,string status,int trend) {
@@ -74,8 +74,8 @@ public static partial class KarineUI {
   var ib=new VisualElement();ib.style.width=ib.style.height=G.StatusBox;ib.style.alignItems=Align.Center;ib.style.justifyContent=Justify.Center;
   ib.style.borderRightWidth=KarineTheme.BorderWidth;ib.style.borderRightColor=KarineTheme.Border;box.Add(ib);Icon(ib,icon,KarineTheme.Accent,G.StatusIcon);
   var col=new VisualElement();col.style.paddingLeft=col.style.paddingRight=KarineTheme.SpaceLg;box.Add(col);
-  Write(col,heading.ToUpper(Tr),KarineTheme.Primary,G.MeterSize,Heading).style.marginBottom=0;
-  var s=Write(col,status.ToUpper(Tr)+(trend>0?"  ↑":trend<0?"  ↓":""),KarineTheme.Accent,G.StatusSize,Heading);s.style.marginBottom=0;
+  Write(col,heading.ToUpper(TextCulture),KarineTheme.Primary,G.MeterSize,Heading).style.marginBottom=0;
+  var s=Write(col,status.ToUpper(TextCulture)+(trend>0?"  ↑":trend<0?"  ↓":""),KarineTheme.Accent,G.StatusSize,Heading);s.style.marginBottom=0;
  }
 }
 }

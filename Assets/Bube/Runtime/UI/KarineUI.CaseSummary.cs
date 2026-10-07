@@ -30,7 +30,7 @@ public static partial class KarineUI {
   return paper;
  }
  public static void SummaryStamp(VisualElement parent,string stamp,string line) {
-  var t=Write(parent,stamp.ToUpper(Tr),KarineTheme.Paper.Stamp,C.StampSize,Heading);t.name="CaseSummaryStamp";t.pickingMode=PickingMode.Ignore;
+  var t=Write(parent,stamp.ToUpper(TextCulture),KarineTheme.Paper.Stamp,C.StampSize,Heading);t.name="CaseSummaryStamp";t.pickingMode=PickingMode.Ignore;
   t.style.alignSelf=Align.FlexStart;t.style.rotate=new Rotate(C.StampTilt);t.style.opacity=.9f;t.style.letterSpacing=3;
   Border(t,4,KarineTheme.Paper.Stamp);Round(t,4);t.style.unityTextAlign=TextAnchor.MiddleCenter;
   t.style.paddingLeft=t.style.paddingRight=KarineTheme.SpaceLg;t.style.paddingTop=t.style.paddingBottom=KarineTheme.SpaceSm;
@@ -45,7 +45,7 @@ public static partial class KarineUI {
   note.style.backgroundColor=KarineTheme.Paper.Light;Border(note,1,KarineTheme.Paper.Edge);row.Add(note);
   var tape=new VisualElement {pickingMode=PickingMode.Ignore};tape.style.position=Position.Absolute;tape.style.right=-KarineTheme.SpaceMd;tape.style.top=-KarineTheme.SpaceMd;
   tape.style.width=C.Clip*1.5f;tape.style.height=C.Clip/2;tape.style.rotate=new Rotate(40);Stretched(tape,"Bube/UI/tape");note.Add(tape);
-  Typed(note,heading.ToUpper(Tr),C.HeadingSize,true);
+  Typed(note,heading.ToUpper(TextCulture),C.HeadingSize,true);
   foreach(var name in names){var l=Typed(note,"•  "+name,C.SourceSize);l.style.marginBottom=2;l.style.borderBottomWidth=1;l.style.borderBottomColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.6f);}
   var fax=new VisualElement {name="CaseSummaryFax"};fax.style.width=Length.Percent(C.FaxWidth);fax.style.flexShrink=0;fax.style.marginLeft=KarineTheme.SpaceLg;
   fax.style.flexDirection=FlexDirection.Row;fax.style.alignItems=Align.Center;fax.style.rotate=new Rotate(C.FaxTilt);

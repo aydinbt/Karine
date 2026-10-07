@@ -29,7 +29,54 @@ public static class LocaleLoader {
    .OrderBy(asset => asset.name, System.StringComparer.Ordinal)
    .ToArray();
 
+ // Oynanan dil: seçilen dilde eksik bir satır önce İngilizceye, o da yoksa
+ // kanon Türkçeye düşer. Yarım bir çeviri oyuncuya "[anahtar]" göstermez.
+ public static Locale LoadPlayable(string code) {
+  Locale result=null;
+  foreach(var c in new[]{code,Languages.Fallback,Languages.Canon}.Distinct()) {
+   var next=Load(c);
+   if(next==null)continue;
+   if(result==null)result=next;else result.Absorb(next);
+  }
+  return result;
+ }
+
  static Locale Parse(TextAsset asset) =>
   asset == null ? null : JsonUtility.FromJson<Locale>(asset.text);
+}
+
+// Desteklenen diller. Türkçe kanondur: kural metni (ad eşleşmesi) hep oradan
+// okunur. Ayarlarda yalnız ortak dosyası bulunan diller listelenir.
+public static class Languages {
+ public const string Canon = "tr";
+ public const string Fallback = "en";
+ public const string PrefKey = "karine.language";
+ public static readonly string[] All = {"tr","en","de","fr","it","es","pt-BR"};
+ // Dil adı her zaman kendi dilinde yazılır; oyuncu tanımadığı dilde kendi dilini bulabilsin.
+ public static string Endonym(string code) {
+  switch(code) {
+   case "tr": return "Türkçe"; case "en": return "English"; case "de": return "Deutsch";
+   case "fr": return "Français"; case "it": return "Italiano"; case "es": return "Español";
+   case "pt-BR": return "Português (Brasil)"; default: return code;
+  }
+ }
+ public static bool Installed(string code) => Resources.Load<TextAsset>(LocaleLoader.Folder + code) != null;
+ public static string[] Available() => All.Where(Installed).ToArray();
+ public static string FromSystem(SystemLanguage language) {
+  switch(language) {
+   case SystemLanguage.Turkish: return "tr"; case SystemLanguage.German: return "de";
+   case SystemLanguage.French: return "fr"; case SystemLanguage.Italian: return "it";
+   case SystemLanguage.Spanish: return "es"; case SystemLanguage.Portuguese: return "pt-BR";
+   default: return Fallback;
+  }
+ }
+ // Kayıtlı seçim → cihaz dili → İngilizce. Kurulu olmayan dil seçilmez.
+ public static string Current() {
+  var saved = PlayerPrefs.GetString(PrefKey, "");
+  if(Installed(saved)) return saved;
+  var device = FromSystem(Application.systemLanguage);
+  if(Installed(device)) return device;
+  return Installed(Fallback) ? Fallback : Canon;
+ }
 }
 }

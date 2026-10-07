@@ -22,8 +22,8 @@ public static partial class KarineUI {
    Border(face,KarineTheme.BorderWidth,KarineTheme.Border);top.Add(face);
   }
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexShrink=1;words.style.flexGrow=1;top.Add(words);
-  Write(words,label.ToUpper(Tr),KarineTheme.Primary,I.LabelSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
-  Write(words,name.ToUpper(Tr),KarineTheme.Primary,I.NameSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
+  Write(words,label.ToUpper(TextCulture),KarineTheme.Primary,I.LabelSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
+  Write(words,name.ToUpper(TextCulture),KarineTheme.Primary,I.NameSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
   // Bilgi satırı kartın tam genişliğinde; fotoğrafın yanındaki dar sütunda kelime kelime kırılıyordu.
   var line=Write(card,info,KarineTheme.Secondary,I.InfoSize,Typewriter);line.style.marginTop=KarineTheme.SpaceMd;line.style.marginBottom=0;
   return card;
@@ -36,7 +36,7 @@ public static partial class KarineUI {
   tail.style.width=tail.style.height=I.Tail;if(aside)tail.style.right=-I.Tail/2-1;else tail.style.left=-I.Tail/2-1;tail.style.top=Length.Percent(40);tail.style.rotate=new Rotate(45);
   tail.style.backgroundColor=bubble.style.backgroundColor;if(aside){tail.style.borderRightWidth=tail.style.borderTopWidth=KarineTheme.BorderWidth;tail.style.borderRightColor=tail.style.borderTopColor=KarineTheme.Border;}
   else{tail.style.borderLeftWidth=tail.style.borderBottomWidth=KarineTheme.BorderWidth;tail.style.borderLeftColor=tail.style.borderBottomColor=KarineTheme.Border;}bubble.Add(tail);
-  Write(bubble,speaker.ToUpper(Tr),KarineTheme.Accent,I.SpeakerSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
+  Write(bubble,speaker.ToUpper(TextCulture),KarineTheme.Accent,I.SpeakerSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
   var scroll=new KarineScrollView(ScrollViewMode.Vertical);scroll.style.flexGrow=1;scroll.style.minHeight=0;
   scroll.verticalScrollerVisibility=ScrollerVisibility.Hidden;bubble.Add(scroll);
   speech=Write(scroll,"",KarineTheme.Primary,I.SpeechSize,Typewriter);speech.name="InterviewSpeech";
@@ -60,7 +60,7 @@ public static partial class KarineUI {
   Unskin(tab,active?KarineTheme.Alpha(KarineTheme.Accent,.14f):KarineTheme.Alpha(KarineTheme.GlassDeep,.9f));
   Border(tab,KarineTheme.BorderWidth,active?KarineTheme.Accent:KarineTheme.Border);Round(tab,KarineTheme.Radius);
   tab.style.borderBottomLeftRadius=tab.style.borderBottomRightRadius=0;
-  var l=Write(tab,label.ToUpper(Tr),active?KarineTheme.Accent:KarineTheme.Secondary,I.TabSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
+  var l=Write(tab,label.ToUpper(TextCulture),active?KarineTheme.Accent:KarineTheme.Secondary,I.TabSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
   tabs.Add(tab);return tab;
  }
  // Açılır konu başlığı: sol amber şerit, "KONU · n", sağda ok.
@@ -70,7 +70,7 @@ public static partial class KarineUI {
   head.style.paddingLeft=KarineTheme.SpaceMd;head.style.paddingRight=KarineTheme.SpaceMd;
   Unskin(head,KarineTheme.Alpha(KarineTheme.Background,.7f));Round(head,KarineTheme.Radius);
   head.style.borderLeftWidth=I.Edge;head.style.borderLeftColor=open?KarineTheme.Accent:KarineTheme.Border;
-  var t=Write(head,title.ToUpper(Tr),open?KarineTheme.Accent:KarineTheme.Secondary,I.TopicSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;t.style.unityTextAlign=TextAnchor.MiddleLeft;
+  var t=Write(head,title.ToUpper(TextCulture),open?KarineTheme.Accent:KarineTheme.Secondary,I.TopicSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;t.style.unityTextAlign=TextAnchor.MiddleLeft;
   var arrow=Icon(head,"nav_next",open?KarineTheme.Accent:KarineTheme.Secondary,KarineTheme.IconSize-6);arrow.style.rotate=new Rotate(open?90:0);
   parent?.Add(head);return head;
  }
@@ -88,7 +88,7 @@ public static partial class KarineUI {
   chip.style.marginLeft=chip.style.marginTop=chip.style.marginBottom=0;chip.style.marginRight=KarineTheme.SpaceXs;chip.style.paddingLeft=chip.style.paddingRight=0;
   Unskin(chip,active?KarineTheme.Alpha(KarineTheme.Accent,.14f):KarineTheme.Alpha(KarineTheme.Background,.6f));
   Border(chip,KarineTheme.BorderWidth,active?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Border,.6f));Round(chip,KarineTheme.Radius);
-  var l=Write(chip,label.ToUpper(Tr),active?KarineTheme.Accent:KarineTheme.Secondary,I.FilterSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
+  var l=Write(chip,label.ToUpper(TextCulture),active?KarineTheme.Accent:KarineTheme.Secondary,I.FilterSize,Heading);l.style.marginBottom=0;l.style.unityTextAlign=TextAnchor.MiddleCenter;
   chip.SetEnabled(enabled);row.Add(chip);return chip;
  }
  // Kaydı öne sür paneli: başlık ve soru, solda kaynak listesi, sağda kâğıt önizleme ve düğme.
@@ -96,7 +96,7 @@ public static partial class KarineUI {
   var panel=InterviewGlass(parent,"InterviewPresent",I.Present,true);
   var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.FlexStart;top.style.flexShrink=0;panel.Add(top);
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;top.Add(words);
-  Write(words,heading.ToUpper(Tr),KarineTheme.Accent,I.PresentHead,Heading).style.marginBottom=KarineTheme.SpaceXs;
+  Write(words,heading.ToUpper(TextCulture),KarineTheme.Accent,I.PresentHead,Heading).style.marginBottom=KarineTheme.SpaceXs;
   Write(words,"“"+question+"”",KarineTheme.Primary,I.PresentQuote,Typewriter).style.marginBottom=KarineTheme.SpaceSm;
   CloseButton(top,cancel,cancelTitle);
   var rule=new VisualElement {pickingMode=PickingMode.Ignore};rule.style.height=1;rule.style.flexShrink=0;rule.style.backgroundColor=KarineTheme.Border;
@@ -126,7 +126,7 @@ public static partial class KarineUI {
   Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceLg;paper.style.paddingTop=paper.style.paddingBottom=KarineTheme.SpaceMd;parent.Add(paper);
   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.FlexStart;head.style.flexShrink=0;paper.Add(head);
-  var t=Typed(head,title.ToUpper(Tr),KarineTheme.Dossier.PageBodySize+1,true);t.style.flexGrow=1;t.style.flexShrink=1;t.style.whiteSpace=WhiteSpace.Normal;
+  var t=Typed(head,title.ToUpper(TextCulture),KarineTheme.Dossier.PageBodySize+1,true);t.style.flexGrow=1;t.style.flexShrink=1;t.style.whiteSpace=WhiteSpace.Normal;
   if(!string.IsNullOrEmpty(stamp))Typed(head,stamp,KarineTheme.Dossier.PageBodySize-2).style.marginLeft=KarineTheme.SpaceSm;
   PaperRule(paper,false);
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);
@@ -138,7 +138,7 @@ public static partial class KarineUI {
   button.style.marginLeft=button.style.marginRight=0;button.style.marginTop=KarineTheme.SpaceMd;button.style.marginBottom=0;
   Unskin(button,KarineTheme.Accent);Round(button,KarineTheme.Radius);
   if(!string.IsNullOrEmpty(icon))Icon(button,icon,KarineTheme.OnPrimary,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
-  Write(button,label.ToUpper(Tr),KarineTheme.OnPrimary,I.ActionSize,Heading).style.marginBottom=0;
+  Write(button,label.ToUpper(TextCulture),KarineTheme.OnPrimary,I.ActionSize,Heading).style.marginBottom=0;
   parent.Add(button);return button;
  }
 }

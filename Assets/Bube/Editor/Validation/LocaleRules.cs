@@ -45,7 +45,7 @@ public static class LocaleRules {
   "samimiyetsiz", "içten", "tedirginliği", "korkusu", "panikledi", "rahatlamış",
  };
 
- static string[] Words(string text) =>
+ internal static string[] Words(string text) =>
   string.IsNullOrEmpty(text) ? new string[0]
    : WordBreak.Split(text.ToLowerInvariant()).Where(w => w.Length > 0).ToArray();
 
@@ -117,7 +117,7 @@ public static class LocaleRules {
  //  · kaynak başlığı ve karar etiketi — bunlar "yöntem", "kayıt" gibi sıradan
  //    sözcükler içerir, o yüzden yalnız **tam ifade** olarak aranır. Aksi hâlde
  //    kural her masum cümlede yanlış alarm verir.
- static void ValidateGuidance(IReadOnlyList<KeyValuePair<string, Locale>> files,
+ internal static void ValidateGuidance(IReadOnlyList<KeyValuePair<string, Locale>> files,
   IReadOnlyList<CaseData> cases, ValidationReport report) {
   var merged = new Dictionary<string, string>();
   foreach (var file in files)

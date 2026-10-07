@@ -257,11 +257,7 @@ public sealed partial class BubeApp {
   // Yetki genişlemesi (#009): onaylanan raporu yetki veren vakada kalıcı satır.
   if(data!=null && data.grantsAuthority && review.correct)KarineUI.RecordTrust(card,T("career.authority"),T("career.authorityExpanded"),false,null);
  }
- string TrustStatusKey(int value) {
-  var t=careerRules.statusThresholds;
-  if(value<=careerRules.endThreshold)return "career.status.ended";
-  return value>=t[0]?"career.status.high":value>=t[1]?"career.status.reliable":value>=t[2]?"career.status.monitored":value>=t[3]?"career.status.review":"career.status.risk";
- }
+ string TrustStatusKey(int value)=>Investigation.StatusKeyFor(value,careerRules);
  void ExitGame() {
 #if UNITY_EDITOR
   UnityEditor.EditorApplication.isPlaying=false;

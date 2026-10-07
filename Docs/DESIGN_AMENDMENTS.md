@@ -1117,3 +1117,13 @@ Kullanıcı: "Bir şey sunuldu ve cevap alındıysa başka görüşmede aynısı
 - **Aynı kişiye aynı kayıt iki kez gerekmez.** İlk görüşmede kayda dayanan soru, kayıt okunduktan sonra sorulan düz soruya çevrildi; kayıt yalnız asıl yüzleşmede kalır (#013 Simon/mesajlar, #027 Yuki/tepsi). Farklı kişilere aynı kaydın sunulması serbest; kişi kendi önceki sözüne "kaç kez söyleyeceğim" diye atıf yapıyorsa tekrar bilerek bırakıldı.
 - **Her soru kayıt istemez.** 916 sorunun yalnız %17'si kayıt ister; bu oran korunur. Yanıtlar arası yinelenen cümleler ve başka sorunun cevabını önceden veren satırlar ayıklandı (#001, #009, #011), #003'te iddia saatiyle çelişen yazım düzeltildi.
 
+## 8 Ekim 2026 — Altı dil, aynı kurallar; kariyer sicili
+
+**Kullanıcı:** "10 ülke pazarına geçebiliriz, çevirebileceğimiz bütün dillere çevirelim. Avrupa pazarına yoğunlaştığımızda kullanıcı kaybetmemeliyiz." Sonra: Japonca, Lehçe ve Felemenkçe gerekmez. "Türkçede nasıl işlediysek kuralları diğer diller için de aynı şekilde işlemeliyiz."
+
+- **Diller:** Türkçe (kanon) + İngilizce, Almanca, Fransızca, İtalyanca, İspanyolca, Portekizce (Brezilya). Cihaz dili desteklenmiyorsa İngilizce açılır.
+- **Kural dilden bağımsızdır.** Ad geçme kuralı Türkçe metinden hesaplanır; çeviri ise kanonla aynı adları anmak zorundadır (denetim zorlar). Böylece oyuncu her dilde aynı kaydı aynı kişiye sunabilir ve ekranda adı görür.
+- **Cinsiyet sızdırılmaz.** Türkçenin cinsiyetsiz "o"su çeviride kimliği belirsiz kişiler için cinsiyetsiz kalır; aksi hâlde çeviri ipucu verir. Bilgi eklenmez, belirsizlik korunur. Saatler kanondaki biçimde kalır (`21.04`), çünkü oyuncu kayıtlar arasında karşılaştırır. Ayrıntı: [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md).
+- **Kurgusal kurum:** `bube` markası küçük harfle kalır, "Departman" çevrilir; `BDS` her dilde aynı.
+
+**Kariyer sonu kuralı değişmedi (kullanıcı kararı):** güven sıfıra inince kariyer biter; yol ödüllü yeniden açma ya da Yeni Oyun. Kariyer ekranı maket beklemeden genişletildi: **Sicil** sekmesi güven seyrini, kademe değişimlerini ve ülke karnesini gösterir. Bekleyen değerlendirmenin sonucu sicilde de görünmez.

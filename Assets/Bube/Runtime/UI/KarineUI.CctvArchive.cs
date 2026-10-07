@@ -11,7 +11,7 @@ public static partial class KarineUI {
   var panel=new VisualElement {name="CctvCameras"};OfficePlace(panel,A.Cameras);
   panel.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.97f);Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=KarineTheme.SpaceSm;panel.style.paddingRight=KarineTheme.SpaceSm;panel.style.paddingTop=KarineTheme.SpaceMd;panel.style.paddingBottom=KarineTheme.SpaceSm;parent.Add(panel);
-  var t=Write(panel,title.ToUpper(Tr),KarineTheme.Secondary,A.ListTitleSize,Heading);t.style.marginLeft=KarineTheme.SpaceXs;t.style.marginBottom=KarineTheme.SpaceSm;
+  var t=Write(panel,title.ToUpper(TextCulture),KarineTheme.Secondary,A.ListTitleSize,Heading);t.style.marginLeft=KarineTheme.SpaceXs;t.style.marginBottom=KarineTheme.SpaceSm;
   var list=new KarineScrollView(ScrollViewMode.Vertical);list.style.flexGrow=1;panel.Add(list);return list;
  }
  // Kamera kartı: kamera ikonu, ad, yer ve aralık. Amber nokta yalnız "henüz incelenmedi" demektir.
@@ -23,7 +23,7 @@ public static partial class KarineUI {
   Border(button,selected?KarineTheme.BorderWidth+1:KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.Border,.6f));Round(button,KarineTheme.Radius);
   Icon(button,A.CameraIcon,selected?KarineTheme.Accent:KarineTheme.Secondary,KarineTheme.IconSize+KarineTheme.SpaceSm).style.marginRight=KarineTheme.SpaceMd;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;button.Add(words);
-  var name=Write(words,title.ToUpper(Tr),KarineTheme.Primary,A.TextSize-1,Heading);name.style.marginBottom=0;
+  var name=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,A.TextSize-1,Heading);name.style.marginBottom=0;
   foreach(var line in new[]{place,period}){if(string.IsNullOrEmpty(line))continue;Write(words,line,KarineTheme.Secondary,A.MetaSize-1,Typewriter).style.marginBottom=0;}
   if(unread){var dot=Dot(button,KarineTheme.Accent);dot.style.alignSelf=Align.FlexStart;dot.style.marginTop=KarineTheme.SpaceSm;}
   list.Add(button);return button;
@@ -39,13 +39,13 @@ public static partial class KarineUI {
  // "KAMERA 01 · BİNA GİRİŞİ   ● REC   ● SİNYAL İYİ" ve altında yeşil aralık satırı. Dönen etiket sinyal durumudur.
  public static Label CctvMonitorHead(VisualElement content,string title,string period,string signal,string rec) {
   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.Center;head.style.flexShrink=0;content.Add(head);
-  var t=Write(head,title.ToUpper(Tr),KarineTheme.Primary,A.MonitorTitleSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;t.style.flexShrink=1;
+  var t=Write(head,title.ToUpper(TextCulture),KarineTheme.Primary,A.MonitorTitleSize,Heading);t.style.marginBottom=0;t.style.flexGrow=1;t.style.flexShrink=1;
   var recRow=new VisualElement {pickingMode=PickingMode.Ignore};recRow.style.flexDirection=FlexDirection.Row;recRow.style.alignItems=Align.Center;recRow.style.marginRight=KarineTheme.SpaceXl;head.Add(recRow);
-  Dot(recRow,KarineTheme.Danger).style.marginRight=KarineTheme.SpaceSm;Write(recRow,rec.ToUpper(Tr),KarineTheme.Danger,A.StatusSize,Heading).style.marginBottom=0;
+  Dot(recRow,KarineTheme.Danger).style.marginRight=KarineTheme.SpaceSm;Write(recRow,rec.ToUpper(TextCulture),KarineTheme.Danger,A.StatusSize,Heading).style.marginBottom=0;
   var sigRow=new VisualElement {pickingMode=PickingMode.Ignore};sigRow.style.flexDirection=FlexDirection.Row;sigRow.style.alignItems=Align.Center;head.Add(sigRow);
   Dot(sigRow,CctvGreen).style.marginRight=KarineTheme.SpaceSm;
-  var s=Write(sigRow,signal.TrimStart('●',' ').ToUpper(Tr),CctvGreen,A.StatusSize,Heading);s.style.marginBottom=0;
-  if(!string.IsNullOrEmpty(period)){var p=Write(content,period.ToUpper(Tr),CctvGreen,A.MetaSize,Typewriter);p.style.marginBottom=KarineTheme.SpaceMd;}
+  var s=Write(sigRow,signal.TrimStart('●',' ').ToUpper(TextCulture),CctvGreen,A.StatusSize,Heading);s.style.marginBottom=0;
+  if(!string.IsNullOrEmpty(period)){var p=Write(content,period.ToUpper(TextCulture),CctvGreen,A.MetaSize,Typewriter);p.style.marginBottom=KarineTheme.SpaceMd;}
   return s;
  }
  public static VisualElement CctvRecordPanel(VisualElement parent) {
@@ -80,7 +80,7 @@ public static partial class KarineUI {
   b.style.alignSelf=Align.Stretch;b.style.height=A.ThumbHeight+4;b.style.marginLeft=0;b.style.marginRight=0;b.style.marginBottom=0;
   Unskin(b,KarineTheme.Alpha(KarineTheme.GlassDeep,.97f));Border(b,strong?KarineTheme.BorderWidth+1:KarineTheme.BorderWidth,strong?KarineTheme.Accent:KarineTheme.Border);Round(b,KarineTheme.Radius);
   Icon(b,icon,KarineTheme.Accent,A.LineSize).style.marginRight=KarineTheme.SpaceSm;
-  Write(b,label.ToUpper(Tr),KarineTheme.Accent,A.LineSize,Heading).style.marginBottom=0;
+  Write(b,label.ToUpper(TextCulture),KarineTheme.Accent,A.LineSize,Heading).style.marginBottom=0;
   slot.Add(b);return b;
  }
  // Monitörün altındaki şerit: önce "Kayıtları incele", tararken bekleme yazısı, bitince amber tik.
@@ -92,11 +92,11 @@ public static partial class KarineUI {
  public static void CctvFooterDone(VisualElement bar,string done,string total) {
   bar.Clear();Border(bar,KarineTheme.BorderWidth+1,KarineTheme.Accent);bar.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Accent,.08f);
   Icon(bar,"check",KarineTheme.Accent,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
-  var l=Write(bar,done.ToUpper(Tr),KarineTheme.Accent,A.FooterSize,Heading);l.style.marginBottom=0;l.style.flexGrow=1;
-  Write(bar,total.ToUpper(Tr),KarineTheme.Secondary,A.MetaSize-1,Heading).style.marginBottom=0;
+  var l=Write(bar,done.ToUpper(TextCulture),KarineTheme.Accent,A.FooterSize,Heading);l.style.marginBottom=0;l.style.flexGrow=1;
+  Write(bar,total.ToUpper(TextCulture),KarineTheme.Secondary,A.MetaSize-1,Heading).style.marginBottom=0;
  }
  public static Label CctvFooterText(VisualElement bar,string text) {
-  bar.Clear();var l=Write(bar,text.ToUpper(Tr),KarineTheme.Accent,A.FooterSize,Heading);l.style.marginBottom=0;return l;
+  bar.Clear();var l=Write(bar,text.ToUpper(TextCulture),KarineTheme.Accent,A.FooterSize,Heading);l.style.marginBottom=0;return l;
  }
  // Oynatıcı denetimi: koyu kutu, ikon ve etiket; `primary` amber dolu (OYNAT/DURAKLAT).
  public static Button CctvControl(VisualElement bar,string icon,string label,bool primary,Action action) {
@@ -106,10 +106,10 @@ public static partial class KarineUI {
   var ink=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
   Unskin(b,primary?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.GlassDeep,.97f));Border(b,KarineTheme.BorderWidth,primary?KarineTheme.Accent:KarineTheme.Border);Round(b,KarineTheme.Radius);
   if(!string.IsNullOrEmpty(icon))Icon(b,icon,ink,KarineTheme.IconSize).style.marginRight=string.IsNullOrEmpty(label)?0:KarineTheme.SpaceSm;
-  if(!string.IsNullOrEmpty(label)){var l=Write(b,label.ToUpper(Tr),ink,A.ControlSize,Heading);l.style.marginBottom=0;l.name="CctvControlLabel";}
+  if(!string.IsNullOrEmpty(label)){var l=Write(b,label.ToUpper(TextCulture),ink,A.ControlSize,Heading);l.style.marginBottom=0;l.name="CctvControlLabel";}
   bar.Add(b);return b;
  }
- public static void CctvControlText(Button b,string label) { var l=b.Q<Label>("CctvControlLabel");if(l!=null)l.text=label.ToUpper(Tr); }
+ public static void CctvControlText(Button b,string label) { var l=b.Q<Label>("CctvControlLabel");if(l!=null)l.text=label.ToUpper(TextCulture); }
  // İnce ilerleme çizgisi: amber dolgu ve topuz. Yalnız gösterir; sarmak kare düğmeleriyle yapılır.
  public static VisualElement CctvProgress(VisualElement bar,out VisualElement fill) {
   var track=new VisualElement {name="CctvProgress",pickingMode=PickingMode.Ignore};track.style.flexGrow=1;track.style.height=A.ProgressHeight;track.style.marginLeft=KarineTheme.SpaceMd;track.style.marginRight=KarineTheme.SpaceMd;

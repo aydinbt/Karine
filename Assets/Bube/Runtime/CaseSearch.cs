@@ -14,7 +14,6 @@ public sealed class SearchHit {
 }
 
 public static class CaseSearch {
- static readonly CultureInfo Turkish=CultureInfo.GetCultureInfo("tr-TR");
 
  // Dosyada gezilebilir bütün satırlar. Kapı burasıdır: oyuncunun okumadığı
  // kaynak hiç toplanmaz, yani ne aramaya ne süzgece sızabilir.
@@ -56,7 +55,7 @@ public static class CaseSearch {
  }
 
  static string Excerpt(string text,string query) {
-  int at=text.ToUpper(Turkish).IndexOf(query.ToUpper(Turkish),StringComparison.Ordinal);
+  int at=text.ToUpper(KarineUI.TextCulture).IndexOf(query.ToUpper(KarineUI.TextCulture),StringComparison.Ordinal);
   if(at<0)return null;
   int start=Math.Max(0,at-48);
   int end=Math.Min(text.Length,at+query.Length+72);

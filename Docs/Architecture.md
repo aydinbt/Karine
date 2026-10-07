@@ -566,3 +566,16 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 - `CaseRules.ValidateCctv`: `signalKey`/`glitchKey` taşıyan ya da metni "KAYIT BULUNAMADI"/"sinyal kesil" içeren olay `notPresentable` değilse sorun.
 - Test: `DecoyHoldTests.DecoyClosesQuestionUntilNewProgress`.
 
+## Çok dil ve kanon metin (8 Ekim 2026)
+
+- **Diller:** `Languages.All` = tr, en, de, fr, it, es, pt-BR (`LocaleLoader.cs`). Ayarlarda yalnız ortak dosyası (`Bube/Locales/<dil>.json`) bulunan diller listelenir; dil adı kendi dilinde yazılır.
+- **Seçim sırası:** kayıtlı tercih (`karine.language`) → cihaz dili (`Application.systemLanguage`) → İngilizce → Türkçe.
+- **Düşme zinciri:** `LocaleLoader.LoadPlayable(dil)` seçilen dili yükler, eksik anahtarları İngilizceden, sonra Türkçeden tamamlar. Ekranda hiçbir zaman `[anahtar]` görünmez.
+- **Kanon metin:** `Investigation.RuleText` her zaman Türkçedir. "Kayıt ancak adı geçiyorsa öne sürülür" kuralı (`SourceConcernsPerson`, `MentionsPerson`) `game.RuleString(anahtarlar)` ile kanondan okunur; oyuncunun dili kuralın sonucunu değiştirmez. Dosya araması süzgeci ekrandaki metne bakar (adlar her dilde aynı).
+- **Büyük harf ve yüzde:** `KarineUI.TextCulture` oynanan dilin kültürüdür (önceden sabit `tr-TR` idi; İngilizcede "HİSTORY" üretirdi). `KarineUI.Percent` Türkçede `%60`, Fransızcada `60 %`, diğerlerinde `60%` yazar.
+- **Çeviri denetimi:** `Editor/Validation/TranslationRules.cs` her kurulu dil için Türkçe kuralların karşılığını uygular: kanonda olmayan anahtar, yer tutucu, kişi adı (unvan hariç) değişmezliği, ad geçme eşitliği, gerçek kurum adı, hüküm veren davranış satırı, ödüllü ipucunun vaka gerçeğine değmemesi. Unity'siz eşi: `Tools/check-translation.py <dil> [caseNNN]`. Kural metni: [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md).
+- **Fontlar:** mevcut 11 font altı dilin bütün harflerini kapsıyor (fontTools ile denetlendi). Japonca kapsam dışı olduğu için CJK fontu gerekmedi.
+
+## Kariyer sicili (8 Ekim 2026)
+
+Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks geçmişinden güven seyri (`KarineUI.TrustCurve`, kesik çizgi başlangıç güveni), kademe değişimleri ve ülke karnesi (uygun / eksik / hatalı ve net güven). Kademe `Investigation.StatusKeyFor(değer, kurallar)` ile hesaplanır; masadaki rozet ve sicil aynı kuralı kullanır. `career-rules.json`'daki `unsolvedLoss` hiçbir değerlendirme türüne bağlı değil (değerlendirme türleri: supported, incomplete, falseAccusation).

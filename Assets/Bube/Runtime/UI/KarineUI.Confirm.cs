@@ -16,8 +16,8 @@ public static partial class KarineUI {
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;paper.style.paddingTop=KarineTheme.SpaceXl*2;paper.style.paddingBottom=KarineTheme.SpaceXl;veil.Add(paper);
   var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.position=Position.Absolute;clip.style.left=Length.Percent(6);clip.style.top=-C.Clip/3;
   clip.style.width=C.Clip/3;clip.style.height=C.Clip;Border(clip,3,KarineTheme.Alpha(KarineTheme.Secondary,.8f));Round(clip,C.Clip/6);paper.Add(clip);
-  if(!string.IsNullOrEmpty(form)){var f=Typed(paper,form.ToUpper(Tr),C.FormSize);f.style.unityTextAlign=TextAnchor.MiddleCenter;f.style.letterSpacing=1;}
-  var h=Write(paper,title.ToUpper(Tr),KarineTheme.Paper.Ink,C.TitleSize,Heading);h.style.unityTextAlign=TextAnchor.MiddleCenter;h.style.marginBottom=KarineTheme.SpaceXs;
+  if(!string.IsNullOrEmpty(form)){var f=Typed(paper,form.ToUpper(TextCulture),C.FormSize);f.style.unityTextAlign=TextAnchor.MiddleCenter;f.style.letterSpacing=1;}
+  var h=Write(paper,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,C.TitleSize,Heading);h.style.unityTextAlign=TextAnchor.MiddleCenter;h.style.marginBottom=KarineTheme.SpaceXs;
   var rule=new VisualElement();rule.style.height=2;rule.style.backgroundColor=KarineTheme.Paper.Ink;rule.style.marginBottom=KarineTheme.SpaceLg;paper.Add(rule);
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.FlexStart;paper.Add(row);
   Icon(row,"alert",KarineTheme.Paper.Stamp,C.Alert).style.marginRight=KarineTheme.SpaceXl;
@@ -31,7 +31,7 @@ public static partial class KarineUI {
   return veil;
  }
  static Button ConfirmButton(VisualElement parent,string label,Action action,Color fill,Color ink) {
-  var b=new Button(Sounded(action)) {name="ConfirmButton",text=label.ToUpper(Tr),tooltip=label};b.style.flexGrow=1;b.style.flexBasis=0;b.style.height=C.ButtonHeight;
+  var b=new Button(Sounded(action)) {name="ConfirmButton",text=label.ToUpper(TextCulture),tooltip=label};b.style.flexGrow=1;b.style.flexBasis=0;b.style.height=C.ButtonHeight;
   b.style.marginLeft=b.style.marginRight=b.style.marginTop=b.style.marginBottom=0;
   Unskin(b,fill);Border(b,KarineTheme.BorderWidth,KarineTheme.Paper.Ink);Round(b,KarineTheme.Radius);
   b.style.color=ink;b.style.fontSize=Typography.Snap(C.ButtonSize);if(Heading!=null)b.style.unityFontDefinition=FontDefinition.FromFont(Heading);

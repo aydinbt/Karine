@@ -647,3 +647,14 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [~] 73 dosyanın sorguları okundu: aynı kişiye aynı kaydın iki kez sunulması (#013, #027), boş tekrar soru (#009 `hakan_2.after`, #001 `hasan_follow.memory`), yinelenen cümleler (#001, #011), saat çelişkisi (#003), yazım (#033). 133/133 EditMode.
 - [ ] Kullanıcı #001 ve #002'yi yeniden oynayıp sorgunun artık tekrar etmediğini doğrulayacak.
 
+## 8 Ekim 2026 — Çok dil ve kariyer sicili
+
+- [~] Dil altyapısı: tr/en/de/fr/it/es/pt-BR; cihaz dili → İngilizce → Türkçe düşme zinciri; Ayarlar → Genel'de dil seçimi (yalnız kurulu diller).
+- [~] Ad geçme kuralı her dilde Türkçe kanondan hesaplanıyor (`RuleText`); test: `TranslationTests`.
+- [~] Büyük harf ve yüzde oynanan dilin kurallarıyla (`TextCulture`, `Percent`).
+- [~] Çeviri denetimi: Unity `TranslationRules` + `Tools/check-translation.py`; kılavuz `TRANSLATION_GUIDE.md`.
+- [~] Kariyer ekranı **Sicil** sekmesi: güven seyri, kademe değişimleri, ülke karnesi.
+- [ ] Çeviriler: en, de, fr, it, es, pt-BR — her biri 12.755 satır (ortak + 73 vaka), denetim 0 sorun.
+- [ ] Her dilde #001 Play Mode'da oynanır; Almanca ve Fransızcada uzun metnin düğme/sekme taşması gözle kontrol edilir.
+- [ ] Mağaza sayfası metinleri altı dilde.
+- [ ] Sicil sekmesi Play Mode'da görülür (boş kariyer, birkaç faks, kademe düşüşü).

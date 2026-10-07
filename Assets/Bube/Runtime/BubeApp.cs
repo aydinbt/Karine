@@ -31,7 +31,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   public Progress progress;
  }
  static BubeApp instance;
- Locale locale;
+ Locale locale,canonLocale;string language;
  CareerRules careerRules;
  AudioDirector audioDirector;
  // Android'de geri tuşu bir "geri" eylemidir. Karşılığı yoksa işletim sistemi
@@ -148,7 +148,9 @@ public sealed partial class BubeApp : MonoBehaviour {
   instance=this;
   DontDestroyOnLoad(gameObject);
   config=Load<GameConfig>("Bube/config");
-  locale=LocaleLoader.Load(config.locale);
+  language=Languages.Current();
+  locale=LocaleLoader.LoadPlayable(language);KarineUI.TextCulture=new System.Globalization.CultureInfo(language);
+  canonLocale=language==Languages.Canon?locale:LocaleLoader.Load(Languages.Canon);
   careerRules=Load<CareerRules>("Bube/career-rules");
   CareerProgress career=null;
   try { if(File.Exists(CareerSavePath)) career=JsonUtility.FromJson<CareerProgress>(File.ReadAllText(CareerSavePath)); }
@@ -166,7 +168,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   catch(Exception e) { Debug.LogWarning("Save could not be loaded: "+e.Message); }
   pendingPredicate=n=>game.Pending(n);
   incomingDocumentPredicate=n=>game.IncomingDocument(n);
-  game=new Investigation(caseData,progress,career,careerRules){Text=locale};
+  game=new Investigation(caseData,progress,career,careerRules){Text=locale,RuleText=canonLocale};
   // Daha yeni bir surumden gelen kayit okunamaz. Silmek yerine yana kaldirilir:
   // oyuncu eski surume donerse kayit yerinde durur.
   string saveNotice=null;

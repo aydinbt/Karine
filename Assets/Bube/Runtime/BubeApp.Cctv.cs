@@ -330,7 +330,7 @@ public sealed partial class BubeApp {
     var record=records[current];
     int delay=record.delayMs>0?record.delayMs:650;
     content.schedule.Execute(()=>{
-     if(!string.IsNullOrEmpty(record.signalKey))status.text=T(record.signalKey).TrimStart('●',' ').ToUpper(KarineUI.Tr);
+     if(!string.IsNullOrEmpty(record.signalKey))status.text=T(record.signalKey).TrimStart('●',' ').ToUpper(KarineUI.TextCulture);
      rows[current].style.display=DisplayStyle.Flex;
      var line=lines[current];
      string finalText=T(string.IsNullOrEmpty(record.glitchKey)?record.textKey:record.glitchKey);

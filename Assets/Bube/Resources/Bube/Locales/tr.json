@@ -4343,6 +4343,54 @@
   {
    "key": "finale.file.end",
    "value": "AÇIK DOSYA"
+  },
+  {
+   "key": "settings.language",
+   "value": "Dil"
+  },
+  {
+   "key": "settings.language.hint",
+   "value": "Oyunun metin dili. Eksik çeviri satırı İngilizce görünür."
+  },
+  {
+   "key": "career.tab.record",
+   "value": "Sicil"
+  },
+  {
+   "key": "career.record.curve",
+   "value": "Güven seyri"
+  },
+  {
+   "key": "career.record.start",
+   "value": "Başlangıç"
+  },
+  {
+   "key": "career.record.now",
+   "value": "Şimdi"
+  },
+  {
+   "key": "career.record.lowest",
+   "value": "En düşük"
+  },
+  {
+   "key": "career.record.highest",
+   "value": "En yüksek"
+  },
+  {
+   "key": "career.record.ranks",
+   "value": "Kademe değişimleri"
+  },
+  {
+   "key": "career.record.began",
+   "value": "Göreve başlarken"
+  },
+  {
+   "key": "career.record.noChange",
+   "value": "Kademe henüz değişmedi."
+  },
+  {
+   "key": "career.record.countries",
+   "value": "Ülke karnesi"
   }
  ]
 }

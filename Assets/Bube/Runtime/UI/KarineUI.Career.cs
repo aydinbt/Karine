@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -20,7 +21,7 @@ public static partial class KarineUI {
    Unskin(button,tab.selected?KarineTheme.Alpha(KarineTheme.Background,.92f):KarineTheme.Alpha(KarineTheme.Panel,.92f));
    Border(button,KarineTheme.BorderWidth,KarineTheme.Border);Round(button,KarineTheme.Radius);
    if(tab.selected){button.style.borderBottomWidth=3;button.style.borderBottomColor=KarineTheme.Accent;}
-   var text=Write(button,tab.label.ToUpper(Tr),tab.selected?KarineTheme.Accent:KarineTheme.Secondary,B.TabSize,Heading);
+   var text=Write(button,tab.label.ToUpper(TextCulture),tab.selected?KarineTheme.Accent:KarineTheme.Secondary,B.TabSize,Heading);
    text.style.marginBottom=0;text.style.letterSpacing=1;text.style.unityTextAlign=TextAnchor.MiddleCenter;text.style.flexGrow=1;
    row.Add(button);
   }
@@ -34,7 +35,7 @@ public static partial class KarineUI {
   panel.style.paddingLeft=KarineTheme.SpaceLg;panel.style.paddingRight=KarineTheme.SpaceLg;
   panel.style.paddingTop=KarineTheme.SpaceSm;panel.style.paddingBottom=KarineTheme.SpaceMd;
   if(!string.IsNullOrEmpty(title)) {
-   var head=Write(panel,title.ToUpper(Tr),KarineTheme.Primary,B.PanelTitleSize,Heading);head.style.marginBottom=KarineTheme.SpaceXs;head.style.letterSpacing=1;
+   var head=Write(panel,title.ToUpper(TextCulture),KarineTheme.Primary,B.PanelTitleSize,Heading);head.style.marginBottom=KarineTheme.SpaceXs;head.style.letterSpacing=1;
    var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Border;rule.style.marginBottom=KarineTheme.SpaceSm;panel.Add(rule);
   }
   parent.Add(panel);return panel;
@@ -44,7 +45,7 @@ public static partial class KarineUI {
   var cell=new VisualElement();cell.style.flexGrow=1;cell.style.flexBasis=0;cell.style.alignItems=Align.Center;
   if(divider){cell.style.borderLeftWidth=1;cell.style.borderLeftColor=KarineTheme.Border;}
   Write(cell,value,KarineTheme.Primary,B.FigureSize,Heading).style.marginBottom=0;
-  var l=Write(cell,label.ToUpper(Tr),KarineTheme.Primary,B.FigureLabelSize,Heading);l.style.marginBottom=0;l.style.marginTop=-KarineTheme.SpaceXs;l.style.letterSpacing=1;
+  var l=Write(cell,label.ToUpper(TextCulture),KarineTheme.Primary,B.FigureLabelSize,Heading);l.style.marginBottom=0;l.style.marginTop=-KarineTheme.SpaceXs;l.style.letterSpacing=1;
   if(!string.IsNullOrEmpty(sub)){var s=Technical(cell,sub,B.FigureSubSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;}
   parent.Add(cell);
  }
@@ -68,7 +69,7 @@ public static partial class KarineUI {
   words.style.justifyContent=Justify.Center;
   var number=Write(words,value,KarineTheme.Primary,B.TileNumberSize,Heading);number.style.marginBottom=-KarineTheme.SpaceSm;
   number.style.unityTextAlign=TextAnchor.MiddleLeft;
-  var l=Write(words,label.ToUpper(Tr),KarineTheme.Primary,B.TileLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
+  var l=Write(words,label.ToUpper(TextCulture),KarineTheme.Primary,B.TileLabelSize,Heading);l.style.marginBottom=0;l.style.letterSpacing=1;
   l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;l.style.unityTextAlign=TextAnchor.UpperLeft;
   parent.Add(tile);return tile;
  }
@@ -80,7 +81,7 @@ public static partial class KarineUI {
   var l=Body_(row,label,B.LegendSize);l.style.flexGrow=1;l.style.flexShrink=1;l.style.minWidth=0;l.style.marginBottom=0;
   l.style.whiteSpace=WhiteSpace.NoWrap;l.style.overflow=Overflow.Hidden;l.style.textOverflow=TextOverflow.Ellipsis;
   var n=Write(row,count.ToString(),KarineTheme.Primary,B.LegendSize+4,Heading);n.style.marginBottom=0;n.style.width=28;n.style.unityTextAlign=TextAnchor.MiddleRight;
-  var p=Write(row,"%"+percent,KarineTheme.Primary,B.LegendSize+4,Heading);p.style.marginBottom=0;p.style.width=48;p.style.unityTextAlign=TextAnchor.MiddleRight;
+  var p=Write(row,Percent(percent),KarineTheme.Primary,B.LegendSize+4,Heading);p.style.marginBottom=0;p.style.width=48;p.style.unityTextAlign=TextAnchor.MiddleRight;
  }
 
  public static Button BoardCountry(VisualElement parent,string id,Texture2D art,string name,string count,float ratio,bool locked,Action click) {
@@ -95,9 +96,35 @@ public static partial class KarineUI {
   if(locked)Icon(photo,"lock",KarineTheme.Primary,KarineTheme.IconSize+4);
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.paddingLeft=KarineTheme.SpaceLg;words.style.paddingRight=KarineTheme.SpaceSm;row.Add(words);
   var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;top.style.marginBottom=KarineTheme.SpaceXs;words.Add(top);
-  var n=Write(top,name.ToUpper(Tr),KarineTheme.Primary,B.CountryNameSize,Heading);n.style.flexGrow=1;n.style.marginBottom=0;n.style.letterSpacing=1;n.style.unityTextAlign=TextAnchor.MiddleLeft;
+  var n=Write(top,name.ToUpper(TextCulture),KarineTheme.Primary,B.CountryNameSize,Heading);n.style.flexGrow=1;n.style.marginBottom=0;n.style.letterSpacing=1;n.style.unityTextAlign=TextAnchor.MiddleLeft;
   var c=Write(top,count,KarineTheme.Primary,B.CountryNameSize,Heading);c.style.marginBottom=0;c.style.unityTextAlign=TextAnchor.MiddleRight;
   BoardBar(words,ratio,B.BarHeight-4);
+  parent.Add(row);return row;
+ }
+
+ // Güven seyri: her değerlendirmeden sonraki güven bir sütun; renk o faksın yönü.
+ // Kesik çizgi kariyer sonu eşiği değil, başlangıç güvenidir — oyuncu nereden geldiğini görür.
+ public static VisualElement TrustCurve(VisualElement parent,int start,IReadOnlyList<(int after,int change)> points) {
+  var frame=new VisualElement {name="TrustCurve",pickingMode=PickingMode.Ignore};frame.style.height=B.CurveHeight;frame.style.flexShrink=0;
+  frame.style.flexDirection=FlexDirection.Row;frame.style.alignItems=Align.FlexEnd;frame.style.borderBottomWidth=1;frame.style.borderBottomColor=KarineTheme.Border;
+  var baseline=new VisualElement {pickingMode=PickingMode.Ignore};baseline.style.position=Position.Absolute;baseline.style.left=0;baseline.style.right=0;
+  baseline.style.bottom=Length.Percent(Mathf.Clamp(start,0,100));baseline.style.height=1;baseline.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Secondary,.6f);frame.Add(baseline);
+  void Column(int value,Color tone) {
+   var col=new VisualElement {pickingMode=PickingMode.Ignore};col.style.flexGrow=1;col.style.maxWidth=B.CurveColumnMax;col.style.marginRight=2;
+   col.style.height=Length.Percent(Mathf.Clamp(value,1,100));col.style.backgroundColor=tone;Round(col,2);frame.Add(col);
+  }
+  Column(start,KarineTheme.Alpha(KarineTheme.Secondary,.7f));
+  foreach(var p in points)Column(p.after,p.change>0?B.Supported:p.change<0?KarineTheme.Danger:KarineTheme.Secondary);
+  parent.Add(frame);return frame;
+ }
+
+ // Sicil satırı: solda başlık, sağda kısa değer. Uzun başlık kesilir, değer kesilmez.
+ public static VisualElement RecordLine(VisualElement parent,string title,string value,Color tone) {
+  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;row.style.flexShrink=0;
+  row.style.paddingTop=KarineTheme.SpaceXs;row.style.paddingBottom=KarineTheme.SpaceXs;row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Border;
+  var t=Body_(row,title,B.RecordLineSize);t.style.flexGrow=1;t.style.flexShrink=1;t.style.minWidth=0;t.style.marginBottom=0;
+  t.style.whiteSpace=WhiteSpace.NoWrap;t.style.overflow=Overflow.Hidden;t.style.textOverflow=TextOverflow.Ellipsis;
+  var v=Write(row,value,tone,B.RecordLineSize+3,Heading);v.style.marginBottom=0;v.style.marginLeft=KarineTheme.SpaceSm;v.style.flexShrink=0;
   parent.Add(row);return row;
  }
 

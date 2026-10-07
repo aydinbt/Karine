@@ -14,9 +14,11 @@ public sealed partial class BubeApp {
   KarineUI.CareerTabs(main,
    (T("career.tab.general"),careerTab==0,()=>{careerTab=0;StatisticsPage();}),
    (T("career.tab.history"),careerTab==1,()=>{careerTab=1;StatisticsPage();}),
+   (T("career.tab.record"),careerTab==2,()=>{careerTab=2;StatisticsPage();}),
    (T("archive.menu"),false,ArchivePage));
   var history=game.Career.reviewHistory;
   if(careerTab==1){CareerHistory(main,history);KarineUI.CardsDrop(main);return;}
+  if(careerTab==2){CareerRecord(main,history);KarineUI.CardsDrop(main);return;}
   atlas=atlas??Worlds.Load();var closed=Worlds.Closed(game.Career);
   int total=atlas.countries.Sum(c=>c.slots.Count),done=atlas.countries.Sum(c=>Worlds.CompletedIn(c,closed));
   int worlds=atlas.countries.Count(c=>c.slots.Count>0&&Worlds.CompletedIn(c,closed)==c.slots.Count);
@@ -26,7 +28,7 @@ public sealed partial class BubeApp {
   var figures=new VisualElement();figures.style.flexDirection=FlexDirection.Row;figures.style.marginBottom=KarineTheme.SpaceSm;overall.Add(figures);
   KarineUI.BoardFigure(figures,atlas.countries.Count.ToString(),T("career.board.countries"),worlds+" / "+atlas.countries.Count,false);
   KarineUI.BoardFigure(figures,total.ToString(),T("career.board.cases"),done+" / "+total,true);
-  KarineUI.BoardFigure(figures,"%"+Mathf.RoundToInt(ratio*100),T("career.board.progress"),null,true);
+  KarineUI.BoardFigure(figures,KarineUI.Percent(Mathf.RoundToInt(ratio*100)),T("career.board.progress"),null,true);
   KarineUI.BoardBar(overall,ratio,KarineTheme.CareerBoard.BarHeight);
 
   int pending=game.Career.pendingReviews.Count;
@@ -35,7 +37,7 @@ public sealed partial class BubeApp {
   tiles.style.marginTop=KarineTheme.SpaceSm;tiles.style.marginBottom=KarineTheme.SpaceSm;main.Add(tiles);
   KarineUI.BoardTile(tiles,"folder",history.Count.ToString(),T("career.board.done"));
   KarineUI.BoardTile(tiles,"document",wrong.ToString(),T("career.board.failed"));
-  TrustBadge(KarineUI.BoardTile(tiles,"chart","%"+game.Career.departmentTrust,T(game.TrustStatusKey)));
+  TrustBadge(KarineUI.BoardTile(tiles,"chart",KarineUI.Percent(game.Career.departmentTrust),T(game.TrustStatusKey)));
   KarineUI.BoardTile(tiles,"clock",pending.ToString(),T("career.board.pending")).style.marginRight=0;
 
   var lower=new VisualElement();lower.style.flexDirection=FlexDirection.Row;lower.style.flexGrow=1;lower.style.minHeight=0;main.Add(lower);

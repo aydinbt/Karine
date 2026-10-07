@@ -12,9 +12,9 @@ public static partial class KarineUI {
   Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(paper);
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);var c=scroll.contentContainer;
-  var m=Typed(c,meta.ToUpper(Tr),F.MetaSize);m.style.unityTextAlign=TextAnchor.MiddleCenter;m.style.marginBottom=KarineTheme.SpaceSm;
+  var m=Typed(c,meta.ToUpper(TextCulture),F.MetaSize);m.style.unityTextAlign=TextAnchor.MiddleCenter;m.style.marginBottom=KarineTheme.SpaceSm;
   PaperRule(c,true);
-  heading=Write(c,title.ToUpper(Tr),KarineTheme.Paper.Ink,F.TitleSize,Heading);heading.name="FaxTitle";
+  heading=Write(c,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,F.TitleSize,Heading);heading.name="FaxTitle";
   heading.style.unityTextAlign=TextAnchor.MiddleCenter;heading.style.marginTop=KarineTheme.SpaceSm;heading.style.marginBottom=KarineTheme.SpaceSm;heading.style.letterSpacing=2;
   PaperRule(c,true);
   return c;
@@ -24,7 +24,7 @@ public static partial class KarineUI {
   cell.style.paddingLeft=cell.style.paddingRight=KarineTheme.SpaceSm;cell.style.paddingTop=cell.style.paddingBottom=KarineTheme.SpaceXs+2;cell.style.justifyContent=Justify.Center;
   if(!last){cell.style.borderRightWidth=1;cell.style.borderRightColor=KarineTheme.Paper.Ink;}
   row.Add(cell);
-  var l=head||bold?Write(cell,text.ToUpper(Tr),KarineTheme.Paper.Ink,head?F.HeadSize:F.HeadSize+1,Heading):Typed(cell,text,F.CellSize);
+  var l=head||bold?Write(cell,text.ToUpper(TextCulture),KarineTheme.Paper.Ink,head?F.HeadSize:F.HeadSize+1,Heading):Typed(cell,text,F.CellSize);
   l.style.marginBottom=0;l.style.whiteSpace=WhiteSpace.Normal;
   return cell;
  }
@@ -46,14 +46,14 @@ public static partial class KarineUI {
   var row=new VisualElement {pickingMode=PickingMode.Ignore};row.style.flexDirection=FlexDirection.Row;row.style.justifyContent=Justify.FlexEnd;row.style.alignItems=Align.Center;parent.Add(row);
   var seal=new VisualElement {name="FaxSeal"};seal.style.width=seal.style.height=F.Stamp;Round(seal,F.Stamp/2);Border(seal,3,KarineTheme.Alpha(KarineTheme.Paper.Stamp,.55f));
   seal.style.alignItems=Align.Center;seal.style.justifyContent=Justify.Center;seal.style.rotate=new Rotate(-12);row.Add(seal);
-  var t=Write(seal,text.ToUpper(Tr),KarineTheme.Alpha(KarineTheme.Paper.Stamp,.6f),F.HeadSize-2,Heading);t.style.marginBottom=0;t.style.unityTextAlign=TextAnchor.MiddleCenter;t.style.maxWidth=F.Stamp-16;
+  var t=Write(seal,text.ToUpper(TextCulture),KarineTheme.Alpha(KarineTheme.Paper.Stamp,.6f),F.HeadSize-2,Heading);t.style.marginBottom=0;t.style.unityTextAlign=TextAnchor.MiddleCenter;t.style.maxWidth=F.Stamp-16;
   var sign=new VisualElement();sign.style.width=F.Stamp;sign.style.height=2;sign.style.marginLeft=KarineTheme.SpaceLg;sign.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Ink,.6f);sign.style.rotate=new Rotate(-14);row.Add(sign);
  }
  public static VisualElement FaxSide(VisualElement parent,string heading,string status,int trend,string note) {
   var panel=new VisualElement {name="FaxSide"};OfficePlace(panel,F.Side);
   panel.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.95f);Border(panel,KarineTheme.BorderWidth,KarineTheme.Alpha(KarineTheme.Accent,.6f));Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=panel.style.paddingRight=KarineTheme.SpaceXl;panel.style.paddingTop=KarineTheme.SpaceXl;panel.style.paddingBottom=KarineTheme.SpaceXl;parent.Add(panel);
-  Write(panel,heading.ToUpper(Tr),KarineTheme.Primary,F.SideHead,Heading).style.marginBottom=KarineTheme.SpaceSm;
+  Write(panel,heading.ToUpper(TextCulture),KarineTheme.Primary,F.SideHead,Heading).style.marginBottom=KarineTheme.SpaceSm;
   var rule=new VisualElement();rule.style.height=1;rule.style.backgroundColor=KarineTheme.Border;rule.style.marginBottom=KarineTheme.SpaceLg;panel.Add(rule);
   var box=new VisualElement {name="FaxTrust"};box.style.flexDirection=FlexDirection.Row;box.style.alignItems=Align.Center;Border(box,KarineTheme.BorderWidth,KarineTheme.Border);Round(box,KarineTheme.Radius);
   box.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Background,.6f);panel.Add(box);
@@ -69,7 +69,7 @@ public static partial class KarineUI {
   b.style.marginLeft=b.style.marginRight=b.style.marginTop=0;b.style.marginBottom=KarineTheme.SpaceMd;b.style.paddingLeft=b.style.paddingRight=KarineTheme.SpaceLg;
   Unskin(b,KarineTheme.Alpha(KarineTheme.Background,.6f));Border(b,KarineTheme.BorderWidth,KarineTheme.Border);Round(b,KarineTheme.Radius);
   Icon(b,icon,KarineTheme.Primary,KarineTheme.IconSize+4).style.marginRight=KarineTheme.SpaceMd;
-  var l=Write(b,label.ToUpper(Tr),KarineTheme.Primary,F.LinkSize,Heading);l.style.marginBottom=0;l.style.flexGrow=1;
+  var l=Write(b,label.ToUpper(TextCulture),KarineTheme.Primary,F.LinkSize,Heading);l.style.marginBottom=0;l.style.flexGrow=1;
   Icon(b,"nav_next",KarineTheme.Primary,KarineTheme.IconSize);
   parent.Add(b);return b;
  }

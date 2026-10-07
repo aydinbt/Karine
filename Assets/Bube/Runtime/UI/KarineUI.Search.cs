@@ -12,7 +12,7 @@ public static partial class KarineUI {
   parent.Add(panel);return c;
  }
  public static void SearchGroup(VisualElement panel,string title,bool first) {
-  var g=Write(panel,title.ToUpper(Tr),KarineTheme.Primary,S.GroupSize,Heading);g.style.marginLeft=KarineTheme.SpaceXs;g.style.marginBottom=KarineTheme.SpaceSm;
+  var g=Write(panel,title.ToUpper(TextCulture),KarineTheme.Primary,S.GroupSize,Heading);g.style.marginLeft=KarineTheme.SpaceXs;g.style.marginBottom=KarineTheme.SpaceSm;
   if(!first){g.style.marginTop=KarineTheme.SpaceLg;g.style.paddingTop=KarineTheme.SpaceMd;g.style.borderTopWidth=1;g.style.borderTopColor=KarineTheme.Alpha(KarineTheme.Border,.6f);}
  }
  // Süzgeç satırı: ikon ya da yuvarlak portre ve ad; seçili olan amber çerçeveli.
@@ -26,7 +26,7 @@ public static partial class KarineUI {
    var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};face.style.width=S.Portrait;face.style.height=S.Portrait;face.style.flexShrink=0;
    Round(face,S.Portrait/2);Border(face,KarineTheme.BorderWidth,KarineTheme.Border);face.style.marginRight=KarineTheme.SpaceSm;row.Add(face);
   } else Icon(row,icon,selected?KarineTheme.Accent:KarineTheme.Secondary,S.FilterIcon).style.marginRight=KarineTheme.SpaceSm;
-  var l=Write(row,portrait!=null?label:label.ToUpper(Tr),selected?KarineTheme.Primary:KarineTheme.Secondary,S.FilterSize,Heading);l.style.marginBottom=0;l.style.flexShrink=1;
+  var l=Write(row,portrait!=null?label:label.ToUpper(TextCulture),selected?KarineTheme.Primary:KarineTheme.Secondary,S.FilterSize,Heading);l.style.marginBottom=0;l.style.flexShrink=1;
   panel.Add(row);return row;
  }
  public static VisualElement SearchPaper(VisualElement parent) {
@@ -38,13 +38,13 @@ public static partial class KarineUI {
  }
  public static void SearchHead(VisualElement paper,string title,string count) {
   var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.FlexEnd;line.style.flexShrink=0;paper.Add(line);
-  Typed(line,title.ToUpper(Tr),S.TitleSize,true).style.flexGrow=1;
-  Typed(line,count.ToUpper(Tr),S.CountSize,true).style.marginRight=KarineTheme.SpaceXl;
+  Typed(line,title.ToUpper(TextCulture),S.TitleSize,true).style.flexGrow=1;
+  Typed(line,count.ToUpper(TextCulture),S.CountSize,true).style.marginRight=KarineTheme.SpaceXl;
   PaperRule(paper,false);
  }
  // Son aramalar: koyu çipler; çipe dokununca süzgeç geri gelir, ✕ onu listeden siler.
  public static VisualElement SearchRecentRow(VisualElement paper,string title) {
-  Typed(paper,title.ToUpper(Tr),S.GroupSize-2,true).style.marginBottom=KarineTheme.SpaceSm;
+  Typed(paper,title.ToUpper(TextCulture),S.GroupSize-2,true).style.marginBottom=KarineTheme.SpaceSm;
   var row=new VisualElement {name="SearchRecent"};row.style.flexDirection=FlexDirection.Row;row.style.flexWrap=Wrap.Wrap;row.style.flexShrink=0;row.style.marginBottom=KarineTheme.SpaceMd;
   paper.Add(row);return row;
  }
@@ -76,7 +76,7 @@ public static partial class KarineUI {
   var go=new VisualElement {pickingMode=PickingMode.Ignore};go.style.flexDirection=FlexDirection.Row;go.style.alignItems=Align.Center;go.style.justifyContent=Justify.Center;
   go.style.width=S.OpenWidth;go.style.height=KarineTheme.TouchTarget-4;go.style.marginLeft=KarineTheme.SpaceMd;go.style.flexShrink=0;
   go.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.97f);Round(go,KarineTheme.Radius);card.Add(go);
-  Write(go,openLabel.ToUpper(Tr),KarineTheme.Primary,S.ResultTitleSize,Heading).style.marginBottom=0;
+  Write(go,openLabel.ToUpper(TextCulture),KarineTheme.Primary,S.ResultTitleSize,Heading).style.marginBottom=0;
   Icon(go,"nav_next",KarineTheme.Primary,S.ResultTitleSize).style.marginLeft=KarineTheme.SpaceXs;
   return card;
  }

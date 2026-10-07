@@ -15,7 +15,7 @@ public static partial class KarineUI {
   var front=new VisualElement {pickingMode=PickingMode.Ignore};front.style.alignItems=Align.Center;front.style.marginTop=KarineTheme.SpaceLg;drawer.Add(front);
   var label=new VisualElement();label.style.paddingLeft=label.style.paddingRight=KarineTheme.SpaceXl;label.style.paddingTop=label.style.paddingBottom=KarineTheme.SpaceXs;
   label.style.backgroundColor=KarineTheme.Paper.Edge;Border(label,2,KarineTheme.Secondary);Round(label,KarineTheme.Radius);front.Add(label);
-  Write(label,plate.ToUpper(Tr),KarineTheme.Paper.Ink,A.PlateSize,Heading).style.marginBottom=0;
+  Write(label,plate.ToUpper(TextCulture),KarineTheme.Paper.Ink,A.PlateSize,Heading).style.marginBottom=0;
   var handle=new VisualElement();handle.style.width=A.Handle;handle.style.height=A.Handle/6;handle.style.marginTop=KarineTheme.SpaceSm;
   Border(handle,3,KarineTheme.Secondary);handle.style.borderTopWidth=0;front.Add(handle);
   return scroll.contentContainer;
@@ -28,7 +28,7 @@ public static partial class KarineUI {
   var box=new VisualElement();box.style.width=A.CardIcon;box.style.alignSelf=Align.Stretch;box.style.alignItems=Align.Center;box.style.justifyContent=Justify.Center;box.style.backgroundColor=KarineTheme.GlassDeep;card.Add(box);
   Icon(box,"folder",KarineTheme.Accent,A.CardIcon/2);
   var text=new VisualElement();text.style.flexGrow=1;text.style.flexShrink=1;text.style.paddingLeft=KarineTheme.SpaceXl;text.style.paddingTop=text.style.paddingBottom=KarineTheme.SpaceMd;card.Add(text);
-  var t=Write(text,title.ToUpper(Tr),KarineTheme.Paper.Ink,A.CardTitle,Heading);t.style.marginBottom=KarineTheme.SpaceXs;t.style.whiteSpace=WhiteSpace.Normal;
+  var t=Write(text,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,A.CardTitle,Heading);t.style.marginBottom=KarineTheme.SpaceXs;t.style.whiteSpace=WhiteSpace.Normal;
   Typed(text,date,A.CardDate).style.marginBottom=0;
   if(!string.IsNullOrEmpty(stamp)) {
    var col=new VisualElement {pickingMode=PickingMode.Ignore};col.style.alignItems=Align.Center;col.style.marginRight=KarineTheme.SpaceLg;card.Add(col);
@@ -42,7 +42,7 @@ public static partial class KarineUI {
  public static VisualElement InkStamp(VisualElement parent,string text,Color ink,int size) {
   var stamp=new VisualElement {name="InkStamp",pickingMode=PickingMode.Ignore};Border(stamp,3,KarineTheme.Alpha(ink,.85f));Round(stamp,KarineTheme.Radius);
   stamp.style.paddingLeft=stamp.style.paddingRight=KarineTheme.SpaceLg;stamp.style.rotate=new Rotate(-5);stamp.style.alignSelf=Align.FlexStart;parent.Add(stamp);
-  var t=Write(stamp,text.ToUpper(Tr),KarineTheme.Alpha(ink,.9f),size,Heading);t.style.marginBottom=0;
+  var t=Write(stamp,text.ToUpper(TextCulture),KarineTheme.Alpha(ink,.9f),size,Heading);t.style.marginBottom=0;
   return stamp;
  }
  public static void ArchiveEmpty(VisualElement parent,string text) {
@@ -57,7 +57,7 @@ public static partial class KarineUI {
   var panel=new VisualElement {name="ArchiveSources"};OfficePlace(panel,A.Sources);
   panel.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.95f);Border(panel,KarineTheme.BorderWidth,KarineTheme.Border);Round(panel,KarineTheme.Radius);
   panel.style.paddingLeft=panel.style.paddingRight=KarineTheme.SpaceMd;panel.style.paddingTop=KarineTheme.SpaceLg;panel.style.paddingBottom=KarineTheme.SpaceMd;parent.Add(panel);
-  var h=Write(panel,heading.ToUpper(Tr),KarineTheme.Primary,A.SourceHead,Heading);h.style.marginBottom=KarineTheme.SpaceMd;h.style.marginLeft=KarineTheme.SpaceSm;
+  var h=Write(panel,heading.ToUpper(TextCulture),KarineTheme.Primary,A.SourceHead,Heading);h.style.marginBottom=KarineTheme.SpaceMd;h.style.marginLeft=KarineTheme.SpaceSm;
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;panel.Add(scroll);
   return scroll.contentContainer;
  }
@@ -73,7 +73,7 @@ public static partial class KarineUI {
  // Kâğıt başlığı: büyük başlık, sağda küçük tarih, altında çizgi.
  public static void ArchiveHeading(VisualElement parent,string title,string side=null) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.FlexEnd;row.style.justifyContent=Justify.SpaceBetween;parent.Add(row);
-  Write(row,title.ToUpper(Tr),KarineTheme.Paper.Ink,A.HeadSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
+  Write(row,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,A.HeadSize,Heading).style.marginBottom=KarineTheme.SpaceXs;
   if(!string.IsNullOrEmpty(side))Typed(row,side,A.SmallSize).style.marginBottom=KarineTheme.SpaceXs;
   var rule=new VisualElement();rule.style.height=2;rule.style.backgroundColor=KarineTheme.Paper.Ink;rule.style.marginBottom=KarineTheme.SpaceMd;parent.Add(rule);
  }

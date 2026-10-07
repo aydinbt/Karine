@@ -165,7 +165,7 @@ public sealed partial class BubeApp {
     foreach(var record in item.cctvEvents ?? new CctvEvent[0]) {
      var reference=item.id+"#"+record.id;
      if(record.notPresentable)continue;
-     if(!game.SourceConcernsPerson(node,record.aboutPersonIds,T(record.textKey)))continue;
+     if(!game.SourceConcernsPerson(node,record.aboutPersonIds,game.RuleString(record.textKey)))continue;
      if(game.SourceTried(node,active,reference))continue;
      // Aynı kameranın satırları tek tek ayırt edilsin: başlık kaydın kendisi, alt satır kamera.
      add("cctv",T(record.textKey),T(item.titleKey),reference,category);
@@ -174,13 +174,13 @@ public sealed partial class BubeApp {
     foreach(var turn in game.State.interviewTurns.Where(t=>t.nodeId==item.id)) {
      var reference=game.InterviewTurnReference(turn);
      if(!game.SourceConcernsPerson(node,game.FindQuestion(item,turn.questionId)?.aboutPersonIds,
-      T(turn.promptKey)+" "+T(turn.answerKey)))continue;
+      game.RuleString(turn.promptKey,turn.answerKey)))continue;
      if(game.SourceTried(node,active,reference))continue;
      // Öne sürülen şey kişinin **verdiği yanıttır**, tırnak içinde gösterilir.
      add("chat",T(item.personNameKey),"“"+T(turn.answerKey)+"”",reference,category);
     }
    } else if(!game.SourceTried(node,active,item.id) &&
-    game.SourceConcernsPerson(node,item.aboutPersonIds,T(item.titleKey)+" "+T(item.bodyKey))) {
+    game.SourceConcernsPerson(node,item.aboutPersonIds,game.RuleString(item.titleKey,item.bodyKey))) {
     add("document",T(item.titleKey),locale.Has("kind."+item.kind)?T("kind."+item.kind):null,item.id,category);
    }
   }

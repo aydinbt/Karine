@@ -30,7 +30,7 @@ public static partial class KarineUI {
   var header=new VisualElement();header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;header.style.flexShrink=0;panel.Add(header);
   Icon(header,icon,KarineTheme.Primary,M.HeaderIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement();words.style.flexGrow=1;header.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,M.TitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceMd;t.style.letterSpacing=1;
+  var t=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,M.TitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceMd;t.style.letterSpacing=1;
   var sub=Body_(words,subtitle,M.SubSize);sub.style.color=KarineTheme.Secondary;sub.style.marginBottom=0;
   var x=new Button(Sounded(close)) {name=name+"Close"};x.style.width=M.Close;x.style.height=M.Close;
   Unskin(x,Color.clear);Border(x,KarineTheme.BorderWidth,KarineTheme.Border);Round(x,KarineTheme.Radius);
@@ -63,7 +63,7 @@ public static partial class KarineUI {
   var ink=selected?KarineTheme.Accent:KarineTheme.Primary;
   Icon(tab,icon,ink,M.TabIcon).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexShrink=1;words.style.minWidth=0;tab.Add(words);
-  var t=Write(words,title.ToUpper(Tr),ink,M.TabTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceXs;t.style.letterSpacing=1;Left(t);
+  var t=Write(words,title.ToUpper(TextCulture),ink,M.TabTitleSize,Heading);t.style.marginBottom=-KarineTheme.SpaceXs;t.style.letterSpacing=1;Left(t);
   if(!string.IsNullOrEmpty(hint)){var h=Body_(words,hint,M.TabHintSize);h.style.color=KarineTheme.Secondary;h.style.marginBottom=0;Left(h);}
   parent.Add(tab);return tab;
  }
@@ -75,7 +75,7 @@ public static partial class KarineUI {
   row.style.alignItems=stacked?Align.Stretch:Align.Center;row.style.paddingTop=M.RowGap;row.style.paddingBottom=M.RowGap;
   row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Border;parent.Add(row);
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;row.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,M.RowTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;
+  var t=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,M.RowTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;
   if(!string.IsNullOrEmpty(hint)){var h=Body_(words,hint,M.RowHintSize);h.style.color=KarineTheme.Secondary;h.style.marginBottom=0;}
   var control=new VisualElement {name="SettingControl"};control.style.flexShrink=0;
   if(stacked){control.style.flexDirection=FlexDirection.Row;control.style.flexWrap=Wrap.Wrap;control.style.marginTop=KarineTheme.SpaceSm;}
@@ -106,7 +106,7 @@ public static partial class KarineUI {
   Border(card,selected?2:KarineTheme.BorderWidth,selected?KarineTheme.Accent:KarineTheme.Border);Round(card,KarineTheme.Radius);
   if(!string.IsNullOrEmpty(icon))Icon(card,icon,KarineTheme.Primary,KarineTheme.IconSize+6).style.marginRight=KarineTheme.SpaceMd;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;card.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,M.CardTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
+  var t=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,M.CardTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
   if(!string.IsNullOrEmpty(detail)){var d=Body_(words,detail,M.RowHintSize);d.style.color=KarineTheme.Secondary;d.style.marginBottom=0;Left(d);}
   if(selected) {
    var mark=new VisualElement {pickingMode=PickingMode.Ignore};mark.style.width=26;mark.style.height=26;mark.style.flexShrink=0;
@@ -156,7 +156,7 @@ public static partial class KarineUI {
   var words=new VisualElement {pickingMode=PickingMode.Ignore};button.Add(words);
   // Bebas'ın satır yüksekliği geniş: başlık ile açıklama bitişir, blok ikonla ortalanır.
   words.style.justifyContent=Justify.Center;
-  var t=Write(words,title.ToUpper(Tr),ink,M.FooterTitleSize,Heading);t.style.letterSpacing=1;Left(t);
+  var t=Write(words,title.ToUpper(TextCulture),ink,M.FooterTitleSize,Heading);t.style.letterSpacing=1;Left(t);
   // Tek satırlıksa (Geri gibi) negatif boşluk yazıyı yukarı kaydırır; yalnız açıklama varken bitiştirilir.
   t.style.marginBottom=string.IsNullOrEmpty(detail)?0:-KarineTheme.SpaceSm;
   if(!string.IsNullOrEmpty(detail)){var d=Body_(words,detail,M.TabHintSize);d.style.color=primary?KarineTheme.Paper.Ink:KarineTheme.Secondary;d.style.marginBottom=0;Left(d);}

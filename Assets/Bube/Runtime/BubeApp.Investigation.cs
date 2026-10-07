@@ -28,7 +28,7 @@ public sealed partial class BubeApp {
  // Bekleyen etiketin süresi her saniye yeniden yazılır.
  void LiveWait(VisualElement pill,string label,long readyTicks) {
   var text=pill.Q<Label>("RequestPillText");var ready=new DateTime(readyTicks,DateTimeKind.Utc);
-  Action write=()=>text.text=(label+" · "+KarineUI.Countdown(ready)).ToUpper(KarineUI.Tr);
+  Action write=()=>text.text=(label+" · "+KarineUI.Countdown(ready)).ToUpper(KarineUI.TextCulture);
   write();text.schedule.Execute(write).Every(1000);
  }
  string selectedRequestPerson,selectedRequestDocument;
@@ -275,7 +275,7 @@ public sealed partial class BubeApp {
   text=(text ?? string.Empty).Replace("<","‹");
   if(string.IsNullOrEmpty(name))return text;
   foreach(var candidate in new[]{name,name.Split(' ')[0]}) {
-   int at=KarineUI.Tr.CompareInfo.IndexOf(text,candidate,System.Globalization.CompareOptions.IgnoreCase);
+   int at=KarineUI.TextCulture.CompareInfo.IndexOf(text,candidate,System.Globalization.CompareOptions.IgnoreCase);
    if(at<0)continue;
    return text.Substring(0,at)+"<mark=#E0A04070>"+text.Substring(at,candidate.Length)+"</mark>"+text.Substring(at+candidate.Length);
   }

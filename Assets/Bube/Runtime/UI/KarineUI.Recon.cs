@@ -18,7 +18,7 @@ public static partial class KarineUI {
   var body=new Button(Sounded(focus)) {name="ReconFocus",tooltip=label};Unskin(body,Color.clear);
   body.style.flexGrow=1;body.style.flexShrink=1;body.style.flexBasis=0;body.style.alignItems=Align.FlexStart;
   body.style.marginLeft=0;body.style.paddingLeft=0;row.Add(body);
-  var l=Typed(body,label.ToUpper(Tr),R.RowSize,true);l.style.marginBottom=0;l.style.whiteSpace=WhiteSpace.Normal;l.pickingMode=PickingMode.Ignore;
+  var l=Typed(body,label.ToUpper(TextCulture),R.RowSize,true);l.style.marginBottom=0;l.style.whiteSpace=WhiteSpace.Normal;l.pickingMode=PickingMode.Ignore;
   var s=Typed(body,source,R.RowSize-2,false,KarineTheme.Paper.Faded);s.style.marginBottom=0;s.style.whiteSpace=WhiteSpace.Normal;s.pickingMode=PickingMode.Ignore;
   foreach(var (icon,action) in new (string,Action)[]{("nav_prev",up),("nav_next",down),("close",remove)}) {
    var b=new Button(Sounded(action)) {name="ReconTool"};Unskin(b,Color.clear);

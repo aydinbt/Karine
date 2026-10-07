@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 7 Ekim 2026
+**Son güncelleme:** 8 Ekim 2026
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**8 Ekim:** **Oyun altı dile hazırlanıyor; kariyer ekranına Sicil sekmesi eklendi.** Diller: İngilizce, Almanca, Fransızca, İtalyanca, İspanyolca, Portekizce (BR); Türkçe kanon. Dil seçimi, cihaz diline göre açılış ve eksik satırda İngilizce → Türkçe düşme zinciri kuruldu. Ad geçme kuralı her dilde Türkçe metinden hesaplanıyor; çeviri denetimi Türkçedeki kuralların karşılığını her dile uyguluyor ([TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md)). Büyük harf ve yüzde artık dile göre. **Çeviri metinleri henüz yazılmadı.** 136 EditMode + 27 PlayMode geçiyor; hiçbiri Play Mode'da görülmedi.
 
 **7 Ekim:** **Sorgu akışı ayıklandı ve oyunda CCTV videosu kalmadı.** Sinyal boşluğu ya da "kayıt yok" satırı artık görüşmede öne sürülemiyor (doğrulayıcı kuralı). Yanlış ama ilgili kayıt sunulup yanıt alınınca soru, oyuncu yeni bir şey okuyana ya da başka soru sorana kadar kapanıyor. 73 dosyanın bütün sorguları okundu; aynı kişiye aynı kaydın iki kez sunulması, boş tekrar sorular, yinelenen cümleler ve bir saat çelişkisi düzeltildi. Bütün CCTV olaylarının kareleri girdi; #001'de yalnız 12.16 çıkışı karelendi. 133/133 EditMode; **hiçbiri Play Mode'da görülmedi.**
 

@@ -24,7 +24,7 @@ public static partial class KarineUI {
   Icon(step,done&&!active?"check":icon,tone,R.StepIcon).style.marginRight=KarineTheme.SpaceSm;
   var text=new VisualElement {pickingMode=PickingMode.Ignore};text.style.flexShrink=1;step.Add(text);
   var n=Write(text,number,tone,R.StepNumberSize,Heading);n.style.marginBottom=0;
-  var l=Write(text,label.ToUpper(Tr),active?KarineTheme.Primary:KarineTheme.Secondary,R.StepLabelSize,Heading);l.style.marginBottom=0;
+  var l=Write(text,label.ToUpper(TextCulture),active?KarineTheme.Primary:KarineTheme.Secondary,R.StepLabelSize,Heading);l.style.marginBottom=0;
   rail.Add(step);return step;
  }
  public static VisualElement ReportPaper(VisualElement parent) {
@@ -38,14 +38,14 @@ public static partial class KarineUI {
  // "SONUÇ RAPORU        DOSYA #001   01 / 04", çizgi, daktilo yönerge.
  public static void ReportHead(VisualElement paper,string title,string file,string counter,string help) {
   var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.FlexEnd;line.style.flexShrink=0;paper.Add(line);
-  var t=Typed(line,title.ToUpper(Tr),R.TitleSize,true);t.style.flexGrow=1;
-  Typed(line,file.ToUpper(Tr),R.MetaSize).style.marginRight=KarineTheme.SpaceXl;
+  var t=Typed(line,title.ToUpper(TextCulture),R.TitleSize,true);t.style.flexGrow=1;
+  Typed(line,file.ToUpper(TextCulture),R.MetaSize).style.marginRight=KarineTheme.SpaceXl;
   Typed(line,counter,R.MetaSize,true);
   PaperRule(paper,false);
   Typed(paper,help,R.HelpSize).style.marginBottom=KarineTheme.SpaceMd;
  }
  public static void ReportHeading(VisualElement parent,string text) {
-  Typed(parent,text.ToUpper(Tr),R.HeadingSize,true);PaperRule(parent,false);
+  Typed(parent,text.ToUpper(TextCulture),R.HeadingSize,true);PaperRule(parent,false);
  }
  // Şüpheli kartı: polaroid, altında daktilo ad; seçili olan amber çerçeve ve köşede tik.
  public static Button ReportPortrait(VisualElement row,Texture2D portrait,string label,bool selected,int index,Action action) {
@@ -57,7 +57,7 @@ public static partial class KarineUI {
   if(portrait!=null){var photo=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};photo.style.height=R.PhotoHeight;card.Add(photo);}
   else {var blank=new VisualElement {pickingMode=PickingMode.Ignore};blank.style.height=R.PhotoHeight;blank.style.alignItems=Align.Center;blank.style.justifyContent=Justify.Center;
    blank.style.backgroundColor=KarineTheme.Paper.Tint;card.Add(blank);Icon(blank,"person",KarineTheme.Paper.Faded,R.PhotoHeight/2);}
-  var l=Typed(card,label.ToUpper(Tr),R.CardLabelSize,true);l.style.unityTextAlign=TextAnchor.MiddleCenter;l.style.marginTop=KarineTheme.SpaceSm;l.style.whiteSpace=WhiteSpace.Normal;
+  var l=Typed(card,label.ToUpper(TextCulture),R.CardLabelSize,true);l.style.unityTextAlign=TextAnchor.MiddleCenter;l.style.marginTop=KarineTheme.SpaceSm;l.style.whiteSpace=WhiteSpace.Normal;
   if(selected)Tick(card);
   row.Add(card);return card;
  }
@@ -80,7 +80,7 @@ public static partial class KarineUI {
  }
  // "DAYANAK KAYNAK" başlığı altındaki koyu seçici: belge ikonu, seçilen kaynak ya da yönerge, aşağı ok.
  public static Button ReportSourceBar(VisualElement parent,string heading,string label,Action open) {
-  Typed(parent,heading.ToUpper(Tr),R.HeadingSize-4,true).style.marginBottom=KarineTheme.SpaceXs;
+  Typed(parent,heading.ToUpper(TextCulture),R.HeadingSize-4,true).style.marginBottom=KarineTheme.SpaceXs;
   var bar=new Button(Sounded(open)) {name="ReportSourcePicker",tooltip=label};bar.style.height=R.PickerHeight;bar.style.flexShrink=0;
   bar.style.flexDirection=FlexDirection.Row;bar.style.alignItems=Align.Center;bar.style.marginLeft=0;bar.style.marginRight=0;bar.style.marginBottom=KarineTheme.SpaceSm;
   bar.style.paddingLeft=KarineTheme.SpaceMd;bar.style.paddingRight=KarineTheme.SpaceMd;
@@ -100,7 +100,7 @@ public static partial class KarineUI {
   var q=Typed(row,quote,R.QuoteSize);q.style.flexGrow=1;q.style.flexShrink=1;q.style.whiteSpace=WhiteSpace.Normal;
   var link=new Button(Sounded(open)) {name="ReportOpenSource",tooltip=openLabel};link.style.flexDirection=FlexDirection.Row;link.style.alignItems=Align.Center;link.style.flexShrink=0;
   link.style.minHeight=KarineTheme.TouchTarget;link.style.marginLeft=KarineTheme.SpaceMd;link.style.marginRight=0;Unskin(link,Color.clear);
-  Typed(link,openLabel.ToUpper(Tr),R.NoteSize,true);Icon(link,"nav_next",KarineTheme.Paper.Ink,R.NoteSize+4).style.marginLeft=KarineTheme.SpaceXs;row.Add(link);
+  Typed(link,openLabel.ToUpper(TextCulture),R.NoteSize,true);Icon(link,"nav_next",KarineTheme.Paper.Ink,R.NoteSize+4).style.marginLeft=KarineTheme.SpaceXs;row.Add(link);
   foreach(var note in notes ?? new string[0])Typed(box,note,R.NoteSize,true,KarineTheme.Paper.Stamp).style.whiteSpace=WhiteSpace.Normal;
   return box;
  }
@@ -117,7 +117,7 @@ public static partial class KarineUI {
   var ink=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
   Unskin(button,fill);Border(button,KarineTheme.BorderWidth,primary?fill:KarineTheme.Border);Round(button,KarineTheme.Radius);
   if(icon!=null && !iconAfter)Icon(button,icon,ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
-  var l=Write(button,label.ToUpper(Tr),ink,R.HeadingSize-2,Heading);l.style.marginBottom=0;
+  var l=Write(button,label.ToUpper(TextCulture),ink,R.HeadingSize-2,Heading);l.style.marginBottom=0;
   if(icon!=null && iconAfter)Icon(button,icon,ink,KarineTheme.IconSize).style.marginLeft=KarineTheme.SpaceMd;
   nav.Add(button);return button;
  }
@@ -128,12 +128,12 @@ public static partial class KarineUI {
   Unskin(row,Color.clear);row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Paper.Edge;parent.Add(row);
   Icon(row,icon,KarineTheme.Paper.Ink,KarineTheme.IconSize).style.marginRight=KarineTheme.SpaceMd;
   var left=new VisualElement {pickingMode=PickingMode.Ignore};left.style.flexDirection=FlexDirection.Row;left.style.flexGrow=1;left.style.flexBasis=0;left.style.paddingRight=KarineTheme.SpaceMd;row.Add(left);
-  var k=Typed(left,key.ToUpper(Tr),R.RowSize,true);k.style.width=R.RowKeyWidth;k.style.flexShrink=0;
+  var k=Typed(left,key.ToUpper(TextCulture),R.RowSize,true);k.style.width=R.RowKeyWidth;k.style.flexShrink=0;
   Typed(left,":  ",R.RowSize);Typed(left,value,R.RowSize).style.flexShrink=1;left.ElementAt(2).style.whiteSpace=WhiteSpace.Normal;
   if(sourceKey==null)return row;
   var right=new VisualElement {pickingMode=PickingMode.Ignore};right.style.flexDirection=FlexDirection.Row;right.style.flexGrow=1;right.style.flexBasis=0;
   right.style.borderLeftWidth=1;right.style.borderLeftColor=KarineTheme.Paper.Edge;right.style.paddingLeft=KarineTheme.SpaceMd;row.Add(right);
-  var s=Typed(right,sourceKey.ToUpper(Tr),R.RowSize,true);s.style.width=R.RowSourceKey;s.style.flexShrink=0;
+  var s=Typed(right,sourceKey.ToUpper(TextCulture),R.RowSize,true);s.style.width=R.RowSourceKey;s.style.flexShrink=0;
   Typed(right,":  ",R.RowSize);var v=Typed(right,source,R.RowSize);v.style.flexShrink=1;v.style.whiteSpace=WhiteSpace.Normal;
   return row;
  }
@@ -147,7 +147,7 @@ public static partial class KarineUI {
   var mark=new VisualElement {pickingMode=PickingMode.Ignore};mark.style.width=R.ConfirmGlyph;mark.style.height=R.ConfirmGlyph;mark.style.alignItems=Align.Center;mark.style.justifyContent=Justify.Center;
   Border(mark,3,KarineTheme.Danger);Round(mark,R.ConfirmGlyph/2);mark.style.marginBottom=KarineTheme.SpaceMd;card.Add(mark);
   Write(mark,"!",KarineTheme.Danger,R.ConfirmGlyphSize,Heading).style.marginBottom=0;
-  var t=Write(card,title.ToUpper(Tr),KarineTheme.Paper.Ink,R.ConfirmTitleSize,Heading);t.style.unityTextAlign=TextAnchor.MiddleCenter;t.style.marginBottom=KarineTheme.SpaceSm;
+  var t=Write(card,title.ToUpper(TextCulture),KarineTheme.Paper.Ink,R.ConfirmTitleSize,Heading);t.style.unityTextAlign=TextAnchor.MiddleCenter;t.style.marginBottom=KarineTheme.SpaceSm;
   var b=Typed(card,body,R.HelpSize);b.style.unityTextAlign=TextAnchor.MiddleCenter;b.style.whiteSpace=WhiteSpace.Normal;b.style.marginBottom=KarineTheme.SpaceXl;
   var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;card.Add(actions);
   ReportNavButton(actions,cancel,false,true,onCancel);

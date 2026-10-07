@@ -20,7 +20,7 @@ public static partial class KarineUI {
    button.style.marginLeft=0;button.style.marginRight=0;button.style.marginTop=0;button.style.marginBottom=0;
    Unskin(button,Color.clear);Border(button,0,Color.clear);
    button.style.borderBottomWidth=3;button.style.borderBottomColor=tab.selected?KarineTheme.Accent:Color.clear;
-   var text=Write(button,tab.label.ToUpper(Tr),tab.selected?KarineTheme.Accent:KarineTheme.Secondary,I.TabSize,Heading);
+   var text=Write(button,tab.label.ToUpper(TextCulture),tab.selected?KarineTheme.Accent:KarineTheme.Secondary,I.TabSize,Heading);
    text.style.marginBottom=0;text.style.letterSpacing=1;text.style.unityTextAlign=TextAnchor.MiddleCenter;text.style.flexGrow=1;
    row.Add(button);
   }
@@ -41,14 +41,14 @@ public static partial class KarineUI {
   dot.style.backgroundColor=unread?KarineTheme.Accent:Color.clear;dot.style.marginRight=KarineTheme.SpaceMd;row.Add(dot);
   Icon(row,"document",KarineTheme.Primary,KarineTheme.IconSize+6).style.marginRight=KarineTheme.SpaceLg;
   var words=new VisualElement {pickingMode=PickingMode.Ignore};words.style.flexGrow=1;words.style.flexShrink=1;words.style.minWidth=0;words.style.justifyContent=Justify.Center;row.Add(words);
-  var t=Write(words,title.ToUpper(Tr),KarineTheme.Primary,I.RowTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
+  var t=Write(words,title.ToUpper(TextCulture),KarineTheme.Primary,I.RowTitleSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=1;Left(t);
   // Başlık kesilmez, sığmazsa alt satıra iner; satır yüksekliği buna göre uzar.
   t.style.whiteSpace=WhiteSpace.Normal;
   var line=new VisualElement {pickingMode=PickingMode.Ignore};line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.Center;words.Add(line);
   if(fresh) {
    var pill=new VisualElement {pickingMode=PickingMode.Ignore};pill.style.backgroundColor=KarineTheme.Accent;Round(pill,10);
    pill.style.paddingLeft=KarineTheme.SpaceSm;pill.style.paddingRight=KarineTheme.SpaceSm;line.Add(pill);
-   var p=Write(pill,status.ToUpper(Tr),KarineTheme.OnPrimary,I.PillSize,Heading);p.style.marginBottom=0;p.style.letterSpacing=1;
+   var p=Write(pill,status.ToUpper(TextCulture),KarineTheme.OnPrimary,I.PillSize,Heading);p.style.marginBottom=0;p.style.letterSpacing=1;
   } else {
    var s=Body_(line,status,I.RowMetaSize);s.style.color=KarineTheme.Secondary;s.style.marginBottom=0;s.style.flexShrink=1;s.style.minWidth=0;
    s.style.whiteSpace=WhiteSpace.Normal;Left(s);
@@ -118,7 +118,7 @@ public static partial class KarineUI {
   var seal=new VisualElement {pickingMode=PickingMode.Ignore};seal.style.width=I.Seal;seal.style.height=I.Seal;Round(seal,I.Seal/2);
   Border(seal,3,KarineTheme.Paper.Ink);seal.style.alignItems=Align.Center;seal.style.justifyContent=Justify.Center;seal.style.marginRight=KarineTheme.SpaceMd;row.Add(seal);
   Icon(seal,"folder",KarineTheme.Paper.Ink,I.Seal/2);
-  PaperText(row,unit.ToUpper(Tr),I.PaperSubSize).style.letterSpacing=2;
+  PaperText(row,unit.ToUpper(TextCulture),I.PaperSubSize).style.letterSpacing=2;
   for(int i=0;i<2;i++){var rule=new VisualElement();rule.style.height=i==0?3:1;rule.style.backgroundColor=KarineTheme.Paper.Ink;rule.style.marginTop=i==0?KarineTheme.SpaceSm:2;parent.Add(rule);}
  }
  public static Label PaperText(VisualElement parent,string text,int size) {
@@ -133,7 +133,7 @@ public static partial class KarineUI {
   for(int i=0;i<fields.Length;i++) {
    var cell=new VisualElement();cell.style.flexGrow=1;cell.style.flexBasis=0;cell.style.paddingLeft=i==0?0:KarineTheme.SpaceLg;
    if(i>0){cell.style.borderLeftWidth=1;cell.style.borderLeftColor=KarineTheme.Paper.Ink;}
-   PaperText(cell,fields[i].label.ToUpper(Tr)+":",I.PaperLabelSize);PaperText(cell,fields[i].value,I.PaperBodySize);row.Add(cell);
+   PaperText(cell,fields[i].label.ToUpper(TextCulture)+":",I.PaperLabelSize);PaperText(cell,fields[i].value,I.PaperBodySize);row.Add(cell);
   }
  }
  // Eğik mürekkep damgası, kâğıdın sağ üst köşesinde.
@@ -142,7 +142,7 @@ public static partial class KarineUI {
   stamp.style.right=Length.Percent(6);stamp.style.top=Length.Percent(7);stamp.style.rotate=new Rotate(I.StampTilt);stamp.style.opacity=.82f;
   var ink=new Color(.68f,.12f,.1f);Border(stamp,4,ink);Round(stamp,4);
   stamp.style.paddingLeft=KarineTheme.SpaceMd;stamp.style.paddingRight=KarineTheme.SpaceMd;
-  var t=Write(stamp,text.ToUpper(Tr),ink,I.StampSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=2;paper.Add(stamp);
+  var t=Write(stamp,text.ToUpper(TextCulture),ink,I.StampSize,Heading);t.style.marginBottom=0;t.style.letterSpacing=2;paper.Add(stamp);
  }
 }
 }

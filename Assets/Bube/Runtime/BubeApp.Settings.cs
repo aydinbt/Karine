@@ -10,13 +10,13 @@ namespace Bube {
 public sealed partial class BubeApp {
  int settingsTab;
  bool draftInstant,draftReduced,draftHaptics,draftShapes,draftCrt,draftAsh,draftMeter;float draftScaleValue=1f;int draftFps;FxLevel draftFx;
- SoundLevel draftMusic,draftSfx;
+ SoundLevel draftMusic,draftSfx;string draftLanguage;
  Action settingsOpener,settingsEscape;
 
  void SettingsPage()=>SettingsFrom(Home);
  void SettingsFrom(Action opener) {
   settingsOpener=opener;settingsEscape=escapeBack;
-  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();
+  settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();draftLanguage=language;
   RenderSettings();
  }
  void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;}
@@ -55,6 +55,10 @@ public sealed partial class BubeApp {
   PlayerPrefs.SetInt("karine.reducedMotion",draftReduced?1:0);
   instantText=draftInstant;PlayerPrefs.SetInt("bube.instantText",instantText?1:0);
   SoundSettings.SetMusic(draftMusic);SoundSettings.SetSfx(draftSfx);FrameRate.Set(draftFps);Fx.Set(draftFx,draftHaptics);SaveSceneDraft();PlayerPrefs.Save();ApplySound();
+  if(draftLanguage!=language) {
+   language=draftLanguage;PlayerPrefs.SetString(Languages.PrefKey,language);PlayerPrefs.Save();
+   locale=LocaleLoader.LoadPlayable(language);game.Text=locale;KarineUI.TextCulture=new System.Globalization.CultureInfo(language);relayout=true;
+  }
   CloseSettings();
   if(relayout)settingsOpener?.Invoke();
  }
@@ -67,15 +71,20 @@ public sealed partial class BubeApp {
   var card=KarineUI.SettingCard(row,null,title,detail,selected,()=>{pick();RenderSettings();});if(quarter)KarineUI.Quarter(card);
  }
  void LevelRow(VisualElement body,string key,SoundLevel level,Action<SoundLevel> set)=>
-  KarineUI.SettingSlider(KarineUI.SettingRow(body,T(key),T(key+".hint")),(int)level/100f,4,v=>"%"+Mathf.RoundToInt(v*100),v=>set((SoundLevel)(Mathf.RoundToInt(v*4)*25)));
+  KarineUI.SettingSlider(KarineUI.SettingRow(body,T(key),T(key+".hint")),(int)level/100f,4,v=>KarineUI.Percent(Mathf.RoundToInt(v*100)),v=>set((SoundLevel)(Mathf.RoundToInt(v*4)*25)));
 
  void GeneralSettings(VisualElement body) {
+  var languages=Languages.Available();
+  if(languages.Length>1) {
+   var row=CardRow(body,"settings.language");
+   foreach(var code in languages){var v=code;Choice(row,Languages.Endonym(v),null,draftLanguage==v,()=>draftLanguage=v,true);}
+  }
   var speed=CardRow(body,"settings.textSpeed","settings.text.hint");
   Choice(speed,T("settings.instant"),T("settings.instant.hint"),draftInstant,()=>draftInstant=true);
   Choice(speed,T("settings.normal"),T("settings.normal.hint"),!draftInstant,()=>draftInstant=false);
   float min=Typography.MinScale,max=Typography.MaxScale;
   KarineUI.SettingSlider(KarineUI.SettingRow(body,T("settings.textScale"),T("settings.textScale.hint")),(draftScaleValue-min)/(max-min),
-   Mathf.RoundToInt((max-min)/.05f),v=>Mathf.RoundToInt((min+v*(max-min))*100)+"%",v=>draftScaleValue=Mathf.Round((min+v*(max-min))*20)/20f);
+   Mathf.RoundToInt((max-min)/.05f),v=>KarineUI.Percent(Mathf.RoundToInt((min+v*(max-min))*100)),v=>draftScaleValue=Mathf.Round((min+v*(max-min))*20)/20f);
  }
  void SoundSettingsTab(VisualElement body) {
   LevelRow(body,"settings.music",draftMusic,l=>draftMusic=l);

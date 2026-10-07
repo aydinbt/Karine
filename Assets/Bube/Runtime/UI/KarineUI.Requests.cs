@@ -22,7 +22,7 @@ public static partial class KarineUI {
   tab.style.flexGrow=1;tab.style.flexBasis=0;tab.style.flexDirection=FlexDirection.Row;tab.style.alignItems=Align.Center;tab.style.justifyContent=Justify.Center;
   tab.style.marginLeft=0;tab.style.marginRight=0;tab.style.borderBottomWidth=3;tab.style.borderBottomColor=active?KarineTheme.Accent:Color.clear;tabs.Add(tab);
   Icon(tab,icon,active?KarineTheme.Accent:KarineTheme.Secondary,Q.TabIcon).style.marginRight=KarineTheme.SpaceSm;
-  Write(tab,label.ToUpper(Tr),active?KarineTheme.Primary:KarineTheme.Secondary,Q.TabSize,Heading).style.marginBottom=0;
+  Write(tab,label.ToUpper(TextCulture),active?KarineTheme.Primary:KarineTheme.Secondary,Q.TabSize,Heading).style.marginBottom=0;
   if(count<=0)return;
   var badge=new VisualElement {pickingMode=PickingMode.Ignore};badge.style.width=Q.Badge;badge.style.height=Q.Badge;badge.style.marginLeft=KarineTheme.SpaceSm;
   badge.style.alignItems=Align.Center;badge.style.justifyContent=Justify.Center;badge.style.backgroundColor=KarineTheme.Accent;Round(badge,Q.Badge/2);tab.Add(badge);
@@ -60,7 +60,7 @@ public static partial class KarineUI {
   pill.style.backgroundColor=tone==RequestTone.Ready?KarineTheme.Accent:tone==RequestTone.Done?KarineTheme.Alpha(KarineTheme.Border,.4f):KarineTheme.Alpha(KarineTheme.GlassDeep,.9f);
   Border(pill,KarineTheme.BorderWidth,tone==RequestTone.Ready?KarineTheme.Accent:tone==RequestTone.Gone?KarineTheme.Danger:tone==RequestTone.Waiting?KarineTheme.Border:tone==RequestTone.Done?KarineTheme.Alpha(KarineTheme.Border,.5f):KarineTheme.Primary);
   if(tone==RequestTone.Waiting||tone==RequestTone.Done)Icon(pill,tone==RequestTone.Waiting?"clock":"check",ink,Q.PillSize+2).style.marginRight=KarineTheme.SpaceXs;
-  var l=Write(pill,label.TrimStart('●',' ').ToUpper(Tr),ink,Q.PillSize,Heading);l.name="RequestPillText";l.style.marginBottom=0;l.style.whiteSpace=WhiteSpace.NoWrap;
+  var l=Write(pill,label.TrimStart('●',' ').ToUpper(TextCulture),ink,Q.PillSize,Heading);l.name="RequestPillText";l.style.marginBottom=0;l.style.whiteSpace=WhiteSpace.NoWrap;
   parent.Add(pill);return pill;
  }
  public static VisualElement RequestPaper(VisualElement parent) {
@@ -80,7 +80,7 @@ public static partial class KarineUI {
   if(portrait!=null){var face=new Image {image=portrait,scaleMode=ScaleMode.ScaleAndCrop};face.style.flexGrow=1;if(tone==RequestTone.Gone)face.tintColor=KarineTheme.Alpha(KarineTheme.Secondary,.6f);frame.Add(face);}
   var words=new VisualElement();words.style.flexGrow=1;words.style.flexShrink=1;top.Add(words);
   var line=new VisualElement();line.style.flexDirection=FlexDirection.Row;line.style.alignItems=Align.FlexStart;words.Add(line);
-  var n=Typed(line,name.ToUpper(Tr),Q.HeadSize,true);n.style.flexGrow=1;n.style.flexShrink=1;n.style.whiteSpace=WhiteSpace.Normal;
+  var n=Typed(line,name.ToUpper(TextCulture),Q.HeadSize,true);n.style.flexGrow=1;n.style.flexShrink=1;n.style.whiteSpace=WhiteSpace.Normal;
   RequestPill(line,status,tone);
   if(!string.IsNullOrEmpty(info))Typed(words,info,Q.BodySize,false,KarineTheme.Paper.Faded);
   PaperRule(words,false);
@@ -89,20 +89,20 @@ public static partial class KarineUI {
  public static void RequestDocumentHead(VisualElement paper,string icon,string heading,string title) {
   var top=new VisualElement();top.style.flexDirection=FlexDirection.Row;top.style.alignItems=Align.Center;top.style.marginBottom=KarineTheme.SpaceSm;paper.Add(top);
   Icon(top,icon,KarineTheme.Paper.Ink,Q.HeadIcon).style.marginRight=KarineTheme.SpaceMd;
-  Typed(top,heading.ToUpper(Tr),Q.HeadSize,true);
+  Typed(top,heading.ToUpper(TextCulture),Q.HeadSize,true);
   PaperRule(paper,false);
-  Typed(paper,title.ToUpper(Tr),Q.SectionSize,true).style.marginBottom=KarineTheme.SpaceXs;
+  Typed(paper,title.ToUpper(TextCulture),Q.SectionSize,true).style.marginBottom=KarineTheme.SpaceXs;
   PaperRule(paper,false);
  }
  public static void RequestSection(VisualElement paper,string heading,string text) {
-  Typed(paper,heading.ToUpper(Tr),Q.SectionSize,true).style.marginTop=KarineTheme.SpaceSm;
+  Typed(paper,heading.ToUpper(TextCulture),Q.SectionSize,true).style.marginTop=KarineTheme.SpaceSm;
   var b=Typed(paper,text,Q.BodySize);b.style.whiteSpace=WhiteSpace.Normal;b.style.marginBottom=KarineTheme.SpaceMd;
  }
  // DURUM / SONUÇ gibi anahtar–değer satırları; anahtar sütunu hafif gölgeli.
  public static void RequestFact(VisualElement paper,string key,string value) {
   var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;row.style.marginBottom=2;paper.Add(row);
   var k=new VisualElement();k.style.width=Q.FactKey;k.style.paddingLeft=KarineTheme.SpaceSm;k.style.paddingTop=2;k.style.paddingBottom=2;k.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Paper.Edge,.35f);row.Add(k);
-  Typed(k,key.ToUpper(Tr),Q.BodySize,true).style.marginBottom=0;
+  Typed(k,key.ToUpper(TextCulture),Q.BodySize,true).style.marginBottom=0;
   var v=Typed(row,":  "+value,Q.BodySize);v.style.marginLeft=KarineTheme.SpaceMd;v.style.marginBottom=0;v.style.flexShrink=1;v.style.whiteSpace=WhiteSpace.Normal;
  }
  // İnceleme izni dayanağı: kâğıt üstünde işaret kutulu satır. İşaretli satır mürekkep dolu kutu, kalın yazı.
@@ -125,14 +125,14 @@ public static partial class KarineUI {
   Unskin(b,primary?KarineTheme.Accent:KarineTheme.Alpha(KarineTheme.GlassDeep,.95f));Border(b,KarineTheme.BorderWidth,primary?KarineTheme.Paper.Ink:KarineTheme.Border);Round(b,KarineTheme.Radius);
   var ink=primary?KarineTheme.OnPrimary:KarineTheme.Primary;
   if(!string.IsNullOrEmpty(icon))Icon(b,icon,ink,Q.ActionSize+4).style.marginRight=KarineTheme.SpaceMd;
-  Write(b,label.TrimEnd('›',' ').ToUpper(Tr),ink,Q.ActionSize,Heading).style.marginBottom=0;
+  Write(b,label.TrimEnd('›',' ').ToUpper(TextCulture),ink,Q.ActionSize,Heading).style.marginBottom=0;
   paper.Add(b);return b;
  }
  // Bekleme hali: saat, başlık, açıklama ve büyük geri sayım; geri sayım her saniye kendini yazar.
  public static void RequestWait(VisualElement paper,string title,string text,DateTime readyUtc) {
   var box=new VisualElement {name="RequestWait"};box.style.alignItems=Align.Center;box.style.marginTop=KarineTheme.SpaceMd;paper.Add(box);
   Icon(box,"clock",KarineTheme.Paper.Ink,Q.WaitIcon).style.marginBottom=KarineTheme.SpaceSm;
-  Typed(box,title.ToUpper(Tr),Q.SectionSize+2,true);
+  Typed(box,title.ToUpper(TextCulture),Q.SectionSize+2,true);
   var t=Typed(box,text,Q.BodySize,false,KarineTheme.Paper.Faded);t.style.whiteSpace=WhiteSpace.Normal;t.style.unityTextAlign=TextAnchor.MiddleCenter;
   var clock=Typed(box,Countdown(readyUtc),Q.CountdownSize,true);clock.name="RequestCountdown";
   clock.schedule.Execute(()=>clock.text=Countdown(readyUtc)).Every(1000);
