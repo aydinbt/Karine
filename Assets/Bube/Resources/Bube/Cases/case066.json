@@ -126,7 +126,7 @@
      "id": "panel",
      "textKey": "case066.cctv.event.panel",
      "delayMs": 620,
-     "overlayTimeKey": "case066.time.panel"
+     "overlayTimeKey": "case066.time.panel", "framePaths": ["Bube/Cctv/case066_panel/01", "Bube/Cctv/case066_panel/02"], "frameTimes": ["21.09.00", "21.09.06"]
     },
     {
      "id": "lamp",
