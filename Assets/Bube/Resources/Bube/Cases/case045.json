@@ -65,7 +65,7 @@
      "id": "console",
      "textKey": "case045.cctv.event.console",
      "delayMs": 620,
-     "overlayTimeKey": "case045.time.console"
+     "overlayTimeKey": "case045.time.console", "framePaths": ["Bube/Cctv/case045_console/01", "Bube/Cctv/case045_console/02", "Bube/Cctv/case045_console/03"], "frameTimes": ["20.52.00", "20.52.20", "20.52.40"]
     },
     {
      "id": "leave",
