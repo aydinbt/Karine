@@ -89,7 +89,7 @@
      "id": "close",
      "textKey": "case052.cctv.event.close",
      "delayMs": 620,
-     "overlayTimeKey": "case052.time.close"
+     "overlayTimeKey": "case052.time.close", "framePaths": ["Bube/Cctv/case052_close/01", "Bube/Cctv/case052_close/02"], "frameTimes": ["23.19.00", "23.19.25"]
     },
     {
      "id": "leave",
