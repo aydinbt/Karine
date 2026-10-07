@@ -77,14 +77,8 @@
      "requiresAsked": [
       "case027.yuki.night"
      ],
-     "presentedSourceIds": [
+     "requiresRead": [
       "tray"
-     ],
-     "presentedAnswers": [
-      {
-       "sourceId": "tray",
-       "answerKey": "case027.yuki.badge.presented.tray"
-      }
      ]
     }
    ],

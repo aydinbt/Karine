@@ -766,15 +766,6 @@
      "requiresAsked": [
       "case009.hakan_2.origin"
      ]
-    },
-    {
-     "id": "case009.hakan_2.after",
-     "promptKey": "case009.hakan_2.after.question",
-     "answerKey": "case009.hakan_2.after.answer",
-     "topicKey": "interview.topic.relationships",
-     "requiresAsked": [
-      "case009.hakan_2.origin"
-     ]
     }
    ],
    "completionQuestionIds": [
