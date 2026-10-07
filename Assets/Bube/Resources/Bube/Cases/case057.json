@@ -97,7 +97,7 @@
      "id": "take",
      "textKey": "case057.cctv.event.take",
      "delayMs": 620,
-     "overlayTimeKey": "case057.time.take"
+     "overlayTimeKey": "case057.time.take", "framePaths": ["Bube/Cctv/case057_take/01", "Bube/Cctv/case057_take/02"], "frameTimes": ["11.18.00", "11.19.30"]
     },
     {
      "id": "back",
