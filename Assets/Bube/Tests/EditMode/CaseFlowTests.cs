@@ -218,7 +218,7 @@ public sealed class CaseFlowTests {
   var game = WalkToReportReady();
   Assert.IsTrue(game.SubmitFinalReport("hasan", "spare", "recovery", "recovery", "mert_follow", "recovery"));
   Assert.IsFalse(game.CanConclude, "Kapanan vaka yeniden gönderilmemeli.");
-  Assert.IsFalse(game.Ask("hasan_follow", "hasan_follow.memory"), "Kapanan vakada soru sorulmamalı.");
+  Assert.IsFalse(game.Ask("hasan_follow", "hasan_follow.sale", "recovery"), "Kapanan vakada soru sorulmamalı.");
   Assert.IsFalse(Discovered(game, "mert"), "Kapanan vakada kaynak açık kalmamalı.");
  }
 

@@ -610,15 +610,6 @@
        "answerKey": "hasan_follow.mertStatement.decoy.elifOut"
       }
      ]
-    },
-    {
-     "id": "hasan_follow.memory",
-     "promptKey": "hasan_follow.memory.question",
-     "answerKey": "hasan_follow.memory.answer",
-     "requiresAsked": [
-      "hasan_follow.mertStatement"
-     ],
-     "topicKey": "interview.topic.home"
     }
    ],
    "completionQuestionIds": [

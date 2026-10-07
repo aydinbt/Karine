@@ -766,7 +766,7 @@
   },
   {
    "key": "hasan.sighting.answer",
-   "value": "Öğleye doğru bir kadın binadan çıkıyordu. Mert’in yanında daha önce gördüğüm kişiye benzettim. Merdiven başından gördüm; durup konuşmadık."
+   "value": "Öğleye doğru bir kadın binadan çıkıyordu. Merdiven başından gördüm; durup konuşmadık."
   },
   {
    "key": "hasan.camera.question",
@@ -818,7 +818,7 @@
   },
   {
    "key": "hasan_follow.spare.answer",
-   "value": "Mert’i kapıda gördüğümü hatırlıyorum. Saksıya uzanmış olabilir. Bundan, o gün de orada anahtar vardı sonucunu nasıl çıkarıyorsunuz?"
+   "value": "Mert bir kez kapıda kalmıştı, yardım ettim. Anahtarı nereden çıkardığına dikkat etmedim. Bundan, o gün de orada anahtar vardı sonucunu nasıl çıkarıyorsunuz?"
   },
   {
    "key": "hasan_follow.gap.question",
@@ -970,7 +970,7 @@
   },
   {
    "key": "mert_follow.neighbor.answer",
-   "value": "Hasan’la komşuluk dışında yakın değiliz. Kapıda kaldığım gün yardım etti. O sırada anahtarı aldığım yeri görmüş olması mümkün."
+   "value": "Hasan’la komşuluk dışında yakın değiliz. Geçen ay kapıda kaldığımda yardım etmişti; onun dışında pek konuşmayız."
   },
   {
    "key": "hasan_follow.sale.question",
@@ -1818,7 +1818,7 @@
   },
   {
    "key": "hasan_follow.mertStatement.answer",
-   "value": "Mert kapıda kaldığında yanındaydım, evet. Saksıdan anahtar aldığını görmüş olabilirim. Ama bir ay önce gördüğüm bir şey, o gün evine girdiğimi göstermez."
+   "value": "Peki. Kapının önünde duruyordum; Mert eğilip saksıyla uğraştı, anahtarı oradan aldıysa görmüşümdür. Ama bir ay önce gördüğüm bir şey, o gün evine girdiğimi göstermez."
   },
   {
    "key": "mert.items.question",
@@ -1850,7 +1850,7 @@
   },
   {
    "key": "elif.avoid.answer",
-   "value": "Her konuşma ayrılığa dönüyordu. O gün onu aramadım. Lütfen bunu başka bir şeyin işareti saymayın; eve gitmediğimi söyledim."
+   "value": "Her konuşma ayrılığa dönüyordu. Lütfen bunu başka bir şeyin işareti saymayın; eve gitmediğimi söyledim."
   },
   {
    "key": "hasan.recognition.question",
@@ -1874,7 +1874,7 @@
   },
   {
    "key": "elif_follow.keyPlace.answer",
-   "value": "Anahtarı artık bende tutmak istemiyordum, onunla yüz yüze gelmek de istemedim. Daha önce kullandığı kapı yanındaki saksıya bıraktım. Benden sonra oraya kimin baktığını bilmiyorum."
+   "value": "Anahtarı artık bende tutmak istemiyordum, onunla yüz yüze gelmek de istemedim. Saksı, Mert’in eskiden yedek anahtar koyduğu yerdi. Benden sonra oraya kimin baktığını bilmiyorum."
   },
   {
    "key": "elif_follow.call.question",
@@ -1882,7 +1882,7 @@
   },
   {
    "key": "elif_follow.call.answer",
-   "value": "Aramadım. Eve habersiz girdiğimi söylemem gerekecekti. Susarsam konunun dışında kalacağımı düşündüm; şimdi bunun tersini yaptığımı görüyorum."
+   "value": "Aramadım. Susarsam konunun dışında kalacağımı düşündüm; şimdi bunun tersini yaptığımı görüyorum."
   },
   {
    "key": "mert_follow.known.question",
@@ -1891,14 +1891,6 @@
   {
    "key": "mert_follow.known.answer",
    "value": "Yerini Elif biliyordu; geçmişte ona söylemiştim. Hasan da kapıda kaldığım gün saksıdan anahtarı aldığımı gördü. Başka kimin gördüğünü bilmiyorum."
-  },
-  {
-   "key": "hasan_follow.memory.question",
-   "value": "Mert anahtarı saksıdan aldığında siz neredeydiniz?"
-  },
-  {
-   "key": "hasan_follow.memory.answer",
-   "value": "Kapının önünde duruyordum. Mert eğilip saksıyla uğraşmıştı; anahtarı oradan aldıysa görmüşümdür. O sırada bu ayrıntıyı aklımda tutmam gerektiğini düşünmedim."
   },
   {
    "key": "interview.topic.other",
