@@ -81,7 +81,7 @@
      "textKey": "case009.cctv.event.arda_in",
      "delayMs": 620,
      "id": "arda_in",
-     "overlayTimeKey": "case009.time.arda_in",
+     "overlayTimeKey": "case009.time.arda_in", "framePaths": ["Bube/Cctv/case009_arda_in/01", "Bube/Cctv/case009_arda_in/02"], "frameTimes": ["01.14.00", "01.14.06"],
      "aboutPersonIds": [
       "arda"
      ]
