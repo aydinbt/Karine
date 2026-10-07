@@ -152,7 +152,7 @@
     {
      "textKey": "case004.cctv.event.cam2_lost",
      "delayMs": 620,
-     "id": "cam2_lost",
+     "id": "cam2_lost", "notPresentable": true,
      "overlayTimeKey": "case004.time.cam2_lost",
      "framePaths": ["Bube/Cctv/case004_cam2_lost/01","Bube/Cctv/case004_cam2_lost/02","Bube/Cctv/case004_cam2_lost/03","Bube/Cctv/case004_cam2_lost/04"],
      "frameTimes": ["01.46.00","01.46.02","01.46.04","01.46.06"],

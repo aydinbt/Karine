@@ -218,7 +218,7 @@ public sealed partial class BubeApp {
   Action send=()=>{
    game.MarkSourceTried(node,active,sourceId);Save();
    var decoy=game.DecoyAnswerKey(active,sourceId);
-   if(decoy!=null){InterviewPage(node,active,2,decoy,sourceId,false);return;}
+   if(decoy!=null){game.HoldAfterDecoy(node,active);Save();InterviewPage(node,active,2,decoy,sourceId,false);return;}
    var reply=game.AnswerKey(active,sourceId);
    if(game.Ask(node.id,active.id,sourceId)){Save();InterviewPage(node,active,2,reply,sourceId);}
    // `answerKey` bir anahtardır; çevrilmiş metin geçilirse ekrana "[...]" düşer.

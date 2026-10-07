@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Linq;
@@ -385,6 +386,13 @@ public static class CaseRules {
     report.Require(record.framePaths != null && record.frameTimes.Length == record.framePaths.Length,
      "CCTV kare damgası sayısı kare sayısını tutmuyor: " + node.id + "#" + record.id);
    report.Forbid(record.frameMs < 0, "Negatif CCTV kare süresi: " + node.id + "#" + record.id);
+   // Sinyal kesilmesi ya da "kayıt bulunamadı" satırında kimse yoktur; bir ifadede öne sürülmesi anlamsız.
+   var line = locale.Get(record.textKey) ?? "";
+   bool signalOnly = !string.IsNullOrEmpty(record.signalKey) || !string.IsNullOrEmpty(record.glitchKey) ||
+    line.IndexOf("KAYIT BULUNAMADI", StringComparison.OrdinalIgnoreCase) >= 0 ||
+    line.IndexOf("sinyal kesil", StringComparison.OrdinalIgnoreCase) >= 0;
+   report.Forbid(signalOnly && !record.notPresentable,
+    "Sinyal/kayıt-yok satırı görüşmede öne sürülebiliyor: " + node.id + "#" + record.id);
   }
   foreach (var key in new[] { node.cctvSourceKey, node.cctvPeriodKey }
     .Concat(new[] { node.cctvOverlayKey }.Where(k => !string.IsNullOrEmpty(k)))

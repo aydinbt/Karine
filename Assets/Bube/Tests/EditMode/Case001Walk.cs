@@ -67,7 +67,7 @@ public static class Case001Walk {
 
   OpenInterview(game, "hasan_follow");
   Ask(game, "hasan_follow", "hasan_follow.spare");
-  Ask(game, "hasan_follow", "hasan_follow.gap", "camera#gap");
+  Ask(game, "hasan_follow", "hasan_follow.gap");
 
   Assert.IsTrue(game.RequestDocument("recovery", 0), "Eşya raporu talep edilemedi.");
   Assert.IsTrue(game.ReceiveDocument("recovery"), "Eşya raporu teslim alınamadı.");
