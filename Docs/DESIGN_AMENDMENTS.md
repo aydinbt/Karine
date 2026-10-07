@@ -1105,3 +1105,6 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları yaz ve bitir; sabit bir 
 **Son dosya açık kalır.** #073'te bölge koordinatörü kırk yıllık defterini şubeye getirmeden öldürülür; katil yakalanır ama defter Budapeşte'ye, "E. V."ye gitmiştir. Final telefonu bu sefer çalmaz; sonraki ülke "ARŞİV", sonraki dosya "AÇIK DOSYA". Edda Varga bulunmaz — olası bir devam için kapı, ama oyun bunu vaat etmez.
 
 **CCTV.** Fransa'dan Kanada'ya kadar CCTV yalnız kritik olaylarda ve 3 karedir; Avustralya'da hiç yok, çünkü o bölümün kurgusu kaydın kör noktasıdır (yangın merdiveni, su tarafı, el telsizi).
+
+## 7 Ekim 2026 — Oyunda CCTV videosu kalmadı
+Dosya #001'in dört CCTV videosu (08.27, 11.48, 12.16, 17.54) kaldırıldı; her olay artık diğer vakalar gibi 2 karelik görsel dizisi (`Bube/Cctv/case001_<olay>/01-02`). Şimdilik kareler eski videodan çıkarıldı; diğer vakalarla aynı kalitede yeniden üretilip üzerine yazılacak. Sinematik videolar (menü, dünya girişi, masaya varış, rapor gönderme) bu kararın dışında.

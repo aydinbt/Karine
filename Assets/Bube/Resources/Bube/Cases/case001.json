@@ -279,7 +279,7 @@
      "delayMs": 430,
      "id": "mert_out",
      "overlayTimeKey": "timeline.time.0827",
-     "videoPath": "Bube/CCTV/case001_0827.mp4",
+     "framePaths": ["Bube/Cctv/case001_mert_out/01", "Bube/Cctv/case001_mert_out/02"], "frameTimes": ["08.27.00", "08.27.05"],
      "aboutPersonIds": [
       "mert"
      ]
@@ -289,7 +289,7 @@
      "delayMs": 760,
      "id": "elif_in",
      "overlayTimeKey": "timeline.time.1148",
-     "videoPath": "Bube/CCTV/case001_1148.mp4",
+     "framePaths": ["Bube/Cctv/case001_elif_in/01", "Bube/Cctv/case001_elif_in/02"], "frameTimes": ["11.48.00", "11.48.05"],
      "aboutPersonIds": [
       "elif",
       "hasan"
@@ -300,7 +300,7 @@
      "delayMs": 540,
      "id": "elif_out",
      "overlayTimeKey": "timeline.time.1216",
-     "videoPath": "Bube/CCTV/case001_1216.mp4",
+     "framePaths": ["Bube/Cctv/case001_elif_out/01", "Bube/Cctv/case001_elif_out/02"], "frameTimes": ["12.16.00", "12.16.05"],
      "aboutPersonIds": [
       "elif",
       "hasan"
@@ -344,7 +344,7 @@
      "delayMs": 520,
      "id": "mert_in",
      "overlayTimeKey": "timeline.time.1754",
-     "videoPath": "Bube/CCTV/case001_1754.mp4",
+     "framePaths": ["Bube/Cctv/case001_mert_in/01", "Bube/Cctv/case001_mert_in/02"], "frameTimes": ["17.54.00", "17.54.05"],
      "aboutPersonIds": [
       "mert"
      ]
