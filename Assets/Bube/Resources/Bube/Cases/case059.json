@@ -68,7 +68,7 @@
      "id": "lean",
      "textKey": "case059.cctv.event.lean",
      "delayMs": 620,
-     "overlayTimeKey": "case059.time.lean"
+     "overlayTimeKey": "case059.time.lean", "framePaths": ["Bube/Cctv/case059_lean/01", "Bube/Cctv/case059_lean/02"], "frameTimes": ["23.41.00", "23.41.05"]
     },
     {
      "id": "lock",
