@@ -1108,3 +1108,4 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları yaz ve bitir; sabit bir 
 
 ## 7 Ekim 2026 — Oyunda CCTV videosu kalmadı
 Dosya #001'in dört CCTV videosu (08.27, 11.48, 12.16, 17.54) kaldırıldı; her olay artık diğer vakalar gibi 2 karelik görsel dizisi (`Bube/Cctv/case001_<olay>/01-02`). Şimdilik kareler eski videodan çıkarıldı; diğer vakalarla aynı kalitede yeniden üretilip üzerine yazılacak. Sinematik videolar (menü, dünya girişi, masaya varış, rapor gönderme) bu kararın dışında.
+Aynı gün: #001'de yalnız en kritik olay (12.16, Elif'in çıkışı — anahtarın saksıya bırakıldığı an) karelendi; 08.27, 11.48 ve 17.54 metin olarak kaldı.

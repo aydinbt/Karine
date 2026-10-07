@@ -279,7 +279,6 @@
      "delayMs": 430,
      "id": "mert_out",
      "overlayTimeKey": "timeline.time.0827",
-     "framePaths": ["Bube/Cctv/case001_mert_out/01", "Bube/Cctv/case001_mert_out/02"], "frameTimes": ["08.27.00", "08.27.05"],
      "aboutPersonIds": [
       "mert"
      ]
@@ -289,7 +288,6 @@
      "delayMs": 760,
      "id": "elif_in",
      "overlayTimeKey": "timeline.time.1148",
-     "framePaths": ["Bube/Cctv/case001_elif_in/01", "Bube/Cctv/case001_elif_in/02"], "frameTimes": ["11.48.00", "11.48.05"],
      "aboutPersonIds": [
       "elif",
       "hasan"
@@ -344,7 +342,6 @@
      "delayMs": 520,
      "id": "mert_in",
      "overlayTimeKey": "timeline.time.1754",
-     "framePaths": ["Bube/Cctv/case001_mert_in/01", "Bube/Cctv/case001_mert_in/02"], "frameTimes": ["17.54.00", "17.54.05"],
      "aboutPersonIds": [
       "mert"
      ]
