@@ -101,7 +101,7 @@
      "id": "lever",
      "textKey": "case048.cctv.event.lever",
      "delayMs": 620,
-     "overlayTimeKey": "case048.time.lever"
+     "overlayTimeKey": "case048.time.lever", "framePaths": ["Bube/Cctv/case048_lever/01", "Bube/Cctv/case048_lever/02", "Bube/Cctv/case048_lever/03"], "frameTimes": ["04.02.00", "04.02.05", "04.02.12"]
     },
     {
      "id": "leave",
