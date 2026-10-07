@@ -103,7 +103,7 @@
      "id": "rev",
      "textKey": "case062.cctv.event.rev",
      "delayMs": 620,
-     "overlayTimeKey": "case062.time.rev"
+     "overlayTimeKey": "case062.time.rev", "framePaths": ["Bube/Cctv/case062_rev/01", "Bube/Cctv/case062_rev/02"], "frameTimes": ["23.29.00", "23.29.05"]
     }
    ]
   },
