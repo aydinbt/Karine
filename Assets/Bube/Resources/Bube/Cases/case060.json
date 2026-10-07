@@ -200,7 +200,7 @@
      "id": "sack",
      "textKey": "case060.cctv.event.sack",
      "delayMs": 620,
-     "overlayTimeKey": "case060.time.sack"
+     "overlayTimeKey": "case060.time.sack", "framePaths": ["Bube/Cctv/case060_sack/01", "Bube/Cctv/case060_sack/02"], "frameTimes": ["23.37.00", "23.37.06"]
     }
    ]
   },
