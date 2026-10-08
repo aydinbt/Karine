@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**8 Ekim (gece, 3):** Bora'nın göreve hazırlanış filmi eklendi; yeni kariyerde Türkiye açılışından önce oynar. 139 EditMode + 27 PlayMode → `[~]`.
+
 **8 Ekim (gece, 2):** Zor dosyalar güveni daha cömert etkiliyor; Kariyer sayfasına Bora sekmesi (profil + güven kuralları) eklendi; Bora artık uluslararası birimde. 139 EditMode → `[~]`.
 
 **8 Ekim (gece):** **Kariyer artık bitmiyor.** Güven sıfırlanınca Bora aynı ülkede gözetimli masa görevine alınıyor, sıradaki dosyayı gerekçeli kapatınca dönüyor; 3 doğru raporluk seri ek güven veriyor. 138 EditMode geçiyor → `[~]`.

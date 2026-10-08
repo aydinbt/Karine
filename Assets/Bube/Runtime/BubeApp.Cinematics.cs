@@ -14,8 +14,10 @@ namespace Bube {
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
  void MaybeWorldIntro(Action after) {
-  var world=(config.worldIntros ?? new WorldIntro[0]).FirstOrDefault(w=>w.firstCaseId==game.Data.id);
-  if(world==null || game.Career.seenWorldIntros.Contains(world.id)){NewCaseArrival(after);return;}
+  // Aynı dosyaya bağlı birden çok film sırayla oynar (8 Ekim 2026: önce Bora'nın
+  // göreve hazırlanışı, sonra Türkiye açılışı); her biri kariyer başına bir kez.
+  var world=(config.worldIntros ?? new WorldIntro[0]).FirstOrDefault(w=>w.firstCaseId==game.Data.id && !game.Career.seenWorldIntros.Contains(w.id));
+  if(world==null){NewCaseArrival(after);return;}
   activeIntro=world;
   introAfter=after;
   PlayWorldIntro();
@@ -225,7 +227,7 @@ public sealed partial class BubeApp {
   Save();
   // 3 Ekim 2026: masaya varış filmi kaldırıldı. Dünyanın ilk dosyası da sonrakiler gibi
   // çizilmiş bırakılışla gelir (dosya numarası, saat kartı, bildirimler); oyun genelinde aynı açılış.
-  NewCaseArrival(after);return;
+  MaybeWorldIntro(after);return;
 #pragma warning disable CS0162
   if(!string.IsNullOrEmpty(world.deskArrivalVideo))PlayDeskArrival(world,after);
   else StartCoroutine(FirstDeskArrival(after));

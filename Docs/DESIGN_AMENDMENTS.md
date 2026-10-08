@@ -1151,3 +1151,7 @@ Oyuncuyu oyunda tutmak için kalıcı kariyer sonu kaldırıldı. Ölçek 0–10
 - **Zorluk:** dosya 1–3 zorluktadır (`CaseData.difficulty`; boşsa sıradan: #001–010 kolay, #011–038 orta, #039+ zor). Doğru rapor +5/+6/+7, eksik −5/−4/−3, asılsız suçlama −15/−13/−11.
 - **Kariyer → Bora sekmesi:** kimlik, görev, şu anki görev yeri (ülke), birim güveni, kısa özgeçmiş ve "Güven nasıl işler" açıklaması. Sayılar `career-rules.json`dan okunur.
 - Bora artık "Beşiktaş şubesi" değil, **bube Departman Uluslararası Soruşturma Birimi**nde. İstanbul doğumlu; görev yeri dünya ile değişir.
+
+## 8 Ekim 2026 — Bora'nın göreve hazırlanış filmi
+
+Yeni kariyerde "Oyuna başla"dan sonra ilk film Bora'nın 10 saniyelik göreve hazırlanış videosudur. Gemini ile üretildi, 2.5D pixel-art. Ardından Türkiye açılışı gelir, en son masaya dosya bırakılır. Film, dosya bildirimi gelmeden ve masa görülmeden önce oynar; kariyer başına bir kez gösterilir ve GEÇ düğmesi vardır. Dosya: `StreamingAssets/Bube/career_start.mp4`. `config.json` → `worldIntros` içindeki `career_start` girdisidir. Aynı dosyaya bağlı açılışlar sırayla oynar.

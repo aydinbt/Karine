@@ -5,6 +5,13 @@
   "investigatorKey": "bora",
   "worldIntros": [
     {
+      "id": "career_start",
+      "firstCaseId": "case001",
+      "videoPath": "Bube/career_start.mp4",
+      "graphicsEmbedded": true,
+      "skipCoversCornerMark": true
+    },
+    {
       "id": "world01",
       "firstCaseId": "case001",
       "countryKey": "world01.country",
@@ -15,7 +22,12 @@
       "skipCoversCornerMark": true,
       "deskArrival": true,
       "deskArrivalVideo": "Bube/case001_arrival.mp4",
-      "deskArrivalMark": { "x": 0.906, "y": 0.8329, "w": 0.07, "h": 0.105 }
+      "deskArrivalMark": {
+        "x": 0.906,
+        "y": 0.8329,
+        "w": 0.07,
+        "h": 0.105
+      }
     },
     {
       "id": "world02",
@@ -100,5 +112,10 @@
     }
   ],
   "reportSendVideo": "Bube/report_send.mp4",
-  "reportSendMark": { "x": 0.906, "y": 0.8329, "w": 0.07, "h": 0.105 }
+  "reportSendMark": {
+    "x": 0.906,
+    "y": 0.8329,
+    "w": 0.07,
+    "h": 0.105
+  }
 }
