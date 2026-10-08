@@ -1,0 +1,556 @@
+{
+ "entries": [
+  {
+   "key": "case032.autopsy.body",
+   "value": "· Am linken Hinterkopf zwei Schläge mit einem schweren, kantigen Gegenstand. In der Wunde Spuren von grünbraunem Metalloxid (Bronzepatina).\n· Keine Abwehrverletzungen; sie hatte sich abgewandt.\n· Todeszeitpunkt: 12. Mai 21.00–22.30."
+  },
+  {
+   "key": "case032.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case032.bastien.body",
+   "value": "Nachtwächter."
+  },
+  {
+   "key": "case032.bastien.deflect",
+   "value": "Ich passe auf die Tür auf."
+  },
+  {
+   "key": "case032.bastien.round.answer",
+   "value": "21.30 Kellerrunde. An der Kartentafel hing die Karte von Frau Benali nicht, ich habe notiert: ‚mit nach Hause genommen‘. 22.00 zweite Runde: Die Karte war an ihrem Platz. Dazwischen brannte oben Licht im Büro von Herrn Mercier, er arbeitet lange."
+  },
+  {
+   "key": "case032.bastien.round.answer.demeanor",
+   "value": "Stützt sein Heft auf das Knie."
+  },
+  {
+   "key": "case032.bastien.round.question",
+   "value": "Wie verlief Ihre Runde in jener Nacht?"
+  },
+  {
+   "key": "case032.bastien.title",
+   "value": "Bastien Morel — Befragung"
+  },
+  {
+   "key": "case032.benali.body",
+   "value": "Transporteurin."
+  },
+  {
+   "key": "case032.benali.card.answer",
+   "value": "Ich bin um 19.00 gegangen. Meine Karte bleibt an der Tafel hängen, bei uns allen; mit nach Hause nehmen ist verboten. Das weiß jeder. Dass Sie mich das fragen …"
+  },
+  {
+   "key": "case032.benali.card.answer.demeanor",
+   "value": "Zieht ihre Handschuhe aus der Tasche und steckt sie wieder ein."
+  },
+  {
+   "key": "case032.benali.card.question",
+   "value": "Ihre Karte hat um 21.38 den Tresor geöffnet."
+  },
+  {
+   "key": "case032.benali.card.variant0",
+   "value": "Hat das auch der Wächter gesagt? Der Platz meiner Karte an der Tafel war in der Nacht leer, am Morgen hing sie da. Nach 19.00 war ich in der Metro; ich bin ins Café meiner Schwester in Belleville gegangen, es hat eine Kamera."
+  },
+  {
+   "key": "case032.benali.deflect",
+   "value": "Ich trage Kisten, was drin ist, weiß ich nicht."
+  },
+  {
+   "key": "case032.benali.title",
+   "value": "Inès Benali — Befragung"
+  },
+  {
+   "key": "case032.board.body",
+   "value": "Rundenheft von Bastien Morel, 12. Mai:\n· 21.30 · Keller — ‚Tafel: Karte Benali fehlt.‘\n· 22.00 · Keller — ‚Tafel: vollständig.‘\n· 22.05 · 3. Stock — ‚Büro von Julien Mercier, Licht an, Tür zu.‘\n\nDie Tafel hängt neben der Tresortür, unverschlossen. Um den leeren Haken Fingerabdrücke: von Inès Benali (erwartet) und ein verschmierter, nicht identifizierbarer Abdruck."
+  },
+  {
+   "key": "case032.board.title",
+   "value": "RUNDENHEFT DES WÄCHTERS UND KARTENTAFEL"
+  },
+  {
+   "key": "case032.cctv.event.in",
+   "value": "Kamera: Eine Gestalt im grauen Transportkittel mit hochgeschlagenem Kragen geht zur Tresortür und hält eine Karte an den Leser; in der Hand nichts."
+  },
+  {
+   "key": "case032.cctv.event.open",
+   "value": "Kamera: Die Tresortür steht einen Spalt offen, von innen ein schmaler Lichtstreifen; der Flur ist leer."
+  },
+  {
+   "key": "case032.cctv.event.out",
+   "value": "Kamera: Dieselbe Gestalt kommt schnell aus dem Tresor; an die Brust gedrückt ein kleiner Holzkasten, das Gesicht von der Kamera abgewandt."
+  },
+  {
+   "key": "case032.cctv.overlay",
+   "value": "B-02"
+  },
+  {
+   "key": "case032.cctv.period",
+   "value": "12. Mai 2030"
+  },
+  {
+   "key": "case032.cctv.source",
+   "value": "Kellerkamera"
+  },
+  {
+   "key": "case032.clue.back",
+   "value": "Die Karte hängt an der Tafel; oben brennt Licht im Büro."
+  },
+  {
+   "key": "case032.clue.in",
+   "value": "Die Gestalt im grauen Kittel hält eine Karte an den Tresor."
+  },
+  {
+   "key": "case032.clue.lamp",
+   "value": "Wächter: An der Tafel fehlt die Karte der Transporteurin."
+  },
+  {
+   "key": "case032.clue.msg",
+   "value": "Mathilde: ‚Los 47 stammt aus Kamakura. Ich frage Mercier.‘"
+  },
+  {
+   "key": "case032.clue.out",
+   "value": "Die Gestalt kommt mit einem kleinen Kasten aus dem Tresor."
+  },
+  {
+   "key": "case032.clue.source.board",
+   "value": "Rundenheft"
+  },
+  {
+   "key": "case032.clue.source.hugo",
+   "value": "Partner"
+  },
+  {
+   "key": "case032.colette.body",
+   "value": "Leiterin des Provenienzarchivs."
+  },
+  {
+   "key": "case032.colette.deflect",
+   "value": "Die Archivunterlagen gehören dem Auktionshaus."
+  },
+  {
+   "key": "case032.colette.letter.answer",
+   "value": "Herr Mercier brachte ihn, ich habe ihn abgelegt: ‚Sammlung eines Wiener Diplomaten, 1998, Gutachten Dr. E. Varga.‘ Von Briefen mit Unterschrift Varga kamen in den letzten zehn Jahren neun; alle aus der Asienabteilung, alle durch die Hand von Herrn Mercier."
+  },
+  {
+   "key": "case032.colette.letter.answer.demeanor",
+   "value": "Dreht ihre Brille an der Kette."
+  },
+  {
+   "key": "case032.colette.letter.question",
+   "value": "Ist der Provenienzbrief von Los 47 im Archiv?"
+  },
+  {
+   "key": "case032.colette.title",
+   "value": "Colette Arnaud — Befragung"
+  },
+  {
+   "key": "case032.colette.woman.answer",
+   "value": "Nie gesehen. Aber letzten Monat kam eine Frau ins Archiv, mit einem grauen Schirm, obwohl es nicht regnete. ‚Die Kopien der Varga-Briefe bleiben bei mir‘, sagte sie, und ließ eine Karte da. Auf der Karte nur eine Telefonnummer. Die Nummer ist nicht mehr vergeben."
+  },
+  {
+   "key": "case032.colette.woman.question",
+   "value": "Kennen Sie Varga?"
+  },
+  {
+   "key": "case032.custody.copy",
+   "value": "Eine in Paris gefertigte Kopie"
+  },
+  {
+   "key": "case032.custody.fake",
+   "value": "In Kamakura gefertigte Fälschung; der Provenienzbrief in Paris geschrieben"
+  },
+  {
+   "key": "case032.custody.label",
+   "value": "Was war Los 47?"
+  },
+  {
+   "key": "case032.custody.real",
+   "value": "Eine echte Teeschale aus dem 16. Jahrhundert"
+  },
+  {
+   "key": "case032.epilogue.custody.copy",
+   "value": "Die Schale wurde einer Pariser Werkstatt zugeordnet; die Tokioter Mitteilung kam nicht in die Akte."
+  },
+  {
+   "key": "case032.epilogue.custody.fake",
+   "value": "Es wurde belegt, dass Los 47 gefälscht ist und der Provenienzbrief im Büro von Mercier geschrieben wurde."
+  },
+  {
+   "key": "case032.epilogue.custody.real",
+   "value": "Los 47 galt als echt und wurde verkauft."
+  },
+  {
+   "key": "case032.epilogue.verdict.bastien",
+   "value": "Bastien Morel wurde in Gewahrsam genommen; das Rundenheft wurde nie geprüft."
+  },
+  {
+   "key": "case032.epilogue.verdict.benali",
+   "value": "Inès Benali wurde festgenommen; Los 47 wurde am nächsten Tag verkauft."
+  },
+  {
+   "key": "case032.epilogue.verdict.hugo",
+   "value": "Hugo Lefèvre wurde beschuldigt; die Nachricht von Mathilde wurde als ‚Eifersucht‘ gelesen."
+  },
+  {
+   "key": "case032.epilogue.verdict.mercier",
+   "value": "Julien Mercier wurde festgenommen. Los 47 wurde aus der Auktion zurückgezogen; alle neun ‚Varga‘-Briefe wurden für zweifelhaft erklärt. Die Zeile ‚Lieferung Chicago: Lakeshore‘ aus dem Terminkalender wurde in der Akte der Dienststelle vermerkt."
+  },
+  {
+   "key": "case032.evidence.board",
+   "value": "Rundenheft und Tafel"
+  },
+  {
+   "key": "case032.evidence.letter",
+   "value": "Prüfung des Provenienzbriefs"
+  },
+  {
+   "key": "case032.evidence.recall",
+   "value": "Rückrufmitteilung"
+  },
+  {
+   "key": "case032.evidence.search",
+   "value": "Durchsuchung des Büros der Asienabteilung"
+  },
+  {
+   "key": "case032.feedback.bastien",
+   "value": "Der Wächter schrieb seine Runden auf; er war es, der die Lücke an der Kartentafel bemerkte."
+  },
+  {
+   "key": "case032.feedback.benali",
+   "value": "Ihre Karte wurde benutzt, aber sie ging um 19.00; die Karte hing für jeden greifbar an der Tafel, und der Wächter notierte um 21.30 ihren leeren Platz."
+  },
+  {
+   "key": "case032.feedback.hugo",
+   "value": "Der Partner bekam die letzte Nachricht des Opfers, betrat das Gebäude aber nicht; er hatte keine Karte."
+  },
+  {
+   "key": "case032.feedback.mercier",
+   "value": "An der Bronzestütze in seinem Büro das Blut des Opfers, am grauen Kittel ihr Haar; der Brief zu Los 47 wurde auf seiner Schreibmaschine geschrieben. Das Opfer war gegangen, um ihn zur Rede zu stellen; die Karte wurde von der Tafel genommen und wieder aufgehängt."
+  },
+  {
+   "key": "case032.file.caseType",
+   "value": "MORD"
+  },
+  {
+   "key": "case032.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case032.file.value.location",
+   "value": "Paris, 7. Arrondissement, Auktionshaus — Tresorraum"
+  },
+  {
+   "key": "case032.file.value.number",
+   "value": "BDP-PAR-2030-0112"
+  },
+  {
+   "key": "case032.file.value.offence",
+   "value": "Vorsätzliche Tötung"
+  },
+  {
+   "key": "case032.file.value.reporter",
+   "value": "Nachtwächter"
+  },
+  {
+   "key": "case032.hugo.body",
+   "value": "Partner des Opfers."
+  },
+  {
+   "key": "case032.hugo.deflect",
+   "value": "Meine Quellen gebe ich nicht preis."
+  },
+  {
+   "key": "case032.hugo.msg.answer",
+   "value": "Um 20.10 schrieb sie: ‚Los 47 stammt aus Kamakura. Aus Tokio ist eine Rückrufmitteilung gekommen, niemand hat sie gelesen. Ich frage Mercier.‘ Dazu ein Foto. Danach nichts mehr."
+  },
+  {
+   "key": "case032.hugo.msg.answer.demeanor",
+   "value": "Legt das Telefon nicht auf den Tisch, schaut auf den Bildschirm."
+  },
+  {
+   "key": "case032.hugo.msg.question",
+   "value": "Was hat Mathilde am letzten Tag erzählt?"
+  },
+  {
+   "key": "case032.hugo.title",
+   "value": "Hugo Lefèvre — Befragung"
+  },
+  {
+   "key": "case032.letter.body",
+   "value": "Der auf ‚1998‘ datierte Provenienzbrief von Los 47:\n\n· Papier: mit optischem Aufheller, hergestellt nach 2010. Kann nicht von 1998 sein.\n· Schreibmaschinenschrift: elektronische Schreibmaschine, die Typenabnutzung stimmt mit der Maschine im Büro der Asienabteilung überein.\n· Unterschrift: ‚E. Varga‘ — dieselbe Hand wie auf den übrigen acht Briefen. Über den Initialen in blauer Tinte ‚E.V.‘\n\nErgebnis: Der Brief wurde im Büro von Julien Mercier geschrieben. Wem die Unterschrift gehört: nicht feststellbar."
+  },
+  {
+   "key": "case032.letter.title",
+   "value": "PRÜFUNG DES PROVENIENZBRIEFS"
+  },
+  {
+   "key": "case032.mercier.body",
+   "value": "Leiter der Abteilung Asiatische Kunst."
+  },
+  {
+   "key": "case032.mercier.deflect",
+   "value": "Die Angelegenheiten meiner Abteilung gehen das Auktionshaus an."
+  },
+  {
+   "key": "case032.mercier.lot.answer",
+   "value": "Von einem angesehenen Mittelsmann. Der Provenienzbrief ist tadellos. Eine Tokioter Mitteilung macht eine Schale nicht zur Fälschung, Mademoiselle Roux war jung, aufgeregt."
+  },
+  {
+   "key": "case032.mercier.lot.question",
+   "value": "Woher haben Sie Los 47?"
+  },
+  {
+   "key": "case032.mercier.night.answer",
+   "value": "In meinem Büro, Katalogkorrekturen. Um 21.00 bin ich gegangen. Die arme Mathilde … die Kartendisziplin der Transporteure ist eine Katastrophe, das sage ich seit Jahren."
+  },
+  {
+   "key": "case032.mercier.night.answer.demeanor",
+   "value": "Nimmt die Brille vom Kopf und klappt sie zusammen."
+  },
+  {
+   "key": "case032.mercier.night.question",
+   "value": "Wo waren Sie am Abend des 12. Mai?"
+  },
+  {
+   "key": "case032.mercier.title",
+   "value": "Julien Mercier — Befragung"
+  },
+  {
+   "key": "case032.mercier_2.body",
+   "value": "Zur Durchsuchung."
+  },
+  {
+   "key": "case032.mercier_2.title",
+   "value": "Julien Mercier — zweite Befragung"
+  },
+  {
+   "key": "case032.mercier_2.vault.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.board",
+   "value": "Um eine Karte von der Tafel zu nehmen, muss man kein Transporteur sein, richtig. Aber das zeigt nicht, dass ich sie genommen habe."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.letter",
+   "value": "Das Papier? Wer weiß schon, welches Papier man 1998 benutzt hat. Varga kenne ich nicht; die Briefe kommen über den Mittelsmann, ich schreibe sie nur ins Reine."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.search",
+   "value": "… In meinem Büro sagte sie: ‚Diese Schale stammt aus Kamakura‘, und zeigte das Foto. ‚Morgen sage ich es Herrn Delorme‘, sagte sie. Sie wollte die Schale aus dem Tresor holen und vergleichen, wir gingen zusammen hinunter. Die Karte habe ich von der Tafel genommen, den Kittel habe ich angezogen; als sie den Kasten öffnete … hatte ich die Stütze in der Hand. Das Foto und die Mitteilung habe ich genommen. Nur das auf ihrem Schreibtisch habe ich vergessen."
+  },
+  {
+   "key": "case032.mercier_2.vault.question",
+   "value": "Sie waren es, der um 21.38 den Tresor betrat."
+  },
+  {
+   "key": "case032.method.bookend",
+   "value": "Mit einer Bronzebuchstütze auf den Kopf geschlagen"
+  },
+  {
+   "key": "case032.method.crate",
+   "value": "Eine Kiste fiel auf sie"
+  },
+  {
+   "key": "case032.method.fall",
+   "value": "Stürzte von der Tresortreppe"
+  },
+  {
+   "key": "case032.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case032.offer.subtitle",
+   "value": "LOS 47  /  MORD"
+  },
+  {
+   "key": "case032.offer.summary",
+   "value": "Im Tresorraum eines Pariser Auktionshauses liegt die Katalogbearbeiterin tot. Die Auktion ist morgen; das Kartenprotokoll zeigt auf eine Transporteurin."
+  },
+  {
+   "key": "case032.offer.title",
+   "value": "AKTE #032"
+  },
+  {
+   "key": "case032.person.bastien.info",
+   "value": "45 Jahre, Nachtwächter."
+  },
+  {
+   "key": "case032.person.bastien.name",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.person.benali.info",
+   "value": "28 Jahre, Kunsttransporteurin des Auktionshauses; hat eine Zugangskarte zum Tresorraum."
+  },
+  {
+   "key": "case032.person.benali.name",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.person.colette.info",
+   "value": "61 Jahre, Leiterin des Provenienzarchivs des Auktionshauses."
+  },
+  {
+   "key": "case032.person.colette.name",
+   "value": "Colette Arnaud"
+  },
+  {
+   "key": "case032.person.hugo.info",
+   "value": "33 Jahre, freier Journalist; Partner des Opfers."
+  },
+  {
+   "key": "case032.person.hugo.name",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.person.mercier.info",
+   "value": "54 Jahre, Leiter der Abteilung Asiatische Kunst im Auktionshaus Maison Delorme."
+  },
+  {
+   "key": "case032.person.mercier.name",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.recall.body",
+   "value": "Auf dem Schreibtisch des Opfers die Mitteilung der Dienststelle Tokio von bube an Auktionshäuser vom 3. Mai (nach Akte #026):\n\n„Sieben Teeschalen, in einer Werkstatt in Kamakura gefertigt und als ‚Familienerbstück‘ verkauft, haben sich als Fälschungen erwiesen. Fotos anbei.“\n\nDas dritte beigefügte Foto und das Katalogfoto von Los 47 zeigen dieselbe Schale: dieselben drei Goldnähte, dieselbe Scharte am Rand.\n\nAuf dem Umschlag der Mitteilung die Notiz des Opfers: ‚Von wem hat Mercier den Provenienzbrief?‘"
+  },
+  {
+   "key": "case032.recall.title",
+   "value": "RÜCKRUFMITTEILUNG"
+  },
+  {
+   "key": "case032.report.body",
+   "value": "Am 13. Mai 2030 um 07.20 wurde im Tresorraum im Keller des Auktionshauses Maison Delorme im 7. Arrondissement die Katalogbearbeiterin Mathilde Roux (31) tot aufgefunden. Am Hinterkopf eine schwere Wunde.\n\nIm Tresorraum warten die Stücke der Auktion vom 14. Mai. Der Kasten von Los 47, ‚japanische Teeschale, 16. Jahrhundert‘, steht an seinem Platz; die Schale liegt darin.\n\nKartenprotokoll der Tresortür, 12. Mai 21.38 und 21.52: die Karte der Transporteurin Inès Benali."
+  },
+  {
+   "key": "case032.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case032.request.board",
+   "value": "Rundenheft des Wächters und Tafel prüfen"
+  },
+  {
+   "key": "case032.request.letter",
+   "value": "Provenienzbrief zur Dokumentenprüfung schicken"
+  },
+  {
+   "key": "case032.request.recall",
+   "value": "Korrespondenz vom Schreibtisch des Opfers anfordern"
+  },
+  {
+   "key": "case032.request.search",
+   "value": "Durchsuchungsbeschluss für das Büro von Julien Mercier beantragen"
+  },
+  {
+   "key": "case032.search.body",
+   "value": "Büro von Julien Mercier (mit Genehmigung der Dienststellenleitung):\n\n· Von dem Bronzebuchstützenpaar im Regal ist eine frisch abgewischt; an der Unterseite Blut, DNA Mathilde Roux.\n· In der Schreibtischschublade ein leerer Bügel für einen Transportkittel; im Schrank ein grauer Transportkittel, am Kragen ein Haar des Opfers.\n· Eine elektronische Schreibmaschine; auf dem Farbband der Text des Briefs zu Los 47.\n· Ein Terminkalender: ‚14/5 — nach Verkauf von Los 47 20 % an E.V. Lieferung Chicago: Lakeshore.‘"
+  },
+  {
+   "key": "case032.search.title",
+   "value": "DURCHSUCHUNG DES BÜROS DER ASIENABTEILUNG"
+  },
+  {
+   "key": "case032.summary.evidence",
+   "value": "Das Rundenheft des Wächters lieferte, dass die Karte um 21.30 nicht an ihrem Platz war, die Kamera die Gestalt im grauen Kittel am Tresor, die Mitteilung auf dem Schreibtisch des Opfers die Identität der Schale, die Briefprüfung die Schreibmaschine von Mercier. Die mit zwei soliden Gründen beantragte Bürodurchsuchung fand Stütze und Kittel."
+  },
+  {
+   "key": "case032.summary.lesson",
+   "value": "Eine Karte ist die Spur dessen, der sie von der Tafel nimmt, nicht dessen, der sie trägt. Frag, wem sie griffbereit hing."
+  },
+  {
+   "key": "case032.summary.location",
+   "value": "Paris, 7. Arrondissement — Mai 2030"
+  },
+  {
+   "key": "case032.summary.truth",
+   "value": "Die Katalogbearbeiterin Mathilde Roux bemerkte, dass eines der Fotos in der Rückrufmitteilung von bube Tokio Los 47 zeigte: eine in Kamakura gefertigte, gefälschte Schale. Sie fragte den Leiter der Asienabteilung, Julien Mercier, der den Provenienzbrief gebracht hatte; zum Vergleich gingen sie zusammen in den Tresorraum. Mercier hatte die Karte von Inès Benali von der Transporteurtafel genommen und den grauen Kittel angezogen; als sie den Kasten öffnete, tötete er das Opfer mit der Bronzebuchstütze, nahm Foto und Mitteilung an sich und hängte die Karte an die Tafel zurück."
+  },
+  {
+   "key": "case032.suspect.label",
+   "value": "Wer hat Mathilde Roux getötet?"
+  },
+  {
+   "key": "case032.tablet.caseLine",
+   "value": "AKTE #032  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case032.time.back",
+   "value": "22.00"
+  },
+  {
+   "key": "case032.time.in",
+   "value": "21.38"
+  },
+  {
+   "key": "case032.time.lamp",
+   "value": "21.30"
+  },
+  {
+   "key": "case032.time.msg",
+   "value": "20.10"
+  },
+  {
+   "key": "case032.time.open",
+   "value": "21.45"
+  },
+  {
+   "key": "case032.time.out",
+   "value": "21.52"
+  },
+  {
+   "key": "case032.title",
+   "value": "Akte #032 — Los 47"
+  },
+  {
+   "key": "case032.vault.body",
+   "value": "Sieht den Flur zur Tresortür. 12. Mai 21.00 – 23.00."
+  },
+  {
+   "key": "case032.vault.title",
+   "value": "KELLERFLURKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case032.verdict.bastien",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.verdict.benali",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.verdict.hugo",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.verdict.mercier",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.item.bookend.name",
+   "value": "Bronzebuchstütze"
+  },
+  {
+   "key": "case032.item.bookend.detail",
+   "value": "Eine aus dem Bronzestützenpaar im Büro der Asienabteilung; an der Unterseite eine abgewischte Blutspur."
+  },
+  {
+   "key": "case032.item.letter.name",
+   "value": "Provenienzbrief zu Los 47"
+  },
+  {
+   "key": "case032.item.letter.detail",
+   "value": "Mit Schreibmaschine auf elfenbeinfarbenes Papier geschriebenes Gutachten, in blauer Tinte unterschrieben; über der Unterschrift die Initialen ‚E. V.‘"
+  },
+  {
+   "key": "case032.item.badge.name",
+   "value": "Kartentafel"
+  },
+  {
+   "key": "case032.item.badge.detail",
+   "value": "Offene Tafel am Eingang des Tresorraums, an der die Karten der Transporteure hängen."
+  }
+ ]
+}
