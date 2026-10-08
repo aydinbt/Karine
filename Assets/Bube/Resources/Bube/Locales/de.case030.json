@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case030.autopsy.body",
+   "value": "· Am linken oberen Kopf ein einzelner Schlag mit einem runden, schweren Gegenstand; in der Wunde rote Farbsplitter.\n· Keine für einen Treppensturz typischen Schürfwunden an mehreren Stellen; keine Sturzbrüche an den Knochen.\n· Todeszeitpunkt: 09.55–10.15."
+  },
+  {
+   "key": "case030.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case030.cctv.event.door",
+   "value": "Kamera: Die Lobby ist leer; die Treppenhaustür schließt sich langsam."
+  },
+  {
+   "key": "case030.cctv.event.out",
+   "value": "Kamera: Derselbe Mann kommt aus dem Treppenhaus zurück; das Klemmbrett nicht in der Hand, er geht schnell zum Kopierraum."
+  },
+  {
+   "key": "case030.cctv.event.wait",
+   "value": "Kamera: Ein Mann mit Armbinde steht allein in der leeren Lobby, in der Hand das Anwesenheitsbrett, und schaut zur Treppenhaustür."
+  },
+  {
+   "key": "case030.cctv.overlay",
+   "value": "9F-L"
+  },
+  {
+   "key": "case030.cctv.period",
+   "value": "1. April 2030"
+  },
+  {
+   "key": "case030.cctv.source",
+   "value": "Lobbykamera"
+  },
+  {
+   "key": "case030.clue.alarm",
+   "value": "Übungsalarm; die Buchhaltungsetage geht zum Treppenhaus."
+  },
+  {
+   "key": "case030.clue.found",
+   "value": "Der Wachmann findet die Leiche auf dem Treppenabsatz."
+  },
+  {
+   "key": "case030.clue.out",
+   "value": "Der Mann kommt ohne Klemmbrett aus dem Treppenhaus zurück und geht in den Kopierraum."
+  },
+  {
+   "key": "case030.clue.roll",
+   "value": "Auf dem Platz ist die Anwesenheit ‚vollständig‘; der Name des Opfers mit blauem Stift abgehakt."
+  },
+  {
+   "key": "case030.clue.scan",
+   "value": "Der QR-Scan des Evakuierungsverantwortlichen aus dem 9. Stock."
+  },
+  {
+   "key": "case030.clue.source.ono",
+   "value": "Sicherheit"
+  },
+  {
+   "key": "case030.clue.source.qr",
+   "value": "App-Protokoll"
+  },
+  {
+   "key": "case030.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case030.clue.source.sheet",
+   "value": "Anwesenheitsliste"
+  },
+  {
+   "key": "case030.clue.wait",
+   "value": "Der Mann mit Armbinde schaut in der leeren Lobby zur Treppenhaustür."
+  },
+  {
+   "key": "case030.copy.body",
+   "value": "Kopierraum im 9. Stock:\n\n· Eine der Platten der abgehängten Decke ist verschoben. Darin ein roter Feuerlöscher; am Boden eine Delle, in der Delle Haare und getrocknetes Blut. Laut Etagenplan fehlt der Feuerlöscher neben der Tür des Osttreppenhauses.\n· Am Griff des Feuerlöschers und am Rahmen der Deckenplatte Fingerabdrücke von Nishida Kōhei.\n· Auf der Platte ein Anwesenheitsbrett."
+  },
+  {
+   "key": "case030.copy.title",
+   "value": "DURCHSUCHUNG DES KOPIERRAUMS"
+  },
+  {
+   "key": "case030.custody.forged",
+   "value": "Der Verantwortliche hakte anstelle des Opfers selbst ab"
+  },
+  {
+   "key": "case030.custody.genuine",
+   "value": "Das Opfer war auf dem Platz und kehrte danach zurück"
+  },
+  {
+   "key": "case030.custody.label",
+   "value": "Was zeigt die Anwesenheitsliste der Übung?"
+  },
+  {
+   "key": "case030.custody.mistake",
+   "value": "In der Menge wurde falsch abgehakt"
+  },
+  {
+   "key": "case030.epilogue.custody.forged",
+   "value": "Festgehalten wurde, dass die Anwesenheitsliste vom Evakuierungsverantwortlichen gefälscht vervollständigt wurde."
+  },
+  {
+   "key": "case030.epilogue.custody.genuine",
+   "value": "Es wurde akzeptiert, dass das Opfer auf dem Platz war; der Todeszeitpunkt rutschte hinter die Übung."
+  },
+  {
+   "key": "case030.epilogue.custody.mistake",
+   "value": "Der Fehler in der Anwesenheitsliste galt als gutgläubig."
+  },
+  {
+   "key": "case030.epilogue.verdict.fall",
+   "value": "Der Tod wurde als Übungsunfall abgeschlossen; im Gebäude wurden die Geländer erneuert."
+  },
+  {
+   "key": "case030.epilogue.verdict.hirano",
+   "value": "Hirano Saki wurde beschuldigt; die Anwesenheitsliste wurde von niemandem hinterfragt."
+  },
+  {
+   "key": "case030.epilogue.verdict.nishida",
+   "value": "Nishida Kōhei wurde festgenommen. Die Überweisungen an Maison Delorme gingen an die interne Revision und von dort an die Pariser Dienststelle von bube."
+  },
+  {
+   "key": "case030.evidence.copy",
+   "value": "Durchsuchung des Kopierraums"
+  },
+  {
+   "key": "case030.evidence.file",
+   "value": "Die Akte des Opfers"
+  },
+  {
+   "key": "case030.evidence.qr",
+   "value": "Protokoll der Evakuierungs-App"
+  },
+  {
+   "key": "case030.evidence.sheet",
+   "value": "Anwesenheitsliste"
+  },
+  {
+   "key": "case030.feedback.fall",
+   "value": "Die Obduktion zeigt keinen Sturzbruch, sondern einen einzelnen Schlag mit roten Farbsplittern."
+  },
+  {
+   "key": "case030.feedback.hirano",
+   "value": "Die Schreibtischnachbarin stritt, scannte aber um 10.07 auf dem Platz; am Feuerlöscher keine Spur von ihr."
+  },
+  {
+   "key": "case030.feedback.nishida",
+   "value": "Das App-Protokoll zeigt ihn um 10.09 noch im 9. Stock, die Kamera, wie er ohne Klemmbrett aus dem Treppenhaus zurückkommt; an Feuerlöscher und Deckenplatte seine Spuren, der einzige blaue Haken auf der Liste stammt aus seinem Stift."
+  },
+  {
+   "key": "case030.file.body",
+   "value": "In der verschlossenen Schublade des Opfers: 14 Überweisungen mit dem Titel ‚Beratung‘, Empfänger das Auktionshaus Maison Delorme in Paris, insgesamt 380 Millionen Yen. Auf jedem Überweisungsformular die Freigabeunterschrift: Nishida Kōhei.\n\nAuf dem letzten Formular neben der Unterschrift handschriftlich: ‚E.V. genehmigt.‘\n\nHaftnotiz des Opfers: „Montag zur internen Revision. Ohne Nishida zu fragen.“"
+  },
+  {
+   "key": "case030.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case030.file.title",
+   "value": "DIE AKTE AUF DEM SCHREIBTISCH VON AOKI"
+  },
+  {
+   "key": "case030.file.value.bureau",
+   "value": "BDS Tokio — Dienststelle Nihonbashi"
+  },
+  {
+   "key": "case030.file.value.location",
+   "value": "Nihonbashi, Büroturm — Osttreppenhaus"
+  },
+  {
+   "key": "case030.file.value.number",
+   "value": "BDS-TYO-2030-0041"
+  },
+  {
+   "key": "case030.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case030.file.value.reporter",
+   "value": "Gebäudesicherheit"
+  },
+  {
+   "key": "case030.hirano.body",
+   "value": "Schreibtischnachbarin."
+  },
+  {
+   "key": "case030.hirano.deflect",
+   "value": "Fragen Sie das meinen Chef."
+  },
+  {
+   "key": "case030.hirano.drill.answer",
+   "value": "Als der Alarm losging, saß sie an ihrem Schreibtisch, vergraben in ihren Akten. ‚Ich komme‘, sagte sie. Im Treppenhaus habe ich sie nicht gesehen, auf dem Platz auch … ich habe nicht darauf geachtet. Man sagte mir, ihr Name steht auf der Liste."
+  },
+  {
+   "key": "case030.hirano.drill.question",
+   "value": "Haben Sie Rin bei der Übung gesehen?"
+  },
+  {
+   "key": "case030.hirano.rin.answer",
+   "value": "Gestern haben wir uns angeschrien, alle haben es gehört. Die Überweisungsliste, die ich vorbereitet hatte, schickte sie als ‚unvollständig‘ an den Chef zurück. Aber die Liste war nicht unvollständig; Rin war hinter etwas anderem her, hinter den Überweisungen nach Paris."
+  },
+  {
+   "key": "case030.hirano.rin.answer.demeanor",
+   "value": "Dreht ihren Helm in beiden Händen."
+  },
+  {
+   "key": "case030.hirano.rin.question",
+   "value": "Wie standen Sie zu Aoki Rin?"
+  },
+  {
+   "key": "case030.hirano.rin.variant0",
+   "value": "Sie haben die Akte also gefunden. Rin sagte mir gestern Abend: ‚Herr Nishida hat das unterschrieben, neben der Unterschrift steht E.V., wer ist das?‘ Ich sagte: ‚Lass die Finger davon.‘ Das war der Streit."
+  },
+  {
+   "key": "case030.hirano.title",
+   "value": "Hirano Saki — Befragung"
+  },
+  {
+   "key": "case030.lobby.body",
+   "value": "Sieht die Lobby und die Tür des Osttreppenhauses. 1. April 09.55 – 10.20."
+  },
+  {
+   "key": "case030.lobby.title",
+   "value": "KAMERA AUFZUGSLOBBY 9. STOCK — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case030.method.ext",
+   "value": "Wurde mit einem Feuerlöscher auf den Kopf geschlagen"
+  },
+  {
+   "key": "case030.method.fall",
+   "value": "Stürzte in der Menge"
+  },
+  {
+   "key": "case030.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case030.method.push",
+   "value": "Wurde die Treppe hinuntergestoßen"
+  },
+  {
+   "key": "case030.nishida.body",
+   "value": "Evakuierungsverantwortlicher."
+  },
+  {
+   "key": "case030.nishida.deflect",
+   "value": "Firmeninformationen kann ich nicht herausgeben."
+  },
+  {
+   "key": "case030.nishida.last.answer",
+   "value": "Natürlich. Ich habe die Etage kontrolliert, sie war leer, ich bin über das Osttreppenhaus hinunter."
+  },
+  {
+   "key": "case030.nishida.last.question",
+   "value": "Haben Sie die Etage als Letzter verlassen?"
+  },
+  {
+   "key": "case030.nishida.roll.answer",
+   "value": "Auf dem Platz, um 10.12. Jeder Name wurde einzeln vorgelesen; Aoki sagte ‚hier‘, ich habe abgehakt. Dann habe ich sie in der Menge verloren, sie muss früh wieder hineingegangen sein."
+  },
+  {
+   "key": "case030.nishida.roll.answer.demeanor",
+   "value": "Schiebt seine Brille die Nase hoch."
+  },
+  {
+   "key": "case030.nishida.roll.question",
+   "value": "Haben Sie die Anwesenheit aufgenommen?"
+  },
+  {
+   "key": "case030.nishida.title",
+   "value": "Nishida Kōhei — Befragung"
+  },
+  {
+   "key": "case030.nishida_2.body",
+   "value": "Zu den Protokollen."
+  },
+  {
+   "key": "case030.nishida_2.nine.answer",
+   "value": "Ich habe die Etage kontrolliert."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.copy",
+   "value": "… Der Alarm ging los, alle gingen hinaus, sie stand auf und kam mit der Akte zu mir. ‚Das bringe ich zur Revision‘, sagte sie. An der Treppenhaustür. Der Feuerlöscher war griffbereit. Dann habe ich bei der Anwesenheit ihren Namen abgehakt, in der Menge kann niemand zählen."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.file",
+   "value": "Beratungszahlungen kommen von oben. Ich unterschreibe nur. Dafür töte ich niemanden."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.qr",
+   "value": "Mein Telefon … ich habe im Treppenhaus gescannt, vielleicht hat das Signal es so erfasst."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.sheet",
+   "value": "Aoki war in der Menge, ich glaubte, ihr ‚hier‘ gehört zu haben. Die Farbe eines Stifts beweist nichts."
+  },
+  {
+   "key": "case030.nishida_2.nine.question",
+   "value": "Um 10.09 waren Sie noch im 9. Stock."
+  },
+  {
+   "key": "case030.nishida_2.title",
+   "value": "Nishida Kōhei — zweite Befragung"
+  },
+  {
+   "key": "case030.offer.subtitle",
+   "value": "DIE ÜBUNG  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case030.offer.summary",
+   "value": "Nach einer Erdbebenübung eine Leiche im Treppenhaus. Laut Anwesenheitsliste war das Opfer zu der Zeit auf dem Platz."
+  },
+  {
+   "key": "case030.offer.title",
+   "value": "AKTE #030"
+  },
+  {
+   "key": "case030.ono.body",
+   "value": "Gebäudesicherheit."
+  },
+  {
+   "key": "case030.ono.deflect",
+   "value": "Meine Aufgabe sind Türen und Treppen."
+  },
+  {
+   "key": "case030.ono.drill.answer",
+   "value": "Alarm, dann führt der Evakuierungsverantwortliche jeder Etage seine Leute über die Treppe hinunter, nimmt auf dem Platz mit der Liste die Anwesenheit auf und sagt mir ‚vollständig‘. Die Aufzüge sind gesperrt. Der Verantwortliche geht als Letzter, kontrolliert die Etage. In der Buchhaltung ist das Herr Nishida."
+  },
+  {
+   "key": "case030.ono.drill.question",
+   "value": "Wie läuft die Übung ab?"
+  },
+  {
+   "key": "case030.ono.found.answer",
+   "value": "Auf dem Rückweg schloss ich die Treppenhaustüren eine nach der anderen. Sie lag auf dem Absatz, unter ihrem Kopf war kaum Blut. Wer die Treppe hinunterfällt, liegt nicht so, das sehe ich seit dreißig Jahren."
+  },
+  {
+   "key": "case030.ono.found.question",
+   "value": "Wie haben Sie die Leiche gefunden?"
+  },
+  {
+   "key": "case030.ono.title",
+   "value": "Ōno Tadashi — Befragung"
+  },
+  {
+   "key": "case030.person.hirano.info",
+   "value": "33 Jahre, Schreibtischnachbarin des Opfers; im selben Team."
+  },
+  {
+   "key": "case030.person.hirano.name",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.person.nishida.info",
+   "value": "48 Jahre, Evakuierungsverantwortlicher der Buchhaltungsetage von Kisaragi Shōji; leitender Abteilungsleiter."
+  },
+  {
+   "key": "case030.person.nishida.name",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.person.ono.info",
+   "value": "61 Jahre, Wachmann des Gebäudes; leitet die Übung."
+  },
+  {
+   "key": "case030.person.ono.name",
+   "value": "Ōno Tadashi"
+  },
+  {
+   "key": "case030.qr.body",
+   "value": "Das Gebäude verlangt bei der Übung von jedem Mitarbeiter, den QR-Code auf dem Platz mit dem Telefon zu scannen; die App protokolliert auch den WLAN-Zugangspunkt, an dem gescannt wurde.\n\n· Aoki Rin: kein Scan.\n· Nishida Kōhei: 10.09, Zugangspunkt ‚9F-OST‘. Nicht der Platz, sondern der 9. Stock.\n· Die übrigen 22 Personen der Buchhaltung: 10.06–10.11, Platz."
+  },
+  {
+   "key": "case030.qr.title",
+   "value": "PROTOKOLL DER EVAKUIERUNGS-APP"
+  },
+  {
+   "key": "case030.report.body",
+   "value": "Am 1. April 2030 begann um 10.00 in einem Büroturm in Nihonbashi die jährliche Erdbebenübung. Die Buchhaltung von Kisaragi Shōji im 9. Stock meldete um 10.12 auf dem Platz die Anwesenheit: ‚vollständig‘.\n\nAls die Übung vorbei war und die Mitarbeiter zurückkehrten, fand der Wachmann Ōno Tadashi um 10.41 auf dem Absatz zwischen dem 8. und 9. Stock des Osttreppenhauses die Buchhaltungsfachkraft Aoki Rin (29) tot auf.\n\nErste Einschätzung: in der Menge die Treppe hinuntergestürzt. Aber laut Anwesenheitsliste war Aoki um 10.12 auf dem Platz."
+  },
+  {
+   "key": "case030.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case030.request.copy",
+   "value": "Durchsuchung des Kopierraums anfordern"
+  },
+  {
+   "key": "case030.request.file",
+   "value": "Verschlossene Schublade des Opfers öffnen"
+  },
+  {
+   "key": "case030.request.qr",
+   "value": "Scanprotokoll der Evakuierungs-App anfordern"
+  },
+  {
+   "key": "case030.request.sheet",
+   "value": "Anwesenheitsliste zur Untersuchung schicken"
+  },
+  {
+   "key": "case030.sheet.body",
+   "value": "Die auf dem Platz als ‚vollständig‘ gemeldete Anwesenheitsliste. 23 Namen, 23 Haken.\n\n22 der Haken in schwarzer Tinte. Der Haken neben Aoki Rin in blauem Kugelschreiber; dieselbe blaue Tinte im Stift in der Hemdtasche von Nishida Kōhei.\n\nAm Rand der Liste, mit blauem Stift: ‚10.12 vollständig — N.‘"
+  },
+  {
+   "key": "case030.sheet.title",
+   "value": "UNTERSUCHUNG DER ANWESENHEITSLISTE"
+  },
+  {
+   "key": "case030.summary.evidence",
+   "value": "Die Obduktion zeigte keinen Sturz, sondern einen einzelnen Schlag. Die Evakuierungs-App lieferte, dass Nishida um 10.09 noch auf der Etage war, die Lobbykamera seine Rückkehr ohne Klemmbrett aus dem Treppenhaus, die Anwesenheitsliste den einzigen blauen Haken, die Durchsuchung des Kopierraums den Feuerlöscher."
+  },
+  {
+   "key": "case030.summary.lesson",
+   "value": "Eine Anwesenheitsliste hält nicht fest, wer da war, sondern wer ‚da‘ geschrieben hat. Frag auch, wo die Hand war, die das Blatt hielt."
+  },
+  {
+   "key": "case030.summary.location",
+   "value": "Nihonbashi — April 2030"
+  },
+  {
+   "key": "case030.summary.truth",
+   "value": "Die Buchhaltungsfachkraft Aoki Rin fand auf allen ‚Beratungs‘-Überweisungen über 380 Millionen Yen von Kisaragi Shōji an das Auktionshaus Maison Delorme in Paris die Unterschrift ihres Chefs Nishida Kōhei und einen Vermerk ‚E.V. genehmigt‘. Beim Übungsalarm ging sie mit der Akte zu ihrem Chef; der Evakuierungsverantwortliche Nishida tötete sie an der Treppenhaustür mit dem Feuerlöscher, versteckte Feuerlöscher und Klemmbrett in der Decke des Kopierraums, hakte auf dem Platz den Namen des Opfers mit seinem eigenen Stift ab und meldete ‚vollständig‘."
+  },
+  {
+   "key": "case030.suspect.label",
+   "value": "Wer hat Aoki Rin getötet?"
+  },
+  {
+   "key": "case030.tablet.caseLine",
+   "value": "AKTE #030  /  BUBE TOKIO — NIHONBASHI"
+  },
+  {
+   "key": "case030.time.alarm",
+   "value": "10.00"
+  },
+  {
+   "key": "case030.time.door",
+   "value": "10.04"
+  },
+  {
+   "key": "case030.time.found",
+   "value": "10.41"
+  },
+  {
+   "key": "case030.time.out",
+   "value": "10.07"
+  },
+  {
+   "key": "case030.time.roll",
+   "value": "10.12"
+  },
+  {
+   "key": "case030.time.scan",
+   "value": "10.09"
+  },
+  {
+   "key": "case030.time.wait",
+   "value": "10.03"
+  },
+  {
+   "key": "case030.title",
+   "value": "Akte #030 — Die Übung"
+  },
+  {
+   "key": "case030.verdict.fall",
+   "value": "Niemand — sie stürzte die Treppe hinunter"
+  },
+  {
+   "key": "case030.verdict.hirano",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.verdict.nishida",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.item.sheet.name",
+   "value": "Anwesenheitsliste der Übung"
+  },
+  {
+   "key": "case030.item.sheet.detail",
+   "value": "Anwesenheitsliste der Etage; neben dem Namen des Opfers ein Haken in einer anderen Stiftfarbe."
+  },
+  {
+   "key": "case030.item.ext.name",
+   "value": "Feuerlöscher"
+  },
+  {
+   "key": "case030.item.ext.detail",
+   "value": "Roter Feuerlöscher, in der abgehängten Decke gefunden; am Boden eine Delle und Haare."
+  },
+  {
+   "key": "case030.item.tile.name",
+   "value": "Deckenplatte"
+  },
+  {
+   "key": "case030.item.tile.detail",
+   "value": "Deckenplatte aus dem Kopierraum im 9. Stock; verschoben, am Rand Fingerabdruckpulver."
+  }
+ ]
+}
