@@ -1,0 +1,512 @@
+{
+ "entries": [
+  {
+   "key": "case035.autopsy.body",
+   "value": "· Tod durch Mehrfachtrauma infolge des Aufpralls des Zuges.\n· Mitten auf dem Rücken, zwischen den Schulterblättern, ein handtellergroßer leichter Bluterguss, vor dem Aufprall entstanden.\n· Im Blut weder Alkohol noch Medikamente."
+  },
+  {
+   "key": "case035.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case035.benhamou.body",
+   "value": "Metrofahrer."
+  },
+  {
+   "key": "case035.benhamou.deflect",
+   "value": "Der Betrieb hat Regeln, fragen Sie dort."
+  },
+  {
+   "key": "case035.benhamou.saw.answer",
+   "value": "Ich konnte nichts sehen, nur einen Schatten. Ich habe gebremst. Zweiundzwanzig Jahre … In der Kabine ist eine Kamera, sie sieht die Frontscheibe. Wenn Sie wollen, nehmen Sie die Aufnahme, ich kann sie mir nicht ansehen."
+  },
+  {
+   "key": "case035.benhamou.saw.answer.demeanor",
+   "value": "Klemmt die Hände zwischen die Knie."
+  },
+  {
+   "key": "case035.benhamou.saw.question",
+   "value": "Was haben Sie aus der Kabine gesehen?"
+  },
+  {
+   "key": "case035.benhamou.title",
+   "value": "Karim Benhamou — Befragung"
+  },
+  {
+   "key": "case035.cab.body",
+   "value": "Frontkamera des Zuges; Einfahrt an Bahnsteig 2. 28. Mai 08.13.50 – 08.14.20."
+  },
+  {
+   "key": "case035.cab.title",
+   "value": "KABINENKAMERA DES ZUGES — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case035.calllog.body",
+   "value": "Protokoll der Notrufzentrale, 28. Mai:\n\n· 08.14.04 · Anrufer: Mobiltelefon von Lucien Mallet · Standort: Station Belleville · erster Satz: ‚Jemand ist auf die Gleise gefallen, ein Zug kommt.‘\n\nAuf der Kabinenkamera der Stoß um 08.14.11; Aufprall 08.14.12.\n\nDer Anruf begann sieben Sekunden vor dem Sturz."
+  },
+  {
+   "key": "case035.calllog.title",
+   "value": "NOTRUFPROTOKOLL"
+  },
+  {
+   "key": "case035.cctv.event.back",
+   "value": "Kamera: Der Mann im grauen Mantel zieht sich in die Menge zurück, das Telefon noch am Ohr, die andere Hand wie um Hilfe bittend erhoben."
+  },
+  {
+   "key": "case035.cctv.event.push",
+   "value": "Kamera: Die freie Hand des Mannes im grauen Mantel liegt auf dem Rücken des Mannes mit der Tasche; der Mann mit der Tasche fällt über die gelbe Linie nach vorn."
+  },
+  {
+   "key": "case035.cctv.event.stand",
+   "value": "Kamera: Ein Mann mit Tasche schaut an der Bahnsteigkante auf sein Telefon; direkt hinter ihm ein Mann im grauen Mantel, eine Hand am Ohr, ein Telefon haltend."
+  },
+  {
+   "key": "case035.cctv.overlay",
+   "value": "CAB-F"
+  },
+  {
+   "key": "case035.cctv.period",
+   "value": "28. Mai 2030"
+  },
+  {
+   "key": "case035.cctv.source",
+   "value": "Kabinenkamera"
+  },
+  {
+   "key": "case035.clue.call",
+   "value": "Notruf: ‚Jemand ist auf die Gleise gefallen.‘"
+  },
+  {
+   "key": "case035.clue.entry",
+   "value": "Mallet betritt die Station; wartet 38 Minuten am Bahnsteig."
+  },
+  {
+   "key": "case035.clue.push",
+   "value": "Die Hand des Mannes im grauen Mantel auf dem Rücken des Mannes mit der Tasche."
+  },
+  {
+   "key": "case035.clue.source.calllog",
+   "value": "Anrufprotokoll"
+  },
+  {
+   "key": "case035.clue.source.navigo",
+   "value": "Kartenprotokoll"
+  },
+  {
+   "key": "case035.clue.stand",
+   "value": "Der Mann im grauen Mantel, das Telefon am Ohr, hinter dem Mann mit der Tasche."
+  },
+  {
+   "key": "case035.clue.vidal",
+   "value": "Vidal betritt die Station zu seiner gewohnten Morgenzeit."
+  },
+  {
+   "key": "case035.custody.after",
+   "value": "Unmittelbar nach dem Sturz"
+  },
+  {
+   "key": "case035.custody.before",
+   "value": "Sieben Sekunden vor dem Sturz"
+  },
+  {
+   "key": "case035.custody.label",
+   "value": "Wann begann der Notruf?"
+  },
+  {
+   "key": "case035.custody.late",
+   "value": "Nachdem der Zug gehalten hatte"
+  },
+  {
+   "key": "case035.epilogue.custody.after",
+   "value": "Der Anruf galt als heldenhafte Reaktion."
+  },
+  {
+   "key": "case035.epilogue.custody.before",
+   "value": "Festgehalten wurde, dass der Notruf vor dem Stoß begann."
+  },
+  {
+   "key": "case035.epilogue.custody.late",
+   "value": "Auf die Uhrzeit des Anrufs schaute niemand."
+  },
+  {
+   "key": "case035.epilogue.verdict.accident",
+   "value": "Der Tod wurde als Unfall abgeschlossen; die Stadt verlieh Lucien Mallet eine Medaille."
+  },
+  {
+   "key": "case035.epilogue.verdict.mallet",
+   "value": "Lucien Mallet wurde festgenommen; vor Gericht nannte er den Namen seiner Tochter. Die Lakeshore-Zollerklärungen aus der Tasche von Vidal kamen in eine eigene Akte."
+  },
+  {
+   "key": "case035.epilogue.verdict.royer",
+   "value": "Pascal Royer wurde beschuldigt; dem ‚heldenhaften‘ Fahrgast stellte niemand eine Frage."
+  },
+  {
+   "key": "case035.evidence.cab",
+   "value": "Kabinenkamera des Zuges"
+  },
+  {
+   "key": "case035.evidence.calllog",
+   "value": "Notrufprotokoll"
+  },
+  {
+   "key": "case035.evidence.navigo",
+   "value": "Protokoll der Kartenleser"
+  },
+  {
+   "key": "case035.evidence.phone",
+   "value": "Das Telefon von Lucien Mallet"
+  },
+  {
+   "key": "case035.feedback.accident",
+   "value": "Die Kabinenkamera zeigt eine Hand auf dem Rücken des Opfers; der Bahnsteig war in dem Moment nicht voll."
+  },
+  {
+   "key": "case035.feedback.mallet",
+   "value": "Sein Notruf begann sieben Sekunden vor dem Sturz; die Kabinenkamera zeigt seine Hand auf dem Rücken des Opfers, die Obduktion bestätigt den Bluterguss am Rücken. 38 Minuten wartete er am Bahnsteig, fünf Wochen lang schrieb er die Zeiten des Opfers auf."
+  },
+  {
+   "key": "case035.feedback.royer",
+   "value": "Er bekam einen Anteil aus der Teilhaberversicherung, war aber nicht in der Station."
+  },
+  {
+   "key": "case035.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case035.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case035.file.value.location",
+   "value": "Paris, 20. Arrondissement, Metrostation — Bahnsteig 2"
+  },
+  {
+   "key": "case035.file.value.number",
+   "value": "BDP-PAR-2030-0131"
+  },
+  {
+   "key": "case035.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case035.file.value.reporter",
+   "value": "Verkehrsbetrieb"
+  },
+  {
+   "key": "case035.mallet.body",
+   "value": "Der Fahrgast, der den Notruf absetzte."
+  },
+  {
+   "key": "case035.mallet.deflect",
+   "value": "Das hat nichts mit der Sache zu tun."
+  },
+  {
+   "key": "case035.mallet.help.answer",
+   "value": "Ich war gerade erst in die Station gekommen. Der Mann schaute auf sein Telefon, von hinten drängte die Menge, er fiel. Ich habe sofort angerufen, bin hingelaufen. Man konnte nichts tun."
+  },
+  {
+   "key": "case035.mallet.help.answer.demeanor",
+   "value": "Versucht, seinen Mantelknopf zu schließen."
+  },
+  {
+   "key": "case035.mallet.help.question",
+   "value": "Was ist passiert?"
+  },
+  {
+   "key": "case035.mallet.know.answer",
+   "value": "Nein. Ich habe ihn zum ersten Mal im Leben gesehen."
+  },
+  {
+   "key": "case035.mallet.know.question",
+   "value": "Kannten Sie Rémi Vidal?"
+  },
+  {
+   "key": "case035.mallet.know.variant0",
+   "value": "… Sie haben also den Namen meiner Tochter gelesen. Ja, ich kannte ihn. Elf Tage saßen wir vor Gericht im selben Saal. Er hat mich nie angesehen."
+  },
+  {
+   "key": "case035.mallet.title",
+   "value": "Lucien Mallet — Befragung"
+  },
+  {
+   "key": "case035.mallet_2.body",
+   "value": "Zu den Unterlagen."
+  },
+  {
+   "key": "case035.mallet_2.seven.answer",
+   "value": "Die Uhrzeiten können falsch sein."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.calllog",
+   "value": "Sieben Sekunden … Ich hielt das Telefon ans Ohr, damit meine Hand beschäftigt aussah. Dann die andere Hand … Niemand denkt, dass ein Mann, der in einer Hand ein Telefon hält, mit der anderen stößt."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.navigo",
+   "value": "Ich habe am Bahnsteig gewartet, ja. Ich habe niemanden mehr, auf den ich warten könnte, die Morgen sind lang."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.phone",
+   "value": "Fünf Wochen habe ich gezählt. Die Stelle hinter der Säule, den Winkel der Kamera habe ich ausgemessen. Camille war sechzehn. Dieser Mann nahm jeden Morgen denselben Zug zur Arbeit. Und eines Morgens bin ich auch hingegangen."
+  },
+  {
+   "key": "case035.mallet_2.seven.question",
+   "value": "Ihr Anruf begann sieben Sekunden vor dem Sturz."
+  },
+  {
+   "key": "case035.mallet_2.title",
+   "value": "Lucien Mallet — zweite Befragung"
+  },
+  {
+   "key": "case035.method.crowd",
+   "value": "Die Menge stieß ihn"
+  },
+  {
+   "key": "case035.method.faint",
+   "value": "Wurde ohnmächtig und fiel"
+  },
+  {
+   "key": "case035.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case035.method.push",
+   "value": "Ein Mann, der in einer Hand ein Telefon hielt, stieß ihn mit der anderen auf die Gleise"
+  },
+  {
+   "key": "case035.navigo.body",
+   "value": "Monatskarte der Metro von Lucien Mallet, 28. Mai:\n\n· 07.36 · Eingang Station Belleville.\n\nMallet sagte, er ‚war gerade erst in die Station gekommen‘; er wartete 38 Minuten am Bahnsteig. Am selben Bahnsteig fuhren in dieser Zeit sieben Züge durch, in keinen stieg er ein.\n\nKarte von Rémi Vidal: 08.11, Eingang Belleville. In den letzten fünf Wochen an jedem Werktag zwischen 08.08 und 08.13."
+  },
+  {
+   "key": "case035.navigo.title",
+   "value": "PROTOKOLL DER KARTENLESER"
+  },
+  {
+   "key": "case035.odile.body",
+   "value": "Zeugin auf der Bank."
+  },
+  {
+   "key": "case035.odile.deflect",
+   "value": "Ich sage nur, was ich gesehen habe."
+  },
+  {
+   "key": "case035.odile.saw.answer",
+   "value": "Bevor der Zug kam, stand dieser Herr im grauen Mantel direkt hinter dem Mann mit der Tasche, in dem Moment war es nicht voll. Er telefonierte. Dann ist der Mann mit der Tasche … gefallen oder gestoßen worden, das kann ich mit meinen Brillengläsern nicht beschwören. Der Herr im grauen Mantel rief sofort: ‚Helfen Sie!‘ Er rief sehr schnell."
+  },
+  {
+   "key": "case035.odile.saw.answer.demeanor",
+   "value": "Nimmt ihre Brille ab und putzt die Gläser am Rock."
+  },
+  {
+   "key": "case035.odile.saw.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case035.odile.title",
+   "value": "Odile Vasseur — Befragung"
+  },
+  {
+   "key": "case035.offer.subtitle",
+   "value": "METRO  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case035.offer.summary",
+   "value": "In der Metro von Belleville gerät ein Mann unter den Morgenzug. Die Zeitungen feiern den Fahrgast, der als Erster zu Hilfe eilte, als Helden."
+  },
+  {
+   "key": "case035.offer.title",
+   "value": "AKTE #035"
+  },
+  {
+   "key": "case035.person.benhamou.info",
+   "value": "44 Jahre, Metrofahrer; er fuhr den Zug."
+  },
+  {
+   "key": "case035.person.benhamou.name",
+   "value": "Karim Benhamou"
+  },
+  {
+   "key": "case035.person.mallet.info",
+   "value": "58 Jahre, der Fahrgast, der den Notruf absetzte und als Erster zum Opfer lief."
+  },
+  {
+   "key": "case035.person.mallet.name",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.person.odile.info",
+   "value": "70 Jahre, pensionierte Lehrerin; saß am Bahnsteig auf einer Bank."
+  },
+  {
+   "key": "case035.person.odile.name",
+   "value": "Odile Vasseur"
+  },
+  {
+   "key": "case035.person.royer.info",
+   "value": "39 Jahre, Teilhaber des Opfers im Zollagenturbüro."
+  },
+  {
+   "key": "case035.person.royer.name",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.phone.body",
+   "value": "Das Telefon von Lucien Mallet, mit Genehmigung der Dienststellenleitung:\n\n· In der Notizen-App seit dem 21. April eine Liste: ‚08.08 / 08.11 / 08.13 / 08.09 / 08.12 …‘ — fünf Wochen Morgenzeiten.\n· In den Fotos Aufnahmen von Bahnsteig 2, der Säule und dem Winkel der Deckenkamera.\n· Letzter Anruf: Notruf, 08.14.04. Die letzte Notiz vor dem Anruf, 08.13: ‚Camille.‘"
+  },
+  {
+   "key": "case035.phone.title",
+   "value": "DAS TELEFON VON LUCIEN MALLET"
+  },
+  {
+   "key": "case035.report.body",
+   "value": "Am 28. Mai 2030 um 08.14 fiel in der Metrostation Belleville der Zollagent Rémi Vidal (49) von der Bahnsteigkante auf die Gleise und geriet unter den einfahrenden Zug.\n\nDer Fahrgast, der den Notruf absetzte und als Erster an die Bahnsteigkante lief, war Lucien Mallet; in seiner Aussage sagte er: „Der Mann schaute auf sein Telefon, die Menge drängte, er fiel.“ Die Morgenzeitungen nannten ihn den ‚Helden vom Bahnsteig‘.\n\nDie Sicht der Bahnsteigkamera ist an dieser Stelle von einer Säule verdeckt."
+  },
+  {
+   "key": "case035.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case035.request.calllog",
+   "value": "Zeitprotokoll des Notrufs anfordern"
+  },
+  {
+   "key": "case035.request.navigo",
+   "value": "Leseprotokoll der Metrokarten anfordern"
+  },
+  {
+   "key": "case035.request.phone",
+   "value": "Genehmigung zur Auswertung des Telefons von Lucien Mallet beantragen"
+  },
+  {
+   "key": "case035.request.ruling",
+   "value": "Unfallakte von 2019 aus dem Archiv anfordern"
+  },
+  {
+   "key": "case035.royer.bag.answer",
+   "value": "Die Chicago-Kisten von Delorme. Lakeshore Freight transportiert sie. Jeder Kiste legen sie ein Gutachterschreiben bei, immer dieselbe Unterschrift, Varga. Rémi sagte letzte Woche: ‚Diese Briefe unterschreibe ich nicht.‘"
+  },
+  {
+   "key": "case035.royer.bag.question",
+   "value": "Was war in seiner Tasche?"
+  },
+  {
+   "key": "case035.royer.body",
+   "value": "Teilhaber des Opfers."
+  },
+  {
+   "key": "case035.royer.deflect",
+   "value": "Kundenakten sind vertraulich."
+  },
+  {
+   "key": "case035.royer.partner.answer",
+   "value": "Es gibt eine Teilhaberversicherung, ja, wenn er stirbt, fällt der Anteil an mich. Ich wusste, dass Sie das fragen. Aber niemand mochte Rémi; 2019 hatte er einen Unfall, ein Mädchen starb, er wurde freigesprochen. Die Familie hat ihn vor Gericht ‚Mörder‘ genannt."
+  },
+  {
+   "key": "case035.royer.partner.answer.demeanor",
+   "value": "Lockert seine Krawatte und zieht sie wieder fest."
+  },
+  {
+   "key": "case035.royer.partner.question",
+   "value": "Gab es Probleme in der Partnerschaft?"
+  },
+  {
+   "key": "case035.royer.title",
+   "value": "Pascal Royer — Befragung"
+  },
+  {
+   "key": "case035.ruling.body",
+   "value": "Altes Urteil aus dem Archiv der Dienststelle:\n\n· 3. März 2019, Bagnolet. Das von Rémi Vidal gefahrene Auto erfasste auf dem Zebrastreifen die 16-jährige Camille Mallet; Camille starb.\n· Das Ergebnis des Alkoholtests ging verloren; Vidal wurde freigesprochen.\n· Bei der Urteilsverkündung wurde der Vater des Mädchens, Lucien Mallet, aus dem Saal entfernt."
+  },
+  {
+   "key": "case035.ruling.title",
+   "value": "UNFALLAKTE 2019"
+  },
+  {
+   "key": "case035.summary.evidence",
+   "value": "Das Anrufprotokoll begann vor dem Stoß; die Kabinenkamera zeigte die Hand, die Obduktion den Bluterguss am Rücken, das Kartenprotokoll das lange Warten, die alte Unfallakte die Verbindung. Das mit zwei Gründen geöffnete Telefon lieferte die Liste mit fünf Wochen Uhrzeiten."
+  },
+  {
+   "key": "case035.summary.lesson",
+   "value": "Wer als Erster hinläuft, hat nicht immer als Erster gesehen; manchmal hat er es vorher gewusst. Ordne die Sekunden."
+  },
+  {
+   "key": "case035.summary.location",
+   "value": "Belleville — Mai 2030"
+  },
+  {
+   "key": "case035.summary.truth",
+   "value": "Fünf Wochen lang notierte Lucien Mallet die Morgenzeiten von Rémi Vidal, der 2019 seine Tochter Camille auf einem Zebrastreifen getötet hatte und freigesprochen worden war, und vermaß den toten Winkel des Bahnsteigs. Am 28. Mai wartete er seit 07.36 am Bahnsteig; er hielt das Telefon ans Ohr, startete den Notruf und stieß Vidal sieben Sekunden später mit der freien Hand vor den Zug, dann rief er ‚Helfen Sie!‘."
+  },
+  {
+   "key": "case035.suspect.label",
+   "value": "Wer ist für den Tod von Rémi Vidal verantwortlich?"
+  },
+  {
+   "key": "case035.tablet.caseLine",
+   "value": "AKTE #035  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case035.time.back",
+   "value": "08.14.13"
+  },
+  {
+   "key": "case035.time.call",
+   "value": "08.14.04"
+  },
+  {
+   "key": "case035.time.entry",
+   "value": "07.36"
+  },
+  {
+   "key": "case035.time.push",
+   "value": "08.14.11"
+  },
+  {
+   "key": "case035.time.stand",
+   "value": "08.14.03"
+  },
+  {
+   "key": "case035.time.vidal",
+   "value": "08.11"
+  },
+  {
+   "key": "case035.title",
+   "value": "Akte #035 — Metro"
+  },
+  {
+   "key": "case035.verdict.accident",
+   "value": "Niemand — er fiel in der Menge"
+  },
+  {
+   "key": "case035.verdict.mallet",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.verdict.royer",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.item.call.name",
+   "value": "Notrufprotokoll"
+  },
+  {
+   "key": "case035.item.call.detail",
+   "value": "Bildschirmfoto der Notrufzentrale: Anrufernummer, Uhrzeit, Standort."
+  },
+  {
+   "key": "case035.item.card.name",
+   "value": "Metrokarte"
+  },
+  {
+   "key": "case035.item.card.detail",
+   "value": "Die Monatskarte der Metro in der Brieftasche von Lucien Mallet."
+  },
+  {
+   "key": "case035.item.ruling.name",
+   "value": "Altes Gerichtsurteil"
+  },
+  {
+   "key": "case035.item.ruling.detail",
+   "value": "Deckblatt der Akte eines Verkehrsunfalls von 2019, der mit Freispruch endete."
+  }
+ ]
+}
