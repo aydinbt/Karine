@@ -1,0 +1,568 @@
+{
+ "entries": [
+  {
+   "key": "case034.amira.body",
+   "value": "The victim’s wife."
+  },
+  {
+   "key": "case034.amira.deflect",
+   "value": "I didn’t get involved in the shop’s business."
+  },
+  {
+   "key": "case034.amira.last.answer",
+   "value": "‘Tonight I’ll clean up the books, tomorrow I’ll go to the Belleville branch,’ he said. Someone from the branch came last week asking about a phone number, because of a poisoning. Malik realised we were the ones who sold that number."
+  },
+  {
+   "key": "case034.amira.last.answer.demeanor",
+   "value": "She pushes her hair behind her ear; it falls again."
+  },
+  {
+   "key": "case034.amira.last.question",
+   "value": "What did Malik say yesterday evening?"
+  },
+  {
+   "key": "case034.amira.title",
+   "value": "Amira Saïdi — interview"
+  },
+  {
+   "key": "case034.autopsy.body",
+   "value": "· A single, deep, narrow stab wound to the chest; a thin, pointed blade.\n· Workbench dust on the right hand, a small cut on the left palm: he tried to grab the blade.\n· Time of death: 19 May 21.45–22.45."
+  },
+  {
+   "key": "case034.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case034.cctv.event.in",
+   "value": "Camera: A figure in a dark grey sweatshirt, hood up, enters the shop under the half-open shutter."
+  },
+  {
+   "key": "case034.cctv.event.light",
+   "value": "Camera: The street is empty; inside the shop the bulb swings, a shadow passes across the back wall."
+  },
+  {
+   "key": "case034.cctv.event.out",
+   "value": "Camera: The hooded figure comes out under the shutter, right hand buried in the front pocket, and walks quickly uphill."
+  },
+  {
+   "key": "case034.cctv.overlay",
+   "value": "ZH-1"
+  },
+  {
+   "key": "case034.cctv.period",
+   "value": "19 May 2030"
+  },
+  {
+   "key": "case034.cctv.source",
+   "value": "Grocery camera"
+  },
+  {
+   "key": "case034.clue.handoff",
+   "value": "Yacine gives his phone to the young courier."
+  },
+  {
+   "key": "case034.clue.in",
+   "value": "The hooded figure enters under the shutter."
+  },
+  {
+   "key": "case034.clue.out",
+   "value": "The figure comes out, right hand in pocket, and walks uphill."
+  },
+  {
+   "key": "case034.clue.route",
+   "value": "Yacine’s phone travels along a courier route."
+  },
+  {
+   "key": "case034.clue.sim",
+   "value": "Three unregistered SIMs, to a customer ‘tall, a ring on his left hand’."
+  },
+  {
+   "key": "case034.clue.source.simbook",
+   "value": "SIM ledger"
+  },
+  {
+   "key": "case034.clue.source.theo",
+   "value": "Young courier"
+  },
+  {
+   "key": "case034.clue.source.track",
+   "value": "Location log"
+  },
+  {
+   "key": "case034.custody.label",
+   "value": "Who had Yacine’s phone that night?"
+  },
+  {
+   "key": "case034.custody.shop",
+   "value": "Left behind in the shop"
+  },
+  {
+   "key": "case034.custody.theo",
+   "value": "The young courier, Théo Marchand"
+  },
+  {
+   "key": "case034.custody.yacine",
+   "value": "Yacine himself"
+  },
+  {
+   "key": "case034.epilogue.custody.shop",
+   "value": "The phone was thought to have stayed in the shop; the location log was put down to error."
+  },
+  {
+   "key": "case034.epilogue.custody.theo",
+   "value": "It was recorded that the location alibi was built with a phone given to the young courier."
+  },
+  {
+   "key": "case034.epilogue.custody.yacine",
+   "value": "The location log was accepted as Yacine’s whereabouts."
+  },
+  {
+   "key": "case034.epilogue.verdict.amira",
+   "value": "Amira Saïdi was charged; the copy of the ledger was never read."
+  },
+  {
+   "key": "case034.epilogue.verdict.popescu",
+   "value": "Dimitri Popescu was arrested; the location log was taken to have cleared Yacine."
+  },
+  {
+   "key": "case034.epilogue.verdict.theo",
+   "value": "Théo Marchand was taken into custody; no one asked why he was carrying someone else’s phone."
+  },
+  {
+   "key": "case034.epilogue.verdict.yacine",
+   "value": "Yacine Saïdi was arrested. The copy of the SIM ledger was joined to File #033; the description ‘tall, a ring on his left hand’ is the same in both files."
+  },
+  {
+   "key": "case034.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case034.evidence.flat",
+   "value": "Yacine Saïdi’s flat — search"
+  },
+  {
+   "key": "case034.evidence.simbook",
+   "value": "SIM ledger"
+  },
+  {
+   "key": "case034.evidence.track",
+   "value": "Phone location log"
+  },
+  {
+   "key": "case034.feedback.amira",
+   "value": "His wife came in the morning; it was her husband who left the copy of the ledger with her."
+  },
+  {
+   "key": "case034.feedback.popescu",
+   "value": "The dealer argued about money but was in Montreuil; nothing was taken from the shop except the ledger and the back safe."
+  },
+  {
+   "key": "case034.feedback.theo",
+   "value": "The boy carried the phone; its location shows him out delivering on his scooter all night."
+  },
+  {
+   "key": "case034.feedback.yacine",
+   "value": "The location alibi comes from the courier boy’s scooter; his flat holds the bloodied sweatshirt, the knife, the safe’s money and the burnt original of the ledger. The victim was going to take the SIM sales to the branch."
+  },
+  {
+   "key": "case034.file.caseType",
+   "value": "MURDER"
+  },
+  {
+   "key": "case034.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case034.file.value.location",
+   "value": "Paris 20th arrondissement, Belleville — repair shop"
+  },
+  {
+   "key": "case034.file.value.number",
+   "value": "BDP-PAR-2030-0124"
+  },
+  {
+   "key": "case034.file.value.offence",
+   "value": "Murder"
+  },
+  {
+   "key": "case034.file.value.reporter",
+   "value": "The victim’s wife"
+  },
+  {
+   "key": "case034.flat.body",
+   "value": "With the branch chief’s approval:\n\n· In the washing machine, a wet dark grey hooded sweatshirt; on the right cuff a ring of blood that survived the wash, DNA Malik Saïdi.\n· In the kitchen bin, a thin, pointed screen-prying knife; bloodied. On the handle, prints of Léa Dubois (expected) and Yacine.\n· Under the bed, the money from the back safe (€3,100) and the original squared notebook, half burnt."
+  },
+  {
+   "key": "case034.flat.title",
+   "value": "YACINE SAÏDI’S FLAT — SEARCH"
+  },
+  {
+   "key": "case034.lea.body",
+   "value": "Apprentice."
+  },
+  {
+   "key": "case034.lea.book.answer",
+   "value": "Yacine sold the unregistered ones, from the back safe. I thought Malik didn’t know; he found out last week and was furious. We wrote the sales in a squared notebook. The notebook was in the back safe."
+  },
+  {
+   "key": "case034.lea.book.answer.demeanor",
+   "value": "She pulls the magnifier band out of her hair and turns it in her hand."
+  },
+  {
+   "key": "case034.lea.book.question",
+   "value": "Did the shop sell SIM cards too?"
+  },
+  {
+   "key": "case034.lea.deflect",
+   "value": "Ask Yacine about that."
+  },
+  {
+   "key": "case034.lea.title",
+   "value": "Léa Dubois — interview"
+  },
+  {
+   "key": "case034.lea.tool.answer",
+   "value": "My screen-prying knife. Thin, pointed. Its slot in my kit is empty."
+  },
+  {
+   "key": "case034.lea.tool.question",
+   "value": "Is anything missing from the workbench?"
+  },
+  {
+   "key": "case034.method.knife",
+   "value": "Stabbed in the chest with the screen-prying knife from the workbench"
+  },
+  {
+   "key": "case034.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case034.method.robbery",
+   "value": "Stabbed during a robbery"
+  },
+  {
+   "key": "case034.method.screwdriver",
+   "value": "Attacked with a screwdriver"
+  },
+  {
+   "key": "case034.offer.subtitle",
+   "value": "THE REPAIRMAN  /  MURDER"
+  },
+  {
+   "key": "case034.offer.summary",
+   "value": "In Belleville, a phone repairman has been stabbed in his back room. The till was not opened; his cousin’s phone was at the other end of the neighbourhood that night."
+  },
+  {
+   "key": "case034.offer.title",
+   "value": "FILE #034"
+  },
+  {
+   "key": "case034.person.amira.info",
+   "value": "36, the victim’s wife; a hairdresser in the neighbourhood."
+  },
+  {
+   "key": "case034.person.amira.name",
+   "value": "Amira Saïdi"
+  },
+  {
+   "key": "case034.person.lea.info",
+   "value": "24, the shop’s apprentice; does motherboard repairs."
+  },
+  {
+   "key": "case034.person.lea.name",
+   "value": "Léa Dubois"
+  },
+  {
+   "key": "case034.person.popescu.info",
+   "value": "47, a dealer who buys and sells second-hand phones."
+  },
+  {
+   "key": "case034.person.popescu.name",
+   "value": "Dimitri Popescu"
+  },
+  {
+   "key": "case034.person.theo.info",
+   "value": "17, a local boy; works as a scooter courier."
+  },
+  {
+   "key": "case034.person.theo.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case034.person.yacine.info",
+   "value": "31, the victim’s cousin and business partner."
+  },
+  {
+   "key": "case034.person.yacine.name",
+   "value": "Yacine Saïdi"
+  },
+  {
+   "key": "case034.person.zhou.info",
+   "value": "62, owner of the grocery opposite."
+  },
+  {
+   "key": "case034.person.zhou.name",
+   "value": "Zhou Meilin"
+  },
+  {
+   "key": "case034.popescu.body",
+   "value": "Second-hand dealer."
+  },
+  {
+   "key": "case034.popescu.deflect",
+   "value": "My trade is legal."
+  },
+  {
+   "key": "case034.popescu.fight.answer",
+   "value": "Monday, over money. He owed me forty phones. But a dead man doesn’t pay debts, does he? Yesterday evening I was in Montreuil, at a market; forty people saw me."
+  },
+  {
+   "key": "case034.popescu.fight.answer.demeanor",
+   "value": "He probes his gold tooth with his tongue."
+  },
+  {
+   "key": "case034.popescu.fight.question",
+   "value": "You argued with Malik."
+  },
+  {
+   "key": "case034.popescu.title",
+   "value": "Dimitri Popescu — interview"
+  },
+  {
+   "key": "case034.report.body",
+   "value": "On 20 May 2030 at 07.40, shop owner Malik Saïdi (39) was found stabbed to death in the back room of a phone repair shop in Belleville. His wife Amira Saïdi came to the shop in the morning when her husband did not come home.\n\nThe shutter half open. The till not opened; the phones in the window in place. The small safe in the back room open, empty.\n\nThe shop’s partner and cousin, Yacine Saïdi, said he left the neighbourhood after 21.00 and was out with friends until morning; his phone location supports this."
+  },
+  {
+   "key": "case034.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case034.request.flat",
+   "value": "Request permission to search Yacine Saïdi’s flat"
+  },
+  {
+   "key": "case034.request.simbook",
+   "value": "Find out whether there is a copy of the ledger"
+  },
+  {
+   "key": "case034.request.track",
+   "value": "Request Yacine Saïdi’s phone location log"
+  },
+  {
+   "key": "case034.simbook.body",
+   "value": "A photocopy of the ledger missing from the back safe: the day before he died, Malik Saïdi copied the ledger at a copy shop and left the copy at his wife’s hair salon.\n\n· 9 April · unregistered SIM ×3 — ‘Yacine’s customer; tall, a ring on his left hand, cash 900’.\n· Beside the line, in Malik’s handwriting: ‘This number killed the baker. Ask Yacine, then the branch.’\n· April–May: 61 unregistered SIM sales under Yacine Saïdi’s name."
+  },
+  {
+   "key": "case034.simbook.title",
+   "value": "SIM LEDGER"
+  },
+  {
+   "key": "case034.street.body",
+   "value": "Covers the repair shop on the opposite pavement. 19 May 21.00 – 23.00."
+  },
+  {
+   "key": "case034.street.title",
+   "value": "GROCERY AWNING CAMERA — log transcript"
+  },
+  {
+   "key": "case034.summary.evidence",
+   "value": "The location log showed a courier route at scooter speed; the boy talked once the copy of the ledger came out. The grocery camera gave the entry and exit; the flat search, opened on two grounds, gave the sweatshirt, the knife, the money and the burnt ledger."
+  },
+  {
+   "key": "case034.summary.lesson",
+   "value": "Where a phone is is not where its owner is. Ask about the hand carrying the device."
+  },
+  {
+   "key": "case034.summary.location",
+   "value": "Belleville — May 2030"
+  },
+  {
+   "key": "case034.summary.truth",
+   "value": "Malik Saïdi found that his cousin Yacine was selling unregistered SIMs from the back safe, and that the number that killed the baker was one of those sales; he copied the ledger and decided to go to the branch. Yacine gave his phone to a young courier for twenty euros to build a location alibi, entered the shop with his hood up at 22.02, killed his cousin, who would not hand over the ledger, with the prying knife from the workbench, and took the ledger and the money."
+  },
+  {
+   "key": "case034.suspect.label",
+   "value": "Who killed Malik Saïdi?"
+  },
+  {
+   "key": "case034.tablet.caseLine",
+   "value": "FILE #034  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case034.theo.body",
+   "value": "A local boy."
+  },
+  {
+   "key": "case034.theo.deflect",
+   "value": "Dunno, mate."
+  },
+  {
+   "key": "case034.theo.night.answer",
+   "value": "Deliveries. I do them every night. Ménilmontant, Oberkampf… normal."
+  },
+  {
+   "key": "case034.theo.night.answer.demeanor",
+   "value": "He pulls his zip up and down."
+  },
+  {
+   "key": "case034.theo.night.question",
+   "value": "What did you do last night?"
+  },
+  {
+   "key": "case034.theo.night.variant0",
+   "value": "…All right. Yacine gave me his phone at nine, twenty euros. ‘Keep it in your pocket, do your deliveries, bring it back at midnight,’ he said. ‘My girlfriend’s tracking me,’ he said. At midnight I left it at his door. I don’t know anything about a knife, mate, I was on my scooter."
+  },
+  {
+   "key": "case034.theo.title",
+   "value": "Théo Marchand — interview"
+  },
+  {
+   "key": "case034.time.handoff",
+   "value": "21.00"
+  },
+  {
+   "key": "case034.time.in",
+   "value": "22.02"
+  },
+  {
+   "key": "case034.time.light",
+   "value": "22.06"
+  },
+  {
+   "key": "case034.time.out",
+   "value": "22.11"
+  },
+  {
+   "key": "case034.time.route",
+   "value": "21.20–23.40"
+  },
+  {
+   "key": "case034.time.sim",
+   "value": "9 Apr."
+  },
+  {
+   "key": "case034.title",
+   "value": "File #034 — The Repairman"
+  },
+  {
+   "key": "case034.track.body",
+   "value": "Yacine Saïdi’s phone, 19 May:\n· 21.05 · Belleville, in front of the shop\n· 21.20–23.40 · constant movement between Ménilmontant, Père-Lachaise, Oberkampf and République; average speed 18–22 km/h, 14 stops, each 2–4 minutes.\n· 23.55 · Belleville, Yacine’s flat.\n\nNote: not walking speed; Yacine has no registered vehicle. The pattern of stops matches a courier app’s delivery route."
+  },
+  {
+   "key": "case034.track.title",
+   "value": "PHONE LOCATION LOG — YACINE SAÏDI"
+  },
+  {
+   "key": "case034.verdict.amira",
+   "value": "Amira Saïdi"
+  },
+  {
+   "key": "case034.verdict.popescu",
+   "value": "Dimitri Popescu"
+  },
+  {
+   "key": "case034.verdict.theo",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case034.verdict.yacine",
+   "value": "Yacine Saïdi"
+  },
+  {
+   "key": "case034.yacine.body",
+   "value": "Cousin and partner."
+  },
+  {
+   "key": "case034.yacine.deflect",
+   "value": "The shop’s books are our business."
+  },
+  {
+   "key": "case034.yacine.night.answer",
+   "value": "I was out, with friends. Look at my location, I went as far as Oberkampf. Me, kill Malik? He’s my blood."
+  },
+  {
+   "key": "case034.yacine.night.answer.demeanor",
+   "value": "He plays with his chain."
+  },
+  {
+   "key": "case034.yacine.night.question",
+   "value": "Where were you last night?"
+  },
+  {
+   "key": "case034.yacine.title",
+   "value": "Yacine Saïdi — interview"
+  },
+  {
+   "key": "case034.yacine_2.body",
+   "value": "Following the search."
+  },
+  {
+   "key": "case034.yacine_2.title",
+   "value": "Yacine Saïdi — second interview"
+  },
+  {
+   "key": "case034.yacine_2.why.answer",
+   "value": "No."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.flat",
+   "value": "…He was going to take the ledger to the branch. That man, the one with the ring, told me, ‘Keep records of sales again and there’s a bag of flour for you too.’ Malik wouldn’t listen. I asked for the ledger, he wouldn’t give it, the knife was on the workbench."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.simbook",
+   "value": "Selling SIMs isn’t a crime. A tall man? A customer. I don’t know his name. He never came back."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.track",
+   "value": "My phone was with a friend, I lent it. Is that forbidden?"
+  },
+  {
+   "key": "case034.yacine_2.why.question",
+   "value": "It was you who entered the shop at 22.02."
+  },
+  {
+   "key": "case034.zhou.body",
+   "value": "The grocer opposite."
+  },
+  {
+   "key": "case034.zhou.deflect",
+   "value": "I mind my own shop."
+  },
+  {
+   "key": "case034.zhou.saw.answer",
+   "value": "Around ten, someone in a hood went in under the shutter. Not tall, not short either. I half recognised the walk, but the hood… There’s a camera on my awning, my son put it up; have a look."
+  },
+  {
+   "key": "case034.zhou.saw.question",
+   "value": "Did you see anything last night?"
+  },
+  {
+   "key": "case034.zhou.title",
+   "value": "Zhou Meilin — interview"
+  },
+  {
+   "key": "case034.item.knife.name",
+   "value": "Prying knife"
+  },
+  {
+   "key": "case034.item.knife.detail",
+   "value": "A thin, pointed knife used to remove screens; the one missing from the kit on the workbench."
+  },
+  {
+   "key": "case034.item.simbook.name",
+   "value": "SIM ledger"
+  },
+  {
+   "key": "case034.item.simbook.detail",
+   "value": "A squared school notebook; columns for date, SIM number and customer description."
+  },
+  {
+   "key": "case034.item.hoodie.name",
+   "value": "Hooded sweatshirt"
+  },
+  {
+   "key": "case034.item.hoodie.detail",
+   "value": "In Yacine’s flat, wet inside the washing machine, a pale brown ring of staining on the sleeves."
+  }
+ ]
+}

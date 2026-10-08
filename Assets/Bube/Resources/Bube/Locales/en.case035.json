@@ -1,0 +1,512 @@
+{
+ "entries": [
+  {
+   "key": "case035.autopsy.body",
+   "value": "· Death from multiple trauma caused by the train’s impact.\n· In the middle of the back, between the shoulder blades, a faint palm-sized bruise formed before the impact.\n· No alcohol or drugs in the blood."
+  },
+  {
+   "key": "case035.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case035.benhamou.body",
+   "value": "Métro driver."
+  },
+  {
+   "key": "case035.benhamou.deflect",
+   "value": "The operator has rules; ask them."
+  },
+  {
+   "key": "case035.benhamou.saw.answer",
+   "value": "I couldn’t see anything, only a shadow. I braked. Twenty-two years… There’s a camera in the cab, it covers the windscreen. Take the recording if you want; I can’t watch it."
+  },
+  {
+   "key": "case035.benhamou.saw.answer.demeanor",
+   "value": "He presses his hands between his knees."
+  },
+  {
+   "key": "case035.benhamou.saw.question",
+   "value": "What did you see from the cab?"
+  },
+  {
+   "key": "case035.benhamou.title",
+   "value": "Karim Benhamou — interview"
+  },
+  {
+   "key": "case035.cab.body",
+   "value": "The train’s front camera; entering platform 2. 28 May 08.13.50 – 08.14.20."
+  },
+  {
+   "key": "case035.cab.title",
+   "value": "TRAIN CAB CAMERA — log transcript"
+  },
+  {
+   "key": "case035.calllog.body",
+   "value": "Call centre log, 28 May:\n\n· 08.14.04 · caller: Lucien Mallet’s mobile · location: Belleville station · first sentence: ‘Someone’s fallen onto the tracks, a train’s coming.’\n\nOn the cab camera, the moment of the push is 08.14.11; impact 08.14.12.\n\nThe call began seven seconds before the fall."
+  },
+  {
+   "key": "case035.calllog.title",
+   "value": "EMERGENCY CALL LOG"
+  },
+  {
+   "key": "case035.cctv.event.back",
+   "value": "Camera: The man in the grey coat draws back into the crowd, phone still at his ear, his other hand in the air as if calling for help."
+  },
+  {
+   "key": "case035.cctv.event.push",
+   "value": "Camera: The free hand of the man in the grey coat is on the back of the man with the bag; the man with the bag falls forward over the yellow line."
+  },
+  {
+   "key": "case035.cctv.event.stand",
+   "value": "Camera: A man with a bag looks at his phone at the platform edge; right behind him, a man in a grey coat, one hand at his ear, holding a phone."
+  },
+  {
+   "key": "case035.cctv.overlay",
+   "value": "CAB-F"
+  },
+  {
+   "key": "case035.cctv.period",
+   "value": "28 May 2030"
+  },
+  {
+   "key": "case035.cctv.source",
+   "value": "Cab camera"
+  },
+  {
+   "key": "case035.clue.call",
+   "value": "Emergency call: ‘Someone’s fallen onto the tracks.’"
+  },
+  {
+   "key": "case035.clue.entry",
+   "value": "Mallet enters the station; he waits on the platform for 38 minutes."
+  },
+  {
+   "key": "case035.clue.push",
+   "value": "The grey-coated man’s hand is on the back of the man with the bag."
+  },
+  {
+   "key": "case035.clue.source.calllog",
+   "value": "Call log"
+  },
+  {
+   "key": "case035.clue.source.navigo",
+   "value": "Card log"
+  },
+  {
+   "key": "case035.clue.stand",
+   "value": "The man in the grey coat, phone at his ear, behind the man with the bag."
+  },
+  {
+   "key": "case035.clue.vidal",
+   "value": "Vidal enters the station at his usual morning time."
+  },
+  {
+   "key": "case035.custody.after",
+   "value": "Right after the fall"
+  },
+  {
+   "key": "case035.custody.before",
+   "value": "Seven seconds before the fall"
+  },
+  {
+   "key": "case035.custody.label",
+   "value": "When did the emergency call begin?"
+  },
+  {
+   "key": "case035.custody.late",
+   "value": "After the train had stopped"
+  },
+  {
+   "key": "case035.epilogue.custody.after",
+   "value": "The call was taken as a heroic reaction."
+  },
+  {
+   "key": "case035.epilogue.custody.before",
+   "value": "It was recorded that the emergency call began before the moment of the push."
+  },
+  {
+   "key": "case035.epilogue.custody.late",
+   "value": "No one looked at the time of the call."
+  },
+  {
+   "key": "case035.epilogue.verdict.accident",
+   "value": "The death was closed as an accident; the city gave Lucien Mallet a medal."
+  },
+  {
+   "key": "case035.epilogue.verdict.mallet",
+   "value": "Lucien Mallet was arrested; in court he said his daughter’s name. The Lakeshore declarations in Vidal’s bag were taken into a separate file."
+  },
+  {
+   "key": "case035.epilogue.verdict.royer",
+   "value": "Pascal Royer was charged; no one asked the ‘hero’ passenger any questions."
+  },
+  {
+   "key": "case035.evidence.cab",
+   "value": "Train cab camera"
+  },
+  {
+   "key": "case035.evidence.calllog",
+   "value": "Emergency call log"
+  },
+  {
+   "key": "case035.evidence.navigo",
+   "value": "Card swipe log"
+  },
+  {
+   "key": "case035.evidence.phone",
+   "value": "Lucien Mallet’s phone"
+  },
+  {
+   "key": "case035.feedback.accident",
+   "value": "The cab camera shows a hand on the victim’s back; the platform was not crowded at that moment."
+  },
+  {
+   "key": "case035.feedback.mallet",
+   "value": "His emergency call came seven seconds before the fall; the cab camera shows his hand on the victim’s back, the autopsy confirms the bruise on the back. He waited 38 minutes on the platform and logged the victim’s times for five weeks."
+  },
+  {
+   "key": "case035.feedback.royer",
+   "value": "The partner stood to gain from the partnership insurance but was not at the station."
+  },
+  {
+   "key": "case035.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case035.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case035.file.value.location",
+   "value": "Paris 20th arrondissement, métro station — platform 2"
+  },
+  {
+   "key": "case035.file.value.number",
+   "value": "BDP-PAR-2030-0131"
+  },
+  {
+   "key": "case035.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case035.file.value.reporter",
+   "value": "The transport operator"
+  },
+  {
+   "key": "case035.mallet.body",
+   "value": "The passenger who made the emergency call."
+  },
+  {
+   "key": "case035.mallet.deflect",
+   "value": "That has nothing to do with it."
+  },
+  {
+   "key": "case035.mallet.help.answer",
+   "value": "I’d just come into the station. The man was looking at his phone, the crowd pushed from behind, he fell. I called straight away, I ran. There was nothing to be done."
+  },
+  {
+   "key": "case035.mallet.help.answer.demeanor",
+   "value": "He tries to do up a button on his coat."
+  },
+  {
+   "key": "case035.mallet.help.question",
+   "value": "What happened?"
+  },
+  {
+   "key": "case035.mallet.know.answer",
+   "value": "No. I’d never seen him before in my life."
+  },
+  {
+   "key": "case035.mallet.know.question",
+   "value": "Did you know Rémi Vidal?"
+  },
+  {
+   "key": "case035.mallet.know.variant0",
+   "value": "…So you’ve read my daughter’s name. Yes, I knew him. We sat in the same courtroom for eleven days. He never once looked at me."
+  },
+  {
+   "key": "case035.mallet.title",
+   "value": "Lucien Mallet — interview"
+  },
+  {
+   "key": "case035.mallet_2.body",
+   "value": "On the records."
+  },
+  {
+   "key": "case035.mallet_2.seven.answer",
+   "value": "The times may be wrong."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.calllog",
+   "value": "Seven seconds… I put the phone to my ear so my hand would look busy. Then my other hand… No one thinks a man holding a phone in one hand pushes with the other."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.navigo",
+   "value": "I waited on the platform, yes. I have no one to wait for any more; the mornings are long."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.phone",
+   "value": "I counted for five weeks. I measured behind the pillar, the camera’s angle. Camille was sixteen. That man got on the same train every morning and went to work. One morning I went too."
+  },
+  {
+   "key": "case035.mallet_2.seven.question",
+   "value": "Your call began seven seconds before the fall."
+  },
+  {
+   "key": "case035.mallet_2.title",
+   "value": "Lucien Mallet — second interview"
+  },
+  {
+   "key": "case035.method.crowd",
+   "value": "The crowd pushed him"
+  },
+  {
+   "key": "case035.method.faint",
+   "value": "He fainted and fell"
+  },
+  {
+   "key": "case035.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case035.method.push",
+   "value": "A man holding a phone in one hand pushed him onto the tracks with the other"
+  },
+  {
+   "key": "case035.navigo.body",
+   "value": "Lucien Mallet’s monthly métro card, 28 May:\n\n· 07.36 · Belleville station entry.\n\nMallet said, ‘I’d just come into the station’; he waited on the platform for 38 minutes. Seven trains passed on the same platform in that time; he boarded none of them.\n\nRémi Vidal’s card: 08.11, Belleville entry. Every working day for the last five weeks, between 08.08 and 08.13."
+  },
+  {
+   "key": "case035.navigo.title",
+   "value": "CARD SWIPE LOG"
+  },
+  {
+   "key": "case035.odile.body",
+   "value": "Witness sitting on the bench."
+  },
+  {
+   "key": "case035.odile.deflect",
+   "value": "I only say what I saw."
+  },
+  {
+   "key": "case035.odile.saw.answer",
+   "value": "Before the train came, that gentleman in the grey coat was right behind the man with the bag; it wasn’t crowded just then. He was talking on the phone. Then the man with the bag… fell or was pushed, I couldn’t swear to it with my eyes. The gentleman in the grey coat shouted ‘Help!’ at once. He shouted very quickly."
+  },
+  {
+   "key": "case035.odile.saw.answer.demeanor",
+   "value": "She takes off her glasses and wipes the lenses on her skirt."
+  },
+  {
+   "key": "case035.odile.saw.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case035.odile.title",
+   "value": "Odile Vasseur — interview"
+  },
+  {
+   "key": "case035.offer.subtitle",
+   "value": "MÉTRO  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case035.offer.summary",
+   "value": "At Belleville métro, a man goes under the morning train. The papers hail the passenger who rushed to help first as a hero."
+  },
+  {
+   "key": "case035.offer.title",
+   "value": "FILE #035"
+  },
+  {
+   "key": "case035.person.benhamou.info",
+   "value": "44, métro driver; he was driving the train."
+  },
+  {
+   "key": "case035.person.benhamou.name",
+   "value": "Karim Benhamou"
+  },
+  {
+   "key": "case035.person.mallet.info",
+   "value": "58, the passenger who made the emergency call and was first to reach the victim."
+  },
+  {
+   "key": "case035.person.mallet.name",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.person.odile.info",
+   "value": "70, retired teacher; she was sitting on a bench on the platform."
+  },
+  {
+   "key": "case035.person.odile.name",
+   "value": "Odile Vasseur"
+  },
+  {
+   "key": "case035.person.royer.info",
+   "value": "39, the victim’s partner at his customs brokerage."
+  },
+  {
+   "key": "case035.person.royer.name",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.phone.body",
+   "value": "Lucien Mallet’s phone, with the branch chief’s approval:\n\n· In the notes app, a list since 21 April: ‘08.08 / 08.11 / 08.13 / 08.09 / 08.12 …’ — five weeks of morning times.\n· In the photos, pictures of platform 2, the pillar and the angle of the ceiling camera.\n· Last call: the emergency call, 08.14.04. The last note before the call, 08.13: ‘Camille.’"
+  },
+  {
+   "key": "case035.phone.title",
+   "value": "LUCIEN MALLET’S PHONE"
+  },
+  {
+   "key": "case035.report.body",
+   "value": "On 28 May 2030 at 08.14, at Belleville métro station, customs broker Rémi Vidal (49) fell from the platform edge onto the tracks and went under the incoming train.\n\nThe passenger who made the emergency call and was first to the platform edge was Lucien Mallet; in his statement he said, “The man was looking at his phone, the crowd pushed, he fell.” The morning papers called him ‘the hero of the platform’.\n\nThe platform camera’s view of that spot is blocked by a pillar."
+  },
+  {
+   "key": "case035.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case035.request.calllog",
+   "value": "Request the time log of the emergency call"
+  },
+  {
+   "key": "case035.request.navigo",
+   "value": "Request the métro card swipe log"
+  },
+  {
+   "key": "case035.request.phone",
+   "value": "Request permission to examine Lucien Mallet’s phone"
+  },
+  {
+   "key": "case035.request.ruling",
+   "value": "Request the 2019 accident file from the archive"
+  },
+  {
+   "key": "case035.royer.bag.answer",
+   "value": "Delorme’s Chicago crates. Lakeshore Freight ships them. They attach an expert letter to every crate, always the same signature, Varga. Last week Rémi said, ‘I won’t sign off these letters.’"
+  },
+  {
+   "key": "case035.royer.bag.question",
+   "value": "What was in his bag?"
+  },
+  {
+   "key": "case035.royer.body",
+   "value": "The victim’s partner."
+  },
+  {
+   "key": "case035.royer.deflect",
+   "value": "Client files are confidential."
+  },
+  {
+   "key": "case035.royer.partner.answer",
+   "value": "There’s partnership insurance, yes; if he dies, the share comes to me. I knew you’d ask that. But nobody liked Rémi; in 2019 he had an accident, a girl died, he was acquitted. Her family shouted ‘murderer’ at him in court."
+  },
+  {
+   "key": "case035.royer.partner.answer.demeanor",
+   "value": "He loosens his tie and tightens it again."
+  },
+  {
+   "key": "case035.royer.partner.question",
+   "value": "Was there trouble in the partnership?"
+  },
+  {
+   "key": "case035.royer.title",
+   "value": "Pascal Royer — interview"
+  },
+  {
+   "key": "case035.ruling.body",
+   "value": "An old ruling pulled from the branch archive:\n\n· 3 March 2019, Bagnolet. The car driven by Rémi Vidal hit 16-year-old Camille Mallet on a pedestrian crossing; Camille died.\n· The breath test result was lost; Vidal was acquitted.\n· At the verdict hearing the girl’s father, Lucien Mallet, was removed from the courtroom."
+  },
+  {
+   "key": "case035.ruling.title",
+   "value": "2019 ACCIDENT FILE"
+  },
+  {
+   "key": "case035.summary.evidence",
+   "value": "The call log started before the push; the cab camera showed the hand, the autopsy the bruise on the back, the card log the long wait, and the old accident file the connection. The phone, opened on two grounds, gave the five-week list of times."
+  },
+  {
+   "key": "case035.summary.lesson",
+   "value": "The first to run is not always the first to see; sometimes it is the one who knew in advance. Put the seconds in order."
+  },
+  {
+   "key": "case035.summary.location",
+   "value": "Belleville — May 2030"
+  },
+  {
+   "key": "case035.summary.truth",
+   "value": "For five weeks Lucien Mallet noted the morning times of Rémi Vidal, who in 2019 killed his daughter Camille on a pedestrian crossing and was acquitted, and measured the platform’s blind spot. On 28 May he waited on the platform from 07.36; he put the phone to his ear and started the emergency call, and seven seconds later pushed Vidal in front of the train with his free hand, then shouted for help."
+  },
+  {
+   "key": "case035.suspect.label",
+   "value": "Who is responsible for Rémi Vidal’s death?"
+  },
+  {
+   "key": "case035.tablet.caseLine",
+   "value": "FILE #035  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case035.time.back",
+   "value": "08.14.13"
+  },
+  {
+   "key": "case035.time.call",
+   "value": "08.14.04"
+  },
+  {
+   "key": "case035.time.entry",
+   "value": "07.36"
+  },
+  {
+   "key": "case035.time.push",
+   "value": "08.14.11"
+  },
+  {
+   "key": "case035.time.stand",
+   "value": "08.14.03"
+  },
+  {
+   "key": "case035.time.vidal",
+   "value": "08.11"
+  },
+  {
+   "key": "case035.title",
+   "value": "File #035 — Métro"
+  },
+  {
+   "key": "case035.verdict.accident",
+   "value": "No one — he fell in the crowd"
+  },
+  {
+   "key": "case035.verdict.mallet",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.verdict.royer",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.item.call.name",
+   "value": "Emergency call log"
+  },
+  {
+   "key": "case035.item.call.detail",
+   "value": "Call centre screenshot: caller number, time, location."
+  },
+  {
+   "key": "case035.item.card.name",
+   "value": "Métro card"
+  },
+  {
+   "key": "case035.item.card.detail",
+   "value": "The monthly métro card in Lucien Mallet’s wallet."
+  },
+  {
+   "key": "case035.item.ruling.name",
+   "value": "Old court ruling"
+  },
+  {
+   "key": "case035.item.ruling.detail",
+   "value": "The cover of a 2019 road accident file that ended in acquittal."
+  }
+ ]
+}
