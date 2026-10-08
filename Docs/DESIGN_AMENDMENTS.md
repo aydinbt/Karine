@@ -1163,6 +1163,6 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 ## 8 Ekim 2026 — Masada yağmur ve şimşek varsayılan; Efekt Laboratuvarı kalktı
 
 - **Yağmur varsayılan:** masanın havası varsayılan olarak yağmurdur. Pencerede yağmur görünür, oda sesi `room_rain`dir. Vaka `"weather": "clear"` yazarsa açık gecede kalır.
-- **Şimşek:** 18–45 saniyede bir çift çakış olur. Pencere parlar, oda bir an soğuk maviyle aydınlanır, gök gürültüsü biraz sonra gelir. Işığa duyarlılık sınırı (`Fx.MayFlash`) ve efekt düzeyi geçerlidir.
+- **Şimşek:** 40–90 saniyede bir rastgele çift çakış olur. Pencere parlar, oda bir an soğuk maviyle aydınlanır, gök gürültüsü biraz sonra gelir. Işığa duyarlılık sınırı (`Fx.MayFlash`) ve efekt düzeyi geçerlidir.
 - Efekt Laboratuvarı ayarlardan ve koddan kaldırıldı.
 - Testler artık oyuncunun ayar kaydını değiştirmiyor. `run-tests.sh` PlayerPrefs alanını koşudan önce saklayıp sonra geri yazıyor. Önceden ses testi müziği kapatıyordu.

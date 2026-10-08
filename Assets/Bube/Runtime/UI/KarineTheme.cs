@@ -107,7 +107,7 @@ public static class KarineTheme {
   public const float ModemSeconds=1.5f;
   public static readonly Color Moon=Hex("#9FB6D6");
   public const float MoonAlpha=.07f, CurtainAlpha=.22f, CurtainSeconds=9f, FlashAlpha=.6f, RoomFlashAlpha=.14f, ThunderGain=.6f;
-  public const int ThunderMinMs=18000, ThunderMaxMs=45000;
+  public const int ThunderMinMs=40000, ThunderMaxMs=90000;
   public static readonly Rect AshArea=new Rect(24,52,4.5f,13);
   public const int ClosedFolderWidth=300, ClosedFolderHeight=380, ClosedTab=34, ClosedStampSize=44;
   public const int FinaleSheetWidth=480, FinaleTitleSize=34, FinaleLineSize=20, FinaleLineMs=1300;
