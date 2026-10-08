@@ -1,0 +1,656 @@
+{
+ "entries": [
+  {
+   "key": "case026.aoi.body",
+   "value": "Apprentice; found the body."
+  },
+  {
+   "key": "case026.aoi.bowl.answer",
+   "value": "An old bowl the master kept in the workshop. He never showed it to anyone."
+  },
+  {
+   "key": "case026.aoi.bowl.question",
+   "value": "What was the missing bowl?"
+  },
+  {
+   "key": "case026.aoi.deflect",
+   "value": "I can’t talk about my master’s affairs."
+  },
+  {
+   "key": "case026.aoi.night.answer",
+   "value": "I went to bed early. In the evening the master said ‘I’m tired’ and went to his room. In the morning I went into the display room for tea and found him like that. The cabinet was open; the bowl was gone."
+  },
+  {
+   "key": "case026.aoi.night.answer.demeanor",
+   "value": "She presses her hands to her knees."
+  },
+  {
+   "key": "case026.aoi.night.question",
+   "value": "What happened in the night?"
+  },
+  {
+   "key": "case026.aoi.night.variant0",
+   "value": "I went to bed early… You’ve seen the camera? The wild boar camera in the garden. I set it up. …I won’t talk about what happened after midnight."
+  },
+  {
+   "key": "case026.aoi.quote",
+   "value": "“In the morning I went into the display room for tea.”"
+  },
+  {
+   "key": "case026.aoi.title",
+   "value": "Hoshino Aoi — interview"
+  },
+  {
+   "key": "case026.aoi_2.body",
+   "value": "On the trace examination."
+  },
+  {
+   "key": "case026.aoi_2.found.answer",
+   "value": "I said I won’t talk about it."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.drag",
+   "value": "I woke at five; the shed light was on. I opened the door, smoke… The master was at the foot of the stool. He was cold. Inside the kiln were seven ‘old’ bowls. Whoever found them, my master’s forty years would end in one night. I wrapped him in a blanket, carried him to the display room, knocked the shelf over. His head against the corner of the shelf… I did that. After he was dead. I hid the bowl."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.shed",
+   "value": "You found the notebook. Then you know. I only wanted to protect his name. At five in the morning I opened the shed; he was already dead. The rest is my doing: I carried him, I staged it, I hid the bowl."
+  },
+  {
+   "key": "case026.aoi_2.found.question",
+   "value": "You hold the only key to the shed."
+  },
+  {
+   "key": "case026.aoi_2.title",
+   "value": "Hoshino Aoi — second interview"
+  },
+  {
+   "key": "case026.aoi_2.why.answer",
+   "value": "He taught me pottery. I never asked why he made the fakes. One night he said, ‘No one pays forty million for my real ones.’ That’s all."
+  },
+  {
+   "key": "case026.aoi_2.why.question",
+   "value": "Why?"
+  },
+  {
+   "key": "case026.autopsy.body",
+   "value": "· On the head, a 3 cm wound at the right temple. Almost no bleeding in the wound; the wound occurred **after death**.\n· Lividity fixed on the back and buttocks; the body was found face down.\n· The colour of the lividity unusually bright, cherry red.\n· Time of death: 01.00–03.00.\n· Tabi socks on the feet; ash and soil on the heels."
+  },
+  {
+   "key": "case026.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case026.cctv.event.back",
+   "value": "Camera: The same figure returns to the shed carrying a bowl and a bucket. The shed door is left open."
+  },
+  {
+   "key": "case026.cctv.event.drag",
+   "value": "Camera: A slight figure backs out of the shed, dragging something heavy wrapped in a blanket along the stone path."
+  },
+  {
+   "key": "case026.cctv.event.shed",
+   "value": "Camera: A figure with a lantern walks from the house to the kiln shed and closes the shed door."
+  },
+  {
+   "key": "case026.cctv.overlay",
+   "value": "TRAIL"
+  },
+  {
+   "key": "case026.cctv.period",
+   "value": "21 January 2030"
+  },
+  {
+   "key": "case026.cctv.source",
+   "value": "Garden camera"
+  },
+  {
+   "key": "case026.clue.cold",
+   "value": "No one feeds the kiln; the temperature starts to fall."
+  },
+  {
+   "key": "case026.clue.drag",
+   "value": "A slight figure drags a blanket-wrapped load from the shed to the house."
+  },
+  {
+   "key": "case026.clue.fight",
+   "value": "The gallerist and the master argue over a fake bowl."
+  },
+  {
+   "key": "case026.clue.fire",
+   "value": "The old kiln in the shed, with its cracked flue, is fired."
+  },
+  {
+   "key": "case026.clue.shed",
+   "value": "A figure with a lantern enters the shed and closes the door."
+  },
+  {
+   "key": "case026.clue.smoke",
+   "value": "The neighbour sees smoke sinking from the chimney."
+  },
+  {
+   "key": "case026.clue.source.emi",
+   "value": "The master’s daughter"
+  },
+  {
+   "key": "case026.clue.source.kilnlog",
+   "value": "Kiln logger"
+  },
+  {
+   "key": "case026.clue.source.okabe",
+   "value": "Neighbour"
+  },
+  {
+   "key": "case026.co.body",
+   "value": "Carboxyhaemoglobin level in the master’s blood: 58%. A fatal level.\n\nThe cherry-red lividity is consistent with this. No soot in the lungs; not a fire, but combustion gas in an enclosed space.\n\nThe head wound came after this death."
+  },
+  {
+   "key": "case026.co.title",
+   "value": "BLOOD GAS — CARBOXYHAEMOGLOBIN"
+  },
+  {
+   "key": "case026.custody.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.custody.fujita",
+   "value": "Fujita Masaru — the gallery"
+  },
+  {
+   "key": "case026.custody.label",
+   "value": "Who was making the fake antique bowls?"
+  },
+  {
+   "key": "case026.custody.seiji",
+   "value": "Nakamura Seiji himself"
+  },
+  {
+   "key": "case026.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case026.drag.body",
+   "value": "The two parallel grey lines in the display room: wood ash. The same ash on the heels of the master’s tabi socks, both rubbed in the same direction.\n\nThe ash is the same as the ash on the floor of the kiln shed. In the blanket fibres inside the shed door, the master’s hair.\n\nThe only key to the shed’s padlock is on apprentice Hoshino Aoi’s key ring."
+  },
+  {
+   "key": "case026.drag.title",
+   "value": "TRACE EXAMINATION — TATAMI LINES AND SOCKS"
+  },
+  {
+   "key": "case026.emi.body",
+   "value": "The master’s daughter."
+  },
+  {
+   "key": "case026.emi.deflect",
+   "value": "I don’t know my father’s affairs; I’ve been away for years."
+  },
+  {
+   "key": "case026.emi.title",
+   "value": "Nakamura Emi — interview"
+  },
+  {
+   "key": "case026.emi.weekend.answer",
+   "value": "Tense. On Sunday evening the gallerist Fujita came; they shouted. My father said, ‘That bowl isn’t mine; I never had a bowl like that!’ So I took the train back to Yokohama. It was nine o’clock."
+  },
+  {
+   "key": "case026.emi.weekend.answer.demeanor",
+   "value": "Her voice flat, her gaze steady."
+  },
+  {
+   "key": "case026.emi.weekend.question",
+   "value": "How was the weekend with your father?"
+  },
+  {
+   "key": "case026.emi.will.answer",
+   "value": "A house, a kiln and debt. My father said he’d made a lot of money in the last two years, but there’s no money in his account. I don’t know where it went."
+  },
+  {
+   "key": "case026.emi.will.question",
+   "value": "You are the heir."
+  },
+  {
+   "key": "case026.epilogue.custody.aoi",
+   "value": "The fake bowls were thought to have come from the apprentice’s hands; the master’s notebook was disregarded."
+  },
+  {
+   "key": "case026.epilogue.custody.fujita",
+   "value": "The gallerist was declared the forger; the real workshop closed and the shed was never searched."
+  },
+  {
+   "key": "case026.epilogue.custody.seiji",
+   "value": "It was recorded that the forgery was the master’s own work; the apprentice and the gallerist were assessed separately."
+  },
+  {
+   "key": "case026.epilogue.custody.unknown",
+   "value": "The source of the bowls remained open."
+  },
+  {
+   "key": "case026.epilogue.verdict.aoi",
+   "value": "Hoshino Aoi was tried for murder. The fake bowls were deemed ‘the apprentice’s work’; the master’s name stayed clean."
+  },
+  {
+   "key": "case026.epilogue.verdict.fujita",
+   "value": "Fujita Masaru was arrested; the ‘family heirloom’ sales at his gallery were closed as his forgeries."
+  },
+  {
+   "key": "case026.epilogue.verdict.kuroda",
+   "value": "Kuroda Isao was taken into custody and released for lack of evidence; the file remained open."
+  },
+  {
+   "key": "case026.epilogue.verdict.nobody",
+   "value": "The death was recorded as an accident. Hoshino Aoi was sentenced for moving the body and concealing evidence; the sentence was suspended. The seven ‘family heirlooms’ sold by the Fujita gallery were recalled; Kuroda’s bowl was removed from the Kisaragi collection."
+  },
+  {
+   "key": "case026.evidence.co",
+   "value": "Blood gas — carboxyhaemoglobin"
+  },
+  {
+   "key": "case026.evidence.drag",
+   "value": "Tatami and sock trace examination"
+  },
+  {
+   "key": "case026.evidence.kilnlog",
+   "value": "Kiln temperature log"
+  },
+  {
+   "key": "case026.evidence.xrf",
+   "value": "Glaze analysis"
+  },
+  {
+   "key": "case026.feedback.aoi",
+   "value": "The apprentice moved the body and staged the scene; but the master died of the gas in the shed, hours before she came."
+  },
+  {
+   "key": "case026.feedback.fujita",
+   "value": "The gallerist argued on Sunday evening and left; the death happened in the night in the shed, from the gas of a closed kiln."
+  },
+  {
+   "key": "case026.feedback.kuroda",
+   "value": "The collector was going to sue; the master’s death made it harder to get his money back, and he was not at the workshop that night."
+  },
+  {
+   "key": "case026.feedback.nobody",
+   "value": "The blood gas shows fatal carbon monoxide and the head wound is post-mortem; the lividity shows he died on his back, and the ash traces that he was dragged from the shed. The kiln with the cracked flue was fired in the night."
+  },
+  {
+   "key": "case026.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case026.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Branch"
+  },
+  {
+   "key": "case026.file.value.location",
+   "value": "Kamakura, workshop house — display room"
+  },
+  {
+   "key": "case026.file.value.number",
+   "value": "BDS-TYO-2030-0011"
+  },
+  {
+   "key": "case026.file.value.offence",
+   "value": "Suspicious death; theft"
+  },
+  {
+   "key": "case026.file.value.reporter",
+   "value": "Apprentice"
+  },
+  {
+   "key": "case026.fujita.body",
+   "value": "Gallerist."
+  },
+  {
+   "key": "case026.fujita.count.answer",
+   "value": "Seven in the last two years. All from Seiji, all ‘family heirlooms’. Ms Shimizu wrote a certificate for every one."
+  },
+  {
+   "key": "case026.fujita.count.question",
+   "value": "How many ‘old’ bowls did you sell?"
+  },
+  {
+   "key": "case026.fujita.deflect",
+   "value": "Our business dealings are confidential."
+  },
+  {
+   "key": "case026.fujita.fight.answer",
+   "value": "A piece broke off the sixteenth-century bowl Mr Kuroda bought from me last year, and new clay showed underneath. He says it’s a fake and he’s going to sue. Seiji gave me that bowl as ‘a family heirloom from a temple’. I asked him; he denied it."
+  },
+  {
+   "key": "case026.fujita.fight.answer.demeanor",
+   "value": "He keeps wiping his glasses."
+  },
+  {
+   "key": "case026.fujita.fight.question",
+   "value": "Why did you argue on Sunday evening?"
+  },
+  {
+   "key": "case026.fujita.fight.variant0",
+   "value": "So you’ve seen the glaze analysis. Modern cobalt. Seiji gave me that bowl as a ‘temple heirloom’. Two experts had looked at it before me. I’m a dealer, not a chemist."
+  },
+  {
+   "key": "case026.fujita.title",
+   "value": "Fujita Masaru — interview"
+  },
+  {
+   "key": "case026.kilnlog.body",
+   "value": "Temperature logger fitted for the insurance company to the old wood-gas kiln in the shed.\n\n· 20 January 23.10 · firing\n· 00.30–02.40 · 900–1,050 °C\n· 02.40 · the logger’s last reading; then a steady fall, no one fed it\n· 05.30 · lid opened (sudden drop)\n\nNote: According to the maintenance report of November, the kiln’s flue is ‘cracked; not to be used’."
+  },
+  {
+   "key": "case026.kilnlog.title",
+   "value": "KILN TEMPERATURE LOGGER"
+  },
+  {
+   "key": "case026.kuroda.body",
+   "value": "Collector."
+  },
+  {
+   "key": "case026.kuroda.bowl.answer",
+   "value": "For Mr Kisaragi Genzō’s collection. Paid from the company account: forty million yen. For a fake. On Monday my lawyers were going to file suit. Seiji’s death gains me nothing; who am I going to get the money from now?"
+  },
+  {
+   "key": "case026.kuroda.bowl.answer.demeanor",
+   "value": "He drums his fingers on the table."
+  },
+  {
+   "key": "case026.kuroda.bowl.question",
+   "value": "Whom did you buy the bowl for?"
+  },
+  {
+   "key": "case026.kuroda.deflect",
+   "value": "My collection is my private affair."
+  },
+  {
+   "key": "case026.kuroda.title",
+   "value": "Kuroda Isao — interview"
+  },
+  {
+   "key": "case026.method.blow",
+   "value": "He was struck on the head"
+  },
+  {
+   "key": "case026.method.co",
+   "value": "He was poisoned by carbon monoxide from the kiln with the cracked flue in the shed"
+  },
+  {
+   "key": "case026.method.fall",
+   "value": "He fell from the shelf and hit his head"
+  },
+  {
+   "key": "case026.method.heart",
+   "value": "Heart attack"
+  },
+  {
+   "key": "case026.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case026.offer.subtitle",
+   "value": "KINTSUGI  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case026.offer.summary",
+   "value": "In Kamakura, a famous potter is found dead in his display room. An overturned shelf, an open cabinet, a missing bowl: the patrol says burglary."
+  },
+  {
+   "key": "case026.offer.title",
+   "value": "FILE #026"
+  },
+  {
+   "key": "case026.okabe.body",
+   "value": "The neighbour on the lower slope."
+  },
+  {
+   "key": "case026.okabe.deflect",
+   "value": "I don’t concern myself with anything but my garden."
+  },
+  {
+   "key": "case026.okabe.smoke.answer",
+   "value": "At one in the night I got up for the toilet; the chimney of the kiln shed up the hill was smoking. Seiji sometimes works at night. There was no wind; the smoke sank, I could smell it all the way down in my garden."
+  },
+  {
+   "key": "case026.okabe.smoke.question",
+   "value": "Did you see anything in the night?"
+  },
+  {
+   "key": "case026.okabe.smoke.variant0",
+   "value": "The smoke was at one, yes. But that kiln… Last month Seiji told me, ‘I’ve shut the big kiln; only the electric one now.’ So he was firing the small old kiln in the shed. Its flue was broken; I always told him."
+  },
+  {
+   "key": "case026.okabe.title",
+   "value": "Okabe Tetsu — interview"
+  },
+  {
+   "key": "case026.path.body",
+   "value": "Infrared camera covering the stone path between the kiln shed and the house; captures frames on motion. 21 January 00.00 – 06.00."
+  },
+  {
+   "key": "case026.path.title",
+   "value": "GARDEN WILDLIFE CAMERA — log transcript"
+  },
+  {
+   "key": "case026.person.aoi.info",
+   "value": "24, apprentice to master potter Nakamura Seiji for four years; lives in the room behind the workshop."
+  },
+  {
+   "key": "case026.person.aoi.name",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.person.emi.info",
+   "value": "41, the master’s daughter; lives in Yokohama and was at her father’s for the weekend."
+  },
+  {
+   "key": "case026.person.emi.name",
+   "value": "Nakamura Emi"
+  },
+  {
+   "key": "case026.person.fujita.info",
+   "value": "59, owner of a ceramics gallery in Ginza; has sold the master’s work for thirty years."
+  },
+  {
+   "key": "case026.person.fujita.name",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.person.kuroda.info",
+   "value": "63, collector; collection adviser to the chairman of Kisaragi Shōji."
+  },
+  {
+   "key": "case026.person.kuroda.name",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.person.okabe.info",
+   "value": "70, the neighbour on the slope below the workshop; has a mandarin orchard."
+  },
+  {
+   "key": "case026.person.okabe.name",
+   "value": "Okabe Tetsu"
+  },
+  {
+   "key": "case026.person.shimizu.info",
+   "value": "47, independent ceramics expert; wrote the certificate for the ‘16th-century’ bowl."
+  },
+  {
+   "key": "case026.person.shimizu.name",
+   "value": "Shimizu Rie"
+  },
+  {
+   "key": "case026.report.body",
+   "value": "On 21 January 2030 at 06.40, master potter Nakamura Seiji (68) was found dead, face down, in the display room of his workshop house in the Kamakura hills. His apprentice, Hoshino Aoi, found him and called.\n\nA display shelf overturned, a wound on his head. The glass cabinet on the shelf open; according to the apprentice’s statement, the master’s ‘most valuable bowl’ is missing. Patrol note: “A burglar got in during the night; the old man woke and was struck or fell.”"
+  },
+  {
+   "key": "case026.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case026.request.co",
+   "value": "Request a blood gas analysis"
+  },
+  {
+   "key": "case026.request.drag",
+   "value": "Request examination of the marks on the tatami"
+  },
+  {
+   "key": "case026.request.kilnlog",
+   "value": "Request the kiln shed temperature log"
+  },
+  {
+   "key": "case026.request.shed",
+   "value": "Request a search of the kiln shed"
+  },
+  {
+   "key": "case026.request.xrf",
+   "value": "Request a glaze analysis of the bowl"
+  },
+  {
+   "key": "case026.scene.body",
+   "value": "· Hair and skin on the corner of the overturned shelf, no blood.\n· The glass cabinet’s lock was opened with a key; no forcing. Keys are held by the master and the apprentice.\n· On the display room tatami, two parallel faint grey lines from the door towards the body.\n· The house doors locked from inside; the garden door open."
+  },
+  {
+   "key": "case026.scene.title",
+   "value": "SCENE EXAMINATION — DISPLAY ROOM"
+  },
+  {
+   "key": "case026.shed.body",
+   "value": "· Inside the kiln, seven half-fired tea bowls; beside them ‘ageing’ jars filled with tea leaves and dilute acid, and four more bowls buried in the ash pit.\n· Under a shelf, an envelope: Fujita gallery payment receipts, 2028–2029; marked ‘family heirloom’.\n· A working notebook in Nakamura Seiji’s hand: “Do the glaze with old iron, not modern cobalt — Shimizu noticed.”\n· On the floor inside the door, an overturned stool and an extinguished lantern.\n· The door’s padlock open; Hoshino Aoi holds its only key."
+  },
+  {
+   "key": "case026.shed.title",
+   "value": "KILN SHED SEARCH"
+  },
+  {
+   "key": "case026.shimizu.body",
+   "value": "Expert."
+  },
+  {
+   "key": "case026.shimizu.cert.answer",
+   "value": "My professional opinion is in writing."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.shed",
+   "value": "So my name is in the notebook. ‘Shimizu noticed.’ Yes, I noticed. I told him. Then I kept quiet, because I had authenticated those bowls; if it came out, I’d be the first to go under."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.xrf",
+   "value": "Cobalt… When I examined it I didn’t scrape the glaze. No one does; you don’t scrape a centuries-old bowl. It looked old. But I’ll say this: with the third bowl I had a doubt. I told Seiji. Then he doubled my fee."
+  },
+  {
+   "key": "case026.shimizu.cert.question",
+   "value": "You wrote a certificate for this bowl."
+  },
+  {
+   "key": "case026.shimizu.deflect",
+   "value": "My professional opinions are in writing."
+  },
+  {
+   "key": "case026.shimizu.title",
+   "value": "Shimizu Rie — interview"
+  },
+  {
+   "key": "case026.summary.evidence",
+   "value": "The autopsy showed a bloodless, post-mortem wound and cherry-red lividity fixed on the back; the blood gas confirmed fatal carbon monoxide. The ash lines on the tatami and the sock heels showed dragging, the wildlife camera the load carried from the shed to the house, the kiln log a fire lit in the night and left untended at 02.40. The shed search tied the forgery to the master."
+  },
+  {
+   "key": "case026.summary.lesson",
+   "value": "A scene does not always cover a crime; sometimes it covers a secret. First find where the death happened, then what the scene was hiding."
+  },
+  {
+   "key": "case026.summary.location",
+   "value": "Kamakura hills — January 2030"
+  },
+  {
+   "key": "case026.summary.truth",
+   "value": "For two years master potter Nakamura Seiji had been ageing bowls he made himself and selling them to gallerist Fujita as ‘temple heirlooms’; one went to the Kisaragi collection for forty million yen. After the buyer’s claim of forgery he went in at night to refire the new batch with an ‘old iron’ glaze in the old kiln with the cracked flue, and died of carbon monoxide in the shed with its door shut. His apprentice Hoshino Aoi, who found him at five in the morning, dragged the body to the display room to protect the master’s name, knocked over the shelf, struck his head against it and staged a burglary."
+  },
+  {
+   "key": "case026.suspect.label",
+   "value": "Who is responsible for Nakamura Seiji’s death?"
+  },
+  {
+   "key": "case026.tablet.caseLine",
+   "value": "FILE #026  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case026.time.back",
+   "value": "05.21"
+  },
+  {
+   "key": "case026.time.cold",
+   "value": "02.40"
+  },
+  {
+   "key": "case026.time.drag",
+   "value": "05.06"
+  },
+  {
+   "key": "case026.time.fight",
+   "value": "Sunday 20.30"
+  },
+  {
+   "key": "case026.time.fire",
+   "value": "23.10"
+  },
+  {
+   "key": "case026.time.shed",
+   "value": "00.48"
+  },
+  {
+   "key": "case026.time.smoke",
+   "value": "01.00"
+  },
+  {
+   "key": "case026.title",
+   "value": "File #026 — Kintsugi"
+  },
+  {
+   "key": "case026.verdict.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.verdict.fujita",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.verdict.kuroda",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.verdict.nobody",
+   "value": "No one — he died of carbon monoxide in the shed; the body was moved afterwards"
+  },
+  {
+   "key": "case026.xrf.body",
+   "value": "In the glaze of the broken fragment, modern synthetic cobalt and a lead-free flux from after 1950. Not sixteenth century.\n\nThe clay composition is the same as the clay store at the Kamakura workshop.\n\nThe expert who wrote the certificate: Shimizu Rie."
+  },
+  {
+   "key": "case026.xrf.title",
+   "value": "GLAZE ANALYSIS — KURODA’S BOWL"
+  },
+  {
+   "key": "case026.item.bowl.name",
+   "value": "‘16th-century’ bowl"
+  },
+  {
+   "key": "case026.item.bowl.detail",
+   "value": "The tea bowl Kuroda bought; its breaks repaired with gold lacquer (kintsugi)."
+  },
+  {
+   "key": "case026.item.ash.name",
+   "value": "Kiln ash and ageing jar"
+  },
+  {
+   "key": "case026.item.ash.detail",
+   "value": "From the kiln shed: a glass jar filled with tea leaves and acid, half-buried bowls beside it."
+  },
+  {
+   "key": "case026.item.heel.name",
+   "value": "The master’s tabi sock"
+  },
+  {
+   "key": "case026.item.heel.detail",
+   "value": "Ash and soil on the heels; the body in the gallery, inside the socks, not on bare feet."
+  }
+ ]
+}

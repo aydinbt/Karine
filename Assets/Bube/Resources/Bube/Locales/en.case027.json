@@ -1,0 +1,496 @@
+{
+ "entries": [
+  {
+   "key": "case027.autopsy.body",
+   "value": "· Strangulation; with a thin, stiff strap. Red fabric fibre under the nails.\n· Rectal temperature 31 °C. At normal room temperature that means two hours; but the time of death cannot be fixed without knowing the conditions in the storeroom where he was found.\n· Stomach: rice ball and green tea, eaten no more than an hour before."
+  },
+  {
+   "key": "case027.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case027.cctv.event.back",
+   "value": "Camera: The cashier returns to the counter, straightening her waistcoat; the tray is full. She bends down behind the counter."
+  },
+  {
+   "key": "case027.cctv.event.empty",
+   "value": "Camera: The counter is empty; at the end of the row only one machine is lit."
+  },
+  {
+   "key": "case027.cctv.event.go",
+   "value": "Camera: The cashier walks from the counter to the storeroom door with an empty tray in her hand."
+  },
+  {
+   "key": "case027.cctv.overlay",
+   "value": "CAM-03"
+  },
+  {
+   "key": "case027.cctv.period",
+   "value": "14 February 2030"
+  },
+  {
+   "key": "case027.cctv.source",
+   "value": "Hall camera"
+  },
+  {
+   "key": "case027.clue.back",
+   "value": "The cashier returns to the counter with a full tray and bends down behind it."
+  },
+  {
+   "key": "case027.clue.close",
+   "value": "The hall closes; the cashier, the regular and the accountant remain inside."
+  },
+  {
+   "key": "case027.clue.cold",
+   "value": "The storeroom air conditioning is set to continuous 14 °C."
+  },
+  {
+   "key": "case027.clue.found",
+   "value": "The manager finds the body in the ice-cold storeroom."
+  },
+  {
+   "key": "case027.clue.go",
+   "value": "The cashier goes to the storeroom with an empty tray."
+  },
+  {
+   "key": "case027.clue.jackpot",
+   "value": "Jackpot on machine 114; the prize call goes unanswered at the counter."
+  },
+  {
+   "key": "case027.clue.source.counter114",
+   "value": "Machine counter"
+  },
+  {
+   "key": "case027.clue.source.hideo",
+   "value": "Manager"
+  },
+  {
+   "key": "case027.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case027.clue.source.thermo",
+   "value": "Air conditioning log"
+  },
+  {
+   "key": "case027.counter.body",
+   "value": "Camera covering the counter and the 110–120 row. 14 February 01.00 – 06.00. The camera skips frames; the timestamp is broken, only the frame number remains."
+  },
+  {
+   "key": "case027.counter.title",
+   "value": "HALL CEILING CAMERA — log transcript"
+  },
+  {
+   "key": "case027.counter114.body",
+   "value": "The machine’s internal log (ball count by the minute):\n\n· 01.10–04.28 uninterrupted play\n· Jackpot: 02.47\n· Immediately after the jackpot the player pressed the ‘prize call’ button: 02.48. Response from the counter: 03.09; the cashier who brought the prize: Takeda Yuki.\n\nMatched against the sequence of camera frames: frame 2214 ≈ 02.49, frame 2371 ≈ 03.08."
+  },
+  {
+   "key": "case027.counter114.title",
+   "value": "MACHINE 114 COUNTER"
+  },
+  {
+   "key": "case027.custody.cold",
+   "value": "02.00–03.30 — the air conditioning concealed the time of death"
+  },
+  {
+   "key": "case027.custody.dawn",
+   "value": "04.00–06.00 — the doctor’s first estimate"
+  },
+  {
+   "key": "case027.custody.label",
+   "value": "When did the death occur?"
+  },
+  {
+   "key": "case027.custody.midnight",
+   "value": "Before 01.00"
+  },
+  {
+   "key": "case027.epilogue.custody.cold",
+   "value": "The time of death was recorded corrected for the storeroom being cooled to 14 °C."
+  },
+  {
+   "key": "case027.epilogue.custody.dawn",
+   "value": "The death was placed near morning; at that hour only the manager was in the hall."
+  },
+  {
+   "key": "case027.epilogue.custody.midnight",
+   "value": "The death was placed before closing; the stomach contents do not support that."
+  },
+  {
+   "key": "case027.epilogue.verdict.hideo",
+   "value": "Arai Hideo was taken into custody; the prize invoices were never examined."
+  },
+  {
+   "key": "case027.epilogue.verdict.sato",
+   "value": "Satō Minoru was charged; the counter log later cleared him, and the file came back."
+  },
+  {
+   "key": "case027.epilogue.verdict.yuki",
+   "value": "Takeda Yuki confessed. The gap in the invoices was traced to Kisaragi’s subsidiary; the courier was never seen again."
+  },
+  {
+   "key": "case027.evidence.counter114",
+   "value": "Machine counter"
+  },
+  {
+   "key": "case027.evidence.ledger",
+   "value": "Prize invoices"
+  },
+  {
+   "key": "case027.evidence.thermo",
+   "value": "Storeroom air conditioning log"
+  },
+  {
+   "key": "case027.evidence.tray",
+   "value": "Search behind the counter"
+  },
+  {
+   "key": "case027.feedback.hideo",
+   "value": "The manager arrived at six; the ‘two hours’ estimate made him look guilty, but the cold storeroom pulls the time of death back to the middle of the night."
+  },
+  {
+   "key": "case027.feedback.sato",
+   "value": "The regular’s machine was in uninterrupted play between 01.10 and 04.28; he was waiting for his jackpot prize."
+  },
+  {
+   "key": "case027.feedback.yuki",
+   "value": "The air conditioning log pulls the time of death to 02.00–03.30; within that window the camera shows the cashier going to the storeroom, and the machine counter fixes her absence at 20 minutes. The fibre under the nails is from her lanyard strap."
+  },
+  {
+   "key": "case027.file.caseType",
+   "value": "MURDER"
+  },
+  {
+   "key": "case027.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Branch"
+  },
+  {
+   "key": "case027.file.value.location",
+   "value": "Nihonbashi, pachinko hall — prize storeroom"
+  },
+  {
+   "key": "case027.file.value.number",
+   "value": "BDS-TYO-2030-0019"
+  },
+  {
+   "key": "case027.file.value.offence",
+   "value": "Intentional killing"
+  },
+  {
+   "key": "case027.file.value.reporter",
+   "value": "Hall manager"
+  },
+  {
+   "key": "case027.hideo.body",
+   "value": "Hall manager."
+  },
+  {
+   "key": "case027.hideo.debt.answer",
+   "value": "The prize invoices from head office. ‘The prizes don’t arrive but the invoices do,’ he used to say. He told me, and I… with my own debts, I didn’t want trouble."
+  },
+  {
+   "key": "case027.hideo.debt.question",
+   "value": "What was Mr Ueno dealing with?"
+  },
+  {
+   "key": "case027.hideo.deflect",
+   "value": "Internal company matters."
+  },
+  {
+   "key": "case027.hideo.morning.answer",
+   "value": "I came at six. The storeroom was ice cold; when I opened the door my breath turned to vapour. Ueno was on the floor. I touched him; he was still soft."
+  },
+  {
+   "key": "case027.hideo.morning.answer.demeanor",
+   "value": "He takes long breaths between his words."
+  },
+  {
+   "key": "case027.hideo.morning.question",
+   "value": "How did you find him in the morning?"
+  },
+  {
+   "key": "case027.hideo.title",
+   "value": "Arai Hideo — interview"
+  },
+  {
+   "key": "case027.ledger.body",
+   "value": "On the victim’s desk, twelve invoices marked with a yellow note. Supplier: a subsidiary of Kisaragi Shōji. Between the prize quantity invoiced and the prizes entering the storeroom, a monthly gap of 9 million yen.\n\nThe gap goes in cash into the cashier’s daily handover envelope, and a courier collects it every morning. Handover signatures for the last eight months: Takeda Yuki.\n\nThe victim’s draft email, unsent: “I’m reporting it to head office tomorrow. The cashier should know too.”"
+  },
+  {
+   "key": "case027.ledger.title",
+   "value": "PRIZE INVOICES"
+  },
+  {
+   "key": "case027.method.cord",
+   "value": "He was strangled with the air conditioner cable"
+  },
+  {
+   "key": "case027.method.hands",
+   "value": "He was strangled by hand"
+  },
+  {
+   "key": "case027.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case027.method.strap",
+   "value": "He was strangled with a lanyard strap"
+  },
+  {
+   "key": "case027.offer.subtitle",
+   "value": "PACHINKO  /  MURDER"
+  },
+  {
+   "key": "case027.offer.summary",
+   "value": "In the storeroom of a closed pachinko hall, the accountant has been strangled. The doctor says two hours; at that hour only the manager is in the hall."
+  },
+  {
+   "key": "case027.offer.title",
+   "value": "FILE #027"
+  },
+  {
+   "key": "case027.person.hideo.info",
+   "value": "52, the hall’s day manager; looking for a second job to pay off his debt."
+  },
+  {
+   "key": "case027.person.hideo.name",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.person.sato.info",
+   "value": "66, retired bus driver; plays the same machine, number 114, every night."
+  },
+  {
+   "key": "case027.person.sato.name",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.person.yuki.info",
+   "value": "29, the hall’s night cashier; handles token and prize exchange."
+  },
+  {
+   "key": "case027.person.yuki.name",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.report.body",
+   "value": "On 14 February 2030 at 06.05, hall accountant Ueno Sōta (38) was found dead in the prize storeroom of a pachinko hall in Nihonbashi. Manager Arai Hideo found him when he came in the morning to open the till.\n\nStrangulation marks on the neck. The hall closed at 01.00; only night cashier Takeda Yuki and the regular Satō Minoru, allowed to play after closing ‘until the count is done’, remained inside. Both were in the hall until 04.30.\n\nThe doctor called in: “The body can still be considered warm; two hours at most.”"
+  },
+  {
+   "key": "case027.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case027.request.counter114",
+   "value": "Request the counter of machine 114"
+  },
+  {
+   "key": "case027.request.ledger",
+   "value": "Examine the invoices on the victim’s desk"
+  },
+  {
+   "key": "case027.request.thermo",
+   "value": "Request the storeroom air conditioning panel log"
+  },
+  {
+   "key": "case027.request.tray",
+   "value": "Request a search behind the counter"
+  },
+  {
+   "key": "case027.sato.body",
+   "value": "The regular."
+  },
+  {
+   "key": "case027.sato.deflect",
+   "value": "I play; I don’t get involved."
+  },
+  {
+   "key": "case027.sato.machine.answer",
+   "value": "I was playing number 114. At one point the cashier girl left the counter and went to the back; the tray was empty. It didn’t take long. When? I don’t look at the clock, I look at the machine."
+  },
+  {
+   "key": "case027.sato.machine.question",
+   "value": "What did you see in the night?"
+  },
+  {
+   "key": "case027.sato.title",
+   "value": "Satō Minoru — interview"
+  },
+  {
+   "key": "case027.summary.evidence",
+   "value": "The doctor’s ‘two hours’ estimate was made without knowing about the cold storeroom. The air conditioning log showed the setting changed at 02.51, the machine counter gave the camera frames their times, and the torn strap behind the counter matched the fibre under the nails."
+  },
+  {
+   "key": "case027.summary.lesson",
+   "value": "Temperature is not a clock but a condition. For every finding that gives a time of death, ask about its surroundings."
+  },
+  {
+   "key": "case027.summary.location",
+   "value": "Nihonbashi — February 2030"
+  },
+  {
+   "key": "case027.summary.truth",
+   "value": "Hall accountant Ueno Sōta found that the prize invoices from Kisaragi Shōji’s subsidiary were moving 9 million yen a month in cash through the cashier’s envelope, and was going to report it to head office. Night cashier Takeda Yuki, who signed the envelopes, entered the storeroom at 02.49 with an empty tray, strangled him with her lanyard strap and set the air conditioning to 14 °C to push the time of death later."
+  },
+  {
+   "key": "case027.suspect.label",
+   "value": "Who killed Ueno Sōta?"
+  },
+  {
+   "key": "case027.tablet.caseLine",
+   "value": "FILE #027  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case027.thermo.body",
+   "value": "Storeroom air conditioning panel history:\n\n· 02.51 · mode: CONTINUOUS, target 14 °C, fan at maximum\n· 05.58 · door sensor open\n\nThe air conditioning setting was changed at 02.51. In these conditions a rectal temperature of 31 °C corresponds not to two but to three to four hours: death between 02.00 and 03.30."
+  },
+  {
+   "key": "case027.thermo.title",
+   "value": "STOREROOM AIR CONDITIONING LOG"
+  },
+  {
+   "key": "case027.time.back",
+   "value": "frame 2371"
+  },
+  {
+   "key": "case027.time.close",
+   "value": "01.00"
+  },
+  {
+   "key": "case027.time.cold",
+   "value": "02.51"
+  },
+  {
+   "key": "case027.time.empty",
+   "value": "frame 2290"
+  },
+  {
+   "key": "case027.time.found",
+   "value": "06.05"
+  },
+  {
+   "key": "case027.time.go",
+   "value": "frame 2214"
+  },
+  {
+   "key": "case027.time.jackpot",
+   "value": "02.47"
+  },
+  {
+   "key": "case027.title",
+   "value": "File #027 — Pachinko"
+  },
+  {
+   "key": "case027.tray.body",
+   "value": "In the prize tray under the counter, 180 tokens and a broken lanyard clip; the clip’s red fabric strap is torn.\n\nThe strap’s fibre is the same as the red fibre under Ueno Sōta’s nails.\n\nThe hall’s lanyards with red fabric straps are issued only to cashiers: on the night shift the only cashier was Takeda Yuki."
+  },
+  {
+   "key": "case027.tray.title",
+   "value": "SEARCH BEHIND THE COUNTER"
+  },
+  {
+   "key": "case027.verdict.hideo",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.verdict.sato",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.verdict.yuki",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.yuki.badge.answer",
+   "value": "In my bag."
+  },
+  {
+   "key": "case027.yuki.badge.question",
+   "value": "Where is your lanyard?"
+  },
+  {
+   "key": "case027.yuki.body",
+   "value": "Night cashier."
+  },
+  {
+   "key": "case027.yuki.deflect",
+   "value": "Nobody asks me about the till."
+  },
+  {
+   "key": "case027.yuki.night.answer",
+   "value": "The count after closing. Mr Ueno was in the storeroom with the invoices; at two he said ‘You go’, but Mr Satō was playing, so I waited. We left at half past four; Mr Ueno was alive then, his light was on."
+  },
+  {
+   "key": "case027.yuki.night.answer.demeanor",
+   "value": "She winds the lanyard cord around her finger."
+  },
+  {
+   "key": "case027.yuki.night.question",
+   "value": "What did you do in the night?"
+  },
+  {
+   "key": "case027.yuki.night.variant0",
+   "value": "The storeroom was cold? I never went into the storeroom. Mr Ueno felt the heat; he always turned the air conditioning on himself. I left at half past four."
+  },
+  {
+   "key": "case027.yuki.quote",
+   "value": "“We left at half past four; his light was on.”"
+  },
+  {
+   "key": "case027.yuki.title",
+   "value": "Takeda Yuki — interview"
+  },
+  {
+   "key": "case027.yuki_2.body",
+   "value": "On the records."
+  },
+  {
+   "key": "case027.yuki_2.title",
+   "value": "Takeda Yuki — second interview"
+  },
+  {
+   "key": "case027.yuki_2.when.answer",
+   "value": "No."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.counter114",
+   "value": "Mr Satō hit the jackpot; I had to take him his prize, I was late. That’s all."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.ledger",
+   "value": "I sign the envelopes, yes. The courier collects them; I don’t ask. But that’s nothing to do with Mr Ueno; I didn’t go into the storeroom."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.tray",
+   "value": "The strap… I didn’t want to kill him. He was going to give the invoices to head office; I sign the envelopes, I’d have gone to prison, not them. I went to talk. He shouted. The strap around his neck… then I turned on the air conditioning. I’d read online that if it stays cold, it looks like they died later."
+  },
+  {
+   "key": "case027.yuki_2.when.question",
+   "value": "At three o’clock you were in the storeroom."
+  },
+  {
+   "key": "case027.item.thermo.name",
+   "value": "Storeroom thermostat"
+  },
+  {
+   "key": "case027.item.thermo.detail",
+   "value": "The prize storeroom’s air conditioning panel; set to 14 °C and ‘continuous’ mode."
+  },
+  {
+   "key": "case027.item.tray.name",
+   "value": "Prize tray"
+  },
+  {
+   "key": "case027.item.tray.detail",
+   "value": "The plastic tray behind the counter; inside, 180 tokens and a broken cashier’s lanyard clip."
+  },
+  {
+   "key": "case027.item.ledger.name",
+   "value": "Prize invoices"
+  },
+  {
+   "key": "case027.item.ledger.detail",
+   "value": "Twelve invoices on the victim’s desk, marked with a yellow sticky note."
+  }
+ ]
+}
