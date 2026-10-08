@@ -1,0 +1,604 @@
+{
+ "entries": [
+  {
+   "key": "case019.autopsy.body",
+   "value": "· Todesursache: Schädelfraktur, Hirnblutung. Ein einziger, heftiger Schlag; passend zum schweren Fuß des Mikrofonständers.\n· Körpertemperatur (Messung 02.15), Totenstarre und Mageninhalt zeigen, dass der Tod zwischen 21.00 und 22.30 eintrat.\n· Vermerk: Diese Zeit ist mit dem Sendebeginn um 23.00 nicht vereinbar. Die Messungen wurden zweimal wiederholt."
+  },
+  {
+   "key": "case019.autopsy.title",
+   "value": "VORLÄUFIGER OBDUKTIONSVERMERK"
+  },
+  {
+   "key": "case019.bar.body",
+   "value": "Eine Bar in der Simon-Dach-Straße. Karteninhaber: Tobias Wendt.\n\n· 22.52 · zwei Bier\n· 00.05 · ein Bier\n· 01.24 · Rechnung beglichen\n\nBarpersonal: „Er saß allein am Tisch, war ständig mit seinem Telefon beschäftigt.“"
+  },
+  {
+   "key": "case019.bar.title",
+   "value": "KARTENZAHLUNGEN IN DER BAR — 13./14. JULI"
+  },
+  {
+   "key": "case019.cctv.event.in",
+   "value": "Kamera: Ein Mann mit Rucksack und heller Jacke öffnet, ohne das Klingeltableau zu berühren, mit eigenem Schlüssel die Tür und geht hinein."
+  },
+  {
+   "key": "case019.cctv.event.out",
+   "value": "Kamera: Derselbe Mann mit Rucksack kommt heraus; ohne Jacke, Kapuze auf dem Kopf, den Kopf gesenkt, mit schnellen Schritten."
+  },
+  {
+   "key": "case019.cctv.event.sophie",
+   "value": "Kamera: Eine Frau klingelt, wartet, sieht auf ihr Telefon, geht."
+  },
+  {
+   "key": "case019.cctv.overlay",
+   "value": "EINGANG"
+  },
+  {
+   "key": "case019.cctv.period",
+   "value": "13. Juli 2029, 20.30 – 02.00"
+  },
+  {
+   "key": "case019.cctv.source",
+   "value": "Kamera am Hauseingang"
+  },
+  {
+   "key": "case019.chatlog.body",
+   "value": "Anfrage: bube Berlin. Nachricht vom 14. Juli um 00.30.\n\n· Nachricht: „Ja, gesehen, schrecklich. Passt alle auf euch auf.“\n· Sendendes Gerät: Android-Telefon, registrierter Gerätename „Tobias – Arbeit“. Mit Moderatorenrechten auf das Konto des Moderators gewechselt.\n· Verbindung: Gastnetz der Bar in der Simon-Dach-Straße.\n· In derselben Nacht wurde vom Konto felix_hartung keine Sitzung am Studiorechner geöffnet."
+  },
+  {
+   "key": "case019.chatlog.title",
+   "value": "CHAT-SITZUNGSPROTOKOLL — KONTO FELIX_HARTUNG"
+  },
+  {
+   "key": "case019.clue.bar",
+   "value": "Tobias Wendt zahlt zum ersten Mal in der Bar."
+  },
+  {
+   "key": "case019.clue.chat",
+   "value": "Chatnachricht vom Konto von Felix, von einem Telefon in der Bar."
+  },
+  {
+   "key": "case019.clue.death",
+   "value": "Todeszeitraum laut Obduktion."
+  },
+  {
+   "key": "case019.clue.edit",
+   "value": "Die Sendedatei wird geschnitten; der Geständnissatz wird gelöscht."
+  },
+  {
+   "key": "case019.clue.fire",
+   "value": "Brand nahe der Oberbaumbrücke; Felix in der Sendung erwähnt ihn mit keinem Wort."
+  },
+  {
+   "key": "case019.clue.in",
+   "value": "Ein Mann mit Rucksack betritt das Gebäude mit eigenem Schlüssel."
+  },
+  {
+   "key": "case019.clue.out",
+   "value": "Derselbe Mann kommt ohne Jacke, mit Kapuze heraus."
+  },
+  {
+   "key": "case019.clue.rain",
+   "value": "Wolkenbruch in Berlin; Felix sagt in der Sendung „der Wolkenbruch heute Nachmittag“."
+  },
+  {
+   "key": "case019.clue.sophie",
+   "value": "Eine Frau klingelt und bekommt keine Antwort."
+  },
+  {
+   "key": "case019.clue.source.autopsy",
+   "value": "Obduktion"
+  },
+  {
+   "key": "case019.clue.source.bar",
+   "value": "Bar-Aufzeichnungen"
+  },
+  {
+   "key": "case019.clue.source.chatlog",
+   "value": "Chat-Sitzungsprotokoll"
+  },
+  {
+   "key": "case019.clue.source.edit",
+   "value": "Schnittrechner"
+  },
+  {
+   "key": "case019.clue.source.encoder",
+   "value": "Sendeserver"
+  },
+  {
+   "key": "case019.clue.source.weather",
+   "value": "Wetterprotokoll"
+  },
+  {
+   "key": "case019.clue.start",
+   "value": "Die Sendequelle wird verbunden: keine Kamera, eine Datei."
+  },
+  {
+   "key": "case019.custody.after",
+   "value": "00.58 – 01.42 — nach der Sendung"
+  },
+  {
+   "key": "case019.custody.before",
+   "value": "21.00 – 22.30 — vor Sendebeginn"
+  },
+  {
+   "key": "case019.custody.during",
+   "value": "Während der Sendung"
+  },
+  {
+   "key": "case019.custody.label",
+   "value": "Wann ist Felix gestorben?"
+  },
+  {
+   "key": "case019.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case019.door.body",
+   "value": "Kamera an der Haustür von Boxhagener Hof 12. 13. Juli 20.30 – 14. Juli 02.00."
+  },
+  {
+   "key": "case019.door.title",
+   "value": "KAMERA AM HAUSEINGANG — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case019.edit.body",
+   "value": "Anfrage: bube Berlin, IT. Der Schnittrechner im Studio.\n\n· gece_masasi_0712_son.mp4, bearbeitet am 13. Juli um 19.36; Sitzung: Tobias Wendt.\n· Der gelöschte Abschnitt wurde aus der Rohaufnahme wiederhergestellt (00.57): Felix: „Und morgen, in der Nacht des 13. Juli, erzähle ich Ihnen selbst, wie diese Sendung in den letzten sechs Monaten gemacht wurde. Und wer sie vorbereitet hat.“\n· In der geschnittenen Datei fehlt dieser Satz; stattdessen wurde aus der Aufnahme vom 12. Juli „Morgen zur selben Zeit“ eingefügt."
+  },
+  {
+   "key": "case019.edit.title",
+   "value": "UNTERSUCHUNG DES SCHNITTRECHNERS — SCHNITTRECHNER-2"
+  },
+  {
+   "key": "case019.encoder.body",
+   "value": "Anfrage: bube Berlin. Technisches Protokoll der Sendeplattform.\n\n· 22.58 · Sendequelle verbunden · Typ: KEINE Kamera — vorab hochgeladene Datei\n· Dateiname: gece_masasi_0712_son.mp4 · erstellt: 12. Juli 2029, 20.14 · zuletzt bearbeitet: 13. Juli 2029, 19.36\n· hochladendes Gerät: Schnittrechner-2 (Studionetz)\n· 23.00 – 00.58 · Datei abgespielt\n· Vermerk: In den letzten 30 Tagen liefen 14 von 19 Sendungen auf dieselbe Weise, aus einer Datei."
+  },
+  {
+   "key": "case019.encoder.title",
+   "value": "PROTOKOLL DES SENDESERVERS — NACHTPULT, 13. JULI"
+  },
+  {
+   "key": "case019.epilogue.custody.after",
+   "value": "Die Akte wurde auf die Zeit nach der Sendung aufgebaut; die einzige Person, die zu dieser Stunde an der Tür war, war Sophie."
+  },
+  {
+   "key": "case019.epilogue.custody.before",
+   "value": "In der Akte wurde vermerkt: „Wer auf dem Bildschirm zu sehen ist, gilt nicht deshalb als in diesem Moment lebend; ohne Anforderung der Sendequelle wird kein Alibi anerkannt.“ Der Verdacht gegen Sophie Lindner wurde offiziell aufgehoben."
+  },
+  {
+   "key": "case019.epilogue.custody.during",
+   "value": "Man nahm an, er sei während der Sendung gestorben; das Bild, das Tausende Zuschauer gesehen hatten, wurde der stärkste Zeuge der Akte."
+  },
+  {
+   "key": "case019.epilogue.custody.unknown",
+   "value": "Der Todeszeitpunkt blieb ungeklärt; die Alibis hingen in der Luft."
+  },
+  {
+   "key": "case019.epilogue.verdict.ines",
+   "value": "Gegen die Sponsorfirma wurde ermittelt, es fand sich nichts. Tobias Wendt übernahm den Schnitt einer neuen Sendung."
+  },
+  {
+   "key": "case019.epilogue.verdict.nobody",
+   "value": "Der Tod wurde als Unfall abgeschlossen. Die letzte Folge von „Nachtpult“ blieb als die Sendung in Erinnerung, die ihr Moderator nach seinem Tod machte; niemand fragte nach dem Grund."
+  },
+  {
+   "key": "case019.epilogue.verdict.sophie",
+   "value": "Sophie Lindner wurde festgenommen. Die Anklage nutzte die Sendezeit nicht als Alibi, sondern als Vorwurf; der Prozess dauerte ein Jahr."
+  },
+  {
+   "key": "case019.epilogue.verdict.tobias",
+   "value": "Tobias Wendt wurde wegen Mordes festgenommen. Es wurde bekannt, dass die letzten sechs Monate von „Nachtpult“ aufgezeichnet waren; der Sponsor kündigte den Vertrag. Der gelöschte Satz von Felix erschien auf einer Nachrichtenseite."
+  },
+  {
+   "key": "case019.evidence.bar",
+   "value": "Kartenzahlungen in der Bar"
+  },
+  {
+   "key": "case019.evidence.encoder",
+   "value": "Protokoll des Sendeservers"
+  },
+  {
+   "key": "case019.evidence.transcript",
+   "value": "Sendeprotokoll"
+  },
+  {
+   "key": "case019.evidence.weather",
+   "value": "Wetterprotokoll"
+  },
+  {
+   "key": "case019.feedback.ines",
+   "value": "Ines hatte Sorgen wegen der Prüfung, aber an dem Abend stand sie vor hundert Leuten, und die gefälschten Sendungen aufzudecken nützte ihr."
+  },
+  {
+   "key": "case019.feedback.nobody",
+   "value": "Der einzige, heftige Schlag auf den Schädel passt zum Fuß des Mikrofonständers; keine Sturzspuren."
+  },
+  {
+   "key": "case019.feedback.sophie",
+   "value": "Sophie klingelte um 00.40 und bekam keine Antwort; Felix war zu dieser Zeit seit zwei Stunden tot."
+  },
+  {
+   "key": "case019.feedback.tobias",
+   "value": "Zwischen 21.05 und 22.20 waren sein Telefon und er selbst im Gebäude; danach ließ die vorab geschnittene Datei Felix auf dem Bildschirm weiterleben, und die „Live“-Nachricht im Chat schrieb er selbst in der Bar."
+  },
+  {
+   "key": "case019.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case019.file.value.bureau",
+   "value": "BDS Berlin — Dienststelle Kreuzberg"
+  },
+  {
+   "key": "case019.file.value.location",
+   "value": "Friedrichshain, Boxhagener Hof 12 — Dachgeschoss"
+  },
+  {
+   "key": "case019.file.value.number",
+   "value": "BDS-BER-2029-0044"
+  },
+  {
+   "key": "case019.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case019.file.value.reporter",
+   "value": "Ehemalige Freundin"
+  },
+  {
+   "key": "case019.ines.body",
+   "value": "Leiterin der Sponsorfirma."
+  },
+  {
+   "key": "case019.ines.contract.answer",
+   "value": "Live-Sendung. Unsere Werbung wird an ein Live-Publikum verkauft. Nächste Woche stand eine Prüfung an; wir hatten den Verdacht, dass die Sendungen aufgezeichnet waren."
+  },
+  {
+   "key": "case019.ines.contract.question",
+   "value": "Was schrieb der Sponsorvertrag vor?"
+  },
+  {
+   "key": "case019.ines.deflect",
+   "value": "Fragen Sie dazu unsere Rechtsabteilung."
+  },
+  {
+   "key": "case019.ines.monday.answer",
+   "value": "Am Montag rief er mich an. ‚Vor der Prüfung mache ich es öffentlich‘, sagte er. ‚Die aufgezeichneten Sendungen hat mein Cutter vorbereitet, ich habe weggesehen.‘ Er wollte den Namen offen nennen."
+  },
+  {
+   "key": "case019.ines.monday.question",
+   "value": "Hat Felix Ihnen etwas gesagt?"
+  },
+  {
+   "key": "case019.ines.title",
+   "value": "Ines Kraft — Befragung"
+  },
+  {
+   "key": "case019.ines.where.answer",
+   "value": "In Mitte, beim Sommerempfang der Firma, von 20.00 bis Mitternacht. Hundert Leute haben mich gesehen."
+  },
+  {
+   "key": "case019.ines.where.question",
+   "value": "Wo waren Sie am Abend des 13. Juli?"
+  },
+  {
+   "key": "case019.method.fell",
+   "value": "Ist gestürzt und gegen den Tisch geschlagen"
+  },
+  {
+   "key": "case019.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case019.method.strangled",
+   "value": "Wurde erwürgt"
+  },
+  {
+   "key": "case019.method.struck",
+   "value": "Wurde mit dem Mikrofonständer auf den Kopf geschlagen"
+  },
+  {
+   "key": "case019.method.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case019.offer.subtitle",
+   "value": "LIVE-SENDUNG  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case019.offer.summary",
+   "value": "Der Moderator einer Nachtsendung, Felix Hartung, wird vierzig Minuten nach Sendeschluss tot in seiner Studiowohnung gefunden. Tausende Zuschauer sahen ihn bis 00.58 live. Die einzige Person an der Tür war seine ehemalige Freundin."
+  },
+  {
+   "key": "case019.offer.title",
+   "value": "AKTE #019"
+  },
+  {
+   "key": "case019.person.ines.info",
+   "value": "44 Jahre, Sponsoringleiterin im Mediensegment der Arendt Handelsgesellschaft. Ihre Firma ist der Hauptsponsor von „Nachtpult“."
+  },
+  {
+   "key": "case019.person.ines.name",
+   "value": "Ines Kraft"
+  },
+  {
+   "key": "case019.person.sophie.info",
+   "value": "33 Jahre, Grafikdesignerin. Ehemalige Freundin von Felix Hartung; hat noch immer den Ersatzschlüssel."
+  },
+  {
+   "key": "case019.person.sophie.name",
+   "value": "Sophie Lindner"
+  },
+  {
+   "key": "case019.person.tobias.info",
+   "value": "31 Jahre, Videocutter. Macht seit drei Jahren Schnitt und Chatmoderation von „Nachtpult“."
+  },
+  {
+   "key": "case019.person.tobias.name",
+   "value": "Tobias Wendt"
+  },
+  {
+   "key": "case019.report.body",
+   "value": "Am 14. Juli 2029 um 01.42 wurde in Friedrichshain, in einer Studiowohnung im Dachgeschoss von Boxhagener Hof 12, eine männliche Leiche gefunden. Gefunden hat sie seine ehemalige Freundin Sophie Lindner, die mit dem Ersatzschlüssel hineinging.\n\nDer Tote: Felix Hartung (36), Moderator der jede Nacht von 23.00 bis 01.00 live gesendeten Sendung „Nachtpult“. Ein schwerer Schlag auf den Kopf; daneben ein umgestürzter Mikrofonständer.\n\nStreifennotiz: „Die Sendung endete um 00.58; Tausende Zuschauer sahen ihn live. Tod zwischen 00.58 und 01.42. Ein Nachbar sah Sophie Lindner um 00.40 an der Tür klingeln. Die Verdächtige steht fest.“"
+  },
+  {
+   "key": "case019.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case019.request.bar",
+   "value": "Kartenzahlungsprotokoll der Bar anfordern"
+  },
+  {
+   "key": "case019.request.chatlog",
+   "value": "Sitzungsprotokoll von der Chatplattform anfordern"
+  },
+  {
+   "key": "case019.request.edit",
+   "value": "Untersuchung des Schnittrechners anfordern"
+  },
+  {
+   "key": "case019.request.encoder",
+   "value": "Serverprotokoll von der Sendeplattform anfordern"
+  },
+  {
+   "key": "case019.request.tphone",
+   "value": "Telefon-Standortprotokoll von Tobias Wendt anfordern"
+  },
+  {
+   "key": "case019.request.weather",
+   "value": "Wetterprotokoll vom 12.–13. Juli anfordern"
+  },
+  {
+   "key": "case019.sophie.body",
+   "value": "Die ehemalige Freundin, die die Leiche fand."
+  },
+  {
+   "key": "case019.sophie.deflect",
+   "value": "Ich weiß es nicht. Ich habe die Sendung geschaut, das ist alles."
+  },
+  {
+   "key": "case019.sophie.night.answer",
+   "value": "Ich schaute die Sendung. Wir mussten über etwas reden. Um 00.40 klingelte ich, auf dem Bildschirm redete er weiter. Die Klingel war nicht in der Sendung zu hören — in diesem Dachboden ist jedes Geräusch in der Sendung zu hören. Das kam mir seltsam vor, ich ging. Eine Stunde später hielt ich es nicht aus und ging mit dem Schlüssel hinein."
+  },
+  {
+   "key": "case019.sophie.night.answer.demeanor",
+   "value": "Ihre Stimme zitterte."
+  },
+  {
+   "key": "case019.sophie.night.question",
+   "value": "Warum sind Sie gestern Nacht dorthin gegangen?"
+  },
+  {
+   "key": "case019.sophie.quote",
+   "value": "„Die Klingel war nicht in der Sendung zu hören.“"
+  },
+  {
+   "key": "case019.sophie.talk.answer",
+   "value": "Letzte Woche sagte er mir: ‚Ich werde alles gestehen, die Sendungen sind gefälscht.‘ Ich verstand nicht, was er meinte. Er wirkte verängstigt."
+  },
+  {
+   "key": "case019.sophie.talk.question",
+   "value": "Worüber wollten Sie reden?"
+  },
+  {
+   "key": "case019.sophie.title",
+   "value": "Sophie Lindner — Befragung"
+  },
+  {
+   "key": "case019.summary.evidence",
+   "value": "Die Obduktion legte den Tod vor die Sendung. Das Wetterprotokoll zeigte, dass der „heutige Wolkenbruch“ aus der Sendung einen Tag zuvor gefallen war; das Protokoll des Sendeservers, dass die Sendung nicht von einer Kamera kam, sondern aus einer Datei. Das Chat-Sitzungsprotokoll verband die „Live“-Nachricht mit dem Telefon in der Bar, Standortprotokoll und Eingangskamera brachten Tobias ins Gebäude, die Schnittuntersuchung verband ihn mit dem gelöschten Geständnis."
+  },
+  {
+   "key": "case019.summary.lesson",
+   "value": "Etwas auf dem Bildschirm zu sehen, beweist nicht, dass jemand in diesem Moment lebt: Verlange die Quelle des Bildes und die Metadaten der Aufnahme. Ein perfektes Alibi ist das Alibi, das am meisten hinterfragt werden muss."
+  },
+  {
+   "key": "case019.summary.location",
+   "value": "Friedrichshain und Simon-Dach-Straße — Juli 2029"
+  },
+  {
+   "key": "case019.summary.truth",
+   "value": "„Nachtpult“ war seit Monaten nicht live: Cutter Tobias Wendt bereitete Aufzeichnungen vor, Felix Hartung sendete sie als live. Vor der Prüfung des Sponsors beschloss Felix, alles offenzulegen und die Schuld seinem Cutter zuzuschieben. Am Abend des 13. Juli schnitt Tobias den Geständnissatz aus der Datei jener Nacht, ging nach 21.00 zu Felix und tötete ihn mit dem Mikrofonständer. Dann ging er in die Bar; um 23.00 lief die Datei, und Felix lebte zwei Stunden auf dem Bildschirm. Als der Brand den Chat explodieren ließ, schrieb er in der Bar mit dem Konto von Felix eine Nachricht."
+  },
+  {
+   "key": "case019.suspect.label",
+   "value": "Wer ist für den Tod von Felix Hartung verantwortlich?"
+  },
+  {
+   "key": "case019.tablet.caseLine",
+   "value": "AKTE #019  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case019.time.bar",
+   "value": "22.52"
+  },
+  {
+   "key": "case019.time.chat",
+   "value": "00.30"
+  },
+  {
+   "key": "case019.time.death",
+   "value": "21.00 – 22.30"
+  },
+  {
+   "key": "case019.time.edit",
+   "value": "13. Juli 19.36"
+  },
+  {
+   "key": "case019.time.fire",
+   "value": "00.15"
+  },
+  {
+   "key": "case019.time.in",
+   "value": "21.08"
+  },
+  {
+   "key": "case019.time.out",
+   "value": "22.19"
+  },
+  {
+   "key": "case019.time.rain",
+   "value": "12. Juli 15.10"
+  },
+  {
+   "key": "case019.time.sophie",
+   "value": "00.40"
+  },
+  {
+   "key": "case019.time.start",
+   "value": "22.58"
+  },
+  {
+   "key": "case019.title",
+   "value": "Akte #019 — Live-Sendung"
+  },
+  {
+   "key": "case019.tobias.body",
+   "value": "Cutter und Chatmoderator."
+  },
+  {
+   "key": "case019.tobias.deflect",
+   "value": "Etwas Technisches, das zu erklären dauert lange."
+  },
+  {
+   "key": "case019.tobias.files.answer",
+   "value": "Ich schneide, Felix lud hoch. Nachtmüdigkeit, verstehen Sie. Niemand kam zu Schaden."
+  },
+  {
+   "key": "case019.tobias.files.answer.demeanor",
+   "value": "Zuckte mit den Schultern, aber seine Hände glitten unter den Tisch."
+  },
+  {
+   "key": "case019.tobias.files.question",
+   "value": "Die meisten Sendungen wurden aus einer Datei abgespielt. Wer hat die Dateien vorbereitet?"
+  },
+  {
+   "key": "case019.tobias.night.answer",
+   "value": "Von 22.45 bis halb zwei in einer Bar in der Simon-Dach. Ich habe die Sendung auf dem Telefon geschaut. Felix war live — er hat im Chat sogar zum Brand geschrieben, Sie haben es gesehen."
+  },
+  {
+   "key": "case019.tobias.night.question",
+   "value": "Wo waren Sie am Abend des 13. Juli?"
+  },
+  {
+   "key": "case019.tobias.title",
+   "value": "Tobias Wendt — Befragung"
+  },
+  {
+   "key": "case019.tobias_2.body",
+   "value": "Zu Sitzungs-, Standort- und Schnittprotokoll."
+  },
+  {
+   "key": "case019.tobias_2.chat.answer",
+   "value": "Ich bin Moderator, ich wechsle auf sein Konto. Der Chat war durchgedreht, man musste etwas schreiben. Ist das ein Verbrechen?"
+  },
+  {
+   "key": "case019.tobias_2.chat.question",
+   "value": "Die Nachricht um 00.30 haben Sie aus dem Netz der Bar, von Ihrem eigenen Telefon, mit dem Konto von Felix geschrieben."
+  },
+  {
+   "key": "case019.tobias_2.cut.answer",
+   "value": "… Er wollte mich verbrennen. Sechs Monate lang wollte er es, ich habe es gemacht. Dann wollte er sagen: ‚Mein Cutter war’s.‘ Ich ging hin, um zu reden. Gegen neun."
+  },
+  {
+   "key": "case019.tobias_2.cut.answer.demeanor",
+   "value": "Seine Stimme wurde heiser."
+  },
+  {
+   "key": "case019.tobias_2.cut.question",
+   "value": "Den Geständnissatz von Felix haben Sie aus der Sendung geschnitten. Um 19.36."
+  },
+  {
+   "key": "case019.tobias_2.stand.answer",
+   "value": "Er schrie, nahm sein Telefon, wollte den Sponsor anrufen. Der Mikrofonständer war da. Einmal. Die Datei hatte ich ohnehin schon für die Sendung eingestellt. Auf dem Bildschirm lebte er. Die ganze Nacht lebte er."
+  },
+  {
+   "key": "case019.tobias_2.stand.answer.demeanor",
+   "value": "Löste den Blick nicht vom Bildschirm."
+  },
+  {
+   "key": "case019.tobias_2.stand.question",
+   "value": "Was geschah dann?"
+  },
+  {
+   "key": "case019.tobias_2.title",
+   "value": "Tobias Wendt — zweite Befragung"
+  },
+  {
+   "key": "case019.tphone.body",
+   "value": "Anschluss: Tobias Wendt. 13. Juli 2029.\n\n· 19.30 · Funkzelle: Kreuzberg (Sitzung im Studionetz)\n· 21.05 – 22.20 · Funkzelle: Friedrichshain, Umgebung Boxhagener Hof\n· 22.44 · Funkzelle: Simon-Dach-Straße\n· 00.30 · Datensitzung: Simon-Dach-Straße"
+  },
+  {
+   "key": "case019.tphone.title",
+   "value": "TELEFON-STANDORTPROTOKOLL — TOBIAS WENDT"
+  },
+  {
+   "key": "case019.transcript.body",
+   "value": "Ausgewählte Momente; Video und Live-Chat auf demselben Bildschirm.\n\n· 23.02 · Felix: „Guten Abend, Berlin. Haben Sie heute Nachmittag diesen Wolkenbruch gesehen? Auf meinem Balkon hat sich ein See gebildet.“\n· 23.40 · Felix hält einen langen Monolog: Mieten in der Straße.\n· 00.21 · Chat: „Brand an der Oberbaumbrücke!!“ — Hunderte Nachrichten. Felix redet weiter über Mieten.\n· 00.30 · Im Chat eine Nachricht vom eigenen Konto des Moderators (felix_hartung): „Ja, gesehen, schrecklich. Passt alle auf euch auf.“\n· 00.31–00.58 · Felix erwähnt den Brand mit keinem Wort.\n· 00.58 · Felix: „Morgen zur selben Zeit. Gute Nacht.“"
+  },
+  {
+   "key": "case019.transcript.title",
+   "value": "SENDEPROTOKOLL — NACHTPULT, 13. JULI 23.00–00.58"
+  },
+  {
+   "key": "case019.verdict.ines",
+   "value": "Ines Kraft"
+  },
+  {
+   "key": "case019.verdict.nobody",
+   "value": "Niemand — gestürzt und mit dem Kopf aufgeschlagen"
+  },
+  {
+   "key": "case019.verdict.sophie",
+   "value": "Sophie Lindner"
+  },
+  {
+   "key": "case019.verdict.tobias",
+   "value": "Tobias Wendt"
+  },
+  {
+   "key": "case019.weather.body",
+   "value": "Fiktive städtische Wetterstation, Messpunkt Friedrichshain.\n\n· 12. Juli · 15.10 – 17.20 · heftiger Wolkenbruch, 31 mm\n· 13. Juli · den ganzen Tag klar und trocken; kein Niederschlag\n· 13. Juli · 00.15 · Lagerhausbrand nahe der Oberbaumbrücke (Protokoll der Feuerwehr)"
+  },
+  {
+   "key": "case019.weather.title",
+   "value": "WETTERPROTOKOLL — BERLIN, 12.–13. JULI 2029"
+  },
+  {
+   "key": "case019.item.stand.name",
+   "value": "Mikrofonständer"
+  },
+  {
+   "key": "case019.item.stand.detail",
+   "value": "Schwerer Mikrofonständer mit eingedelltem, fleckigem Fuß."
+  },
+  {
+   "key": "case019.item.studio.name",
+   "value": "Heimstudio"
+  },
+  {
+   "key": "case019.item.studio.detail",
+   "value": "Studio im Dachgeschoss; ein umgestürzter Stuhl."
+  }
+ ]
+}
