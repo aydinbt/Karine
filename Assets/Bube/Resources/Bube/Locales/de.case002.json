@@ -1,0 +1,1124 @@
+{
+ "entries": [
+  {
+   "key": "case002.camera.body",
+   "value": "Protokoll der Kiosk-Kamera, die auf das zur Uferstraße offene Ende der Gasse gerichtet ist, 22.50 – 23.50. Bild schwarzweiß und aus der Ferne; die Aufnahme eignet sich nicht zur Gesichtserkennung."
+  },
+  {
+   "key": "case002.camera.title",
+   "value": "KAMERA 04 — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case002.cctv.event.contact",
+   "value": "Zwei Personen stehen sich am Fahrzeug gegenüber; ein kurzer naher Kontakt ist zu sehen."
+  },
+  {
+   "key": "case002.cctv.event.dispute",
+   "value": "Im Fahrzeug gestikulieren zwei Personen heftig."
+  },
+  {
+   "key": "case002.cctv.event.park",
+   "value": "Ein Taxi parkt am Eingang der Gasse. Der Fahrer bleibt im Wagen."
+  },
+  {
+   "key": "case002.cctv.event.passenger_out",
+   "value": "Eine Person steigt hinten aus und geht zum oberen Ende der Gasse."
+  },
+  {
+   "key": "case002.cctv.event.patrol",
+   "value": "Ein Streifenwagen fährt in die Gasse, seine Lichter erhellen das Bild."
+  },
+  {
+   "key": "case002.cctv.event.second_in",
+   "value": "Vom Ende der Uferstraße kommt eine Person ins Bild und nähert sich dem Fahrzeug."
+  },
+  {
+   "key": "case002.cctv.event.second_out",
+   "value": "Die zweite Person am Fahrzeug verlässt das Bild. Der Fahrer liegt am Boden."
+  },
+  {
+   "key": "case002.cctv.event.third_in",
+   "value": "Eine dritte Person kommt ins Bild, nähert sich dem Fahrzeug und bleibt auf Höhe der Vordertür stehen."
+  },
+  {
+   "key": "case002.cctv.event.third_out",
+   "value": "Die dritte Person entfernt sich vom Fahrzeug und geht zur Kioskseite der Gasse."
+  },
+  {
+   "key": "case002.cctv.overlay",
+   "value": "KAMERA 04"
+  },
+  {
+   "key": "case002.cctv.period",
+   "value": "21. November 2026, 22.50 – 23.50"
+  },
+  {
+   "key": "case002.cctv.source",
+   "value": "Kiosk-Kamera — KAMERA 04"
+  },
+  {
+   "key": "case002.clue.deniz_leave",
+   "value": "Der Fahrgast sagt, er sei ausgestiegen"
+  },
+  {
+   "key": "case002.clue.emre_arrive",
+   "value": "Sagt, er sei gekommen, um die Schulden zu bezahlen"
+  },
+  {
+   "key": "case002.clue.kerem_watch",
+   "value": "Sagt, er habe aus der Ferne zugesehen"
+  },
+  {
+   "key": "case002.clue.park",
+   "value": "Das Taxi parkt in der Gasse"
+  },
+  {
+   "key": "case002.clue.passenger_out",
+   "value": "Eine Person steigt hinten aus"
+  },
+  {
+   "key": "case002.clue.second_in",
+   "value": "Zweite Person nähert sich dem Fahrzeug"
+  },
+  {
+   "key": "case002.clue.second_out",
+   "value": "Zweite Person verlässt das Bild, Fahrer am Boden"
+  },
+  {
+   "key": "case002.clue.third_in",
+   "value": "Dritte Person steht auf Höhe der Vordertür"
+  },
+  {
+   "key": "case002.clue.third_out",
+   "value": "Dritte Person entfernt sich vom Fahrzeug"
+  },
+  {
+   "key": "case002.custody.deniz",
+   "value": "Deniz Arslan"
+  },
+  {
+   "key": "case002.custody.emre",
+   "value": "Emre Koç"
+  },
+  {
+   "key": "case002.custody.kerem",
+   "value": "Kerem Şahin"
+  },
+  {
+   "key": "case002.custody.label",
+   "value": "Wer hat die 8.000 TL genommen?"
+  },
+  {
+   "key": "case002.deniz.after.answer",
+   "value": "Die Gasse war leer. Als ich nach oben ging, blieb der Fahrer im Wagen. Ich habe mich nicht umgedreht."
+  },
+  {
+   "key": "case002.deniz.after.answer.demeanor",
+   "value": "Beim Antworten blinzelte die Person nicht. Die Hände blieben reglos auf dem Tisch."
+  },
+  {
+   "key": "case002.deniz.after.decoy.camera_dispute",
+   "value": "Der Streit war im Wagen. Mit der Frage, wen ich in der Gasse gesehen habe, hat das nichts zu tun; ich habe niemanden gesehen."
+  },
+  {
+   "key": "case002.deniz.after.decoy.camera_dispute.demeanor",
+   "value": "Ein kurzes Lachen. Mit dem Finger schob die Person das Blatt zu dir."
+  },
+  {
+   "key": "case002.deniz.after.decoy.camera_passenger_out",
+   "value": "Ich bin ausgestiegen und nach oben gegangen. Ich habe mich nicht umgedreht, es gab keinen Grund dazu."
+  },
+  {
+   "key": "case002.deniz.after.decoy.camera_passenger_out.demeanor",
+   "value": "Wiederholte denselben Satz fast mit denselben Worten."
+  },
+  {
+   "key": "case002.deniz.after.question",
+   "value": "Wen haben Sie nach dem Aussteigen in der Gasse gesehen?"
+  },
+  {
+   "key": "case002.deniz.body",
+   "value": "Aussage des letzten Fahrgasts laut Fahrtenprotokoll."
+  },
+  {
+   "key": "case002.deniz.camera.answer",
+   "value": "An der Tür des Kiosks an der Ecke hängt eine Kamera, zur Gasse gerichtet. Als ich ausstieg, leuchtete ihr Licht."
+  },
+  {
+   "key": "case002.deniz.camera.answer.demeanor",
+   "value": "Zeichnete beim Erzählen mit der Hand die Ecke der Gasse in die Luft."
+  },
+  {
+   "key": "case002.deniz.camera.question",
+   "value": "Gibt es in der Gasse eine Stelle, die aufzeichnet?"
+  },
+  {
+   "key": "case002.deniz.deflect",
+   "value": "Das weiß ich nicht."
+  },
+  {
+   "key": "case002.deniz.dispute.answer",
+   "value": "Der Fahrpreis kam mir zu hoch vor, ich habe protestiert. Wir wurden laut. Dass ich mit den Händen gefuchtelt habe, gebe ich zu, aber ich habe ihn nicht angefasst."
+  },
+  {
+   "key": "case002.deniz.dispute.answer.demeanor",
+   "value": "Zog die Hand vom Tisch und hielt sie im Schoß. Am Satzende wurde die Stimme leiser."
+  },
+  {
+   "key": "case002.deniz.dispute.decoy.camera_dispute",
+   "value": "Ja, das bin ich. Wir haben wegen des Preises gestritten. Ich habe geschrien, bin ausgestiegen und gegangen. Ich sehe nichts, was ich verbergen müsste."
+  },
+  {
+   "key": "case002.deniz.dispute.decoy.camera_dispute.demeanor",
+   "value": "Sah lange auf den Bildschirm. Schob dann den Stuhl ein Stück zurück."
+  },
+  {
+   "key": "case002.deniz.dispute.question",
+   "value": "Worüber haben Sie mit dem Fahrer gesprochen?"
+  },
+  {
+   "key": "case002.deniz.leave.answer",
+   "value": "Ich habe auf die Uhr im Handy gesehen, es war drei nach elf. Ich bin ausgestiegen, oben aus der Gasse gegangen und in den Bus gestiegen."
+  },
+  {
+   "key": "case002.deniz.leave.answer.demeanor",
+   "value": "Holte das Handy heraus und legte es auf den Tisch, den Bildschirm zu dir gedreht."
+  },
+  {
+   "key": "case002.deniz.leave.decoy.camera_passenger_out",
+   "value": "Wer hinten aussteigt, bin ich. Die Uhrzeit kennen Sie dann ja besser als ich."
+  },
+  {
+   "key": "case002.deniz.leave.decoy.camera_passenger_out.demeanor",
+   "value": "Nickte beim Lesen der Uhrzeit in der Aufzeichnung. Die Schultern lockerten sich."
+  },
+  {
+   "key": "case002.deniz.leave.question",
+   "value": "Wann sind Sie aus dem Wagen gestiegen?"
+  },
+  {
+   "key": "case002.deniz.quote",
+   "value": "„Wir haben wegen des Fahrpreises gestritten, ich bin ausgestiegen. Das ist alles.“"
+  },
+  {
+   "key": "case002.deniz.title",
+   "value": "Deniz Arslan — Befragung"
+  },
+  {
+   "key": "case002.deniz.trip.answer",
+   "value": "In Ortaköy bin ich eingestiegen. Ich wollte nach Hause. Von der Uferstraße bog er in die Gasse ab, dort hielten wir."
+  },
+  {
+   "key": "case002.deniz.trip.answer.demeanor",
+   "value": "Saß aufrecht. Beschrieb den Weg ohne zu zögern."
+  },
+  {
+   "key": "case002.deniz.trip.question",
+   "value": "Wo sind Sie an dem Abend in das Taxi gestiegen?"
+  },
+  {
+   "key": "case002.emre.body",
+   "value": "Aussage der Person, deren Name auf dem Zettel im Fahrzeug steht."
+  },
+  {
+   "key": "case002.emre.debt.answer",
+   "value": "Vor zwei Jahren habe ich es für ein Autogeschäft bar geliehen. Nichts, was irgendwo eingetragen ist. Je länger die Zahlung ausblieb, desto angespannter wurde es zwischen uns."
+  },
+  {
+   "key": "case002.emre.debt.answer.demeanor",
+   "value": "Sah beim Nennen des Datums zur Decke. Wandte sich dann dir zu."
+  },
+  {
+   "key": "case002.emre.debt.question",
+   "value": "Woher stammen diese Schulden?"
+  },
+  {
+   "key": "case002.emre.deflect",
+   "value": "Darauf will ich nicht eingehen."
+  },
+  {
+   "key": "case002.emre.leave.answer",
+   "value": "Es war wohl nach halb. Ich habe nicht auf die Uhr gesehen. Ich bin zu Fuß zur oberen Straße gegangen."
+  },
+  {
+   "key": "case002.emre.leave.answer.demeanor",
+   "value": "Sah beim Wort Uhr auf sein Handgelenk; da war keine Uhr."
+  },
+  {
+   "key": "case002.emre.leave.question",
+   "value": "Wann haben Sie die Gasse verlassen?"
+  },
+  {
+   "key": "case002.emre.meeting.answer",
+   "value": "Ja. Ich bin in die Gasse gegangen, wir haben geredet. Es wurde laut. Dann bin ich weg, er stand noch."
+  },
+  {
+   "key": "case002.emre.meeting.answer.demeanor",
+   "value": "Beugte sich vor. Nach dem Satz ließ er dich nicht aus den Augen."
+  },
+  {
+   "key": "case002.emre.meeting.question",
+   "value": "Haben Sie sich an dem Abend mit Selçuk Yalın getroffen?"
+  },
+  {
+   "key": "case002.emre.money.answer",
+   "value": "Ich bin hin, um es ihm zu geben. Als der Streit eskalierte, ob ich das Geld herausgeholt habe oder nicht, das bringe ich durcheinander. In der Tasche wieder mitgenommen habe ich es nicht, so viel weiß ich."
+  },
+  {
+   "key": "case002.emre.money.answer.demeanor",
+   "value": "Führte beim Sprechen die Hand in den Nacken und ließ sie sinken. Die Stimme wurde leiser."
+  },
+  {
+   "key": "case002.emre.money.decoy.camera_second_out",
+   "value": "Sieht man etwas in meiner Hand? Nein. Mehr sage ich dazu nicht."
+  },
+  {
+   "key": "case002.emre.money.decoy.camera_second_out.demeanor",
+   "value": "Legte die Hände offen auf den Tisch, Handflächen nach oben. Wartete regungslos."
+  },
+  {
+   "key": "case002.emre.money.decoy.selcuk_third_selcuk_third_money",
+   "value": "Woher sein Geld kommt, weiß er selbst. Was ich gegeben oder nicht gegeben habe, ist eine andere Sache."
+  },
+  {
+   "key": "case002.emre.money.decoy.selcuk_third_selcuk_third_money.demeanor",
+   "value": "Presste beim Lesen den Kiefer zusammen. Die Antwort kam scharf."
+  },
+  {
+   "key": "case002.emre.money.question",
+   "value": "Haben Sie ihm das Geld gegeben?"
+  },
+  {
+   "key": "case002.emre.note.answer",
+   "value": "Ich hatte Schulden bei Selçuk. Achttausend Lira. Schriftlich gab es nichts, er hat es wohl für sich notiert. An dem Abend wollte ich es ihm bringen."
+  },
+  {
+   "key": "case002.emre.note.answer.demeanor",
+   "value": "Nahm den Zettel, strich die Kante glatt und legte ihn zurück."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_contact",
+   "value": "Zwei Leute stehen nebeneinander. Wir haben geredet, das ist alles."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_contact.demeanor",
+   "value": "Antwortete knapp. Wippte unter dem Tisch mit dem Fuß."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_second_in",
+   "value": "Da kommt jemand in die Gasse, ja. In einer Gasse zu gehen ist kein Verbrechen."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_second_in.demeanor",
+   "value": "Sah nicht einmal auf den Bildschirm. Die Antwort war parat."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_second_out",
+   "value": "Es zeigt, dass ich gehe. Ich bin ja gegangen, das sage ich doch."
+  },
+  {
+   "key": "case002.emre.note.decoy.camera_second_out.demeanor",
+   "value": "Lehnte sich zurück. Sprach ohne Eile."
+  },
+  {
+   "key": "case002.emre.note.question",
+   "value": "Auf diesem Zettel steht Ihr Name. Können Sie das erklären?"
+  },
+  {
+   "key": "case002.emre.quote",
+   "value": "„Ich bin hin, um meine Schulden zu bezahlen. Den Rest weiß ich nicht.“"
+  },
+  {
+   "key": "case002.emre.title",
+   "value": "Emre Koç — Befragung"
+  },
+  {
+   "key": "case002.emre_follow.after.answer",
+   "value": "Vor dem Kiosk an der Ecke stand ein junger Mann. Er sah mich an. Das ist alles."
+  },
+  {
+   "key": "case002.emre_follow.after.answer.demeanor",
+   "value": "Zeigte beim Wort Kiosk mit der Hand ans Ende der Gasse."
+  },
+  {
+   "key": "case002.emre_follow.after.decoy.camera_second_out",
+   "value": "Ich habe die Gasse verlassen. Wenn jemand nach mir kam, muss ich das nicht gesehen haben."
+  },
+  {
+   "key": "case002.emre_follow.after.decoy.camera_second_out.demeanor",
+   "value": "Zuckte mit den Schultern. Der Blick blieb an der Tischkante."
+  },
+  {
+   "key": "case002.emre_follow.after.question",
+   "value": "Haben Sie beim Verlassen der Gasse jemanden gesehen?"
+  },
+  {
+   "key": "case002.emre_follow.body",
+   "value": "Zweite Befragung nach Eingang des Untersuchungsberichts."
+  },
+  {
+   "key": "case002.emre_follow.money.answer",
+   "value": "Nein. Der Umschlag ist mir aus der Hand gefallen, man kann sagen, ich habe ihn zum Wagen geworfen. Mit dem Geld bin ich nicht gegangen. Durchsuchen Sie mich ruhig, seit dem Abend ist kein Kuruş auf meinem Konto eingegangen."
+  },
+  {
+   "key": "case002.emre_follow.money.answer.demeanor",
+   "value": "Tat, als würde er die Taschen umstülpen. Stand beim Sprechen nicht auf."
+  },
+  {
+   "key": "case002.emre_follow.money.decoy.camera_second_in",
+   "value": "Beim Kommen hatte ich es in der Hand, das habe ich gesagt. Was beim Gehen war, sagt diese Aufnahme nicht."
+  },
+  {
+   "key": "case002.emre_follow.money.decoy.camera_second_in.demeanor",
+   "value": "Brach mitten im Satz ab und begann von vorn."
+  },
+  {
+   "key": "case002.emre_follow.money.decoy.camera_second_out",
+   "value": "Aus dieser Aufnahme lesen Sie nicht, was ich in der Hand hatte. Ich auch nicht."
+  },
+  {
+   "key": "case002.emre_follow.money.decoy.camera_second_out.demeanor",
+   "value": "Rückte näher an den Bildschirm, kniff die Augen zusammen. Lehnte sich dann zurück."
+  },
+  {
+   "key": "case002.emre_follow.money.question",
+   "value": "Hatten Sie das Geld bei sich, als Sie gingen?"
+  },
+  {
+   "key": "case002.emre_follow.push.answer",
+   "value": "Ich habe ihn gestoßen. Er kam auf mich zu, ich packte ihn am Arm und stieß ihn weg. Er taumelte zurück und schlug auf die Bordsteinkante hinter ihm. Ich habe gerufen, er stand nicht auf. Ich hatte Angst und bin gegangen."
+  },
+  {
+   "key": "case002.emre_follow.push.answer.demeanor",
+   "value": "Beim Erzählen wurde die Stimme leiser. Am Ende fuhr er sich mit den Händen übers Gesicht."
+  },
+  {
+   "key": "case002.emre_follow.push.decoy.camera_contact",
+   "value": "Wir stehen nebeneinander, ja. Was passiert, sieht man da nicht."
+  },
+  {
+   "key": "case002.emre_follow.push.decoy.camera_contact.demeanor",
+   "value": "Zeigte mit dem Finger auf die zwei Schatten auf dem Bildschirm. Die Hand zitterte."
+  },
+  {
+   "key": "case002.emre_follow.push.decoy.camera_second_out",
+   "value": "Es zeigt, dass ich gehe. Nicht, wie er gefallen ist."
+  },
+  {
+   "key": "case002.emre_follow.push.decoy.camera_second_out.demeanor",
+   "value": "Sah die Aufnahme bis zum Ende und wandte dann den Kopf ab."
+  },
+  {
+   "key": "case002.emre_follow.push.question",
+   "value": "Laut Bericht ist der Kopf auf eine harte Oberfläche geschlagen. Was ist passiert?"
+  },
+  {
+   "key": "case002.emre_follow.title",
+   "value": "Emre Koç — zweite Befragung"
+  },
+  {
+   "key": "case002.evidence.camera",
+   "value": "Aufzeichnungsprotokoll KAMERA 04"
+  },
+  {
+   "key": "case002.evidence.financial",
+   "value": "Finanzermittlung und Spurenbefund"
+  },
+  {
+   "key": "case002.evidence.medical",
+   "value": "Vorläufiger rechtsmedizinischer Bericht"
+  },
+  {
+   "key": "case002.evidence.report",
+   "value": "Tatortprotokoll"
+  },
+  {
+   "key": "case002.evidence.scene",
+   "value": "Ergänzender Tatortbericht"
+  },
+  {
+   "key": "case002.feedback.deniz",
+   "value": "Deniz Arslan verließ das Fahrzeug um 23.03; die Verletzung entstand danach."
+  },
+  {
+   "key": "case002.feedback.emre",
+   "value": "Die Verletzung stammte von einem Sturz, nachdem Emre Koç im Streit gestoßen hatte."
+  },
+  {
+   "key": "case002.feedback.kerem",
+   "value": "Kerem Şahin kam nach der Verletzung an den Tatort; die Aufzeichnung zeigt ihn um 23.34."
+  },
+  {
+   "key": "case002.file.caseType",
+   "value": "RAUB  /  KÖRPERVERLETZUNG"
+  },
+  {
+   "key": "case002.file.value.bureau",
+   "value": "BDS Schutzdienst"
+  },
+  {
+   "key": "case002.file.value.location",
+   "value": "Beşiktaş, Seitengasse der Uferstraße"
+  },
+  {
+   "key": "case002.file.value.number",
+   "value": "BDS-2026-0214"
+  },
+  {
+   "key": "case002.file.value.offence",
+   "value": "Verdacht auf Raub und Körperverletzung"
+  },
+  {
+   "key": "case002.file.value.reporter",
+   "value": "Nachtstreife, Anruf 23.46"
+  },
+  {
+   "key": "case002.financial.body",
+   "value": "Am 22. November 2026 um 07.14 wurden an einem Geldautomaten 400 Meter vom Tatort 7.800 TL bar auf ein Konto auf den Namen Kerem Şahin eingezahlt. Die Einzahlung erfolgte mit Karte und PIN.\n\nIn den Kontobewegungen der letzten sechs Monate gibt es keine einzelne Bareinzahlung dieser Größe.\n\nEine Kontaktspur vom Deckel der Umhängetasche auf dem Beifahrersitz und vom Rest des Umschlags passte zur Vergleichsprobe von Kerem Şahin. Der Spurenbefund zeigt nicht, wann die Spur an der Tasche hinterlassen wurde."
+  },
+  {
+   "key": "case002.financial.title",
+   "value": "FINANZERMITTLUNG UND SPURENBEFUND"
+  },
+  {
+   "key": "case002.kerem.body",
+   "value": "Aussage der Person, die im Kiosk an der Ecke der Gasse Dienst hatte."
+  },
+  {
+   "key": "case002.kerem.deflect",
+   "value": "Daran erinnere ich mich nicht."
+  },
+  {
+   "key": "case002.kerem.help.answer",
+   "value": "Ich wollte mich nicht einmischen. Hier passiert jede Nacht etwas. Und den Laden kann ich nicht offen stehen lassen."
+  },
+  {
+   "key": "case002.kerem.help.answer.demeanor",
+   "value": "Hob den Blick nicht vom Tisch. Verschluckte das Ende der Antwort fast."
+  },
+  {
+   "key": "case002.kerem.help.question",
+   "value": "Warum sind Sie nicht helfen gegangen?"
+  },
+  {
+   "key": "case002.kerem.night.answer",
+   "value": "Ja, ich war bis zwölf im Kiosk. In der Gasse wurde geschrien, ich bin rausgegangen."
+  },
+  {
+   "key": "case002.kerem.night.answer.demeanor",
+   "value": "Sprach schnell. Biss sich nach dem Satz auf die Lippe."
+  },
+  {
+   "key": "case002.kerem.night.question",
+   "value": "Hatten Sie an dem Abend Dienst?"
+  },
+  {
+   "key": "case002.kerem.quote",
+   "value": "„Ich habe aus der Ferne zugesehen, ich habe mich rausgehalten.“"
+  },
+  {
+   "key": "case002.kerem.title",
+   "value": "Kerem Şahin — Befragung"
+  },
+  {
+   "key": "case002.kerem.watch.answer",
+   "value": "Zwei Leute haben gestritten. Einer ging weg. Der andere blieb am Boden liegen. Ich habe vom Kiosk aus zugesehen, bin nicht näher gegangen. Dann kam die Streife."
+  },
+  {
+   "key": "case002.kerem.watch.answer.demeanor",
+   "value": "Rutschte beim Erzählen etwas im Stuhl zurück. Die Stimme blieb flach."
+  },
+  {
+   "key": "case002.kerem.watch.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case002.kerem_follow.amount.answer",
+   "value": "Ich habe nicht gezählt. Ich habe den Inhalt des Umschlags so eingezahlt, zweihundert Lira habe ich behalten."
+  },
+  {
+   "key": "case002.kerem_follow.amount.answer.demeanor",
+   "value": "Stockte, als nach der Zahl gefragt wurde. Das Satzende klang wie eine Frage."
+  },
+  {
+   "key": "case002.kerem_follow.amount.decoy.camera_third_in",
+   "value": "Die paar Sekunden, die ich da stehe. Das reicht nicht, um etwas zu zählen."
+  },
+  {
+   "key": "case002.kerem_follow.amount.decoy.camera_third_in.demeanor",
+   "value": "Sah auf den Bildschirm, als zähle er Sekunden. Wandte dann den Kopf ab."
+  },
+  {
+   "key": "case002.kerem_follow.amount.decoy.camera_third_out",
+   "value": "Ich gehe, das ist alles. Diese Aufnahme nennt keine Zahl."
+  },
+  {
+   "key": "case002.kerem_follow.amount.decoy.camera_third_out.demeanor",
+   "value": "Beugte sich im Stuhl vor. Die Stimme wurde leiser."
+  },
+  {
+   "key": "case002.kerem_follow.amount.question",
+   "value": "Wie viel haben Sie genommen?"
+  },
+  {
+   "key": "case002.kerem_follow.approach.answer",
+   "value": "Ich bin hingegangen. Der Mann lag am Boden, ich wollte nachsehen. Die Tür war offen. Ich war fünf Minuten da, dann bin ich zurück."
+  },
+  {
+   "key": "case002.kerem_follow.approach.answer.demeanor",
+   "value": "Hörte auf, mit dem Fuß auf den Boden zu tippen. Antwortete in flachem Ton."
+  },
+  {
+   "key": "case002.kerem_follow.approach.decoy.financial",
+   "value": "Geld auf mein Konto einzuzahlen ist kein Verbrechen. Woher es kommt, habe ich auch erzählt."
+  },
+  {
+   "key": "case002.kerem_follow.approach.decoy.financial.demeanor",
+   "value": "Nahm den Auszug, faltete ihn und legte ihn auf den Tisch. Die Stimme wurde lauter."
+  },
+  {
+   "key": "case002.kerem_follow.approach.question",
+   "value": "Auf der Aufnahme nähert sich eine dritte Person dem Fahrzeug. Können Sie das erklären?"
+  },
+  {
+   "key": "case002.kerem_follow.bag.answer",
+   "value": "Ich habe den Deckel angehoben. Drin war ein Umschlag. Ich habe ihn genommen. Der Mann lag am Boden, ich dachte, niemand sieht es. Am nächsten Morgen habe ich es am Automaten eingezahlt."
+  },
+  {
+   "key": "case002.kerem_follow.bag.answer.demeanor",
+   "value": "Langes Schweigen. Dann sanken die Schultern, er sprach schnell."
+  },
+  {
+   "key": "case002.kerem_follow.bag.decoy.camera_third_in",
+   "value": "Ich bin zum Wagen gegangen, ja. Der Mann lag da, ich habe geschaut. Schauen ist nicht Anfassen."
+  },
+  {
+   "key": "case002.kerem_follow.bag.decoy.camera_third_in.demeanor",
+   "value": "Sah auf den Bildschirm, dann zum Fenster. Die Antwort war kurz."
+  },
+  {
+   "key": "case002.kerem_follow.bag.decoy.camera_third_out",
+   "value": "Ich drehte um und ging zum Kiosk. Was ich in der Hand hatte, sieht man von dort nicht."
+  },
+  {
+   "key": "case002.kerem_follow.bag.decoy.camera_third_out.demeanor",
+   "value": "Drehte das Gummiband am Handgelenk. Sah beim Sprechen auf seine Hände."
+  },
+  {
+   "key": "case002.kerem_follow.bag.question",
+   "value": "Haben Sie die Tasche im Wagen angefasst?"
+  },
+  {
+   "key": "case002.kerem_follow.body",
+   "value": "Befragung nach dem Aufzeichnungsprotokoll und der dritten Aussage des Opfers."
+  },
+  {
+   "key": "case002.kerem_follow.title",
+   "value": "Kerem Şahin — zweite Befragung"
+  },
+  {
+   "key": "case002.medical.body",
+   "value": "Untersuchte Person: Selçuk Yalın (42).\n\nEinzelne stumpfe Verletzung am linken Hinterkopf. Die Form passt zu einem Aufprall auf eine harte, glatte Fläche; das verstreute Gewebebild, das bei einem direkten faustähnlichen Schlag zu erwarten wäre, fehlt.\n\nOberflächliche Griffspuren am linken Unterarm. Die Spuren passen dazu, dass der Arm von außen festgehalten wurde.\n\nDiese Befunde zeigen für sich nicht, wie das Geschehen ablief; ob der Sturz von selbst oder durch einen Stoß erfolgte, lässt sich durch die Untersuchung nicht unterscheiden."
+  },
+  {
+   "key": "case002.medical.title",
+   "value": "VORLÄUFIGER RECHTSMEDIZINISCHER BERICHT"
+  },
+  {
+   "key": "case002.method.fall",
+   "value": "Sturz ohne Fremdeinwirkung"
+  },
+  {
+   "key": "case002.method.punch",
+   "value": "Direkter Faustschlag"
+  },
+  {
+   "key": "case002.method.push",
+   "value": "Stoß im Streit und Sturz auf harten Boden"
+  },
+  {
+   "key": "case002.method.weapon",
+   "value": "Schlag mit hartem Gegenstand"
+  },
+  {
+   "key": "case002.offer.subtitle",
+   "value": "LETZTE FAHRT  /  RAUB – KÖRPERVERLETZUNG"
+  },
+  {
+   "key": "case002.offer.summary",
+   "value": "In Beşiktaş wird kurz vor Mitternacht ein Taxifahrer verletzt aufgefunden; aus der offenen Tasche im Wagen fehlen 8.000 TL. Der Fahrer macht eine Aussage, der erste Bericht liegt auf Ihrem Tisch."
+  },
+  {
+   "key": "case002.offer.title",
+   "value": "AKTE #002"
+  },
+  {
+   "key": "case002.person.deniz.info",
+   "value": "24 Jahre, studiert. Letzter eingetragener Fahrgast des Wagens an jenem Abend."
+  },
+  {
+   "key": "case002.person.deniz.name",
+   "value": "Deniz Arslan"
+  },
+  {
+   "key": "case002.person.emre.info",
+   "value": "34 Jahre, arbeitet im Transportgewerbe. Kennt Selçuk Yalın von früher."
+  },
+  {
+   "key": "case002.person.emre.name",
+   "value": "Emre Koç"
+  },
+  {
+   "key": "case002.person.kerem.info",
+   "value": "29 Jahre, arbeitet im Kiosk an der Ecke. Hatte am Tatabend Dienst."
+  },
+  {
+   "key": "case002.person.kerem.name",
+   "value": "Kerem Şahin"
+  },
+  {
+   "key": "case002.person.selcuk.info",
+   "value": "42 Jahre, Taxifahrer. Wurde bei dem Vorfall verletzt."
+  },
+  {
+   "key": "case002.person.selcuk.name",
+   "value": "Selçuk Yalın"
+  },
+  {
+   "key": "case002.report.body",
+   "value": "In der Nacht des 21. November 2026 um 23.46 wurde in Beşiktaş in einer Seitengasse der Uferstraße eine am Boden liegende Person gefunden. Sie wurde als Taxifahrer Selçuk Yalın (42) identifiziert; Verletzung am linken Hinterkopf, bei Bewusstsein. Sein Wagen stand etwa 31 Meter entfernt, Türen geschlossen, aber nicht verriegelt.\n\nYalın hatte Handy und Armbanduhr noch bei sich. In der offenen Umhängetasche auf dem Beifahrersitz wurde kein Bargeld gefunden. In seiner ersten Angabe sagte Yalın, in der Tasche seien etwa 8.000 TL gewesen, die Taxieinnahmen des Tages.\n\nKein Zeuge gibt an, den Vorfall in der Gasse gesehen zu haben. An beiden Enden der Gasse wurden Geschäftskameras festgestellt."
+  },
+  {
+   "key": "case002.report.imageCaption",
+   "value": "Tatort: das zur Uferstraße offene Ende der Gasse, 22. November 02.10."
+  },
+  {
+   "key": "case002.report.title",
+   "value": "TATORTPROTOKOLL"
+  },
+  {
+   "key": "case002.request.financial",
+   "value": "Finanz- und Spurenuntersuchung anfordern"
+  },
+  {
+   "key": "case002.request.medical",
+   "value": "Vorläufigen rechtsmedizinischen Bericht anfordern"
+  },
+  {
+   "key": "case002.request.scene",
+   "value": "Ergänzende Untersuchung des Wagens anfordern"
+  },
+  {
+   "key": "case002.scene.body",
+   "value": "Bei der zweiten Untersuchung des Wagens wurde zwischen Fahrersitz und Schaltkonsole ein zerknülltes Stück Papier gefunden. Darauf steht handschriftlich:\n\nEMRE K. / 8.000 / 21/11\n\nDas Papier ist von derselben Art wie der Notizblock in der Hülle der Fahrzeugpapiere. Von wem die Schrift stammt, ließ sich nicht feststellen.\n\nDie Umhängetasche auf dem Beifahrersitz ist offen; darin Münzen und Quittungen, keine Scheine. Die Blutspur am Boden passt zur Lage des Körpers; keine Schleifspuren."
+  },
+  {
+   "key": "case002.scene.title",
+   "value": "ERGÄNZENDER TATORTBERICHT"
+  },
+  {
+   "key": "case002.selcuk.attacker.answer",
+   "value": "Nein. Er war hinter mir, sein Gesicht habe ich nicht gesehen. Im Viertel habe ich mit niemandem Probleme."
+  },
+  {
+   "key": "case002.selcuk.attacker.answer.demeanor",
+   "value": "Antwortete knapp. Der Blick hing irgendwo über deiner Schulter."
+  },
+  {
+   "key": "case002.selcuk.attacker.question",
+   "value": "Kennen Sie die Person, die Sie geschlagen hat?"
+  },
+  {
+   "key": "case002.selcuk.belongings.answer",
+   "value": "Ja, beides war noch da. Das hat mich auch gewundert. Wer es genommen hat, hat nur in die Tasche geschaut."
+  },
+  {
+   "key": "case002.selcuk.belongings.answer.demeanor",
+   "value": "Drehte die Uhr am Handgelenk. Antwortete, ohne die Frage wiederholen zu lassen."
+  },
+  {
+   "key": "case002.selcuk.belongings.question",
+   "value": "Handy und Uhr hatten Sie noch bei sich, oder?"
+  },
+  {
+   "key": "case002.selcuk.body",
+   "value": "Erste Aussage des verletzten Taxifahrers bei der Entlassung aus dem Krankenhaus."
+  },
+  {
+   "key": "case002.selcuk.deflect",
+   "value": "Darüber will ich jetzt nicht reden."
+  },
+  {
+   "key": "case002.selcuk.money.answer",
+   "value": "In der Tasche waren etwa achttausend Lira. Ich habe den ganzen Tag gearbeitet, manche haben nicht mit Karte gezahlt. Nachts wollte ich zur Bank, bin nicht mehr hingekommen."
+  },
+  {
+   "key": "case002.selcuk.money.answer.demeanor",
+   "value": "Klopfte beim Nennen der Zahl mit den Fingern auf den Tisch. Legte dann die Hand aufs Knie."
+  },
+  {
+   "key": "case002.selcuk.money.question",
+   "value": "Wie viel Geld war im Wagen?"
+  },
+  {
+   "key": "case002.selcuk.night.answer",
+   "value": "Ich bin von der Uferstraße in die Seitengasse gefahren, wollte Pause machen. Ich bin ausgestiegen, habe mir eine Zigarette angezündet. Hinter mir bewegte sich etwas, dann lag ich am Boden. Ich weiß noch, dass ich aufstehen wollte, danach ist es verschwommen."
+  },
+  {
+   "key": "case002.selcuk.night.answer.demeanor",
+   "value": "Sah beim Erzählen auf seine verbundene Hand. Brach mitten im Satz ab und begann neu."
+  },
+  {
+   "key": "case002.selcuk.night.question",
+   "value": "Was ist an dem Abend in der Gasse passiert?"
+  },
+  {
+   "key": "case002.selcuk.passenger.answer",
+   "value": "Ein Student, in Ortaköy eingestiegen. Wir haben über den Preis gestritten, er ist ausgestiegen und gegangen. Das Fahrtenprotokoll liegt in der Funkzentrale, dort finden Sie den Namen."
+  },
+  {
+   "key": "case002.selcuk.passenger.answer.demeanor",
+   "value": "Beugte sich bei der Funkzentrale vor. Die Stimme wurde etwas lauter."
+  },
+  {
+   "key": "case002.selcuk.passenger.question",
+   "value": "Wer war Ihr letzter Fahrgast an dem Abend?"
+  },
+  {
+   "key": "case002.selcuk.quote",
+   "value": "„Ich spürte einen Schlag von hinten, danach erinnere ich mich an nichts.“"
+  },
+  {
+   "key": "case002.selcuk.taxi.answer",
+   "value": "Ich hatte ihn am Eingang der Gasse abgestellt und war ein Stück gegangen. Abgeschlossen habe ich nicht, ich dachte, es dauert zwei Minuten."
+  },
+  {
+   "key": "case002.selcuk.taxi.answer.demeanor",
+   "value": "Sprach langsam, als wähle er die Worte. Rutschte auf dem Stuhl hin und her."
+  },
+  {
+   "key": "case002.selcuk.taxi.question",
+   "value": "Warum stand der Wagen dreißig Meter von Ihnen entfernt?"
+  },
+  {
+   "key": "case002.selcuk.title",
+   "value": "Selçuk Yalın — erste Befragung"
+  },
+  {
+   "key": "case002.selcuk_follow.bag.answer",
+   "value": "Kann sein, dass sie offen war. Das Geld lag drin. Ob der Wagen noch einmal untersucht wurde, weiß ich nicht; vielleicht ist drinnen etwas geblieben."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.answer.demeanor",
+   "value": "Hielt kurz inne. Sprach dann schnell, die Sätze überschlugen sich."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.decoy.camera_second_out",
+   "value": "Von dort sieht man nicht in die Tasche. Ich auch nicht."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.decoy.camera_second_out.demeanor",
+   "value": "Rückte näher an das Bild und wich dann zurück."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.decoy.report",
+   "value": "Die Tasche wurde offen gefunden, so steht es im Protokoll. Ich weiß nicht mehr, ob ich sie zugemacht habe; ich kann auch nicht sagen, dass ich es getan habe."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.decoy.report.demeanor",
+   "value": "Las die Zeile mit dem Finger nach. Die Stimme wurde langsamer."
+  },
+  {
+   "key": "case002.selcuk_follow.bag.question",
+   "value": "War die Tasche auf dem Beifahrersitz offen?"
+  },
+  {
+   "key": "case002.selcuk_follow.body",
+   "value": "Zweite Befragung nach Eingang des Aufzeichnungsprotokolls."
+  },
+  {
+   "key": "case002.selcuk_follow.time.answer",
+   "value": "Zehn Minuten, wenn überhaupt. Ich machte Pause. Ich hatte den Wagen aufgeräumt, die Tasche lag auf dem Beifahrersitz."
+  },
+  {
+   "key": "case002.selcuk_follow.time.answer.demeanor",
+   "value": "Zählte die Dauer an den Fingern ab. Ballte dann die Hand."
+  },
+  {
+   "key": "case002.selcuk_follow.time.decoy.camera_dispute",
+   "value": "Das Gespräch mit dem Fahrgast dauerte nicht lange. Wie lange ich danach in der Gasse war, habe ich schon gesagt."
+  },
+  {
+   "key": "case002.selcuk_follow.time.decoy.camera_dispute.demeanor",
+   "value": "Verschränkte die Arme. Antwortete im selben flachen Ton."
+  },
+  {
+   "key": "case002.selcuk_follow.time.decoy.camera_second_out",
+   "value": "Um die Zeit liege ich am Boden, ja. Wie lange, zählen Sie von dort besser als ich."
+  },
+  {
+   "key": "case002.selcuk_follow.time.decoy.camera_second_out.demeanor",
+   "value": "Drehte den Bildschirm etwas zu sich. Sah lange hin."
+  },
+  {
+   "key": "case002.selcuk_follow.time.question",
+   "value": "Wie lange waren Sie nach dem Aussteigen des Fahrgasts in der Gasse?"
+  },
+  {
+   "key": "case002.selcuk_follow.title",
+   "value": "Selçuk Yalın — zweite Befragung"
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.answer",
+   "value": "Ich erinnere mich nicht, dass jemand kam. Nachdem der Fahrgast ausgestiegen war, saß ich im Wagen, dann bin ich ausgestiegen. Was auch immer Sie auf der Aufnahme sehen, ich habe keinen Bekannten gesehen."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.answer.demeanor",
+   "value": "Sah beim Wort Aufnahme nicht auf den Bildschirm. Die Stimme blieb flach."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.camera_dispute",
+   "value": "Wenn im Wagen gestikuliert wird, ist das der Streit um den Fahrpreis. Ich wurde laut, das gebe ich zu. Mit der Person neben mir hat das nichts zu tun."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.camera_dispute.demeanor",
+   "value": "Antwortete sofort. Holte am Satzende Luft."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.camera_second_out",
+   "value": "Jemand geht, ich liege am Boden. Das sehe ich auch. Um zu sagen, wer es ist, müsste ich ihn kennen."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.camera_second_out.demeanor",
+   "value": "Ließ sich die Aufnahme zweimal zeigen. Beim zweiten Mal schwieg er, dann sprach er."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.medical",
+   "value": "Der Bericht beschreibt die Wunde am Kopf, nicht den Namen. Den kann ich auch nicht schreiben."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.medical.demeanor",
+   "value": "Nahm den Bericht, faltete ihn und legte ihn auf den Tisch."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.report",
+   "value": "Was im Protokoll steht, gilt. Einen Namen kann ich nicht hinzufügen."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.decoy.report.demeanor",
+   "value": "Warf einen Seitenblick auf das Protokoll. Zuckte mit den Schultern."
+  },
+  {
+   "key": "case002.selcuk_follow.visitor.question",
+   "value": "Wer stand neben Ihnen am Wagen?"
+  },
+  {
+   "key": "case002.selcuk_third.body",
+   "value": "Befragung nach der zweiten Aussage von Emre Koç."
+  },
+  {
+   "key": "case002.selcuk_third.emre.answer",
+   "value": "Ich kenne ihn. Er hatte Schulden, deshalb kam er. Am Anfang habe ich das nicht gesagt, weil das Geld nirgends eingetragen ist. Ich hatte Angst, meine Arbeit zu verlieren."
+  },
+  {
+   "key": "case002.selcuk_third.emre.answer.demeanor",
+   "value": "Langes Schweigen. Dann sah er dich direkt an, ohne wegzuschauen."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_contact",
+   "value": "Jemand stand neben mir, dann bin ich gefallen. Das bestreite ich nicht. Ich muss sagen, dass ich nicht weiß, wer es war."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_contact.demeanor",
+   "value": "Bat dich, die Aufnahme anzuhalten. Starrte auf das Standbild."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_second_in",
+   "value": "Jemand kommt in die Gasse. In die Gasse kommt jeder. Das gibt mir keinen Namen."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_second_in.demeanor",
+   "value": "Sagte denselben Satz ein zweites Mal mit derselben Betonung."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_second_out",
+   "value": "Ich sehe, dass er geht. Ich war nicht in der Lage, ihm nachzusehen."
+  },
+  {
+   "key": "case002.selcuk_third.emre.decoy.camera_second_out.demeanor",
+   "value": "Schüttelte den Kopf. Die Hände blieben auf dem Tisch verschränkt."
+  },
+  {
+   "key": "case002.selcuk_third.emre.question",
+   "value": "Emre Koç sagt, er habe Sie gestoßen. Kennen Sie diese Person?"
+  },
+  {
+   "key": "case002.selcuk_third.kid.answer",
+   "value": "Meine Augen waren offen, aber ich kam nicht hoch. Jemand beugte sich zur Wagentür. Er sah aus wie der Junge vom Kiosk, der ist um die Zeit immer da."
+  },
+  {
+   "key": "case002.selcuk_third.kid.answer.demeanor",
+   "value": "Schloss beim Erzählen die Augen und öffnete sie wieder. Sprach langsam."
+  },
+  {
+   "key": "case002.selcuk_third.kid.decoy.camera_second_out",
+   "value": "Jemand entfernt sich, ich liege am Boden. Wäre ich in der Lage gewesen, mich umzusehen, hätte ich es getan."
+  },
+  {
+   "key": "case002.selcuk_third.kid.decoy.camera_second_out.demeanor",
+   "value": "Folgte der Gestalt auf dem Bildschirm mit dem Finger. Ließ dann die Hand sinken."
+  },
+  {
+   "key": "case002.selcuk_third.kid.decoy.emre_emre_note",
+   "value": "Dieser Zettel war nicht bei mir, fragen Sie den, dessen Name draufsteht. Am Boden habe ich niemanden bemerkt."
+  },
+  {
+   "key": "case002.selcuk_third.kid.decoy.emre_emre_note.demeanor",
+   "value": "Schob den Zettel weg. Mitten im Satz wurde die Stimme lauter."
+  },
+  {
+   "key": "case002.selcuk_third.kid.question",
+   "value": "Wen haben Sie am Boden liegend in der Nähe bemerkt?"
+  },
+  {
+   "key": "case002.selcuk_third.money.answer",
+   "value": "Nein. Es war das Geld, das Emre gebracht hat. Er warf den Umschlag in den Wagen, ich steckte ihn in die Tasche. Danach eskalierte der Streit."
+  },
+  {
+   "key": "case002.selcuk_third.money.answer.demeanor",
+   "value": "Beim Umschlag wurde die Stimme leiser. Dann normal."
+  },
+  {
+   "key": "case002.selcuk_third.money.decoy.camera_dispute",
+   "value": "Das war das Gespräch über den Fahrpreis. Mit dem Geld in der Tasche hat es nichts zu tun."
+  },
+  {
+   "key": "case002.selcuk_third.money.decoy.camera_dispute.demeanor",
+   "value": "Kurze, harte Antwort. Schob den Stuhl zurück, stand aber nicht auf."
+  },
+  {
+   "key": "case002.selcuk_third.money.decoy.report",
+   "value": "Im Protokoll stehen achttausend, das habe ich gesagt. Einnahmen des Tages, sage ich, und sage es wieder."
+  },
+  {
+   "key": "case002.selcuk_third.money.decoy.report.demeanor",
+   "value": "Las das Protokoll lange. Antwortete, ohne den Blick vom Papier zu heben."
+  },
+  {
+   "key": "case002.selcuk_third.money.question",
+   "value": "War das Geld in der Tasche Taxieinnahme?"
+  },
+  {
+   "key": "case002.selcuk_third.title",
+   "value": "Selçuk Yalın — dritte Befragung"
+  },
+  {
+   "key": "case002.summary.evidence",
+   "value": "Das Aufzeichnungsprotokoll trennt Ankunft und Abgang dreier Personen in der Gasse; die Rechtsmedizin passt die Verletzung zu einem Aufprall auf eine harte Fläche; der Zettel im Wagen zeigt die Schulden, Finanzermittlung und Spurenbefund zeigen, wer das Geld genommen hat."
+  },
+  {
+   "key": "case002.summary.lesson",
+   "value": "In einem einzigen Vorfall können zwei Handlungen und zwei Verantwortungen stecken. Dass ein Opfer etwas verschweigt, macht es nicht zum Täter; am Tatort gewesen zu sein heißt nicht, für jede Handlung verantwortlich zu sein."
+  },
+  {
+   "key": "case002.summary.location",
+   "value": "Beşiktaş, Seitengasse der Uferstraße — 21. November 2026"
+  },
+  {
+   "key": "case002.summary.truth",
+   "value": "Deniz Arslan stieg nach dem Streit um den Fahrpreis um 23.03 aus und war vor dem Vorfall fort. Emre Koç kam um 23.18, um eine nirgends eingetragene Schuld zu begleichen; als der Streit eskalierte, stieß er Selçuk Yalın, Yalın schlug auf die Bordsteinkante und wurde verletzt, Koç ging um 23.31 und ließ das Geld zurück. Kerem Şahin näherte sich um 23.34 dem Wagen, nahm den Umschlag aus der offenen Tasche und entfernte sich um 23.39; am nächsten Morgen zahlte er das Geld auf sein eigenes Konto ein. Selçuk Yalın verschwieg in seinen ersten beiden Aussagen die Schulden und das Geld."
+  },
+  {
+   "key": "case002.tablet.caseLine",
+   "value": "AKTE #002  /  BUBE ERMITTLUNGSEINHEIT"
+  },
+  {
+   "key": "case002.time.contact",
+   "value": "23.20"
+  },
+  {
+   "key": "case002.time.deniz_leave",
+   "value": "gegen 23.03"
+  },
+  {
+   "key": "case002.time.dispute",
+   "value": "23.02"
+  },
+  {
+   "key": "case002.time.emre_arrive",
+   "value": "gegen 23.20"
+  },
+  {
+   "key": "case002.time.kerem_watch",
+   "value": "gegen 23.35"
+  },
+  {
+   "key": "case002.time.park",
+   "value": "22.58"
+  },
+  {
+   "key": "case002.time.passenger_out",
+   "value": "23.03"
+  },
+  {
+   "key": "case002.time.patrol",
+   "value": "23.46"
+  },
+  {
+   "key": "case002.time.second_in",
+   "value": "23.18"
+  },
+  {
+   "key": "case002.time.second_out",
+   "value": "23.31"
+  },
+  {
+   "key": "case002.time.third_in",
+   "value": "23.34"
+  },
+  {
+   "key": "case002.time.third_out",
+   "value": "23.39"
+  },
+  {
+   "key": "case002.title",
+   "value": "Akte #002 — Letzte Fahrt"
+  },
+  {
+   "key": "case002.verdict.deniz",
+   "value": "Deniz Arslan"
+  },
+  {
+   "key": "case002.verdict.emre",
+   "value": "Emre Koç"
+  },
+  {
+   "key": "case002.verdict.kerem",
+   "value": "Kerem Şahin"
+  },
+  {
+   "key": "case002.epilogue.verdict.emre",
+   "value": "Emre Koç gab in seiner Aussage den Stoß zu; er wird nicht wegen vorsätzlicher, sondern wegen Körperverletzung im Streit angeklagt. Nach seiner Entlassung räumte Selçuk Yalın ein, auch die Schulden verschwiegen zu haben."
+  },
+  {
+   "key": "case002.epilogue.verdict.kerem",
+   "value": "Kerem Şahin wurde wegen Verdachts auf Körperverletzung festgenommen. Als die Aufzeichnung zeigte, dass er erst nach der Verletzung zum Wagen kam, fiel der Vorwurf. Emre Koç verließ in jener Woche die Stadt, und die Akte blieb in Sachen Körperverletzung offen."
+  },
+  {
+   "key": "case002.epilogue.verdict.deniz",
+   "value": "Deniz Arslan wurde in der Prüfungswoche festgenommen. Als der Abgang um 23.03 in die Akte kam, folgte die Freilassung, doch der Name kursierte eine Weile in den Lokalnachrichten. Gegen die Person, die die Verletzung verursachte, wurde nichts unternommen."
+  },
+  {
+   "key": "case002.epilogue.custody.kerem",
+   "value": "Das Geld, das am nächsten Morgen auf Kerem Şahins Konto einging, wurde verfolgt; der Betrag aus dem Umschlag ging an Selçuk Yalın zurück. Şahin verlor seine Stelle im Kiosk und wird wegen Diebstahls angeklagt."
+  },
+  {
+   "key": "case002.epilogue.custody.emre",
+   "value": "Während das Geld bei Emre Koç gesucht wurde, prüfte niemand die Kontobewegungen. Das von Kerem Şahin eingezahlte Geld blieb auf dem Konto und kam nie zu Selçuk Yalın zurück."
+  },
+  {
+   "key": "case002.epilogue.custody.deniz",
+   "value": "Deniz Arslans Sachen und Konto wurden durchsucht, das Geld wurde nicht gefunden. Ohne dass die eigentliche Kontobewegung je geprüft wurde, verlor sich die Spur des Umschlags."
+  }
+ ]
+}
