@@ -1154,4 +1154,4 @@ Oyuncuyu oyunda tutmak için kalıcı kariyer sonu kaldırıldı. Ölçek 0–10
 
 ## 8 Ekim 2026 — Bora'nın göreve hazırlanış filmi
 
-Yeni kariyerde "Oyuna başla"dan sonra ilk film Bora'nın 10 saniyelik göreve hazırlanış videosudur. Gemini ile üretildi, 2.5D pixel-art. Ardından Türkiye açılışı gelir, en son masaya dosya bırakılır. Film, dosya bildirimi gelmeden ve masa görülmeden önce oynar; kariyer başına bir kez gösterilir ve GEÇ düğmesi vardır. Dosya: `StreamingAssets/Bube/career_start.mp4`. `config.json` → `worldIntros` içindeki `career_start` girdisidir. Aynı dosyaya bağlı açılışlar sırayla oynar.
+Yeni kariyerde "Oyuna başla"dan sonra ilk film Bora'nın 10 saniyelik göreve hazırlanış videosudur. Gemini ile üretildi, 2.5D pixel-art. Ardından Türkiye açılışı gelir, en son masaya dosya bırakılır. Film, dosya bildirimi gelmeden ve masa görülmeden önce oynar; kariyer başına bir kez gösterilir ve GEÇ düğmesi vardır. Videoda üretici filigranı yok; bu yüzden GEÇ, kitin standart düğmesi olarak sağ altta durur. Dosya: `StreamingAssets/Bube/career_start.mp4`. `config.json` → `worldIntros` içindeki `career_start` girdisidir. Aynı dosyaya bağlı açılışlar sırayla oynar.
