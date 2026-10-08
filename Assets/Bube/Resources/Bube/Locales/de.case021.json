@@ -1,0 +1,624 @@
+{
+ "entries": [
+  {
+   "key": "case021.anja.betting.answer",
+   "value": "Lukas kam letzte Woche zu mir. ‚Moritz hat Rennen verkauft, an Wettanbieter. Das Doping war gar nicht die eigentliche Sache. Ich sage es dem Verband‘, sagte er. Ich sagte ihm, er solle zuerst mit seinem Bruder reden. Hätte ich das nur nicht gesagt."
+  },
+  {
+   "key": "case021.anja.betting.answer.demeanor",
+   "value": "Ihre Stimme wurde heiser."
+  },
+  {
+   "key": "case021.anja.betting.question",
+   "value": "Gab es in den letzten Tagen ein Problem?"
+  },
+  {
+   "key": "case021.anja.body",
+   "value": "Cheftrainerin."
+  },
+  {
+   "key": "case021.anja.deflect",
+   "value": "Fragen Sie dazu den Verband."
+  },
+  {
+   "key": "case021.anja.night.answer",
+   "value": "Moritz, seit der Sperre. Aber in der Woche vor der Auswahl ging auch Lukas nachts raus, um auf ruhigem Wasser zu trainieren. Ich habe es ihm gesagt."
+  },
+  {
+   "key": "case021.anja.night.question",
+   "value": "Wer ruderte nachts?"
+  },
+  {
+   "key": "case021.anja.title",
+   "value": "Anja Richter — Befragung"
+  },
+  {
+   "key": "case021.anja.twins.answer",
+   "value": "Am Ruderschlag. Der Zug von Lukas ist kürzer, seit der Operation an der linken Schulter 2027. Er verpasste eine Saison und kam danach besser zurück als sein Bruder. Moritz hat das nie akzeptiert."
+  },
+  {
+   "key": "case021.anja.twins.question",
+   "value": "Wie haben Sie die Zwillinge unterschieden?"
+  },
+  {
+   "key": "case021.autopsy.body",
+   "value": "· Todesursache: Ertrinken; er lebte, als er ins Wasser kam, war aber möglicherweise bewusstlos.\n· An der rechten Schläfe ein vor dem Eintritt ins Wasser entstandener, breiter, flacher Schlag; passend zu einem Ruderblatt.\n· An der linken Schulter eine alte Operationsnarbe; im Röntgenbild zwei Titanschrauben.\n· Der Reißverschluss der Jacke falsch herum geschlossen, das Innenfutter in einer Tasche nach außen gekehrt.\n· Identität: Sichtidentifizierung durch den Zwillingsbruder am Fundort. Bei eineiigen Zwillingen unterscheidet DNA nicht."
+  },
+  {
+   "key": "case021.autopsy.title",
+   "value": "VORLÄUFIGER OBDUKTIONSVERMERK"
+  },
+  {
+   "key": "case021.betting.body",
+   "value": "Eine fiktive Organisation für Wettintegrität.\n\n· In sieben Rennen ungewöhnlich hohe Wetten auf eine Niederlage des Boots von Moritz Berger.\n· Auf ein Konto auf den Namen Moritz Berger über die Arendt Handelsgesellschaft als „Sponsoring“ insgesamt €64.000.\n· Das Konto wurde auch nach der Sperre weiter genutzt."
+  },
+  {
+   "key": "case021.betting.title",
+   "value": "WETTÜBERWACHUNGSBERICHT — DAHME-REGATTEN 2027–2028"
+  },
+  {
+   "key": "case021.cctv.event.launch",
+   "value": "Kamera: Ein Ruderer in dunkler Jacke lässt ein Einerboot über die Slipanlage ins Wasser; allein."
+  },
+  {
+   "key": "case021.cctv.event.leave",
+   "value": "Kamera: Ein Mann geht vom Steg zur Clubtür und zieht dabei eine dunkle Jacke an; hinter ihm tropft Wasser."
+  },
+  {
+   "key": "case021.cctv.event.wait",
+   "value": "Kamera: Ein zweiter Mann, gleich groß, geht vom Rand der Slipanlage zum Steg; in der Hand ein Ruder."
+  },
+  {
+   "key": "case021.cctv.overlay",
+   "value": "SLIP"
+  },
+  {
+   "key": "case021.cctv.period",
+   "value": "21. September 2029, 21.30 – 22.40"
+  },
+  {
+   "key": "case021.cctv.source",
+   "value": "Kamera an der Slipanlage"
+  },
+  {
+   "key": "case021.clue.bets",
+   "value": "Ungewöhnliche Wetten auf die Rennen von Moritz Berger; Zahlung über Arendt."
+  },
+  {
+   "key": "case021.clue.fight",
+   "value": "Am Ende des Stegs zwei Männer; einer hebt etwas Langes."
+  },
+  {
+   "key": "case021.clue.launch",
+   "value": "Ein Ruderer geht allein über die Slipanlage ins Wasser."
+  },
+  {
+   "key": "case021.clue.leave",
+   "value": "Ein Mann geht vom Steg zur Clubtür, nass, und zieht seine Jacke an."
+  },
+  {
+   "key": "case021.clue.source.betting",
+   "value": "Wettbericht"
+  },
+  {
+   "key": "case021.clue.source.medical",
+   "value": "Orthopädischer Befund"
+  },
+  {
+   "key": "case021.clue.source.rolf",
+   "value": "Angler am gegenüberliegenden Ufer"
+  },
+  {
+   "key": "case021.clue.surgery",
+   "value": "Lukas Berger bekommt zwei Schrauben in die linke Schulter."
+  },
+  {
+   "key": "case021.clue.wait",
+   "value": "Ein zweiter, gleich großer Mann geht mit einem Ruder zum Steg."
+  },
+  {
+   "key": "case021.custody.both",
+   "value": "Die beiden sind nicht zu unterscheiden"
+  },
+  {
+   "key": "case021.custody.label",
+   "value": "Welcher Zwilling ist gestorben?"
+  },
+  {
+   "key": "case021.custody.lukas",
+   "value": "Lukas Berger — der Bruder mit den Schrauben in der Schulter"
+  },
+  {
+   "key": "case021.custody.moritz",
+   "value": "Moritz Berger — der gesperrte Bruder"
+  },
+  {
+   "key": "case021.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case021.epilogue.custody.both",
+   "value": "Es hieß, eineiige Zwillinge seien nicht zu unterscheiden; der Prozess scheiterte an der ungeklärten Identität."
+  },
+  {
+   "key": "case021.epilogue.custody.lukas",
+   "value": "Das Melderegister wurde berichtigt: tot ist Lukas Berger, am Leben Moritz Berger. Die Mutter betrauerte ihre Söhne zum ersten Mal getrennt."
+  },
+  {
+   "key": "case021.epilogue.custody.moritz",
+   "value": "Die Identifizierung blieb, wie sie war; der überlebende Zwilling lebte mit dem Namen seines Bruders weiter."
+  },
+  {
+   "key": "case021.epilogue.custody.unknown",
+   "value": "Die Frage der Identität blieb offen; die Verteidigung nutzte sie vom ersten Tag an."
+  },
+  {
+   "key": "case021.epilogue.verdict.anja",
+   "value": "Anja Richter wurde entlassen. Moritz Berger setzte sich im Oktober als „Lukas“ ins Boot der Nationalmannschaft."
+  },
+  {
+   "key": "case021.epilogue.verdict.holger",
+   "value": "Die Aussage von Holger Mertens galt als Lüge, der alte Mann verließ den Club. Die Akte wurde als Unfall geschlossen."
+  },
+  {
+   "key": "case021.epilogue.verdict.nobody",
+   "value": "Der Tod wurde als Unfall abgeschlossen. „Moritz Berger“ wurde begraben; sein Bruder ruderte in der Nationalmannschaft."
+  },
+  {
+   "key": "case021.epilogue.verdict.survivor",
+   "value": "Moritz Berger wurde wegen Mordes festgenommen. Lukas Berger wurde unter seinem eigenen Namen begraben; im Boot der Nationalmannschaft blieb im Oktober ein Platz frei."
+  },
+  {
+   "key": "case021.evidence.betting",
+   "value": "Wettüberwachungsbericht"
+  },
+  {
+   "key": "case021.evidence.medical",
+   "value": "Orthopädischer Befund"
+  },
+  {
+   "key": "case021.evidence.prints",
+   "value": "Fingerabdruckvergleich"
+  },
+  {
+   "key": "case021.evidence.xray",
+   "value": "Schulterröntgen"
+  },
+  {
+   "key": "case021.feedback.anja",
+   "value": "Die Trainerin sagte Lukas, er solle mit seinem Bruder reden; in jener Nacht war sie nicht im Club, und sie war es, die zum Schraubenbefund führte."
+  },
+  {
+   "key": "case021.feedback.holger",
+   "value": "Holger sah nur den Ruderer, der über die Slipanlage ins Wasser ging, und vermutete, wer das war; den Steg konnte er von seinem Fenster aus nicht sehen."
+  },
+  {
+   "key": "case021.feedback.nobody",
+   "value": "Der Schlag an der Schläfe entstand vor dem Eintritt ins Wasser; auf dem Steg sind Blut und Ruderspuren, der Angler sah zwei Männer."
+  },
+  {
+   "key": "case021.feedback.survivor",
+   "value": "Die Fingerabdrücke gehören Moritz, in seiner Schulter sind keine Schrauben; auf dem Steg schlug er seinen Bruder mit dem Ruder, tauschte die Jacken und identifizierte ihn am Morgen unter seinem eigenen Namen."
+  },
+  {
+   "key": "case021.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case021.file.value.bureau",
+   "value": "BDS Berlin — Dienststelle Kreuzberg"
+  },
+  {
+   "key": "case021.file.value.location",
+   "value": "Köpenick, Ruderclub Dahme — Steg"
+  },
+  {
+   "key": "case021.file.value.number",
+   "value": "BDS-BER-2029-0071"
+  },
+  {
+   "key": "case021.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case021.file.value.reporter",
+   "value": "Clubmitarbeiter"
+  },
+  {
+   "key": "case021.holger.body",
+   "value": "Bootswart."
+  },
+  {
+   "key": "case021.holger.deflect",
+   "value": "Ich kümmere mich um Boote, nicht um Menschen."
+  },
+  {
+   "key": "case021.holger.saw.answer",
+   "value": "Gegen 22.00 sah ich aus dem Fenster: Moritz ließ das Einerboot über die Slipanlage ins Wasser, er war allein. Seit der Sperre ging er immer nachts raus. Dann bin ich schlafen gegangen."
+  },
+  {
+   "key": "case021.holger.saw.answer.demeanor",
+   "value": "Sicher."
+  },
+  {
+   "key": "case021.holger.saw.question",
+   "value": "Was haben Sie gestern Nacht gesehen?"
+  },
+  {
+   "key": "case021.holger.title",
+   "value": "Holger Mertens — Befragung"
+  },
+  {
+   "key": "case021.holger.which.answer",
+   "value": "Er ist der, der nachts rudert. Lukas ist ein Morgenkind. Das Gesicht habe ich nicht gesehen, auf die Entfernung kann die beiden niemand unterscheiden. Aber nachts … das ist Moritz."
+  },
+  {
+   "key": "case021.holger.which.question",
+   "value": "Woher wussten Sie, dass es Moritz war?"
+  },
+  {
+   "key": "case021.lukas.body",
+   "value": "Der überlebende Zwilling."
+  },
+  {
+   "key": "case021.lukas.brother.answer",
+   "value": "Zwilling sein … man teilt alles, dann nimmt einer alles. Ich wurde ausgewählt, er gesperrt. Aber er war mein Bruder."
+  },
+  {
+   "key": "case021.lukas.brother.question",
+   "value": "Wie war Ihr Verhältnis zu Ihrem Bruder?"
+  },
+  {
+   "key": "case021.lukas.deflect",
+   "value": "Ich habe gerade meinen Bruder verloren. Bitte."
+  },
+  {
+   "key": "case021.lukas.night.answer",
+   "value": "Zu Hause, in Adlershof. Im Oktober ist die Auswahl für die Nationalmannschaft, ich bin früh schlafen gegangen. Moritz ging nachts raus, seit seiner Sperre, damit ihn niemand sieht."
+  },
+  {
+   "key": "case021.lukas.night.answer.demeanor",
+   "value": "Die Augen gerötet, die Stimme flach."
+  },
+  {
+   "key": "case021.lukas.night.question",
+   "value": "Wo waren Sie gestern Nacht?"
+  },
+  {
+   "key": "case021.lukas.quote",
+   "value": "„Dann nimmt einer alles.“"
+  },
+  {
+   "key": "case021.lukas.title",
+   "value": "Lukas Berger — Befragung"
+  },
+  {
+   "key": "case021.lukas_2.body",
+   "value": "Zu orthopädischem Befund und Röntgen."
+  },
+  {
+   "key": "case021.lukas_2.jacket.answer",
+   "value": "Die Jacke von Moritz. Seine eigene Jacke. Was weiß ich."
+  },
+  {
+   "key": "case021.lukas_2.jacket.question",
+   "value": "Der Leiche wurde die Jacke verkehrt angezogen."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer",
+   "value": "… Moritz wurde auch operiert. In einem anderen Krankenhaus. Die Unterlagen sind wohl durcheinandergeraten."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer.demeanor",
+   "value": "Wich zum ersten Mal dem Blick aus."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.question",
+   "value": "In der linken Schulter von Lukas Berger sind zwei Schrauben. In der Schulter der Leiche aus dem Wasser sind diese zwei Schrauben. In Ihrer Schulter nicht."
+  },
+  {
+   "key": "case021.lukas_2.title",
+   "value": "Die Person, die sich als Lukas Berger ausgibt — zweite Befragung"
+  },
+  {
+   "key": "case021.lukas_3.body",
+   "value": "Zum Fingerabdruckvergleich."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer",
+   "value": "Auf dem Rückweg wartete ich auf dem Steg. ‚Sag es nicht‘, sagte ich. ‚Ich sage es‘, sagte er. Das Ruder war in meiner Hand. Er fiel, rührte sich nicht. Ich tauschte die Jacken, ließ ihn ins Wasser, drehte das Boot um. Am Morgen identifizierte ich meine eigene Leiche."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer.demeanor",
+   "value": "Sah auf seine Hände."
+  },
+  {
+   "key": "case021.lukas_3.jetty.question",
+   "value": "Was geschah auf dem Steg?"
+  },
+  {
+   "key": "case021.lukas_3.name.answer",
+   "value": "… Im Oktober hätte ich in dem Boot gesessen. Mit seinem Namen. Niemand hätte es gemerkt; selbst unsere Mutter unterscheidet uns an der Stimme. Lukas wäre zum Verband gegangen, ich ins Gefängnis."
+  },
+  {
+   "key": "case021.lukas_3.name.answer.demeanor",
+   "value": "Ein langes Schweigen, dann eine flache Stimme."
+  },
+  {
+   "key": "case021.lukas_3.name.question",
+   "value": "Ihre Fingerabdrücke gehören Moritz Berger. Der Tote ist Lukas."
+  },
+  {
+   "key": "case021.lukas_3.title",
+   "value": "Moritz Berger — dritte Befragung"
+  },
+  {
+   "key": "case021.medical.body",
+   "value": "Ein fiktives Sportkrankenhaus, Berlin. Patient: Lukas Berger, geb. 2002.\n\n· März 2027 · linke Schulter, Labrumrekonstruktion; zwei Titanschrauben eingesetzt.\n· Kontrolle, September 2028: Schrauben an Ort und Stelle, keine Entfernung geplant.\n\nFür den Bruder Moritz Berger gibt es im selben Krankenhaus keinen Eintrag."
+  },
+  {
+   "key": "case021.medical.title",
+   "value": "ORTHOPÄDISCHER BEFUND — LUKAS BERGER"
+  },
+  {
+   "key": "case021.method.capsized",
+   "value": "Das Boot kenterte, er ertrank"
+  },
+  {
+   "key": "case021.method.drunk",
+   "value": "Ist betrunken ins Wasser gefallen"
+  },
+  {
+   "key": "case021.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case021.method.oar",
+   "value": "Wurde auf dem Steg mit dem Ruder auf den Kopf geschlagen und ins Wasser gelassen; das Boot wurde umgedreht"
+  },
+  {
+   "key": "case021.method.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case021.offer.subtitle",
+   "value": "DAS RUDER  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case021.offer.summary",
+   "value": "Ein wegen Dopings gesperrter Ruderer wird in Köpenick nahe dem Steg seines Clubs tot im Wasser gefunden. Die Leiche identifiziert sein eineiiger Zwilling. Der Bootswart hat ihn allein ins Wasser gehen sehen."
+  },
+  {
+   "key": "case021.offer.title",
+   "value": "AKTE #021"
+  },
+  {
+   "key": "case021.person.anja.info",
+   "value": "49 Jahre, Cheftrainerin des Ruderclubs Dahme. Trainiert die Zwillinge seit ihrem zwölften Lebensjahr."
+  },
+  {
+   "key": "case021.person.anja.name",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.person.holger.info",
+   "value": "66 Jahre, Bootswart des Clubs; wohnt im Obergeschoss des Clubhauses."
+  },
+  {
+   "key": "case021.person.holger.name",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.person.lukas.info",
+   "value": "27 Jahre, Ruderer. Eineiiger Zwilling des toten Moritz Berger; er identifizierte die Leiche am Fundort."
+  },
+  {
+   "key": "case021.person.lukas.name",
+   "value": "Lukas Berger"
+  },
+  {
+   "key": "case021.person.rolf.info",
+   "value": "58 Jahre, Busfahrer. Angelt nachts am gegenüberliegenden Ufer der Dahme."
+  },
+  {
+   "key": "case021.person.rolf.name",
+   "value": "Rolf Kaiser"
+  },
+  {
+   "key": "case021.plan.body",
+   "value": "Draufsichtskizze. Im Nordwesten das Clubhaus; davor die Bootshalle. Im Westen die betonierte Slipanlage, über die Boote ins Wasser gelassen werden; in der Mitte ein in den Fluss ragender Holzsteg. Im Südosten das gegenüberliegende Ufer der Dahme.\n\nDie von den Zeugen geschilderten und von den Aufzeichnungen gezeigten Positionen sind im Plan markiert."
+  },
+  {
+   "key": "case021.plan.incident",
+   "value": "Kreuz: das Ende des Stegs; das Tatortteam fand auf den Brettern Blut und die Spur eines Ruderblatts. Beim Antippen der Markierungen wird der von dort sichtbare Bereich gezeichnet."
+  },
+  {
+   "key": "case021.plan.marker.holger_claim",
+   "value": "Holger Mertens — eigene Angabe: Fenster im Obergeschoss des Clubhauses"
+  },
+  {
+   "key": "case021.plan.marker.rolf_claim",
+   "value": "Rolf Kaiser — eigene Angabe: gegenüberliegendes Ufer, Angelplatz"
+  },
+  {
+   "key": "case021.plan.marker.slip_cam",
+   "value": "Kamera an der Slipanlage — Bootsrampe"
+  },
+  {
+   "key": "case021.plan.title",
+   "value": "TATORTPLAN — RUDERCLUB DAHME"
+  },
+  {
+   "key": "case021.prints.body",
+   "value": "Anfrage: bube Berlin. Die Fingerabdrücke eineiiger Zwillinge sind verschieden.\n\n· Vergleichsdatensatz: Fingerabdrücke von Moritz Berger aus der Dopingakte 2028.\n· Fingerabdrücke der Person, die sich als Lukas Berger ausgibt: Übereinstimmung mit dem Datensatz von Moritz Berger.\n· Fingerabdrücke der aus dem Wasser geborgenen Leiche: keine Übereinstimmung mit dem Datensatz von Moritz Berger."
+  },
+  {
+   "key": "case021.prints.title",
+   "value": "FINGERABDRUCKVERGLEICH"
+  },
+  {
+   "key": "case021.report.body",
+   "value": "Am 22. September 2029 um 06.20 wurde in Köpenick, nahe dem Steg des Ruderclubs Dahme, eine männliche Leiche im Wasser gefunden; hundert Meter weiter ein gekentertes Einer-Rennboot.\n\nDie Leiche wurde am Fundort von seinem eineiigen Zwilling Lukas Berger identifiziert: Moritz Berger (27). Er trug eine Clubjacke mit dem auf der Brust eingestickten Namen „M. BERGER“.\n\nStreifennotiz: „Moritz Berger wurde 2028 wegen Dopings für zwei Jahre gesperrt und ruderte nachts allein. Der Bootswart des Clubs sah ihn um 22.00 allein ins Wasser gehen. Das Boot kenterte im Dunkeln, Unfall.“"
+  },
+  {
+   "key": "case021.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case021.request.betting",
+   "value": "Wettüberwachungsbericht anfordern"
+  },
+  {
+   "key": "case021.request.medical",
+   "value": "Orthopädischen Befund von Lukas Berger anfordern"
+  },
+  {
+   "key": "case021.request.prints",
+   "value": "Fingerabdruckvergleich anfordern"
+  },
+  {
+   "key": "case021.request.xray",
+   "value": "Schulterröntgen des überlebenden Zwillings anfordern"
+  },
+  {
+   "key": "case021.rolf.after.answer",
+   "value": "Einer beugte sich lange über den Steg, machte sich an etwas zu schaffen. Dann ging er zur Clubtür und zog dabei seine Jacke an."
+  },
+  {
+   "key": "case021.rolf.after.question",
+   "value": "Was geschah dann?"
+  },
+  {
+   "key": "case021.rolf.body",
+   "value": "Der Angler am gegenüberliegenden Ufer."
+  },
+  {
+   "key": "case021.rolf.deflect",
+   "value": "Ich habe geangelt, den Rest weiß ich nicht."
+  },
+  {
+   "key": "case021.rolf.saw.answer",
+   "value": "Kurz nach zehn zwei Männer am Ende des Stegs. Sie schrien, gleich groß, gleich gebaut. Einer hob etwas Langes wie ein Ruder. Dann fiel etwas ins Wasser, und ein Boot kenterte. Ich dachte, die Jungen sind betrunken, ich habe nicht angerufen. Ich hätte anrufen sollen."
+  },
+  {
+   "key": "case021.rolf.saw.answer.demeanor",
+   "value": "Senkte den Kopf."
+  },
+  {
+   "key": "case021.rolf.saw.question",
+   "value": "Was haben Sie gestern Nacht gesehen?"
+  },
+  {
+   "key": "case021.rolf.title",
+   "value": "Rolf Kaiser — Befragung"
+  },
+  {
+   "key": "case021.slip.body",
+   "value": "Kamera mit Blick auf die Bootsrampe des Clubs; das Ende des Stegs liegt außerhalb des Bildes. 21. September 21.30 – 22.40."
+  },
+  {
+   "key": "case021.slip.title",
+   "value": "KAMERA AN DER SLIPANLAGE — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case021.summary.evidence",
+   "value": "Der Tatortplan zeigte, dass der Bootswart den Steg nicht sehen konnte, der Angler am anderen Ufer aber schon; die Kamera an der Slipanlage erfasste einen zweiten Mann. Die beiden Schrauben aus der Obduktion passten zum orthopädischen Befund von Lukas; im Röntgen des Überlebenden waren keine Schrauben. Der Fingerabdruckvergleich verband den lebenden Zwilling mit der Dopingakte von Moritz."
+  },
+  {
+   "key": "case021.summary.lesson",
+   "value": "Auch eine Identifizierung ist eine Aussage: Sieh darauf, wer die Identität bestätigt und worauf er sich stützt. Was DNA nicht unterscheiden kann, unterscheiden Körper und Aufzeichnung."
+  },
+  {
+   "key": "case021.summary.location",
+   "value": "Köpenick, Ruderclub Dahme — September 2029"
+  },
+  {
+   "key": "case021.summary.truth",
+   "value": "Moritz Berger verkaufte jahrelang Rennen und bekam Geld über Arendt; er wurde wegen Dopings gesperrt. Sein eineiiger Zwilling Lukas wurde in die Nationalmannschaft berufen und beschloss, seinen Bruder beim Verband zu melden. In der Nacht des 21. September ging Lukas zur Vorbereitung auf die Auswahl nachts aufs Wasser; Moritz wartete auf dem Steg, schlug ihn bei der Rückkehr mit dem Ruder, tauschte die Jacken, ließ seinen Bruder ins Wasser und drehte das Boot um. Am Morgen identifizierte er die Leiche, die seinen eigenen Namen trug, und begann, als Lukas zu leben."
+  },
+  {
+   "key": "case021.suspect.label",
+   "value": "Wer ist für den Tod an der Dahme verantwortlich?"
+  },
+  {
+   "key": "case021.tablet.caseLine",
+   "value": "AKTE #021  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case021.time.bets",
+   "value": "2027–2028"
+  },
+  {
+   "key": "case021.time.fight",
+   "value": "21. September 22.10"
+  },
+  {
+   "key": "case021.time.launch",
+   "value": "21.58"
+  },
+  {
+   "key": "case021.time.leave",
+   "value": "22.24"
+  },
+  {
+   "key": "case021.time.surgery",
+   "value": "Mart 2027"
+  },
+  {
+   "key": "case021.time.wait",
+   "value": "22.03"
+  },
+  {
+   "key": "case021.title",
+   "value": "Akte #021 — Das Ruder"
+  },
+  {
+   "key": "case021.verdict.anja",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.verdict.holger",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.verdict.nobody",
+   "value": "Niemand — das Boot kenterte im Dunkeln"
+  },
+  {
+   "key": "case021.verdict.survivor",
+   "value": "Der überlebende Zwilling — der sich als Lukas Berger ausgibt"
+  },
+  {
+   "key": "case021.xray.body",
+   "value": "Anfrage von bube Berlin; mit Einwilligung der Person, 23. September 2029.\n\nPerson, die sich als Lukas Berger ausgibt: an der linken Schulter keine Operationsnarbe, keine Schrauben, Knochenstruktur passend zu einem nie operierten Gelenk."
+  },
+  {
+   "key": "case021.xray.title",
+   "value": "SCHULTERRÖNTGEN — ÜBERLEBENDER ZWILLING"
+  },
+  {
+   "key": "case021.item.oar.name",
+   "value": "Ruder"
+  },
+  {
+   "key": "case021.item.oar.detail",
+   "value": "Rennruder mit dunklem Fleck am Ende."
+  },
+  {
+   "key": "case021.item.jacket.name",
+   "value": "Ruderjacke"
+  },
+  {
+   "key": "case021.item.jacket.detail",
+   "value": "Verkehrt herum gedrehte, nasse Ruderjacke."
+  },
+  {
+   "key": "case021.item.xray.name",
+   "value": "Röntgenbild"
+  },
+  {
+   "key": "case021.item.xray.detail",
+   "value": "Zwei Metallschrauben im Schultergelenk."
+  }
+ ]
+}
