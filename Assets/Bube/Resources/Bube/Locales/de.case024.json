@@ -1,0 +1,644 @@
+{
+ "entries": [
+  {
+   "key": "case024.autopsy.body",
+   "value": "· Todesursache: Morphinvergiftung; der Blutspiegel etwa das Zehnfache der verschriebenen Dosis.\n· Bauchspeicheldrüsenkrebs im fortgeschrittenen Stadium; in die Leber gestreut. Erwartete Lebenszeit höchstens wenige Wochen.\n· Der Portkatheter in der Brust ist an die Morphinpumpe angeschlossen; keine weiteren Einstichstellen.\n· Die Schürfwunde an der Stirn kurz vor dem Tod; passend zu einem Sturz, nicht zu einem Schlag.\n· Keine Kampfspuren, kein fremdes Gewebe unter den Fingernägeln.\n· Todeszeitpunkt: 22.30–00.30."
+  },
+  {
+   "key": "case024.autopsy.title",
+   "value": "VORLÄUFIGER OBDUKTIONSVERMERK"
+  },
+  {
+   "key": "case024.cctv.event.alone",
+   "value": "Kamera: Im erleuchteten Arbeitszimmer ein einzelner alter Mann; am Schreibtisch steckt er ein Buch in einen Umschlag."
+  },
+  {
+   "key": "case024.cctv.event.look",
+   "value": "Kamera: Der Mann blickt zur Kamera, hebt die Hand; das Bild bricht ab."
+  },
+  {
+   "key": "case024.cctv.event.smash",
+   "value": "Kamera: Derselbe Mann schlägt das Fenster mit dem Kaminschürhaken von innen ein; die Scherben fallen in den Garten."
+  },
+  {
+   "key": "case024.cctv.overlay",
+   "value": "GARDEN"
+  },
+  {
+   "key": "case024.cctv.period",
+   "value": "2. Dezember 2029, 21.40 – 21.55"
+  },
+  {
+   "key": "case024.cctv.source",
+   "value": "Gartenkamera"
+  },
+  {
+   "key": "case024.clue.alone",
+   "value": "Konrad steckt allein im Zimmer das Buch in den Umschlag."
+  },
+  {
+   "key": "case024.clue.cam",
+   "value": "Die Gartenkamera wird mit der PIN von Konrad abgeschaltet; der Tresor mit seiner Kombination geöffnet."
+  },
+  {
+   "key": "case024.clue.dose",
+   "value": "Die Sperre der Pumpe wird aufgehoben; über die Patiententaste 14 Zusatzdosen."
+  },
+  {
+   "key": "case024.clue.notary",
+   "value": "Konrad hinterlegt den Umschlag und die Testamentsänderung beim Notar."
+  },
+  {
+   "key": "case024.clue.show",
+   "value": "Leon zeigt Konrad bei nächtlichen Schmerzen den Servicecode der Pumpe."
+  },
+  {
+   "key": "case024.clue.smash",
+   "value": "Konrad schlägt das Fenster von innen mit dem Schürhaken ein."
+  },
+  {
+   "key": "case024.clue.source.leon",
+   "value": "Pfleger"
+  },
+  {
+   "key": "case024.clue.source.notary",
+   "value": "Notarprotokoll"
+  },
+  {
+   "key": "case024.clue.source.panel",
+   "value": "Haussteuerungspanel"
+  },
+  {
+   "key": "case024.clue.source.pump",
+   "value": "Pumpenprotokoll"
+  },
+  {
+   "key": "case024.custody.konrad",
+   "value": "Konrad Arendt selbst — über den Notar"
+  },
+  {
+   "key": "case024.custody.label",
+   "value": "Wer hat das Buch an bube Berlin geschickt?"
+  },
+  {
+   "key": "case024.custody.philipp",
+   "value": "Philipp Arendt — aus Rache an seinem Vater"
+  },
+  {
+   "key": "case024.custody.sabine",
+   "value": "Sabine Roth — sie nahm es aus dem Tresor"
+  },
+  {
+   "key": "case024.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case024.epilogue.custody.konrad",
+   "value": "Das Buch schickte der Verstorbene selbst an bube Berlin; so stand es in der Anweisung auf dem Umschlag."
+  },
+  {
+   "key": "case024.epilogue.custody.philipp",
+   "value": "Man glaubte, der Sohn habe das Buch durchgestochen; die Verteidigung zerpflückte es als seine Erfindung."
+  },
+  {
+   "key": "case024.epilogue.custody.sabine",
+   "value": "Das Buch galt als aus der Hand von Sabine stammend; der Brief von Konrad wurde als ‚Lenkung‘ beiseitegelegt."
+  },
+  {
+   "key": "case024.epilogue.custody.unknown",
+   "value": "Wie das Buch zu bube kam, blieb offen; die Beweiskette riss vor Gericht."
+  },
+  {
+   "key": "case024.epilogue.verdict.konrad",
+   "value": "Der Tod von Konrad Arendt wurde als Suizid erfasst. Das Buch ging an die Anklagebehörde; elf geschlossene Akten von London bis Berlin wurden wieder geöffnet. Der Name auf der letzten Seite wurde an die Dienststelle Tokio weitergeleitet."
+  },
+  {
+   "key": "case024.epilogue.verdict.leon",
+   "value": "Leon Fischer stand wegen Mordes vor Gericht. Das Buch ging in der Fußnote eines Prozesses über ‚Patient und Pfleger‘ verloren."
+  },
+  {
+   "key": "case024.epilogue.verdict.philipp",
+   "value": "Philipp Arendt wurde beschuldigt, seinen Vater getötet zu haben. Während des Prozesses galt das Buch als ‚gefälschtes Beweismittel‘; die Zahlungen wurden nach Tokio übertragen."
+  },
+  {
+   "key": "case024.epilogue.verdict.sabine",
+   "value": "Sabine Roth wurde festgenommen; die Luxemburger Konten wurden auf ihren Namen eingefroren, der Rest blieb."
+  },
+  {
+   "key": "case024.evidence.letter",
+   "value": "Brief von Konrad Arendt"
+  },
+  {
+   "key": "case024.evidence.panel",
+   "value": "Haussteuerungspanel"
+  },
+  {
+   "key": "case024.evidence.pump",
+   "value": "Protokoll der Morphinpumpe"
+  },
+  {
+   "key": "case024.evidence.tox",
+   "value": "Toxikologie"
+  },
+  {
+   "key": "case024.feedback.konrad",
+   "value": "Er schlug das Fenster selbst von innen ein, schaltete Kamera und Tresor mit seiner eigenen PIN, hob die Sperre der Pumpe mit dem Code auf, den er von Leon kannte, und gab sich die Zusatzdosen selbst; damit das Buch über den Notar bube erreicht."
+  },
+  {
+   "key": "case024.feedback.leon",
+   "value": "Der Pfleger ging um 20.04; der Code war seiner, aber auf der Taste sind nur die Spuren von Konrad."
+  },
+  {
+   "key": "case024.feedback.philipp",
+   "value": "Der Sohn wurde enterbt, verließ das Haus aber um 21.00; die Tür wurde die ganze Nacht nicht geöffnet, und das Pumpenprotokoll zeigt keine andere Hand."
+  },
+  {
+   "key": "case024.feedback.sabine",
+   "value": "Sabine brachte am Nachmittag Auszüge und ging; in jener Nacht war sie nicht in der Villa."
+  },
+  {
+   "key": "case024.file.caseType",
+   "value": "VERDACHT AUF MORD"
+  },
+  {
+   "key": "case024.file.value.bureau",
+   "value": "BDS Berlin — Dienststelle Kreuzberg"
+  },
+  {
+   "key": "case024.file.value.location",
+   "value": "Grunewald, Villa Arendt — Arbeitszimmer"
+  },
+  {
+   "key": "case024.file.value.number",
+   "value": "BDS-BER-2029-0101"
+  },
+  {
+   "key": "case024.file.value.offence",
+   "value": "Verdacht auf Mord"
+  },
+  {
+   "key": "case024.file.value.reporter",
+   "value": "Haushälterin"
+  },
+  {
+   "key": "case024.garden.body",
+   "value": "Kamera mit Blick auf das Gartenfenster des Arbeitszimmers; um 21.55 abgeschaltet. 2. Dezember 21.40 – 21.55."
+  },
+  {
+   "key": "case024.garden.title",
+   "value": "GARTENKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case024.ledger.body",
+   "value": "Handschrift von Konrad Arendt; 1989–2029.\n\n· 2023–2029 · „G. H., London, Aktenannahme“ — monatlich; Vermerk Tanner Lane.\n· 2027–2028 · „M. B., Rudern, Köpenick“ — pro Rennen.\n· 2028–2029 · „M. K., bube Berlin“ — monatlich €3.000.\n· 2029 · „İ. Medien, Kreuzberg“ — Sendelinie.\n· Letzte Seite: „Empfänger: Kisaragi Shōji, Tokio — alle Linien werden übergeben, Januar 2030.“"
+  },
+  {
+   "key": "case024.ledger.title",
+   "value": "DAS BUCH — AUSGEWÄHLTE ZEILEN"
+  },
+  {
+   "key": "case024.leon.body",
+   "value": "Pfleger."
+  },
+  {
+   "key": "case024.leon.code.answer",
+   "value": "Über das Servicemenü. Ich … habe es ihm einmal gezeigt. Letzten Monat, die nächtlichen Schmerzen waren unerträglich, er rief mich, ‚nächstes Mal mache ich es selbst, bevor du kommst‘, sagte er. Das hätte ich nicht tun dürfen."
+  },
+  {
+   "key": "case024.leon.code.answer.demeanor",
+   "value": "Wurde blass."
+  },
+  {
+   "key": "case024.leon.code.question",
+   "value": "Lässt sich die Sperre umgehen?"
+  },
+  {
+   "key": "case024.leon.deflect",
+   "value": "Es gibt die Schweigepflicht."
+  },
+  {
+   "key": "case024.leon.pump.answer",
+   "value": "Dauerhaft eine niedrige Dosis, und wenn die Schmerzen stärker werden, eine Zusatzdosis über die Taste in der Hand des Patienten. Gesperrt: höchstens zwei Zusatzdosen pro Stunde. Um acht Uhr abends habe ich kontrolliert, alles war normal."
+  },
+  {
+   "key": "case024.leon.pump.answer.demeanor",
+   "value": "Selbstsicher."
+  },
+  {
+   "key": "case024.leon.pump.question",
+   "value": "Wie funktionierte die Pumpe?"
+  },
+  {
+   "key": "case024.leon.title",
+   "value": "Leon Fischer — Befragung"
+  },
+  {
+   "key": "case024.leon_2.body",
+   "value": "Zum Pumpenprotokoll."
+  },
+  {
+   "key": "case024.leon_2.code.answer",
+   "value": "An dem Abend bin ich um acht gegangen, ich war zu Hause in Neukölln, meine Freundin … Ich war es nicht. Aber den Code habe ich ihm gegeben. Ist das nicht auch etwas?"
+  },
+  {
+   "key": "case024.leon_2.code.answer.demeanor",
+   "value": "Weint."
+  },
+  {
+   "key": "case024.leon_2.code.question",
+   "value": "Die Sperre wurde mit Ihrem Servicecode aufgehoben."
+  },
+  {
+   "key": "case024.leon_2.title",
+   "value": "Leon Fischer — zweite Befragung"
+  },
+  {
+   "key": "case024.letter.body",
+   "value": "„An bube Berlin,\n\nGilt der Tod eines alten Mannes als natürlich, schaut niemand in seinen Tresor. Gilt er als Mord, schauen alle. Mein Sohn würde das Buch verbrennen; Sabine würde es verstecken; die Männer, die ich mit Geld gekauft habe, sitzen sogar bei Ihnen. Matthias Kern habe ich gefüttert; Clara Weiß habe ich getötet, nicht mit meiner eigenen Hand, aber mit meinem eigenen Geld.\n\nIch habe das Glas eingeschlagen, damit Sie kommen. Ich habe die Kamera abgeschaltet, damit niemand beschuldigt wird; damit Sie im letzten Bild mein Gesicht sehen. Den Code der Pumpe habe ich mir von Leon geholt; der Junge hat keinerlei Schuld.\n\nDas Buch führt durch London, Berlin, Rostock. Seine letzte Seite endet in Tokio. Dorthin zu gehen, bin ich zu alt.\n\nK. A.“"
+  },
+  {
+   "key": "case024.letter.title",
+   "value": "DER BRIEF VON KONRAD ARENDT"
+  },
+  {
+   "key": "case024.marta.body",
+   "value": "Haushälterin."
+  },
+  {
+   "key": "case024.marta.deflect",
+   "value": "In die Angelegenheiten des Herrn habe ich mich nicht eingemischt."
+  },
+  {
+   "key": "case024.marta.night.answer",
+   "value": "Der Herr hat mich um 21.30 ins Bett geschickt. ‚Ruh dich heute Nacht aus, Marta, morgen wird ein langer Tag‘, sagte er. In dreißig Jahren hat er das nicht ein einziges Mal gesagt. Dann habe ich geschlafen, ich habe nichts gehört."
+  },
+  {
+   "key": "case024.marta.night.answer.demeanor",
+   "value": "Knetet ihr Taschentuch."
+  },
+  {
+   "key": "case024.marta.night.question",
+   "value": "Was ist gestern Nacht passiert?"
+  },
+  {
+   "key": "case024.marta.quote",
+   "value": "„Morgen wird ein langer Tag.“"
+  },
+  {
+   "key": "case024.marta.title",
+   "value": "Marta Nowak — Befragung"
+  },
+  {
+   "key": "case024.marta.visit.answer",
+   "value": "Herr Philipp kam zum Abendessen, sie schrien sich an, um 21.00 ging er. Frau Sabine am Nachmittag. Der Pfleger Leon kommt jeden Abend um 20.00, kontrolliert die Pumpe, geht."
+  },
+  {
+   "key": "case024.marta.visit.question",
+   "value": "Wer kam an dem Abend ins Haus?"
+  },
+  {
+   "key": "case024.method.injected",
+   "value": "Jemand spritzte ihm von außen Morphin"
+  },
+  {
+   "key": "case024.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case024.method.natural",
+   "value": "Natürlicher Tod durch die Krankheit"
+  },
+  {
+   "key": "case024.method.pump",
+   "value": "Hob die Sperre der Pumpe auf und verabreichte sich selbst Morphin"
+  },
+  {
+   "key": "case024.method.struck",
+   "value": "Wurde in einem Handgemenge auf den Kopf geschlagen"
+  },
+  {
+   "key": "case024.notary.body",
+   "value": "Ein fiktives Notariat in Charlottenburg. Der Umschlag wurde am 2. Dezember 2029 um 18.10 von Konrad Arendt persönlich hinterlegt; die Notariatsangestellte rief am Morgen des 3. Dezember einen Kurier.\n\nAnweisung: „Wird mein Tod für verdächtig befunden, an bube Berlin — Kreuzberg. Gilt er als natürlich, ist er zu vernichten.“\n\nAm selben Tag unterzeichnete Testamentsänderung: Der Anteil von Philipp Arendt geht an die Stiftung; die Firma wird aufgelöst.\n\nIm Umschlag: das Buch aus vierzig Jahren und ein Brief."
+  },
+  {
+   "key": "case024.notary.title",
+   "value": "NOTARPROTOKOLL UND VERSIEGELTER UMSCHLAG"
+  },
+  {
+   "key": "case024.offer.subtitle",
+   "value": "DAS BUCH  /  VERDACHT AUF MORD"
+  },
+  {
+   "key": "case024.offer.summary",
+   "value": "Der Gründer der Arendt Handelsgesellschaft wird tot in seiner Villa im Grunewald gefunden: zerbrochenes Fenster, leerer Tresor, abgeschaltete Kamera. Die Akte kommt mit dem versiegelten Umschlag eines Notars in die Dienststelle — adressiert nur an bube Berlin."
+  },
+  {
+   "key": "case024.offer.title",
+   "value": "AKTE #024"
+  },
+  {
+   "key": "case024.panel.body",
+   "value": "· 21.31 · Zimmer von Marta Nowak: Licht aus.\n· 21.52 · Alarm Gartenfenster: Bruch.\n· 21.55 · Gartenkamera abgeschaltet; verwendete PIN: Konrad Arendt.\n· 21.58 · Tresor geöffnet; die verwendete Kombination besitzt nur Konrad Arendt.\n· 22.40 · Haustürschloss im Nachtmodus; keine Öffnung."
+  },
+  {
+   "key": "case024.panel.title",
+   "value": "PROTOKOLL DES HAUSSTEUERUNGSPANELS"
+  },
+  {
+   "key": "case024.person.leon.info",
+   "value": "35 Jahre, häuslicher Pfleger; betreut Konrad Arendt seit drei Monaten."
+  },
+  {
+   "key": "case024.person.leon.name",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.person.marta.info",
+   "value": "61 Jahre, Haushälterin der Villa; seit dreißig Jahren bei Konrad."
+  },
+  {
+   "key": "case024.person.marta.name",
+   "value": "Marta Nowak"
+  },
+  {
+   "key": "case024.person.philipp.info",
+   "value": "43 Jahre, Sohn von Konrad Arendt; stellvertretender Vorstandsvorsitzender der Arendt Handelsgesellschaft."
+  },
+  {
+   "key": "case024.person.philipp.name",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.person.sabine.info",
+   "value": "56 Jahre, Finanzdirektorin der Firma; seit fünfundzwanzig Jahren an der Seite von Konrad."
+  },
+  {
+   "key": "case024.person.sabine.name",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.philipp.body",
+   "value": "Der Sohn."
+  },
+  {
+   "key": "case024.philipp.deflect",
+   "value": "Unsere Anwälte werden mit Ihnen sprechen."
+  },
+  {
+   "key": "case024.philipp.dinner.answer",
+   "value": "Er sagte, er würde mir die Firma nicht hinterlassen. ‚Ich hinterlasse die Firma niemandem, ich löse sie auf‘, sagte er. Die Krankheit hatte ihm den Verstand genommen. Um neun bin ich gegangen, ich war in einer Bar in Mitte, bis Mitternacht."
+  },
+  {
+   "key": "case024.philipp.dinner.answer.demeanor",
+   "value": "Hält seine Wut nur mühsam zurück."
+  },
+  {
+   "key": "case024.philipp.dinner.question",
+   "value": "Warum haben Sie mit Ihrem Vater gestritten?"
+  },
+  {
+   "key": "case024.philipp.safe.answer",
+   "value": "Das Buch meines Vaters. Vierzig Jahre. Jede Zahlung, jeder ‚Berater‘. Wer es genommen hat, braucht dieses Buch. Ich nicht, ich habe ohnehin eine Kopie … hatte."
+  },
+  {
+   "key": "case024.philipp.safe.question",
+   "value": "Was war im Tresor?"
+  },
+  {
+   "key": "case024.philipp.title",
+   "value": "Philipp Arendt — Befragung"
+  },
+  {
+   "key": "case024.philipp_2.body",
+   "value": "Zur Testamentsänderung."
+  },
+  {
+   "key": "case024.philipp_2.title",
+   "value": "Philipp Arendt — zweite Befragung"
+  },
+  {
+   "key": "case024.philipp_2.will.answer",
+   "value": "Ich wusste es. Er hat es beim Essen gesagt. Deshalb habe ich geschrien. Aber töten? Er lag ohnehin im Sterben. Ich hätte ein paar Wochen gewartet, die Anwälte hätten es geregelt. Nicht zu warten … so etwas tut nur er."
+  },
+  {
+   "key": "case024.philipp_2.will.answer.demeanor",
+   "value": "Zum ersten Mal brach seine Stimme."
+  },
+  {
+   "key": "case024.philipp_2.will.question",
+   "value": "Ihr Vater hat Sie an diesem Tag enterbt."
+  },
+  {
+   "key": "case024.pump.body",
+   "value": "Patient: Konrad Arendt. Pfleger: Leon Fischer (letzte Kontrolle 2. Dezember 20.04).\n\n· 22.12 · Servicemenü geöffnet; Sperre deaktiviert. Code: der Servicecode, den Leon Fischer dem Patienten im November gezeigt hat.\n· 22.14–22.31 · 14 Zusatzdosen über die Patiententaste.\n· 22.33 · Servicemenü geschlossen; Sperre wieder aktiviert.\n· Die Pumpe protokolliert mit ihrer eigenen Uhr; kein Fernzugriff."
+  },
+  {
+   "key": "case024.pump.title",
+   "value": "PROTOKOLL DER MORPHINPUMPE"
+  },
+  {
+   "key": "case024.recon.r_camera",
+   "value": "Er zeigt der Kamera sein Gesicht und schaltet sie mit seiner eigenen PIN ab."
+  },
+  {
+   "key": "case024.recon.r_clara",
+   "value": "Konrad liest vom Tod von Clara Weiß, sagt ‚mein Geld hat eine Frau getötet‘ und verlangt den Luxemburger Auszug."
+  },
+  {
+   "key": "case024.recon.r_code",
+   "value": "Konrad erfährt den Servicecode der Pumpe in einer Schmerznacht von Leon."
+  },
+  {
+   "key": "case024.recon.r_dose",
+   "value": "Er hebt die Sperre der Pumpe auf und gibt sich die vierzehn Zusatzdosen selbst; beim Sturz schlägt er sich die Stirn an."
+  },
+  {
+   "key": "case024.recon.r_marta",
+   "value": "Er schickt Marta früh ins Bett, streitet beim Essen mit Philipp; Philipp geht um 21.00."
+  },
+  {
+   "key": "case024.recon.r_notary",
+   "value": "Am 2. Dezember hinterlegt er das Buch, den Brief und die Testamentsänderung beim Notar; Anweisung: bei verdächtigem Tod an bube Berlin."
+  },
+  {
+   "key": "case024.recon.r_window",
+   "value": "Er schlägt das Fenster von innen mit dem Schürhaken ein, öffnet und leert den Tresor, verstreut die Akten."
+  },
+  {
+   "key": "case024.report.body",
+   "value": "Am 3. Dezember 2029 um 07.10 wurde im Arbeitszimmer seiner Villa im Grunewald der Gründer der Arendt Handelsgesellschaft, Konrad Arendt (71), tot aufgefunden. Die Haushälterin Marta Nowak fand ihn.\n\nDas Zimmer in Unordnung: ein umgestürzter Stuhl, ein zerbrochenes Gartenfenster, eine Schürfwunde an seiner Stirn, verstreute Akten am Boden. Der Tresor offen und leer. Die Gartenkamera wurde nachts um 21.55 abgeschaltet.\n\nVermerk: Die Akte kam nicht über den üblichen Weg zu bube Berlin, sondern mit einem versiegelten Umschlag, den ein Notar an die Dienststelle schickte. Auf dem Umschlag: „Wird der Tod von Konrad Arendt für verdächtig befunden, ausschließlich der Dienststelle bube Berlin — Kreuzberg auszuhändigen.“"
+  },
+  {
+   "key": "case024.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case024.request.notary",
+   "value": "Umschlag und Protokoll beim Notariat anfordern"
+  },
+  {
+   "key": "case024.request.panel",
+   "value": "Protokoll des Haussteuerungspanels anfordern"
+  },
+  {
+   "key": "case024.request.pump",
+   "value": "Protokoll der Morphinpumpe anfordern"
+  },
+  {
+   "key": "case024.request.tox",
+   "value": "Toxikologie und Portvergleich anfordern"
+  },
+  {
+   "key": "case024.sabine.body",
+   "value": "Finanzdirektorin."
+  },
+  {
+   "key": "case024.sabine.deflect",
+   "value": "Firmeninformationen sind vertraulich."
+  },
+  {
+   "key": "case024.sabine.fear.answer",
+   "value": "In Berlin ist eine Analystin gestorben, im November. Als Konrad die Nachricht las, sprach er eine Stunde lang nicht. Dann sagte er zu mir: ‚Mein Geld hat eine Frau getötet.‘"
+  },
+  {
+   "key": "case024.sabine.fear.question",
+   "value": "Gab es in den letzten Wochen etwas Ungewöhnliches?"
+  },
+  {
+   "key": "case024.sabine.title",
+   "value": "Sabine Roth — Befragung"
+  },
+  {
+   "key": "case024.sabine.visit.answer",
+   "value": "Konrad hat mich gerufen. Er wollte die Auszüge der Luxemburger Konten, alles, seit 2018. ‚Ich will ein letztes Mal aufräumen‘, sagte er. Ich habe sie ihm gegeben."
+  },
+  {
+   "key": "case024.sabine.visit.answer.demeanor",
+   "value": "Sitzt aufrecht, die Stimme flach."
+  },
+  {
+   "key": "case024.sabine.visit.question",
+   "value": "Warum sind Sie am Nachmittag gekommen?"
+  },
+  {
+   "key": "case024.scene.body",
+   "value": "· Die Scherben des Gartenfensters liegen draußen im Gras; das Fenster wurde von innen eingeschlagen. Am eisernen Schürhaken des Kamins Glassplitter.\n· Der Tresor wurde mit der Kombination geöffnet; keine Gewalt.\n· Die verstreuten Akten sind Jahresberichte der Firma 2027–2029; keiner fehlt.\n· Die Gartenkamera wurde über das Steuerungspanel im Haus abgeschaltet."
+  },
+  {
+   "key": "case024.scene.title",
+   "value": "TATORTUNTERSUCHUNG"
+  },
+  {
+   "key": "case024.summary.evidence",
+   "value": "Die Tatortuntersuchung zeigte, dass das Glas von innen eingeschlagen und der Tresor nicht aufgebrochen wurde. Das Hauspanel zeigte für Kamera und Tresor die eigene PIN von Konrad, die letzten Bilder der Gartenkamera zeigten ihn allein. Pumpenprotokoll und Toxikologie bewiesen, dass das Morphin nur über seine Taste kam; Notarprotokoll und Brief erklärten den Grund."
+  },
+  {
+   "key": "case024.summary.lesson",
+   "value": "Eine Inszenierung ist nicht immer die eines Täters; manchmal inszeniert der Tote seinen eigenen Tod als Botschaft. Frag, wer sie gebaut hat und wen er damit erreichen wollte."
+  },
+  {
+   "key": "case024.summary.location",
+   "value": "Grunewald, Villa Arendt — Dezember 2029"
+  },
+  {
+   "key": "case024.summary.truth",
+   "value": "Der todkranke Konrad Arendt beschloss, sein Buch aus vierzig Jahren auszuliefern, als er erfuhr, dass sein Geld im November eine Analystin von bube das Leben gekostet hatte; er wusste aber, dass bei einem natürlichen Tod niemand in seinen Tresor schauen und sein Sohn das Buch verbrennen würde. Am 2. Dezember hinterlegte er das Buch beim Notar und schrieb eine Anweisung: bei verdächtigem Tod an bube Berlin. In der Nacht schlug er das Fenster von innen ein, leerte den Tresor, zeigte der Kamera sein Gesicht und schaltete sie ab, hob die Sperre der Pumpe mit dem Code auf, den er von seinem Pfleger kannte, und gab sich vierzehn Zusatzdosen."
+  },
+  {
+   "key": "case024.suspect.label",
+   "value": "Wer ist für den Tod von Konrad Arendt verantwortlich?"
+  },
+  {
+   "key": "case024.tablet.caseLine",
+   "value": "AKTE #024  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case024.time.alone",
+   "value": "21.48"
+  },
+  {
+   "key": "case024.time.cam",
+   "value": "21.55"
+  },
+  {
+   "key": "case024.time.dose",
+   "value": "22.12–22.33"
+  },
+  {
+   "key": "case024.time.look",
+   "value": "21.54"
+  },
+  {
+   "key": "case024.time.notary",
+   "value": "2. Dezember 18.10"
+  },
+  {
+   "key": "case024.time.show",
+   "value": "Kasım 2029"
+  },
+  {
+   "key": "case024.time.smash",
+   "value": "21.52"
+  },
+  {
+   "key": "case024.title",
+   "value": "Akte #024 — Das Buch"
+  },
+  {
+   "key": "case024.tox.body",
+   "value": "Das gesamte Morphin wurde über die Pumpenleitung, durch den Portkatheter, verabreicht; der Schwund im Reservoir und der Blutspiegel passen zusammen. Keine Injektion von außen. Auf der Patiententaste nur die Fingerabdrücke von Konrad Arendt."
+  },
+  {
+   "key": "case024.tox.title",
+   "value": "TOXIKOLOGIE UND PORTVERGLEICH"
+  },
+  {
+   "key": "case024.verdict.konrad",
+   "value": "Konrad Arendt — er inszenierte seinen eigenen Tod als Mord"
+  },
+  {
+   "key": "case024.verdict.leon",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.verdict.philipp",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.verdict.sabine",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.item.ledger.name",
+   "value": "Das Buch"
+  },
+  {
+   "key": "case024.item.ledger.detail",
+   "value": "Altes, dickes, in Leder gebundenes Buch."
+  },
+  {
+   "key": "case024.item.pump.name",
+   "value": "Infusionspumpe"
+  },
+  {
+   "key": "case024.item.pump.detail",
+   "value": "Medikamentenpumpe mit Handtaste."
+  },
+  {
+   "key": "case024.item.poker.name",
+   "value": "Schürhaken"
+  },
+  {
+   "key": "case024.item.poker.detail",
+   "value": "Kaminschürhaken mit Glassplittern an der Spitze."
+  },
+  {
+   "key": "case024.item.envelope.name",
+   "value": "Versiegelter Umschlag"
+  },
+  {
+   "key": "case024.item.envelope.detail",
+   "value": "Cremefarbener Umschlag, mit rotem Wachs versiegelt."
+  }
+ ]
+}
