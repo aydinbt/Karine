@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case043.ampservice.body",
+   "value": "Cedric Banks’s amp was serviced at a workshop on 2 August; earth line intact, plug three-pin and complete. Banks has no criminal record."
+  },
+  {
+   "key": "case043.ampservice.title",
+   "value": "AMP SERVICE RECORD"
+  },
+  {
+   "key": "case043.autopsy.body",
+   "value": "· Electrocution; entry burn on the right palm, exit burn on the sole of the left foot.\n· Cardiac arrhythmia; instant death.\n· The current passed through the stand’s grip. Time of death 18.04."
+  },
+  {
+   "key": "case043.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case043.banks.amp.answer",
+   "value": "Forty-year-old amp. I left it at noon; when I came in at 17.45 it was already set up on stage. I didn’t set it up; Reggie said ‘I’ve sorted it.’ Mavis was a second mother to me."
+  },
+  {
+   "key": "case043.banks.amp.answer.demeanor",
+   "value": "He takes the pick from behind his ear and turns it in his fingers."
+  },
+  {
+   "key": "case043.banks.amp.question",
+   "value": "Was the amp yours?"
+  },
+  {
+   "key": "case043.banks.body",
+   "value": "Guitarist."
+  },
+  {
+   "key": "case043.banks.deflect",
+   "value": "I play; I don’t know the rest."
+  },
+  {
+   "key": "case043.banks.title",
+   "value": "Cedric Banks — interview"
+  },
+  {
+   "key": "case043.cctv.event.empty",
+   "value": "Camera: The corridor is empty; the panel is closed."
+  },
+  {
+   "key": "case043.cctv.event.off",
+   "value": "Camera: The same man comes back, opens the panel again, turns the switch back and walks off quickly."
+  },
+  {
+   "key": "case043.cctv.event.on",
+   "value": "Camera: A man in a dark jacket opens the fuse panel and turns a switch."
+  },
+  {
+   "key": "case043.cctv.overlay",
+   "value": "BACK-1"
+  },
+  {
+   "key": "case043.cctv.period",
+   "value": "23 August 2030"
+  },
+  {
+   "key": "case043.cctv.source",
+   "value": "Back corridor camera"
+  },
+  {
+   "key": "case043.clue.death",
+   "value": "Mavis takes hold of the microphone stand."
+  },
+  {
+   "key": "case043.clue.off",
+   "value": "The same man turns the switch back and walks off."
+  },
+  {
+   "key": "case043.clue.on",
+   "value": "The man in the dark jacket turns a switch at the panel."
+  },
+  {
+   "key": "case043.clue.rom",
+   "value": "The building owner collects the rent and leaves."
+  },
+  {
+   "key": "case043.clue.source.autopsy",
+   "value": "Autopsy"
+  },
+  {
+   "key": "case043.clue.source.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.custody.label",
+   "value": "How was the stand made live?"
+  },
+  {
+   "key": "case043.custody.old",
+   "value": "The amp was rotten inside"
+  },
+  {
+   "key": "case043.custody.rain",
+   "value": "Water had leaked onto the stage"
+  },
+  {
+   "key": "case043.custody.rigged",
+   "value": "The earth was cut, a jumper wire attached, the protection switched off"
+  },
+  {
+   "key": "case043.elec.body",
+   "value": "· The wiring was renewed last month; sound.\n· The earth pin on the amp’s plug has been freshly cut; inside the amp, a red jumper wire connecting the chassis to the microphone stand. Reggie Holloway’s fingerprints on the wire’s clips.\n· The stage circuit’s residual current protection was switched off by hand at the panel at 17.58 and back on at 18.06. Only the manager has the panel key."
+  },
+  {
+   "key": "case043.elec.title",
+   "value": "ELECTRICAL EXAMINATION — STAGE AND PANEL"
+  },
+  {
+   "key": "case043.epilogue.custody.old",
+   "value": "The amp had been serviced three weeks earlier."
+  },
+  {
+   "key": "case043.epilogue.custody.rain",
+   "value": "The stage was dry."
+  },
+  {
+   "key": "case043.epilogue.custody.rigged",
+   "value": "It was recorded that the stand was made live with a jumper wire and the protection circuit was switched off by hand."
+  },
+  {
+   "key": "case043.epilogue.verdict.accident",
+   "value": "The death was deemed an accident; the building owner was fined."
+  },
+  {
+   "key": "case043.epilogue.verdict.banks",
+   "value": "Cedric Banks was arrested; the club closed and the ledger was burned."
+  },
+  {
+   "key": "case043.epilogue.verdict.reggie",
+   "value": "Reggie Holloway was arrested. The club’s cash ledger, with the Lakeshore drivers’ names, went into the bube Chicago file."
+  },
+  {
+   "key": "case043.epilogue.verdict.romano",
+   "value": "Vic Romano was taken into custody and walked out with his lawyer; the file was closed as an accident."
+  },
+  {
+   "key": "case043.evidence.ampservice",
+   "value": "Amp service record"
+  },
+  {
+   "key": "case043.evidence.elec",
+   "value": "Electrical examination"
+  },
+  {
+   "key": "case043.evidence.ledger",
+   "value": "Till and bank records"
+  },
+  {
+   "key": "case043.evidence.panel",
+   "value": "Back corridor camera"
+  },
+  {
+   "key": "case043.feedback.accident",
+   "value": "The wiring was new; the earth pin had been cut and the protection circuit switched off by hand."
+  },
+  {
+   "key": "case043.feedback.banks",
+   "value": "The amp was his, but it had been properly serviced and he didn’t set it up on stage."
+  },
+  {
+   "key": "case043.feedback.reggie",
+   "value": "His prints are on the jumper wire; the protection circuit was switched off at a panel only he has a key to, six minutes before the death, and back on two minutes after. Mavis had found the Lakeshore cash and asked him about it."
+  },
+  {
+   "key": "case043.feedback.romano",
+   "value": "The building owner left fourteen minutes before the death; he doesn’t have the panel key."
+  },
+  {
+   "key": "case043.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case043.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Branch"
+  },
+  {
+   "key": "case043.file.value.location",
+   "value": "South Side, Chicago — music club"
+  },
+  {
+   "key": "case043.file.value.number",
+   "value": "BDC-CHI-2030-0266"
+  },
+  {
+   "key": "case043.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case043.file.value.reporter",
+   "value": "Ambulance crew"
+  },
+  {
+   "key": "case043.ledger.body",
+   "value": "· $1.8 million in cash over the last twelve months; four times ticket and bar sales.\n· The cash was brought twice a week by Lakeshore Freight drivers; signed for by: Reggie Holloway.\n· Mavis Holloway’s handwritten note, dated 22 August: ‘Asked Reggie. He lied. bube in the morning.’"
+  },
+  {
+   "key": "case043.ledger.title",
+   "value": "TILL AND BANK RECORDS"
+  },
+  {
+   "key": "case043.line_cash.body",
+   "value": "A line has been opened for the club’s bank and till records."
+  },
+  {
+   "key": "case043.line_cash.title",
+   "value": "LINE B — THE CLUB’S TILL"
+  },
+  {
+   "key": "case043.line_elec.body",
+   "value": "A line has been opened for the electrical examination of the stage and the fuse panel."
+  },
+  {
+   "key": "case043.line_elec.title",
+   "value": "LINE A — ELECTRICAL EXAMINATION"
+  },
+  {
+   "key": "case043.line_union.body",
+   "value": "A line has been opened for Cedric Banks’s record and his amp’s service history."
+  },
+  {
+   "key": "case043.line_union.title",
+   "value": "LINE C — THE GUITARIST’S BACKGROUND"
+  },
+  {
+   "key": "case043.method.heart",
+   "value": "A heart attack"
+  },
+  {
+   "key": "case043.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case043.method.shock",
+   "value": "A jumper wire was attached to the amp and the stand made live"
+  },
+  {
+   "key": "case043.method.wiring",
+   "value": "Current leaking from old wiring"
+  },
+  {
+   "key": "case043.monroe.body",
+   "value": "Singer."
+  },
+  {
+   "key": "case043.monroe.deflect",
+   "value": "This is my first time here."
+  },
+  {
+   "key": "case043.monroe.stage.answer",
+   "value": "Ms Mavis said, ‘Let me check the mic, the sound’s crackling,’ and took hold of the stand. A noise, a smell… The light on Mr Cedric’s amp went off for a second and came back. Someone shouted ‘the fuses’, but no fuse had blown."
+  },
+  {
+   "key": "case043.monroe.stage.answer.demeanor",
+   "value": "She gathers her braids over her shoulder."
+  },
+  {
+   "key": "case043.monroe.stage.question",
+   "value": "What did you see on stage?"
+  },
+  {
+   "key": "case043.monroe.title",
+   "value": "Tasha Monroe — interview"
+  },
+  {
+   "key": "case043.offer.subtitle",
+   "value": "BLUES  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case043.offer.summary",
+   "value": "In the South Side, the owner of a forty-year-old blues club died during a sound check after taking hold of the microphone stand."
+  },
+  {
+   "key": "case043.offer.title",
+   "value": "FILE #043"
+  },
+  {
+   "key": "case043.panel.body",
+   "value": "In front of the fuse panel. 23 August 17.30 – 18.30."
+  },
+  {
+   "key": "case043.panel.title",
+   "value": "BACK CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case043.person.banks.info",
+   "value": "61, the club’s veteran guitarist."
+  },
+  {
+   "key": "case043.person.banks.name",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.person.monroe.info",
+   "value": "29, that night’s singer."
+  },
+  {
+   "key": "case043.person.monroe.name",
+   "value": "Tasha Monroe"
+  },
+  {
+   "key": "case043.person.pope.info",
+   "value": "66, the club’s bartender; the victim’s friend of forty years."
+  },
+  {
+   "key": "case043.person.pope.name",
+   "value": "Earline Pope"
+  },
+  {
+   "key": "case043.person.reggie.info",
+   "value": "44, the victim’s nephew; the club’s manager."
+  },
+  {
+   "key": "case043.person.reggie.name",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.person.romano.info",
+   "value": "57, owner of the building; a former Lakeshore partner."
+  },
+  {
+   "key": "case043.person.romano.name",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.pope.body",
+   "value": "Bartender."
+  },
+  {
+   "key": "case043.pope.deflect",
+   "value": "Forty years behind the bar; I don’t gossip."
+  },
+  {
+   "key": "case043.pope.last.answer",
+   "value": "At noon she sat at the bar and put the books in front of her. ‘Earline, the money going through this club isn’t ours,’ she said. ‘I’m going to bube in the morning. I told Reggie too; he went white as a sheet.’ There’s a camera in the back corridor, Mavis had it put in; look at that."
+  },
+  {
+   "key": "case043.pope.last.answer.demeanor",
+   "value": "She lowers her glasses from her nose and wipes the counter."
+  },
+  {
+   "key": "case043.pope.last.question",
+   "value": "What did Mavis say today?"
+  },
+  {
+   "key": "case043.pope.title",
+   "value": "Earline Pope — interview"
+  },
+  {
+   "key": "case043.reggie.body",
+   "value": "Club manager."
+  },
+  {
+   "key": "case043.reggie.deflect",
+   "value": "The club’s books are my business, not my aunt’s."
+  },
+  {
+   "key": "case043.reggie.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case043.reggie.end.presented.elec",
+   "value": "She knew. She was going in the morning; Lakeshore’s men would have killed me, then her. I cut the amp’s earth and wired it to the stand. At the panel I switched the protection off, then on. So it’d look like an accident. They said it takes one second."
+  },
+  {
+   "key": "case043.reggie.end.presented.ledger",
+   "value": "I took money so the club could survive, yes. My aunt didn’t know."
+  },
+  {
+   "key": "case043.reggie.end.question",
+   "value": "You cut the amp’s earth."
+  },
+  {
+   "key": "case043.reggie.night.answer",
+   "value": "In the office, on the phone. I heard the shouting and ran. This building’s a hundred years old, the wiring’s rotten, and Cedric’s amp is an antique. I said so how many times."
+  },
+  {
+   "key": "case043.reggie.night.answer.demeanor",
+   "value": "He tugs at his gold chain with a finger."
+  },
+  {
+   "key": "case043.reggie.night.question",
+   "value": "Where were you during the sound check?"
+  },
+  {
+   "key": "case043.reggie.night.variant0",
+   "value": "The panel? The sound was crackling on stage; I checked the circuit. Is that a crime too?"
+  },
+  {
+   "key": "case043.reggie.title",
+   "value": "Reggie Holloway — interview"
+  },
+  {
+   "key": "case043.report.body",
+   "value": "On the evening of 23 August 2030, at a blues club in the South Side, during a sound check, the club’s owner Mavis Holloway (68) collapsed on stage on touching the microphone stand; she died in the ambulance.\n\nPresent in the club: manager Reggie Holloway, guitarist Cedric Banks, singer Tasha Monroe, bartender Earline Pope. The building owner Vic Romano had left the club ten minutes before the incident."
+  },
+  {
+   "key": "case043.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case043.request.ampservice",
+   "value": "Request the amp service record"
+  },
+  {
+   "key": "case043.request.elec",
+   "value": "Request the stage and panel examination"
+  },
+  {
+   "key": "case043.request.ledger",
+   "value": "Request the till and bank records"
+  },
+  {
+   "key": "case043.request.line_cash",
+   "value": "Open the club’s till line"
+  },
+  {
+   "key": "case043.request.line_elec",
+   "value": "Open the electrical examination line"
+  },
+  {
+   "key": "case043.request.line_union",
+   "value": "Open the guitarist’s background line"
+  },
+  {
+   "key": "case043.romano.body",
+   "value": "Building owner."
+  },
+  {
+   "key": "case043.romano.deflect",
+   "value": "The lease is with my lawyer."
+  },
+  {
+   "key": "case043.romano.title",
+   "value": "Vic Romano — interview"
+  },
+  {
+   "key": "case043.romano.visit.answer",
+   "value": "Rent. Mavis pays the rent by hand every month. This month she said, ‘This is the last, Vic, I don’t want this building or this money.’ I left at 17.50. Lakeshore? We were partners years ago; I got out long since."
+  },
+  {
+   "key": "case043.romano.visit.answer.demeanor",
+   "value": "He turns the ring on his little finger."
+  },
+  {
+   "key": "case043.romano.visit.question",
+   "value": "Why were you at the club today?"
+  },
+  {
+   "key": "case043.summary.evidence",
+   "value": "The bartender gave Mavis’s last words and the corridor camera, the singer what happened on stage. The electrical line showed the prints on the jumper wire and the panel, the till line the Lakeshore cash. The guitarist’s line only cleared the amp."
+  },
+  {
+   "key": "case043.summary.lesson",
+   "value": "An old building can be the excuse for anything. First look at what was renewed most recently."
+  },
+  {
+   "key": "case043.summary.location",
+   "value": "South Side — August 2030"
+  },
+  {
+   "key": "case043.summary.truth",
+   "value": "Club manager Reggie Holloway was running Lakeshore Freight’s cash through his aunt’s club. When Mavis Holloway found the money and said she would go to bube in the morning, Reggie cut the earth on the guitarist’s amp, made the microphone stand live with a jumper wire, and switched off the protection circuit at the panel before the sound check."
+  },
+  {
+   "key": "case043.suspect.label",
+   "value": "Who killed Mavis Holloway?"
+  },
+  {
+   "key": "case043.tablet.caseLine",
+   "value": "FILE #043  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case043.time.death",
+   "value": "18.04"
+  },
+  {
+   "key": "case043.time.empty",
+   "value": "17.59–18.05"
+  },
+  {
+   "key": "case043.time.off",
+   "value": "18.06"
+  },
+  {
+   "key": "case043.time.on",
+   "value": "17.58"
+  },
+  {
+   "key": "case043.time.rom",
+   "value": "17.50"
+  },
+  {
+   "key": "case043.title",
+   "value": "File #043 — Blues"
+  },
+  {
+   "key": "case043.verdict.accident",
+   "value": "No one — old wiring"
+  },
+  {
+   "key": "case043.verdict.banks",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.verdict.reggie",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.verdict.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.item.jumper.name",
+   "value": "Jumper wire"
+  },
+  {
+   "key": "case043.item.jumper.detail",
+   "value": "A thin wire inside the amp, connecting the earth terminal to the body of the microphone stand."
+  },
+  {
+   "key": "case043.item.stand.name",
+   "value": "Microphone stand"
+  },
+  {
+   "key": "case043.item.stand.detail",
+   "value": "The chrome stand on stage; a burn mark on its grip."
+  },
+  {
+   "key": "case043.item.cash.name",
+   "value": "Cash envelopes"
+  },
+  {
+   "key": "case043.item.cash.detail",
+   "value": "Brown envelopes in the office safe, holding taped bundles of twenties."
+  }
+ ]
+}

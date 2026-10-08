@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case042.autopsy.body",
+   "value": "· Carboxyhaemoglobin in the blood 62%: carbon monoxide poisoning.\n· Lividity a bright cherry red.\n· In a sleeping position; no signs of a struggle. Time of death: 01.30–03.00.\n· Cab ventilation set to recirculate, not to outside air."
+  },
+  {
+   "key": "case042.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case042.cctv.event.climb",
+   "value": "Camera: A man in a cap climbs up behind the cab of the truck at the far end and reaches for the exhaust stack."
+  },
+  {
+   "key": "case042.cctv.event.load",
+   "value": "Camera: A second truck backs up to the open trailer of the truck at the far end; two people move crates in the rain."
+  },
+  {
+   "key": "case042.cctv.event.pull",
+   "value": "Camera: The same man climbs the cab again and pulls something out of the exhaust stack."
+  },
+  {
+   "key": "case042.cctv.overlay",
+   "value": "LOT-N"
+  },
+  {
+   "key": "case042.cctv.period",
+   "value": "13–14 August 2030"
+  },
+  {
+   "key": "case042.cctv.source",
+   "value": "Car park camera"
+  },
+  {
+   "key": "case042.clue.climb",
+   "value": "The man in the cap reaches for the exhaust of the truck at the far end."
+  },
+  {
+   "key": "case042.clue.found",
+   "value": "The cashier finds the body."
+  },
+  {
+   "key": "case042.clue.load",
+   "value": "A second truck backs up to the trailer; crates are moved across."
+  },
+  {
+   "key": "case042.clue.pull",
+   "value": "The same man pulls something out of the exhaust."
+  },
+  {
+   "key": "case042.clue.radio",
+   "value": "The victim radios that he has stopped because of the storm."
+  },
+  {
+   "key": "case042.clue.source.hollis",
+   "value": "Dispatcher"
+  },
+  {
+   "key": "case042.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case042.custody.label",
+   "value": "How did the gas fill the cab?"
+  },
+  {
+   "key": "case042.custody.leak",
+   "value": "The exhaust pipe had a hole"
+  },
+  {
+   "key": "case042.custody.plug",
+   "value": "The exhaust was stuffed with a rag, then the rag was pulled out"
+  },
+  {
+   "key": "case042.custody.storm",
+   "value": "Rain filled the exhaust in the storm"
+  },
+  {
+   "key": "case042.eld.body",
+   "value": "The victim’s truck:\n\n· 00.42 parked; engine idling, cab air conditioning on.\n· 01.05 sudden spike in exhaust back-pressure; engine still idling.\n· 03.21 trailer door sensor: opened.\n· 04.02 exhaust pressure returns to normal.\n· 05.10 fuel ran out, engine stopped."
+  },
+  {
+   "key": "case042.eld.title",
+   "value": "VICTIM’S TRUCK — ELECTRONIC LOGBOOK"
+  },
+  {
+   "key": "case042.epilogue.custody.leak",
+   "value": "There was no hole in the victim’s exhaust."
+  },
+  {
+   "key": "case042.epilogue.custody.plug",
+   "value": "It was recorded that the exhaust was stuffed with a rag for three hours and pulled clear before dawn."
+  },
+  {
+   "key": "case042.epilogue.custody.storm",
+   "value": "Rain doesn’t block an exhaust for three hours and then clear it all at once."
+  },
+  {
+   "key": "case042.epilogue.verdict.accident",
+   "value": "The death was deemed an accident; Lakeshore filed an insurance claim for the cargo."
+  },
+  {
+   "key": "case042.epilogue.verdict.hollis",
+   "value": "Bev Hollis was fired and charged; the crates sailed from Newark."
+  },
+  {
+   "key": "case042.epilogue.verdict.patel",
+   "value": "Sunny Patel was taken into custody; Tanner reached Newark."
+  },
+  {
+   "key": "case042.epilogue.verdict.tanner",
+   "value": "Wade Tanner was arrested; the crates were taken into the Pilsen branch’s store. The ‘H.’ number in the message traced to Lakeshore’s corporate line."
+  },
+  {
+   "key": "case042.evidence.eld",
+   "value": "The victim’s logbook"
+  },
+  {
+   "key": "case042.evidence.lot",
+   "value": "Car park camera"
+  },
+  {
+   "key": "case042.evidence.manifest",
+   "value": "Cargo manifest"
+  },
+  {
+   "key": "case042.evidence.ragcheck",
+   "value": "Wade Tanner’s truck — examination"
+  },
+  {
+   "key": "case042.feedback.accident",
+   "value": "The exhaust pressure rose for exactly three hours and dropped all at once; the camera shows someone pulling something out of the pipe."
+  },
+  {
+   "key": "case042.feedback.hollis",
+   "value": "The dispatcher was at her desk in Chicago that night; she didn’t change the route."
+  },
+  {
+   "key": "case042.feedback.patel",
+   "value": "The cashier found the body and handed over the camera; she never went to the north end."
+  },
+  {
+   "key": "case042.feedback.tanner",
+   "value": "His truck holds a sooty rag the width of an exhaust pipe and the fourteen missing crates; his logbook shows movement at the hour he says he ‘slept till morning’. His messages: ‘Load’s with me.’"
+  },
+  {
+   "key": "case042.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case042.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Branch"
+  },
+  {
+   "key": "case042.file.value.location",
+   "value": "I-80/90 rest stop, Indiana"
+  },
+  {
+   "key": "case042.file.value.number",
+   "value": "BDC-CHI-2030-0251"
+  },
+  {
+   "key": "case042.file.value.offence",
+   "value": "Suspicious death / loss of cargo"
+  },
+  {
+   "key": "case042.file.value.reporter",
+   "value": "Rest stop operator"
+  },
+  {
+   "key": "case042.hollis.body",
+   "value": "Night dispatcher."
+  },
+  {
+   "key": "case042.hollis.deflect",
+   "value": "Shipment information belongs to the company."
+  },
+  {
+   "key": "case042.hollis.radio.answer",
+   "value": "At 00.50, over the radio. He said he’d stopped because of the storm. Then Wade texted me, said ‘I’m here too, we’ll convoy in the morning.’ The load was going to Newark, then onto a ship. Head office rang three times about this load asking where it was — that never happens."
+  },
+  {
+   "key": "case042.hollis.radio.answer.demeanor",
+   "value": "She winds her headset cable round her finger."
+  },
+  {
+   "key": "case042.hollis.radio.question",
+   "value": "When did you last speak to Earl?"
+  },
+  {
+   "key": "case042.hollis.title",
+   "value": "Bev Hollis — interview"
+  },
+  {
+   "key": "case042.line_cargo.body",
+   "value": "A line has been opened for the trailer cargo’s manifest and customs records."
+  },
+  {
+   "key": "case042.line_cargo.title",
+   "value": "LINE C — CARGO AND CUSTOMS"
+  },
+  {
+   "key": "case042.line_phone.body",
+   "value": "A line has been opened for the drivers’ and the dispatcher’s phone records."
+  },
+  {
+   "key": "case042.line_phone.title",
+   "value": "LINE B — PHONE RECORDS"
+  },
+  {
+   "key": "case042.line_truck.body",
+   "value": "A line has been opened for the two trucks’ electronic logbooks and forensic examination."
+  },
+  {
+   "key": "case042.line_truck.title",
+   "value": "LINE A — TRUCKS AND FORENSICS"
+  },
+  {
+   "key": "case042.lot.body",
+   "value": "The north end of the car park. 13–14 August 23.00 – 06.30."
+  },
+  {
+   "key": "case042.lot.title",
+   "value": "REST STOP CAR PARK CAMERA — log transcript"
+  },
+  {
+   "key": "case042.manifest.body",
+   "value": "· Cargo: 14 crates out of Container 22, ‘machine parts’.\n· Destination: the port of Newark; transfer to a ship leaving for Napoli on 16 August.\n· Consignee in Napoli: a port shipping company; two letters in the approval box: ‘E. V.’"
+  },
+  {
+   "key": "case042.manifest.title",
+   "value": "CARGO MANIFEST"
+  },
+  {
+   "key": "case042.method.co",
+   "value": "The exhaust was blocked and the cab filled with carbon monoxide"
+  },
+  {
+   "key": "case042.method.cold",
+   "value": "He froze to death with the air conditioning on"
+  },
+  {
+   "key": "case042.method.heart",
+   "value": "A heart attack in his sleep"
+  },
+  {
+   "key": "case042.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case042.offer.subtitle",
+   "value": "THE STORM  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case042.offer.summary",
+   "value": "At a rest stop in Indiana, a Lakeshore driver is dead in his own cab; his trailer is empty."
+  },
+  {
+   "key": "case042.offer.title",
+   "value": "FILE #042"
+  },
+  {
+   "key": "case042.patel.body",
+   "value": "Night cashier."
+  },
+  {
+   "key": "case042.patel.deflect",
+   "value": "I’m on the till; the car park isn’t my job."
+  },
+  {
+   "key": "case042.patel.earl.answer",
+   "value": "He’d stop by twice a month. This time he was tense. ‘After this load I’m retiring, Sunny,’ he said. ‘Nothing good in this load.’"
+  },
+  {
+   "key": "case042.patel.earl.question",
+   "value": "Did you know Earl?"
+  },
+  {
+   "key": "case042.patel.night.answer",
+   "value": "Rain, lightning. At midnight two drivers bought coffee together; the one in the cap said, ‘Earl, tonight’s on me.’ Around 03.30 I saw headlights at the north end, a truck manoeuvring. The camera points there; I’ll give you the footage."
+  },
+  {
+   "key": "case042.patel.night.answer.demeanor",
+   "value": "She straightens her name badge with her fingers."
+  },
+  {
+   "key": "case042.patel.night.question",
+   "value": "What did you see in the night?"
+  },
+  {
+   "key": "case042.patel.title",
+   "value": "Sunny Patel — interview"
+  },
+  {
+   "key": "case042.person.hollis.info",
+   "value": "56, Lakeshore Freight’s night dispatcher."
+  },
+  {
+   "key": "case042.person.hollis.name",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.person.patel.info",
+   "value": "33, night cashier at the motorway rest stop."
+  },
+  {
+   "key": "case042.person.patel.name",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.person.tanner.info",
+   "value": "48, lorry driver; a Lakeshore subcontractor."
+  },
+  {
+   "key": "case042.person.tanner.name",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.ragcheck.body",
+   "value": "Examination of Wade Tanner’s truck found:\n\n· A red rag in the toolbox; one end rolled to the width of an exhaust pipe and stiffened with soot. Its fibres match those in the mouth of the victim’s exhaust.\n· Fourteen crates in the trailer; labelled ‘machine parts’, with Paris auction lot numbers underneath.\n· Tanner’s own logbook shows movement between 03.18 and 03.58; this conflicts with his statement that he ‘slept till morning’."
+  },
+  {
+   "key": "case042.ragcheck.title",
+   "value": "WADE TANNER’S TRUCK — EXAMINATION"
+  },
+  {
+   "key": "case042.report.body",
+   "value": "On the morning of 14 August 2030, at a rest stop on the I-80/90 in Indiana, lorry driver Earl Gaines (59), working for Lakeshore Freight, was found dead in the bunk of his own cab. The engine had stopped and the fuel tank was empty; the refrigerated trailer’s doors were open and the trailer was empty.\n\nThe rest stop cashier Sunny Patel found the body at 06.20. A subcontracted Lakeshore driver, Wade Tanner, had also parked at the rest stop that night. The victim’s last radio contact was with the night dispatcher Bev Hollis."
+  },
+  {
+   "key": "case042.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case042.request.eld",
+   "value": "Request the victim’s logbook"
+  },
+  {
+   "key": "case042.request.line_cargo",
+   "value": "Open the cargo and customs line"
+  },
+  {
+   "key": "case042.request.line_phone",
+   "value": "Open the phone records line"
+  },
+  {
+   "key": "case042.request.line_truck",
+   "value": "Open the trucks and forensics line"
+  },
+  {
+   "key": "case042.request.manifest",
+   "value": "Request the cargo manifest"
+  },
+  {
+   "key": "case042.request.ragcheck",
+   "value": "Have Wade Tanner’s truck examined"
+  },
+  {
+   "key": "case042.request.texts",
+   "value": "Request Wade Tanner’s messages"
+  },
+  {
+   "key": "case042.summary.evidence",
+   "value": "The autopsy showed carbon monoxide, the camera the man reaching for the exhaust. The truck line gave the exhaust pressure and the crates in Tanner’s trailer, the phone line the ‘Load’s with me’ message. The cargo line gave where the crates were bound: Napoli."
+  },
+  {
+   "key": "case042.summary.lesson",
+   "value": "A death that looks like it came in sleep says something else, if only through the colour of the blood."
+  },
+  {
+   "key": "case042.summary.location",
+   "value": "Indiana — August 2030"
+  },
+  {
+   "key": "case042.summary.truth",
+   "value": "Subcontracted driver Wade Tanner was offered ten thousand dollars to stop Earl Gaines, who was taking Container 22’s crates to Newark. On the night of the storm at the rest stop, while Earl slept in his air-conditioned cab, Tanner stuffed the exhaust with a rag, moved the crates into his own trailer and pulled the rag back out before dawn."
+  },
+  {
+   "key": "case042.suspect.label",
+   "value": "Who killed Earl Gaines?"
+  },
+  {
+   "key": "case042.tablet.caseLine",
+   "value": "FILE #042  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case042.tanner.body",
+   "value": "Subcontracted driver."
+  },
+  {
+   "key": "case042.tanner.deflect",
+   "value": "I don’t ask what my load is; I drive."
+  },
+  {
+   "key": "case042.tanner.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case042.tanner.end.presented.ragcheck",
+   "value": "Someone gave me ten thousand dollars for the crates, said ‘put Earl to sleep, take the load, you drive it to Newark.’ Earl wouldn’t give up the load. In a storm everyone sleeps with the air con on, engine running. I stuffed the rag in. I took the crates, pulled the rag back out. I thought it’d look like he froze."
+  },
+  {
+   "key": "case042.tanner.end.presented.texts",
+   "value": "Messages. A convoy plan."
+  },
+  {
+   "key": "case042.tanner.end.question",
+   "value": "You blocked the exhaust."
+  },
+  {
+   "key": "case042.tanner.night.answer",
+   "value": "Had coffee with Earl, went to my own cab, slept till morning. Who hits the road in a storm? Got up in the morning, went over to Earl’s, the police were already there."
+  },
+  {
+   "key": "case042.tanner.night.answer.demeanor",
+   "value": "He takes off his cap and pushes his hair back."
+  },
+  {
+   "key": "case042.tanner.night.question",
+   "value": "What did you do in the night?"
+  },
+  {
+   "key": "case042.tanner.night.variant0",
+   "value": "The camera? I got up once in the night; rain was getting into Earl’s exhaust, I had a look, that’s all."
+  },
+  {
+   "key": "case042.tanner.title",
+   "value": "Wade Tanner — interview"
+  },
+  {
+   "key": "case042.texts.body",
+   "value": "· 12 August, unknown number to Wade Tanner: ‘Gaines won’t let go. Ten grand. Ship at Newark on the 16th. — H.’\n· 13 August 23.58, Wade Tanner → Bev Hollis: ‘I’m here too, convoy in the morning.’\n· 14 August 04.10, Wade Tanner → unknown number: ‘Load’s with me.’\n\nRegistration of the unknown number: Lakeshore Freight corporate line, user ‘C. Harlan’."
+  },
+  {
+   "key": "case042.texts.title",
+   "value": "WADE TANNER’S MESSAGES"
+  },
+  {
+   "key": "case042.time.climb",
+   "value": "01.04"
+  },
+  {
+   "key": "case042.time.found",
+   "value": "06.20"
+  },
+  {
+   "key": "case042.time.load",
+   "value": "03.20–03.55"
+  },
+  {
+   "key": "case042.time.pull",
+   "value": "04.02"
+  },
+  {
+   "key": "case042.time.radio",
+   "value": "00.50"
+  },
+  {
+   "key": "case042.title",
+   "value": "File #042 — The Storm"
+  },
+  {
+   "key": "case042.verdict.accident",
+   "value": "No one — exhaust fumes filled the cab in the storm"
+  },
+  {
+   "key": "case042.verdict.hollis",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.verdict.patel",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.verdict.tanner",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.item.rag.name",
+   "value": "Sooty rag"
+  },
+  {
+   "key": "case042.item.rag.detail",
+   "value": "A rag from a truck’s toolbox; one end stiff with black soot, rolled to the width of an exhaust pipe."
+  },
+  {
+   "key": "case042.item.pipe.name",
+   "value": "Exhaust stack"
+  },
+  {
+   "key": "case042.item.pipe.detail",
+   "value": "The vertical exhaust outlet of the victim’s truck; red cotton fibres inside its mouth."
+  },
+  {
+   "key": "case042.item.seal.name",
+   "value": "Broken trailer seal"
+  },
+  {
+   "key": "case042.item.seal.detail",
+   "value": "The numbered plastic security seal on the trailer door; cut with shears."
+  }
+ ]
+}
