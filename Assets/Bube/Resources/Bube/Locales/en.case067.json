@@ -1,0 +1,404 @@
+{
+ "entries": [
+  {
+   "key": "case067.alarm.body",
+   "value": "Footscray fish market alarm panel, 1 December:\n\n· 18.30 — set (code: Craig Brennan).\n· 18.31 – 04.00 no events.\n· 04.02 — unset (code: Tavita Faleolo).\n\nNote: the panel only monitors the outer doors; someone staying inside does not trigger the alarm."
+  },
+  {
+   "key": "case067.alarm.title",
+   "value": "MARKET ALARM LOG"
+  },
+  {
+   "key": "case067.archive.body",
+   "value": "A file reopened from the archive (January 1998, closed as an ‘electrical fault’):\n\n· Nguyen Van Minh (29) died in a stall fire that broke out at night in the market.\n· Sole witness, the night watchman Craig Brennan (20): ‘I saw sparks from the cables.’\n· The fire brigade’s report carries the note ‘trace of accelerant’; it was never added to the file.\n· Assistant manager of the company that took over the market’s operating rights three months after the fire: Craig Brennan."
+  },
+  {
+   "key": "case067.archive.reopen",
+   "value": "The file closed thirty-two years ago as an ‘electrical fault’ was reopened."
+  },
+  {
+   "key": "case067.archive.title",
+   "value": "THE 1998 FILE — NGUYEN VAN MINH"
+  },
+  {
+   "key": "case067.autopsy.body",
+   "value": "· Cause of death: hypothermia and drowning; salty ice water in the lungs.\n· A flat, broad blow to the back of the neck; he went into the water unconscious.\n· No dinner in the stomach; last meal at noon.\n· Time of death: 19.00–20.00."
+  },
+  {
+   "key": "case067.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case067.brennan.body",
+   "value": "Market manager."
+  },
+  {
+   "key": "case067.brennan.deflect",
+   "value": "I’m the one who’s kept this market standing for thirty years."
+  },
+  {
+   "key": "case067.brennan.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case067.brennan.end.decoy.alarm",
+   "value": "The alarm log’s right there: I set it at half six, not a single door opened till morning. Nobody was inside."
+  },
+  {
+   "key": "case067.brennan.end.presented.office",
+   "value": "I set the alarm from inside and didn’t leave. Long held the photo up to my face; in 1998 the lighter was in my hand, yes, they’d paid me, I thought the stall was empty. Minh was inside. Thirty-two years. I hit him on the back of the neck, put him in the tank, locked it. Threw the key in the scale drawer. Burned the photo. The people at Pacific Liaison kept saying ‘the market’s last stall’, that’s all."
+  },
+  {
+   "key": "case067.brennan.end.question",
+   "value": "You put Long in the ice tank."
+  },
+  {
+   "key": "case067.brennan.night.answer",
+   "value": "I sent everyone home, set the alarm and left. Uncle Long was old; maybe he reached for something in the tank and fell."
+  },
+  {
+   "key": "case067.brennan.night.answer.demeanor",
+   "value": "He turns the chain round his neck with his thumb."
+  },
+  {
+   "key": "case067.brennan.night.question",
+   "value": "How did you close the market last night?"
+  },
+  {
+   "key": "case067.brennan.title",
+   "value": "Craig Brennan — interview"
+  },
+  {
+   "key": "case067.clue.found",
+   "value": "The porter prises the locked tank open with a crowbar."
+  },
+  {
+   "key": "case067.clue.send",
+   "value": "The manager sends the porter home, saying ‘I’ll close up.’"
+  },
+  {
+   "key": "case067.clue.set",
+   "value": "The alarm is set with the manager’s code."
+  },
+  {
+   "key": "case067.clue.source.alarm",
+   "value": "Alarm log"
+  },
+  {
+   "key": "case067.clue.source.tavita",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.custody.drain",
+   "value": "Into the market’s drain grate"
+  },
+  {
+   "key": "case067.custody.label",
+   "value": "Where did the tank’s key go?"
+  },
+  {
+   "key": "case067.custody.river",
+   "value": "Into the Maribyrnong River"
+  },
+  {
+   "key": "case067.custody.scale",
+   "value": "Into the drawer of the fish scale in the manager’s office"
+  },
+  {
+   "key": "case067.epilogue.custody.drain",
+   "value": "The grate was opened; the key wasn’t there."
+  },
+  {
+   "key": "case067.epilogue.custody.river",
+   "value": "The key wasn’t in the river."
+  },
+  {
+   "key": "case067.epilogue.custody.scale",
+   "value": "It was recorded that the key was found in the scale drawer."
+  },
+  {
+   "key": "case067.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; the market was demolished."
+  },
+  {
+   "key": "case067.epilogue.verdict.brennan",
+   "value": "Craig Brennan was arrested; the 1998 file was reopened as ‘wilful killing’. Pacific Liaison Trust’s loan agreement went into the Footscray branch’s file."
+  },
+  {
+   "key": "case067.epilogue.verdict.linh",
+   "value": "Linh Nguyen was arrested; the key stayed in the scale."
+  },
+  {
+   "key": "case067.epilogue.verdict.tavita",
+   "value": "Tavita Faleolo was arrested; the last stall was sold."
+  },
+  {
+   "key": "case067.evidence.alarm",
+   "value": "Market alarm log"
+  },
+  {
+   "key": "case067.evidence.archive",
+   "value": "The 1998 file"
+  },
+  {
+   "key": "case067.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case067.evidence.office",
+   "value": "Manager’s office search"
+  },
+  {
+   "key": "case067.feedback.accident",
+   "value": "There is a blow to the back of the neck, and the tank was locked from outside."
+  },
+  {
+   "key": "case067.feedback.brennan",
+   "value": "The tank’s key came out of his scale drawer, with his print on it; he was the one who sent the porter home at 19.00. The alarm log doesn’t clear him: the panel only monitors the outer doors. The reopened 1998 file shows whom Long recognised in the photo."
+  },
+  {
+   "key": "case067.feedback.linh",
+   "value": "The daughter stood by her father’s refusal to sell the stall; she wasn’t at the market that evening."
+  },
+  {
+   "key": "case067.feedback.tavita",
+   "value": "The porter was sent home at 19.00 and unset the alarm in the morning with his own code; he didn’t have the tank’s key."
+  },
+  {
+   "key": "case067.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case067.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Branch"
+  },
+  {
+   "key": "case067.file.value.location",
+   "value": "Footscray fish market, Melbourne"
+  },
+  {
+   "key": "case067.file.value.number",
+   "value": "BDA-MEL-2030-0301"
+  },
+  {
+   "key": "case067.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case067.file.value.reporter",
+   "value": "Porter"
+  },
+  {
+   "key": "case067.linh.body",
+   "value": "The victim’s daughter."
+  },
+  {
+   "key": "case067.linh.deflect",
+   "value": "My father got up at four in the morning, for forty years."
+  },
+  {
+   "key": "case067.linh.sell.answer",
+   "value": "No. The market’s being rebuilt, every stall is being bought up; my father was the only one saying no. Last week he found an old photo, from 1998, from the night my uncle died. ‘Now I know who was there that night,’ he said. He didn’t say who. He carried the photo with him."
+  },
+  {
+   "key": "case067.linh.sell.answer.demeanor",
+   "value": "She runs the zip of her jacket up and down with her fingers."
+  },
+  {
+   "key": "case067.linh.sell.question",
+   "value": "Was your father going to sell the stall?"
+  },
+  {
+   "key": "case067.linh.title",
+   "value": "Linh Nguyen — interview"
+  },
+  {
+   "key": "case067.method.fall",
+   "value": "He fell while reaching into the tank"
+  },
+  {
+   "key": "case067.method.heart",
+   "value": "His heart stopped in the cold"
+  },
+  {
+   "key": "case067.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case067.method.tank",
+   "value": "He was knocked out, put in the ice tank and locked in"
+  },
+  {
+   "key": "case067.offer.subtitle",
+   "value": "FISH MARKET  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case067.offer.summary",
+   "value": "A fishmonger of forty years was found in the ice tank of his own stall, the lid padlocked."
+  },
+  {
+   "key": "case067.offer.title",
+   "value": "FILE #067"
+  },
+  {
+   "key": "case067.office.body",
+   "value": "Craig Brennan’s office at the market (with the branch chief’s approval):\n\n· In the drawer of the fish scale, the key to the tank’s padlock; fish scales and Craig Brennan’s fingerprint on the key.\n· In the ashtray, the corner of a burned photograph; print paper dated 1998.\n· On the desk, Pacific Liaison Trust’s loan agreement: a ‘transfer of all stalls’ clause, last line blank: ‘Nguyen’."
+  },
+  {
+   "key": "case067.office.title",
+   "value": "MANAGER’S OFFICE — SEARCH"
+  },
+  {
+   "key": "case067.person.brennan.info",
+   "value": "52, manager of the Footscray fish market."
+  },
+  {
+   "key": "case067.person.brennan.name",
+   "value": "Craig Brennan"
+  },
+  {
+   "key": "case067.person.linh.info",
+   "value": "34, the victim’s daughter."
+  },
+  {
+   "key": "case067.person.linh.name",
+   "value": "Linh Nguyen"
+  },
+  {
+   "key": "case067.person.tavita.info",
+   "value": "41, market porter; found the body."
+  },
+  {
+   "key": "case067.person.tavita.name",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.report.body",
+   "value": "On the morning of 2 December 2030, at the Footscray fish market, the fishmonger Nguyen Van Long (68) was found dead in the ice tank behind his own stall, in the ice water. The tank’s lid was padlocked.\n\nThe porter Tavita Faleolo found the body at 04.05, after forcing the tank’s lock. The market manager Craig Brennan stated that he set the alarm at 18.30. The victim’s daughter Linh Nguyen arrived in the morning."
+  },
+  {
+   "key": "case067.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case067.request.alarm",
+   "value": "Request the market’s alarm log"
+  },
+  {
+   "key": "case067.request.archive",
+   "value": "Request permission to open the 1998 file from the archive"
+  },
+  {
+   "key": "case067.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case067.request.office",
+   "value": "Request permission to search the manager’s office"
+  },
+  {
+   "key": "case067.summary.evidence",
+   "value": "The alarm log was a decoy: it only monitored the outer doors. The porter and the daughter told of the evening and the photo; they got the archive opened. The search found the key and the corner of the burned photo."
+  },
+  {
+   "key": "case067.summary.lesson",
+   "value": "The alarm said nobody left. It was right."
+  },
+  {
+   "key": "case067.summary.location",
+   "value": "Footscray fish market — December 2030"
+  },
+  {
+   "key": "case067.summary.truth",
+   "value": "In 1998 the twenty-year-old night watchman Craig Brennan set fire to a stall for money; Long’s brother Minh was inside. He said ‘electrical fault’ and became the market’s manager. Thirty-two years later Long, who would not sell the market’s last stall, recognised him in an old photo. Brennan set the alarm from inside, knocked Long out, locked him in the ice tank and threw the key into the scale drawer."
+  },
+  {
+   "key": "case067.suspect.label",
+   "value": "Who killed Nguyen Van Long?"
+  },
+  {
+   "key": "case067.tablet.caseLine",
+   "value": "FILE #067  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case067.tavita.body",
+   "value": "Market porter."
+  },
+  {
+   "key": "case067.tavita.deflect",
+   "value": "I carry crates, I don’t ask questions."
+  },
+  {
+   "key": "case067.tavita.found.answer",
+   "value": "Uncle Long never locked the tank; he left the lid open so the fish stayed cold. It was locked; the manager has the key. I couldn’t wait, I prised it open with a crowbar. Last night at seven the manager told me, ‘Go home, I’ll close up’; I always close up."
+  },
+  {
+   "key": "case067.tavita.found.answer.demeanor",
+   "value": "He adjusts the strap of his apron on his shoulder."
+  },
+  {
+   "key": "case067.tavita.found.question",
+   "value": "Why did you force the tank open?"
+  },
+  {
+   "key": "case067.tavita.title",
+   "value": "Tavita Faleolo — interview"
+  },
+  {
+   "key": "case067.time.found",
+   "value": "04.05"
+  },
+  {
+   "key": "case067.time.send",
+   "value": "19.00"
+  },
+  {
+   "key": "case067.time.set",
+   "value": "18.30"
+  },
+  {
+   "key": "case067.title",
+   "value": "File #067 — Fish Market"
+  },
+  {
+   "key": "case067.verdict.accident",
+   "value": "Nobody — he fell into the tank"
+  },
+  {
+   "key": "case067.verdict.brennan",
+   "value": "Craig Brennan"
+  },
+  {
+   "key": "case067.verdict.linh",
+   "value": "Linh Nguyen"
+  },
+  {
+   "key": "case067.verdict.tavita",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.item.key.name",
+   "value": "Ice tank padlock key"
+  },
+  {
+   "key": "case067.item.key.detail",
+   "value": "The key to the padlock on the tank’s lid; it came out of the drawer of the fish scale in the manager’s office."
+  },
+  {
+   "key": "case067.item.alarm.name",
+   "value": "Market alarm log"
+  },
+  {
+   "key": "case067.item.alarm.detail",
+   "value": "The market alarm panel printout; ‘set 18.30’, the manager’s code."
+  },
+  {
+   "key": "case067.item.lighter.name",
+   "value": "The 1998 photo"
+  },
+  {
+   "key": "case067.item.lighter.detail",
+   "value": "An old photo Long kept; an hour before the fire, a young watchman beside the stall, a lighter in his hand."
+  }
+ ]
+}
