@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case065.autopsy.body",
+   "value": "· Cause of death: fall from a height; multiple trauma.\n· On the right forearm, a four-finger bruise formed before the fall: someone gripped him tightly.\n· No food in the stomach; last meal at noon.\n· Time of death: 21.30–22.30."
+  },
+  {
+   "key": "case065.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case065.beaulieu.body",
+   "value": "Project manager."
+  },
+  {
+   "key": "case065.beaulieu.deflect",
+   "value": "This silo has stood empty for sixty years; we’re giving it life."
+  },
+  {
+   "key": "case065.beaulieu.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case065.beaulieu.end.decoy.receipt",
+   "value": "Look at the receipt: 21.15, restaurant, two people. I was at dinner. My card says so too."
+  },
+  {
+   "key": "case065.beaulieu.end.presented.site",
+   "value": "I paid the bill, said five minutes, ran to the silo. Olivier showed me the timber frame and said, ‘It’s over.’ I grabbed his arm and asked for the card. He pulled away and slipped. At the edge of the hatch… I didn’t hold on. I took the card out of the helmet and put it under the model; we hold our meeting in front of that model every morning."
+  },
+  {
+   "key": "case065.beaulieu.end.question",
+   "value": "You pushed Olivier from the bin."
+  },
+  {
+   "key": "case065.beaulieu.night.answer",
+   "value": "I was at dinner with our managing director, in the Old Port. I only learned in the morning that Olivier had gone up the silo at night. Would an architect go up to that bin alone with a helmet and a rope?"
+  },
+  {
+   "key": "case065.beaulieu.night.answer.demeanor",
+   "value": "He turns the helmet in his lap from side to side."
+  },
+  {
+   "key": "case065.beaulieu.night.question",
+   "value": "Where were you last night?"
+  },
+  {
+   "key": "case065.beaulieu.title",
+   "value": "Étienne Beaulieu — interview"
+  },
+  {
+   "key": "case065.cctv.event.in",
+   "value": "Camera: A man in a technical jacket, his helmet under his arm, walks quickly through the site gate, alone."
+  },
+  {
+   "key": "case065.cctv.event.out",
+   "value": "Camera: The man in the technical jacket comes out of the gate alone, in a hurry, pulling up his hood."
+  },
+  {
+   "key": "case065.cctv.event.wait",
+   "value": "Camera: Someone in a long coat and a helmet, holding a camera, waits at the door of the silo’s stair tower."
+  },
+  {
+   "key": "case065.cctv.overlay",
+   "value": "SLM-GATE"
+  },
+  {
+   "key": "case065.cctv.period",
+   "value": "20 November 2030"
+  },
+  {
+   "key": "case065.cctv.source",
+   "value": "Site camera"
+  },
+  {
+   "key": "case065.clue.arch",
+   "value": "The architect enters the site saying, ‘I’m going to take measurements.’"
+  },
+  {
+   "key": "case065.clue.in",
+   "value": "The man in the technical jacket enters the site alone."
+  },
+  {
+   "key": "case065.clue.msg",
+   "value": "The architect writes to his partner: ‘Étienne’s here, we’re going to talk.’"
+  },
+  {
+   "key": "case065.clue.out",
+   "value": "The man in the technical jacket leaves in a hurry, alone."
+  },
+  {
+   "key": "case065.clue.pay",
+   "value": "The project manager pays the bill, says ‘five minutes’ and leaves."
+  },
+  {
+   "key": "case065.clue.source.gendron",
+   "value": "Max Gendron"
+  },
+  {
+   "key": "case065.clue.source.kwan",
+   "value": "Grace Kwan"
+  },
+  {
+   "key": "case065.clue.source.rousseau",
+   "value": "Alain Rousseau"
+  },
+  {
+   "key": "case065.clue.wait",
+   "value": "The person with the camera waits at the door of the stair tower."
+  },
+  {
+   "key": "case065.custody.label",
+   "value": "Where did the helmet camera’s card go?"
+  },
+  {
+   "key": "case065.custody.model",
+   "value": "Into the hollow base of the project model"
+  },
+  {
+   "key": "case065.custody.river",
+   "value": "Thrown into the river"
+  },
+  {
+   "key": "case065.custody.silo",
+   "value": "It stayed at the bottom of the silo"
+  },
+  {
+   "key": "case065.epilogue.custody.model",
+   "value": "It was recorded that the memory card was found in the base of the project model."
+  },
+  {
+   "key": "case065.epilogue.custody.river",
+   "value": "The card wasn’t in the river."
+  },
+  {
+   "key": "case065.epilogue.custody.silo",
+   "value": "The bottom of the silo was searched; the card wasn’t there."
+  },
+  {
+   "key": "case065.epilogue.verdict.accident",
+   "value": "The death was ruled a workplace accident; the heritage report was never written."
+  },
+  {
+   "key": "case065.epilogue.verdict.beaulieu",
+   "value": "Étienne Beaulieu was arrested; the silo was placed under protection. Laurentide Réassurance’s ‘heritage compliance’ guarantees went into the Mile End branch’s file."
+  },
+  {
+   "key": "case065.epilogue.verdict.farah",
+   "value": "Farah Siddiqui was arrested; the silo got its demolition permit."
+  },
+  {
+   "key": "case065.epilogue.verdict.morin",
+   "value": "Sylvie Morin was arrested; the memory card stayed under the model."
+  },
+  {
+   "key": "case065.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case065.evidence.gate",
+   "value": "Site gate camera"
+  },
+  {
+   "key": "case065.evidence.receipt",
+   "value": "Restaurant receipt and card transaction"
+  },
+  {
+   "key": "case065.evidence.site",
+   "value": "Site office and model search"
+  },
+  {
+   "key": "case065.farah.body",
+   "value": "Heritage protection activist."
+  },
+  {
+   "key": "case065.farah.deflect",
+   "value": "If that silo comes down, the city loses its memory."
+  },
+  {
+   "key": "case065.farah.fence.answer",
+   "value": "I take photos every night; I don’t go in, I got caught once, that was enough. Last night at 22.10 I photographed someone coming out of the gate in a hurry, technical jacket, hood up. The photo’s on my phone; no face, but there’s the jacket."
+  },
+  {
+   "key": "case065.farah.fence.answer.demeanor",
+   "value": "She takes the phone from her jacket pocket and turns the screen towards you."
+  },
+  {
+   "key": "case065.farah.fence.question",
+   "value": "What were you doing outside the fence last night?"
+  },
+  {
+   "key": "case065.farah.title",
+   "value": "Farah Siddiqui — interview"
+  },
+  {
+   "key": "case065.feedback.accident",
+   "value": "There is a grip mark on his arm formed before the fall, and the helmet camera’s card had been taken out."
+  },
+  {
+   "key": "case065.feedback.beaulieu",
+   "value": "The memory card came out from under the model he holds his meeting in front of every morning, with his print on it; the 21.38 entry was on his card. The waiter saw him leave the table for half an hour after paying the bill. The restaurant receipt doesn’t clear him: the bill was paid at 21.15, the death came later."
+  },
+  {
+   "key": "case065.feedback.farah",
+   "value": "The activist was outside the fence and didn’t go in; the photo she took shows a man in a technical jacket."
+  },
+  {
+   "key": "case065.feedback.morin",
+   "value": "The managing director applied pressure, but she stayed in the restaurant all evening."
+  },
+  {
+   "key": "case065.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case065.file.value.bureau",
+   "value": "BDM Montreal — Mile End Branch"
+  },
+  {
+   "key": "case065.file.value.location",
+   "value": "Silo Lemoyne site, Old Port, Montreal"
+  },
+  {
+   "key": "case065.file.value.number",
+   "value": "BDM-MTL-2030-0229"
+  },
+  {
+   "key": "case065.file.value.offence",
+   "value": "Suspicious death — fall"
+  },
+  {
+   "key": "case065.file.value.reporter",
+   "value": "Night watchman"
+  },
+  {
+   "key": "case065.gate.body",
+   "value": "Silo Lemoyne site gate. 20 November 20.45 – 23.00."
+  },
+  {
+   "key": "case065.gate.title",
+   "value": "SITE GATE CAMERA — log transcript"
+  },
+  {
+   "key": "case065.gendron.body",
+   "value": "Restaurant waiter."
+  },
+  {
+   "key": "case065.gendron.deflect",
+   "value": "I wait on tables."
+  },
+  {
+   "key": "case065.gendron.table.answer",
+   "value": "The gentleman in the technical jacket, yes, with a lady in a black cashmere coat. The lady was talking, the gentleman listening. At 21.15 he asked for the bill and paid, but the lady ordered dessert. The gentleman said ‘five minutes’ and went out. He came back more than half an hour later; his hood was wet. The lady was waiting, annoyed."
+  },
+  {
+   "key": "case065.gendron.table.answer.demeanor",
+   "value": "He takes his notepad out of his pocket and puts it back."
+  },
+  {
+   "key": "case065.gendron.table.question",
+   "value": "Was the project manager at your table last night?"
+  },
+  {
+   "key": "case065.gendron.title",
+   "value": "Max Gendron — interview"
+  },
+  {
+   "key": "case065.kwan.body",
+   "value": "Photographer partner."
+  },
+  {
+   "key": "case065.kwan.camera.answer",
+   "value": "The 1904 timber frame on the bin floor. The project drawings said ‘gone, demolished’; if it exists, the building has to be protected and the project is finished. Olivier saw it, filmed it with his helmet, and messaged me: ‘Tomorrow I write the report; the insurance and the loan both go down.’ At 21.41 his last message: ‘Étienne’s here, we’re going to talk.’"
+  },
+  {
+   "key": "case065.kwan.camera.answer.demeanor",
+   "value": "She holds the camera strap on her chest with both hands."
+  },
+  {
+   "key": "case065.kwan.camera.question",
+   "value": "What was Olivier looking for at the top of the silo last night?"
+  },
+  {
+   "key": "case065.kwan.deflect",
+   "value": "I take photos; I don’t make decisions."
+  },
+  {
+   "key": "case065.kwan.title",
+   "value": "Grace Kwan — interview"
+  },
+  {
+   "key": "case065.method.hatch",
+   "value": "He was sent falling through the grain bin hatch"
+  },
+  {
+   "key": "case065.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case065.method.rope",
+   "value": "His rope snapped"
+  },
+  {
+   "key": "case065.method.slip",
+   "value": "He slipped and fell while taking measurements"
+  },
+  {
+   "key": "case065.morin.body",
+   "value": "Managing director."
+  },
+  {
+   "key": "case065.morin.deflect",
+   "value": "The company is bigger than any one person."
+  },
+  {
+   "key": "case065.morin.dinner.answer",
+   "value": "Yes. I told him that without the project’s heritage report the loan would fall through and Laurentide would withdraw the insurance. ‘I’ll handle it,’ he said, and went out. Half an hour later he came back, wet. I didn’t ask what he’d handled. Perhaps I should have."
+  },
+  {
+   "key": "case065.morin.dinner.answer.demeanor",
+   "value": "She does up the button of her cashmere coat."
+  },
+  {
+   "key": "case065.morin.dinner.question",
+   "value": "Were you at dinner with the project manager last night?"
+  },
+  {
+   "key": "case065.morin.title",
+   "value": "Sylvie Morin — interview"
+  },
+  {
+   "key": "case065.offer.subtitle",
+   "value": "SILO  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case065.offer.summary",
+   "value": "The heritage consultant on a silo conversion project was found at the bottom of the silo; his helmet camera’s card was missing."
+  },
+  {
+   "key": "case065.offer.title",
+   "value": "FILE #065"
+  },
+  {
+   "key": "case065.person.beaulieu.info",
+   "value": "46, project manager of the silo conversion project."
+  },
+  {
+   "key": "case065.person.beaulieu.name",
+   "value": "Étienne Beaulieu"
+  },
+  {
+   "key": "case065.person.farah.info",
+   "value": "30, heritage protection activist."
+  },
+  {
+   "key": "case065.person.farah.name",
+   "value": "Farah Siddiqui"
+  },
+  {
+   "key": "case065.person.gendron.info",
+   "value": "23, waiter at a restaurant in the Old Port."
+  },
+  {
+   "key": "case065.person.gendron.name",
+   "value": "Max Gendron"
+  },
+  {
+   "key": "case065.person.kwan.info",
+   "value": "38, the victim’s photographer partner."
+  },
+  {
+   "key": "case065.person.kwan.name",
+   "value": "Grace Kwan"
+  },
+  {
+   "key": "case065.person.morin.info",
+   "value": "61, managing director of the developer."
+  },
+  {
+   "key": "case065.person.morin.name",
+   "value": "Sylvie Morin"
+  },
+  {
+   "key": "case065.person.rousseau.info",
+   "value": "59, the site’s night watchman."
+  },
+  {
+   "key": "case065.person.rousseau.name",
+   "value": "Alain Rousseau"
+  },
+  {
+   "key": "case065.receipt.body",
+   "value": "Étienne Beaulieu’s credit card transaction, 20 November:\n\n· 21.15 — a restaurant in the Old Port, dinner for two, $186. The receipt is in Étienne Beaulieu’s jacket pocket.\n· The restaurant is 600 metres from the site."
+  },
+  {
+   "key": "case065.receipt.title",
+   "value": "RESTAURANT RECEIPT AND CARD TRANSACTION"
+  },
+  {
+   "key": "case065.report.body",
+   "value": "On the morning of 21 November 2030, at the Silo Lemoyne site in the Old Port, the project’s heritage consultant, the architect Olivier Dufresne (52), was found dead at the bottom of the silo, thirty metres below the grain bin on the top floor. No memory card in his helmet camera.\n\nThe night watchman Alain Rousseau found the body at 06.40 on his morning round. The project manager Étienne Beaulieu, the managing director Sylvie Morin and the victim’s photographer partner Grace Kwan arrived in the morning. The heritage activist Farah Siddiqui had been seen around the site that night."
+  },
+  {
+   "key": "case065.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case065.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case065.request.receipt",
+   "value": "Request the project manager’s card transactions"
+  },
+  {
+   "key": "case065.request.site",
+   "value": "Request permission to search the site office and project model"
+  },
+  {
+   "key": "case065.rousseau.body",
+   "value": "Night watchman."
+  },
+  {
+   "key": "case065.rousseau.deflect",
+   "value": "I’m at the gate; I don’t look inside."
+  },
+  {
+   "key": "case065.rousseau.gate.answer",
+   "value": "The architect came at 21.00, said, ‘I’m taking measurements, I need the night light,’ and swiped his card. Then one more person came in with a card; the screen only says ‘management card’, no name. Three people have management cards. A camera looks at the gate. The activist girl often wanders outside the fence; she was there that night too, but she didn’t come in."
+  },
+  {
+   "key": "case065.rousseau.gate.answer.demeanor",
+   "value": "He lowers the hood of his parka and smooths his hair."
+  },
+  {
+   "key": "case065.rousseau.gate.question",
+   "value": "Who entered the site during the night?"
+  },
+  {
+   "key": "case065.rousseau.title",
+   "value": "Alain Rousseau — interview"
+  },
+  {
+   "key": "case065.site.body",
+   "value": "Silo Lemoyne site office and project model (with the branch chief’s approval):\n\n· In the hollow base of the project model, the memory card from the victim’s helmet camera; the card’s last recording, 21.44: the timber frame on the bin floor, then a hand, the camera jolting. Étienne Beaulieu’s fingerprint on the card’s case.\n· Management card records: the 21.38 entry was Étienne Beaulieu’s card.\n· On the desk, Laurentide Réassurance’s ‘heritage compliance’ guarantee letter: ‘If the report does not arrive by 25 November, the policy will be suspended.’"
+  },
+  {
+   "key": "case065.site.title",
+   "value": "SITE OFFICE AND PROJECT MODEL — SEARCH"
+  },
+  {
+   "key": "case065.summary.evidence",
+   "value": "The restaurant receipt was a decoy: he had left the table after paying the bill. The waiter, the managing director, the photographer and the camera filled in the half hour. The search found the card under the model."
+  },
+  {
+   "key": "case065.summary.lesson",
+   "value": "The receipt told the right time. He didn’t wait for dessert."
+  },
+  {
+   "key": "case065.summary.location",
+   "value": "Silo Lemoyne — November 2030"
+  },
+  {
+   "key": "case065.summary.truth",
+   "value": "The silo’s conversion into luxury housing depended on the absence of the 1904 timber frame, drawn as ‘demolished’. The heritage consultant Olivier Dufresne found the frame at night and recorded it with his helmet. The project manager Étienne Beaulieu, at dinner with the managing director, paid the bill and ran to the silo, grabbed Olivier’s arm and demanded the card; Olivier fell from the bin. Étienne hid the card in the base of the project model."
+  },
+  {
+   "key": "case065.suspect.label",
+   "value": "Who killed Olivier Dufresne?"
+  },
+  {
+   "key": "case065.tablet.caseLine",
+   "value": "FILE #065  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case065.time.arch",
+   "value": "21.00"
+  },
+  {
+   "key": "case065.time.in",
+   "value": "21.38"
+  },
+  {
+   "key": "case065.time.msg",
+   "value": "21.41"
+  },
+  {
+   "key": "case065.time.out",
+   "value": "22.09"
+  },
+  {
+   "key": "case065.time.pay",
+   "value": "21.15"
+  },
+  {
+   "key": "case065.time.wait",
+   "value": "21.40"
+  },
+  {
+   "key": "case065.title",
+   "value": "File #065 — Silo"
+  },
+  {
+   "key": "case065.verdict.accident",
+   "value": "Nobody — he slipped from the bin at night"
+  },
+  {
+   "key": "case065.verdict.beaulieu",
+   "value": "Étienne Beaulieu"
+  },
+  {
+   "key": "case065.verdict.farah",
+   "value": "Farah Siddiqui"
+  },
+  {
+   "key": "case065.verdict.morin",
+   "value": "Sylvie Morin"
+  },
+  {
+   "key": "case065.item.card.name",
+   "value": "Helmet camera memory card"
+  },
+  {
+   "key": "case065.item.card.detail",
+   "value": "The memory card from the victim’s helmet camera; it came out of the hollow base of the project model."
+  },
+  {
+   "key": "case065.item.receipt.name",
+   "value": "Restaurant receipt"
+  },
+  {
+   "key": "case065.item.receipt.detail",
+   "value": "The receipt from the project manager’s pocket; 21.15, dinner for two, paid by card."
+  },
+  {
+   "key": "case065.item.hatch.name",
+   "value": "Bin hatch"
+  },
+  {
+   "key": "case065.item.hatch.detail",
+   "value": "The grain bin hatch on the silo’s top floor; fresh scratches on its hinge."
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "entries": [
+  {
+   "key": "case064.autopsy.body",
+   "value": "· Cause of death: hypothermia and suffocation; snow packed in the mouth and nose.\n· A broad, flat bruise on the chest, consistent with the edge of a loader bucket. Ribs broken.\n· No injuries from the snowblower: the machine stopped before reaching the body.\n· Time of death: 00.45–01.30."
+  },
+  {
+   "key": "case064.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case064.clue.found",
+   "value": "The snowblower driver sees the red scarf in the snowbank."
+  },
+  {
+   "key": "case064.clue.photo",
+   "value": "The inspector’s tablet photographs the loader and its driver in the back alley."
+  },
+  {
+   "key": "case064.clue.radio",
+   "value": "The boss says over the radio, ‘I’m at the depot; I’ll load salt with the loader.’"
+  },
+  {
+   "key": "case064.clue.source.depot",
+   "value": "Depot search"
+  },
+  {
+   "key": "case064.clue.source.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.clue.source.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.custody.label",
+   "value": "Where did the inspector’s tablet go?"
+  },
+  {
+   "key": "case064.custody.salt",
+   "value": "Into the pile in the company’s salt dome"
+  },
+  {
+   "key": "case064.custody.snow",
+   "value": "To the snow dump"
+  },
+  {
+   "key": "case064.custody.truck",
+   "value": "Into the boss’s pickup"
+  },
+  {
+   "key": "case064.depot.body",
+   "value": "The company’s depot, salt dome and Loader 2 (with the branch chief’s approval):\n\n· Inside the pile in the salt dome, Isabelle Moreau’s city tablet; Serge Paquette’s fingerprint on its case.\n· On Loader 2’s driver’s seat, red wool fibres matching the victim’s scarf. The loader’s GPS module has been removed; it is in the tool bag.\n· The tablet’s last photo, 00.52: Loader 2 in the back alley, a man in a green parka in the driver’s seat."
+  },
+  {
+   "key": "case064.depot.title",
+   "value": "COMPANY DEPOT AND LOADER — SEARCH"
+  },
+  {
+   "key": "case064.epilogue.custody.salt",
+   "value": "It was recorded that the tablet was found in the salt dome."
+  },
+  {
+   "key": "case064.epilogue.custody.snow",
+   "value": "The tablet wasn’t at the snow dump."
+  },
+  {
+   "key": "case064.epilogue.custody.truck",
+   "value": "There was no tablet in the pickup."
+  },
+  {
+   "key": "case064.epilogue.verdict.accident",
+   "value": "The death was ruled a storm accident; Laurentide paid the cover as ‘force majeure’."
+  },
+  {
+   "key": "case064.epilogue.verdict.oneill",
+   "value": "Ryan O’Neill was arrested; the loader worked again in the next storm."
+  },
+  {
+   "key": "case064.epilogue.verdict.paquette",
+   "value": "Serge Paquette was arrested; the inflated invoices were reported to the city. Laurentide Réassurance’s tender guarantees went into the Mile End branch’s file."
+  },
+  {
+   "key": "case064.epilogue.verdict.yusra",
+   "value": "Yusra Haddadi was arrested; the tablet stayed in the salt."
+  },
+  {
+   "key": "case064.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case064.evidence.depot",
+   "value": "Depot and loader search"
+  },
+  {
+   "key": "case064.evidence.gps",
+   "value": "Fleet GPS log"
+  },
+  {
+   "key": "case064.evidence.oneill",
+   "value": "Snowblower driver’s statement"
+  },
+  {
+   "key": "case064.feedback.accident",
+   "value": "The bruise on the chest is consistent with a loader bucket, and no loader was assigned to that street."
+  },
+  {
+   "key": "case064.feedback.oneill",
+   "value": "The snowblower driver entered the alley at 01.50, after the death; his machine stopped before reaching the body."
+  },
+  {
+   "key": "case064.feedback.paquette",
+   "value": "The inspector’s tablet came out of his salt dome, with his print on it; the tablet’s last photo shows the GPS-less loader in the back alley and its driver in a green parka. The GPS log doesn’t clear him: it was his pickup that stayed at the depot, not him."
+  },
+  {
+   "key": "case064.feedback.yusra",
+   "value": "The dispatcher was at her screen all night."
+  },
+  {
+   "key": "case064.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case064.file.value.bureau",
+   "value": "BDM Montreal — Mile End Branch"
+  },
+  {
+   "key": "case064.file.value.location",
+   "value": "Behind Rue Waverly, Mile End, Montreal"
+  },
+  {
+   "key": "case064.file.value.number",
+   "value": "BDM-MTL-2030-0224"
+  },
+  {
+   "key": "case064.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case064.file.value.reporter",
+   "value": "Machine driver"
+  },
+  {
+   "key": "case064.gps.body",
+   "value": "The company’s GPS log for the night of 16–17 November:\n\n· Blower 3 (Ryan O’Neill): Waverly route, 01.50 enters the back alley.\n· Trucks 7 and 9: to and from the snow dump.\n· Serge Paquette’s pickup: 00.30–02.00 at the depot, parked.\n· Loader 2: no signal (fault logged 12 October)."
+  },
+  {
+   "key": "case064.gps.title",
+   "value": "FLEET GPS LOG"
+  },
+  {
+   "key": "case064.lachance.audit.answer",
+   "value": "The company’s invoices against the trucks’ actual loads. For three years forty per cent of the snow invoiced was never hauled. That night, in the storm, Isabelle was going out to the site to count the trucks herself; ‘without warning Paquette,’ she said. Her tablet recorded everything, photos, plates. The tablet hasn’t been found, has it?"
+  },
+  {
+   "key": "case064.lachance.audit.answer.demeanor",
+   "value": "She wraps her scarf around her neck with both hands."
+  },
+  {
+   "key": "case064.lachance.audit.question",
+   "value": "What was Isabelle auditing?"
+  },
+  {
+   "key": "case064.lachance.body",
+   "value": "City inspector."
+  },
+  {
+   "key": "case064.lachance.deflect",
+   "value": "We’re inspectors; we don’t like anyone."
+  },
+  {
+   "key": "case064.lachance.title",
+   "value": "Martine Lachance — interview"
+  },
+  {
+   "key": "case064.method.blower",
+   "value": "A snowblower hit her"
+  },
+  {
+   "key": "case064.method.cold",
+   "value": "She froze to death in the storm"
+  },
+  {
+   "key": "case064.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case064.method.loader",
+   "value": "She was pushed with a loader bucket and buried in a snowbank"
+  },
+  {
+   "key": "case064.offer.subtitle",
+   "value": "SNOWSTORM  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case064.offer.summary",
+   "value": "A city inspector was found inside a snowbank in a back alley on the night of a storm."
+  },
+  {
+   "key": "case064.offer.title",
+   "value": "FILE #064"
+  },
+  {
+   "key": "case064.oneill.body",
+   "value": "Snowblower driver."
+  },
+  {
+   "key": "case064.oneill.deflect",
+   "value": "I drive the machine, street by street."
+  },
+  {
+   "key": "case064.oneill.found.answer",
+   "value": "The bank was higher than normal, as if someone had gathered the street’s snow into one place. A loader had been through before I came; there were tracks. But no loader was assigned to that street; it’s not on the dispatch screen. I saw the red, I stopped the machine. One second more…"
+  },
+  {
+   "key": "case064.oneill.found.answer.demeanor",
+   "value": "He brushes the snow out of his beard with his glove."
+  },
+  {
+   "key": "case064.oneill.found.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case064.oneill.title",
+   "value": "Ryan O’Neill — interview"
+  },
+  {
+   "key": "case064.paquette.body",
+   "value": "Owner of the snow removal company."
+  },
+  {
+   "key": "case064.paquette.deflect",
+   "value": "I’ve been clearing this city’s snow for thirty years."
+  },
+  {
+   "key": "case064.paquette.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case064.paquette.end.decoy.gps",
+   "value": "Look at the GPS: my pickup was at the depot from half past twelve until two. I never left there."
+  },
+  {
+   "key": "case064.paquette.end.presented.depot",
+   "value": "My pickup was at the depot, not me. I took the loader’s GPS out last month myself. Isabelle was photographing the trucks in the back alley; I drove up beside her in the loader and said, ‘Let’s talk’; she wouldn’t hand over her tablet. I pushed her with the bucket and piled the snow on top of her. I buried the tablet in the salt pile. Laurentide’s cover would have paid out as ‘storm, force majeure’ anyway; everyone would have said so."
+  },
+  {
+   "key": "case064.paquette.end.question",
+   "value": "You buried Isabelle in the snowbank with the loader."
+  },
+  {
+   "key": "case064.paquette.night.answer",
+   "value": "At the depot, loading salt. On a storm night the boss doesn’t sit at a desk. What was an inspector doing in a back alley in a storm? Stand next to a snowbank and these things happen."
+  },
+  {
+   "key": "case064.paquette.night.answer.demeanor",
+   "value": "He lifts the earflap of his hat and lowers it."
+  },
+  {
+   "key": "case064.paquette.night.question",
+   "value": "Where were you during the night?"
+  },
+  {
+   "key": "case064.paquette.title",
+   "value": "Serge Paquette — interview"
+  },
+  {
+   "key": "case064.person.lachance.info",
+   "value": "45, city inspector; the victim’s colleague."
+  },
+  {
+   "key": "case064.person.lachance.name",
+   "value": "Martine Lachance"
+  },
+  {
+   "key": "case064.person.oneill.info",
+   "value": "34, snowblower driver."
+  },
+  {
+   "key": "case064.person.oneill.name",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.person.paquette.info",
+   "value": "57, owner of the snow removal company."
+  },
+  {
+   "key": "case064.person.paquette.name",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.person.yusra.info",
+   "value": "28, the company’s night dispatcher."
+  },
+  {
+   "key": "case064.person.yusra.name",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.report.body",
+   "value": "On the night of 17 November 2030, in Mile End, in the back alley behind Rue Waverly, the city’s snow removal inspector Isabelle Moreau (49) was found dead inside a snowbank.\n\nThe snowblower driver Ryan O’Neill found the body at 02.10 when, blowing the bank into a truck, he saw a red scarf. The owner of the snow removal company, Serge Paquette, and the dispatcher Yusra Haddadi were on duty that night. The inspector’s colleague Martine Lachance arrived in the morning."
+  },
+  {
+   "key": "case064.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case064.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case064.request.depot",
+   "value": "Request permission to search the company’s depot and loader"
+  },
+  {
+   "key": "case064.request.gps",
+   "value": "Request the fleet GPS log"
+  },
+  {
+   "key": "case064.summary.evidence",
+   "value": "The GPS log was a decoy: it was the pickup that stayed at the depot, not the man. The dispatcher told of the loader with no signal, the snowblower driver of the tracks of an unassigned loader. The search found the tablet and its last photo."
+  },
+  {
+   "key": "case064.summary.lesson",
+   "value": "The GPS told the truth: the pickup never moved."
+  },
+  {
+   "key": "case064.summary.location",
+   "value": "Mile End — November 2030"
+  },
+  {
+   "key": "case064.summary.truth",
+   "value": "For three years Serge Paquette, owner of the snow removal company, invoiced the city for snow that was never hauled. On the night of the storm the inspector Isabelle Moreau went out to count the trucks herself. Paquette left his pickup at the depot and drove to the back alley in the loader whose GPS he had removed, pushed Isabelle with the bucket, buried her under the snow and hid her tablet in the salt dome."
+  },
+  {
+   "key": "case064.suspect.label",
+   "value": "Who killed Isabelle Moreau?"
+  },
+  {
+   "key": "case064.tablet.caseLine",
+   "value": "FILE #064  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case064.time.found",
+   "value": "02.10"
+  },
+  {
+   "key": "case064.time.photo",
+   "value": "00.52"
+  },
+  {
+   "key": "case064.time.radio",
+   "value": "00.30"
+  },
+  {
+   "key": "case064.title",
+   "value": "File #064 — Snowstorm"
+  },
+  {
+   "key": "case064.verdict.accident",
+   "value": "Nobody — buried by snow in the storm"
+  },
+  {
+   "key": "case064.verdict.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.verdict.paquette",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.verdict.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.yusra.body",
+   "value": "Night dispatcher."
+  },
+  {
+   "key": "case064.yusra.deflect",
+   "value": "I watch the screen."
+  },
+  {
+   "key": "case064.yusra.screen.answer",
+   "value": "On my screen there are the trucks, the snowblowers, the boss’s pickup. The small loader isn’t on the screen; its GPS ‘broke down’ last month; the boss said, ‘I’ll get it fixed,’ and he didn’t. At 00.30 the boss said over the radio, ‘I’m at the depot; I’ll load salt with the loader.’ An hour later he came back; there was no salt in the loader’s bucket."
+  },
+  {
+   "key": "case064.yusra.screen.answer.demeanor",
+   "value": "She adjusts the headset around her neck."
+  },
+  {
+   "key": "case064.yusra.screen.question",
+   "value": "Which vehicles worked where during the night?"
+  },
+  {
+   "key": "case064.yusra.title",
+   "value": "Yusra Haddadi — interview"
+  },
+  {
+   "key": "case064.item.tablet.name",
+   "value": "The inspector’s tablet"
+  },
+  {
+   "key": "case064.item.tablet.detail",
+   "value": "Isabelle Moreau’s city tablet; it came out of the salt pile in the company’s salt store."
+  },
+  {
+   "key": "case064.item.gps.name",
+   "value": "Fleet GPS log"
+  },
+  {
+   "key": "case064.item.gps.detail",
+   "value": "The company’s night GPS log; the owner’s pickup ‘parked’ at the depot from 00.30 to 02.00."
+  },
+  {
+   "key": "case064.item.loader.name",
+   "value": "Loader seat cushion"
+  },
+  {
+   "key": "case064.item.loader.detail",
+   "value": "The driver’s seat of the company’s small loader; red wool fibres from Isabelle’s scarf on the cushion."
+  }
+ ]
+}
