@@ -1,0 +1,476 @@
+{
+ "entries": [
+  {
+   "key": "case072.archive.body",
+   "value": "A file reopened from the archive (2012, ‘hygiene violation — closure’):\n\n· Business: Hoang Thi Lan, Barkly Street.\n· Report: ‘shellfish cross-contamination’; inspector Robert Sinclair. The lab result is not in the file.\n· Four months after the closure the Barkly Street block was sold to a developer; the developer’s consultant: R. Sinclair.\n· Lan’s letter of appeal: ‘No prawn ever comes into my kitchen.’"
+  },
+  {
+   "key": "case072.archive.reopen",
+   "value": "The file closed eighteen years ago by a hygiene report was reopened."
+  },
+  {
+   "key": "case072.archive.title",
+   "value": "THE 2012 FILE — THE FIRST SHOP"
+  },
+  {
+   "key": "case072.autopsy.body",
+   "value": "· Cause of death: anaphylactic shock.\n· Pho broth and fermented shrimp in the stomach; no shrimp in the pot sample of the broth, only in her bowl.\n· No injection mark on the left thigh; the pen was not used.\n· Time of death: 21.00–21.40."
+  },
+  {
+   "key": "case072.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case072.car.body",
+   "value": "Robert Sinclair’s navy sedan (with the branch chief’s approval):\n\n· In the glovebox, Hoang Thi Lan’s adrenaline pen; cap unopened, Robert Sinclair’s fingerprint on it.\n· On the floor mat, the lid of a shrimp paste jar; the jar itself was found in the shop’s bin.\n· On the back seat, the street’s regeneration plan: the last lot circled in red, in the margin ‘Liaison — by January’."
+  },
+  {
+   "key": "case072.car.title",
+   "value": "PLANNING DIRECTOR’S CAR — SEARCH"
+  },
+  {
+   "key": "case072.clue.out",
+   "value": "The kitchen hand leaves by the back door; the door is ajar."
+  },
+  {
+   "key": "case072.clue.pay",
+   "value": "The planning director pays table 4’s bill."
+  },
+  {
+   "key": "case072.clue.sedan",
+   "value": "A sedan with its engine running in the back lane; someone in glasses comes out of the back door and gets in."
+  },
+  {
+   "key": "case072.clue.source.duncan",
+   "value": "Duncan Pryor"
+  },
+  {
+   "key": "case072.clue.source.kalani",
+   "value": "Kalani Mahoe"
+  },
+  {
+   "key": "case072.clue.source.receipt",
+   "value": "Till receipt"
+  },
+  {
+   "key": "case072.custody.apron",
+   "value": "It stayed in her apron pocket"
+  },
+  {
+   "key": "case072.custody.bin",
+   "value": "Into the shop’s bin"
+  },
+  {
+   "key": "case072.custody.car",
+   "value": "Into the glovebox of the planning director’s car"
+  },
+  {
+   "key": "case072.custody.label",
+   "value": "Where did the adrenaline pen go?"
+  },
+  {
+   "key": "case072.duncan.alley.answer",
+   "value": "I come in that way every morning. Last night around nine I came to pick up the van; there was a navy sedan in the lane, engine running. Not a council plate, a private one. Someone came out of the back door and got into the car. Wore glasses."
+  },
+  {
+   "key": "case072.duncan.alley.answer.demeanor",
+   "value": "He spins his key ring on his finger."
+  },
+  {
+   "key": "case072.duncan.alley.question",
+   "value": "Do you know the back lane?"
+  },
+  {
+   "key": "case072.duncan.body",
+   "value": "Vegetable supplier."
+  },
+  {
+   "key": "case072.duncan.deflect",
+   "value": "I drop the crates off at six every morning."
+  },
+  {
+   "key": "case072.duncan.title",
+   "value": "Duncan Pryor — interview"
+  },
+  {
+   "key": "case072.epilogue.custody.apron",
+   "value": "There was no pen in the apron."
+  },
+  {
+   "key": "case072.epilogue.custody.bin",
+   "value": "There was only the jar in the bin."
+  },
+  {
+   "key": "case072.epilogue.custody.car",
+   "value": "It was recorded that the pen was found in the glovebox."
+  },
+  {
+   "key": "case072.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; the lot was vacated in January."
+  },
+  {
+   "key": "case072.epilogue.verdict.hoang",
+   "value": "Hoang Minh was arrested; the shop was sold."
+  },
+  {
+   "key": "case072.epilogue.verdict.kalani",
+   "value": "Kalani Mahoe was arrested; the pen stayed in the glovebox."
+  },
+  {
+   "key": "case072.epilogue.verdict.sinclair",
+   "value": "Robert Sinclair was arrested; the street’s regeneration plan was suspended. The 2012 report was declared void."
+  },
+  {
+   "key": "case072.evidence.archive",
+   "value": "The 2012 file"
+  },
+  {
+   "key": "case072.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case072.evidence.car",
+   "value": "Car search"
+  },
+  {
+   "key": "case072.evidence.receipt",
+   "value": "Till receipt"
+  },
+  {
+   "key": "case072.feedback.accident",
+   "value": "There’s no shrimp in the pot, only in her bowl; and someone took the pen."
+  },
+  {
+   "key": "case072.feedback.hoang",
+   "value": "The son wanted to sell, but the pen and the jar weren’t with him; the sedan isn’t his."
+  },
+  {
+   "key": "case072.feedback.kalani",
+   "value": "The kitchen hand left at nine and told you about the door; the pen wasn’t with her."
+  },
+  {
+   "key": "case072.feedback.sinclair",
+   "value": "The victim’s adrenaline pen and the jar lid were in his car, his print on the pen; the supplier saw someone in glasses come out of the back door and get into his sedan. The till receipt only shows the payment. The 2012 file carries the same ‘shrimp’ pretext."
+  },
+  {
+   "key": "case072.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case072.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Branch"
+  },
+  {
+   "key": "case072.file.value.location",
+   "value": "Hopkins Street, Footscray"
+  },
+  {
+   "key": "case072.file.value.number",
+   "value": "BDA-MEL-2030-0381"
+  },
+  {
+   "key": "case072.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case072.file.value.reporter",
+   "value": "The victim’s son"
+  },
+  {
+   "key": "case072.hoang.body",
+   "value": "The victim’s son."
+  },
+  {
+   "key": "case072.hoang.deflect",
+   "value": "My mother’s pots are older than me."
+  },
+  {
+   "key": "case072.hoang.shop.answer",
+   "value": "I wanted to sell, I admit it; the offer was good. My mother never forgot 2012. They shut our first shop with a hygiene report, and the man who wrote it is now the planning director. My mother used to say, ‘Same man, same game.’ In the evening I was in the kitchen, then I went home, and I came back around ten."
+  },
+  {
+   "key": "case072.hoang.shop.answer.demeanor",
+   "value": "He rolls down his jacket sleeves and buttons them."
+  },
+  {
+   "key": "case072.hoang.shop.question",
+   "value": "Was your mother going to sell the shop?"
+  },
+  {
+   "key": "case072.hoang.title",
+   "value": "Hoang Minh — interview"
+  },
+  {
+   "key": "case072.kalani.body",
+   "value": "Kitchen hand."
+  },
+  {
+   "key": "case072.kalani.bowl.answer",
+   "value": "She did, herself, after closing, every night. She put the bowl on the counter and went to lock the front door. I left at nine, by the back door. The door was ajar. No prawn comes into this kitchen, not in thirty years."
+  },
+  {
+   "key": "case072.kalani.bowl.answer.demeanor",
+   "value": "She takes off her bandana and squeezes it in her hand."
+  },
+  {
+   "key": "case072.kalani.bowl.question",
+   "value": "Who made Lan’s last bowl?"
+  },
+  {
+   "key": "case072.kalani.deflect",
+   "value": "I chop coriander; I don’t interfere with anyone."
+  },
+  {
+   "key": "case072.kalani.title",
+   "value": "Kalani Mahoe — interview"
+  },
+  {
+   "key": "case072.method.cross",
+   "value": "Accidental contamination in the kitchen"
+  },
+  {
+   "key": "case072.method.heart",
+   "value": "Heart attack"
+  },
+  {
+   "key": "case072.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case072.method.paste",
+   "value": "Shrimp paste was added to her bowl and her pen was taken"
+  },
+  {
+   "key": "case072.offer.subtitle",
+   "value": "PHO  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case072.offer.summary",
+   "value": "The owner of the street’s oldest pho shop was found in her own kitchen, without her pen."
+  },
+  {
+   "key": "case072.offer.title",
+   "value": "FILE #072"
+  },
+  {
+   "key": "case072.person.duncan.info",
+   "value": "47, vegetable supplier."
+  },
+  {
+   "key": "case072.person.duncan.name",
+   "value": "Duncan Pryor"
+  },
+  {
+   "key": "case072.person.hoang.info",
+   "value": "36, the victim’s son; head chef at the restaurant."
+  },
+  {
+   "key": "case072.person.hoang.name",
+   "value": "Hoang Minh"
+  },
+  {
+   "key": "case072.person.kalani.info",
+   "value": "30, kitchen hand."
+  },
+  {
+   "key": "case072.person.kalani.name",
+   "value": "Kalani Mahoe"
+  },
+  {
+   "key": "case072.person.sinclair.info",
+   "value": "58, the council’s planning director."
+  },
+  {
+   "key": "case072.person.sinclair.name",
+   "value": "Robert Sinclair"
+  },
+  {
+   "key": "case072.person.vy.info",
+   "value": "22, waitress; student."
+  },
+  {
+   "key": "case072.person.vy.name",
+   "value": "Vy Lam"
+  },
+  {
+   "key": "case072.receipt.body",
+   "value": "Hopkins Street pho shop, evening of 29 November:\n\n· Table 4 — 1 pho tái, 1 tea. Paid 19.40, cardholder: Robert Sinclair.\n· No till transactions after 19.40.\n\nNote: the till only records payments; it does not record who comes and goes from the shop."
+  },
+  {
+   "key": "case072.receipt.title",
+   "value": "TILL RECEIPT"
+  },
+  {
+   "key": "case072.report.body",
+   "value": "On the night of 29 November 2030, the owner of the pho shop on Hopkins Street, Footscray, Hoang Thi Lan (69), was found dead in the kitchen after closing. She had a severe shellfish allergy; her adrenaline pen was not on her.\n\nHer son, the head chef Hoang Minh, found the body at 22.15. The kitchen hand Kalani Mahoe, the waitress Vy Lam, the supplier Duncan Pryor and the council planning director Robert Sinclair, who came to dinner that evening, are to be interviewed."
+  },
+  {
+   "key": "case072.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case072.request.archive",
+   "value": "Request permission to open the 2012 file from the archive"
+  },
+  {
+   "key": "case072.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case072.request.car",
+   "value": "Request permission to search the planning director’s car"
+  },
+  {
+   "key": "case072.request.receipt",
+   "value": "Request the shop’s till receipts"
+  },
+  {
+   "key": "case072.sinclair.body",
+   "value": "Council planning director."
+  },
+  {
+   "key": "case072.sinclair.deflect",
+   "value": "I’ve been planning this neighbourhood for twenty years."
+  },
+  {
+   "key": "case072.sinclair.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case072.sinclair.end.decoy.receipt",
+   "value": "The receipt’s right there: I paid at twenty to eight and left. The death was after nine. I wasn’t there at that hour."
+  },
+  {
+   "key": "case072.sinclair.end.presented.car",
+   "value": "The back door was open; I wanted to go back and talk. The bowl was on the counter, she was at the front, at the lock. The jar was in my pocket; I’d used it in 2012 too, as the report’s ‘evidence’. I took the pen from her apron; it was on the hook. That lot had to be empty by January. I’d promised the coordinator."
+  },
+  {
+   "key": "case072.sinclair.end.question",
+   "value": "You killed Lan."
+  },
+  {
+   "key": "case072.sinclair.night.answer",
+   "value": "I ate, and I politely shared some information about the plan. Ms Lan was upset. Everyone knew about her allergy; perhaps a supplier’s mistake."
+  },
+  {
+   "key": "case072.sinclair.night.answer.demeanor",
+   "value": "He takes off his glasses and wipes them with his handkerchief."
+  },
+  {
+   "key": "case072.sinclair.night.question",
+   "value": "What did you talk about at the shop in the evening?"
+  },
+  {
+   "key": "case072.sinclair.title",
+   "value": "Robert Sinclair — interview"
+  },
+  {
+   "key": "case072.summary.evidence",
+   "value": "The waitress had to be heard before the autopsy. The till receipt was a decoy. The son told of 2012, the supplier of the sedan; the archive and the search completed each other."
+  },
+  {
+   "key": "case072.summary.lesson",
+   "value": "The receipt said he left. It didn’t say he didn’t come back."
+  },
+  {
+   "key": "case072.summary.location",
+   "value": "Hopkins Street — November 2030"
+  },
+  {
+   "key": "case072.summary.truth",
+   "value": "In 2012 the inspector Robert Sinclair shut Lan’s first shop with a ‘shrimp contamination’ report, and the block passed to a developer. Eighteen years later, as planning director, he needed the last lot on the same street. He paid the bill, came back through the back door, added shrimp paste to Lan’s bowl and took her pen."
+  },
+  {
+   "key": "case072.suspect.label",
+   "value": "Who killed Hoang Thi Lan?"
+  },
+  {
+   "key": "case072.tablet.caseLine",
+   "value": "FILE #072  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case072.time.out",
+   "value": "21.00"
+  },
+  {
+   "key": "case072.time.pay",
+   "value": "19.40"
+  },
+  {
+   "key": "case072.time.sedan",
+   "value": "21.10"
+  },
+  {
+   "key": "case072.title",
+   "value": "File #072 — Pho"
+  },
+  {
+   "key": "case072.verdict.accident",
+   "value": "Nobody — a supplier’s mistake"
+  },
+  {
+   "key": "case072.verdict.hoang",
+   "value": "Hoang Minh"
+  },
+  {
+   "key": "case072.verdict.kalani",
+   "value": "Kalani Mahoe"
+  },
+  {
+   "key": "case072.verdict.sinclair",
+   "value": "Robert Sinclair"
+  },
+  {
+   "key": "case072.vy.body",
+   "value": "Waitress."
+  },
+  {
+   "key": "case072.vy.deflect",
+   "value": "I just carry plates."
+  },
+  {
+   "key": "case072.vy.gone",
+   "value": "Vy Lam quit and went to her family in Sydney. Her phone is off."
+  },
+  {
+   "key": "case072.vy.table.answer",
+   "value": "That man from the council came again. He and Auntie Lan talked, voices got loud; ‘This time the paperwork is clean, this time you can’t shut me down,’ Auntie said. The man paid and left. Then… I forgot to close the kitchen’s back door. I’m quitting this job."
+  },
+  {
+   "key": "case072.vy.table.answer.demeanor",
+   "value": "She takes off her apron, folds it, unfolds it again."
+  },
+  {
+   "key": "case072.vy.table.question",
+   "value": "Did anything unusual happen at the tables in the evening?"
+  },
+  {
+   "key": "case072.vy.title",
+   "value": "Vy Lam — interview"
+  },
+  {
+   "key": "case072.item.pen.name",
+   "value": "Adrenaline pen"
+  },
+  {
+   "key": "case072.item.pen.detail",
+   "value": "The victim’s auto-injector; it came out of the glovebox of the planning director’s car."
+  },
+  {
+   "key": "case072.item.paste.name",
+   "value": "Shrimp paste jar"
+  },
+  {
+   "key": "case072.item.paste.detail",
+   "value": "A small jar of shrimp paste that shouldn’t have been in the kitchen; in the bin."
+  },
+  {
+   "key": "case072.item.hygiene.name",
+   "value": "2012 hygiene report"
+  },
+  {
+   "key": "case072.item.hygiene.detail",
+   "value": "The report that shut the first shop; the signature is clear."
+  }
+ ]
+}
