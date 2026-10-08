@@ -440,7 +440,7 @@ def desk_theme():
  breath = highpass(breath, 160)
 
  for i in range(len(out)):
-  out[i] = keys[i] + breath[i]
+  out[i] = keys[i]  # nefes katmanı kaldırıldı: uğultu bırakmasın
  out = wrap_tail(out, LOOP)
  return normalize(out, 0.26)
 

@@ -280,14 +280,12 @@ public sealed partial class BubeApp : MonoBehaviour {
  // bilmek zorunda değil.
  void SetRoomSound(string sceneName) {
   if(audioDirector==null)return;
-  string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
-  // Yağmurlu masada gece odası yerine yağmur sesi çalar; gök gürültüsü çizimle birlikte gelir.
-  if(game!=null && DeskWeather=="rain" && (caseAmbience==null || caseAmbience=="room_night"))caseAmbience="room_rain";
   switch(sceneName) {
    case "MainMenuScene": audioDirector.PlayMusic("menu_theme"); audioDirector.PlayAmbience(null); audioDirector.Scatter(false); audioDirector.Room("menu"); break;
    // Görüşme odasında alçak bir gerilim katmanı çalar; yanıta göre değişmez.
    case "InterviewScene": audioDirector.PlayMusic("interview_theme"); audioDirector.PlayAmbience("room_interview"); audioDirector.Room("interview"); audioDirector.Scatter(true); break;
-   default: audioDirector.PlayMusic("desk_theme"); audioDirector.PlayAmbience(caseAmbience); audioDirector.Room("office"); audioDirector.Scatter(true); break;
+   // 8 Ekim 2026: masada sürekli ortam sesi (yağmur/gece hışırtısı) uğultu olarak duyuluyordu; kaldırıldı.
+   default: audioDirector.PlayMusic("desk_theme"); audioDirector.PlayAmbience(null); audioDirector.Room("office"); audioDirector.Scatter(true); break;
   }
  }
 
