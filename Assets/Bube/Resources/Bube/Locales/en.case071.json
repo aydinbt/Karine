@@ -1,0 +1,404 @@
+{
+ "entries": [
+  {
+   "key": "case071.autopsy.body",
+   "value": "· Cause of death: multiple trauma from a fall from a height.\n· Rust and paint on the palms; he grabbed the railing as he fell, and the railing came away in his hands.\n· No other blow.\n· Time of death: 21.00–22.00."
+  },
+  {
+   "key": "case071.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case071.bao.body",
+   "value": "Pier fisherman."
+  },
+  {
+   "key": "case071.bao.deflect",
+   "value": "I’ve sat on the same stone for thirty years."
+  },
+  {
+   "key": "case071.bao.light.answer",
+   "value": "The reading lamp came on in the gallery, like every evening. Around nine a second light went up the stairs, a torch. Then a shout. Then the second light came down and walked towards the harbour master’s office. I know Lachlan Reid’s walk; he always has a radio in his hand."
+  },
+  {
+   "key": "case071.bao.light.answer.demeanor",
+   "value": "He winds his fishing line without looking up."
+  },
+  {
+   "key": "case071.bao.light.question",
+   "value": "Did you see anything at the tower in the evening?"
+  },
+  {
+   "key": "case071.bao.title",
+   "value": "Bao Tran-Le — interview"
+  },
+  {
+   "key": "case071.clue.found",
+   "value": "The guide finds the archivist at the foot of the tower."
+  },
+  {
+   "key": "case071.clue.lamp",
+   "value": "The gallery’s reading lamp is on, like every evening."
+  },
+  {
+   "key": "case071.clue.second",
+   "value": "A second light goes up the stairs; then a shout."
+  },
+  {
+   "key": "case071.clue.source.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.clue.source.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.custody.label",
+   "value": "Where did the archivist’s file go?"
+  },
+  {
+   "key": "case071.custody.office",
+   "value": "Into the harbour master’s drawer"
+  },
+  {
+   "key": "case071.custody.sea",
+   "value": "Into the sea"
+  },
+  {
+   "key": "case071.custody.tower",
+   "value": "It stayed in the tower"
+  },
+  {
+   "key": "case071.epilogue.custody.office",
+   "value": "It was recorded that the file was found in the harbour master’s office."
+  },
+  {
+   "key": "case071.epilogue.custody.sea",
+   "value": "The file wasn’t in the sea."
+  },
+  {
+   "key": "case071.epilogue.custody.tower",
+   "value": "The folder in the gallery was empty."
+  },
+  {
+   "key": "case071.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; the file disappeared."
+  },
+  {
+   "key": "case071.epilogue.verdict.bao",
+   "value": "Bao Tran-Le was arrested; the pier stood empty."
+  },
+  {
+   "key": "case071.epilogue.verdict.lachlan",
+   "value": "Lachlan Reid was arrested; the Liaison Freight manifests went into the Footscray branch’s file."
+  },
+  {
+   "key": "case071.epilogue.verdict.ruby",
+   "value": "Ruby Aldous was arrested; the bolts stayed in the drawer."
+  },
+  {
+   "key": "case071.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case071.evidence.office",
+   "value": "Harbour office search"
+  },
+  {
+   "key": "case071.evidence.radio",
+   "value": "Radio log"
+  },
+  {
+   "key": "case071.evidence.tower",
+   "value": "Tower examination"
+  },
+  {
+   "key": "case071.feedback.accident",
+   "value": "The bolts weren’t in place, and there are spanner scratches in their sockets."
+  },
+  {
+   "key": "case071.feedback.bao",
+   "value": "The fisherman was on the pier and told you what he saw."
+  },
+  {
+   "key": "case071.feedback.lachlan",
+   "value": "The railing bolts and the spanner that loosened them were in his drawer, with his print; the handheld radio was used at 21.40. The radio log doesn’t save him: the log doesn’t distinguish the handheld. The fisherman saw the light come down to the harbour office."
+  },
+  {
+   "key": "case071.feedback.ruby",
+   "value": "The guide had a key, but the light walked to the harbour office; the bolts didn’t come from her."
+  },
+  {
+   "key": "case071.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case071.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Branch"
+  },
+  {
+   "key": "case071.file.value.location",
+   "value": "Williamstown, Melbourne"
+  },
+  {
+   "key": "case071.file.value.number",
+   "value": "BDA-MEL-2030-0367"
+  },
+  {
+   "key": "case071.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case071.file.value.reporter",
+   "value": "Volunteer guide"
+  },
+  {
+   "key": "case071.lachlan.body",
+   "value": "Harbour master."
+  },
+  {
+   "key": "case071.lachlan.deflect",
+   "value": "The harbour is my responsibility; every light, every sound."
+  },
+  {
+   "key": "case071.lachlan.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case071.lachlan.end.decoy.radio",
+   "value": "The radio log’s right there: I was on the channel from quarter to nine until after ten. My voice never drops out."
+  },
+  {
+   "key": "case071.lachlan.end.presented.office",
+   "value": "The handheld was in my pocket; I patched the channel through and went up talking the whole way. I’d loosened the bolts in the afternoon; he used to read leaning on that gallery. I asked for the file, he wouldn’t give it, he stepped back. Thirty years ago I signed for those containers without looking; the money was good. The ‘Liaison’ people still call, still pay."
+  },
+  {
+   "key": "case071.lachlan.end.question",
+   "value": "You sent Graham off the gallery."
+  },
+  {
+   "key": "case071.lachlan.night.answer",
+   "value": "I was on duty. Graham was old; that railing is a hundred years old."
+  },
+  {
+   "key": "case071.lachlan.night.answer.demeanor",
+   "value": "He strokes his beard with his palm."
+  },
+  {
+   "key": "case071.lachlan.night.question",
+   "value": "Where were you in the evening?"
+  },
+  {
+   "key": "case071.lachlan.title",
+   "value": "Lachlan Reid — interview"
+  },
+  {
+   "key": "case071.method.faint",
+   "value": "He fell from a dizzy spell"
+  },
+  {
+   "key": "case071.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case071.method.rail",
+   "value": "He was pushed against a railing whose bolts had been loosened"
+  },
+  {
+   "key": "case071.method.rot",
+   "value": "The rotten railing gave way on its own"
+  },
+  {
+   "key": "case071.offer.subtitle",
+   "value": "TIME BALL  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case071.offer.summary",
+   "value": "The harbour archivist was found at the foot of the old tower; the harbour master’s voice was on the radio at that hour."
+  },
+  {
+   "key": "case071.offer.title",
+   "value": "FILE #071"
+  },
+  {
+   "key": "case071.office.body",
+   "value": "Lachlan Reid’s room at the harbour office (with the branch chief’s approval):\n\n· On the desk, a spare handheld radio; battery nearly flat, last used 21.40, its channel patched through to the main radio.\n· In the drawer, a spanner and two bolts from the gallery railing; Lachlan Reid’s fingerprint on the spanner.\n· The archivist’s missing file: cargo manifests from the 1990s, consignee ‘Liaison Freight’, harbour-side signature: L. Reid."
+  },
+  {
+   "key": "case071.office.title",
+   "value": "HARBOUR OFFICE — SEARCH"
+  },
+  {
+   "key": "case071.person.bao.info",
+   "value": "60, fisherman on the pier."
+  },
+  {
+   "key": "case071.person.bao.name",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.person.lachlan.info",
+   "value": "54, Williamstown harbour master."
+  },
+  {
+   "key": "case071.person.lachlan.name",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.person.ruby.info",
+   "value": "26, volunteer guide at the lighthouse."
+  },
+  {
+   "key": "case071.person.ruby.name",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.radio.body",
+   "value": "Williamstown harbour office radio log, 21 November:\n\n· 20.45 – 22.10, Lachlan Reid’s voice on the main channel, uninterrupted: ship traffic, tug calls.\n\nNote: the main channel also writes broadcasts from the harbour office’s spare handheld radio to the same log; the log does not distinguish which device a broadcast came from."
+  },
+  {
+   "key": "case071.radio.title",
+   "value": "HARBOUR RADIO LOG"
+  },
+  {
+   "key": "case071.report.body",
+   "value": "On the morning of 22 November 2030, the harbour archivist Graham Teale (71) was found dead at the foot of the old time ball tower in Williamstown. Part of the gallery railing was missing.\n\nThe volunteer guide Ruby Aldous found the body at 07.30. The harbour master Lachlan Reid said, ‘I was on the radio all evening.’ The fisherman on the pier, Bao Tran-Le, is to be interviewed."
+  },
+  {
+   "key": "case071.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case071.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case071.request.office",
+   "value": "Request permission to search the harbour master’s room"
+  },
+  {
+   "key": "case071.request.radio",
+   "value": "Request the harbour radio log"
+  },
+  {
+   "key": "case071.request.tower",
+   "value": "Request an examination of the tower"
+  },
+  {
+   "key": "case071.ruby.body",
+   "value": "Volunteer guide."
+  },
+  {
+   "key": "case071.ruby.deflect",
+   "value": "I just give the tours."
+  },
+  {
+   "key": "case071.ruby.gone",
+   "value": "Ruby Aldous withdrew her statement through her lawyer. She never agreed to another interview."
+  },
+  {
+   "key": "case071.ruby.key.answer",
+   "value": "Me and the harbour master. Yesterday at noon Graham showed me a file; ‘I’m giving this to the paper tomorrow, everyone will see who it is,’ he said. He was going up the tower in the evening; he liked reading in the gallery. I… I don’t think I want to say anything more."
+  },
+  {
+   "key": "case071.ruby.key.answer.demeanor",
+   "value": "She pulls the zip of her windcheater up to her chin."
+  },
+  {
+   "key": "case071.ruby.key.question",
+   "value": "Who has keys to the tower?"
+  },
+  {
+   "key": "case071.ruby.title",
+   "value": "Ruby Aldous — interview"
+  },
+  {
+   "key": "case071.summary.evidence",
+   "value": "The guide had to be heard before the tower examination. The radio log was a decoy: it didn’t distinguish the handheld. The fisherman saw the second light; the search found the bolts and the file."
+  },
+  {
+   "key": "case071.summary.lesson",
+   "value": "His voice was on the channel. He was on the stairs."
+  },
+  {
+   "key": "case071.summary.location",
+   "value": "Williamstown — November 2030"
+  },
+  {
+   "key": "case071.summary.truth",
+   "value": "Thirty years ago Lachlan Reid signed for containers arriving for ‘Liaison Freight’ without looking at them. The archivist Graham Teale found the manifests and was going to give them to the paper. In the afternoon Reid loosened the bolts on the gallery railing; in the evening he went up the tower talking into the handheld radio, took the file, and when Graham stepped back, the railing gave way."
+  },
+  {
+   "key": "case071.suspect.label",
+   "value": "Who killed Graham Teale?"
+  },
+  {
+   "key": "case071.tablet.caseLine",
+   "value": "FILE #071  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case071.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case071.time.lamp",
+   "value": "evening"
+  },
+  {
+   "key": "case071.time.second",
+   "value": "21.00"
+  },
+  {
+   "key": "case071.title",
+   "value": "File #071 — Time Ball"
+  },
+  {
+   "key": "case071.tower.body",
+   "value": "Time ball tower, gallery:\n\n· The two bolts of the missing railing section are not in place; fresh scratches in the bolt sockets, loosened with a spanner.\n· In the gallery, a reading lamp and an empty file folder.\n· The door was found locked; not forced."
+  },
+  {
+   "key": "case071.tower.title",
+   "value": "TOWER EXAMINATION"
+  },
+  {
+   "key": "case071.verdict.accident",
+   "value": "Nobody — the railing was rotten"
+  },
+  {
+   "key": "case071.verdict.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.verdict.lachlan",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.verdict.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.item.radio.name",
+   "value": "Handheld radio"
+  },
+  {
+   "key": "case071.item.radio.detail",
+   "value": "The harbour office’s spare handheld radio; its channel patched through to the main radio."
+  },
+  {
+   "key": "case071.item.manifest.name",
+   "value": "Cargo manifest"
+  },
+  {
+   "key": "case071.item.manifest.detail",
+   "value": "A yellowed manifest from the 1990s; consignee ‘Liaison Freight’."
+  },
+  {
+   "key": "case071.item.rail.name",
+   "value": "Gallery railing section"
+  },
+  {
+   "key": "case071.item.rail.detail",
+   "value": "A section removed from the tower’s gallery railing, its screws freshly loosened."
+  }
+ ]
+}

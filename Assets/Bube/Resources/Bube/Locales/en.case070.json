@@ -1,0 +1,548 @@
+{
+ "entries": [
+  {
+   "key": "case070.autopsy.body",
+   "value": "· Cause of death: crush injury to the chest.\n· No grip marks on the wrists; he was conscious as he went down and tried to climb out.\n· A small, old wound on the back of the neck; unrelated.\n· Time of death: 23.30–00.30."
+  },
+  {
+   "key": "case070.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case070.bid.body",
+   "value": "Consortium file:\n\n· Guarantor: Pacific Liaison Trust. Authorised signatory ‘Regional Coordinator’.\n· Annex: a list of ‘transition bonuses for current depot staff’; first on the list, Paul Kerrigan, ‘shift supervisor — smooth handover’.\n· Maeve Sullivan’s note: ‘the report would delay the tender.’"
+  },
+  {
+   "key": "case070.bid.title",
+   "value": "TENDER FILE"
+  },
+  {
+   "key": "case070.clue.found",
+   "value": "The technician finds Neil under the tram; the key slot is empty."
+  },
+  {
+   "key": "case070.clue.hiss",
+   "value": "The watchman hears brake air being released, then footsteps heading for the office."
+  },
+  {
+   "key": "case070.clue.park",
+   "value": "The driver parks the tram over the pit and hangs the brake key on the supervisor’s board."
+  },
+  {
+   "key": "case070.clue.source.cormac",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.clue.source.dimitri",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.clue.source.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.cormac.body",
+   "value": "Driver."
+  },
+  {
+   "key": "case070.cormac.deflect",
+   "value": "I just drive."
+  },
+  {
+   "key": "case070.cormac.park.answer",
+   "value": "At ten, over the pit. I put the brake on and hung the key on the supervisor’s board; that’s the rule. That tram struggled to stop twice last week; I told Neil."
+  },
+  {
+   "key": "case070.cormac.park.answer.demeanor",
+   "value": "He turns his cap in both hands."
+  },
+  {
+   "key": "case070.cormac.park.question",
+   "value": "Did you park the tram?"
+  },
+  {
+   "key": "case070.cormac.title",
+   "value": "Cormac Byrne — interview"
+  },
+  {
+   "key": "case070.custody.board",
+   "value": "Back to the key board"
+  },
+  {
+   "key": "case070.custody.label",
+   "value": "Where did the brake lever key go?"
+  },
+  {
+   "key": "case070.custody.locker",
+   "value": "To the shift supervisor’s locker"
+  },
+  {
+   "key": "case070.custody.pit",
+   "value": "To the bottom of the pit"
+  },
+  {
+   "key": "case070.dimitri.body",
+   "value": "Night watchman."
+  },
+  {
+   "key": "case070.dimitri.deflect",
+   "value": "Forty years on these rails; I know the sounds."
+  },
+  {
+   "key": "case070.dimitri.sound.answer",
+   "value": "Towards midnight a brake let its air out; I listened to that hiss for forty years. Then the sound of the rails. Then footsteps, towards the office. Only the supervisor was in the office; Paul Kerrigan turned the light on, then off."
+  },
+  {
+   "key": "case070.dimitri.sound.answer.demeanor",
+   "value": "He strokes his moustache."
+  },
+  {
+   "key": "case070.dimitri.sound.question",
+   "value": "What did you hear last night?"
+  },
+  {
+   "key": "case070.dimitri.title",
+   "value": "Dimitri Kostas — interview"
+  },
+  {
+   "key": "case070.epilogue.custody.board",
+   "value": "That key wasn’t on the board."
+  },
+  {
+   "key": "case070.epilogue.custody.locker",
+   "value": "It was recorded that the key was found in the supervisor’s locker."
+  },
+  {
+   "key": "case070.epilogue.custody.pit",
+   "value": "There was only a torch and a brake pad in the pit."
+  },
+  {
+   "key": "case070.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; the trams stayed on the rails."
+  },
+  {
+   "key": "case070.epilogue.verdict.kerrigan",
+   "value": "Paul Kerrigan was arrested; fourteen trams were withdrawn from service. The tender committee removed the Pacific Liaison guarantee from the file."
+  },
+  {
+   "key": "case070.epilogue.verdict.maeve",
+   "value": "Maeve Sullivan was questioned; the supervisor went back to work."
+  },
+  {
+   "key": "case070.epilogue.verdict.wiremu",
+   "value": "Wiremu Tane was arrested; the key stayed in the locker."
+  },
+  {
+   "key": "case070.evidence.bid",
+   "value": "Tender file"
+  },
+  {
+   "key": "case070.evidence.locker",
+   "value": "Locker search"
+  },
+  {
+   "key": "case070.evidence.mail",
+   "value": "Union correspondence"
+  },
+  {
+   "key": "case070.evidence.pit",
+   "value": "Pit examination"
+  },
+  {
+   "key": "case070.feedback.accident",
+   "value": "The brake release lever’s key wasn’t in its slot; someone put it in and took it out."
+  },
+  {
+   "key": "case070.feedback.kerrigan",
+   "value": "The brake key and the pages torn from the logbook were in his locker, his print on the key; Neil had written to tell him he’d be there that night. The watchman heard footsteps heading for the office after the brake."
+  },
+  {
+   "key": "case070.feedback.maeve",
+   "value": "The contracts manager wanted to delay the report, but she wasn’t at the depot that night."
+  },
+  {
+   "key": "case070.feedback.wiremu",
+   "value": "The technician found the body; the brake key was on the board, then in the supervisor’s locker, not with him."
+  },
+  {
+   "key": "case070.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case070.file.value.bureau",
+   "value": "BDA Melbourne — Footscray Branch"
+  },
+  {
+   "key": "case070.file.value.location",
+   "value": "Footscray tram depot, Melbourne"
+  },
+  {
+   "key": "case070.file.value.number",
+   "value": "BDA-MEL-2030-0351"
+  },
+  {
+   "key": "case070.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case070.file.value.reporter",
+   "value": "Maintenance technician"
+  },
+  {
+   "key": "case070.haddad.body",
+   "value": "Union health and safety representative."
+  },
+  {
+   "key": "case070.haddad.deflect",
+   "value": "Fixing a brake on paper is easy."
+  },
+  {
+   "key": "case070.haddad.rep.answer",
+   "value": "The brakes on fourteen trams. The maintenance log says ‘sound’, but the parts were never replaced. The report was going to the tender committee on Monday. Maeve Sullivan asked us to postpone the report until ‘after the tender’."
+  },
+  {
+   "key": "case070.haddad.rep.answer.demeanor",
+   "value": "She puts her phone face down on the table."
+  },
+  {
+   "key": "case070.haddad.rep.question",
+   "value": "What was Neil reporting?"
+  },
+  {
+   "key": "case070.haddad.title",
+   "value": "Rania Haddad — interview"
+  },
+  {
+   "key": "case070.kerrigan.body",
+   "value": "Night shift supervisor."
+  },
+  {
+   "key": "case070.kerrigan.deflect",
+   "value": "Everything in the depot is logged."
+  },
+  {
+   "key": "case070.kerrigan.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.locker",
+   "value": "I took the key from the board. I wanted to scare him, get him out of the pit, make him drop the report. When the air went, the tram rolled. I couldn’t stop it. I didn’t stop it. I tore out the pages. My name was on the bonus list; getting onto that list took me ten years."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.mail",
+   "value": "I said, ‘Don’t come.’ He came. You know the rest."
+  },
+  {
+   "key": "case070.kerrigan.end.question",
+   "value": "You released the brake."
+  },
+  {
+   "key": "case070.kerrigan.night.answer",
+   "value": "In the office, paperwork. Neil went down into the pit without permission. The trams are old; the brake released on its own."
+  },
+  {
+   "key": "case070.kerrigan.night.answer.demeanor",
+   "value": "He pulls up the zip of his vest."
+  },
+  {
+   "key": "case070.kerrigan.night.question",
+   "value": "Where were you at midnight?"
+  },
+  {
+   "key": "case070.kerrigan.title",
+   "value": "Paul Kerrigan — interview"
+  },
+  {
+   "key": "case070.line_bid.body",
+   "value": "Tender line opened: the consortium, guarantees, payments."
+  },
+  {
+   "key": "case070.line_bid.title",
+   "value": "LINE C — TENDER"
+  },
+  {
+   "key": "case070.line_depot.body",
+   "value": "Depot line opened: lockers, maintenance logs, the key board."
+  },
+  {
+   "key": "case070.line_depot.title",
+   "value": "LINE A — DEPOT"
+  },
+  {
+   "key": "case070.line_union.body",
+   "value": "Union line opened: correspondence, draft reports, meeting notes."
+  },
+  {
+   "key": "case070.line_union.title",
+   "value": "LINE B — UNION"
+  },
+  {
+   "key": "case070.locker.body",
+   "value": "Paul Kerrigan’s depot locker:\n\n· The brake release lever key for tram number 6; Kerrigan’s fingerprint in the grease.\n· Two pages torn from the maintenance log; ‘needs replacing’ notes for fourteen trams.\n· Neil Ashworth’s draft report, half torn."
+  },
+  {
+   "key": "case070.locker.title",
+   "value": "SHIFT SUPERVISOR’S LOCKER — SEARCH"
+  },
+  {
+   "key": "case070.maeve.bid.answer",
+   "value": "Because a tender is a number, and a report is a headline. The consortium’s guarantor is a trust; the trust ‘doesn’t want surprises’. That isn’t a motive for murder, it’s business procedure."
+  },
+  {
+   "key": "case070.maeve.bid.answer.demeanor",
+   "value": "She takes her glasses from their chain and puts them on."
+  },
+  {
+   "key": "case070.maeve.bid.question",
+   "value": "Why did you want to postpone the report?"
+  },
+  {
+   "key": "case070.maeve.body",
+   "value": "Contracts manager at the transport authority."
+  },
+  {
+   "key": "case070.maeve.deflect",
+   "value": "A contract is a number; the rest is noise."
+  },
+  {
+   "key": "case070.maeve.title",
+   "value": "Maeve Sullivan — interview"
+  },
+  {
+   "key": "case070.mail.body",
+   "value": "Neil Ashworth’s last messages:\n\n· To Paul Kerrigan, 14 November: ‘You signed the “sound” notes in the log. Your name will be in Monday’s report. Tonight I’ll take one last look at the brake pads.’\n· Kerrigan’s reply: ‘Don’t come tonight. Let’s talk.’"
+  },
+  {
+   "key": "case070.mail.title",
+   "value": "UNION CORRESPONDENCE"
+  },
+  {
+   "key": "case070.method.brake",
+   "value": "The tram, its brake deliberately released, rolled onto the victim in the pit"
+  },
+  {
+   "key": "case070.method.fall",
+   "value": "He fell into the pit and was crushed"
+  },
+  {
+   "key": "case070.method.fault",
+   "value": "The brake released on its own"
+  },
+  {
+   "key": "case070.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case070.offer.subtitle",
+   "value": "DEPOT  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case070.offer.summary",
+   "value": "A union representative was found in a maintenance pit, under a tram that had rolled onto him."
+  },
+  {
+   "key": "case070.offer.title",
+   "value": "FILE #070"
+  },
+  {
+   "key": "case070.person.cormac.info",
+   "value": "29, tram driver."
+  },
+  {
+   "key": "case070.person.cormac.name",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.person.dimitri.info",
+   "value": "62, retired driver; the depot’s night watchman."
+  },
+  {
+   "key": "case070.person.dimitri.name",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.person.haddad.info",
+   "value": "38, the union’s health and safety representative."
+  },
+  {
+   "key": "case070.person.haddad.name",
+   "value": "Rania Haddad"
+  },
+  {
+   "key": "case070.person.kerrigan.info",
+   "value": "50, night shift supervisor at the tram depot."
+  },
+  {
+   "key": "case070.person.kerrigan.name",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.person.maeve.info",
+   "value": "55, contracts manager at the transport authority."
+  },
+  {
+   "key": "case070.person.maeve.name",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.person.wiremu.info",
+   "value": "44, maintenance technician; found the body."
+  },
+  {
+   "key": "case070.person.wiremu.name",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.pit.body",
+   "value": "Pit number 6 and the tram above it:\n\n· The tram has moved 2.1 metres along its own track; the brake cylinder is empty of air.\n· The brake release lever’s slot is empty; no key inserted.\n· At the bottom of the pit, a torch and a brake pad; the victim was examining the pad."
+  },
+  {
+   "key": "case070.pit.title",
+   "value": "MAINTENANCE PIT EXAMINATION"
+  },
+  {
+   "key": "case070.report.body",
+   "value": "On the night of 15 November 2030, at the Footscray tram depot, the union health and safety representative Neil Ashworth (47) was found dead in maintenance pit number 6, under a tram that had rolled onto him.\n\nThe maintenance technician Wiremu Tane found the body at 01.40. The shift supervisor Paul Kerrigan, Rania Haddad of the union, the driver who parked the tram Cormac Byrne, Maeve Sullivan of the transport authority and the night watchman Dimitri Kostas are to be interviewed."
+  },
+  {
+   "key": "case070.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case070.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case070.request.bid",
+   "value": "Request the tender file"
+  },
+  {
+   "key": "case070.request.line_bid",
+   "value": "Open the tender line"
+  },
+  {
+   "key": "case070.request.line_depot",
+   "value": "Open the depot line"
+  },
+  {
+   "key": "case070.request.line_union",
+   "value": "Open the union line"
+  },
+  {
+   "key": "case070.request.locker",
+   "value": "Request permission to search the shift supervisor’s locker"
+  },
+  {
+   "key": "case070.request.mail",
+   "value": "Request the union correspondence"
+  },
+  {
+   "key": "case070.request.pit",
+   "value": "Request an examination of the maintenance pit"
+  },
+  {
+   "key": "case070.summary.evidence",
+   "value": "Two of the three lines were enough: the depot line gave the key, the union line the ‘don’t come’ message. The tender line showed the motive."
+  },
+  {
+   "key": "case070.summary.lesson",
+   "value": "The log said the brakes were sound. He was the one who wrote the log."
+  },
+  {
+   "key": "case070.summary.location",
+   "value": "Footscray tram depot — November 2030"
+  },
+  {
+   "key": "case070.summary.truth",
+   "value": "For years the shift supervisor Paul Kerrigan wrote ‘sound’ in the maintenance log. The consortium set to win the tender had put him on its ‘smooth handover’ bonus list. Neil Ashworth of the union was going to report the brakes. At night Kerrigan took the key from the board and released the brake while Neil was in the pit."
+  },
+  {
+   "key": "case070.suspect.label",
+   "value": "Who killed Neil Ashworth?"
+  },
+  {
+   "key": "case070.tablet.caseLine",
+   "value": "FILE #070  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case070.time.found",
+   "value": "01.40"
+  },
+  {
+   "key": "case070.time.hiss",
+   "value": "midnight"
+  },
+  {
+   "key": "case070.time.park",
+   "value": "22.00"
+  },
+  {
+   "key": "case070.title",
+   "value": "File #070 — Depot"
+  },
+  {
+   "key": "case070.verdict.accident",
+   "value": "Nobody — the brake released on its own"
+  },
+  {
+   "key": "case070.verdict.kerrigan",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.verdict.maeve",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.verdict.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.wiremu.body",
+   "value": "Maintenance technician."
+  },
+  {
+   "key": "case070.wiremu.deflect",
+   "value": "I go down into that pit every day."
+  },
+  {
+   "key": "case070.wiremu.found.answer",
+   "value": "Neil said he’d look at the brake pads at night. I brought coffee. The tram had rolled. The brake key wasn’t there; that key stays with the shift supervisor, not with us. I helped him with his report too, yes."
+  },
+  {
+   "key": "case070.wiremu.found.answer.demeanor",
+   "value": "He opens his hands in front of him and looks at them."
+  },
+  {
+   "key": "case070.wiremu.found.question",
+   "value": "Why did you go down into the pit?"
+  },
+  {
+   "key": "case070.wiremu.title",
+   "value": "Wiremu Tane — interview"
+  },
+  {
+   "key": "case070.item.key.name",
+   "value": "Brake lever key"
+  },
+  {
+   "key": "case070.item.key.detail",
+   "value": "The removable key of the tram’s brake release lever; it came out of the shift supervisor’s locker."
+  },
+  {
+   "key": "case070.item.log.name",
+   "value": "Brake maintenance log"
+  },
+  {
+   "key": "case070.item.log.detail",
+   "value": "The depot’s maintenance log; the note ‘brakes sound’ in fresh ink."
+  },
+  {
+   "key": "case070.item.report.name",
+   "value": "Union safety report"
+  },
+  {
+   "key": "case070.item.report.detail",
+   "value": "The draft report the victim prepared; the brakes of fourteen trams."
+  }
+ ]
+}
