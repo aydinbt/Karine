@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case060.alley.body",
+   "value": "The bakery’s back alley. 3 November 22.45 – 23.59."
+  },
+  {
+   "key": "case060.alley.title",
+   "value": "ALLEY CAMERA — log transcript"
+  },
+  {
+   "key": "case060.autopsy.body",
+   "value": "· Cause of death: skull fracture.\n· At the back of the head, a long, straight-edged impact mark; wood splinters and flour inside it. It doesn’t match a fall on the stone floor: there is a second, lighter wound, from the fall.\n· No alcohol in the blood.\n· Time of death: 23.00–23.40."
+  },
+  {
+   "key": "case060.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case060.bouchard.body",
+   "value": "Insurance assessor."
+  },
+  {
+   "key": "case060.bouchard.deflect",
+   "value": "I look at policies."
+  },
+  {
+   "key": "case060.bouchard.policy.answer",
+   "value": "A ‘key person’ cover was added for the bakery: if the owner dies, $2.4 million to the business. The beneficiary is the business; and the business’s new partner is a company set up by the manager. The endorsement carries Mr Klein’s signature, but the signature comparison didn’t hold up for me. This policy is reinsured with Laurentide; why Laurentide has multiplied these ‘small business’ policies over the last two years, I’d like to know too."
+  },
+  {
+   "key": "case060.bouchard.policy.answer.demeanor",
+   "value": "She takes her lanyard from her neck and puts it on the table."
+  },
+  {
+   "key": "case060.bouchard.policy.question",
+   "value": "What changed in the policy two months ago?"
+  },
+  {
+   "key": "case060.bouchard.title",
+   "value": "Nadia Bouchard — interview"
+  },
+  {
+   "key": "case060.cctv.event.back",
+   "value": "Camera: The same man returns to the alley eight minutes later and opens the back door with a key."
+  },
+  {
+   "key": "case060.cctv.event.out",
+   "value": "Camera: A man in a quilted gilet comes out of the alley onto the street and walks away."
+  },
+  {
+   "key": "case060.cctv.event.sack",
+   "value": "Camera: The man comes out of the back door with something long wrapped in a sack and walks to the woodpile."
+  },
+  {
+   "key": "case060.cctv.overlay",
+   "value": "MTL-ALY"
+  },
+  {
+   "key": "case060.cctv.period",
+   "value": "3 November 2030"
+  },
+  {
+   "key": "case060.cctv.source",
+   "value": "Camera of the shop opposite"
+  },
+  {
+   "key": "case060.clock.body",
+   "value": "The bakery’s time clock records, 3 November:\n\n· Sophie Gagnon — in 07.00, out 22.00.\n· Yan Tremblay — in 09.12, out 23.05.\n· Dmitri Volkov — in 00.14.\n· Mordecai Klein doesn’t clock in.\n\nThe back door has no clock."
+  },
+  {
+   "key": "case060.clock.title",
+   "value": "TIME CLOCK RECORD"
+  },
+  {
+   "key": "case060.clue.back",
+   "value": "The same man comes back and opens the back door with a key."
+  },
+  {
+   "key": "case060.clue.deliv",
+   "value": "Wood is delivered."
+  },
+  {
+   "key": "case060.clue.found",
+   "value": "The night baker finds Mordecai."
+  },
+  {
+   "key": "case060.clue.out",
+   "value": "The man in the gilet comes out of the alley onto the street."
+  },
+  {
+   "key": "case060.clue.sack",
+   "value": "The man walks to the woodpile with something long wrapped in a sack."
+  },
+  {
+   "key": "case060.clue.source.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.clue.source.luc",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.custody.ash",
+   "value": "Burnt in the wood oven"
+  },
+  {
+   "key": "case060.custody.label",
+   "value": "Where did the peel go?"
+  },
+  {
+   "key": "case060.custody.river",
+   "value": "Thrown into the river"
+  },
+  {
+   "key": "case060.custody.woodpile",
+   "value": "Hidden in the woodpile"
+  },
+  {
+   "key": "case060.dmitri.body",
+   "value": "Night baker."
+  },
+  {
+   "key": "case060.dmitri.deflect",
+   "value": "I make dough, at night."
+  },
+  {
+   "key": "case060.dmitri.found.answer",
+   "value": "I came in by the back door, like every night. The oven was blazing; Mordecai never leaves the oven to anyone, but tonight he had. He was on the floor. A peel was missing; I noticed, because I count the peels. The back door was locked; only I, Mordecai and the manager have the key."
+  },
+  {
+   "key": "case060.dmitri.found.answer.demeanor",
+   "value": "He brushes the flour off his apron with both hands."
+  },
+  {
+   "key": "case060.dmitri.found.question",
+   "value": "How did you find Mordecai?"
+  },
+  {
+   "key": "case060.dmitri.title",
+   "value": "Dmitri Volkov — interview"
+  },
+  {
+   "key": "case060.epilogue.custody.ash",
+   "value": "It was recorded that the peel had been burnt in the oven’s ash."
+  },
+  {
+   "key": "case060.epilogue.custody.river",
+   "value": "The peel’s metal ring came out of the oven’s ash."
+  },
+  {
+   "key": "case060.epilogue.custody.woodpile",
+   "value": "The woodpile was taken apart piece by piece; the peel wasn’t there, only the sack had stayed there for a while."
+  },
+  {
+   "key": "case060.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; the policy paid out."
+  },
+  {
+   "key": "case060.epilogue.verdict.dmitri",
+   "value": "Dmitri Volkov was arrested; the bakery closed."
+  },
+  {
+   "key": "case060.epilogue.verdict.rivka",
+   "value": "Rivka Klein was arrested; the way to the $2.4 million was open."
+  },
+  {
+   "key": "case060.epilogue.verdict.tremblay",
+   "value": "Yan Tremblay was arrested; the forged endorsement was cancelled. The number at Laurentide Réassurance went into the Mile End branch’s file."
+  },
+  {
+   "key": "case060.evidence.alley",
+   "value": "Alley camera"
+  },
+  {
+   "key": "case060.evidence.clock",
+   "value": "Time clock record"
+  },
+  {
+   "key": "case060.evidence.home",
+   "value": "Search of the manager’s house and car"
+  },
+  {
+   "key": "case060.evidence.oven",
+   "value": "Oven examination"
+  },
+  {
+   "key": "case060.feedback.accident",
+   "value": "The floor was dry; the first wound at the back of the head came from a straight-edged tool."
+  },
+  {
+   "key": "case060.feedback.dmitri",
+   "value": "The night baker clocked in half an hour after the death; the camera shows not him but a man in a gilet."
+  },
+  {
+   "key": "case060.feedback.rivka",
+   "value": "The daughter is the heir, but that night she was in Toronto; she was going to sell the bakery anyway."
+  },
+  {
+   "key": "case060.feedback.tremblay",
+   "value": "The victim’s blood and fibres from the peel are on the sack in his boot; eight minutes after clocking out he was caught on camera opening the back door with a key. The time card only shows he went out of the door, not that he went home."
+  },
+  {
+   "key": "case060.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case060.file.value.bureau",
+   "value": "BDM Montreal — Mile End Branch"
+  },
+  {
+   "key": "case060.file.value.location",
+   "value": "Bagels Clark, Mile End, Montreal"
+  },
+  {
+   "key": "case060.file.value.number",
+   "value": "BDM-MTL-2030-0201"
+  },
+  {
+   "key": "case060.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case060.file.value.reporter",
+   "value": "Night baker"
+  },
+  {
+   "key": "case060.gagnon.argue.answer",
+   "value": "I left at ten. Before that Mordecai and the manager were shouting at each other in the back room. Mordecai was saying, ‘I didn’t sign this policy, it’s not my signature.’ The manager said, ‘It’s for your own good.’ I put my headphones on."
+  },
+  {
+   "key": "case060.gagnon.argue.answer.demeanor",
+   "value": "She tugs at the strings of her hood."
+  },
+  {
+   "key": "case060.gagnon.argue.question",
+   "value": "What happened at the bakery in the evening?"
+  },
+  {
+   "key": "case060.gagnon.body",
+   "value": "Cashier."
+  },
+  {
+   "key": "case060.gagnon.deflect",
+   "value": "I’m on the till, in the daytime."
+  },
+  {
+   "key": "case060.gagnon.title",
+   "value": "Sophie Gagnon — interview"
+  },
+  {
+   "key": "case060.home.body",
+   "value": "Yan Tremblay’s house and car (with the branch chief’s approval):\n\n· In the car boot, a sack smeared with flour and bark; on the sack, the victim’s blood and wood fibres from the peel’s handle.\n· On the desk at home, fourteen practice copies of Mordecai Klein’s signature.\n· On his phone, to a number at Laurentide Réassurance, 1 November: ‘The old man is going to the lawyer on Monday.’ Reply: ‘The policy is solid.’"
+  },
+  {
+   "key": "case060.home.title",
+   "value": "MANAGER’S HOUSE AND CAR — SEARCH"
+  },
+  {
+   "key": "case060.luc.alley.answer",
+   "value": "I dropped off the wood at 22.30. There’s a camera at the head of the alley, not the city’s, the shop opposite’s; it looks onto the alley. I didn’t see anything; but in the morning I noticed someone had been through the woodpile before midnight. My stacking was disturbed."
+  },
+  {
+   "key": "case060.luc.alley.answer.demeanor",
+   "value": "He scratches his forehead under his beret."
+  },
+  {
+   "key": "case060.luc.alley.question",
+   "value": "What did you see in the alley during the delivery?"
+  },
+  {
+   "key": "case060.luc.body",
+   "value": "Wood supplier."
+  },
+  {
+   "key": "case060.luc.deflect",
+   "value": "I bring the wood and I go."
+  },
+  {
+   "key": "case060.luc.title",
+   "value": "Luc Pelletier — interview"
+  },
+  {
+   "key": "case060.method.faint",
+   "value": "He fainted in the heat of the oven"
+  },
+  {
+   "key": "case060.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case060.method.peel",
+   "value": "He was struck on the back of the head with an oven peel"
+  },
+  {
+   "key": "case060.method.slip",
+   "value": "He slipped on a wet floor and fell"
+  },
+  {
+   "key": "case060.offer.subtitle",
+   "value": "BAGEL BAKERY  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case060.offer.summary",
+   "value": "The owner of a seventy-year-old bagel bakery was found dead in front of the wood oven; two months ago the bakery was insured for ten times its value."
+  },
+  {
+   "key": "case060.offer.title",
+   "value": "FILE #060"
+  },
+  {
+   "key": "case060.oven.body",
+   "value": "· The stone floor in front of the oven is dry, no flour and water: nothing to cause a slip.\n· One of the peels on the wall is missing; four peels on the rack, five in the dust marks.\n· Something was burnt in the wood oven’s ash during the night: charred wood and a metal ring."
+  },
+  {
+   "key": "case060.oven.title",
+   "value": "OVEN EXAMINATION"
+  },
+  {
+   "key": "case060.person.bouchard.info",
+   "value": "37, insurance assessor for Laurentide Réassurance."
+  },
+  {
+   "key": "case060.person.bouchard.name",
+   "value": "Nadia Bouchard"
+  },
+  {
+   "key": "case060.person.dmitri.info",
+   "value": "52, night baker; he found the body."
+  },
+  {
+   "key": "case060.person.dmitri.name",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.person.gagnon.info",
+   "value": "24, cashier."
+  },
+  {
+   "key": "case060.person.gagnon.name",
+   "value": "Sophie Gagnon"
+  },
+  {
+   "key": "case060.person.luc.info",
+   "value": "58, wood supplier."
+  },
+  {
+   "key": "case060.person.luc.name",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.person.rivka.info",
+   "value": "40, the victim’s daughter."
+  },
+  {
+   "key": "case060.person.rivka.name",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.person.tremblay.info",
+   "value": "44, manager of the bakery."
+  },
+  {
+   "key": "case060.person.tremblay.name",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.report.body",
+   "value": "On the night of 3 November 2030, at the Bagels Clark bakery in Mile End, the owner Mordecai Klein (78) was found dead on the stone floor in front of the wood oven. A wound at the back of his head.\n\nThe night baker Dmitri Volkov found the body at 00.15 when he arrived for his shift. At the bakery in the evening: manager Yan Tremblay, cashier Sophie Gagnon; wood supplier Luc Pelletier made a delivery at 22.30. The victim’s daughter Rivka Klein and insurance assessor Nadia Bouchard arrived in the morning."
+  },
+  {
+   "key": "case060.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case060.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case060.request.clock",
+   "value": "Request the time clock records"
+  },
+  {
+   "key": "case060.request.home",
+   "value": "Request permission to search the manager’s house and car"
+  },
+  {
+   "key": "case060.request.oven",
+   "value": "Request an examination of the oven"
+  },
+  {
+   "key": "case060.rivka.body",
+   "value": "The victim’s daughter."
+  },
+  {
+   "key": "case060.rivka.deflect",
+   "value": "My father knew nothing but this bakery."
+  },
+  {
+   "key": "case060.rivka.title",
+   "value": "Rivka Klein — interview"
+  },
+  {
+   "key": "case060.rivka.will.answer",
+   "value": "To me; but I’m in Toronto, I didn’t want the bakery, I was going to sell it, everyone knew. Yesterday on the phone my father said, ‘Yan’s trying to make me sign something; on Monday I’m going to the lawyer.’ Last night I was in Toronto; I came on the first flight this morning."
+  },
+  {
+   "key": "case060.rivka.will.answer.demeanor",
+   "value": "She straightens the collar of her coat with her fingers."
+  },
+  {
+   "key": "case060.rivka.will.question",
+   "value": "Who was your father going to leave the bakery to?"
+  },
+  {
+   "key": "case060.summary.evidence",
+   "value": "The baker, the cashier and the assessor told of the night and the policy. The time card was a decoy: it showed the exit, not the journey home. The camera showed the return; the search found the sack and the signature practice."
+  },
+  {
+   "key": "case060.summary.lesson",
+   "value": "The card told the truth; just half the story."
+  },
+  {
+   "key": "case060.summary.location",
+   "value": "Mile End — November 2030"
+  },
+  {
+   "key": "case060.summary.truth",
+   "value": "The manager Yan Tremblay forged the owner Mordecai Klein’s signature to add a $2.4 million ‘key person’ cover to the bakery and tied the beneficiary to his own company. Mordecai spotted the forgery and decided to go to a lawyer. Yan clocked out, came back through the back door eight minutes later, struck Mordecai with a peel, laid him in front of the oven and burnt the peel in the oven."
+  },
+  {
+   "key": "case060.suspect.label",
+   "value": "Who killed Mordecai Klein?"
+  },
+  {
+   "key": "case060.tablet.caseLine",
+   "value": "FILE #060  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case060.time.back",
+   "value": "23.14"
+  },
+  {
+   "key": "case060.time.deliv",
+   "value": "22.30"
+  },
+  {
+   "key": "case060.time.found",
+   "value": "00.15"
+  },
+  {
+   "key": "case060.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case060.time.sack",
+   "value": "23.37"
+  },
+  {
+   "key": "case060.title",
+   "value": "File #060 — Bagel Bakery"
+  },
+  {
+   "key": "case060.tremblay.body",
+   "value": "Manager of the bakery."
+  },
+  {
+   "key": "case060.tremblay.deflect",
+   "value": "I kept this bakery on its feet, fifteen years."
+  },
+  {
+   "key": "case060.tremblay.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case060.tremblay.end.decoy.clock",
+   "value": "Look at my card: out at 23.05. You say death was at half past eleven. At that time I was on my way."
+  },
+  {
+   "key": "case060.tremblay.end.presented.home",
+   "value": "On Monday he was going to the lawyer; the endorsement would turn out forged, and so would I. I clocked out, walked to the head of the alley, came back. I struck him with the peel. I laid him in front of the oven; the peel went into the oven. The man at Laurentide had said, ‘The policy is solid, nobody will ask.’ They asked."
+  },
+  {
+   "key": "case060.tremblay.end.question",
+   "value": "You struck Mordecai with the peel."
+  },
+  {
+   "key": "case060.tremblay.night.answer",
+   "value": "I clocked out and went home. Mordecai was at the oven; he was old, he couldn’t stand up properly any more. He slipped, obviously."
+  },
+  {
+   "key": "case060.tremblay.night.answer.demeanor",
+   "value": "He unzips and zips up his gilet."
+  },
+  {
+   "key": "case060.tremblay.night.question",
+   "value": "When did you leave the bakery last night?"
+  },
+  {
+   "key": "case060.tremblay.title",
+   "value": "Yan Tremblay — interview"
+  },
+  {
+   "key": "case060.verdict.accident",
+   "value": "Nobody — he slipped"
+  },
+  {
+   "key": "case060.verdict.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.verdict.rivka",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.verdict.tremblay",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.item.peel.name",
+   "value": "Oven peel ferrule"
+  },
+  {
+   "key": "case060.item.peel.detail",
+   "value": "The metal ring of a long wooden bagel peel; it came out of the wood oven’s ash."
+  },
+  {
+   "key": "case060.item.policy.name",
+   "value": "Insurance policy endorsement"
+  },
+  {
+   "key": "case060.item.policy.detail",
+   "value": "The bakery’s policy endorsement from two months ago; ‘key person’ cover, the beneficiary a company."
+  },
+  {
+   "key": "case060.item.clock.name",
+   "value": "Time card"
+  },
+  {
+   "key": "case060.item.clock.detail",
+   "value": "The manager’s time card; stamped ‘out 23.05’."
+  }
+ ]
+}

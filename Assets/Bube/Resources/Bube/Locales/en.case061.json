@@ -1,0 +1,400 @@
+{
+ "entries": [
+  {
+   "key": "case061.anika.body",
+   "value": "Hockey player."
+  },
+  {
+   "key": "case061.anika.deflect",
+   "value": "I just came in for early practice."
+  },
+  {
+   "key": "case061.anika.found.answer",
+   "value": "White vapour was coming from under the door; my eyes burned. I wanted to take the mask next to the door; the hook was empty. I held my breath and opened the door; Gilles was on the floor. The valve had no handle; I told the police that later, because Gilles had shown me the handles. ‘Don’t touch these,’ he’d said."
+  },
+  {
+   "key": "case061.anika.found.answer.demeanor",
+   "value": "She holds her helmet in her lap with both hands."
+  },
+  {
+   "key": "case061.anika.found.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case061.anika.title",
+   "value": "Anika Sharma — interview"
+  },
+  {
+   "key": "case061.autopsy.body",
+   "value": "· Cause of death: ammonia inhalation; pulmonary oedema.\n· A small, round blow on the left temple; too sharp to have come from a fall. He breathed the gas while unconscious.\n· Time of death: 22.00–23.30 (the previous night)."
+  },
+  {
+   "key": "case061.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case061.clue.check",
+   "value": "The manager writes ‘valves normal’ in the log."
+  },
+  {
+   "key": "case061.clue.found",
+   "value": "The player sees vapour seeping from under the door."
+  },
+  {
+   "key": "case061.clue.note",
+   "value": "The ice master writes in the log that the compressor is old."
+  },
+  {
+   "key": "case061.clue.source.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.clue.source.log",
+   "value": "Maintenance log"
+  },
+  {
+   "key": "case061.custody.bin",
+   "value": "Into the changing room bin"
+  },
+  {
+   "key": "case061.custody.drawer",
+   "value": "Into the manager’s desk drawer"
+  },
+  {
+   "key": "case061.custody.ice",
+   "value": "Into the pipe channel under the rink"
+  },
+  {
+   "key": "case061.custody.label",
+   "value": "Where did the valve handle go?"
+  },
+  {
+   "key": "case061.epilogue.custody.bin",
+   "value": "The bin was empty."
+  },
+  {
+   "key": "case061.epilogue.custody.drawer",
+   "value": "It was recorded that the valve handle was found in the manager’s drawer."
+  },
+  {
+   "key": "case061.epilogue.custody.ice",
+   "value": "The channels were opened; the handle wasn’t there."
+  },
+  {
+   "key": "case061.epilogue.verdict.accident",
+   "value": "The death was ruled a fault; the rink closed for a week, then reopened with the old compressor."
+  },
+  {
+   "key": "case061.epilogue.verdict.anika",
+   "value": "Anika Sharma was questioned and left the team; the handle stayed in the drawer."
+  },
+  {
+   "key": "case061.epilogue.verdict.lavoie",
+   "value": "Marc-André Lavoie was arrested; the fake renewal was reported to the city. Laurentide Réassurance’s ‘municipal infrastructure programme’ went into the Mile End branch’s file."
+  },
+  {
+   "key": "case061.epilogue.verdict.ouellet",
+   "value": "Denis Ouellet was arrested; the old compressor kept running."
+  },
+  {
+   "key": "case061.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case061.evidence.log",
+   "value": "Maintenance log"
+  },
+  {
+   "key": "case061.evidence.office",
+   "value": "Manager’s office search"
+  },
+  {
+   "key": "case061.evidence.room",
+   "value": "Compressor room examination"
+  },
+  {
+   "key": "case061.feedback.accident",
+   "value": "The valve handle had been removed and the door was locked from outside."
+  },
+  {
+   "key": "case061.feedback.anika",
+   "value": "The player came in the morning and opened the door; the death was the previous night."
+  },
+  {
+   "key": "case061.feedback.lavoie",
+   "value": "The valve handle and the missing mask came out of his office; his print is on the handle. The ‘normal’ line in the log falls within the time of death, and only he and the victim could enter the room with a key."
+  },
+  {
+   "key": "case061.feedback.ouellet",
+   "value": "The coach had fallen out with the victim, but he has no key to the compressor room and was at home that night."
+  },
+  {
+   "key": "case061.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case061.file.value.bureau",
+   "value": "BDM Montreal — Mile End Branch"
+  },
+  {
+   "key": "case061.file.value.location",
+   "value": "Aréna du Parc, Mile End, Montreal"
+  },
+  {
+   "key": "case061.file.value.number",
+   "value": "BDM-MTL-2030-0206"
+  },
+  {
+   "key": "case061.file.value.offence",
+   "value": "Suspicious death — gas"
+  },
+  {
+   "key": "case061.file.value.reporter",
+   "value": "Player"
+  },
+  {
+   "key": "case061.lavoie.body",
+   "value": "Manager of the rink."
+  },
+  {
+   "key": "case061.lavoie.deflect",
+   "value": "This rink belongs to the neighbourhood; I just run it."
+  },
+  {
+   "key": "case061.lavoie.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case061.lavoie.end.decoy.log",
+   "value": "Look at the log: 21.40, ‘valves checked, normal’. My signature. When I left, everything was in its place."
+  },
+  {
+   "key": "case061.lavoie.end.presented.office",
+   "value": "Gilles had seen the compressor’s plate; he was going to write to the city. The renewal money… A man from Laurentide had said, ‘Nobody looks under an old compressor.’ Gilles looked. I hit him with a wrench, opened the valve, took off the handle, took the mask. I wrote ‘normal’ in the log. My hand didn’t even shake as I wrote that line."
+  },
+  {
+   "key": "case061.lavoie.end.question",
+   "value": "You left Gilles in the compressor room."
+  },
+  {
+   "key": "case061.lavoie.night.answer",
+   "value": "I did my evening check round, as I do every evening. Gilles wasn’t there at that hour. He was old; maybe he opened the valve himself, maybe a fault."
+  },
+  {
+   "key": "case061.lavoie.night.answer.demeanor",
+   "value": "He pulls the zip of his fleece up to his chin."
+  },
+  {
+   "key": "case061.lavoie.night.question",
+   "value": "Did you go into the compressor room last night?"
+  },
+  {
+   "key": "case061.lavoie.title",
+   "value": "Marc-André Lavoie — interview"
+  },
+  {
+   "key": "case061.log.body",
+   "value": "Compressor room maintenance log, 5 November:\n\n· 16.00 — G. Roy: ‘Main line pressure high. The compressor fitted as the new system is old, its label changed. I’ll tell the manager.’\n· 21.40 — Marc-André Lavoie: ‘Valves checked, normal.’\n\nThe compressor room is entered not with a card but with a key; the keys are held by the manager and the ice master."
+  },
+  {
+   "key": "case061.log.title",
+   "value": "COMPRESSOR MAINTENANCE LOG"
+  },
+  {
+   "key": "case061.method.ammonia",
+   "value": "He was knocked out and locked in a room with the ammonia valve open"
+  },
+  {
+   "key": "case061.method.fall",
+   "value": "He slipped and hit his head"
+  },
+  {
+   "key": "case061.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case061.method.leak",
+   "value": "He was poisoned by a leak that happened on its own"
+  },
+  {
+   "key": "case061.offer.subtitle",
+   "value": "ICE RINK  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case061.offer.summary",
+   "value": "An ice master of thirty years died of ammonia in the rink’s compressor room; the valve had no handle."
+  },
+  {
+   "key": "case061.offer.title",
+   "value": "FILE #061"
+  },
+  {
+   "key": "case061.office.body",
+   "value": "Marc-André Lavoie’s office at the rink (with the branch chief’s approval):\n\n· In the bottom drawer of the desk, the handle of the relief valve; ammonia residue in the handle’s socket, Marc-André Lavoie’s fingerprint on it.\n· In the cupboard, the compressor room’s emergency mask.\n· In a binder, the invoice for the cooling system ‘renewal’: $1.8 million; insured by Laurentide Réassurance, ‘municipal infrastructure programme’."
+  },
+  {
+   "key": "case061.office.title",
+   "value": "MANAGER’S OFFICE — SEARCH"
+  },
+  {
+   "key": "case061.ouellet.body",
+   "value": "Coach."
+  },
+  {
+   "key": "case061.ouellet.deflect",
+   "value": "I teach kids to skate."
+  },
+  {
+   "key": "case061.ouellet.fight.answer",
+   "value": "Over ice time; he always gave it to the adult leagues. I shouted, yes, last week in front of everyone. But last night I was at home; I have a wife and three kids. Gilles had told me something, though: ‘Marc-André’s renewal is a fraud; I’m going to write to the city.’"
+  },
+  {
+   "key": "case061.ouellet.fight.answer.demeanor",
+   "value": "He winds the cord of his whistle around his finger."
+  },
+  {
+   "key": "case061.ouellet.fight.question",
+   "value": "Why had you fallen out with Gilles?"
+  },
+  {
+   "key": "case061.ouellet.title",
+   "value": "Denis Ouellet — interview"
+  },
+  {
+   "key": "case061.person.anika.info",
+   "value": "16, hockey player; she found the body."
+  },
+  {
+   "key": "case061.person.anika.name",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.person.lavoie.info",
+   "value": "49, manager of the neighbourhood ice rink."
+  },
+  {
+   "key": "case061.person.lavoie.name",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.person.ouellet.info",
+   "value": "55, coach of the youth hockey team."
+  },
+  {
+   "key": "case061.person.ouellet.name",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.report.body",
+   "value": "On the morning of 6 November 2030, in the compressor room of the Aréna du Parc ice rink in Mile End, the ice master Gilles Roy (61) was found dead. Heavy ammonia in the room; the relief valve open, its handle missing.\n\nThe youth team player Anika Sharma found the body at 06.10 when she saw white vapour seeping from under the compressor room door. The rink manager Marc-André Lavoie and the coach Denis Ouellet arrived at 06.20."
+  },
+  {
+   "key": "case061.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case061.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case061.request.log",
+   "value": "Request the compressor maintenance log"
+  },
+  {
+   "key": "case061.request.office",
+   "value": "Request permission to search the manager’s office"
+  },
+  {
+   "key": "case061.request.room",
+   "value": "Request an examination of the compressor room"
+  },
+  {
+   "key": "case061.room.body",
+   "value": "· The relief valve is fully open; the handle has been removed. Without a handle the valve can’t be closed by hand.\n· The door is locked from outside. The emergency mask hook is empty; the mask isn’t inside the room either.\n· The plate on the compressor registered as ‘new’ has been removed and riveted back on; the year of manufacture beneath it is 1998."
+  },
+  {
+   "key": "case061.room.title",
+   "value": "COMPRESSOR ROOM EXAMINATION"
+  },
+  {
+   "key": "case061.summary.evidence",
+   "value": "The log was a decoy: the manager’s signature said he was the last person in the room, not that he was in the clear. The room examination and the coach got the search opened; the search found the handle and the mask."
+  },
+  {
+   "key": "case061.summary.lesson",
+   "value": "He wrote ‘normal’. He forgot to erase Gilles’s line above it."
+  },
+  {
+   "key": "case061.summary.location",
+   "value": "Aréna du Parc — November 2030"
+  },
+  {
+   "key": "case061.summary.truth",
+   "value": "The manager Marc-André Lavoie made it look as though the rink’s cooling system had been ‘renewed’ and took $1.8 million; the compressor fitted was a relabelled 1998 unit. The ice master Gilles Roy saw the plate and was going to write to the city. Lavoie knocked him out in the compressor room, opened the ammonia valve and removed its handle, took the mask, locked the door and wrote ‘normal’ in the log."
+  },
+  {
+   "key": "case061.suspect.label",
+   "value": "Who killed Gilles Roy?"
+  },
+  {
+   "key": "case061.tablet.caseLine",
+   "value": "FILE #061  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case061.time.check",
+   "value": "21.40"
+  },
+  {
+   "key": "case061.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case061.time.note",
+   "value": "16.00"
+  },
+  {
+   "key": "case061.title",
+   "value": "File #061 — Ice Rink"
+  },
+  {
+   "key": "case061.verdict.accident",
+   "value": "Nobody — a fault"
+  },
+  {
+   "key": "case061.verdict.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.verdict.lavoie",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.verdict.ouellet",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.item.valve.name",
+   "value": "Compressor valve handle"
+  },
+  {
+   "key": "case061.item.valve.detail",
+   "value": "The removed handle of the ammonia line’s relief valve; it came out of the bottom drawer of the manager’s desk."
+  },
+  {
+   "key": "case061.item.log.name",
+   "value": "Maintenance log"
+  },
+  {
+   "key": "case061.item.log.detail",
+   "value": "The compressor room’s maintenance log; yesterday’s line reads ‘valves checked, normal’."
+  },
+  {
+   "key": "case061.item.mask.name",
+   "value": "Gas mask hook"
+  },
+  {
+   "key": "case061.item.mask.detail",
+   "value": "The emergency mask hook on the compressor room door; empty."
+  }
+ ]
+}
