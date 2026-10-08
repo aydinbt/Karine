@@ -1,0 +1,716 @@
+{
+ "entries": [
+  {
+   "key": "case018.app.body",
+   "value": "Account: Jonas Keller. 13 June 2029.\n\n· 18.00 · end of shift\n· 20.58 · personal use switched on (off shift)\n· 21.02 · stop: Lindenhof 9 · “pick-up — L.”\n· 21.03 · planned destination: Wedding, address hidden (“protected address”)\n· 21.04 · location stationary, then logging stopped"
+  },
+  {
+   "key": "case018.app.title",
+   "value": "COURIER APP LOG — JONAS KELLER"
+  },
+  {
+   "key": "case018.audio.body",
+   "value": "13 June 2029, 22.05. Verbatim transcript of the original Turkish audio recording of the statement, before interpretation.\n\nAyten Yıldız: “It was ten past nine. The noise came from the floor below, from the top of the stairs. Two men. One said ‘Let go of it!’, the other said something, I didn’t understand, it was German. Then something rolled down the stairs.”\n\nInterpreter Selin Aras (in German, on the recording): “The floor below — so the ground floor, yes? The witness lives on the first floor.”\n\nAyten Yıldız’s reply is not on the recording; the record moves on to the next question."
+  },
+  {
+   "key": "case018.audio.title",
+   "value": "ORIGINAL AUDIO TRANSCRIPT — AYTEN YILDIZ (TURKISH)"
+  },
+  {
+   "key": "case018.autopsy.body",
+   "value": "· Cause of death: broken neck from a fall.\n· Fresh bruises consistent with fingertips on the outer side of both upper arms; just before the fall.\n· Grazes on the knuckles of the right hand: he struck someone or something.\n· A fresh fabric fibre and bloodstain on the stair railing, level with the first-floor landing (scene team note).\n· Estimated time of death: 21.05 – 21.20."
+  },
+  {
+   "key": "case018.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case018.ayten.body",
+   "value": "In Turkish, without an interpreter."
+  },
+  {
+   "key": "case018.ayten.courier.answer",
+   "value": "I used to see him. Always came for that woman, Lena. They’d hug at the door, talk quietly. If her husband knew, there’d be hell to pay, I thought to myself."
+  },
+  {
+   "key": "case018.ayten.courier.answer.demeanor",
+   "value": "She lowered her voice."
+  },
+  {
+   "key": "case018.ayten.courier.question",
+   "value": "Did you know the young man who died?"
+  },
+  {
+   "key": "case018.ayten.deflect",
+   "value": "I don’t know, dear, I told you what I heard."
+  },
+  {
+   "key": "case018.ayten.floor.answer",
+   "value": "On the second floor. I moved upstairs two years ago, my first-floor flat was damp. The management still lists my old place, I’ve told them so many times."
+  },
+  {
+   "key": "case018.ayten.floor.question",
+   "value": "Which floor do you live on?"
+  },
+  {
+   "key": "case018.ayten.heard.answer",
+   "value": "Ten past nine. From the floor below, at the top of the stairs, two men’s voices. One shouted ‘Let go of it!’ Then a crash, down the stairs."
+  },
+  {
+   "key": "case018.ayten.heard.answer.demeanor",
+   "value": "She squeezed her prayer beads."
+  },
+  {
+   "key": "case018.ayten.heard.question",
+   "value": "What did you hear yesterday evening?"
+  },
+  {
+   "key": "case018.ayten.quote",
+   "value": "“From the floor below, at the top of the stairs.”"
+  },
+  {
+   "key": "case018.ayten.title",
+   "value": "Ayten Yıldız — interview"
+  },
+  {
+   "key": "case018.bin.body",
+   "value": "Lindenhof 9, back courtyard, 14 June 2029.\n\n· A mobile phone with a cracked screen. Registered owner: Jonas Keller.\n· A passport: in the name of Lena Vogt.\n· Fingerprints on the phone case and the passport cover; comparison: match Markus Vogt.\n· Blood on the phone case; Jonas Keller’s."
+  },
+  {
+   "key": "case018.bin.title",
+   "value": "SEARCH RECORD — COURTYARD BIN"
+  },
+  {
+   "key": "case018.cctv.event.back",
+   "value": "Camera 1: The man goes back into the building by the back door."
+  },
+  {
+   "key": "case018.cctv.event.bin",
+   "value": "Camera 1: The man throws both into the last bin and closes the lid."
+  },
+  {
+   "key": "case018.cctv.event.exit",
+   "value": "Camera 1: A man in a grey hoodie comes out of the building’s back door; in his hand a phone and something the size of a small notebook."
+  },
+  {
+   "key": "case018.cctv.overlay",
+   "value": "CAM 1"
+  },
+  {
+   "key": "case018.cctv.period",
+   "value": "13 June 2029, 21.00 – 21.40"
+  },
+  {
+   "key": "case018.cctv.source",
+   "value": "Courtyard camera"
+  },
+  {
+   "key": "case018.clue.app",
+   "value": "Jonas, off shift, arrives at Lindenhof 9: “pick-up — L.”"
+  },
+  {
+   "key": "case018.clue.delete",
+   "value": "The door camera recordings are deleted from a phone."
+  },
+  {
+   "key": "case018.clue.door",
+   "value": "A second man at the door of the Vogt flat."
+  },
+  {
+   "key": "case018.clue.exit",
+   "value": "A man in a grey hoodie throws a phone and something small into a bin in the back courtyard."
+  },
+  {
+   "key": "case018.clue.lena_in",
+   "value": "Lena Vogt is admitted to the women’s refuge."
+  },
+  {
+   "key": "case018.clue.shift",
+   "value": "Markus Vogt leaves his shift early."
+  },
+  {
+   "key": "case018.clue.shout",
+   "value": "Shout “from the floor below”: “Let go of it!”"
+  },
+  {
+   "key": "case018.clue.source.app",
+   "value": "Courier app"
+  },
+  {
+   "key": "case018.clue.source.audio",
+   "value": "Original audio"
+  },
+  {
+   "key": "case018.clue.source.doorcam",
+   "value": "Door camera"
+  },
+  {
+   "key": "case018.clue.source.shelter",
+   "value": "Admission note"
+  },
+  {
+   "key": "case018.clue.source.shift",
+   "value": "Shift record"
+  },
+  {
+   "key": "case018.custody.first",
+   "value": "First floor — outside the Vogt flat"
+  },
+  {
+   "key": "case018.custody.ground",
+   "value": "Ground floor — outside the Brandt flat"
+  },
+  {
+   "key": "case018.custody.label",
+   "value": "On which floor did the argument take place?"
+  },
+  {
+   "key": "case018.custody.second",
+   "value": "Second floor — outside the witness’s door"
+  },
+  {
+   "key": "case018.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case018.doorcam.body",
+   "value": "First floor right, smart doorbell camera. Account holder: Markus Vogt. Recordings deleted from the phone were recovered from the cloud backup.\n\n· 21.03 · the door is opened from outside with a key; a young man enters, carrying a folded cardboard box.\n· 21.09 · a second man coming up the stairs enters the field of view; the door is open.\n· 21.10 · audio: “Let go of it!” — followed by sounds of a struggle, outside the field of view, on the landing.\n· 21.11 · the sound stops; the sound of something heavy rolling down the stairs.\n\nDeletion: 21.26, from Markus Vogt’s phone."
+  },
+  {
+   "key": "case018.doorcam.title",
+   "value": "DOOR CAMERA CLOUD RECORD — VOGT FLAT"
+  },
+  {
+   "key": "case018.epilogue.custody.first",
+   "value": "A correction note was added to the interpretation record: “the floor below” was written down verbatim, alongside the witness’s own floor. bube Berlin made it a rule that relative expressions are passed on without interpretation."
+  },
+  {
+   "key": "case018.epilogue.custody.ground",
+   "value": "The case was built on the ground floor; Uwe Brandt’s door stayed sealed for weeks."
+  },
+  {
+   "key": "case018.epilogue.custody.second",
+   "value": "Ayten Yıldız’s statement was read against her own door; the old woman refused ever to testify again."
+  },
+  {
+   "key": "case018.epilogue.custody.unknown",
+   "value": "The floor could not be established; the defence demolished the witness’s statement entirely."
+  },
+  {
+   "key": "case018.epilogue.verdict.lena",
+   "value": "Lena was questioned and her protected address went into the file. Markus got the address from his lawyer, who read the file."
+  },
+  {
+   "key": "case018.epilogue.verdict.markus",
+   "value": "Markus Vogt was arrested for manslaughter. A week later Lena collected her passport from the evidence store; she didn’t open her brother’s box, and kept it as it was."
+  },
+  {
+   "key": "case018.epilogue.verdict.nobody",
+   "value": "The death was closed as an accident. Lena’s passport was lost in a bin lorry; a month later Lena went back home."
+  },
+  {
+   "key": "case018.epilogue.verdict.uwe",
+   "value": "Uwe Brandt was taken into custody and released two days later. Markus Vogt learned Lena’s new address from an official notice."
+  },
+  {
+   "key": "case018.evidence.app",
+   "value": "Courier app log"
+  },
+  {
+   "key": "case018.evidence.audio",
+   "value": "Original audio transcript"
+  },
+  {
+   "key": "case018.evidence.tenants",
+   "value": "Tenant list"
+  },
+  {
+   "key": "case018.evidence.translation",
+   "value": "Interpretation record"
+  },
+  {
+   "key": "case018.feedback.lena",
+   "value": "Lena was at the women’s refuge in Wedding that evening; Jonas was there on her behalf."
+  },
+  {
+   "key": "case018.feedback.markus",
+   "value": "He left his shift early, the door camera shows him on the landing, and Jonas’s phone and Lena’s passport were in the bin with his prints."
+  },
+  {
+   "key": "case018.feedback.nobody",
+   "value": "The grip marks on his arms, the blood on the railing and the shout “Let go of it!” point to a struggle."
+  },
+  {
+   "key": "case018.feedback.uwe",
+   "value": "The argument wasn’t on the ground floor; the interpretation record had turned the witness’s “the floor below” into the wrong floor."
+  },
+  {
+   "key": "case018.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case018.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Branch"
+  },
+  {
+   "key": "case018.file.value.location",
+   "value": "Kreuzberg, Lindenhof 9 — stairwell"
+  },
+  {
+   "key": "case018.file.value.number",
+   "value": "BDS-BER-2029-0031"
+  },
+  {
+   "key": "case018.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case018.file.value.reporter",
+   "value": "Ground-floor tenant"
+  },
+  {
+   "key": "case018.lena.body",
+   "value": "At the women’s refuge."
+  },
+  {
+   "key": "case018.lena.box.answer",
+   "value": "My passport, my papers, a few things. Markus was on the evening shift, he wouldn’t be back before nine. I gave Jonas my key. It was going to take ten minutes."
+  },
+  {
+   "key": "case018.lena.box.answer.demeanor",
+   "value": "She clasped her hands together to stop them shaking."
+  },
+  {
+   "key": "case018.lena.box.question",
+   "value": "What did he go to fetch on the evening of 13 June?"
+  },
+  {
+   "key": "case018.lena.deflect",
+   "value": "I can’t talk about that now."
+  },
+  {
+   "key": "case018.lena.jonas.answer",
+   "value": "My brother. I was a Keller. The neighbours probably thought he was my lover; he was the one who held me when I cried at the door."
+  },
+  {
+   "key": "case018.lena.jonas.answer.demeanor",
+   "value": "She wiped her eyes."
+  },
+  {
+   "key": "case018.lena.jonas.question",
+   "value": "What was Jonas to you?"
+  },
+  {
+   "key": "case018.lena.markus.answer",
+   "value": "No. But he knew Jonas knew. ‘Your brother can’t hide you from me,’ he texted yesterday morning."
+  },
+  {
+   "key": "case018.lena.markus.question",
+   "value": "Did Markus know where you’d gone?"
+  },
+  {
+   "key": "case018.lena.quote",
+   "value": "“It was going to take ten minutes.”"
+  },
+  {
+   "key": "case018.lena.title",
+   "value": "Lena Vogt — interview"
+  },
+  {
+   "key": "case018.markus.body",
+   "value": "First floor right, the Vogt flat."
+  },
+  {
+   "key": "case018.markus.deflect",
+   "value": "I won’t discuss that without my lawyer."
+  },
+  {
+   "key": "case018.markus.jonas.answer",
+   "value": "My wife’s brother. I know him. He didn’t come here much; we didn’t get on."
+  },
+  {
+   "key": "case018.markus.jonas.answer.demeanor",
+   "value": "Without blinking."
+  },
+  {
+   "key": "case018.markus.jonas.question",
+   "value": "Did you know the dead courier, Jonas Keller?"
+  },
+  {
+   "key": "case018.markus.lena.answer",
+   "value": "At her mother’s, in Spandau. Taking a few days to clear her head. These things happen."
+  },
+  {
+   "key": "case018.markus.lena.question",
+   "value": "Where is your wife?"
+  },
+  {
+   "key": "case018.markus.night.answer",
+   "value": "At home, all evening. Gaming with headphones on, didn’t hear a thing. I came out at the sound of the ambulance."
+  },
+  {
+   "key": "case018.markus.night.question",
+   "value": "Where were you yesterday evening?"
+  },
+  {
+   "key": "case018.markus.title",
+   "value": "Markus Vogt — interview"
+  },
+  {
+   "key": "case018.markus_2.body",
+   "value": "On the door camera and the search record."
+  },
+  {
+   "key": "case018.markus_2.phone.answer",
+   "value": "He was going to call Lena, that’s how I knew. Without the passport she couldn’t leave. …I just didn’t want her to go."
+  },
+  {
+   "key": "case018.markus_2.phone.answer.demeanor",
+   "value": "He buried his face in his hands."
+  },
+  {
+   "key": "case018.markus_2.phone.question",
+   "value": "Why did you throw the phone and the passport in the bin?"
+  },
+  {
+   "key": "case018.markus_2.stairs.answer",
+   "value": "He was in my home. Taking my wife’s things, from my home. ‘Let go of it,’ I said; I meant the passport. We pulled at the box. On the landing… he went backwards. I didn’t push. I held on, I let go. I don’t know."
+  },
+  {
+   "key": "case018.markus_2.stairs.answer.demeanor",
+   "value": "His voice cracked."
+  },
+  {
+   "key": "case018.markus_2.stairs.question",
+   "value": "At 21.09 you were outside your door. You were the one who shouted ‘Let go of it!’"
+  },
+  {
+   "key": "case018.markus_2.title",
+   "value": "Markus Vogt — second interview"
+  },
+  {
+   "key": "case018.method.fell",
+   "value": "He fell down the stairs with the box"
+  },
+  {
+   "key": "case018.method.ground",
+   "value": "He was struck in a fight on the ground floor"
+  },
+  {
+   "key": "case018.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case018.method.pushed",
+   "value": "He was sent down the stairs in a struggle on the first-floor landing"
+  },
+  {
+   "key": "case018.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case018.offer.subtitle",
+   "value": "FIRST FLOOR  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case018.offer.summary",
+   "value": "An off-duty courier is found dead in the stairwell of an old block of flats in Kreuzberg. A witness heard shouting from the ground floor; the man on the ground floor hates couriers. The witness spoke in Turkish."
+  },
+  {
+   "key": "case018.offer.title",
+   "value": "FILE #018"
+  },
+  {
+   "key": "case018.person.ayten.info",
+   "value": "68, retired dressmaker. In Kreuzberg since 1974; lives at Lindenhof 9."
+  },
+  {
+   "key": "case018.person.ayten.name",
+   "value": "Ayten Yıldız"
+  },
+  {
+   "key": "case018.person.lena.info",
+   "value": "34, dental technician. Markus Vogt’s wife."
+  },
+  {
+   "key": "case018.person.lena.name",
+   "value": "Lena Vogt"
+  },
+  {
+   "key": "case018.person.markus.info",
+   "value": "38, shift supervisor at a logistics warehouse. Lives on the first floor with his wife."
+  },
+  {
+   "key": "case018.person.markus.name",
+   "value": "Markus Vogt"
+  },
+  {
+   "key": "case018.person.selin.info",
+   "value": "35, freelance Turkish–German interpreter; works on bube Berlin’s statement interviews."
+  },
+  {
+   "key": "case018.person.selin.name",
+   "value": "Selin Aras"
+  },
+  {
+   "key": "case018.person.uwe.info",
+   "value": "61, retired tram driver. Lives on the building’s ground floor."
+  },
+  {
+   "key": "case018.person.uwe.name",
+   "value": "Uwe Brandt"
+  },
+  {
+   "key": "case018.report.body",
+   "value": "On 13 June 2029 at 21.14 in Kreuzberg, a man’s body was found at the bottom of the stairwell of an old block of flats at Lindenhof 9. Beside him, a taped-up cardboard box, handwritten on top: “L.K.”\n\nDeceased: Jonas Keller (29), courier. Not in uniform, off shift.\n\nPatrol note: “Fell down the stairs with a heavy box. An elderly woman on the second floor, a witness, said she heard shouting from the ground floor around 21.10 (statement taken through an interpreter). The ground-floor tenant is known to have rowed with couriers.”"
+  },
+  {
+   "key": "case018.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case018.request.app",
+   "value": "Request Jonas Keller’s courier app log"
+  },
+  {
+   "key": "case018.request.audio",
+   "value": "Request the original audio transcript of the statement"
+  },
+  {
+   "key": "case018.request.bin",
+   "value": "Have the courtyard bin searched"
+  },
+  {
+   "key": "case018.request.doorcam",
+   "value": "Request the Vogt flat’s door camera cloud record"
+  },
+  {
+   "key": "case018.request.shelter",
+   "value": "Find out where Lena Vogt is"
+  },
+  {
+   "key": "case018.request.shift",
+   "value": "Request Markus Vogt’s shift record"
+  },
+  {
+   "key": "case018.request.tenants",
+   "value": "Request the tenant list from the building management"
+  },
+  {
+   "key": "case018.selin.below.answer",
+   "value": "The record said the witness lived on the first floor; they’d taken it from the tenant list. The floor below that is the ground floor. I asked her, I thought she didn’t answer… Wait. What if the list was out of date?"
+  },
+  {
+   "key": "case018.selin.below.answer.demeanor",
+   "value": "She flushed."
+  },
+  {
+   "key": "case018.selin.below.question",
+   "value": "Ayten Yıldız said ‘the floor below’; you wrote ‘the ground floor’."
+  },
+  {
+   "key": "case018.selin.body",
+   "value": "With the interpreter."
+  },
+  {
+   "key": "case018.selin.deflect",
+   "value": "It’s as written in the record."
+  },
+  {
+   "key": "case018.selin.practice.answer",
+   "value": "Normally verbatim: ‘the floor below’. This time I clarified it, to be clear. The worst mistake is the one made in good faith."
+  },
+  {
+   "key": "case018.selin.practice.question",
+   "value": "How do you interpret relative expressions?"
+  },
+  {
+   "key": "case018.selin.title",
+   "value": "Selin Aras — interview"
+  },
+  {
+   "key": "case018.shelter.body",
+   "value": "Wedding, protected address. On request, limited to name and admission date.\n\nAdmitted: Lena Vogt, 34. Date: 11 June 2029. Reason: domestic violence; husband Markus Vogt.\n\nEmergency contact: Jonas Keller — brother.\n\nNote: Her personal belongings and identity documents remained at the home; they were to be brought by her brother on the evening of 13 June."
+  },
+  {
+   "key": "case018.shelter.title",
+   "value": "WOMEN’S REFUGE — ADMISSION NOTE"
+  },
+  {
+   "key": "case018.shift.body",
+   "value": "Logistics warehouse, Tempelhof. 13 June 2029.\n\n· 14.00 · in\n· 20.31 · out (shift ended at 22.00; early departure, reason: “family”)\n\nWarehouse to Lindenhof by bike: about 25 minutes."
+  },
+  {
+   "key": "case018.shift.title",
+   "value": "SHIFT RECORD — MARKUS VOGT"
+  },
+  {
+   "key": "case018.summary.evidence",
+   "value": "The original audio separated the witness’s relative expression from the interpreter’s reading; the witness’s own account showed she lived on the second floor. The door camera’s cloud backup, the shift record and the phone and passport from the bin led to Markus Vogt. The admission note revealed that the courier taken for a “lover” was her brother."
+  },
+  {
+   "key": "case018.summary.lesson",
+   "value": "The interpretation of a statement is a reading: go back to the original if you can. Relative words like “the floor below” carry no meaning without knowing where the speaker stands."
+  },
+  {
+   "key": "case018.summary.location",
+   "value": "Kreuzberg, Lindenhof 9 — June 2029"
+  },
+  {
+   "key": "case018.summary.truth",
+   "value": "Lena Vogt fled domestic violence and took shelter in a women’s refuge. Her brother, Jonas Keller, went to fetch her passport and belongings at an hour when Markus Vogt was on shift. Markus had left his shift early; he caught Jonas on the first-floor landing, they struggled over the box and the passport, and Jonas fell down the stairs. Markus threw the phone and the passport in the courtyard bin and deleted the door camera recordings. The witness, Ayten Yıldız, had said “from the floor below”; the interpreter, looking at the old tenant list, wrote it down as “the ground floor”."
+  },
+  {
+   "key": "case018.suspect.label",
+   "value": "Who is responsible for Jonas Keller’s death?"
+  },
+  {
+   "key": "case018.tablet.caseLine",
+   "value": "FILE #018  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case018.tenants.body",
+   "value": "Last updated: March 2027.\n\n· Ground floor · Brandt\n· 1st floor left · Yıldız\n· 1st floor right · Vogt\n· 2nd floor left · vacant\n· 2nd floor right · Hoffmann\n· 3rd floor · Petrović / Lang\n\nNote: Above the ground floor the building has two flats on each floor; the stairwell is shared."
+  },
+  {
+   "key": "case018.tenants.title",
+   "value": "BUILDING MANAGEMENT — TENANT LIST, LINDENHOF 9"
+  },
+  {
+   "key": "case018.time.app",
+   "value": "13 June 21.02"
+  },
+  {
+   "key": "case018.time.back",
+   "value": "21.15"
+  },
+  {
+   "key": "case018.time.bin",
+   "value": "21.14"
+  },
+  {
+   "key": "case018.time.delete",
+   "value": "13 June 21.26"
+  },
+  {
+   "key": "case018.time.door",
+   "value": "13 June 21.09"
+  },
+  {
+   "key": "case018.time.exit",
+   "value": "21.13"
+  },
+  {
+   "key": "case018.time.lena_in",
+   "value": "11 June"
+  },
+  {
+   "key": "case018.time.shift",
+   "value": "13 June 20.31"
+  },
+  {
+   "key": "case018.time.shout",
+   "value": "13 June 21.10"
+  },
+  {
+   "key": "case018.title",
+   "value": "File #018 — First Floor"
+  },
+  {
+   "key": "case018.translation.body",
+   "value": "13 June 2029, 22.05. Statement taken in Turkish and rendered into the German record. Interpreter: Selin Aras.\n\nRendered text: “The witness, Ayten Yıldız, stated that at around 21.10 she heard two men arguing loudly on the ground floor. There was then a noise. The witness did not open her door.”\n\nTenant information attached to the record: “The witness lives on the first floor of the building.”"
+  },
+  {
+   "key": "case018.translation.title",
+   "value": "INTERPRETATION RECORD — STATEMENT OF AYTEN YILDIZ"
+  },
+  {
+   "key": "case018.uwe.body",
+   "value": "Ground-floor tenant."
+  },
+  {
+   "key": "case018.uwe.couriers.answer",
+   "value": "They ring my bell all day, I’ve got everyone’s parcels. Last month I shouted at that lad, yes. But shouting’s something else."
+  },
+  {
+   "key": "case018.uwe.couriers.question",
+   "value": "Why did you row with couriers?"
+  },
+  {
+   "key": "case018.uwe.deflect",
+   "value": "Not my business; I know my own door."
+  },
+  {
+   "key": "case018.uwe.night.answer",
+   "value": "The TV was on. A crash, then no sound at all. I opened the door, the lad was at the foot of the stairs. A door slammed upstairs. I called you."
+  },
+  {
+   "key": "case018.uwe.night.answer.demeanor",
+   "value": "Still shaken."
+  },
+  {
+   "key": "case018.uwe.night.question",
+   "value": "What happened yesterday evening?"
+  },
+  {
+   "key": "case018.uwe.title",
+   "value": "Uwe Brandt — interview"
+  },
+  {
+   "key": "case018.uwe.voices.answer",
+   "value": "Something from upstairs, over the TV. Not on my floor, I know that; it was quiet outside my door."
+  },
+  {
+   "key": "case018.uwe.voices.question",
+   "value": "Did you hear shouting before the crash?"
+  },
+  {
+   "key": "case018.verdict.lena",
+   "value": "Lena Vogt"
+  },
+  {
+   "key": "case018.verdict.markus",
+   "value": "Markus Vogt"
+  },
+  {
+   "key": "case018.verdict.nobody",
+   "value": "No one — he fell with a heavy box"
+  },
+  {
+   "key": "case018.verdict.uwe",
+   "value": "Uwe Brandt"
+  },
+  {
+   "key": "case018.yard.body",
+   "value": "A shop camera overlooking the back courtyard of Lindenhof 9. It covers the building’s back door and the bins. 13 June 21.00 – 21.40."
+  },
+  {
+   "key": "case018.yard.title",
+   "value": "COURTYARD CAMERA — log transcript"
+  },
+  {
+   "key": "case018.item.box.name",
+   "value": "Moving box"
+  },
+  {
+   "key": "case018.item.box.detail",
+   "value": "Taped moving box with a crushed corner."
+  },
+  {
+   "key": "case018.item.passport.name",
+   "value": "Passport"
+  },
+  {
+   "key": "case018.item.passport.detail",
+   "value": "A closed, stained passport."
+  },
+  {
+   "key": "case018.item.phone.name",
+   "value": "Phone"
+  },
+  {
+   "key": "case018.item.phone.detail",
+   "value": "Cracked phone with a bloodstain on its case."
+  }
+ ]
+}
