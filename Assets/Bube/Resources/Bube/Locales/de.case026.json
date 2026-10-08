@@ -1,0 +1,656 @@
+{
+ "entries": [
+  {
+   "key": "case026.aoi.body",
+   "value": "Lehrling; hat die Leiche gefunden."
+  },
+  {
+   "key": "case026.aoi.bowl.answer",
+   "value": "Eine alte Schale, die der Meister in der Werkstatt aufbewahrte. Er zeigte sie niemandem."
+  },
+  {
+   "key": "case026.aoi.bowl.question",
+   "value": "Was war die verschwundene Schale?"
+  },
+  {
+   "key": "case026.aoi.deflect",
+   "value": "Über die Arbeit meines Meisters kann ich nicht sprechen."
+  },
+  {
+   "key": "case026.aoi.night.answer",
+   "value": "Ich bin früh schlafen gegangen. Der Meister sagte am Abend ‚ich bin müde‘ und zog sich in sein Zimmer zurück. Am Morgen ging ich für den Tee in den Ausstellungsraum und fand ihn so. Der Schrank war offen, die Schale fehlte."
+  },
+  {
+   "key": "case026.aoi.night.answer.demeanor",
+   "value": "Drückt die Hände auf die Knie."
+  },
+  {
+   "key": "case026.aoi.night.question",
+   "value": "Was ist in der Nacht passiert?"
+  },
+  {
+   "key": "case026.aoi.night.variant0",
+   "value": "Ich bin früh schlafen gegangen … Sie haben die Kamera gesehen? Die Wildschweinkamera im Garten. Die habe ich aufgestellt. … Was nach Mitternacht war, erzähle ich nicht."
+  },
+  {
+   "key": "case026.aoi.quote",
+   "value": "„Am Morgen ging ich für den Tee in den Ausstellungsraum.“"
+  },
+  {
+   "key": "case026.aoi.title",
+   "value": "Hoshino Aoi — Befragung"
+  },
+  {
+   "key": "case026.aoi_2.body",
+   "value": "Zur Spurenuntersuchung."
+  },
+  {
+   "key": "case026.aoi_2.found.answer",
+   "value": "Ich sagte, ich erzähle es nicht."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.drag",
+   "value": "Um fünf bin ich aufgewacht, in der Hütte brannte Licht. Ich öffnete die Tür, Rauch … Der Meister lag am Fuß des Hockers. Er war kalt. Im Ofen standen sieben ‚alte‘ Schalen. Wer immer sie gefunden hätte, vierzig Jahre meines Meisters wären in einer Nacht vorbei gewesen. Ich habe ihn in eine Decke gewickelt, in den Ausstellungsraum getragen, das Regal umgestoßen. Seinen Kopf an die Ecke des Regals … das war ich. Nach seinem Tod. Die Schale habe ich versteckt."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.shed",
+   "value": "Sie haben das Heft gefunden. Dann wissen Sie es. Ich wollte nur seinen Namen schützen. Um fünf Uhr morgens habe ich die Hütte geöffnet, er war schon tot. Der Rest war ich: getragen, inszeniert, die Schale versteckt."
+  },
+  {
+   "key": "case026.aoi_2.found.question",
+   "value": "Den einzigen Schlüssel zur Hütte haben Sie."
+  },
+  {
+   "key": "case026.aoi_2.title",
+   "value": "Hoshino Aoi — zweite Befragung"
+  },
+  {
+   "key": "case026.aoi_2.why.answer",
+   "value": "Er hat mir die Töpferei beigebracht. Warum er die Fälschungen machte, habe ich nie gefragt. Eines Nachts sagte er: ‚Meine echten kauft mir keiner für vierzig Millionen.‘ Das ist alles."
+  },
+  {
+   "key": "case026.aoi_2.why.question",
+   "value": "Warum?"
+  },
+  {
+   "key": "case026.autopsy.body",
+   "value": "· Am Kopf, an der rechten Schläfe, eine 3 cm lange Wunde. In der Wunde kaum Blutung; die Wunde entstand **nach dem Tod**.\n· Die Totenflecken sind an Rücken und Gesäß fixiert; die Leiche wurde in Bauchlage gefunden.\n· Die Farbe der Totenflecken ungewöhnlich hell, kirschrot.\n· Todeszeitpunkt: 01.00–03.00.\n· An den Füßen Tabi-Socken; an deren Fersen Asche und Erde."
+  },
+  {
+   "key": "case026.autopsy.title",
+   "value": "VORLÄUFIGER OBDUKTIONSVERMERK"
+  },
+  {
+   "key": "case026.cctv.event.back",
+   "value": "Kamera: Dieselbe Gestalt kehrt zur Hütte zurück; in der Hand eine Schale und ein Eimer. Die Hüttentür bleibt offen."
+  },
+  {
+   "key": "case026.cctv.event.drag",
+   "value": "Kamera: Eine schmale Gestalt kommt rückwärts aus der Hütte; sie schleift etwas Schweres, in eine Decke Gewickeltes den Steinweg entlang."
+  },
+  {
+   "key": "case026.cctv.event.shed",
+   "value": "Kamera: Eine Gestalt mit Laterne geht vom Haus zur Ofenhütte; sie schließt die Hüttentür."
+  },
+  {
+   "key": "case026.cctv.overlay",
+   "value": "TRAIL"
+  },
+  {
+   "key": "case026.cctv.period",
+   "value": "21. Januar 2030"
+  },
+  {
+   "key": "case026.cctv.source",
+   "value": "Gartenkamera"
+  },
+  {
+   "key": "case026.clue.cold",
+   "value": "Niemand legt im Ofen nach; die Temperatur beginnt zu fallen."
+  },
+  {
+   "key": "case026.clue.drag",
+   "value": "Eine schmale Gestalt schleift eine in eine Decke gewickelte Last von der Hütte zum Haus."
+  },
+  {
+   "key": "case026.clue.fight",
+   "value": "Galerist und Meister streiten wegen der gefälschten Schale."
+  },
+  {
+   "key": "case026.clue.fire",
+   "value": "Der alte Ofen mit dem gerissenen Schornstein in der Hütte wird angefeuert."
+  },
+  {
+   "key": "case026.clue.shed",
+   "value": "Eine Gestalt mit Laterne betritt die Hütte und schließt die Tür."
+  },
+  {
+   "key": "case026.clue.smoke",
+   "value": "Der Nachbar sieht den Rauch, der aus dem Schornstein herabsinkt."
+  },
+  {
+   "key": "case026.clue.source.emi",
+   "value": "Tochter des Meisters"
+  },
+  {
+   "key": "case026.clue.source.kilnlog",
+   "value": "Ofenschreiber"
+  },
+  {
+   "key": "case026.clue.source.okabe",
+   "value": "Nachbar"
+  },
+  {
+   "key": "case026.co.body",
+   "value": "Carboxyhämoglobinanteil im Blut des Meisters: 58 %. Tödlicher Wert.\n\nDie kirschroten Totenflecken passen dazu. In der Lunge kein Ruß; kein Brand, sondern Verbrennungsgas in einem geschlossenen Raum.\n\nDie Kopfwunde entstand nach diesem Tod."
+  },
+  {
+   "key": "case026.co.title",
+   "value": "BLUTGAS — CARBOXYHÄMOGLOBIN"
+  },
+  {
+   "key": "case026.custody.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.custody.fujita",
+   "value": "Fujita Masaru — die Galerie"
+  },
+  {
+   "key": "case026.custody.label",
+   "value": "Wer stellte die gefälschten antiken Schalen her?"
+  },
+  {
+   "key": "case026.custody.seiji",
+   "value": "Nakamura Seiji selbst"
+  },
+  {
+   "key": "case026.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case026.drag.body",
+   "value": "Zwei parallele graue Linien im Ausstellungsraum: Holzasche. Dieselbe Asche an den Fersen der Tabi-Socken des Meisters, an beiden Abrieb in derselben Richtung.\n\nDie Asche ist dieselbe wie auf dem Boden der Ofenhütte. In den Deckenfasern innen an der Hüttentür Haare des Meisters.\n\nDer einzige Schlüssel zum Vorhängeschloss der Hütte hängt am Schlüsselbund des Lehrlings Hoshino Aoi."
+  },
+  {
+   "key": "case026.drag.title",
+   "value": "SPURENUNTERSUCHUNG — TATAMI-LINIEN UND SOCKEN"
+  },
+  {
+   "key": "case026.emi.body",
+   "value": "Tochter des Meisters."
+  },
+  {
+   "key": "case026.emi.deflect",
+   "value": "Von den Geschäften meines Vaters weiß ich nichts, ich bin seit Jahren weit weg."
+  },
+  {
+   "key": "case026.emi.title",
+   "value": "Nakamura Emi — Befragung"
+  },
+  {
+   "key": "case026.emi.weekend.answer",
+   "value": "Angespannt. Am Sonntagabend kam der Galerist Fujita, sie schrien sich an. Mein Vater sagte: ‚Diese Schale ist nicht von mir, so eine Schale hatte ich nie!‘ Ich bin dann in den Zug gestiegen und nach Yokohama zurückgefahren. Es war neun Uhr."
+  },
+  {
+   "key": "case026.emi.weekend.answer.demeanor",
+   "value": "Die Stimme flach, der Blick fest."
+  },
+  {
+   "key": "case026.emi.weekend.question",
+   "value": "Wie verlief das Wochenende mit Ihrem Vater?"
+  },
+  {
+   "key": "case026.emi.will.answer",
+   "value": "Ein Haus, ein Ofen und Schulden. Mein Vater sagte, er habe in den letzten zwei Jahren viel Geld verdient, aber auf seinem Konto ist kein Geld. Wohin es ging, weiß ich nicht."
+  },
+  {
+   "key": "case026.emi.will.question",
+   "value": "Sie sind die Erbin."
+  },
+  {
+   "key": "case026.epilogue.custody.aoi",
+   "value": "Man glaubte, die gefälschten Schalen stammten aus der Hand des Lehrlings; das Heft des Meisters blieb unbeachtet."
+  },
+  {
+   "key": "case026.epilogue.custody.fujita",
+   "value": "Der Galerist wurde zum Fälscher erklärt; die eigentliche Werkstatt wurde geschlossen, die Hütte nie durchsucht."
+  },
+  {
+   "key": "case026.epilogue.custody.seiji",
+   "value": "Festgehalten wurde, dass die Fälschung das Werk des Meisters selbst war; Lehrling und Galerist wurden getrennt beurteilt."
+  },
+  {
+   "key": "case026.epilogue.custody.unknown",
+   "value": "Die Herkunft der Schalen blieb offen."
+  },
+  {
+   "key": "case026.epilogue.verdict.aoi",
+   "value": "Hoshino Aoi stand wegen Mordes vor Gericht. Die gefälschten Schalen galten als ‚Werk des Lehrlings‘; der Name des Meisters blieb sauber."
+  },
+  {
+   "key": "case026.epilogue.verdict.fujita",
+   "value": "Fujita Masaru wurde festgenommen; die Verkäufe von ‚Familienerbstücken‘ in seiner Galerie wurden als seine Fälschungen abgeschlossen."
+  },
+  {
+   "key": "case026.epilogue.verdict.kuroda",
+   "value": "Kuroda Isao wurde festgenommen und mangels Beweisen freigelassen; die Akte blieb offen."
+  },
+  {
+   "key": "case026.epilogue.verdict.nobody",
+   "value": "Der Tod wurde als Unfall erfasst. Hoshino Aoi wurde wegen Verbringens der Leiche und Beweisvereitelung verurteilt, zur Bewährung ausgesetzt. Die sieben ‚Familienerbstücke‘, die die Galerie von Fujita verkauft hatte, wurden zurückgerufen; die Schale von Kuroda wurde aus der Sammlung Kisaragi entfernt."
+  },
+  {
+   "key": "case026.evidence.co",
+   "value": "Blutgas — Carboxyhämoglobin"
+  },
+  {
+   "key": "case026.evidence.drag",
+   "value": "Spurenuntersuchung Tatami und Socken"
+  },
+  {
+   "key": "case026.evidence.kilnlog",
+   "value": "Temperaturprotokoll des Ofens"
+  },
+  {
+   "key": "case026.evidence.xrf",
+   "value": "Glasuranalyse"
+  },
+  {
+   "key": "case026.feedback.aoi",
+   "value": "Der Lehrling trug die Leiche und baute die Szene; aber der Meister starb in der Hütte am Gas, Stunden bevor er kam."
+  },
+  {
+   "key": "case026.feedback.fujita",
+   "value": "Der Galerist stritt am Sonntagabend und ging; der Tod geschah nachts in der Hütte, durch das Gas eines geschlossenen Ofens."
+  },
+  {
+   "key": "case026.feedback.kuroda",
+   "value": "Der Sammler wollte klagen; der Tod des Meisters erschwerte es ihm, sein Geld zurückzubekommen, und in jener Nacht war er nicht in der Werkstatt."
+  },
+  {
+   "key": "case026.feedback.nobody",
+   "value": "Das Blutgas ist tödliches Kohlenmonoxid, die Kopfwunde entstand nach dem Tod; die Totenflecken zeigen, dass die Leiche auf dem Rücken starb, die Aschespuren, dass sie aus der Hütte geschleift wurde. Der Ofen mit dem gerissenen Schornstein wurde nachts befeuert."
+  },
+  {
+   "key": "case026.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case026.file.value.bureau",
+   "value": "BDS Tokio — Dienststelle Nihonbashi"
+  },
+  {
+   "key": "case026.file.value.location",
+   "value": "Kamakura, Werkstatthaus — Ausstellungsraum"
+  },
+  {
+   "key": "case026.file.value.number",
+   "value": "BDS-TYO-2030-0011"
+  },
+  {
+   "key": "case026.file.value.offence",
+   "value": "Verdächtiger Todesfall; Diebstahl"
+  },
+  {
+   "key": "case026.file.value.reporter",
+   "value": "Lehrling"
+  },
+  {
+   "key": "case026.fujita.body",
+   "value": "Galerist."
+  },
+  {
+   "key": "case026.fujita.count.answer",
+   "value": "In den letzten zwei Jahren sieben. Alle von Seiji, alle ‚Familienerbstücke‘. Für alle hat Frau Shimizu ein Zertifikat geschrieben."
+  },
+  {
+   "key": "case026.fujita.count.question",
+   "value": "Wie viele ‚alte‘ Schalen haben Sie verkauft?"
+  },
+  {
+   "key": "case026.fujita.deflect",
+   "value": "Unsere Geschäftsbeziehungen sind vertraulich."
+  },
+  {
+   "key": "case026.fujita.fight.answer",
+   "value": "Von der Schale aus dem sechzehnten Jahrhundert, die Herr Kuroda letztes Jahr bei mir gekauft hat, ist ein Stück abgebrochen, darunter kam neuer Ton zum Vorschein. Er sagt, sie ist gefälscht, er will klagen. Seiji hatte mir die Schale als ‚Familienerbstück aus einem Tempel‘ gegeben. Ich habe ihn gefragt, er hat es abgestritten."
+  },
+  {
+   "key": "case026.fujita.fight.answer.demeanor",
+   "value": "Putzt unablässig seine Brille."
+  },
+  {
+   "key": "case026.fujita.fight.question",
+   "value": "Warum haben Sie am Sonntagabend gestritten?"
+  },
+  {
+   "key": "case026.fujita.fight.variant0",
+   "value": "Sie haben also die Glasuranalyse gesehen. Modernes Kobalt. Seiji hat mir die Schale als ‚Tempelerbstück‘ gegeben. Vor mir hatten zwei Gutachter sie geprüft. Ich bin Händler, kein Chemiker."
+  },
+  {
+   "key": "case026.fujita.title",
+   "value": "Fujita Masaru — Befragung"
+  },
+  {
+   "key": "case026.kilnlog.body",
+   "value": "Temperaturschreiber, für die Versicherung am alten Holzgasofen in der Hütte angebracht.\n\n· 20. Januar 23.10 · Zündung\n· 00.30–02.40 · 900–1.050 °C\n· 02.40 · letzter Messwert des Schreibers; danach stetiger Abfall, niemand hat nachgelegt\n· 05.30 · Klappe geöffnet (plötzlicher Abfall)\n\nVermerk: Der Schornstein des Ofens laut Wartungsbericht vom November ‚gerissen; nicht benutzen‘."
+  },
+  {
+   "key": "case026.kilnlog.title",
+   "value": "TEMPERATURSCHREIBER DES OFENS"
+  },
+  {
+   "key": "case026.kuroda.body",
+   "value": "Sammler."
+  },
+  {
+   "key": "case026.kuroda.bowl.answer",
+   "value": "Für die Sammlung von Herrn Kisaragi Genzō. Bezahlt vom Firmenkonto: vierzig Millionen Yen. Für eine Fälschung. Am Montag hätten meine Anwälte Klage erhoben. Der Tod von Seiji bringt mir nichts; von wem soll ich das Geld jetzt holen?"
+  },
+  {
+   "key": "case026.kuroda.bowl.answer.demeanor",
+   "value": "Trommelt mit den Fingern auf den Tisch."
+  },
+  {
+   "key": "case026.kuroda.bowl.question",
+   "value": "Für wen haben Sie die Schale gekauft?"
+  },
+  {
+   "key": "case026.kuroda.deflect",
+   "value": "Meine Sammlung ist meine Privatsache."
+  },
+  {
+   "key": "case026.kuroda.title",
+   "value": "Kuroda Isao — Befragung"
+  },
+  {
+   "key": "case026.method.blow",
+   "value": "Wurde auf den Kopf geschlagen"
+  },
+  {
+   "key": "case026.method.co",
+   "value": "Wurde durch das Kohlenmonoxid des Ofens mit dem gerissenen Schornstein in der Hütte vergiftet"
+  },
+  {
+   "key": "case026.method.fall",
+   "value": "Stürzte vom Regal und schlug mit dem Kopf auf"
+  },
+  {
+   "key": "case026.method.heart",
+   "value": "Herzinfarkt"
+  },
+  {
+   "key": "case026.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case026.offer.subtitle",
+   "value": "KINTSUGI  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case026.offer.summary",
+   "value": "In Kamakura wird ein berühmter Töpfer tot in seinem Ausstellungsraum gefunden. Ein umgestürztes Regal, ein offener Schrank, eine verschwundene Schale: Die Streife spricht von Diebstahl."
+  },
+  {
+   "key": "case026.offer.title",
+   "value": "AKTE #026"
+  },
+  {
+   "key": "case026.okabe.body",
+   "value": "Nachbar vom unteren Hang."
+  },
+  {
+   "key": "case026.okabe.deflect",
+   "value": "Ich kümmere mich um nichts außer meinem Garten."
+  },
+  {
+   "key": "case026.okabe.smoke.answer",
+   "value": "Um eins in der Nacht bin ich auf die Toilette, da qualmte der Schornstein der Ofenhütte oben. Seiji arbeitet manchmal auch nachts. Es war windstill, der Rauch sank herab, der Geruch kam bis in meinen Garten."
+  },
+  {
+   "key": "case026.okabe.smoke.question",
+   "value": "Haben Sie nachts etwas gesehen?"
+  },
+  {
+   "key": "case026.okabe.smoke.variant0",
+   "value": "Der Rauch war um eins, ja. Aber der Ofen … Seiji sagte mir letzten Monat: ‚Den großen Ofen habe ich stillgelegt, jetzt nur noch den elektrischen.‘ Er hat also den kleinen, alten Ofen in der Hütte befeuert. Dessen Schornstein war kaputt, das habe ich immer gesagt."
+  },
+  {
+   "key": "case026.okabe.title",
+   "value": "Okabe Tetsu — Befragung"
+  },
+  {
+   "key": "case026.path.body",
+   "value": "Infrarotkamera mit Blick auf den Steinweg zwischen Ofenhütte und Haus; löst bei Bewegung Bilder aus. 21. Januar 00.00 – 06.00."
+  },
+  {
+   "key": "case026.path.title",
+   "value": "WILDKAMERA IM GARTEN — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case026.person.aoi.info",
+   "value": "24 Jahre, seit vier Jahren Lehrling des Töpfermeisters Nakamura Seiji; wohnt im Zimmer hinter der Werkstatt."
+  },
+  {
+   "key": "case026.person.aoi.name",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.person.emi.info",
+   "value": "41 Jahre, Tochter des Meisters; lebt in Yokohama, war am Wochenende bei ihrem Vater."
+  },
+  {
+   "key": "case026.person.emi.name",
+   "value": "Nakamura Emi"
+  },
+  {
+   "key": "case026.person.fujita.info",
+   "value": "59 Jahre, Inhaber einer Keramikgalerie in Ginza; verkauft seit dreißig Jahren die Werke des Meisters."
+  },
+  {
+   "key": "case026.person.fujita.name",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.person.kuroda.info",
+   "value": "63 Jahre, Sammler; Sammlungsberater des Vorsitzenden von Kisaragi Shōji."
+  },
+  {
+   "key": "case026.person.kuroda.name",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.person.okabe.info",
+   "value": "70 Jahre, Nachbar am unteren Hang der Werkstatt; hat einen Mandarinengarten."
+  },
+  {
+   "key": "case026.person.okabe.name",
+   "value": "Okabe Tetsu"
+  },
+  {
+   "key": "case026.person.shimizu.info",
+   "value": "47 Jahre, unabhängige Keramikgutachterin; hat das Zertifikat für die Schale aus dem ‚16. Jahrhundert‘ geschrieben."
+  },
+  {
+   "key": "case026.person.shimizu.name",
+   "value": "Shimizu Rie"
+  },
+  {
+   "key": "case026.report.body",
+   "value": "Am 21. Januar 2030 um 06.40 wurde im Ausstellungsraum seines Werkstatthauses in den Hügeln von Kamakura der Töpfermeister Nakamura Seiji (68) in Bauchlage tot aufgefunden. Sein Lehrling Hoshino Aoi fand ihn und rief an.\n\nEin Ausstellungsregal ist umgestürzt, am Kopf eine Wunde. Die Glasvitrine im Regal ist offen; laut Aussage des Lehrlings fehlt die ‚wertvollste Schale‘ des Meisters. Streifennotiz: „Nachts ist ein Dieb eingedrungen, der alte Mann wurde beim Aufwachen geschlagen oder ist gestürzt.“"
+  },
+  {
+   "key": "case026.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case026.request.co",
+   "value": "Blutgasanalyse anfordern"
+  },
+  {
+   "key": "case026.request.drag",
+   "value": "Untersuchung der Spuren auf der Tatami anfordern"
+  },
+  {
+   "key": "case026.request.kilnlog",
+   "value": "Temperaturprotokoll der Ofenhütte anfordern"
+  },
+  {
+   "key": "case026.request.shed",
+   "value": "Durchsuchung der Ofenhütte anfordern"
+  },
+  {
+   "key": "case026.request.xrf",
+   "value": "Glasuranalyse der Schale anfordern"
+  },
+  {
+   "key": "case026.scene.body",
+   "value": "· An der Ecke des umgestürzten Regals Haare und Haut, kein Blut.\n· Das Schloss der Glasvitrine wurde mit dem Schlüssel geöffnet; keine Gewalt. Schlüssel haben der Meister und der Lehrling.\n· Auf der Tatami des Ausstellungsraums, von der Tür zur Leiche, zwei parallele, blasse graue Linien.\n· Die Haustüren von innen verschlossen; das Gartentor offen."
+  },
+  {
+   "key": "case026.scene.title",
+   "value": "TATORTUNTERSUCHUNG — AUSSTELLUNGSRAUM"
+  },
+  {
+   "key": "case026.shed.body",
+   "value": "· Im Ofen sieben halb gebrannte Teeschalen; daneben ‚Alterungs‘-Gläser mit Teeblättern und verdünnter Säure, in der Aschegrube vier weitere vergrabene Schalen.\n· Unter dem Regal ein Umschlag: Zahlungsquittungen der Galerie Fujita, 2028–2029; mit dem Vermerk ‚Familienerbstück‘.\n· Ein Arbeitsheft in der Handschrift von Nakamura Seiji: „Glasur nicht mit modernem Kobalt, sondern mit altem Eisen — Shimizu hat es bemerkt.“\n· Innen an der Tür, am Boden, ein umgestürzter Hocker und eine erloschene Laterne.\n· Das Vorhängeschloss der Tür offen; den einzigen Schlüssel hat Hoshino Aoi."
+  },
+  {
+   "key": "case026.shed.title",
+   "value": "DURCHSUCHUNG DER OFENHÜTTE"
+  },
+  {
+   "key": "case026.shimizu.body",
+   "value": "Gutachterin."
+  },
+  {
+   "key": "case026.shimizu.cert.answer",
+   "value": "Mein fachliches Urteil liegt schriftlich vor."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.shed",
+   "value": "Mein Name steht also im Heft. ‚Shimizu hat es bemerkt.‘ Ja, ich habe es bemerkt. Ich habe es gesagt. Dann habe ich geschwiegen, denn ich hatte diese Schalen zertifiziert; kommt es heraus, gehe ich als Erste unter."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.xrf",
+   "value": "Kobalt … Als ich sie begutachtet habe, habe ich die Glasur nicht angekratzt. Niemand tut das; eine hundert Jahre alte Schale kratzt man nicht an. Sie sah alt aus. Aber eines sage ich: Bei der dritten Schale kam mir ein Verdacht. Ich habe es Seiji gesagt. Danach hat er mein Honorar verdoppelt."
+  },
+  {
+   "key": "case026.shimizu.cert.question",
+   "value": "Sie haben für diese Schale ein Zertifikat geschrieben."
+  },
+  {
+   "key": "case026.shimizu.deflect",
+   "value": "Meine fachlichen Urteile liegen schriftlich vor."
+  },
+  {
+   "key": "case026.shimizu.title",
+   "value": "Shimizu Rie — Befragung"
+  },
+  {
+   "key": "case026.summary.evidence",
+   "value": "Die Obduktion zeigte eine blutungsfreie Wunde nach dem Tod und am Rücken fixierte, kirschrote Totenflecken; das Blutgas bestätigte tödliches Kohlenmonoxid. Die Aschelinien auf der Tatami und die Sockenfersen zeigten das Schleifen, die Wildkamera die Last, die von der Hütte ins Haus gebracht wurde, das Ofenprotokoll ein nachts entfachtes Feuer, das um 02.40 ohne Aufsicht blieb. Die Durchsuchung der Hütte verband die Fälschung mit dem Meister."
+  },
+  {
+   "key": "case026.summary.lesson",
+   "value": "Eine Inszenierung verdeckt nicht immer ein Verbrechen; manchmal verdeckt sie ein Geheimnis. Finde zuerst heraus, wo der Tod geschah, dann, was die Szene verbirgt."
+  },
+  {
+   "key": "case026.summary.location",
+   "value": "Hügel von Kamakura — Januar 2030"
+  },
+  {
+   "key": "case026.summary.truth",
+   "value": "Der Töpfermeister Nakamura Seiji ließ seit zwei Jahren selbst gemachte Schalen künstlich altern und verkaufte sie dem Galeristen Fujita als ‚Tempelerbstücke‘; eine ging für vierzig Millionen Yen in die Sammlung Kisaragi. Nachdem der Käufer sie als Fälschung bezeichnete, ging er nachts an seinen alten Ofen mit dem gerissenen Schornstein, um die neue Charge mit einer Glasur aus ‚altem Eisen‘ neu zu brennen, und starb in der Hütte mit geschlossener Tür an Kohlenmonoxid. Sein Lehrling Hoshino Aoi, der ihn um fünf Uhr morgens fand, schleifte die Leiche in den Ausstellungsraum, um den Namen des Meisters zu schützen, stieß das Regal um, schlug seinen Kopf gegen das Regal und inszenierte einen Diebstahl."
+  },
+  {
+   "key": "case026.suspect.label",
+   "value": "Wer ist für den Tod von Nakamura Seiji verantwortlich?"
+  },
+  {
+   "key": "case026.tablet.caseLine",
+   "value": "AKTE #026  /  BUBE TOKIO — NIHONBASHI"
+  },
+  {
+   "key": "case026.time.back",
+   "value": "05.21"
+  },
+  {
+   "key": "case026.time.cold",
+   "value": "02.40"
+  },
+  {
+   "key": "case026.time.drag",
+   "value": "05.06"
+  },
+  {
+   "key": "case026.time.fight",
+   "value": "Pazar 20.30"
+  },
+  {
+   "key": "case026.time.fire",
+   "value": "23.10"
+  },
+  {
+   "key": "case026.time.shed",
+   "value": "00.48"
+  },
+  {
+   "key": "case026.time.smoke",
+   "value": "01.00"
+  },
+  {
+   "key": "case026.title",
+   "value": "Akte #026 — Kintsugi"
+  },
+  {
+   "key": "case026.verdict.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.verdict.fujita",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.verdict.kuroda",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.verdict.nobody",
+   "value": "Niemand — er starb in der Hütte an Kohlenmonoxid; die Leiche wurde später verbracht"
+  },
+  {
+   "key": "case026.xrf.body",
+   "value": "In der Glasur des Bruchstücks modernes synthetisches Kobalt und ein bleifreies Flussmittel nach 1950. Nicht sechzehntes Jahrhundert.\n\nDie Zusammensetzung des Tons ist dieselbe wie im Tonlager der Werkstatt in Kamakura.\n\nDie Gutachterin, die das Zertifikat schrieb: Shimizu Rie."
+  },
+  {
+   "key": "case026.xrf.title",
+   "value": "GLASURANALYSE — SCHALE VON KURODA"
+  },
+  {
+   "key": "case026.item.bowl.name",
+   "value": "Schale aus dem ‚16. Jahrhundert‘"
+  },
+  {
+   "key": "case026.item.bowl.detail",
+   "value": "Die von Kuroda gekaufte Teeschale; die Bruchstellen mit Goldkitt repariert (Kintsugi)."
+  },
+  {
+   "key": "case026.item.ash.name",
+   "value": "Ofenasche und Alterungsglas"
+  },
+  {
+   "key": "case026.item.ash.detail",
+   "value": "Aus der Ofenhütte: ein Glasgefäß mit Teeblättern und Säure, daneben halb vergrabene Schalen."
+  },
+  {
+   "key": "case026.item.heel.name",
+   "value": "Tabi-Socke des Meisters"
+  },
+  {
+   "key": "case026.item.heel.detail",
+   "value": "An den Fersen Asche und Erde; die Leiche lag in der Galerie, die Asche aber nicht an nackten Füßen, sondern in der Socke."
+  }
+ ]
+}
