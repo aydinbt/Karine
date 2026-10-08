@@ -1,0 +1,620 @@
+{
+ "entries": [
+  {
+   "key": "case028.autopsy.body",
+   "value": "· Death from a severe asthma attack. Clear signs of an attack in the airways.\n· No trace in her blood of the medication the victim used: the inhaler did nothing at all during the attack.\n· Time of death: 22.50–23.20.\n· The room’s ventilation switched off; residue of cigarette smoke and dry-ice fog."
+  },
+  {
+   "key": "case028.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case028.backdoor.body",
+   "value": "Celebrity photographer Gotō Ryū was shooting the building’s rear service door from across the street. The three frames he gave to the file:\n\n· 23.08 · A man in a suit coming out of the back door, lighting a cigarette; face partly visible. Photographer’s note: ‘Kanda, alone, tense’.\n· 23.11 · The same man going back in through the lobby door.\n· 23.14 · The man raises his arm and looks at his cufflink; one sleeve has no cufflink."
+  },
+  {
+   "key": "case028.backdoor.title",
+   "value": "THE PHOTOGRAPHER’S FRAMES"
+  },
+  {
+   "key": "case028.cctv.event.in",
+   "value": "Camera: A man in a dark suit walks to the room at the end of the corridor, glancing back over his shoulder."
+  },
+  {
+   "key": "case028.cctv.event.out",
+   "value": "Camera: The same man walks not to the lift but to the emergency stairs; one hand in his pocket."
+  },
+  {
+   "key": "case028.cctv.event.shut",
+   "value": "Camera: The corridor is empty; the door of the last room is shut, coloured light flickering beneath it."
+  },
+  {
+   "key": "case028.cctv.overlay",
+   "value": "6F-C"
+  },
+  {
+   "key": "case028.cctv.period",
+   "value": "3 March 2030"
+  },
+  {
+   "key": "case028.cctv.source",
+   "value": "Corridor camera"
+  },
+  {
+   "key": "case028.clue.fog",
+   "value": "In 606 the dry ice is switched on and the ventilation switched off."
+  },
+  {
+   "key": "case028.clue.in",
+   "value": "The man in the suit enters the last room."
+  },
+  {
+   "key": "case028.clue.lobby",
+   "value": "The manager comes down the emergency stairs to the lobby."
+  },
+  {
+   "key": "case028.clue.out",
+   "value": "The man walks to the emergency stairs."
+  },
+  {
+   "key": "case028.clue.remote",
+   "value": "A remote ‘Kanda’ request to 601, followed by a year-old recording."
+  },
+  {
+   "key": "case028.clue.solo",
+   "value": "Mio stays alone in 606."
+  },
+  {
+   "key": "case028.clue.source.miki",
+   "value": "Fan club manager"
+  },
+  {
+   "key": "case028.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case028.clue.source.syslog",
+   "value": "System log"
+  },
+  {
+   "key": "case028.corridor.body",
+   "value": "The only camera covering the corridor; it does not see inside the rooms. 3 March 22.30 – 23.45."
+  },
+  {
+   "key": "case028.corridor.title",
+   "value": "6TH FLOOR CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case028.cuff.body",
+   "value": "On the 6th-floor landing of the emergency stairs, a black onyx cufflink. Its pair is on Kanda Shūji’s left sleeve.\n\nIn the bin on the landing, an emptied inhaler canister with a dot of correction fluid; Kanda’s fingerprint on it."
+  },
+  {
+   "key": "case028.cuff.title",
+   "value": "EMERGENCY STAIRS SEARCH"
+  },
+  {
+   "key": "case028.custody.label",
+   "value": "What was the manager’s alibi?"
+  },
+  {
+   "key": "case028.custody.live",
+   "value": "He really was singing in 601"
+  },
+  {
+   "key": "case028.custody.none",
+   "value": "He had no alibi"
+  },
+  {
+   "key": "case028.custody.remote",
+   "value": "A remote request and an old recording"
+  },
+  {
+   "key": "case028.epilogue.custody.live",
+   "value": "The manager’s ‘live’ song was accepted as an alibi."
+  },
+  {
+   "key": "case028.epilogue.custody.none",
+   "value": "The manager’s alibi was never examined."
+  },
+  {
+   "key": "case028.epilogue.custody.remote",
+   "value": "It was recorded that the manager’s alibi was built from a remote request and a year-old recording."
+  },
+  {
+   "key": "case028.epilogue.verdict.accident",
+   "value": "The death was closed as an unfortunate attack; the agency signed the Paris contract with another member."
+  },
+  {
+   "key": "case028.epilogue.verdict.haru",
+   "value": "Inoue Haru was charged; the manager’s remote alibi was never questioned."
+  },
+  {
+   "key": "case028.epilogue.verdict.kanda",
+   "value": "Kanda Shūji was arrested. A note was added to the file that the fund which bought the agency’s debt was linked to Kisaragi Shōji; the Paris contract was cancelled."
+  },
+  {
+   "key": "case028.epilogue.verdict.nana",
+   "value": "Kobayashi Nana was taken into custody; the group broke up."
+  },
+  {
+   "key": "case028.evidence.backdoor",
+   "value": "The photographer’s frames"
+  },
+  {
+   "key": "case028.evidence.cuff",
+   "value": "Emergency stairs search"
+  },
+  {
+   "key": "case028.evidence.inhalerlab",
+   "value": "Inhaler examination"
+  },
+  {
+   "key": "case028.evidence.syslog",
+   "value": "Karaoke system log"
+  },
+  {
+   "key": "case028.feedback.accident",
+   "value": "There was no medication in the inhaler, and the ventilation and dry ice were switched from inside the room; someone prepared the attack."
+  },
+  {
+   "key": "case028.feedback.haru",
+   "value": "The songwriter argued in the corridor but went out before 23.00; the attack came after the ventilation was switched off."
+  },
+  {
+   "key": "case028.feedback.kanda",
+   "value": "The system log shows the ‘live’ song in 601 was a remote request and a year-old recording, and that his phone connected from 606; the corridor, the stairs, the cufflink and the empty canisters put him in the room at the moment of the attack."
+  },
+  {
+   "key": "case028.feedback.nana",
+   "value": "The housemate knew about the inhaler, but the agency supplied the canisters; after 22.30 she was in 601."
+  },
+  {
+   "key": "case028.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case028.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Branch"
+  },
+  {
+   "key": "case028.file.value.location",
+   "value": "Shinjuku, karaoke building — 6th floor"
+  },
+  {
+   "key": "case028.file.value.number",
+   "value": "BDS-TYO-2030-0027"
+  },
+  {
+   "key": "case028.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case028.file.value.reporter",
+   "value": "Venue supervisor"
+  },
+  {
+   "key": "case028.goto.body",
+   "value": "Photographer."
+  },
+  {
+   "key": "case028.goto.deflect",
+   "value": "I don’t give up my sources."
+  },
+  {
+   "key": "case028.goto.title",
+   "value": "Gotō Ryū — interview"
+  },
+  {
+   "key": "case028.goto.why.answer",
+   "value": "Someone called me: ‘Mio’s leaving the group tonight; wait at the back door of the building.’ Who called, I don’t know; the number was withheld. A tip doesn’t stay with me; I sell it."
+  },
+  {
+   "key": "case028.goto.why.question",
+   "value": "Why were you waiting that night?"
+  },
+  {
+   "key": "case028.haru.body",
+   "value": "Songwriter."
+  },
+  {
+   "key": "case028.haru.deflect",
+   "value": "I don’t want to talk about old things."
+  },
+  {
+   "key": "case028.haru.fight.answer",
+   "value": "In the corridor, around eleven. They wanted to give a song I wrote to that brand’s advert; Mio said ‘I don’t want that either’. Then I went out for a cigarette. When the door shut she was still talking."
+  },
+  {
+   "key": "case028.haru.fight.answer.demeanor",
+   "value": "He does not lift his eyes from the table."
+  },
+  {
+   "key": "case028.haru.fight.question",
+   "value": "Did you argue with Mio?"
+  },
+  {
+   "key": "case028.haru.title",
+   "value": "Inoue Haru — interview"
+  },
+  {
+   "key": "case028.inhalerlab.body",
+   "value": "The canister of the inhaler in the victim’s hand is empty: propellant only, no medication. A small white dot of correction fluid on the canister.\n\nIn the agency’s medicine cabinet, in Kanda Shūji’s desk drawer, three more empty canisters with the same dot and two full canisters of the victim’s prescription."
+  },
+  {
+   "key": "case028.inhalerlab.title",
+   "value": "INHALER EXAMINATION"
+  },
+  {
+   "key": "case028.kanda.body",
+   "value": "Manager."
+  },
+  {
+   "key": "case028.kanda.deflect",
+   "value": "Contracts are confidential."
+  },
+  {
+   "key": "case028.kanda.title",
+   "value": "Kanda Shūji — interview"
+  },
+  {
+   "key": "case028.kanda.where.answer",
+   "value": "In the other room on the sixth floor, with the girls. I sang for Reina; there’s even a recording. Look, you can see it in the system yourself: a request from my phone at 22.58, my voice at 23.04."
+  },
+  {
+   "key": "case028.kanda.where.answer.demeanor",
+   "value": "He lays his phone face down on the table."
+  },
+  {
+   "key": "case028.kanda.where.question",
+   "value": "Where were you between 22.30 and 23.30?"
+  },
+  {
+   "key": "case028.kanda.where.variant0",
+   "value": "A remote request? That’s how the app works; you send it from inside the room too. I was there; the girls will tell you."
+  },
+  {
+   "key": "case028.kanda_2.606.answer",
+   "value": "No."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.cuff",
+   "value": "…The Paris contract was the company’s last breath. The fund that bought our debt said, ‘If Mio doesn’t sign, it’s all over.’ I went in to talk, turned on the dry ice, switched off the ventilation; the inhaler was in my pocket, I took the full one. The attack came quickly. I shut the door."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.inhalerlab",
+   "value": "I buy the canisters; the insurance requires it. Someone may have mixed them up."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.syslog",
+   "value": "An old recording… I found that recording on the girls’ phones. ‘In case someone’s voice is needed.’ But I didn’t touch her."
+  },
+  {
+   "key": "case028.kanda_2.606.question",
+   "value": "At 22.52 you entered 606."
+  },
+  {
+   "key": "case028.kanda_2.body",
+   "value": "On the records."
+  },
+  {
+   "key": "case028.kanda_2.title",
+   "value": "Kanda Shūji — second interview"
+  },
+  {
+   "key": "case028.method.asthma",
+   "value": "An attack triggered by dry ice and the switched-off ventilation; the inhaler swapped for an empty canister"
+  },
+  {
+   "key": "case028.method.drug",
+   "value": "Something was put in her drink"
+  },
+  {
+   "key": "case028.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case028.method.natural",
+   "value": "A spontaneous attack"
+  },
+  {
+   "key": "case028.method.smother",
+   "value": "She was smothered"
+  },
+  {
+   "key": "case028.miki.body",
+   "value": "Fan club manager."
+  },
+  {
+   "key": "case028.miki.deflect",
+   "value": "Fan club business."
+  },
+  {
+   "key": "case028.miki.lift.answer",
+   "value": "I was waiting in the lobby; I’d brought Mio a present. Around 23.10 Mr Kanda came down the emergency stairs to the lobby, straightening his jacket; he was surprised to see me. ‘The lift’s broken,’ he said. The lift was working."
+  },
+  {
+   "key": "case028.miki.lift.question",
+   "value": "Were you in the building?"
+  },
+  {
+   "key": "case028.miki.title",
+   "value": "Tsuda Miki — interview"
+  },
+  {
+   "key": "case028.nana.body",
+   "value": "Housemate."
+  },
+  {
+   "key": "case028.nana.deflect",
+   "value": "Ask the agency about the group’s business."
+  },
+  {
+   "key": "case028.nana.inhaler.answer",
+   "value": "She always carried it. Last week a ‘new canister’ came; the agency sent it. Our manager buys our medicines himself; the insurance wants it that way."
+  },
+  {
+   "key": "case028.nana.inhaler.answer.demeanor",
+   "value": "She holds the bag on her lap with both hands."
+  },
+  {
+   "key": "case028.nana.inhaler.question",
+   "value": "Mio’s asthma?"
+  },
+  {
+   "key": "case028.nana.paris.answer",
+   "value": "A contract for the brand in Paris. Mio didn’t want to sign; she said ‘I want to leave the group and write’. She and the manager shouted at each other that day."
+  },
+  {
+   "key": "case028.nana.paris.question",
+   "value": "Had anything changed recently?"
+  },
+  {
+   "key": "case028.nana.title",
+   "value": "Kobayashi Nana — interview"
+  },
+  {
+   "key": "case028.offer.subtitle",
+   "value": "KARAOKE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case028.offer.summary",
+   "value": "In Shinjuku, an idol is found dead in the karaoke room where she was left alone in the middle of a birthday party. First assessment: asthma."
+  },
+  {
+   "key": "case028.offer.title",
+   "value": "FILE #028"
+  },
+  {
+   "key": "case028.person.goto.info",
+   "value": "40, celebrity photographer; was waiting across from the building."
+  },
+  {
+   "key": "case028.person.goto.name",
+   "value": "Gotō Ryū"
+  },
+  {
+   "key": "case028.person.haru.info",
+   "value": "27, the group’s songwriter; the victim’s ex-boyfriend."
+  },
+  {
+   "key": "case028.person.haru.name",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.person.kanda.info",
+   "value": "46, the group’s manager; owner of the agency."
+  },
+  {
+   "key": "case028.person.kanda.name",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.person.miki.info",
+   "value": "35, fan club manager; in the front row at every one of the victim’s concerts."
+  },
+  {
+   "key": "case028.person.miki.name",
+   "value": "Tsuda Miki"
+  },
+  {
+   "key": "case028.person.nana.info",
+   "value": "22, the group’s second vocalist; lives in the same house as the victim."
+  },
+  {
+   "key": "case028.person.nana.name",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.person.reina.info",
+   "value": "20, the group’s youngest member; it was her birthday that night."
+  },
+  {
+   "key": "case028.person.reina.name",
+   "value": "Mizuno Reina"
+  },
+  {
+   "key": "case028.person.yamato.info",
+   "value": "31, night supervisor at the karaoke venue."
+  },
+  {
+   "key": "case028.person.yamato.name",
+   "value": "Endō Yamato"
+  },
+  {
+   "key": "case028.reina.body",
+   "value": "The birthday girl."
+  },
+  {
+   "key": "case028.reina.deflect",
+   "value": "You should ask my manager about that."
+  },
+  {
+   "key": "case028.reina.party.answer",
+   "value": "It was my day… Mio was the one who made us laugh the most. Then she said ‘I’m going to practise a song’. Then we moved to the other room. That’s all."
+  },
+  {
+   "key": "case028.reina.party.question",
+   "value": "How was the party?"
+  },
+  {
+   "key": "case028.reina.title",
+   "value": "Mizuno Reina — interview"
+  },
+  {
+   "key": "case028.report.body",
+   "value": "On 3 March 2030 at 23.40, idol group member Aikawa Mio (23) was found dead in a private room on the 6th floor of a karaoke building in Shinjuku. The group was celebrating Reina’s birthday; at 22.30 Mio stayed alone in the room, saying ‘I’m going to practise a song’.\n\nFirst assessment: asthma attack. Inhaler in her hand.\n\nThose in the room and those who came to the building that evening: Kobayashi Nana, Mizuno Reina, manager Kanda Shūji, songwriter Inoue Haru, fan club manager Tsuda Miki; venue supervisor Endō Yamato."
+  },
+  {
+   "key": "case028.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case028.request.backdoor",
+   "value": "Request the frames from the photographer across the street"
+  },
+  {
+   "key": "case028.request.cuff",
+   "value": "Search the emergency stairs"
+  },
+  {
+   "key": "case028.request.inhalerlab",
+   "value": "Send the inhaler for examination"
+  },
+  {
+   "key": "case028.request.syslog",
+   "value": "Request the system’s request and recording log"
+  },
+  {
+   "key": "case028.summary.evidence",
+   "value": "The corridor camera gave his entry, the system log that the ‘live’ song was remote and a year old, the inhaler examination the swapped canister, and the emergency stairs the cufflink and the last canister."
+  },
+  {
+   "key": "case028.summary.lesson",
+   "value": "A recording is evidence of the moment it was recorded, not of the moment it was played."
+  },
+  {
+   "key": "case028.summary.location",
+   "value": "Shinjuku — March 2030"
+  },
+  {
+   "key": "case028.summary.truth",
+   "value": "The agency’s debt had passed to a fund linked to Kisaragi Shōji, and the fund made Aikawa Mio’s signature with a Paris fashion brand a condition. When Mio wanted to leave the group, manager Kanda Shūji entered the room where she was alone at 22.52; he turned on the dry ice, switched off the ventilation and took the full inhaler, leaving her with a canister that held no medication. For an alibi he sent a remote song request from his phone to the party room and had the previous year’s birthday recording played."
+  },
+  {
+   "key": "case028.suspect.label",
+   "value": "Who is responsible for Aikawa Mio’s death?"
+  },
+  {
+   "key": "case028.syslog.body",
+   "value": "Party room (601):\n· 22.58 · request — source: APP (remote), account: Kanda Shūji\n· 23.04 · played: ‘microphone recording’ — file created: 3 March 2029, same room, the previous year’s birthday\n\nLast room (606):\n· 22.31 · request, in-room\n· 22.55 · dry-ice effect and ventilation off — from inside the room\n\nAt the same times, Kanda’s phone was connected to the building’s Wi-Fi through 606’s access point."
+  },
+  {
+   "key": "case028.syslog.title",
+   "value": "KARAOKE SYSTEM LOG — 6TH FLOOR"
+  },
+  {
+   "key": "case028.tablet.caseLine",
+   "value": "FILE #028  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case028.time.fog",
+   "value": "22.55"
+  },
+  {
+   "key": "case028.time.in",
+   "value": "22.52"
+  },
+  {
+   "key": "case028.time.lobby",
+   "value": "23.10"
+  },
+  {
+   "key": "case028.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case028.time.remote",
+   "value": "22.58"
+  },
+  {
+   "key": "case028.time.shut",
+   "value": "22.53"
+  },
+  {
+   "key": "case028.time.solo",
+   "value": "22.30"
+  },
+  {
+   "key": "case028.title",
+   "value": "File #028 — Karaoke"
+  },
+  {
+   "key": "case028.verdict.accident",
+   "value": "No one — a spontaneous asthma attack"
+  },
+  {
+   "key": "case028.verdict.haru",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.verdict.kanda",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.verdict.nana",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.yamato.body",
+   "value": "Venue supervisor."
+  },
+  {
+   "key": "case028.yamato.deflect",
+   "value": "I can’t give out customer information."
+  },
+  {
+   "key": "case028.yamato.stairs.answer",
+   "value": "The emergency stairs door alarm went off once at 23.07. Smokers always open it; I silence it."
+  },
+  {
+   "key": "case028.yamato.stairs.question",
+   "value": "Did anything catch your attention around then?"
+  },
+  {
+   "key": "case028.yamato.system.answer",
+   "value": "Every request, the request source, in-room microphone recordings if you want them. Requests can come from the app; you don’t need to be in the building, the room code is enough. I can give you the logs."
+  },
+  {
+   "key": "case028.yamato.system.question",
+   "value": "What does the rooms’ system record?"
+  },
+  {
+   "key": "case028.yamato.title",
+   "value": "Endō Yamato — interview"
+  },
+  {
+   "key": "case028.item.inhaler.name",
+   "value": "Empty inhaler"
+  },
+  {
+   "key": "case028.item.inhaler.detail",
+   "value": "The victim’s asthma inhaler; the canister removed and an empty one fitted in its place."
+  },
+  {
+   "key": "case028.item.remote.name",
+   "value": "Karaoke remote"
+  },
+  {
+   "key": "case028.item.remote.detail",
+   "value": "The room’s song tablet; in its history, two requests came remotely from the app."
+  },
+  {
+   "key": "case028.item.cuff.name",
+   "value": "Cufflink"
+  },
+  {
+   "key": "case028.item.cuff.detail",
+   "value": "A black onyx cufflink found in front of the lift shaft."
+  }
+ ]
+}

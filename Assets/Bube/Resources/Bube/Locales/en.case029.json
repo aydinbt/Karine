@@ -1,0 +1,568 @@
+{
+ "entries": [
+  {
+   "key": "case029.autopsy.body",
+   "value": "· No soot in the airways; no carbon monoxide in the blood. He was dead when the fire started.\n· A single blow to the back of the skull with a heavy, round tool. This is the cause of death.\n· Age 30–40; height 1.68 m. An old fracture on the left forearm.\n· Death a few hours before the fire: the night of 21 March."
+  },
+  {
+   "key": "case029.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case029.cctv.event.boot",
+   "value": "Camera: The man carries the can to the boot of the saloon, looking towards the road."
+  },
+  {
+   "key": "case029.cctv.event.fill",
+   "value": "Camera: A heavy-set man in a work jacket fills a red can; behind him, a dark saloon with its lights off."
+  },
+  {
+   "key": "case029.cctv.event.leave",
+   "value": "Camera: The saloon turns onto the forest road; a small white minivan stays parked at the edge of the station."
+  },
+  {
+   "key": "case029.cctv.overlay",
+   "value": "PUMP-1"
+  },
+  {
+   "key": "case029.cctv.period",
+   "value": "22 March 2030"
+  },
+  {
+   "key": "case029.cctv.source",
+   "value": "Station camera"
+  },
+  {
+   "key": "case029.clue.blow",
+   "value": "A single blow to the head; death hours before the fire."
+  },
+  {
+   "key": "case029.clue.fill",
+   "value": "The man in the work jacket fills the can; a dark saloon behind."
+  },
+  {
+   "key": "case029.clue.found",
+   "value": "The burnt-out saloon is found in the forest."
+  },
+  {
+   "key": "case029.clue.leave",
+   "value": "The saloon turns onto the forest road; the white minivan stays behind."
+  },
+  {
+   "key": "case029.clue.pickup",
+   "value": "Driver Hamada goes to Chiba to collect Kazuki’s belongings."
+  },
+  {
+   "key": "case029.clue.source.autopsy",
+   "value": "Autopsy"
+  },
+  {
+   "key": "case029.clue.source.emiko",
+   "value": "Night mover"
+  },
+  {
+   "key": "case029.clue.source.ledger",
+   "value": "Moving ledger"
+  },
+  {
+   "key": "case029.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case029.clue.vanish",
+   "value": "Kazuki leaves for Sendai with the night-moving firm; his watch is left as a pledge."
+  },
+  {
+   "key": "case029.custody.hamada",
+   "value": "Hamada Jun — the night-moving driver"
+  },
+  {
+   "key": "case029.custody.kazuki",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.custody.label",
+   "value": "Whose is the body in the burnt-out car?"
+  },
+  {
+   "key": "case029.custody.unknown",
+   "value": "Identity undetermined"
+  },
+  {
+   "key": "case029.daisuke.body",
+   "value": "Naoko’s older brother."
+  },
+  {
+   "key": "case029.daisuke.claim.answer",
+   "value": "I did. My sister’s a wreck; the paperwork fell to me. What’s wrong with that?"
+  },
+  {
+   "key": "case029.daisuke.claim.question",
+   "value": "Who made the insurance claim?"
+  },
+  {
+   "key": "case029.daisuke.deflect",
+   "value": "If you’ve got questions about my garage, ask."
+  },
+  {
+   "key": "case029.daisuke.night.answer",
+   "value": "At the garage, on a customer’s car. Till morning. If I found Kazuki I’d break his neck, everyone knows that; but he’s burnt, what can I do."
+  },
+  {
+   "key": "case029.daisuke.night.answer.demeanor",
+   "value": "He folds his arms across his chest."
+  },
+  {
+   "key": "case029.daisuke.night.question",
+   "value": "Where were you on the night of 21 March?"
+  },
+  {
+   "key": "case029.daisuke.title",
+   "value": "Kudō Daisuke — interview"
+  },
+  {
+   "key": "case029.daisuke_2.body",
+   "value": "On the search."
+  },
+  {
+   "key": "case029.daisuke_2.title",
+   "value": "Kudō Daisuke — second interview"
+  },
+  {
+   "key": "case029.daisuke_2.who.answer",
+   "value": "Never heard that name."
+  },
+  {
+   "key": "case029.daisuke_2.who.presented.garage",
+   "value": "That bastard came out of my sister’s house with Kazuki’s things, Kazuki’s watch on his wrist. I brought him to the garage to make him talk. ‘I won’t tell,’ he said, and smiled. I had the sledgehammer in my hand. Then… a dead husband pays out a lot of money. I put the watch on his wrist and put him in Kazuki’s car. I thought nobody would look at his teeth."
+  },
+  {
+   "key": "case029.daisuke_2.who.question",
+   "value": "The man who burned is Hamada Jun."
+  },
+  {
+   "key": "case029.dental.body",
+   "value": "Ishida Kazuki’s X-ray on record: four fillings, a gold crown on the lower right molar.\n\nThe body’s jaw: no fillings, no crown, natural teeth. No match.\n\nThe body is not Ishida Kazuki."
+  },
+  {
+   "key": "case029.dental.title",
+   "value": "DENTAL IDENTIFICATION COMPARISON"
+  },
+  {
+   "key": "case029.emiko.body",
+   "value": "Owner of the night-moving firm."
+  },
+  {
+   "key": "case029.emiko.deflect",
+   "value": "I never name my clients."
+  },
+  {
+   "key": "case029.emiko.hamada.answer",
+   "value": "Thirty-five, a quiet lad. Broke his arm when he was young. He fetched and carried clients’ belongings; ‘I’m going back for his things,’ he said that night. To Ishida’s house."
+  },
+  {
+   "key": "case029.emiko.hamada.question",
+   "value": "Who was Hamada?"
+  },
+  {
+   "key": "case029.emiko.service.answer",
+   "value": "My job is helping people disappear. If I give out a name, my business is finished."
+  },
+  {
+   "key": "case029.emiko.service.answer.demeanor",
+   "value": "Her hands in her lap, motionless."
+  },
+  {
+   "key": "case029.emiko.service.question",
+   "value": "Do you know Ishida Kazuki?"
+  },
+  {
+   "key": "case029.emiko.service.variant0",
+   "value": "The body isn’t him, is it? …Then let’s talk. I moved Kazuki on the night of 12 March, with my driver Hamada Jun. Kazuki is alive. But Hamada hasn’t come back since 21 March. Nor has his minivan."
+  },
+  {
+   "key": "case029.emiko.title",
+   "value": "Fukuda Emiko — interview"
+  },
+  {
+   "key": "case029.epilogue.custody.hamada",
+   "value": "It was recorded, from dental records and family DNA, that the body was driver Hamada Jun."
+  },
+  {
+   "key": "case029.epilogue.custody.kazuki",
+   "value": "The body was taken to be the missing man; the insurance paid out."
+  },
+  {
+   "key": "case029.epilogue.custody.unknown",
+   "value": "The body remained unidentified; the file is open."
+  },
+  {
+   "key": "case029.epilogue.verdict.daisuke",
+   "value": "Kudō Daisuke was arrested. Ishida Kazuki came back from Sendai and met Naoko. The Fukuda firm’s ledger was taken into a separate file; the ‘Mori K.’ entry was noted for the Tokyo branch."
+  },
+  {
+   "key": "case029.epilogue.verdict.emiko",
+   "value": "Fukuda Emiko was taken into custody; her firm’s clients were exposed."
+  },
+  {
+   "key": "case029.epilogue.verdict.kazuki",
+   "value": "Ishida Kazuki was declared a wanted suspect; the real victim remained unidentified."
+  },
+  {
+   "key": "case029.epilogue.verdict.naoko",
+   "value": "Ishida Naoko was tried for insurance fraud; her brother was heard as a witness."
+  },
+  {
+   "key": "case029.evidence.dental",
+   "value": "Dental identification comparison"
+  },
+  {
+   "key": "case029.evidence.garage",
+   "value": "Garage search"
+  },
+  {
+   "key": "case029.evidence.ledger",
+   "value": "Moving ledger"
+  },
+  {
+   "key": "case029.evidence.station",
+   "value": "Station camera"
+  },
+  {
+   "key": "case029.feedback.daisuke",
+   "value": "The body is not Kazuki but the driver Hamada; his blood, the sledgehammer, the missing minivan’s key and a can with blood on the handle are in the garage. The station camera shows the heavy-set man filling the can; he made the insurance claim."
+  },
+  {
+   "key": "case029.feedback.emiko",
+   "value": "The mover lost her driver; his minivan and his blood are in someone else’s garage."
+  },
+  {
+   "key": "case029.feedback.kazuki",
+   "value": "The missing man was in Sendai that night, and he is not the one inside the burnt car."
+  },
+  {
+   "key": "case029.feedback.naoko",
+   "value": "The wife recognised the watch and was the beneficiary, but she was not at the garage; her brother made the claim."
+  },
+  {
+   "key": "case029.file.caseType",
+   "value": "IDENTITY"
+  },
+  {
+   "key": "case029.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Branch"
+  },
+  {
+   "key": "case029.file.value.location",
+   "value": "Chiba, forest road"
+  },
+  {
+   "key": "case029.file.value.number",
+   "value": "BDS-TYO-2030-0034"
+  },
+  {
+   "key": "case029.file.value.offence",
+   "value": "Suspicious death; missing person"
+  },
+  {
+   "key": "case029.file.value.reporter",
+   "value": "Forest ranger"
+  },
+  {
+   "key": "case029.garage.body",
+   "value": "Kudō Daisuke’s car repair garage:\n\n· On the floor, in a cleaned area, blood; DNA consistent with kinship with a sample taken from Hamada Jun’s mother.\n· On the workbench, a round-headed sledgehammer; its head recently washed.\n· In a drawer, a minivan key with a white tag: the Fukuda firm’s missing minivan.\n· Behind the garage, a red metal can; blood on its handle."
+  },
+  {
+   "key": "case029.garage.title",
+   "value": "GARAGE SEARCH"
+  },
+  {
+   "key": "case029.kazuki.body",
+   "value": "Found in Sendai."
+  },
+  {
+   "key": "case029.kazuki.deflect",
+   "value": "I won’t talk about this."
+  },
+  {
+   "key": "case029.kazuki.title",
+   "value": "Ishida Kazuki — interview"
+  },
+  {
+   "key": "case029.kazuki.watch.answer",
+   "value": "I couldn’t pay in full, so I gave it to Hamada as a pledge. Then he went to my wife’s to fetch my things… Hamada burned? In my car?"
+  },
+  {
+   "key": "case029.kazuki.watch.question",
+   "value": "Your watch?"
+  },
+  {
+   "key": "case029.kazuki.why.answer",
+   "value": "Daisuke came every week. The last time he said, ‘A dead husband pays out more.’ In front of my wife. That night I called Ms Fukuda."
+  },
+  {
+   "key": "case029.kazuki.why.answer.demeanor",
+   "value": "He looks at his own hands."
+  },
+  {
+   "key": "case029.kazuki.why.question",
+   "value": "Why did you disappear?"
+  },
+  {
+   "key": "case029.ledger.body",
+   "value": "Fukuda Emiko’s handwritten ledger, last two months:\n\n· 12 March · Ishida K. — Chiba to Sendai. Driver: Hamada. Note: ‘Left his watch as a pledge, payment short.’\n· 21 March · Ishida K. belongings — Chiba. Driver: Hamada. No return.\n· 18 February · Mori K. — Tokyo to Osaka. Payment: corporate transfer, Kisaragi Shōji."
+  },
+  {
+   "key": "case029.ledger.title",
+   "value": "MOVING LEDGER"
+  },
+  {
+   "key": "case029.matsui.body",
+   "value": "The family’s dentist."
+  },
+  {
+   "key": "case029.matsui.deflect",
+   "value": "Patient information is confidential."
+  },
+  {
+   "key": "case029.matsui.records.answer",
+   "value": "He’s been my patient for twelve years. Four fillings, one gold crown, lower right molar. I’ll send the X-rays; even in a burnt jaw a crown survives."
+  },
+  {
+   "key": "case029.matsui.records.question",
+   "value": "Do you hold Ishida Kazuki’s records?"
+  },
+  {
+   "key": "case029.matsui.title",
+   "value": "Matsui Kei — interview"
+  },
+  {
+   "key": "case029.method.crash",
+   "value": "The car burned after a crash"
+  },
+  {
+   "key": "case029.method.fire",
+   "value": "He burned to death in the car"
+  },
+  {
+   "key": "case029.method.hammer",
+   "value": "He was struck on the head with a sledgehammer, then burned in the car"
+  },
+  {
+   "key": "case029.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case029.naoko.body",
+   "value": "The missing man’s wife."
+  },
+  {
+   "key": "case029.naoko.debt.answer",
+   "value": "Kazuki borrowed money from my brother to become a partner in the garage, then he lost his job. My brother came every week. Kazuki has a life insurance policy with me as beneficiary. My brother said, ‘At least that’ll be some use,’ as a joke."
+  },
+  {
+   "key": "case029.naoko.debt.question",
+   "value": "What was the debt?"
+  },
+  {
+   "key": "case029.naoko.deflect",
+   "value": "Our family’s affairs are none of your business."
+  },
+  {
+   "key": "case029.naoko.title",
+   "value": "Ishida Naoko — interview"
+  },
+  {
+   "key": "case029.naoko.watch.answer",
+   "value": "I bought it for our wedding. There’s an engraving on the back. Kazuki never took it off."
+  },
+  {
+   "key": "case029.naoko.watch.answer.demeanor",
+   "value": "She folds and unfolds a handkerchief."
+  },
+  {
+   "key": "case029.naoko.watch.question",
+   "value": "How did you recognise the watch?"
+  },
+  {
+   "key": "case029.naoko.watch.variant0",
+   "value": "His teeth… don’t match? Then why was the watch on his wrist? Kazuki must have given his watch to someone. But to whom?"
+  },
+  {
+   "key": "case029.offer.subtitle",
+   "value": "EVAPORATION  /  IDENTITY"
+  },
+  {
+   "key": "case029.offer.summary",
+   "value": "In Chiba, a burnt-out car in the forest with a body inside. The car belongs to an insurance salesman who vanished ten days ago; his wife identified him."
+  },
+  {
+   "key": "case029.offer.title",
+   "value": "FILE #029"
+  },
+  {
+   "key": "case029.person.daisuke.info",
+   "value": "44, Naoko’s older brother; runs a small car repair garage."
+  },
+  {
+   "key": "case029.person.daisuke.name",
+   "value": "Kudō Daisuke"
+  },
+  {
+   "key": "case029.person.emiko.info",
+   "value": "57, owner of a ‘night-moving’ firm; moves people to another city without a trace."
+  },
+  {
+   "key": "case029.person.emiko.name",
+   "value": "Fukuda Emiko"
+  },
+  {
+   "key": "case029.person.kazuki.info",
+   "value": "42, insurance salesman; vanished ten days ago."
+  },
+  {
+   "key": "case029.person.kazuki.name",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.person.matsui.info",
+   "value": "50, the Ishida family’s dentist."
+  },
+  {
+   "key": "case029.person.matsui.name",
+   "value": "Matsui Kei"
+  },
+  {
+   "key": "case029.person.naoko.info",
+   "value": "39, wife of the missing Ishida Kazuki; works at a pharmacy in Chiba."
+  },
+  {
+   "key": "case029.person.naoko.name",
+   "value": "Ishida Naoko"
+  },
+  {
+   "key": "case029.report.body",
+   "value": "On the morning of 22 March 2030, a burnt-out saloon was found on a forest road in Chiba with a burnt body in the driver’s seat. The number plate is registered to Ishida Kazuki (42); Ishida left home on 12 March and did not return, and his wife had reported him missing.\n\nHis wife, Ishida Naoko, was shown a burnt watch found beside the body; Naoko recognised it as her husband’s.\n\nMissing person report note: ‘The family mentioned debt; possible night move.’"
+  },
+  {
+   "key": "case029.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case029.request.dental",
+   "value": "Request a dental comparison"
+  },
+  {
+   "key": "case029.request.garage",
+   "value": "Request a warrant to search Kudō Daisuke’s garage"
+  },
+  {
+   "key": "case029.request.ledger",
+   "value": "Request the moving ledger"
+  },
+  {
+   "key": "case029.station.body",
+   "value": "Station 3 km from the forest road. 21 March 23.00 – 22 March 03.00."
+  },
+  {
+   "key": "case029.station.title",
+   "value": "PETROL STATION CAMERA — log transcript"
+  },
+  {
+   "key": "case029.summary.evidence",
+   "value": "The autopsy showed death before the fire, and the dental comparison that the body was not Kazuki. The mover’s ledger gave the driver and the watch, the station camera the can, and the garage search the blood and the minivan key."
+  },
+  {
+   "key": "case029.summary.lesson",
+   "value": "A body is not whoever’s car it is found in. First ask who it is; then who wanted it mistaken for someone else."
+  },
+  {
+   "key": "case029.summary.location",
+   "value": "Chiba — March 2030"
+  },
+  {
+   "key": "case029.summary.truth",
+   "value": "To escape the debt pressure of his brother-in-law Kudō Daisuke, Ishida Kazuki ‘evaporated’ to Sendai with a night-moving firm on 12 March; when his payment fell short he left his watch with driver Hamada Jun as a pledge. On 21 March Daisuke caught Hamada, who had come to collect the belongings, took him to his garage to make him reveal Kazuki’s whereabouts, killed him with a sledgehammer, put the watch on his wrist, burned him in Kazuki’s car and made an insurance claim on his sister’s behalf."
+  },
+  {
+   "key": "case029.suspect.label",
+   "value": "Who killed the man who burned?"
+  },
+  {
+   "key": "case029.tablet.caseLine",
+   "value": "FILE #029  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case029.time.blow",
+   "value": "21 Mar., night"
+  },
+  {
+   "key": "case029.time.boot",
+   "value": "01.15"
+  },
+  {
+   "key": "case029.time.fill",
+   "value": "01.12"
+  },
+  {
+   "key": "case029.time.found",
+   "value": "22 Mar., morning"
+  },
+  {
+   "key": "case029.time.leave",
+   "value": "01.17"
+  },
+  {
+   "key": "case029.time.pickup",
+   "value": "21 Mar."
+  },
+  {
+   "key": "case029.time.vanish",
+   "value": "12 Mar."
+  },
+  {
+   "key": "case029.title",
+   "value": "File #029 — Evaporation"
+  },
+  {
+   "key": "case029.verdict.daisuke",
+   "value": "Kudō Daisuke"
+  },
+  {
+   "key": "case029.verdict.emiko",
+   "value": "Fukuda Emiko"
+  },
+  {
+   "key": "case029.verdict.kazuki",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.verdict.naoko",
+   "value": "Ishida Naoko"
+  },
+  {
+   "key": "case029.item.dental.name",
+   "value": "Dental X-rays"
+  },
+  {
+   "key": "case029.item.dental.detail",
+   "value": "The body’s jaw X-ray side by side with Ishida Kazuki’s X-ray on record."
+  },
+  {
+   "key": "case029.item.can.name",
+   "value": "Petrol can"
+  },
+  {
+   "key": "case029.item.can.detail",
+   "value": "Behind the garage; a red metal can with a burn mark on its cap."
+  },
+  {
+   "key": "case029.item.keys.name",
+   "value": "Moving minivan key"
+  },
+  {
+   "key": "case029.item.keys.detail",
+   "value": "In the tool drawer at the garage, a single key with a white plastic tag."
+  }
+ ]
+}
