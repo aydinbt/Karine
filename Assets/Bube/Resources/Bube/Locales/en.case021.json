@@ -1,0 +1,624 @@
+{
+ "entries": [
+  {
+   "key": "case021.anja.betting.answer",
+   "value": "Lukas came to me last week. ‘Moritz has been selling races, to bookmakers. The doping wasn’t even the real issue. I’m going to tell the federation,’ he said. I told him to talk to his brother first. I wish I hadn’t."
+  },
+  {
+   "key": "case021.anja.betting.answer.demeanor",
+   "value": "Her voice went hoarse."
+  },
+  {
+   "key": "case021.anja.betting.question",
+   "value": "Was there any trouble in recent days?"
+  },
+  {
+   "key": "case021.anja.body",
+   "value": "Head coach."
+  },
+  {
+   "key": "case021.anja.deflect",
+   "value": "Ask the federation about that."
+  },
+  {
+   "key": "case021.anja.night.answer",
+   "value": "Moritz, ever since the ban. But in the week before selection Lukas went out at night too, to train on quiet water. I told him to."
+  },
+  {
+   "key": "case021.anja.night.question",
+   "value": "Who rowed at night?"
+  },
+  {
+   "key": "case021.anja.title",
+   "value": "Anja Richter — interview"
+  },
+  {
+   "key": "case021.anja.twins.answer",
+   "value": "By the rowing. Lukas’s stroke is shorter, ever since his left shoulder operation in 2027. He missed a season, then came back better than his brother. Moritz never accepted that."
+  },
+  {
+   "key": "case021.anja.twins.question",
+   "value": "How did you tell the twins apart?"
+  },
+  {
+   "key": "case021.autopsy.body",
+   "value": "· Cause of death: drowning; he was alive when he entered the water but may have been unconscious.\n· On the right temple, a broad, flat blow sustained before entering the water; consistent with an oar blade.\n· An old surgical scar on the left shoulder; two titanium screws on X-ray.\n· The jacket’s zip done up the wrong way, the inner lining turned out at one pocket.\n· Identification: visual identification by the twin brother at the scene. DNA does not distinguish identical twins."
+  },
+  {
+   "key": "case021.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case021.betting.body",
+   "value": "A fictional betting integrity organisation.\n\n· In seven races, unusually high bets on Moritz Berger’s boat losing.\n· To an account in Moritz Berger’s name, a total of €64,000 as “sponsorship” via Arendt Handelsgesellschaft.\n· The account remained in use after the ban."
+  },
+  {
+   "key": "case021.betting.title",
+   "value": "BETTING MONITORING REPORT — DAHME REGATTAS 2027–2028"
+  },
+  {
+   "key": "case021.cctv.event.launch",
+   "value": "Camera: A rower in a dark jacket lowers a single scull from the slip into the water; alone."
+  },
+  {
+   "key": "case021.cctv.event.leave",
+   "value": "Camera: A man walks from the jetty towards the club door, putting on a dark jacket; water dripping behind him."
+  },
+  {
+   "key": "case021.cctv.event.wait",
+   "value": "Camera: A second man, the same height, crosses from the edge of the slip towards the jetty; an oar in his hand."
+  },
+  {
+   "key": "case021.cctv.overlay",
+   "value": "SLIP"
+  },
+  {
+   "key": "case021.cctv.period",
+   "value": "21 September 2029, 21.30 – 22.40"
+  },
+  {
+   "key": "case021.cctv.source",
+   "value": "Slip camera"
+  },
+  {
+   "key": "case021.clue.bets",
+   "value": "Unusual bets on Moritz Berger’s races; payment via Arendt."
+  },
+  {
+   "key": "case021.clue.fight",
+   "value": "Two men at the end of the jetty; one raises something long."
+  },
+  {
+   "key": "case021.clue.launch",
+   "value": "A rower goes down the slip into the water alone."
+  },
+  {
+   "key": "case021.clue.leave",
+   "value": "A man walks from the jetty to the club door, wet, putting on his jacket."
+  },
+  {
+   "key": "case021.clue.source.betting",
+   "value": "Betting report"
+  },
+  {
+   "key": "case021.clue.source.medical",
+   "value": "Orthopaedic record"
+  },
+  {
+   "key": "case021.clue.source.rolf",
+   "value": "Angler on the far bank"
+  },
+  {
+   "key": "case021.clue.surgery",
+   "value": "Two screws are fitted in Lukas Berger’s left shoulder."
+  },
+  {
+   "key": "case021.clue.wait",
+   "value": "A second man of the same height crosses to the jetty with an oar."
+  },
+  {
+   "key": "case021.custody.both",
+   "value": "The two cannot be told apart"
+  },
+  {
+   "key": "case021.custody.label",
+   "value": "Which twin died?"
+  },
+  {
+   "key": "case021.custody.lukas",
+   "value": "Lukas Berger — the brother with screws in his shoulder"
+  },
+  {
+   "key": "case021.custody.moritz",
+   "value": "Moritz Berger — the banned brother"
+  },
+  {
+   "key": "case021.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case021.epilogue.custody.both",
+   "value": "Identical twins were declared indistinguishable; the case collapsed over the uncertain identity."
+  },
+  {
+   "key": "case021.epilogue.custody.lukas",
+   "value": "The civil register was corrected: Lukas Berger dead, Moritz Berger alive. For the first time their mother mourned her sons separately."
+  },
+  {
+   "key": "case021.epilogue.custody.moritz",
+   "value": "The identification stood as it was; the surviving twin went on living under his brother’s name."
+  },
+  {
+   "key": "case021.epilogue.custody.unknown",
+   "value": "The question of identity remained open; the defence used it from the first day."
+  },
+  {
+   "key": "case021.epilogue.verdict.anja",
+   "value": "Anja Richter was dismissed. In October Moritz Berger took his seat in the national team boat as “Lukas”."
+  },
+  {
+   "key": "case021.epilogue.verdict.holger",
+   "value": "Holger Mertens’s statement was deemed false and the old man left the club. The file was closed as an accident."
+  },
+  {
+   "key": "case021.epilogue.verdict.nobody",
+   "value": "The death was closed as an accident. “Moritz Berger” was buried; his brother rowed for the national team."
+  },
+  {
+   "key": "case021.epilogue.verdict.survivor",
+   "value": "Moritz Berger was arrested for murder. Lukas Berger was buried under his own name; in October one seat in the national team boat was left empty."
+  },
+  {
+   "key": "case021.evidence.betting",
+   "value": "Betting monitoring report"
+  },
+  {
+   "key": "case021.evidence.medical",
+   "value": "Orthopaedic record"
+  },
+  {
+   "key": "case021.evidence.prints",
+   "value": "Fingerprint comparison"
+  },
+  {
+   "key": "case021.evidence.xray",
+   "value": "Shoulder X-ray"
+  },
+  {
+   "key": "case021.feedback.anja",
+   "value": "The coach told Lukas to talk to his brother; she was not at the club that night, and she was the one who led to the screw record."
+  },
+  {
+   "key": "case021.feedback.holger",
+   "value": "Holger only saw the rower going down the slip and guessed who it was; from his window he could not see the jetty."
+  },
+  {
+   "key": "case021.feedback.nobody",
+   "value": "The blow to the temple came before he entered the water; there is blood and an oar mark on the jetty, and the angler saw two men."
+  },
+  {
+   "key": "case021.feedback.survivor",
+   "value": "The fingerprints are Moritz’s, and there are no screws in his shoulder; on the jetty he struck his brother with an oar, swapped jackets and in the morning identified him under his own name."
+  },
+  {
+   "key": "case021.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case021.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Branch"
+  },
+  {
+   "key": "case021.file.value.location",
+   "value": "Köpenick, Dahme Rowing Club — jetty"
+  },
+  {
+   "key": "case021.file.value.number",
+   "value": "BDS-BER-2029-0071"
+  },
+  {
+   "key": "case021.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case021.file.value.reporter",
+   "value": "Club attendant"
+  },
+  {
+   "key": "case021.holger.body",
+   "value": "Boatman."
+  },
+  {
+   "key": "case021.holger.deflect",
+   "value": "I look after boats, not people."
+  },
+  {
+   "key": "case021.holger.saw.answer",
+   "value": "Around 22.00 I looked out of my window: Moritz took the single scull down the slip, alone. He always went out at night, since the ban. Then I went to bed."
+  },
+  {
+   "key": "case021.holger.saw.answer.demeanor",
+   "value": "Certain."
+  },
+  {
+   "key": "case021.holger.saw.question",
+   "value": "What did you see last night?"
+  },
+  {
+   "key": "case021.holger.title",
+   "value": "Holger Mertens — interview"
+  },
+  {
+   "key": "case021.holger.which.answer",
+   "value": "He’s the one who rows at night. Lukas is a morning lad. I didn’t see his face; from that distance nobody can tell them apart. But at night… it’s Moritz."
+  },
+  {
+   "key": "case021.holger.which.question",
+   "value": "How did you know it was Moritz?"
+  },
+  {
+   "key": "case021.lukas.body",
+   "value": "The surviving twin."
+  },
+  {
+   "key": "case021.lukas.brother.answer",
+   "value": "Being a twin… you share everything, then one of you takes everything. I was selected, he was banned. But he was my brother."
+  },
+  {
+   "key": "case021.lukas.brother.question",
+   "value": "How did you get on with your brother?"
+  },
+  {
+   "key": "case021.lukas.deflect",
+   "value": "I’ve only just lost my brother. Please."
+  },
+  {
+   "key": "case021.lukas.night.answer",
+   "value": "At home, in Adlershof. National team selection is in October; I went to bed early. Moritz went out at night, since his ban, so nobody would see him."
+  },
+  {
+   "key": "case021.lukas.night.answer.demeanor",
+   "value": "His eyes red, his voice flat."
+  },
+  {
+   "key": "case021.lukas.night.question",
+   "value": "Where were you last night?"
+  },
+  {
+   "key": "case021.lukas.quote",
+   "value": "“Then one of you takes everything.”"
+  },
+  {
+   "key": "case021.lukas.title",
+   "value": "Lukas Berger — interview"
+  },
+  {
+   "key": "case021.lukas_2.body",
+   "value": "On the orthopaedic record and the X-ray."
+  },
+  {
+   "key": "case021.lukas_2.jacket.answer",
+   "value": "Moritz’s jacket. His own jacket. How would I know."
+  },
+  {
+   "key": "case021.lukas_2.jacket.question",
+   "value": "The body’s jacket was put on the wrong way."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer",
+   "value": "…Moritz had an operation too. At a different hospital. The records must be mixed up."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer.demeanor",
+   "value": "For the first time he looked away."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.question",
+   "value": "Lukas Berger has two screws in his left shoulder. The body taken from the water has those two screws in its shoulder. Your shoulder doesn’t."
+  },
+  {
+   "key": "case021.lukas_2.title",
+   "value": "The man who identified himself as Lukas Berger — second interview"
+  },
+  {
+   "key": "case021.lukas_3.body",
+   "value": "On the fingerprint comparison."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer",
+   "value": "I waited on the jetty for him to come back. ‘Don’t tell,’ I said. ‘I’m going to,’ he said. The oar was in my hand. He fell, he didn’t move. I swapped jackets, let him go into the water, turned the boat over. In the morning I identified my own body."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer.demeanor",
+   "value": "He looked at his hands."
+  },
+  {
+   "key": "case021.lukas_3.jetty.question",
+   "value": "What happened on the jetty?"
+  },
+  {
+   "key": "case021.lukas_3.name.answer",
+   "value": "…In October I was going to sit in that boat. Under his name. No one would have noticed; even our mother tells us apart by our voices. Lukas would have gone to the federation, and I to prison."
+  },
+  {
+   "key": "case021.lukas_3.name.answer.demeanor",
+   "value": "A long silence, then a flat voice."
+  },
+  {
+   "key": "case021.lukas_3.name.question",
+   "value": "Your fingerprints are Moritz Berger’s. The one who died is Lukas."
+  },
+  {
+   "key": "case021.lukas_3.title",
+   "value": "Moritz Berger — third interview"
+  },
+  {
+   "key": "case021.medical.body",
+   "value": "A fictional sports hospital, Berlin. Patient: Lukas Berger, b. 2002.\n\n· March 2027 · left shoulder, labrum repair; two titanium screws inserted.\n· Check-up, September 2028: screws in place, no removal planned.\n\nNo record at the same hospital for his brother Moritz Berger."
+  },
+  {
+   "key": "case021.medical.title",
+   "value": "ORTHOPAEDIC RECORD — LUKAS BERGER"
+  },
+  {
+   "key": "case021.method.capsized",
+   "value": "The boat capsized and he drowned"
+  },
+  {
+   "key": "case021.method.drunk",
+   "value": "He fell into the water drunk"
+  },
+  {
+   "key": "case021.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case021.method.oar",
+   "value": "He was struck on the head with an oar on the jetty and left in the water; the boat was turned over"
+  },
+  {
+   "key": "case021.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case021.offer.subtitle",
+   "value": "THE OAR  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case021.offer.summary",
+   "value": "A rower banned for doping is found dead in the water near his club’s jetty in Köpenick. His identical twin identifies the body. The boatman saw him go down to the water alone."
+  },
+  {
+   "key": "case021.offer.title",
+   "value": "FILE #021"
+  },
+  {
+   "key": "case021.person.anja.info",
+   "value": "49, head coach of Dahme Rowing Club. She has trained the twins since they were twelve."
+  },
+  {
+   "key": "case021.person.anja.name",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.person.holger.info",
+   "value": "66, the club’s boatman; lives on the top floor of the clubhouse."
+  },
+  {
+   "key": "case021.person.holger.name",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.person.lukas.info",
+   "value": "27, rower. Identical twin of the deceased Moritz Berger; he identified the body at the scene."
+  },
+  {
+   "key": "case021.person.lukas.name",
+   "value": "Lukas Berger"
+  },
+  {
+   "key": "case021.person.rolf.info",
+   "value": "58, bus driver. Fishes at night on the far bank of the Dahme."
+  },
+  {
+   "key": "case021.person.rolf.name",
+   "value": "Rolf Kaiser"
+  },
+  {
+   "key": "case021.plan.body",
+   "value": "Bird’s-eye sketch. In the northwest, the clubhouse; in front of it, the boat shed. In the west, the concrete slip where boats are lowered into the water; in the middle, a wooden jetty reaching into the river. In the southeast, the far bank of the Dahme.\n\nPositions described by witnesses and shown by records are marked on the plan."
+  },
+  {
+   "key": "case021.plan.incident",
+   "value": "Cross: the end of the jetty; the scene team found blood and an oar-blade mark on the boards. Tap the markers to draw the area visible from that point."
+  },
+  {
+   "key": "case021.plan.marker.holger_claim",
+   "value": "Holger Mertens — where he says he was: top-floor window of the clubhouse"
+  },
+  {
+   "key": "case021.plan.marker.rolf_claim",
+   "value": "Rolf Kaiser — where he says he was: far bank, fishing spot"
+  },
+  {
+   "key": "case021.plan.marker.slip_cam",
+   "value": "Slip camera — boat launching ramp"
+  },
+  {
+   "key": "case021.plan.title",
+   "value": "SCENE PLAN — DAHME ROWING CLUB"
+  },
+  {
+   "key": "case021.prints.body",
+   "value": "Requested by: bube Berlin. Identical twins have different fingerprints.\n\n· Comparison record: Moritz Berger’s fingerprints from the 2028 doping file.\n· Fingerprints of the man who identified himself as Lukas Berger: match the Moritz Berger record.\n· Fingerprints of the body taken from the water: do not match the Moritz Berger record."
+  },
+  {
+   "key": "case021.prints.title",
+   "value": "FINGERPRINT COMPARISON"
+  },
+  {
+   "key": "case021.report.body",
+   "value": "On 22 September 2029 at 06.20 in Köpenick, a man’s body was found in the water near the jetty of Dahme Rowing Club; a hundred metres away, a capsized single racing scull.\n\nThe body was identified at the scene by his identical twin, Lukas Berger: Moritz Berger (27). He was wearing a club jacket embroidered “M. BERGER” on the chest.\n\nPatrol note: “Moritz Berger was banned for two years for doping in 2028 and rowed alone at night. The club’s boatman saw him go down to the water alone at 22.00. The boat capsized in the dark; an accident.”"
+  },
+  {
+   "key": "case021.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case021.request.betting",
+   "value": "Request the betting monitoring report"
+  },
+  {
+   "key": "case021.request.medical",
+   "value": "Request Lukas Berger’s orthopaedic record"
+  },
+  {
+   "key": "case021.request.prints",
+   "value": "Request a fingerprint comparison"
+  },
+  {
+   "key": "case021.request.xray",
+   "value": "Request a shoulder X-ray of the surviving twin"
+  },
+  {
+   "key": "case021.rolf.after.answer",
+   "value": "One of them bent over on the jetty for a long while, busy with something. Then he walked towards the club door, putting on his jacket."
+  },
+  {
+   "key": "case021.rolf.after.question",
+   "value": "What happened then?"
+  },
+  {
+   "key": "case021.rolf.body",
+   "value": "The angler on the far bank."
+  },
+  {
+   "key": "case021.rolf.deflect",
+   "value": "I was fishing, I don’t know the rest."
+  },
+  {
+   "key": "case021.rolf.saw.answer",
+   "value": "A bit past ten, two men at the end of the jetty. They were shouting, same height, same build. One raised something long, like an oar. Then something fell into the water, and a boat turned over. I thought they were drunk lads, I didn’t call. I should have."
+  },
+  {
+   "key": "case021.rolf.saw.answer.demeanor",
+   "value": "He bowed his head."
+  },
+  {
+   "key": "case021.rolf.saw.question",
+   "value": "What did you see last night?"
+  },
+  {
+   "key": "case021.rolf.title",
+   "value": "Rolf Kaiser — interview"
+  },
+  {
+   "key": "case021.slip.body",
+   "value": "Camera covering the club’s boat launching ramp; the end of the jetty is out of its field of view. 21 September 21.30 – 22.40."
+  },
+  {
+   "key": "case021.slip.title",
+   "value": "SLIP CAMERA — log transcript"
+  },
+  {
+   "key": "case021.summary.evidence",
+   "value": "The scene plan showed that the boatman could not see the jetty and that the angler on the far bank could; the slip camera caught a second man. The two screws in the autopsy matched Lukas’s orthopaedic record; the survivor’s X-ray showed no screws. The fingerprint comparison tied the living twin to Moritz’s doping file."
+  },
+  {
+   "key": "case021.summary.lesson",
+   "value": "An identification is itself a statement: look at who made it and what it rests on. What DNA cannot tell apart, the body and the records can."
+  },
+  {
+   "key": "case021.summary.location",
+   "value": "Köpenick, Dahme Rowing Club — September 2029"
+  },
+  {
+   "key": "case021.summary.truth",
+   "value": "For years Moritz Berger sold races and took money via Arendt; he was banned for doping. His identical twin Lukas was selected for the national team and decided to report his brother to the federation. On the night of 21 September Lukas went out on the water to prepare for selection; Moritz waited on the jetty, struck him with an oar on his return, swapped their jackets, left his brother in the water and turned the boat over. In the morning he identified the body bearing his own name and began living as Lukas."
+  },
+  {
+   "key": "case021.suspect.label",
+   "value": "Who is responsible for the death on the Dahme?"
+  },
+  {
+   "key": "case021.tablet.caseLine",
+   "value": "FILE #021  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case021.time.bets",
+   "value": "2027–2028"
+  },
+  {
+   "key": "case021.time.fight",
+   "value": "21 Sept. 22.10"
+  },
+  {
+   "key": "case021.time.launch",
+   "value": "21.58"
+  },
+  {
+   "key": "case021.time.leave",
+   "value": "22.24"
+  },
+  {
+   "key": "case021.time.surgery",
+   "value": "March 2027"
+  },
+  {
+   "key": "case021.time.wait",
+   "value": "22.03"
+  },
+  {
+   "key": "case021.title",
+   "value": "File #021 — The Oar"
+  },
+  {
+   "key": "case021.verdict.anja",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.verdict.holger",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.verdict.nobody",
+   "value": "No one — the boat capsized in the dark"
+  },
+  {
+   "key": "case021.verdict.survivor",
+   "value": "The surviving twin — the man who called himself Lukas Berger"
+  },
+  {
+   "key": "case021.xray.body",
+   "value": "Requested by bube Berlin; with the person’s consent, 23 September 2029.\n\nThe man who identified himself as Lukas Berger: no surgical scar on the left shoulder, no screws, bone structure consistent with a joint that has never been operated on."
+  },
+  {
+   "key": "case021.xray.title",
+   "value": "SHOULDER X-RAY — THE SURVIVING TWIN"
+  },
+  {
+   "key": "case021.item.oar.name",
+   "value": "Oar"
+  },
+  {
+   "key": "case021.item.oar.detail",
+   "value": "A racing oar with a dark stain on the blade."
+  },
+  {
+   "key": "case021.item.jacket.name",
+   "value": "Rowing jacket"
+  },
+  {
+   "key": "case021.item.jacket.detail",
+   "value": "A wet rowing jacket, turned inside out."
+  },
+  {
+   "key": "case021.item.xray.name",
+   "value": "X-ray"
+  },
+  {
+   "key": "case021.item.xray.detail",
+   "value": "Two metal screws in the shoulder joint."
+  }
+ ]
+}
