@@ -1,0 +1,964 @@
+{
+ "entries": [
+  {
+   "key": "case007.autopsy.body",
+   "value": "Findings on the cause of death:\n\n· An injury to the left temporal region consistent with blunt trauma. The wound edge is arc-shaped; consistent with a hard object with a rounded edge about 6 cm in diameter. A skull fracture beneath it.\n· Carbon monoxide level in the blood 18%. Markedly lower than would be expected in someone who remained in dense smoke for a long time.\n· Limited soot deposits in the airways. The findings suggest the person breathed for a short time in the early stage of the fire.\n· The burns appear to have occurred after or at the time of death.\n\nAssessment: the injury occurred before the fire. After being injured, the person may have survived unconscious for some time."
+  },
+  {
+   "key": "case007.autopsy.title",
+   "value": "FORENSIC EXAMINATION REPORT — KEREM SARIGÜL"
+  },
+  {
+   "key": "case007.card.body",
+   "value": "REQUEST APPROVED.\n\nSeptember–October spending on the company card issued to Serdar Belen on behalf of Belen & Sarıgül Restorasyon (selected items):\n\n26 September · Insurance premium difference · 18,400 TL\n10 October · A hardware shop in Karaköy · “Programmable timer socket ×1, ceramic fan heater 1500 W ×1” · 1,260 TL\n10 October · Same hardware shop · “Extension cable 5 m ×1” · 190 TL\n\nThere is no purchase of a heater or socket in any other period on the card. The workshop is heated by a central system."
+  },
+  {
+   "key": "case007.card.title",
+   "value": "COMPANY CARD STATEMENT — SERDAR BELEN"
+  },
+  {
+   "key": "case007.cctv.event.car_pass",
+   "value": "Camera 01: A vehicle of the same colour and appearance comes out of the back street and passes in front of the camera; it does not stop."
+  },
+  {
+   "key": "case007.cctv.event.car_stop",
+   "value": "Camera 01: A dark saloon car stops in front of the workshop for a few seconds; nobody gets out. Then it turns into the back street at the side of the building. The plate cannot be read from this angle."
+  },
+  {
+   "key": "case007.cctv.event.kerem_in",
+   "value": "Camera 01 (street): A man opens the workshop’s front door with a key and goes in; a paper bag in his hand. Identified as Kerem Sarıgül."
+  },
+  {
+   "key": "case007.cctv.event.light",
+   "value": "Camera 01: Behind the workshop’s display window, a change of light in the inner section; a flickering orange glow."
+  },
+  {
+   "key": "case007.cctv.event.melis_out",
+   "value": "Camera 01: A woman leaves through the front door; she puts her coat on as she walks and goes off downhill with quick steps."
+  },
+  {
+   "key": "case007.cctv.event.smoke",
+   "value": "Camera 01: Smoke comes out of the gap above the front door. A minute later the night watchman runs into frame."
+  },
+  {
+   "key": "case007.cctv.overlay",
+   "value": "CAM 01"
+  },
+  {
+   "key": "case007.cctv.period",
+   "value": "14–15 October 2028, 22.00 – 02.30"
+  },
+  {
+   "key": "case007.cctv.source",
+   "value": "Street camera"
+  },
+  {
+   "key": "case007.clue.back_msg",
+   "value": "Kerem to Serdar: “Come in by the back door.”"
+  },
+  {
+   "key": "case007.clue.call",
+   "value": "Kerem calls Serdar; four minutes"
+  },
+  {
+   "key": "case007.clue.car_pass",
+   "value": "A vehicle of the same appearance comes out of the back street"
+  },
+  {
+   "key": "case007.clue.car_stop",
+   "value": "A dark vehicle stops and turns into the back street"
+  },
+  {
+   "key": "case007.clue.erdal_saw",
+   "value": "Says he saw Serdar leave by the service door"
+  },
+  {
+   "key": "case007.clue.kerem_in",
+   "value": "Kerem enters the workshop"
+  },
+  {
+   "key": "case007.clue.light",
+   "value": "Change of light inside the workshop"
+  },
+  {
+   "key": "case007.clue.melis_claim",
+   "value": "States when she left (later corrected)"
+  },
+  {
+   "key": "case007.clue.melis_msg",
+   "value": "Kerem to Melis: “Let’s talk at the workshop this evening.”"
+  },
+  {
+   "key": "case007.clue.melis_out",
+   "value": "A woman leaves the workshop"
+  },
+  {
+   "key": "case007.clue.plate_in",
+   "value": "Serdar’s company car enters Beyoğlu"
+  },
+  {
+   "key": "case007.clue.plate_out",
+   "value": "The company car leaves Beyoğlu"
+  },
+  {
+   "key": "case007.clue.serdar_claim",
+   "value": "Says he was working at home"
+  },
+  {
+   "key": "case007.clue.smoke",
+   "value": "Smoke is seen"
+  },
+  {
+   "key": "case007.clue.source.kphone",
+   "value": "Kerem’s phone"
+  },
+  {
+   "key": "case007.clue.source.plate",
+   "value": "Plate recognition record"
+  },
+  {
+   "key": "case007.clue.source.sphone",
+   "value": "Serdar’s location record"
+  },
+  {
+   "key": "case007.clue.sphone_home",
+   "value": "Serdar’s phone in Ataşehir; no use"
+  },
+  {
+   "key": "case007.clue.street_car_pass",
+   "value": "A vehicle of the same appearance comes out of the back street"
+  },
+  {
+   "key": "case007.clue.street_car_stop",
+   "value": "A dark vehicle stops and turns into the back street"
+  },
+  {
+   "key": "case007.clue.street_kerem_in",
+   "value": "Kerem enters the workshop"
+  },
+  {
+   "key": "case007.clue.street_light",
+   "value": "Change of light inside the workshop"
+  },
+  {
+   "key": "case007.clue.street_melis_out",
+   "value": "A woman leaves the workshop"
+  },
+  {
+   "key": "case007.clue.street_smoke",
+   "value": "Smoke is seen"
+  },
+  {
+   "key": "case007.corridor.body",
+   "value": "REQUEST APPROVED.\n\nInspection of the service corridor, the service door and the surface of the back street:\n\n· Recent signs of use on the inner handle and the latch of the service door; the soot layer shows it was opened and closed before the fire. The door was locked from outside with a key.\n· On the corridor floor, white powder marks from the archive room towards the door; carried on the sole of a shoe.\n· In the back street, on the wet ground just in front of the service door, a tyre track from a car. White powder in the track; analysis: calcium sulphate (restoration plaster).\n\nNote: the powder in the back street is suitable for comparison with the sample taken in the vehicle inspection."
+  },
+  {
+   "key": "case007.corridor.title",
+   "value": "SERVICE CORRIDOR AND BACK STREET INSPECTION REPORT"
+  },
+  {
+   "key": "case007.custody.cover",
+   "value": "To destroy evidence"
+  },
+  {
+   "key": "case007.custody.insurance",
+   "value": "Insurance gain"
+  },
+  {
+   "key": "case007.custody.kill",
+   "value": "To kill Kerem"
+  },
+  {
+   "key": "case007.custody.label",
+   "value": "The original purpose of the fire"
+  },
+  {
+   "key": "case007.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case007.epilogue.custody.cover",
+   "value": "It was accepted that the fire was set to cover up the incident. The defence said the fire was ‘a single decision made in panic’; the charge of planned insurance fraud fell away from the file."
+  },
+  {
+   "key": "case007.epilogue.custody.insurance",
+   "value": "The timer socket had been bought five days before the fight, the increase in cover nineteen days before. The fire was not improvised to hide Kerem’s death; it had already been planned. The insurance claim was refused."
+  },
+  {
+   "key": "case007.epilogue.custody.kill",
+   "value": "It was alleged the fire was set to kill Kerem. Serdar said he left believing Kerem was dead; the plan had been made without knowing Kerem would be there that night. The allegation did not hold up in court."
+  },
+  {
+   "key": "case007.epilogue.custody.unknown",
+   "value": "The purpose of the fire remained open. The increase in cover and the socket purchase sat in the file without being connected."
+  },
+  {
+   "key": "case007.epilogue.verdict.melis_blow",
+   "value": "Melis Akın was taken into custody. She was released when the phone records showed Kerem was still sending messages at 23.17; that week Serdar Belen tried to leave the country."
+  },
+  {
+   "key": "case007.epilogue.verdict.none_fall",
+   "value": "The death was accepted as a result of the fire. Just as the insurance payout was about to be released, the loss adjuster Oğuz Tezcan had the file reopened."
+  },
+  {
+   "key": "case007.epilogue.verdict.serdar_blow",
+   "value": "Serdar Belen was arrested on suspicion of intentional injury resulting in death and arson. The blood on the base of the lamp proved to be Kerem Sarıgül’s."
+  },
+  {
+   "key": "case007.epilogue.verdict.serdar_fall",
+   "value": "The file proceeded as causing death by negligence. Serdar Belen’s lawyer built a defence of ‘an accident in a moment of panic’; the lamp only came up again months later."
+  },
+  {
+   "key": "case007.epilogue.verdict.undetermined",
+   "value": "The death remained suspicious and the file was shelved. Serdar Belen closed the workshop and pursued the insurance claim."
+  },
+  {
+   "key": "case007.erdal.back.answer",
+   "value": "There’s a service door at the back; it opens onto the back street. It’s always locked. The partners have keys, and so do I."
+  },
+  {
+   "key": "case007.erdal.back.question",
+   "value": "Does the building have another entrance?"
+  },
+  {
+   "key": "case007.erdal.body",
+   "value": "Statement of the night watchman."
+  },
+  {
+   "key": "case007.erdal.deflect",
+   "value": "I was on the door, son; I don’t know about all that."
+  },
+  {
+   "key": "case007.erdal.kerem.answer",
+   "value": "I didn’t see. I was in the hut. Kerem Bey comes and goes in the evenings; I don’t look every time he arrives."
+  },
+  {
+   "key": "case007.erdal.kerem.answer.demeanor",
+   "value": "After the answer he looked out of the window for a long time."
+  },
+  {
+   "key": "case007.erdal.kerem.question",
+   "value": "You didn’t see Kerem Bey arrive that night?"
+  },
+  {
+   "key": "case007.erdal.quote",
+   "value": "“When I saw the smoke I didn’t know anyone was inside.”"
+  },
+  {
+   "key": "case007.erdal.smoke.answer",
+   "value": "Around quarter past two I came out of the hut to do my round. Smoke was coming from above the door. I called the fire brigade. When I saw the smoke I didn’t know anyone was inside."
+  },
+  {
+   "key": "case007.erdal.smoke.answer.demeanor",
+   "value": "Put his hands on his knees as if to stand up, and didn’t."
+  },
+  {
+   "key": "case007.erdal.smoke.question",
+   "value": "How did you notice the fire?"
+  },
+  {
+   "key": "case007.erdal.title",
+   "value": "Erdal Kılıç — interview"
+  },
+  {
+   "key": "case007.erdal_follow.body",
+   "value": "Interview held after the building plan."
+  },
+  {
+   "key": "case007.erdal_follow.car.answer",
+   "value": "Everyone parks in the back street. I don’t remember."
+  },
+  {
+   "key": "case007.erdal_follow.car.question",
+   "value": "Did a vehicle go into the back street towards midnight?"
+  },
+  {
+   "key": "case007.erdal_follow.serdar.answer",
+   "value": "I know him. He’s a good man. He found my son a job, last spring. He helped us when times were hard. What’s that got to do with anything?"
+  },
+  {
+   "key": "case007.erdal_follow.serdar.answer.demeanor",
+   "value": "His voice rose for a moment, then he pulled himself together."
+  },
+  {
+   "key": "case007.erdal_follow.serdar.question",
+   "value": "Do you know Serdar Bey?"
+  },
+  {
+   "key": "case007.erdal_follow.title",
+   "value": "Erdal Kılıç — second interview"
+  },
+  {
+   "key": "case007.erdal_follow.window.answer",
+   "value": "It does. But I don’t look all the time. The night’s long; I listen to the radio, I make tea. I didn’t see anything."
+  },
+  {
+   "key": "case007.erdal_follow.window.answer.demeanor",
+   "value": "As he said ‘I didn’t see anything’ he didn’t notice he was building the same sentence a second time."
+  },
+  {
+   "key": "case007.erdal_follow.window.question",
+   "value": "The window of your hut looks onto the entrance of the back street."
+  },
+  {
+   "key": "case007.erdal_third.body",
+   "value": "Interview held after the service corridor inspection."
+  },
+  {
+   "key": "case007.erdal_third.saw.answer",
+   "value": "…I saw. It was a bit after twelve. Serdar Bey came out of the service door, locked it, got in his car and left. He had nothing in his hands. He was in a hurry. I… didn’t know whether Kerem Bey was inside or not, I swear. When I saw the fire it crossed my mind, but… my son works for that man."
+  },
+  {
+   "key": "case007.erdal_third.saw.answer.demeanor",
+   "value": "He was silent for a long time. Then he took off his cap and began turning it in his hands."
+  },
+  {
+   "key": "case007.erdal_third.saw.question",
+   "value": "The service door was opened and closed before the fire and locked from outside. Three people have a key to that door."
+  },
+  {
+   "key": "case007.erdal_third.time.answer",
+   "value": "The midnight news on the radio had finished. Quarter past or so. His car came out of the back street."
+  },
+  {
+   "key": "case007.erdal_third.time.question",
+   "value": "How do you know the time?"
+  },
+  {
+   "key": "case007.erdal_third.title",
+   "value": "Erdal Kılıç — third interview"
+  },
+  {
+   "key": "case007.erdal_third.why.answer",
+   "value": "I thought if I said I saw nothing, I wouldn’t harm anyone. If Serdar Bey did something, it doesn’t become undone because I didn’t see it. That’s what I thought. I thought wrong."
+  },
+  {
+   "key": "case007.erdal_third.why.question",
+   "value": "Why didn’t you say?"
+  },
+  {
+   "key": "case007.evidence.autopsy",
+   "value": "Forensic examination report"
+  },
+  {
+   "key": "case007.evidence.corridor",
+   "value": "Service corridor and back street inspection"
+  },
+  {
+   "key": "case007.evidence.fire_full",
+   "value": "Fire investigation report"
+  },
+  {
+   "key": "case007.evidence.insurance",
+   "value": "Insurance loss adjuster’s report"
+  },
+  {
+   "key": "case007.evidence.vehicle",
+   "value": "Vehicle inspection report"
+  },
+  {
+   "key": "case007.feedback.melis_blow",
+   "value": "Melis left by the front door at 23.16; between 23.12 and 23.17 Kerem was talking to Serdar and sending messages. Motive, a lie and being at the scene do not make a culprit."
+  },
+  {
+   "key": "case007.feedback.none_fall",
+   "value": "The forensic examination says the injury came before the fire; the wound of someone who fell while fleeing smoke does not leave a round mark 6 cm in diameter."
+  },
+  {
+   "key": "case007.feedback.serdar_blow",
+   "value": "Kerem’s wound is consistent with a round object 6 cm in diameter; the base of the lamp beside him is 6.2 cm and bloodstained. Serdar came in and went out through the service door that night. His ‘I pushed him, he fell’ account does not fit the wound."
+  },
+  {
+   "key": "case007.feedback.serdar_fall",
+   "value": "The wound is consistent not with the flat edge of the desk but with a round object 6 cm in diameter; the lamp base is bloodstained. You accepted Serdar’s ‘he fell’ account."
+  },
+  {
+   "key": "case007.feedback.undetermined",
+   "value": "The forensic examination, the fire report and the service corridor inspection showed how the injury happened and who caused it."
+  },
+  {
+   "key": "case007.file.caseType",
+   "value": "SUSPICIOUS FIRE"
+  },
+  {
+   "key": "case007.file.value.bureau",
+   "value": "BDS Suspicious Deaths Desk"
+  },
+  {
+   "key": "case007.file.value.location",
+   "value": "Beyoğlu, Tomtom — Belen & Sarıgül Restorasyon"
+  },
+  {
+   "key": "case007.file.value.number",
+   "value": "BDS-2028-0312"
+  },
+  {
+   "key": "case007.file.value.offence",
+   "value": "Suspicious fire — death"
+  },
+  {
+   "key": "case007.file.value.reporter",
+   "value": "Fire crew and night watchman Erdal Kılıç"
+  },
+  {
+   "key": "case007.fire_full.body",
+   "value": "Detailed report of the fire investigator:\n\n· There are no short-circuit or arcing marks on the electrical panel in the back room. The soot on the panel comes from smoke from outside.\n· The direction of burning and depth of charring show the point of origin was the wooden shelving system in the archive/storage room.\n· Flammable solvent residue at the foot of the shelves. Solvent in a restoration workshop is normal; however, the pattern of distribution is consistent not with a container tipping over but with being poured along the shelves. The solvent cabinet door was found open and two containers empty.\n· At the foot of the shelves, residue of melted plastic and its internal circuit: consistent with a programmable timer socket. The metal frame of a small fan heater connected to the socket.\n· In the office section, a metal desk lamp fallen to the floor beside the deceased. Its base is round, 6.2 cm in diameter. On the edge of the base, a trace of blood not fully destroyed by the heat.\n\nAssessment: the fire did not start from an electrical fault but from a timed heat source igniting shelving material soaked in solvent."
+  },
+  {
+   "key": "case007.fire_full.title",
+   "value": "FIRE INVESTIGATION REPORT"
+  },
+  {
+   "key": "case007.fire_pre.body",
+   "value": "Preliminary scene assessment by the fire crew:\n\nThe fire started in the rear section of the workshop and spread to the office and work hall through smoke and heat. There is an electrical panel in the back room; there is heavy soot around the panel.\n\nPreliminary assessment: possibility of a workplace fire of electrical origin.\n\nNo detailed investigation has been carried out. The fire investigation report is awaited for the exact point of origin and cause."
+  },
+  {
+   "key": "case007.fire_pre.title",
+   "value": "PRELIMINARY FIRE REPORT"
+  },
+  {
+   "key": "case007.insurance.body",
+   "value": "Preliminary assessment by loss adjuster Oğuz Tezcan:\n\n· 19 days before the fire (26 September) the business’s cover for movable works and equipment was increased by 240%. The change request and signature were given by Serdar Belen.\n· Under the partnership agreement a change of cover requires the approval of both partners; there is no signature of Kerem Sarıgül in the file.\n· The claim was notified on 15 October at 11.40 by Serdar Belen.\n· The business owes a total of 3.1 million TL to two banks; the September instalments have not been paid.\n\nPayment of the claim has been suspended until the investigation concludes."
+  },
+  {
+   "key": "case007.insurance.title",
+   "value": "INSURANCE LOSS ADJUSTER’S REPORT — PRELIMINARY ASSESSMENT"
+  },
+  {
+   "key": "case007.kphone.body",
+   "value": "Inspection of the phone found at the scene:\n\n11 October · Drafts: an unsent email to the accountant, Nur Hanım: “I want to end Melis Akın’s contract at the end of the month. I’ll tell her this week. Could you work out the severance?”\n\n14 October:\n21.05 · Message to Melis Akın: “Let’s talk at the workshop this evening.”\n23.12 · Outgoing call with Serdar Belen, 4 min 06 s.\n23.17 · Message to Serdar Belen: “I’m waiting. Come in by the back door.”\n\nNo calls made or answered after 23.17."
+  },
+  {
+   "key": "case007.kphone.title",
+   "value": "PHONE INSPECTION REPORT — KEREM SARIGÜL"
+  },
+  {
+   "key": "case007.melis.body",
+   "value": "Statement of the workshop employee."
+  },
+  {
+   "key": "case007.melis.deflect",
+   "value": "I don’t know. I really don’t know."
+  },
+  {
+   "key": "case007.melis.night.answer",
+   "value": "I was finishing the varnish cleaning on a painting. Kerem Bey came in towards eleven. And I left towards half past eleven. He was working, that’s all."
+  },
+  {
+   "key": "case007.melis.night.question",
+   "value": "What were you doing at the workshop that night?"
+  },
+  {
+   "key": "case007.melis.quote",
+   "value": "“Kerem Bey and I got on well.”"
+  },
+  {
+   "key": "case007.melis.relation.answer",
+   "value": "Good. He more or less taught me this trade. Kerem Bey and I got on well."
+  },
+  {
+   "key": "case007.melis.relation.answer.demeanor",
+   "value": "Dropped her eyes to the table."
+  },
+  {
+   "key": "case007.melis.relation.question",
+   "value": "How were things between you and Kerem Sarıgül?"
+  },
+  {
+   "key": "case007.melis.solvent.answer",
+   "value": "Of course. Solvents, varnishes, alcohol. You can’t do restoration without them. They’re all kept in a metal cabinet in the archive room at the back. Lids closed; I check every evening."
+  },
+  {
+   "key": "case007.melis.solvent.question",
+   "value": "Were there flammable materials in the workshop?"
+  },
+  {
+   "key": "case007.melis.title",
+   "value": "Melis Akın — interview"
+  },
+  {
+   "key": "case007.melis_follow.body",
+   "value": "Interview held after the phone inspection."
+  },
+  {
+   "key": "case007.melis_follow.fired.answer",
+   "value": "…Yes. We argued. He told me, and I shouted. Four years, I said. I cried. Then I took my bag and left. I didn’t say because… look how you’re looking at me now. He was alive when I left. Not half past eleven; I left at quarter past eleven. I got that wrong too."
+  },
+  {
+   "key": "case007.melis_follow.fired.answer.demeanor",
+   "value": "Her voice shook, but she did not look away."
+  },
+  {
+   "key": "case007.melis_follow.fired.question",
+   "value": "Kerem Bey was about to dismiss you. He called you in that evening to talk about it."
+  },
+  {
+   "key": "case007.melis_follow.phone.answer",
+   "value": "He was on the phone. Talking to Serdar Bey; he said his name. ‘Come over, let’s talk face to face, this can’t be done on the phone,’ he said. His voice was very harsh. Even with me he hadn’t been that harsh."
+  },
+  {
+   "key": "case007.melis_follow.phone.question",
+   "value": "What was Kerem Bey doing when you left?"
+  },
+  {
+   "key": "case007.melis_follow.title",
+   "value": "Melis Akın — second interview"
+  },
+  {
+   "key": "case007.melis_follow.why.answer",
+   "value": "He said there was no money. He said the workshop was going under. He said Serdar Bey was up to something, and he’d only just found out. I was caught up in my own troubles; I didn’t listen."
+  },
+  {
+   "key": "case007.melis_follow.why.question",
+   "value": "Why was Kerem Bey dismissing you?"
+  },
+  {
+   "key": "case007.method.accident",
+   "value": "Accidental — spilled solvent"
+  },
+  {
+   "key": "case007.method.deliberate",
+   "value": "Deliberate"
+  },
+  {
+   "key": "case007.method.electric",
+   "value": "Electrical fault"
+  },
+  {
+   "key": "case007.method.label",
+   "value": "Nature of the fire"
+  },
+  {
+   "key": "case007.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case007.offer.subtitle",
+   "value": "ASHES  /  SUSPICIOUS FIRE"
+  },
+  {
+   "key": "case007.offer.summary",
+   "value": "A restoration workshop in Beyoğlu burns at night; one of the partners is found dead inside. The first assessment says electrical. In this file some areas cannot be examined without authorisation. The report is on your desk."
+  },
+  {
+   "key": "case007.offer.title",
+   "value": "FILE #007"
+  },
+  {
+   "key": "case007.oguz.body",
+   "value": "Statement of the insurance loss adjuster."
+  },
+  {
+   "key": "case007.oguz.claim.answer",
+   "value": "Serdar Belen. The day after the fire, before noon. Very fast. Usually people can’t pull themselves together for a week."
+  },
+  {
+   "key": "case007.oguz.claim.question",
+   "value": "Who notified the claim?"
+  },
+  {
+   "key": "case007.oguz.deflect",
+   "value": "That falls outside the scope of the assessment."
+  },
+  {
+   "key": "case007.oguz.items.answer",
+   "value": "What’s written in the inventory and what was found in the wreckage don’t fully match. Two valuable paintings: the frames are there, the paintings aren’t. I’m not saying anything yet; I’m looking into it."
+  },
+  {
+   "key": "case007.oguz.items.question",
+   "value": "What were the works that burned in the workshop?"
+  },
+  {
+   "key": "case007.oguz.policy.answer",
+   "value": "There’s a policy for movable works and equipment. I came into the file with the claim notification. Figures on their own don’t tell you anything. Dates do. I’ll give you the policy history in writing."
+  },
+  {
+   "key": "case007.oguz.policy.question",
+   "value": "What is the workshop’s insurance situation?"
+  },
+  {
+   "key": "case007.oguz.quote",
+   "value": "“Figures on their own don’t tell you anything. Dates do.”"
+  },
+  {
+   "key": "case007.oguz.title",
+   "value": "Oğuz Tezcan — interview"
+  },
+  {
+   "key": "case007.person.erdal.info",
+   "value": "57, night watchman of the building where the workshop is. The first person to notice the fire."
+  },
+  {
+   "key": "case007.person.erdal.name",
+   "value": "Erdal Kılıç"
+  },
+  {
+   "key": "case007.person.melis.info",
+   "value": "32, restoration specialist. Has worked at the workshop for four years."
+  },
+  {
+   "key": "case007.person.melis.name",
+   "value": "Melis Akın"
+  },
+  {
+   "key": "case007.person.oguz.info",
+   "value": "38, insurance loss adjuster. Examining the claim file after the fire."
+  },
+  {
+   "key": "case007.person.oguz.name",
+   "value": "Oğuz Tezcan"
+  },
+  {
+   "key": "case007.person.serdar.info",
+   "value": "49, partner in Belen & Sarıgül Restorasyon. Runs the financial and commercial side of the business."
+  },
+  {
+   "key": "case007.person.serdar.name",
+   "value": "Serdar Belen"
+  },
+  {
+   "key": "case007.plan.body",
+   "value": "Ground floor plan of the building where the workshop is, and the management’s key register:\n\n· The door in the back wall of the archive/storage room opens onto a narrow service corridor. The corridor leads out to the back street through the building’s service door.\n· The back street is not within the street camera’s field of view; it can be entered by car.\n· Keys to the service door: Kerem Sarıgül, Serdar Belen and the building’s night watchman Erdal Kılıç (master key).\n· The night watchman’s hut is on the side of the building; its window looks onto the entrance of the back street."
+  },
+  {
+   "key": "case007.plan.title",
+   "value": "BUILDING PLAN AND KEY REGISTER"
+  },
+  {
+   "key": "case007.plate.body",
+   "value": "Plate recognition records of vehicles entering Beyoğlu from Tarlabaşı Bulvarı, 14 October 23.00 – 15 October 01.00.\n\n23.34 · entry · 34 SBR 482 · dark grey saloon · registered keeper Belen & Sarıgül Restorasyon · driver according to company records: Serdar Belen.\n00.29 · exit · 34 SBR 482.\n\nBy car it is about 10–15 minutes from the Tarlabaşı entrance to the workshop."
+  },
+  {
+   "key": "case007.plate.title",
+   "value": "PLATE RECOGNITION RECORD — TARLABAŞI ENTRANCE"
+  },
+  {
+   "key": "case007.report.body",
+   "value": "On the night of 15 October, at around 02.14, a fire broke out at the Belen & Sarıgül Restorasyon workshop in Tomtom, Beyoğlu. The fire brigade brought the fire under control in about twenty minutes.\n\nAfter the fire was extinguished, one of the business partners, Kerem Sarıgül (46), was found motionless in the office section of the workshop; he was pronounced dead at the scene.\n\nKerem Sarıgül: restoration specialist, 50% partner in the business. He is known to have often worked late at the workshop.\n\nThe initial assessment reported that the fire may have been electrical in origin."
+  },
+  {
+   "key": "case007.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case007.request.autopsy",
+   "value": "Request the forensic examination report"
+  },
+  {
+   "key": "case007.request.card",
+   "value": "Request authorisation for Serdar Belen’s company card statement"
+  },
+  {
+   "key": "case007.request.corridor",
+   "value": "Request authorisation to inspect the service corridor"
+  },
+  {
+   "key": "case007.request.fire_full",
+   "value": "Request a detailed fire investigation"
+  },
+  {
+   "key": "case007.request.insurance",
+   "value": "Request the insurance loss adjuster’s report"
+  },
+  {
+   "key": "case007.request.kphone",
+   "value": "Request an inspection of Kerem Sarıgül’s phone"
+  },
+  {
+   "key": "case007.request.plan",
+   "value": "Request the building plan and key register"
+  },
+  {
+   "key": "case007.request.plate",
+   "value": "Request the plate records of Serdar Belen’s company car"
+  },
+  {
+   "key": "case007.request.sphone",
+   "value": "Request Serdar Belen’s phone location record"
+  },
+  {
+   "key": "case007.request.vehicle",
+   "value": "Request authorisation to inspect the company car"
+  },
+  {
+   "key": "case007.serdar.body",
+   "value": "Statement of the partner."
+  },
+  {
+   "key": "case007.serdar.deflect",
+   "value": "Let’s not discuss that without my lawyer."
+  },
+  {
+   "key": "case007.serdar.money.answer",
+   "value": "A hard year. It is for everyone. But we weren’t about to go under; please write that down."
+  },
+  {
+   "key": "case007.serdar.money.question",
+   "value": "What was the business’s financial situation?"
+  },
+  {
+   "key": "case007.serdar.night.answer",
+   "value": "I was at home. In Ataşehir. My wife was asleep; I worked until late, and my phone was with me. Check it if you like."
+  },
+  {
+   "key": "case007.serdar.night.question",
+   "value": "Where were you that night?"
+  },
+  {
+   "key": "case007.serdar.quote",
+   "value": "“We had commercial disagreements, but they were ordinary things.”"
+  },
+  {
+   "key": "case007.serdar.relation.answer",
+   "value": "He was my partner of twelve years. Kerem and I had some commercial disagreements, but they were ordinary things for a business. Who doesn’t argue with their partner?"
+  },
+  {
+   "key": "case007.serdar.relation.answer.demeanor",
+   "value": "Smiled; laid the pen in his hand exactly parallel to the edge of the table."
+  },
+  {
+   "key": "case007.serdar.relation.question",
+   "value": "How were things between you and Kerem Sarıgül?"
+  },
+  {
+   "key": "case007.serdar.title",
+   "value": "Serdar Belen — interview"
+  },
+  {
+   "key": "case007.serdar.visit.answer",
+   "value": "I haven’t been for months. Kerem ran the workshop; I’m on the client and finance side. Dust, the smell of solvent… not my thing."
+  },
+  {
+   "key": "case007.serdar.visit.answer.demeanor",
+   "value": "Gave the answer without a moment’s thought."
+  },
+  {
+   "key": "case007.serdar.visit.question",
+   "value": "When did you last go to the workshop?"
+  },
+  {
+   "key": "case007.serdar_follow.body",
+   "value": "Interview held after the plate record."
+  },
+  {
+   "key": "case007.serdar_follow.call.answer",
+   "value": "We talked. A client matter. He was angry; I said we’d talk tomorrow. I didn’t go."
+  },
+  {
+   "key": "case007.serdar_follow.call.question",
+   "value": "Kerem Bey called you at 23.12 and you talked for four minutes."
+  },
+  {
+   "key": "case007.serdar_follow.car.answer",
+   "value": "The car belongs to the company. The key hangs on the board at the office. One of the staff may have used it. I was at home; look at my phone records, I told you."
+  },
+  {
+   "key": "case007.serdar_follow.car.answer.demeanor",
+   "value": "His tone did not change at all; only his fingers tapped once on the table."
+  },
+  {
+   "key": "case007.serdar_follow.car.question",
+   "value": "You said you were at home. Your car enters Beyoğlu at 23.34."
+  },
+  {
+   "key": "case007.serdar_follow.title",
+   "value": "Serdar Belen — second interview"
+  },
+  {
+   "key": "case007.serdar_follow.who.answer",
+   "value": "I don’t know. I’d have to look. Melis has access to the key, for instance."
+  },
+  {
+   "key": "case007.serdar_follow.who.answer.demeanor",
+   "value": "As he said Melis’s name he narrowed his eyes and looked at you."
+  },
+  {
+   "key": "case007.serdar_follow.who.question",
+   "value": "Who might have used the car?"
+  },
+  {
+   "key": "case007.serdar_third.body",
+   "value": "Interview held after the vehicle and service corridor inspections."
+  },
+  {
+   "key": "case007.serdar_third.fire.answer",
+   "value": "The workshop was cold. Winter’s coming, so I bought them. I took them to Kerem."
+  },
+  {
+   "key": "case007.serdar_third.fire.answer.demeanor",
+   "value": "Cut the answer very short."
+  },
+  {
+   "key": "case007.serdar_third.fire.decoy.insurance",
+   "value": "I increased the policy, yes. Valuable works had come in; we had to protect them."
+  },
+  {
+   "key": "case007.serdar_third.fire.question",
+   "value": "You bought a timer socket and a heater with your company card on 10 October."
+  },
+  {
+   "key": "case007.serdar_third.lamp.answer",
+   "value": "…I had nothing in my hand. The edge of the desk. Or the lamp fell, I don’t know. It was dark; everything was very fast."
+  },
+  {
+   "key": "case007.serdar_third.lamp.answer.demeanor",
+   "value": "Did not raise his eyes to you again."
+  },
+  {
+   "key": "case007.serdar_third.lamp.question",
+   "value": "Kerem Bey’s wound is consistent with a round-edged object 6 cm in diameter. The base of the lamp beside him is 6.2 cm and bloodstained."
+  },
+  {
+   "key": "case007.serdar_third.there.answer",
+   "value": "…I went. Kerem called me. He’d found something out: the policy. He shouted, said he’d call the police. He pushed me, and I pushed him. He fell. He hit his head on the edge of the desk. I thought he wasn’t breathing. I panicked and left. That’s all."
+  },
+  {
+   "key": "case007.serdar_third.there.answer.demeanor",
+   "value": "Covered his face with his hands; for the first time his voice broke."
+  },
+  {
+   "key": "case007.serdar_third.there.decoy.plate",
+   "value": "The car being there doesn’t show I was there; I told you."
+  },
+  {
+   "key": "case007.serdar_third.there.question",
+   "value": "The plaster from your car’s tyre is in the back street, in front of the service door. The night watchman saw you leave by that door at 00.15."
+  },
+  {
+   "key": "case007.serdar_third.title",
+   "value": "Serdar Belen — third interview"
+  },
+  {
+   "key": "case007.sphone.body",
+   "value": "Cell tower records for Serdar Belen’s line, night of 14–15 October:\n\n20.40 – 08.15 · Ataşehir, around the home. Location unchanged.\n\n23.12 · Incoming call from Kerem Sarıgül, 4 min 06 s.\n23.17 · Incoming message from Kerem Sarıgül.\n23.21 – 00.47 · No calls, messages or data use.\n\nNote: the location record shows where the line was, not the person."
+  },
+  {
+   "key": "case007.sphone.title",
+   "value": "PHONE LOCATION RECORD — SERDAR BELEN"
+  },
+  {
+   "key": "case007.street.body",
+   "value": "Log of the street camera of the shop opposite the workshop, 14 October 22.00 – 15 October 02.30. The camera sees the workshop’s front door and display window; the side of the building and the back street are not in frame. Between 23.16 and 02.14 no one leaves by the front door."
+  },
+  {
+   "key": "case007.street.title",
+   "value": "STREET CAMERA — record log"
+  },
+  {
+   "key": "case007.summary.evidence",
+   "value": "The forensic examination showed the injury came before the fire and was consistent with a round object; the fire report showed the point of origin was the archive shelving, not the panel, and found the timer socket. The plate record and vehicle inspection tied Serdar’s car to Beyoğlu and to the plaster; the service corridor inspection tied the same plaster to the back street. The card statement and the insurance report revealed the fire had been planned before the fight."
+  },
+  {
+   "key": "case007.summary.lesson",
+   "value": "The time of the incident is not the time of the crime: the camera saw 02.14; the crime was committed at 00.05. Melis’s motive, her lie and her presence at the scene did not make her the culprit. And do not confuse a result with its purpose: the fire covered up Kerem’s death, but it was not set up for it."
+  },
+  {
+   "key": "case007.summary.location",
+   "value": "Beyoğlu, Tomtom — 14–15 October 2028"
+  },
+  {
+   "key": "case007.summary.truth",
+   "value": "Belen & Sarıgül Restorasyon was heavily in debt. On 26 September Serdar Belen increased the insurance cover by 240% without Kerem’s signature, and on 10 October he bought a timer socket and a heater; his aim was to start a small fire while the workshop was empty. Kerem found out about the policy. On the evening of 14 October he first discussed Melis’s dismissal with her, then at 23.12 called Serdar and summoned him. Serdar left his phone at home and came over, pulled his car into the back street and went in through the service door. When Kerem said he would call the police, Serdar struck him with the metal desk lamp. Believing Kerem was dead, he set up the device he had prepared: solvent was poured on the shelves, the heater was plugged into the timer socket. At 00.15 he left by the service door; Erdal Kılıç saw him and kept quiet. The fire started at 02.11. Kerem was still alive at that point."
+  },
+  {
+   "key": "case007.suspect.label",
+   "value": "Who is responsible for Kerem’s injury, and how did it happen?"
+  },
+  {
+   "key": "case007.tablet.caseLine",
+   "value": "FILE #007  /  BUBE INVESTIGATION UNIT"
+  },
+  {
+   "key": "case007.time.back_msg",
+   "value": "23.17"
+  },
+  {
+   "key": "case007.time.call",
+   "value": "23.12"
+  },
+  {
+   "key": "case007.time.car_pass",
+   "value": "00.21"
+  },
+  {
+   "key": "case007.time.car_stop",
+   "value": "23.52"
+  },
+  {
+   "key": "case007.time.erdal_saw",
+   "value": "00.15"
+  },
+  {
+   "key": "case007.time.kerem_in",
+   "value": "22.48"
+  },
+  {
+   "key": "case007.time.light",
+   "value": "02.11"
+  },
+  {
+   "key": "case007.time.melis_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case007.time.melis_msg",
+   "value": "21.05"
+  },
+  {
+   "key": "case007.time.melis_out",
+   "value": "23.16"
+  },
+  {
+   "key": "case007.time.plate_in",
+   "value": "23.34"
+  },
+  {
+   "key": "case007.time.plate_out",
+   "value": "00.29"
+  },
+  {
+   "key": "case007.time.serdar_claim",
+   "value": "22.00"
+  },
+  {
+   "key": "case007.time.smoke",
+   "value": "02.14"
+  },
+  {
+   "key": "case007.time.sphone_home",
+   "value": "23.21"
+  },
+  {
+   "key": "case007.title",
+   "value": "File #007 — Ashes"
+  },
+  {
+   "key": "case007.vehicle.body",
+   "value": "REQUEST APPROVED.\n\nInspection of the vehicle registered to Belen & Sarıgül Restorasyon:\n\n· Fine white powder on the boot floor and the mat. Analysis: calcium sulphate; consistent with restoration plaster.\n· Traces of the same powder on the driver’s mat and around the pedals.\n· Driver’s seat and mirrors last set in the same position; consistent with the settings of the person who regularly drives the vehicle.\n· Damp soil and the same white powder in the tyre treads.\n\nNote: restoration plaster is a material used in the workshop. On its own, it does not show the car was at the workshop."
+  },
+  {
+   "key": "case007.vehicle.title",
+   "value": "VEHICLE INSPECTION REPORT — 34 SBR 482"
+  },
+  {
+   "key": "case007.verdict.melis_blow",
+   "value": "Melis Akın — blow with a blunt object"
+  },
+  {
+   "key": "case007.verdict.none_fall",
+   "value": "No one — he fell and was injured in the fire"
+  },
+  {
+   "key": "case007.verdict.serdar_blow",
+   "value": "Serdar Belen — blow with a blunt object"
+  },
+  {
+   "key": "case007.verdict.serdar_fall",
+   "value": "Serdar Belen — fall during an argument"
+  },
+  {
+   "key": "case007.verdict.undetermined",
+   "value": "Undetermined"
+  }
+ ]
+}
