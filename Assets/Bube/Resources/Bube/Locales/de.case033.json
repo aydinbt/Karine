@@ -1,0 +1,472 @@
+{
+ "entries": [
+  {
+   "key": "case033.backdoor.body",
+   "value": "Sieht den Hof und die Hintertür. 16. Mai 04.30 – 05.30."
+  },
+  {
+   "key": "case033.backdoor.title",
+   "value": "KAMERA HINTERTÜR DER BÄCKEREI — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case033.cctv.event.hand",
+   "value": "Kamera: Die Frau gibt den Sack dem jungen Mann in Weiß an der Tür und sagt, auf den Sack zeigend, etwas."
+  },
+  {
+   "key": "case033.cctv.event.leave",
+   "value": "Kamera: Die Frau kehrt allein zum Kleinbus zurück und wischt sich die Hände mit einem Papiertaschentuch ab."
+  },
+  {
+   "key": "case033.cctv.event.van",
+   "value": "Kamera: Eine Frau in dunkler Jacke steigt aus einem kleinen Kleinbus, einen braunen Papiermehlsack an die Hüfte gestützt."
+  },
+  {
+   "key": "case033.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case033.cctv.period",
+   "value": "16. Mai 2030"
+  },
+  {
+   "key": "case033.cctv.source",
+   "value": "Hintertürkamera"
+  },
+  {
+   "key": "case033.clue.collapse",
+   "value": "Der Bäcker bricht neben der Theke zusammen."
+  },
+  {
+   "key": "case033.clue.form",
+   "value": "Bestellformular: ein einzelnes glutenfreies Brot, ‚Tisch 1: A. Delorme‘, Mehl vom Kunden."
+  },
+  {
+   "key": "case033.clue.hand",
+   "value": "Die Frau gibt den Sack dem jungen Mann an der Tür."
+  },
+  {
+   "key": "case033.clue.source.order",
+   "value": "Bestellformular"
+  },
+  {
+   "key": "case033.clue.source.rayan",
+   "value": "Lehrling"
+  },
+  {
+   "key": "case033.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case033.clue.taste",
+   "value": "Aus Gewohnheit probiert der Bäcker das Sonderbrot als Erster."
+  },
+  {
+   "key": "case033.clue.van",
+   "value": "Die Frau in dunkler Jacke steigt mit einem Papiersack aus dem Kleinbus."
+  },
+  {
+   "key": "case033.custody.delorme",
+   "value": "Auguste Delorme — Inhaber des Auktionshauses"
+  },
+  {
+   "key": "case033.custody.didier",
+   "value": "Didier Fontaine — der Bäcker selbst"
+  },
+  {
+   "key": "case033.custody.label",
+   "value": "Für wen war das Gift bestimmt?"
+  },
+  {
+   "key": "case033.custody.random",
+   "value": "Zufällig — einer der Auktionsgäste"
+  },
+  {
+   "key": "case033.epilogue.custody.delorme",
+   "value": "Festgehalten wurde, dass das Gift nicht dem Bäcker galt, sondern beim Auktionsessen an Auguste Delorme gehen sollte."
+  },
+  {
+   "key": "case033.epilogue.custody.didier",
+   "value": "Als Ziel galt der Bäcker; niemand fragte, für wen das Brot bestimmt war."
+  },
+  {
+   "key": "case033.epilogue.custody.random",
+   "value": "Das Gift wurde für einen allgemeinen Anschlag gehalten; das einzelne Brot blieb unbeachtet."
+  },
+  {
+   "key": "case033.epilogue.verdict.garnier",
+   "value": "Sophie Garnier wurde festgenommen. Auguste Delorme wurde Personenschutz angeboten, er lehnte ab. Die nicht registrierte Nummer blieb mit dem Vermerk ‚Maison Delorme, Transportabteilung‘ bei der Dienststelle offen."
+  },
+  {
+   "key": "case033.epilogue.verdict.nadine",
+   "value": "Nadine Fontaine wurde beschuldigt; die Bäckerei schloss."
+  },
+  {
+   "key": "case033.epilogue.verdict.rayan",
+   "value": "Rayan Haddad wurde festgenommen; Bestellformular und Mehlsack kamen nicht in die Akte."
+  },
+  {
+   "key": "case033.evidence.flour",
+   "value": "Analyse des Mehlsacks"
+  },
+  {
+   "key": "case033.evidence.order",
+   "value": "Bestellformular"
+  },
+  {
+   "key": "case033.evidence.tox",
+   "value": "Toxikologie"
+  },
+  {
+   "key": "case033.evidence.van",
+   "value": "Durchsuchung des Catering-Kleinbusses"
+  },
+  {
+   "key": "case033.feedback.garnier",
+   "value": "Aconitin nur in dem Sack, den sie brachte, nachträglich beigemischt; in ihrem Kleinbus ein leerer zweiter Sack, Bargeld und die Nachricht ‚nur Tisch 1‘. Die Kamera zeigt, dass sie den Sack an der Tür übergab."
+  },
+  {
+   "key": "case033.feedback.nadine",
+   "value": "Die Ehefrau blieb mit Schulden zurück, es gab keine Versicherung; Brot und Mehl hat sie nie angefasst."
+  },
+  {
+   "key": "case033.feedback.rayan",
+   "value": "Der Lehrling öffnete den Sack und machte den Teig, aber das Mehl wurde ihm gegeben; das Gift kam im Sack, die eigenen Mehle der Bäckerei sind sauber."
+  },
+  {
+   "key": "case033.file.caseType",
+   "value": "VERGIFTUNG"
+  },
+  {
+   "key": "case033.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case033.file.value.location",
+   "value": "Paris, 20. Arrondissement, Belleville — Bäckerei"
+  },
+  {
+   "key": "case033.file.value.number",
+   "value": "BDP-PAR-2030-0118"
+  },
+  {
+   "key": "case033.file.value.offence",
+   "value": "Vergiftung"
+  },
+  {
+   "key": "case033.file.value.reporter",
+   "value": "Lehrling"
+  },
+  {
+   "key": "case033.flour.body",
+   "value": "Der Kraftpapiersack, den Garnier brachte:\n· Glutenfreie Mehlmischung (Reis, Buchweizen), darin fein gemahlene getrocknete Eisenhutwurzel: Aconitin.\n· Das Pulver ist nicht gleichmäßig; das Wurzelpulver konzentriert sich im oberen Teil des Sacks. Die Beimischung erfolgte, nachdem der Sack gefüllt war.\n· Fingerabdrücke auf der Außenseite des Sacks: Rayan Haddad (erwartet) und Sophie Garnier."
+  },
+  {
+   "key": "case033.flour.title",
+   "value": "ANALYSE DES MEHLSACKS"
+  },
+  {
+   "key": "case033.garnier.body",
+   "value": "Catering-Koordinatorin."
+  },
+  {
+   "key": "case033.garnier.deflect",
+   "value": "Kundendaten sind vertraulich."
+  },
+  {
+   "key": "case033.garnier.flour.answer",
+   "value": "Ein Herr aus dem Auktionshaus brachte es und sagte: ‚Das Mehl, dem Herr Delorme selbst vertraut, seine Allergie ist sehr schwer.‘ Ich habe es nur transportiert. Ich habe das Paket nicht einmal geöffnet."
+  },
+  {
+   "key": "case033.garnier.flour.answer.demeanor",
+   "value": "Hält den Griff ihrer Tasche mit beiden Händen."
+  },
+  {
+   "key": "case033.garnier.flour.question",
+   "value": "Woher hatten Sie das Mehl?"
+  },
+  {
+   "key": "case033.garnier.title",
+   "value": "Sophie Garnier — Befragung"
+  },
+  {
+   "key": "case033.garnier_2.body",
+   "value": "Zu den Unterlagen."
+  },
+  {
+   "key": "case033.garnier_2.title",
+   "value": "Sophie Garnier — zweite Befragung"
+  },
+  {
+   "key": "case033.garnier_2.who.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case033.garnier_2.who.presented.flour",
+   "value": "Natürlich sind meine Fingerabdrücke drauf, ich habe ihn getragen. Der Herr, der ihn brachte …"
+  },
+  {
+   "key": "case033.garnier_2.who.presented.van",
+   "value": "Fünftausend Euro. Die Firma ging pleite. Der Mann sagte: ‚Delorme ist alt, sein Herz ist ohnehin schwach, niemand wird fragen.‘ Das Pulver gab er mir selbst, ich habe es in den Sack gemischt, im Wagen. Dass der Bäcker probieren würde, wusste ich nicht; hätte ich es gewusst … Seinen Namen habe ich nicht gefragt. Er sagte, er sei aus der Transportabteilung des Auktionshauses, gab keine Visitenkarte, groß, an der linken Hand ein Ring."
+  },
+  {
+   "key": "case033.garnier_2.who.question",
+   "value": "Sie haben das Wurzelpulver in den Sack gemischt."
+  },
+  {
+   "key": "case033.method.aconite",
+   "value": "Eisenhutwurzel (Aconitin), ins glutenfreie Mehl gemischt"
+  },
+  {
+   "key": "case033.method.coffee",
+   "value": "Etwas in seinen Kaffee gegeben"
+  },
+  {
+   "key": "case033.method.heart",
+   "value": "Spontane Herzrhythmusstörung"
+  },
+  {
+   "key": "case033.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case033.nadine.body",
+   "value": "Ehefrau des Opfers."
+  },
+  {
+   "key": "case033.nadine.deflect",
+   "value": "Die Buchhaltung der Bäckerei ist meine Sache."
+  },
+  {
+   "key": "case033.nadine.enemy.answer",
+   "value": "Didier? Er gab dem halben Viertel auf Pump. Wir haben Schulden, ja, keine Versicherung, ja; sein Tod hat mir nur Schulden hinterlassen. Niemand will Didier töten."
+  },
+  {
+   "key": "case033.nadine.enemy.answer.demeanor",
+   "value": "Knotet das Band ihrer Schürze und löst es wieder."
+  },
+  {
+   "key": "case033.nadine.enemy.question",
+   "value": "Hatte Didier Feinde?"
+  },
+  {
+   "key": "case033.nadine.order.answer",
+   "value": "Die Firma von Frau Garnier. Das Essen eines Auktionshauses; Brot für hundert Personen und dazu ein einzelnes glutenfreies Brot. Steht im Bestellformular."
+  },
+  {
+   "key": "case033.nadine.order.question",
+   "value": "Was war diese Sonderbestellung?"
+  },
+  {
+   "key": "case033.nadine.title",
+   "value": "Nadine Fontaine — Befragung"
+  },
+  {
+   "key": "case033.offer.subtitle",
+   "value": "BROT  /  VERGIFTUNG"
+  },
+  {
+   "key": "case033.offer.summary",
+   "value": "In Belleville stirbt ein Bäcker um vier Uhr morgens an einer Vergiftung durch ein Brot, das er probiert hat. Das ganze Viertel liebte ihn."
+  },
+  {
+   "key": "case033.offer.title",
+   "value": "AKTE #033"
+  },
+  {
+   "key": "case033.order.body",
+   "value": "Formular der Cateringfirma an die Bäckerei, 15. Mai:\n\n· 120 kleine Landbrote — Maison Delorme, Essen nach der Auktion, 16. Mai.\n· 1 glutenfreies Brot, GETRENNT zu verpacken — ‚Tisch 1: M. Auguste Delorme (Zöliakie). Das Mehl wird vom Kunden gestellt.‘\n\nUnterschrieben von: Sophie Garnier, Koordinatorin."
+  },
+  {
+   "key": "case033.order.title",
+   "value": "BESTELLFORMULAR"
+  },
+  {
+   "key": "case033.person.garnier.info",
+   "value": "41 Jahre, Koordinatorin einer Cateringfirma; gibt bei der Bäckerei Sonderbestellungen auf."
+  },
+  {
+   "key": "case033.person.garnier.name",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.person.nadine.info",
+   "value": "55 Jahre, Teilhaberin der Bäckerei; Ehefrau des Opfers."
+  },
+  {
+   "key": "case033.person.nadine.name",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.person.rayan.info",
+   "value": "22 Jahre, Lehrling der Bäckerei; in der Nachtschicht bereitet er den Teig."
+  },
+  {
+   "key": "case033.person.rayan.name",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.rayan.body",
+   "value": "Lehrling."
+  },
+  {
+   "key": "case033.rayan.deflect",
+   "value": "Mein Meister hat es mir beigebracht, ich mache es."
+  },
+  {
+   "key": "case033.rayan.flour.answer",
+   "value": "Nicht unseres. Die Frau von der Cateringfirma brachte es um fünf Uhr morgens und gab es mir an der Tür: ‚Das eigene Mehl des Kunden, seine Allergie ist schwer, nehmt kein anderes Mehl.‘ Ich habe den Teig mit diesem Mehl gemacht, mein Meister hat ihn in den Ofen geschoben."
+  },
+  {
+   "key": "case033.rayan.flour.question",
+   "value": "Woher hatten Sie das glutenfreie Mehl?"
+  },
+  {
+   "key": "case033.rayan.flour.variant0",
+   "value": "Das Mehl? … Den Sack habe ich geöffnet. Meinen Händen ist nichts passiert, ich trage Handschuhe. Um fünf Uhr morgens gab ihn mir die Frau, ich habe geknetet. Schauen Sie mich nicht an, als wäre es meine Schuld."
+  },
+  {
+   "key": "case033.rayan.quote",
+   "value": "„Bevor es in den Mund des Kunden kommt, kommt es in meinen.“"
+  },
+  {
+   "key": "case033.rayan.taste.answer",
+   "value": "Er probiert jedes Sonderbrot. Vierzig Jahre Gewohnheit. ‚Bevor es in den Mund des Kunden kommt, kommt es in meinen‘, sagte er immer. Die glutenfreien verbrennen leicht, deshalb hat er dieses Brot als Erstes angeschnitten."
+  },
+  {
+   "key": "case033.rayan.taste.answer.demeanor",
+   "value": "Drückt seine Mütze mit beiden Händen."
+  },
+  {
+   "key": "case033.rayan.taste.question",
+   "value": "Warum hat der Meister dieses Brot probiert?"
+  },
+  {
+   "key": "case033.rayan.title",
+   "value": "Rayan Haddad — Befragung"
+  },
+  {
+   "key": "case033.report.body",
+   "value": "Am 16. Mai 2030 um 04.25 brach in einer Bäckerei in Belleville der Bäcker Didier Fontaine (58) neben der Theke zusammen. Der Lehrling Rayan Haddad rief den Notruf; Didier starb unterwegs.\n\nAuf der Theke ein kleines glutenfreies Brot, eine Scheibe abgeschnitten, angebissen. Vor dem Tod Erbrechen, Taubheit in den Armen, unregelmäßiger Puls.\n\nDie Bäckerei bereitete in der Nacht Sonderbestellungen vor: Lieferung um 11.00 morgens an eine Cateringfirma."
+  },
+  {
+   "key": "case033.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case033.request.flour",
+   "value": "Mehlsack zur Analyse schicken"
+  },
+  {
+   "key": "case033.request.order",
+   "value": "Bestellformular anfordern"
+  },
+  {
+   "key": "case033.request.van",
+   "value": "Durchsuchungsbeschluss für den Catering-Kleinbus beantragen"
+  },
+  {
+   "key": "case033.summary.evidence",
+   "value": "Die Toxikologie fand das Gift im Brot; das Bestellformular zeigte, für wen das Brot bestimmt war, die Kamera, wer den Sack brachte, die Analyse, dass das Pulver nachträglich beigemischt wurde. Die mit zwei Gründen beantragte Durchsuchung des Kleinbusses lieferte Bargeld, den zweiten Sack und die Nachrichten."
+  },
+  {
+   "key": "case033.summary.lesson",
+   "value": "Wer stirbt, ist vielleicht nicht das Ziel. Frag zuerst, für wen das Gift bestimmt war, dann, durch wessen Hände es unterwegs ging."
+  },
+  {
+   "key": "case033.summary.location",
+   "value": "Belleville — Mai 2030"
+  },
+  {
+   "key": "case033.summary.truth",
+   "value": "Nach der Festnahme von Mercier gab jemand, der fürchtete, der Inhaber des Auktionshauses Auguste Delorme könnte reden, der verschuldeten Catering-Koordinatorin Sophie Garnier fünftausend Euro und einen Beutel Eisenhutwurzelpulver. Garnier mischte das Pulver in den Sack, den sie als ‚eigenes glutenfreies Mehl‘ von Delorme in die Bäckerei brachte. Der Bäcker Didier Fontaine aß aus Gewohnheit, jedes Sonderbrot vor dem Kunden zu probieren, die erste Scheibe dieses Brots und starb."
+  },
+  {
+   "key": "case033.suspect.label",
+   "value": "Wer hat das Gift vorbereitet?"
+  },
+  {
+   "key": "case033.tablet.caseLine",
+   "value": "AKTE #033  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case033.time.collapse",
+   "value": "04.25"
+  },
+  {
+   "key": "case033.time.form",
+   "value": "15. Mai"
+  },
+  {
+   "key": "case033.time.hand",
+   "value": "05.10"
+  },
+  {
+   "key": "case033.time.leave",
+   "value": "05.11"
+  },
+  {
+   "key": "case033.time.taste",
+   "value": "04.20"
+  },
+  {
+   "key": "case033.time.van",
+   "value": "05.08"
+  },
+  {
+   "key": "case033.title",
+   "value": "Akte #033 — Brot"
+  },
+  {
+   "key": "case033.tox.body",
+   "value": "· Aconitin in Blut und Mageninhalt (aus der Eisenhutpflanze). Stört den Herzrhythmus; Wirkung binnen Minuten.\n· Magen: nur ein paar Bissen Brot und Kaffee.\n· Rest des Brots: Aconitin, hohe Konzentration; im gesamten Teig verteilt.\n· Die übrigen Teige und Mehle der Bäckerei: sauber."
+  },
+  {
+   "key": "case033.tox.title",
+   "value": "TOXIKOLOGIE"
+  },
+  {
+   "key": "case033.van.body",
+   "value": "Der von Sophie Garnier gefahrene Firmen-Kleinbus (mit Genehmigung der Dienststellenleitung):\n\n· Im Handschuhfach ein weißer Umschlag mit 5.000 Euro in bar.\n· Im Türfach ein weiterer gefalteter Kraftsack desselben Typs, leer; am Boden Aconitinpulver.\n· Auf ihrem Telefon am 14. Mai eine Nachricht von einer nicht registrierten Nummer: ‚Der Sack morgen früh. Nur Tisch 1. Der Rest sauber.‘\n· Von derselben Nummer am 12. Mai: ‚Nach Mercier wird Delorme reden. Bevor er redet.‘"
+  },
+  {
+   "key": "case033.van.title",
+   "value": "DURCHSUCHUNG DES CATERING-KLEINBUSSES"
+  },
+  {
+   "key": "case033.verdict.garnier",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.verdict.nadine",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.verdict.rayan",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.item.flour.name",
+   "value": "Papiermehlsack"
+  },
+  {
+   "key": "case033.item.flour.detail",
+   "value": "Als ‚eigenes Mehl des Kunden‘ gebrachter Kraftpapiersack; die Öffnung umgefaltet, darin ein gelbliches Pulver."
+  },
+  {
+   "key": "case033.item.loaf.name",
+   "value": "Halbes Brot"
+  },
+  {
+   "key": "case033.item.loaf.detail",
+   "value": "Auf der Theke ein kleines rundes glutenfreies Brot, eine Scheibe abgeschnitten."
+  },
+  {
+   "key": "case033.item.envelope.name",
+   "value": "Bargeldumschlag"
+  },
+  {
+   "key": "case033.item.envelope.detail",
+   "value": "Im Handschuhfach des Wagens der Catering-Koordinatorin ein weißer Umschlag mit 5.000 Euro."
+  }
+ ]
+}
