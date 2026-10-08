@@ -1,0 +1,496 @@
+{
+ "entries": [
+  {
+   "key": "case027.autopsy.body",
+   "value": "· Erdrosselung; mit einem dünnen, festen Band. Unter den Fingernägeln rote Stofffasern.\n· Rektaltemperatur 31 °C. Bei normaler Raumtemperatur entspricht das zwei Stunden; ohne Kenntnis der Bedingungen im Lager, in dem er gefunden wurde, lässt sich der Todeszeitpunkt aber nicht festlegen.\n· Magen: Reisball und grüner Tee, seit dem Essen höchstens eine Stunde vergangen."
+  },
+  {
+   "key": "case027.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case027.cctv.event.back",
+   "value": "Kamera: Die Kassiererin kehrt zur Kasse zurück, richtet ihre Weste; das Tablett ist voll. Sie bückt sich hinter die Kasse."
+  },
+  {
+   "key": "case027.cctv.event.empty",
+   "value": "Kamera: Die Kasse ist leer; am Ende der Reihe leuchtet nur ein Automat."
+  },
+  {
+   "key": "case027.cctv.event.go",
+   "value": "Kamera: Die Kassiererin geht mit einem leeren Tablett in der Hand von der Kasse zur Lagertür."
+  },
+  {
+   "key": "case027.cctv.overlay",
+   "value": "CAM-03"
+  },
+  {
+   "key": "case027.cctv.period",
+   "value": "14. Februar 2030"
+  },
+  {
+   "key": "case027.cctv.source",
+   "value": "Hallenkamera"
+  },
+  {
+   "key": "case027.clue.back",
+   "value": "Die Kassiererin kehrt mit vollem Tablett zur Kasse zurück und bückt sich dahinter."
+  },
+  {
+   "key": "case027.clue.close",
+   "value": "Die Halle schließt; drinnen bleiben die Kassiererin, der Stammgast und der Buchhalter."
+  },
+  {
+   "key": "case027.clue.cold",
+   "value": "Die Lagerklimaanlage wird auf 14 °C im Dauerbetrieb gestellt."
+  },
+  {
+   "key": "case027.clue.found",
+   "value": "Der Leiter findet die Leiche im eiskalten Lager."
+  },
+  {
+   "key": "case027.clue.go",
+   "value": "Die Kassiererin geht mit einem leeren Tablett ins Lager."
+  },
+  {
+   "key": "case027.clue.jackpot",
+   "value": "Hauptgewinn an Automat 114; der Gewinnruf bleibt an der Kasse unbeantwortet."
+  },
+  {
+   "key": "case027.clue.source.counter114",
+   "value": "Automatenzähler"
+  },
+  {
+   "key": "case027.clue.source.hideo",
+   "value": "Hallenleiter"
+  },
+  {
+   "key": "case027.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case027.clue.source.thermo",
+   "value": "Klimaprotokoll"
+  },
+  {
+   "key": "case027.counter.body",
+   "value": "Kamera mit Blick auf die Kasse und die Reihe 110–120. 14. Februar 01.00 – 06.00. Die Kamera lässt Bilder aus; der Zeitstempel ist defekt, es gibt nur die Bildnummer."
+  },
+  {
+   "key": "case027.counter.title",
+   "value": "DECKENKAMERA DER HALLE — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case027.counter114.body",
+   "value": "Internes Protokoll des Automaten (Kugelzählung pro Minute):\n\n· 01.10–04.28 ununterbrochenes Spiel\n· Hauptgewinn: 02.47\n· Gleich nach dem Gewinn drückte der Spieler die Taste ‚Gewinnruf‘: 02.48. Antwort der Kasse: 03.09; die Kassiererin, die den Gewinn brachte: Takeda Yuki.\n\nAbgleich mit der Reihenfolge der Kamerabilder: Bild 2214 ≈ 02.49, Bild 2371 ≈ 03.08."
+  },
+  {
+   "key": "case027.counter114.title",
+   "value": "ZÄHLER DES AUTOMATEN NR. 114"
+  },
+  {
+   "key": "case027.custody.cold",
+   "value": "02.00–03.30 — die Klimaanlage verschleierte den Todeszeitpunkt"
+  },
+  {
+   "key": "case027.custody.dawn",
+   "value": "04.00–06.00 — die erste Schätzung des Arztes"
+  },
+  {
+   "key": "case027.custody.label",
+   "value": "Wann trat der Tod ein?"
+  },
+  {
+   "key": "case027.custody.midnight",
+   "value": "Vor 01.00"
+  },
+  {
+   "key": "case027.epilogue.custody.cold",
+   "value": "Der Todeszeitpunkt wurde unter Berücksichtigung der auf 14 °C gekühlten Lagerhalle korrigiert festgehalten."
+  },
+  {
+   "key": "case027.epilogue.custody.dawn",
+   "value": "Der Tod galt als gegen Morgen eingetreten; zu der Zeit war nur der Leiter in der Halle."
+  },
+  {
+   "key": "case027.epilogue.custody.midnight",
+   "value": "Der Tod galt als vor Schließung eingetreten; der Mageninhalt trägt das nicht."
+  },
+  {
+   "key": "case027.epilogue.verdict.hideo",
+   "value": "Arai Hideo wurde festgenommen; die Gewinnrechnungen wurden nie geprüft."
+  },
+  {
+   "key": "case027.epilogue.verdict.sato",
+   "value": "Satō Minoru wurde beschuldigt, das Zählerprotokoll entlastete ihn später; die Akte kam zurück."
+  },
+  {
+   "key": "case027.epilogue.verdict.yuki",
+   "value": "Takeda Yuki gestand. Die Differenz in den Rechnungen wurde bis zur Tochterfirma von Kisaragi verfolgt; der Kurier wurde nie wieder gesehen."
+  },
+  {
+   "key": "case027.evidence.counter114",
+   "value": "Automatenzähler"
+  },
+  {
+   "key": "case027.evidence.ledger",
+   "value": "Gewinnrechnungen"
+  },
+  {
+   "key": "case027.evidence.thermo",
+   "value": "Klimaprotokoll des Lagers"
+  },
+  {
+   "key": "case027.evidence.tray",
+   "value": "Durchsuchung hinter der Kasse"
+  },
+  {
+   "key": "case027.feedback.hideo",
+   "value": "Der Leiter kam um sechs Uhr morgens; die ‚zwei Stunden‘ ließen ihn schuldig aussehen, aber das kalte Lager zieht den Todeszeitpunkt in die Mitte der Nacht."
+  },
+  {
+   "key": "case027.feedback.sato",
+   "value": "Der Automat des Stammgasts lief von 01.10 bis 04.28 ununterbrochen; er wartete auf den Gewinn seines Hauptgewinns."
+  },
+  {
+   "key": "case027.feedback.yuki",
+   "value": "Das Klimaprotokoll zieht den Todeszeitpunkt auf 02.00–03.30; in diesem Zeitraum zeigt die Kamera die Kassiererin auf dem Weg ins Lager, der Automatenzähler legt ihre Abwesenheit auf 20 Minuten fest. Die Faser unter den Fingernägeln stammt von ihrem Ausweisband."
+  },
+  {
+   "key": "case027.file.caseType",
+   "value": "MORD"
+  },
+  {
+   "key": "case027.file.value.bureau",
+   "value": "BDS Tokio — Dienststelle Nihonbashi"
+  },
+  {
+   "key": "case027.file.value.location",
+   "value": "Nihonbashi, Pachinko-Halle — Gewinnlager"
+  },
+  {
+   "key": "case027.file.value.number",
+   "value": "BDS-TYO-2030-0019"
+  },
+  {
+   "key": "case027.file.value.offence",
+   "value": "Vorsätzliche Tötung"
+  },
+  {
+   "key": "case027.file.value.reporter",
+   "value": "Hallenleiter"
+  },
+  {
+   "key": "case027.hideo.body",
+   "value": "Hallenleiter."
+  },
+  {
+   "key": "case027.hideo.debt.answer",
+   "value": "Die Gewinnrechnungen aus der Zentrale. ‚Die Gewinne kommen nicht, aber die Rechnungen kommen‘, sagte er. Er hat es mir gesagt, und ich … ich wollte mir mit meinen eigenen Schulden keinen Ärger einhandeln."
+  },
+  {
+   "key": "case027.hideo.debt.question",
+   "value": "Womit war Herr Ueno beschäftigt?"
+  },
+  {
+   "key": "case027.hideo.deflect",
+   "value": "Interne Firmenangelegenheiten."
+  },
+  {
+   "key": "case027.hideo.morning.answer",
+   "value": "Ich kam um sechs. Das Lager war eiskalt, als ich die Tür öffnete, wurde mein Atem zu Dampf. Ueno lag am Boden. Ich habe ihn berührt, er war noch weich."
+  },
+  {
+   "key": "case027.hideo.morning.answer.demeanor",
+   "value": "Holt zwischen den Worten lange Luft."
+  },
+  {
+   "key": "case027.hideo.morning.question",
+   "value": "Wie haben Sie ihn am Morgen gefunden?"
+  },
+  {
+   "key": "case027.hideo.title",
+   "value": "Arai Hideo — Befragung"
+  },
+  {
+   "key": "case027.ledger.body",
+   "value": "Auf dem Schreibtisch des Opfers zwölf mit gelben Zetteln markierte Rechnungen. Lieferant: eine Tochterfirma von Kisaragi Shōji. Zwischen der in Rechnung gestellten Gewinnmenge und den tatsächlich ins Lager gelangten Gewinnen monatlich 9 Millionen Yen Differenz.\n\nDie Differenz geht in bar in den täglichen Abgabeumschlag der Kasse, und jeden Morgen holt ihn ein Kurier ab. Die Abgabeunterschriften der letzten acht Monate: Takeda Yuki.\n\nE-Mail-Entwurf des Opfers, nicht gesendet: „Morgen melde ich es der Zentrale. Die Kassiererin sollte es auch wissen.“"
+  },
+  {
+   "key": "case027.ledger.title",
+   "value": "GEWINNRECHNUNGEN"
+  },
+  {
+   "key": "case027.method.cord",
+   "value": "Mit dem Kabel der Klimaanlage erdrosselt"
+  },
+  {
+   "key": "case027.method.hands",
+   "value": "Mit den Händen erwürgt"
+  },
+  {
+   "key": "case027.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case027.method.strap",
+   "value": "Mit dem Ausweisband erdrosselt"
+  },
+  {
+   "key": "case027.offer.subtitle",
+   "value": "PACHINKO  /  MORD"
+  },
+  {
+   "key": "case027.offer.summary",
+   "value": "Im Lager einer geschlossenen Pachinko-Halle ist der Buchhalter erdrosselt worden. Der Arzt sagt zwei Stunden; zu dieser Zeit ist nur der Leiter in der Halle."
+  },
+  {
+   "key": "case027.offer.title",
+   "value": "AKTE #027"
+  },
+  {
+   "key": "case027.person.hideo.info",
+   "value": "52 Jahre, Tagesleiter der Halle; sucht einen Zweitjob, um seine Schulden zu bezahlen."
+  },
+  {
+   "key": "case027.person.hideo.name",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.person.sato.info",
+   "value": "66 Jahre, pensionierter Busfahrer; spielt jede Nacht am selben Automaten Nr. 114."
+  },
+  {
+   "key": "case027.person.sato.name",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.person.yuki.info",
+   "value": "29 Jahre, Nachtkassiererin der Halle; wechselt Kugeln und Gewinne."
+  },
+  {
+   "key": "case027.person.yuki.name",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.report.body",
+   "value": "Am 14. Februar 2030 um 06.05 wurde im Gewinnlager einer Pachinko-Halle in Nihonbashi der Buchhalter der Halle, Ueno Sōta (38), tot aufgefunden. Der Leiter Arai Hideo fand ihn, als er morgens kam, um die Kasse zu öffnen.\n\nAm Hals Würgemale. Die Halle schloss um 01.00; drinnen blieben nur die Nachtkassiererin Takeda Yuki und der Stammgast Satō Minoru, der nach Schließung ‚bis die Zählung fertig ist‘ weiterspielen durfte. Beide waren bis 04.30 in der Halle.\n\nDer gerufene Arzt: „Der Körper ist noch lauwarm, höchstens zwei Stunden.“"
+  },
+  {
+   "key": "case027.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case027.request.counter114",
+   "value": "Zähler des Automaten Nr. 114 anfordern"
+  },
+  {
+   "key": "case027.request.ledger",
+   "value": "Rechnungen auf dem Schreibtisch des Opfers prüfen"
+  },
+  {
+   "key": "case027.request.thermo",
+   "value": "Panelprotokoll der Lagerklimaanlage anfordern"
+  },
+  {
+   "key": "case027.request.tray",
+   "value": "Durchsuchung hinter der Kasse anfordern"
+  },
+  {
+   "key": "case027.sato.body",
+   "value": "Stammgast."
+  },
+  {
+   "key": "case027.sato.deflect",
+   "value": "Ich spiele, ich mische mich nicht ein."
+  },
+  {
+   "key": "case027.sato.machine.answer",
+   "value": "Ich spielte an Nummer 114. Einmal ließ die Kassiererin die Kasse stehen und ging nach hinten, das Tablett war leer. Es dauerte nicht lange. Wann? Ich schaue nicht auf die Uhr, ich schaue auf den Automaten."
+  },
+  {
+   "key": "case027.sato.machine.question",
+   "value": "Was haben Sie in der Nacht gesehen?"
+  },
+  {
+   "key": "case027.sato.title",
+   "value": "Satō Minoru — Befragung"
+  },
+  {
+   "key": "case027.summary.evidence",
+   "value": "Die ‚zwei Stunden‘ des Arztes wurden ohne Kenntnis des kalten Lagers geschätzt. Das Klimaprotokoll zeigte, dass die Einstellung um 02.51 geändert wurde, der Automatenzähler lieferte die Uhrzeit der Kamerabilder, das gerissene Band hinter der Kasse die Faser unter den Fingernägeln."
+  },
+  {
+   "key": "case027.summary.lesson",
+   "value": "Wärme ist keine Uhr, sondern eine Bedingung. Frag bei jedem Befund, der einen Todeszeitpunkt nennt, nach der Umgebung."
+  },
+  {
+   "key": "case027.summary.location",
+   "value": "Nihonbashi — Februar 2030"
+  },
+  {
+   "key": "case027.summary.truth",
+   "value": "Der Buchhalter der Halle, Ueno Sōta, fand heraus, dass die Gewinnrechnungen der Tochterfirma von Kisaragi Shōji monatlich 9 Millionen Yen in bar über den Umschlag der Kassiererin bewegten, und wollte es der Zentrale melden. Die Nachtkassiererin Takeda Yuki, die die Umschläge unterschrieb, ging um 02.49 mit einem leeren Tablett ins Lager, erdrosselte ihn mit dem Band ihres Ausweises und stellte die Klimaanlage auf 14 °C, um den Todeszeitpunkt nach hinten zu verschieben."
+  },
+  {
+   "key": "case027.suspect.label",
+   "value": "Wer hat Ueno Sōta getötet?"
+  },
+  {
+   "key": "case027.tablet.caseLine",
+   "value": "AKTE #027  /  BUBE TOKIO — NIHONBASHI"
+  },
+  {
+   "key": "case027.thermo.body",
+   "value": "Panelverlauf der Lagerklimaanlage:\n\n· 02.51 · Modus: DAUERBETRIEB, Ziel 14 °C, Lüfter maximal\n· 05.58 · Türsensor offen\n\nDie Einstellung der Klimaanlage wurde nachts um 02.51 geändert. In dieser Umgebung entspricht eine Rektaltemperatur von 31 °C nicht zwei, sondern drei bis vier Stunden: Tod zwischen 02.00 und 03.30."
+  },
+  {
+   "key": "case027.thermo.title",
+   "value": "KLIMAPROTOKOLL DES LAGERS"
+  },
+  {
+   "key": "case027.time.back",
+   "value": "kare 2371"
+  },
+  {
+   "key": "case027.time.close",
+   "value": "01.00"
+  },
+  {
+   "key": "case027.time.cold",
+   "value": "02.51"
+  },
+  {
+   "key": "case027.time.empty",
+   "value": "kare 2290"
+  },
+  {
+   "key": "case027.time.found",
+   "value": "06.05"
+  },
+  {
+   "key": "case027.time.go",
+   "value": "kare 2214"
+  },
+  {
+   "key": "case027.time.jackpot",
+   "value": "02.47"
+  },
+  {
+   "key": "case027.title",
+   "value": "Akte #027 — Pachinko"
+  },
+  {
+   "key": "case027.tray.body",
+   "value": "Im Gewinntablett unter der Kasse 180 Kugeln und ein abgerissener Ausweisclip; das rote Stoffband des Clips ist zerrissen.\n\nDie Faser des Bandes ist dieselbe wie die rote Faser unter den Fingernägeln von Ueno Sōta.\n\nAusweise mit rotem Stoffband haben in der Halle nur die Kassierer: In der Nachtschicht ist die einzige Kassiererin Takeda Yuki."
+  },
+  {
+   "key": "case027.tray.title",
+   "value": "DURCHSUCHUNG HINTER DER KASSE"
+  },
+  {
+   "key": "case027.verdict.hideo",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.verdict.sato",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.verdict.yuki",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.yuki.badge.answer",
+   "value": "In meiner Tasche."
+  },
+  {
+   "key": "case027.yuki.badge.question",
+   "value": "Wo ist Ihr Ausweis?"
+  },
+  {
+   "key": "case027.yuki.body",
+   "value": "Nachtkassiererin."
+  },
+  {
+   "key": "case027.yuki.deflect",
+   "value": "Nach Kassenangelegenheiten fragt man mich nicht."
+  },
+  {
+   "key": "case027.yuki.night.answer",
+   "value": "Nach Schließung die Zählung. Herr Ueno saß im Lager über den Rechnungen, um zwei sagte er ‚Geh du nur‘, aber Herr Satō spielte noch, also habe ich gewartet. Um halb fünf sind wir gegangen, Herr Ueno lebte da noch, bei ihm brannte Licht."
+  },
+  {
+   "key": "case027.yuki.night.answer.demeanor",
+   "value": "Wickelt das Band ihres Ausweises um den Finger."
+  },
+  {
+   "key": "case027.yuki.night.question",
+   "value": "Was haben Sie in der Nacht gemacht?"
+  },
+  {
+   "key": "case027.yuki.night.variant0",
+   "value": "Das Lager war kalt? Ich bin doch gar nicht ins Lager gegangen. Herr Ueno fror leicht, er hat die Klimaanlage immer selbst eingeschaltet. Ich bin um halb fünf gegangen."
+  },
+  {
+   "key": "case027.yuki.quote",
+   "value": "„Um halb fünf sind wir gegangen, bei ihm brannte Licht.“"
+  },
+  {
+   "key": "case027.yuki.title",
+   "value": "Takeda Yuki — Befragung"
+  },
+  {
+   "key": "case027.yuki_2.body",
+   "value": "Zu den Protokollen."
+  },
+  {
+   "key": "case027.yuki_2.title",
+   "value": "Takeda Yuki — zweite Befragung"
+  },
+  {
+   "key": "case027.yuki_2.when.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.counter114",
+   "value": "Herr Satō hatte einen Hauptgewinn, ich musste ihm den Gewinn bringen, ich war spät dran. Das ist alles."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.ledger",
+   "value": "Die Umschläge unterschreibe ich, ja. Der Kurier holt sie ab, ich frage nicht. Aber das hat nichts mit Herrn Ueno zu tun, ich war nicht im Lager."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.tray",
+   "value": "Das Band … Ich wollte ihn nicht töten. Er wollte die Rechnungen der Zentrale geben; die Umschläge unterschreibe ich, ich wäre ins Gefängnis gegangen, nicht die. Ich ging hin, um zu reden. Er schrie. Das Band um seinen Hals … dann habe ich die Klimaanlage eingeschaltet. Ich hatte im Internet gelesen, dass ein Toter in der Kälte später gestorben aussieht."
+  },
+  {
+   "key": "case027.yuki_2.when.question",
+   "value": "Um drei Uhr waren Sie im Lager."
+  },
+  {
+   "key": "case027.item.thermo.name",
+   "value": "Lagerthermostat"
+  },
+  {
+   "key": "case027.item.thermo.detail",
+   "value": "Klimapanel des Gewinnlagers; auf 14 °C und ‚Dauerbetrieb‘ eingestellt."
+  },
+  {
+   "key": "case027.item.tray.name",
+   "value": "Gewinntablett"
+  },
+  {
+   "key": "case027.item.tray.detail",
+   "value": "Plastiktablett hinter der Kasse; darin 180 Kugeln und ein abgerissener Ausweisclip einer Kassiererin."
+  },
+  {
+   "key": "case027.item.ledger.name",
+   "value": "Gewinnrechnungen"
+  },
+  {
+   "key": "case027.item.ledger.detail",
+   "value": "Zwölf Rechnungen auf dem Schreibtisch des Opfers, mit gelben Haftzetteln markiert."
+  }
+ ]
+}
