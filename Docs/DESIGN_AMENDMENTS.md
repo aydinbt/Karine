@@ -1179,3 +1179,4 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - **Telefon:** dokununca çalan çevirme sesi ("zar") kaldırıldı.
 - **CCTV:** kaset animasyonu kaldırıldı. İzleyici siyahtan açılır; kareler ancak görüntü tam açılınca başlar. Kare süresi en az 900 ms. Kayıt 3 tur döner, sonra son karede durur.
 - **Ek (aynı gün):** İngiliz bayrağı çaprazlarla çizildi; önceki hali İzlanda bayrağına benziyordu. Gelen evrak da satır satır basılıyor. Yükleme katmanı açıkken daktilo basımı bekliyor. Görüşme odasına girişte de yükleme katmanı çıkıyor. Yağmurun alçak gövdesi yarıya indi.
+- **Ek 2:** Dosya kabul edilmeden masanın üst şeridinde dosya numarası ve yer yerine yalnız "Soruşturma Birimi" yazıyor. Uğultunun asıl kaynağı yağmur değil, masa müziğinin sürekli tutan akor katmanıydı. Müzik sönümlenen, piyano benzeri arpejlere çevrildi; sürekli tel katmanı (`desk_layer`) masada susturuldu. Yağmurun genel sesi 0.06 tepe seviyesine indi.

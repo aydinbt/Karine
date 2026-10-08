@@ -404,55 +404,45 @@ def menu_theme():
  return normalize(out, 0.62)
 
 def desk_theme():
- """Masanın müziği. Oda gürültüsünün yerini aldı: hava hışırtısı bir süre
- sonra yorucu, üstelik masada oyuncu **okuyor** — okumaya eşlik eden şey
- gürültü değil müzik olmalı. Menü parçasından üç farkı var: daha yavaş (akor
- başına 8 s yerine 10 s), tel yok denecek kadar seyrek (dört akorda iki nota)
- ve belirgin biçimde alçak, çünkü metnin üstünde durmayacak."""
+ """Masanın müziği. 8 Ekim 2026: sürekli tutan akor katmanı uğultu gibi
+ duyuluyordu; yerine yumuşak, sönümlenen piyano benzeri notalar geldi.
+ Akor her ölçüde bir kez yavaşça çözülür (arpej), aralarda sessizlik var.
+ Altta yalnız çok alçak bir nefes katmanı kalır."""
  LOOP, TAIL = 40.0, 5.0
  BAR = 10.0
  out = buf(LOOP + TAIL)
-
- # Dm – Gm – B♭ – A: menünün Am'sinden bir adım uzak, aynı dünyada.
  chords = [
-  ( 73.42, (146.83, 174.61, 220.00)),  # Dm
-  ( 98.00, (196.00, 233.08, 293.66)),  # Gm
-  (116.54, (233.08, 293.66, 349.23)),  # B♭
-  (110.00, (220.00, 277.18, 329.63)),  # A  (gerilim, başa döner)
+  (146.83, (220.00, 293.66, 349.23, 440.00)),  # Dm
+  (196.00, (233.08, 293.66, 392.00, 466.16)),  # Gm
+  (233.08, (293.66, 349.23, 466.16, 587.33)),  # B♭
+  (220.00, (277.18, 329.63, 440.00, 554.37)),  # A
  ]
+ keys = buf(LOOP + TAIL)
+ for index, (root, notes) in enumerate(chords):
+  t0 = index * BAR + 0.5
+  sine(keys, root, 0.10, 6.0, start=t0, env=decay(0.7))
+  for k, note in enumerate(notes):
+   st = t0 + 0.55 * k
+   sine(keys, note,       0.075, 5.0, start=st, env=decay(0.9))
+   sine(keys, note * 2.0, 0.018, 2.0, start=st, env=decay(2.2))
+  # ölçünün ikinci yarısında tek, alçak bir yanıt notası
+  sine(keys, notes[-1], 0.05, 4.0, start=t0 + 5.2, env=decay(1.1))
+ lowpass(keys, 2600, poles=2)
+ keys = highpass(keys, 120)
+ reverb(keys, mix=0.38, room=0.84, damp=0.35)
 
- pad = buf(LOOP + TAIL)
- for index, (root, triad) in enumerate(chords):
-  t0 = index * BAR
+ breath = buf(LOOP + TAIL)
+ for index, (root, notes) in enumerate(chords):
   dur = BAR + 1.6
-  # 8 Ekim 2026: alt oktav ve 1.0012 akortsuz ikiz kaldırıldı — ikisi
-  # birlikte sürekli bir uğultu (vuru) yapıyordu. Kök yalnız, alçak.
-  sine(pad, root,          0.10, dur, start=t0, env=swell(3.0, dur))
-  for note in triad:
-   for harmonic, amp in ((1, 0.085), (2, 0.032), (3, 0.014)):
-    sine(pad, note * harmonic, amp, dur, start=t0,
-         phase=(note * harmonic) % 3.0, env=swell(4.2, dur, release=0.38))
- lowpass(pad, 1050, poles=2)   # menüden daha kapalı: masa lambası ışığı gibi
- pad = highpass(pad, 90)       # gövdeyi alttan kes: hoparlörde vızıltı olmasın
-
- # İki nota, kırk saniyede. Masada müzik olay değil zemin.
- lead = buf(LOOP + TAIL)
- for start, freq in ((6.5, 293.66), (26.0, 349.23)):
-  sine(lead, freq,       0.10, 4.0, start=start, env=decay(1.2))
-  sine(lead, freq * 2.0, 0.026, 2.4, start=start, env=decay(2.6))
- lowpass(lead, 3400)
- reverb(lead, mix=0.46, room=0.86, damp=0.30)
+  for note in notes[:3]:
+   sine(breath, note, 0.012, dur, start=index * BAR, env=swell(4.0, dur, release=0.4))
+ lowpass(breath, 900, poles=2)
+ breath = highpass(breath, 160)
 
  for i in range(len(out)):
-  out[i] = pad[i] * 0.80 + lead[i] * 0.80
- soft(out, 1.1)
- reverb(out, mix=0.12, room=0.78)
+  out[i] = keys[i] + breath[i]
  out = wrap_tail(out, LOOP)
-
- hiss = loop_noise(LOOP, 307, band=(2600, 0.6))
- for i in range(len(out)):
-  out[i] += hiss[i] * 0.004
- return normalize(out, 0.30)
+ return normalize(out, 0.26)
 
 
 # --- efekt katmanı sesleri (2 Ekim 2026) -------------------------------------

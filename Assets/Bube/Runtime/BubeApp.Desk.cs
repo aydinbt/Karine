@@ -386,7 +386,9 @@ public sealed partial class BubeApp {
   header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;
   header.style.paddingLeft=KarineTheme.SpaceLg;header.style.paddingRight=KarineTheme.SpaceMd;stage.Add(header);
   KarineUI.OfficeBrand(header,T("desk.menu"),Home);
-  KarineUI.OfficeTitle(header,T(game.Data.titleKey),string.IsNullOrEmpty(game.Data.summary?.locationKey)?null:T(game.Data.summary.locationKey));
+  // Dosya kabul edilmeden üst şerit dosya numarasını ve yerini söylemez (8 Ekim 2026).
+  if(game.State.caseAccepted)KarineUI.OfficeTitle(header,T(game.Data.titleKey),string.IsNullOrEmpty(game.Data.summary?.locationKey)?null:T(game.Data.summary.locationKey));
+  else KarineUI.OfficeTitle(header,T("file.unit"),null);
   bool usable=game.State.caseAccepted&&!game.State.closed&&!game.Career.retired;
   if(usable) {
    KarineUI.OfficeHeaderAction(header,"folder",T("desk.view.file"),FilePage,true);

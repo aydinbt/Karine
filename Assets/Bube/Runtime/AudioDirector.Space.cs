@@ -38,7 +38,8 @@ public sealed partial class AudioDirector {
   Reverb(effects, preset);
   distantSet = kind == "interview" ? InterviewDistant : Distant;
   SetLoop(bed, kind == "interview" ? "amb_vent" : null);
-  SetLoop(layer, kind == "office" ? "desk_layer" : null);
+  // 8 Ekim 2026: masadaki sürekli tel katmanı (desk_layer) uğultuya karıştığı için susturuldu.
+  SetLoop(layer, null);
   layerSince = kind == "office" ? Time.unscaledTime : -1f;
   LevelSpace();
  }
