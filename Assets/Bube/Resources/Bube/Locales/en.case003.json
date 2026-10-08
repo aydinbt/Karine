@@ -1,0 +1,800 @@
+{
+ "entries": [
+  {
+   "key": "case003.baris.body",
+   "value": "Statement of the supplier who made a delivery to the warehouse that night."
+  },
+  {
+   "key": "case003.baris.deflect",
+   "value": "I have nothing to say on that."
+  },
+  {
+   "key": "case003.baris.delivery.answer",
+   "value": "Around twenty past eleven. Two boxes of motherboards, one box of adapters. Levent Bey opened the door himself; we counted the goods together."
+  },
+  {
+   "key": "case003.baris.delivery.answer.demeanor",
+   "value": "Gave the answer briefly, in business language."
+  },
+  {
+   "key": "case003.baris.delivery.question",
+   "value": "When did you arrive at the warehouse that night?"
+  },
+  {
+   "key": "case003.baris.leave.answer",
+   "value": "Around half eleven. I made out the invoice, got his signature and left. My van was outside the door."
+  },
+  {
+   "key": "case003.baris.leave.answer.demeanor",
+   "value": "Took a folded piece of paper from his wallet and put it back without opening it."
+  },
+  {
+   "key": "case003.baris.leave.question",
+   "value": "What time did you leave the warehouse?"
+  },
+  {
+   "key": "case003.baris.levent.answer",
+   "value": "Tired. A bit irritable. He put off the payment again; he’s been putting it off for three months. We didn’t fight, but we didn’t part on good terms either."
+  },
+  {
+   "key": "case003.baris.levent.answer.demeanor",
+   "value": "Raised both hands at once as he said ‘we didn’t fight’."
+  },
+  {
+   "key": "case003.baris.levent.question",
+   "value": "How did Levent Bey seem?"
+  },
+  {
+   "key": "case003.baris.quote",
+   "value": "“I dropped off the goods, made out the invoice and left.”"
+  },
+  {
+   "key": "case003.baris.title",
+   "value": "Barış Tümer — interview"
+  },
+  {
+   "key": "case003.baris.voices.answer",
+   "value": "I’d stopped by once around nine in the evening, to see if the goods were ready. There was shouting from inside, a woman’s voice. I didn’t go in; I thought I’d come back later. It was Seda Hanım, who else would it be."
+  },
+  {
+   "key": "case003.baris.voices.answer.demeanor",
+   "value": "Lowered his voice, as if the woman were in the next room."
+  },
+  {
+   "key": "case003.baris.voices.question",
+   "value": "Did you see or hear anyone else at the warehouse that evening?"
+  },
+  {
+   "key": "case003.baris_follow.body",
+   "value": "Interview held after the delivery note in the inventory of items."
+  },
+  {
+   "key": "case003.baris_follow.invoice.answer",
+   "value": "All right, that time isn’t correct. I didn’t make out the invoice there. I did it in the van, after I left, and entered the time that way. Levent Bey hadn’t paid for three months, so I was keeping the records a bit to suit myself. A tax thing. It has nothing to do with the death."
+  },
+  {
+   "key": "case003.baris_follow.invoice.answer.demeanor",
+   "value": "Let out a long breath. The defensiveness in his voice turned all at once into weariness."
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_in",
+   "value": "I came, yes. I said so from day one."
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_in.demeanor",
+   "value": "Sat almost with his back to the record."
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_out",
+   "value": "I left. As you can see. What else are you going to ask?"
+  },
+  {
+   "key": "case003.baris_follow.invoice.decoy.camera_baris_out.demeanor",
+   "value": "Folded his arms."
+  },
+  {
+   "key": "case003.baris_follow.invoice.question",
+   "value": "There’s a document on the desk bearing your signature. Can you explain the time on it?"
+  },
+  {
+   "key": "case003.baris_follow.power.answer",
+   "value": "The lights went out. Levent Bey said ‘there’s a generator in the back, I’ll start it’ and went to the back. There was the sound of an engine and the light came back. I finished the count and left. I didn’t notice any smell; I was near the door."
+  },
+  {
+   "key": "case003.baris_follow.power.answer.demeanor",
+   "value": "Made a motion with his hand like pulling a cord as he told it."
+  },
+  {
+   "key": "case003.baris_follow.power.question",
+   "value": "Did anything happen with the electricity while you were at the warehouse?"
+  },
+  {
+   "key": "case003.baris_follow.seda.answer",
+   "value": "I’m not sure. It was a woman’s voice; I said Seda Hanım because who else do I know. I didn’t see her face. Maybe it was a phone, I don’t know."
+  },
+  {
+   "key": "case003.baris_follow.seda.answer.demeanor",
+   "value": "Stepped back from his earlier certainty; his shoulders dropped."
+  },
+  {
+   "key": "case003.baris_follow.seda.question",
+   "value": "Are you sure about the woman’s voice you heard in the evening?"
+  },
+  {
+   "key": "case003.baris_follow.title",
+   "value": "Barış Tümer — second interview"
+  },
+  {
+   "key": "case003.camera.body",
+   "value": "Log of the camera above the warehouse’s outer door, 22.00 – 01.30. The camera only sees the door and the pavement in front of it; the inside of the warehouse is not in frame. Night vision is poor; not suitable for facial identification."
+  },
+  {
+   "key": "case003.camera.title",
+   "value": "WAREHOUSE DOOR CAMERA — record log"
+  },
+  {
+   "key": "case003.cctv.event.baris_in",
+   "value": "A light van pulls up at the door. The driver comes to the door with boxes; the door is opened from inside."
+  },
+  {
+   "key": "case003.cctv.event.baris_out",
+   "value": "The person who brought the delivery comes out of the door, gets into the light van and drives off. The door closes behind them."
+  },
+  {
+   "key": "case003.cctv.event.lights",
+   "value": "The lamp above the door and the shop-window light on the street side go out. Forty seconds later only the door lamp comes back on."
+  },
+  {
+   "key": "case003.cctv.event.ozan_in",
+   "value": "A person arrives at the door on foot, pushes the door and goes in. The door is left ajar."
+  },
+  {
+   "key": "case003.cctv.event.seda_out",
+   "value": "A woman comes out of the outer door and gets into the car parked in front of it. The car drives off down the street."
+  },
+  {
+   "key": "case003.cctv.event.team_in",
+   "value": "A response vehicle pulls up at the door. Two people go inside."
+  },
+  {
+   "key": "case003.cctv.overlay",
+   "value": "DOOR 01"
+  },
+  {
+   "key": "case003.cctv.period",
+   "value": "12–13 December 2026, 22.00 – 01.30"
+  },
+  {
+   "key": "case003.cctv.source",
+   "value": "Warehouse door camera"
+  },
+  {
+   "key": "case003.clue.baris_arrive_claim",
+   "value": "Says he came to make a delivery"
+  },
+  {
+   "key": "case003.clue.baris_in",
+   "value": "The delivery van pulls up at the door"
+  },
+  {
+   "key": "case003.clue.baris_leave_claim",
+   "value": "Says he left"
+  },
+  {
+   "key": "case003.clue.baris_out",
+   "value": "The person who brought the delivery leaves"
+  },
+  {
+   "key": "case003.clue.call",
+   "value": "The emergency call is received"
+  },
+  {
+   "key": "case003.clue.lights",
+   "value": "The lights go out; only the door lamp comes back"
+  },
+  {
+   "key": "case003.clue.ozan_arrive_claim",
+   "value": "Says he came to the warehouse"
+  },
+  {
+   "key": "case003.clue.ozan_in",
+   "value": "A person arrives on foot and goes in"
+  },
+  {
+   "key": "case003.clue.seda_leave_claim",
+   "value": "Says she left"
+  },
+  {
+   "key": "case003.clue.seda_out",
+   "value": "A woman comes out of the door and drives off"
+  },
+  {
+   "key": "case003.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case003.clue.team_in",
+   "value": "The response team arrives"
+  },
+  {
+   "key": "case003.custody.baris_invoice",
+   "value": "Barış Tümer — delivery note"
+  },
+  {
+   "key": "case003.custody.label",
+   "value": "Who altered the scene, and what did they take?"
+  },
+  {
+   "key": "case003.custody.none",
+   "value": "The scene was not altered"
+  },
+  {
+   "key": "case003.custody.ozan_usb",
+   "value": "Ozan Çelik — USB stick and accounts folder"
+  },
+  {
+   "key": "case003.custody.seda_usb",
+   "value": "Seda Sarı — USB stick"
+  },
+  {
+   "key": "case003.evidence.camera",
+   "value": "Warehouse door camera log"
+  },
+  {
+   "key": "case003.evidence.finance",
+   "value": "Company accounts inspection"
+  },
+  {
+   "key": "case003.evidence.generator",
+   "value": "Generator technical inspection report"
+  },
+  {
+   "key": "case003.evidence.inventory",
+   "value": "Scene inventory of items"
+  },
+  {
+   "key": "case003.evidence.medical",
+   "value": "Preliminary forensic medical report"
+  },
+  {
+   "key": "case003.feedback.accident",
+   "value": "Levent Sarı himself ran the generator, whose exhaust pipe had come loose, in the closed warehouse and died of carbon monoxide."
+  },
+  {
+   "key": "case003.feedback.baris",
+   "value": "Levent Sarı was alive when Barış Tümer left at 23.31. The time on the delivery note was hiding a tax irregularity, not the death."
+  },
+  {
+   "key": "case003.feedback.ozan",
+   "value": "Ozan Çelik entered the warehouse at 00.42; the death had occurred before that, by carbon monoxide poisoning. He altered the scene but did not cause the death."
+  },
+  {
+   "key": "case003.feedback.seda",
+   "value": "Seda Sarı left at 22.31 and did not return. The argument was real, but it has no link to the death."
+  },
+  {
+   "key": "case003.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case003.file.value.bureau",
+   "value": "BDS Suspicious Deaths Desk"
+  },
+  {
+   "key": "case003.file.value.location",
+   "value": "Karaköy, Sarı Elektronik warehouse"
+  },
+  {
+   "key": "case003.file.value.number",
+   "value": "BDS-2026-0231"
+  },
+  {
+   "key": "case003.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case003.file.value.reporter",
+   "value": "Ozan Çelik, 01.12 call"
+  },
+  {
+   "key": "case003.finance.body",
+   "value": "Sarı Elektronik’s bank account and accounting software were examined.\n\nOver the last fourteen months, payments totalling 186,400 TL were made under the heading ‘haulage costs’ to a firm with no supplier record. All the payments were approved with Ozan Çelik’s software user account. The owner of the receiving account appears to be a relative of Ozan Çelik.\n\nThe accounting backup was last copied from Levent Sarı’s computer to a USB stick on 12 December at 22.10. On the same computer, a file named ‘nakliye_odemeleri.xlsx’ was created that evening at 21.40.\n\nNo unusual activity was found on Seda Sarı’s company account."
+  },
+  {
+   "key": "case003.finance.title",
+   "value": "COMPANY ACCOUNTS INSPECTION"
+  },
+  {
+   "key": "case003.generator.body",
+   "value": "The petrol portable generator in the back section was examined.\n\nThe engine block and exhaust silencer show heat marks and soot build-up consistent with recent running. The fuel tank is empty; there is fresh fuel residue on the tank cap and filler neck. The generator was started on the night of the incident and ran until its fuel ran out.\n\nThe flexible discharge pipe that carries the exhaust outside lies on the floor, detached from the wall outlet. The clamp is loose; there are no signs of tool forcing, cutting or new scratches at the connection. The pipe’s detachment is consistent with long-standing loosening.\n\nContact traces belonging to a single person were taken from the handle of the generator’s starter cord and from its switch; a sample is needed for comparison.\n\nAmbient measurement: a generator running for hours in the back section with the windows closed is sufficient to reach a lethal carbon monoxide concentration."
+  },
+  {
+   "key": "case003.generator.title",
+   "value": "GENERATOR TECHNICAL INSPECTION REPORT"
+  },
+  {
+   "key": "case003.inventory.body",
+   "value": "Levent Sarı’s desk and the back section were examined a second time.\n\nThe key ring is on the desk. The USB stick ring on the key ring is open and empty; the ring itself is intact, with no sign of breakage. In the desk’s bottom drawer hangs the hanger of a folder labelled ‘2026 accounts’; the folder is not there.\n\nOn the desk is a delivery note signed by Barış Tümer: three boxes, time of issue 23.50.\n\nThe top shelf where the fallen box stood is at the very back of the racking. At the foot of the shelf leg, level with the box, there is a fresh scuff mark. Traces belonging to Levent Sarı and Ozan Çelik were found on the box; both work regularly in the warehouse.\n\nThe handle of the back-section window is in the closed position. There are no signs of forcing on the window."
+  },
+  {
+   "key": "case003.inventory.title",
+   "value": "SCENE INVENTORY OF ITEMS"
+  },
+  {
+   "key": "case003.medical.body",
+   "value": "Person examined: Levent Sarı (51).\n\nEstimated time of death: between 23.35 on 12 December and 00.05 on 13 December.\n\nCarboxyhaemoglobin level in the blood 58%. There is cherry-red discolouration of the skin and internal organs consistent with carbon monoxide poisoning. Cause of death: carbon monoxide poisoning.\n\nThe open wound on the right side of the head was caused by a blunt object. No vital reaction such as bleeding or tissue response was found around the wound; the wound was assessed as having occurred after death.\n\nThere are no defensive or grip marks on the body. Blood alcohol and drug screening negative."
+  },
+  {
+   "key": "case003.medical.title",
+   "value": "PRELIMINARY FORENSIC MEDICAL REPORT"
+  },
+  {
+   "key": "case003.method.blow",
+   "value": "Struck with a hard object"
+  },
+  {
+   "key": "case003.method.co",
+   "value": "Carbon monoxide poisoning"
+  },
+  {
+   "key": "case003.method.heart",
+   "value": "Heart attack"
+  },
+  {
+   "key": "case003.method.label",
+   "value": "Cause of death"
+  },
+  {
+   "key": "case003.method.trauma",
+   "value": "Head trauma from a falling box"
+  },
+  {
+   "key": "case003.offer.subtitle",
+   "value": "LAST DELIVERY  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case003.offer.summary",
+   "value": "In Karaköy, the owner of an electronics warehouse is found dead in his warehouse after midnight. Beside him is a heavy box that fell from a shelf; the initial assessment is a workplace accident. The report is on your desk."
+  },
+  {
+   "key": "case003.offer.title",
+   "value": "FILE #003"
+  },
+  {
+   "key": "case003.ozan.arrive.answer",
+   "value": "Around ten to one. There was a night delivery; goods were going out in the morning. The door was ajar. I went in; Levent Bey was on the floor."
+  },
+  {
+   "key": "case003.ozan.arrive.answer.demeanor",
+   "value": "Didn’t look at his phone when giving the time. The answer seemed ready."
+  },
+  {
+   "key": "case003.ozan.arrive.question",
+   "value": "What time did you arrive at the warehouse?"
+  },
+  {
+   "key": "case003.ozan.body",
+   "value": "First statement of the warehouse employee who reported the incident, taken at the scene."
+  },
+  {
+   "key": "case003.ozan.call.answer",
+   "value": "I called straight away. I went over to him, called out; he didn’t move. My hands were shaking; I dialled the number wrong twice."
+  },
+  {
+   "key": "case003.ozan.call.answer.demeanor",
+   "value": "Put his hand on the edge of the table; his fingers really were trembling."
+  },
+  {
+   "key": "case003.ozan.call.question",
+   "value": "What did you do after you saw him?"
+  },
+  {
+   "key": "case003.ozan.deflect",
+   "value": "I don’t know. I really don’t know."
+  },
+  {
+   "key": "case003.ozan.evening.answer",
+   "value": "I left at seven in the evening. He was at his desk, going through the accounts. He was low; he’d been like that these last months."
+  },
+  {
+   "key": "case003.ozan.evening.answer.demeanor",
+   "value": "Sat up in the chair. Looked away as he said ‘the accounts’."
+  },
+  {
+   "key": "case003.ozan.evening.question",
+   "value": "When did you last see Levent Bey?"
+  },
+  {
+   "key": "case003.ozan.generator.answer",
+   "value": "But that doesn’t work. It’s been broken for weeks. Levent Bey was going to send it for repair; he didn’t. When the power went we lit candles, like a joke."
+  },
+  {
+   "key": "case003.ozan.generator.answer.demeanor",
+   "value": "Almost smiled, then his face fell."
+  },
+  {
+   "key": "case003.ozan.generator.question",
+   "value": "What do you know about the generator in the back?"
+  },
+  {
+   "key": "case003.ozan.quote",
+   "value": "“The door was open. I went in; he was on the floor. I called straight away.”"
+  },
+  {
+   "key": "case003.ozan.title",
+   "value": "Ozan Çelik — interview"
+  },
+  {
+   "key": "case003.ozan.visitors.answer",
+   "value": "Barış Abi had a delivery, the supplier. And Seda Hanım was going to come in the evening, I think; that’s what Levent Bey said. His sister, his partner."
+  },
+  {
+   "key": "case003.ozan.visitors.answer.demeanor",
+   "value": "Counted the names off on his fingers."
+  },
+  {
+   "key": "case003.ozan.visitors.question",
+   "value": "Who else was going to come to the warehouse that night?"
+  },
+  {
+   "key": "case003.ozan_follow.body",
+   "value": "Interview held after the camera record and the forensic medical report."
+  },
+  {
+   "key": "case003.ozan_follow.box.answer",
+   "value": "It was on the floor. Next to him. I didn’t touch anything. Why would I?"
+  },
+  {
+   "key": "case003.ozan_follow.box.answer.demeanor",
+   "value": "Answered the moment the question was asked. His hands went under the table."
+  },
+  {
+   "key": "case003.ozan_follow.box.question",
+   "value": "Was the box on the floor when you went in?"
+  },
+  {
+   "key": "case003.ozan_follow.engine.answer",
+   "value": "It was run? I… no. I thought it was broken. Did Levent Bey get it repaired? He didn’t tell me. I do remember the smell, though; there was a heavy smell inside; I thought it was damp."
+  },
+  {
+   "key": "case003.ozan_follow.engine.answer.demeanor",
+   "value": "His surprise looked real. For a while he said nothing."
+  },
+  {
+   "key": "case003.ozan_follow.engine.question",
+   "value": "The generator was run that night. Didn’t you know that?"
+  },
+  {
+   "key": "case003.ozan_follow.gap.answer",
+   "value": "I knelt down next to him. I felt for a pulse; I couldn’t find one. Then… then I sat down. I didn’t know what to do. Nobody would understand that; you won’t either."
+  },
+  {
+   "key": "case003.ozan_follow.gap.answer.demeanor",
+   "value": "His voice rose, then suddenly cut off. His eyes caught on the papers on the table."
+  },
+  {
+   "key": "case003.ozan_follow.gap.question",
+   "value": "There’s almost half an hour between the moment you went in and the moment you called. What did you do during that time?"
+  },
+  {
+   "key": "case003.ozan_follow.time.answer",
+   "value": "All right. Forty-two. I didn’t look at the clock; that’s just how it stuck in my mind. I went in, saw him, froze. I don’t know how long I stood there."
+  },
+  {
+   "key": "case003.ozan_follow.time.answer.demeanor",
+   "value": "Swallowed when he looked at the screen. Gave the answer slowly."
+  },
+  {
+   "key": "case003.ozan_follow.time.question",
+   "value": "There’s a difference between the time on the record and the time you gave. Can you explain it?"
+  },
+  {
+   "key": "case003.ozan_follow.title",
+   "value": "Ozan Çelik — second interview"
+  },
+  {
+   "key": "case003.ozan_third.body",
+   "value": "Interview held after the accounts inspection and the inventory of items."
+  },
+  {
+   "key": "case003.ozan_third.box.answer",
+   "value": "I leaned on the shelf while opening the drawer. My hands were shaking. The box slid, fell… on his head. I didn’t kill him. He was dead when I went in, I swear. Then I got up and called."
+  },
+  {
+   "key": "case003.ozan_third.box.answer.demeanor",
+   "value": "His voice shook. He repeated the last sentence, more quietly this time."
+  },
+  {
+   "key": "case003.ozan_third.box.question",
+   "value": "How did the box fall?"
+  },
+  {
+   "key": "case003.ozan_third.money.answer",
+   "value": "My mother was ill. I was going to put it back. A little every month, without anyone noticing. Levent Bey noticed that evening and prepared the file. As I left at seven he said to me ‘we’ll talk tomorrow’. I couldn’t sleep that night. The delivery was an excuse; I went to talk."
+  },
+  {
+   "key": "case003.ozan_third.money.answer.demeanor",
+   "value": "He was silent for a long time. Then he told it all in one go, without stopping."
+  },
+  {
+   "key": "case003.ozan_third.money.decoy.inventory",
+   "value": "Everyone touches the boxes. I work in the warehouse."
+  },
+  {
+   "key": "case003.ozan_third.money.decoy.inventory.demeanor",
+   "value": "Pushed the document away with his finger."
+  },
+  {
+   "key": "case003.ozan_third.money.question",
+   "value": "What do you have to say about these payments?"
+  },
+  {
+   "key": "case003.ozan_third.title",
+   "value": "Ozan Çelik — third interview"
+  },
+  {
+   "key": "case003.ozan_third.usb.answer",
+   "value": "I have it. The folder too. At home, on top of the wardrobe. I saw him on the floor and all I could think of was that stick. I took it off the ring and took the folder. As if I weren’t human."
+  },
+  {
+   "key": "case003.ozan_third.usb.answer.demeanor",
+   "value": "His eyes filled; he didn’t wipe them."
+  },
+  {
+   "key": "case003.ozan_third.usb.question",
+   "value": "Where is the stick from the key ring?"
+  },
+  {
+   "key": "case003.person.baris.info",
+   "value": "39, electronic parts supplier; makes deliveries to the warehouse in his own van."
+  },
+  {
+   "key": "case003.person.baris.name",
+   "value": "Barış Tümer"
+  },
+  {
+   "key": "case003.person.ozan.info",
+   "value": "28, has worked at the warehouse for four years. The person who reported the incident."
+  },
+  {
+   "key": "case003.person.ozan.name",
+   "value": "Ozan Çelik"
+  },
+  {
+   "key": "case003.person.seda.info",
+   "value": "46, Levent Sarı’s sister and business partner."
+  },
+  {
+   "key": "case003.person.seda.name",
+   "value": "Seda Sarı"
+  },
+  {
+   "key": "case003.report.body",
+   "value": "On 13 December 2026, following a call received at 01.12, officers attended a warehouse belonging to Sarı Elektronik in Karaköy. The call was made by warehouse employee Ozan Çelik.\n\nThe warehouse owner, Levent Sarı (51), was found face down and motionless in the back section, at the foot of a row of shelves; his death was confirmed at the scene. There is an open wound on the right side of his head. Beside him lies a cardboard box weighing about 18 kilos that fell from the top shelf.\n\nNo signs of a struggle, overturned items or forced door were seen in the warehouse. The outer door was unlocked; the back section’s ventilation window was closed. There is a petrol portable generator in the back section; it was not running when officers arrived.\n\nIn his first account Çelik said he had returned to the warehouse for a night delivery, found the door open and called as soon as he saw Levent Sarı on the floor. Preliminary assessment: suspected workplace accident caused by a box falling from a shelf."
+  },
+  {
+   "key": "case003.report.imageCaption",
+   "value": "Scene: the back section of the warehouse, 13 December 02.05."
+  },
+  {
+   "key": "case003.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case003.request.finance",
+   "value": "Request an inspection of the company accounts"
+  },
+  {
+   "key": "case003.request.generator",
+   "value": "Request a technical inspection of the generator"
+  },
+  {
+   "key": "case003.request.inventory",
+   "value": "Request a second inspection of the desk and shelf"
+  },
+  {
+   "key": "case003.request.medical",
+   "value": "Request the preliminary forensic medical report"
+  },
+  {
+   "key": "case003.seda.body",
+   "value": "Statement of the deceased’s sister and business partner."
+  },
+  {
+   "key": "case003.seda.camera.answer",
+   "value": "There’s a camera above the door. He had it put in after the burglary last year. The recording goes to the computer; Ozan knows."
+  },
+  {
+   "key": "case003.seda.camera.answer.demeanor",
+   "value": "Shrugged; the camera’s existence did not seem to bother her."
+  },
+  {
+   "key": "case003.seda.camera.question",
+   "value": "Is there anything around the warehouse that keeps a recording?"
+  },
+  {
+   "key": "case003.seda.company.answer",
+   "value": "Bad. There’s debt; payments to suppliers are late. I was saying let’s sell; Levent was resisting. Yes, that’s why we shouted that evening too. Now you’ll ask whether the share comes to me, I know."
+  },
+  {
+   "key": "case003.seda.company.answer.demeanor",
+   "value": "Answered without waiting for you to finish the question. Did not take her eyes off you."
+  },
+  {
+   "key": "case003.seda.company.question",
+   "value": "What state was the company in?"
+  },
+  {
+   "key": "case003.seda.deflect",
+   "value": "I won’t discuss that without my lawyer."
+  },
+  {
+   "key": "case003.seda.fight.answer",
+   "value": "We talked business. Voices got raised; it happens. We’re siblings after all. It wasn’t what you’d call a fight."
+  },
+  {
+   "key": "case003.seda.fight.answer.demeanor",
+   "value": "Took her bag onto her lap and wound its strap round her finger."
+  },
+  {
+   "key": "case003.seda.fight.question",
+   "value": "What happened between you and your brother that evening?"
+  },
+  {
+   "key": "case003.seda.leave.answer",
+   "value": "At half past ten. I got in my car and went home. And I never went back. I wish I had."
+  },
+  {
+   "key": "case003.seda.leave.answer.demeanor",
+   "value": "Her voice cracked on ‘I wish’; she quickly composed herself."
+  },
+  {
+   "key": "case003.seda.leave.question",
+   "value": "What time did you leave the warehouse?"
+  },
+  {
+   "key": "case003.seda.quote",
+   "value": "“We talked business, voices got raised. I left at half past ten.”"
+  },
+  {
+   "key": "case003.seda.title",
+   "value": "Seda Sarı — interview"
+  },
+  {
+   "key": "case003.seda.usb.answer",
+   "value": "On a USB stick. He didn’t even trust the accountant; everything was on that stick. It was on his key ring; he never let it out of his sight."
+  },
+  {
+   "key": "case003.seda.usb.answer.demeanor",
+   "value": "Mimed holding something small with her hands as she spoke."
+  },
+  {
+   "key": "case003.seda.usb.question",
+   "value": "Where did your brother keep the company records?"
+  },
+  {
+   "key": "case003.summary.evidence",
+   "value": "The forensic report establishes carbon monoxide as the cause of death and the head wound as post-mortem; the generator inspection shows the pipe came loose long ago, without forcing. The camera record separates who went in and out and when; the inventory of items and the accounts inspection reveal the missing stick and the reason for taking it."
+  },
+  {
+   "key": "case003.summary.lesson",
+   "value": "The person who altered the scene is not the person who caused the death. Lying, concealing and taking evidence are separate offences; but the cause of a death is established only by physical findings, not by a suspect."
+  },
+  {
+   "key": "case003.summary.location",
+   "value": "Karaköy, Sarı Elektronik warehouse — 12–13 December 2026"
+  },
+  {
+   "key": "case003.summary.truth",
+   "value": "Seda Sarı left at 22.31 after the argument. Barış Tümer arrived for the delivery at 23.19; when the power went, Levent Sarı himself started the generator in the back section. The exhaust discharge pipe had loosened long before and come off; the gas filled the closed warehouse. Tümer left at 23.31, Levent Sarı died of carbon monoxide between 23.35 and 00.05, and the generator stopped when its fuel ran out. Ozan Çelik arrived at 00.42, took the USB stick and the accounts folder that would expose his embezzlement, leaned on the shelf while opening the drawer and knocked the box down, and only made the call at 01.12."
+  },
+  {
+   "key": "case003.suspect.label",
+   "value": "Who is responsible for the death?"
+  },
+  {
+   "key": "case003.tablet.caseLine",
+   "value": "FILE #003  /  BUBE INVESTIGATION UNIT"
+  },
+  {
+   "key": "case003.time.baris_arrive_claim",
+   "value": "23.20"
+  },
+  {
+   "key": "case003.time.baris_in",
+   "value": "23.19"
+  },
+  {
+   "key": "case003.time.baris_leave_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case003.time.baris_out",
+   "value": "23.31"
+  },
+  {
+   "key": "case003.time.call",
+   "value": "01.12"
+  },
+  {
+   "key": "case003.time.lights",
+   "value": "23.24"
+  },
+  {
+   "key": "case003.time.ozan_arrive_claim",
+   "value": "00.50"
+  },
+  {
+   "key": "case003.time.ozan_in",
+   "value": "00.42"
+  },
+  {
+   "key": "case003.time.seda_leave_claim",
+   "value": "22.30"
+  },
+  {
+   "key": "case003.time.seda_out",
+   "value": "22.31"
+  },
+  {
+   "key": "case003.time.team_in",
+   "value": "01.21"
+  },
+  {
+   "key": "case003.title",
+   "value": "File #003 — Last Delivery"
+  },
+  {
+   "key": "case003.verdict.accident",
+   "value": "No one — accident"
+  },
+  {
+   "key": "case003.verdict.baris",
+   "value": "Barış Tümer"
+  },
+  {
+   "key": "case003.verdict.ozan",
+   "value": "Ozan Çelik"
+  },
+  {
+   "key": "case003.verdict.seda",
+   "value": "Seda Sarı"
+  },
+  {
+   "key": "case003.epilogue.verdict.accident",
+   "value": "The file was closed as an accident. The generator’s old exhaust connection went into the report; a warning was circulated to shops in the neighbourhood using the same type of device. Seda Sarı laid her brother to rest as the victim of an accident, not in the shadow of a quarrel over debt."
+  },
+  {
+   "key": "case003.epilogue.verdict.ozan",
+   "value": "Ozan Çelik was arrested on suspicion of murder. When the forensic report showed carbon monoxide the charge was dropped; but he spent four months in custody. All that time the generator’s pipe stayed in the same warehouse without anyone looking at it."
+  },
+  {
+   "key": "case003.epilogue.verdict.seda",
+   "value": "Seda Sarı was accused of killing her brother, and her share in the company was frozen for the duration of the case. Months passed before the camera record and the time of death cleared her. The quarrel over debt made the papers; she could not attend the funeral."
+  },
+  {
+   "key": "case003.epilogue.verdict.baris",
+   "value": "Barış Tümer was taken into custody and his supply contracts were suspended. He was released once it became clear that Levent Sarı was alive when he left at 23.31. The tax irregularity on the delivery note was dealt with in a separate file."
+  },
+  {
+   "key": "case003.epilogue.custody.ozan_usb",
+   "value": "The USB stick and the accounts folder were found at Ozan Çelik’s home. The 186,400 TL embezzlement will be tried in a separate file. His altering of the scene and delaying of the call were added to that file too."
+  },
+  {
+   "key": "case003.epilogue.custody.seda_usb",
+   "value": "Seda Sarı’s home and office were searched; the stick was not found. The embezzlement records stayed with Ozan Çelik a while longer; that week he quit his job and left the city."
+  },
+  {
+   "key": "case003.epilogue.custody.baris_invoice",
+   "value": "Barış Tümer’s delivery note was examined as the reason the scene was altered. The tax irregularity came to light, but no link to the missing stick could be established. The trail of the embezzlement went cold."
+  },
+  {
+   "key": "case003.epilogue.custody.none",
+   "value": "The altering of the scene never made it into the report. The empty key ring and the missing folder became nobody’s question; the embezzlement did not come to light for years."
+  },
+  {
+   "key": "case003.baris_follow.gone",
+   "value": "Barış Tümer has left the city for supply work. His lawyer said he will not return for a further interview."
+  }
+ ]
+}
