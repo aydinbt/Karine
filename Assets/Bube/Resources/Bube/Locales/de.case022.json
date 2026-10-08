@@ -1,0 +1,600 @@
+{
+ "entries": [
+  {
+   "key": "case022.audit.body",
+   "value": "Interne Prüfung, auf Antrag von Dieter Brandt eingeleitet, nicht abgeschlossen.\n\n· Im Quittungsbuch von Sven Ott 412 Quittungen über Barstrafen; in die Kasse gelangt sind 196.\n· Differenz: etwa €12.900.\n· Notiz von Dieter Brandt, 9. Oktober: „Mit Sven gesprochen. Frist bis zum Wochenende gegeben.“"
+  },
+  {
+   "key": "case022.audit.title",
+   "value": "PRÜFUNG DER BARSTRAFEN — 2028–2029"
+  },
+  {
+   "key": "case022.autopsy.body",
+   "value": "· Todesursache: ein einzelner, schwerer Schlag auf den Hinterkopf; nicht passend zu einem Aufprall auf die Haltestange, sondern zu einem schmalen, kantigen Gegenstand.\n· Schlag von hinten, von oben nach unten; der Schlagende größer oder stehend, das Opfer gebückt.\n· Todeszeitpunkt: 23.50–00.05.\n· In der Wunde Kunststoffsplitter: schwarzes, hartes ABS; passend zum Gehäuse eines Handterminals."
+  },
+  {
+   "key": "case022.autopsy.title",
+   "value": "VORLÄUFIGER OBDUKTIONSVERMERK"
+  },
+  {
+   "key": "case022.clue.audit9",
+   "value": "Brandt gibt Ott für die Barquittungen eine Frist bis zum Wochenende."
+  },
+  {
+   "key": "case022.clue.f1",
+   "value": "Strafe für Jannik Lorenz."
+  },
+  {
+   "key": "case022.clue.f2",
+   "value": "Strafe für Nele Hartmann."
+  },
+  {
+   "key": "case022.clue.f3",
+   "value": "Strafe für Okan Yıldız."
+  },
+  {
+   "key": "case022.clue.hit",
+   "value": "Das Terminal von Brandt fällt zu Boden; im Terminal von Ott ein Aufprallsignal."
+  },
+  {
+   "key": "case022.clue.source.audit",
+   "value": "Prüfung der Barstrafen"
+  },
+  {
+   "key": "case022.clue.source.fines",
+   "value": "Terminal von Brandt"
+  },
+  {
+   "key": "case022.clue.source.svenlog",
+   "value": "Terminal von Ott"
+  },
+  {
+   "key": "case022.clue.sv1",
+   "value": "Das Terminal von Ott wechselt in den letzten Wagen."
+  },
+  {
+   "key": "case022.custody.label",
+   "value": "Warum beschrieben drei Zeugen drei verschiedene Personen?"
+  },
+  {
+   "key": "case022.custody.liar",
+   "value": "Mindestens zwei der Zeugen lügen"
+  },
+  {
+   "key": "case022.custody.one",
+   "value": "Ein einziger Schwarzfahrer, mit drei verschiedenen Augen gesehen"
+  },
+  {
+   "key": "case022.custody.three",
+   "value": "Drei verschiedene Schwarzfahrer — jeder Zeuge beschrieb seine eigene Strafe"
+  },
+  {
+   "key": "case022.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case022.epilogue.custody.liar",
+   "value": "Die Zeugen galten als Lügner; mit ihnen landete auch die Aussage des eigentlichen Zeugen im Papierkorb."
+  },
+  {
+   "key": "case022.epilogue.custody.one",
+   "value": "Man suchte einen einzigen Schwarzfahrer, den es nicht gab; monatelang."
+  },
+  {
+   "key": "case022.epilogue.custody.three",
+   "value": "Die Aussagen der drei Zeugen widersprachen sich nicht: Alle drei hatten ihre eigene Strafe beschrieben. Der Satz von Okan Yıldız über den ‚Kollegen‘ kam zurück in die Akte."
+  },
+  {
+   "key": "case022.epilogue.custody.unknown",
+   "value": "Warum die Zeugen voneinander abwichen, blieb offen."
+  },
+  {
+   "key": "case022.epilogue.verdict.jannik",
+   "value": "Jannik Lorenz wurde festgenommen und von der Schule suspendiert. Sven Ott trat in der Woche darauf mit einem neuen Partner zur Schicht an."
+  },
+  {
+   "key": "case022.epilogue.verdict.nele",
+   "value": "Nele Hartmann wurde beschuldigt und verlor ihre Arbeit. Die Differenz bei den Barquittungen kam in keine Akte."
+  },
+  {
+   "key": "case022.epilogue.verdict.okan",
+   "value": "Okan Yıldız wurde vor Gericht gestellt; den Satz ‚sein Kollege war da‘ nahm vor Gericht niemand zu Protokoll."
+  },
+  {
+   "key": "case022.epilogue.verdict.sven",
+   "value": "Sven Ott wurde wegen Mordes festgenommen; zu den Barstrafen wurde eine eigene Akte eröffnet. Die drei Fahrgäste zahlten ihre Strafen."
+  },
+  {
+   "key": "case022.evidence.audit",
+   "value": "Prüfung der Barstrafen"
+  },
+  {
+   "key": "case022.evidence.fines",
+   "value": "Strafprotokoll von Brandt"
+  },
+  {
+   "key": "case022.evidence.plastic",
+   "value": "Vergleich des Terminalgehäuses"
+  },
+  {
+   "key": "case022.evidence.svenlog",
+   "value": "Standortprotokoll von Ott"
+  },
+  {
+   "key": "case022.feedback.jannik",
+   "value": "Der Junge bekam um 23.31 seine Strafe und saß vorne; das Fahrradabteil versperrte ihm sogar den Blick nach hinten."
+  },
+  {
+   "key": "case022.feedback.nele",
+   "value": "Die Kurierin bekam um 23.39 ihre Strafe und blieb vor dem Fahrradabteil; an der hinteren Tür sah sie nur eine orange Weste."
+  },
+  {
+   "key": "case022.feedback.okan",
+   "value": "Okan zahlte seine Strafe höflich und sagte von Anfang an, dass er den Kollegen gesehen hatte."
+  },
+  {
+   "key": "case022.feedback.sven",
+   "value": "Das Standortprotokoll setzt ihn um 23.48 an die hintere Tür; das Terminalgehäuse passt in die Wunde; wegen der Barquittungen wollte Brandt ihn melden."
+  },
+  {
+   "key": "case022.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case022.file.value.bureau",
+   "value": "BDS Berlin — Dienststelle Kreuzberg"
+  },
+  {
+   "key": "case022.file.value.location",
+   "value": "S-Bahn-Ring, letzter Wagen — Ostkreuz"
+  },
+  {
+   "key": "case022.file.value.number",
+   "value": "BDS-BER-2029-0083"
+  },
+  {
+   "key": "case022.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case022.file.value.reporter",
+   "value": "Triebfahrzeugführer"
+  },
+  {
+   "key": "case022.fines.body",
+   "value": "Nachtschicht 16.–17. Oktober 2029, letzter Wagen.\n\n· 23.31 · vor Treptower Park · Jannik Lorenz · ohne Fahrschein, 60 €\n· 23.39 · Plänterwald · Nele Hartmann · keine Fahrradkarte, 60 €\n· 23.47 · vor Ostkreuz · Okan Yıldız · abgelaufenes Abo, 60 €\n· 23.49 · Signal: Terminal zu Boden gefallen; danach keine Einträge.\n\nDrei Zeugen beschreiben drei verschiedene Personen; alle drei haben eine Strafe bekommen."
+  },
+  {
+   "key": "case022.fines.title",
+   "value": "STRAFPROTOKOLL — TERMINAL VON DIETER BRANDT"
+  },
+  {
+   "key": "case022.jannik.body",
+   "value": "Der Junge mit Kapuze."
+  },
+  {
+   "key": "case022.jannik.deflect",
+   "value": "Ohne meine Mutter sage ich nichts."
+  },
+  {
+   "key": "case022.jannik.saw.answer",
+   "value": "Der Kontrolleur hat sich vor mir mit einem Jungen mit Kapuze angeschrien, vor Treptower Park. Der Junge sagte ‚Das Ticket ist auf meinem Handy‘, der Kontrolleur schrieb eine Strafe. Ich hatte Kopfhörer auf. Nach hinten habe ich nicht gesehen, da ist das Fahrradabteil."
+  },
+  {
+   "key": "case022.jannik.saw.answer.demeanor",
+   "value": "Zupfte an seiner Kapuze."
+  },
+  {
+   "key": "case022.jannik.saw.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case022.jannik.title",
+   "value": "Jannik Lorenz — Befragung"
+  },
+  {
+   "key": "case022.jannik.who.answer",
+   "value": "… Ja. Ich hatte das Ticket vergessen. Ich bekam die Strafe, dann habe ich mich hingesetzt. Hätte ich es gesagt, hätten sie mich Mörder genannt."
+  },
+  {
+   "key": "case022.jannik.who.question",
+   "value": "Könnten Sie dieser Junge mit Kapuze sein?"
+  },
+  {
+   "key": "case022.method.device",
+   "value": "Wurde von hinten, gebückt, mit dem Handterminal auf den Kopf geschlagen"
+  },
+  {
+   "key": "case022.method.fall",
+   "value": "Stürzte beim Bremsen"
+  },
+  {
+   "key": "case022.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case022.method.pole",
+   "value": "Wurde im Streit gestoßen und prallte gegen die Haltestange"
+  },
+  {
+   "key": "case022.method.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case022.nele.body",
+   "value": "Fahrradkurierin."
+  },
+  {
+   "key": "case022.nele.deflect",
+   "value": "Weil sie mir eine Strafe geschrieben haben, machen Sie mich jetzt zur Mörderin?"
+  },
+  {
+   "key": "case022.nele.later.answer",
+   "value": "Vor Ostkreuz ein dumpfer Schlag. Über das Fahrradabteil kann man nicht schauen, es ist zu hoch. An der hinteren Tür habe ich nur eine orange Weste gesehen, von oben."
+  },
+  {
+   "key": "case022.nele.later.question",
+   "value": "Haben Sie danach hinten etwas gehört?"
+  },
+  {
+   "key": "case022.nele.saw.answer",
+   "value": "Der Kontrolleur stritt sich mit einer Frau mit Fahrrad, weil sie keine Fahrradkarte hatte. Bei Plänterwald. Die Frau sagte, was ihr in den Sinn kam. Die Frau war ich, ja. Danach habe ich mich neben meinem Fahrrad in mein Handy vertieft."
+  },
+  {
+   "key": "case022.nele.saw.answer.demeanor",
+   "value": "Verschränkte die Arme."
+  },
+  {
+   "key": "case022.nele.saw.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case022.nele.title",
+   "value": "Nele Hartmann — Befragung"
+  },
+  {
+   "key": "case022.offer.subtitle",
+   "value": "DER NACHTZUG  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case022.offer.summary",
+   "value": "Um Mitternacht wird ein S-Bahn-Kontrolleur tot im letzten Wagen gefunden. Drei Fahrgäste beschreiben den Schwarzfahrer, der mit dem Kontrolleur stritt — aber drei verschiedene Personen."
+  },
+  {
+   "key": "case022.offer.title",
+   "value": "AKTE #022"
+  },
+  {
+   "key": "case022.okan.body",
+   "value": "Der Mann im Anzug."
+  },
+  {
+   "key": "case022.okan.deflect",
+   "value": "Ich war nur auf dem Heimweg."
+  },
+  {
+   "key": "case022.okan.quote",
+   "value": "„Natürlich war sein Kollege da, sagten sie.“"
+  },
+  {
+   "key": "case022.okan.saw.answer",
+   "value": "Ich habe auch eine Strafe bekommen, zugegeben. Mein Abo war gestern abgelaufen. Der Kontrolleur sprach vor Ostkreuz mit mir, ein höflicher Mann. Nachdem er weg war, stritten zwei in Westen an der hinteren Tür. Der Kontrolleur und sein Kollege, dieselbe Weste."
+  },
+  {
+   "key": "case022.okan.saw.answer.demeanor",
+   "value": "Nahm die Brille ab und putzte sie."
+  },
+  {
+   "key": "case022.okan.saw.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case022.okan.title",
+   "value": "Okan Yıldız — Befragung"
+  },
+  {
+   "key": "case022.okan.who.answer",
+   "value": "Groß. Der Kontrolleur hatte sich gebückt, hob etwas vom Boden auf, die Strafquittungen waren verstreut. Der andere hob das Gerät in seiner Hand. Ich habe den Kopf weggedreht, mich um meine Sachen gekümmert. Ich habe das der Streife gesagt, ‚natürlich war sein Kollege da‘, sagten sie."
+  },
+  {
+   "key": "case022.okan.who.question",
+   "value": "Wie sah der Kollege aus?"
+  },
+  {
+   "key": "case022.person.jannik.info",
+   "value": "17 Jahre, Gymnasiast. Mit Kapuze und Kopfhörern."
+  },
+  {
+   "key": "case022.person.jannik.name",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.person.nele.info",
+   "value": "31 Jahre, Fahrradkurierin. In jener Nacht mit ihrem Fahrrad im Zug."
+  },
+  {
+   "key": "case022.person.nele.name",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.person.okan.info",
+   "value": "52 Jahre, Buchhalter in Neukölln; in Kreuzberg geboren."
+  },
+  {
+   "key": "case022.person.okan.name",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.person.petra.info",
+   "value": "47 Jahre, Schichtleiterin der Kontrollteams."
+  },
+  {
+   "key": "case022.person.petra.name",
+   "value": "Petra Lindner"
+  },
+  {
+   "key": "case022.person.sven.info",
+   "value": "44 Jahre, Fahrkartenkontrolleur. Seit elf Jahren Teampartner von Dieter Brandt."
+  },
+  {
+   "key": "case022.person.sven.name",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.petra.body",
+   "value": "Schichtleiterin."
+  },
+  {
+   "key": "case022.petra.deflect",
+   "value": "Fragen Sie dazu die Rechtsabteilung des Unternehmens."
+  },
+  {
+   "key": "case022.petra.device.answer",
+   "value": "Jede Strafe, die Uhrzeit, die Haltestelle und die Position des Geräts im Wagen. Das Terminal von Sven kam mit einem Riss zurück, es liegt im Lager."
+  },
+  {
+   "key": "case022.petra.device.question",
+   "value": "Zeichnen die Terminals etwas auf?"
+  },
+  {
+   "key": "case022.petra.pair.answer",
+   "value": "Elf Jahre. Aber Dieter hat mich letzten Monat nach den Quittungsbüchern für Barstrafen gefragt. ‚Die Quittungen und das, was in die Kasse kommt, passen nicht zusammen, ich weiß, wessen Buch das ist, ich rede zuerst mit ihm‘, sagte er. Wen er meinte, hat er nicht gesagt."
+  },
+  {
+   "key": "case022.petra.pair.question",
+   "value": "Was für ein Team waren Brandt und Ott?"
+  },
+  {
+   "key": "case022.petra.title",
+   "value": "Petra Lindner — Befragung"
+  },
+  {
+   "key": "case022.plan.body",
+   "value": "Draufsichtskizze. Von links nach rechts: vordere Tür, Sitzreihen, in der Mitte über die ganze Breite ein hohes Fahrradabteil, hintere Sitze und hintere Tür. Das Opfer wurde vor der hinteren Tür gefunden.\n\nDie von den Zeugen geschilderten Positionen sind im Plan markiert."
+  },
+  {
+   "key": "case022.plan.incident",
+   "value": "Kreuz: vor der hinteren Tür des Wagens, wo das Opfer gefunden wurde. Beim Antippen der Markierungen wird der von dort sichtbare Bereich gezeichnet."
+  },
+  {
+   "key": "case022.plan.marker.jannik_claim",
+   "value": "Jannik Lorenz — eigene Angabe: Sitz neben der vorderen Tür"
+  },
+  {
+   "key": "case022.plan.marker.nele_claim",
+   "value": "Nele Hartmann — eigene Angabe: vor dem Fahrradabteil"
+  },
+  {
+   "key": "case022.plan.marker.okan_claim",
+   "value": "Okan Yıldız — eigene Angabe: Sitz nahe der hinteren Tür"
+  },
+  {
+   "key": "case022.plan.title",
+   "value": "WAGENPLAN — LETZTER WAGEN"
+  },
+  {
+   "key": "case022.plastic.body",
+   "value": "Die schwarzen ABS-Splitter aus der Wunde wurden mit dem gerissenen Terminalgehäuse verglichen, das Sven Ott abgegeben hatte: Die Bruchkanten passen exakt. An der Ecke des Gehäuses das Blut von Dieter Brandt."
+  },
+  {
+   "key": "case022.plastic.title",
+   "value": "FORENSISCHER VERGLEICH — TERMINALGEHÄUSE"
+  },
+  {
+   "key": "case022.report.body",
+   "value": "Am 17. Oktober 2029 um 00.14 wurde im letzten Wagen des S-Bahn-Rings bei der Ankunft in Ostkreuz ein Kontrolleur tot am Boden gefunden: Dieter Brandt (58). Ein schwerer Schlag auf den Hinterkopf; neben ihm eine Haltestange.\n\nStreifennotiz: „Drei Fahrgäste im Wagen beschrieben den Schwarzfahrer, der an der letzten Haltestelle mit dem Kontrolleur stritt — aber drei verschiedene Personen: ein Jugendlicher mit Kapuze, eine Frau mit Fahrrad, ein Mann im Anzug. Die Zeugen widersprechen sich. Der Schwarzfahrer wurde nicht gefunden.“"
+  },
+  {
+   "key": "case022.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case022.request.audit",
+   "value": "Prüfung der Barstrafen anfordern"
+  },
+  {
+   "key": "case022.request.fines",
+   "value": "Terminalprotokolle von Brandt anfordern"
+  },
+  {
+   "key": "case022.request.plastic",
+   "value": "Terminalgehäuse von Ott mit der Wunde vergleichen"
+  },
+  {
+   "key": "case022.request.svenlog",
+   "value": "Terminalprotokolle von Ott anfordern"
+  },
+  {
+   "key": "case022.summary.evidence",
+   "value": "Das Strafprotokoll zeigte, dass die drei ‚sich widersprechenden‘ Zeugen drei verschiedene Strafen beschrieben. Der Wagenplan machte deutlich, dass das Fahrradabteil die Sicht von vorne nach hinten versperrte und Okan Yıldız die hintere Tür sah. Das Standortprotokoll des Terminals von Ott, die Prüfung und die Gehäusesplitter schlossen die Kette."
+  },
+  {
+   "key": "case022.summary.lesson",
+   "value": "Widersprüchliche Zeugen müssen keine Lügner sein; sie können verschiedene Momente beschreiben. Die gewöhnlichste Person — ‚natürlich war sein Kollege da‘ — ist oft die, nach der am wenigsten gefragt wird."
+  },
+  {
+   "key": "case022.summary.location",
+   "value": "Berlin, S-Bahn-Ring — Oktober 2029"
+  },
+  {
+   "key": "case022.summary.truth",
+   "value": "Der Kontrolleur Sven Ott steckte seit zwei Jahren die Hälfte der Quittungen über Barstrafen ein. Sein Partner Dieter Brandt bemerkte es und gab ihm eine Frist. In der Nacht des 16. Oktober schrieb Brandt im letzten Wagen drei verschiedenen Schwarzfahrern eine Strafe. Vor Ostkreuz kam Ott in den letzten Wagen; als Brandt die Quittungen vom Boden aufsammelte, schlug er ihn von hinten mit dem Handterminal und kehrte in den vorderen Wagen zurück."
+  },
+  {
+   "key": "case022.suspect.label",
+   "value": "Wer ist für den Tod von Dieter Brandt verantwortlich?"
+  },
+  {
+   "key": "case022.sven.body",
+   "value": "Der Teampartner des Opfers."
+  },
+  {
+   "key": "case022.sven.deflect",
+   "value": "Ich habe meinen Partner verloren. Darüber will ich nicht reden."
+  },
+  {
+   "key": "case022.sven.night.answer",
+   "value": "Dieter nahm den letzten Wagen, ich den vorderen. In Ostkreuz bin ich ausgestiegen, und als ich ihn über Funk nicht erreichte, bin ich nach hinten gerannt. Er lag am Boden. Einer der Schwarzfahrer war es, einer von diesen Streits."
+  },
+  {
+   "key": "case022.sven.night.answer.demeanor",
+   "value": "Behielt die Hände in den Taschen."
+  },
+  {
+   "key": "case022.sven.night.question",
+   "value": "Wo waren Sie in jener Nacht?"
+  },
+  {
+   "key": "case022.sven.terminal.answer",
+   "value": "Ich habe es fallen lassen, das Gehäuse ist gerissen, ich habe es bei der Schichtleiterin abgegeben."
+  },
+  {
+   "key": "case022.sven.terminal.question",
+   "value": "Wo ist Ihr Handterminal?"
+  },
+  {
+   "key": "case022.sven.title",
+   "value": "Sven Ott — Befragung"
+  },
+  {
+   "key": "case022.sven_2.body",
+   "value": "Zu Standortprotokoll und Prüfung."
+  },
+  {
+   "key": "case022.sven_2.money.answer",
+   "value": "Elf Jahre haben wir zusammen gearbeitet. Elf Jahre. Meine Tochter studiert, die Miete …"
+  },
+  {
+   "key": "case022.sven_2.money.question",
+   "value": "Brandt hatte Ihnen eine Frist bis zum Wochenende gegeben."
+  },
+  {
+   "key": "case022.sven_2.title",
+   "value": "Sven Ott — zweite Befragung"
+  },
+  {
+   "key": "case022.sven_2.where.answer",
+   "value": "Ich bin hin, um ihn etwas zu fragen. Zum Strafentarif. Dann bin ich zurück."
+  },
+  {
+   "key": "case022.sven_2.where.answer.demeanor",
+   "value": "Seine Stimme wurde lauter."
+  },
+  {
+   "key": "case022.sven_2.where.question",
+   "value": "Ihr Terminal ist um 23.48 an der hinteren Tür des letzten Wagens."
+  },
+  {
+   "key": "case022.sven_3.body",
+   "value": "Zum Gehäusevergleich."
+  },
+  {
+   "key": "case022.sven_3.title",
+   "value": "Sven Ott — dritte Befragung"
+  },
+  {
+   "key": "case022.sven_3.truth.answer",
+   "value": "Er sammelte die Quittungen vom Boden auf, meine. ‚Am Montag gebe ich sie Petra‘, sagte er, ohne mich anzusehen. Mit dem Gerät in meiner Hand … Dann bin ich nach vorne gegangen. Drei Schwarzfahrer waren im Wagen; ich dachte, sie würden sagen, einer von denen war es."
+  },
+  {
+   "key": "case022.sven_3.truth.answer.demeanor",
+   "value": "Vergrub den Kopf in den Händen."
+  },
+  {
+   "key": "case022.sven_3.truth.question",
+   "value": "Ihr Gehäuse passt in die Wunde."
+  },
+  {
+   "key": "case022.svenlog.body",
+   "value": "Dieselbe Schicht.\n\n· 23.20–23.44 · vorderer Wagen, vier Strafen.\n· 23.45 · Standort: letzter Wagen, vordere Tür.\n· 23.48 · Standort: letzter Wagen, hintere Tür.\n· 23.49 · Aufprallsensor: harter Stoß; Gehäuseschaden.\n· 23.53 · Standort: vorderer Wagen.\n\nSven Ott hatte gesagt: „Ich war im vorderen Wagen.“"
+  },
+  {
+   "key": "case022.svenlog.title",
+   "value": "STANDORTPROTOKOLL — TERMINAL VON SVEN OTT"
+  },
+  {
+   "key": "case022.tablet.caseLine",
+   "value": "AKTE #022  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case022.time.audit9",
+   "value": "9. Oktober"
+  },
+  {
+   "key": "case022.time.f1",
+   "value": "16. Oktober 23.31"
+  },
+  {
+   "key": "case022.time.f2",
+   "value": "23.39"
+  },
+  {
+   "key": "case022.time.f3",
+   "value": "23.47"
+  },
+  {
+   "key": "case022.time.hit",
+   "value": "23.49"
+  },
+  {
+   "key": "case022.time.sv1",
+   "value": "23.45"
+  },
+  {
+   "key": "case022.title",
+   "value": "Akte #022 — Der Nachtzug"
+  },
+  {
+   "key": "case022.verdict.jannik",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.verdict.nele",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.verdict.okan",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.verdict.sven",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.item.terminal.name",
+   "value": "Fahrkartenterminal"
+  },
+  {
+   "key": "case022.item.terminal.detail",
+   "value": "Handterminal mit abgebrochener Ecke."
+  },
+  {
+   "key": "case022.item.receipts.name",
+   "value": "Strafquittungen"
+  },
+  {
+   "key": "case022.item.receipts.detail",
+   "value": "Auf dem Wagenboden verstreute Strafquittungen."
+  }
+ ]
+}
