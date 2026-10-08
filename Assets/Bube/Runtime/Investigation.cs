@@ -42,10 +42,10 @@ namespace Bube {
  public string openingPlaceKey; public string epilogueImage; public string epilogueKey; }
 [Serializable] public class TimelineClue { public string id; public string timeKey; public string noteKey; public string sourceKey; public int sortMinute; public string[] requiresRead; public string[] requiresAsked; }
 [Serializable] public class CaseSummary { public string locationKey; public string truthKey; public string evidenceKey; public string lessonKey; }
-[Serializable] public class CareerRules { public int initialTrust = 60; public int strongGain = 5; public int incompleteLoss = 5; public int falseAccusationLoss = 15; public int unsolvedLoss = 2; public int endThreshold = 0; public int[] statusThresholds = {80,60,40,20,1}; }
+[Serializable] public class CareerRules { public int initialTrust = 60; public int strongGain = 5; public int incompleteLoss = 5; public int falseAccusationLoss = 15; public int unsolvedLoss = 2; public int endThreshold = 0; public int streakLength = 3; public int streakBonus = 3; public int probationTrust = 15; public int reinstateTrust = 30; public int[] statusThresholds = {80,60,40,20,1}; }
 [Serializable] public class PendingReview { public string caseId; public bool correct; public string evaluationType; public int trustDelta; public int successGain; public int failureLoss; public long readyAtUtcTicks; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; public bool hasRecon; public bool reconSupported; }
-[Serializable] public class FaxReview { public string caseId; public bool correct; public bool reopened; public bool trustRefunded; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; public bool hasRecon; public bool reconSupported; }
-[Serializable] public class CareerProgress { public int version = 1; public int departmentTrust = 60; public int retirementThreshold = 0; public string activeCaseId; public List<string> seenWorldIntros = new List<string>(); public List<PendingReview> pendingReviews = new List<PendingReview>(); public bool faxReleased; public FaxReview lastFax; public List<FaxReview> reviewHistory = new List<FaxReview>(); public string careerRankId = "investigator"; public bool retired; }
+[Serializable] public class FaxReview { public string caseId; public bool correct; public bool reopened; public bool trustRefunded; public bool startedProbation; public bool endedProbation; public int streakBefore; public string evaluationType; public long evaluatedAtUtcTicks; public int trustChange; public int trustAfter; public string suspectId; public string methodId; public string proofId; public string suspectSourceId; public string methodSourceId; public string proofSourceId; public bool suspectSupported; public bool methodSupported; public bool proofSupported; public string custodyId; public string custodySourceId; public bool custodySupported; public bool hasRecon; public bool reconSupported; }
+[Serializable] public class CareerProgress { public int version = 1; public int departmentTrust = 60; public int retirementThreshold = 0; public string activeCaseId; public List<string> seenWorldIntros = new List<string>(); public List<PendingReview> pendingReviews = new List<PendingReview>(); public bool faxReleased; public FaxReview lastFax; public List<FaxReview> reviewHistory = new List<FaxReview>(); public string careerRankId = "investigator"; public bool retired; public bool probation; public int streak; public int probationCount; }
 // Kişinin PNG portresi yoksa piksel portre çizilir. Tonlar eskiden kodda
 // `personId=="hasan"` diye seçiliyordu, yani yeni vakanın yeni kişisi C#
 // düzenlemesi istiyordu. Artık vaka verisinden gelir; alan boşsa varsayılan
@@ -150,6 +150,9 @@ public sealed partial class Investigation {
   if(!adoptCareer)Career.departmentTrust=Rules.initialTrust;
   Career.departmentTrust = Math.Max(0,Math.Min(100,Career.departmentTrust));
   Career.retirementThreshold=Rules.endThreshold;
+  // 8 Ekim 2026: kariyer kalıcı bitmez. Eski kayıtta "görev sona erdi" olan
+  // oyuncu gözetimli masa görevine alınır; bir sonraki dosyayla geri döner.
+  if(Career.retired){Career.retired=false;Career.probation=true;Career.departmentTrust=Math.Max(Career.departmentTrust,Rules.probationTrust);}
   Career.seenWorldIntros=Career.seenWorldIntros ?? new List<string>();
   Career.reviewHistory=(Career.reviewHistory ?? new List<FaxReview>()).Where(r=>r!=null && !string.IsNullOrEmpty(r.caseId)).GroupBy(r=>r.caseId).Select(g=>g.First()).ToList();
   if(Career.lastFax!=null && !Career.reviewHistory.Any(r=>r.caseId==Career.lastFax.caseId))Career.reviewHistory.Add(Career.lastFax);
@@ -488,72 +491,5 @@ public sealed partial class Investigation {
   });
   return true;
  }
- // Ödüllü yeniden deneme. Geri verilen tek şey güvendir: o faksın götürdüğü
- // puan iade edilir ve gerekirse görevden ayrılma kalkar. Faks geçmişi
- // başarısızlığı saklar — kayıt silinmez, "yeniden açıldı" diye işaretlenir.
- // Soruşturmada bulunanlar da silinmez ve hiçbir ipucu verilmez; yalnız rapor
- // alanları boşalır, yani vaka ikinci kez gerekçeli sonuç göndermeye açılır.
- public bool MayReopen => State.closed && Career.lastFax!=null && Career.lastFax.caseId==Data.id
-  && !Career.lastFax.correct && !Career.lastFax.reopened
-  && !Career.pendingReviews.Any(r=>r.caseId==Data.id);
- public bool ReopenForRetry() {
-  if(!MayReopen)return false;
-  var fax=Career.lastFax;
-  fax.reopened=true;fax.trustRefunded=true;
-  // Kayıt ile `lastFax` aynı örnektir, ama kayıttan yüklendiğinde iki ayrı
-  // nesne olur; o yüzden vaka ve değerlendirme anıyla eşleştirilir.
-  foreach(var record in Career.reviewHistory)
-   if(record.caseId==fax.caseId && record.evaluatedAtUtcTicks==fax.evaluatedAtUtcTicks) {
-    record.reopened=true;record.trustRefunded=true;
-   }
-  Career.departmentTrust=Math.Max(0,Math.Min(100,Career.departmentTrust-fax.trustChange));
-  Career.retired=Career.departmentTrust<=Career.retirementThreshold;
-  State.closed=false;
-  State.reportSuspect=State.reportMethod=State.reportProof=null;
-  State.reportSuspectSource=State.reportMethodSource=State.reportProofSource=null;
-  State.reportCustody=State.reportCustodySource=null;
-  State.submittedAtUtcTicks=0;
-  return true;
- }
- public string TrustStatusKey => StatusKeyFor(Career.departmentTrust,Rules);
- // Kademe yalnız güven değerinden türer; sicil geçmişi de aynı kuralla hesaplar.
- public static string StatusKeyFor(int value,CareerRules rules) {
-  rules=rules??new CareerRules();var t=rules.statusThresholds;if(t==null || t.Length!=5)t=new[]{80,60,40,20,1};
-  if(value<=rules.endThreshold)return "career.status.ended";
-  return value>=t[0]?"career.status.high":value>=t[1]?"career.status.reliable":value>=t[2]?"career.status.monitored":value>=t[3]?"career.status.review":"career.status.risk";
- }
- public bool HasIncomingFax => Career.faxReleased && Career.pendingReviews.Any(r=>r.readyAtUtcTicks>0 && r.readyAtUtcTicks<=DateTime.UtcNow.Ticks);
- public void BeginNextCaseReview(double delaySeconds=7) {
-  var pending=Career.pendingReviews.FirstOrDefault(r=>r.readyAtUtcTicks==0);
-  if(pending==null)return;
-  Career.faxReleased=true;
-  if(pending.readyAtUtcTicks==0)pending.readyAtUtcTicks=DateTime.UtcNow.AddSeconds(Math.Max(5,Math.Min(10,delaySeconds))).Ticks;
- }
- public FaxReview DeliverNextFax() {
-  if(!HasIncomingFax)return null;
-  var pending=Career.pendingReviews.FirstOrDefault(r=>r.readyAtUtcTicks>0 && r.readyAtUtcTicks<=DateTime.UtcNow.Ticks);
-  if(pending==null)return null;
-  Career.pendingReviews.Remove(pending);
-  Career.faxReleased=Career.pendingReviews.Any(r=>r.readyAtUtcTicks>0);
-  int before=Career.departmentTrust;
-  int delta=string.IsNullOrEmpty(pending.evaluationType) ? (pending.correct?pending.successGain:-pending.failureLoss) : pending.trustDelta;
-  Career.departmentTrust=Math.Max(0,Math.Min(100,before+delta));
-  Career.retired=Career.departmentTrust<=Career.retirementThreshold;
-  Career.lastFax=new FaxReview {
-   caseId=pending.caseId,correct=pending.correct,evaluationType=string.IsNullOrEmpty(pending.evaluationType)?(pending.correct?"supported":"falseAccusation"):pending.evaluationType,
-   evaluatedAtUtcTicks=DateTime.UtcNow.Ticks,trustChange=Career.departmentTrust-before,trustAfter=Career.departmentTrust,
-   suspectId=pending.suspectId,methodId=pending.methodId,proofId=pending.proofId,
-   suspectSourceId=pending.suspectSourceId,methodSourceId=pending.methodSourceId,proofSourceId=pending.proofSourceId,
-   suspectSupported=pending.suspectSupported,methodSupported=pending.methodSupported,proofSupported=pending.proofSupported,
-   custodyId=pending.custodyId,custodySourceId=pending.custodySourceId,custodySupported=pending.custodySupported,
-   hasRecon=pending.hasRecon,reconSupported=pending.reconSupported
-  };
-  // Bir vaka geçmişte birden çok satır tutabilir: ödüllü yeniden deneme eski
-  // başarısızlığı silmez, yanına ikinci denemeyi yazar. Yeniden açılmamış bir
-  // kayıt varsa aynı vaka ikinci kez eklenmez.
-  if(!Career.reviewHistory.Any(r=>r.caseId==Career.lastFax.caseId && !r.reopened))Career.reviewHistory.Add(Career.lastFax);
-  return Career.lastFax;
- }
-
 }
 }

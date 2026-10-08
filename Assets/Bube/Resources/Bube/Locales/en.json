@@ -1485,6 +1485,18 @@
    "value": "RISK OF DISMISSAL"
   },
   {
+   "key": "career.probation.start",
+   "value": "Unit trust is exhausted. Bora has been placed on supervised desk duty in the same unit. Closing the next file with a reasoned report will return Bora to active investigation."
+  },
+  {
+   "key": "career.probation.end",
+   "value": "Supervision lifted. Bora is back on active investigation duty."
+  },
+  {
+   "key": "career.status.probation",
+   "value": "SUPERVISED DESK DUTY"
+  },
+  {
    "key": "career.status.ended",
    "value": "ACTIVE INVESTIGATION DUTY TERMINATED"
   },

@@ -91,17 +91,47 @@ public sealed class RetryTests {
   Assert.IsFalse(game.MayReopen, "Başarılı vaka yeniden açılmaz.");
  }
 
- // Güven iadesi görevden ayrılmayı da kaldırır: yoksa ödül hiçbir işe yaramaz.
- [Test] public void Refund_LiftsRetirementWhenTrustComesBack() {
+ // Güven iadesi gözetimi de kaldırır: yoksa ödül hiçbir işe yaramaz.
+ [Test] public void Refund_LiftsProbationWhenTrustComesBack() {
   var game = Case001Walk.WalkToReportReady();
   game.Career.departmentTrust = game.Rules.falseAccusationLoss;
   Assert.IsTrue(game.SubmitFinalReport("elif", "spare", "recovery", "recovery", "mert_follow", "recovery"));
   game.BeginNextCaseReview(5);
   game.Career.pendingReviews[0].readyAtUtcTicks = 1;
-  game.DeliverNextFax();
-  Assert.IsTrue(game.Career.retired, "Sıfıra düşen güven görevi bitirmeliydi.");
+  var fax = game.DeliverNextFax();
+  Assert.IsTrue(game.Career.probation, "Sıfıra düşen güven gözetimli masa görevi getirmeliydi.");
+  Assert.IsFalse(game.Career.retired, "Kariyer kalıcı bitmez.");
+  Assert.IsTrue(fax.startedProbation);
+  Assert.AreEqual(game.Rules.probationTrust, game.Career.departmentTrust);
+  Assert.IsTrue(game.CanConclude || game.State.closed, "Gözetimde de oyun sürmeli.");
   Assert.IsTrue(game.ReopenForRetry());
-  Assert.IsFalse(game.Career.retired, "Puan geri verildiyse görev de geri gelmeli.");
+  Assert.IsFalse(game.Career.probation, "Puan geri verildiyse gözetim de kalkmalı.");
+ }
+
+ // Gözetimdeyken gerekçeli doğru rapor göreve döndürür ve güveni tabana çeker.
+ [Test] public void SupportedReport_EndsProbation() {
+  var game = Case001Walk.WalkToReportReady();
+  game.Career.probation = true; game.Career.departmentTrust = game.Rules.probationTrust;
+  Assert.IsTrue(game.SubmitFinalReport("hasan", "spare", "recovery", "recovery", "mert_follow", "recovery"));
+  game.BeginNextCaseReview(5);
+  game.Career.pendingReviews[0].readyAtUtcTicks = 1;
+  var fax = game.DeliverNextFax();
+  Assert.IsTrue(fax.correct);
+  Assert.IsFalse(game.Career.probation);
+  Assert.IsTrue(fax.endedProbation);
+  Assert.AreEqual(game.Rules.reinstateTrust, game.Career.departmentTrust);
+ }
+
+ // Seri: eşik sayıdaki ardışık doğru rapor ek güven getirir.
+ [Test] public void Streak_AddsBonusAtThreshold() {
+  var game = Case001Walk.WalkToReportReady();
+  game.Career.streak = game.Rules.streakLength - 1; game.Career.departmentTrust = 50;
+  Assert.IsTrue(game.SubmitFinalReport("hasan", "spare", "recovery", "recovery", "mert_follow", "recovery"));
+  game.BeginNextCaseReview(5);
+  game.Career.pendingReviews[0].readyAtUtcTicks = 1;
+  var fax = game.DeliverNextFax();
+  Assert.IsTrue(fax.correct);
+  Assert.AreEqual(50 + game.Rules.strongGain + game.Rules.streakBonus, game.Career.departmentTrust);
  }
 }
 }

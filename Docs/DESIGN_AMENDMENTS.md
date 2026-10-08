@@ -1133,3 +1133,15 @@ Kullanıcı: "Bir şey sunuldu ve cevap alındıysa başka görüşmede aynısı
 - İngilizce metin İngiliz İngilizcesiyle yazılır; saat Türkçedeki gibi `23.03`, şube adları "BDM Montreal — Mile End Branch" kalıbında. Ayrıntı ve terim listesi: `Translation/GLOSSARY_en.md`.
 - Yabancı yer, kurum ve hitap sözcükleri (capataz, nonna, Laurentide Réassurance) çevrilmez; oyunun her ülkede yerel kalması için.
 - Almanca, Fransızca, İtalyanca, İspanyolca ve Portekizce (BR) çevirisine kullanıcı söyleyene kadar başlanmaz.
+
+## 8 Ekim 2026 — Kariyer bitmez: gözetimli masa görevi, seri ödülü
+
+Oyuncuyu oyunda tutmak için kalıcı kariyer sonu kaldırıldı. Ölçek 0–100 kalır (başlangıç 60).
+
+- **Kayıp yanlışın türüne göre:** asılsız suçlama (yanlış kişi ya da yanlış gözaltı) −15; doğru kişi ama gerekçesi eksik rapor −5; gerekçeli doğru rapor +5.
+- **Seri:** arka arkaya 3 gerekçeli doğru rapordan itibaren her doğru rapor +3 ek güven getirir (+8). Eksik ya da yanlış rapor seriyi sıfırlar.
+- **Güven 0'a düşerse:** Bora **aynı ülkede, aynı birimde** gözetimli masa görevine alınır; güven 15'e çekilir ve oyun sürer. Sıradaki dosya gerekçeli doğru kapanırsa gözetim kalkar ve güven en az 30'a çıkar. Gözetimdeki başarısız rapor güveni 15'in altına indirmez.
+- **Neden Türkiye'ye dönülmez:** gerçekte ağır hata yapan bir soruşturmacı mesleğe sıfırdan başlamaz; görevden el çektirilir, masa işine verilir, denetim altında geri döner. Kapanan dosyalar, sicil ve ülke ilerlemesi silinmez. Sıfırdan başlamak isteyen oyuncu için "yeni kariyer" ayrı ve isteğe bağlıdır.
+- Ödüllü yeniden açma, faksın getirdiği gözetimi ve seriyi de geri alır.
+- Eski kayıtta "görev sona erdi" olan oyuncu yüklemede gözetime alınır.
+- Değerler `career-rules.json` içindedir: `streakLength`, `streakBonus`, `probationTrust`, `reinstateTrust`.

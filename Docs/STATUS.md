@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**8 Ekim (gece):** **Kariyer artık bitmiyor.** Güven sıfırlanınca Bora aynı ülkede gözetimli masa görevine alınıyor, sıradaki dosyayı gerekçeli kapatınca dönüyor; 3 doğru raporluk seri ek güven veriyor. 138 EditMode geçiyor → `[~]`.
+
 **8 Ekim (akşam):** **İngilizce çeviri tamamlandı.** 73 dosya ve ortak arayüz, 12.755 satır; çeviri denetimi 0 sorun. Sözlük: [Translation/GLOSSARY_en.md](Translation/GLOSSARY_en.md). Diğer diller (de, fr, it, es, pt-BR) kullanıcı onayı bekliyor. **İngilizce metin oyunda okunmadı** → `[~]`.
 
 **8 Ekim:** **Oyun altı dile hazırlanıyor; kariyer ekranına Sicil sekmesi eklendi.** Diller: İngilizce, Almanca, Fransızca, İtalyanca, İspanyolca, Portekizce (BR); Türkçe kanon. Dil seçimi, cihaz diline göre açılış ve eksik satırda İngilizce → Türkçe düşme zinciri kuruldu. Ad geçme kuralı her dilde Türkçe metinden hesaplanıyor; çeviri denetimi Türkçedeki kuralların karşılığını her dile uyguluyor ([TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md)). Büyük harf ve yüzde artık dile göre. **Çeviri metinleri henüz yazılmadı.** 136 EditMode + 27 PlayMode geçiyor; hiçbiri Play Mode'da görülmedi.

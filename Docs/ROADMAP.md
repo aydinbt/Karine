@@ -212,6 +212,7 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 
 - [ ] Bora için kısa personel kartı/biyografi gösterilir; soyadı ve gereksiz arka plan ayrıntıları zorunlu kılınmaz.
 - [ ] Vaka sonrası kalıcı kariyer kaydı, unvan ile departman güveni ayrımı ve performansa bağlı sorumluluk modeli tasarlanır. Ünvan listesi/eşikleri henüz kesin değildir.
+- [~] Kariyer bitmez (8 Ekim 2026): güven 0'da aynı birimde gözetimli masa görevi, sıradaki gerekçeli raporla dönüş; 3'lü seri +3 ek güven; kayıp türe göre (−15 asılsız suçlama, −5 eksik). 138 EditMode geçti; oyunda görülmedi.
 - [x] Faks sonrası kariyer ve İstatistikler [tasarımı](CAREER_AND_STATISTICS_DESIGN.md) kodlandı: kalıcı sicil, üç değerlendirme ağırlığı, nitel kurum güveni, erişilebilir İstatistikler ve eski son-faks kaydı göçü. Yalıtılmış Unity kopyasında derleme/içerik testi geçti; açık Editor'da görsel-dokunma, gerçek cihaz kayıt testi ve ikinci vaka geçişi doğrulanmalı. Terfi eşikleri ve yeni araç yetkileri henüz tasarlanmadı.
 - [ ] Yetki ile vakada mevcut veri kaynağı ayrı tutulur; yeni araçlar eskileri kaldırmaz, her vakada zorunlu kullanılmaz. CCTV ilk İstanbul vakasında kullanılmaya devam eder.
 - [ ] Eski dosyaya dönüş ve vaka geçmişi geliştirilir; vakalar arası izler/yeniden açılan dosyalar ancak çekirdek döngü doğrulandıktan sonra kapsamlandırılır.

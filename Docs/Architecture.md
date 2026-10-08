@@ -580,3 +580,8 @@ Batchmode'da `WaitForEndOfFrame` hiç tetiklenmez, ekran yakalama asılı kalır
 ## Kariyer sicili (8 Ekim 2026)
 
 Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks geçmişinden güven seyri (`KarineUI.TrustCurve`, kesik çizgi başlangıç güveni), kademe değişimleri ve ülke karnesi (uygun / eksik / hatalı ve net güven). Kademe `Investigation.StatusKeyFor(değer, kurallar)` ile hesaplanır; masadaki rozet ve sicil aynı kuralı kullanır. `career-rules.json`'daki `unsolvedLoss` hiçbir değerlendirme türüne bağlı değil (değerlendirme türleri: supported, incomplete, falseAccusation).
+
+
+## Kariyer: gözetim ve seri (8 Ekim 2026)
+
+`Investigation.Career.cs` faks teslimi, seri, gözetim ve ödüllü yeniden açmayı taşır. `CareerProgress.retired` artık hep `false`. Kayıtla uyum için alan durur, yüklemede `probation`a çevrilir. `FaxReview.startedProbation/endedProbation/streakBefore`, iadenin neyi geri alacağını saklar. `TrustStatusKey` gözetimde `career.status.probation` döndürür.

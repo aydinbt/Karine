@@ -313,8 +313,9 @@ public sealed partial class BubeApp {
   var side=KarineUI.FaxSide(root,T("career.trust"),T(TrustStatusKey(fax.trustAfter)),fax.trustChange,null);
   KarineUI.FaxLink(side,"folder",T("career.openRecord"),StatisticsPage);
   if(RetryOffered(fax))KarineUI.FaxLink(side,"refresh",T("retry.watch"),OfferRetry);
-  if(game.Career.retired)Text(side,T("career.ended"),KarineTheme.Danger,18);
-  else if(game.State.closed)KarineUI.InterviewAction(side,"document",T("next.openAssignment"),ContinueToNextCase);
+  if(fax.startedProbation)Text(side,T("career.probation.start"),KarineTheme.Danger,18);
+  else if(fax.endedProbation)Text(side,T("career.probation.end"),KarineTheme.Primary,18);
+  if(game.State.closed)KarineUI.InterviewAction(side,"document",T("next.openAssignment"),ContinueToNextCase);
  }
 
 }

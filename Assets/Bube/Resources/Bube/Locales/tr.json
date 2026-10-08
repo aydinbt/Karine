@@ -1485,6 +1485,18 @@
    "value": "GÖREVDEN ALINMA RİSKİ"
   },
   {
+   "key": "career.probation.start",
+   "value": "Birim güveni tükendi. Bora aynı birimde gözetimli masa görevine alındı. Sıradaki dosyayı gerekçeli bir raporla kapatırsa aktif soruşturmaya döner."
+  },
+  {
+   "key": "career.probation.end",
+   "value": "Gözetim kalktı. Bora aktif soruşturma görevine döndü."
+  },
+  {
+   "key": "career.status.probation",
+   "value": "GÖZETİMLİ MASA GÖREVİ"
+  },
+  {
    "key": "career.status.ended",
    "value": "AKTİF SORUŞTURMA GÖREVİ SONLANDIRILDI"
   },

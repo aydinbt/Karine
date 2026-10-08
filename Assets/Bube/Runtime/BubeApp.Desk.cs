@@ -250,7 +250,8 @@ public sealed partial class BubeApp {
   }
   Text(body,T("fax.closing"),dark,15);
   Text(body,T("career.trust")+": "+T(TrustStatusKey(fax.trustAfter))+(fax.trustChange>0?" ↑":fax.trustChange<0?" ↓":""),dark,17);
-  if(game.Career.retired)Text(body,T("career.ended"),dark,16);
+  if(fax.startedProbation)Text(body,T("career.probation.start"),dark,16);
+  else if(fax.endedProbation)Text(body,T("career.probation.end"),dark,16);
   // Rapor geri döndüyse ödüllü yöntem hatırlatması **teklif edilir**, dayatılmaz.
   // Teklif yalnız reklam gösterilebilecekse görünür; gösterilemiyorsa ekranda
   // çalışmayan bir düğme durmaz.
@@ -417,9 +418,6 @@ public sealed partial class BubeApp {
    var evidence=KarineUI.OfficeAction(stage,"DeskEvidence","document",T("desk.view.evidence"),KarineTheme.Office.Evidence,
     ()=>{selectedFileSection="evidence";FilePage();});
    KarineUI.OfficePulse(evidence,game.Data.nodes.Any(n=>n.kind=="document"&&n.id!="report"&&game.Available(n)&&!game.State.read.Contains(n.id)));
-  } else if(game.Career.retired) {
-   var end=Panel(stage);KarineUI.OfficePlace(end,new Rect(30,46,40,28));
-   Text(end,T("career.endedTitle"),Gold,24);Text(end,T("career.ended"),Ink,17);
   } else if(game.State.closed) {
    var closed=Panel(stage);KarineUI.OfficePlace(closed,new Rect(36,65,30,30));
    Text(closed,T(game.Career.pendingReviews.Any(r=>r.caseId==game.Data.id)?"desk.closed":"desk.reviewed"),Ink,20);
