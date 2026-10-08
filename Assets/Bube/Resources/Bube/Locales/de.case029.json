@@ -1,0 +1,568 @@
+{
+ "entries": [
+  {
+   "key": "case029.autopsy.body",
+   "value": "· Kein Ruß in den Atemwegen; kein Kohlenmonoxid im Blut. Als das Feuer ausbrach, war er tot.\n· Am Hinterkopf ein einzelner Schlag mit einem schweren, runden Werkzeug. Das ist die Todesursache.\n· Alter zwischen 30 und 40; Größe 1,68. Am linken Unterarm die Spur eines alten Bruchs.\n· Der Tod trat einige Stunden vor dem Brand ein: in der Nacht des 21. März."
+  },
+  {
+   "key": "case029.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case029.cctv.event.boot",
+   "value": "Kamera: Der Mann trägt den Kanister zum Kofferraum der Limousine und schaut zur Straße."
+  },
+  {
+   "key": "case029.cctv.event.fill",
+   "value": "Kamera: Ein kräftiger Mann in Arbeitsjacke füllt einen roten Kanister; hinter ihm eine dunkle Limousine mit ausgeschalteten Lichtern."
+  },
+  {
+   "key": "case029.cctv.event.leave",
+   "value": "Kamera: Die Limousine fährt auf die Waldstraße; ein kleiner weißer Kleinbus bleibt am Rand der Tankstelle geparkt."
+  },
+  {
+   "key": "case029.cctv.overlay",
+   "value": "PUMP-1"
+  },
+  {
+   "key": "case029.cctv.period",
+   "value": "22. März 2030"
+  },
+  {
+   "key": "case029.cctv.source",
+   "value": "Tankstellenkamera"
+  },
+  {
+   "key": "case029.clue.blow",
+   "value": "Ein einzelner Schlag auf den Kopf; der Tod Stunden vor dem Brand."
+  },
+  {
+   "key": "case029.clue.fill",
+   "value": "Der Mann in Arbeitsjacke füllt den Kanister; dahinter eine dunkle Limousine."
+  },
+  {
+   "key": "case029.clue.found",
+   "value": "Im Wald wird die ausgebrannte Limousine gefunden."
+  },
+  {
+   "key": "case029.clue.leave",
+   "value": "Die Limousine fährt auf die Waldstraße; der weiße Kleinbus bleibt zurück."
+  },
+  {
+   "key": "case029.clue.pickup",
+   "value": "Der Fahrer Hamada fährt nach Chiba, um die Sachen von Kazuki zu holen."
+  },
+  {
+   "key": "case029.clue.source.autopsy",
+   "value": "Obduktion"
+  },
+  {
+   "key": "case029.clue.source.emiko",
+   "value": "Nachtumzüglerin"
+  },
+  {
+   "key": "case029.clue.source.ledger",
+   "value": "Umzugsbuch"
+  },
+  {
+   "key": "case029.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case029.clue.vanish",
+   "value": "Kazuki fährt mit einer Nachtumzugsfirma nach Sendai; seine Uhr bleibt als Pfand."
+  },
+  {
+   "key": "case029.custody.hamada",
+   "value": "Hamada Jun — Fahrer der Nachtumzüge"
+  },
+  {
+   "key": "case029.custody.kazuki",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.custody.label",
+   "value": "Wessen Leiche ist im ausgebrannten Wagen?"
+  },
+  {
+   "key": "case029.custody.unknown",
+   "value": "Identität nicht feststellbar"
+  },
+  {
+   "key": "case029.daisuke.body",
+   "value": "Der ältere Bruder von Naoko."
+  },
+  {
+   "key": "case029.daisuke.claim.answer",
+   "value": "Ich. Meine Schwester ist am Boden, der Papierkram blieb an mir hängen. Was ist daran?"
+  },
+  {
+   "key": "case029.daisuke.claim.question",
+   "value": "Wer hat den Versicherungsantrag gestellt?"
+  },
+  {
+   "key": "case029.daisuke.deflect",
+   "value": "Wenn Sie Fragen zu meiner Werkstatt haben, fragen Sie."
+  },
+  {
+   "key": "case029.daisuke.night.answer",
+   "value": "In der Werkstatt, am Auto eines Kunden. Bis zum Morgen. Wenn ich Kazuki finde, breche ich ihm das Genick, das weiß jeder; aber er ist verbrannt, was soll ich da machen."
+  },
+  {
+   "key": "case029.daisuke.night.answer.demeanor",
+   "value": "Verschränkt die Arme vor der Brust."
+  },
+  {
+   "key": "case029.daisuke.night.question",
+   "value": "Wo waren Sie in der Nacht des 21. März?"
+  },
+  {
+   "key": "case029.daisuke.title",
+   "value": "Kudō Daisuke — Befragung"
+  },
+  {
+   "key": "case029.daisuke_2.body",
+   "value": "Zur Durchsuchung."
+  },
+  {
+   "key": "case029.daisuke_2.title",
+   "value": "Kudō Daisuke — zweite Befragung"
+  },
+  {
+   "key": "case029.daisuke_2.who.answer",
+   "value": "Diesen Namen habe ich nie gehört."
+  },
+  {
+   "key": "case029.daisuke_2.who.presented.garage",
+   "value": "Der Kerl kam mit den Sachen von Kazuki aus dem Haus meiner Schwester, am Arm die Uhr von Kazuki. Ich habe ihn in die Werkstatt gebracht, damit er redet. ‚Sag ich nicht‘, sagte er und lächelte. Ich hatte den Vorschlaghammer in der Hand. Dann … ein toter Ehemann bringt viel Geld. Ich habe ihm die Uhr umgelegt und ihn in das Auto von Kazuki gesetzt. Ich dachte, niemand schaut auf die Zähne."
+  },
+  {
+   "key": "case029.daisuke_2.who.question",
+   "value": "Der verbrannte Mann ist Hamada Jun."
+  },
+  {
+   "key": "case029.dental.body",
+   "value": "Registriertes Röntgenbild von Ishida Kazuki: vier Füllungen, eine Goldkrone am rechten unteren Backenzahn.\n\nKiefer der Leiche: keine Füllungen, keine Krone, natürliche Zähne. Keine Übereinstimmung.\n\nDie Leiche ist nicht Ishida Kazuki."
+  },
+  {
+   "key": "case029.dental.title",
+   "value": "ZAHNÄRZTLICHER IDENTITÄTSVERGLEICH"
+  },
+  {
+   "key": "case029.emiko.body",
+   "value": "Inhaberin der Nachtumzugsfirma."
+  },
+  {
+   "key": "case029.emiko.deflect",
+   "value": "Meine Kunden nenne ich niemals."
+  },
+  {
+   "key": "case029.emiko.hamada.answer",
+   "value": "Fünfunddreißig, ein stiller Junge. Als Jugendlicher hatte er sich den Arm gebrochen. Er brachte die Sachen der Kunden hin und her; ‚ich hole noch einmal seine Sachen‘, sagte er in jener Nacht. Beim Haus von Ishida."
+  },
+  {
+   "key": "case029.emiko.hamada.question",
+   "value": "Wer war Hamada?"
+  },
+  {
+   "key": "case029.emiko.service.answer",
+   "value": "Meine Arbeit ist es, Menschen beim Verschwinden zu helfen. Nenne ich einen Namen, ist meine Arbeit vorbei."
+  },
+  {
+   "key": "case029.emiko.service.answer.demeanor",
+   "value": "Die Hände im Schoß, regungslos."
+  },
+  {
+   "key": "case029.emiko.service.question",
+   "value": "Kennen Sie Ishida Kazuki?"
+  },
+  {
+   "key": "case029.emiko.service.variant0",
+   "value": "Die Leiche ist nicht er, ja? … Dann reden wir. Kazuki habe ich in der Nacht des 12. März wegbringen lassen, mit meinem Fahrer Hamada Jun. Kazuki lebt. Aber Hamada ist seit dem 21. März nicht zurückgekommen. Der Kleinbus auch nicht."
+  },
+  {
+   "key": "case029.emiko.title",
+   "value": "Fukuda Emiko — Befragung"
+  },
+  {
+   "key": "case029.epilogue.custody.hamada",
+   "value": "Mit Zahnbefund und familiärer DNA wurde festgehalten, dass die Leiche der Fahrer Hamada Jun ist."
+  },
+  {
+   "key": "case029.epilogue.custody.kazuki",
+   "value": "Die Leiche galt als der Vermisste; die Versicherung zahlte."
+  },
+  {
+   "key": "case029.epilogue.custody.unknown",
+   "value": "Die Leiche blieb ohne Identität; die Akte offen."
+  },
+  {
+   "key": "case029.epilogue.verdict.daisuke",
+   "value": "Kudō Daisuke wurde festgenommen. Ishida Kazuki kehrte aus Sendai zurück und traf sich mit Naoko. Das Buch der Firma Fukuda kam in eine eigene Akte; der Eintrag ‚Mori K.‘ wurde der Dienststelle Tokio vermerkt."
+  },
+  {
+   "key": "case029.epilogue.verdict.emiko",
+   "value": "Fukuda Emiko wurde festgenommen; die Kunden ihrer Firma wurden enttarnt."
+  },
+  {
+   "key": "case029.epilogue.verdict.kazuki",
+   "value": "Ishida Kazuki wurde zum gesuchten Verdächtigen erklärt; das eigentliche Opfer blieb ohne Identität."
+  },
+  {
+   "key": "case029.epilogue.verdict.naoko",
+   "value": "Ishida Naoko stand wegen Versicherungsbetrugs vor Gericht; ihr Bruder wurde als Zeuge gehört."
+  },
+  {
+   "key": "case029.evidence.dental",
+   "value": "Zahnärztlicher Identitätsvergleich"
+  },
+  {
+   "key": "case029.evidence.garage",
+   "value": "Durchsuchung der Werkstatt"
+  },
+  {
+   "key": "case029.evidence.ledger",
+   "value": "Umzugsbuch"
+  },
+  {
+   "key": "case029.evidence.station",
+   "value": "Tankstellenkamera"
+  },
+  {
+   "key": "case029.feedback.daisuke",
+   "value": "Die Leiche ist nicht Kazuki, sondern der Fahrer Hamada; in der Werkstatt sind sein Blut, der Vorschlaghammer, der Schlüssel des verschwundenen Kleinbusses und der Kanister mit blutigem Griff. Die Tankstellenkamera zeigt den kräftigen Mann, der den Kanister füllt; den Versicherungsantrag hat er gestellt."
+  },
+  {
+   "key": "case029.feedback.emiko",
+   "value": "Die Umzüglerin hat ihren Fahrer verloren; ihr Kleinbus und das Blut ihres Fahrers sind in der Werkstatt eines anderen."
+  },
+  {
+   "key": "case029.feedback.kazuki",
+   "value": "Der Vermisste war in jener Nacht in Sendai, und der Mann im ausgebrannten Auto ist nicht er."
+  },
+  {
+   "key": "case029.feedback.naoko",
+   "value": "Die Ehefrau erkannte die Uhr und war Begünstigte, war aber nicht in der Werkstatt; den Antrag stellte ihr Bruder."
+  },
+  {
+   "key": "case029.file.caseType",
+   "value": "IDENTITÄT"
+  },
+  {
+   "key": "case029.file.value.bureau",
+   "value": "BDS Tokio — Dienststelle Nihonbashi"
+  },
+  {
+   "key": "case029.file.value.location",
+   "value": "Chiba, Waldstraße"
+  },
+  {
+   "key": "case029.file.value.number",
+   "value": "BDS-TYO-2030-0034"
+  },
+  {
+   "key": "case029.file.value.offence",
+   "value": "Verdächtiger Todesfall; vermisste Person"
+  },
+  {
+   "key": "case029.file.value.reporter",
+   "value": "Förster"
+  },
+  {
+   "key": "case029.garage.body",
+   "value": "Autowerkstatt von Kudō Daisuke:\n\n· Am Boden, an einer gereinigten Stelle, Blut; die DNA passt verwandtschaftlich zur Probe der Mutter von Hamada Jun.\n· Auf der Werkbank ein Vorschlaghammer mit rundem Kopf; der Kopf frisch gewaschen.\n· In der Schublade ein Kleinbusschlüssel mit weißem Anhänger: der verschwundene Kleinbus der Firma Fukuda.\n· Hinter der Werkstatt ein roter Metallkanister; am Griff Blut."
+  },
+  {
+   "key": "case029.garage.title",
+   "value": "DURCHSUCHUNG DER WERKSTATT"
+  },
+  {
+   "key": "case029.kazuki.body",
+   "value": "In Sendai gefunden."
+  },
+  {
+   "key": "case029.kazuki.deflect",
+   "value": "Darüber rede ich nicht."
+  },
+  {
+   "key": "case029.kazuki.title",
+   "value": "Ishida Kazuki — Befragung"
+  },
+  {
+   "key": "case029.kazuki.watch.answer",
+   "value": "Ich konnte die Zahlung nicht vollständig leisten, ich habe sie Hamada als Pfand gegeben. Dann fuhr er zu meiner Frau, um meine Sachen zu holen … Hamada ist verbrannt? In meinem Auto?"
+  },
+  {
+   "key": "case029.kazuki.watch.question",
+   "value": "Ihre Uhr?"
+  },
+  {
+   "key": "case029.kazuki.why.answer",
+   "value": "Daisuke kam jede Woche. Beim letzten Mal sagte er: ‚Ein toter Ehemann bringt mehr Geld.‘ Vor meiner Frau. In jener Nacht habe ich Frau Fukuda angerufen."
+  },
+  {
+   "key": "case029.kazuki.why.answer.demeanor",
+   "value": "Schaut auf seine eigenen Hände."
+  },
+  {
+   "key": "case029.kazuki.why.question",
+   "value": "Warum sind Sie verschwunden?"
+  },
+  {
+   "key": "case029.ledger.body",
+   "value": "Handbuch von Fukuda Emiko, die letzten zwei Monate:\n\n· 12. März · Ishida K. — von Chiba nach Sendai. Fahrer: Hamada. Vermerk: ‚Uhr als Pfand hinterlassen, Zahlung unvollständig.‘\n· 21. März · Sachen von Ishida K. — Chiba. Fahrer: Hamada. Keine Rückkehr.\n· 18. Februar · Mori K. — von Tokio nach Osaka. Zahlung: Firmenüberweisung, Kisaragi Shōji."
+  },
+  {
+   "key": "case029.ledger.title",
+   "value": "UMZUGSBUCH"
+  },
+  {
+   "key": "case029.matsui.body",
+   "value": "Zahnarzt der Familie."
+  },
+  {
+   "key": "case029.matsui.deflect",
+   "value": "Patientendaten sind vertraulich."
+  },
+  {
+   "key": "case029.matsui.records.answer",
+   "value": "Seit zwölf Jahren mein Patient. Vier Füllungen, eine Goldkrone, rechter unterer Backenzahn. Ich schicke die Röntgenbilder; selbst in einem verbrannten Kiefer bleibt eine Krone."
+  },
+  {
+   "key": "case029.matsui.records.question",
+   "value": "Haben Sie die Unterlagen von Ishida Kazuki?"
+  },
+  {
+   "key": "case029.matsui.title",
+   "value": "Matsui Kei — Befragung"
+  },
+  {
+   "key": "case029.method.crash",
+   "value": "Das Auto brannte nach einem Unfall"
+  },
+  {
+   "key": "case029.method.fire",
+   "value": "Er verbrannte im Auto"
+  },
+  {
+   "key": "case029.method.hammer",
+   "value": "Wurde mit einem Vorschlaghammer auf den Kopf geschlagen und dann im Auto verbrannt"
+  },
+  {
+   "key": "case029.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case029.naoko.body",
+   "value": "Die Ehefrau des Vermissten."
+  },
+  {
+   "key": "case029.naoko.debt.answer",
+   "value": "Kazuki hat sich von meinem Bruder Geld geliehen, um Teilhaber der Werkstatt zu werden, dann wurde er entlassen. Mein Bruder kam jede Woche. Auf Kazuki läuft eine Lebensversicherung, deren Begünstigte ich bin. Mein Bruder sagte: ‚Wenigstens dazu ist er gut‘, das war ein Scherz."
+  },
+  {
+   "key": "case029.naoko.debt.question",
+   "value": "Was waren das für Schulden?"
+  },
+  {
+   "key": "case029.naoko.deflect",
+   "value": "Die Angelegenheiten unserer Familie gehen Sie nichts an."
+  },
+  {
+   "key": "case029.naoko.title",
+   "value": "Ishida Naoko — Befragung"
+  },
+  {
+   "key": "case029.naoko.watch.answer",
+   "value": "Ich habe sie zu unserer Hochzeit gekauft. Hinten ist eine Gravur. Kazuki hat sie nie abgenommen."
+  },
+  {
+   "key": "case029.naoko.watch.answer.demeanor",
+   "value": "Faltet ein Taschentuch und faltet es wieder auf."
+  },
+  {
+   "key": "case029.naoko.watch.question",
+   "value": "Wie haben Sie die Uhr erkannt?"
+  },
+  {
+   "key": "case029.naoko.watch.variant0",
+   "value": "Die Zähne … passen nicht? Warum war die Uhr dann an seinem Arm? Kazuki muss die Uhr jemandem gegeben haben. Aber wem?"
+  },
+  {
+   "key": "case029.offer.subtitle",
+   "value": "VERDUNSTEN  /  IDENTITÄT"
+  },
+  {
+   "key": "case029.offer.summary",
+   "value": "In Chiba ein ausgebranntes Auto im Wald, darin eine Leiche. Das Auto gehört einem Versicherungsvertreter, der vor zehn Tagen verschwand; seine Frau hat ihn identifiziert."
+  },
+  {
+   "key": "case029.offer.title",
+   "value": "AKTE #029"
+  },
+  {
+   "key": "case029.person.daisuke.info",
+   "value": "44 Jahre, der ältere Bruder von Naoko; betreibt eine kleine Autowerkstatt."
+  },
+  {
+   "key": "case029.person.daisuke.name",
+   "value": "Kudō Daisuke"
+  },
+  {
+   "key": "case029.person.emiko.info",
+   "value": "57 Jahre, Inhaberin einer ‚Nachtumzugsfirma‘; bringt Menschen spurlos in eine andere Stadt."
+  },
+  {
+   "key": "case029.person.emiko.name",
+   "value": "Fukuda Emiko"
+  },
+  {
+   "key": "case029.person.kazuki.info",
+   "value": "42 Jahre, Versicherungsvertreter; vor zehn Tagen verschwunden."
+  },
+  {
+   "key": "case029.person.kazuki.name",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.person.matsui.info",
+   "value": "50 Jahre, Zahnarzt der Familie Ishida."
+  },
+  {
+   "key": "case029.person.matsui.name",
+   "value": "Matsui Kei"
+  },
+  {
+   "key": "case029.person.naoko.info",
+   "value": "39 Jahre, Ehefrau des vermissten Ishida Kazuki; arbeitet in einer Apotheke in Chiba."
+  },
+  {
+   "key": "case029.person.naoko.name",
+   "value": "Ishida Naoko"
+  },
+  {
+   "key": "case029.report.body",
+   "value": "Am Morgen des 22. März 2030 wurde an einer Waldstraße in Chiba eine ausgebrannte Limousine mit einer verbrannten Leiche auf dem Fahrersitz gefunden. Das Kennzeichen ist auf Ishida Kazuki (42) zugelassen; Ishida hatte am 12. März das Haus verlassen und war nicht zurückgekehrt, seine Frau hatte ihn als vermisst gemeldet.\n\nDer Ehefrau Ishida Naoko wurde eine verbrannte Uhr gezeigt, die neben der Leiche gefunden wurde; Naoko erkannte sie als die Uhr ihres Mannes.\n\nVermerk zur Vermisstenmeldung: ‚Die Familie erwähnte Schulden; möglicherweise Nachtumzug.‘"
+  },
+  {
+   "key": "case029.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case029.request.dental",
+   "value": "Zahnvergleich anfordern"
+  },
+  {
+   "key": "case029.request.garage",
+   "value": "Erlaubnis zur Durchsuchung der Werkstatt von Kudō Daisuke beantragen"
+  },
+  {
+   "key": "case029.request.ledger",
+   "value": "Umzugsbuch anfordern"
+  },
+  {
+   "key": "case029.station.body",
+   "value": "Tankstelle, 3 km von der Waldstraße entfernt. 21. März 23.00 – 22. März 03.00."
+  },
+  {
+   "key": "case029.station.title",
+   "value": "TANKSTELLENKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case029.summary.evidence",
+   "value": "Die Obduktion zeigte den Tod vor dem Brand, der Zahnvergleich, dass die Leiche nicht Kazuki ist. Das Buch der Umzüglerin lieferte den Fahrer und die Uhr, die Tankstellenkamera den Kanister, die Durchsuchung der Werkstatt das Blut und den Kleinbusschlüssel."
+  },
+  {
+   "key": "case029.summary.lesson",
+   "value": "Eine Leiche ist nicht der, in dessen Auto sie gefunden wird. Frag zuerst, wer sie ist; dann, wer wollte, dass man sie für einen anderen hält."
+  },
+  {
+   "key": "case029.summary.location",
+   "value": "Chiba — März 2030"
+  },
+  {
+   "key": "case029.summary.truth",
+   "value": "Ishida Kazuki ‚verdunstete‘ am 12. März mit einer Nachtumzugsfirma nach Sendai, um dem Schuldendruck seines Schwagers Kudō Daisuke zu entkommen; als die Zahlung unvollständig blieb, gab er seine Uhr dem Fahrer Hamada Jun als Pfand. Daisuke fing Hamada ab, als dieser am 21. März die Sachen holen kam, brachte ihn in seine Werkstatt, um den Aufenthaltsort von Kazuki aus ihm herauszupressen, erschlug ihn mit dem Vorschlaghammer, legte ihm die Uhr um, verbrannte ihn im Auto von Kazuki und stellte im Namen seiner Schwester den Versicherungsantrag."
+  },
+  {
+   "key": "case029.suspect.label",
+   "value": "Wer hat den verbrannten Mann getötet?"
+  },
+  {
+   "key": "case029.tablet.caseLine",
+   "value": "AKTE #029  /  BUBE TOKIO — NIHONBASHI"
+  },
+  {
+   "key": "case029.time.blow",
+   "value": "21. März nachts"
+  },
+  {
+   "key": "case029.time.boot",
+   "value": "01.15"
+  },
+  {
+   "key": "case029.time.fill",
+   "value": "01.12"
+  },
+  {
+   "key": "case029.time.found",
+   "value": "22. März morgens"
+  },
+  {
+   "key": "case029.time.leave",
+   "value": "01.17"
+  },
+  {
+   "key": "case029.time.pickup",
+   "value": "21. März"
+  },
+  {
+   "key": "case029.time.vanish",
+   "value": "12. März"
+  },
+  {
+   "key": "case029.title",
+   "value": "Akte #029 — Verdunsten"
+  },
+  {
+   "key": "case029.verdict.daisuke",
+   "value": "Kudō Daisuke"
+  },
+  {
+   "key": "case029.verdict.emiko",
+   "value": "Fukuda Emiko"
+  },
+  {
+   "key": "case029.verdict.kazuki",
+   "value": "Ishida Kazuki"
+  },
+  {
+   "key": "case029.verdict.naoko",
+   "value": "Ishida Naoko"
+  },
+  {
+   "key": "case029.item.dental.name",
+   "value": "Zahnabdrücke"
+  },
+  {
+   "key": "case029.item.dental.detail",
+   "value": "Das Kieferröntgen der Leiche neben dem registrierten Röntgenbild von Ishida Kazuki."
+  },
+  {
+   "key": "case029.item.can.name",
+   "value": "Benzinkanister"
+  },
+  {
+   "key": "case029.item.can.detail",
+   "value": "Hinter der Werkstatt; roter Metallkanister, Brandspuren am Deckel."
+  },
+  {
+   "key": "case029.item.keys.name",
+   "value": "Schlüssel des Umzugskleinbusses"
+  },
+  {
+   "key": "case029.item.keys.detail",
+   "value": "In der Werkzeugschublade der Werkstatt, ein einzelner Schlüssel mit weißem Plastikanhänger."
+  }
+ ]
+}
