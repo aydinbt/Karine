@@ -288,7 +288,7 @@ def room_rain():
   w = 2 * math.pi * freq / RATE
   for j in range(900):
    out[(start + j) % n] += level * math.exp(-j / k) * math.sin(w * j)
- return normalize(out, 0.09)
+ return normalize(out, 0.06)  # 8 Ekim 2026: genel ses 0.09 → 0.06
 
 def room_night():
  # Dosya #002: gece sokağı. Uzak trafik uğultusu, yavaş dalgalanma ve
