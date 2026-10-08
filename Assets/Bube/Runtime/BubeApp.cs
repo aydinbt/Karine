@@ -281,6 +281,8 @@ public sealed partial class BubeApp : MonoBehaviour {
  void SetRoomSound(string sceneName) {
   if(audioDirector==null)return;
   string caseAmbience=game!=null && !string.IsNullOrEmpty(game.Data.ambienceId)?game.Data.ambienceId:null;
+  // Yağmurlu masada gece odası yerine yağmur sesi çalar; gök gürültüsü çizimle birlikte gelir.
+  if(game!=null && DeskWeather=="rain" && (caseAmbience==null || caseAmbience=="room_night"))caseAmbience="room_rain";
   switch(sceneName) {
    case "MainMenuScene": audioDirector.PlayMusic("menu_theme"); audioDirector.PlayAmbience(null); audioDirector.Scatter(false); audioDirector.Room("menu"); break;
    // Görüşme odasında alçak bir gerilim katmanı çalar; yanıta göre değişmez.

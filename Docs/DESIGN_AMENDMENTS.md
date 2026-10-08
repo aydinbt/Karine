@@ -1159,3 +1159,10 @@ Yeni kariyerde "Oyuna başla"dan sonra ilk film Bora'nın 10 saniyelik göreve h
 ## 8 Ekim 2026 — Türkiye açılış videosu kaldırıldı
 
 Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış filmi oynar. Türkiye açılış videosu (`world01`) akıştan çıkarıldı. Film bitince doğrudan masaya dosya bırakılır. `world01_intro.mp4` ve 3 Ekim'den beri kullanılmayan masaya varış filmi `case001_arrival.mp4` depodan silindi; ölü oynatma kodu da kaldırıldı. Diğer ülkelerin açılış kartlarına (world02–10) dokunulmadı.
+
+## 8 Ekim 2026 — Masada yağmur ve şimşek varsayılan; Efekt Laboratuvarı kalktı
+
+- **Yağmur varsayılan:** masanın havası varsayılan olarak yağmurdur. Pencerede yağmur görünür, oda sesi `room_rain`dir. Vaka `"weather": "clear"` yazarsa açık gecede kalır.
+- **Şimşek:** 18–45 saniyede bir çift çakış olur. Pencere parlar, oda bir an soğuk maviyle aydınlanır, gök gürültüsü biraz sonra gelir. Işığa duyarlılık sınırı (`Fx.MayFlash`) ve efekt düzeyi geçerlidir.
+- Efekt Laboratuvarı ayarlardan ve koddan kaldırıldı.
+- Testler artık oyuncunun ayar kaydını değiştirmiyor. `run-tests.sh` PlayerPrefs alanını koşudan önce saklayıp sonra geri yazıyor. Önceden ses testi müziği kapatıyordu.

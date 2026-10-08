@@ -52,14 +52,21 @@ public static partial class KarineUI {
  static void Thunder(VisualElement back) {
   var flash=new VisualElement {name="OfficeLightning",pickingMode=PickingMode.Ignore};
   OfficePlace(flash,KarineTheme.Office.Window);flash.style.backgroundColor=new Color(.85f,.9f,1f,1);flash.style.opacity=0;back.Add(flash);
+  // Şimşek pencereyle kalmaz: odanın tamamı da bir an soğuk mavi aydınlanır.
+  var room=new VisualElement {name="OfficeLightningRoom",pickingMode=PickingMode.Ignore};
+  OfficePlace(room,new Rect(0,0,100,100));room.style.backgroundColor=new Color(.75f,.82f,1f,1);room.style.opacity=0;back.Add(room);
   var random=new System.Random();
   Action plan=null;
   plan=()=>flash.schedule.Execute(()=> {
    if(flash.panel==null)return;
    if(Fx.On) {
     if(Fx.MayFlash()) {
-     flash.style.opacity=S.FlashAlpha*Fx.Amount;
-     flash.schedule.Execute(()=>flash.style.opacity=0).StartingIn(90);
+     // Çift çakış: parlak, kısa sönüş, ikinci daha zayıf çakış.
+     Action<float> strike=k=>{flash.style.opacity=S.FlashAlpha*Fx.Amount*k;room.style.opacity=S.RoomFlashAlpha*Fx.Amount*k;};
+     strike(1f);
+     flash.schedule.Execute(()=>strike(0f)).StartingIn(80);
+     flash.schedule.Execute(()=>strike(.6f)).StartingIn(170);
+     flash.schedule.Execute(()=>strike(0f)).StartingIn(260);
     }
     float pan=(float)random.NextDouble()*1.4f-.7f;
     flash.schedule.Execute(()=>SoundAt?.Invoke("amb_thunder",pan,S.ThunderGain)).StartingIn(700+random.Next(900));

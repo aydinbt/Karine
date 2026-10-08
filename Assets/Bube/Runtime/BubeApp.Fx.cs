@@ -6,6 +6,9 @@ namespace Bube {
 // Efekt katmanının oyuna bağlandığı yer: film dokusu, masanın hâli, masa
 // eşyalarının sesleri ve konumları. Bu dosya `BubeApp`in bir parçasıdır.
 public sealed partial class BubeApp {
+ // 8 Ekim 2026: masada varsayılan hava yağmurdur (pencerede yağmur, ara ara gök
+ // gürültüsü). Vaka "weather": "clear" yazarsa açık gecede kalır.
+ string DeskWeather => game==null?null:string.IsNullOrEmpty(game.Data.weather)?"rain":game.Data.weather=="clear"?null:game.Data.weather;
  VisualElement filmLayer;
  // Bu oturumda kapısı kapandığı duyulmuş görüşmeler: kapı sesi bir kez çalar.
  readonly HashSet<string> heardDoors=new HashSet<string>();
@@ -43,7 +46,7 @@ public sealed partial class BubeApp {
  // Masa kurulduktan sonra: saat tonu, hava, buhar, far, lamba; eşya sesleri.
  // `arriving` masaya başka bir sahneden gelindiğini söyler: lamba o zaman yanar.
  void DeskFx(VisualElement stage,bool arriving) {
-  KarineUI.OfficeWeather(stage,game.Data.deskHour,game.Data.weather,arriving);
+  KarineUI.OfficeWeather(stage,game.Data.deskHour,DeskWeather,arriving);
   foreach(var entry in PropSounds) {
    var button=stage.Q<Button>(entry.button);if(button==null)continue;
    string sound=entry.sound;float pan=KarineUI.PanOf(PropBox(entry.prop));
