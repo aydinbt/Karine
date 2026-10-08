@@ -1,0 +1,596 @@
+{
+ "entries": [
+  {
+   "key": "case023.autopsy.body",
+   "value": "· Todesursache: Strangulation; am Hals die Spur eines 1,5 cm breiten, flachen, gewebten Bandes.\n· Todeszeitpunkt: 7. November 22.30–23.30.\n· In der Bandspur blaue, gewebte Polyesterfasern.\n· Keine Abwehrspuren; von hinten, im Sitzen.\n· Auf und um das Sofa Unordnung nach dem Tod; die Schubladen wurden Stunden nach dem Tod durchwühlt (Staub- und Blutspuren überlagern sich nicht)."
+  },
+  {
+   "key": "case023.autopsy.title",
+   "value": "VORLÄUFIGER OBDUKTIONSVERMERK"
+  },
+  {
+   "key": "case023.cctv.event.in",
+   "value": "Kamera: Ein großer Mann mit Kapuze öffnet die Tür, ohne zu klingeln; die Tür wurde von innen geöffnet. Um den Hals ein Ausweisband."
+  },
+  {
+   "key": "case023.cctv.event.none",
+   "value": "Kamera: Der Eingang ist leer; bis 03.00 betritt niemand das Haus."
+  },
+  {
+   "key": "case023.cctv.event.out",
+   "value": "Kamera: Derselbe Mann kommt heraus; nichts in der Hand, kein Ausweisband."
+  },
+  {
+   "key": "case023.cctv.overlay",
+   "value": "DOOR"
+  },
+  {
+   "key": "case023.cctv.period",
+   "value": "7.–8. November 2029"
+  },
+  {
+   "key": "case023.cctv.source",
+   "value": "Eingangskamera"
+  },
+  {
+   "key": "case023.cell.body",
+   "value": "Anfrage: bube Berlin, mit Zustimmung der Dienststellenleiterin.\n\n· 7. November 22.31–23.26 · Das Telefon von Matthias Kern in der Funkzelle Friedrichshain, Krossener Straße.\n· 23.48 · Wedding.\n\nKern hatte gesagt: „Ich war zu Hause in Wedding.“"
+  },
+  {
+   "key": "case023.cell.title",
+   "value": "FUNKZELLENPROTOKOLL — MATTHIAS KERN"
+  },
+  {
+   "key": "case023.cloud.body",
+   "value": "Der Laptop wurde Kevin Schulz abgenommen; lokale Dateien wurden nicht gelöscht, die eigentliche Spur liegt aber in der Cloud.\n\n· 7. November 22.51 · zuletzt hochgeladene Datei: „Arendt — interne Quelle.docx“\n· Inhalt: Von einem Luxemburger Konto der Arendt Handelsgesellschaft seit 2028 jeden Monat €3.000 an Matthias Kern; Notiz von Clara: „Die Akte von Holt ist bei der Annahme verschwunden, auch in Berlin verschwinden Akten. Morgen Ute.“\n· 22.53 · Abmeldeversuch am Rechner, fehlgeschlagen."
+  },
+  {
+   "key": "case023.cloud.title",
+   "value": "CLOUD-SYNCHRONISATIONSPROTOKOLL — CLARA WEISS"
+  },
+  {
+   "key": "case023.clue.burglar",
+   "value": "Kevin Schulz kommt durch die offene Balkontür; er findet die Frau tot."
+  },
+  {
+   "key": "case023.clue.in",
+   "value": "Ein Mann mit Kapuze und Ausweisband betritt das Gebäude."
+  },
+  {
+   "key": "case023.clue.note",
+   "value": "Kern notiert die nächsten Blocks der Einbruchsserie; der von Clara steht auf der Liste."
+  },
+  {
+   "key": "case023.clue.out",
+   "value": "Derselbe Mann kommt heraus; kein Ausweisband."
+  },
+  {
+   "key": "case023.clue.source.cloud",
+   "value": "Cloud-Synchronisation"
+  },
+  {
+   "key": "case023.clue.source.ilse",
+   "value": "Nachbarin von unten"
+  },
+  {
+   "key": "case023.clue.source.kevin",
+   "value": "Einbrecher"
+  },
+  {
+   "key": "case023.clue.source.series",
+   "value": "Akte zur Einbruchsserie"
+  },
+  {
+   "key": "case023.clue.upload",
+   "value": "Clara lädt die Datei ‚Arendt — interne Quelle‘ in die Cloud."
+  },
+  {
+   "key": "case023.clue.voice",
+   "value": "Von unten: ‚Gib mir die Akte … geh morgen nicht zu Ute.‘"
+  },
+  {
+   "key": "case023.custody.label",
+   "value": "Was geschah nachts in der Wohnung?"
+  },
+  {
+   "key": "case023.custody.one",
+   "value": "Ein einziger Vorfall — Mord während eines Einbruchs"
+  },
+  {
+   "key": "case023.custody.staged",
+   "value": "Den Einbruch gab es nie, er wurde inszeniert"
+  },
+  {
+   "key": "case023.custody.two",
+   "value": "Zwei getrennte Vorfälle — zuerst der Mord, Stunden später der Einbruch"
+  },
+  {
+   "key": "case023.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case023.door.body",
+   "value": "Haustür des Wohnhauses; die Balkonseite ist nicht im Bild. 7. November 22.00 – 8. November 03.00."
+  },
+  {
+   "key": "case023.door.title",
+   "value": "EINGANGSKAMERA DES HAUSES — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case023.epilogue.custody.one",
+   "value": "Einbruch und Tod galten als ein Vorfall; die eigentliche Uhrzeit fiel aus der Akte."
+  },
+  {
+   "key": "case023.epilogue.custody.staged",
+   "value": "Der echte Einbruch wurde bestritten; das Geständnis von Schulz und der verkaufte Laptop ließen sich nicht erklären."
+  },
+  {
+   "key": "case023.epilogue.custody.two",
+   "value": "Einbruch und Mord wurden getrennt erfasst; der Mord wurde aus der Akte von Schulz gestrichen."
+  },
+  {
+   "key": "case023.epilogue.custody.unknown",
+   "value": "Die Reihenfolge der Ereignisse blieb offen."
+  },
+  {
+   "key": "case023.epilogue.verdict.kevin",
+   "value": "Kevin Schulz wurde wegen Mordes verurteilt. Matthias Kern übernahm den Schreibtisch von Clara; die Arendt-Akte wurde unter seiner Hand geschlossen."
+  },
+  {
+   "key": "case023.epilogue.verdict.matthias",
+   "value": "Matthias Kern wurde wegen Mordes festgenommen; die Zahlungen von Arendt gingen an die Anklagebehörde. Kevin Schulz stand wegen elf Einbrüchen vor Gericht, nicht wegen Mordes."
+  },
+  {
+   "key": "case023.epilogue.verdict.nobody",
+   "value": "Die Akte wurde als ‚Tod während eines Einbruchs‘ geschlossen."
+  },
+  {
+   "key": "case023.epilogue.verdict.ute",
+   "value": "Ute Sommer wurde vom Dienst suspendiert; die interne Ermittlung bekam Matthias Kern."
+  },
+  {
+   "key": "case023.evidence.cell",
+   "value": "Funkzellenprotokoll von Kern"
+  },
+  {
+   "key": "case023.evidence.cloud",
+   "value": "Cloud-Synchronisationsprotokoll"
+  },
+  {
+   "key": "case023.evidence.fibre",
+   "value": "Faservergleich Ausweisband"
+  },
+  {
+   "key": "case023.evidence.series",
+   "value": "Akte zur Einbruchsserie"
+  },
+  {
+   "key": "case023.feedback.kevin",
+   "value": "Der Einbrecher kam Stunden nach dem Tod, um 02.00; bei keinem der elf Vorfälle der Serie hatte er jemanden angerührt."
+  },
+  {
+   "key": "case023.feedback.matthias",
+   "value": "Funkzellenprotokoll und Eingangskamera setzen ihn zur Todeszeit ins Haus; an seinem Band Haut von Clara; er nahm Geld von Arendt und wusste aus seiner eigenen Akte, dass der Einbrecher kommen würde."
+  },
+  {
+   "key": "case023.feedback.nobody",
+   "value": "Die Bandspur zeigt eine Strangulation; kein Unfall."
+  },
+  {
+   "key": "case023.feedback.ute",
+   "value": "Die Nachricht an die Leiterin lautete, am nächsten Morgen zu reden; nicht sie war in jener Nacht im Haus."
+  },
+  {
+   "key": "case023.fibre.body",
+   "value": "Die blauen, gewebten Polyesterfasern am Hals haben dasselbe Gewebe wie die Ausweisbänder des Personals von bube Berlin. Das Band, für das Matthias Kern am 8. November mit den Worten „verloren“ ein neues holte, wurde im Müllcontainer seines Hauses in Wedding gefunden: Gewebe gerissen, darauf Hautzellen von Clara Weiß."
+  },
+  {
+   "key": "case023.fibre.title",
+   "value": "FASERVERGLEICH — AUSWEISBAND"
+  },
+  {
+   "key": "case023.file.caseType",
+   "value": "MORD"
+  },
+  {
+   "key": "case023.file.value.bureau",
+   "value": "BDS Berlin — Dienststelle Kreuzberg"
+  },
+  {
+   "key": "case023.file.value.location",
+   "value": "Friedrichshain, Wohnung — 3. Stock"
+  },
+  {
+   "key": "case023.file.value.number",
+   "value": "BDS-BER-2029-0094"
+  },
+  {
+   "key": "case023.file.value.offence",
+   "value": "Mord; Einbruch"
+  },
+  {
+   "key": "case023.file.value.reporter",
+   "value": "Ute Sommer, Dienststellenleiterin"
+  },
+  {
+   "key": "case023.ilse.balcony.answer",
+   "value": "Um zwei Uhr nachts ein Klappern auf dem Balkon. Ein Einbrecher, dachte ich, in dieser Gegend jede Woche. Aufgestanden bin ich trotzdem nicht."
+  },
+  {
+   "key": "case023.ilse.balcony.question",
+   "value": "Sonst noch etwas?"
+  },
+  {
+   "key": "case023.ilse.body",
+   "value": "Nachbarin von unten."
+  },
+  {
+   "key": "case023.ilse.deflect",
+   "value": "Ich bin eine alte Frau, ich schlafe."
+  },
+  {
+   "key": "case023.ilse.title",
+   "value": "Ilse Brück — Befragung"
+  },
+  {
+   "key": "case023.ilse.voices.answer",
+   "value": "Um Viertel nach zehn oben eine Männerstimme. Er schrie nicht, er redete wie über Geschäftliches. ‚Gib mir die Akte‘, sagte er, und ‚geh morgen nicht zu Ute‘. Dann Stille. Ich habe den Fernseher angemacht."
+  },
+  {
+   "key": "case023.ilse.voices.answer.demeanor",
+   "value": "Sicher."
+  },
+  {
+   "key": "case023.ilse.voices.question",
+   "value": "Haben Sie in jener Nacht etwas gehört?"
+  },
+  {
+   "key": "case023.kevin.body",
+   "value": "Der Täter der Einbruchsserie."
+  },
+  {
+   "key": "case023.kevin.dead.answer",
+   "value": "Beim Rausgehen habe ich ihr mit der Lampe ins Gesicht geleuchtet. Die Augen waren offen. Ich bin gerannt. Ich bin Einbrecher, kein Mörder. In keiner Wohnung habe ich jemanden angerührt, schauen Sie in Ihre Akte."
+  },
+  {
+   "key": "case023.kevin.dead.question",
+   "value": "Haben Sie nicht bemerkt, dass sie tot war?"
+  },
+  {
+   "key": "case023.kevin.deflect",
+   "value": "Ohne meinen Anwalt rede ich nicht über Mord."
+  },
+  {
+   "key": "case023.kevin.night.answer",
+   "value": "Gegen zwei Uhr nachts. Die Balkontür war offen, offen gelassen, ich musste sie nicht einmal aufbrechen. Die Frau lag auf dem Sofa, ich dachte, sie schläft. Ich habe die Schubladen durchwühlt und den Laptop mitgenommen."
+  },
+  {
+   "key": "case023.kevin.night.answer.demeanor",
+   "value": "Spricht schnell."
+  },
+  {
+   "key": "case023.kevin.night.question",
+   "value": "Wann sind Sie in die Wohnung von Clara Weiß eingestiegen?"
+  },
+  {
+   "key": "case023.kevin.quote",
+   "value": "„Die Balkontür war offen, ich musste sie nicht einmal aufbrechen.“"
+  },
+  {
+   "key": "case023.kevin.title",
+   "value": "Kevin Schulz — Befragung"
+  },
+  {
+   "key": "case023.matthias.body",
+   "value": "Teamkollege."
+  },
+  {
+   "key": "case023.matthias.deflect",
+   "value": "Clara war meine Freundin. Dass Sie mich das fragen …"
+  },
+  {
+   "key": "case023.matthias.night.answer",
+   "value": "In Wedding, zu Hause. Ich bin früh schlafen gegangen. Mit Clara habe ich zuletzt am Nachmittag in der Dienststelle gesprochen."
+  },
+  {
+   "key": "case023.matthias.night.answer.demeanor",
+   "value": "Ruhig, zu ruhig."
+  },
+  {
+   "key": "case023.matthias.night.question",
+   "value": "Wo waren Sie am Abend des 7. November?"
+  },
+  {
+   "key": "case023.matthias.series.answer",
+   "value": "Ja. Schulz. Steigt über Balkone ein, rührt niemanden an … normalerweise. Diesmal muss die Frau aufgewacht sein."
+  },
+  {
+   "key": "case023.matthias.series.question",
+   "value": "Die Einbruchsserie ist Ihre Akte."
+  },
+  {
+   "key": "case023.matthias.title",
+   "value": "Matthias Kern — Befragung"
+  },
+  {
+   "key": "case023.matthias_2.body",
+   "value": "Zu Funkzellen- und Cloud-Protokoll."
+  },
+  {
+   "key": "case023.matthias_2.door.answer",
+   "value": "… Ich weiß es nicht."
+  },
+  {
+   "key": "case023.matthias_2.door.question",
+   "value": "Wer hat die Balkontür offen gelassen?"
+  },
+  {
+   "key": "case023.matthias_2.money.answer",
+   "value": "Beratung. Ein alter Auftrag."
+  },
+  {
+   "key": "case023.matthias_2.money.question",
+   "value": "Arendt überweist Ihnen jeden Monat dreitausend Euro."
+  },
+  {
+   "key": "case023.matthias_2.title",
+   "value": "Matthias Kern — zweite Befragung"
+  },
+  {
+   "key": "case023.matthias_2.where.answer",
+   "value": "Ich bin vorbeigegangen. Um über die Akte zu reden. Als ich ging, lebte sie."
+  },
+  {
+   "key": "case023.matthias_2.where.answer.demeanor",
+   "value": "Blinzelte nicht."
+  },
+  {
+   "key": "case023.matthias_2.where.question",
+   "value": "Ihr Telefon war zwischen 22.31 und 23.26 in der Straße von Clara Weiß."
+  },
+  {
+   "key": "case023.matthias_3.body",
+   "value": "Zum Ausweisband."
+  },
+  {
+   "key": "case023.matthias_3.title",
+   "value": "Matthias Kern — dritte Befragung"
+  },
+  {
+   "key": "case023.matthias_3.truth.answer",
+   "value": "Sie gab mir eine Nacht. ‚Geh selbst zu Ute, sonst gehe ich.‘ Wäre ich gegangen, wären meine zehn Jahre vorbei gewesen. Ich stand hinter ihr, das Band um meinen Hals … Dann habe ich die Balkontür geöffnet. Den nächsten Block der Serie hatte ich selbst notiert; ich wusste, dass Schulz kommen würde. Er würde kommen, alles durchwühlen, Sie würden ihn finden. Das haben Sie ja auch."
+  },
+  {
+   "key": "case023.matthias_3.truth.answer.demeanor",
+   "value": "Legte die Hände flach auf den Tisch."
+  },
+  {
+   "key": "case023.matthias_3.truth.question",
+   "value": "An Ihrem Band ist Haut von Clara Weiß."
+  },
+  {
+   "key": "case023.method.burglar",
+   "value": "Wurde beim Aufwachen vom Einbrecher mit den Händen erwürgt"
+  },
+  {
+   "key": "case023.method.fall",
+   "value": "Stürzte und schlug mit dem Kopf auf"
+  },
+  {
+   "key": "case023.method.label",
+   "value": "Wie ist sie gestorben?"
+  },
+  {
+   "key": "case023.method.lanyard",
+   "value": "Wurde von hinten, im Sitzen, mit einem Ausweisband stranguliert"
+  },
+  {
+   "key": "case023.method.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case023.offer.subtitle",
+   "value": "DER EINBRECHER  /  MORD"
+  },
+  {
+   "key": "case023.offer.summary",
+   "value": "Eine Analystin von bube Berlin wird tot in ihrer durchwühlten Wohnung gefunden. Der Balkoneinbrecher des Viertels wird am selben Tag gefasst, als er ihren Laptop verkauft. Die Akte scheint geschlossen."
+  },
+  {
+   "key": "case023.offer.title",
+   "value": "AKTE #023"
+  },
+  {
+   "key": "case023.person.ilse.info",
+   "value": "73 Jahre, Nachbarin von Clara Weiß aus der Wohnung darunter."
+  },
+  {
+   "key": "case023.person.ilse.name",
+   "value": "Ilse Brück"
+  },
+  {
+   "key": "case023.person.kevin.info",
+   "value": "29 Jahre, gesuchter Täter der Balkoneinbrüche in Friedrichshain; beim Verkauf des Laptops gefasst."
+  },
+  {
+   "key": "case023.person.kevin.name",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.person.matthias.info",
+   "value": "38 Jahre, Analyst bei bube Berlin; Teamkollege von Clara Weiß, zuständig für die Akte zur Einbruchsserie."
+  },
+  {
+   "key": "case023.person.matthias.name",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.person.ute.info",
+   "value": "54 Jahre, Leiterin von bube Berlin — Dienststelle Kreuzberg."
+  },
+  {
+   "key": "case023.person.ute.name",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.report.body",
+   "value": "Am 8. November 2029 um 08.40 wurde in Friedrichshain die Analystin von bube Berlin Clara Weiß (34) in ihrer Wohnung im dritten Stock tot auf dem Sofa gefunden. Als sie nicht zur Arbeit kam, rief die Dienststellenleiterin Ute Sommer an; als niemand öffnete, schloss der Hausmeister die Tür auf.\n\nDie Wohnung durchwühlt, die Balkontür offen, der Laptop fehlt. Streifennotiz: „Genau wie die Serie von Balkoneinbrüchen, die seit zwei Monaten im Viertel läuft. Der Einbrecher hat Clara im Schlaf überrascht und erwürgt, als sie aufwachte.“\n\nAm Nachmittag des 8. November: Kevin Schulz wurde gefasst, als er den Laptop von Clara Weiß in einem Second-Hand-Laden verkaufte."
+  },
+  {
+   "key": "case023.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case023.request.cell",
+   "value": "Funkzellenprotokoll von Kern anfordern"
+  },
+  {
+   "key": "case023.request.cloud",
+   "value": "Cloud-Synchronisationsprotokoll von Clara Weiß anfordern"
+  },
+  {
+   "key": "case023.request.fibre",
+   "value": "Altes Ausweisband von Kern anfordern"
+  },
+  {
+   "key": "case023.request.series",
+   "value": "Akte zur Einbruchsserie anfordern"
+  },
+  {
+   "key": "case023.series.body",
+   "value": "Zuständig: Matthias Kern, bube Berlin.\n\n· September–November 2029: 11 Einstiege über Balkone, alle zwischen 01.00 und 03.30.\n· Der Täter hatte bei keinem Vorfall Kontakt zu jemandem; war die Wohnung belegt, zog er sich zurück, Schlafende rührte er nicht an.\n· Notiz von Kern, 30. Oktober: „Wahrscheinliche nächste Blocks: Umgebung Krossener Straße; Stock 2–4, Wohnungen mit Balkon zur Straße.“\n\nDie Wohnung von Clara Weiß liegt in einem Block dieser Liste, im dritten Stock."
+  },
+  {
+   "key": "case023.series.title",
+   "value": "AKTE ZUR EINBRUCHSSERIE — FRIEDRICHSHAIN"
+  },
+  {
+   "key": "case023.summary.evidence",
+   "value": "Die Obduktion zeigte die Todeszeit und dass die Schubladen Stunden später durchwühlt wurden; die Eingangskamera zeigte zur Todeszeit einen Mann mit Band im Haus, um zwei Uhr nachts aber einen leeren Eingang. Das von der Nachbarin gehörte ‚geh morgen nicht zu Ute‘, die Datei zur internen Quelle im Cloud-Protokoll, das Funkzellenprotokoll und die Hautzellen am Band schlossen die Kette."
+  },
+  {
+   "key": "case023.summary.lesson",
+   "value": "Ein echtes Verbrechen ist das beste Versteck für ein anderes. Bevor du einen Vorfall für einen einzigen hältst, trenne die Uhrzeiten."
+  },
+  {
+   "key": "case023.summary.location",
+   "value": "Friedrichshain, Berlin — November 2029"
+  },
+  {
+   "key": "case023.summary.truth",
+   "value": "Der Analyst von bube Berlin Matthias Kern erhielt seit 2028 monatlich Geld von der Arendt Handelsgesellschaft. Seine Teamkollegin Clara Weiß fand es heraus und wollte zur Dienststellenleiterin gehen. In der Nacht des 7. November ging Kern zu Clara nach Hause, strangulierte sie mit dem Ausweisband und ließ die Balkontür offen; aus der Einbruchsserie, die er selbst bearbeitete, wusste er, dass Kevin Schulz in den nächsten Block kommen würde. Schulz kam um zwei Uhr nachts, fand die Tote, nahm den Laptop und floh."
+  },
+  {
+   "key": "case023.suspect.label",
+   "value": "Wer ist für den Tod von Clara Weiß verantwortlich?"
+  },
+  {
+   "key": "case023.tablet.caseLine",
+   "value": "AKTE #023  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case023.time.burglar",
+   "value": "8. November 02.00"
+  },
+  {
+   "key": "case023.time.in",
+   "value": "22.38"
+  },
+  {
+   "key": "case023.time.none",
+   "value": "02.00"
+  },
+  {
+   "key": "case023.time.note",
+   "value": "30. Oktober"
+  },
+  {
+   "key": "case023.time.out",
+   "value": "23.21"
+  },
+  {
+   "key": "case023.time.upload",
+   "value": "22.51"
+  },
+  {
+   "key": "case023.time.voice",
+   "value": "7. November 22.45"
+  },
+  {
+   "key": "case023.title",
+   "value": "Akte #023 — Der Einbrecher"
+  },
+  {
+   "key": "case023.ute.body",
+   "value": "Dienststellenleiterin."
+  },
+  {
+   "key": "case023.ute.deflect",
+   "value": "Das ist Sache dieser Dienststelle, das geht nicht nach draußen."
+  },
+  {
+   "key": "case023.ute.team.answer",
+   "value": "Matthias Kern. In der Arendt-Akte arbeitete sie mit ihm; außerdem liegt die Serie der Balkoneinbrüche bei Matthias."
+  },
+  {
+   "key": "case023.ute.team.question",
+   "value": "Wer war in ihrem Team?"
+  },
+  {
+   "key": "case023.ute.title",
+   "value": "Ute Sommer — Befragung"
+  },
+  {
+   "key": "case023.ute.work.answer",
+   "value": "Die Geldspur aus der Londoner Akte: Arendt Handelsgesellschaft. Das Geld, das auf das Konto von Holt ging. Clara schrieb mir am 7. November: ‚Wir müssen morgen früh reden, jemand aus der Dienststelle.‘ Am Morgen kam sie nicht."
+  },
+  {
+   "key": "case023.ute.work.answer.demeanor",
+   "value": "Die Stimme hart, die Augen nicht."
+  },
+  {
+   "key": "case023.ute.work.question",
+   "value": "Woran arbeitete Clara Weiß?"
+  },
+  {
+   "key": "case023.verdict.kevin",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.verdict.matthias",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.verdict.nobody",
+   "value": "Niemand — ein Unfall während eines Einbruchs"
+  },
+  {
+   "key": "case023.verdict.ute",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.item.lanyard.name",
+   "value": "Ausweisband"
+  },
+  {
+   "key": "case023.item.lanyard.detail",
+   "value": "Blaues Ausweisband, in der Mitte gerissen."
+  },
+  {
+   "key": "case023.item.laptop.name",
+   "value": "Laptop"
+  },
+  {
+   "key": "case023.item.laptop.detail",
+   "value": "Laptop mit dem Etikett eines Second-Hand-Ladens."
+  },
+  {
+   "key": "case023.item.drawers.name",
+   "value": "Durchwühlte Wohnung"
+  },
+  {
+   "key": "case023.item.drawers.detail",
+   "value": "Wohnung mit herausgezogenen Schubladen und angelehnter Balkontür."
+  }
+ ]
+}
