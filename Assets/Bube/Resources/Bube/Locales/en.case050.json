@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case050.amedeo.body",
+   "value": "Flyman."
+  },
+  {
+   "key": "case050.amedeo.deflect",
+   "value": "Thirty-five years, and I’ve never dropped a single line."
+  },
+  {
+   "key": "case050.amedeo.title",
+   "value": "Amedeo Pace — interview"
+  },
+  {
+   "key": "case050.amedeo.where.answer",
+   "value": "At the back door. Nicola said on the headset, ‘Amedeo, back door, a lorry’s arrived, now.’ I went; there was no lorry. When I came back Aurelio was on the floor. Line 14 isn’t used in the second act; I put its pin in with my own hand, every evening."
+  },
+  {
+   "key": "case050.amedeo.where.answer.demeanor",
+   "value": "He takes his gloves from his belt and tucks them back."
+  },
+  {
+   "key": "case050.amedeo.where.question",
+   "value": "Where were you when the bag fell?"
+  },
+  {
+   "key": "case050.chiara.body",
+   "value": "Costume designer."
+  },
+  {
+   "key": "case050.chiara.crate.answer",
+   "value": "The set crates back from the Tokyo tour. While I was unpacking the costumes Aurelio knocked on the bottom of one crate; it sounded hollow. ‘Chiara, this has two bottoms,’ he said. Nicola came over and said, ‘Don’t touch them, they have a customs seal.’ The next day that crate was gone."
+  },
+  {
+   "key": "case050.chiara.crate.answer.demeanor",
+   "value": "She tugs at the tape measure round her neck."
+  },
+  {
+   "key": "case050.chiara.crate.question",
+   "value": "What was Aurelio busy with these last few days?"
+  },
+  {
+   "key": "case050.chiara.deflect",
+   "value": "I deal with fabric."
+  },
+  {
+   "key": "case050.chiara.title",
+   "value": "Chiara Fontana — interview"
+  },
+  {
+   "key": "case050.clue.back",
+   "value": "The flyman comes back; the baritone is on the floor."
+  },
+  {
+   "key": "case050.clue.door",
+   "value": "The flyman is at the back door; no lorry."
+  },
+  {
+   "key": "case050.clue.drop",
+   "value": "The sandbag on line 14 comes down onto the stage."
+  },
+  {
+   "key": "case050.clue.send",
+   "value": "The stage manager sends the flyman to the back door ‘for a lorry’."
+  },
+  {
+   "key": "case050.clue.source.amedeo",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.clue.source.cues",
+   "value": "Headset log"
+  },
+  {
+   "key": "case050.clue.source.pasquale",
+   "value": "Pasquale Vitale"
+  },
+  {
+   "key": "case050.clue.source.rigging",
+   "value": "Rigging examination"
+  },
+  {
+   "key": "case050.cues.body",
+   "value": "· The stage manager’s cue book, second act: between ‘LX 47 — go’ and ‘LX 48’, a line has been rubbed out with an eraser; beneath it, a pencil trace: ‘14’.\n· Headset system log: 20.41 Nicola Costa: ‘Amedeo, back door, a lorry’s arrived, now.’ 20.42: channel silent. 20.43: the sound of the fall.\n· No lorry is recorded in the doorkeeper’s book that evening."
+  },
+  {
+   "key": "case050.cues.title",
+   "value": "CUE BOOK AND HEADSET LOG"
+  },
+  {
+   "key": "case050.custody.drawer",
+   "value": "Into the drawer of the stage manager’s desk"
+  },
+  {
+   "key": "case050.custody.floor",
+   "value": "It fell onto the stage"
+  },
+  {
+   "key": "case050.custody.label",
+   "value": "Where did line 14’s safety pin go?"
+  },
+  {
+   "key": "case050.custody.never",
+   "value": "It was never put in"
+  },
+  {
+   "key": "case050.desk.body",
+   "value": "Nicola Costa’s stage manager’s desk and locker (with the branch chief’s approval):\n\n· In the desk drawer, under the pencils, line 14’s safety pin; luminous tape on its ring and fibres from a thin leather glove.\n· In the locker, thin black leather gloves; hemp fibres from the rope on their palms.\n· In an envelope, Caruso Marittima’s crate list for the Tokyo tour; next to three crates, ‘doppio’ in Nicola Costa’s handwriting."
+  },
+  {
+   "key": "case050.desk.title",
+   "value": "STAGE MANAGER’S DESK — SEARCH"
+  },
+  {
+   "key": "case050.epilogue.custody.drawer",
+   "value": "It was recorded that the safety pin was found in the drawer of Nicola Costa’s desk."
+  },
+  {
+   "key": "case050.epilogue.custody.floor",
+   "value": "The pin wasn’t on the stage."
+  },
+  {
+   "key": "case050.epilogue.custody.never",
+   "value": "The flyman said he put the pin in every evening, and the pin was found in the drawer."
+  },
+  {
+   "key": "case050.epilogue.verdict.accident",
+   "value": "The death was deemed an accident; the flyman retired."
+  },
+  {
+   "key": "case050.epilogue.verdict.amedeo",
+   "value": "Amedeo Pace was arrested and, after thirty-five years, dismissed from the theatre; the drawer was never opened."
+  },
+  {
+   "key": "case050.epilogue.verdict.nicola",
+   "value": "Nicola Costa was arrested. Caruso Marittima’s double-bottomed tour crates were reported to the Tokyo branch."
+  },
+  {
+   "key": "case050.epilogue.verdict.sofia",
+   "value": "Sofia Marchetti was arrested; the tour crates went back to the port."
+  },
+  {
+   "key": "case050.evidence.cues",
+   "value": "Cue book and headset log"
+  },
+  {
+   "key": "case050.evidence.desk",
+   "value": "Stage manager’s desk search"
+  },
+  {
+   "key": "case050.evidence.rigging",
+   "value": "Rigging system examination"
+  },
+  {
+   "key": "case050.feedback.accident",
+   "value": "The pin wasn’t forgotten; it was found in the drawer of the stage manager’s desk."
+  },
+  {
+   "key": "case050.feedback.amedeo",
+   "value": "At the moment of the fall the flyman was at the back door; the doorkeeper saw him there."
+  },
+  {
+   "key": "case050.feedback.nicola",
+   "value": "Line 14’s pin came out of his desk drawer; under the rubbed-out line in the cue book is written ‘14’. Two minutes before the incident he sent the flyman away for a lorry that didn’t exist."
+  },
+  {
+   "key": "case050.feedback.sofia",
+   "value": "At the moment of the fall the soprano was on stage, facing the victim."
+  },
+  {
+   "key": "case050.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case050.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Branch"
+  },
+  {
+   "key": "case050.file.value.location",
+   "value": "Teatro Partenope, Napoli"
+  },
+  {
+   "key": "case050.file.value.number",
+   "value": "BDN-NAP-2030-0331"
+  },
+  {
+   "key": "case050.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case050.file.value.reporter",
+   "value": "Theatre management"
+  },
+  {
+   "key": "case050.kenji.body",
+   "value": "Guest conductor."
+  },
+  {
+   "key": "case050.kenji.deflect",
+   "value": "I was in the orchestra pit, listening only to the music."
+  },
+  {
+   "key": "case050.kenji.gone",
+   "value": "Kenji Arai flew back to Tokyo on the morning flight; his agency says ‘the maestro won’t be giving interviews for a while’."
+  },
+  {
+   "key": "case050.kenji.pit.answer",
+   "value": "I can see the stage-right wing; that’s where the flyman stands. At the start of the second act the flyman wasn’t there; the stage manager had sent him backstage a minute earlier, over the headset, I heard it: ‘Amedeo, back door, now.’ Then the bag fell. I fly to Tokyo tomorrow morning."
+  },
+  {
+   "key": "case050.kenji.pit.answer.demeanor",
+   "value": "He pushes his glasses up his nose."
+  },
+  {
+   "key": "case050.kenji.pit.question",
+   "value": "What did you see from the pit?"
+  },
+  {
+   "key": "case050.kenji.title",
+   "value": "Kenji Arai — interview"
+  },
+  {
+   "key": "case050.method.forgot",
+   "value": "The flyman forgot the pin"
+  },
+  {
+   "key": "case050.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case050.method.sandbag",
+   "value": "The safety pin was pulled and the sandbag dropped on him"
+  },
+  {
+   "key": "case050.method.snap",
+   "value": "The rope snapped on its own"
+  },
+  {
+   "key": "case050.nicola.body",
+   "value": "Stage manager."
+  },
+  {
+   "key": "case050.nicola.deflect",
+   "value": "Whatever happens on stage, the curtain goes up on time."
+  },
+  {
+   "key": "case050.nicola.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case050.nicola.end.presented.cues",
+   "value": "A rubbed-out line? A hundred lines get rubbed out in my book every day."
+  },
+  {
+   "key": "case050.nicola.end.presented.desk",
+   "value": "Aurelio was going to open the crate. Don’t ask what was in the crates; I only said which crate went on which lorry, and the Carusos’ man said thank you. I sent Amedeo away, put my glove on, pulled the pin, released the lock. I put the pin in my desk drawer. I write everything down so the curtain goes up on time; I wrote that down too, then rubbed it out."
+  },
+  {
+   "key": "case050.nicola.end.question",
+   "value": "You pulled 14’s pin."
+  },
+  {
+   "key": "case050.nicola.night.answer",
+   "value": "At the stage manager’s desk, where I always am. Amedeo forgot to put 14’s pin in; he’s getting old, I warned him how many times."
+  },
+  {
+   "key": "case050.nicola.night.answer.demeanor",
+   "value": "He adjusts the headset round his neck."
+  },
+  {
+   "key": "case050.nicola.night.question",
+   "value": "Where were you when the bag fell?"
+  },
+  {
+   "key": "case050.nicola.night.variant0",
+   "value": "I sent Amedeo to the back door for a lorry; I must have been given the wrong message. I never left my desk."
+  },
+  {
+   "key": "case050.nicola.title",
+   "value": "Nicola Costa — interview"
+  },
+  {
+   "key": "case050.offer.subtitle",
+   "value": "SIPARIO  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case050.offer.summary",
+   "value": "At the Teatro Partenope, a sandbag fell on a baritone during the dress rehearsal. The flyman says the line wasn’t in his hands."
+  },
+  {
+   "key": "case050.offer.title",
+   "value": "FILE #050"
+  },
+  {
+   "key": "case050.pasquale.body",
+   "value": "Doorkeeper."
+  },
+  {
+   "key": "case050.pasquale.deflect",
+   "value": "Whoever comes through the door goes in my book."
+  },
+  {
+   "key": "case050.pasquale.title",
+   "value": "Pasquale Vitale — interview"
+  },
+  {
+   "key": "case050.pasquale.truck.answer",
+   "value": "No, no lorries come in the evening; there’s none in my book. Amedeo came running and said, ‘Where’s the lorry?’ I said, ‘What lorry?’ He didn’t stop even a minute; he ran back."
+  },
+  {
+   "key": "case050.pasquale.truck.answer.demeanor",
+   "value": "He straightens the edge of his book with a finger."
+  },
+  {
+   "key": "case050.pasquale.truck.question",
+   "value": "Did a lorry come to the back door during the rehearsal?"
+  },
+  {
+   "key": "case050.person.amedeo.info",
+   "value": "61, stagehand in charge of the ropes and rigging."
+  },
+  {
+   "key": "case050.person.amedeo.name",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.person.chiara.info",
+   "value": "42, costume designer."
+  },
+  {
+   "key": "case050.person.chiara.name",
+   "value": "Chiara Fontana"
+  },
+  {
+   "key": "case050.person.kenji.info",
+   "value": "45, a visiting Japanese conductor."
+  },
+  {
+   "key": "case050.person.kenji.name",
+   "value": "Kenji Arai"
+  },
+  {
+   "key": "case050.person.nicola.info",
+   "value": "49, stage manager of the Teatro Partenope."
+  },
+  {
+   "key": "case050.person.nicola.name",
+   "value": "Nicola Costa"
+  },
+  {
+   "key": "case050.person.pasquale.info",
+   "value": "70, doorkeeper at the stage door."
+  },
+  {
+   "key": "case050.person.pasquale.name",
+   "value": "Pasquale Vitale"
+  },
+  {
+   "key": "case050.person.sofia.info",
+   "value": "35, soprano; the victim’s former lover."
+  },
+  {
+   "key": "case050.person.sofia.name",
+   "value": "Sofia Marchetti"
+  },
+  {
+   "key": "case050.report.body",
+   "value": "On the evening of 9 October 2030, during the dress rehearsal of ‘Tosca’ at the Teatro Partenope, the baritone Aurelio Mancini (54) was killed when a twenty-five-kilo sandbag fell on him from the fly system.\n\nOn stage and in the wings during the rehearsal: stage manager Nicola Costa, flyman Amedeo Pace, soprano Sofia Marchetti, costume designer Chiara Fontana. The guest conductor Kenji Arai was leading the orchestra. The doorkeeper Pasquale Vitale was at the stage door."
+  },
+  {
+   "key": "case050.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case050.request.cues",
+   "value": "Request the cue book and headset log"
+  },
+  {
+   "key": "case050.request.desk",
+   "value": "Request permission to search the stage manager’s desk"
+  },
+  {
+   "key": "case050.request.rigging",
+   "value": "Request an examination of the rigging system"
+  },
+  {
+   "key": "case050.rigging.body",
+   "value": "· The lock on rope line 14 is open; its safety pin is missing.\n· Without the pin, the lock can be released over the rope with a single blow of the hand; the sandbag reaches the stage in about two seconds.\n· Line 14 is never used in the second act; in that act only the baritone stands at centre stage.\n· On the rope, the marks of a thin glove, not the flyman’s."
+  },
+  {
+   "key": "case050.rigging.title",
+   "value": "RIGGING SYSTEM EXAMINATION"
+  },
+  {
+   "key": "case050.sofia.body",
+   "value": "Soprano."
+  },
+  {
+   "key": "case050.sofia.deflect",
+   "value": "I protect my voice; the rest doesn’t concern me."
+  },
+  {
+   "key": "case050.sofia.fight.answer",
+   "value": "It ended a year ago. Everyone knows about our fights, because I don’t hide my fights even on stage. But at that moment I was on stage, facing him. If the bag had fallen, it could have fallen on me too. Whoever it was could have killed me as well."
+  },
+  {
+   "key": "case050.sofia.fight.answer.demeanor",
+   "value": "She gathers her cloak on her shoulder."
+  },
+  {
+   "key": "case050.sofia.fight.question",
+   "value": "What was there between you and Aurelio?"
+  },
+  {
+   "key": "case050.sofia.title",
+   "value": "Sofia Marchetti — interview"
+  },
+  {
+   "key": "case050.summary.evidence",
+   "value": "The conductor heard the order on the headset, but if he wasn’t spoken to before the rigging examination, he went back to Tokyo. The doorkeeper said there was no lorry; the costume designer described the double-bottomed crate. The cue book’s rubbed-out line and the headset log opened a justified search; the pin was in the drawer."
+  },
+  {
+   "key": "case050.summary.lesson",
+   "value": "The curtain went up on time. Everything was written down; only one line had been rubbed out."
+  },
+  {
+   "key": "case050.summary.location",
+   "value": "Teatro Partenope — October 2030"
+  },
+  {
+   "key": "case050.summary.truth",
+   "value": "Stage manager Nicola Costa knew which of the Caruso Marittima crates carrying the theatre’s touring sets had double bottoms. When the baritone Aurelio Mancini decided to open a crate, Costa sent the flyman to the back door at the dress rehearsal with a false report of a lorry, put on his glove, pulled line 14’s pin and released the lock."
+  },
+  {
+   "key": "case050.suspect.label",
+   "value": "Who killed Aurelio Mancini?"
+  },
+  {
+   "key": "case050.tablet.caseLine",
+   "value": "FILE #050  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case050.time.back",
+   "value": "20.44"
+  },
+  {
+   "key": "case050.time.door",
+   "value": "20.42"
+  },
+  {
+   "key": "case050.time.drop",
+   "value": "20.43"
+  },
+  {
+   "key": "case050.time.send",
+   "value": "20.41"
+  },
+  {
+   "key": "case050.title",
+   "value": "File #050 — Sipario"
+  },
+  {
+   "key": "case050.verdict.accident",
+   "value": "No one — the pin was forgotten"
+  },
+  {
+   "key": "case050.verdict.amedeo",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.verdict.nicola",
+   "value": "Nicola Costa"
+  },
+  {
+   "key": "case050.verdict.sofia",
+   "value": "Sofia Marchetti"
+  },
+  {
+   "key": "case050.item.pin.name",
+   "value": "Safety pin"
+  },
+  {
+   "key": "case050.item.pin.detail",
+   "value": "The steel pin from the fly system’s rope lock; it came out of a stage desk drawer."
+  },
+  {
+   "key": "case050.item.sandbag.name",
+   "value": "Sandbag"
+  },
+  {
+   "key": "case050.item.sandbag.detail",
+   "value": "A twenty-five-kilo canvas sandbag; its hook open."
+  },
+  {
+   "key": "case050.item.book.name",
+   "value": "Cue book"
+  },
+  {
+   "key": "case050.item.book.detail",
+   "value": "The stage manager’s cue book; a rubbed-out line on the second-act page."
+  }
+ ]
+}
