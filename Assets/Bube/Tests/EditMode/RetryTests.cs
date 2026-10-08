@@ -133,5 +133,18 @@ public sealed class RetryTests {
   Assert.IsTrue(fax.correct);
   Assert.AreEqual(50 + game.Rules.strongGain + game.Rules.streakBonus, game.Career.departmentTrust);
  }
+
+ // Zor dosyada doğru rapor daha çok kazandırır, hata daha az götürür.
+ [Test] public void Difficulty_WeightsTrust() {
+  var rules = new CareerRules();
+  Assert.AreEqual(1, Investigation.DifficultyOf(new CaseData { id = "case004" }, rules));
+  Assert.AreEqual(2, Investigation.DifficultyOf(new CaseData { id = "case020" }, rules));
+  Assert.AreEqual(3, Investigation.DifficultyOf(new CaseData { id = "case060" }, rules));
+  Assert.AreEqual(2, Investigation.DifficultyOf(new CaseData { id = "case060", difficulty = 2 }, rules));
+  var game = Case001Walk.WalkToReportReady();
+  Assert.Greater(game.TrustDeltaFor("supported", 3), game.TrustDeltaFor("supported", 1));
+  Assert.Greater(game.TrustDeltaFor("falseAccusation", 3), game.TrustDeltaFor("falseAccusation", 1));
+  Assert.Less(game.TrustDeltaFor("incomplete", 3), 0);
+ }
 }
 }

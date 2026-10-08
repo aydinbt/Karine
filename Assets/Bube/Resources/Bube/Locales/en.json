@@ -70,7 +70,7 @@
   },
   {
    "key": "bora",
-   "value": "Bora • 27 • Turkish • Male\nIstanbul / Beşiktaş • bube Department Investigation Unit"
+   "value": "Bora • 27 • born in Istanbul\nbube Department • International Investigation Unit"
   },
   {
    "key": "inbox",
@@ -354,7 +354,7 @@
   },
   {
    "key": "file.reference",
-   "value": "bube Department · Istanbul / Beşiktaş"
+   "value": "bube Department · International Investigation Unit"
   },
   {
    "key": "desk.terminal",
@@ -1158,7 +1158,7 @@
   },
   {
    "key": "about.body",
-   "value": "Karine is a detective game about Bora’s investigations at the bube Department’s Beşiktaş branch. Examine the files, interviews and records at your own pace; justify your conclusion with evidence."
+   "value": "Karine is a detective game about the cases of Bora, the bube Department's international investigator, around the world. Examine the files, interviews and records at your own pace; justify your conclusion with evidence."
   },
   {
    "key": "interview.noStatement",
@@ -1495,6 +1495,94 @@
   {
    "key": "career.status.probation",
    "value": "SUPERVISED DESK DUTY"
+  },
+  {
+   "key": "career.tab.profile",
+   "value": "Bora"
+  },
+  {
+   "key": "career.profile.title",
+   "value": "Investigator"
+  },
+  {
+   "key": "career.profile.identity",
+   "value": "Identity"
+  },
+  {
+   "key": "career.profile.identityValue",
+   "value": "Bora · 27 · born in Istanbul"
+  },
+  {
+   "key": "career.profile.role",
+   "value": "Role"
+  },
+  {
+   "key": "career.profile.roleValue",
+   "value": "bube Department · International Investigation Unit"
+  },
+  {
+   "key": "career.profile.post",
+   "value": "Current posting"
+  },
+  {
+   "key": "career.profile.standing",
+   "value": "Unit trust"
+  },
+  {
+   "key": "career.profile.bio",
+   "value": "After a few years on patrol, Bora moved to the bube Department's investigation unit. The first files were closed in Istanbul; now the unit sends Bora country by country to the cases local teams could not solve. Calm and observant, Bora never tells anyone \"you're lying\" but sets what they said beside the records, and writes a conclusion only when the evidence can justify it."
+  },
+  {
+   "key": "career.rules.title",
+   "value": "How trust works"
+  },
+  {
+   "key": "career.rules.intro",
+   "value": "Unit trust runs from 0 to 100; a career starts at {0}. Every report is assessed by fax and changes trust. On harder files a correct report earns more and a mistake costs less."
+  },
+  {
+   "key": "career.rules.supported",
+   "value": "Correct, justified report"
+  },
+  {
+   "key": "career.rules.incomplete",
+   "value": "Right person, weak justification"
+  },
+  {
+   "key": "career.rules.false",
+   "value": "Wrongful accusation"
+  },
+  {
+   "key": "career.rules.level1",
+   "value": "Easy"
+  },
+  {
+   "key": "career.rules.level2",
+   "value": "Medium"
+  },
+  {
+   "key": "career.rules.level3",
+   "value": "Hard"
+  },
+  {
+   "key": "career.rules.streak",
+   "value": "Streak"
+  },
+  {
+   "key": "career.rules.streakValue",
+   "value": "+{1} each from the {0}th correct report in a row · now {2}"
+  },
+  {
+   "key": "career.rules.difficulty",
+   "value": "This file's difficulty"
+  },
+  {
+   "key": "career.rules.probation",
+   "value": "If trust drops to 0 the career does not end: Bora is put on supervised desk duty at the same posting, with trust set to {0}. Closing the next file with a justified report restores active duty and at least {1} trust."
+  },
+  {
+   "key": "career.rules.statuses",
+   "value": "Levels: 80+ high trust · 60+ reliable · 40+ monitored · 20+ under review · below that, at risk."
   },
   {
    "key": "career.status.ended",

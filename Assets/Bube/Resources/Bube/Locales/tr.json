@@ -70,7 +70,7 @@
   },
   {
    "key": "bora",
-   "value": "Bora • 27 yaşında • Türk • Erkek\nİstanbul / Beşiktaş • bube Departman Soruşturma Birimi"
+   "value": "Bora • 27 yaşında • İstanbul doğumlu\nbube Departman • Uluslararası Soruşturma Birimi"
   },
   {
    "key": "inbox",
@@ -354,7 +354,7 @@
   },
   {
    "key": "file.reference",
-   "value": "bube Departman · İstanbul / Beşiktaş"
+   "value": "bube Departman · Uluslararası Soruşturma Birimi"
   },
   {
    "key": "desk.terminal",
@@ -1158,7 +1158,7 @@
   },
   {
    "key": "about.body",
-   "value": "Karine, Bora’nın bube Departman Beşiktaş şubesindeki soruşturmalarını konu alan bir dedektif oyunudur. Dosyaları, görüşmeleri ve kayıtları kendi hızında incele; sonucu kanıtlarla gerekçelendir."
+   "value": "Karine, bube Departman'ın uluslararası soruşturmacısı Bora'nın dünyanın dört bir yanındaki dosyalarını konu alan bir dedektif oyunudur. Dosyaları, görüşmeleri ve kayıtları kendi hızında incele; sonucu kanıtlarla gerekçelendir."
   },
   {
    "key": "interview.noStatement",
@@ -1495,6 +1495,94 @@
   {
    "key": "career.status.probation",
    "value": "GÖZETİMLİ MASA GÖREVİ"
+  },
+  {
+   "key": "career.tab.profile",
+   "value": "Bora"
+  },
+  {
+   "key": "career.profile.title",
+   "value": "Soruşturmacı"
+  },
+  {
+   "key": "career.profile.identity",
+   "value": "Kimlik"
+  },
+  {
+   "key": "career.profile.identityValue",
+   "value": "Bora · 27 · İstanbul doğumlu"
+  },
+  {
+   "key": "career.profile.role",
+   "value": "Görev"
+  },
+  {
+   "key": "career.profile.roleValue",
+   "value": "bube Departman · Uluslararası Soruşturma Birimi"
+  },
+  {
+   "key": "career.profile.post",
+   "value": "Şu anki görev yeri"
+  },
+  {
+   "key": "career.profile.standing",
+   "value": "Birim güveni"
+  },
+  {
+   "key": "career.profile.bio",
+   "value": "Birkaç yıl sokakta polislik yaptıktan sonra bube Departman'ın soruşturma birimine geçti. İlk dosyalarını İstanbul'da kapattı; birim onu artık ülke ülke, yerel ekiplerin çözemediği dosyalara gönderiyor. Sakin ve gözlemcidir: kimseye \"yalan söylüyorsun\" demez, söyleneni kayıtların yanına koyar. Bir kararı ancak kanıtla gerekçelendirebildiğinde yazar."
+  },
+  {
+   "key": "career.rules.title",
+   "value": "Güven nasıl işler"
+  },
+  {
+   "key": "career.rules.intro",
+   "value": "Birim güveni 0–100 arasıdır; kariyer {0} ile başlar. Her rapor faksla değerlendirilir ve güveni değiştirir. Zor dosyada doğru rapor daha çok kazandırır, hata daha az götürür."
+  },
+  {
+   "key": "career.rules.supported",
+   "value": "Gerekçeli doğru rapor"
+  },
+  {
+   "key": "career.rules.incomplete",
+   "value": "Doğru kişi, eksik gerekçe"
+  },
+  {
+   "key": "career.rules.false",
+   "value": "Asılsız suçlama"
+  },
+  {
+   "key": "career.rules.level1",
+   "value": "Kolay"
+  },
+  {
+   "key": "career.rules.level2",
+   "value": "Orta"
+  },
+  {
+   "key": "career.rules.level3",
+   "value": "Zor"
+  },
+  {
+   "key": "career.rules.streak",
+   "value": "Seri"
+  },
+  {
+   "key": "career.rules.streakValue",
+   "value": "{0}. ardışık doğru rapordan sonra her biri +{1} · şu an {2}"
+  },
+  {
+   "key": "career.rules.difficulty",
+   "value": "Bu dosyanın zorluğu"
+  },
+  {
+   "key": "career.rules.probation",
+   "value": "Güven 0'a düşerse kariyer bitmez: Bora aynı görev yerinde gözetimli masa görevine alınır ve güveni {0} olur. Sıradaki dosyayı gerekçeli kapatırsa göreve döner, güveni en az {1} olur."
+  },
+  {
+   "key": "career.rules.statuses",
+   "value": "Kademeler: 80+ yüksek güven · 60+ güvenilir · 40+ izleniyor · 20+ incelemede · altı riskli."
   },
   {
    "key": "career.status.ended",

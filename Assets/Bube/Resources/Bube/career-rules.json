@@ -15,5 +15,20 @@
   "streakLength": 3,
   "streakBonus": 3,
   "probationTrust": 15,
-  "reinstateTrust": 30
+  "reinstateTrust": 30,
+  "difficultyGain": [
+    0,
+    1,
+    2
+  ],
+  "difficultyLossCut": [
+    0,
+    2,
+    4
+  ],
+  "difficultyFrom": [
+    1,
+    11,
+    39
+  ]
 }

@@ -15,10 +15,12 @@ public sealed partial class BubeApp {
    (T("career.tab.general"),careerTab==0,()=>{careerTab=0;StatisticsPage();}),
    (T("career.tab.history"),careerTab==1,()=>{careerTab=1;StatisticsPage();}),
    (T("career.tab.record"),careerTab==2,()=>{careerTab=2;StatisticsPage();}),
+   (T("career.tab.profile"),careerTab==3,()=>{careerTab=3;StatisticsPage();}),
    (T("archive.menu"),false,ArchivePage));
   var history=game.Career.reviewHistory;
   if(careerTab==1){CareerHistory(main,history);KarineUI.CardsDrop(main);return;}
   if(careerTab==2){CareerRecord(main,history);KarineUI.CardsDrop(main);return;}
+  if(careerTab==3){CareerProfile(main);KarineUI.CardsDrop(main);return;}
   atlas=atlas??Worlds.Load();var closed=Worlds.Closed(game.Career);
   int total=atlas.countries.Sum(c=>c.slots.Count),done=atlas.countries.Sum(c=>Worlds.CompletedIn(c,closed));
   int worlds=atlas.countries.Count(c=>c.slots.Count>0&&Worlds.CompletedIn(c,closed)==c.slots.Count);

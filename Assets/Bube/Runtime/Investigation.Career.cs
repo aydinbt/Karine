@@ -3,6 +3,24 @@ using System.Linq;
 namespace Bube {
 // Kariyer: faks değerlendirmesi, seri, gözetimli masa görevi ve ödüllü yeniden deneme.
 public sealed partial class Investigation {
+ // Dosyanın zorluğu 1–3. Vaka verisi belirtmezse sıra numarasından türer:
+ // Türkiye 1, ilk yabancı ülkeler 2, ileri dünyalar 3 (eşikler kuralda).
+ public int Difficulty => DifficultyOf(Data,Rules);
+ public static int DifficultyOf(CaseData data,CareerRules rules) {
+  if(data==null)return 1;
+  if(data.difficulty>0)return Math.Min(3,data.difficulty);
+  var from=(rules??new CareerRules()).difficultyFrom??new[]{1,11,39};
+  int number=int.TryParse(new string((data.id??"").Where(char.IsDigit).ToArray()),out var parsed)?parsed:1;
+  int level=1;for(int i=0;i<from.Length&&i<3;i++)if(number>=from[i])level=i+1;
+  return level;
+ }
+ static int At(int[] values,int level)=>values==null||values.Length==0?0:values[Math.Max(0,Math.Min(values.Length-1,level-1))];
+ // Zor dosyada doğru rapor daha çok güven getirir, hata daha az götürür.
+ public int TrustDeltaFor(string evaluationType,int level) {
+  if(evaluationType=="supported")return Rules.strongGain+At(Rules.difficultyGain,level);
+  if(evaluationType=="incomplete")return -Math.Max(1,Rules.incompleteLoss-At(Rules.difficultyLossCut,level)/2);
+  return -Math.Max(1,Rules.falseAccusationLoss-At(Rules.difficultyLossCut,level));
+ }
  // Ödüllü yeniden deneme. Geri verilen tek şey güvendir: o faksın götürdüğü
  // puan iade edilir ve gerekirse görevden ayrılma kalkar. Faks geçmişi
  // başarısızlığı saklar — kayıt silinmez, "yeniden açıldı" diye işaretlenir.

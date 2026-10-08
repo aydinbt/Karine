@@ -1145,3 +1145,9 @@ Oyuncuyu oyunda tutmak için kalıcı kariyer sonu kaldırıldı. Ölçek 0–10
 - Ödüllü yeniden açma, faksın getirdiği gözetimi ve seriyi de geri alır.
 - Eski kayıtta "görev sona erdi" olan oyuncu yüklemede gözetime alınır.
 - Değerler `career-rules.json` içindedir: `streakLength`, `streakBonus`, `probationTrust`, `reinstateTrust`.
+
+## 8 Ekim 2026 — Zorluk ağırlığı, Bora sekmesi, uluslararası birim
+
+- **Zorluk:** dosya 1–3 zorluktadır (`CaseData.difficulty`; boşsa sıradan: #001–010 kolay, #011–038 orta, #039+ zor). Doğru rapor +5/+6/+7, eksik −5/−4/−3, asılsız suçlama −15/−13/−11.
+- **Kariyer → Bora sekmesi:** kimlik, görev, şu anki görev yeri (ülke), birim güveni, kısa özgeçmiş ve "Güven nasıl işler" açıklaması. Sayılar `career-rules.json`dan okunur.
+- Bora artık "Beşiktaş şubesi" değil, **bube Departman Uluslararası Soruşturma Birimi**nde. İstanbul doğumlu; görev yeri dünya ile değişir.

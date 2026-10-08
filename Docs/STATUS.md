@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**8 Ekim (gece, 2):** Zor dosyalar güveni daha cömert etkiliyor; Kariyer sayfasına Bora sekmesi (profil + güven kuralları) eklendi; Bora artık uluslararası birimde. 139 EditMode → `[~]`.
+
 **8 Ekim (gece):** **Kariyer artık bitmiyor.** Güven sıfırlanınca Bora aynı ülkede gözetimli masa görevine alınıyor, sıradaki dosyayı gerekçeli kapatınca dönüyor; 3 doğru raporluk seri ek güven veriyor. 138 EditMode geçiyor → `[~]`.
 
 **8 Ekim (akşam):** **İngilizce çeviri tamamlandı.** 73 dosya ve ortak arayüz, 12.755 satır; çeviri denetimi 0 sorun. Sözlük: [Translation/GLOSSARY_en.md](Translation/GLOSSARY_en.md). Diğer diller (de, fr, it, es, pt-BR) kullanıcı onayı bekliyor. **İngilizce metin oyunda okunmadı** → `[~]`.
