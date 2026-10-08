@@ -1,0 +1,964 @@
+{
+ "entries": [
+  {
+   "key": "case007.autopsy.body",
+   "value": "Befunde zur Todesursache:\n\n· Verletzung links temporal, vereinbar mit stumpfer Gewalt. Wundrand bogenförmig; vereinbar mit einem harten Gegenstand mit rundem Rand und etwa 6 cm Durchmesser. Darunter eine Schädelfraktur.\n· Kohlenmonoxidanteil im Blut 18 %. Deutlich niedriger als bei jemandem zu erwarten, der lange in dichtem Rauch war.\n· Begrenzte Rußablagerung in den Atemwegen. Die Befunde deuten darauf hin, dass die Person in der Anfangsphase des Brandes kurz geatmet hat.\n· Die Verbrennungen erscheinen postmortal oder im Moment des Todes entstanden.\n\nBewertung: Die Verletzung entstand vor dem Brand. Die Person könnte nach der Verletzung eine Zeit lang bewusstlos überlebt haben."
+  },
+  {
+   "key": "case007.autopsy.title",
+   "value": "RECHTSMEDIZINISCHER UNTERSUCHUNGSBERICHT — KEREM SARIGÜL"
+  },
+  {
+   "key": "case007.card.body",
+   "value": "ANTRAG GENEHMIGT.\n\nAusgaben September–Oktober der Firmenkarte von Belen & Sarıgül Restorasyon, ausgegeben an Serdar Belen (ausgewählte Posten):\n\n26. September · Prämiendifferenz Versicherung · 18.400 TL\n10. Oktober · Eisenwarenhandlung in Karaköy · „Programmierbare Zeitschaltsteckdose ×1, Keramik-Heizlüfter 1500 W ×1“ · 1.260 TL\n10. Oktober · Dieselbe Eisenwarenhandlung · „Verlängerungskabel 5 m ×1“ · 190 TL\n\nIn keinem anderen Zeitraum wurden mit der Karte Heizgeräte oder Steckdosen gekauft. Die Werkstatt wird zentral beheizt."
+  },
+  {
+   "key": "case007.card.title",
+   "value": "FIRMENKARTENABRECHNUNG — SERDAR BELEN"
+  },
+  {
+   "key": "case007.cctv.event.car_pass",
+   "value": "Kamera 01: Ein Fahrzeug gleicher Farbe und Erscheinung kommt aus der Hintergasse und fährt an der Kamera vorbei; es hält nicht."
+  },
+  {
+   "key": "case007.cctv.event.car_stop",
+   "value": "Kamera 01: Ein dunkler Pkw hält einige Sekunden vor der Werkstatt, niemand steigt aus; dann biegt er in die Hintergasse neben dem Gebäude. Das Kennzeichen ist aus dem Winkel nicht lesbar."
+  },
+  {
+   "key": "case007.cctv.event.kerem_in",
+   "value": "Kamera 01 (Straße): Ein Mann schließt die Vordertür der Werkstatt auf und geht hinein; in der Hand eine Papiertüte. Als Kerem Sarıgül erkannt."
+  },
+  {
+   "key": "case007.cctv.event.light",
+   "value": "Kamera 01: Hinter dem Schaufenster der Werkstatt, im Innenbereich, ändert sich das Licht; ein flackernder orangefarbener Schein."
+  },
+  {
+   "key": "case007.cctv.event.melis_out",
+   "value": "Kamera 01: Eine Frau verlässt die Vordertür; zieht im Gehen ihre Jacke an und entfernt sich schnellen Schrittes bergab."
+  },
+  {
+   "key": "case007.cctv.event.smoke",
+   "value": "Kamera 01: Aus dem oberen Spalt der Vordertür tritt Rauch. Eine Minute später läuft der Nachtwächter ins Bild."
+  },
+  {
+   "key": "case007.cctv.overlay",
+   "value": "KAM 01"
+  },
+  {
+   "key": "case007.cctv.period",
+   "value": "14.–15. Oktober 2028, 22.00 – 02.30"
+  },
+  {
+   "key": "case007.cctv.source",
+   "value": "Straßenkamera"
+  },
+  {
+   "key": "case007.clue.back_msg",
+   "value": "Kerem an Serdar: „Komm durch die Hintertür.“"
+  },
+  {
+   "key": "case007.clue.call",
+   "value": "Kerem ruft Serdar an; vier Minuten"
+  },
+  {
+   "key": "case007.clue.car_pass",
+   "value": "Ein ähnliches Fahrzeug kommt aus der Hintergasse"
+  },
+  {
+   "key": "case007.clue.car_stop",
+   "value": "Ein dunkles Fahrzeug hält und biegt in die Hintergasse"
+  },
+  {
+   "key": "case007.clue.erdal_saw",
+   "value": "Sagt, er habe Serdar aus der Diensttür kommen sehen"
+  },
+  {
+   "key": "case007.clue.kerem_in",
+   "value": "Kerem betritt die Werkstatt"
+  },
+  {
+   "key": "case007.clue.light",
+   "value": "Lichtänderung in der Werkstatt"
+  },
+  {
+   "key": "case007.clue.melis_claim",
+   "value": "Nennt die Uhrzeit, zu der sie ging (später korrigiert)"
+  },
+  {
+   "key": "case007.clue.melis_msg",
+   "value": "Kerem an Melis: „Lass uns heute Abend in der Werkstatt reden.“"
+  },
+  {
+   "key": "case007.clue.melis_out",
+   "value": "Eine Frau verlässt die Werkstatt"
+  },
+  {
+   "key": "case007.clue.plate_in",
+   "value": "Firmenwagen von Serdar fährt nach Beyoğlu"
+  },
+  {
+   "key": "case007.clue.plate_out",
+   "value": "Firmenwagen verlässt Beyoğlu"
+  },
+  {
+   "key": "case007.clue.serdar_claim",
+   "value": "Sagt, er habe zu Hause gearbeitet"
+  },
+  {
+   "key": "case007.clue.smoke",
+   "value": "Rauch ist zu sehen"
+  },
+  {
+   "key": "case007.clue.source.kphone",
+   "value": "Handy von Kerem"
+  },
+  {
+   "key": "case007.clue.source.plate",
+   "value": "Kennzeichenerfassung"
+  },
+  {
+   "key": "case007.clue.source.sphone",
+   "value": "Standortprotokoll von Serdar"
+  },
+  {
+   "key": "case007.clue.sphone_home",
+   "value": "Handy von Serdar in Ataşehir; keine Nutzung"
+  },
+  {
+   "key": "case007.clue.street_car_pass",
+   "value": "Ein ähnliches Fahrzeug kommt aus der Hintergasse"
+  },
+  {
+   "key": "case007.clue.street_car_stop",
+   "value": "Ein dunkles Fahrzeug hält und biegt in die Hintergasse"
+  },
+  {
+   "key": "case007.clue.street_kerem_in",
+   "value": "Kerem betritt die Werkstatt"
+  },
+  {
+   "key": "case007.clue.street_light",
+   "value": "Lichtänderung in der Werkstatt"
+  },
+  {
+   "key": "case007.clue.street_melis_out",
+   "value": "Eine Frau verlässt die Werkstatt"
+  },
+  {
+   "key": "case007.clue.street_smoke",
+   "value": "Rauch ist zu sehen"
+  },
+  {
+   "key": "case007.corridor.body",
+   "value": "ANTRAG GENEHMIGT.\n\nUntersuchung von Dienstkorridor, Diensttür und Boden der Hintergasse:\n\n· Am Innengriff und an der Schlossfalle der Diensttür frische Benutzungsspuren; die Rußschicht zeigt, dass sie vor dem Brand geöffnet und geschlossen wurde. Die Tür wurde von außen mit Schlüssel verschlossen.\n· Auf dem Korridorboden weiße Staubspuren vom Archivraum zur Tür; von Schuhsohlen getragen.\n· In der Hintergasse, auf dem nassen Boden direkt vor der Diensttür, eine Reifenspur eines Pkw. In der Spur weißer Staub; Analyse: Calciumsulfat (Restaurierungsgips).\n\nHinweis: Der Staub in der Hintergasse lässt sich mit der bei der Fahrzeuguntersuchung genommenen Probe vergleichen."
+  },
+  {
+   "key": "case007.corridor.title",
+   "value": "UNTERSUCHUNGSBERICHT DIENSTKORRIDOR UND HINTERGASSE"
+  },
+  {
+   "key": "case007.custody.cover",
+   "value": "Beweise vernichten"
+  },
+  {
+   "key": "case007.custody.insurance",
+   "value": "Versicherungsgewinn"
+  },
+  {
+   "key": "case007.custody.kill",
+   "value": "Kerem töten"
+  },
+  {
+   "key": "case007.custody.label",
+   "value": "Ursprünglicher Zweck des Brandes"
+  },
+  {
+   "key": "case007.custody.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case007.epilogue.custody.cover",
+   "value": "Es wurde angenommen, der Brand sei gelegt worden, um die Tat zu vertuschen. Die Verteidigung sprach von „einer einzigen Panikentscheidung“; der Vorwurf des geplanten Versicherungsbetrugs fiel aus der Akte."
+  },
+  {
+   "key": "case007.epilogue.custody.insurance",
+   "value": "Die Zeitschaltsteckdose war fünf Tage vor dem Streit gekauft worden, die Deckungserhöhung neunzehn Tage vorher. Der Brand wurde nicht improvisiert, um den Tod von Kerem zu verbergen; er war schon geplant. Die Versicherungsleistung wurde abgelehnt."
+  },
+  {
+   "key": "case007.epilogue.custody.kill",
+   "value": "Es wurde behauptet, der Brand sei gelegt worden, um Kerem zu töten. Serdar sagte, er sei gegangen, weil er Kerem für tot hielt; der Plan war entstanden, ohne zu wissen, dass Kerem in der Nacht dort sein würde. Die Behauptung hielt vor Gericht nicht."
+  },
+  {
+   "key": "case007.epilogue.custody.unknown",
+   "value": "Der Zweck des Brandes blieb offen. Deckungserhöhung und Kauf der Steckdose standen in der Akte unverbunden nebeneinander."
+  },
+  {
+   "key": "case007.epilogue.verdict.melis_blow",
+   "value": "Melis Akın wurde festgenommen. Als die Telefondaten zeigten, dass Kerem um 23.17 noch Nachrichten schrieb, kam sie frei; Serdar Belen versuchte in jener Woche, ins Ausland zu gelangen."
+  },
+  {
+   "key": "case007.epilogue.verdict.none_fall",
+   "value": "Der Tod wurde als Folge des Brandes gewertet. Als die Versicherungsleistung kurz vor der Freigabe stand, ließ der Gutachter Oğuz Tezcan die Akte neu öffnen."
+  },
+  {
+   "key": "case007.epilogue.verdict.serdar_blow",
+   "value": "Serdar Belen wurde wegen Körperverletzung mit Todesfolge und Brandstiftung in Untersuchungshaft genommen. Das Blut am Lampenfuß stammte von Kerem Sarıgül."
+  },
+  {
+   "key": "case007.epilogue.verdict.serdar_fall",
+   "value": "Die Akte lief als fahrlässige Tötung. Der Anwalt von Serdar Belen baute die Verteidigung „ein Unfall in Panik“ auf; die Lampe kam erst Monate später wieder zur Sprache."
+  },
+  {
+   "key": "case007.epilogue.verdict.undetermined",
+   "value": "Der Tod blieb verdächtig, die Akte wanderte ins Regal. Serdar Belen schloss die Werkstatt und führte den Versicherungsprozess weiter."
+  },
+  {
+   "key": "case007.erdal.back.answer",
+   "value": "Hinten ist eine Diensttür, sie geht zur Hintergasse. Immer abgeschlossen. Schlüssel haben die Teilhaber und ich."
+  },
+  {
+   "key": "case007.erdal.back.question",
+   "value": "Hat das Gebäude noch einen anderen Eingang?"
+  },
+  {
+   "key": "case007.erdal.body",
+   "value": "Aussage des Nachtwächters."
+  },
+  {
+   "key": "case007.erdal.deflect",
+   "value": "Ich war an der Tür, mein Kind, von solchen Sachen weiß ich nichts."
+  },
+  {
+   "key": "case007.erdal.kerem.answer",
+   "value": "Nicht gesehen. Ich war im Häuschen. Herr Kerem kommt und geht abends, ich schaue nicht jedes Mal hin."
+  },
+  {
+   "key": "case007.erdal.kerem.answer.demeanor",
+   "value": "Sah nach der Antwort lange aus dem Fenster."
+  },
+  {
+   "key": "case007.erdal.kerem.question",
+   "value": "Sie haben nicht gesehen, dass Herr Kerem in jener Nacht kam?"
+  },
+  {
+   "key": "case007.erdal.quote",
+   "value": "„Als ich den Rauch sah, wusste ich nicht, dass jemand drin war.“"
+  },
+  {
+   "key": "case007.erdal.smoke.answer",
+   "value": "Gegen Viertel nach zwei kam ich aus dem Häuschen, wollte meine Runde machen. Über der Tür kam Rauch. Ich habe die Feuerwehr gerufen. Als ich den Rauch sah, wusste ich nicht, dass jemand drin war."
+  },
+  {
+   "key": "case007.erdal.smoke.answer.demeanor",
+   "value": "Legte die Hände auf die Knie, als wollte er aufstehen, stand aber nicht auf."
+  },
+  {
+   "key": "case007.erdal.smoke.question",
+   "value": "Wie haben Sie den Brand bemerkt?"
+  },
+  {
+   "key": "case007.erdal.title",
+   "value": "Erdal Kılıç — Befragung"
+  },
+  {
+   "key": "case007.erdal_follow.body",
+   "value": "Befragung nach dem Gebäudeplan."
+  },
+  {
+   "key": "case007.erdal_follow.car.answer",
+   "value": "In der Hintergasse parkt jeder. Ich erinnere mich nicht."
+  },
+  {
+   "key": "case007.erdal_follow.car.question",
+   "value": "Ist gegen Mitternacht ein Fahrzeug in die Hintergasse gefahren?"
+  },
+  {
+   "key": "case007.erdal_follow.serdar.answer",
+   "value": "Kenne ich. Ein guter Mann. Hat meinem Sohn Arbeit besorgt, letzten Frühling. Hat uns in schweren Zeiten geholfen. Was hat das damit zu tun?"
+  },
+  {
+   "key": "case007.erdal_follow.serdar.answer.demeanor",
+   "value": "Seine Stimme wurde kurz lauter, dann fing er sich."
+  },
+  {
+   "key": "case007.erdal_follow.serdar.question",
+   "value": "Kennen Sie Herrn Serdar?"
+  },
+  {
+   "key": "case007.erdal_follow.title",
+   "value": "Erdal Kılıç — zweite Befragung"
+  },
+  {
+   "key": "case007.erdal_follow.window.answer",
+   "value": "Ja. Aber ich schaue doch nicht ständig hin. Die Nacht ist lang, ich höre Radio, koche Tee. Ich habe nichts gesehen."
+  },
+  {
+   "key": "case007.erdal_follow.window.answer.demeanor",
+   "value": "Merkte nicht, dass er den Satz „Ich habe nichts gesehen“ zum zweiten Mal sagte."
+  },
+  {
+   "key": "case007.erdal_follow.window.question",
+   "value": "Das Fenster Ihres Häuschens blickt auf die Einfahrt der Hintergasse."
+  },
+  {
+   "key": "case007.erdal_third.body",
+   "value": "Befragung nach der Untersuchung des Dienstkorridors."
+  },
+  {
+   "key": "case007.erdal_third.saw.answer",
+   "value": "… Ich habe es gesehen. Kurz nach zwölf. Herr Serdar kam aus der Diensttür, schloss ab, stieg ins Auto und fuhr weg. Er hatte nichts in der Hand. Er hatte es eilig. Ich … wusste nicht, ob Herr Kerem drin war, ich schwöre. Als ich das Feuer sah, kam es mir in den Sinn, aber … mein Sohn arbeitet bei diesem Mann."
+  },
+  {
+   "key": "case007.erdal_third.saw.answer.demeanor",
+   "value": "Schwieg lange. Dann nahm er seine Mütze ab und drehte sie in den Händen."
+  },
+  {
+   "key": "case007.erdal_third.saw.question",
+   "value": "Die Diensttür wurde vor dem Brand geöffnet und geschlossen und von außen abgeschlossen. Den Schlüssel haben drei Personen."
+  },
+  {
+   "key": "case007.erdal_third.time.answer",
+   "value": "Die Mitternachtsnachrichten im Radio waren vorbei. Viertel nach etwa. Sein Auto kam aus der Hintergasse."
+  },
+  {
+   "key": "case007.erdal_third.time.question",
+   "value": "Woher kennen Sie die Uhrzeit?"
+  },
+  {
+   "key": "case007.erdal_third.title",
+   "value": "Erdal Kılıç — dritte Befragung"
+  },
+  {
+   "key": "case007.erdal_third.why.answer",
+   "value": "Ich dachte, wenn ich sage, ich habe nichts gesehen, schade ich niemandem. Wenn Herr Serdar etwas getan hat, wird es nicht ungeschehen, nur weil ich es nicht gesehen habe. So dachte ich. Ich habe falsch gedacht."
+  },
+  {
+   "key": "case007.erdal_third.why.question",
+   "value": "Warum haben Sie es nicht gesagt?"
+  },
+  {
+   "key": "case007.evidence.autopsy",
+   "value": "Rechtsmedizinischer Untersuchungsbericht"
+  },
+  {
+   "key": "case007.evidence.corridor",
+   "value": "Untersuchung Dienstkorridor und Hintergasse"
+  },
+  {
+   "key": "case007.evidence.fire_full",
+   "value": "Brandursachenbericht"
+  },
+  {
+   "key": "case007.evidence.insurance",
+   "value": "Versicherungsgutachten"
+  },
+  {
+   "key": "case007.evidence.vehicle",
+   "value": "Fahrzeuguntersuchungsbericht"
+  },
+  {
+   "key": "case007.feedback.melis_blow",
+   "value": "Melis ging um 23.16 durch die Vordertür; Kerem telefonierte zwischen 23.12 und 23.17 mit Serdar und schrieb Nachrichten. Motiv, Lüge und Anwesenheit am Tatort machen niemanden zum Täter."
+  },
+  {
+   "key": "case007.feedback.none_fall",
+   "value": "Laut rechtsmedizinischem Bericht entstand die Verletzung vor dem Brand; wer auf der Flucht vor dem Rauch stürzt, hinterlässt keine runde Wunde mit 6 cm Durchmesser."
+  },
+  {
+   "key": "case007.feedback.serdar_blow",
+   "value": "Die Wunde von Kerem passt zu einem runden Gegenstand mit 6 cm Durchmesser; der Fuß der Lampe neben ihm misst 6,2 cm und ist blutig. Serdar ging in jener Nacht durch die Diensttür hinein und hinaus. Die Schilderung „Ich habe geschubst, er ist gefallen“ passt nicht zur Wunde."
+  },
+  {
+   "key": "case007.feedback.serdar_fall",
+   "value": "Die Wunde passt nicht zur geraden Tischkante, sondern zu einem runden Gegenstand mit 6 cm Durchmesser; der Lampenfuß ist blutig. Du hast die Schilderung „er ist gestürzt“ von Serdar übernommen."
+  },
+  {
+   "key": "case007.feedback.undetermined",
+   "value": "Rechtsmedizinischer Bericht, Brandbericht und Untersuchung des Dienstkorridors zeigten, wie und durch wen die Verletzung entstand."
+  },
+  {
+   "key": "case007.file.caseType",
+   "value": "VERDÄCHTIGER BRAND"
+  },
+  {
+   "key": "case007.file.value.bureau",
+   "value": "BDS Stelle für verdächtige Todesfälle"
+  },
+  {
+   "key": "case007.file.value.location",
+   "value": "Beyoğlu, Tomtom — Belen & Sarıgül Restorasyon"
+  },
+  {
+   "key": "case007.file.value.number",
+   "value": "BDS-2028-0312"
+  },
+  {
+   "key": "case007.file.value.offence",
+   "value": "Verdächtiger Brand — Todesfall"
+  },
+  {
+   "key": "case007.file.value.reporter",
+   "value": "Feuerwehr und Nachtwächter Erdal Kılıç"
+  },
+  {
+   "key": "case007.fire_full.body",
+   "value": "Ausführlicher Bericht des Brandsachverständigen:\n\n· Am Stromverteiler im Hinterraum keine Kurzschluss- oder Lichtbogenspuren. Der Ruß auf dem Verteiler stammt von Rauch, der von außen kam.\n· Brandrichtung und Verkohlungstiefe zeigen als Ausgangspunkt das Holzregalsystem im Archiv-/Lagerraum.\n· Am Regalboden Rückstände eines brennbaren Lösungsmittels. Lösungsmittel sind in einer Restaurierungswerkstatt üblich; das Verteilungsmuster passt jedoch nicht zu einem umgestürzten Behälter, sondern zu einem Ausgießen entlang des Regals. Die Tür des Lösungsmittelschranks stand offen, zwei Behälter waren leer.\n· Am Regalboden geschmolzene Kunststoffreste und eine Innenschaltung: vereinbar mit einer programmierbaren Zeitschaltsteckdose. Das Metallgerüst eines kleinen Heizlüfters, der an die Steckdose angeschlossen war.\n· Im Bürobereich neben dem Toten eine zu Boden gefallene Metalltischlampe. Der Fuß ist rund, Durchmesser 6,2 cm. Am Rand des Fußes eine durch Hitze nicht völlig zerstörte Blutspur.\n\nBewertung: Der Brand entstand nicht durch einen elektrischen Defekt, sondern dadurch, dass eine zeitgesteuerte Wärmequelle mit Lösungsmittel getränktes Regalmaterial entzündete."
+  },
+  {
+   "key": "case007.fire_full.title",
+   "value": "BRANDURSACHENBERICHT"
+  },
+  {
+   "key": "case007.fire_pre.body",
+   "value": "Vorläufige Tatortbewertung der Feuerwehr:\n\nDer Brand begann im hinteren Teil der Werkstatt und breitete sich über Rauch und Hitze in Büro und Arbeitsraum aus. Im Hinterraum befindet sich der Stromverteiler; um ihn herum starker Ruß.\n\nVorläufige Bewertung: wahrscheinlich elektrisch verursachter Gewerbebrand.\n\nEine ausführliche Untersuchung wurde nicht durchgeführt. Für Ausgangspunkt und Ursache wird der Brandursachenbericht erwartet."
+  },
+  {
+   "key": "case007.fire_pre.title",
+   "value": "VORLÄUFIGER BRANDBERICHT"
+  },
+  {
+   "key": "case007.insurance.body",
+   "value": "Vorläufige Bewertung des Gutachters Oğuz Tezcan:\n\n· 19 Tage vor dem Brand (26. September) wurde die Deckung für bewegliche Kunstwerke und Ausrüstung um 240 % erhöht. Antrag und Unterschrift: Serdar Belen.\n· Laut Gesellschaftsvertrag erfordert eine Deckungsänderung die Zustimmung beider Teilhaber; in der Akte fehlt die Unterschrift von Kerem Sarıgül.\n· Die Schadensmeldung erfolgte am 15. Oktober um 11.40 durch Serdar Belen.\n· Der Betrieb schuldet zwei Banken insgesamt 3,1 Millionen TL; die Septemberraten wurden nicht bezahlt.\n\nDie Leistungszahlung ist bis zum Abschluss der Ermittlungen ausgesetzt."
+  },
+  {
+   "key": "case007.insurance.title",
+   "value": "VERSICHERUNGSGUTACHTEN — VORLÄUFIGE BEWERTUNG"
+  },
+  {
+   "key": "case007.kphone.body",
+   "value": "Untersuchung des am Tatort gefundenen Handys:\n\n11. Oktober · Entwürfe: nicht gesendete E-Mail an die Buchhalterin Frau Nur: „Ich möchte den Vertrag von Melis Akın zum Monatsende beenden. Ich sage es ihr diese Woche. Kannst du die Abfindung berechnen?“\n\n14. Oktober:\n21.05 · Nachricht an Melis Akın: „Lass uns heute Abend in der Werkstatt reden.“\n23.12 · Ausgehender Anruf an Serdar Belen, 4 Min. 06 Sek.\n23.17 · Nachricht an Serdar Belen: „Ich warte. Komm durch die Hintertür.“\n\nNach 23.17 keine ausgehenden oder angenommenen Anrufe."
+  },
+  {
+   "key": "case007.kphone.title",
+   "value": "BERICHT ZUR HANDYUNTERSUCHUNG — KEREM SARIGÜL"
+  },
+  {
+   "key": "case007.melis.body",
+   "value": "Aussage der Werkstattmitarbeiterin."
+  },
+  {
+   "key": "case007.melis.deflect",
+   "value": "Ich weiß es nicht. Wirklich nicht."
+  },
+  {
+   "key": "case007.melis.night.answer",
+   "value": "Ich habe die Firnisreinigung eines Gemäldes beendet. Herr Kerem kam gegen elf. Gegen halb zwölf bin ich gegangen. Er hat gearbeitet, das war's."
+  },
+  {
+   "key": "case007.melis.night.question",
+   "value": "Was haben Sie in jener Nacht in der Werkstatt gemacht?"
+  },
+  {
+   "key": "case007.melis.quote",
+   "value": "„Mit Herrn Kerem kam ich gut aus.“"
+  },
+  {
+   "key": "case007.melis.relation.answer",
+   "value": "Gut. Er hat mir diesen Beruf im Grunde beigebracht. Mit Herrn Kerem kam ich gut aus."
+  },
+  {
+   "key": "case007.melis.relation.answer.demeanor",
+   "value": "Senkte den Blick auf den Tisch."
+  },
+  {
+   "key": "case007.melis.relation.question",
+   "value": "Wie war Ihr Verhältnis zu Kerem Sarıgül?"
+  },
+  {
+   "key": "case007.melis.solvent.answer",
+   "value": "Natürlich. Lösungsmittel, Firnisse, Alkohol. Unverzichtbar in der Restaurierung. Alles steht hinten im Archivraum im Metallschrank. Deckel zu, ich kontrolliere das jeden Abend."
+  },
+  {
+   "key": "case007.melis.solvent.question",
+   "value": "Gab es in der Werkstatt brennbares Material?"
+  },
+  {
+   "key": "case007.melis.title",
+   "value": "Melis Akın — Befragung"
+  },
+  {
+   "key": "case007.melis_follow.body",
+   "value": "Befragung nach der Handyuntersuchung."
+  },
+  {
+   "key": "case007.melis_follow.fired.answer",
+   "value": "… Ja. Wir haben gestritten. Er hat es mir gesagt, und ich habe geschrien. Vier Jahre, habe ich gesagt. Ich habe geweint. Dann habe ich meine Tasche genommen und bin gegangen. Ich habe es nicht gesagt, weil … sehen Sie, wie Sie mich jetzt ansehen. Als ich ging, lebte er. Nicht um halb zwölf, um Viertel nach elf bin ich gegangen, das habe ich auch falsch gesagt."
+  },
+  {
+   "key": "case007.melis_follow.fired.answer.demeanor",
+   "value": "Ihre Stimme zitterte, aber sie wich dem Blick nicht aus."
+  },
+  {
+   "key": "case007.melis_follow.fired.question",
+   "value": "Herr Kerem wollte Sie entlassen. Er hat Sie an jenem Abend bestellt, um darüber zu sprechen."
+  },
+  {
+   "key": "case007.melis_follow.phone.answer",
+   "value": "Er telefonierte. Mit Herrn Serdar, er nannte den Namen. „Komm, wir reden persönlich, das geht nicht am Telefon“, sagte er. Seine Stimme war sehr hart. Selbst mit mir hatte er nicht so hart gesprochen."
+  },
+  {
+   "key": "case007.melis_follow.phone.question",
+   "value": "Was hat Herr Kerem gemacht, als Sie gingen?"
+  },
+  {
+   "key": "case007.melis_follow.title",
+   "value": "Melis Akın — zweite Befragung"
+  },
+  {
+   "key": "case007.melis_follow.why.answer",
+   "value": "Kein Geld, sagte er. Die Werkstatt geht unter, sagte er. Er sagte, Herr Serdar drehe irgendwelche Dinger, und er habe es gerade erst erfahren. Ich war mit meinem eigenen Kummer beschäftigt, ich habe nicht zugehört."
+  },
+  {
+   "key": "case007.melis_follow.why.question",
+   "value": "Warum wollte Herr Kerem Sie entlassen?"
+  },
+  {
+   "key": "case007.method.accident",
+   "value": "Versehentlich — umgekipptes Lösungsmittel"
+  },
+  {
+   "key": "case007.method.deliberate",
+   "value": "Vorsätzlich"
+  },
+  {
+   "key": "case007.method.electric",
+   "value": "Elektrischer Defekt"
+  },
+  {
+   "key": "case007.method.label",
+   "value": "Art des Brandes"
+  },
+  {
+   "key": "case007.method.unknown",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case007.offer.subtitle",
+   "value": "ASCHEANTEIL  /  VERDÄCHTIGER BRAND"
+  },
+  {
+   "key": "case007.offer.summary",
+   "value": "In Beyoğlu brennt nachts eine Restaurierungswerkstatt; einer der Teilhaber wird tot darin gefunden. Die erste Einschätzung lautet: elektrisch. In dieser Akte dürfen manche Bereiche nicht ohne Genehmigung untersucht werden. Die Meldung liegt auf Ihrem Tisch."
+  },
+  {
+   "key": "case007.offer.title",
+   "value": "AKTE #007"
+  },
+  {
+   "key": "case007.oguz.body",
+   "value": "Aussage des Versicherungsgutachters."
+  },
+  {
+   "key": "case007.oguz.claim.answer",
+   "value": "Serdar Belen. Am Tag nach dem Brand, vormittags. Sehr schnell. Normalerweise kommen Menschen eine Woche lang nicht zu sich."
+  },
+  {
+   "key": "case007.oguz.claim.question",
+   "value": "Wer hat den Schaden gemeldet?"
+  },
+  {
+   "key": "case007.oguz.deflect",
+   "value": "Das fällt nicht in den Umfang des Gutachtens."
+  },
+  {
+   "key": "case007.oguz.items.answer",
+   "value": "Was im Inventar steht und was in den Trümmern lag, deckt sich nicht ganz. Von zwei wertvollen Gemälden sind die Rahmen da, die Bilder selbst nicht. Ich sage noch nichts; ich prüfe."
+  },
+  {
+   "key": "case007.oguz.items.question",
+   "value": "Welche Werke sind in der Werkstatt verbrannt?"
+  },
+  {
+   "key": "case007.oguz.policy.answer",
+   "value": "Es gibt eine Police für bewegliche Werke und Ausrüstung. Ich kam mit der Schadensmeldung zur Akte. Zahlen allein sagen nichts. Daten schon. Ich gebe Ihnen die Policenhistorie schriftlich."
+  },
+  {
+   "key": "case007.oguz.policy.question",
+   "value": "Wie ist die Werkstatt versichert?"
+  },
+  {
+   "key": "case007.oguz.quote",
+   "value": "„Zahlen allein sagen nichts. Daten schon.“"
+  },
+  {
+   "key": "case007.oguz.title",
+   "value": "Oğuz Tezcan — Befragung"
+  },
+  {
+   "key": "case007.person.erdal.info",
+   "value": "57 Jahre, Nachtwächter des Gebäudes, in dem die Werkstatt liegt. Hat den Brand als Erster bemerkt."
+  },
+  {
+   "key": "case007.person.erdal.name",
+   "value": "Erdal Kılıç"
+  },
+  {
+   "key": "case007.person.melis.info",
+   "value": "32 Jahre, Restauratorin. Seit vier Jahren in der Werkstatt angestellt."
+  },
+  {
+   "key": "case007.person.melis.name",
+   "value": "Melis Akın"
+  },
+  {
+   "key": "case007.person.oguz.info",
+   "value": "38 Jahre, Versicherungsgutachter. Prüft nach dem Brand die Schadensakte."
+  },
+  {
+   "key": "case007.person.oguz.name",
+   "value": "Oğuz Tezcan"
+  },
+  {
+   "key": "case007.person.serdar.info",
+   "value": "49 Jahre, Teilhaber von Belen & Sarıgül Restorasyon. Führt die finanziellen und kaufmännischen Geschäfte des Betriebs."
+  },
+  {
+   "key": "case007.person.serdar.name",
+   "value": "Serdar Belen"
+  },
+  {
+   "key": "case007.plan.body",
+   "value": "Erdgeschossplan des Gebäudes mit der Werkstatt und Schlüsselverzeichnis der Verwaltung:\n\n· Die Tür in der Rückwand des Archiv-/Lagerraums führt in einen schmalen Dienstkorridor. Der Korridor führt über die Diensttür des Gebäudes in die Hintergasse.\n· Die Hintergasse liegt nicht im Blickfeld der Straßenkamera; sie ist mit dem Auto befahrbar.\n· Schlüssel der Diensttür: Kerem Sarıgül, Serdar Belen und der Nachtwächter Erdal Kılıç (Generalschlüssel).\n· Das Häuschen des Nachtwächters liegt an der Seitenfassade; sein Fenster blickt auf die Einfahrt der Hintergasse."
+  },
+  {
+   "key": "case007.plan.title",
+   "value": "GEBÄUDEPLAN UND SCHLÜSSELVERZEICHNIS"
+  },
+  {
+   "key": "case007.plate.body",
+   "value": "Kennzeichenerfassung der Fahrzeuge, die über den Tarlabaşı-Boulevard nach Beyoğlu fahren, 14. Oktober 23.00 – 15. Oktober 01.00.\n\n23.34 · Einfahrt · 34 SBR 482 · dunkelgrauer Pkw · Halter Belen & Sarıgül Restorasyon · laut Firmenregister Fahrer: Serdar Belen.\n00.29 · Ausfahrt · 34 SBR 482.\n\nVon der Einfahrt Tarlabaşı zur Werkstatt sind es mit dem Auto etwa 10–15 Minuten."
+  },
+  {
+   "key": "case007.plate.title",
+   "value": "KENNZEICHENERFASSUNG — EINFAHRT TARLABAŞI"
+  },
+  {
+   "key": "case007.report.body",
+   "value": "In der Nacht zum 15. Oktober gegen 02.14 Uhr brach in der Werkstatt von Belen & Sarıgül Restorasyon in Beyoğlu, Tomtom, ein Brand aus. Die Feuerwehr brachte das Feuer in etwa zwanzig Minuten unter Kontrolle.\n\nNach dem Löschen wurde der Teilhaber Kerem Sarıgül (46) regungslos im Bürobereich der Werkstatt gefunden; am Ort wurde sein Tod festgestellt.\n\nKerem Sarıgül: Restaurator, zu 50 % am Betrieb beteiligt. Es ist bekannt, dass er oft bis spät in der Werkstatt arbeitete.\n\nNach erster Einschätzung könnte der Brand elektrisch verursacht worden sein."
+  },
+  {
+   "key": "case007.report.title",
+   "value": "EREIGNISBERICHT"
+  },
+  {
+   "key": "case007.request.autopsy",
+   "value": "Rechtsmedizinischen Untersuchungsbericht anfordern"
+  },
+  {
+   "key": "case007.request.card",
+   "value": "Genehmigung für die Firmenkartenabrechnung von Serdar Belen beantragen"
+  },
+  {
+   "key": "case007.request.corridor",
+   "value": "Genehmigung für die Untersuchung des Dienstkorridors beantragen"
+  },
+  {
+   "key": "case007.request.fire_full",
+   "value": "Ausführliche Brandursachenuntersuchung anfordern"
+  },
+  {
+   "key": "case007.request.insurance",
+   "value": "Versicherungsgutachten anfordern"
+  },
+  {
+   "key": "case007.request.kphone",
+   "value": "Untersuchung des Handys von Kerem Sarıgül anfordern"
+  },
+  {
+   "key": "case007.request.plan",
+   "value": "Gebäudeplan und Schlüsselverzeichnis anfordern"
+  },
+  {
+   "key": "case007.request.plate",
+   "value": "Kennzeichenerfassung des Firmenwagens von Serdar Belen anfordern"
+  },
+  {
+   "key": "case007.request.sphone",
+   "value": "Standortprotokoll des Handys von Serdar Belen anfordern"
+  },
+  {
+   "key": "case007.request.vehicle",
+   "value": "Genehmigung für die Untersuchung des Firmenwagens beantragen"
+  },
+  {
+   "key": "case007.serdar.body",
+   "value": "Aussage des Teilhabers."
+  },
+  {
+   "key": "case007.serdar.deflect",
+   "value": "Darüber reden wir nicht ohne meinen Anwalt."
+  },
+  {
+   "key": "case007.serdar.money.answer",
+   "value": "Ein schweres Jahr. Für alle. Aber wir standen nicht kurz vor dem Ruin, schreiben Sie das bitte auf."
+  },
+  {
+   "key": "case007.serdar.money.question",
+   "value": "Wie war die finanzielle Lage des Betriebs?"
+  },
+  {
+   "key": "case007.serdar.night.answer",
+   "value": "Zu Hause. In Ataşehir. Meine Frau schlief, ich habe bis spät gearbeitet, mein Handy war auch bei mir. Sehen Sie nach, wenn Sie wollen."
+  },
+  {
+   "key": "case007.serdar.night.question",
+   "value": "Wo waren Sie in jener Nacht?"
+  },
+  {
+   "key": "case007.serdar.quote",
+   "value": "„Wir hatten geschäftliche Meinungsverschiedenheiten, aber das waren gewöhnliche Dinge.“"
+  },
+  {
+   "key": "case007.serdar.relation.answer",
+   "value": "Er war zwölf Jahre mein Teilhaber. Mit Kerem hatte ich einige geschäftliche Meinungsverschiedenheiten, aber für einen Betrieb waren das gewöhnliche Dinge. Wer streitet nicht mit seinem Teilhaber?"
+  },
+  {
+   "key": "case007.serdar.relation.answer.demeanor",
+   "value": "Lächelte; legte den Stift in seiner Hand genau parallel auf den Tisch."
+  },
+  {
+   "key": "case007.serdar.relation.question",
+   "value": "Wie war Ihr Verhältnis zu Kerem Sarıgül?"
+  },
+  {
+   "key": "case007.serdar.title",
+   "value": "Serdar Belen — Befragung"
+  },
+  {
+   "key": "case007.serdar.visit.answer",
+   "value": "Seit Monaten nicht. Die Werkstatt hat Kerem geführt, ich bin für Kunden und Finanzen zuständig. Staub, Lösungsmittelgeruch … das ist nicht meins."
+  },
+  {
+   "key": "case007.serdar.visit.answer.demeanor",
+   "value": "Antwortete, ohne auch nur einen Moment nachzudenken."
+  },
+  {
+   "key": "case007.serdar.visit.question",
+   "value": "Wann waren Sie zuletzt in der Werkstatt?"
+  },
+  {
+   "key": "case007.serdar_follow.body",
+   "value": "Befragung nach der Kennzeichenerfassung."
+  },
+  {
+   "key": "case007.serdar_follow.call.answer",
+   "value": "Wir haben gesprochen. Eine Kundensache. Er war gereizt, ich sagte, wir reden morgen. Ich bin nicht hin."
+  },
+  {
+   "key": "case007.serdar_follow.call.question",
+   "value": "Herr Kerem hat Sie um 23.12 angerufen, Sie haben vier Minuten gesprochen."
+  },
+  {
+   "key": "case007.serdar_follow.car.answer",
+   "value": "Das Fahrzeug gehört der Firma. Der Schlüssel hängt im Büro am Brett. Einer der Mitarbeiter könnte es benutzt haben. Ich war zu Hause; sehen Sie in meine Telefondaten, habe ich gesagt."
+  },
+  {
+   "key": "case007.serdar_follow.car.answer.demeanor",
+   "value": "Sein Tonfall änderte sich überhaupt nicht; nur seine Finger trommelten einmal auf den Tisch."
+  },
+  {
+   "key": "case007.serdar_follow.car.question",
+   "value": "Sie sagten, Sie seien zu Hause gewesen. Ihr Wagen fährt um 23.34 nach Beyoğlu."
+  },
+  {
+   "key": "case007.serdar_follow.title",
+   "value": "Serdar Belen — zweite Befragung"
+  },
+  {
+   "key": "case007.serdar_follow.who.answer",
+   "value": "Ich weiß nicht. Ich muss nachsehen. Melis hat zum Beispiel Zugang zum Schlüssel."
+  },
+  {
+   "key": "case007.serdar_follow.who.answer.demeanor",
+   "value": "Als er den Namen Melis nannte, kniff er die Augen zusammen und sah Sie an."
+  },
+  {
+   "key": "case007.serdar_follow.who.question",
+   "value": "Wer könnte das Fahrzeug benutzt haben?"
+  },
+  {
+   "key": "case007.serdar_third.body",
+   "value": "Befragung nach den Untersuchungen von Fahrzeug und Dienstkorridor."
+  },
+  {
+   "key": "case007.serdar_third.fire.answer",
+   "value": "Die Werkstatt war kalt. Der Winter kommt, darum habe ich das gekauft. Ich habe es Kerem gebracht."
+  },
+  {
+   "key": "case007.serdar_third.fire.answer.demeanor",
+   "value": "Hielt die Antwort sehr knapp."
+  },
+  {
+   "key": "case007.serdar_third.fire.decoy.insurance",
+   "value": "Ich habe die Police erhöht, ja. Wertvolle Werke kamen herein, wir mussten sie absichern."
+  },
+  {
+   "key": "case007.serdar_third.fire.question",
+   "value": "Zeitschaltsteckdose und Heizlüfter haben Sie am 10. Oktober mit Ihrer Firmenkarte gekauft."
+  },
+  {
+   "key": "case007.serdar_third.lamp.answer",
+   "value": "… Ich hatte nichts in der Hand. Die Tischkante. Oder die Lampe ist gefallen, ich weiß nicht. Es war dunkel, alles ging sehr schnell."
+  },
+  {
+   "key": "case007.serdar_third.lamp.answer.demeanor",
+   "value": "Hob den Blick nicht wieder zu Ihnen."
+  },
+  {
+   "key": "case007.serdar_third.lamp.question",
+   "value": "Die Wunde von Herrn Kerem passt zu einem Gegenstand mit rundem Rand und 6 cm Durchmesser. Der Fuß der Lampe neben ihm misst 6,2 cm und ist blutig."
+  },
+  {
+   "key": "case007.serdar_third.there.answer",
+   "value": "… Ich war dort. Kerem hat mich gerufen. Er hatte etwas erfahren, die Police. Er schrie, er werde die Polizei rufen. Er stieß mich, ich stieß ihn auch. Er fiel. Schlug mit dem Kopf auf die Tischkante. Ich dachte, er atmet nicht mehr. Ich geriet in Panik, bin raus. Das ist alles."
+  },
+  {
+   "key": "case007.serdar_third.there.answer.demeanor",
+   "value": "Bedeckte das Gesicht mit den Händen; zum ersten Mal brach seine Stimme."
+  },
+  {
+   "key": "case007.serdar_third.there.decoy.plate",
+   "value": "Dass der Wagen dort war, heißt nicht, dass ich dort war, sagte ich doch."
+  },
+  {
+   "key": "case007.serdar_third.there.question",
+   "value": "Der Gips von Ihrem Reifen liegt in der Hintergasse vor der Diensttür. Der Nachtwächter hat Sie um 00.15 aus dieser Tür kommen sehen."
+  },
+  {
+   "key": "case007.serdar_third.title",
+   "value": "Serdar Belen — dritte Befragung"
+  },
+  {
+   "key": "case007.sphone.body",
+   "value": "Funkzellendaten des Anschlusses von Serdar Belen in der Nacht 14.–15. Oktober:\n\n20.40 – 08.15 · Ataşehir, Umgebung der Wohnung. Standort unverändert.\n\n23.12 · Eingehender Anruf von Kerem Sarıgül, 4 Min. 06 Sek.\n23.17 · Eingehende Nachricht von Kerem Sarıgül.\n23.21 – 00.47 · Keine Anrufe, Nachrichten oder Datennutzung.\n\nHinweis: Das Standortprotokoll zeigt den Ort des Anschlusses, nicht der Person."
+  },
+  {
+   "key": "case007.sphone.title",
+   "value": "HANDYSTANDORTPROTOKOLL — SERDAR BELEN"
+  },
+  {
+   "key": "case007.street.body",
+   "value": "Aufzeichnungsprotokoll der Straßenkamera des Ladens gegenüber der Werkstatt, 14. Oktober 22.00 – 15. Oktober 02.30. Die Kamera zeigt Vordertür und Schaufenster der Werkstatt; Seite des Gebäudes und Hintergasse sind nicht im Bild. Zwischen 23.16 und 02.14 verlässt niemand die Vordertür."
+  },
+  {
+   "key": "case007.street.title",
+   "value": "STRASSENKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case007.summary.evidence",
+   "value": "Der rechtsmedizinische Bericht zeigte, dass die Verletzung vor dem Brand entstand und zu einem runden Gegenstand passt; der Brandbericht, dass der Ausgangspunkt nicht der Verteiler, sondern das Archivregal war, und die Zeitschaltsteckdose. Kennzeichenerfassung und Fahrzeuguntersuchung verbanden den Wagen von Serdar mit Beyoğlu und dem Gips, die Untersuchung des Dienstkorridors denselben Gips mit der Hintergasse. Kartenabrechnung und Versicherungsgutachten zeigten, dass der Brand vor dem Streit geplant war."
+  },
+  {
+   "key": "case007.summary.lesson",
+   "value": "Die Ereigniszeit ist nicht die Tatzeit: Die Kamera sah 02.14, die Tat geschah um 00.05. Motiv, Lüge und Anwesenheit am Tatort machten Melis nicht zur Täterin. Und verwechsle nicht die Folge mit dem Zweck: Der Brand verdeckte den Tod von Kerem, wurde aber nicht dafür gelegt."
+  },
+  {
+   "key": "case007.summary.location",
+   "value": "Beyoğlu, Tomtom — 14.–15. Oktober 2028"
+  },
+  {
+   "key": "case007.summary.truth",
+   "value": "Belen & Sarıgül Restorasyon war hoch verschuldet. Serdar Belen erhöhte am 26. September ohne die Unterschrift von Kerem die Versicherungsdeckung um 240 % und kaufte am 10. Oktober Zeitschaltsteckdose und Heizlüfter; er wollte einen kleinen Brand legen, solange die Werkstatt leer war. Kerem erfuhr von der Police. Am Abend des 14. Oktober sprach er zuerst mit Melis über die Kündigung und rief um 23.12 Serdar an, um ihn herzubestellen. Serdar ließ sein Handy zu Hause, kam, stellte den Wagen in die Hintergasse und ging durch die Diensttür hinein. Als Kerem sagte, er werde die Polizei rufen, schlug Serdar ihn mit der Metalltischlampe. Im Glauben, Kerem sei tot, baute er die vorbereitete Vorrichtung auf: Lösungsmittel aufs Regal gegossen, Heizlüfter an die Zeitschaltsteckdose angeschlossen. Um 00.15 ging er durch die Diensttür; Erdal Kılıç sah ihn und schwieg. Der Brand begann um 02.11. Kerem lebte zu diesem Zeitpunkt noch."
+  },
+  {
+   "key": "case007.suspect.label",
+   "value": "Wer ist für die Verletzung von Kerem verantwortlich, und wie geschah sie?"
+  },
+  {
+   "key": "case007.tablet.caseLine",
+   "value": "AKTE #007  /  BUBE ERMITTLUNGSEINHEIT"
+  },
+  {
+   "key": "case007.time.back_msg",
+   "value": "23.17"
+  },
+  {
+   "key": "case007.time.call",
+   "value": "23.12"
+  },
+  {
+   "key": "case007.time.car_pass",
+   "value": "00.21"
+  },
+  {
+   "key": "case007.time.car_stop",
+   "value": "23.52"
+  },
+  {
+   "key": "case007.time.erdal_saw",
+   "value": "00.15"
+  },
+  {
+   "key": "case007.time.kerem_in",
+   "value": "22.48"
+  },
+  {
+   "key": "case007.time.light",
+   "value": "02.11"
+  },
+  {
+   "key": "case007.time.melis_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case007.time.melis_msg",
+   "value": "21.05"
+  },
+  {
+   "key": "case007.time.melis_out",
+   "value": "23.16"
+  },
+  {
+   "key": "case007.time.plate_in",
+   "value": "23.34"
+  },
+  {
+   "key": "case007.time.plate_out",
+   "value": "00.29"
+  },
+  {
+   "key": "case007.time.serdar_claim",
+   "value": "22.00"
+  },
+  {
+   "key": "case007.time.smoke",
+   "value": "02.14"
+  },
+  {
+   "key": "case007.time.sphone_home",
+   "value": "23.21"
+  },
+  {
+   "key": "case007.title",
+   "value": "Akte #007 — Ascheanteil"
+  },
+  {
+   "key": "case007.vehicle.body",
+   "value": "ANTRAG GENEHMIGT.\n\nUntersuchung des auf Belen & Sarıgül Restorasyon zugelassenen Fahrzeugs:\n\n· Auf Kofferraumboden und Fußmatte weißer, feiner Staub. Analyse: Calciumsulfat; vereinbar mit Restaurierungsgips.\n· Auf der Fahrermatte und um die Pedale Spuren desselben Staubs.\n· Fahrersitz und Spiegel zuletzt in derselben Einstellung; passend zur Einstellung der Person, die das Fahrzeug regelmäßig fährt.\n· In den Reifenprofilen feuchte Erde und derselbe weiße Staub.\n\nHinweis: Restaurierungsgips wird in der Werkstatt verwendet. Allein zeigt er nicht, dass das Fahrzeug an der Werkstatt war."
+  },
+  {
+   "key": "case007.vehicle.title",
+   "value": "FAHRZEUGUNTERSUCHUNGSBERICHT — 34 SBR 482"
+  },
+  {
+   "key": "case007.verdict.melis_blow",
+   "value": "Melis Akın — Schlag mit stumpfem Gegenstand"
+  },
+  {
+   "key": "case007.verdict.none_fall",
+   "value": "Niemand — beim Brand gestürzt und verletzt"
+  },
+  {
+   "key": "case007.verdict.serdar_blow",
+   "value": "Serdar Belen — Schlag mit stumpfem Gegenstand"
+  },
+  {
+   "key": "case007.verdict.serdar_fall",
+   "value": "Serdar Belen — Sturz bei einem Streit"
+  },
+  {
+   "key": "case007.verdict.undetermined",
+   "value": "Nicht feststellbar"
+  }
+ ]
+}
