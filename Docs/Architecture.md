@@ -35,7 +35,7 @@ Eski `Bootstrap.unity` build listesinde **değildir**; `BootScene` ile byte düz
 - `Resources/Bube/Cases/case002.json` — "Son Sefer", 13 düğüm, 31 soru. Taslak değil: `draft` bayrağı 26 Eylül 2026'da kaldırıldı, vaka zincirde case001'in ardından geliyor. Dört sütunlu rapor kullanan ilk vaka.
 - `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (170 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
 - `Resources/Bube/Audio/` — dokuz klip. `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `ui_chat`/`ui_chat_low`, `menu_theme`, `desk_theme`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
-- `StreamingAssets/Bube/` — `world01_intro.mp4` (4.1 MB) + 4 CCTV klibi (12 MB).
+- `StreamingAssets/Bube/` — `career_start.mp4` (3.2 MB, Bora filmi), `main_menu_loop.mp4`, `report_send.mp4`.
 
 Vaka verisi bütünlüğü her test koşumunda otomatik doğrulanır (aşağıdaki "İçerik doğrulama"). case001 ve case002'de sarkan referans, erişilemeyen düğüm veya erişilemeyen soru yoktur.
 
@@ -142,7 +142,7 @@ Yazı tipi tektir (IBM Plex Mono, kök öğeden miras). Punto da tektir: `Typogr
 
 ## Sinematikler
 
-İki video var, ikisi de `Assets/StreamingAssets/Bube/` altında ve Git LFS ile saklanıyor: `world01_intro.mp4` (dünya açılışı) ve `case001_arrival.mp4` (dosyanın masaya bırakılışı). İkisi de `VideoPlayer` ile `RenderTexture`'a çizilip tam ekran `ScaleAndCrop` gösterilir.
+8 Ekim 2026'dan beri açılış filmi yalnız `career_start.mp4`dir (Bora'nın göreve hazırlanışı, `config.json` → `worldIntros` → `career_start`). Eski `world01_intro.mp4` ve `case001_arrival.mp4` silindi; dosya çizilmiş bırakılışla gelir. Videolar `Assets/StreamingAssets/Bube/` altında, Git LFS ile saklanır ve `VideoPlayer` ile `RenderTexture`'a çizilip tam ekran `ScaleAndCrop` gösterilir.
 
 Üretici filigranı **"Geç" düğmesiyle örtülür**. Filigran yeri veriden gelir — `CornerMark { x, y, w, h }`, filmin kendi karesine oranlı (0..1). `PositionIntroSkip` filmin ekrandaki gerçek dikdörtgenini 16:9'dan hesaplar, yani telefonun eni ne olursa olsun düğme doğru yere oturur. Sabit 1280×720 varsayımı kaldırıldı; `world01` değerleri piksel eşdeğer kaldı.
 
