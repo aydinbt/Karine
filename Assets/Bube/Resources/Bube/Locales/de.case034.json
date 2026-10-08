@@ -1,0 +1,568 @@
+{
+ "entries": [
+  {
+   "key": "case034.amira.body",
+   "value": "Ehefrau des Opfers."
+  },
+  {
+   "key": "case034.amira.deflect",
+   "value": "In die Geschäfte des Ladens habe ich mich nicht eingemischt."
+  },
+  {
+   "key": "case034.amira.last.answer",
+   "value": "‚Heute Nacht bringe ich die Bücher in Ordnung, morgen gehe ich zur Dienststelle Belleville‘, sagte er. Letzte Woche sei jemand von der Dienststelle gekommen und habe nach einer Telefonnummer gefragt, wegen einer Vergiftung. Malik hat begriffen, dass wir diese Nummer verkauft hatten."
+  },
+  {
+   "key": "case034.amira.last.answer.demeanor",
+   "value": "Schiebt sich das Haar hinters Ohr, es fällt wieder herunter."
+  },
+  {
+   "key": "case034.amira.last.question",
+   "value": "Was hat Malik gestern Abend gesagt?"
+  },
+  {
+   "key": "case034.amira.title",
+   "value": "Amira Saïdi — Befragung"
+  },
+  {
+   "key": "case034.autopsy.body",
+   "value": "· Ein einzelner, tiefer, schmaler Stich in die Brust; eine dünne, spitze Klinge.\n· An der rechten Hand Werkbankstaub, in der linken Handfläche ein kleiner Schnitt: Er versuchte, die Klinge zu packen.\n· Todeszeitpunkt: 19. Mai 21.45–22.45."
+  },
+  {
+   "key": "case034.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case034.cctv.event.in",
+   "value": "Kamera: Eine Gestalt in dunkelgrauem Sweatshirt mit aufgesetzter Kapuze betritt den Laden unter dem halb geöffneten Rollladen."
+  },
+  {
+   "key": "case034.cctv.event.light",
+   "value": "Kamera: Die Straße ist leer; im Laden schwankt die Glühbirne, über die Rückwand zieht ein Schatten."
+  },
+  {
+   "key": "case034.cctv.event.out",
+   "value": "Kamera: Die Gestalt mit Kapuze kommt unter dem Rollladen hervor, die rechte Hand in der Bauchtasche vergraben, und geht schnell bergauf."
+  },
+  {
+   "key": "case034.cctv.overlay",
+   "value": "ZH-1"
+  },
+  {
+   "key": "case034.cctv.period",
+   "value": "19. Mai 2030"
+  },
+  {
+   "key": "case034.cctv.source",
+   "value": "Kamera des Lebensmittelladens"
+  },
+  {
+   "key": "case034.clue.handoff",
+   "value": "Yacine gibt sein Telefon dem jungen Kurier."
+  },
+  {
+   "key": "case034.clue.in",
+   "value": "Die Gestalt mit Kapuze tritt unter dem Rollladen ein."
+  },
+  {
+   "key": "case034.clue.out",
+   "value": "Die Gestalt kommt, die rechte Hand in der Tasche, heraus und geht bergauf."
+  },
+  {
+   "key": "case034.clue.route",
+   "value": "Das Telefon von Yacine bewegt sich auf einer Kurierroute."
+  },
+  {
+   "key": "case034.clue.sim",
+   "value": "Drei nicht registrierte SIMs an einen Kunden, ‚groß, an der linken Hand ein Ring‘."
+  },
+  {
+   "key": "case034.clue.source.simbook",
+   "value": "SIM-Heft"
+  },
+  {
+   "key": "case034.clue.source.theo",
+   "value": "Junger Kurier"
+  },
+  {
+   "key": "case034.clue.source.track",
+   "value": "Standortprotokoll"
+  },
+  {
+   "key": "case034.custody.label",
+   "value": "Bei wem war das Telefon von Yacine in jener Nacht?"
+  },
+  {
+   "key": "case034.custody.shop",
+   "value": "Im Laden vergessen"
+  },
+  {
+   "key": "case034.custody.theo",
+   "value": "Beim jungen Kurier Théo Marchand"
+  },
+  {
+   "key": "case034.custody.yacine",
+   "value": "Bei Yacine selbst"
+  },
+  {
+   "key": "case034.epilogue.custody.shop",
+   "value": "Man nahm an, das Telefon sei im Laden geblieben; das Standortprotokoll galt als Fehler."
+  },
+  {
+   "key": "case034.epilogue.custody.theo",
+   "value": "Festgehalten wurde, dass das Standortalibi mit dem Telefon gebaut wurde, das dem jungen Kurier gegeben worden war."
+  },
+  {
+   "key": "case034.epilogue.custody.yacine",
+   "value": "Das Standortprotokoll wurde als Aufenthaltsort von Yacine akzeptiert."
+  },
+  {
+   "key": "case034.epilogue.verdict.amira",
+   "value": "Amira Saïdi wurde beschuldigt; die Kopie des Hefts wurde nie gelesen."
+  },
+  {
+   "key": "case034.epilogue.verdict.popescu",
+   "value": "Dimitri Popescu wurde festgenommen; das Standortprotokoll galt als Entlastung von Yacine."
+  },
+  {
+   "key": "case034.epilogue.verdict.theo",
+   "value": "Théo Marchand wurde in Gewahrsam genommen; niemand fragte, warum er das Telefon eines anderen bei sich trug."
+  },
+  {
+   "key": "case034.epilogue.verdict.yacine",
+   "value": "Yacine Saïdi wurde festgenommen. Die Kopie des SIM-Hefts wurde mit Akte #033 zusammengeführt; die Beschreibung ‚groß, an der linken Hand ein Ring‘ ist in beiden Akten dieselbe."
+  },
+  {
+   "key": "case034.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case034.evidence.flat",
+   "value": "Wohnung von Yacine Saïdi — Durchsuchung"
+  },
+  {
+   "key": "case034.evidence.simbook",
+   "value": "SIM-Heft"
+  },
+  {
+   "key": "case034.evidence.track",
+   "value": "Standortprotokoll des Telefons"
+  },
+  {
+   "key": "case034.feedback.amira",
+   "value": "Die Ehefrau kam am Morgen; es war ihr Mann, der ihr die Kopie des Hefts hinterlegt hatte."
+  },
+  {
+   "key": "case034.feedback.popescu",
+   "value": "Der Zwischenhändler stritt um Geld, war aber in Montreuil; aus dem Laden wurde nichts genommen, nur das Heft und die hintere Kasse."
+  },
+  {
+   "key": "case034.feedback.theo",
+   "value": "Der Junge trug das Telefon; sein Standort zeigt, dass er die ganze Nacht mit dem Roller auslieferte."
+  },
+  {
+   "key": "case034.feedback.yacine",
+   "value": "Das Standortalibi stammt vom Roller des jungen Kuriers; in seiner Wohnung das blutige Sweatshirt, das Messer, das Geld aus der Kasse und das verbrannte Original des Hefts. Das Opfer wollte die SIM-Verkäufe zur Dienststelle bringen."
+  },
+  {
+   "key": "case034.file.caseType",
+   "value": "MORD"
+  },
+  {
+   "key": "case034.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case034.file.value.location",
+   "value": "Paris, 20. Arrondissement, Belleville — Reparaturladen"
+  },
+  {
+   "key": "case034.file.value.number",
+   "value": "BDP-PAR-2030-0124"
+  },
+  {
+   "key": "case034.file.value.offence",
+   "value": "Vorsätzliche Tötung"
+  },
+  {
+   "key": "case034.file.value.reporter",
+   "value": "Ehefrau des Opfers"
+  },
+  {
+   "key": "case034.flat.body",
+   "value": "Mit Genehmigung der Dienststellenleitung:\n\n· In der Waschmaschine ein nasses, dunkelgraues Kapuzensweatshirt; an der rechten Manschette trotz Wäsche ein Blutring, DNA Malik Saïdi.\n· Im Küchenmüll ein dünnes Displayschabmesser mit spitzer Klinge; blutig. Am Griff die Abdrücke von Léa Dubois (erwartet) und von Yacine.\n· Unter dem Bett das Geld aus der hinteren Kasse (3.100 Euro) und das Original des karierten Hefts, halb verbrannt."
+  },
+  {
+   "key": "case034.flat.title",
+   "value": "WOHNUNG VON YACINE SAÏDI — DURCHSUCHUNG"
+  },
+  {
+   "key": "case034.lea.body",
+   "value": "Lehrling."
+  },
+  {
+   "key": "case034.lea.book.answer",
+   "value": "Die nicht registrierten verkaufte Yacine, aus der hinteren Kasse. Ich dachte, Malik wusste es nicht; letzte Woche hat er es erfahren, er war sehr wütend. Die Verkäufe haben wir in ein kariertes Heft geschrieben. Das Heft lag in der hinteren Kasse."
+  },
+  {
+   "key": "case034.lea.book.answer.demeanor",
+   "value": "Zieht das Lupenband aus dem Haar und dreht es in der Hand."
+  },
+  {
+   "key": "case034.lea.book.question",
+   "value": "Hat der Laden auch SIM-Karten verkauft?"
+  },
+  {
+   "key": "case034.lea.deflect",
+   "value": "Fragen Sie das Yacine."
+  },
+  {
+   "key": "case034.lea.title",
+   "value": "Léa Dubois — Befragung"
+  },
+  {
+   "key": "case034.lea.tool.answer",
+   "value": "Mein Displayschabmesser. Dünn, spitz. Sein Platz in meinem Set ist leer."
+  },
+  {
+   "key": "case034.lea.tool.question",
+   "value": "Fehlt etwas auf der Werkbank?"
+  },
+  {
+   "key": "case034.method.knife",
+   "value": "Mit dem Displayschabmesser von der Werkbank in die Brust gestochen"
+  },
+  {
+   "key": "case034.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case034.method.robbery",
+   "value": "Bei einem Raub erstochen"
+  },
+  {
+   "key": "case034.method.screwdriver",
+   "value": "Mit einem Schraubenzieher angegriffen"
+  },
+  {
+   "key": "case034.offer.subtitle",
+   "value": "DER REPARATEUR  /  MORD"
+  },
+  {
+   "key": "case034.offer.summary",
+   "value": "In Belleville liegt ein Handyreparateur erstochen in seinem Hinterzimmer. Die Kasse wurde nicht geöffnet; das Telefon seines Cousins war in der Nacht am anderen Ende des Viertels."
+  },
+  {
+   "key": "case034.offer.title",
+   "value": "AKTE #034"
+  },
+  {
+   "key": "case034.person.amira.info",
+   "value": "36 Jahre, Ehefrau des Opfers; Friseurin im Viertel."
+  },
+  {
+   "key": "case034.person.amira.name",
+   "value": "Amira Saïdi"
+  },
+  {
+   "key": "case034.person.lea.info",
+   "value": "24 Jahre, Lehrling des Ladens; repariert Platinen."
+  },
+  {
+   "key": "case034.person.lea.name",
+   "value": "Léa Dubois"
+  },
+  {
+   "key": "case034.person.popescu.info",
+   "value": "47 Jahre, Zwischenhändler, der gebrauchte Telefone kauft und verkauft."
+  },
+  {
+   "key": "case034.person.popescu.name",
+   "value": "Dimitri Popescu"
+  },
+  {
+   "key": "case034.person.theo.info",
+   "value": "17 Jahre, ein Junge aus dem Viertel; fährt mit dem Roller als Kurier."
+  },
+  {
+   "key": "case034.person.theo.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case034.person.yacine.info",
+   "value": "31 Jahre, Cousin des Opfers und Teilhaber des Ladens."
+  },
+  {
+   "key": "case034.person.yacine.name",
+   "value": "Yacine Saïdi"
+  },
+  {
+   "key": "case034.person.zhou.info",
+   "value": "62 Jahre, Inhaberin des Lebensmittelladens gegenüber."
+  },
+  {
+   "key": "case034.person.zhou.name",
+   "value": "Zhou Meilin"
+  },
+  {
+   "key": "case034.popescu.body",
+   "value": "Gebrauchthändler."
+  },
+  {
+   "key": "case034.popescu.deflect",
+   "value": "Mein Handel ist legal."
+  },
+  {
+   "key": "case034.popescu.fight.answer",
+   "value": "Montag, wegen Geld. Er schuldete mir vierzig Telefone. Aber ein Toter zahlt keine Schulden, oder? Gestern Abend war ich in Montreuil, auf einem Markt, vierzig Leute haben mich gesehen."
+  },
+  {
+   "key": "case034.popescu.fight.answer.demeanor",
+   "value": "Tastet mit der Zunge nach seinem Goldzahn."
+  },
+  {
+   "key": "case034.popescu.fight.question",
+   "value": "Sie haben mit Malik gestritten."
+  },
+  {
+   "key": "case034.popescu.title",
+   "value": "Dimitri Popescu — Befragung"
+  },
+  {
+   "key": "case034.report.body",
+   "value": "Am 20. Mai 2030 um 07.40 wurde im Hinterzimmer eines Handyreparaturladens in Belleville der Inhaber Malik Saïdi (39) erstochen aufgefunden. Seine Ehefrau Amira Saïdi kam am Morgen in den Laden, als ihr Mann nicht nach Hause gekommen war.\n\nDer Rollladen halb offen. Die Kasse nicht geöffnet; die Telefone im Schaufenster an ihrem Platz. Die kleine Kasse im Hinterzimmer offen, leer.\n\nDer Teilhaber und Cousin Yacine Saïdi gab an, das Viertel nach 21.00 verlassen zu haben und bis zum Morgen mit Freunden unterwegs gewesen zu sein; der Telefonstandort stützt das."
+  },
+  {
+   "key": "case034.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case034.request.flat",
+   "value": "Durchsuchungsbeschluss für die Wohnung von Yacine Saïdi beantragen"
+  },
+  {
+   "key": "case034.request.simbook",
+   "value": "Nachforschen, ob es eine Kopie des Hefts gibt"
+  },
+  {
+   "key": "case034.request.track",
+   "value": "Standortprotokoll des Telefons von Yacine Saïdi anfordern"
+  },
+  {
+   "key": "case034.simbook.body",
+   "value": "Fotokopie des aus der hinteren Kasse verschwundenen Hefts: Malik Saïdi ließ das Heft einen Tag vor seinem Tod im Copyshop vervielfältigen und die Kopie im Friseursalon seiner Frau hinterlegen.\n\n· 9. April · nicht registrierte SIM ×3 — ‚Kunde von Yacine; groß, an der linken Hand ein Ring, bar 900‘.\n· Neben der Zeile in der Handschrift von Malik: ‚Diese Nummer hat den Bäcker getötet. Yacine fragen, dann zur Dienststelle.‘\n· April–Mai: 61 Verkäufe nicht registrierter SIMs auf den Namen Yacine Saïdi."
+  },
+  {
+   "key": "case034.simbook.title",
+   "value": "SIM-HEFT"
+  },
+  {
+   "key": "case034.street.body",
+   "value": "Sieht den Reparaturladen auf dem gegenüberliegenden Gehweg. 19. Mai 21.00 – 23.00."
+  },
+  {
+   "key": "case034.street.title",
+   "value": "MARKISENKAMERA DES LEBENSMITTELLADENS — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case034.summary.evidence",
+   "value": "Das Standortprotokoll zeigte eine Kurierroute im Rollertempo; der Junge redete, als die Kopie des Hefts auftauchte. Die Kamera des Lebensmittelladens lieferte Ein- und Ausgang, die mit zwei Gründen beantragte Wohnungsdurchsuchung Sweatshirt, Messer, Geld und das verbrannte Heft."
+  },
+  {
+   "key": "case034.summary.lesson",
+   "value": "Wo ein Telefon ist, ist nicht, wo sein Besitzer ist. Frag nach der Hand, die das Gerät trägt."
+  },
+  {
+   "key": "case034.summary.location",
+   "value": "Belleville — Mai 2030"
+  },
+  {
+   "key": "case034.summary.truth",
+   "value": "Malik Saïdi fand heraus, dass sein Cousin Yacine aus der hinteren Kasse nicht registrierte SIMs verkaufte und dass die Nummer, die den Bäcker getötet hatte, aus einem dieser Verkäufe stammte; er ließ das Heft kopieren und beschloss, zur Dienststelle zu gehen. Yacine gab sein Telefon für zwanzig Euro einem jungen Kurier und baute sich so ein Standortalibi, betrat um 22.02 mit Kapuze den Laden, tötete den Cousin, der das Heft nicht herausgab, mit dem Schabmesser von der Werkbank und nahm Heft und Geld an sich."
+  },
+  {
+   "key": "case034.suspect.label",
+   "value": "Wer hat Malik Saïdi getötet?"
+  },
+  {
+   "key": "case034.tablet.caseLine",
+   "value": "AKTE #034  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case034.theo.body",
+   "value": "Ein Junge aus dem Viertel."
+  },
+  {
+   "key": "case034.theo.deflect",
+   "value": "Keine Ahnung, ehrlich."
+  },
+  {
+   "key": "case034.theo.night.answer",
+   "value": "Kurierfahrten. Mache ich jede Nacht. Ménilmontant, Oberkampf … normal."
+  },
+  {
+   "key": "case034.theo.night.answer.demeanor",
+   "value": "Zieht seinen Reißverschluss rauf und runter."
+  },
+  {
+   "key": "case034.theo.night.question",
+   "value": "Was hast du gestern Nacht gemacht?"
+  },
+  {
+   "key": "case034.theo.night.variant0",
+   "value": "… Okay. Yacine hat mir um neun sein Telefon gegeben, zwanzig Euro. ‚Trag es in der Tasche, mach deine Lieferungen, bring es um Mitternacht zurück‘, sagte er. ‚Meine Freundin trackt mich‘, sagte er. Um Mitternacht hab ich es an seiner Tür abgegeben. Von einem Messer weiß ich nichts, ich war auf dem Roller."
+  },
+  {
+   "key": "case034.theo.title",
+   "value": "Théo Marchand — Befragung"
+  },
+  {
+   "key": "case034.time.handoff",
+   "value": "21.00"
+  },
+  {
+   "key": "case034.time.in",
+   "value": "22.02"
+  },
+  {
+   "key": "case034.time.light",
+   "value": "22.06"
+  },
+  {
+   "key": "case034.time.out",
+   "value": "22.11"
+  },
+  {
+   "key": "case034.time.route",
+   "value": "21.20–23.40"
+  },
+  {
+   "key": "case034.time.sim",
+   "value": "9. April"
+  },
+  {
+   "key": "case034.title",
+   "value": "Akte #034 — Der Reparateur"
+  },
+  {
+   "key": "case034.track.body",
+   "value": "Telefon von Yacine Saïdi, 19. Mai:\n· 21.05 · Belleville, vor dem Laden\n· 21.20–23.40 · ständig in Bewegung zwischen Ménilmontant, Père-Lachaise, Oberkampf und République; Durchschnittsgeschwindigkeit 18–22 km/h, 14 Stopps, jeder 2–4 Minuten.\n· 23.55 · Belleville, Wohnung von Yacine.\n\nAnmerkung: kein Gehtempo; Yacine hat kein registriertes Fahrzeug. Das Muster der Stopps deckt sich mit der Lieferroute einer Kurier-App."
+  },
+  {
+   "key": "case034.track.title",
+   "value": "STANDORTPROTOKOLL DES TELEFONS — YACINE SAÏDI"
+  },
+  {
+   "key": "case034.verdict.amira",
+   "value": "Amira Saïdi"
+  },
+  {
+   "key": "case034.verdict.popescu",
+   "value": "Dimitri Popescu"
+  },
+  {
+   "key": "case034.verdict.theo",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case034.verdict.yacine",
+   "value": "Yacine Saïdi"
+  },
+  {
+   "key": "case034.yacine.body",
+   "value": "Cousin und Teilhaber."
+  },
+  {
+   "key": "case034.yacine.deflect",
+   "value": "Die Bücher des Ladens sind unsere Sache."
+  },
+  {
+   "key": "case034.yacine.night.answer",
+   "value": "Ich war unterwegs, mit Freunden. Schauen Sie auf meinen Standort, ich war bis Oberkampf. Ich soll Malik getötet haben? Er ist mein Blut."
+  },
+  {
+   "key": "case034.yacine.night.answer.demeanor",
+   "value": "Spielt mit seiner Kette."
+  },
+  {
+   "key": "case034.yacine.night.question",
+   "value": "Wo waren Sie gestern Nacht?"
+  },
+  {
+   "key": "case034.yacine.title",
+   "value": "Yacine Saïdi — Befragung"
+  },
+  {
+   "key": "case034.yacine_2.body",
+   "value": "Zur Durchsuchung."
+  },
+  {
+   "key": "case034.yacine_2.title",
+   "value": "Yacine Saïdi — zweite Befragung"
+  },
+  {
+   "key": "case034.yacine_2.why.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.flat",
+   "value": "… Er wollte das Heft zur Dienststelle bringen. Dieser Mann, der mit dem Ring, hatte zu mir gesagt: ‚Wenn du noch einmal Verkäufe aufschreibst, gibt es auch für dich einen Sack Mehl.‘ Malik hörte nicht. Ich wollte das Heft, er gab es nicht her, das Messer lag auf der Werkbank."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.simbook",
+   "value": "SIMs zu verkaufen ist kein Verbrechen. Der große Mann? Ein Kunde. Seinen Namen kenne ich nicht. Er kam nie wieder."
+  },
+  {
+   "key": "case034.yacine_2.why.presented.track",
+   "value": "Mein Telefon war bei einem Freund, ich hab es ihm geliehen. Ist das verboten?"
+  },
+  {
+   "key": "case034.yacine_2.why.question",
+   "value": "Sie waren es, der um 22.02 den Laden betrat."
+  },
+  {
+   "key": "case034.zhou.body",
+   "value": "Lebensmittelladen gegenüber."
+  },
+  {
+   "key": "case034.zhou.deflect",
+   "value": "Ich kümmere mich um meinen eigenen Laden."
+  },
+  {
+   "key": "case034.zhou.saw.answer",
+   "value": "Gegen zehn ging jemand mit Kapuze unter dem Rollladen hinein. Nicht groß, nicht klein. Den Gang meinte ich zu kennen, aber die Kapuze … An meiner Markise hängt eine Kamera, mein Sohn hat sie angebracht, schauen Sie nach."
+  },
+  {
+   "key": "case034.zhou.saw.question",
+   "value": "Haben Sie gestern Nacht etwas gesehen?"
+  },
+  {
+   "key": "case034.zhou.title",
+   "value": "Zhou Meilin — Befragung"
+  },
+  {
+   "key": "case034.item.knife.name",
+   "value": "Schabmesser"
+  },
+  {
+   "key": "case034.item.knife.detail",
+   "value": "Dünnes Messer mit spitzer Klinge zum Lösen von Displays; das, das im Set auf der Werkbank fehlt."
+  },
+  {
+   "key": "case034.item.simbook.name",
+   "value": "SIM-Heft"
+  },
+  {
+   "key": "case034.item.simbook.detail",
+   "value": "Ein kariertes Schulheft; Spalten für Datum, SIM-Nummer und Kundenbeschreibung."
+  },
+  {
+   "key": "case034.item.hoodie.name",
+   "value": "Kapuzensweatshirt"
+  },
+  {
+   "key": "case034.item.hoodie.detail",
+   "value": "In der Wohnung von Yacine, nass in der Waschmaschine, an den Ärmeln ein hellbrauner Fleckring."
+  }
+ ]
+}
