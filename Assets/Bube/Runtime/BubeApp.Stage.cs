@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 namespace Bube {
 // Sahne katmanının ikinci yarısı (P–X): vaka açılışı, masadaki kapanmış
 // dosyalar rafı, görüşmeden çıkış, kariyer duvarı, kayıt satırı, erişilebilirlik
-// seçenekleri ve geliştirici efekt laboratuvarı. `BubeApp`in parçasıdır.
+// seçenekleri. `BubeApp`in parçasıdır.
 public sealed partial class BubeApp {
  const string CaptionsKey="karine.captions",SpacingKey="karine.spacing",ContrastKey="karine.contrast",OneHandKey="karine.oneHand",PlayKey="karine.playSeconds";
  bool leavingRoom,heardHooked,draftCaptions,draftSpacing,draftContrast,draftOneHand;
@@ -106,44 +106,6 @@ public sealed partial class BubeApp {
  void SaveAccessDraft() {
   PlayerPrefs.SetInt(CaptionsKey,draftCaptions?1:0);PlayerPrefs.SetInt(SpacingKey,draftSpacing?1:0);
   PlayerPrefs.SetInt(ContrastKey,draftContrast?1:0);PlayerPrefs.SetInt(OneHandKey,draftOneHand?1:0);Fx.SetStrength(draftStrength);
- }
-
- // Efekt laboratuvarı (yalnız geliştirme derlemesi): her efekt tek dokunuşla
- // denenir; "Konum" görüşme odasını açıp nesneleri sürüklenebilir yapar.
- void DevLab() {
-  Back(()=>{Home();SettingsPage();});
-  root.Clear();root.style.backgroundColor=KarineTheme.GlassDeep;
-  var body=new VisualElement();body.style.flexGrow=1;body.style.paddingLeft=24;body.style.paddingRight=24;body.style.paddingTop=16;root.Add(body);
-  var header=KarineUI.Row(body);header.style.justifyContent=Justify.SpaceBetween;
-  KarineUI.Technical(header,T("settings.devLab"),KarineTheme.Office.TitleSize).style.color=KarineTheme.Primary;
-  KarineUI.IconButton(header,"close",()=>{Home();SettingsPage();},T("offer.back"));
-  var grid=new VisualElement();grid.style.flexDirection=FlexDirection.Row;grid.style.flexWrap=Wrap.Wrap;body.Add(grid);
-  var stage=new VisualElement();stage.style.flexGrow=1;stage.style.marginTop=12;stage.style.backgroundColor=KarineTheme.Glass;stage.style.overflow=Overflow.Hidden;body.Add(stage);
-  var art=new[]{Resources.Load<Texture2D>("Bube/Case001Building"),Resources.Load<Texture2D>("Bube/InterviewRoom")}.Where(t=>t!=null).ToArray();
-  var parts=T(game.Data.titleKey).Split(new[]{'—'},2);
-  var tests=new (string label,Action run)[]{
-   ("Açılış",()=>KarineUI.CaseOpening(root,parts[0].Trim(),parts.Last().Trim(),null)),
-   ("Mekân",()=>KarineUI.LocationReel(root,art,null)),
-   ("Çıkış",()=>KarineUI.LeaveRoom(root)),
-   ("Zarf",()=>KarineUI.EnvelopeSeal(root,v=>v?.RemoveFromHierarchy())),
-   ("Mühür",()=>KarineUI.StampDown(root,T("report.stamp"),null)),
-   ("Yanık",()=>KarineUI.FilmBurn(root,null)),
-   ("Kapandı",()=>KarineUI.CaseClosed(root,T(game.Data.titleKey),T("case.closedStamp"),null)),
-   ("Rütbe",()=>KarineUI.RankCeremony(root,T(game.TrustStatusKey),null)),
-   ("Bağlantı",()=>KarineUI.Connecting(root,T("terminal.connecting"))),
-   ("Geri sar",()=>KarineUI.Rewind(stage)),
-   ("Kayma",()=>KarineUI.ChromaShake(root)),
-   ("Altyazı",()=>KarineUI.Caption(root,T("caption.amb_phone"))),
-   ("Motif",()=>audioDirector?.Sting()),
-   ("Konum",PlaceRoom),
-  }.Concat(PolishTests(stage)).ToArray();
-  foreach(var test in tests){var b=KarineUI.Button_(grid,test.label,test.run,KarineButtonKind.Secondary);b.style.marginRight=6;b.style.marginBottom=6;}
- }
- void PlaceRoom() {
-  var people=game.Data.nodes.FirstOrDefault(n=>n.kind=="interview" && game.Available(n));
-  if(people==null)return;
-  InterviewPage(people);
-  root.schedule.Execute(()=>KarineUI.Placer(root,"RoomLamp","RoomMirror","RoomClock")).StartingIn(300);
  }
 }
 }

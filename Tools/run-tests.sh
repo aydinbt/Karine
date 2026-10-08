@@ -40,6 +40,15 @@ fi
 echo "Lisans kanalı: $CHANNEL"
 
 mkdir -p "$WORK"
+# Testler oyunun **gerçek** ayar kaydına yazar: kopya proje aynı şirket/ürün adını
+# taşıdığı için Unity aynı PlayerPrefs alanını kullanır. Ses testi müziği kapatıyor,
+# efekt testleri efektleri değiştiriyordu; oyuncu Editor'de ayarını "kendiliğinden
+# sıfırlanmış" buluyordu (8 Ekim 2026). Koşudan önce alan saklanır, sonra geri yazılır.
+PREFS_DOMAIN="unity.$(sed -n 's/^  companyName: //p' "$PROJECT/ProjectSettings/ProjectSettings.asset").$(sed -n 's/^  productName: //p' "$PROJECT/ProjectSettings/ProjectSettings.asset")"
+PREFS_BACKUP="$WORK/prefs-backup.plist"; rm -f "$PREFS_BACKUP"
+if [ "$(uname)" = Darwin ] && defaults export "$PREFS_DOMAIN" "$PREFS_BACKUP" 2>/dev/null; then
+  trap 'defaults delete "$PREFS_DOMAIN" >/dev/null 2>&1 || true; defaults import "$PREFS_DOMAIN" "$PREFS_BACKUP"' EXIT
+fi
 rsync -a --delete \
   --exclude Library --exclude Temp --exclude Logs --exclude UserSettings \
   --exclude obj --exclude .git \

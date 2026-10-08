@@ -97,42 +97,5 @@ public sealed partial class BubeApp {
    KarineUI.Credits(root,new[]{T("credits.0"),T("credits.1"),T("credits.2")},again);
   });
  }
-
- // Geliştirici: yeni efektlerin denemesi, efekt kaydı ve kare süresi profili.
- IEnumerable<(string label,Action run)> PolishTests(VisualElement stage) {
-  yield return ("Bölüm",()=>KarineUI.ChapterCard(root,"23:00",T(game.Data.titleKey),null));
-  yield return ("Yazıcı",()=>KarineUI.Printout(root,new[]{"KAYIT 0001","—","Deneme çıktısı"},null));
-  yield return ("Bant",()=>KarineUI.TapeInsert(root));
-  yield return ("Karışma",()=>{var v=KarineUI.Shuffle(root);root.schedule.Execute(()=>v?.RemoveFromHierarchy()).StartingIn(2400);});
-  yield return ("Yankı",()=>KarineUI.Echo(root,T(game.Data.titleKey)));
-  yield return ("Jenerik",()=>KarineUI.Credits(root,new[]{T("credits.0"),T("credits.1"),T("credits.2")},null));
-  yield return ("Kaydet",()=>StartCoroutine(RecordFx()));
-  yield return ("Profil",()=>StartCoroutine(Profile(stage)));
- }
-
- // Efekt kaydı: 2,4 saniye boyunca saniyede 15 kare PNG; mağaza görselleri için.
- System.Collections.IEnumerator RecordFx() {
-  string folder=Path.Combine(Application.persistentDataPath,"fxrec",DateTime.Now.ToString("yyyyMMdd-HHmmss"));
-  Directory.CreateDirectory(folder);
-  for(int i=0;i<36;i++) {
-   yield return new WaitForEndOfFrame();
-   ScreenCapture.CaptureScreenshot(Path.Combine(folder,i.ToString("000")+".png"));
-   yield return new WaitForSecondsRealtime(1f/15f);
-  }
-  Debug.Log("Efekt kaydı: "+folder);
- }
-
- // Kare süresi profili: 60 saniye, ortalama / %95 / en kötü ve CSV.
- System.Collections.IEnumerator Profile(VisualElement stage) {
-  var label=KarineUI.Technical(stage,"profil: 60 s…",KarineTheme.Office.SmallSize);label.style.color=KarineTheme.Film.Phosphor;
-  var samples=new List<float>();float until=Time.realtimeSinceStartup+60f;
-  while(Time.realtimeSinceStartup<until){samples.Add(Time.unscaledDeltaTime*1000f);yield return null;}
-  samples.Sort();
-  float average=samples.Average(),p95=samples[Mathf.Min(samples.Count-1,(int)(samples.Count*.95f))],worst=samples[samples.Count-1];
-  string summary=$"kare {samples.Count}  ort {average:0.0} ms  %95 {p95:0.0} ms  en kötü {worst:0.0} ms  hedef {1000f/Mathf.Max(1,Application.targetFrameRate):0.0} ms";
-  string path=Path.Combine(Application.persistentDataPath,"perf_"+DateTime.Now.ToString("yyyyMMdd-HHmmss")+".csv");
-  File.WriteAllText(path,"ms\n"+string.Join("\n",samples.Select(s=>s.ToString("0.00",System.Globalization.CultureInfo.InvariantCulture))));
-  label.text=summary;Debug.Log(summary+"  → "+path);
- }
 }
 }

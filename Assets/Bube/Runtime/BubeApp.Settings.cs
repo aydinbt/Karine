@@ -118,7 +118,6 @@ public sealed partial class BubeApp {
   Button(KarineUI.SettingRow(body,T("settings.career"),T("settings.career.hint")),T("menu.row.newCareer"),()=>{CloseSettings();confirmRestart=true;RestartPage();});
   if(DevMeterAllowed) {
    SwitchRow(body,"settings.devMeter",draftMeter,()=>draftMeter=!draftMeter);
-   Button(KarineUI.SettingRow(body,T("settings.devLab"),null),T("settings.devLab"),()=>{CloseSettings();DevLab();});
   }
  }
 }
