@@ -1,0 +1,688 @@
+{
+ "entries": [
+  {
+   "key": "case031.autopsy.body",
+   "value": "· Tetrodotoxinvergiftung (Fugugift); Atemlähmung.\n· Mageninhalt: Fugu-Sashimi, Fugu-Eintopf, Reisbrei und zuletzt heißer Sake mit gerösteter Flosse.\n· Beginn der Symptome (Taubheit der Zunge) gegen 22.05. Tetrodotoxin zeigt meist 20–40 Minuten nach der Aufnahme Symptome.\n· Der Blutspiegel ist hoch; vereinbar nicht mit einigen Gramm Leber, sondern mit einer reinen Substanz."
+  },
+  {
+   "key": "case031.autopsy.title",
+   "value": "OBDUKTION UND TOXIKOLOGIE"
+  },
+  {
+   "key": "case031.bin.body",
+   "value": "Das Siegel der Fugu-Abfallbox ist unversehrt. Die Box wurde geöffnet, der Inhalt gewogen:\n\n· Leber 412 g, Eierstöcke 188 g, Augen, Darm.\n· Die handschriftliche Liste, die Ōmura Takeshi in derselben Nacht führte: Leber 410 g, Eierstöcke 190 g.\n\nDie Abweichung liegt innerhalb der Waagengenauigkeit. Von den giftigen Teilen des Fisches fehlt nichts."
+  },
+  {
+   "key": "case031.bin.title",
+   "value": "PROTOKOLL DER KÜCHENABFALLBOX"
+  },
+  {
+   "key": "case031.cctv.event.enter",
+   "value": "Kamera: Der Mann öffnet die Tür des Separees und tritt kniend ein; das Tablett hält er mit beiden Händen, über dem Becher eine kleine Flamme."
+  },
+  {
+   "key": "case031.cctv.event.pause",
+   "value": "Kamera: Der Mann bleibt im Flur stehen, den Kopf über das Tablett gebeugt, eine Hand in der Jackentasche."
+  },
+  {
+   "key": "case031.cctv.event.take",
+   "value": "Kamera: Ein Mann im dunklen Anzug nimmt am Küchenfenster einen kleinen, abgedeckten Becher auf einem Tablett entgegen; einen Moment dreht er der Kamera den Rücken zu."
+  },
+  {
+   "key": "case031.cctv.overlay",
+   "value": "RYO-2"
+  },
+  {
+   "key": "case031.cctv.period",
+   "value": "18. April 2030"
+  },
+  {
+   "key": "case031.cctv.source",
+   "value": "Flurkamera"
+  },
+  {
+   "key": "case031.clue.cancel",
+   "value": "Der Präsident sagt am Tisch: ‚Den Pariser Verkauf wird es nicht geben.‘"
+  },
+  {
+   "key": "case031.clue.lab",
+   "value": "Der Finanzdirektor lässt 1 mg Tetrodotoxin aus der Tochterfirma ausgeben."
+  },
+  {
+   "key": "case031.clue.msg",
+   "value": "‚Erledigt. Der Verkauf ist Montag unterschriftsreif.‘"
+  },
+  {
+   "key": "case031.clue.numb",
+   "value": "Die Zunge des Präsidenten wird taub."
+  },
+  {
+   "key": "case031.clue.pause",
+   "value": "Der Mann bleibt im Flur stehen, die Hand in der Jackentasche."
+  },
+  {
+   "key": "case031.clue.source.autopsy",
+   "value": "Obduktion"
+  },
+  {
+   "key": "case031.clue.source.lab",
+   "value": "Laborinventar"
+  },
+  {
+   "key": "case031.clue.source.phone",
+   "value": "Telefon"
+  },
+  {
+   "key": "case031.clue.source.sayuri",
+   "value": "Tochter des Präsidenten"
+  },
+  {
+   "key": "case031.clue.take",
+   "value": "Der Mann im Anzug nimmt den Becher am Küchenfenster entgegen."
+  },
+  {
+   "key": "case031.corridor.body",
+   "value": "Der Flur zwischen Küchenfenster und Separee. 18. April 21.30 – 22.30."
+  },
+  {
+   "key": "case031.corridor.title",
+   "value": "FLURKAMERA DES RYŌTEI — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case031.cup.body",
+   "value": "· Sakerest am Boden des Hirezake-Bechers des Präsidenten: Tetrodotoxin, hohe Konzentration.\n· Die Karaffe in der Küche, aus der derselbe Sake gegossen wurde: sauber.\n· Geröstete Flossen (vier Flossen aus derselben Pfanne): sauber.\n· Die übrigen drei Becher: sauber.\n\nDas Gift kam in den Becher, nachdem er die Küche verlassen hatte."
+  },
+  {
+   "key": "case031.cup.title",
+   "value": "ANALYSE VON BECHER UND KARAFFE"
+  },
+  {
+   "key": "case031.custody.kitchen",
+   "value": "Aus der Küche des Ryōtei"
+  },
+  {
+   "key": "case031.custody.lab",
+   "value": "Aus dem Pharmalabor der Firma, mit der Unterschrift des Schwiegersohns"
+  },
+  {
+   "key": "case031.custody.label",
+   "value": "Woher kam das Gift?"
+  },
+  {
+   "key": "case031.custody.market",
+   "value": "Ein Stück vom Fischmarkt"
+  },
+  {
+   "key": "case031.epilogue.custody.kitchen",
+   "value": "Es wurde angenommen, dass das Gift aus dem Fisch kam; die Küche wurde geschlossen."
+  },
+  {
+   "key": "case031.epilogue.custody.lab",
+   "value": "Festgehalten wurde, dass das Gift mit der Befugnis von Hayashi aus der Tochterfirma kam und vom Fahrer transportiert wurde."
+  },
+  {
+   "key": "case031.epilogue.custody.market",
+   "value": "Die Quelle des Gifts wurde außerhalb gesucht; sie wurde nicht gefunden."
+  },
+  {
+   "key": "case031.epilogue.verdict.hayashi",
+   "value": "Hayashi Tōru wurde festgenommen. Der Pariser Verkauf von Kisaragi Shōji wurde gestoppt. Das Notizbuch des Präsidenten und die Korrespondenz von Hayashi gingen an die Dienststelle Paris — Belleville von bube. ‚E.V.‘ erscheint in keinem Dokument mit vollem Namen."
+  },
+  {
+   "key": "case031.epilogue.verdict.ikeda",
+   "value": "Ikeda Mai wurde in Gewahrsam genommen; das Notizbuch des Präsidenten wurde nie gelesen."
+  },
+  {
+   "key": "case031.epilogue.verdict.omura",
+   "value": "Ōmura Takeshi wurde wegen Fahrlässigkeit angeklagt und verlor seine Lizenz. Der Pariser Verkauf wurde am Montag unterschrieben."
+  },
+  {
+   "key": "case031.epilogue.verdict.sayuri",
+   "value": "Kisaragi Sayuri wurde beschuldigt; Hayashi übernahm die Leitung der Firma."
+  },
+  {
+   "key": "case031.evidence.bin",
+   "value": "Küchenabfallbox"
+  },
+  {
+   "key": "case031.evidence.cup",
+   "value": "Analyse von Becher und Karaffe"
+  },
+  {
+   "key": "case031.evidence.lab",
+   "value": "Laborinventar und Wagen"
+  },
+  {
+   "key": "case031.evidence.phone",
+   "value": "Das Telefon von Hayashi"
+  },
+  {
+   "key": "case031.feedback.hayashi",
+   "value": "Das Gift war nur in dem Becher, den er anzündete und servierte; der Moment, in dem er im Flur stehen blieb, ist auf der Kamera, die Ampulle ließ er mit eigener Unterschrift ausgeben, sein Fingerabdruck ist auf der zerbrochenen Ampulle im Wagen. Der Präsident sagte in jener Nacht den Pariser Verkauf ab; seine Nachricht: ‚Erledigt‘."
+  },
+  {
+   "key": "case031.feedback.ikeda",
+   "value": "Die Sekretärin vereinbarte den Montagstermin; sie war die Einzige, die wollte, dass dieser Termin stattfindet."
+  },
+  {
+   "key": "case031.feedback.omura",
+   "value": "Der Meister säuberte den Fisch nach Vorschrift; in der Abfallbox fehlt nichts, Eintopf und Karaffe sind sauber."
+  },
+  {
+   "key": "case031.feedback.sayuri",
+   "value": "Die Tochter kannte die Entscheidung ihres Vaters, berührte den Becher aber nicht; der Verkauf war das Projekt ihres Mannes."
+  },
+  {
+   "key": "case031.file.caseType",
+   "value": "KAPITELFINALE"
+  },
+  {
+   "key": "case031.file.value.bureau",
+   "value": "BDS Tokio — Dienststelle Nihonbashi"
+  },
+  {
+   "key": "case031.file.value.location",
+   "value": "Tsukiji, Ryōtei — Separee"
+  },
+  {
+   "key": "case031.file.value.number",
+   "value": "BDS-TYO-2030-0050"
+  },
+  {
+   "key": "case031.file.value.offence",
+   "value": "Verdächtiger Todesfall; Vergiftung"
+  },
+  {
+   "key": "case031.file.value.reporter",
+   "value": "Ryōtei"
+  },
+  {
+   "key": "case031.hayashi.body",
+   "value": "Schwiegersohn; Finanzdirektor."
+  },
+  {
+   "key": "case031.hayashi.deflect",
+   "value": "Die Finanzen der Firma sind vertraulich."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer",
+   "value": "Mein Schwiegervater war alt, in den letzten Monaten müde, seine Entscheidungen schwankten. Fugu tötet jedes Jahr ein paar Menschen. Wir vertrauten Meister Ōmura; offenbar ist er alt geworden."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer.demeanor",
+   "value": "Nimmt seine Brille ab und putzt sie mit einem Taschentuch."
+  },
+  {
+   "key": "case031.hayashi.dinner.question",
+   "value": "Was geschah beim Essen?"
+  },
+  {
+   "key": "case031.hayashi.dinner.variant0",
+   "value": "Die Box war vollständig? Dann ist vielleicht die Liste des Meisters falsch. Oder ein anderer Fisch. Ich war nicht in der Küche."
+  },
+  {
+   "key": "case031.hayashi.sake.answer",
+   "value": "Respekt. Als Schwiegersohn. In Japan ist das eine Geste, das wissen Sie nicht."
+  },
+  {
+   "key": "case031.hayashi.sake.question",
+   "value": "Warum haben Sie den Hirezake serviert?"
+  },
+  {
+   "key": "case031.hayashi.title",
+   "value": "Hayashi Tōru — Befragung"
+  },
+  {
+   "key": "case031.hayashi_2.body",
+   "value": "Zu den Unterlagen."
+  },
+  {
+   "key": "case031.hayashi_2.title",
+   "value": "Hayashi Tōru — zweite Befragung"
+  },
+  {
+   "key": "case031.hayashi_2.vial.answer",
+   "value": "Eine Prüfprobe."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.lab",
+   "value": "Für eine Prüfung. Im Wagen zerbrochen, zufällig. Was hat das mit meinem Schwiegervater zu tun?"
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.notebook",
+   "value": "‚Tōru darf das nicht wissen.‘ … Ich wusste es. Er hatte es mir vor dem Essen ohnehin gesagt. Das beweist nichts."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.phone",
+   "value": "E.V. … Ich habe diese Person nie gesehen. Nur E-Mails, nur zwei Buchstaben. Das Haus in Paris hatte alles vorbereitet: Sammlung, Netzwerk, Überweisungen. Mein Schwiegervater strich an einem Abend zehn Jahre. Wissen Sie, was ‚Paris wartet‘ heißt? Die warten nicht. Im Flur habe ich die Ampulle in den Becher gebrochen. Die Flamme habe ich selbst angezündet. Am Tisch habe ich ihm den Becher mit eigener Hand gereicht."
+  },
+  {
+   "key": "case031.hayashi_2.vial.question",
+   "value": "Sie haben die Ampulle am 17. April abgezeichnet."
+  },
+  {
+   "key": "case031.ikeda.body",
+   "value": "Sekretärin des Präsidenten."
+  },
+  {
+   "key": "case031.ikeda.book.answer",
+   "value": "Er hatte ein schwarzes Notizbuch, das er überallhin mitnahm. Vor dem Essen schrieb er im Wagen etwas hinein, lange. Das Notizbuch war in seiner Tasche; auf dem Weg ins Krankenhaus muss er es bei sich gehabt haben."
+  },
+  {
+   "key": "case031.ikeda.book.question",
+   "value": "Die persönlichen Notizen des Präsidenten?"
+  },
+  {
+   "key": "case031.ikeda.deflect",
+   "value": "Die Korrespondenz des Präsidenten ist vertraulich."
+  },
+  {
+   "key": "case031.ikeda.monday.answer",
+   "value": "Montag 09.00, ein Gespräch mit der Dienststelle Tokio von bube. Er rief selbst an und sagte: ‚Wir sprechen über das Notizbuch eines Deutschen namens Arendt.‘ Das wussten nur ich und … er sagte es an dem Abend beim Essen. Alle haben es gehört."
+  },
+  {
+   "key": "case031.ikeda.monday.answer.demeanor",
+   "value": "Klappt ihren Notizblock zu und wieder auf."
+  },
+  {
+   "key": "case031.ikeda.monday.question",
+   "value": "Was stand im Kalender des Präsidenten?"
+  },
+  {
+   "key": "case031.ikeda.title",
+   "value": "Ikeda Mai — Befragung"
+  },
+  {
+   "key": "case031.kazue.body",
+   "value": "Okami."
+  },
+  {
+   "key": "case031.kazue.deflect",
+   "value": "Die Gespräche meiner Gäste höre ich nicht."
+  },
+  {
+   "key": "case031.kazue.pour.answer",
+   "value": "Der Herr Schwiegersohn. Gewöhnlich serviere ich, ich zünde die Flamme an, damit sich der Gast nicht bemühen muss. Aber an dem Abend sagte er: ‚Das ist der letzte Abend, ich serviere meinem Vater selbst.‘ Ich habe nicht verstanden, was er meinte."
+  },
+  {
+   "key": "case031.kazue.pour.answer.demeanor",
+   "value": "Richtet den Ärmel ihres Kimonos."
+  },
+  {
+   "key": "case031.kazue.pour.question",
+   "value": "Wer hat den Hirezake serviert?"
+  },
+  {
+   "key": "case031.kazue.pour.variant0",
+   "value": "Im Becher? Dann sage ich noch etwas: Im Flur blieb er einen Moment stehen. Ich sah es durch den Türspalt, er hatte mir den Rücken zugewandt. Ich dachte, er sucht Streichhölzer. Die Streichhölzer hatte ich."
+  },
+  {
+   "key": "case031.kazue.quote",
+   "value": "„Das ist der letzte Abend, ich serviere meinem Vater selbst.“"
+  },
+  {
+   "key": "case031.kazue.title",
+   "value": "Fujimoto Kazue — Befragung"
+  },
+  {
+   "key": "case031.lab.body",
+   "value": "Pharma-Tochterfirma von Kisaragi Shōji in Kawasaki, Inventar der Forschungsstandards:\n\n· 17. April · Tetrodotoxin-Referenzstandard, 1 mg, braune Ampulle — Ausgabe. Freigabeunterschrift: Hayashi Tōru (Finanzen). Begründung: ‚Prüfprobe‘.\n\nWagen der Familie Hayashi, Türfach hinten rechts: eine braune Ampulle mit abgebrochenem Hals. Rückstand: Tetrodotoxin. Auf der Ampulle der Fingerabdruck von Hayashi Tōru."
+  },
+  {
+   "key": "case031.lab.title",
+   "value": "LABORINVENTAR UND DURCHSUCHUNG DES WAGENS"
+  },
+  {
+   "key": "case031.method.fugu",
+   "value": "Fehler des Meisters — giftiger Teil des Fugu"
+  },
+  {
+   "key": "case031.method.heart",
+   "value": "Altersbedingtes Herzversagen"
+  },
+  {
+   "key": "case031.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case031.method.liver",
+   "value": "Leber im Eintopf"
+  },
+  {
+   "key": "case031.method.ttx",
+   "value": "Eine Ampulle reines Tetrodotoxin, in den Hirezake-Becher gebrochen"
+  },
+  {
+   "key": "case031.notebook.body",
+   "value": "Das schwarze Notizbuch von Kisaragi Genzō, letzte Seite, 18. April:\n\n„Der Käufer von Arendt bin nicht ich; ich bin der Mittelsmann. Die Ware ging über Tokio nach Paris. Schalen, Rechnungen, Überweisungen: alles dorthin. Am Montag gebe ich bube alles. Mein Schwiegersohn Hayashi Tōru darf das nicht wissen. Den Verkauf sage ich heute Abend ab.“"
+  },
+  {
+   "key": "case031.notebook.title",
+   "value": "DAS NOTIZBUCH DES PRÄSIDENTEN"
+  },
+  {
+   "key": "case031.offer.subtitle",
+   "value": "KISARAGI  /  KAPITELFINALE"
+  },
+  {
+   "key": "case031.offer.summary",
+   "value": "Der Präsident von Kisaragi Shōji stirbt in einem Ryōtei nach einem Fugu-Essen. Der Meister steht kurz vor dem Verlust seiner Lizenz; am Tisch saß die Familie."
+  },
+  {
+   "key": "case031.offer.title",
+   "value": "AKTE #031"
+  },
+  {
+   "key": "case031.omura.body",
+   "value": "Fugu-Meister."
+  },
+  {
+   "key": "case031.omura.deflect",
+   "value": "Alles, was über meine Küche zu sagen ist, steht in meiner Lizenz."
+  },
+  {
+   "key": "case031.omura.fish.answer",
+   "value": "Seit vierzig Jahren säubere ich selbst. Leber, Eierstöcke, Augen: alles wird gewogen, kommt in die verschlossene Box, die Box wird versiegelt, am nächsten Tag holt die Stadt sie ab. So war es auch in dieser Nacht. Lassen Sie die Box öffnen, wiegen Sie."
+  },
+  {
+   "key": "case031.omura.fish.answer.demeanor",
+   "value": "Wischt sich unablässig die Hände an der Schürze ab."
+  },
+  {
+   "key": "case031.omura.fish.question",
+   "value": "Haben Sie den Fisch gesäubert?"
+  },
+  {
+   "key": "case031.omura.order.answer",
+   "value": "Sashimi 21.00, Eintopf 21.25, Brei 21.40, dann Hirezake: Ich röste die Flosse, gebe sie in heißen Sake, decke ab und reiche ihn durchs Fenster. An dem Abend sagte Herr Hayashi: ‚Ich bringe ihn dem Präsidenten, das Anzünden mache ich.‘ Er nahm ihn am Fenster entgegen."
+  },
+  {
+   "key": "case031.omura.order.question",
+   "value": "In welcher Reihenfolge kamen die Gänge?"
+  },
+  {
+   "key": "case031.omura.title",
+   "value": "Ōmura Takeshi — Befragung"
+  },
+  {
+   "key": "case031.person.hayashi.info",
+   "value": "51 Jahre, Finanzdirektor von Kisaragi Shōji; Schwiegersohn des Präsidenten."
+  },
+  {
+   "key": "case031.person.hayashi.name",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.person.ikeda.info",
+   "value": "36 Jahre, Privatsekretärin des Präsidenten."
+  },
+  {
+   "key": "case031.person.ikeda.name",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.person.kazue.info",
+   "value": "69 Jahre, Inhaberin und Gastgeberin (Okami) des Ryōtei."
+  },
+  {
+   "key": "case031.person.kazue.name",
+   "value": "Fujimoto Kazue"
+  },
+  {
+   "key": "case031.person.omura.info",
+   "value": "64 Jahre, lizenzierter Fugu-Meister des Ryōtei; seit vierzig Jahren in derselben Küche."
+  },
+  {
+   "key": "case031.person.omura.name",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.person.saito.info",
+   "value": "43 Jahre, Fahrer der Familie Hayashi."
+  },
+  {
+   "key": "case031.person.saito.name",
+   "value": "Saitō Gō"
+  },
+  {
+   "key": "case031.person.sayuri.info",
+   "value": "47 Jahre, einzige Tochter des Präsidenten; Ehefrau von Hayashi, im Vorstand der Firma."
+  },
+  {
+   "key": "case031.person.sayuri.name",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.phone.body",
+   "value": "Auswertung des Diensttelefons von Hayashi Tōru (mit Durchsuchungsbeschluss):\n\n· 18. April 22.58 (während der Präsident ins Krankenhaus gebracht wurde) ausgehende Nachricht, verschlüsselte App: ‚Erledigt. Der Verkauf ist Montag unterschriftsreif.‘\n· 15. April, eingehende E-Mail, ohne Signatur, die letzte Zeile nur zwei Buchstaben: „Wird der Verkauf nicht genehmigt, wartet Paris. — E.V.“\n· Von derselben Adresse im März drei E-Mails: Maison Delorme, Paris — ‚Katalogvorbereitung‘."
+  },
+  {
+   "key": "case031.phone.title",
+   "value": "DAS TELEFON VON HAYASHI"
+  },
+  {
+   "key": "case031.recon.r_cancel",
+   "value": "Am Tisch sagt der Präsident den Pariser Verkauf ab und erwähnt den Montagstermin."
+  },
+  {
+   "key": "case031.recon.r_cup",
+   "value": "Das Gift ist nur im Becher des Präsidenten; Fisch, Karaffe und Abfallbox sind sauber."
+  },
+  {
+   "key": "case031.recon.r_email",
+   "value": "15. April: ‚Wird der Verkauf nicht genehmigt, wartet Paris. — E.V.‘"
+  },
+  {
+   "key": "case031.recon.r_msg",
+   "value": "Während der Präsident ins Krankenhaus gebracht wird, schreibt Hayashi: ‚Erledigt.‘ Die Ampulle lässt er im Türfach des Wagens."
+  },
+  {
+   "key": "case031.recon.r_note",
+   "value": "Der Präsident schreibt im Wagen in sein Notizbuch: ‚Am Montag gebe ich bube alles; den Verkauf sage ich heute Abend ab.‘"
+  },
+  {
+   "key": "case031.recon.r_pour",
+   "value": "Hayashi übernimmt den Hirezake von der Okami; im Flur bleibt er stehen, bricht die Ampulle in den Becher und zündet die Flamme an."
+  },
+  {
+   "key": "case031.recon.r_vial",
+   "value": "17. April: Hayashi lässt die Tetrodotoxin-Ampulle als ‚Prüfprobe‘ freigeben und von seinem Fahrer abholen."
+  },
+  {
+   "key": "case031.report.body",
+   "value": "In der Nacht des 18. April 2030 wurde im Separee eines Ryōtei nahe Tsukiji der Vorstandsvorsitzende von Kisaragi Shōji, Kisaragi Genzō (77), am Ende eines Fugu-Essens mit tauber Zunge sprachunfähig; um 22.40 brach er zusammen und starb auf dem Weg ins Krankenhaus.\n\nAm Tisch: seine Tochter Kisaragi Sayuri, sein Schwiegersohn und Finanzdirektor Hayashi Tōru, seine Sekretärin Ikeda Mai. Das Essen bereitete der Fugu-Meister des Ryōtei, Ōmura Takeshi, zu; den Tisch betreute die Okami Fujimoto Kazue.\n\nErste Einschätzung: Fugu-Vergiftung; die Lizenz des Meisters wurde ausgesetzt."
+  },
+  {
+   "key": "case031.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case031.request.bin",
+   "value": "Öffnung der Küchenabfallbox anfordern"
+  },
+  {
+   "key": "case031.request.cup",
+   "value": "Becher des Präsidenten und Karaffe zur Analyse schicken"
+  },
+  {
+   "key": "case031.request.lab",
+   "value": "Laborinventar und Durchsuchung des Wagens anfordern"
+  },
+  {
+   "key": "case031.request.notebook",
+   "value": "Notizbuch des Präsidenten anfordern"
+  },
+  {
+   "key": "case031.request.phone",
+   "value": "Auswertung des Telefons von Hayashi Tōru anfordern"
+  },
+  {
+   "key": "case031.saito.body",
+   "value": "Fahrer der Familie Hayashi."
+  },
+  {
+   "key": "case031.saito.deflect",
+   "value": "Ich fahre nur den Wagen."
+  },
+  {
+   "key": "case031.saito.door.answer",
+   "value": "Habe ich nicht gesehen. Aber auf der Rückfahrt, nach dem Krankenhaus, steckte er etwas ins Türfach. Am Morgen beim Saubermachen stach mir ein Glassplitter in die Hand."
+  },
+  {
+   "key": "case031.saito.door.question",
+   "value": "Was war in dem Päckchen?"
+  },
+  {
+   "key": "case031.saito.errand.answer",
+   "value": "Morgens habe ich Herrn Hayashi ins Büro gebracht. Mittags schickte er mich, ein Päckchen abzuholen, aus dem Pharmalabor der Firma in Kawasaki. Eine kleine Schachtel. ‚Lass sie im Wagen, gib sie niemandem‘, sagte er. Abends auf dem Weg zum Essen öffnete er die Schachtel und steckte den Inhalt ein."
+  },
+  {
+   "key": "case031.saito.errand.answer.demeanor",
+   "value": "Hält seine Mütze auf dem Knie."
+  },
+  {
+   "key": "case031.saito.errand.question",
+   "value": "Was haben Sie gestern im Laufe des Tages gemacht?"
+  },
+  {
+   "key": "case031.saito.title",
+   "value": "Saitō Gō — Befragung"
+  },
+  {
+   "key": "case031.sayuri.body",
+   "value": "Tochter des Präsidenten."
+  },
+  {
+   "key": "case031.sayuri.deflect",
+   "value": "Über Familienangelegenheiten spreche ich nicht."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer",
+   "value": "Mein Vater wollte etwas verkünden. Er hatte sich in den letzten Monaten verändert: die Schale in Kamakura, die Pachinko-Rechnungen, dieser Todesfall im Büro … ‚Ich wusste nicht, was in meinem Namen getan wurde‘, sagte er. Beim Essen sagte er: ‚Den Pariser Verkauf wird es nicht geben.‘ Tōru stellte sein Glas ab und sagte nichts."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer.demeanor",
+   "value": "Dreht ihre Perlenkette zwischen den Fingern."
+  },
+  {
+   "key": "case031.sayuri.dinner.question",
+   "value": "Warum fand das Abendessen statt?"
+  },
+  {
+   "key": "case031.sayuri.title",
+   "value": "Kisaragi Sayuri — Befragung"
+  },
+  {
+   "key": "case031.sayuri.toru.answer",
+   "value": "Seit Jahren sein Projekt. Die Kunstsammlung der Firma und ihr ‚Logistiknetz‘ sollten an ein Pariser Auktionshaus übergehen. Tōru sagte immer: ‚Die Unterschrift deines Vaters reicht, der Rest ist Formsache.‘"
+  },
+  {
+   "key": "case031.sayuri.toru.question",
+   "value": "Was hielt Ihr Mann vom Pariser Verkauf?"
+  },
+  {
+   "key": "case031.summary.evidence",
+   "value": "Abfallbox und Karaffe entlasteten den Fisch; das Gift war nur im Becher. Die Flurkamera lieferte das Innehalten, die Okami das Servieren, der Fahrer das Päckchen, das Laborinventar die Unterschrift, der Wagen die Ampulle, das Telefon die Nachricht ‚Erledigt‘ und E.V."
+  },
+  {
+   "key": "case031.summary.lesson",
+   "value": "An einem Tisch waren alle Augen auf das Messer des Meisters gerichtet. Das Gift kam aus der letzten und ehrerbietigsten Hand."
+  },
+  {
+   "key": "case031.summary.location",
+   "value": "Tsukiji — April 2030"
+  },
+  {
+   "key": "case031.summary.truth",
+   "value": "Kisaragi Genzō begriff, dass die Firma, die man für den letzten Käufer des Arendt-Notizbuchs hielt, nur ein Mittelsmann war und dass Ware, Schalen und Überweisungen nach Paris flossen. Am 18. April sagte er den Pariser Verkauf ab und kündigte am Tisch an, bube am Montag alles zu erzählen. Sein Schwiegersohn Hayashi Tōru, gewarnt durch eine mit ‚E.V.‘ unterzeichnete E-Mail, brach die Tetrodotoxin-Ampulle, die er am Vortag aus dem Labor der Firma hatte holen lassen, in den Hirezake-Becher, zündete die Flamme selbst an und reichte den Becher seinem Schwiegervater mit eigener Hand."
+  },
+  {
+   "key": "case031.suspect.label",
+   "value": "Wer hat Kisaragi Genzō getötet?"
+  },
+  {
+   "key": "case031.tablet.caseLine",
+   "value": "AKTE #031  /  BUBE TOKIO — NIHONBASHI"
+  },
+  {
+   "key": "case031.time.cancel",
+   "value": "21.30"
+  },
+  {
+   "key": "case031.time.enter",
+   "value": "21.46"
+  },
+  {
+   "key": "case031.time.lab",
+   "value": "17. April"
+  },
+  {
+   "key": "case031.time.msg",
+   "value": "22.58"
+  },
+  {
+   "key": "case031.time.numb",
+   "value": "22.05"
+  },
+  {
+   "key": "case031.time.pause",
+   "value": "21.45"
+  },
+  {
+   "key": "case031.time.take",
+   "value": "21.44"
+  },
+  {
+   "key": "case031.title",
+   "value": "Akte #031 — Kisaragi"
+  },
+  {
+   "key": "case031.verdict.hayashi",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.verdict.ikeda",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.verdict.omura",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.verdict.sayuri",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.item.cup.name",
+   "value": "Hirezake-Becher"
+  },
+  {
+   "key": "case031.item.cup.detail",
+   "value": "Der abgedeckte Keramikbecher vor dem Präsidenten; am Boden eine verbrannte Fugu-Flosse und eingetrockneter Sake."
+  },
+  {
+   "key": "case031.item.bin.name",
+   "value": "Versiegelte Innereienbox"
+  },
+  {
+   "key": "case031.item.bin.detail",
+   "value": "Die verschlossene Fugu-Abfallbox der Küche; Siegel unversehrt, Leber und Eierstöcke gewogen und protokolliert."
+  },
+  {
+   "key": "case031.item.vial.name",
+   "value": "Leere Ampulle"
+  },
+  {
+   "key": "case031.item.vial.detail",
+   "value": "Im Türfach des Wagens: braune Mini-Ampulle aus Glas, Labortyp; der Hals abgebrochen."
+  },
+  {
+   "key": "case031.item.notebook.name",
+   "value": "Notizbuch des Präsidenten"
+  },
+  {
+   "key": "case031.item.notebook.detail",
+   "value": "Kleines Notizbuch mit schwarzem Ledereinband; die letzte Seite frisch beschrieben, mit festem Druck."
+  }
+ ]
+}
