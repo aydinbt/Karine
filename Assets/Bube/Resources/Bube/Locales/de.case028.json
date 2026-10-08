@@ -1,0 +1,620 @@
+{
+ "entries": [
+  {
+   "key": "case028.autopsy.body",
+   "value": "· Tod durch einen schweren Asthmaanfall. Anfallsbefund in den Atemwegen deutlich.\n· Im Blut keine Spur des Medikaments, das das Opfer benutzte: Während des Anfalls hat der Inhalator überhaupt nicht gewirkt.\n· Todeszeitpunkt: 22.50–23.20.\n· Die Lüftung des Raums abgeschaltet; Rückstände von Zigarettenrauch und Trockeneisnebel."
+  },
+  {
+   "key": "case028.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case028.backdoor.body",
+   "value": "Der Boulevardfotograf Gotō Ryū fotografierte von gegenüber den hinteren Diensteingang des Gebäudes. Die drei Bilder, die er der Akte übergab:\n\n· 23.08 · Ein Mann im Anzug kommt aus der Hintertür und zündet sich eine Zigarette an; das Gesicht teilweise sichtbar. Notiz des Fotografen: ‚Kanda, allein, angespannt‘.\n· 23.11 · Derselbe Mann geht durch die Lobbytür wieder hinein.\n· 23.14 · Der Mann hebt den Arm und schaut auf seinen Manschettenknopf; an einem Ärmel fehlt der Knopf."
+  },
+  {
+   "key": "case028.backdoor.title",
+   "value": "DIE BILDER DES FOTOGRAFEN"
+  },
+  {
+   "key": "case028.cctv.event.in",
+   "value": "Kamera: Ein Mann in dunklem Anzug geht zum Raum am Ende des Flurs und blickt über die Schulter zurück."
+  },
+  {
+   "key": "case028.cctv.event.out",
+   "value": "Kamera: Derselbe Mann geht nicht zum Aufzug, sondern zur Nottreppe; eine Hand in der Tasche."
+  },
+  {
+   "key": "case028.cctv.event.shut",
+   "value": "Kamera: Der Flur ist leer; die Tür des letzten Raums ist geschlossen, darunter blinkt farbiges Licht."
+  },
+  {
+   "key": "case028.cctv.overlay",
+   "value": "6F-C"
+  },
+  {
+   "key": "case028.cctv.period",
+   "value": "3. März 2030"
+  },
+  {
+   "key": "case028.cctv.source",
+   "value": "Flurkamera"
+  },
+  {
+   "key": "case028.clue.fog",
+   "value": "In 606 wird das Trockeneis eingeschaltet, die Lüftung abgeschaltet."
+  },
+  {
+   "key": "case028.clue.in",
+   "value": "Der Mann im Anzug betritt den letzten Raum."
+  },
+  {
+   "key": "case028.clue.lobby",
+   "value": "Der Manager kommt über die Nottreppe in die Lobby."
+  },
+  {
+   "key": "case028.clue.out",
+   "value": "Der Mann geht zur Nottreppe."
+  },
+  {
+   "key": "case028.clue.remote",
+   "value": "An 601 aus der Ferne ein Wunsch ‚Kanda‘, danach die Aufnahme von vor einem Jahr."
+  },
+  {
+   "key": "case028.clue.solo",
+   "value": "Mio bleibt allein in 606."
+  },
+  {
+   "key": "case028.clue.source.miki",
+   "value": "Leiterin des Fanclubs"
+  },
+  {
+   "key": "case028.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case028.clue.source.syslog",
+   "value": "Systemprotokoll"
+  },
+  {
+   "key": "case028.corridor.body",
+   "value": "Die einzige Kamera mit Blick auf den Flur; das Innere der Räume ist nicht im Bild. 3. März 22.30 – 23.45."
+  },
+  {
+   "key": "case028.corridor.title",
+   "value": "FLURKAMERA 6. STOCK — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case028.cuff.body",
+   "value": "Auf dem Treppenabsatz der Nottreppe im 6. Stock ein schwarzer Onyx-Manschettenknopf. Das Gegenstück am linken Ärmel von Kanda Shūji.\n\nIm Abfall auf dem Absatz ein geleerter Inhalatorkanister mit einem Punkt Korrekturflüssigkeit; darauf ein Fingerabdruck von Kanda."
+  },
+  {
+   "key": "case028.cuff.title",
+   "value": "DURCHSUCHUNG DER NOTTREPPE"
+  },
+  {
+   "key": "case028.custody.label",
+   "value": "Was war das Alibi des Managers?"
+  },
+  {
+   "key": "case028.custody.live",
+   "value": "Er sang wirklich in 601"
+  },
+  {
+   "key": "case028.custody.none",
+   "value": "Er hatte kein Alibi"
+  },
+  {
+   "key": "case028.custody.remote",
+   "value": "Ein Fernwunsch und eine alte Aufnahme"
+  },
+  {
+   "key": "case028.epilogue.custody.live",
+   "value": "Das ‚Live‘-Lied des Managers galt als Alibi."
+  },
+  {
+   "key": "case028.epilogue.custody.none",
+   "value": "Das Alibi des Managers wurde nie geprüft."
+  },
+  {
+   "key": "case028.epilogue.custody.remote",
+   "value": "Festgehalten wurde, dass das Alibi des Managers aus einem Fernwunsch und einer ein Jahr alten Aufnahme gebaut war."
+  },
+  {
+   "key": "case028.epilogue.verdict.accident",
+   "value": "Der Tod wurde als unglücklicher Anfall abgeschlossen; die Agentur unterschrieb den Pariser Vertrag mit einem anderen Mitglied."
+  },
+  {
+   "key": "case028.epilogue.verdict.haru",
+   "value": "Inoue Haru wurde beschuldigt; das Fernalibi des Managers wurde nie hinterfragt."
+  },
+  {
+   "key": "case028.epilogue.verdict.kanda",
+   "value": "Kanda Shūji wurde festgenommen. In der Akte wurde vermerkt, dass der Fonds, der die Schulden der Agentur kaufte, mit Kisaragi Shōji verbunden ist; der Pariser Vertrag wurde annulliert."
+  },
+  {
+   "key": "case028.epilogue.verdict.nana",
+   "value": "Kobayashi Nana wurde festgenommen; die Gruppe löste sich auf."
+  },
+  {
+   "key": "case028.evidence.backdoor",
+   "value": "Die Bilder des Fotografen"
+  },
+  {
+   "key": "case028.evidence.cuff",
+   "value": "Durchsuchung der Nottreppe"
+  },
+  {
+   "key": "case028.evidence.inhalerlab",
+   "value": "Untersuchung des Inhalators"
+  },
+  {
+   "key": "case028.evidence.syslog",
+   "value": "Systemprotokoll der Karaokeanlage"
+  },
+  {
+   "key": "case028.feedback.accident",
+   "value": "Im Inhalator war kein Medikament, Lüftung und Trockeneis wurden aus dem Raum heraus geschaltet; jemand hat den Anfall vorbereitet."
+  },
+  {
+   "key": "case028.feedback.haru",
+   "value": "Der Songwriter stritt im Flur, ging aber vor 23.00 hinaus; der Anfall kam, nachdem die Lüftung abgeschaltet wurde."
+  },
+  {
+   "key": "case028.feedback.kanda",
+   "value": "Das Systemprotokoll zeigt, dass das ‚Live‘-Lied in 601 ein Fernwunsch und eine ein Jahr alte Aufnahme war und sein Telefon aus 606 verbunden war; Flur, Treppe, Manschettenknopf und die leeren Kanister setzen ihn in den Raum und in den Moment des Anfalls."
+  },
+  {
+   "key": "case028.feedback.nana",
+   "value": "Die Mitbewohnerin kannte den Inhalator, aber die Kanister brachte die Agentur; nach 22.30 war sie in 601."
+  },
+  {
+   "key": "case028.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case028.file.value.bureau",
+   "value": "BDS Tokio — Dienststelle Nihonbashi"
+  },
+  {
+   "key": "case028.file.value.location",
+   "value": "Shinjuku, Karaokegebäude — 6. Stock"
+  },
+  {
+   "key": "case028.file.value.number",
+   "value": "BDS-TYO-2030-0027"
+  },
+  {
+   "key": "case028.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case028.file.value.reporter",
+   "value": "Schichtleiter des Lokals"
+  },
+  {
+   "key": "case028.goto.body",
+   "value": "Fotograf."
+  },
+  {
+   "key": "case028.goto.deflect",
+   "value": "Meine Quellen gebe ich nicht preis."
+  },
+  {
+   "key": "case028.goto.title",
+   "value": "Gotō Ryū — Befragung"
+  },
+  {
+   "key": "case028.goto.why.answer",
+   "value": "Jemand rief mich an: ‚Mio verlässt heute Nacht die Gruppe, warte an der Hintertür des Gebäudes.‘ Wer angerufen hat, weiß ich nicht, die Nummer war unterdrückt. Eine Meldung, die reinkommt, behalte ich nicht, ich verkaufe sie."
+  },
+  {
+   "key": "case028.goto.why.question",
+   "value": "Warum haben Sie in jener Nacht gewartet?"
+  },
+  {
+   "key": "case028.haru.body",
+   "value": "Songwriter."
+  },
+  {
+   "key": "case028.haru.deflect",
+   "value": "Über alte Sachen will ich nicht reden."
+  },
+  {
+   "key": "case028.haru.fight.answer",
+   "value": "Im Flur, gegen elf. Sie wollten den Song, den ich geschrieben habe, der Werbung dieser Marke geben; Mio sagte ‚ich will das auch nicht‘. Dann bin ich raus, eine rauchen. Als die Tür zuging, redete sie noch."
+  },
+  {
+   "key": "case028.haru.fight.answer.demeanor",
+   "value": "Hebt den Blick nicht vom Tisch."
+  },
+  {
+   "key": "case028.haru.fight.question",
+   "value": "Haben Sie mit Mio gestritten?"
+  },
+  {
+   "key": "case028.haru.title",
+   "value": "Inoue Haru — Befragung"
+  },
+  {
+   "key": "case028.inhalerlab.body",
+   "value": "Der Kanister des Inhalators in der Hand des Opfers ist leer: nur Treibgas, kein Medikament. Auf dem Kanister ein kleiner weißer Punkt Korrekturflüssigkeit.\n\nIm Medikamentenschrank der Agentur, in der Schreibtischschublade von Kanda Shūji, drei weitere leere Kanister mit demselben Punkt und zwei volle, verschriebene Kanister des Opfers."
+  },
+  {
+   "key": "case028.inhalerlab.title",
+   "value": "UNTERSUCHUNG DES INHALATORS"
+  },
+  {
+   "key": "case028.kanda.body",
+   "value": "Manager."
+  },
+  {
+   "key": "case028.kanda.deflect",
+   "value": "Verträge sind vertraulich."
+  },
+  {
+   "key": "case028.kanda.title",
+   "value": "Kanda Shūji — Befragung"
+  },
+  {
+   "key": "case028.kanda.where.answer",
+   "value": "Im anderen Raum im sechsten Stock, mit den Mädchen. Ich habe für Reina gesungen, es gibt sogar eine Aufnahme. Schauen Sie, Sie sehen es selbst im System: um 22.58 ein Wunsch von meinem Telefon, um 23.04 meine Stimme."
+  },
+  {
+   "key": "case028.kanda.where.answer.demeanor",
+   "value": "Legt sein Telefon umgedreht auf den Tisch."
+  },
+  {
+   "key": "case028.kanda.where.question",
+   "value": "Wo waren Sie zwischen 22.30 und 23.30?"
+  },
+  {
+   "key": "case028.kanda.where.variant0",
+   "value": "Ein Fernwunsch? So funktioniert die App, auch im Raum wird es so gesendet. Ich war dort, die Mädchen sagen es Ihnen."
+  },
+  {
+   "key": "case028.kanda_2.606.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.cuff",
+   "value": "… Der Pariser Vertrag war der letzte Atemzug der Firma. Der Fonds, der unsere Schulden gekauft hat, sagte: ‚Wenn Mio nicht unterschreibt, ist alles vorbei.‘ Ich ging rein, um zu reden, schaltete das Trockeneis ein, die Lüftung ab, der Inhalator war in meiner Tasche, ich nahm den vollen. Der Anfall kam schnell. Ich habe die Tür zugemacht."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.inhalerlab",
+   "value": "Die Kanister besorge ich, so will es die Versicherung. Jemand könnte sie vertauscht haben."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.syslog",
+   "value": "Eine alte Aufnahme … Die Aufnahme hatte ich auf dem Telefon der Mädchen gefunden. ‚Falls man mal jemandes Stimme braucht.‘ Aber ich habe sie nicht angerührt."
+  },
+  {
+   "key": "case028.kanda_2.606.question",
+   "value": "Um 22.52 haben Sie 606 betreten."
+  },
+  {
+   "key": "case028.kanda_2.body",
+   "value": "Zu den Protokollen."
+  },
+  {
+   "key": "case028.kanda_2.title",
+   "value": "Kanda Shūji — zweite Befragung"
+  },
+  {
+   "key": "case028.method.asthma",
+   "value": "Ein durch Trockeneis und abgeschaltete Lüftung ausgelöster Anfall; der Inhalator wurde gegen einen leeren Kanister getauscht"
+  },
+  {
+   "key": "case028.method.drug",
+   "value": "Ihr wurde etwas ins Getränk gemischt"
+  },
+  {
+   "key": "case028.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case028.method.natural",
+   "value": "Ein spontaner Anfall"
+  },
+  {
+   "key": "case028.method.smother",
+   "value": "Sie wurde erstickt"
+  },
+  {
+   "key": "case028.miki.body",
+   "value": "Leiterin des Fanclubs."
+  },
+  {
+   "key": "case028.miki.deflect",
+   "value": "Angelegenheit des Clubs."
+  },
+  {
+   "key": "case028.miki.lift.answer",
+   "value": "Ich wartete in der Lobby, ich hatte ein Geschenk für Mio dabei. Gegen 23.10 kam Herr Kanda über die Nottreppe in die Lobby, er richtete sein Jackett, als er mich sah, war er überrascht. ‚Der Aufzug ist kaputt‘, sagte er. Der Aufzug funktionierte."
+  },
+  {
+   "key": "case028.miki.lift.question",
+   "value": "Waren Sie im Gebäude?"
+  },
+  {
+   "key": "case028.miki.title",
+   "value": "Tsuda Miki — Befragung"
+  },
+  {
+   "key": "case028.nana.body",
+   "value": "Mitbewohnerin."
+  },
+  {
+   "key": "case028.nana.deflect",
+   "value": "Nach den Angelegenheiten der Gruppe fragt man die Agentur."
+  },
+  {
+   "key": "case028.nana.inhaler.answer",
+   "value": "Sie hatte ihn immer dabei. Letzte Woche kam ein ‚neuer Kanister‘, die Agentur hat ihn geschickt; unser Manager besorgt unsere Medikamente selbst, das will angeblich die Versicherung."
+  },
+  {
+   "key": "case028.nana.inhaler.answer.demeanor",
+   "value": "Hält die Tasche auf ihrem Schoß mit beiden Händen fest."
+  },
+  {
+   "key": "case028.nana.inhaler.question",
+   "value": "Das Asthma von Mio?"
+  },
+  {
+   "key": "case028.nana.paris.answer",
+   "value": "Ein Vertrag mit einer Marke in Paris. Mio wollte nicht unterschreiben, ‚ich will die Gruppe verlassen und schreiben‘, sagte sie. An dem Tag haben sie und der Manager sich angeschrien."
+  },
+  {
+   "key": "case028.nana.paris.question",
+   "value": "Hatte sich in den letzten Tagen etwas verändert?"
+  },
+  {
+   "key": "case028.nana.title",
+   "value": "Kobayashi Nana — Befragung"
+  },
+  {
+   "key": "case028.offer.subtitle",
+   "value": "KARAOKE  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case028.offer.summary",
+   "value": "In Shinjuku wird ein Idol mitten in einer Geburtstagsfeier tot im Karaokeraum gefunden, in dem es allein geblieben war. Erste Einschätzung: Asthma."
+  },
+  {
+   "key": "case028.offer.title",
+   "value": "AKTE #028"
+  },
+  {
+   "key": "case028.person.goto.info",
+   "value": "40 Jahre, Boulevardfotograf; wartete gegenüber dem Gebäude."
+  },
+  {
+   "key": "case028.person.goto.name",
+   "value": "Gotō Ryū"
+  },
+  {
+   "key": "case028.person.haru.info",
+   "value": "27 Jahre, Songwriter der Gruppe; ehemaliger Freund des Opfers."
+  },
+  {
+   "key": "case028.person.haru.name",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.person.kanda.info",
+   "value": "46 Jahre, Manager der Gruppe; Inhaber der Agentur."
+  },
+  {
+   "key": "case028.person.kanda.name",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.person.miki.info",
+   "value": "35 Jahre, Leiterin des Fanclubs; bei jedem Konzert des Opfers in der ersten Reihe."
+  },
+  {
+   "key": "case028.person.miki.name",
+   "value": "Tsuda Miki"
+  },
+  {
+   "key": "case028.person.nana.info",
+   "value": "22 Jahre, zweite Stimme der Gruppe; wohnt mit dem Opfer in derselben Wohnung."
+  },
+  {
+   "key": "case028.person.nana.name",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.person.reina.info",
+   "value": "20 Jahre, jüngstes Mitglied der Gruppe; in jener Nacht hatte sie Geburtstag."
+  },
+  {
+   "key": "case028.person.reina.name",
+   "value": "Mizuno Reina"
+  },
+  {
+   "key": "case028.person.yamato.info",
+   "value": "31 Jahre, Nachtverantwortlicher des Karaokelokals."
+  },
+  {
+   "key": "case028.person.yamato.name",
+   "value": "Endō Yamato"
+  },
+  {
+   "key": "case028.reina.body",
+   "value": "Das Geburtstagskind."
+  },
+  {
+   "key": "case028.reina.deflect",
+   "value": "Das müssen Sie meinen Manager fragen."
+  },
+  {
+   "key": "case028.reina.party.answer",
+   "value": "Es war mein Tag … Mio war die, die alle am meisten zum Lachen brachte. Dann sagte sie: ‚Ich übe ein Lied.‘ Dann sind wir in den anderen Raum gegangen. Das ist alles."
+  },
+  {
+   "key": "case028.reina.party.question",
+   "value": "Wie war die Feier?"
+  },
+  {
+   "key": "case028.reina.title",
+   "value": "Mizuno Reina — Befragung"
+  },
+  {
+   "key": "case028.report.body",
+   "value": "Am 3. März 2030 um 23.40 wurde im privaten Raum im 6. Stock eines Karaokegebäudes in Shinjuku das Mitglied einer Idolgruppe, Aikawa Mio (23), tot aufgefunden. Die Gruppe feierte den Geburtstag von Reina; Mio blieb um 22.30 mit den Worten ‚ich übe ein Lied‘ allein im Raum.\n\nErste Einschätzung: Asthmaanfall. Der Inhalator in ihrer Hand.\n\nIm Raum Anwesende und an dem Abend ins Gebäude Gekommene: Kobayashi Nana, Mizuno Reina, der Manager Kanda Shūji, der Songwriter Inoue Haru, die Leiterin des Fanclubs Tsuda Miki; der Schichtleiter des Lokals Endō Yamato."
+  },
+  {
+   "key": "case028.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case028.request.backdoor",
+   "value": "Bilder beim Fotografen gegenüber anfordern"
+  },
+  {
+   "key": "case028.request.cuff",
+   "value": "Nottreppe durchsuchen"
+  },
+  {
+   "key": "case028.request.inhalerlab",
+   "value": "Inhalator zur Untersuchung schicken"
+  },
+  {
+   "key": "case028.request.syslog",
+   "value": "Wunsch- und Aufnahmeprotokoll des Systems anfordern"
+  },
+  {
+   "key": "case028.summary.evidence",
+   "value": "Die Flurkamera lieferte den Zutritt, das Systemprotokoll, dass das ‚Live‘-Lied aus der Ferne kam und ein Jahr alt war, die Untersuchung des Inhalators den vertauschten Kanister, die Nottreppe den Manschettenknopf und den letzten Kanister."
+  },
+  {
+   "key": "case028.summary.lesson",
+   "value": "Eine Aufnahme beweist den Moment, in dem sie aufgenommen wurde; nicht den, in dem sie abgespielt wurde."
+  },
+  {
+   "key": "case028.summary.location",
+   "value": "Shinjuku — März 2030"
+  },
+  {
+   "key": "case028.summary.truth",
+   "value": "Die Schulden der Agentur waren an einen mit Kisaragi Shōji verbundenen Fonds gegangen, und der Fonds verlangte die Unterschrift von Aikawa Mio bei einer Pariser Modemarke. Als Mio die Gruppe verlassen wollte, betrat der Manager Kanda Shūji um 22.52 den Raum, in dem sie allein war; er schaltete das Trockeneis ein, die Lüftung ab und nahm den vollen Inhalator, in ihrer Hand blieb der Kanister ohne Medikament. Als Alibi bestellte er per Telefon aus der Ferne ein Lied im Partyraum und ließ die Geburtstagsaufnahme vom Vorjahr abspielen."
+  },
+  {
+   "key": "case028.suspect.label",
+   "value": "Wer ist für den Tod von Aikawa Mio verantwortlich?"
+  },
+  {
+   "key": "case028.syslog.body",
+   "value": "Partyraum (601):\n· 22.58 · Wunsch — Quelle: APP (Fernzugriff), Konto: Kanda Shūji\n· 23.04 · abgespielt: ‚Mikrofonaufnahme‘ — Erstelldatum der Datei: 3. März 2029, derselbe Raum, Geburtstag des Vorjahres\n\nLetzter Raum (606):\n· 22.31 · Wunsch, im Raum\n· 22.55 · Trockeneiseffekt und Abschaltung der Lüftung — aus dem Raum heraus\n\nZur selben Zeit ist das Telefon von Kanda über den Zugangspunkt von 606 mit dem WLAN des Gebäudes verbunden."
+  },
+  {
+   "key": "case028.syslog.title",
+   "value": "SYSTEMPROTOKOLL DER KARAOKEANLAGE — 6. STOCK"
+  },
+  {
+   "key": "case028.tablet.caseLine",
+   "value": "AKTE #028  /  BUBE TOKIO — NIHONBASHI"
+  },
+  {
+   "key": "case028.time.fog",
+   "value": "22.55"
+  },
+  {
+   "key": "case028.time.in",
+   "value": "22.52"
+  },
+  {
+   "key": "case028.time.lobby",
+   "value": "23.10"
+  },
+  {
+   "key": "case028.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case028.time.remote",
+   "value": "22.58"
+  },
+  {
+   "key": "case028.time.shut",
+   "value": "22.53"
+  },
+  {
+   "key": "case028.time.solo",
+   "value": "22.30"
+  },
+  {
+   "key": "case028.title",
+   "value": "Akte #028 — Karaoke"
+  },
+  {
+   "key": "case028.verdict.accident",
+   "value": "Niemand — ein spontaner Asthmaanfall"
+  },
+  {
+   "key": "case028.verdict.haru",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.verdict.kanda",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.verdict.nana",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.yamato.body",
+   "value": "Schichtleiter des Lokals."
+  },
+  {
+   "key": "case028.yamato.deflect",
+   "value": "Kundendaten kann ich nicht herausgeben."
+  },
+  {
+   "key": "case028.yamato.stairs.answer",
+   "value": "Der Alarm der Nottreppentür ging um 23.07 einmal los. Die Raucher öffnen sie ständig, ich stelle ihn ab."
+  },
+  {
+   "key": "case028.yamato.stairs.question",
+   "value": "Ist Ihnen zu der Zeit etwas aufgefallen?"
+  },
+  {
+   "key": "case028.yamato.system.answer",
+   "value": "Jeden Wunsch, die Quelle des Wunsches, auf Wunsch die Mikrofonaufnahme im Raum. Wünsche können aus der App kommen, man muss nicht im Gebäude sein, der Raumcode genügt. Die Protokolle kann ich Ihnen geben."
+  },
+  {
+   "key": "case028.yamato.system.question",
+   "value": "Was zeichnet das System der Räume auf?"
+  },
+  {
+   "key": "case028.yamato.title",
+   "value": "Endō Yamato — Befragung"
+  },
+  {
+   "key": "case028.item.inhaler.name",
+   "value": "Leerer Inhalator"
+  },
+  {
+   "key": "case028.item.inhaler.detail",
+   "value": "Der Asthmainhalator des Opfers; der Kanister wurde entnommen und durch einen leeren ersetzt."
+  },
+  {
+   "key": "case028.item.remote.name",
+   "value": "Karaoke-Fernbedienung"
+  },
+  {
+   "key": "case028.item.remote.detail",
+   "value": "Das Liedtablet des Raums; im Verlauf kamen zwei Wünsche aus der Ferne über die App."
+  },
+  {
+   "key": "case028.item.cuff.name",
+   "value": "Manschettenknopf"
+  },
+  {
+   "key": "case028.item.cuff.detail",
+   "value": "Schwarzer Onyx-Manschettenknopf, vor dem Aufzugsschacht gefunden."
+  }
+ ]
+}
