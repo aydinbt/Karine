@@ -27,7 +27,7 @@ public static partial class KarineUI {
 
  // Yükleme katmanı: logo, ilerleme çubuğu, dönen ipucu ve köşede stüdyo.
  // `progress` 0–1 gerçek ilerlemeyi alır; çubuk ona yumuşakça yetişir.
- public static VisualElement LoadingScreen(VisualElement root,string label,string[] tips,out Action<float> progress,out Action finish) {
+ public static VisualElement LoadingScreen(VisualElement root,string label,string[] tips,out Action<float> progress,out Action finish,float tipSeconds=L.TipSeconds) {
   var layer=new VisualElement {name="LoadingScreen"};
   layer.style.position=Position.Absolute;layer.style.left=0;layer.style.right=0;layer.style.top=0;layer.style.bottom=0;
   layer.style.backgroundColor=KarineTheme.Background;layer.style.alignItems=Align.Center;layer.style.justifyContent=Justify.Center;
@@ -46,13 +46,13 @@ public static partial class KarineUI {
   tip.style.unityTextAlign=TextAnchor.MiddleCenter;tip.style.whiteSpace=WhiteSpace.Normal;
   var studio=StudioMark(layer,L.StudioHeight);studio.style.position=Position.Absolute;studio.style.right=Length.Percent(3);studio.style.bottom=Length.Percent(4);
 
-  float target=0,shown=0;int index=Array.IndexOf(tips,tip.text);float nextTip=Time.realtimeSinceStartup+L.TipSeconds;
+  float target=0,shown=0;int index=Array.IndexOf(tips,tip.text);float nextTip=Time.realtimeSinceStartup+tipSeconds;
   layer.schedule.Execute(()=> {
    shown=Mathf.MoveTowards(shown,target,Time.unscaledDeltaTime*1.5f);
    fill.style.width=Length.Percent(shown*100);
    status.text=label+"  %"+Mathf.RoundToInt(shown*100);
    if(tips.Length>1 && Time.realtimeSinceStartup>nextTip) {
-    nextTip=Time.realtimeSinceStartup+L.TipSeconds;index=(index+1)%tips.Length;var text=tips[index];
+    nextTip=Time.realtimeSinceStartup+tipSeconds;index=(index+1)%tips.Length;var text=tips[index];
     Run(tip,.5f,t=>tip.style.opacity=1-t,()=>{tip.text=text;Run(tip,.5f,t=>tip.style.opacity=t,null);});
    }
   }).Every(16);

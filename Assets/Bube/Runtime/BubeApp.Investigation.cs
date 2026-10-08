@@ -176,6 +176,7 @@ public sealed partial class BubeApp {
   }
  }
  void FilePage() {
+  if(game.Data.id!=loadedCaseId){loadedCaseId=game.Data.id;LoadThen(FilePage);return;}
   var previousPaper=root.Q("DossierPaper");
   bool openingFile=previousPaper==null;
   if(selectedFileSection=="notebook")selectedFileSection="report";

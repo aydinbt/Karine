@@ -72,8 +72,8 @@ public sealed partial class AudioDirector : MonoBehaviour {
  // Ayar değişince çalan sesler de anında değişir; yeniden başlatma gerekmez.
  public void ApplyLevels() {
   if (music == null) return;
-  music.volume = SoundSettings.MusicGain;
-  ambience.volume = SoundSettings.MusicGain * duck;
+  music.volume = SoundSettings.MusicGain * hush;
+  ambience.volume = SoundSettings.MusicGain * Bed;
   LevelSpace();
   effects.volume = SoundSettings.SfxGain;
   if (SoundSettings.MusicGain <= 0f) { music.Pause(); ambience.Pause(); }
@@ -139,7 +139,7 @@ public sealed partial class AudioDirector : MonoBehaviour {
   // önceden yüklüyor, bu satır da ikinci kapı.
   if (next != null && next.loadState != AudioDataLoadState.Loaded) next.LoadAudioData();
   channel.clip = next;
-  channel.volume = SoundSettings.MusicGain;
+  channel.volume = SoundSettings.MusicGain * (channel == music ? hush : Bed);
   if (channel.clip != null && SoundSettings.MusicGain > 0f) channel.Play();
  }
 

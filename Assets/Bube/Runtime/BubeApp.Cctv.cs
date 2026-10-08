@@ -30,6 +30,7 @@ public sealed partial class BubeApp {
   cctvVideoStatus=null;
   cctvPlaybackButton=cctvStepButton=null;
   cctvReachedEnd=false;
+  audioDirector?.Hush(false);
  }
  void OnCctvVideoPrepared(VideoPlayer player) {
   if(player!=cctvPlayer)return;
@@ -57,7 +58,7 @@ public sealed partial class BubeApp {
   if(cctvStepButton!=null)cctvStepButton.SetEnabled(false);
  }
  void ReplayCctvVideo() {
-  if(cctvFrames!=null){cctvFrameIndex=-1;cctvReachedEnd=false;ShowCctvFrame(0);PlayCctvFrames(true);return;}
+  if(cctvFrames!=null){cctvFrameIndex=-1;cctvFrameLoop=0;cctvReachedEnd=false;ShowCctvFrame(0);PlayCctvFrames(true);return;}
   if(cctvPlayer==null)return;
   cctvReachedEnd=false;
   if(cctvVideoStatus!=null){cctvVideoStatus.text=T("cctv.videoLoading");cctvVideoStatus.style.display=DisplayStyle.Flex;}
@@ -68,7 +69,7 @@ public sealed partial class BubeApp {
  void OpenCctvVideo(Node node,CctvEvent record,VisualElement content) {
   if(!record.HasFootage)return;
   StopCctvVideo();
-  KarineUI.TapeInsert(root);
+  audioDirector?.Hush(true);
   bool frames=record.framePaths!=null && record.framePaths.Length>0;
   var viewer=new VisualElement();cctvViewer=viewer;
   viewer.style.position=Position.Absolute;
@@ -90,7 +91,7 @@ public sealed partial class BubeApp {
   image.style.position=Position.Absolute;
   image.style.left=0;image.style.right=0;image.style.top=0;image.style.bottom=0;
   videoFrame.Add(image);
-  videoFrame.schedule.Execute(()=>{KarineUI.SignalSwitch(videoFrame);KarineUI.CrtOn(videoFrame);KarineUI.Glare(videoFrame);KarineUI.Cue("channel");TapeWear(videoFrame,node,record);}).StartingIn(0);
+  videoFrame.schedule.Execute(()=>{KarineUI.Glare(videoFrame);TapeWear(videoFrame,node,record);}).StartingIn(0);
   cctvVideoFrame=videoFrame;cctvSpeed=1f;
   audioDirector?.Play("ui_crt_on",1f,.6f);
   KarineUI.VhsTrace(videoFrame,image);
@@ -215,7 +216,8 @@ public sealed partial class BubeApp {
   cctvVideoStatus.style.unityTextAlign=TextAnchor.MiddleCenter;
   cctvVideoStatus.style.backgroundColor=new Color(.02f,.04f,.05f,.78f);
   cctvVideoStatus.style.marginBottom=0;
-  if(frames){StartCctvFrames(record,image,recText);return;}
+  KarineUI.FromBlack(viewer,frames?(Action)(()=>{if(cctvViewer==viewer)StartCctvFrames(record,image,recText);}):null);
+  if(frames)return;
   cctvPlayer=gameObject.AddComponent<VideoPlayer>();
   cctvPlayer.playOnAwake=false;cctvPlayer.isLooping=false;
   cctvPlayer.renderMode=VideoRenderMode.RenderTexture;

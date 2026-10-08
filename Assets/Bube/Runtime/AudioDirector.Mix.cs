@@ -22,10 +22,16 @@ public sealed partial class AudioDirector {
 
  // Okunan bir belge açıkken ortam ve katman kısılır; kapanınca geri gelir.
  public void Duck(bool on) => duckTarget = on ? DuckGain : 1f;
+ // Video ya da CCTV izlenirken müzik ve ortam tümüyle susar; bitince geri gelir.
+ float hush = 1f, hushTarget = 1f;
+ public void Hush(bool on) => hushTarget = on ? 0f : 1f;
+ float Bed => duck * hush;
  void StepDuck() {
-  if (Mathf.Approximately(duck, duckTarget)) return;
+  if (Mathf.Approximately(duck, duckTarget) && Mathf.Approximately(hush, hushTarget)) return;
   duck = Mathf.MoveTowards(duck, duckTarget, Time.unscaledDeltaTime / DuckSeconds);
-  if (ambience != null) ambience.volume = SoundSettings.MusicGain * duck;
+  hush = Mathf.MoveTowards(hush, hushTarget, Time.unscaledDeltaTime / DuckSeconds);
+  if (ambience != null) ambience.volume = SoundSettings.MusicGain * Bed;
+  if (music != null) music.volume = SoundSettings.MusicGain * hush;
   LevelSpace();
  }
 

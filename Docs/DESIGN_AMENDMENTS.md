@@ -1166,3 +1166,15 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - **Şimşek:** 40–90 saniyede bir rastgele çift çakış olur. Pencere parlar, oda bir an soğuk maviyle aydınlanır, gök gürültüsü biraz sonra gelir. Işığa duyarlılık sınırı (`Fx.MayFlash`) ve efekt düzeyi geçerlidir.
 - Efekt Laboratuvarı ayarlardan ve koddan kaldırıldı.
 - Testler artık oyuncunun ayar kaydını değiştirmiyor. `run-tests.sh` PlayerPrefs alanını koşudan önce saklayıp sonra geri yazıyor. Önceden ses testi müziği kapatıyordu.
+
+## 8 Ekim 2026 — Oynanış geri bildirimi turu
+
+- **Dil seçici** artık bayraklı açılır liste. Dil adı kendi kültürüyle büyütülür ("ENGLİSH" hatası).
+- **FPS:** Android'de seçilen hıza uygun ekran yenileme hızı istenir. Editor'de Game görünümü monitör hızıyla sınırlıdır; 120 orada görülmeyebilir.
+- **Oyun içi yükleme:** menüden masaya girişte, vaka kabulünde ve dosya oturumda ilk açılırken kısa yükleme katmanı çıkar. Katmanda hukuk/terim ipucu gösterilir (`loading.term.*`, 14 adet). İpuçları hiçbir vakanın çözümüne değinmez.
+- **Video ve CCTV** izlenirken müzik ve ortam sesi tümüyle susar.
+- **Olay raporu, bulgu ve sorgu sayfası** artık tümüyle kayar; künye de metinle birlikte.
+- **Masa müziği** yumuşatıldı: alt oktav ve akortsuz ikiz ses (uğultu) kaldırıldı. Yağmurun alçak gövdesi kısıldı.
+- **"Yazarak göster"** açıkken rapor, bulgu sayfası satır satır daktiloyla basılır. Dokunmak basımı bitirir; her sayfa oturumda bir kez basılır.
+- **Telefon:** dokununca çalan çevirme sesi ("zar") kaldırıldı.
+- **CCTV:** kaset animasyonu kaldırıldı. İzleyici siyahtan açılır; kareler ancak görüntü tam açılınca başlar. Kare süresi en az 900 ms. Kayıt 3 tur döner, sonra son karede durur.

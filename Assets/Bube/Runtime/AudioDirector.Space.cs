@@ -57,9 +57,9 @@ public sealed partial class AudioDirector {
 
  void LevelSpace() {
   if (bed == null) return;
-  bed.volume = SoundSettings.MusicGain * BedGain * duck;
+  bed.volume = SoundSettings.MusicGain * BedGain * Bed;
   float ramp = layerSince < 0 ? 0 : Mathf.Clamp01((Time.unscaledTime - layerSince) / LayerRampSeconds);
-  layer.volume = SoundSettings.MusicGain * LayerMax * ramp * ramp * duck;
+  layer.volume = SoundSettings.MusicGain * LayerMax * ramp * ramp * Bed;
  }
 
  void Update() { StepDuck(); if (layerSince >= 0) LevelSpace(); }

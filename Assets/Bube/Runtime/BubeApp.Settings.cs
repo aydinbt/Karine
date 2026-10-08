@@ -77,7 +77,7 @@ public sealed partial class BubeApp {
   var languages=Languages.Available();
   if(languages.Length>1) {
    var row=CardRow(body,"settings.language");
-   foreach(var code in languages){var v=code;Choice(row,Languages.Endonym(v),null,draftLanguage==v,()=>draftLanguage=v,true);}
+   KarineUI.LanguageDropdown(row,languages,draftLanguage,Languages.Endonym,v=>{draftLanguage=v;RenderSettings();});
   }
   var speed=CardRow(body,"settings.textSpeed","settings.text.hint");
   Choice(speed,T("settings.instant"),T("settings.instant.hint"),draftInstant,()=>draftInstant=true);

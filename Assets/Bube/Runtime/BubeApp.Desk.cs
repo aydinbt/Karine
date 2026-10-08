@@ -188,7 +188,7 @@ public sealed partial class BubeApp {
    KarineUI.PaperText(paperBody,CaseText("offer.summary","offer.summary"),KarineTheme.InboxModal.PaperBodySize).style.marginTop=KarineTheme.SpaceMd;
    KarineUI.PaperStamp(paper,T("offer.title"));
    KarineUI.SettingsFooterButton(actions,"check",T("offer.accept"),T("offer.accept.hint"),true,
-    ()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>Desk());} }).name="InboxAccept";
+    ()=>{ if(game.AcceptCase()){Save();AdGateway.Request(AdPlacement.CaseStart,AdMoment.CaseAccepted,_=>LoadThen(Desk));} }).name="InboxAccept";
    return;
   }
   // Diğer evraklar da aynı kâğıt dilinde: birim başlığı, daktilo başlık, künye.

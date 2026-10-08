@@ -585,3 +585,8 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 ## Kariyer: gözetim ve seri (8 Ekim 2026)
 
 `Investigation.Career.cs` faks teslimi, seri, gözetim ve ödüllü yeniden açmayı taşır. `CareerProgress.retired` artık hep `false`. Kayıtla uyum için alan durur, yüklemede `probation`a çevrilir. `FaxReview.startedProbation/endedProbation/streakBefore`, iadenin neyi geri alacağını saklar. `TrustStatusKey` gözetimde `career.status.probation` döndürür.
+
+
+## Ses susturma ve geçiş yüklemesi (8 Ekim 2026)
+
+`AudioDirector.Hush(bool)` müzik, ortam ve katmanı `DuckSeconds` içinde sıfıra indirir (`Bed = duck*hush`). Dünya filmi ve CCTV izleyicisi açar, kapanışları geri alır. `BubeApp.LoadThen(next)` hedef ekranı kurar, üstüne `KarineUI.LoadingScreen` katmanını `Loading.TransitSeconds` boyunca koyar. `PrintOut` kâğıdın tüm alt `Label`larını sırayla basar, düğmeleri basım bitene dek gizler. `FrameRate` Android'de `Screen.SetResolution(..., RefreshRate)` ile yenileme hızı ister.

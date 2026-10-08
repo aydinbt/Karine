@@ -663,3 +663,5 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [ ] Her dilde #001 Play Mode'da oynanır; Almanca ve Fransızcada uzun metnin düğme/sekme taşması gözle kontrol edilir.
 - [ ] Mağaza sayfası metinleri altı dilde.
 - [ ] Sicil sekmesi Play Mode'da görülür (boş kariyer, birkaç faks, kademe düşüşü).
+
+- [~] 8 Ekim 2026 geri bildirim turu: dil açılır listesi, 120 Hz isteği, oyun içi yükleme ipuçları, video/CCTV'de müzik susar, tam sayfa kaydırma, müzik yumuşatma, daktilo basımı, telefon sesi, CCTV siyahtan açılış + 3 tur.

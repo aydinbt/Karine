@@ -18,7 +18,7 @@ public sealed partial class BubeApp {
   // göreve hazırlanışı, sonra Türkiye açılışı); her biri kariyer başına bir kez.
   var world=(config.worldIntros ?? new WorldIntro[0]).FirstOrDefault(w=>w.firstCaseId==game.Data.id && !game.Career.seenWorldIntros.Contains(w.id));
   if(world==null){NewCaseArrival(after);return;}
-  activeIntro=world;
+  activeIntro=world;audioDirector?.Hush(true);
   introAfter=after;
   PlayWorldIntro();
  }
@@ -215,6 +215,7 @@ public sealed partial class BubeApp {
   var after=introAfter;
   if(introSkip!=null)root.UnregisterCallback<GeometryChangedEvent>(OnIntroGeometryChanged);
   introSkip=null;
+  audioDirector?.Hush(false);
   activeIntro=null;introAfter=null;introBrand=null;introPlace=null;activeMark=null;introCardStart=-1;
   if(introPlayer!=null) {
    introPlayer.prepareCompleted-=OnIntroPrepared;

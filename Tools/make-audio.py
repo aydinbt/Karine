@@ -274,11 +274,13 @@ def room_rain():
  out = buf(LOOP)
  n = len(out)
  hiss = loop_noise(LOOP, 121, cutoff=5200, hp=1100)
- body = loop_noise(LOOP, 122, cutoff=320, poles=2, hp=60)
+ body = loop_noise(LOOP, 122, cutoff=320, poles=2, hp=140)
  for i in range(n):
   t = i / RATE
   breath = 0.9 + 0.1 * math.sin(2*math.pi*t/LOOP*2 + 0.4)
-  out[i] = hiss[i] * 0.55 * breath + body[i] * 0.9
+  # 8 Ekim 2026: alçak gövde 0.9'dan 0.25'e — yağmur artık varsayılan, sürekli
+  # gövde uğultu gibi duyuluyordu. Hışırtı ve damlalar öne çıkar.
+  out[i] = hiss[i] * 0.55 * breath + body[i] * 0.25
  rng = random.Random(123)
  for _ in range(int(LOOP * 28)):
   start = rng.randrange(n); freq = rng.uniform(1800, 4200)
@@ -286,7 +288,7 @@ def room_rain():
   w = 2 * math.pi * freq / RATE
   for j in range(900):
    out[(start + j) % n] += level * math.exp(-j / k) * math.sin(w * j)
- return normalize(out, 0.12)
+ return normalize(out, 0.09)
 
 def room_night():
  # Dosya #002: gece sokağı. Uzak trafik uğultusu, yavaş dalgalanma ve
@@ -423,14 +425,15 @@ def desk_theme():
  for index, (root, triad) in enumerate(chords):
   t0 = index * BAR
   dur = BAR + 1.6
-  sine(pad, root,          0.22, dur, start=t0, env=swell(3.0, dur))
-  sine(pad, root * 1.0012, 0.16, dur, start=t0, env=swell(3.4, dur))
-  sine(pad, root * 0.5,    0.14, dur, start=t0, env=swell(4.0, dur))
+  # 8 Ekim 2026: alt oktav ve 1.0012 akortsuz ikiz kaldırıldı — ikisi
+  # birlikte sürekli bir uğultu (vuru) yapıyordu. Kök yalnız, alçak.
+  sine(pad, root,          0.10, dur, start=t0, env=swell(3.0, dur))
   for note in triad:
    for harmonic, amp in ((1, 0.085), (2, 0.032), (3, 0.014)):
     sine(pad, note * harmonic, amp, dur, start=t0,
          phase=(note * harmonic) % 3.0, env=swell(4.2, dur, release=0.38))
  lowpass(pad, 1050, poles=2)   # menüden daha kapalı: masa lambası ışığı gibi
+ pad = highpass(pad, 90)       # gövdeyi alttan kes: hoparlörde vızıltı olmasın
 
  # İki nota, kırk saniyede. Masada müzik olay değil zemin.
  lead = buf(LOOP + TAIL)
@@ -448,8 +451,8 @@ def desk_theme():
 
  hiss = loop_noise(LOOP, 307, band=(2600, 0.6))
  for i in range(len(out)):
-  out[i] += hiss[i] * 0.008
- return normalize(out, 0.42)
+  out[i] += hiss[i] * 0.004
+ return normalize(out, 0.30)
 
 
 # --- efekt katmanı sesleri (2 Ekim 2026) -------------------------------------

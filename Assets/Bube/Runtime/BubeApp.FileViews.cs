@@ -53,10 +53,11 @@ public sealed partial class BubeApp {
  Texture2D Photo(string resource) => string.IsNullOrEmpty(resource)?null:Resources.Load<Texture2D>(resource);
 
  void ReportPaper(VisualElement paper,Node report) {
-  var meta=KarineUI.DossierPageHead(paper,CaseNumber(),T(report.titleKey),Photo(report.imageResource));
-  if(report.fileMeta!=null)foreach(var field in report.fileMeta)KarineUI.DossierKeyValue(meta,T(field.labelKey),T(field.valueKey));
+  // Sayfanın tamamı kayar: künye de metinle birlikte (8 Ekim 2026).
   var scroll=Scroll(paper);scroll.name="DossierOverview";scroll.style.flexGrow=1;scroll.style.minHeight=0;
   scroll.contentContainer.style.paddingBottom=KarineTheme.SpaceXl;
+  var meta=KarineUI.DossierPageHead(scroll,CaseNumber(),T(report.titleKey),Photo(report.imageResource));
+  if(report.fileMeta!=null)foreach(var field in report.fileMeta)KarineUI.DossierKeyValue(meta,T(field.labelKey),T(field.valueKey));
   KarineUI.DossierParagraph(scroll,T(report.bodyKey));
   var people=game.Data.nodes.Where(n=>n.kind=="interview"&&game.Discovered(n)).GroupBy(n=>n.personId).Select(g=>g.First()).ToArray();
   if(people.Length>0) {
@@ -71,12 +72,13 @@ public sealed partial class BubeApp {
    foreach(var item in report.relatedItems)
     KarineUI.DossierItem(shelf,Resources.Load<Texture2D>(item.imageResource),T(item.nameKey),T(item.detailKey));
   }
+  PrintOut(scroll.contentContainer,game.Data.id+":"+report.id);
  }
 
  void EvidencePaper(VisualElement paper,Node current) {
-  var meta=KarineUI.DossierPageHead(paper,CaseNumber(),T(current.titleKey),null);
-  if(current.fileMeta!=null)foreach(var field in current.fileMeta)KarineUI.DossierKeyValue(meta,T(field.labelKey),T(field.valueKey));
   var body=Scroll(paper);body.style.flexGrow=1;body.style.minHeight=0;
+  var meta=KarineUI.DossierPageHead(body,CaseNumber(),T(current.titleKey),null);
+  if(current.fileMeta!=null)foreach(var field in current.fileMeta)KarineUI.DossierKeyValue(meta,T(field.labelKey),T(field.valueKey));
   MarkableBody(body,current,KarineTheme.Paper.Ink,KarineTheme.Paper.Faded);
   var texture=Photo(current.imageResource);
   if(texture!=null) {
@@ -92,16 +94,17 @@ public sealed partial class BubeApp {
    KarineUI.ScenePlanView(body,plan,Photo(plan.imagePath),
     (plan.markers ?? new PlanMarker[0]).Where(game.MarkerAvailable).ToList(),T,T(plan.incidentLabelKey));
   }
+  PrintOut(body.contentContainer,game.Data.id+":"+current.id);
  }
 
  // Sorgu dökümü: künye, ifade, sonra sorulan her soru ve cevabı konuşan/metin sütunlarında.
  // Öne sürülen kaydın yanında kırmızı mühür; hükmü oyuncu verir, mühür yalnız "gösterildi" der.
  void InterviewPaper(VisualElement paper,Node current) {
-  var meta=KarineUI.DossierPageHead(paper,null,T("file.interviewTitle"),Photo(current.imageResource)??Portrait(current.personId));
+  var body=Scroll(paper);body.style.flexGrow=1;body.style.minHeight=0;
+  var meta=KarineUI.DossierPageHead(body,null,T("file.interviewTitle"),Photo(current.imageResource)??Portrait(current.personId));
   KarineUI.DossierKeyValue(meta,T("file.meta.speaker"),T(current.personNameKey));
   if(current.fileMeta!=null)foreach(var field in current.fileMeta)KarineUI.DossierKeyValue(meta,T(field.labelKey),T(field.valueKey));
-  KarineUI.PaperRule(paper,true);
-  var body=Scroll(paper);body.style.flexGrow=1;body.style.minHeight=0;
+  KarineUI.PaperRule(body,true);
   string person=T(current.personNameKey);
   KarineUI.DossierLine(body,person,T(current.bodyKey));
   var turns=game.State.interviewTurns.Where(turn=>turn.nodeId==current.id).ToArray();

@@ -66,41 +66,36 @@ public sealed partial class BubeApp {
   button.RegisterCallback<PointerLeaveEvent>(_=>settle());
  }
 
- // Faks ve gelen evrak satır satır basılarak çıkar. Düzen baştan kurulur
- // (yerler sabit, yalnız görünürlük açılır), yani sayfa basılırken zıplamaz.
- // Kâğıda dokunmak basımı bitirir.
+ // Kâğıt satır satır basılarak çıkar ("Yazarak göster" açıkken). Düzen baştan
+ // kurulur: basılmamış kısım saydam yazıyla yerinde durur, sayfa zıplamaz.
+ // İç içe satırlar da (künye, kişi kartı) sırayla basılır. Kâğıda dokunmak
+ // basımı bitirir. Her kâğıt oturumda bir kez basılır.
  void PrintOut(VisualElement body,string key) {
   if(instantText || KarineMotion.Reduced || !printedPapers.Add(key))return;
-  var items=body.Children().ToList();
-  var texts=new Dictionary<Label,string>();
-  // Basılmamış kısım saydam yazıyla yerinde durur: satır boyu baştan belli,
-  // sayfa yazıldıkça uzamaz. Henüz basılmamış düğme görünmez **ve** dokunulmaz.
-  foreach(var item in items) {
-   if(item is Label label && label.enableRichText && !string.IsNullOrEmpty(label.text) && label.text.IndexOf('<')<0)
-    {texts[label]=label.text;label.text=Unprinted(label.text,0);}
-   else item.style.visibility=Visibility.Hidden;
-  }
+  var labels=body.Query<Label>().ToList().Where(l=>l.enableRichText && !string.IsNullOrEmpty(l.text) && l.text.IndexOf('<')<0).ToList();
+  if(labels.Count==0)return;
+  var texts=labels.ToDictionary(l=>l,l=>l.text);
+  foreach(var l in labels)l.text=Unprinted(l.text,0);
+  // Basılmamış kâğıttaki düğme görünmez **ve** dokunulmaz; basım bitince açılır.
+  var buttons=body.Query<Button>().ToList();
+  foreach(var b in buttons)b.style.visibility=Visibility.Hidden;
   int index=0,shown=0,tick=0;bool done=false;
   IVisualElementScheduledItem task=null;
   Action finish=()=>{
    if(done)return;done=true;task?.Pause();
    foreach(var pair in texts)pair.Key.text=pair.Value;
-   foreach(var item in items)item.style.visibility=StyleKeyword.Null;
+   foreach(var b in buttons)b.style.visibility=StyleKeyword.Null;
   };
   body.RegisterCallback<PointerDownEvent>(_=>finish(),TrickleDown.TrickleDown);
   task=body.schedule.Execute(()=>{
    if(done)return;
-   if(index>=items.Count){finish();return;}
-   var item=items[index];
-   if(item is Label label && texts.TryGetValue(label,out var full)) {
-    shown=Mathf.Min(full.Length,shown+KarineTheme.Effects.PrintChars);
-    label.text=Unprinted(full,shown);
-    if(audioDirector!=null && ++tick%KarineTheme.Effects.PrintSoundEvery==0)
-     audioDirector.Play(AudioDirector.Typewriter,.9f+.1f*UnityEngine.Random.value,.55f);
-    if(shown>=full.Length){index++;shown=0;}
-   } else {
-    item.style.visibility=StyleKeyword.Null;index++;
-   }
+   if(index>=labels.Count || body.panel==null){finish();return;}
+   var label=labels[index];var full=texts[label];
+   shown=Mathf.Min(full.Length,shown+KarineTheme.Effects.PrintChars);
+   label.text=Unprinted(full,shown);
+   if(audioDirector!=null && ++tick%KarineTheme.Effects.PrintSoundEvery==0)
+    audioDirector.Play(AudioDirector.Typewriter,.9f+.1f*UnityEngine.Random.value,.55f);
+   if(shown>=full.Length){index++;shown=0;}
   }).Every(KarineTheme.Motion.TickMs);
  }
 

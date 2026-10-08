@@ -3565,6 +3565,62 @@
    "value": "Acele etme. Bir dosya kapanmadan önce aynı soruyu farklı kayıtlarla yeniden düşünebilirsin."
   },
   {
+   "key": "loading.term.0",
+   "value": "Beyan: Bir kişinin kendi ağzından verdiği bilgi. Kanıtla desteklenmedikçe yalnız bir iddiadır."
+  },
+  {
+   "key": "loading.term.1",
+   "value": "Delil: Bir olgunun varlığını gösteren somut kayıt veya eşya. Beyanla çeliştiğinde ağırlığı delil taşır."
+  },
+  {
+   "key": "loading.term.2",
+   "value": "Masumiyet karinesi: Suçu kanıtlanana kadar herkes masum sayılır. Şüphe tek başına sonuç değildir."
+  },
+  {
+   "key": "loading.term.3",
+   "value": "Şüpheden sanık yararlanır: Kanıt bir sonucu kesin göstermiyorsa karar suçlanan aleyhine verilmez."
+  },
+  {
+   "key": "loading.term.4",
+   "value": "Zaman çizelgesi: Olayları saatleriyle sıralamak, beyanlar arasındaki boşlukları görünür kılar."
+  },
+  {
+   "key": "loading.term.5",
+   "value": "Görgü tanığı: Olayı kendi gözüyle gören kişi. Dolaylı tanık ise başkasından duyduğunu anlatır."
+  },
+  {
+   "key": "loading.term.6",
+   "value": "Çapraz sorgu: Bir beyanı başka bir kayıtla karşılaştırarak sınamak. Bir kaydı ancak kişinin adı geçiyorsa öne sürebilirsin."
+  },
+  {
+   "key": "loading.term.7",
+   "value": "Delil zinciri: Bir delilin bulunduğu andan dosyaya girdiği ana kadar kimin elinde olduğunun kaydı."
+  },
+  {
+   "key": "loading.term.8",
+   "value": "Gerekçeli sonuç: Raporun yalnız 'kim' değil, 'hangi kanıta dayanarak' sorusunu da yanıtlamalı."
+  },
+  {
+   "key": "loading.term.9",
+   "value": "Haksız suçlama, eksik bir rapordan daha ağır sonuç doğurur. Emin değilsen kanıtı genişlet."
+  },
+  {
+   "key": "loading.term.10",
+   "value": "Mazeret (alibi): Kişinin olay anında başka yerde olduğunu ileri sürmesi. Doğrulanmadıkça bir beyandır."
+  },
+  {
+   "key": "loading.term.11",
+   "value": "Tutanak: Bir görüşmenin ya da işlemin resmî yazılı kaydı. Söylenen ile yazılan karşılaştırılabilir."
+  },
+  {
+   "key": "loading.term.12",
+   "value": "Kamera kaydı her şeyi göstermez: Kör nokta ve sinyal boşlukları da birer bilgidir."
+  },
+  {
+   "key": "loading.term.13",
+   "value": "Olay yeri: Suçun işlendiği ya da izlerinin bulunduğu yer. Kayıtlardaki konumlar buna göre okunur."
+  },
+  {
    "key": "about.subtitle",
    "value": "Oyun ve yapımcısı hakkında."
   },

@@ -30,7 +30,7 @@ public sealed partial class BubeApp {
 
  // Masa eşyası → sesi. Eşyanın masadaki yeri sesin sol-sağ yerini verir.
  static readonly (string button,string sound,string prop)[] PropSounds={
-  ("DeskInbox","ui_paper","Inbox"),("DeskFile","ui_folder","Folder"),("DeskInterviews","ui_dial","Phone"),
+  ("DeskInbox","ui_paper","Inbox"),("DeskFile","ui_folder","Folder"),("DeskInterviews",null,"Phone"),
   ("DeskTerminal","ui_crt_on","Monitor"),("DeskEvidence","ui_drawer","Evidence"),
  };
  static Rect PropBox(string prop) {
@@ -51,7 +51,7 @@ public sealed partial class BubeApp {
    var button=stage.Q<Button>(entry.button);if(button==null)continue;
    string sound=entry.sound;float pan=KarineUI.PanOf(PropBox(entry.prop));
    string prop=entry.prop;
-   button.RegisterCallback<PointerDownEvent>(_=>{audioDirector?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;if(prop=="Phone")KarineUI.CordSwing();},TrickleDown.TrickleDown);
+   button.RegisterCallback<PointerDownEvent>(_=>{if(sound!=null)audioDirector?.PlayAt(sound,pan,.7f);Fx.Buzz(Haptic.Tick);pendingProp=prop;pendingAt=Time.unscaledTime;pressedScreen=null;if(prop=="Phone")KarineUI.CordSwing();},TrickleDown.TrickleDown);
   }
  }
 

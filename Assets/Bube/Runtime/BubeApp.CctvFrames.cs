@@ -12,7 +12,7 @@ namespace Bube {
 public sealed partial class BubeApp {
  Texture2D[] cctvFrames;
  string[] cctvFrameTimes;
- int cctvFrameIndex, cctvFrameMs;
+ int cctvFrameIndex, cctvFrameMs, cctvFrameLoop;
  bool cctvFramesPlaying;
  Image cctvFrameImage;
  Label cctvFrameRec;
@@ -28,8 +28,8 @@ public sealed partial class BubeApp {
   }
   cctvFrames=loaded;cctvFrameImage=image;cctvFrameRec=rec;
   cctvFrameTimes=record.frameTimes;
-  cctvFrameMs=record.frameMs>0?record.frameMs:KarineTheme.Effects.CctvFrameMs;
-  cctvFrameIndex=-1;cctvReachedEnd=false;
+  cctvFrameMs=Mathf.Max(record.frameMs,KarineTheme.Effects.CctvFrameMs);
+  cctvFrameIndex=-1;cctvFrameLoop=0;cctvReachedEnd=false;
   if(cctvVideoStatus!=null)cctvVideoStatus.style.display=DisplayStyle.None;
   cctvPlaybackButton?.SetEnabled(true);cctvStepButton?.SetEnabled(true);
   ShowCctvFrame(0);
@@ -64,7 +64,12 @@ public sealed partial class BubeApp {
   if(!play || cctvFrameImage==null)return;
   cctvFrameTask=cctvFrameImage.schedule.Execute(()=>{
    if(cctvFrames==null)return;
-   if(cctvFrameIndex>=cctvFrames.Length-1){EndCctvFrames();return;}
+   // Kayıt `CctvLoops` tur döner, sonra son karede durur (8 Ekim 2026):
+   // iki-üç karelik kayıt tek geçişte kaçırılıyordu.
+   if(cctvFrameIndex>=cctvFrames.Length-1){
+    if(++cctvFrameLoop<KarineTheme.Effects.CctvLoops){ShowCctvFrame(0);return;}
+    EndCctvFrames();return;
+   }
    if(KarineUI.FrameRepeats())return;
    ShowCctvFrame(cctvFrameIndex+1);
   }).Every(FrameStep).StartingIn(FrameStep);

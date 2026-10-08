@@ -36,9 +36,9 @@ public sealed partial class BubeApp {
   menu.style.width=KarineTheme.MainMenu.ColumnWidth;
   left.Add(menu);
   if(game.State.caseAccepted) {
-   MenuRow(menu,"folder",T("menu.row.continue"),Desk,true);SlotLine(menu);
+   MenuRow(menu,"folder",T("menu.row.continue"),()=>LoadThen(Desk),true);SlotLine(menu);
   } else {
-   MenuRow(menu,"folder",T("menu.row.start"),()=>MaybeWorldIntro(Desk),true);
+   MenuRow(menu,"folder",T("menu.row.start"),()=>MaybeWorldIntro(()=>LoadThen(Desk)),true);
   }
   MenuRow(menu,"document",T("menu.row.chapters"),WorldPage,false);
   MenuRow(menu,"chart",T("menu.row.career"),StatisticsPage,false);

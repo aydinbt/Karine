@@ -1,6 +1,6 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 8 Ekim 2026
+**Son güncelleme:** 8 Ekim 2026 (oynanış geri bildirimi turu)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
@@ -261,3 +261,8 @@ Sorguda kayıt kâğıt olarak karşıdakine kayıyor (sürme ya da dokunma), fa
 ## 1 Ekim 2026 — Efektler (3. kademe)
 
 Sorgudaki portre nefes alıyor, yanıttan önce kısa ve sabit bir duraksama var. Göz kırpma yok (kullanıcı kararı). EditMode 111/111, PlayMode 23/23. Görsel kabul açık.
+
+
+## 8 Ekim 2026 — geri bildirim turu `[~]`
+
+Bayraklı dil listesi, Android yenileme hızı, oyun içi yükleme + terim ipuçları, video/CCTV'de müzik susması, tam sayfa kaydırma, yumuşak masa müziği, daktiloyla basılan sayfalar, telefon sesi, siyahtan açılan ve 3 tur dönen CCTV. Testler geçti (139 EditMode, 27 PlayMode); Unity'de gözlenmedi.

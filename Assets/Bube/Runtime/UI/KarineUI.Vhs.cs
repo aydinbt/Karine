@@ -53,21 +53,16 @@ public static partial class KarineUI {
   }).Every(50);
  }
 
- // Bant takılıyor: kaset yuvaya kayar, tık sesi.
- public static void TapeInsert(VisualElement root) {
-  if(root==null || !Fx.On)return;
-  var veil=Veil(root,"TapeInsert",.6f);veil.pickingMode=PickingMode.Ignore;
-  var slot=new VisualElement {pickingMode=PickingMode.Ignore};slot.style.width=200;slot.style.height=16;slot.style.backgroundColor=Color.black;
-  Border(slot,1,KarineTheme.Alpha(KarineTheme.Paper.Light,.4f));veil.Add(slot);
-  var tape=new VisualElement {pickingMode=PickingMode.Ignore};tape.style.position=Position.Absolute;tape.style.width=180;tape.style.height=110;
-  tape.style.backgroundColor=KarineTheme.GlassDeep;Border(tape,2,KarineTheme.Alpha(KarineTheme.Paper.Light,.5f));Round(tape,6);veil.Add(tape);
-  for(int i=0;i<2;i++){var reel=new VisualElement {pickingMode=PickingMode.Ignore};reel.style.position=Position.Absolute;reel.style.top=30;reel.style.left=30+i*80;
-   reel.style.width=40;reel.style.height=40;Round(reel,20);Border(reel,2,KarineTheme.Alpha(KarineTheme.Paper.Light,.5f));tape.Add(reel);}
-  KarineMotion.Run(veil,S.InsertSeconds,t=> {
-   float e=Mathf.Clamp01(t/.7f);tape.style.translate=new Translate(0,Mathf.Lerp(160,0,e*e));
-   tape.style.scale=new Scale(new Vector3(1,Mathf.Lerp(1,.12f,Mathf.Clamp01((t-.55f)/.3f)),1));
-   if(t>.85f)veil.style.opacity=1-(t-.85f)/.15f;
-  },()=>{Cue("tape");veil.RemoveFromHierarchy();});
+ // İzleyici siyahtan açılır: kısa bir karanlık, sonra görüntü belirir.
+ // `done` görüntü tam açılınca çağrılır; kare dizisi ancak o an başlar,
+ // böylece ilk kareler geçişin altında kaybolmaz. (Kaset animasyonu kaldırıldı.)
+ public static void FromBlack(VisualElement host,Action done) {
+  var black=new VisualElement {name="CctvFromBlack",pickingMode=PickingMode.Ignore};black.style.position=Position.Absolute;
+  black.style.left=0;black.style.right=0;black.style.top=0;black.style.bottom=0;black.style.backgroundColor=Color.black;host.Add(black);
+  if(KarineMotion.Reduced){black.RemoveFromHierarchy();done?.Invoke();return;}
+  KarineMotion.Run(black,S.BlackHoldSeconds+S.BlackFadeSeconds,t=> {
+   float k=Mathf.Clamp01((t*(S.BlackHoldSeconds+S.BlackFadeSeconds)-S.BlackHoldSeconds)/S.BlackFadeSeconds);black.style.opacity=1-k;
+  },()=>{black.RemoveFromHierarchy();done?.Invoke();});
  }
 }
 }

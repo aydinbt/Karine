@@ -29,7 +29,7 @@ public static class KarineTheme {
   public const int AnswerPauseMs=380;
   // Kare dizisinden CCTV: kare başına süre (kayıt kendi `frameMs`ini verebilir),
   // kare değişimindeki titreme.
-  public const int CctvFrameMs=650;
+  public const int CctvFrameMs=900, CctvLoops=3;
   public const float CctvFlickerSeconds=.12f, CctvJitter=3f;
  }
 
@@ -92,7 +92,7 @@ public static class KarineTheme {
   public static readonly Rect LampSwitch=new Rect(6,14,18,22), Calendar=new Rect(21,3,7,9), Cord=new Rect(28,60,6,8);
   public const float LampOffAlpha=.38f, CordSeconds=1.6f, TearSeconds=.7f;
   public const int WindowMinMs=4000, WindowMaxMs=11000, FlickerMinMs=18000, FlickerMaxMs=45000, BlinkMinMs=2600, BlinkMaxMs=6500;
-  public const float SmokeSeconds=5f, PrintSeconds=1.3f, InsertSeconds=.8f, GhostSeconds=.25f, RepeatChance=.03f;
+  public const float SmokeSeconds=5f, PrintSeconds=1.3f, BlackHoldSeconds=.35f, BlackFadeSeconds=.6f, GhostSeconds=.25f, RepeatChance=.03f;
   // Masa lambası renkleri (ödüllü görünüm): sıcak (varsayılan), yeşil banker, soğuk floresan, kehribar.
   public static readonly Color[] LampTints={Hex("#E8DCC4"),Hex("#9FD6A8"),Hex("#BFD4E6"),Hex("#F0B060")};
   public const float ChapterSeconds=3f, EchoSeconds=6f, EpilogueSeconds=6f, CreditsSeconds=14f, ReachPercent=38f;
@@ -238,7 +238,7 @@ public static class KarineTheme {
  }
  // Açılış yüklemesi ve stüdyo imzası.
  public static class Loading {
-  public const float MinSeconds=2.4f, TipSeconds=3.2f, FadeSeconds=.6f, BarWidth=42f;
+  public const float MinSeconds=2.4f, TipSeconds=3.2f, TransitSeconds=3.2f, TransitTipSeconds=99f, FadeSeconds=.6f, BarWidth=42f;
   public const int LogoWidth=520, TipSize=18, LabelSize=14, BarHeight=6, StudioHeight=44, StudioTextSize=18;
  }
  // Gelen evrak modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_INBOX_2026-10.png).
