@@ -1158,4 +1158,4 @@ Yeni kariyerde "Oyuna başla"dan sonra ilk film Bora'nın 10 saniyelik göreve h
 
 ## 8 Ekim 2026 — Türkiye açılış videosu kaldırıldı
 
-Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış filmi oynar. Türkiye açılış videosu (`world01`) akıştan çıkarıldı. Film bitince doğrudan masaya dosya bırakılır. `world01_intro.mp4` depoda duruyor ama kullanılmıyor. Diğer ülkelerin açılış kartlarına (world02–10) dokunulmadı.
+Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış filmi oynar. Türkiye açılış videosu (`world01`) akıştan çıkarıldı. Film bitince doğrudan masaya dosya bırakılır. `world01_intro.mp4` ve 3 Ekim'den beri kullanılmayan masaya varış filmi `case001_arrival.mp4` depodan silindi; ölü oynatma kodu da kaldırıldı. Diğer ülkelerin açılış kartlarına (world02–10) dokunulmadı.
