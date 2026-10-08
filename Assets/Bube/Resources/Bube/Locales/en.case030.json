@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case030.autopsy.body",
+   "value": "· A single blow to the upper left of the head with a round, heavy object; flakes of red paint in the wound.\n· No multiple grazes typical of a fall down stairs; no fall fractures in the bones.\n· Time of death: 09.55–10.15."
+  },
+  {
+   "key": "case030.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case030.cctv.event.door",
+   "value": "Camera: The lobby is empty; the stairwell door slowly closes."
+  },
+  {
+   "key": "case030.cctv.event.out",
+   "value": "Camera: The same man comes back up out of the stairwell; the clipboard is no longer in his hand, he walks quickly to the copy room."
+  },
+  {
+   "key": "case030.cctv.event.wait",
+   "value": "Camera: A man with an armband stands alone in the empty lobby, a roll-call clipboard in his hand, looking at the stairwell door."
+  },
+  {
+   "key": "case030.cctv.overlay",
+   "value": "9F-L"
+  },
+  {
+   "key": "case030.cctv.period",
+   "value": "1 April 2030"
+  },
+  {
+   "key": "case030.cctv.source",
+   "value": "Lobby camera"
+  },
+  {
+   "key": "case030.clue.alarm",
+   "value": "Drill alarm; the accounts floor heads for the stairs."
+  },
+  {
+   "key": "case030.clue.found",
+   "value": "The security guard finds the body on the landing."
+  },
+  {
+   "key": "case030.clue.out",
+   "value": "The man returns from the stairwell without the clipboard and goes to the copy room."
+  },
+  {
+   "key": "case030.clue.roll",
+   "value": "Roll call in the square ‘complete’; the victim’s name ticked in blue pen."
+  },
+  {
+   "key": "case030.clue.scan",
+   "value": "The evacuation warden’s QR scan is from the 9th floor."
+  },
+  {
+   "key": "case030.clue.source.ono",
+   "value": "Security"
+  },
+  {
+   "key": "case030.clue.source.qr",
+   "value": "App log"
+  },
+  {
+   "key": "case030.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case030.clue.source.sheet",
+   "value": "Roll-call sheet"
+  },
+  {
+   "key": "case030.clue.wait",
+   "value": "The man with the armband looks at the stairwell door in the empty lobby."
+  },
+  {
+   "key": "case030.copy.body",
+   "value": "9th-floor copy room:\n\n· One of the suspended ceiling tiles has been moved. Inside, a red fire extinguisher; a dent in its base, hair and dried blood in the dent. According to the floor plan, the extinguisher beside the east stairwell door is missing.\n· Nishida Kōhei’s fingerprints on the extinguisher handle and the ceiling tile frame.\n· On top of the tile, a roll-call clipboard."
+  },
+  {
+   "key": "case030.copy.title",
+   "value": "COPY ROOM SEARCH"
+  },
+  {
+   "key": "case030.custody.forged",
+   "value": "The warden ticked it himself in the victim’s place"
+  },
+  {
+   "key": "case030.custody.genuine",
+   "value": "The victim was in the square and came back later"
+  },
+  {
+   "key": "case030.custody.label",
+   "value": "What does the drill roll call show?"
+  },
+  {
+   "key": "case030.custody.mistake",
+   "value": "Ticked by mistake in the crowd"
+  },
+  {
+   "key": "case030.epilogue.custody.forged",
+   "value": "It was recorded that the roll call was falsely completed by the evacuation warden."
+  },
+  {
+   "key": "case030.epilogue.custody.genuine",
+   "value": "It was accepted that the victim was in the square; the time of death shifted to after the drill."
+  },
+  {
+   "key": "case030.epilogue.custody.mistake",
+   "value": "The roll-call error was deemed to be in good faith."
+  },
+  {
+   "key": "case030.epilogue.verdict.fall",
+   "value": "The death was closed as a drill accident; the handrails in the building were replaced."
+  },
+  {
+   "key": "case030.epilogue.verdict.hirano",
+   "value": "Hirano Saki was charged; no one questioned the roll-call sheet."
+  },
+  {
+   "key": "case030.epilogue.verdict.nishida",
+   "value": "Nishida Kōhei was arrested. The Maison Delorme transfers were sent to internal audit, and from there to the bube branch in Paris."
+  },
+  {
+   "key": "case030.evidence.copy",
+   "value": "Copy room search"
+  },
+  {
+   "key": "case030.evidence.file",
+   "value": "The victim’s file"
+  },
+  {
+   "key": "case030.evidence.qr",
+   "value": "Evacuation app log"
+  },
+  {
+   "key": "case030.evidence.sheet",
+   "value": "Roll-call sheet"
+  },
+  {
+   "key": "case030.feedback.fall",
+   "value": "The autopsy shows not fall fractures but a single blow with flakes of red paint."
+  },
+  {
+   "key": "case030.feedback.hirano",
+   "value": "The desk mate argued with her but scanned in the square at 10.07; her prints are not on the extinguisher."
+  },
+  {
+   "key": "case030.feedback.nishida",
+   "value": "The app log shows him still on the 9th floor at 10.09 and the camera shows him coming back from the stairwell without the clipboard; his prints are on the extinguisher and the ceiling tile, and the only blue tick on the roll call is from his pen."
+  },
+  {
+   "key": "case030.file.body",
+   "value": "In the victim’s locked drawer: 14 transfers headed ‘Consultancy’, recipient the Maison Delorme auction house in Paris, total 380 million yen. On every transfer form, the approval signature: Nishida Kōhei.\n\nOn the last form, handwritten beside the signature: ‘Approved by E.V.’\n\nThe victim’s sticky note: “Internal audit on Monday. Without asking Nishida.”"
+  },
+  {
+   "key": "case030.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case030.file.title",
+   "value": "THE FILE ON AOKI’S DESK"
+  },
+  {
+   "key": "case030.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Branch"
+  },
+  {
+   "key": "case030.file.value.location",
+   "value": "Nihonbashi, office tower — east stairwell"
+  },
+  {
+   "key": "case030.file.value.number",
+   "value": "BDS-TYO-2030-0041"
+  },
+  {
+   "key": "case030.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case030.file.value.reporter",
+   "value": "Building security"
+  },
+  {
+   "key": "case030.hirano.body",
+   "value": "Desk mate."
+  },
+  {
+   "key": "case030.hirano.deflect",
+   "value": "Ask my supervisor about that."
+  },
+  {
+   "key": "case030.hirano.drill.answer",
+   "value": "When the alarm went off she was at her desk, buried in her files. ‘I’m coming,’ she said. I didn’t see her on the stairs, and in the square… I didn’t pay attention. They said her name is on the sheet."
+  },
+  {
+   "key": "case030.hirano.drill.question",
+   "value": "Did you see Rin during the drill?"
+  },
+  {
+   "key": "case030.hirano.rin.answer",
+   "value": "We had a shouting match yesterday; everyone heard. She sent the transfer list I’d prepared back to the supervisor as ‘incomplete’. But that list wasn’t incomplete; Rin was after something else, the transfers going to Paris."
+  },
+  {
+   "key": "case030.hirano.rin.answer.demeanor",
+   "value": "She turns her helmet in both hands."
+  },
+  {
+   "key": "case030.hirano.rin.question",
+   "value": "How did you get on with Aoki Rin?"
+  },
+  {
+   "key": "case030.hirano.rin.variant0",
+   "value": "So you found that file. Yesterday evening Rin said to me, ‘Mr Nishida signed this, and beside the signature it says E.V.; who is that?’ I said, ‘Stay out of it.’ That was the argument."
+  },
+  {
+   "key": "case030.hirano.title",
+   "value": "Hirano Saki — interview"
+  },
+  {
+   "key": "case030.lobby.body",
+   "value": "Covers the lobby and the east stairwell door. 1 April 09.55 – 10.20."
+  },
+  {
+   "key": "case030.lobby.title",
+   "value": "9TH FLOOR LIFT LOBBY CAMERA — log transcript"
+  },
+  {
+   "key": "case030.method.ext",
+   "value": "She was struck on the head with a fire extinguisher"
+  },
+  {
+   "key": "case030.method.fall",
+   "value": "She fell in the crowd"
+  },
+  {
+   "key": "case030.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case030.method.push",
+   "value": "She was pushed down the stairs"
+  },
+  {
+   "key": "case030.nishida.body",
+   "value": "Evacuation warden."
+  },
+  {
+   "key": "case030.nishida.deflect",
+   "value": "I can’t give out company information."
+  },
+  {
+   "key": "case030.nishida.last.answer",
+   "value": "Of course. I checked the floor, it was empty, I went down the east stairs."
+  },
+  {
+   "key": "case030.nishida.last.question",
+   "value": "Were you the last to leave the floor?"
+  },
+  {
+   "key": "case030.nishida.roll.answer",
+   "value": "In the square, at 10.12. Everyone’s name was read out one by one; Aoki said ‘here’, I ticked it. Then I lost her in the crowd; she must have gone back in early."
+  },
+  {
+   "key": "case030.nishida.roll.answer.demeanor",
+   "value": "He pushes his glasses up his nose."
+  },
+  {
+   "key": "case030.nishida.roll.question",
+   "value": "Did you take the roll call?"
+  },
+  {
+   "key": "case030.nishida.title",
+   "value": "Nishida Kōhei — interview"
+  },
+  {
+   "key": "case030.nishida_2.body",
+   "value": "On the records."
+  },
+  {
+   "key": "case030.nishida_2.nine.answer",
+   "value": "I was doing the floor check."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.copy",
+   "value": "…The alarm went, everyone left, she got up and came to me with the file. ‘I’m taking this to audit,’ she said. At the stairwell door. The extinguisher was right under my hand. Then at the roll call I ticked her name; in a crowd no one can count."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.file",
+   "value": "Consultancy payments come from above. I only sign them. I wouldn’t kill someone for that."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.qr",
+   "value": "My phone… I scanned on the stairs; the signal may have been picked up that way."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.sheet",
+   "value": "Aoki was in the crowd; I thought I heard her say ‘here’. The colour of a pen proves nothing."
+  },
+  {
+   "key": "case030.nishida_2.nine.question",
+   "value": "At 10.09 you were still on the 9th floor."
+  },
+  {
+   "key": "case030.nishida_2.title",
+   "value": "Nishida Kōhei — second interview"
+  },
+  {
+   "key": "case030.offer.subtitle",
+   "value": "THE DRILL  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case030.offer.summary",
+   "value": "After an earthquake drill, a body in the stairwell. According to the roll call, the victim was in the square at the time."
+  },
+  {
+   "key": "case030.offer.title",
+   "value": "FILE #030"
+  },
+  {
+   "key": "case030.ono.body",
+   "value": "Building security."
+  },
+  {
+   "key": "case030.ono.deflect",
+   "value": "My job is doors and stairs."
+  },
+  {
+   "key": "case030.ono.drill.answer",
+   "value": "The alarm, then each floor’s evacuation warden takes their people down the stairs, takes a roll call on paper in the square and tells me ‘complete’. The lifts are off. The warden leaves last and checks the floor. In accounts the warden is Mr Nishida."
+  },
+  {
+   "key": "case030.ono.drill.question",
+   "value": "How does the drill work?"
+  },
+  {
+   "key": "case030.ono.found.answer",
+   "value": "On the way back I was closing the stairwell doors one by one. She was lying on the landing; there seemed to be no blood under her head. Someone who falls down stairs doesn’t lie like that; I’ve seen it for thirty years."
+  },
+  {
+   "key": "case030.ono.found.question",
+   "value": "How did you find the body?"
+  },
+  {
+   "key": "case030.ono.title",
+   "value": "Ōno Tadashi — interview"
+  },
+  {
+   "key": "case030.person.hirano.info",
+   "value": "33, the victim’s desk mate; on the same team."
+  },
+  {
+   "key": "case030.person.hirano.name",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.person.nishida.info",
+   "value": "48, evacuation warden for Kisaragi Shōji’s accounts floor; senior supervisor."
+  },
+  {
+   "key": "case030.person.nishida.name",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.person.ono.info",
+   "value": "61, the building’s security guard; runs the drill."
+  },
+  {
+   "key": "case030.person.ono.name",
+   "value": "Ōno Tadashi"
+  },
+  {
+   "key": "case030.qr.body",
+   "value": "During drills the building asks every employee to scan the QR code in the square with their phone; the app also logs the Wi-Fi access point the scan was made from.\n\n· Aoki Rin: no scan.\n· Nishida Kōhei: 10.09, access point ‘9F-EAST’. Not the square: the 9th floor.\n· The other 22 people in accounts: 10.06–10.11, the square."
+  },
+  {
+   "key": "case030.qr.title",
+   "value": "EVACUATION APP LOG"
+  },
+  {
+   "key": "case030.report.body",
+   "value": "On 1 April 2030 at 10.00, the annual earthquake drill began in an office tower in Nihonbashi. Kisaragi Shōji’s accounts department on the 9th floor reported its roll call in the square at 10.12: ‘complete’.\n\nWhen the drill ended and staff returned, at 10.41 security guard Ōno Tadashi found accounts specialist Aoki Rin (29) dead on the 8th–9th floor landing of the east stairwell.\n\nFirst assessment: she fell down the stairs in the crowd. But according to the roll call, Aoki was in the square at 10.12."
+  },
+  {
+   "key": "case030.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case030.request.copy",
+   "value": "Request a search of the copy room"
+  },
+  {
+   "key": "case030.request.file",
+   "value": "Open the victim’s locked drawer"
+  },
+  {
+   "key": "case030.request.qr",
+   "value": "Request the evacuation app scan log"
+  },
+  {
+   "key": "case030.request.sheet",
+   "value": "Send the roll-call sheet for examination"
+  },
+  {
+   "key": "case030.sheet.body",
+   "value": "The roll-call sheet reported as ‘complete’ in the square. 23 names, 23 ticks.\n\n22 of the ticks are black ink. The tick beside Aoki Rin is blue ballpoint; the same blue ink is in the pen in Nishida Kōhei’s shirt pocket.\n\nIn the margin of the sheet, in blue pen: ‘10.12 complete — N.’"
+  },
+  {
+   "key": "case030.sheet.title",
+   "value": "ROLL-CALL SHEET EXAMINATION"
+  },
+  {
+   "key": "case030.summary.evidence",
+   "value": "The autopsy showed a single blow, not a fall. The evacuation app showed Nishida still on the floor at 10.09, the lobby camera his return from the stairwell without the clipboard, the roll-call sheet the single blue tick, and the copy room search the extinguisher."
+  },
+  {
+   "key": "case030.summary.lesson",
+   "value": "A roll call records not who was there, but who wrote ‘there’. Ask where the hand holding the sheet was too."
+  },
+  {
+   "key": "case030.summary.location",
+   "value": "Nihonbashi — April 2030"
+  },
+  {
+   "key": "case030.summary.truth",
+   "value": "Accounts specialist Aoki Rin found her supervisor Nishida Kōhei’s signature, and an ‘Approved by E.V.’ note, on all of the 380 million yen in ‘consultancy’ transfers from Kisaragi Shōji to the Maison Delorme auction house in Paris. When the drill alarm sounded she went to her supervisor with the file; evacuation warden Nishida killed her at the stairwell door with the extinguisher, hid the extinguisher and the clipboard in the copy room ceiling, and in the square ticked the victim’s name with his own pen and called it ‘complete’."
+  },
+  {
+   "key": "case030.suspect.label",
+   "value": "Who killed Aoki Rin?"
+  },
+  {
+   "key": "case030.tablet.caseLine",
+   "value": "FILE #030  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case030.time.alarm",
+   "value": "10.00"
+  },
+  {
+   "key": "case030.time.door",
+   "value": "10.04"
+  },
+  {
+   "key": "case030.time.found",
+   "value": "10.41"
+  },
+  {
+   "key": "case030.time.out",
+   "value": "10.07"
+  },
+  {
+   "key": "case030.time.roll",
+   "value": "10.12"
+  },
+  {
+   "key": "case030.time.scan",
+   "value": "10.09"
+  },
+  {
+   "key": "case030.time.wait",
+   "value": "10.03"
+  },
+  {
+   "key": "case030.title",
+   "value": "File #030 — The Drill"
+  },
+  {
+   "key": "case030.verdict.fall",
+   "value": "No one — she fell down the stairs"
+  },
+  {
+   "key": "case030.verdict.hirano",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.verdict.nishida",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.item.sheet.name",
+   "value": "Drill roll-call sheet"
+  },
+  {
+   "key": "case030.item.sheet.detail",
+   "value": "The floor roll call; a tick beside the victim’s name in a different-coloured pen."
+  },
+  {
+   "key": "case030.item.ext.name",
+   "value": "Fire extinguisher"
+  },
+  {
+   "key": "case030.item.ext.detail",
+   "value": "A red extinguisher found inside the suspended ceiling; a dent and hair on its base."
+  },
+  {
+   "key": "case030.item.tile.name",
+   "value": "Ceiling tile"
+  },
+  {
+   "key": "case030.item.tile.detail",
+   "value": "A ceiling tile from the 9th-floor copy room; dislodged, fingerprint powder on its edge."
+  }
+ ]
+}

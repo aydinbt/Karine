@@ -1,0 +1,688 @@
+{
+ "entries": [
+  {
+   "key": "case031.autopsy.body",
+   "value": "· Tetrodotoxin (fugu poison) poisoning; respiratory paralysis.\n· Stomach contents: fugu sashimi, fugu hotpot, rice porridge, and lastly hot sake with a charred fin.\n· Onset of symptoms (numbness of the tongue) around 22.05. Tetrodotoxin usually produces symptoms 20–40 minutes after ingestion.\n· The blood level is high; consistent not with a few grams of liver but with a pure substance."
+  },
+  {
+   "key": "case031.autopsy.title",
+   "value": "AUTOPSY AND TOXICOLOGY"
+  },
+  {
+   "key": "case031.bin.body",
+   "value": "The seal on the fugu waste box is intact. The box was opened and the contents weighed:\n\n· Liver 412 g, ovaries 188 g, eyes, intestines.\n· Ōmura Takeshi’s handwritten log from the same night: liver 410 g, ovaries 190 g.\n\nThe difference is within the scale’s tolerance. None of the fish’s poisonous parts are missing."
+  },
+  {
+   "key": "case031.bin.title",
+   "value": "KITCHEN WASTE BOX LOG"
+  },
+  {
+   "key": "case031.cctv.event.enter",
+   "value": "Camera: The man opens the private room door and enters on his knees; he holds the tray with both hands, a small flame above the cup."
+  },
+  {
+   "key": "case031.cctv.event.pause",
+   "value": "Camera: The man stops in the corridor, head bent over the tray, one hand in his jacket pocket."
+  },
+  {
+   "key": "case031.cctv.event.take",
+   "value": "Camera: A man in a dark suit takes a small lidded cup on a tray from the kitchen window; for a moment he turns his back to the camera."
+  },
+  {
+   "key": "case031.cctv.overlay",
+   "value": "RYO-2"
+  },
+  {
+   "key": "case031.cctv.period",
+   "value": "18 April 2030"
+  },
+  {
+   "key": "case031.cctv.source",
+   "value": "Corridor camera"
+  },
+  {
+   "key": "case031.clue.cancel",
+   "value": "At the table the chairman says, ‘There will be no Paris sale.’"
+  },
+  {
+   "key": "case031.clue.lab",
+   "value": "The finance director has 1 mg of tetrodotoxin released from the subsidiary."
+  },
+  {
+   "key": "case031.clue.msg",
+   "value": "‘Done. The sale is ready for signing on Monday.’"
+  },
+  {
+   "key": "case031.clue.numb",
+   "value": "The chairman’s tongue goes numb."
+  },
+  {
+   "key": "case031.clue.pause",
+   "value": "The man stops in the corridor, hand in his jacket pocket."
+  },
+  {
+   "key": "case031.clue.source.autopsy",
+   "value": "Autopsy"
+  },
+  {
+   "key": "case031.clue.source.lab",
+   "value": "Laboratory inventory"
+  },
+  {
+   "key": "case031.clue.source.phone",
+   "value": "Phone"
+  },
+  {
+   "key": "case031.clue.source.sayuri",
+   "value": "The chairman’s daughter"
+  },
+  {
+   "key": "case031.clue.take",
+   "value": "The man in the suit takes the cup from the kitchen window."
+  },
+  {
+   "key": "case031.corridor.body",
+   "value": "The corridor between the kitchen window and the private room. 18 April 21.30 – 22.30."
+  },
+  {
+   "key": "case031.corridor.title",
+   "value": "RYŌTEI CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case031.cup.body",
+   "value": "· Sake residue at the bottom of the chairman’s hirezake cup: tetrodotoxin, high concentration.\n· The jug in the kitchen from which the same sake was poured: clean.\n· The fried fins (four fins from the same pan): clean.\n· The other three cups: clean.\n\nThe poison entered the cup after it left the kitchen."
+  },
+  {
+   "key": "case031.cup.title",
+   "value": "CUP AND JUG ANALYSIS"
+  },
+  {
+   "key": "case031.custody.kitchen",
+   "value": "From the ryōtei’s kitchen"
+  },
+  {
+   "key": "case031.custody.lab",
+   "value": "From the company’s pharmaceutical laboratory, under the son-in-law’s signature"
+  },
+  {
+   "key": "case031.custody.label",
+   "value": "Where did the poison come from?"
+  },
+  {
+   "key": "case031.custody.market",
+   "value": "A piece brought from the fish market"
+  },
+  {
+   "key": "case031.epilogue.custody.kitchen",
+   "value": "It was accepted that the poison came from the fish; the kitchen was closed."
+  },
+  {
+   "key": "case031.epilogue.custody.lab",
+   "value": "It was recorded that the poison left the subsidiary on Hayashi’s authority and was carried by the driver."
+  },
+  {
+   "key": "case031.epilogue.custody.market",
+   "value": "The source of the poison was sought outside; it was not found."
+  },
+  {
+   "key": "case031.epilogue.verdict.hayashi",
+   "value": "Hayashi Tōru was arrested. Kisaragi Shōji’s Paris sale was halted. The chairman’s notebook and Hayashi’s correspondence were sent to the bube Paris — Belleville branch. ‘E.V.’ does not appear by full name in any record."
+  },
+  {
+   "key": "case031.epilogue.verdict.ikeda",
+   "value": "Ikeda Mai was taken into custody; the chairman’s notebook was never read."
+  },
+  {
+   "key": "case031.epilogue.verdict.omura",
+   "value": "Ōmura Takeshi was tried for negligence and lost his licence. The Paris sale was signed on Monday."
+  },
+  {
+   "key": "case031.epilogue.verdict.sayuri",
+   "value": "Kisaragi Sayuri was charged; Hayashi took over the company."
+  },
+  {
+   "key": "case031.evidence.bin",
+   "value": "Kitchen waste box"
+  },
+  {
+   "key": "case031.evidence.cup",
+   "value": "Cup and jug analysis"
+  },
+  {
+   "key": "case031.evidence.lab",
+   "value": "Laboratory inventory and car"
+  },
+  {
+   "key": "case031.evidence.phone",
+   "value": "Hayashi’s phone"
+  },
+  {
+   "key": "case031.feedback.hayashi",
+   "value": "The poison is only in the cup he lit and served; the moment he stopped in the corridor is on camera, he had the ampoule released under his own signature and his fingerprint is on the broken ampoule in the car. That night the chairman cancelled the Paris sale; his message: ‘Done’."
+  },
+  {
+   "key": "case031.feedback.ikeda",
+   "value": "The secretary arranged the Monday appointment; she was the one person who wanted that appointment to happen."
+  },
+  {
+   "key": "case031.feedback.omura",
+   "value": "The chef cleaned the fish by the rules; nothing is missing from the waste box, the hotpot and the jug are clean."
+  },
+  {
+   "key": "case031.feedback.sayuri",
+   "value": "The daughter knew of her father’s decision but did not touch the cup; the sale was her husband’s project."
+  },
+  {
+   "key": "case031.file.caseType",
+   "value": "CHAPTER FINALE"
+  },
+  {
+   "key": "case031.file.value.bureau",
+   "value": "BDS Tokyo — Nihonbashi Branch"
+  },
+  {
+   "key": "case031.file.value.location",
+   "value": "Tsukiji, ryōtei — private room"
+  },
+  {
+   "key": "case031.file.value.number",
+   "value": "BDS-TYO-2030-0050"
+  },
+  {
+   "key": "case031.file.value.offence",
+   "value": "Suspicious death; poisoning"
+  },
+  {
+   "key": "case031.file.value.reporter",
+   "value": "The ryōtei"
+  },
+  {
+   "key": "case031.hayashi.body",
+   "value": "Son-in-law; finance director."
+  },
+  {
+   "key": "case031.hayashi.deflect",
+   "value": "The company’s finances are confidential."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer",
+   "value": "My father-in-law was old, tired these last months, his decisions changeable. Fugu kills a few people every year. We trusted Chef Ōmura; so he’s grown old."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer.demeanor",
+   "value": "He takes off his glasses and wipes them with a handkerchief."
+  },
+  {
+   "key": "case031.hayashi.dinner.question",
+   "value": "What happened at dinner?"
+  },
+  {
+   "key": "case031.hayashi.dinner.variant0",
+   "value": "The box came out complete? Then the chef’s log may be wrong. Or another fish. I wasn’t in the kitchen."
+  },
+  {
+   "key": "case031.hayashi.sake.answer",
+   "value": "Respect. As the son-in-law. In Japan it’s a gesture; you wouldn’t know."
+  },
+  {
+   "key": "case031.hayashi.sake.question",
+   "value": "Why did you serve the hirezake?"
+  },
+  {
+   "key": "case031.hayashi.title",
+   "value": "Hayashi Tōru — interview"
+  },
+  {
+   "key": "case031.hayashi_2.body",
+   "value": "On the records."
+  },
+  {
+   "key": "case031.hayashi_2.title",
+   "value": "Hayashi Tōru — second interview"
+  },
+  {
+   "key": "case031.hayashi_2.vial.answer",
+   "value": "An audit sample."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.lab",
+   "value": "For the audit. It broke in the car, by accident. What has that to do with my father-in-law?"
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.notebook",
+   "value": "‘Tōru must not know this.’ …I knew. He’d already told me before dinner. That proves nothing."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.phone",
+   "value": "E.V.… I never saw them. Only e-mail, only two letters. The house in Paris had prepared everything: the collection, the network, the transfers. My father-in-law was cancelling ten years in one night. Do you know what ‘Paris is waiting’ means? They don’t wait. In the corridor I broke the ampoule into the cup. I lit the flame myself. At the table I handed it to him with my own hand."
+  },
+  {
+   "key": "case031.hayashi_2.vial.question",
+   "value": "You signed for the ampoule on 17 April."
+  },
+  {
+   "key": "case031.ikeda.body",
+   "value": "The chairman’s secretary."
+  },
+  {
+   "key": "case031.ikeda.book.answer",
+   "value": "He had a black notebook, he carried it everywhere. Before dinner he wrote something in the car, at length. The notebook was in his pocket; it must have been with him on the way to hospital."
+  },
+  {
+   "key": "case031.ikeda.book.question",
+   "value": "The chairman’s personal notes?"
+  },
+  {
+   "key": "case031.ikeda.deflect",
+   "value": "The chairman’s correspondence is confidential."
+  },
+  {
+   "key": "case031.ikeda.monday.answer",
+   "value": "Monday 09.00, a meeting with the bube Tokyo branch. He rang himself and said, ‘We’ll talk about the notebook of a German named Arendt.’ Only I knew that and… that evening he said it at dinner. Everyone heard."
+  },
+  {
+   "key": "case031.ikeda.monday.answer.demeanor",
+   "value": "She closes her notebook and opens it again."
+  },
+  {
+   "key": "case031.ikeda.monday.question",
+   "value": "What was in the chairman’s diary?"
+  },
+  {
+   "key": "case031.ikeda.title",
+   "value": "Ikeda Mai — interview"
+  },
+  {
+   "key": "case031.kazue.body",
+   "value": "Okami."
+  },
+  {
+   "key": "case031.kazue.deflect",
+   "value": "I don’t hear my guests’ conversations."
+  },
+  {
+   "key": "case031.kazue.pour.answer",
+   "value": "The son-in-law. Usually I serve it and light the flame, so the guest isn’t troubled. But that night he said, ‘This is the last night, I’ll serve my father myself.’ I didn’t understand what he meant."
+  },
+  {
+   "key": "case031.kazue.pour.answer.demeanor",
+   "value": "She straightens the sleeve of her kimono."
+  },
+  {
+   "key": "case031.kazue.pour.question",
+   "value": "Who served the hirezake?"
+  },
+  {
+   "key": "case031.kazue.pour.variant0",
+   "value": "In the cup? Then let me tell you this too: he stopped for a moment in the corridor. I saw it through the gap in the door, his back was to me. I thought he was looking for matches. I had the matches."
+  },
+  {
+   "key": "case031.kazue.quote",
+   "value": "“This is the last night, I’ll serve my father myself.”"
+  },
+  {
+   "key": "case031.kazue.title",
+   "value": "Fujimoto Kazue — interview"
+  },
+  {
+   "key": "case031.lab.body",
+   "value": "Research standards inventory of Kisaragi Shōji’s pharmaceutical subsidiary in Kawasaki:\n\n· 17 April · tetrodotoxin reference standard, 1 mg, brown ampoule — released. Authorising signature: Hayashi Tōru (finance). Reason: ‘audit sample’.\n\nThe Hayashi family car, rear right door pocket: a brown ampoule with a broken neck. Residue: tetrodotoxin. Hayashi Tōru’s fingerprint on the ampoule."
+  },
+  {
+   "key": "case031.lab.title",
+   "value": "LABORATORY INVENTORY AND CAR SEARCH"
+  },
+  {
+   "key": "case031.method.fugu",
+   "value": "Chef’s error — a poisonous part of the fugu"
+  },
+  {
+   "key": "case031.method.heart",
+   "value": "Age-related heart failure"
+  },
+  {
+   "key": "case031.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case031.method.liver",
+   "value": "Liver added to the hotpot"
+  },
+  {
+   "key": "case031.method.ttx",
+   "value": "A pure tetrodotoxin ampoule broken into the hirezake cup"
+  },
+  {
+   "key": "case031.notebook.body",
+   "value": "Kisaragi Genzō’s black notebook, last page, 18 April:\n\n“I am not Arendt’s buyer; I am the intermediary. The goods passed through Tokyo and went to Paris. The bowls, the invoices, the transfers: all of it there. On Monday I will give bube everything. My son-in-law Hayashi Tōru must not know this. I am cancelling the sale tonight.”"
+  },
+  {
+   "key": "case031.notebook.title",
+   "value": "THE CHAIRMAN’S NOTEBOOK"
+  },
+  {
+   "key": "case031.offer.subtitle",
+   "value": "KISARAGI  /  CHAPTER FINALE"
+  },
+  {
+   "key": "case031.offer.summary",
+   "value": "The chairman of Kisaragi Shōji dies after a fugu dinner at a ryōtei. The chef is about to lose his licence; his family was at the table."
+  },
+  {
+   "key": "case031.offer.title",
+   "value": "FILE #031"
+  },
+  {
+   "key": "case031.omura.body",
+   "value": "Fugu chef."
+  },
+  {
+   "key": "case031.omura.deflect",
+   "value": "Everything there is to say about my kitchen is written in my licence."
+  },
+  {
+   "key": "case031.omura.fish.answer",
+   "value": "I’ve cleaned them myself for forty years. Liver, ovaries, eyes: all weighed, into the locked box, the box sealed, the council collects it the next day. That night was the same. Have the box opened, weigh it."
+  },
+  {
+   "key": "case031.omura.fish.answer.demeanor",
+   "value": "He wipes his hands on his apron, again and again."
+  },
+  {
+   "key": "case031.omura.fish.question",
+   "value": "Did you clean the fish?"
+  },
+  {
+   "key": "case031.omura.order.answer",
+   "value": "Sashimi 21.00, hotpot 21.25, porridge 21.40, then hirezake: I fry the fin, put it in hot sake, close the lid and pass it through the window. That night Mr Hayashi said, ‘I’ll take it to the chairman, I’ll do the lighting.’ He took it from the window."
+  },
+  {
+   "key": "case031.omura.order.question",
+   "value": "What was the order of the meal?"
+  },
+  {
+   "key": "case031.omura.title",
+   "value": "Ōmura Takeshi — interview"
+  },
+  {
+   "key": "case031.person.hayashi.info",
+   "value": "51, Kisaragi Shōji’s finance director; the chairman’s son-in-law."
+  },
+  {
+   "key": "case031.person.hayashi.name",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.person.ikeda.info",
+   "value": "36, the chairman’s private secretary."
+  },
+  {
+   "key": "case031.person.ikeda.name",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.person.kazue.info",
+   "value": "69, owner and hostess (okami) of the ryōtei."
+  },
+  {
+   "key": "case031.person.kazue.name",
+   "value": "Fujimoto Kazue"
+  },
+  {
+   "key": "case031.person.omura.info",
+   "value": "64, the ryōtei’s licensed fugu chef; forty years in the same kitchen."
+  },
+  {
+   "key": "case031.person.omura.name",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.person.saito.info",
+   "value": "43, the Hayashi family’s driver."
+  },
+  {
+   "key": "case031.person.saito.name",
+   "value": "Saitō Gō"
+  },
+  {
+   "key": "case031.person.sayuri.info",
+   "value": "47, the chairman’s only daughter; Hayashi’s wife, on the company board."
+  },
+  {
+   "key": "case031.person.sayuri.name",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.phone.body",
+   "value": "Examination of Hayashi Tōru’s work phone (under a search warrant):\n\n· 18 April 22.58 (while the chairman was on the way to hospital), outgoing message, encrypted app: ‘Done. The sale is ready for signing on Monday.’\n· 15 April, incoming e-mail, unsigned, the last line only two letters: “If the sale is not approved, Paris is waiting. — E.V.”\n· Three e-mails from the same address in March: Maison Delorme, Paris — ‘catalogue preparation’."
+  },
+  {
+   "key": "case031.phone.title",
+   "value": "HAYASHI’S PHONE"
+  },
+  {
+   "key": "case031.recon.r_cancel",
+   "value": "At the table the chairman cancels the Paris sale and mentions the Monday appointment."
+  },
+  {
+   "key": "case031.recon.r_cup",
+   "value": "The poison is only in the chairman’s cup; the fish, the jug and the waste box are clean."
+  },
+  {
+   "key": "case031.recon.r_email",
+   "value": "15 April: ‘If the sale is not approved, Paris is waiting. — E.V.’"
+  },
+  {
+   "key": "case031.recon.r_msg",
+   "value": "While the chairman goes to hospital, Hayashi writes: ‘Done.’ He leaves the ampoule in the car’s door pocket."
+  },
+  {
+   "key": "case031.recon.r_note",
+   "value": "In the car the chairman writes in his notebook: ‘On Monday I will give bube everything; I am cancelling the sale tonight.’"
+  },
+  {
+   "key": "case031.recon.r_pour",
+   "value": "Hayashi takes the hirezake from the okami; he stops in the corridor, breaks the ampoule into the cup and lights the flame."
+  },
+  {
+   "key": "case031.recon.r_vial",
+   "value": "17 April: Hayashi signs out the tetrodotoxin ampoule as an ‘audit sample’ and has his driver collect it."
+  },
+  {
+   "key": "case031.report.body",
+   "value": "On the night of 18 April 2030, in the private room of a ryōtei near Tsukiji, Kisaragi Genzō (77), chairman of the board of Kisaragi Shōji, lost feeling in his tongue and could no longer speak at the end of a fugu dinner; he collapsed at 22.40 and died on the way to hospital.\n\nAt the table: his daughter Kisaragi Sayuri, his son-in-law and finance director Hayashi Tōru, his secretary Ikeda Mai. The meal was prepared by the ryōtei’s fugu chef Ōmura Takeshi; the table was run by the okami, Fujimoto Kazue.\n\nFirst assessment: fugu poisoning; the chef’s licence was suspended."
+  },
+  {
+   "key": "case031.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case031.request.bin",
+   "value": "Request that the kitchen waste box be opened"
+  },
+  {
+   "key": "case031.request.cup",
+   "value": "Send the chairman’s cup and the jug for analysis"
+  },
+  {
+   "key": "case031.request.lab",
+   "value": "Request the laboratory inventory and a search of the car"
+  },
+  {
+   "key": "case031.request.notebook",
+   "value": "Request the chairman’s notebook"
+  },
+  {
+   "key": "case031.request.phone",
+   "value": "Request an examination of Hayashi Tōru’s phone"
+  },
+  {
+   "key": "case031.saito.body",
+   "value": "The Hayashi family’s driver."
+  },
+  {
+   "key": "case031.saito.deflect",
+   "value": "I only drive the car."
+  },
+  {
+   "key": "case031.saito.door.answer",
+   "value": "I didn’t see. But on the way back, after the hospital, he put something in the door pocket. In the morning, cleaning, a broken piece of glass cut my hand."
+  },
+  {
+   "key": "case031.saito.door.question",
+   "value": "What came out of the package?"
+  },
+  {
+   "key": "case031.saito.errand.answer",
+   "value": "In the morning I dropped Mr Hayashi at the office. At noon he sent me to collect a package, from the company’s pharmaceutical lab in Kawasaki. A small box. ‘Leave it in the car, don’t give it to anyone,’ he said. In the evening, on the way to dinner, he opened the box and put what was inside in his pocket."
+  },
+  {
+   "key": "case031.saito.errand.answer.demeanor",
+   "value": "He holds his cap on his knee."
+  },
+  {
+   "key": "case031.saito.errand.question",
+   "value": "What did you do during the day yesterday?"
+  },
+  {
+   "key": "case031.saito.title",
+   "value": "Saitō Gō — interview"
+  },
+  {
+   "key": "case031.sayuri.body",
+   "value": "The chairman’s daughter."
+  },
+  {
+   "key": "case031.sayuri.deflect",
+   "value": "I don’t discuss family matters."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer",
+   "value": "My father was going to announce something. He’d changed these last months: the bowl in Kamakura, the pachinko invoices, that death at the office… ‘It seems I didn’t know about the things done in my name,’ he said. At dinner he said, ‘There will be no Paris sale.’ Tōru put down his glass and said nothing."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer.demeanor",
+   "value": "She turns her pearl necklace in her fingers."
+  },
+  {
+   "key": "case031.sayuri.dinner.question",
+   "value": "Why was the dinner held?"
+  },
+  {
+   "key": "case031.sayuri.title",
+   "value": "Kisaragi Sayuri — interview"
+  },
+  {
+   "key": "case031.sayuri.toru.answer",
+   "value": "It’s been his project for years. The company’s art collection and its ‘logistics network’ were to be handed over to a Paris auction house. Tōru used to say, ‘Your father’s signature is enough, the rest is formality.’"
+  },
+  {
+   "key": "case031.sayuri.toru.question",
+   "value": "What did your husband think of the Paris sale?"
+  },
+  {
+   "key": "case031.summary.evidence",
+   "value": "The waste box and the jug cleared the fish; the poison was only in the cup. The corridor camera gave the pause, the okami the serving, the driver the package, the lab inventory the signature, the car the ampoule, and the phone the ‘Done’ message and E.V."
+  },
+  {
+   "key": "case031.summary.lesson",
+   "value": "At the table every eye was on the chef’s knife. The poison came from the last and most respectful-looking hand."
+  },
+  {
+   "key": "case031.summary.location",
+   "value": "Tsukiji — April 2030"
+  },
+  {
+   "key": "case031.summary.truth",
+   "value": "Kisaragi Genzō understood that the company believed to be the final buyer of the Arendt notebook was only an intermediary, and that the goods, bowls and transfers were flowing to Paris. On 18 April he cancelled the Paris sale and said at the table that on Monday he would tell bube everything. His son-in-law Hayashi Tōru, warned by an e-mail signed ‘E.V.’, broke the tetrodotoxin ampoule he had had collected from the company’s laboratory the day before into the hirezake cup, lit the flame himself and handed the cup to his father-in-law with his own hand."
+  },
+  {
+   "key": "case031.suspect.label",
+   "value": "Who killed Kisaragi Genzō?"
+  },
+  {
+   "key": "case031.tablet.caseLine",
+   "value": "FILE #031  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case031.time.cancel",
+   "value": "21.30"
+  },
+  {
+   "key": "case031.time.enter",
+   "value": "21.46"
+  },
+  {
+   "key": "case031.time.lab",
+   "value": "17 Apr."
+  },
+  {
+   "key": "case031.time.msg",
+   "value": "22.58"
+  },
+  {
+   "key": "case031.time.numb",
+   "value": "22.05"
+  },
+  {
+   "key": "case031.time.pause",
+   "value": "21.45"
+  },
+  {
+   "key": "case031.time.take",
+   "value": "21.44"
+  },
+  {
+   "key": "case031.title",
+   "value": "File #031 — Kisaragi"
+  },
+  {
+   "key": "case031.verdict.hayashi",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.verdict.ikeda",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.verdict.omura",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.verdict.sayuri",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.item.cup.name",
+   "value": "Hirezake cup"
+  },
+  {
+   "key": "case031.item.cup.detail",
+   "value": "The lidded ceramic cup in front of the chairman; a charred fugu fin and dried sake at the bottom."
+  },
+  {
+   "key": "case031.item.bin.name",
+   "value": "Sealed offal box"
+  },
+  {
+   "key": "case031.item.bin.detail",
+   "value": "The kitchen’s locked fugu waste box; seal intact, liver and ovaries weighed and logged."
+  },
+  {
+   "key": "case031.item.vial.name",
+   "value": "Empty ampoule"
+  },
+  {
+   "key": "case031.item.vial.detail",
+   "value": "In the car’s door pocket: a lab-type mini ampoule of brown glass; its neck broken."
+  },
+  {
+   "key": "case031.item.notebook.name",
+   "value": "The chairman’s notebook"
+  },
+  {
+   "key": "case031.item.notebook.detail",
+   "value": "A small black leather-bound notebook; the last page freshly written, the pen pressed hard."
+  }
+ ]
+}
