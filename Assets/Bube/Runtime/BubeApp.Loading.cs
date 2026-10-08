@@ -9,7 +9,6 @@ namespace Bube {
 // ve ayarları anlatır, hiçbir vakanın çözümüne değinmez.
 public sealed partial class BubeApp {
  const int LoadingTips=6,LoadingTerms=14;
- string loadedCaseId;
 
  void ShowLoading() {
   var tips=Enumerable.Range(0,LoadingTips).Select(i=>T("loading.tip."+i)).ToArray();
@@ -20,7 +19,7 @@ public sealed partial class BubeApp {
 
  // Oyun içi geçiş yüklemesi: hedef ekran altta kurulur, üstünde katman
  // terim/hukuk ipuçlarıyla `Loading.TransitSeconds` kalır ve söner. Masaya
- // girişte, yeni vaka kabulünde ve bir dosya oturumda ilk açılırken çıkar.
+ // girişte, yeni vaka kabulünde ve görüşme odasına girerken çıkar.
  void LoadThen(System.Action next) {
   next();
   var tips=Enumerable.Range(0,LoadingTerms).Select(i=>T("loading.term."+i)).Concat(Enumerable.Range(0,LoadingTips).Select(i=>T("loading.tip."+i))).ToArray();
