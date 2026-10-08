@@ -1,0 +1,580 @@
+{
+ "entries": [
+  {
+   "key": "case058.archive.body",
+   "value": "A file reopened from the archive (June 2015, closed as ‘theft, perpetrator unknown’):\n\n· A hand-drawn 1752 map of the Guadalquivir went missing from the stacks; the suspect, the watchman Fermín Gil, was dismissed, and there was no prosecution for lack of evidence.\n· Workshop restoration log: the map was ‘taken in for restoration’ on 3 March 2015, signed Sergio Vidaurre; the return line is blank. The log never went into the file.\n· The catalogue records the map entering the Fundación Santa Ana collection in 2016 as an ‘anonymous donation’."
+  },
+  {
+   "key": "case058.archive.reopen",
+   "value": "The file closed as ‘theft, perpetrator unknown’ fifteen years ago has been reopened."
+  },
+  {
+   "key": "case058.archive.title",
+   "value": "THE 2015 FILE — THE MISSING MAP"
+  },
+  {
+   "key": "case058.aurora.2015.answer",
+   "value": "I dismissed the watchman; I was asked to do it that way. That year the foundation made a digitisation donation to the archive; their adviser said, ‘No need for a scandal.’ I… kept quiet. Not so much that I’d kill Rosa."
+  },
+  {
+   "key": "case058.aurora.2015.answer.demeanor",
+   "value": "She undoes and does up the button of her jacket."
+  },
+  {
+   "key": "case058.aurora.2015.question",
+   "value": "What do you know about the map that went missing in 2015?"
+  },
+  {
+   "key": "case058.aurora.body",
+   "value": "Archive director."
+  },
+  {
+   "key": "case058.aurora.deflect",
+   "value": "This archive is four hundred years old; it didn’t begin with me."
+  },
+  {
+   "key": "case058.aurora.title",
+   "value": "Aurora Benítez — interview"
+  },
+  {
+   "key": "case058.autopsy.body",
+   "value": "· Cause of death: compression of the chest; asphyxia.\n· Two bands on the left shoulder and hip matching the edge of a shelf.\n· No defensive marks on the hands: the cabinets closed slowly and steadily, the victim caught between them.\n· Time of death: 18.30–19.15."
+  },
+  {
+   "key": "case058.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case058.blanca.body",
+   "value": "Reading room attendant."
+  },
+  {
+   "key": "case058.blanca.deflect",
+   "value": "I record who comes into the reading room."
+  },
+  {
+   "key": "case058.blanca.log.answer",
+   "value": "The basement opens with a card; the system records it. 18.20 Rosa, 18.31 Sergio, 18.50 Sergio out. No exit for Rosa. Osman and the director were upstairs the whole time, and Naomi was in the reading room with me until closing."
+  },
+  {
+   "key": "case058.blanca.log.answer.demeanor",
+   "value": "She turns the card at her neck between her fingers."
+  },
+  {
+   "key": "case058.blanca.log.question",
+   "value": "Who went down to the basement at closing time?"
+  },
+  {
+   "key": "case058.blanca.title",
+   "value": "Blanca Ortiz — interview"
+  },
+  {
+   "key": "case058.candela.body",
+   "value": "The victim’s daughter."
+  },
+  {
+   "key": "case058.candela.deflect",
+   "value": "My mother practically lived in this building."
+  },
+  {
+   "key": "case058.candela.notes.answer",
+   "value": "In her notebook she’d written: ‘2015: map to restoration, Sergio. No return entry. Does Aurora know?’ Last night she told me, ‘Tomorrow I’ll talk to Sergio; I’ll give him the chance first.’ That was my mother."
+  },
+  {
+   "key": "case058.candela.notes.answer.demeanor",
+   "value": "She holds the collar of her coat closed with both hands."
+  },
+  {
+   "key": "case058.candela.notes.question",
+   "value": "What was your mother writing these last few days?"
+  },
+  {
+   "key": "case058.candela.title",
+   "value": "Candela Medina — interview"
+  },
+  {
+   "key": "case058.cctv.event.follow",
+   "value": "Camera: A man in an apron enters the stacks a minute later."
+  },
+  {
+   "key": "case058.cctv.event.in",
+   "value": "Camera: An older woman with an archive box in her hand goes in through the stacks door."
+  },
+  {
+   "key": "case058.cctv.event.out",
+   "value": "Camera: The same man comes out alone, carrying something round and metal pressed against his apron."
+  },
+  {
+   "key": "case058.cctv.overlay",
+   "value": "AHG-B1"
+  },
+  {
+   "key": "case058.cctv.period",
+   "value": "25 October 2030"
+  },
+  {
+   "key": "case058.cctv.source",
+   "value": "Basement camera"
+  },
+  {
+   "key": "case058.clue.follow",
+   "value": "The man in the apron enters the stacks a minute later."
+  },
+  {
+   "key": "case058.clue.found",
+   "value": "The cleaner finds Rosa between the closed cabinets."
+  },
+  {
+   "key": "case058.clue.in",
+   "value": "The woman goes into the stacks with an archive box."
+  },
+  {
+   "key": "case058.clue.out",
+   "value": "The same man comes out alone with something round and metal."
+  },
+  {
+   "key": "case058.clue.press",
+   "value": "The restorer tightens the empty press in the workshop."
+  },
+  {
+   "key": "case058.clue.source.fermin",
+   "value": "Fermín Gil"
+  },
+  {
+   "key": "case058.clue.source.osman",
+   "value": "Osman Kılınç"
+  },
+  {
+   "key": "case058.corridor.body",
+   "value": "Basement corridor, stacks door. 25 October 18.00 – 19.00."
+  },
+  {
+   "key": "case058.corridor.title",
+   "value": "BASEMENT CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case058.custody.bin",
+   "value": "Into the basement bin"
+  },
+  {
+   "key": "case058.custody.box",
+   "value": "Into an archive box"
+  },
+  {
+   "key": "case058.custody.label",
+   "value": "Where did the shelving handle go?"
+  },
+  {
+   "key": "case058.custody.press",
+   "value": "Into the book press in the restoration workshop"
+  },
+  {
+   "key": "case058.epilogue.custody.bin",
+   "value": "The basement bin was empty."
+  },
+  {
+   "key": "case058.epilogue.custody.box",
+   "value": "The boxes were opened one by one; the handle wasn’t there."
+  },
+  {
+   "key": "case058.epilogue.custody.press",
+   "value": "It was recorded that the handle was found inside the book press."
+  },
+  {
+   "key": "case058.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; the workshop log went missing again."
+  },
+  {
+   "key": "case058.epilogue.verdict.aurora",
+   "value": "Aurora Benítez was arrested; the handle stayed in the press."
+  },
+  {
+   "key": "case058.epilogue.verdict.fermin",
+   "value": "Fermín Gil was accused a second time; the press was tightened again."
+  },
+  {
+   "key": "case058.epilogue.verdict.sergio",
+   "value": "Sergio Vidaurre was arrested; the 2015 file was reopened and Fermín Gil’s name was cleared. An official letter went to the Fundación Santa Ana requesting the return of the 1752 map; the foundation replied, ‘Our adviser is abroad.’"
+  },
+  {
+   "key": "case058.evidence.archive",
+   "value": "The 2015 file"
+  },
+  {
+   "key": "case058.evidence.corridor",
+   "value": "Basement camera"
+  },
+  {
+   "key": "case058.evidence.stack",
+   "value": "Stacks examination"
+  },
+  {
+   "key": "case058.evidence.workshop",
+   "value": "Restoration workshop search"
+  },
+  {
+   "key": "case058.feedback.accident",
+   "value": "The shelving handle wasn’t in place; someone inside couldn’t have opened the cabinets."
+  },
+  {
+   "key": "case058.feedback.aurora",
+   "value": "The director kept quiet in 2015, but she was upstairs all evening."
+  },
+  {
+   "key": "case058.feedback.fermin",
+   "value": "The former watchman found the body and opened the shelves with his own hands; the entry log has no visit by him to the basement at that hour."
+  },
+  {
+   "key": "case058.feedback.sergio",
+   "value": "The shelving handle came out of the press he tightened, with his print on it; the camera shows him leaving the stacks with something round and metal. The reopened 2015 file shows the last signature on the map was his."
+  },
+  {
+   "key": "case058.fermin.body",
+   "value": "Cleaner."
+  },
+  {
+   "key": "case058.fermin.deflect",
+   "value": "They called me a thief once; I’m a thief for ever."
+  },
+  {
+   "key": "case058.fermin.found.answer",
+   "value": "The stacks light was on; I went down to switch it off. Two cabinets were closed; between them I saw a shoe. There was no handle; I took the handle off the other aisle, fitted it, opened them. Too late. In 2015 they fired me over these maps; I didn’t take them. Rosa was the only one who believed me."
+  },
+  {
+   "key": "case058.fermin.found.answer.demeanor",
+   "value": "He takes the gloves out of his apron pocket and pushes them back in."
+  },
+  {
+   "key": "case058.fermin.found.question",
+   "value": "How did you find Rosa?"
+  },
+  {
+   "key": "case058.fermin.title",
+   "value": "Fermín Gil — interview"
+  },
+  {
+   "key": "case058.file.caseType",
+   "value": "MURDER"
+  },
+  {
+   "key": "case058.file.value.bureau",
+   "value": "BDS Sevilla — Triana Branch"
+  },
+  {
+   "key": "case058.file.value.location",
+   "value": "Archivo Histórico del Guadalquivir, Sevilla"
+  },
+  {
+   "key": "case058.file.value.number",
+   "value": "BDS-SVQ-2030-0127"
+  },
+  {
+   "key": "case058.file.value.offence",
+   "value": "Murder"
+  },
+  {
+   "key": "case058.file.value.reporter",
+   "value": "Cleaner"
+  },
+  {
+   "key": "case058.method.drift",
+   "value": "The shelves slid on their own"
+  },
+  {
+   "key": "case058.method.fall",
+   "value": "She fell from a ladder"
+  },
+  {
+   "key": "case058.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case058.method.shelf",
+   "value": "The rolling shelves were closed on her by turning the handle"
+  },
+  {
+   "key": "case058.naomi.body",
+   "value": "Visiting researcher."
+  },
+  {
+   "key": "case058.naomi.catalog.answer",
+   "value": "A catalogue of a private collection; the Fundación Santa Ana. Rosa recognised the 1752 map from the trace of an erased stamp in the corner. She said the map was taken in for restoration in 2015 and then recorded as ‘missing’. ‘If I find the workshop log, that’s it,’ she said."
+  },
+  {
+   "key": "case058.naomi.catalog.answer.demeanor",
+   "value": "She pushes her glasses up her nose."
+  },
+  {
+   "key": "case058.naomi.catalog.question",
+   "value": "What did you show Rosa?"
+  },
+  {
+   "key": "case058.naomi.deflect",
+   "value": "I’m only here for the documents."
+  },
+  {
+   "key": "case058.naomi.title",
+   "value": "Naomi Park — interview"
+  },
+  {
+   "key": "case058.offer.subtitle",
+   "value": "ROLLING SHELVES  /  MURDER"
+  },
+  {
+   "key": "case058.offer.summary",
+   "value": "A senior archivist was found crushed between two rolling shelves in the basement stacks."
+  },
+  {
+   "key": "case058.offer.title",
+   "value": "FILE #058"
+  },
+  {
+   "key": "case058.osman.body",
+   "value": "Bookbinder."
+  },
+  {
+   "key": "case058.osman.deflect",
+   "value": "I make bindings, the covers."
+  },
+  {
+   "key": "case058.osman.press.answer",
+   "value": "Sergio came into the workshop at 18.55, tightened the book press and said, ‘I’m flattening a cover.’ That press is mine; there was no cover in it. I’d emptied it that morning."
+  },
+  {
+   "key": "case058.osman.press.answer.demeanor",
+   "value": "He rubs at the dried glue on his fingers."
+  },
+  {
+   "key": "case058.osman.press.question",
+   "value": "Did anything unusual happen in the workshop this evening?"
+  },
+  {
+   "key": "case058.osman.title",
+   "value": "Osman Kılınç — interview"
+  },
+  {
+   "key": "case058.person.aurora.info",
+   "value": "59, archive director."
+  },
+  {
+   "key": "case058.person.aurora.name",
+   "value": "Aurora Benítez"
+  },
+  {
+   "key": "case058.person.blanca.info",
+   "value": "27, reading room attendant."
+  },
+  {
+   "key": "case058.person.blanca.name",
+   "value": "Blanca Ortiz"
+  },
+  {
+   "key": "case058.person.candela.info",
+   "value": "33, the victim’s daughter."
+  },
+  {
+   "key": "case058.person.candela.name",
+   "value": "Candela Medina"
+  },
+  {
+   "key": "case058.person.fermin.info",
+   "value": "56, cleaner; the former watchman dismissed over a theft in 2015."
+  },
+  {
+   "key": "case058.person.fermin.name",
+   "value": "Fermín Gil"
+  },
+  {
+   "key": "case058.person.naomi.info",
+   "value": "36, visiting researcher."
+  },
+  {
+   "key": "case058.person.naomi.name",
+   "value": "Naomi Park"
+  },
+  {
+   "key": "case058.person.osman.info",
+   "value": "44, bookbinder."
+  },
+  {
+   "key": "case058.person.osman.name",
+   "value": "Osman Kılınç"
+  },
+  {
+   "key": "case058.person.sergio.info",
+   "value": "47, the archive’s restorer."
+  },
+  {
+   "key": "case058.person.sergio.name",
+   "value": "Sergio Vidaurre"
+  },
+  {
+   "key": "case058.report.body",
+   "value": "On the evening of 25 October 2030, in the basement stacks of the Archivo Histórico del Guadalquivir in Sevilla, the senior archivist Rosa Medina (63) was found dead, crushed between two rolling shelf cabinets. The shelves’ turning handle was not in place.\n\nThe cleaner Fermín Gil found the body at 20.10. In the building at closing time: director Aurora Benítez, restorer Sergio Vidaurre, bookbinder Osman Kılınç, reading room attendant Blanca Ortiz, visiting researcher Naomi Park. The victim’s daughter Candela Medina arrived during the night."
+  },
+  {
+   "key": "case058.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case058.request.archive",
+   "value": "Request permission to open the 2015 file from the archive"
+  },
+  {
+   "key": "case058.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case058.request.stack",
+   "value": "Request an examination of the stacks"
+  },
+  {
+   "key": "case058.request.workshop",
+   "value": "Request permission to search the restoration workshop"
+  },
+  {
+   "key": "case058.sergio.body",
+   "value": "Restorer."
+  },
+  {
+   "key": "case058.sergio.deflect",
+   "value": "I work with paper, not with people."
+  },
+  {
+   "key": "case058.sergio.down.answer",
+   "value": "I took a box and left. Rosa was there; we didn’t talk. The shelves are old; the handle’s loose, maybe on their own…"
+  },
+  {
+   "key": "case058.sergio.down.answer.demeanor",
+   "value": "He takes his glasses down from his head and folds them."
+  },
+  {
+   "key": "case058.sergio.down.question",
+   "value": "Why did you go down to the basement this evening?"
+  },
+  {
+   "key": "case058.sergio.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case058.sergio.end.presented.archive",
+   "value": "In 2015 I did it once. I had debts. A man from the foundation called and said, ‘There’s a buyer.’ Once."
+  },
+  {
+   "key": "case058.sergio.end.presented.workshop",
+   "value": "Rosa said, ‘Tomorrow I’m going to the director; you go first.’ I couldn’t go. I turned the shelving handle; she was between the shelves looking for the log. Then I took the handle off and put it in the press. I didn’t even dare open the shelves."
+  },
+  {
+   "key": "case058.sergio.end.question",
+   "value": "You closed Rosa in between the shelves."
+  },
+  {
+   "key": "case058.sergio.title",
+   "value": "Sergio Vidaurre — interview"
+  },
+  {
+   "key": "case058.stack.body",
+   "value": "· The rolling shelves open and close by hand, with the turning handle at the end; the handle is fixed with a pin and can be removed without tools.\n· The aisle where the victim was trapped has no handle: someone inside couldn’t have opened the cabinets.\n· On the floor, a dropped archive box: ‘Maps, 18th c., 2015 missing list’."
+  },
+  {
+   "key": "case058.stack.title",
+   "value": "STACKS EXAMINATION"
+  },
+  {
+   "key": "case058.summary.evidence",
+   "value": "The daughter, the researcher and the state of the stacks got the archive opened. The camera and the bookbinder pointed to the workshop; the search found the handle inside the press."
+  },
+  {
+   "key": "case058.summary.lesson",
+   "value": "Rosa gave him a chance; he turned the handle."
+  },
+  {
+   "key": "case058.summary.location",
+   "value": "Archivo Histórico — October 2030"
+  },
+  {
+   "key": "case058.summary.truth",
+   "value": "In 2015 the restorer Sergio Vidaurre took the 1752 map in for restoration and never returned it; the map passed into the foundation’s collection and the watchman was dismissed. Fifteen years later the archivist Rosa Medina recognised the map in a catalogue and told Sergio, ‘You go first.’ That evening in the stacks Sergio turned the shelving handle and trapped her between two cabinets, then removed the handle and hid it in the book press."
+  },
+  {
+   "key": "case058.suspect.label",
+   "value": "Who killed Rosa Medina?"
+  },
+  {
+   "key": "case058.tablet.caseLine",
+   "value": "FILE #058  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case058.time.follow",
+   "value": "18.32"
+  },
+  {
+   "key": "case058.time.found",
+   "value": "20.10"
+  },
+  {
+   "key": "case058.time.in",
+   "value": "18.21"
+  },
+  {
+   "key": "case058.time.out",
+   "value": "18.49"
+  },
+  {
+   "key": "case058.time.press",
+   "value": "18.55"
+  },
+  {
+   "key": "case058.title",
+   "value": "File #058 — Rolling Shelves"
+  },
+  {
+   "key": "case058.verdict.accident",
+   "value": "Nobody — a loose shelf"
+  },
+  {
+   "key": "case058.verdict.aurora",
+   "value": "Aurora Benítez"
+  },
+  {
+   "key": "case058.verdict.fermin",
+   "value": "Fermín Gil"
+  },
+  {
+   "key": "case058.verdict.sergio",
+   "value": "Sergio Vidaurre"
+  },
+  {
+   "key": "case058.workshop.body",
+   "value": "The restoration workshop and Sergio Vidaurre’s locker (with the branch chief’s approval):\n\n· Between the plates of the book press, the turning handle of the rolling shelves from the stacks; on the handle, Sergio Vidaurre’s fingerprint and a fibre from the victim’s cardigan.\n· In his locker, the page torn from the 2015 restoration log.\n· A bank statement dated 2016: ‘Consultancy — F. S. A.’, €48,000."
+  },
+  {
+   "key": "case058.workshop.title",
+   "value": "RESTORATION WORKSHOP — SEARCH"
+  },
+  {
+   "key": "case058.item.handle.name",
+   "value": "Rolling shelf handle"
+  },
+  {
+   "key": "case058.item.handle.detail",
+   "value": "The turning handle of the rolling shelves; it came out of the book press in the restoration workshop."
+  },
+  {
+   "key": "case058.item.map.name",
+   "value": "Photo of the 1752 map"
+  },
+  {
+   "key": "case058.item.map.detail",
+   "value": "The photo Rosa cut from the catalogue; in the map’s corner, the trace of the archive’s erased stamp."
+  },
+  {
+   "key": "case058.item.cradle.name",
+   "value": "Restoration log"
+  },
+  {
+   "key": "case058.item.cradle.detail",
+   "value": "The workshop’s 2015 restoration log; the map’s ‘taken in for restoration’ entry, with no return entry."
+  }
+ ]
+}
