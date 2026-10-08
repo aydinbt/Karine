@@ -170,7 +170,11 @@ public sealed partial class BubeApp {
   footer.style.marginTop=KarineTheme.SpaceMd;right.Add(footer);
   KarineUI.SettingsFooterButton(footer,"nav_prev",T("inbox.back"),null,false,close).name="InboxBack";
   // Evrakın eylemleri kâğıdın içinde değil, alttaki şeritte; birincil olan amber.
-  var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;footer.Add(actions);
+  // İki eylem (hatırlatma + yeniden açma) yan yana sağa sığmazsa ikinci satıra iner;
+  // şerit Geri ile birlikte sağ sütunun içinde kalır, ekrandan taşmaz.
+  footer.style.alignItems=Align.FlexEnd;
+  var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;actions.style.flexWrap=Wrap.Wrap;
+  actions.style.justifyContent=Justify.FlexEnd;actions.style.flexShrink=1;actions.style.minWidth=0;actions.style.marginLeft=KarineTheme.SpaceSm;footer.Add(actions);
   if(selected==null) {
    Text(paperBody,T("inbox.noItems"),dark,21);
    Text(paperBody,T("inbox.emptyHelp"),dark,16);
@@ -264,7 +268,8 @@ public sealed partial class BubeApp {
   AdGateway.MayShow(AdPlacement.RewardedRetry,AdMoment.ReportRejected);
  void InboxAction(VisualElement actions,string icon,string title,bool primary,Action click) {
   var b=KarineUI.SettingsFooterButton(actions,icon,title,null,primary,click);b.name="InboxAction";
-  b.style.minWidth=StyleKeyword.Auto;b.style.marginLeft=KarineTheme.SpaceSm;
+  b.style.minWidth=StyleKeyword.Auto;b.style.marginLeft=KarineTheme.SpaceSm;b.style.marginTop=KarineTheme.SpaceSm;
+  b.style.flexShrink=1;b.style.paddingLeft=KarineTheme.SpaceLg;b.style.paddingRight=KarineTheme.SpaceLg;
  }
 
  // Yeniden açma ve hatırlatma tam ekran (UI_RETRY / UI_GUIDANCE maketleri); her vakada aynı düzen.
