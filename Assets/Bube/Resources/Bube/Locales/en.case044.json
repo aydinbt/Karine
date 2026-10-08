@@ -1,0 +1,588 @@
+{
+ "entries": [
+  {
+   "key": "case044.ais.body",
+   "value": "· 23.04 the boat turns head to wind, speed 1.2 knots.\n· 23.10 position: the point where the body was found.\n· 23.30 radio: no ‘man overboard’ call; first call at 23.31, ‘we can’t find a passenger’."
+  },
+  {
+   "key": "case044.ais.title",
+   "value": "AIS TRACK LOG"
+  },
+  {
+   "key": "case044.autopsy.body",
+   "value": "· Drowning; fresh water in the lungs.\n· A half-moon-shaped blow, about 4 cm, to the back of the head; before he went into the water. He entered the water unconscious.\n· Blood alcohol low. Time of death: 23.00–23.30."
+  },
+  {
+   "key": "case044.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case044.boat.body",
+   "value": "· The winch handle in the cockpit locker: the victim’s blood in the seam under the grip; Brent Calloway’s fingerprints on the grip, wiped over.\n· The cross-section of the handle’s end matches the half-moon wound on the head.\n· A CO₂ cartridge in the inner pocket of Brent Calloway’s leather travel bag; red paint from the victim’s vest on its thread."
+  },
+  {
+   "key": "case044.boat.title",
+   "value": "BOAT AND BAG EXAMINATION"
+  },
+  {
+   "key": "case044.calloway.body",
+   "value": "Legal counsel."
+  },
+  {
+   "key": "case044.calloway.deflect",
+   "value": "Attorney–client privilege."
+  },
+  {
+   "key": "case044.calloway.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case044.calloway.end.presented.boat",
+   "value": "Clint was going to hand over everything on Monday, me included. Before we set off I took the cartridge out of his vest and put it in my bag. As we turned into the wind, on the foredeck, I hit him with the winch handle; he slid into the water. The vest wasn’t going to inflate. I said ‘he’s in the cabin’. At night the lake shows nothing."
+  },
+  {
+   "key": "case044.calloway.end.presented.phone",
+   "value": "The messages are covered by legal privilege."
+  },
+  {
+   "key": "case044.calloway.end.question",
+   "value": "You took the cartridge out."
+  },
+  {
+   "key": "case044.calloway.night.answer",
+   "value": "I left him on the foredeck and went down to the cabin. Clint had been drinking; he was unsteady. The winch handle had fallen; I put it back. As a lawyer, I won’t say more than that."
+  },
+  {
+   "key": "case044.calloway.night.answer.demeanor",
+   "value": "He rolls down his shirt sleeves one at a time."
+  },
+  {
+   "key": "case044.calloway.night.question",
+   "value": "Where were you when Clint fell?"
+  },
+  {
+   "key": "case044.calloway.night.variant0",
+   "value": "My bag held my client’s documents. Protecting them is my duty."
+  },
+  {
+   "key": "case044.calloway.title",
+   "value": "Brent Calloway — interview"
+  },
+  {
+   "key": "case044.cctv.event.board",
+   "value": "Camera: Before departure, a man in a navy gilet boards the boat with a leather travel bag and goes below alone."
+  },
+  {
+   "key": "case044.cctv.event.dock",
+   "value": "Camera: On the return the boat comes alongside; a woman in a cardigan and a young deckhand in a white shirt are shouting along the deck."
+  },
+  {
+   "key": "case044.cctv.event.leave",
+   "value": "Camera: The man in the navy gilet steps off the boat with the same bag and walks quickly away down the pier."
+  },
+  {
+   "key": "case044.cctv.overlay",
+   "value": "PIER-4"
+  },
+  {
+   "key": "case044.cctv.period",
+   "value": "30–31 August 2030"
+  },
+  {
+   "key": "case044.cctv.source",
+   "value": "Pier camera"
+  },
+  {
+   "key": "case044.cho.body",
+   "value": "Rescue diver."
+  },
+  {
+   "key": "case044.cho.deflect",
+   "value": "I’ve written my report."
+  },
+  {
+   "key": "case044.cho.title",
+   "value": "Lauren Cho — interview"
+  },
+  {
+   "key": "case044.cho.vest.answer",
+   "value": "I’ve done this job fifteen years. These vests inflate when they hit water or when you pull the cord. He pulled the cord, maybe he came to for a moment. But there’s no cartridge. The housing is clean. Someone took it out."
+  },
+  {
+   "key": "case044.cho.vest.answer.demeanor",
+   "value": "She wrings out her wet hair and pushes it back."
+  },
+  {
+   "key": "case044.cho.vest.question",
+   "value": "What did you see on the vest?"
+  },
+  {
+   "key": "case044.clue.board",
+   "value": "The man in the navy gilet boards early and goes below."
+  },
+  {
+   "key": "case044.clue.dock",
+   "value": "The boat comes alongside; the woman is shouting."
+  },
+  {
+   "key": "case044.clue.leave",
+   "value": "The lawyer gets off quickly with his bag."
+  },
+  {
+   "key": "case044.clue.metal",
+   "value": "A metallic sound; the lawyer puts the winch handle in the locker."
+  },
+  {
+   "key": "case044.clue.source.mendes",
+   "value": "Deckhand"
+  },
+  {
+   "key": "case044.clue.source.morrow",
+   "value": "Skipper"
+  },
+  {
+   "key": "case044.clue.turn",
+   "value": "The boat turns into the wind; the victim and the lawyer go to the foredeck."
+  },
+  {
+   "key": "case044.custody.faulty",
+   "value": "The vest was faulty"
+  },
+  {
+   "key": "case044.custody.label",
+   "value": "Why didn’t the life vest inflate?"
+  },
+  {
+   "key": "case044.custody.never",
+   "value": "The victim was wearing a vest with no cartridge"
+  },
+  {
+   "key": "case044.custody.removed",
+   "value": "The killer took the cartridge out before departure"
+  },
+  {
+   "key": "case044.diane.body",
+   "value": "The victim’s wife."
+  },
+  {
+   "key": "case044.diane.deflect",
+   "value": "Our lawyer speaks about my husband’s affairs."
+  },
+  {
+   "key": "case044.diane.monday.answer",
+   "value": "He was scared. After the treasurer was arrested, that driver too… He said, ‘On Monday I’m going to bube to tell them everything, Diane — the owner, Napoli.’ He’d told Brent; Brent said, ‘I’ll come with you.’ I was in the cabin; I was seasick."
+  },
+  {
+   "key": "case044.diane.monday.answer.demeanor",
+   "value": "She pulls her cardigan round her shoulders."
+  },
+  {
+   "key": "case044.diane.monday.question",
+   "value": "How was your husband these last few days?"
+  },
+  {
+   "key": "case044.diane.title",
+   "value": "Diane Harlan — interview"
+  },
+  {
+   "key": "case044.divenote.body",
+   "value": "· The body was about three miles behind the boat’s AIS track, at the position for around 23.10.\n· Vest fully fastened; the inflation mechanism’s pull cord had been pulled, but there was no CO₂ cartridge in the housing. The housing threads are clean; the cartridge was unscrewed, not broken."
+  },
+  {
+   "key": "case044.divenote.title",
+   "value": "DIVER’S REPORT"
+  },
+  {
+   "key": "case044.epilogue.custody.faulty",
+   "value": "The mechanism was sound and its cord had been pulled; only the cartridge was missing."
+  },
+  {
+   "key": "case044.epilogue.custody.never",
+   "value": "The cartridge turned up in the killer’s bag."
+  },
+  {
+   "key": "case044.epilogue.custody.removed",
+   "value": "It was recorded that the cartridge was removed before departure and put in the killer’s bag."
+  },
+  {
+   "key": "case044.epilogue.verdict.accident",
+   "value": "The death was deemed an accident; Lakeshore issued a statement of condolence."
+  },
+  {
+   "key": "case044.epilogue.verdict.calloway",
+   "value": "Brent Calloway was arrested. The messages to the Napoli number, along with the name ‘Edda’, went into bube Chicago’s Lakeshore file."
+  },
+  {
+   "key": "case044.epilogue.verdict.diane",
+   "value": "Diane Harlan was arrested; the lawyer managed the file ‘on behalf of his client’s estate’."
+  },
+  {
+   "key": "case044.epilogue.verdict.morrow",
+   "value": "Skip Morrow was taken into custody; the boat was sealed until the end of the season."
+  },
+  {
+   "key": "case044.evidence.ais",
+   "value": "AIS track log"
+  },
+  {
+   "key": "case044.evidence.boat",
+   "value": "Boat and bag examination"
+  },
+  {
+   "key": "case044.evidence.phone",
+   "value": "The lawyer’s messages"
+  },
+  {
+   "key": "case044.evidence.pier",
+   "value": "Pier camera"
+  },
+  {
+   "key": "case044.feedback.accident",
+   "value": "The blow to the head came before he entered the water; the vest’s cartridge was unscrewed, not broken."
+  },
+  {
+   "key": "case044.feedback.calloway",
+   "value": "His prints and the victim’s blood are on the winch handle; its end matches the wound. The vest’s cartridge is in his bag. The night before, he’d written to a Napoli number that the victim would talk on Monday."
+  },
+  {
+   "key": "case044.feedback.diane",
+   "value": "The wife was the heir, but she was seasick and in the cabin; she never went up to the foredeck."
+  },
+  {
+   "key": "case044.feedback.morrow",
+   "value": "The skipper was at the helm; he couldn’t leave it, and the deckhand saw him at the stern."
+  },
+  {
+   "key": "case044.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case044.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Branch"
+  },
+  {
+   "key": "case044.file.value.location",
+   "value": "Lake Michigan, off Chicago"
+  },
+  {
+   "key": "case044.file.value.number",
+   "value": "BDC-CHI-2030-0280"
+  },
+  {
+   "key": "case044.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case044.file.value.reporter",
+   "value": "Marina"
+  },
+  {
+   "key": "case044.jensen.body",
+   "value": "Harbour master."
+  },
+  {
+   "key": "case044.jensen.deflect",
+   "value": "The marina’s records belong to the company."
+  },
+  {
+   "key": "case044.jensen.return.answer",
+   "value": "They came in at midnight, the woman was shouting. The man who’s a lawyer got off with his bag without waiting for the police, said ‘I need to protect documents on behalf of my client.’ At departure too he’d come early with the bag and gone below. The pier has a camera."
+  },
+  {
+   "key": "case044.jensen.return.answer.demeanor",
+   "value": "He takes off his cap and holds it."
+  },
+  {
+   "key": "case044.jensen.return.question",
+   "value": "What did you see on the return?"
+  },
+  {
+   "key": "case044.jensen.title",
+   "value": "Arne Jensen — interview"
+  },
+  {
+   "key": "case044.line_ais.body",
+   "value": "A line has been opened for the boat’s AIS position log and the marina’s radio records."
+  },
+  {
+   "key": "case044.line_ais.title",
+   "value": "LINE C — THE BOAT’S TRACK"
+  },
+  {
+   "key": "case044.line_boat.body",
+   "value": "A line has been opened for the forensic examination of the boat and the passengers’ belongings."
+  },
+  {
+   "key": "case044.line_boat.title",
+   "value": "LINE A — BOAT EXAMINATION"
+  },
+  {
+   "key": "case044.line_phone.body",
+   "value": "A line has been opened for the phone records of those on board."
+  },
+  {
+   "key": "case044.line_phone.title",
+   "value": "LINE B — PHONE RECORDS"
+  },
+  {
+   "key": "case044.mendes.body",
+   "value": "Deckhand."
+  },
+  {
+   "key": "case044.mendes.deck.answer",
+   "value": "I was on the jib lines, my back turned. There was a sound, like metal. I turned round; the lawyer was putting the winch handle in the locker. ‘The handle fell,’ he said. I didn’t ask anything. I’m just the deckhand."
+  },
+  {
+   "key": "case044.mendes.deck.answer.demeanor",
+   "value": "He grips the rope on his shoulder tightly."
+  },
+  {
+   "key": "case044.mendes.deck.question",
+   "value": "What did you see on the foredeck?"
+  },
+  {
+   "key": "case044.mendes.deflect",
+   "value": "I pull ropes, sir."
+  },
+  {
+   "key": "case044.mendes.title",
+   "value": "Rico Mendes — interview"
+  },
+  {
+   "key": "case044.method.boom",
+   "value": "The boom hit him"
+  },
+  {
+   "key": "case044.method.fall",
+   "value": "He fell off the deck drunk"
+  },
+  {
+   "key": "case044.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case044.method.winch",
+   "value": "He was struck with the winch handle and pushed into the lake"
+  },
+  {
+   "key": "case044.morrow.body",
+   "value": "Skipper."
+  },
+  {
+   "key": "case044.morrow.deflect",
+   "value": "I run the boat, not the conversations."
+  },
+  {
+   "key": "case044.morrow.night.answer",
+   "value": "At the helm, at the stern. Around 23.05 we turned into the wind to drop the sails; dark, a swell running. Clint said ‘I’ll look at something on the foredeck,’ and Brent went after him. When I looked round there was only Brent; he said ‘Clint’s in the cabin.’ Twenty minutes later Diane shouted ‘Clint’s gone.’"
+  },
+  {
+   "key": "case044.morrow.night.answer.demeanor",
+   "value": "He tugs his sunglasses by their cord and lets them drop."
+  },
+  {
+   "key": "case044.morrow.night.question",
+   "value": "Where were you when he fell?"
+  },
+  {
+   "key": "case044.morrow.title",
+   "value": "Skip Morrow — interview"
+  },
+  {
+   "key": "case044.offer.subtitle",
+   "value": "THE LAKE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case044.offer.summary",
+   "value": "Lakeshore’s vice president fell from his own boat on Lake Michigan. He had an appointment at bube on Monday."
+  },
+  {
+   "key": "case044.offer.title",
+   "value": "FILE #044"
+  },
+  {
+   "key": "case044.person.calloway.info",
+   "value": "50, Lakeshore Freight’s general counsel."
+  },
+  {
+   "key": "case044.person.calloway.name",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.person.cho.info",
+   "value": "36, rescue diver."
+  },
+  {
+   "key": "case044.person.cho.name",
+   "value": "Lauren Cho"
+  },
+  {
+   "key": "case044.person.diane.info",
+   "value": "57, the victim’s wife."
+  },
+  {
+   "key": "case044.person.diane.name",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.person.jensen.info",
+   "value": "68, the marina’s harbour master."
+  },
+  {
+   "key": "case044.person.jensen.name",
+   "value": "Arne Jensen"
+  },
+  {
+   "key": "case044.person.mendes.info",
+   "value": "24, the boat’s deckhand."
+  },
+  {
+   "key": "case044.person.mendes.name",
+   "value": "Rico Mendes"
+  },
+  {
+   "key": "case044.person.morrow.info",
+   "value": "63, the boat’s skipper."
+  },
+  {
+   "key": "case044.person.morrow.name",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.phone.body",
+   "value": "· 29 August 22.14, Brent Calloway → an unregistered Napoli number: ‘C. wants to talk on Monday. Tell Edda.’\n· 29 August 22.40, reply: ‘Get it settled at the weekend.’\n· 31 August 00.30, Brent Calloway → same number: ‘Settled.’"
+  },
+  {
+   "key": "case044.phone.title",
+   "value": "BRENT CALLOWAY’S MESSAGES"
+  },
+  {
+   "key": "case044.pier.body",
+   "value": "Pier 4. 30 August 16.00 – 31 August 01.00."
+  },
+  {
+   "key": "case044.pier.title",
+   "value": "MARINA PIER CAMERA — log transcript"
+  },
+  {
+   "key": "case044.report.body",
+   "value": "On the night of 30 August 2030, on a boat returning from a sailing race on Lake Michigan, Lakeshore Freight’s vice president of corporate relations Clint Harlan (61) fell overboard. Rescue divers found the body at 01.40, three miles behind the boat’s track. He was wearing his life vest; it had not inflated.\n\nOn board: his wife Diane Harlan, Lakeshore general counsel Brent Calloway, skipper Skip Morrow, deckhand Rico Mendes. The harbour master Arne Jensen logged the return."
+  },
+  {
+   "key": "case044.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case044.request.ais",
+   "value": "Request the AIS track log"
+  },
+  {
+   "key": "case044.request.boat",
+   "value": "Request the boat and bag examination"
+  },
+  {
+   "key": "case044.request.line_ais",
+   "value": "Open the boat’s track line"
+  },
+  {
+   "key": "case044.request.line_boat",
+   "value": "Open the boat examination line"
+  },
+  {
+   "key": "case044.request.line_phone",
+   "value": "Open the phone records line"
+  },
+  {
+   "key": "case044.request.phone",
+   "value": "Request Brent Calloway’s messages"
+  },
+  {
+   "key": "case044.summary.evidence",
+   "value": "The autopsy showed the blow came before he entered the water, the diver that the cartridge had been removed, the deckhand the winch handle, the pier camera the bag. The boat line gave the handle and the cartridge, the phone line the Napoli messages."
+  },
+  {
+   "key": "case044.summary.lesson",
+   "value": "On a boat where everyone is looking elsewhere, the one who never looks has prepared everything in advance."
+  },
+  {
+   "key": "case044.summary.location",
+   "value": "Lake Michigan — August 2030"
+  },
+  {
+   "key": "case044.summary.truth",
+   "value": "On Monday Clint Harlan was going to tell bube about Lakeshore’s owner and the Napoli connection. The company’s general counsel Brent Calloway reported this to a Napoli number and got the reply ‘get it settled at the weekend’. Before departure he took the cartridge out of Harlan’s vest; as the boat turned into the wind he struck him on the foredeck with the winch handle, pushed him into the lake and said ‘he’s in the cabin’."
+  },
+  {
+   "key": "case044.suspect.label",
+   "value": "Who killed Clint Harlan?"
+  },
+  {
+   "key": "case044.tablet.caseLine",
+   "value": "FILE #044  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case044.time.board",
+   "value": "16.12"
+  },
+  {
+   "key": "case044.time.dock",
+   "value": "00.05"
+  },
+  {
+   "key": "case044.time.leave",
+   "value": "00.11"
+  },
+  {
+   "key": "case044.time.metal",
+   "value": "23.08"
+  },
+  {
+   "key": "case044.time.turn",
+   "value": "23.05"
+  },
+  {
+   "key": "case044.title",
+   "value": "File #044 — The Lake"
+  },
+  {
+   "key": "case044.verdict.accident",
+   "value": "No one — he fell in drunk"
+  },
+  {
+   "key": "case044.verdict.calloway",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.verdict.diane",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.verdict.morrow",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.item.vest.name",
+   "value": "Life vest"
+  },
+  {
+   "key": "case044.item.vest.detail",
+   "value": "The automatic inflating vest the victim wore; the CO₂ cartridge housing is empty."
+  },
+  {
+   "key": "case044.item.winch.name",
+   "value": "Winch handle"
+  },
+  {
+   "key": "case044.item.winch.detail",
+   "value": "The chrome winch handle in the cockpit locker; blood under the grip that someone tried to wipe off."
+  },
+  {
+   "key": "case044.item.cartridge.name",
+   "value": "CO₂ cartridge"
+  },
+  {
+   "key": "case044.item.cartridge.detail",
+   "value": "A small gas cartridge from the inner pocket of a travel bag; green vest paint on its thread."
+  }
+ ]
+}

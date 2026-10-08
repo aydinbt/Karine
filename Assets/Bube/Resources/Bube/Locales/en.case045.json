@@ -1,0 +1,584 @@
+{
+ "entries": [
+  {
+   "key": "case045.abrams.body",
+   "value": "Driver and bodyguard."
+  },
+  {
+   "key": "case045.abrams.deflect",
+   "value": "I drive the car; I open the door."
+  },
+  {
+   "key": "case045.abrams.door.answer",
+   "value": "Me. Whoever comes, whoever goes, I open up. Trevor at half seven, Ms Quinn at quarter past eight. There’s a camera in the lobby; the boss had it put in. And… yesterday the boss told me, ‘Sid, tomorrow morning take me to Pilsen, to bube.’ Don’t tell the lawyers, he said."
+  },
+  {
+   "key": "case045.abrams.door.answer.demeanor",
+   "value": "He adjusts the wire in his ear."
+  },
+  {
+   "key": "case045.abrams.door.question",
+   "value": "Who was at the door in the evening?"
+  },
+  {
+   "key": "case045.abrams.title",
+   "value": "Sid Abrams — interview"
+  },
+  {
+   "key": "case045.accounts.body",
+   "value": "· Trevor Kincaid on a monthly allowance this past year; no debts, his share of the estate tied to a foundation.\n· 43 payments over the last two years from Lakeshore Freight to a port shipping company in Napoli; ‘E. V.’ in the approval box of each.\n· All the payments were processed by: the finance directorate."
+  },
+  {
+   "key": "case045.accounts.title",
+   "value": "COMPANY ACCOUNTS"
+  },
+  {
+   "key": "case045.autopsy.body",
+   "value": "· Severe hypoglycaemia; blood sugar too low to measure.\n· Insulin level in the blood about five times the normal evening dose.\n· A single needle mark on the abdomen. Time of death: 22.30–00.30.\n· Only water in the glass on the desk."
+  },
+  {
+   "key": "case045.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case045.cctv.event.arrive",
+   "value": "Camera: A woman in a dark suit arrives from the lift with a handbag; a man in a black suit opens the flat door for her."
+  },
+  {
+   "key": "case045.cctv.event.console",
+   "value": "Camera: The same woman alone at the console table; she takes something small out of her handbag and puts it in her jacket pocket."
+  },
+  {
+   "key": "case045.cctv.event.leave",
+   "value": "Camera: The same woman gets into the lift; the man in the black suit holds the door."
+  },
+  {
+   "key": "case045.cctv.overlay",
+   "value": "PH-LOBBY"
+  },
+  {
+   "key": "case045.cctv.period",
+   "value": "12 September 2030"
+  },
+  {
+   "key": "case045.cctv.source",
+   "value": "Lift lobby camera"
+  },
+  {
+   "key": "case045.clue.arrive",
+   "value": "The woman in the dark suit arrives at the flat."
+  },
+  {
+   "key": "case045.clue.console",
+   "value": "The same woman takes something small out of her bag."
+  },
+  {
+   "key": "case045.clue.dose",
+   "value": "The victim takes his evening dose."
+  },
+  {
+   "key": "case045.clue.fight",
+   "value": "The son shouts at his father and leaves at 19.50."
+  },
+  {
+   "key": "case045.clue.found",
+   "value": "The housekeeper finds the body."
+  },
+  {
+   "key": "case045.clue.leave",
+   "value": "The same woman gets into the lift."
+  },
+  {
+   "key": "case045.clue.prep",
+   "value": "The housekeeper puts the pen on the desk with a new cartridge."
+  },
+  {
+   "key": "case045.clue.say",
+   "value": "‘Tell Edda, Napoli is ready.’"
+  },
+  {
+   "key": "case045.clue.source.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case045.clue.source.tape",
+   "value": "Audio recording"
+  },
+  {
+   "key": "case045.clue.source.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.custody.label",
+   "value": "What happened to the cartridge in the pen?"
+  },
+  {
+   "key": "case045.custody.maid",
+   "value": "The housekeeper fitted the wrong cartridge"
+  },
+  {
+   "key": "case045.custody.pharmacy",
+   "value": "The pharmacy supplied the wrong cartridge"
+  },
+  {
+   "key": "case045.custody.swapped",
+   "value": "The killer swapped the cartridge at the desk"
+  },
+  {
+   "key": "case045.epilogue.custody.maid",
+   "value": "The standard cartridge the housekeeper fitted was found in the bin, unused."
+  },
+  {
+   "key": "case045.epilogue.custody.pharmacy",
+   "value": "The U-500 box was collected from the pharmacy by the killer herself."
+  },
+  {
+   "key": "case045.epilogue.custody.swapped",
+   "value": "It was recorded that the standard cartridge was removed and a U-500 fitted in its place."
+  },
+  {
+   "key": "case045.epilogue.verdict.accident",
+   "value": "The death was deemed a wrong dose; Lakeshore appointed a new board."
+  },
+  {
+   "key": "case045.epilogue.verdict.ochoa",
+   "value": "Lupe Ochoa was taken into custody; the audio recording was never listened to."
+  },
+  {
+   "key": "case045.epilogue.verdict.quinn",
+   "value": "Marjorie Quinn was arrested. Lakeshore Freight’s 43 payments to the port company in Napoli and the audio recording were sent to bube Napoli’s Quartieri Spagnoli branch."
+  },
+  {
+   "key": "case045.epilogue.verdict.trevor",
+   "value": "Trevor Kincaid was arrested; Quinn flew to Napoli the following week."
+  },
+  {
+   "key": "case045.evidence.accounts",
+   "value": "Company accounts"
+  },
+  {
+   "key": "case045.evidence.lobby",
+   "value": "Lift lobby camera"
+  },
+  {
+   "key": "case045.evidence.medlab",
+   "value": "Pen, cartridge and pharmacy analysis"
+  },
+  {
+   "key": "case045.evidence.tape",
+   "value": "Audio recording transcript"
+  },
+  {
+   "key": "case045.feedback.accident",
+   "value": "A cartridge five times stronger, not on the victim’s prescription, was inside the pen."
+  },
+  {
+   "key": "case045.feedback.ochoa",
+   "value": "The housekeeper fitted the pen, but with a standard cartridge; that cartridge’s twin is in the fridge, and the swapped-out cartridge is in the bin."
+  },
+  {
+   "key": "case045.feedback.quinn",
+   "value": "Her print is on the five-times-stronger cartridge in the pen, and she bought it herself; on the recording, after hearing the victim would go to bube the next day, she says ‘Tell Edda, Napoli is ready.’ The housekeeper saw her at the desk, next to the pen."
+  },
+  {
+   "key": "case045.feedback.trevor",
+   "value": "The son shouted, but he left before the pen was prepared; his share of the estate is tied to a foundation."
+  },
+  {
+   "key": "case045.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case045.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Branch"
+  },
+  {
+   "key": "case045.file.value.location",
+   "value": "Gold Coast, Chicago — residence"
+  },
+  {
+   "key": "case045.file.value.number",
+   "value": "BDC-CHI-2030-0301"
+  },
+  {
+   "key": "case045.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case045.file.value.reporter",
+   "value": "Housekeeper"
+  },
+  {
+   "key": "case045.line_med.body",
+   "value": "A line has been opened for the insulin pen, the cartridges and the pharmacy records."
+  },
+  {
+   "key": "case045.line_med.title",
+   "value": "LINE A — MEDICAL EXAMINATION"
+  },
+  {
+   "key": "case045.line_money.body",
+   "value": "A line has been opened for the accounts of Lakeshore Freight and the Kincaid family."
+  },
+  {
+   "key": "case045.line_money.title",
+   "value": "LINE C — COMPANY ACCOUNTS"
+  },
+  {
+   "key": "case045.line_tape.body",
+   "value": "A line has been opened for the transcript of the voice-activated recorder on the victim’s desk."
+  },
+  {
+   "key": "case045.line_tape.title",
+   "value": "LINE B — DESK AUDIO RECORDER"
+  },
+  {
+   "key": "case045.lobby.body",
+   "value": "Penthouse lift lobby. 12 September 19.00 – 23.30."
+  },
+  {
+   "key": "case045.lobby.title",
+   "value": "LIFT LOBBY CAMERA — log transcript"
+  },
+  {
+   "key": "case045.medlab.body",
+   "value": "· The cartridge in the pen: five-times-concentrated (U-500) insulin; the pen is set for a standard (U-100) cartridge. U-500 is not on the victim’s prescription.\n· Marjorie Quinn’s fingerprint on the cartridge’s glass.\n· In the fridge, nothing is missing from the U-100 cartridges besides the one the housekeeper fitted; in the bin, a U-100 cartridge, full, unused.\n· Pharmacy record: on 9 September a box of U-500, on a prescription in the name of Marjorie Quinn’s mother, was collected by Marjorie Quinn."
+  },
+  {
+   "key": "case045.medlab.title",
+   "value": "PEN, CARTRIDGE AND PHARMACY"
+  },
+  {
+   "key": "case045.method.heart",
+   "value": "A heart attack"
+  },
+  {
+   "key": "case045.method.insulin",
+   "value": "The cartridge in the pen was swapped for one five times stronger"
+  },
+  {
+   "key": "case045.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case045.method.overdose",
+   "value": "He overdosed himself"
+  },
+  {
+   "key": "case045.ochoa.body",
+   "value": "Housekeeper."
+  },
+  {
+   "key": "case045.ochoa.deflect",
+   "value": "I run the house."
+  },
+  {
+   "key": "case045.ochoa.pen.answer",
+   "value": "He did his evening dose himself every night at 22.00; I prepared the pen on his desk. I keep the cartridges in the fridge and count every one. Last night I put the pen on the desk at 20.00; there was a new cartridge in it, I fitted it."
+  },
+  {
+   "key": "case045.ochoa.pen.answer.demeanor",
+   "value": "She straightens the collar of her tunic."
+  },
+  {
+   "key": "case045.ochoa.pen.question",
+   "value": "How did Mr Kincaid use his insulin?"
+  },
+  {
+   "key": "case045.ochoa.study.answer",
+   "value": "Trevor at 19.30; they shouted, he walked out. Then Ms Quinn came; she was in the room with the gentleman from 20.30 to 21.30. The door was shut; at one point the gentleman asked for water and I brought it. Ms Quinn was standing at the desk, next to the pen."
+  },
+  {
+   "key": "case045.ochoa.study.question",
+   "value": "Who went into the study in the evening?"
+  },
+  {
+   "key": "case045.ochoa.title",
+   "value": "Lupe Ochoa — interview"
+  },
+  {
+   "key": "case045.offer.subtitle",
+   "value": "LAKESHORE  /  CHAPTER FINALE"
+  },
+  {
+   "key": "case045.offer.summary",
+   "value": "Lakeshore Freight’s founder is dead in his Gold Coast flat. The day before, he had called bube."
+  },
+  {
+   "key": "case045.offer.title",
+   "value": "FILE #045"
+  },
+  {
+   "key": "case045.person.abrams.info",
+   "value": "52, the victim’s driver and bodyguard."
+  },
+  {
+   "key": "case045.person.abrams.name",
+   "value": "Sid Abrams"
+  },
+  {
+   "key": "case045.person.ochoa.info",
+   "value": "49, housekeeper of the victim’s home."
+  },
+  {
+   "key": "case045.person.ochoa.name",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.person.quinn.info",
+   "value": "55, Lakeshore Freight’s finance director."
+  },
+  {
+   "key": "case045.person.quinn.name",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.person.trevor.info",
+   "value": "31, the victim’s son."
+  },
+  {
+   "key": "case045.person.trevor.name",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.quinn.body",
+   "value": "Finance director."
+  },
+  {
+   "key": "case045.quinn.deflect",
+   "value": "The company’s financial information is confidential."
+  },
+  {
+   "key": "case045.quinn.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case045.quinn.end.presented.medlab",
+   "value": "A fingerprint? I touched everything while I was showing him the accounts."
+  },
+  {
+   "key": "case045.quinn.end.presented.tape",
+   "value": "For twenty years I carried that company; not the trucks, the money. One morning Walter was going to go to bube and tell them everything — Paris, Tokyo, Napoli, her. That woman never forgives. I swapped the cartridge in the pen for one five times stronger. He did it with his own hand. And yes, that voice is mine. I told Edda Napoli was ready. You won’t find her; she’s already there."
+  },
+  {
+   "key": "case045.quinn.end.question",
+   "value": "You swapped the cartridge in the pen."
+  },
+  {
+   "key": "case045.quinn.night.answer",
+   "value": "The quarterly accounts. Walter was tired, old; he’d been confused these last few days. I left at 21.40. I never touched his insulin — why would I?"
+  },
+  {
+   "key": "case045.quinn.night.answer.demeanor",
+   "value": "She touches her diamond earring and lowers her hand."
+  },
+  {
+   "key": "case045.quinn.night.question",
+   "value": "Why were you there in the evening?"
+  },
+  {
+   "key": "case045.quinn.night.variant0",
+   "value": "I took a lipstick out of my bag. Are you going to interpret that too?"
+  },
+  {
+   "key": "case045.quinn.title",
+   "value": "Marjorie Quinn — interview"
+  },
+  {
+   "key": "case045.recon.r_buy",
+   "value": "9 September: Quinn collects a box of U-500 insulin on her mother’s prescription."
+  },
+  {
+   "key": "case045.recon.r_call",
+   "value": "11 September: Kincaid calls bube Chicago; tells his driver ‘take me to Pilsen tomorrow’."
+  },
+  {
+   "key": "case045.recon.r_dose",
+   "value": "21.58: Kincaid takes his evening dose with his own hand; he dies of hypoglycaemia in the night."
+  },
+  {
+   "key": "case045.recon.r_leave",
+   "value": "21.40: Quinn leaves the penthouse."
+  },
+  {
+   "key": "case045.recon.r_prep",
+   "value": "20.00: The housekeeper puts the pen on the desk with a new standard cartridge."
+  },
+  {
+   "key": "case045.recon.r_swap",
+   "value": "At the desk Quinn swaps the cartridge in the pen for a U-500; on her way out she says ‘Tell Edda, Napoli is ready.’"
+  },
+  {
+   "key": "case045.recon.r_warn",
+   "value": "20.36: Kincaid tells Quinn he will go to Pilsen the next day."
+  },
+  {
+   "key": "case045.report.body",
+   "value": "On the morning of 13 September 2030, in a penthouse flat on the Gold Coast, Lakeshore Freight’s founder Walter Kincaid (74) was found dead at his desk. The victim had type 1 diabetes; his insulin pen was on the desk.\n\nThe housekeeper Lupe Ochoa found the body at 07.10. Present in the flat the previous evening: his son Trevor Kincaid, finance director Marjorie Quinn, driver Sid Abrams, housekeeper Lupe Ochoa."
+  },
+  {
+   "key": "case045.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case045.request.accounts",
+   "value": "Request the company accounts"
+  },
+  {
+   "key": "case045.request.line_med",
+   "value": "Open the medical examination line"
+  },
+  {
+   "key": "case045.request.line_money",
+   "value": "Open the company accounts line"
+  },
+  {
+   "key": "case045.request.line_tape",
+   "value": "Open the audio recorder line"
+  },
+  {
+   "key": "case045.request.medlab",
+   "value": "Request the pen, cartridge and pharmacy analysis"
+  },
+  {
+   "key": "case045.request.tape",
+   "value": "Request the audio recording transcript"
+  },
+  {
+   "key": "case045.summary.evidence",
+   "value": "The housekeeper gave the pen and the woman at the desk, the driver the victim’s last plan. The medical line gave the print on the cartridge and the pharmacy, the audio line the night’s conversations. The accounts line tied 43 payments to Napoli."
+  },
+  {
+   "key": "case045.summary.lesson",
+   "value": "Every truck in Chicago was heading for the same port. Next city: Napoli."
+  },
+  {
+   "key": "case045.summary.location",
+   "value": "Gold Coast — September 2030"
+  },
+  {
+   "key": "case045.summary.truth",
+   "value": "After the arrests in Chicago, Lakeshore Freight’s founder Walter Kincaid decided to tell bube everything. The evening finance director Marjorie Quinn learned of it, she swapped the cartridge in the insulin pen the housekeeper had prepared for one five times stronger, and as she left the room she told someone, ‘Tell Edda, Napoli is ready.’ Kincaid took his evening dose with his own hand."
+  },
+  {
+   "key": "case045.suspect.label",
+   "value": "Who killed Walter Kincaid?"
+  },
+  {
+   "key": "case045.tablet.caseLine",
+   "value": "FILE #045  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case045.tape.body",
+   "value": "12 September:\n\n· 20.36 Walter Kincaid: ‘Marjorie, tomorrow I’m going to Pilsen. I suggest you find yourself a lawyer.’\n· 20.37 Marjorie Quinn: ‘Walter, that isn’t your decision.’\n· 20.51 Marjorie Quinn (on the phone as she leaves the room, door ajar): ‘Tell Edda, Napoli is ready. The old man won’t see the morning.’\n· 21.58 Walter Kincaid, alone: ‘Evening dose.’ The click of the pen."
+  },
+  {
+   "key": "case045.tape.title",
+   "value": "AUDIO RECORDING TRANSCRIPT"
+  },
+  {
+   "key": "case045.time.arrive",
+   "value": "20.14"
+  },
+  {
+   "key": "case045.time.console",
+   "value": "20.52"
+  },
+  {
+   "key": "case045.time.dose",
+   "value": "21.58"
+  },
+  {
+   "key": "case045.time.fight",
+   "value": "19.30"
+  },
+  {
+   "key": "case045.time.found",
+   "value": "07.10"
+  },
+  {
+   "key": "case045.time.leave",
+   "value": "21.40"
+  },
+  {
+   "key": "case045.time.prep",
+   "value": "20.00"
+  },
+  {
+   "key": "case045.time.say",
+   "value": "20.51"
+  },
+  {
+   "key": "case045.title",
+   "value": "File #045 — Lakeshore"
+  },
+  {
+   "key": "case045.trevor.body",
+   "value": "The victim’s son."
+  },
+  {
+   "key": "case045.trevor.deflect",
+   "value": "I’ve nothing to do with my father’s company."
+  },
+  {
+   "key": "case045.trevor.fight.answer",
+   "value": "I asked for money, like always. He wouldn’t give it. ‘We’re going to lose everything tomorrow anyway, Trevor, and so am I,’ he said. I didn’t understand what he meant. I left at 19.50; I was at a bar in Wicker Park until morning."
+  },
+  {
+   "key": "case045.trevor.fight.answer.demeanor",
+   "value": "He pushes up his shirt sleeves."
+  },
+  {
+   "key": "case045.trevor.fight.question",
+   "value": "Why did you shout at your father?"
+  },
+  {
+   "key": "case045.trevor.title",
+   "value": "Trevor Kincaid — interview"
+  },
+  {
+   "key": "case045.verdict.accident",
+   "value": "No one — a wrong dose"
+  },
+  {
+   "key": "case045.verdict.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.verdict.quinn",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.verdict.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.item.pen.name",
+   "value": "Insulin pen"
+  },
+  {
+   "key": "case045.item.pen.detail",
+   "value": "The pen on the victim’s desk; the label on the cartridge inside doesn’t match the pen’s standard."
+  },
+  {
+   "key": "case045.item.recorder.name",
+   "value": "Desk audio recorder"
+  },
+  {
+   "key": "case045.item.recorder.detail",
+   "value": "A small voice-activated recorder in the drawer of the victim’s desk."
+  },
+  {
+   "key": "case045.item.vials.name",
+   "value": "Empty cartridge box"
+  },
+  {
+   "key": "case045.item.vials.detail",
+   "value": "A small cardboard box from the side pocket of a handbag, two cartridges missing."
+  }
+ ]
+}
