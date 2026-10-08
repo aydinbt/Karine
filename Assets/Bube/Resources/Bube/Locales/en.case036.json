@@ -1,0 +1,592 @@
+{
+ "entries": [
+  {
+   "key": "case036.autopsy.body",
+   "value": "· A single blow to the back right of the head with a heavy, round-based object; glass dust and wine in the wound.\n· Time of death: 22.00–22.30.\n· Red wine on the hands and under the nails; in his pocket, the cellar key and a small corkscrew."
+  },
+  {
+   "key": "case036.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case036.brassard.body",
+   "value": "Maison Delorme’s shipping director."
+  },
+  {
+   "key": "case036.brassard.deflect",
+   "value": "Maison Delorme’s business relationships are confidential."
+  },
+  {
+   "key": "case036.brassard.sale.answer",
+   "value": "On behalf of Maison Delorme. After Mercier’s unfortunate incident, I took over the private sales. Henri’s death postpones the sale, that’s all. I was in the library all evening; Mr Doyle is my witness."
+  },
+  {
+   "key": "case036.brassard.sale.answer.demeanor",
+   "value": "He turns his ring with his thumb."
+  },
+  {
+   "key": "case036.brassard.sale.question",
+   "value": "Were you running the sale?"
+  },
+  {
+   "key": "case036.brassard.title",
+   "value": "Antoine Brassard — interview"
+  },
+  {
+   "key": "case036.caron.body",
+   "value": "Wine expert."
+  },
+  {
+   "key": "case036.caron.bottle.answer",
+   "value": "The twelve bottles on the sale list. One 1961 has a new cork; opened within six months and recorked. The wine inside isn’t 1961, it’s five years old at most. I told Henri at 21.45. His face went white; he said, ‘I’ll go down to the cellar and check them all.’"
+  },
+  {
+   "key": "case036.caron.bottle.answer.demeanor",
+   "value": "He raises his eyebrows and drums his fingers on the table."
+  },
+  {
+   "key": "case036.caron.bottle.question",
+   "value": "What did you examine this evening?"
+  },
+  {
+   "key": "case036.caron.deflect",
+   "value": "My appraisal reports belong to my client."
+  },
+  {
+   "key": "case036.caron.title",
+   "value": "Yves Caron — interview"
+  },
+  {
+   "key": "case036.caron.who.answer",
+   "value": "The sommelier, for twenty years. Henri trusted him blindly."
+  },
+  {
+   "key": "case036.caron.who.question",
+   "value": "Who ran the cellar?"
+  },
+  {
+   "key": "case036.cctv.event.down",
+   "value": "Camera: An elderly man in a dinner jacket unlocks the cellar door and goes down alone; the door closes behind him."
+  },
+  {
+   "key": "case036.cctv.event.pass",
+   "value": "Camera: A man in a black waistcoat with a silver tray passes the closed cellar door without stopping."
+  },
+  {
+   "key": "case036.cctv.event.still",
+   "value": "Camera: The corridor stays empty for a long time; the cellar door remains closed and locked."
+  },
+  {
+   "key": "case036.cctv.overlay",
+   "value": "CAVE-1"
+  },
+  {
+   "key": "case036.cctv.period",
+   "value": "8 June 2030"
+  },
+  {
+   "key": "case036.cctv.source",
+   "value": "Corridor camera"
+  },
+  {
+   "key": "case036.cellar.body",
+   "value": "In front of the cellar door. 8 June 21.30 – 23.45."
+  },
+  {
+   "key": "case036.cellar.title",
+   "value": "CELLAR CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case036.clue.bell",
+   "value": "The wine lift’s bell rings; the car is empty."
+  },
+  {
+   "key": "case036.clue.caron",
+   "value": "The expert tells the host the 1961 is a fake."
+  },
+  {
+   "key": "case036.clue.down",
+   "value": "The host opens the cellar door and goes down alone."
+  },
+  {
+   "key": "case036.clue.open",
+   "value": "The cellar door is opened with the spare key."
+  },
+  {
+   "key": "case036.clue.pass",
+   "value": "The man in the black waistcoat passes the closed cellar door."
+  },
+  {
+   "key": "case036.clue.source.caron",
+   "value": "Wine expert"
+  },
+  {
+   "key": "case036.clue.source.pinto",
+   "value": "Housekeeper"
+  },
+  {
+   "key": "case036.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case036.custody.door",
+   "value": "Through the door, with a copied key"
+  },
+  {
+   "key": "case036.custody.inside",
+   "value": "They didn’t — the victim was alone"
+  },
+  {
+   "key": "case036.custody.label",
+   "value": "How did the killer get out of the locked cellar?"
+  },
+  {
+   "key": "case036.custody.lift",
+   "value": "By the wine lift to the dining room"
+  },
+  {
+   "key": "case036.doyle.body",
+   "value": "Buyer’s representative from Chicago."
+  },
+  {
+   "key": "case036.doyle.buy.answer",
+   "value": "Five works on behalf of my client. The provenance letters are flawless, signed by Dr Varga. Lakeshore Freight will do the shipping, as usual. I was in the library, with Antoine Brassard; wine doesn’t interest me."
+  },
+  {
+   "key": "case036.doyle.buy.answer.demeanor",
+   "value": "He smiles; his eyes stay fixed."
+  },
+  {
+   "key": "case036.doyle.buy.question",
+   "value": "What did you come to buy?"
+  },
+  {
+   "key": "case036.doyle.deflect",
+   "value": "I can’t give my client’s name."
+  },
+  {
+   "key": "case036.doyle.title",
+   "value": "Marcus Doyle — interview"
+  },
+  {
+   "key": "case036.epilogue.custody.door",
+   "value": "A copied key was searched for and not found; the camera showed the door closed."
+  },
+  {
+   "key": "case036.epilogue.custody.inside",
+   "value": "The locked cellar was taken as proof of an accident."
+  },
+  {
+   "key": "case036.epilogue.custody.lift",
+   "value": "It was recorded that the killer left the cellar by the old wine lift."
+  },
+  {
+   "key": "case036.epilogue.verdict.accident",
+   "value": "The death was deemed an accident; the sale went ahead two weeks later."
+  },
+  {
+   "key": "case036.epilogue.verdict.brassard",
+   "value": "Antoine Brassard was taken into custody and released the next day; the sommelier carried on working."
+  },
+  {
+   "key": "case036.epilogue.verdict.gaspard",
+   "value": "Gaspard de Vauclair was arrested; the cellar’s second way out was never looked for."
+  },
+  {
+   "key": "case036.epilogue.verdict.petit",
+   "value": "Arnaud Petit was arrested. The sale was cancelled. Marcus Doyle returned to Chicago the next morning; Antoine Brassard took the sale file back to Maison Delorme."
+  },
+  {
+   "key": "case036.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case036.evidence.cellar",
+   "value": "Cellar corridor camera"
+  },
+  {
+   "key": "case036.evidence.liftlog",
+   "value": "Wine lift examination"
+  },
+  {
+   "key": "case036.evidence.storage",
+   "value": "The sommelier’s storage unit — search"
+  },
+  {
+   "key": "case036.feedback.accident",
+   "value": "The blow came from behind, single and round-based; there is blood on the base of the broken magnum. A bottle falling from a rack doesn’t strike like that."
+  },
+  {
+   "key": "case036.feedback.brassard",
+   "value": "Delorme’s director was in the library all evening; the Chicago representative and the housekeeper confirm it."
+  },
+  {
+   "key": "case036.feedback.gaspard",
+   "value": "The son argued, but at 22.00 he passed his mother’s door on the way to his room; the cellar door was locked."
+  },
+  {
+   "key": "case036.feedback.petit",
+   "value": "The expert exposed the forgery at 21.45; the sommelier went down to the cellar and back up by the lift, and the bell rang at 22.17. The fibre and wine in the car match the waistcoat in his storage unit; the unit holds six years of forgery."
+  },
+  {
+   "key": "case036.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case036.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case036.file.value.location",
+   "value": "Fontainebleau, château — wine cellar"
+  },
+  {
+   "key": "case036.file.value.number",
+   "value": "BDP-PAR-2030-0140"
+  },
+  {
+   "key": "case036.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case036.file.value.reporter",
+   "value": "The château"
+  },
+  {
+   "key": "case036.gaspard.body",
+   "value": "The victim’s son."
+  },
+  {
+   "key": "case036.gaspard.deflect",
+   "value": "Financial matters are with our lawyer."
+  },
+  {
+   "key": "case036.gaspard.fight.answer",
+   "value": "Over the sale. The château owes three million. My father said, ‘We’ll do this sale with Delorme and settle everything’; I didn’t want to do business with those Chicago men. At 22.00 I went up to my room; I passed my mother’s door."
+  },
+  {
+   "key": "case036.gaspard.fight.answer.demeanor",
+   "value": "He tugs at the sleeve of his jumper."
+  },
+  {
+   "key": "case036.gaspard.fight.question",
+   "value": "You argued with your father."
+  },
+  {
+   "key": "case036.gaspard.title",
+   "value": "Gaspard de Vauclair — interview"
+  },
+  {
+   "key": "case036.helene.body",
+   "value": "The victim’s wife."
+  },
+  {
+   "key": "case036.helene.deflect",
+   "value": "I don’t discuss our family’s affairs."
+  },
+  {
+   "key": "case036.helene.night.answer",
+   "value": "In my room. Gaspard passed along the corridor at 22.00; I heard his voice. Thirty years with Henri… We slept in separate rooms, but I never went down to the cellar to him, I don’t."
+  },
+  {
+   "key": "case036.helene.night.question",
+   "value": "Where were you during the night?"
+  },
+  {
+   "key": "case036.helene.title",
+   "value": "Hélène de Vauclair — interview"
+  },
+  {
+   "key": "case036.liftlog.body",
+   "value": "The hand-operated lift from the cellar to the dining room:\n\n· Car interior 70 × 60 × 90 cm. An adult of average build fits with knees drawn up; load limit 120 kg.\n· On the car floor, smeared dust marks and two drops of red wine; on the floor, one black wool fibre.\n· On the cellar side, the car can also be hauled up from inside by pulling the rope with both hands.\n· Arnaud Petit’s fingerprint on the inner handle of the hatch on the dining room side; the sommelier uses the lift every day."
+  },
+  {
+   "key": "case036.liftlog.title",
+   "value": "WINE LIFT EXAMINATION"
+  },
+  {
+   "key": "case036.method.fall",
+   "value": "He fell on the stairs"
+  },
+  {
+   "key": "case036.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case036.method.magnum",
+   "value": "He was struck on the head with a magnum"
+  },
+  {
+   "key": "case036.method.rack",
+   "value": "A rack toppled"
+  },
+  {
+   "key": "case036.offer.subtitle",
+   "value": "THE CELLAR  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case036.offer.summary",
+   "value": "At Fontainebleau, the owner of a château is found dead in his locked wine cellar on the night of a private sale. The key is in his pocket."
+  },
+  {
+   "key": "case036.offer.title",
+   "value": "FILE #036"
+  },
+  {
+   "key": "case036.person.brassard.info",
+   "value": "57, Maison Delorme’s director of shipping and private sales."
+  },
+  {
+   "key": "case036.person.brassard.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.person.caron.info",
+   "value": "66, wine expert; he was examining the bottles for the sale."
+  },
+  {
+   "key": "case036.person.caron.name",
+   "value": "Yves Caron"
+  },
+  {
+   "key": "case036.person.doyle.info",
+   "value": "45, buyer’s representative from Chicago; works in art logistics."
+  },
+  {
+   "key": "case036.person.doyle.name",
+   "value": "Marcus Doyle"
+  },
+  {
+   "key": "case036.person.gaspard.info",
+   "value": "34, the victim’s son; manages the château’s debts."
+  },
+  {
+   "key": "case036.person.gaspard.name",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.person.helene.info",
+   "value": "63, the victim’s wife; owner of the château."
+  },
+  {
+   "key": "case036.person.helene.name",
+   "value": "Hélène de Vauclair"
+  },
+  {
+   "key": "case036.person.petit.info",
+   "value": "52, the château’s sommelier; in charge of the cellar for twenty years."
+  },
+  {
+   "key": "case036.person.petit.name",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.person.pinto.info",
+   "value": "58, the château’s housekeeper."
+  },
+  {
+   "key": "case036.person.pinto.name",
+   "value": "Rosa Pinto"
+  },
+  {
+   "key": "case036.petit.body",
+   "value": "Sommelier."
+  },
+  {
+   "key": "case036.petit.deflect",
+   "value": "The cellar records aren’t with me, they’re with monsieur."
+  },
+  {
+   "key": "case036.petit.night.answer",
+   "value": "Serving cognac to the guests in the library. At 22.03 I passed along the corridor, the camera will have seen me; the cellar door was closed, monsieur was downstairs, I didn’t disturb him."
+  },
+  {
+   "key": "case036.petit.night.answer.demeanor",
+   "value": "He turns his silver tastevin in his fingers."
+  },
+  {
+   "key": "case036.petit.night.question",
+   "value": "Where were you between 22.00 and 22.30?"
+  },
+  {
+   "key": "case036.petit.night.variant0",
+   "value": "The lift? For twenty years that lift has carried only bottles. A person wouldn’t fit. I was in the corridor at 22.03."
+  },
+  {
+   "key": "case036.petit.title",
+   "value": "Arnaud Petit — interview"
+  },
+  {
+   "key": "case036.petit_2.body",
+   "value": "Following the search."
+  },
+  {
+   "key": "case036.petit_2.lift.answer",
+   "value": "No."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.liftlog",
+   "value": "My prints are there every day. That proves nothing."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.storage",
+   "value": "Six years. No one noticed, until that old expert sniffed the cork. After the cognac service I went down by the dining room lift; monsieur was pulling the bottles from the racks one by one. ‘Arnaud, what is this?’ he said. With the magnum in my hand… Then I squeezed into the car and pulled the rope. The door stayed locked the whole time; the key was in his pocket."
+  },
+  {
+   "key": "case036.petit_2.lift.question",
+   "value": "It was you who came up to the dining room by the lift at 22.17."
+  },
+  {
+   "key": "case036.petit_2.title",
+   "value": "Arnaud Petit — second interview"
+  },
+  {
+   "key": "case036.pinto.bell.answer",
+   "value": "The bell of the wine lift in the dining room wall rang at 22.17. It rings when the lift comes up from the cellar. I went; the car was empty. Monsieur sometimes sends up bottles; if he can’t… an empty car was strange. I didn’t tell anyone."
+  },
+  {
+   "key": "case036.pinto.bell.answer.demeanor",
+   "value": "She folds the corner of her apron and smooths it."
+  },
+  {
+   "key": "case036.pinto.bell.question",
+   "value": "Did you hear anything during the night?"
+  },
+  {
+   "key": "case036.pinto.body",
+   "value": "Housekeeper."
+  },
+  {
+   "key": "case036.pinto.deflect",
+   "value": "I run the house; I don’t know the rest."
+  },
+  {
+   "key": "case036.pinto.title",
+   "value": "Rosa Pinto — interview"
+  },
+  {
+   "key": "case036.pinto.who.answer",
+   "value": "No one. The guests were in the library. Mr Arnaud wasn’t in the library for a while; I thought he’d gone down to the cellar for a bottle."
+  },
+  {
+   "key": "case036.pinto.who.question",
+   "value": "Who was in the dining room when the bell rang?"
+  },
+  {
+   "key": "case036.report.body",
+   "value": "On the night of 8 June 2030, at a château near Fontainebleau, after a private sale of works, the château’s owner Henri de Vauclair (68) was found dead in his own wine cellar. A heavy head wound; beside him, a broken magnum.\n\nThe cellar’s only door was found locked; the key in the victim’s pocket. The door was opened at 23.40 with housekeeper Rosa Pinto’s spare key.\n\nAt the château that night: his wife Hélène, his son Gaspard, the sommelier Arnaud Petit, the housekeeper Rosa Pinto, the wine expert Yves Caron, the buyer’s representative from Chicago Marcus Doyle, and Antoine Brassard of Maison Delorme."
+  },
+  {
+   "key": "case036.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case036.request.liftlog",
+   "value": "Send the wine lift for examination"
+  },
+  {
+   "key": "case036.request.storage",
+   "value": "Request permission to search Arnaud Petit’s storage unit"
+  },
+  {
+   "key": "case036.storage.body",
+   "value": "A storage unit rented in Melun in Arnaud Petit’s name (with the branch chief’s approval):\n\n· 214 blank, aged wine labels; great château vintages from 1945–1990. Boxes of old corks, tea and coffee dye.\n· 86 genuine bottles taken from the château cellar; correspondence with a buyer in Luxembourg: ‘€1.4 million over six years’.\n· A black wool waistcoat on a hanger; glass dust and red wine on the collar; its fibres match the fibre in the lift."
+  },
+  {
+   "key": "case036.storage.title",
+   "value": "THE SOMMELIER’S STORAGE UNIT — SEARCH"
+  },
+  {
+   "key": "case036.summary.evidence",
+   "value": "The corridor camera showed the door never opened, the housekeeper the lift bell ringing at 22.17, and the lift examination the fibre and wine in the car. The storage search, opened on two grounds, gave the forgery and the waistcoat."
+  },
+  {
+   "key": "case036.summary.lesson",
+   "value": "A locked room is locked only at the doors you know about. Ask about the route the person who runs the house uses every day."
+  },
+  {
+   "key": "case036.summary.location",
+   "value": "Fontainebleau — June 2030"
+  },
+  {
+   "key": "case036.summary.truth",
+   "value": "For six years the sommelier Arnaud Petit had been swapping the château’s great wines for fakes and selling the real ones. On the night of the private sale, when the expert Yves Caron found a 1961 to be fake, Henri de Vauclair went down to the cellar. Between cognac services, Petit went down by the wine lift in the dining room, killed his employer with a magnum as he pulled bottles from the racks, then squeezed into the car and hauled himself up by the rope. The door stayed locked throughout."
+  },
+  {
+   "key": "case036.suspect.label",
+   "value": "Who killed Henri de Vauclair?"
+  },
+  {
+   "key": "case036.tablet.caseLine",
+   "value": "FILE #036  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case036.time.bell",
+   "value": "22.17"
+  },
+  {
+   "key": "case036.time.caron",
+   "value": "21.45"
+  },
+  {
+   "key": "case036.time.down",
+   "value": "21.58"
+  },
+  {
+   "key": "case036.time.open",
+   "value": "23.40"
+  },
+  {
+   "key": "case036.time.pass",
+   "value": "22.03"
+  },
+  {
+   "key": "case036.time.still",
+   "value": "22.04–23.39"
+  },
+  {
+   "key": "case036.title",
+   "value": "File #036 — The Cellar"
+  },
+  {
+   "key": "case036.verdict.accident",
+   "value": "No one — a bottle fell from the rack"
+  },
+  {
+   "key": "case036.verdict.brassard",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.verdict.gaspard",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.verdict.petit",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.item.magnum.name",
+   "value": "Broken magnum"
+  },
+  {
+   "key": "case036.item.magnum.detail",
+   "value": "On the cellar floor, a magnum broken at the neck; its label dated 1961."
+  },
+  {
+   "key": "case036.item.labels.name",
+   "value": "Blank labels"
+  },
+  {
+   "key": "case036.item.labels.detail",
+   "value": "In the storage unit the sommelier rented, boxes of aged blank wine labels and corks."
+  },
+  {
+   "key": "case036.item.lift.name",
+   "value": "Wine lift"
+  },
+  {
+   "key": "case036.item.lift.detail",
+   "value": "The old hand-operated lift from the cellar to the dining room; dust marks and a drop of wine on the car floor."
+  }
+ ]
+}

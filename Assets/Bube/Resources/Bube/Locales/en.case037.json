@@ -1,0 +1,536 @@
+{
+ "entries": [
+  {
+   "key": "case037.aubert.body",
+   "value": "Night watchman."
+  },
+  {
+   "key": "case037.aubert.car.answer",
+   "value": "Mr Lenoir’s saloon. On the 21.30 round it was still there; I said to myself, ‘He’s gone by taxi, he’ll fetch the car in the morning.’ On the next round it was gone."
+  },
+  {
+   "key": "case037.aubert.car.answer.demeanor",
+   "value": "He turns his torch in his palm."
+  },
+  {
+   "key": "case037.aubert.car.question",
+   "value": "What did you see in the courtyard?"
+  },
+  {
+   "key": "case037.aubert.deflect",
+   "value": "I look after the door; I don’t go into the offices."
+  },
+  {
+   "key": "case037.aubert.light.answer",
+   "value": "At 21.30 the workshop light was off. At 23.10 it was on, and the press was humming."
+  },
+  {
+   "key": "case037.aubert.light.question",
+   "value": "A light in the workshop?"
+  },
+  {
+   "key": "case037.aubert.title",
+   "value": "Serge Aubert — interview"
+  },
+  {
+   "key": "case037.autopsy.body",
+   "value": "· The burn marks on the palm are superficial and post-mortem; no vital reaction in the tissue.\n· Fractured hyoid bone; a horizontal, flat band mark about 2 cm wide on the neck.\n· Cause of death: strangulation. Time of death: 20.45–21.15."
+  },
+  {
+   "key": "case037.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case037.badges.body",
+   "value": "14 June:\n\n· Clémence Roux — out 19.40\n· Fatou Diallo — out 20.02\n· Baptiste Lenoir — out 20.10\n· Lina Haddad — no exit record\n\nThe back stairs door needs no card; it opens from inside."
+  },
+  {
+   "key": "case037.badges.title",
+   "value": "ENTRY CARD LOGS"
+  },
+  {
+   "key": "case037.cctv.event.car",
+   "value": "Camera: The courtyard is empty; a dark saloon is parked under the lamp."
+  },
+  {
+   "key": "case037.cctv.event.leave",
+   "value": "Camera: The same saloon’s headlights come on; the car leaves through the gate."
+  },
+  {
+   "key": "case037.cctv.event.walk",
+   "value": "Camera: A man in a dark suit walks out through the vehicle gate, talking on the phone."
+  },
+  {
+   "key": "case037.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case037.cctv.period",
+   "value": "14 June 2030"
+  },
+  {
+   "key": "case037.cctv.source",
+   "value": "Courtyard camera"
+  },
+  {
+   "key": "case037.clemence.body",
+   "value": "Head designer."
+  },
+  {
+   "key": "case037.clemence.deflect",
+   "value": "I talk about the collection, not the accounts."
+  },
+  {
+   "key": "case037.clemence.fight.answer",
+   "value": "She’d cut a fabric against the grain; I shouted. I’m ashamed of it. I left at 19.40 and was at dinner in Bastille; the six people at the table are witnesses."
+  },
+  {
+   "key": "case037.clemence.fight.answer.demeanor",
+   "value": "She fiddles with the pincushion on her wrist."
+  },
+  {
+   "key": "case037.clemence.fight.question",
+   "value": "You argued with Lina at midday."
+  },
+  {
+   "key": "case037.clemence.licence.answer",
+   "value": "Baptiste. He put my designs on Japanese girls without even asking me. Why the payments go through a company called Delorme, I don’t know either."
+  },
+  {
+   "key": "case037.clemence.licence.question",
+   "value": "Who runs the Tokyo licence?"
+  },
+  {
+   "key": "case037.clemence.title",
+   "value": "Clémence Roux — interview"
+  },
+  {
+   "key": "case037.clue.dout",
+   "value": "Fatou Diallo leaves; Lina stays."
+  },
+  {
+   "key": "case037.clue.found",
+   "value": "The watchman finds the body."
+  },
+  {
+   "key": "case037.clue.leave",
+   "value": "The saloon leaves the courtyard."
+  },
+  {
+   "key": "case037.clue.msg",
+   "value": "Lina’s last message: ‘The invoices are doubled.’"
+  },
+  {
+   "key": "case037.clue.on",
+   "value": "The press is switched on from a phone."
+  },
+  {
+   "key": "case037.clue.source.badges",
+   "value": "Card logs"
+  },
+  {
+   "key": "case037.clue.source.diallo",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.clue.source.presslog",
+   "value": "Power log"
+  },
+  {
+   "key": "case037.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case037.clue.walk",
+   "value": "The man in the suit leaves the courtyard on foot; the car stays."
+  },
+  {
+   "key": "case037.court.body",
+   "value": "The building’s courtyard. 14 June 20.00 – 23.15."
+  },
+  {
+   "key": "case037.court.title",
+   "value": "COURTYARD CAMERA — log transcript"
+  },
+  {
+   "key": "case037.custody.fault",
+   "value": "It switched itself on through a fault"
+  },
+  {
+   "key": "case037.custody.forgot",
+   "value": "The victim left it on herself"
+  },
+  {
+   "key": "case037.custody.label",
+   "value": "Why was the press on?"
+  },
+  {
+   "key": "case037.custody.staged",
+   "value": "It was switched on by phone after the death"
+  },
+  {
+   "key": "case037.diallo.body",
+   "value": "Tailor."
+  },
+  {
+   "key": "case037.diallo.deflect",
+   "value": "I sew; I don’t see the paperwork."
+  },
+  {
+   "key": "case037.diallo.msg.answer",
+   "value": "When I left at 20.02 she said, ‘You go, I’m staying, I’m going to show someone something.’ At 20.31 she texted: ‘I was right. The invoices are doubled. I’ll tell you tomorrow.’ There was no tomorrow."
+  },
+  {
+   "key": "case037.diallo.msg.answer.demeanor",
+   "value": "She holds the tape measure round her neck with both hands."
+  },
+  {
+   "key": "case037.diallo.msg.question",
+   "value": "Did Lina tell you anything?"
+  },
+  {
+   "key": "case037.diallo.title",
+   "value": "Fatou Diallo — interview"
+  },
+  {
+   "key": "case037.diallo.who.answer",
+   "value": "She didn’t say. But all week she was photocopying the licence files and hiding them in her locker."
+  },
+  {
+   "key": "case037.diallo.who.question",
+   "value": "Who was she going to show?"
+  },
+  {
+   "key": "case037.epilogue.custody.fault",
+   "value": "The log showed the socket had been switched on by hand."
+  },
+  {
+   "key": "case037.epilogue.custody.forgot",
+   "value": "The log shows 21.41; the victim was dead by then."
+  },
+  {
+   "key": "case037.epilogue.custody.staged",
+   "value": "It was recorded that the press was switched on remotely after the death, to stage the scene."
+  },
+  {
+   "key": "case037.epilogue.verdict.accident",
+   "value": "The death was deemed a workplace accident; the label paid compensation."
+  },
+  {
+   "key": "case037.epilogue.verdict.aubert",
+   "value": "Serge Aubert was taken into custody; the licence file was never opened."
+  },
+  {
+   "key": "case037.epilogue.verdict.clemence",
+   "value": "Clémence Roux was arrested; the invoices stayed in the locker."
+  },
+  {
+   "key": "case037.epilogue.verdict.lenoir",
+   "value": "Baptiste Lenoir was arrested. The invoices were traced to Maison Delorme and to the agency in Tokyo. The message to Antoine Brassard entered the file; Brassard refused to give a statement."
+  },
+  {
+   "key": "case037.evidence.court",
+   "value": "Courtyard camera"
+  },
+  {
+   "key": "case037.evidence.locker",
+   "value": "The victim’s locker"
+  },
+  {
+   "key": "case037.evidence.presslog",
+   "value": "Press power log"
+  },
+  {
+   "key": "case037.evidence.search",
+   "value": "Baptiste Lenoir’s office and phone — search"
+  },
+  {
+   "key": "case037.feedback.accident",
+   "value": "The burns are post-mortem; death was by strangulation, and the press was switched on half an hour after death."
+  },
+  {
+   "key": "case037.feedback.aubert",
+   "value": "The watchman’s round times don’t conflict with the press log; he has access neither to the socket’s app nor to the invoices."
+  },
+  {
+   "key": "case037.feedback.clemence",
+   "value": "The designer shouted at midday but left at 19.40; six people were at dinner with her in Bastille."
+  },
+  {
+   "key": "case037.feedback.lenoir",
+   "value": "He swiped his card and left on foot, but his car stayed in the courtyard until 21.54; the press was switched on from his phone at 21.41, half an hour after death. The knife in his office carries the cable’s insulation; the victim had found the double invoices he prepared."
+  },
+  {
+   "key": "case037.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case037.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case037.file.value.location",
+   "value": "Le Marais, fashion atelier"
+  },
+  {
+   "key": "case037.file.value.number",
+   "value": "BDP-PAR-2030-0151"
+  },
+  {
+   "key": "case037.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case037.file.value.reporter",
+   "value": "Night watchman"
+  },
+  {
+   "key": "case037.lenoir.body",
+   "value": "Licensing director."
+  },
+  {
+   "key": "case037.lenoir.deflect",
+   "value": "Licence agreements are subject to a confidentiality clause."
+  },
+  {
+   "key": "case037.lenoir.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case037.lenoir.end.presented.badges",
+   "value": "I swiped my card, yes. That’s all."
+  },
+  {
+   "key": "case037.lenoir.end.presented.locker",
+   "value": "A tailor’s photocopies. What do they prove?"
+  },
+  {
+   "key": "case037.lenoir.end.presented.search",
+   "value": "Delorme paid, Tokyo received, and I took my share in between. Lina put the two invoices side by side and said, ‘I’m taking this to the police.’ She had the tape measure in her hand… Then I cut the press cable, put it in her palm, and switched the socket on from my phone. I wrote to Brassard, because he asks."
+  },
+  {
+   "key": "case037.lenoir.end.question",
+   "value": "Lina showed you the invoices."
+  },
+  {
+   "key": "case037.lenoir.night.answer",
+   "value": "At 20.10 I swiped my card, left, walked. The camera will show it. I left my car; I’d had wine."
+  },
+  {
+   "key": "case037.lenoir.night.answer.demeanor",
+   "value": "He straightens his pocket square."
+  },
+  {
+   "key": "case037.lenoir.night.question",
+   "value": "Where were you in the evening?"
+  },
+  {
+   "key": "case037.lenoir.night.variant0",
+   "value": "I came back for my car later, yes. By the back stairs? I went up to my office for a file; I didn’t go into the workshop."
+  },
+  {
+   "key": "case037.lenoir.title",
+   "value": "Baptiste Lenoir — interview"
+  },
+  {
+   "key": "case037.locker.body",
+   "value": "From Lina Haddad’s workshop locker:\n\n· Photocopies of the Tokyo licence invoices: two separate invoices for the same collection; one to Maison Lévrier for €180,000, the other to a Maison Delorme account for €410,000. In the corner of the second, an ‘E. V.’ approval in blue ink.\n· Prepared by: licensing director Baptiste Lenoir.\n· A sticky note: ‘Ask B. L.?’"
+  },
+  {
+   "key": "case037.locker.title",
+   "value": "THE VICTIM’S LOCKER"
+  },
+  {
+   "key": "case037.method.fall",
+   "value": "She fell and hit her head"
+  },
+  {
+   "key": "case037.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case037.method.shock",
+   "value": "Electrocuted by the steam press"
+  },
+  {
+   "key": "case037.method.strangle",
+   "value": "Strangled with a tailor’s tape measure"
+  },
+  {
+   "key": "case037.offer.subtitle",
+   "value": "THE ATELIER  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case037.offer.summary",
+   "value": "In Le Marais, a young tailor lies dead in front of a steam press at a fashion house. The press was switched on after she died."
+  },
+  {
+   "key": "case037.offer.title",
+   "value": "FILE #037"
+  },
+  {
+   "key": "case037.person.aubert.info",
+   "value": "61, the building’s night watchman."
+  },
+  {
+   "key": "case037.person.aubert.name",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.person.clemence.info",
+   "value": "41, head designer at Maison Lévrier."
+  },
+  {
+   "key": "case037.person.clemence.name",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.person.diallo.info",
+   "value": "36, tailor in the atelier; the victim’s closest friend."
+  },
+  {
+   "key": "case037.person.diallo.name",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.person.lenoir.info",
+   "value": "49, the label’s director of licensing and international agreements."
+  },
+  {
+   "key": "case037.person.lenoir.name",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.presslog.body",
+   "value": "Log taken from the press’s smart socket:\n\n· 19.52 switched off (end of day)\n· 21.41 switched on\n· Continuous current from 21.41; at 21.43 a short circuit did not trip the fuse, a single wire with stripped insulation.\n\nThe socket’s app is linked to the workshop manager’s account; switched on by hand from a phone."
+  },
+  {
+   "key": "case037.presslog.title",
+   "value": "STEAM PRESS — POWER LOG"
+  },
+  {
+   "key": "case037.report.body",
+   "value": "On the night of 14 June 2030, at the Maison Lévrier atelier in Le Marais, tailor Lina Haddad (27) was found dead in front of a steam press. The press was on; the press cable in her hand.\n\nThe night watchman Serge Aubert found the body on his 23.10 round. The atelier closes at 20.00; those who came and went with entry cards that evening: Clémence Roux, Baptiste Lenoir, Fatou Diallo."
+  },
+  {
+   "key": "case037.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case037.request.locker",
+   "value": "Open the victim’s locker"
+  },
+  {
+   "key": "case037.request.presslog",
+   "value": "Request the press’s smart socket log"
+  },
+  {
+   "key": "case037.request.search",
+   "value": "Request a search warrant for Baptiste Lenoir’s office and phone"
+  },
+  {
+   "key": "case037.search.body",
+   "value": "With the branch chief’s approval:\n\n· On Baptiste Lenoir’s phone, the workshop socket’s app was opened at 21.41; the account is shared from the workshop manager.\n· In the office drawer, a utility knife; on the blade, fragments of the press cable’s grey insulation.\n· A deleted e-mail draft, 20.38: ‘Lina, come and talk, I’m in my office.’\n· Message to Brassard at 22.06: ‘Problem solved. The Tokyo invoices are clean.’"
+  },
+  {
+   "key": "case037.search.title",
+   "value": "BAPTISTE LENOIR’S OFFICE AND PHONE — SEARCH"
+  },
+  {
+   "key": "case037.summary.evidence",
+   "value": "The autopsy showed the burns were post-mortem, the socket log that the press was switched on half an hour after death, and the courtyard camera and the watchman that the car stayed until 21.54. The search, opened on two grounds, gave the knife, the phone and the message to Brassard."
+  },
+  {
+   "key": "case037.summary.lesson",
+   "value": "If the machine’s log doesn’t match the body’s time, look for the person who set the scene."
+  },
+  {
+   "key": "case037.summary.location",
+   "value": "Le Marais — June 2030"
+  },
+  {
+   "key": "case037.summary.truth",
+   "value": "Baptiste Lenoir, Maison Lévrier’s licensing director, was running the Tokyo licence on two invoices and passing the difference through a Maison Delorme account. When the tailor Lina Haddad put the two invoices side by side, Lenoir swiped his card as if leaving, came back by the back stairs and strangled her with the tape measure. He cut the press cable, put it in her palm and switched the socket on from his phone at 21.41."
+  },
+  {
+   "key": "case037.suspect.label",
+   "value": "Who killed Lina Haddad?"
+  },
+  {
+   "key": "case037.tablet.caseLine",
+   "value": "FILE #037  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case037.time.car",
+   "value": "20.10–21.53"
+  },
+  {
+   "key": "case037.time.dout",
+   "value": "20.02"
+  },
+  {
+   "key": "case037.time.found",
+   "value": "23.10"
+  },
+  {
+   "key": "case037.time.leave",
+   "value": "21.54"
+  },
+  {
+   "key": "case037.time.msg",
+   "value": "20.31"
+  },
+  {
+   "key": "case037.time.on",
+   "value": "21.41"
+  },
+  {
+   "key": "case037.time.walk",
+   "value": "20.10"
+  },
+  {
+   "key": "case037.title",
+   "value": "File #037 — The Atelier"
+  },
+  {
+   "key": "case037.verdict.accident",
+   "value": "No one — electrocuted by the press"
+  },
+  {
+   "key": "case037.verdict.aubert",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.verdict.clemence",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.verdict.lenoir",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.item.press.name",
+   "value": "Steam press"
+  },
+  {
+   "key": "case037.item.press.detail",
+   "value": "The industrial steam press in the atelier; its cable insulation stripped with a knife."
+  },
+  {
+   "key": "case037.item.tape.name",
+   "value": "Tailor’s tape measure"
+  },
+  {
+   "key": "case037.item.tape.detail",
+   "value": "A cloth tape measure found under the victim’s table; a stretched, crumpled section in the middle."
+  },
+  {
+   "key": "case037.item.invoices.name",
+   "value": "Licence invoices"
+  },
+  {
+   "key": "case037.item.invoices.detail",
+   "value": "Photocopies hidden in the victim’s locker: Tokyo licence invoices, two handwritten letters in their corners."
+  }
+ ]
+}
