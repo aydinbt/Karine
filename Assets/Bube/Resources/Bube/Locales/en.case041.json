@@ -1,0 +1,632 @@
+{
+ "entries": [
+  {
+   "key": "case041.autopsy.body",
+   "value": "· Drowning; chlorinated water in the lungs.\n· No alcohol in the blood.\n· Fresh finger-shaped bruises on both shoulders and at the base of the neck; someone held him under the water.\n· Navy wool fibres under the nails of the right hand. Time of death: 23.45–00.15."
+  },
+  {
+   "key": "case041.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case041.bellini.body",
+   "value": "Bartender."
+  },
+  {
+   "key": "case041.bellini.deflect",
+   "value": "I pour drinks; I don’t listen."
+  },
+  {
+   "key": "case041.bellini.drink.answer",
+   "value": "Soda with lemon, all night. He told me, ‘I need to stay sober in front of the bosses.’ That kid didn’t get drunk and fall into the pool."
+  },
+  {
+   "key": "case041.bellini.drink.answer.demeanor",
+   "value": "He smooths his moustache with his thumb."
+  },
+  {
+   "key": "case041.bellini.drink.question",
+   "value": "What was Tyler drinking?"
+  },
+  {
+   "key": "case041.bellini.talk.answer",
+   "value": "Around 23.30, with the treasurer at the end of the bar. The treasurer was angry; he grabbed the kid’s arm. Then the kid went out with his phone, towards the pool door."
+  },
+  {
+   "key": "case041.bellini.talk.question",
+   "value": "Did he argue with anyone?"
+  },
+  {
+   "key": "case041.bellini.title",
+   "value": "Marco Bellini — interview"
+  },
+  {
+   "key": "case041.cctv.event.back",
+   "value": "Camera: The same man comes back alone; his shirt sleeves wet, he pulls his jacket sleeves down."
+  },
+  {
+   "key": "case041.cctv.event.older",
+   "value": "Camera: A heavy-set older man in a dark suit swipes a card and passes through the same door."
+  },
+  {
+   "key": "case041.cctv.event.young",
+   "value": "Camera: A young man in shirtsleeves passes through the roof door with a phone in his hand."
+  },
+  {
+   "key": "case041.cctv.overlay",
+   "value": "ROOF-2"
+  },
+  {
+   "key": "case041.cctv.period",
+   "value": "26 July 2030"
+  },
+  {
+   "key": "case041.cctv.source",
+   "value": "Service corridor camera"
+  },
+  {
+   "key": "case041.clue.argue",
+   "value": "The treasurer grabs the victim’s arm."
+  },
+  {
+   "key": "case041.clue.back",
+   "value": "The same man comes back with wet sleeves."
+  },
+  {
+   "key": "case041.clue.call",
+   "value": "The victim calls the journalist; a man says ‘let’s talk’."
+  },
+  {
+   "key": "case041.clue.found",
+   "value": "The night manager finds the body."
+  },
+  {
+   "key": "case041.clue.older",
+   "value": "The heavy-set man swipes a card and goes up to the roof."
+  },
+  {
+   "key": "case041.clue.source.bellini",
+   "value": "Bartender"
+  },
+  {
+   "key": "case041.clue.source.kessler",
+   "value": "Nina Kessler"
+  },
+  {
+   "key": "case041.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case041.clue.young",
+   "value": "The young man passes through the roof door."
+  },
+  {
+   "key": "case041.custody.card",
+   "value": "With the treasurer’s suite card"
+  },
+  {
+   "key": "case041.custody.label",
+   "value": "How was the closed pool’s door opened?"
+  },
+  {
+   "key": "case041.custody.own",
+   "value": "With the victim’s own card"
+  },
+  {
+   "key": "case041.custody.staff",
+   "value": "Staff left the door open"
+  },
+  {
+   "key": "case041.donors.body",
+   "value": "From the victim’s laptop and the election board records:\n\n· 20 donors, same address: Lakeshore Freight’s Pilsen warehouse. Each at the legal maximum.\n· All the donations were recorded and approved by: treasurer Gordon Pratt.\n· Twelve of the donors were not on the warehouse payroll on the date of donation."
+  },
+  {
+   "key": "case041.donors.title",
+   "value": "DONATION BREAKDOWN"
+  },
+  {
+   "key": "case041.epilogue.custody.card",
+   "value": "It was recorded that the door was opened at 23.47 with the treasurer’s suite card."
+  },
+  {
+   "key": "case041.epilogue.custody.own",
+   "value": "The victim had no card with roof access."
+  },
+  {
+   "key": "case041.epilogue.custody.staff",
+   "value": "The log showed the door was opened with a guest card."
+  },
+  {
+   "key": "case041.epilogue.verdict.accident",
+   "value": "The death was deemed an accident; the hotel fitted a new lock on the pool door."
+  },
+  {
+   "key": "case041.epilogue.verdict.harlan",
+   "value": "Clint Harlan was taken into custody and walked out with his lawyers the next morning; the treasurer went on running the campaign."
+  },
+  {
+   "key": "case041.epilogue.verdict.pratt",
+   "value": "Gordon Pratt was arrested. The straw donations were reported to the election board; Clint Harlan’s statement was taken in the presence of Lakeshore’s lawyers."
+  },
+  {
+   "key": "case041.epilogue.verdict.vega",
+   "value": "An investigation was opened into Dolores Vega; she lost the election, and the file was closed."
+  },
+  {
+   "key": "case041.evidence.donors",
+   "value": "Donation breakdown"
+  },
+  {
+   "key": "case041.evidence.keycard",
+   "value": "Pool door card log"
+  },
+  {
+   "key": "case041.evidence.pressfile",
+   "value": "The journalist’s notes"
+  },
+  {
+   "key": "case041.evidence.roof",
+   "value": "Service corridor camera"
+  },
+  {
+   "key": "case041.feedback.accident",
+   "value": "There is no alcohol in the victim’s blood; there are finger bruises on his shoulders and neck."
+  },
+  {
+   "key": "case041.feedback.harlan",
+   "value": "Lakeshore’s man was the source of the money, but he was at the council member’s table all night."
+  },
+  {
+   "key": "case041.feedback.pratt",
+   "value": "His suite card opened the pool door at 23.47; eleven minutes later he came back with wet sleeves. The victim had found the straw donations, and the treasurer approved every one."
+  },
+  {
+   "key": "case041.feedback.vega",
+   "value": "At that hour the council member was having photos taken in front of a hundred people."
+  },
+  {
+   "key": "case041.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case041.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Branch"
+  },
+  {
+   "key": "case041.file.value.location",
+   "value": "The Loop, Chicago — hotel roof"
+  },
+  {
+   "key": "case041.file.value.number",
+   "value": "BDC-CHI-2030-0233"
+  },
+  {
+   "key": "case041.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case041.file.value.reporter",
+   "value": "Hotel management"
+  },
+  {
+   "key": "case041.harlan.body",
+   "value": "Lakeshore Freight vice president."
+  },
+  {
+   "key": "case041.harlan.deflect",
+   "value": "My company’s donations are legal; I have nothing else to say."
+  },
+  {
+   "key": "case041.harlan.donate.answer",
+   "value": "Our employees are civic participants. The address is the warehouse’s; their mail goes there. I was at Ms Vega’s table all night."
+  },
+  {
+   "key": "case041.harlan.donate.answer.demeanor",
+   "value": "He turns his watch on his wrist."
+  },
+  {
+   "key": "case041.harlan.donate.question",
+   "value": "Why do your company’s workers donate from the same address?"
+  },
+  {
+   "key": "case041.harlan.title",
+   "value": "Clint Harlan — interview"
+  },
+  {
+   "key": "case041.jordan.body",
+   "value": "Flatmate."
+  },
+  {
+   "key": "case041.jordan.deflect",
+   "value": "I didn’t know much about Tyler’s work."
+  },
+  {
+   "key": "case041.jordan.last.answer",
+   "value": "For a week he’d been going through donation spreadsheets at night. He said, ‘Twenty people donated from the same address, all warehouse workers at a shipping company.’ He was meeting a journalist. At 23.40 he texted me: ‘Going up to the roof, I’ll call Nina.’"
+  },
+  {
+   "key": "case041.jordan.last.answer.demeanor",
+   "value": "He takes off his glasses and rubs his eyes."
+  },
+  {
+   "key": "case041.jordan.last.question",
+   "value": "Did Tyler tell you anything?"
+  },
+  {
+   "key": "case041.jordan.title",
+   "value": "Jordan Lee — interview"
+  },
+  {
+   "key": "case041.kessler.body",
+   "value": "Journalist."
+  },
+  {
+   "key": "case041.kessler.call.answer",
+   "value": "At 23.43. He said, ‘I’ve found it, the treasurer knows all of it, I’ll bring everything tomorrow.’ Behind him a door, and a man said, ‘Tyler, let’s talk.’ The line went dead. I was downstairs in the lobby; they wouldn’t let me go up."
+  },
+  {
+   "key": "case041.kessler.call.answer.demeanor",
+   "value": "She pushes her glasses up onto her head."
+  },
+  {
+   "key": "case041.kessler.call.question",
+   "value": "Did Tyler call you?"
+  },
+  {
+   "key": "case041.kessler.deflect",
+   "value": "I don’t reveal my sources."
+  },
+  {
+   "key": "case041.kessler.title",
+   "value": "Nina Kessler — interview"
+  },
+  {
+   "key": "case041.keycard.body",
+   "value": "26 July:\n\n· 23.41 — door pushed open (held from inside, no card)\n· 23.47 — Roof Suite 2 card: guest Gordon Pratt\n· 23.58 — exit, same card\n· 00.40 — staff card: Ahmed Saleh\n\nA cufflink and a phone that had fallen into the water were recovered from the pool filter."
+  },
+  {
+   "key": "case041.keycard.title",
+   "value": "POOL DOOR CARD LOG"
+  },
+  {
+   "key": "case041.line_finance.body",
+   "value": "A line has been opened for the Vega campaign’s donation and spending records."
+  },
+  {
+   "key": "case041.line_finance.title",
+   "value": "LINE B — CAMPAIGN FINANCE"
+  },
+  {
+   "key": "case041.line_hotel.body",
+   "value": "A line has been opened for the hotel’s card, room and pool records."
+  },
+  {
+   "key": "case041.line_hotel.title",
+   "value": "LINE A — HOTEL SYSTEMS"
+  },
+  {
+   "key": "case041.line_press.body",
+   "value": "A line has been opened for the file and records Nina Kessler handed over voluntarily."
+  },
+  {
+   "key": "case041.line_press.title",
+   "value": "LINE C — THE JOURNALIST’S FILE"
+  },
+  {
+   "key": "case041.method.drown",
+   "value": "He was held under the water in the pool"
+  },
+  {
+   "key": "case041.method.fall",
+   "value": "He fell into the pool drunk"
+  },
+  {
+   "key": "case041.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case041.method.slip",
+   "value": "He slipped at the edge and hit his head"
+  },
+  {
+   "key": "case041.offer.subtitle",
+   "value": "THE FUNDRAISER  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case041.offer.summary",
+   "value": "On the roof of a hotel in the Loop, after a fundraising dinner, the campaign’s young assistant is found dead in the closed pool."
+  },
+  {
+   "key": "case041.offer.title",
+   "value": "FILE #041"
+  },
+  {
+   "key": "case041.person.bellini.info",
+   "value": "45, bartender at the rooftop bar."
+  },
+  {
+   "key": "case041.person.bellini.name",
+   "value": "Marco Bellini"
+  },
+  {
+   "key": "case041.person.harlan.info",
+   "value": "61, Lakeshore Freight’s vice president of corporate relations; a donor."
+  },
+  {
+   "key": "case041.person.harlan.name",
+   "value": "Clint Harlan"
+  },
+  {
+   "key": "case041.person.jordan.info",
+   "value": "27, the victim’s flatmate; a campaign volunteer."
+  },
+  {
+   "key": "case041.person.jordan.name",
+   "value": "Jordan Lee"
+  },
+  {
+   "key": "case041.person.kessler.info",
+   "value": "34, investigative journalist at a local news site."
+  },
+  {
+   "key": "case041.person.kessler.name",
+   "value": "Nina Kessler"
+  },
+  {
+   "key": "case041.person.pratt.info",
+   "value": "58, the campaign’s treasurer."
+  },
+  {
+   "key": "case041.person.pratt.name",
+   "value": "Gordon Pratt"
+  },
+  {
+   "key": "case041.person.saleh.info",
+   "value": "39, the hotel’s night manager."
+  },
+  {
+   "key": "case041.person.saleh.name",
+   "value": "Ahmed Saleh"
+  },
+  {
+   "key": "case041.person.vega.info",
+   "value": "52, Pilsen council member; host of the fundraising dinner."
+  },
+  {
+   "key": "case041.person.vega.name",
+   "value": "Dolores Vega"
+  },
+  {
+   "key": "case041.pratt.body",
+   "value": "Campaign treasurer."
+  },
+  {
+   "key": "case041.pratt.deflect",
+   "value": "The donation records were filed with the election board."
+  },
+  {
+   "key": "case041.pratt.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case041.pratt.end.presented.donors",
+   "value": "Spreadsheets; they’re open to interpretation."
+  },
+  {
+   "key": "case041.pratt.end.presented.keycard",
+   "value": "Twenty-two years I’ve done this job. That kid was going to end it with one phone call. I tried to take the phone off him; we were at the edge of the pool, he fell, and I… held him. I didn’t let go. I threw the phone in the water. I told Harlan ‘it’s handled’, that’s all."
+  },
+  {
+   "key": "case041.pratt.end.question",
+   "value": "Your card opened the roof at 23.47."
+  },
+  {
+   "key": "case041.pratt.night.answer",
+   "value": "At the bar, then in the hall. With the kid? We talked about a figure error, a work matter. I never went up to the pool; I can’t even swim."
+  },
+  {
+   "key": "case041.pratt.night.answer.demeanor",
+   "value": "He pushes his glasses up his nose."
+  },
+  {
+   "key": "case041.pratt.night.question",
+   "value": "Where were you before midnight?"
+  },
+  {
+   "key": "case041.pratt.night.variant0",
+   "value": "I went out for a minute for some air. The kid wasn’t there."
+  },
+  {
+   "key": "case041.pratt.title",
+   "value": "Gordon Pratt — interview"
+  },
+  {
+   "key": "case041.pressfile.body",
+   "value": "Nina Kessler’s Lakeshore file:\n\n· The first versions of the spreadsheets Tyler gave her.\n· A statement from a former Lakeshore driver: ‘There’s a wiretap recording. A woman’s voice. She signs as E. A place called Napoli comes up.’\n· Who has the recording is unknown."
+  },
+  {
+   "key": "case041.pressfile.title",
+   "value": "THE JOURNALIST’S NOTES"
+  },
+  {
+   "key": "case041.report.body",
+   "value": "On the night of 26 July 2030, on the roof of a hotel in the Loop, after a fundraising dinner for council member Dolores Vega, campaign assistant Tyler Brooks (26) was found dead in the rooftop pool, which closes at 23.00.\n\nThe night manager Ahmed Saleh found the body at 00.40. Among those at the dinner on the roof and at the bar: Dolores Vega, Gordon Pratt, Clint Harlan, Nina Kessler, Jordan Lee; the bartender Marco Bellini."
+  },
+  {
+   "key": "case041.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case041.request.donors",
+   "value": "Request the donation breakdown"
+  },
+  {
+   "key": "case041.request.keycard",
+   "value": "Request the pool door card log"
+  },
+  {
+   "key": "case041.request.line_finance",
+   "value": "Open the campaign finance line"
+  },
+  {
+   "key": "case041.request.line_hotel",
+   "value": "Open the hotel systems line"
+  },
+  {
+   "key": "case041.request.line_press",
+   "value": "Open the journalist’s file line"
+  },
+  {
+   "key": "case041.request.pressfile",
+   "value": "Request the journalist’s notes"
+  },
+  {
+   "key": "case041.roof.body",
+   "value": "The pool door. 26 July 23.00 – 00.45."
+  },
+  {
+   "key": "case041.roof.title",
+   "value": "ROOF SERVICE CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case041.saleh.body",
+   "value": "Night manager."
+  },
+  {
+   "key": "case041.saleh.deflect",
+   "value": "Guest information is subject to hotel policy."
+  },
+  {
+   "key": "case041.saleh.door.answer",
+   "value": "It locks. After that only staff cards and the roof suite guests’ cards open it. We can pull the card log, but the hotel’s lawyer will want a request."
+  },
+  {
+   "key": "case041.saleh.door.answer.demeanor",
+   "value": "He straightens his lapel pin."
+  },
+  {
+   "key": "case041.saleh.door.question",
+   "value": "Doesn’t the pool door lock at 23.00?"
+  },
+  {
+   "key": "case041.saleh.title",
+   "value": "Ahmed Saleh — interview"
+  },
+  {
+   "key": "case041.summary.evidence",
+   "value": "The bartender showed the victim was sober, the journalist the last call, the camera the man coming back with wet sleeves. The hotel line gave the card log, the finance line the straw donations. The journalist’s line spoke of a voice: E. and Napoli."
+  },
+  {
+   "key": "case041.summary.lesson",
+   "value": "At a crowded table everyone knows something; only one person opens the door."
+  },
+  {
+   "key": "case041.summary.location",
+   "value": "The Loop — July 2030"
+  },
+  {
+   "key": "case041.summary.truth",
+   "value": "Campaign treasurer Gordon Pratt was channelling Lakeshore Freight’s money into the council member’s campaign under warehouse workers’ names. When the assistant Tyler Brooks found that twenty of the donors shared one address and called the journalist from the roof, Pratt went up to the closed pool with his own suite card, tried to take the phone and held him under the water."
+  },
+  {
+   "key": "case041.suspect.label",
+   "value": "Who killed Tyler Brooks?"
+  },
+  {
+   "key": "case041.tablet.caseLine",
+   "value": "FILE #041  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case041.time.argue",
+   "value": "23.30"
+  },
+  {
+   "key": "case041.time.back",
+   "value": "23.58"
+  },
+  {
+   "key": "case041.time.call",
+   "value": "23.43"
+  },
+  {
+   "key": "case041.time.found",
+   "value": "00.40"
+  },
+  {
+   "key": "case041.time.older",
+   "value": "23.47"
+  },
+  {
+   "key": "case041.time.young",
+   "value": "23.41"
+  },
+  {
+   "key": "case041.title",
+   "value": "File #041 — The Fundraiser"
+  },
+  {
+   "key": "case041.vega.body",
+   "value": "Council member."
+  },
+  {
+   "key": "case041.vega.deflect",
+   "value": "Ask my treasurer about campaign matters."
+  },
+  {
+   "key": "case041.vega.night.answer",
+   "value": "In the main hall, after my speech, photos with donors. A hundred people saw me. Tyler was my best kid. Gordon handles the donations; I never look at them, and I don’t need to."
+  },
+  {
+   "key": "case041.vega.night.answer.demeanor",
+   "value": "She touches her earring."
+  },
+  {
+   "key": "case041.vega.night.question",
+   "value": "Where were you after 23.30?"
+  },
+  {
+   "key": "case041.vega.title",
+   "value": "Dolores Vega — interview"
+  },
+  {
+   "key": "case041.verdict.accident",
+   "value": "No one — he fell in drunk"
+  },
+  {
+   "key": "case041.verdict.harlan",
+   "value": "Clint Harlan"
+  },
+  {
+   "key": "case041.verdict.pratt",
+   "value": "Gordon Pratt"
+  },
+  {
+   "key": "case041.verdict.vega",
+   "value": "Dolores Vega"
+  },
+  {
+   "key": "case041.item.glass.name",
+   "value": "Soda glass"
+  },
+  {
+   "key": "case041.item.glass.detail",
+   "value": "The victim’s last glass at the bar; soda with lemon, no alcohol."
+  },
+  {
+   "key": "case041.item.cufflink.name",
+   "value": "Cufflink"
+  },
+  {
+   "key": "case041.item.cufflink.detail",
+   "value": "A single cufflink recovered from the pool filter; red, white and blue enamel."
+  },
+  {
+   "key": "case041.item.ledger.name",
+   "value": "Donation breakdown"
+  },
+  {
+   "key": "case041.item.ledger.detail",
+   "value": "A spreadsheet printed from the victim’s laptop; twenty separate donors at the same address."
+  }
+ ]
+}
