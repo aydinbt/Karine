@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case038.antoine.body",
+   "value": "Shipping director."
+  },
+  {
+   "key": "case038.antoine.deflect",
+   "value": "Shipping information belongs to our clients."
+  },
+  {
+   "key": "case038.antoine.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case038.antoine.end.presented.search",
+   "value": "Forty years, and Auguste was going to end all of it with one Monday. Paris, Tokyo, Lakeshore. That woman used to tell us, ‘Goods don’t disappear, they change place.’ And I… I put the oil on the top pair, I took the pen from his pocket. I knew when he lifted the bowl he’d touch his lip. I messaged Chicago. You won’t find her."
+  },
+  {
+   "key": "case038.antoine.end.question",
+   "value": "The pen was in your bag."
+  },
+  {
+   "key": "case038.antoine.night.answer",
+   "value": "For a moment. To fetch a catalogue. When Auguste collapsed, I was the first to run for the pen; it wasn’t in his jacket. Maybe he left it at home."
+  },
+  {
+   "key": "case038.antoine.night.answer.demeanor",
+   "value": "He turns his ring with his thumb."
+  },
+  {
+   "key": "case038.antoine.night.question",
+   "value": "Were you in the back room before the sale?"
+  },
+  {
+   "key": "case038.antoine.night.variant0",
+   "value": "Monday? Auguste ‘closed’ something every month. I’ve been at his side for forty years."
+  },
+  {
+   "key": "case038.antoine.title",
+   "value": "Antoine Brassard — interview"
+  },
+  {
+   "key": "case038.autopsy.body",
+   "value": "· Anaphylactic shock; severe swelling of the throat and tongue.\n· Walnut oil residue on the fingertips of the right hand and at the corner of the lip.\n· Stomach empty; last meal four hours earlier. The allergen passed not through the mouth but from the glove to the lip."
+  },
+  {
+   "key": "case038.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case038.back.body",
+   "value": "The glove tray and the coat stand. 21 June 18.00 – 19.20."
+  },
+  {
+   "key": "case038.back.title",
+   "value": "BACK ROOM CAMERA — log transcript"
+  },
+  {
+   "key": "case038.cctv.event.coat",
+   "value": "Camera: The same man slips his hand into the pocket of a jacket hanging on the stand, then leaves."
+  },
+  {
+   "key": "case038.cctv.event.lay",
+   "value": "Camera: A young woman in a work jacket lays out pairs of white gloves on the tray and leaves."
+  },
+  {
+   "key": "case038.cctv.event.tray",
+   "value": "Camera: A tall man in a dark double-breasted suit is alone in the room; he leans over the glove tray, one hand inside his jacket."
+  },
+  {
+   "key": "case038.cctv.overlay",
+   "value": "SALLE-B"
+  },
+  {
+   "key": "case038.cctv.period",
+   "value": "21 June 2030"
+  },
+  {
+   "key": "case038.cctv.source",
+   "value": "Back room camera"
+  },
+  {
+   "key": "case038.celine.body",
+   "value": "The victim’s daughter."
+  },
+  {
+   "key": "case038.celine.deflect",
+   "value": "Speak to our lawyer about my father’s affairs."
+  },
+  {
+   "key": "case038.celine.title",
+   "value": "Céline Delorme — interview"
+  },
+  {
+   "key": "case038.celine.will.answer",
+   "value": "Not the house; his debts. Half the auction house is under water. I was in the front row throughout the sale; I never went into the back room. In the last week my father was always talking with Antoine behind closed doors; I heard shouting."
+  },
+  {
+   "key": "case038.celine.will.answer.demeanor",
+   "value": "She raises her chin; her voice is steady."
+  },
+  {
+   "key": "case038.celine.will.question",
+   "value": "Your father’s estate comes to you."
+  },
+  {
+   "key": "case038.clue.check",
+   "value": "The assistant checks the pen is in the jacket pocket."
+  },
+  {
+   "key": "case038.clue.coat",
+   "value": "The same man slips his hand into the pocket of the hanging jacket."
+  },
+  {
+   "key": "case038.clue.fall",
+   "value": "Delorme lifts the bowl, touches his lip, collapses."
+  },
+  {
+   "key": "case038.clue.lay",
+   "value": "The gloves are laid out on the tray."
+  },
+  {
+   "key": "case038.clue.msg",
+   "value": "Message to Chicago: ‘Paris is closed.’"
+  },
+  {
+   "key": "case038.clue.source.faure",
+   "value": "Auctioneer"
+  },
+  {
+   "key": "case038.clue.source.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.clue.source.search",
+   "value": "Search"
+  },
+  {
+   "key": "case038.clue.tray",
+   "value": "The tall man leans over the tray."
+  },
+  {
+   "key": "case038.custody.home",
+   "value": "The victim left it at home"
+  },
+  {
+   "key": "case038.custody.label",
+   "value": "Where did the adrenaline pen go?"
+  },
+  {
+   "key": "case038.custody.lost",
+   "value": "It fell and was lost in the commotion"
+  },
+  {
+   "key": "case038.custody.taken",
+   "value": "The killer took it from the jacket before the sale"
+  },
+  {
+   "key": "case038.epilogue.custody.home",
+   "value": "The assistant had seen the pen in the pocket at 17.30."
+  },
+  {
+   "key": "case038.epilogue.custody.lost",
+   "value": "The saleroom was searched, but the pen was elsewhere."
+  },
+  {
+   "key": "case038.epilogue.custody.taken",
+   "value": "It was recorded that the pen was taken from the jacket at 18.43 and found in the killer’s bag."
+  },
+  {
+   "key": "case038.epilogue.verdict.accident",
+   "value": "The death was deemed an unfortunate allergic attack; the Lakeshore shipment went on its way."
+  },
+  {
+   "key": "case038.epilogue.verdict.antoine",
+   "value": "Antoine Brassard was arrested. The Lakeshore manifests lead to a warehouse in Pilsen, Chicago; every provenance letter bears the signature of Dr E. Varga. The assignment was passed to the bube Chicago — Pilsen branch."
+  },
+  {
+   "key": "case038.epilogue.verdict.celine",
+   "value": "Céline Delorme was arrested; the Chicago number was never called."
+  },
+  {
+   "key": "case038.epilogue.verdict.lopes",
+   "value": "Carla Lopes was taken into custody; Brassard was on the Chicago flight the next morning."
+  },
+  {
+   "key": "case038.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case038.evidence.back",
+   "value": "Back room camera"
+  },
+  {
+   "key": "case038.evidence.glovelab",
+   "value": "Glove analysis"
+  },
+  {
+   "key": "case038.evidence.search",
+   "value": "Antoine Brassard’s bag and car — search"
+  },
+  {
+   "key": "case038.faure.body",
+   "value": "Auctioneer."
+  },
+  {
+   "key": "case038.faure.deflect",
+   "value": "I bring down the hammer; papers don’t concern me."
+  },
+  {
+   "key": "case038.faure.rostrum.answer",
+   "value": "Auguste lifted the bowl in his gloves and showed it to the room. He scratched his nose, touched his lip, an old habit. A minute later he couldn’t breathe. Antoine was the first to run; he said, ‘His pen’s in his jacket, I’ll get it,’ went to the back room and came back empty-handed."
+  },
+  {
+   "key": "case038.faure.rostrum.answer.demeanor",
+   "value": "He lowers his glasses from his head and pushes them back up."
+  },
+  {
+   "key": "case038.faure.rostrum.question",
+   "value": "What did you see from the rostrum?"
+  },
+  {
+   "key": "case038.faure.title",
+   "value": "Martin Faure — interview"
+  },
+  {
+   "key": "case038.feedback.accident",
+   "value": "The oil is only on the chairman’s right glove, on the inside; the other eleven pairs are clean. And the pen left his pocket."
+  },
+  {
+   "key": "case038.feedback.antoine",
+   "value": "The back room camera shows the man leaning over the tray at 18.41 and reaching into the hanging jacket’s pocket at 18.43; the oil is only on the chairman’s pair, on the inside. The pen and the walnut oil are in his bag; he was one of the two people who knew of the Monday appointment."
+  },
+  {
+   "key": "case038.feedback.celine",
+   "value": "The heir was in the front row and did not enter the back room; the estate is nothing but debt."
+  },
+  {
+   "key": "case038.feedback.lopes",
+   "value": "She laid out the gloves from a sealed packet; the oil was applied after they were laid out, at 18.41."
+  },
+  {
+   "key": "case038.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case038.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case038.file.value.location",
+   "value": "Paris 8th, auction saleroom"
+  },
+  {
+   "key": "case038.file.value.number",
+   "value": "BDP-PAR-2030-0163"
+  },
+  {
+   "key": "case038.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case038.file.value.reporter",
+   "value": "The auction house"
+  },
+  {
+   "key": "case038.glovelab.body",
+   "value": "The white cotton gloves taken from the victim’s hands:\n\n· Heavy walnut oil on three fingertips of the right glove; on the inside, not the outside. The oil was applied before the glove was put on.\n· Left glove clean.\n· The other eleven pairs on the tray clean. The oiled pair was at the top of the tray; by the auction house’s rule, the top pair belongs to the chairman."
+  },
+  {
+   "key": "case038.glovelab.title",
+   "value": "GLOVE ANALYSIS"
+  },
+  {
+   "key": "case038.lopes.body",
+   "value": "Art handling assistant."
+  },
+  {
+   "key": "case038.lopes.coat.answer",
+   "value": "In the back room, on the stand. Before a sale he goes out without his jacket, in his waistcoat. His pen was in the pocket; I checked at 17.30, I check before every sale."
+  },
+  {
+   "key": "case038.lopes.coat.question",
+   "value": "Where had he hung his jacket?"
+  },
+  {
+   "key": "case038.lopes.deflect",
+   "value": "I carry the works; I don’t know about the sales."
+  },
+  {
+   "key": "case038.lopes.title",
+   "value": "Carla Lopes — interview"
+  },
+  {
+   "key": "case038.lopes.tray.answer",
+   "value": "At 18.05, from a new, sealed packet. Mr Delorme’s pair is always on top; everyone knows that. I didn’t go into the room after that; I was setting out the works in the saleroom."
+  },
+  {
+   "key": "case038.lopes.tray.answer.demeanor",
+   "value": "She keeps touching the gloves in her breast pocket."
+  },
+  {
+   "key": "case038.lopes.tray.question",
+   "value": "Did you prepare the gloves?"
+  },
+  {
+   "key": "case038.method.bowl",
+   "value": "Oil was smeared on the bowl"
+  },
+  {
+   "key": "case038.method.food",
+   "value": "Peanuts were put in his food"
+  },
+  {
+   "key": "case038.method.glove",
+   "value": "Walnut oil was smeared inside the glove and the adrenaline pen taken"
+  },
+  {
+   "key": "case038.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case038.morel.body",
+   "value": "Family lawyer."
+  },
+  {
+   "key": "case038.morel.deflect",
+   "value": "My client’s affairs are covered by legal privilege."
+  },
+  {
+   "key": "case038.morel.monday.answer",
+   "value": "Auguste called me in. ‘I’m closing the shipping department; I’ll give all the Lakeshore files to bube,’ he said. There was a name: Varga. I asked who that was; he said, ‘Monday.’ Only Antoine and I knew this; Auguste told Antoine himself."
+  },
+  {
+   "key": "case038.morel.monday.answer.demeanor",
+   "value": "He takes off his glasses and wipes them."
+  },
+  {
+   "key": "case038.morel.monday.question",
+   "value": "You had an appointment on Monday."
+  },
+  {
+   "key": "case038.morel.title",
+   "value": "Vincent Morel — interview"
+  },
+  {
+   "key": "case038.offer.subtitle",
+   "value": "DELORME  /  CHAPTER FINALE"
+  },
+  {
+   "key": "case038.offer.summary",
+   "value": "At Maison Delorme’s annual auction, Auguste Delorme collapsed beside the rostrum. His adrenaline pen was not in his pocket."
+  },
+  {
+   "key": "case038.offer.title",
+   "value": "FILE #038"
+  },
+  {
+   "key": "case038.person.antoine.info",
+   "value": "57, Maison Delorme’s director of shipping and private sales (from File #036)."
+  },
+  {
+   "key": "case038.person.antoine.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.person.celine.info",
+   "value": "38, the victim’s daughter; deputy managing director of the auction house."
+  },
+  {
+   "key": "case038.person.celine.name",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.person.faure.info",
+   "value": "60, auctioneer; he held the hammer that night."
+  },
+  {
+   "key": "case038.person.faure.name",
+   "value": "Martin Faure"
+  },
+  {
+   "key": "case038.person.lopes.info",
+   "value": "29, art handling assistant; she prepares the gloves."
+  },
+  {
+   "key": "case038.person.lopes.name",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.person.morel.info",
+   "value": "52, the Delorme family’s lawyer."
+  },
+  {
+   "key": "case038.person.morel.name",
+   "value": "Vincent Morel"
+  },
+  {
+   "key": "case038.recon.r_bowl",
+   "value": "19.12: Delorme lifts the bowl and touches his lip; Brassard runs off saying ‘I’ll get the pen’ and comes back empty-handed."
+  },
+  {
+   "key": "case038.recon.r_check",
+   "value": "17.30: The assistant sees the pen in the jacket pocket; at 18.05 she lays out the gloves."
+  },
+  {
+   "key": "case038.recon.r_chicago",
+   "value": "19.30: Message to ‘E.V.’ in Chicago: ‘Paris is closed. The goods are on their way.’"
+  },
+  {
+   "key": "case038.recon.r_monday",
+   "value": "Delorme tells Brassard that on Monday he will give all the Lakeshore files to bube."
+  },
+  {
+   "key": "case038.recon.r_oil",
+   "value": "19 June: Brassard buys a bottle of walnut oil."
+  },
+  {
+   "key": "case038.recon.r_pen",
+   "value": "18.43: He takes the adrenaline pen from the hanging jacket."
+  },
+  {
+   "key": "case038.recon.r_tray",
+   "value": "18.41: Brassard is alone in the back room; he smears oil in the right glove of the top pair."
+  },
+  {
+   "key": "case038.report.body",
+   "value": "On the evening of 21 June 2030, at the Maison Delorme saleroom in Paris’s 8th arrondissement, at 19.12 during the sale, Auguste Delorme (71) collapsed beside the rostrum; he died on the way to hospital.\n\nHis severe peanut and walnut allergy was known to his family and staff. He always carried his adrenaline pen in his jacket’s inside pocket; the pen was not found.\n\nPresent in the back room and the saleroom: Céline Delorme, Antoine Brassard, the auctioneer Martin Faure, the assistant Carla Lopes, the lawyer Vincent Morel."
+  },
+  {
+   "key": "case038.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case038.request.glovelab",
+   "value": "Send the gloves for analysis"
+  },
+  {
+   "key": "case038.request.search",
+   "value": "Request a search warrant for Antoine Brassard’s briefcase and car"
+  },
+  {
+   "key": "case038.search.body",
+   "value": "With the branch chief’s approval:\n\n· In Antoine Brassard’s briefcase, an unused adrenaline pen; ‘A. Delorme’ on the prescription label.\n· In the same bag, a small bottle of walnut oil with a dropper; a restoration supplies invoice in Brassard’s name, 19 June.\n· In the car’s glovebox, Lakeshore Freight manifests: a warehouse address in Pilsen, Chicago; every shipment’s provenance letter signed ‘Dr E. Varga’.\n· On the phone, at 19.30, a message to a Chicago number saved as ‘E.V.’: ‘Paris is closed. The goods are on their way.’"
+  },
+  {
+   "key": "case038.search.title",
+   "value": "ANTOINE BRASSARD’S BRIEFCASE AND CAR — SEARCH"
+  },
+  {
+   "key": "case038.summary.evidence",
+   "value": "The autopsy showed the allergen passed through the glove, the glove analysis that the oil was only on the inside of that pair, and the back room camera the man at the tray and the jacket. The search, opened on two grounds, gave the pen, the oil and the manifests bound for Chicago."
+  },
+  {
+   "key": "case038.summary.lesson",
+   "value": "Every road in Paris met at one table. The goods changed place: Chicago."
+  },
+  {
+   "key": "case038.summary.location",
+   "value": "Paris — June 2030"
+  },
+  {
+   "key": "case038.summary.truth",
+   "value": "Antoine Brassard, Maison Delorme’s shipping director, learned that Auguste Delorme, his employer of forty years, would give all the Lakeshore files to bube on Monday. On the evening of the auction, in the back room, he smeared walnut oil inside the top pair of gloves reserved for the chairman and took the adrenaline pen from the hanging jacket. Delorme touched his lip while showing the bowl; Brassard pretended to run for the pen."
+  },
+  {
+   "key": "case038.suspect.label",
+   "value": "Who killed Auguste Delorme?"
+  },
+  {
+   "key": "case038.tablet.caseLine",
+   "value": "FILE #038  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case038.time.check",
+   "value": "17.30"
+  },
+  {
+   "key": "case038.time.coat",
+   "value": "18.43"
+  },
+  {
+   "key": "case038.time.fall",
+   "value": "19.12"
+  },
+  {
+   "key": "case038.time.lay",
+   "value": "18.05"
+  },
+  {
+   "key": "case038.time.msg",
+   "value": "19.30"
+  },
+  {
+   "key": "case038.time.tray",
+   "value": "18.41"
+  },
+  {
+   "key": "case038.title",
+   "value": "File #038 — Delorme"
+  },
+  {
+   "key": "case038.verdict.accident",
+   "value": "No one — there was an allergen in the room"
+  },
+  {
+   "key": "case038.verdict.antoine",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.verdict.celine",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.verdict.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.item.gloves.name",
+   "value": "White handling gloves"
+  },
+  {
+   "key": "case038.item.gloves.detail",
+   "value": "Cotton gloves taken from the victim’s hands; an oil stain on the fingertips of the right glove."
+  },
+  {
+   "key": "case038.item.pen.name",
+   "value": "Adrenaline pen"
+  },
+  {
+   "key": "case038.item.pen.detail",
+   "value": "An auto-injector found in the search; a prescription label bearing the victim’s name, unused."
+  },
+  {
+   "key": "case038.item.manifest.name",
+   "value": "Chicago manifest"
+  },
+  {
+   "key": "case038.item.manifest.detail",
+   "value": "A Lakeshore Freight shipping document; a warehouse address in Chicago and a provenance letter signed ‘Dr E. Varga’."
+  }
+ ]
+}

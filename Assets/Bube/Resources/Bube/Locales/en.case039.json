@@ -1,0 +1,636 @@
+{
+ "entries": [
+  {
+   "key": "case039.autopsy.body",
+   "value": "· A deep, straight-edged blow about 3 cm wide to the left side of the head; skull fracture. This wound shows a vital tissue reaction.\n· Very little bleeding in the crush injuries to the chest and legs; post-mortem.\n· Time of death: 01.50–02.10. The rack fell after death."
+  },
+  {
+   "key": "case039.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case039.carter.body",
+   "value": "Security guard."
+  },
+  {
+   "key": "case039.carter.cam.answer",
+   "value": "There’s one screen in the booth, sixteen cameras cycling. Around 02.00 I was watching the lorry at the gate. Everyone in the aisles wears the same vest; you can’t recognise anyone on the screen."
+  },
+  {
+   "key": "case039.carter.cam.answer.demeanor",
+   "value": "He strokes his beard with his palm."
+  },
+  {
+   "key": "case039.carter.cam.question",
+   "value": "Were you watching the cameras?"
+  },
+  {
+   "key": "case039.carter.deflect",
+   "value": "I watch the gate, not the boxes."
+  },
+  {
+   "key": "case039.carter.title",
+   "value": "Dwayne Carter — interview"
+  },
+  {
+   "key": "case039.cctv.event.drive",
+   "value": "Camera: Someone in a hi-vis vest drives a forklift into the aisle; the forks low, at the foot of the rack upright."
+  },
+  {
+   "key": "case039.cctv.event.fall",
+   "value": "Camera: The long rack tilts and topples, crates fall into the aisle; the forklift backs away."
+  },
+  {
+   "key": "case039.cctv.event.lying",
+   "value": "Camera: At the end of the aisle a forklift; beside it, someone in a hi-vis vest lying motionless on the floor."
+  },
+  {
+   "key": "case039.cctv.overlay",
+   "value": "AISLE-14"
+  },
+  {
+   "key": "case039.cctv.period",
+   "value": "12 July 2030"
+  },
+  {
+   "key": "case039.cctv.source",
+   "value": "Aisle camera"
+  },
+  {
+   "key": "case039.clue.call",
+   "value": "The shift supervisor reports the accident."
+  },
+  {
+   "key": "case039.clue.fall",
+   "value": "The rack topples; the forklift backs away."
+  },
+  {
+   "key": "case039.clue.login",
+   "value": "Forklift 3 is logged into with card SUP-01."
+  },
+  {
+   "key": "case039.clue.lying",
+   "value": "Someone lying motionless on the floor beside the forklift."
+  },
+  {
+   "key": "case039.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case039.clue.source.telematics",
+   "value": "Telematics"
+  },
+  {
+   "key": "case039.clue.source.texts",
+   "value": "Messages"
+  },
+  {
+   "key": "case039.clue.t1",
+   "value": "Luis writes to Novak: ‘Container 22.’"
+  },
+  {
+   "key": "case039.clue.t2",
+   "value": "Luis writes to Reyes: ‘He called me over to the container.’"
+  },
+  {
+   "key": "case039.custody.fatigue",
+   "value": "The bolts fatigued; it fell on its own"
+  },
+  {
+   "key": "case039.custody.hit",
+   "value": "The victim hit it with the forklift"
+  },
+  {
+   "key": "case039.custody.label",
+   "value": "How did the rack fall?"
+  },
+  {
+   "key": "case039.custody.staged",
+   "value": "It was toppled with a forklift after the death"
+  },
+  {
+   "key": "case039.dock.body",
+   "value": "Aisle 14. 12 July 01.30 – 02.30."
+  },
+  {
+   "key": "case039.dock.title",
+   "value": "AISLE 14 CAMERA — log transcript"
+  },
+  {
+   "key": "case039.epilogue.custody.fatigue",
+   "value": "The inspection report said the bolts had freshly snapped."
+  },
+  {
+   "key": "case039.epilogue.custody.hit",
+   "value": "The victim was dead by then; the forklift had been logged into with another card."
+  },
+  {
+   "key": "case039.epilogue.custody.staged",
+   "value": "It was recorded that the rack was toppled after the death, with a forklift’s forks."
+  },
+  {
+   "key": "case039.epilogue.verdict.accident",
+   "value": "The death was deemed a workplace accident; Lakeshore paid a fine."
+  },
+  {
+   "key": "case039.epilogue.verdict.hector",
+   "value": "Hector Ortega was arrested; container 22 left the next day."
+  },
+  {
+   "key": "case039.epilogue.verdict.kowalski",
+   "value": "Ray Kowalski was arrested. Container 22 was sealed: inside, fourteen crates from Maison Delorme, declared as ‘machine parts’. Lakeshore Freight’s lawyers were at the branch the next morning."
+  },
+  {
+   "key": "case039.epilogue.verdict.novak",
+   "value": "Teresa Novak was taken into custody; the union called a strike at the warehouse, and the file was closed."
+  },
+  {
+   "key": "case039.evidence.inspect",
+   "value": "Workplace safety inspection"
+  },
+  {
+   "key": "case039.evidence.monitor",
+   "value": "Electronic tag log"
+  },
+  {
+   "key": "case039.evidence.telematics",
+   "value": "Forklift telematics"
+  },
+  {
+   "key": "case039.evidence.texts",
+   "value": "The victim’s messages"
+  },
+  {
+   "key": "case039.feedback.accident",
+   "value": "The blow to the head was struck in life, the crush injuries after death; the bolts were snapped from the side."
+  },
+  {
+   "key": "case039.feedback.hector",
+   "value": "The brother had a debt, but the tag log shows him in Little Village all night."
+  },
+  {
+   "key": "case039.feedback.kowalski",
+   "value": "Luis’s last message says it was Ray who called him over to the container; the cell tower puts them both in the same place. After the death, at 02.09, the forklift was logged into with his card, and at 02.12 the rack was toppled with the forks."
+  },
+  {
+   "key": "case039.feedback.novak",
+   "value": "The union rep was at dock 7 at the time; she was the one Luis trusted."
+  },
+  {
+   "key": "case039.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case039.file.value.bureau",
+   "value": "BDS Chicago — Pilsen Branch"
+  },
+  {
+   "key": "case039.file.value.location",
+   "value": "Pilsen, Chicago — warehouse"
+  },
+  {
+   "key": "case039.file.value.number",
+   "value": "BDC-CHI-2030-0207"
+  },
+  {
+   "key": "case039.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case039.file.value.reporter",
+   "value": "Warehouse management"
+  },
+  {
+   "key": "case039.hector.body",
+   "value": "The victim’s older brother."
+  },
+  {
+   "key": "case039.hector.debt.answer",
+   "value": "Three thousand dollars. We fought, last week. But I wouldn’t kill my brother. I’ve got a tag on my ankle; I can’t leave the house after 22.00."
+  },
+  {
+   "key": "case039.hector.debt.answer.demeanor",
+   "value": "He covers the tattoo on his neck with his hand."
+  },
+  {
+   "key": "case039.hector.debt.question",
+   "value": "You owed your brother money."
+  },
+  {
+   "key": "case039.hector.deflect",
+   "value": "Talk to my parole officer."
+  },
+  {
+   "key": "case039.hector.title",
+   "value": "Hector Ortega — interview"
+  },
+  {
+   "key": "case039.inspect.body",
+   "value": "The rack in aisle 14:\n\n· Four anchor bolts snapped; the fracture surfaces bright and fresh, no sign of fatigue. The bolts were snapped by being pushed from the side, at floor level.\n· At the foot of the rack upright, two parallel forklift fork scrape marks; the paint is forklift 3’s yellow.\n· The rack’s load was under the limit. It could not have fallen on its own."
+  },
+  {
+   "key": "case039.inspect.title",
+   "value": "WORKPLACE SAFETY INSPECTION"
+  },
+  {
+   "key": "case039.kowalski.body",
+   "value": "Shift supervisor."
+  },
+  {
+   "key": "case039.kowalski.deflect",
+   "value": "Warehouse procedures are the company’s business; I run the shift."
+  },
+  {
+   "key": "case039.kowalski.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case039.kowalski.end.presented.telematics",
+   "value": "My card… He saw the crates; one phone call and it’s all over, the job’s over. We talked by the container, with the crowbar; he said ‘bube’. Then… I toppled the rack, with the forklift. So it would look like an accident."
+  },
+  {
+   "key": "case039.kowalski.end.presented.texts",
+   "value": "Luis’s messages. Everybody talks about everybody."
+  },
+  {
+   "key": "case039.kowalski.end.question",
+   "value": "You were driving forklift 3 at 02.11."
+  },
+  {
+   "key": "case039.kowalski.night.answer",
+   "value": "In the office, writing the shift report. I heard the noise and ran. Luis was tired, he hit the rack with the forklift, that’s all. I warned him how many times."
+  },
+  {
+   "key": "case039.kowalski.night.answer.demeanor",
+   "value": "He rubs the back of his neck."
+  },
+  {
+   "key": "case039.kowalski.night.question",
+   "value": "Where were you at the time of the incident?"
+  },
+  {
+   "key": "case039.kowalski.title",
+   "value": "Ray Kowalski — interview"
+  },
+  {
+   "key": "case039.lindqvist.body",
+   "value": "Inspector."
+  },
+  {
+   "key": "case039.lindqvist.deflect",
+   "value": "My inspection report goes out through official channels."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer",
+   "value": "I’ve been looking at racks for thirty years. This one didn’t fatigue; it was pushed over. Someone set a forklift’s forks against the foot of the upright and snapped the bolts from the side. Only someone who knows how to drive a forklift does that."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer.demeanor",
+   "value": "He pushes his glasses up his nose."
+  },
+  {
+   "key": "case039.lindqvist.rack.question",
+   "value": "Can a rack fall on its own?"
+  },
+  {
+   "key": "case039.lindqvist.title",
+   "value": "Pete Lindqvist — interview"
+  },
+  {
+   "key": "case039.line_ops.body",
+   "value": "A line has been opened for the operations records of Lakeshore Freight’s Pilsen warehouse: forklift telematics, shift roster."
+  },
+  {
+   "key": "case039.line_ops.title",
+   "value": "LINE A — WAREHOUSE OPERATIONS"
+  },
+  {
+   "key": "case039.line_parole.body",
+   "value": "A line has been opened for Hector Ortega’s parole file."
+  },
+  {
+   "key": "case039.line_parole.title",
+   "value": "LINE C — PAROLE RECORDS"
+  },
+  {
+   "key": "case039.line_phone.body",
+   "value": "A line has been opened for the phone records of the victim and those on shift."
+  },
+  {
+   "key": "case039.line_phone.title",
+   "value": "LINE B — PHONE RECORDS"
+  },
+  {
+   "key": "case039.method.bar",
+   "value": "Struck on the head with a crowbar; the rack toppled afterwards"
+  },
+  {
+   "key": "case039.method.crush",
+   "value": "The rack toppled onto him"
+  },
+  {
+   "key": "case039.method.forklift",
+   "value": "Hit by a forklift"
+  },
+  {
+   "key": "case039.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case039.monitor.body",
+   "value": "Hector Ortega, 11–12 July: at home in Little Village from 21.48 to 07.10. No signal interruption."
+  },
+  {
+   "key": "case039.monitor.title",
+   "value": "ELECTRONIC TAG LOG"
+  },
+  {
+   "key": "case039.novak.body",
+   "value": "Union rep."
+  },
+  {
+   "key": "case039.novak.deflect",
+   "value": "Our union members’ files are confidential."
+  },
+  {
+   "key": "case039.novak.msg.answer",
+   "value": "He messaged at 01.31 in the night. He was coming to the union in the morning; he asked me to arrange a lawyer. I was at dock 7, unloading a lorry; I heard the noise and ran."
+  },
+  {
+   "key": "case039.novak.msg.answer.demeanor",
+   "value": "She flicks her plait back over her shoulder."
+  },
+  {
+   "key": "case039.novak.msg.question",
+   "value": "Did Luis tell you anything?"
+  },
+  {
+   "key": "case039.novak.title",
+   "value": "Teresa Novak — interview"
+  },
+  {
+   "key": "case039.offer.subtitle",
+   "value": "THE WAREHOUSE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case039.offer.summary",
+   "value": "At the Lakeshore Freight warehouse in Pilsen, a forklift operator lies dead under a toppled rack. A workplace accident, everyone says."
+  },
+  {
+   "key": "case039.offer.title",
+   "value": "FILE #039"
+  },
+  {
+   "key": "case039.person.carter.info",
+   "value": "47, the warehouse’s night security guard."
+  },
+  {
+   "key": "case039.person.carter.name",
+   "value": "Dwayne Carter"
+  },
+  {
+   "key": "case039.person.hector.info",
+   "value": "35, the victim’s older brother; on parole."
+  },
+  {
+   "key": "case039.person.hector.name",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.person.kowalski.info",
+   "value": "54, night shift supervisor at Lakeshore Freight’s Pilsen warehouse."
+  },
+  {
+   "key": "case039.person.kowalski.name",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.person.lindqvist.info",
+   "value": "62, the city’s workplace safety inspector."
+  },
+  {
+   "key": "case039.person.lindqvist.name",
+   "value": "Pete Lindqvist"
+  },
+  {
+   "key": "case039.person.novak.info",
+   "value": "50, union rep; forklift operator."
+  },
+  {
+   "key": "case039.person.novak.name",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.person.reyes.info",
+   "value": "31, inventory clerk at the warehouse; the victim’s girlfriend."
+  },
+  {
+   "key": "case039.person.reyes.name",
+   "value": "Marisol Reyes"
+  },
+  {
+   "key": "case039.report.body",
+   "value": "On the night of 12 July 2030, at the Lakeshore Freight warehouse in Pilsen, Chicago, forklift operator Luis Ortega (29) was found dead under a pallet rack that toppled in aisle 14.\n\nThe shift supervisor reported it at 02.20 as a workplace accident. In the warehouse on the night shift: shift supervisor Ray Kowalski, inventory clerk Marisol Reyes, security guard Dwayne Carter, union rep Teresa Novak. City workplace safety inspector Pete Lindqvist arrived in the morning."
+  },
+  {
+   "key": "case039.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case039.request.inspect",
+   "value": "Request the city’s workplace safety inspection report"
+  },
+  {
+   "key": "case039.request.line_ops",
+   "value": "Open the warehouse operations line"
+  },
+  {
+   "key": "case039.request.line_parole",
+   "value": "Open the parole line"
+  },
+  {
+   "key": "case039.request.line_phone",
+   "value": "Open the phone records line"
+  },
+  {
+   "key": "case039.request.monitor",
+   "value": "Request the electronic tag log"
+  },
+  {
+   "key": "case039.request.roster",
+   "value": "Request the shift roster"
+  },
+  {
+   "key": "case039.request.telematics",
+   "value": "Request the forklift telematics"
+  },
+  {
+   "key": "case039.request.texts",
+   "value": "Request the victim’s messages"
+  },
+  {
+   "key": "case039.request.tower",
+   "value": "Request the cell tower log"
+  },
+  {
+   "key": "case039.reyes.body",
+   "value": "Inventory clerk."
+  },
+  {
+   "key": "case039.reyes.deflect",
+   "value": "Shipping lists come to me; I don’t know beyond that."
+  },
+  {
+   "key": "case039.reyes.labels.answer",
+   "value": "The crates. The ones from Paris. They were sticking ‘machine parts’ labels on them, with auction numbers underneath. They’re listed as machine parts in my inventory too. Luis said, ‘I’m going to tell someone about this.’"
+  },
+  {
+   "key": "case039.reyes.labels.answer.demeanor",
+   "value": "She folds her arms across her chest and lifts her chin."
+  },
+  {
+   "key": "case039.reyes.labels.question",
+   "value": "What was Luis talking about these last days?"
+  },
+  {
+   "key": "case039.reyes.night.answer",
+   "value": "On the 01.30 break. He was typing something on his phone. Then I went back to the office, to the inventory count."
+  },
+  {
+   "key": "case039.reyes.night.question",
+   "value": "When did you last see him that night?"
+  },
+  {
+   "key": "case039.reyes.title",
+   "value": "Marisol Reyes — interview"
+  },
+  {
+   "key": "case039.roster.body",
+   "value": "Night shift, 12 July:\n\n· Luis Ortega — dock 4, forklift 3\n· Teresa Novak — dock 7\n· Marisol Reyes — inventory office\n· Ray Kowalski — shift supervisor; note: ‘special shipment, container 22’\n\nContainer 22: sender Maison Delorme, Paris. Declared as: machine parts."
+  },
+  {
+   "key": "case039.roster.title",
+   "value": "SHIFT ROSTER"
+  },
+  {
+   "key": "case039.summary.evidence",
+   "value": "The autopsy showed the blow to the head was struck in life and the crushing came after death; the inspection showed the bolts were snapped by pushing. The operations line gave the card in the forklift, the phone line the last messages. The parole line only cleared the brother."
+  },
+  {
+   "key": "case039.summary.lesson",
+   "value": "You can open two lines. Before you open one, think about which will change the answer."
+  },
+  {
+   "key": "case039.summary.location",
+   "value": "Pilsen — July 2030"
+  },
+  {
+   "key": "case039.summary.truth",
+   "value": "Shift supervisor Ray Kowalski was relabelling the auction crates from Paris as ‘machine parts’. When forklift operator Luis Ortega took photos and wrote that he would go to the union, Kowalski called him over to the container and killed him with a crowbar. Twenty minutes later he got into the forklift with his own card, snapped the rack’s bolts with the forks and toppled the rack onto the body."
+  },
+  {
+   "key": "case039.suspect.label",
+   "value": "Who killed Luis Ortega?"
+  },
+  {
+   "key": "case039.tablet.caseLine",
+   "value": "FILE #039  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case039.telematics.body",
+   "value": "Card and sensor log of forklift 3:\n\n· 01.12–01.48 on Luis Ortega’s card, at dock 4.\n· 02.09 logged in: SUP-01 — Ray Kowalski.\n· 02.11 fork height 6 cm, forward pressure; 02.12 sudden loss of load.\n· 02.13 logged out; the forklift reverses out of aisle 14."
+  },
+  {
+   "key": "case039.telematics.title",
+   "value": "FORKLIFT TELEMATICS — NO. 3"
+  },
+  {
+   "key": "case039.texts.body",
+   "value": "· 01.31 → Teresa Novak: ‘Ray is changing the labels on the Paris crates. Container 22. I took photos. Coming to the union in the morning, I need a lawyer.’\n· 01.44 → Marisol Reyes: ‘Ray called me over to the container. If anything happens, the photos are in the cloud.’\n· The photos in the cloud: double-labelled crates; one with a Paris auction lot number."
+  },
+  {
+   "key": "case039.texts.title",
+   "value": "LUIS ORTEGA’S MESSAGES"
+  },
+  {
+   "key": "case039.time.call",
+   "value": "02.20"
+  },
+  {
+   "key": "case039.time.drive",
+   "value": "02.11"
+  },
+  {
+   "key": "case039.time.fall",
+   "value": "02.12"
+  },
+  {
+   "key": "case039.time.login",
+   "value": "02.09"
+  },
+  {
+   "key": "case039.time.lying",
+   "value": "02.02"
+  },
+  {
+   "key": "case039.time.t1",
+   "value": "01.31"
+  },
+  {
+   "key": "case039.time.t2",
+   "value": "01.44"
+  },
+  {
+   "key": "case039.title",
+   "value": "File #039 — The Warehouse"
+  },
+  {
+   "key": "case039.tower.body",
+   "value": "Indoor warehouse cell, 01.40–02.20:\n\n· Luis Ortega’s phone stationary after 01.46; container unloading area.\n· Ray Kowalski’s phone in the unloading area 01.45–01.58, in the office after 02.05."
+  },
+  {
+   "key": "case039.tower.title",
+   "value": "CELL TOWER LOG"
+  },
+  {
+   "key": "case039.verdict.accident",
+   "value": "No one — a workplace accident"
+  },
+  {
+   "key": "case039.verdict.hector",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.verdict.kowalski",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.verdict.novak",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.item.bolts.name",
+   "value": "Snapped anchor bolts"
+  },
+  {
+   "key": "case039.item.bolts.detail",
+   "value": "The four bolts fixing the rack to the floor; the fracture surfaces bright, freshly snapped."
+  },
+  {
+   "key": "case039.item.bar.name",
+   "value": "Crowbar"
+  },
+  {
+   "key": "case039.item.bar.detail",
+   "value": "On the tool board in the container unloading area; a dark stain on its tip that someone tried to clean."
+  },
+  {
+   "key": "case039.item.labels.name",
+   "value": "Double-labelled crate"
+  },
+  {
+   "key": "case039.item.labels.detail",
+   "value": "On a crate, an old auction lot label showing beneath the ‘machine parts’ label."
+  }
+ ]
+}
