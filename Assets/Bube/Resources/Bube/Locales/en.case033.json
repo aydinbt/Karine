@@ -1,0 +1,472 @@
+{
+ "entries": [
+  {
+   "key": "case033.backdoor.body",
+   "value": "Covers the courtyard and the back door. 16 May 04.30 – 05.30."
+  },
+  {
+   "key": "case033.backdoor.title",
+   "value": "BAKERY BACK DOOR CAMERA — log transcript"
+  },
+  {
+   "key": "case033.cctv.event.hand",
+   "value": "Camera: The woman hands the bag to the young man in whites at the door, pointing at the bag and saying something."
+  },
+  {
+   "key": "case033.cctv.event.leave",
+   "value": "Camera: The woman returns to the van alone, wiping her hands with a paper tissue."
+  },
+  {
+   "key": "case033.cctv.event.van",
+   "value": "Camera: A woman in a dark jacket gets out of a small van, carrying a brown paper flour bag against her hip."
+  },
+  {
+   "key": "case033.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case033.cctv.period",
+   "value": "16 May 2030"
+  },
+  {
+   "key": "case033.cctv.source",
+   "value": "Back door camera"
+  },
+  {
+   "key": "case033.clue.collapse",
+   "value": "The baker collapses beside the counter."
+  },
+  {
+   "key": "case033.clue.form",
+   "value": "Order form: a single gluten-free loaf, ‘Table 1: A. Delorme’, flour supplied by the client."
+  },
+  {
+   "key": "case033.clue.hand",
+   "value": "The woman hands the bag to the young man at the door."
+  },
+  {
+   "key": "case033.clue.source.order",
+   "value": "Order form"
+  },
+  {
+   "key": "case033.clue.source.rayan",
+   "value": "Apprentice"
+  },
+  {
+   "key": "case033.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case033.clue.taste",
+   "value": "Out of habit, the baker tastes the special loaf first."
+  },
+  {
+   "key": "case033.clue.van",
+   "value": "The woman in the dark jacket gets out of the van with a paper bag."
+  },
+  {
+   "key": "case033.custody.delorme",
+   "value": "Auguste Delorme — the owner of the auction house"
+  },
+  {
+   "key": "case033.custody.didier",
+   "value": "Didier Fontaine — the baker himself"
+  },
+  {
+   "key": "case033.custody.label",
+   "value": "Who was the poison prepared for?"
+  },
+  {
+   "key": "case033.custody.random",
+   "value": "At random — one of the auction guests"
+  },
+  {
+   "key": "case033.epilogue.custody.delorme",
+   "value": "It was recorded that the poison was meant not for the baker but for Auguste Delorme at the auction dinner."
+  },
+  {
+   "key": "case033.epilogue.custody.didier",
+   "value": "The baker was taken to be the target; no one asked who the loaf was going to."
+  },
+  {
+   "key": "case033.epilogue.custody.random",
+   "value": "The poison was thought to be an indiscriminate attack; the single loaf was disregarded."
+  },
+  {
+   "key": "case033.epilogue.verdict.garnier",
+   "value": "Sophie Garnier was arrested. Auguste Delorme was offered protection and declined. The unregistered number stayed open at the branch with the note ‘Maison Delorme shipping department’."
+  },
+  {
+   "key": "case033.epilogue.verdict.nadine",
+   "value": "Nadine Fontaine was charged; the bakery closed."
+  },
+  {
+   "key": "case033.epilogue.verdict.rayan",
+   "value": "Rayan Haddad was arrested; the order form and the flour bag never entered the file."
+  },
+  {
+   "key": "case033.evidence.flour",
+   "value": "Flour bag analysis"
+  },
+  {
+   "key": "case033.evidence.order",
+   "value": "Order form"
+  },
+  {
+   "key": "case033.evidence.tox",
+   "value": "Toxicology"
+  },
+  {
+   "key": "case033.evidence.van",
+   "value": "Catering van search"
+  },
+  {
+   "key": "case033.feedback.garnier",
+   "value": "The aconitine is only in the bag she brought, added afterwards; her van holds an empty second bag, the cash and the ‘Table 1 only’ message. The camera shows she was the one who handed the bag over at the door."
+  },
+  {
+   "key": "case033.feedback.nadine",
+   "value": "His wife was left with the debts and no insurance; the loaf and the flour never passed through her hands."
+  },
+  {
+   "key": "case033.feedback.rayan",
+   "value": "The apprentice opened the bag and made the dough, but the flour was handed to him; the poison came in the bag, the bakery’s own flours are clean."
+  },
+  {
+   "key": "case033.file.caseType",
+   "value": "POISONING"
+  },
+  {
+   "key": "case033.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case033.file.value.location",
+   "value": "Paris 20th arrondissement, Belleville — bakery"
+  },
+  {
+   "key": "case033.file.value.number",
+   "value": "BDP-PAR-2030-0118"
+  },
+  {
+   "key": "case033.file.value.offence",
+   "value": "Poisoning"
+  },
+  {
+   "key": "case033.file.value.reporter",
+   "value": "Apprentice"
+  },
+  {
+   "key": "case033.flour.body",
+   "value": "The kraft bag Garnier brought:\n· A gluten-free flour blend (rice, buckwheat) containing finely ground dried monkshood root: aconitine.\n· The powder is not uniform; the root powder is concentrated in the top of the bag. The mixture was added after the bag was filled.\n· Fingerprints on the outside of the bag: Rayan Haddad (expected) and Sophie Garnier."
+  },
+  {
+   "key": "case033.flour.title",
+   "value": "FLOUR BAG ANALYSIS"
+  },
+  {
+   "key": "case033.garnier.body",
+   "value": "Catering coordinator."
+  },
+  {
+   "key": "case033.garnier.deflect",
+   "value": "Client information is confidential."
+  },
+  {
+   "key": "case033.garnier.flour.answer",
+   "value": "A gentleman from the auction house brought it; he said, ‘Mr Delorme’s own trusted flour, his allergy is very severe.’ I only carried it. I didn’t even open the packet."
+  },
+  {
+   "key": "case033.garnier.flour.answer.demeanor",
+   "value": "She holds the strap of her bag with both hands."
+  },
+  {
+   "key": "case033.garnier.flour.question",
+   "value": "Where did you get the flour?"
+  },
+  {
+   "key": "case033.garnier.title",
+   "value": "Sophie Garnier — interview"
+  },
+  {
+   "key": "case033.garnier_2.body",
+   "value": "On the records."
+  },
+  {
+   "key": "case033.garnier_2.title",
+   "value": "Sophie Garnier — second interview"
+  },
+  {
+   "key": "case033.garnier_2.who.answer",
+   "value": "No."
+  },
+  {
+   "key": "case033.garnier_2.who.presented.flour",
+   "value": "Of course my prints will be on it, I carried it. The gentleman who brought it…"
+  },
+  {
+   "key": "case033.garnier_2.who.presented.van",
+   "value": "Five thousand euros. The firm was going under. The man said, ‘Delorme is old, his heart is weak anyway, no one will ask.’ He gave me the powder himself; I mixed it into the bag, in the van. I didn’t know the baker would taste it; if I’d known… I didn’t ask his name. He said he was from the auction house’s shipping department, gave no business card; tall, a ring on his left hand."
+  },
+  {
+   "key": "case033.garnier_2.who.question",
+   "value": "You added the root powder to the bag."
+  },
+  {
+   "key": "case033.method.aconite",
+   "value": "Monkshood root (aconitine) mixed into the gluten-free flour"
+  },
+  {
+   "key": "case033.method.coffee",
+   "value": "Something was put in his coffee"
+  },
+  {
+   "key": "case033.method.heart",
+   "value": "A spontaneous heart rhythm disorder"
+  },
+  {
+   "key": "case033.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case033.nadine.body",
+   "value": "The victim’s wife."
+  },
+  {
+   "key": "case033.nadine.deflect",
+   "value": "The bakery’s accounts are my business."
+  },
+  {
+   "key": "case033.nadine.enemy.answer",
+   "value": "Didier? He gave credit to half the neighbourhood. We have debts, yes, we have no insurance, yes; his death has left me nothing but debt. No one would want to kill Didier."
+  },
+  {
+   "key": "case033.nadine.enemy.answer.demeanor",
+   "value": "She knots and unknots her apron string."
+  },
+  {
+   "key": "case033.nadine.enemy.question",
+   "value": "Did Didier have enemies?"
+  },
+  {
+   "key": "case033.nadine.order.answer",
+   "value": "Ms Garnier’s firm. An auction house dinner; bread for a hundred people, plus a single gluten-free loaf. It’s written on the order form."
+  },
+  {
+   "key": "case033.nadine.order.question",
+   "value": "What was that special order?"
+  },
+  {
+   "key": "case033.nadine.title",
+   "value": "Nadine Fontaine — interview"
+  },
+  {
+   "key": "case033.offer.subtitle",
+   "value": "BREAD  /  POISONING"
+  },
+  {
+   "key": "case033.offer.summary",
+   "value": "In Belleville, a baker dies at four in the morning, poisoned by a loaf he tasted. Everyone in the neighbourhood loved him."
+  },
+  {
+   "key": "case033.offer.title",
+   "value": "FILE #033"
+  },
+  {
+   "key": "case033.order.body",
+   "value": "Form sent to the bakery by the catering firm, 15 May:\n\n· 120 small country loaves — Maison Delorme, post-auction dinner, 16 May.\n· 1 gluten-free loaf, to be packed SEPARATELY — ‘Table 1: M. Auguste Delorme (coeliac). Flour to be supplied by the client.’\n\nSigned by: Sophie Garnier, coordinator."
+  },
+  {
+   "key": "case033.order.title",
+   "value": "ORDER FORM"
+  },
+  {
+   "key": "case033.person.garnier.info",
+   "value": "41, coordinator at a catering firm; places special orders with the bakery."
+  },
+  {
+   "key": "case033.person.garnier.name",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.person.nadine.info",
+   "value": "55, the bakery’s co-owner; the victim’s wife."
+  },
+  {
+   "key": "case033.person.nadine.name",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.person.rayan.info",
+   "value": "22, the bakery’s apprentice; he prepares the dough on the night shift."
+  },
+  {
+   "key": "case033.person.rayan.name",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.rayan.body",
+   "value": "Apprentice."
+  },
+  {
+   "key": "case033.rayan.deflect",
+   "value": "My master taught me, I do it."
+  },
+  {
+   "key": "case033.rayan.flour.answer",
+   "value": "It isn’t ours. The lady from the catering firm brought it at five in the morning and handed it to me at the door: ‘The client’s own flour, severe allergy, don’t use any other flour.’ I made the dough with that flour, my master put it in the oven."
+  },
+  {
+   "key": "case033.rayan.flour.question",
+   "value": "Where did you get the gluten-free flour?"
+  },
+  {
+   "key": "case033.rayan.flour.variant0",
+   "value": "The flour? …I opened that bag. Nothing happened to my hands, I wear gloves. The lady gave it to me at five, I kneaded it. Don’t look at me as if it were my fault."
+  },
+  {
+   "key": "case033.rayan.quote",
+   "value": "“It goes in my mouth before it goes in the customer’s.”"
+  },
+  {
+   "key": "case033.rayan.taste.answer",
+   "value": "He tastes every special loaf. Forty years’ habit. ‘It goes in my mouth before it goes in the customer’s,’ he used to say. Gluten-free ones burn easily, so he cut that loaf first."
+  },
+  {
+   "key": "case033.rayan.taste.answer.demeanor",
+   "value": "He squeezes his cap in both hands."
+  },
+  {
+   "key": "case033.rayan.taste.question",
+   "value": "Why did the master taste that loaf?"
+  },
+  {
+   "key": "case033.rayan.title",
+   "value": "Rayan Haddad — interview"
+  },
+  {
+   "key": "case033.report.body",
+   "value": "On 16 May 2030 at 04.25, in a bakery in Belleville, baker Didier Fontaine (58) collapsed beside the counter. The apprentice Rayan Haddad made an emergency call; Didier died on the way.\n\nOn the counter, a small gluten-free loaf with one slice cut and bitten. Before death: vomiting, numbness in the arms, an irregular pulse.\n\nOvernight the bakery was preparing special orders: a catering firm’s 11.00 delivery."
+  },
+  {
+   "key": "case033.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case033.request.flour",
+   "value": "Send the flour bag for analysis"
+  },
+  {
+   "key": "case033.request.order",
+   "value": "Request the order form"
+  },
+  {
+   "key": "case033.request.van",
+   "value": "Request permission to search the catering van"
+  },
+  {
+   "key": "case033.summary.evidence",
+   "value": "Toxicology found the poison in the loaf; the order form showed who the loaf was going to, the camera who brought the bag, and the analysis that the powder was added afterwards. The van search, opened on two grounds, gave the cash, the second bag and the messages."
+  },
+  {
+   "key": "case033.summary.lesson",
+   "value": "The person who died may not be the target. First ask who the poison was going to, then whose hands it passed through on the way."
+  },
+  {
+   "key": "case033.summary.location",
+   "value": "Belleville — May 2030"
+  },
+  {
+   "key": "case033.summary.truth",
+   "value": "After Mercier’s arrest, someone afraid that the auction house’s owner Auguste Delorme would talk gave Sophie Garnier, the indebted catering coordinator, five thousand euros and a pouch of monkshood root powder. Garnier mixed the powder into the bag she brought to the bakery as Delorme’s ‘own gluten-free flour’. Baker Didier Fontaine, in his habit of tasting every special loaf before the client, ate the first slice of that loaf and died."
+  },
+  {
+   "key": "case033.suspect.label",
+   "value": "Who prepared the poison?"
+  },
+  {
+   "key": "case033.tablet.caseLine",
+   "value": "FILE #033  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case033.time.collapse",
+   "value": "04.25"
+  },
+  {
+   "key": "case033.time.form",
+   "value": "15 May"
+  },
+  {
+   "key": "case033.time.hand",
+   "value": "05.10"
+  },
+  {
+   "key": "case033.time.leave",
+   "value": "05.11"
+  },
+  {
+   "key": "case033.time.taste",
+   "value": "04.20"
+  },
+  {
+   "key": "case033.time.van",
+   "value": "05.08"
+  },
+  {
+   "key": "case033.title",
+   "value": "File #033 — Bread"
+  },
+  {
+   "key": "case033.tox.body",
+   "value": "· Aconitine (from the monkshood plant) in the blood and stomach contents. It disrupts the heart rhythm; effect within minutes.\n· Stomach: only a few mouthfuls of bread and coffee.\n· The rest of the loaf: aconitine, high concentration; mixed through the whole dough.\n· The bakery’s other doughs and flours: clean."
+  },
+  {
+   "key": "case033.tox.title",
+   "value": "TOXICOLOGY"
+  },
+  {
+   "key": "case033.van.body",
+   "value": "The firm’s van used by Sophie Garnier (with the branch chief’s approval):\n\n· In the glovebox, a white envelope holding €5,000 in cash.\n· In the door pocket, another folded kraft bag of the same type, empty; aconitine powder at the bottom.\n· On her phone, 14 May, a message from an unregistered number: ‘The bag tomorrow morning. Table 1 only. The rest clean.’\n· From the same number, 12 May: ‘After Mercier, Delorme will talk. Before he does.’"
+  },
+  {
+   "key": "case033.van.title",
+   "value": "CATERING VAN SEARCH"
+  },
+  {
+   "key": "case033.verdict.garnier",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.verdict.nadine",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.verdict.rayan",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.item.flour.name",
+   "value": "Paper flour bag"
+  },
+  {
+   "key": "case033.item.flour.detail",
+   "value": "A kraft paper bag brought as ‘the client’s own flour’; its top folded over, a yellowish powder inside."
+  },
+  {
+   "key": "case033.item.loaf.name",
+   "value": "Half loaf"
+  },
+  {
+   "key": "case033.item.loaf.detail",
+   "value": "On the counter, a small round gluten-free loaf with one slice cut."
+  },
+  {
+   "key": "case033.item.envelope.name",
+   "value": "Cash envelope"
+  },
+  {
+   "key": "case033.item.envelope.detail",
+   "value": "A white envelope holding €5,000, in the glovebox of the catering coordinator’s car."
+  }
+ ]
+}

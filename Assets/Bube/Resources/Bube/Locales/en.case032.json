@@ -1,0 +1,556 @@
+{
+ "entries": [
+  {
+   "key": "case032.autopsy.body",
+   "value": "· Two blows to the back left of the head with a heavy, angular object. Traces of green-brown metal oxide (bronze patina) in the wound.\n· No defence wounds; she had her back turned.\n· Time of death: 12 May 21.00–22.30."
+  },
+  {
+   "key": "case032.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case032.bastien.body",
+   "value": "Night watchman."
+  },
+  {
+   "key": "case032.bastien.deflect",
+   "value": "I look after the door."
+  },
+  {
+   "key": "case032.bastien.round.answer",
+   "value": "21.30, basement round. Ms Benali’s card wasn’t on the card board, I made a note: ‘taken home’. 22.00, second round: the card was in its place. In between, upstairs, the light was on in Mr Mercier’s office; he works late."
+  },
+  {
+   "key": "case032.bastien.round.answer.demeanor",
+   "value": "He rests his logbook on his knee."
+  },
+  {
+   "key": "case032.bastien.round.question",
+   "value": "How did your round go that night?"
+  },
+  {
+   "key": "case032.bastien.title",
+   "value": "Bastien Morel — interview"
+  },
+  {
+   "key": "case032.benali.body",
+   "value": "Art handler."
+  },
+  {
+   "key": "case032.benali.card.answer",
+   "value": "I left at 19.00. My card stays hanging on the board, everyone’s does; we’re not allowed to take them home. Everyone knows that. For you to ask me this…"
+  },
+  {
+   "key": "case032.benali.card.answer.demeanor",
+   "value": "She takes her gloves out of her pocket and pushes them back in."
+  },
+  {
+   "key": "case032.benali.card.question",
+   "value": "Your card opened the vault at 21.38."
+  },
+  {
+   "key": "case032.benali.card.variant0",
+   "value": "The watchman said so too? That night my card’s spot on the board was empty, in the morning it was back. After 19.00 I was on the métro; I went to my sister’s café in Belleville, it has a camera."
+  },
+  {
+   "key": "case032.benali.deflect",
+   "value": "I carry boxes, I don’t know what’s inside."
+  },
+  {
+   "key": "case032.benali.title",
+   "value": "Inès Benali — interview"
+  },
+  {
+   "key": "case032.board.body",
+   "value": "Bastien Morel’s round log, 12 May:\n· 21.30 · basement — ‘Board: Benali card missing.’\n· 22.00 · basement — ‘Board: complete.’\n· 22.05 · 3rd floor — ‘Julien Mercier’s office light on, door closed.’\n\nThe board is beside the vault door, unlocked. Fingerprints around the empty hook: Inès Benali’s (expected) and one smudged, unidentified print."
+  },
+  {
+   "key": "case032.board.title",
+   "value": "WATCHMAN’S ROUND LOG AND BOARD"
+  },
+  {
+   "key": "case032.cctv.event.in",
+   "value": "Camera: A figure in a grey handler’s coat, collar turned up, walks to the vault door and swipes a card; nothing in their hands."
+  },
+  {
+   "key": "case032.cctv.event.open",
+   "value": "Camera: The vault door ajar, a thin light from inside; the corridor empty."
+  },
+  {
+   "key": "case032.cctv.event.out",
+   "value": "Camera: The same figure leaves the vault quickly, a small wooden box pressed to the chest, face turned away from the camera."
+  },
+  {
+   "key": "case032.cctv.overlay",
+   "value": "B-02"
+  },
+  {
+   "key": "case032.cctv.period",
+   "value": "12 May 2030"
+  },
+  {
+   "key": "case032.cctv.source",
+   "value": "Basement camera"
+  },
+  {
+   "key": "case032.clue.back",
+   "value": "The card is back on the board; an office light is on upstairs."
+  },
+  {
+   "key": "case032.clue.in",
+   "value": "The figure in the grey coat swipes a card at the vault."
+  },
+  {
+   "key": "case032.clue.lamp",
+   "value": "Watchman: the handler’s card is not on the board."
+  },
+  {
+   "key": "case032.clue.msg",
+   "value": "Mathilde: ‘Lot 47 is from Kamakura. I’ll ask Mercier.’"
+  },
+  {
+   "key": "case032.clue.out",
+   "value": "The figure leaves the vault with a small box."
+  },
+  {
+   "key": "case032.clue.source.board",
+   "value": "Round log"
+  },
+  {
+   "key": "case032.clue.source.hugo",
+   "value": "Her partner"
+  },
+  {
+   "key": "case032.colette.body",
+   "value": "Provenance archivist."
+  },
+  {
+   "key": "case032.colette.deflect",
+   "value": "Archive records belong to the auction house."
+  },
+  {
+   "key": "case032.colette.letter.answer",
+   "value": "Mr Mercier brought it, I filed it: ‘Collection of a Viennese diplomat, 1998, expert opinion Dr E. Varga.’ Nine letters signed Varga have come in over the last ten years; all from the Asian department, all by Mr Mercier’s hand."
+  },
+  {
+   "key": "case032.colette.letter.answer.demeanor",
+   "value": "She holds her glasses by their chain and twirls them."
+  },
+  {
+   "key": "case032.colette.letter.question",
+   "value": "Is Lot 47’s provenance letter in the archive?"
+  },
+  {
+   "key": "case032.colette.title",
+   "value": "Colette Arnaud — interview"
+  },
+  {
+   "key": "case032.colette.woman.answer",
+   "value": "Never seen them. But last month a woman came to the archive, she had a grey umbrella, and it wasn’t raining. ‘Let me keep copies of the Varga letters,’ she said, and left a card. Only a phone number on the card. The number is no longer in use."
+  },
+  {
+   "key": "case032.colette.woman.question",
+   "value": "Do you know Varga?"
+  },
+  {
+   "key": "case032.custody.copy",
+   "value": "A copy made in Paris"
+  },
+  {
+   "key": "case032.custody.fake",
+   "value": "A fake made in Kamakura; the provenance letter written in Paris"
+  },
+  {
+   "key": "case032.custody.label",
+   "value": "What was Lot 47?"
+  },
+  {
+   "key": "case032.custody.real",
+   "value": "A genuine 16th-century bowl"
+  },
+  {
+   "key": "case032.epilogue.custody.copy",
+   "value": "The bowl was traced to a workshop in Paris; the Tokyo notice never entered the file."
+  },
+  {
+   "key": "case032.epilogue.custody.fake",
+   "value": "It was documented that Lot 47 was a fake and that the provenance letter was written in Mercier’s office."
+  },
+  {
+   "key": "case032.epilogue.custody.real",
+   "value": "Lot 47 was accepted as authentic and sold."
+  },
+  {
+   "key": "case032.epilogue.verdict.bastien",
+   "value": "Bastien Morel was taken into custody; the round log was never examined."
+  },
+  {
+   "key": "case032.epilogue.verdict.benali",
+   "value": "Inès Benali was arrested; Lot 47 was sold the next day."
+  },
+  {
+   "key": "case032.epilogue.verdict.hugo",
+   "value": "Hugo Lefèvre was charged; Mathilde’s message was read as ‘jealousy’."
+  },
+  {
+   "key": "case032.epilogue.verdict.mercier",
+   "value": "Julien Mercier was arrested. Lot 47 was withdrawn from the auction; all nine ‘Varga’ letters were declared suspect. The diary line ‘Chicago shipment: Lakeshore’ was noted in the branch file."
+  },
+  {
+   "key": "case032.evidence.board",
+   "value": "Round log and board"
+  },
+  {
+   "key": "case032.evidence.letter",
+   "value": "Provenance letter examination"
+  },
+  {
+   "key": "case032.evidence.recall",
+   "value": "Recall notice"
+  },
+  {
+   "key": "case032.evidence.search",
+   "value": "Asian department office search"
+  },
+  {
+   "key": "case032.feedback.bastien",
+   "value": "The watchman logged his rounds; he was the one who noticed the gap on the card board."
+  },
+  {
+   "key": "case032.feedback.benali",
+   "value": "Her card was used, but she left at 19.00; the card was within anyone’s reach on the board, and the watchman wrote that its spot was empty at 21.30."
+  },
+  {
+   "key": "case032.feedback.hugo",
+   "value": "The partner received the victim’s last message but did not enter the building; he had no card."
+  },
+  {
+   "key": "case032.feedback.mercier",
+   "value": "The victim’s blood on the bronze bookend in his office, her hair on the grey coat; Lot 47’s letter was written on his typewriter. The victim had gone to question him; the card was taken from the board and hung back."
+  },
+  {
+   "key": "case032.file.caseType",
+   "value": "MURDER"
+  },
+  {
+   "key": "case032.file.value.bureau",
+   "value": "BDS Paris — Belleville Branch"
+  },
+  {
+   "key": "case032.file.value.location",
+   "value": "Paris 7th arrondissement, auction house — vault"
+  },
+  {
+   "key": "case032.file.value.number",
+   "value": "BDP-PAR-2030-0112"
+  },
+  {
+   "key": "case032.file.value.offence",
+   "value": "Murder"
+  },
+  {
+   "key": "case032.file.value.reporter",
+   "value": "Night watchman"
+  },
+  {
+   "key": "case032.hugo.body",
+   "value": "The victim’s partner."
+  },
+  {
+   "key": "case032.hugo.deflect",
+   "value": "I don’t share my sources."
+  },
+  {
+   "key": "case032.hugo.msg.answer",
+   "value": "At 20.10 she texted: ‘Lot 47 is from Kamakura. A recall notice came from Tokyo, no one read it. I’ll ask Mercier.’ And a photo. Then nothing."
+  },
+  {
+   "key": "case032.hugo.msg.answer.demeanor",
+   "value": "He doesn’t put the phone down on the table; he looks at its screen."
+  },
+  {
+   "key": "case032.hugo.msg.question",
+   "value": "What did Mathilde tell you on the last day?"
+  },
+  {
+   "key": "case032.hugo.title",
+   "value": "Hugo Lefèvre — interview"
+  },
+  {
+   "key": "case032.letter.body",
+   "value": "Lot 47’s provenance letter dated ‘1998’:\n\n· Paper: paper with optical brighteners, produced after 2010. Cannot be 1998.\n· Typescript: electronic typewriter; the letter wear matches the machine in the Asian department office.\n· Signature: ‘E. Varga’ — the same hand as the signature on the other eight letters. Above the initials, ‘E.V.’ in blue ink.\n\nConclusion: the letter was written in Julien Mercier’s office. Who the signature belongs to could not be determined."
+  },
+  {
+   "key": "case032.letter.title",
+   "value": "PROVENANCE LETTER EXAMINATION"
+  },
+  {
+   "key": "case032.mercier.body",
+   "value": "Head of the Asian art department."
+  },
+  {
+   "key": "case032.mercier.deflect",
+   "value": "My department’s business concerns the auction house."
+  },
+  {
+   "key": "case032.mercier.lot.answer",
+   "value": "From a reputable intermediary. The provenance letter is flawless. A Tokyo notice doesn’t make a bowl fake; mademoiselle Roux was young, excitable."
+  },
+  {
+   "key": "case032.mercier.lot.question",
+   "value": "Where did you get Lot 47?"
+  },
+  {
+   "key": "case032.mercier.night.answer",
+   "value": "In my office, catalogue corrections. I left at 21.00. Poor Mathilde… the handlers’ card discipline is a disaster, I’ve been saying so for years."
+  },
+  {
+   "key": "case032.mercier.night.answer.demeanor",
+   "value": "He lowers his glasses from his head and folds them."
+  },
+  {
+   "key": "case032.mercier.night.question",
+   "value": "Where were you on the evening of 12 May?"
+  },
+  {
+   "key": "case032.mercier.title",
+   "value": "Julien Mercier — interview"
+  },
+  {
+   "key": "case032.mercier_2.body",
+   "value": "Following the search."
+  },
+  {
+   "key": "case032.mercier_2.title",
+   "value": "Julien Mercier — second interview"
+  },
+  {
+   "key": "case032.mercier_2.vault.answer",
+   "value": "No."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.board",
+   "value": "You don’t need to be a handler to take a card from the board, true. But that doesn’t show I took it."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.letter",
+   "value": "The paper? Who knows what paper they used in 1998. I don’t know Varga; the letters come through the intermediary, I only type them up clean."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.search",
+   "value": "…In my office she said, ‘This bowl is from Kamakura,’ and showed me the photo. ‘Tomorrow I’ll tell Mr Delorme,’ she said. She wanted to take the bowl out of the vault and compare it; we went down together. I took the card from the board, I put on the coat; while she was opening the box… the bookend was in my hand. I took the photo and the notice. Only I forgot the one on her desk."
+  },
+  {
+   "key": "case032.mercier_2.vault.question",
+   "value": "It was you who entered the vault at 21.38."
+  },
+  {
+   "key": "case032.method.bookend",
+   "value": "Struck on the head with a bronze bookend"
+  },
+  {
+   "key": "case032.method.crate",
+   "value": "A crate toppled onto her"
+  },
+  {
+   "key": "case032.method.fall",
+   "value": "She fell down the vault stairs"
+  },
+  {
+   "key": "case032.method.label",
+   "value": "How?"
+  },
+  {
+   "key": "case032.offer.subtitle",
+   "value": "LOT 47  /  MURDER"
+  },
+  {
+   "key": "case032.offer.summary",
+   "value": "A cataloguer lies dead in the vault of a Paris auction house. The auction is tomorrow; the card log points to an art handler."
+  },
+  {
+   "key": "case032.offer.title",
+   "value": "FILE #032"
+  },
+  {
+   "key": "case032.person.bastien.info",
+   "value": "45, night watchman."
+  },
+  {
+   "key": "case032.person.bastien.name",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.person.benali.info",
+   "value": "28, the auction house’s art handler; has a vault access card."
+  },
+  {
+   "key": "case032.person.benali.name",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.person.colette.info",
+   "value": "61, the auction house’s provenance archivist."
+  },
+  {
+   "key": "case032.person.colette.name",
+   "value": "Colette Arnaud"
+  },
+  {
+   "key": "case032.person.hugo.info",
+   "value": "33, freelance journalist; the victim’s partner."
+  },
+  {
+   "key": "case032.person.hugo.name",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.person.mercier.info",
+   "value": "54, head of the Asian art department at the Maison Delorme auction house."
+  },
+  {
+   "key": "case032.person.mercier.name",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.recall.body",
+   "value": "On the victim’s desk, a notice dated 3 May sent by the bube Tokyo branch to auction houses (following File #026):\n\n“Seven tea bowls produced in a workshop in Kamakura and sold as ‘family heirlooms’ have proved to be fakes. Photographs attached.”\n\nThe third attached photograph and Lot 47’s catalogue photograph show the same bowl: the same three gold seams, the same chip on the rim.\n\nOn the envelope, the victim’s note: ‘Who did Mercier get the provenance letter from?’"
+  },
+  {
+   "key": "case032.recall.title",
+   "value": "RECALL NOTICE"
+  },
+  {
+   "key": "case032.report.body",
+   "value": "On 13 May 2030 at 07.20, cataloguer Mathilde Roux (31) was found dead in the basement vault of the Maison Delorme auction house in the 7th arrondissement. A heavy wound to the back of her head.\n\nThe works for the 14 May auction are waiting in the vault. The box of Lot 47, a ‘16th-century Japanese tea bowl’, is in place; the bowl is inside its box.\n\nVault door card log, 12 May 21.38 and 21.52: the card of art handler Inès Benali."
+  },
+  {
+   "key": "case032.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case032.request.board",
+   "value": "Examine the watchman’s round log and the board"
+  },
+  {
+   "key": "case032.request.letter",
+   "value": "Send the provenance letter for document examination"
+  },
+  {
+   "key": "case032.request.recall",
+   "value": "Request the correspondence on the victim’s desk"
+  },
+  {
+   "key": "case032.request.search",
+   "value": "Request permission to search Julien Mercier’s office"
+  },
+  {
+   "key": "case032.search.body",
+   "value": "Julien Mercier’s office (with the branch chief’s approval):\n\n· One of the pair of bronze bookends on the shelf has been freshly wiped; blood on its base, DNA Mathilde Roux.\n· In the desk drawer, an empty handler’s coat hanger; in the cupboard, a grey handler’s coat, a strand of the victim’s hair on its collar.\n· An electronic typewriter; on its ribbon, the text of the Lot 47 letter.\n· A diary: ‘14/5 — 20% to E.V. after Lot 47 sells. Chicago shipment: Lakeshore.’"
+  },
+  {
+   "key": "case032.search.title",
+   "value": "ASIAN DEPARTMENT OFFICE SEARCH"
+  },
+  {
+   "key": "case032.summary.evidence",
+   "value": "The watchman’s round log showed the card was not in its place at 21.30, the camera the figure in the grey coat entering the vault, the notice on the victim’s desk the bowl’s identity, and the letter examination Mercier’s typewriter. The office search, opened on two solid grounds, found the bookend and the coat."
+  },
+  {
+   "key": "case032.summary.lesson",
+   "value": "A card is the trace not of whoever carries it, but of whoever takes it from the board. Ask whose reach it was within."
+  },
+  {
+   "key": "case032.summary.location",
+   "value": "Paris 7th arrondissement — May 2030"
+  },
+  {
+   "key": "case032.summary.truth",
+   "value": "Cataloguer Mathilde Roux noticed that one of the photographs in bube Tokyo’s recall notice was Lot 47: a fake bowl made in Kamakura. She asked Julien Mercier, the head of the Asian department who had brought in the provenance letter; they went down to the vault together to compare. Mercier had taken Inès Benali’s card from the handlers’ board and put on the grey coat; as the victim opened the box he killed her with the bronze bookend, took the photo and the notice, and hung the card back on the board."
+  },
+  {
+   "key": "case032.suspect.label",
+   "value": "Who killed Mathilde Roux?"
+  },
+  {
+   "key": "case032.tablet.caseLine",
+   "value": "FILE #032  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case032.time.back",
+   "value": "22.00"
+  },
+  {
+   "key": "case032.time.in",
+   "value": "21.38"
+  },
+  {
+   "key": "case032.time.lamp",
+   "value": "21.30"
+  },
+  {
+   "key": "case032.time.msg",
+   "value": "20.10"
+  },
+  {
+   "key": "case032.time.open",
+   "value": "21.45"
+  },
+  {
+   "key": "case032.time.out",
+   "value": "21.52"
+  },
+  {
+   "key": "case032.title",
+   "value": "File #032 — Lot 47"
+  },
+  {
+   "key": "case032.vault.body",
+   "value": "Covers the corridor to the vault door. 12 May 21.00 – 23.00."
+  },
+  {
+   "key": "case032.vault.title",
+   "value": "BASEMENT CORRIDOR CAMERA — log transcript"
+  },
+  {
+   "key": "case032.verdict.bastien",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.verdict.benali",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.verdict.hugo",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.verdict.mercier",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.item.bookend.name",
+   "value": "Bronze bookend"
+  },
+  {
+   "key": "case032.item.bookend.detail",
+   "value": "One of the pair of bronze bookends in the Asian department office; a wiped bloodstain on its base."
+  },
+  {
+   "key": "case032.item.letter.name",
+   "value": "Lot 47 provenance letter"
+  },
+  {
+   "key": "case032.item.letter.detail",
+   "value": "An expert’s letter typed on ivory paper and signed in blue ink; the initials ‘E. V.’ above the signature."
+  },
+  {
+   "key": "case032.item.badge.name",
+   "value": "Card board"
+  },
+  {
+   "key": "case032.item.badge.detail",
+   "value": "An open board at the vault entrance where the handlers’ cards hang."
+  }
+ ]
+}
