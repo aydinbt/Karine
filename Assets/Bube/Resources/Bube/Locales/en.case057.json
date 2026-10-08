@@ -1,0 +1,492 @@
+{
+ "entries": [
+  {
+   "key": "case057.anabel.body",
+   "value": "Lab technician."
+  },
+  {
+   "key": "case057.anabel.cabinet.answer",
+   "value": "It isn’t a garden spray; something that pure is only in our cabinet, a standard vial for residue tests. Yesterday morning I counted; one vial was missing. The cabinet key is with me and the manager. I didn’t tell anyone; I was scared."
+  },
+  {
+   "key": "case057.anabel.cabinet.answer.demeanor",
+   "value": "She takes off her glasses and wipes them on the hem of her lab coat."
+  },
+  {
+   "key": "case057.anabel.cabinet.question",
+   "value": "Where does the chemical you found in the coffee come from?"
+  },
+  {
+   "key": "case057.anabel.deflect",
+   "value": "I measure samples."
+  },
+  {
+   "key": "case057.anabel.title",
+   "value": "Anabel Ríos — interview"
+  },
+  {
+   "key": "case057.archive.body",
+   "value": "A file reopened from the archive (March 1999, closed as a ‘workplace accident’):\n\n· Antonio Heredia (44), on the fourth day of the strike, was crushed under a reversing forklift in the packing house. In the accident log: ‘His own carelessness; the forklift was parked.’\n· That page of the log was scraped and rewritten; forensic examination shows the original entry began ‘the forklift was running, driver’. The page was signed by the deputy manager, Beatriz Soto.\n· Manuel Ortega is on the witness list; his statement was never taken.\n· In 2000 the cooperative’s land was sold to the Fundación Santa Ana; adviser’s signature ‘E. V.’"
+  },
+  {
+   "key": "case057.archive.reopen",
+   "value": "The file closed as a ‘workplace accident’ thirty-one years ago has been reopened."
+  },
+  {
+   "key": "case057.archive.title",
+   "value": "THE 1999 FILE — ANTONIO HEREDIA"
+  },
+  {
+   "key": "case057.autopsy.body",
+   "value": "· Cause of death: organophosphate poisoning; respiratory arrest.\n· Coffee and a high concentration of the chemical in the stomach; the chemical itself is an odourless laboratory standard, purer than garden spray.\n· No chemical on the skin: not picked up from spraying in the grove.\n· Poison ingested: 13.00–13.20."
+  },
+  {
+   "key": "case057.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case057.beatriz.body",
+   "value": "Cooperative manager."
+  },
+  {
+   "key": "case057.beatriz.deflect",
+   "value": "The cooperative supports two hundred families; think of them."
+  },
+  {
+   "key": "case057.beatriz.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case057.beatriz.end.presented.archive",
+   "value": "I was twenty-three. The one driving the forklift was the manager’s son; they told me, ‘Fix the log, or the cooperative goes under.’ I fixed it. Later I became manager."
+  },
+  {
+   "key": "case057.beatriz.end.presented.car",
+   "value": "On Friday Manolo was going to tell Esteban. Thirty-one years, two hundred families, the land sale, the foundation… It would all come out. I took the vial from the cabinet and emptied it into the thermos. I couldn’t throw the empty vial away; I left it in the car. How stupid."
+  },
+  {
+   "key": "case057.beatriz.end.question",
+   "value": "You emptied the vial from the cabinet into Manolo’s thermos."
+  },
+  {
+   "key": "case057.beatriz.noon.answer",
+   "value": "I’m the manager; I go everywhere. But what would I want with a thermos? Manolo was old, forty years in a sprayed grove. One day it was bound to happen."
+  },
+  {
+   "key": "case057.beatriz.noon.answer.demeanor",
+   "value": "She pulls the zip of her gilet up a finger’s width."
+  },
+  {
+   "key": "case057.beatriz.noon.question",
+   "value": "Did you go into the canteen this morning?"
+  },
+  {
+   "key": "case057.beatriz.title",
+   "value": "Beatriz Soto — interview"
+  },
+  {
+   "key": "case057.canteen.body",
+   "value": "Cooperative canteen, lockers and shelf. 22 October 07.30 – 13.10."
+  },
+  {
+   "key": "case057.canteen.title",
+   "value": "CANTEEN CAMERA — log transcript"
+  },
+  {
+   "key": "case057.car.body",
+   "value": "Beatriz Soto’s car and her office at the cooperative (with the branch chief’s approval):\n\n· In the driver’s door pocket, the standard vial missing from the lab cabinet; inside, a few drops of the same chemical as in the coffee, and Beatriz Soto’s fingerprint on the vial.\n· In the safe in her office, the original copy of the 1999 accident log, unscraped: ‘The forklift was running, driver: R. Morales.’\n· On her phone, 21 October, to an unregistered number: ‘Ortega will talk on Friday.’ No reply."
+  },
+  {
+   "key": "case057.car.title",
+   "value": "MANAGER’S CAR AND OFFICE — SEARCH"
+  },
+  {
+   "key": "case057.cctv.event.back",
+   "value": "Camera: The same woman puts the thermos back on the shelf and leaves quickly."
+  },
+  {
+   "key": "case057.cctv.event.shelf",
+   "value": "Camera: An old man in a straw hat puts a green thermos on the shelf above the lockers and leaves."
+  },
+  {
+   "key": "case057.cctv.event.take",
+   "value": "Camera: A woman in a beige gilet enters the empty canteen and takes the green thermos down from the shelf, her back to the camera."
+  },
+  {
+   "key": "case057.cctv.overlay",
+   "value": "NDS-CAN"
+  },
+  {
+   "key": "case057.cctv.period",
+   "value": "22 October 2030"
+  },
+  {
+   "key": "case057.cctv.source",
+   "value": "Canteen camera"
+  },
+  {
+   "key": "case057.clue.back",
+   "value": "The same woman puts the thermos back and leaves."
+  },
+  {
+   "key": "case057.clue.break",
+   "value": "Manolo takes the thermos out to the grove; ‘it tastes bitter,’ he says."
+  },
+  {
+   "key": "case057.clue.shelf",
+   "value": "The old picker puts his thermos on the shelf."
+  },
+  {
+   "key": "case057.clue.source.karim",
+   "value": "Karim Ouazzani"
+  },
+  {
+   "key": "case057.clue.take",
+   "value": "The woman in the beige gilet takes the thermos down from the shelf."
+  },
+  {
+   "key": "case057.custody.bin",
+   "value": "Thrown in the lab bin"
+  },
+  {
+   "key": "case057.custody.carpocket",
+   "value": "In the manager’s car, in the door pocket"
+  },
+  {
+   "key": "case057.custody.grove",
+   "value": "Buried in the grove"
+  },
+  {
+   "key": "case057.custody.label",
+   "value": "Where did the empty vial go?"
+  },
+  {
+   "key": "case057.dolores.body",
+   "value": "Neighbour."
+  },
+  {
+   "key": "case057.dolores.deflect",
+   "value": "I’ve known Manolo for forty years."
+  },
+  {
+   "key": "case057.dolores.manolo.answer",
+   "value": "He was like the earth; he never talked. Last week one evening he sat on my doorstep. ‘Dolores, the forklift that crushed Antonio in 1999 didn’t move by itself,’ he said. ‘I saw it. The manager’s deputy was there, the Beatriz girl. She wrote the log.’ He was going to tell Esteban, on Friday."
+  },
+  {
+   "key": "case057.dolores.manolo.answer.demeanor",
+   "value": "She pulls the sleeves of her cardigan down to her fingertips."
+  },
+  {
+   "key": "case057.dolores.manolo.question",
+   "value": "What was Manolo talking about these last few days?"
+  },
+  {
+   "key": "case057.dolores.title",
+   "value": "Dolores Vega — interview"
+  },
+  {
+   "key": "case057.epilogue.custody.bin",
+   "value": "The lab bin was empty."
+  },
+  {
+   "key": "case057.epilogue.custody.carpocket",
+   "value": "It was recorded that the empty vial was found in the manager’s car."
+  },
+  {
+   "key": "case057.epilogue.custody.grove",
+   "value": "The vial wasn’t in the soil."
+  },
+  {
+   "key": "case057.epilogue.verdict.accident",
+   "value": "The death was ruled a spraying accident; on Friday Manolo told Esteban nothing."
+  },
+  {
+   "key": "case057.epilogue.verdict.beatriz",
+   "value": "Beatriz Soto was arrested; the 1999 file was reopened as ‘negligent homicide and forgery of an official document’. Thirty-one years on, Esteban Heredia had the true date carved on his father’s grave for the first time."
+  },
+  {
+   "key": "case057.epilogue.verdict.esteban",
+   "value": "Esteban Heredia was arrested; the cooperative was rid of its ‘troublesome representative’."
+  },
+  {
+   "key": "case057.epilogue.verdict.karim",
+   "value": "Karim Ouazzani was deported; the vial stayed in the car."
+  },
+  {
+   "key": "case057.esteban.body",
+   "value": "Son of the strike leader."
+  },
+  {
+   "key": "case057.esteban.deflect",
+   "value": "They called my father an ‘accident’ like this too."
+  },
+  {
+   "key": "case057.esteban.father.answer",
+   "value": "I was nineteen. On the fourth day of the strike he was crushed under a forklift in the packing house. ‘His own carelessness,’ they said; that’s what the log said. I’ve fought this cooperative for thirty years; everyone knows. But who would harm Manolo? He was the only man I had left from my father. At noon I was in a meeting, with ten people."
+  },
+  {
+   "key": "case057.esteban.father.answer.demeanor",
+   "value": "He puts his fist on the table and opens it."
+  },
+  {
+   "key": "case057.esteban.father.question",
+   "value": "How did you lose your father?"
+  },
+  {
+   "key": "case057.esteban.title",
+   "value": "Esteban Heredia — interview"
+  },
+  {
+   "key": "case057.evidence.archive",
+   "value": "The 1999 file"
+  },
+  {
+   "key": "case057.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case057.evidence.canteen",
+   "value": "Canteen camera"
+  },
+  {
+   "key": "case057.evidence.car",
+   "value": "Search of the manager’s car and office"
+  },
+  {
+   "key": "case057.feedback.accident",
+   "value": "No chemical on the skin; the poison is a laboratory standard purer than garden spray."
+  },
+  {
+   "key": "case057.feedback.beatriz",
+   "value": "The vial missing from the lab came out of her car with her print on it; the canteen camera shows a woman in a beige gilet taking the thermos down from the shelf. The reopened 1999 file shows what Manolo was going to tell."
+  },
+  {
+   "key": "case057.feedback.esteban",
+   "value": "His fight with the cooperative is thirty years old, but at noon he was in a meeting with ten people and he has no key to the chemical cabinet."
+  },
+  {
+   "key": "case057.feedback.karim",
+   "value": "He was beside the thermos, but the camera shows who touched it in the morning; it wasn’t him."
+  },
+  {
+   "key": "case057.file.caseType",
+   "value": "POISONING"
+  },
+  {
+   "key": "case057.file.value.bureau",
+   "value": "BDS Sevilla — Triana Branch"
+  },
+  {
+   "key": "case057.file.value.location",
+   "value": "Cooperativa Naranjos del Sur, Sevilla"
+  },
+  {
+   "key": "case057.file.value.number",
+   "value": "BDS-SVQ-2030-0121"
+  },
+  {
+   "key": "case057.file.value.offence",
+   "value": "Poisoning — murder"
+  },
+  {
+   "key": "case057.file.value.reporter",
+   "value": "Neighbour"
+  },
+  {
+   "key": "case057.karim.body",
+   "value": "Seasonal picker."
+  },
+  {
+   "key": "case057.karim.break.answer",
+   "value": "In the canteen, on the shelf above the lockers. Everyone puts theirs there. Manolo brings his coffee from home in the morning and drinks it at noon. At noon he took the thermos and went out to the grove with me; after two sips he said, ‘It tastes bitter.’ Then he fell."
+  },
+  {
+   "key": "case057.karim.break.answer.demeanor",
+   "value": "He turns his straw hat on his knee."
+  },
+  {
+   "key": "case057.karim.break.question",
+   "value": "Where was Manolo’s thermos this morning?"
+  },
+  {
+   "key": "case057.karim.deflect",
+   "value": "I pick, I put it in the crate."
+  },
+  {
+   "key": "case057.karim.title",
+   "value": "Karim Ouazzani — interview"
+  },
+  {
+   "key": "case057.method.heart",
+   "value": "His heart stopped in the heat"
+  },
+  {
+   "key": "case057.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case057.method.spray",
+   "value": "He was poisoned while spraying in the grove"
+  },
+  {
+   "key": "case057.method.vial",
+   "value": "Chemical from a lab vial was poured into the coffee in his thermos"
+  },
+  {
+   "key": "case057.offer.subtitle",
+   "value": "ORANGE GROVE  /  POISONING"
+  },
+  {
+   "key": "case057.offer.summary",
+   "value": "A picker of forty years died from the coffee he drank from his thermos during his lunch break."
+  },
+  {
+   "key": "case057.offer.title",
+   "value": "FILE #057"
+  },
+  {
+   "key": "case057.person.anabel.info",
+   "value": "29, the cooperative’s lab technician."
+  },
+  {
+   "key": "case057.person.anabel.name",
+   "value": "Anabel Ríos"
+  },
+  {
+   "key": "case057.person.beatriz.info",
+   "value": "52, manager of the cooperative."
+  },
+  {
+   "key": "case057.person.beatriz.name",
+   "value": "Beatriz Soto"
+  },
+  {
+   "key": "case057.person.dolores.info",
+   "value": "70, retired packer; the victim’s neighbour."
+  },
+  {
+   "key": "case057.person.dolores.name",
+   "value": "Dolores Vega"
+  },
+  {
+   "key": "case057.person.esteban.info",
+   "value": "41, the pickers’ representative; son of the strike leader who died in 1999."
+  },
+  {
+   "key": "case057.person.esteban.name",
+   "value": "Esteban Heredia"
+  },
+  {
+   "key": "case057.person.karim.info",
+   "value": "33, seasonal picker."
+  },
+  {
+   "key": "case057.person.karim.name",
+   "value": "Karim Ouazzani"
+  },
+  {
+   "key": "case057.report.body",
+   "value": "On the afternoon of 22 October 2030, in the grove of the Cooperativa Naranjos del Sur outside Sevilla, the picker Manuel Ortega (66) collapsed during his lunch break and died before reaching hospital. The cooperative’s lab found an organophosphate insecticide in the coffee in his thermos.\n\nAt the cooperative that day: manager Beatriz Soto, pickers’ representative Esteban Heredia, picker Karim Ouazzani, lab technician Anabel Ríos. The victim’s neighbour Dolores Vega called the ambulance."
+  },
+  {
+   "key": "case057.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case057.request.archive",
+   "value": "Request permission to open the 1999 file from the archive"
+  },
+  {
+   "key": "case057.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case057.request.car",
+   "value": "Request permission to search the manager’s car and office"
+  },
+  {
+   "key": "case057.summary.evidence",
+   "value": "The technician told of the missing vial, the neighbour of Manolo’s last words; those got the archive opened. The camera showed the woman who touched the thermos. The search found the vial in the car and the original log in the safe."
+  },
+  {
+   "key": "case057.summary.lesson",
+   "value": "She had fixed the log once; the second time, coffee was enough."
+  },
+  {
+   "key": "case057.summary.location",
+   "value": "Naranjos del Sur — October 2030"
+  },
+  {
+   "key": "case057.summary.truth",
+   "value": "In the 1999 strike a forklift crushed the strike leader Antonio Heredia; the deputy manager Beatriz Soto rewrote the accident log as ‘his own carelessness’ and years later became manager. Thirty-one years on, the picker Manolo Ortega, who had been there that day, decided to tell the leader’s son. Beatriz took the vial of pure chemical from the lab cabinet, emptied it into Manolo’s thermos in the canteen in the morning and left the empty vial in her car."
+  },
+  {
+   "key": "case057.suspect.label",
+   "value": "Who killed Manuel Ortega?"
+  },
+  {
+   "key": "case057.tablet.caseLine",
+   "value": "FILE #057  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case057.time.back",
+   "value": "11.21"
+  },
+  {
+   "key": "case057.time.break",
+   "value": "13.05"
+  },
+  {
+   "key": "case057.time.shelf",
+   "value": "07.42"
+  },
+  {
+   "key": "case057.time.take",
+   "value": "11.18"
+  },
+  {
+   "key": "case057.title",
+   "value": "File #057 — Orange Grove"
+  },
+  {
+   "key": "case057.verdict.accident",
+   "value": "Nobody — a spraying accident"
+  },
+  {
+   "key": "case057.verdict.beatriz",
+   "value": "Beatriz Soto"
+  },
+  {
+   "key": "case057.verdict.esteban",
+   "value": "Esteban Heredia"
+  },
+  {
+   "key": "case057.verdict.karim",
+   "value": "Karim Ouazzani"
+  },
+  {
+   "key": "case057.item.thermos.name",
+   "value": "The victim’s thermos"
+  },
+  {
+   "key": "case057.item.thermos.detail",
+   "value": "An old, dented green thermos; insecticide in the coffee left inside."
+  },
+  {
+   "key": "case057.item.vial.name",
+   "value": "Lab vial"
+  },
+  {
+   "key": "case057.item.vial.detail",
+   "value": "A small glass vial missing from the lab’s chemical cabinet; it came out of the door pocket of the manager’s car."
+  },
+  {
+   "key": "case057.item.ledger.name",
+   "value": "The 1999 accident log"
+  },
+  {
+   "key": "case057.item.ledger.detail",
+   "value": "The packing house’s 1999 accident log; one page written over afterwards."
+  }
+ ]
+}
