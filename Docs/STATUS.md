@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 8 Ekim 2026 (oynanış geri bildirimi turu)
+**Son güncelleme:** 8 Ekim 2026 (hesap sistemi ve mağaza şartları)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**8 Ekim (gece, 4):** **Hesap sistemi kuruldu.** Misafir, Google (Android) ve Apple (iOS) girişi; hesaba göre kayıt ve buluttan devam; uygulama içinden hesap silme, çıkış, gizlilik bağlantısı; cihaz dili desteklenmiyorsa ülkeye göre dil. Konsol/mağaza adımları kullanıcıda: [STORE_ACCOUNTS_CHECKLIST.md](STORE_ACCOUNTS_CHECKLIST.md). 143 EditMode + 27 PlayMode → `[~]`.
 
 **8 Ekim (gece, 3):** Bora'nın göreve hazırlanış filmi eklendi; yeni kariyerde Türkiye açılışından önce oynar. 139 EditMode + 27 PlayMode → `[~]`.
 

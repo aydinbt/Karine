@@ -590,3 +590,30 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 ## Ses susturma ve geçiş yüklemesi (8 Ekim 2026)
 
 `AudioDirector.Hush(bool)` müzik, ortam ve katmanı `DuckSeconds` içinde sıfıra indirir (`Bed = duck*hush`). Dünya filmi ve CCTV izleyicisi açar, kapanışları geri alır. `BubeApp.LoadThen(next)` hedef ekranı kurar, üstüne `KarineUI.LoadingScreen` katmanını `Loading.TransitSeconds` boyunca koyar. `PrintOut` kâğıdın tüm alt `Label`larını sırayla basar, düğmeleri basım bitene dek gizler. `FrameRate` Android'de `Screen.SetResolution(..., RefreshRate)` ile yenileme hızı ister.
+
+## Hesaplar ve bulut kaydı (8 Ekim 2026)
+
+- **`Accounts` (Runtime):**
+  - `IAccountProvider` dikişini ve misafir/yerel gerçeklemeyi (`LocalAccountProvider`) içerir.
+  - Etkin hesabı PlayerPrefs'te tutar: `karine.account.kind`, `karine.account.id`, `karine.account.chosen`.
+  - Kayıt yolu `persistentDataPath/accounts/<misafir|oyuncuKimliği>/bube-*.json`. `BubeApp.CaseSavePath` ve `CareerSavePath` buradan okur.
+  - `MigrateLegacy` kökteki eski kayıtları misafire taşır.
+  - `Adopt` misafiri hesaba devreder ve hedefteki kaydı ezmez.
+  - `Merge` bulut zarfını (`CloudEntry{ticks,json}`) dosya yazım saatiyle karşılaştırır; yeni olan kazanır.
+- **`Bube.Accounts` derlemesi (`Assets/Bube/Accounts/`):**
+  - `defineConstraints: KARINE_UGS` ile yalnız UGS Authentication kuruluysa derlenir.
+  - `versionDefines`: `KARINE_CLOUD`, `KARINE_GPGS`, `KARINE_APPLE`.
+  - `UgsAccountProvider` mobilde `BeforeSceneLoad` ile kendini takar.
+  - Google kolu: GPGS `ManuallyAuthenticate` → `RequestServerSideAccess` → `SignInWithGooglePlayGamesAsync` / `Link…`.
+  - Apple kolu: `AppleAuthManager.LoginWithAppleId` → `SignInWithAppleAsync` / `Link…`. `AccountAlreadyLinked` gelirse o hesaba girilir.
+  - Silme: Cloud Save `DeleteAllAsync` + `DeleteAccountAsync`.
+- **`BubeApp.Account.cs`:**
+  - `AccountBoot` sessiz geri yüklemeyi yapar, giriş kağıdını gösterir ve `PullCloud` çağırır.
+  - `Save()` → `CloudDirty()`: 4 sn sonra itme. Arka plana atılınca `FlushCloud`.
+  - Hesap değişince `LoadSaves` + `Home`.
+- **Paketler:**
+  - `com.unity.services.authentication` 3.8.0
+  - `com.unity.services.cloudsave` 3.4.1
+  - `com.google.play.games` 2.2.1 (OpenUPM)
+  - `com.lupidan.apple-signin-unity` 1.5.0 (OpenUPM)
+- **Doğrulama sınırı:** Editor'de (Android hedefi) GPGS kolu derlendi. iOS kolu (`UNITY_IOS`) derlenmedi; ilk iOS derlemesinde görülecek.

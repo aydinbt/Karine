@@ -162,9 +162,9 @@ public sealed partial class BubeApp {
   KarineUI.AboutCredit(list,T("about.credit.studio"),"bubeGames");
   KarineUI.AboutCredit(list,T("about.credit.fonts"),T("about.credit.fonts.detail"));
   KarineUI.ModalSection(list,T("about.links")).style.marginTop=KarineTheme.SpaceLg;
-  // Adresler henüz yok: düğmeler yerinde durur ama basılmaz.
-  KarineUI.AboutLink(list,"lock",T("about.link.privacy"),T("about.link.privacy.hint"),null).SetEnabled(false);
-  KarineUI.AboutLink(list,"chat",T("about.link.feedback"),T("about.link.feedback.hint"),null).SetEnabled(false);
+  // Adres config'te yoksa düğme yerinde durur ama basılmaz.
+  KarineUI.AboutLink(list,"lock",T("about.link.privacy"),T("about.link.privacy.hint"),OpenPrivacy).SetEnabled(!string.IsNullOrEmpty(config.privacyUrl));
+  KarineUI.AboutLink(list,"chat",T("about.link.feedback"),T("about.link.feedback.hint"),OpenSupport).SetEnabled(!string.IsNullOrEmpty(config.supportEmail));
   KarineUI.ModalRule(panel);
   var footer=new VisualElement();footer.style.flexDirection=FlexDirection.Row;footer.style.justifyContent=Justify.SpaceBetween;footer.style.flexShrink=0;panel.Add(footer);
   var copy=KarineUI.Body_(footer,"© "+System.DateTime.Now.Year+" bubeGames. "+T("about.rights"),KarineTheme.SettingsModal.RowHintSize);copy.style.color=KarineTheme.Secondary;copy.style.marginBottom=0;

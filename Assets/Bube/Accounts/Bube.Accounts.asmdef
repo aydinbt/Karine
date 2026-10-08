@@ -1,0 +1,20 @@
+{
+    "name": "Bube.Accounts",
+    "rootNamespace": "Bube",
+    "references": [
+        "Bube.Runtime",
+        "Unity.Services.Core",
+        "Unity.Services.Authentication",
+        "Unity.Services.CloudSave",
+        "Google.Play.Games",
+        "AppleAuth"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": ["KARINE_UGS"],
+    "versionDefines": [
+        {"name": "com.unity.services.authentication", "expression": "3.0.0", "define": "KARINE_UGS"},
+        {"name": "com.unity.services.cloudsave", "expression": "3.0.0", "define": "KARINE_CLOUD"},
+        {"name": "com.google.play.games", "expression": "2.0.0", "define": "KARINE_GPGS"},
+        {"name": "com.lupidan.apple-signin-unity", "expression": "1.4.0", "define": "KARINE_APPLE"}
+    ]
+}

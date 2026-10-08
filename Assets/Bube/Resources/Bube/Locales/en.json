@@ -4547,6 +4547,162 @@
   {
    "key": "career.record.countries",
    "value": "Country report"
+  },
+  {
+   "key": "settings.tab.account",
+   "value": "Account"
+  },
+  {
+   "key": "settings.tab.account.hint",
+   "value": "Sign-in, saves and privacy"
+  },
+  {
+   "key": "settings.account.status",
+   "value": "Account status"
+  },
+  {
+   "key": "account.status.guest",
+   "value": "You are playing as a guest. Your progress stays on this device only and is lost if the app is removed."
+  },
+  {
+   "key": "account.status.google",
+   "value": "Signed in with Google Play Games. Your progress is backed up to the cloud."
+  },
+  {
+   "key": "account.status.apple",
+   "value": "Signed in with Apple. Your progress is backed up to the cloud."
+  },
+  {
+   "key": "account.title",
+   "value": "Case record"
+  },
+  {
+   "key": "account.body",
+   "value": "Sign in to keep your progress safe and continue on another device. Signing in is optional: as a guest you can play the whole game and link an account later in Settings › Account."
+  },
+  {
+   "key": "account.signin.google",
+   "value": "Sign in with Google"
+  },
+  {
+   "key": "account.signin.apple",
+   "value": "Sign in with Apple"
+  },
+  {
+   "key": "account.guest",
+   "value": "Continue as guest"
+  },
+  {
+   "key": "account.link.google",
+   "value": "Link Google account"
+  },
+  {
+   "key": "account.link.apple",
+   "value": "Link Apple account"
+  },
+  {
+   "key": "account.link.hint",
+   "value": "Your guest progress moves to this account and is backed up."
+  },
+  {
+   "key": "account.signout",
+   "value": "Sign out"
+  },
+  {
+   "key": "account.signout.hint",
+   "value": "Your account and cloud save remain; this device returns to guest mode."
+  },
+  {
+   "key": "account.delete",
+   "value": "Delete account and data"
+  },
+  {
+   "key": "account.delete.hint",
+   "value": "Your account, cloud save and progress on this device are permanently deleted."
+  },
+  {
+   "key": "account.delete.guestHint",
+   "value": "Your guest progress on this device is permanently deleted."
+  },
+  {
+   "key": "account.delete.form",
+   "value": "Form 99 · Record disposal"
+  },
+  {
+   "key": "account.delete.title",
+   "value": "Delete everything?"
+  },
+  {
+   "key": "account.delete.body",
+   "value": "Your account, cloud save and all progress on this device will be permanently deleted. This cannot be undone."
+  },
+  {
+   "key": "account.delete.guestBody",
+   "value": "All progress on this device will be permanently deleted. This cannot be undone."
+  },
+  {
+   "key": "account.delete.stamp",
+   "value": "DESTROY"
+  },
+  {
+   "key": "account.delete.confirm",
+   "value": "Delete permanently"
+  },
+  {
+   "key": "account.delete.cancel",
+   "value": "Cancel"
+  },
+  {
+   "key": "account.deletionPage",
+   "value": "Deletion request on the web"
+  },
+  {
+   "key": "account.deletionPage.hint",
+   "value": "If you cannot open the app, you can delete your account from this page."
+  },
+  {
+   "key": "account.privacy",
+   "value": "Privacy policy"
+  },
+  {
+   "key": "account.privacy.hint",
+   "value": "What data we keep and why. Personal data is never sold."
+  },
+  {
+   "key": "account.open",
+   "value": "Open"
+  },
+  {
+   "key": "account.notice.signedIn",
+   "value": "Signed in."
+  },
+  {
+   "key": "account.notice.signedOut",
+   "value": "Signed out. You are playing as a guest."
+  },
+  {
+   "key": "account.notice.deleted",
+   "value": "Data deleted."
+  },
+  {
+   "key": "account.notice.existing",
+   "value": "This account already had a save; it has been loaded. Your guest progress is still on this device."
+  },
+  {
+   "key": "account.error.unavailable",
+   "value": "Sign-in is not available on this device right now."
+  },
+  {
+   "key": "account.error.offline",
+   "value": "Could not reach the server. Check your connection and try again."
+  },
+  {
+   "key": "account.error.cancelled",
+   "value": "Sign-in was cancelled."
+  },
+  {
+   "key": "account.error.failed",
+   "value": "Sign-in could not be completed. Please try again."
   }
  ]
 }

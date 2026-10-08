@@ -4547,6 +4547,162 @@
   {
    "key": "career.record.countries",
    "value": "Ülke karnesi"
+  },
+  {
+   "key": "settings.tab.account",
+   "value": "Hesap"
+  },
+  {
+   "key": "settings.tab.account.hint",
+   "value": "Giriş, kayıt ve gizlilik"
+  },
+  {
+   "key": "settings.account.status",
+   "value": "Hesap durumu"
+  },
+  {
+   "key": "account.status.guest",
+   "value": "Misafir olarak oynuyorsun. İlerlemen yalnız bu cihazda durur; uygulama silinirse kaybolur."
+  },
+  {
+   "key": "account.status.google",
+   "value": "Google Play Games ile giriş yapıldı. İlerlemen buluta yedeklenir."
+  },
+  {
+   "key": "account.status.apple",
+   "value": "Apple ile giriş yapıldı. İlerlemen buluta yedeklenir."
+  },
+  {
+   "key": "account.title",
+   "value": "Soruşturma kaydı"
+  },
+  {
+   "key": "account.body",
+   "value": "İlerlemeni korumak ve başka cihazda sürdürmek için giriş yapabilirsin. Giriş zorunlu değil: misafir olarak da tüm oyunu oynarsın, sonra Ayarlar › Hesap'tan bağlayabilirsin."
+  },
+  {
+   "key": "account.signin.google",
+   "value": "Google ile giriş yap"
+  },
+  {
+   "key": "account.signin.apple",
+   "value": "Apple ile giriş yap"
+  },
+  {
+   "key": "account.guest",
+   "value": "Misafir olarak devam et"
+  },
+  {
+   "key": "account.link.google",
+   "value": "Google hesabını bağla"
+  },
+  {
+   "key": "account.link.apple",
+   "value": "Apple hesabını bağla"
+  },
+  {
+   "key": "account.link.hint",
+   "value": "Misafir ilerlemen bu hesaba taşınır ve buluta yedeklenir."
+  },
+  {
+   "key": "account.signout",
+   "value": "Çıkış yap"
+  },
+  {
+   "key": "account.signout.hint",
+   "value": "Hesabın ve bulut kaydın durur; cihaz misafir moduna döner."
+  },
+  {
+   "key": "account.delete",
+   "value": "Hesabı ve verileri sil"
+  },
+  {
+   "key": "account.delete.hint",
+   "value": "Hesabın, bulut kaydın ve bu cihazdaki ilerlemen kalıcı olarak silinir."
+  },
+  {
+   "key": "account.delete.guestHint",
+   "value": "Bu cihazdaki misafir ilerlemen kalıcı olarak silinir."
+  },
+  {
+   "key": "account.delete.form",
+   "value": "Form 99 · Kayıt imhası"
+  },
+  {
+   "key": "account.delete.title",
+   "value": "Her şey silinsin mi?"
+  },
+  {
+   "key": "account.delete.body",
+   "value": "Hesabın, buluttaki kaydın ve bu cihazdaki tüm ilerlemen kalıcı olarak silinecek. Bu işlem geri alınamaz."
+  },
+  {
+   "key": "account.delete.guestBody",
+   "value": "Bu cihazdaki tüm ilerlemen kalıcı olarak silinecek. Bu işlem geri alınamaz."
+  },
+  {
+   "key": "account.delete.stamp",
+   "value": "İMHA"
+  },
+  {
+   "key": "account.delete.confirm",
+   "value": "Kalıcı olarak sil"
+  },
+  {
+   "key": "account.delete.cancel",
+   "value": "Vazgeç"
+  },
+  {
+   "key": "account.deletionPage",
+   "value": "Web'den silme talebi"
+  },
+  {
+   "key": "account.deletionPage.hint",
+   "value": "Uygulamaya erişemiyorsan hesabını bu sayfadan silebilirsin."
+  },
+  {
+   "key": "account.privacy",
+   "value": "Gizlilik politikası"
+  },
+  {
+   "key": "account.privacy.hint",
+   "value": "Hangi veriyi neden tuttuğumuz. Reklam ve analiz için kişisel veri satılmaz."
+  },
+  {
+   "key": "account.open",
+   "value": "Aç"
+  },
+  {
+   "key": "account.notice.signedIn",
+   "value": "Giriş yapıldı."
+  },
+  {
+   "key": "account.notice.signedOut",
+   "value": "Çıkış yapıldı. Misafir olarak oynuyorsun."
+  },
+  {
+   "key": "account.notice.deleted",
+   "value": "Veriler silindi."
+  },
+  {
+   "key": "account.notice.existing",
+   "value": "Bu hesapta zaten bir kayıt vardı; o kayıt açıldı. Misafir ilerlemen cihazda duruyor."
+  },
+  {
+   "key": "account.error.unavailable",
+   "value": "Bu cihazda giriş şu an kullanılamıyor."
+  },
+  {
+   "key": "account.error.offline",
+   "value": "Sunucuya ulaşılamadı. Bağlantını kontrol edip tekrar dene."
+  },
+  {
+   "key": "account.error.cancelled",
+   "value": "Giriş iptal edildi."
+  },
+  {
+   "key": "account.error.failed",
+   "value": "Giriş tamamlanamadı. Tekrar dene."
   }
  ]
 }

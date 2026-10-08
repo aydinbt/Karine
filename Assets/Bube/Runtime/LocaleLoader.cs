@@ -70,12 +70,27 @@ public static class Languages {
    default: return Fallback;
   }
  }
- // Kayıtlı seçim → cihaz dili → İngilizce. Kurulu olmayan dil seçilmez.
+ // Cihaz dili desteklenmiyorsa ülkeye bakılır: dili Kürtçe ya da Azerice olan
+ // Türkiye'deki oyuncu Türkçe, Avusturya'daki Almanca görür. Dil yine önce gelir.
+ public static string FromRegion(string region) {
+  switch((region??"").ToUpperInvariant()) {
+   case "TR": case "CY": return "tr"; case "DE": case "AT": case "LI": return "de";
+   case "FR": case "MC": return "fr"; case "IT": case "SM": return "it";
+   case "ES": case "MX": case "AR": case "CO": case "CL": case "PE": return "es"; case "BR": return "pt-BR";
+   default: return null;
+  }
+ }
+ static string DeviceRegion() {
+  try { return System.Globalization.RegionInfo.CurrentRegion.TwoLetterISORegionName; } catch { return null; }
+ }
+ // Kayıtlı seçim → cihaz dili → ülke → İngilizce. Kurulu olmayan dil seçilmez.
  public static string Current() {
   var saved = PlayerPrefs.GetString(PrefKey, "");
   if(Installed(saved)) return saved;
   var device = FromSystem(Application.systemLanguage);
-  if(Installed(device)) return device;
+  if(Installed(device) && (device!=Fallback || Application.systemLanguage==SystemLanguage.English)) return device;
+  var region = FromRegion(DeviceRegion());
+  if(Installed(region)) return region;
   return Installed(Fallback) ? Fallback : Canon;
  }
 }

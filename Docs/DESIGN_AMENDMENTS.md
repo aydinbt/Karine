@@ -1182,3 +1182,12 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - **Ek 2:** Dosya kabul edilmeden masanın üst şeridinde dosya numarası ve yer yerine yalnız "Soruşturma Birimi" yazıyor. Uğultunun asıl kaynağı yağmur değil, masa müziğinin sürekli tutan akor katmanıydı. Müzik sönümlenen, piyano benzeri arpejlere çevrildi; sürekli tel katmanı (`desk_layer`) masada susturuldu. Yağmurun genel sesi 0.06 tepe seviyesine indi.
 - **Ek 3:** Masada sürekli ortam sesi tümüyle kaldırıldı (yağmur/gece döngüsü çalmıyor). Masa müziğinin alçak nefes katmanı da çıkarıldı; masada yalnız müzik, gök gürültüsü ve uzak tekil sesler duyuluyor. Yağmur görseli duruyor.
 - **Ek 4:** Dosya detayı açılırken yükleme katmanı çıkmıyor. Yükleme katmanı yalnız masaya girişte, vaka kabulünde ve görüşme odasına girerken çıkıyor.
+
+## 8 Ekim 2026 — Hesap ve mağaza şartları
+
+- Giriş **isteğe bağlıdır**. İlk açılışta bir kez giriş kağıdı çıkar: Apple (iOS), Google (Android), "Misafir olarak devam et". Misafir oyunun tamamını oynar.
+- Kayıt hesaba aittir: her hesabın cihazda ayrı klasörü var. Giriş yapılmışsa kayıt buluta da yazılır; girişte yeni olan kopya kazanır.
+- Misafir sonradan hesap bağlarsa ilerlemesi hesaba geçer. Hesapta zaten kayıt varsa o açılır, misafir kaydı cihazda kalır.
+- Ayarlara altıncı sekme "Hesap" eklendi: durum, bağla, çıkış, hesabı ve verileri sil (onay formu, geri alınamaz), web'den silme sayfası, gizlilik politikası.
+- Dil önceliği: kayıtlı seçim → cihaz dili → ülke → İngilizce. Ülke yalnız cihaz dili desteklenmiyorsa kullanılır.
+- Giriş kağıdının görünüşü geçicidir; ChatGPT maketi gelince değişir. Apple/Google düğmeleri resmi marka kurallarına uymalı.

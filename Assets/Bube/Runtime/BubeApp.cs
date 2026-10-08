@@ -111,9 +111,9 @@ public sealed partial class BubeApp : MonoBehaviour {
  const string ArchiveTimelineId="@timeline";
  const int MinimumTouchTarget=KarineTheme.TouchTarget;
 
- string CaseSavePath(string id) => Path.Combine(Application.persistentDataPath,"bube-"+id+"-v1.json");
+ string CaseSavePath(string id) => Path.Combine(Accounts.Root,"bube-"+id+"-v1.json");
  string SavePath => CaseSavePath(game.Data.id);
- string CareerSavePath => Path.Combine(Application.persistentDataPath,"bube-career-v1.json");
+ string CareerSavePath => Path.Combine(Accounts.Root,"bube-career-v1.json");
  bool HasIncomingFax => game.HasIncomingFax;
  bool HasIncomingDocument => game.HasIncomingDocument;
  // Resources içeriği çalışma anında değişmez; sonuç vaka kimliği başına bir kez ayrıştırılır.
@@ -151,31 +151,11 @@ public sealed partial class BubeApp : MonoBehaviour {
   locale=LocaleLoader.LoadPlayable(language);KarineUI.TextCulture=new System.Globalization.CultureInfo(language);
   canonLocale=language==Languages.Canon?locale:LocaleLoader.Load(Languages.Canon);
   careerRules=Load<CareerRules>("Bube/career-rules");
-  CareerProgress career=null;
-  try { if(File.Exists(CareerSavePath)) career=JsonUtility.FromJson<CareerProgress>(File.ReadAllText(CareerSavePath)); }
-  catch(Exception e) { Debug.LogWarning("Career save could not be loaded: "+e.Message); }
-  string caseId=career!=null && !string.IsNullOrEmpty(career.activeCaseId) && Resources.Load<TextAsset>("Bube/Cases/"+career.activeCaseId)!=null
-   ?career.activeCaseId:config.initialCase;
-  var caseData=Load<CaseData>("Bube/Cases/"+caseId);
-  bool redirectedDraft=caseData.draft;
-  if(redirectedDraft) {
-   caseId=config.initialCase;
-   caseData=Load<CaseData>("Bube/Cases/"+caseId);
-  }
-  Progress progress=null;
-  try { if(File.Exists(CaseSavePath(caseId))) progress=JsonUtility.FromJson<Progress>(File.ReadAllText(CaseSavePath(caseId))); }
-  catch(Exception e) { Debug.LogWarning("Save could not be loaded: "+e.Message); }
+  Accounts.Load();Accounts.MigrateLegacy();
   pendingPredicate=n=>game.Pending(n);
   incomingDocumentPredicate=n=>game.IncomingDocument(n);
-  game=new Investigation(caseData,progress,career,careerRules){Text=locale,RuleText=canonLocale};
-  // Daha yeni bir surumden gelen kayit okunamaz. Silmek yerine yana kaldirilir:
-  // oyuncu eski surume donerse kayit yerinde durur.
-  string saveNotice=null;
-  if(game.StateOutcome==SaveOutcome.FromFuture)saveNotice=SetAside(CaseSavePath(caseId));
-  if(game.CareerOutcome==SaveOutcome.FromFuture)saveNotice=SetAside(CareerSavePath);
-  if(game.StateOutcome==SaveOutcome.Migrated || game.CareerOutcome==SaveOutcome.Migrated)
-   Debug.Log("Save migrated to current schema.");
-  game.Career.activeCaseId=caseId;
+  bool redirectedDraft;
+  string saveNotice=LoadSaves(out redirectedDraft);
   instantText=PlayerPrefs.GetInt("bube.instantText",0)==1;
   SoundSettings.Load();
   FrameRate.Load();
@@ -214,8 +194,36 @@ public sealed partial class BubeApp : MonoBehaviour {
   root.style.paddingTop=26;
   root.style.paddingBottom=24;
   if(redirectedDraft)Save();
-  Home();ShowLoading();
+  Home();ShowLoading();AccountBoot();
   if(saveNotice!=null)Text(root,T("save.fromFuture"),Muted,15);
+ }
+
+ // Etkin hesabın klasöründen kariyer ve vaka kaydını okur. Hesap değişince de çağrılır.
+ string LoadSaves(out bool redirectedDraft) {
+  CareerProgress career=null;
+  try { if(File.Exists(CareerSavePath)) career=JsonUtility.FromJson<CareerProgress>(File.ReadAllText(CareerSavePath)); }
+  catch(Exception e) { Debug.LogWarning("Career save could not be loaded: "+e.Message); }
+  string caseId=career!=null && !string.IsNullOrEmpty(career.activeCaseId) && Resources.Load<TextAsset>("Bube/Cases/"+career.activeCaseId)!=null
+   ?career.activeCaseId:config.initialCase;
+  var caseData=Load<CaseData>("Bube/Cases/"+caseId);
+  redirectedDraft=caseData.draft;
+  if(redirectedDraft) {
+   caseId=config.initialCase;
+   caseData=Load<CaseData>("Bube/Cases/"+caseId);
+  }
+  Progress progress=null;
+  try { if(File.Exists(CaseSavePath(caseId))) progress=JsonUtility.FromJson<Progress>(File.ReadAllText(CaseSavePath(caseId))); }
+  catch(Exception e) { Debug.LogWarning("Save could not be loaded: "+e.Message); }
+  game=new Investigation(caseData,progress,career,careerRules){Text=locale,RuleText=canonLocale};
+  // Daha yeni bir surumden gelen kayit okunamaz. Silmek yerine yana kaldirilir:
+  // oyuncu eski surume donerse kayit yerinde durur.
+  string saveNotice=null;
+  if(game.StateOutcome==SaveOutcome.FromFuture)saveNotice=SetAside(CaseSavePath(caseId));
+  if(game.CareerOutcome==SaveOutcome.FromFuture)saveNotice=SetAside(CareerSavePath);
+  if(game.StateOutcome==SaveOutcome.Migrated || game.CareerOutcome==SaveOutcome.Migrated)
+   Debug.Log("Save migrated to current schema.");
+  game.Career.activeCaseId=caseId;
+  return saveNotice;
  }
 
  // Geri tuşunun hedefi ekranın kendi "geri" eyleminin **aynısıdır**; ayrı bir
@@ -291,6 +299,7 @@ public sealed partial class BubeApp : MonoBehaviour {
 
  void Update() {
   if(root==null)return;
+  AccountTick();
   KeepFilmOnTop();
   ScreenReader.Tick(root);
   if(introBrand!=null && introBrand.panel!=null && (introPlayer!=null || introCardStart>=0)) {
@@ -352,7 +361,7 @@ public sealed partial class BubeApp : MonoBehaviour {
  // haber vermeden kapatabilir. Bu yüzden arkaya atılma anı bir kayıt anıdır.
  void OnApplicationPause(bool paused) {
   if(!paused || game==null)return;
-  Save();
+  Save();FlushCloud();
  }
 
  // Okunamayan kaydi bozmadan yana kaldirir; donus degeri yeni yoldur, yoksa null.
@@ -375,6 +384,7 @@ public sealed partial class BubeApp : MonoBehaviour {
    var careerTemp=CareerSavePath+".tmp";
    File.WriteAllText(careerTemp,JsonUtility.ToJson(game.Career,true));
    if(File.Exists(CareerSavePath)) File.Replace(careerTemp,CareerSavePath,null); else File.Move(careerTemp,CareerSavePath);
+   CloudDirty();
   } catch(Exception e) { Debug.LogWarning("Save failed: "+e.Message); Text(root,T("save.failed"),Muted,16); }
  }
 

@@ -21,8 +21,8 @@ public sealed partial class BubeApp {
  }
  void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;}
 
- static readonly string[] SettingsTabs={"general","sound","display","access","play"};
- static readonly string[] SettingsIcons={"gear","music","binoculars","info","gamepad"};
+ static readonly string[] SettingsTabs={"general","sound","display","access","play","account"};
+ static readonly string[] SettingsIcons={"gear","music","binoculars","info","gamepad","person"};
 
  void RenderSettings() {
   // Yeniden çizimde kaydırma yeri korunur: bir anahtara basınca liste başa dönmez.
@@ -39,7 +39,8 @@ public sealed partial class BubeApp {
    case 1: SoundSettingsTab(body);break;
    case 2: DisplaySettings(body);break;
    case 3: AccessSettings(body);break;
-   default: PlaySettings(body);break;
+   case 4: PlaySettings(body);break;
+   default: AccountSettings(body);break;
   }
   var scroll=root.Q<ScrollView>("SettingsBody");
   if(offset>0){EventCallback<GeometryChangedEvent> restore=null;restore=e=>{scroll.UnregisterCallback(restore);scroll.scrollOffset=new Vector2(0,offset);};scroll.RegisterCallback(restore);}

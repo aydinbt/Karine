@@ -39,8 +39,14 @@ namespace Bube.Tests {
   ? Directory.GetFiles(Application.persistentDataPath,"bube-*")
   : new string[0];
 
+ // Hesap klasörleri (`accounts/`) bütün olarak kenara alınır, sonra geri konur.
+ static string AccountsDir => Path.Combine(Application.persistentDataPath,"accounts");
+ static string AccountsAside => AccountsDir+".sandbox";
+
  [OneTimeSetUp] public void KeepPlayerSaves() {
   kept.Clear();
+  if(Directory.Exists(AccountsAside))Directory.Delete(AccountsAside,true);
+  if(Directory.Exists(AccountsDir))Directory.Move(AccountsDir,AccountsAside);
   foreach (var file in SaveFiles()) {
    kept[Path.GetFileName(file)] = File.ReadAllBytes(file);
    File.Delete(file);
@@ -48,6 +54,8 @@ namespace Bube.Tests {
  }
 
  [OneTimeTearDown] public void RestorePlayerSaves() {
+  if(Directory.Exists(AccountsDir))Directory.Delete(AccountsDir,true);
+  if(Directory.Exists(AccountsAside))Directory.Move(AccountsAside,AccountsDir);
   foreach (var file in SaveFiles()) File.Delete(file);
   foreach (var pair in kept)
    File.WriteAllBytes(Path.Combine(Application.persistentDataPath,pair.Key),pair.Value);
