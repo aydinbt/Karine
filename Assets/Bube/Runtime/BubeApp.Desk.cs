@@ -180,6 +180,8 @@ public sealed partial class BubeApp {
    Text(paperBody,T("inbox.emptyHelp"),dark,16);
    return;
   }
+  // Evrak satır satır basılır (8 Ekim 2026); içerik kurulduktan sonra başlar.
+  { var key="inbox:"+selected.id;paperBody.schedule.Execute(()=>PrintOut(paperBody,key)).StartingIn(0); }
   if(selected.offer!=null) {
    KarineUI.PaperLetterhead(paperBody,T("offer.unit"));
    KarineUI.PaperText(paperBody,selected.title,KarineTheme.InboxModal.PaperTitleSize).style.marginTop=KarineTheme.SpaceLg;

@@ -1178,3 +1178,4 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - **"Yazarak göster"** açıkken rapor, bulgu sayfası satır satır daktiloyla basılır. Dokunmak basımı bitirir; her sayfa oturumda bir kez basılır.
 - **Telefon:** dokununca çalan çevirme sesi ("zar") kaldırıldı.
 - **CCTV:** kaset animasyonu kaldırıldı. İzleyici siyahtan açılır; kareler ancak görüntü tam açılınca başlar. Kare süresi en az 900 ms. Kayıt 3 tur döner, sonra son karede durur.
+- **Ek (aynı gün):** İngiliz bayrağı çaprazlarla çizildi; önceki hali İzlanda bayrağına benziyordu. Gelen evrak da satır satır basılıyor. Yükleme katmanı açıkken daktilo basımı bekliyor. Görüşme odasına girişte de yükleme katmanı çıkıyor. Yağmurun alçak gövdesi yarıya indi.

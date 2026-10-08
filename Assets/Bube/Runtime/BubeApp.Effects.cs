@@ -89,6 +89,7 @@ public sealed partial class BubeApp {
   body.RegisterCallback<PointerDownEvent>(_=>finish(),TrickleDown.TrickleDown);
   task=body.schedule.Execute(()=>{
    if(done)return;
+   if(root.Q("LoadingScreen")!=null)return; // yükleme katmanının altında basılmaz
    if(index>=labels.Count || body.panel==null){finish();return;}
    var label=labels[index];var full=texts[label];
    shown=Mathf.Min(full.Length,shown+KarineTheme.Effects.PrintChars);

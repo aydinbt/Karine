@@ -13,10 +13,13 @@ namespace Bube {
 // Görüşme ekranı: sorular, kaynak öne sürme, portre.
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
+ bool enteringInterview;
  void InterviewPage(Node node,Question active=null,int phase=0,string answerKey=null,string sourceId=null,bool sourceAccepted=true) {
   if(selectedInterviewNodeId!=node.id){selectedInterviewNodeId=node.id;selectedInterviewTopic=null;showingInterviewHistory=false;}
   if(active!=null && !string.IsNullOrEmpty(active.topicKey))selectedInterviewTopic=active.topicKey;
   bool enteringRoom=SceneManager.GetActiveScene().name!="InterviewScene";
+  // Odaya girerken siyah geçişin ardından yükleme katmanı ve terim ipucu.
+  if(enteringRoom && !enteringInterview){enteringInterview=true;try{LoadThen(()=>InterviewPage(node,active,phase,answerKey,sourceId,sourceAccepted));}finally{enteringInterview=false;}return;}
   if(enteringRoom)showingInterviewHistory=false;
   EnsureScene("InterviewScene");
   showingInterviewList=false;

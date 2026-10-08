@@ -42,7 +42,10 @@ public static partial class KarineUI {
   Color red=new Color(.82f,.1f,.15f),white=Color.white,blue=new Color(.0f,.2f,.55f),green=new Color(0f,.55f,.27f),yellow=new Color(1f,.8f,0f),black=new Color(.08f,.08f,.08f);
   switch(code) {
    case "tr": f.style.backgroundColor=red;Disc(f,12,7,10,white);Disc(f,14.5f,7.8f,8.4f,red);Disc(f,22,10,4,white);break;
-   case "en": f.style.backgroundColor=blue;Bar(f,0,9,36,6,white);Bar(f,15,0,6,24,white);Bar(f,0,10.5f,36,3,red);Bar(f,16.5f,0,3,24,red);break;
+   case "en": {f.style.backgroundColor=blue;
+    // Union Jack: önce çaprazlar (beyaz geniş, kırmızı ince), sonra ortadaki haç.
+    foreach(float a in new[]{33.7f,-33.7f}){var w=Bar(f,-4,10,44,4.5f,white);w.style.rotate=new Rotate(a);var r=Bar(f,-4,11.25f,44,1.5f,red);r.style.rotate=new Rotate(a);}
+    Bar(f,0,8,36,8,white);Bar(f,14,0,8,24,white);Bar(f,0,9.75f,36,4.5f,red);Bar(f,15.75f,0,4.5f,24,red);break;}
    case "de": Stripes(f,false,black,red,yellow);break;
    case "fr": Stripes(f,true,blue,white,red);break;
    case "it": Stripes(f,true,green,white,red);break;

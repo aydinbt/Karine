@@ -279,8 +279,8 @@ def room_rain():
   t = i / RATE
   breath = 0.9 + 0.1 * math.sin(2*math.pi*t/LOOP*2 + 0.4)
   # 8 Ekim 2026: alçak gövde 0.9'dan 0.25'e — yağmur artık varsayılan, sürekli
-  # gövde uğultu gibi duyuluyordu. Hışırtı ve damlalar öne çıkar.
-  out[i] = hiss[i] * 0.55 * breath + body[i] * 0.25
+  # gövde uğultu gibi duyuluyordu. Aynı gün yarıya: 0.12. Hışırtı ve damlalar öne çıkar.
+  out[i] = hiss[i] * 0.55 * breath + body[i] * 0.12
  rng = random.Random(123)
  for _ in range(int(LOOP * 28)):
   start = rng.randrange(n); freq = rng.uniform(1800, 4200)
