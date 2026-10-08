@@ -1,0 +1,596 @@
+{
+ "entries": [
+  {
+   "key": "case023.autopsy.body",
+   "value": "· Cause of death: ligature strangulation; a flat, woven band mark 1.5 cm wide on the neck.\n· Time of death: 7 November 22.30–23.30.\n· Blue woven polyester fibres in the band mark.\n· No defence wounds; from behind, while seated.\n· Post-mortem disorder on and around the sofa; the drawers were rifled hours after death (dust and blood traces do not overlap)."
+  },
+  {
+   "key": "case023.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case023.cctv.event.in",
+   "value": "Camera: A tall man in a hood opens the door without ringing; the door was opened from inside. A lanyard around his neck."
+  },
+  {
+   "key": "case023.cctv.event.none",
+   "value": "Camera: The entrance is empty; no one enters until 03.00."
+  },
+  {
+   "key": "case023.cctv.event.out",
+   "value": "Camera: The same man leaves; nothing in his hands, no lanyard."
+  },
+  {
+   "key": "case023.cctv.overlay",
+   "value": "DOOR"
+  },
+  {
+   "key": "case023.cctv.period",
+   "value": "7–8 November 2029"
+  },
+  {
+   "key": "case023.cctv.source",
+   "value": "Entrance camera"
+  },
+  {
+   "key": "case023.cell.body",
+   "value": "Requested by: bube Berlin, with the branch head’s approval.\n\n· 7 November 22.31–23.26 · Matthias Kern’s phone on the Friedrichshain, Krossener Straße cell.\n· 23.48 · Wedding.\n\nKern had said “I was at home in Wedding”."
+  },
+  {
+   "key": "case023.cell.title",
+   "value": "CELL SITE RECORD — MATTHIAS KERN"
+  },
+  {
+   "key": "case023.cloud.body",
+   "value": "The laptop was recovered from Kevin Schulz; the local files were not deleted, but the real trace is in the cloud.\n\n· 7 November 22.51 · last uploaded file: “Arendt — inside source.docx”\n· Contents: €3,000 a month since 2028 from a Luxembourg account of Arendt Handelsgesellschaft to Matthias Kern; Clara’s note: “Holt’s file vanished at intake; files are vanishing in Berlin too. Ute tomorrow.”\n· 22.53 · log-out attempt from the computer, unsuccessful."
+  },
+  {
+   "key": "case023.cloud.title",
+   "value": "CLOUD SYNC LOG — CLARA WEISS"
+  },
+  {
+   "key": "case023.clue.burglar",
+   "value": "Kevin Schulz comes in through the open balcony door; finds the woman dead."
+  },
+  {
+   "key": "case023.clue.in",
+   "value": "A hooded man with a lanyard enters the building."
+  },
+  {
+   "key": "case023.clue.note",
+   "value": "Kern lists the next blocks in the burglary series; Clara’s is on the list."
+  },
+  {
+   "key": "case023.clue.out",
+   "value": "The same man leaves; no lanyard."
+  },
+  {
+   "key": "case023.clue.source.cloud",
+   "value": "Cloud sync"
+  },
+  {
+   "key": "case023.clue.source.ilse",
+   "value": "Downstairs neighbour"
+  },
+  {
+   "key": "case023.clue.source.kevin",
+   "value": "The burglar"
+  },
+  {
+   "key": "case023.clue.source.series",
+   "value": "Burglary series file"
+  },
+  {
+   "key": "case023.clue.upload",
+   "value": "Clara uploads the file ‘Arendt — inside source’ to the cloud."
+  },
+  {
+   "key": "case023.clue.voice",
+   "value": "Downstairs: ‘Give me the file… don’t go to Ute tomorrow.’"
+  },
+  {
+   "key": "case023.custody.label",
+   "value": "What happened in the flat that night?"
+  },
+  {
+   "key": "case023.custody.one",
+   "value": "One event — murder during a burglary"
+  },
+  {
+   "key": "case023.custody.staged",
+   "value": "The burglary never happened; it was staged"
+  },
+  {
+   "key": "case023.custody.two",
+   "value": "Two separate events — first the murder, the burglary hours later"
+  },
+  {
+   "key": "case023.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case023.door.body",
+   "value": "The building’s entrance door; it does not see the balcony side. 7 November 22.00 – 8 November 03.00."
+  },
+  {
+   "key": "case023.door.title",
+   "value": "BUILDING ENTRANCE CAMERA — log transcript"
+  },
+  {
+   "key": "case023.epilogue.custody.one",
+   "value": "The burglary and the death were treated as one event; the real time dropped out of the file."
+  },
+  {
+   "key": "case023.epilogue.custody.staged",
+   "value": "The real burglary was dismissed; Schulz’s confession and the sold laptop went unexplained."
+  },
+  {
+   "key": "case023.epilogue.custody.two",
+   "value": "The burglary and the murder were recorded separately; the murder was removed from Schulz’s file."
+  },
+  {
+   "key": "case023.epilogue.custody.unknown",
+   "value": "The order of events remained open."
+  },
+  {
+   "key": "case023.epilogue.verdict.kevin",
+   "value": "Kevin Schulz was convicted of murder. Matthias Kern moved to Clara’s desk; the Arendt file closed in his hands."
+  },
+  {
+   "key": "case023.epilogue.verdict.matthias",
+   "value": "Matthias Kern was arrested for murder; the Arendt payments went to the prosecutor. Kevin Schulz was tried for eleven burglaries, not for murder."
+  },
+  {
+   "key": "case023.epilogue.verdict.nobody",
+   "value": "The file was closed as ‘death during a burglary’."
+  },
+  {
+   "key": "case023.epilogue.verdict.ute",
+   "value": "Ute Sommer was suspended; the internal branch inquiry was given to Matthias Kern."
+  },
+  {
+   "key": "case023.evidence.cell",
+   "value": "Kern’s cell site record"
+  },
+  {
+   "key": "case023.evidence.cloud",
+   "value": "Cloud sync log"
+  },
+  {
+   "key": "case023.evidence.fibre",
+   "value": "Lanyard fibre comparison"
+  },
+  {
+   "key": "case023.evidence.series",
+   "value": "Burglary series file"
+  },
+  {
+   "key": "case023.feedback.kevin",
+   "value": "The burglar came in hours after the death, at 02.00; in none of the eleven incidents in the series had he touched anyone."
+  },
+  {
+   "key": "case023.feedback.matthias",
+   "value": "The cell site record and the entrance camera put him in the building at the time of death; Clara’s skin is on his lanyard; he was taking money from Arendt and knew from his own file that the burglar would come."
+  },
+  {
+   "key": "case023.feedback.nobody",
+   "value": "The band mark shows ligature strangulation; not an accident."
+  },
+  {
+   "key": "case023.feedback.ute",
+   "value": "The head’s message was to talk the next morning; she was not the one in the building that night."
+  },
+  {
+   "key": "case023.fibre.body",
+   "value": "The blue woven polyester fibres from the neck are the same weave as bube Berlin staff lanyards. The lanyard Matthias Kern replaced on 8 November, saying he had “lost it”, was found in the rubbish container at his home in Wedding: the weave torn, Clara Weiß’s skin cells on it."
+  },
+  {
+   "key": "case023.fibre.title",
+   "value": "FIBRE COMPARISON — LANYARD"
+  },
+  {
+   "key": "case023.file.caseType",
+   "value": "MURDER"
+  },
+  {
+   "key": "case023.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Branch"
+  },
+  {
+   "key": "case023.file.value.location",
+   "value": "Friedrichshain, flat — 3rd floor"
+  },
+  {
+   "key": "case023.file.value.number",
+   "value": "BDS-BER-2029-0094"
+  },
+  {
+   "key": "case023.file.value.offence",
+   "value": "Murder; burglary"
+  },
+  {
+   "key": "case023.file.value.reporter",
+   "value": "Ute Sommer, branch head"
+  },
+  {
+   "key": "case023.ilse.balcony.answer",
+   "value": "At two in the night, a rattle on the balcony. A burglar, I said; every week in this area. I still didn’t get up."
+  },
+  {
+   "key": "case023.ilse.balcony.question",
+   "value": "Anything else?"
+  },
+  {
+   "key": "case023.ilse.body",
+   "value": "The downstairs neighbour."
+  },
+  {
+   "key": "case023.ilse.deflect",
+   "value": "I’m an old woman, I sleep."
+  },
+  {
+   "key": "case023.ilse.title",
+   "value": "Ilse Brück — interview"
+  },
+  {
+   "key": "case023.ilse.voices.answer",
+   "value": "At quarter past ten, a man’s voice upstairs. He wasn’t shouting, more like talking business. ‘Give me the file,’ he said, and ‘don’t go to Ute tomorrow’. Then silence. So I put the television on."
+  },
+  {
+   "key": "case023.ilse.voices.answer.demeanor",
+   "value": "Certain."
+  },
+  {
+   "key": "case023.ilse.voices.question",
+   "value": "Did you hear anything that night?"
+  },
+  {
+   "key": "case023.kevin.body",
+   "value": "The perpetrator of the burglary series."
+  },
+  {
+   "key": "case023.kevin.dead.answer",
+   "value": "On the way out I shone the torch on her face. Her eyes were open. I ran. I’m a burglar, not a killer. I never touched anyone in any house; look at your file."
+  },
+  {
+   "key": "case023.kevin.dead.question",
+   "value": "You didn’t notice she was dead?"
+  },
+  {
+   "key": "case023.kevin.deflect",
+   "value": "I won’t talk about murder without my lawyer."
+  },
+  {
+   "key": "case023.kevin.night.answer",
+   "value": "Around two in the night. The balcony door was open, left open; I didn’t even force it. The woman was on the sofa, I thought she was asleep. I went through the drawers and took the laptop."
+  },
+  {
+   "key": "case023.kevin.night.answer.demeanor",
+   "value": "He talks fast."
+  },
+  {
+   "key": "case023.kevin.night.question",
+   "value": "When did you enter Clara Weiß’s flat?"
+  },
+  {
+   "key": "case023.kevin.quote",
+   "value": "“The balcony door was open; I didn’t even force it.”"
+  },
+  {
+   "key": "case023.kevin.title",
+   "value": "Kevin Schulz — interview"
+  },
+  {
+   "key": "case023.matthias.body",
+   "value": "Team colleague."
+  },
+  {
+   "key": "case023.matthias.deflect",
+   "value": "Clara was my friend. For you to ask me this…"
+  },
+  {
+   "key": "case023.matthias.night.answer",
+   "value": "At home in Wedding. I went to bed early. Clara and I last spoke in the afternoon at the branch."
+  },
+  {
+   "key": "case023.matthias.night.answer.demeanor",
+   "value": "Calm, too calm."
+  },
+  {
+   "key": "case023.matthias.night.question",
+   "value": "Where were you on the evening of 7 November?"
+  },
+  {
+   "key": "case023.matthias.series.answer",
+   "value": "Yes. Schulz. He comes in over balconies, never touches anyone… usually. This time the woman must have woken up."
+  },
+  {
+   "key": "case023.matthias.series.question",
+   "value": "The burglary series is your file."
+  },
+  {
+   "key": "case023.matthias.title",
+   "value": "Matthias Kern — interview"
+  },
+  {
+   "key": "case023.matthias_2.body",
+   "value": "On the cell site record and the cloud log."
+  },
+  {
+   "key": "case023.matthias_2.door.answer",
+   "value": "…I don’t know."
+  },
+  {
+   "key": "case023.matthias_2.door.question",
+   "value": "Who left the balcony door open?"
+  },
+  {
+   "key": "case023.matthias_2.money.answer",
+   "value": "Consulting. An old job."
+  },
+  {
+   "key": "case023.matthias_2.money.question",
+   "value": "Arendt sends you three thousand euros every month."
+  },
+  {
+   "key": "case023.matthias_2.title",
+   "value": "Matthias Kern — second interview"
+  },
+  {
+   "key": "case023.matthias_2.where.answer",
+   "value": "I dropped by. To talk about a file. She was alive when I left."
+  },
+  {
+   "key": "case023.matthias_2.where.answer.demeanor",
+   "value": "He didn’t blink."
+  },
+  {
+   "key": "case023.matthias_2.where.question",
+   "value": "Your phone is on Clara Weiß’s street between 22.31 and 23.26."
+  },
+  {
+   "key": "case023.matthias_3.body",
+   "value": "On the lanyard."
+  },
+  {
+   "key": "case023.matthias_3.title",
+   "value": "Matthias Kern — third interview"
+  },
+  {
+   "key": "case023.matthias_3.truth.answer",
+   "value": "She gave me one night. ‘Go to Ute yourself, or I will.’ If I’d gone, my ten years were over. I was behind her, the lanyard was around my neck… Then I opened the balcony door. I’d written the next block in the series myself; I knew Schulz would come. He’d come, he’d wreck the place, you’d find him. And you did."
+  },
+  {
+   "key": "case023.matthias_3.truth.answer.demeanor",
+   "value": "He laid his hands flat on the table."
+  },
+  {
+   "key": "case023.matthias_3.truth.question",
+   "value": "Clara Weiß’s skin is on your lanyard."
+  },
+  {
+   "key": "case023.method.burglar",
+   "value": "She woke and was strangled by hand by the burglar"
+  },
+  {
+   "key": "case023.method.fall",
+   "value": "She fell and hit her head"
+  },
+  {
+   "key": "case023.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case023.method.lanyard",
+   "value": "She was strangled from behind with a lanyard while seated"
+  },
+  {
+   "key": "case023.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case023.offer.subtitle",
+   "value": "THE BURGLAR  /  MURDER"
+  },
+  {
+   "key": "case023.offer.summary",
+   "value": "A bube Berlin analyst is found dead in her ransacked flat. The same day, the neighbourhood’s balcony burglar is caught selling her laptop. The file seems closed."
+  },
+  {
+   "key": "case023.offer.title",
+   "value": "FILE #023"
+  },
+  {
+   "key": "case023.person.ilse.info",
+   "value": "73, Clara Weiß’s downstairs neighbour."
+  },
+  {
+   "key": "case023.person.ilse.name",
+   "value": "Ilse Brück"
+  },
+  {
+   "key": "case023.person.kevin.info",
+   "value": "29, the wanted perpetrator of the balcony burglary series in Friedrichshain; caught selling the laptop."
+  },
+  {
+   "key": "case023.person.kevin.name",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.person.matthias.info",
+   "value": "38, bube Berlin analyst; Clara Weiß’s team colleague, in charge of the burglary series file."
+  },
+  {
+   "key": "case023.person.matthias.name",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.person.ute.info",
+   "value": "54, head of bube Berlin — Kreuzberg Branch."
+  },
+  {
+   "key": "case023.person.ute.name",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.report.body",
+   "value": "On 8 November 2029 at 08.40 in Friedrichshain, bube Berlin analyst Clara Weiß (34) was found dead on the sofa in her third-floor flat. When she did not come to work, branch head Ute Sommer called; when there was no answer, the caretaker opened the door.\n\nThe flat ransacked, the balcony door open, the laptop missing. Patrol note: “Identical to the balcony burglary series that has been going on in the area for two months. The burglar surprised Clara asleep and strangled her when she woke.”\n\n8 November, afternoon: Kevin Schulz was caught selling Clara Weiß’s laptop at a second-hand shop."
+  },
+  {
+   "key": "case023.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case023.request.cell",
+   "value": "Request Kern’s cell site record"
+  },
+  {
+   "key": "case023.request.cloud",
+   "value": "Request Clara Weiß’s cloud sync log"
+  },
+  {
+   "key": "case023.request.fibre",
+   "value": "Request Kern’s old lanyard"
+  },
+  {
+   "key": "case023.request.series",
+   "value": "Request the burglary series file"
+  },
+  {
+   "key": "case023.series.body",
+   "value": "File holder: Matthias Kern, bube Berlin.\n\n· September–November 2029: 11 balcony entries, all between 01.00 and 03.30.\n· The perpetrator made contact with no one in any incident; withdrew if the home was occupied, left sleepers untouched.\n· Kern’s note of 30 October: “Likely next blocks: around Krossener Straße; floors 2–4, flats with balconies facing the street.”\n\nClara Weiß’s flat is in a block on that list, on the third floor."
+  },
+  {
+   "key": "case023.series.title",
+   "value": "BURGLARY SERIES FILE — FRIEDRICHSHAIN"
+  },
+  {
+   "key": "case023.summary.evidence",
+   "value": "The autopsy showed the time of death and that the drawers were rifled hours later; the entrance camera showed a man with a lanyard inside at the time of death, and the entrance empty at two in the night. The ‘don’t go to Ute tomorrow’ the neighbour heard, the inside-source file in the cloud log, the cell site record and the skin cells on the lanyard closed the chain."
+  },
+  {
+   "key": "case023.summary.lesson",
+   "value": "A real crime is the best place to hide another one. Before treating an incident as one event, separate its times."
+  },
+  {
+   "key": "case023.summary.location",
+   "value": "Friedrichshain, Berlin — November 2029"
+  },
+  {
+   "key": "case023.summary.truth",
+   "value": "Since 2028 bube Berlin analyst Matthias Kern had been taking monthly payments from Arendt Handelsgesellschaft. His colleague Clara Weiß found out and was going to the branch head. On the night of 7 November Kern went to Clara’s home, strangled her with his lanyard and left the balcony door open; from the burglary series he himself was running, he knew Kevin Schulz would come to the next block. Schulz came at two in the night, found the dead woman, took the laptop and fled."
+  },
+  {
+   "key": "case023.suspect.label",
+   "value": "Who is responsible for Clara Weiß’s death?"
+  },
+  {
+   "key": "case023.tablet.caseLine",
+   "value": "FILE #023  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case023.time.burglar",
+   "value": "8 Nov. 02.00"
+  },
+  {
+   "key": "case023.time.in",
+   "value": "22.38"
+  },
+  {
+   "key": "case023.time.none",
+   "value": "02.00"
+  },
+  {
+   "key": "case023.time.note",
+   "value": "30 Oct."
+  },
+  {
+   "key": "case023.time.out",
+   "value": "23.21"
+  },
+  {
+   "key": "case023.time.upload",
+   "value": "22.51"
+  },
+  {
+   "key": "case023.time.voice",
+   "value": "7 Nov. 22.45"
+  },
+  {
+   "key": "case023.title",
+   "value": "File #023 — The Burglar"
+  },
+  {
+   "key": "case023.ute.body",
+   "value": "Branch head."
+  },
+  {
+   "key": "case023.ute.deflect",
+   "value": "That’s branch business; it doesn’t leave the building."
+  },
+  {
+   "key": "case023.ute.team.answer",
+   "value": "Matthias Kern. She was working with him on the Arendt file; the balcony burglary series is also Matthias’s."
+  },
+  {
+   "key": "case023.ute.team.question",
+   "value": "Who was on her team?"
+  },
+  {
+   "key": "case023.ute.title",
+   "value": "Ute Sommer — interview"
+  },
+  {
+   "key": "case023.ute.work.answer",
+   "value": "The money trail from the London file: Arendt Handelsgesellschaft. The money going to Holt’s account. On 7 November Clara messaged me: ‘We need to talk tomorrow morning; it’s someone inside the branch.’ She didn’t come in the morning."
+  },
+  {
+   "key": "case023.ute.work.answer.demeanor",
+   "value": "Her voice hard, her eyes not."
+  },
+  {
+   "key": "case023.ute.work.question",
+   "value": "What was Clara Weiß working on?"
+  },
+  {
+   "key": "case023.verdict.kevin",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.verdict.matthias",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.verdict.nobody",
+   "value": "No one — an accident during a burglary"
+  },
+  {
+   "key": "case023.verdict.ute",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.item.lanyard.name",
+   "value": "Lanyard"
+  },
+  {
+   "key": "case023.item.lanyard.detail",
+   "value": "A blue lanyard torn through the middle."
+  },
+  {
+   "key": "case023.item.laptop.name",
+   "value": "Laptop"
+  },
+  {
+   "key": "case023.item.laptop.detail",
+   "value": "A laptop with a second-hand shop tag."
+  },
+  {
+   "key": "case023.item.drawers.name",
+   "value": "Ransacked flat"
+  },
+  {
+   "key": "case023.item.drawers.detail",
+   "value": "A flat with its drawers pulled out and the balcony door ajar."
+  }
+ ]
+}

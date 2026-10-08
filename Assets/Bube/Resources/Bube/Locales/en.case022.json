@@ -1,0 +1,600 @@
+{
+ "entries": [
+  {
+   "key": "case022.audit.body",
+   "value": "Internal company audit, opened at Dieter Brandt’s request, not concluded.\n\n· 412 cash fine receipts in Sven Ott’s book; 196 of them reached the till.\n· Difference: approx. €12,900.\n· Dieter Brandt’s note, 9 October: “Spoke to Sven. Gave him until the end of the week.”"
+  },
+  {
+   "key": "case022.audit.title",
+   "value": "CASH FINE AUDIT — 2028–2029"
+  },
+  {
+   "key": "case022.autopsy.body",
+   "value": "· Cause of death: a single heavy blow to the back of the head; consistent not with striking the pole but with a narrow, edged object.\n· Blow from behind, downwards; the attacker taller than the victim or standing while the victim bent over.\n· Time of death: 23.50–00.05.\n· Plastic fragments in the wound: black, hard ABS; consistent with a handheld terminal casing."
+  },
+  {
+   "key": "case022.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case022.clue.audit9",
+   "value": "Brandt gives Ott until the end of the week over the cash receipts."
+  },
+  {
+   "key": "case022.clue.f1",
+   "value": "Fine for Jannik Lorenz."
+  },
+  {
+   "key": "case022.clue.f2",
+   "value": "Fine for Nele Hartmann."
+  },
+  {
+   "key": "case022.clue.f3",
+   "value": "Fine for Okan Yıldız."
+  },
+  {
+   "key": "case022.clue.hit",
+   "value": "Brandt’s terminal hits the floor; impact signal on Ott’s terminal."
+  },
+  {
+   "key": "case022.clue.source.audit",
+   "value": "Cash fine audit"
+  },
+  {
+   "key": "case022.clue.source.fines",
+   "value": "Brandt’s terminal"
+  },
+  {
+   "key": "case022.clue.source.svenlog",
+   "value": "Ott’s terminal"
+  },
+  {
+   "key": "case022.clue.sv1",
+   "value": "Ott’s terminal moves into the last carriage."
+  },
+  {
+   "key": "case022.custody.label",
+   "value": "Why did three witnesses describe three different people?"
+  },
+  {
+   "key": "case022.custody.liar",
+   "value": "At least two of the witnesses are lying"
+  },
+  {
+   "key": "case022.custody.one",
+   "value": "One fare dodger, seen through three different eyes"
+  },
+  {
+   "key": "case022.custody.three",
+   "value": "Three separate fare dodgers — each witness described their own fine"
+  },
+  {
+   "key": "case022.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case022.epilogue.custody.liar",
+   "value": "The witnesses were deemed liars; the key witness’s statement went in the bin with theirs."
+  },
+  {
+   "key": "case022.epilogue.custody.one",
+   "value": "A single fare dodger who never existed was searched for; for months."
+  },
+  {
+   "key": "case022.epilogue.custody.three",
+   "value": "The three statements did not contradict one another: each had described their own fine. Okan Yıldız’s ‘colleague’ line was put back in the file."
+  },
+  {
+   "key": "case022.epilogue.custody.unknown",
+   "value": "Why the witnesses diverged remained open."
+  },
+  {
+   "key": "case022.epilogue.verdict.jannik",
+   "value": "Jannik Lorenz was taken into custody and suspended from school. The following week Sven Ott went out on shift with his new partner."
+  },
+  {
+   "key": "case022.epilogue.verdict.nele",
+   "value": "Nele Hartmann was charged and lost her job. The cash receipt gap never made it into anyone’s file."
+  },
+  {
+   "key": "case022.epilogue.verdict.okan",
+   "value": "Okan Yıldız was tried; in court no one put his line ‘his colleague was there’ on the record."
+  },
+  {
+   "key": "case022.epilogue.verdict.sven",
+   "value": "Sven Ott was arrested for murder; a separate file was opened on the cash fines. The three passengers paid their fines."
+  },
+  {
+   "key": "case022.evidence.audit",
+   "value": "Cash fine audit"
+  },
+  {
+   "key": "case022.evidence.fines",
+   "value": "Brandt’s fine log"
+  },
+  {
+   "key": "case022.evidence.plastic",
+   "value": "Terminal casing comparison"
+  },
+  {
+   "key": "case022.evidence.svenlog",
+   "value": "Ott’s location log"
+  },
+  {
+   "key": "case022.feedback.jannik",
+   "value": "The boy was fined at 23.31 and sat at the front; the bike bay even blocked his view of the back."
+  },
+  {
+   "key": "case022.feedback.nele",
+   "value": "The courier was fined at 23.39 and stayed in front of the bike bay; at the rear door she only saw an orange vest."
+  },
+  {
+   "key": "case022.feedback.okan",
+   "value": "Okan paid his fine politely and said from the start that he saw the colleague."
+  },
+  {
+   "key": "case022.feedback.sven",
+   "value": "The location log puts him at the rear door at 23.48; the terminal casing fits the wound; Brandt was going to report him over the cash receipts."
+  },
+  {
+   "key": "case022.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case022.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Branch"
+  },
+  {
+   "key": "case022.file.value.location",
+   "value": "S-Bahn Ring line, last carriage — Ostkreuz"
+  },
+  {
+   "key": "case022.file.value.number",
+   "value": "BDS-BER-2029-0083"
+  },
+  {
+   "key": "case022.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case022.file.value.reporter",
+   "value": "Train driver"
+  },
+  {
+   "key": "case022.fines.body",
+   "value": "Night shift 16–17 October 2029, last carriage.\n\n· 23.31 · before Treptower Park · Jannik Lorenz · no ticket, €60\n· 23.39 · Plänterwald · Nele Hartmann · no bike ticket, €60\n· 23.47 · before Ostkreuz · Okan Yıldız · expired season ticket, €60\n· 23.49 · terminal drop signal; no entries after.\n\nThree witnesses describe three different people; all three were fined."
+  },
+  {
+   "key": "case022.fines.title",
+   "value": "FINE LOG — DIETER BRANDT’S TERMINAL"
+  },
+  {
+   "key": "case022.jannik.body",
+   "value": "The boy in the hoodie."
+  },
+  {
+   "key": "case022.jannik.deflect",
+   "value": "I’m not talking till my mum gets here."
+  },
+  {
+   "key": "case022.jannik.saw.answer",
+   "value": "The inspector had a shouting match with a kid in a hoodie in front of me, before Treptower Park. The kid said ‘My ticket’s on my phone’, the inspector wrote a fine. I had my headphones in. I didn’t see the back, there’s the bike bay."
+  },
+  {
+   "key": "case022.jannik.saw.answer.demeanor",
+   "value": "He tugged at his hood."
+  },
+  {
+   "key": "case022.jannik.saw.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case022.jannik.title",
+   "value": "Jannik Lorenz — interview"
+  },
+  {
+   "key": "case022.jannik.who.answer",
+   "value": "…Yes. I forgot my ticket. I got fined, then I sat down. If I’d said, they’d call me the killer."
+  },
+  {
+   "key": "case022.jannik.who.question",
+   "value": "Could that kid in the hoodie be you?"
+  },
+  {
+   "key": "case022.method.device",
+   "value": "He was struck on the head from behind with a handheld terminal while bent over"
+  },
+  {
+   "key": "case022.method.fall",
+   "value": "He fell when the train braked"
+  },
+  {
+   "key": "case022.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case022.method.pole",
+   "value": "He was pushed during an argument and hit the pole"
+  },
+  {
+   "key": "case022.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case022.nele.body",
+   "value": "The bike courier."
+  },
+  {
+   "key": "case022.nele.deflect",
+   "value": "So because they fined me you’re making me the killer?"
+  },
+  {
+   "key": "case022.nele.later.answer",
+   "value": "A dull thud before Ostkreuz. You can’t see over the bike bay, it’s too high. By the rear door I only saw an orange vest, the top of it."
+  },
+  {
+   "key": "case022.nele.later.question",
+   "value": "Did you hear anything at the back afterwards?"
+  },
+  {
+   "key": "case022.nele.saw.answer",
+   "value": "The inspector argued with a woman with a bike, about not having a bike ticket. Around Plänterwald. The woman said whatever came into her head. That woman was me, yes. Then I buried myself in my phone next to my bike."
+  },
+  {
+   "key": "case022.nele.saw.answer.demeanor",
+   "value": "She folded her arms."
+  },
+  {
+   "key": "case022.nele.saw.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case022.nele.title",
+   "value": "Nele Hartmann — interview"
+  },
+  {
+   "key": "case022.offer.subtitle",
+   "value": "NIGHT TRAIN  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case022.offer.summary",
+   "value": "At midnight an S-Bahn ticket inspector is found dead in the last carriage. Three passengers describe the fare dodger who argued with him — but three different people."
+  },
+  {
+   "key": "case022.offer.title",
+   "value": "FILE #022"
+  },
+  {
+   "key": "case022.okan.body",
+   "value": "The man in the suit."
+  },
+  {
+   "key": "case022.okan.deflect",
+   "value": "I was just going home."
+  },
+  {
+   "key": "case022.okan.quote",
+   "value": "“Of course his colleague was there, they said.”"
+  },
+  {
+   "key": "case022.okan.saw.answer",
+   "value": "I was fined too, I admit it. My season ticket ran out yesterday. The inspector spoke to me before Ostkreuz, a polite man. After he moved on, two men in vests argued by the rear door. The inspector and his colleague, the same vest."
+  },
+  {
+   "key": "case022.okan.saw.answer.demeanor",
+   "value": "He took off his glasses and wiped them."
+  },
+  {
+   "key": "case022.okan.saw.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case022.okan.title",
+   "value": "Okan Yıldız — interview"
+  },
+  {
+   "key": "case022.okan.who.answer",
+   "value": "Tall. The inspector was bent over, picking something up off the floor; the fine receipts had scattered. The other one raised the device in his hand. I turned my head, minded my own business. I told the patrol this; ‘of course his colleague was there,’ they said."
+  },
+  {
+   "key": "case022.okan.who.question",
+   "value": "What was the colleague like?"
+  },
+  {
+   "key": "case022.person.jannik.info",
+   "value": "17, secondary school pupil. Hoodie, headphones."
+  },
+  {
+   "key": "case022.person.jannik.name",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.person.nele.info",
+   "value": "31, bike courier. On the train that night with her bike."
+  },
+  {
+   "key": "case022.person.nele.name",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.person.okan.info",
+   "value": "52, accountant in Neukölln; born in Kreuzberg."
+  },
+  {
+   "key": "case022.person.okan.name",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.person.petra.info",
+   "value": "47, shift supervisor of the inspection teams."
+  },
+  {
+   "key": "case022.person.petra.name",
+   "value": "Petra Lindner"
+  },
+  {
+   "key": "case022.person.sven.info",
+   "value": "44, ticket inspector. Dieter Brandt’s team partner for eleven years."
+  },
+  {
+   "key": "case022.person.sven.name",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.petra.body",
+   "value": "Shift supervisor."
+  },
+  {
+   "key": "case022.petra.deflect",
+   "value": "Ask the company lawyer about that."
+  },
+  {
+   "key": "case022.petra.device.answer",
+   "value": "Every fine, the time, the stop and the device’s position in the carriage. Sven’s terminal came in cracked; it’s in the store."
+  },
+  {
+   "key": "case022.petra.device.question",
+   "value": "Do the terminals keep records?"
+  },
+  {
+   "key": "case022.petra.pair.answer",
+   "value": "Eleven years. But last month Dieter asked me about the cash fine books. ‘The receipts and what reached the till don’t match; I know whose book it is, I’ll talk to him first,’ he said. He didn’t say who."
+  },
+  {
+   "key": "case022.petra.pair.question",
+   "value": "What kind of team were Brandt and Ott?"
+  },
+  {
+   "key": "case022.petra.title",
+   "value": "Petra Lindner — interview"
+  },
+  {
+   "key": "case022.plan.body",
+   "value": "Bird’s-eye sketch. Left to right: front door, rows of seats, a tall bike bay running the length of the middle, rear seats and the rear door. The victim was found in front of the rear door.\n\nPositions described by witnesses are marked on the plan."
+  },
+  {
+   "key": "case022.plan.incident",
+   "value": "Cross: in front of the carriage’s rear door, where the victim was found. Tap the markers to draw the area visible from that point."
+  },
+  {
+   "key": "case022.plan.marker.jannik_claim",
+   "value": "Jannik Lorenz — where he says he was: seat by the front door"
+  },
+  {
+   "key": "case022.plan.marker.nele_claim",
+   "value": "Nele Hartmann — where she says she was: in front of the bike bay"
+  },
+  {
+   "key": "case022.plan.marker.okan_claim",
+   "value": "Okan Yıldız — where he says he was: seat near the rear door"
+  },
+  {
+   "key": "case022.plan.title",
+   "value": "CARRIAGE PLAN — LAST CARRIAGE"
+  },
+  {
+   "key": "case022.plastic.body",
+   "value": "The black ABS fragments from the wound were compared with the cracked terminal casing Sven Ott handed in: the broken edges fit exactly. Dieter Brandt’s blood on the corner of the casing."
+  },
+  {
+   "key": "case022.plastic.title",
+   "value": "FORENSIC COMPARISON — TERMINAL CASING"
+  },
+  {
+   "key": "case022.report.body",
+   "value": "On 17 October 2029 at 00.14, in the last carriage of the S-Bahn Ring line, on arrival at Ostkreuz, a ticket inspector was found dead on the floor: Dieter Brandt (58). A heavy blow to the back of the head; beside him, a grab pole.\n\nPatrol note: “The three passengers in the carriage described the fare dodger who argued with the inspector at the last stop — but three different people: a boy in a hoodie, a woman with a bike, a man in a suit. The witnesses contradict one another. The fare dodger was not found.”"
+  },
+  {
+   "key": "case022.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case022.request.audit",
+   "value": "Request the cash fine audit"
+  },
+  {
+   "key": "case022.request.fines",
+   "value": "Request Brandt’s terminal records"
+  },
+  {
+   "key": "case022.request.plastic",
+   "value": "Compare Ott’s terminal casing with the wound"
+  },
+  {
+   "key": "case022.request.svenlog",
+   "value": "Request Ott’s terminal records"
+  },
+  {
+   "key": "case022.summary.evidence",
+   "value": "The fine log showed that the three ‘contradictory’ witnesses were describing three separate fines. The carriage plan showed that the bike bay blocked the view from the front to the back, and that Okan Yıldız could see the rear door. Ott’s terminal location log, the audit and the casing fragments completed the chain."
+  },
+  {
+   "key": "case022.summary.lesson",
+   "value": "Witnesses who contradict each other need not be liars; they may be describing different moments. The most ordinary person — ‘of course his colleague was there’ — is often the one least questioned."
+  },
+  {
+   "key": "case022.summary.location",
+   "value": "Berlin, S-Bahn Ring line — October 2029"
+  },
+  {
+   "key": "case022.summary.truth",
+   "value": "For two years inspector Sven Ott had been pocketing half the cash fine receipts. His partner Dieter Brandt noticed and gave him a deadline. On the night of 16 October Brandt fined three separate fare dodgers in the last carriage. Before Ostkreuz Ott came to the last carriage; as Brandt gathered the receipts from the floor, Ott struck him from behind with his handheld terminal and went back to the front carriage."
+  },
+  {
+   "key": "case022.suspect.label",
+   "value": "Who is responsible for Dieter Brandt’s death?"
+  },
+  {
+   "key": "case022.sven.body",
+   "value": "The victim’s team partner."
+  },
+  {
+   "key": "case022.sven.deflect",
+   "value": "I’ve lost my partner. I don’t want to talk about it."
+  },
+  {
+   "key": "case022.sven.night.answer",
+   "value": "Dieter took the last carriage, I took the front one. I got off at Ostkreuz; when I couldn’t reach him on the radio I ran to the back. He was on the floor. One of the fare dodgers did it, one of those arguments."
+  },
+  {
+   "key": "case022.sven.night.answer.demeanor",
+   "value": "He kept his hands in his pockets."
+  },
+  {
+   "key": "case022.sven.night.question",
+   "value": "Where were you that night?"
+  },
+  {
+   "key": "case022.sven.terminal.answer",
+   "value": "I dropped it, the casing cracked, I handed it in to the shift supervisor."
+  },
+  {
+   "key": "case022.sven.terminal.question",
+   "value": "Where is your handheld terminal?"
+  },
+  {
+   "key": "case022.sven.title",
+   "value": "Sven Ott — interview"
+  },
+  {
+   "key": "case022.sven_2.body",
+   "value": "On the location log and the audit."
+  },
+  {
+   "key": "case022.sven_2.money.answer",
+   "value": "We worked together eleven years. Eleven years. My daughter’s at university, the rent…"
+  },
+  {
+   "key": "case022.sven_2.money.question",
+   "value": "Brandt had given you until the end of the week."
+  },
+  {
+   "key": "case022.sven_2.title",
+   "value": "Sven Ott — second interview"
+  },
+  {
+   "key": "case022.sven_2.where.answer",
+   "value": "I went to ask him something. The fine tariff. I came back."
+  },
+  {
+   "key": "case022.sven_2.where.answer.demeanor",
+   "value": "His voice rose."
+  },
+  {
+   "key": "case022.sven_2.where.question",
+   "value": "Your terminal is at the last carriage’s rear door at 23.48."
+  },
+  {
+   "key": "case022.sven_3.body",
+   "value": "On the casing comparison."
+  },
+  {
+   "key": "case022.sven_3.title",
+   "value": "Sven Ott — third interview"
+  },
+  {
+   "key": "case022.sven_3.truth.answer",
+   "value": "He was picking the receipts up off the floor, mine. ‘I’m giving them to Petra on Monday,’ he said, without looking at me. With the device in my hand… Then I walked to the front. There were three fare dodgers in the carriage; I thought they’d say one of them did it."
+  },
+  {
+   "key": "case022.sven_3.truth.answer.demeanor",
+   "value": "He buried his head in his hands."
+  },
+  {
+   "key": "case022.sven_3.truth.question",
+   "value": "Your casing fits the wound."
+  },
+  {
+   "key": "case022.svenlog.body",
+   "value": "Same shift.\n\n· 23.20–23.44 · front carriage, four fines.\n· 23.45 · position: last carriage, front door.\n· 23.48 · position: last carriage, rear door.\n· 23.49 · impact sensor: hard impact; casing damage.\n· 23.53 · position: front carriage.\n\nSven Ott had said “I was in the front carriage”."
+  },
+  {
+   "key": "case022.svenlog.title",
+   "value": "LOCATION LOG — SVEN OTT’S TERMINAL"
+  },
+  {
+   "key": "case022.tablet.caseLine",
+   "value": "FILE #022  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case022.time.audit9",
+   "value": "9 Oct."
+  },
+  {
+   "key": "case022.time.f1",
+   "value": "16 Oct. 23.31"
+  },
+  {
+   "key": "case022.time.f2",
+   "value": "23.39"
+  },
+  {
+   "key": "case022.time.f3",
+   "value": "23.47"
+  },
+  {
+   "key": "case022.time.hit",
+   "value": "23.49"
+  },
+  {
+   "key": "case022.time.sv1",
+   "value": "23.45"
+  },
+  {
+   "key": "case022.title",
+   "value": "File #022 — Night Train"
+  },
+  {
+   "key": "case022.verdict.jannik",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.verdict.nele",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.verdict.okan",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.verdict.sven",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.item.terminal.name",
+   "value": "Ticket terminal"
+  },
+  {
+   "key": "case022.item.terminal.detail",
+   "value": "A handheld terminal with a broken corner."
+  },
+  {
+   "key": "case022.item.receipts.name",
+   "value": "Fine receipts"
+  },
+  {
+   "key": "case022.item.receipts.detail",
+   "value": "Fine receipts scattered on the carriage floor."
+  }
+ ]
+}
