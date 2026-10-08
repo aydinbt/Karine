@@ -1,0 +1,852 @@
+{
+ "entries": [
+  {
+   "key": "case013.alley.body",
+   "value": "The camera of a garage facing the side wall of 14 Ashgrove Road. 22 March 14.30 – 17.00. The angle is wide; faces are small and cannot be made out."
+  },
+  {
+   "key": "case013.alley.title",
+   "value": "SIDE STREET GARAGE CAMERA — record log"
+  },
+  {
+   "key": "case013.autopsy.body",
+   "value": "· Carboxyhaemoglobin in the blood 58%. Cause of death: carbon monoxide poisoning.\n· The typical cherry-red colour in the skin and organs.\n· No trauma or defensive marks. Alcohol 0.3 per mille.\n· Estimated time of death: 23 March 01.00 – 04.00."
+  },
+  {
+   "key": "case013.autopsy.title",
+   "value": "PRELIMINARY POST-MORTEM NOTE — MARTIN HUGHES"
+  },
+  {
+   "key": "case013.cctv.event.ladder",
+   "value": "Camera 01: A ladder is leaned against the side wall of the house. Someone in a cap and a vest climbs up; reaches out to the small grille in the wall and stays there for a while. The face cannot be made out."
+  },
+  {
+   "key": "case013.cctv.event.passer",
+   "value": "Camera 01: A pedestrian passes the end of the street and waves to the person on the ladder. The person on the ladder nods."
+  },
+  {
+   "key": "case013.cctv.event.van",
+   "value": "Camera 01: A small white van parks at the entrance to the street. Someone takes a folding ladder out of the back door."
+  },
+  {
+   "key": "case013.cctv.event.van_out",
+   "value": "Camera 01: The ladder is put back in the van; the van drives away."
+  },
+  {
+   "key": "case013.cctv.overlay",
+   "value": "CAM 01"
+  },
+  {
+   "key": "case013.cctv.period",
+   "value": "22 March 2029, 14.30 – 17.00"
+  },
+  {
+   "key": "case013.cctv.source",
+   "value": "Side street garage camera"
+  },
+  {
+   "key": "case013.cert.body",
+   "value": "14 Ashgrove Road. The latest certificate in the landlord’s file.\n\nInspection date: 14 February 2028\nValidity: 12 months — expired on 14 February 2029.\nAppliances: boiler (kitchen), gas fire (no. 3), hob.\nResult: safe.\n\nThere is no more recent certificate in the file."
+  },
+  {
+   "key": "case013.cert.title",
+   "value": "GAS SAFETY CERTIFICATE — PHOTOCOPY"
+  },
+  {
+   "key": "case013.clue.alley_ladder",
+   "value": "Someone on a ladder reaches up to the grille in the wall."
+  },
+  {
+   "key": "case013.clue.death",
+   "value": "Martin dies in his room."
+  },
+  {
+   "key": "case013.clue.found",
+   "value": "Tom calls 999."
+  },
+  {
+   "key": "case013.clue.key_in",
+   "value": "The key is returned."
+  },
+  {
+   "key": "case013.clue.key_out",
+   "value": "Simon takes the key to no. 3: “alarm battery check”."
+  },
+  {
+   "key": "case013.clue.moved",
+   "value": "Ellie leaves the house; Martin moves into the room."
+  },
+  {
+   "key": "case013.clue.service",
+   "value": "The engineer finds the flue clear and the alarms working."
+  },
+  {
+   "key": "case013.clue.source.autopsy",
+   "value": "Preliminary post-mortem note"
+  },
+  {
+   "key": "case013.clue.source.keylog",
+   "value": "Office key log"
+  },
+  {
+   "key": "case013.clue.source.messages",
+   "value": "Ellie Ward’s messages"
+  },
+  {
+   "key": "case013.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case013.clue.source.service",
+   "value": "Gas service report"
+  },
+  {
+   "key": "case013.clue.threat",
+   "value": "Ellie: “Or I’ll tell Victor.”"
+  },
+  {
+   "key": "case013.custody.ellie",
+   "value": "Ellie Ward — she was going to report Simon"
+  },
+  {
+   "key": "case013.custody.label",
+   "value": "Who was the real target?"
+  },
+  {
+   "key": "case013.custody.martin",
+   "value": "Martin Hughes"
+  },
+  {
+   "key": "case013.custody.none",
+   "value": "There was no target"
+  },
+  {
+   "key": "case013.custody.tom",
+   "value": "Tom Becker"
+  },
+  {
+   "key": "case013.ellie.afraid.answer",
+   "value": "I wrote a message. Then a reply came; something like ‘don’t do this’. Then one night someone tried my door handle. I left the next morning. I didn’t tell anyone, not even Martin."
+  },
+  {
+   "key": "case013.ellie.afraid.answer.demeanor",
+   "value": "Her voice went hoarse."
+  },
+  {
+   "key": "case013.ellie.afraid.question",
+   "value": "Were you afraid of someone?"
+  },
+  {
+   "key": "case013.ellie.body",
+   "value": "With the registered tenant of the room."
+  },
+  {
+   "key": "case013.ellie.deflect",
+   "value": "I don’t know about that. I moved out."
+  },
+  {
+   "key": "case013.ellie.quote",
+   "value": "“Martin’s dead? In my room?”"
+  },
+  {
+   "key": "case013.ellie.rent.answer",
+   "value": "To the letting agent. By hand, in cash. I asked for receipts; he always said ‘later’. He never even told me the landlord’s name; I found it out from the council."
+  },
+  {
+   "key": "case013.ellie.rent.question",
+   "value": "Who did you pay the rent to?"
+  },
+  {
+   "key": "case013.ellie.room.answer",
+   "value": "I… gave him the room. Martin was someone I worked with at the café; he’d been evicted. I was leaving anyway. We didn’t tell anyone; I’d paid my rent, and we agreed he’d pay me. Martin’s dead? In my room?"
+  },
+  {
+   "key": "case013.ellie.room.answer.demeanor",
+   "value": "Her face went white."
+  },
+  {
+   "key": "case013.ellie.room.question",
+   "value": "Room 3 is registered to you. Why was Martin Hughes staying there?"
+  },
+  {
+   "key": "case013.ellie.title",
+   "value": "Ellie Ward — interview"
+  },
+  {
+   "key": "case013.ellie.why.answer",
+   "value": "Personal reasons."
+  },
+  {
+   "key": "case013.ellie.why.answer.demeanor",
+   "value": "Looked away and tucked her hands under her arms."
+  },
+  {
+   "key": "case013.ellie.why.question",
+   "value": "Why did you move out in such a hurry?"
+  },
+  {
+   "key": "case013.epilogue.custody.ellie",
+   "value": "Ellie Ward was a witness at the trial. Simon’s sentence, ‘Are you saying Ellie wasn’t there?’, was read out from the record. Ellie went to Martin’s funeral; she spoke to no one."
+  },
+  {
+   "key": "case013.epilogue.custody.martin",
+   "value": "The defence proved Simon had never known Martin; because of the missing motive, the charge was reduced to manslaughter by negligence."
+  },
+  {
+   "key": "case013.epilogue.custody.none",
+   "value": "With no target sought, the file stayed within the frame of negligence; why Simon went into that room was never explained."
+  },
+  {
+   "key": "case013.epilogue.custody.tom",
+   "value": "No link was found between Tom and either Simon or the room; that question weakened the file."
+  },
+  {
+   "key": "case013.epilogue.verdict.priya",
+   "value": "The engineer’s licence was suspended for the duration of the investigation, then restored. The real culprit was not sought."
+  },
+  {
+   "key": "case013.epilogue.verdict.simon",
+   "value": "Simon Pryce was arrested for murder and fraud. The cloth in the flue turned out to be from the same batch as the cleaning cloths in the office van."
+  },
+  {
+   "key": "case013.epilogue.verdict.undetermined",
+   "value": "The file was closed as an accident. Harbour Lettings handed management of the house to another officer."
+  },
+  {
+   "key": "case013.epilogue.verdict.victor",
+   "value": "Victor Crane was tried for negligence; the engineer’s report brought the charge down at the first hearing. Simon Pryce went on managing three more houses."
+  },
+  {
+   "key": "case013.evidence.alley",
+   "value": "Side street camera"
+  },
+  {
+   "key": "case013.evidence.cert",
+   "value": "Expired gas certificate"
+  },
+  {
+   "key": "case013.evidence.keylog",
+   "value": "The office’s key and visit log"
+  },
+  {
+   "key": "case013.evidence.ledger",
+   "value": "Rent ledger"
+  },
+  {
+   "key": "case013.evidence.service",
+   "value": "Gas service report"
+  },
+  {
+   "key": "case013.feedback.priya",
+   "value": "Priya’s report states that she checked the flue from outside. The cloth was dry and sooted only on its inner face; so it had been put there recently, after the service."
+  },
+  {
+   "key": "case013.feedback.simon",
+   "value": "The flue that was clear on 9 March was blocked with a cloth on 23 March. The only recorded person who entered the room in between was Simon, who took the key on 22 March; the camera and Tom put someone on the ladder at the same time. Ellie had threatened to tell Victor about him."
+  },
+  {
+   "key": "case013.feedback.undetermined",
+   "value": "The key log, the camera and the witness showed who reached up to the flue on the afternoon of 22 March."
+  },
+  {
+   "key": "case013.feedback.victor",
+   "value": "The missing certificate was real, but the service had been done and the new certificate sent to the office. According to Victor’s ledger nobody was living in that room; he didn’t even know Ellie."
+  },
+  {
+   "key": "case013.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case013.file.value.bureau",
+   "value": "BDS London — Southwark Branch"
+  },
+  {
+   "key": "case013.file.value.location",
+   "value": "Deptford, 14 Ashgrove Road — room 3"
+  },
+  {
+   "key": "case013.file.value.number",
+   "value": "BDS-LDN-2029-0063"
+  },
+  {
+   "key": "case013.file.value.offence",
+   "value": "Suspicious death — carbon monoxide"
+  },
+  {
+   "key": "case013.file.value.reporter",
+   "value": "Tom Becker, tenant"
+  },
+  {
+   "key": "case013.keylog.body",
+   "value": "Signed sheet for the office key cabinet, 14 Ashgrove Road, March 2029:\n\n9 March · taken 09.05 / returned 12.40 · Simon Pryce · “gas service — letting in engineer”\n22 March · taken 15.10 / returned 16.05 · Simon Pryce · “no. 3 alarm battery check”\n\nNo other visits recorded. The office’s service van carries a folding ladder."
+  },
+  {
+   "key": "case013.keylog.title",
+   "value": "HARBOUR LETTINGS — KEY AND VISIT LOG"
+  },
+  {
+   "key": "case013.ledger.body",
+   "value": "The monthly statement the letting agency sends the landlord.\n\nJanuary 2029: 1 let · 2 let · 3 EMPTY · 4 let · 5 let · 6 empty\nFebruary 2029: 1 let · 2 let · 3 EMPTY · 4 let · 5 let · 6 empty\nMarch 2029: 1 let · 2 let · 3 EMPTY · 4 let · 5 let · 6 empty\n\nMonthly net: £3,120. Agency commission deducted."
+  },
+  {
+   "key": "case013.ledger.title",
+   "value": "RENT LEDGER — 14 ASHGROVE ROAD (SENT TO LANDLORD)"
+  },
+  {
+   "key": "case013.messages.body",
+   "value": "Correspondence taken from Ellie Ward’s phone with her consent. Other party: Simon Pryce (Harbour Lettings).\n\n18 March 19.40 · Ellie: I’ve been paying rent by hand for three months and not a single receipt. Turns out the landlord is Victor Crane. If I asked him, would he know about this room?\n18 March 19.52 · Simon: Please don’t do that. Everything’s on record. Let’s talk tomorrow.\n18 March 21.15 · Ellie: I want the receipts by Friday. Or I’ll tell Victor.\n18 March 21.16 · Simon: Agreed. Friday.\n\nNo correspondence after that. Ellie left the house on 20 March."
+  },
+  {
+   "key": "case013.messages.title",
+   "value": "ELLIE WARD — MESSAGES"
+  },
+  {
+   "key": "case013.method.accident",
+   "value": "Accident — the flue blocked by itself"
+  },
+  {
+   "key": "case013.method.blocked",
+   "value": "The flue was deliberately blocked and the alarm battery removed"
+  },
+  {
+   "key": "case013.method.label",
+   "value": "How did the carbon monoxide leak?"
+  },
+  {
+   "key": "case013.method.neglect",
+   "value": "Landlord’s negligence — a poorly maintained fire"
+  },
+  {
+   "key": "case013.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case013.offer.subtitle",
+   "value": "THE TENANT  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case013.offer.summary",
+   "value": "In a shared rented house in Deptford, a man is found dead from carbon monoxide leaking from the fire in his room. A house with an expired certificate, a landlord with complaints. First note: negligence."
+  },
+  {
+   "key": "case013.offer.title",
+   "value": "FILE #013"
+  },
+  {
+   "key": "case013.person.ellie.info",
+   "value": "26, shift supervisor at a café. The registered tenant of room 3 at 14 Ashgrove Road."
+  },
+  {
+   "key": "case013.person.ellie.name",
+   "value": "Ellie Ward"
+  },
+  {
+   "key": "case013.person.priya.info",
+   "value": "41, a self-employed registered gas engineer."
+  },
+  {
+   "key": "case013.person.priya.name",
+   "value": "Priya Nair"
+  },
+  {
+   "key": "case013.person.simon.info",
+   "value": "35, property manager at Harbour Lettings, the agency that manages Crane’s houses."
+  },
+  {
+   "key": "case013.person.simon.name",
+   "value": "Simon Pryce"
+  },
+  {
+   "key": "case013.person.tom.info",
+   "value": "30, courier. Lives in room 2 of the same house; mildly poisoned on the night of the incident."
+  },
+  {
+   "key": "case013.person.tom.name",
+   "value": "Tom Becker"
+  },
+  {
+   "key": "case013.person.victor.info",
+   "value": "63, owner of nine rented houses in Deptford and Lewisham. His houses are managed by a letting agency."
+  },
+  {
+   "key": "case013.person.victor.name",
+   "value": "Victor Crane"
+  },
+  {
+   "key": "case013.priya.body",
+   "value": "Statement of the gas engineer."
+  },
+  {
+   "key": "case013.priya.cert.answer",
+   "value": "To the office. They were the ones who called me and the ones who let me in. The property manager — his name was Simon. I never saw the landlord."
+  },
+  {
+   "key": "case013.priya.cert.question",
+   "value": "Who did you give the certificate to?"
+  },
+  {
+   "key": "case013.priya.cloth.answer",
+   "value": "By the wind? Twenty centimetres in, packed tight? No. You get birds’ nests, you get leaves. A cloth goes in by someone’s hand. And at 2.8 metres up; that needs a ladder."
+  },
+  {
+   "key": "case013.priya.cloth.question",
+   "value": "Can a cloth get into the mouth of a flue by itself?"
+  },
+  {
+   "key": "case013.priya.deflect",
+   "value": "Whatever my report says. I can’t make up more than that."
+  },
+  {
+   "key": "case013.priya.quote",
+   "value": "“A cloth goes in by someone’s hand.”"
+  },
+  {
+   "key": "case013.priya.title",
+   "value": "Priya Nair — interview"
+  },
+  {
+   "key": "case013.priya.visit.answer",
+   "value": "Three appliances, two alarms. I went up the ladder and looked at the fire’s flue myself; it was clear, the draw was good. I tested the alarms; both sounded. What the report says is what I saw that day."
+  },
+  {
+   "key": "case013.priya.visit.question",
+   "value": "Would you describe the service on 9 March?"
+  },
+  {
+   "key": "case013.report.body",
+   "value": "At 08.40 on 23 March 2029, Tom Becker, who lives at 14 Ashgrove Road, Deptford, called 999 with a severe headache and nausea. The attending crew found that no gas alarm had sounded in the house, but that the carbon monoxide reading in room 3 upstairs was very high.\n\nA man was found motionless in bed in the room; he was pronounced dead at the scene. According to the ID in his wallet, Martin Hughes (52). The gas fire in the room was on and the window was shut.\n\nBecker was taken to hospital; his condition is good.\n\nPatrol note: “It was learned that the house’s gas safety certificate expired in February and that the landlord had previously received two tenant complaints. Negligence is the priority line.”"
+  },
+  {
+   "key": "case013.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case013.request.keylog",
+   "value": "Request the office’s key and visit log"
+  },
+  {
+   "key": "case013.request.messages",
+   "value": "Request Ellie Ward’s correspondence with the letting agent"
+  },
+  {
+   "key": "case013.request.scene",
+   "value": "Request the scene inspection note"
+  },
+  {
+   "key": "case013.request.service",
+   "value": "Request the house’s latest gas service report"
+  },
+  {
+   "key": "case013.request.tenants",
+   "value": "Request the house’s tenant list"
+  },
+  {
+   "key": "case013.scene.body",
+   "value": "· The gas fire is in working order; the burner is clean and the flame setting normal.\n· Inside the mouth of the fire’s flue on the outside wall, about 20 cm deep, a grey cleaning cloth packed in tight. The cloth is dry; the layer of soot is only on its inner face. The flue is completely closed off by the cloth.\n· The room’s carbon monoxide alarm is fitted on the ceiling; the battery compartment is empty. The battery was not found in the room.\n· The window is locked from inside. The door is not locked.\n· The flue opening is on the wall facing the side street, about 2.8 metres above the ground."
+  },
+  {
+   "key": "case013.scene.title",
+   "value": "SCENE INSPECTION NOTE — ROOM 3"
+  },
+  {
+   "key": "case013.service.body",
+   "value": "Registered engineer: Priya Nair. Address: 14 Ashgrove Road. Requested by: letting agency.\n\n· Boiler (kitchen): serviced, safe.\n· Gas fire (no. 3): combustion test done, flue draw measured, flue opening checked from outside — clear. Safe.\n· Hob: safe.\n· CO alarms: no. 3 and kitchen, tested with the test button, sounding.\n\nA new gas safety certificate was issued (9 March 2029 – 9 March 2030). A copy was posted to the requesting agency."
+  },
+  {
+   "key": "case013.service.title",
+   "value": "GAS SERVICE REPORT — 9 MARCH 2029"
+  },
+  {
+   "key": "case013.simon.body",
+   "value": "With the letting agency’s property manager."
+  },
+  {
+   "key": "case013.simon.deflect",
+   "value": "I can’t answer that without looking at the file."
+  },
+  {
+   "key": "case013.simon.ellie.answer",
+   "value": "It was about receipts. There was a delay in the system. She was angry with me, and she was right to be. We were going to meet on Friday."
+  },
+  {
+   "key": "case013.simon.ellie.answer.demeanor",
+   "value": "Kept his smile but began tapping the table with his pen."
+  },
+  {
+   "key": "case013.simon.ellie.question",
+   "value": "Would you explain your correspondence with Ellie Ward?"
+  },
+  {
+   "key": "case013.simon.house.answer",
+   "value": "Yes, along with nine houses. A terrible incident. The certificate delay may be our fault, I accept that; the engineer’s paperwork got lost in the post."
+  },
+  {
+   "key": "case013.simon.house.question",
+   "value": "Do you manage 14 Ashgrove Road?"
+  },
+  {
+   "key": "case013.simon.quote",
+   "value": "“I don’t go into the rooms.”"
+  },
+  {
+   "key": "case013.simon.title",
+   "value": "Simon Pryce — interview"
+  },
+  {
+   "key": "case013.simon.visit.answer",
+   "value": "Last week, I think, to look at the common areas. I don’t go into the rooms; they’re the tenants’ private space."
+  },
+  {
+   "key": "case013.simon.visit.question",
+   "value": "When did you last go to the house?"
+  },
+  {
+   "key": "case013.simon_2.body",
+   "value": "On the key log."
+  },
+  {
+   "key": "case013.simon_2.key.answer",
+   "value": "Ah, yes. The battery check. Routine. I looked at the alarms and left. When I said ‘I don’t go into the rooms’ I meant in general."
+  },
+  {
+   "key": "case013.simon_2.key.answer.demeanor",
+   "value": "Spoke in a fast, flat voice."
+  },
+  {
+   "key": "case013.simon_2.key.question",
+   "value": "You were at the house on 22 March."
+  },
+  {
+   "key": "case013.simon_2.ladder.answer",
+   "value": "For the ceiling alarm, yes, I took the ladder from the van. So what?"
+  },
+  {
+   "key": "case013.simon_2.ladder.question",
+   "value": "Did you use a ladder that day?"
+  },
+  {
+   "key": "case013.simon_2.room3.answer",
+   "value": "We check empty rooms too. Safety. Fire regulations."
+  },
+  {
+   "key": "case013.simon_2.room3.answer.demeanor",
+   "value": "Was silent a second too long."
+  },
+  {
+   "key": "case013.simon_2.room3.question",
+   "value": "Why a battery check in no. 3? According to the ledger the room is empty."
+  },
+  {
+   "key": "case013.simon_2.title",
+   "value": "Simon Pryce — second interview"
+  },
+  {
+   "key": "case013.simon_3.body",
+   "value": "On the rent ledger, the camera and the messages."
+  },
+  {
+   "key": "case013.simon_3.flue.answer",
+   "value": "I was looking at the flue. There’d been a complaint about a bird’s nest. I didn’t put anything in."
+  },
+  {
+   "key": "case013.simon_3.flue.question",
+   "value": "What were you doing at the flue opening on the ladder?"
+  },
+  {
+   "key": "case013.simon_3.rent.answer",
+   "value": "…All right. I didn’t put the room in the ledger. Victor didn’t know. A few rooms like that in three houses. It’s fraud, yes. But I didn’t kill anyone."
+  },
+  {
+   "key": "case013.simon_3.rent.answer.demeanor",
+   "value": "Took off his glasses and put them on the table."
+  },
+  {
+   "key": "case013.simon_3.rent.question",
+   "value": "Ellie had been paying you rent in cash for three months. According to the ledger the room is empty."
+  },
+  {
+   "key": "case013.simon_3.slip.answer",
+   "value": "Of course, Ellie’s room. Ellie… Are you saying Ellie wasn’t there? Then…"
+  },
+  {
+   "key": "case013.simon_3.slip.answer.demeanor",
+   "value": "Did not finish the sentence. His colour changed."
+  },
+  {
+   "key": "case013.simon_3.slip.question",
+   "value": "Did you know who was sleeping in the room?"
+  },
+  {
+   "key": "case013.simon_3.title",
+   "value": "Simon Pryce — third interview"
+  },
+  {
+   "key": "case013.summary.evidence",
+   "value": "The engineer’s 9 March report showed the flue clear; at the scene the flue was blocked with a cloth. According to the key log, the only recorded person who entered the room in between was Simon. The camera and Tom put the person on the ladder at that time. The rent ledger and the tenant list exposed the hidden letting, and Ellie’s messages the motive."
+  },
+  {
+   "key": "case013.summary.lesson",
+   "value": "The date of a record takes on meaning next to the record that follows it: look at who entered the interval in which something left sound was broken. The person who dies is not always the target."
+  },
+  {
+   "key": "case013.summary.location",
+   "value": "Deptford, 14 Ashgrove Road — 22–23 March 2029"
+  },
+  {
+   "key": "case013.summary.truth",
+   "value": "The letting agent Simon Pryce was secretly letting rooms that appeared empty in Victor Crane’s houses and pocketing the rent. Ellie Ward, the tenant of no. 3, noticed and on 18 March threatened to tell the landlord. Afraid, Ellie left on 20 March, handing the room to her workmate Martin Hughes without telling anyone. On 22 March Simon took the key, removed the alarm’s battery and blocked the fire’s flue from outside with a cloth. He believed Ellie was sleeping in the room. That night Martin lit the fire and died."
+  },
+  {
+   "key": "case013.suspect.label",
+   "value": "Who is responsible for Martin’s death?"
+  },
+  {
+   "key": "case013.tablet.caseLine",
+   "value": "FILE #013  /  BUBE LONDON — SOUTHWARK"
+  },
+  {
+   "key": "case013.tenants.body",
+   "value": "The list for the house in multiple occupation that the letting agency reported to the council. Landlord: Victor Crane.\n\n1 · Joe Martins · since September 2027\n2 · Tom Becker · since May 2028\n3 · Ellie Ward · since January 2029\n4 · Ana Lopes · since November 2027\n5 · Rahim Uddin · since June 2028\n6 · empty\n\nMartin Hughes is not on the list."
+  },
+  {
+   "key": "case013.tenants.title",
+   "value": "TENANT LIST — 14 ASHGROVE ROAD"
+  },
+  {
+   "key": "case013.time.death",
+   "value": "23 March 01–04"
+  },
+  {
+   "key": "case013.time.found",
+   "value": "23 March 08.40"
+  },
+  {
+   "key": "case013.time.key_in",
+   "value": "22 March 16.05"
+  },
+  {
+   "key": "case013.time.key_out",
+   "value": "22 March 15.10"
+  },
+  {
+   "key": "case013.time.ladder",
+   "value": "15.24"
+  },
+  {
+   "key": "case013.time.moved",
+   "value": "20 March"
+  },
+  {
+   "key": "case013.time.passer",
+   "value": "15.31"
+  },
+  {
+   "key": "case013.time.service",
+   "value": "9 March"
+  },
+  {
+   "key": "case013.time.threat",
+   "value": "18 March 21.15"
+  },
+  {
+   "key": "case013.time.van",
+   "value": "15.18"
+  },
+  {
+   "key": "case013.time.van_out",
+   "value": "16.02"
+  },
+  {
+   "key": "case013.title",
+   "value": "File #013 — The Tenant"
+  },
+  {
+   "key": "case013.tom.body",
+   "value": "Statement of the tenant in hospital."
+  },
+  {
+   "key": "case013.tom.deflect",
+   "value": "I don’t know; I’m on the road most days."
+  },
+  {
+   "key": "case013.tom.martin.answer",
+   "value": "He’d been in the house three days. He’d moved into Ellie’s room. Ellie didn’t say anything; one morning she left with her bag, and the next day this man came. He was polite. He always had the fire on; he felt the cold."
+  },
+  {
+   "key": "case013.tom.martin.question",
+   "value": "Did you know Martin Hughes?"
+  },
+  {
+   "key": "case013.tom.night.answer",
+   "value": "I came in around midnight and went to bed. In the morning my head was splitting; I felt like I was going to be sick. The alarms never went off. I barely dragged myself along the corridor and rang."
+  },
+  {
+   "key": "case013.tom.night.question",
+   "value": "What happened last night?"
+  },
+  {
+   "key": "case013.tom.quote",
+   "value": "“The alarms never went off.”"
+  },
+  {
+   "key": "case013.tom.title",
+   "value": "Tom Becker — interview"
+  },
+  {
+   "key": "case013.tom.visit.answer",
+   "value": "Dunno. I work days. One afternoon when I dropped by the house I think I saw the letting agent’s key ring in the hall, on the table. I’m not sure; I don’t remember which day."
+  },
+  {
+   "key": "case013.tom.visit.question",
+   "value": "Who else came to the house in the last few days?"
+  },
+  {
+   "key": "case013.tom_2.body",
+   "value": "On the key log."
+  },
+  {
+   "key": "case013.tom_2.day.answer",
+   "value": "The 22nd? Hang on… Yes, Thursday. I dropped home at lunchtime to get my charger. About half three. There was a ladder against the wall in the side street, with someone in a vest on it. I waved, thinking ‘the letting agent’, and he nodded. I didn’t look at his face, though."
+  },
+  {
+   "key": "case013.tom_2.day.question",
+   "value": "Where were you on the afternoon of 22 March?"
+  },
+  {
+   "key": "case013.tom_2.title",
+   "value": "Tom Becker — second interview"
+  },
+  {
+   "key": "case013.tom_2.where.answer",
+   "value": "Level with Ellie’s room. Martin’s, I mean. You know that little hole with a grille in the wall — under that."
+  },
+  {
+   "key": "case013.tom_2.where.question",
+   "value": "Where exactly was the ladder?"
+  },
+  {
+   "key": "case013.verdict.priya",
+   "value": "Priya Nair"
+  },
+  {
+   "key": "case013.verdict.simon",
+   "value": "Simon Pryce"
+  },
+  {
+   "key": "case013.verdict.undetermined",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case013.verdict.victor",
+   "value": "Victor Crane"
+  },
+  {
+   "key": "case013.victor.body",
+   "value": "Statement of the landlord."
+  },
+  {
+   "key": "case013.victor.cert.answer",
+   "value": "As far as I know it was renewed! The office said ‘the engineer came’. The paper never reached me; that’s another matter. Here’s the latest copy in my file; take a look."
+  },
+  {
+   "key": "case013.victor.cert.question",
+   "value": "Why wasn’t the gas certificate renewed?"
+  },
+  {
+   "key": "case013.victor.deflect",
+   "value": "Ask the office. I collect my rent; the rest is their job."
+  },
+  {
+   "key": "case013.victor.house.answer",
+   "value": "An old house, six rooms. The office manages it; I get a statement once a month, that’s all. Complaints? Tenants complain about everything."
+  },
+  {
+   "key": "case013.victor.house.answer.demeanor",
+   "value": "Looked at his watch."
+  },
+  {
+   "key": "case013.victor.house.question",
+   "value": "Would you tell us about 14 Ashgrove Road?"
+  },
+  {
+   "key": "case013.victor.quote",
+   "value": "“Tenants complain about everything.”"
+  },
+  {
+   "key": "case013.victor.room3.answer",
+   "value": "Nobody. That room has been empty since January. The office said they couldn’t find a tenant. I’d like to know what a man was doing in there myself."
+  },
+  {
+   "key": "case013.victor.room3.answer.demeanor",
+   "value": "For the first time he looked genuinely surprised."
+  },
+  {
+   "key": "case013.victor.room3.question",
+   "value": "Who was living in room 3?"
+  },
+  {
+   "key": "case013.victor.title",
+   "value": "Victor Crane — interview"
+  },
+  {
+   "key": "case013.victor_2.body",
+   "value": "On the tenant list."
+  },
+  {
+   "key": "case013.victor_2.list.answer",
+   "value": "That list isn’t mine. Here’s the rent ledger the office sends me every month. No. 3 has been empty since January, no rent. I haven’t had a penny from that room."
+  },
+  {
+   "key": "case013.victor_2.list.answer.demeanor",
+   "value": "Put the papers down on the table irritably."
+  },
+  {
+   "key": "case013.victor_2.list.question",
+   "value": "On the list reported to the council, no. 3 is shown as let."
+  },
+  {
+   "key": "case013.victor_2.title",
+   "value": "Victor Crane — second interview"
+  },
+  {
+   "key": "case013.victor_2.who.answer",
+   "value": "The office. The property manager who looks after all my houses. Nine houses, ten years. I trusted him."
+  },
+  {
+   "key": "case013.victor_2.who.question",
+   "value": "Who prepares the ledger?"
+  },
+  {
+   "key": "case013.item.cloth.name",
+   "value": "Flue cloth"
+  },
+  {
+   "key": "case013.item.cloth.detail",
+   "value": "A grey cleaning cloth blackened with soot on one side; the other side is clean."
+  },
+  {
+   "key": "case013.item.alarm.name",
+   "value": "Alarm without a battery"
+  },
+  {
+   "key": "case013.item.alarm.detail",
+   "value": "Carbon monoxide alarm; the battery compartment is empty."
+  },
+  {
+   "key": "case013.item.fire.name",
+   "value": "Gas fire"
+  },
+  {
+   "key": "case013.item.fire.detail",
+   "value": "The old gas fire on the wall; a soot stain above it."
+  },
+  {
+   "key": "case013.item.ledger.name",
+   "value": "Rent ledger"
+  },
+  {
+   "key": "case013.item.ledger.detail",
+   "value": "The monthly rent statement; one line marked in yellow."
+  }
+ ]
+}
