@@ -1127,3 +1127,9 @@ Kullanıcı: "Bir şey sunuldu ve cevap alındıysa başka görüşmede aynısı
 - **Kurgusal kurum:** `bube` markası küçük harfle kalır, "Departman" çevrilir; `BDS` her dilde aynı.
 
 **Kariyer sonu kuralı değişmedi (kullanıcı kararı):** güven sıfıra inince kariyer biter; yol ödüllü yeniden açma ya da Yeni Oyun. Kariyer ekranı maket beklemeden genişletildi: **Sicil** sekmesi güven seyrini, kademe değişimlerini ve ülke karnesini gösterir. Bekleyen değerlendirmenin sonucu sicilde de görünmez.
+
+## 8 Ekim 2026 — İngilizce metin kuralları; diğer diller onaya bağlı
+
+- İngilizce metin İngiliz İngilizcesiyle yazılır; saat Türkçedeki gibi `23.03`, şube adları "BDM Montreal — Mile End Branch" kalıbında. Ayrıntı ve terim listesi: `Translation/GLOSSARY_en.md`.
+- Yabancı yer, kurum ve hitap sözcükleri (capataz, nonna, Laurentide Réassurance) çevrilmez; oyunun her ülkede yerel kalması için.
+- Almanca, Fransızca, İtalyanca, İspanyolca ve Portekizce (BR) çevirisine kullanıcı söyleyene kadar başlanmaz.
