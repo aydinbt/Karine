@@ -1,0 +1,616 @@
+{
+ "entries": [
+  {
+   "key": "case048.autopsy.body",
+   "value": "· Cause of death: crushing of the chest and abdomen.\n· Rust from the pit’s ladder rail on the victim’s hand; his shoes coated in the oil at the bottom of the pit. No sign of a blow to the head; he was standing and conscious when the car arrived.\n· Time of death: 04.00–04.20."
+  },
+  {
+   "key": "case048.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case048.cctv.event.enter",
+   "value": "Camera: A man in a navy jacket with reflective strips enters the empty control room and shuts the door."
+  },
+  {
+   "key": "case048.cctv.event.leave",
+   "value": "Camera: The same man hurries out of the room, stuffing something red into his jacket."
+  },
+  {
+   "key": "case048.cctv.event.lever",
+   "value": "Camera: The same man pulls a red tag off the hook on the wall and pushes the main lever forward."
+  },
+  {
+   "key": "case048.cctv.overlay",
+   "value": "MSN-CTRL"
+  },
+  {
+   "key": "case048.cctv.period",
+   "value": "7 October 2030"
+  },
+  {
+   "key": "case048.cctv.source",
+   "value": "Control room camera"
+  },
+  {
+   "key": "case048.clue.bin",
+   "value": "The chief throws something red into the corridor bin."
+  },
+  {
+   "key": "case048.clue.enter",
+   "value": "The man in the navy jacket enters the control room."
+  },
+  {
+   "key": "case048.clue.found",
+   "value": "The morning crew finds the body."
+  },
+  {
+   "key": "case048.clue.lever",
+   "value": "The same man takes the tag off the hook and pushes the lever."
+  },
+  {
+   "key": "case048.clue.pit",
+   "value": "The technician hangs his tag and goes down into the pit."
+  },
+  {
+   "key": "case048.clue.radio",
+   "value": "‘Sergio, stay with Yusuf, I’ll run the test.’"
+  },
+  {
+   "key": "case048.clue.source.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.clue.source.kofi",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.clue.source.locker",
+   "value": "Locker search"
+  },
+  {
+   "key": "case048.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case048.conti.body",
+   "value": "Technician."
+  },
+  {
+   "key": "case048.conti.chief.answer",
+   "value": "Bad. Luca looked at the inspection reports and said, ‘Dario hasn’t come for six months, but his signature is there every month.’ He told the chief. The chief said, ‘Your job is cables, not paperwork.’"
+  },
+  {
+   "key": "case048.conti.chief.question",
+   "value": "How did Luca get on with the chief?"
+  },
+  {
+   "key": "case048.conti.deflect",
+   "value": "I did my shift."
+  },
+  {
+   "key": "case048.conti.pit.answer",
+   "value": "There was a noise in the cable drum; Luca said ‘I’ll look.’ The rule is: if someone goes down into the pit, a red tag goes on the control lever, with a padlock. Luca hung his own tag; the key to the lock was in his pocket. With the tag on, the car doesn’t move. It isn’t supposed to."
+  },
+  {
+   "key": "case048.conti.pit.answer.demeanor",
+   "value": "He wipes the oil off his cheek with his sleeve."
+  },
+  {
+   "key": "case048.conti.pit.question",
+   "value": "Why did Luca go down into the pit?"
+  },
+  {
+   "key": "case048.conti.title",
+   "value": "Sergio Conti — interview"
+  },
+  {
+   "key": "case048.control.body",
+   "value": "Lower station control room. 7 October 03.30 – 04.30."
+  },
+  {
+   "key": "case048.control.title",
+   "value": "CONTROL ROOM CAMERA — log transcript"
+  },
+  {
+   "key": "case048.custody.bin",
+   "value": "Into the corridor bin, under the coffee grounds"
+  },
+  {
+   "key": "case048.custody.label",
+   "value": "Where did the red maintenance tag go?"
+  },
+  {
+   "key": "case048.custody.never",
+   "value": "It was never hung"
+  },
+  {
+   "key": "case048.custody.tunnel",
+   "value": "It fell into the tunnel"
+  },
+  {
+   "key": "case048.dario.body",
+   "value": "External inspector."
+  },
+  {
+   "key": "case048.dario.deflect",
+   "value": "My report is on file."
+  },
+  {
+   "key": "case048.dario.sign.answer",
+   "value": "No. My firm’s contract was suspended in March; the company said ‘no budget’. If my signature is on the reports, I didn’t put it there. That signature isn’t mine."
+  },
+  {
+   "key": "case048.dario.sign.answer.demeanor",
+   "value": "He takes off his glasses and wipes them."
+  },
+  {
+   "key": "case048.dario.sign.question",
+   "value": "Did you inspect the line in the last six months?"
+  },
+  {
+   "key": "case048.dario.title",
+   "value": "Dario Ricci — interview"
+  },
+  {
+   "key": "case048.epilogue.custody.bin",
+   "value": "It was recorded that the red tag was found in the corridor bin."
+  },
+  {
+   "key": "case048.epilogue.custody.never",
+   "value": "The key to the locked tag was in the victim’s pocket."
+  },
+  {
+   "key": "case048.epilogue.custody.tunnel",
+   "value": "The tag wasn’t in the tunnel; it was in the station."
+  },
+  {
+   "key": "case048.epilogue.verdict.accident",
+   "value": "The death was deemed a procedural error; the line reopened two days later."
+  },
+  {
+   "key": "case048.epilogue.verdict.conti",
+   "value": "Sergio Conti was arrested; the forged signatures stayed in the same locker."
+  },
+  {
+   "key": "case048.epilogue.verdict.ilaria",
+   "value": "Ilaria Romano was removed from her post; the death was deemed a workplace accident."
+  },
+  {
+   "key": "case048.epilogue.verdict.marino",
+   "value": "Fabio Marino was arrested. The €186,000 paid to Caruso Marittima Consulting and the forged reports were added to the file; a separate investigation was opened into the operations manager."
+  },
+  {
+   "key": "case048.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case048.evidence.control",
+   "value": "Control room camera"
+  },
+  {
+   "key": "case048.evidence.forms",
+   "value": "Inspection reports"
+  },
+  {
+   "key": "case048.evidence.locker",
+   "value": "Locker and bin search"
+  },
+  {
+   "key": "case048.feedback.accident",
+   "value": "The tag had been hung; it was found in the bin still locked, and its key was in the victim’s pocket."
+  },
+  {
+   "key": "case048.feedback.conti",
+   "value": "The technician was with the watchman from 03.30 to 04.00; the chief had kept him there over the radio."
+  },
+  {
+   "key": "case048.feedback.ilaria",
+   "value": "The manager covered up the budget, but she wasn’t at the station that night; the one who pushed the lever was a man in a navy jacket."
+  },
+  {
+   "key": "case048.feedback.marino",
+   "value": "His fingerprint is on the red tag from the corridor bin, and over the radio he kept Sergio away from the control room; the camera shows the man in the navy jacket taking the tag and pushing the lever. The forged inspection signatures came out of his locker."
+  },
+  {
+   "key": "case048.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case048.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Branch"
+  },
+  {
+   "key": "case048.file.value.location",
+   "value": "Montesanto funicular, Napoli"
+  },
+  {
+   "key": "case048.file.value.number",
+   "value": "BDN-NAP-2030-0322"
+  },
+  {
+   "key": "case048.file.value.offence",
+   "value": "Suspicious death — claimed workplace accident"
+  },
+  {
+   "key": "case048.file.value.reporter",
+   "value": "Operator"
+  },
+  {
+   "key": "case048.forms.body",
+   "value": "· Six cable inspection reports from April to September; all signed ‘Dario Ricci’. Beneath the signatures, traces of pencilled guide lines; the signature template matches a photocopy in the maintenance chief’s locker.\n· The reports were filed by: maintenance chief Fabio Marino.\n· In the same period, €186,000 from the maintenance budget to Caruso Marittima Consulting; payments approved by Ilaria Romano."
+  },
+  {
+   "key": "case048.forms.title",
+   "value": "INSPECTION REPORTS AND BUDGET"
+  },
+  {
+   "key": "case048.greta.body",
+   "value": "The victim’s fiancée."
+  },
+  {
+   "key": "case048.greta.deflect",
+   "value": "I just want to know what he went through."
+  },
+  {
+   "key": "case048.greta.msg.answer",
+   "value": "He was scared. He wrote to a union representative and sent me a copy: ‘Half the budget goes to a port company as consulting, and the cables are nine years old. One day someone will die.’ He was the one who died."
+  },
+  {
+   "key": "case048.greta.msg.answer.demeanor",
+   "value": "She squeezes the sleeve of her jacket in her palm."
+  },
+  {
+   "key": "case048.greta.msg.question",
+   "value": "What was Luca telling you these last few days?"
+  },
+  {
+   "key": "case048.greta.title",
+   "value": "Greta Lombardi — interview"
+  },
+  {
+   "key": "case048.ilaria.body",
+   "value": "Operations manager."
+  },
+  {
+   "key": "case048.ilaria.budget.answer",
+   "value": "The board knows about that."
+  },
+  {
+   "key": "case048.ilaria.budget.presented.forms",
+   "value": "The consulting payments were a shareholder’s request. Caruso Marittima. I had to approve them. I didn’t kill anyone."
+  },
+  {
+   "key": "case048.ilaria.budget.question",
+   "value": "Where did the maintenance budget go?"
+  },
+  {
+   "key": "case048.ilaria.deflect",
+   "value": "The press office issues the company’s statements."
+  },
+  {
+   "key": "case048.ilaria.rule.answer",
+   "value": "Because there was no tag. When the control lever was checked in the morning, no tag was hanging there. Luca went down without hanging a tag. It’s sad, but it’s a procedural error."
+  },
+  {
+   "key": "case048.ilaria.rule.answer.demeanor",
+   "value": "She touches her pearl earring."
+  },
+  {
+   "key": "case048.ilaria.rule.question",
+   "value": "Why does the company say ‘against the rules’?"
+  },
+  {
+   "key": "case048.ilaria.rule.variant0",
+   "value": "I suspended the inspection contract, because of the budget. Fabio’s team filed the signatures. I didn’t look at the paperwork."
+  },
+  {
+   "key": "case048.ilaria.title",
+   "value": "Ilaria Romano — interview"
+  },
+  {
+   "key": "case048.kofi.bin.answer",
+   "value": "Around four o’clock the chief in the navy jacket came out of the control room, fast. He threw something red in the corridor bin. I empty the bin in the morning. Red plastic, locked. I didn’t empty the bin, I was scared, I left it."
+  },
+  {
+   "key": "case048.kofi.bin.answer.demeanor",
+   "value": "He holds the mop handle in both hands."
+  },
+  {
+   "key": "case048.kofi.bin.question",
+   "value": "What did you see in the station in the night?"
+  },
+  {
+   "key": "case048.kofi.body",
+   "value": "Cleaner."
+  },
+  {
+   "key": "case048.kofi.deflect",
+   "value": "I mop the floors."
+  },
+  {
+   "key": "case048.kofi.gone",
+   "value": "Kofi Mensah’s residence permit expired that week; he returned to Accra. He cannot be reached."
+  },
+  {
+   "key": "case048.kofi.title",
+   "value": "Kofi Mensah — interview"
+  },
+  {
+   "key": "case048.locker.body",
+   "value": "Fabio Marino’s locker at the station and the corridor bin (with the branch chief’s approval):\n\n· In the corridor bin, under the coffee grounds, the red ‘man working inside’ tag; its padlock closed, opened by the key found in the victim’s pocket. Fabio Marino’s fingerprint on the tag.\n· In the locker, a photocopy of Dario Ricci’s signature practised twenty times.\n· Radio log: 03.55 Fabio Marino: ‘Sergio, stay with Yusuf, I’ll run the test.’"
+  },
+  {
+   "key": "case048.locker.title",
+   "value": "MAINTENANCE CHIEF’S LOCKER AND BIN — SEARCH"
+  },
+  {
+   "key": "case048.marino.body",
+   "value": "Maintenance chief."
+  },
+  {
+   "key": "case048.marino.deflect",
+   "value": "The line is safe; it has my signature."
+  },
+  {
+   "key": "case048.marino.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case048.marino.end.presented.forms",
+   "value": "I signed them, yes. I thought the cables would hold. The budget was being taken from above."
+  },
+  {
+   "key": "case048.marino.end.presented.locker",
+   "value": "Luca was going to the union, then the prosecutor. The reports, the signatures, all of it would have come back to me. I took the red tag off the hook and pushed the lever. One minute. It took one minute. I didn’t even need to cut the lock; Luca had hung the lock but hadn’t closed the hook."
+  },
+  {
+   "key": "case048.marino.end.question",
+   "value": "You removed the tag."
+  },
+  {
+   "key": "case048.marino.night.answer",
+   "value": "At the top station, in the drum room. I radioed Sergio to test the car; I thought he’d pushed the lever."
+  },
+  {
+   "key": "case048.marino.night.answer.demeanor",
+   "value": "He clenches his jaw and shakes his head."
+  },
+  {
+   "key": "case048.marino.night.question",
+   "value": "Where were you at four o’clock?"
+  },
+  {
+   "key": "case048.marino.night.variant0",
+   "value": "I stopped by the control room, yes. There was no tag; I pushed the lever. I didn’t know Luca was in the pit."
+  },
+  {
+   "key": "case048.marino.title",
+   "value": "Fabio Marino — interview"
+  },
+  {
+   "key": "case048.method.cabin",
+   "value": "The tag was removed and the car driven over him"
+  },
+  {
+   "key": "case048.method.cable",
+   "value": "A snapped cable struck him"
+  },
+  {
+   "key": "case048.method.fall",
+   "value": "He fell into the pit"
+  },
+  {
+   "key": "case048.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case048.offer.subtitle",
+   "value": "FUNICOLARE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case048.offer.summary",
+   "value": "On the Montesanto funicular line, a technician was caught under the car in a maintenance pit. The company says ‘against the rules’."
+  },
+  {
+   "key": "case048.offer.title",
+   "value": "FILE #048"
+  },
+  {
+   "key": "case048.person.conti.info",
+   "value": "34, technician on the night shift; the victim’s crewmate."
+  },
+  {
+   "key": "case048.person.conti.name",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.person.dario.info",
+   "value": "47, inspector for the external firm that checks the cables."
+  },
+  {
+   "key": "case048.person.dario.name",
+   "value": "Dario Ricci"
+  },
+  {
+   "key": "case048.person.greta.info",
+   "value": "30, the victim’s fiancée; a nurse."
+  },
+  {
+   "key": "case048.person.greta.name",
+   "value": "Greta Lombardi"
+  },
+  {
+   "key": "case048.person.ilaria.info",
+   "value": "41, the line’s operations manager."
+  },
+  {
+   "key": "case048.person.ilaria.name",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.person.kofi.info",
+   "value": "25, a Ghanaian cleaner; cleans the station at night."
+  },
+  {
+   "key": "case048.person.kofi.name",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.person.marino.info",
+   "value": "52, maintenance chief of the funicular line."
+  },
+  {
+   "key": "case048.person.marino.name",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.person.yusuf.info",
+   "value": "36, night watchman at the station; of Turkish origin."
+  },
+  {
+   "key": "case048.person.yusuf.name",
+   "value": "Yusuf Demir"
+  },
+  {
+   "key": "case048.report.body",
+   "value": "On the morning of 7 October 2030, on the Montesanto funicular line, technician Luca Ferri (33) was found dead in the maintenance pit 140 metres above the lower station. The car on its first test run after the night maintenance had passed over him.\n\nNight maintenance crew: maintenance chief Fabio Marino, technician Sergio Conti, the victim. At the station were the watchman Yusuf Demir and the cleaner Kofi Mensah. The company is represented by operations manager Ilaria Romano."
+  },
+  {
+   "key": "case048.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case048.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case048.request.forms",
+   "value": "Request the inspection reports and budget records"
+  },
+  {
+   "key": "case048.request.locker",
+   "value": "Request permission to search Fabio Marino’s locker and the corridor bin"
+  },
+  {
+   "key": "case048.summary.evidence",
+   "value": "The cleaner saw the tag go in the bin, but if he wasn’t spoken to before the autopsy came, he went home. The watchman gave the cards and the camera, the inspector the forgery of his signature. A justified search found the tag and the signature photocopy."
+  },
+  {
+   "key": "case048.summary.lesson",
+   "value": "Changing the paperwork was cheaper than changing the cable."
+  },
+  {
+   "key": "case048.summary.location",
+   "value": "Montesanto — October 2030"
+  },
+  {
+   "key": "case048.summary.truth",
+   "value": "After the inspection firm pulled out, maintenance chief Fabio Marino forged the inspector’s signature for six months; the budget was going to Caruso Marittima as ‘consulting’. Technician Luca Ferri wrote about it to the union. When Luca went down into the pit and hung his tag, Marino kept Sergio with the watchman over the radio, went into the control room, took the tag off the hook and pushed the lever."
+  },
+  {
+   "key": "case048.suspect.label",
+   "value": "Who killed Luca Ferri?"
+  },
+  {
+   "key": "case048.tablet.caseLine",
+   "value": "FILE #048  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case048.time.bin",
+   "value": "04.05"
+  },
+  {
+   "key": "case048.time.enter",
+   "value": "03.58"
+  },
+  {
+   "key": "case048.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case048.time.leave",
+   "value": "04.04"
+  },
+  {
+   "key": "case048.time.lever",
+   "value": "04.02"
+  },
+  {
+   "key": "case048.time.pit",
+   "value": "03.40"
+  },
+  {
+   "key": "case048.time.radio",
+   "value": "03.55"
+  },
+  {
+   "key": "case048.title",
+   "value": "File #048 — Funicolare"
+  },
+  {
+   "key": "case048.verdict.accident",
+   "value": "No one — the tag wasn’t hung"
+  },
+  {
+   "key": "case048.verdict.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.verdict.ilaria",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.verdict.marino",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.yusuf.body",
+   "value": "Night watchman."
+  },
+  {
+   "key": "case048.yusuf.deflect",
+   "value": "I was on the door, brother."
+  },
+  {
+   "key": "case048.yusuf.door.answer",
+   "value": "The door opens with a card, brother. After three at night, only the chief’s and Sergio’s cards. Sergio came over to me for tea at half three; he was with me until four, we listened to the radio together. There’s a camera in the control room; I’ll pull up the footage."
+  },
+  {
+   "key": "case048.yusuf.door.answer.demeanor",
+   "value": "He twirls his card on the lanyard round his neck."
+  },
+  {
+   "key": "case048.yusuf.door.question",
+   "value": "Who went into the control room in the night?"
+  },
+  {
+   "key": "case048.yusuf.title",
+   "value": "Yusuf Demir — interview"
+  },
+  {
+   "key": "case048.item.lever.name",
+   "value": "Control lever"
+  },
+  {
+   "key": "case048.item.lever.detail",
+   "value": "The cover of the main lever in the control room; its seal wire torn off."
+  },
+  {
+   "key": "case048.item.tag.name",
+   "value": "Maintenance lockout tag"
+  },
+  {
+   "key": "case048.item.tag.detail",
+   "value": "The red ‘man working inside’ tag that should have been at the pit entrance; it came out of a bin."
+  },
+  {
+   "key": "case048.item.report.name",
+   "value": "Cable inspection report"
+  },
+  {
+   "key": "case048.item.report.detail",
+   "value": "The last six months’ inspection reports; the signatures are identical."
+  }
+ ]
+}

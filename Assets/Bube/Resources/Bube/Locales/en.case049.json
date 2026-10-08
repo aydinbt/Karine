@@ -1,0 +1,456 @@
+{
+ "entries": [
+  {
+   "key": "case049.bruno.body",
+   "value": "Coffee boy."
+  },
+  {
+   "key": "case049.bruno.deflect",
+   "value": "I carry coffee, signo’."
+  },
+  {
+   "key": "case049.bruno.gone",
+   "value": "Bruno Gallo left on the evening ferry for Sardinia, for a hotel on the Costa Smeralda. His phone is off."
+  },
+  {
+   "key": "case049.bruno.title",
+   "value": "Bruno Gallo — interview"
+  },
+  {
+   "key": "case049.bruno.tray.answer",
+   "value": "At twelve, like every day, no sugar. There was an elegant lady with silver hair inside. As I was putting the cup on the counter she said, ‘I’ll give it to him, Bruno,’ and took the cup from me. The master was at the back, looking for something on the shelf. Then I left. Tomorrow evening I’m going to Sardinia, seasonal work; don’t tell my mother, she doesn’t know yet."
+  },
+  {
+   "key": "case049.bruno.tray.answer.demeanor",
+   "value": "He presses the tray to his chest."
+  },
+  {
+   "key": "case049.bruno.tray.question",
+   "value": "When did you take the master his coffee?"
+  },
+  {
+   "key": "case049.clue.arrive",
+   "value": "The antiques dealer arrives at the workshop."
+  },
+  {
+   "key": "case049.clue.coffee",
+   "value": "The coffee boy brings the cup; the dealer says ‘I’ll give it to him.’"
+  },
+  {
+   "key": "case049.clue.found",
+   "value": "The apprentice finds the master slumped over."
+  },
+  {
+   "key": "case049.clue.leave",
+   "value": "The antiques dealer leaves the workshop."
+  },
+  {
+   "key": "case049.clue.lunch",
+   "value": "The apprentice goes out for lunch."
+  },
+  {
+   "key": "case049.clue.source.bruno",
+   "value": "Bruno Gallo"
+  },
+  {
+   "key": "case049.clue.source.matteo",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.clue.source.report",
+   "value": "Incident report"
+  },
+  {
+   "key": "case049.clue.source.vittoria",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.custody.bag",
+   "value": "Into the antiques dealer’s handbag"
+  },
+  {
+   "key": "case049.custody.burnt",
+   "value": "The master burned it himself"
+  },
+  {
+   "key": "case049.custody.label",
+   "value": "Where did the master’s letter of retraction go?"
+  },
+  {
+   "key": "case049.custody.posted",
+   "value": "It was posted"
+  },
+  {
+   "key": "case049.epilogue.custody.bag",
+   "value": "It was recorded that the letter of retraction was found in Vittoria Sala’s bag."
+  },
+  {
+   "key": "case049.epilogue.custody.burnt",
+   "value": "The original letter had not been burned."
+  },
+  {
+   "key": "case049.epilogue.custody.posted",
+   "value": "The letter was found stamped but not posted."
+  },
+  {
+   "key": "case049.epilogue.verdict.matteo",
+   "value": "Matteo Cuomo was arrested; the letter was never posted."
+  },
+  {
+   "key": "case049.epilogue.verdict.natural",
+   "value": "The death was deemed natural; the workshop closed."
+  },
+  {
+   "key": "case049.epilogue.verdict.teresa",
+   "value": "Teresa Cuomo was taken into custody; the figures went on being sold."
+  },
+  {
+   "key": "case049.epilogue.verdict.vittoria",
+   "value": "Vittoria Sala was arrested. The shipments of 61 fake figures through Caruso Marittima were reported to the Zürich, Tokyo and New York branches."
+  },
+  {
+   "key": "case049.evidence.export",
+   "value": "Export documents"
+  },
+  {
+   "key": "case049.evidence.shop",
+   "value": "Antiques shop search"
+  },
+  {
+   "key": "case049.evidence.tox",
+   "value": "Toxicology report"
+  },
+  {
+   "key": "case049.export.body",
+   "value": "· Over the last four years, 61 ‘18th-century Neapolitan figures’ exported from the port of Napoli to Zürich, Tokyo and New York; every expert report signed ‘Raffaele Cuomo’. Seller: Vittoria Sala. Shipper: Caruso Marittima.\n· The draft letter on the master’s desk (copy): ‘I withdraw the expert opinion I gave on all the figures sold by Vittoria Sala and signed by me.’ The original letter could not be found."
+  },
+  {
+   "key": "case049.export.title",
+   "value": "EXPORT DOCUMENTS"
+  },
+  {
+   "key": "case049.feedback.matteo",
+   "value": "The apprentice knew the paints, but the workshop only has acrylics; the deadly pigment came from another shop."
+  },
+  {
+   "key": "case049.feedback.natural",
+   "value": "An old arsenic-based paint pigment was found in the stomach and in the cup."
+  },
+  {
+   "key": "case049.feedback.teresa",
+   "value": "The daughter kept the accounts and told the story of the signatures; she wasn’t at the workshop that day."
+  },
+  {
+   "key": "case049.feedback.vittoria",
+   "value": "The pigment jar in her shop was newly opened and carries her print; the master’s letter of retraction came out of her bag. The master was going to withdraw the signatures he’d given to the fake figures she sold."
+  },
+  {
+   "key": "case049.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case049.file.value.bureau",
+   "value": "BDS Napoli — Quartieri Spagnoli Branch"
+  },
+  {
+   "key": "case049.file.value.location",
+   "value": "San Gregorio Armeno, Napoli — workshop"
+  },
+  {
+   "key": "case049.file.value.number",
+   "value": "BDN-NAP-2030-0327"
+  },
+  {
+   "key": "case049.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case049.file.value.reporter",
+   "value": "Nephew"
+  },
+  {
+   "key": "case049.matteo.body",
+   "value": "Nephew and apprentice."
+  },
+  {
+   "key": "case049.matteo.deflect",
+   "value": "I didn’t find Zio; I just knead clay."
+  },
+  {
+   "key": "case049.matteo.found.answer",
+   "value": "At one I went out for lunch; Zio said, ‘You go, Ms Vittoria’s coming, we’ll talk.’ When I came back his head was on the shepherd. The cup was on the counter, but it had been washed. Zio never washes his cup; Bruno takes it away."
+  },
+  {
+   "key": "case049.matteo.found.answer.demeanor",
+   "value": "He scrapes the clay from under his nails."
+  },
+  {
+   "key": "case049.matteo.found.question",
+   "value": "How did you find the master?"
+  },
+  {
+   "key": "case049.matteo.green.answer",
+   "value": "We use acrylics, harmless. Nobody uses that old poisonous green; it’s banned. But someone who copies 18th-century figures looks for the old pigment so they look ‘original’. The antiques dealers find it. Zio called it ‘forger’s green’."
+  },
+  {
+   "key": "case049.matteo.green.question",
+   "value": "Is green paint used in the workshop?"
+  },
+  {
+   "key": "case049.matteo.title",
+   "value": "Matteo Cuomo — interview"
+  },
+  {
+   "key": "case049.method.arsenic",
+   "value": "Old arsenic pigment was put in his coffee"
+  },
+  {
+   "key": "case049.method.fumes",
+   "value": "He was poisoned by paint fumes"
+  },
+  {
+   "key": "case049.method.heart",
+   "value": "Heart failure"
+  },
+  {
+   "key": "case049.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case049.offer.subtitle",
+   "value": "PRESEPE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case049.offer.summary",
+   "value": "In San Gregorio Armeno, a figure maker is dead at his workbench. His lips are greenish."
+  },
+  {
+   "key": "case049.offer.title",
+   "value": "FILE #049"
+  },
+  {
+   "key": "case049.person.bruno.info",
+   "value": "19, coffee boy at the bar across the street."
+  },
+  {
+   "key": "case049.person.bruno.name",
+   "value": "Bruno Gallo"
+  },
+  {
+   "key": "case049.person.matteo.info",
+   "value": "27, the victim’s nephew and apprentice."
+  },
+  {
+   "key": "case049.person.matteo.name",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.person.teresa.info",
+   "value": "50, the victim’s daughter; keeps the workshop’s accounts."
+  },
+  {
+   "key": "case049.person.teresa.name",
+   "value": "Teresa Cuomo"
+  },
+  {
+   "key": "case049.person.vittoria.info",
+   "value": "58, owner of an antiques shop on Via dei Tribunali."
+  },
+  {
+   "key": "case049.person.vittoria.name",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.report.body",
+   "value": "On the afternoon of 8 October 2030, at a figure workshop in San Gregorio Armeno, the master Raffaele Cuomo (76) was found dead at his workbench.\n\nHis nephew and apprentice Matteo Cuomo found the body at 15.20, on returning from lunch. His daughter Teresa Cuomo keeps the workshop’s accounts. Before noon, the antiques dealer Vittoria Sala called at the workshop. Bruno Gallo brings coffee from the bar across the street every day."
+  },
+  {
+   "key": "case049.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case049.request.export",
+   "value": "Request the export documents"
+  },
+  {
+   "key": "case049.request.shop",
+   "value": "Request permission to search Vittoria Sala’s shop"
+  },
+  {
+   "key": "case049.request.tox",
+   "value": "Request the toxicology report"
+  },
+  {
+   "key": "case049.shop.body",
+   "value": "Vittoria Sala’s shop on Via dei Tribunali (with the branch chief’s approval):\n\n· In the back room, a jar of copper acetoarsenite sealed with red wax; the wax freshly broken and resealed. Vittoria Sala’s fingerprint on the jar.\n· Fourteen figures made of new clay, aged with old pigment.\n· In Vittoria Sala’s handbag, the master’s signed original letter of retraction, its envelope stamped, not posted."
+  },
+  {
+   "key": "case049.shop.title",
+   "value": "ANTIQUES SHOP — SEARCH"
+  },
+  {
+   "key": "case049.summary.evidence",
+   "value": "The coffee boy saw who took the cup; if he wasn’t asked before the autopsy result came, he left for Sardinia. The apprentice explained ‘forger’s green’, the daughter the price of the signatures. Toxicology named the pigment; a justified search found the jar and the letter."
+  },
+  {
+   "key": "case049.summary.lesson",
+   "value": "To make something new look old, it took poison."
+  },
+  {
+   "key": "case049.summary.location",
+   "value": "San Gregorio Armeno — October 2030"
+  },
+  {
+   "key": "case049.summary.truth",
+   "value": "For forty years the antiques dealer Vittoria Sala had been selling figures made of new clay and aged with old pigment as ‘18th century’, and Caruso Marittima put them on ships; the expert signature came from the master Raffaele Cuomo. When the master decided to withdraw his signatures, Vittoria took the coffee cup from the boy’s hand, stirred the arsenic green pigment into it, washed the cup and put the letter in her bag."
+  },
+  {
+   "key": "case049.suspect.label",
+   "value": "Who killed Raffaele Cuomo?"
+  },
+  {
+   "key": "case049.tablet.caseLine",
+   "value": "FILE #049  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case049.teresa.body",
+   "value": "The victim’s daughter."
+  },
+  {
+   "key": "case049.teresa.deflect",
+   "value": "Questions about my father’s affairs come to me."
+  },
+  {
+   "key": "case049.teresa.papers.answer",
+   "value": "Expert reports. For years he signed off the ‘old’ figures Vittoria Sala sold as ‘18th century, original’; a thousand euros a signature. Last week he broke one figure and found new clay inside. ‘Teresa, they’re all fakes, and I’ve become a forger,’ he said. He was going to withdraw his signatures; he even wrote the letter."
+  },
+  {
+   "key": "case049.teresa.papers.answer.demeanor",
+   "value": "She lowers her glasses and pushes them back up."
+  },
+  {
+   "key": "case049.teresa.papers.question",
+   "value": "What was your father working on these last few days?"
+  },
+  {
+   "key": "case049.teresa.title",
+   "value": "Teresa Cuomo — interview"
+  },
+  {
+   "key": "case049.time.arrive",
+   "value": "11.00"
+  },
+  {
+   "key": "case049.time.coffee",
+   "value": "12.00"
+  },
+  {
+   "key": "case049.time.found",
+   "value": "15.20"
+  },
+  {
+   "key": "case049.time.leave",
+   "value": "12.30"
+  },
+  {
+   "key": "case049.time.lunch",
+   "value": "13.00"
+  },
+  {
+   "key": "case049.title",
+   "value": "File #049 — Presepe"
+  },
+  {
+   "key": "case049.tox.body",
+   "value": "· Cause of death: acute arsenic poisoning.\n· In the stomach, espresso and copper acetoarsenite: a paint pigment historically known as ‘Paris green’ or ‘Schweinfurt green’, banned from sale today.\n· The same pigment in the green ring at the bottom of the cup.\n· Ingestion: 2–3 hours before death."
+  },
+  {
+   "key": "case049.tox.title",
+   "value": "TOXICOLOGY REPORT"
+  },
+  {
+   "key": "case049.verdict.matteo",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.verdict.natural",
+   "value": "No one — heart failure"
+  },
+  {
+   "key": "case049.verdict.teresa",
+   "value": "Teresa Cuomo"
+  },
+  {
+   "key": "case049.verdict.vittoria",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.vittoria.body",
+   "value": "Antiques dealer."
+  },
+  {
+   "key": "case049.vittoria.deflect",
+   "value": "I know the value of old things, and of people."
+  },
+  {
+   "key": "case049.vittoria.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case049.vittoria.end.presented.export",
+   "value": "The expert signature, yes. Raffaele took money for every signature. Was he going to be clean now?"
+  },
+  {
+   "key": "case049.vittoria.end.presented.shop",
+   "value": "For forty years I’ve sold those figures; the Carusos put them on ships, and buyers wait for them in Zürich, Tokyo, New York. If Raffaele had posted the letter it would all have been over. I use that green to age the figures. I put a little in his cup too. I washed the cup. I put the letter in my bag."
+  },
+  {
+   "key": "case049.vittoria.end.question",
+   "value": "You put the green pigment in the cup."
+  },
+  {
+   "key": "case049.vittoria.title",
+   "value": "Vittoria Sala — interview"
+  },
+  {
+   "key": "case049.vittoria.visit.answer",
+   "value": "I had ordered a shepherd figure. I came at about eleven and left at half twelve. Raffaele was tired; he always drank coffee, his heart was weak. I didn’t even touch his cup."
+  },
+  {
+   "key": "case049.vittoria.visit.answer.demeanor",
+   "value": "She straightens her cameo with a finger."
+  },
+  {
+   "key": "case049.vittoria.visit.question",
+   "value": "Why did you go to the master’s workshop?"
+  },
+  {
+   "key": "case049.vittoria.visit.variant0",
+   "value": "I took the cup from the boy, yes; he was shaking, he’d have spilled it. I handed it to Raffaele. That means nothing."
+  },
+  {
+   "key": "case049.item.cup.name",
+   "value": "Espresso cup"
+  },
+  {
+   "key": "case049.item.cup.detail",
+   "value": "A cup washed out inside; a dried green ring at the bottom."
+  },
+  {
+   "key": "case049.item.pigment.name",
+   "value": "Jar of old pigment"
+  },
+  {
+   "key": "case049.item.pigment.detail",
+   "value": "A small glass jar sealed with wax; bright emerald-green powder inside."
+  },
+  {
+   "key": "case049.item.figure.name",
+   "value": "Shepherd figure"
+  },
+  {
+   "key": "case049.item.figure.detail",
+   "value": "An unfinished terracotta shepherd; the head painted, the body bare clay."
+  }
+ ]
+}
