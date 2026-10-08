@@ -35,7 +35,7 @@ Eski `Bootstrap.unity` build listesinde **değildir**; `BootScene` ile byte düz
 - `Resources/Bube/Cases/case002.json` — "Son Sefer", 13 düğüm, 31 soru. Taslak değil: `draft` bayrağı 26 Eylül 2026'da kaldırıldı, vaka zincirde case001'in ardından geliyor. Dört sütunlu rapor kullanan ilk vaka.
 - `Resources/Bube/Locales/tr.json` — ortak metin. **Tek dil.** Vaka metni artık burada değil: `tr.case001.json` (9 anahtar) ve `tr.case002.json` (170 anahtar) dosyalarında durur ve `LocaleLoader` yüklemede birleştirir. Çakışan anahtarda ortak dosya kazanır ve doğrulama bunu iki dosya adıyla bildirir. Yinelenen anahtar yok, eksik anahtar yok; ~10 ölü anahtar var (kaldırılmış CCTV yan menüsünden kalma).
 - `Resources/Bube/Audio/` — dokuz klip. `AudioDirector` klip adlarını buradan arar (`ui_press`, `ui_typewriter`, `ui_stamp`, `ui_notification`, `ui_chat`/`ui_chat_low`, `menu_theme`, `desk_theme`, `room_interview` + vakanın `ambienceId`si). Eksik klip oyunu durdurmaz, sessiz geçer ve bir kez not düşer.
-- `StreamingAssets/Bube/` — `career_start.mp4` (3.2 MB, Bora filmi), `main_menu_loop.mp4`, `report_send.mp4`.
+- `StreamingAssets/Bube/` — `career_start.mp4` (3.2 MB, Bora filmi), `report_send.mp4`. Ana menü durağan görsel kullanır; `main_menu_loop.mp4` silindi (8 Ekim 2026).
 
 Vaka verisi bütünlüğü her test koşumunda otomatik doğrulanır (aşağıdaki "İçerik doğrulama"). case001 ve case002'de sarkan referans, erişilemeyen düğüm veya erişilemeyen soru yoktur.
 
