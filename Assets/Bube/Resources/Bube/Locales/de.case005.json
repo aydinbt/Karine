@@ -1,0 +1,1124 @@
+{
+ "entries": [
+  {
+   "key": "case005.asli.body",
+   "value": "Aussage der Schwester, die die Vermisstenmeldung erstattet hat."
+  },
+  {
+   "key": "case005.asli.building.answer",
+   "value": "An der Haustür ist eine. Der Verwalter wollte die Aufnahmen der Polizei geben, ich konnte sie mir nicht ansehen."
+  },
+  {
+   "key": "case005.asli.building.question",
+   "value": "Gibt es im Haus eine Kamera?"
+  },
+  {
+   "key": "case005.asli.day.answer",
+   "value": "Mittags rief Murat an, Ece sei nicht zum Termin gekommen, ihr Handy sei aus. Ich habe auch angerufen, aus. Abends nach dem Dienst bin ich zu ihr, ich habe einen Ersatzschlüssel. Ece war nicht da."
+  },
+  {
+   "key": "case005.asli.day.answer.demeanor",
+   "value": "Drehte die Krankenhauskarte in ihrer Hand unablässig zwischen den Fingern."
+  },
+  {
+   "key": "case005.asli.day.question",
+   "value": "Was ist am Montag passiert, erzählen Sie?"
+  },
+  {
+   "key": "case005.asli.deflect",
+   "value": "Das weiß ich nicht. Wüsste ich es, würde ich es sagen."
+  },
+  {
+   "key": "case005.asli.home.answer",
+   "value": "Alles war an seinem Platz. Der Computer auf dem Schreibtisch, der Pass in der Schublade. Kein Streit, nichts kaputt. Aber ihre Tasche war weg. Die kleine Tasche, die sie immer trägt. Das habe ich auch der Polizei gesagt."
+  },
+  {
+   "key": "case005.asli.home.question",
+   "value": "Was haben Sie gesehen, als Sie in die Wohnung kamen?"
+  },
+  {
+   "key": "case005.asli.last.answer",
+   "value": "Sonntagabend. Gegen neun hat sie angerufen. Wie immer; wir haben über die Arbeit und über Mama gesprochen. Vier, fünf Minuten."
+  },
+  {
+   "key": "case005.asli.last.answer.demeanor",
+   "value": "Antwortete einen Moment zu spät und dann schnell."
+  },
+  {
+   "key": "case005.asli.last.question",
+   "value": "Wann haben Sie zuletzt mit Ece gesprochen?"
+  },
+  {
+   "key": "case005.asli.quote",
+   "value": "„In Eces Leben gab es nichts Ungewöhnliches.“"
+  },
+  {
+   "key": "case005.asli.title",
+   "value": "Aslı Karaca — Befragung"
+  },
+  {
+   "key": "case005.asli.unusual.answer",
+   "value": "Nein. In Eces Leben gab es nichts Ungewöhnliches. Sie hat gearbeitet, das war's. Von Kaan hatte sie sich getrennt, aber das ist auch zwei Monate her."
+  },
+  {
+   "key": "case005.asli.unusual.answer.demeanor",
+   "value": "Senkte den Blick auf den Tisch; in ihrer Stimme lag eine Schärfe."
+  },
+  {
+   "key": "case005.asli.unusual.question",
+   "value": "Gab es in letzter Zeit etwas Ungewöhnliches in Eces Leben?"
+  },
+  {
+   "key": "case005.asli_follow.body",
+   "value": "Befragung nach der Notiz zur Wohnungsdurchsicht."
+  },
+  {
+   "key": "case005.asli_follow.lawyer.answer",
+   "value": "Sie erwähnte eine Freundin, Anwältin. Selin. Von der Uni. „Ich lege bei ihr einen Umschlag hin, besser, du weißt nichts davon“, sagte sie. Ich habe nicht nach dem Warum gefragt. Ich hätte fragen müssen."
+  },
+  {
+   "key": "case005.asli_follow.lawyer.question",
+   "value": "Was hat sie noch gesagt?"
+  },
+  {
+   "key": "case005.asli_follow.packed.answer",
+   "value": "… Ich habe es nicht gesagt. Letzten Mittwoch sagte Ece zu mir: „Wenn ich mein Handy eine Weile ausschalte, mach dir keine Sorgen.“ Ich hielt es für einen Scherz. Als ich am Montag das ausgeschaltete Handy hörte, hatte ich einerseits Angst, andererseits … dachte ich, vielleicht ist sie selbst gegangen. Ich wollte ihr Leben nicht vor allen ausbreiten."
+  },
+  {
+   "key": "case005.asli_follow.packed.answer.demeanor",
+   "value": "Die Augen füllten sich; dann wischte sie sie heftig ab."
+  },
+  {
+   "key": "case005.asli_follow.packed.decoy.phone",
+   "value": "Um neun haben wir gesprochen, das sagte ich doch. Ein normales Gespräch."
+  },
+  {
+   "key": "case005.asli_follow.packed.question",
+   "value": "Tasche, Kleidung und Zahnbürste fehlen; das Ladegerät ist da. Sie sagten, es gebe nichts Ungewöhnliches."
+  },
+  {
+   "key": "case005.asli_follow.sunday.answer",
+   "value": "„Heute Nacht bringe ich etwas zu Ende“, sagte sie. Ich dachte, es geht um die Arbeit. Ihre Stimme war ruhig. Weil sie ruhig war, habe ich mir keine Sorgen gemacht."
+  },
+  {
+   "key": "case005.asli_follow.sunday.question",
+   "value": "Was hat sie bei Ihrem Gespräch am Sonntagabend gesagt?"
+  },
+  {
+   "key": "case005.asli_follow.title",
+   "value": "Aslı Karaca — zweite Befragung"
+  },
+  {
+   "key": "case005.bank.body",
+   "value": "Die Zahlungseingänge von Karaca Acar Tasarım der letzten sechs Monate wurden geprüft.\n\nNeben dem regulären Eingangskonto der Firma (…0912) wurden drei Kundenzahlungen auf ein anderes Konto (…4471) umgeleitet:\n\nSeptember · Keskin Yapı (Levent Keskin) · 412.000 TL\nOktober · Arda Mimarlık · 268.000 TL\nNovember · Bostan Gayrimenkul · 305.000 TL\n\nDie Identität des Inhabers von Konto …4471 ließ sich im Rahmen dieser Prüfung nicht bestätigen; ein Schreiben der Bank steht aus.\n\nIn den Aufstellungen im Ordner „Tahsilat_2027“ sind diese drei Zahlungen als „ausstehend“ markiert."
+  },
+  {
+   "key": "case005.bank.title",
+   "value": "PRÜFBERICHT FIRMENKONTEN"
+  },
+  {
+   "key": "case005.building.body",
+   "value": "Protokoll der Haustürkamera des Hauses, in dem Ece Karaca wohnt, 14. November 18.00 – 24.00. Die Kamera zeigt Haustür und Eingangshalle; von der Treppe sind nur die ersten Stufen zu sehen, obere Etagen und Wohnungen sind nicht im Bild. Das Haus hat keinen anderen Eingang."
+  },
+  {
+   "key": "case005.building.title",
+   "value": "HAUSEINGANGSKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case005.cctv.event.car_in",
+   "value": "Kamera 04 (Einfahrt): Fahrzeug mit Kennzeichen 34 MA 3108 fährt ein. Halter: Murat Acar."
+  },
+  {
+   "key": "case005.cctv.event.car_out",
+   "value": "Kamera 04: Fahrzeug 34 MA 3108 fährt aus. Im Wagen ist nur der Fahrer zu sehen."
+  },
+  {
+   "key": "case005.cctv.event.ece_bag",
+   "value": "Kamera 01: Ece Karaca ist in der Eingangshalle zu sehen; Mantel an, eine kleine helle Tasche über der Schulter. Sie schaut eine Weile vor den Briefkästen aufs Handy."
+  },
+  {
+   "key": "case005.cctv.event.ece_home",
+   "value": "Kamera 01 (Haustür): Eine Frau kommt durch die Haustür; in der Hand eine Einkaufstüte, über der Schulter eine kleine helle Tasche. Von ihrer Schwester als Ece Karaca erkannt."
+  },
+  {
+   "key": "case005.cctv.event.ece_leaves",
+   "value": "Kamera 03 (Fußgängerausgang): Eine Frau verlässt den Parkplatz allein durch den Fußgängerausgang. Über der Schulter eine kleine helle Tasche. Sie geht Richtung Ufer; verlässt das Bild."
+  },
+  {
+   "key": "case005.cctv.event.ece_out",
+   "value": "Kamera 01: Ece Karaca verlässt das Haus durch die Haustür und geht Richtung Ufer. Niemand ist bei ihr."
+  },
+  {
+   "key": "case005.cctv.event.ece_walk",
+   "value": "Kamera 03 (Rıhtım-Parkplatz, Fußgängereingang): Eine Frau kommt durch den Fußgängereingang; über der Schulter eine kleine helle Tasche. Sie bleibt neben der Rampe stehen."
+  },
+  {
+   "key": "case005.cctv.event.kaan_in",
+   "value": "Kamera 01: Ein Mann telefoniert vor der Haustür; die Tür wird von innen geöffnet, er geht hinein."
+  },
+  {
+   "key": "case005.cctv.event.kaan_out",
+   "value": "Kamera 01: Derselbe Mann verlässt das Haus. Er bleibt vor der Tür stehen, sieht nach oben und entfernt sich dann mit schnellen Schritten."
+  },
+  {
+   "key": "case005.cctv.event.meet",
+   "value": "Kamera 03: Zwei Personen am Fahrzeug; ein Mann, der ausgestiegen ist, und die zu Fuß gekommene Frau. Sie reden. Der Mann streckt einmal die Hand aus, die Frau weicht einen Schritt zurück. Kein Kontakt zu sehen."
+  },
+  {
+   "key": "case005.cctv.late.overlay",
+   "value": "KAM 03"
+  },
+  {
+   "key": "case005.cctv.late.period",
+   "value": "14.–15. November 2027, 23.40 – 01.00"
+  },
+  {
+   "key": "case005.cctv.late.source",
+   "value": "Parkplatzkameras (Ergänzung)"
+  },
+  {
+   "key": "case005.cctv.overlay",
+   "value": "KAM 01"
+  },
+  {
+   "key": "case005.cctv.parking.overlay",
+   "value": "KAM 03 / 04"
+  },
+  {
+   "key": "case005.cctv.parking.period",
+   "value": "14. November 2027, 23.00 – 23.40"
+  },
+  {
+   "key": "case005.cctv.parking.source",
+   "value": "Parkplatzkameras"
+  },
+  {
+   "key": "case005.cctv.period",
+   "value": "14. November 2027, 18.00 – 24.00"
+  },
+  {
+   "key": "case005.cctv.source",
+   "value": "Hauseingangskamera"
+  },
+  {
+   "key": "case005.cloud.body",
+   "value": "Zugriffsprotokoll des gemeinsamen Cloud-Kontos der Firma, 14. November:\n\n17.38 · E. Karaca lädt den Ordner „Tahsilat_2027“ herunter (42 Dateien).\n17.38 · Das System sendet dem Administratorkonto (M. Acar) eine Meldung „Massendownload“.\n17.52 · M. Acar meldet sich an; sieht den Ordner an.\n18.05 · M. Acar entzieht E. Karaca die Freigabe für den Ordner.\n\nHinweis: Vor dem Entzug heruntergeladene Dateien bleiben auf dem Gerät der Nutzerin."
+  },
+  {
+   "key": "case005.cloud.title",
+   "value": "CLOUD-ZUGRIFFSPROTOKOLL — KARACA ACAR TASARIM"
+  },
+  {
+   "key": "case005.clue.asli_call",
+   "value": "Vierminütiger Anruf mit Aslı"
+  },
+  {
+   "key": "case005.clue.baz_rihtim",
+   "value": "Handy in der Umgebung des Rıhtım-Parkplatzes"
+  },
+  {
+   "key": "case005.clue.building_ece_bag",
+   "value": "Ece in der Eingangshalle, Tasche über der Schulter"
+  },
+  {
+   "key": "case005.clue.building_ece_home",
+   "value": "Ece kommt nach Hause"
+  },
+  {
+   "key": "case005.clue.building_ece_out",
+   "value": "Ece verlässt das Haus"
+  },
+  {
+   "key": "case005.clue.building_kaan_in",
+   "value": "Ein Mann betritt das Haus"
+  },
+  {
+   "key": "case005.clue.building_kaan_out",
+   "value": "Derselbe Mann verlässt das Haus"
+  },
+  {
+   "key": "case005.clue.car_in",
+   "value": "Murat Acars Wagen fährt auf den Parkplatz"
+  },
+  {
+   "key": "case005.clue.car_out",
+   "value": "Murat Acars Wagen fährt aus; nur der Fahrer darin"
+  },
+  {
+   "key": "case005.clue.cloud_dl",
+   "value": "Ece lädt den Ordner herunter; Meldung geht an Murat"
+  },
+  {
+   "key": "case005.clue.cloud_revoke",
+   "value": "Murat entzieht Ece die Ordnerfreigabe"
+  },
+  {
+   "key": "case005.clue.ece_bag",
+   "value": "Ece in der Eingangshalle, Tasche über der Schulter"
+  },
+  {
+   "key": "case005.clue.ece_home",
+   "value": "Ece kommt nach Hause"
+  },
+  {
+   "key": "case005.clue.ece_leaves",
+   "value": "Eine Frau verlässt den Parkplatz allein zu Fuß"
+  },
+  {
+   "key": "case005.clue.ece_out",
+   "value": "Ece verlässt das Haus"
+  },
+  {
+   "key": "case005.clue.ece_walk",
+   "value": "Eine Frau betritt den Parkplatz zu Fuß"
+  },
+  {
+   "key": "case005.clue.kaan_claim",
+   "value": "Sagt, er sei zu Hause gewesen"
+  },
+  {
+   "key": "case005.clue.kaan_in",
+   "value": "Ein Mann betritt das Haus"
+  },
+  {
+   "key": "case005.clue.kaan_msg",
+   "value": "Kaan Erdem: „Bin unten.“"
+  },
+  {
+   "key": "case005.clue.kaan_out",
+   "value": "Derselbe Mann verlässt das Haus"
+  },
+  {
+   "key": "case005.clue.last_data",
+   "value": "Letzte Datenverbindung"
+  },
+  {
+   "key": "case005.clue.meet",
+   "value": "Zwei Personen reden am Fahrzeug"
+  },
+  {
+   "key": "case005.clue.murat_call",
+   "value": "Elfminütiger Anruf mit Murat Acar"
+  },
+  {
+   "key": "case005.clue.murat_claim",
+   "value": "Sagt, er sei nicht hingefahren"
+  },
+  {
+   "key": "case005.clue.murat_msg",
+   "value": "Murat Acar: „Rıhtım. 23.15. Komm allein.“"
+  },
+  {
+   "key": "case005.clue.nermin_saw",
+   "value": "Sagt, sie habe Ece mit Tasche gehen sehen (ungefähre Zeit)"
+  },
+  {
+   "key": "case005.clue.parking_car_in",
+   "value": "Murat Acars Wagen fährt auf den Parkplatz"
+  },
+  {
+   "key": "case005.clue.parking_car_out",
+   "value": "Murat Acars Wagen fährt aus; nur der Fahrer darin"
+  },
+  {
+   "key": "case005.clue.parking_ece_walk",
+   "value": "Eine Frau betritt den Parkplatz zu Fuß"
+  },
+  {
+   "key": "case005.clue.parking_late_ece_leaves",
+   "value": "Eine Frau verlässt den Parkplatz allein zu Fuß"
+  },
+  {
+   "key": "case005.clue.parking_meet",
+   "value": "Zwei Personen reden am Fahrzeug"
+  },
+  {
+   "key": "case005.clue.phone_off",
+   "value": "Handy wird von Hand ausgeschaltet"
+  },
+  {
+   "key": "case005.clue.search",
+   "value": "Suche „Rıhtım Parkplatz nachts offen“"
+  },
+  {
+   "key": "case005.clue.source.cloud",
+   "value": "Cloud-Zugriffsprotokoll"
+  },
+  {
+   "key": "case005.clue.source.laptop",
+   "value": "Notiz zur Laptop-Untersuchung"
+  },
+  {
+   "key": "case005.clue.source.phone",
+   "value": "Telefonverkehrsbericht"
+  },
+  {
+   "key": "case005.clue.source.signal",
+   "value": "Funkzellenprotokoll"
+  },
+  {
+   "key": "case005.clue.usb",
+   "value": "Ordner wird auf USB-Stick kopiert"
+  },
+  {
+   "key": "case005.custody.kaan_attack",
+   "value": "Ja — Kaan Erdem griff an"
+  },
+  {
+   "key": "case005.custody.label",
+   "value": "Gab es einen körperlichen Angriff auf Ece?"
+  },
+  {
+   "key": "case005.custody.murat_attack",
+   "value": "Ja — Murat Acar griff an"
+  },
+  {
+   "key": "case005.custody.noevidence",
+   "value": "Kein stützender Beweis"
+  },
+  {
+   "key": "case005.deposit.body",
+   "value": "Aus dem Verwahrungsbuch der Kanzlei Rechtsanwältin Selin Arı:\n\n13. November 2027, 16.20 · Ece Karaca übergab einen verschlossenen Umschlag. Darauf: „Nur im Bedarfsfall auszuhändigen.“\n\nNach der Vermisstenmeldung wurde der Umschlag auf Antrag der Ermittlungseinheit und unter Protokoll geöffnet. Inhalt:\n· Kopien der Zahlungseingangsaufstellungen von Karaca Acar Tasarım (Juni – November).\n· Eine Liste der drei Zahlungen an Konto …4471; neben jeder handschriftlich der Kundenname.\n· Ausdruck des Belegs von Levent Keskin.\n· Handschriftlich eine Zeile: „Bin ich nicht erreichbar, soll dieser Umschlag geöffnet werden. — E.K.“"
+  },
+  {
+   "key": "case005.deposit.title",
+   "value": "VERWAHRUNGSPROTOKOLL"
+  },
+  {
+   "key": "case005.epilogue.custody.kaan_attack",
+   "value": "Kaan Erdem wurde festgenommen; dabei verließ Ece Karaca das Haus um 22.46 wohlbehalten. Kaan kam zwei Tage später frei, sein Name blieb in den Nachrichten."
+  },
+  {
+   "key": "case005.epilogue.custody.murat_attack",
+   "value": "Murat Acar wurde wegen Verdachts auf Körperverletzung festgenommen. Als die Kameraaufzeichnung keinen Kontakt zeigte, kam er frei; sein Anwalt stellte auch die Finanzakte als „persönliche Feindschaft“ dar."
+  },
+  {
+   "key": "case005.epilogue.custody.noevidence",
+   "value": "Die Parkplatzaufzeichnungen zeigten, dass Murat Acar Ece Karaca nicht berührt hat. Gegen Murat Acar wurde nicht wegen Körperverletzung, sondern wegen finanzieller Unregelmäßigkeiten ermittelt."
+  },
+  {
+   "key": "case005.epilogue.verdict.abducted",
+   "value": "Die Akte wurde als Entführung behandelt. Murat Acar wurde festgenommen und kam drei Tage später frei. Als Ece Karaca ihren Namen in den Nachrichten als „entführte Frau“ sah, meldete sie sich über ihre Anwältin aus ihrem Versteck; die Finanzunterlagen blieben im Schatten."
+  },
+  {
+   "key": "case005.epilogue.verdict.accident",
+   "value": "Uferstreifen und Rıhtım-Umgebung wurden zwei Tage abgesucht. Gesucht wurde jemand, der sich aus eigenem Willen entfernt hatte; die Teams mühten sich umsonst."
+  },
+  {
+   "key": "case005.epilogue.verdict.undetermined",
+   "value": "Die Akte blieb offen und wanderte ins Regal. Als Ece Karaca eine Woche später von selbst auftauchte, hatte niemand nach den Finanzunterlagen gefragt."
+  },
+  {
+   "key": "case005.epilogue.verdict.voluntary",
+   "value": "VERMISSTENMELDUNG AKTUALISIERT — Ece Karaca hat sich aus eigenem Willen bei der zuständigen Stelle gemeldet. Ihr guter Gesundheitszustand wurde bestätigt. Auf Wunsch von Karaca wurde ihr Aufenthaltsort nicht in die Akte aufgenommen.\n\nDie von Karaca übergebenen Finanzunterlagen werden gesondert geprüft."
+  },
+  {
+   "key": "case005.evidence.bank",
+   "value": "Prüfbericht Firmenkonten"
+  },
+  {
+   "key": "case005.evidence.building",
+   "value": "Hauseingangskamera"
+  },
+  {
+   "key": "case005.evidence.deposit",
+   "value": "Verwahrungsprotokoll"
+  },
+  {
+   "key": "case005.evidence.parking",
+   "value": "Parkplatzkameras"
+  },
+  {
+   "key": "case005.evidence.parking_late",
+   "value": "Erweitertes Protokoll Parkplatz"
+  },
+  {
+   "key": "case005.feedback.abducted",
+   "value": "In der Parkplatzaufzeichnung fährt Murat Acars Wagen um 23.34 mit nur dem Fahrer aus; um 00.08 verlässt eine Frau den Parkplatz allein. Kein Eintrag zeigt Zwang."
+  },
+  {
+   "key": "case005.feedback.accident",
+   "value": "Eces Handy wurde nicht durch einen Unfall, sondern von Hand ausgeschaltet; Tasche und Sachen hatte sie vorher gepackt."
+  },
+  {
+   "key": "case005.feedback.undetermined",
+   "value": "Die Einträge lagen offen: Parkplatzausgang, von Hand ausgeschaltetes Handy, vorher hinterlegter Umschlag. Die Akte war nicht unklar."
+  },
+  {
+   "key": "case005.feedback.voluntary",
+   "value": "Ece Karaca verließ den Parkplatz um 00.08 allein zu Fuß. Sie schaltete ihr Handy selbst aus, nahm Tasche und Sachen für ein paar Tage vorher mit und hinterlegte zwei Tage zuvor einen Umschlag. Das Verschwinden war geplant."
+  },
+  {
+   "key": "case005.file.caseType",
+   "value": "VERMISSTE PERSON"
+  },
+  {
+   "key": "case005.file.value.bureau",
+   "value": "BDS Vermisstenstelle"
+  },
+  {
+   "key": "case005.file.value.location",
+   "value": "Kadıköy, Moda — Wohnung von Ece Karaca"
+  },
+  {
+   "key": "case005.file.value.number",
+   "value": "BDS-2027-0231"
+  },
+  {
+   "key": "case005.file.value.offence",
+   "value": "Vermisste Person — verdächtiges Verschwinden"
+  },
+  {
+   "key": "case005.file.value.reporter",
+   "value": "Aslı Karaca, Schwester"
+  },
+  {
+   "key": "case005.home.body",
+   "value": "Die Wohnung von Ece Karaca in Moda wurde zusammen mit ihrer Schwester Aslı Karaca durchgesehen.\n\nKeine Aufbruchspuren an Tür und Fenstern. Die Wohnung ist ordentlich; nichts umgestürzt, nichts zerbrochen, keine Blutspuren.\n\nDer Pass liegt in der Schlafzimmerschublade. Der Laptop liegt zugeklappt auf dem Schreibtisch. Das Ladegerät des Handys steckt in der Wohnzimmersteckdose.\n\nLaut Aslı Karaca fehlen: die kleine beige Lederschultertasche für jeden Tag; Kleidung für zwei, drei Tage aus dem Schrank; die Zahnbürste aus dem Bad.\n\nDie Nachbarin von unten, Nermin Öztürk, gab an, Sonntagnacht irgendwann eine Tür gehört zu haben."
+  },
+  {
+   "key": "case005.home.title",
+   "value": "NOTIZ ZUR WOHNUNGSDURCHSICHT"
+  },
+  {
+   "key": "case005.invoice.body",
+   "value": "Von Levent Keskin übergebene Dokumente.\n\nRechnung, 28. August · Briefkopf Karaca Acar Tasarım. In der Fußzeile das Eingangskonto der Firma: …0912.\n\nE-Mail, 2. September, Absender Murat Acar:\n„Guten Tag Herr Levent, unser Eingangskonto hat sich geändert. Ich bitte Sie, künftige Zahlungen auf das Konto …4471 zu leisten. Frau Ece nehme ich nicht in diese Korrespondenz auf, sie hat viel zu tun.“\n\nBeleg, 5. September · 412.000 TL · Empfängerkonto …4471."
+  },
+  {
+   "key": "case005.invoice.title",
+   "value": "RECHNUNG UND E-MAIL — KESKİN YAPI"
+  },
+  {
+   "key": "case005.kaan.body",
+   "value": "Aussage des früheren Partners."
+  },
+  {
+   "key": "case005.kaan.breakup.answer",
+   "value": "Sie hat Schluss gemacht. Sie hat viel gearbeitet, und ich … wollte wohl zu viel. Es endete nicht schlecht. Es endete eben."
+  },
+  {
+   "key": "case005.kaan.breakup.question",
+   "value": "Warum haben Sie sich getrennt?"
+  },
+  {
+   "key": "case005.kaan.deflect",
+   "value": "Was hat das damit zu tun, Ece zu finden?"
+  },
+  {
+   "key": "case005.kaan.last.answer",
+   "value": "Etwa zwei Wochen her. Wir sind uns in einem Café begegnet, haben uns gegrüßt. Das war's. Ece habe ich seit zwei Wochen nicht gesehen."
+  },
+  {
+   "key": "case005.kaan.last.answer.demeanor",
+   "value": "Verschränkte die Arme vor der Brust."
+  },
+  {
+   "key": "case005.kaan.last.question",
+   "value": "Wann haben Sie Ece zuletzt gesehen?"
+  },
+  {
+   "key": "case005.kaan.night.answer",
+   "value": "Zu Hause. In Üsküdar. Ich habe eine Serie geschaut und bin früh ins Bett."
+  },
+  {
+   "key": "case005.kaan.night.answer.demeanor",
+   "value": "Antwortete, bevor die Frage zu Ende war."
+  },
+  {
+   "key": "case005.kaan.night.question",
+   "value": "Wo waren Sie am Sonntagabend?"
+  },
+  {
+   "key": "case005.kaan.quote",
+   "value": "„Ece habe ich seit zwei Wochen nicht gesehen.“"
+  },
+  {
+   "key": "case005.kaan.title",
+   "value": "Kaan Erdem — Befragung"
+  },
+  {
+   "key": "case005.kaan_follow.body",
+   "value": "Befragung nach der Hauskamera."
+  },
+  {
+   "key": "case005.kaan_follow.desk.answer",
+   "value": "Auf dem Tisch lagen viele Papiere. Wie Kontoauszüge, Tabellen. Als ich hinsah, klappte sie es sofort zu. „Ich habe gerade andere Sorgen, Kaan“, sagte sie. Ich dachte, es geht um mich."
+  },
+  {
+   "key": "case005.kaan_follow.desk.question",
+   "value": "Ist Ihnen an dem Abend in der Wohnung etwas aufgefallen?"
+  },
+  {
+   "key": "case005.kaan_follow.mood.answer",
+   "value": "Angespannt. Ihr Handy vibrierte zweimal, sie sah hin und legte es weg. Sie wirkte nicht verängstigt, aber … als hätte sie etwas entschieden. So hat sie geschaut."
+  },
+  {
+   "key": "case005.kaan_follow.mood.question",
+   "value": "Wie war Ece?"
+  },
+  {
+   "key": "case005.kaan_follow.there.answer",
+   "value": "… Ja. Ich war dort. Ich habe geschrieben, dass ich unten bin, sie hat aufgemacht. Ich wollte mich versöhnen. Wir haben gestritten. Nicht mal eine halbe Stunde, dann bin ich gegangen. Ich habe es nicht gesagt, weil ich weiß, was mit einem Mann passiert, der in der Nacht des Verschwindens in der Wohnung seiner Ex war."
+  },
+  {
+   "key": "case005.kaan_follow.there.answer.demeanor",
+   "value": "Sah lange zu Boden. Dann sprach er, ohne den Kopf zu heben."
+  },
+  {
+   "key": "case005.kaan_follow.there.decoy.phone",
+   "value": "Ich habe geschrieben, ja. Aber das heißt nicht, dass ich hingegangen bin … also …"
+  },
+  {
+   "key": "case005.kaan_follow.there.decoy.phone.demeanor",
+   "value": "Konnte den Satz nicht beenden."
+  },
+  {
+   "key": "case005.kaan_follow.there.question",
+   "value": "Sie sagten, Sie hätten sie seit zwei Wochen nicht gesehen. Die Kamera zeigt Sie am Sonntagabend im Haus."
+  },
+  {
+   "key": "case005.kaan_follow.title",
+   "value": "Kaan Erdem — zweite Befragung"
+  },
+  {
+   "key": "case005.laptop.body",
+   "value": "Der in der Wohnung gefundene Laptop von Ece Karaca wurde untersucht.\n\nLetzte Sitzung: am 14. November um 22.31 beendet.\n22.18 · 42 Dateien aus dem Ordner „Tahsilat_2027“ wurden auf einen externen Speicher kopiert (32-GB-USB-Stick). Der Stick wurde in der Wohnung nicht gefunden.\n22.24 · Letzte Suche im Browser: „Kadıköy Rıhtım Parkplatz nachts offen“.\n\nAuf dem Rechner ist eine Sitzung im gemeinsamen Cloud-Konto der Firma geöffnet. Der Ordner wurde von diesem Konto heruntergeladen."
+  },
+  {
+   "key": "case005.laptop.title",
+   "value": "NOTIZ ZUR LAPTOP-UNTERSUCHUNG"
+  },
+  {
+   "key": "case005.levent.body",
+   "value": "Aussage des in der Kontoprüfung genannten Kunden."
+  },
+  {
+   "key": "case005.levent.deflect",
+   "value": "Das weiß der Buchhalter, damit habe ich nichts zu tun."
+  },
+  {
+   "key": "case005.levent.ece.answer",
+   "value": "Ende Oktober rief sie an. „Auf welches Konto haben Sie gezahlt?“, fragte sie und wollte den Beleg. Ich habe ihn geschickt. Ihre Stimme war seltsam, ich fragte nach, sie sagte „nur eine Kontrolle“. Ehrlich gesagt fand ich das merkwürdig."
+  },
+  {
+   "key": "case005.levent.ece.question",
+   "value": "Hat Ece Karaca Sie dazu etwas gefragt?"
+  },
+  {
+   "key": "case005.levent.paid.answer",
+   "value": "Auf das Konto, das man mir genannt hat. Herr Murat schrieb eine E-Mail, „unser Eingangskonto hat sich geändert“. Also habe ich dorthin gezahlt. Ich habe das Geld bezahlt, der Rest geht mich nichts an."
+  },
+  {
+   "key": "case005.levent.paid.answer.demeanor",
+   "value": "Suchte etwas auf seinem Handy, fand es nicht, steckte es ein."
+  },
+  {
+   "key": "case005.levent.paid.question",
+   "value": "Auf welches Konto haben Sie Ihre Zahlung im September geleistet?"
+  },
+  {
+   "key": "case005.levent.project.answer",
+   "value": "Gut. Die Arbeit hat Frau Ece geleitet. Herrn Murat sahen wir nur zur Rechnungszeit."
+  },
+  {
+   "key": "case005.levent.project.question",
+   "value": "Wie lief das Projekt?"
+  },
+  {
+   "key": "case005.levent.quote",
+   "value": "„Ich habe das Geld bezahlt. Der Rest geht mich nichts an.“"
+  },
+  {
+   "key": "case005.levent.title",
+   "value": "Levent Keskin — Befragung"
+  },
+  {
+   "key": "case005.method.kaan_argument",
+   "value": "Kaan Erdem — Beziehungsstreit"
+  },
+  {
+   "key": "case005.method.label",
+   "value": "Mit dem Verschwinden verbundene Person und Art der Verbindung"
+  },
+  {
+   "key": "case005.method.murat_held",
+   "value": "Murat Acar — hielt Ece gewaltsam fest"
+  },
+  {
+   "key": "case005.method.murat_pressure",
+   "value": "Murat Acar — Druck und Konfrontation wegen finanzieller Unregelmäßigkeiten"
+  },
+  {
+   "key": "case005.method.none",
+   "value": "Niemand ist mit dem Verschwinden verbunden"
+  },
+  {
+   "key": "case005.murat.body",
+   "value": "Aussage des Geschäftspartners."
+  },
+  {
+   "key": "case005.murat.company.answer",
+   "value": "Nein. Die Geschäfte laufen gut. Kleine Zahlungsverzögerungen, die gibt es in jeder Firma."
+  },
+  {
+   "key": "case005.murat.company.question",
+   "value": "Gab es in letzter Zeit ein Problem in der Firma?"
+  },
+  {
+   "key": "case005.murat.deflect",
+   "value": "Dazu sage ich nichts, ohne mit meinem Anwalt zu sprechen."
+  },
+  {
+   "key": "case005.murat.ece.answer",
+   "value": "Sie war müde. Die Sache mit Kaan hat sie sehr mitgenommen. Sie war etwas zerstreut, hat manches schleifen lassen. Vielleicht ist sie irgendwohin, um den Kopf freizubekommen; so macht Ece das."
+  },
+  {
+   "key": "case005.murat.ece.answer.demeanor",
+   "value": "Zuckte mit den Schultern, als er „so macht Ece das“ sagte."
+  },
+  {
+   "key": "case005.murat.ece.question",
+   "value": "Wie war Ece in letzter Zeit?"
+  },
+  {
+   "key": "case005.murat.last.answer",
+   "value": "Zuletzt am Freitag im Büro. Bis sechs Uhr abends waren wir zusammen, dann ist sie gegangen. Für das Montagstreffen waren wir vorbereitet."
+  },
+  {
+   "key": "case005.murat.last.answer.demeanor",
+   "value": "Legte sein Handy mit dem Bildschirm nach unten auf den Tisch."
+  },
+  {
+   "key": "case005.murat.last.question",
+   "value": "Wann haben Sie Ece zuletzt gesehen?"
+  },
+  {
+   "key": "case005.murat.meeting.answer",
+   "value": "Ein neues Hotelprojekt. Großer Auftrag. Ece sollte präsentieren. Als sie nicht kam, habe ich dem Kunden etwas erfunden und dann Aslı angerufen."
+  },
+  {
+   "key": "case005.murat.meeting.question",
+   "value": "Worum ging es beim Montagstreffen?"
+  },
+  {
+   "key": "case005.murat.quote",
+   "value": "„Zuletzt habe ich sie am Freitag im Büro gesehen.“"
+  },
+  {
+   "key": "case005.murat.title",
+   "value": "Murat Acar — Befragung"
+  },
+  {
+   "key": "case005.murat_follow.body",
+   "value": "Befragung nach dem Telefonverkehrsbericht."
+  },
+  {
+   "key": "case005.murat_follow.call.answer",
+   "value": "Wir haben gesprochen, ja. Ein routinemäßiges Arbeitsgespräch. Die Präsentation am Montag. Ich sagte, ich hätte sie Freitag im Büro gesehen, das stimmt; nach dem Telefonat haben Sie nicht gefragt."
+  },
+  {
+   "key": "case005.murat_follow.call.answer.demeanor",
+   "value": "Lächelte, aber das Lächeln erreichte die Augen nicht."
+  },
+  {
+   "key": "case005.murat_follow.call.question",
+   "value": "Sie haben Sonntagnacht elf Minuten mit Ece telefoniert."
+  },
+  {
+   "key": "case005.murat_follow.files.answer",
+   "value": "Ece wühlt in allem herum. Sie hat nach einigen Zahlungseingängen gefragt, ich habe es erklärt. Das Thema war erledigt."
+  },
+  {
+   "key": "case005.murat_follow.files.question",
+   "value": "Hatte Ece ein Problem mit der Firma?"
+  },
+  {
+   "key": "case005.murat_follow.message.answer",
+   "value": "Ece wollte vor der Präsentation persönlich reden. Ich nannte einen Ort auf dem Weg. Ich bin sowieso nicht hin. Ich war müde, habe es mir anders überlegt."
+  },
+  {
+   "key": "case005.murat_follow.message.answer.demeanor",
+   "value": "Beim Lesen der Nachricht spannte sich sein Kiefer kurz an."
+  },
+  {
+   "key": "case005.murat_follow.message.question",
+   "value": "„Rıhtım. 23.15. Komm allein.“ War das auch die Präsentation?"
+  },
+  {
+   "key": "case005.murat_follow.title",
+   "value": "Murat Acar — zweite Befragung"
+  },
+  {
+   "key": "case005.murat_third.account.answer",
+   "value": "Dieses Konto … war eine vorübergehende Regelung. Für den Cashflow. Darüber rede ich nicht ohne meinen Anwalt."
+  },
+  {
+   "key": "case005.murat_third.account.answer.demeanor",
+   "value": "Sein Gesicht verschloss sich; die Stimme wurde flach."
+  },
+  {
+   "key": "case005.murat_third.account.decoy.phone",
+   "value": "Ich sagte doch, wir haben am Telefon über die Arbeit gesprochen."
+  },
+  {
+   "key": "case005.murat_third.account.question",
+   "value": "Warum gehen Kundenzahlungen auf ein anderes Konto?"
+  },
+  {
+   "key": "case005.murat_third.body",
+   "value": "Befragung nach der Parkplatzkamera."
+  },
+  {
+   "key": "case005.murat_third.left.answer",
+   "value": "Sie stand neben dem Wagen. Sah zum Fußgängerausgang, war mit ihrem Handy beschäftigt. Ich habe sie dort gelassen. Mitternacht, auf einem Parkplatz … Ja, ich habe sie dort gelassen."
+  },
+  {
+   "key": "case005.murat_third.left.question",
+   "value": "Wo war Ece, als Sie wegfuhren?"
+  },
+  {
+   "key": "case005.murat_third.met.answer",
+   "value": "… Ich war dort. Gut. Ece hatte die Firmenunterlagen genommen, ich wollte sie zurück. Wir haben geredet, ich bin laut geworden, ja. Aber ich habe sie nicht angefasst. Das ist auch auf der Aufnahme, sehen Sie nach."
+  },
+  {
+   "key": "case005.murat_third.met.answer.demeanor",
+   "value": "Legte die Hände flach auf den Tisch, zog sie dann in den Schoß."
+  },
+  {
+   "key": "case005.murat_third.met.decoy.phone",
+   "value": "Über das Telefonat haben wir schon gesprochen. Noch etwas?"
+  },
+  {
+   "key": "case005.murat_third.met.decoy.phone.demeanor",
+   "value": "Atmete ungeduldig aus."
+  },
+  {
+   "key": "case005.murat_third.met.question",
+   "value": "Sie sagten, Sie seien nicht hingefahren. Ihr Wagen ist um 23.11 auf dem Rıhtım-Parkplatz."
+  },
+  {
+   "key": "case005.murat_third.said.answer",
+   "value": "„Die Kopien sind woanders. Wenn mir etwas passiert, kommt alles ans Licht“, sagte sie. Wie eine Drohung. Als würde ich ihr etwas antun. Ich wollte nur reden."
+  },
+  {
+   "key": "case005.murat_third.said.answer.demeanor",
+   "value": "Beim letzten Satz wurde seine Stimme dünn."
+  },
+  {
+   "key": "case005.murat_third.said.question",
+   "value": "Was hat Ece zu Ihnen gesagt?"
+  },
+  {
+   "key": "case005.murat_third.title",
+   "value": "Murat Acar — dritte Befragung"
+  },
+  {
+   "key": "case005.nermin.body",
+   "value": "Aussage der Nachbarin von unten."
+  },
+  {
+   "key": "case005.nermin.deflect",
+   "value": "So genau weiß ich das nicht, entschuldigen Sie."
+  },
+  {
+   "key": "case005.nermin.evening.answer",
+   "value": "Gegen acht war oben eine Männerstimme. Er sprach laut, wie ein Streit. Dann war es still, eine Tür knallte. Wer, weiß ich nicht."
+  },
+  {
+   "key": "case005.nermin.evening.question",
+   "value": "Ist Ihnen abends jemand aufgefallen, der ins Haus kam?"
+  },
+  {
+   "key": "case005.nermin.noise.answer",
+   "value": "Eine Tür. Oben die Tür von Ece, das Geräusch kenne ich, sie schließt etwas hart. Dann Schritte die Treppe hinunter."
+  },
+  {
+   "key": "case005.nermin.noise.question",
+   "value": "Was haben Sie Sonntagnacht gehört?"
+  },
+  {
+   "key": "case005.nermin.quote",
+   "value": "„Irgendwann in der Nacht habe ich eine Tür gehört.“"
+  },
+  {
+   "key": "case005.nermin.saw.answer",
+   "value": "Ich habe aus dem Fenster geschaut. Es war Ece, sie ging auf die Straße. Über der Schulter eine kleine Tasche. Die Uhrzeit? Gegen Mitternacht wohl. Die Nachrichten waren vorbei … oder fast vorbei. Ich bin nicht sicher."
+  },
+  {
+   "key": "case005.nermin.saw.answer.demeanor",
+   "value": "Als sie die Zeit nannte, zählte sie scheinbar an den Fingern ab, ließ es dann."
+  },
+  {
+   "key": "case005.nermin.saw.question",
+   "value": "Haben Sie gesehen, wer hinunterging?"
+  },
+  {
+   "key": "case005.nermin.title",
+   "value": "Nermin Öztürk — Befragung"
+  },
+  {
+   "key": "case005.offer.subtitle",
+   "value": "ZULETZT GESEHEN  /  VERMISSTE PERSON"
+  },
+  {
+   "key": "case005.offer.summary",
+   "value": "Eine allein in Kadıköy lebende Innenarchitektin ist seit Montagmorgen verschwunden. Keine Aufbruchspuren, der Pass in der Schublade, das Handy seit Sonntagnacht aus. Die Meldung liegt auf Ihrem Tisch."
+  },
+  {
+   "key": "case005.offer.title",
+   "value": "AKTE #005"
+  },
+  {
+   "key": "case005.parking.body",
+   "value": "Aufzeichnungsprotokoll zweier Kameras des Parkhauses Kadıköy Rıhtım, 14. November 23.00 – 23.40. Kamera 03 zeigt Fußgängereingang und Erdgeschoss, Kamera 04 die Ein- und Ausfahrt."
+  },
+  {
+   "key": "case005.parking.title",
+   "value": "KAMERAS RIHTIM-PARKPLATZ — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case005.parking_late.body",
+   "value": "Ergänzendes Aufzeichnungsprotokoll derselben Parkhauskameras, 14. November 23.40 – 15. November 01.00. Im Zeitraum keine Ein- oder Ausfahrt."
+  },
+  {
+   "key": "case005.parking_late.title",
+   "value": "RIHTIM-PARKPLATZ — erweitertes Protokoll"
+  },
+  {
+   "key": "case005.person.asli.info",
+   "value": "28 Jahre, Krankenpflegerin. Schwester von Ece Karaca; hat die Vermisstenmeldung erstattet."
+  },
+  {
+   "key": "case005.person.asli.name",
+   "value": "Aslı Karaca"
+  },
+  {
+   "key": "case005.person.kaan.info",
+   "value": "33 Jahre, Softwareentwickler. Früherer Partner von Ece Karaca; Trennung vor etwa zwei Monaten."
+  },
+  {
+   "key": "case005.person.kaan.name",
+   "value": "Kaan Erdem"
+  },
+  {
+   "key": "case005.person.levent.info",
+   "value": "40 Jahre, Inhaber von Keskin Yapı. Kunde, für den Ece Karaca in den letzten Monaten gearbeitet hat."
+  },
+  {
+   "key": "case005.person.levent.name",
+   "value": "Levent Keskin"
+  },
+  {
+   "key": "case005.person.murat.info",
+   "value": "38 Jahre, Innenarchitekt. Geschäftspartner von Ece Karaca; Mitgründer von Karaca Acar Tasarım."
+  },
+  {
+   "key": "case005.person.murat.name",
+   "value": "Murat Acar"
+  },
+  {
+   "key": "case005.person.nermin.info",
+   "value": "36 Jahre, Übersetzerin. Wohnt im selben Haus wie Ece Karaca, ein Stockwerk tiefer."
+  },
+  {
+   "key": "case005.person.nermin.name",
+   "value": "Nermin Öztürk"
+  },
+  {
+   "key": "case005.phone.body",
+   "value": "Anruf- und Nachrichtenprotokoll des auf Ece Karaca registrierten Anschlusses, 14. November (Inhalt nur bei Nachrichten).\n\n19.58 · Nachricht von Kaan Erdem: „Bin unten. Fünf Minuten.“\n21.06 · Ausgehender Anruf an Aslı Karaca, 4 Min. 12 Sek.\n21.52 · Eingehender Anruf von Murat Acar, 11 Min. 08 Sek.\n22.05 · Nachricht von Murat Acar: „Rıhtım. 23.15. Komm allein.“\n22.40 · Ausgehende Nachricht an Murat Acar: „Ich komme.“\n\n23.41 · Letzte Datenverbindung. 23.47 · Gerät meldet sich vom Netz ab; seitdem aus."
+  },
+  {
+   "key": "case005.phone.title",
+   "value": "TELEFONVERKEHRSBERICHT — ECE KARACA"
+  },
+  {
+   "key": "case005.report.body",
+   "value": "Es wurde gemeldet, dass Ece Karaca (31) seit Montag, dem 15. November, 09.30 Uhr nicht erreichbar ist. Die Meldung erstattete ihre Schwester Aslı Karaca.\n\nKaraca lebt allein in Kadıköy, Moda; sie ist freiberufliche Innenarchitektin. Am Montagmorgen erschien sie nicht zu einem Kundentermin, ihr Geschäftspartner konnte sie nicht erreichen. Ihr Handy ist ausgeschaltet.\n\nBei der ersten Kontrolle der Wohnung fanden sich keine Hinweise auf gewaltsames Eindringen oder einen Kampf. Ihr Computer und ihr Pass wurden in der Wohnung gefunden.\n\nEs wird angenommen, dass der letzte bestätigte Kontakt mit Karaca am Vorabend stattfand."
+  },
+  {
+   "key": "case005.report.title",
+   "value": "VERMISSTENMELDUNG"
+  },
+  {
+   "key": "case005.request.bank",
+   "value": "Prüfung der Zahlungseingänge der Firma anfordern"
+  },
+  {
+   "key": "case005.request.cloud",
+   "value": "Cloud-Zugriffsprotokoll der Firma anfordern"
+  },
+  {
+   "key": "case005.request.deposit",
+   "value": "Verwahrungsprotokoll der Kanzlei anfordern"
+  },
+  {
+   "key": "case005.request.home",
+   "value": "Durchsicht der Wohnung von Ece Karaca anfordern"
+  },
+  {
+   "key": "case005.request.invoice",
+   "value": "Rechnungen und Korrespondenz von Levent Keskin anfordern"
+  },
+  {
+   "key": "case005.request.laptop",
+   "value": "Untersuchung des Laptops anfordern"
+  },
+  {
+   "key": "case005.request.phone",
+   "value": "Telefonverkehrsbericht von Ece Karaca anfordern"
+  },
+  {
+   "key": "case005.request.signal",
+   "value": "Funkzellenprotokoll des Handys anfordern"
+  },
+  {
+   "key": "case005.signal.body",
+   "value": "Funkzellendaten des Anschlusses von Ece Karaca in der Nacht des 14. November:\n\n22.47 · Moda, Umgebung der Wohnung.\n23.02 · Kadıköy Rıhtım, Umgebung des Parkhauses.\n23.02 – 23.41 · Dieselbe Zelle; Standort unverändert.\n23.41 · Letzte Datenverbindung.\n23.47 · Gerät meldet sich vom Netz ab.\n\nDer Abmeldeeintrag passt nicht zu einem leeren Akku, sondern zum Ausschalten durch die Nutzerin."
+  },
+  {
+   "key": "case005.signal.title",
+   "value": "FUNKZELLEN- UND VERBINDUNGSBERICHT — ECE KARACA"
+  },
+  {
+   "key": "case005.summary.evidence",
+   "value": "Das ergänzende Parkplatzprotokoll zeigt, dass eine halbe Stunde nach der Abfahrt von Murat eine Frau allein und zu Fuß geht; die Tasche ist dieselbe wie im Bild von 22.41. Die Funkzellendaten zeigen, dass das Handy von Hand ausgeschaltet wurde, die Wohnungsnotiz, dass die Sachen vorher gepackt waren, und das Verwahrungsprotokoll, dass das Verschwinden geplant war. Cloud-Protokoll, Rechnung und Kontoprüfung erklären warum Murat Druck machte; auf der Kamera gibt es keinen Kontakt."
+  },
+  {
+   "key": "case005.summary.lesson",
+   "value": "Nicht jeder, der lügt, ist schuldig: Aslı schützte ihre Schwester, Kaan sich selbst, Nermin erinnerte nur die Uhrzeit falsch. Die schmutzigen Geschäfte von Murat machten ihn nicht zum Angreifer. In dieser Akte war kein Täter zu finden, sondern eine Nacht zu rekonstruieren."
+  },
+  {
+   "key": "case005.summary.location",
+   "value": "Kadıköy, Moda und Rıhtım — 14.–15. November 2027"
+  },
+  {
+   "key": "case005.summary.truth",
+   "value": "Ece Karaca bemerkte, dass ihr Geschäftspartner Murat Acar drei Kundenzahlungen auf ein anderes Konto umgeleitet hatte, und sammelte still die Belege. Als sie den Ordner am Sonntag um 17.38 herunterlud, ging eine Meldung an Murat. Abends kam ihr früherer Partner Kaan Erdem, sie stritten, um 20.39 ging er. Murat rief um 21.52 an und bestellte Ece zum Rıhtım-Parkplatz. Ece kopierte die Unterlagen auf einen USB-Stick und ging um 22.46. Auf dem Parkplatz verlangte Murat die Unterlagen zurück; Ece sagte: „Wenn mir etwas passiert, kommt alles ans Licht.“ Murat fuhr um 23.34 allein weg. Ece schaltete um 23.47 ihr Handy aus, verließ den Parkplatz um 00.08 zu Fuß und ging an einen vorbereiteten Ort. Die Kopien hatte sie zwei Tage vorher in einer Kanzlei hinterlegt."
+  },
+  {
+   "key": "case005.suspect.label",
+   "value": "Wie ist Ece verschwunden?"
+  },
+  {
+   "key": "case005.tablet.caseLine",
+   "value": "AKTE #005  /  BUBE ERMITTLUNGSEINHEIT"
+  },
+  {
+   "key": "case005.time.asli_call",
+   "value": "21.06"
+  },
+  {
+   "key": "case005.time.baz_rihtim",
+   "value": "23.02"
+  },
+  {
+   "key": "case005.time.car_in",
+   "value": "23.11"
+  },
+  {
+   "key": "case005.time.car_out",
+   "value": "23.34"
+  },
+  {
+   "key": "case005.time.cloud_dl",
+   "value": "17.38"
+  },
+  {
+   "key": "case005.time.cloud_revoke",
+   "value": "18.05"
+  },
+  {
+   "key": "case005.time.ece_bag",
+   "value": "22.41"
+  },
+  {
+   "key": "case005.time.ece_home",
+   "value": "18.42"
+  },
+  {
+   "key": "case005.time.ece_leaves",
+   "value": "00.08"
+  },
+  {
+   "key": "case005.time.ece_out",
+   "value": "22.46"
+  },
+  {
+   "key": "case005.time.ece_walk",
+   "value": "23.16"
+  },
+  {
+   "key": "case005.time.kaan_claim",
+   "value": "21.00"
+  },
+  {
+   "key": "case005.time.kaan_in",
+   "value": "20.11"
+  },
+  {
+   "key": "case005.time.kaan_msg",
+   "value": "19.58"
+  },
+  {
+   "key": "case005.time.kaan_out",
+   "value": "20.39"
+  },
+  {
+   "key": "case005.time.last_data",
+   "value": "23.41"
+  },
+  {
+   "key": "case005.time.meet",
+   "value": "23.19"
+  },
+  {
+   "key": "case005.time.murat_call",
+   "value": "21.52"
+  },
+  {
+   "key": "case005.time.murat_claim",
+   "value": "23.15"
+  },
+  {
+   "key": "case005.time.murat_msg",
+   "value": "22.05"
+  },
+  {
+   "key": "case005.time.nermin_saw",
+   "value": "23.50"
+  },
+  {
+   "key": "case005.time.phone_off",
+   "value": "23.47"
+  },
+  {
+   "key": "case005.time.search",
+   "value": "22.24"
+  },
+  {
+   "key": "case005.time.usb",
+   "value": "22.18"
+  },
+  {
+   "key": "case005.title",
+   "value": "Akte #005 — Zuletzt gesehen"
+  },
+  {
+   "key": "case005.verdict.abducted",
+   "value": "Entführung"
+  },
+  {
+   "key": "case005.verdict.accident",
+   "value": "Unfall"
+  },
+  {
+   "key": "case005.verdict.undetermined",
+   "value": "Nicht feststellbar"
+  },
+  {
+   "key": "case005.verdict.voluntary",
+   "value": "Freiwillig entfernt"
+  }
+ ]
+}
