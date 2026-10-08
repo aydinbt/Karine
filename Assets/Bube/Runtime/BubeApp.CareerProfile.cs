@@ -16,7 +16,7 @@ public sealed partial class BubeApp {
   var portrait=Resources.Load<Texture2D>("Bube/Characters/bora");
   if(portrait!=null) {
    var image=new VisualElement();image.style.width=96;image.style.height=96;image.style.backgroundImage=portrait;
-   image.style.unityBackgroundScaleMode=ScaleMode.ScaleToFit;image.style.marginBottom=KarineTheme.SpaceSm;whoList.Add(image);
+   image.style.backgroundSize=new BackgroundSize(BackgroundSizeType.Contain);image.style.marginBottom=KarineTheme.SpaceSm;whoList.Add(image);
   }
   KarineUI.RecordLine(whoList,T("career.profile.identity"),T("career.profile.identityValue"),KarineTheme.Secondary);
   KarineUI.RecordLine(whoList,T("career.profile.role"),T("career.profile.roleValue"),KarineTheme.Secondary);
