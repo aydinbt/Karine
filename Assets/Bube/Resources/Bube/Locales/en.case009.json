@@ -1,0 +1,1032 @@
+{
+ "entries": [
+  {
+   "key": "case009.a_bank.body",
+   "value": "· Credit card debt ~186,000 TL; two late payments in the last three months.\n· No cash coming in between 12 and 14 December, no unusual activity.\n· A debt restructuring application in the last six months; not rejected, still pending."
+  },
+  {
+   "key": "case009.a_bank.title",
+   "value": "BANK RECORDS — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.a_locker.body",
+   "value": "Staff locker. A spare uniform, two books, a charger, a drawing by his daughter. No packages, wrapping or tape scraps."
+  },
+  {
+   "key": "case009.a_locker.title",
+   "value": "LOCKER SEARCH — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.a_vehicle.body",
+   "value": "Traces of a synthetic substance were found in the boot (trace amount).\n\nThe vehicle’s evidence transport log for the night of 11 December records it as “operation evidence transfer — North Warehouse → BDS evidence store”. The trace is consistent with the transfer."
+  },
+  {
+   "key": "case009.a_vehicle.title",
+   "value": "VEHICLE INSPECTION — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.alriza.body",
+   "value": "Statement of the head of the laboratory."
+  },
+  {
+   "key": "case009.alriza.deflect",
+   "value": "I don’t know what goes on outside the lab. I know the sample that reaches me."
+  },
+  {
+   "key": "case009.alriza.match.answer",
+   "value": "I’d say the batch came out of the same kitchen. Even the cutting agent is the same. A substance that has sat on a shelf for five years; low moisture, new wrapping."
+  },
+  {
+   "key": "case009.alriza.match.question",
+   "value": "How certain is the comparison?"
+  },
+  {
+   "key": "case009.alriza.quote",
+   "value": "“A substance doesn’t talk, but it doesn’t lie either.”"
+  },
+  {
+   "key": "case009.alriza.title",
+   "value": "Ali Rıza Toprak — interview"
+  },
+  {
+   "key": "case009.arda.body",
+   "value": "Statement of the officer suspected of misappropriation."
+  },
+  {
+   "key": "case009.arda.count.answer",
+   "value": "Four. I carried them from the car in my arms; one was big, it was at the bottom. I filled in the form, I wrote four. Why would it be three?"
+  },
+  {
+   "key": "case009.arda.count.question",
+   "value": "Are you sure how many packages you left?"
+  },
+  {
+   "key": "case009.arda.deflect",
+   "value": "I don’t know. I left the packages; I don’t know the rest."
+  },
+  {
+   "key": "case009.arda.night.answer",
+   "value": "There was nobody at the counter. Nesrin Hanım was inside, at the back safe; I could hear her. She said, ‘Leave them, fill in the form.’ I put the four packages on the counter, filled in the form and left. It wasn’t half past one yet."
+  },
+  {
+   "key": "case009.arda.night.answer.demeanor",
+   "value": "Clasped his hands on the table."
+  },
+  {
+   "key": "case009.arda.night.question",
+   "value": "What happened when you handed over the packages?"
+  },
+  {
+   "key": "case009.arda.quote",
+   "value": "“I left four packages. Four.”"
+  },
+  {
+   "key": "case009.arda.title",
+   "value": "Arda Yılmaz — interview"
+  },
+  {
+   "key": "case009.arda.who.answer",
+   "value": "Ceren read the list, Chief Hakan handed me the packages one by one. He gave me the last package last; he said, ‘Take this one too.’"
+  },
+  {
+   "key": "case009.arda.who.answer.demeanor",
+   "value": "Paused for a moment at ‘the last package’."
+  },
+  {
+   "key": "case009.arda.who.question",
+   "value": "Who gave the packages to the car?"
+  },
+  {
+   "key": "case009.b_inventory.body",
+   "value": "Count made on the afternoon of 12 December: E-14, E-15, E-16 on the shelf, matching the records. E-17 is not in the office. Nothing else missing or extra."
+  },
+  {
+   "key": "case009.b_inventory.title",
+   "value": "EVIDENCE STORE PHYSICAL COUNT"
+  },
+  {
+   "key": "case009.b_keycard.body",
+   "value": "12.12.2028\n· 01.21 — Evidence store inner door (command corridor side) — Card: HAKAN ÖZER\n· 01.27 — Evidence store inner door — Card: HAKAN ÖZER (exit)\n· 02.06 — Staff exit — Card: NESRİN EKER\n· 03.38 — Command corridor — Card: CEREN BAŞAR\n· 03.51 — Staff exit — Card: CEREN BAŞAR"
+  },
+  {
+   "key": "case009.b_keycard.title",
+   "value": "KEYCARD ACCESS LOG — EVIDENCE STORE AND COMMAND"
+  },
+  {
+   "key": "case009.b_syslog.body",
+   "value": "12.12.2028\n· 01.31 — N. EKER — counter terminal — 3 entries (E-14, E-15, E-16)\n· 03.42 — N. EKER — COMMAND OFFICE TERMINAL (TRM-07) — “pre-entry deleted: E-17 / weight 420 g / source: operation report”\n\nNote: there was a pre-entry for E-17 in the system, transferred from the report; it was deleted at 03.42. Nesrin Eker’s shift ended at 02.00, and she left the building with her card at 02.06."
+  },
+  {
+   "key": "case009.b_syslog.title",
+   "value": "EVIDENCE SYSTEM — ACCESS LOG"
+  },
+  {
+   "key": "case009.c_moves.body",
+   "value": "· Hakan Özer’s car arrives at the warehouse at 00.08; the boot is opened and closed at 00.10 (warehouse exterior camera, distant image).\n· Volkan, Ceren and two officers arrive in the team vehicle.\n· Arda Yılmaz leaves in the evidence vehicle at 00.58.\n· Hakan Özer’s car enters the BDS car park at 01.12 and leaves at 01.40."
+  },
+  {
+   "key": "case009.c_moves.title",
+   "value": "TEAM MOVEMENTS — VEHICLES AND LOCATIONS"
+  },
+  {
+   "key": "case009.c_photos.body",
+   "value": "· 00.24 — back shelf, taped package; number card “E-16”, later relabelled “E-17”.\n· 00.42 — behind the north shelf; a large package with different tape. The tape is white; the tape on the other packages in the warehouse is brown. On the corner of the wrapping, the trace of an erased barcode.\n\nThe last package found differs in wrapping from the other three."
+  },
+  {
+   "key": "case009.c_photos.title",
+   "value": "EVIDENCE PHOTOGRAPHS — NORTH WAREHOUSE"
+  },
+  {
+   "key": "case009.c_radio.body",
+   "value": "· 00.22 — Volkan: “Back shelf, three packages.”\n· 00.31 — Volkan: “North shelf is clear.”\n· 00.36 — Hakan Özer: “Check again.”\n· 00.41 — Hakan Özer: “There’s one more package. Behind the north shelf.”\n· 00.43 — Ceren: “I’m writing it down as E-17.”"
+  },
+  {
+   "key": "case009.c_radio.title",
+   "value": "RADIO LOG — 11/12 DECEMBER"
+  },
+  {
+   "key": "case009.c_rawlist.body",
+   "value": "Field list, handwritten:\n1. E-14 — back shelf — 00.23\n2. E-15 — back shelf — 00.23\n3. E-16 — back shelf — 00.24\n4. E-17 — north shelf — 00.42\n\nComparing the time stamps of the photograph files with the numbers: the photograph labelled “E-16” was taken at 00.42, the one labelled “E-17” at 00.24. The label field shows a manual correction: “17” written over “16”."
+  },
+  {
+   "key": "case009.c_rawlist.title",
+   "value": "RAW EVIDENCE LIST — CEREN BAŞAR"
+  },
+  {
+   "key": "case009.cctv.event.arda_in",
+   "value": "Camera 03 (evidence store corridor): Arda Yılmaz enters through the outer door of the evidence office carrying four packages wrapped in parcel tape. The packages are stacked in his arms."
+  },
+  {
+   "key": "case009.cctv.event.arda_out",
+   "value": "Camera 03: Arda Yılmaz comes out empty-handed; walks along the corridor to the lift, looking at his phone."
+  },
+  {
+   "key": "case009.cctv.event.empty",
+   "value": "Camera 03: The corridor is empty. Nobody enters or leaves through the outer door."
+  },
+  {
+   "key": "case009.cctv.event.nesrin",
+   "value": "Camera 03: Nesrin Eker opens the outer door and looks into the corridor, then turns back inside."
+  },
+  {
+   "key": "case009.cctv.overlay",
+   "value": "CAM 03"
+  },
+  {
+   "key": "case009.cctv.period",
+   "value": "12 December 2028, 01.00 – 02.00"
+  },
+  {
+   "key": "case009.cctv.source",
+   "value": "Evidence store corridor camera"
+  },
+  {
+   "key": "case009.ceren.after.answer",
+   "value": "I went home. I came in the next morning."
+  },
+  {
+   "key": "case009.ceren.after.question",
+   "value": "What did you do after the operation?"
+  },
+  {
+   "key": "case009.ceren.body",
+   "value": "Statement of the operation’s records officer."
+  },
+  {
+   "key": "case009.ceren.deflect",
+   "value": "You’d need to ask my superior about that."
+  },
+  {
+   "key": "case009.ceren.list.answer",
+   "value": "Every time a package was found: photograph, number, estimated weight. Then I transferred the list to the report. The chief signed it."
+  },
+  {
+   "key": "case009.ceren.list.question",
+   "value": "How did you keep the evidence list?"
+  },
+  {
+   "key": "case009.ceren.quote",
+   "value": "“I wrote it, the chief signed it.”"
+  },
+  {
+   "key": "case009.ceren.title",
+   "value": "Ceren Başar — interview"
+  },
+  {
+   "key": "case009.ceren_2.body",
+   "value": "Interview held after the keycard access log."
+  },
+  {
+   "key": "case009.ceren_2.card.answer",
+   "value": "…The chief called. He said, ‘There’s a faulty pre-entry in the system transferred from the report, the numbering has slipped, let’s correct it.’ In his office, on his terminal. Nesrin Hanım’s user was logged in; the chief knew the password. I deleted it. I corrected the label too; he told me to, ‘16 and 17 got mixed up’."
+  },
+  {
+   "key": "case009.ceren_2.card.answer.demeanor",
+   "value": "Did not lift her eyes from the table."
+  },
+  {
+   "key": "case009.ceren_2.card.question",
+   "value": "Your card appears in the command corridor at 03.38."
+  },
+  {
+   "key": "case009.ceren_2.title",
+   "value": "Ceren Başar — second interview"
+  },
+  {
+   "key": "case009.ceren_2.why.answer",
+   "value": "He was the chief. I’ve been on the staff a year. He said, ‘Arda’s in debt anyway; with a clean record he’ll get out of it.’ I thought we were going to save him."
+  },
+  {
+   "key": "case009.ceren_2.why.question",
+   "value": "Why did you do it?"
+  },
+  {
+   "key": "case009.clue.again",
+   "value": "Hakan: “Check again”"
+  },
+  {
+   "key": "case009.clue.arda_in",
+   "value": "Arda enters the evidence store with four packages"
+  },
+  {
+   "key": "case009.clue.arda_out",
+   "value": "Arda comes out empty-handed"
+  },
+  {
+   "key": "case009.clue.c_in",
+   "value": "Ceren’s card in the command corridor"
+  },
+  {
+   "key": "case009.clue.clean",
+   "value": "“North shelf is clear”"
+  },
+  {
+   "key": "case009.clue.corridor_arda_in",
+   "value": "Arda enters the evidence store with four packages"
+  },
+  {
+   "key": "case009.clue.corridor_arda_out",
+   "value": "Arda comes out empty-handed"
+  },
+  {
+   "key": "case009.clue.corridor_empty",
+   "value": "Nobody enters through the outer door"
+  },
+  {
+   "key": "case009.clue.corridor_nesrin",
+   "value": "Nesrin looks into the corridor"
+  },
+  {
+   "key": "case009.clue.delete",
+   "value": "The E-17 pre-entry is deleted from the command terminal"
+  },
+  {
+   "key": "case009.clue.empty",
+   "value": "Nobody enters through the outer door"
+  },
+  {
+   "key": "case009.clue.form",
+   "value": "Arda fills in the form as “Quantity: 4”"
+  },
+  {
+   "key": "case009.clue.found",
+   "value": "Hakan: “There’s one more package”"
+  },
+  {
+   "key": "case009.clue.h_car",
+   "value": "The boot of Hakan’s car is opened"
+  },
+  {
+   "key": "case009.clue.h_claim",
+   "value": "Hakan says he was at home"
+  },
+  {
+   "key": "case009.clue.h_in",
+   "value": "Hakan’s card at the evidence store inner door"
+  },
+  {
+   "key": "case009.clue.h_outdoor",
+   "value": "Hakan’s card exits through the inner door"
+  },
+  {
+   "key": "case009.clue.h_park",
+   "value": "Hakan’s car enters the BDS car park"
+  },
+  {
+   "key": "case009.clue.n_out",
+   "value": "Nesrin leaves the building"
+  },
+  {
+   "key": "case009.clue.nesrin",
+   "value": "Nesrin looks into the corridor"
+  },
+  {
+   "key": "case009.clue.p16",
+   "value": "The third package on the back shelf is photographed"
+  },
+  {
+   "key": "case009.clue.scan",
+   "value": "Nesrin scans three packages"
+  },
+  {
+   "key": "case009.clue.source.card",
+   "value": "Keycard access log"
+  },
+  {
+   "key": "case009.clue.source.form",
+   "value": "Handover form"
+  },
+  {
+   "key": "case009.clue.source.moves",
+   "value": "Team movements"
+  },
+  {
+   "key": "case009.clue.source.op",
+   "value": "Operation report"
+  },
+  {
+   "key": "case009.clue.source.radio",
+   "value": "Radio log"
+  },
+  {
+   "key": "case009.clue.source.raw",
+   "value": "Raw evidence list"
+  },
+  {
+   "key": "case009.clue.source.scan",
+   "value": "Evidence store entry log"
+  },
+  {
+   "key": "case009.clue.source.sys",
+   "value": "Access log"
+  },
+  {
+   "key": "case009.corridor.body",
+   "value": "Log of the corridor camera covering the outer door of the evidence office, 12 December 01.00 – 02.00. The office’s inner door, which opens onto the command corridor, is not in frame; the counter is not visible either."
+  },
+  {
+   "key": "case009.corridor.title",
+   "value": "EVIDENCE STORE CORRIDOR — record log"
+  },
+  {
+   "key": "case009.custody.arda_kept",
+   "value": "Arda misappropriated it"
+  },
+  {
+   "key": "case009.custody.label",
+   "value": "How did E-17 disappear?"
+  },
+  {
+   "key": "case009.custody.nesrin_took",
+   "value": "Nesrin took it and deleted the record"
+  },
+  {
+   "key": "case009.custody.took_back",
+   "value": "Arda handed it over; Hakan took it back before it reached Nesrin"
+  },
+  {
+   "key": "case009.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case009.delivery_form.body",
+   "value": "Delivered by: Arda Yılmaz. Delivery time: 01.17.\n\nQuantity: “4” — handwritten, filled in by the person delivering.\n\nReceived by: (blank). Evidence officer’s signature: (blank).\n\nNote: the form was left on the counter without a recipient’s signature."
+  },
+  {
+   "key": "case009.delivery_form.title",
+   "value": "EVIDENCE HANDOVER FORM — 12.12.2028"
+  },
+  {
+   "key": "case009.emanet_scan.body",
+   "value": "12.12.2028 01.31 — User: N. EKER (evidence counter terminal)\n\n· E-14 — logged, 248 g\n· E-15 — logged, 251 g\n· E-16 — logged, 247 g\n\nTotal: 3 packages. No entry for E-17 in the report."
+  },
+  {
+   "key": "case009.emanet_scan.title",
+   "value": "EVIDENCE SYSTEM — ENTRY LOG"
+  },
+  {
+   "key": "case009.envelope.body",
+   "value": "Following the findings reported under File #009, a separate inquiry into the personnel concerned has been opened. Access to the investigation materials has been restricted."
+  },
+  {
+   "key": "case009.envelope.stamp",
+   "value": "INTERNAL AFFAIRS"
+  },
+  {
+   "key": "case009.envelope.title",
+   "value": "BDS INTERNAL AFFAIRS — CONFIDENTIAL"
+  },
+  {
+   "key": "case009.epilogue.custody.arda_kept",
+   "value": "The report wrote that Arda took E-17. The corridor record showed him leaving empty-handed and the card log showed someone else at the inner door; the section fell apart."
+  },
+  {
+   "key": "case009.epilogue.custody.nesrin_took",
+   "value": "The report blamed Nesrin Eker. The card log showed she was not in the building at the time of the deletion."
+  },
+  {
+   "key": "case009.epilogue.custody.took_back",
+   "value": "The report traced E-17’s path in full: the substance left over from 27-118, from Hakan’s boot to the shelf, from the report into Arda’s arms, from the counter to the inner door and from there to deletion from the records. The preliminary inquiry into Arda Yılmaz was closed."
+  },
+  {
+   "key": "case009.epilogue.custody.unknown",
+   "value": "How E-17 disappeared was left undetermined; the inquiry into Arda Yılmaz remained open."
+  },
+  {
+   "key": "case009.epilogue.verdict.arda",
+   "value": "The charge brought against Arda Yılmaz had no basis; his debt as the sole ground was rejected."
+  },
+  {
+   "key": "case009.epilogue.verdict.ceren",
+   "value": "The operation charge laid on Ceren Başar fell apart."
+  },
+  {
+   "key": "case009.epilogue.verdict.hakan",
+   "value": "Inspector Hakan Özer was suspended from duty. The destruction and retention records of file 27-118 were taken up for re-examination."
+  },
+  {
+   "key": "case009.epilogue.verdict.legit",
+   "value": "The report treated E-17 as a legitimate seizure. When the laboratory profile came out, the report was sent back."
+  },
+  {
+   "key": "case009.epilogue.verdict.nesrin",
+   "value": "The charge brought against Nesrin Eker fell apart on the card log."
+  },
+  {
+   "key": "case009.epilogue.verdict.undetermined",
+   "value": "Where E-17 came from remained open in the file."
+  },
+  {
+   "key": "case009.evidence.bank",
+   "value": "Arda’s bank records"
+  },
+  {
+   "key": "case009.evidence.card",
+   "value": "Keycard access log"
+  },
+  {
+   "key": "case009.evidence.lab",
+   "value": "Laboratory comparison (27-118 ↔ E-17)"
+  },
+  {
+   "key": "case009.evidence.radio",
+   "value": "Radio log"
+  },
+  {
+   "key": "case009.evidence.vehicle",
+   "value": "Substance trace in Arda’s vehicle"
+  },
+  {
+   "key": "case009.feedback.arda",
+   "value": "Arda only carried the packages; it was Hakan who handed him the last one."
+  },
+  {
+   "key": "case009.feedback.ceren",
+   "value": "Ceren corrected the record, but she didn’t put the package in the warehouse; the radio and the vehicle log show someone else."
+  },
+  {
+   "key": "case009.feedback.hakan",
+   "value": "On the radio it is Hakan who finds the fourth package; the package isn’t from the warehouse batch but from 27-118, for which he is responsible. He described putting it from the boot onto the shelf himself."
+  },
+  {
+   "key": "case009.feedback.legit",
+   "value": "E-17 doesn’t belong to the batch in the warehouse; the laboratory ties it to a 2023 file."
+  },
+  {
+   "key": "case009.feedback.nesrin",
+   "value": "Nesrin was not in the building at the time of the deletion; someone other than her used the account."
+  },
+  {
+   "key": "case009.feedback.undetermined",
+   "value": "The source of E-17 could be determined through the laboratory comparison."
+  },
+  {
+   "key": "case009.file.caseType",
+   "value": "INTERNAL INQUIRY / EVIDENCE"
+  },
+  {
+   "key": "case009.file.value.bureau",
+   "value": "BDS Internal Affairs Desk"
+  },
+  {
+   "key": "case009.file.value.location",
+   "value": "Fatih"
+  },
+  {
+   "key": "case009.file.value.number",
+   "value": "BDS-2028-0412"
+  },
+  {
+   "key": "case009.file.value.offence",
+   "value": "Evidence shortfall — suspected misappropriation"
+  },
+  {
+   "key": "case009.file.value.reporter",
+   "value": "BDS Evidence Office"
+  },
+  {
+   "key": "case009.hakan.after.answer",
+   "value": "No. At half past one I was at home."
+  },
+  {
+   "key": "case009.hakan.after.question",
+   "value": "Did you go back to the building after the operation?"
+  },
+  {
+   "key": "case009.hakan.arda.answer",
+   "value": "Good lad. But he’s in debt, we know that. He says he handed in four packages, the evidence store says three. I can only point you in a direction."
+  },
+  {
+   "key": "case009.hakan.arda.answer.demeanor",
+   "value": "Folded his arms."
+  },
+  {
+   "key": "case009.hakan.arda.question",
+   "value": "What do you think of Arda Yılmaz?"
+  },
+  {
+   "key": "case009.hakan.body",
+   "value": "First statement of the operation commander."
+  },
+  {
+   "key": "case009.hakan.deflect",
+   "value": "We’ll discuss that within the team."
+  },
+  {
+   "key": "case009.hakan.op.answer",
+   "value": "Clean. Four packages in the north warehouse. Ceren wrote it up, Arda carried them. I signed the report and went home."
+  },
+  {
+   "key": "case009.hakan.op.question",
+   "value": "How did the operation go?"
+  },
+  {
+   "key": "case009.hakan.quote",
+   "value": "“If the lad said four, it’s four — but the evidence store says three.”"
+  },
+  {
+   "key": "case009.hakan.title",
+   "value": "Inspector Hakan Özer — interview"
+  },
+  {
+   "key": "case009.hakan_2.back.answer",
+   "value": "It went into the report; the operation was saved. But in the evidence store it would go to the lab. The profile would lead to 27-118. Nesrin was at the back; I went in through the inner door and took the big package from the bottom. Afterwards I had the pre-entry deleted too. Arda was in debt; I thought nobody would take a second look."
+  },
+  {
+   "key": "case009.hakan_2.back.question",
+   "value": "Why did you take the package back after it had gone into the evidence store?"
+  },
+  {
+   "key": "case009.hakan_2.body",
+   "value": "Interview held after the laboratory report."
+  },
+  {
+   "key": "case009.hakan_2.origin.answer",
+   "value": "…The warehouse was going to come up empty. Three small packages, no tenant, no arrests. Six months of surveillance down the drain. I’d been keeping what was left of 27-118 for years, for a day like that. I put it from the boot behind the shelf. The operation closed with four packages."
+  },
+  {
+   "key": "case009.hakan_2.origin.answer.demeanor",
+   "value": "Looked out of the window for a long time."
+  },
+  {
+   "key": "case009.hakan_2.origin.question",
+   "value": "I’m interested in where this package came from."
+  },
+  {
+   "key": "case009.hakan_2.title",
+   "value": "Inspector Hakan Özer — final interview"
+  },
+  {
+   "key": "case009.lab.body",
+   "value": "Prepared by: Ali Rıza Toprak.\n\n· The field sample of E-17 taken at the warehouse and the 2023 sample from file 27-118 have the same chemical profile, the same cutting agent and the same impurity ratio. They are very likely from the same batch.\n· E-14, E-15 and E-16 have a different profile, consistent with the batch in the warehouse.\n· The evidence officer responsible for 27-118 is Inspector Hakan Özer.\n\nConclusion: E-17 does not belong to the North Warehouse batch; it comes from the same source as the substance seized in 2023."
+  },
+  {
+   "key": "case009.lab.title",
+   "value": "FORENSIC LABORATORY — COMPARISON REPORT"
+  },
+  {
+   "key": "case009.line_a.body",
+   "value": "LINE OPENED.\n\nAuthority has been granted to request records on Arda Yılmaz’s finances, locker and vehicle. While this line is open, the records below can be requested."
+  },
+  {
+   "key": "case009.line_a.title",
+   "value": "LINE OF INQUIRY A — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.line_b.body",
+   "value": "LINE OPENED.\n\nAuthority has been granted to request the evidence office’s system records, keycard access logs and physical count."
+  },
+  {
+   "key": "case009.line_b.title",
+   "value": "LINE OF INQUIRY B — EVIDENCE OFFICE"
+  },
+  {
+   "key": "case009.line_c.body",
+   "value": "LINE OPENED.\n\nAuthority has been granted to request the operation’s radio log, raw evidence list, evidence photographs and team movements."
+  },
+  {
+   "key": "case009.line_c.title",
+   "value": "LINE OF INQUIRY C — OPERATION"
+  },
+  {
+   "key": "case009.link_e17.body",
+   "value": "REQUEST APPROVED.\n\nThe 2023 seizure file 27-118 has been linked to package E-17 in this file. A comparison of the sample retained from 27-118 with the operation sample of E-17 has been sent to the laboratory."
+  },
+  {
+   "key": "case009.link_e17.title",
+   "value": "FILE LINK — 27-118 ↔ E-17"
+  },
+  {
+   "key": "case009.method.arda",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.method.ceren",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.method.label",
+   "value": "Who took part in altering the record?"
+  },
+  {
+   "key": "case009.method.nesrin",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case009.nesrin.body",
+   "value": "Statement of the head of the evidence office."
+  },
+  {
+   "key": "case009.nesrin.deflect",
+   "value": "Whatever the record says. I go by the record."
+  },
+  {
+   "key": "case009.nesrin.gap.answer",
+   "value": "Ten minutes, maybe a little more. I can’t leave without closing the safe. At one point I thought I heard the inner door lock click, but that’ll have been someone from command; it happens a lot."
+  },
+  {
+   "key": "case009.nesrin.gap.answer.demeanor",
+   "value": "Lowered her voice at ‘inner door’."
+  },
+  {
+   "key": "case009.nesrin.gap.question",
+   "value": "How long did it take you to get back to the counter after Arda left?"
+  },
+  {
+   "key": "case009.nesrin.night.answer",
+   "value": "I was at the back safe doing the previous week’s count. Arda came, I called out, said ‘leave them’. When I came out there were three packages and a filled-in form on the counter. The form said four; I was surprised too. I scanned the three."
+  },
+  {
+   "key": "case009.nesrin.night.question",
+   "value": "What did you see on the counter that night?"
+  },
+  {
+   "key": "case009.nesrin.quote",
+   "value": "“There were three packages on the counter.”"
+  },
+  {
+   "key": "case009.nesrin.report.answer",
+   "value": "I did report it. First thing in the morning. That night I called Chief Hakan; he said, ‘We’ll look in the morning, ask Arda.’"
+  },
+  {
+   "key": "case009.nesrin.report.question",
+   "value": "Why didn’t you report the discrepancy at once?"
+  },
+  {
+   "key": "case009.nesrin.title",
+   "value": "Nesrin Eker — interview"
+  },
+  {
+   "key": "case009.nesrin_2.account.answer",
+   "value": "I left at 02.06; it shows on the card. My account would stay logged in on the command terminal; Chief Hakan did the count approvals from there, he knows my password. It’s been like that for years."
+  },
+  {
+   "key": "case009.nesrin_2.account.answer.demeanor",
+   "value": "Spoke without her voice shaking, but put down her pen."
+  },
+  {
+   "key": "case009.nesrin_2.account.question",
+   "value": "At 03.42 a record was deleted from the command terminal under your user."
+  },
+  {
+   "key": "case009.nesrin_2.body",
+   "value": "Interview held after the access log."
+  },
+  {
+   "key": "case009.nesrin_2.title",
+   "value": "Nesrin Eker — second interview"
+  },
+  {
+   "key": "case009.offer.subtitle",
+   "value": "EVIDENCE  /  INTERNAL INQUIRY"
+  },
+  {
+   "key": "case009.offer.summary",
+   "value": "One of four packages seized in an operation never made it into the evidence store. The officer who handed them over is in debt. In this file, you decide which lines of inquiry to open; only two can be open at once. The notice is on your desk."
+  },
+  {
+   "key": "case009.offer.title",
+   "value": "FILE #009"
+  },
+  {
+   "key": "case009.office.body",
+   "value": "REQUEST APPROVED. The search was carried out on 13 December at 10.20.\n\n· No narcotics were found in the office.\n· In the locked filing cabinet, a closed seizure file from 2023: 27-118. Officer responsible: Hakan Özer.\n· In file 27-118: 500 g seized; a destruction record for 80 g; for the remaining 420 g a note reading “sample retained”, but there is no record coded 27-118 in the evidence store.\n· In the cabinet, a roll of white parcel tape."
+  },
+  {
+   "key": "case009.office.title",
+   "value": "SEARCH RESULT RECORD — COMMAND OFFICE / H. ÖZER"
+  },
+  {
+   "key": "case009.op_report.body",
+   "value": "11 December 2028, 23.40 – 00.55. Fatih, North Warehouse.\n\nTeam: Inspector Hakan Özer (commander), Volkan Ateş, Arda Yılmaz, Ceren Başar (records) and two officers.\n\nSeized:\n· E-14 — 1 package, ~250 g\n· E-15 — 1 package, ~250 g\n· E-16 — 1 package, ~250 g\n· E-17 — 1 package, ~420 g\n\nNo arrests; the warehouse tenant could not be found. The packages were handed to Arda Yılmaz and taken to the evidence store.\n\nSigned: Inspector Hakan Özer. Report written by: Ceren Başar."
+  },
+  {
+   "key": "case009.op_report.title",
+   "value": "OPERATION REPORT — FATİH WAREHOUSE"
+  },
+  {
+   "key": "case009.person.alriza.info",
+   "value": "52, head of the BDS forensic laboratory. Carries out substance comparisons."
+  },
+  {
+   "key": "case009.person.alriza.name",
+   "value": "Ali Rıza Toprak"
+  },
+  {
+   "key": "case009.person.arda.info",
+   "value": "34, deputy inspector in the BDS operations team. The person who handed the packages seized on Monday night over to the evidence store."
+  },
+  {
+   "key": "case009.person.arda.name",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.person.ceren.info",
+   "value": "31, records and report officer in the operations team. She kept the raw evidence list."
+  },
+  {
+   "key": "case009.person.ceren.name",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.person.hakan.info",
+   "value": "47, the team commander who led the operation. Twenty years in the job."
+  },
+  {
+   "key": "case009.person.hakan.name",
+   "value": "Inspector Hakan Özer"
+  },
+  {
+   "key": "case009.person.nesrin.info",
+   "value": "43, head of the BDS evidence office. On duty on the night of the incident."
+  },
+  {
+   "key": "case009.person.nesrin.name",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.person.volkan.info",
+   "value": "39, senior officer in the operations team. Led the group that searched the north warehouse."
+  },
+  {
+   "key": "case009.person.volkan.name",
+   "value": "Volkan Ateş"
+  },
+  {
+   "key": "case009.report.body",
+   "value": "On the morning of 12 December 2028, the BDS evidence office reported a count discrepancy in the packages seized the night before in the warehouse operation in Fatih.\n\nThe operation report lists four packages of narcotics (E-14, E-15, E-16, E-17). Three packages were logged in the evidence system. E-17 is missing.\n\nThe packages were handed over to the evidence store by Deputy Inspector Arda Yılmaz. A preliminary inquiry into Arda Yılmaz has been opened on suspicion of misappropriation.\n\nThe file has been given to you because unit personnel are involved."
+  },
+  {
+   "key": "case009.report.title",
+   "value": "REPORT RECORD — EVIDENCE DISCREPANCY"
+  },
+  {
+   "key": "case009.request.a_bank",
+   "value": "Request Arda Yılmaz’s bank records"
+  },
+  {
+   "key": "case009.request.a_locker",
+   "value": "Request a search of Arda Yılmaz’s locker"
+  },
+  {
+   "key": "case009.request.a_vehicle",
+   "value": "Request an inspection of Arda Yılmaz’s vehicle"
+  },
+  {
+   "key": "case009.request.b_inventory",
+   "value": "Request a physical count of the evidence office"
+  },
+  {
+   "key": "case009.request.b_keycard",
+   "value": "Request the evidence store and command keycard access logs"
+  },
+  {
+   "key": "case009.request.b_syslog",
+   "value": "Request the evidence system access log"
+  },
+  {
+   "key": "case009.request.c_moves",
+   "value": "Request the team movement records"
+  },
+  {
+   "key": "case009.request.c_photos",
+   "value": "Request the operation’s evidence photographs"
+  },
+  {
+   "key": "case009.request.c_radio",
+   "value": "Request the operation’s radio log"
+  },
+  {
+   "key": "case009.request.c_rawlist",
+   "value": "Request the raw evidence list"
+  },
+  {
+   "key": "case009.request.lab",
+   "value": "Request a comparison of the samples"
+  },
+  {
+   "key": "case009.request.line_a",
+   "value": "Open the Arda Yılmaz line"
+  },
+  {
+   "key": "case009.request.line_b",
+   "value": "Open the evidence office line"
+  },
+  {
+   "key": "case009.request.line_c",
+   "value": "Open the operation line"
+  },
+  {
+   "key": "case009.request.link_e17",
+   "value": "Request that file 27-118 be linked to E-17"
+  },
+  {
+   "key": "case009.request.office",
+   "value": "Request a search of the command office"
+  },
+  {
+   "key": "case009.summary.evidence",
+   "value": "The handover form and the corridor record showed Arda going in with four packages and coming out empty-handed; the card log showed Hakan at the inner door at 01.21. The radio and the raw list showed the fourth package was found later and with different tape; the access log and Ceren’s card exposed the deletion of the record. The command office search brought up 27-118, and the laboratory tied E-17 to the same batch as that substance. The Arda line, meanwhile, yielded nothing but debt."
+  },
+  {
+   "key": "case009.summary.lesson",
+   "value": "You can’t open every line; weighing which record will open what is the investigation itself. The one in debt may not be the suspect, only the place suspicion goes easiest."
+  },
+  {
+   "key": "case009.summary.location",
+   "value": "Fatih — North Warehouse and BDS evidence office, 11–12 December 2028"
+  },
+  {
+   "key": "case009.summary.truth",
+   "value": "After six months of surveillance, the North Warehouse was going to come up empty. Inspector Hakan Özer brought the 420 grams he had kept off the books from the 2023 seizure 27-118 in his boot and put them behind the shelf; on the radio he said ‘check again’ and then ‘found’ the package himself. Arda left the four packages on the counter and went. Knowing the laboratory would tie the profile to 27-118, Hakan went in through the inner door while Nesrin was at the back safe and took the big package back. At 03.42 that night, at Hakan’s request, Ceren deleted the E-17 pre-entry from Nesrin’s logged-in account on the command terminal and corrected the photograph label. Arda, being in debt, was expected to be the suspect."
+  },
+  {
+   "key": "case009.suspect.label",
+   "value": "Who brought E-17 into the operation?"
+  },
+  {
+   "key": "case009.tablet.caseLine",
+   "value": "FILE #009  /  BUBE INVESTIGATION UNIT"
+  },
+  {
+   "key": "case009.time.again",
+   "value": "00.36"
+  },
+  {
+   "key": "case009.time.arda_in",
+   "value": "01.14"
+  },
+  {
+   "key": "case009.time.arda_out",
+   "value": "01.19"
+  },
+  {
+   "key": "case009.time.c_in",
+   "value": "03.38"
+  },
+  {
+   "key": "case009.time.clean",
+   "value": "00.31"
+  },
+  {
+   "key": "case009.time.delete",
+   "value": "03.42"
+  },
+  {
+   "key": "case009.time.empty",
+   "value": "01.20 – 01.30"
+  },
+  {
+   "key": "case009.time.form",
+   "value": "01.17"
+  },
+  {
+   "key": "case009.time.found",
+   "value": "00.41"
+  },
+  {
+   "key": "case009.time.h_car",
+   "value": "00.10"
+  },
+  {
+   "key": "case009.time.h_claim",
+   "value": "01.00 (stated)"
+  },
+  {
+   "key": "case009.time.h_in",
+   "value": "01.21"
+  },
+  {
+   "key": "case009.time.h_outdoor",
+   "value": "01.27"
+  },
+  {
+   "key": "case009.time.h_park",
+   "value": "01.12"
+  },
+  {
+   "key": "case009.time.n_out",
+   "value": "02.06"
+  },
+  {
+   "key": "case009.time.nesrin",
+   "value": "01.33"
+  },
+  {
+   "key": "case009.time.p16",
+   "value": "00.24"
+  },
+  {
+   "key": "case009.time.scan",
+   "value": "01.31"
+  },
+  {
+   "key": "case009.title",
+   "value": "File #009 — Evidence"
+  },
+  {
+   "key": "case009.verdict.arda",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.verdict.ceren",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.verdict.hakan",
+   "value": "Inspector Hakan Özer"
+  },
+  {
+   "key": "case009.verdict.legit",
+   "value": "No one — a legitimate seizure"
+  },
+  {
+   "key": "case009.verdict.nesrin",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.verdict.undetermined",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case009.volkan.body",
+   "value": "Statement of the officer who led the group searching the north warehouse."
+  },
+  {
+   "key": "case009.volkan.deflect",
+   "value": "I was on the search; the chief knows about that part."
+  },
+  {
+   "key": "case009.volkan.fourth.answer",
+   "value": "Chief Hakan said over the radio, ‘Check again.’ Five minutes later he was standing behind the north shelf saying, ‘There’s one more package.’ I had looked at that shelf. But it was dark; could be."
+  },
+  {
+   "key": "case009.volkan.fourth.answer.demeanor",
+   "value": "His voice hardened at ‘I had looked at that shelf’."
+  },
+  {
+   "key": "case009.volkan.fourth.question",
+   "value": "Where did the fourth package come from?"
+  },
+  {
+   "key": "case009.volkan.quote",
+   "value": "“Whatever I said on the radio, that’s it.”"
+  },
+  {
+   "key": "case009.volkan.search.answer",
+   "value": "We went through the shelves. Three packages on the back shelf, taped. I went through the north shelf twice; it was clear."
+  },
+  {
+   "key": "case009.volkan.search.question",
+   "value": "What did you find in the north warehouse?"
+  },
+  {
+   "key": "case009.volkan.title",
+   "value": "Volkan Ateş — interview"
+  }
+ ]
+}
