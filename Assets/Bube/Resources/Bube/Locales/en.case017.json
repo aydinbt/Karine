@@ -1,0 +1,864 @@
+{
+ "entries": [
+  {
+   "key": "case017.aisha.body",
+   "value": "With the internal review officer."
+  },
+  {
+   "key": "case017.aisha.deflect",
+   "value": "The review file is confidential; I can’t say."
+  },
+  {
+   "key": "case017.aisha.met.answer",
+   "value": "Last night. At 22.40, on the east stairs of the bridge. He wanted to talk away from the offices. ‘I didn’t write the handover letters,’ he said. ‘I’ve sent the proof to someone. One more person is coming tonight.’ I didn’t believe him. I left twenty minutes later."
+  },
+  {
+   "key": "case017.aisha.met.answer.demeanor",
+   "value": "She held his gaze."
+  },
+  {
+   "key": "case017.aisha.met.question",
+   "value": "When did you last see him?"
+  },
+  {
+   "key": "case017.aisha.review.answer",
+   "value": "Towards dismissal. The Tanner Lane handover letter looked as though it was written to protect his old partner. I thought it was. I was hard on him."
+  },
+  {
+   "key": "case017.aisha.review.question",
+   "value": "Where was the review of Malcolm Reeve heading?"
+  },
+  {
+   "key": "case017.aisha.title",
+   "value": "Aisha Rahman — interview"
+  },
+  {
+   "key": "case017.aisha.who.answer",
+   "value": "He didn’t say. He was waiting for a message on his phone, kept looking at the screen."
+  },
+  {
+   "key": "case017.aisha.who.question",
+   "value": "Who was coming?"
+  },
+  {
+   "key": "case017.aisha_log.body",
+   "value": "10 May 2029, vehicle registered to Aisha Rahman.\n\n· 22.31 · Rotherhithe, Salter Road · towards the basin\n· 23.08 · Rotherhithe, Lower Road · away from the basin\n· 23.31 · Greenwich · 400 metres from home address\n\nThe vehicle passed no reading point from 23.31 until morning."
+  },
+  {
+   "key": "case017.aisha_log.title",
+   "value": "NUMBER PLATE LOG — AISHA RAHMAN’S VEHICLE"
+  },
+  {
+   "key": "case017.autopsy.body",
+   "value": "· Cause of death: multiple fractures and internal bleeding from a fall from height.\n· A separate blow to the back of the head, sustained before the fall: consistent with a narrow, cylindrical, hard object. Different in direction from the impact marks on the quay stones.\n· Fresh bruises on both upper arms, consistent with fingertips.\n· No marks on the hands or palms from gripping the railing.\n· No alcohol in the blood.\n· Estimated time of death: 23.30 – 00.30."
+  },
+  {
+   "key": "case017.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case017.badge.body",
+   "value": "bube London, Southwark branch. Cardholder: Bora.\n\n· 08.52 · in\n· 18.40 · out\n\nNo card entry from 18.40 until 08.47 on 11 May. Night security book: “Third floor empty after 21.00.”"
+  },
+  {
+   "key": "case017.badge.title",
+   "value": "BRANCH ENTRY LOG — BORA, 10 MAY"
+  },
+  {
+   "key": "case017.bank.body",
+   "value": "Requested by: bube London financial review. 2023–2029, selected transactions.\n\n· 2–6 days after each handover letter, cash deposits at ATMs near the branch, £41,000 in total.\n· Since 2024, every three months, a ‘consultancy’ transfer from a company registered in Berlin: Arendt Handelsgesellschaft. €118,000 in total.\n· Account holder: Graham Holt.\n\nNote: Arendt Handelsgesellschaft appears as a witness’s employer in two of the six closed files."
+  },
+  {
+   "key": "case017.bank.title",
+   "value": "ACCOUNT STATEMENT — GRAHAM HOLT"
+  },
+  {
+   "key": "case017.cam.body",
+   "value": "Wall camera of a warehouse north-east of the basin, viewing the bridge deck from a distance and from the side. 10 May 23.20 – 11 May 00.10. The footage is dark; faces cannot be made out."
+  },
+  {
+   "key": "case017.cam.title",
+   "value": "WAREHOUSE WALL CAMERA — log transcript"
+  },
+  {
+   "key": "case017.cctv.event.leave",
+   "value": "Camera 03: The remaining man bends down, picks something up, puts it in his pocket. He walks towards the west stair tower and disappears."
+  },
+  {
+   "key": "case017.cctv.event.meet",
+   "value": "Camera 03: Two men in the middle of the bridge deck. One leans on the railing; the second has come from the west stair tower, holding a long, thin object."
+  },
+  {
+   "key": "case017.cctv.event.strike",
+   "value": "Camera 03: The newcomer raises his arm and strikes the other on the back of the head. He pins the staggering man against the railing with both arms and pushes him over. A body falls from the deck."
+  },
+  {
+   "key": "case017.cctv.overlay",
+   "value": "CAM 03"
+  },
+  {
+   "key": "case017.cctv.period",
+   "value": "10 May 2029, 23.20 – 00.10"
+  },
+  {
+   "key": "case017.cctv.source",
+   "value": "Warehouse wall camera"
+  },
+  {
+   "key": "case017.clue.aisha_in",
+   "value": "Aisha Rahman’s car arrives at the basin."
+  },
+  {
+   "key": "case017.clue.aisha_out",
+   "value": "Aisha Rahman’s car leaves the basin."
+  },
+  {
+   "key": "case017.clue.badgeout",
+   "value": "Bora leaves the branch."
+  },
+  {
+   "key": "case017.clue.drafts",
+   "value": "Six handover letters are drafted on the same file intake account."
+  },
+  {
+   "key": "case017.clue.drop",
+   "value": "Reeve’s phone drops off the network."
+  },
+  {
+   "key": "case017.clue.holt_in",
+   "value": "Graham Holt’s phone is at the basin."
+  },
+  {
+   "key": "case017.clue.mail",
+   "value": "The file intake chief receives Reeve’s envelope “For Bora”."
+  },
+  {
+   "key": "case017.clue.sms",
+   "value": "A “Meet me on the bridge” message goes out in the name of extension 214."
+  },
+  {
+   "key": "case017.clue.source.aisha_log",
+   "value": "Plate log"
+  },
+  {
+   "key": "case017.clue.source.badge",
+   "value": "Branch entry log"
+  },
+  {
+   "key": "case017.clue.source.drafts",
+   "value": "Document log"
+  },
+  {
+   "key": "case017.clue.source.holt_phone",
+   "value": "Holt’s location record"
+  },
+  {
+   "key": "case017.clue.source.mailroom",
+   "value": "Post log"
+  },
+  {
+   "key": "case017.clue.source.phone",
+   "value": "Reeve’s phone record"
+  },
+  {
+   "key": "case017.clue.strike",
+   "value": "On the bridge a man strikes another and pushes him over the railing."
+  },
+  {
+   "key": "case017.custody.aisha",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.custody.bora",
+   "value": "Bora — the message came from his extension"
+  },
+  {
+   "key": "case017.custody.graham",
+   "value": "Graham Holt — using the name of your desk line"
+  },
+  {
+   "key": "case017.custody.label",
+   "value": "Who sent the message that called Reeve to the bridge?"
+  },
+  {
+   "key": "case017.custody.none",
+   "value": "There was no message; Reeve went of his own accord"
+  },
+  {
+   "key": "case017.drafts.body",
+   "value": "Requested by: bube London IT. The six handover letters in Reeve’s letter, 2023–2029.\n\nThe first draft of all six was created on the same branch account: fileintake-03. All six contain the same sentence: “it is recommended that the file be closed promptly.” They were emailed to Reeve for signature; Reeve did not change the text in any of them.\n\nAccount holder: Graham Holt, file intake chief.\n\nAdditional note: the Cutter’s Basin handover note of 11 May 07.30 was also created on the same account."
+  },
+  {
+   "key": "case017.drafts.title",
+   "value": "DOCUMENT LOG — SIX HANDOVER LETTERS"
+  },
+  {
+   "key": "case017.epilogue.custody.aisha",
+   "value": "Aisha Rahman’s phone was examined; nothing turned up. The real sender of the message stayed nameless in the file."
+  },
+  {
+   "key": "case017.epilogue.custody.bora",
+   "value": "Internal review heard you out. Your entry log cleared you, but the file was taken from you; Holt handed over the new file from his own desk."
+  },
+  {
+   "key": "case017.epilogue.custody.graham",
+   "value": "The branch closed the hole in the switchboard gateway that same week. Bora’s extension was moved from 214 to 215; the old number was not removed from the directory, but a note was added beside it: “Malcolm Reeve, district liaison chief. Answered his last message.”"
+  },
+  {
+   "key": "case017.epilogue.custody.none",
+   "value": "The phone record stayed unread in the file. Reeve’s last reply, “I’m here.”, reached no one."
+  },
+  {
+   "key": "case017.epilogue.verdict.aisha",
+   "value": "Aisha Rahman was suspended. Graham Holt wrote his seventh handover note: “it is recommended that the file be closed promptly.”"
+  },
+  {
+   "key": "case017.epilogue.verdict.garrett",
+   "value": "A new charge was added to Garrett’s file. A thank-you note came to the branch from the file intake unit."
+  },
+  {
+   "key": "case017.epilogue.verdict.graham",
+   "value": "Graham Holt was arrested for murder and bribery. The six closed files were reopened; in two the wrong person had walked free, and in one an innocent person was released."
+  },
+  {
+   "key": "case017.epilogue.verdict.nobody",
+   "value": "Malcolm Reeve’s death was closed as suicide. The internal review into him concluded with the note “took his own life, admitting his guilt”."
+  },
+  {
+   "key": "case017.evidence.aisha_log",
+   "value": "Plate log"
+  },
+  {
+   "key": "case017.evidence.letter",
+   "value": "Draft letter"
+  },
+  {
+   "key": "case017.evidence.mailroom",
+   "value": "Branch post log"
+  },
+  {
+   "key": "case017.evidence.phone",
+   "value": "Reeve’s phone record"
+  },
+  {
+   "key": "case017.evidence.switchboard",
+   "value": "Branch switchboard log"
+  },
+  {
+   "key": "case017.feedback.aisha",
+   "value": "Aisha met Reeve and crushed him, but she left the basin at 23.08; the fall was at 23.47."
+  },
+  {
+   "key": "case017.feedback.garrett",
+   "value": "Garrett paid the money but didn’t know whom he was paying; that night he was in a cell and pointed no one at Reeve."
+  },
+  {
+   "key": "case017.feedback.graham",
+   "value": "For six years he wrote the handover letters, he received Reeve’s envelope, he called Reeve using your line. His phone was on the bridge; Reeve’s phone was in his drawer."
+  },
+  {
+   "key": "case017.feedback.nobody",
+   "value": "The blow to the back of the head, the bruises on the arms and the camera recording point to a push; the stair tower blocked the witness’s view."
+  },
+  {
+   "key": "case017.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case017.file.value.bureau",
+   "value": "BDS London — Southwark Branch"
+  },
+  {
+   "key": "case017.file.value.location",
+   "value": "Rotherhithe, Cutter’s Basin — old footbridge"
+  },
+  {
+   "key": "case017.file.value.number",
+   "value": "BDS-LDN-2029-0119"
+  },
+  {
+   "key": "case017.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case017.file.value.reporter",
+   "value": "Local resident"
+  },
+  {
+   "key": "case017.garrett.body",
+   "value": "On Reeve’s letter."
+  },
+  {
+   "key": "case017.garrett.deflect",
+   "value": "I won’t discuss that without my lawyer."
+  },
+  {
+   "key": "case017.garrett.malcolm.answer",
+   "value": "Malcolm? Malcolm never covered for me, not even on patrol. The man was a rule book. Ask whoever wrote the handover letter."
+  },
+  {
+   "key": "case017.garrett.malcolm.answer.demeanor",
+   "value": "A short, dry laugh."
+  },
+  {
+   "key": "case017.garrett.malcolm.question",
+   "value": "Did Malcolm Reeve sign to protect you?"
+  },
+  {
+   "key": "case017.garrett.paid.answer",
+   "value": "…I was given a phone number, years ago. ‘If your file reaches the branch, call; fifteen hundred closes it.’ I called. Don’t know the voice, don’t know the face. Cash, in a bin. Don’t ask me who’s above that."
+  },
+  {
+   "key": "case017.garrett.paid.answer.demeanor",
+   "value": "He lowered his voice."
+  },
+  {
+   "key": "case017.garrett.paid.question",
+   "value": "Did you pay anyone to get the Tanner Lane file closed quickly?"
+  },
+  {
+   "key": "case017.garrett.quote",
+   "value": "“Malcolm was a rule book.”"
+  },
+  {
+   "key": "case017.garrett.title",
+   "value": "Neil Garrett — remand prison interview"
+  },
+  {
+   "key": "case017.graham.body",
+   "value": "With the file intake chief."
+  },
+  {
+   "key": "case017.graham.deflect",
+   "value": "I can’t say without looking at the records."
+  },
+  {
+   "key": "case017.graham.drafts.answer",
+   "value": "Of course. Templates are my job. Chiefs are busy; I draft, they read and sign. Malcolm never objected."
+  },
+  {
+   "key": "case017.graham.drafts.answer.demeanor",
+   "value": "Relaxed; he folded his arms."
+  },
+  {
+   "key": "case017.graham.drafts.question",
+   "value": "The drafts of six handover letters were created on your account."
+  },
+  {
+   "key": "case017.graham.envelope.answer",
+   "value": "I receive a hundred envelopes a day. I’ll have put it in the distribution tray. If it’s gone missing, that’s the post room’s problem."
+  },
+  {
+   "key": "case017.graham.envelope.question",
+   "value": "You received the envelope Reeve sent to Bora."
+  },
+  {
+   "key": "case017.graham.night.answer",
+   "value": "At home, in Bermondsey. I went to bed early."
+  },
+  {
+   "key": "case017.graham.night.question",
+   "value": "Where were you on the night of 10 May?"
+  },
+  {
+   "key": "case017.graham.quote",
+   "value": "“Whoever’s above me is there.”"
+  },
+  {
+   "key": "case017.graham.title",
+   "value": "Graham Holt — interview"
+  },
+  {
+   "key": "case017.graham_2.body",
+   "value": "On the switchboard and the location record."
+  },
+  {
+   "key": "case017.graham_2.sms.answer",
+   "value": "Twenty people in the branch can get into that gateway. My password is written on my desk; everyone knows it."
+  },
+  {
+   "key": "case017.graham_2.sms.answer.demeanor",
+   "value": "For the first time his voice rose."
+  },
+  {
+   "key": "case017.graham_2.sms.question",
+   "value": "The message at 23.21 was sent by your account, in the name of Bora’s line, from beside the bridge."
+  },
+  {
+   "key": "case017.graham_2.there.answer",
+   "value": "…Malcolm called me, asked about the envelope. I went to talk. I left him standing. He was leaning on the railing, crying. The rest was his decision."
+  },
+  {
+   "key": "case017.graham_2.there.question",
+   "value": "Your phone was at Cutter’s Basin between 23.12 and 23.58."
+  },
+  {
+   "key": "case017.graham_2.title",
+   "value": "Graham Holt — second interview"
+  },
+  {
+   "key": "case017.graham_3.berlin.answer",
+   "value": "I wrote six sentences, in six years. The money came from Berlin. I never knew who sent it, and I didn’t want to. Whoever’s above me is there. You’ll never find them."
+  },
+  {
+   "key": "case017.graham_3.berlin.answer.demeanor",
+   "value": "For the first time he smiled."
+  },
+  {
+   "key": "case017.graham_3.berlin.question",
+   "value": "Who is the company in Berlin?"
+  },
+  {
+   "key": "case017.graham_3.body",
+   "value": "On the search record."
+  },
+  {
+   "key": "case017.graham_3.bridge.answer",
+   "value": "I wanted to give him the envelope back, not so he couldn’t read it, so he’d think again. ‘Bora will know everything tomorrow,’ he said. The torch was in my hand. …Once. Then the railing. That’s all."
+  },
+  {
+   "key": "case017.graham_3.bridge.answer.demeanor",
+   "value": "He laid his hands flat on the table."
+  },
+  {
+   "key": "case017.graham_3.bridge.question",
+   "value": "Reeve’s phone is in your tool drawer."
+  },
+  {
+   "key": "case017.graham_3.title",
+   "value": "Graham Holt — third interview"
+  },
+  {
+   "key": "case017.holt_phone.body",
+   "value": "Line: Graham Holt.\n\n10 May 2029\n· 22.10 · cell: Bermondsey (home)\n· 23.12 · cell: Rotherhithe, Cutter’s Basin\n· 23.21 · data session · Rotherhithe, Cutter’s Basin\n· 23.58 · cell: Rotherhithe, Lower Road\n· 00.20 · cell: Bermondsey (home)"
+  },
+  {
+   "key": "case017.holt_phone.title",
+   "value": "PHONE LOCATION RECORD — GRAHAM HOLT"
+  },
+  {
+   "key": "case017.joan.body",
+   "value": "Statement of his wife."
+  },
+  {
+   "key": "case017.joan.deflect",
+   "value": "Malcolm would have known that. I don’t."
+  },
+  {
+   "key": "case017.joan.letter.answer",
+   "value": "A letter. To the Turkish detective, the man who solved the Tanner Lane file. ‘He needs to know why I signed that,’ he said. He posted it to the branch on Tuesday morning. The draft should be on his computer."
+  },
+  {
+   "key": "case017.joan.letter.answer.demeanor",
+   "value": "For the first time her voice shook."
+  },
+  {
+   "key": "case017.joan.letter.question",
+   "value": "What was he writing?"
+  },
+  {
+   "key": "case017.joan.mood.answer",
+   "value": "He wasn’t sleeping. But he wasn’t a man about to kill himself; he was a man trying to put something right. He wrote at night in his study."
+  },
+  {
+   "key": "case017.joan.mood.question",
+   "value": "How was he in recent weeks?"
+  },
+  {
+   "key": "case017.joan.night.answer",
+   "value": "He went out at nine. ‘I’m meeting someone, then it’ll all be over,’ he said. I said, ‘The review?’ ‘No,’ he said, ‘the beginning.’"
+  },
+  {
+   "key": "case017.joan.night.answer.demeanor",
+   "value": "She kept turning her ring."
+  },
+  {
+   "key": "case017.joan.night.question",
+   "value": "What did Malcolm do yesterday evening?"
+  },
+  {
+   "key": "case017.joan.quote",
+   "value": "“He was a man trying to put something right.”"
+  },
+  {
+   "key": "case017.joan.title",
+   "value": "Joan Reeve — interview"
+  },
+  {
+   "key": "case017.letter.body",
+   "value": "File name: “For Bora”. Last saved: 7 May 2029, 02.14.\n\n“I did not write the Tanner Lane handover letter. For six years, ready-made handover texts have come to me from the branch’s file intake unit; ‘routine, your signature is enough.’ I signed. Not without reading — but without questioning. Because of my partnership with Neil Garrett, no one will believe me, I know.\n\nThe list of six files is attached. All were handed over with the sentence ‘it is recommended that the file be closed promptly’, and all were closed. If you look at the document logs of the texts, you will see who wrote them. I was afraid to look. I have posted the original to the branch, in your name.”"
+  },
+  {
+   "key": "case017.letter.title",
+   "value": "DRAFT LETTER — MALCOLM REEVE’S HOME COMPUTER"
+  },
+  {
+   "key": "case017.mailroom.body",
+   "value": "bube London, Southwark branch, incoming post.\n\n· 09.12 · envelope, handwritten “FOR BORA — PERSONAL” · sender: M. Reeve · entry no. 0510-07\n· 09.20 · received for distribution by: Graham Holt, file intake\n\nThe distribution column is blank. The envelope did not reach Bora’s desk."
+  },
+  {
+   "key": "case017.mailroom.title",
+   "value": "BRANCH POST LOG — 10 MAY"
+  },
+  {
+   "key": "case017.method.fell",
+   "value": "He fell while leaning on the railing"
+  },
+  {
+   "key": "case017.method.jumped",
+   "value": "He climbed onto the railing and jumped"
+  },
+  {
+   "key": "case017.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case017.method.struck",
+   "value": "He was struck on the back of the head and pushed over the railing"
+  },
+  {
+   "key": "case017.method.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case017.offer.subtitle",
+   "value": "THE BRIDGE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case017.offer.summary",
+   "value": "The district liaison chief who signed the Tanner Lane handover letter is found dead beneath an old bridge in Rotherhithe. A witness says “he jumped”. The last message on his phone came from your desk line."
+  },
+  {
+   "key": "case017.offer.title",
+   "value": "FILE #017"
+  },
+  {
+   "key": "case017.person.aisha.info",
+   "value": "40, bube internal review officer. Has been running the review of Malcolm Reeve since April."
+  },
+  {
+   "key": "case017.person.aisha.name",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.person.garrett.info",
+   "value": "45, held on remand over the Tanner Lane file; awaiting trial at Thamesmead Remand Prison."
+  },
+  {
+   "key": "case017.person.garrett.name",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case017.person.graham.info",
+   "value": "52, file intake chief at the bube London branch. Every incoming handover file passes across his desk."
+  },
+  {
+   "key": "case017.person.graham.name",
+   "value": "Graham Holt"
+  },
+  {
+   "key": "case017.person.joan.info",
+   "value": "56, retired nurse. Malcolm Reeve’s wife of thirty years."
+  },
+  {
+   "key": "case017.person.joan.name",
+   "value": "Joan Reeve"
+  },
+  {
+   "key": "case017.person.tommy.info",
+   "value": "63, lives on a barge moored at Cutter’s Basin; keeps watch over the jetty at night."
+  },
+  {
+   "key": "case017.person.tommy.name",
+   "value": "Tommy Blake"
+  },
+  {
+   "key": "case017.phone.body",
+   "value": "Line: Malcolm Reeve. The phone itself is missing; record from the operator.\n\n10 May 2029\n· 21.58 · outgoing call · Aisha Rahman · 2 min\n· 23.21 · incoming text · sender: bube London branch switchboard, extension 214\n   “Got the envelope. Meet me on the bridge. Come alone. — Bora”\n· 23.22 · outgoing text · to the same number · “I’m here.”\n· 23.52 · phone dropped off the network · last cell: Rotherhithe, Cutter’s Basin\n\nExtension 214 is listed in the branch directory as Bora’s desk line."
+  },
+  {
+   "key": "case017.phone.title",
+   "value": "PHONE RECORD — MALCOLM REEVE"
+  },
+  {
+   "key": "case017.plan.body",
+   "value": "Bird’s-eye sketch from the scene team’s measurements. The old railway footbridge crossing the basin horizontally; a brick stair tower at its west end, open stairs at its east end. To the south, the quay and moored barges, with an old cargo crane on the quay. To the north-east, a warehouse wall camera.\n\nPositions given by witnesses and shown by records are marked on the plan."
+  },
+  {
+   "key": "case017.plan.incident",
+   "value": "Cross: the point on the bridge deck where the railing is bent; the body was found on the quay directly below. Tap a marker to draw the area visible from that point."
+  },
+  {
+   "key": "case017.plan.marker.aisha_claim",
+   "value": "Aisha Rahman — where she spoke with Reeve: east stairs, 22.40"
+  },
+  {
+   "key": "case017.plan.marker.tommy_claim",
+   "value": "Tommy Blake — where he says he was: the barge deck"
+  },
+  {
+   "key": "case017.plan.marker.warehouse_cam",
+   "value": "Warehouse camera — bridge deck, 23.20 – 00.10"
+  },
+  {
+   "key": "case017.plan.title",
+   "value": "SCENE PLAN — CUTTER’S BASIN FOOTBRIDGE"
+  },
+  {
+   "key": "case017.recon.r_aisha",
+   "value": "Reeve meets the internal review officer on the bridge; Aisha leaves at 23.08."
+  },
+  {
+   "key": "case017.recon.r_bridge",
+   "value": "On the bridge Holt strikes Reeve on the head with a torch and pushes him over the railing."
+  },
+  {
+   "key": "case017.recon.r_burn",
+   "value": "Holt tries to burn the envelope and hides Reeve’s phone in his drawer."
+  },
+  {
+   "key": "case017.recon.r_drafts",
+   "value": "For six years, handover letters are drafted on the file intake account and sent to Reeve for signature."
+  },
+  {
+   "key": "case017.recon.r_letter",
+   "value": "Reeve writes everything down for Bora and posts the envelope to the branch."
+  },
+  {
+   "key": "case017.recon.r_mail",
+   "value": "The envelope is received at the branch under Graham Holt’s signature and never reaches Bora."
+  },
+  {
+   "key": "case017.recon.r_sms",
+   "value": "A “Meet me on the bridge” message goes out in the name of Bora’s extension; the sender is Holt’s account."
+  },
+  {
+   "key": "case017.report.body",
+   "value": "On 11 May 2029 at 05.40 in Rotherhithe, a man’s body was found on the quay stones beneath the old railway footbridge over Cutter’s Basin. The bridge deck is nine metres above the quay. Found by a local resident on a morning run.\n\nDeceased: Malcolm Reeve (58), district liaison chief. His car is parked beside the bridge’s east stairs. His phone was not found on him.\n\nPatrol note: “An internal review into him has been under way since April (Tanner Lane handover letter). He was under pressure. High likelihood he jumped.”\n\nFile intake unit handover note, 11 May 07.30: “Suspicious death. Findings are consistent with suicide. It is recommended that the file be closed promptly by routine procedure.” Signed: file intake chief."
+  },
+  {
+   "key": "case017.report.title",
+   "value": "INCIDENT REPORT AND HANDOVER NOTE"
+  },
+  {
+   "key": "case017.request.aisha_log",
+   "value": "Request Aisha Rahman’s plate log"
+  },
+  {
+   "key": "case017.request.badge",
+   "value": "Request your own branch entry log"
+  },
+  {
+   "key": "case017.request.bank",
+   "value": "Request Graham Holt’s account statement"
+  },
+  {
+   "key": "case017.request.drafts",
+   "value": "Request the document logs of the handover letters"
+  },
+  {
+   "key": "case017.request.holt_phone",
+   "value": "Request Graham Holt’s phone location record"
+  },
+  {
+   "key": "case017.request.letter",
+   "value": "Request the drafts on Reeve’s home computer"
+  },
+  {
+   "key": "case017.request.mailroom",
+   "value": "Request the branch’s incoming post log"
+  },
+  {
+   "key": "case017.request.phone",
+   "value": "Request Malcolm Reeve’s phone record"
+  },
+  {
+   "key": "case017.request.search",
+   "value": "Request the search record for Graham Holt’s home"
+  },
+  {
+   "key": "case017.request.switchboard",
+   "value": "Request the branch switchboard’s message log"
+  },
+  {
+   "key": "case017.search.body",
+   "value": "Bermondsey, 11 May 2029.\n\n· In the garage, partly burnt papers in a metal bin: a piece of brown envelope, handwritten “…RA — PERS…”; half of a list of six file numbers.\n· In the tool drawer, a switched-off mobile phone with a smashed screen. The serial number matches Malcolm Reeve’s line.\n· In the car boot, a long steel-bodied torch. Hair and blood on the end of the body; sent for examination.\n\nGraham Holt was present during the search."
+  },
+  {
+   "key": "case017.search.title",
+   "value": "SEARCH RECORD — GRAHAM HOLT’S HOUSE AND GARAGE"
+  },
+  {
+   "key": "case017.summary.evidence",
+   "value": "The scene plan showed that the stair tower blocked the view of the witness who said “he jumped”; the warehouse camera showed a second man. Reeve’s draft letter and the post log revealed that the envelope stayed with Holt, and the document log that the six handover letters were born on his account. The switchboard log tied the message to Holt’s account and to the bridge; the location record and the search record closed the night."
+  },
+  {
+   "key": "case017.summary.lesson",
+   "value": "The apparent sender of a message is not its real sender: ask for the record itself, the session and the place. And look at how the file reached you too — a handover note is also a witness."
+  },
+  {
+   "key": "case017.summary.location",
+   "value": "Rotherhithe and the bube London branch — 2023–2029"
+  },
+  {
+   "key": "case017.summary.truth",
+   "value": "For six years, file intake chief Graham Holt drafted handover letters for money and had district liaison chief Malcolm Reeve sign them as “routine”; Tanner Lane was one of them. Cornered by the internal review, Reeve wrote the truth to Bora and posted it to the branch. Holt received the envelope. On the night of 10 May he sent a message through the branch switchboard’s gateway in the name of Bora’s extension, called Reeve to the bridge, struck him on the back of the head with a torch and pushed him over the railing. The next morning he also wrote the handover note for the file that took over Reeve’s death. The money came from a company in Berlin."
+  },
+  {
+   "key": "case017.suspect.label",
+   "value": "Who is responsible for Malcolm Reeve’s death?"
+  },
+  {
+   "key": "case017.switchboard.body",
+   "value": "Requested by: bube London IT. Text sent from extension 214 on 10 May at 23.21.\n\n· The message was not sent from the desk phone. The switchboard’s web messaging gateway was used; the sending line was selected as “extension 214”.\n· Account logged in to the gateway: fileintake-03 (Graham Holt).\n· Device used to log in: a mobile phone. Connection point: around Cutter’s Basin, Rotherhithe.\n· The reply “I’m here.” received at 23.22 is marked as read in the same session.\n\nNote: The gateway allows messages to be sent in the name of any extension. This flaw has been reported since 2027."
+  },
+  {
+   "key": "case017.switchboard.title",
+   "value": "BRANCH SWITCHBOARD LOG — EXTENSION 214"
+  },
+  {
+   "key": "case017.tablet.caseLine",
+   "value": "FILE #017  /  BUBE LONDON — SOUTHWARK"
+  },
+  {
+   "key": "case017.time.aisha_in",
+   "value": "10 May 22.31"
+  },
+  {
+   "key": "case017.time.aisha_out",
+   "value": "10 May 23.08"
+  },
+  {
+   "key": "case017.time.badgeout",
+   "value": "10 May 18.40"
+  },
+  {
+   "key": "case017.time.drafts",
+   "value": "2023–2029"
+  },
+  {
+   "key": "case017.time.drop",
+   "value": "10 May 23.52"
+  },
+  {
+   "key": "case017.time.holt_in",
+   "value": "10 May 23.12"
+  },
+  {
+   "key": "case017.time.leave",
+   "value": "23.48"
+  },
+  {
+   "key": "case017.time.mail",
+   "value": "10 May 09.20"
+  },
+  {
+   "key": "case017.time.meet",
+   "value": "23.44"
+  },
+  {
+   "key": "case017.time.sms",
+   "value": "10 May 23.21"
+  },
+  {
+   "key": "case017.time.strike",
+   "value": "23.47"
+  },
+  {
+   "key": "case017.title",
+   "value": "File #017 — The Bridge"
+  },
+  {
+   "key": "case017.tommy.before.answer",
+   "value": "A car door, just after eleven. And… voices, or the wind. There’s a lot of wind here."
+  },
+  {
+   "key": "case017.tommy.before.question",
+   "value": "Did you hear anything before that?"
+  },
+  {
+   "key": "case017.tommy.body",
+   "value": "With the watchman on the barge."
+  },
+  {
+   "key": "case017.tommy.deflect",
+   "value": "I told you what I saw; I don’t know the rest."
+  },
+  {
+   "key": "case017.tommy.saw.answer",
+   "value": "Ten to midnight I went up on deck for a smoke. There was a man on top of the railing on the bridge, then he fell. No one with him, I swear. He jumped."
+  },
+  {
+   "key": "case017.tommy.saw.answer.demeanor",
+   "value": "Certain, almost angry."
+  },
+  {
+   "key": "case017.tommy.saw.question",
+   "value": "What did you see last night?"
+  },
+  {
+   "key": "case017.tommy.title",
+   "value": "Tommy Blake — interview"
+  },
+  {
+   "key": "case017.tommy_2.body",
+   "value": "On the scene plan."
+  },
+  {
+   "key": "case017.tommy_2.title",
+   "value": "Tommy Blake — second interview"
+  },
+  {
+   "key": "case017.tommy_2.tower.answer",
+   "value": "…The tower. Yes. I saw the man come out from behind the tower as he fell. Standing on the railing… I didn’t actually see that. I thought I did. When you see a fall, you fill in the rest yourself."
+  },
+  {
+   "key": "case017.tommy_2.tower.answer.demeanor",
+   "value": "He looked at the plan for a long time."
+  },
+  {
+   "key": "case017.tommy_2.tower.question",
+   "value": "The stair tower stands between your barge and that point on the bridge."
+  },
+  {
+   "key": "case017.verdict.aisha",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.verdict.garrett",
+   "value": "Neil Garrett — had someone do it from prison"
+  },
+  {
+   "key": "case017.verdict.graham",
+   "value": "Graham Holt"
+  },
+  {
+   "key": "case017.verdict.nobody",
+   "value": "No one — Reeve jumped"
+  },
+  {
+   "key": "case017.item.envelope.name",
+   "value": "Burnt envelope"
+  },
+  {
+   "key": "case017.item.envelope.detail",
+   "value": "Half-burnt pieces of envelope in a bin."
+  },
+  {
+   "key": "case017.item.phone.name",
+   "value": "Broken phone"
+  },
+  {
+   "key": "case017.item.phone.detail",
+   "value": "A switched-off phone, its screen shattered."
+  },
+  {
+   "key": "case017.item.torch.name",
+   "value": "Steel torch"
+  },
+  {
+   "key": "case017.item.torch.detail",
+   "value": "Long steel torch; a dark stain on the end cap."
+  }
+ ]
+}
