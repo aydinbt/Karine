@@ -1,0 +1,644 @@
+{
+ "entries": [
+  {
+   "key": "case024.autopsy.body",
+   "value": "· Cause of death: morphine poisoning; blood level roughly ten times the prescribed dose.\n· Advanced pancreatic cancer; spread to the liver. Expected survival a few weeks at most.\n· The port catheter in the chest connected to the morphine pump; no other needle marks.\n· The graze on the forehead occurred shortly before death; consistent with a fall, not a blow.\n· No signs of a struggle, no foreign tissue under the nails.\n· Time of death: 22.30–00.30."
+  },
+  {
+   "key": "case024.autopsy.title",
+   "value": "PRELIMINARY AUTOPSY NOTE"
+  },
+  {
+   "key": "case024.cctv.event.alone",
+   "value": "Camera: A single old man in the lit study; at the desk he puts a ledger into an envelope."
+  },
+  {
+   "key": "case024.cctv.event.look",
+   "value": "Camera: The man looks towards the camera and raises his hand; the image cuts out."
+  },
+  {
+   "key": "case024.cctv.event.smash",
+   "value": "Camera: The same man breaks the window from inside with the fire tongs; the glass falls into the garden."
+  },
+  {
+   "key": "case024.cctv.overlay",
+   "value": "GARDEN"
+  },
+  {
+   "key": "case024.cctv.period",
+   "value": "2 December 2029, 21.40 – 21.55"
+  },
+  {
+   "key": "case024.cctv.source",
+   "value": "Garden camera"
+  },
+  {
+   "key": "case024.clue.alone",
+   "value": "Konrad, alone in the room, puts the ledger into an envelope."
+  },
+  {
+   "key": "case024.clue.cam",
+   "value": "The garden camera is switched off with Konrad’s PIN; the safe is opened with his combination."
+  },
+  {
+   "key": "case024.clue.dose",
+   "value": "The pump lock is released; 14 extra doses from the patient button."
+  },
+  {
+   "key": "case024.clue.notary",
+   "value": "Konrad leaves the envelope and the change to his will with the notary."
+  },
+  {
+   "key": "case024.clue.show",
+   "value": "During a night of pain, Leon shows Konrad the pump’s service code."
+  },
+  {
+   "key": "case024.clue.smash",
+   "value": "Konrad breaks the window from inside with the tongs."
+  },
+  {
+   "key": "case024.clue.source.leon",
+   "value": "Care nurse"
+  },
+  {
+   "key": "case024.clue.source.notary",
+   "value": "Notarial record"
+  },
+  {
+   "key": "case024.clue.source.panel",
+   "value": "Home control panel"
+  },
+  {
+   "key": "case024.clue.source.pump",
+   "value": "Pump log"
+  },
+  {
+   "key": "case024.custody.konrad",
+   "value": "Konrad Arendt himself — through the notary"
+  },
+  {
+   "key": "case024.custody.label",
+   "value": "Who sent the ledger to bube Berlin?"
+  },
+  {
+   "key": "case024.custody.philipp",
+   "value": "Philipp Arendt — in revenge on his father"
+  },
+  {
+   "key": "case024.custody.sabine",
+   "value": "Sabine Roth — she took it from the safe"
+  },
+  {
+   "key": "case024.custody.unknown",
+   "value": "Undetermined"
+  },
+  {
+   "key": "case024.epilogue.custody.konrad",
+   "value": "The ledger was sent to bube Berlin by the dead man himself; the envelope’s instruction said so."
+  },
+  {
+   "key": "case024.epilogue.custody.philipp",
+   "value": "The son was thought to have leaked the ledger; the defence dismissed it as his fabrication."
+  },
+  {
+   "key": "case024.epilogue.custody.sabine",
+   "value": "The ledger was taken to have come from Sabine’s hands; Konrad’s letter was set aside as ‘steering’."
+  },
+  {
+   "key": "case024.epilogue.custody.unknown",
+   "value": "How the ledger reached bube remained open; the chain of evidence broke in court."
+  },
+  {
+   "key": "case024.epilogue.verdict.konrad",
+   "value": "Konrad Arendt’s death was recorded as suicide. The ledger went to the prosecutor; eleven closed files from London to Berlin were reopened. The name on the last page was passed to the Tokyo branch."
+  },
+  {
+   "key": "case024.epilogue.verdict.leon",
+   "value": "Leon Fischer was tried for murder. The ledger was lost in a footnote to a ‘patient and nurse’ case."
+  },
+  {
+   "key": "case024.epilogue.verdict.philipp",
+   "value": "Philipp Arendt was charged with killing his father. While the trial dragged on, the ledger was deemed ‘false evidence’; the payments were handed over to Tokyo."
+  },
+  {
+   "key": "case024.epilogue.verdict.sabine",
+   "value": "Sabine Roth was arrested; the Luxembourg accounts in her name were frozen, the rest remained."
+  },
+  {
+   "key": "case024.evidence.letter",
+   "value": "Konrad Arendt’s letter"
+  },
+  {
+   "key": "case024.evidence.panel",
+   "value": "Home control panel"
+  },
+  {
+   "key": "case024.evidence.pump",
+   "value": "Morphine pump log"
+  },
+  {
+   "key": "case024.evidence.tox",
+   "value": "Toxicology"
+  },
+  {
+   "key": "case024.feedback.konrad",
+   "value": "He broke the window from inside himself, opened the camera and the safe with his own PIN, released the pump lock with the code he learned from Leon and gave himself the extra doses; so that the ledger would reach bube through the notary."
+  },
+  {
+   "key": "case024.feedback.leon",
+   "value": "The nurse left at 20.04; the code was his, but only Konrad’s prints are on the button."
+  },
+  {
+   "key": "case024.feedback.philipp",
+   "value": "The son was cut out of the will, but he left the house at 21.00; the door was not opened all night and the pump log shows no other hand."
+  },
+  {
+   "key": "case024.feedback.sabine",
+   "value": "Sabine brought the statement in the afternoon and left; she was not at the villa that night."
+  },
+  {
+   "key": "case024.file.caseType",
+   "value": "SUSPECTED MURDER"
+  },
+  {
+   "key": "case024.file.value.bureau",
+   "value": "BDS Berlin — Kreuzberg Branch"
+  },
+  {
+   "key": "case024.file.value.location",
+   "value": "Grunewald, Arendt villa — study"
+  },
+  {
+   "key": "case024.file.value.number",
+   "value": "BDS-BER-2029-0101"
+  },
+  {
+   "key": "case024.file.value.offence",
+   "value": "Suspected murder"
+  },
+  {
+   "key": "case024.file.value.reporter",
+   "value": "Housekeeper"
+  },
+  {
+   "key": "case024.garden.body",
+   "value": "Camera covering the study’s garden window; switched off at 21.55. 2 December 21.40 – 21.55."
+  },
+  {
+   "key": "case024.garden.title",
+   "value": "GARDEN CAMERA — log transcript"
+  },
+  {
+   "key": "case024.ledger.body",
+   "value": "In Konrad Arendt’s hand; 1989–2029.\n\n· 2023–2029 · “G. H., London, file intake” — monthly; Tanner Lane note.\n· 2027–2028 · “M. B., rowing, Köpenick” — per race.\n· 2028–2029 · “M. K., bube Berlin” — €3,000 monthly.\n· 2029 · “İ. media, Kreuzberg” — publishing line.\n· Last page: “Buyer: Kisaragi Shōji, Tokyo — all lines to be handed over, January 2030.”"
+  },
+  {
+   "key": "case024.ledger.title",
+   "value": "LEDGER — SELECTED LINES"
+  },
+  {
+   "key": "case024.leon.body",
+   "value": "Care nurse."
+  },
+  {
+   "key": "case024.leon.code.answer",
+   "value": "With the service menu. I… showed him once. Last month, the night pain was unbearable, he called me; ‘next time let me do it before you get here,’ he said. I shouldn’t have."
+  },
+  {
+   "key": "case024.leon.code.answer.demeanor",
+   "value": "The colour drained from his face."
+  },
+  {
+   "key": "case024.leon.code.question",
+   "value": "Can the lock be overridden?"
+  },
+  {
+   "key": "case024.leon.deflect",
+   "value": "There’s patient confidentiality."
+  },
+  {
+   "key": "case024.leon.pump.answer",
+   "value": "A continuous low dose, and when the pain gets worse, an extra dose with the button in the patient’s hand. Locked: at most two extra doses an hour. I checked it at eight in the evening; everything was normal."
+  },
+  {
+   "key": "case024.leon.pump.answer.demeanor",
+   "value": "Self-assured."
+  },
+  {
+   "key": "case024.leon.pump.question",
+   "value": "How did the pump work?"
+  },
+  {
+   "key": "case024.leon.title",
+   "value": "Leon Fischer — interview"
+  },
+  {
+   "key": "case024.leon_2.body",
+   "value": "On the pump log."
+  },
+  {
+   "key": "case024.leon_2.code.answer",
+   "value": "That night I left at eight, I was at home in Neukölln, my girlfriend… I didn’t do it. But I gave him the code. That counts for something, doesn’t it?"
+  },
+  {
+   "key": "case024.leon_2.code.answer.demeanor",
+   "value": "He is crying."
+  },
+  {
+   "key": "case024.leon_2.code.question",
+   "value": "The lock was released with your service code."
+  },
+  {
+   "key": "case024.leon_2.title",
+   "value": "Leon Fischer — second interview"
+  },
+  {
+   "key": "case024.letter.body",
+   "value": "“To bube Berlin,\n\nIf an old man’s death is taken as natural, no one looks in his safe. If it is taken as murder, everyone does. My son would burn the ledger; Sabine would hide it; the men I kept with money are even among you. I fed Matthias Kern; I killed Clara Weiß, not with my own hand but with my own money.\n\nI broke the glass so that you would come. I switched off the camera so that no one would be blamed; so that you would see my face in the last frame. I took the pump code from Leon; that boy is not to blame for anything.\n\nThe ledger runs through London, Berlin, Rostock. Its last page ends in Tokyo. I am too old to go there.\n\nK. A.”"
+  },
+  {
+   "key": "case024.letter.title",
+   "value": "KONRAD ARENDT’S LETTER"
+  },
+  {
+   "key": "case024.marta.body",
+   "value": "Housekeeper."
+  },
+  {
+   "key": "case024.marta.deflect",
+   "value": "I never meddled in the master’s affairs."
+  },
+  {
+   "key": "case024.marta.night.answer",
+   "value": "The master sent me to bed at 21.30. ‘Rest tonight, Marta, tomorrow will be a long day,’ he said. Not once in thirty years did he say that. Then I slept; I heard nothing."
+  },
+  {
+   "key": "case024.marta.night.answer.demeanor",
+   "value": "She is clutching her handkerchief."
+  },
+  {
+   "key": "case024.marta.night.question",
+   "value": "What happened last night?"
+  },
+  {
+   "key": "case024.marta.quote",
+   "value": "“Tomorrow will be a long day.”"
+  },
+  {
+   "key": "case024.marta.title",
+   "value": "Marta Nowak — interview"
+  },
+  {
+   "key": "case024.marta.visit.answer",
+   "value": "Mr Philipp came to dinner; they shouted; he left at 21.00. Ms Sabine in the afternoon. Nurse Leon comes every evening at 20.00, checks the pump and goes."
+  },
+  {
+   "key": "case024.marta.visit.question",
+   "value": "Who came to the house that evening?"
+  },
+  {
+   "key": "case024.method.injected",
+   "value": "Someone injected morphine from outside"
+  },
+  {
+   "key": "case024.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case024.method.natural",
+   "value": "Natural death from his illness"
+  },
+  {
+   "key": "case024.method.pump",
+   "value": "He released the pump lock and gave himself the morphine"
+  },
+  {
+   "key": "case024.method.struck",
+   "value": "He was struck on the head in a struggle"
+  },
+  {
+   "key": "case024.notary.body",
+   "value": "A fictional Charlottenburg notary’s office. The envelope was left in person by Konrad Arendt on 2 December 2029 at 18.10; the notary’s clerk called a courier on the morning of 3 December.\n\nInstruction: “Should my death be found suspicious, to bube Berlin — Kreuzberg. Should it be deemed natural, to be destroyed.”\n\nChange to the will signed the same day: Philipp Arendt’s share to the foundation; the company to be wound up.\n\nIn the envelope: a forty-year ledger and a letter."
+  },
+  {
+   "key": "case024.notary.title",
+   "value": "NOTARIAL RECORD AND SEALED ENVELOPE"
+  },
+  {
+   "key": "case024.offer.subtitle",
+   "value": "THE LEDGER  /  SUSPECTED MURDER"
+  },
+  {
+   "key": "case024.offer.summary",
+   "value": "The founder of Arendt Handelsgesellschaft is found dead in his villa in Grunewald: a broken window, an empty safe, a camera switched off. The file reaches the branch in a notary’s sealed envelope — addressed only to bube Berlin."
+  },
+  {
+   "key": "case024.offer.title",
+   "value": "FILE #024"
+  },
+  {
+   "key": "case024.panel.body",
+   "value": "· 21.31 · Marta Nowak’s room: light off.\n· 21.52 · garden window alarm: breakage.\n· 21.55 · garden camera switched off; PIN used: Konrad Arendt.\n· 21.58 · safe opened; the combination used is held only by Konrad Arendt.\n· 22.40 · front door lock to night mode; no openings."
+  },
+  {
+   "key": "case024.panel.title",
+   "value": "HOME CONTROL PANEL LOG"
+  },
+  {
+   "key": "case024.person.leon.info",
+   "value": "35, home care nurse; has looked after Konrad Arendt for the last three months."
+  },
+  {
+   "key": "case024.person.leon.name",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.person.marta.info",
+   "value": "61, the villa’s housekeeper; thirty years at Konrad’s side."
+  },
+  {
+   "key": "case024.person.marta.name",
+   "value": "Marta Nowak"
+  },
+  {
+   "key": "case024.person.philipp.info",
+   "value": "43, Konrad Arendt’s son; deputy chairman of the board of Arendt Handelsgesellschaft."
+  },
+  {
+   "key": "case024.person.philipp.name",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.person.sabine.info",
+   "value": "56, the company’s finance director; twenty-five years at Konrad’s side."
+  },
+  {
+   "key": "case024.person.sabine.name",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.philipp.body",
+   "value": "The son."
+  },
+  {
+   "key": "case024.philipp.deflect",
+   "value": "Our lawyers will speak to you."
+  },
+  {
+   "key": "case024.philipp.dinner.answer",
+   "value": "He said he wouldn’t leave the company to me. ‘I’m not leaving the company to anyone; I’m going to wind it up,’ he said. The illness had taken his mind. I left at nine; I was in a bar in Mitte until midnight."
+  },
+  {
+   "key": "case024.philipp.dinner.answer.demeanor",
+   "value": "He is barely holding his anger in."
+  },
+  {
+   "key": "case024.philipp.dinner.question",
+   "value": "Why did you argue with your father?"
+  },
+  {
+   "key": "case024.philipp.safe.answer",
+   "value": "My father’s ledger. Forty years of it. Every payment, every ‘consultant’. Whoever took it is someone who needs that ledger. Not me; I already have a copy… had."
+  },
+  {
+   "key": "case024.philipp.safe.question",
+   "value": "What was in the safe?"
+  },
+  {
+   "key": "case024.philipp.title",
+   "value": "Philipp Arendt — interview"
+  },
+  {
+   "key": "case024.philipp_2.body",
+   "value": "On the change to the will."
+  },
+  {
+   "key": "case024.philipp_2.title",
+   "value": "Philipp Arendt — second interview"
+  },
+  {
+   "key": "case024.philipp_2.will.answer",
+   "value": "I knew. He told me at dinner. That’s why I shouted. But kill him? He was dying anyway. I’d have waited a few weeks; the lawyers would have sorted it. Not waiting… only he would do that."
+  },
+  {
+   "key": "case024.philipp_2.will.answer.demeanor",
+   "value": "For the first time his voice broke."
+  },
+  {
+   "key": "case024.philipp_2.will.question",
+   "value": "That day your father cut you out of his will."
+  },
+  {
+   "key": "case024.pump.body",
+   "value": "Patient: Konrad Arendt. Care nurse: Leon Fischer (last check 2 December 20.04).\n\n· 22.12 · service menu opened; lock disabled. Code: the service code Leon Fischer showed the patient in November.\n· 22.14–22.31 · 14 extra doses from the patient button.\n· 22.33 · service menu closed; lock re-enabled.\n· The pump logs by its own clock; no remote access."
+  },
+  {
+   "key": "case024.pump.title",
+   "value": "MORPHINE PUMP LOG"
+  },
+  {
+   "key": "case024.recon.r_camera",
+   "value": "He shows his face to the camera and switches it off with his own PIN."
+  },
+  {
+   "key": "case024.recon.r_clara",
+   "value": "Reading about Clara Weiß’s death, Konrad says ‘my money killed a woman’ and asks for the Luxembourg statement."
+  },
+  {
+   "key": "case024.recon.r_code",
+   "value": "Konrad learns the pump’s service code from Leon during a night of pain."
+  },
+  {
+   "key": "case024.recon.r_dose",
+   "value": "He releases the pump lock and gives himself the fourteen extra doses; falling, he strikes his forehead."
+  },
+  {
+   "key": "case024.recon.r_marta",
+   "value": "He sends Marta to bed early and argues with Philipp at dinner; Philipp leaves at 21.00."
+  },
+  {
+   "key": "case024.recon.r_notary",
+   "value": "On 2 December he leaves the ledger, the letter and the change to his will with the notary; instruction: if the death is suspicious, to bube Berlin."
+  },
+  {
+   "key": "case024.recon.r_window",
+   "value": "He breaks the window from inside with the tongs, opens and empties the safe, scatters the files."
+  },
+  {
+   "key": "case024.report.body",
+   "value": "On 3 December 2029 at 07.10, Konrad Arendt (71), founder of Arendt Handelsgesellschaft, was found dead in the study of his villa in Grunewald. Found by the housekeeper, Marta Nowak.\n\nThe room in disorder: an overturned chair, a broken garden window, a graze on his forehead, files scattered on the floor. The safe open and empty. The garden camera switched off at 21.55.\n\nNote: The file reached bube Berlin not through the usual channel but in a sealed envelope a notary sent to the branch. On the envelope: “Should Konrad Arendt’s death be found suspicious, to be delivered only to bube Berlin — Kreuzberg Branch.”"
+  },
+  {
+   "key": "case024.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case024.request.notary",
+   "value": "Request the envelope and record from the notary’s office"
+  },
+  {
+   "key": "case024.request.panel",
+   "value": "Request the home control panel log"
+  },
+  {
+   "key": "case024.request.pump",
+   "value": "Request the morphine pump log"
+  },
+  {
+   "key": "case024.request.tox",
+   "value": "Request toxicology and a port comparison"
+  },
+  {
+   "key": "case024.sabine.body",
+   "value": "Finance director."
+  },
+  {
+   "key": "case024.sabine.deflect",
+   "value": "Company information is confidential."
+  },
+  {
+   "key": "case024.sabine.fear.answer",
+   "value": "An analyst died in Berlin, in November. When Konrad read the news he didn’t speak for an hour. Then he said to me, ‘My money killed a woman.’"
+  },
+  {
+   "key": "case024.sabine.fear.question",
+   "value": "Was anything different in recent weeks?"
+  },
+  {
+   "key": "case024.sabine.title",
+   "value": "Sabine Roth — interview"
+  },
+  {
+   "key": "case024.sabine.visit.answer",
+   "value": "Konrad called me. He wanted the statement for the Luxembourg accounts, everything, since 2018. ‘I want to put it all in order one last time,’ he said. I gave it to him."
+  },
+  {
+   "key": "case024.sabine.visit.answer.demeanor",
+   "value": "She sits upright, her voice flat."
+  },
+  {
+   "key": "case024.sabine.visit.question",
+   "value": "Why did you come in the afternoon?"
+  },
+  {
+   "key": "case024.scene.body",
+   "value": "· The garden window’s glass is outside, on the lawn; the window was broken from inside. Glass fragments on the iron fire tongs.\n· The safe was opened with the combination; no forcing.\n· The scattered files are the company’s 2027–2029 annual reports; none is missing.\n· The garden camera was switched off from the control panel inside the house."
+  },
+  {
+   "key": "case024.scene.title",
+   "value": "SCENE EXAMINATION"
+  },
+  {
+   "key": "case024.summary.evidence",
+   "value": "The scene examination showed the glass was broken from inside and the safe was not forced. The home panel showed Konrad’s own PIN for the camera and the safe, and the garden camera’s last frames showed him alone. The pump log and toxicology proved the morphine came only from his button; the notarial record and the letter explained why."
+  },
+  {
+   "key": "case024.summary.lesson",
+   "value": "A scene is not always a perpetrator’s scene; sometimes the dead man stages his own death as a message. Ask who built it, and whom it was built to reach."
+  },
+  {
+   "key": "case024.summary.location",
+   "value": "Grunewald, Arendt villa — December 2029"
+  },
+  {
+   "key": "case024.summary.truth",
+   "value": "When terminally ill Konrad Arendt learned that his money had got a bube analyst killed in November, he decided to hand over his forty-year ledger; but he knew that after a natural death no one would look in his safe, and that his son would burn the ledger. On 2 December he left the ledger with a notary, with an instruction: if the death is suspicious, to bube Berlin. That night he broke the window from inside, emptied the safe, showed his face to the camera and switched it off, and, releasing the pump lock with the code he had learned from his nurse, gave himself fourteen extra doses."
+  },
+  {
+   "key": "case024.suspect.label",
+   "value": "Who is responsible for Konrad Arendt’s death?"
+  },
+  {
+   "key": "case024.tablet.caseLine",
+   "value": "FILE #024  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case024.time.alone",
+   "value": "21.48"
+  },
+  {
+   "key": "case024.time.cam",
+   "value": "21.55"
+  },
+  {
+   "key": "case024.time.dose",
+   "value": "22.12–22.33"
+  },
+  {
+   "key": "case024.time.look",
+   "value": "21.54"
+  },
+  {
+   "key": "case024.time.notary",
+   "value": "2 Dec. 18.10"
+  },
+  {
+   "key": "case024.time.show",
+   "value": "Nov. 2029"
+  },
+  {
+   "key": "case024.time.smash",
+   "value": "21.52"
+  },
+  {
+   "key": "case024.title",
+   "value": "File #024 — The Ledger"
+  },
+  {
+   "key": "case024.tox.body",
+   "value": "All the morphine was given through the pump line, via the port catheter; the loss from the reservoir matches the blood level. No injection from outside. Only Konrad Arendt’s fingerprints on the patient button."
+  },
+  {
+   "key": "case024.tox.title",
+   "value": "TOXICOLOGY AND PORT COMPARISON"
+  },
+  {
+   "key": "case024.verdict.konrad",
+   "value": "Konrad Arendt — he staged his own death as a murder"
+  },
+  {
+   "key": "case024.verdict.leon",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.verdict.philipp",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.verdict.sabine",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.item.ledger.name",
+   "value": "Ledger"
+  },
+  {
+   "key": "case024.item.ledger.detail",
+   "value": "A thick old leather-bound ledger."
+  },
+  {
+   "key": "case024.item.pump.name",
+   "value": "Infusion pump"
+  },
+  {
+   "key": "case024.item.pump.detail",
+   "value": "A drug pump with a hand button."
+  },
+  {
+   "key": "case024.item.poker.name",
+   "value": "Fire tongs"
+  },
+  {
+   "key": "case024.item.poker.detail",
+   "value": "Fire tongs with shards of glass on the tip."
+  },
+  {
+   "key": "case024.item.envelope.name",
+   "value": "Sealed envelope"
+  },
+  {
+   "key": "case024.item.envelope.detail",
+   "value": "A cream envelope sealed with red wax."
+  }
+ ]
+}
