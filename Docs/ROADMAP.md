@@ -212,6 +212,7 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 
 - [ ] Bora için kısa personel kartı/biyografi gösterilir; soyadı ve gereksiz arka plan ayrıntıları zorunlu kılınmaz.
 - [ ] Vaka sonrası kalıcı kariyer kaydı, unvan ile departman güveni ayrımı ve performansa bağlı sorumluluk modeli tasarlanır. Ünvan listesi/eşikleri henüz kesin değildir.
+- [x] Bora filmi Unity'de izlendi; GEÇ düğmesi onaylandı (kullanıcı, 8 Ekim 2026). Türkiye açılış videosu akıştan çıkarıldı; film sonrası doğrudan masa `[~]`.
 - [~] Bora'nın göreve hazırlanış filmi (10 sn, Gemini, 2.5D) yeni kariyerde Türkiye açılışından önce bir kez oynar. Kullanıcı Unity'de izledi (8 Ekim 2026). Filigran yok; GEÇ kitin standart düğmesine çevrildi, bu hâli henüz görülmedi.
 - [~] Zorluk ağırlığı (1–3) ve Kariyer → Bora sekmesi (profil + güven kuralları); Bora uluslararası birimde. 139 EditMode geçti; ekran görülmedi.
 - [~] Kariyer bitmez (8 Ekim 2026): güven 0'da aynı birimde gözetimli masa görevi, sıradaki gerekçeli raporla dönüş; 3'lü seri +3 ek güven; kayıp türe göre (−15 asılsız suçlama, −5 eksik). 138 EditMode geçti; oyunda görülmedi.

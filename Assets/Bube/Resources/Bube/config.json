@@ -12,24 +12,6 @@
       "skipCoversCornerMark": false
     },
     {
-      "id": "world01",
-      "firstCaseId": "case001",
-      "countryKey": "world01.country",
-      "locationKey": "intro.world01.city",
-      "flagResource": "Bube/TurkiyeFlag",
-      "videoPath": "Bube/world01_intro.mp4",
-      "graphicsEmbedded": true,
-      "skipCoversCornerMark": true,
-      "deskArrival": true,
-      "deskArrivalVideo": "Bube/case001_arrival.mp4",
-      "deskArrivalMark": {
-        "x": 0.906,
-        "y": 0.8329,
-        "w": 0.07,
-        "h": 0.105
-      }
-    },
-    {
       "id": "world02",
       "firstCaseId": "case011",
       "countryKey": "world.uk.name",

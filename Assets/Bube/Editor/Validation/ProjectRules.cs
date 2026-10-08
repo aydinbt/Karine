@@ -157,7 +157,7 @@ public static class ProjectRules {
 
   // Sinematikler Resources'ta degil StreamingAssets'ta durur; eksik bir video
   // oyunu durdurmaz ama o anin sessizce kaybolmasi fark edilmelidir.
-  foreach (var video in new[] { "career_start.mp4", "world01_intro.mp4", "case001_arrival.mp4", "main_menu_loop.mp4" })
+  foreach (var video in new[] { "career_start.mp4", "case001_arrival.mp4", "main_menu_loop.mp4" })
    report.Require(File.Exists("Assets/StreamingAssets/Bube/" + video), "Sinematik video yok: " + video);
  }
 }
