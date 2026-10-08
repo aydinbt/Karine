@@ -1,0 +1,564 @@
+{
+ "entries": [
+  {
+   "key": "case063.adeyemi.body",
+   "value": "Sound engineer."
+  },
+  {
+   "key": "case063.adeyemi.deflect",
+   "value": "My job is sound, not cables."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer",
+   "value": "The sound cables are mine, not the power. At the soundcheck the amp was straight into the socket, no adapter; I take a photo every night, it’s on my phone. During the interval I went to the bar; Zoé knows. Everyone’s going to blame me, I know."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer.demeanor",
+   "value": "He takes the headphones from his neck and puts them on the table."
+  },
+  {
+   "key": "case063.adeyemi.rig.question",
+   "value": "Are the cables your responsibility?"
+  },
+  {
+   "key": "case063.adeyemi.title",
+   "value": "Tunde Adeyemi — interview"
+  },
+  {
+   "key": "case063.amara.body",
+   "value": "Singer."
+  },
+  {
+   "key": "case063.amara.deflect",
+   "value": "I was singing."
+  },
+  {
+   "key": "case063.amara.mic.answer",
+   "value": "My microphone. I was going to open the second set, but Théo said, ‘Let Clifford sing the first song, a surprise.’ He was the one who pushed the stand next to the amp, ‘better sound,’ he said. I’m thinking about that now."
+  },
+  {
+   "key": "case063.amara.mic.answer.demeanor",
+   "value": "She takes the clip out of her hair and puts it back in."
+  },
+  {
+   "key": "case063.amara.mic.question",
+   "value": "Was that microphone yours?"
+  },
+  {
+   "key": "case063.amara.title",
+   "value": "Amara Diallo — interview"
+  },
+  {
+   "key": "case063.autopsy.body",
+   "value": "· Cause of death: cardiac arrhythmia from electric shock.\n· Entry burn on the left palm (microphone stand), exit burn on the right palm (amp handle): the current passed from one hand to the other, across the heart.\n· The victim’s heart sound for his age.\n· Time of death: 22.41."
+  },
+  {
+   "key": "case063.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case063.backstage.body",
+   "value": "Backstage corridor, power distribution box. 13 November 22.15 – 23.00."
+  },
+  {
+   "key": "case063.backstage.title",
+   "value": "BACKSTAGE CAMERA — log transcript"
+  },
+  {
+   "key": "case063.cctv.event.box",
+   "value": "Camera: During the interval a man in a dark jacket opens the power box on the wall and looks back over his shoulder."
+  },
+  {
+   "key": "case063.cctv.event.plug",
+   "value": "Camera: The same man crouches at the extension socket by the edge of the stage and fits something small between a thick cable and the socket."
+  },
+  {
+   "key": "case063.cctv.event.pocket",
+   "value": "Camera: After the commotion the same man crouches at the same socket again and slips something small into his jacket pocket."
+  },
+  {
+   "key": "case063.cctv.overlay",
+   "value": "SS-BACK"
+  },
+  {
+   "key": "case063.cctv.period",
+   "value": "13 November 2030"
+  },
+  {
+   "key": "case063.cctv.source",
+   "value": "Backstage camera"
+  },
+  {
+   "key": "case063.clue.box",
+   "value": "The man in the dark jacket opens the power box during the interval."
+  },
+  {
+   "key": "case063.clue.plug",
+   "value": "The same man fits something small into the stage socket."
+  },
+  {
+   "key": "case063.clue.pocket",
+   "value": "After the commotion the same man crouches at the socket and slips something into his pocket."
+  },
+  {
+   "key": "case063.clue.song",
+   "value": "Clifford leans into the microphone and says, ‘This song’s for Théo’; he falls."
+  },
+  {
+   "key": "case063.clue.source.nowak",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.custody.label",
+   "value": "Where did the adapter go?"
+  },
+  {
+   "key": "case063.custody.safe",
+   "value": "Into the club owner’s safe"
+  },
+  {
+   "key": "case063.custody.sound",
+   "value": "Into the sound desk drawer"
+  },
+  {
+   "key": "case063.custody.trash",
+   "value": "Into the bar bin"
+  },
+  {
+   "key": "case063.deschamps.body",
+   "value": "Retired electrician."
+  },
+  {
+   "key": "case063.deschamps.deflect",
+   "value": "I’m retired; I just listen."
+  },
+  {
+   "key": "case063.deschamps.help.answer",
+   "value": "Forty years as an electrician. The man fell; first I had the breaker cut, then chest compressions. But let me tell you: that amp won’t kill anyone with a normal plug. There must have been an adapter in between with the earth cut and the polarity reversed. After he fell I looked at the socket; there was an adapter. Ten minutes later I looked again; it was gone."
+  },
+  {
+   "key": "case063.deschamps.help.answer.demeanor",
+   "value": "He lowers his bifocals to the tip of his nose."
+  },
+  {
+   "key": "case063.deschamps.help.question",
+   "value": "What did you see?"
+  },
+  {
+   "key": "case063.deschamps.title",
+   "value": "Guy Deschamps — interview"
+  },
+  {
+   "key": "case063.epilogue.custody.safe",
+   "value": "It was recorded that the adapter was found in the club owner’s safe."
+  },
+  {
+   "key": "case063.epilogue.custody.sound",
+   "value": "There was no adapter in the sound desk."
+  },
+  {
+   "key": "case063.epilogue.custody.trash",
+   "value": "The bar bin was opened bag by bag."
+  },
+  {
+   "key": "case063.epilogue.verdict.accident",
+   "value": "The death was ruled an accident; Laurentide paid out the two million."
+  },
+  {
+   "key": "case063.epilogue.verdict.adeyemi",
+   "value": "Tunde Adeyemi was arrested; the club reopened the following week."
+  },
+  {
+   "key": "case063.epilogue.verdict.jules",
+   "value": "Jules Baptiste was arrested; the policy paid out."
+  },
+  {
+   "key": "case063.epilogue.verdict.marchand",
+   "value": "Théo Marchand was arrested; the policy was cancelled. Laurentide Réassurance’s ‘artist key person’ programme went into the Mile End branch’s file."
+  },
+  {
+   "key": "case063.evidence.backstage",
+   "value": "Backstage camera"
+  },
+  {
+   "key": "case063.evidence.inspect",
+   "value": "Electrical inspection report"
+  },
+  {
+   "key": "case063.evidence.office",
+   "value": "Club owner’s office search"
+  },
+  {
+   "key": "case063.evidence.stage",
+   "value": "Stage electrics examination"
+  },
+  {
+   "key": "case063.feedback.accident",
+   "value": "The amp’s plug was sound; an adapter had been fitted in between and later removed."
+  },
+  {
+   "key": "case063.feedback.adeyemi",
+   "value": "The sound engineer was at the bar during the interval, and at the soundcheck he had photographed the amp without an adapter."
+  },
+  {
+   "key": "case063.feedback.jules",
+   "value": "The grandson was on stage, and his inheritance is a double bass and rent arrears."
+  },
+  {
+   "key": "case063.feedback.marchand",
+   "value": "The adapter came out of his safe, with his print on it; the camera shows him fitting something small into the socket during the interval and slipping it into his pocket after the commotion. The electrician saw the adapter first and then noticed it had gone. The inspection report doesn’t clear him: he signed it himself."
+  },
+  {
+   "key": "case063.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case063.file.value.bureau",
+   "value": "BDM Montreal — Mile End Branch"
+  },
+  {
+   "key": "case063.file.value.location",
+   "value": "Le Sous-Sol, Boulevard Saint-Laurent, Montreal"
+  },
+  {
+   "key": "case063.file.value.number",
+   "value": "BDM-MTL-2030-0218"
+  },
+  {
+   "key": "case063.file.value.offence",
+   "value": "Suspicious death — electrical"
+  },
+  {
+   "key": "case063.file.value.reporter",
+   "value": "Bartender"
+  },
+  {
+   "key": "case063.inspect.body",
+   "value": "Electrical safety inspection of the Le Sous-Sol club, 6 November 2030:\n\n· Stage earthing: compliant.\n· Extension sockets: compliant.\n· Emergency cut-off: compliant.\n\nInspection carried out by: ‘self-inspection’. Signed: Théo Marchand, owner of the business. A document required for the insurance company’s ‘artist key person’ policy."
+  },
+  {
+   "key": "case063.inspect.title",
+   "value": "ELECTRICAL INSPECTION REPORT"
+  },
+  {
+   "key": "case063.jules.body",
+   "value": "The victim’s grandson."
+  },
+  {
+   "key": "case063.jules.deflect",
+   "value": "My grandfather taught me how to stand on a stage."
+  },
+  {
+   "key": "case063.jules.grand.answer",
+   "value": "Théo had him sign a paper; ‘insurance, for the club,’ he said. My grandfather didn’t read it. Last week a letter came, the policy itself: ‘two million dollars, beneficiary Le Sous-Sol’. My grandfather didn’t laugh. ‘On Monday I’ll talk to Théo; I’ll take my signature back,’ he said. His inheritance comes to me, yes: a double bass and rent arrears."
+  },
+  {
+   "key": "case063.jules.grand.answer.demeanor",
+   "value": "He straightens his loose tie between his fingers."
+  },
+  {
+   "key": "case063.jules.grand.question",
+   "value": "Why had your grandfather been uneasy these last few days?"
+  },
+  {
+   "key": "case063.jules.title",
+   "value": "Jules Baptiste — interview"
+  },
+  {
+   "key": "case063.marchand.body",
+   "value": "Owner of the club."
+  },
+  {
+   "key": "case063.marchand.deflect",
+   "value": "For forty years this club has been the home of Montreal jazz."
+  },
+  {
+   "key": "case063.marchand.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case063.marchand.end.decoy.inspect",
+   "value": "The inspection report is right there: stage earthing compliant. I had everything done. This was an accident."
+  },
+  {
+   "key": "case063.marchand.end.presented.office",
+   "value": "The club was going under. A man from Laurentide said, ‘A key person policy, ideal for older musicians’; I signed the report myself, and the man said, ‘That’ll do.’ On Monday Clifford was going to take back his signature. I fitted the adapter during the interval and had the stand pushed beside the amp. In the commotion I pulled it out. I put it in my safe, because I couldn’t bring myself to throw it away: if I threw it away it would be as if it never happened."
+  },
+  {
+   "key": "case063.marchand.end.question",
+   "value": "You fitted the adapter into the amp’s socket."
+  },
+  {
+   "key": "case063.marchand.night.answer",
+   "value": "I’m the owner; I go everywhere. But at that moment I was at the very back of the room; everyone saw me. Tunde’s cables… how many times did I tell him."
+  },
+  {
+   "key": "case063.marchand.night.answer.demeanor",
+   "value": "He straightens the lapel of his velvet jacket."
+  },
+  {
+   "key": "case063.marchand.night.question",
+   "value": "Did you go backstage during the interval?"
+  },
+  {
+   "key": "case063.marchand.title",
+   "value": "Théo Marchand — interview"
+  },
+  {
+   "key": "case063.method.heart",
+   "value": "He had a heart attack on stage"
+  },
+  {
+   "key": "case063.method.label",
+   "value": "How did he die?"
+  },
+  {
+   "key": "case063.method.shock",
+   "value": "He was electrocuted through an amp and microphone live via an adapter with the earth cut"
+  },
+  {
+   "key": "case063.method.wiring",
+   "value": "The old wiring short-circuited"
+  },
+  {
+   "key": "case063.nowak.body",
+   "value": "Drummer."
+  },
+  {
+   "key": "case063.nowak.deflect",
+   "value": "I was at the back, behind the drums."
+  },
+  {
+   "key": "case063.nowak.set.answer",
+   "value": "Clifford picked up his bass, leaned into the microphone and said, ‘This song’s for Théo,’ as a joke, because he owes money. One hand on the stand, the other on the amp. He made a sound. I leapt out from behind the drums. Théo was at the back of the room at that moment, as far away as you can get."
+  },
+  {
+   "key": "case063.nowak.set.answer.demeanor",
+   "value": "He lines his sticks up side by side on his knee."
+  },
+  {
+   "key": "case063.nowak.set.question",
+   "value": "What happened at the start of the second set?"
+  },
+  {
+   "key": "case063.nowak.title",
+   "value": "Piotr Nowak — interview"
+  },
+  {
+   "key": "case063.offer.subtitle",
+   "value": "LE SOUS-SOL  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case063.offer.summary",
+   "value": "An elderly double bassist was electrocuted on the first note of the second set, in front of seventy people."
+  },
+  {
+   "key": "case063.offer.title",
+   "value": "FILE #063"
+  },
+  {
+   "key": "case063.office.body",
+   "value": "Théo Marchand’s office at the club and his safe (with the branch chief’s approval):\n\n· In the safe, an adapter with its earth pin cut and its polarity reversed; consistent with the mark in the socket and the burn on the amp’s plug, with Théo Marchand’s fingerprint on it.\n· On the desk, a two-million-dollar ‘artist key person’ policy on Clifford Baptiste; reinsured by Laurentide Réassurance.\n· Three months of unpaid payroll."
+  },
+  {
+   "key": "case063.office.title",
+   "value": "CLUB OWNER’S OFFICE — SEARCH"
+  },
+  {
+   "key": "case063.person.adeyemi.info",
+   "value": "39, the club’s sound engineer."
+  },
+  {
+   "key": "case063.person.adeyemi.name",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.person.amara.info",
+   "value": "35, the band’s singer."
+  },
+  {
+   "key": "case063.person.amara.name",
+   "value": "Amara Diallo"
+  },
+  {
+   "key": "case063.person.deschamps.info",
+   "value": "62, retired electrician; a regular at the club."
+  },
+  {
+   "key": "case063.person.deschamps.name",
+   "value": "Guy Deschamps"
+  },
+  {
+   "key": "case063.person.jules.info",
+   "value": "26, the victim’s grandson; the band’s pianist."
+  },
+  {
+   "key": "case063.person.jules.name",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.person.marchand.info",
+   "value": "48, owner of the jazz club."
+  },
+  {
+   "key": "case063.person.marchand.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.person.nowak.info",
+   "value": "44, the band’s drummer."
+  },
+  {
+   "key": "case063.person.nowak.name",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.person.zoe.info",
+   "value": "31, bartender."
+  },
+  {
+   "key": "case063.person.zoe.name",
+   "value": "Zoé Lambert"
+  },
+  {
+   "key": "case063.report.body",
+   "value": "On the night of 13 November 2030, at the Le Sous-Sol jazz club on Boulevard Saint-Laurent, the double bassist Clifford Baptiste (70) was electrocuted on stage at the start of the second set.\n\nOn stage: pianist Jules Baptiste (the victim’s grandson), drummer Piotr Nowak, singer Amara Diallo. The sound engineer Tunde Adeyemi was at the sound desk, the bartender Zoé Lambert at the bar. The club owner Théo Marchand was in the room. The regular Guy Deschamps gave first aid."
+  },
+  {
+   "key": "case063.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case063.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case063.request.inspect",
+   "value": "Request the club’s electrical inspection report"
+  },
+  {
+   "key": "case063.request.office",
+   "value": "Request permission to search the club owner’s office"
+  },
+  {
+   "key": "case063.request.stage",
+   "value": "Request an examination of the stage electrics"
+  },
+  {
+   "key": "case063.stage.body",
+   "value": "· The bass amp’s casing is live: an adapter must have been used between the amp’s plug and the socket; the mark in the socket and the burn on the amp’s plug show this. The adapter isn’t there.\n· The amp’s own plug is sound, its earth pin in place: harmless on its own.\n· The microphone stand is earthed; anyone touching the amp and the stand at the same time completes the circuit."
+  },
+  {
+   "key": "case063.stage.title",
+   "value": "STAGE ELECTRICS EXAMINATION"
+  },
+  {
+   "key": "case063.summary.evidence",
+   "value": "The inspection report was a decoy: it was the owner’s own signature. The electrician told of the adapter, the bartender of the camera, the singer and the drummer of the stand and the joke. The search found the adapter in the safe."
+  },
+  {
+   "key": "case063.summary.lesson",
+   "value": "‘This song’s for Théo.’ The last song really was his."
+  },
+  {
+   "key": "case063.summary.location",
+   "value": "Le Sous-Sol — November 2030"
+  },
+  {
+   "key": "case063.summary.truth",
+   "value": "Théo Marchand, owner of the failing club, had the elderly double bassist Clifford Baptiste sign a paper without reading it: a two-million-dollar ‘key person’ policy, the club as beneficiary; he signed the required inspection report himself. Clifford decided to take back his signature. During the interval Théo fitted an adapter with its earth cut into the amp’s socket, had the microphone stand pushed beside the amp, and in the commotion pulled out the adapter and put it in his safe."
+  },
+  {
+   "key": "case063.suspect.label",
+   "value": "Who killed Clifford Baptiste?"
+  },
+  {
+   "key": "case063.tablet.caseLine",
+   "value": "FILE #063  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case063.time.box",
+   "value": "22.24"
+  },
+  {
+   "key": "case063.time.plug",
+   "value": "22.27"
+  },
+  {
+   "key": "case063.time.pocket",
+   "value": "22.52"
+  },
+  {
+   "key": "case063.time.song",
+   "value": "22.41"
+  },
+  {
+   "key": "case063.title",
+   "value": "File #063 — Le Sous-Sol"
+  },
+  {
+   "key": "case063.verdict.accident",
+   "value": "Nobody — old wiring"
+  },
+  {
+   "key": "case063.verdict.adeyemi",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.verdict.jules",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.verdict.marchand",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.zoe.body",
+   "value": "Bartender."
+  },
+  {
+   "key": "case063.zoe.deflect",
+   "value": "I was at the bar, with my back to the stage."
+  },
+  {
+   "key": "case063.zoe.interval.answer",
+   "value": "During the interval Tunde had a water at the bar and talked to me, ten minutes. The band smoked outside. The boss went backstage; there’s a camera on that corridor, he had it put in because the insurance company asked. One thing: the boss didn’t pay me this month. He didn’t pay anyone."
+  },
+  {
+   "key": "case063.zoe.interval.answer.demeanor",
+   "value": "She winds the string of her apron around her finger."
+  },
+  {
+   "key": "case063.zoe.interval.question",
+   "value": "Who went where during the interval?"
+  },
+  {
+   "key": "case063.zoe.title",
+   "value": "Zoé Lambert — interview"
+  },
+  {
+   "key": "case063.item.adapter.name",
+   "value": "Earth-cutting adapter"
+  },
+  {
+   "key": "case063.item.adapter.detail",
+   "value": "A plug adapter with its earth pin cut and its polarity reversed; it came out of the club owner’s safe."
+  },
+  {
+   "key": "case063.item.inspect.name",
+   "value": "Electrical inspection report"
+  },
+  {
+   "key": "case063.item.inspect.detail",
+   "value": "The club’s electrical inspection report from last week; ‘stage earthing compliant’, signed by the club owner."
+  },
+  {
+   "key": "case063.item.plug.name",
+   "value": "Bass amp plug"
+  },
+  {
+   "key": "case063.item.plug.detail",
+   "value": "The double bass amp’s original plug; no adapter, earth pin intact."
+  }
+ ]
+}

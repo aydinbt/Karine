@@ -1,0 +1,500 @@
+{
+ "entries": [
+  {
+   "key": "case062.aisle.body",
+   "value": "The warehouse’s back aisle. 9 November 22.30 – 23.45."
+  },
+  {
+   "key": "case062.aisle.title",
+   "value": "BACK AISLE CAMERA — log transcript"
+  },
+  {
+   "key": "case062.autopsy.body",
+   "value": "· Cause of death: crushing; multiple fractures.\n· The injuries are consistent with several heavy barrels falling from above at the same time.\n· In her hand, a small rubber mallet, gripped tightly.\n· Time of death: 23.25–23.40."
+  },
+  {
+   "key": "case062.autopsy.title",
+   "value": "AUTOPSY REPORT"
+  },
+  {
+   "key": "case062.cctv.event.lift",
+   "value": "Camera: A forklift with a single, heavily built driver turns in from the far end of the aisle, forks raised."
+  },
+  {
+   "key": "case062.cctv.event.rev",
+   "value": "Camera: The forklift reverses out fast; behind it, dust and toppling barrels."
+  },
+  {
+   "key": "case062.cctv.event.tap",
+   "value": "Camera: A woman with a clipboard walks along the aisle, tapping the barrels one by one with a small mallet."
+  },
+  {
+   "key": "case062.cctv.overlay",
+   "value": "EDE-AIS"
+  },
+  {
+   "key": "case062.cctv.period",
+   "value": "9 November 2030"
+  },
+  {
+   "key": "case062.cctv.source",
+   "value": "Aisle camera"
+  },
+  {
+   "key": "case062.clue.charge",
+   "value": "The operator plugs her own forklift in to charge and leaves."
+  },
+  {
+   "key": "case062.clue.found",
+   "value": "The watchman finds the inspector under the barrels."
+  },
+  {
+   "key": "case062.clue.lift",
+   "value": "The forklift with the heavily built driver turns into the aisle, forks raised."
+  },
+  {
+   "key": "case062.clue.rev",
+   "value": "The forklift reverses out; the barrels topple."
+  },
+  {
+   "key": "case062.clue.source.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.clue.source.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.clue.tap",
+   "value": "The inspector taps the barrels one by one with a mallet."
+  },
+  {
+   "key": "case062.count.body",
+   "value": "October stock count record:\n\n· Total stock: 1,200 barrels, grade A syrup. ‘Complete.’\n· Counted and signed by: foreman Réjean Gauthier.\n· Approved on behalf of the cooperative: Claudette Marceau (on the basis of the record).\n· Request for an inspector’s audit: 2 November, by the cooperative’s president."
+  },
+  {
+   "key": "case062.count.title",
+   "value": "WAREHOUSE STOCK COUNT RECORD"
+  },
+  {
+   "key": "case062.custody.board",
+   "value": "Hung back on the key board"
+  },
+  {
+   "key": "case062.custody.drain",
+   "value": "Into the warehouse’s drain grate"
+  },
+  {
+   "key": "case062.custody.label",
+   "value": "Where did the second forklift’s key go?"
+  },
+  {
+   "key": "case062.custody.visor",
+   "value": "Behind the sun visor of the foreman’s pickup"
+  },
+  {
+   "key": "case062.epilogue.custody.board",
+   "value": "That key wasn’t on the board."
+  },
+  {
+   "key": "case062.epilogue.custody.drain",
+   "value": "The grate was opened; the key wasn’t there."
+  },
+  {
+   "key": "case062.epilogue.custody.visor",
+   "value": "It was recorded that the ignition key was found in the pickup’s sun visor."
+  },
+  {
+   "key": "case062.epilogue.verdict.accident",
+   "value": "The death was ruled a workplace accident; the count record said ‘complete’ once more."
+  },
+  {
+   "key": "case062.epilogue.verdict.fortin",
+   "value": "Kayla Fortin was arrested; row fourteen was restacked."
+  },
+  {
+   "key": "case062.epilogue.verdict.gauthier",
+   "value": "Réjean Gauthier was arrested; a quarter of the warehouse turned out to be water. Laurentide Réassurance’s ‘agricultural reserve’ policy went into the Mile End branch’s file."
+  },
+  {
+   "key": "case062.epilogue.verdict.tran",
+   "value": "Minh Tran was arrested; the key stayed in the sun visor."
+  },
+  {
+   "key": "case062.evidence.aisle",
+   "value": "Back aisle camera"
+  },
+  {
+   "key": "case062.evidence.autopsy",
+   "value": "Autopsy report"
+  },
+  {
+   "key": "case062.evidence.count",
+   "value": "Warehouse stock count record"
+  },
+  {
+   "key": "case062.evidence.truck",
+   "value": "Search of the foreman’s pickup and office"
+  },
+  {
+   "key": "case062.feedback.accident",
+   "value": "The barrels didn’t fall on their own; they were pushed by a forklift with its forks raised."
+  },
+  {
+   "key": "case062.feedback.fortin",
+   "value": "The operator’s forklift was charging at the time; the second forklift’s key isn’t hers."
+  },
+  {
+   "key": "case062.feedback.gauthier",
+   "value": "The second forklift’s key came out of his pickup, with his print on it; the operator’s forklift was charging. The camera shows a single, heavily built driver raising the forks and reversing out. The count record doesn’t clear him: he wrote it."
+  },
+  {
+   "key": "case062.feedback.tran",
+   "value": "The watchman ran over after the noise; he doesn’t know how to drive a forklift, and the camera doesn’t show him."
+  },
+  {
+   "key": "case062.file.caseType",
+   "value": "SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case062.file.value.bureau",
+   "value": "BDM Montreal — Mile End Branch"
+  },
+  {
+   "key": "case062.file.value.location",
+   "value": "Entrepôt des Érablières, Montreal"
+  },
+  {
+   "key": "case062.file.value.number",
+   "value": "BDM-MTL-2030-0212"
+  },
+  {
+   "key": "case062.file.value.offence",
+   "value": "Suspicious death"
+  },
+  {
+   "key": "case062.file.value.reporter",
+   "value": "Night watchman"
+  },
+  {
+   "key": "case062.fortin.body",
+   "value": "Forklift operator."
+  },
+  {
+   "key": "case062.fortin.deflect",
+   "value": "I drive the forklift; I don’t count barrels."
+  },
+  {
+   "key": "case062.fortin.shift.answer",
+   "value": "At nine I plugged it in to charge and left. The foreman keeps the second forklift’s key; he doesn’t give it to anyone. Last month he said, ‘I’ll stack the barrels, don’t you touch them,’ row fourteen. I asked why; ‘grading,’ he said. I didn’t crush anyone. My forklift was charging."
+  },
+  {
+   "key": "case062.fortin.shift.answer.demeanor",
+   "value": "She fiddles with the zip of her vest."
+  },
+  {
+   "key": "case062.fortin.shift.question",
+   "value": "Did you use your forklift this evening?"
+  },
+  {
+   "key": "case062.fortin.title",
+   "value": "Kayla Fortin — interview"
+  },
+  {
+   "key": "case062.gauthier.body",
+   "value": "Foreman."
+  },
+  {
+   "key": "case062.gauthier.deflect",
+   "value": "I’ve run this warehouse for thirty years."
+  },
+  {
+   "key": "case062.gauthier.end.answer",
+   "value": "No."
+  },
+  {
+   "key": "case062.gauthier.end.decoy.count",
+   "value": "The record’s right there: twelve hundred barrels, complete. I counted, the president approved. If I had nothing to hide, why would I kill anyone?"
+  },
+  {
+   "key": "case062.gauthier.end.presented.truck",
+   "value": "Half of row fourteen is water. Six years, a bit every year. A man from Laurentide said, ‘Make sure the stock is complete on paper, we’ll handle the rest’; the premium was paid, the syrup sold. Hélène found the row. I took the second forklift, raised the forks to the top rack and pushed. I put the key in my pickup. Next morning I was going to write ‘complete’ on the count again."
+  },
+  {
+   "key": "case062.gauthier.end.question",
+   "value": "You toppled the barrels onto Hélène."
+  },
+  {
+   "key": "case062.gauthier.night.answer",
+   "value": "I was in the office, paperwork. I told the inspector, ‘The racks are high, it’s dangerous at night’; she didn’t listen. Tapping and tapping at the barrels with her mallet, she shifted the stack and it toppled."
+  },
+  {
+   "key": "case062.gauthier.night.answer.demeanor",
+   "value": "He tugs at his moustache with his lower lip."
+  },
+  {
+   "key": "case062.gauthier.night.question",
+   "value": "Where were you in the warehouse this evening?"
+  },
+  {
+   "key": "case062.gauthier.title",
+   "value": "Réjean Gauthier — interview"
+  },
+  {
+   "key": "case062.leblanc.body",
+   "value": "The victim’s husband."
+  },
+  {
+   "key": "case062.leblanc.deflect",
+   "value": "Hélène didn’t bring her work home."
+  },
+  {
+   "key": "case062.leblanc.notes.answer",
+   "value": "She didn’t tell me things, but last night at dinner she said, ‘The foreman didn’t want to let me into the warehouse at night; I insisted.’ ‘If they’ve emptied half the barrels and filled them with water, the insurance is a lie too,’ she said. I laughed. I shouldn’t have laughed."
+  },
+  {
+   "key": "case062.leblanc.notes.answer.demeanor",
+   "value": "He takes off his glasses and holds them in his palm."
+  },
+  {
+   "key": "case062.leblanc.notes.question",
+   "value": "What did Hélène tell you these last few days?"
+  },
+  {
+   "key": "case062.leblanc.title",
+   "value": "Paul Leblanc — interview"
+  },
+  {
+   "key": "case062.marceau.body",
+   "value": "Cooperative president."
+  },
+  {
+   "key": "case062.marceau.deflect",
+   "value": "The cooperative belongs to four hundred producers."
+  },
+  {
+   "key": "case062.marceau.title",
+   "value": "Claudette Marceau — interview"
+  },
+  {
+   "key": "case062.marceau.why.answer",
+   "value": "There was a syrup on the market below our price, in barrels that looked like ours. The record said ‘complete’, but I told Hélène, ‘Tap them one by one.’ A full syrup barrel gives a dull sound; water is different. This evening she sent me a message: ‘In row fourteen the sounds are wrong.’"
+  },
+  {
+   "key": "case062.marceau.why.answer.demeanor",
+   "value": "She ties the belt of her cardigan tightly."
+  },
+  {
+   "key": "case062.marceau.why.question",
+   "value": "Why did you call in the inspector?"
+  },
+  {
+   "key": "case062.method.forklift",
+   "value": "The barrels on the top rack were pushed onto her with a forklift"
+  },
+  {
+   "key": "case062.method.label",
+   "value": "How did she die?"
+  },
+  {
+   "key": "case062.method.slip",
+   "value": "She fell from a rack"
+  },
+  {
+   "key": "case062.method.topple",
+   "value": "The stack she had been tapping toppled"
+  },
+  {
+   "key": "case062.offer.subtitle",
+   "value": "SYRUP WAREHOUSE  /  SUSPICIOUS DEATH"
+  },
+  {
+   "key": "case062.offer.summary",
+   "value": "A syrup inspector was crushed under toppling barrels; water poured from the burst barrels."
+  },
+  {
+   "key": "case062.offer.title",
+   "value": "FILE #062"
+  },
+  {
+   "key": "case062.person.fortin.info",
+   "value": "29, forklift operator."
+  },
+  {
+   "key": "case062.person.fortin.name",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.person.gauthier.info",
+   "value": "51, foreman of the maple syrup warehouse."
+  },
+  {
+   "key": "case062.person.gauthier.name",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.person.leblanc.info",
+   "value": "60, the victim’s husband."
+  },
+  {
+   "key": "case062.person.leblanc.name",
+   "value": "Paul Leblanc"
+  },
+  {
+   "key": "case062.person.marceau.info",
+   "value": "63, president of the producers’ cooperative."
+  },
+  {
+   "key": "case062.person.marceau.name",
+   "value": "Claudette Marceau"
+  },
+  {
+   "key": "case062.person.tran.info",
+   "value": "46, the warehouse’s night watchman."
+  },
+  {
+   "key": "case062.person.tran.name",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.report.body",
+   "value": "On the night of 9 November 2030, at the Entrepôt des Érablières warehouse north of Montreal, the syrup grading inspector Hélène Côté (58) was found dead under a stack of barrels that had toppled from a high rack. Water poured from two burst barrels.\n\nThe night watchman Minh Tran found the body at 23.40 when he heard the noise. In the warehouse that evening: foreman Réjean Gauthier, forklift operator Kayla Fortin. The cooperative’s president Claudette Marceau and the victim’s husband Paul Leblanc arrived during the night."
+  },
+  {
+   "key": "case062.report.title",
+   "value": "INCIDENT REPORT"
+  },
+  {
+   "key": "case062.request.autopsy",
+   "value": "Request the autopsy report"
+  },
+  {
+   "key": "case062.request.count",
+   "value": "Request the warehouse stock count record"
+  },
+  {
+   "key": "case062.request.truck",
+   "value": "Request permission to search the foreman’s pickup and office"
+  },
+  {
+   "key": "case062.summary.evidence",
+   "value": "The record was a decoy: the signature didn’t clear the foreman, it showed who owned the lie. The watchman, the operator and the camera pointed to the forklift; the president and the husband to the motive. The search found the key in the sun visor."
+  },
+  {
+   "key": "case062.summary.lesson",
+   "value": "The record was complete. The barrels weren’t."
+  },
+  {
+   "key": "case062.summary.location",
+   "value": "Entrepôt des Érablières — November 2030"
+  },
+  {
+   "key": "case062.summary.truth",
+   "value": "For six years the foreman Réjean Gauthier sold the syrup from the barrels in row fourteen and filled them with coloured water; he wrote the count record as ‘complete’ himself, and the insurance premiums were paid as if on real stock. The inspector Hélène Côté, called in by the cooperative, found the row by tapping the barrels with a mallet. Gauthier took the second forklift, pushed the barrels on the top rack onto her and hid the key in his pickup."
+  },
+  {
+   "key": "case062.suspect.label",
+   "value": "Who killed Hélène Côté?"
+  },
+  {
+   "key": "case062.tablet.caseLine",
+   "value": "FILE #062  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case062.time.charge",
+   "value": "21.00"
+  },
+  {
+   "key": "case062.time.found",
+   "value": "23.40"
+  },
+  {
+   "key": "case062.time.lift",
+   "value": "23.27"
+  },
+  {
+   "key": "case062.time.rev",
+   "value": "23.29"
+  },
+  {
+   "key": "case062.time.tap",
+   "value": "23.12"
+  },
+  {
+   "key": "case062.title",
+   "value": "File #062 — Syrup Warehouse"
+  },
+  {
+   "key": "case062.tran.body",
+   "value": "Night watchman."
+  },
+  {
+   "key": "case062.tran.deflect",
+   "value": "At night I’m at the gate."
+  },
+  {
+   "key": "case062.tran.noise.answer",
+   "value": "Around 23.30, the sound of a forklift, then a huge crash. I ran; Kayla’s forklift was in its place, charging. The second forklift was at the end of the aisle, with no ignition key. There’s a camera in the warehouse facing the back aisle; I don’t watch the screen, it records."
+  },
+  {
+   "key": "case062.tran.noise.answer.demeanor",
+   "value": "He straightens his glasses with both hands."
+  },
+  {
+   "key": "case062.tran.noise.question",
+   "value": "What did you hear during the night?"
+  },
+  {
+   "key": "case062.tran.title",
+   "value": "Minh Tran — interview"
+  },
+  {
+   "key": "case062.truck.body",
+   "value": "Réjean Gauthier’s pickup and his office at the warehouse (with the branch chief’s approval):\n\n· Behind the pickup’s sun visor, the second forklift’s ignition key; Réjean Gauthier’s fingerprint and syrup on the key.\n· In the office cupboard, drums of colouring liquid and empty syrup barrel lids.\n· On his phone, to a number at Laurentide Réassurance, 9 November 23.52: ‘The inspector won’t be a problem.’"
+  },
+  {
+   "key": "case062.truck.title",
+   "value": "FOREMAN’S PICKUP AND OFFICE — SEARCH"
+  },
+  {
+   "key": "case062.verdict.accident",
+   "value": "Nobody — the stack toppled"
+  },
+  {
+   "key": "case062.verdict.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.verdict.gauthier",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.verdict.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.item.barrel.name",
+   "value": "Water-filled barrel"
+  },
+  {
+   "key": "case062.item.barrel.detail",
+   "value": "A burst syrup barrel; the liquid inside is coloured water, with only a finger of syrup on top."
+  },
+  {
+   "key": "case062.item.count.name",
+   "value": "Stock count record"
+  },
+  {
+   "key": "case062.item.count.detail",
+   "value": "The warehouse’s monthly count record; ‘1,200 barrels, complete’, the foreman’s signature."
+  },
+  {
+   "key": "case062.item.key.name",
+   "value": "Forklift ignition key"
+  },
+  {
+   "key": "case062.item.key.detail",
+   "value": "The second forklift’s ignition key; it came out from behind the sun visor of the foreman’s pickup."
+  }
+ ]
+}
