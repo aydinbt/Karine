@@ -1,11 +1,22 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 9 Ekim 2026 (misafir bulut kaydı)
+**Son güncelleme:** 9 Ekim 2026 (hesap, bulut kaydı, zorunlu giriş)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
 
-**9 Ekim (gece):** **Misafir de buluta yazıyor.** Firebase anonim kimlik + Firestore (REST); uygulama içinden silme bulutu, kimliği ve cihazı siler; kimlik ayarlarda görünür. Firebase projesi henüz yok: konsol adımları ve KVKK listesi [FIREBASE_AND_KVKK.md](FIREBASE_AND_KVKK.md). Giriş ve açılış metinleri fr/it/es/pt-BR için hazır, diller tam çeviriye kadar gizli. 143 EditMode → `[~]`.
+**9 Ekim (gece):** **Hesap ve bulut kaydı tamamlandı (kod).**
+- **Giriş ekranı zorunlu:** Apple, Google ya da misafirden biri seçilmeden oyuna girilmez. Geri tuşu ekranı geçmez. Seçim bir kez yapılır.
+- **Misafir bulutta:** Firebase anonim kimlik + Firestore (REST).
+- **Yeniden kurulum:** misafir aynı profile döner (iOS Keychain / Android Block Store).
+- **Ne buluta gider:** yalnız kariyer belgesi, yalnız dönüm noktasında (rapor gönderildi, dosya değerlendirildi, rütbe ya da ödül değişti). Vaka içi iz cihazda kalır.
+- **Kariyer kaydına taşınanlar:** lamba ödülleri, jenerik, görülen rütbe, oynama süresi.
+- **Hesap bağlama önerisi:** misafire Dosya #002 kabulünde bir kez çıkar. Ayarlar'da Apple/Google bağlama hep görünür.
+- **Silme:** uygulama içinden; bulutu, kimliği, kalıcı anahtarı ve cihazı siler.
+- **Kota:** 10 bin oyuncu hesabı ve KVKK listesi [FIREBASE_AND_KVKK.md](FIREBASE_AND_KVKK.md) içinde.
+- **Çeviri:** giriş metinleri fr/it/es/pt-BR için hazır; bu diller tam çeviriye kadar gizli.
+- **Sırada (kullanıcıda):** Firebase konsolu → Web API Key + Project ID. Ardından Apple/Google girişi Firebase'e bağlanacak.
+- **Doğrulama:** 143 EditMode + 28 PlayMode geçiyor. Android ve iOS dalları başsız derlendi. **Cihazda ve gerçek Firebase'le denenmedi** → `[~]`.
 
 **9 Ekim (akşam):** **Giriş ve açılış ekranları yeni.** Giriş: yatay maket, yazısız masa arka planı, solda logo ve dönen ifadeler, sağda düz dosya kâğıdı; Apple/Google logoları temsilî. Açılış: Gemini videosu (yağmurlu adsız şehir, Bora) üstünde sırayla KARINE ve Bube Games logoları, yükleme sağ altta; "Made with Unity" kapalı. Başsız PlayMode ekran görüntüleriyle görüldü, cihazda değil. 143 EditMode + 28 PlayMode.
 

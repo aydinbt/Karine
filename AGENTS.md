@@ -36,6 +36,8 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 **İçerik ihlali kapandı (4 Ekim 2026):** gerçek kurum adı gömülü `DeskReference.png` silindi; masa `Bube/Art/OfficeDesk`. Metin denetimi görsellerin içini göremez — yeni görsellerde gözle bakılmalı.
 
+**Hesap ve bulut (9 Ekim 2026):** giriş ekranı zorunlu; misafir Firebase anonim kimlikle (REST, SDK yok) bulutta, yalnız kariyer belgesi ve yalnız dönüm noktasında yazılır; yeniden kurulumda Keychain/Block Store ile aynı profil. Ayrıntı: `Docs/FIREBASE_AND_KVKK.md`. Firebase projesi henüz yok.
+
 **Sıradaki darboğaz:** Masaya varış sinematiği, vaka teklifi ve masa yerleşimi 25 Eylül 2026'da Play Mode'da gözlendi. 4 Ekim 2026'da kullanıcı Dosya #001–#003'ü ve yeni arayüzü Unity'de baştan sona oynadı. Açık kalanlar cihaz testi, reklam hesapları ve yeni vakalardır. Keystore maddesi Faz 2'den Faz 5'e taşındı: geliştirme derlemesini Unity kendi hata ayıklama anahtarıyla imzalar.
 
 ## Testleri koşmak
