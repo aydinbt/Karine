@@ -116,9 +116,25 @@ public static class Accounts {
  // Bulut anahtarı dosya adından türer: "bube-career-v1.json" → "bube-career-v1".
  public static string CloudKey(string file) => Path.GetFileNameWithoutExtension(file).Replace('.', '_');
 
+ // Buluta yalnız kariyer gider: kapanan dosyalar, rütbe, güven, açılan ödüller.
+ // Vakanın içindeki anlık iz (ne okundu, ne soruldu) cihazda kalır; buluta gitmez.
+ public const string CloudPattern = "bube-career-*.json";
+ public static bool CloudKeyAllowed(string key) => key.StartsWith("bube-career-", StringComparison.Ordinal);
+
+ // Buluttakinden yeni ya da bulutta olmayan yerel kayıtlar: açılışta yalnız bunlar yazılır.
+ public static Dictionary<string,string> NewerThan(Dictionary<string,string> cloud) {
+  var result = new Dictionary<string,string>();
+  foreach (var pair in LocalEntries()) {
+   CloudEntry mine = JsonUtility.FromJson<CloudEntry>(pair.Value), theirs = null;
+   if (cloud.TryGetValue(pair.Key, out var raw)) try { theirs = JsonUtility.FromJson<CloudEntry>(raw); } catch {}
+   if (theirs == null || mine.ticks > theirs.ticks) result[pair.Key] = pair.Value;
+  }
+  return result;
+ }
+
  public static Dictionary<string,string> LocalEntries() {
   var entries = new Dictionary<string,string>();
-  foreach (var file in Directory.GetFiles(Root, "bube-*.json")) {
+  foreach (var file in Directory.GetFiles(Root, CloudPattern)) {
    try { entries[CloudKey(file)] = JsonUtility.ToJson(new CloudEntry { ticks = File.GetLastWriteTimeUtc(file).Ticks, json = File.ReadAllText(file) }); }
    catch (Exception e) { Debug.LogWarning("Save could not be read for upload: " + e.Message); }
   }
@@ -131,7 +147,7 @@ public static class Accounts {
   foreach (var pair in cloud) {
    CloudEntry entry;
    try { entry = JsonUtility.FromJson<CloudEntry>(pair.Value); } catch { continue; }
-   if (entry == null || string.IsNullOrEmpty(entry.json) || !pair.Key.StartsWith("bube-")) continue;
+   if (entry == null || string.IsNullOrEmpty(entry.json) || !CloudKeyAllowed(pair.Key)) continue;
    var path = Path.Combine(Root, pair.Key + ".json");
    if (File.Exists(path) && File.GetLastWriteTimeUtc(path).Ticks >= entry.ticks) continue;
    try { File.WriteAllText(path, entry.json); File.SetLastWriteTimeUtc(path, new DateTime(entry.ticks, DateTimeKind.Utc)); written++; }

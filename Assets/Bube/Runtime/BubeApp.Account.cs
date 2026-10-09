@@ -15,7 +15,15 @@ public sealed partial class BubeApp {
   Accounts.Provider.Tick();
   if(cloudDueAt>=0 && Time.unscaledTime>=cloudDueAt){cloudDueAt=-1;Accounts.Provider.Push(Accounts.LocalEntries());}
  }
- void CloudDirty(){ if(Accounts.Provider.CloudReady && cloudDueAt<0)cloudDueAt=Time.unscaledTime+CloudPushDelay; }
+ // Buluta anlık iz yazılmaz: yalnız kariyerde bir dönüm noktası olunca (rapor gönderildi,
+ // dosya değerlendirildi, rütbe ya da ödül değişti) bir kez yazılır.
+ string cloudMark;
+ string CareerMark(){var c=game.Career;return c.reviewHistory.Count+"|"+c.pendingReviews.Count+"|"+c.careerRankId+"|"+c.retired+"|"+c.unlockedLamps.Count;}
+ void CloudDirty(){
+  if(!Accounts.Provider.CloudReady || game?.Career==null)return;
+  var mark=CareerMark();if(mark==cloudMark)return;
+  cloudMark=mark;if(cloudDueAt<0)cloudDueAt=Time.unscaledTime+CloudPushDelay;
+ }
  void FlushCloud(){ if(cloudDueAt>=0){cloudDueAt=-1;Accounts.Provider.Push(Accounts.LocalEntries());} }
 
  void AccountBoot() {
@@ -34,8 +42,21 @@ public sealed partial class BubeApp {
  void PullCloud() {
   Accounts.Provider.PullAll(cloud=>{
    if(Accounts.Merge(cloud)>0)ReloadAccount();
-   Accounts.Provider.Push(Accounts.LocalEntries());
+   var newer=Accounts.NewerThan(cloud);if(newer.Count>0)Accounts.Provider.Push(newer);
   });
+ }
+
+ // Eski sürümler bu ilerlemeyi cihazın ayar deposuna yazıyordu; ilk yüklenen kariyere
+ // bir kez taşınır ve cihazdan silinir ki başka bir hesaba ikinci kez geçmesin.
+ void AdoptDevicePrefs() {
+  var c=game.Career;bool moved=false;
+  if(PlayerPrefs.HasKey(PlayKey)){c.playSeconds=Mathf.Max(c.playSeconds,PlayerPrefs.GetFloat(PlayKey));PlayerPrefs.DeleteKey(PlayKey);moved=true;}
+  if(PlayerPrefs.HasKey(SeenRankKey)){if(string.IsNullOrEmpty(c.seenRank))c.seenRank=PlayerPrefs.GetString(SeenRankKey);PlayerPrefs.DeleteKey(SeenRankKey);moved=true;}
+  if(PlayerPrefs.HasKey(CreditsKey)){c.creditsSeen|=PlayerPrefs.GetInt(CreditsKey)==1;PlayerPrefs.DeleteKey(CreditsKey);moved=true;}
+  for(int i=0;i<KarineTheme.Scene.LampTints.Length;i++) if(PlayerPrefs.HasKey(LampUnlockKey+i)){
+   if(PlayerPrefs.GetInt(LampUnlockKey+i)==1 && !c.unlockedLamps.Contains(i))c.unlockedLamps.Add(i);
+   PlayerPrefs.DeleteKey(LampUnlockKey+i);moved=true;}
+  if(moved)PlayerPrefs.Save();
  }
 
  void ReloadAccount() {

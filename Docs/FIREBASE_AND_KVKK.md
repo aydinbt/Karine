@@ -57,3 +57,27 @@ Kod: `Assets/Bube/Runtime/FirebaseAccountProvider.cs` (SDK yok, REST + `UnityWeb
 - **Google Play › Data safety:** "Uygulama etkinliği / oyun ilerlemesi" ve "Cihaz ya da diğer kimlikler (uygulamaya özel kimlik)" toplanıyor, aktarımda şifreli ve silinebilir. Paylaşım yok.
 - **App Store › App Privacy:** "Identifiers – User ID" ve "Gameplay Content" toplanıyor, uygulama işlevi için kullanılıyor ve takipte kullanılmıyor.
 - **Reklam SDK'sı girince** bu iki formun yeniden doldurulması gerekir.
+
+## Ne yazılır, ne zaman — 10.000 oyuncu hesabı (9 Ekim 2026)
+
+- **Buluta giden tek belge kariyer dosyasıdır** (`bube-career-v1`). İçinde şunlar var: kapanan dosyaların sonucu, güven, rütbe, açılan ödüller ve oynama süresi.
+- **Buluta gitmeyenler:** vakanın içindeki anlık iz (ne okundu, ne soruldu, not defteri) cihazda kalır. Böylece hem veri en aza iner hem yazma sayısı düşük kalır.
+- **Yazma anı:** yalnız dönüm noktalarında belge bir kez yazılır:
+  - rapor gönderildi,
+  - dosya değerlendirildi,
+  - rütbe ya da emeklilik değişti,
+  - ödül açıldı.
+
+  Bu da dosya başına yaklaşık 2 yazma eder. Açılışta yalnız cihazdaki kopya buluttakinden yeniyse yazılır.
+- **Okuma:** her açılışta 1 okuma.
+
+| | Günlük aktif 10.000 oyuncu | Ücretsiz Spark kotası |
+|---|---|---|
+| Okuma (günde 3 açılış) | ~30.000 | 50.000 / gün |
+| Yazma (günde ~2 dosya → ~4) | ~40.000 | 20.000 / gün |
+| Depolama (oyuncu başı ~50 KB'tan az) | ~500 MB | 1 GiB |
+| Anonim giriş | ücretsiz | sınırsız |
+
+- **10.000 indirme, 10.000 günlük oyuncu değildir.** Bu tür oyunlarda günlük oyuncu genelde indirmelerin %20–30'u kadardır, yani 2–3 bin kişi. Bu durumda ücretsiz kota yeter.
+- **Kota aşılırsa (Spark):** o gün bulut durur, oyun cihazdaki kayıtla devam eder. Hiçbir şey kırılmaz, ertesi gün eşitlenir.
+- **Önerilen:** Blaze planına geçip bütçe uyarısı koymak (örneğin 5 $/ay). Kotayı aşan 100.000 yazmanın bedeli yaklaşık 0,18 $; günlük 10.000 aktif oyuncuda bu, ayda 1–2 $ eder.
