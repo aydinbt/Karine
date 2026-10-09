@@ -237,6 +237,16 @@ public static class KarineTheme {
   public static readonly Color Supported=Hex("#3E8E4A");
  }
  // Açılış yüklemesi ve stüdyo imzası.
+ // Giriş ekranı, 9 Ekim 2026 maketi (Docs/Reference/UI_LOGIN_2026-10.webp): solda logo,
+ // sağda ataçlı form, sağ altta stüdyo. Yüzdeler ekran genişliğine göre.
+ public static class Account {
+  public const float LogoWidth=40, LogoLeft=8, PaperLeft=53, PaperWidth=31, PaperTilt=-.6f;
+  public const int LogoPx=600, TaglineSize=22, ButtonHeight=60, ButtonSize=19, BrandIcon=26, OrSize=15, GuestSize=19, PrivacySize=13, StudioHeight=40, Clip=46;
+  // Marka düğmeleri kendi kurallarına uyar (Apple HIG, Google Identity): paletten boyanmaz.
+  public static readonly Color AppleFill=Color.black, AppleText=Color.white;
+  public static readonly Color GoogleFill=Color.white, GoogleEdge=Hex("#747775"), GoogleText=Hex("#1F1F1F");
+  public static readonly Color GuestInk=Hex("#A3261F");
+ }
  public static class Loading {
   public const float MinSeconds=2.4f, TipSeconds=3.2f, TransitSeconds=3.2f, TransitTipSeconds=99f, FadeSeconds=.6f, BarWidth=42f;
   public const int LogoWidth=520, TipSize=18, LabelSize=14, BarHeight=6, StudioHeight=44, StudioTextSize=18;

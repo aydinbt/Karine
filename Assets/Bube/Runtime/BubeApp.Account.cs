@@ -49,14 +49,13 @@ public sealed partial class BubeApp {
  void AccountPaper() {
   var options=new System.Collections.Generic.List<KarineUI.AccountOption>();
   foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
-   if(Accounts.Provider.Supports(kind)){var k=kind;options.Add(new KarineUI.AccountOption(KindIcon(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
-  options.Add(new KarineUI.AccountOption("person",T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();}));
-  KarineUI.AccountPaper(root,T("account.title"),T("account.body"),options,accountNotice,
+   if(Accounts.Provider.Supports(kind)){var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
+  options.Add(new KarineUI.AccountOption(null,T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();}));
+  KarineUI.AccountPaper(root,T("account.tagline"),T("account.or"),options,accountNotice,
    T("account.privacy"),string.IsNullOrEmpty(config.privacyUrl)?null:(Action)OpenPrivacy);
  }
 
  static string Key(AccountKind kind)=>kind.ToString().ToLowerInvariant();
- static string KindIcon(AccountKind kind)=>KarineUI.IconOr(Key(kind),"lock");
 
  void AccountSignIn(AccountKind kind) {
   if(accountBusy)return;accountBusy=true;
