@@ -1,0 +1,636 @@
+{
+ "entries": [
+  {
+   "key": "case039.autopsy.body",
+   "value": "· Un coup profond à bord droit, d’environ 3 cm de large, sur le côté gauche de la tête ; fracture du crâne. Cette plaie présente une réaction vitale des tissus.\n· Très peu de saignement dans les lésions d’écrasement de la poitrine et des jambes ; post-mortem.\n· Heure du décès : 01.50–02.10. Le rayonnage est tombé après la mort."
+  },
+  {
+   "key": "case039.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case039.carter.body",
+   "value": "Agent de sécurité."
+  },
+  {
+   "key": "case039.carter.cam.answer",
+   "value": "Il y a un écran dans la guérite, seize caméras qui défilent. Vers 02.00, je surveillais le camion au portail. Tout le monde dans les allées porte le même gilet ; on ne reconnaît personne à l’écran."
+  },
+  {
+   "key": "case039.carter.cam.answer.demeanor",
+   "value": "Se lisse la barbe du plat de la main."
+  },
+  {
+   "key": "case039.carter.cam.question",
+   "value": "Surveilliez-vous les caméras ?"
+  },
+  {
+   "key": "case039.carter.deflect",
+   "value": "Je surveille le portail, pas les caisses."
+  },
+  {
+   "key": "case039.carter.title",
+   "value": "Dwayne Carter — audition"
+  },
+  {
+   "key": "case039.cctv.event.drive",
+   "value": "Caméra : quelqu’un en gilet fluo engage un chariot élévateur dans l’allée ; les fourches basses, au pied du montant du rayonnage."
+  },
+  {
+   "key": "case039.cctv.event.fall",
+   "value": "Caméra : le long rayonnage penche et bascule, des caisses tombent dans l’allée ; le chariot recule."
+  },
+  {
+   "key": "case039.cctv.event.lying",
+   "value": "Caméra : au bout de l’allée, un chariot élévateur ; à côté, quelqu’un en gilet fluo allongé immobile au sol."
+  },
+  {
+   "key": "case039.cctv.overlay",
+   "value": "AISLE-14"
+  },
+  {
+   "key": "case039.cctv.period",
+   "value": "12 juillet 2030"
+  },
+  {
+   "key": "case039.cctv.source",
+   "value": "Caméra de l’allée"
+  },
+  {
+   "key": "case039.clue.call",
+   "value": "Le chef d’équipe signale l’accident."
+  },
+  {
+   "key": "case039.clue.fall",
+   "value": "Le rayonnage bascule ; le chariot recule."
+  },
+  {
+   "key": "case039.clue.login",
+   "value": "On se connecte au chariot 3 avec le badge SUP-01."
+  },
+  {
+   "key": "case039.clue.lying",
+   "value": "Quelqu’un allongé immobile au sol à côté du chariot."
+  },
+  {
+   "key": "case039.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case039.clue.source.telematics",
+   "value": "Télématique"
+  },
+  {
+   "key": "case039.clue.source.texts",
+   "value": "Messages"
+  },
+  {
+   "key": "case039.clue.t1",
+   "value": "Luis écrit à Novak : « Conteneur 22. »"
+  },
+  {
+   "key": "case039.clue.t2",
+   "value": "Luis écrit à Reyes : « Il m’a appelé au conteneur. »"
+  },
+  {
+   "key": "case039.custody.fatigue",
+   "value": "Les boulons ont lâché par fatigue ; il est tombé seul"
+  },
+  {
+   "key": "case039.custody.hit",
+   "value": "La victime l’a heurté avec le chariot"
+  },
+  {
+   "key": "case039.custody.label",
+   "value": "Comment le rayonnage est-il tombé ?"
+  },
+  {
+   "key": "case039.custody.staged",
+   "value": "Il a été renversé avec un chariot après la mort"
+  },
+  {
+   "key": "case039.dock.body",
+   "value": "Allée 14. 12 juillet 01.30 – 02.30."
+  },
+  {
+   "key": "case039.dock.title",
+   "value": "CAMÉRA DE L’ALLÉE 14 — transcription du relevé"
+  },
+  {
+   "key": "case039.epilogue.custody.fatigue",
+   "value": "Le rapport d’inspection indiquait que les boulons venaient de rompre."
+  },
+  {
+   "key": "case039.epilogue.custody.hit",
+   "value": "La victime était déjà morte ; on s’était connecté au chariot avec un autre badge."
+  },
+  {
+   "key": "case039.epilogue.custody.staged",
+   "value": "Il a été consigné que le rayonnage avait été renversé après la mort, avec les fourches d’un chariot élévateur."
+  },
+  {
+   "key": "case039.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accident du travail ; Lakeshore a payé une amende."
+  },
+  {
+   "key": "case039.epilogue.verdict.hector",
+   "value": "Hector Ortega a été arrêté ; le conteneur 22 est parti le lendemain."
+  },
+  {
+   "key": "case039.epilogue.verdict.kowalski",
+   "value": "Ray Kowalski a été arrêté. Le conteneur 22 a été mis sous scellés : à l’intérieur, quatorze caisses de la Maison Delorme, déclarées comme « pièces de machines ». Les avocats de Lakeshore Freight étaient à l’antenne le lendemain matin."
+  },
+  {
+   "key": "case039.epilogue.verdict.novak",
+   "value": "Teresa Novak a été placée en garde à vue ; le syndicat a appelé à la grève à l’entrepôt, et le dossier a été clos."
+  },
+  {
+   "key": "case039.evidence.inspect",
+   "value": "Inspection de sécurité du travail"
+  },
+  {
+   "key": "case039.evidence.monitor",
+   "value": "Journal du bracelet électronique"
+  },
+  {
+   "key": "case039.evidence.telematics",
+   "value": "Télématique du chariot élévateur"
+  },
+  {
+   "key": "case039.evidence.texts",
+   "value": "Les messages de la victime"
+  },
+  {
+   "key": "case039.feedback.accident",
+   "value": "Le coup à la tête a été porté du vivant, les lésions d’écrasement après la mort ; les boulons ont été rompus par le côté."
+  },
+  {
+   "key": "case039.feedback.hector",
+   "value": "Le frère avait une dette, mais le journal du bracelet le montre à Little Village toute la nuit."
+  },
+  {
+   "key": "case039.feedback.kowalski",
+   "value": "Le dernier message de Luis dit que c’est Ray qui l’a appelé au conteneur ; l’antenne-relais les place tous les deux au même endroit. Après la mort, à 02.09, on s’est connecté au chariot avec son badge, et à 02.12 le rayonnage a été renversé avec les fourches."
+  },
+  {
+   "key": "case039.feedback.novak",
+   "value": "La déléguée syndicale était au quai 7 à ce moment-là ; c’est elle en qui Luis avait confiance."
+  },
+  {
+   "key": "case039.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case039.file.value.bureau",
+   "value": "BDS Chicago — Antenne de Pilsen"
+  },
+  {
+   "key": "case039.file.value.location",
+   "value": "Pilsen, Chicago — entrepôt"
+  },
+  {
+   "key": "case039.file.value.number",
+   "value": "BDC-CHI-2030-0207"
+  },
+  {
+   "key": "case039.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case039.file.value.reporter",
+   "value": "Direction de l’entrepôt"
+  },
+  {
+   "key": "case039.hector.body",
+   "value": "Le frère aîné de la victime."
+  },
+  {
+   "key": "case039.hector.debt.answer",
+   "value": "Trois mille dollars. On s’est battus, la semaine dernière. Mais je ne tuerais pas mon frère. J’ai un bracelet à la cheville ; je ne peux pas sortir de chez moi après 22.00."
+  },
+  {
+   "key": "case039.hector.debt.answer.demeanor",
+   "value": "Couvre de la main le tatouage de son cou."
+  },
+  {
+   "key": "case039.hector.debt.question",
+   "value": "Vous deviez de l’argent à votre frère."
+  },
+  {
+   "key": "case039.hector.deflect",
+   "value": "Parlez à mon agent de probation."
+  },
+  {
+   "key": "case039.hector.title",
+   "value": "Hector Ortega — audition"
+  },
+  {
+   "key": "case039.inspect.body",
+   "value": "Le rayonnage de l’allée 14 :\n\n· Quatre boulons d’ancrage rompus ; les surfaces de rupture brillantes et fraîches, aucun signe de fatigue. Les boulons ont été rompus par une poussée latérale, au niveau du sol.\n· Au pied du montant, deux traces parallèles de raclement de fourches de chariot ; la peinture est le jaune du chariot 3.\n· La charge du rayonnage était sous la limite. Il n’a pas pu tomber seul."
+  },
+  {
+   "key": "case039.inspect.title",
+   "value": "INSPECTION DE SÉCURITÉ DU TRAVAIL"
+  },
+  {
+   "key": "case039.kowalski.body",
+   "value": "Chef d’équipe."
+  },
+  {
+   "key": "case039.kowalski.deflect",
+   "value": "Les procédures de l’entrepôt regardent l’entreprise ; moi, je dirige l’équipe."
+  },
+  {
+   "key": "case039.kowalski.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case039.kowalski.end.presented.telematics",
+   "value": "Mon badge… Il a vu les caisses ; un coup de fil et tout est fini, le boulot est fini. On a parlé près du conteneur, avec le pied-de-biche ; il a dit « bube ». Ensuite… j’ai renversé le rayonnage, avec le chariot. Pour que ça ait l’air d’un accident."
+  },
+  {
+   "key": "case039.kowalski.end.presented.texts",
+   "value": "Les messages de Luis. Tout le monde parle de tout le monde."
+  },
+  {
+   "key": "case039.kowalski.end.question",
+   "value": "Vous conduisiez le chariot 3 à 02.11."
+  },
+  {
+   "key": "case039.kowalski.night.answer",
+   "value": "Au bureau, j’écrivais le rapport d’équipe. J’ai entendu le bruit et j’ai couru. Luis était fatigué, il a heurté le rayonnage avec le chariot, c’est tout. Je l’avais prévenu combien de fois."
+  },
+  {
+   "key": "case039.kowalski.night.answer.demeanor",
+   "value": "Se frotte la nuque."
+  },
+  {
+   "key": "case039.kowalski.night.question",
+   "value": "Où étiez-vous au moment de l’incident ?"
+  },
+  {
+   "key": "case039.kowalski.title",
+   "value": "Ray Kowalski — audition"
+  },
+  {
+   "key": "case039.lindqvist.body",
+   "value": "Inspecteur."
+  },
+  {
+   "key": "case039.lindqvist.deflect",
+   "value": "Mon rapport d’inspection passe par les voies officielles."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer",
+   "value": "J’inspecte des rayonnages depuis trente ans. Celui-ci n’a pas lâché par fatigue ; on l’a poussé. Quelqu’un a appuyé les fourches d’un chariot contre le pied du montant et a rompu les boulons par le côté. Seul quelqu’un qui sait conduire un chariot fait ça."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer.demeanor",
+   "value": "Remonte ses lunettes sur son nez."
+  },
+  {
+   "key": "case039.lindqvist.rack.question",
+   "value": "Un rayonnage peut-il tomber seul ?"
+  },
+  {
+   "key": "case039.lindqvist.title",
+   "value": "Pete Lindqvist — audition"
+  },
+  {
+   "key": "case039.line_ops.body",
+   "value": "Une ligne a été ouverte pour les relevés d’exploitation de l’entrepôt de Lakeshore Freight à Pilsen : télématique des chariots, planning des équipes."
+  },
+  {
+   "key": "case039.line_ops.title",
+   "value": "LIGNE A — EXPLOITATION DE L’ENTREPÔT"
+  },
+  {
+   "key": "case039.line_parole.body",
+   "value": "Une ligne a été ouverte pour le dossier de probation d’Hector Ortega."
+  },
+  {
+   "key": "case039.line_parole.title",
+   "value": "LIGNE C — DOSSIER DE PROBATION"
+  },
+  {
+   "key": "case039.line_phone.body",
+   "value": "Une ligne a été ouverte pour les relevés téléphoniques de la victime et de l’équipe de service."
+  },
+  {
+   "key": "case039.line_phone.title",
+   "value": "LIGNE B — RELEVÉS TÉLÉPHONIQUES"
+  },
+  {
+   "key": "case039.method.bar",
+   "value": "Frappé à la tête avec un pied-de-biche ; le rayonnage a été renversé ensuite"
+  },
+  {
+   "key": "case039.method.crush",
+   "value": "Le rayonnage s’est renversé sur lui"
+  },
+  {
+   "key": "case039.method.forklift",
+   "value": "Heurté par un chariot élévateur"
+  },
+  {
+   "key": "case039.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case039.monitor.body",
+   "value": "Hector Ortega, 11–12 juillet : chez lui à Little Village de 21.48 à 07.10. Aucune interruption du signal."
+  },
+  {
+   "key": "case039.monitor.title",
+   "value": "JOURNAL DU BRACELET ÉLECTRONIQUE"
+  },
+  {
+   "key": "case039.novak.body",
+   "value": "Déléguée syndicale."
+  },
+  {
+   "key": "case039.novak.deflect",
+   "value": "Les dossiers de nos syndiqués sont confidentiels."
+  },
+  {
+   "key": "case039.novak.msg.answer",
+   "value": "Il a écrit à 01.31 dans la nuit. Il venait au syndicat le matin ; il m’a demandé de lui trouver un avocat. J’étais au quai 7, je déchargeais un camion ; j’ai entendu le bruit et j’ai couru."
+  },
+  {
+   "key": "case039.novak.msg.answer.demeanor",
+   "value": "Rejette sa natte par-dessus son épaule."
+  },
+  {
+   "key": "case039.novak.msg.question",
+   "value": "Luis vous a-t-il dit quelque chose ?"
+  },
+  {
+   "key": "case039.novak.title",
+   "value": "Teresa Novak — audition"
+  },
+  {
+   "key": "case039.offer.subtitle",
+   "value": "L’ENTREPÔT  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case039.offer.summary",
+   "value": "À l’entrepôt de Lakeshore Freight à Pilsen, un cariste gît mort sous un rayonnage renversé. Un accident du travail, dit tout le monde."
+  },
+  {
+   "key": "case039.offer.title",
+   "value": "DOSSIER #039"
+  },
+  {
+   "key": "case039.person.carter.info",
+   "value": "47 ans, l’agent de sécurité de nuit de l’entrepôt."
+  },
+  {
+   "key": "case039.person.carter.name",
+   "value": "Dwayne Carter"
+  },
+  {
+   "key": "case039.person.hector.info",
+   "value": "35 ans, le frère aîné de la victime ; en liberté conditionnelle."
+  },
+  {
+   "key": "case039.person.hector.name",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.person.kowalski.info",
+   "value": "54 ans, chef d’équipe de nuit à l’entrepôt de Lakeshore Freight à Pilsen."
+  },
+  {
+   "key": "case039.person.kowalski.name",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.person.lindqvist.info",
+   "value": "62 ans, inspecteur municipal de la sécurité du travail."
+  },
+  {
+   "key": "case039.person.lindqvist.name",
+   "value": "Pete Lindqvist"
+  },
+  {
+   "key": "case039.person.novak.info",
+   "value": "50 ans, déléguée syndicale ; cariste."
+  },
+  {
+   "key": "case039.person.novak.name",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.person.reyes.info",
+   "value": "31 ans, employée aux stocks de l’entrepôt ; la petite amie de la victime."
+  },
+  {
+   "key": "case039.person.reyes.name",
+   "value": "Marisol Reyes"
+  },
+  {
+   "key": "case039.report.body",
+   "value": "La nuit du 12 juillet 2030, à l’entrepôt de Lakeshore Freight à Pilsen, Chicago, le cariste Luis Ortega (29 ans) a été retrouvé mort sous un rayonnage à palettes renversé dans l’allée 14.\n\nLe chef d’équipe l’a signalé à 02.20 comme accident du travail. Dans l’entrepôt pendant l’équipe de nuit : le chef d’équipe Ray Kowalski, l’employée aux stocks Marisol Reyes, l’agent de sécurité Dwayne Carter, la déléguée syndicale Teresa Novak. L’inspecteur municipal de la sécurité du travail Pete Lindqvist est arrivé le matin."
+  },
+  {
+   "key": "case039.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case039.request.inspect",
+   "value": "Demander le rapport d’inspection municipale de la sécurité du travail"
+  },
+  {
+   "key": "case039.request.line_ops",
+   "value": "Ouvrir la ligne exploitation de l’entrepôt"
+  },
+  {
+   "key": "case039.request.line_parole",
+   "value": "Ouvrir la ligne probation"
+  },
+  {
+   "key": "case039.request.line_phone",
+   "value": "Ouvrir la ligne relevés téléphoniques"
+  },
+  {
+   "key": "case039.request.monitor",
+   "value": "Demander le journal du bracelet électronique"
+  },
+  {
+   "key": "case039.request.roster",
+   "value": "Demander le planning des équipes"
+  },
+  {
+   "key": "case039.request.telematics",
+   "value": "Demander la télématique du chariot élévateur"
+  },
+  {
+   "key": "case039.request.texts",
+   "value": "Demander les messages de la victime"
+  },
+  {
+   "key": "case039.request.tower",
+   "value": "Demander le journal de l’antenne-relais"
+  },
+  {
+   "key": "case039.reyes.body",
+   "value": "Employée aux stocks."
+  },
+  {
+   "key": "case039.reyes.deflect",
+   "value": "Les listes d’expédition arrivent chez moi ; au-delà, je ne sais pas."
+  },
+  {
+   "key": "case039.reyes.labels.answer",
+   "value": "Les caisses. Celles de Paris. Ils collaient dessus des étiquettes « pièces de machines », avec des numéros de vente aux enchères en dessous. Elles sont inscrites comme pièces de machines dans mon inventaire aussi. Luis a dit : « Je vais en parler à quelqu’un. »"
+  },
+  {
+   "key": "case039.reyes.labels.answer.demeanor",
+   "value": "Croise les bras sur la poitrine et lève le menton."
+  },
+  {
+   "key": "case039.reyes.labels.question",
+   "value": "De quoi Luis parlait-il ces derniers jours ?"
+  },
+  {
+   "key": "case039.reyes.night.answer",
+   "value": "À la pause de 01.30. Il tapait quelque chose sur son téléphone. Ensuite je suis retournée au bureau, à l’inventaire."
+  },
+  {
+   "key": "case039.reyes.night.question",
+   "value": "Quand l’avez-vous vu pour la dernière fois cette nuit-là ?"
+  },
+  {
+   "key": "case039.reyes.title",
+   "value": "Marisol Reyes — audition"
+  },
+  {
+   "key": "case039.roster.body",
+   "value": "Équipe de nuit, 12 juillet :\n\n· Luis Ortega — quai 4, chariot 3\n· Teresa Novak — quai 7\n· Marisol Reyes — bureau des stocks\n· Ray Kowalski — chef d’équipe ; note : « envoi spécial, conteneur 22 »\n\nConteneur 22 : expéditeur Maison Delorme, Paris. Déclaré comme : pièces de machines."
+  },
+  {
+   "key": "case039.roster.title",
+   "value": "PLANNING DES ÉQUIPES"
+  },
+  {
+   "key": "case039.summary.evidence",
+   "value": "L’autopsie a montré que le coup à la tête avait été porté du vivant et l’écrasement après la mort ; l’inspection que les boulons avaient été rompus par poussée. La ligne exploitation a donné le badge dans le chariot, la ligne téléphonique les derniers messages. La ligne probation n’a fait que disculper le frère."
+  },
+  {
+   "key": "case039.summary.lesson",
+   "value": "Vous pouvez ouvrir deux lignes. Avant d’en ouvrir une, réfléchissez à celle qui changera la réponse."
+  },
+  {
+   "key": "case039.summary.location",
+   "value": "Pilsen — juillet 2030"
+  },
+  {
+   "key": "case039.summary.truth",
+   "value": "Le chef d’équipe Ray Kowalski réétiquetait comme « pièces de machines » les caisses de vente aux enchères venues de Paris. Quand le cariste Luis Ortega a pris des photos et écrit qu’il irait au syndicat, Kowalski l’a appelé au conteneur et l’a tué avec un pied-de-biche. Vingt minutes plus tard, il est monté dans le chariot avec son propre badge, a rompu les boulons du rayonnage avec les fourches et l’a renversé sur le corps."
+  },
+  {
+   "key": "case039.suspect.label",
+   "value": "Qui a tué Luis Ortega ?"
+  },
+  {
+   "key": "case039.tablet.caseLine",
+   "value": "DOSSIER #039  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case039.telematics.body",
+   "value": "Journal des badges et capteurs du chariot 3 :\n\n· 01.12–01.48 sur le badge de Luis Ortega, au quai 4.\n· 02.09 connexion : SUP-01 — Ray Kowalski.\n· 02.11 hauteur des fourches 6 cm, pression vers l’avant ; 02.12 perte soudaine de charge.\n· 02.13 déconnexion ; le chariot sort en marche arrière de l’allée 14."
+  },
+  {
+   "key": "case039.telematics.title",
+   "value": "TÉLÉMATIQUE DU CHARIOT ÉLÉVATEUR — N° 3"
+  },
+  {
+   "key": "case039.texts.body",
+   "value": "· 01.31 → Teresa Novak : « Ray change les étiquettes des caisses de Paris. Conteneur 22. J’ai pris des photos. Je viens au syndicat demain matin, il me faut un avocat. »\n· 01.44 → Marisol Reyes : « Ray m’a appelé au conteneur. S’il arrive quoi que ce soit, les photos sont dans le cloud. »\n· Les photos dans le cloud : des caisses à double étiquette ; l’une avec un numéro de lot d’une vente parisienne."
+  },
+  {
+   "key": "case039.texts.title",
+   "value": "LES MESSAGES DE LUIS ORTEGA"
+  },
+  {
+   "key": "case039.time.call",
+   "value": "02.20"
+  },
+  {
+   "key": "case039.time.drive",
+   "value": "02.11"
+  },
+  {
+   "key": "case039.time.fall",
+   "value": "02.12"
+  },
+  {
+   "key": "case039.time.login",
+   "value": "02.09"
+  },
+  {
+   "key": "case039.time.lying",
+   "value": "02.02"
+  },
+  {
+   "key": "case039.time.t1",
+   "value": "01.31"
+  },
+  {
+   "key": "case039.time.t2",
+   "value": "01.44"
+  },
+  {
+   "key": "case039.title",
+   "value": "Dossier #039 — L’Entrepôt"
+  },
+  {
+   "key": "case039.tower.body",
+   "value": "Cellule intérieure de l’entrepôt, 01.40–02.20 :\n\n· Le téléphone de Luis Ortega immobile après 01.46 ; zone de déchargement des conteneurs.\n· Le téléphone de Ray Kowalski dans la zone de déchargement de 01.45 à 01.58, au bureau après 02.05."
+  },
+  {
+   "key": "case039.tower.title",
+   "value": "JOURNAL DE L’ANTENNE-RELAIS"
+  },
+  {
+   "key": "case039.verdict.accident",
+   "value": "Personne — un accident du travail"
+  },
+  {
+   "key": "case039.verdict.hector",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.verdict.kowalski",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.verdict.novak",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.item.bolts.name",
+   "value": "Boulons d’ancrage rompus"
+  },
+  {
+   "key": "case039.item.bolts.detail",
+   "value": "Les quatre boulons fixant le rayonnage au sol ; les surfaces de rupture brillantes, fraîchement rompues."
+  },
+  {
+   "key": "case039.item.bar.name",
+   "value": "Pied-de-biche"
+  },
+  {
+   "key": "case039.item.bar.detail",
+   "value": "Sur le panneau à outils de la zone de déchargement ; une tache sombre à son extrémité que quelqu’un a tenté de nettoyer."
+  },
+  {
+   "key": "case039.item.labels.name",
+   "value": "Caisse à double étiquette"
+  },
+  {
+   "key": "case039.item.labels.detail",
+   "value": "Sur une caisse, une ancienne étiquette de lot de vente apparaissant sous l’étiquette « pièces de machines »."
+  }
+ ]
+}

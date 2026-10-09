@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case040.autopsy.body",
+   "value": "· Taux élevé de monoxyde de carbone dans le sang ; il était vivant et respirait pendant l’incendie.\n· Une forte dose de zolpidem (un somnifère) dans le sang ; il ne figure pas sur les ordonnances de la victime.\n· Il n’a fait aucune tentative de fuite : il ne s’est jamais levé du fauteuil."
+  },
+  {
+   "key": "case040.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case040.cctv.event.glow",
+   "value": "Caméra : une lumière orange derrière la fenêtre de façade de la maison d’en face ; de la fumée sous l’avant-toit."
+  },
+  {
+   "key": "case040.cctv.event.in",
+   "value": "Caméra : un homme en veste de travail en toile monte les marches de la maison d’en face et entre."
+  },
+  {
+   "key": "case040.cctv.event.out",
+   "value": "Caméra : le même homme ressort vite, tire la porte derrière lui et marche vers un pick-up."
+  },
+  {
+   "key": "case040.cctv.overlay",
+   "value": "DOOR-1"
+  },
+  {
+   "key": "case040.cctv.period",
+   "value": "18–19 juillet 2030"
+  },
+  {
+   "key": "case040.cctv.source",
+   "value": "Caméra de porte"
+  },
+  {
+   "key": "case040.clue.call",
+   "value": "La voisine signale l’incendie."
+  },
+  {
+   "key": "case040.clue.glow",
+   "value": "Une lumière orange à la fenêtre."
+  },
+  {
+   "key": "case040.clue.in",
+   "value": "L’homme en veste de travail entre dans la maison d’en face."
+  },
+  {
+   "key": "case040.clue.out",
+   "value": "Le même homme ressort vite et marche vers le pick-up."
+  },
+  {
+   "key": "case040.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case040.custody.dead",
+   "value": "La pile était déjà à plat"
+  },
+  {
+   "key": "case040.custody.label",
+   "value": "Pourquoi le détecteur de fumée ne s’est-il pas déclenché ?"
+  },
+  {
+   "key": "case040.custody.never",
+   "value": "Le détecteur n’a jamais été installé"
+  },
+  {
+   "key": "case040.custody.removed",
+   "value": "L’assassin a retiré la pile"
+  },
+  {
+   "key": "case040.door.body",
+   "value": "La rue, trottoir d’en face. 18–19 juillet 22.30 – 00.30."
+  },
+  {
+   "key": "case040.door.title",
+   "value": "CAMÉRA DE PORTE DE LA MAISON D’EN FACE — transcription du relevé"
+  },
+  {
+   "key": "case040.duffy.body",
+   "value": "Le gendre de la victime."
+  },
+  {
+   "key": "case040.duffy.deflect",
+   "value": "Les comptes de mon entreprise me regardent."
+  },
+  {
+   "key": "case040.duffy.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case040.duffy.end.presented.policy",
+   "value": "La police d’assurance ? Le père de Megan ; une affaire de famille. J’ai des dettes, oui ; tout le monde en a."
+  },
+  {
+   "key": "case040.duffy.end.presented.prints",
+   "value": "Cent vingt mille dollars. Les bookmakers sont venus à ma porte. Si Walt mourait, l’assurance irait à Megan, et ce qui va à Megan me revient. J’ai mis les cachets dans son whisky et je suis resté assis jusqu’à ce qu’il s’endorme. J’ai retiré la pile, j’ai mis la cigarette entre les journaux et je suis parti. Je me suis dit qu’il ne souffrirait pas s’il se réveillait."
+  },
+  {
+   "key": "case040.duffy.end.question",
+   "value": "Vous avez retiré la pile du détecteur."
+  },
+  {
+   "key": "case040.duffy.night.answer",
+   "value": "J’ai apporté son dîner à Walt et je suis parti vers 22.30. Ensuite j’étais dans un bar de Halsted jusqu’à minuit. On a bu un whisky, c’est tout."
+  },
+  {
+   "key": "case040.duffy.night.answer.demeanor",
+   "value": "Ouvre la fermeture de son blouson et la remonte."
+  },
+  {
+   "key": "case040.duffy.night.question",
+   "value": "Où étiez-vous ce soir-là ?"
+  },
+  {
+   "key": "case040.duffy.night.variant0",
+   "value": "La caméra ? Les heures sont peut-être fausses. D’accord, je suis resté un peu plus longtemps ; on a regardé le match."
+  },
+  {
+   "key": "case040.duffy.title",
+   "value": "Kyle Duffy — audition"
+  },
+  {
+   "key": "case040.epilogue.custody.dead",
+   "value": "La pile était dans la poubelle, et chargée."
+  },
+  {
+   "key": "case040.epilogue.custody.never",
+   "value": "Le détecteur était au plafond ; son compartiment à pile était vide."
+  },
+  {
+   "key": "case040.epilogue.custody.removed",
+   "value": "Il a été consigné que la pile avait été retirée et jetée dans la poubelle de la cuisine."
+  },
+  {
+   "key": "case040.epilogue.verdict.accident",
+   "value": "L’incendie a été jugé accidentel ; l’assurance a payé."
+  },
+  {
+   "key": "case040.epilogue.verdict.duffy",
+   "value": "Kyle Duffy a été arrêté. Le carnet de Walt Brennan a été versé au dossier Lakeshore de bube Chicago."
+  },
+  {
+   "key": "case040.epilogue.verdict.megan",
+   "value": "Megan Brennan a été arrêtée ; trois semaines plus tard, les relevés de l’hôpital l’ont disculpée."
+  },
+  {
+   "key": "case040.epilogue.verdict.okafor",
+   "value": "Grace Okafor a été interrogée ; le dossier a fait fausse route."
+  },
+  {
+   "key": "case040.evidence.door",
+   "value": "Caméra de porte"
+  },
+  {
+   "key": "case040.evidence.policy",
+   "value": "Relevés d’assurance et de dettes"
+  },
+  {
+   "key": "case040.evidence.prints",
+   "value": "Analyse du détecteur et du verre"
+  },
+  {
+   "key": "case040.evidence.waltbook",
+   "value": "Le carnet de Walt"
+  },
+  {
+   "key": "case040.feedback.accident",
+   "value": "La victime ne fumait pas, avait un somnifère non prescrit dans le sang, et le détecteur n’avait pas de pile."
+  },
+  {
+   "key": "case040.feedback.duffy",
+   "value": "La caméra de porte le montre partant non à 22.30 mais à 23.51 ; son empreinte est sur le compartiment à pile du détecteur et sur la pile. Il devait 120 000 $ et deux jours plus tôt avait cherché des somnifères sans ordonnance."
+  },
+  {
+   "key": "case040.feedback.megan",
+   "value": "Elle était la bénéficiaire, mais elle était de garde à l’hôpital toute la nuit."
+  },
+  {
+   "key": "case040.feedback.okafor",
+   "value": "La voisine a signalé l’incendie et a remis sa propre caméra ; elle n’est jamais entrée dans la maison."
+  },
+  {
+   "key": "case040.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case040.file.value.bureau",
+   "value": "BDS Chicago — Antenne de Pilsen"
+  },
+  {
+   "key": "case040.file.value.location",
+   "value": "Bridgeport, Chicago — domicile"
+  },
+  {
+   "key": "case040.file.value.number",
+   "value": "BDC-CHI-2030-0219"
+  },
+  {
+   "key": "case040.file.value.offence",
+   "value": "Mort suspecte / incendie"
+  },
+  {
+   "key": "case040.file.value.reporter",
+   "value": "Pompiers"
+  },
+  {
+   "key": "case040.line_archive.body",
+   "value": "Une ligne a été ouverte pour les papiers récupérés dans la maison de Walt Brennan et ses anciennes demandes de dossiers."
+  },
+  {
+   "key": "case040.line_archive.title",
+   "value": "LIGNE C — LES ANCIENNES ARCHIVES DE POLICE DE LA VICTIME"
+  },
+  {
+   "key": "case040.line_fire.body",
+   "value": "La ligne de laboratoire pour les échantillons prélevés sur le lieu de l’incendie a été ouverte."
+  },
+  {
+   "key": "case040.line_fire.title",
+   "value": "LIGNE A — LABORATOIRE INCENDIE"
+  },
+  {
+   "key": "case040.line_money.body",
+   "value": "Une ligne a été ouverte pour les relevés financiers de la victime et de sa famille."
+  },
+  {
+   "key": "case040.line_money.title",
+   "value": "LIGNE B — RELEVÉS FINANCIERS"
+  },
+  {
+   "key": "case040.megan.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case040.megan.deflect",
+   "value": "Je ne sais rien de l’ancien travail de mon père."
+  },
+  {
+   "key": "case040.megan.kyle.answer",
+   "value": "Kyle lui a apporté son dîner ce soir-là ; il le lui apporte tous les jeudis. Ensuite il a dit qu’il était allé dans un bar."
+  },
+  {
+   "key": "case040.megan.kyle.question",
+   "value": "Comment votre mari s’entendait-il avec votre père ?"
+  },
+  {
+   "key": "case040.megan.night.answer",
+   "value": "À l’hôpital, de garde de nuit, de 19.00 à 07.00. Kyle a appelé et a dit : « La maison de ton père brûle. » Mon père a arrêté de fumer il y a vingt ans. Et des somnifères ? Je suis infirmière ; je ne lui en ai jamais fait prescrire."
+  },
+  {
+   "key": "case040.megan.night.answer.demeanor",
+   "value": "Tire les manches de son gilet sur ses doigts."
+  },
+  {
+   "key": "case040.megan.night.question",
+   "value": "Où étiez-vous cette nuit-là ?"
+  },
+  {
+   "key": "case040.megan.title",
+   "value": "Megan Brennan — audition"
+  },
+  {
+   "key": "case040.method.heart",
+   "value": "Il a fait une crise cardiaque, puis l’incendie"
+  },
+  {
+   "key": "case040.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case040.method.sedate",
+   "value": "On l’a endormi avec un somnifère et on a mis le feu à la maison"
+  },
+  {
+   "key": "case040.method.smoke",
+   "value": "Sa cigarette a déclenché un incendie"
+  },
+  {
+   "key": "case040.offer.subtitle",
+   "value": "L’INCENDIE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case040.offer.summary",
+   "value": "À Bridgeport, un inspecteur de police retraité est mort dans son fauteuil lors d’un incendie nocturne. Il ne fumait plus depuis vingt ans."
+  },
+  {
+   "key": "case040.offer.title",
+   "value": "DOSSIER #040"
+  },
+  {
+   "key": "case040.okafor.body",
+   "value": "Voisine."
+  },
+  {
+   "key": "case040.okafor.deflect",
+   "value": "Je ne dis que ce que j’ai vu."
+  },
+  {
+   "key": "case040.okafor.night.answer",
+   "value": "Il était plus de minuit ; une odeur de fumée. J’ai regardé par la fenêtre, et la vitre de Walt était orange. J’ai appelé. Mon petit-fils m’a installé une caméra de porte ; elle couvre la rue. Regardez ce qu’elle a enregistré."
+  },
+  {
+   "key": "case040.okafor.night.answer.demeanor",
+   "value": "Prend ses lunettes au bout de leur chaînette et les met."
+  },
+  {
+   "key": "case040.okafor.night.question",
+   "value": "Qu’avez-vous vu pendant la nuit ?"
+  },
+  {
+   "key": "case040.okafor.title",
+   "value": "Grace Okafor — audition"
+  },
+  {
+   "key": "case040.okafor.walt.answer",
+   "value": "Il était à la retraite, mais il ne vivait pas comme un retraité. Ces derniers mois, il partait en voiture tous les soirs et surveillait des camions à Pilsen. « Grace, quand j’aurai fini ça, j’écrirai un livre », il disait."
+  },
+  {
+   "key": "case040.okafor.walt.question",
+   "value": "Comment était Walt ?"
+  },
+  {
+   "key": "case040.person.duffy.info",
+   "value": "41 ans, le gendre de la victime ; entrepreneur en bâtiment."
+  },
+  {
+   "key": "case040.person.duffy.name",
+   "value": "Kyle Duffy"
+  },
+  {
+   "key": "case040.person.megan.info",
+   "value": "38 ans, la fille de la victime ; infirmière."
+  },
+  {
+   "key": "case040.person.megan.name",
+   "value": "Megan Brennan"
+  },
+  {
+   "key": "case040.person.okafor.info",
+   "value": "70 ans, la voisine de la victime ; enseignante retraitée."
+  },
+  {
+   "key": "case040.person.okafor.name",
+   "value": "Grace Okafor"
+  },
+  {
+   "key": "case040.person.ramirez.info",
+   "value": "44 ans, enquêtrice incendie des pompiers."
+  },
+  {
+   "key": "case040.person.ramirez.name",
+   "value": "Luz Ramírez"
+  },
+  {
+   "key": "case040.policy.body",
+   "value": "· L’assurance vie de Walt Brennan de 400 000 $ ; bénéficiaire Megan Brennan.\n· Des dettes totalisant 120 000 $ sur trois comptes de paris en ligne au nom de Kyle Duffy ; dernier avertissement de recouvrement le 15 juillet.\n· Une recherche sur le téléphone de Kyle Duffy, 17 juillet : « zolpidem sans ordonnance »."
+  },
+  {
+   "key": "case040.policy.title",
+   "value": "RELEVÉS D’ASSURANCE VIE ET DE DETTES"
+  },
+  {
+   "key": "case040.prints.body",
+   "value": "· Une seule empreinte nette sur le couvercle du compartiment à pile du détecteur de fumée : Kyle Duffy (d’après son dossier de licence d’entrepreneur).\n· La pile, dans la poubelle de la cuisine ; la même empreinte dessus.\n· Résidu au fond du verre de whisky : zolpidem, comprimé écrasé.\n· Mégot de cigarette : aucune salive de la victime."
+  },
+  {
+   "key": "case040.prints.title",
+   "value": "DÉTECTEUR ET VERRE — LABORATOIRE"
+  },
+  {
+   "key": "case040.ramirez.body",
+   "value": "Enquêtrice incendie."
+  },
+  {
+   "key": "case040.ramirez.deflect",
+   "value": "Je ne commente pas avant que le rapport soit terminé."
+  },
+  {
+   "key": "case040.ramirez.origin.answer",
+   "value": "De la table d’appoint près du fauteuil : une cigarette, et la pile de journaux à côté. Mais la cigarette n’était pas dans le cendrier ; elle était glissée entre les journaux. Le détecteur n’avait pas de pile. On peut envoyer le compartiment à pile au labo pour les empreintes."
+  },
+  {
+   "key": "case040.ramirez.origin.answer.demeanor",
+   "value": "Essuie la suie sur sa joue du dos de la main."
+  },
+  {
+   "key": "case040.ramirez.origin.question",
+   "value": "Où l’incendie a-t-il commencé ?"
+  },
+  {
+   "key": "case040.ramirez.title",
+   "value": "Luz Ramírez — audition"
+  },
+  {
+   "key": "case040.report.body",
+   "value": "La nuit du 19 juillet 2030, lors de l’incendie d’une maison mitoyenne à Bridgeport, l’inspecteur de police retraité Walt Brennan (72 ans) a été retrouvé mort dans le fauteuil de son salon.\n\nL’incendie a été signalé à 00.21 par sa voisine Grace Okafor. Les pompiers sont arrivés à 00.29. La fille du propriétaire, Megan Brennan, et son gendre, Kyle Duffy, ont été prévenus la nuit même."
+  },
+  {
+   "key": "case040.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case040.request.line_archive",
+   "value": "Ouvrir la ligne archives de la victime"
+  },
+  {
+   "key": "case040.request.line_fire",
+   "value": "Ouvrir la ligne laboratoire incendie"
+  },
+  {
+   "key": "case040.request.line_money",
+   "value": "Ouvrir la ligne relevés financiers"
+  },
+  {
+   "key": "case040.request.policy",
+   "value": "Demander les relevés d’assurance et de dettes"
+  },
+  {
+   "key": "case040.request.prints",
+   "value": "Demander l’analyse du détecteur et du verre"
+  },
+  {
+   "key": "case040.request.waltbook",
+   "value": "Demander le carnet récupéré"
+  },
+  {
+   "key": "case040.summary.evidence",
+   "value": "L’autopsie a montré que la victime était vivante et endormie dans l’incendie, la caméra de porte l’heure réelle du départ du gendre. La ligne laboratoire a donné l’empreinte sur la pile, la ligne financière la dette. La ligne archives n’a pas donné l’assassin mais le carnet Lakeshore de Walt : le conteneur 22 et « E. »"
+  },
+  {
+   "key": "case040.summary.lesson",
+   "value": "La troisième ligne n’a pas résolu ce dossier. Mais elle changera peut-être le suivant."
+  },
+  {
+   "key": "case040.summary.location",
+   "value": "Bridgeport — juillet 2030"
+  },
+  {
+   "key": "case040.summary.truth",
+   "value": "Kyle Duffy comptait éponger sa dette de paris de 120 000 $ avec l’assurance vie de son beau-père. Au dîner du jeudi, il a mis un somnifère dans le whisky de Walt Brennan, a attendu qu’il s’endorme, a retiré la pile du détecteur et a mis la cigarette entre les journaux. Walt ne s’est jamais réveillé."
+  },
+  {
+   "key": "case040.suspect.label",
+   "value": "Qui a tué Walt Brennan ?"
+  },
+  {
+   "key": "case040.tablet.caseLine",
+   "value": "DOSSIER #040  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case040.time.call",
+   "value": "00.21"
+  },
+  {
+   "key": "case040.time.glow",
+   "value": "00.14"
+  },
+  {
+   "key": "case040.time.in",
+   "value": "23.12"
+  },
+  {
+   "key": "case040.time.out",
+   "value": "23.51"
+  },
+  {
+   "key": "case040.title",
+   "value": "Dossier #040 — L’Incendie"
+  },
+  {
+   "key": "case040.verdict.accident",
+   "value": "Personne — un accident causé par une cigarette"
+  },
+  {
+   "key": "case040.verdict.duffy",
+   "value": "Kyle Duffy"
+  },
+  {
+   "key": "case040.verdict.megan",
+   "value": "Megan Brennan"
+  },
+  {
+   "key": "case040.verdict.okafor",
+   "value": "Grace Okafor"
+  },
+  {
+   "key": "case040.waltbook.body",
+   "value": "Ce qu’on peut lire du bloc-notes à moitié brûlé :\n\n· Mars–juillet : camions de Lakeshore Freight, colonnes de plaques et d’heures ; entrepôt de Pilsen, 01.00–03.00 la nuit.\n· « Conteneur 22 — de Paris. Déclaré : machines. »\n· « Un ancien informateur parle d’un enregistrement vocal. Quelqu’un rend compte à quelqu’un appelé E. »\n· Dernière ligne : « Lundi, porter ça à la nouvelle antenne de Pilsen. »"
+  },
+  {
+   "key": "case040.waltbook.title",
+   "value": "LE CARNET DE WALT"
+  },
+  {
+   "key": "case040.item.detector.name",
+   "value": "Détecteur de fumée"
+  },
+  {
+   "key": "case040.item.detector.detail",
+   "value": "Un détecteur décroché du plafond ; le compartiment à pile vide, de la poudre à empreintes sur le couvercle."
+  },
+  {
+   "key": "case040.item.glass.name",
+   "value": "Verre de whisky"
+  },
+  {
+   "key": "case040.item.glass.detail",
+   "value": "Un verre à fond épais à côté du fauteuil ; un résidu blanc non dissous au fond."
+  },
+  {
+   "key": "case040.item.notebook.name",
+   "value": "Le carnet de Walt"
+  },
+  {
+   "key": "case040.item.notebook.detail",
+   "value": "Un bloc-notes à spirale à moitié brûlé ; des colonnes de plaques et d’heures."
+  }
+ ]
+}
