@@ -1,0 +1,564 @@
+{
+ "entries": [
+  {
+   "key": "case063.adeyemi.body",
+   "value": "Ingénieur du son."
+  },
+  {
+   "key": "case063.adeyemi.deflect",
+   "value": "Mon travail, c’est le son, pas les câbles."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer",
+   "value": "Les câbles du son sont à moi, pas l’électricité. Au soundcheck, l’ampli était branché directement dans la prise, sans adaptateur ; je prends une photo chaque soir, elle est sur mon téléphone. Pendant l’entracte, j’étais au bar ; Zoé le sait. Tout le monde va m’accuser, je le sais."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer.demeanor",
+   "value": "Retire le casque de son cou et le pose sur la table."
+  },
+  {
+   "key": "case063.adeyemi.rig.question",
+   "value": "Les câbles sont-ils sous votre responsabilité ?"
+  },
+  {
+   "key": "case063.adeyemi.title",
+   "value": "Tunde Adeyemi — audition"
+  },
+  {
+   "key": "case063.amara.body",
+   "value": "Chanteuse."
+  },
+  {
+   "key": "case063.amara.deflect",
+   "value": "Je chantais."
+  },
+  {
+   "key": "case063.amara.mic.answer",
+   "value": "Mon micro. J’allais ouvrir le deuxième set, mais Théo a dit : « Laisse Clifford chanter la première chanson, une surprise. » C’est lui qui a poussé le pied de micro à côté de l’ampli, « meilleur son », il a dit. J’y repense maintenant."
+  },
+  {
+   "key": "case063.amara.mic.answer.demeanor",
+   "value": "Retire la pince de ses cheveux et la remet."
+  },
+  {
+   "key": "case063.amara.mic.question",
+   "value": "Ce micro était-il le vôtre ?"
+  },
+  {
+   "key": "case063.amara.title",
+   "value": "Amara Diallo — audition"
+  },
+  {
+   "key": "case063.autopsy.body",
+   "value": "· Cause du décès : arythmie cardiaque due à une électrocution.\n· Brûlure d’entrée sur la paume gauche (pied de micro), brûlure de sortie sur la paume droite (poignée de l’ampli) : le courant est passé d’une main à l’autre, à travers le cœur.\n· Le cœur de la victime était sain pour son âge.\n· Heure du décès : 22.41."
+  },
+  {
+   "key": "case063.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case063.backstage.body",
+   "value": "Couloir des coulisses, armoire de distribution électrique. 13 novembre 22.15 – 23.00."
+  },
+  {
+   "key": "case063.backstage.title",
+   "value": "CAMÉRA DES COULISSES — transcription du relevé"
+  },
+  {
+   "key": "case063.cctv.event.box",
+   "value": "Caméra : Pendant l’entracte, un homme en veste sombre ouvre l’armoire électrique au mur et regarde par-dessus son épaule."
+  },
+  {
+   "key": "case063.cctv.event.plug",
+   "value": "Caméra : Le même homme s’accroupit devant la rallonge au bord de la scène et insère quelque chose de petit entre un gros câble et la prise."
+  },
+  {
+   "key": "case063.cctv.event.pocket",
+   "value": "Caméra : Après l’agitation, le même homme s’accroupit de nouveau devant la même prise et glisse quelque chose de petit dans la poche de sa veste."
+  },
+  {
+   "key": "case063.cctv.overlay",
+   "value": "SS-BACK"
+  },
+  {
+   "key": "case063.cctv.period",
+   "value": "13 novembre 2030"
+  },
+  {
+   "key": "case063.cctv.source",
+   "value": "Caméra des coulisses"
+  },
+  {
+   "key": "case063.clue.box",
+   "value": "L’homme en veste sombre ouvre l’armoire électrique pendant l’entracte."
+  },
+  {
+   "key": "case063.clue.plug",
+   "value": "Le même homme insère quelque chose de petit dans la prise de la scène."
+  },
+  {
+   "key": "case063.clue.pocket",
+   "value": "Après l’agitation, le même homme s’accroupit devant la prise et glisse quelque chose dans sa poche."
+  },
+  {
+   "key": "case063.clue.song",
+   "value": "Clifford se penche vers le micro et dit : « Cette chanson est pour Théo » ; il tombe."
+  },
+  {
+   "key": "case063.clue.source.nowak",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.custody.label",
+   "value": "Où est passé l’adaptateur ?"
+  },
+  {
+   "key": "case063.custody.safe",
+   "value": "Dans le coffre-fort du propriétaire du club"
+  },
+  {
+   "key": "case063.custody.sound",
+   "value": "Dans le tiroir de la console de son"
+  },
+  {
+   "key": "case063.custody.trash",
+   "value": "Dans la poubelle du bar"
+  },
+  {
+   "key": "case063.deschamps.body",
+   "value": "Électricien à la retraite."
+  },
+  {
+   "key": "case063.deschamps.deflect",
+   "value": "Je suis à la retraite ; j’écoute, c’est tout."
+  },
+  {
+   "key": "case063.deschamps.help.answer",
+   "value": "Quarante ans d’électricien. L’homme est tombé ; d’abord j’ai fait couper le disjoncteur, puis massage cardiaque. Mais je vous le dis : cet ampli ne tue personne avec une prise normale. Il a dû y avoir un adaptateur entre les deux, avec la terre coupée et la polarité inversée. Après sa chute, j’ai regardé la prise ; il y avait un adaptateur. Dix minutes plus tard, j’ai regardé de nouveau ; il n’y était plus."
+  },
+  {
+   "key": "case063.deschamps.help.answer.demeanor",
+   "value": "Descend ses lunettes à double foyer au bout de son nez."
+  },
+  {
+   "key": "case063.deschamps.help.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case063.deschamps.title",
+   "value": "Guy Deschamps — audition"
+  },
+  {
+   "key": "case063.epilogue.custody.safe",
+   "value": "Il a été consigné que l’adaptateur avait été retrouvé dans le coffre-fort du propriétaire du club."
+  },
+  {
+   "key": "case063.epilogue.custody.sound",
+   "value": "Il n’y avait pas d’adaptateur dans la console de son."
+  },
+  {
+   "key": "case063.epilogue.custody.trash",
+   "value": "La poubelle du bar a été ouverte sac par sac."
+  },
+  {
+   "key": "case063.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; Laurentide a versé les deux millions."
+  },
+  {
+   "key": "case063.epilogue.verdict.adeyemi",
+   "value": "Tunde Adeyemi a été arrêté ; le club a rouvert la semaine suivante."
+  },
+  {
+   "key": "case063.epilogue.verdict.jules",
+   "value": "Jules Baptiste a été arrêté ; la police a payé."
+  },
+  {
+   "key": "case063.epilogue.verdict.marchand",
+   "value": "Théo Marchand a été arrêté ; la police a été annulée. Le programme « artiste personne clé » de Laurentide Réassurance est entré dans le dossier de l’antenne du Mile End."
+  },
+  {
+   "key": "case063.evidence.backstage",
+   "value": "Caméra des coulisses"
+  },
+  {
+   "key": "case063.evidence.inspect",
+   "value": "Rapport d’inspection électrique"
+  },
+  {
+   "key": "case063.evidence.office",
+   "value": "Fouille du bureau du propriétaire du club"
+  },
+  {
+   "key": "case063.evidence.stage",
+   "value": "Examen de l’électricité de la scène"
+  },
+  {
+   "key": "case063.feedback.accident",
+   "value": "La prise de l’ampli était saine ; un adaptateur avait été inséré entre les deux puis retiré."
+  },
+  {
+   "key": "case063.feedback.adeyemi",
+   "value": "L’ingénieur du son était au bar pendant l’entracte, et au soundcheck il avait photographié l’ampli sans adaptateur."
+  },
+  {
+   "key": "case063.feedback.jules",
+   "value": "Le petit-fils était sur scène, et son héritage, c’est une contrebasse et des arriérés de loyer."
+  },
+  {
+   "key": "case063.feedback.marchand",
+   "value": "L’adaptateur est sorti de son coffre-fort, avec son empreinte ; la caméra le montre insérer quelque chose de petit dans la prise pendant l’entracte et le glisser dans sa poche après l’agitation. L’électricien a d’abord vu l’adaptateur, puis a remarqué qu’il avait disparu. Le rapport d’inspection ne le met pas hors de cause : il l’a signé lui-même."
+  },
+  {
+   "key": "case063.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case063.file.value.bureau",
+   "value": "BDM Montréal — Antenne du Mile End"
+  },
+  {
+   "key": "case063.file.value.location",
+   "value": "Le Sous-Sol, boulevard Saint-Laurent, Montréal"
+  },
+  {
+   "key": "case063.file.value.number",
+   "value": "BDM-MTL-2030-0218"
+  },
+  {
+   "key": "case063.file.value.offence",
+   "value": "Mort suspecte — électrique"
+  },
+  {
+   "key": "case063.file.value.reporter",
+   "value": "Barmaid"
+  },
+  {
+   "key": "case063.inspect.body",
+   "value": "Inspection de sécurité électrique du club Le Sous-Sol, 6 novembre 2030 :\n\n· Mise à la terre de la scène : conforme.\n· Rallonges : conformes.\n· Coupure d’urgence : conforme.\n\nInspection réalisée par : « auto-inspection ». Signé : Théo Marchand, propriétaire de l’établissement. Document exigé pour la police « artiste personne clé » de la compagnie d’assurance."
+  },
+  {
+   "key": "case063.inspect.title",
+   "value": "RAPPORT D’INSPECTION ÉLECTRIQUE"
+  },
+  {
+   "key": "case063.jules.body",
+   "value": "Le petit-fils de la victime."
+  },
+  {
+   "key": "case063.jules.deflect",
+   "value": "Mon grand-père m’a appris à tenir sur une scène."
+  },
+  {
+   "key": "case063.jules.grand.answer",
+   "value": "Théo lui a fait signer un papier ; « une assurance, pour le club », il a dit. Mon grand-père ne l’a pas lu. La semaine dernière, une lettre est arrivée, la police elle-même : « deux millions de dollars, bénéficiaire Le Sous-Sol ». Mon grand-père n’a pas ri. « Lundi je parle à Théo ; je reprends ma signature », il a dit. Son héritage me revient, oui : une contrebasse et des arriérés de loyer."
+  },
+  {
+   "key": "case063.jules.grand.answer.demeanor",
+   "value": "Redresse sa cravate desserrée entre ses doigts."
+  },
+  {
+   "key": "case063.jules.grand.question",
+   "value": "Pourquoi votre grand-père était-il inquiet ces derniers jours ?"
+  },
+  {
+   "key": "case063.jules.title",
+   "value": "Jules Baptiste — audition"
+  },
+  {
+   "key": "case063.marchand.body",
+   "value": "Propriétaire du club."
+  },
+  {
+   "key": "case063.marchand.deflect",
+   "value": "Depuis quarante ans, ce club est la maison du jazz montréalais."
+  },
+  {
+   "key": "case063.marchand.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case063.marchand.end.decoy.inspect",
+   "value": "Le rapport d’inspection est là : mise à la terre de la scène conforme. J’ai tout fait faire. C’était un accident."
+  },
+  {
+   "key": "case063.marchand.end.presented.office",
+   "value": "Le club coulait. Un homme de Laurentide a dit : « Une police personne clé, idéale pour les musiciens âgés » ; j’ai signé le rapport moi-même, et l’homme a dit : « Ça suffira. » Lundi, Clifford allait reprendre sa signature. J’ai inséré l’adaptateur pendant l’entracte et j’ai fait pousser le pied de micro à côté de l’ampli. Dans l’agitation, je l’ai retiré. Je l’ai mis dans mon coffre-fort, parce que je n’ai pas pu me résoudre à le jeter : si je le jetais, ce serait comme si ça n’était jamais arrivé."
+  },
+  {
+   "key": "case063.marchand.end.question",
+   "value": "Vous avez inséré l’adaptateur dans la prise de l’ampli."
+  },
+  {
+   "key": "case063.marchand.night.answer",
+   "value": "Je suis le propriétaire ; je vais partout. Mais à ce moment-là, j’étais tout au fond de la salle ; tout le monde m’a vu. Les câbles de Tunde… combien de fois je le lui ai dit."
+  },
+  {
+   "key": "case063.marchand.night.answer.demeanor",
+   "value": "Redresse le revers de sa veste en velours."
+  },
+  {
+   "key": "case063.marchand.night.question",
+   "value": "Êtes-vous allé dans les coulisses pendant l’entracte ?"
+  },
+  {
+   "key": "case063.marchand.title",
+   "value": "Théo Marchand — audition"
+  },
+  {
+   "key": "case063.method.heart",
+   "value": "Il a fait une crise cardiaque sur scène"
+  },
+  {
+   "key": "case063.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case063.method.shock",
+   "value": "Il a été électrocuté par un ampli et un micro mis sous tension via un adaptateur à la terre coupée"
+  },
+  {
+   "key": "case063.method.wiring",
+   "value": "La vieille installation a fait un court-circuit"
+  },
+  {
+   "key": "case063.nowak.body",
+   "value": "Batteur."
+  },
+  {
+   "key": "case063.nowak.deflect",
+   "value": "J’étais au fond, derrière la batterie."
+  },
+  {
+   "key": "case063.nowak.set.answer",
+   "value": "Clifford a pris sa basse, s’est penché vers le micro et a dit : « Cette chanson est pour Théo », pour rire, parce qu’il doit de l’argent. Une main sur le pied, l’autre sur l’ampli. Il a fait un bruit. J’ai bondi de derrière la batterie. Théo était au fond de la salle à ce moment-là, aussi loin qu’on peut l’être."
+  },
+  {
+   "key": "case063.nowak.set.answer.demeanor",
+   "value": "Aligne ses baguettes côte à côte sur son genou."
+  },
+  {
+   "key": "case063.nowak.set.question",
+   "value": "Que s’est-il passé au début du deuxième set ?"
+  },
+  {
+   "key": "case063.nowak.title",
+   "value": "Piotr Nowak — audition"
+  },
+  {
+   "key": "case063.offer.subtitle",
+   "value": "LE SOUS-SOL  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case063.offer.summary",
+   "value": "Un vieux contrebassiste a été électrocuté sur la première note du deuxième set, devant soixante-dix personnes."
+  },
+  {
+   "key": "case063.offer.title",
+   "value": "DOSSIER #063"
+  },
+  {
+   "key": "case063.office.body",
+   "value": "Le bureau de Théo Marchand au club et son coffre-fort (avec l’accord du chef d’antenne) :\n\n· Dans le coffre-fort, un adaptateur à la broche de terre coupée et à la polarité inversée ; il correspond à la marque dans la prise et à la brûlure sur la prise de l’ampli, avec l’empreinte de Théo Marchand dessus.\n· Sur le bureau, une police « artiste personne clé » de deux millions de dollars sur Clifford Baptiste ; réassurée par Laurentide Réassurance.\n· Trois mois de salaires impayés."
+  },
+  {
+   "key": "case063.office.title",
+   "value": "BUREAU DU PROPRIÉTAIRE DU CLUB — FOUILLE"
+  },
+  {
+   "key": "case063.person.adeyemi.info",
+   "value": "39 ans, l’ingénieur du son du club."
+  },
+  {
+   "key": "case063.person.adeyemi.name",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.person.amara.info",
+   "value": "35 ans, la chanteuse du groupe."
+  },
+  {
+   "key": "case063.person.amara.name",
+   "value": "Amara Diallo"
+  },
+  {
+   "key": "case063.person.deschamps.info",
+   "value": "62 ans, électricien à la retraite ; un habitué du club."
+  },
+  {
+   "key": "case063.person.deschamps.name",
+   "value": "Guy Deschamps"
+  },
+  {
+   "key": "case063.person.jules.info",
+   "value": "26 ans, le petit-fils de la victime ; le pianiste du groupe."
+  },
+  {
+   "key": "case063.person.jules.name",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.person.marchand.info",
+   "value": "48 ans, propriétaire du club de jazz."
+  },
+  {
+   "key": "case063.person.marchand.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.person.nowak.info",
+   "value": "44 ans, le batteur du groupe."
+  },
+  {
+   "key": "case063.person.nowak.name",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.person.zoe.info",
+   "value": "31 ans, barmaid."
+  },
+  {
+   "key": "case063.person.zoe.name",
+   "value": "Zoé Lambert"
+  },
+  {
+   "key": "case063.report.body",
+   "value": "Dans la nuit du 13 novembre 2030, au club de jazz Le Sous-Sol sur le boulevard Saint-Laurent, le contrebassiste Clifford Baptiste (70 ans) a été électrocuté sur scène au début du deuxième set.\n\nSur scène : le pianiste Jules Baptiste (le petit-fils de la victime), le batteur Piotr Nowak, la chanteuse Amara Diallo. L’ingénieur du son Tunde Adeyemi était à la console, la barmaid Zoé Lambert au bar. Le propriétaire du club Théo Marchand était dans la salle. L’habitué Guy Deschamps a donné les premiers secours."
+  },
+  {
+   "key": "case063.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case063.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case063.request.inspect",
+   "value": "Demander le rapport d’inspection électrique du club"
+  },
+  {
+   "key": "case063.request.office",
+   "value": "Demander l’autorisation de fouiller le bureau du propriétaire du club"
+  },
+  {
+   "key": "case063.request.stage",
+   "value": "Demander un examen de l’électricité de la scène"
+  },
+  {
+   "key": "case063.stage.body",
+   "value": "· Le boîtier de l’ampli de basse est sous tension : un adaptateur a dû être utilisé entre la prise de l’ampli et la prise murale ; la marque dans la prise et la brûlure sur la prise de l’ampli le montrent. L’adaptateur n’est pas là.\n· La propre prise de l’ampli est saine, sa broche de terre en place : sans danger en elle-même.\n· Le pied de micro est relié à la terre ; quiconque touche l’ampli et le pied en même temps ferme le circuit."
+  },
+  {
+   "key": "case063.stage.title",
+   "value": "EXAMEN DE L’ÉLECTRICITÉ DE LA SCÈNE"
+  },
+  {
+   "key": "case063.summary.evidence",
+   "value": "Le rapport d’inspection était un leurre : c’était la propre signature du propriétaire. L’électricien a parlé de l’adaptateur, la barmaid de la caméra, la chanteuse et le batteur du pied de micro et de la blague. La fouille a trouvé l’adaptateur dans le coffre-fort."
+  },
+  {
+   "key": "case063.summary.lesson",
+   "value": "« Cette chanson est pour Théo. » La dernière chanson était bien pour lui."
+  },
+  {
+   "key": "case063.summary.location",
+   "value": "Le Sous-Sol — novembre 2030"
+  },
+  {
+   "key": "case063.summary.truth",
+   "value": "Théo Marchand, propriétaire du club en faillite, a fait signer au vieux contrebassiste Clifford Baptiste un papier sans qu’il le lise : une police « personne clé » de deux millions de dollars, le club comme bénéficiaire ; il a signé lui-même le rapport d’inspection exigé. Clifford a décidé de reprendre sa signature. Pendant l’entracte, Théo a inséré un adaptateur à la terre coupée dans la prise de l’ampli, a fait pousser le pied de micro à côté de l’ampli et, dans l’agitation, a retiré l’adaptateur et l’a mis dans son coffre-fort."
+  },
+  {
+   "key": "case063.suspect.label",
+   "value": "Qui a tué Clifford Baptiste ?"
+  },
+  {
+   "key": "case063.tablet.caseLine",
+   "value": "DOSSIER #063  /  BUBE MONTRÉAL — MILE END"
+  },
+  {
+   "key": "case063.time.box",
+   "value": "22.24"
+  },
+  {
+   "key": "case063.time.plug",
+   "value": "22.27"
+  },
+  {
+   "key": "case063.time.pocket",
+   "value": "22.52"
+  },
+  {
+   "key": "case063.time.song",
+   "value": "22.41"
+  },
+  {
+   "key": "case063.title",
+   "value": "Dossier #063 — Le Sous-Sol"
+  },
+  {
+   "key": "case063.verdict.accident",
+   "value": "Personne — une vieille installation"
+  },
+  {
+   "key": "case063.verdict.adeyemi",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.verdict.jules",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.verdict.marchand",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.zoe.body",
+   "value": "Barmaid."
+  },
+  {
+   "key": "case063.zoe.deflect",
+   "value": "J’étais au bar, dos à la scène."
+  },
+  {
+   "key": "case063.zoe.interval.answer",
+   "value": "Pendant l’entracte, Tunde a pris une eau au bar et m’a parlé, dix minutes. Le groupe fumait dehors. Le patron est allé dans les coulisses ; il y a une caméra dans ce couloir, il l’a fait installer parce que la compagnie d’assurance l’a demandé. Une chose : le patron ne m’a pas payée ce mois-ci. Il n’a payé personne."
+  },
+  {
+   "key": "case063.zoe.interval.answer.demeanor",
+   "value": "Enroule le cordon de son tablier autour de son doigt."
+  },
+  {
+   "key": "case063.zoe.interval.question",
+   "value": "Qui est allé où pendant l’entracte ?"
+  },
+  {
+   "key": "case063.zoe.title",
+   "value": "Zoé Lambert — audition"
+  },
+  {
+   "key": "case063.item.adapter.name",
+   "value": "Adaptateur coupe-terre"
+  },
+  {
+   "key": "case063.item.adapter.detail",
+   "value": "Un adaptateur de prise à la broche de terre coupée et à la polarité inversée ; il est sorti du coffre-fort du propriétaire du club."
+  },
+  {
+   "key": "case063.item.inspect.name",
+   "value": "Rapport d’inspection électrique"
+  },
+  {
+   "key": "case063.item.inspect.detail",
+   "value": "Le rapport d’inspection électrique du club de la semaine dernière ; « mise à la terre de la scène conforme », signé par le propriétaire du club."
+  },
+  {
+   "key": "case063.item.plug.name",
+   "value": "Prise de l’ampli de basse"
+  },
+  {
+   "key": "case063.item.plug.detail",
+   "value": "La prise d’origine de l’ampli de contrebasse ; pas d’adaptateur, broche de terre intacte."
+  }
+ ]
+}

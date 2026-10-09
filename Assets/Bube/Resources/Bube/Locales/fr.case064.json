@@ -1,0 +1,424 @@
+{
+ "entries": [
+  {
+   "key": "case064.autopsy.body",
+   "value": "· Cause du décès : hypothermie et étouffement ; de la neige tassée dans la bouche et le nez.\n· Un large hématome plat sur la poitrine, compatible avec le bord d’un godet de chargeuse. Côtes cassées.\n· Aucune blessure de la souffleuse : la machine s’est arrêtée avant d’atteindre le corps.\n· Heure du décès : 00.45–01.30."
+  },
+  {
+   "key": "case064.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case064.clue.found",
+   "value": "Le conducteur de la souffleuse voit l’écharpe rouge dans le banc de neige."
+  },
+  {
+   "key": "case064.clue.photo",
+   "value": "La tablette de l’inspectrice photographie la chargeuse et son conducteur dans la ruelle."
+  },
+  {
+   "key": "case064.clue.radio",
+   "value": "Le patron dit à la radio : « Je suis au dépôt ; je charge du sel avec la chargeuse. »"
+  },
+  {
+   "key": "case064.clue.source.depot",
+   "value": "Fouille du dépôt"
+  },
+  {
+   "key": "case064.clue.source.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.clue.source.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.custody.label",
+   "value": "Où est passée la tablette de l’inspectrice ?"
+  },
+  {
+   "key": "case064.custody.salt",
+   "value": "Dans le tas du dôme à sel de l’entreprise"
+  },
+  {
+   "key": "case064.custody.snow",
+   "value": "Au dépôt à neige"
+  },
+  {
+   "key": "case064.custody.truck",
+   "value": "Dans le pick-up du patron"
+  },
+  {
+   "key": "case064.depot.body",
+   "value": "Le dépôt de l’entreprise, le dôme à sel et la Chargeuse 2 (avec l’accord du chef d’antenne) :\n\n· Dans le tas du dôme à sel, la tablette municipale d’Isabelle Moreau ; l’empreinte de Serge Paquette sur son étui.\n· Sur le siège conducteur de la Chargeuse 2, des fibres de laine rouge correspondant à l’écharpe de la victime. Le module GPS de la chargeuse a été retiré ; il est dans le sac à outils.\n· La dernière photo de la tablette, 00.52 : la Chargeuse 2 dans la ruelle, un homme en parka verte au siège conducteur."
+  },
+  {
+   "key": "case064.depot.title",
+   "value": "DÉPÔT DE L’ENTREPRISE ET CHARGEUSE — FOUILLE"
+  },
+  {
+   "key": "case064.epilogue.custody.salt",
+   "value": "Il a été consigné que la tablette avait été retrouvée dans le dôme à sel."
+  },
+  {
+   "key": "case064.epilogue.custody.snow",
+   "value": "La tablette n’était pas au dépôt à neige."
+  },
+  {
+   "key": "case064.epilogue.custody.truck",
+   "value": "Il n’y avait pas de tablette dans le pick-up."
+  },
+  {
+   "key": "case064.epilogue.verdict.accident",
+   "value": "Le décès a été jugé comme un accident de tempête ; Laurentide a payé la garantie au titre de « force majeure »."
+  },
+  {
+   "key": "case064.epilogue.verdict.oneill",
+   "value": "Ryan O’Neill a été arrêté ; la chargeuse a retravaillé à la tempête suivante."
+  },
+  {
+   "key": "case064.epilogue.verdict.paquette",
+   "value": "Serge Paquette a été arrêté ; les factures gonflées ont été signalées à la ville. Les garanties d’appels d’offres de Laurentide Réassurance sont entrées dans le dossier de l’antenne du Mile End."
+  },
+  {
+   "key": "case064.epilogue.verdict.yusra",
+   "value": "Yusra Haddadi a été arrêtée ; la tablette est restée dans le sel."
+  },
+  {
+   "key": "case064.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case064.evidence.depot",
+   "value": "Fouille du dépôt et de la chargeuse"
+  },
+  {
+   "key": "case064.evidence.gps",
+   "value": "Journal GPS de la flotte"
+  },
+  {
+   "key": "case064.evidence.oneill",
+   "value": "Déclaration du conducteur de la souffleuse"
+  },
+  {
+   "key": "case064.feedback.accident",
+   "value": "L’hématome sur la poitrine est compatible avec un godet de chargeuse, et aucune chargeuse n’était affectée à cette rue."
+  },
+  {
+   "key": "case064.feedback.oneill",
+   "value": "Le conducteur de la souffleuse est entré dans la ruelle à 01.50, après le décès ; sa machine s’est arrêtée avant d’atteindre le corps."
+  },
+  {
+   "key": "case064.feedback.paquette",
+   "value": "La tablette de l’inspectrice est sortie de son dôme à sel, avec son empreinte ; la dernière photo de la tablette montre la chargeuse sans GPS dans la ruelle et son conducteur en parka verte. Le journal GPS ne le met pas hors de cause : c’est son pick-up qui est resté au dépôt, pas lui."
+  },
+  {
+   "key": "case064.feedback.yusra",
+   "value": "La répartitrice était devant son écran toute la nuit."
+  },
+  {
+   "key": "case064.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case064.file.value.bureau",
+   "value": "BDM Montréal — Antenne du Mile End"
+  },
+  {
+   "key": "case064.file.value.location",
+   "value": "Derrière la rue Waverly, Mile End, Montréal"
+  },
+  {
+   "key": "case064.file.value.number",
+   "value": "BDM-MTL-2030-0224"
+  },
+  {
+   "key": "case064.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case064.file.value.reporter",
+   "value": "Conducteur d’engin"
+  },
+  {
+   "key": "case064.gps.body",
+   "value": "Journal GPS de l’entreprise pour la nuit du 16 au 17 novembre :\n\n· Souffleuse 3 (Ryan O’Neill) : circuit Waverly, 01.50 entre dans la ruelle.\n· Camions 7 et 9 : allers-retours au dépôt à neige.\n· Pick-up de Serge Paquette : 00.30–02.00 au dépôt, stationné.\n· Chargeuse 2 : pas de signal (panne enregistrée le 12 octobre)."
+  },
+  {
+   "key": "case064.gps.title",
+   "value": "JOURNAL GPS DE LA FLOTTE"
+  },
+  {
+   "key": "case064.lachance.audit.answer",
+   "value": "Les factures de l’entreprise comparées aux chargements réels des camions. Depuis trois ans, quarante pour cent de la neige facturée n’a jamais été transportée. Cette nuit-là, dans la tempête, Isabelle allait sur le terrain compter les camions elle-même ; « sans prévenir Paquette », elle a dit. Sa tablette enregistrait tout, photos, plaques. La tablette n’a pas été retrouvée, n’est-ce pas ?"
+  },
+  {
+   "key": "case064.lachance.audit.answer.demeanor",
+   "value": "Enroule son écharpe autour de son cou à deux mains."
+  },
+  {
+   "key": "case064.lachance.audit.question",
+   "value": "Qu’est-ce qu’Isabelle vérifiait ?"
+  },
+  {
+   "key": "case064.lachance.body",
+   "value": "Inspectrice de la ville."
+  },
+  {
+   "key": "case064.lachance.deflect",
+   "value": "On est inspecteurs ; on n’aime personne."
+  },
+  {
+   "key": "case064.lachance.title",
+   "value": "Martine Lachance — audition"
+  },
+  {
+   "key": "case064.method.blower",
+   "value": "Une souffleuse l’a heurtée"
+  },
+  {
+   "key": "case064.method.cold",
+   "value": "Elle est morte de froid dans la tempête"
+  },
+  {
+   "key": "case064.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case064.method.loader",
+   "value": "Elle a été poussée avec un godet de chargeuse et ensevelie dans un banc de neige"
+  },
+  {
+   "key": "case064.offer.subtitle",
+   "value": "TEMPÊTE DE NEIGE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case064.offer.summary",
+   "value": "Une inspectrice de la ville a été retrouvée dans un banc de neige, dans une ruelle, une nuit de tempête."
+  },
+  {
+   "key": "case064.offer.title",
+   "value": "DOSSIER #064"
+  },
+  {
+   "key": "case064.oneill.body",
+   "value": "Conducteur de souffleuse."
+  },
+  {
+   "key": "case064.oneill.deflect",
+   "value": "Je conduis la machine, rue par rue."
+  },
+  {
+   "key": "case064.oneill.found.answer",
+   "value": "Le banc était plus haut que la normale, comme si quelqu’un avait rassemblé la neige de la rue au même endroit. Une chargeuse était passée avant moi ; il y avait des traces. Mais aucune chargeuse n’était affectée à cette rue ; ce n’est pas sur l’écran de répartition. J’ai vu le rouge, j’ai arrêté la machine. Une seconde de plus…"
+  },
+  {
+   "key": "case064.oneill.found.answer.demeanor",
+   "value": "Chasse la neige de sa barbe avec son gant."
+  },
+  {
+   "key": "case064.oneill.found.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case064.oneill.title",
+   "value": "Ryan O’Neill — audition"
+  },
+  {
+   "key": "case064.paquette.body",
+   "value": "Propriétaire de l’entreprise de déneigement."
+  },
+  {
+   "key": "case064.paquette.deflect",
+   "value": "Je déneige cette ville depuis trente ans."
+  },
+  {
+   "key": "case064.paquette.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case064.paquette.end.decoy.gps",
+   "value": "Regardez le GPS : mon pick-up était au dépôt de minuit et demi à deux heures. Je n’en suis jamais parti."
+  },
+  {
+   "key": "case064.paquette.end.presented.depot",
+   "value": "Mon pick-up était au dépôt, pas moi. Le GPS de la chargeuse, je l’ai enlevé moi-même le mois dernier. Isabelle photographiait les camions dans la ruelle ; je me suis arrêté à côté d’elle avec la chargeuse et j’ai dit : « Parlons » ; elle n’a pas voulu donner sa tablette. Je l’ai poussée avec le godet et j’ai empilé la neige sur elle. J’ai enfoui la tablette dans le tas de sel. La garantie de Laurentide aurait payé au titre de « tempête, force majeure » de toute façon ; tout le monde l’aurait dit."
+  },
+  {
+   "key": "case064.paquette.end.question",
+   "value": "Vous avez enseveli Isabelle dans le banc de neige avec la chargeuse."
+  },
+  {
+   "key": "case064.paquette.night.answer",
+   "value": "Au dépôt, à charger du sel. Une nuit de tempête, le patron ne reste pas assis à un bureau. Qu’est-ce qu’une inspectrice faisait dans une ruelle en pleine tempête ? On se tient à côté d’un banc de neige et ces choses-là arrivent."
+  },
+  {
+   "key": "case064.paquette.night.answer.demeanor",
+   "value": "Soulève l’oreillette de sa tuque et la rabaisse."
+  },
+  {
+   "key": "case064.paquette.night.question",
+   "value": "Où étiez-vous pendant la nuit ?"
+  },
+  {
+   "key": "case064.paquette.title",
+   "value": "Serge Paquette — audition"
+  },
+  {
+   "key": "case064.person.lachance.info",
+   "value": "45 ans, inspectrice de la ville ; la collègue de la victime."
+  },
+  {
+   "key": "case064.person.lachance.name",
+   "value": "Martine Lachance"
+  },
+  {
+   "key": "case064.person.oneill.info",
+   "value": "34 ans, conducteur de souffleuse."
+  },
+  {
+   "key": "case064.person.oneill.name",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.person.paquette.info",
+   "value": "57 ans, propriétaire de l’entreprise de déneigement."
+  },
+  {
+   "key": "case064.person.paquette.name",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.person.yusra.info",
+   "value": "28 ans, la répartitrice de nuit de l’entreprise."
+  },
+  {
+   "key": "case064.person.yusra.name",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.report.body",
+   "value": "Dans la nuit du 17 novembre 2030, au Mile End, dans la ruelle derrière la rue Waverly, l’inspectrice du déneigement de la ville Isabelle Moreau (49 ans) a été retrouvée morte dans un banc de neige.\n\nLe conducteur de souffleuse Ryan O’Neill a trouvé le corps à 02.10 quand, en soufflant le banc dans un camion, il a vu une écharpe rouge. Le propriétaire de l’entreprise de déneigement, Serge Paquette, et la répartitrice Yusra Haddadi étaient de service cette nuit-là. La collègue de l’inspectrice, Martine Lachance, est arrivée le matin."
+  },
+  {
+   "key": "case064.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case064.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case064.request.depot",
+   "value": "Demander l’autorisation de fouiller le dépôt et la chargeuse de l’entreprise"
+  },
+  {
+   "key": "case064.request.gps",
+   "value": "Demander le journal GPS de la flotte"
+  },
+  {
+   "key": "case064.summary.evidence",
+   "value": "Le journal GPS était un leurre : c’est le pick-up qui est resté au dépôt, pas l’homme. La répartitrice a parlé de la chargeuse sans signal, le conducteur de la souffleuse des traces d’une chargeuse non affectée. La fouille a trouvé la tablette et sa dernière photo."
+  },
+  {
+   "key": "case064.summary.lesson",
+   "value": "Le GPS disait juste : le pick-up n’a jamais bougé."
+  },
+  {
+   "key": "case064.summary.location",
+   "value": "Mile End — novembre 2030"
+  },
+  {
+   "key": "case064.summary.truth",
+   "value": "Depuis trois ans, Serge Paquette, propriétaire de l’entreprise de déneigement, facturait à la ville de la neige jamais transportée. La nuit de la tempête, l’inspectrice Isabelle Moreau est sortie compter les camions elle-même. Paquette a laissé son pick-up au dépôt et est allé dans la ruelle avec la chargeuse dont il avait retiré le GPS, a poussé Isabelle avec le godet, l’a ensevelie sous la neige et a enfoui sa tablette dans le dôme à sel."
+  },
+  {
+   "key": "case064.suspect.label",
+   "value": "Qui a tué Isabelle Moreau ?"
+  },
+  {
+   "key": "case064.tablet.caseLine",
+   "value": "DOSSIER #064  /  BUBE MONTRÉAL — MILE END"
+  },
+  {
+   "key": "case064.time.found",
+   "value": "02.10"
+  },
+  {
+   "key": "case064.time.photo",
+   "value": "00.52"
+  },
+  {
+   "key": "case064.time.radio",
+   "value": "00.30"
+  },
+  {
+   "key": "case064.title",
+   "value": "Dossier #064 — Tempête de neige"
+  },
+  {
+   "key": "case064.verdict.accident",
+   "value": "Personne — ensevelie par la neige dans la tempête"
+  },
+  {
+   "key": "case064.verdict.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.verdict.paquette",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.verdict.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.yusra.body",
+   "value": "Répartitrice de nuit."
+  },
+  {
+   "key": "case064.yusra.deflect",
+   "value": "Je regarde l’écran."
+  },
+  {
+   "key": "case064.yusra.screen.answer",
+   "value": "Sur mon écran, il y a les camions, les souffleuses, le pick-up du patron. La petite chargeuse n’est pas sur l’écran ; son GPS est « tombé en panne » le mois dernier ; le patron a dit : « Je le fais réparer », et il ne l’a pas fait. À 00.30, le patron a dit à la radio : « Je suis au dépôt ; je charge du sel avec la chargeuse. » Une heure plus tard, il est revenu ; il n’y avait pas de sel dans le godet."
+  },
+  {
+   "key": "case064.yusra.screen.answer.demeanor",
+   "value": "Ajuste le casque autour de son cou."
+  },
+  {
+   "key": "case064.yusra.screen.question",
+   "value": "Quels véhicules ont travaillé où pendant la nuit ?"
+  },
+  {
+   "key": "case064.yusra.title",
+   "value": "Yusra Haddadi — audition"
+  },
+  {
+   "key": "case064.item.tablet.name",
+   "value": "La tablette de l’inspectrice"
+  },
+  {
+   "key": "case064.item.tablet.detail",
+   "value": "La tablette municipale d’Isabelle Moreau ; elle est sortie du tas de sel de l’entrepôt à sel de l’entreprise."
+  },
+  {
+   "key": "case064.item.gps.name",
+   "value": "Journal GPS de la flotte"
+  },
+  {
+   "key": "case064.item.gps.detail",
+   "value": "Le journal GPS de nuit de l’entreprise ; le pick-up du propriétaire « stationné » au dépôt de 00.30 à 02.00."
+  },
+  {
+   "key": "case064.item.loader.name",
+   "value": "Coussin du siège de la chargeuse"
+  },
+  {
+   "key": "case064.item.loader.detail",
+   "value": "Le siège conducteur de la petite chargeuse de l’entreprise ; des fibres de laine rouge de l’écharpe d’Isabelle sur le coussin."
+  }
+ ]
+}
