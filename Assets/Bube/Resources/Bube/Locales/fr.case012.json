@@ -1,0 +1,1036 @@
+{
+ "entries": [
+  {
+   "key": "case012.adebayo.body",
+   "value": "Déposition du conducteur du bus."
+  },
+  {
+   "key": "case012.adebayo.camera.answer",
+   "value": "Je ne sais pas. L’étage était noir sur l’écran ; c’était comme ça depuis quelques jours. Je l’ai dit au dépôt. Tout le monde le leur dit ; personne ne regarde."
+  },
+  {
+   "key": "case012.adebayo.camera.question",
+   "value": "Pourquoi la caméra de l’étage n’a-t-elle pas enregistré ?"
+  },
+  {
+   "key": "case012.adebayo.deflect",
+   "value": "Je regarde la route. L’étage ne se voit même pas dans le rétroviseur."
+  },
+  {
+   "key": "case012.adebayo.kieran.answer",
+   "value": "Le gars à la casquette rouge. Il était ivre en montant ; il a regardé en haut, a marmonné quelque chose et est resté en bas. Il est descendu quelques arrêts plus loin, je crois ; je ne suis pas sûr. Je ne peux pas compter tous ceux qui descendent."
+  },
+  {
+   "key": "case012.adebayo.kieran.question",
+   "value": "Vous souvenez-vous de Kieran Doyle ?"
+  },
+  {
+   "key": "case012.adebayo.night.answer",
+   "value": "Il pleuvait ; le bus était à moitié vide. Depuis Bricklayers, l’hôpital, puis quelques arrêts… Une femme a crié en haut et j’ai appuyé sur le bouton. Je me suis arrêté à Canal Bridge et j’ai ouvert les portes. C’est la règle ; je ne peux retenir personne à l’intérieur."
+  },
+  {
+   "key": "case012.adebayo.night.question",
+   "value": "Pouvez-vous décrire ce trajet ?"
+  },
+  {
+   "key": "case012.adebayo.quote",
+   "value": "« Je ne peux retenir personne à l’intérieur. »"
+  },
+  {
+   "key": "case012.adebayo.runner.answer",
+   "value": "Quelqu’un a jailli par la porte arrière. En capuche, un sac sur le dos. Je l’ai vu une seconde dans le rétroviseur ; pas de visage. Disparu dans la pluie."
+  },
+  {
+   "key": "case012.adebayo.runner.question",
+   "value": "Qui est descendu du bus ?"
+  },
+  {
+   "key": "case012.adebayo.title",
+   "value": "Adebayo Bello — audition"
+  },
+  {
+   "key": "case012.bank.body",
+   "value": "Titulaire du compte : Liam Carter · carte ·4417 (sans contact).\n\n15 mars · 18.22 · supermarché · 14,60 £\n16 mars · 12.05 · pharmacie · 6,10 £\n17 mars · 01.31 · RIVERSIDE TRANSIT · 1,75 £\n17 mars · 02.40 · épicerie de nuit, Walworth · 3,20 £"
+  },
+  {
+   "key": "case012.bank.title",
+   "value": "OPÉRATIONS BANCAIRES — LIAM CARTER"
+  },
+  {
+   "key": "case012.cabinet.body",
+   "value": "Journal de la serrure à carte, 1er février – 16 mars 2029. Seuls les jours où un écart d’inventaire a été signalé :\n\n22 février · 03.14 · carte : Helen Shaw · morphine −2\n2 mars · 02.51 · carte : Helen Shaw · morphine −3\n8 mars · 03.40 · carte : Helen Shaw · morphine −2\n14 mars · 02.58 · carte : Helen Shaw · morphine −4\n\nAucun autre accès par carte ces jours-là. Aucun journal n’était tenu avant février."
+  },
+  {
+   "key": "case012.cabinet.title",
+   "value": "JOURNAL D’ACCÈS À L’ARMOIRE À PHARMACIE — RÉSERVE DE NUIT"
+  },
+  {
+   "key": "case012.camlog.body",
+   "value": "14 mars · note après le nettoyage de nuit : « Ruban isolant noir sur l’objectif de la caméra arrière de l’étage. Signalé. »\n15 mars · dépôt : ordre de travail ouvert, faible priorité.\n16 mars · rapport du conducteur : écran de l’étage noir.\n17 mars · ordre de travail toujours ouvert.\n\nOn ignore quand le ruban a été collé. Nettoyage précédent : 11 mars ; la caméra était propre."
+  },
+  {
+   "key": "case012.camlog.title",
+   "value": "JOURNAL D’ENTRETIEN DES CAMÉRAS — N219, VÉHICULE 4471"
+  },
+  {
+   "key": "case012.cctv.event.ambulance",
+   "value": "Caméra 02 : une ambulance s’arrête derrière le bus. L’équipe monte à l’étage."
+  },
+  {
+   "key": "case012.cctv.event.bus_pass",
+   "value": "Caméra 02 : un bus à impériale passe sans s’approcher de l’arrêt. Un autre véhicule de la même ligne, en sens inverse."
+  },
+  {
+   "key": "case012.cctv.event.bus_stop",
+   "value": "Caméra 02 : un bus à impériale s’arrête brusquement à l’arrêt ; feux de détresse allumés."
+  },
+  {
+   "key": "case012.cctv.event.runner",
+   "value": "Caméra 02 : dès que la porte arrière s’ouvre, quelqu’un en capuche s’enfuit en courant. Sur le dos, un sac avec une bande qui brille sous le réverbère. Le visage est indiscernable. Disparaît sous le pont, vers le chemin du canal."
+  },
+  {
+   "key": "case012.cctv.overlay",
+   "value": "CAM 02"
+  },
+  {
+   "key": "case012.cctv.period",
+   "value": "17 mars 2029, 01.20 – 02.10"
+  },
+  {
+   "key": "case012.cctv.source",
+   "value": "Caméra de rue de Canal Bridge"
+  },
+  {
+   "key": "case012.clue.alarm",
+   "value": "Le conducteur appuie sur le bouton d’urgence."
+  },
+  {
+   "key": "case012.clue.bank",
+   "value": "Paiement Riverside Transit avec la carte ·4417 de Liam."
+  },
+  {
+   "key": "case012.clue.death",
+   "value": "Owen meurt."
+  },
+  {
+   "key": "case012.clue.fight",
+   "value": "Une bagarre entre Owen et Kieran au kebab."
+  },
+  {
+   "key": "case012.clue.k_n63",
+   "value": "La carte de Kieran est validée à Dun Cow sur le N63, en sens inverse."
+  },
+  {
+   "key": "case012.clue.l_claim",
+   "value": "Liam dit avoir été chez lui toute la nuit et ne pas avoir pris le bus."
+  },
+  {
+   "key": "case012.clue.o_out",
+   "value": "Owen termine son service."
+  },
+  {
+   "key": "case012.clue.source.bank",
+   "value": "Opérations bancaires de Liam Carter"
+  },
+  {
+   "key": "case012.clue.source.death",
+   "value": "Avis de l’hôpital"
+  },
+  {
+   "key": "case012.clue.source.fight",
+   "value": "Procès-verbal d’incident"
+  },
+  {
+   "key": "case012.clue.source.helen",
+   "value": "Helen Shaw"
+  },
+  {
+   "key": "case012.clue.source.kieran_card",
+   "value": "Relevé de carte de Kieran Doyle"
+  },
+  {
+   "key": "case012.clue.source.lphone",
+   "value": "Relevé téléphonique de Liam Carter"
+  },
+  {
+   "key": "case012.clue.source.ophone",
+   "value": "Téléphone d’Owen Marsh"
+  },
+  {
+   "key": "case012.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case012.clue.source.taps",
+   "value": "Journal des validations du N219"
+  },
+  {
+   "key": "case012.clue.street_runner",
+   "value": "Quelqu’un avec un sac à bande s’enfuit par la porte arrière."
+  },
+  {
+   "key": "case012.clue.tap4417",
+   "value": "Bricklayers : la carte bancaire sans contact ·4417 est validée."
+  },
+  {
+   "key": "case012.clue.tap5562",
+   "value": "Arrêt de l’hôpital : Tidecard ·5562."
+  },
+  {
+   "key": "case012.clue.tap6119",
+   "value": "Old Kent Rd : Tidecard ·6119."
+  },
+  {
+   "key": "case012.custody.helen",
+   "value": "Helen Shaw — a poussé Liam pour couvrir son propre vol"
+  },
+  {
+   "key": "case012.custody.kieran",
+   "value": "Kieran Doyle — a agi avec Liam"
+  },
+  {
+   "key": "case012.custody.label",
+   "value": "Quelqu’un d’autre est-il responsable de la mort ?"
+  },
+  {
+   "key": "case012.custody.none",
+   "value": "Personne — Liam a décidé seul"
+  },
+  {
+   "key": "case012.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case012.death.body",
+   "value": "17 mars 2029, 14.20.\n\nOwen Marsh est décédé en soins intensifs. Cause du décès : hémorragie cérébrale consécutive au traumatisme crânien.\n\nLa qualification du dossier passe de violences graves à homicide volontaire.\n\nPièce jointe : liste de remise des effets personnels — portefeuille, Tidecard ·5562, badge de l’hôpital avec cordon, porte-clés, téléphone portable (écran fêlé). Les effets sont à la consigne de l’antenne."
+  },
+  {
+   "key": "case012.death.title",
+   "value": "AVIS DE L’HÔPITAL — OWEN MARSH"
+  },
+  {
+   "key": "case012.discipline.body",
+   "value": "Hôpital St. Clement, 9 février 2029.\n\nObjet : un manque de 14 ampoules de morphine dans l’armoire à pharmacie de la réserve de nuit au cours de janvier.\nSignalé par : O. Marsh (brancardier), par l’intermédiaire de la superviseure H. Shaw.\nFondement : feuilles d’inventaire remises par H. Shaw ; les manques coïncident avec les services de Carter.\nDéclaration de Carter : « Je n’ai jamais ouvert l’armoire ; je n’ai pas de clé. »\nDécision : licenciement pour perte de confiance. Aucune plainte n’a été déposée auprès de la police.\n\nNote : la serrure à carte de l’armoire doit être remplacée en mars ; un journal d’accès est tenu depuis février."
+  },
+  {
+   "key": "case012.discipline.title",
+   "value": "DOSSIER DISCIPLINAIRE — LIAM CARTER"
+  },
+  {
+   "key": "case012.epilogue.custody.helen",
+   "value": "Helen Shaw a été arrêtée pour incitation et vol de stupéfiants. Le journal d’accès à l’armoire et le brouillon non envoyé d’Owen sont devenus l’ossature du dossier. Le licenciement de Liam Carter en février a été annulé ; il était alors jugé pour un autre crime."
+  },
+  {
+   "key": "case012.epilogue.custody.kieran",
+   "value": "Aucun lien n’a été trouvé entre Kieran et Liam ; l’accusation est tombée. Helen Shaw a continué à travailler à l’hôpital ; une semaine plus tard, le fax signalait un nouvel écart d’inventaire."
+  },
+  {
+   "key": "case012.epilogue.custody.none",
+   "value": "Liam a été jugé comme seul coupable. Helen Shaw est restée à l’hôpital ; une semaine plus tard, un nouvel écart d’inventaire a été signalé dans la réserve de nuit."
+  },
+  {
+   "key": "case012.epilogue.custody.unknown",
+   "value": "Ce que « quelqu’un avait dit » à Liam cette nuit-là est resté ouvert dans le dossier."
+  },
+  {
+   "key": "case012.epilogue.verdict.adebayo",
+   "value": "Les soupçons portés sur le conducteur ont fait réagir le syndicat ; l’antenne a adressé une lettre d’excuses."
+  },
+  {
+   "key": "case012.epilogue.verdict.kieran",
+   "value": "Kieran Doyle a été placé en garde à vue ; le relevé de carte entre les mains de son avocat a fait tomber le dossier dès la première audience. Personne n’a cherché le titulaire de la carte ·4417."
+  },
+  {
+   "key": "case012.epilogue.verdict.liam",
+   "value": "Liam Carter a été arrêté pour le meurtre d’Owen Marsh. Au procès, il a décrit l’appel d’Helen Shaw ; sa défense a présenté l’incitation comme circonstance atténuante."
+  },
+  {
+   "key": "case012.epilogue.verdict.undetermined",
+   "value": "Le dossier est resté non élucidé. Les écarts d’inventaire à l’hôpital ont continué."
+  },
+  {
+   "key": "case012.evidence.bank",
+   "value": "Journal des validations et opérations bancaires (·4417)"
+  },
+  {
+   "key": "case012.evidence.camlog",
+   "value": "Journal d’entretien des caméras"
+  },
+  {
+   "key": "case012.evidence.fight",
+   "value": "Procès-verbal de la bagarre au kebab"
+  },
+  {
+   "key": "case012.evidence.kieran_card",
+   "value": "Relevé de carte de Kieran Doyle"
+  },
+  {
+   "key": "case012.evidence.street",
+   "value": "Caméra de rue de Canal Bridge"
+  },
+  {
+   "key": "case012.feedback.adebayo",
+   "value": "Le conducteur était dans sa cabine ; il a appuyé sur le bouton d’urgence et arrêté le bus. Il n’est pas monté à l’étage."
+  },
+  {
+   "key": "case012.feedback.kieran",
+   "value": "La bagarre était réelle, mais la carte de Kieran a été validée à 01.44 à Dun Cow sur le N63 en sens inverse ; l’agression a eu lieu à 01.47, à trois arrêts de Canal Bridge. L’agresseur était monté à l’étage avant Owen."
+  },
+  {
+   "key": "case012.feedback.liam",
+   "value": "La carte ·4417 validée à Bricklayers à 01.31 dans le journal des validations apparaît à la même minute dans les opérations bancaires de Liam. Nadia a dit que l’agresseur était monté avant Owen ; Kieran est monté après et, à 01.44, il était dans un autre bus. À la fin, Liam a lui-même décrit la montée et l’antivol."
+  },
+  {
+   "key": "case012.feedback.undetermined",
+   "value": "Le journal des validations, les opérations bancaires et la déposition du témoin désignaient l’agresseur par son nom."
+  },
+  {
+   "key": "case012.fight.body",
+   "value": "Une bagarre entre deux hommes devant un kebab. Parties : Owen Marsh (38 ans) et Kieran Doyle (24 ans). Cause : une dispute dans la file d’attente. Doyle légèrement sous l’emprise de l’alcool. Aucun blessé. Les parties ont été averties et relâchées ; aucune n’a souhaité porter plainte.\n\nNote de l’agent : « Marsh était calme ; il a dit “Je suis en retard pour mon service” et il est parti à pied vers l’hôpital. »"
+  },
+  {
+   "key": "case012.fight.title",
+   "value": "PROCÈS-VERBAL D’INCIDENT — OLD KENT ROAD, 16 MARS 21.40"
+  },
+  {
+   "key": "case012.file.caseType",
+   "value": "VIOLENCES GRAVES"
+  },
+  {
+   "key": "case012.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case012.file.value.location",
+   "value": "Bus de nuit N219, Old Kent Road — Canal Bridge"
+  },
+  {
+   "key": "case012.file.value.number",
+   "value": "BDS-LDN-2029-0057"
+  },
+  {
+   "key": "case012.file.value.offence",
+   "value": "Violences graves"
+  },
+  {
+   "key": "case012.file.value.reporter",
+   "value": "Adebayo Bello, conducteur de bus"
+  },
+  {
+   "key": "case012.helen.body",
+   "value": "Avec la superviseure de la victime."
+  },
+  {
+   "key": "case012.helen.deflect",
+   "value": "Il faudrait en parler à la direction de l’hôpital."
+  },
+  {
+   "key": "case012.helen.feb.answer",
+   "value": "Il y a eu un incident en février. Des écarts d’inventaire dans l’armoire à pharmacie. Owen a remarqué quelqu’un et est venu me voir ; j’ai transmis à la direction. Un brancardier, Liam Carter, a été licencié. Liam n’a jamais pardonné à Owen."
+  },
+  {
+   "key": "case012.helen.feb.answer.demeanor",
+   "value": "Joint les mains sur la table."
+  },
+  {
+   "key": "case012.helen.feb.question",
+   "value": "Quelqu’un avait-il un problème avec Owen ?"
+  },
+  {
+   "key": "case012.helen.owen.answer",
+   "value": "Méticuleux. Trop méticuleux parfois. Il ne rate jamais un inventaire, et il ne laisse personne en rater un. Je n’arrive pas à y croire."
+  },
+  {
+   "key": "case012.helen.owen.answer.demeanor",
+   "value": "Essaie de garder la voix posée."
+  },
+  {
+   "key": "case012.helen.owen.question",
+   "value": "Comment est Owen Marsh ?"
+  },
+  {
+   "key": "case012.helen.quote",
+   "value": "« Il ne rate jamais un inventaire. »"
+  },
+  {
+   "key": "case012.helen.route.answer",
+   "value": "Tout le monde le sait. Ils ont fait le même service pendant trois ans."
+  },
+  {
+   "key": "case012.helen.route.question",
+   "value": "Liam savait-il à quelle heure Owen finissait ?"
+  },
+  {
+   "key": "case012.helen.shift.answer",
+   "value": "Il est parti à une heure vingt. Il courait pour attraper son bus habituel. L’arrêt est juste devant l’hôpital."
+  },
+  {
+   "key": "case012.helen.shift.question",
+   "value": "Comment s’est terminé son service cette nuit-là ?"
+  },
+  {
+   "key": "case012.helen.title",
+   "value": "Helen Shaw — audition"
+  },
+  {
+   "key": "case012.helen_2.body",
+   "value": "Sur le téléphone d’Owen."
+  },
+  {
+   "key": "case012.helen_2.cabinet.answer",
+   "value": "Les superviseurs et l’infirmière de nuit responsable. Il y a une serrure à carte maintenant. La direction garde les journaux."
+  },
+  {
+   "key": "case012.helen_2.cabinet.question",
+   "value": "Qui a accès à l’armoire à pharmacie ?"
+  },
+  {
+   "key": "case012.helen_2.draft.answer",
+   "value": "Owen était très fatigué ces dernières semaines. Il confondait les inventaires. Il m’a appelée, oui ; je l’ai calmé. J’ai dit : « Regardons ça avant que tu ailles voir le directeur. » C’est tout."
+  },
+  {
+   "key": "case012.helen_2.draft.answer.demeanor",
+   "value": "Sourit ; le sourire n’atteint pas les yeux."
+  },
+  {
+   "key": "case012.helen_2.draft.question",
+   "value": "Que voulait vous dire Owen ?"
+  },
+  {
+   "key": "case012.helen_2.liam.answer",
+   "value": "Non. Pourquoi ? J’ai eu un rôle dans son licenciement ; il me déteste."
+  },
+  {
+   "key": "case012.helen_2.liam.question",
+   "value": "Avez-vous été en contact avec Liam Carter récemment ?"
+  },
+  {
+   "key": "case012.helen_2.title",
+   "value": "Helen Shaw — seconde audition"
+  },
+  {
+   "key": "case012.helen_3.body",
+   "value": "Sur le relevé téléphonique et le journal d’accès."
+  },
+  {
+   "key": "case012.helen_3.call.answer",
+   "value": "…J’ai appelé. Pour le prévenir. Je lui ai dit qu’Owen allait de nouveau à la police, qu’il donnerait son nom. Pour qu’il soit prêt. Je ne lui ai pas dit de lui faire quoi que ce soit. Jamais."
+  },
+  {
+   "key": "case012.helen_3.call.answer.demeanor",
+   "value": "La voix tremble pour la première fois."
+  },
+  {
+   "key": "case012.helen_3.call.question",
+   "value": "Pouvez-vous décrire l’appel du soir du 15 mars ?"
+  },
+  {
+   "key": "case012.helen_3.morph.answer",
+   "value": "La carte est à moi, oui. Quelqu’un d’autre a pu l’utiliser. Je ne dirai plus rien avant l’arrivée de mon avocat."
+  },
+  {
+   "key": "case012.helen_3.morph.question",
+   "value": "Les journaux de l’armoire montrent votre carte."
+  },
+  {
+   "key": "case012.helen_3.title",
+   "value": "Helen Shaw — troisième audition"
+  },
+  {
+   "key": "case012.helen_3.why.answer",
+   "value": "Parce que… Owen se trompait. Je… Je veux mon avocat."
+  },
+  {
+   "key": "case012.helen_3.why.answer.demeanor",
+   "value": "Regarde le papier sur la table, se lève, se rassoit."
+  },
+  {
+   "key": "case012.helen_3.why.question",
+   "value": "D’après le brouillon d’Owen, ce n’était pas Liam. Pourquoi ne l’avez-vous pas dit à Liam ?"
+  },
+  {
+   "key": "case012.hospital.body",
+   "value": "17 mars 2029, 06.30.\n\n· Un seul traumatisme contondant sévère de la région occipitale (arrière de la tête). Le bord de la plaie est étroit et long ; compatible avec un objet métallique cylindrique.\n· Aucune blessure de défense sur les bras ou les mains. Le coup est venu de derrière, par surprise.\n· Pas d’alcool dans le sang.\n· Le patient est intubé, en soins intensifs. Inconscient."
+  },
+  {
+   "key": "case012.hospital.title",
+   "value": "NOTE D’INFORMATION DE L’HÔPITAL — OWEN MARSH"
+  },
+  {
+   "key": "case012.kieran.body",
+   "value": "Déposition du jeune homme impliqué dans la bagarre."
+  },
+  {
+   "key": "case012.kieran.bus.answer",
+   "value": "C’est le seul bus pour rentrer ! Je suis monté, je l’ai vu en haut, j’ai dit un truc et je suis resté en bas. Puis je suis descendu. Je ne l’ai pas touché."
+  },
+  {
+   "key": "case012.kieran.bus.question",
+   "value": "Pourquoi êtes-vous monté dans le même bus ?"
+  },
+  {
+   "key": "case012.kieran.deflect",
+   "value": "J’en sais rien, mec ; je rentrais chez moi."
+  },
+  {
+   "key": "case012.kieran.fight.answer",
+   "value": "Au kebab, pour la file. Il m’a bousculé l’épaule, et j’ai dit ce qui me passait par la tête. Deux coups de poing, c’est tout. Puis la police est arrivée et nous a séparés."
+  },
+  {
+   "key": "case012.kieran.fight.answer.demeanor",
+   "value": "Croise les bras."
+  },
+  {
+   "key": "case012.kieran.fight.question",
+   "value": "Que s’est-il passé avec Owen Marsh ?"
+  },
+  {
+   "key": "case012.kieran.quote",
+   "value": "« Je ne l’ai pas touché. »"
+  },
+  {
+   "key": "case012.kieran.title",
+   "value": "Kieran Doyle — audition"
+  },
+  {
+   "key": "case012.kieran.where.answer",
+   "value": "Je sais pas, un arrêt. J’étais à côté de mes pompes. De toute façon j’allais dans le mauvais sens ; je suis descendu et j’ai pris un autre bus de l’autre côté. Chez mon frère."
+  },
+  {
+   "key": "case012.kieran.where.answer.demeanor",
+   "value": "Plisse le visage pour se souvenir."
+  },
+  {
+   "key": "case012.kieran.where.question",
+   "value": "Où êtes-vous descendu ?"
+  },
+  {
+   "key": "case012.kieran_2.body",
+   "value": "Sur le relevé de carte."
+  },
+  {
+   "key": "case012.kieran_2.card.answer",
+   "value": "Dun Cow… oui ! Je suis descendu là, j’ai traversé et j’ai pris le N63. Vous voyez, je vous l’avais dit. Quand il a été frappé, j’étais dans un autre bus, hein ?"
+  },
+  {
+   "key": "case012.kieran_2.card.answer.demeanor",
+   "value": "Se détend, puis les yeux s’embuent."
+  },
+  {
+   "key": "case012.kieran_2.card.question",
+   "value": "On lit ce relevé ensemble ?"
+  },
+  {
+   "key": "case012.kieran_2.saw.answer",
+   "value": "Quelqu’un était assis au fond, deux rangs derrière Owen. En capuche. Owen le regardait ; il avait l’air agacé. J’étais pris dans mes propres histoires."
+  },
+  {
+   "key": "case012.kieran_2.saw.question",
+   "value": "Quand vous avez regardé l’étage, y avait-il quelqu’un près d’Owen ?"
+  },
+  {
+   "key": "case012.kieran_2.title",
+   "value": "Kieran Doyle — seconde audition"
+  },
+  {
+   "key": "case012.kieran_card.body",
+   "value": "Carte ·6119 · titulaire enregistré : Kieran Doyle.\n\n17 mars 2029 :\n01.35 · N219 · Old Kent Rd / Asylum\n01.44 · N63 · Dun Cow (sens inverse)\n02.02 · N63 · descendu (les sorties ne sont pas enregistrées ; aucune autre validation)\n\nDun Cow est à trois arrêts, environ quatre minutes de bus, de Canal Bridge."
+  },
+  {
+   "key": "case012.kieran_card.title",
+   "value": "RELEVÉ TIDECARD — KIERAN DOYLE"
+  },
+  {
+   "key": "case012.liam.body",
+   "value": "Déposition de l’ancien brancardier."
+  },
+  {
+   "key": "case012.liam.deflect",
+   "value": "Je ne sais pas. Je ne travaille plus là-bas."
+  },
+  {
+   "key": "case012.liam.fired.answer",
+   "value": "Non. Je n’avais même pas la clé de cette armoire. Mais les feuilles montraient mon service, c’est tout. Personne n’a écouté."
+  },
+  {
+   "key": "case012.liam.fired.question",
+   "value": "Avez-vous pris la morphine ?"
+  },
+  {
+   "key": "case012.liam.night.answer",
+   "value": "J’étais chez moi, à Walworth. Seul. Je n’ai pas pris le bus ; regardez ma Tidecard si vous voulez, elle n’a pas été validée depuis hier."
+  },
+  {
+   "key": "case012.liam.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case012.liam.owen.answer",
+   "value": "On a travaillé côte à côte pendant trois ans. Puis il m’a dénoncé comme voleur. Qu’est-ce que vous voulez que je ressente ? Mais je ne voulais pas qu’il lui arrive quoi que ce soit."
+  },
+  {
+   "key": "case012.liam.owen.answer.demeanor",
+   "value": "La mâchoire se crispe."
+  },
+  {
+   "key": "case012.liam.owen.question",
+   "value": "Connaissez-vous Owen Marsh ?"
+  },
+  {
+   "key": "case012.liam.quote",
+   "value": "« Regardez ma Tidecard. »"
+  },
+  {
+   "key": "case012.liam.title",
+   "value": "Liam Carter — audition"
+  },
+  {
+   "key": "case012.liam_2.again.answer",
+   "value": "J’y ai réfléchi. J’étais chez moi."
+  },
+  {
+   "key": "case012.liam_2.again.question",
+   "value": "Repensez à la nuit dernière."
+  },
+  {
+   "key": "case012.liam_2.bag.answer",
+   "value": "Oui, un sac de vélo. Réfléchissant. J’allais et venais à vélo ; après qu’ils m’ont viré de l’hôpital, ça aussi c’est fini. Qu’est-ce que ça a à voir ?"
+  },
+  {
+   "key": "case012.liam_2.bag.question",
+   "value": "Avez-vous un sac à dos ?"
+  },
+  {
+   "key": "case012.liam_2.body",
+   "value": "Sur le journal des validations."
+  },
+  {
+   "key": "case012.liam_2.contactless.answer",
+   "value": "En général. Parfois, quand le solde est épuisé, on passe sa carte bancaire ; tout le monde le fait. Et alors ?"
+  },
+  {
+   "key": "case012.liam_2.contactless.answer.demeanor",
+   "value": "Hésite un instant."
+  },
+  {
+   "key": "case012.liam_2.contactless.question",
+   "value": "N’utilisez-vous que votre Tidecard dans le bus ?"
+  },
+  {
+   "key": "case012.liam_2.title",
+   "value": "Liam Carter — seconde audition"
+  },
+  {
+   "key": "case012.liam_3.body",
+   "value": "Sur les opérations bancaires."
+  },
+  {
+   "key": "case012.liam_3.card.answer",
+   "value": "…D’accord. Je suis monté. À Bricklayers. Je voulais parler, juste parler. Je savais qu’il monterait devant l’hôpital ; je voulais qu’il me regarde en face et qu’il dise : « Ce n’était pas Liam. »"
+  },
+  {
+   "key": "case012.liam_3.card.answer.demeanor",
+   "value": "Se tait longtemps, puis la voix se brise."
+  },
+  {
+   "key": "case012.liam_3.card.question",
+   "value": "Pouvez-vous expliquer cette ligne ?"
+  },
+  {
+   "key": "case012.liam_3.lock.answer",
+   "value": "Un antivol. Un antivol de vélo. Il est toujours dans mon sac. Je ne savais pas ce que je faisais, je le jure."
+  },
+  {
+   "key": "case012.liam_3.lock.question",
+   "value": "Qu’y avait-il dans votre sac ?"
+  },
+  {
+   "key": "case012.liam_3.title",
+   "value": "Liam Carter — troisième audition"
+  },
+  {
+   "key": "case012.liam_3.upstairs.answer",
+   "value": "Il est monté, m’a vu et s’est assis deux rangs devant. J’ai dit son nom. Il ne s’est même pas retourné. Puis… je ne me souviens pas de ce qui s’est passé après. La femme a crié, et j’ai couru."
+  },
+  {
+   "key": "case012.liam_3.upstairs.question",
+   "value": "Que s’est-il passé à l’étage ?"
+  },
+  {
+   "key": "case012.liam_3.why.answer",
+   "value": "Parce que ça recommençait. Quelqu’un me l’a dit ; Owen allait aller à la police, redonner mon nom. J’allais aller en prison pour quelque chose que je n’avais pas fait."
+  },
+  {
+   "key": "case012.liam_3.why.answer.demeanor",
+   "value": "Ne dit pas qui ; détourne le regard."
+  },
+  {
+   "key": "case012.liam_3.why.question",
+   "value": "Pourquoi cette nuit-là ? Vous l’aviez évité pendant des mois."
+  },
+  {
+   "key": "case012.liam_4.body",
+   "value": "Sur son appel avec Helen Shaw."
+  },
+  {
+   "key": "case012.liam_4.helen.answer",
+   "value": "Qu’Owen était retourné à la police. Avec des « preuves » cette fois. Que j’irais en prison, qu’elle-même n’y pourrait rien. Elle a dit : « Je te le dis pour te rendre service. » Je n’ai pas dormi pendant deux jours."
+  },
+  {
+   "key": "case012.liam_4.helen.answer.demeanor",
+   "value": "Les yeux s’embuent."
+  },
+  {
+   "key": "case012.liam_4.helen.question",
+   "value": "Le soir du 15 mars, Helen Shaw vous a appelé. Qu’a-t-elle dit ?"
+  },
+  {
+   "key": "case012.liam_4.title",
+   "value": "Liam Carter — quatrième audition"
+  },
+  {
+   "key": "case012.liam_4.truth.answer",
+   "value": "Quoi ?… Non. Non, elle m’a dit… Elle m’a dit exactement le contraire. Je… C’est pour ça que j’ai…"
+  },
+  {
+   "key": "case012.liam_4.truth.answer.demeanor",
+   "value": "Enfouit son visage dans ses mains ; pendant un moment, ne peut plus parler."
+  },
+  {
+   "key": "case012.liam_4.truth.question",
+   "value": "Owen allait dire au directeur que vous n’y étiez pour rien."
+  },
+  {
+   "key": "case012.lphone.body",
+   "value": "Abonné : Liam Carter. Relevé de l’opérateur, lignes choisies :\n\n12 mars · 19.02 · entrant · numéro masqué · sans réponse\n15 mars · 21.47 · entrant · Helen Shaw (numéro enregistré) · 11 min 20 s\n15 mars · 22.10 · sortant · Helen Shaw · sans réponse\n17 mars · 02.31 · sortant · Helen Shaw · 0 s (annulé)"
+  },
+  {
+   "key": "case012.lphone.title",
+   "value": "RELEVÉ TÉLÉPHONIQUE — LIAM CARTER"
+  },
+  {
+   "key": "case012.method.fight",
+   "value": "La suite de la bagarre au kebab"
+  },
+  {
+   "key": "case012.method.grudge",
+   "value": "Seulement une rancune liée à l’ancien signalement"
+  },
+  {
+   "key": "case012.method.incited",
+   "value": "Incitation — quelqu’un l’a monté contre Owen"
+  },
+  {
+   "key": "case012.method.label",
+   "value": "Qu’est-ce qui a déclenché l’agression ?"
+  },
+  {
+   "key": "case012.method.random",
+   "value": "Une agression au hasard"
+  },
+  {
+   "key": "case012.method.robbery",
+   "value": "Un vol"
+  },
+  {
+   "key": "case012.nadia.before.answer",
+   "value": "Quelqu’un était déjà au fond. Je suis montée à l’arrêt après Bricklayers ; quand je suis montée à l’étage, cette personne était là. En capuche, un sac à dos sur les genoux. Puis un homme est monté devant l’hôpital et est allé au fond lui aussi. Il avait un badge de l’hôpital autour du cou."
+  },
+  {
+   "key": "case012.nadia.before.question",
+   "value": "Qui était à l’étage quand vous êtes montée ?"
+  },
+  {
+   "key": "case012.nadia.body",
+   "value": "Déposition de la passagère de l’étage."
+  },
+  {
+   "key": "case012.nadia.deflect",
+   "value": "Je ne pouvais pas voir ça. Je regardais devant."
+  },
+  {
+   "key": "case012.nadia.quote",
+   "value": "« Quelqu’un était déjà au fond. »"
+  },
+  {
+   "key": "case012.nadia.scream.answer",
+   "value": "Un bruit. Un bruit sourd, comme du métal. Je me suis retournée ; l’homme s’était effondré, et l’autre courait vers l’escalier. J’ai crié. Je n’ai pas vu le visage ; une capuche et un sac. Il y avait une bande brillante sur le sac."
+  },
+  {
+   "key": "case012.nadia.scream.question",
+   "value": "Que s’est-il passé ?"
+  },
+  {
+   "key": "case012.nadia.seat.answer",
+   "value": "Devant, sur le siège près de la vitre avant. J’aime regarder la route. J’avais mes écouteurs, mais la musique était basse."
+  },
+  {
+   "key": "case012.nadia.seat.question",
+   "value": "Où étiez-vous assise à l’étage ?"
+  },
+  {
+   "key": "case012.nadia.talk.answer",
+   "value": "Un nom a été prononcé une fois, je crois. « Owen. » Puis le silence. Puis ce bruit."
+  },
+  {
+   "key": "case012.nadia.talk.question",
+   "value": "Les personnes au fond parlaient-elles ?"
+  },
+  {
+   "key": "case012.nadia.title",
+   "value": "Nadia Okonjo — audition"
+  },
+  {
+   "key": "case012.offer.subtitle",
+   "value": "PAS LE DERNIER BUS  /  VIOLENCES GRAVES"
+  },
+  {
+   "key": "case012.offer.summary",
+   "value": "À l’étage d’un bus de nuit, un brancardier qui rentre de son service est frappé à l’arrière de la tête et grièvement blessé. Le jeune homme avec qui il s’était battu quelques heures plus tôt était dans le même bus."
+  },
+  {
+   "key": "case012.offer.title",
+   "value": "DOSSIER #012"
+  },
+  {
+   "key": "case012.ophone.body",
+   "value": "Relevés choisis extraits de l’appareil à la consigne.\n\nBrouillon de message (non envoyé), destinataire : Helen Shaw, rédigé le 15 mars à 23.52\n« Les inventaires de l’armoire sont toujours en manque depuis le départ de Liam. Quatre fois en mars. Ce n’était pas Liam, Helen. C’est toi qui m’avais montré les feuilles. Je vais voir le directeur demain ; je voulais que tu le saches d’abord. »\n\nJournal d’appels : 16 mars 08.10 · sortant · Helen Shaw · 6 min\nAgenda : 17 mars 10.00 · « Directeur — inventaires »"
+  },
+  {
+   "key": "case012.ophone.title",
+   "value": "EXAMEN DU TÉLÉPHONE PORTABLE — OWEN MARSH"
+  },
+  {
+   "key": "case012.person.adebayo.info",
+   "value": "47 ans, conducteur sur la ligne de nuit N219 de Riverside Transit. Sur la même ligne depuis onze ans."
+  },
+  {
+   "key": "case012.person.adebayo.name",
+   "value": "Adebayo Bello"
+  },
+  {
+   "key": "case012.person.helen.info",
+   "value": "44 ans, superviseure de service de l’unité brancardage et réserves de l’hôpital St. Clement. Supérieure d’Owen Marsh."
+  },
+  {
+   "key": "case012.person.helen.name",
+   "value": "Helen Shaw"
+  },
+  {
+   "key": "case012.person.kieran.info",
+   "value": "24 ans, magasinier. S’est battu avec Owen Marsh dans un kebab quatre heures avant les faits."
+  },
+  {
+   "key": "case012.person.kieran.name",
+   "value": "Kieran Doyle"
+  },
+  {
+   "key": "case012.person.liam.info",
+   "value": "31 ans. Brancardier de nuit à l’hôpital St. Clement jusqu’en février ; licencié au motif qu’il aurait pris de la morphine dans l’armoire à pharmacie."
+  },
+  {
+   "key": "case012.person.liam.name",
+   "value": "Liam Carter"
+  },
+  {
+   "key": "case012.person.nadia.info",
+   "value": "29 ans, employée de centre d’appels qui rentrait d’un service de nuit. La seule autre passagère de l’étage."
+  },
+  {
+   "key": "case012.person.nadia.name",
+   "value": "Nadia Okonjo"
+  },
+  {
+   "key": "case012.report.body",
+   "value": "À 01.48 le 17 mars 2029, le conducteur d’un bus de nuit N219 de Riverside Transit a appuyé sur le bouton d’urgence. Le bus s’est arrêté à l’arrêt Canal Bridge à 01.49.\n\nUn homme inconscient a été trouvé au dernier rang de l’étage : Owen Marsh (38 ans), brancardier de nuit à l’hôpital St. Clement. Il avait reçu un violent coup à l’arrière de la tête. Il a été transporté à l’hôpital ; son état est grave.\n\nL’autre passagère de l’étage a dit avoir entendu un cri et, en se retournant, avoir vu une personne descendre l’escalier en courant. Quand les portes se sont ouvertes à l’arrêt, quelqu’un est descendu par la porte arrière et s’est enfui.\n\nNote de la patrouille : « On a appris que la victime s’était battue avec un homme nommé Kieran Doyle dans un kebab d’Old Kent Road vers 21.40 la même nuit, et que l’incident avait été consigné. Le conducteur a confirmé que Doyle était aussi monté dans le même bus. »\n\nLa caméra de l’étage n’a pas enregistré."
+  },
+  {
+   "key": "case012.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case012.request.bank",
+   "value": "Demander les opérations bancaires de Liam Carter"
+  },
+  {
+   "key": "case012.request.cabinet",
+   "value": "Demander le journal d’accès à l’armoire à pharmacie"
+  },
+  {
+   "key": "case012.request.camlog",
+   "value": "Demander le journal d’entretien des caméras du véhicule"
+  },
+  {
+   "key": "case012.request.discipline",
+   "value": "Demander le dossier disciplinaire de Liam Carter"
+  },
+  {
+   "key": "case012.request.fight",
+   "value": "Demander le procès-verbal de la bagarre au kebab"
+  },
+  {
+   "key": "case012.request.kieran_card",
+   "value": "Demander le relevé de carte de Kieran Doyle"
+  },
+  {
+   "key": "case012.request.lphone",
+   "value": "Demander le relevé téléphonique de Liam Carter"
+  },
+  {
+   "key": "case012.request.ophone",
+   "value": "Demander l’examen du téléphone d’Owen Marsh"
+  },
+  {
+   "key": "case012.request.taps",
+   "value": "Demander le journal des validations du trajet"
+  },
+  {
+   "key": "case012.street.body",
+   "value": "La caméra d’une boutique en face de l’arrêt Canal Bridge. 17 mars 01.20 – 02.10. À cause de la pluie et du réverbère, l’image est éblouie par endroits ; les visages sont indiscernables."
+  },
+  {
+   "key": "case012.street.title",
+   "value": "CAMÉRA DE RUE DE CANAL BRIDGE — relevé d’enregistrement"
+  },
+  {
+   "key": "case012.summary.evidence",
+   "value": "Le journal des validations était anonyme, mais la carte ·4417 apparaissait à la même minute dans les opérations bancaires de Liam. Le relevé de carte de Kieran le plaçait dans un autre bus au moment de l’agression. Le brouillon non envoyé d’Owen, le journal d’accès à l’armoire et le relevé téléphonique de Liam désignaient Helen."
+  },
+  {
+   "key": "case012.summary.lesson",
+   "value": "Un enregistrement parle autant par ce qu’il ne saisit pas que par ce qu’il saisit : seules les montées sont validées, et une carte vierge ne prouve pas qu’une personne n’était pas là. Trouver qui a frappé ne clôt pas le dossier ; regardez qui a fait frapper, et pourquoi."
+  },
+  {
+   "key": "case012.summary.location",
+   "value": "Bus de nuit N219, Old Kent Road — 17 mars 2029"
+  },
+  {
+   "key": "case012.summary.truth",
+   "value": "Depuis des mois, la superviseure de service Helen Shaw prenait de la morphine dans la réserve de nuit de l’hôpital. En février, elle a montré à Owen Marsh les feuilles d’inventaire en manque et lui a fait signaler Liam Carter ; Liam a été licencié. Quand les manques ont continué, Owen a compris la vérité et a décidé d’aller voir le directeur. Le soir du 15 mars, Helen a appelé Liam et lui a dit qu’Owen allait de nouveau le dénoncer à la police. La nuit du 17 mars, Liam est monté dans le N219 avec sa carte bancaire, a attendu Owen à l’étage et l’a frappé à la tête avec un antivol de vélo. Owen est mort l’après-midi même. Kieran Doyle, avec qui il s’était battu, était descendu du bus avant l’agression."
+  },
+  {
+   "key": "case012.suspect.label",
+   "value": "Qui a frappé Owen à l’étage ?"
+  },
+  {
+   "key": "case012.tablet.caseLine",
+   "value": "DOSSIER #012  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case012.taps.body",
+   "value": "Système de paiement de Riverside Transit. Cartes validées sur ce trajet. Dans les bus londoniens, les cartes ne sont validées qu’à la montée ; les sorties ne sont pas enregistrées.\n\n01.24 · Elephant & Castle · Tidecard ·2291\n01.31 · Bricklayers · carte bancaire sans contact ·4417\n01.32 · Arrêt après Bricklayers (Dunton Rd) · Tidecard ·8030\n01.33 · Hôpital St. Clement · Tidecard ·5562\n01.35 · Old Kent Rd / Asylum · Tidecard ·6119\n01.38 · Peckham Park Rd · Tidecard ·0447\n\nNote : l’identité des titulaires n’est pas incluse dans ce journal ; une demande séparée est nécessaire pour chaque carte."
+  },
+  {
+   "key": "case012.taps.title",
+   "value": "JOURNAL DES VALIDATIONS DU N219 — 17 MARS, TRAJET DE 01.20"
+  },
+  {
+   "key": "case012.time.alarm",
+   "value": "01.48"
+  },
+  {
+   "key": "case012.time.ambulance",
+   "value": "01.58"
+  },
+  {
+   "key": "case012.time.bank",
+   "value": "01.31"
+  },
+  {
+   "key": "case012.time.bus_pass",
+   "value": "01.27"
+  },
+  {
+   "key": "case012.time.bus_stop",
+   "value": "01.49"
+  },
+  {
+   "key": "case012.time.death",
+   "value": "14.20"
+  },
+  {
+   "key": "case012.time.fight",
+   "value": "21.40"
+  },
+  {
+   "key": "case012.time.k_n63",
+   "value": "01.44"
+  },
+  {
+   "key": "case012.time.l_claim",
+   "value": "nuit"
+  },
+  {
+   "key": "case012.time.o_out",
+   "value": "01.20"
+  },
+  {
+   "key": "case012.time.runner",
+   "value": "01.49"
+  },
+  {
+   "key": "case012.time.tap4417",
+   "value": "01.31"
+  },
+  {
+   "key": "case012.time.tap5562",
+   "value": "01.33"
+  },
+  {
+   "key": "case012.time.tap6119",
+   "value": "01.35"
+  },
+  {
+   "key": "case012.title",
+   "value": "Dossier #012 — Pas le dernier bus"
+  },
+  {
+   "key": "case012.verdict.adebayo",
+   "value": "Adebayo Bello"
+  },
+  {
+   "key": "case012.verdict.kieran",
+   "value": "Kieran Doyle"
+  },
+  {
+   "key": "case012.verdict.liam",
+   "value": "Liam Carter"
+  },
+  {
+   "key": "case012.verdict.undetermined",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case012.item.lock.name",
+   "value": "Antivol de vélo"
+  },
+  {
+   "key": "case012.item.lock.detail",
+   "value": "L’antivol en acier retrouvé sur les lieux ; une tache sombre sur son extrémité courbe."
+  },
+  {
+   "key": "case012.item.camera.name",
+   "value": "Caméra du bus"
+  },
+  {
+   "key": "case012.item.camera.detail",
+   "value": "Le champ de la caméra arrière ; l’enregistrement est vide pour cette nuit-là."
+  },
+  {
+   "key": "case012.item.phone.name",
+   "value": "Téléphone d’Owen"
+  },
+  {
+   "key": "case012.item.phone.detail",
+   "value": "Le téléphone d’Owen à l’écran fêlé."
+  },
+  {
+   "key": "case012.item.sheet.name",
+   "value": "Feuille d’inventaire"
+  },
+  {
+   "key": "case012.item.sheet.detail",
+   "value": "La feuille d’inventaire de l’armoire à pharmacie."
+  }
+ ]
+}

@@ -1,0 +1,904 @@
+{
+ "entries": [
+  {
+   "key": "case011.autopsy.body",
+   "value": "Constatations :\n\n· Traumatisme contondant de la région temporale droite. Résidus de rouille et d’oxyde de fer dans la plaie ; compatibles avec le bord de la bitte d’amarrage en fer du ponton.\n· Eau de fleuve et liquide spumeux dans les poumons et le contenu gastrique. La personne est tombée vivante dans l’eau. Cause du décès : noyade.\n· Alcoolémie : 0,9 pour mille. Modérée ; insuffisante à elle seule pour expliquer une perte d’équilibre.\n· Ecchymoses rondes sur le haut du bras gauche : quatre sur la face interne, une sur la face externe. Compatibles avec une prise serrée d’une seule main ; formées peu avant le décès.\n· Aucune autre blessure de défense.\n\nHeure estimée du décès : 9 mars 22.45 – 23.45."
+  },
+  {
+   "key": "case011.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE — THOMAS REED"
+  },
+  {
+   "key": "case011.cctv.event.car",
+   "value": "Caméra 03 : une voiture s’arrête sous le réverbère ; le conducteur descend et marche vers le quai. La voiture reste là."
+  },
+  {
+   "key": "case011.cctv.event.car_out",
+   "value": "Caméra 03 : la même personne revient vite à la voiture et claque la portière ; la voiture s’éloigne."
+  },
+  {
+   "key": "case011.cctv.event.runner",
+   "value": "Caméra 03 : quelqu’un en capuche sort du brouillard en courant, du côté de la clôture du quai. Un sac sur le dos. Le visage est indiscernable. Disparaît vers la route principale."
+  },
+  {
+   "key": "case011.cctv.event.thomas_in",
+   "value": "Caméra 03 : un homme marche de la route vers le portail du quai ; son pas est assuré. Petit, en manteau épais."
+  },
+  {
+   "key": "case011.cctv.overlay",
+   "value": "CAM 03"
+  },
+  {
+   "key": "case011.cctv.period",
+   "value": "9–10 mars 2029, 21.00 – 00.30"
+  },
+  {
+   "key": "case011.cctv.source",
+   "value": "Caméra de la route du quai"
+  },
+  {
+   "key": "case011.clue.bad_card",
+   "value": "Une tentative d’entrée avec la carte n° 07 est refusée."
+  },
+  {
+   "key": "case011.clue.call",
+   "value": "Thomas appelle Daniel ; pas de réponse. La dernière activité du téléphone."
+  },
+  {
+   "key": "case011.clue.d_claim",
+   "value": "Daniel dit n’avoir jamais vu son père ce soir-là."
+  },
+  {
+   "key": "case011.clue.d_in",
+   "value": "Carte de Daniel, entrée."
+  },
+  {
+   "key": "case011.clue.d_out",
+   "value": "Carte de Daniel, sortie."
+  },
+  {
+   "key": "case011.clue.fired",
+   "value": "L’accès de la carte n° 07 est révoqué."
+  },
+  {
+   "key": "case011.clue.m_heard",
+   "value": "Margaret dit avoir entendu des cris et le bruit de quelque chose qui tombe à l’eau."
+  },
+  {
+   "key": "case011.clue.pub_out",
+   "value": "Thomas règle son addition au pub ; trois bières."
+  },
+  {
+   "key": "case011.clue.road_car",
+   "value": "Une voiture s’arrête ; le conducteur marche vers le quai."
+  },
+  {
+   "key": "case011.clue.road_car_out",
+   "value": "Le conducteur revient à la voiture et s’en va."
+  },
+  {
+   "key": "case011.clue.road_runner",
+   "value": "Quelqu’un en capuche arrive en courant du côté de la clôture."
+  },
+  {
+   "key": "case011.clue.road_thomas_in",
+   "value": "Un homme marche vers le portail du quai."
+  },
+  {
+   "key": "case011.clue.s_claim",
+   "value": "Sam dit avoir été chez lui toute la nuit après 18.30."
+  },
+  {
+   "key": "case011.clue.source.gate",
+   "value": "Journal des cartes du portail du quai"
+  },
+  {
+   "key": "case011.clue.source.pub",
+   "value": "Addition du pub"
+  },
+  {
+   "key": "case011.clue.source.tphone",
+   "value": "Téléphone de Thomas Reed"
+  },
+  {
+   "key": "case011.clue.t_in",
+   "value": "La carte de Thomas entre par le portail du quai."
+  },
+  {
+   "key": "case011.custody.fled",
+   "value": "S’est enfui sans appeler à l’aide"
+  },
+  {
+   "key": "case011.custody.label",
+   "value": "Que s’est-il passé après la chute ?"
+  },
+  {
+   "key": "case011.custody.pushed_body",
+   "value": "A poussé Thomas inconscient dans l’eau"
+  },
+  {
+   "key": "case011.custody.staged",
+   "value": "A maquillé les lieux en accident"
+  },
+  {
+   "key": "case011.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case011.daniel.body",
+   "value": "Déposition du fils du défunt."
+  },
+  {
+   "key": "case011.daniel.deflect",
+   "value": "Je ne sais pas. C’étaient les affaires de mon père."
+  },
+  {
+   "key": "case011.daniel.night.answer",
+   "value": "J’étais chez moi, à Bermondsey. Je n’ai pas vu mon père du tout hier. Mon téléphone était en silencieux ; le matin, j’ai vu un appel manqué de lui. Vers onze heures."
+  },
+  {
+   "key": "case011.daniel.night.answer.demeanor",
+   "value": "Donne la réponse comme si elle attendait toute prête."
+  },
+  {
+   "key": "case011.daniel.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case011.daniel.quote",
+   "value": "« L’atelier, c’était sa vie. »"
+  },
+  {
+   "key": "case011.daniel.relation.answer",
+   "value": "Bonnes. On est associés. On se disputait comme n’importe quel père et son fils, c’est tout. L’atelier, c’était sa vie."
+  },
+  {
+   "key": "case011.daniel.relation.answer.demeanor",
+   "value": "Ne lève pas les yeux de la table."
+  },
+  {
+   "key": "case011.daniel.relation.question",
+   "value": "Comment étaient vos relations avec votre père ?"
+  },
+  {
+   "key": "case011.daniel.sale.answer",
+   "value": "Un promoteur a fait une offre. Graham Pike. Moi, je disais vendons ; il y a des dettes, le bâtiment pourrit. Mon père ne voulait pas. C’est pour ça que vous demandez ? Je ne…"
+  },
+  {
+   "key": "case011.daniel.sale.question",
+   "value": "Étiez-vous d’accord sur l’avenir de l’atelier ?"
+  },
+  {
+   "key": "case011.daniel.staff.answer",
+   "value": "Il y a un apprenti. C’est mon père qui s’en occupait ; je ne m’en mêle pas beaucoup. La liste des cartes est chez la gestion du quai."
+  },
+  {
+   "key": "case011.daniel.staff.question",
+   "value": "Qui d’autre travaille à l’atelier ?"
+  },
+  {
+   "key": "case011.daniel.title",
+   "value": "Daniel Reed — audition"
+  },
+  {
+   "key": "case011.daniel_2.body",
+   "value": "Avec le fils, sur le journal des cartes."
+  },
+  {
+   "key": "case011.daniel_2.card.answer",
+   "value": "D’accord. J’y suis allé. Vers neuf heures et demie. Pour parler de la vente. On s’est crié dessus ; je suis parti. Je ne l’ai pas dit parce que je savais de quoi ça aurait l’air."
+  },
+  {
+   "key": "case011.daniel_2.card.answer.demeanor",
+   "value": "Les épaules tombent."
+  },
+  {
+   "key": "case011.daniel_2.card.question",
+   "value": "Voulez-vous reprendre la soirée d’hier ?"
+  },
+  {
+   "key": "case011.daniel_2.left.answer",
+   "value": "Il était sur le ponton, en colère. Mais il était vivant. Je suis parti à l’heure que dit le journal ; je suis rentré directement."
+  },
+  {
+   "key": "case011.daniel_2.left.question",
+   "value": "Dans quel état était votre père quand vous êtes parti ?"
+  },
+  {
+   "key": "case011.daniel_2.stock.answer",
+   "value": "Mon père disait que des choses disparaissaient. Des ferrures en bronze, des écrous d’hélice. Il épluchait le livre d’inventaire. Hier, il a dit : « Je m’en occupe. » C’est tout."
+  },
+  {
+   "key": "case011.daniel_2.stock.question",
+   "value": "Y avait-il quelque chose d’inhabituel à l’atelier ces derniers temps ?"
+  },
+  {
+   "key": "case011.daniel_2.title",
+   "value": "Daniel Reed — seconde audition"
+  },
+  {
+   "key": "case011.epilogue.custody.fled",
+   "value": "Thomas est tombé vivant dans l’eau. C’était à trente mètres de la clôture vers laquelle Sam a couru et du ponton ; si un appel avait été passé, une équipe aurait pu arriver en dix minutes."
+  },
+  {
+   "key": "case011.epilogue.custody.pushed_body",
+   "value": "Quand aucune trace de traînage n’a été trouvée sur les planches où Thomas est tombé, l’accusation a renforcé la défense ; le dossier s’est affaibli sur ce point."
+  },
+  {
+   "key": "case011.epilogue.custody.staged",
+   "value": "On a cherché des signes de mise en scène sur le ponton et on n’en a trouvé aucun. La défense l’a présenté comme la preuve que Sam s’était enfui sans rien toucher."
+  },
+  {
+   "key": "case011.epilogue.custody.unknown",
+   "value": "Les minutes qui ont suivi l’incident sont restées ouvertes dans le dossier."
+  },
+  {
+   "key": "case011.epilogue.verdict.daniel",
+   "value": "Daniel Reed a été placé en garde à vue. Son téléphone montrait toujours l’appel de son père de 23.01 comme manqué ; il a été relâché trois jours plus tard. Sam Okafor avait quitté Londres cette semaine-là."
+  },
+  {
+   "key": "case011.epilogue.verdict.graham",
+   "value": "L’accusation contre Graham Pike est tombée dès la première audience devant le registre de l’hôtel. Sa société a repoussé d’un an le projet du quai."
+  },
+  {
+   "key": "case011.epilogue.verdict.none",
+   "value": "Le décès a été classé comme un accident. Des mois plus tard, Margaret Hale a dit à un journal local : « Il y avait deux personnes là cette nuit-là » ; le dossier n’a pas été rouvert."
+  },
+  {
+   "key": "case011.epilogue.verdict.sam",
+   "value": "Sam Okafor a été placé en détention pour être jugé pour homicide et non-assistance. Son avocat a établi que la bousculade était involontaire ; les vingt minutes pendant lesquelles il n’a appelé personne ont pesé tout le poids du dossier."
+  },
+  {
+   "key": "case011.epilogue.verdict.undetermined",
+   "value": "Le dossier est resté ouvert comme mort suspecte. L’atelier a été vendu six mois plus tard."
+  },
+  {
+   "key": "case011.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case011.evidence.gate",
+   "value": "Journal des cartes du portail du quai"
+  },
+  {
+   "key": "case011.evidence.note",
+   "value": "Note de synthèse de l’agent de patrouille"
+  },
+  {
+   "key": "case011.evidence.scrap",
+   "value": "Registre d’achat de ferraille"
+  },
+  {
+   "key": "case011.evidence.transcript",
+   "value": "Transcription intégrale de l’enregistrement de la déposition"
+  },
+  {
+   "key": "case011.feedback.daniel",
+   "value": "La synthèse disait « le nom de Daniel a été prononcé » ; la transcription intégrale montre que c’était Thomas qui criait et qu’il voulait dire quelque chose à Daniel. Daniel est parti à 21.52 ; à 23.01, son père l’appelait. Son mensonge ne montre pas qu’il était là."
+  },
+  {
+   "key": "case011.feedback.graham",
+   "value": "Graham avait un mobile, mais cette nuit-là il était à Manchester ; le registre de l’hôtel le montre entrant dans sa chambre à 22.31. Un mobile n’est pas une occasion."
+  },
+  {
+   "key": "case011.feedback.none",
+   "value": "L’autopsie décrit la prise d’une main sur le bras gauche ; le témoin décrit une lutte et quelqu’un qui court. 0,9 pour mille d’alcool ne suffit pas à lui seul à expliquer la chute."
+  },
+  {
+   "key": "case011.feedback.sam",
+   "value": "La carte de Sam avait été annulée à 18.00 et a été refusée à 23.04 ; il est entré par-dessus la clôture. Dans la déposition intégrale de Margaret, c’était Thomas qui criait : « Je vais le dire à Daniel. » Ce qu’il allait dire, c’étaient les pièces que Sam avait vendues comme ferraille. La marque de prise sur le bras et le récit de Sam lui-même désignent le même moment."
+  },
+  {
+   "key": "case011.feedback.undetermined",
+   "value": "Le journal des cartes, la transcription intégrale, l’autopsie et les registres de ferraille montraient qui était sur le ponton cette nuit-là."
+  },
+  {
+   "key": "case011.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case011.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case011.file.value.location",
+   "value": "Rotherhithe, Halyard Wharf — Reed & Son Boatyard"
+  },
+  {
+   "key": "case011.file.value.number",
+   "value": "BDS-LDN-2029-0041"
+  },
+  {
+   "key": "case011.file.value.offence",
+   "value": "Mort suspecte — retrouvé dans l’eau"
+  },
+  {
+   "key": "case011.file.value.reporter",
+   "value": "Lucy Tran, rameuse matinale"
+  },
+  {
+   "key": "case011.gate.body",
+   "value": "Lecteur de cartes du portail piéton de Halyard Wharf. Relevés du 9 mars 17.30 au 10 mars 06.30 :\n\n18.00 · Système · Accès de la carte n° 07 révoqué\n18.12 · Carte n° 02 · Thomas Reed · sortie\n21.14 · Carte n° 02 · Thomas Reed · entrée\n21.28 · Carte n° 03 · Daniel Reed · entrée\n21.52 · Carte n° 03 · Daniel Reed · sortie\n23.04 · Carte n° 07 · CARTE INVALIDE — entrée refusée\n06.31 · Police · portail ouvert manuellement\n\nNote de la gestion du quai : la clôture de part et d’autre du portail fait 1,2 mètre de haut ; on peut aussi la franchir loin du portail."
+  },
+  {
+   "key": "case011.gate.title",
+   "value": "JOURNAL DES CARTES DU PORTAIL DU QUAI — 9/10 MARS"
+  },
+  {
+   "key": "case011.graham.body",
+   "value": "Déposition du promoteur."
+  },
+  {
+   "key": "case011.graham.daniel.answer",
+   "value": "Deux fois. Il voulait vendre ; il n’arrivait pas à convaincre son père. Si vous y voyez un mobile, mettez-le dans son dossier, pas dans le mien."
+  },
+  {
+   "key": "case011.graham.daniel.question",
+   "value": "Avez-vous rencontré Daniel Reed ?"
+  },
+  {
+   "key": "case011.graham.deflect",
+   "value": "Je préférerais que vous en parliez à mon avocat."
+  },
+  {
+   "key": "case011.graham.night.answer",
+   "value": "À Manchester. Un dîner avec des investisseurs, puis l’hôtel. J’ai appris la nouvelle là-bas, le matin."
+  },
+  {
+   "key": "case011.graham.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case011.graham.offer.answer",
+   "value": "C’était une offre honnête. J’aurais donné plus. Thomas était têtu mais honnête ; il ne refusait pas de s’asseoir à la table, il disait juste « non ». C’est comme ça que marchent les affaires."
+  },
+  {
+   "key": "case011.graham.offer.question",
+   "value": "Pouvez-vous décrire l’offre que vous avez faite à Thomas Reed ?"
+  },
+  {
+   "key": "case011.graham.quote",
+   "value": "« C’est comme ça que marchent les affaires. »"
+  },
+  {
+   "key": "case011.graham.title",
+   "value": "Graham Pike — audition"
+  },
+  {
+   "key": "case011.hotel.body",
+   "value": "9 mars 2029 · arrivée 17.40\nAddition du restaurant · 19.30 – 22.15 · 4 personnes\nCarte de chambre · 22.31 entrée\nCarte de chambre · 10 mars 07.02 sortie\nPetit-déjeuner · 07.10\n\nL’hôtel est à environ quatre heures de route de Halyard Wharf."
+  },
+  {
+   "key": "case011.hotel.title",
+   "value": "REGISTRE DE L’HÔTEL — GRAHAM PIKE, MANCHESTER"
+  },
+  {
+   "key": "case011.inventory.body",
+   "value": "Lignes choisies du livre manuscrit :\n\n12 janvier · écrou d’hélice en bronze ×6 — 2 restent sur l’étagère ?\n29 janvier · ferrures en bronze (taquets) ×10 — 4 manquent\n24 février · jeu de charnières en bronze disparu. Ce n’est pas Daniel qui l’a pris.\n8 mars · Demandé au ferrailleur d’Old Kent Road. On m’a montré les reçus. Je parlerai demain.\n9 mars · J’ai parlé. C’est fini."
+  },
+  {
+   "key": "case011.inventory.title",
+   "value": "LIVRE D’INVENTAIRE DE L’ATELIER — NOTES DE THOMAS REED"
+  },
+  {
+   "key": "case011.lucy.body",
+   "value": "Déposition de la rameuse qui a découvert le corps."
+  },
+  {
+   "key": "case011.lucy.deflect",
+   "value": "Je ne faisais que ramer ; je ne sais rien d’autre."
+  },
+  {
+   "key": "case011.lucy.fog.answer",
+   "value": "Personne. À cette heure-là, c’est complètement vide ici. Seule la femme du bateau, Margaret, est sortie quand la police est arrivée."
+  },
+  {
+   "key": "case011.lucy.fog.question",
+   "value": "Avez-vous vu quelqu’un d’autre sur le quai ?"
+  },
+  {
+   "key": "case011.lucy.found.answer",
+   "value": "Je suis sortie sur l’eau vers six heures et demie ; le brouillard ne s’était toujours pas levé. J’ai vu quelque chose de sombre au pied du ponton ; d’abord j’ai cru que c’était un sac. En m’approchant… c’était sa veste. Face contre l’eau, accroché à un pieu. La veste avait glissé de son bras gauche ; le bras était nu. J’ai appelé tout de suite."
+  },
+  {
+   "key": "case011.lucy.found.question",
+   "value": "Comment avez-vous trouvé le corps ?"
+  },
+  {
+   "key": "case011.lucy.quote",
+   "value": "« D’abord j’ai cru que c’était un sac. »"
+  },
+  {
+   "key": "case011.lucy.title",
+   "value": "Lucy Tran — audition"
+  },
+  {
+   "key": "case011.lucy.usual.answer",
+   "value": "Un jeune apprenti venait parfois tôt et ouvrait le portail. Il n’était pas là ce matin. Mais c’était tôt."
+  },
+  {
+   "key": "case011.lucy.usual.question",
+   "value": "Voyiez-vous quelqu’un à l’atelier le matin ?"
+  },
+  {
+   "key": "case011.margaret.body",
+   "value": "Déposition du témoin qui vit sur le bateau voisin."
+  },
+  {
+   "key": "case011.margaret.deflect",
+   "value": "Je ne peux vous dire que ce que j’ai entendu, mon petit."
+  },
+  {
+   "key": "case011.margaret.heard.answer",
+   "value": "Des cris. Un homme. Puis ce bruit… le bruit de quelque chose qui tombe à l’eau. J’ai dit à l’agent ce qu’il a dit, mot pour mot ; il l’a enregistré aussi. Je n’ai pas la force de tout recommencer, excusez-moi."
+  },
+  {
+   "key": "case011.margaret.heard.question",
+   "value": "Qu’avez-vous entendu cette nuit-là ?"
+  },
+  {
+   "key": "case011.margaret.quote",
+   "value": "« Il y a toujours quelqu’un qui crie sur le quai la nuit. »"
+  },
+  {
+   "key": "case011.margaret.steps.answer",
+   "value": "Des pas. Les planches du ponton grincent, vous savez. Quelqu’un a couru, vers la clôture. Pas le portail, la clôture."
+  },
+  {
+   "key": "case011.margaret.steps.question",
+   "value": "Avez-vous entendu autre chose ?"
+  },
+  {
+   "key": "case011.margaret.thomas.answer",
+   "value": "On est voisins depuis douze ans. C’était un homme tranquille. Il buvait mais il ne se perdait pas ; je ne me souviens pas de l’avoir jamais vu ivre sur le ponton."
+  },
+  {
+   "key": "case011.margaret.thomas.question",
+   "value": "Connaissiez-vous Thomas Reed ?"
+  },
+  {
+   "key": "case011.margaret.time.answer",
+   "value": "Les informations venaient de finir à la radio. C’était un peu après onze heures. Onze heures dix, peut-être."
+  },
+  {
+   "key": "case011.margaret.time.question",
+   "value": "Quelle heure était-il ?"
+  },
+  {
+   "key": "case011.margaret.title",
+   "value": "Margaret Hale — audition"
+  },
+  {
+   "key": "case011.method.accident",
+   "value": "Accident seul — alcool et brouillard"
+  },
+  {
+   "key": "case011.method.deliberate",
+   "value": "Homicide volontaire"
+  },
+  {
+   "key": "case011.method.label",
+   "value": "Comment la mort s’est-elle produite ?"
+  },
+  {
+   "key": "case011.method.push_fall",
+   "value": "Une chute pendant une bousculade"
+  },
+  {
+   "key": "case011.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case011.note.body",
+   "value": "Synthèse de l’entretien préliminaire de l’agent de patrouille. Lieu : bateau « Wren » de Hale, Halyard Wharf. Heure : 07.05.\n\nLe témoin a déclaré qu’elle était réveillée vers 23.00 et ne voyait pas dehors à cause du brouillard. Elle a entendu un homme crier ; le nom de « Daniel » a été prononcé. Puis elle a entendu un bruit comme si quelque chose tombait à l’eau. Elle a regardé dehors et n’a vu personne. Elle n’a pas appelé la police ; elle a dit : « Il y a toujours quelqu’un qui crie sur le quai la nuit. »\n\nNote : le fils du défunt s’appelle Daniel.\n\nL’entretien a été enregistré."
+  },
+  {
+   "key": "case011.note.title",
+   "value": "NOTE DE SYNTHÈSE — MARGARET HALE"
+  },
+  {
+   "key": "case011.offer.body",
+   "value": "Lettre datée du 2 février 2029, adressée à Thomas Reed :\n\n« Nous renouvelons notre précédente offre pour votre atelier et vos droits de ponton à Halyard Wharf, augmentée de 15 %. Les deux autres propriétaires du secteur ont signé l’accord. Pour le calendrier du projet, nous attendons votre réponse d’ici fin avril. — Graham Pike »\n\nAu bas de la lettre, un seul mot de la main de Thomas Reed : « Non. »"
+  },
+  {
+   "key": "case011.offer.subtitle",
+   "value": "SOUS LE BROUILLARD  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case011.offer.summary",
+   "value": "Le matin qui suit une nuit de brouillard à Rotherhithe, un vieux constructeur de bateaux est retrouvé dans l’eau au pied de son propre ponton. La première note dit « ivre, accident ». Votre premier dossier à l’antenne de Londres."
+  },
+  {
+   "key": "case011.offer.title",
+   "value": "DOSSIER #011"
+  },
+  {
+   "key": "case011.person.daniel.info",
+   "value": "34 ans, fils de Thomas Reed et associé de l’atelier. Gère le côté clients et comptabilité."
+  },
+  {
+   "key": "case011.person.daniel.name",
+   "value": "Daniel Reed"
+  },
+  {
+   "key": "case011.person.graham.info",
+   "value": "52 ans, propriétaire d’une société qui construit des logements en bord d’eau. Veut acheter le quai."
+  },
+  {
+   "key": "case011.person.graham.name",
+   "value": "Graham Pike"
+  },
+  {
+   "key": "case011.person.lucy.info",
+   "value": "40 ans, sportive qui s’entraîne sur l’eau le matin. La personne qui a découvert le corps."
+  },
+  {
+   "key": "case011.person.lucy.name",
+   "value": "Lucy Tran"
+  },
+  {
+   "key": "case011.person.margaret.info",
+   "value": "58 ans, professeure de musique retraitée. Vit sur un bateau appelé « Wren » amarré au ponton de l’atelier."
+  },
+  {
+   "key": "case011.person.margaret.name",
+   "value": "Margaret Hale"
+  },
+  {
+   "key": "case011.person.sam.info",
+   "value": "27 ans, apprenti qui travaille à l’atelier depuis trois ans."
+  },
+  {
+   "key": "case011.person.sam.name",
+   "value": "Sam Okafor"
+  },
+  {
+   "key": "case011.pub.body",
+   "value": "9 mars 2029, table 4 · Thomas Reed\n\n19.22 · bière (pinte)\n20.05 · bière (pinte)\n20.40 · bière (pinte)\n21.08 · addition réglée · espèces\n\nNote du barman : « Il était comme d’habitude. Stable sur ses jambes, parlait normalement. A eu un appel en colère avec quelqu’un, puis il est parti tôt. »"
+  },
+  {
+   "key": "case011.pub.title",
+   "value": "THE MOORING LINE — ADDITION"
+  },
+  {
+   "key": "case011.report.body",
+   "value": "À 06.20 le matin du 10 mars 2029, Lucy Tran, qui s’entraînait sur l’eau à Halyard Wharf, Rotherhithe, a signalé avoir vu un corps dans l’eau à côté du ponton de Reed & Son Boatyard.\n\nLe corps a été identifié comme celui du propriétaire de l’atelier, Thomas Reed (61 ans). Il a été trouvé face contre l’eau, accroché à l’un des pieux du ponton.\n\nNote du premier agent de patrouille sur place : « On a appris que le défunt était dans un pub voisin la veille au soir. Il a pu tomber du ponton en état d’ivresse. À première vue, aucune intervention extérieure n’a été constatée. »\n\nLa nuit des faits, un épais brouillard couvrait le quai. La visibilité était de quelques mètres.\n\nLe décès a été jugé suspect et le dossier a été transféré à l’antenne BUBE Londres — Southwark."
+  },
+  {
+   "key": "case011.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case011.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case011.request.gate",
+   "value": "Demander le journal des cartes du portail du quai"
+  },
+  {
+   "key": "case011.request.hotel",
+   "value": "Demander le registre d’hôtel de Graham Pike"
+  },
+  {
+   "key": "case011.request.inventory",
+   "value": "Demander le livre d’inventaire de l’atelier"
+  },
+  {
+   "key": "case011.request.pub",
+   "value": "Demander l’addition du pub"
+  },
+  {
+   "key": "case011.request.scrap",
+   "value": "Demander les registres d’achat de ferraille du secteur"
+  },
+  {
+   "key": "case011.request.tphone",
+   "value": "Demander le relevé téléphonique de Thomas Reed"
+  },
+  {
+   "key": "case011.request.transcript",
+   "value": "Demander la transcription intégrale de l’enregistrement de la déposition de Margaret Hale"
+  },
+  {
+   "key": "case011.road.body",
+   "value": "La caméra d’une boutique à l’entrée de la route du quai. 9 mars 21.00 – 10 mars 00.30. À cause du brouillard, l’image n’est presque que le halo du réverbère ; les visages sont indiscernables."
+  },
+  {
+   "key": "case011.road.title",
+   "value": "CAMÉRA DE LA ROUTE DU QUAI — relevé d’enregistrement"
+  },
+  {
+   "key": "case011.sam.body",
+   "value": "Déposition de l’apprenti de l’atelier."
+  },
+  {
+   "key": "case011.sam.deflect",
+   "value": "Je ne sais pas… vraiment, je ne sais pas."
+  },
+  {
+   "key": "case011.sam.job.answer",
+   "value": "Oui. Enfin… on s’est un peu disputés hier, mais c’est tout. Tous les maîtres crient."
+  },
+  {
+   "key": "case011.sam.job.answer.demeanor",
+   "value": "Marque un temps, puis parle vite."
+  },
+  {
+   "key": "case011.sam.job.question",
+   "value": "Travaillez-vous toujours à l’atelier ?"
+  },
+  {
+   "key": "case011.sam.night.answer",
+   "value": "Je suis parti à six heures et demie et je suis rentré, à Deptford. J’ai été chez moi toute la nuit. J’ai joué à un jeu, puis je me suis couché."
+  },
+  {
+   "key": "case011.sam.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case011.sam.quote",
+   "value": "« Il m’a tout appris. »"
+  },
+  {
+   "key": "case011.sam.relation.answer",
+   "value": "C’était un bon maître. Il m’a tout appris, même le rabot. Je n’arrive pas à croire ce qui s’est passé."
+  },
+  {
+   "key": "case011.sam.relation.answer.demeanor",
+   "value": "Serre ses mains entre ses genoux."
+  },
+  {
+   "key": "case011.sam.relation.question",
+   "value": "Comment travailliez-vous avec Thomas Reed ?"
+  },
+  {
+   "key": "case011.sam.title",
+   "value": "Sam Okafor — audition"
+  },
+  {
+   "key": "case011.sam_2.body",
+   "value": "Avec l’apprenti, sur la liste des cartes."
+  },
+  {
+   "key": "case011.sam_2.card.answer",
+   "value": "D’accord. Il m’a renvoyé. J’avais honte ; je ne l’ai pas dit. Je suis allé la nuit chercher mes outils ; mes propres outils, je les ai achetés en trois ans. Ma carte ne marchait pas. Je suis passé par-dessus la clôture ; elle est basse."
+  },
+  {
+   "key": "case011.sam_2.card.answer.demeanor",
+   "value": "La voix s’enroue."
+  },
+  {
+   "key": "case011.sam_2.card.question",
+   "value": "Voulez-vous reprendre la soirée d’hier ?"
+  },
+  {
+   "key": "case011.sam_2.thomas.answer",
+   "value": "Il était sur le ponton. On a parlé. Il a un peu crié ; j’ai pris mes outils et je suis parti. Il était vivant. Je jure qu’il était vivant."
+  },
+  {
+   "key": "case011.sam_2.thomas.answer.demeanor",
+   "value": "Détourne le regard."
+  },
+  {
+   "key": "case011.sam_2.thomas.question",
+   "value": "Avez-vous vu Thomas Reed ?"
+  },
+  {
+   "key": "case011.sam_2.title",
+   "value": "Sam Okafor — seconde audition"
+  },
+  {
+   "key": "case011.sam_2.why.answer",
+   "value": "Un malentendu. Il croyait que des choses disparaissaient de l’atelier. Ce n’était pas moi."
+  },
+  {
+   "key": "case011.sam_2.why.question",
+   "value": "Pourquoi vous a-t-il renvoyé ?"
+  },
+  {
+   "key": "case011.sam_3.body",
+   "value": "Avec l’apprenti, sur les registres de ferraille."
+  },
+  {
+   "key": "case011.sam_3.help.answer",
+   "value": "J’avais peur. Tout le monde aurait cru que je l’avais poussé. J’ai couru vers la clôture. J’ai regardé mon téléphone toute la nuit ; je n’ai pas appelé. Je n’ai pas appelé."
+  },
+  {
+   "key": "case011.sam_3.help.question",
+   "value": "Pourquoi n’avez-vous appelé personne ?"
+  },
+  {
+   "key": "case011.sam_3.money.answer",
+   "value": "Oui. Je les ai vendues. J’avais des dettes, le loyer de ma mère… Thomas savait. Hier soir il m’a renvoyé, et la nuit il a dit : « Je vais le dire à Daniel, puis à la police. » En fait, j’étais allé supplier. Les outils, c’était un prétexte."
+  },
+  {
+   "key": "case011.sam_3.money.answer.demeanor",
+   "value": "Se tait longtemps, puis parle."
+  },
+  {
+   "key": "case011.sam_3.money.question",
+   "value": "Pouvez-vous expliquer ces ventes ?"
+  },
+  {
+   "key": "case011.sam_3.pier.answer",
+   "value": "Il a sorti son téléphone ; il appelait Daniel. Je lui ai attrapé le bras, j’ai dit « Non ». Il s’est dégagé, son pied a glissé — le brouillard, les planches étaient mouillées… Sa tête a heurté le fer. Puis l’eau. J’ai appelé ; je ne voyais pas. Je ne voyais rien."
+  },
+  {
+   "key": "case011.sam_3.pier.question",
+   "value": "Que s’est-il passé exactement sur le ponton ?"
+  },
+  {
+   "key": "case011.sam_3.title",
+   "value": "Sam Okafor — troisième audition"
+  },
+  {
+   "key": "case011.scrap.body",
+   "value": "Registres des vendeurs d’un point d’achat de ferraille sur Old Kent Road (pièce d’identité présentée) :\n\n14 janvier 2029 · Sam Okafor · bronze, mélangé · 4,2 kg · 96 £\n3 février 2029 · Sam Okafor · ferrures en bronze · 3,1 kg · 71 £\n1er mars 2029 · Sam Okafor · charnières en bronze, écrous · 5,6 kg · 128 £\n\nNote de l’employé : le 8 mars, un vieil homme est venu demander ces reçus ; il s’est présenté comme le propriétaire de l’atelier."
+  },
+  {
+   "key": "case011.scrap.title",
+   "value": "REGISTRE D’ACHAT DE FERRAILLE — KEMBLE METAL"
+  },
+  {
+   "key": "case011.staff.body",
+   "value": "Cartes délivrées à Reed & Son Boatyard :\n\nn° 02 · Thomas Reed · propriétaire · active\nn° 03 · Daniel Reed · associé · active\nn° 07 · Sam Okafor · apprenti · annulée depuis le 9 mars 18.00 (demandé par : T. Reed, par téléphone à 17.52 ; motif : « fin du contrat de travail »)\nn° 11 · Société de nettoyage · inactive"
+  },
+  {
+   "key": "case011.staff.title",
+   "value": "LISTE DES CARTES DE L’ATELIER — GESTION DU QUAI"
+  },
+  {
+   "key": "case011.summary.evidence",
+   "value": "La synthèse de la patrouille disait « le nom de Daniel a été prononcé » ; la transcription intégrale de l’enregistrement a montré que c’était Thomas qui criait et que la phrase était « Je vais le dire à Daniel ». La liste des cartes a montré que la carte invalide était celle de Sam, les registres de ferraille ce que Thomas allait dire, et l’autopsie la marque de prise sur le bras et le fait qu’il était tombé vivant dans l’eau."
+  },
+  {
+   "key": "case011.summary.lesson",
+   "value": "Une synthèse n’est pas un enregistrement : regardez qui a noté une déposition, et comment. Celui qui ment n’est peut-être pas le coupable ; un mobile n’est pas une occasion."
+  },
+  {
+   "key": "case011.summary.location",
+   "value": "Rotherhithe, Halyard Wharf — 9–10 mars 2029"
+  },
+  {
+   "key": "case011.summary.truth",
+   "value": "Thomas Reed a découvert que son apprenti Sam Okafor volait des pièces en bronze à l’atelier et les vendait comme ferraille ; le soir du 9 mars, il l’a renvoyé et a fait annuler sa carte. Cette nuit-là à 23.04, la carte de Sam a été refusée au portail du quai ; Sam est entré par-dessus la clôture. Sur le ponton, Thomas a crié « Je vais le dire à Daniel ! » et a appelé son fils. Sam lui a attrapé le bras ; Thomas s’est dégagé, a glissé, s’est cogné la tête contre la bitte d’amarrage et est tombé à l’eau. Sam s’est enfui sans appeler à l’aide. Thomas s’est noyé. Daniel avait caché qu’il s’était disputé avec son père ce soir-là, mais il était parti à 21.52."
+  },
+  {
+   "key": "case011.suspect.label",
+   "value": "Qui était sur le ponton avec Thomas cette nuit-là ?"
+  },
+  {
+   "key": "case011.tablet.caseLine",
+   "value": "DOSSIER #011  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case011.time.bad_card",
+   "value": "23.04"
+  },
+  {
+   "key": "case011.time.call",
+   "value": "23.01"
+  },
+  {
+   "key": "case011.time.car",
+   "value": "21.26"
+  },
+  {
+   "key": "case011.time.car_out",
+   "value": "21.54"
+  },
+  {
+   "key": "case011.time.d_claim",
+   "value": "soirée"
+  },
+  {
+   "key": "case011.time.d_in",
+   "value": "21.28"
+  },
+  {
+   "key": "case011.time.d_out",
+   "value": "21.52"
+  },
+  {
+   "key": "case011.time.fired",
+   "value": "18.00"
+  },
+  {
+   "key": "case011.time.m_heard",
+   "value": "~23.10"
+  },
+  {
+   "key": "case011.time.pub_out",
+   "value": "21.08"
+  },
+  {
+   "key": "case011.time.runner",
+   "value": "23.12"
+  },
+  {
+   "key": "case011.time.s_claim",
+   "value": "18.30 →"
+  },
+  {
+   "key": "case011.time.t_in",
+   "value": "21.14"
+  },
+  {
+   "key": "case011.time.thomas_in",
+   "value": "21.13"
+  },
+  {
+   "key": "case011.title",
+   "value": "Dossier #011 — Sous le brouillard"
+  },
+  {
+   "key": "case011.tphone.body",
+   "value": "9 mars 2029, relevés choisis :\n\n17.52 · sortant · Gestion de Halyard Wharf · 3 min 40 s\n18.40 · entrant · Daniel Reed · 1 min 12 s\n21.05 · sortant · The Mooring Line (pub) · 0 s\n23.01 · sortant · Daniel Reed · sans réponse\n\nAucune activité sur le téléphone après 23.01. L’appareil a été retrouvé dans l’eau."
+  },
+  {
+   "key": "case011.tphone.title",
+   "value": "RELEVÉ TÉLÉPHONIQUE — THOMAS REED"
+  },
+  {
+   "key": "case011.transcript.body",
+   "value": "Transcription intégrale de l’enregistrement audio. 10 mars 07.05, bateau « Wren ».\n\nAGENT : Qu’avez-vous entendu ?\nHALE : Je n’arrivais pas à dormir. Un homme a crié ; il était très en colère. Il a dit : « Je vais le dire à Daniel ! » Comme ça. L’autre a dit quelque chose, à voix basse ; je n’ai pas saisi. Les planches ont grincé, comme une lutte. Puis un plouf.\nAGENT : Qui criait ?\nHALE : Thomas, je suppose. Sa voix était grave. Je ne sais pas à qui il parlait.\nAGENT : Donc le nom de Daniel a été prononcé.\nHALE : Oui, il l’a été.\nAGENT : D’accord. Autre chose ?\nHALE : Quelqu’un a couru. Vers la clôture. Puis plus rien.\nAGENT : Pourquoi n’avez-vous pas appelé ?\nHALE : Il y a toujours quelqu’un qui crie sur le quai la nuit. J’ai cru que le plouf, c’était une bouteille. Si seulement…"
+  },
+  {
+   "key": "case011.transcript.title",
+   "value": "TRANSCRIPTION DE L’ENREGISTREMENT DE LA DÉPOSITION — MARGARET HALE"
+  },
+  {
+   "key": "case011.verdict.daniel",
+   "value": "Daniel Reed"
+  },
+  {
+   "key": "case011.verdict.graham",
+   "value": "Graham Pike"
+  },
+  {
+   "key": "case011.verdict.none",
+   "value": "Personne — il est tombé seul"
+  },
+  {
+   "key": "case011.verdict.sam",
+   "value": "Sam Okafor"
+  },
+  {
+   "key": "case011.verdict.undetermined",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case011.item.bollard.name",
+   "value": "Bitte d’amarrage"
+  },
+  {
+   "key": "case011.item.bollard.detail",
+   "value": "La bitte d’amarrage en fonte au bout du ponton ; une tache sombre sur son bord supérieur."
+  },
+  {
+   "key": "case011.item.phone.name",
+   "value": "Téléphone"
+  },
+  {
+   "key": "case011.item.phone.detail",
+   "value": "Le téléphone de Thomas Reed, repêché dans l’eau ; l’écran fêlé."
+  },
+  {
+   "key": "case011.item.ledger.name",
+   "value": "Livre d’inventaire"
+  },
+  {
+   "key": "case011.item.ledger.detail",
+   "value": "Le livre d’inventaire de l’atelier, tenu au crayon."
+  },
+  {
+   "key": "case011.item.bronze.name",
+   "value": "Pièces en bronze"
+  },
+  {
+   "key": "case011.item.bronze.detail",
+   "value": "Pièces de bateau en bronze récupérées chez le ferrailleur."
+  }
+ ]
+}
