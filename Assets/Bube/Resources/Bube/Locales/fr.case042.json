@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case042.autopsy.body",
+   "value": "· Carboxyhémoglobine dans le sang 62 % : intoxication au monoxyde de carbone.\n· Lividités d’un rouge cerise vif.\n· En position de sommeil ; aucun signe de lutte. Heure du décès : 01.30–03.00.\n· Ventilation de la cabine réglée sur recyclage, pas sur l’air extérieur."
+  },
+  {
+   "key": "case042.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case042.cctv.event.climb",
+   "value": "Caméra : un homme en casquette grimpe derrière la cabine du camion au fond et tend la main vers la cheminée d’échappement."
+  },
+  {
+   "key": "case042.cctv.event.load",
+   "value": "Caméra : un second camion recule jusqu’à la remorque ouverte du camion au fond ; deux personnes déplacent des caisses sous la pluie."
+  },
+  {
+   "key": "case042.cctv.event.pull",
+   "value": "Caméra : le même homme remonte sur la cabine et retire quelque chose de la cheminée d’échappement."
+  },
+  {
+   "key": "case042.cctv.overlay",
+   "value": "LOT-N"
+  },
+  {
+   "key": "case042.cctv.period",
+   "value": "13–14 août 2030"
+  },
+  {
+   "key": "case042.cctv.source",
+   "value": "Caméra du parking"
+  },
+  {
+   "key": "case042.clue.climb",
+   "value": "L’homme en casquette tend la main vers l’échappement du camion au fond."
+  },
+  {
+   "key": "case042.clue.found",
+   "value": "La caissière trouve le corps."
+  },
+  {
+   "key": "case042.clue.load",
+   "value": "Un second camion recule jusqu’à la remorque ; des caisses sont transférées."
+  },
+  {
+   "key": "case042.clue.pull",
+   "value": "Le même homme retire quelque chose de l’échappement."
+  },
+  {
+   "key": "case042.clue.radio",
+   "value": "La victime annonce par radio qu’elle s’est arrêtée à cause de l’orage."
+  },
+  {
+   "key": "case042.clue.source.hollis",
+   "value": "Répartitrice"
+  },
+  {
+   "key": "case042.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case042.custody.label",
+   "value": "Comment le gaz a-t-il rempli la cabine ?"
+  },
+  {
+   "key": "case042.custody.leak",
+   "value": "Le pot d’échappement était percé"
+  },
+  {
+   "key": "case042.custody.plug",
+   "value": "L’échappement a été bouché avec un chiffon, puis le chiffon a été retiré"
+  },
+  {
+   "key": "case042.custody.storm",
+   "value": "La pluie a rempli l’échappement pendant l’orage"
+  },
+  {
+   "key": "case042.eld.body",
+   "value": "Le camion de la victime :\n\n· 00.42 stationné ; moteur au ralenti, climatisation de la cabine allumée.\n· 01.05 pic soudain de contre-pression à l’échappement ; moteur toujours au ralenti.\n· 03.21 capteur de porte de remorque : ouverte.\n· 04.02 la pression d’échappement redevient normale.\n· 05.10 panne de carburant, moteur arrêté."
+  },
+  {
+   "key": "case042.eld.title",
+   "value": "CAMION DE LA VICTIME — CHRONOTACHYGRAPHE ÉLECTRONIQUE"
+  },
+  {
+   "key": "case042.epilogue.custody.leak",
+   "value": "Il n’y avait aucun trou dans l’échappement de la victime."
+  },
+  {
+   "key": "case042.epilogue.custody.plug",
+   "value": "Il a été consigné que l’échappement avait été bouché par un chiffon pendant trois heures et dégagé avant l’aube."
+  },
+  {
+   "key": "case042.epilogue.custody.storm",
+   "value": "La pluie ne bouche pas un échappement pendant trois heures pour le dégager d’un coup."
+  },
+  {
+   "key": "case042.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; Lakeshore a déposé une demande d’indemnisation pour la cargaison."
+  },
+  {
+   "key": "case042.epilogue.verdict.hollis",
+   "value": "Bev Hollis a été licenciée et inculpée ; les caisses ont pris la mer à Newark."
+  },
+  {
+   "key": "case042.epilogue.verdict.patel",
+   "value": "Sunny Patel a été placée en garde à vue ; Tanner a atteint Newark."
+  },
+  {
+   "key": "case042.epilogue.verdict.tanner",
+   "value": "Wade Tanner a été arrêté ; les caisses ont été placées dans la réserve de l’antenne de Pilsen. Le numéro « H. » du message a été rattaché à la ligne d’entreprise de Lakeshore."
+  },
+  {
+   "key": "case042.evidence.eld",
+   "value": "Le chronotachygraphe de la victime"
+  },
+  {
+   "key": "case042.evidence.lot",
+   "value": "Caméra du parking"
+  },
+  {
+   "key": "case042.evidence.manifest",
+   "value": "Manifeste de la cargaison"
+  },
+  {
+   "key": "case042.evidence.ragcheck",
+   "value": "Le camion de Wade Tanner — examen"
+  },
+  {
+   "key": "case042.feedback.accident",
+   "value": "La pression d’échappement a monté pendant exactement trois heures et a chuté d’un coup ; la caméra montre quelqu’un retirant quelque chose du tuyau."
+  },
+  {
+   "key": "case042.feedback.hollis",
+   "value": "La répartitrice était à son bureau à Chicago cette nuit-là ; elle n’a pas changé l’itinéraire."
+  },
+  {
+   "key": "case042.feedback.patel",
+   "value": "La caissière a trouvé le corps et a remis la caméra ; elle n’est jamais allée au fond nord."
+  },
+  {
+   "key": "case042.feedback.tanner",
+   "value": "Son camion contient un chiffon couvert de suie de la largeur d’un tuyau d’échappement et les quatorze caisses disparues ; son chronotachygraphe montre des mouvements à l’heure où il dit avoir « dormi jusqu’au matin ». Ses messages : « La cargaison est avec moi. »"
+  },
+  {
+   "key": "case042.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case042.file.value.bureau",
+   "value": "BDS Chicago — Antenne de Pilsen"
+  },
+  {
+   "key": "case042.file.value.location",
+   "value": "Aire de repos de la I-80/90, Indiana"
+  },
+  {
+   "key": "case042.file.value.number",
+   "value": "BDC-CHI-2030-0251"
+  },
+  {
+   "key": "case042.file.value.offence",
+   "value": "Mort suspecte / perte de cargaison"
+  },
+  {
+   "key": "case042.file.value.reporter",
+   "value": "Exploitant de l’aire de repos"
+  },
+  {
+   "key": "case042.hollis.body",
+   "value": "Répartitrice de nuit."
+  },
+  {
+   "key": "case042.hollis.deflect",
+   "value": "Les informations d’expédition appartiennent à l’entreprise."
+  },
+  {
+   "key": "case042.hollis.radio.answer",
+   "value": "À 00.50, par radio. Il a dit qu’il s’était arrêté à cause de l’orage. Ensuite Wade m’a écrit, il a dit « je suis là aussi, on fait le convoi demain matin ». La cargaison allait à Newark, puis sur un bateau. Le siège a appelé trois fois au sujet de cette cargaison pour demander où elle était — ça n’arrive jamais."
+  },
+  {
+   "key": "case042.hollis.radio.answer.demeanor",
+   "value": "Enroule le câble de son casque autour de son doigt."
+  },
+  {
+   "key": "case042.hollis.radio.question",
+   "value": "Quand avez-vous parlé à Earl pour la dernière fois ?"
+  },
+  {
+   "key": "case042.hollis.title",
+   "value": "Bev Hollis — audition"
+  },
+  {
+   "key": "case042.line_cargo.body",
+   "value": "Une ligne a été ouverte pour le manifeste et les registres douaniers de la cargaison de la remorque."
+  },
+  {
+   "key": "case042.line_cargo.title",
+   "value": "LIGNE C — CARGAISON ET DOUANE"
+  },
+  {
+   "key": "case042.line_phone.body",
+   "value": "Une ligne a été ouverte pour les relevés téléphoniques des chauffeurs et de la répartitrice."
+  },
+  {
+   "key": "case042.line_phone.title",
+   "value": "LIGNE B — RELEVÉS TÉLÉPHONIQUES"
+  },
+  {
+   "key": "case042.line_truck.body",
+   "value": "Une ligne a été ouverte pour les chronotachygraphes électroniques et l’examen scientifique des deux camions."
+  },
+  {
+   "key": "case042.line_truck.title",
+   "value": "LIGNE A — CAMIONS ET POLICE SCIENTIFIQUE"
+  },
+  {
+   "key": "case042.lot.body",
+   "value": "Le fond nord du parking. 13–14 août 23.00 – 06.30."
+  },
+  {
+   "key": "case042.lot.title",
+   "value": "CAMÉRA DU PARKING DE L’AIRE DE REPOS — transcription du relevé"
+  },
+  {
+   "key": "case042.manifest.body",
+   "value": "· Cargaison : 14 caisses issues du conteneur 22, « pièces de machines ».\n· Destination : le port de Newark ; transbordement sur un navire partant pour Napoli le 16 août.\n· Destinataire à Napoli : une société de transport portuaire ; deux lettres dans la case d’approbation : « E. V. »"
+  },
+  {
+   "key": "case042.manifest.title",
+   "value": "MANIFESTE DE LA CARGAISON"
+  },
+  {
+   "key": "case042.method.co",
+   "value": "L’échappement a été bouché et la cabine s’est remplie de monoxyde de carbone"
+  },
+  {
+   "key": "case042.method.cold",
+   "value": "Il est mort de froid avec la climatisation allumée"
+  },
+  {
+   "key": "case042.method.heart",
+   "value": "Une crise cardiaque dans son sommeil"
+  },
+  {
+   "key": "case042.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case042.offer.subtitle",
+   "value": "L’ORAGE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case042.offer.summary",
+   "value": "Sur une aire de repos de l’Indiana, un chauffeur de Lakeshore est mort dans sa propre cabine ; sa remorque est vide."
+  },
+  {
+   "key": "case042.offer.title",
+   "value": "DOSSIER #042"
+  },
+  {
+   "key": "case042.patel.body",
+   "value": "Caissière de nuit."
+  },
+  {
+   "key": "case042.patel.deflect",
+   "value": "Je suis à la caisse ; le parking, ce n’est pas mon travail."
+  },
+  {
+   "key": "case042.patel.earl.answer",
+   "value": "Il passait deux fois par mois. Cette fois, il était tendu. « Après cette cargaison, je prends ma retraite, Sunny », il a dit. « Rien de bon dans cette cargaison. »"
+  },
+  {
+   "key": "case042.patel.earl.question",
+   "value": "Connaissiez-vous Earl ?"
+  },
+  {
+   "key": "case042.patel.night.answer",
+   "value": "De la pluie, des éclairs. À minuit, deux chauffeurs ont acheté un café ensemble ; celui à la casquette a dit : « Earl, ce soir c’est pour moi. » Vers 03.30, j’ai vu des phares au fond nord, un camion qui manœuvrait. La caméra est tournée par là ; je vous donnerai les images."
+  },
+  {
+   "key": "case042.patel.night.answer.demeanor",
+   "value": "Redresse son badge nominatif du bout des doigts."
+  },
+  {
+   "key": "case042.patel.night.question",
+   "value": "Qu’avez-vous vu dans la nuit ?"
+  },
+  {
+   "key": "case042.patel.title",
+   "value": "Sunny Patel — audition"
+  },
+  {
+   "key": "case042.person.hollis.info",
+   "value": "56 ans, la répartitrice de nuit de Lakeshore Freight."
+  },
+  {
+   "key": "case042.person.hollis.name",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.person.patel.info",
+   "value": "33 ans, caissière de nuit à l’aire de repos de l’autoroute."
+  },
+  {
+   "key": "case042.person.patel.name",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.person.tanner.info",
+   "value": "48 ans, chauffeur routier ; sous-traitant de Lakeshore."
+  },
+  {
+   "key": "case042.person.tanner.name",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.ragcheck.body",
+   "value": "L’examen du camion de Wade Tanner a trouvé :\n\n· Un chiffon rouge dans la caisse à outils ; une extrémité roulée à la largeur d’un tuyau d’échappement et raidie par la suie. Ses fibres correspondent à celles de l’embouchure de l’échappement de la victime.\n· Quatorze caisses dans la remorque ; étiquetées « pièces de machines », avec des numéros de lot de ventes parisiennes en dessous.\n· Le propre chronotachygraphe de Tanner montre des mouvements entre 03.18 et 03.58 ; cela contredit sa déclaration selon laquelle il a « dormi jusqu’au matin »."
+  },
+  {
+   "key": "case042.ragcheck.title",
+   "value": "LE CAMION DE WADE TANNER — EXAMEN"
+  },
+  {
+   "key": "case042.report.body",
+   "value": "Le matin du 14 août 2030, sur une aire de repos de la I-80/90 dans l’Indiana, le chauffeur routier Earl Gaines (59 ans), qui travaillait pour Lakeshore Freight, a été retrouvé mort sur la couchette de sa propre cabine. Le moteur s’était arrêté et le réservoir était vide ; les portes de la remorque frigorifique étaient ouvertes et la remorque était vide.\n\nLa caissière de l’aire de repos Sunny Patel a trouvé le corps à 06.20. Un chauffeur sous-traitant de Lakeshore, Wade Tanner, s’était lui aussi garé sur l’aire cette nuit-là. Le dernier contact radio de la victime a été avec la répartitrice de nuit Bev Hollis."
+  },
+  {
+   "key": "case042.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case042.request.eld",
+   "value": "Demander le chronotachygraphe de la victime"
+  },
+  {
+   "key": "case042.request.line_cargo",
+   "value": "Ouvrir la ligne cargaison et douane"
+  },
+  {
+   "key": "case042.request.line_phone",
+   "value": "Ouvrir la ligne relevés téléphoniques"
+  },
+  {
+   "key": "case042.request.line_truck",
+   "value": "Ouvrir la ligne camions et police scientifique"
+  },
+  {
+   "key": "case042.request.manifest",
+   "value": "Demander le manifeste de la cargaison"
+  },
+  {
+   "key": "case042.request.ragcheck",
+   "value": "Faire examiner le camion de Wade Tanner"
+  },
+  {
+   "key": "case042.request.texts",
+   "value": "Demander les messages de Wade Tanner"
+  },
+  {
+   "key": "case042.summary.evidence",
+   "value": "L’autopsie a montré le monoxyde de carbone, la caméra l’homme tendant la main vers l’échappement. La ligne camions a donné la pression d’échappement et les caisses dans la remorque de Tanner, la ligne téléphonique le message « La cargaison est avec moi ». La ligne cargaison a donné la destination des caisses : Napoli."
+  },
+  {
+   "key": "case042.summary.lesson",
+   "value": "Une mort qui semble venue dans le sommeil dit autre chose, ne serait-ce que par la couleur du sang."
+  },
+  {
+   "key": "case042.summary.location",
+   "value": "Indiana — août 2030"
+  },
+  {
+   "key": "case042.summary.truth",
+   "value": "On a offert dix mille dollars au chauffeur sous-traitant Wade Tanner pour arrêter Earl Gaines, qui transportait les caisses du conteneur 22 à Newark. La nuit de l’orage sur l’aire de repos, pendant qu’Earl dormait dans sa cabine climatisée, Tanner a bouché l’échappement avec un chiffon, a transféré les caisses dans sa propre remorque et a retiré le chiffon avant l’aube."
+  },
+  {
+   "key": "case042.suspect.label",
+   "value": "Qui a tué Earl Gaines ?"
+  },
+  {
+   "key": "case042.tablet.caseLine",
+   "value": "DOSSIER #042  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case042.tanner.body",
+   "value": "Chauffeur sous-traitant."
+  },
+  {
+   "key": "case042.tanner.deflect",
+   "value": "Je ne demande pas ce que je transporte ; je conduis."
+  },
+  {
+   "key": "case042.tanner.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case042.tanner.end.presented.ragcheck",
+   "value": "Quelqu’un m’a donné dix mille dollars pour les caisses, il a dit « endors Earl, prends la cargaison, tu la conduis à Newark ». Earl ne voulait pas lâcher la cargaison. Pendant un orage, tout le monde dort avec la clim, moteur allumé. J’ai enfoncé le chiffon. J’ai pris les caisses, j’ai retiré le chiffon. Je pensais qu’on croirait qu’il était mort de froid."
+  },
+  {
+   "key": "case042.tanner.end.presented.texts",
+   "value": "Des messages. Un plan de convoi."
+  },
+  {
+   "key": "case042.tanner.end.question",
+   "value": "Vous avez bouché l’échappement."
+  },
+  {
+   "key": "case042.tanner.night.answer",
+   "value": "J’ai pris un café avec Earl, je suis allé dans ma cabine, j’ai dormi jusqu’au matin. Qui prend la route pendant un orage ? Le matin, je me suis levé, je suis allé chez Earl, la police était déjà là."
+  },
+  {
+   "key": "case042.tanner.night.answer.demeanor",
+   "value": "Retire sa casquette et repousse ses cheveux en arrière."
+  },
+  {
+   "key": "case042.tanner.night.question",
+   "value": "Qu’avez-vous fait pendant la nuit ?"
+  },
+  {
+   "key": "case042.tanner.night.variant0",
+   "value": "La caméra ? Je me suis levé une fois dans la nuit ; la pluie entrait dans l’échappement d’Earl, j’ai jeté un œil, c’est tout."
+  },
+  {
+   "key": "case042.tanner.title",
+   "value": "Wade Tanner — audition"
+  },
+  {
+   "key": "case042.texts.body",
+   "value": "· 12 août, numéro inconnu à Wade Tanner : « Gaines ne lâche pas. Dix mille. Bateau à Newark le 16. — H. »\n· 13 août 23.58, Wade Tanner → Bev Hollis : « Je suis là aussi, convoi demain matin. »\n· 14 août 04.10, Wade Tanner → numéro inconnu : « La cargaison est avec moi. »\n\nEnregistrement du numéro inconnu : ligne d’entreprise de Lakeshore Freight, utilisateur « C. Harlan »."
+  },
+  {
+   "key": "case042.texts.title",
+   "value": "LES MESSAGES DE WADE TANNER"
+  },
+  {
+   "key": "case042.time.climb",
+   "value": "01.04"
+  },
+  {
+   "key": "case042.time.found",
+   "value": "06.20"
+  },
+  {
+   "key": "case042.time.load",
+   "value": "03.20–03.55"
+  },
+  {
+   "key": "case042.time.pull",
+   "value": "04.02"
+  },
+  {
+   "key": "case042.time.radio",
+   "value": "00.50"
+  },
+  {
+   "key": "case042.title",
+   "value": "Dossier #042 — L’Orage"
+  },
+  {
+   "key": "case042.verdict.accident",
+   "value": "Personne — les gaz d’échappement ont rempli la cabine pendant l’orage"
+  },
+  {
+   "key": "case042.verdict.hollis",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.verdict.patel",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.verdict.tanner",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.item.rag.name",
+   "value": "Chiffon couvert de suie"
+  },
+  {
+   "key": "case042.item.rag.detail",
+   "value": "Un chiffon de la caisse à outils d’un camion ; une extrémité raidie par la suie noire, roulée à la largeur d’un tuyau d’échappement."
+  },
+  {
+   "key": "case042.item.pipe.name",
+   "value": "Cheminée d’échappement"
+  },
+  {
+   "key": "case042.item.pipe.detail",
+   "value": "La sortie d’échappement verticale du camion de la victime ; des fibres de coton rouges à l’intérieur de l’embouchure."
+  },
+  {
+   "key": "case042.item.seal.name",
+   "value": "Scellé de remorque rompu"
+  },
+  {
+   "key": "case042.item.seal.detail",
+   "value": "Le scellé de sécurité numéroté en plastique de la porte de la remorque ; coupé à la cisaille."
+  }
+ ]
+}
