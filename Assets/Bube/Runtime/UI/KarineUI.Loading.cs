@@ -33,9 +33,9 @@ public static partial class KarineUI {
   layer.style.backgroundColor=KarineTheme.Background;layer.style.alignItems=Align.Center;layer.style.justifyContent=Justify.Center;
   layer.RegisterCallback<PointerDownEvent>(e=>e.StopPropagation());
   root.Add(layer);
-  var vignette=new VisualElement {pickingMode=PickingMode.Ignore};vignette.style.position=Position.Absolute;
-  vignette.style.left=0;vignette.style.right=0;vignette.style.top=0;vignette.style.bottom=0;
-  vignette.style.backgroundImage=new StyleBackground(Vignette());layer.Add(vignette);
+  // Karartma dokusu beyazdır; renk tintle verilir (verilmezse kenarlar griye boğulur).
+  var vignette=new Image {image=Vignette(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Alpha(KarineTheme.Background,.9f)};vignette.style.position=Position.Absolute;
+  vignette.style.left=0;vignette.style.right=0;vignette.style.top=0;vignette.style.bottom=0;layer.Add(vignette);
   var logo=KarineLogo.Hero(layer,L.LogoWidth);
   var bar=new VisualElement();bar.style.width=Length.Percent(L.BarWidth);bar.style.height=L.BarHeight;bar.style.marginTop=KarineTheme.SpaceXl;
   bar.style.backgroundColor=KarineTheme.Panel2;Round(bar,L.BarHeight/2);bar.style.overflow=Overflow.Hidden;layer.Add(bar);

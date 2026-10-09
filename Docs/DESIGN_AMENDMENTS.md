@@ -1199,3 +1199,10 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - Ayarlara altıncı sekme "Hesap" eklendi: durum, bağla, çıkış, hesabı ve verileri sil (onay formu, geri alınamaz), web'den silme sayfası, gizlilik politikası.
 - Dil önceliği: kayıtlı seçim → cihaz dili → ülke → İngilizce. Ülke yalnız cihaz dili desteklenmiyorsa kullanılır.
 - Giriş kağıdının görünüşü geçicidir; ChatGPT maketi gelince değişir. Apple/Google düğmeleri resmi marka kurallarına uymalı.
+
+## 9 Ekim 2026 — Giriş ekranı ve açılış videosu
+
+- **Giriş ekranı** yatay maketle yeniden yapıldı (`Docs/Reference/UI_LOGIN_2026-10.webp`): yazısız masa arka planı (`Bube/Art/LoginBackdrop`), solda KARINE logosu, sağda ataçsız düz dosya kâğıdı. Logo altında oyunun kimliğini anlatan beş ifade döner; ilk açılışta daima "Her karine bir izdir. Her iz bir gerçeğe çıkar mı?" gelir. Hareketler: arka plan yaklaşması, lamba titremesi, toz, kâğıt salınımı. Efekt kapalıysa ekran durağandır.
+- Görsel üretim kuralı: arka planlar **yazısız** üretilir; logo, düğme ve metinler kodla çizilir. Böylece tek görsel yedi dile yeter.
+- Apple/Google logoları şimdilik **temsilî** (kodla çizildi); mağazadan önce resmî dosyalarla değiştirilecek.
+- **Açılış (yükleme) ekranı** arka planı: `StreamingAssets/Bube/splash_loop.mp4`. Gemini, 10 sn, sessiz döngü; yağmurlu, adsız bir şehirde lamba altında Bora. Hiçbir ülkeyi göstermez, on bölüme de uyar. Video hazır olunca belirir, açılamazsa düz zemin kalır. Yalnız oyunun ilk açılışında oynar, oyun içi geçişlerde oynamaz.

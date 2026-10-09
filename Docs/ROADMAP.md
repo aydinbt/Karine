@@ -662,6 +662,7 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [~] İngilizce çeviri: 12.755 satır (ortak + 73 vaka), denetim 0 sorun; sözlük `Translation/GLOSSARY_en.md`. Oyunda okunmadı.
 - [~] Almanca çeviri (9 Ekim 2026): 12.833 satır (ortak + 73 vaka), denetim 0 sorun; sözlük `Translation/GLOSSARY_de.md`. Oyunda okunmadı.
 - [ ] Giriş ekranı Apple/Google logoları **temsilî** (9 Ekim 2026, kodla çizildi): mağazaya göndermeden önce resmî dosyalarla değiştir — `Bube/Art/Icons/apple.png` (beyaz), `google.png` (dört renkli G). Giriş ekranının yatay maketi `[~]`, Unity'de görülmedi.
+- [~] Açılış videosu (`splash_loop.mp4`) yükleme ekranının arka planında; başsız PlayMode ekran görüntüsünde oynadığı görüldü, cihazda denenmedi (9 Ekim 2026).
 - [ ] Çeviriler: fr, it, es, pt-BR — her biri tüm satırlar, denetim 0 sorun. (Kullanıcı onayı bekleniyor.)
 - [ ] Her dilde #001 Play Mode'da oynanır; Almanca ve Fransızcada uzun metnin düğme/sekme taşması gözle kontrol edilir.
 - [ ] Mağaza sayfası metinleri altı dilde.

@@ -253,6 +253,7 @@ public static class KarineTheme {
  }
  public static class Loading {
   public const float MinSeconds=2.4f, TipSeconds=3.2f, TransitSeconds=3.2f, TransitTipSeconds=99f, FadeSeconds=.6f, BarWidth=42f;
+  public const float VideoVeil=.45f;
   public const int LogoWidth=520, TipSize=18, LabelSize=14, BarHeight=6, StudioHeight=44, StudioTextSize=18;
  }
  // Gelen evrak modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_INBOX_2026-10.png).
