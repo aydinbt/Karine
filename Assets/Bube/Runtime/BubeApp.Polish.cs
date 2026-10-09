@@ -39,9 +39,9 @@ public sealed partial class BubeApp {
  }
 
  // Ayarlar: renk körlüğü düzeltmesi ve kaydırıcıyla yazı boyu.
- void LoadPolishDraft(){draftColor=CrtPass.ColorFilter;LoadLampDraft();}
+ void LoadPolishDraft(){draftColor=CrtPass.ColorFilter;LoadLampDraft();LoadCosmeticDrafts();}
  void ResetPolishDraft(){draftColor=0;draftLamp=0;}
- void SavePolishDraft(){PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);SaveLampDraft();}
+ void SavePolishDraft(){PlayerPrefs.SetInt(CrtPass.ColorKey,draftColor);SaveLampDraft();SaveCosmeticDrafts();}
 
  // Masa: lamba, kablo, şehir pencereleri, takvim (yeri hatırlanır).
  void LampTintOnly(VisualElement stage) {

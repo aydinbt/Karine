@@ -1254,3 +1254,7 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
   - Renkler sırayla açılır: yalnız sıradaki renk "Reklamla aç" ile açılır. Diğerleri "önce X açılmalı" der.
   - Ayarlar kapanınca kayıtlı renge dönülür.
 - **Fiyat (kullanıcı onayı):** Reklamları kaldır ≈ ₺79, Kalıcı öncelik ≈ ₺59. Fiyatlar mağaza konsolunda girilir; oyun mağazanın yerel fiyatını gösterir.
+
+## Görselsiz kozmetikler (9 Ekim 2026)
+
+**Kullanıcı:** "1. maddedeki dördünü sırayla yap" → görselsiz kozmetikler. Ekran rengi, damga mürekkebi, şehir ışıkları ve film tonu eklendi; her biri 4 renk, ilki varsayılan. Lambanın kuralı aynen geçerli: önizleme, sırayla açılma, her açılış bir ödüllü reklam, reklamları kaldıran oyuncuya hepsi açık. Yalnız görünüm; oyun durumunu kodlamaz. Önizleme ekran yeniden çizilince görünür (lamba gibi canlı değil).

@@ -19,7 +19,7 @@ public sealed partial class BubeApp {
  // Buluta anlık iz yazılmaz: yalnız kariyerde bir dönüm noktası olunca (rapor gönderildi,
  // dosya değerlendirildi, rütbe ya da ödül değişti) bir kez yazılır.
  string cloudMark;
- string CareerMark(){var c=game.Career;return c.reviewHistory.Count+"|"+c.pendingReviews.Count+"|"+c.careerRankId+"|"+c.retired+"|"+c.unlockedLamps.Count;}
+ string CareerMark(){var c=game.Career;return c.reviewHistory.Count+"|"+c.pendingReviews.Count+"|"+c.careerRankId+"|"+c.retired+"|"+c.unlockedLamps.Count+"|"+c.unlockedCosmetics.Count;}
  void CloudDirty(){
   if(!Accounts.Provider.CloudReady || game?.Career==null)return;
   var mark=CareerMark();if(mark==cloudMark)return;

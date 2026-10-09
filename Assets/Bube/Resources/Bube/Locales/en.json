@@ -4903,6 +4903,106 @@
   {
    "key": "store.error.failed",
    "value": "The transaction could not be completed. Please try again later."
+  },
+  {
+   "key": "settings.cosmetic.preview.hint",
+   "value": "This is how it looks once the screen redraws. Unlock it to keep it."
+  },
+  {
+   "key": "settings.cosmetic.screen",
+   "value": "Screen colour"
+  },
+  {
+   "key": "settings.cosmetic.screen.hint",
+   "value": "The text colour on the computer screen. Appearance only."
+  },
+  {
+   "key": "settings.cosmetic.screen.0",
+   "value": "Phosphor white"
+  },
+  {
+   "key": "settings.cosmetic.screen.1",
+   "value": "Green phosphor"
+  },
+  {
+   "key": "settings.cosmetic.screen.2",
+   "value": "Amber"
+  },
+  {
+   "key": "settings.cosmetic.screen.3",
+   "value": "Ice blue"
+  },
+  {
+   "key": "settings.cosmetic.ink",
+   "value": "Stamp ink"
+  },
+  {
+   "key": "settings.cosmetic.ink.hint",
+   "value": "The ink of the case-file stamps. Appearance only."
+  },
+  {
+   "key": "settings.cosmetic.ink.0",
+   "value": "Red"
+  },
+  {
+   "key": "settings.cosmetic.ink.1",
+   "value": "Navy"
+  },
+  {
+   "key": "settings.cosmetic.ink.2",
+   "value": "Black"
+  },
+  {
+   "key": "settings.cosmetic.ink.3",
+   "value": "Green"
+  },
+  {
+   "key": "settings.cosmetic.city",
+   "value": "City lights"
+  },
+  {
+   "key": "settings.cosmetic.city.hint",
+   "value": "The lights of the night city in the window. Appearance only."
+  },
+  {
+   "key": "settings.cosmetic.city.0",
+   "value": "Warm"
+  },
+  {
+   "key": "settings.cosmetic.city.1",
+   "value": "Sodium"
+  },
+  {
+   "key": "settings.cosmetic.city.2",
+   "value": "Cold"
+  },
+  {
+   "key": "settings.cosmetic.city.3",
+   "value": "Neon pink"
+  },
+  {
+   "key": "settings.cosmetic.film",
+   "value": "Film tone"
+  },
+  {
+   "key": "settings.cosmetic.film.hint",
+   "value": "The faint film tone over the screen. Appearance only."
+  },
+  {
+   "key": "settings.cosmetic.film.0",
+   "value": "Sepia"
+  },
+  {
+   "key": "settings.cosmetic.film.1",
+   "value": "Night blue"
+  },
+  {
+   "key": "settings.cosmetic.film.2",
+   "value": "Black and white"
+  },
+  {
+   "key": "settings.cosmetic.film.3",
+   "value": "Burgundy"
   }
  ]
 }

@@ -19,7 +19,7 @@ public sealed partial class BubeApp {
   settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();draftLanguage=language;
   RenderSettings();
  }
- void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;EndLampPreview();}
+ void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;EndLampPreview();Cosmetics.EndPreview();}
 
  static readonly string[] SettingsTabs={"general","sound","display","access","play","account"};
  static readonly string[] SettingsIcons={"gear","music","binoculars","info","gamepad","person"};
@@ -103,6 +103,7 @@ public sealed partial class BubeApp {
   var color=CardRow(body,"settings.colorFilter","settings.color.hint");
   for(int i=0;i<4;i++){int v=i;Choice(color,T("settings.color."+v),null,draftColor==v,()=>draftColor=v,true);}
   LampOptions(CardRow(body,"settings.lampTint","settings.lamp.hint"));
+  foreach(var id in Cosmetics.Ids)CosmeticOptions(CardRow(body,"settings.cosmetic."+id,"settings.cosmetic."+id+".hint"),id);
  }
  void AccessSettings(VisualElement body) {
   SwitchRow(body,"settings.motion",draftReduced,()=>draftReduced=!draftReduced);

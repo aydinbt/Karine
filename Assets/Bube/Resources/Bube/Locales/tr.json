@@ -4903,6 +4903,106 @@
   {
    "key": "store.error.failed",
    "value": "İşlem tamamlanamadı. Daha sonra tekrar dene."
+  },
+  {
+   "key": "settings.cosmetic.preview.hint",
+   "value": "Ekran yeniden çizilince böyle görünür. Saklamak için aç."
+  },
+  {
+   "key": "settings.cosmetic.screen",
+   "value": "Ekran rengi"
+  },
+  {
+   "key": "settings.cosmetic.screen.hint",
+   "value": "Bilgisayar ekranındaki yazının rengi. Yalnız görünüm."
+  },
+  {
+   "key": "settings.cosmetic.screen.0",
+   "value": "Fosfor beyazı"
+  },
+  {
+   "key": "settings.cosmetic.screen.1",
+   "value": "Yeşil fosfor"
+  },
+  {
+   "key": "settings.cosmetic.screen.2",
+   "value": "Kehribar"
+  },
+  {
+   "key": "settings.cosmetic.screen.3",
+   "value": "Buz mavisi"
+  },
+  {
+   "key": "settings.cosmetic.ink",
+   "value": "Damga mürekkebi"
+  },
+  {
+   "key": "settings.cosmetic.ink.hint",
+   "value": "Dosya damgalarının mürekkebi. Yalnız görünüm."
+  },
+  {
+   "key": "settings.cosmetic.ink.0",
+   "value": "Kırmızı"
+  },
+  {
+   "key": "settings.cosmetic.ink.1",
+   "value": "Lacivert"
+  },
+  {
+   "key": "settings.cosmetic.ink.2",
+   "value": "Siyah"
+  },
+  {
+   "key": "settings.cosmetic.ink.3",
+   "value": "Yeşil"
+  },
+  {
+   "key": "settings.cosmetic.city",
+   "value": "Şehir ışıkları"
+  },
+  {
+   "key": "settings.cosmetic.city.hint",
+   "value": "Penceredeki gece şehrinin ışıkları. Yalnız görünüm."
+  },
+  {
+   "key": "settings.cosmetic.city.0",
+   "value": "Sıcak"
+  },
+  {
+   "key": "settings.cosmetic.city.1",
+   "value": "Sodyum"
+  },
+  {
+   "key": "settings.cosmetic.city.2",
+   "value": "Soğuk"
+  },
+  {
+   "key": "settings.cosmetic.city.3",
+   "value": "Neon pembe"
+  },
+  {
+   "key": "settings.cosmetic.film",
+   "value": "Film tonu"
+  },
+  {
+   "key": "settings.cosmetic.film.hint",
+   "value": "Ekranın üzerindeki hafif film tonu. Yalnız görünüm."
+  },
+  {
+   "key": "settings.cosmetic.film.0",
+   "value": "Sepya"
+  },
+  {
+   "key": "settings.cosmetic.film.1",
+   "value": "Gece mavisi"
+  },
+  {
+   "key": "settings.cosmetic.film.2",
+   "value": "Siyah-beyaz"
+  },
+  {
+   "key": "settings.cosmetic.film.3",
+   "value": "Bordo"
   }
  ]
 }

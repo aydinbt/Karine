@@ -63,9 +63,9 @@ public static partial class KarineUI {
  // Kâğıda çapraz basılmış mürekkep damgası.
  public static void GuidanceStamp(VisualElement parent,string text) {
   var row=new VisualElement {pickingMode=PickingMode.Ignore};row.style.alignItems=Align.FlexEnd;row.style.marginBottom=KarineTheme.SpaceMd;parent.Add(row);
-  var stamp=new VisualElement {name="GuidanceStamp",pickingMode=PickingMode.Ignore};Border(stamp,4,KarineTheme.Alpha(KarineTheme.Paper.Stamp,.85f));Round(stamp,KarineTheme.Radius);
+  var stamp=new VisualElement {name="GuidanceStamp",pickingMode=PickingMode.Ignore};Border(stamp,4,KarineTheme.Alpha(KarineTheme.Paper.StampInk,.85f));Round(stamp,KarineTheme.Radius);
   stamp.style.paddingLeft=stamp.style.paddingRight=KarineTheme.SpaceLg;stamp.style.rotate=new Rotate(-8);row.Add(stamp);
-  var t=Write(stamp,text.ToUpper(TextCulture),KarineTheme.Alpha(KarineTheme.Paper.Stamp,.9f),G.StampSize,Heading);t.style.marginBottom=0;
+  var t=Write(stamp,text.ToUpper(TextCulture),KarineTheme.Alpha(KarineTheme.Paper.StampInk,.9f),G.StampSize,Heading);t.style.marginBottom=0;
  }
  // Kâğıt üstünde koyu durum kutusu: ikon, küçük başlık, büyük kehribar durum.
  public static void GuidanceStatus(VisualElement parent,string icon,string heading,string status,int trend) {

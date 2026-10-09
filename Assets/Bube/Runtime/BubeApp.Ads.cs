@@ -58,6 +58,36 @@ public sealed partial class BubeApp {
  void LoadLampDraft()=>draftLamp=LampTint;
  void SaveLampDraft()=>PlayerPrefs.SetInt(LampTintKey,LampUnlocked(draftLamp)?draftLamp:0);
 
+ // Görselsiz kozmetikler lambayla aynı kurala uyar: önizleme, sırayla açılma, reklamsıza hepsi açık.
+ readonly System.Collections.Generic.Dictionary<string,int> draftCosmetic=new System.Collections.Generic.Dictionary<string,int>();
+ bool CosmeticUnlocked(string id,int i)=>i==0 || AdGateway.AdsRemoved || game.Career.unlockedCosmetics.Contains(id+":"+i);
+ int NextCosmetic(string id){
+  for(int i=1;i<Cosmetics.Colors(id).Length;i++)if(!CosmeticUnlocked(id,i))return i;
+  return -1;
+ }
+ int DraftCosmetic(string id)=>draftCosmetic.TryGetValue(id,out var v)?v:Cosmetics.Saved(id);
+ void CosmeticOptions(VisualElement control,string id) {
+  var colors=Cosmetics.Colors(id);int draft=DraftCosmetic(id);
+  for(int i=0;i<colors.Length;i++) {
+   int v=i;bool open=CosmeticUnlocked(id,v);
+   var card=KarineUI.SettingCard(control,open?null:"lock",T("settings.cosmetic."+id+"."+v),open?null:T(v==NextCosmetic(id)?"settings.lamp.next":"settings.lamp.later"),draft==v,()=>{draftCosmetic[id]=v;Cosmetics.Preview(id,v);RenderSettings();});
+   KarineUI.Swatch(card,colors[v]);
+   KarineUI.Quarter(card);
+  }
+  if(CosmeticUnlocked(id,draft))return;
+  int next=NextCosmetic(id);
+  if(draft!=next){KarineUI.Body_(control,string.Format(T("settings.lamp.order"),T("settings.cosmetic."+id+"."+next)),KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;return;}
+  var unlock=KarineUI.SettingRow(control,T("settings.lamp.preview"),T("settings.cosmetic.preview.hint"));
+  if(!AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))return;
+  Button(unlock,T("settings.lamp.unlock"),()=>AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
+   if(!granted)return;
+   var key=id+":"+next;
+   if(!game.Career.unlockedCosmetics.Contains(key))game.Career.unlockedCosmetics.Add(key);Save();RenderSettings();
+  }));
+ }
+ void LoadCosmeticDrafts(){draftCosmetic.Clear();Cosmetics.EndPreview();}
+ void SaveCosmeticDrafts(){foreach(var p in draftCosmetic)Cosmetics.Save(p.Key,CosmeticUnlocked(p.Key,p.Value)?p.Value:0);}
+
  // Uzun bekleyiş: her ödüllü reklam kalan süreden `PriorityStepSeconds` düşer, yani 20 dakikalık
  // inceleme 2, 30 dakikalık 3 reklamdır. Yarıda bırakılan reklam boşa gitmez; kalan süre kısalmış olur.
  const double PriorityStepSeconds=600;

@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**9 Ekim (gece, 5):** Dört görselsiz kozmetik girdi: ekran rengi, damga mürekkebi, şehir ışıkları, film tonu (Ayarlar › Görüntü, lambanın altında). Lambayla aynı kural: önizleme, sırayla reklamla açılma. Gözle görülmedi.
+
 **9 Ekim (gece, 4):** Gelir modeli kodlandı.
 - İzin gerektiren incelemeler 20–30 dakika sürüyor. Her ödüllü reklam süreyi 10 dakika kısaltıyor, yani 2–3 reklamla hemen alınıyor.
 - "Kalıcı öncelik" satın alması eklendi.

@@ -139,9 +139,9 @@ public static partial class KarineUI {
   veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.alignItems=Align.Center;veil.style.justifyContent=Justify.Center;root.Add(veil);
   var mark=new Label(label) {pickingMode=PickingMode.Ignore};
-  mark.style.color=KarineTheme.Alpha(KarineTheme.Paper.Stamp,.92f);mark.style.fontSize=Typography.Snap(S.StampText);
+  mark.style.color=KarineTheme.Alpha(KarineTheme.Paper.StampInk,.92f);mark.style.fontSize=Typography.Snap(S.StampText);
   mark.style.unityFontStyleAndWeight=FontStyle.Bold;mark.style.letterSpacing=6;
-  Border(mark,4,KarineTheme.Alpha(KarineTheme.Paper.Stamp,.92f));Round(mark,6);
+  Border(mark,4,KarineTheme.Alpha(KarineTheme.Paper.StampInk,.92f));Round(mark,6);
   mark.style.paddingLeft=26;mark.style.paddingRight=26;mark.style.paddingTop=10;mark.style.paddingBottom=10;
   mark.style.rotate=new Rotate(Angle.Degrees(-8));veil.Add(mark);
   if(Fonts?.MonoBold!=null)mark.style.unityFontDefinition=FontDefinition.FromFont(Fonts.MonoBold);

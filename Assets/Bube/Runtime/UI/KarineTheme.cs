@@ -34,11 +34,18 @@ public static class KarineTheme {
  }
 
  // Üçüncü kademe (`KarineUI.Film`): ekranın film dokusu ve CCTV cihaz izleri.
+ // Görselsiz kozmetikler (9 Ekim 2026): her dizinin ilki varsayılan; sırayla açılır.
+ public static class Cosmetic {
+  public static readonly Color[] Screen={new Color(.88f,.97f,.94f,1),Hex("#7CF29A"),Hex("#FFB347"),Hex("#8FD3FF")};
+  public static readonly Color[] Ink={Hex("#733A2E"),Hex("#2B3F73"),Hex("#262626"),Hex("#2F5E3A")};
+  public static readonly Color[] City={Hex("#FFE9C2"),Hex("#FFC86B"),Hex("#A8E6FF"),Hex("#FF9DB0")};
+  public static readonly Color[] Film={Hex("#3A2A18"),Hex("#182A3A"),Hex("#222222"),Hex("#3A1828")};
+ }
  public static class Film {
-  public static readonly Color Tone=Hex("#3A2A18");
+  public static Color Tone=>Cosmetic.Film[Cosmetics.Chosen("film")];
   public const float ToneAlpha=.06f, GrainAlpha=.07f, GrainPixel=2f;
   public const int GrainMs=83;
-  public static readonly Color Phosphor=new Color(.88f,.97f,.94f,1);
+  public static Color Phosphor=>Cosmetic.Screen[Cosmetics.Chosen("screen")];
   public const float CrtSeconds=.42f, SnowAlpha=.5f, SnowSeconds=.45f, TimecodeSeconds=.4f;
   public static readonly Color ChromaRed=new Color(1,.25f,.2f,.14f), ChromaCyan=new Color(.2f,.9f,1,.12f);
   public const float ChromaShift=1.6f, TrackingAlpha=.22f, TrackingHeight=5f, TrackingJitter=6f;
@@ -477,6 +484,8 @@ public static class KarineTheme {
   public static readonly Color Ink   = Hex("#212933"); // kâğıdın üstündeki yazı
   public static readonly Color Faded = Hex("#635C4F"); // ikincil satır, tarih
   public static readonly Color Stamp = Hex("#733A2E"); // mühür/arma kahvesi
+  // Mühürlerin mürekkebi: oyuncunun seçtiği kozmetik renk.
+  public static Color StampInk => Cosmetic.Ink[Cosmetics.Chosen("ink")];
   public static readonly Color Light = Hex("#FAEDD4"); // kâğıdın aydınlık yeri
   public static readonly Color Tint  = Hex("#C9A06B"); // manila: kâğıdın üstündeki kart/şerit
   public static readonly Color Edge  = Hex("#9E927C"); // kâğıt üstü çizgi ve kenar

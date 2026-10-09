@@ -635,3 +635,7 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 - **İpucu ekranı.** `GuidancePage(Action back)` artık reklamsız. Masanın üst şeridinden (`guidance.desk`) ve reddedilen faksın altından açılır. `AdPlacement.RewardedGuidance` enum'da duruyor ama kullanılmıyor.
 - **Ağır bekleme.** `Investigation.HeavyWaitSeconds(node)`: izin gerektiren düğümde (`warrant` dolu) arşiv ve hat 1800 sn, diğerleri 1200 sn; `Priority.Owned` ise 0. `SubmitWarrant` bu süreyle vakanın kendi süresinin büyüğünü alır. Doğrulayıcı ve testler `waitSeconds: 0` geçtiği için etkilenmez. Öncelik: `BubeApp.SkipWait(...)`, her ödül 600 sn düşer (`PriorityStepSeconds`).
 - **Mağaza.** `IStore` ürün kimliğiyle çalışır (`Price(id)`, `Buy(id)`); makbuzun etkisi `Store.Grant` içinde toplanır.
+
+## Görselsiz kozmetikler
+
+`Cosmetics` (Runtime) seçimi `karine.cosmetic.{id}` PlayerPrefs anahtarında tutar; `Chosen(id)` önizlemeyi önceler. Renkler `KarineTheme.Cosmetic.{Screen,Ink,City,Film}`; `Film.Phosphor`, `Film.Tone`, `Paper.StampInk` ve `CityWindows` bunları okur. Açılanlar `CareerProgress.unlockedCosmetics` ("screen:2"), sayısı `CareerMark`a dahil. Ayar satırı `BubeApp.Ads.cs` → `CosmeticOptions`; önizleme `CloseSettings`te kalkar.

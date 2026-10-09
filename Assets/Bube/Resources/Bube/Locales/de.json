@@ -4903,6 +4903,106 @@
   {
    "key": "store.error.failed",
    "value": "Der Vorgang konnte nicht abgeschlossen werden. Versuche es später erneut."
+  },
+  {
+   "key": "settings.cosmetic.preview.hint",
+   "value": "So sieht es aus, sobald der Bildschirm neu zeichnet. Freischalten, um es zu behalten."
+  },
+  {
+   "key": "settings.cosmetic.screen",
+   "value": "Bildschirmfarbe"
+  },
+  {
+   "key": "settings.cosmetic.screen.hint",
+   "value": "Die Schriftfarbe auf dem Computerbildschirm. Nur Optik."
+  },
+  {
+   "key": "settings.cosmetic.screen.0",
+   "value": "Phosphorweiß"
+  },
+  {
+   "key": "settings.cosmetic.screen.1",
+   "value": "Grüner Phosphor"
+  },
+  {
+   "key": "settings.cosmetic.screen.2",
+   "value": "Bernstein"
+  },
+  {
+   "key": "settings.cosmetic.screen.3",
+   "value": "Eisblau"
+  },
+  {
+   "key": "settings.cosmetic.ink",
+   "value": "Stempelfarbe"
+  },
+  {
+   "key": "settings.cosmetic.ink.hint",
+   "value": "Die Tinte der Aktenstempel. Nur Optik."
+  },
+  {
+   "key": "settings.cosmetic.ink.0",
+   "value": "Rot"
+  },
+  {
+   "key": "settings.cosmetic.ink.1",
+   "value": "Marineblau"
+  },
+  {
+   "key": "settings.cosmetic.ink.2",
+   "value": "Schwarz"
+  },
+  {
+   "key": "settings.cosmetic.ink.3",
+   "value": "Grün"
+  },
+  {
+   "key": "settings.cosmetic.city",
+   "value": "Stadtlichter"
+  },
+  {
+   "key": "settings.cosmetic.city.hint",
+   "value": "Die Lichter der nächtlichen Stadt im Fenster. Nur Optik."
+  },
+  {
+   "key": "settings.cosmetic.city.0",
+   "value": "Warm"
+  },
+  {
+   "key": "settings.cosmetic.city.1",
+   "value": "Natrium"
+  },
+  {
+   "key": "settings.cosmetic.city.2",
+   "value": "Kalt"
+  },
+  {
+   "key": "settings.cosmetic.city.3",
+   "value": "Neonpink"
+  },
+  {
+   "key": "settings.cosmetic.film",
+   "value": "Filmton"
+  },
+  {
+   "key": "settings.cosmetic.film.hint",
+   "value": "Der leichte Filmton über dem Bildschirm. Nur Optik."
+  },
+  {
+   "key": "settings.cosmetic.film.0",
+   "value": "Sepia"
+  },
+  {
+   "key": "settings.cosmetic.film.1",
+   "value": "Nachtblau"
+  },
+  {
+   "key": "settings.cosmetic.film.2",
+   "value": "Schwarzweiß"
+  },
+  {
+   "key": "settings.cosmetic.film.3",
+   "value": "Bordeaux"
   }
  ]
 }

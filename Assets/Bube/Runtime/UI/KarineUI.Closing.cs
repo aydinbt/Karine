@@ -73,8 +73,8 @@ public static partial class KarineUI {
   cover.style.left=cover.style.right=cover.style.top=cover.style.bottom=0;cover.style.backgroundColor=KarineTheme.Paper.Folder;
   Stretched(cover,"Bube/UI/paper_folder");Border(cover,2,KarineTheme.Paper.Edge);
   cover.style.transformOrigin=new TransformOrigin(0,Length.Percent(50));cover.style.scale=new Scale(new Vector3(0,1,1));folder.Add(cover);
-  var stamp=Technical(folder,stampText,S.ClosedStampSize);stamp.style.color=KarineTheme.Paper.Stamp;stamp.style.position=Position.Absolute;
-  stamp.style.alignSelf=Align.Center;stamp.style.top=Length.Percent(38);Border(stamp,4,KarineTheme.Paper.Stamp);Round(stamp,4);
+  var stamp=Technical(folder,stampText,S.ClosedStampSize);stamp.style.color=KarineTheme.Paper.StampInk;stamp.style.position=Position.Absolute;
+  stamp.style.alignSelf=Align.Center;stamp.style.top=Length.Percent(38);Border(stamp,4,KarineTheme.Paper.StampInk);Round(stamp,4);
   stamp.style.paddingLeft=stamp.style.paddingRight=KarineTheme.SpaceLg;stamp.style.letterSpacing=4;stamp.style.rotate=new Rotate(-10);stamp.style.opacity=0;
   Label noteText=null;
   if(!string.IsNullOrEmpty(note)) {
@@ -109,8 +109,8 @@ public static partial class KarineUI {
   var yearText=Technical(folder,year,S.ClosedStampSize);yearText.style.color=KarineTheme.Alpha(KarineTheme.Paper.Ink,.75f);yearText.style.letterSpacing=6;
   var titleText=Technical(folder,title,KarineTheme.Office.LabelSize);titleText.style.color=KarineTheme.Paper.Ink;
   titleText.style.whiteSpace=WhiteSpace.Normal;titleText.style.unityTextAlign=TextAnchor.MiddleCenter;titleText.style.maxWidth=Length.Percent(80);
-  var stamp=Technical(folder,stampText,KarineTheme.Office.LabelSize);stamp.style.color=KarineTheme.Paper.Stamp;stamp.style.position=Position.Absolute;
-  stamp.style.bottom=Length.Percent(12);Border(stamp,3,KarineTheme.Paper.Stamp);Round(stamp,4);stamp.style.letterSpacing=3;
+  var stamp=Technical(folder,stampText,KarineTheme.Office.LabelSize);stamp.style.color=KarineTheme.Paper.StampInk;stamp.style.position=Position.Absolute;
+  stamp.style.bottom=Length.Percent(12);Border(stamp,3,KarineTheme.Paper.StampInk);Round(stamp,4);stamp.style.letterSpacing=3;
   stamp.style.paddingLeft=stamp.style.paddingRight=KarineTheme.SpaceMd;stamp.style.rotate=new Rotate(-8);stamp.style.opacity=0;
   var noteText=Technical(veil,note??string.Empty,KarineTheme.Office.LabelSize);noteText.style.color=KarineTheme.Paper.Light;
   noteText.style.marginTop=KarineTheme.SpaceLg;noteText.style.maxWidth=S.ClosedFolderWidth;noteText.style.whiteSpace=WhiteSpace.Normal;

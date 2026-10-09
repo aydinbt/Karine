@@ -30,9 +30,9 @@ public static partial class KarineUI {
   return paper;
  }
  public static void SummaryStamp(VisualElement parent,string stamp,string line) {
-  var t=Write(parent,stamp.ToUpper(TextCulture),KarineTheme.Paper.Stamp,C.StampSize,Heading);t.name="CaseSummaryStamp";t.pickingMode=PickingMode.Ignore;
+  var t=Write(parent,stamp.ToUpper(TextCulture),KarineTheme.Paper.StampInk,C.StampSize,Heading);t.name="CaseSummaryStamp";t.pickingMode=PickingMode.Ignore;
   t.style.alignSelf=Align.FlexStart;t.style.rotate=new Rotate(C.StampTilt);t.style.opacity=.9f;t.style.letterSpacing=3;
-  Border(t,4,KarineTheme.Paper.Stamp);Round(t,4);t.style.unityTextAlign=TextAnchor.MiddleCenter;
+  Border(t,4,KarineTheme.Paper.StampInk);Round(t,4);t.style.unityTextAlign=TextAnchor.MiddleCenter;
   t.style.paddingLeft=t.style.paddingRight=KarineTheme.SpaceLg;t.style.paddingTop=t.style.paddingBottom=KarineTheme.SpaceSm;
   t.style.marginTop=KarineTheme.SpaceMd;t.style.marginLeft=KarineTheme.SpaceSm;t.style.marginBottom=0;
   var l=Typed(parent,line,C.LineSize);l.style.marginTop=KarineTheme.SpaceMd;l.style.whiteSpace=WhiteSpace.Normal;
