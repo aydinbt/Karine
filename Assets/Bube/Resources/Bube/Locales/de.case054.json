@@ -1,0 +1,472 @@
+{
+ "entries": [
+  {
+   "key": "case054.alvaro.body",
+   "value": "Restaurierungsunternehmer."
+  },
+  {
+   "key": "case054.alvaro.deflect",
+   "value": "Ich rette alte Gebäude; keine Menschen."
+  },
+  {
+   "key": "case054.alvaro.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case054.alvaro.end.presented.archive",
+   "value": "2003 war ein Unfall. Den Bericht von Tomás habe nicht ich geändert; geändert haben ihn die, die ihn geändert haben."
+  },
+  {
+   "key": "case054.alvaro.end.presented.van",
+   "value": "Die Fliesen habe ich vor dem Brand herausgeholt, ja; Julián wusste nichts davon. Seit siebenundzwanzig Jahren verwende ich bei jeder Restaurierung ein paar davon als ‚Original‘, der Berater der Stiftung gibt sie frei, das Geld kommt. Esperanza hat sie im Alcázar gesehen. ‚Morgen gehe ich zu bube‘, sagte sie. Die Form lag mir zur Hand. Ich warf sie ins Fass, heizte den Ofen an. Vom Sensor wusste ich nichts."
+  },
+  {
+   "key": "case054.alvaro.end.question",
+   "value": "Sie haben Esperanza mit der Form erschlagen."
+  },
+  {
+   "key": "case054.alvaro.title",
+   "value": "Álvaro Méndez — Befragung"
+  },
+  {
+   "key": "case054.alvaro.visit.answer",
+   "value": "Ich war dort, wegen einer Bestellung. Um halb elf bin ich gegangen. Esperanza ging es gut, sie war alt, vergesslich. Sie muss den Ofen nachts angeheizt haben und eingeschlafen sein; 2003 hat Julián das auch so gemacht."
+  },
+  {
+   "key": "case054.alvaro.visit.answer.demeanor",
+   "value": "Zieht das Ende seines Maßbands heraus und lässt es zurückschnellen."
+  },
+  {
+   "key": "case054.alvaro.visit.question",
+   "value": "Waren Sie gestern Abend in der Werkstatt?"
+  },
+  {
+   "key": "case054.archive.body",
+   "value": "Aus dem Archiv wiedereröffnete Akte (4. Juni 2003, als ‚Unfall‘ geschlossen):\n\n· Werkstattbrand; Meister Julián Vidal (51) starb im Ofenraum.\n· Der erste Bericht des Gutachters Tomás Herrera (aus der Akte entfernt, in der hinteren Tasche des Archivs): Spuren von Brandbeschleuniger, Tür von außen verriegelt.\n· Zeuge der Brandnacht: der damalige Fliesentransporteur der Werkstatt, Álvaro Méndez — ‚Der Ofen war kaputt, Julián wusste das.‘\n· ‚Verbrannter‘ Bestand: 340 handbemalte Reproduktionen aus dem 18. Jahrhundert; Versicherungssumme 410.000 Euro."
+  },
+  {
+   "key": "case054.archive.reopen",
+   "value": "Der vor siebenundzwanzig Jahren als ‚Unfall‘ geschlossene Brand wurde wiedereröffnet."
+  },
+  {
+   "key": "case054.archive.title",
+   "value": "DIE AKTE VON 2003 — WERKSTATTBRAND"
+  },
+  {
+   "key": "case054.autopsy.body",
+   "value": "· Kein Ruß in den Atemwegen, Kohlenmonoxid im Blut niedrig: das Opfer war tot, bevor sich der Rauch ausbreitete.\n· Todesursache: ein einzelner Schlag mit einem schweren, kantigen Gegenstand auf den linken Hinterkopf. In der Wunde weißer Gipsstaub.\n· Todeszeit: 23.00–00.30. Der Ofen wurde um 01.10 gestartet."
+  },
+  {
+   "key": "case054.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case054.clue.blow",
+   "value": "Die Meisterin stirbt durch einen einzigen Schlag auf den Hinterkopf."
+  },
+  {
+   "key": "case054.clue.call",
+   "value": "Die Meisterin ruft ihre Tochter an: ‚Deinen Vater hat nicht das Feuer getötet.‘"
+  },
+  {
+   "key": "case054.clue.found",
+   "value": "Die Lehrling findet die Meisterin."
+  },
+  {
+   "key": "case054.clue.kiln",
+   "value": "Der Ofen wird von Hand gestartet."
+  },
+  {
+   "key": "case054.clue.leave",
+   "value": "Die Lehrling verlässt die Werkstatt; der Unternehmer wird kommen."
+  },
+  {
+   "key": "case054.clue.source.autopsy",
+   "value": "Obduktion"
+  },
+  {
+   "key": "case054.clue.source.nuria",
+   "value": "Nuria Vidal"
+  },
+  {
+   "key": "case054.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case054.clue.source.rocio",
+   "value": "Rocío Navarro"
+  },
+  {
+   "key": "case054.clue.source.workshop",
+   "value": "Untersuchung der Werkstatt"
+  },
+  {
+   "key": "case054.custody.kiln",
+   "value": "Sie verbrannte im Ofen"
+  },
+  {
+   "key": "case054.custody.label",
+   "value": "Wohin kam die Gipsform?"
+  },
+  {
+   "key": "case054.custody.slip",
+   "value": "Auf den Grund des Tonfasses in der Werkstatt"
+  },
+  {
+   "key": "case054.custody.van",
+   "value": "Sie kam in den Lieferwagen"
+  },
+  {
+   "key": "case054.epilogue.custody.kiln",
+   "value": "Die Form war nicht im Ofen."
+  },
+  {
+   "key": "case054.epilogue.custody.slip",
+   "value": "Festgehalten wurde, dass die Formstücke auf dem Grund des Tonfasses gefunden wurden."
+  },
+  {
+   "key": "case054.epilogue.custody.van",
+   "value": "Im Lieferwagen waren Fliesen, keine Form."
+  },
+  {
+   "key": "case054.epilogue.verdict.accident",
+   "value": "Der Tod galt als Ofenunfall; die Werkstatt wurde verkauft."
+  },
+  {
+   "key": "case054.epilogue.verdict.alvaro",
+   "value": "Álvaro Méndez wurde festgenommen; der Brand von 2003 wurde als ‚vorsätzlich‘ wiedereröffnet. Die mit ‚E. V.‘ unterzeichneten Restaurierungsfreigaben der Fundación Santa Ana kamen in die Akte der Dienststelle Triana."
+  },
+  {
+   "key": "case054.epilogue.verdict.nuria",
+   "value": "Nuria Vidal wurde in Gewahrsam genommen; die Restaurierung ging weiter."
+  },
+  {
+   "key": "case054.epilogue.verdict.rocio",
+   "value": "Rocío Navarro wurde festgenommen; die Akte von 2003 blieb im Archiv."
+  },
+  {
+   "key": "case054.evidence.archive",
+   "value": "Die Akte von 2003"
+  },
+  {
+   "key": "case054.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case054.evidence.van",
+   "value": "Durchsuchung des Lieferwagens"
+  },
+  {
+   "key": "case054.evidence.workshop",
+   "value": "Untersuchung der Werkstatt"
+  },
+  {
+   "key": "case054.feedback.accident",
+   "value": "Das Opfer starb durch den Schlag auf den Kopf, bevor sich der Rauch ausbreitete; der Ofen wurde nach ihrem Tod von Hand angeheizt."
+  },
+  {
+   "key": "case054.feedback.alvaro",
+   "value": "Der Daumenabdruck auf dem Ofenregler ist seiner, an seinen Stiefeln der Ton aus dem Fass; aus seinem Lieferwagen kamen die 2003 ‚verbrannten‘ Fliesen. Die wiedereröffnete Akte von 2003 zeigt, warum das Opfer zu bube gehen wollte und warum er sie aufhielt."
+  },
+  {
+   "key": "case054.feedback.nuria",
+   "value": "Die Tochter war in jener Nacht in Madrid; sie erzählte von den letzten Worten ihrer Mutter."
+  },
+  {
+   "key": "case054.feedback.rocio",
+   "value": "Die Lehrling ging um neun; der Abdruck auf dem Regler ist nicht ihrer."
+  },
+  {
+   "key": "case054.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case054.file.value.bureau",
+   "value": "BDS Sevilla — Dienststelle Triana"
+  },
+  {
+   "key": "case054.file.value.location",
+   "value": "Calle Alfarería, Triana — Fliesenwerkstatt"
+  },
+  {
+   "key": "case054.file.value.number",
+   "value": "BDS-SVQ-2030-0107"
+  },
+  {
+   "key": "case054.file.value.offence",
+   "value": "Verdächtiger Todesfall — Brand"
+  },
+  {
+   "key": "case054.file.value.reporter",
+   "value": "Lehrling"
+  },
+  {
+   "key": "case054.method.fall",
+   "value": "Sie stürzte und schlug mit dem Kopf auf"
+  },
+  {
+   "key": "case054.method.label",
+   "value": "Wie ist sie gestorben?"
+  },
+  {
+   "key": "case054.method.mould",
+   "value": "Mit einer Gipsform auf den Kopf geschlagen, der Ofen danach angeheizt"
+  },
+  {
+   "key": "case054.method.smoke",
+   "value": "Sie erstickte am Rauch"
+  },
+  {
+   "key": "case054.nuria.body",
+   "value": "Tochter des Opfers."
+  },
+  {
+   "key": "case054.nuria.call.answer",
+   "value": "Gestern Abend um acht rief sie an, zum ersten Mal seit einem Jahr. ‚Nuria, deinen Vater hat nicht das Feuer getötet‘, sagte sie. ‚In jener Nacht war Álvaro hier. Der Versicherer wusste es auch.‘ Ich … ich sagte: ‚Mama, schon wieder?‘ Ich legte auf. Seit siebenundzwanzig Jahren sagte sie das."
+  },
+  {
+   "key": "case054.nuria.call.answer.demeanor",
+   "value": "Zieht den Gürtel ihres Trenchcoats fester."
+  },
+  {
+   "key": "case054.nuria.call.question",
+   "value": "Wann haben Sie zuletzt mit Ihrer Mutter gesprochen?"
+  },
+  {
+   "key": "case054.nuria.deflect",
+   "value": "Ich habe seit einem Jahr nicht mit meiner Mutter gesprochen."
+  },
+  {
+   "key": "case054.nuria.title",
+   "value": "Nuria Vidal — Befragung"
+  },
+  {
+   "key": "case054.offer.subtitle",
+   "value": "AZULEJO  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case054.offer.summary",
+   "value": "In Triana wurde eine Fliesenmeisterin im Ofenraum tot aufgefunden. 2003 war dieselbe Werkstatt abgebrannt."
+  },
+  {
+   "key": "case054.offer.title",
+   "value": "AKTE #054"
+  },
+  {
+   "key": "case054.person.alvaro.info",
+   "value": "52 Jahre, Unternehmer für die Restaurierung historischer Gebäude."
+  },
+  {
+   "key": "case054.person.alvaro.name",
+   "value": "Álvaro Méndez"
+  },
+  {
+   "key": "case054.person.nuria.info",
+   "value": "45 Jahre, Tochter des Opfers; lebt in Madrid."
+  },
+  {
+   "key": "case054.person.nuria.name",
+   "value": "Nuria Vidal"
+  },
+  {
+   "key": "case054.person.rocio.info",
+   "value": "24 Jahre, Lehrling des Opfers."
+  },
+  {
+   "key": "case054.person.rocio.name",
+   "value": "Rocío Navarro"
+  },
+  {
+   "key": "case054.person.tomas.info",
+   "value": "69 Jahre, pensionierter Versicherungsgutachter; hatte den Brand von 2003 untersucht."
+  },
+  {
+   "key": "case054.person.tomas.name",
+   "value": "Tomás Herrera"
+  },
+  {
+   "key": "case054.report.body",
+   "value": "Am Morgen des 17. Oktober 2030 wurde in Triana, im Ofenraum einer Fliesenwerkstatt in der Calle Alfarería, die Meisterin Esperanza Vidal (74) tot aufgefunden. Der Ofen war nachts gelaufen und durch den Sicherheitssensor erloschen; der Raum voller Rauch.\n\nDie Leiche fand ihre Lehrling Rocío Navarro um 08.00. Die Tochter des Opfers, Nuria Vidal, machte sich aus Madrid auf den Weg. Größter Kunde der Werkstatt ist der Restaurierungsunternehmer Álvaro Méndez."
+  },
+  {
+   "key": "case054.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case054.request.archive",
+   "value": "Genehmigung zur Öffnung der Brandakte von 2003 aus dem Archiv beantragen"
+  },
+  {
+   "key": "case054.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case054.request.van",
+   "value": "Durchsuchungsbeschluss für den Lieferwagen von Álvaro Méndez beantragen"
+  },
+  {
+   "key": "case054.request.workshop",
+   "value": "Tatortuntersuchung der Werkstatt anfordern"
+  },
+  {
+   "key": "case054.rocio.body",
+   "value": "Lehrling."
+  },
+  {
+   "key": "case054.rocio.deflect",
+   "value": "Ich arbeite mit Ton."
+  },
+  {
+   "key": "case054.rocio.kiln.answer",
+   "value": "Niemand. Die Meisterin hat den Ofen nie nachts angeheizt, nach 2003 niemals. Nach jenem Brand ließ sie den Sicherheitssensor selbst einbauen. Morgens war auch der Ton im Fass seltsam, wie umgerührt; ich hatte ihn abends zum Ruhen stehen lassen."
+  },
+  {
+   "key": "case054.rocio.kiln.question",
+   "value": "Wer heizt den Ofen nachts an?"
+  },
+  {
+   "key": "case054.rocio.night.answer",
+   "value": "Um neun. Die Meisterin sagte: ‚Álvaro kommt, wir reden, geh du.‘ Sie war angespannt. Letzte Woche hatte sie bei der Restaurierung im Alcázar unsere Fliesen gesehen und sagte: ‚Die sind 2003 verbrannt, Rocío, ich habe ihre Asche mit eigenen Augen zusammengefegt.‘"
+  },
+  {
+   "key": "case054.rocio.night.answer.demeanor",
+   "value": "Wischt sich mit dem Handrücken den Ton von der Wange."
+  },
+  {
+   "key": "case054.rocio.night.question",
+   "value": "Wann haben Sie gestern Abend die Werkstatt verlassen?"
+  },
+  {
+   "key": "case054.rocio.title",
+   "value": "Rocío Navarro — Befragung"
+  },
+  {
+   "key": "case054.summary.evidence",
+   "value": "Die Lehrling erzählte vom Verdacht der Meisterin, die Tochter vom letzten Anruf, der Gutachter vom entfernten Bericht; das ließ die Akte von 2003 öffnen. Die Obduktion zeigte, dass der Tod vor dem Rauch eintrat, die Werkstattuntersuchung lieferte die Form und den Abdruck. Die Durchsuchung fand die ‚verbrannten‘ Fliesen."
+  },
+  {
+   "key": "case054.summary.lesson",
+   "value": "Den Sensor, der einen Brand löschte, hatte die Frau des Mannes einbauen lassen, der beim ersten Brand starb."
+  },
+  {
+   "key": "case054.summary.location",
+   "value": "Calle Alfarería — Oktober 2030"
+  },
+  {
+   "key": "case054.summary.truth",
+   "value": "2003 holte der Transporteur Álvaro Méndez 340 Fliesen der Werkstatt Vidal vor dem Brand heraus und zündete den Ofenraum an, die Tür von außen verriegelt; Julián Vidal starb, die Versicherung zahlte, der Bericht des Gutachters wurde aus der Akte entfernt. Siebenundzwanzig Jahre später sah die Meisterin Esperanza diese Fliesen bei einer Restaurierung. Álvaro erschlug sie mit einer Gipsform, warf die Form ins Tonfass und heizte den Ofen an; der Sensor, den die Meisterin nach 2003 hatte einbauen lassen, schaltete den Ofen ab."
+  },
+  {
+   "key": "case054.suspect.label",
+   "value": "Wer hat Esperanza Vidal getötet?"
+  },
+  {
+   "key": "case054.tablet.caseLine",
+   "value": "AKTE #054  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case054.time.blow",
+   "value": "23.00"
+  },
+  {
+   "key": "case054.time.call",
+   "value": "20.00"
+  },
+  {
+   "key": "case054.time.found",
+   "value": "08.00"
+  },
+  {
+   "key": "case054.time.kiln",
+   "value": "01.10"
+  },
+  {
+   "key": "case054.time.leave",
+   "value": "21.00"
+  },
+  {
+   "key": "case054.title",
+   "value": "Akte #054 — Azulejo"
+  },
+  {
+   "key": "case054.tomas.2003.answer",
+   "value": "Ich schrieb meinen Bericht: Spuren von Brandbeschleuniger neben dem Ofen, Tür von außen verriegelt. ‚Verdächtiger Brand‘, sagte ich. Die Gesellschaft zahlte, die Akte wurde als ‚Unfall‘ geschlossen; an die Stelle meines Berichts kam ein anderer. Der Wert des Bestands, der im Brand vernichtet worden sein soll, entsprach fast der Versicherungssumme. Wer diesen Bestand transportiert hatte, fragte damals niemand."
+  },
+  {
+   "key": "case054.tomas.2003.answer.demeanor",
+   "value": "Schiebt seine Brille auf der Nase hoch."
+  },
+  {
+   "key": "case054.tomas.2003.question",
+   "value": "Sie haben den Brand von 2003 untersucht."
+  },
+  {
+   "key": "case054.tomas.body",
+   "value": "Pensionierter Versicherungsgutachter."
+  },
+  {
+   "key": "case054.tomas.deflect",
+   "value": "Ich bin vor zwanzig Jahren in Pension gegangen."
+  },
+  {
+   "key": "case054.tomas.title",
+   "value": "Tomás Herrera — Befragung"
+  },
+  {
+   "key": "case054.van.body",
+   "value": "Der Lieferwagen und das Lager von Álvaro Méndez (mit Genehmigung der Dienststellenleitung):\n\n· Zwölf in Zeitungspapier gewickelte handbemalte Fliesen; auf der Rückseite der Werkstattstempel von Julián Vidal aus der Zeit vor 2003. In der Akte von 2003 auf der Liste des ‚verbrannten Bestands‘.\n· Am Pedal des Lieferwagens und an den Stiefeln von Álvaro Méndez derselbe Ton wie im Tonfass der Fliesenwerkstatt; der Daumenabdruck auf dem Ofenregler ist seiner.\n· Restaurierungsfreigaben der Fundación Santa Ana: ‚Original, 18. Jahrhundert‘; Unterschrift des Beraters ‚E. V.‘."
+  },
+  {
+   "key": "case054.van.title",
+   "value": "DER LIEFERWAGEN VON ÁLVARO MÉNDEZ — DURCHSUCHUNG"
+  },
+  {
+   "key": "case054.verdict.accident",
+   "value": "Niemand — ein Ofenunfall"
+  },
+  {
+   "key": "case054.verdict.alvaro",
+   "value": "Álvaro Méndez"
+  },
+  {
+   "key": "case054.verdict.nuria",
+   "value": "Nuria Vidal"
+  },
+  {
+   "key": "case054.verdict.rocio",
+   "value": "Rocío Navarro"
+  },
+  {
+   "key": "case054.workshop.body",
+   "value": "· Das Ofenprogramm wurde um 01.10 von Hand gestartet; auf dem Regler ein tonstaubiger Daumenabdruck — weder von der Meisterin noch von der Lehrling.\n· Auf dem Grund des Tonfasses eine zerbrochene Gipsform; an ihrer Ecke Blut und Haar des Opfers.\n· Die Tür des Ofenraums war nicht von innen verriegelt; am äußeren Riegel eine frische Reibspur."
+  },
+  {
+   "key": "case054.workshop.title",
+   "value": "UNTERSUCHUNG DER WERKSTATT"
+  },
+  {
+   "key": "case054.item.mould.name",
+   "value": "Gipsformstücke"
+  },
+  {
+   "key": "case054.item.mould.detail",
+   "value": "Zerbrochene Gipsformstücke vom Grund des Tonfasses; an einem getrocknetes Blut."
+  },
+  {
+   "key": "case054.item.tiles.name",
+   "value": "‚Verbrannte‘ Fliesen"
+  },
+  {
+   "key": "case054.item.tiles.detail",
+   "value": "Zwölf Fliesen aus einem Lieferwagen, die laut Akte im Brand von 2003 vernichtet wurden."
+  },
+  {
+   "key": "case054.item.kiln.name",
+   "value": "Bedienfeld des Ofens"
+  },
+  {
+   "key": "case054.item.kiln.detail",
+   "value": "Das digitale Bedienfeld des Ofens; das Programm wurde nachts um 01.10 von Hand gestartet."
+  }
+ ]
+}
