@@ -121,6 +121,8 @@ public sealed partial class BubeApp : MonoBehaviour {
  CaseData AvailableAssignment() {
   if(!game.State.closed || game.Career.retired || string.IsNullOrEmpty(game.Data.nextCaseId))return null;
   var nextId=game.Data.nextCaseId;
+  // Uzaktan durdurulan vaka düzeltme gelene dek teklif edilmez.
+  if(RemoteSettings.CasePaused(nextId))return null;
   if(assignmentCacheId!=nextId) {
    assignmentCacheId=nextId;
    var asset=Resources.Load<TextAsset>("Bube/Cases/"+nextId);
@@ -155,6 +157,8 @@ public sealed partial class BubeApp : MonoBehaviour {
   // Firebase seçilen servis (9 Ekim 2026): anahtarı verilmişse eski UGS sağlayıcısının yerini alır.
   if(!string.IsNullOrEmpty(config.firebaseApiKey) && !string.IsNullOrEmpty(config.firebaseProjectId))
    Accounts.Provider=new FirebaseAccountProvider(config.firebaseApiKey,config.firebaseProjectId);
+  RemoteSettings.Changed+=OnRemoteSettings;
+  RemoteSettings.Fetch(config.firebaseApiKey,config.firebaseProjectId);
   pendingPredicate=n=>game.Pending(n);
   incomingDocumentPredicate=n=>game.IncomingDocument(n);
   bool redirectedDraft;

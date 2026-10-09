@@ -45,6 +45,8 @@
 - **Sırada (kullanıcıda):** Firebase konsolu → Web API Key + Project ID. Ardından Apple/Google girişi Firebase'e bağlanacak.
 - **Doğrulama:** 143 EditMode + 28 PlayMode geçiyor. Android ve iOS dalları başsız derlendi. **Cihazda ve gerçek Firebase'le denenmedi** → `[~]`.
 
+**9 Ekim (gece):** Uzaktan ayar eklendi: Firebase `config/live` ile en düşük sürüm (güncelle kâğıdı), vaka durdurma ve menü duyurusu. Kademeli yayın ve geri alma adımları `STORE_ACCOUNTS_CHECKLIST.md`'de. `[~]`; Firebase projesi açılınca denenecek.
+
 **9 Ekim (akşam):** **Giriş ve açılış ekranları yeni.** Giriş: yatay maket, yazısız masa arka planı, solda logo ve dönen ifadeler, sağda düz dosya kâğıdı; Apple/Google logoları temsilî. Açılış: Gemini videosu (yağmurlu adsız şehir, Bora) üstünde sırayla KARINE ve Bube Games logoları, yükleme sağ altta; "Made with Unity" kapalı. Başsız PlayMode ekran görüntüleriyle görüldü, cihazda değil. 143 EditMode + 28 PlayMode.
 
 **9 Ekim:** **Almanca çeviri tamamlandı.** 73 dosya ve ortak arayüz, 12.833 satır; çeviri denetimi 0 sorun. Sözlük: [Translation/GLOSSARY_de.md](Translation/GLOSSARY_de.md). 143 EditMode geçiyor. Kalan diller (fr, it, es, pt-BR) kullanıcı onayı bekliyor. **Almanca metin oyunda okunmadı** → `[~]`.

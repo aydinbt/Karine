@@ -115,3 +115,11 @@ Giriş kağıdı şimdilik kit bileşenleriyle (onay formu dili) çizildi. Gör�
    - ATT penceresi;
    - Dosya #002'deki hesap bağlama önerisi;
    - 3. dosyadan sonra puan penceresi.
+
+## Sürüm yayını ve geri alma (9 Ekim 2026)
+
+- **Önce test kanalı:** Google Play *Internal testing*, Apple *TestFlight*. Her sürüm buradan geçer.
+- **Kademeli yayın:** Google Play *Production → Create release → Staged rollout* %5 → %20 → %100 (birkaç gün arayla, çökme raporuna bakarak). App Store *Phased Release for Automatic Updates* açık.
+- **Hata çıkarsa:** Google'da *Halt rollout*; Apple'da *Pause phased release*. Geri alma yoktur: eski kod, daha yüksek sürüm numarasıyla yeniden yüklenir.
+- **Her sürümde:** `bundleVersion` (ör. 1.0.1) ve Android `versionCode` bir artar.
+- **Mağaza onayı beklenirken:** Firebase `config/live` ile vaka durdurma, duyuru, en düşük sürüm ([FIREBASE_AND_KVKK.md](FIREBASE_AND_KVKK.md)).

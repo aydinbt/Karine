@@ -361,6 +361,7 @@ public sealed partial class BubeApp {
   Text(block,T(reasonKey),KarineTheme.Paper.Faded,14).style.marginBottom=0;
  }
  void Desk() {
+  if(ShowCasePaused())return;
   bool arriving=SceneManager.GetActiveScene().name!="OfficeScene";
   inboxDeskBack=null;
   Back(Home);StopCctvVideo();StopMenuVideo();EnsureScene("OfficeScene");

@@ -5015,6 +5015,54 @@
   {
    "key": "credits.3",
    "value": "Devamı gelecek."
+  },
+  {
+   "key": "update.form",
+   "value": "SÜRÜM BİLDİRİMİ"
+  },
+  {
+   "key": "update.title",
+   "value": "Güncelleme gerekli"
+  },
+  {
+   "key": "update.body",
+   "value": "Bu sürüm artık desteklenmiyor. Kayıtların güvende; devam etmek için oyunu mağazadan güncelle."
+  },
+  {
+   "key": "update.stamp",
+   "value": "GÜNCELLE"
+  },
+  {
+   "key": "update.quit",
+   "value": "Çık"
+  },
+  {
+   "key": "update.confirm",
+   "value": "Mağazaya git"
+  },
+  {
+   "key": "paused.form",
+   "value": "DOSYA BİLDİRİMİ"
+  },
+  {
+   "key": "paused.title",
+   "value": "Dosya geçici olarak kapalı"
+  },
+  {
+   "key": "paused.body",
+   "value": "Bu dosyada bir düzeltme hazırlanıyor. İlerlemen kayıtlı; güncelleme gelince kaldığın yerden devam edersin."
+  },
+  {
+   "key": "paused.stamp",
+   "value": "BEKLEMEDE"
+  },
+  {
+   "key": "paused.back",
+   "value": "Ana menü"
+  },
+  {
+   "key": "paused.chapters",
+   "value": "Bölümler"
   }
  ]
 }

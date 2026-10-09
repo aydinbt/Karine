@@ -649,3 +649,7 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 
 - `Investigation.SourceTried`: sorunun doğru kaydı (`presentedSourceIds`), yalnız gerçekten yanıt alındıysa düşer; `triedSources` içindeki eski izler yok sayılır. Yem sonrası bekletme (`Investigation.Decoy.cs`) kaldırıldı; `Progress.decoyHolds` yalnız eski kayıt uyumu için duruyor.
 - `Coverage.Of(game, whole)`: `whole:true` rapor özetinde dosyanın tüm kaynak, soru ve çizelge satırlarını payda yapar.
+
+## Uzaktan ayar (9 Ekim 2026)
+
+`RemoteSettings` (statik) Firestore `config/live` belgesini anahtarla, kimliksiz okur; son değer `PlayerPrefs` `karine.remote.live`. `BubeApp.Remote.cs`: `ShowUpdateRequired` (menüde, `minVersion`) ve `ShowCasePaused` (`Desk()` girişinde); `AvailableAssignment` durdurulan vakayı teklif etmez; menü duyuru satırı `Home()` sonunda. Firebase anahtarı yoksa hiç istek atılmaz.

@@ -11,6 +11,11 @@ service cloud.firestore {
         && request.resource.data.entry is string
         && request.resource.data.entry.size() < 900000;
     }
+    // Uzaktan ayar (en düşük sürüm, durdurulan vaka, duyuru): herkes okur, yalnız konsoldan yazılır.
+    match /config/live {
+      allow read: if true;
+      allow write: if false;
+    }
     match /{document=**} {
       allow read, write: if false;
     }

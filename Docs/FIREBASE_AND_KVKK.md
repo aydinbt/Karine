@@ -81,3 +81,23 @@ Kod: `Assets/Bube/Runtime/FirebaseAccountProvider.cs` (SDK yok, REST + `UnityWeb
 - **10.000 indirme, 10.000 günlük oyuncu değildir.** Bu tür oyunlarda günlük oyuncu genelde indirmelerin %20–30'u kadardır, yani 2–3 bin kişi. Bu durumda ücretsiz kota yeter.
 - **Kota aşılırsa (Spark):** o gün bulut durur, oyun cihazdaki kayıtla devam eder. Hiçbir şey kırılmaz, ertesi gün eşitlenir.
 - **Önerilen:** Blaze planına geçip bütçe uyarısı koymak (örneğin 5 $/ay). Kotayı aşan 100.000 yazmanın bedeli yaklaşık 0,18 $; günlük 10.000 aktif oyuncuda bu, ayda 1–2 $ eder.
+
+## Uzaktan ayar — mağaza onayı beklemeden müdahale (9 Ekim 2026)
+
+Kod `Assets/Bube/Runtime/RemoteSettings.cs`. Açılışta herkese açık tek bir belge okunur: **`config/live`**. Ağ yoksa son okunan değerler kullanılır; belge hiç yoksa hiçbir şey kapanmaz. Okunan veri yalnız ayardır, oyuncudan hiçbir şey gönderilmez.
+
+Firestore konsolunda *Start collection* → `config`, belge kimliği `live`. Alanlar hep **string** ve hepsi isteğe bağlı:
+
+| Alan | Örnek | Etkisi |
+|---|---|---|
+| `minVersion` | `1.0.3` | Daha eski sürüm "Güncelleme gerekli" kâğıdı görür, oyuna girilmez. |
+| `pausedCases` | `case002,case014` | Bu vakalar teklif edilmez; açık olan masaya girmez, kayıt korunur. |
+| `notice_tr`, `notice_en`, `notice_de` | `Dosya #002 düzeltmesi yolda.` | Ana menüde tek satır duyuru. |
+| `storeUrl_android`, `storeUrl_ios` | mağaza sayfası | "Mağazaya git" düğmesi. Android boşsa paket kimliğinden üretilir; iOS'ta App Store bağlantısı yazılmalı. |
+
+Kurallar dosyasında (`Firebase/firestore.rules`) `config/live` herkese okunur, kimse yazamaz; yalnız konsoldan değiştirilir. Kuralları yeniden **Publish** etmeyi unutma.
+
+**Ne zaman ne kullanılır:**
+- Bir vakada kilit bulundu → `pausedCases` ve duyuru; düzeltme yayına girince ikisini sil.
+- Bir sürüm kayıtları bozuyor → düzeltilmiş sürümü yayınla, sonra `minVersion`'ı ona yükselt.
+- Kod değişikliği her zaman mağazadan gider; bu belge kodu değiştirmez.

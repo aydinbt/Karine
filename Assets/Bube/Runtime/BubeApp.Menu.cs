@@ -57,6 +57,13 @@ public sealed partial class BubeApp {
   version.style.position=Position.Absolute;version.style.right=Length.Percent(3);version.style.bottom=Length.Percent(4);version.style.marginBottom=KarineTheme.Loading.StudioHeight+KarineTheme.SpaceSm;
   version.style.color=KarineTheme.Alpha(KarineTheme.Secondary,.7f);
   KarineUI.MenuStorm(root);KarineUI.MenuStreet(root);KarineUI.MenuParallax(root);KarineUI.MenuIntro(root,logo,menu);
+  // Uzaktan duyuru: menü sütununun altında tek satır.
+  var notice=RemoteSettings.Notice(language);
+  if(!string.IsNullOrWhiteSpace(notice)) {
+   var line=KarineUI.Technical(menu,notice,KarineTheme.MainMenu.TaglineSize);
+   line.style.marginTop=KarineTheme.SpaceLg;line.style.whiteSpace=WhiteSpace.Normal;line.style.color=KarineTheme.Alpha(KarineTheme.Secondary,.85f);
+  }
+  ShowUpdateRequired();
  }
 
  // Sol sütunun arkası koyulaşır, sağdaki sahne açık kalır: kademeli üç bant.

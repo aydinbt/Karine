@@ -5015,6 +5015,54 @@
   {
    "key": "credits.3",
    "value": "Fortsetzung folgt."
+  },
+  {
+   "key": "update.form",
+   "value": "VERSIONSHINWEIS"
+  },
+  {
+   "key": "update.title",
+   "value": "Update erforderlich"
+  },
+  {
+   "key": "update.body",
+   "value": "Diese Version wird nicht mehr unterstützt. Deine Spielstände sind sicher; aktualisiere das Spiel im Store, um weiterzuspielen."
+  },
+  {
+   "key": "update.stamp",
+   "value": "UPDATE"
+  },
+  {
+   "key": "update.quit",
+   "value": "Beenden"
+  },
+  {
+   "key": "update.confirm",
+   "value": "Zum Store"
+  },
+  {
+   "key": "paused.form",
+   "value": "AKTENHINWEIS"
+  },
+  {
+   "key": "paused.title",
+   "value": "Akte vorübergehend geschlossen"
+  },
+  {
+   "key": "paused.body",
+   "value": "Für diese Akte wird eine Korrektur vorbereitet. Dein Fortschritt ist gespeichert; nach dem Update machst du dort weiter, wo du aufgehört hast."
+  },
+  {
+   "key": "paused.stamp",
+   "value": "AUSGESETZT"
+  },
+  {
+   "key": "paused.back",
+   "value": "Hauptmenü"
+  },
+  {
+   "key": "paused.chapters",
+   "value": "Kapitel"
   }
  ]
 }

@@ -5015,6 +5015,54 @@
   {
    "key": "credits.3",
    "value": "To be continued."
+  },
+  {
+   "key": "update.form",
+   "value": "VERSION NOTICE"
+  },
+  {
+   "key": "update.title",
+   "value": "Update required"
+  },
+  {
+   "key": "update.body",
+   "value": "This version is no longer supported. Your saves are safe; update the game from the store to continue."
+  },
+  {
+   "key": "update.stamp",
+   "value": "UPDATE"
+  },
+  {
+   "key": "update.quit",
+   "value": "Quit"
+  },
+  {
+   "key": "update.confirm",
+   "value": "Go to store"
+  },
+  {
+   "key": "paused.form",
+   "value": "FILE NOTICE"
+  },
+  {
+   "key": "paused.title",
+   "value": "File temporarily closed"
+  },
+  {
+   "key": "paused.body",
+   "value": "A fix for this file is on the way. Your progress is saved; you will pick up where you left off once the update arrives."
+  },
+  {
+   "key": "paused.stamp",
+   "value": "ON HOLD"
+  },
+  {
+   "key": "paused.back",
+   "value": "Main menu"
+  },
+  {
+   "key": "paused.chapters",
+   "value": "Chapters"
   }
  ]
 }
