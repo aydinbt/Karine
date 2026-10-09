@@ -1,0 +1,404 @@
+{
+ "entries": [
+  {
+   "key": "case071.autopsy.body",
+   "value": "· Todesursache: Polytrauma infolge eines Sturzes aus großer Höhe.\n· An den Handflächen Rost und Farbe; beim Fallen hielt er sich am Geländer fest, das Geländer blieb in seiner Hand.\n· Kein anderer Schlag.\n· Todeszeit: 21.00–22.00."
+  },
+  {
+   "key": "case071.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case071.bao.body",
+   "value": "Angler am Pier."
+  },
+  {
+   "key": "case071.bao.deflect",
+   "value": "Ich sitze seit dreißig Jahren auf demselben Stein."
+  },
+  {
+   "key": "case071.bao.light.answer",
+   "value": "Auf der Galerie ging die Leselampe an, wie jeden Abend. Gegen neun stieg ein zweites Licht die Treppe hinauf, eine Taschenlampe. Dann ein Schrei. Dann kam das zweite Licht herunter und ging zur Hafenmeisterei. Den Gang von Lachlan Reid erkenne ich; er hat immer ein Funkgerät in der Hand."
+  },
+  {
+   "key": "case071.bao.light.answer.demeanor",
+   "value": "Wickelt seine Angelschnur auf, ohne den Kopf zu heben."
+  },
+  {
+   "key": "case071.bao.light.question",
+   "value": "Haben Sie am Abend etwas am Turm gesehen?"
+  },
+  {
+   "key": "case071.bao.title",
+   "value": "Bao Tran-Le — Befragung"
+  },
+  {
+   "key": "case071.clue.found",
+   "value": "Die Führerin findet den Archivar am Fuß des Turms."
+  },
+  {
+   "key": "case071.clue.lamp",
+   "value": "Die Leselampe der Galerie brennt wie jeden Abend."
+  },
+  {
+   "key": "case071.clue.second",
+   "value": "Ein zweites Licht steigt die Treppe hinauf; danach ein Schrei."
+  },
+  {
+   "key": "case071.clue.source.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.clue.source.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.custody.label",
+   "value": "Wohin kam die Akte des Archivars?"
+  },
+  {
+   "key": "case071.custody.office",
+   "value": "In die Schublade des Hafenmeisters"
+  },
+  {
+   "key": "case071.custody.sea",
+   "value": "Ins Meer"
+  },
+  {
+   "key": "case071.custody.tower",
+   "value": "Blieb im Turm"
+  },
+  {
+   "key": "case071.epilogue.custody.office",
+   "value": "Festgehalten wurde, dass die Akte im Büro des Hafenmeisters gefunden wurde."
+  },
+  {
+   "key": "case071.epilogue.custody.sea",
+   "value": "Die Akte war nicht im Meer."
+  },
+  {
+   "key": "case071.epilogue.custody.tower",
+   "value": "Der Ordner auf der Galerie war leer."
+  },
+  {
+   "key": "case071.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; die Akte verschwand."
+  },
+  {
+   "key": "case071.epilogue.verdict.bao",
+   "value": "Bao Tran-Le wurde festgenommen; der Pier blieb leer."
+  },
+  {
+   "key": "case071.epilogue.verdict.lachlan",
+   "value": "Lachlan Reid wurde festgenommen; die Manifeste von Liaison Freight kamen in die Akte der Dienststelle Footscray."
+  },
+  {
+   "key": "case071.epilogue.verdict.ruby",
+   "value": "Ruby Aldous wurde festgenommen; die Bolzen blieben in der Schublade."
+  },
+  {
+   "key": "case071.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case071.evidence.office",
+   "value": "Durchsuchung der Hafenmeisterei"
+  },
+  {
+   "key": "case071.evidence.radio",
+   "value": "Funkprotokoll"
+  },
+  {
+   "key": "case071.evidence.tower",
+   "value": "Untersuchung des Turms"
+  },
+  {
+   "key": "case071.feedback.accident",
+   "value": "Die Bolzen waren nicht an ihrem Platz, und in ihren Löchern sind Schlüsselkratzer."
+  },
+  {
+   "key": "case071.feedback.bao",
+   "value": "Der Angler war am Pier und erzählte, was er sah."
+  },
+  {
+   "key": "case071.feedback.lachlan",
+   "value": "Die Bolzen des Geländers und der Schlüssel, mit dem sie gelockert wurden, lagen in seiner Schublade, mit seinem Abdruck; das Handfunkgerät wurde um 21.40 benutzt. Das Funkprotokoll rettet ihn nicht: das Protokoll unterscheidet das Handfunkgerät nicht. Der Angler sah das Licht zur Hafenmeisterei hinuntergehen."
+  },
+  {
+   "key": "case071.feedback.ruby",
+   "value": "Die Führerin hatte einen Schlüssel, aber das Licht ging zur Hafenmeisterei; die Bolzen kamen nicht von ihr."
+  },
+  {
+   "key": "case071.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case071.file.value.bureau",
+   "value": "BDA Melbourne — Dienststelle Footscray"
+  },
+  {
+   "key": "case071.file.value.location",
+   "value": "Williamstown, Melbourne"
+  },
+  {
+   "key": "case071.file.value.number",
+   "value": "BDA-MEL-2030-0367"
+  },
+  {
+   "key": "case071.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case071.file.value.reporter",
+   "value": "Ehrenamtliche Führerin"
+  },
+  {
+   "key": "case071.lachlan.body",
+   "value": "Hafenmeister."
+  },
+  {
+   "key": "case071.lachlan.deflect",
+   "value": "Der Hafen liegt in meiner Verantwortung; jedes Licht, jedes Geräusch."
+  },
+  {
+   "key": "case071.lachlan.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case071.lachlan.end.decoy.radio",
+   "value": "Das Funkprotokoll liegt da: von Viertel vor neun bis nach zehn war ich auf dem Kanal. Meine Stimme bricht nicht ab."
+  },
+  {
+   "key": "case071.lachlan.end.presented.office",
+   "value": "Das Handfunkgerät war in meiner Tasche; ich leitete den Kanal um und stieg redend hinauf. Die Bolzen hatte ich am Nachmittag gelockert; er las immer an die Galerie gelehnt. Ich verlangte die Akte, er gab sie nicht her, wich zurück. Vor dreißig Jahren habe ich für diese Container unterschrieben, ohne hineinzusehen; das Geld war gut. Die Leute von Liaison rufen immer noch an, zahlen immer noch."
+  },
+  {
+   "key": "case071.lachlan.end.question",
+   "value": "Sie haben Graham von der Galerie gestürzt."
+  },
+  {
+   "key": "case071.lachlan.night.answer",
+   "value": "Ich war im Dienst. Graham war alt, dieses Geländer ist hundert Jahre alt."
+  },
+  {
+   "key": "case071.lachlan.night.answer.demeanor",
+   "value": "Streicht sich mit der Handfläche über den Bart."
+  },
+  {
+   "key": "case071.lachlan.night.question",
+   "value": "Wo waren Sie am Abend?"
+  },
+  {
+   "key": "case071.lachlan.title",
+   "value": "Lachlan Reid — Befragung"
+  },
+  {
+   "key": "case071.method.faint",
+   "value": "Er stürzte nach einem Schwindelanfall"
+  },
+  {
+   "key": "case071.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case071.method.rail",
+   "value": "Er wurde vom Geländer mit gelockerten Bolzen gestoßen"
+  },
+  {
+   "key": "case071.method.rot",
+   "value": "Das morsche Geländer brach von selbst ab"
+  },
+  {
+   "key": "case071.offer.subtitle",
+   "value": "ZEITBALL  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case071.offer.summary",
+   "value": "Der Hafenarchivar wurde am Fuß des alten Turms gefunden; die Stimme des Hafenmeisters war zu dieser Stunde im Funk."
+  },
+  {
+   "key": "case071.offer.title",
+   "value": "AKTE #071"
+  },
+  {
+   "key": "case071.office.body",
+   "value": "Das Büro von Lachlan Reid in der Hafenmeisterei (mit Genehmigung der Dienststellenleitung):\n\n· Auf dem Schreibtisch ein Reserve-Handfunkgerät; Akku fast leer, letzte Nutzung 21.40, Kanal auf das Hauptfunkgerät umgeleitet.\n· In der Schublade ein Schraubenschlüssel und zwei Bolzen des Galeriegeländers; auf dem Schlüssel der Fingerabdruck von Lachlan Reid.\n· Die verschwundene Akte des Archivars: Frachtmanifeste aus den 1990ern, Empfänger ‚Liaison Freight‘, Unterschrift der Hafenseite: L. Reid."
+  },
+  {
+   "key": "case071.office.title",
+   "value": "HAFENMEISTEREI — DURCHSUCHUNG"
+  },
+  {
+   "key": "case071.person.bao.info",
+   "value": "60 Jahre, Angler am Pier."
+  },
+  {
+   "key": "case071.person.bao.name",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.person.lachlan.info",
+   "value": "54 Jahre, Hafenmeister von Williamstown."
+  },
+  {
+   "key": "case071.person.lachlan.name",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.person.ruby.info",
+   "value": "26 Jahre, ehrenamtliche Führerin im Leuchtturm."
+  },
+  {
+   "key": "case071.person.ruby.name",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.radio.body",
+   "value": "Funkprotokoll der Hafenmeisterei Williamstown, 21. November:\n\n· 20.45 – 22.10 die Stimme von Lachlan Reid, auf dem Hauptkanal, ununterbrochen: Schiffsverkehr, Schlepperrufe.\n\nHinweis: Der Hauptkanal schreibt auch die Sendung vom Reserve-Handfunkgerät der Hafenmeisterei in dasselbe Protokoll; das Protokoll unterscheidet nicht, von welchem Gerät die Sendung kommt."
+  },
+  {
+   "key": "case071.radio.title",
+   "value": "FUNKPROTOKOLL DES HAFENS"
+  },
+  {
+   "key": "case071.report.body",
+   "value": "Am Morgen des 22. November 2030 wurde am Fuß des alten Zeitballturms in Williamstown der Hafenarchivar Graham Teale (71) tot aufgefunden. Ein Teil des Galeriegeländers fehlte.\n\nDie Leiche fand die ehrenamtliche Führerin Ruby Aldous um 07.30. Der Hafenmeister Lachlan Reid sagte: ‚Ich war den ganzen Abend im Funk.‘ Der Angler am Pier, Bao Tran-Le, wird befragt."
+  },
+  {
+   "key": "case071.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case071.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case071.request.office",
+   "value": "Durchsuchungsbeschluss für das Büro des Hafenmeisters beantragen"
+  },
+  {
+   "key": "case071.request.radio",
+   "value": "Funkprotokoll des Hafens anfordern"
+  },
+  {
+   "key": "case071.request.tower",
+   "value": "Untersuchung des Turms anfordern"
+  },
+  {
+   "key": "case071.ruby.body",
+   "value": "Ehrenamtliche Führerin."
+  },
+  {
+   "key": "case071.ruby.deflect",
+   "value": "Ich erzähle nur bei den Führungen."
+  },
+  {
+   "key": "case071.ruby.gone",
+   "value": "Ruby Aldous hat ihre Aussage über ihren Anwalt zurückgezogen. Einer weiteren Befragung stimmte sie nicht zu."
+  },
+  {
+   "key": "case071.ruby.key.answer",
+   "value": "Ich und der Hafenmeister. Graham zeigte mir gestern Mittag eine Akte, sagte: ‚Die gebe ich morgen der Zeitung, alle werden sehen, wer es ist.‘ Am Abend wollte er auf den Turm, er las gern auf der Galerie. Ich … ich möchte jetzt wohl nichts mehr sagen."
+  },
+  {
+   "key": "case071.ruby.key.answer.demeanor",
+   "value": "Zieht den Reißverschluss ihrer Windjacke bis zum Kinn."
+  },
+  {
+   "key": "case071.ruby.key.question",
+   "value": "Wer hat den Schlüssel zum Turm?"
+  },
+  {
+   "key": "case071.ruby.title",
+   "value": "Ruby Aldous — Befragung"
+  },
+  {
+   "key": "case071.summary.evidence",
+   "value": "Die Führerin musste vor der Untersuchung des Turms befragt werden. Das Funkprotokoll war ein Köder: es unterschied das Handfunkgerät nicht. Der Angler sah das zweite Licht; die Durchsuchung fand Bolzen und Akte."
+  },
+  {
+   "key": "case071.summary.lesson",
+   "value": "Seine Stimme war auf dem Kanal. Er selbst war auf der Treppe."
+  },
+  {
+   "key": "case071.summary.location",
+   "value": "Williamstown — November 2030"
+  },
+  {
+   "key": "case071.summary.truth",
+   "value": "Vor dreißig Jahren unterschrieb Lachlan Reid für Container an ‚Liaison Freight‘, ohne hineinzusehen. Der Archivar Graham Teale fand die Manifeste und wollte sie der Zeitung geben. Reid lockerte am Nachmittag die Bolzen des Galeriegeländers; am Abend stieg er mit dem Handfunkgerät redend auf den Turm, nahm die Akte, und als Graham zurückwich, brach das Geländer."
+  },
+  {
+   "key": "case071.suspect.label",
+   "value": "Wer hat Graham Teale getötet?"
+  },
+  {
+   "key": "case071.tablet.caseLine",
+   "value": "AKTE #071  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case071.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case071.time.lamp",
+   "value": "abends"
+  },
+  {
+   "key": "case071.time.second",
+   "value": "21.00"
+  },
+  {
+   "key": "case071.title",
+   "value": "Akte #071 — Zeitball"
+  },
+  {
+   "key": "case071.tower.body",
+   "value": "Zeitballturm, Galerie:\n\n· Die zwei Bolzen des fehlenden Geländerstücks sind nicht an ihrem Platz; frische Kratzer in den Bolzenlöchern, mit einem Schlüssel gelockert.\n· Auf der Galerie eine Leselampe und ein leerer Aktenordner.\n· Die Tür wurde verschlossen vorgefunden; nicht aufgebrochen."
+  },
+  {
+   "key": "case071.tower.title",
+   "value": "UNTERSUCHUNG DES TURMS"
+  },
+  {
+   "key": "case071.verdict.accident",
+   "value": "Niemand — das Geländer war morsch"
+  },
+  {
+   "key": "case071.verdict.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.verdict.lachlan",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.verdict.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.item.radio.name",
+   "value": "Handfunkgerät"
+  },
+  {
+   "key": "case071.item.radio.detail",
+   "value": "Das Reserve-Handfunkgerät der Hafenmeisterei; Kanal auf das Hauptfunkgerät umgeleitet."
+  },
+  {
+   "key": "case071.item.manifest.name",
+   "value": "Frachtmanifest"
+  },
+  {
+   "key": "case071.item.manifest.detail",
+   "value": "Ein vergilbtes Manifest aus den 1990ern; Empfänger ‚Liaison Freight‘."
+  },
+  {
+   "key": "case071.item.rail.name",
+   "value": "Stück des Galeriegeländers"
+  },
+  {
+   "key": "case071.item.rail.detail",
+   "value": "Ein vom Galeriegeländer des Turms gelöstes Stück, die Schrauben frisch gelockert."
+  }
+ ]
+}
