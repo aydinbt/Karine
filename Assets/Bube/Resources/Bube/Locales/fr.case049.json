@@ -1,0 +1,456 @@
+{
+ "entries": [
+  {
+   "key": "case049.bruno.body",
+   "value": "Garçon de café."
+  },
+  {
+   "key": "case049.bruno.deflect",
+   "value": "Moi, je porte les cafés, signo’."
+  },
+  {
+   "key": "case049.bruno.gone",
+   "value": "Bruno Gallo est parti par le ferry du soir pour la Sardaigne, pour un hôtel de la Costa Smeralda. Son téléphone est éteint."
+  },
+  {
+   "key": "case049.bruno.title",
+   "value": "Bruno Gallo — audition"
+  },
+  {
+   "key": "case049.bruno.tray.answer",
+   "value": "À midi, comme tous les jours, sans sucre. Il y avait une dame élégante aux cheveux argentés à l’intérieur. Pendant que je posais la tasse sur le comptoir, elle a dit : « Je vais la lui donner, Bruno », et elle m’a pris la tasse. Le maître était au fond, il cherchait quelque chose sur l’étagère. Ensuite je suis parti. Demain soir je vais en Sardaigne, un travail saisonnier ; ne le dites pas à ma mère, elle ne le sait pas encore."
+  },
+  {
+   "key": "case049.bruno.tray.answer.demeanor",
+   "value": "Serre le plateau contre sa poitrine."
+  },
+  {
+   "key": "case049.bruno.tray.question",
+   "value": "Quand avez-vous apporté son café au maître ?"
+  },
+  {
+   "key": "case049.clue.arrive",
+   "value": "L’antiquaire arrive à l’atelier."
+  },
+  {
+   "key": "case049.clue.coffee",
+   "value": "Le garçon de café apporte la tasse ; l’antiquaire dit « je vais la lui donner »."
+  },
+  {
+   "key": "case049.clue.found",
+   "value": "L’apprenti trouve le maître affaissé."
+  },
+  {
+   "key": "case049.clue.leave",
+   "value": "L’antiquaire quitte l’atelier."
+  },
+  {
+   "key": "case049.clue.lunch",
+   "value": "L’apprenti sort déjeuner."
+  },
+  {
+   "key": "case049.clue.source.bruno",
+   "value": "Bruno Gallo"
+  },
+  {
+   "key": "case049.clue.source.matteo",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case049.clue.source.vittoria",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.custody.bag",
+   "value": "Dans le sac à main de l’antiquaire"
+  },
+  {
+   "key": "case049.custody.burnt",
+   "value": "Le maître l’a brûlée lui-même"
+  },
+  {
+   "key": "case049.custody.label",
+   "value": "Où est passée la lettre de rétractation du maître ?"
+  },
+  {
+   "key": "case049.custody.posted",
+   "value": "Elle a été postée"
+  },
+  {
+   "key": "case049.epilogue.custody.bag",
+   "value": "Il a été consigné que la lettre de rétractation avait été retrouvée dans le sac de Vittoria Sala."
+  },
+  {
+   "key": "case049.epilogue.custody.burnt",
+   "value": "La lettre originale n’avait pas été brûlée."
+  },
+  {
+   "key": "case049.epilogue.custody.posted",
+   "value": "La lettre a été retrouvée timbrée mais non postée."
+  },
+  {
+   "key": "case049.epilogue.verdict.matteo",
+   "value": "Matteo Cuomo a été arrêté ; la lettre n’a jamais été postée."
+  },
+  {
+   "key": "case049.epilogue.verdict.natural",
+   "value": "Le décès a été jugé naturel ; l’atelier a fermé."
+  },
+  {
+   "key": "case049.epilogue.verdict.teresa",
+   "value": "Teresa Cuomo a été placée en garde à vue ; les figurines ont continué à se vendre."
+  },
+  {
+   "key": "case049.epilogue.verdict.vittoria",
+   "value": "Vittoria Sala a été arrêtée. Les envois de 61 fausses figurines par Caruso Marittima ont été signalés aux antennes de Zürich, Tokyo et New York."
+  },
+  {
+   "key": "case049.evidence.export",
+   "value": "Documents d’exportation"
+  },
+  {
+   "key": "case049.evidence.shop",
+   "value": "Fouille du magasin d’antiquités"
+  },
+  {
+   "key": "case049.evidence.tox",
+   "value": "Rapport toxicologique"
+  },
+  {
+   "key": "case049.export.body",
+   "value": "· Au cours des quatre dernières années, 61 « figurines napolitaines du XVIIIe siècle » exportées du port de Napoli vers Zürich, Tokyo et New York ; chaque expertise signée « Raffaele Cuomo ». Vendeuse : Vittoria Sala. Expéditeur : Caruso Marittima.\n· Le brouillon de lettre sur le bureau du maître (copie) : « Je retire l’expertise que j’ai donnée sur toutes les figurines vendues par Vittoria Sala et signées de ma main. » La lettre originale est introuvable."
+  },
+  {
+   "key": "case049.export.title",
+   "value": "DOCUMENTS D’EXPORTATION"
+  },
+  {
+   "key": "case049.feedback.matteo",
+   "value": "L’apprenti connaissait les peintures, mais l’atelier n’a que des acryliques ; le pigment mortel venait d’une autre boutique."
+  },
+  {
+   "key": "case049.feedback.natural",
+   "value": "Un ancien pigment de peinture à base d’arsenic a été retrouvé dans l’estomac et dans la tasse."
+  },
+  {
+   "key": "case049.feedback.teresa",
+   "value": "La fille tenait les comptes et a raconté l’histoire des signatures ; elle n’était pas à l’atelier ce jour-là."
+  },
+  {
+   "key": "case049.feedback.vittoria",
+   "value": "Le pot de pigment de son magasin a été ouvert récemment et porte son empreinte ; la lettre de rétractation du maître est sortie de son sac. Le maître allait retirer les signatures qu’il avait données aux fausses figurines qu’elle vendait."
+  },
+  {
+   "key": "case049.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case049.file.value.bureau",
+   "value": "BDS Napoli — Antenne des Quartieri Spagnoli"
+  },
+  {
+   "key": "case049.file.value.location",
+   "value": "San Gregorio Armeno, Napoli — atelier"
+  },
+  {
+   "key": "case049.file.value.number",
+   "value": "BDN-NAP-2030-0327"
+  },
+  {
+   "key": "case049.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case049.file.value.reporter",
+   "value": "Neveu"
+  },
+  {
+   "key": "case049.matteo.body",
+   "value": "Neveu et apprenti."
+  },
+  {
+   "key": "case049.matteo.deflect",
+   "value": "Ce n’est pas moi qui ai trouvé Zio ; moi, je pétris l’argile."
+  },
+  {
+   "key": "case049.matteo.found.answer",
+   "value": "À une heure, je suis sorti déjeuner ; Zio a dit : « Vas-y, Mme Vittoria vient, on va parler. » Quand je suis revenu, sa tête était sur le berger. La tasse était sur le comptoir, mais elle avait été lavée. Zio ne lave jamais sa tasse ; c’est Bruno qui la remporte."
+  },
+  {
+   "key": "case049.matteo.found.answer.demeanor",
+   "value": "Gratte l’argile sous ses ongles."
+  },
+  {
+   "key": "case049.matteo.found.question",
+   "value": "Comment avez-vous trouvé le maître ?"
+  },
+  {
+   "key": "case049.matteo.green.answer",
+   "value": "On utilise des acryliques, inoffensifs. Personne n’utilise ce vieux vert toxique ; il est interdit. Mais quelqu’un qui copie des figurines du XVIIIe siècle cherche le vieux pigment pour qu’elles aient l’air « d’origine ». Les antiquaires le trouvent. Zio l’appelait le « vert du faussaire »."
+  },
+  {
+   "key": "case049.matteo.green.question",
+   "value": "Utilise-t-on de la peinture verte à l’atelier ?"
+  },
+  {
+   "key": "case049.matteo.title",
+   "value": "Matteo Cuomo — audition"
+  },
+  {
+   "key": "case049.method.arsenic",
+   "value": "Un vieux pigment à l’arsenic a été mis dans son café"
+  },
+  {
+   "key": "case049.method.fumes",
+   "value": "Il a été empoisonné par les vapeurs de peinture"
+  },
+  {
+   "key": "case049.method.heart",
+   "value": "Une insuffisance cardiaque"
+  },
+  {
+   "key": "case049.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case049.offer.subtitle",
+   "value": "PRESEPE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case049.offer.summary",
+   "value": "À San Gregorio Armeno, un fabricant de figurines est mort à son établi. Ses lèvres sont verdâtres."
+  },
+  {
+   "key": "case049.offer.title",
+   "value": "DOSSIER #049"
+  },
+  {
+   "key": "case049.person.bruno.info",
+   "value": "19 ans, garçon de café du bar d’en face."
+  },
+  {
+   "key": "case049.person.bruno.name",
+   "value": "Bruno Gallo"
+  },
+  {
+   "key": "case049.person.matteo.info",
+   "value": "27 ans, le neveu et apprenti de la victime."
+  },
+  {
+   "key": "case049.person.matteo.name",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.person.teresa.info",
+   "value": "50 ans, la fille de la victime ; tient les comptes de l’atelier."
+  },
+  {
+   "key": "case049.person.teresa.name",
+   "value": "Teresa Cuomo"
+  },
+  {
+   "key": "case049.person.vittoria.info",
+   "value": "58 ans, propriétaire d’un magasin d’antiquités de la Via dei Tribunali."
+  },
+  {
+   "key": "case049.person.vittoria.name",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.report.body",
+   "value": "L’après-midi du 8 octobre 2030, dans un atelier de figurines de San Gregorio Armeno, le maître Raffaele Cuomo (76 ans) a été retrouvé mort à son établi.\n\nSon neveu et apprenti Matteo Cuomo a trouvé le corps à 15.20, en revenant de déjeuner. Sa fille Teresa Cuomo tient les comptes de l’atelier. Avant midi, l’antiquaire Vittoria Sala est passée à l’atelier. Bruno Gallo apporte chaque jour le café du bar d’en face."
+  },
+  {
+   "key": "case049.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case049.request.export",
+   "value": "Demander les documents d’exportation"
+  },
+  {
+   "key": "case049.request.shop",
+   "value": "Demander l’autorisation de fouiller le magasin de Vittoria Sala"
+  },
+  {
+   "key": "case049.request.tox",
+   "value": "Demander le rapport toxicologique"
+  },
+  {
+   "key": "case049.shop.body",
+   "value": "Le magasin de Vittoria Sala, Via dei Tribunali (avec l’accord du chef d’antenne) :\n\n· Dans l’arrière-boutique, un pot d’acéto-arsénite de cuivre scellé à la cire rouge ; la cire fraîchement brisée et rescellée. L’empreinte de Vittoria Sala sur le pot.\n· Quatorze figurines en argile neuve, vieillies au pigment ancien.\n· Dans le sac à main de Vittoria Sala, la lettre de rétractation originale signée du maître, son enveloppe timbrée, non postée."
+  },
+  {
+   "key": "case049.shop.title",
+   "value": "MAGASIN D’ANTIQUITÉS — FOUILLE"
+  },
+  {
+   "key": "case049.summary.evidence",
+   "value": "Le garçon de café a vu qui a pris la tasse ; s’il n’était pas interrogé avant le résultat de l’autopsie, il partait pour la Sardaigne. L’apprenti a expliqué le « vert du faussaire », la fille le prix des signatures. La toxicologie a nommé le pigment ; une fouille justifiée a trouvé le pot et la lettre."
+  },
+  {
+   "key": "case049.summary.lesson",
+   "value": "Pour faire paraître vieux ce qui est neuf, il a fallu du poison."
+  },
+  {
+   "key": "case049.summary.location",
+   "value": "San Gregorio Armeno — octobre 2030"
+  },
+  {
+   "key": "case049.summary.truth",
+   "value": "Depuis quarante ans, l’antiquaire Vittoria Sala vendait comme « XVIIIe siècle » des figurines en argile neuve vieillies au pigment ancien, et Caruso Marittima les mettait sur les navires ; la signature d’expert venait du maître Raffaele Cuomo. Quand le maître a décidé de retirer ses signatures, Vittoria a pris la tasse de café des mains du garçon, y a mélangé le pigment vert à l’arsenic, a lavé la tasse et a mis la lettre dans son sac."
+  },
+  {
+   "key": "case049.suspect.label",
+   "value": "Qui a tué Raffaele Cuomo ?"
+  },
+  {
+   "key": "case049.tablet.caseLine",
+   "value": "DOSSIER #049  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case049.teresa.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case049.teresa.deflect",
+   "value": "Les questions sur les affaires de mon père, c’est à moi qu’on les pose."
+  },
+  {
+   "key": "case049.teresa.papers.answer",
+   "value": "Des expertises. Pendant des années, il a authentifié les figurines « anciennes » que Vittoria Sala vendait comme « XVIIIe siècle, d’origine » ; mille euros la signature. La semaine dernière, il a cassé une figurine et a trouvé de l’argile neuve à l’intérieur. « Teresa, ce sont toutes des fausses, et je suis devenu un faussaire », il a dit. Il allait retirer ses signatures ; il avait même écrit la lettre."
+  },
+  {
+   "key": "case049.teresa.papers.answer.demeanor",
+   "value": "Baisse ses lunettes et les remonte."
+  },
+  {
+   "key": "case049.teresa.papers.question",
+   "value": "Sur quoi travaillait votre père ces derniers jours ?"
+  },
+  {
+   "key": "case049.teresa.title",
+   "value": "Teresa Cuomo — audition"
+  },
+  {
+   "key": "case049.time.arrive",
+   "value": "11.00"
+  },
+  {
+   "key": "case049.time.coffee",
+   "value": "12.00"
+  },
+  {
+   "key": "case049.time.found",
+   "value": "15.20"
+  },
+  {
+   "key": "case049.time.leave",
+   "value": "12.30"
+  },
+  {
+   "key": "case049.time.lunch",
+   "value": "13.00"
+  },
+  {
+   "key": "case049.title",
+   "value": "Dossier #049 — Presepe"
+  },
+  {
+   "key": "case049.tox.body",
+   "value": "· Cause du décès : intoxication aiguë à l’arsenic.\n· Dans l’estomac, de l’espresso et de l’acéto-arsénite de cuivre : un pigment de peinture connu historiquement comme « vert de Paris » ou « vert de Schweinfurt », dont la vente est aujourd’hui interdite.\n· Le même pigment dans l’anneau vert au fond de la tasse.\n· Ingestion : 2–3 heures avant le décès."
+  },
+  {
+   "key": "case049.tox.title",
+   "value": "RAPPORT TOXICOLOGIQUE"
+  },
+  {
+   "key": "case049.verdict.matteo",
+   "value": "Matteo Cuomo"
+  },
+  {
+   "key": "case049.verdict.natural",
+   "value": "Personne — une insuffisance cardiaque"
+  },
+  {
+   "key": "case049.verdict.teresa",
+   "value": "Teresa Cuomo"
+  },
+  {
+   "key": "case049.verdict.vittoria",
+   "value": "Vittoria Sala"
+  },
+  {
+   "key": "case049.vittoria.body",
+   "value": "Antiquaire."
+  },
+  {
+   "key": "case049.vittoria.deflect",
+   "value": "Je connais la valeur des vieilles choses, et des gens."
+  },
+  {
+   "key": "case049.vittoria.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case049.vittoria.end.presented.export",
+   "value": "La signature d’expert, oui. Raffaele prenait de l’argent pour chaque signature. Il allait devenir propre maintenant ?"
+  },
+  {
+   "key": "case049.vittoria.end.presented.shop",
+   "value": "Depuis quarante ans, je vends ces figurines ; les Caruso les mettent sur les navires, et des acheteurs les attendent à Zürich, Tokyo, New York. Si Raffaele avait posté la lettre, tout aurait été fini. J’utilise ce vert pour vieillir les figurines. J’en ai mis un peu dans sa tasse aussi. J’ai lavé la tasse. J’ai mis la lettre dans mon sac."
+  },
+  {
+   "key": "case049.vittoria.end.question",
+   "value": "Vous avez mis le pigment vert dans la tasse."
+  },
+  {
+   "key": "case049.vittoria.title",
+   "value": "Vittoria Sala — audition"
+  },
+  {
+   "key": "case049.vittoria.visit.answer",
+   "value": "J’avais commandé une figurine de berger. Je suis arrivée vers onze heures et repartie à midi et demi. Raffaele était fatigué ; il buvait toujours du café, son cœur était faible. Je n’ai même pas touché sa tasse."
+  },
+  {
+   "key": "case049.vittoria.visit.answer.demeanor",
+   "value": "Redresse son camée du bout d’un doigt."
+  },
+  {
+   "key": "case049.vittoria.visit.question",
+   "value": "Pourquoi êtes-vous allée à l’atelier du maître ?"
+  },
+  {
+   "key": "case049.vittoria.visit.variant0",
+   "value": "J’ai pris la tasse au garçon, oui ; il tremblait, il l’aurait renversée. Je l’ai tendue à Raffaele. Ça ne veut rien dire."
+  },
+  {
+   "key": "case049.item.cup.name",
+   "value": "Tasse d’espresso"
+  },
+  {
+   "key": "case049.item.cup.detail",
+   "value": "Une tasse lavée à l’intérieur ; un anneau vert séché au fond."
+  },
+  {
+   "key": "case049.item.pigment.name",
+   "value": "Pot de pigment ancien"
+  },
+  {
+   "key": "case049.item.pigment.detail",
+   "value": "Un petit pot en verre scellé à la cire ; une poudre d’un vert émeraude vif à l’intérieur."
+  },
+  {
+   "key": "case049.item.figure.name",
+   "value": "Figurine de berger"
+  },
+  {
+   "key": "case049.item.figure.detail",
+   "value": "Un berger en terre cuite inachevé ; la tête peinte, le corps en argile nue."
+  }
+ ]
+}
