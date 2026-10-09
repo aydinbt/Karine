@@ -647,5 +647,5 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 
 ## Denenen kayıt ve kapsam (9 Ekim 2026)
 
-- `Investigation.SourceTried`: sorunun doğru kaydı (`presentedSourceIds`), yalnız gerçekten yanıt alındıysa düşer; `triedSources` içindeki eski izler yok sayılır. `BubeApp.Interview` bekletilen soruda (`!CanAskQuestion`) hiçbir kaydı işaretlemez.
+- `Investigation.SourceTried`: sorunun doğru kaydı (`presentedSourceIds`), yalnız gerçekten yanıt alındıysa düşer; `triedSources` içindeki eski izler yok sayılır. Yem sonrası bekletme (`Investigation.Decoy.cs`) kaldırıldı; `Progress.decoyHolds` yalnız eski kayıt uyumu için duruyor.
 - `Coverage.Of(game, whole)`: `whole:true` rapor özetinde dosyanın tüm kaynak, soru ve çizelge satırlarını payda yapar.

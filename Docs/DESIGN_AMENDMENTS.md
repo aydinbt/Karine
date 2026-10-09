@@ -1271,3 +1271,4 @@ Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir ke
 
 - Yem kayıttan sonra soru kısa süre bekletilir. Bu sırada sunulan doğru kayıt artık "denendi" diye listeden düşmez; kişi yalnız savuşturur. Daha önce Dosya #002'de Selçuk'un "Araç yanında sizinle duran kişi kimdi?" sorusu, doğru iki CCTV kaydı bekleme sırasında yandığı için kayıtsız kalıp kilitleniyordu. Eski kayıtlar kendiliğinden onarılır.
 - Rapor özetindeki "Çalışman" sayaçlarının paydası, rapor gönderildikten sonra dosyanın tamamıdır. Soruşturma sürerken ipucu ekranı yine yalnız açılmış olanı sayar ki gizli soru sayısı sızmasın.
+- (aynı gün, düzeltme) Bekletme tümden kalktı. Yem kayıt kişinin sözüyle savuşturulur ama soru açık kalır; oyuncu aynı soruda başka bir kayıtla hemen devam eder. Gerekçe: bekletilen soru oyuncuya ne yapacağını söylemiyordu, oyun her an ilerleme sunmalı.
