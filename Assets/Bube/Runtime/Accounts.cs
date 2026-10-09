@@ -64,6 +64,7 @@ public static class Accounts {
   if (Kind != AccountKind.Guest && string.IsNullOrEmpty(Id)) Kind = AccountKind.Guest;
  }
  public static void MarkChosen() { PlayerPrefs.SetInt(ChosenKey, 1); PlayerPrefs.Save(); }
+ public static void UnmarkChosen() { PlayerPrefs.DeleteKey(ChosenKey); PlayerPrefs.Save(); }
  public static void Set(AccountKind kind, string id) {
   Kind = id == null ? AccountKind.Guest : kind; Id = Kind == AccountKind.Guest ? "" : id;
   PlayerPrefs.SetInt(KindKey, (int)Kind); PlayerPrefs.SetString(IdKey, Id); PlayerPrefs.Save();

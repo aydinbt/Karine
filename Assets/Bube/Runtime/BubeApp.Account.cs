@@ -138,13 +138,15 @@ public sealed partial class BubeApp {
  void DeleteAccount() {
   root.Q("ConfirmVeil")?.RemoveFromHierarchy();
   // Bulutsuz misafir: yalnız cihaz. Bulutlu misafirde önce sunucu silinir, sonra cihaz.
-  if(!Accounts.SignedIn && !Accounts.Provider.CloudReady){Accounts.Wipe(Accounts.GuestFolder);accountNotice=T("account.notice.deleted");ReloadAccount();return;}
+  if(!Accounts.SignedIn && !Accounts.Provider.CloudReady){Accounts.Wipe(Accounts.GuestFolder);Accounts.UnmarkChosen();accountNotice=T("account.notice.deleted");ReloadAccount();AccountBoot();return;}
   if(accountBusy)return;accountBusy=true;
   Accounts.Provider.Delete(error=>{
    accountBusy=false;
    if(error!=null){accountNotice=T(error);RefreshAccountUi();return;}
    var folder=Accounts.Folder;Accounts.Set(AccountKind.Guest,null);Accounts.Wipe(folder);
-   accountNotice=T("account.notice.deleted");ReloadAccount();
+   // Hesap silinince oyuncu oyundan düşer: giriş kağıdına döner ve yeniden seçer
+   // (misafir seçerse yepyeni, ilişkisiz bir kimlik alır).
+   Accounts.UnmarkChosen();accountNotice=T("account.notice.deleted");ReloadAccount();AccountBoot();
   });
  }
 
