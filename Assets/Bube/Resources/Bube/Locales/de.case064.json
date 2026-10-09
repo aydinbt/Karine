@@ -1,0 +1,424 @@
+{
+ "entries": [
+  {
+   "key": "case064.autopsy.body",
+   "value": "· Todesursache: Unterkühlung und Ersticken; Schnee in Mund und Nase gepresst.\n· Breite, flache Quetschung an der Brust: passt zur Schaufel eines Radladers. Rippen gebrochen.\n· Keine Verletzung durch die Schneefräse: die Maschine hielt an, bevor sie die Leiche erreichte.\n· Todeszeit: 00.45–01.30."
+  },
+  {
+   "key": "case064.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case064.clue.found",
+   "value": "Der Fahrer der Schneefräse sieht im Schneehaufen den roten Schal."
+  },
+  {
+   "key": "case064.clue.photo",
+   "value": "Das Tablet der Prüferin fotografiert in der Gasse den Radlader und seinen Fahrer."
+  },
+  {
+   "key": "case064.clue.radio",
+   "value": "Der Chef sagt über Funk: ‚Ich bin im Depot, ich lade mit dem Radlader Salz.‘"
+  },
+  {
+   "key": "case064.clue.source.depot",
+   "value": "Durchsuchung des Depots"
+  },
+  {
+   "key": "case064.clue.source.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.clue.source.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.custody.label",
+   "value": "Wohin kam das Tablet der Prüferin?"
+  },
+  {
+   "key": "case064.custody.salt",
+   "value": "In den Haufen in der Salzhalle der Firma"
+  },
+  {
+   "key": "case064.custody.snow",
+   "value": "Auf den Schneeabladeplatz"
+  },
+  {
+   "key": "case064.custody.truck",
+   "value": "In den Pick-up des Chefs"
+  },
+  {
+   "key": "case064.depot.body",
+   "value": "Das Depot der Firma, die Salzhalle und Radlader 2 (mit Genehmigung der Dienststellenleitung):\n\n· Im Haufen in der Salzhalle das städtische Tablet von Isabelle Moreau; auf der Hülle der Fingerabdruck von Serge Paquette.\n· Auf dem Fahrersitz von Radlader 2 rote Wollfasern; identisch mit dem Schal des Opfers. Das GPS-Modul des Radladers ist ausgebaut, in der Werkzeugtasche.\n· Das letzte Foto des Tablets um 00.52: in der Gasse Radlader 2, auf dem Fahrersitz ein Mann in grünem Parka."
+  },
+  {
+   "key": "case064.depot.title",
+   "value": "DEPOT DER FIRMA UND RADLADER — DURCHSUCHUNG"
+  },
+  {
+   "key": "case064.epilogue.custody.salt",
+   "value": "Festgehalten wurde, dass das Tablet in der Salzhalle gefunden wurde."
+  },
+  {
+   "key": "case064.epilogue.custody.snow",
+   "value": "Auf dem Schneeplatz war das Tablet nicht."
+  },
+  {
+   "key": "case064.epilogue.custody.truck",
+   "value": "Im Pick-up war kein Tablet."
+  },
+  {
+   "key": "case064.epilogue.verdict.accident",
+   "value": "Der Tod galt als Sturmunfall; Laurentide zahlte die Garantie als ‚höhere Gewalt‘."
+  },
+  {
+   "key": "case064.epilogue.verdict.oneill",
+   "value": "Ryan O’Neill wurde festgenommen; der Radlader fuhr beim nächsten Sturm wieder."
+  },
+  {
+   "key": "case064.epilogue.verdict.paquette",
+   "value": "Serge Paquette wurde festgenommen; die aufgeblähten Rechnungen wurden der Stadt gemeldet. Die Ausschreibungsgarantien von Laurentide Réassurance kamen in die Akte der Dienststelle Mile End."
+  },
+  {
+   "key": "case064.epilogue.verdict.yusra",
+   "value": "Yusra Haddadi wurde festgenommen; das Tablet blieb im Salz."
+  },
+  {
+   "key": "case064.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case064.evidence.depot",
+   "value": "Durchsuchung von Depot und Radlader"
+  },
+  {
+   "key": "case064.evidence.gps",
+   "value": "GPS-Protokoll der Flotte"
+  },
+  {
+   "key": "case064.evidence.oneill",
+   "value": "Aussage des Schneefräsenfahrers"
+  },
+  {
+   "key": "case064.feedback.accident",
+   "value": "Die Quetschung an der Brust passt zur Schaufel eines Radladers, und dieser Gasse war kein Radlader zugeteilt."
+  },
+  {
+   "key": "case064.feedback.oneill",
+   "value": "Der Schneefräsenfahrer fuhr um 01.50 in die Gasse, nach dem Tod; seine Maschine hielt an, bevor sie die Leiche erreichte."
+  },
+  {
+   "key": "case064.feedback.paquette",
+   "value": "Das Tablet der Prüferin kam aus seiner Salzhalle, mit seinem Abdruck; das letzte Foto des Tablets zeigt in der Gasse den Radlader ohne GPS und seinen Fahrer im grünen Parka. Das GPS-Protokoll entlastet ihn nicht: im Depot stand sein Pick-up, nicht er."
+  },
+  {
+   "key": "case064.feedback.yusra",
+   "value": "Die Disponentin saß die ganze Nacht vor dem Bildschirm."
+  },
+  {
+   "key": "case064.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case064.file.value.bureau",
+   "value": "BDM Montreal — Dienststelle Mile End"
+  },
+  {
+   "key": "case064.file.value.location",
+   "value": "Hinter der Rue Waverly, Mile End, Montreal"
+  },
+  {
+   "key": "case064.file.value.number",
+   "value": "BDM-MTL-2030-0224"
+  },
+  {
+   "key": "case064.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case064.file.value.reporter",
+   "value": "Maschinenfahrer"
+  },
+  {
+   "key": "case064.gps.body",
+   "value": "GPS-Protokoll der Firma für die Nacht vom 16. auf den 17. November:\n\n· Schneefräse 3 (Ryan O’Neill): Route Waverly, 01.50 Einfahrt in die Gasse.\n· Lkw 7 und 9: zwischen Schneeabladeplatz und Route.\n· Pick-up von Serge Paquette: 00.30–02.00 im Depot, geparkt.\n· Radlader 2: kein Signal (Störungsmeldung 12. Oktober)."
+  },
+  {
+   "key": "case064.gps.title",
+   "value": "GPS-PROTOKOLL DER FLOTTE"
+  },
+  {
+   "key": "case064.lachance.audit.answer",
+   "value": "Die Rechnungen der Firma mit den tatsächlichen Ladungen der Lkw. Seit drei Jahren wurden vierzig Prozent des abgerechneten Schnees nie abtransportiert. Isabelle wollte in jener Nacht im Sturm hinaus und die Lkw selbst zählen; ‚ohne Paquette Bescheid zu sagen‘, sagte sie. Ihr Tablet zeichnete alles auf, Fotos, Kennzeichen. Das Tablet wurde nicht gefunden, oder?"
+  },
+  {
+   "key": "case064.lachance.audit.answer.demeanor",
+   "value": "Wickelt ihren Schal mit beiden Händen um den Hals."
+  },
+  {
+   "key": "case064.lachance.audit.question",
+   "value": "Was hat Isabelle geprüft?"
+  },
+  {
+   "key": "case064.lachance.body",
+   "value": "Städtische Prüferin."
+  },
+  {
+   "key": "case064.lachance.deflect",
+   "value": "Wir sind Prüfer, wir mögen niemanden."
+  },
+  {
+   "key": "case064.lachance.title",
+   "value": "Martine Lachance — Befragung"
+  },
+  {
+   "key": "case064.method.blower",
+   "value": "Die Schneefräse hat sie erfasst"
+  },
+  {
+   "key": "case064.method.cold",
+   "value": "Sie ist im Sturm erfroren"
+  },
+  {
+   "key": "case064.method.label",
+   "value": "Wie ist sie gestorben?"
+  },
+  {
+   "key": "case064.method.loader",
+   "value": "Sie wurde mit der Schaufel des Radladers geschoben und im Schneehaufen begraben"
+  },
+  {
+   "key": "case064.offer.subtitle",
+   "value": "SCHNEESTURM  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case064.offer.summary",
+   "value": "Eine städtische Prüferin wurde in einer Sturmnacht in einer Gasse in einem Schneehaufen gefunden."
+  },
+  {
+   "key": "case064.offer.title",
+   "value": "AKTE #064"
+  },
+  {
+   "key": "case064.oneill.body",
+   "value": "Fahrer der Schneefräse."
+  },
+  {
+   "key": "case064.oneill.deflect",
+   "value": "Ich fahre die Maschine, Straße für Straße."
+  },
+  {
+   "key": "case064.oneill.found.answer",
+   "value": "Der Haufen war höher als sonst, als hätte jemand den Schnee der ganzen Gasse auf eine Stelle geschoben. Vor mir war ein Radlader durchgefahren, die Spuren waren da; aber dieser Gasse war kein Radlader zugeteilt, auf dem Dispositionsbildschirm nicht. Ich sah das Rot, hielt die Maschine an. Eine Sekunde länger …"
+  },
+  {
+   "key": "case064.oneill.found.answer.demeanor",
+   "value": "Klopft mit dem Handschuh den Schnee aus seinem Bart."
+  },
+  {
+   "key": "case064.oneill.found.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case064.oneill.title",
+   "value": "Ryan O’Neill — Befragung"
+  },
+  {
+   "key": "case064.paquette.body",
+   "value": "Besitzer der Schneeräumfirma."
+  },
+  {
+   "key": "case064.paquette.deflect",
+   "value": "Den Schnee dieser Stadt räume ich seit dreißig Jahren."
+  },
+  {
+   "key": "case064.paquette.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case064.paquette.end.decoy.gps",
+   "value": "Sehen Sie aufs GPS: mein Pick-up stand von halb eins bis zwei im Depot. Ich bin da nie weggefahren."
+  },
+  {
+   "key": "case064.paquette.end.presented.depot",
+   "value": "Mein Pick-up war im Depot, nicht ich. Das GPS des Radladers habe ich letzten Monat selbst ausgebaut. Isabelle fotografierte in der Gasse die Lkw; ich fuhr mit dem Radlader zu ihr, sagte ‚reden wir‘, ihr Tablet wollte sie nicht hergeben. Ich schob sie mit der Schaufel, häufte den Schnee auf sie. Das Tablet vergrub ich im Salzhaufen. Die Garantie von Laurentide hätte ohnehin gezahlt, ‚Sturm, höhere Gewalt‘, alle hätten das gesagt."
+  },
+  {
+   "key": "case064.paquette.end.question",
+   "value": "Sie haben Isabelle mit dem Radlader im Schneehaufen begraben."
+  },
+  {
+   "key": "case064.paquette.night.answer",
+   "value": "Im Depot, ich habe Salz geladen. In einer Sturmnacht sitzt der Chef nicht am Schreibtisch. Was suchte die Prüferin im Sturm in einer Gasse? Wer neben einem Schneehaufen steht, dem passiert so etwas."
+  },
+  {
+   "key": "case064.paquette.night.answer.demeanor",
+   "value": "Hebt die Ohrenklappe seiner Mütze und lässt sie wieder sinken."
+  },
+  {
+   "key": "case064.paquette.night.question",
+   "value": "Wo waren Sie in der Nacht?"
+  },
+  {
+   "key": "case064.paquette.title",
+   "value": "Serge Paquette — Befragung"
+  },
+  {
+   "key": "case064.person.lachance.info",
+   "value": "45 Jahre, städtische Prüferin; Kollegin des Opfers."
+  },
+  {
+   "key": "case064.person.lachance.name",
+   "value": "Martine Lachance"
+  },
+  {
+   "key": "case064.person.oneill.info",
+   "value": "34 Jahre, Fahrer der Schneefräse."
+  },
+  {
+   "key": "case064.person.oneill.name",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.person.paquette.info",
+   "value": "57 Jahre, Besitzer der Schneeräumfirma."
+  },
+  {
+   "key": "case064.person.paquette.name",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.person.yusra.info",
+   "value": "28 Jahre, Nachtdisponentin der Firma."
+  },
+  {
+   "key": "case064.person.yusra.name",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.report.body",
+   "value": "In der Nacht des 17. November 2030 wurde in Mile End, in der Gasse hinter der Rue Waverly, die städtische Prüferin für Schneeräumung Isabelle Moreau (49) tot in einem Schneehaufen gefunden.\n\nDie Leiche fand der Fahrer der Schneefräse Ryan O’Neill um 02.10, als er den Haufen auf einen Lkw blies und einen roten Schal sah. Der Besitzer der Schneeräumfirma Serge Paquette und die Disponentin Yusra Haddadi waren in der Nacht im Dienst. Die Kollegin der Prüferin, Martine Lachance, kam am Morgen."
+  },
+  {
+   "key": "case064.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case064.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case064.request.depot",
+   "value": "Durchsuchungsbeschluss für Depot und Radlader der Firma beantragen"
+  },
+  {
+   "key": "case064.request.gps",
+   "value": "GPS-Protokoll der Flotte anfordern"
+  },
+  {
+   "key": "case064.summary.evidence",
+   "value": "Das GPS-Protokoll war ein Köder: im Depot stand der Pick-up, nicht der Mann. Die Disponentin erzählte, dass der Radlader kein Signal hatte, der Schneefräsenfahrer von der Spur des nicht zugeteilten Radladers. Die Durchsuchung fand das Tablet und sein letztes Foto."
+  },
+  {
+   "key": "case064.summary.lesson",
+   "value": "Das GPS sagte die Wahrheit: der Pick-up hat sich nie bewegt."
+  },
+  {
+   "key": "case064.summary.location",
+   "value": "Mile End — November 2030"
+  },
+  {
+   "key": "case064.summary.truth",
+   "value": "Der Besitzer der Schneeräumfirma, Serge Paquette, stellte der Stadt drei Jahre lang nicht abtransportierten Schnee in Rechnung. Die Prüferin Isabelle Moreau ging in der Sturmnacht hinaus, um die Lkw selbst zu zählen. Paquette ließ seinen Pick-up im Depot stehen, fuhr mit dem Radlader, dessen GPS er ausgebaut hatte, in die Gasse, schob Isabelle mit der Schaufel unter den Schnee und versteckte ihr Tablet in der Salzhalle."
+  },
+  {
+   "key": "case064.suspect.label",
+   "value": "Wer hat Isabelle Moreau getötet?"
+  },
+  {
+   "key": "case064.tablet.caseLine",
+   "value": "AKTE #064  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case064.time.found",
+   "value": "02.10"
+  },
+  {
+   "key": "case064.time.photo",
+   "value": "00.52"
+  },
+  {
+   "key": "case064.time.radio",
+   "value": "00.30"
+  },
+  {
+   "key": "case064.title",
+   "value": "Akte #064 — Schneesturm"
+  },
+  {
+   "key": "case064.verdict.accident",
+   "value": "Niemand — im Sturm unter Schnee geraten"
+  },
+  {
+   "key": "case064.verdict.oneill",
+   "value": "Ryan O’Neill"
+  },
+  {
+   "key": "case064.verdict.paquette",
+   "value": "Serge Paquette"
+  },
+  {
+   "key": "case064.verdict.yusra",
+   "value": "Yusra Haddadi"
+  },
+  {
+   "key": "case064.yusra.body",
+   "value": "Nachtdisponentin."
+  },
+  {
+   "key": "case064.yusra.deflect",
+   "value": "Ich schaue auf den Bildschirm."
+  },
+  {
+   "key": "case064.yusra.screen.answer",
+   "value": "Auf meinem Bildschirm sind die Lkw, die Schneefräsen, der Pick-up des Chefs. Der kleine Radlader ist nicht auf dem Bildschirm; sein GPS ist letzten Monat ‚ausgefallen‘, der Chef sagte ‚ich lasse es reparieren‘, hat er nicht. Um 00.30 sagte der Chef über Funk: ‚Ich bin im Depot, ich lade mit dem Radlader Salz.‘ Eine Stunde später kam er zurück, die Schaufel des Radladers war ohne Salz."
+  },
+  {
+   "key": "case064.yusra.screen.answer.demeanor",
+   "value": "Richtet das Headset an ihrem Hals."
+  },
+  {
+   "key": "case064.yusra.screen.question",
+   "value": "Welche Fahrzeuge waren in der Nacht wo im Einsatz?"
+  },
+  {
+   "key": "case064.yusra.title",
+   "value": "Yusra Haddadi — Befragung"
+  },
+  {
+   "key": "case064.item.tablet.name",
+   "value": "Tablet der Prüferin"
+  },
+  {
+   "key": "case064.item.tablet.detail",
+   "value": "Das städtische Tablet von Isabelle Moreau; kam aus dem Salzhaufen im Salzlager der Firma."
+  },
+  {
+   "key": "case064.item.gps.name",
+   "value": "GPS-Protokoll der Flotte"
+  },
+  {
+   "key": "case064.item.gps.detail",
+   "value": "Das nächtliche GPS-Protokoll der Firma; der Pick-up des Besitzers 00.30–02.00 im Depot ‚geparkt‘."
+  },
+  {
+   "key": "case064.item.loader.name",
+   "value": "Sitzpolster des Radladers"
+  },
+  {
+   "key": "case064.item.loader.detail",
+   "value": "Der Fahrersitz des kleinen Radladers der Firma; auf dem Polster rote Wollfasern vom Schal von Isabelle."
+  }
+ ]
+}
