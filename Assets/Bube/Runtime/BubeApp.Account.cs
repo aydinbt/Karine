@@ -52,7 +52,9 @@ public sealed partial class BubeApp {
    // Editor'de servis yok ama düğmeler görünür kalır: ekran tasarımı denetlenebilsin, basınca "kullanılamıyor" der.
    if(Accounts.Provider.Supports(kind)||Application.isEditor){var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
   options.Add(new KarineUI.AccountOption(null,T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();}));
-  KarineUI.AccountPaper(root,T("account.tagline"),T("account.or"),options,accountNotice,
+  // Logo altı: her açılışta bir hukuk ilkesi ("|" ile ayrılmış).
+  var maxims=T("account.tagline").Split('|');
+  KarineUI.AccountPaper(root,maxims[UnityEngine.Random.Range(0,maxims.Length)],T("account.or"),options,accountNotice,
    T("account.privacy"),string.IsNullOrEmpty(config.privacyUrl)?null:(Action)OpenPrivacy);
  }
 
