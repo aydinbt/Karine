@@ -1,0 +1,1032 @@
+{
+ "entries": [
+  {
+   "key": "case009.a_bank.body",
+   "value": "· Dette de carte de crédit ~186 000 TL ; deux retards de paiement ces trois derniers mois.\n· Aucune rentrée d’argent liquide entre le 12 et le 14 décembre, aucune activité inhabituelle.\n· Une demande de restructuration de dette ces six derniers mois ; non rejetée, toujours en attente."
+  },
+  {
+   "key": "case009.a_bank.title",
+   "value": "RELEVÉS BANCAIRES — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.a_locker.body",
+   "value": "Casier du personnel. Un uniforme de rechange, deux livres, un chargeur, un dessin de sa fille. Aucun paquet, emballage ni bout de ruban adhésif."
+  },
+  {
+   "key": "case009.a_locker.title",
+   "value": "FOUILLE DU CASIER — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.a_vehicle.body",
+   "value": "Des traces d’une substance synthétique ont été trouvées dans le coffre (quantité infime).\n\nLe registre de transport de scellés du véhicule pour la nuit du 11 décembre porte : « transfert de scellés d’opération — Entrepôt Nord → dépôt des scellés du BDS ». La trace est compatible avec le transfert."
+  },
+  {
+   "key": "case009.a_vehicle.title",
+   "value": "EXAMEN DU VÉHICULE — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.alriza.body",
+   "value": "Déposition du chef du laboratoire."
+  },
+  {
+   "key": "case009.alriza.deflect",
+   "value": "Je ne sais pas ce qui se passe hors du labo. Je connais l’échantillon qui m’arrive."
+  },
+  {
+   "key": "case009.alriza.match.answer",
+   "value": "Je dirais que le lot sort de la même cuisine. Même le produit de coupe est le même. Une substance restée cinq ans sur une étagère ; peu d’humidité, emballage neuf."
+  },
+  {
+   "key": "case009.alriza.match.question",
+   "value": "Quel est le degré de certitude de la comparaison ?"
+  },
+  {
+   "key": "case009.alriza.quote",
+   "value": "« Une substance ne parle pas, mais elle ne ment pas non plus. »"
+  },
+  {
+   "key": "case009.alriza.title",
+   "value": "Ali Rıza Toprak — audition"
+  },
+  {
+   "key": "case009.arda.body",
+   "value": "Déposition de l’agent soupçonné de détournement."
+  },
+  {
+   "key": "case009.arda.count.answer",
+   "value": "Quatre. Je les ai portés depuis la voiture dans mes bras ; il y en avait un gros, il était en dessous. J’ai rempli le formulaire, j’ai écrit quatre. Pourquoi ce serait trois ?"
+  },
+  {
+   "key": "case009.arda.count.question",
+   "value": "Êtes-vous sûr du nombre de paquets que vous avez déposés ?"
+  },
+  {
+   "key": "case009.arda.deflect",
+   "value": "Je ne sais pas. J’ai déposé les paquets ; la suite, je ne la connais pas."
+  },
+  {
+   "key": "case009.arda.night.answer",
+   "value": "Il n’y avait personne au guichet. Nesrin Hanım était à l’intérieur, au coffre du fond ; je l’entendais. Elle a dit : « Laisse-les, remplis le formulaire. » J’ai posé les quatre paquets sur le guichet, j’ai rempli le formulaire et je suis parti. Il n’était pas encore une heure et demie."
+  },
+  {
+   "key": "case009.arda.night.answer.demeanor",
+   "value": "Joint les mains sur la table."
+  },
+  {
+   "key": "case009.arda.night.question",
+   "value": "Que s’est-il passé quand vous avez remis les paquets ?"
+  },
+  {
+   "key": "case009.arda.quote",
+   "value": "« J’ai déposé quatre paquets. Quatre. »"
+  },
+  {
+   "key": "case009.arda.title",
+   "value": "Arda Yılmaz — audition"
+  },
+  {
+   "key": "case009.arda.who.answer",
+   "value": "Ceren lisait la liste, le chef Hakan me tendait les paquets un par un. Il m’a donné le dernier paquet en dernier ; il a dit : « Prends celui-là aussi. »"
+  },
+  {
+   "key": "case009.arda.who.answer.demeanor",
+   "value": "Marque un temps sur « le dernier paquet »."
+  },
+  {
+   "key": "case009.arda.who.question",
+   "value": "Qui a mis les paquets dans la voiture ?"
+  },
+  {
+   "key": "case009.b_inventory.body",
+   "value": "Comptage effectué l’après-midi du 12 décembre : E-14, E-15, E-16 sur l’étagère, conformes aux registres. E-17 n’est pas dans le bureau. Rien d’autre en moins ni en trop."
+  },
+  {
+   "key": "case009.b_inventory.title",
+   "value": "COMPTAGE PHYSIQUE DU DÉPÔT DES SCELLÉS"
+  },
+  {
+   "key": "case009.b_keycard.body",
+   "value": "12.12.2028\n· 01.21 — Porte intérieure du dépôt des scellés (côté couloir du commandement) — Carte : HAKAN ÖZER\n· 01.27 — Porte intérieure du dépôt des scellés — Carte : HAKAN ÖZER (sortie)\n· 02.06 — Sortie du personnel — Carte : NESRİN EKER\n· 03.38 — Couloir du commandement — Carte : CEREN BAŞAR\n· 03.51 — Sortie du personnel — Carte : CEREN BAŞAR"
+  },
+  {
+   "key": "case009.b_keycard.title",
+   "value": "JOURNAL D’ACCÈS PAR BADGE — DÉPÔT DES SCELLÉS ET COMMANDEMENT"
+  },
+  {
+   "key": "case009.b_syslog.body",
+   "value": "12.12.2028\n· 01.31 — N. EKER — terminal du guichet — 3 saisies (E-14, E-15, E-16)\n· 03.42 — N. EKER — TERMINAL DU BUREAU DU COMMANDEMENT (TRM-07) — « pré-saisie supprimée : E-17 / poids 420 g / source : rapport d’opération »\n\nNote : il existait dans le système une pré-saisie pour E-17, reprise du rapport ; elle a été supprimée à 03.42. Le service de Nesrin Eker finissait à 02.00, et elle a quitté le bâtiment avec sa carte à 02.06."
+  },
+  {
+   "key": "case009.b_syslog.title",
+   "value": "SYSTÈME DES SCELLÉS — JOURNAL D’ACCÈS"
+  },
+  {
+   "key": "case009.c_moves.body",
+   "value": "· La voiture de Hakan Özer arrive à l’entrepôt à 00.08 ; le coffre est ouvert et refermé à 00.10 (caméra extérieure de l’entrepôt, image lointaine).\n· Volkan, Ceren et deux agents arrivent dans le véhicule de l’équipe.\n· Arda Yılmaz part dans le véhicule des scellés à 00.58.\n· La voiture de Hakan Özer entre dans le parking du BDS à 01.12 et en sort à 01.40."
+  },
+  {
+   "key": "case009.c_moves.title",
+   "value": "MOUVEMENTS DE L’ÉQUIPE — VÉHICULES ET LIEUX"
+  },
+  {
+   "key": "case009.c_photos.body",
+   "value": "· 00.24 — étagère du fond, paquet scotché ; carton numéroté « E-16 », réétiqueté plus tard « E-17 ».\n· 00.42 — derrière l’étagère nord ; un gros paquet avec un ruban différent. Le ruban est blanc ; celui des autres paquets de l’entrepôt est marron. Au coin de l’emballage, la trace d’un code-barres effacé.\n\nLe dernier paquet trouvé diffère des trois autres par son emballage."
+  },
+  {
+   "key": "case009.c_photos.title",
+   "value": "PHOTOGRAPHIES DES SCELLÉS — ENTREPÔT NORD"
+  },
+  {
+   "key": "case009.c_radio.body",
+   "value": "· 00.22 — Volkan : « Étagère du fond, trois paquets. »\n· 00.31 — Volkan : « Étagère nord, rien. »\n· 00.36 — Hakan Özer : « Revérifiez. »\n· 00.41 — Hakan Özer : « Il y a un paquet de plus. Derrière l’étagère nord. »\n· 00.43 — Ceren : « Je l’inscris en E-17. »"
+  },
+  {
+   "key": "case009.c_radio.title",
+   "value": "JOURNAL RADIO — 11/12 DÉCEMBRE"
+  },
+  {
+   "key": "case009.c_rawlist.body",
+   "value": "Liste de terrain, manuscrite :\n1. E-14 — étagère du fond — 00.23\n2. E-15 — étagère du fond — 00.23\n3. E-16 — étagère du fond — 00.24\n4. E-17 — étagère nord — 00.42\n\nEn comparant l’horodatage des fichiers photo avec les numéros : la photo étiquetée « E-16 » a été prise à 00.42, celle étiquetée « E-17 » à 00.24. Le champ d’étiquette montre une correction manuelle : « 17 » écrit par-dessus « 16 »."
+  },
+  {
+   "key": "case009.c_rawlist.title",
+   "value": "LISTE BRUTE DES SCELLÉS — CEREN BAŞAR"
+  },
+  {
+   "key": "case009.cctv.event.arda_in",
+   "value": "Caméra 03 (couloir du dépôt des scellés) : Arda Yılmaz entre par la porte extérieure du bureau des scellés, portant quatre paquets entourés de ruban adhésif. Les paquets sont empilés dans ses bras."
+  },
+  {
+   "key": "case009.cctv.event.arda_out",
+   "value": "Caméra 03 : Arda Yılmaz ressort les mains vides ; longe le couloir jusqu’à l’ascenseur en regardant son téléphone."
+  },
+  {
+   "key": "case009.cctv.event.empty",
+   "value": "Caméra 03 : le couloir est vide. Personne n’entre ni ne sort par la porte extérieure."
+  },
+  {
+   "key": "case009.cctv.event.nesrin",
+   "value": "Caméra 03 : Nesrin Eker ouvre la porte extérieure et jette un œil dans le couloir, puis retourne à l’intérieur."
+  },
+  {
+   "key": "case009.cctv.overlay",
+   "value": "CAM 03"
+  },
+  {
+   "key": "case009.cctv.period",
+   "value": "12 décembre 2028, 01.00 – 02.00"
+  },
+  {
+   "key": "case009.cctv.source",
+   "value": "Caméra du couloir du dépôt des scellés"
+  },
+  {
+   "key": "case009.ceren.after.answer",
+   "value": "Je suis rentrée chez moi. Je suis revenue le lendemain matin."
+  },
+  {
+   "key": "case009.ceren.after.question",
+   "value": "Qu’avez-vous fait après l’opération ?"
+  },
+  {
+   "key": "case009.ceren.body",
+   "value": "Déposition de l’agente chargée des registres de l’opération."
+  },
+  {
+   "key": "case009.ceren.deflect",
+   "value": "Il faudrait demander ça à mon supérieur."
+  },
+  {
+   "key": "case009.ceren.list.answer",
+   "value": "À chaque paquet trouvé : photo, numéro, poids estimé. Ensuite j’ai reporté la liste dans le rapport. Le chef l’a signé."
+  },
+  {
+   "key": "case009.ceren.list.question",
+   "value": "Comment avez-vous tenu la liste des scellés ?"
+  },
+  {
+   "key": "case009.ceren.quote",
+   "value": "« Je l’ai écrit, le chef l’a signé. »"
+  },
+  {
+   "key": "case009.ceren.title",
+   "value": "Ceren Başar — audition"
+  },
+  {
+   "key": "case009.ceren_2.body",
+   "value": "Audition tenue après le journal d’accès par badge."
+  },
+  {
+   "key": "case009.ceren_2.card.answer",
+   "value": "…Le chef a appelé. Il a dit : « Il y a une pré-saisie erronée dans le système, reprise du rapport, la numérotation a glissé, corrigeons-la. » Dans son bureau, sur son terminal. La session de Nesrin Hanım était ouverte ; le chef connaissait le mot de passe. Je l’ai supprimée. J’ai aussi corrigé l’étiquette ; il me l’a dit : « 16 et 17 ont été mélangés »."
+  },
+  {
+   "key": "case009.ceren_2.card.answer.demeanor",
+   "value": "Ne lève pas les yeux de la table."
+  },
+  {
+   "key": "case009.ceren_2.card.question",
+   "value": "Votre carte apparaît dans le couloir du commandement à 03.38."
+  },
+  {
+   "key": "case009.ceren_2.title",
+   "value": "Ceren Başar — seconde audition"
+  },
+  {
+   "key": "case009.ceren_2.why.answer",
+   "value": "C’était le chef. Je suis en poste depuis un an. Il a dit : « Arda est endetté de toute façon ; avec un dossier propre, il s’en sortira. » Je croyais qu’on allait le sauver."
+  },
+  {
+   "key": "case009.ceren_2.why.question",
+   "value": "Pourquoi l’avez-vous fait ?"
+  },
+  {
+   "key": "case009.clue.again",
+   "value": "Hakan : « Revérifiez »"
+  },
+  {
+   "key": "case009.clue.arda_in",
+   "value": "Arda entre au dépôt des scellés avec quatre paquets"
+  },
+  {
+   "key": "case009.clue.arda_out",
+   "value": "Arda ressort les mains vides"
+  },
+  {
+   "key": "case009.clue.c_in",
+   "value": "La carte de Ceren dans le couloir du commandement"
+  },
+  {
+   "key": "case009.clue.clean",
+   "value": "« Étagère nord, rien »"
+  },
+  {
+   "key": "case009.clue.corridor_arda_in",
+   "value": "Arda entre au dépôt des scellés avec quatre paquets"
+  },
+  {
+   "key": "case009.clue.corridor_arda_out",
+   "value": "Arda ressort les mains vides"
+  },
+  {
+   "key": "case009.clue.corridor_empty",
+   "value": "Personne n’entre par la porte extérieure"
+  },
+  {
+   "key": "case009.clue.corridor_nesrin",
+   "value": "Nesrin jette un œil dans le couloir"
+  },
+  {
+   "key": "case009.clue.delete",
+   "value": "La pré-saisie E-17 est supprimée depuis le terminal du commandement"
+  },
+  {
+   "key": "case009.clue.empty",
+   "value": "Personne n’entre par la porte extérieure"
+  },
+  {
+   "key": "case009.clue.form",
+   "value": "Arda remplit le formulaire avec « Quantité : 4 »"
+  },
+  {
+   "key": "case009.clue.found",
+   "value": "Hakan : « Il y a un paquet de plus »"
+  },
+  {
+   "key": "case009.clue.h_car",
+   "value": "Le coffre de la voiture de Hakan est ouvert"
+  },
+  {
+   "key": "case009.clue.h_claim",
+   "value": "Hakan dit avoir été chez lui"
+  },
+  {
+   "key": "case009.clue.h_in",
+   "value": "La carte de Hakan à la porte intérieure du dépôt"
+  },
+  {
+   "key": "case009.clue.h_outdoor",
+   "value": "La carte de Hakan sort par la porte intérieure"
+  },
+  {
+   "key": "case009.clue.h_park",
+   "value": "La voiture de Hakan entre dans le parking du BDS"
+  },
+  {
+   "key": "case009.clue.n_out",
+   "value": "Nesrin quitte le bâtiment"
+  },
+  {
+   "key": "case009.clue.nesrin",
+   "value": "Nesrin jette un œil dans le couloir"
+  },
+  {
+   "key": "case009.clue.p16",
+   "value": "Le troisième paquet de l’étagère du fond est photographié"
+  },
+  {
+   "key": "case009.clue.scan",
+   "value": "Nesrin scanne trois paquets"
+  },
+  {
+   "key": "case009.clue.source.card",
+   "value": "Journal d’accès par badge"
+  },
+  {
+   "key": "case009.clue.source.form",
+   "value": "Formulaire de remise"
+  },
+  {
+   "key": "case009.clue.source.moves",
+   "value": "Mouvements de l’équipe"
+  },
+  {
+   "key": "case009.clue.source.op",
+   "value": "Rapport d’opération"
+  },
+  {
+   "key": "case009.clue.source.radio",
+   "value": "Journal radio"
+  },
+  {
+   "key": "case009.clue.source.raw",
+   "value": "Liste brute des scellés"
+  },
+  {
+   "key": "case009.clue.source.scan",
+   "value": "Registre d’entrée du dépôt"
+  },
+  {
+   "key": "case009.clue.source.sys",
+   "value": "Journal d’accès"
+  },
+  {
+   "key": "case009.corridor.body",
+   "value": "Relevé de la caméra du couloir qui couvre la porte extérieure du bureau des scellés, 12 décembre 01.00 – 02.00. La porte intérieure du bureau, qui donne sur le couloir du commandement, n’est pas dans le cadre ; le guichet n’est pas visible non plus."
+  },
+  {
+   "key": "case009.corridor.title",
+   "value": "COULOIR DU DÉPÔT DES SCELLÉS — relevé d’enregistrement"
+  },
+  {
+   "key": "case009.custody.arda_kept",
+   "value": "Arda l’a détourné"
+  },
+  {
+   "key": "case009.custody.label",
+   "value": "Comment E-17 a-t-il disparu ?"
+  },
+  {
+   "key": "case009.custody.nesrin_took",
+   "value": "Nesrin l’a pris et a supprimé la saisie"
+  },
+  {
+   "key": "case009.custody.took_back",
+   "value": "Arda l’a remis ; Hakan l’a repris avant qu’il n’arrive à Nesrin"
+  },
+  {
+   "key": "case009.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case009.delivery_form.body",
+   "value": "Remis par : Arda Yılmaz. Heure de remise : 01.17.\n\nQuantité : « 4 » — manuscrit, rempli par la personne qui remet.\n\nReçu par : (vide). Signature du responsable des scellés : (vide).\n\nNote : le formulaire a été laissé sur le guichet sans signature du destinataire."
+  },
+  {
+   "key": "case009.delivery_form.title",
+   "value": "FORMULAIRE DE REMISE DE SCELLÉS — 12.12.2028"
+  },
+  {
+   "key": "case009.emanet_scan.body",
+   "value": "12.12.2028 01.31 — Utilisateur : N. EKER (terminal du guichet des scellés)\n\n· E-14 — enregistré, 248 g\n· E-15 — enregistré, 251 g\n· E-16 — enregistré, 247 g\n\nTotal : 3 paquets. Aucune saisie pour l’E-17 du rapport."
+  },
+  {
+   "key": "case009.emanet_scan.title",
+   "value": "SYSTÈME DES SCELLÉS — REGISTRE D’ENTRÉE"
+  },
+  {
+   "key": "case009.envelope.body",
+   "value": "À la suite des constatations rapportées dans le Dossier #009, une enquête distincte a été ouverte sur les personnels concernés. L’accès aux pièces de l’enquête a été restreint."
+  },
+  {
+   "key": "case009.envelope.stamp",
+   "value": "AFFAIRES INTERNES"
+  },
+  {
+   "key": "case009.envelope.title",
+   "value": "AFFAIRES INTERNES DU BDS — CONFIDENTIEL"
+  },
+  {
+   "key": "case009.epilogue.custody.arda_kept",
+   "value": "Le rapport a écrit qu’Arda avait pris E-17. L’enregistrement du couloir l’a montré ressortant les mains vides et le journal des badges a montré quelqu’un d’autre à la porte intérieure ; cette partie s’est effondrée."
+  },
+  {
+   "key": "case009.epilogue.custody.nesrin_took",
+   "value": "Le rapport a mis en cause Nesrin Eker. Le journal des badges a montré qu’elle n’était pas dans le bâtiment au moment de la suppression."
+  },
+  {
+   "key": "case009.epilogue.custody.took_back",
+   "value": "Le rapport a retracé tout le trajet d’E-17 : la substance restée de 27-118, du coffre de Hakan à l’étagère, du rapport aux bras d’Arda, du guichet à la porte intérieure, et de là à la suppression des registres. L’enquête préliminaire sur Arda Yılmaz a été close."
+  },
+  {
+   "key": "case009.epilogue.custody.unknown",
+   "value": "La disparition d’E-17 est restée indéterminée ; l’enquête sur Arda Yılmaz est restée ouverte."
+  },
+  {
+   "key": "case009.epilogue.verdict.arda",
+   "value": "L’accusation portée contre Arda Yılmaz n’avait aucun fondement ; sa dette comme seul motif a été rejetée."
+  },
+  {
+   "key": "case009.epilogue.verdict.ceren",
+   "value": "L’accusation d’opération portée contre Ceren Başar s’est effondrée."
+  },
+  {
+   "key": "case009.epilogue.verdict.hakan",
+   "value": "L’inspecteur Hakan Özer a été suspendu de ses fonctions. Les procès-verbaux de destruction et de conservation du dossier 27-118 ont été repris pour réexamen."
+  },
+  {
+   "key": "case009.epilogue.verdict.legit",
+   "value": "Le rapport a traité E-17 comme une saisie légitime. Quand le profil du laboratoire est sorti, le rapport a été renvoyé."
+  },
+  {
+   "key": "case009.epilogue.verdict.nesrin",
+   "value": "L’accusation portée contre Nesrin Eker s’est effondrée devant le journal des badges."
+  },
+  {
+   "key": "case009.epilogue.verdict.undetermined",
+   "value": "L’origine d’E-17 est restée ouverte dans le dossier."
+  },
+  {
+   "key": "case009.evidence.bank",
+   "value": "Relevés bancaires d’Arda"
+  },
+  {
+   "key": "case009.evidence.card",
+   "value": "Journal d’accès par badge"
+  },
+  {
+   "key": "case009.evidence.lab",
+   "value": "Comparaison du laboratoire (27-118 ↔ E-17)"
+  },
+  {
+   "key": "case009.evidence.radio",
+   "value": "Journal radio"
+  },
+  {
+   "key": "case009.evidence.vehicle",
+   "value": "Trace de substance dans le véhicule d’Arda"
+  },
+  {
+   "key": "case009.feedback.arda",
+   "value": "Arda n’a fait que porter les paquets ; c’est Hakan qui lui a tendu le dernier."
+  },
+  {
+   "key": "case009.feedback.ceren",
+   "value": "Ceren a corrigé la saisie, mais ce n’est pas elle qui a mis le paquet dans l’entrepôt ; la radio et le registre des véhicules montrent quelqu’un d’autre."
+  },
+  {
+   "key": "case009.feedback.hakan",
+   "value": "À la radio, c’est Hakan qui trouve le quatrième paquet ; le paquet ne vient pas du lot de l’entrepôt mais de 27-118, dont il est responsable. Il a lui-même décrit l’avoir mis du coffre sur l’étagère."
+  },
+  {
+   "key": "case009.feedback.legit",
+   "value": "E-17 n’appartient pas au lot de l’entrepôt ; le laboratoire le relie à un dossier de 2023."
+  },
+  {
+   "key": "case009.feedback.nesrin",
+   "value": "Nesrin n’était pas dans le bâtiment au moment de la suppression ; quelqu’un d’autre a utilisé le compte."
+  },
+  {
+   "key": "case009.feedback.undetermined",
+   "value": "L’origine d’E-17 pouvait être établie par la comparaison du laboratoire."
+  },
+  {
+   "key": "case009.file.caseType",
+   "value": "ENQUÊTE INTERNE / SCELLÉS"
+  },
+  {
+   "key": "case009.file.value.bureau",
+   "value": "BDS — Bureau des affaires internes"
+  },
+  {
+   "key": "case009.file.value.location",
+   "value": "Fatih"
+  },
+  {
+   "key": "case009.file.value.number",
+   "value": "BDS-2028-0412"
+  },
+  {
+   "key": "case009.file.value.offence",
+   "value": "Manquant de scellés — suspicion de détournement"
+  },
+  {
+   "key": "case009.file.value.reporter",
+   "value": "Bureau des scellés du BDS"
+  },
+  {
+   "key": "case009.hakan.after.answer",
+   "value": "Non. À une heure et demie, j’étais chez moi."
+  },
+  {
+   "key": "case009.hakan.after.question",
+   "value": "Êtes-vous retourné au bâtiment après l’opération ?"
+  },
+  {
+   "key": "case009.hakan.arda.answer",
+   "value": "Bon gars. Mais il est endetté, on le sait. Il dit avoir remis quatre paquets, le dépôt dit trois. Je ne peux que vous indiquer une direction."
+  },
+  {
+   "key": "case009.hakan.arda.answer.demeanor",
+   "value": "Croise les bras."
+  },
+  {
+   "key": "case009.hakan.arda.question",
+   "value": "Que pensez-vous d’Arda Yılmaz ?"
+  },
+  {
+   "key": "case009.hakan.body",
+   "value": "Première déposition du commandant de l’opération."
+  },
+  {
+   "key": "case009.hakan.deflect",
+   "value": "Nous en parlerons au sein de l’équipe."
+  },
+  {
+   "key": "case009.hakan.op.answer",
+   "value": "Propre. Quatre paquets dans l’entrepôt nord. Ceren a rédigé, Arda a porté. J’ai signé le rapport et je suis rentré."
+  },
+  {
+   "key": "case009.hakan.op.question",
+   "value": "Comment s’est passée l’opération ?"
+  },
+  {
+   "key": "case009.hakan.quote",
+   "value": "« Si le gars a dit quatre, c’est quatre — mais le dépôt dit trois. »"
+  },
+  {
+   "key": "case009.hakan.title",
+   "value": "Inspecteur Hakan Özer — audition"
+  },
+  {
+   "key": "case009.hakan_2.back.answer",
+   "value": "C’était entré dans le rapport ; l’opération était sauvée. Mais au dépôt, il partirait au labo. Le profil mènerait à 27-118. Nesrin était au fond ; je suis entré par la porte intérieure et j’ai pris le gros paquet du dessous. Ensuite j’ai fait supprimer la pré-saisie aussi. Arda était endetté ; je me suis dit que personne n’y regarderait à deux fois."
+  },
+  {
+   "key": "case009.hakan_2.back.question",
+   "value": "Pourquoi avez-vous repris le paquet après son entrée au dépôt ?"
+  },
+  {
+   "key": "case009.hakan_2.body",
+   "value": "Audition tenue après le rapport du laboratoire."
+  },
+  {
+   "key": "case009.hakan_2.origin.answer",
+   "value": "…L’entrepôt allait sortir vide. Trois petits paquets, pas de locataire, pas d’arrestation. Six mois de surveillance à la poubelle. Je gardais ce qui restait de 27-118 depuis des années, pour un jour comme celui-là. Je l’ai mis du coffre derrière l’étagère. L’opération s’est close avec quatre paquets."
+  },
+  {
+   "key": "case009.hakan_2.origin.answer.demeanor",
+   "value": "Regarde longtemps par la fenêtre."
+  },
+  {
+   "key": "case009.hakan_2.origin.question",
+   "value": "Ce qui m’intéresse, c’est d’où vient ce paquet."
+  },
+  {
+   "key": "case009.hakan_2.title",
+   "value": "Inspecteur Hakan Özer — dernière audition"
+  },
+  {
+   "key": "case009.lab.body",
+   "value": "Établi par : Ali Rıza Toprak.\n\n· L’échantillon de terrain d’E-17 prélevé à l’entrepôt et l’échantillon de 2023 du dossier 27-118 ont le même profil chimique, le même produit de coupe et le même taux d’impuretés. Ils sont très probablement du même lot.\n· E-14, E-15 et E-16 ont un profil différent, compatible avec le lot de l’entrepôt.\n· Le responsable des scellés de 27-118 est l’inspecteur Hakan Özer.\n\nConclusion : E-17 n’appartient pas au lot de l’Entrepôt Nord ; il provient de la même source que la substance saisie en 2023."
+  },
+  {
+   "key": "case009.lab.title",
+   "value": "LABORATOIRE MÉDICO-LÉGAL — RAPPORT DE COMPARAISON"
+  },
+  {
+   "key": "case009.line_a.body",
+   "value": "PISTE OUVERTE.\n\nL’autorisation de demander des éléments sur les finances, le casier et le véhicule d’Arda Yılmaz a été accordée. Tant que cette piste est ouverte, les éléments ci-dessous peuvent être demandés."
+  },
+  {
+   "key": "case009.line_a.title",
+   "value": "PISTE D’ENQUÊTE A — ARDA YILMAZ"
+  },
+  {
+   "key": "case009.line_b.body",
+   "value": "PISTE OUVERTE.\n\nL’autorisation de demander les registres système du bureau des scellés, les journaux d’accès par badge et le comptage physique a été accordée."
+  },
+  {
+   "key": "case009.line_b.title",
+   "value": "PISTE D’ENQUÊTE B — BUREAU DES SCELLÉS"
+  },
+  {
+   "key": "case009.line_c.body",
+   "value": "PISTE OUVERTE.\n\nL’autorisation de demander le journal radio de l’opération, la liste brute des scellés, les photos des scellés et les mouvements de l’équipe a été accordée."
+  },
+  {
+   "key": "case009.line_c.title",
+   "value": "PISTE D’ENQUÊTE C — OPÉRATION"
+  },
+  {
+   "key": "case009.link_e17.body",
+   "value": "DEMANDE APPROUVÉE.\n\nLe dossier de saisie 27-118 de 2023 a été relié au paquet E-17 de ce dossier. Une comparaison de l’échantillon conservé de 27-118 avec l’échantillon d’opération d’E-17 a été envoyée au laboratoire."
+  },
+  {
+   "key": "case009.link_e17.title",
+   "value": "LIEN ENTRE DOSSIERS — 27-118 ↔ E-17"
+  },
+  {
+   "key": "case009.method.arda",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.method.ceren",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.method.label",
+   "value": "Qui a participé à la modification de la saisie ?"
+  },
+  {
+   "key": "case009.method.nesrin",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case009.nesrin.body",
+   "value": "Déposition de la responsable du bureau des scellés."
+  },
+  {
+   "key": "case009.nesrin.deflect",
+   "value": "Ce que dit le registre. Je m’en tiens au registre."
+  },
+  {
+   "key": "case009.nesrin.gap.answer",
+   "value": "Dix minutes, peut-être un peu plus. Je ne peux pas partir sans fermer le coffre. À un moment, j’ai cru entendre le pêne de la porte intérieure, mais ça devait être quelqu’un du commandement ; ça arrive souvent."
+  },
+  {
+   "key": "case009.nesrin.gap.answer.demeanor",
+   "value": "Baisse la voix sur « porte intérieure »."
+  },
+  {
+   "key": "case009.nesrin.gap.question",
+   "value": "Combien de temps vous a-t-il fallu pour revenir au guichet après le départ d’Arda ?"
+  },
+  {
+   "key": "case009.nesrin.night.answer",
+   "value": "J’étais au coffre du fond, à faire le comptage de la semaine précédente. Arda est venu, j’ai crié, j’ai dit « laisse-les ». Quand je suis sortie, il y avait trois paquets et un formulaire rempli sur le guichet. Le formulaire disait quatre ; ça m’a étonnée aussi. J’ai scanné les trois."
+  },
+  {
+   "key": "case009.nesrin.night.question",
+   "value": "Qu’avez-vous vu sur le guichet cette nuit-là ?"
+  },
+  {
+   "key": "case009.nesrin.quote",
+   "value": "« Il y avait trois paquets sur le guichet. »"
+  },
+  {
+   "key": "case009.nesrin.report.answer",
+   "value": "Je l’ai signalé. À la première heure. Cette nuit-là, j’ai appelé le chef Hakan ; il a dit : « On regardera demain matin, demande à Arda. »"
+  },
+  {
+   "key": "case009.nesrin.report.question",
+   "value": "Pourquoi n’avez-vous pas signalé l’écart tout de suite ?"
+  },
+  {
+   "key": "case009.nesrin.title",
+   "value": "Nesrin Eker — audition"
+  },
+  {
+   "key": "case009.nesrin_2.account.answer",
+   "value": "Je suis partie à 02.06 ; ça figure sur la carte. Mon compte restait ouvert sur le terminal du commandement ; le chef Hakan faisait les validations de comptage de là-bas, il connaît mon mot de passe. C’est comme ça depuis des années."
+  },
+  {
+   "key": "case009.nesrin_2.account.answer.demeanor",
+   "value": "Parle sans que la voix tremble, mais pose son stylo."
+  },
+  {
+   "key": "case009.nesrin_2.account.question",
+   "value": "À 03.42, une saisie a été supprimée depuis le terminal du commandement sous votre utilisateur."
+  },
+  {
+   "key": "case009.nesrin_2.body",
+   "value": "Audition tenue après le journal d’accès."
+  },
+  {
+   "key": "case009.nesrin_2.title",
+   "value": "Nesrin Eker — seconde audition"
+  },
+  {
+   "key": "case009.offer.subtitle",
+   "value": "SCELLÉS  /  ENQUÊTE INTERNE"
+  },
+  {
+   "key": "case009.offer.summary",
+   "value": "L’un des quatre paquets saisis lors d’une opération n’est jamais arrivé au dépôt des scellés. L’agent qui les a remis est endetté. Dans ce dossier, c’est vous qui décidez quelles pistes ouvrir ; deux seulement peuvent être ouvertes à la fois. L’avis est sur votre bureau."
+  },
+  {
+   "key": "case009.offer.title",
+   "value": "DOSSIER #009"
+  },
+  {
+   "key": "case009.office.body",
+   "value": "DEMANDE APPROUVÉE. La fouille a été effectuée le 13 décembre à 10.20.\n\n· Aucun stupéfiant n’a été trouvé dans le bureau.\n· Dans l’armoire à dossiers fermée à clé, un dossier de saisie clos de 2023 : 27-118. Responsable : Hakan Özer.\n· Dans le dossier 27-118 : 500 g saisis ; un procès-verbal de destruction pour 80 g ; pour les 420 g restants, une note « échantillon conservé », mais il n’existe aucun scellé codé 27-118 au dépôt.\n· Dans l’armoire, un rouleau de ruban adhésif blanc."
+  },
+  {
+   "key": "case009.office.title",
+   "value": "PROCÈS-VERBAL DE FOUILLE — BUREAU DU COMMANDEMENT / H. ÖZER"
+  },
+  {
+   "key": "case009.op_report.body",
+   "value": "11 décembre 2028, 23.40 – 00.55. Fatih, Entrepôt Nord.\n\nÉquipe : inspecteur Hakan Özer (commandant), Volkan Ateş, Arda Yılmaz, Ceren Başar (registres) et deux agents.\n\nSaisi :\n· E-14 — 1 paquet, ~250 g\n· E-15 — 1 paquet, ~250 g\n· E-16 — 1 paquet, ~250 g\n· E-17 — 1 paquet, ~420 g\n\nAucune arrestation ; le locataire de l’entrepôt n’a pas pu être trouvé. Les paquets ont été remis à Arda Yılmaz et transportés au dépôt des scellés.\n\nSigné : inspecteur Hakan Özer. Rapport rédigé par : Ceren Başar."
+  },
+  {
+   "key": "case009.op_report.title",
+   "value": "RAPPORT D’OPÉRATION — ENTREPÔT DE FATİH"
+  },
+  {
+   "key": "case009.person.alriza.info",
+   "value": "52 ans, chef du laboratoire médico-légal du BDS. Effectue les comparaisons de substances."
+  },
+  {
+   "key": "case009.person.alriza.name",
+   "value": "Ali Rıza Toprak"
+  },
+  {
+   "key": "case009.person.arda.info",
+   "value": "34 ans, inspecteur adjoint dans l’équipe d’opérations du BDS. La personne qui a remis au dépôt des scellés les paquets saisis lundi soir."
+  },
+  {
+   "key": "case009.person.arda.name",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.person.ceren.info",
+   "value": "31 ans, agente des registres et des rapports dans l’équipe d’opérations. Elle a tenu la liste brute des scellés."
+  },
+  {
+   "key": "case009.person.ceren.name",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.person.hakan.info",
+   "value": "47 ans, le commandant d’équipe qui a dirigé l’opération. Vingt ans de métier."
+  },
+  {
+   "key": "case009.person.hakan.name",
+   "value": "Inspecteur Hakan Özer"
+  },
+  {
+   "key": "case009.person.nesrin.info",
+   "value": "43 ans, responsable du bureau des scellés du BDS. De service la nuit des faits."
+  },
+  {
+   "key": "case009.person.nesrin.name",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.person.volkan.info",
+   "value": "39 ans, agent principal de l’équipe d’opérations. A dirigé le groupe qui a fouillé l’entrepôt nord."
+  },
+  {
+   "key": "case009.person.volkan.name",
+   "value": "Volkan Ateş"
+  },
+  {
+   "key": "case009.report.body",
+   "value": "Le matin du 12 décembre 2028, le bureau des scellés du BDS a signalé un écart de comptage dans les paquets saisis la veille au soir lors de l’opération de l’entrepôt de Fatih.\n\nLe rapport d’opération mentionne quatre paquets de stupéfiants (E-14, E-15, E-16, E-17). Trois paquets ont été enregistrés dans le système des scellés. E-17 manque.\n\nLes paquets ont été remis au dépôt des scellés par l’inspecteur adjoint Arda Yılmaz. Une enquête préliminaire a été ouverte sur Arda Yılmaz pour suspicion de détournement.\n\nLe dossier vous a été confié parce que des personnels de l’unité sont impliqués."
+  },
+  {
+   "key": "case009.report.title",
+   "value": "SIGNALEMENT — ÉCART DE SCELLÉS"
+  },
+  {
+   "key": "case009.request.a_bank",
+   "value": "Demander les relevés bancaires d’Arda Yılmaz"
+  },
+  {
+   "key": "case009.request.a_locker",
+   "value": "Demander la fouille du casier d’Arda Yılmaz"
+  },
+  {
+   "key": "case009.request.a_vehicle",
+   "value": "Demander l’examen du véhicule d’Arda Yılmaz"
+  },
+  {
+   "key": "case009.request.b_inventory",
+   "value": "Demander un comptage physique du bureau des scellés"
+  },
+  {
+   "key": "case009.request.b_keycard",
+   "value": "Demander les journaux d’accès par badge du dépôt et du commandement"
+  },
+  {
+   "key": "case009.request.b_syslog",
+   "value": "Demander le journal d’accès du système des scellés"
+  },
+  {
+   "key": "case009.request.c_moves",
+   "value": "Demander les relevés de mouvements de l’équipe"
+  },
+  {
+   "key": "case009.request.c_photos",
+   "value": "Demander les photos des scellés de l’opération"
+  },
+  {
+   "key": "case009.request.c_radio",
+   "value": "Demander le journal radio de l’opération"
+  },
+  {
+   "key": "case009.request.c_rawlist",
+   "value": "Demander la liste brute des scellés"
+  },
+  {
+   "key": "case009.request.lab",
+   "value": "Demander une comparaison des échantillons"
+  },
+  {
+   "key": "case009.request.line_a",
+   "value": "Ouvrir la piste Arda Yılmaz"
+  },
+  {
+   "key": "case009.request.line_b",
+   "value": "Ouvrir la piste du bureau des scellés"
+  },
+  {
+   "key": "case009.request.line_c",
+   "value": "Ouvrir la piste de l’opération"
+  },
+  {
+   "key": "case009.request.link_e17",
+   "value": "Demander que le dossier 27-118 soit relié à E-17"
+  },
+  {
+   "key": "case009.request.office",
+   "value": "Demander la fouille du bureau du commandement"
+  },
+  {
+   "key": "case009.summary.evidence",
+   "value": "Le formulaire de remise et l’enregistrement du couloir ont montré Arda entrant avec quatre paquets et ressortant les mains vides ; le journal des badges a montré Hakan à la porte intérieure à 01.21. La radio et la liste brute ont montré que le quatrième paquet avait été trouvé plus tard et avec un autre ruban ; le journal d’accès et la carte de Ceren ont révélé la suppression de la saisie. La fouille du bureau du commandement a fait apparaître 27-118, et le laboratoire a relié E-17 au même lot que cette substance. La piste Arda, elle, n’a donné que des dettes."
+  },
+  {
+   "key": "case009.summary.lesson",
+   "value": "On ne peut pas ouvrir toutes les pistes ; peser quel registre ouvrira quoi, c’est l’enquête elle-même. Celui qui est endetté n’est peut-être pas le suspect, seulement l’endroit où le soupçon va le plus facilement."
+  },
+  {
+   "key": "case009.summary.location",
+   "value": "Fatih — Entrepôt Nord et bureau des scellés du BDS, 11–12 décembre 2028"
+  },
+  {
+   "key": "case009.summary.truth",
+   "value": "Après six mois de surveillance, l’Entrepôt Nord allait sortir vide. L’inspecteur Hakan Özer a apporté dans son coffre les 420 grammes qu’il avait gardés hors registre de la saisie 27-118 de 2023 et les a mis derrière l’étagère ; à la radio, il a dit « revérifiez », puis a « trouvé » lui-même le paquet. Arda a laissé les quatre paquets sur le guichet et il est parti. Sachant que le laboratoire relierait le profil à 27-118, Hakan est entré par la porte intérieure pendant que Nesrin était au coffre du fond et a repris le gros paquet. Cette nuit-là à 03.42, à la demande de Hakan, Ceren a supprimé la pré-saisie E-17 depuis le compte ouvert de Nesrin sur le terminal du commandement et a corrigé l’étiquette de la photo. Arda, endetté, devait faire le suspect."
+  },
+  {
+   "key": "case009.suspect.label",
+   "value": "Qui a introduit E-17 dans l’opération ?"
+  },
+  {
+   "key": "case009.tablet.caseLine",
+   "value": "DOSSIER #009  /  UNITÉ D’ENQUÊTE BUBE"
+  },
+  {
+   "key": "case009.time.again",
+   "value": "00.36"
+  },
+  {
+   "key": "case009.time.arda_in",
+   "value": "01.14"
+  },
+  {
+   "key": "case009.time.arda_out",
+   "value": "01.19"
+  },
+  {
+   "key": "case009.time.c_in",
+   "value": "03.38"
+  },
+  {
+   "key": "case009.time.clean",
+   "value": "00.31"
+  },
+  {
+   "key": "case009.time.delete",
+   "value": "03.42"
+  },
+  {
+   "key": "case009.time.empty",
+   "value": "01.20 – 01.30"
+  },
+  {
+   "key": "case009.time.form",
+   "value": "01.17"
+  },
+  {
+   "key": "case009.time.found",
+   "value": "00.41"
+  },
+  {
+   "key": "case009.time.h_car",
+   "value": "00.10"
+  },
+  {
+   "key": "case009.time.h_claim",
+   "value": "01.00 (déclaré)"
+  },
+  {
+   "key": "case009.time.h_in",
+   "value": "01.21"
+  },
+  {
+   "key": "case009.time.h_outdoor",
+   "value": "01.27"
+  },
+  {
+   "key": "case009.time.h_park",
+   "value": "01.12"
+  },
+  {
+   "key": "case009.time.n_out",
+   "value": "02.06"
+  },
+  {
+   "key": "case009.time.nesrin",
+   "value": "01.33"
+  },
+  {
+   "key": "case009.time.p16",
+   "value": "00.24"
+  },
+  {
+   "key": "case009.time.scan",
+   "value": "01.31"
+  },
+  {
+   "key": "case009.title",
+   "value": "Dossier #009 — Scellés"
+  },
+  {
+   "key": "case009.verdict.arda",
+   "value": "Arda Yılmaz"
+  },
+  {
+   "key": "case009.verdict.ceren",
+   "value": "Ceren Başar"
+  },
+  {
+   "key": "case009.verdict.hakan",
+   "value": "Inspecteur Hakan Özer"
+  },
+  {
+   "key": "case009.verdict.legit",
+   "value": "Personne — une saisie légitime"
+  },
+  {
+   "key": "case009.verdict.nesrin",
+   "value": "Nesrin Eker"
+  },
+  {
+   "key": "case009.verdict.undetermined",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case009.volkan.body",
+   "value": "Déposition de l’agent qui a dirigé le groupe ayant fouillé l’entrepôt nord."
+  },
+  {
+   "key": "case009.volkan.deflect",
+   "value": "J’étais sur la fouille ; cette partie-là, c’est le chef qui la connaît."
+  },
+  {
+   "key": "case009.volkan.fourth.answer",
+   "value": "Le chef Hakan a dit à la radio : « Revérifiez. » Cinq minutes plus tard, il était derrière l’étagère nord et disait : « Il y a un paquet de plus. » J’avais regardé cette étagère. Mais il faisait sombre ; possible."
+  },
+  {
+   "key": "case009.volkan.fourth.answer.demeanor",
+   "value": "La voix se durcit sur « j’avais regardé cette étagère »."
+  },
+  {
+   "key": "case009.volkan.fourth.question",
+   "value": "D’où venait le quatrième paquet ?"
+  },
+  {
+   "key": "case009.volkan.quote",
+   "value": "« Ce que j’ai dit à la radio, c’est tout. »"
+  },
+  {
+   "key": "case009.volkan.search.answer",
+   "value": "On a passé les étagères. Trois paquets sur l’étagère du fond, scotchés. J’ai passé l’étagère nord deux fois ; rien."
+  },
+  {
+   "key": "case009.volkan.search.question",
+   "value": "Qu’avez-vous trouvé dans l’entrepôt nord ?"
+  },
+  {
+   "key": "case009.volkan.title",
+   "value": "Volkan Ateş — audition"
+  }
+ ]
+}
