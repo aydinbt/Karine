@@ -1,0 +1,852 @@
+{
+ "entries": [
+  {
+   "key": "case016.autopsy.body",
+   "value": "· Cause du décès : noyade. Eau du canal dans les poumons ; il était vivant en entrant dans l’eau.\n· Un coup à la tempe gauche reçu avant la chute ; compatible avec l’arête de pierre de la pile du pont.\n· Col déchiré, marques de prise sur le cou.\n· Sous les ongles de la main droite, de la peau appartenant à une autre personne ; envoyée pour analyse ADN.\n· Alcoolémie 0,6 pour mille.\n· Empreintes digitales transmises au fichier national pour vérification d’identité ; résultat en attente."
+  },
+  {
+   "key": "case016.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case016.badge.body",
+   "value": "Titulaire : Adrian Pell. Bureau d’Islington. Jours choisis :\n\n· 5 février · entrée 08.41 · sortie 18.10\n· 15 février · entrée 08.39 · sortie déjeuner 13.02 · retour 13.48 · sortie 17.55\n· 28 février · entrée 08.44 · sortie 19.20\n· 3 mars · entrée 08.40 · sortie 17.30\n\nLe bureau est à Islington ; le trajet en train jusqu’à Leeds prend au moins 2 heures 15."
+  },
+  {
+   "key": "case016.badge.title",
+   "value": "DUNN & WARD — RELEVÉ DE LA CARTE D’ACCÈS AU BUREAU"
+  },
+  {
+   "key": "case016.cctv.event.empty",
+   "value": "Caméra 12 : le chemin de halage est vide. Aucun mouvement à la surface de l’eau."
+  },
+  {
+   "key": "case016.cctv.event.struggle",
+   "value": "Caméra 12 : un second homme en manteau arrive par le chemin de halage. Une courte conversation. L’homme au bonnet saisit l’autre par le col, le secoue, le pousse. L’homme en manteau heurte la pile du pont et tombe à l’eau. L’homme au bonnet reste un instant au bord, puis s’enfuit en courant."
+  },
+  {
+   "key": "case016.cctv.event.wait",
+   "value": "Caméra 12 : sous le pont, un homme en bonnet attend, adossé au mur."
+  },
+  {
+   "key": "case016.cctv.overlay",
+   "value": "CAM 12"
+  },
+  {
+   "key": "case016.cctv.period",
+   "value": "2 mai 2029, 23.00 – 00.30"
+  },
+  {
+   "key": "case016.cctv.source",
+   "value": "Caméra du chemin de halage"
+  },
+  {
+   "key": "case016.clue.atm",
+   "value": "De l’argent liquide est retiré à un distributeur de Leeds."
+  },
+  {
+   "key": "case016.clue.badge",
+   "value": "La carte d’Adrian est badgée au bureau d’Islington."
+  },
+  {
+   "key": "case016.clue.darren",
+   "value": "Darren Fisk est à une porte à Croydon."
+  },
+  {
+   "key": "case016.clue.dead1994",
+   "value": "Adrian Pell meurt à six ans."
+  },
+  {
+   "key": "case016.clue.email",
+   "value": "Craig écrit à « Adrian » : « Je veux qu’on lui rende son nom. »"
+  },
+  {
+   "key": "case016.clue.hart2006",
+   "value": "Lewis Hart renverse un enfant dans le Kent et prend la fuite ; la même année, un permis de conduire est délivré au nom d’« Adrian Pell »."
+  },
+  {
+   "key": "case016.clue.passport",
+   "value": "Demande de passeport à Leeds au nom d’« Adrian Pell » ; la photo ressemble à Craig Pell."
+  },
+  {
+   "key": "case016.clue.source.badge",
+   "value": "Carte d’accès au bureau"
+  },
+  {
+   "key": "case016.clue.source.darren_log",
+   "value": "Journal de terrain"
+  },
+  {
+   "key": "case016.clue.source.death",
+   "value": "État civil"
+  },
+  {
+   "key": "case016.clue.source.email",
+   "value": "E-mail"
+  },
+  {
+   "key": "case016.clue.source.loans",
+   "value": "Relevé des prêts"
+  },
+  {
+   "key": "case016.clue.source.passport",
+   "value": "Dossier de passeport"
+  },
+  {
+   "key": "case016.clue.source.phone",
+   "value": "Relevé téléphonique de Craig"
+  },
+  {
+   "key": "case016.clue.source.prints",
+   "value": "Résultat des empreintes"
+  },
+  {
+   "key": "case016.clue.struggle",
+   "value": "Lutte sous le pont ; un homme tombe à l’eau, l’autre s’enfuit."
+  },
+  {
+   "key": "case016.clue.train",
+   "value": "Craig prend un train de Leeds pour Londres."
+  },
+  {
+   "key": "case016.craig.body",
+   "value": "Depuis Leeds, sur la demande de passeport."
+  },
+  {
+   "key": "case016.craig.brother.answer",
+   "value": "Mon frère. Il est mort il y a trente-cinq ans, à six ans. Une méningite. Maman n’a plus jamais ri."
+  },
+  {
+   "key": "case016.craig.brother.answer.demeanor",
+   "value": "La voix plate, les yeux immobiles."
+  },
+  {
+   "key": "case016.craig.brother.question",
+   "value": "Qui est Adrian Pell ?"
+  },
+  {
+   "key": "case016.craig.deflect",
+   "value": "Je ne parle pas avant l’arrivée de mon avocat."
+  },
+  {
+   "key": "case016.craig.london.answer",
+   "value": "Je n’ai rien à faire à Londres. Je ne quitte pas Leeds."
+  },
+  {
+   "key": "case016.craig.london.question",
+   "value": "Êtes-vous allé à Londres ces derniers mois ?"
+  },
+  {
+   "key": "case016.craig.passport.answer",
+   "value": "Je ne vois pas de quoi vous parlez. Si quelqu’un a utilisé ma tête, trouvez-le aussi."
+  },
+  {
+   "key": "case016.craig.passport.question",
+   "value": "En décembre, un passeport a été délivré au nom de votre frère. La photo est la vôtre."
+  },
+  {
+   "key": "case016.craig.quote",
+   "value": "« Maman n’a plus jamais ri. »"
+  },
+  {
+   "key": "case016.craig.title",
+   "value": "Craig Pell — audition"
+  },
+  {
+   "key": "case016.craig_2.body",
+   "value": "Sur l’e-mail et le relevé téléphonique."
+  },
+  {
+   "key": "case016.craig_2.canal.answer",
+   "value": "Je suis allé parler. Il s’est excusé. Excusé ! Il a porté le nom de mon frère pendant vingt ans et il s’est excusé. Je… puis je suis parti. Il était là, debout."
+  },
+  {
+   "key": "case016.craig_2.canal.question",
+   "value": "La nuit du 2 mai, vous étiez au canal."
+  },
+  {
+   "key": "case016.craig_2.loans.answer",
+   "value": "Oui, les prêts sont à moi. Tout ce que cet homme avait venait du nom de mon frère. La maison, le travail, la femme. La moitié de cet argent revenait de droit à ma famille. Voler un voleur, c’est voler ?"
+  },
+  {
+   "key": "case016.craig_2.loans.answer.demeanor",
+   "value": "Pour la première fois, la voix se brise."
+  },
+  {
+   "key": "case016.craig_2.loans.question",
+   "value": "Vous avez écrit l’e-mail. « Son argent aussi », dites-vous."
+  },
+  {
+   "key": "case016.craig_2.title",
+   "value": "Craig Pell — seconde audition"
+  },
+  {
+   "key": "case016.craig_3.body",
+   "value": "Sur le résultat ADN."
+  },
+  {
+   "key": "case016.craig_3.fight.answer",
+   "value": "…Je l’ai attrapé par le col. « Dis ton nom, j’ai dit, dis ton vrai nom. » Il ne voulait pas. Je l’ai poussé. Sa tête a heurté la pierre, il est tombé à l’eau."
+  },
+  {
+   "key": "case016.craig_3.fight.answer.demeanor",
+   "value": "Regarde ses mains."
+  },
+  {
+   "key": "case016.craig_3.fight.question",
+   "value": "Votre peau est sous ses ongles."
+  },
+  {
+   "key": "case016.craig_3.title",
+   "value": "Craig Pell — troisième audition"
+  },
+  {
+   "key": "case016.craig_3.water.answer",
+   "value": "Je n’ai pas pu le sortir. …Je ne l’ai pas sorti. Je suis resté là un moment et j’ai pensé : mon frère est parti comme ça aussi, et personne n’a rien pu faire. Puis je suis parti."
+  },
+  {
+   "key": "case016.craig_3.water.answer.demeanor",
+   "value": "Ferme les yeux."
+  },
+  {
+   "key": "case016.craig_3.water.question",
+   "value": "Avez-vous essayé de le sortir de l’eau ?"
+  },
+  {
+   "key": "case016.custody.adrian",
+   "value": "Adrian Pell"
+  },
+  {
+   "key": "case016.custody.brother",
+   "value": "Le frère de Craig Pell"
+  },
+  {
+   "key": "case016.custody.hart",
+   "value": "Lewis Hart — un fugitif vivant sous l’identité d’un enfant mort"
+  },
+  {
+   "key": "case016.custody.label",
+   "value": "Qui était le mort ?"
+  },
+  {
+   "key": "case016.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case016.darren.body",
+   "value": "Avec l’agent de recouvrement."
+  },
+  {
+   "key": "case016.darren.deflect",
+   "value": "Demandez à la société, moi je frappe aux portes."
+  },
+  {
+   "key": "case016.darren.night.answer",
+   "value": "À Croydon, à deux portes différentes. De neuf heures du soir à onze heures et demie environ. L’appli de la société enregistre chaque visite avec la localisation, regardez."
+  },
+  {
+   "key": "case016.darren.night.question",
+   "value": "Où étiez-vous la nuit du 2 mai ?"
+  },
+  {
+   "key": "case016.darren.note.answer",
+   "value": "C’est notre style. Faire peur, c’est la moitié du travail. Mais je ne jette personne à l’eau, je veux de l’argent, et les cadavres ne paient pas."
+  },
+  {
+   "key": "case016.darren.note.answer.demeanor",
+   "value": "Hausse les épaules."
+  },
+  {
+   "key": "case016.darren.note.question",
+   "value": "Avez-vous écrit « Tu ne peux pas fuir. — D. » sur la mise en demeure ?"
+  },
+  {
+   "key": "case016.darren.pell.answer",
+   "value": "Je suis allé deux fois à sa porte. « Je ne les ai pas contractés », il disait. Ils disent tous ça. Mais celui-là… il y avait une autre peur dans ses yeux. Pas de moi."
+  },
+  {
+   "key": "case016.darren.pell.question",
+   "value": "Avez-vous parlé à Adrian Pell ?"
+  },
+  {
+   "key": "case016.darren.title",
+   "value": "Darren Fisk — audition"
+  },
+  {
+   "key": "case016.darren_log.body",
+   "value": "Agent de terrain : Darren Fisk.\n\n· 21.05 · Croydon, Addiscombe · visite, personne · localisation vérifiée\n· 22.20 · Croydon, Thornton Heath · visite, entretien avec le débiteur · localisation vérifiée\n· 23.41 · Croydon, Thornton Heath · appli fermée\n\nDe Thornton Heath à Hackney en voiture : environ 50 minutes."
+  },
+  {
+   "key": "case016.darren_log.title",
+   "value": "SOCIÉTÉ DE RECOUVREMENT — JOURNAL DES VISITES DE TERRAIN, 2 MAI"
+  },
+  {
+   "key": "case016.death.body",
+   "value": "Nom : Adrian Pell. Né le : 12 mars 1988, Leeds. Décédé le : 4 novembre 1994, hôpital général de Leeds. Cause : méningite.\n\nMère : Margaret Pell (décédée en novembre 2028). Père : non inscrit. Frère : Craig Pell (né en 1984).\n\nOpérations ultérieures utilisant le même acte de naissance : permis de conduire 2006 (Londres) ; dossier fiscal 2015 (Islington) ; demande de passeport 2028 (Leeds)."
+  },
+  {
+   "key": "case016.death.title",
+   "value": "ÉTAT CIVIL — DÉCÈS, LEEDS 1994"
+  },
+  {
+   "key": "case016.dna.body",
+   "value": "Demandé par : bube Londres. Prélèvement de peau sous les ongles de la main droite du défunt.\n\nComparé avec : prélèvement buccal de Craig Pell. Résultat : concordance.\n\nNote : trois griffures parallèles en voie de cicatrisation documentées sur l’avant-bras gauche de Craig Pell en garde à vue ; datant de 2 à 4 jours."
+  },
+  {
+   "key": "case016.dna.title",
+   "value": "RÉSULTAT ADN — SOUS LES ONGLES"
+  },
+  {
+   "key": "case016.edith.body",
+   "value": "Depuis Leeds, la voisine de la famille Pell."
+  },
+  {
+   "key": "case016.edith.deflect",
+   "value": "Je ne me souviens pas, mon petit, c’était il y a si longtemps."
+  },
+  {
+   "key": "case016.edith.funeral.answer",
+   "value": "Le petit Adrian. Des cheveux blonds, toujours dans les jambes de Craig. Craig avait dix ans à l’enterrement, personne n’arrivait à l’éloigner de la tombe. Margaret n’a plus été qu’une moitié de femme après ce jour-là."
+  },
+  {
+   "key": "case016.edith.funeral.question",
+   "value": "Vous souvenez-vous d’Adrian Pell ?"
+  },
+  {
+   "key": "case016.edith.quote",
+   "value": "« Quelqu’un m’a volé mon frère, il a dit. »"
+  },
+  {
+   "key": "case016.edith.title",
+   "value": "Edith Mayhew — audition"
+  },
+  {
+   "key": "case016.edith.winter.answer",
+   "value": "Cet hiver, pendant qu’il vidait la maison de Margaret, il est venu avec une enveloppe. « Edith, une carte de crédit est arrivée pour Adrian », il a dit. Je n’avais jamais vu son visage comme ça. « Quelqu’un l’a volé, il a dit, quelqu’un m’a volé mon frère. »"
+  },
+  {
+   "key": "case016.edith.winter.answer.demeanor",
+   "value": "Serre son mouchoir."
+  },
+  {
+   "key": "case016.edith.winter.question",
+   "value": "Avez-vous vu Craig récemment ?"
+  },
+  {
+   "key": "case016.email.body",
+   "value": "De : Craig Pell (adresse personnelle). Objet : Mon frère.\n\n« Je ne sais pas qui vous êtes. Quelqu’un que je ne connais pas porte le nom de mon frère. Quand ma mère est morte, votre carte de crédit est arrivée à sa porte, au nom d’Adrian Pell. Il a une tombe depuis trente-cinq ans, et vous vivez sous son nom. Je veux qu’on lui rende son nom. Son argent aussi. Mercredi soir, au canal, sous le pont de De Beauvoir. Si vous ne venez pas, je le dirai à tout le monde. »\n\nBrouillon de réponse (non envoyé, récupéré dans le dossier des éléments supprimés) : « Je suis désolé d’avoir pris son nom. Parlons de l’argent. Je viendrai. »"
+  },
+  {
+   "key": "case016.email.title",
+   "value": "E-MAIL — COMPTE « ADRIAN PELL », 28 AVRIL"
+  },
+  {
+   "key": "case016.epilogue.custody.adrian",
+   "value": "Le dossier a été clos comme la mort d’« Adrian Pell ». La famille du Kent n’a eu aucune réponse ; Craig n’a été condamné que pour escroquerie."
+  },
+  {
+   "key": "case016.epilogue.custody.brother",
+   "value": "L’erreur d’identification a profité à la défense : on a montré au tribunal que le mort avait été enterré trente-cinq ans plus tôt."
+  },
+  {
+   "key": "case016.epilogue.custody.hart",
+   "value": "Le dossier du Kent de 2006 a été clos par une lettre à la famille de l’enfant renversé : « Le conducteur a été retrouvé. Il n’est plus en vie. » Leah Morgan n’a pas touché l’assurance ; la police était au nom d’un homme qui n’existait pas. La pierre tombale d’Adrian Pell à Leeds a été regravée."
+  },
+  {
+   "key": "case016.epilogue.custody.unknown",
+   "value": "L’identité du corps est restée incertaine ; l’affaire s’est enlisée dans un litige d’identité."
+  },
+  {
+   "key": "case016.epilogue.verdict.craig",
+   "value": "Craig Pell a été arrêté pour homicide involontaire et escroquerie. À l’audience, il n’a dit qu’une phrase : « Le nom de mon frère est revenu dans sa tombe. »"
+  },
+  {
+   "key": "case016.epilogue.verdict.darren",
+   "value": "Aucune accusation n’a pu être portée contre Darren Fisk. Les prêts de Craig Pell sont restés en recouvrement ; la dette est restée au nom d’un mort."
+  },
+  {
+   "key": "case016.epilogue.verdict.leah",
+   "value": "Leah Morgan a été placée en garde à vue et relâchée deux jours plus tard. Craig Pell a ouvert une nouvelle carte au nom d’Adrian à Leeds."
+  },
+  {
+   "key": "case016.epilogue.verdict.nobody",
+   "value": "Le décès a été classé comme un accident. « Adrian Pell » a été enterré une seconde fois ; la famille du Kent n’a jamais su que l’homme qui avait renversé leur fils avait vécu."
+  },
+  {
+   "key": "case016.evidence.badge",
+   "value": "Carte d’accès au bureau"
+  },
+  {
+   "key": "case016.evidence.darren_log",
+   "value": "Journal de terrain du recouvrement"
+  },
+  {
+   "key": "case016.evidence.letters",
+   "value": "Lettres de recouvrement"
+  },
+  {
+   "key": "case016.evidence.loans",
+   "value": "Relevé des prêts"
+  },
+  {
+   "key": "case016.evidence.prints",
+   "value": "Résultat des empreintes"
+  },
+  {
+   "key": "case016.feedback.craig",
+   "value": "Craig a appris que le nom de son frère mort était vivant, a contracté des prêts sous ce nom, puis a convoqué l’homme au canal. Son téléphone était sous le pont à cette heure-là, et sa peau était sous les ongles du mort."
+  },
+  {
+   "key": "case016.feedback.darren",
+   "value": "Darren le menaçait, mais cette nuit-là il était à Croydon ; le relevé de localisation le tient loin du canal."
+  },
+  {
+   "key": "case016.feedback.leah",
+   "value": "L’assurance de Leah datait de 2024 et elle était chez elle cette nuit-là. Elle ne savait même pas qui était l’homme à ses côtés."
+  },
+  {
+   "key": "case016.feedback.nobody",
+   "value": "Les marques de prise sur le cou, le col déchiré et la peau sous les ongles indiquent une lutte."
+  },
+  {
+   "key": "case016.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case016.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case016.file.value.location",
+   "value": "Hackney, chemin de halage du Regent’s Canal — sous le pont"
+  },
+  {
+   "key": "case016.file.value.number",
+   "value": "BDS-LDN-2029-0107"
+  },
+  {
+   "key": "case016.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case016.file.value.reporter",
+   "value": "Riverain ; signalement de disparition par Leah Morgan"
+  },
+  {
+   "key": "case016.fraud.body",
+   "value": "Demandé par : bube Londres. Objet : demandes au nom d’Adrian Pell, janvier–avril 2029.\n\n· Toutes les demandes ont été faites depuis le même appareil, sur une connexion internet domestique à Leeds. Aucune n’a été faite depuis les appareils d’Adrian Pell à Londres.\n· Un nouveau passeport délivré en décembre 2028 a servi à la vérification d’identité. Adresse : Harehills, Leeds.\n· Le numéro de téléphone lié aux comptes appartient à une ligne enregistrée à Leeds.\n\nÉvaluation : fortes indications que les données d’identité ont été utilisées par un tiers. L’examen du dossier de demande de passeport est recommandé."
+  },
+  {
+   "key": "case016.fraud.title",
+   "value": "ANALYSE DE FRAUDE BANCAIRE — HANNAH COLE"
+  },
+  {
+   "key": "case016.leah.body",
+   "value": "Déposition de sa compagne."
+  },
+  {
+   "key": "case016.leah.debt.answer",
+   "value": "J’ai trouvé les lettres en mars. Il a pleuré, il a juré : « Je ne les ai pas contractés, Leah, il y a une erreur. » Il a écrit à la banque, personne n’a écouté. Un homme est venu deux fois à la porte."
+  },
+  {
+   "key": "case016.leah.debt.question",
+   "value": "Étiez-vous au courant des dettes ?"
+  },
+  {
+   "key": "case016.leah.deflect",
+   "value": "Je ne sais pas. Je ne suis plus sûre de savoir quoi que ce soit."
+  },
+  {
+   "key": "case016.leah.insurance.answer",
+   "value": "Oui, on l’a prise en 2024 pour le crédit immobilier, l’un sur l’autre. Pourquoi cette question ?"
+  },
+  {
+   "key": "case016.leah.insurance.answer.demeanor",
+   "value": "Le visage se durcit."
+  },
+  {
+   "key": "case016.leah.insurance.question",
+   "value": "Adrian avait-il une assurance vie ?"
+  },
+  {
+   "key": "case016.leah.night.answer",
+   "value": "Vers neuf heures, il a dit : « Je dois parler à quelqu’un, je rentrerai tard. » J’ai demandé qui, il n’a pas voulu dire. Il avait éteint son téléphone."
+  },
+  {
+   "key": "case016.leah.night.answer.demeanor",
+   "value": "Les mains jointes sur les genoux."
+  },
+  {
+   "key": "case016.leah.night.question",
+   "value": "Qu’a fait Adrian hier soir ?"
+  },
+  {
+   "key": "case016.leah.past.answer",
+   "value": "Non. Il a grandi dans un foyer pour enfants à Leeds, c’est ce qu’il m’a dit. Il n’avait aucune photo de son enfance. Il n’aimait pas en parler."
+  },
+  {
+   "key": "case016.leah.past.question",
+   "value": "Adrian a-t-il de la famille ?"
+  },
+  {
+   "key": "case016.leah.quote",
+   "value": "« Je ne les ai pas contractés, Leah. »"
+  },
+  {
+   "key": "case016.leah.title",
+   "value": "Leah Morgan — audition"
+  },
+  {
+   "key": "case016.leah_2.body",
+   "value": "Sur le résultat des empreintes."
+  },
+  {
+   "key": "case016.leah_2.email.answer",
+   "value": "La semaine dernière, il a lu un e-mail et il est devenu tout blanc. Il a fermé l’ordinateur et a dit « le travail ». Il est resté sur le balcon toute la nuit. Le mot de passe, c’est ma date de naissance, je le sais."
+  },
+  {
+   "key": "case016.leah_2.email.question",
+   "value": "Quelque chose l’a-t-il effrayé ces derniers jours ?"
+  },
+  {
+   "key": "case016.leah_2.lewis.answer",
+   "value": "Non. Non… Six ans. L’homme qui me tenait la main à l’enterrement de ma mère. Je ne connaissais même pas son nom."
+  },
+  {
+   "key": "case016.leah_2.lewis.answer.demeanor",
+   "value": "Ne peut pas parler pendant un long moment."
+  },
+  {
+   "key": "case016.leah_2.lewis.question",
+   "value": "L’homme avec qui vous viviez s’appelait Lewis Hart."
+  },
+  {
+   "key": "case016.leah_2.title",
+   "value": "Leah Morgan — seconde audition"
+  },
+  {
+   "key": "case016.letters.body",
+   "value": "Quatre lettres, janvier–avril 2029, adressées à : Adrian Pell.\n\n· Janvier : « Le solde de votre carte de crédit s’élève à 12 400 £. »\n· Février : « Trois crédits à la consommation, 96 000 £ au total ; les échéances sont en retard. »\n· Mars : « Votre dossier a été transmis à notre équipe de terrain. »\n· Avril (mise en demeure) : « Dette totale 181 300 £. Notre agent de terrain vous rendra visite à domicile. » Écrit à la main en dessous : « Tu ne peux pas fuir. — D. »"
+  },
+  {
+   "key": "case016.letters.title",
+   "value": "LETTRES DE RECOUVREMENT — DANS SA POCHE ET À SON DOMICILE"
+  },
+  {
+   "key": "case016.loans.body",
+   "value": "Janvier–avril 2029, opérations choisies. Toutes les demandes en ligne.\n\n· 9 janvier · demande de carte de crédit · acceptée\n· 2 février · crédit à la consommation 40 000 £ · accepté\n· 14 février · crédit à la consommation 30 000 £ · accepté\n· 27 février · crédit à la consommation 26 000 £ · accepté\n\nRetraits d’espèces (choisis) :\n· 5 février 10.12 · distributeur, Leeds, Briggate · 500 £\n· 15 février 14.40 · distributeur, Leeds, Kirkgate · 500 £\n· 28 février 11.05 · distributeur, Leeds, Briggate · 500 £\n· 3 mars 09.58 · agence bancaire, Leeds · 18 000 £ en espèces"
+  },
+  {
+   "key": "case016.loans.title",
+   "value": "RELEVÉ DES PRÊTS ET DU COMPTE — AU NOM D’ADRIAN PELL"
+  },
+  {
+   "key": "case016.method.drunk",
+   "value": "Il est tombé ivre et s’est noyé"
+  },
+  {
+   "key": "case016.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case016.method.pushed",
+   "value": "Il a été poussé dans le canal pendant une lutte et laissé dans l’eau"
+  },
+  {
+   "key": "case016.method.suicide",
+   "value": "Il s’est donné la mort sous le poids des dettes"
+  },
+  {
+   "key": "case016.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case016.offer.subtitle",
+   "value": "LE NOM D’UN AUTRE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case016.offer.summary",
+   "value": "Un comptable criblé de dettes est retrouvé mort dans le Regent’s Canal. 180 000 livres de prêts à son nom, une mise en demeure dans sa poche. Quelqu’un lui a volé son nom — du moins, c’est ce qu’il semble."
+  },
+  {
+   "key": "case016.offer.title",
+   "value": "DOSSIER #016"
+  },
+  {
+   "key": "case016.passport.body",
+   "value": "Demande : premier passeport, adulte. Document fourni : acte de naissance original (Leeds, 1988). Adresse : Harehills, Leeds. Contreseing : un pharmacien du quartier.\n\nNote de comparaison photo (à la demande de bube) : la photo de la demande présente une forte ressemblance avec Craig Pell (45 ans, Harehills, même adresse) dans le fichier des permis de conduire. Craig Pell figure dans le même état civil comme frère aîné de l’Adrian Pell de l’acte de naissance."
+  },
+  {
+   "key": "case016.passport.title",
+   "value": "DOSSIER DE DEMANDE DE PASSEPORT — « ADRIAN PELL », DÉCEMBRE 2028"
+  },
+  {
+   "key": "case016.person.craig.info",
+   "value": "45 ans, cariste à Leeds."
+  },
+  {
+   "key": "case016.person.craig.name",
+   "value": "Craig Pell"
+  },
+  {
+   "key": "case016.person.darren.info",
+   "value": "50 ans, agent de terrain pour une société de recouvrement."
+  },
+  {
+   "key": "case016.person.darren.name",
+   "value": "Darren Fisk"
+  },
+  {
+   "key": "case016.person.edith.info",
+   "value": "71 ans, couturière retraitée à Leeds. Voisine de la famille Pell pendant trente ans."
+  },
+  {
+   "key": "case016.person.edith.name",
+   "value": "Edith Mayhew"
+  },
+  {
+   "key": "case016.person.leah.info",
+   "value": "38 ans, institutrice. Vit avec Adrian Pell depuis six ans."
+  },
+  {
+   "key": "case016.person.leah.name",
+   "value": "Leah Morgan"
+  },
+  {
+   "key": "case016.person.rachel.info",
+   "value": "55 ans, associée du cabinet comptable Dunn & Ward ; la patronne d’Adrian depuis quatorze ans."
+  },
+  {
+   "key": "case016.person.rachel.name",
+   "value": "Rachel Dunn"
+  },
+  {
+   "key": "case016.phone.body",
+   "value": "Ligne : enregistrée au nom de Craig Pell.\n\n2 mai 2029\n· 17.30 · gare de Leeds, billet pour Londres (par carte, pas en espèces)\n· 21.40 · antenne : Londres, King’s Cross\n· 23.22 – 23.51 · antenne : Hackney, De Beauvoir (bord du canal)\n· 23.58 · antenne : Hackney Central\n\n3 mai 2029\n· 01.15 · train de nuit pour Leeds, King’s Cross"
+  },
+  {
+   "key": "case016.phone.title",
+   "value": "RELEVÉ TÉLÉPHONIQUE ET DE VOYAGE — CRAIG PELL"
+  },
+  {
+   "key": "case016.prints.body",
+   "value": "Demandé par : bube Londres. Empreintes digitales du corps d’homme repêché dans le canal.\n\nConcordance : LEWIS HART, né en 1987, Maidstone. Motif inscrit : 2006, Kent — délit de fuite après un accident de la route mortel. Un enfant de 11 ans est mort. Le suspect est recherché depuis.\n\nNote d’identité : le corps a été trouvé porteur de l’identité « Adrian Pell ». Résultat versé au dossier pour notification à sa compagne, Leah Morgan."
+  },
+  {
+   "key": "case016.prints.title",
+   "value": "RÉSULTAT DES EMPREINTES — FICHIER NATIONAL"
+  },
+  {
+   "key": "case016.rachel.body",
+   "value": "Avec sa patronne, au bureau."
+  },
+  {
+   "key": "case016.rachel.deflect",
+   "value": "Je ne peux pas le dire sans regarder nos dossiers."
+  },
+  {
+   "key": "case016.rachel.hire.answer",
+   "value": "Il a apporté un acte de naissance, un numéro d’assurance nationale et une lettre de recommandation. En 2015, qui aurait cherché plus loin ?"
+  },
+  {
+   "key": "case016.rachel.hire.question",
+   "value": "Avez-vous vérifié ses antécédents en l’embauchant ?"
+  },
+  {
+   "key": "case016.rachel.lately.answer",
+   "value": "Des appels de la banque, d’agences de crédit. Un jour, il m’a dit : « Quelqu’un est devenu moi, Rachel. » J’ai ri. Je n’aurais pas dû."
+  },
+  {
+   "key": "case016.rachel.lately.question",
+   "value": "Quelque chose a-t-il changé ces derniers mois ?"
+  },
+  {
+   "key": "case016.rachel.title",
+   "value": "Rachel Dunn — audition"
+  },
+  {
+   "key": "case016.rachel.work.answer",
+   "value": "Quatorze ans avec moi. Mon comptable le plus méticuleux. Ne prenait jamais de vacances, n’allait jamais à l’étranger ; je ne crois même pas qu’il avait un passeport."
+  },
+  {
+   "key": "case016.rachel.work.question",
+   "value": "Comment était Adrian ?"
+  },
+  {
+   "key": "case016.report.body",
+   "value": "Le 3 mai 2029 à 06.50, le corps d’un homme a été retrouvé dans l’eau sous un pont du chemin de halage du Regent’s Canal à Hackney. Découvert par un riverain qui promenait son chien.\n\nIdentité d’après le portefeuille dans sa poche : Adrian Pell (41 ans), comptable, travaillant dans un cabinet d’Islington. Sa compagne, Leah Morgan, avait signalé qu’il n’était pas rentré cette nuit-là.\n\nNote de la patrouille : « Alcool possible dans le sang. Une mise en demeure d’une société de recouvrement dans la poche de sa veste. Pression des dettes ; chute ou suicide. »"
+  },
+  {
+   "key": "case016.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case016.request.badge",
+   "value": "Demander les relevés de la carte d’accès au bureau"
+  },
+  {
+   "key": "case016.request.darren_log",
+   "value": "Demander le journal de terrain de Darren Fisk"
+  },
+  {
+   "key": "case016.request.death",
+   "value": "Demander les actes d’état civil d’Adrian Pell"
+  },
+  {
+   "key": "case016.request.dna",
+   "value": "Demander une comparaison ADN des prélèvements sous les ongles"
+  },
+  {
+   "key": "case016.request.email",
+   "value": "Demander les e-mails du compte d’Adrian Pell"
+  },
+  {
+   "key": "case016.request.fraud",
+   "value": "Demander l’analyse de fraude de la banque"
+  },
+  {
+   "key": "case016.request.loans",
+   "value": "Demander un relevé des prêts ouverts au nom d’Adrian Pell"
+  },
+  {
+   "key": "case016.request.passport",
+   "value": "Demander le dossier de demande de passeport"
+  },
+  {
+   "key": "case016.request.phone",
+   "value": "Demander le relevé téléphonique et de voyage de Craig Pell"
+  },
+  {
+   "key": "case016.request.prints",
+   "value": "Demander le résultat des empreintes"
+  },
+  {
+   "key": "case016.summary.evidence",
+   "value": "Le relevé des prêts et la carte d’accès au bureau plaçaient le même nom dans deux villes aux mêmes heures ; l’analyse de fraude et le dossier de passeport menaient à Craig. Les empreintes ont révélé que le mort était Lewis Hart, et l’état civil que le vrai Adrian Pell était mort en 1994. L’e-mail, le relevé téléphonique et l’ADN sous les ongles ont refermé cette nuit-là."
+  },
+  {
+   "key": "case016.summary.lesson",
+   "value": "Vérifiez même le fait le plus élémentaire : l’identité de la victime est la première vérité acceptée sans question. Quand un nom a deux utilisateurs, les enregistrements disent lequel est lequel par la date et le lieu."
+  },
+  {
+   "key": "case016.summary.location",
+   "value": "Hackney et Leeds — 1994–2029"
+  },
+  {
+   "key": "case016.summary.truth",
+   "value": "Lewis Hart, qui avait renversé un enfant dans le Kent en 2006 et pris la fuite, s’est construit une nouvelle vie avec l’acte de naissance d’Adrian Pell, un enfant de six ans mort en 1994, et a vécu 23 ans sous ce nom. Le frère aîné de l’enfant mort, Craig Pell, a appris que le nom était vivant en trouvant, après la mort de leur mère, une lettre de carte adressée à son frère ; il a obtenu un passeport et des prêts sous ce nom, puis a convoqué l’homme au canal. Pendant la lutte, il l’a poussé ; l’homme s’est cogné la tête contre la pile du pont et est tombé à l’eau, et Craig ne l’en a pas sorti."
+  },
+  {
+   "key": "case016.suspect.label",
+   "value": "Qui est responsable de la mort dans le canal ?"
+  },
+  {
+   "key": "case016.tablet.caseLine",
+   "value": "DOSSIER #016  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case016.time.atm",
+   "value": "5 févr. 10.12"
+  },
+  {
+   "key": "case016.time.badge",
+   "value": "5 févr. 08.41"
+  },
+  {
+   "key": "case016.time.darren",
+   "value": "2 mai 22.20"
+  },
+  {
+   "key": "case016.time.dead1994",
+   "value": "4 nov. 1994"
+  },
+  {
+   "key": "case016.time.email",
+   "value": "28 avr."
+  },
+  {
+   "key": "case016.time.empty",
+   "value": "23.45"
+  },
+  {
+   "key": "case016.time.hart2006",
+   "value": "2006"
+  },
+  {
+   "key": "case016.time.passport",
+   "value": "déc. 2028"
+  },
+  {
+   "key": "case016.time.struggle",
+   "value": "23.38"
+  },
+  {
+   "key": "case016.time.train",
+   "value": "2 mai 17.30"
+  },
+  {
+   "key": "case016.time.wait",
+   "value": "23.24"
+  },
+  {
+   "key": "case016.title",
+   "value": "Dossier #016 — Le Nom d’un autre"
+  },
+  {
+   "key": "case016.towpath.body",
+   "value": "Caméra municipale près du pont de De Beauvoir, qui voit de loin le chemin de halage et l’espace sous le pont. 2 mai 23.00 – 3 mai 00.30. Les images sont sombres ; les visages sont indiscernables."
+  },
+  {
+   "key": "case016.towpath.title",
+   "value": "CAMÉRA DU CHEMIN DE HALAGE — transcription du relevé"
+  },
+  {
+   "key": "case016.verdict.craig",
+   "value": "Craig Pell"
+  },
+  {
+   "key": "case016.verdict.darren",
+   "value": "Darren Fisk"
+  },
+  {
+   "key": "case016.verdict.leah",
+   "value": "Leah Morgan"
+  },
+  {
+   "key": "case016.verdict.nobody",
+   "value": "Personne — il est tombé ou s’est donné la mort"
+  },
+  {
+   "key": "case016.item.wallet.name",
+   "value": "Portefeuille mouillé"
+  },
+  {
+   "key": "case016.item.wallet.detail",
+   "value": "Portefeuille en cuir repêché dans l’eau ; une carte d’identité à l’intérieur."
+  },
+  {
+   "key": "case016.item.letters.name",
+   "value": "Lettres de recouvrement"
+  },
+  {
+   "key": "case016.item.letters.detail",
+   "value": "Lettres de dette pliées ; une écriture manuscrite dans la marge de l’une d’elles."
+  },
+  {
+   "key": "case016.item.grave.name",
+   "value": "Pierre tombale d’enfant"
+  },
+  {
+   "key": "case016.item.grave.detail",
+   "value": "Une petite pierre tombale usée par le temps dans le Yorkshire."
+  },
+  {
+   "key": "case016.item.envelope.name",
+   "value": "Enveloppe de carte"
+  },
+  {
+   "key": "case016.item.envelope.detail",
+   "value": "Une enveloppe de carte bancaire ouverte et un emplacement de carte vide."
+  }
+ ]
+}

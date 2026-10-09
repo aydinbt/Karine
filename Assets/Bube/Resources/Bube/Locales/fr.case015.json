@@ -1,0 +1,1036 @@
+{
+ "entries": [
+  {
+   "key": "case015.autopsy.body",
+   "value": "· Cause du décès : fracture de l’arrière du crâne (occipital) et hémorragie cérébrale.\n· La forme de la fracture n’est pas compatible avec un choc contre une arête droite ; elle est compatible avec un coup porté par un objet rond et dur ou appuyé d’un poing. Pas de ligne de bordure.\n· Une marque de coup de poing récente sur la pommette gauche ; antérieure à la chute.\n· Écorchures sur les doigts de la main droite ; comme s’il avait serré quelque chose très fort.\n· Alcoolémie 0,9 pour mille.\n· Portefeuille et clés retrouvés sur lui. Pas de téléphone."
+  },
+  {
+   "key": "case015.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE — CALLUM REID"
+  },
+  {
+   "key": "case015.bus.body",
+   "value": "Titulaire de la carte : Ryan Webb.\n\n13 avril 2029\n23.09 · bus 381 · Jamaica Road (à deux rues de Tanner Lane, environ 4 min à pied)\n\n14 avril 2029\n07.12 · bus 381 · Rotherhithe"
+  },
+  {
+   "key": "case015.bus.title",
+   "value": "RELEVÉ DE CARTE DE TRANSPORT — RYAN WEBB"
+  },
+  {
+   "key": "case015.call999.body",
+   "value": "Appelant : Steve Barker (son propre numéro).\n\n« Il faut une ambulance, Tanner Lane, devant The Lamplighter. Quelqu’un est tombé dans une bagarre, il s’est cogné la tête. Le gars qui l’a poussé s’appelle Ryan, ils s’étaient battus à l’intérieur, il s’est enfui. »\nOpérateur : « Avez-vous vu l’incident, monsieur ? »\n« Oui. On l’a tous vu. »\n\nEn fond, à 0.41 de l’enregistrement, une autre voix d’homme : « Parle aussi du téléphone— » La ligne se tait brièvement, comme étouffée."
+  },
+  {
+   "key": "case015.call999.title",
+   "value": "TRANSCRIPTION DE L’APPEL AU 999 — 23.16"
+  },
+  {
+   "key": "case015.cctv.event.back",
+   "value": "Caméra embarquée : l’homme de grande taille ressort seul de derrière la camionnette et marche vers la porte de l’espace fumeurs ; il met dans sa poche quelque chose qu’il tenait à la main."
+  },
+  {
+   "key": "case015.cctv.event.follow",
+   "value": "Caméra embarquée : un homme de grande taille, tête nue, en veste sombre, sort vite par la porte principale ; sur le trottoir, il rattrape l’homme qui le précède et le tire par le bras. La camionnette les coupe tous deux du cadre."
+  },
+  {
+   "key": "case015.cctv.event.out",
+   "value": "Caméra embarquée : un homme de petite taille en sweat à capuche sort par la porte principale du pub et part à gauche en regardant son téléphone."
+  },
+  {
+   "key": "case015.cctv.overlay",
+   "value": "DASH"
+  },
+  {
+   "key": "case015.cctv.period",
+   "value": "13 avril 2029, 23.05 – 23.20"
+  },
+  {
+   "key": "case015.cctv.source",
+   "value": "Caméra embarquée du taxi"
+  },
+  {
+   "key": "case015.cloud.body",
+   "value": "Le téléphone de Callum Reid n’a pas été retrouvé ; la sauvegarde cloud du compte a été demandée. Derniers téléversements :\n\n· 12 avril 22.41 · vidéo, 38 s · Le jardin arrière du Lamplighter. Le patron du pub, Frank Doyle, remet à l’inspecteur adjoint Neil Garrett une épaisse enveloppe brune ; Garrett la glisse dans la poche intérieure de sa veste. Filmé par l’entrebâillement de la fenêtre de la cuisine.\n· 13 avril 21.36 · brouillon d’e-mail (non envoyé), à l’adresse d’un journaliste : « Vidéo jointe. Tous les jeudis. Je vous dirai tout demain à 11 h. Je n’en ai parlé à personne sauf à Frank ; il m’a dit de “me taire”. »\n· 13 avril 23.12 · dernière synchronisation. Rien après."
+  },
+  {
+   "key": "case015.cloud.title",
+   "value": "SAUVEGARDE CLOUD — CALLUM REID"
+  },
+  {
+   "key": "case015.clue.back",
+   "value": "L’homme de grande taille revient seul à l’espace fumeurs."
+  },
+  {
+   "key": "case015.clue.bribe",
+   "value": "Callum filme Frank Doyle remettant une enveloppe à Neil Garrett."
+  },
+  {
+   "key": "case015.clue.call",
+   "value": "Steve Barker appelle le 999 et donne le nom « Ryan »."
+  },
+  {
+   "key": "case015.clue.callum_out",
+   "value": "L’homme de petite taille en capuche sort par la porte principale et part à gauche."
+  },
+  {
+   "key": "case015.clue.claim",
+   "value": "Quatre témoins disent avoir vu la chute depuis l’espace fumeurs."
+  },
+  {
+   "key": "case015.clue.draft",
+   "value": "Callum rédige un e-mail à un journaliste."
+  },
+  {
+   "key": "case015.clue.follow",
+   "value": "L’homme de grande taille sort par la porte principale et tire par le bras l’homme qui le précède."
+  },
+  {
+   "key": "case015.clue.gareth_pin",
+   "value": "Gareth Hollis paie avec code au bar."
+  },
+  {
+   "key": "case015.clue.pay_callum",
+   "value": "Callum paie au bar."
+  },
+  {
+   "key": "case015.clue.ryan_bus",
+   "value": "La carte de Ryan est lue dans un bus à deux rues de là."
+  },
+  {
+   "key": "case015.clue.ryan_out",
+   "value": "Ryan sort par la porte de derrière."
+  },
+  {
+   "key": "case015.clue.source.bus",
+   "value": "Relevé de carte de Ryan"
+  },
+  {
+   "key": "case015.clue.source.call999",
+   "value": "Enregistrement du 999"
+  },
+  {
+   "key": "case015.clue.source.cloud",
+   "value": "Sauvegarde cloud"
+  },
+  {
+   "key": "case015.clue.source.till",
+   "value": "Terminal du bar"
+  },
+  {
+   "key": "case015.custody.colluded",
+   "value": "Ils ont accordé leurs dépositions pour protéger un collègue"
+  },
+  {
+   "key": "case015.custody.drunk",
+   "value": "Ils se sont trompés sous l’effet de l’alcool"
+  },
+  {
+   "key": "case015.custody.label",
+   "value": "Pourquoi les quatre témoins ont-ils raconté la même histoire ?"
+  },
+  {
+   "key": "case015.custody.saw",
+   "value": "Ils l’ont vraiment vu"
+  },
+  {
+   "key": "case015.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case015.epilogue.custody.colluded",
+   "value": "Gareth Hollis, Paul Ainsworth et Steve Barker ont été jugés pour entrave à la justice. La licence de Frank Doyle a été retirée. Dernière ligne du fax : « Une enquête distincte a été ouverte sur le chef de liaison du district qui a signé la lettre de transmission. »"
+  },
+  {
+   "key": "case015.epilogue.custody.drunk",
+   "value": "La défense l’a présenté comme une « erreur de bonne foi » ; aucune mesure n’a été prise contre les trois témoins."
+  },
+  {
+   "key": "case015.epilogue.custody.saw",
+   "value": "Au procès de Garrett, les quatre agents ont déclaré « nous nous sommes peut-être trompés » ; Garrett a été acquitté."
+  },
+  {
+   "key": "case015.epilogue.custody.unknown",
+   "value": "Pourquoi les dépositions concordaient est resté ouvert dans le dossier ; les trois témoins ont repris leur service."
+  },
+  {
+   "key": "case015.epilogue.verdict.frank",
+   "value": "Frank Doyle a été placé en garde à vue et a avoué les pots-de-vin ; aucun lien avec la mort n’a pu être établi, et il a été relâché. Sa seule déposition n’a pas suffi contre Garrett."
+  },
+  {
+   "key": "case015.epilogue.verdict.garrett",
+   "value": "Neil Garrett a été arrêté pour homicide involontaire et corruption. Des plongeurs ont retrouvé le téléphone de Callum dans le fleuve, près d’un quai proche du domicile de Garrett ; la carte SIM a été lue."
+  },
+  {
+   "key": "case015.epilogue.verdict.nobody",
+   "value": "Le décès a été classé comme un accident. Les quatre témoins ont signé la clôture du dossier ; la sauvegarde cloud de Callum n’a jamais été ouverte."
+  },
+  {
+   "key": "case015.epilogue.verdict.ryan",
+   "value": "Ryan Webb a été arrêté. Quatre agents ont témoigné ; le jeune homme a pris six ans. Neil Garrett a été promu inspecteur l’année suivante."
+  },
+  {
+   "key": "case015.evidence.call999",
+   "value": "Transcription de l’appel au 999"
+  },
+  {
+   "key": "case015.evidence.cloud",
+   "value": "Sauvegarde cloud de Callum Reid"
+  },
+  {
+   "key": "case015.evidence.plan",
+   "value": "Plan des lieux"
+  },
+  {
+   "key": "case015.evidence.staff",
+   "value": "Fiche du personnel de l’unité d’ordre public"
+  },
+  {
+   "key": "case015.evidence.till",
+   "value": "Relevés du terminal du bar"
+  },
+  {
+   "key": "case015.feedback.frank",
+   "value": "Frank a livré Callum ; c’est sur sa conscience. Mais cette nuit-là, il était en cuisine, et ce n’est pas lui qui est sorti."
+  },
+  {
+   "key": "case015.feedback.garrett",
+   "value": "Seuls ses collègues disaient que Garrett était dans l’espace fumeurs ; la serveuse l’a vu sortir par la porte principale après Callum, et la caméra du taxi a enregistré quelqu’un tirant Callum par le bras à 23.12. Callum avait filmé Garrett touchant des pots-de-vin, et Frank le lui avait dit."
+  },
+  {
+   "key": "case015.feedback.nobody",
+   "value": "L’autopsie montre un coup incompatible avec la bordure et une marque de coup de poing antérieure à la chute. Le téléphone a disparu ; dernière synchronisation à 23.12."
+  },
+  {
+   "key": "case015.feedback.ryan",
+   "value": "Ryan est sorti par la porte de derrière à 23.05 ; sa carte a été lue à deux rues de là à 23.09. Steve Barker, qui a donné son nom au 999, ne le connaissait pas ; quelqu’un lui a soufflé le nom à l’oreille."
+  },
+  {
+   "key": "case015.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case015.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case015.file.value.location",
+   "value": "Bermondsey, Tanner Lane — devant The Lamplighter"
+  },
+  {
+   "key": "case015.file.value.number",
+   "value": "BDS-LDN-2029-0091"
+  },
+  {
+   "key": "case015.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case015.file.value.reporter",
+   "value": "Paul Ainsworth, témoin"
+  },
+  {
+   "key": "case015.frank.body",
+   "value": "Déposition du patron du pub."
+  },
+  {
+   "key": "case015.frank.deflect",
+   "value": "Parlez à mon avocat."
+  },
+  {
+   "key": "case015.frank.night.answer",
+   "value": "En cuisine, à faire la caisse. Je n’ai rien vu."
+  },
+  {
+   "key": "case015.frank.night.answer.demeanor",
+   "value": "Les mains tremblent."
+  },
+  {
+   "key": "case015.frank.night.question",
+   "value": "Où étiez-vous la nuit des faits ?"
+  },
+  {
+   "key": "case015.frank.police.answer",
+   "value": "De bons clients. Si on veut un pub tranquille, on s’entend avec eux."
+  },
+  {
+   "key": "case015.frank.police.question",
+   "value": "Et vos quatre clients de l’unité d’ordre public ?"
+  },
+  {
+   "key": "case015.frank.title",
+   "value": "Frank Doyle — audition"
+  },
+  {
+   "key": "case015.frank_2.body",
+   "value": "Sur la vidéo."
+  },
+  {
+   "key": "case015.frank_2.envelope.answer",
+   "value": "…Tous les mois depuis six ans. Si tu ne paies pas, ta licence saute, il y a une patrouille à ta porte tous les soirs. Tout le monde fait ça par ici."
+  },
+  {
+   "key": "case015.frank_2.envelope.answer.demeanor",
+   "value": "Enfouit son visage dans ses mains."
+  },
+  {
+   "key": "case015.frank_2.envelope.question",
+   "value": "La nuit du 12 avril, vous avez remis une enveloppe à Neil Garrett dans le jardin arrière."
+  },
+  {
+   "key": "case015.frank_2.title",
+   "value": "Frank Doyle — seconde audition"
+  },
+  {
+   "key": "case015.frank_2.told.answer",
+   "value": "Moi. Jeudi soir, au bar. Callum était le seul à avoir le cran de me dire de « me taire » et je l’ai vendu. Neil a dit : « Je m’en occupe, toi ne fais rien. » Si j’avais su qu’il le tuerait…"
+  },
+  {
+   "key": "case015.frank_2.told.question",
+   "value": "Qui a dit à Garrett que Callum avait filmé la vidéo ?"
+  },
+  {
+   "key": "case015.gareth.body",
+   "value": "Déposition de témoin."
+  },
+  {
+   "key": "case015.gareth.deflect",
+   "value": "Je n’ai rien à ajouter à ma déposition."
+  },
+  {
+   "key": "case015.gareth.job.answer",
+   "value": "Je suis fonctionnaire. Quel rapport avec ma déposition ?"
+  },
+  {
+   "key": "case015.gareth.job.question",
+   "value": "Que faites-vous dans la vie ?"
+  },
+  {
+   "key": "case015.gareth.quote",
+   "value": "« Tous ensemble. »"
+  },
+  {
+   "key": "case015.gareth.saw.answer",
+   "value": "Le jeune, Ryan, l’a poussé. Callum est tombé en arrière, s’est cogné la tête contre le coin de la bordure. Ça s’est passé très vite."
+  },
+  {
+   "key": "case015.gareth.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case015.gareth.title",
+   "value": "Gareth Hollis — audition"
+  },
+  {
+   "key": "case015.gareth.where.answer",
+   "value": "Dans l’espace fumeurs. Paul, Neil et moi, tous ensemble. Steve était un peu plus loin, vers le trottoir."
+  },
+  {
+   "key": "case015.gareth.where.answer.demeanor",
+   "value": "Répond sans une seconde de réflexion."
+  },
+  {
+   "key": "case015.gareth.where.question",
+   "value": "Où étiez-vous exactement au moment des faits ?"
+  },
+  {
+   "key": "case015.gareth_2.body",
+   "value": "Sur le terminal du bar."
+  },
+  {
+   "key": "case015.gareth_2.pin.answer",
+   "value": "…Je suis entré payer une tournée. L’affaire d’une minute."
+  },
+  {
+   "key": "case015.gareth_2.pin.answer.demeanor",
+   "value": "Déglutit."
+  },
+  {
+   "key": "case015.gareth_2.pin.question",
+   "value": "À 23.11, vous avez payé par carte au bar, en tapant votre code."
+  },
+  {
+   "key": "case015.gareth_2.saw2.answer",
+   "value": "Je… quand je suis sorti, il était par terre. Neil nous a raconté le reste. C’est lui qui a dit « s’est cogné la tête contre le coin de la bordure ». On l’a tous dit comme ça."
+  },
+  {
+   "key": "case015.gareth_2.saw2.question",
+   "value": "Alors, comment avez-vous vu la chute ?"
+  },
+  {
+   "key": "case015.gareth_2.title",
+   "value": "Gareth Hollis — seconde audition"
+  },
+  {
+   "key": "case015.garrett.body",
+   "value": "Déposition de témoin."
+  },
+  {
+   "key": "case015.garrett.callum.answer",
+   "value": "Non. Un gars du coin, une tête connue. C’est tout."
+  },
+  {
+   "key": "case015.garrett.callum.question",
+   "value": "Connaissiez-vous Callum Reid ?"
+  },
+  {
+   "key": "case015.garrett.deflect",
+   "value": "C’est comme écrit dans ma déposition."
+  },
+  {
+   "key": "case015.garrett.quote",
+   "value": "« Tous les trois, ensemble. »"
+  },
+  {
+   "key": "case015.garrett.saw.answer",
+   "value": "Une bousculade, une chute. Mes collègues ont mieux vu le détail. Je ne dirai pas avoir vu ce que je n’ai pas vu ; c’est comme dans le rapport."
+  },
+  {
+   "key": "case015.garrett.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case015.garrett.title",
+   "value": "Neil Garrett — audition"
+  },
+  {
+   "key": "case015.garrett.where.answer",
+   "value": "Dans l’espace fumeurs, avec mes collègues. Tous les trois, ensemble."
+  },
+  {
+   "key": "case015.garrett.where.answer.demeanor",
+   "value": "Calme, rodé ; comme si c’était lui qui menait l’audition."
+  },
+  {
+   "key": "case015.garrett.where.question",
+   "value": "Où étiez-vous au moment des faits ?"
+  },
+  {
+   "key": "case015.garrett_2.body",
+   "value": "Sur la fiche du personnel."
+  },
+  {
+   "key": "case015.garrett_2.colleagues.answer",
+   "value": "C’est un crime, pour quatre agents en repos, d’être au pub ? On a vu, on l’a dit. Fallait-il dire qu’on n’avait rien vu parce qu’on est collègues ?"
+  },
+  {
+   "key": "case015.garrett_2.colleagues.answer.demeanor",
+   "value": "Hausse la voix pour la première fois."
+  },
+  {
+   "key": "case015.garrett_2.colleagues.question",
+   "value": "Les quatre témoins sont votre unité. Le rapport a aussi été saisi dans votre système."
+  },
+  {
+   "key": "case015.garrett_2.door.answer",
+   "value": "Non. J’étais dans l’espace fumeurs. Combien de fois faut-il le dire."
+  },
+  {
+   "key": "case015.garrett_2.door.question",
+   "value": "Êtes-vous sorti par la porte principale à 23.12 ?"
+  },
+  {
+   "key": "case015.garrett_2.title",
+   "value": "Neil Garrett — seconde audition"
+  },
+  {
+   "key": "case015.garrett_3.body",
+   "value": "Sur la vidéo, la caméra et les dépositions des collègues."
+  },
+  {
+   "key": "case015.garrett_3.phone.answer",
+   "value": "Quel téléphone ? Je ne dis plus rien avant l’arrivée de mon avocat."
+  },
+  {
+   "key": "case015.garrett_3.phone.answer.demeanor",
+   "value": "Son avocat met fin à l’audition."
+  },
+  {
+   "key": "case015.garrett_3.phone.question",
+   "value": "Où est le téléphone ?"
+  },
+  {
+   "key": "case015.garrett_3.title",
+   "value": "Neil Garrett — troisième audition"
+  },
+  {
+   "key": "case015.garrett_3.video.answer",
+   "value": "…Je suis sorti parler à Callum. J’ai demandé le téléphone, il m’a sauté dessus. Je me suis défendu. Il est tombé. C’est tout."
+  },
+  {
+   "key": "case015.garrett_3.video.answer.demeanor",
+   "value": "Regarde longtemps la fenêtre."
+  },
+  {
+   "key": "case015.garrett_3.video.question",
+   "value": "Frank Doyle vous remettait une enveloppe tous les mois, et Callum l’a filmé."
+  },
+  {
+   "key": "case015.handover.body",
+   "value": "14 avril 2029, 08.05. Objet : transfert du dossier de mort suspecte de Tanner Lane à bube Londres.\n\n« Les dépositions de quatre témoins indépendants concordent. Le suspect est clair. Il est recommandé de clore rapidement le dossier par la procédure ordinaire. Aucune enquête complémentaire n’est nécessaire. »\n\nSigné : chef de liaison du district. Note d’états de service jointe au dossier : de 2019 à 2023, le signataire était l’équipier de Neil Garrett dans la même voiture de patrouille à l’unité d’ordre public de Bermondsey."
+  },
+  {
+   "key": "case015.handover.title",
+   "value": "LETTRE DE TRANSMISSION — BUREAU DE LIAISON DU DISTRICT"
+  },
+  {
+   "key": "case015.josie.body",
+   "value": "Déposition de la serveuse."
+  },
+  {
+   "key": "case015.josie.callum.answer",
+   "value": "Tendu et excité. Vers neuf heures et demie, il m’a dit : « Je vois un journaliste demain, Josie, ce quartier va changer. » Il ne lâchait jamais son téléphone."
+  },
+  {
+   "key": "case015.josie.callum.answer.demeanor",
+   "value": "Baisse la voix et jette un œil vers la porte."
+  },
+  {
+   "key": "case015.josie.callum.question",
+   "value": "Comment était Callum ce soir-là ?"
+  },
+  {
+   "key": "case015.josie.deflect",
+   "value": "Ça, je ne l’ai pas vu, je ne vais pas l’inventer."
+  },
+  {
+   "key": "case015.josie.fight.answer",
+   "value": "Onze heures moins dix. Callum et ce jeune gars, pour une table. Je suis intervenue, c’était fini. Le gars s’est même excusé."
+  },
+  {
+   "key": "case015.josie.fight.question",
+   "value": "Pouvez-vous décrire la bousculade à l’intérieur ?"
+  },
+  {
+   "key": "case015.josie.quote",
+   "value": "« Il n’est jamais allé à l’espace fumeurs. »"
+  },
+  {
+   "key": "case015.josie.ryan.answer",
+   "value": "Onze heures cinq, par la porte de derrière. Je sortais les poubelles, il est passé devant moi. Callum était à l’intérieur à ce moment-là, au bout du bar."
+  },
+  {
+   "key": "case015.josie.ryan.question",
+   "value": "Quand Ryan Webb est-il parti ?"
+  },
+  {
+   "key": "case015.josie.taxi.answer",
+   "value": "Il y avait un taxi qui attendait en face de la porte, moteur allumé. Et cette camionnette sur le trottoir ; je l’ai dit tant de fois à Frank."
+  },
+  {
+   "key": "case015.josie.taxi.question",
+   "value": "Qu’y avait-il d’autre dehors ?"
+  },
+  {
+   "key": "case015.josie.title",
+   "value": "Josie Lang — audition"
+  },
+  {
+   "key": "case015.josie_2.body",
+   "value": "Sur le plan."
+  },
+  {
+   "key": "case015.josie_2.four.answer",
+   "value": "L’unité d’ordre public. Ils viennent tous les jeudis. Frank ne les fait jamais payer. Je ne dis rien, je gagne ma vie ici."
+  },
+  {
+   "key": "case015.josie_2.four.answer.demeanor",
+   "value": "Baisse la voix."
+  },
+  {
+   "key": "case015.josie_2.four.question",
+   "value": "Qui sont ces quatre hommes ?"
+  },
+  {
+   "key": "case015.josie_2.title",
+   "value": "Josie Lang — seconde audition"
+  },
+  {
+   "key": "case015.josie_2.window.answer",
+   "value": "On le voit. J’ai regardé en ramassant les verres. Callum est sorti, il est parti à gauche. Une minute ou deux plus tard, M. Garrett est sorti aussi, par la porte principale, vite. Il n’est jamais allé à l’espace fumeurs ce soir-là ; il était au bout du bar toute la soirée, juste à côté de Callum."
+  },
+  {
+   "key": "case015.josie_2.window.answer.demeanor",
+   "value": "Se tait longtemps, puis le dit une fois et ne revient pas dessus."
+  },
+  {
+   "key": "case015.josie_2.window.question",
+   "value": "Voit-on le trottoir depuis la fenêtre du bar ?"
+  },
+  {
+   "key": "case015.method.drunk",
+   "value": "Il est tombé ivre et s’est cogné la tête"
+  },
+  {
+   "key": "case015.method.label",
+   "value": "Comment Callum est-il mort ?"
+  },
+  {
+   "key": "case015.method.pushed",
+   "value": "Il a été poussé dans une bagarre et il est tombé"
+  },
+  {
+   "key": "case015.method.robbed",
+   "value": "Il a été frappé pour qu’on lui prenne son téléphone"
+  },
+  {
+   "key": "case015.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case015.offer.subtitle",
+   "value": "LA FERMETURE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case015.offer.summary",
+   "value": "Devant un pub de Bermondsey, à l’heure de la fermeture, un homme tombe et meurt. Quatre témoins ont vu la même chose et la racontent avec la même phrase. Le dossier est prêt à être clos."
+  },
+  {
+   "key": "case015.offer.title",
+   "value": "DOSSIER #015"
+  },
+  {
+   "key": "case015.paul.body",
+   "value": "Déposition de témoin."
+  },
+  {
+   "key": "case015.paul.deflect",
+   "value": "C’est dans le rapport."
+  },
+  {
+   "key": "case015.paul.saw.answer",
+   "value": "Le jeune homme qui s’était battu à l’intérieur l’a poussé dehors. L’homme est tombé, s’est cogné la tête contre le coin de la bordure. Comme je l’ai écrit dans ma déposition."
+  },
+  {
+   "key": "case015.paul.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case015.paul.title",
+   "value": "Paul Ainsworth — audition"
+  },
+  {
+   "key": "case015.paul.where.answer",
+   "value": "Dans l’espace fumeurs, à côté de Gareth. Neil était là aussi."
+  },
+  {
+   "key": "case015.paul.where.answer.demeanor",
+   "value": "Fait mine de consulter son carnet ; le carnet est fermé."
+  },
+  {
+   "key": "case015.paul.where.question",
+   "value": "Où étiez-vous au moment des faits ?"
+  },
+  {
+   "key": "case015.paul.wrote.answer",
+   "value": "La patrouille me l’a demandé ; j’étais le mieux placé pour décrire l’incident. Rien d’irrégulier."
+  },
+  {
+   "key": "case015.paul.wrote.question",
+   "value": "Pourquoi avez-vous rédigé le rapport ? Vous êtes témoin."
+  },
+  {
+   "key": "case015.paul_2.body",
+   "value": "Sur la fiche du personnel."
+  },
+  {
+   "key": "case015.paul_2.job.answer",
+   "value": "Ce n’était pas important. Un témoin est un témoin."
+  },
+  {
+   "key": "case015.paul_2.job.answer.demeanor",
+   "value": "Boutonne sa veste."
+  },
+  {
+   "key": "case015.paul_2.job.question",
+   "value": "Les quatre témoins sont des agents en repos de la même unité, cette même nuit. Le rapport ne le dit pas."
+  },
+  {
+   "key": "case015.paul_2.title",
+   "value": "Paul Ainsworth — seconde audition"
+  },
+  {
+   "key": "case015.paul_2.who.answer",
+   "value": "Neil nous a tous réunis dans l’espace fumeurs et a dit : « On a tous vu la même chose, comme ça ça ne traîne pas. » Il a donné la phrase, je l’ai écrite. Personne ne m’a jamais demandé ce que j’avais vu."
+  },
+  {
+   "key": "case015.paul_2.who.question",
+   "value": "Avez-vous accordé les dépositions ?"
+  },
+  {
+   "key": "case015.person.frank.info",
+   "value": "57 ans, patron du Lamplighter."
+  },
+  {
+   "key": "case015.person.frank.name",
+   "value": "Frank Doyle"
+  },
+  {
+   "key": "case015.person.gareth.info",
+   "value": "39 ans. Était au pub cette nuit-là ; témoin."
+  },
+  {
+   "key": "case015.person.gareth.name",
+   "value": "Gareth Hollis"
+  },
+  {
+   "key": "case015.person.garrett.info",
+   "value": "45 ans, inspecteur adjoint à l’unité d’ordre public de Bermondsey. En repos cette nuit-là ; témoin."
+  },
+  {
+   "key": "case015.person.garrett.name",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case015.person.josie.info",
+   "value": "38 ans, serveuse au Lamplighter depuis dix ans. Était derrière le bar cette nuit-là."
+  },
+  {
+   "key": "case015.person.josie.name",
+   "value": "Josie Lang"
+  },
+  {
+   "key": "case015.person.paul.info",
+   "value": "34 ans. Était au pub cette nuit-là ; témoin. A fait la déposition du premier rapport."
+  },
+  {
+   "key": "case015.person.paul.name",
+   "value": "Paul Ainsworth"
+  },
+  {
+   "key": "case015.person.ryan.info",
+   "value": "24 ans, ouvrier du bâtiment. S’est bousculé avec Callum Reid au pub cette nuit-là ; suspect dans le premier rapport."
+  },
+  {
+   "key": "case015.person.ryan.name",
+   "value": "Ryan Webb"
+  },
+  {
+   "key": "case015.person.steve.info",
+   "value": "41 ans. Était au pub cette nuit-là ; le témoin qui a appelé le 999."
+  },
+  {
+   "key": "case015.person.steve.name",
+   "value": "Steve Barker"
+  },
+  {
+   "key": "case015.plan.body",
+   "value": "Croquis vu du dessus d’après les mesures de l’équipe des lieux. En haut : la salle et le bar du pub ; en bas : le trottoir et Tanner Lane. À droite : l’espace fumeurs, fermé par un mur latéral. La camionnette de livraison garée à moitié sur le trottoir cette nuit-là est indiquée.\n\nLes positions données par les témoins et montrées par les relevés sont marquées sur le plan."
+  },
+  {
+   "key": "case015.plan.incident",
+   "value": "Croix : l’endroit où Callum Reid a été trouvé, sur le trottoir. Touche un repère pour tracer la zone visible depuis ce point."
+  },
+  {
+   "key": "case015.plan.marker.gareth_claim",
+   "value": "Gareth Hollis — où il dit qu’il était : espace fumeurs"
+  },
+  {
+   "key": "case015.plan.marker.gareth_till",
+   "value": "Gareth Hollis — paiement par carte au terminal du bar, 23.11"
+  },
+  {
+   "key": "case015.plan.marker.garrett_claim",
+   "value": "Neil Garrett — où il dit qu’il était : espace fumeurs"
+  },
+  {
+   "key": "case015.plan.marker.josie_window",
+   "value": "Josie Lang — la fenêtre du bar"
+  },
+  {
+   "key": "case015.plan.marker.paul_claim",
+   "value": "Paul Ainsworth — où il dit qu’il était : espace fumeurs"
+  },
+  {
+   "key": "case015.plan.marker.steve_claim",
+   "value": "Steve Barker — où il dit qu’il était : devant l’espace fumeurs, sur le trottoir"
+  },
+  {
+   "key": "case015.plan.marker.taxi_door",
+   "value": "Caméra du taxi — homme de grande taille sortant par la porte, 23.12"
+  },
+  {
+   "key": "case015.plan.title",
+   "value": "PLAN DES LIEUX — THE LAMPLIGHTER ET TANNER LANE"
+  },
+  {
+   "key": "case015.report.body",
+   "value": "Le 13 avril 2029 à 23.16, le 999 a été informé qu’un homme gisait blessé sur le trottoir devant le pub The Lamplighter, Tanner Lane, Bermondsey. Callum Reid (33 ans) est mort sur place.\n\nDéposition de témoin (à la patrouille du secteur, 23.40) : « L’un des deux hommes qui s’étaient bousculés à l’intérieur à la fermeture, un jeune ouvrier du bâtiment nommé Ryan, a de nouveau poussé Callum dehors. Callum est tombé en arrière, s’est cogné la tête contre le coin de la bordure. On était dans l’espace fumeurs, on l’a vu tous les quatre. »\n\nDéposition faite, et rapport rédigé le lendemain matin, par : Paul Ainsworth. Le dossier a été transféré à bube Londres comme mort suspecte ordinaire."
+  },
+  {
+   "key": "case015.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case015.request.bus",
+   "value": "Demander le relevé de carte de Ryan Webb"
+  },
+  {
+   "key": "case015.request.call999",
+   "value": "Demander l’enregistrement de l’appel au 999"
+  },
+  {
+   "key": "case015.request.cloud",
+   "value": "Demander la sauvegarde cloud de Callum Reid"
+  },
+  {
+   "key": "case015.request.handover",
+   "value": "Demander la lettre de transmission du dossier"
+  },
+  {
+   "key": "case015.request.staff",
+   "value": "Demander la fiche du personnel des témoins"
+  },
+  {
+   "key": "case015.request.till",
+   "value": "Demander les relevés de cartes du terminal du bar"
+  },
+  {
+   "key": "case015.ryan.body",
+   "value": "Avec le suspect du premier rapport."
+  },
+  {
+   "key": "case015.ryan.deflect",
+   "value": "Sais pas, mec. J’étais parti."
+  },
+  {
+   "key": "case015.ryan.fight.answer",
+   "value": "Pour une table, un truc idiot. Il a renversé mon verre, je l’ai poussé, il m’a poussé. La serveuse nous a séparés. Fini."
+  },
+  {
+   "key": "case015.ryan.fight.answer.demeanor",
+   "value": "Glisse ses mains sous la table."
+  },
+  {
+   "key": "case015.ryan.fight.question",
+   "value": "Pourquoi vous êtes-vous bousculé avec Callum Reid ?"
+  },
+  {
+   "key": "case015.ryan.left.answer",
+   "value": "Je suis sorti par la porte de derrière, vers onze heures cinq. Je ne voulais pas que ça traîne. J’ai pris le bus, je suis rentré. Je ne l’ai jamais vu dehors, je le jure."
+  },
+  {
+   "key": "case015.ryan.left.question",
+   "value": "Qu’avez-vous fait ensuite ?"
+  },
+  {
+   "key": "case015.ryan.quote",
+   "value": "« Je ne l’ai jamais vu dehors. »"
+  },
+  {
+   "key": "case015.ryan.title",
+   "value": "Ryan Webb — audition"
+  },
+  {
+   "key": "case015.ryan.who.answer",
+   "value": "Personne. Il y avait quatre types dans l’espace fumeurs, qui riaient fort. L’un d’eux m’a dit « Assieds-toi, fiston », comme un flic."
+  },
+  {
+   "key": "case015.ryan.who.question",
+   "value": "Qui connaissiez-vous au pub cette nuit-là ?"
+  },
+  {
+   "key": "case015.staff.body",
+   "value": "Demandé par : bube Londres. Tableau des repos du 13 avril 2029, même unité :\n\n· Inspecteur adjoint Neil Garrett — en repos\n· Inspecteur assistant Gareth Hollis — en repos\n· Agent Paul Ainsworth — en repos\n· Agent Steve Barker — en repos\n\nNote : le rapport rédigé par Paul Ainsworth le matin du 14 avril n’indique ni sa propre profession ni celles des autres témoins. Le rapport a été saisi dans le système de l’unité placée sous le commandement de Neil Garrett."
+  },
+  {
+   "key": "case015.staff.title",
+   "value": "FICHE DU PERSONNEL — UNITÉ D’ORDRE PUBLIC DE BERMONDSEY"
+  },
+  {
+   "key": "case015.steve.body",
+   "value": "Témoin et auteur de l’appel au 999."
+  },
+  {
+   "key": "case015.steve.call.answer",
+   "value": "Ce que j’ai vu. J’ai demandé une ambulance."
+  },
+  {
+   "key": "case015.steve.call.question",
+   "value": "Qu’avez-vous dit pendant l’appel ?"
+  },
+  {
+   "key": "case015.steve.deflect",
+   "value": "Je ne me souviens pas."
+  },
+  {
+   "key": "case015.steve.saw.answer",
+   "value": "Callum était par terre. Le jeune, parce qu’il l’a poussé, il s’est cogné la tête contre le coin de la bordure. J’ai appelé le 999 tout de suite."
+  },
+  {
+   "key": "case015.steve.saw.answer.demeanor",
+   "value": "Dit la fin de la phrase comme apprise par cœur."
+  },
+  {
+   "key": "case015.steve.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case015.steve.title",
+   "value": "Steve Barker — audition"
+  },
+  {
+   "key": "case015.steve.where.answer",
+   "value": "Devant l’espace fumeurs, sur le trottoir. Je regardais mon téléphone, j’ai entendu le bruit et j’ai levé les yeux."
+  },
+  {
+   "key": "case015.steve.where.question",
+   "value": "Où étiez-vous au moment des faits ?"
+  },
+  {
+   "key": "case015.steve_2.body",
+   "value": "Sur l’enregistrement du 999."
+  },
+  {
+   "key": "case015.steve_2.name.answer",
+   "value": "…C’est Neil qui me l’a dit. Il avait entendu le nom quand ils se sont battus à l’intérieur. Pendant que j’appelais, il me répétait à l’oreille : « Dis Ryan, Ryan. »"
+  },
+  {
+   "key": "case015.steve_2.name.answer.demeanor",
+   "value": "Retourne son téléphone face contre la table."
+  },
+  {
+   "key": "case015.steve_2.name.question",
+   "value": "Pendant l’appel, vous avez dit « celui qui l’a poussé s’appelle Ryan ». Comment connaissiez-vous ce gars par son nom ?"
+  },
+  {
+   "key": "case015.steve_2.phone.answer",
+   "value": "Je ne sais pas. Vraiment pas. Neil avait deux téléphones à la main, c’est tout."
+  },
+  {
+   "key": "case015.steve_2.phone.question",
+   "value": "La voix en fond dit « Parle aussi du téléphone ». Quel téléphone ?"
+  },
+  {
+   "key": "case015.steve_2.title",
+   "value": "Steve Barker — seconde audition"
+  },
+  {
+   "key": "case015.summary.evidence",
+   "value": "Le plan des lieux a montré que le mur latéral et la camionnette coupaient la ligne de vue des témoins qui disaient « on l’a vu depuis l’espace fumeurs ». Le terminal du bar plaçait un témoin à l’intérieur à cette minute, et le relevé de carte plaçait Ryan à deux rues de là. La fiche du personnel a révélé que les témoins étaient collègues, la caméra du taxi et la serveuse que Garrett était sorti après Callum, et la sauvegarde cloud la raison."
+  },
+  {
+   "key": "case015.summary.lesson",
+   "value": "Avant de demander ce qu’un témoin a vu, demandez d’où il pouvait voir. Quatre dépositions qui concordent ne sont pas quatre preuves ; quatre bouches qui disent la même phrase sont une seule source."
+  },
+  {
+   "key": "case015.summary.location",
+   "value": "Bermondsey, Tanner Lane — 12–14 avril 2029"
+  },
+  {
+   "key": "case015.summary.truth",
+   "value": "Callum Reid a filmé l’enveloppe que le patron du pub, Frank Doyle, remettait chaque mois à l’inspecteur adjoint Neil Garrett, et s’apprêtait à l’envoyer à un journaliste. Frank l’a dit à Garrett. À la fermeture, Garrett est sorti après Callum, a exigé le téléphone, a frappé Callum quand il a résisté et l’a atteint à la tête ; il a pris le téléphone de l’homme à terre et est retourné à l’espace fumeurs. Trois agents en repos de la même unité se sont ralliés à une seule version accusant Ryan Webb, qui s’était bousculé à l’intérieur ; l’un des témoins a rédigé le rapport."
+  },
+  {
+   "key": "case015.suspect.label",
+   "value": "Qui est responsable de la mort de Callum Reid ?"
+  },
+  {
+   "key": "case015.tablet.caseLine",
+   "value": "DOSSIER #015  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case015.taxi.body",
+   "value": "Caméra avant d’un taxi qui attendait en face du pub. Le chauffeur a remis l’enregistrement de lui-même. 13 avril 23.05 – 23.20. Images sous la pluie ; visages à moitié visibles."
+  },
+  {
+   "key": "case015.taxi.title",
+   "value": "CAMÉRA EMBARQUÉE DU TAXI — transcription du relevé"
+  },
+  {
+   "key": "case015.till.body",
+   "value": "The Lamplighter, terminal du bar (fond de la salle, à 14 mètres de la porte de l’espace fumeurs). Opérations choisies :\n\n22.48 · 18,40 £ · sans contact · Callum Reid\n23.02 · 6,20 £ · sans contact · Josie Lang (personnel)\n23.11 · 24,80 £ · carte, code saisi · Gareth Hollis — quatre pintes\n23.19 · remboursement · —\n\nUne opération avec code exige que le titulaire soit au terminal."
+  },
+  {
+   "key": "case015.till.title",
+   "value": "TERMINAL DU BAR — PAIEMENTS PAR CARTE, 13 AVRIL"
+  },
+  {
+   "key": "case015.time.back",
+   "value": "23.14"
+  },
+  {
+   "key": "case015.time.bribe",
+   "value": "12 avr. 22.41"
+  },
+  {
+   "key": "case015.time.call",
+   "value": "23.16"
+  },
+  {
+   "key": "case015.time.claim",
+   "value": "23.13"
+  },
+  {
+   "key": "case015.time.draft",
+   "value": "13 avr. 21.36"
+  },
+  {
+   "key": "case015.time.follow",
+   "value": "23.12"
+  },
+  {
+   "key": "case015.time.gareth_pin",
+   "value": "23.11"
+  },
+  {
+   "key": "case015.time.out",
+   "value": "23.10"
+  },
+  {
+   "key": "case015.time.pay_callum",
+   "value": "22.48"
+  },
+  {
+   "key": "case015.time.ryan_bus",
+   "value": "23.09"
+  },
+  {
+   "key": "case015.time.ryan_out",
+   "value": "23.05"
+  },
+  {
+   "key": "case015.title",
+   "value": "Dossier #015 — La Fermeture"
+  },
+  {
+   "key": "case015.verdict.frank",
+   "value": "Frank Doyle"
+  },
+  {
+   "key": "case015.verdict.garrett",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case015.verdict.nobody",
+   "value": "Personne — il est tombé ivre"
+  },
+  {
+   "key": "case015.verdict.ryan",
+   "value": "Ryan Webb"
+  },
+  {
+   "key": "case015.item.kerb.name",
+   "value": "Bordure"
+  },
+  {
+   "key": "case015.item.kerb.detail",
+   "value": "Bordure de granit mouillée ; aucune trace de sang sur son arête."
+  },
+  {
+   "key": "case015.item.envelope.name",
+   "value": "Enveloppe"
+  },
+  {
+   "key": "case015.item.envelope.detail",
+   "value": "Enveloppe brune au coin déchiré, des billets à l’intérieur."
+  },
+  {
+   "key": "case015.item.case.name",
+   "value": "Coque de téléphone"
+  },
+  {
+   "key": "case015.item.case.detail",
+   "value": "Coque de téléphone noire, boueuse et fêlée ; pas de téléphone."
+  }
+ ]
+}
