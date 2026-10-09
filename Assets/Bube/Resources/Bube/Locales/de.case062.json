@@ -1,0 +1,500 @@
+{
+ "entries": [
+  {
+   "key": "case062.aisle.body",
+   "value": "Hinterer Gang des Lagers. 9. November 22.30 – 23.45."
+  },
+  {
+   "key": "case062.aisle.title",
+   "value": "KAMERA HINTERER GANG — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case062.autopsy.body",
+   "value": "· Todesursache: Quetschung; mehrfache Brüche.\n· Die Verletzungen passen dazu, dass mehrere schwere Fässer gleichzeitig von oben fielen.\n· In der Hand ein kleiner Gummihammer; fest umklammert.\n· Todeszeit: 23.25–23.40."
+  },
+  {
+   "key": "case062.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case062.cctv.event.lift",
+   "value": "Kamera: Ein Gabelstapler mit einem einzelnen, kräftig gebauten Fahrer biegt mit erhobenen Gabeln am anderen Ende des Gangs ein."
+  },
+  {
+   "key": "case062.cctv.event.rev",
+   "value": "Kamera: Der Gabelstapler setzt schnell zurück; hinter ihm Staub und umstürzende Fässer."
+  },
+  {
+   "key": "case062.cctv.event.tap",
+   "value": "Kamera: Eine Frau mit einem Klemmbrett in der Hand geht durch den Gang und klopft mit einem kleinen Hammer ein Fass nach dem anderen ab."
+  },
+  {
+   "key": "case062.cctv.overlay",
+   "value": "EDE-AIS"
+  },
+  {
+   "key": "case062.cctv.period",
+   "value": "9. November 2030"
+  },
+  {
+   "key": "case062.cctv.source",
+   "value": "Kamera Gang"
+  },
+  {
+   "key": "case062.clue.charge",
+   "value": "Die Fahrerin hängt ihren Gabelstapler ans Ladegerät und geht."
+  },
+  {
+   "key": "case062.clue.found",
+   "value": "Der Wachmann findet die Prüferin unter den Fässern."
+  },
+  {
+   "key": "case062.clue.lift",
+   "value": "Der Gabelstapler mit dem kräftigen Fahrer biegt mit erhobenen Gabeln in den Gang ein."
+  },
+  {
+   "key": "case062.clue.rev",
+   "value": "Der Gabelstapler setzt zurück; die Fässer stürzen um."
+  },
+  {
+   "key": "case062.clue.source.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.clue.source.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.clue.tap",
+   "value": "Die Prüferin klopft die Fässer einzeln mit dem Hammer ab."
+  },
+  {
+   "key": "case062.count.body",
+   "value": "Bestandsprotokoll für Oktober:\n\n· Gesamtbestand: 1.200 Fässer, Sirup der Klasse A. ‚Vollständig.‘\n· Gezählt und unterzeichnet von: Vorarbeiter Réjean Gauthier.\n· Freigabe für die Genossenschaft: Claudette Marceau (auf Grundlage des Protokolls).\n· Antrag auf Prüfung durch eine Prüferin: 2. November, durch die Vorsitzende der Genossenschaft."
+  },
+  {
+   "key": "case062.count.title",
+   "value": "BESTANDSPROTOKOLL DES LAGERS"
+  },
+  {
+   "key": "case062.custody.board",
+   "value": "Er wurde zurück an die Schlüsseltafel gehängt"
+  },
+  {
+   "key": "case062.custody.drain",
+   "value": "In den Abflussrost des Lagers"
+  },
+  {
+   "key": "case062.custody.label",
+   "value": "Wohin kam der Schlüssel des zweiten Gabelstaplers?"
+  },
+  {
+   "key": "case062.custody.visor",
+   "value": "Hinter die Sonnenblende im Pick-up des Vorarbeiters"
+  },
+  {
+   "key": "case062.epilogue.custody.board",
+   "value": "An der Tafel hing dieser Schlüssel nicht."
+  },
+  {
+   "key": "case062.epilogue.custody.drain",
+   "value": "Der Rost wurde geöffnet; kein Schlüssel."
+  },
+  {
+   "key": "case062.epilogue.custody.visor",
+   "value": "Festgehalten wurde, dass der Zündschlüssel hinter der Sonnenblende des Pick-ups gefunden wurde."
+  },
+  {
+   "key": "case062.epilogue.verdict.accident",
+   "value": "Der Tod galt als Arbeitsunfall; das Bestandsprotokoll sagte wieder ‚vollständig‘."
+  },
+  {
+   "key": "case062.epilogue.verdict.fortin",
+   "value": "Kayla Fortin wurde festgenommen; die vierzehnte Reihe wurde neu aufgestapelt."
+  },
+  {
+   "key": "case062.epilogue.verdict.gauthier",
+   "value": "Réjean Gauthier wurde festgenommen; ein Viertel des Lagers erwies sich als Wasser. Die Police ‚Agrarreserve‘ von Laurentide Réassurance kam in die Akte der Dienststelle Mile End."
+  },
+  {
+   "key": "case062.epilogue.verdict.tran",
+   "value": "Minh Tran wurde festgenommen; der Schlüssel blieb hinter der Sonnenblende."
+  },
+  {
+   "key": "case062.evidence.aisle",
+   "value": "Kamera hinterer Gang"
+  },
+  {
+   "key": "case062.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case062.evidence.count",
+   "value": "Bestandsprotokoll des Lagers"
+  },
+  {
+   "key": "case062.evidence.truck",
+   "value": "Durchsuchung von Pick-up und Büro des Vorarbeiters"
+  },
+  {
+   "key": "case062.feedback.accident",
+   "value": "Die Fässer fielen nicht von selbst, sie wurden von einem Gabelstapler mit erhobenen Gabeln gestoßen."
+  },
+  {
+   "key": "case062.feedback.fortin",
+   "value": "Der Gabelstapler der Fahrerin hing zur Tatzeit am Ladegerät; der Schlüssel des zweiten Gabelstaplers stammt nicht von ihr."
+  },
+  {
+   "key": "case062.feedback.gauthier",
+   "value": "Der Schlüssel des zweiten Gabelstaplers kam aus seinem Pick-up, mit seinem Abdruck; der Gabelstapler der Fahrerin hing am Ladegerät. Die Kamera zeigt einen einzelnen kräftigen Fahrer, der die Gabeln hebt und zurücksetzt. Das Bestandsprotokoll entlastet ihn nicht: er hat es geschrieben."
+  },
+  {
+   "key": "case062.feedback.tran",
+   "value": "Der Wachmann lief nach dem Lärm herbei; er kann keinen Gabelstapler fahren, und die Kamera zeigt ihn nicht."
+  },
+  {
+   "key": "case062.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case062.file.value.bureau",
+   "value": "BDM Montreal — Dienststelle Mile End"
+  },
+  {
+   "key": "case062.file.value.location",
+   "value": "Entrepôt des Érablières, Montreal"
+  },
+  {
+   "key": "case062.file.value.number",
+   "value": "BDM-MTL-2030-0212"
+  },
+  {
+   "key": "case062.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case062.file.value.reporter",
+   "value": "Nachtwächter"
+  },
+  {
+   "key": "case062.fortin.body",
+   "value": "Gabelstaplerfahrerin."
+  },
+  {
+   "key": "case062.fortin.deflect",
+   "value": "Ich fahre den Gabelstapler, Fässer zähle ich nicht."
+  },
+  {
+   "key": "case062.fortin.shift.answer",
+   "value": "Um neun habe ich ihn ans Ladegerät gehängt und bin gegangen. Den Schlüssel des zweiten Gabelstaplers hat der Vorarbeiter, er gibt ihn niemandem; letzten Monat sagte er: ‚Die Fässer staple ich, fass du sie nicht an‘, die vierzehnte Reihe. Ich fragte warum, er sagte: ‚Klassifizierung.‘ Ich habe niemanden überfahren. Mein Gabelstapler hing am Ladegerät."
+  },
+  {
+   "key": "case062.fortin.shift.answer.demeanor",
+   "value": "Spielt mit dem Reißverschluss ihrer Weste."
+  },
+  {
+   "key": "case062.fortin.shift.question",
+   "value": "Haben Sie am Abend Ihren Gabelstapler benutzt?"
+  },
+  {
+   "key": "case062.fortin.title",
+   "value": "Kayla Fortin — Befragung"
+  },
+  {
+   "key": "case062.gauthier.body",
+   "value": "Vorarbeiter."
+  },
+  {
+   "key": "case062.gauthier.deflect",
+   "value": "Ich führe das Lager seit dreißig Jahren."
+  },
+  {
+   "key": "case062.gauthier.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case062.gauthier.end.decoy.count",
+   "value": "Das Protokoll liegt da: tausendzweihundert Fässer, vollständig. Ich habe gezählt, die Vorsitzende hat freigegeben. Wenn ich nichts zu verbergen habe, warum sollte ich jemanden töten?"
+  },
+  {
+   "key": "case062.gauthier.end.presented.truck",
+   "value": "Die Hälfte der vierzehnten Reihe ist Wasser. Sechs Jahre, jedes Jahr ein bisschen. Ein Mann von Laurentide sagte: ‚Der Bestand soll auf dem Papier vollständig sein, der Rest ist unsere Sache‘; die Prämie wurde gezahlt, der Sirup verkauft. Hélène fand die Reihe. Ich nahm den zweiten Gabelstapler, hob die Gabeln bis zum obersten Regal, stieß. Den Schlüssel legte ich in meinen Pick-up. Am nächsten Morgen hätte ich die Zählung wieder als ‚vollständig‘ eingetragen."
+  },
+  {
+   "key": "case062.gauthier.end.question",
+   "value": "Sie haben die Fässer auf Hélène gestürzt."
+  },
+  {
+   "key": "case062.gauthier.night.answer",
+   "value": "Ich war im Büro, Papierkram. Ich habe der Prüferin gesagt: ‚Die Regale sind hoch, nachts ist es gefährlich‘, sie hat nicht gehört. Sie hat die Fässer mit dem Hammer abgeklopft und den Stapel ins Wanken gebracht, er ist umgestürzt."
+  },
+  {
+   "key": "case062.gauthier.night.answer.demeanor",
+   "value": "Zieht mit der Unterlippe an seinem Schnurrbart."
+  },
+  {
+   "key": "case062.gauthier.night.question",
+   "value": "Wo waren Sie heute Abend im Lager?"
+  },
+  {
+   "key": "case062.gauthier.title",
+   "value": "Réjean Gauthier — Befragung"
+  },
+  {
+   "key": "case062.leblanc.body",
+   "value": "Ehemann des Opfers."
+  },
+  {
+   "key": "case062.leblanc.deflect",
+   "value": "Hélène hat ihre Arbeit nicht mit nach Hause gebracht."
+  },
+  {
+   "key": "case062.leblanc.notes.answer",
+   "value": "Sie erzählte nie etwas, aber gestern beim Abendessen sagte sie: ‚Der Vorarbeiter wollte mich nachts nicht ins Lager lassen, ich habe darauf bestanden.‘ ‚Wenn sie die Hälfte der Fässer geleert und mit Wasser gefüllt haben, ist auch die Versicherung eine Lüge‘, sagte sie. Ich habe gelacht. Ich hätte nicht lachen sollen."
+  },
+  {
+   "key": "case062.leblanc.notes.answer.demeanor",
+   "value": "Nimmt seine Brille ab und hält sie in der Hand."
+  },
+  {
+   "key": "case062.leblanc.notes.question",
+   "value": "Was hat Hélène in den letzten Tagen erzählt?"
+  },
+  {
+   "key": "case062.leblanc.title",
+   "value": "Paul Leblanc — Befragung"
+  },
+  {
+   "key": "case062.marceau.body",
+   "value": "Vorsitzende der Genossenschaft."
+  },
+  {
+   "key": "case062.marceau.deflect",
+   "value": "Die Genossenschaft gehört vierhundert Erzeugern."
+  },
+  {
+   "key": "case062.marceau.title",
+   "value": "Claudette Marceau — Befragung"
+  },
+  {
+   "key": "case062.marceau.why.answer",
+   "value": "Auf dem Markt kursierte ein Sirup unter dem Preis unseres Sirups, die Fässer sahen aus wie unsere. Das Protokoll sagte ‚vollständig‘, aber ich sagte Hélène: ‚Klopf jedes einzeln ab.‘ Ein volles Sirupfass klingt satt, Wasser anders. Heute Abend schrieb sie mir: ‚In der vierzehnten Reihe klingen sie falsch.‘"
+  },
+  {
+   "key": "case062.marceau.why.answer.demeanor",
+   "value": "Bindet den Gürtel ihrer Strickjacke fest zu."
+  },
+  {
+   "key": "case062.marceau.why.question",
+   "value": "Warum haben Sie die Prüferin gerufen?"
+  },
+  {
+   "key": "case062.method.forklift",
+   "value": "Die Fässer im obersten Regal wurden mit dem Gabelstapler auf sie gestoßen"
+  },
+  {
+   "key": "case062.method.label",
+   "value": "Wie ist sie gestorben?"
+  },
+  {
+   "key": "case062.method.slip",
+   "value": "Sie stürzte vom Regal"
+  },
+  {
+   "key": "case062.method.topple",
+   "value": "Der Stapel, den sie abklopfte, stürzte um"
+  },
+  {
+   "key": "case062.offer.subtitle",
+   "value": "SIRUPLAGER  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case062.offer.summary",
+   "value": "Eine Sirupprüferin geriet unter umstürzende Fässer; aus den geplatzten Fässern floss Wasser."
+  },
+  {
+   "key": "case062.offer.title",
+   "value": "AKTE #062"
+  },
+  {
+   "key": "case062.person.fortin.info",
+   "value": "29 Jahre, Gabelstaplerfahrerin."
+  },
+  {
+   "key": "case062.person.fortin.name",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.person.gauthier.info",
+   "value": "51 Jahre, Vorarbeiter des Ahornsiruplagers."
+  },
+  {
+   "key": "case062.person.gauthier.name",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.person.leblanc.info",
+   "value": "60 Jahre, Ehemann des Opfers."
+  },
+  {
+   "key": "case062.person.leblanc.name",
+   "value": "Paul Leblanc"
+  },
+  {
+   "key": "case062.person.marceau.info",
+   "value": "63 Jahre, Vorsitzende der Erzeugergenossenschaft."
+  },
+  {
+   "key": "case062.person.marceau.name",
+   "value": "Claudette Marceau"
+  },
+  {
+   "key": "case062.person.tran.info",
+   "value": "46 Jahre, Nachtwächter des Lagers."
+  },
+  {
+   "key": "case062.person.tran.name",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.report.body",
+   "value": "In der Nacht des 9. November 2030 wurde im Lager Entrepôt des Érablières im Norden von Montreal die Sirupklassifizierungsprüferin Hélène Côté (58) tot unter einem Fassstapel aufgefunden, der aus einem hohen Regal gestürzt war. Aus zwei geplatzten Fässern floss Wasser.\n\nDie Leiche fand der Nachtwächter Minh Tran um 23.40, als er den Lärm hörte. Am Abend im Lager: Vorarbeiter Réjean Gauthier, Gabelstaplerfahrerin Kayla Fortin. Die Vorsitzende der Genossenschaft, Claudette Marceau, und der Ehemann des Opfers, Paul Leblanc, kamen in der Nacht."
+  },
+  {
+   "key": "case062.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case062.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case062.request.count",
+   "value": "Bestandsprotokoll des Lagers anfordern"
+  },
+  {
+   "key": "case062.request.truck",
+   "value": "Durchsuchungsbeschluss für Pick-up und Büro des Vorarbeiters beantragen"
+  },
+  {
+   "key": "case062.summary.evidence",
+   "value": "Das Protokoll war ein Köder: die Unterschrift entlastete den Vorarbeiter nicht, sie zeigte, wem die Lüge gehörte. Der Wachmann, die Fahrerin und die Kamera zeigten den Gabelstapler; die Vorsitzende und der Ehemann das Motiv. Die Durchsuchung fand den Schlüssel hinter der Sonnenblende."
+  },
+  {
+   "key": "case062.summary.lesson",
+   "value": "Das Protokoll war vollständig. Die Fässer nicht."
+  },
+  {
+   "key": "case062.summary.location",
+   "value": "Entrepôt des Érablières — November 2030"
+  },
+  {
+   "key": "case062.summary.truth",
+   "value": "Vorarbeiter Réjean Gauthier verkaufte sechs Jahre lang den Sirup aus den Fässern der vierzehnten Reihe und füllte stattdessen gefärbtes Wasser ein; das Bestandsprotokoll trug er selbst als ‚vollständig‘ ein, die Versicherungsprämien wurden wie für echten Bestand gezahlt. Die von der Genossenschaft gerufene Prüferin Hélène Côté fand die Reihe, indem sie die Fässer mit dem Hammer abklopfte. Gauthier nahm den zweiten Gabelstapler, stieß die Fässer im obersten Regal auf sie und versteckte den Schlüssel in seinem Pick-up."
+  },
+  {
+   "key": "case062.suspect.label",
+   "value": "Wer hat Hélène Côté getötet?"
+  },
+  {
+   "key": "case062.tablet.caseLine",
+   "value": "AKTE #062  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case062.time.charge",
+   "value": "21.00"
+  },
+  {
+   "key": "case062.time.found",
+   "value": "23.40"
+  },
+  {
+   "key": "case062.time.lift",
+   "value": "23.27"
+  },
+  {
+   "key": "case062.time.rev",
+   "value": "23.29"
+  },
+  {
+   "key": "case062.time.tap",
+   "value": "23.12"
+  },
+  {
+   "key": "case062.title",
+   "value": "Akte #062 — Siruplager"
+  },
+  {
+   "key": "case062.tran.body",
+   "value": "Nachtwächter."
+  },
+  {
+   "key": "case062.tran.deflect",
+   "value": "Ich bin nachts am Tor."
+  },
+  {
+   "key": "case062.tran.noise.answer",
+   "value": "Gegen 23.30 das Geräusch eines Gabelstaplers, dann ein lautes Krachen. Ich rannte hin; der Gabelstapler von Kayla stand an seinem Platz, am Ladegerät. Der zweite Gabelstapler stand am Ende des Gangs, ohne Zündschlüssel. Im Lager gibt es eine Kamera, die auf den hinteren Gang zeigt, ich schaue nicht auf den Bildschirm, sie zeichnet auf."
+  },
+  {
+   "key": "case062.tran.noise.answer.demeanor",
+   "value": "Rückt seine Brille mit beiden Händen zurecht."
+  },
+  {
+   "key": "case062.tran.noise.question",
+   "value": "Was haben Sie in der Nacht gehört?"
+  },
+  {
+   "key": "case062.tran.title",
+   "value": "Minh Tran — Befragung"
+  },
+  {
+   "key": "case062.truck.body",
+   "value": "Der Pick-up von Réjean Gauthier und sein Büro im Lager (mit Genehmigung der Dienststellenleitung):\n\n· Hinter der Sonnenblende des Pick-ups der Zündschlüssel des zweiten Gabelstaplers; am Schlüssel der Fingerabdruck von Réjean Gauthier und Sirup.\n· Im Büroschrank Kanister mit Färbeflüssigkeit und leere Sirupfassdeckel.\n· Auf seinem Telefon am 9. November um 23.52 an eine Nummer bei Laurentide Réassurance: ‚Die Prüferin wird kein Problem sein.‘"
+  },
+  {
+   "key": "case062.truck.title",
+   "value": "PICK-UP UND BÜRO DES VORARBEITERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case062.verdict.accident",
+   "value": "Niemand — der Stapel stürzte um"
+  },
+  {
+   "key": "case062.verdict.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.verdict.gauthier",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.verdict.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.item.barrel.name",
+   "value": "Mit Wasser gefülltes Fass"
+  },
+  {
+   "key": "case062.item.barrel.detail",
+   "value": "Ein geplatztes Sirupfass; die Flüssigkeit darin ist gefärbtes Wasser, nur oben eine Fingerbreite Sirup."
+  },
+  {
+   "key": "case062.item.count.name",
+   "value": "Bestandsprotokoll"
+  },
+  {
+   "key": "case062.item.count.detail",
+   "value": "Das monatliche Bestandsprotokoll des Lagers; ‚1.200 Fässer, vollständig‘, Unterschrift des Vorarbeiters."
+  },
+  {
+   "key": "case062.item.key.name",
+   "value": "Zündschlüssel des Gabelstaplers"
+  },
+  {
+   "key": "case062.item.key.detail",
+   "value": "Der Zündschlüssel des zweiten Gabelstaplers; kam hinter der Sonnenblende im Pick-up des Vorarbeiters hervor."
+  }
+ ]
+}
