@@ -1,0 +1,588 @@
+{
+ "entries": [
+  {
+   "key": "case044.ais.body",
+   "value": "· 23.04 le bateau se met face au vent, vitesse 1,2 nœud.\n· 23.10 position : le point où le corps a été retrouvé.\n· 23.30 radio : aucun appel « homme à la mer » ; premier appel à 23.31, « nous ne trouvons plus un passager »."
+  },
+  {
+   "key": "case044.ais.title",
+   "value": "JOURNAL DE TRACE AIS"
+  },
+  {
+   "key": "case044.autopsy.body",
+   "value": "· Noyade ; eau douce dans les poumons.\n· Un coup en forme de demi-lune, environ 4 cm, à l’arrière du crâne ; avant l’entrée dans l’eau. Il est entré dans l’eau inconscient.\n· Alcoolémie faible. Heure du décès : 23.00–23.30."
+  },
+  {
+   "key": "case044.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case044.boat.body",
+   "value": "· La manivelle de winch dans le coffre du cockpit : le sang de la victime dans la jointure sous la poignée ; les empreintes de Brent Calloway sur la poignée, essuyées.\n· La section de l’extrémité de la manivelle correspond à la plaie en demi-lune du crâne.\n· Une cartouche de CO₂ dans la poche intérieure du sac de voyage en cuir de Brent Calloway ; de la peinture rouge du gilet de la victime sur son filetage."
+  },
+  {
+   "key": "case044.boat.title",
+   "value": "EXAMEN DU BATEAU ET DU SAC"
+  },
+  {
+   "key": "case044.calloway.body",
+   "value": "Conseiller juridique."
+  },
+  {
+   "key": "case044.calloway.deflect",
+   "value": "Secret professionnel de l’avocat."
+  },
+  {
+   "key": "case044.calloway.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case044.calloway.end.presented.boat",
+   "value": "Clint allait tout livrer lundi, moi compris. Avant le départ, j’ai retiré la cartouche de son gilet et je l’ai mise dans mon sac. Quand on s’est mis face au vent, sur le pont avant, je l’ai frappé avec la manivelle de winch ; il a glissé dans l’eau. Le gilet n’allait pas se gonfler. J’ai dit « il est dans la cabine ». La nuit, le lac ne montre rien."
+  },
+  {
+   "key": "case044.calloway.end.presented.phone",
+   "value": "Les messages sont couverts par le secret professionnel."
+  },
+  {
+   "key": "case044.calloway.end.question",
+   "value": "Vous avez retiré la cartouche."
+  },
+  {
+   "key": "case044.calloway.night.answer",
+   "value": "Je l’ai laissé sur le pont avant et je suis descendu dans la cabine. Clint avait bu ; il ne tenait pas bien debout. La manivelle de winch était tombée ; je l’ai remise en place. En tant qu’avocat, je n’en dirai pas plus."
+  },
+  {
+   "key": "case044.calloway.night.answer.demeanor",
+   "value": "Déroule ses manches de chemise l’une après l’autre."
+  },
+  {
+   "key": "case044.calloway.night.question",
+   "value": "Où étiez-vous quand Clint est tombé ?"
+  },
+  {
+   "key": "case044.calloway.night.variant0",
+   "value": "Mon sac contenait les documents de mon client. Les protéger est mon devoir."
+  },
+  {
+   "key": "case044.calloway.title",
+   "value": "Brent Calloway — audition"
+  },
+  {
+   "key": "case044.cctv.event.board",
+   "value": "Caméra : avant le départ, un homme en gilet bleu marine monte à bord avec un sac de voyage en cuir et descend seul dans la cabine."
+  },
+  {
+   "key": "case044.cctv.event.dock",
+   "value": "Caméra : au retour, le bateau accoste ; une femme en cardigan et un jeune matelot en chemise blanche crient le long du pont."
+  },
+  {
+   "key": "case044.cctv.event.leave",
+   "value": "Caméra : l’homme en gilet bleu marine descend du bateau avec le même sac et s’éloigne vite le long du ponton."
+  },
+  {
+   "key": "case044.cctv.overlay",
+   "value": "PIER-4"
+  },
+  {
+   "key": "case044.cctv.period",
+   "value": "30–31 août 2030"
+  },
+  {
+   "key": "case044.cctv.source",
+   "value": "Caméra du ponton"
+  },
+  {
+   "key": "case044.cho.body",
+   "value": "Plongeuse de secours."
+  },
+  {
+   "key": "case044.cho.deflect",
+   "value": "J’ai rédigé mon rapport."
+  },
+  {
+   "key": "case044.cho.title",
+   "value": "Lauren Cho — audition"
+  },
+  {
+   "key": "case044.cho.vest.answer",
+   "value": "Je fais ce métier depuis quinze ans. Ces gilets se gonflent au contact de l’eau ou quand on tire le cordon. Il a tiré le cordon, il a peut-être repris connaissance un instant. Mais il n’y a pas de cartouche. Le logement est propre. Quelqu’un l’a retirée."
+  },
+  {
+   "key": "case044.cho.vest.answer.demeanor",
+   "value": "Essore ses cheveux mouillés et les repousse en arrière."
+  },
+  {
+   "key": "case044.cho.vest.question",
+   "value": "Qu’avez-vous vu sur le gilet ?"
+  },
+  {
+   "key": "case044.clue.board",
+   "value": "L’homme en gilet bleu marine monte tôt à bord et descend dans la cabine."
+  },
+  {
+   "key": "case044.clue.dock",
+   "value": "Le bateau accoste ; la femme crie."
+  },
+  {
+   "key": "case044.clue.leave",
+   "value": "L’avocat descend vite avec son sac."
+  },
+  {
+   "key": "case044.clue.metal",
+   "value": "Un bruit métallique ; l’avocat range la manivelle de winch dans le coffre."
+  },
+  {
+   "key": "case044.clue.source.mendes",
+   "value": "Matelot"
+  },
+  {
+   "key": "case044.clue.source.morrow",
+   "value": "Skipper"
+  },
+  {
+   "key": "case044.clue.turn",
+   "value": "Le bateau se met face au vent ; la victime et l’avocat vont sur le pont avant."
+  },
+  {
+   "key": "case044.custody.faulty",
+   "value": "Le gilet était défectueux"
+  },
+  {
+   "key": "case044.custody.label",
+   "value": "Pourquoi le gilet de sauvetage ne s’est-il pas gonflé ?"
+  },
+  {
+   "key": "case044.custody.never",
+   "value": "La victime portait un gilet sans cartouche"
+  },
+  {
+   "key": "case044.custody.removed",
+   "value": "Le meurtrier a retiré la cartouche avant le départ"
+  },
+  {
+   "key": "case044.diane.body",
+   "value": "L’épouse de la victime."
+  },
+  {
+   "key": "case044.diane.deflect",
+   "value": "C’est notre avocat qui parle des affaires de mon mari."
+  },
+  {
+   "key": "case044.diane.monday.answer",
+   "value": "Il était inquiet. Après l’arrestation du trésorier, ce chauffeur aussi… Il a dit : « Lundi, je vais à bube tout leur raconter, Diane — le propriétaire, Napoli. » Il l’avait dit à Brent ; Brent a dit : « Je viens avec toi. » J’étais dans la cabine ; j’avais le mal de mer."
+  },
+  {
+   "key": "case044.diane.monday.answer.demeanor",
+   "value": "Serre son cardigan autour de ses épaules."
+  },
+  {
+   "key": "case044.diane.monday.question",
+   "value": "Comment était votre mari ces derniers jours ?"
+  },
+  {
+   "key": "case044.diane.title",
+   "value": "Diane Harlan — audition"
+  },
+  {
+   "key": "case044.divenote.body",
+   "value": "· Le corps était à environ trois milles derrière la trace AIS du bateau, à la position de 23.10 environ.\n· Gilet entièrement attaché ; le cordon du mécanisme de gonflage avait été tiré, mais il n’y avait aucune cartouche de CO₂ dans le logement. Le filetage du logement est propre ; la cartouche a été dévissée, pas cassée."
+  },
+  {
+   "key": "case044.divenote.title",
+   "value": "RAPPORT DU PLONGEUR"
+  },
+  {
+   "key": "case044.epilogue.custody.faulty",
+   "value": "Le mécanisme fonctionnait et son cordon avait été tiré ; seule la cartouche manquait."
+  },
+  {
+   "key": "case044.epilogue.custody.never",
+   "value": "La cartouche a été retrouvée dans le sac du meurtrier."
+  },
+  {
+   "key": "case044.epilogue.custody.removed",
+   "value": "Il a été consigné que la cartouche avait été retirée avant le départ et mise dans le sac du meurtrier."
+  },
+  {
+   "key": "case044.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; Lakeshore a publié un communiqué de condoléances."
+  },
+  {
+   "key": "case044.epilogue.verdict.calloway",
+   "value": "Brent Calloway a été arrêté. Les messages au numéro de Napoli, avec le nom « Edda », sont entrés dans le dossier Lakeshore de bube Chicago."
+  },
+  {
+   "key": "case044.epilogue.verdict.diane",
+   "value": "Diane Harlan a été arrêtée ; l’avocat a géré le dossier « au nom de la succession de son client »."
+  },
+  {
+   "key": "case044.epilogue.verdict.morrow",
+   "value": "Skip Morrow a été placé en garde à vue ; le bateau a été mis sous scellés jusqu’à la fin de la saison."
+  },
+  {
+   "key": "case044.evidence.ais",
+   "value": "Journal de trace AIS"
+  },
+  {
+   "key": "case044.evidence.boat",
+   "value": "Examen du bateau et du sac"
+  },
+  {
+   "key": "case044.evidence.phone",
+   "value": "Les messages de l’avocat"
+  },
+  {
+   "key": "case044.evidence.pier",
+   "value": "Caméra du ponton"
+  },
+  {
+   "key": "case044.feedback.accident",
+   "value": "Le coup au crâne est venu avant l’entrée dans l’eau ; la cartouche du gilet a été dévissée, pas cassée."
+  },
+  {
+   "key": "case044.feedback.calloway",
+   "value": "Ses empreintes et le sang de la victime sont sur la manivelle de winch ; son extrémité correspond à la plaie. La cartouche du gilet est dans son sac. La veille, il avait écrit à un numéro de Napoli que la victime parlerait lundi."
+  },
+  {
+   "key": "case044.feedback.diane",
+   "value": "L’épouse était l’héritière, mais elle avait le mal de mer et restait dans la cabine ; elle n’est jamais montée sur le pont avant."
+  },
+  {
+   "key": "case044.feedback.morrow",
+   "value": "Le skipper était à la barre ; il ne pouvait pas la quitter, et le matelot l’a vu à la poupe."
+  },
+  {
+   "key": "case044.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case044.file.value.bureau",
+   "value": "BDS Chicago — Antenne de Pilsen"
+  },
+  {
+   "key": "case044.file.value.location",
+   "value": "Lac Michigan, au large de Chicago"
+  },
+  {
+   "key": "case044.file.value.number",
+   "value": "BDC-CHI-2030-0280"
+  },
+  {
+   "key": "case044.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case044.file.value.reporter",
+   "value": "Marina"
+  },
+  {
+   "key": "case044.jensen.body",
+   "value": "Capitaine de port."
+  },
+  {
+   "key": "case044.jensen.deflect",
+   "value": "Les registres de la marina appartiennent à la société."
+  },
+  {
+   "key": "case044.jensen.return.answer",
+   "value": "Ils sont rentrés à minuit, la femme criait. L’homme qui est avocat est descendu avec son sac sans attendre la police, il a dit « je dois protéger des documents au nom de mon client ». Au départ aussi, il était venu tôt avec le sac et était descendu dans la cabine. Le ponton a une caméra."
+  },
+  {
+   "key": "case044.jensen.return.answer.demeanor",
+   "value": "Ôte sa casquette et la tient à la main."
+  },
+  {
+   "key": "case044.jensen.return.question",
+   "value": "Qu’avez-vous vu au retour ?"
+  },
+  {
+   "key": "case044.jensen.title",
+   "value": "Arne Jensen — audition"
+  },
+  {
+   "key": "case044.line_ais.body",
+   "value": "Une ligne a été ouverte pour le journal de positions AIS du bateau et les enregistrements radio de la marina."
+  },
+  {
+   "key": "case044.line_ais.title",
+   "value": "LIGNE C — LA TRACE DU BATEAU"
+  },
+  {
+   "key": "case044.line_boat.body",
+   "value": "Une ligne a été ouverte pour l’examen scientifique du bateau et des affaires des passagers."
+  },
+  {
+   "key": "case044.line_boat.title",
+   "value": "LIGNE A — EXAMEN DU BATEAU"
+  },
+  {
+   "key": "case044.line_phone.body",
+   "value": "Une ligne a été ouverte pour les relevés téléphoniques des personnes à bord."
+  },
+  {
+   "key": "case044.line_phone.title",
+   "value": "LIGNE B — RELEVÉS TÉLÉPHONIQUES"
+  },
+  {
+   "key": "case044.mendes.body",
+   "value": "Matelot."
+  },
+  {
+   "key": "case044.mendes.deck.answer",
+   "value": "J’étais aux écoutes du foc, le dos tourné. Il y a eu un bruit, comme du métal. Je me suis retourné ; l’avocat rangeait la manivelle de winch dans le coffre. « La manivelle est tombée », il a dit. Je n’ai rien demandé. Je suis juste le matelot."
+  },
+  {
+   "key": "case044.mendes.deck.answer.demeanor",
+   "value": "Serre fort le cordage sur son épaule."
+  },
+  {
+   "key": "case044.mendes.deck.question",
+   "value": "Qu’avez-vous vu sur le pont avant ?"
+  },
+  {
+   "key": "case044.mendes.deflect",
+   "value": "Moi, je tire des cordages, monsieur."
+  },
+  {
+   "key": "case044.mendes.title",
+   "value": "Rico Mendes — audition"
+  },
+  {
+   "key": "case044.method.boom",
+   "value": "La bôme l’a frappé"
+  },
+  {
+   "key": "case044.method.fall",
+   "value": "Il est tombé du pont, ivre"
+  },
+  {
+   "key": "case044.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case044.method.winch",
+   "value": "Il a été frappé avec la manivelle de winch et poussé dans le lac"
+  },
+  {
+   "key": "case044.morrow.body",
+   "value": "Skipper."
+  },
+  {
+   "key": "case044.morrow.deflect",
+   "value": "Je mène le bateau, pas les conversations."
+  },
+  {
+   "key": "case044.morrow.night.answer",
+   "value": "À la barre, à la poupe. Vers 23.05, on s’est mis face au vent pour affaler les voiles ; il faisait noir, il y avait de la houle. Clint a dit « je vais voir quelque chose sur le pont avant », et Brent l’a suivi. Quand je me suis retourné, il n’y avait que Brent ; il a dit « Clint est dans la cabine ». Vingt minutes plus tard, Diane a crié « Clint n’est plus là »."
+  },
+  {
+   "key": "case044.morrow.night.answer.demeanor",
+   "value": "Tire ses lunettes de soleil par leur cordon et les laisse retomber."
+  },
+  {
+   "key": "case044.morrow.night.question",
+   "value": "Où étiez-vous quand il est tombé ?"
+  },
+  {
+   "key": "case044.morrow.title",
+   "value": "Skip Morrow — audition"
+  },
+  {
+   "key": "case044.offer.subtitle",
+   "value": "LE LAC  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case044.offer.summary",
+   "value": "Le vice-président de Lakeshore est tombé de son propre bateau sur le lac Michigan. Il avait rendez-vous à bube lundi."
+  },
+  {
+   "key": "case044.offer.title",
+   "value": "DOSSIER #044"
+  },
+  {
+   "key": "case044.person.calloway.info",
+   "value": "50 ans, directeur juridique de Lakeshore Freight."
+  },
+  {
+   "key": "case044.person.calloway.name",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.person.cho.info",
+   "value": "36 ans, plongeuse de secours."
+  },
+  {
+   "key": "case044.person.cho.name",
+   "value": "Lauren Cho"
+  },
+  {
+   "key": "case044.person.diane.info",
+   "value": "57 ans, l’épouse de la victime."
+  },
+  {
+   "key": "case044.person.diane.name",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.person.jensen.info",
+   "value": "68 ans, le capitaine de port de la marina."
+  },
+  {
+   "key": "case044.person.jensen.name",
+   "value": "Arne Jensen"
+  },
+  {
+   "key": "case044.person.mendes.info",
+   "value": "24 ans, le matelot du bateau."
+  },
+  {
+   "key": "case044.person.mendes.name",
+   "value": "Rico Mendes"
+  },
+  {
+   "key": "case044.person.morrow.info",
+   "value": "63 ans, le skipper du bateau."
+  },
+  {
+   "key": "case044.person.morrow.name",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.phone.body",
+   "value": "· 29 août 22.14, Brent Calloway → un numéro de Napoli non enregistré : « C. veut parler lundi. Préviens Edda. »\n· 29 août 22.40, réponse : « Règle ça ce week-end. »\n· 31 août 00.30, Brent Calloway → même numéro : « Réglé. »"
+  },
+  {
+   "key": "case044.phone.title",
+   "value": "LES MESSAGES DE BRENT CALLOWAY"
+  },
+  {
+   "key": "case044.pier.body",
+   "value": "Ponton 4. 30 août 16.00 – 31 août 01.00."
+  },
+  {
+   "key": "case044.pier.title",
+   "value": "CAMÉRA DU PONTON DE LA MARINA — transcription du relevé"
+  },
+  {
+   "key": "case044.report.body",
+   "value": "Dans la nuit du 30 août 2030, sur un bateau rentrant d’une régate sur le lac Michigan, le vice-président aux relations institutionnelles de Lakeshore Freight Clint Harlan (61 ans) est tombé par-dessus bord. Les plongeurs de secours ont retrouvé le corps à 01.40, à trois milles derrière la trace du bateau. Il portait son gilet de sauvetage ; celui-ci ne s’était pas gonflé.\n\nÀ bord : son épouse Diane Harlan, le directeur juridique de Lakeshore Brent Calloway, le skipper Skip Morrow, le matelot Rico Mendes. Le capitaine de port Arne Jensen a enregistré le retour."
+  },
+  {
+   "key": "case044.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case044.request.ais",
+   "value": "Demander le journal de trace AIS"
+  },
+  {
+   "key": "case044.request.boat",
+   "value": "Demander l’examen du bateau et du sac"
+  },
+  {
+   "key": "case044.request.line_ais",
+   "value": "Ouvrir la ligne trace du bateau"
+  },
+  {
+   "key": "case044.request.line_boat",
+   "value": "Ouvrir la ligne examen du bateau"
+  },
+  {
+   "key": "case044.request.line_phone",
+   "value": "Ouvrir la ligne relevés téléphoniques"
+  },
+  {
+   "key": "case044.request.phone",
+   "value": "Demander les messages de Brent Calloway"
+  },
+  {
+   "key": "case044.summary.evidence",
+   "value": "L’autopsie a montré que le coup est venu avant l’entrée dans l’eau, la plongeuse que la cartouche avait été retirée, le matelot la manivelle de winch, la caméra du ponton le sac. La ligne bateau a donné la manivelle et la cartouche, la ligne téléphonique les messages de Napoli."
+  },
+  {
+   "key": "case044.summary.lesson",
+   "value": "Sur un bateau où chacun regarde ailleurs, celui qui ne regarde jamais a tout préparé d’avance."
+  },
+  {
+   "key": "case044.summary.location",
+   "value": "Lac Michigan — août 2030"
+  },
+  {
+   "key": "case044.summary.truth",
+   "value": "Lundi, Clint Harlan allait parler à bube du propriétaire de Lakeshore et du lien avec Napoli. Le directeur juridique de la société Brent Calloway l’a signalé à un numéro de Napoli et a reçu la réponse « règle ça ce week-end ». Avant le départ, il a retiré la cartouche du gilet de Harlan ; quand le bateau s’est mis face au vent, il l’a frappé sur le pont avant avec la manivelle de winch, l’a poussé dans le lac et a dit « il est dans la cabine »."
+  },
+  {
+   "key": "case044.suspect.label",
+   "value": "Qui a tué Clint Harlan ?"
+  },
+  {
+   "key": "case044.tablet.caseLine",
+   "value": "DOSSIER #044  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case044.time.board",
+   "value": "16.12"
+  },
+  {
+   "key": "case044.time.dock",
+   "value": "00.05"
+  },
+  {
+   "key": "case044.time.leave",
+   "value": "00.11"
+  },
+  {
+   "key": "case044.time.metal",
+   "value": "23.08"
+  },
+  {
+   "key": "case044.time.turn",
+   "value": "23.05"
+  },
+  {
+   "key": "case044.title",
+   "value": "Dossier #044 — Le Lac"
+  },
+  {
+   "key": "case044.verdict.accident",
+   "value": "Personne — il est tombé ivre"
+  },
+  {
+   "key": "case044.verdict.calloway",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.verdict.diane",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.verdict.morrow",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.item.vest.name",
+   "value": "Gilet de sauvetage"
+  },
+  {
+   "key": "case044.item.vest.detail",
+   "value": "Le gilet à gonflage automatique que portait la victime ; le logement de la cartouche de CO₂ est vide."
+  },
+  {
+   "key": "case044.item.winch.name",
+   "value": "Manivelle de winch"
+  },
+  {
+   "key": "case044.item.winch.detail",
+   "value": "La manivelle de winch chromée dans le coffre du cockpit ; du sang sous la poignée que quelqu’un a tenté d’essuyer."
+  },
+  {
+   "key": "case044.item.cartridge.name",
+   "value": "Cartouche de CO₂"
+  },
+  {
+   "key": "case044.item.cartridge.detail",
+   "value": "Une petite cartouche de gaz provenant de la poche intérieure d’un sac de voyage ; de la peinture verte de gilet sur son filetage."
+  }
+ ]
+}

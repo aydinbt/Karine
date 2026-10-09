@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case043.ampservice.body",
+   "value": "L’ampli de Cedric Banks a été révisé dans un atelier le 2 août ; fil de terre intact, prise à trois broches et complète. Banks n’a pas de casier judiciaire."
+  },
+  {
+   "key": "case043.ampservice.title",
+   "value": "FICHE DE RÉVISION DE L’AMPLI"
+  },
+  {
+   "key": "case043.autopsy.body",
+   "value": "· Électrocution ; brûlure d’entrée sur la paume droite, brûlure de sortie sous la plante du pied gauche.\n· Arythmie cardiaque ; mort instantanée.\n· Le courant est passé par la poignée du pied de micro. Heure du décès 18.04."
+  },
+  {
+   "key": "case043.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case043.banks.amp.answer",
+   "value": "Un ampli de quarante ans. Je l’ai laissé à midi ; quand je suis arrivé à 17.45, il était déjà installé sur scène. Ce n’est pas moi qui l’ai installé ; Reggie a dit « je m’en suis occupé ». Mavis était une seconde mère pour moi."
+  },
+  {
+   "key": "case043.banks.amp.answer.demeanor",
+   "value": "Prend le médiator derrière son oreille et le fait tourner entre ses doigts."
+  },
+  {
+   "key": "case043.banks.amp.question",
+   "value": "L’ampli était-il à vous ?"
+  },
+  {
+   "key": "case043.banks.body",
+   "value": "Guitariste."
+  },
+  {
+   "key": "case043.banks.deflect",
+   "value": "Je joue ; le reste, je ne sais pas."
+  },
+  {
+   "key": "case043.banks.title",
+   "value": "Cedric Banks — audition"
+  },
+  {
+   "key": "case043.cctv.event.empty",
+   "value": "Caméra : le couloir est vide ; le tableau est fermé."
+  },
+  {
+   "key": "case043.cctv.event.off",
+   "value": "Caméra : le même homme revient, rouvre le tableau, remet l’interrupteur et s’éloigne vite."
+  },
+  {
+   "key": "case043.cctv.event.on",
+   "value": "Caméra : un homme en veste sombre ouvre le tableau électrique et actionne un interrupteur."
+  },
+  {
+   "key": "case043.cctv.overlay",
+   "value": "BACK-1"
+  },
+  {
+   "key": "case043.cctv.period",
+   "value": "23 août 2030"
+  },
+  {
+   "key": "case043.cctv.source",
+   "value": "Caméra du couloir de service"
+  },
+  {
+   "key": "case043.clue.death",
+   "value": "Mavis saisit le pied de micro."
+  },
+  {
+   "key": "case043.clue.off",
+   "value": "Le même homme remet l’interrupteur et s’éloigne."
+  },
+  {
+   "key": "case043.clue.on",
+   "value": "L’homme en veste sombre actionne un interrupteur au tableau."
+  },
+  {
+   "key": "case043.clue.rom",
+   "value": "Le propriétaire de l’immeuble encaisse le loyer et s’en va."
+  },
+  {
+   "key": "case043.clue.source.autopsy",
+   "value": "Autopsie"
+  },
+  {
+   "key": "case043.clue.source.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.custody.label",
+   "value": "Comment le pied de micro a-t-il été mis sous tension ?"
+  },
+  {
+   "key": "case043.custody.old",
+   "value": "L’ampli était pourri à l’intérieur"
+  },
+  {
+   "key": "case043.custody.rain",
+   "value": "De l’eau avait coulé sur la scène"
+  },
+  {
+   "key": "case043.custody.rigged",
+   "value": "La terre a été coupée, un fil de pontage fixé, la protection coupée"
+  },
+  {
+   "key": "case043.elec.body",
+   "value": "· Le câblage a été refait le mois dernier ; en bon état.\n· La broche de terre de la prise de l’ampli a été fraîchement coupée ; dans l’ampli, un fil de pontage rouge relie le châssis au pied de micro. Les empreintes de Reggie Holloway sur les pinces du fil.\n· La protection différentielle du circuit de la scène a été coupée à la main au tableau à 17.58 et remise à 18.06. Seul le gérant a la clé du tableau."
+  },
+  {
+   "key": "case043.elec.title",
+   "value": "EXAMEN ÉLECTRIQUE — SCÈNE ET TABLEAU"
+  },
+  {
+   "key": "case043.epilogue.custody.old",
+   "value": "L’ampli avait été révisé trois semaines plus tôt."
+  },
+  {
+   "key": "case043.epilogue.custody.rain",
+   "value": "La scène était sèche."
+  },
+  {
+   "key": "case043.epilogue.custody.rigged",
+   "value": "Il a été consigné que le pied de micro avait été mis sous tension par un fil de pontage et que la protection avait été coupée à la main."
+  },
+  {
+   "key": "case043.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; le propriétaire de l’immeuble a reçu une amende."
+  },
+  {
+   "key": "case043.epilogue.verdict.banks",
+   "value": "Cedric Banks a été arrêté ; le club a fermé et le registre a été brûlé."
+  },
+  {
+   "key": "case043.epilogue.verdict.reggie",
+   "value": "Reggie Holloway a été arrêté. Le registre de caisse du club, avec les noms des chauffeurs de Lakeshore, est entré dans le dossier de bube Chicago."
+  },
+  {
+   "key": "case043.epilogue.verdict.romano",
+   "value": "Vic Romano a été placé en garde à vue et est reparti avec son avocat ; le dossier a été classé comme accident."
+  },
+  {
+   "key": "case043.evidence.ampservice",
+   "value": "Fiche de révision de l’ampli"
+  },
+  {
+   "key": "case043.evidence.elec",
+   "value": "Examen électrique"
+  },
+  {
+   "key": "case043.evidence.ledger",
+   "value": "Relevés de caisse et bancaires"
+  },
+  {
+   "key": "case043.evidence.panel",
+   "value": "Caméra du couloir de service"
+  },
+  {
+   "key": "case043.feedback.accident",
+   "value": "Le câblage était neuf ; la broche de terre avait été coupée et la protection coupée à la main."
+  },
+  {
+   "key": "case043.feedback.banks",
+   "value": "L’ampli était à lui, mais il avait été correctement révisé et ce n’est pas lui qui l’a installé sur scène."
+  },
+  {
+   "key": "case043.feedback.reggie",
+   "value": "Ses empreintes sont sur le fil de pontage ; la protection a été coupée à un tableau dont lui seul a la clé, six minutes avant le décès, et remise deux minutes après. Mavis avait trouvé l’argent de Lakeshore et lui en avait parlé."
+  },
+  {
+   "key": "case043.feedback.romano",
+   "value": "Le propriétaire de l’immeuble est parti quatorze minutes avant le décès ; il n’a pas la clé du tableau."
+  },
+  {
+   "key": "case043.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case043.file.value.bureau",
+   "value": "BDS Chicago — Antenne de Pilsen"
+  },
+  {
+   "key": "case043.file.value.location",
+   "value": "South Side, Chicago — club de musique"
+  },
+  {
+   "key": "case043.file.value.number",
+   "value": "BDC-CHI-2030-0266"
+  },
+  {
+   "key": "case043.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case043.file.value.reporter",
+   "value": "Équipe d’ambulance"
+  },
+  {
+   "key": "case043.ledger.body",
+   "value": "· 1,8 million de dollars en espèces sur les douze derniers mois ; quatre fois les ventes de billets et du bar.\n· L’argent était apporté deux fois par semaine par des chauffeurs de Lakeshore Freight ; réceptionné par : Reggie Holloway.\n· Note manuscrite de Mavis Holloway, datée du 22 août : « Demandé à Reggie. Il m’a menée en bateau. bube demain matin. »"
+  },
+  {
+   "key": "case043.ledger.title",
+   "value": "RELEVÉS DE CAISSE ET BANCAIRES"
+  },
+  {
+   "key": "case043.line_cash.body",
+   "value": "Une ligne a été ouverte pour les relevés bancaires et de caisse du club."
+  },
+  {
+   "key": "case043.line_cash.title",
+   "value": "LIGNE B — LA CAISSE DU CLUB"
+  },
+  {
+   "key": "case043.line_elec.body",
+   "value": "Une ligne a été ouverte pour l’examen électrique de la scène et du tableau."
+  },
+  {
+   "key": "case043.line_elec.title",
+   "value": "LIGNE A — EXAMEN ÉLECTRIQUE"
+  },
+  {
+   "key": "case043.line_union.body",
+   "value": "Une ligne a été ouverte pour le casier de Cedric Banks et l’historique de révision de son ampli."
+  },
+  {
+   "key": "case043.line_union.title",
+   "value": "LIGNE C — LE PASSÉ DU GUITARISTE"
+  },
+  {
+   "key": "case043.method.heart",
+   "value": "Une crise cardiaque"
+  },
+  {
+   "key": "case043.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case043.method.shock",
+   "value": "Un fil de pontage a été fixé à l’ampli et le pied de micro mis sous tension"
+  },
+  {
+   "key": "case043.method.wiring",
+   "value": "Une fuite de courant d’un vieux câblage"
+  },
+  {
+   "key": "case043.monroe.body",
+   "value": "Chanteuse."
+  },
+  {
+   "key": "case043.monroe.deflect",
+   "value": "C’est la première fois que je viens ici."
+  },
+  {
+   "key": "case043.monroe.stage.answer",
+   "value": "Mme Mavis a dit : « Je vérifie le micro, le son grésille », et elle a saisi le pied. Un bruit, une odeur… Le voyant de l’ampli de M. Cedric s’est éteint une seconde et s’est rallumé. Quelqu’un a crié « les fusibles », mais aucun fusible n’avait sauté."
+  },
+  {
+   "key": "case043.monroe.stage.answer.demeanor",
+   "value": "Rassemble ses tresses sur son épaule."
+  },
+  {
+   "key": "case043.monroe.stage.question",
+   "value": "Qu’avez-vous vu sur scène ?"
+  },
+  {
+   "key": "case043.monroe.title",
+   "value": "Tasha Monroe — audition"
+  },
+  {
+   "key": "case043.offer.subtitle",
+   "value": "BLUES  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case043.offer.summary",
+   "value": "Dans le South Side, la propriétaire d’un club de blues vieux de quarante ans est morte pendant une balance après avoir saisi le pied de micro."
+  },
+  {
+   "key": "case043.offer.title",
+   "value": "DOSSIER #043"
+  },
+  {
+   "key": "case043.panel.body",
+   "value": "Devant le tableau électrique. 23 août 17.30 – 18.30."
+  },
+  {
+   "key": "case043.panel.title",
+   "value": "CAMÉRA DU COULOIR DE SERVICE — transcription du relevé"
+  },
+  {
+   "key": "case043.person.banks.info",
+   "value": "61 ans, le guitariste vétéran du club."
+  },
+  {
+   "key": "case043.person.banks.name",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.person.monroe.info",
+   "value": "29 ans, la chanteuse de la soirée."
+  },
+  {
+   "key": "case043.person.monroe.name",
+   "value": "Tasha Monroe"
+  },
+  {
+   "key": "case043.person.pope.info",
+   "value": "66 ans, la barmaid du club ; amie de la victime depuis quarante ans."
+  },
+  {
+   "key": "case043.person.pope.name",
+   "value": "Earline Pope"
+  },
+  {
+   "key": "case043.person.reggie.info",
+   "value": "44 ans, le neveu de la victime ; le gérant du club."
+  },
+  {
+   "key": "case043.person.reggie.name",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.person.romano.info",
+   "value": "57 ans, propriétaire de l’immeuble ; ancien associé de Lakeshore."
+  },
+  {
+   "key": "case043.person.romano.name",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.pope.body",
+   "value": "Barmaid."
+  },
+  {
+   "key": "case043.pope.deflect",
+   "value": "Quarante ans derrière le bar ; je ne fais pas de commérages."
+  },
+  {
+   "key": "case043.pope.last.answer",
+   "value": "À midi, elle s’est assise au bar et a posé les registres devant elle. « Earline, l’argent qui passe par ce club n’est pas le nôtre », elle a dit. « Demain matin, je vais à bube. Je l’ai dit à Reggie aussi ; il est devenu blanc comme un linge. » Il y a une caméra dans le couloir de service, Mavis l’avait fait installer ; regardez ça."
+  },
+  {
+   "key": "case043.pope.last.answer.demeanor",
+   "value": "Baisse ses lunettes sur son nez et essuie le comptoir."
+  },
+  {
+   "key": "case043.pope.last.question",
+   "value": "Qu’a dit Mavis aujourd’hui ?"
+  },
+  {
+   "key": "case043.pope.title",
+   "value": "Earline Pope — audition"
+  },
+  {
+   "key": "case043.reggie.body",
+   "value": "Gérant du club."
+  },
+  {
+   "key": "case043.reggie.deflect",
+   "value": "Les comptes du club, c’est mon affaire, pas celle de ma tante."
+  },
+  {
+   "key": "case043.reggie.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case043.reggie.end.presented.elec",
+   "value": "Elle savait. Elle y allait le lendemain matin ; les hommes de Lakeshore m’auraient tué, puis elle. J’ai coupé la terre de l’ampli et je l’ai reliée au pied. Au tableau, j’ai coupé la protection, puis je l’ai remise. Pour que ça ait l’air d’un accident. Ils disaient que ça prend une seconde."
+  },
+  {
+   "key": "case043.reggie.end.presented.ledger",
+   "value": "J’ai pris de l’argent pour que le club survive, oui. Ma tante ne savait pas."
+  },
+  {
+   "key": "case043.reggie.end.question",
+   "value": "Vous avez coupé la terre de l’ampli."
+  },
+  {
+   "key": "case043.reggie.night.answer",
+   "value": "Au bureau, au téléphone. J’ai entendu les cris et j’ai couru. Cet immeuble a cent ans, le câblage est pourri, et l’ampli de Cedric est une antiquité. Combien de fois je l’ai dit."
+  },
+  {
+   "key": "case043.reggie.night.answer.demeanor",
+   "value": "Tire sur sa chaîne en or du bout d’un doigt."
+  },
+  {
+   "key": "case043.reggie.night.question",
+   "value": "Où étiez-vous pendant la balance ?"
+  },
+  {
+   "key": "case043.reggie.night.variant0",
+   "value": "Le tableau ? Le son grésillait sur scène ; j’ai vérifié le circuit. C’est un crime aussi ?"
+  },
+  {
+   "key": "case043.reggie.title",
+   "value": "Reggie Holloway — audition"
+  },
+  {
+   "key": "case043.report.body",
+   "value": "Le soir du 23 août 2030, dans un club de blues du South Side, pendant une balance, la propriétaire du club Mavis Holloway (68 ans) s’est effondrée sur scène en touchant le pied de micro ; elle est morte dans l’ambulance.\n\nPrésents dans le club : le gérant Reggie Holloway, le guitariste Cedric Banks, la chanteuse Tasha Monroe, la barmaid Earline Pope. Le propriétaire de l’immeuble Vic Romano avait quitté le club dix minutes avant l’incident."
+  },
+  {
+   "key": "case043.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case043.request.ampservice",
+   "value": "Demander la fiche de révision de l’ampli"
+  },
+  {
+   "key": "case043.request.elec",
+   "value": "Demander l’examen de la scène et du tableau"
+  },
+  {
+   "key": "case043.request.ledger",
+   "value": "Demander les relevés de caisse et bancaires"
+  },
+  {
+   "key": "case043.request.line_cash",
+   "value": "Ouvrir la ligne caisse du club"
+  },
+  {
+   "key": "case043.request.line_elec",
+   "value": "Ouvrir la ligne examen électrique"
+  },
+  {
+   "key": "case043.request.line_union",
+   "value": "Ouvrir la ligne passé du guitariste"
+  },
+  {
+   "key": "case043.romano.body",
+   "value": "Propriétaire de l’immeuble."
+  },
+  {
+   "key": "case043.romano.deflect",
+   "value": "Le bail est chez mon avocat."
+  },
+  {
+   "key": "case043.romano.title",
+   "value": "Vic Romano — audition"
+  },
+  {
+   "key": "case043.romano.visit.answer",
+   "value": "Le loyer. Mavis paie le loyer en main propre chaque mois. Ce mois-ci, elle a dit : « C’est le dernier, Vic, je ne veux plus de cet immeuble ni de cet argent. » Je suis parti à 17.50. Lakeshore ? On était associés il y a des années ; j’en suis sorti depuis longtemps."
+  },
+  {
+   "key": "case043.romano.visit.answer.demeanor",
+   "value": "Fait tourner la bague de son petit doigt."
+  },
+  {
+   "key": "case043.romano.visit.question",
+   "value": "Pourquoi étiez-vous au club aujourd’hui ?"
+  },
+  {
+   "key": "case043.summary.evidence",
+   "value": "La barmaid a donné les derniers mots de Mavis et la caméra du couloir, la chanteuse ce qui s’est passé sur scène. La ligne électrique a montré les empreintes sur le fil de pontage et le tableau, la ligne caisse l’argent de Lakeshore. La ligne du guitariste n’a fait que mettre l’ampli hors de cause."
+  },
+  {
+   "key": "case043.summary.lesson",
+   "value": "Un vieil immeuble peut servir d’excuse à tout. Regarde d’abord ce qui a été refait en dernier."
+  },
+  {
+   "key": "case043.summary.location",
+   "value": "South Side — août 2030"
+  },
+  {
+   "key": "case043.summary.truth",
+   "value": "Le gérant du club Reggie Holloway faisait passer l’argent liquide de Lakeshore Freight par le club de sa tante. Quand Mavis Holloway a trouvé l’argent et a dit qu’elle irait à bube le lendemain matin, Reggie a coupé la terre de l’ampli du guitariste, a mis le pied de micro sous tension avec un fil de pontage et a coupé la protection au tableau avant la balance."
+  },
+  {
+   "key": "case043.suspect.label",
+   "value": "Qui a tué Mavis Holloway ?"
+  },
+  {
+   "key": "case043.tablet.caseLine",
+   "value": "DOSSIER #043  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case043.time.death",
+   "value": "18.04"
+  },
+  {
+   "key": "case043.time.empty",
+   "value": "17.59–18.05"
+  },
+  {
+   "key": "case043.time.off",
+   "value": "18.06"
+  },
+  {
+   "key": "case043.time.on",
+   "value": "17.58"
+  },
+  {
+   "key": "case043.time.rom",
+   "value": "17.50"
+  },
+  {
+   "key": "case043.title",
+   "value": "Dossier #043 — Blues"
+  },
+  {
+   "key": "case043.verdict.accident",
+   "value": "Personne — un vieux câblage"
+  },
+  {
+   "key": "case043.verdict.banks",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.verdict.reggie",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.verdict.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.item.jumper.name",
+   "value": "Fil de pontage"
+  },
+  {
+   "key": "case043.item.jumper.detail",
+   "value": "Un fil fin à l’intérieur de l’ampli, reliant la borne de terre au corps du pied de micro."
+  },
+  {
+   "key": "case043.item.stand.name",
+   "value": "Pied de micro"
+  },
+  {
+   "key": "case043.item.stand.detail",
+   "value": "Le pied chromé sur scène ; une trace de brûlure sur sa poignée."
+  },
+  {
+   "key": "case043.item.cash.name",
+   "value": "Enveloppes d’argent liquide"
+  },
+  {
+   "key": "case043.item.cash.detail",
+   "value": "Des enveloppes brunes dans le coffre du bureau, contenant des liasses de billets de vingt scotchées."
+  }
+ ]
+}
