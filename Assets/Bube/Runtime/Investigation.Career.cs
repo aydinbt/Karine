@@ -18,6 +18,7 @@ public sealed partial class Investigation {
  // Zor dosyada doğru rapor daha çok güven getirir, hata daha az götürür.
  public int TrustDeltaFor(string evaluationType,int level) {
   if(evaluationType=="supported")return Rules.strongGain+At(Rules.difficultyGain,level);
+  if(evaluationType=="lucky")return Math.Max(1,(Rules.strongGain+At(Rules.difficultyGain,level))/2);
   if(evaluationType=="incomplete")return -Math.Max(1,Rules.incompleteLoss-At(Rules.difficultyLossCut,level)/2);
   return -Math.Max(1,Rules.falseAccusationLoss-At(Rules.difficultyLossCut,level));
  }

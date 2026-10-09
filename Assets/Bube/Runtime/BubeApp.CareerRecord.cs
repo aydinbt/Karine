@@ -40,7 +40,7 @@ public sealed partial class BubeApp {
    var ids=new HashSet<string>(country.slots.Where(s=>!string.IsNullOrEmpty(s.caseId)).Select(s=>s.caseId));
    var rows=ordered.Where(r=>ids.Contains(r.caseId)).ToList();
    if(rows.Count==0)continue;shown++;
-   int ok=rows.Count(r=>r.evaluationType=="supported"),part=rows.Count(r=>r.evaluationType=="incomplete"),
+   int ok=rows.Count(r=>r.evaluationType=="supported"||r.evaluationType=="lucky"),part=rows.Count(r=>r.evaluationType=="incomplete"),
     wrong=rows.Count(r=>r.evaluationType=="falseAccusation"),net=rows.Sum(r=>r.trustChange);
    KarineUI.RecordLine(cardList,T(country.nameKey)+"   ✓"+ok+"  ~"+part+"  ✗"+wrong,(net>0?"+":"")+net,
     net>0?KarineTheme.CareerBoard.Supported:net<0?KarineTheme.Danger:KarineTheme.Secondary);

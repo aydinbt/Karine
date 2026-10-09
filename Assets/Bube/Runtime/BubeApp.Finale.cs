@@ -12,6 +12,8 @@ public sealed partial class BubeApp {
   var asset=Resources.Load<TextAsset>("Bube/Cases/"+caseId);
   var data=asset==null?null:JsonUtility.FromJson<CaseData>(asset.text);
   var finale=data?.chapterFinale;
+  // Son dosya: final bitince bir kez jenerik ve "devamı gelecek".
+  if(data!=null && string.IsNullOrEmpty(data.nextCaseId)){var after=then;then=()=>EndCredits(after);}
   if(finale==null || string.IsNullOrEmpty(finale.countryKey) || PlayerPrefs.GetInt(FinalePrefix+caseId,0)==1){then?.Invoke();return;}
   PlayerPrefs.SetInt(FinalePrefix+caseId,1);PlayerPrefs.Save();
   var keys=finale.callKeys!=null && finale.callKeys.Length>0?finale.callKeys:Enumerable.Range(1,5).Select(i=>"finale.call."+i).ToArray();
@@ -21,6 +23,11 @@ public sealed partial class BubeApp {
    KarineUI.PersonnelReview(root,T("finale.personnel"),PersonnelRows(caseId),T(personnelBody),T("finale.program"),T(finale.nextCountryKey),T("finale.closeFile"),()=>
     KarineUI.ChapterComplete(root,T(finale.countryKey)+" — "+T(finale.progressKey),string.Format(T("finale.complete"),T(finale.countryKey)),()=>
      KarineUI.NewFileDrop(root,T(finale.nextFileKey),T(finale.nextCountryKey),T("finale.sealed"),then))));
+ }
+ void EndCredits(Action then) {
+  if(game.Career.creditsSeen){then?.Invoke();return;}
+  game.Career.creditsSeen=true;Save();
+  KarineUI.Credits(root,new[]{T("credits.0"),T("credits.1"),T("credits.2"),T("credits.3")},then);
  }
  // Bölümdeki dosyalar bölüm seçici sırasıyla; durum yalnız değerlendirme geçmişinden.
  (string,string)[] PersonnelRows(string caseId) {

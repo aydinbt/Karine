@@ -34,7 +34,7 @@ public sealed partial class BubeApp {
   KarineUI.BoardBar(overall,ratio,KarineTheme.CareerBoard.BarHeight);
 
   int pending=game.Career.pendingReviews.Count;
-  int supported=history.Count(r=>r.evaluationType=="supported"),incomplete=history.Count(r=>r.evaluationType=="incomplete"),wrong=history.Count(r=>r.evaluationType=="falseAccusation");
+  int supported=history.Count(r=>r.evaluationType=="supported"||r.evaluationType=="lucky"),incomplete=history.Count(r=>r.evaluationType=="incomplete"),wrong=history.Count(r=>r.evaluationType=="falseAccusation");
   var tiles=new VisualElement {name="CareerTiles"};tiles.style.flexDirection=FlexDirection.Row;tiles.style.flexShrink=0;
   tiles.style.marginTop=KarineTheme.SpaceSm;tiles.style.marginBottom=KarineTheme.SpaceSm;main.Add(tiles);
   KarineUI.BoardTile(tiles,"folder",history.Count.ToString(),T("career.board.done"));

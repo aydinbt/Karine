@@ -30,6 +30,7 @@ public sealed partial class BubeApp {
   string Tiers(string type)=>string.Join("  ·  ",new[]{1,2,3}.Select(level=>T("career.rules.level"+level)+" "+Sign(game.TrustDeltaFor(type,level))));
   KarineUI.Body_(list,string.Format(T("career.rules.intro"),r.initialTrust),KarineTheme.CareerBoard.RecordLineSize).style.color=KarineTheme.Secondary;
   KarineUI.RecordLine(list,T("career.rules.supported"),Tiers("supported"),KarineTheme.CareerBoard.Supported);
+  KarineUI.RecordLine(list,T("career.rules.lucky"),Tiers("lucky"),KarineTheme.CareerBoard.Supported);
   KarineUI.RecordLine(list,T("career.rules.incomplete"),Tiers("incomplete"),KarineTheme.Secondary);
   KarineUI.RecordLine(list,T("career.rules.false"),Tiers("falseAccusation"),KarineTheme.Danger);
   KarineUI.RecordLine(list,T("career.rules.streak"),string.Format(T("career.rules.streakValue"),r.streakLength,r.streakBonus,game.Career.streak),KarineTheme.Accent);

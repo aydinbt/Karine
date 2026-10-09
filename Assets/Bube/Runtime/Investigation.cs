@@ -456,7 +456,11 @@ public sealed partial class Investigation {
   bool personSupported=suspectSource!=null,methodSupported=methodSource!=null;
   bool custodyCorrect=!HasCustody||held.correct,custodySupported=!HasCustody||custodySource!=null;
   bool correct=personSupported&&methodSupported&&custodySupported&&ReconSupported;
-  string evaluationType=!verdict.correct||!custodyCorrect?"falseAccusation":correct?"supported":"incomplete";
+  // Her iddia doğru ama dayanağı açılmamışsa "şans tuttu": başarılı sayılır, güven az artar;
+  // faks hangi iddianın desteksiz kaldığını satır satır gösterir.
+  bool lucky=!correct && verdict.correct && how.correct && custodyCorrect && ReconSupported;
+  string evaluationType=!verdict.correct||!custodyCorrect?"falseAccusation":correct?"supported":lucky?"lucky":"incomplete";
+  correct|=lucky;
   int trustDelta=TrustDeltaFor(evaluationType,Difficulty);
   Career.pendingReviews.Add(new PendingReview {
    caseId=Data.id,correct=correct,evaluationType=evaluationType,trustDelta=trustDelta,

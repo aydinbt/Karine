@@ -12,11 +12,16 @@ public sealed class TwoClaimReportTests {
   Assert.IsNull(game.State.reportProof);
   Assert.IsNotNull(review.suspectSourceId, "Dayanak oyuncunun açtığı kaynaktan bulunmalı.");
  }
- [Test] public void RightPairGuessedWithoutSources_IsIncomplete() {
+ [Test] public void RightPairGuessedWithoutSources_IsLucky() {
   var game = Case001Walk.Fresh();
   game.Read("report");
   Assert.IsTrue(game.SubmitReport("hasan", "spare", null));
-  Assert.AreEqual("incomplete", game.Career.pendingReviews[0].evaluationType);
+  var review = game.Career.pendingReviews[0];
+  Assert.AreEqual("lucky", review.evaluationType);
+  Assert.IsTrue(review.correct);
+  Assert.IsFalse(review.suspectSupported);
+  Assert.Greater(review.trustDelta, 0);
+  Assert.Less(review.trustDelta, game.TrustDeltaFor("supported", game.Difficulty));
  }
  [Test] public void WrongSuspect_IsFalseAccusation() {
   var game = Case001Walk.WalkToReportReady();
