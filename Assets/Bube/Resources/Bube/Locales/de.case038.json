@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case038.antoine.body",
+   "value": "Transportdirektor."
+  },
+  {
+   "key": "case038.antoine.deflect",
+   "value": "Transportdaten gehören unseren Kunden."
+  },
+  {
+   "key": "case038.antoine.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case038.antoine.end.presented.search",
+   "value": "Vierzig Jahre, und Auguste wollte an einem Montag alles beenden. Paris, Tokio, Lakeshore. Diese Frau sagte uns immer: ‚Ware verschwindet nicht, sie wechselt den Ort.‘ Und ich … Ich habe das Öl auf das oberste Paar gestrichen und den Pen aus seiner Tasche genommen. Ich wusste, dass er beim Anheben der Schale die Lippe berühren würde. Ich habe Chicago eine Nachricht geschickt. Sie werden diese Person nicht finden."
+  },
+  {
+   "key": "case038.antoine.end.question",
+   "value": "Der Pen war in Ihrer Tasche."
+  },
+  {
+   "key": "case038.antoine.night.answer",
+   "value": "Einen Moment. Um einen Katalog zu holen. Als Auguste zusammenbrach, lief ich als Erster los, um den Pen zu holen; er war nicht in seiner Jacke. Vielleicht hat er ihn zu Hause vergessen."
+  },
+  {
+   "key": "case038.antoine.night.answer.demeanor",
+   "value": "Dreht seinen Ring mit dem Daumen."
+  },
+  {
+   "key": "case038.antoine.night.question",
+   "value": "Waren Sie vor dem Verkauf im Hinterzimmer?"
+  },
+  {
+   "key": "case038.antoine.night.variant0",
+   "value": "Montag? Auguste hat jeden Monat irgendetwas ‚abgeschlossen‘. Ich bin seit vierzig Jahren an seiner Seite."
+  },
+  {
+   "key": "case038.antoine.title",
+   "value": "Antoine Brassard — Befragung"
+  },
+  {
+   "key": "case038.autopsy.body",
+   "value": "· Anaphylaktischer Schock; schweres Ödem an Rachen und Zunge.\n· An den Fingerspitzen der rechten Hand und am Lippenrand Rückstände von Walnussöl.\n· Magen leer; letzte Mahlzeit vor vier Stunden. Das Allergen kam nicht über den Mund, sondern vom Handschuh auf die Lippe."
+  },
+  {
+   "key": "case038.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case038.back.body",
+   "value": "Handschuhtablett und Garderobe. 21. Juni 18.00 – 19.20."
+  },
+  {
+   "key": "case038.back.title",
+   "value": "KAMERA HINTERZIMMER — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case038.cctv.event.coat",
+   "value": "Kamera: Derselbe Mann greift in die Tasche einer an der Garderobe hängenden Jacke und geht hinaus."
+  },
+  {
+   "key": "case038.cctv.event.lay",
+   "value": "Kamera: Eine junge Frau in Arbeitsjacke legt weiße Handschuhpaare auf das Tablett und geht."
+  },
+  {
+   "key": "case038.cctv.event.tray",
+   "value": "Kamera: Ein großer Mann in dunklem Zweireiher ist allein im Raum; er beugt sich über das Handschuhtablett, eine Hand in der Jacke."
+  },
+  {
+   "key": "case038.cctv.overlay",
+   "value": "SALLE-B"
+  },
+  {
+   "key": "case038.cctv.period",
+   "value": "21. Juni 2030"
+  },
+  {
+   "key": "case038.cctv.source",
+   "value": "Kamera Hinterzimmer"
+  },
+  {
+   "key": "case038.celine.body",
+   "value": "Tochter des Opfers."
+  },
+  {
+   "key": "case038.celine.deflect",
+   "value": "Über die Geschäfte meines Vaters sprechen Sie mit unserem Anwalt."
+  },
+  {
+   "key": "case038.celine.title",
+   "value": "Céline Delorme — Befragung"
+  },
+  {
+   "key": "case038.celine.will.answer",
+   "value": "Nicht das Haus, sondern seine Schulden. Das halbe Auktionshaus ist überschuldet. Ich saß während des Verkaufs in der ersten Reihe; ins Hinterzimmer bin ich nie gegangen. Mein Vater sprach in der letzten Woche ständig hinter verschlossener Tür mit Antoine, ich habe Geschrei gehört."
+  },
+  {
+   "key": "case038.celine.will.answer.demeanor",
+   "value": "Hebt das Kinn, die Stimme fest."
+  },
+  {
+   "key": "case038.celine.will.question",
+   "value": "Das Erbe Ihres Vaters fällt an Sie."
+  },
+  {
+   "key": "case038.clue.check",
+   "value": "Die Assistentin prüft, dass der Pen in der Jackentasche ist."
+  },
+  {
+   "key": "case038.clue.coat",
+   "value": "Derselbe Mann greift in die Tasche der Jacke an der Garderobe."
+  },
+  {
+   "key": "case038.clue.fall",
+   "value": "Delorme hebt die Schale, berührt seine Lippe, bricht zusammen."
+  },
+  {
+   "key": "case038.clue.lay",
+   "value": "Die Handschuhe werden auf das Tablett gelegt."
+  },
+  {
+   "key": "case038.clue.msg",
+   "value": "Nachricht nach Chicago: ‚Paris ist geschlossen.‘"
+  },
+  {
+   "key": "case038.clue.source.faure",
+   "value": "Auktionator"
+  },
+  {
+   "key": "case038.clue.source.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.clue.source.search",
+   "value": "Durchsuchung"
+  },
+  {
+   "key": "case038.clue.tray",
+   "value": "Der große Mann beugt sich über das Tablett."
+  },
+  {
+   "key": "case038.custody.home",
+   "value": "Das Opfer hat ihn zu Hause vergessen"
+  },
+  {
+   "key": "case038.custody.label",
+   "value": "Wo blieb der Adrenalin-Pen?"
+  },
+  {
+   "key": "case038.custody.lost",
+   "value": "Im Durcheinander heruntergefallen, verloren"
+  },
+  {
+   "key": "case038.custody.taken",
+   "value": "Der Täter nahm ihn vor dem Verkauf aus der Jacke"
+  },
+  {
+   "key": "case038.epilogue.custody.home",
+   "value": "Die Assistentin hatte den Pen um 17.30 in der Tasche gesehen."
+  },
+  {
+   "key": "case038.epilogue.custody.lost",
+   "value": "Der Saal wurde durchsucht, aber der Pen war woanders."
+  },
+  {
+   "key": "case038.epilogue.custody.taken",
+   "value": "Festgehalten wurde, dass der Pen um 18.43 aus der Jacke genommen und in der Tasche des Täters gefunden wurde."
+  },
+  {
+   "key": "case038.epilogue.verdict.accident",
+   "value": "Der Tod galt als unglücklicher Allergieanfall; die Lakeshore-Lieferung ging weiter."
+  },
+  {
+   "key": "case038.epilogue.verdict.antoine",
+   "value": "Antoine Brassard wurde festgenommen. Die Lakeshore-Frachtbriefe führen zu einem Lager in Chicago, Pilsen; alle Provenienzbriefe tragen die Unterschrift Dr. E. Varga. Der Auftrag ging an die Dienststelle Chicago — Pilsen von bube."
+  },
+  {
+   "key": "case038.epilogue.verdict.celine",
+   "value": "Céline Delorme wurde festgenommen; die Nummer in Chicago wurde nie angerufen."
+  },
+  {
+   "key": "case038.epilogue.verdict.lopes",
+   "value": "Carla Lopes wurde in Gewahrsam genommen; Brassard saß am nächsten Morgen im Flugzeug nach Chicago."
+  },
+  {
+   "key": "case038.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case038.evidence.back",
+   "value": "Kamera Hinterzimmer"
+  },
+  {
+   "key": "case038.evidence.glovelab",
+   "value": "Handschuhanalyse"
+  },
+  {
+   "key": "case038.evidence.search",
+   "value": "Aktentasche und Wagen von Antoine Brassard — Durchsuchung"
+  },
+  {
+   "key": "case038.faure.body",
+   "value": "Auktionator."
+  },
+  {
+   "key": "case038.faure.deflect",
+   "value": "Ich führe den Hammer, Papiere gehen mich nichts an."
+  },
+  {
+   "key": "case038.faure.rostrum.answer",
+   "value": "Auguste hob die Schale mit seinen Handschuhen und zeigte sie dem Saal. Er kratzte sich an der Nase, berührte seine Lippe, eine alte Angewohnheit. Eine Minute später bekam er keine Luft. Antoine lief als Erster; ‚der Pen ist in seiner Jacke, ich hole ihn‘, sagte er, ging ins Hinterzimmer und kam mit leeren Händen zurück."
+  },
+  {
+   "key": "case038.faure.rostrum.answer.demeanor",
+   "value": "Schiebt die Brille vom Kopf herunter und wieder hinauf."
+  },
+  {
+   "key": "case038.faure.rostrum.question",
+   "value": "Was haben Sie vom Pult aus gesehen?"
+  },
+  {
+   "key": "case038.faure.title",
+   "value": "Martin Faure — Befragung"
+  },
+  {
+   "key": "case038.feedback.accident",
+   "value": "Das Öl ist nur am rechten Handschuh des Präsidenten, auf der Innenseite; die übrigen elf Paare sind sauber. Auch der Pen wurde aus seiner Tasche genommen."
+  },
+  {
+   "key": "case038.feedback.antoine",
+   "value": "Die Kamera im Hinterzimmer zeigt den Mann, der sich um 18.41 über das Tablett beugt und um 18.43 in die Tasche der Jacke an der Garderobe greift; das Öl ist nur an dem Paar des Präsidenten, auf der Innenseite. Pen und Walnussöl sind in seiner Tasche; er ist einer der beiden, die vom Montagstermin wussten."
+  },
+  {
+   "key": "case038.feedback.celine",
+   "value": "Die Erbin saß in der ersten Reihe und betrat das Hinterzimmer nicht; das Erbe besteht aus Schulden."
+  },
+  {
+   "key": "case038.feedback.lopes",
+   "value": "Sie legte die Handschuhe aus einer versiegelten Packung aus; das Öl wurde nach dem Auslegen aufgetragen, um 18.41."
+  },
+  {
+   "key": "case038.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case038.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case038.file.value.location",
+   "value": "Paris 8, Auktionssaal"
+  },
+  {
+   "key": "case038.file.value.number",
+   "value": "BDP-PAR-2030-0163"
+  },
+  {
+   "key": "case038.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case038.file.value.reporter",
+   "value": "Auktionshaus"
+  },
+  {
+   "key": "case038.glovelab.body",
+   "value": "Die weißen Baumwollhandschuhe von den Händen des Opfers:\n\n· An drei Fingerspitzen des rechten Handschuhs konzentriertes Walnussöl; auf der Innenseite, nicht außen. Das Öl wurde aufgetragen, bevor der Handschuh angezogen wurde.\n· Linker Handschuh sauber.\n· Die übrigen elf Paare auf dem Tablett sauber. Das präparierte Paar lag ganz oben; nach der Regel des Auktionshauses gehört das oberste Paar dem Präsidenten."
+  },
+  {
+   "key": "case038.glovelab.title",
+   "value": "HANDSCHUHANALYSE"
+  },
+  {
+   "key": "case038.lopes.body",
+   "value": "Transportassistentin."
+  },
+  {
+   "key": "case038.lopes.coat.answer",
+   "value": "Ins Hinterzimmer, an die Garderobe. Vor dem Verkauf geht er ohne Jacke hinaus, in Weste. Der Pen war in seiner Tasche; um 17.30 habe ich nachgesehen, ich sehe vor jedem Verkauf nach."
+  },
+  {
+   "key": "case038.lopes.coat.question",
+   "value": "Wo hatte er seine Jacke aufgehängt?"
+  },
+  {
+   "key": "case038.lopes.deflect",
+   "value": "Ich trage die Werke, von den Verkäufen weiß ich nichts."
+  },
+  {
+   "key": "case038.lopes.title",
+   "value": "Carla Lopes — Befragung"
+  },
+  {
+   "key": "case038.lopes.tray.answer",
+   "value": "Um 18.05, aus einer neuen, versiegelten Packung. Das Paar von Herrn Delorme liegt immer ganz oben, das weiß jeder. Danach habe ich den Raum nicht mehr betreten; ich habe im Saal die Werke aufgestellt."
+  },
+  {
+   "key": "case038.lopes.tray.answer.demeanor",
+   "value": "Berührt immer wieder die Handschuhe in ihrer Brusttasche."
+  },
+  {
+   "key": "case038.lopes.tray.question",
+   "value": "Haben Sie die Handschuhe vorbereitet?"
+  },
+  {
+   "key": "case038.method.bowl",
+   "value": "Öl auf die Schale gestrichen"
+  },
+  {
+   "key": "case038.method.food",
+   "value": "Erdnuss ins Essen gemischt"
+  },
+  {
+   "key": "case038.method.glove",
+   "value": "Walnussöl in den Handschuh gestrichen, Adrenalin-Pen entwendet"
+  },
+  {
+   "key": "case038.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case038.morel.body",
+   "value": "Anwalt der Familie."
+  },
+  {
+   "key": "case038.morel.deflect",
+   "value": "Die Angelegenheiten meines Mandanten unterliegen dem Anwaltsgeheimnis."
+  },
+  {
+   "key": "case038.morel.monday.answer",
+   "value": "Auguste hat mich gerufen. ‚Ich schließe die Transportabteilung, alle Lakeshore-Akten gebe ich bube‘, sagte er. Es gab einen Namen: Varga. Ich fragte, wer das sei, er sagte: ‚Montag.‘ Das wussten nur ich und Antoine; Antoine hat er es selbst gesagt."
+  },
+  {
+   "key": "case038.morel.monday.answer.demeanor",
+   "value": "Nimmt die Brille ab und putzt sie."
+  },
+  {
+   "key": "case038.morel.monday.question",
+   "value": "Sie hatten am Montag einen Termin."
+  },
+  {
+   "key": "case038.morel.title",
+   "value": "Vincent Morel — Befragung"
+  },
+  {
+   "key": "case038.offer.subtitle",
+   "value": "DELORME  /  KAPITELFINALE"
+  },
+  {
+   "key": "case038.offer.summary",
+   "value": "Bei der jährlichen Auktion von Maison Delorme brach Auguste Delorme neben dem Pult zusammen. Sein Adrenalin-Pen war nicht in seiner Tasche."
+  },
+  {
+   "key": "case038.offer.title",
+   "value": "AKTE #038"
+  },
+  {
+   "key": "case038.person.antoine.info",
+   "value": "57 Jahre, Direktor für Transport und Privatverkäufe bei Maison Delorme (aus Akte #036)."
+  },
+  {
+   "key": "case038.person.antoine.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.person.celine.info",
+   "value": "38 Jahre, Tochter des Opfers; stellvertretende Geschäftsführerin des Auktionshauses."
+  },
+  {
+   "key": "case038.person.celine.name",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.person.faure.info",
+   "value": "60 Jahre, Auktionator; er führte an diesem Abend den Hammer."
+  },
+  {
+   "key": "case038.person.faure.name",
+   "value": "Martin Faure"
+  },
+  {
+   "key": "case038.person.lopes.info",
+   "value": "29 Jahre, Assistentin für Kunsttransport; sie bereitet die Handschuhe vor."
+  },
+  {
+   "key": "case038.person.lopes.name",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.person.morel.info",
+   "value": "52 Jahre, Anwalt der Familie Delorme."
+  },
+  {
+   "key": "case038.person.morel.name",
+   "value": "Vincent Morel"
+  },
+  {
+   "key": "case038.recon.r_bowl",
+   "value": "19.12: Delorme hebt die Schale, berührt seine Lippe; Brassard läuft mit ‚ich hole den Pen‘ los und kommt mit leeren Händen zurück."
+  },
+  {
+   "key": "case038.recon.r_check",
+   "value": "17.30: Die Assistentin sieht den Pen in der Jackentasche; um 18.05 legt sie die Handschuhe aus."
+  },
+  {
+   "key": "case038.recon.r_chicago",
+   "value": "19.30: Nachricht an ‚E.V.‘ in Chicago: ‚Paris ist geschlossen. Die Ware ist unterwegs.‘"
+  },
+  {
+   "key": "case038.recon.r_monday",
+   "value": "Delorme sagt Brassard, dass er am Montag alle Lakeshore-Akten an bube übergeben wird."
+  },
+  {
+   "key": "case038.recon.r_oil",
+   "value": "19. Juni: Brassard kauft ein Fläschchen Walnussöl."
+  },
+  {
+   "key": "case038.recon.r_pen",
+   "value": "18.43: Er nimmt den Adrenalin-Pen aus der Jacke an der Garderobe."
+  },
+  {
+   "key": "case038.recon.r_tray",
+   "value": "18.41: Brassard ist allein im Hinterzimmer; er streicht Öl in den rechten Handschuh des obersten Paars."
+  },
+  {
+   "key": "case038.report.body",
+   "value": "Am Abend des 21. Juni 2030 brach im Auktionssaal von Maison Delorme im 8. Arrondissement um 19.12, während des Verkaufs, Auguste Delorme (71) neben dem Pult zusammen; er starb auf dem Weg ins Krankenhaus.\n\nSeine schwere Erdnuss- und Walnussallergie war Familie und Personal bekannt. Den Adrenalin-Pen trug er immer in der Innentasche seiner Jacke; der Pen wurde nicht gefunden.\n\nIm Hinterzimmer und im Saal anwesend: Céline Delorme, Antoine Brassard, der Auktionator Martin Faure, die Assistentin Carla Lopes, der Anwalt Vincent Morel."
+  },
+  {
+   "key": "case038.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case038.request.glovelab",
+   "value": "Handschuhe zur Analyse schicken"
+  },
+  {
+   "key": "case038.request.search",
+   "value": "Durchsuchungsbeschluss für Aktentasche und Wagen von Antoine Brassard beantragen"
+  },
+  {
+   "key": "case038.search.body",
+   "value": "Mit Genehmigung der Dienststellenleitung:\n\n· In der Aktentasche von Antoine Brassard ein unbenutzter Adrenalin-Pen; auf dem Rezeptetikett ‚A. Delorme‘.\n· In derselben Tasche ein kleines Fläschchen Walnussöl mit Pipette; Rechnung für Restaurierungsmaterial auf den Namen Brassard, 19. Juni.\n· Im Handschuhfach des Wagens Frachtbriefe von Lakeshore Freight: Chicago, die Adresse eines Lagers in Pilsen; der Provenienzbrief jeder Lieferung unterschrieben mit ‚Dr. E. Varga‘.\n· Auf dem Telefon um 19.30 eine Nachricht an eine als ‚E.V.‘ gespeicherte Nummer in Chicago: ‚Paris ist geschlossen. Die Ware ist unterwegs.‘"
+  },
+  {
+   "key": "case038.search.title",
+   "value": "AKTENTASCHE UND WAGEN VON ANTOINE BRASSARD — DURCHSUCHUNG"
+  },
+  {
+   "key": "case038.summary.evidence",
+   "value": "Die Obduktion zeigte, dass das Allergen über den Handschuh kam, die Handschuhanalyse, dass das Öl nur auf der Innenseite dieses einen Paars war, die Kamera im Hinterzimmer den Mann an Tablett und Jacke. Die mit zwei Gründen beantragte Durchsuchung lieferte den Pen, das Öl und die Frachtbriefe nach Chicago."
+  },
+  {
+   "key": "case038.summary.lesson",
+   "value": "Alle Wege in Paris trafen sich an einem einzigen Tisch. Die Ware hat den Ort gewechselt: Chicago."
+  },
+  {
+   "key": "case038.summary.location",
+   "value": "Paris — Juni 2030"
+  },
+  {
+   "key": "case038.summary.truth",
+   "value": "Der Transportdirektor von Maison Delorme, Antoine Brassard, erfuhr, dass sein Chef seit vierzig Jahren, Auguste Delorme, am Montag alle Lakeshore-Akten an bube übergeben wollte. Am Abend der Auktion strich er im Hinterzimmer Walnussöl in das oberste, dem Präsidenten vorbehaltene Handschuhpaar und nahm den Adrenalin-Pen aus der Jacke an der Garderobe. Als Delorme die Schale zeigte, berührte er seine Lippe; Brassard tat so, als laufe er los, um den Pen zu holen."
+  },
+  {
+   "key": "case038.suspect.label",
+   "value": "Wer hat Auguste Delorme getötet?"
+  },
+  {
+   "key": "case038.tablet.caseLine",
+   "value": "AKTE #038  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case038.time.check",
+   "value": "17.30"
+  },
+  {
+   "key": "case038.time.coat",
+   "value": "18.43"
+  },
+  {
+   "key": "case038.time.fall",
+   "value": "19.12"
+  },
+  {
+   "key": "case038.time.lay",
+   "value": "18.05"
+  },
+  {
+   "key": "case038.time.msg",
+   "value": "19.30"
+  },
+  {
+   "key": "case038.time.tray",
+   "value": "18.41"
+  },
+  {
+   "key": "case038.title",
+   "value": "Akte #038 — Delorme"
+  },
+  {
+   "key": "case038.verdict.accident",
+   "value": "Niemand — im Saal war ein Allergen"
+  },
+  {
+   "key": "case038.verdict.antoine",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.verdict.celine",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.verdict.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.item.gloves.name",
+   "value": "Weiße Transporthandschuhe"
+  },
+  {
+   "key": "case038.item.gloves.detail",
+   "value": "Die Baumwollhandschuhe von den Händen des Opfers; an den Fingerspitzen des rechten Handschuhs ein Ölfleck."
+  },
+  {
+   "key": "case038.item.pen.name",
+   "value": "Adrenalin-Pen"
+  },
+  {
+   "key": "case038.item.pen.detail",
+   "value": "Bei der Durchsuchung gefundener Autoinjektor; Rezeptetikett mit dem Namen des Opfers, unbenutzt."
+  },
+  {
+   "key": "case038.item.manifest.name",
+   "value": "Frachtbrief Chicago"
+  },
+  {
+   "key": "case038.item.manifest.detail",
+   "value": "Versanddokument von Lakeshore Freight; die Adresse eines Lagers in Chicago und ein mit ‚Dr. E. Varga‘ unterschriebener Provenienzbrief."
+  }
+ ]
+}
