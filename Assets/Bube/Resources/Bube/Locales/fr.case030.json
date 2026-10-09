@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case030.autopsy.body",
+   "value": "· Un coup unique en haut à gauche de la tête avec un objet lourd et arrondi ; des écailles de peinture rouge dans la plaie.\n· Pas les multiples éraflures typiques d’une chute dans l’escalier ; aucune fracture de chute dans les os.\n· Heure du décès : 09.55–10.15."
+  },
+  {
+   "key": "case030.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case030.cctv.event.door",
+   "value": "Caméra : le hall est vide ; la porte de l’escalier se referme lentement."
+  },
+  {
+   "key": "case030.cctv.event.out",
+   "value": "Caméra : le même homme remonte de l’escalier ; il n’a plus la planchette à la main, il marche vite vers la salle de reprographie."
+  },
+  {
+   "key": "case030.cctv.event.wait",
+   "value": "Caméra : un homme avec un brassard se tient seul dans le hall vide, une planchette d’appel à la main, les yeux sur la porte de l’escalier."
+  },
+  {
+   "key": "case030.cctv.overlay",
+   "value": "9F-L"
+  },
+  {
+   "key": "case030.cctv.period",
+   "value": "1er avril 2030"
+  },
+  {
+   "key": "case030.cctv.source",
+   "value": "Caméra du hall"
+  },
+  {
+   "key": "case030.clue.alarm",
+   "value": "Alarme d’exercice ; l’étage de la comptabilité se dirige vers l’escalier."
+  },
+  {
+   "key": "case030.clue.found",
+   "value": "L’agent de sécurité trouve le corps sur le palier."
+  },
+  {
+   "key": "case030.clue.out",
+   "value": "L’homme revient de l’escalier sans la planchette et va à la salle de reprographie."
+  },
+  {
+   "key": "case030.clue.roll",
+   "value": "Appel sur la place « complet » ; le nom de la victime coché au stylo bleu."
+  },
+  {
+   "key": "case030.clue.scan",
+   "value": "Le scan QR du chargé d’évacuation provient du 9e étage."
+  },
+  {
+   "key": "case030.clue.source.ono",
+   "value": "Sécurité"
+  },
+  {
+   "key": "case030.clue.source.qr",
+   "value": "Journal de l’application"
+  },
+  {
+   "key": "case030.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case030.clue.source.sheet",
+   "value": "Feuille d’appel"
+  },
+  {
+   "key": "case030.clue.wait",
+   "value": "L’homme au brassard regarde la porte de l’escalier dans le hall vide."
+  },
+  {
+   "key": "case030.copy.body",
+   "value": "Salle de reprographie du 9e étage :\n\n· L’une des dalles du faux plafond a été déplacée. Dedans, un extincteur rouge ; une bosse à sa base, des cheveux et du sang séché dans la bosse. D’après le plan de l’étage, l’extincteur à côté de la porte de l’escalier manque.\n· Les empreintes de Nishida Kōhei sur la poignée de l’extincteur et le cadre de la dalle.\n· Sur la dalle, une planchette d’appel."
+  },
+  {
+   "key": "case030.copy.title",
+   "value": "PERQUISITION DE LA SALLE DE REPROGRAPHIE"
+  },
+  {
+   "key": "case030.custody.forged",
+   "value": "Le chargé l’a cochée lui-même à la place de la victime"
+  },
+  {
+   "key": "case030.custody.genuine",
+   "value": "La victime était sur la place et est revenue plus tard"
+  },
+  {
+   "key": "case030.custody.label",
+   "value": "Que montre l’appel de l’exercice ?"
+  },
+  {
+   "key": "case030.custody.mistake",
+   "value": "Cochée par erreur dans la foule"
+  },
+  {
+   "key": "case030.epilogue.custody.forged",
+   "value": "Il a été consigné que l’appel avait été faussement complété par le chargé d’évacuation."
+  },
+  {
+   "key": "case030.epilogue.custody.genuine",
+   "value": "On a admis que la victime était sur la place ; l’heure du décès a glissé après l’exercice."
+  },
+  {
+   "key": "case030.epilogue.custody.mistake",
+   "value": "L’erreur d’appel a été jugée de bonne foi."
+  },
+  {
+   "key": "case030.epilogue.verdict.fall",
+   "value": "Le décès a été classé comme accident d’exercice ; les rampes de l’immeuble ont été remplacées."
+  },
+  {
+   "key": "case030.epilogue.verdict.hirano",
+   "value": "Hirano Saki a été inculpée ; personne n’a interrogé la feuille d’appel."
+  },
+  {
+   "key": "case030.epilogue.verdict.nishida",
+   "value": "Nishida Kōhei a été arrêté. Les virements à la Maison Delorme ont été transmis à l’audit interne, et de là à l’antenne bube de Paris."
+  },
+  {
+   "key": "case030.evidence.copy",
+   "value": "Perquisition de la salle de reprographie"
+  },
+  {
+   "key": "case030.evidence.file",
+   "value": "Le dossier de la victime"
+  },
+  {
+   "key": "case030.evidence.qr",
+   "value": "Journal de l’application d’évacuation"
+  },
+  {
+   "key": "case030.evidence.sheet",
+   "value": "Feuille d’appel"
+  },
+  {
+   "key": "case030.feedback.fall",
+   "value": "L’autopsie ne montre pas de fractures de chute mais un coup unique avec des écailles de peinture rouge."
+  },
+  {
+   "key": "case030.feedback.hirano",
+   "value": "La voisine de bureau s’est disputée avec elle mais a scanné sur la place à 10.07 ; ses empreintes ne sont pas sur l’extincteur."
+  },
+  {
+   "key": "case030.feedback.nishida",
+   "value": "Le journal de l’application le montre encore au 9e étage à 10.09 et la caméra le montre revenant de l’escalier sans la planchette ; ses empreintes sont sur l’extincteur et la dalle du plafond, et la seule coche bleue de l’appel vient de son stylo."
+  },
+  {
+   "key": "case030.file.body",
+   "value": "Dans le tiroir fermé à clé de la victime : 14 virements intitulés « Conseil », destinataire la maison de vente aux enchères Maison Delorme à Paris, total 380 millions de yens. Sur chaque bordereau, la signature d’approbation : Nishida Kōhei.\n\nSur le dernier bordereau, écrit à la main à côté de la signature : « Approuvé par E.V. »\n\nLe pense-bête de la victime : « Audit interne lundi. Sans demander à Nishida. »"
+  },
+  {
+   "key": "case030.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case030.file.title",
+   "value": "LE DOSSIER SUR LE BUREAU D’AOKI"
+  },
+  {
+   "key": "case030.file.value.bureau",
+   "value": "BDS Tokyo — Antenne de Nihonbashi"
+  },
+  {
+   "key": "case030.file.value.location",
+   "value": "Nihonbashi, tour de bureaux — escalier est"
+  },
+  {
+   "key": "case030.file.value.number",
+   "value": "BDS-TYO-2030-0041"
+  },
+  {
+   "key": "case030.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case030.file.value.reporter",
+   "value": "Sécurité de l’immeuble"
+  },
+  {
+   "key": "case030.hirano.body",
+   "value": "Voisine de bureau."
+  },
+  {
+   "key": "case030.hirano.deflect",
+   "value": "Demandez ça à mon responsable."
+  },
+  {
+   "key": "case030.hirano.drill.answer",
+   "value": "Quand l’alarme a sonné, elle était à son bureau, plongée dans ses dossiers. « J’arrive », elle a dit. Je ne l’ai pas vue dans l’escalier, et sur la place… je n’ai pas fait attention. On dit que son nom est sur la feuille."
+  },
+  {
+   "key": "case030.hirano.drill.question",
+   "value": "Avez-vous vu Rin pendant l’exercice ?"
+  },
+  {
+   "key": "case030.hirano.rin.answer",
+   "value": "On s’est disputées hier ; tout le monde a entendu. Elle a renvoyé au responsable la liste de virements que j’avais préparée comme « incomplète ». Mais cette liste n’était pas incomplète ; Rin cherchait autre chose, les virements partant pour Paris."
+  },
+  {
+   "key": "case030.hirano.rin.answer.demeanor",
+   "value": "Tourne son casque entre ses deux mains."
+  },
+  {
+   "key": "case030.hirano.rin.question",
+   "value": "Comment vous entendiez-vous avec Aoki Rin ?"
+  },
+  {
+   "key": "case030.hirano.rin.variant0",
+   "value": "Donc vous avez trouvé ce dossier. Hier soir, Rin m’a dit : « M. Nishida a signé ça, et à côté de la signature il y a écrit E.V. ; c’est qui ? » J’ai dit : « Ne t’en mêle pas. » C’était ça, la dispute."
+  },
+  {
+   "key": "case030.hirano.title",
+   "value": "Hirano Saki — audition"
+  },
+  {
+   "key": "case030.lobby.body",
+   "value": "Couvre le hall et la porte de l’escalier est. 1er avril 09.55 – 10.20."
+  },
+  {
+   "key": "case030.lobby.title",
+   "value": "CAMÉRA DU HALL DES ASCENSEURS, 9e ÉTAGE — transcription du relevé"
+  },
+  {
+   "key": "case030.method.ext",
+   "value": "Elle a été frappée à la tête avec un extincteur"
+  },
+  {
+   "key": "case030.method.fall",
+   "value": "Elle est tombée dans la foule"
+  },
+  {
+   "key": "case030.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case030.method.push",
+   "value": "Elle a été poussée dans l’escalier"
+  },
+  {
+   "key": "case030.nishida.body",
+   "value": "Chargé d’évacuation."
+  },
+  {
+   "key": "case030.nishida.deflect",
+   "value": "Je ne peux pas donner d’informations sur l’entreprise."
+  },
+  {
+   "key": "case030.nishida.last.answer",
+   "value": "Bien sûr. J’ai vérifié l’étage, il était vide, je suis descendu par l’escalier est."
+  },
+  {
+   "key": "case030.nishida.last.question",
+   "value": "Étiez-vous le dernier à quitter l’étage ?"
+  },
+  {
+   "key": "case030.nishida.roll.answer",
+   "value": "Sur la place, à 10.12. On a lu les noms un par un ; Aoki a dit « présente », j’ai coché. Ensuite je l’ai perdue dans la foule ; elle a dû rentrer en avance."
+  },
+  {
+   "key": "case030.nishida.roll.answer.demeanor",
+   "value": "Remonte ses lunettes sur son nez."
+  },
+  {
+   "key": "case030.nishida.roll.question",
+   "value": "Avez-vous fait l’appel ?"
+  },
+  {
+   "key": "case030.nishida.title",
+   "value": "Nishida Kōhei — audition"
+  },
+  {
+   "key": "case030.nishida_2.body",
+   "value": "Sur les relevés."
+  },
+  {
+   "key": "case030.nishida_2.nine.answer",
+   "value": "Je faisais la vérification de l’étage."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.copy",
+   "value": "…L’alarme a sonné, tout le monde est parti, elle s’est levée et elle est venue vers moi avec le dossier. « Je porte ça à l’audit », elle a dit. À la porte de l’escalier. L’extincteur était juste sous ma main. Ensuite, à l’appel, j’ai coché son nom ; dans une foule, personne ne peut compter."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.file",
+   "value": "Les paiements de conseil viennent d’en haut. Je ne fais que les signer. Je ne tuerais pas quelqu’un pour ça."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.qr",
+   "value": "Mon téléphone… j’ai scanné dans l’escalier ; le signal a pu être capté comme ça."
+  },
+  {
+   "key": "case030.nishida_2.nine.presented.sheet",
+   "value": "Aoki était dans la foule ; j’ai cru l’entendre dire « présente ». La couleur d’un stylo ne prouve rien."
+  },
+  {
+   "key": "case030.nishida_2.nine.question",
+   "value": "À 10.09, vous étiez encore au 9e étage."
+  },
+  {
+   "key": "case030.nishida_2.title",
+   "value": "Nishida Kōhei — seconde audition"
+  },
+  {
+   "key": "case030.offer.subtitle",
+   "value": "L’EXERCICE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case030.offer.summary",
+   "value": "Après un exercice sismique, un corps dans l’escalier. D’après l’appel, la victime était sur la place à ce moment-là."
+  },
+  {
+   "key": "case030.offer.title",
+   "value": "DOSSIER #030"
+  },
+  {
+   "key": "case030.ono.body",
+   "value": "Sécurité de l’immeuble."
+  },
+  {
+   "key": "case030.ono.deflect",
+   "value": "Mon travail, ce sont les portes et les escaliers."
+  },
+  {
+   "key": "case030.ono.drill.answer",
+   "value": "L’alarme, puis le chargé d’évacuation de chaque étage descend ses gens par l’escalier, fait l’appel sur papier sur la place et me dit « complet ». Les ascenseurs sont coupés. Le chargé part en dernier et vérifie l’étage. À la comptabilité, le chargé, c’est M. Nishida."
+  },
+  {
+   "key": "case030.ono.drill.question",
+   "value": "Comment se déroule l’exercice ?"
+  },
+  {
+   "key": "case030.ono.found.answer",
+   "value": "En revenant, je refermais les portes de l’escalier une par une. Elle était allongée sur le palier ; il ne semblait pas y avoir de sang sous sa tête. Quelqu’un qui tombe dans l’escalier ne reste pas allongé comme ça ; je le vois depuis trente ans."
+  },
+  {
+   "key": "case030.ono.found.question",
+   "value": "Comment avez-vous trouvé le corps ?"
+  },
+  {
+   "key": "case030.ono.title",
+   "value": "Ōno Tadashi — audition"
+  },
+  {
+   "key": "case030.person.hirano.info",
+   "value": "33 ans, voisine de bureau de la victime ; dans la même équipe."
+  },
+  {
+   "key": "case030.person.hirano.name",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.person.nishida.info",
+   "value": "48 ans, chargé d’évacuation de l’étage comptabilité de Kisaragi Shōji ; responsable principal."
+  },
+  {
+   "key": "case030.person.nishida.name",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.person.ono.info",
+   "value": "61 ans, agent de sécurité de l’immeuble ; dirige l’exercice."
+  },
+  {
+   "key": "case030.person.ono.name",
+   "value": "Ōno Tadashi"
+  },
+  {
+   "key": "case030.qr.body",
+   "value": "Pendant les exercices, l’immeuble demande à chaque employé de scanner le code QR sur la place avec son téléphone ; l’application enregistre aussi le point d’accès Wi-Fi d’où le scan a été fait.\n\n· Aoki Rin : aucun scan.\n· Nishida Kōhei : 10.09, point d’accès « 9F-EAST ». Pas la place : le 9e étage.\n· Les 22 autres personnes de la comptabilité : 10.06–10.11, la place."
+  },
+  {
+   "key": "case030.qr.title",
+   "value": "JOURNAL DE L’APPLICATION D’ÉVACUATION"
+  },
+  {
+   "key": "case030.report.body",
+   "value": "Le 1er avril 2030 à 10.00, l’exercice sismique annuel a commencé dans une tour de bureaux de Nihonbashi. Le service comptabilité de Kisaragi Shōji, au 9e étage, a rapporté son appel sur la place à 10.12 : « complet ».\n\nÀ la fin de l’exercice, au retour du personnel, à 10.41, l’agent de sécurité Ōno Tadashi a trouvé la comptable Aoki Rin (29 ans) morte sur le palier entre le 8e et le 9e étage de l’escalier est.\n\nPremière évaluation : elle est tombée dans l’escalier dans la foule. Mais d’après l’appel, Aoki était sur la place à 10.12."
+  },
+  {
+   "key": "case030.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case030.request.copy",
+   "value": "Demander une perquisition de la salle de reprographie"
+  },
+  {
+   "key": "case030.request.file",
+   "value": "Ouvrir le tiroir fermé à clé de la victime"
+  },
+  {
+   "key": "case030.request.qr",
+   "value": "Demander le journal des scans de l’application d’évacuation"
+  },
+  {
+   "key": "case030.request.sheet",
+   "value": "Envoyer la feuille d’appel à l’expertise"
+  },
+  {
+   "key": "case030.sheet.body",
+   "value": "La feuille d’appel déclarée « complète » sur la place. 23 noms, 23 coches.\n\n22 des coches sont à l’encre noire. La coche à côté d’Aoki Rin est au stylo bille bleu ; la même encre bleue est dans le stylo de la poche de chemise de Nishida Kōhei.\n\nDans la marge de la feuille, au stylo bleu : « 10.12 complet — N. »"
+  },
+  {
+   "key": "case030.sheet.title",
+   "value": "EXPERTISE DE LA FEUILLE D’APPEL"
+  },
+  {
+   "key": "case030.summary.evidence",
+   "value": "L’autopsie a montré un coup unique, pas une chute. L’application d’évacuation a montré Nishida encore à l’étage à 10.09, la caméra du hall son retour de l’escalier sans la planchette, la feuille d’appel l’unique coche bleue, et la perquisition de la reprographie l’extincteur."
+  },
+  {
+   "key": "case030.summary.lesson",
+   "value": "Un appel n’enregistre pas qui était là, mais qui a écrit « là ». Demandez aussi où était la main qui tenait la feuille."
+  },
+  {
+   "key": "case030.summary.location",
+   "value": "Nihonbashi — avril 2030"
+  },
+  {
+   "key": "case030.summary.truth",
+   "value": "La comptable Aoki Rin a trouvé la signature de son responsable Nishida Kōhei, et une mention « Approuvé par E.V. », sur l’ensemble des 380 millions de yens de virements « de conseil » de Kisaragi Shōji à la maison de vente Maison Delorme à Paris. Quand l’alarme de l’exercice a sonné, elle est allée voir son responsable avec le dossier ; le chargé d’évacuation Nishida l’a tuée à la porte de l’escalier avec l’extincteur, a mis l’extincteur et la planchette dans le faux plafond de la reprographie, et sur la place a coché le nom de la victime avec son propre stylo et a déclaré « complet »."
+  },
+  {
+   "key": "case030.suspect.label",
+   "value": "Qui a tué Aoki Rin ?"
+  },
+  {
+   "key": "case030.tablet.caseLine",
+   "value": "DOSSIER #030  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case030.time.alarm",
+   "value": "10.00"
+  },
+  {
+   "key": "case030.time.door",
+   "value": "10.04"
+  },
+  {
+   "key": "case030.time.found",
+   "value": "10.41"
+  },
+  {
+   "key": "case030.time.out",
+   "value": "10.07"
+  },
+  {
+   "key": "case030.time.roll",
+   "value": "10.12"
+  },
+  {
+   "key": "case030.time.scan",
+   "value": "10.09"
+  },
+  {
+   "key": "case030.time.wait",
+   "value": "10.03"
+  },
+  {
+   "key": "case030.title",
+   "value": "Dossier #030 — L’Exercice"
+  },
+  {
+   "key": "case030.verdict.fall",
+   "value": "Personne — elle est tombée dans l’escalier"
+  },
+  {
+   "key": "case030.verdict.hirano",
+   "value": "Hirano Saki"
+  },
+  {
+   "key": "case030.verdict.nishida",
+   "value": "Nishida Kōhei"
+  },
+  {
+   "key": "case030.item.sheet.name",
+   "value": "Feuille d’appel de l’exercice"
+  },
+  {
+   "key": "case030.item.sheet.detail",
+   "value": "L’appel de l’étage ; une coche d’une autre couleur à côté du nom de la victime."
+  },
+  {
+   "key": "case030.item.ext.name",
+   "value": "Extincteur"
+  },
+  {
+   "key": "case030.item.ext.detail",
+   "value": "Un extincteur rouge trouvé dans le faux plafond ; une bosse et des cheveux à sa base."
+  },
+  {
+   "key": "case030.item.tile.name",
+   "value": "Dalle de plafond"
+  },
+  {
+   "key": "case030.item.tile.detail",
+   "value": "Une dalle du faux plafond de la reprographie du 9e étage ; déplacée, poudre à empreintes sur le bord."
+  }
+ ]
+}
