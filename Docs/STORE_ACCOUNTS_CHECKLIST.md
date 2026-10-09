@@ -93,7 +93,7 @@ Giriş kağıdı şimdilik kit bileşenleriyle (onay formu dili) çizildi. Gör�
 
 | Konu | Nerede | Not |
 |---|---|---|
-| Reklamları kaldır (tek seferlik) + Satın alımları geri yükle (Apple 3.1.1) | `Assets/Bube/Purchasing/UnityStore.cs`, Ayarlar › Oyun | Unity IAP 4.12.2. Ürün kimliği `com.bubedigital.karine.noads`, tür *non-consumable*. Google'da makbuz açılışta kendiliğinden geri gelir. |
+| Reklamları kaldır (tek seferlik) + Satın alımları geri yükle (Apple 3.1.1) | `Assets/Bube/Purchasing/UnityStore.cs`, Ayarlar › Oyun | Unity IAP 5.4.3. Ürün kimliği `com.bubedigital.karine.noads`, tür *non-consumable*. Google'da makbuz açılışta kendiliğinden geri gelir. |
 | iOS takip izni (ATT, Apple 5.1.2) | `Assets/Plugins/iOS/KarinePlatform.mm`, `AdMobProvider` | Önce ATT, sonra Google UMP formu. Info.plist metni `Editor/IosBuildSettings.cs` içinde (İngilizce). |
 | Oyun içi puan isteme | `Platform.RequestReview`; Android `KarineReview.androidlib` | 3. dosya kapanınca bir kez. Pencereyi işletim sistemi gösterir ya da göstermez. |
 | Çökme raporu | `Assets/Bube/Crash/CrashReporting.cs` | Firebase Crashlytics paketi kurulunca kendiliğinden derlenir. |

@@ -626,7 +626,7 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 
 ## 9 Ekim 2026 — Mağaza parçaları
 
-- **Satın alma.** `IStore` / `Store.Provider` (`Monetization.cs`, varsayılan `NoStore`). Gerçeklemesi `Bube.Purchasing` derlemesi (`UnityStore`, Unity IAP 4.x); `versionDefines` ile yalnız `com.unity.purchasing` 4.x kuruluyken derlenir. `AdGateway.SetAdsRemoved` tek bayrak olarak kalır.
+- **Satın alma.** `IStore` / `Store.Provider` (`Monetization.cs`, varsayılan `NoStore`). Gerçeklemesi `Bube.Purchasing` derlemesi (`UnityStore`, Unity IAP 5.x); `versionDefines` ile yalnız `com.unity.purchasing` 5.x kuruluyken derlenir. `AdGateway.SetAdsRemoved` tek bayrak olarak kalır.
 - **Platform köprüsü.** `Platform` (Runtime) iki işi yapar: `RequestTracking` (iOS ATT, `KarinePlatform.mm`) ve `RequestReview` (iOS StoreKit; Android `KarineReview.androidlib` → `play:review` 2.0.2). `AdMobProvider` UMP formundan önce ATT'yi ister. iOS çerçeveleri ve Info.plist metni `Editor/IosBuildSettings.cs` (`#if UNITY_IOS`) ile eklenir.
 - **Çökme raporu.** `Bube.Crash` derlemesi, `com.google.firebase.crashlytics` kurulunca derlenir.
 - **Kayıt okuma.** `ReadSave<T>`: bozuk dosya `.corrupt` olarak kenara alınır ve `.bak` okunur. `Save()` her yazmada `File.Replace` ile `.bak` üretir. Bulut deseni `bube-career-*.json` olduğu için `.bak` dosyaları buluta gitmez.
