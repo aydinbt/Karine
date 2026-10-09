@@ -1,0 +1,616 @@
+{
+ "entries": [
+  {
+   "key": "case048.autopsy.body",
+   "value": "· Cause du décès : écrasement du thorax et de l’abdomen.\n· De la rouille de la rampe de l’échelle de la fosse sur la main de la victime ; ses chaussures enduites de l’huile du fond de la fosse. Aucune trace de coup à la tête ; il était debout et conscient quand la cabine est arrivée.\n· Heure du décès : 04.00–04.20."
+  },
+  {
+   "key": "case048.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case048.cctv.event.enter",
+   "value": "Caméra : un homme en veste bleu marine à bandes réfléchissantes entre dans la salle de commande vide et ferme la porte."
+  },
+  {
+   "key": "case048.cctv.event.leave",
+   "value": "Caméra : le même homme sort vite de la salle en fourrant quelque chose de rouge dans sa veste."
+  },
+  {
+   "key": "case048.cctv.event.lever",
+   "value": "Caméra : le même homme décroche une étiquette rouge du crochet mural et pousse le levier principal vers l’avant."
+  },
+  {
+   "key": "case048.cctv.overlay",
+   "value": "MSN-CTRL"
+  },
+  {
+   "key": "case048.cctv.period",
+   "value": "7 octobre 2030"
+  },
+  {
+   "key": "case048.cctv.source",
+   "value": "Caméra de la salle de commande"
+  },
+  {
+   "key": "case048.clue.bin",
+   "value": "Le chef jette quelque chose de rouge dans la poubelle du couloir."
+  },
+  {
+   "key": "case048.clue.enter",
+   "value": "L’homme en veste bleu marine entre dans la salle de commande."
+  },
+  {
+   "key": "case048.clue.found",
+   "value": "L’équipe du matin trouve le corps."
+  },
+  {
+   "key": "case048.clue.lever",
+   "value": "Le même homme décroche l’étiquette et pousse le levier."
+  },
+  {
+   "key": "case048.clue.pit",
+   "value": "Le technicien accroche son étiquette et descend dans la fosse."
+  },
+  {
+   "key": "case048.clue.radio",
+   "value": "« Sergio, reste avec Yusuf, je lance l’essai. »"
+  },
+  {
+   "key": "case048.clue.source.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.clue.source.kofi",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.clue.source.locker",
+   "value": "Fouille du casier"
+  },
+  {
+   "key": "case048.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case048.conti.body",
+   "value": "Technicien."
+  },
+  {
+   "key": "case048.conti.chief.answer",
+   "value": "Mal. Luca a regardé les rapports d’inspection et a dit : « Dario ne vient plus depuis six mois, mais sa signature est là tous les mois. » Il l’a dit au chef. Le chef a dit : « Ton travail, ce sont les câbles, pas la paperasse. »"
+  },
+  {
+   "key": "case048.conti.chief.question",
+   "value": "Comment Luca s’entendait-il avec le chef ?"
+  },
+  {
+   "key": "case048.conti.deflect",
+   "value": "J’ai fait mon service."
+  },
+  {
+   "key": "case048.conti.pit.answer",
+   "value": "Il y avait un bruit dans le tambour du câble ; Luca a dit « je vais voir ». La règle : si quelqu’un descend dans la fosse, une étiquette rouge va sur le levier de commande, avec un cadenas. Luca a accroché sa propre étiquette ; la clé du cadenas était dans sa poche. Avec l’étiquette, la cabine ne bouge pas. Elle n’est pas censée bouger."
+  },
+  {
+   "key": "case048.conti.pit.answer.demeanor",
+   "value": "Essuie l’huile de sa joue avec sa manche."
+  },
+  {
+   "key": "case048.conti.pit.question",
+   "value": "Pourquoi Luca est-il descendu dans la fosse ?"
+  },
+  {
+   "key": "case048.conti.title",
+   "value": "Sergio Conti — audition"
+  },
+  {
+   "key": "case048.control.body",
+   "value": "Salle de commande de la station inférieure. 7 octobre 03.30 – 04.30."
+  },
+  {
+   "key": "case048.control.title",
+   "value": "CAMÉRA DE LA SALLE DE COMMANDE — transcription du relevé"
+  },
+  {
+   "key": "case048.custody.bin",
+   "value": "Dans la poubelle du couloir, sous le marc de café"
+  },
+  {
+   "key": "case048.custody.label",
+   "value": "Où est passée l’étiquette rouge de maintenance ?"
+  },
+  {
+   "key": "case048.custody.never",
+   "value": "Elle n’a jamais été accrochée"
+  },
+  {
+   "key": "case048.custody.tunnel",
+   "value": "Elle est tombée dans le tunnel"
+  },
+  {
+   "key": "case048.dario.body",
+   "value": "Inspecteur externe."
+  },
+  {
+   "key": "case048.dario.deflect",
+   "value": "Mon rapport est au dossier."
+  },
+  {
+   "key": "case048.dario.sign.answer",
+   "value": "Non. Le contrat de ma société a été suspendu en mars ; la compagnie a dit « pas de budget ». Si ma signature est sur les rapports, ce n’est pas moi qui l’y ai mise. Cette signature n’est pas la mienne."
+  },
+  {
+   "key": "case048.dario.sign.answer.demeanor",
+   "value": "Ôte ses lunettes et les essuie."
+  },
+  {
+   "key": "case048.dario.sign.question",
+   "value": "Avez-vous inspecté la ligne ces six derniers mois ?"
+  },
+  {
+   "key": "case048.dario.title",
+   "value": "Dario Ricci — audition"
+  },
+  {
+   "key": "case048.epilogue.custody.bin",
+   "value": "Il a été consigné que l’étiquette rouge avait été retrouvée dans la poubelle du couloir."
+  },
+  {
+   "key": "case048.epilogue.custody.never",
+   "value": "La clé de l’étiquette cadenassée était dans la poche de la victime."
+  },
+  {
+   "key": "case048.epilogue.custody.tunnel",
+   "value": "L’étiquette n’était pas dans le tunnel ; elle était dans la station."
+  },
+  {
+   "key": "case048.epilogue.verdict.accident",
+   "value": "Le décès a été jugé une erreur de procédure ; la ligne a rouvert deux jours plus tard."
+  },
+  {
+   "key": "case048.epilogue.verdict.conti",
+   "value": "Sergio Conti a été arrêté ; les fausses signatures sont restées dans le même casier."
+  },
+  {
+   "key": "case048.epilogue.verdict.ilaria",
+   "value": "Ilaria Romano a été démise de ses fonctions ; le décès a été jugé un accident du travail."
+  },
+  {
+   "key": "case048.epilogue.verdict.marino",
+   "value": "Fabio Marino a été arrêté. Les 186 000 € versés à Caruso Marittima Consulting et les faux rapports ont été versés au dossier ; une enquête distincte a été ouverte sur la directrice d’exploitation."
+  },
+  {
+   "key": "case048.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case048.evidence.control",
+   "value": "Caméra de la salle de commande"
+  },
+  {
+   "key": "case048.evidence.forms",
+   "value": "Rapports d’inspection"
+  },
+  {
+   "key": "case048.evidence.locker",
+   "value": "Fouille du casier et de la poubelle"
+  },
+  {
+   "key": "case048.feedback.accident",
+   "value": "L’étiquette avait été accrochée ; elle a été retrouvée dans la poubelle toujours cadenassée, et sa clé était dans la poche de la victime."
+  },
+  {
+   "key": "case048.feedback.conti",
+   "value": "Le technicien était avec le veilleur de 03.30 à 04.00 ; le chef l’y avait retenu par radio."
+  },
+  {
+   "key": "case048.feedback.ilaria",
+   "value": "La directrice a étouffé l’affaire du budget, mais elle n’était pas à la station cette nuit-là ; celui qui a poussé le levier était un homme en veste bleu marine."
+  },
+  {
+   "key": "case048.feedback.marino",
+   "value": "Son empreinte est sur l’étiquette rouge de la poubelle du couloir, et par radio il a tenu Sergio à l’écart de la salle de commande ; la caméra montre l’homme en veste bleu marine prenant l’étiquette et poussant le levier. Les fausses signatures d’inspection sont sorties de son casier."
+  },
+  {
+   "key": "case048.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case048.file.value.bureau",
+   "value": "BDS Napoli — Antenne des Quartieri Spagnoli"
+  },
+  {
+   "key": "case048.file.value.location",
+   "value": "Funiculaire de Montesanto, Napoli"
+  },
+  {
+   "key": "case048.file.value.number",
+   "value": "BDN-NAP-2030-0322"
+  },
+  {
+   "key": "case048.file.value.offence",
+   "value": "Mort suspecte — accident du travail allégué"
+  },
+  {
+   "key": "case048.file.value.reporter",
+   "value": "Exploitant"
+  },
+  {
+   "key": "case048.forms.body",
+   "value": "· Six rapports d’inspection des câbles d’avril à septembre ; tous signés « Dario Ricci ». Sous les signatures, des traces de lignes guides au crayon ; le modèle de signature correspond à une photocopie dans le casier du chef de maintenance.\n· Les rapports ont été déposés par : le chef de maintenance Fabio Marino.\n· Sur la même période, 186 000 € du budget de maintenance à Caruso Marittima Consulting ; paiements approuvés par Ilaria Romano."
+  },
+  {
+   "key": "case048.forms.title",
+   "value": "RAPPORTS D’INSPECTION ET BUDGET"
+  },
+  {
+   "key": "case048.greta.body",
+   "value": "La fiancée de la victime."
+  },
+  {
+   "key": "case048.greta.deflect",
+   "value": "Je veux seulement savoir ce qu’il a vécu."
+  },
+  {
+   "key": "case048.greta.msg.answer",
+   "value": "Il était inquiet. Il a écrit à un délégué syndical et m’a envoyé une copie : « La moitié du budget part à une société portuaire comme conseil, et les câbles ont neuf ans. Un jour quelqu’un va mourir. » C’est lui qui est mort."
+  },
+  {
+   "key": "case048.greta.msg.answer.demeanor",
+   "value": "Serre la manche de sa veste dans sa paume."
+  },
+  {
+   "key": "case048.greta.msg.question",
+   "value": "Que vous disait Luca ces derniers jours ?"
+  },
+  {
+   "key": "case048.greta.title",
+   "value": "Greta Lombardi — audition"
+  },
+  {
+   "key": "case048.ilaria.body",
+   "value": "Directrice d’exploitation."
+  },
+  {
+   "key": "case048.ilaria.budget.answer",
+   "value": "Le conseil d’administration est au courant."
+  },
+  {
+   "key": "case048.ilaria.budget.presented.forms",
+   "value": "Les paiements de conseil étaient une demande d’un actionnaire. Caruso Marittima. Je devais les approuver. Je n’ai tué personne."
+  },
+  {
+   "key": "case048.ilaria.budget.question",
+   "value": "Où est allé le budget de maintenance ?"
+  },
+  {
+   "key": "case048.ilaria.deflect",
+   "value": "C’est le service de presse qui publie les déclarations de la compagnie."
+  },
+  {
+   "key": "case048.ilaria.rule.answer",
+   "value": "Parce qu’il n’y avait pas d’étiquette. Quand on a vérifié le levier de commande le matin, aucune étiquette n’y était accrochée. Luca est descendu sans accrocher d’étiquette. C’est triste, mais c’est une erreur de procédure."
+  },
+  {
+   "key": "case048.ilaria.rule.answer.demeanor",
+   "value": "Touche sa boucle d’oreille en perle."
+  },
+  {
+   "key": "case048.ilaria.rule.question",
+   "value": "Pourquoi la compagnie dit-elle « contraire aux règles » ?"
+  },
+  {
+   "key": "case048.ilaria.rule.variant0",
+   "value": "J’ai suspendu le contrat d’inspection, à cause du budget. L’équipe de Fabio a déposé les signatures. Je n’ai pas regardé la paperasse."
+  },
+  {
+   "key": "case048.ilaria.title",
+   "value": "Ilaria Romano — audition"
+  },
+  {
+   "key": "case048.kofi.bin.answer",
+   "value": "Vers quatre heures, le chef en veste bleu marine est sorti de la salle de commande, vite. Il a jeté quelque chose de rouge dans la poubelle du couloir. Je vide la poubelle le matin. Du plastique rouge, cadenassé. Je n’ai pas vidé la poubelle, ça m’a glacé, je l’ai laissée."
+  },
+  {
+   "key": "case048.kofi.bin.answer.demeanor",
+   "value": "Tient le manche du balai à deux mains."
+  },
+  {
+   "key": "case048.kofi.bin.question",
+   "value": "Qu’avez-vous vu dans la station pendant la nuit ?"
+  },
+  {
+   "key": "case048.kofi.body",
+   "value": "Agent d’entretien."
+  },
+  {
+   "key": "case048.kofi.deflect",
+   "value": "Je lave les sols."
+  },
+  {
+   "key": "case048.kofi.gone",
+   "value": "Le titre de séjour de Kofi Mensah a expiré cette semaine-là ; il est rentré à Accra. Il ne peut pas être joint."
+  },
+  {
+   "key": "case048.kofi.title",
+   "value": "Kofi Mensah — audition"
+  },
+  {
+   "key": "case048.locker.body",
+   "value": "Le casier de Fabio Marino à la station et la poubelle du couloir (avec l’accord du chef d’antenne) :\n\n· Dans la poubelle du couloir, sous le marc de café, l’étiquette rouge « homme au travail » ; son cadenas fermé, ouvert par la clé trouvée dans la poche de la victime. L’empreinte de Fabio Marino sur l’étiquette.\n· Dans le casier, une photocopie de la signature de Dario Ricci, recopiée vingt fois pour s’entraîner.\n· Journal radio : 03.55 Fabio Marino : « Sergio, reste avec Yusuf, je lance l’essai. »"
+  },
+  {
+   "key": "case048.locker.title",
+   "value": "CASIER DU CHEF DE MAINTENANCE ET POUBELLE — FOUILLE"
+  },
+  {
+   "key": "case048.marino.body",
+   "value": "Chef de maintenance."
+  },
+  {
+   "key": "case048.marino.deflect",
+   "value": "La ligne est sûre ; elle porte ma signature."
+  },
+  {
+   "key": "case048.marino.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case048.marino.end.presented.forms",
+   "value": "Je les ai signés, oui. Je pensais que les câbles tiendraient. Le budget était ponctionné d’en haut."
+  },
+  {
+   "key": "case048.marino.end.presented.locker",
+   "value": "Luca allait au syndicat, puis au procureur. Les rapports, les signatures, tout me serait retombé dessus. J’ai décroché l’étiquette rouge et j’ai poussé le levier. Une minute. Ça a pris une minute. Je n’ai même pas eu besoin de couper le cadenas ; Luca avait accroché le cadenas mais n’avait pas fermé le crochet."
+  },
+  {
+   "key": "case048.marino.end.question",
+   "value": "Vous avez retiré l’étiquette."
+  },
+  {
+   "key": "case048.marino.night.answer",
+   "value": "À la station supérieure, dans la salle du tambour. J’ai demandé par radio à Sergio de tester la cabine ; je pensais que c’était lui qui avait poussé le levier."
+  },
+  {
+   "key": "case048.marino.night.answer.demeanor",
+   "value": "Serre la mâchoire et secoue la tête."
+  },
+  {
+   "key": "case048.marino.night.question",
+   "value": "Où étiez-vous à quatre heures ?"
+  },
+  {
+   "key": "case048.marino.night.variant0",
+   "value": "Je suis passé à la salle de commande, oui. Il n’y avait pas d’étiquette ; j’ai poussé le levier. Je ne savais pas que Luca était dans la fosse."
+  },
+  {
+   "key": "case048.marino.title",
+   "value": "Fabio Marino — audition"
+  },
+  {
+   "key": "case048.method.cabin",
+   "value": "L’étiquette a été retirée et la cabine envoyée sur lui"
+  },
+  {
+   "key": "case048.method.cable",
+   "value": "Un câble rompu l’a frappé"
+  },
+  {
+   "key": "case048.method.fall",
+   "value": "Il est tombé dans la fosse"
+  },
+  {
+   "key": "case048.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case048.offer.subtitle",
+   "value": "FUNICOLARE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case048.offer.summary",
+   "value": "Sur la ligne du funiculaire de Montesanto, un technicien a été pris sous la cabine dans une fosse de maintenance. La compagnie dit « contraire aux règles »."
+  },
+  {
+   "key": "case048.offer.title",
+   "value": "DOSSIER #048"
+  },
+  {
+   "key": "case048.person.conti.info",
+   "value": "34 ans, technicien de l’équipe de nuit ; le coéquipier de la victime."
+  },
+  {
+   "key": "case048.person.conti.name",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.person.dario.info",
+   "value": "47 ans, inspecteur de la société externe qui contrôle les câbles."
+  },
+  {
+   "key": "case048.person.dario.name",
+   "value": "Dario Ricci"
+  },
+  {
+   "key": "case048.person.greta.info",
+   "value": "30 ans, la fiancée de la victime ; infirmière."
+  },
+  {
+   "key": "case048.person.greta.name",
+   "value": "Greta Lombardi"
+  },
+  {
+   "key": "case048.person.ilaria.info",
+   "value": "41 ans, la directrice d’exploitation de la ligne."
+  },
+  {
+   "key": "case048.person.ilaria.name",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.person.kofi.info",
+   "value": "25 ans, agent d’entretien ghanéen ; nettoie la station la nuit."
+  },
+  {
+   "key": "case048.person.kofi.name",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.person.marino.info",
+   "value": "52 ans, chef de maintenance de la ligne du funiculaire."
+  },
+  {
+   "key": "case048.person.marino.name",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.person.yusuf.info",
+   "value": "36 ans, veilleur de nuit à la station ; d’origine turque."
+  },
+  {
+   "key": "case048.person.yusuf.name",
+   "value": "Yusuf Demir"
+  },
+  {
+   "key": "case048.report.body",
+   "value": "Le matin du 7 octobre 2030, sur la ligne du funiculaire de Montesanto, le technicien Luca Ferri (33 ans) a été retrouvé mort dans la fosse de maintenance, 140 mètres au-dessus de la station inférieure. La cabine, lors de son premier essai après la maintenance de nuit, lui était passée dessus.\n\nÉquipe de maintenance de nuit : le chef de maintenance Fabio Marino, le technicien Sergio Conti, la victime. À la station se trouvaient le veilleur Yusuf Demir et l’agent d’entretien Kofi Mensah. La compagnie est représentée par la directrice d’exploitation Ilaria Romano."
+  },
+  {
+   "key": "case048.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case048.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case048.request.forms",
+   "value": "Demander les rapports d’inspection et les registres budgétaires"
+  },
+  {
+   "key": "case048.request.locker",
+   "value": "Demander l’autorisation de fouiller le casier de Fabio Marino et la poubelle du couloir"
+  },
+  {
+   "key": "case048.summary.evidence",
+   "value": "L’agent d’entretien a vu l’étiquette aller à la poubelle, mais si on ne lui parlait pas avant l’autopsie, il rentrait chez lui. Le veilleur a donné les badges et la caméra, l’inspecteur la falsification de sa signature. Une fouille justifiée a trouvé l’étiquette et la photocopie de la signature."
+  },
+  {
+   "key": "case048.summary.lesson",
+   "value": "Changer la paperasse coûtait moins cher que changer le câble."
+  },
+  {
+   "key": "case048.summary.location",
+   "value": "Montesanto — octobre 2030"
+  },
+  {
+   "key": "case048.summary.truth",
+   "value": "Après le retrait de la société d’inspection, le chef de maintenance Fabio Marino a falsifié la signature de l’inspecteur pendant six mois ; le budget partait à Caruso Marittima comme « conseil ». Le technicien Luca Ferri l’a signalé par écrit au syndicat. Quand Luca est descendu dans la fosse et a accroché son étiquette, Marino a retenu Sergio avec le veilleur par radio, est entré dans la salle de commande, a décroché l’étiquette et a poussé le levier."
+  },
+  {
+   "key": "case048.suspect.label",
+   "value": "Qui a tué Luca Ferri ?"
+  },
+  {
+   "key": "case048.tablet.caseLine",
+   "value": "DOSSIER #048  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case048.time.bin",
+   "value": "04.05"
+  },
+  {
+   "key": "case048.time.enter",
+   "value": "03.58"
+  },
+  {
+   "key": "case048.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case048.time.leave",
+   "value": "04.04"
+  },
+  {
+   "key": "case048.time.lever",
+   "value": "04.02"
+  },
+  {
+   "key": "case048.time.pit",
+   "value": "03.40"
+  },
+  {
+   "key": "case048.time.radio",
+   "value": "03.55"
+  },
+  {
+   "key": "case048.title",
+   "value": "Dossier #048 — Funicolare"
+  },
+  {
+   "key": "case048.verdict.accident",
+   "value": "Personne — l’étiquette n’était pas accrochée"
+  },
+  {
+   "key": "case048.verdict.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.verdict.ilaria",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.verdict.marino",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.yusuf.body",
+   "value": "Veilleur de nuit."
+  },
+  {
+   "key": "case048.yusuf.deflect",
+   "value": "J’étais à la porte, frère."
+  },
+  {
+   "key": "case048.yusuf.door.answer",
+   "value": "La porte s’ouvre avec un badge, frère. Après trois heures du matin, seulement les badges du chef et de Sergio. Sergio est venu prendre le thé avec moi à trois heures et demie ; il est resté avec moi jusqu’à quatre heures, on a écouté la radio ensemble. Il y a une caméra dans la salle de commande ; je vais sortir les images."
+  },
+  {
+   "key": "case048.yusuf.door.answer.demeanor",
+   "value": "Fait tourner son badge au bout du cordon autour de son cou."
+  },
+  {
+   "key": "case048.yusuf.door.question",
+   "value": "Qui est entré dans la salle de commande pendant la nuit ?"
+  },
+  {
+   "key": "case048.yusuf.title",
+   "value": "Yusuf Demir — audition"
+  },
+  {
+   "key": "case048.item.lever.name",
+   "value": "Levier de commande"
+  },
+  {
+   "key": "case048.item.lever.detail",
+   "value": "Le capot du levier principal dans la salle de commande ; son fil de plomb arraché."
+  },
+  {
+   "key": "case048.item.tag.name",
+   "value": "Étiquette de consignation"
+  },
+  {
+   "key": "case048.item.tag.detail",
+   "value": "L’étiquette rouge « homme au travail » qui aurait dû être à l’entrée de la fosse ; elle est sortie d’une poubelle."
+  },
+  {
+   "key": "case048.item.report.name",
+   "value": "Rapport d’inspection des câbles"
+  },
+  {
+   "key": "case048.item.report.detail",
+   "value": "Les rapports d’inspection des six derniers mois ; les signatures sont identiques."
+  }
+ ]
+}
