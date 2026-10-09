@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case042.autopsy.body",
+   "value": "· Carboxyhämoglobin im Blut 62 %: Kohlenmonoxidvergiftung.\n· Totenflecken leuchtend kirschrot.\n· In Schlafposition; keine Kampfspuren. Todeszeit: 01.30–03.00.\n· Die Kabinenlüftung auf Umluft gestellt, nicht auf Außenluft."
+  },
+  {
+   "key": "case042.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case042.cctv.event.climb",
+   "value": "Kamera: Ein Mann mit Kappe klettert hinter die Kabine des Lkw am Ende und greift zum Auspuffrohr."
+  },
+  {
+   "key": "case042.cctv.event.load",
+   "value": "Kamera: Ein zweiter Lkw setzt rückwärts an den offenen Auflieger des Lkw am Ende; zwei Personen laden im Regen Kisten um."
+  },
+  {
+   "key": "case042.cctv.event.pull",
+   "value": "Kamera: Derselbe Mann klettert wieder auf die Kabine und zieht etwas aus dem Auspuffrohr."
+  },
+  {
+   "key": "case042.cctv.overlay",
+   "value": "LOT-N"
+  },
+  {
+   "key": "case042.cctv.period",
+   "value": "13.–14. August 2030"
+  },
+  {
+   "key": "case042.cctv.source",
+   "value": "Parkplatzkamera"
+  },
+  {
+   "key": "case042.clue.climb",
+   "value": "Der Mann mit Kappe greift zum Auspuff des Lkw am Ende."
+  },
+  {
+   "key": "case042.clue.found",
+   "value": "Der Kassierer findet die Leiche."
+  },
+  {
+   "key": "case042.clue.load",
+   "value": "Der zweite Lkw setzt an den Auflieger; Kisten werden umgeladen."
+  },
+  {
+   "key": "case042.clue.pull",
+   "value": "Derselbe Mann zieht etwas aus dem Auspuff."
+  },
+  {
+   "key": "case042.clue.radio",
+   "value": "Das Opfer meldet per Funk, dass es wegen des Sturms angehalten hat."
+  },
+  {
+   "key": "case042.clue.source.hollis",
+   "value": "Disponentin"
+  },
+  {
+   "key": "case042.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case042.custody.label",
+   "value": "Wie gelangte das Gas in die Kabine?"
+  },
+  {
+   "key": "case042.custody.leak",
+   "value": "Das Auspuffrohr war undicht"
+  },
+  {
+   "key": "case042.custody.plug",
+   "value": "Der Auspuff wurde mit einem Lappen verstopft, dann wurde der Lappen herausgezogen"
+  },
+  {
+   "key": "case042.custody.storm",
+   "value": "Im Sturm füllte der Regen den Auspuff"
+  },
+  {
+   "key": "case042.eld.body",
+   "value": "Der Lkw des Opfers:\n\n· 00.42 geparkt; Motor im Leerlauf, Kabine klimatisiert.\n· 01.05 plötzlicher Anstieg des Abgasgegendrucks; Motor weiter im Leerlauf.\n· 03.21 Türsensor Auflieger: geöffnet.\n· 04.02 Abgasdruck kehrt zum Normalwert zurück.\n· 05.10 Kraftstoff leer, Motor aus."
+  },
+  {
+   "key": "case042.eld.title",
+   "value": "DER LKW DES OPFERS — FAHRTENSCHREIBER"
+  },
+  {
+   "key": "case042.epilogue.custody.leak",
+   "value": "Der Auspuff des Opfers hatte kein Loch."
+  },
+  {
+   "key": "case042.epilogue.custody.plug",
+   "value": "Festgehalten wurde, dass der Auspuff drei Stunden mit einem Lappen verstopft und gegen Morgen freigezogen wurde."
+  },
+  {
+   "key": "case042.epilogue.custody.storm",
+   "value": "Regen verstopft einen Auspuff nicht drei Stunden lang und gibt ihn dann auf einen Schlag frei."
+  },
+  {
+   "key": "case042.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; Lakeshore meldete die Ladung bei der Versicherung."
+  },
+  {
+   "key": "case042.epilogue.verdict.hollis",
+   "value": "Bev Hollis wurde entlassen und beschuldigt; die Kisten gingen in Newark an Bord."
+  },
+  {
+   "key": "case042.epilogue.verdict.patel",
+   "value": "Sunny Patel wurde festgenommen; Tanner erreichte Newark."
+  },
+  {
+   "key": "case042.epilogue.verdict.tanner",
+   "value": "Wade Tanner wurde festgenommen; die Kisten kamen ins Lager der Dienststelle Pilsen. Die Nummer ‚H.‘ aus der Nachricht führte zur Firmenleitung von Lakeshore."
+  },
+  {
+   "key": "case042.evidence.eld",
+   "value": "Fahrtenschreiber des Opfers"
+  },
+  {
+   "key": "case042.evidence.lot",
+   "value": "Parkplatzkamera"
+  },
+  {
+   "key": "case042.evidence.manifest",
+   "value": "Frachtmanifest"
+  },
+  {
+   "key": "case042.evidence.ragcheck",
+   "value": "Der Lkw von Wade Tanner — Untersuchung"
+  },
+  {
+   "key": "case042.feedback.accident",
+   "value": "Der Abgasdruck stieg genau drei Stunden lang und fiel auf einen Schlag; die Kamera zeigt, wie jemand etwas aus dem Rohr zieht."
+  },
+  {
+   "key": "case042.feedback.hollis",
+   "value": "Die Disponentin saß in der Nacht an ihrem Schreibtisch in Chicago; sie änderte die Route nicht."
+  },
+  {
+   "key": "case042.feedback.patel",
+   "value": "Der Kassierer fand die Leiche und gab die Kamera heraus; zum Nordende ging er nie."
+  },
+  {
+   "key": "case042.feedback.tanner",
+   "value": "In seinem Lkw ein rußiger Lappen im Durchmesser des Auspuffs und die fehlenden vierzehn Kisten; sein Fahrtenschreiber zeigt Bewegung, als er nach eigener Aussage bis zum Morgen schlief. In seinen Nachrichten: ‚Ladung ist bei mir.‘"
+  },
+  {
+   "key": "case042.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case042.file.value.bureau",
+   "value": "BDS Chicago — Dienststelle Pilsen"
+  },
+  {
+   "key": "case042.file.value.location",
+   "value": "Rastplatz I-80/90, Indiana"
+  },
+  {
+   "key": "case042.file.value.number",
+   "value": "BDC-CHI-2030-0251"
+  },
+  {
+   "key": "case042.file.value.offence",
+   "value": "Verdächtiger Todesfall / Frachtverlust"
+  },
+  {
+   "key": "case042.file.value.reporter",
+   "value": "Betreiber des Rastplatzes"
+  },
+  {
+   "key": "case042.hollis.body",
+   "value": "Nachtdisponentin."
+  },
+  {
+   "key": "case042.hollis.deflect",
+   "value": "Versanddaten gehören der Firma."
+  },
+  {
+   "key": "case042.hollis.radio.answer",
+   "value": "Um 00.50 per Funk. Er sagte, er habe wegen des Sturms angehalten. Dann schrieb mir Wade: ‚Ich bin auch hier, morgen fahren wir im Konvoi.‘ Die Ladung ging nach Newark, von dort aufs Schiff. Die Zentrale rief wegen dieser Ladung dreimal an und fragte nach dem Stand, das gab es noch nie."
+  },
+  {
+   "key": "case042.hollis.radio.answer.demeanor",
+   "value": "Wickelt das Kabel ihres Headsets um den Finger."
+  },
+  {
+   "key": "case042.hollis.radio.question",
+   "value": "Wann haben Sie zuletzt mit Earl gesprochen?"
+  },
+  {
+   "key": "case042.hollis.title",
+   "value": "Bev Hollis — Befragung"
+  },
+  {
+   "key": "case042.line_cargo.body",
+   "value": "Linie für das Manifest und die Zollunterlagen der Ladung im Auflieger geöffnet."
+  },
+  {
+   "key": "case042.line_cargo.title",
+   "value": "LINIE C — FRACHT UND ZOLL"
+  },
+  {
+   "key": "case042.line_phone.body",
+   "value": "Linie für die Telefonunterlagen der Fahrer und der Disponentin geöffnet."
+  },
+  {
+   "key": "case042.line_phone.title",
+   "value": "LINIE B — TELEFONUNTERLAGEN"
+  },
+  {
+   "key": "case042.line_truck.body",
+   "value": "Linie für die elektronischen Fahrtenschreiber und die forensische Untersuchung der beiden Lkw geöffnet."
+  },
+  {
+   "key": "case042.line_truck.title",
+   "value": "LINIE A — LKW UND FORENSIK"
+  },
+  {
+   "key": "case042.lot.body",
+   "value": "Nordende des Parkplatzes. 13.–14. August 23.00 – 06.30."
+  },
+  {
+   "key": "case042.lot.title",
+   "value": "PARKPLATZKAMERA DES RASTPLATZES — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case042.manifest.body",
+   "value": "· Ladung: 14 Kisten aus Container 22, ‚Maschinenteile‘.\n· Ziel: Hafen Newark; Umladung auf ein Schiff, das am 16. August nach Neapel ausläuft.\n· Empfänger in Neapel: eine Hafenspedition; im Freigabefeld zwei Buchstaben: ‚E. V.‘"
+  },
+  {
+   "key": "case042.manifest.title",
+   "value": "FRACHTMANIFEST"
+  },
+  {
+   "key": "case042.method.co",
+   "value": "Der Auspuff wurde verstopft, die Kabine füllte sich mit Kohlenmonoxid"
+  },
+  {
+   "key": "case042.method.cold",
+   "value": "Erfror durch die Klimaanlage"
+  },
+  {
+   "key": "case042.method.heart",
+   "value": "Herzinfarkt im Schlaf"
+  },
+  {
+   "key": "case042.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case042.offer.subtitle",
+   "value": "DER STURM  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case042.offer.summary",
+   "value": "Auf einem Rastplatz in Indiana liegt der Fahrer von Lakeshore tot in seiner eigenen Kabine; sein Auflieger ist leer."
+  },
+  {
+   "key": "case042.offer.title",
+   "value": "AKTE #042"
+  },
+  {
+   "key": "case042.patel.body",
+   "value": "Nachtkassierer."
+  },
+  {
+   "key": "case042.patel.deflect",
+   "value": "Ich sitze an der Kasse, der Parkplatz ist nicht meine Sache."
+  },
+  {
+   "key": "case042.patel.earl.answer",
+   "value": "Er kam zweimal im Monat vorbei. Diesmal war er angespannt. ‚Nach dieser Ladung gehe ich in Rente, Sunny‘, sagte er. ‚An dieser Ladung ist nichts Gutes.‘"
+  },
+  {
+   "key": "case042.patel.earl.question",
+   "value": "Kannten Sie Earl?"
+  },
+  {
+   "key": "case042.patel.night.answer",
+   "value": "Regen, Blitze. Um Mitternacht holten zwei Fahrer Kaffee, zusammen; der mit der Kappe sagte: ‚Earl, heute Nacht geht’s auf mich.‘ Gegen 03.30 sah ich am Nordende Scheinwerfer, ein Lkw rangierte. Die Kamera schaut dorthin; ich gebe Ihnen die Aufnahme."
+  },
+  {
+   "key": "case042.patel.night.answer.demeanor",
+   "value": "Rückt mit den Fingern sein Namensschild zurecht."
+  },
+  {
+   "key": "case042.patel.night.question",
+   "value": "Was haben Sie in der Nacht gesehen?"
+  },
+  {
+   "key": "case042.patel.title",
+   "value": "Sunny Patel — Befragung"
+  },
+  {
+   "key": "case042.person.hollis.info",
+   "value": "56 Jahre, Nachtdisponentin von Lakeshore Freight."
+  },
+  {
+   "key": "case042.person.hollis.name",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.person.patel.info",
+   "value": "33 Jahre, Nachtkassierer eines Autobahnrastplatzes."
+  },
+  {
+   "key": "case042.person.patel.name",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.person.tanner.info",
+   "value": "48 Jahre, Lkw-Fahrer; Subunternehmer von Lakeshore."
+  },
+  {
+   "key": "case042.person.tanner.name",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.ragcheck.body",
+   "value": "Bei der Untersuchung des Lkw von Wade Tanner:\n\n· Im Werkzeugkasten ein roter Lappen; ein Ende im Durchmesser eines Auspuffrohrs gerollt und von Ruß verhärtet. Die Fasern gleichen denen in der Öffnung des Auspuffs des Opfers.\n· Im Auflieger vierzehn Kisten; als ‚Maschinenteile‘ etikettiert, darunter Pariser Auktions-Losnummern.\n· Der eigene Fahrtenschreiber von Tanner zeigt Bewegung zwischen 03.18 und 03.58; im Widerspruch zur Aussage ‚Ich habe bis zum Morgen geschlafen.‘"
+  },
+  {
+   "key": "case042.ragcheck.title",
+   "value": "DER LKW VON WADE TANNER — UNTERSUCHUNG"
+  },
+  {
+   "key": "case042.report.body",
+   "value": "Am Morgen des 14. August 2030 wurde auf einem Rastplatz an der I-80/90 in Indiana der für Lakeshore Freight fahrende Lkw-Fahrer Earl Gaines (59) tot in der Schlafkoje seiner Kabine gefunden. Der Motor stand, der Tank war leer; die Türen des Kühlaufliegers offen und der Auflieger leer.\n\nDie Leiche fand der Kassierer des Rastplatzes, Sunny Patel, um 06.20. In derselben Nacht parkte auf dem Rastplatz auch ein Lakeshore-Subunternehmer, Wade Tanner. Der letzte Funkkontakt des Opfers war mit der Nachtdisponentin Bev Hollis."
+  },
+  {
+   "key": "case042.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case042.request.eld",
+   "value": "Fahrtenschreiber des Opfers anfordern"
+  },
+  {
+   "key": "case042.request.line_cargo",
+   "value": "Linie Fracht und Zoll öffnen"
+  },
+  {
+   "key": "case042.request.line_phone",
+   "value": "Linie Telefonunterlagen öffnen"
+  },
+  {
+   "key": "case042.request.line_truck",
+   "value": "Linie Lkw und Forensik öffnen"
+  },
+  {
+   "key": "case042.request.manifest",
+   "value": "Frachtmanifest anfordern"
+  },
+  {
+   "key": "case042.request.ragcheck",
+   "value": "Den Lkw von Wade Tanner untersuchen lassen"
+  },
+  {
+   "key": "case042.request.texts",
+   "value": "Die Nachrichten von Wade Tanner anfordern"
+  },
+  {
+   "key": "case042.summary.evidence",
+   "value": "Die Obduktion zeigte das Kohlenmonoxid, die Kamera den Mann, der zum Auspuff griff. Die Lkw-Linie lieferte den Abgasdruck und die Kisten im Auflieger von Tanner, die Telefonlinie die Nachricht ‚Ladung ist bei mir‘. Die Frachtlinie lieferte das Ziel der Kisten: Neapel."
+  },
+  {
+   "key": "case042.summary.lesson",
+   "value": "Ein Tod, der wie im Schlaf aussieht, erzählt nur durch die Farbe des Blutes etwas anderes."
+  },
+  {
+   "key": "case042.summary.location",
+   "value": "Indiana — August 2030"
+  },
+  {
+   "key": "case042.summary.truth",
+   "value": "Dem Subunternehmer Wade Tanner wurden zehntausend Dollar geboten, um Earl Gaines aufzuhalten, der die Kisten aus Container 22 nach Newark brachte. In der Sturmnacht auf dem Rastplatz verstopfte Tanner, während Earl in seiner klimatisierten Kabine schlief, den Auspuff mit einem Lappen, lud die Kisten in seinen eigenen Auflieger um und zog gegen Morgen den Lappen wieder heraus."
+  },
+  {
+   "key": "case042.suspect.label",
+   "value": "Wer hat Earl Gaines getötet?"
+  },
+  {
+   "key": "case042.tablet.caseLine",
+   "value": "AKTE #042  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case042.tanner.body",
+   "value": "Subunternehmer-Fahrer."
+  },
+  {
+   "key": "case042.tanner.deflect",
+   "value": "Ich frage nicht, was ich lade, ich fahre."
+  },
+  {
+   "key": "case042.tanner.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case042.tanner.end.presented.ragcheck",
+   "value": "Jemand hat mir für die Kisten zehntausend Dollar gegeben und gesagt: ‚Lass Earl schlafen, nimm die Ladung, bring du sie nach Newark.‘ Earl hätte die Ladung nie hergegeben. Im Sturm schlafen alle mit Klimaanlage, der Motor läuft. Ich habe den Lappen reingestopft. Ich habe die Kisten genommen und den Lappen wieder rausgezogen. Ich dachte, es sieht aus, als wäre er erfroren."
+  },
+  {
+   "key": "case042.tanner.end.presented.texts",
+   "value": "Nachrichten. Ein Konvoiplan."
+  },
+  {
+   "key": "case042.tanner.end.question",
+   "value": "Sie haben den Auspuff verstopft."
+  },
+  {
+   "key": "case042.tanner.night.answer",
+   "value": "Ich habe mit Earl Kaffee getrunken, bin in meine Kabine und habe bis zum Morgen geschlafen. Wer fährt denn im Sturm los? Morgens bin ich aufgestanden, zu Earl gegangen, da war die Polizei schon da."
+  },
+  {
+   "key": "case042.tanner.night.answer.demeanor",
+   "value": "Nimmt die Kappe ab und streicht sich das Haar zurück."
+  },
+  {
+   "key": "case042.tanner.night.question",
+   "value": "Was haben Sie in der Nacht getan?"
+  },
+  {
+   "key": "case042.tanner.night.variant0",
+   "value": "Die Kamera? Ich bin nachts einmal aufgestanden, in den Auspuff von Earl lief Regen, ich habe nachgesehen, das ist alles."
+  },
+  {
+   "key": "case042.tanner.title",
+   "value": "Wade Tanner — Befragung"
+  },
+  {
+   "key": "case042.texts.body",
+   "value": "· 12. August, von unbekannter Nummer an Wade Tanner: ‚Gaines gibt nicht nach. Zehntausend. Schiff in Newark am 16. — H.‘\n· 13. August 23.58, Wade Tanner → Bev Hollis: ‚Ich bin auch hier, morgen Konvoi.‘\n· 14. August 04.10, Wade Tanner → unbekannte Nummer: ‚Ladung ist bei mir.‘\n\nRegistrierung der unbekannten Nummer: Firmenanschluss Lakeshore Freight, Nutzer ‚C. Harlan‘."
+  },
+  {
+   "key": "case042.texts.title",
+   "value": "DIE NACHRICHTEN VON WADE TANNER"
+  },
+  {
+   "key": "case042.time.climb",
+   "value": "01.04"
+  },
+  {
+   "key": "case042.time.found",
+   "value": "06.20"
+  },
+  {
+   "key": "case042.time.load",
+   "value": "03.20–03.55"
+  },
+  {
+   "key": "case042.time.pull",
+   "value": "04.02"
+  },
+  {
+   "key": "case042.time.radio",
+   "value": "00.50"
+  },
+  {
+   "key": "case042.title",
+   "value": "Akte #042 — Der Sturm"
+  },
+  {
+   "key": "case042.verdict.accident",
+   "value": "Niemand — im Sturm drangen Abgase in die Kabine"
+  },
+  {
+   "key": "case042.verdict.hollis",
+   "value": "Bev Hollis"
+  },
+  {
+   "key": "case042.verdict.patel",
+   "value": "Sunny Patel"
+  },
+  {
+   "key": "case042.verdict.tanner",
+   "value": "Wade Tanner"
+  },
+  {
+   "key": "case042.item.rag.name",
+   "value": "Rußiger Lappen"
+  },
+  {
+   "key": "case042.item.rag.detail",
+   "value": "Ein Lappen aus dem Werkzeugkasten eines Lkw; ein Ende von schwarzem Ruß verhärtet, im Durchmesser eines Auspuffrohrs gerollt."
+  },
+  {
+   "key": "case042.item.pipe.name",
+   "value": "Auspuffrohr"
+  },
+  {
+   "key": "case042.item.pipe.detail",
+   "value": "Der senkrechte Auspuff des Lkw des Opfers; in der Öffnung rote Baumwollfasern."
+  },
+  {
+   "key": "case042.item.seal.name",
+   "value": "Aufgebrochene Plombe"
+  },
+  {
+   "key": "case042.item.seal.detail",
+   "value": "Die nummerierte Kunststoffplombe an der Tür des Aufliegers; mit einer Schere durchtrennt."
+  }
+ ]
+}
