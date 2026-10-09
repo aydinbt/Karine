@@ -65,8 +65,8 @@ public static partial class KarineUI {
  }
  public static VisualElement RequestPaper(VisualElement parent) {
   var paper=new VisualElement {name="RequestDetail"};OfficePlace(paper,Q.Paper);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);parent.Add(paper);
+  // Yalnız yıpranmış kağıt görseli: arkasında düz zemin ya da çerçeve yok, yırtık kenarlar açıkta kalır.
+  Stretched(paper,"Bube/UI/paper_sheet");parent.Add(paper);
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);
   var c=scroll.contentContainer;c.style.paddingLeft=KarineTheme.SpaceXl;c.style.paddingRight=KarineTheme.SpaceXl;c.style.paddingTop=KarineTheme.SpaceLg;c.style.paddingBottom=KarineTheme.SpaceLg;
   return c;
