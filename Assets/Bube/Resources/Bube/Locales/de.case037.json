@@ -1,0 +1,536 @@
+{
+ "entries": [
+  {
+   "key": "case037.aubert.body",
+   "value": "Nachtwächter."
+  },
+  {
+   "key": "case037.aubert.car.answer",
+   "value": "Die Limousine von Herrn Lenoir. Bei der Runde um 21.30 stand sie noch da; ich dachte: ‚Er ist mit dem Taxi gefahren, den Wagen holt er morgen.‘ Bei der nächsten Runde war sie weg."
+  },
+  {
+   "key": "case037.aubert.car.answer.demeanor",
+   "value": "Dreht seine Taschenlampe in der Hand."
+  },
+  {
+   "key": "case037.aubert.car.question",
+   "value": "Was haben Sie im Hof gesehen?"
+  },
+  {
+   "key": "case037.aubert.deflect",
+   "value": "Ich passe auf das Tor auf, in die Büros gehe ich nicht."
+  },
+  {
+   "key": "case037.aubert.light.answer",
+   "value": "Um 21.30 war das Licht in der Werkstatt aus. Um 23.10 war es an, die Presse summte."
+  },
+  {
+   "key": "case037.aubert.light.question",
+   "value": "Licht in der Werkstatt?"
+  },
+  {
+   "key": "case037.aubert.title",
+   "value": "Serge Aubert — Befragung"
+  },
+  {
+   "key": "case037.autopsy.body",
+   "value": "· Die Brandspuren in den Handflächen sind oberflächlich und postmortal; im Gewebe keine vitale Reaktion.\n· Bruch des Zungenbeins; am Hals eine waagerechte, gerade Bandspur von etwa 2 cm Breite.\n· Todesursache: Erdrosseln. Todeszeitpunkt: 20.45–21.15."
+  },
+  {
+   "key": "case037.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case037.badges.body",
+   "value": "14. Juni:\n\n· Clémence Roux — Ausgang 19.40\n· Fatou Diallo — Ausgang 20.02\n· Baptiste Lenoir — Ausgang 20.10\n· Lina Haddad — kein Ausgang verzeichnet\n\nDie Tür zur Hintertreppe braucht keine Karte; sie öffnet von innen."
+  },
+  {
+   "key": "case037.badges.title",
+   "value": "PROTOKOLL DER ZUGANGSKARTEN"
+  },
+  {
+   "key": "case037.cctv.event.car",
+   "value": "Kamera: Der Hof ist leer; unter der Lampe parkt eine dunkle Limousine."
+  },
+  {
+   "key": "case037.cctv.event.leave",
+   "value": "Kamera: Die Scheinwerfer derselben Limousine gehen an, der Wagen fährt durchs Tor hinaus."
+  },
+  {
+   "key": "case037.cctv.event.walk",
+   "value": "Kamera: Ein Mann im dunklen Anzug geht telefonierend zu Fuß durch das Einfahrtstor hinaus."
+  },
+  {
+   "key": "case037.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case037.cctv.period",
+   "value": "14. Juni 2030"
+  },
+  {
+   "key": "case037.cctv.source",
+   "value": "Hofkamera"
+  },
+  {
+   "key": "case037.clemence.body",
+   "value": "Chefdesignerin."
+  },
+  {
+   "key": "case037.clemence.deflect",
+   "value": "Ich spreche über die Kollektion, nicht über die Buchhaltung."
+  },
+  {
+   "key": "case037.clemence.fight.answer",
+   "value": "Sie hatte einen Stoff verkehrt zugeschnitten, ich habe geschrien. Ich schäme mich. Um 19.40 bin ich gegangen, ich war in Bastille essen; die sechs Leute am Tisch sind Zeugen."
+  },
+  {
+   "key": "case037.clemence.fight.answer.demeanor",
+   "value": "Spielt mit dem Nadelkissen an ihrem Handgelenk."
+  },
+  {
+   "key": "case037.clemence.fight.question",
+   "value": "Sie haben sich mittags mit Lina gestritten."
+  },
+  {
+   "key": "case037.clemence.licence.answer",
+   "value": "Baptiste. Er hat meine Entwürfe japanischen Mädchen angezogen, ohne mich auch nur zu fragen. Warum die Zahlungen über eine Firma namens Delorme laufen, weiß ich auch nicht."
+  },
+  {
+   "key": "case037.clemence.licence.question",
+   "value": "Wer führt die Tokioter Lizenz?"
+  },
+  {
+   "key": "case037.clemence.title",
+   "value": "Clémence Roux — Befragung"
+  },
+  {
+   "key": "case037.clue.dout",
+   "value": "Fatou Diallo geht; Lina bleibt."
+  },
+  {
+   "key": "case037.clue.found",
+   "value": "Der Wächter findet die Leiche."
+  },
+  {
+   "key": "case037.clue.leave",
+   "value": "Die Limousine verlässt den Hof."
+  },
+  {
+   "key": "case037.clue.msg",
+   "value": "Letzte Nachricht von Lina: ‚Die Rechnungen werden verdoppelt.‘"
+  },
+  {
+   "key": "case037.clue.on",
+   "value": "Die Presse wird per Telefon eingeschaltet."
+  },
+  {
+   "key": "case037.clue.source.badges",
+   "value": "Kartenprotokoll"
+  },
+  {
+   "key": "case037.clue.source.diallo",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.clue.source.presslog",
+   "value": "Stromprotokoll"
+  },
+  {
+   "key": "case037.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case037.clue.walk",
+   "value": "Der Mann im Anzug verlässt den Hof zu Fuß; der Wagen bleibt."
+  },
+  {
+   "key": "case037.court.body",
+   "value": "Der Hof des Gebäudes. 14. Juni 20.00 – 23.15."
+  },
+  {
+   "key": "case037.court.title",
+   "value": "HOFKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case037.custody.fault",
+   "value": "Ging durch einen Defekt von selbst an"
+  },
+  {
+   "key": "case037.custody.forgot",
+   "value": "Das Opfer hat sie selbst angelassen"
+  },
+  {
+   "key": "case037.custody.label",
+   "value": "Warum war die Presse an?"
+  },
+  {
+   "key": "case037.custody.staged",
+   "value": "Nach dem Tod per Telefon eingeschaltet"
+  },
+  {
+   "key": "case037.diallo.body",
+   "value": "Schneiderin."
+  },
+  {
+   "key": "case037.diallo.deflect",
+   "value": "Ich nähe, Papiere sehe ich nicht."
+  },
+  {
+   "key": "case037.diallo.msg.answer",
+   "value": "Als ich um 20.02 ging, sagte sie: ‚Geh du, ich bleibe, ich will jemandem etwas zeigen.‘ Um 20.31 schrieb sie: ‚Ich hatte recht. Die Rechnungen werden verdoppelt. Morgen erzähle ich es dir.‘ Es gab kein Morgen."
+  },
+  {
+   "key": "case037.diallo.msg.answer.demeanor",
+   "value": "Hält das Maßband um ihren Hals mit beiden Händen."
+  },
+  {
+   "key": "case037.diallo.msg.question",
+   "value": "Hat Lina Ihnen etwas gesagt?"
+  },
+  {
+   "key": "case037.diallo.title",
+   "value": "Fatou Diallo — Befragung"
+  },
+  {
+   "key": "case037.diallo.who.answer",
+   "value": "Hat sie nicht gesagt. Aber die ganze Woche hat sie die Lizenzakten kopiert und in ihrem Spind versteckt."
+  },
+  {
+   "key": "case037.diallo.who.question",
+   "value": "Wem wollte sie es zeigen?"
+  },
+  {
+   "key": "case037.epilogue.custody.fault",
+   "value": "Im Protokoll stand, dass die Steckdose manuell eingeschaltet wurde."
+  },
+  {
+   "key": "case037.epilogue.custody.forgot",
+   "value": "Das Protokoll zeigt 21.41; zu dieser Zeit war das Opfer tot."
+  },
+  {
+   "key": "case037.epilogue.custody.staged",
+   "value": "Festgehalten wurde, dass die Presse nach dem Tod aus der Ferne eingeschaltet wurde, um eine Szene zu stellen."
+  },
+  {
+   "key": "case037.epilogue.verdict.accident",
+   "value": "Der Tod galt als Arbeitsunfall; die Marke zahlte eine Entschädigung."
+  },
+  {
+   "key": "case037.epilogue.verdict.aubert",
+   "value": "Serge Aubert wurde in Gewahrsam genommen; die Lizenzakte wurde nicht geöffnet."
+  },
+  {
+   "key": "case037.epilogue.verdict.clemence",
+   "value": "Clémence Roux wurde festgenommen; die Rechnungen blieben im Spind."
+  },
+  {
+   "key": "case037.epilogue.verdict.lenoir",
+   "value": "Baptiste Lenoir wurde festgenommen. Die Rechnungen wurden bis zu Maison Delorme und der Agentur in Tokio verfolgt. Die Nachricht an Antoine Brassard kam in die Akte; Brassard verweigerte die Aussage."
+  },
+  {
+   "key": "case037.evidence.court",
+   "value": "Hofkamera"
+  },
+  {
+   "key": "case037.evidence.locker",
+   "value": "Spind des Opfers"
+  },
+  {
+   "key": "case037.evidence.presslog",
+   "value": "Stromprotokoll der Presse"
+  },
+  {
+   "key": "case037.evidence.search",
+   "value": "Büro und Telefon von Baptiste Lenoir — Durchsuchung"
+  },
+  {
+   "key": "case037.feedback.accident",
+   "value": "Die Verbrennungen sind postmortal; Tod durch Erdrosseln, die Presse wurde eine halbe Stunde nach dem Tod eingeschaltet."
+  },
+  {
+   "key": "case037.feedback.aubert",
+   "value": "Die Rundenzeiten des Wächters widersprechen dem Pressenprotokoll nicht; er hat weder Zugriff auf die App der Steckdose noch auf die Rechnungen."
+  },
+  {
+   "key": "case037.feedback.clemence",
+   "value": "Die Designerin schrie mittags, ging aber um 19.40; sechs Leute waren mit ihr in Bastille essen."
+  },
+  {
+   "key": "case037.feedback.lenoir",
+   "value": "Er zog seine Karte und ging zu Fuß hinaus, aber sein Wagen stand bis 21.54 im Hof; die Presse wurde um 21.41 von seinem Telefon eingeschaltet, eine halbe Stunde nach dem Tod. Am Messer in seinem Büro die Isolierung des Kabels; das Opfer hatte die von ihm erstellten doppelten Rechnungen gefunden."
+  },
+  {
+   "key": "case037.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case037.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case037.file.value.location",
+   "value": "Le Marais, Modeatelier"
+  },
+  {
+   "key": "case037.file.value.number",
+   "value": "BDP-PAR-2030-0151"
+  },
+  {
+   "key": "case037.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case037.file.value.reporter",
+   "value": "Nachtwächter"
+  },
+  {
+   "key": "case037.lenoir.body",
+   "value": "Lizenzdirektor."
+  },
+  {
+   "key": "case037.lenoir.deflect",
+   "value": "Lizenzverträge unterliegen einer Vertraulichkeitsklausel."
+  },
+  {
+   "key": "case037.lenoir.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case037.lenoir.end.presented.badges",
+   "value": "Ich habe meine Karte durchgezogen, ja. Das ist alles."
+  },
+  {
+   "key": "case037.lenoir.end.presented.locker",
+   "value": "Die Fotokopien einer Schneiderin. Was beweisen die?"
+  },
+  {
+   "key": "case037.lenoir.end.presented.search",
+   "value": "Delorme zahlte, Tokio kassierte, und ich dazwischen meinen Anteil. Lina legte die beiden Rechnungen nebeneinander und sagte: ‚Ich bringe das zur Polizei.‘ Sie hatte ein Maßband in der Hand … Dann habe ich das Kabel der Presse durchgeschnitten, es ihr in die Hand gelegt und die Steckdose per Telefon eingeschaltet. Brassard habe ich geschrieben, weil er fragen würde."
+  },
+  {
+   "key": "case037.lenoir.end.question",
+   "value": "Lina hat Ihnen die Rechnungen gezeigt."
+  },
+  {
+   "key": "case037.lenoir.night.answer",
+   "value": "Um 20.10 habe ich meine Karte durchgezogen, bin gegangen, zu Fuß. Die Kamera zeigt es auch. Den Wagen habe ich stehen lassen, ich hatte Wein getrunken."
+  },
+  {
+   "key": "case037.lenoir.night.answer.demeanor",
+   "value": "Richtet sein Einstecktuch."
+  },
+  {
+   "key": "case037.lenoir.night.question",
+   "value": "Wo waren Sie am Abend?"
+  },
+  {
+   "key": "case037.lenoir.night.variant0",
+   "value": "Ich bin später zurück, um den Wagen zu holen, ja. Über die Hintertreppe? Ich bin wegen einer Akte in mein Büro hinauf, in die Werkstatt bin ich nicht gegangen."
+  },
+  {
+   "key": "case037.lenoir.title",
+   "value": "Baptiste Lenoir — Befragung"
+  },
+  {
+   "key": "case037.locker.body",
+   "value": "Aus dem Werkstattspind von Lina Haddad:\n\n· Fotokopien der Tokioter Lizenzrechnungen: zwei verschiedene Rechnungen für dieselbe Kollektion; eine an Maison Lévrier über 180.000 Euro, die andere auf das Konto von Maison Delorme über 410.000 Euro. In der Ecke der zweiten in blauer Tinte die Freigabe ‚E. V.‘\n· Ersteller der Rechnungen: Lizenzdirektor Baptiste Lenoir.\n· Ein Haftzettel: ‚B. L. fragen?‘"
+  },
+  {
+   "key": "case037.locker.title",
+   "value": "SPIND DES OPFERS"
+  },
+  {
+   "key": "case037.method.fall",
+   "value": "Stürzte und schlug mit dem Kopf auf"
+  },
+  {
+   "key": "case037.method.label",
+   "value": "Wie starb sie?"
+  },
+  {
+   "key": "case037.method.shock",
+   "value": "Stromschlag an der Dampfpresse"
+  },
+  {
+   "key": "case037.method.strangle",
+   "value": "Mit dem Schneidermaßband erdrosselt"
+  },
+  {
+   "key": "case037.offer.subtitle",
+   "value": "DAS ATELIER  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case037.offer.summary",
+   "value": "In einem Modehaus in Le Marais liegt eine junge Schneiderin tot vor der Dampfpresse. Die Presse wurde nach ihrem Tod eingeschaltet."
+  },
+  {
+   "key": "case037.offer.title",
+   "value": "AKTE #037"
+  },
+  {
+   "key": "case037.person.aubert.info",
+   "value": "61 Jahre, Nachtwächter des Gebäudes."
+  },
+  {
+   "key": "case037.person.aubert.name",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.person.clemence.info",
+   "value": "41 Jahre, Chefdesignerin von Maison Lévrier."
+  },
+  {
+   "key": "case037.person.clemence.name",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.person.diallo.info",
+   "value": "36 Jahre, Schneiderin im Atelier; die engste Freundin des Opfers."
+  },
+  {
+   "key": "case037.person.diallo.name",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.person.lenoir.info",
+   "value": "49 Jahre, Direktor für Lizenzen und internationale Verträge der Marke."
+  },
+  {
+   "key": "case037.person.lenoir.name",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.presslog.body",
+   "value": "Protokoll der smarten Steckdose der Presse:\n\n· 19.52 ausgeschaltet (Feierabend)\n· 21.41 eingeschaltet\n· ab 21.41 Dauerstrom; um 21.43 ein Kurzschluss, der die Sicherung nicht auslöste, Isolierung an einer einzigen Ader abgeschabt.\n\nDie App der Steckdose ist mit dem Konto der Werkstattleitung verbunden; nicht am Gerät, sondern per Telefon eingeschaltet."
+  },
+  {
+   "key": "case037.presslog.title",
+   "value": "DAMPFPRESSE — STROMPROTOKOLL"
+  },
+  {
+   "key": "case037.report.body",
+   "value": "In der Nacht des 14. Juni 2030 wurde im Atelier von Maison Lévrier in Le Marais die Schneiderin Lina Haddad (27) tot vor der Dampfpresse gefunden. Die Presse eingeschaltet; in ihrer Hand das Kabel der Presse.\n\nDie Leiche fand der Nachtwächter Serge Aubert bei seiner Runde um 23.10. Das Atelier schließt um 20.00; an diesem Abend kamen und gingen mit Zugangskarte: Clémence Roux, Baptiste Lenoir, Fatou Diallo."
+  },
+  {
+   "key": "case037.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case037.request.locker",
+   "value": "Spind des Opfers öffnen"
+  },
+  {
+   "key": "case037.request.presslog",
+   "value": "Protokoll der smarten Steckdose der Presse anfordern"
+  },
+  {
+   "key": "case037.request.search",
+   "value": "Durchsuchungsbeschluss für Büro und Telefon von Baptiste Lenoir beantragen"
+  },
+  {
+   "key": "case037.search.body",
+   "value": "Mit Genehmigung der Dienststellenleitung:\n\n· Auf dem Telefon von Baptiste Lenoir wurde um 21.41 die App der Werkstattsteckdose geöffnet; das Konto wurde von der Werkstattleitung geteilt.\n· In der Büroschublade ein Cuttermesser; an der Klinge Stücke der grauen Isolierung des Pressenkabels.\n· Ein gelöschter E-Mail-Entwurf, 20.38: ‚Lina, komm, lass uns reden, ich bin im Büro.‘\n· Nachricht an Brassard um 22.06: ‚Problem gelöst. Die Tokioter Rechnungen sind sauber.‘"
+  },
+  {
+   "key": "case037.search.title",
+   "value": "BÜRO UND TELEFON VON BAPTISTE LENOIR — DURCHSUCHUNG"
+  },
+  {
+   "key": "case037.summary.evidence",
+   "value": "Die Obduktion zeigte, dass die Verbrennungen postmortal waren, das Steckdosenprotokoll, dass die Presse eine halbe Stunde nach dem Tod eingeschaltet wurde, Hofkamera und Wächter, dass der Wagen bis 21.54 dastand. Die mit zwei Gründen beantragte Durchsuchung lieferte Messer, Telefon und die Nachricht an Brassard."
+  },
+  {
+   "key": "case037.summary.lesson",
+   "value": "Passt das Protokoll der Maschine nicht zur Uhrzeit der Leiche, such die Person, die die Szene gestellt hat."
+  },
+  {
+   "key": "case037.summary.location",
+   "value": "Le Marais — Juni 2030"
+  },
+  {
+   "key": "case037.summary.truth",
+   "value": "Der Lizenzdirektor von Maison Lévrier, Baptiste Lenoir, führte die Tokioter Lizenz mit zwei Rechnungen und leitete die Differenz über das Konto von Maison Delorme. Als die Schneiderin Lina Haddad die beiden Rechnungen nebeneinanderlegte, tat Lenoir, als ginge er mit seiner Karte hinaus, kam über die Hintertreppe zurück und erdrosselte sie mit dem Maßband. Er schnitt das Kabel der Presse durch, legte es ihr in die Hand und schaltete die Steckdose um 21.41 per Telefon ein."
+  },
+  {
+   "key": "case037.suspect.label",
+   "value": "Wer hat Lina Haddad getötet?"
+  },
+  {
+   "key": "case037.tablet.caseLine",
+   "value": "AKTE #037  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case037.time.car",
+   "value": "20.10–21.53"
+  },
+  {
+   "key": "case037.time.dout",
+   "value": "20.02"
+  },
+  {
+   "key": "case037.time.found",
+   "value": "23.10"
+  },
+  {
+   "key": "case037.time.leave",
+   "value": "21.54"
+  },
+  {
+   "key": "case037.time.msg",
+   "value": "20.31"
+  },
+  {
+   "key": "case037.time.on",
+   "value": "21.41"
+  },
+  {
+   "key": "case037.time.walk",
+   "value": "20.10"
+  },
+  {
+   "key": "case037.title",
+   "value": "Akte #037 — Das Atelier"
+  },
+  {
+   "key": "case037.verdict.accident",
+   "value": "Niemand — Stromschlag an der Presse"
+  },
+  {
+   "key": "case037.verdict.aubert",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.verdict.clemence",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.verdict.lenoir",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.item.press.name",
+   "value": "Dampfpresse"
+  },
+  {
+   "key": "case037.item.press.detail",
+   "value": "Die industrielle Dampfpresse im Atelier; die Isolierung ihres Kabels mit einem Messer abgeschabt."
+  },
+  {
+   "key": "case037.item.tape.name",
+   "value": "Schneidermaßband"
+  },
+  {
+   "key": "case037.item.tape.detail",
+   "value": "Unter dem Tisch des Opfers gefundenes Stoffmaßband; in der Mitte ein gedehnter, zerknitterter Abschnitt."
+  },
+  {
+   "key": "case037.item.invoices.name",
+   "value": "Lizenzrechnungen"
+  },
+  {
+   "key": "case037.item.invoices.detail",
+   "value": "Im Spind des Opfers versteckte Fotokopien: Tokioter Lizenzrechnungen, in den Ecken handschriftlich zwei Buchstaben."
+  }
+ ]
+}
