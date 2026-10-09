@@ -1,0 +1,580 @@
+{
+ "entries": [
+  {
+   "key": "case068.ainsley.body",
+   "value": "Trainer."
+  },
+  {
+   "key": "case068.ainsley.deflect",
+   "value": "Pferde lügen nicht. Menschen lügen."
+  },
+  {
+   "key": "case068.ainsley.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case068.ainsley.end.presented.bets",
+   "value": "Die Konten gehören nicht mir. Sie haben den Namen meiner Tochter benutzt. Aber um das Röhrchen zu holen, war ich da, ja."
+  },
+  {
+   "key": "case068.ainsley.end.presented.float",
+   "value": "Wäre das Röhrchen ins Labor gegangen, wäre ich erledigt gewesen, meine Tochter auch. Was im Blut des Pferdes war, wusste ich. Ich sagte zu Owen ‚gib es her‘, er gab es nicht. Der Hufhammer war in meiner Hand. Das Pferd band ich hinten an, damit es wie ein Tritt aussieht. Die Anweisung kam von oben; ‚es soll nicht gewinnen‘, sagten sie, und ich habe dafür gesorgt."
+  },
+  {
+   "key": "case068.ainsley.end.question",
+   "value": "Sie haben Owen Pryce getötet."
+  },
+  {
+   "key": "case068.ainsley.night.answer",
+   "value": "Zu Hause. Die Pferde werden um zehn gefüttert, ich gehe um neun. Owen ist in diese Box gegangen, das Pferd hat sich erschreckt. Kommt vor."
+  },
+  {
+   "key": "case068.ainsley.night.answer.demeanor",
+   "value": "Kneift die Augen zusammen und blickt zur Stalltür."
+  },
+  {
+   "key": "case068.ainsley.night.question",
+   "value": "Wo waren Sie gestern Nacht?"
+  },
+  {
+   "key": "case068.ainsley.title",
+   "value": "Grant Ainsley — Befragung"
+  },
+  {
+   "key": "case068.autopsy.body",
+   "value": "· Todesursache: Schädelbruch; ein einzelner Schlag an die linke Schläfe.\n· Die Form der Wunde passt zum Abdruck eines Hufeisens, der Winkel aber nicht zum Tritt eines Pferdes, sondern zum Schwung eines Werkzeugs in der Hand eines stehenden Menschen.\n· In der Wunde weder Pferdehaar noch Mist; aber Eisenrost.\n· Todeszeit: 22.00–23.30."
+  },
+  {
+   "key": "case068.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case068.bets.body",
+   "value": "Gegen Southern Liaison in den letzten vier Tagen:\n\n· 412 Konten, insgesamt 1,9 Millionen Dollar.\n· 300 der Konten wurden von denselben drei Telefonen eröffnet; eines auf den Namen der Tochter von Grant Ainsley.\n· Im Gewinnfall werden die Auszahlungen auf ein Unterkonto von Pacific Liaison Trust überwiesen."
+  },
+  {
+   "key": "case068.bets.title",
+   "value": "WETTPROTOKOLL"
+  },
+  {
+   "key": "case068.clue.blood",
+   "value": "Der Inspektor nimmt selbst eine Blutprobe vom Pferd; der Trainer steht daneben."
+  },
+  {
+   "key": "case068.clue.found",
+   "value": "Der Stallbursche findet den Inspektor in der Box, das Pferd angebunden."
+  },
+  {
+   "key": "case068.clue.shout",
+   "value": "Im Stall ein Ruf: ‚Morgen geht das Röhrchen ins Labor‘; danach eine Anhängertür."
+  },
+  {
+   "key": "case068.clue.source.deng",
+   "value": "Deng Akol"
+  },
+  {
+   "key": "case068.clue.source.harriet",
+   "value": "Harriet Combe"
+  },
+  {
+   "key": "case068.custody.forge",
+   "value": "In die Esse des Hufschmieds"
+  },
+  {
+   "key": "case068.custody.lab",
+   "value": "Ins Labor"
+  },
+  {
+   "key": "case068.custody.label",
+   "value": "Wohin kam das verschwundene Probenröhrchen des Inspektors?"
+  },
+  {
+   "key": "case068.custody.tube",
+   "value": "Unter das Stroh im Anhänger des Trainers"
+  },
+  {
+   "key": "case068.deng.body",
+   "value": "Stallbursche."
+  },
+  {
+   "key": "case068.deng.deflect",
+   "value": "In diesem Stall schlafe ich, Sir."
+  },
+  {
+   "key": "case068.deng.night.answer",
+   "value": "Ich schlafe im Zimmer über der Box. Gegen elf hörte ich Geräusche, jemand rief: ‚Morgen geht das Röhrchen ins Labor.‘ Dann eine Anhängertür. Am Morgen fand ich den Inspektor. Das Pferd war angebunden; ich habe es nicht angebunden, dieses Pferd wird nachts nie angebunden."
+  },
+  {
+   "key": "case068.deng.night.answer.demeanor",
+   "value": "Verschränkt die Finger ineinander und drückt sie."
+  },
+  {
+   "key": "case068.deng.night.question",
+   "value": "Was ist in der Nacht im Stall passiert?"
+  },
+  {
+   "key": "case068.deng.title",
+   "value": "Deng Akol — Befragung"
+  },
+  {
+   "key": "case068.epilogue.custody.forge",
+   "value": "In der Esse war kein Röhrchen."
+  },
+  {
+   "key": "case068.epilogue.custody.lab",
+   "value": "Das Röhrchen hat das Labor nie erreicht."
+  },
+  {
+   "key": "case068.epilogue.custody.tube",
+   "value": "Festgehalten wurde, dass das Röhrchen im Anhänger versteckt war."
+  },
+  {
+   "key": "case068.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; das Pferd lief im Cup und verlor."
+  },
+  {
+   "key": "case068.epilogue.verdict.ainsley",
+   "value": "Grant Ainsley wurde festgenommen; Southern Liaison wurde vom Cup zurückgezogen. Das Unterkonto von Pacific Liaison Trust wurde eingefroren."
+  },
+  {
+   "key": "case068.epilogue.verdict.rafferty",
+   "value": "Declan Rafferty wurde vernommen; die eigentliche Hand blieb frei."
+  },
+  {
+   "key": "case068.epilogue.verdict.sione",
+   "value": "Sione Taufa wurde festgenommen; der Hammer blieb im Anhänger."
+  },
+  {
+   "key": "case068.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case068.evidence.bets",
+   "value": "Wettprotokoll"
+  },
+  {
+   "key": "case068.evidence.float",
+   "value": "Durchsuchung des Anhängers"
+  },
+  {
+   "key": "case068.evidence.syndicate",
+   "value": "Syndikatsvertrag"
+  },
+  {
+   "key": "case068.feedback.accident",
+   "value": "In der Wunde ist kein Pferdehaar, der Winkel passt zum Schwung eines Menschen; das Pferd war hinten angebunden."
+  },
+  {
+   "key": "case068.feedback.ainsley",
+   "value": "Der Hufhammer und das verschwundene Röhrchen des Inspektors kamen aus seinem Anhänger; eines der Konten, auf denen sich die Wetten häuften, läuft auf den Namen seiner Tochter. Das Syndikat versprach ihm eine Prämie fürs ‚Befolgen der Anweisung‘."
+  },
+  {
+   "key": "case068.feedback.rafferty",
+   "value": "Der Besitzer gab die Anweisung, war aber in jener Nacht nicht im Stall, und der Hammer gehört nicht ihm."
+  },
+  {
+   "key": "case068.feedback.sione",
+   "value": "Alle Hämmer des Hufschmieds sind an ihrem Platz; die alten Hufeisen hatte jemand anderes mitgenommen."
+  },
+  {
+   "key": "case068.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case068.file.value.bureau",
+   "value": "BDA Melbourne — Dienststelle Footscray"
+  },
+  {
+   "key": "case068.file.value.location",
+   "value": "Ställe von Flemington, Melbourne"
+  },
+  {
+   "key": "case068.file.value.number",
+   "value": "BDA-MEL-2030-0322"
+  },
+  {
+   "key": "case068.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case068.file.value.reporter",
+   "value": "Stallbursche"
+  },
+  {
+   "key": "case068.float.body",
+   "value": "Der Pferdeanhänger von Grant Ainsley (Stallparkplatz):\n\n· Im Werkzeugkasten ein kurzstieliger Hammer, an dessen Ende ein altes Hufeisen genietet ist; am Eisen getrocknetes Blut und Rost.\n· Unter dem Stroh ein versiegeltes Probenröhrchen; auf dem Etikett das Kürzel des Inspektors und ‚S. Liaison‘.\n· Das Scharnier der Anhängertür ist frisch geölt."
+  },
+  {
+   "key": "case068.float.title",
+   "value": "ANHÄNGER DES TRAINERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case068.harriet.body",
+   "value": "Tierärztin des Stalls."
+  },
+  {
+   "key": "case068.harriet.deflect",
+   "value": "Meine Arbeit ist die Gesundheit der Pferde."
+  },
+  {
+   "key": "case068.harriet.gone",
+   "value": "Harriet Combe ist mit dem Mittagsflug nach London abgereist. Ihr neuer Arbeitgeber lehnte eine Befragung ab."
+  },
+  {
+   "key": "case068.harriet.horse.answer",
+   "value": "Ich habe mir die Hinterhufe des Pferdes angesehen; kein Blut, keine Haare. Und dieses Pferd ist ruhig. Der Inspektor wollte gestern Abend das Blut des Pferdes; die Probe habe nicht ich genommen, er hat sie selbst genommen. Der Trainer stand daneben, sehr angespannt. Morgen fliege ich nach London; ein Jobangebot."
+  },
+  {
+   "key": "case068.harriet.horse.answer.demeanor",
+   "value": "Verschränkt die Arme vor der Brust und blickt zur Stalltür."
+  },
+  {
+   "key": "case068.harriet.horse.question",
+   "value": "Kann das Pferd ausgeschlagen haben?"
+  },
+  {
+   "key": "case068.harriet.title",
+   "value": "Harriet Combe — Befragung"
+  },
+  {
+   "key": "case068.keogh.body",
+   "value": "Jockey."
+  },
+  {
+   "key": "case068.keogh.deflect",
+   "value": "Ich reite das Pferd, auf das man mich setzt."
+  },
+  {
+   "key": "case068.keogh.ride.answer",
+   "value": "Wie gesagt. Man sagte mir nicht ‚es soll nicht unter die ersten vier‘, man sagte ‚nicht forcieren‘. Das ist ein Unterschied. Mai Pham hat mich letzte Woche angerufen, es gebe jede Menge Wetten gegen das Pferd."
+  },
+  {
+   "key": "case068.keogh.ride.answer.demeanor",
+   "value": "Heftet den Blick auf den Boden."
+  },
+  {
+   "key": "case068.keogh.ride.question",
+   "value": "Wie wollten Sie das Pferd im Cup reiten?"
+  },
+  {
+   "key": "case068.keogh.title",
+   "value": "Shane Keogh — Befragung"
+  },
+  {
+   "key": "case068.line_bets.body",
+   "value": "Wettlinie geöffnet: Konten, Einsätze, Verbindungen."
+  },
+  {
+   "key": "case068.line_bets.title",
+   "value": "LINIE B — WETTEN"
+  },
+  {
+   "key": "case068.line_owner.body",
+   "value": "Eigentümerlinie geöffnet: Syndikatsverträge, Stiftungsverbindungen."
+  },
+  {
+   "key": "case068.line_owner.title",
+   "value": "LINIE C — EIGENTUM"
+  },
+  {
+   "key": "case068.line_stable.body",
+   "value": "Stalllinie geöffnet: Anhänger, Werkzeugkästen, Ein- und Ausgänge des Stalls."
+  },
+  {
+   "key": "case068.line_stable.title",
+   "value": "LINIE A — STALL"
+  },
+  {
+   "key": "case068.mai.body",
+   "value": "Risikoanalystin des Wettanbieters."
+  },
+  {
+   "key": "case068.mai.deflect",
+   "value": "Wenn die Zahlen etwas sagen, höre ich zu."
+  },
+  {
+   "key": "case068.mai.money.answer",
+   "value": "Gegen ein Favoritenpferd, vier Tage vorher, kleine Beträge, aber Hunderte Konten. Inspektor Pryce habe ich Bescheid gegeben. Er sagte: ‚Ich schaue mir das Blut des Pferdes an.‘"
+  },
+  {
+   "key": "case068.mai.money.answer.demeanor",
+   "value": "Schiebt ihre Brille auf der Nase hoch."
+  },
+  {
+   "key": "case068.mai.money.question",
+   "value": "Was für eine Bewegung haben Sie gesehen?"
+  },
+  {
+   "key": "case068.mai.title",
+   "value": "Mai Pham — Befragung"
+  },
+  {
+   "key": "case068.method.fall",
+   "value": "Er stürzte und schlug mit dem Kopf auf"
+  },
+  {
+   "key": "case068.method.kick",
+   "value": "Das Pferd hat ausgeschlagen"
+  },
+  {
+   "key": "case068.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case068.method.mallet",
+   "value": "Er wurde mit einem Hammer mit angenietetem Hufeisen geschlagen"
+  },
+  {
+   "key": "case068.offer.subtitle",
+   "value": "STALL  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case068.offer.summary",
+   "value": "In der Box des Cup-Favoriten liegt ein Rennaufsichtsinspektor tot; der erste Bericht sagt ‚Huftritt‘."
+  },
+  {
+   "key": "case068.offer.title",
+   "value": "AKTE #068"
+  },
+  {
+   "key": "case068.person.ainsley.info",
+   "value": "49 Jahre, Trainer in Flemington; Trainer des Pferdes ‚Southern Liaison‘."
+  },
+  {
+   "key": "case068.person.ainsley.name",
+   "value": "Grant Ainsley"
+  },
+  {
+   "key": "case068.person.deng.info",
+   "value": "24 Jahre, Stallbursche; fand die Leiche."
+  },
+  {
+   "key": "case068.person.deng.name",
+   "value": "Deng Akol"
+  },
+  {
+   "key": "case068.person.harriet.info",
+   "value": "45 Jahre, Tierärztin des Stalls."
+  },
+  {
+   "key": "case068.person.harriet.name",
+   "value": "Harriet Combe"
+  },
+  {
+   "key": "case068.person.keogh.info",
+   "value": "27 Jahre, Jockey."
+  },
+  {
+   "key": "case068.person.keogh.name",
+   "value": "Shane Keogh"
+  },
+  {
+   "key": "case068.person.mai.info",
+   "value": "31 Jahre, Risikoanalystin bei einem Wettanbieter."
+  },
+  {
+   "key": "case068.person.mai.name",
+   "value": "Mai Pham"
+  },
+  {
+   "key": "case068.person.rafferty.info",
+   "value": "61 Jahre, Pferdebesitzer; Vertreter des Syndikats."
+  },
+  {
+   "key": "case068.person.rafferty.name",
+   "value": "Declan Rafferty"
+  },
+  {
+   "key": "case068.person.sione.info",
+   "value": "38 Jahre, Hufschmied."
+  },
+  {
+   "key": "case068.person.sione.name",
+   "value": "Sione Taufa"
+  },
+  {
+   "key": "case068.rafferty.body",
+   "value": "Pferdebesitzer."
+  },
+  {
+   "key": "case068.rafferty.deflect",
+   "value": "Ich unterschreibe nur Schecks."
+  },
+  {
+   "key": "case068.rafferty.own.answer",
+   "value": "Ein Syndikat. Ich bin der Vertreter. Das Geld kommt von einer Stiftung; nach ihrem Namen zu fragen, ist nicht Ihre Sache. Den Namen des Pferdes haben sie ausgesucht."
+  },
+  {
+   "key": "case068.rafferty.own.answer.demeanor",
+   "value": "Richtet seine Krawatte, ohne sie zu lockern."
+  },
+  {
+   "key": "case068.rafferty.own.question",
+   "value": "Wer ist der wahre Besitzer des Pferdes?"
+  },
+  {
+   "key": "case068.rafferty.title",
+   "value": "Declan Rafferty — Befragung"
+  },
+  {
+   "key": "case068.report.body",
+   "value": "Am Morgen des 1. November 2030 wurde in den Ställen von Flemington der Inspektor der Rennaufsicht Owen Pryce (44) tot in der Box des Pferdes ‚Southern Liaison‘ gefunden. Er hatte eine schwere Kopfwunde; die erste Einschätzung lautete ‚Huftritt‘.\n\nDie Leiche fand der Stallbursche Deng Akol um 05.10. Trainer Grant Ainsley, Besitzer Declan Rafferty, Jockey Shane Keogh, Tierärztin Harriet Combe und Hufschmied Sione Taufa waren am Morgen im Stall. Mai Pham vom Wettanbieter hatte zuvor wegen einer Meldung über ‚ungewöhnliche Bewegungen‘ angerufen."
+  },
+  {
+   "key": "case068.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case068.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case068.request.bets",
+   "value": "Wettprotokoll anfordern"
+  },
+  {
+   "key": "case068.request.float",
+   "value": "Durchsuchungsbeschluss für den Anhänger des Trainers beantragen"
+  },
+  {
+   "key": "case068.request.line_bets",
+   "value": "Wettlinie öffnen"
+  },
+  {
+   "key": "case068.request.line_owner",
+   "value": "Eigentümerlinie öffnen"
+  },
+  {
+   "key": "case068.request.line_stable",
+   "value": "Stalllinie öffnen"
+  },
+  {
+   "key": "case068.request.stall",
+   "value": "Untersuchung der Box anfordern"
+  },
+  {
+   "key": "case068.request.syndicate",
+   "value": "Syndikatsvertrag anfordern"
+  },
+  {
+   "key": "case068.sione.body",
+   "value": "Hufschmied."
+  },
+  {
+   "key": "case068.sione.deflect",
+   "value": "Die Eisen schlage ich auf, den Rest weiß ich nicht."
+  },
+  {
+   "key": "case068.sione.shoe.answer",
+   "value": "Meine Hämmer liegen neben der Esse, Sir; alle sechs an ihrem Platz. Alte Hufeisen sammle ich, wer will, nimmt sich welche; letzte Woche hat Grant zwei genommen, ‚für Glück‘, sagte er."
+  },
+  {
+   "key": "case068.sione.shoe.answer.demeanor",
+   "value": "Spielt mit dem Nagel in der Tasche seiner Schürze."
+  },
+  {
+   "key": "case068.sione.shoe.question",
+   "value": "Der Abdruck in der Wunde soll einem Hufeisen ähneln."
+  },
+  {
+   "key": "case068.sione.title",
+   "value": "Sione Taufa — Befragung"
+  },
+  {
+   "key": "case068.stall.body",
+   "value": "Die Box von Southern Liaison:\n\n· Blut nur auf der Türseite; das Pferd war hinten in der Box angebunden, das Seil straff.\n· Im Stroh eine Schleifspur, von der Tür nach innen.\n· Die Probentasche des Inspektors in der Ecke; einer von zwölf Plätzen leer, das Siegel gebrochen."
+  },
+  {
+   "key": "case068.stall.title",
+   "value": "UNTERSUCHUNG DER BOX"
+  },
+  {
+   "key": "case068.summary.evidence",
+   "value": "Die Tierärztin musste vor der Obduktion befragt werden; danach war sie weg. Von drei Linien waren zwei gleichzeitig offen: die Stalllinie lieferte den Hammer, die Wettlinie den Namen der Tochter, die Eigentümerlinie die Prämie."
+  },
+  {
+   "key": "case068.summary.lesson",
+   "value": "Das Pferd hatte nicht ausgeschlagen. Es stand nur da."
+  },
+  {
+   "key": "case068.summary.location",
+   "value": "Ställe von Flemington — November 2030"
+  },
+  {
+   "key": "case068.summary.truth",
+   "value": "Das Favoritenpferd im Besitz von Pacific Liaison Trust durfte den Cup nicht gewinnen. Der Trainer Grant Ainsley dopte das Pferd; Hunderte Konten wetteten gegen es. Der Inspektor Owen Pryce nahm eine Blutprobe vom Pferd. Ainsley verlangte in der Nacht das Röhrchen zurück, bekam es nicht, schlug mit dem Hammer mit angenietetem Hufeisen zu, band das Pferd hinten an und ließ es wie einen Tritt aussehen."
+  },
+  {
+   "key": "case068.suspect.label",
+   "value": "Wer hat Owen Pryce getötet?"
+  },
+  {
+   "key": "case068.syndicate.body",
+   "value": "Syndikat ‚Southern Liaison‘:\n\n· Einziger Teilhaber: Pacific Liaison Trust (Melbourne). Vertreter Declan Rafferty.\n· ‚Ergebnisprämie‘ für den Trainer Grant Ainsley: zehn Prozent, wenn das Pferd gewinnt, dreißig Prozent, ‚wenn die Anweisung des Syndikats befolgt wird‘.\n· Anweisungen werden mündlich erteilt."
+  },
+  {
+   "key": "case068.syndicate.title",
+   "value": "SYNDIKATSVERTRAG"
+  },
+  {
+   "key": "case068.tablet.caseLine",
+   "value": "AKTE #068  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case068.time.blood",
+   "value": "abends"
+  },
+  {
+   "key": "case068.time.found",
+   "value": "05.10"
+  },
+  {
+   "key": "case068.time.shout",
+   "value": "23.00"
+  },
+  {
+   "key": "case068.title",
+   "value": "Akte #068 — Stall"
+  },
+  {
+   "key": "case068.verdict.accident",
+   "value": "Niemand — das Pferd hat ausgeschlagen"
+  },
+  {
+   "key": "case068.verdict.ainsley",
+   "value": "Grant Ainsley"
+  },
+  {
+   "key": "case068.verdict.rafferty",
+   "value": "Declan Rafferty"
+  },
+  {
+   "key": "case068.verdict.sione",
+   "value": "Sione Taufa"
+  },
+  {
+   "key": "case068.item.mallet.name",
+   "value": "Hufhammer"
+  },
+  {
+   "key": "case068.item.mallet.detail",
+   "value": "Ein kurzstieliger Hammer, an dessen Ende ein altes Hufeisen genietet ist; kam aus dem Werkzeugkasten des Pferdeanhängers des Trainers."
+  },
+  {
+   "key": "case068.item.swab.name",
+   "value": "Fehlendes Probenröhrchen"
+  },
+  {
+   "key": "case068.item.swab.detail",
+   "value": "Die Probentasche des Inspektors; einer von zwölf Plätzen leer, das Siegel gebrochen."
+  },
+  {
+   "key": "case068.item.slip.name",
+   "value": "Wettprotokoll"
+  },
+  {
+   "key": "case068.item.slip.detail",
+   "value": "Das Protokoll der Wetten, die sich vier Tage vor dem Cup gegen das Pferd häuften."
+  }
+ ]
+}
