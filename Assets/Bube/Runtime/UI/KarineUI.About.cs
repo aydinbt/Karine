@@ -14,13 +14,6 @@ public static partial class KarineUI {
   return head;
  }
 
- // Emeği geçenler satırı: solda amber başlık, sağda gri açıklama.
- public static void AboutCredit(VisualElement parent,string title,string detail) {
-  var row=new VisualElement();row.style.flexDirection=FlexDirection.Row;row.style.alignItems=Align.Center;
-  row.style.paddingTop=KarineTheme.SpaceSm;row.style.paddingBottom=KarineTheme.SpaceSm;row.style.borderBottomWidth=1;row.style.borderBottomColor=KarineTheme.Border;parent.Add(row);
-  var t=Write(row,title.ToUpper(TextCulture),KarineTheme.Accent,M.RowTitleSize,Heading);t.style.marginBottom=0;t.style.width=150;t.style.flexShrink=0;t.style.letterSpacing=1;
-  var d=Body_(row,detail,M.RowHintSize+1);d.style.color=KarineTheme.Secondary;d.style.marginBottom=0;d.style.flexShrink=1;d.style.whiteSpace=WhiteSpace.Normal;
- }
 
  // Bağlantı düğmesi: amber ikon, başlık + açıklama, sağda ok.
  public static Button AboutLink(VisualElement parent,string icon,string title,string detail,Action click) {

@@ -159,10 +159,7 @@ public sealed partial class BubeApp {
   KarineUI.StudioMark(left,KarineTheme.Loading.StudioHeight+12);
   var right=new KarineScrollView();right.style.flexGrow=1;right.style.minHeight=0;right.style.paddingLeft=KarineTheme.SpaceXl;columns.Add(right);
   var list=right.contentContainer;
-  KarineUI.ModalSection(list,T("about.credits"));
-  KarineUI.AboutCredit(list,T("about.credit.studio"),"bubeGames");
-  KarineUI.AboutCredit(list,T("about.credit.fonts"),T("about.credit.fonts.detail"));
-  KarineUI.ModalSection(list,T("about.links")).style.marginTop=KarineTheme.SpaceLg;
+  KarineUI.ModalSection(list,T("about.links"));
   // Adres config'te yoksa düğme yerinde durur ama basılmaz.
   KarineUI.AboutLink(list,"lock",T("about.link.privacy"),T("about.link.privacy.hint"),OpenPrivacy).SetEnabled(!string.IsNullOrEmpty(config.privacyUrl));
   KarineUI.AboutLink(list,"chat",T("about.link.feedback"),T("about.link.feedback.hint"),OpenSupport).SetEnabled(!string.IsNullOrEmpty(config.supportEmail));
