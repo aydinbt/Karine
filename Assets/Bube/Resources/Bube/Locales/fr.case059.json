@@ -1,0 +1,516 @@
+{
+ "entries": [
+  {
+   "key": "case059.amaia.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case059.amaia.deflect",
+   "value": "Mon père et moi, on ne se parlait plus depuis deux ans."
+  },
+  {
+   "key": "case059.amaia.title",
+   "value": "Amaia Santa Ana — audition"
+  },
+  {
+   "key": "case059.amaia.will.answer",
+   "value": "Je voulais fermer la fondation, parce que je savais qu’elle était sale. Lui appelait ça « l’héritage de ton grand-père ». La semaine dernière il m’a appelée, la première fois en deux ans. « Tu avais raison », il a dit. « Demain j’apporte tout. » Je suis l’héritière, oui ; mais hier soir j’étais à Madrid. Je suis venue par le premier train ce matin."
+  },
+  {
+   "key": "case059.amaia.will.answer.demeanor",
+   "value": "Fait tourner la bague en argent à son doigt."
+  },
+  {
+   "key": "case059.amaia.will.question",
+   "value": "Pourquoi ne parliez-vous plus à votre père ?"
+  },
+  {
+   "key": "case059.archive.body",
+   "value": "Un dossier ressorti des archives (juin 1989, classé comme « accident ») :\n\n· Gaspar Santa Ana (61 ans) a été retrouvé noyé dans la citerne du palais ; le couvercle ouvert. « Il est descendu la nuit se rafraîchir et il est tombé. »\n· Déclaration de l’intendant ce jour-là : « Il y avait une dame avec lui. » Cette phrase est barrée, avec une note dans la marge : « témoin dans l’erreur ».\n· Une semaine plus tard, le conseil d’administration de la Fundación Santa Ana (fondée en 1985) a nommé la Dre Edda Varga conseillère principale ; le même mois, un gros « don » est arrivé à la fondation depuis Napoli, via Caruso Marittima.\n· Le nom de l’officier qui a classé le dossier apparaît deux ans plus tard sur la liste des boursiers de la fondation.\n· Registre du personnel de la fondation, 1994 : « Mercedes Llorente, stagiaire — sur recommandation de la Dre Varga. »"
+  },
+  {
+   "key": "case059.archive.reopen",
+   "value": "Le dossier classé comme « accident » il y a quarante et un ans a été rouvert."
+  },
+  {
+   "key": "case059.archive.title",
+   "value": "LE DOSSIER DE 1989 — FERNANDO SANTA ANA"
+  },
+  {
+   "key": "case059.autopsy.body",
+   "value": "· Cause du décès : noyade ; un mètre d’eau dans la citerne.\n· De la chute de six mètres, clavicule et poignet droits cassés ; pas de coup violent à la tête, il était conscient en tombant.\n· De la chaux de la paroi de la citerne sous les ongles : il a essayé de remonter.\n· Dans le dos, entre les omoplates, un léger hématome de la taille de deux mains.\n· Heure du décès : 23.30–01.00."
+  },
+  {
+   "key": "case059.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case059.bermejo.body",
+   "value": "Auditeur financier."
+  },
+  {
+   "key": "case059.bermejo.deflect",
+   "value": "Je regarde des chiffres."
+  },
+  {
+   "key": "case059.bermejo.money.answer",
+   "value": "Les tableaux que j’ai préparés. Trente ans de dons : le hangar à bateaux, la numérisation des archives, la restauration de la confrérie, les terres de la coopérative… En face de chacun, un paiement de « conseil », tous par la même société de réassurance vers Montréal. Bénéficiaire : « bube International Liaison Programme ». Le nom ressemble au vôtre, je sais. Je suis parti à onze heures et demie du soir ; Mercedes m’a pris le dossier en disant : « Je le donnerai au directeur. »"
+  },
+  {
+   "key": "case059.bermejo.money.answer.demeanor",
+   "value": "Enlève ses lunettes et les essuie avec le bout de sa cravate."
+  },
+  {
+   "key": "case059.bermejo.money.question",
+   "value": "Qu’y avait-il dans le dossier de Rodrigo ?"
+  },
+  {
+   "key": "case059.bermejo.title",
+   "value": "Héctor Bermejo — audition"
+  },
+  {
+   "key": "case059.cctv.event.lean",
+   "value": "Caméra : L’homme se penche au-dessus de l’ouverture ; la femme juste derrière lui, la main levée."
+  },
+  {
+   "key": "case059.cctv.event.lock",
+   "value": "Caméra : La femme seule ; elle referme le couvercle de fer et tourne la clé."
+  },
+  {
+   "key": "case059.cctv.event.talk",
+   "value": "Caméra : Un homme âgé en costume sombre et une femme en tailleur sombre au bord de la citerne ; le couvercle de fer est ouvert."
+  },
+  {
+   "key": "case059.cctv.overlay",
+   "value": "PSA-PATIO"
+  },
+  {
+   "key": "case059.cctv.period",
+   "value": "28 octobre 2030"
+  },
+  {
+   "key": "case059.cctv.source",
+   "value": "Caméra de la cour"
+  },
+  {
+   "key": "case059.clue.found",
+   "value": "L’intendant voit l’écharpe qui pend du couvercle."
+  },
+  {
+   "key": "case059.clue.lean",
+   "value": "L’homme se penche ; la femme derrière lui, la main levée."
+  },
+  {
+   "key": "case059.clue.left",
+   "value": "L’auditeur quitte le palais ; le dossier est chez la directrice adjointe."
+  },
+  {
+   "key": "case059.clue.lock",
+   "value": "La femme seule ; elle referme le couvercle et le verrouille."
+  },
+  {
+   "key": "case059.clue.source.bermejo",
+   "value": "Héctor Bermejo"
+  },
+  {
+   "key": "case059.clue.source.isidro",
+   "value": "Isidro Navas"
+  },
+  {
+   "key": "case059.clue.talk",
+   "value": "L’homme âgé et la femme en tailleur au bord de la citerne ouverte."
+  },
+  {
+   "key": "case059.custody.drawer",
+   "value": "Dans le compartiment secret du bureau de la directrice adjointe"
+  },
+  {
+   "key": "case059.custody.kitchen",
+   "value": "Dans le tiroir de l’intendant"
+  },
+  {
+   "key": "case059.custody.label",
+   "value": "Où est passée la clé de la citerne ?"
+  },
+  {
+   "key": "case059.custody.well",
+   "value": "Jetée dans la citerne"
+  },
+  {
+   "key": "case059.epilogue.custody.drawer",
+   "value": "Il a été consigné que la clé avait été retrouvée dans le compartiment secret du bureau."
+  },
+  {
+   "key": "case059.epilogue.custody.kitchen",
+   "value": "La clé de l’intendant était dans son propre tiroir ; la deuxième clé n’y était pas."
+  },
+  {
+   "key": "case059.epilogue.custody.well",
+   "value": "La citerne a été vidée ; il n’y avait pas de clé."
+  },
+  {
+   "key": "case059.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel, comme celui de son père. L’heure du rendez-vous est passée, vide."
+  },
+  {
+   "key": "case059.epilogue.verdict.amaia",
+   "value": "Amaia Santa Ana a été arrêtée ; la direction de la fondation a été laissée à la directrice adjointe."
+  },
+  {
+   "key": "case059.epilogue.verdict.isidro",
+   "value": "Isidro Navas a été arrêté ; il a poursuivi en prison ses quarante et un ans de silence."
+  },
+  {
+   "key": "case059.epilogue.verdict.mercedes",
+   "value": "Mercedes Llorente a été arrêtée. Le dossier de 1989 a été rouvert. Les trente ans de paiements de la Fundación Santa Ana, la société de réassurance de Montréal et le bénéficiaire nommé « bube International Liaison Programme » ont été transmis à bube Montréal — antenne du Mile End."
+  },
+  {
+   "key": "case059.evidence.archive",
+   "value": "Le dossier de 1989"
+  },
+  {
+   "key": "case059.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case059.evidence.office",
+   "value": "Fouille du bureau de la directrice adjointe"
+  },
+  {
+   "key": "case059.evidence.patio",
+   "value": "Caméra de la cour"
+  },
+  {
+   "key": "case059.feedback.accident",
+   "value": "Il y a deux marques de mains dans le dos, et le couvercle a été verrouillé de l’extérieur."
+  },
+  {
+   "key": "case059.feedback.amaia",
+   "value": "La fille est l’héritière et était brouillée avec son père, mais cette nuit-là elle était à Madrid ; c’est elle qui voulait fermer la fondation."
+  },
+  {
+   "key": "case059.feedback.isidro",
+   "value": "La clé de l’intendant était dans son tiroir, et la caméra montre une femme verrouiller le couvercle."
+  },
+  {
+   "key": "case059.feedback.mercedes",
+   "value": "La clé de la citerne est sortie du compartiment secret de son bureau, avec de la chaux fraîche et son empreinte ; le dossier brûlé était dans sa cheminée. L’intendant l’a vue descendre dans la cour avec le directeur, et la caméra montre la femme verrouiller seule le couvercle."
+  },
+  {
+   "key": "case059.file.caseType",
+   "value": "MEURTRE"
+  },
+  {
+   "key": "case059.file.value.bureau",
+   "value": "BDS Sevilla — Antenne de Triana"
+  },
+  {
+   "key": "case059.file.value.location",
+   "value": "Palacio Santa Ana, Triana, Sevilla"
+  },
+  {
+   "key": "case059.file.value.number",
+   "value": "BDS-SVQ-2030-0133"
+  },
+  {
+   "key": "case059.file.value.offence",
+   "value": "Meurtre"
+  },
+  {
+   "key": "case059.file.value.reporter",
+   "value": "Intendant"
+  },
+  {
+   "key": "case059.isidro.1989.answer",
+   "value": "La même citerne. J’avais vingt-six ans. Cette nuit-là aussi, il y avait une femme avec lui, une étrangère, blonde ; Monsieur Gaspar lui a dit : « Edda, non », je l’ai entendu. Le matin, ils ont dit « accident ». Une semaine plus tard, le conseil l’a nommée conseillère principale. Pendant quarante et un ans, je me suis tu. Madame Mercedes, c’est la main de cette femme ici."
+  },
+  {
+   "key": "case059.isidro.1989.answer.demeanor",
+   "value": "Ne quitte pas des yeux l’oranger de la cour."
+  },
+  {
+   "key": "case059.isidro.1989.question",
+   "value": "Qu’est-il arrivé à Don Gaspar en 1989 ?"
+  },
+  {
+   "key": "case059.isidro.body",
+   "value": "Intendant."
+  },
+  {
+   "key": "case059.isidro.deflect",
+   "value": "J’ouvre et je ferme la porte de cette maison."
+  },
+  {
+   "key": "case059.isidro.night.answer",
+   "value": "Toute la journée, Don Rodrigo a préparé un dossier dans le cabinet, un dossier épais. Vers onze heures du soir, Madame Mercedes a dit : « Je vais vous montrer quelque chose », et ils sont descendus dans la cour. Deux personnes seulement ont la clé de la citerne : moi et Madame Mercedes. La mienne était dans mon tiroir. Le matin, j’ai vu l’écharpe."
+  },
+  {
+   "key": "case059.isidro.night.answer.demeanor",
+   "value": "Vérifie un à un les boutons de son gilet."
+  },
+  {
+   "key": "case059.isidro.night.question",
+   "value": "Que s’est-il passé dans la cour hier soir ?"
+  },
+  {
+   "key": "case059.isidro.title",
+   "value": "Isidro Navas — audition"
+  },
+  {
+   "key": "case059.mercedes.body",
+   "value": "Directrice adjointe."
+  },
+  {
+   "key": "case059.mercedes.deflect",
+   "value": "Depuis trente ans, la fondation a donné à cette ville des écoles, un hangar à bateaux, des archives."
+  },
+  {
+   "key": "case059.mercedes.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case059.mercedes.end.presented.archive",
+   "value": "Son père aussi avait dit non. Edda n’oublie jamais qu’on lui a dit non."
+  },
+  {
+   "key": "case059.mercedes.end.presented.office",
+   "value": "Rodrigo a dit : « J’en ai fini avec E. V. », il a préparé un dossier, il allait aller à bube. J’ai appelé Edda ; elle a dit : « Souviens-toi de Gaspar », c’est tout. Je lui ai ouvert la citerne et j’ai dit : « Ton père a laissé quelque chose ici. » Il s’est penché. J’ai poussé. J’ai verrouillé le couvercle, brûlé le dossier dans la cheminée, mis la clé dans le compartiment secret. Ensuite j’ai envoyé un message. Aucune réponse n’est venue. Elle ne vient jamais."
+  },
+  {
+   "key": "case059.mercedes.end.question",
+   "value": "Vous avez poussé Rodrigo dans la citerne."
+  },
+  {
+   "key": "case059.mercedes.patio.answer",
+   "value": "Rodrigo était fatigué ; il voulait prendre l’air. Il a fait ouvrir la citerne ; il voulait regarder. C’était son obsession depuis son père. Je l’ai laissé là et je suis montée."
+  },
+  {
+   "key": "case059.mercedes.patio.answer.demeanor",
+   "value": "Touche sa boucle d’oreille en perle et baisse la main."
+  },
+  {
+   "key": "case059.mercedes.patio.question",
+   "value": "Pourquoi êtes-vous descendue dans la cour hier soir ?"
+  },
+  {
+   "key": "case059.mercedes.patio.variant0",
+   "value": "En 1989, j’avais treize ans. Ne me mettez pas ça sur le dos."
+  },
+  {
+   "key": "case059.mercedes.title",
+   "value": "Mercedes Llorente — audition"
+  },
+  {
+   "key": "case059.method.cistern",
+   "value": "Il a été poussé dans la citerne ouverte et le couvercle a été verrouillé sur lui"
+  },
+  {
+   "key": "case059.method.heart",
+   "value": "Son cœur s’est arrêté et il est tombé"
+  },
+  {
+   "key": "case059.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case059.method.slip",
+   "value": "Il a glissé et est tombé en se penchant"
+  },
+  {
+   "key": "case059.offer.subtitle",
+   "value": "SANTA ANA  /  MEURTRE"
+  },
+  {
+   "key": "case059.offer.summary",
+   "value": "Le directeur de la fondation qui est passée en marge de chaque dossier de ce chapitre a été retrouvé mort dans la citerne de son palais."
+  },
+  {
+   "key": "case059.offer.title",
+   "value": "DOSSIER #059"
+  },
+  {
+   "key": "case059.office.body",
+   "value": "Le bureau de Mercedes Llorente au palais et la cheminée (avec l’accord du chef d’antenne) :\n\n· Dans le compartiment secret du secrétaire, la clé du couvercle de la citerne ; de la chaux fraîche et de la mousse au bout de la clé, l’empreinte de Mercedes Llorente dessus.\n· Dans les cendres de la cheminée, un dossier épais à moitié brûlé : les tableaux de l’auditeur et les bordereaux des paiements de réassurance vers Montréal.\n· Sur son téléphone, le 28 octobre à 23.51, à un numéro non enregistré : « Sevilla est fermée. » Pas de réponse. 1 140 messages au même numéro depuis 1994."
+  },
+  {
+   "key": "case059.office.title",
+   "value": "BUREAU DE LA DIRECTRICE ADJOINTE — FOUILLE"
+  },
+  {
+   "key": "case059.patio.body",
+   "value": "Cour du Palacio Santa Ana. 28 octobre 22.30 – 29 octobre 00.30."
+  },
+  {
+   "key": "case059.patio.title",
+   "value": "CAMÉRA DE LA COUR — transcription du relevé"
+  },
+  {
+   "key": "case059.person.amaia.info",
+   "value": "31 ans, la fille de la victime ; au conseil d’administration de la fondation."
+  },
+  {
+   "key": "case059.person.amaia.name",
+   "value": "Amaia Santa Ana"
+  },
+  {
+   "key": "case059.person.bermejo.info",
+   "value": "45 ans, l’auditeur financier de la fondation."
+  },
+  {
+   "key": "case059.person.bermejo.name",
+   "value": "Héctor Bermejo"
+  },
+  {
+   "key": "case059.person.isidro.info",
+   "value": "67 ans, l’intendant du palais ; au service de la famille depuis quarante ans."
+  },
+  {
+   "key": "case059.person.isidro.name",
+   "value": "Isidro Navas"
+  },
+  {
+   "key": "case059.person.mercedes.info",
+   "value": "54 ans, directrice adjointe de la Fundación Santa Ana."
+  },
+  {
+   "key": "case059.person.mercedes.name",
+   "value": "Mercedes Llorente"
+  },
+  {
+   "key": "case059.recon.r_1989",
+   "value": "1989 : Gaspar Santa Ana dit « Edda, non » et meurt dans la même citerne ; une semaine plus tard, Edda Varga devient conseillère principale."
+  },
+  {
+   "key": "case059.recon.r_call",
+   "value": "28 octobre : Rodrigo Santa Ana appelle bube et prend rendez-vous pour le lendemain matin."
+  },
+  {
+   "key": "case059.recon.r_folder",
+   "value": "23.30 : L’auditeur laisse trente ans de tableaux de paiements et s’en va ; Mercedes Llorente prend le dossier."
+  },
+  {
+   "key": "case059.recon.r_lock",
+   "value": "23.43 : Le couvercle est verrouillé ; la clé va dans le compartiment secret, le dossier dans la cheminée."
+  },
+  {
+   "key": "case059.recon.r_msg",
+   "value": "23.51 : « Sevilla est fermée. » Le mille cent quarantième message en quarante ans ne reçoit pas de réponse non plus."
+  },
+  {
+   "key": "case059.recon.r_patio",
+   "value": "23.36 : Mercedes Llorente descend le directeur dans la cour et ouvre la citerne."
+  },
+  {
+   "key": "case059.recon.r_push",
+   "value": "23.41 : Le directeur se penche ; il est poussé par derrière."
+  },
+  {
+   "key": "case059.report.body",
+   "value": "Le matin du 29 octobre 2030, au Palacio Santa Ana à Triana, le directeur de la Fundación Santa Ana, Rodrigo Santa Ana (66 ans), a été retrouvé mort dans la vieille citerne sous la cour. Le couvercle de fer de la citerne était verrouillé.\n\nL’intendant Isidro Navas a trouvé le corps à 07.30 en voyant une écharpe pendre du bord du couvercle. Au palais cette nuit-là : la directrice adjointe Mercedes Llorente et l’auditeur financier Héctor Bermejo ont travaillé tard. La fille de la victime, Amaia Santa Ana, est arrivée le matin.\n\nLa veille, la victime avait appelé bube Sevilla — antenne de Triana et pris rendez-vous pour le 29 octobre à 10.00."
+  },
+  {
+   "key": "case059.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case059.request.archive",
+   "value": "Demander l’autorisation de ressortir le dossier de 1989 des archives"
+  },
+  {
+   "key": "case059.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case059.request.office",
+   "value": "Demander l’autorisation de fouiller le bureau de la directrice adjointe"
+  },
+  {
+   "key": "case059.summary.evidence",
+   "value": "L’intendant, la fille et l’auditeur ont parlé de la nuit et de 1989 ; cela a fait ouvrir les archives. La caméra a montré la femme qui verrouillait le couvercle. La fouille a trouvé la clé dans le compartiment secret et les cendres du dossier dans la cheminée."
+  },
+  {
+   "key": "case059.summary.lesson",
+   "value": "Le père et le fils ont dit le même mot. La réponse a été la même pour les deux."
+  },
+  {
+   "key": "case059.summary.location",
+   "value": "Palacio Santa Ana — octobre 2030"
+  },
+  {
+   "key": "case059.summary.truth",
+   "value": "En 1989, Gaspar Santa Ana a dit à une femme : « Edda, non », et il est mort dans la citerne ; une semaine plus tard, la Dre Edda Varga devenait conseillère principale de la fondation et l’argent de Napoli commençait à couler. Pendant trente ans, la fondation a fait les dons derrière les affaires sales de Sevilla et renvoyé les bénéfices vers Montréal. Son fils Rodrigo a décidé de tout apporter à bube. La directrice adjointe Mercedes Llorente l’a descendu dans la cour, l’a poussé dans la citerne, a verrouillé le couvercle et brûlé le dossier."
+  },
+  {
+   "key": "case059.suspect.label",
+   "value": "Qui a tué Rodrigo Santa Ana ?"
+  },
+  {
+   "key": "case059.tablet.caseLine",
+   "value": "DOSSIER #059  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case059.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case059.time.lean",
+   "value": "23.41"
+  },
+  {
+   "key": "case059.time.left",
+   "value": "23.30"
+  },
+  {
+   "key": "case059.time.lock",
+   "value": "23.43"
+  },
+  {
+   "key": "case059.time.talk",
+   "value": "23.36"
+  },
+  {
+   "key": "case059.title",
+   "value": "Dossier #059 — Santa Ana"
+  },
+  {
+   "key": "case059.verdict.accident",
+   "value": "Personne — il s’est penché et il est tombé"
+  },
+  {
+   "key": "case059.verdict.amaia",
+   "value": "Amaia Santa Ana"
+  },
+  {
+   "key": "case059.verdict.isidro",
+   "value": "Isidro Navas"
+  },
+  {
+   "key": "case059.verdict.mercedes",
+   "value": "Mercedes Llorente"
+  },
+  {
+   "key": "case059.item.key.name",
+   "value": "Clé de la citerne"
+  },
+  {
+   "key": "case059.item.key.detail",
+   "value": "La grande clé de fer du couvercle de la citerne de la cour ; elle est sortie du compartiment secret du bureau de la directrice adjointe."
+  },
+  {
+   "key": "case059.item.list.name",
+   "value": "Liste des administrateurs"
+  },
+  {
+   "key": "case059.item.list.detail",
+   "value": "La liste des administrateurs et conseillers de la fondation depuis 1989 ; une étoile au crayon à côté d’un nom."
+  },
+  {
+   "key": "case059.item.folder.name",
+   "value": "Le dossier de Rodrigo"
+  },
+  {
+   "key": "case059.item.folder.detail",
+   "value": "Le dossier épais que Rodrigo allait apporter à bube ; il est sorti à moitié brûlé des cendres de la cheminée."
+  }
+ ]
+}

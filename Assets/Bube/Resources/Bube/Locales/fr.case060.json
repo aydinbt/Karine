@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case060.alley.body",
+   "value": "Ruelle arrière de la boulangerie. 3 novembre 22.45 – 23.59."
+  },
+  {
+   "key": "case060.alley.title",
+   "value": "CAMÉRA DE LA RUELLE — transcription du relevé"
+  },
+  {
+   "key": "case060.autopsy.body",
+   "value": "· Cause du décès : fracture du crâne.\n· À l’arrière de la tête, une longue marque d’impact à bord droit ; des échardes de bois et de la farine dedans. Elle ne correspond pas à une chute sur le sol de pierre : il y a une seconde blessure, plus légère, due à la chute.\n· Pas d’alcool dans le sang.\n· Heure du décès : 23.00–23.40."
+  },
+  {
+   "key": "case060.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case060.bouchard.body",
+   "value": "Experte en assurances."
+  },
+  {
+   "key": "case060.bouchard.deflect",
+   "value": "Je regarde des polices."
+  },
+  {
+   "key": "case060.bouchard.policy.answer",
+   "value": "Une garantie « personne clé » a été ajoutée pour la boulangerie : si le propriétaire meurt, 2,4 millions de dollars à l’entreprise. Le bénéficiaire est l’entreprise ; et le nouvel associé de l’entreprise est une société montée par le gérant. L’avenant porte la signature de M. Klein, mais la comparaison des signatures ne m’a pas convaincue. Cette police est réassurée chez Laurentide ; pourquoi Laurentide a multiplié ces polices « petites entreprises » depuis deux ans, j’aimerais le savoir aussi."
+  },
+  {
+   "key": "case060.bouchard.policy.answer.demeanor",
+   "value": "Retire son cordon de badge de son cou et le pose sur la table."
+  },
+  {
+   "key": "case060.bouchard.policy.question",
+   "value": "Qu’est-ce qui a changé dans la police il y a deux mois ?"
+  },
+  {
+   "key": "case060.bouchard.title",
+   "value": "Nadia Bouchard — audition"
+  },
+  {
+   "key": "case060.cctv.event.back",
+   "value": "Caméra : Le même homme revient dans la ruelle huit minutes plus tard et ouvre la porte arrière avec une clé."
+  },
+  {
+   "key": "case060.cctv.event.out",
+   "value": "Caméra : Un homme en gilet matelassé sort de la ruelle dans la rue et s’éloigne."
+  },
+  {
+   "key": "case060.cctv.event.sack",
+   "value": "Caméra : L’homme sort par la porte arrière avec quelque chose de long enveloppé dans un sac et marche vers le tas de bois."
+  },
+  {
+   "key": "case060.cctv.overlay",
+   "value": "MTL-ALY"
+  },
+  {
+   "key": "case060.cctv.period",
+   "value": "3 novembre 2030"
+  },
+  {
+   "key": "case060.cctv.source",
+   "value": "Caméra du commerce d’en face"
+  },
+  {
+   "key": "case060.clock.body",
+   "value": "Relevés de la pointeuse de la boulangerie, 3 novembre :\n\n· Sophie Gagnon — entrée 07.00, sortie 22.00.\n· Yan Tremblay — entrée 09.12, sortie 23.05.\n· Dmitri Volkov — entrée 00.14.\n· Mordecai Klein ne pointe pas.\n\nLa porte arrière n’a pas de pointeuse."
+  },
+  {
+   "key": "case060.clock.title",
+   "value": "RELEVÉ DE LA POINTEUSE"
+  },
+  {
+   "key": "case060.clue.back",
+   "value": "Le même homme revient et ouvre la porte arrière avec une clé."
+  },
+  {
+   "key": "case060.clue.deliv",
+   "value": "Le bois est livré."
+  },
+  {
+   "key": "case060.clue.found",
+   "value": "Le boulanger de nuit trouve Mordecai."
+  },
+  {
+   "key": "case060.clue.out",
+   "value": "L’homme en gilet sort de la ruelle dans la rue."
+  },
+  {
+   "key": "case060.clue.sack",
+   "value": "L’homme marche vers le tas de bois avec quelque chose de long enveloppé dans un sac."
+  },
+  {
+   "key": "case060.clue.source.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.clue.source.luc",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.custody.ash",
+   "value": "Brûlée dans le four à bois"
+  },
+  {
+   "key": "case060.custody.label",
+   "value": "Où est passée la pelle ?"
+  },
+  {
+   "key": "case060.custody.river",
+   "value": "Jetée dans le fleuve"
+  },
+  {
+   "key": "case060.custody.woodpile",
+   "value": "Glissée dans le tas de bois"
+  },
+  {
+   "key": "case060.dmitri.body",
+   "value": "Boulanger de nuit."
+  },
+  {
+   "key": "case060.dmitri.deflect",
+   "value": "Je fais la pâte, la nuit."
+  },
+  {
+   "key": "case060.dmitri.found.answer",
+   "value": "Je suis entré par la porte arrière, comme chaque nuit. Le four flambait ; Mordecai ne laisse jamais le four à personne, mais ce soir il l’avait fait. Il était par terre. Il manquait une pelle ; je l’ai remarqué, parce que je compte les pelles. La porte arrière était fermée à clé ; seuls moi, Mordecai et le gérant avons la clé."
+  },
+  {
+   "key": "case060.dmitri.found.answer.demeanor",
+   "value": "Chasse la farine de son tablier à deux mains."
+  },
+  {
+   "key": "case060.dmitri.found.question",
+   "value": "Comment avez-vous trouvé Mordecai ?"
+  },
+  {
+   "key": "case060.dmitri.title",
+   "value": "Dmitri Volkov — audition"
+  },
+  {
+   "key": "case060.epilogue.custody.ash",
+   "value": "Il a été consigné que la pelle avait été brûlée dans les cendres du four."
+  },
+  {
+   "key": "case060.epilogue.custody.river",
+   "value": "La bague métallique de la pelle est sortie des cendres du four."
+  },
+  {
+   "key": "case060.epilogue.custody.woodpile",
+   "value": "Le tas de bois a été défait morceau par morceau ; la pelle n’y était pas, seul le sac y était resté un moment."
+  },
+  {
+   "key": "case060.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; la police a payé."
+  },
+  {
+   "key": "case060.epilogue.verdict.dmitri",
+   "value": "Dmitri Volkov a été arrêté ; la boulangerie a fermé."
+  },
+  {
+   "key": "case060.epilogue.verdict.rivka",
+   "value": "Rivka Klein a été arrêtée ; la voie vers les 2,4 millions de dollars était ouverte."
+  },
+  {
+   "key": "case060.epilogue.verdict.tremblay",
+   "value": "Yan Tremblay a été arrêté ; l’avenant falsifié a été annulé. Le numéro chez Laurentide Réassurance est entré dans le dossier de l’antenne du Mile End."
+  },
+  {
+   "key": "case060.evidence.alley",
+   "value": "Caméra de la ruelle"
+  },
+  {
+   "key": "case060.evidence.clock",
+   "value": "Relevé de la pointeuse"
+  },
+  {
+   "key": "case060.evidence.home",
+   "value": "Fouille de la maison et de la voiture du gérant"
+  },
+  {
+   "key": "case060.evidence.oven",
+   "value": "Examen du four"
+  },
+  {
+   "key": "case060.feedback.accident",
+   "value": "Le sol était sec ; la première blessure à l’arrière de la tête vient d’un outil à bord droit."
+  },
+  {
+   "key": "case060.feedback.dmitri",
+   "value": "Le boulanger de nuit a pointé une demi-heure après le décès ; la caméra ne le montre pas, elle montre un homme en gilet."
+  },
+  {
+   "key": "case060.feedback.rivka",
+   "value": "La fille est l’héritière, mais cette nuit-là elle était à Toronto ; de toute façon, elle allait vendre la boulangerie."
+  },
+  {
+   "key": "case060.feedback.tremblay",
+   "value": "Le sang de la victime et des fibres de la pelle sont sur le sac dans son coffre ; huit minutes après avoir pointé sa sortie, il a été filmé en train d’ouvrir la porte arrière avec une clé. La carte de pointage montre seulement qu’il est sorti par la porte, pas qu’il est rentré chez lui."
+  },
+  {
+   "key": "case060.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case060.file.value.bureau",
+   "value": "BDM Montréal — Antenne du Mile End"
+  },
+  {
+   "key": "case060.file.value.location",
+   "value": "Bagels Clark, Mile End, Montréal"
+  },
+  {
+   "key": "case060.file.value.number",
+   "value": "BDM-MTL-2030-0201"
+  },
+  {
+   "key": "case060.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case060.file.value.reporter",
+   "value": "Boulanger de nuit"
+  },
+  {
+   "key": "case060.gagnon.argue.answer",
+   "value": "Je suis partie à dix heures. Avant ça, Mordecai et le gérant se criaient dessus dans l’arrière-boutique. Mordecai disait : « Je n’ai pas signé cette police, ce n’est pas ma signature. » Le gérant disait : « C’est pour ton bien. » J’ai mis mon casque."
+  },
+  {
+   "key": "case060.gagnon.argue.answer.demeanor",
+   "value": "Tire sur les cordons de sa capuche."
+  },
+  {
+   "key": "case060.gagnon.argue.question",
+   "value": "Que s’est-il passé à la boulangerie dans la soirée ?"
+  },
+  {
+   "key": "case060.gagnon.body",
+   "value": "Caissière."
+  },
+  {
+   "key": "case060.gagnon.deflect",
+   "value": "Je suis à la caisse, le jour."
+  },
+  {
+   "key": "case060.gagnon.title",
+   "value": "Sophie Gagnon — audition"
+  },
+  {
+   "key": "case060.home.body",
+   "value": "La maison et la voiture de Yan Tremblay (avec l’accord du chef d’antenne) :\n\n· Dans le coffre de la voiture, un sac taché de farine et d’écorce ; sur le sac, le sang de la victime et des fibres de bois du manche de la pelle.\n· Sur le bureau à la maison, quatorze essais de la signature de Mordecai Klein.\n· Sur son téléphone, à un numéro chez Laurentide Réassurance, le 1er novembre : « Le vieux va chez l’avocat lundi. » Réponse : « La police est solide. »"
+  },
+  {
+   "key": "case060.home.title",
+   "value": "MAISON ET VOITURE DU GÉRANT — FOUILLE"
+  },
+  {
+   "key": "case060.luc.alley.answer",
+   "value": "J’ai déposé le bois à 22.30. Il y a une caméra au bout de la ruelle, pas celle de la ville, celle du commerce d’en face ; elle donne sur la ruelle. Je n’ai rien vu ; mais le matin, j’ai remarqué que quelqu’un avait fouillé le tas de bois avant minuit. Mon empilement était dérangé."
+  },
+  {
+   "key": "case060.luc.alley.answer.demeanor",
+   "value": "Se gratte le front sous son béret."
+  },
+  {
+   "key": "case060.luc.alley.question",
+   "value": "Qu’avez-vous vu dans la ruelle pendant la livraison ?"
+  },
+  {
+   "key": "case060.luc.body",
+   "value": "Fournisseur de bois."
+  },
+  {
+   "key": "case060.luc.deflect",
+   "value": "J’apporte le bois et je m’en vais."
+  },
+  {
+   "key": "case060.luc.title",
+   "value": "Luc Pelletier — audition"
+  },
+  {
+   "key": "case060.method.faint",
+   "value": "Il s’est évanoui à la chaleur du four"
+  },
+  {
+   "key": "case060.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case060.method.peel",
+   "value": "Il a été frappé à l’arrière de la tête avec une pelle à four"
+  },
+  {
+   "key": "case060.method.slip",
+   "value": "Il a glissé sur un sol mouillé et il est tombé"
+  },
+  {
+   "key": "case060.offer.subtitle",
+   "value": "BOULANGERIE DE BAGELS  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case060.offer.summary",
+   "value": "Le propriétaire d’une boulangerie de bagels vieille de soixante-dix ans a été retrouvé mort devant le four à bois ; il y a deux mois, la boulangerie a été assurée pour dix fois sa valeur."
+  },
+  {
+   "key": "case060.offer.title",
+   "value": "DOSSIER #060"
+  },
+  {
+   "key": "case060.oven.body",
+   "value": "· Le sol de pierre devant le four est sec, sans farine ni eau : rien pour faire glisser.\n· Une des pelles du mur manque ; quatre pelles sur le support, cinq marques dans la poussière.\n· Quelque chose a été brûlé dans les cendres du four à bois pendant la nuit : du bois carbonisé et une bague métallique."
+  },
+  {
+   "key": "case060.oven.title",
+   "value": "EXAMEN DU FOUR"
+  },
+  {
+   "key": "case060.person.bouchard.info",
+   "value": "37 ans, experte en assurances pour Laurentide Réassurance."
+  },
+  {
+   "key": "case060.person.bouchard.name",
+   "value": "Nadia Bouchard"
+  },
+  {
+   "key": "case060.person.dmitri.info",
+   "value": "52 ans, boulanger de nuit ; il a trouvé le corps."
+  },
+  {
+   "key": "case060.person.dmitri.name",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.person.gagnon.info",
+   "value": "24 ans, caissière."
+  },
+  {
+   "key": "case060.person.gagnon.name",
+   "value": "Sophie Gagnon"
+  },
+  {
+   "key": "case060.person.luc.info",
+   "value": "58 ans, fournisseur de bois."
+  },
+  {
+   "key": "case060.person.luc.name",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.person.rivka.info",
+   "value": "40 ans, la fille de la victime."
+  },
+  {
+   "key": "case060.person.rivka.name",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.person.tremblay.info",
+   "value": "44 ans, gérant de la boulangerie."
+  },
+  {
+   "key": "case060.person.tremblay.name",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.report.body",
+   "value": "Dans la nuit du 3 novembre 2030, à la boulangerie Bagels Clark du Mile End, le propriétaire Mordecai Klein (78 ans) a été retrouvé mort sur le sol de pierre devant le four à bois. Une blessure à l’arrière de la tête.\n\nLe boulanger de nuit Dmitri Volkov a trouvé le corps à 00.15 en arrivant pour son service. À la boulangerie dans la soirée : le gérant Yan Tremblay, la caissière Sophie Gagnon ; le fournisseur de bois Luc Pelletier a fait une livraison à 22.30. La fille de la victime, Rivka Klein, et l’experte en assurances Nadia Bouchard sont arrivées le matin."
+  },
+  {
+   "key": "case060.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case060.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case060.request.clock",
+   "value": "Demander les relevés de la pointeuse"
+  },
+  {
+   "key": "case060.request.home",
+   "value": "Demander l’autorisation de fouiller la maison et la voiture du gérant"
+  },
+  {
+   "key": "case060.request.oven",
+   "value": "Demander un examen du four"
+  },
+  {
+   "key": "case060.rivka.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case060.rivka.deflect",
+   "value": "Mon père ne connaissait que cette boulangerie."
+  },
+  {
+   "key": "case060.rivka.title",
+   "value": "Rivka Klein — audition"
+  },
+  {
+   "key": "case060.rivka.will.answer",
+   "value": "À moi ; mais je suis à Toronto, je ne voulais pas de la boulangerie, j’allais la vendre, tout le monde le savait. Hier au téléphone, mon père a dit : « Yan essaie de me faire signer quelque chose ; lundi je vais chez l’avocat. » Hier soir j’étais à Toronto ; je suis venue par le premier vol ce matin."
+  },
+  {
+   "key": "case060.rivka.will.answer.demeanor",
+   "value": "Redresse le col de son manteau du bout des doigts."
+  },
+  {
+   "key": "case060.rivka.will.question",
+   "value": "À qui votre père allait-il laisser la boulangerie ?"
+  },
+  {
+   "key": "case060.summary.evidence",
+   "value": "Le boulanger, la caissière et l’experte ont parlé de la nuit et de la police. La carte de pointage était un leurre : elle montrait la sortie, pas le retour à la maison. La caméra a montré le retour ; la fouille a trouvé le sac et les essais de signature."
+  },
+  {
+   "key": "case060.summary.lesson",
+   "value": "La carte disait juste ; seulement la moitié de l’histoire."
+  },
+  {
+   "key": "case060.summary.location",
+   "value": "Mile End — novembre 2030"
+  },
+  {
+   "key": "case060.summary.truth",
+   "value": "Le gérant Yan Tremblay a imité la signature du propriétaire Mordecai Klein pour ajouter à la boulangerie une garantie « personne clé » de 2,4 millions de dollars et a lié le bénéficiaire à sa propre société. Mordecai a repéré le faux et a décidé d’aller voir un avocat. Yan a pointé sa sortie, est revenu par la porte arrière huit minutes plus tard, a frappé Mordecai avec une pelle, l’a allongé devant le four et a brûlé la pelle dans le four."
+  },
+  {
+   "key": "case060.suspect.label",
+   "value": "Qui a tué Mordecai Klein ?"
+  },
+  {
+   "key": "case060.tablet.caseLine",
+   "value": "DOSSIER #060  /  BUBE MONTRÉAL — MILE END"
+  },
+  {
+   "key": "case060.time.back",
+   "value": "23.14"
+  },
+  {
+   "key": "case060.time.deliv",
+   "value": "22.30"
+  },
+  {
+   "key": "case060.time.found",
+   "value": "00.15"
+  },
+  {
+   "key": "case060.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case060.time.sack",
+   "value": "23.37"
+  },
+  {
+   "key": "case060.title",
+   "value": "Dossier #060 — Boulangerie de bagels"
+  },
+  {
+   "key": "case060.tremblay.body",
+   "value": "Gérant de la boulangerie."
+  },
+  {
+   "key": "case060.tremblay.deflect",
+   "value": "J’ai tenu cette boulangerie debout, quinze ans."
+  },
+  {
+   "key": "case060.tremblay.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case060.tremblay.end.decoy.clock",
+   "value": "Regardez ma carte : sortie à 23.05. Vous dites que le décès a eu lieu à onze heures et demie. À cette heure-là, j’étais en route."
+  },
+  {
+   "key": "case060.tremblay.end.presented.home",
+   "value": "Lundi, il allait chez l’avocat ; l’avenant serait apparu comme un faux, et moi aussi. J’ai pointé, j’ai marché jusqu’au bout de la ruelle, je suis revenu. Je l’ai frappé avec la pelle. Je l’ai allongé devant le four ; la pelle est allée dans le four. L’homme de Laurentide avait dit : « La police est solide, personne ne posera de questions. » Ils en ont posé."
+  },
+  {
+   "key": "case060.tremblay.end.question",
+   "value": "Vous avez frappé Mordecai avec la pelle."
+  },
+  {
+   "key": "case060.tremblay.night.answer",
+   "value": "J’ai pointé et je suis rentré chez moi. Mordecai était au four ; il était vieux, il ne tenait plus bien debout. Il a glissé, évidemment."
+  },
+  {
+   "key": "case060.tremblay.night.answer.demeanor",
+   "value": "Ouvre et referme la fermeture de son gilet."
+  },
+  {
+   "key": "case060.tremblay.night.question",
+   "value": "Quand avez-vous quitté la boulangerie hier soir ?"
+  },
+  {
+   "key": "case060.tremblay.title",
+   "value": "Yan Tremblay — audition"
+  },
+  {
+   "key": "case060.verdict.accident",
+   "value": "Personne — il a glissé"
+  },
+  {
+   "key": "case060.verdict.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.verdict.rivka",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.verdict.tremblay",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.item.peel.name",
+   "value": "Bague de la pelle à four"
+  },
+  {
+   "key": "case060.item.peel.detail",
+   "value": "La bague métallique d’une longue pelle à bagels en bois ; elle est sortie des cendres du four à bois."
+  },
+  {
+   "key": "case060.item.policy.name",
+   "value": "Avenant à la police d’assurance"
+  },
+  {
+   "key": "case060.item.policy.detail",
+   "value": "L’avenant à la police de la boulangerie d’il y a deux mois ; garantie « personne clé », le bénéficiaire une société."
+  },
+  {
+   "key": "case060.item.clock.name",
+   "value": "Carte de pointage"
+  },
+  {
+   "key": "case060.item.clock.detail",
+   "value": "La carte de pointage du gérant ; tamponnée « sortie 23.05 »."
+  }
+ ]
+}
