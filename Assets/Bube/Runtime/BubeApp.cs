@@ -363,8 +363,9 @@ public sealed partial class BubeApp : MonoBehaviour {
  // Telefonda oyuncu uygulamadan çıkmaz, arkaya atar; işletim sistemi onu
  // haber vermeden kapatabilir. Bu yüzden arkaya atılma anı bir kayıt anıdır.
  void OnApplicationPause(bool paused) {
-  if(!paused || game==null)return;
-  Save();FlushCloud();
+  if(!paused){Notifications.Provider.CancelAll();return;}
+  if(game==null)return;
+  Save();FlushCloud();ScheduleReturn();
  }
 
  // Okunamayan kaydi bozmadan yana kaldirir; donus degeri yeni yoldur, yoksa null.

@@ -2666,11 +2666,55 @@
   },
   {
    "key": "guidance.watch",
-   "value": "Erinnerung öffnen (Werbung)"
+   "value": "Erinnerung öffnen"
   },
   {
    "key": "guidance.unavailable",
    "value": "Gerade ist keine Werbung verfügbar."
+  },
+  {
+   "key": "settings.notify.hint",
+   "value": "Wenn eine Akte wartet, wirst du am nächsten Tag und drei Tage später je einmal erinnert."
+  },
+  {
+   "key": "settings.notify",
+   "value": "Erinnerungen"
+  },
+  {
+   "key": "notify.new.2",
+   "value": "Die neue Akte wartet noch auf deinem Schreibtisch."
+  },
+  {
+   "key": "notify.new.1",
+   "value": "Im Eingangskorb liegt eine neue Akte."
+  },
+  {
+   "key": "notify.fax.2",
+   "value": "Auf deinem Schreibtisch liegen ungelesene Unterlagen."
+  },
+  {
+   "key": "notify.fax.1",
+   "value": "Zu deinem Bericht ist vielleicht ein Fax eingegangen."
+  },
+  {
+   "key": "notify.open.2",
+   "value": "Die Akte wartet noch auf dein Ergebnis."
+  },
+  {
+   "key": "notify.open.1",
+   "value": "Eine Akte liegt noch offen auf deinem Schreibtisch."
+  },
+  {
+   "key": "notify.title",
+   "value": "Karine"
+  },
+  {
+   "key": "summary.work",
+   "value": "Deine Arbeit"
+  },
+  {
+   "key": "guidance.desk",
+   "value": "Meine Arbeit"
   },
   {
    "key": "retry.title",

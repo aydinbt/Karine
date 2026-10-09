@@ -631,3 +631,5 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 - **Çökme raporu.** `Bube.Crash` derlemesi, `com.google.firebase.crashlytics` kurulunca derlenir.
 - **Kayıt okuma.** `ReadSave<T>`: bozuk dosya `.corrupt` olarak kenara alınır ve `.bak` okunur. `Save()` her yazmada `File.Replace` ile `.bak` üretir. Bulut deseni `bube-career-*.json` olduğu için `.bak` dosyaları buluta gitmez.
 - **Sağlayıcı önceliği.** `config.firebaseApiKey` doluysa `FirebaseAccountProvider`, `UgsAccountProvider`ın yerine geçer.
+- **Bildirimler.** `Notifications` / `INotifier` (Runtime, varsayılan `NoNotifier`). Gerçeklemesi `Bube.Notify` derlemesinde (`MobileNotifier`) ve yalnız `com.unity.mobile.notifications` 2.x kuruluyken derlenir. `OnApplicationPause(true)` → `ScheduleReturn()`, `false` → `CancelAll()`. Açık/kapalı ve "soruldu" bilgisi PlayerPrefs'te tutulur; buluta gitmez.
+- **İpucu ekranı.** `GuidancePage(Action back)` artık reklamsız. Masanın üst şeridinden (`guidance.desk`) ve reddedilen faksın altından açılır. `AdPlacement.RewardedGuidance` enum'da duruyor ama kullanılmıyor.

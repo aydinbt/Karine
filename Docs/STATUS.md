@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**9 Ekim (gece, 3):** Masada **Çalışmam** düğmesi eklendi: yöntem hatırlatması ve kapsama sayıları, artık reklamsız. Vaka özetine **Çalışman** bölümü eklendi. **Yerel hatırlatma bildirimleri** kuruldu: dosya beklerken ertesi gün ve 3 gün sonra birer kez. Metinler yalnız tr/en/de. Hepsi `[~]`. Ekran görüntüsü testi `Account_MatchesBaseline` düşüyor; sebep ışık animasyonunun anı ve referanstaki eski fps sayacı. Referans yenilenmeli.
+
 **9 Ekim (gece, 2):** **Mağazaya hazırlık (kod).**
 - **Satın alma:** Reklamları kaldır + Satın alımları geri yükle (Unity IAP).
 - **iOS:** takip izni (ATT).

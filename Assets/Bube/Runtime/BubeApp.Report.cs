@@ -205,9 +205,16 @@ public sealed partial class BubeApp {
   if(sourceNames.Length==0)sourceNames=new[]{T("summary.noSources")};
   bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
   KarineUI.SummarySources(card,T("summary.sources").TrimStart('⌕',' '),sourceNames,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
+  // Oyuncunun kendi çalışması: sayılar sonuç söylemez, yalnız neye baktığını gösterir.
+  var work=Coverage.Of(game);
+  KarineUI.RecordHeading(card,T("summary.work"));
+  KarineUI.RecordRow(card,T("guidance.coverage.sources"),work.SourcesOpen+" / "+work.SourcesAvailable,null,"");
+  KarineUI.RecordRow(card,T("guidance.coverage.questions"),work.QuestionsAsked+" / "+work.QuestionsAvailable,null,"");
+  if(work.CluesAvailable>0)KarineUI.RecordRow(card,T("guidance.coverage.clues"),work.CluesPinned+" / "+work.CluesAvailable,null,"");
   var actions=new VisualElement();actions.style.flexDirection=FlexDirection.Row;actions.style.marginTop=KarineTheme.SpaceLg;footer.Add(actions);
   var back=KarineUI.PaperButton(actions,T("back.desk"),Desk);back.style.flexGrow=1;back.style.minHeight=48;
   NextStep(actions,CaseSummary);
+  AskNotifyOnce();
  }
  // Vaka sonrası akış kendi kendine ilerlemez: sıradaki iş bir düğmeyle açılır, oyuncu kaçırmaz.
  // Faks hazır değilse düğme beklediğini söyler ve hazır olunca kendini yeniler.

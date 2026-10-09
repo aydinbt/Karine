@@ -1,0 +1,14 @@
+{
+    "name": "Bube.Notify",
+    "rootNamespace": "Bube",
+    "references": [
+        "Bube.Runtime",
+        "Unity.Notifications.Android",
+        "Unity.Notifications.iOS"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": ["KARINE_NOTIFY"],
+    "versionDefines": [
+        {"name": "com.unity.mobile.notifications", "expression": "[2.3.0,3.0.0)", "define": "KARINE_NOTIFY"}
+    ]
+}

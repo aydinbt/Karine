@@ -2666,11 +2666,55 @@
   },
   {
    "key": "guidance.watch",
-   "value": "Hatırlatmayı aç (reklam)"
+   "value": "Hatırlatmayı aç"
   },
   {
    "key": "guidance.unavailable",
    "value": "Şu an gösterilecek reklam yok."
+  },
+  {
+   "key": "settings.notify.hint",
+   "value": "Masanda bekleyen bir dosya varsa ertesi gün ve üç gün sonra bir kez haber verir."
+  },
+  {
+   "key": "settings.notify",
+   "value": "Hatırlatma bildirimleri"
+  },
+  {
+   "key": "notify.new.2",
+   "value": "Yeni dosya hâlâ masanda bekliyor."
+  },
+  {
+   "key": "notify.new.1",
+   "value": "Gelen evrak tepsisinde yeni bir dosya var."
+  },
+  {
+   "key": "notify.fax.2",
+   "value": "Masanda okunmamış evrak var."
+  },
+  {
+   "key": "notify.fax.1",
+   "value": "Raporuna dair bir faks gelmiş olabilir."
+  },
+  {
+   "key": "notify.open.2",
+   "value": "Dosya hâlâ sonucunu bekliyor."
+  },
+  {
+   "key": "notify.open.1",
+   "value": "Dosya masanda açık duruyor."
+  },
+  {
+   "key": "notify.title",
+   "value": "Karine"
+  },
+  {
+   "key": "summary.work",
+   "value": "Çalışman"
+  },
+  {
+   "key": "guidance.desk",
+   "value": "Çalışmam"
   },
   {
    "key": "retry.title",

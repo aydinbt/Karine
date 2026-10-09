@@ -1218,3 +1218,22 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - **Bulut yalnız dönüm noktasında** (kullanıcı kararı): anlık iz yazılmaz; yalnız kariyer belgesi, rapor gönderilince / dosya değerlendirilince / rütbe ya da ödül değişince bir kez. Vaka içi kayıt cihazda kalır. Amaç: yeniden kurulumda sıfırdan başlamamak, KVKK'da veri en az, 10 bin oyuncuda ücretsiz kotada kalmak.
 - **Reklamları kaldır** tek seferlik üründür ve kilitli lamba renklerini de açar; Ayarlar › Oyun'da "Satın alımları geri yükle" her zaman vardır.
 - **Puan isteme** üçüncü dosya kapanınca bir kez; oyun kendi ön penceresini göstermez, doğrudan işletim sisteminin penceresini ister.
+
+## Çalışmam, Çalışman ve hatırlatma bildirimi (9 Ekim 2026)
+
+**Kullanıcı:** oyunu bir üst seviyeye taşımak için ipucu, vaka sonu özeti ve oyuncuyu geri getiren bildirim istedi.
+
+- **Hatırlatma artık reklamsız ve soruşturma sırasında da açılıyor.**
+  - Sebep: hatırlatma vakanın gerçeğini taşımıyor; reklam ise soruşturmanın içinde gösterilemez.
+  - Ödüllü kalan tek şey yeniden açma.
+  - Bu kararı kullanıcı geri alabilir.
+- **Vaka özetinde "Çalışman" bölümü:**
+  - Açılan / açılabilir kaynak sayısı.
+  - Sorulan / sorulabilir soru sayısı.
+  - Çizelgeye alınan satır sayısı.
+  - Sonucu söylemez.
+- **Bildirim:**
+  - Yalnız masada bekleyen bir şey varsa gönderilir (açık dosya, faks ya da yeni dosya).
+  - En fazla iki kez: ertesi gün ve 3 gün sonra.
+  - Nereye bakılacağını söylemez.
+  - İzin, ilk rapordan sonra özet ekranında bir kez sorulur. Ayarlar › Oyun'dan kapatılabilir.

@@ -2666,11 +2666,55 @@
   },
   {
    "key": "guidance.watch",
-   "value": "Open reminder (ad)"
+   "value": "Open the reminder"
   },
   {
    "key": "guidance.unavailable",
    "value": "No ad to show right now."
+  },
+  {
+   "key": "settings.notify.hint",
+   "value": "If a file is waiting on your desk, you are told once the next day and once three days later."
+  },
+  {
+   "key": "settings.notify",
+   "value": "Reminder notifications"
+  },
+  {
+   "key": "notify.new.2",
+   "value": "The new file is still waiting on your desk."
+  },
+  {
+   "key": "notify.new.1",
+   "value": "A new file is in your inbox tray."
+  },
+  {
+   "key": "notify.fax.2",
+   "value": "There is unread paperwork on your desk."
+  },
+  {
+   "key": "notify.fax.1",
+   "value": "A fax about your report may have arrived."
+  },
+  {
+   "key": "notify.open.2",
+   "value": "The file is still waiting for your conclusion."
+  },
+  {
+   "key": "notify.open.1",
+   "value": "A file is still open on your desk."
+  },
+  {
+   "key": "notify.title",
+   "value": "Karine"
+  },
+  {
+   "key": "summary.work",
+   "value": "Your work"
+  },
+  {
+   "key": "guidance.desk",
+   "value": "My work"
   },
   {
    "key": "retry.title",

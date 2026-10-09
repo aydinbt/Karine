@@ -257,8 +257,9 @@ public sealed partial class BubeApp {
   // Rapor geri döndüyse ödüllü yöntem hatırlatması **teklif edilir**, dayatılmaz.
   // Teklif yalnız reklam gösterilebilecekse görünür; gösterilemiyorsa ekranda
   // çalışmayan bir düğme durmaz.
-  if(!fax.correct && AdGateway.MayShow(AdPlacement.RewardedGuidance,AdMoment.ReportRejected))
-   InboxAction(actions,"info",T("guidance.watch"),false,()=>OfferGuidance());
+  // Hatırlatma vakanın gerçeğini taşımadığı için reklamsızdır (9 Ekim 2026); soruşturma
+  // sırasında masanın üst şeridinden de açılır. Ödüllü olan yalnız yeniden açmadır.
+  if(!fax.correct)InboxAction(actions,"info",T("guidance.watch"),false,()=>GuidancePage(InboxPage));
   if(RetryOffered(fax))InboxAction(actions,"nav_next",T("retry.watch"),true,OfferRetry);
  }
 
@@ -307,22 +308,11 @@ public sealed partial class BubeApp {
   KarineUI.InterviewAction(paper,null,T("back.desk"),Desk);
  }
 
- // Ödüllü ipucu ekranı. İçinde vakanın gerçeği **yok**: yöntem hatırlatması
- // (işin kuralları) ve oyuncunun kendi kapsamı (sayılar). Doğrulayıcı bu
- // metinlerde kişi adı, kaynak başlığı ve karar etiketi geçmesini yasaklar.
- void OfferGuidance() {
-  AdGateway.Request(AdPlacement.RewardedGuidance,AdMoment.ReportRejected,granted=>{
-   if(granted){GuidancePage();return;}
-   GuidanceScreen("guidance.screen",OfferGuidance);
-   var paper=KarineUI.GuidancePaper(root,KarineTheme.Guidance.Note,KarineTheme.Guidance.Tilt);
-   KarineUI.GuidanceHeading(paper,T("guidance.title"),null);
-   KarineUI.GuidanceText(paper,T("guidance.unavailable"),KarineTheme.Guidance.ItemSize);
-   var space=new VisualElement();space.style.flexGrow=1;paper.Add(space);
-   KarineUI.InterviewAction(paper,null,T("offer.back"),InboxPage);
-  });
- }
- void GuidancePage() {
-  GuidanceScreen("guidance.screen",GuidancePage);
+ // İpucu ekranı. İçinde vakanın gerçeği **yok**: yöntem hatırlatması (işin
+ // kuralları) ve oyuncunun kendi kapsamı (sayılar). Doğrulayıcı bu metinlerde
+ // kişi adı, kaynak başlığı ve karar etiketi geçmesini yasaklar.
+ void GuidancePage(Action back) {
+  GuidanceScreen("guidance.screen",()=>GuidancePage(back));
   var paper=KarineUI.GuidancePaper(root,KarineTheme.Guidance.Paper,KarineTheme.Guidance.Tilt);
   KarineUI.GuidanceHeading(paper,T("guidance.title"),T("guidance.body"));
   for(int index=1;index<=4;index++) {
@@ -338,7 +328,7 @@ public sealed partial class BubeApp {
    KarineUI.GuidanceMeter(side,"pin",T("guidance.coverage.clues"),coverage.CluesPinned,coverage.CluesAvailable);
   }
   var spacer=new VisualElement();spacer.style.flexGrow=1;side.Add(spacer);
-  KarineUI.InterviewAction(side,null,T("offer.back"),InboxPage);
+  KarineUI.InterviewAction(side,null,T("offer.back"),back);
  }
 
  // Dosyanın akıbeti: raporun gerçek dünyada neye yol açtığı. Oyuncunun yazdığı kişi ve
@@ -395,6 +385,7 @@ public sealed partial class BubeApp {
    KarineUI.OfficeHeaderAction(header,"people",T("desk.view.people"),()=>InterviewRequests());
    KarineUI.OfficeHeaderAction(header,"fingerprint",T("desk.view.clues"),()=>{selectedFileSection="evidence";FilePage();});
    KarineUI.OfficeHeaderAction(header,"document",T("desk.view.documents"),InboxPage);
+   KarineUI.OfficeHeaderAction(header,"info",T("guidance.desk"),()=>GuidancePage(Desk));
    KarineUI.OfficeHeaderAction(header,"chart",T("menu.row.career"),StatisticsPage);
    KarineUI.OfficeHeaderAction(header,"gear",T("menu.row.settings"),()=>SettingsFrom(Desk));
   }
