@@ -1,0 +1,580 @@
+{
+ "entries": [
+  {
+   "key": "case058.archive.body",
+   "value": "Un dossier ressorti des archives (juin 2015, classé comme « vol, auteur inconnu ») :\n\n· Une carte du Guadalquivir dessinée à la main en 1752 a disparu des magasins ; le suspect, le veilleur Fermín Gil, a été renvoyé, et il n’y a pas eu de poursuites faute de preuves.\n· Registre de restauration de l’atelier : la carte a été « prise en restauration » le 3 mars 2015, signé Sergio Vidaurre ; la ligne de retour est vide. Le registre n’a jamais été versé au dossier.\n· Le catalogue enregistre l’entrée de la carte dans la collection de la Fundación Santa Ana en 2016 comme « don anonyme »."
+  },
+  {
+   "key": "case058.archive.reopen",
+   "value": "Le dossier classé comme « vol, auteur inconnu » il y a quinze ans a été rouvert."
+  },
+  {
+   "key": "case058.archive.title",
+   "value": "LE DOSSIER DE 2015 — LA CARTE DISPARUE"
+  },
+  {
+   "key": "case058.aurora.2015.answer",
+   "value": "J’ai renvoyé le veilleur ; on m’a demandé de faire comme ça. Cette année-là, la fondation a fait un don pour la numérisation des archives ; leur conseillère a dit : « Pas besoin de scandale. » Je… me suis tue. Pas au point de tuer Rosa."
+  },
+  {
+   "key": "case058.aurora.2015.answer.demeanor",
+   "value": "Défait et refait le bouton de sa veste."
+  },
+  {
+   "key": "case058.aurora.2015.question",
+   "value": "Que savez-vous de la carte disparue en 2015 ?"
+  },
+  {
+   "key": "case058.aurora.body",
+   "value": "Directrice des archives."
+  },
+  {
+   "key": "case058.aurora.deflect",
+   "value": "Ces archives ont quatre cents ans ; elles n’ont pas commencé avec moi."
+  },
+  {
+   "key": "case058.aurora.title",
+   "value": "Aurora Benítez — audition"
+  },
+  {
+   "key": "case058.autopsy.body",
+   "value": "· Cause du décès : compression du thorax ; asphyxie.\n· Deux bandes sur l’épaule gauche et la hanche correspondant au bord d’une étagère.\n· Pas de marques de défense sur les mains : les armoires se sont fermées lentement et régulièrement, la victime prise entre elles.\n· Heure du décès : 18.30–19.15."
+  },
+  {
+   "key": "case058.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case058.blanca.body",
+   "value": "Surveillante de la salle de lecture."
+  },
+  {
+   "key": "case058.blanca.deflect",
+   "value": "J’enregistre qui entre dans la salle de lecture."
+  },
+  {
+   "key": "case058.blanca.log.answer",
+   "value": "Le sous-sol s’ouvre avec une carte ; le système l’enregistre. 18.20 Rosa, 18.31 Sergio, 18.50 Sergio sort. Pas de sortie pour Rosa. Osman et la directrice étaient en haut tout le temps, et Naomi était dans la salle de lecture avec moi jusqu’à la fermeture."
+  },
+  {
+   "key": "case058.blanca.log.answer.demeanor",
+   "value": "Fait tourner la carte à son cou entre ses doigts."
+  },
+  {
+   "key": "case058.blanca.log.question",
+   "value": "Qui est descendu au sous-sol à l’heure de la fermeture ?"
+  },
+  {
+   "key": "case058.blanca.title",
+   "value": "Blanca Ortiz — audition"
+  },
+  {
+   "key": "case058.candela.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case058.candela.deflect",
+   "value": "Ma mère vivait pratiquement dans ce bâtiment."
+  },
+  {
+   "key": "case058.candela.notes.answer",
+   "value": "Dans son carnet, elle avait écrit : « 2015 : carte en restauration, Sergio. Pas d’inscription de retour. Aurora le sait-elle ? » Hier soir elle m’a dit : « Demain je parle à Sergio ; je lui laisse d’abord sa chance. » C’était ma mère."
+  },
+  {
+   "key": "case058.candela.notes.answer.demeanor",
+   "value": "Tient fermé le col de son manteau à deux mains."
+  },
+  {
+   "key": "case058.candela.notes.question",
+   "value": "Qu’écrivait votre mère ces derniers jours ?"
+  },
+  {
+   "key": "case058.candela.title",
+   "value": "Candela Medina — audition"
+  },
+  {
+   "key": "case058.cctv.event.follow",
+   "value": "Caméra : Un homme en tablier entre dans les magasins une minute plus tard."
+  },
+  {
+   "key": "case058.cctv.event.in",
+   "value": "Caméra : Une femme âgée, une boîte d’archives à la main, entre par la porte des magasins."
+  },
+  {
+   "key": "case058.cctv.event.out",
+   "value": "Caméra : Le même homme sort seul, serrant contre son tablier quelque chose de rond et métallique."
+  },
+  {
+   "key": "case058.cctv.overlay",
+   "value": "AHG-B1"
+  },
+  {
+   "key": "case058.cctv.period",
+   "value": "25 octobre 2030"
+  },
+  {
+   "key": "case058.cctv.source",
+   "value": "Caméra du sous-sol"
+  },
+  {
+   "key": "case058.clue.follow",
+   "value": "L’homme en tablier entre dans les magasins une minute plus tard."
+  },
+  {
+   "key": "case058.clue.found",
+   "value": "L’agent d’entretien trouve Rosa entre les armoires fermées."
+  },
+  {
+   "key": "case058.clue.in",
+   "value": "La femme entre dans les magasins avec une boîte d’archives."
+  },
+  {
+   "key": "case058.clue.out",
+   "value": "Le même homme sort seul avec quelque chose de rond et métallique."
+  },
+  {
+   "key": "case058.clue.press",
+   "value": "Le restaurateur serre la presse vide à l’atelier."
+  },
+  {
+   "key": "case058.clue.source.fermin",
+   "value": "Fermín Gil"
+  },
+  {
+   "key": "case058.clue.source.osman",
+   "value": "Osman Kılınç"
+  },
+  {
+   "key": "case058.corridor.body",
+   "value": "Couloir du sous-sol, porte des magasins. 25 octobre 18.00 – 19.00."
+  },
+  {
+   "key": "case058.corridor.title",
+   "value": "CAMÉRA DU COULOIR DU SOUS-SOL — transcription du relevé"
+  },
+  {
+   "key": "case058.custody.bin",
+   "value": "Dans la poubelle du sous-sol"
+  },
+  {
+   "key": "case058.custody.box",
+   "value": "Dans une boîte d’archives"
+  },
+  {
+   "key": "case058.custody.label",
+   "value": "Où est passée la manivelle des rayonnages ?"
+  },
+  {
+   "key": "case058.custody.press",
+   "value": "Dans la presse à livres de l’atelier de restauration"
+  },
+  {
+   "key": "case058.epilogue.custody.bin",
+   "value": "La poubelle du sous-sol était vide."
+  },
+  {
+   "key": "case058.epilogue.custody.box",
+   "value": "Les boîtes ont été ouvertes une à une ; la manivelle n’y était pas."
+  },
+  {
+   "key": "case058.epilogue.custody.press",
+   "value": "Il a été consigné que la manivelle avait été retrouvée dans la presse à livres."
+  },
+  {
+   "key": "case058.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; le registre de l’atelier a disparu une nouvelle fois."
+  },
+  {
+   "key": "case058.epilogue.verdict.aurora",
+   "value": "Aurora Benítez a été arrêtée ; la manivelle est restée dans la presse."
+  },
+  {
+   "key": "case058.epilogue.verdict.fermin",
+   "value": "Fermín Gil a été accusé une deuxième fois ; la presse a été resserrée."
+  },
+  {
+   "key": "case058.epilogue.verdict.sergio",
+   "value": "Sergio Vidaurre a été arrêté ; le dossier de 2015 a été rouvert et le nom de Fermín Gil a été lavé. Une lettre officielle est partie à la Fundación Santa Ana pour demander la restitution de la carte de 1752 ; la fondation a répondu : « Notre conseillère est à l’étranger. »"
+  },
+  {
+   "key": "case058.evidence.archive",
+   "value": "Le dossier de 2015"
+  },
+  {
+   "key": "case058.evidence.corridor",
+   "value": "Caméra du sous-sol"
+  },
+  {
+   "key": "case058.evidence.stack",
+   "value": "Examen des magasins"
+  },
+  {
+   "key": "case058.evidence.workshop",
+   "value": "Fouille de l’atelier de restauration"
+  },
+  {
+   "key": "case058.feedback.accident",
+   "value": "La manivelle des rayonnages n’était pas en place ; quelqu’un à l’intérieur n’aurait pas pu ouvrir les armoires."
+  },
+  {
+   "key": "case058.feedback.aurora",
+   "value": "La directrice s’est tue en 2015, mais elle était en haut toute la soirée."
+  },
+  {
+   "key": "case058.feedback.fermin",
+   "value": "L’ancien veilleur a trouvé le corps et a ouvert les rayonnages de ses propres mains ; le registre d’entrée ne montre aucune descente de sa part au sous-sol à cette heure-là."
+  },
+  {
+   "key": "case058.feedback.sergio",
+   "value": "La manivelle des rayonnages est sortie de la presse qu’il a serrée, avec son empreinte ; la caméra le montre sortant des magasins avec quelque chose de rond et métallique. Le dossier de 2015 rouvert montre que la dernière signature sur la carte était la sienne."
+  },
+  {
+   "key": "case058.fermin.body",
+   "value": "Agent d’entretien."
+  },
+  {
+   "key": "case058.fermin.deflect",
+   "value": "On m’a traité de voleur une fois ; je suis voleur pour toujours."
+  },
+  {
+   "key": "case058.fermin.found.answer",
+   "value": "La lumière des magasins était allumée ; je suis descendu l’éteindre. Deux armoires étaient fermées ; entre elles, j’ai vu une chaussure. Il n’y avait pas de manivelle ; j’ai pris celle de l’autre allée, je l’ai fixée, j’ai ouvert. Trop tard. En 2015, on m’a mis à la porte pour ces cartes ; je ne les ai pas prises. Rosa était la seule à me croire."
+  },
+  {
+   "key": "case058.fermin.found.answer.demeanor",
+   "value": "Sort les gants de la poche de son tablier et les y renfonce."
+  },
+  {
+   "key": "case058.fermin.found.question",
+   "value": "Comment avez-vous trouvé Rosa ?"
+  },
+  {
+   "key": "case058.fermin.title",
+   "value": "Fermín Gil — audition"
+  },
+  {
+   "key": "case058.file.caseType",
+   "value": "MEURTRE"
+  },
+  {
+   "key": "case058.file.value.bureau",
+   "value": "BDS Sevilla — Antenne de Triana"
+  },
+  {
+   "key": "case058.file.value.location",
+   "value": "Archivo Histórico del Guadalquivir, Sevilla"
+  },
+  {
+   "key": "case058.file.value.number",
+   "value": "BDS-SVQ-2030-0127"
+  },
+  {
+   "key": "case058.file.value.offence",
+   "value": "Meurtre"
+  },
+  {
+   "key": "case058.file.value.reporter",
+   "value": "Agent d’entretien"
+  },
+  {
+   "key": "case058.method.drift",
+   "value": "Les rayonnages ont glissé tout seuls"
+  },
+  {
+   "key": "case058.method.fall",
+   "value": "Elle est tombée d’une échelle"
+  },
+  {
+   "key": "case058.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case058.method.shelf",
+   "value": "Les rayonnages mobiles ont été refermés sur elle en tournant la manivelle"
+  },
+  {
+   "key": "case058.naomi.body",
+   "value": "Chercheuse invitée."
+  },
+  {
+   "key": "case058.naomi.catalog.answer",
+   "value": "Un catalogue de collection privée ; la Fundación Santa Ana. Rosa a reconnu la carte de 1752 à la trace d’un tampon effacé dans le coin. Elle a dit que la carte avait été prise en restauration en 2015 puis enregistrée comme « disparue ». « Si je trouve le registre de l’atelier, c’est fini », elle a dit."
+  },
+  {
+   "key": "case058.naomi.catalog.answer.demeanor",
+   "value": "Remonte ses lunettes sur son nez."
+  },
+  {
+   "key": "case058.naomi.catalog.question",
+   "value": "Qu’avez-vous montré à Rosa ?"
+  },
+  {
+   "key": "case058.naomi.deflect",
+   "value": "Je ne suis là que pour les documents."
+  },
+  {
+   "key": "case058.naomi.title",
+   "value": "Naomi Park — audition"
+  },
+  {
+   "key": "case058.offer.subtitle",
+   "value": "RAYONNAGES MOBILES  /  MEURTRE"
+  },
+  {
+   "key": "case058.offer.summary",
+   "value": "Une archiviste principale a été retrouvée écrasée entre deux rayonnages mobiles dans les magasins du sous-sol."
+  },
+  {
+   "key": "case058.offer.title",
+   "value": "DOSSIER #058"
+  },
+  {
+   "key": "case058.osman.body",
+   "value": "Relieur."
+  },
+  {
+   "key": "case058.osman.deflect",
+   "value": "Je fais les reliures, les couvertures."
+  },
+  {
+   "key": "case058.osman.press.answer",
+   "value": "Sergio est entré dans l’atelier à 18.55, il a serré la presse à livres et a dit : « J’aplatis une couverture. » Cette presse est la mienne ; il n’y avait pas de couverture dedans. Je l’avais vidée le matin."
+  },
+  {
+   "key": "case058.osman.press.answer.demeanor",
+   "value": "Frotte la colle séchée sur ses doigts."
+  },
+  {
+   "key": "case058.osman.press.question",
+   "value": "S’est-il passé quelque chose d’inhabituel à l’atelier ce soir ?"
+  },
+  {
+   "key": "case058.osman.title",
+   "value": "Osman Kılınç — audition"
+  },
+  {
+   "key": "case058.person.aurora.info",
+   "value": "59 ans, directrice des archives."
+  },
+  {
+   "key": "case058.person.aurora.name",
+   "value": "Aurora Benítez"
+  },
+  {
+   "key": "case058.person.blanca.info",
+   "value": "27 ans, surveillante de la salle de lecture."
+  },
+  {
+   "key": "case058.person.blanca.name",
+   "value": "Blanca Ortiz"
+  },
+  {
+   "key": "case058.person.candela.info",
+   "value": "33 ans, la fille de la victime."
+  },
+  {
+   "key": "case058.person.candela.name",
+   "value": "Candela Medina"
+  },
+  {
+   "key": "case058.person.fermin.info",
+   "value": "56 ans, agent d’entretien ; l’ancien veilleur renvoyé pour un vol en 2015."
+  },
+  {
+   "key": "case058.person.fermin.name",
+   "value": "Fermín Gil"
+  },
+  {
+   "key": "case058.person.naomi.info",
+   "value": "36 ans, chercheuse invitée."
+  },
+  {
+   "key": "case058.person.naomi.name",
+   "value": "Naomi Park"
+  },
+  {
+   "key": "case058.person.osman.info",
+   "value": "44 ans, relieur."
+  },
+  {
+   "key": "case058.person.osman.name",
+   "value": "Osman Kılınç"
+  },
+  {
+   "key": "case058.person.sergio.info",
+   "value": "47 ans, le restaurateur des archives."
+  },
+  {
+   "key": "case058.person.sergio.name",
+   "value": "Sergio Vidaurre"
+  },
+  {
+   "key": "case058.report.body",
+   "value": "Le soir du 25 octobre 2030, dans les magasins du sous-sol de l’Archivo Histórico del Guadalquivir à Sevilla, l’archiviste principale Rosa Medina (63 ans) a été retrouvée morte, écrasée entre deux armoires de rayonnages mobiles. La manivelle des rayonnages n’était pas en place.\n\nL’agent d’entretien Fermín Gil a trouvé le corps à 20.10. Dans le bâtiment à l’heure de la fermeture : la directrice Aurora Benítez, le restaurateur Sergio Vidaurre, le relieur Osman Kılınç, la surveillante de la salle de lecture Blanca Ortiz, la chercheuse invitée Naomi Park. La fille de la victime, Candela Medina, est arrivée dans la nuit."
+  },
+  {
+   "key": "case058.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case058.request.archive",
+   "value": "Demander l’autorisation de ressortir le dossier de 2015 des archives"
+  },
+  {
+   "key": "case058.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case058.request.stack",
+   "value": "Demander un examen des magasins"
+  },
+  {
+   "key": "case058.request.workshop",
+   "value": "Demander l’autorisation de fouiller l’atelier de restauration"
+  },
+  {
+   "key": "case058.sergio.body",
+   "value": "Restaurateur."
+  },
+  {
+   "key": "case058.sergio.deflect",
+   "value": "Je travaille avec le papier, pas avec les gens."
+  },
+  {
+   "key": "case058.sergio.down.answer",
+   "value": "J’ai pris une boîte et je suis reparti. Rosa était là ; on ne s’est pas parlé. Les rayonnages sont vieux ; la manivelle a du jeu, peut-être tout seuls…"
+  },
+  {
+   "key": "case058.sergio.down.answer.demeanor",
+   "value": "Descend ses lunettes de sa tête et les plie."
+  },
+  {
+   "key": "case058.sergio.down.question",
+   "value": "Pourquoi êtes-vous descendu au sous-sol ce soir ?"
+  },
+  {
+   "key": "case058.sergio.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case058.sergio.end.presented.archive",
+   "value": "En 2015, je l’ai fait une fois. J’avais des dettes. Un homme de la fondation a appelé et a dit : « Il y a un acheteur. » Une fois."
+  },
+  {
+   "key": "case058.sergio.end.presented.workshop",
+   "value": "Rosa a dit : « Demain je vais voir la directrice ; vas-y d’abord, toi. » Je n’ai pas pu y aller. J’ai tourné la manivelle ; elle était entre les rayonnages à chercher le registre. Ensuite j’ai enlevé la manivelle et je l’ai mise dans la presse. Je n’ai même pas osé rouvrir les rayonnages."
+  },
+  {
+   "key": "case058.sergio.end.question",
+   "value": "Vous avez enfermé Rosa entre les rayonnages."
+  },
+  {
+   "key": "case058.sergio.title",
+   "value": "Sergio Vidaurre — audition"
+  },
+  {
+   "key": "case058.stack.body",
+   "value": "· Les rayonnages mobiles s’ouvrent et se ferment à la main, avec la manivelle au bout ; la manivelle est fixée par une goupille et s’enlève sans outil.\n· L’allée où la victime a été prise n’a pas de manivelle : quelqu’un à l’intérieur n’aurait pas pu ouvrir les armoires.\n· Par terre, une boîte d’archives tombée : « Cartes, XVIIIe s., liste des disparus 2015 »."
+  },
+  {
+   "key": "case058.stack.title",
+   "value": "EXAMEN DES MAGASINS"
+  },
+  {
+   "key": "case058.summary.evidence",
+   "value": "La fille, la chercheuse et l’état des magasins ont fait ouvrir les archives. La caméra et le relieur ont mené à l’atelier ; la fouille a trouvé la manivelle dans la presse."
+  },
+  {
+   "key": "case058.summary.lesson",
+   "value": "Rosa lui a laissé une chance ; il a tourné la manivelle."
+  },
+  {
+   "key": "case058.summary.location",
+   "value": "Archivo Histórico — octobre 2030"
+  },
+  {
+   "key": "case058.summary.truth",
+   "value": "En 2015, le restaurateur Sergio Vidaurre a pris la carte de 1752 en restauration et ne l’a jamais rendue ; la carte est passée dans la collection de la fondation et le veilleur a été renvoyé. Quinze ans plus tard, l’archiviste Rosa Medina a reconnu la carte dans un catalogue et a dit à Sergio : « Vas-y d’abord, toi. » Ce soir-là, dans les magasins, Sergio a tourné la manivelle et l’a prise entre deux armoires, puis il a enlevé la manivelle et l’a glissée dans la presse à livres."
+  },
+  {
+   "key": "case058.suspect.label",
+   "value": "Qui a tué Rosa Medina ?"
+  },
+  {
+   "key": "case058.tablet.caseLine",
+   "value": "DOSSIER #058  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case058.time.follow",
+   "value": "18.32"
+  },
+  {
+   "key": "case058.time.found",
+   "value": "20.10"
+  },
+  {
+   "key": "case058.time.in",
+   "value": "18.21"
+  },
+  {
+   "key": "case058.time.out",
+   "value": "18.49"
+  },
+  {
+   "key": "case058.time.press",
+   "value": "18.55"
+  },
+  {
+   "key": "case058.title",
+   "value": "Dossier #058 — Rayonnages mobiles"
+  },
+  {
+   "key": "case058.verdict.accident",
+   "value": "Personne — un rayonnage mal fixé"
+  },
+  {
+   "key": "case058.verdict.aurora",
+   "value": "Aurora Benítez"
+  },
+  {
+   "key": "case058.verdict.fermin",
+   "value": "Fermín Gil"
+  },
+  {
+   "key": "case058.verdict.sergio",
+   "value": "Sergio Vidaurre"
+  },
+  {
+   "key": "case058.workshop.body",
+   "value": "L’atelier de restauration et le casier de Sergio Vidaurre (avec l’accord du chef d’antenne) :\n\n· Entre les plateaux de la presse à livres, la manivelle des rayonnages mobiles des magasins ; sur la manivelle, l’empreinte de Sergio Vidaurre et une fibre du gilet de la victime.\n· Dans son casier, la page arrachée du registre de restauration de 2015.\n· Un relevé bancaire daté de 2016 : « Conseil — F. S. A. », 48 000 €."
+  },
+  {
+   "key": "case058.workshop.title",
+   "value": "ATELIER DE RESTAURATION — FOUILLE"
+  },
+  {
+   "key": "case058.item.handle.name",
+   "value": "Manivelle des rayonnages"
+  },
+  {
+   "key": "case058.item.handle.detail",
+   "value": "La manivelle des rayonnages mobiles ; elle est sortie de la presse à livres de l’atelier de restauration."
+  },
+  {
+   "key": "case058.item.map.name",
+   "value": "Photo de la carte de 1752"
+  },
+  {
+   "key": "case058.item.map.detail",
+   "value": "La photo que Rosa a découpée dans le catalogue ; dans le coin de la carte, la trace du tampon effacé des archives."
+  },
+  {
+   "key": "case058.item.cradle.name",
+   "value": "Registre de restauration"
+  },
+  {
+   "key": "case058.item.cradle.detail",
+   "value": "Le registre de restauration de 2015 de l’atelier ; l’inscription « prise en restauration » de la carte, sans inscription de retour."
+  }
+ ]
+}
