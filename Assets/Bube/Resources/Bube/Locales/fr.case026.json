@@ -1,0 +1,656 @@
+{
+ "entries": [
+  {
+   "key": "case026.aoi.body",
+   "value": "Apprentie ; a trouvé le corps."
+  },
+  {
+   "key": "case026.aoi.bowl.answer",
+   "value": "Un vieux bol que le maître gardait dans l’atelier. Il ne l’a jamais montré à personne."
+  },
+  {
+   "key": "case026.aoi.bowl.question",
+   "value": "Quel était le bol disparu ?"
+  },
+  {
+   "key": "case026.aoi.deflect",
+   "value": "Je ne peux pas parler des affaires de mon maître."
+  },
+  {
+   "key": "case026.aoi.night.answer",
+   "value": "Je me suis couchée tôt. Le soir, le maître a dit « je suis fatigué » et il est allé dans sa chambre. Le matin, je suis entrée dans la salle d’exposition pour le thé et je l’ai trouvé comme ça. La vitrine était ouverte ; le bol avait disparu."
+  },
+  {
+   "key": "case026.aoi.night.answer.demeanor",
+   "value": "Presse ses mains sur ses genoux."
+  },
+  {
+   "key": "case026.aoi.night.question",
+   "value": "Que s’est-il passé dans la nuit ?"
+  },
+  {
+   "key": "case026.aoi.night.variant0",
+   "value": "Je me suis couchée tôt… Vous avez vu la caméra ? La caméra à sangliers dans le jardin. C’est moi qui l’ai installée. …Je ne parlerai pas de ce qui s’est passé après minuit."
+  },
+  {
+   "key": "case026.aoi.quote",
+   "value": "« Le matin, je suis entrée dans la salle d’exposition pour le thé. »"
+  },
+  {
+   "key": "case026.aoi.title",
+   "value": "Hoshino Aoi — audition"
+  },
+  {
+   "key": "case026.aoi_2.body",
+   "value": "Sur l’examen des traces."
+  },
+  {
+   "key": "case026.aoi_2.found.answer",
+   "value": "J’ai dit que je n’en parlerais pas."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.drag",
+   "value": "Je me suis réveillée à cinq heures ; la lumière de l’atelier du four était allumée. J’ai ouvert la porte, de la fumée… Le maître était au pied du tabouret. Il était froid. Dans le four, il y avait sept bols « anciens ». Si quelqu’un les trouvait, les quarante ans de mon maître s’achèveraient en une nuit. Je l’ai enveloppé dans une couverture, je l’ai porté dans la salle d’exposition, j’ai renversé l’étagère. Sa tête contre le coin de l’étagère… c’est moi. Après sa mort. J’ai caché le bol."
+  },
+  {
+   "key": "case026.aoi_2.found.presented.shed",
+   "value": "Vous avez trouvé le carnet. Alors vous savez. Je voulais seulement protéger son nom. À cinq heures du matin, j’ai ouvert l’atelier ; il était déjà mort. Le reste, c’est moi : je l’ai porté, j’ai mis en scène, j’ai caché le bol."
+  },
+  {
+   "key": "case026.aoi_2.found.question",
+   "value": "Vous détenez la seule clé de l’atelier du four."
+  },
+  {
+   "key": "case026.aoi_2.title",
+   "value": "Hoshino Aoi — seconde audition"
+  },
+  {
+   "key": "case026.aoi_2.why.answer",
+   "value": "Il m’a appris la poterie. Je ne lui ai jamais demandé pourquoi il faisait les faux. Une nuit, il a dit : « Personne ne paie quarante millions pour mes vrais. » C’est tout."
+  },
+  {
+   "key": "case026.aoi_2.why.question",
+   "value": "Pourquoi ?"
+  },
+  {
+   "key": "case026.autopsy.body",
+   "value": "· À la tête, une plaie de 3 cm à la tempe droite. Presque aucun saignement dans la plaie ; la plaie est survenue **après la mort**.\n· Lividités fixées sur le dos et les fesses ; le corps a été trouvé face contre terre.\n· La couleur des lividités anormalement vive, rouge cerise.\n· Heure du décès : 01.00–03.00.\n· Chaussettes tabi aux pieds ; cendre et terre sur les talons."
+  },
+  {
+   "key": "case026.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case026.cctv.event.back",
+   "value": "Caméra : la même silhouette retourne à l’atelier du four avec un bol et un seau. La porte de l’atelier reste ouverte."
+  },
+  {
+   "key": "case026.cctv.event.drag",
+   "value": "Caméra : une silhouette menue sort de l’atelier à reculons, en traînant sur le chemin de pierre quelque chose de lourd enveloppé dans une couverture."
+  },
+  {
+   "key": "case026.cctv.event.shed",
+   "value": "Caméra : une silhouette avec une lanterne va de la maison à l’atelier du four et referme la porte de l’atelier."
+  },
+  {
+   "key": "case026.cctv.overlay",
+   "value": "TRAIL"
+  },
+  {
+   "key": "case026.cctv.period",
+   "value": "21 janvier 2030"
+  },
+  {
+   "key": "case026.cctv.source",
+   "value": "Caméra du jardin"
+  },
+  {
+   "key": "case026.clue.cold",
+   "value": "Personne n’alimente le four ; la température commence à baisser."
+  },
+  {
+   "key": "case026.clue.drag",
+   "value": "Une silhouette menue traîne une charge enveloppée d’une couverture de l’atelier à la maison."
+  },
+  {
+   "key": "case026.clue.fight",
+   "value": "Le galeriste et le maître se disputent au sujet d’un faux bol."
+  },
+  {
+   "key": "case026.clue.fire",
+   "value": "Le vieux four de l’atelier, au conduit fissuré, est allumé."
+  },
+  {
+   "key": "case026.clue.shed",
+   "value": "Une silhouette avec une lanterne entre dans l’atelier et referme la porte."
+  },
+  {
+   "key": "case026.clue.smoke",
+   "value": "Le voisin voit la fumée de la cheminée retomber."
+  },
+  {
+   "key": "case026.clue.source.emi",
+   "value": "La fille du maître"
+  },
+  {
+   "key": "case026.clue.source.kilnlog",
+   "value": "Enregistreur du four"
+  },
+  {
+   "key": "case026.clue.source.okabe",
+   "value": "Voisin"
+  },
+  {
+   "key": "case026.co.body",
+   "value": "Taux de carboxyhémoglobine dans le sang du maître : 58 %. Un taux mortel.\n\nLes lividités rouge cerise concordent avec cela. Pas de suie dans les poumons ; pas un incendie, mais un gaz de combustion dans un espace clos.\n\nLa plaie à la tête est postérieure à ce décès."
+  },
+  {
+   "key": "case026.co.title",
+   "value": "GAZ DU SANG — CARBOXYHÉMOGLOBINE"
+  },
+  {
+   "key": "case026.custody.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.custody.fujita",
+   "value": "Fujita Masaru — la galerie"
+  },
+  {
+   "key": "case026.custody.label",
+   "value": "Qui fabriquait les faux bols anciens ?"
+  },
+  {
+   "key": "case026.custody.seiji",
+   "value": "Nakamura Seiji lui-même"
+  },
+  {
+   "key": "case026.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case026.drag.body",
+   "value": "Les deux lignes grises parallèles dans la salle d’exposition : de la cendre de bois. La même cendre sur les talons des chaussettes tabi du maître, toutes deux frottées dans le même sens.\n\nLa cendre est la même que celle du sol de l’atelier du four. Dans les fibres de couverture derrière la porte de l’atelier, des cheveux du maître.\n\nLa seule clé du cadenas de l’atelier est sur le trousseau de l’apprentie Hoshino Aoi."
+  },
+  {
+   "key": "case026.drag.title",
+   "value": "EXAMEN DES TRACES — LIGNES SUR LE TATAMI ET CHAUSSETTES"
+  },
+  {
+   "key": "case026.emi.body",
+   "value": "La fille du maître."
+  },
+  {
+   "key": "case026.emi.deflect",
+   "value": "Je ne connais pas les affaires de mon père ; je suis partie depuis des années."
+  },
+  {
+   "key": "case026.emi.title",
+   "value": "Nakamura Emi — audition"
+  },
+  {
+   "key": "case026.emi.weekend.answer",
+   "value": "Tendu. Dimanche soir, le galeriste Fujita est venu ; ils ont crié. Mon père a dit : « Ce bol n’est pas de moi ; je n’ai jamais eu un bol pareil ! » Alors j’ai repris le train pour Yokohama. Il était neuf heures."
+  },
+  {
+   "key": "case026.emi.weekend.answer.demeanor",
+   "value": "Voix plate, regard fixe."
+  },
+  {
+   "key": "case026.emi.weekend.question",
+   "value": "Comment s’est passé le week-end avec votre père ?"
+  },
+  {
+   "key": "case026.emi.will.answer",
+   "value": "Une maison, un four et des dettes. Mon père disait qu’il avait gagné beaucoup d’argent ces deux dernières années, mais il n’y a pas d’argent sur son compte. Je ne sais pas où il est passé."
+  },
+  {
+   "key": "case026.emi.will.question",
+   "value": "Vous êtes l’héritière."
+  },
+  {
+   "key": "case026.epilogue.custody.aoi",
+   "value": "On a cru que les faux bols sortaient des mains de l’apprentie ; le carnet du maître a été ignoré."
+  },
+  {
+   "key": "case026.epilogue.custody.fujita",
+   "value": "Le galeriste a été déclaré faussaire ; le vrai atelier a fermé et l’atelier du four n’a jamais été fouillé."
+  },
+  {
+   "key": "case026.epilogue.custody.seiji",
+   "value": "Il a été consigné que la contrefaçon était l’œuvre du maître lui-même ; l’apprentie et le galeriste ont été jugés séparément."
+  },
+  {
+   "key": "case026.epilogue.custody.unknown",
+   "value": "La provenance des bols est restée ouverte."
+  },
+  {
+   "key": "case026.epilogue.verdict.aoi",
+   "value": "Hoshino Aoi a été jugée pour meurtre. Les faux bols ont été considérés comme « l’œuvre de l’apprentie » ; le nom du maître est resté sans tache."
+  },
+  {
+   "key": "case026.epilogue.verdict.fujita",
+   "value": "Fujita Masaru a été arrêté ; les ventes d’« héritages de famille » de sa galerie ont été classées comme ses contrefaçons."
+  },
+  {
+   "key": "case026.epilogue.verdict.kuroda",
+   "value": "Kuroda Isao a été placé en garde à vue puis relâché faute de preuves ; le dossier est resté ouvert."
+  },
+  {
+   "key": "case026.epilogue.verdict.nobody",
+   "value": "Le décès a été consigné comme un accident. Hoshino Aoi a été condamnée pour déplacement du corps et dissimulation de preuves ; la peine a été assortie du sursis. Les sept « héritages de famille » vendus par la galerie Fujita ont été rappelés ; le bol de Kuroda a été retiré de la collection Kisaragi."
+  },
+  {
+   "key": "case026.evidence.co",
+   "value": "Gaz du sang — carboxyhémoglobine"
+  },
+  {
+   "key": "case026.evidence.drag",
+   "value": "Examen des traces du tatami et des chaussettes"
+  },
+  {
+   "key": "case026.evidence.kilnlog",
+   "value": "Journal de température du four"
+  },
+  {
+   "key": "case026.evidence.xrf",
+   "value": "Analyse de la glaçure"
+  },
+  {
+   "key": "case026.feedback.aoi",
+   "value": "L’apprentie a déplacé le corps et mis en scène les lieux ; mais le maître est mort du gaz dans l’atelier, des heures avant qu’elle arrive."
+  },
+  {
+   "key": "case026.feedback.fujita",
+   "value": "Le galeriste s’est disputé dimanche soir et il est parti ; le décès a eu lieu dans la nuit, dans l’atelier, à cause du gaz d’un four fermé."
+  },
+  {
+   "key": "case026.feedback.kuroda",
+   "value": "Le collectionneur allait porter plainte ; la mort du maître rendait plus difficile la récupération de son argent, et il n’était pas à l’atelier cette nuit-là."
+  },
+  {
+   "key": "case026.feedback.nobody",
+   "value": "Les gaz du sang montrent un monoxyde de carbone mortel et la plaie à la tête est post-mortem ; les lividités montrent qu’il est mort sur le dos, et les traces de cendre qu’il a été traîné depuis l’atelier. Le four au conduit fissuré a été allumé dans la nuit."
+  },
+  {
+   "key": "case026.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case026.file.value.bureau",
+   "value": "BDS Tokyo — Antenne de Nihonbashi"
+  },
+  {
+   "key": "case026.file.value.location",
+   "value": "Kamakura, maison-atelier — salle d’exposition"
+  },
+  {
+   "key": "case026.file.value.number",
+   "value": "BDS-TYO-2030-0011"
+  },
+  {
+   "key": "case026.file.value.offence",
+   "value": "Mort suspecte ; vol"
+  },
+  {
+   "key": "case026.file.value.reporter",
+   "value": "Apprentie"
+  },
+  {
+   "key": "case026.fujita.body",
+   "value": "Galeriste."
+  },
+  {
+   "key": "case026.fujita.count.answer",
+   "value": "Sept ces deux dernières années. Tous de Seiji, tous des « héritages de famille ». Mme Shimizu a rédigé un certificat pour chacun."
+  },
+  {
+   "key": "case026.fujita.count.question",
+   "value": "Combien de bols « anciens » avez-vous vendus ?"
+  },
+  {
+   "key": "case026.fujita.deflect",
+   "value": "Nos relations d’affaires sont confidentielles."
+  },
+  {
+   "key": "case026.fujita.fight.answer",
+   "value": "Un morceau s’est détaché du bol du XVIe siècle que M. Kuroda m’a acheté l’an dernier, et de l’argile neuve est apparue dessous. Il dit que c’est un faux et qu’il va porter plainte. Seiji m’avait donné ce bol comme « un héritage de famille venant d’un temple ». Je lui ai demandé ; il a nié."
+  },
+  {
+   "key": "case026.fujita.fight.answer.demeanor",
+   "value": "Essuie sans cesse ses lunettes."
+  },
+  {
+   "key": "case026.fujita.fight.question",
+   "value": "Pourquoi vous êtes-vous disputés dimanche soir ?"
+  },
+  {
+   "key": "case026.fujita.fight.variant0",
+   "value": "Vous avez donc vu l’analyse de la glaçure. Du cobalt moderne. Seiji m’a donné ce bol comme un « héritage de temple ». Deux experts l’avaient examiné avant moi. Je suis marchand, pas chimiste."
+  },
+  {
+   "key": "case026.fujita.title",
+   "value": "Fujita Masaru — audition"
+  },
+  {
+   "key": "case026.kilnlog.body",
+   "value": "Enregistreur de température installé pour l’assureur sur le vieux four à gaz de bois de l’atelier.\n\n· 20 janvier 23.10 · allumage\n· 00.30–02.40 · 900–1 050 °C\n· 02.40 · dernière mesure de l’enregistreur ; ensuite une baisse régulière, personne ne l’a alimenté\n· 05.30 · couvercle ouvert (chute brutale)\n\nNote : selon le rapport d’entretien de novembre, le conduit du four est « fissuré ; à ne pas utiliser »."
+  },
+  {
+   "key": "case026.kilnlog.title",
+   "value": "ENREGISTREUR DE TEMPÉRATURE DU FOUR"
+  },
+  {
+   "key": "case026.kuroda.body",
+   "value": "Collectionneur."
+  },
+  {
+   "key": "case026.kuroda.bowl.answer",
+   "value": "Pour la collection de M. Kisaragi Genzō. Payé sur le compte de l’entreprise : quarante millions de yens. Pour un faux. Lundi, mes avocats allaient porter plainte. La mort de Seiji ne me rapporte rien ; à qui vais-je réclamer l’argent maintenant ?"
+  },
+  {
+   "key": "case026.kuroda.bowl.answer.demeanor",
+   "value": "Tambourine des doigts sur la table."
+  },
+  {
+   "key": "case026.kuroda.bowl.question",
+   "value": "Pour qui avez-vous acheté le bol ?"
+  },
+  {
+   "key": "case026.kuroda.deflect",
+   "value": "Ma collection est une affaire privée."
+  },
+  {
+   "key": "case026.kuroda.title",
+   "value": "Kuroda Isao — audition"
+  },
+  {
+   "key": "case026.method.blow",
+   "value": "Il a été frappé à la tête"
+  },
+  {
+   "key": "case026.method.co",
+   "value": "Il a été intoxiqué au monoxyde de carbone par le four au conduit fissuré de l’atelier"
+  },
+  {
+   "key": "case026.method.fall",
+   "value": "Il est tombé de l’étagère et s’est cogné la tête"
+  },
+  {
+   "key": "case026.method.heart",
+   "value": "Crise cardiaque"
+  },
+  {
+   "key": "case026.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case026.offer.subtitle",
+   "value": "KINTSUGI  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case026.offer.summary",
+   "value": "À Kamakura, un célèbre potier est retrouvé mort dans sa salle d’exposition. Une étagère renversée, une vitrine ouverte, un bol disparu : la patrouille dit cambriolage."
+  },
+  {
+   "key": "case026.offer.title",
+   "value": "DOSSIER #026"
+  },
+  {
+   "key": "case026.okabe.body",
+   "value": "Le voisin du bas de la pente."
+  },
+  {
+   "key": "case026.okabe.deflect",
+   "value": "Je ne m’occupe que de mon jardin."
+  },
+  {
+   "key": "case026.okabe.smoke.answer",
+   "value": "À une heure du matin, je me suis levé pour aller aux toilettes ; la cheminée de l’atelier du four, en haut de la colline, fumait. Seiji travaille parfois la nuit. Il n’y avait pas de vent ; la fumée retombait, je la sentais jusque dans mon jardin, en bas."
+  },
+  {
+   "key": "case026.okabe.smoke.question",
+   "value": "Avez-vous vu quelque chose dans la nuit ?"
+  },
+  {
+   "key": "case026.okabe.smoke.variant0",
+   "value": "La fumée, c’était à une heure, oui. Mais ce four… Le mois dernier, Seiji m’a dit : « J’ai fermé le grand four ; seulement l’électrique maintenant. » Donc il allumait le petit vieux four de l’atelier. Son conduit était cassé ; je le lui disais toujours."
+  },
+  {
+   "key": "case026.okabe.title",
+   "value": "Okabe Tetsu — audition"
+  },
+  {
+   "key": "case026.path.body",
+   "value": "Caméra infrarouge couvrant le chemin de pierre entre l’atelier du four et la maison ; elle prend des images au mouvement. 21 janvier 00.00 – 06.00."
+  },
+  {
+   "key": "case026.path.title",
+   "value": "CAMÉRA À ANIMAUX DU JARDIN — transcription du relevé"
+  },
+  {
+   "key": "case026.person.aoi.info",
+   "value": "24 ans, apprentie du maître potier Nakamura Seiji depuis quatre ans ; habite la chambre derrière l’atelier."
+  },
+  {
+   "key": "case026.person.aoi.name",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.person.emi.info",
+   "value": "41 ans, la fille du maître ; habite à Yokohama et était chez son père pour le week-end."
+  },
+  {
+   "key": "case026.person.emi.name",
+   "value": "Nakamura Emi"
+  },
+  {
+   "key": "case026.person.fujita.info",
+   "value": "59 ans, propriétaire d’une galerie de céramique à Ginza ; vend les œuvres du maître depuis trente ans."
+  },
+  {
+   "key": "case026.person.fujita.name",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.person.kuroda.info",
+   "value": "63 ans, collectionneur ; conseiller pour la collection du président de Kisaragi Shōji."
+  },
+  {
+   "key": "case026.person.kuroda.name",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.person.okabe.info",
+   "value": "70 ans, le voisin de la pente sous l’atelier ; possède un verger de mandariniers."
+  },
+  {
+   "key": "case026.person.okabe.name",
+   "value": "Okabe Tetsu"
+  },
+  {
+   "key": "case026.person.shimizu.info",
+   "value": "47 ans, experte indépendante en céramique ; a rédigé le certificat du bol « du XVIe siècle »."
+  },
+  {
+   "key": "case026.person.shimizu.name",
+   "value": "Shimizu Rie"
+  },
+  {
+   "key": "case026.report.body",
+   "value": "Le 21 janvier 2030 à 06.40, le maître potier Nakamura Seiji (68 ans) a été retrouvé mort, face contre terre, dans la salle d’exposition de sa maison-atelier sur les collines de Kamakura. Son apprentie, Hoshino Aoi, l’a trouvé et a appelé.\n\nUne étagère d’exposition renversée, une plaie à la tête. La vitrine sur l’étagère ouverte ; selon la déclaration de l’apprentie, le « bol le plus précieux » du maître a disparu. Note de la patrouille : « Un cambrioleur est entré dans la nuit ; le vieil homme s’est réveillé et a été frappé ou est tombé. »"
+  },
+  {
+   "key": "case026.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case026.request.co",
+   "value": "Demander une analyse des gaz du sang"
+  },
+  {
+   "key": "case026.request.drag",
+   "value": "Demander l’examen des marques sur le tatami"
+  },
+  {
+   "key": "case026.request.kilnlog",
+   "value": "Demander le journal de température de l’atelier du four"
+  },
+  {
+   "key": "case026.request.shed",
+   "value": "Demander la fouille de l’atelier du four"
+  },
+  {
+   "key": "case026.request.xrf",
+   "value": "Demander une analyse de la glaçure du bol"
+  },
+  {
+   "key": "case026.scene.body",
+   "value": "· Des cheveux et de la peau sur le coin de l’étagère renversée, pas de sang.\n· La serrure de la vitrine a été ouverte avec une clé ; pas d’effraction. Les clés sont détenues par le maître et l’apprentie.\n· Sur le tatami de la salle d’exposition, deux légères lignes grises parallèles de la porte vers le corps.\n· Les portes de la maison fermées de l’intérieur ; la porte du jardin ouverte."
+  },
+  {
+   "key": "case026.scene.title",
+   "value": "EXAMEN DES LIEUX — SALLE D’EXPOSITION"
+  },
+  {
+   "key": "case026.shed.body",
+   "value": "· Dans le four, sept bols à thé à moitié cuits ; à côté, des bocaux de « vieillissement » remplis de feuilles de thé et d’acide dilué, et quatre autres bols enfouis dans la fosse à cendres.\n· Sous une étagère, une enveloppe : reçus de paiement de la galerie Fujita, 2028–2029 ; mention « héritage de famille ».\n· Un carnet de travail de la main de Nakamura Seiji : « Faire la glaçure au vieux fer, pas au cobalt moderne — Shimizu l’a remarqué. »\n· Au sol derrière la porte, un tabouret renversé et une lanterne éteinte.\n· Le cadenas de la porte ouvert ; Hoshino Aoi en détient la seule clé."
+  },
+  {
+   "key": "case026.shed.title",
+   "value": "FOUILLE DE L’ATELIER DU FOUR"
+  },
+  {
+   "key": "case026.shimizu.body",
+   "value": "Experte."
+  },
+  {
+   "key": "case026.shimizu.cert.answer",
+   "value": "Mon avis professionnel est consigné par écrit."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.shed",
+   "value": "Donc mon nom est dans le carnet. « Shimizu l’a remarqué. » Oui, je l’ai remarqué. Je le lui ai dit. Ensuite je me suis tue, parce que j’avais authentifié ces bols ; si ça se savait, je coulerais la première."
+  },
+  {
+   "key": "case026.shimizu.cert.presented.xrf",
+   "value": "Du cobalt… Quand je l’ai examiné, je n’ai pas gratté la glaçure. Personne ne le fait ; on ne gratte pas un bol vieux de plusieurs siècles. Il avait l’air ancien. Mais je vais vous dire : au troisième bol, j’ai eu un doute. Je l’ai dit à Seiji. Ensuite, il a doublé mes honoraires."
+  },
+  {
+   "key": "case026.shimizu.cert.question",
+   "value": "Vous avez rédigé un certificat pour ce bol."
+  },
+  {
+   "key": "case026.shimizu.deflect",
+   "value": "Mes avis professionnels sont consignés par écrit."
+  },
+  {
+   "key": "case026.shimizu.title",
+   "value": "Shimizu Rie — audition"
+  },
+  {
+   "key": "case026.summary.evidence",
+   "value": "L’autopsie a montré une plaie post-mortem sans saignement et des lividités rouge cerise fixées sur le dos ; les gaz du sang ont confirmé un monoxyde de carbone mortel. Les lignes de cendre sur le tatami et les talons des chaussettes ont montré qu’il avait été traîné, la caméra à animaux la charge portée de l’atelier à la maison, le journal du four un feu allumé dans la nuit et laissé sans surveillance à 02.40. La fouille de l’atelier a relié la contrefaçon au maître."
+  },
+  {
+   "key": "case026.summary.lesson",
+   "value": "Une scène ne couvre pas toujours un crime ; parfois elle couvre un secret. Trouvez d’abord où la mort a eu lieu, puis ce que la scène dissimulait."
+  },
+  {
+   "key": "case026.summary.location",
+   "value": "Collines de Kamakura — janvier 2030"
+  },
+  {
+   "key": "case026.summary.truth",
+   "value": "Depuis deux ans, le maître potier Nakamura Seiji vieillissait des bols qu’il faisait lui-même et les vendait au galeriste Fujita comme des « héritages de temple » ; l’un est parti dans la collection Kisaragi pour quarante millions de yens. Après l’accusation de contrefaçon de l’acheteur, il est entré de nuit pour recuire le nouveau lot avec une glaçure au « vieux fer » dans le vieux four au conduit fissuré, et il est mort du monoxyde de carbone dans l’atelier à la porte fermée. Son apprentie Hoshino Aoi, qui l’a trouvé à cinq heures du matin, a traîné le corps dans la salle d’exposition pour protéger le nom du maître, a renversé l’étagère, lui a cogné la tête contre elle et a mis en scène un cambriolage."
+  },
+  {
+   "key": "case026.suspect.label",
+   "value": "Qui est responsable de la mort de Nakamura Seiji ?"
+  },
+  {
+   "key": "case026.tablet.caseLine",
+   "value": "DOSSIER #026  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case026.time.back",
+   "value": "05.21"
+  },
+  {
+   "key": "case026.time.cold",
+   "value": "02.40"
+  },
+  {
+   "key": "case026.time.drag",
+   "value": "05.06"
+  },
+  {
+   "key": "case026.time.fight",
+   "value": "Dimanche 20.30"
+  },
+  {
+   "key": "case026.time.fire",
+   "value": "23.10"
+  },
+  {
+   "key": "case026.time.shed",
+   "value": "00.48"
+  },
+  {
+   "key": "case026.time.smoke",
+   "value": "01.00"
+  },
+  {
+   "key": "case026.title",
+   "value": "Dossier #026 — Kintsugi"
+  },
+  {
+   "key": "case026.verdict.aoi",
+   "value": "Hoshino Aoi"
+  },
+  {
+   "key": "case026.verdict.fujita",
+   "value": "Fujita Masaru"
+  },
+  {
+   "key": "case026.verdict.kuroda",
+   "value": "Kuroda Isao"
+  },
+  {
+   "key": "case026.verdict.nobody",
+   "value": "Personne — il est mort du monoxyde de carbone dans l’atelier ; le corps a été déplacé ensuite"
+  },
+  {
+   "key": "case026.xrf.body",
+   "value": "Dans la glaçure du fragment cassé, du cobalt synthétique moderne et un fondant sans plomb postérieur à 1950. Pas du XVIe siècle.\n\nLa composition de l’argile est la même que celle de la réserve d’argile de l’atelier de Kamakura.\n\nL’experte qui a rédigé le certificat : Shimizu Rie."
+  },
+  {
+   "key": "case026.xrf.title",
+   "value": "ANALYSE DE LA GLAÇURE — BOL DE KURODA"
+  },
+  {
+   "key": "case026.item.bowl.name",
+   "value": "Bol « du XVIe siècle »"
+  },
+  {
+   "key": "case026.item.bowl.detail",
+   "value": "Le bol à thé acheté par Kuroda ; ses cassures réparées à la laque d’or (kintsugi)."
+  },
+  {
+   "key": "case026.item.ash.name",
+   "value": "Cendre du four et bocal de vieillissement"
+  },
+  {
+   "key": "case026.item.ash.detail",
+   "value": "De l’atelier du four : un bocal en verre rempli de feuilles de thé et d’acide, des bols à moitié enfouis à côté."
+  },
+  {
+   "key": "case026.item.heel.name",
+   "value": "La chaussette tabi du maître"
+  },
+  {
+   "key": "case026.item.heel.detail",
+   "value": "Cendre et terre sur les talons ; le corps dans la salle d’exposition, en chaussettes, pas pieds nus."
+  }
+ ]
+}

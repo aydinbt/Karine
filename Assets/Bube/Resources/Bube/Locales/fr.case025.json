@@ -1,0 +1,660 @@
+{
+ "entries": [
+  {
+   "key": "case025.autopsy.body",
+   "value": "· Cause du décès : suffocation par obstruction de la bouche et du nez avec un objet mou. Légère compression de l’os nasal, marques de dents à l’intérieur des lèvres.\n· Alcoolémie 0,9 g/l ; non mortelle en soi.\n· Heure du décès : 01.00–02.30.\n· Peu de traces de défense : ivre et endormi.\n· Marque d’un bracelet de casier au poignet gauche : le bracelet spirale a passé la nuit à ce poignet."
+  },
+  {
+   "key": "case025.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case025.camera.body",
+   "value": "Caméra au plafond couvrant les casiers et l’entrée du couloir B ; elle ne voit pas l’intérieur des capsules. Du 13 janvier 23.30 au 14 janvier 02.00."
+  },
+  {
+   "key": "case025.camera.title",
+   "value": "CAMÉRA DU COULOIR DU 4E ÉTAGE — transcription du relevé"
+  },
+  {
+   "key": "case025.cardlog.body",
+   "value": "· 01.30.58 · porte du couloir B du 4e étage · carte : PASSE (personnel) · utilisateur enregistré : réception de nuit (service : Sakai Yū)\n· 01.39.12 · même porte, sortie de l’intérieur\n· 06.18 · carte de ménage\n\nNote du gérant de l’hôtel : « Le passe doit rester toute la nuit avec le réceptionniste de nuit. Il n’y a pas de double. »"
+  },
+  {
+   "key": "case025.cardlog.title",
+   "value": "JOURNAL DES CARTES DE PORTE — 4E ÉTAGE"
+  },
+  {
+   "key": "case025.cctv.event.in",
+   "value": "Caméra : un homme en costume, pas en yukata, entre dans le couloir avec une carte ; il porte des chaussures, pas des chaussons."
+  },
+  {
+   "key": "case025.cctv.event.out",
+   "value": "Caméra : le même homme ressort vite, en retirant ses gants fins."
+  },
+  {
+   "key": "case025.cctv.event.reach",
+   "value": "Caméra : l’homme soulève le rideau d’une capsule de la rangée du haut et s’y penche à mi-corps."
+  },
+  {
+   "key": "case025.cctv.event.swap",
+   "value": "Caméra : deux hommes en yukata échangent leurs bracelets devant les casiers ; l’un montre une capsule de la rangée du haut."
+  },
+  {
+   "key": "case025.cctv.overlay",
+   "value": "4F-B"
+  },
+  {
+   "key": "case025.cctv.period",
+   "value": "13–14 janvier 2030"
+  },
+  {
+   "key": "case025.cctv.source",
+   "value": "Caméra du couloir"
+  },
+  {
+   "key": "case025.checkin.body",
+   "value": "4e étage, couloir B.\n\n· 4B-11 · Tanabe Kōji · arrivée 22.05 · casier 4B-11\n· 4B-12 · Kimura Shin · arrivée 22.40 · casier 4B-12 · en espèces · pièce d’identité « oubliée », accepté avec l’accord du réceptionniste\n· 4B-13 · Ishii Daisuke · arrivée 21.30 · casier 4B-13\n\n23.41 · plainte de 4B-11 : « Celui d’à côté ronfle. » Note de la réception : « Aucune capsule libre ; bouchons d’oreilles donnés. »\n\nRéceptionniste de nuit : Sakai Yū."
+  },
+  {
+   "key": "case025.checkin.title",
+   "value": "REGISTRE DE L’HÔTEL — 13/14 JANVIER"
+  },
+  {
+   "key": "case025.clue.in",
+   "value": "Un homme en chaussures et en costume entre dans le couloir avec le passe."
+  },
+  {
+   "key": "case025.clue.kimura",
+   "value": "« Kimura Shin » s’enregistre en 4B-12 sans pièce d’identité, en payant en espèces."
+  },
+  {
+   "key": "case025.clue.msg",
+   "value": "D’un numéro inconnu au réceptionniste : « Je suis là. »"
+  },
+  {
+   "key": "case025.clue.out",
+   "value": "L’homme ressort en retirant ses gants."
+  },
+  {
+   "key": "case025.clue.snore",
+   "value": "Plainte pour ronflement de 4B-11 ; aucune capsule libre."
+  },
+  {
+   "key": "case025.clue.source.checkin",
+   "value": "Registre de l’hôtel"
+  },
+  {
+   "key": "case025.clue.source.sakaiphone",
+   "value": "Téléphone du réceptionniste"
+  },
+  {
+   "key": "case025.clue.swap",
+   "value": "Deux hommes échangent leurs bracelets devant les casiers."
+  },
+  {
+   "key": "case025.custody.kenta",
+   "value": "Mori Kenta — l’occupant enregistré de 4B-12"
+  },
+  {
+   "key": "case025.custody.label",
+   "value": "Qui le tueur était-il venu tuer ?"
+  },
+  {
+   "key": "case025.custody.sakai",
+   "value": "Sakai Yū — le réceptionniste"
+  },
+  {
+   "key": "case025.custody.tanabe",
+   "value": "Tanabe Kōji — le mort lui-même"
+  },
+  {
+   "key": "case025.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case025.dna.body",
+   "value": "Cellules de peau sur la face externe de la taie comparées au prélèvement buccal d’Ōta Ren : **concordance**.\n\nL’ADN du mort lui-même uniquement sur la face interne de la taie."
+  },
+  {
+   "key": "case025.dna.title",
+   "value": "COMPARAISON ADN"
+  },
+  {
+   "key": "case025.epilogue.custody.kenta",
+   "value": "Il a été consigné que Mori était la cible ; Mori a été placé sous protection."
+  },
+  {
+   "key": "case025.epilogue.custody.sakai",
+   "value": "On a cru le réceptionniste menacé ; la vraie cible est passée inaperçue."
+  },
+  {
+   "key": "case025.epilogue.custody.tanabe",
+   "value": "La vie de Tanabe a été passée au crible et aucun mobile n’a été trouvé ; Mori est resté sans protection."
+  },
+  {
+   "key": "case025.epilogue.custody.unknown",
+   "value": "La cible est restée ouverte."
+  },
+  {
+   "key": "case025.epilogue.verdict.kenta",
+   "value": "Mori Kenta a été arrêté ; la copie des registres a été détruite comme « données volées »."
+  },
+  {
+   "key": "case025.epilogue.verdict.nobody",
+   "value": "Le décès a été jugé naturel. La confusion des capsules a été close par une amende pour négligence de l’hôtel."
+  },
+  {
+   "key": "case025.epilogue.verdict.ota",
+   "value": "Ōta Ren a été arrêté pour meurtre. Mori Kenta a été placé sous protection des témoins ; le tableur « Arendt — transfert » de la clé USB a été posé sur le bureau de bube Tokyo."
+  },
+  {
+   "key": "case025.epilogue.verdict.sakai",
+   "value": "Sakai Yū a été jugé pour meurtre. La semaine suivante, Ōta Ren a retrouvé Mori Kenta à Ueno."
+  },
+  {
+   "key": "case025.evidence.cardlog",
+   "value": "Journal des cartes de la porte d’étage"
+  },
+  {
+   "key": "case025.evidence.dna",
+   "value": "Comparaison ADN de la taie"
+  },
+  {
+   "key": "case025.evidence.sakaiphone",
+   "value": "Messages du réceptionniste"
+  },
+  {
+   "key": "case025.evidence.taxi",
+   "value": "Relevé de taxi"
+  },
+  {
+   "key": "case025.feedback.kenta",
+   "value": "Mori a lui-même proposé l’échange ; il ne connaissait pas le mort et se trouvait en 4B-11 à cette heure-là."
+  },
+  {
+   "key": "case025.feedback.nobody",
+   "value": "L’autopsie montre une suffocation par un objet mou et des marques de dents."
+  },
+  {
+   "key": "case025.feedback.ota",
+   "value": "Les messages relient le numéro de capsule et la carte à sa ligne ; le taxi l’amène dans la rue derrière l’hôtel ; la peau sur la face externe de la taie est la sienne."
+  },
+  {
+   "key": "case025.feedback.sakai",
+   "value": "Le réceptionniste a vendu la carte et le numéro, mais ce n’est pas lui qui est entré dans le couloir ; la caméra montre un homme en chaussures et en costume."
+  },
+  {
+   "key": "case025.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case025.file.value.bureau",
+   "value": "BDS Tokyo — Antenne de Nihonbashi"
+  },
+  {
+   "key": "case025.file.value.location",
+   "value": "Shinjuku, hôtel capsule — 4e étage, 4B-12"
+  },
+  {
+   "key": "case025.file.value.number",
+   "value": "BDS-TYO-2030-0007"
+  },
+  {
+   "key": "case025.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case025.file.value.reporter",
+   "value": "Agent d’entretien de l’hôtel"
+  },
+  {
+   "key": "case025.ishii.body",
+   "value": "Le client de 4B-13."
+  },
+  {
+   "key": "case025.ishii.deflect",
+   "value": "J’essayais de dormir, c’est tout."
+  },
+  {
+   "key": "case025.ishii.late.answer",
+   "value": "J’ai entendu quelqu’un marcher dans le couloir, vers une heure et demie. En chaussures. Ici, tout le monde marche en chaussons. Je n’ai pas ouvert mon rideau."
+  },
+  {
+   "key": "case025.ishii.late.question",
+   "value": "Et plus tard ?"
+  },
+  {
+   "key": "case025.ishii.night.answer",
+   "value": "Le ronflement. Tout le monde l’a entendu. Puis une dispute, à voix basse. J’ai essayé de dormir."
+  },
+  {
+   "key": "case025.ishii.night.answer.demeanor",
+   "value": "Fatigué, impatient."
+  },
+  {
+   "key": "case025.ishii.night.question",
+   "value": "Avez-vous entendu quelque chose dans la nuit ?"
+  },
+  {
+   "key": "case025.ishii.night.variant0",
+   "value": "Le ronflement. Et… bon, je l’ai vu. Le maigre de 4B-12 est descendu et a parlé avec le râleur de 4B-11 devant les casiers. Ils ont échangé leurs bracelets, ils ont ri. « De toute façon je ne dors pas, allonge-toi », a dit le maigre. Puis ils ont échangé leurs places."
+  },
+  {
+   "key": "case025.ishii.title",
+   "value": "Ishii Daisuke — audition"
+  },
+  {
+   "key": "case025.kenta.body",
+   "value": "Retrouvé dans un cybercafé d’Ueno ; le bracelet de 4B-11 encore au poignet."
+  },
+  {
+   "key": "case025.kenta.deflect",
+   "value": "Si je parle de ça, je suis mort."
+  },
+  {
+   "key": "case025.kenta.swap.answer",
+   "value": "De toute façon je ne dormais pas. L’homme à côté de moi ronflait, et celui d’en dessous devenait fou de rage. « Échangeons », j’ai dit. On a échangé les bracelets. Je me suis réveillé le matin et le couloir était plein de policiers. Quelqu’un était mort dans ma capsule. J’ai couru."
+  },
+  {
+   "key": "case025.kenta.swap.answer.demeanor",
+   "value": "Mains tremblantes."
+  },
+  {
+   "key": "case025.kenta.swap.question",
+   "value": "4B-12 était votre capsule."
+  },
+  {
+   "key": "case025.kenta.title",
+   "value": "Mori Kenta — audition"
+  },
+  {
+   "key": "case025.kenta.who.answer",
+   "value": "Ōta Ren. Le « consultant en sécurité » de l’entreprise. Personne ne sait ce qu’il fait. Il s’est tenu à côté de moi dans l’ascenseur, n’a rien dit, a juste souri."
+  },
+  {
+   "key": "case025.kenta.who.question",
+   "value": "Qui vous suivait ?"
+  },
+  {
+   "key": "case025.kenta.why.answer",
+   "value": "J’ai copié les registres de Kisaragi. Ils reprennent une ligne de Berlin, en janvier. J’allais les donner à un journaliste. Depuis deux jours, quelqu’un me suivait. Je ne pouvais pas rentrer chez moi."
+  },
+  {
+   "key": "case025.kenta.why.question",
+   "value": "Pourquoi avez-vous logé sous un faux nom ?"
+  },
+  {
+   "key": "case025.locker.body",
+   "value": "Le casier n’a pas été ouvert avec le bracelet de 4B-12 : le bracelet est au poignet du mort, mais les affaires dans le casier ne sont pas les siennes.\n\n· Sac à dos noir : une clé USB, une chemise, une carte d’employé de Kisaragi Shōji — **Mori Kenta**, service comptabilité.\n· Sur la clé USB : relevés de comptes de Kisaragi Shōji pour 2029–2030 ; un tableur intitulé « Arendt — transfert ».\n\nLa valise de Tanabe Kōji est dans le casier 4B-11. Le bracelet de 4B-11 n’a pas été retrouvé."
+  },
+  {
+   "key": "case025.locker.title",
+   "value": "CONTENU DU CASIER 4B-12"
+  },
+  {
+   "key": "case025.method.cord",
+   "value": "Il a été étranglé avec un cordon"
+  },
+  {
+   "key": "case025.method.heart",
+   "value": "L’alcool et une défaillance cardiaque"
+  },
+  {
+   "key": "case025.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case025.method.pillow",
+   "value": "Il a été étouffé avec un oreiller dans son sommeil"
+  },
+  {
+   "key": "case025.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case025.offer.subtitle",
+   "value": "LA CAPSULE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case025.offer.summary",
+   "value": "Dans un hôtel capsule de Shinjuku, le corps d’un autre est retrouvé dans une capsule réservée sous un faux nom. La patrouille dit « crise cardiaque, les capsules ont été confondues »."
+  },
+  {
+   "key": "case025.offer.title",
+   "value": "DOSSIER #025"
+  },
+  {
+   "key": "case025.ota.body",
+   "value": "Le consultant en sécurité de Kisaragi Shōji."
+  },
+  {
+   "key": "case025.ota.deflect",
+   "value": "Écrivez au service juridique de mon entreprise."
+  },
+  {
+   "key": "case025.ota.mori.answer",
+   "value": "Mori a volé des données de l’entreprise. Le retrouver, c’est mon travail. Le retrouver, rien de plus."
+  },
+  {
+   "key": "case025.ota.mori.question",
+   "value": "Vous suiviez Mori Kenta."
+  },
+  {
+   "key": "case025.ota.night.answer",
+   "value": "Chez moi. À Meguro. Je vis seul."
+  },
+  {
+   "key": "case025.ota.night.answer.demeanor",
+   "value": "Reste parfaitement immobile."
+  },
+  {
+   "key": "case025.ota.night.question",
+   "value": "Où étiez-vous la nuit du 13 au 14 janvier ?"
+  },
+  {
+   "key": "case025.ota.night.variant0",
+   "value": "J’ai quitté le bâtiment de l’entreprise et je me suis arrêté dans un bar de Shinjuku. Vous avez donc vu le relevé de taxi. Boire un verre n’est pas un crime."
+  },
+  {
+   "key": "case025.ota.sample.answer",
+   "value": "J’attendrai mon avocat."
+  },
+  {
+   "key": "case025.ota.sample.presented.sakaiphone",
+   "value": "Une ligne d’entreprise. Qui sait entre quelles mains elle est. Vous voulez un prélèvement buccal ? Prenez-le. On parlera quand le résultat arrivera."
+  },
+  {
+   "key": "case025.ota.sample.presented.taxi",
+   "value": "Je vous ai dit que j’étais allé dans un bar. Un prélèvement ? Prenez-le, allez-y."
+  },
+  {
+   "key": "case025.ota.sample.question",
+   "value": "Expliquez ceci."
+  },
+  {
+   "key": "case025.ota.title",
+   "value": "Ōta Ren — audition"
+  },
+  {
+   "key": "case025.ota_2.body",
+   "value": "Sur le résultat ADN."
+  },
+  {
+   "key": "case025.ota_2.end.answer",
+   "value": "Il faisait noir dans la capsule. Le bracelet était 4B-12, le registre était 4B-12. Je n’ai pas regardé son visage ; je n’en avais pas besoin. …Le mauvais homme. Écrivez-le : le mauvais homme. Mori est toujours dehors, et moi je suis assis ici."
+  },
+  {
+   "key": "case025.ota_2.end.answer.demeanor",
+   "value": "Pour la première fois, détourne le regard."
+  },
+  {
+   "key": "case025.ota_2.end.question",
+   "value": "Votre peau est sur la face externe de la taie."
+  },
+  {
+   "key": "case025.ota_2.title",
+   "value": "Ōta Ren — seconde audition"
+  },
+  {
+   "key": "case025.person.ishii.info",
+   "value": "52 ans, le client de la capsule 4B-13 ; expert en assurances venu de Sendai pour affaires."
+  },
+  {
+   "key": "case025.person.ishii.name",
+   "value": "Ishii Daisuke"
+  },
+  {
+   "key": "case025.person.kenta.info",
+   "value": "38 ans, employé du service comptabilité de Kisaragi Shōji ; enregistré à l’hôtel sous le nom de « Kimura Shin »."
+  },
+  {
+   "key": "case025.person.kenta.name",
+   "value": "Mori Kenta"
+  },
+  {
+   "key": "case025.person.ota.info",
+   "value": "44 ans, « consultant en sécurité d’entreprise » de Kisaragi Shōji."
+  },
+  {
+   "key": "case025.person.ota.name",
+   "value": "Ōta Ren"
+  },
+  {
+   "key": "case025.person.sakai.info",
+   "value": "26 ans, réceptionniste de nuit de l’hôtel capsule de Shinjuku."
+  },
+  {
+   "key": "case025.person.sakai.name",
+   "value": "Sakai Yū"
+  },
+  {
+   "key": "case025.pillowlab.body",
+   "value": "Taie d’oreiller de 4B-12.\n\n· Face interne : salive de Tanabe Kōji et une marque de dents.\n· Face externe : texture de gant en nitrile et, au bord de la taie, à la ligne du poignet où finit le gant, des cellules de peau. Le profil ADN ne figure dans aucun fichier.\n· Un prélèvement buccal du suspect est nécessaire pour la comparaison."
+  },
+  {
+   "key": "case025.pillowlab.title",
+   "value": "TAIE D’OREILLER — LABORATOIRE"
+  },
+  {
+   "key": "case025.report.body",
+   "value": "Le 14 janvier 2030 à 06.20, au quatrième étage d’un hôtel capsule de Shinjuku, un homme a été retrouvé mort dans la capsule du haut 4B-12. L’agent d’entretien l’a ouverte après avoir entendu pendant vingt minutes une alarme sonner dans la capsule au rideau baissé.\n\nSelon le registre de l’hôtel, le client de 4B-12 est « Kimura Shin ». Mais le permis de conduire dans le portefeuille du corps appartient à Tanabe Kōji (41 ans) : un représentant commercial d’Osaka. L’enregistrement de Tanabe à l’hôtel est pour **4B-11**.\n\nNote de la patrouille : « Odeur d’alcool. Crise cardiaque ou étouffement dans son sommeil. Les capsules ont été confondues ; erreur de l’hôtel. »"
+  },
+  {
+   "key": "case025.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case025.request.cardlog",
+   "value": "Demander le journal des cartes de la porte d’étage"
+  },
+  {
+   "key": "case025.request.dna",
+   "value": "Demander une comparaison ADN pour Ōta"
+  },
+  {
+   "key": "case025.request.locker",
+   "value": "Demander l’ouverture du casier 4B-12"
+  },
+  {
+   "key": "case025.request.pillowlab",
+   "value": "Demander l’examen de la taie d’oreiller"
+  },
+  {
+   "key": "case025.request.sakaiphone",
+   "value": "Demander les messages du téléphone de Sakai"
+  },
+  {
+   "key": "case025.request.taxi",
+   "value": "Demander le relevé de taxi d’Ōta"
+  },
+  {
+   "key": "case025.sakai.body",
+   "value": "Réceptionniste de nuit."
+  },
+  {
+   "key": "case025.sakai.complaint.answer",
+   "value": "M. Tanabe est descendu ; il était en colère. Il n’y avait aucune capsule libre ; je lui ai donné des bouchons d’oreilles. Puis il est remonté. Il n’y a pas d’échange dans le registre ; je n’ai rien changé."
+  },
+  {
+   "key": "case025.sakai.complaint.question",
+   "value": "La plainte pour ronflement de 23.41 ?"
+  },
+  {
+   "key": "case025.sakai.complaint.variant0",
+   "value": "Il n’y a pas d’échange dans le registre parce que je n’en ai pas fait. S’ils ont échangé leurs bracelets entre eux… c’est l’affaire des clients. C’est contraire au règlement, mais personne ne nous demande rien."
+  },
+  {
+   "key": "case025.sakai.deflect",
+   "value": "Les informations des clients sont confidentielles ; demandez à mon gérant."
+  },
+  {
+   "key": "case025.sakai.kimura.answer",
+   "value": "C’était un homme poli. Il avait perdu sa pièce d’identité ; je ne voulais pas qu’il se retrouve à la rue à minuit. Il a payé en espèces. Ça arrive."
+  },
+  {
+   "key": "case025.sakai.kimura.answer.demeanor",
+   "value": "Ne lève pas les yeux du registre."
+  },
+  {
+   "key": "case025.sakai.kimura.question",
+   "value": "Qui était « Kimura Shin » ? Vous l’avez accepté sans pièce d’identité."
+  },
+  {
+   "key": "case025.sakai.kimura.variant0",
+   "value": "C’était un homme poli, il a payé en espèces… Vous me parlez du passe ? Cette carte est toujours sur moi, à ma ceinture. Personne ne l’a demandée dans la nuit. Je ne l’ai donnée à personne."
+  },
+  {
+   "key": "case025.sakai.quote",
+   "value": "« Il avait perdu sa pièce d’identité ; je ne voulais pas qu’il se retrouve à la rue. »"
+  },
+  {
+   "key": "case025.sakai.title",
+   "value": "Sakai Yū — audition"
+  },
+  {
+   "key": "case025.sakai_2.body",
+   "value": "Sur le passe."
+  },
+  {
+   "key": "case025.sakai_2.card.answer",
+   "value": "J’étais à la réception."
+  },
+  {
+   "key": "case025.sakai_2.card.presented.cardlog",
+   "value": "…Je n’ai pas remis la carte. Un homme est venu à dix heures du soir. « Le numéro de capsule de Kimura et la carte d’étage, pour une demi-heure », il a dit. Cinquante mille yens. Une histoire de dette, il a dit. J’ai… laissé la carte sur le comptoir à une heure et demie et je suis allé aux toilettes. Quand je suis revenu, elle était là où je l’avais laissée."
+  },
+  {
+   "key": "case025.sakai_2.card.presented.checkin",
+   "value": "Je l’ai accepté sans pièce d’identité, oui, contre le règlement. Mais c’est le registre, c’est sa capsule. Quoi qu’il se soit passé dans la nuit, j’étais à la réception."
+  },
+  {
+   "key": "case025.sakai_2.card.question",
+   "value": "À 01.31, la porte du couloir a été ouverte avec le passe."
+  },
+  {
+   "key": "case025.sakai_2.title",
+   "value": "Sakai Yū — seconde audition"
+  },
+  {
+   "key": "case025.sakai_2.who.answer",
+   "value": "Il m’a d’abord écrit sur mon téléphone. Je ne sais pas où il a eu le numéro. Les messages y sont encore ; je ne les ai pas effacés. J’étais terrifié."
+  },
+  {
+   "key": "case025.sakai_2.who.question",
+   "value": "Comment l’homme vous a-t-il contacté ?"
+  },
+  {
+   "key": "case025.sakaiphone.body",
+   "value": "13 janvier 2030.\n\n· 19.02 · numéro inconnu : « Un client nommé Kimura Shin va arriver. Numéro de capsule et carte d’étage. Une demi-heure. 50 000. »\n· 22.44 · Sakai : « 4B-12. »\n· 01.24 · numéro inconnu : « Je suis là. »\n· 01.42 · numéro inconnu : « La carte est remise en place. »\n\nVérification du numéro : la ligne est un abonnement d’entreprise au nom de Kisaragi Shōji ; utilisateur **Ōta Ren**."
+  },
+  {
+   "key": "case025.sakaiphone.title",
+   "value": "TÉLÉPHONE DE SAKAI YŪ — MESSAGES"
+  },
+  {
+   "key": "case025.summary.evidence",
+   "value": "Le registre a montré deux capsules et une plainte ; la caméra, l’échange de bracelets et l’homme en chaussures ; le journal des cartes, le passe. Les messages du réceptionniste ont mené à la ligne d’Ōta et le relevé de taxi à la rue derrière l’hôtel. Les cellules de peau sur la face externe de la taie correspondaient à Ōta."
+  },
+  {
+   "key": "case025.summary.lesson",
+   "value": "Un registre ne dit pas qui a dormi où, mais qui devait dormir où. Demandez d’abord qui est mort, puis qui devait mourir."
+  },
+  {
+   "key": "case025.summary.location",
+   "value": "Shinjuku, Tokyo — janvier 2030"
+  },
+  {
+   "key": "case025.summary.truth",
+   "value": "Le comptable de Kisaragi Shōji, Mori Kenta, a copié les registres de l’entreprise et s’est caché dans un hôtel capsule sous le nom de « Kimura Shin ». Dans la nuit, il a échangé bracelets et places avec Tanabe Kōji, qui ne pouvait pas dormir à cause du ronflement voisin. Le consultant en sécurité de l’entreprise, Ōta Ren, a acheté le numéro de capsule et la carte d’étage au réceptionniste, est entré en 4B-12 à 01.31 et a étouffé l’homme à l’intérieur avec un oreiller. Le mort était Tanabe, pas Mori."
+  },
+  {
+   "key": "case025.suspect.label",
+   "value": "Qui est responsable de la mort de Tanabe Kōji ?"
+  },
+  {
+   "key": "case025.tablet.caseLine",
+   "value": "DOSSIER #025  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case025.taxi.body",
+   "value": "Demandé par : bube Tokyo, avec l’accord du chef d’antenne.\n\n· 14 janvier 01.06 · Minato, devant le bâtiment de Kisaragi Shōji → Shinjuku, une rue derrière l’hôtel · arrivée 01.22\n· 01.51 · Shinjuku → Meguro, adresse du domicile d’Ōta Ren\n\nCompte passager : Ōta Ren."
+  },
+  {
+   "key": "case025.taxi.title",
+   "value": "RELEVÉ DE L’APPLI DE TAXI — ŌTA REN"
+  },
+  {
+   "key": "case025.time.in",
+   "value": "01.31"
+  },
+  {
+   "key": "case025.time.kimura",
+   "value": "13 janv. 22.40"
+  },
+  {
+   "key": "case025.time.msg",
+   "value": "01.24"
+  },
+  {
+   "key": "case025.time.out",
+   "value": "01.39"
+  },
+  {
+   "key": "case025.time.reach",
+   "value": "01.33"
+  },
+  {
+   "key": "case025.time.snore",
+   "value": "23.41"
+  },
+  {
+   "key": "case025.time.swap",
+   "value": "23.47"
+  },
+  {
+   "key": "case025.title",
+   "value": "Dossier #025 — La capsule"
+  },
+  {
+   "key": "case025.verdict.kenta",
+   "value": "Mori Kenta"
+  },
+  {
+   "key": "case025.verdict.nobody",
+   "value": "Personne — l’alcool et le cœur"
+  },
+  {
+   "key": "case025.verdict.ota",
+   "value": "Ōta Ren"
+  },
+  {
+   "key": "case025.verdict.sakai",
+   "value": "Sakai Yū"
+  },
+  {
+   "key": "case025.item.pillow.name",
+   "value": "Oreiller de capsule"
+  },
+  {
+   "key": "case025.item.pillow.detail",
+   "value": "L’oreiller de 4B-12 ; une empreinte de main sur l’extérieur de la taie."
+  },
+  {
+   "key": "case025.item.wristband.name",
+   "value": "Bracelet de casier"
+  },
+  {
+   "key": "case025.item.wristband.detail",
+   "value": "Le bracelet-clé du casier 4B-12 ; au poignet de Tanabe, tandis que celui du casier 4B-11 est chez Mori."
+  },
+  {
+   "key": "case025.item.bag.name",
+   "value": "Le sac de « Kimura »"
+  },
+  {
+   "key": "case025.item.bag.detail",
+   "value": "Un sac à dos noir laissé dans le casier ; dedans, une clé USB et une carte d’entreprise."
+  }
+ ]
+}
