@@ -123,7 +123,7 @@ public static partial class KarineUI {
  // Seçilen kaydın krem kâğıdı; içerik `body`ye yazılır.
  public static VisualElement InterviewPaper(VisualElement parent,string title,string stamp,out VisualElement body) {
   var paper=new VisualElement {name="InterviewPaper"};paper.style.flexGrow=1;paper.style.minHeight=0;paper.style.rotate=new Rotate(.6f);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceLg;paper.style.paddingTop=paper.style.paddingBottom=KarineTheme.SpaceMd;parent.Add(paper);
   var head=new VisualElement();head.style.flexDirection=FlexDirection.Row;head.style.alignItems=Align.FlexStart;head.style.flexShrink=0;paper.Add(head);
   var t=Typed(head,title.ToUpper(TextCulture),KarineTheme.Dossier.PageBodySize+1,true);t.style.flexGrow=1;t.style.flexShrink=1;t.style.whiteSpace=WhiteSpace.Normal;

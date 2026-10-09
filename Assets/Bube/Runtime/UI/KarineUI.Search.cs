@@ -31,8 +31,7 @@ public static partial class KarineUI {
  }
  public static VisualElement SearchPaper(VisualElement parent) {
   var paper=new VisualElement {name="SearchPaper"};OfficePlace(paper,S.Paper);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=KarineTheme.SpaceXl;paper.style.paddingRight=KarineTheme.SpaceXl;paper.style.paddingTop=KarineTheme.SpaceLg;paper.style.paddingBottom=KarineTheme.SpaceMd;
   parent.Add(paper);return paper;
  }

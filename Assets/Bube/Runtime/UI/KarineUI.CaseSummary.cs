@@ -9,8 +9,7 @@ namespace Bube {
 public static partial class KarineUI {
  public static VisualElement SummaryPaper(VisualElement parent,Texture2D photo,out VisualElement right,out VisualElement footer) {
   var paper=new VisualElement {name="CaseSummaryPaper"};OfficePlace(paper,C.Paper);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.flexDirection=FlexDirection.Row;paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;
   paper.style.paddingTop=paper.style.paddingBottom=KarineTheme.SpaceXl;parent.Add(paper);
   if(photo!=null) {

@@ -7,8 +7,8 @@ namespace Bube {
 public static partial class KarineUI {
  public static VisualElement RecordPaper(VisualElement parent) {
   var paper=new VisualElement {name="CareerRecordPaper"};OfficePlace(paper,C.Paper);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);parent.Add(paper);
+  Stretched(paper,"Bube/UI/paper_sheet");
+  parent.Add(paper);
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);
   var c=scroll.contentContainer;c.style.paddingLeft=KarineTheme.SpaceXl*2;c.style.paddingRight=KarineTheme.SpaceXl*2;c.style.paddingTop=KarineTheme.SpaceLg;c.style.paddingBottom=KarineTheme.SpaceLg;
   return c;

@@ -9,7 +9,7 @@ namespace Bube {
 public static partial class KarineUI {
  public static VisualElement FaxPaper(VisualElement parent,string meta,string title,out Label heading) {
   var paper=new VisualElement {name="FaxPaper"};OfficePlace(paper,F.Paper);paper.style.rotate=new Rotate(F.Tilt);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceLg;parent.Add(paper);
   var scroll=new KarineScrollView();scroll.style.flexGrow=1;scroll.style.minHeight=0;paper.Add(scroll);var c=scroll.contentContainer;
   var m=Typed(c,meta.ToUpper(TextCulture),F.MetaSize);m.style.unityTextAlign=TextAnchor.MiddleCenter;m.style.marginBottom=KarineTheme.SpaceSm;

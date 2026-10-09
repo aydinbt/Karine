@@ -29,8 +29,7 @@ public static partial class KarineUI {
  }
  public static VisualElement ReportPaper(VisualElement parent) {
   var paper=new VisualElement {name="ReportPaper"};OfficePlace(paper,R.Paper);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=KarineTheme.SpaceXl+KarineTheme.SpaceMd;paper.style.paddingRight=KarineTheme.SpaceXl+KarineTheme.SpaceMd;
   paper.style.paddingTop=KarineTheme.SpaceLg;paper.style.paddingBottom=KarineTheme.SpaceLg;
   parent.Add(paper);return paper;
@@ -142,7 +141,7 @@ public static partial class KarineUI {
   var veil=new VisualElement {name="ReportConfirm"};veil.style.position=Position.Absolute;veil.style.left=0;veil.style.right=0;veil.style.top=0;veil.style.bottom=0;
   veil.style.backgroundColor=KarineTheme.Veil(.72f);veil.style.alignItems=Align.Center;veil.style.justifyContent=Justify.Center;parent.Add(veil);
   var card=new VisualElement();card.style.width=R.ConfirmWidth;card.style.alignItems=Align.Center;card.style.rotate=new Rotate(R.ConfirmTilt);
-  Stretched(card,"Bube/UI/paper_sheet");card.style.backgroundColor=KarineTheme.Paper.Sheet;Border(card,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
+  Stretched(card,"Bube/UI/paper_sheet");
   card.style.paddingLeft=KarineTheme.SpaceXl;card.style.paddingRight=KarineTheme.SpaceXl;card.style.paddingTop=KarineTheme.SpaceXl;card.style.paddingBottom=KarineTheme.SpaceXl;veil.Add(card);
   var mark=new VisualElement {pickingMode=PickingMode.Ignore};mark.style.width=R.ConfirmGlyph;mark.style.height=R.ConfirmGlyph;mark.style.alignItems=Align.Center;mark.style.justifyContent=Justify.Center;
   Border(mark,3,KarineTheme.Danger);Round(mark,R.ConfirmGlyph/2);mark.style.marginBottom=KarineTheme.SpaceMd;card.Add(mark);

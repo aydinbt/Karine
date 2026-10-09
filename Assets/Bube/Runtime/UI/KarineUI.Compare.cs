@@ -7,8 +7,8 @@ namespace Bube {
 public static partial class KarineUI {
  public static VisualElement CompareSheet(VisualElement parent,bool left) {
   var paper=new VisualElement {name=left?"CompareLeft":"CompareRight"};OfficePlace(paper,left?C.Left:C.Right);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);paper.style.rotate=new Rotate(left?C.LeftTilt:C.RightTilt);
+  Stretched(paper,"Bube/UI/paper_sheet");
+  paper.style.rotate=new Rotate(left?C.LeftTilt:C.RightTilt);
   paper.style.paddingLeft=KarineTheme.SpaceXl;paper.style.paddingRight=KarineTheme.SpaceXl;paper.style.paddingTop=KarineTheme.SpaceLg;paper.style.paddingBottom=KarineTheme.SpaceLg;
   parent.Add(paper);return paper;
  }

@@ -118,11 +118,8 @@ public static partial class KarineUI {
  }
  // Kâğıt: düz krem yaprak, ince kenar, altında gölge, sağ üstte ataş.
  public static VisualElement DossierPage(VisualElement parent) {
-  var shadow=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(shadow,new Rect(D.Page.x+.4f,D.Page.y+.8f,D.Page.width,D.Page.height));
-  shadow.style.backgroundColor=KarineTheme.Alpha(Color.black,.35f);Round(shadow,KarineTheme.Radius);parent.Add(shadow);
   var paper=new VisualElement {name="DossierPaper"};OfficePlace(paper,D.Page);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;
-  Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);Round(paper,KarineTheme.Radius);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=KarineTheme.SpaceXl+KarineTheme.SpaceMd;paper.style.paddingRight=KarineTheme.SpaceXl;
   paper.style.paddingTop=KarineTheme.SpaceXl;paper.style.paddingBottom=KarineTheme.SpaceLg;paper.style.overflow=Overflow.Hidden;
   parent.Add(paper);return paper;

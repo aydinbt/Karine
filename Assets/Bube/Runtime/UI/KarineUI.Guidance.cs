@@ -10,7 +10,7 @@ public static partial class KarineUI {
  // Ataçlı krem kâğıt; içerik kabını döndürür.
  public static VisualElement GuidancePaper(VisualElement parent,Rect rect,float tilt) {
   var paper=new VisualElement {name="GuidancePaper"};OfficePlace(paper,rect);paper.style.rotate=new Rotate(tilt);
-  Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
+  Stretched(paper,"Bube/UI/paper_sheet");
   paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*2;paper.style.paddingTop=KarineTheme.SpaceXl*2;paper.style.paddingBottom=KarineTheme.SpaceXl;parent.Add(paper);
   var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.position=Position.Absolute;clip.style.left=Length.Percent(6);clip.style.top=-G.Clip/3;
   clip.style.width=G.Clip/3;clip.style.height=G.Clip;Border(clip,3,KarineTheme.Alpha(KarineTheme.Secondary,.8f));Round(clip,G.Clip/6);clip.style.rotate=new Rotate(12);paper.Add(clip);

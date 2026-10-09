@@ -24,7 +24,7 @@ public static partial class KarineUI {
  public static Button ArchiveCard(VisualElement parent,string title,string date,string stamp,bool approved,string note,Action action) {
   var card=new Button(Sounded(action)) {name="ArchiveCard",tooltip=title};card.style.flexDirection=FlexDirection.Row;card.style.alignItems=Align.Center;
   card.style.marginLeft=card.style.marginRight=card.style.marginTop=0;card.style.marginBottom=KarineTheme.SpaceMd;card.style.paddingLeft=card.style.paddingTop=card.style.paddingBottom=0;card.style.paddingRight=KarineTheme.SpaceXl;
-  Unskin(card,KarineTheme.Paper.Sheet);Stretched(card,"Bube/UI/paper_sheet");Border(card,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);parent.Add(card);
+  Unskin(card,Color.clear);Stretched(card,"Bube/UI/paper_sheet");parent.Add(card);
   var box=new VisualElement();box.style.width=A.CardIcon;box.style.alignSelf=Align.Stretch;box.style.alignItems=Align.Center;box.style.justifyContent=Justify.Center;box.style.backgroundColor=KarineTheme.GlassDeep;card.Add(box);
   Icon(box,"folder",KarineTheme.Accent,A.CardIcon/2);
   var text=new VisualElement();text.style.flexGrow=1;text.style.flexShrink=1;text.style.paddingLeft=KarineTheme.SpaceXl;text.style.paddingTop=text.style.paddingBottom=KarineTheme.SpaceMd;card.Add(text);
@@ -48,7 +48,7 @@ public static partial class KarineUI {
  public static void ArchiveEmpty(VisualElement parent,string text) {
   var card=new VisualElement {name="ArchiveEmpty"};card.style.alignSelf=Align.Center;card.style.width=Length.Percent(60);card.style.marginTop=KarineTheme.SpaceXl;
   card.style.paddingTop=card.style.paddingBottom=KarineTheme.SpaceXl*2;card.style.alignItems=Align.Center;
-  card.style.backgroundColor=KarineTheme.Paper.Sheet;Stretched(card,"Bube/UI/paper_sheet");Border(card,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);parent.Add(card);
+  Stretched(card,"Bube/UI/paper_sheet");parent.Add(card);
   Icon(card,"folder",KarineTheme.Paper.Ink,A.EmptyIcon).style.marginBottom=KarineTheme.SpaceMd;
   var l=Typed(card,text,A.CardDate+2);l.style.unityTextAlign=TextAnchor.MiddleCenter;l.style.whiteSpace=WhiteSpace.Normal;
  }
