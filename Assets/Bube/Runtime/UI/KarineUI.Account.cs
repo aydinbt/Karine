@@ -39,7 +39,7 @@ public static partial class KarineUI {
   left.style.left=Length.Percent(A.LogoLeft);left.style.width=Length.Percent(A.LogoWidth);left.style.justifyContent=Justify.Center;left.style.alignItems=Align.Center;screen.Add(left);
   var logo=KarineLogo.Hero(left,A.LogoPx);
   var line=new VisualElement {pickingMode=PickingMode.Ignore};line.style.height=3;line.style.width=Length.Percent(92);line.style.backgroundColor=KarineTheme.Danger;line.style.marginTop=KarineTheme.SpaceXs;line.style.marginBottom=KarineTheme.SpaceMd;left.Add(line);
-  int maxim=UnityEngine.Random.Range(0,taglines.Length);
+  int maxim=0; // ilk ifade oyunun kimliği; sonrakiler sırayla döner
   var t=Write(left,taglines[maxim],KarineTheme.Primary,A.TaglineSize,Mono);t.style.unityTextAlign=TextAnchor.MiddleCenter;t.style.letterSpacing=1;
 
   // Sağ: ataçlı form.
