@@ -1,0 +1,584 @@
+{
+ "entries": [
+  {
+   "key": "case045.abrams.body",
+   "value": "Fahrer und Leibwächter."
+  },
+  {
+   "key": "case045.abrams.deflect",
+   "value": "Ich fahre den Wagen, ich öffne die Tür."
+  },
+  {
+   "key": "case045.abrams.door.answer",
+   "value": "Ich. Wer kommt, wer geht, ich mache auf. Trevor um halb acht, Frau Quinn um Viertel nach acht. In der Halle hängt eine Kamera, der Chef hat sie anbringen lassen. Und noch etwas … der Chef sagte gestern zu mir: ‚Sid, bring mich morgen früh nach Pilsen, zu bube.‘ Sag es nicht den Anwälten, sagte er."
+  },
+  {
+   "key": "case045.abrams.door.answer.demeanor",
+   "value": "Richtet das Kabel in seinem Ohr."
+  },
+  {
+   "key": "case045.abrams.door.question",
+   "value": "Wer war am Abend an der Tür?"
+  },
+  {
+   "key": "case045.abrams.title",
+   "value": "Sid Abrams — Befragung"
+  },
+  {
+   "key": "case045.accounts.body",
+   "value": "· Trevor Kincaid erhielt im letzten Jahr ein monatliches Taschengeld; keine Schulden, sein Erbteil ist an eine Stiftung gebunden.\n· Von Lakeshore Freight an eine Hafenspedition in Neapel in den letzten zwei Jahren 43 Zahlungen; in jedem Freigabefeld ‚E. V.‘\n· Alle Zahlungen abgewickelt von: der Finanzdirektion."
+  },
+  {
+   "key": "case045.accounts.title",
+   "value": "FIRMENKONTEN"
+  },
+  {
+   "key": "case045.autopsy.body",
+   "value": "· Schwere Hypoglykämie; Blutzucker zu niedrig, um ihn zu messen.\n· Insulinspiegel im Blut etwa das Fünffache der normalen Abenddosis.\n· Eine einzige Einstichstelle am Bauch. Todeszeit: 22.30–00.30.\n· Im Glas auf dem Tisch nur Wasser."
+  },
+  {
+   "key": "case045.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case045.cctv.event.arrive",
+   "value": "Kamera: Eine Frau im dunklen Kostüm kommt mit einer Handtasche aus dem Aufzug; ein Mann im schwarzen Anzug öffnet ihr die Wohnungstür."
+  },
+  {
+   "key": "case045.cctv.event.console",
+   "value": "Kamera: Dieselbe Frau allein an der Konsole; sie nimmt etwas Kleines aus ihrer Handtasche und steckt es in die Jackentasche."
+  },
+  {
+   "key": "case045.cctv.event.leave",
+   "value": "Kamera: Dieselbe Frau steigt in den Aufzug; der Mann im schwarzen Anzug hält die Tür."
+  },
+  {
+   "key": "case045.cctv.overlay",
+   "value": "PH-LOBBY"
+  },
+  {
+   "key": "case045.cctv.period",
+   "value": "12. September 2030"
+  },
+  {
+   "key": "case045.cctv.source",
+   "value": "Kamera in der Aufzugshalle"
+  },
+  {
+   "key": "case045.clue.arrive",
+   "value": "Die Frau im dunklen Kostüm kommt in die Wohnung."
+  },
+  {
+   "key": "case045.clue.console",
+   "value": "Dieselbe Frau nimmt etwas Kleines aus ihrer Tasche."
+  },
+  {
+   "key": "case045.clue.dose",
+   "value": "Das Opfer setzt seine Abenddosis."
+  },
+  {
+   "key": "case045.clue.fight",
+   "value": "Der Sohn streitet laut mit seinem Vater und geht um 19.50."
+  },
+  {
+   "key": "case045.clue.found",
+   "value": "Die Haushälterin findet die Leiche."
+  },
+  {
+   "key": "case045.clue.leave",
+   "value": "Dieselbe Frau steigt in den Aufzug."
+  },
+  {
+   "key": "case045.clue.prep",
+   "value": "Die Haushälterin legt den Pen mit einer neuen Patrone auf den Tisch."
+  },
+  {
+   "key": "case045.clue.say",
+   "value": "‚Sag Edda, Neapel ist bereit.‘"
+  },
+  {
+   "key": "case045.clue.source.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case045.clue.source.tape",
+   "value": "Tonaufnahme"
+  },
+  {
+   "key": "case045.clue.source.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.custody.label",
+   "value": "Was geschah mit der Patrone im Pen?"
+  },
+  {
+   "key": "case045.custody.maid",
+   "value": "Die Haushälterin setzte die falsche Patrone ein"
+  },
+  {
+   "key": "case045.custody.pharmacy",
+   "value": "Die Apotheke gab die falsche Patrone aus"
+  },
+  {
+   "key": "case045.custody.swapped",
+   "value": "Der Täter tauschte die Patrone am Schreibtisch aus"
+  },
+  {
+   "key": "case045.epilogue.custody.maid",
+   "value": "Die Standardpatrone, die die Haushälterin eingesetzt hatte, lag unbenutzt im Müll."
+  },
+  {
+   "key": "case045.epilogue.custody.pharmacy",
+   "value": "Die U-500-Packung hatte der Täter selbst in der Apotheke abgeholt."
+  },
+  {
+   "key": "case045.epilogue.custody.swapped",
+   "value": "Festgehalten wurde, dass die Standardpatrone entfernt und durch U-500 ersetzt wurde."
+  },
+  {
+   "key": "case045.epilogue.verdict.accident",
+   "value": "Der Tod galt als falsche Dosis; Lakeshore setzte einen neuen Vorstand ein."
+  },
+  {
+   "key": "case045.epilogue.verdict.ochoa",
+   "value": "Lupe Ochoa wurde festgenommen; die Tonaufnahme wurde nie angehört."
+  },
+  {
+   "key": "case045.epilogue.verdict.quinn",
+   "value": "Marjorie Quinn wurde festgenommen. Die 43 Zahlungen von Lakeshore Freight an die Hafenfirma in Neapel und die Tonaufnahme gingen an bube Neapel — Dienststelle Quartieri Spagnoli."
+  },
+  {
+   "key": "case045.epilogue.verdict.trevor",
+   "value": "Trevor Kincaid wurde festgenommen; Quinn flog in der Woche darauf nach Neapel."
+  },
+  {
+   "key": "case045.evidence.accounts",
+   "value": "Firmenkonten"
+  },
+  {
+   "key": "case045.evidence.lobby",
+   "value": "Kamera in der Aufzugshalle"
+  },
+  {
+   "key": "case045.evidence.medlab",
+   "value": "Analyse von Pen, Patrone und Apotheke"
+  },
+  {
+   "key": "case045.evidence.tape",
+   "value": "Protokoll der Tonaufnahme"
+  },
+  {
+   "key": "case045.feedback.accident",
+   "value": "Im Pen steckte eine fünffach stärkere Patrone, die nicht auf dem Rezept des Opfers stand."
+  },
+  {
+   "key": "case045.feedback.ochoa",
+   "value": "Die Haushälterin hat den Pen bestückt, aber mit einer Standardpatrone; deren Gegenstück liegt im Kühlschrank, die ausgetauschte Patrone im Müll."
+  },
+  {
+   "key": "case045.feedback.quinn",
+   "value": "Auf der fünffach starken Patrone im Pen ist ihr Abdruck, und sie hat die Patrone selbst gekauft; auf der Tonaufnahme sagt sie, nachdem sie gehört hat, dass das Opfer am nächsten Tag zu bube geht: ‚Sag Edda, Neapel ist bereit.‘ Die Haushälterin sah sie am Schreibtisch, neben dem Pen."
+  },
+  {
+   "key": "case045.feedback.trevor",
+   "value": "Der Sohn hat gestritten, ging aber, bevor der Pen vorbereitet wurde; sein Erbteil ist an eine Stiftung gebunden."
+  },
+  {
+   "key": "case045.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case045.file.value.bureau",
+   "value": "BDS Chicago — Dienststelle Pilsen"
+  },
+  {
+   "key": "case045.file.value.location",
+   "value": "Gold Coast, Chicago — Wohnung"
+  },
+  {
+   "key": "case045.file.value.number",
+   "value": "BDC-CHI-2030-0301"
+  },
+  {
+   "key": "case045.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case045.file.value.reporter",
+   "value": "Haushälterin"
+  },
+  {
+   "key": "case045.line_med.body",
+   "value": "Linie für Insulinpen, Patronen und Apothekenunterlagen geöffnet."
+  },
+  {
+   "key": "case045.line_med.title",
+   "value": "LINIE A — MEDIZINISCHE UNTERSUCHUNG"
+  },
+  {
+   "key": "case045.line_money.body",
+   "value": "Linie für die Konten von Lakeshore Freight und der Familie Kincaid geöffnet."
+  },
+  {
+   "key": "case045.line_money.title",
+   "value": "LINIE C — FIRMENKONTEN"
+  },
+  {
+   "key": "case045.line_tape.body",
+   "value": "Linie für das Protokoll des sprachgesteuerten Aufnahmegeräts auf dem Schreibtisch des Opfers geöffnet."
+  },
+  {
+   "key": "case045.line_tape.title",
+   "value": "LINIE B — DAS DIKTIERGERÄT AUF DEM SCHREIBTISCH"
+  },
+  {
+   "key": "case045.lobby.body",
+   "value": "Aufzugshalle des Penthouse. 12. September 19.00 – 23.30."
+  },
+  {
+   "key": "case045.lobby.title",
+   "value": "KAMERA IN DER AUFZUGSHALLE — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case045.medlab.body",
+   "value": "· Patrone im Pen: fünffach konzentriertes (U-500) Insulin; der Pen ist auf Standardpatronen (U-100) eingestellt. U-500 steht nicht auf dem Rezept des Opfers.\n· Auf der Glasoberfläche der Patrone der Fingerabdruck von Marjorie Quinn.\n· Im Kühlschrank fehlt das Gegenstück der U-100-Patrone, die die Haushälterin eingesetzt hat, nicht; im Müll eine U-100-Patrone, voll, unbenutzt.\n· Apothekenprotokoll: Am 9. September eine U-500-Packung, auf ein Rezept auf den Namen der Mutter von Marjorie Quinn, abgeholt von Marjorie Quinn."
+  },
+  {
+   "key": "case045.medlab.title",
+   "value": "PEN, PATRONE UND APOTHEKE"
+  },
+  {
+   "key": "case045.method.heart",
+   "value": "Herzinfarkt"
+  },
+  {
+   "key": "case045.method.insulin",
+   "value": "Die Patrone im Pen wurde gegen eine fünffach stärkere getauscht"
+  },
+  {
+   "key": "case045.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case045.method.overdose",
+   "value": "Er hat sich selbst überdosiert"
+  },
+  {
+   "key": "case045.ochoa.body",
+   "value": "Haushälterin."
+  },
+  {
+   "key": "case045.ochoa.deflect",
+   "value": "Ich führe den Haushalt."
+  },
+  {
+   "key": "case045.ochoa.pen.answer",
+   "value": "Seine Abenddosis setzte er jeden Abend um 22.00 selbst, ich legte ihm den Pen auf den Schreibtisch. Die Patronen bewahre ich im Kühlschrank auf, ich zähle jede einzelne. Gestern Abend habe ich den Pen um 20.00 auf den Tisch gelegt; darin war eine neue Patrone, ich habe sie eingesetzt."
+  },
+  {
+   "key": "case045.ochoa.pen.answer.demeanor",
+   "value": "Richtet den Kragen ihrer Tunika."
+  },
+  {
+   "key": "case045.ochoa.pen.question",
+   "value": "Wie hat Herr Kincaid sein Insulin benutzt?"
+  },
+  {
+   "key": "case045.ochoa.study.answer",
+   "value": "Trevor um 19.30, sie haben sich angeschrien, er ist gegangen. Dann kam Frau Quinn, von 20.30 bis 21.30 war sie mit dem gnädigen Herrn im Zimmer. Die Tür war zu, irgendwann wollte der gnädige Herr Wasser, ich brachte es; Frau Quinn stand am Schreibtisch, neben dem Pen."
+  },
+  {
+   "key": "case045.ochoa.study.question",
+   "value": "Wer hat am Abend das Arbeitszimmer betreten?"
+  },
+  {
+   "key": "case045.ochoa.title",
+   "value": "Lupe Ochoa — Befragung"
+  },
+  {
+   "key": "case045.offer.subtitle",
+   "value": "LAKESHORE  /  KAPITELFINALE"
+  },
+  {
+   "key": "case045.offer.summary",
+   "value": "Der Gründer von Lakeshore Freight liegt tot in seiner Wohnung an der Gold Coast. Einen Tag zuvor hatte er bube angerufen."
+  },
+  {
+   "key": "case045.offer.title",
+   "value": "AKTE #045"
+  },
+  {
+   "key": "case045.person.abrams.info",
+   "value": "52 Jahre, Fahrer und Leibwächter des Opfers."
+  },
+  {
+   "key": "case045.person.abrams.name",
+   "value": "Sid Abrams"
+  },
+  {
+   "key": "case045.person.ochoa.info",
+   "value": "49 Jahre, Haushälterin des Opfers."
+  },
+  {
+   "key": "case045.person.ochoa.name",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.person.quinn.info",
+   "value": "55 Jahre, Finanzdirektorin von Lakeshore Freight."
+  },
+  {
+   "key": "case045.person.quinn.name",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.person.trevor.info",
+   "value": "31 Jahre, Sohn des Opfers."
+  },
+  {
+   "key": "case045.person.trevor.name",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.quinn.body",
+   "value": "Finanzdirektorin."
+  },
+  {
+   "key": "case045.quinn.deflect",
+   "value": "Die Finanzdaten der Firma sind vertraulich."
+  },
+  {
+   "key": "case045.quinn.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case045.quinn.end.presented.medlab",
+   "value": "Ein Fingerabdruck? Als ich die Konten zeigte, habe ich alles angefasst."
+  },
+  {
+   "key": "case045.quinn.end.presented.tape",
+   "value": "Zwanzig Jahre habe ich diese Firma getragen; nicht die Lastwagen, das Geld. Walter wollte eines Morgens zu bube gehen und alles erzählen, Paris, Tokio, Neapel, sie. Diese Frau verzeiht nie. Ich habe die Patrone im Pen gegen eine fünffach stärkere getauscht. Er hat es mit eigener Hand getan. Und ja, die Stimme bin ich. Ich habe Edda gesagt, dass Neapel bereit ist. Sie werden sie nicht finden; sie ist längst dort."
+  },
+  {
+   "key": "case045.quinn.end.question",
+   "value": "Sie haben die Patrone im Pen ausgetauscht."
+  },
+  {
+   "key": "case045.quinn.night.answer",
+   "value": "Die Quartalskonten. Walter war müde, alt, in den letzten Tagen verwirrt. Um 21.40 bin ich gegangen. Sein Insulin habe ich nie angerührt, was hätte ich damit zu tun?"
+  },
+  {
+   "key": "case045.quinn.night.answer.demeanor",
+   "value": "Berührt ihren Diamantohrring und lässt die Hand sinken."
+  },
+  {
+   "key": "case045.quinn.night.question",
+   "value": "Warum waren Sie am Abend dort?"
+  },
+  {
+   "key": "case045.quinn.night.variant0",
+   "value": "Ich habe einen Lippenstift aus meiner Tasche genommen. Wollen Sie das auch deuten?"
+  },
+  {
+   "key": "case045.quinn.title",
+   "value": "Marjorie Quinn — Befragung"
+  },
+  {
+   "key": "case045.recon.r_buy",
+   "value": "9. September: Quinn holt mit dem Rezept ihrer Mutter eine Packung U-500-Insulin."
+  },
+  {
+   "key": "case045.recon.r_call",
+   "value": "11. September: Kincaid ruft bube Chicago an; zu seinem Fahrer sagt er: ‚Bring mich morgen nach Pilsen.‘"
+  },
+  {
+   "key": "case045.recon.r_dose",
+   "value": "21.58: Kincaid setzt seine Abenddosis mit eigener Hand; in der Nacht stirbt er an Hypoglykämie."
+  },
+  {
+   "key": "case045.recon.r_leave",
+   "value": "21.40: Quinn verlässt das Penthouse."
+  },
+  {
+   "key": "case045.recon.r_prep",
+   "value": "20.00: Die Haushälterin legt den Pen mit einer neuen Standardpatrone auf den Tisch."
+  },
+  {
+   "key": "case045.recon.r_swap",
+   "value": "Quinn tauscht am Schreibtisch die Patrone im Pen gegen U-500; beim Hinausgehen sagt sie: ‚Sag Edda, Neapel ist bereit.‘"
+  },
+  {
+   "key": "case045.recon.r_warn",
+   "value": "20.36: Kincaid sagt Quinn, dass er am nächsten Tag nach Pilsen geht."
+  },
+  {
+   "key": "case045.report.body",
+   "value": "Am Morgen des 13. September 2030 wurde in einer Penthousewohnung an der Gold Coast der Gründer von Lakeshore Freight, Walter Kincaid (74), tot an seinem Schreibtisch gefunden. Das Opfer war Typ-1-Diabetiker; der Insulinpen lag auf dem Tisch.\n\nDie Leiche fand die Haushälterin Lupe Ochoa um 07.10. Am Vorabend in der Wohnung: sein Sohn Trevor Kincaid, Finanzdirektorin Marjorie Quinn, Fahrer Sid Abrams, Haushälterin Lupe Ochoa."
+  },
+  {
+   "key": "case045.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case045.request.accounts",
+   "value": "Firmenkonten anfordern"
+  },
+  {
+   "key": "case045.request.line_med",
+   "value": "Linie medizinische Untersuchung öffnen"
+  },
+  {
+   "key": "case045.request.line_money",
+   "value": "Linie Firmenkonten öffnen"
+  },
+  {
+   "key": "case045.request.line_tape",
+   "value": "Linie Diktiergerät öffnen"
+  },
+  {
+   "key": "case045.request.medlab",
+   "value": "Analyse von Pen, Patrone und Apotheke anfordern"
+  },
+  {
+   "key": "case045.request.tape",
+   "value": "Protokoll der Tonaufnahme anfordern"
+  },
+  {
+   "key": "case045.summary.evidence",
+   "value": "Die Haushälterin lieferte den Pen und die Frau am Schreibtisch, der Fahrer den letzten Plan des Opfers. Die medizinische Linie lieferte den Abdruck auf der Patrone und die Apotheke, die Tonlinie die Gespräche der Nacht. Die Kontenlinie verband 43 Zahlungen mit Neapel."
+  },
+  {
+   "key": "case045.summary.lesson",
+   "value": "Alle Lastwagen in Chicago fuhren zum selben Hafen. Die nächste Stadt: Neapel."
+  },
+  {
+   "key": "case045.summary.location",
+   "value": "Gold Coast — September 2030"
+  },
+  {
+   "key": "case045.summary.truth",
+   "value": "Der Gründer von Lakeshore Freight, Walter Kincaid, beschloss nach den Festnahmen in Chicago, bube alles zu erzählen. Am Abend, an dem Finanzdirektorin Marjorie Quinn davon erfuhr, tauschte sie die Patrone in dem von der Haushälterin vorbereiteten Insulinpen gegen eine fünffach stärkere und sagte beim Hinausgehen zu jemandem: ‚Sag Edda, Neapel ist bereit.‘ Kincaid setzte seine Abenddosis mit eigener Hand."
+  },
+  {
+   "key": "case045.suspect.label",
+   "value": "Wer hat Walter Kincaid getötet?"
+  },
+  {
+   "key": "case045.tablet.caseLine",
+   "value": "AKTE #045  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case045.tape.body",
+   "value": "12. September:\n\n· 20.36 Walter Kincaid: ‚Marjorie, morgen gehe ich nach Pilsen. Ich rate dir, dir einen Anwalt zu suchen.‘\n· 20.37 Marjorie Quinn: ‚Walter, das ist nicht deine Entscheidung.‘\n· 20.51 Marjorie Quinn (beim Hinausgehen am Telefon, Tür angelehnt): ‚Sag Edda, Neapel ist bereit. Der Alte erlebt den Morgen nicht.‘\n· 21.58 Walter Kincaid allein: ‚Abenddosis.‘ Das Klicken des Pens."
+  },
+  {
+   "key": "case045.tape.title",
+   "value": "PROTOKOLL DER TONAUFNAHME"
+  },
+  {
+   "key": "case045.time.arrive",
+   "value": "20.14"
+  },
+  {
+   "key": "case045.time.console",
+   "value": "20.52"
+  },
+  {
+   "key": "case045.time.dose",
+   "value": "21.58"
+  },
+  {
+   "key": "case045.time.fight",
+   "value": "19.30"
+  },
+  {
+   "key": "case045.time.found",
+   "value": "07.10"
+  },
+  {
+   "key": "case045.time.leave",
+   "value": "21.40"
+  },
+  {
+   "key": "case045.time.prep",
+   "value": "20.00"
+  },
+  {
+   "key": "case045.time.say",
+   "value": "20.51"
+  },
+  {
+   "key": "case045.title",
+   "value": "Akte #045 — Lakeshore"
+  },
+  {
+   "key": "case045.trevor.body",
+   "value": "Sohn des Opfers."
+  },
+  {
+   "key": "case045.trevor.deflect",
+   "value": "Mit der Firma meines Vaters habe ich nichts zu tun."
+  },
+  {
+   "key": "case045.trevor.fight.answer",
+   "value": "Ich wollte Geld, wie immer. Er gab mir keins. ‚Morgen verlieren wir sowieso alles, Trevor, ich auch‘, sagte er. Ich verstand nicht, was er meinte. Um 19.50 bin ich gegangen, ich war in einer Bar in Wicker Park, bis zum Morgen."
+  },
+  {
+   "key": "case045.trevor.fight.answer.demeanor",
+   "value": "Schiebt die Hemdsärmel hoch."
+  },
+  {
+   "key": "case045.trevor.fight.question",
+   "value": "Warum haben Sie mit Ihrem Vater gestritten?"
+  },
+  {
+   "key": "case045.trevor.title",
+   "value": "Trevor Kincaid — Befragung"
+  },
+  {
+   "key": "case045.verdict.accident",
+   "value": "Niemand — eine falsche Dosis"
+  },
+  {
+   "key": "case045.verdict.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.verdict.quinn",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.verdict.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.item.pen.name",
+   "value": "Insulinpen"
+  },
+  {
+   "key": "case045.item.pen.detail",
+   "value": "Der Pen auf dem Schreibtisch des Opfers; das Etikett der Patrone darin passt nicht zum Standard des Pens."
+  },
+  {
+   "key": "case045.item.recorder.name",
+   "value": "Diktiergerät auf dem Schreibtisch"
+  },
+  {
+   "key": "case045.item.recorder.detail",
+   "value": "Ein kleines sprachgesteuertes Aufnahmegerät in der Schublade des Schreibtischs des Opfers."
+  },
+  {
+   "key": "case045.item.vials.name",
+   "value": "Leere Patronenschachtel"
+  },
+  {
+   "key": "case045.item.vials.detail",
+   "value": "Eine kleine Kartonschachtel aus der Seitentasche einer Handtasche, zwei Patronen fehlen."
+  }
+ ]
+}
