@@ -88,13 +88,13 @@ public sealed partial class BubeApp {
   root.schedule.Execute(()=>KarineUI.Printout(root,lines,null)).StartingIn(0);
  }
 
- // Kapanış kartından sonra: epilog (varsa), ilk kapanan vakadan sonra bir kez jenerik.
+ // Kapanış kartından sonra: epilog (varsa); jenerik yalnız son dosya kapanınca, bir kez.
  void AfterClosing(Action again) {
   var image=string.IsNullOrEmpty(game.Data.epilogueImage)?null:Resources.Load<Texture2D>(game.Data.epilogueImage);
   KarineUI.Epilogue(root,image,string.IsNullOrEmpty(game.Data.epilogueKey)?null:T(game.Data.epilogueKey),()=> {
    // Üçüncü dosya kapanınca bir kez mağaza puanı istenir; pencereyi işletim sistemi gösterir.
    if(!game.Career.reviewAsked && game.Career.reviewHistory.Count>=ReviewAfterFiles){game.Career.reviewAsked=true;Save();Platform.RequestReview();}
-   if(game.Career.creditsSeen){again?.Invoke();return;}
+   if(game.Career.creditsSeen || !string.IsNullOrEmpty(game.Data.nextCaseId)){again?.Invoke();return;}
    game.Career.creditsSeen=true;Save();
    KarineUI.Credits(root,new[]{T("credits.0"),T("credits.1"),T("credits.2")},again);
   });
