@@ -1,0 +1,472 @@
+{
+ "entries": [
+  {
+   "key": "case033.backdoor.body",
+   "value": "Couvre la cour et la porte de service. 16 mai 04.30 – 05.30."
+  },
+  {
+   "key": "case033.backdoor.title",
+   "value": "CAMÉRA DE LA PORTE DE SERVICE DE LA BOULANGERIE — transcription du relevé"
+  },
+  {
+   "key": "case033.cctv.event.hand",
+   "value": "Caméra : la femme tend le sac au jeune homme en tenue blanche à la porte, en désignant le sac et en disant quelque chose."
+  },
+  {
+   "key": "case033.cctv.event.leave",
+   "value": "Caméra : la femme retourne seule à la camionnette en s’essuyant les mains avec un mouchoir en papier."
+  },
+  {
+   "key": "case033.cctv.event.van",
+   "value": "Caméra : une femme en veste sombre descend d’une petite camionnette, un sac de farine en papier brun contre la hanche."
+  },
+  {
+   "key": "case033.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case033.cctv.period",
+   "value": "16 mai 2030"
+  },
+  {
+   "key": "case033.cctv.source",
+   "value": "Caméra de la porte de service"
+  },
+  {
+   "key": "case033.clue.collapse",
+   "value": "Le boulanger s’effondre à côté du comptoir."
+  },
+  {
+   "key": "case033.clue.form",
+   "value": "Bon de commande : un seul pain sans gluten, « Table 1 : A. Delorme », farine fournie par le client."
+  },
+  {
+   "key": "case033.clue.hand",
+   "value": "La femme tend le sac au jeune homme à la porte."
+  },
+  {
+   "key": "case033.clue.source.order",
+   "value": "Bon de commande"
+  },
+  {
+   "key": "case033.clue.source.rayan",
+   "value": "Apprenti"
+  },
+  {
+   "key": "case033.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case033.clue.taste",
+   "value": "Par habitude, le boulanger goûte d’abord le pain spécial."
+  },
+  {
+   "key": "case033.clue.van",
+   "value": "La femme en veste sombre descend de la camionnette avec un sac en papier."
+  },
+  {
+   "key": "case033.custody.delorme",
+   "value": "Auguste Delorme — le propriétaire de la maison de vente"
+  },
+  {
+   "key": "case033.custody.didier",
+   "value": "Didier Fontaine — le boulanger lui-même"
+  },
+  {
+   "key": "case033.custody.label",
+   "value": "Pour qui le poison était-il préparé ?"
+  },
+  {
+   "key": "case033.custody.random",
+   "value": "Au hasard — l’un des invités de la vente"
+  },
+  {
+   "key": "case033.epilogue.custody.delorme",
+   "value": "Il a été consigné que le poison était destiné non au boulanger mais à Auguste Delorme au dîner de la vente."
+  },
+  {
+   "key": "case033.epilogue.custody.didier",
+   "value": "On a pris le boulanger pour la cible ; personne n’a demandé à qui le pain était destiné."
+  },
+  {
+   "key": "case033.epilogue.custody.random",
+   "value": "On a cru à une attaque aveugle ; le pain unique a été négligé."
+  },
+  {
+   "key": "case033.epilogue.verdict.garnier",
+   "value": "Sophie Garnier a été arrêtée. On a proposé une protection à Auguste Delorme, qui l’a refusée. Le numéro non enregistré est resté ouvert à l’antenne avec la mention « service des expéditions de la Maison Delorme »."
+  },
+  {
+   "key": "case033.epilogue.verdict.nadine",
+   "value": "Nadine Fontaine a été inculpée ; la boulangerie a fermé."
+  },
+  {
+   "key": "case033.epilogue.verdict.rayan",
+   "value": "Rayan Haddad a été arrêté ; le bon de commande et le sac de farine ne sont jamais entrés au dossier."
+  },
+  {
+   "key": "case033.evidence.flour",
+   "value": "Analyse du sac de farine"
+  },
+  {
+   "key": "case033.evidence.order",
+   "value": "Bon de commande"
+  },
+  {
+   "key": "case033.evidence.tox",
+   "value": "Toxicologie"
+  },
+  {
+   "key": "case033.evidence.van",
+   "value": "Fouille de la camionnette du traiteur"
+  },
+  {
+   "key": "case033.feedback.garnier",
+   "value": "L’aconitine n’est que dans le sac qu’elle a apporté, ajoutée après coup ; sa camionnette contient un second sac vide, l’argent liquide et le message « Table 1 seulement ». La caméra montre que c’est elle qui a remis le sac à la porte."
+  },
+  {
+   "key": "case033.feedback.nadine",
+   "value": "Sa femme s’est retrouvée avec les dettes et sans assurance ; le pain et la farine ne sont jamais passés entre ses mains."
+  },
+  {
+   "key": "case033.feedback.rayan",
+   "value": "L’apprenti a ouvert le sac et fait la pâte, mais la farine lui a été remise ; le poison est venu dans le sac, les farines de la boulangerie sont propres."
+  },
+  {
+   "key": "case033.file.caseType",
+   "value": "EMPOISONNEMENT"
+  },
+  {
+   "key": "case033.file.value.bureau",
+   "value": "BDS Paris — Antenne de Belleville"
+  },
+  {
+   "key": "case033.file.value.location",
+   "value": "Paris 20e, Belleville — boulangerie"
+  },
+  {
+   "key": "case033.file.value.number",
+   "value": "BDP-PAR-2030-0118"
+  },
+  {
+   "key": "case033.file.value.offence",
+   "value": "Empoisonnement"
+  },
+  {
+   "key": "case033.file.value.reporter",
+   "value": "Apprenti"
+  },
+  {
+   "key": "case033.flour.body",
+   "value": "Le sac kraft apporté par Garnier :\n· Un mélange de farines sans gluten (riz, sarrasin) contenant de la racine d’aconit séchée finement moulue : aconitine.\n· La poudre n’est pas homogène ; la poudre de racine est concentrée dans le haut du sac. Le mélange a été ajouté après le remplissage du sac.\n· Empreintes à l’extérieur du sac : Rayan Haddad (attendues) et Sophie Garnier."
+  },
+  {
+   "key": "case033.flour.title",
+   "value": "ANALYSE DU SAC DE FARINE"
+  },
+  {
+   "key": "case033.garnier.body",
+   "value": "Coordinatrice de traiteur."
+  },
+  {
+   "key": "case033.garnier.deflect",
+   "value": "Les informations clients sont confidentielles."
+  },
+  {
+   "key": "case033.garnier.flour.answer",
+   "value": "Un monsieur de la maison de vente l’a apportée ; il a dit : « La farine de confiance de M. Delorme, son allergie est très grave. » Je n’ai fait que la porter. Je n’ai même pas ouvert le paquet."
+  },
+  {
+   "key": "case033.garnier.flour.answer.demeanor",
+   "value": "Tient la bandoulière de son sac à deux mains."
+  },
+  {
+   "key": "case033.garnier.flour.question",
+   "value": "Où avez-vous eu la farine ?"
+  },
+  {
+   "key": "case033.garnier.title",
+   "value": "Sophie Garnier — audition"
+  },
+  {
+   "key": "case033.garnier_2.body",
+   "value": "Sur les relevés."
+  },
+  {
+   "key": "case033.garnier_2.title",
+   "value": "Sophie Garnier — seconde audition"
+  },
+  {
+   "key": "case033.garnier_2.who.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case033.garnier_2.who.presented.flour",
+   "value": "Évidemment que mes empreintes y sont, je l’ai portée. Le monsieur qui l’a apportée…"
+  },
+  {
+   "key": "case033.garnier_2.who.presented.van",
+   "value": "Cinq mille euros. L’entreprise coulait. L’homme a dit : « Delorme est vieux, son cœur est faible de toute façon, personne ne posera de questions. » Il m’a donné la poudre lui-même ; je l’ai mélangée dans le sac, dans la camionnette. Je ne savais pas que le boulanger goûterait ; si j’avais su… Je n’ai pas demandé son nom. Il a dit qu’il était du service des expéditions de la maison de vente, il n’a pas donné de carte ; grand, une bague à la main gauche."
+  },
+  {
+   "key": "case033.garnier_2.who.question",
+   "value": "Vous avez ajouté la poudre de racine dans le sac."
+  },
+  {
+   "key": "case033.method.aconite",
+   "value": "De la racine d’aconit (aconitine) mélangée à la farine sans gluten"
+  },
+  {
+   "key": "case033.method.coffee",
+   "value": "On a mis quelque chose dans son café"
+  },
+  {
+   "key": "case033.method.heart",
+   "value": "Un trouble spontané du rythme cardiaque"
+  },
+  {
+   "key": "case033.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case033.nadine.body",
+   "value": "L’épouse de la victime."
+  },
+  {
+   "key": "case033.nadine.deflect",
+   "value": "Les comptes de la boulangerie me regardent."
+  },
+  {
+   "key": "case033.nadine.enemy.answer",
+   "value": "Didier ? Il faisait crédit à la moitié du quartier. On a des dettes, oui, on n’a pas d’assurance, oui ; sa mort ne m’a laissé que des dettes. Personne ne voudrait tuer Didier."
+  },
+  {
+   "key": "case033.nadine.enemy.answer.demeanor",
+   "value": "Noue et dénoue le cordon de son tablier."
+  },
+  {
+   "key": "case033.nadine.enemy.question",
+   "value": "Didier avait-il des ennemis ?"
+  },
+  {
+   "key": "case033.nadine.order.answer",
+   "value": "L’entreprise de Mme Garnier. Un dîner de maison de vente ; du pain pour cent personnes, plus un seul pain sans gluten. C’est écrit sur le bon de commande."
+  },
+  {
+   "key": "case033.nadine.order.question",
+   "value": "Quelle était cette commande spéciale ?"
+  },
+  {
+   "key": "case033.nadine.title",
+   "value": "Nadine Fontaine — audition"
+  },
+  {
+   "key": "case033.offer.subtitle",
+   "value": "LE PAIN  /  EMPOISONNEMENT"
+  },
+  {
+   "key": "case033.offer.summary",
+   "value": "À Belleville, un boulanger meurt à quatre heures du matin, empoisonné par un pain qu’il a goûté. Tout le quartier l’aimait."
+  },
+  {
+   "key": "case033.offer.title",
+   "value": "DOSSIER #033"
+  },
+  {
+   "key": "case033.order.body",
+   "value": "Bon envoyé à la boulangerie par l’entreprise de traiteur, 15 mai :\n\n· 120 petits pains de campagne — Maison Delorme, dîner après la vente, 16 mai.\n· 1 pain sans gluten, à emballer SÉPARÉMENT — « Table 1 : M. Auguste Delorme (cœliaque). Farine fournie par le client. »\n\nSigné : Sophie Garnier, coordinatrice."
+  },
+  {
+   "key": "case033.order.title",
+   "value": "BON DE COMMANDE"
+  },
+  {
+   "key": "case033.person.garnier.info",
+   "value": "41 ans, coordinatrice dans une entreprise de traiteur ; passe des commandes spéciales à la boulangerie."
+  },
+  {
+   "key": "case033.person.garnier.name",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.person.nadine.info",
+   "value": "55 ans, copropriétaire de la boulangerie ; l’épouse de la victime."
+  },
+  {
+   "key": "case033.person.nadine.name",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.person.rayan.info",
+   "value": "22 ans, l’apprenti de la boulangerie ; il prépare la pâte pendant le service de nuit."
+  },
+  {
+   "key": "case033.person.rayan.name",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.rayan.body",
+   "value": "Apprenti."
+  },
+  {
+   "key": "case033.rayan.deflect",
+   "value": "Mon patron m’a appris, je fais."
+  },
+  {
+   "key": "case033.rayan.flour.answer",
+   "value": "Ce n’est pas la nôtre. La dame du traiteur l’a apportée à cinq heures du matin et me l’a remise à la porte : « La farine du client, allergie grave, n’utilisez aucune autre farine. » J’ai fait la pâte avec cette farine, mon patron l’a enfournée."
+  },
+  {
+   "key": "case033.rayan.flour.question",
+   "value": "Où avez-vous eu la farine sans gluten ?"
+  },
+  {
+   "key": "case033.rayan.flour.variant0",
+   "value": "La farine ? …C’est moi qui ai ouvert ce sac. Il n’est rien arrivé à mes mains, je porte des gants. La dame me l’a donnée à cinq heures, je l’ai pétrie. Ne me regardez pas comme si c’était ma faute."
+  },
+  {
+   "key": "case033.rayan.quote",
+   "value": "« Ça passe par ma bouche avant de passer par celle du client. »"
+  },
+  {
+   "key": "case033.rayan.taste.answer",
+   "value": "Il goûte chaque pain spécial. Quarante ans d’habitude. « Ça passe par ma bouche avant de passer par celle du client », il disait. Les sans-gluten brûlent facilement, alors il a coupé ce pain en premier."
+  },
+  {
+   "key": "case033.rayan.taste.answer.demeanor",
+   "value": "Serre sa casquette entre ses deux mains."
+  },
+  {
+   "key": "case033.rayan.taste.question",
+   "value": "Pourquoi le patron a-t-il goûté ce pain ?"
+  },
+  {
+   "key": "case033.rayan.title",
+   "value": "Rayan Haddad — audition"
+  },
+  {
+   "key": "case033.report.body",
+   "value": "Le 16 mai 2030 à 04.25, dans une boulangerie de Belleville, le boulanger Didier Fontaine (58 ans) s’est effondré à côté du comptoir. L’apprenti Rayan Haddad a appelé les secours ; Didier est mort en route.\n\nSur le comptoir, un petit pain sans gluten avec une tranche coupée et entamée. Avant le décès : vomissements, engourdissement des bras, pouls irrégulier.\n\nPendant la nuit, la boulangerie préparait des commandes spéciales : la livraison de 11.00 d’une entreprise de traiteur."
+  },
+  {
+   "key": "case033.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case033.request.flour",
+   "value": "Envoyer le sac de farine à l’analyse"
+  },
+  {
+   "key": "case033.request.order",
+   "value": "Demander le bon de commande"
+  },
+  {
+   "key": "case033.request.van",
+   "value": "Demander l’autorisation de fouiller la camionnette du traiteur"
+  },
+  {
+   "key": "case033.summary.evidence",
+   "value": "La toxicologie a trouvé le poison dans le pain ; le bon de commande a montré à qui le pain était destiné, la caméra qui a apporté le sac, et l’analyse que la poudre avait été ajoutée après coup. La fouille de la camionnette, ouverte sur deux motifs, a donné l’argent, le second sac et les messages."
+  },
+  {
+   "key": "case033.summary.lesson",
+   "value": "La personne morte n’est peut-être pas la cible. Demandez d’abord à qui le poison était destiné, puis par quelles mains il est passé en chemin."
+  },
+  {
+   "key": "case033.summary.location",
+   "value": "Belleville — mai 2030"
+  },
+  {
+   "key": "case033.summary.truth",
+   "value": "Après l’arrestation de Mercier, quelqu’un qui craignait que le propriétaire de la maison de vente, Auguste Delorme, ne parle a donné à Sophie Garnier, coordinatrice de traiteur endettée, cinq mille euros et un sachet de poudre de racine d’aconit. Garnier a mélangé la poudre dans le sac qu’elle a apporté à la boulangerie comme la « farine sans gluten personnelle » de Delorme. Le boulanger Didier Fontaine, fidèle à son habitude de goûter chaque pain spécial avant le client, a mangé la première tranche de ce pain et en est mort."
+  },
+  {
+   "key": "case033.suspect.label",
+   "value": "Qui a préparé le poison ?"
+  },
+  {
+   "key": "case033.tablet.caseLine",
+   "value": "DOSSIER #033  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case033.time.collapse",
+   "value": "04.25"
+  },
+  {
+   "key": "case033.time.form",
+   "value": "15 mai"
+  },
+  {
+   "key": "case033.time.hand",
+   "value": "05.10"
+  },
+  {
+   "key": "case033.time.leave",
+   "value": "05.11"
+  },
+  {
+   "key": "case033.time.taste",
+   "value": "04.20"
+  },
+  {
+   "key": "case033.time.van",
+   "value": "05.08"
+  },
+  {
+   "key": "case033.title",
+   "value": "Dossier #033 — Le Pain"
+  },
+  {
+   "key": "case033.tox.body",
+   "value": "· Aconitine (issue de l’aconit) dans le sang et le contenu gastrique. Elle perturbe le rythme cardiaque ; effet en quelques minutes.\n· Estomac : seulement quelques bouchées de pain et du café.\n· Le reste du pain : aconitine, forte concentration ; mélangée dans toute la pâte.\n· Les autres pâtes et farines de la boulangerie : propres."
+  },
+  {
+   "key": "case033.tox.title",
+   "value": "TOXICOLOGIE"
+  },
+  {
+   "key": "case033.van.body",
+   "value": "La camionnette de l’entreprise utilisée par Sophie Garnier (avec l’accord du chef d’antenne) :\n\n· Dans la boîte à gants, une enveloppe blanche contenant 5 000 € en liquide.\n· Dans le vide-poche de la portière, un autre sac kraft plié du même type, vide ; de la poudre d’aconitine au fond.\n· Sur son téléphone, 14 mai, un message d’un numéro non enregistré : « Le sac demain matin. Table 1 seulement. Le reste propre. »\n· Du même numéro, 12 mai : « Après Mercier, Delorme va parler. Avant qu’il ne le fasse. »"
+  },
+  {
+   "key": "case033.van.title",
+   "value": "FOUILLE DE LA CAMIONNETTE DU TRAITEUR"
+  },
+  {
+   "key": "case033.verdict.garnier",
+   "value": "Sophie Garnier"
+  },
+  {
+   "key": "case033.verdict.nadine",
+   "value": "Nadine Fontaine"
+  },
+  {
+   "key": "case033.verdict.rayan",
+   "value": "Rayan Haddad"
+  },
+  {
+   "key": "case033.item.flour.name",
+   "value": "Sac de farine en papier"
+  },
+  {
+   "key": "case033.item.flour.detail",
+   "value": "Un sac en papier kraft apporté comme « la farine du client » ; le haut replié, une poudre jaunâtre à l’intérieur."
+  },
+  {
+   "key": "case033.item.loaf.name",
+   "value": "Demi-pain"
+  },
+  {
+   "key": "case033.item.loaf.detail",
+   "value": "Sur le comptoir, un petit pain rond sans gluten avec une tranche coupée."
+  },
+  {
+   "key": "case033.item.envelope.name",
+   "value": "Enveloppe d’argent liquide"
+  },
+  {
+   "key": "case033.item.envelope.detail",
+   "value": "Une enveloppe blanche contenant 5 000 €, dans la boîte à gants de la voiture de la coordinatrice de traiteur."
+  }
+ ]
+}
