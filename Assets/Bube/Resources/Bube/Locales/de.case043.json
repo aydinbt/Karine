@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case043.ampservice.body",
+   "value": "Der Verstärker von Cedric Banks wurde am 2. August in einer Werkstatt gewartet; Schutzleiter intakt, Stecker dreipolig und vollständig. Banks ist nicht vorbestraft."
+  },
+  {
+   "key": "case043.ampservice.title",
+   "value": "WARTUNGSPROTOKOLL DES VERSTÄRKERS"
+  },
+  {
+   "key": "case043.autopsy.body",
+   "value": "· Stromschlag; Eintrittsmarke in der rechten Handfläche, Austrittsverbrennung an der linken Fußsohle.\n· Herzrhythmusstörung; sofortiger Tod.\n· Der Strom floss über den Griff des Stativs. Todeszeit 18.04."
+  },
+  {
+   "key": "case043.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case043.banks.amp.answer",
+   "value": "Mein Verstärker, vierzig Jahre alt. Ich habe ihn mittags abgestellt, als ich um 17.45 kam, war er auf der Bühne aufgebaut; ich habe ihn nicht aufgebaut, Reggie sagte: ‚Hab ich erledigt.‘ Mavis war für mich eine zweite Mutter."
+  },
+  {
+   "key": "case043.banks.amp.answer.demeanor",
+   "value": "Nimmt das Plektrum hinter dem Ohr hervor und dreht es zwischen den Fingern."
+  },
+  {
+   "key": "case043.banks.amp.question",
+   "value": "War der Verstärker Ihrer?"
+  },
+  {
+   "key": "case043.banks.body",
+   "value": "Gitarrist."
+  },
+  {
+   "key": "case043.banks.deflect",
+   "value": "Ich spiele, den Rest weiß ich nicht."
+  },
+  {
+   "key": "case043.banks.title",
+   "value": "Cedric Banks — Befragung"
+  },
+  {
+   "key": "case043.cctv.event.empty",
+   "value": "Kamera: Der Flur ist leer; der Sicherungskasten geschlossen."
+  },
+  {
+   "key": "case043.cctv.event.off",
+   "value": "Kamera: Derselbe Mann kommt zurück, öffnet den Kasten erneut, legt den Schalter zurück und geht schnell weg."
+  },
+  {
+   "key": "case043.cctv.event.on",
+   "value": "Kamera: Ein Mann in dunkler Jacke öffnet den Sicherungskasten und legt einen Schalter um."
+  },
+  {
+   "key": "case043.cctv.overlay",
+   "value": "BACK-1"
+  },
+  {
+   "key": "case043.cctv.period",
+   "value": "23. August 2030"
+  },
+  {
+   "key": "case043.cctv.source",
+   "value": "Kamera im hinteren Flur"
+  },
+  {
+   "key": "case043.clue.death",
+   "value": "Mavis fasst das Mikrofonstativ an."
+  },
+  {
+   "key": "case043.clue.off",
+   "value": "Derselbe Mann legt den Schalter zurück und geht weg."
+  },
+  {
+   "key": "case043.clue.on",
+   "value": "Der Mann in dunkler Jacke legt am Kasten einen Schalter um."
+  },
+  {
+   "key": "case043.clue.rom",
+   "value": "Der Hausbesitzer nimmt die Miete und geht."
+  },
+  {
+   "key": "case043.clue.source.autopsy",
+   "value": "Obduktion"
+  },
+  {
+   "key": "case043.clue.source.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.custody.label",
+   "value": "Wie kam Strom auf das Stativ?"
+  },
+  {
+   "key": "case043.custody.old",
+   "value": "Das Innere des Verstärkers war marode"
+  },
+  {
+   "key": "case043.custody.rain",
+   "value": "Wasser war auf die Bühne gesickert"
+  },
+  {
+   "key": "case043.custody.rigged",
+   "value": "Schutzleiter gekappt, Brückenkabel angeschlossen, Schutzschalter abgeschaltet"
+  },
+  {
+   "key": "case043.elec.body",
+   "value": "· Die Leitungen wurden letzten Monat erneuert; intakt.\n· Am Stecker des Verstärkers der Schutzkontakt frisch abgeschnitten; im Verstärker ein rotes Brückenkabel, das das Gehäuse mit dem Mikrofonstativ verbindet. An den Klemmen des Kabels der Fingerabdruck von Reggie Holloway.\n· Der Fehlerstromschutzschalter des Bühnenkreises wurde um 17.58 am Kasten von Hand abgeschaltet und um 18.06 wieder eingeschaltet. Den Schlüssel zum Kasten hat nur der Geschäftsführer."
+  },
+  {
+   "key": "case043.elec.title",
+   "value": "ELEKTROUNTERSUCHUNG — BÜHNE UND SICHERUNGSKASTEN"
+  },
+  {
+   "key": "case043.epilogue.custody.old",
+   "value": "Der Verstärker war drei Wochen zuvor gewartet worden."
+  },
+  {
+   "key": "case043.epilogue.custody.rain",
+   "value": "Die Bühne war trocken."
+  },
+  {
+   "key": "case043.epilogue.custody.rigged",
+   "value": "Festgehalten wurde, dass das Stativ über ein Brückenkabel unter Strom gesetzt und der Schutzschalter von Hand abgeschaltet wurde."
+  },
+  {
+   "key": "case043.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; der Hausbesitzer erhielt ein Bußgeld."
+  },
+  {
+   "key": "case043.epilogue.verdict.banks",
+   "value": "Cedric Banks wurde festgenommen; der Club schloss, das Kassenbuch wurde verbrannt."
+  },
+  {
+   "key": "case043.epilogue.verdict.reggie",
+   "value": "Reggie Holloway wurde festgenommen. Das Bargeldbuch des Clubs kam mit den Namen der Lakeshore-Fahrer in die Akte von bube Chicago."
+  },
+  {
+   "key": "case043.epilogue.verdict.romano",
+   "value": "Vic Romano wurde festgenommen und kam mit seinem Anwalt frei; die Akte wurde als Unfall geschlossen."
+  },
+  {
+   "key": "case043.evidence.ampservice",
+   "value": "Wartungsprotokoll des Verstärkers"
+  },
+  {
+   "key": "case043.evidence.elec",
+   "value": "Elektrountersuchung"
+  },
+  {
+   "key": "case043.evidence.ledger",
+   "value": "Kassen- und Bankunterlagen"
+  },
+  {
+   "key": "case043.evidence.panel",
+   "value": "Kamera im hinteren Flur"
+  },
+  {
+   "key": "case043.feedback.accident",
+   "value": "Die Leitungen waren neu; der Schutzkontakt war abgeschnitten, der Schutzschalter von Hand abgeschaltet."
+  },
+  {
+   "key": "case043.feedback.banks",
+   "value": "Der Verstärker gehörte ihm, war aber gewartet, und er hat ihn nicht auf der Bühne aufgebaut."
+  },
+  {
+   "key": "case043.feedback.reggie",
+   "value": "Am Brückenkabel ist sein Abdruck; der Schutzschalter wurde an dem Kasten, zu dem nur er einen Schlüssel hat, sechs Minuten vor dem Tod ab- und zwei Minuten danach wieder eingeschaltet. Mavis hatte das Lakeshore-Bargeld gefunden und ihn zur Rede gestellt."
+  },
+  {
+   "key": "case043.feedback.romano",
+   "value": "Der Hausbesitzer war vierzehn Minuten vor dem Tod gegangen; den Schlüssel zum Kasten hat er nicht."
+  },
+  {
+   "key": "case043.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case043.file.value.bureau",
+   "value": "BDS Chicago — Dienststelle Pilsen"
+  },
+  {
+   "key": "case043.file.value.location",
+   "value": "South Side, Chicago — Musikclub"
+  },
+  {
+   "key": "case043.file.value.number",
+   "value": "BDC-CHI-2030-0266"
+  },
+  {
+   "key": "case043.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case043.file.value.reporter",
+   "value": "Rettungsdienst"
+  },
+  {
+   "key": "case043.ledger.body",
+   "value": "· In den letzten zwölf Monaten 1,8 Millionen Dollar Bargeld; das Vierfache der Ticket- und Barumsätze.\n· Das Bargeld wurde zweimal pro Woche von Fahrern von Lakeshore Freight gebracht; Empfangsunterschrift: Reggie Holloway.\n· Handschriftliche Notiz von Mavis Holloway vom 22. August: ‚Habe Reggie gefragt. Er hat gelogen. Morgen früh bube.‘"
+  },
+  {
+   "key": "case043.ledger.title",
+   "value": "KASSEN- UND BANKUNTERLAGEN"
+  },
+  {
+   "key": "case043.line_cash.body",
+   "value": "Linie für die Bank- und Kassenunterlagen des Clubs geöffnet."
+  },
+  {
+   "key": "case043.line_cash.title",
+   "value": "LINIE B — DIE KASSE DES CLUBS"
+  },
+  {
+   "key": "case043.line_elec.body",
+   "value": "Linie für die Elektrountersuchung der Bühne und des Sicherungskastens geöffnet."
+  },
+  {
+   "key": "case043.line_elec.title",
+   "value": "LINIE A — ELEKTROUNTERSUCHUNG"
+  },
+  {
+   "key": "case043.line_union.body",
+   "value": "Linie für die Akte von Cedric Banks und die Wartungsunterlagen seines Verstärkers geöffnet."
+  },
+  {
+   "key": "case043.line_union.title",
+   "value": "LINIE C — DIE VERGANGENHEIT DES GITARRISTEN"
+  },
+  {
+   "key": "case043.method.heart",
+   "value": "Herzinfarkt"
+  },
+  {
+   "key": "case043.method.label",
+   "value": "Wie starb sie?"
+  },
+  {
+   "key": "case043.method.shock",
+   "value": "Ein Brückenkabel am Verstärker setzte das Stativ unter Strom"
+  },
+  {
+   "key": "case043.method.wiring",
+   "value": "Fehlerstrom aus alten Leitungen"
+  },
+  {
+   "key": "case043.monroe.body",
+   "value": "Sängerin."
+  },
+  {
+   "key": "case043.monroe.deflect",
+   "value": "Ich bin zum ersten Mal hier."
+  },
+  {
+   "key": "case043.monroe.stage.answer",
+   "value": "Frau Mavis sagte: ‚Ich schaue mir das Mikro an, der Ton knackt‘, und fasste das Stativ an. Ein Geräusch, ein Geruch … Das Licht am Verstärker von Herrn Cedric ging kurz aus und wieder an. Jemand schrie ‚Die Sicherungen‘, aber keine Sicherung war rausgeflogen."
+  },
+  {
+   "key": "case043.monroe.stage.answer.demeanor",
+   "value": "Rafft ihre Zöpfe über der Schulter zusammen."
+  },
+  {
+   "key": "case043.monroe.stage.question",
+   "value": "Was haben Sie auf der Bühne gesehen?"
+  },
+  {
+   "key": "case043.monroe.title",
+   "value": "Tasha Monroe — Befragung"
+  },
+  {
+   "key": "case043.offer.subtitle",
+   "value": "BLUES  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case043.offer.summary",
+   "value": "In der South Side starb die Besitzerin eines vierzig Jahre alten Bluesclubs beim Soundcheck, als sie das Mikrofonstativ anfasste."
+  },
+  {
+   "key": "case043.offer.title",
+   "value": "AKTE #043"
+  },
+  {
+   "key": "case043.panel.body",
+   "value": "Vor dem Sicherungskasten. 23. August 17.30 – 18.30."
+  },
+  {
+   "key": "case043.panel.title",
+   "value": "KAMERA IM HINTEREN FLUR — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case043.person.banks.info",
+   "value": "61 Jahre, langjähriger Gitarrist des Clubs."
+  },
+  {
+   "key": "case043.person.banks.name",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.person.monroe.info",
+   "value": "29 Jahre, Sängerin des Abends."
+  },
+  {
+   "key": "case043.person.monroe.name",
+   "value": "Tasha Monroe"
+  },
+  {
+   "key": "case043.person.pope.info",
+   "value": "66 Jahre, Barkeeperin des Clubs; seit vierzig Jahren Freundin des Opfers."
+  },
+  {
+   "key": "case043.person.pope.name",
+   "value": "Earline Pope"
+  },
+  {
+   "key": "case043.person.reggie.info",
+   "value": "44 Jahre, Neffe des Opfers; Geschäftsführer des Clubs."
+  },
+  {
+   "key": "case043.person.reggie.name",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.person.romano.info",
+   "value": "57 Jahre, Besitzer des Gebäudes; ehemaliger Partner von Lakeshore."
+  },
+  {
+   "key": "case043.person.romano.name",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.pope.body",
+   "value": "Barkeeperin."
+  },
+  {
+   "key": "case043.pope.deflect",
+   "value": "Ich stehe seit vierzig Jahren hinter der Bar, ich tratsche nicht."
+  },
+  {
+   "key": "case043.pope.last.answer",
+   "value": "Mittags setzte sie sich an die Bar, legte die Bücher vor sich hin. ‚Earline, das Geld, das durch diesen Club geht, ist nicht unseres‘, sagte sie. ‚Morgen früh gehe ich zu bube. Ich habe es auch Reggie gesagt, er wurde kreidebleich.‘ Im hinteren Flur hängt eine Kamera, Mavis hat sie anbringen lassen; schauen Sie da nach."
+  },
+  {
+   "key": "case043.pope.last.answer.demeanor",
+   "value": "Schiebt die Brille die Nase hinunter und wischt die Theke."
+  },
+  {
+   "key": "case043.pope.last.question",
+   "value": "Was hat Mavis heute gesagt?"
+  },
+  {
+   "key": "case043.pope.title",
+   "value": "Earline Pope — Befragung"
+  },
+  {
+   "key": "case043.reggie.body",
+   "value": "Geschäftsführer des Clubs."
+  },
+  {
+   "key": "case043.reggie.deflect",
+   "value": "Die Bücher des Clubs sind meine Sache, nicht die meiner Tante."
+  },
+  {
+   "key": "case043.reggie.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case043.reggie.end.presented.elec",
+   "value": "Sie wusste es. Sie wollte morgens hingehen; die Leute von Lakeshore hätten mich umgebracht, dann sie. Ich habe den Schutzleiter des Verstärkers gekappt und das Kabel ans Stativ angeschlossen. Am Kasten habe ich den Schutzschalter aus- und wieder eingeschaltet. Damit es wie ein Unfall aussieht. Es dauert eine Sekunde, hieß es."
+  },
+  {
+   "key": "case043.reggie.end.presented.ledger",
+   "value": "Ich habe Geld genommen, damit der Club überlebt, ja. Meine Tante wusste nichts."
+  },
+  {
+   "key": "case043.reggie.end.question",
+   "value": "Sie haben den Schutzleiter des Verstärkers gekappt."
+  },
+  {
+   "key": "case043.reggie.night.answer",
+   "value": "Im Büro, am Telefon. Ich hörte die Schreie und rannte hin. Dieses Gebäude ist hundert Jahre alt, die Leitungen marode, und der Verstärker von Cedric ist eine Antiquität. Wie oft habe ich das gesagt."
+  },
+  {
+   "key": "case043.reggie.night.answer.demeanor",
+   "value": "Zupft mit dem Finger an seiner Goldkette."
+  },
+  {
+   "key": "case043.reggie.night.question",
+   "value": "Wo waren Sie während des Soundchecks?"
+  },
+  {
+   "key": "case043.reggie.night.variant0",
+   "value": "Am Kasten? Auf der Bühne knackte der Ton, ich habe den Stromkreis geprüft. Ist das auch ein Verbrechen?"
+  },
+  {
+   "key": "case043.reggie.title",
+   "value": "Reggie Holloway — Befragung"
+  },
+  {
+   "key": "case043.report.body",
+   "value": "Am Abend des 23. August 2030 brach in einem Bluesclub in der South Side die Besitzerin Mavis Holloway (68) beim Soundcheck zusammen, als sie auf der Bühne das Mikrofonstativ berührte; sie starb im Rettungswagen.\n\nIm Club anwesend: Geschäftsführer Reggie Holloway, Gitarrist Cedric Banks, Sängerin Tasha Monroe, Barkeeperin Earline Pope. Der Hausbesitzer Vic Romano hatte den Club zehn Minuten vor dem Vorfall verlassen."
+  },
+  {
+   "key": "case043.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case043.request.ampservice",
+   "value": "Wartungsprotokoll des Verstärkers anfordern"
+  },
+  {
+   "key": "case043.request.elec",
+   "value": "Untersuchung von Bühne und Kasten anfordern"
+  },
+  {
+   "key": "case043.request.ledger",
+   "value": "Kassen- und Bankunterlagen anfordern"
+  },
+  {
+   "key": "case043.request.line_cash",
+   "value": "Linie Kasse des Clubs öffnen"
+  },
+  {
+   "key": "case043.request.line_elec",
+   "value": "Linie Elektrountersuchung öffnen"
+  },
+  {
+   "key": "case043.request.line_union",
+   "value": "Linie Vergangenheit des Gitarristen öffnen"
+  },
+  {
+   "key": "case043.romano.body",
+   "value": "Besitzer des Gebäudes."
+  },
+  {
+   "key": "case043.romano.deflect",
+   "value": "Der Mietvertrag liegt bei meinem Anwalt."
+  },
+  {
+   "key": "case043.romano.title",
+   "value": "Vic Romano — Befragung"
+  },
+  {
+   "key": "case043.romano.visit.answer",
+   "value": "Die Miete. Mavis zahlt die Miete jeden Monat bar. Diesen Monat sagte sie: ‚Das ist das letzte Mal, Vic, ich will dieses Gebäude und dieses Geld nicht.‘ Um 17.50 bin ich gegangen. Lakeshore? Wir waren vor Jahren Partner, ich bin längst raus."
+  },
+  {
+   "key": "case043.romano.visit.answer.demeanor",
+   "value": "Dreht den Ring an seinem kleinen Finger."
+  },
+  {
+   "key": "case043.romano.visit.question",
+   "value": "Warum waren Sie heute im Club?"
+  },
+  {
+   "key": "case043.summary.evidence",
+   "value": "Die Barkeeperin lieferte die letzten Worte von Mavis und die Flurkamera, die Sängerin das Geschehen auf der Bühne. Die Elektrolinie zeigte den Abdruck am Brückenkabel und den Kasten, die Kassenlinie das Lakeshore-Bargeld. Die Linie des Gitarristen entlastete nur den Verstärker."
+  },
+  {
+   "key": "case043.summary.lesson",
+   "value": "Ein altes Gebäude kann für alles eine Ausrede sein. Schau zuerst, was zuletzt erneuert wurde."
+  },
+  {
+   "key": "case043.summary.location",
+   "value": "South Side — August 2030"
+  },
+  {
+   "key": "case043.summary.truth",
+   "value": "Clubgeschäftsführer Reggie Holloway schleuste das Bargeld von Lakeshore Freight durch den Club seiner Tante. Als Mavis Holloway das Geld fand und sagte, sie gehe morgens zu bube, kappte Reggie den Schutzleiter am Verstärker des Gitarristen, setzte das Mikrofonstativ über ein Brückenkabel unter Strom und schaltete vor dem Soundcheck am Kasten den Schutzschalter ab."
+  },
+  {
+   "key": "case043.suspect.label",
+   "value": "Wer hat Mavis Holloway getötet?"
+  },
+  {
+   "key": "case043.tablet.caseLine",
+   "value": "AKTE #043  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case043.time.death",
+   "value": "18.04"
+  },
+  {
+   "key": "case043.time.empty",
+   "value": "17.59–18.05"
+  },
+  {
+   "key": "case043.time.off",
+   "value": "18.06"
+  },
+  {
+   "key": "case043.time.on",
+   "value": "17.58"
+  },
+  {
+   "key": "case043.time.rom",
+   "value": "17.50"
+  },
+  {
+   "key": "case043.title",
+   "value": "Akte #043 — Blues"
+  },
+  {
+   "key": "case043.verdict.accident",
+   "value": "Niemand — alte Leitungen"
+  },
+  {
+   "key": "case043.verdict.banks",
+   "value": "Cedric Banks"
+  },
+  {
+   "key": "case043.verdict.reggie",
+   "value": "Reggie Holloway"
+  },
+  {
+   "key": "case043.verdict.romano",
+   "value": "Vic Romano"
+  },
+  {
+   "key": "case043.item.jumper.name",
+   "value": "Brückenkabel"
+  },
+  {
+   "key": "case043.item.jumper.detail",
+   "value": "Ein dünnes Kabel im Verstärker, das den Schutzkontakt mit dem Rohr des Mikrofonstativs verbindet."
+  },
+  {
+   "key": "case043.item.stand.name",
+   "value": "Mikrofonstativ"
+  },
+  {
+   "key": "case043.item.stand.detail",
+   "value": "Das Chromstativ auf der Bühne; am Griff eine Brandspur."
+  },
+  {
+   "key": "case043.item.cash.name",
+   "value": "Bargeldumschläge"
+  },
+  {
+   "key": "case043.item.cash.detail",
+   "value": "Braune Umschläge im Bürotresor mit gebündelten Zwanzigerstapeln."
+  }
+ ]
+}
