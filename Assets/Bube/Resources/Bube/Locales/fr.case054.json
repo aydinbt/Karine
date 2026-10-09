@@ -1,0 +1,472 @@
+{
+ "entries": [
+  {
+   "key": "case054.alvaro.body",
+   "value": "Entrepreneur en restauration."
+  },
+  {
+   "key": "case054.alvaro.deflect",
+   "value": "Je sauve les vieux bâtiments ; pas les gens."
+  },
+  {
+   "key": "case054.alvaro.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case054.alvaro.end.presented.archive",
+   "value": "2003 était un accident. Je n’ai pas modifié le rapport de Tomás ; celui qui l’a modifié l’a modifié."
+  },
+  {
+   "key": "case054.alvaro.end.presented.van",
+   "value": "J’ai sorti les carreaux avant l’incendie, oui ; Julián ne le savait pas. Depuis vingt-sept ans, j’en utilise quelques-uns dans chaque restauration comme « d’origine », le conseiller de la fondation approuve, l’argent arrive. Esperanza les a vus à l’Alcázar. « Demain je vais à bube », elle a dit. Le moule était juste sous ma main. Je l’ai jeté dans le tonneau, j’ai allumé le four. Je ne savais pas pour le capteur."
+  },
+  {
+   "key": "case054.alvaro.end.question",
+   "value": "Vous avez frappé Esperanza avec le moule."
+  },
+  {
+   "key": "case054.alvaro.title",
+   "value": "Álvaro Méndez — audition"
+  },
+  {
+   "key": "case054.alvaro.visit.answer",
+   "value": "J’y suis allé, pour une commande. Je suis parti à dix heures et demie. Esperanza allait bien, vieille, distraite. Elle a dû allumer le four la nuit et s’endormir ; Julián avait fait pareil en 2003."
+  },
+  {
+   "key": "case054.alvaro.visit.answer.demeanor",
+   "value": "Tire le bout de son mètre ruban et le laisse claquer en revenant."
+  },
+  {
+   "key": "case054.alvaro.visit.question",
+   "value": "Êtes-vous allé à l’atelier hier soir ?"
+  },
+  {
+   "key": "case054.archive.body",
+   "value": "Un dossier ressorti des archives (4 juin 2003, classé comme « accident ») :\n\n· Incendie de l’atelier ; le maître Julián Vidal (51 ans) est mort dans la salle du four.\n· Premier rapport de l’expert Tomás Herrera (retiré du dossier, dans la poche arrière de l’archive) : traces d’accélérant, porte verrouillée de l’extérieur.\n· Témoin la nuit de l’incendie : le porteur de carreaux de l’atelier à l’époque, Álvaro Méndez — « le four était défectueux, Julián le savait. »\n· Stock « brûlé » : 340 reproductions du XVIIIe siècle peintes à la main ; valeur assurée 410 000 €."
+  },
+  {
+   "key": "case054.archive.reopen",
+   "value": "L’incendie classé comme « accident » il y a vingt-sept ans a été rouvert."
+  },
+  {
+   "key": "case054.archive.title",
+   "value": "LE DOSSIER DE 2003 — INCENDIE DE L’ATELIER"
+  },
+  {
+   "key": "case054.autopsy.body",
+   "value": "· Pas de suie dans les voies respiratoires, monoxyde de carbone bas dans le sang : la victime était morte avant que la fumée se répande.\n· Cause du décès : un seul coup à l’arrière gauche de la tête avec un objet lourd et anguleux. De la poussière de plâtre blanche dans la plaie.\n· Heure du décès : 23.00–00.30. Le four a été lancé à 01.10."
+  },
+  {
+   "key": "case054.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case054.clue.blow",
+   "value": "La maîtresse meurt d’un seul coup à l’arrière de la tête."
+  },
+  {
+   "key": "case054.clue.call",
+   "value": "La maîtresse appelle sa fille : « Ce n’est pas l’incendie qui a tué ton père. »"
+  },
+  {
+   "key": "case054.clue.found",
+   "value": "L’apprentie trouve la maîtresse."
+  },
+  {
+   "key": "case054.clue.kiln",
+   "value": "Le four est lancé à la main."
+  },
+  {
+   "key": "case054.clue.leave",
+   "value": "L’apprentie quitte l’atelier ; l’entrepreneur doit venir."
+  },
+  {
+   "key": "case054.clue.source.autopsy",
+   "value": "Autopsie"
+  },
+  {
+   "key": "case054.clue.source.nuria",
+   "value": "Nuria Vidal"
+  },
+  {
+   "key": "case054.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case054.clue.source.rocio",
+   "value": "Rocío Navarro"
+  },
+  {
+   "key": "case054.clue.source.workshop",
+   "value": "Examen de l’atelier"
+  },
+  {
+   "key": "case054.custody.kiln",
+   "value": "Brûlé dans le four"
+  },
+  {
+   "key": "case054.custody.label",
+   "value": "Où est passé le moule en plâtre ?"
+  },
+  {
+   "key": "case054.custody.slip",
+   "value": "Au fond du tonneau d’argile de l’atelier"
+  },
+  {
+   "key": "case054.custody.van",
+   "value": "Mis dans la camionnette"
+  },
+  {
+   "key": "case054.epilogue.custody.kiln",
+   "value": "Le moule n’était pas dans le four."
+  },
+  {
+   "key": "case054.epilogue.custody.slip",
+   "value": "Il a été consigné que les morceaux du moule avaient été retrouvés au fond du tonneau d’argile."
+  },
+  {
+   "key": "case054.epilogue.custody.van",
+   "value": "Il y avait des carreaux dans la camionnette, mais pas de moule."
+  },
+  {
+   "key": "case054.epilogue.verdict.accident",
+   "value": "Le décès a été attribué à un accident de four ; l’atelier a été vendu."
+  },
+  {
+   "key": "case054.epilogue.verdict.alvaro",
+   "value": "Álvaro Méndez a été arrêté ; l’incendie de 2003 a été rouvert comme « volontaire ». Les approbations de restauration de la Fundación Santa Ana signées « E. V. » sont entrées dans le dossier de l’antenne de Triana."
+  },
+  {
+   "key": "case054.epilogue.verdict.nuria",
+   "value": "Nuria Vidal a été placée en garde à vue ; la restauration a continué."
+  },
+  {
+   "key": "case054.epilogue.verdict.rocio",
+   "value": "Rocío Navarro a été arrêtée ; le dossier de 2003 est resté aux archives."
+  },
+  {
+   "key": "case054.evidence.archive",
+   "value": "Le dossier de 2003"
+  },
+  {
+   "key": "case054.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case054.evidence.van",
+   "value": "Fouille de la camionnette"
+  },
+  {
+   "key": "case054.evidence.workshop",
+   "value": "Examen de l’atelier"
+  },
+  {
+   "key": "case054.feedback.accident",
+   "value": "La victime est morte d’un coup à la tête avant que la fumée se répande ; le four a été allumé à la main après sa mort."
+  },
+  {
+   "key": "case054.feedback.alvaro",
+   "value": "L’empreinte de pouce sur la molette du four est la sienne, ses bottes portent l’argile du tonneau ; les carreaux « brûlés » en 2003 sont sortis de sa camionnette. Le dossier de 2003 rouvert montre pourquoi la victime allait à bube et pourquoi il l’en a empêchée."
+  },
+  {
+   "key": "case054.feedback.nuria",
+   "value": "La fille était à Madrid cette nuit-là ; elle a rapporté les dernières paroles de sa mère."
+  },
+  {
+   "key": "case054.feedback.rocio",
+   "value": "L’apprentie est partie à neuf heures ; l’empreinte sur la molette n’est pas la sienne."
+  },
+  {
+   "key": "case054.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case054.file.value.bureau",
+   "value": "BDS Sevilla — Antenne de Triana"
+  },
+  {
+   "key": "case054.file.value.location",
+   "value": "Calle Alfarería, Triana — atelier de carreaux"
+  },
+  {
+   "key": "case054.file.value.number",
+   "value": "BDS-SVQ-2030-0107"
+  },
+  {
+   "key": "case054.file.value.offence",
+   "value": "Mort suspecte — incendie"
+  },
+  {
+   "key": "case054.file.value.reporter",
+   "value": "Apprentie"
+  },
+  {
+   "key": "case054.method.fall",
+   "value": "Elle est tombée et s’est cogné la tête"
+  },
+  {
+   "key": "case054.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case054.method.mould",
+   "value": "Elle a été frappée à la tête avec un moule en plâtre ; le four a été allumé ensuite"
+  },
+  {
+   "key": "case054.method.smoke",
+   "value": "Elle a été asphyxiée par la fumée"
+  },
+  {
+   "key": "case054.nuria.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case054.nuria.call.answer",
+   "value": "Elle a appelé hier soir à huit heures, pour la première fois depuis un an. « Nuria, ce n’est pas l’incendie qui a tué ton père », elle a dit. « Álvaro était là cette nuit-là. L’homme de l’assurance le savait aussi. » Moi… j’ai dit : « Maman, encore ? » J’ai raccroché. Elle le répétait depuis vingt-sept ans."
+  },
+  {
+   "key": "case054.nuria.call.answer.demeanor",
+   "value": "Resserre la ceinture de son trench."
+  },
+  {
+   "key": "case054.nuria.call.question",
+   "value": "Quand avez-vous parlé à votre mère pour la dernière fois ?"
+  },
+  {
+   "key": "case054.nuria.deflect",
+   "value": "Je n’avais pas parlé à ma mère depuis un an."
+  },
+  {
+   "key": "case054.nuria.title",
+   "value": "Nuria Vidal — audition"
+  },
+  {
+   "key": "case054.offer.subtitle",
+   "value": "AZULEJO  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case054.offer.summary",
+   "value": "À Triana, une maîtresse céramiste a été retrouvée morte dans sa salle du four. En 2003, le même atelier avait brûlé."
+  },
+  {
+   "key": "case054.offer.title",
+   "value": "DOSSIER #054"
+  },
+  {
+   "key": "case054.person.alvaro.info",
+   "value": "52 ans, entrepreneur en restauration de bâtiments historiques."
+  },
+  {
+   "key": "case054.person.alvaro.name",
+   "value": "Álvaro Méndez"
+  },
+  {
+   "key": "case054.person.nuria.info",
+   "value": "45 ans, la fille de la victime ; vit à Madrid."
+  },
+  {
+   "key": "case054.person.nuria.name",
+   "value": "Nuria Vidal"
+  },
+  {
+   "key": "case054.person.rocio.info",
+   "value": "24 ans, l’apprentie de la victime."
+  },
+  {
+   "key": "case054.person.rocio.name",
+   "value": "Rocío Navarro"
+  },
+  {
+   "key": "case054.person.tomas.info",
+   "value": "69 ans, expert en assurances à la retraite ; il a examiné l’incendie de 2003."
+  },
+  {
+   "key": "case054.person.tomas.name",
+   "value": "Tomás Herrera"
+  },
+  {
+   "key": "case054.report.body",
+   "value": "Le matin du 17 octobre 2030, à Triana, la maîtresse Esperanza Vidal (74 ans) a été retrouvée morte dans la salle du four d’un atelier de carreaux de la Calle Alfarería. Le four avait tourné pendant la nuit et avait été coupé par le capteur de sécurité ; la pièce était pleine de fumée.\n\nSon apprentie Rocío Navarro a trouvé le corps à 08.00. La fille de la victime, Nuria Vidal, est partie de Madrid. Le plus gros client de l’atelier est l’entrepreneur en restauration Álvaro Méndez."
+  },
+  {
+   "key": "case054.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case054.request.archive",
+   "value": "Demander l’autorisation de ressortir le dossier de l’incendie de 2003 des archives"
+  },
+  {
+   "key": "case054.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case054.request.van",
+   "value": "Demander l’autorisation de fouiller la camionnette d’Álvaro Méndez"
+  },
+  {
+   "key": "case054.request.workshop",
+   "value": "Demander un examen de scène de crime de l’atelier"
+  },
+  {
+   "key": "case054.rocio.body",
+   "value": "Apprentie."
+  },
+  {
+   "key": "case054.rocio.deflect",
+   "value": "Moi, je travaille l’argile."
+  },
+  {
+   "key": "case054.rocio.kiln.answer",
+   "value": "Personne. La maîtresse n’allumait jamais le four la nuit, plus jamais depuis 2003. Après cet incendie, elle a fait installer elle-même le capteur de sécurité. Le matin, l’argile du tonneau était bizarre aussi, comme si on l’avait remuée ; je l’avais laissée reposer le soir."
+  },
+  {
+   "key": "case054.rocio.kiln.question",
+   "value": "Qui fait marcher le four la nuit ?"
+  },
+  {
+   "key": "case054.rocio.night.answer",
+   "value": "À neuf heures. La maîtresse a dit : « Álvaro vient, on va parler, toi, vas-y. » Elle était tendue. La semaine dernière, à la restauration de l’Alcázar, elle avait vu nos carreaux ; « ceux qui ont brûlé en 2003, Rocío, j’ai balayé leurs cendres de mes propres yeux », elle a dit."
+  },
+  {
+   "key": "case054.rocio.night.answer.demeanor",
+   "value": "Essuie l’argile de sa joue du revers de la main."
+  },
+  {
+   "key": "case054.rocio.night.question",
+   "value": "Quand avez-vous quitté l’atelier hier soir ?"
+  },
+  {
+   "key": "case054.rocio.title",
+   "value": "Rocío Navarro — audition"
+  },
+  {
+   "key": "case054.summary.evidence",
+   "value": "L’apprentie a raconté le soupçon de la maîtresse, la fille le dernier appel, l’expert le rapport retiré ; cela a fait ouvrir le dossier de 2003. L’autopsie a montré que la mort était venue avant la fumée, l’examen de l’atelier a donné le moule et l’empreinte. La fouille a trouvé les carreaux « brûlés »."
+  },
+  {
+   "key": "case054.summary.lesson",
+   "value": "Le capteur qui a éteint un incendie avait été installé par la femme de l’homme mort dans le premier."
+  },
+  {
+   "key": "case054.summary.location",
+   "value": "Calle Alfarería — octobre 2030"
+  },
+  {
+   "key": "case054.summary.truth",
+   "value": "En 2003, le porteur Álvaro Méndez a sorti 340 carreaux de l’atelier Vidal avant l’incendie et a mis le feu à la salle du four, porte verrouillée de l’extérieur ; Julián Vidal est mort, l’assurance a payé, le rapport de l’expert a été retiré du dossier. Vingt-sept ans plus tard, la maîtresse Esperanza a vu ces carreaux dans une restauration. Álvaro l’a frappée avec un moule en plâtre, a jeté le moule dans le tonneau d’argile et a allumé le four ; le capteur qu’elle avait fait installer après 2003 a coupé le four."
+  },
+  {
+   "key": "case054.suspect.label",
+   "value": "Qui a tué Esperanza Vidal ?"
+  },
+  {
+   "key": "case054.tablet.caseLine",
+   "value": "DOSSIER #054  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case054.time.blow",
+   "value": "23.00"
+  },
+  {
+   "key": "case054.time.call",
+   "value": "20.00"
+  },
+  {
+   "key": "case054.time.found",
+   "value": "08.00"
+  },
+  {
+   "key": "case054.time.kiln",
+   "value": "01.10"
+  },
+  {
+   "key": "case054.time.leave",
+   "value": "21.00"
+  },
+  {
+   "key": "case054.title",
+   "value": "Dossier #054 — Azulejo"
+  },
+  {
+   "key": "case054.tomas.2003.answer",
+   "value": "J’ai rédigé mon rapport : traces d’accélérant à côté du four, porte verrouillée de l’extérieur. « Incendie suspect », j’ai dit. La compagnie a payé, le dossier a été classé comme « accident » ; un autre rapport a été mis à la place du mien. La valeur du stock déclaré détruit dans l’incendie était presque la somme assurée. Personne n’a demandé à l’époque qui avait transporté ce stock."
+  },
+  {
+   "key": "case054.tomas.2003.answer.demeanor",
+   "value": "Remonte ses lunettes sur son nez."
+  },
+  {
+   "key": "case054.tomas.2003.question",
+   "value": "Vous avez examiné l’incendie de 2003."
+  },
+  {
+   "key": "case054.tomas.body",
+   "value": "Expert en assurances à la retraite."
+  },
+  {
+   "key": "case054.tomas.deflect",
+   "value": "Je suis à la retraite depuis vingt ans."
+  },
+  {
+   "key": "case054.tomas.title",
+   "value": "Tomás Herrera — audition"
+  },
+  {
+   "key": "case054.van.body",
+   "value": "La camionnette et l’entrepôt d’Álvaro Méndez (avec l’accord du chef d’antenne) :\n\n· Douze carreaux peints à la main enveloppés dans du papier journal ; au dos, le tampon d’atelier de Julián Vidal d’avant 2003. Ils figurent sur la liste du « stock brûlé » du dossier de 2003.\n· Sur la pédale de la camionnette et sur les bottes d’Álvaro Méndez, la même argile que dans le tonneau de l’atelier de carreaux ; l’empreinte de pouce sur la molette du four est la sienne.\n· Formulaires d’approbation de restauration de la Fundación Santa Ana : « d’origine, XVIIIe siècle » ; signature du conseiller « E. V. »."
+  },
+  {
+   "key": "case054.van.title",
+   "value": "LA CAMIONNETTE D’ÁLVARO MÉNDEZ — FOUILLE"
+  },
+  {
+   "key": "case054.verdict.accident",
+   "value": "Personne — un accident de four"
+  },
+  {
+   "key": "case054.verdict.alvaro",
+   "value": "Álvaro Méndez"
+  },
+  {
+   "key": "case054.verdict.nuria",
+   "value": "Nuria Vidal"
+  },
+  {
+   "key": "case054.verdict.rocio",
+   "value": "Rocío Navarro"
+  },
+  {
+   "key": "case054.workshop.body",
+   "value": "· Le programme du four a été lancé à la main à 01.10 ; sur la molette, une empreinte de pouce poudrée d’argile — ni celle de la maîtresse ni celle de l’apprentie.\n· Au fond du tonneau d’argile, un moule en plâtre cassé ; sur son angle, le sang et des cheveux de la victime.\n· La porte de la salle du four n’était pas verrouillée de l’intérieur ; une éraflure fraîche sur le verrou extérieur."
+  },
+  {
+   "key": "case054.workshop.title",
+   "value": "EXAMEN DE L’ATELIER"
+  },
+  {
+   "key": "case054.item.mould.name",
+   "value": "Morceaux de moule en plâtre"
+  },
+  {
+   "key": "case054.item.mould.detail",
+   "value": "Des morceaux cassés de moule en plâtre tirés du fond du tonneau d’argile ; du sang séché sur l’un d’eux."
+  },
+  {
+   "key": "case054.item.tiles.name",
+   "value": "Carreaux « brûlés »"
+  },
+  {
+   "key": "case054.item.tiles.detail",
+   "value": "Douze carreaux tirés d’une camionnette, déclarés détruits dans l’incendie de 2003."
+  },
+  {
+   "key": "case054.item.kiln.name",
+   "value": "Panneau de commande du four"
+  },
+  {
+   "key": "case054.item.kiln.detail",
+   "value": "Le panneau numérique du four ; le programme a été lancé à la main à 01.10 du matin."
+  }
+ ]
+}
