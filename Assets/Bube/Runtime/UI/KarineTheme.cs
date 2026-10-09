@@ -240,7 +240,11 @@ public static class KarineTheme {
  // Giriş ekranı, 9 Ekim 2026 maketi (Docs/Reference/UI_LOGIN_2026-10.webp): solda logo,
  // sağda ataçlı form, sağ altta stüdyo. Yüzdeler ekran genişliğine göre.
  public static class Account {
-  public const float LogoWidth=40, LogoLeft=8, PaperLeft=53, PaperWidth=31, PaperTilt=-.6f;
+  public const float LogoWidth=40, LogoLeft=7, PaperLeft=50, PaperWidth=36, PaperTilt=-.6f;
+  // Devinim: arka plan yavaş yaklaşır, lamba titrer, ışıkta toz uçuşur, form hafifçe salınır, ilke değişir.
+  public const float DriftSeconds=28, DriftScale=.04f, LampAlpha=.30f, SwayDegrees=.35f, SwaySeconds=7, MaximSeconds=6, IntroSeconds=.9f;
+  public static readonly Rect Lamp=new Rect(-4,-14,38,62);
+  public const int Motes=22, MinHeight=520;
   public const int LogoPx=600, TaglineSize=22, ButtonHeight=60, ButtonSize=19, BrandIcon=26, OrSize=15, GuestSize=19, PrivacySize=13, StudioHeight=40, Clip=46;
   // Marka düğmeleri kendi kurallarına uyar (Apple HIG, Google Identity): paletten boyanmaz.
   public static readonly Color AppleFill=Color.black, AppleText=Color.white;
