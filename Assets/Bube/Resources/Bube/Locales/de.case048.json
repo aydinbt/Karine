@@ -1,0 +1,616 @@
+{
+ "entries": [
+  {
+   "key": "case048.autopsy.body",
+   "value": "· Todesursache: Quetschung von Brust und Bauch.\n· In der Hand des Opfers Rost vom Treppengeländer der Grube; seine Schuhe mit dem Öl vom Grubenboden bedeckt. Keine Schlagspur am Kopf; als die Kabine kam, stand er und war bei Bewusstsein.\n· Todeszeit: 04.00–04.20."
+  },
+  {
+   "key": "case048.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case048.cctv.event.enter",
+   "value": "Kamera: Ein Mann in marineblauer Jacke mit Reflexstreifen betritt den leeren Steuerraum und schließt die Tür."
+  },
+  {
+   "key": "case048.cctv.event.leave",
+   "value": "Kamera: Derselbe Mann verlässt eilig den Raum und stopft etwas Rotes in seine Jacke."
+  },
+  {
+   "key": "case048.cctv.event.lever",
+   "value": "Kamera: Derselbe Mann reißt ein rotes Schild vom Haken an der Wand und drückt den Haupthebel nach vorn."
+  },
+  {
+   "key": "case048.cctv.overlay",
+   "value": "MSN-CTRL"
+  },
+  {
+   "key": "case048.cctv.period",
+   "value": "7. Oktober 2030"
+  },
+  {
+   "key": "case048.cctv.source",
+   "value": "Kamera im Steuerraum"
+  },
+  {
+   "key": "case048.clue.bin",
+   "value": "Der Chef wirft etwas Rotes in den Mülleimer im Gang."
+  },
+  {
+   "key": "case048.clue.enter",
+   "value": "Der Mann in marineblauer Jacke betritt den Steuerraum."
+  },
+  {
+   "key": "case048.clue.found",
+   "value": "Die Morgenschicht findet die Leiche."
+  },
+  {
+   "key": "case048.clue.lever",
+   "value": "Derselbe Mann nimmt das Schild vom Haken und drückt den Hebel."
+  },
+  {
+   "key": "case048.clue.pit",
+   "value": "Der Techniker hängt sein Schild auf und steigt in die Grube."
+  },
+  {
+   "key": "case048.clue.radio",
+   "value": "‚Sergio, bleib bei Yusuf, ich mache den Test.‘"
+  },
+  {
+   "key": "case048.clue.source.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.clue.source.kofi",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.clue.source.locker",
+   "value": "Durchsuchung des Spinds"
+  },
+  {
+   "key": "case048.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case048.conti.body",
+   "value": "Techniker."
+  },
+  {
+   "key": "case048.conti.chief.answer",
+   "value": "Schlecht. Luca hat sich die Prüfberichte angesehen und gesagt: ‚Dario kommt seit sechs Monaten nicht, aber seine Unterschrift ist jeden Monat da.‘ Er hat es dem Chef gesagt. Der Chef sagte: ‚Deine Sache sind Kabel, nicht Papier.‘"
+  },
+  {
+   "key": "case048.conti.chief.question",
+   "value": "Wie stand Luca zum Chef?"
+  },
+  {
+   "key": "case048.conti.deflect",
+   "value": "Ich habe meine Schicht gemacht."
+  },
+  {
+   "key": "case048.conti.pit.answer",
+   "value": "An der Seiltrommel war ein Geräusch, Luca sagte: ‚Ich schaue nach.‘ Die Regel ist: Steigt jemand in die Grube, kommt ein rotes Schild an den Steuerhebel, mit Vorhängeschloss. Luca hat sein eigenes Schild aufgehängt, den Schlüssel zum Schloss hatte er in der Tasche. Solange das Schild hängt, bewegt sich die Kabine nicht. Sollte sie nicht."
+  },
+  {
+   "key": "case048.conti.pit.answer.demeanor",
+   "value": "Wischt sich mit dem Ärmel das Öl von der Wange."
+  },
+  {
+   "key": "case048.conti.pit.question",
+   "value": "Warum ist Luca in die Grube gestiegen?"
+  },
+  {
+   "key": "case048.conti.title",
+   "value": "Sergio Conti — Befragung"
+  },
+  {
+   "key": "case048.control.body",
+   "value": "Steuerraum der Talstation. 7. Oktober 03.30 – 04.30."
+  },
+  {
+   "key": "case048.control.title",
+   "value": "KAMERA IM STEUERRAUM — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case048.custody.bin",
+   "value": "In den Mülleimer im Gang, unter den Kaffeesatz"
+  },
+  {
+   "key": "case048.custody.label",
+   "value": "Wohin kam das rote Wartungsschild?"
+  },
+  {
+   "key": "case048.custody.never",
+   "value": "Es wurde nie aufgehängt"
+  },
+  {
+   "key": "case048.custody.tunnel",
+   "value": "Es fiel in den Tunnel"
+  },
+  {
+   "key": "case048.dario.body",
+   "value": "Externer Prüfer."
+  },
+  {
+   "key": "case048.dario.deflect",
+   "value": "Mein Bericht liegt in der Akte."
+  },
+  {
+   "key": "case048.dario.sign.answer",
+   "value": "Nein. Der Vertrag meiner Firma wurde im März ausgesetzt, das Unternehmen sagte ‚kein Budget‘. Wenn meine Unterschrift auf den Berichten steht, habe ich sie nicht geleistet. Diese Unterschrift ist nicht meine."
+  },
+  {
+   "key": "case048.dario.sign.answer.demeanor",
+   "value": "Nimmt die Brille ab und putzt sie."
+  },
+  {
+   "key": "case048.dario.sign.question",
+   "value": "Haben Sie die Strecke in den letzten sechs Monaten geprüft?"
+  },
+  {
+   "key": "case048.dario.title",
+   "value": "Dario Ricci — Befragung"
+  },
+  {
+   "key": "case048.epilogue.custody.bin",
+   "value": "Festgehalten wurde, dass das rote Schild im Mülleimer im Gang gefunden wurde."
+  },
+  {
+   "key": "case048.epilogue.custody.never",
+   "value": "Der Schlüssel zum abgeschlossenen Schild war in der Tasche des Opfers."
+  },
+  {
+   "key": "case048.epilogue.custody.tunnel",
+   "value": "Das Schild war nicht im Tunnel, sondern in der Station."
+  },
+  {
+   "key": "case048.epilogue.verdict.accident",
+   "value": "Der Tod galt als Verfahrensfehler; die Strecke wurde zwei Tage später wieder eröffnet."
+  },
+  {
+   "key": "case048.epilogue.verdict.conti",
+   "value": "Sergio Conti wurde festgenommen; die gefälschten Unterschriften blieben im selben Spind."
+  },
+  {
+   "key": "case048.epilogue.verdict.ilaria",
+   "value": "Ilaria Romano wurde abgesetzt; der Tod galt als Arbeitsunfall."
+  },
+  {
+   "key": "case048.epilogue.verdict.marino",
+   "value": "Fabio Marino wurde festgenommen. Die 186.000 Euro an Caruso Marittima Beratung und die gefälschten Berichte kamen zur Akte; gegen die Betriebsleiterin wurde gesondert ermittelt."
+  },
+  {
+   "key": "case048.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case048.evidence.control",
+   "value": "Kamera im Steuerraum"
+  },
+  {
+   "key": "case048.evidence.forms",
+   "value": "Prüfberichte"
+  },
+  {
+   "key": "case048.evidence.locker",
+   "value": "Durchsuchung von Spind und Mülleimer"
+  },
+  {
+   "key": "case048.feedback.accident",
+   "value": "Das Schild war aufgehängt; es fand sich abgeschlossen im Müll, der Schlüssel in der Tasche des Opfers."
+  },
+  {
+   "key": "case048.feedback.conti",
+   "value": "Der Techniker war zwischen 03.30 und 04.00 beim Wachmann; der Chef hatte ihn per Funk dort festgehalten."
+  },
+  {
+   "key": "case048.feedback.ilaria",
+   "value": "Die Leiterin deckte das Budget, war aber nachts nicht in der Station; den Hebel drückte ein Mann in marineblauer Jacke."
+  },
+  {
+   "key": "case048.feedback.marino",
+   "value": "Auf dem roten Schild aus dem Mülleimer im Gang ist sein Fingerabdruck, und er hielt Sergio per Funk vom Steuerraum fern; die Kamera zeigt den Mann in marineblauer Jacke, der das Schild nimmt und den Hebel drückt. Die gefälschten Prüfunterschriften stammen aus seinem Spind."
+  },
+  {
+   "key": "case048.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case048.file.value.bureau",
+   "value": "BDS Neapel — Dienststelle Quartieri Spagnoli"
+  },
+  {
+   "key": "case048.file.value.location",
+   "value": "Standseilbahn Montesanto, Neapel"
+  },
+  {
+   "key": "case048.file.value.number",
+   "value": "BDN-NAP-2030-0322"
+  },
+  {
+   "key": "case048.file.value.offence",
+   "value": "Verdächtiger Todesfall — behaupteter Arbeitsunfall"
+  },
+  {
+   "key": "case048.file.value.reporter",
+   "value": "Betreiber"
+  },
+  {
+   "key": "case048.forms.body",
+   "value": "· Sechs Seilprüfberichte von April bis September; alle mit der Unterschrift ‚Dario Ricci‘. Unter den Unterschriften Spuren von Hilfslinien in Bleistift; die Unterschriftsvorlage gleicht einer Fotokopie im Spind des Wartungsleiters.\n· Abgelegt hat die Berichte: Wartungsleiter Fabio Marino.\n· Im selben Zeitraum aus dem Wartungsbudget 186.000 Euro an Caruso Marittima Beratung; die Zahlungen genehmigte Ilaria Romano."
+  },
+  {
+   "key": "case048.forms.title",
+   "value": "PRÜFBERICHTE UND BUDGET"
+  },
+  {
+   "key": "case048.greta.body",
+   "value": "Verlobte des Opfers."
+  },
+  {
+   "key": "case048.greta.deflect",
+   "value": "Ich will nur wissen, was er durchgemacht hat."
+  },
+  {
+   "key": "case048.greta.msg.answer",
+   "value": "Er hatte Angst. Er schrieb einem Gewerkschaftsvertreter und schickte mir eine Kopie: ‚Die Hälfte des Budgets geht als Beratung an eine Hafenfirma, die Seile sind neun Jahre alt. Eines Tages stirbt jemand.‘ Er ist selbst gestorben."
+  },
+  {
+   "key": "case048.greta.msg.answer.demeanor",
+   "value": "Drückt den Ärmel ihrer Jacke in der Hand zusammen."
+  },
+  {
+   "key": "case048.greta.msg.question",
+   "value": "Was hat Luca in den letzten Tagen erzählt?"
+  },
+  {
+   "key": "case048.greta.title",
+   "value": "Greta Lombardi — Befragung"
+  },
+  {
+   "key": "case048.ilaria.body",
+   "value": "Betriebsleiterin."
+  },
+  {
+   "key": "case048.ilaria.budget.answer",
+   "value": "Das weiß der Vorstand."
+  },
+  {
+   "key": "case048.ilaria.budget.presented.forms",
+   "value": "Die Beratungszahlungen waren der Wunsch eines Anteilseigners. Caruso Marittima. Ich musste sie genehmigen. Ich habe niemanden getötet."
+  },
+  {
+   "key": "case048.ilaria.budget.question",
+   "value": "Wohin ging das Wartungsbudget?"
+  },
+  {
+   "key": "case048.ilaria.deflect",
+   "value": "Erklärungen des Unternehmens gibt die Pressestelle ab."
+  },
+  {
+   "key": "case048.ilaria.rule.answer",
+   "value": "Weil kein Schild da war. Als man morgens auf den Steuerhebel schaute, hing kein Schild. Luca ist hinabgestiegen, ohne ein Schild aufzuhängen. Traurig, aber ein Verfahrensfehler."
+  },
+  {
+   "key": "case048.ilaria.rule.answer.demeanor",
+   "value": "Berührt ihren Perlenohrring."
+  },
+  {
+   "key": "case048.ilaria.rule.question",
+   "value": "Warum spricht das Unternehmen von einem Regelverstoß?"
+  },
+  {
+   "key": "case048.ilaria.rule.variant0",
+   "value": "Den Prüfvertrag habe ich ausgesetzt, wegen des Budgets. Die Unterschriften hat das Team von Fabio abgelegt. Ich habe mir die Papiere nicht angesehen."
+  },
+  {
+   "key": "case048.ilaria.title",
+   "value": "Ilaria Romano — Befragung"
+  },
+  {
+   "key": "case048.kofi.bin.answer",
+   "value": "Gegen vier kam der Chef in der marineblauen Jacke aus dem Steuerraum, schnell. Er warf etwas Rotes in den Mülleimer im Gang. Ich leere den Eimer morgens. Rotes Plastik, abgeschlossen. Ich habe den Eimer nicht geleert, ich hatte Angst, ich habe ihn so gelassen."
+  },
+  {
+   "key": "case048.kofi.bin.answer.demeanor",
+   "value": "Hält den Mopstiel mit beiden Händen."
+  },
+  {
+   "key": "case048.kofi.bin.question",
+   "value": "Was haben Sie in der Nacht in der Station gesehen?"
+  },
+  {
+   "key": "case048.kofi.body",
+   "value": "Reinigungskraft."
+  },
+  {
+   "key": "case048.kofi.deflect",
+   "value": "Ich wische die Böden."
+  },
+  {
+   "key": "case048.kofi.gone",
+   "value": "Die Aufenthaltserlaubnis von Kofi Mensah lief in jener Woche ab; er kehrte nach Accra zurück. Nicht erreichbar."
+  },
+  {
+   "key": "case048.kofi.title",
+   "value": "Kofi Mensah — Befragung"
+  },
+  {
+   "key": "case048.locker.body",
+   "value": "Der Spind von Fabio Marino in der Station und der Mülleimer im Gang (mit Genehmigung der Dienststellenleitung):\n\n· Im Mülleimer im Gang, unter dem Kaffeesatz, das rote Schild ‚Arbeiter im Inneren‘; das Vorhängeschloss geschlossen, der Schlüssel ist der in der Tasche des Opfers gefundene. Auf dem Schild der Fingerabdruck von Fabio Marino.\n· Im Spind eine Fotokopie mit der zwanzigmal geübten Unterschrift von Dario Ricci.\n· Funkprotokoll: 03.55 Fabio Marino: ‚Sergio, bleib bei Yusuf, ich mache den Test.‘"
+  },
+  {
+   "key": "case048.locker.title",
+   "value": "SPIND DES WARTUNGSLEITERS UND MÜLLEIMER — DURCHSUCHUNG"
+  },
+  {
+   "key": "case048.marino.body",
+   "value": "Wartungsleiter."
+  },
+  {
+   "key": "case048.marino.deflect",
+   "value": "Die Strecke ist sicher; meine Unterschrift steht drauf."
+  },
+  {
+   "key": "case048.marino.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case048.marino.end.presented.forms",
+   "value": "Die Unterschriften habe ich geleistet, ja. Ich dachte, die Seile halten. Das Budget wurde von oben abgezogen."
+  },
+  {
+   "key": "case048.marino.end.presented.locker",
+   "value": "Luca wollte zur Gewerkschaft, dann zur Anklagebehörde. Die Berichte, die Unterschriften, alles wäre auf meinen Namen zurückgefallen. Ich habe das rote Schild vom Haken genommen und den Hebel gedrückt. Eine Minute. Es dauerte eine Minute. Ich musste nicht einmal das Schloss aufschneiden, Luca hatte das Schloss angehängt, aber den Haken nicht geschlossen."
+  },
+  {
+   "key": "case048.marino.end.question",
+   "value": "Sie haben das Schild entfernt."
+  },
+  {
+   "key": "case048.marino.night.answer",
+   "value": "In der Bergstation, im Trommelraum. Ich habe Sergio per Funk Bescheid gegeben, um die Kabine zu testen; ich dachte, er hat den Hebel gedrückt."
+  },
+  {
+   "key": "case048.marino.night.answer.demeanor",
+   "value": "Presst die Kiefer aufeinander und schüttelt den Kopf."
+  },
+  {
+   "key": "case048.marino.night.question",
+   "value": "Wo waren Sie um vier Uhr?"
+  },
+  {
+   "key": "case048.marino.night.variant0",
+   "value": "Ich war im Steuerraum, ja. Es war kein Schild da, ich habe den Hebel gedrückt. Ich wusste nicht, dass Luca in der Grube war."
+  },
+  {
+   "key": "case048.marino.title",
+   "value": "Fabio Marino — Befragung"
+  },
+  {
+   "key": "case048.method.cabin",
+   "value": "Das Schild wurde entfernt und die Kabine über ihn gefahren"
+  },
+  {
+   "key": "case048.method.cable",
+   "value": "Von einem reißenden Seil getroffen"
+  },
+  {
+   "key": "case048.method.fall",
+   "value": "In die Grube gestürzt"
+  },
+  {
+   "key": "case048.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case048.offer.subtitle",
+   "value": "FUNICOLARE  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case048.offer.summary",
+   "value": "Auf der Standseilbahn Montesanto geriet ein Techniker in der Wartungsgrube unter die Kabine. Das Unternehmen spricht von einem Regelverstoß."
+  },
+  {
+   "key": "case048.offer.title",
+   "value": "AKTE #048"
+  },
+  {
+   "key": "case048.person.conti.info",
+   "value": "34 Jahre, Techniker der Nachtschicht; Teamkollege des Opfers."
+  },
+  {
+   "key": "case048.person.conti.name",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.person.dario.info",
+   "value": "47 Jahre, Prüfer der externen Firma, die die Seile kontrolliert."
+  },
+  {
+   "key": "case048.person.dario.name",
+   "value": "Dario Ricci"
+  },
+  {
+   "key": "case048.person.greta.info",
+   "value": "30 Jahre, Verlobte des Opfers; Krankenschwester."
+  },
+  {
+   "key": "case048.person.greta.name",
+   "value": "Greta Lombardi"
+  },
+  {
+   "key": "case048.person.ilaria.info",
+   "value": "41 Jahre, Betriebsleiterin der Strecke."
+  },
+  {
+   "key": "case048.person.ilaria.name",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.person.kofi.info",
+   "value": "25 Jahre, ghanaische Reinigungskraft; reinigt nachts die Station."
+  },
+  {
+   "key": "case048.person.kofi.name",
+   "value": "Kofi Mensah"
+  },
+  {
+   "key": "case048.person.marino.info",
+   "value": "52 Jahre, Wartungsleiter der Standseilbahn."
+  },
+  {
+   "key": "case048.person.marino.name",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.person.yusuf.info",
+   "value": "36 Jahre, Nachtwächter der Station; türkischer Herkunft."
+  },
+  {
+   "key": "case048.person.yusuf.name",
+   "value": "Yusuf Demir"
+  },
+  {
+   "key": "case048.report.body",
+   "value": "Am Morgen des 7. Oktober 2030 wurde auf der Standseilbahn Montesanto in der Wartungsgrube 140 Meter oberhalb der Talstation der Techniker Luca Ferri (33) tot gefunden. Die Kabine der ersten Testfahrt nach der Nachtwartung war über ihn hinweggefahren.\n\nNachtwartungsteam: Wartungsleiter Fabio Marino, Techniker Sergio Conti, das Opfer. In der Station waren Wachmann Yusuf Demir und Reinigungskraft Kofi Mensah. Das Unternehmen vertritt Betriebsleiterin Ilaria Romano."
+  },
+  {
+   "key": "case048.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case048.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case048.request.forms",
+   "value": "Prüfberichte und Budgetunterlagen anfordern"
+  },
+  {
+   "key": "case048.request.locker",
+   "value": "Durchsuchungsbeschluss für den Spind von Fabio Marino und den Mülleimer im Gang beantragen"
+  },
+  {
+   "key": "case048.summary.evidence",
+   "value": "Die Reinigungskraft sah, wie das Schild in den Müll wanderte, kehrte aber in ihr Land zurück, wenn vor der Obduktion nicht mit ihr gesprochen wurde. Der Wachmann lieferte die Karten und die Kamera, der Prüfer die Fälschung seiner Unterschrift. Die begründete Durchsuchung fand das Schild und die Fotokopie der Unterschrift."
+  },
+  {
+   "key": "case048.summary.lesson",
+   "value": "Das Papier zu tauschen war billiger als das Seil."
+  },
+  {
+   "key": "case048.summary.location",
+   "value": "Montesanto — Oktober 2030"
+  },
+  {
+   "key": "case048.summary.truth",
+   "value": "Wartungsleiter Fabio Marino fälschte sechs Monate lang, nachdem sich die Prüffirma zurückgezogen hatte, die Unterschrift des Prüfers; das Budget ging als ‚Beratung‘ an Caruso Marittima. Techniker Luca Ferri schrieb das der Gewerkschaft. Als Luca in die Grube stieg und sein Schild aufhängte, hielt Marino Sergio per Funk beim Wachmann fest, ging in den Steuerraum, nahm das Schild vom Haken und drückte den Hebel."
+  },
+  {
+   "key": "case048.suspect.label",
+   "value": "Wer hat Luca Ferri getötet?"
+  },
+  {
+   "key": "case048.tablet.caseLine",
+   "value": "AKTE #048  /  BUBE NEAPEL — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case048.time.bin",
+   "value": "04.05"
+  },
+  {
+   "key": "case048.time.enter",
+   "value": "03.58"
+  },
+  {
+   "key": "case048.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case048.time.leave",
+   "value": "04.04"
+  },
+  {
+   "key": "case048.time.lever",
+   "value": "04.02"
+  },
+  {
+   "key": "case048.time.pit",
+   "value": "03.40"
+  },
+  {
+   "key": "case048.time.radio",
+   "value": "03.55"
+  },
+  {
+   "key": "case048.title",
+   "value": "Akte #048 — Funicolare"
+  },
+  {
+   "key": "case048.verdict.accident",
+   "value": "Niemand — das Schild wurde nicht aufgehängt"
+  },
+  {
+   "key": "case048.verdict.conti",
+   "value": "Sergio Conti"
+  },
+  {
+   "key": "case048.verdict.ilaria",
+   "value": "Ilaria Romano"
+  },
+  {
+   "key": "case048.verdict.marino",
+   "value": "Fabio Marino"
+  },
+  {
+   "key": "case048.yusuf.body",
+   "value": "Nachtwächter."
+  },
+  {
+   "key": "case048.yusuf.deflect",
+   "value": "Ich war an der Tür, Chef."
+  },
+  {
+   "key": "case048.yusuf.door.answer",
+   "value": "Die Tür geht mit Karte auf, Chef. Nach drei Uhr nachts nur die Karte des Chefs und die von Sergio. Sergio kam um halb vier zum Tee zu mir, bis vier war er bei mir, wir haben zu zweit Radio gehört. Im Steuerraum hängt eine Kamera, ich hole die Aufnahmen."
+  },
+  {
+   "key": "case048.yusuf.door.answer.demeanor",
+   "value": "Dreht seine Karte am Band um seinen Hals."
+  },
+  {
+   "key": "case048.yusuf.door.question",
+   "value": "Wer hat nachts den Steuerraum betreten?"
+  },
+  {
+   "key": "case048.yusuf.title",
+   "value": "Yusuf Demir — Befragung"
+  },
+  {
+   "key": "case048.item.lever.name",
+   "value": "Steuerhebel"
+  },
+  {
+   "key": "case048.item.lever.detail",
+   "value": "Die Abdeckung des Haupthebels im Steuerraum; der Plombendraht abgerissen."
+  },
+  {
+   "key": "case048.item.tag.name",
+   "value": "Wartungsschild"
+  },
+  {
+   "key": "case048.item.tag.detail",
+   "value": "Das rote Schild ‚Arbeiter im Inneren‘, das am Eingang der Wartungsgrube hängen sollte; es kam aus einem Mülleimer."
+  },
+  {
+   "key": "case048.item.report.name",
+   "value": "Seilprüfbericht"
+  },
+  {
+   "key": "case048.item.report.detail",
+   "value": "Die Prüfberichte der letzten sechs Monate; die Unterschriften gleichen sich aufs Haar."
+  }
+ ]
+}
