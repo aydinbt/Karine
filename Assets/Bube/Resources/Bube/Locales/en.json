@@ -4565,6 +4565,22 @@
    "value": "You are playing as a guest. Your progress stays on this device only and is lost if the app is removed."
   },
   {
+   "key": "account.status.guestCloud",
+   "value": "You are playing as a guest. Your progress is kept on this device and in the cloud under a random player ID; we never ask for your name or email."
+  },
+  {
+   "key": "account.delete.guestCloudHint",
+   "value": "Your cloud save, player ID and progress on this device are permanently deleted."
+  },
+  {
+   "key": "account.delete.guestCloudBody",
+   "value": "Your cloud save, player ID and all progress on this device will be permanently deleted. This cannot be undone."
+  },
+  {
+   "key": "account.playerId",
+   "value": "Player ID"
+  },
+  {
    "key": "account.status.google",
    "value": "Signed in with Google Play Games. Your progress is backed up to the cloud."
   },

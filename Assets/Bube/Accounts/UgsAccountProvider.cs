@@ -44,6 +44,8 @@ public sealed class UgsAccountProvider : IAccountProvider {
   Accounts.Provider = provider;
  }
 
+ public bool CloudReady => Accounts.SignedIn;
+ public string CloudId => Accounts.Id;
  public bool Supports(AccountKind kind) {
   switch (kind) {
 #if KARINE_GPGS && UNITY_ANDROID

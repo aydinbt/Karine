@@ -15,13 +15,13 @@ public sealed partial class BubeApp {
   Accounts.Provider.Tick();
   if(cloudDueAt>=0 && Time.unscaledTime>=cloudDueAt){cloudDueAt=-1;Accounts.Provider.Push(Accounts.LocalEntries());}
  }
- void CloudDirty(){ if(Accounts.SignedIn && cloudDueAt<0)cloudDueAt=Time.unscaledTime+CloudPushDelay; }
+ void CloudDirty(){ if(Accounts.Provider.CloudReady && cloudDueAt<0)cloudDueAt=Time.unscaledTime+CloudPushDelay; }
  void FlushCloud(){ if(cloudDueAt>=0){cloudDueAt=-1;Accounts.Provider.Push(Accounts.LocalEntries());} }
 
  void AccountBoot() {
   Accounts.Provider.Restore((kind,id)=>{
    if(kind!=Accounts.Kind || (id??"")!=(Accounts.Id??"")){Accounts.Set(kind,id);ReloadAccount();}
-   else if(Accounts.SignedIn)PullCloud();
+   else if(Accounts.Provider.CloudReady)PullCloud();
    if(Accounts.Chosen)return;
    if(!Accounts.OffersSignIn){Accounts.MarkChosen();return;}
    // Giriş kağıdı açılış yüklemesi bittikten sonra çıkar.
@@ -83,12 +83,13 @@ public sealed partial class BubeApp {
  // onaylı, geri alınamaz silme. Misafirde yalnız cihazdaki ilerleme silinir.
  void AskDeleteAccount() {
   KarineUI.ConfirmPaper(root,T("account.delete.form"),T("account.delete.title"),
-   T(Accounts.SignedIn?"account.delete.body":"account.delete.guestBody"),T("account.delete.stamp"),
+   T(Accounts.SignedIn?"account.delete.body":Accounts.Provider.CloudReady?"account.delete.guestCloudBody":"account.delete.guestBody"),T("account.delete.stamp"),
    T("account.delete.cancel"),()=>{},T("account.delete.confirm"),DeleteAccount);
  }
  void DeleteAccount() {
   root.Q("ConfirmVeil")?.RemoveFromHierarchy();
-  if(!Accounts.SignedIn){Accounts.Wipe(Accounts.GuestFolder);accountNotice=T("account.notice.deleted");ReloadAccount();return;}
+  // Bulutsuz misafir: yalnız cihaz. Bulutlu misafirde önce sunucu silinir, sonra cihaz.
+  if(!Accounts.SignedIn && !Accounts.Provider.CloudReady){Accounts.Wipe(Accounts.GuestFolder);accountNotice=T("account.notice.deleted");ReloadAccount();return;}
   if(accountBusy)return;accountBusy=true;
   Accounts.Provider.Delete(error=>{
    accountBusy=false;
@@ -108,15 +109,17 @@ public sealed partial class BubeApp {
  void OpenSupport(){ if(!string.IsNullOrEmpty(config.supportEmail))Application.OpenURL("mailto:"+config.supportEmail); }
 
  void AccountSettings(VisualElement body) {
-  string status=Accounts.SignedIn?T("account.status."+Key(Accounts.Kind)):T("account.status.guest");
+  string status=Accounts.SignedIn?T("account.status."+Key(Accounts.Kind)):T(Accounts.Provider.CloudReady?"account.status.guestCloud":"account.status.guest");
   var state=KarineUI.SettingRow(body,T("settings.account.status"),status);
+  // Oyuncu kimliği: destek veya web silme talebinde oyuncunun kendini tanıtabilmesi için.
+  if(Accounts.Provider.CloudReady)KarineUI.SettingRow(body,T("account.playerId"),Accounts.Provider.CloudId);
   if(!string.IsNullOrEmpty(accountNotice))KarineUI.Body_(state,accountNotice,KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;
   if(!Accounts.SignedIn) {
    foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
     // Editor'de servis yok ama düğmeler görünür kalır: ekran tasarımı denetlenebilsin, basınca "kullanılamıyor" der.
    if(Accounts.Provider.Supports(kind)||Application.isEditor){var k=kind;Button(KarineUI.SettingRow(body,T("account.link."+Key(k)),T("account.link.hint")),T("account.signin."+Key(k)),()=>AccountSignIn(k));}
   } else Button(KarineUI.SettingRow(body,T("account.signout"),T("account.signout.hint")),T("account.signout"),AccountSignOut);
-  Button(KarineUI.SettingRow(body,T("account.delete"),T(Accounts.SignedIn?"account.delete.hint":"account.delete.guestHint")),T("account.delete"),AskDeleteAccount);
+  Button(KarineUI.SettingRow(body,T("account.delete"),T(Accounts.SignedIn?"account.delete.hint":Accounts.Provider.CloudReady?"account.delete.guestCloudHint":"account.delete.guestHint")),T("account.delete"),AskDeleteAccount);
   if(!string.IsNullOrEmpty(config.accountDeletionUrl))
    Button(KarineUI.SettingRow(body,T("account.deletionPage"),T("account.deletionPage.hint")),T("account.open"),OpenDeletionPage);
   var privacy=KarineUI.SettingRow(body,T("account.privacy"),T("account.privacy.hint"));

@@ -1207,3 +1207,8 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - Apple/Google logoları şimdilik **temsilî** (kodla çizildi); mağazadan önce resmî dosyalarla değiştirilecek.
 - **Açılış (yükleme) ekranı** arka planı: `StreamingAssets/Bube/splash_loop.mp4`. Gemini, 10 sn, sessiz döngü; yağmurlu, adsız bir şehirde lamba altında Bora. Hiçbir ülkeyi göstermez, on bölüme de uyar. Video hazır olunca belirir, açılamazsa düz zemin kalır. Yalnız oyunun ilk açılışında oynar, oyun içi geçişlerde oynamaz.
 - **Açılış sırası** (kullanıcı kararı): arka planda video döner; üstünde önce KARINE logosu, sonra Bube Games logosu ortada yalnız saydamlıkla belirir, kalır ve söner (büyüme ya da kayma yok). Yükleme göstergesi sağ altta küçük durur. Çubuk gerçek yüklemeyi gösterir (menü müziği, ortam sesleri, ülke görselleri); katman logo sırası bitmeden kapanmaz. Unity'nin "Made with Unity" ekranı kapatıldı.
+
+## 9 Ekim 2026 — Misafir de bulutta
+
+- Misafir oyuncunun kaydı Firebase anonim kimliğiyle bulutta tutulur; ad/e-posta istenmez (kullanıcı kararı: kullanıcılar tutulmalı, silme isteğinde silinmeli, mağaza ve KVKK kurallarına uyulmalı).
+- "Hesabı ve verileri sil" misafirde de bulut kaydını ve kimliği siler; ayarlarda oyuncu kimliği gösterilir ki web/e-posta silme talebinde kullanılabilsin.

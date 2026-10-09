@@ -152,6 +152,9 @@ public sealed partial class BubeApp : MonoBehaviour {
   canonLocale=language==Languages.Canon?locale:LocaleLoader.Load(Languages.Canon);
   careerRules=Load<CareerRules>("Bube/career-rules");
   Accounts.Load();Accounts.MigrateLegacy();
+  // Firebase anahtarı verilmişse misafir de buluta yazar; başka bir servis takılıysa ona dokunulmaz.
+  if(Accounts.Provider is LocalAccountProvider && !string.IsNullOrEmpty(config.firebaseApiKey) && !string.IsNullOrEmpty(config.firebaseProjectId))
+   Accounts.Provider=new FirebaseAccountProvider(config.firebaseApiKey,config.firebaseProjectId);
   pendingPredicate=n=>game.Pending(n);
   incomingDocumentPredicate=n=>game.IncomingDocument(n);
   bool redirectedDraft;

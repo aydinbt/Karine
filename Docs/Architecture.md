@@ -617,3 +617,7 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
   - `com.google.play.games` 2.2.1 (OpenUPM)
   - `com.lupidan.apple-signin-unity` 1.5.0 (OpenUPM)
 - **Doğrulama sınırı:** Editor'de (Android hedefi) GPGS kolu derlendi. iOS kolu (`UNITY_IOS`) derlenmedi; ilk iOS derlemesinde görülecek.
+
+## 9 Ekim 2026 — Misafir bulut kaydı (Firebase REST)
+
+`FirebaseAccountProvider` (`Assets/Bube/Runtime`) `IAccountProvider`ı paketsiz gerçekler: Identity Toolkit `accounts:signUp` ile anonim kimlik, `securetoken` ile yenileme (anahtar `PlayerPrefs` `karine.firebase.refresh`), Firestore REST ile `users/{uid}/saves/{anahtar}` belgeleri (`entry` = `CloudEntry` JSON). `config.json` → `firebaseApiKey` + `firebaseProjectId` doluysa ve başka sağlayıcı takılı değilse `BubeApp` açılışta takar. Arayüze `CloudReady`/`CloudId` eklendi: bulut eşitlemesi artık `Accounts.SignedIn` yerine `CloudReady`ye bakar, misafir de buluta yazar. Misafir klasörü (`accounts/guest`) değişmedi; anonim kimlik `Accounts.Id`ye yazılmaz. Silme: belgeler → kimlik (`accounts:delete`) → yerel klasör; bir adım düşerse yerel silinmez. Kurallar: `Firebase/firestore.rules`.

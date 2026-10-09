@@ -1,0 +1,54 @@
+# Misafir bulut kaydı (Firebase) ve KVKK / mağaza uyumu
+
+Tarih: 9 Ekim 2026. Kod `[~]`: derleniyor ve EditMode testleri geçiyor. Gerçek bir Firebase projesiyle **henüz denenmedi**. Bunu denemek için önce aşağıdaki konsol adımlarının yapılması gerekiyor.
+
+> Bu belge teknik bir uyum listesidir, hukuki görüş değildir. Gizlilik metni yayına girmeden önce bir hukukçuya okutulmalıdır.
+
+## Nasıl çalışıyor
+
+- **İlk açılış:** oyun Firebase'den **anonim** bir kimlik alır. Oyuncuya hiçbir şey sorulmaz; ad, e-posta, telefon ya da reklam kimliği alınmaz.
+- **Kimliği hatırlama:** cihazda yalnız yenileme anahtarı (`karine.firebase.refresh`) tutulur. Böylece sonraki açılışlarda aynı oyuncu kimliği döner.
+- **Bulut kaydı:** kayıt dosyaları (`bube-*.json`) değişince 4 saniye sonra Firestore'a yazılır. Uygulama arka plana atılınca da hemen yazılır. Yol `users/{uid}/saves/{anahtar}`, belgede tek bir alan var: `entry`.
+- **Açılışta senkron:** buluttaki daha yeni kopya cihazdakini ezer. Sonra cihazdaki daha yeni kopyalar buluta gider.
+- **İnternet yoksa:** oyun cihazdaki kayıtla açılır, hiçbir şey kırılmaz. Bulut bir sonraki açılışta yeniden denenir.
+- **Silme (Ayarlar › Hesap › Hesabı ve verileri sil):** onaydan sonra sırasıyla şunlar silinir:
+  1. Buluttaki tüm kayıt belgeleri.
+  2. Firebase'deki anonim kimlik.
+  3. Cihazdaki klasör.
+
+  Bir adım başarısız olursa hata gösterilir ve cihazdaki kayıt silinmez; oyuncu tekrar deneyebilir. Silmeden sonra oyun açık kalırsa, bir sonraki açılışta yepyeni ve ilişkisiz bir kimlik alınır.
+- **Oyuncu kimliği:** Ayarlar › Hesap'ta görünür. Oyuncu web'den ya da e-postayla silme isterse bu kimliği bildirir.
+- **Firebase bağlı değilse:** `config.json` içindeki anahtarlar boşken oyun eskisi gibi yalnız cihazda kayıt tutar. Metinler de buna göre değişir ("yalnız bu cihazda").
+- **Apple ve Google girişi:** ileride aynı Firebase kimliğine bağlanacak (`signInWithIdp` ile `linkWithIdp`). Böylece misafir ilerlemesi hesaba geçer.
+
+Kod: `Assets/Bube/Runtime/FirebaseAccountProvider.cs` (SDK yok, REST + `UnityWebRequest`). Erişim kuralları: `Firebase/firestore.rules`.
+
+## Sana kalanlar (sırayla)
+
+1. **Firebase projesini oluştur:** [console.firebase.google.com](https://console.firebase.google.com) adresinde, örnek ad `karine`. Hesabı ve sözleşmeyi sen açıp kabul etmelisin.
+2. **Anonim girişi aç:** *Authentication › Sign-in method › Anonymous* → Etkinleştir.
+3. **Firestore'u kur:** *Firestore Database › Create database* → production modu. Bölge olarak `eur3` ya da `europe-west3` (Frankfurt) seç; Türkiye'ye en yakın seçenek bunlar ve yurt dışı aktarım değerlendirmesi kolaylaşır.
+4. **Kuralları yükle:** *Firestore › Rules* sekmesine `Firebase/firestore.rules` dosyasının içeriğini yapıştırıp **Publish** de.
+5. **Anahtarları ver:** *Project settings › General*. Bir Web uygulaması ekle; "Web API Key" ve "Project ID" değerlerini bana ver. Ben `Assets/Bube/Resources/Bube/config.json` içindeki `firebaseApiKey` ve `firebaseProjectId` alanlarına yazarım.
+   - Firebase web anahtarı gizli bir parola değildir, depoda durabilir. Erişimi kurallar korur.
+6. **(Önerilir) API anahtarını kısıtla:** Google Cloud Console › *APIs & Services › Credentials* altında anahtarı yalnız **Identity Toolkit API**, **Token Service API** ve **Cloud Firestore API** ile sınırla.
+7. **(Önerilir) Kullanılmayan anonim hesapları temizle:** Identity Platform'a yükseltirsen, otomatik silme ayarı ile uzun süre girilmeyen anonim hesaplar silinir. Bu, KVKK'daki "gereğinden uzun saklamama" ilkesine uyar.
+8. **Gizlilik ve silme sayfalarını yayınla:** gizlilik politikası ve web silme sayfası. Bağlantılar `config.json` içindeki `privacyUrl`, `accountDeletionUrl` ve `supportEmail` alanlarına gider. Google Play, web üzerinden silme talebi bağlantısını zorunlu tutuyor.
+
+## KVKK listesi
+
+| İlke / yükümlülük | Durum |
+|---|---|
+| Veri en aza indirme | Yalnız rastgele oyuncu kimliği ve oyun kaydı. Ad, e-posta ve konum yok. Firebase sunucu tarafında IP adresini işler; bu metinde yazılmalı. |
+| Hukuki sebep | Oyun kaydını cihazlar ve kurulumlar arasında korumak, "sözleşmenin ifası" (KVKK m.5/2-c) kapsamında değerlendirilebilir. Bunu hukukçu teyit etmeli. |
+| Aydınlatma yükümlülüğü (m.10) | Gizlilik metninde şunlar yazmalı: veri sorumlusu (Bube Digital), işlenen veri, amaç, hukuki sebep, aktarılan taraf (Google/Firebase) ve başvuru yolu. **Metin henüz yazılmadı.** |
+| Silme hakkı (m.7, m.11) | Uygulama içinden tek adımla siliniyor; web ve e-posta yolu `accountDeletionUrl` ve `supportEmail` ile sağlanacak. |
+| Yurt dışına aktarım (m.9, 2024 değişikliği) | Firebase sunucuları yurt dışında. Standart sözleşme imzalanıp 5 iş günü içinde Kurul'a bildirilmesi ya da başka bir uygun güvence gerekebilir. **Hukukçuya sorulmalı.** |
+| Saklama süresi | Oyuncu silene kadar. Ek olarak hareketsiz anonim hesapların otomatik silinmesi önerilir (7. adım). |
+| VERBİS | Çalışan sayısı ve ciro eşiklerinin altındaysan kayıt yükümlülüğü genelde yok. Teyit et. |
+
+## Mağaza formları
+
+- **Google Play › Data safety:** "Uygulama etkinliği / oyun ilerlemesi" ve "Cihaz ya da diğer kimlikler (uygulamaya özel kimlik)" toplanıyor, aktarımda şifreli ve silinebilir. Paylaşım yok.
+- **App Store › App Privacy:** "Identifiers – User ID" ve "Gameplay Content" toplanıyor, uygulama işlevi için kullanılıyor ve takipte kullanılmıyor.
+- **Reklam SDK'sı girince** bu iki formun yeniden doldurulması gerekir.

@@ -4565,6 +4565,22 @@
    "value": "Misafir olarak oynuyorsun. İlerlemen yalnız bu cihazda durur; uygulama silinirse kaybolur."
   },
   {
+   "key": "account.status.guestCloud",
+   "value": "Misafir olarak oynuyorsun. İlerlemen bu cihazda ve rastgele bir oyuncu kimliğiyle bulutta saklanır; adın veya e-postan alınmaz."
+  },
+  {
+   "key": "account.delete.guestCloudHint",
+   "value": "Buluttaki kaydın, oyuncu kimliğin ve bu cihazdaki ilerlemen kalıcı olarak silinir."
+  },
+  {
+   "key": "account.delete.guestCloudBody",
+   "value": "Buluttaki kaydın, oyuncu kimliğin ve bu cihazdaki tüm ilerlemen kalıcı olarak silinecek. Bu işlem geri alınamaz."
+  },
+  {
+   "key": "account.playerId",
+   "value": "Oyuncu kimliği"
+  },
+  {
    "key": "account.status.google",
    "value": "Google Play Games ile giriş yapıldı. İlerlemen buluta yedeklenir."
   },

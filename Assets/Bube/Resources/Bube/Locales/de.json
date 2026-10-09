@@ -4565,6 +4565,22 @@
    "value": "Du spielst als Gast. Dein Fortschritt bleibt nur auf diesem Gerät; wird die App gelöscht, geht er verloren."
   },
   {
+   "key": "account.status.guestCloud",
+   "value": "Du spielst als Gast. Dein Fortschritt wird auf diesem Gerät und unter einer zufälligen Spieler-ID in der Cloud gespeichert; Name oder E-Mail werden nie abgefragt."
+  },
+  {
+   "key": "account.delete.guestCloudHint",
+   "value": "Dein Cloud-Spielstand, deine Spieler-ID und dein Fortschritt auf diesem Gerät werden dauerhaft gelöscht."
+  },
+  {
+   "key": "account.delete.guestCloudBody",
+   "value": "Dein Cloud-Spielstand, deine Spieler-ID und dein gesamter Fortschritt auf diesem Gerät werden dauerhaft gelöscht. Das kann nicht rückgängig gemacht werden."
+  },
+  {
+   "key": "account.playerId",
+   "value": "Spieler-ID"
+  },
+  {
    "key": "account.status.google",
    "value": "Mit Google Play Games angemeldet. Dein Fortschritt wird in der Cloud gesichert."
   },

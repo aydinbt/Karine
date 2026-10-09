@@ -14,6 +14,9 @@ public enum AccountKind { Guest, Google, Apple }
 
 public interface IAccountProvider {
  bool Supports(AccountKind kind);
+ // Bulut kaydı açık mı (misafir dahil) ve oyuncunun sunucudaki rastgele kimliği.
+ bool CloudReady { get; }
+ string CloudId { get; }
  // Önceki oturum sessizce geri yüklenir; yoksa misafir döner.
  void Restore(Action<AccountKind,string> done);
  // `link`: misafir ilerlemesi bu hesaba taşınır. Sonuç: (oyuncu kimliği, hata anahtarı).
@@ -29,6 +32,8 @@ public interface IAccountProvider {
 // Servis yokken: yalnız misafir, bulut yok.
 public sealed class LocalAccountProvider : IAccountProvider {
  public bool Supports(AccountKind kind) => kind == AccountKind.Guest;
+ public bool CloudReady => false;
+ public string CloudId => null;
  public void Restore(Action<AccountKind,string> done) => done(AccountKind.Guest, null);
  public void SignIn(AccountKind kind, bool link, Action<string,string> done) => done(null, "account.error.unavailable");
  public void SignOut() {}
