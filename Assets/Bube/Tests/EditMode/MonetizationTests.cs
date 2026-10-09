@@ -147,5 +147,20 @@ public sealed class MonetizationTests {
   Assert.IsFalse(AdGateway.RewardEarnedWithoutAd(AdPlacement.CaseStart));
   Assert.IsFalse(AdGateway.MayShow(AdPlacement.MenuReturn, AdMoment.Menu));
  }
+ // İzin gerektiren inceleme uzun sürer; "Kalıcı öncelik" bu süreyi kaldırır, sıradan belge hep kısa.
+ [Test]
+ public void HeavyWait_OnlyForWarrants_AndPriorityRemovesIt() {
+  var warrant = new Node { warrant = new[] { new WarrantPath { sources = new[] { "a" } } } };
+  var archive = new Node { warrant = warrant.warrant, requestKind = "archive" };
+  var plain = new Node();
+  try {
+   Priority.Set(false);
+   Assert.AreEqual(1200, Investigation.HeavyWaitSeconds(warrant));
+   Assert.AreEqual(1800, Investigation.HeavyWaitSeconds(archive));
+   Assert.AreEqual(0, Investigation.HeavyWaitSeconds(plain));
+   Priority.Set(true);
+   Assert.AreEqual(0, Investigation.HeavyWaitSeconds(warrant));
+  } finally { Priority.Set(false); }
+ }
 }
 }

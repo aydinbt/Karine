@@ -12,9 +12,18 @@ public sealed partial class BubeApp {
  void ScheduleReturn() {
   Notifications.Provider.CancelAll();
   if(!Notifications.Enabled || game==null || game.Career.retired)return;
+  // İzin gerektiren inceleme bekliyorsa sonuç geldiği an bir kez haber verilir.
+  var ready=ReadyRequestTicks();
+  if(ready>DateTime.UtcNow.Ticks)Notifications.Provider.Schedule(3,T("notify.title"),T("notify.ready"),new DateTime(ready,DateTimeKind.Utc)-DateTime.UtcNow);
   string key=NotifyKey();
   if(key==null)return;
   for(int i=0;i<NotifyAfter.Length;i++)Notifications.Provider.Schedule(i+1,T("notify.title"),T(key+"."+(i+1)),NotifyAfter[i]);
+ }
+ long ReadyRequestTicks() {
+  if(game.State.closed)return 0;
+  var waits=game.State.documentRequests.Select(r=>r.readyAtUtcTicks).Concat((game.State.warrantDenials??new System.Collections.Generic.List<WarrantDenial>()).Select(d=>d.readyAtUtcTicks))
+   .Where(t=>t>DateTime.UtcNow.Ticks+TimeSpan.FromMinutes(2).Ticks).ToArray();
+  return waits.Length==0?0:waits.Min();
  }
  string NotifyKey() {
   if(game.State.caseAccepted && !game.State.closed)return "notify.open";

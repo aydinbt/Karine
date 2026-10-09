@@ -3525,6 +3525,14 @@
    "value": "Lamp: amber"
   },
   {
+   "key": "settings.lamp.4",
+   "value": "Lamp: neon red"
+  },
+  {
+   "key": "settings.lamp.5",
+   "value": "Lamp: night violet"
+  },
+  {
    "key": "settings.lamp.hint",
    "value": "The light colour of the desk lamp. Appearance only."
   },
@@ -4807,6 +4815,30 @@
   {
    "key": "store.noads.owned",
    "value": "Purchased. No ads in the game."
+  },
+  {
+   "key": "notify.ready",
+   "value": "An inspection you requested has come back."
+  },
+  {
+   "key": "store.priority.owned",
+   "value": "Purchased. Inspections arrive without waiting."
+  },
+  {
+   "key": "store.priority.hint",
+   "value": "Inspections that need approval arrive without waiting."
+  },
+  {
+   "key": "store.priority",
+   "value": "Permanent priority"
+  },
+  {
+   "key": "ads.priority.free",
+   "value": "Prioritise · {0} steps"
+  },
+  {
+   "key": "ads.priority",
+   "value": "Prioritise · {0} ads"
   },
   {
    "key": "store.buy",

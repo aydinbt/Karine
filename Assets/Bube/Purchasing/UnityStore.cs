@@ -23,22 +23,23 @@ public sealed class UnityStore : IStore, IDetailedStoreListener {
   catch (Exception e) { Debug.LogWarning("Unity Services could not start: " + e.Message); }
   var builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
   builder.AddProduct(Store.NoAdsProduct, ProductType.NonConsumable);
+  builder.AddProduct(Store.PriorityProduct, ProductType.NonConsumable);
   UnityPurchasing.Initialize(store, builder);
  }
 
  public bool Ready => controller != null;
- public string NoAdsPrice => controller?.products.WithID(Store.NoAdsProduct)?.metadata.localizedPriceString;
+ public string Price(string product) => controller?.products.WithID(product)?.metadata.localizedPriceString;
 
- public void BuyNoAds(Action<string> done) {
+ public void Buy(string product, Action<string> done) {
   if (!Ready) { done("store.error.unavailable"); return; }
-  if (AdGateway.AdsRemoved) { done(null); return; }
+  if (Store.Owned(product)) { done(null); return; }
   pending = done;
-  controller.InitiatePurchase(Store.NoAdsProduct);
+  controller.InitiatePurchase(product);
  }
 
  public void Restore(Action<string> done) {
   if (!Ready) { done("store.error.unavailable"); return; }
-  Action<bool,string> finished = (ok, _) => done(ok ? (AdGateway.AdsRemoved ? null : "store.notice.nothing") : "store.error.failed");
+  Action<bool,string> finished = (ok, _) => done(ok ? (AdGateway.AdsRemoved || Priority.Owned ? null : "store.notice.nothing") : "store.error.failed");
 #if UNITY_IOS
   extensions.GetExtension<IAppleExtensions>().RestoreTransactions(finished);
 #else
@@ -48,14 +49,16 @@ public sealed class UnityStore : IStore, IDetailedStoreListener {
 
  public void OnInitialized(IStoreController c, IExtensionProvider e) {
   controller = c; extensions = e;
-  var product = c.products.WithID(Store.NoAdsProduct);
-  if (product != null && product.hasReceipt) AdGateway.SetAdsRemoved(true);
+  foreach (var id in new[] { Store.NoAdsProduct, Store.PriorityProduct }) {
+   var product = c.products.WithID(id);
+   if (product != null && product.hasReceipt) Store.Grant(id);
+  }
  }
  public void OnInitializeFailed(InitializationFailureReason error) => Debug.LogWarning("IAP init failed: " + error);
  public void OnInitializeFailed(InitializationFailureReason error, string message) => Debug.LogWarning("IAP init failed: " + error + " " + message);
 
  public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs args) {
-  if (args.purchasedProduct.definition.id == Store.NoAdsProduct) AdGateway.SetAdsRemoved(true);
+  Store.Grant(args.purchasedProduct.definition.id);
   Finish(null);
   return PurchaseProcessingResult.Complete;
  }

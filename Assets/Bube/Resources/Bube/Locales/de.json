@@ -3525,6 +3525,14 @@
    "value": "Lampe: Bernstein"
   },
   {
+   "key": "settings.lamp.4",
+   "value": "Lampe: Neonrot"
+  },
+  {
+   "key": "settings.lamp.5",
+   "value": "Lampe: Nachtviolett"
+  },
+  {
    "key": "settings.lamp.hint",
    "value": "Lichtfarbe der Tischlampe. Nur Optik."
   },
@@ -4807,6 +4815,30 @@
   {
    "key": "store.noads.owned",
    "value": "Gekauft. Keine Werbung im Spiel."
+  },
+  {
+   "key": "notify.ready",
+   "value": "Eine von dir beantragte Prüfung ist zurück."
+  },
+  {
+   "key": "store.priority.owned",
+   "value": "Gekauft. Prüfungen kommen ohne Wartezeit."
+  },
+  {
+   "key": "store.priority.hint",
+   "value": "Genehmigungspflichtige Prüfungen kommen ohne Wartezeit."
+  },
+  {
+   "key": "store.priority",
+   "value": "Dauerhafte Priorität"
+  },
+  {
+   "key": "ads.priority.free",
+   "value": "Priorisieren · {0} Schritte"
+  },
+  {
+   "key": "ads.priority",
+   "value": "Priorisieren · {0} Werbungen"
   },
   {
    "key": "store.buy",

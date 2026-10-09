@@ -1237,3 +1237,14 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
   - En fazla iki kez: ertesi gün ve 3 gün sonra.
   - Nereye bakılacağını söylemez.
   - İzin, ilk rapordan sonra özet ekranında bir kez sorulur. Ayarlar › Oyun'dan kapatılabilir.
+
+## Gelir: bekleme ve öncelik (9 Ekim 2026)
+
+**Kullanıcı:** "bütün ülkeler oynanabilir olacak… ağır talepler veya incelemeler için bir süre koyalım ve… reklamla öncelik sağlatabiliriz, 2 veya 3 reklam izlemeli." Kozmetik yalnız lamba rengi; görsel değişiklik yok.
+
+- **Ağır talepler:** izin gerektiren incelemeler (arama izni, hat, arşiv taraması, olay bağlantısı; Dosya #007'den itibaren). Arşiv ve hat 30 dk, diğerleri 20 dk sürer. İfadeler ve sıradan belgeler kısa kalır.
+- **Ret de aynı sürede gelir.** Böylece bekleme süresi sonucu ele vermez.
+- **Öncelik ver:** her ödüllü reklam kalan süreden 10 dk düşer, yani 20 dk için 2, 30 dk için 3 reklam gerekir. Yarıda bırakmak emeği boşa çıkarmaz. Reklamları kaldıran oyuncu aynı adımları reklamsız atar.
+- **Kalıcı öncelik:** tek seferlik ürün; uzun beklemeyi tamamen kaldırır.
+- **Sonuç bildirimi:** sonuç gelince "talep ettiğin inceleme sonuçlandı" bildirimi gelir; hangi inceleme olduğunu söylemez.
+- **Lamba renkleri:** iki yeni renk eklendi (neon kırmızı, gece moru).

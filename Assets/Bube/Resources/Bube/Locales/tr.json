@@ -3525,6 +3525,14 @@
    "value": "Lamba: kehribar"
   },
   {
+   "key": "settings.lamp.4",
+   "value": "Lamba: neon kırmızı"
+  },
+  {
+   "key": "settings.lamp.5",
+   "value": "Lamba: gece moru"
+  },
+  {
    "key": "settings.lamp.hint",
    "value": "Masadaki lambanın ışık rengi. Yalnız görünüm."
   },
@@ -4807,6 +4815,30 @@
   {
    "key": "store.noads.owned",
    "value": "Satın alındı. Oyunda reklam yok."
+  },
+  {
+   "key": "notify.ready",
+   "value": "Talep ettiğin inceleme sonuçlandı."
+  },
+  {
+   "key": "store.priority.owned",
+   "value": "Satın alındı. İncelemeler beklemeden gelir."
+  },
+  {
+   "key": "store.priority.hint",
+   "value": "İzin gerektiren incelemeler beklemeden gelir."
+  },
+  {
+   "key": "store.priority",
+   "value": "Kalıcı öncelik"
+  },
+  {
+   "key": "ads.priority.free",
+   "value": "Öncelik ver · {0} adım"
+  },
+  {
+   "key": "ads.priority",
+   "value": "Öncelik ver · {0} reklam"
   },
   {
    "key": "store.buy",

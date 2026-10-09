@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -39,25 +40,39 @@ public sealed partial class BubeApp {
  void LoadLampDraft()=>draftLamp=LampTint;
  void SaveLampDraft()=>PlayerPrefs.SetInt(LampTintKey,LampUnlocked(draftLamp)?draftLamp:0);
 
- // Uzun bekleyiş: kalan süre `AdGateway.MinSkipSeconds`dan uzunsa ödüllü atlama
- // teklif edilir. Bugünkü vakalarda bekleyişler 4–10 saniye; bu düğme görünmez.
- void SkipWait(VisualElement parent,InterviewRequest request,Action refresh) {
-  double remaining=(new DateTime(request.readyAtUtcTicks,DateTimeKind.Utc)-DateTime.UtcNow).TotalSeconds;
+ // Uzun bekleyiş: her ödüllü reklam kalan süreden `PriorityStepSeconds` düşer, yani 20 dakikalık
+ // inceleme 2, 30 dakikalık 3 reklamdır. Yarıda bırakılan reklam boşa gitmez; kalan süre kısalmış olur.
+ const double PriorityStepSeconds=600;
+ void SkipWait(VisualElement parent,Func<long> ready,Action<long> setReady,Action refresh) {
+  double remaining=(new DateTime(ready(),DateTimeKind.Utc)-DateTime.UtcNow).TotalSeconds;
   if(!AdGateway.MaySkipWait(remaining))return;
-  KarineUI.RequestAction(parent,"clock",T("ads.skipWait"),false,()=>AdGateway.Request(AdPlacement.RewardedSkipWait,AdMoment.Waiting,granted=> {
+  int ads=(int)Math.Ceiling(remaining/PriorityStepSeconds);
+  KarineUI.RequestAction(parent,"clock",string.Format(T(AdGateway.AdsRemoved?"ads.priority.free":"ads.priority"),ads),false,()=>AdGateway.Request(AdPlacement.RewardedSkipWait,AdMoment.Waiting,granted=> {
    if(!granted)return;
-   request.readyAtUtcTicks=DateTime.UtcNow.Ticks;Save();refresh?.Invoke();
+   setReady(Math.Max(DateTime.UtcNow.Ticks,ready()-TimeSpan.FromSeconds(PriorityStepSeconds).Ticks));Save();refresh?.Invoke();
   }));
+ }
+ void SkipWait(VisualElement parent,InterviewRequest request,Action refresh)=>SkipWait(parent,()=>request.readyAtUtcTicks,t=>request.readyAtUtcTicks=t,refresh);
+ // İnceleme talebi ya da ret bekliyorsa öncelik teklifi.
+ void PrioritySkip(VisualElement paper,Node n) {
+  var request=game.State.documentRequests.FirstOrDefault(r=>r.nodeId==n.id && r.readyAtUtcTicks>DateTime.UtcNow.Ticks);
+  if(request!=null){SkipWait(paper,()=>request.readyAtUtcTicks,t=>request.readyAtUtcTicks=t,()=>InvestigationRequests(false));return;}
+  var denial=game.Denial(n);
+  if(denial!=null && game.WarrantDenialPending(n))SkipWait(paper,()=>denial.readyAtUtcTicks,t=>denial.readyAtUtcTicks=t,()=>InvestigationRequests(false));
  }
  // Ayarlar › Oyun: tek seferlik "Reklamları kaldır" ve "Satın alımları geri yükle".
  string storeNotice;bool storeBusy;
  void StoreRows(VisualElement body) {
-  var price=Store.Provider.NoAdsPrice;
-  if(AdGateway.AdsRemoved)KarineUI.SettingRow(body,T("store.noads"),T("store.noads.owned"));
-  else Button(KarineUI.SettingRow(body,T("store.noads"),price==null?T("store.noads.hint"):T("store.noads.hint")+"  ·  "+price),T("store.buy"),()=>StoreCall(Store.Provider.BuyNoAds,"store.notice.bought"));
+  ProductRow(body,Store.NoAdsProduct,"store.noads");
+  ProductRow(body,Store.PriorityProduct,"store.priority");
   var restore=KarineUI.SettingRow(body,T("store.restore"),T("store.restore.hint"));
-  Button(restore,T("store.restore.action"),()=>StoreCall(Store.Provider.Restore,"store.notice.restored"));
+  Button(restore,T("store.restore.action"),()=>StoreCall(done=>Store.Provider.Restore(done),"store.notice.restored"));
   if(!string.IsNullOrEmpty(storeNotice))KarineUI.Body_(restore,storeNotice,KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;
+ }
+ void ProductRow(VisualElement body,string product,string key) {
+  if(Store.Owned(product)){KarineUI.SettingRow(body,T(key),T(key+".owned"));return;}
+  var price=Store.Provider.Price(product);
+  Button(KarineUI.SettingRow(body,T(key),price==null?T(key+".hint"):T(key+".hint")+"  ·  "+price),T("store.buy"),()=>StoreCall(done=>Store.Provider.Buy(product,done),"store.notice.bought"));
  }
  void StoreCall(Action<Action<string>> call,string success) {
   if(storeBusy)return;storeBusy=true;

@@ -262,6 +262,11 @@ public sealed partial class Investigation {
  // gibi gecikmeyle gelir; değilse aynı gecikmeyle "ek dayanak gerekiyor" döner.
  // Ret hangi kaynağın eksik olduğunu söylemez ve ceza değildir; yeniden gönderilebilir.
  public static bool IsWarrant(Node n) => n!=null && n.warrant!=null && n.warrant.Length>0;
+ // İzin gerektiren inceleme gerçek hayattaki gibi zaman alır (9 Ekim 2026): arşiv ve hat
+ // 30 dk, diğerleri 20 dk. Ret de aynı sürede gelir; süre sonucu ele vermez.
+ // "Kalıcı öncelik" alınmışsa yalnız vakanın kendi kısa süresi kalır.
+ public static double HeavyWaitSeconds(Node n) =>
+  !IsWarrant(n) || Priority.Owned ? 0 : n.requestKind=="archive" || n.requestKind=="line" ? 1800 : 1200;
  public int WarrantSlots(Node n) => n.warrantSlots>0?n.warrantSlots:2;
  List<WarrantDenial> Denials => State.warrantDenials ??= new List<WarrantDenial>();
  public WarrantDenial Denial(Node n) => Denials.FirstOrDefault(d=>d.nodeId==n.id);
@@ -281,7 +286,7 @@ public sealed partial class Investigation {
   var chosen=basis.Where(b=>!string.IsNullOrEmpty(b)).Distinct().ToArray();
   if(chosen.Length!=WarrantSlots(n) || !chosen.All(WarrantBasisAvailable))return false;
   Denials.RemoveAll(d=>d.nodeId==id);
-  double wait=Math.Max(0,waitSeconds ?? n.requestDelaySeconds+(IsLine(n)?ClosedLines.Count*Math.Max(0,Data.lineReopenPenaltySeconds):0));
+  double wait=Math.Max(0,waitSeconds ?? Math.Max(HeavyWaitSeconds(n),n.requestDelaySeconds+(IsLine(n)?ClosedLines.Count*Math.Max(0,Data.lineReopenPenaltySeconds):0)));
   long ready=DateTime.UtcNow.AddSeconds(wait).Ticks;
   if(WarrantSatisfied(n,chosen))State.documentRequests.Add(new DocumentRequest { nodeId=id,readyAtUtcTicks=ready });
   else Denials.Add(new WarrantDenial { nodeId=id,readyAtUtcTicks=ready,basis=chosen });

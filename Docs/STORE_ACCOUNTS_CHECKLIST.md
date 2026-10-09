@@ -101,7 +101,7 @@ Giriş kağıdı şimdilik kit bileşenleriyle (onay formu dili) çizildi. Gör�
 | Gizlilik politikası ve silme sayfası **taslakları** | `Docs/Legal/privacy.html`, `Docs/Legal/delete-account.html` | TR + EN. Köşeli parantezli yerleri doldur, sonra hukukçuya okut. |
 
 ### Sana kalanlar
-1. **Mağaza ürünü:** App Store Connect ve Play Console'da `com.bubedigital.karine.noads` kimlikli tek seferlik ürünü oluştur ve fiyatını belirle.
+1. **Mağaza ürünleri:** App Store Connect ve Play Console'da iki tek seferlik (non-consumable) ürün oluştur ve fiyatlarını belirle: `com.bubedigital.karine.noads` (Reklamları kaldır) ve `com.bubedigital.karine.priority` (Kalıcı öncelik).
 2. **AdMob:** gerçek reklam birimi kimliklerini ver. *Privacy & messaging* bölümünde GDPR mesajını yayınla. Bu bölümdeki "IDFA explainer"ı açma; ATT'yi zaten oyun soruyor, çift pencere çıkar.
 3. **Crashlytics:** Firebase projesinde Crashlytics'i aç. Firebase Unity SDK'dan `FirebaseCrashlytics` paketini kur. `google-services.json` ve `GoogleService-Info.plist` dosyalarını ver; bunlar depoya girebilir.
 4. **Gizlilik ve silme sayfaları:** `Docs/Legal` altındaki sayfalarda adres, e-posta, tarih ve saklama süresini doldur. Hukukçuya okut, yayınla (GitHub Pages yeter). Adresleri bana ver; `config.json` içindeki `privacyUrl`, `accountDeletionUrl` ve `supportEmail` alanlarına yazarım.

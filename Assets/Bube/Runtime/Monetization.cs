@@ -118,23 +118,38 @@ namespace Bube {
 // `Bube.Purchasing` derlemesinde (Unity IAP); paket yoksa düğmeler "kullanılamıyor" der.
 public interface IStore {
  bool Ready { get; }
- // Mağazanın yerel fiyat metni ("₺49,99"); hazır değilse null.
- string NoAdsPrice { get; }
+ // Ürünün mağazadaki yerel fiyat metni ("₺49,99"); hazır değilse null.
+ string Price(string product);
  // Sonuç: hata anahtarı ya da null (başarılı).
- void BuyNoAds(System.Action<string> done);
+ void Buy(string product, System.Action<string> done);
  // Apple zorunluluğu: önceki satın almaları geri yükle. Sonuç: hata anahtarı ya da null.
  void Restore(System.Action<string> done);
 }
 
 public sealed class NoStore : IStore {
  public bool Ready => false;
- public string NoAdsPrice => null;
- public void BuyNoAds(System.Action<string> done) => done("store.error.unavailable");
+ public string Price(string product) => null;
+ public void Buy(string product, System.Action<string> done) => done("store.error.unavailable");
  public void Restore(System.Action<string> done) => done("store.error.unavailable");
 }
 
 public static class Store {
  public const string NoAdsProduct = "com.bubedigital.karine.noads";
+ public const string PriorityProduct = "com.bubedigital.karine.priority";
  public static IStore Provider = new NoStore();
+ // Makbuzu gelen ürünün etkisi tek yerde.
+ public static void Grant(string product) {
+  if (product == NoAdsProduct) AdGateway.SetAdsRemoved(true);
+  else if (product == PriorityProduct) Priority.Set(true);
+ }
+ public static bool Owned(string product) => product == NoAdsProduct ? AdGateway.AdsRemoved : product == PriorityProduct && Priority.Owned;
+}
+
+// "Kalıcı öncelik": izin gerektiren incelemelerin uzun bekleyişi kalkar, talep kendi
+// kısa süresiyle gelir. Bilgi vermez, yalnız zamanı kısaltır.
+public static class Priority {
+ const string Key = "karine.priority";
+ public static bool Owned => UnityEngine.PlayerPrefs.GetInt(Key, 0) == 1;
+ public static void Set(bool owned) { UnityEngine.PlayerPrefs.SetInt(Key, owned ? 1 : 0); UnityEngine.PlayerPrefs.Save(); }
 }
 }

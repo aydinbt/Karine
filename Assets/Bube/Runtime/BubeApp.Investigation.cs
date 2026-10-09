@@ -123,6 +123,7 @@ public sealed partial class BubeApp {
   if(!warrant)KarineUI.RequestFact(paper,T("requests.result"),T("requests.resultText"));
   if(status=="tablet.investigationPending")KarineUI.RequestWait(paper,warrant?WT(selected,"WaitTitle"):T("requests.docWaitTitle"),warrant?WT(selected,"WaitText"):T("requests.docWaitText"),
    new DateTime(ReadyTicks(selected),DateTimeKind.Utc));
+  if(status=="tablet.investigationPending")PrioritySkip(paper,selected);
   if(warrant && status=="tablet.warrantDenied") {
    KarineUI.RequestSection(paper,WT(selected,"DeniedTitle"),WT(selected,"DeniedText"));
    var denial=game.Denial(selected);if(!denial.seen){denial.seen=true;Save();}

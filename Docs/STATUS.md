@@ -5,6 +5,13 @@
 
 ## Tek cümle
 
+**9 Ekim (gece, 4):** Gelir modeli kodlandı.
+- İzin gerektiren incelemeler 20–30 dakika sürüyor. Her ödüllü reklam süreyi 10 dakika kısaltıyor, yani 2–3 reklamla hemen alınıyor.
+- "Kalıcı öncelik" satın alması eklendi.
+- Lamba için iki yeni renk eklendi.
+- Bütün ülkeler ücretsiz kalıyor.
+- Durum `[~]`.
+
 **9 Ekim (gece, 3):** Masada **Çalışmam** düğmesi eklendi: yöntem hatırlatması ve kapsama sayıları, artık reklamsız. Vaka özetine **Çalışman** bölümü eklendi. **Yerel hatırlatma bildirimleri** kuruldu: dosya beklerken ertesi gün ve 3 gün sonra birer kez. Metinler yalnız tr/en/de. Hepsi `[~]`. Ekran görüntüsü testi `Account_MatchesBaseline` düşüyor; sebep ışık animasyonunun anı ve referanstaki eski fps sayacı. Referans yenilenmeli.
 
 **9 Ekim (gece, 2):** **Mağazaya hazırlık (kod).**
