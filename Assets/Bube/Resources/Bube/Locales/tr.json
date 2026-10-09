@@ -3537,6 +3537,30 @@
    "value": "Masadaki lambanın ışık rengi. Yalnız görünüm."
   },
   {
+   "key": "settings.lamp.next",
+   "value": "Sıradaki · önizle"
+  },
+  {
+   "key": "settings.lamp.later",
+   "value": "Kilitli · önizle"
+  },
+  {
+   "key": "settings.lamp.order",
+   "value": "Önizleme. Bu renk sırası gelince açılır; önce “{0}” açılmalı."
+  },
+  {
+   "key": "settings.lamp.preview",
+   "value": "Önizleme"
+  },
+  {
+   "key": "settings.lamp.preview.hint",
+   "value": "Masadaki lambada böyle görünür. Kalıcı olması için aç."
+  },
+  {
+   "key": "settings.lamp.unlock",
+   "value": "Reklamla aç"
+  },
+  {
    "key": "settings.lamp.locked",
    "value": "Kısa bir reklam izleyerek aç. Yalnız görünüm."
   },

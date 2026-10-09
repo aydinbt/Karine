@@ -143,6 +143,13 @@ public static partial class KarineUI {
  }
 
  // Dört kartlık satırlar ikişerli sarılır: "Lamba: yeşil banker" tek satıra sığmaz.
+ // Kartın başında küçük renk yuvarlağı (lamba rengi gibi seçeneklerde).
+ public static void Swatch(VisualElement card,Color color) {
+  var dot=new VisualElement {name="SettingSwatch",pickingMode=PickingMode.Ignore};
+  dot.style.width=dot.style.height=KarineTheme.IconSize;dot.style.flexShrink=0;dot.style.marginRight=KarineTheme.SpaceMd;
+  dot.style.backgroundColor=color;Round(dot,(int)(KarineTheme.IconSize/2));Border(dot,KarineTheme.BorderWidth,KarineTheme.Border);
+  card.Insert(0,dot);
+ }
  public static void Quarter(VisualElement card){card.style.flexBasis=Length.Percent(46);card.style.flexGrow=1;}
 
  public static Button SettingsFooterButton(VisualElement parent,string icon,string title,string detail,bool primary,Action click) {

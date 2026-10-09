@@ -3537,6 +3537,30 @@
    "value": "The light colour of the desk lamp. Appearance only."
   },
   {
+   "key": "settings.lamp.next",
+   "value": "Next · preview"
+  },
+  {
+   "key": "settings.lamp.later",
+   "value": "Locked · preview"
+  },
+  {
+   "key": "settings.lamp.order",
+   "value": "Preview. This colour unlocks in order; “{0}” comes first."
+  },
+  {
+   "key": "settings.lamp.preview",
+   "value": "Preview"
+  },
+  {
+   "key": "settings.lamp.preview.hint",
+   "value": "This is how the desk lamp looks. Unlock it to keep it."
+  },
+  {
+   "key": "settings.lamp.unlock",
+   "value": "Unlock with an ad"
+  },
+  {
    "key": "settings.lamp.locked",
    "value": "Unlock by watching a short ad. Appearance only."
   },

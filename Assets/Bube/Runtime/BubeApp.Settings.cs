@@ -19,7 +19,7 @@ public sealed partial class BubeApp {
   settingsTab=0;draftReduced=KarineMotion.Reduced;draftInstant=instantText;draftMusic=SoundSettings.Music;draftSfx=SoundSettings.Sfx;draftFps=FrameRate.Current;draftFx=Fx.Level;draftHaptics=Fx.Haptics;LoadSceneDraft();draftLanguage=language;
   RenderSettings();
  }
- void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;}
+ void CloseSettings(){root.Q("SettingsModal")?.RemoveFromHierarchy();escapeBack=settingsEscape;EndLampPreview();}
 
  static readonly string[] SettingsTabs={"general","sound","display","access","play","account"};
  static readonly string[] SettingsIcons={"gear","music","binoculars","info","gamepad","person"};

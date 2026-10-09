@@ -1248,3 +1248,9 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - **Kalıcı öncelik:** tek seferlik ürün; uzun beklemeyi tamamen kaldırır.
 - **Sonuç bildirimi:** sonuç gelince "talep ettiğin inceleme sonuçlandı" bildirimi gelir; hangi inceleme olduğunu söylemez.
 - **Lamba renkleri:** iki yeni renk eklendi (neon kırmızı, gece moru).
+- **Lamba renkleri (aynı gün, kullanıcı):**
+  - Her kartta renk yuvarlağı var.
+  - Kilitli renge basınca renk masadaki lambada önizlenir.
+  - Renkler sırayla açılır: yalnız sıradaki renk "Reklamla aç" ile açılır. Diğerleri "önce X açılmalı" der.
+  - Ayarlar kapanınca kayıtlı renge dönülür.
+- **Fiyat (kullanıcı onayı):** Reklamları kaldır ≈ ₺79, Kalıcı öncelik ≈ ₺59. Fiyatlar mağaza konsolunda girilir; oyun mağazanın yerel fiyatını gösterir.

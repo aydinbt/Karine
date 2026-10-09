@@ -3537,6 +3537,30 @@
    "value": "Lichtfarbe der Tischlampe. Nur Optik."
   },
   {
+   "key": "settings.lamp.next",
+   "value": "Als Nächstes · Vorschau"
+  },
+  {
+   "key": "settings.lamp.later",
+   "value": "Gesperrt · Vorschau"
+  },
+  {
+   "key": "settings.lamp.order",
+   "value": "Vorschau. Diese Farbe wird der Reihe nach freigeschaltet; zuerst „{0}“."
+  },
+  {
+   "key": "settings.lamp.preview",
+   "value": "Vorschau"
+  },
+  {
+   "key": "settings.lamp.preview.hint",
+   "value": "So sieht die Schreibtischlampe aus. Schalte sie frei, um sie zu behalten."
+  },
+  {
+   "key": "settings.lamp.unlock",
+   "value": "Mit Werbung freischalten"
+  },
+  {
    "key": "settings.lamp.locked",
    "value": "Mit kurzer Werbung freischalten. Nur Optik."
   },

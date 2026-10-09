@@ -21,22 +21,40 @@ public sealed partial class BubeApp {
   AdGateway.Request(AdPlacement.MenuReturn,AdMoment.Menu,null);
  }
 
- // Ayarlar > Görüntü: lamba rengi. Kilitli renk ödüllü reklamla açılır; reklamsız
- // oyuncuya hepsi açık. Ağ hazır değilse kilitli renk yalnız görünür, açılmaz.
+ // Ayarlar > Görüntü: lamba rengi. Her kart rengini gösterir; kilitli renge basmak onu masadaki
+ // lambada **önizler**. Renkler sırayla açılır: yalnız sıradaki kilitli renk reklamla açılabilir.
+ // Reklamsız oyuncuya hepsi açık. Önizlenen renk açılmadan kaydedilmez.
+ int NextLamp() {
+  for(int i=1;i<KarineTheme.Scene.LampTints.Length;i++)if(!LampUnlocked(i))return i;
+  return -1;
+ }
  void LampOptions(VisualElement control) {
   for(int i=0;i<KarineTheme.Scene.LampTints.Length;i++) {
    int v=i;bool open=LampUnlocked(v);
-   var card=KarineUI.SettingCard(control,open?null:"lock",T("settings.lamp."+v),null,draftLamp==v,()=> {
-    if(LampUnlocked(v)){draftLamp=v;RenderSettings();return;}
-    AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
-     if(!granted)return;
-     if(!game.Career.unlockedLamps.Contains(v))game.Career.unlockedLamps.Add(v);Save();draftLamp=v;RenderSettings();
-    });
-   });
+   var card=KarineUI.SettingCard(control,open?null:"lock",T("settings.lamp."+v),open?null:T(v==NextLamp()?"settings.lamp.next":"settings.lamp.later"),draftLamp==v,()=>{draftLamp=v;PreviewLamp(v);RenderSettings();});
+   KarineUI.Swatch(card,KarineTheme.Scene.LampTints[v]);
    KarineUI.Quarter(card);
-   if(!open && !AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))card.SetEnabled(false);
   }
+  if(LampUnlocked(draftLamp))return;
+  int next=NextLamp();
+  if(draftLamp!=next){KarineUI.Body_(control,string.Format(T("settings.lamp.order"),T("settings.lamp."+next)),KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;return;}
+  var unlock=KarineUI.SettingRow(control,T("settings.lamp.preview"),T("settings.lamp.preview.hint"));
+  if(!AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))return;
+  Button(unlock,T("settings.lamp.unlock"),()=>AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
+   if(!granted)return;
+   if(!game.Career.unlockedLamps.Contains(next))game.Career.unlockedLamps.Add(next);Save();RenderSettings();
+  }));
  }
+ // Masadaki lambaya geçici renk; ayarlar kapanınca kayıtlı renge döner.
+ void PreviewLamp(int i) {
+  var light=root.Q<Image>("OfficeLight");
+  if(light==null)return;
+  if(!lampBase.HasValue)lampBase=light.tintColor;
+  var c=i==0?lampBase.Value:KarineTheme.Alpha(KarineTheme.Scene.LampTints[i],lampBase.Value.a);
+  light.tintColor=c;
+ }
+ Color? lampBase;
+ void EndLampPreview(){if(lampBase.HasValue){PreviewLamp(LampTint);lampBase=null;}}
  void LoadLampDraft()=>draftLamp=LampTint;
  void SaveLampDraft()=>PlayerPrefs.SetInt(LampTintKey,LampUnlocked(draftLamp)?draftLamp:0);
 
