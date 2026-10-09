@@ -18,6 +18,11 @@ Tarih: 9 Ekim 2026. Kod `[~]`: derleniyor ve EditMode testleri geçiyor. Gerçek
 
   Bir adım başarısız olursa hata gösterilir ve cihazdaki kayıt silinmez; oyuncu tekrar deneyebilir. Silmeden sonra oyun açık kalırsa, bir sonraki açılışta yepyeni ve ilişkisiz bir kimlik alınır.
 - **Oyuncu kimliği:** Ayarlar › Hesap'ta görünür. Oyuncu web'den ya da e-postayla silme isterse bu kimliği bildirir.
+- **Uygulama silinip yeniden kurulursa:** misafir anahtarı ayrıca kalıcı depoda tutulur, böylece aynı profil geri döner.
+  - **iOS:** Keychain'de tutulur (`Assets/Plugins/iOS/KarineKeychain.mm`). Uygulama silinse de aynı iPhone'da kalır; iCloud'a gitmez.
+  - **Android:** Google Block Store'da tutulur (`Assets/Plugins/Android/KarineBlockStore.androidlib`). Yeniden kurulumda ve aynı Google hesabıyla kurulan yeni telefonda geri gelir.
+  - Silme işlemi anahtarı bu depodan da kaldırır.
+  - Bu ikisi ancak cihazda denenebilir.
 - **Firebase bağlı değilse:** `config.json` içindeki anahtarlar boşken oyun eskisi gibi yalnız cihazda kayıt tutar. Metinler de buna göre değişir ("yalnız bu cihazda").
 - **Apple ve Google girişi:** ileride aynı Firebase kimliğine bağlanacak (`signInWithIdp` ile `linkWithIdp`). Böylece misafir ilerlemesi hesaba geçer.
 

@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.bubedigital.karine.blockstore'
+    compileSdk 35
+    defaultConfig { minSdk 25 }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-auth-blockstore:16.4.0'
+}

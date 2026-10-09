@@ -27,7 +27,7 @@ public sealed class FirebaseAccountProvider : IAccountProvider {
  public string CloudId => uid;
  public bool CloudReady => !string.IsNullOrEmpty(uid);
  public bool Supports(AccountKind kind) => kind == AccountKind.Guest;
- public void Tick() {}
+ public void Tick() => DurableStore.Pump();
  public void SignIn(AccountKind kind, bool link, Action<string,string> done) => done(null, "account.error.unavailable");
  // Misafirin çıkışı yok; kimlik cihazda kalır ki ilerleme kaybolmasın.
  public void SignOut() {}
@@ -35,7 +35,14 @@ public sealed class FirebaseAccountProvider : IAccountProvider {
  // Kayıtlı yenileme anahtarı varsa aynı oyuncu döner; yoksa yeni anonim kimlik açılır.
  // Ağ yoksa oyun yerel kayıtla açılır, bulut bir sonraki açılışta denenir.
  public void Restore(Action<AccountKind,string> done) {
+  // Uygulama silinip yeniden kurulduysa PlayerPrefs boştur; anahtar kalıcı depodan
+  // (iOS Keychain / Android Block Store) gelir ve aynı misafir profili döner.
   var refresh = PlayerPrefs.GetString(RefreshKey, "");
+  if (refresh.Length > 0) Resume(refresh, done);
+  else DurableStore.Read(RefreshKey, kept => Resume(kept ?? "", done));
+ }
+
+ void Resume(string refresh, Action<AccountKind,string> done) {
   if (refresh.Length > 0) Refresh(refresh, ok => { if (ok) done(AccountKind.Guest, null); else SignUp(_ => done(AccountKind.Guest, null)); });
   else SignUp(_ => done(AccountKind.Guest, null));
  }
@@ -52,7 +59,7 @@ public sealed class FirebaseAccountProvider : IAccountProvider {
   var form = "grant_type=refresh_token&refresh_token=" + UnityWebRequest.EscapeURL(refresh);
   Send(Post(SecureToken + apiKey, form, "application/x-www-form-urlencoded"), (code, body) => {
    // 400: kimlik sunucuda silinmiş ya da geçersiz; eski anahtar atılır.
-   if (code == 400) PlayerPrefs.DeleteKey(RefreshKey);
+   if (code == 400) Forget();
    if (code != 200) { done(false); return; }
    var r = JsonUtility.FromJson<RefreshReply>(body);
    Keep(r.user_id, r.id_token, r.refresh_token, r.expires_in); done(true);
@@ -63,7 +70,9 @@ public sealed class FirebaseAccountProvider : IAccountProvider {
   uid = id; idToken = token;
   expiresAt = Time.realtimeSinceStartup + (float.TryParse(expiresIn, out var s) ? s : 3600f) - 120f;
   PlayerPrefs.SetString(RefreshKey, refresh); PlayerPrefs.Save();
+  DurableStore.Write(RefreshKey, refresh);
  }
+ void Forget() { PlayerPrefs.DeleteKey(RefreshKey); PlayerPrefs.Save(); DurableStore.Delete(RefreshKey); }
 
  // Kimlik anahtarı bir saat geçerli; süresi dolmuşsa istekten önce yenilenir.
  void Authed(Action<bool> then) {
@@ -111,7 +120,7 @@ public sealed class FirebaseAccountProvider : IAccountProvider {
      if (error != null) { done(error); return; }
      Send(Post(Identity + "delete?key=" + apiKey, "{\"idToken\":" + Quote(idToken) + "}"), (c, _) => {
       if (c != 200) { done(Error(c)); return; }
-      uid = idToken = null; PlayerPrefs.DeleteKey(RefreshKey); PlayerPrefs.Save();
+      uid = idToken = null; Forget();
       done(null);
      });
     });
