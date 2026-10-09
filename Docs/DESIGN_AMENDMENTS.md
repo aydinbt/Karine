@@ -1134,6 +1134,14 @@ Kullanıcı: "Bir şey sunuldu ve cevap alındıysa başka görüşmede aynısı
 - Yabancı yer, kurum ve hitap sözcükleri (capataz, nonna, Laurentide Réassurance) çevrilmez; oyunun her ülkede yerel kalması için.
 - Almanca, Fransızca, İtalyanca, İspanyolca ve Portekizce (BR) çevirisine kullanıcı söyleyene kadar başlanmaz.
 
+## 9 Ekim 2026 — Almanca metin kuralları
+
+**Kullanıcı:** "Almanca diline geçelim ve çevirelim."
+
+- Anlatı ve sorgu **Sie** ile; kanon senli konuşuyorsa **du**. Ad + iyelik eki yazılmaz (`das Auto von X`), çünkü ad geçme denetimi adı kanondaki biçimle arar.
+- Şube → *Dienststelle*; savcılık → *Anklagebehörde* (gerçek kurum adı kullanılmaz). Saat biçimi kanondaki gibi `08.27`.
+- Fransızca, İtalyanca, İspanyolca ve Portekizce (BR) yine kullanıcı söyleyene kadar beklemede. Ayrıntı: `Translation/GLOSSARY_de.md`.
+
 ## 8 Ekim 2026 — Kariyer bitmez: gözetimli masa görevi, seri ödülü
 
 Oyuncuyu oyunda tutmak için kalıcı kariyer sonu kaldırıldı. Ölçek 0–100 kalır (başlangıç 60).

@@ -660,7 +660,8 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [~] Çeviri denetimi: Unity `TranslationRules` + `Tools/check-translation.py`; kılavuz `TRANSLATION_GUIDE.md`.
 - [~] Kariyer ekranı **Sicil** sekmesi: güven seyri, kademe değişimleri, ülke karnesi.
 - [~] İngilizce çeviri: 12.755 satır (ortak + 73 vaka), denetim 0 sorun; sözlük `Translation/GLOSSARY_en.md`. Oyunda okunmadı.
-- [ ] Çeviriler: de, fr, it, es, pt-BR — her biri 12.755 satır, denetim 0 sorun. (Kullanıcı onayı bekleniyor.)
+- [~] Almanca çeviri (9 Ekim 2026): 12.833 satır (ortak + 73 vaka), denetim 0 sorun; sözlük `Translation/GLOSSARY_de.md`. Oyunda okunmadı.
+- [ ] Çeviriler: fr, it, es, pt-BR — her biri tüm satırlar, denetim 0 sorun. (Kullanıcı onayı bekleniyor.)
 - [ ] Her dilde #001 Play Mode'da oynanır; Almanca ve Fransızcada uzun metnin düğme/sekme taşması gözle kontrol edilir.
 - [ ] Mağaza sayfası metinleri altı dilde.
 - [ ] Sicil sekmesi Play Mode'da görülür (boş kariyer, birkaç faks, kademe düşüşü).
