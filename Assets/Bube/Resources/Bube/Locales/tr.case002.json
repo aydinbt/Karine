@@ -10,7 +10,7 @@
   },
   {
    "key": "case002.cctv.event.contact",
-   "value": "İki kişi araç yanında karşı karşıya duruyor; kısa bir yakın temas görülüyor."
+   "value": "İki kişi araç yanında karşı karşıya duruyor."
   },
   {
    "key": "case002.cctv.event.dispute",
@@ -438,7 +438,7 @@
   },
   {
    "key": "case002.feedback.deniz",
-   "value": "Deniz Arslan araçtan 23.03’te ayrıldı; yaralanma bundan sonra gerçekleşti."
+   "value": "Deniz Arslan 23.03’te araçtan indi; 23.19’da sokağın üst ucuna döndü ama araca yaklaşmadı. İtişi Emre Koç kendi ifadesinde anlattı."
   },
   {
    "key": "case002.feedback.emre",
@@ -1106,7 +1106,7 @@
   },
   {
    "key": "case002.epilogue.verdict.deniz",
-   "value": "Deniz Arslan okulunun sınav haftasında gözaltına alındı. 23.03'teki ayrılış kaydı dosyaya girince serbest bırakıldı, ama adı bir süre yerel haberlerde dolaştı. Yaralayan kişi hakkında işlem yapılmadı."
+   "value": "Deniz Arslan okulunun sınav haftasında gözaltına alındı. Geri dönüşü kayıtta görünüyordu, ama araca yaklaştığı hiçbir yerde yoktu; serbest bırakıldı, adı bir süre yerel haberlerde dolaştı. Yaralayan kişi hakkında işlem yapılmadı."
   },
   {
    "key": "case002.epilogue.custody.kerem",
@@ -1119,6 +1119,50 @@
   {
    "key": "case002.epilogue.custody.deniz",
    "value": "Deniz Arslan'ın eşyaları ve hesabı arandı, para bulunamadı. Asıl hesap hareketi hiç incelenmeden zarfın izi kayboldu."
+  },
+  {
+   "key": "case002.cctv.event.passenger_back",
+   "value": "Sokağın üst ucunda bir kişi yeniden görünüyor, araca doğru birkaç adım atıyor. Yüzü seçilmiyor."
+  },
+  {
+   "key": "case002.cctv.event.weak",
+   "value": "23.20 — SİNYAL ZAYIFLADI"
+  },
+  {
+   "key": "case002.cctv.event.lost",
+   "value": "23.20 — SİNYAL KESİLDİ"
+  },
+  {
+   "key": "case002.cctv.event.gap",
+   "value": "23.20–23.30 — [ KAYIT BULUNAMADI ]"
+  },
+  {
+   "key": "case002.cctv.event.restored",
+   "value": "23.30 — SİNYAL GERİ GELDİ"
+  },
+  {
+   "key": "case002.time.passenger_back",
+   "value": "23.19"
+  },
+  {
+   "key": "case002.deniz.return.question",
+   "value": "Kayıtta sokağın üst ucunda biri yeniden görünüyor. Geri döndünüz mü?"
+  },
+  {
+   "key": "case002.deniz.return.answer",
+   "value": "Döndüm. Kulaklığımı arka koltukta unutmuştum. Köşeye gelince şoförün yanında biri gördüm, bağırıyorlardı. Bulaşmak istemedim, durağa yürüdüm. Arabaya yaklaşmadım."
+  },
+  {
+   "key": "case002.deniz.return.answer.demeanor",
+   "value": "Önce sustu. Sonra telefonunu masadan alıp cebine koydu."
+  },
+  {
+   "key": "case002.deniz.return.decoy.camera_passenger_out",
+   "value": "Bu indiğim an. Onu zaten söyledim."
+  },
+  {
+   "key": "case002.deniz.return.decoy.camera_passenger_out.demeanor",
+   "value": "Kaşlarını kaldırdı, sandalyesinde geri yaslandı."
   }
  ]
 }

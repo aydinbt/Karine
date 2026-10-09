@@ -10,7 +10,7 @@
   },
   {
    "key": "case002.cctv.event.contact",
-   "value": "Zwei Personen stehen sich am Fahrzeug gegenüber; ein kurzer naher Kontakt ist zu sehen."
+   "value": "Zwei Personen stehen sich neben dem Wagen gegenüber."
   },
   {
    "key": "case002.cctv.event.dispute",
@@ -438,7 +438,7 @@
   },
   {
    "key": "case002.feedback.deniz",
-   "value": "Deniz Arslan verließ das Fahrzeug um 23.03; die Verletzung entstand danach."
+   "value": "Deniz Arslan stieg um 23.03 aus; kam um 23.19 an das obere Ende der Straße zurück, näherte sich dem Wagen aber nicht. Den Stoß beschrieb Emre Koç in seiner eigenen Aussage."
   },
   {
    "key": "case002.feedback.emre",
@@ -1106,7 +1106,7 @@
   },
   {
    "key": "case002.epilogue.verdict.deniz",
-   "value": "Deniz Arslan wurde in der Prüfungswoche festgenommen. Als der Abgang um 23.03 in die Akte kam, folgte die Freilassung, doch der Name kursierte eine Weile in den Lokalnachrichten. Gegen die Person, die die Verletzung verursachte, wurde nichts unternommen."
+   "value": "Deniz Arslan wurde mitten in der Prüfungswoche festgenommen. Die Rückkehr war auf der Aufnahme zu sehen, aber nirgends in der Nähe des Wagens; Deniz kam frei, der Name kursierte eine Weile in den Lokalnachrichten. Gegen die Person, die die Verletzung verursachte, wurde nichts unternommen."
   },
   {
    "key": "case002.epilogue.custody.kerem",
@@ -1119,6 +1119,50 @@
   {
    "key": "case002.epilogue.custody.deniz",
    "value": "Deniz Arslans Sachen und Konto wurden durchsucht, das Geld wurde nicht gefunden. Ohne dass die eigentliche Kontobewegung je geprüft wurde, verlor sich die Spur des Umschlags."
+  },
+  {
+   "key": "case002.cctv.event.passenger_back",
+   "value": "Am oberen Ende der Straße taucht wieder jemand auf und macht ein paar Schritte auf den Wagen zu. Das Gesicht ist nicht zu erkennen."
+  },
+  {
+   "key": "case002.cctv.event.weak",
+   "value": "23.20 — SIGNAL SCHWACH"
+  },
+  {
+   "key": "case002.cctv.event.lost",
+   "value": "23.20 — SIGNAL VERLOREN"
+  },
+  {
+   "key": "case002.cctv.event.gap",
+   "value": "23.20–23.30 — [ KEINE AUFZEICHNUNG ]"
+  },
+  {
+   "key": "case002.cctv.event.restored",
+   "value": "23.30 — SIGNAL WIEDER DA"
+  },
+  {
+   "key": "case002.time.passenger_back",
+   "value": "23.19"
+  },
+  {
+   "key": "case002.deniz.return.question",
+   "value": "Auf der Aufnahme taucht oben in der Straße wieder jemand auf. Sind Sie zurückgegangen?"
+  },
+  {
+   "key": "case002.deniz.return.answer",
+   "value": "Ja. Ich hatte meine Kopfhörer auf dem Rücksitz liegen lassen. An der Ecke sah ich jemanden neben dem Fahrer, sie schrien sich an. Ich wollte mich nicht einmischen und bin zur Haltestelle gegangen. Ich war nicht am Wagen."
+  },
+  {
+   "key": "case002.deniz.return.answer.demeanor",
+   "value": "Zuerst Schweigen. Dann wurde das Handy vom Tisch genommen und eingesteckt."
+  },
+  {
+   "key": "case002.deniz.return.decoy.camera_passenger_out",
+   "value": "Da steige ich aus. Das habe ich doch schon gesagt."
+  },
+  {
+   "key": "case002.deniz.return.decoy.camera_passenger_out.demeanor",
+   "value": "Zog die Brauen hoch und lehnte sich zurück."
   }
  ]
 }

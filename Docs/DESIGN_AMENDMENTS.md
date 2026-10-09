@@ -1272,3 +1272,9 @@ Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir ke
 - Yem kayıttan sonra soru kısa süre bekletilir. Bu sırada sunulan doğru kayıt artık "denendi" diye listeden düşmez; kişi yalnız savuşturur. Daha önce Dosya #002'de Selçuk'un "Araç yanında sizinle duran kişi kimdi?" sorusu, doğru iki CCTV kaydı bekleme sırasında yandığı için kayıtsız kalıp kilitleniyordu. Eski kayıtlar kendiliğinden onarılır.
 - Rapor özetindeki "Çalışman" sayaçlarının paydası, rapor gönderildikten sonra dosyanın tamamıdır. Soruşturma sürerken ipucu ekranı yine yalnız açılmış olanı sayar ki gizli soru sayısı sızmasın.
 - (aynı gün, düzeltme) Bekletme tümden kalktı. Yem kayıt kişinin sözüyle savuşturulur ama soru açık kalır; oyuncu aynı soruda başka bir kayıtla hemen devam eder. Gerekçe: bekletilen soru oyuncuya ne yapacağını söylemiyordu, oyun her an ilerleme sunmalı.
+
+## 9 Ekim 2026 — Dosya #002 zorlaştı
+
+- **Kör nokta:** Büfe kamerasının sinyali 23.20–23.30 arasında kesiliyor. Temas olayı artık yalnız iki kişinin karşı karşıya durduğu ilk iki kareyi gösteriyor; düşüş anı kayıtta yok. Nasıl düştüğü (itme mi, yumruk mu, kendiliğinden mi) yalnız adli muayene ve Emre'nin ikinci ifadesiyle çözülüyor.
+- **Deniz gerçek şüpheli:** 23.19'da sokağın üst ucunda biri yeniden görünüyor (yüz seçilmiyor). Deniz bunu ancak kayıt önüne konunca kabul ediyor ("kulaklığımı unutmuştum, yaklaşmadım"); ilk görüşmedeki "arkama bakmadım" sözüyle çelişiyor, oyunda etiketlenmiyor.
+- Çözüm aynı: Emre itti, Kerem parayı aldı. Deniz geri bildirimi ve sonu tr/en/de güncellendi.

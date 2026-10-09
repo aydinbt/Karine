@@ -1,6 +1,7 @@
 {
  "id": "case002",
- "deskHour": 23, "deskDate": "21 Kasım 2026",
+ "deskHour": 23,
+ "deskDate": "21 Kasım 2026",
  "titleKey": "case002.title",
  "nodes": [
   {
@@ -175,6 +176,24 @@
      "requiresAsked": [
       "case002.deniz.after"
      ]
+    },
+    {
+     "id": "case002.deniz.return",
+     "promptKey": "case002.deniz.return.question",
+     "answerKey": "case002.deniz.return.answer",
+     "topicKey": "interview.topic.records",
+     "requiresRead": [
+      "camera"
+     ],
+     "presentedSourceIds": [
+      "camera#passenger_back"
+     ],
+     "decoyAnswers": [
+      {
+       "sourceId": "camera#passenger_out",
+       "answerKey": "case002.deniz.return.decoy.camera_passenger_out"
+      }
+     ]
     }
    ],
    "completionQuestionIds": [
@@ -293,6 +312,15 @@
      "frameMs": 500
     },
     {
+     "textKey": "case002.cctv.event.passenger_back",
+     "delayMs": 620,
+     "id": "passenger_back",
+     "overlayTimeKey": "case002.time.passenger_back",
+     "aboutPersonIds": [
+      "deniz"
+     ]
+    },
+    {
      "textKey": "case002.cctv.event.contact",
      "delayMs": 620,
      "id": "contact",
@@ -303,17 +331,42 @@
      ],
      "framePaths": [
       "Bube/Cctv/case002_contact/01",
-      "Bube/Cctv/case002_contact/02",
-      "Bube/Cctv/case002_contact/03",
-      "Bube/Cctv/case002_contact/04"
+      "Bube/Cctv/case002_contact/02"
      ],
      "frameTimes": [
       "23.20.00",
-      "23.20.02",
-      "23.20.04",
-      "23.20.06"
+      "23.20.02"
      ],
      "frameMs": 500
+    },
+    {
+     "textKey": "case002.cctv.event.weak",
+     "glitchKey": "cctv.glitch.weak",
+     "delayMs": 1050,
+     "signalKey": "cctv.signal.weak",
+     "id": "weak",
+     "notPresentable": true
+    },
+    {
+     "textKey": "case002.cctv.event.lost",
+     "glitchKey": "cctv.glitch.lost",
+     "delayMs": 900,
+     "signalKey": "cctv.signal.lost",
+     "id": "lost",
+     "notPresentable": true
+    },
+    {
+     "textKey": "case002.cctv.event.gap",
+     "delayMs": 1280,
+     "id": "gap",
+     "notPresentable": true
+    },
+    {
+     "textKey": "case002.cctv.event.restored",
+     "delayMs": 700,
+     "signalKey": "cctv.signal.restored",
+     "id": "restored",
+     "notPresentable": true
     },
     {
      "textKey": "case002.cctv.event.second_out",

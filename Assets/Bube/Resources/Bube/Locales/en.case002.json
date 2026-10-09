@@ -10,7 +10,7 @@
   },
   {
    "key": "case002.cctv.event.contact",
-   "value": "Two people stand face to face beside the car; a brief close contact is seen."
+   "value": "Two people stand face to face beside the car."
   },
   {
    "key": "case002.cctv.event.dispute",
@@ -438,7 +438,7 @@
   },
   {
    "key": "case002.feedback.deniz",
-   "value": "Deniz Arslan left the car at 23.03; the injury happened after that."
+   "value": "Deniz Arslan got out at 23.03; came back to the top of the street at 23.19 but never approached the car. Emre Koç described the push in his own statement."
   },
   {
    "key": "case002.feedback.emre",
@@ -1106,7 +1106,7 @@
   },
   {
    "key": "case002.epilogue.verdict.deniz",
-   "value": "Deniz Arslan was taken into custody during exam week at school. Released once the 23.03 departure record entered the file, but the name circulated in the local news for a while. No action was taken against the person who caused the injury."
+   "value": "Deniz Arslan was taken into custody in the middle of exam week. The return was on the footage, but nowhere near the car; Deniz was released, and the name circulated in local news for a while. No action was taken against the person who caused the injury."
   },
   {
    "key": "case002.epilogue.custody.kerem",
@@ -1119,6 +1119,50 @@
   {
    "key": "case002.epilogue.custody.deniz",
    "value": "Deniz Arslan’s belongings and account were searched; the money was not found. The trail of the envelope went cold without the real account activity ever being examined."
+  },
+  {
+   "key": "case002.cctv.event.passenger_back",
+   "value": "Someone reappears at the top end of the street and takes a few steps toward the car. The face can’t be made out."
+  },
+  {
+   "key": "case002.cctv.event.weak",
+   "value": "23.20 — SIGNAL WEAKENED"
+  },
+  {
+   "key": "case002.cctv.event.lost",
+   "value": "23.20 — SIGNAL LOST"
+  },
+  {
+   "key": "case002.cctv.event.gap",
+   "value": "23.20–23.30 — [ NO RECORDING FOUND ]"
+  },
+  {
+   "key": "case002.cctv.event.restored",
+   "value": "23.30 — SIGNAL RESTORED"
+  },
+  {
+   "key": "case002.time.passenger_back",
+   "value": "23.19"
+  },
+  {
+   "key": "case002.deniz.return.question",
+   "value": "The footage shows someone reappearing at the top of the street. Did you go back?"
+  },
+  {
+   "key": "case002.deniz.return.answer",
+   "value": "I did. I’d left my earphones on the back seat. When I got to the corner I saw someone next to the driver, they were shouting. I didn’t want to get involved, so I walked to the stop. I never went near the car."
+  },
+  {
+   "key": "case002.deniz.return.answer.demeanor",
+   "value": "Silent at first. Then picked the phone up off the table and pocketed it."
+  },
+  {
+   "key": "case002.deniz.return.decoy.camera_passenger_out",
+   "value": "That’s me getting out. I already told you that."
+  },
+  {
+   "key": "case002.deniz.return.decoy.camera_passenger_out.demeanor",
+   "value": "Raised both eyebrows and leaned back in the chair."
   }
  ]
 }
