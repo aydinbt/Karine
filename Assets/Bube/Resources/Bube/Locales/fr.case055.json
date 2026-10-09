@@ -1,0 +1,428 @@
+{
+ "entries": [
+  {
+   "key": "case055.amparo.body",
+   "value": "Joaillière."
+  },
+  {
+   "key": "case055.amparo.deflect",
+   "value": "Je regarde les pierres, pas les gens."
+  },
+  {
+   "key": "case055.amparo.stones.answer",
+   "value": "Sur les douze pierres, onze sont en verre ; du bon verre, un travail des années 1980. Une seule est une vraie émeraude, la plus petite. Je l’ai dit au trésorier lundi. « Donc les pierres volées en 1987 ne sont jamais revenues », il a dit. Il l’a écrit sur un bout de papier et l’a mis dans sa poche."
+  },
+  {
+   "key": "case055.amparo.stones.answer.demeanor",
+   "value": "Tient la loupe au bout de sa chaînette entre ses doigts."
+  },
+  {
+   "key": "case055.amparo.stones.question",
+   "value": "Qu’a montré l’expertise ?"
+  },
+  {
+   "key": "case055.amparo.title",
+   "value": "Amparo Soto — audition"
+  },
+  {
+   "key": "case055.archive.body",
+   "value": "Un dossier ressorti des archives (mars 1987, classé « auteur inconnu, objets récupérés ») :\n\n· Les douze émeraudes de la couronne de la statue de la Vierge ont été volées dans la chapelle. Trésorier de la confrérie cette année-là : Ignacio Lara.\n· Un mois plus tard, Ignacio Lara a déclaré avoir racheté les pierres à « un intermédiaire anonyme » ; le prix, 38 millions de pesetas, a été payé avec un don de la Fundación Santa Ana.\n· Les pierres ont été remises en place sans expertise ; le procès-verbal indique « à la demande du président de la confrérie ».\n· Signature du conseiller sur la décision de don de la fondation de 1987 : « Dr E. Varga »."
+  },
+  {
+   "key": "case055.archive.reopen",
+   "value": "Le dossier de 1987 classé comme un « miracle » a été rouvert."
+  },
+  {
+   "key": "case055.archive.title",
+   "value": "LE DOSSIER DE 1987 — LES ÉMERAUDES DE LA COURONNE"
+  },
+  {
+   "key": "case055.autopsy.body",
+   "value": "· Cause du décès : deux coups sur le sommet du crâne, portés d’en haut, avec un objet lourd et anguleux. De la pâte à polir l’argent dans les plaies.\n· Aucune fracture compatible avec une chute ; hanches, poignets et épaules intacts.\n· Heure du décès : 21.00–22.30."
+  },
+  {
+   "key": "case055.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case055.chapel.body",
+   "value": "· Les freins de l’échafaudage sont serrés, son garde-corps en place ; aucune empreinte de pas sur la plateforme supérieure, la poussière intacte.\n· Des six chandeliers d’argent de l’autel, un est fraîchement poli, les autres poussiéreux. Luminol : du sang dans les rainures de son pied.\n· Dans la poche de la victime, un bout de papier : « 11 pierres sur 12 sont en verre. 1987. »"
+  },
+  {
+   "key": "case055.chapel.title",
+   "value": "EXAMEN DE LA CHAPELLE"
+  },
+  {
+   "key": "case055.clue.blow",
+   "value": "Le trésorier reçoit deux coups sur le sommet du crâne."
+  },
+  {
+   "key": "case055.clue.found",
+   "value": "Le capataz trouve le trésorier."
+  },
+  {
+   "key": "case055.clue.lock",
+   "value": "Le capataz part ; le président entre dans la chapelle."
+  },
+  {
+   "key": "case055.clue.polish",
+   "value": "Un chandelier est poli et remis sur l’autel."
+  },
+  {
+   "key": "case055.clue.source.autopsy",
+   "value": "Autopsie"
+  },
+  {
+   "key": "case055.clue.source.chapel",
+   "value": "Examen de la chapelle"
+  },
+  {
+   "key": "case055.clue.source.paco",
+   "value": "Paco Romero"
+  },
+  {
+   "key": "case055.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case055.custody.altar",
+   "value": "Poli et remis sur l’autel"
+  },
+  {
+   "key": "case055.custody.crypt",
+   "value": "Déposé dans la crypte"
+  },
+  {
+   "key": "case055.custody.label",
+   "value": "Où est passée l’arme du crime ?"
+  },
+  {
+   "key": "case055.custody.river",
+   "value": "Jetée dans le fleuve"
+  },
+  {
+   "key": "case055.epilogue.custody.altar",
+   "value": "Il a été consigné que le chandelier avait été poli et remis à sa place sur l’autel."
+  },
+  {
+   "key": "case055.epilogue.custody.crypt",
+   "value": "Le chandelier n’avait pas été mis à l’écart ; il était bien en vue."
+  },
+  {
+   "key": "case055.epilogue.custody.river",
+   "value": "Le chandelier n’a jamais quitté la chapelle."
+  },
+  {
+   "key": "case055.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; Ignacio Lara a pris la parole aux funérailles."
+  },
+  {
+   "key": "case055.epilogue.verdict.amparo",
+   "value": "Amparo Soto a été placée en garde à vue ; le rapport d’expertise a disparu."
+  },
+  {
+   "key": "case055.epilogue.verdict.ignacio",
+   "value": "Ignacio Lara a été arrêté ; le dossier de 1987 a été rouvert pour « vol et faux ». La décision de 1987 de la Fundación Santa Ana et la signature « Dr E. Varga » sont entrées dans le dossier de l’antenne de Triana."
+  },
+  {
+   "key": "case055.epilogue.verdict.paco",
+   "value": "Paco Romero a été arrêté ; pendant la Semaine sainte, la confrérie a porté la couronne avec son verre."
+  },
+  {
+   "key": "case055.evidence.archive",
+   "value": "Le dossier de 1987"
+  },
+  {
+   "key": "case055.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case055.evidence.chapel",
+   "value": "Examen de la chapelle"
+  },
+  {
+   "key": "case055.evidence.house",
+   "value": "Fouille de la maison"
+  },
+  {
+   "key": "case055.feedback.accident",
+   "value": "Il n’y a aucune empreinte de pas en haut de l’échafaudage ; aucune fracture compatible avec une chute, et les plaies sont venues d’en haut."
+  },
+  {
+   "key": "case055.feedback.amparo",
+   "value": "La joaillière a trouvé le verre et l’a dit au trésorier ; elle n’était pas dans la chapelle ce soir-là."
+  },
+  {
+   "key": "case055.feedback.ignacio",
+   "value": "Le capataz l’a laissé seul avec le trésorier dans la chapelle ; chez lui, il y a un chiffon à polir portant le sang de la victime. Le dossier de 1987 montre qu’il était lui-même trésorier l’année du vol des pierres et qu’il a lui-même orchestré le « miracle »."
+  },
+  {
+   "key": "case055.feedback.paco",
+   "value": "Le capataz a fermé la porte à neuf heures et est parti ; le trésorier et le président sont restés à l’intérieur."
+  },
+  {
+   "key": "case055.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case055.file.value.bureau",
+   "value": "BDS Sevilla — Antenne de Triana"
+  },
+  {
+   "key": "case055.file.value.location",
+   "value": "Triana, Sevilla — chapelle de confrérie"
+  },
+  {
+   "key": "case055.file.value.number",
+   "value": "BDS-SVQ-2030-0111"
+  },
+  {
+   "key": "case055.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case055.file.value.reporter",
+   "value": "Capataz"
+  },
+  {
+   "key": "case055.house.body",
+   "value": "La maison d’Ignacio Lara (avec l’accord du chef d’antenne) :\n\n· Dans le bureau, de la pâte à polir l’argent et un chiffon taché de sang ; le sang est celui de la victime.\n· Dans le coffre-fort, une lettre datée de 1987, en espagnol, non signée, tapée à la machine : « Les pierres sont à Zurich. En échange, la présidence. Le verre arrive vendredi. »\n· De la Fundación Santa Ana, un paiement de « conseil honoraire » à Ignacio Lara chaque Semaine sainte depuis 1987."
+  },
+  {
+   "key": "case055.house.title",
+   "value": "LA MAISON D’IGNACIO LARA — FOUILLE"
+  },
+  {
+   "key": "case055.ignacio.body",
+   "value": "Président de la confrérie."
+  },
+  {
+   "key": "case055.ignacio.deflect",
+   "value": "Les affaires de la confrérie restent dans la confrérie."
+  },
+  {
+   "key": "case055.ignacio.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case055.ignacio.end.presented.archive",
+   "value": "En 1987, j’ai sauvé les pierres. La confrérie m’en a été reconnaissante."
+  },
+  {
+   "key": "case055.ignacio.end.presented.house",
+   "value": "J’ai pris les pierres, en 1987 ; j’avais des dettes. Une dame est venue de la fondation et a dit : « Nous les rachèterons, vous deviendrez président. » On a mis le verre. Fernando a dit : « Avant la Semaine sainte, je le dirai aux frères. » J’ai pris le chandelier. Ensuite je l’ai poli et je l’ai remis en place. La Vierge a vu ; je ne voulais pas que quelqu’un d’autre voie."
+  },
+  {
+   "key": "case055.ignacio.end.question",
+   "value": "Vous avez frappé Fernando avec le chandelier."
+  },
+  {
+   "key": "case055.ignacio.night.answer",
+   "value": "Brièvement. J’ai interrogé Fernando sur le budget de la Semaine sainte ; il était sur l’échafaudage. Je suis parti à neuf heures et demie. Il était vieux, l’échafaudage est étroit ; il est tombé."
+  },
+  {
+   "key": "case055.ignacio.night.answer.demeanor",
+   "value": "Redresse la médaille sur sa poitrine."
+  },
+  {
+   "key": "case055.ignacio.night.question",
+   "value": "Étiez-vous dans la chapelle hier soir ?"
+  },
+  {
+   "key": "case055.ignacio.night.variant0",
+   "value": "Je polis les chandeliers, chaque semaine. J’en ai poli un ; et alors ?"
+  },
+  {
+   "key": "case055.ignacio.title",
+   "value": "Ignacio Lara — audition"
+  },
+  {
+   "key": "case055.method.candle",
+   "value": "Il a été frappé à la tête avec un chandelier d’argent"
+  },
+  {
+   "key": "case055.method.fall",
+   "value": "Il est tombé de l’échafaudage"
+  },
+  {
+   "key": "case055.method.heart",
+   "value": "Une crise cardiaque"
+  },
+  {
+   "key": "case055.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case055.offer.subtitle",
+   "value": "HERMANDAD  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case055.offer.summary",
+   "value": "Dans une chapelle de confrérie de Triana, le trésorier gît mort au pied du char de procession. Les émeraudes de la couronne étaient en cours d’expertise."
+  },
+  {
+   "key": "case055.offer.title",
+   "value": "DOSSIER #055"
+  },
+  {
+   "key": "case055.paco.1987.answer",
+   "value": "J’étais enfant à l’époque, mais tout le monde le sait. La couronne a été volée ; un mois plus tard, M. Ignacio a dit : « Avec l’aide des donateurs, nous les avons retrouvées », et on a appelé ça un miracle. Cette semaine, Fernando m’a dit : « Paco, un jour je te parlerai de ce miracle. »"
+  },
+  {
+   "key": "case055.paco.1987.question",
+   "value": "Que s’est-il passé en 1987 ?"
+  },
+  {
+   "key": "case055.paco.body",
+   "value": "Capataz."
+  },
+  {
+   "key": "case055.paco.deflect",
+   "value": "Je mets l’épaule dessous ; je ne pose pas de questions."
+  },
+  {
+   "key": "case055.paco.keys.answer",
+   "value": "Moi, le trésorier, le président. Hier soir à neuf heures, j’ai fermé la porte ; le trésorier était à l’intérieur, il nettoyait le dais. En sortant, le président est arrivé et a dit : « Je vais parler à Fernando. » Je suis parti."
+  },
+  {
+   "key": "case055.paco.keys.answer.demeanor",
+   "value": "Ajuste le coussinet autour de son cou."
+  },
+  {
+   "key": "case055.paco.keys.question",
+   "value": "Qui a les clés de la chapelle ?"
+  },
+  {
+   "key": "case055.paco.title",
+   "value": "Paco Romero — audition"
+  },
+  {
+   "key": "case055.person.amparo.info",
+   "value": "56 ans, joaillière ; l’experte qui évalue les bijoux de la confrérie."
+  },
+  {
+   "key": "case055.person.amparo.name",
+   "value": "Amparo Soto"
+  },
+  {
+   "key": "case055.person.ignacio.info",
+   "value": "67 ans, président de la confrérie (hermano mayor)."
+  },
+  {
+   "key": "case055.person.ignacio.name",
+   "value": "Ignacio Lara"
+  },
+  {
+   "key": "case055.person.paco.info",
+   "value": "48 ans, chef de l’équipe qui porte le char de procession (capataz)."
+  },
+  {
+   "key": "case055.person.paco.name",
+   "value": "Paco Romero"
+  },
+  {
+   "key": "case055.report.body",
+   "value": "Le matin du 18 octobre 2030, dans une chapelle de confrérie de Triana, le trésorier de la confrérie Fernando Ibáñez (59 ans) a été retrouvé mort au pied du char de procession. À côté de lui, un échafaudage de nettoyage à roulettes.\n\nLe capataz Paco Romero a trouvé le corps à 07.30 en ouvrant la chapelle. Le président de la confrérie Ignacio Lara a dit : « Il est tombé de l’échafaudage. » Cette semaine-là, les émeraudes de la couronne étaient expertisées par la joaillière Amparo Soto."
+  },
+  {
+   "key": "case055.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case055.request.archive",
+   "value": "Demander l’autorisation de ressortir le dossier des émeraudes de 1987 des archives"
+  },
+  {
+   "key": "case055.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case055.request.chapel",
+   "value": "Demander un examen de scène de crime de la chapelle"
+  },
+  {
+   "key": "case055.request.house",
+   "value": "Demander l’autorisation de fouiller la maison d’Ignacio Lara"
+  },
+  {
+   "key": "case055.summary.evidence",
+   "value": "La joaillière a parlé du verre, le capataz de qui est resté à l’intérieur ce soir-là et du « miracle » de 1987 ; cela a fait ouvrir les archives. L’examen de la chapelle a trouvé l’échafaudage intact et le seul chandelier brillant. La fouille de la maison a donné le chiffon et la lettre de 1987."
+  },
+  {
+   "key": "case055.summary.lesson",
+   "value": "Pour qu’un chandelier passe inaperçu, le meilleur endroit est l’autel."
+  },
+  {
+   "key": "case055.summary.location",
+   "value": "Triana — octobre 2030"
+  },
+  {
+   "key": "case055.summary.truth",
+   "value": "En 1987, le trésorier de la confrérie Ignacio Lara a vendu les émeraudes de la couronne pour payer ses dettes ; un mois plus tard, les pierres « récupérées » avec l’argent de la Fundación Santa Ana étaient en verre, et Ignacio est devenu président. Quand le trésorier actuel Fernando Ibáñez a appris l’histoire du verre lors de l’expertise, il a décidé de le dire aux frères. Ignacio l’a frappé dans la chapelle avec un chandelier d’argent, l’a poli et l’a remis sur l’autel."
+  },
+  {
+   "key": "case055.suspect.label",
+   "value": "Qui a tué Fernando Ibáñez ?"
+  },
+  {
+   "key": "case055.tablet.caseLine",
+   "value": "DOSSIER #055  /  BUBE SEVILLA — TRIANA"
+  },
+  {
+   "key": "case055.time.blow",
+   "value": "21.15"
+  },
+  {
+   "key": "case055.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case055.time.lock",
+   "value": "21.00"
+  },
+  {
+   "key": "case055.title",
+   "value": "Dossier #055 — Hermandad"
+  },
+  {
+   "key": "case055.verdict.accident",
+   "value": "Personne — il est tombé de l’échafaudage"
+  },
+  {
+   "key": "case055.verdict.amparo",
+   "value": "Amparo Soto"
+  },
+  {
+   "key": "case055.verdict.ignacio",
+   "value": "Ignacio Lara"
+  },
+  {
+   "key": "case055.verdict.paco",
+   "value": "Paco Romero"
+  },
+  {
+   "key": "case055.item.crown.name",
+   "value": "Les émeraudes de la couronne"
+  },
+  {
+   "key": "case055.item.crown.detail",
+   "value": "Les douze « émeraudes » de la couronne dans la boîte d’expertise ; une seule luit sous la lumière ultraviolette."
+  },
+  {
+   "key": "case055.item.candle.name",
+   "value": "Chandelier d’argent"
+  },
+  {
+   "key": "case055.item.candle.detail",
+   "value": "L’un des chandeliers d’argent de l’autel ; des traces de sang dans les rainures de son pied."
+  },
+  {
+   "key": "case055.item.scaffold.name",
+   "value": "Échafaudage"
+  },
+  {
+   "key": "case055.item.scaffold.detail",
+   "value": "L’échafaudage à roulettes à côté du dais ; freins serrés, garde-corps en place."
+  }
+ ]
+}
