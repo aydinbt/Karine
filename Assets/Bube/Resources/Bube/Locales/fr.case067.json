@@ -1,0 +1,404 @@
+{
+ "entries": [
+  {
+   "key": "case067.alarm.body",
+   "value": "Centrale d’alarme du marché aux poissons de Footscray, 1er décembre :\n\n· 18.30 — activée (code : Craig Brennan).\n· 18.31 – 04.00 aucun événement.\n· 04.02 — désactivée (code : Tavita Faleolo).\n\nNote : la centrale ne surveille que les portes extérieures ; quelqu’un qui reste à l’intérieur ne déclenche pas l’alarme."
+  },
+  {
+   "key": "case067.alarm.title",
+   "value": "JOURNAL DE L’ALARME DU MARCHÉ"
+  },
+  {
+   "key": "case067.archive.body",
+   "value": "Un dossier ressorti des archives (janvier 1998, classé comme « panne électrique ») :\n\n· Nguyen Van Minh (29 ans) est mort dans l’incendie d’un étal qui s’est déclaré la nuit au marché.\n· Seul témoin, le veilleur de nuit Craig Brennan (20 ans) : « J’ai vu des étincelles sortir des câbles. »\n· Le rapport des pompiers porte la mention « trace d’accélérant » ; elle n’a jamais été versée au dossier.\n· Directeur adjoint de la société qui a repris les droits d’exploitation du marché trois mois après l’incendie : Craig Brennan."
+  },
+  {
+   "key": "case067.archive.reopen",
+   "value": "Le dossier classé comme « panne électrique » il y a trente-deux ans a été rouvert."
+  },
+  {
+   "key": "case067.archive.title",
+   "value": "LE DOSSIER DE 1998 — NGUYEN VAN MINH"
+  },
+  {
+   "key": "case067.autopsy.body",
+   "value": "· Cause du décès : hypothermie et noyade ; de l’eau glacée salée dans les poumons.\n· Un coup plat et large sur la nuque ; il est entré dans l’eau inconscient.\n· Pas de dîner dans l’estomac ; dernier repas à midi.\n· Heure du décès : 19.00–20.00."
+  },
+  {
+   "key": "case067.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case067.brennan.body",
+   "value": "Gérant du marché."
+  },
+  {
+   "key": "case067.brennan.deflect",
+   "value": "C’est moi qui tiens ce marché debout depuis trente ans."
+  },
+  {
+   "key": "case067.brennan.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case067.brennan.end.decoy.alarm",
+   "value": "Le journal de l’alarme est là : je l’ai activée à six heures et demie, pas une seule porte ne s’est ouverte jusqu’au matin. Personne n’était à l’intérieur."
+  },
+  {
+   "key": "case067.brennan.end.presented.office",
+   "value": "J’ai activé l’alarme de l’intérieur et je ne suis pas sorti. Long m’a mis la photo sous le nez ; en 1998, le briquet était dans ma main, oui, on m’avait payé, je croyais l’étal vide. Minh était dedans. Trente-deux ans. Je l’ai frappé à la nuque, je l’ai mis dans le bac, j’ai fermé à clé. J’ai jeté la clé dans le tiroir de la balance. J’ai brûlé la photo. Les gens de Pacific Liaison répétaient « le dernier étal du marché », c’est tout."
+  },
+  {
+   "key": "case067.brennan.end.question",
+   "value": "Vous avez mis Long dans le bac à glace."
+  },
+  {
+   "key": "case067.brennan.night.answer",
+   "value": "J’ai renvoyé tout le monde chez soi, j’ai activé l’alarme et je suis parti. Oncle Long était vieux ; peut-être qu’il a voulu attraper quelque chose dans le bac et qu’il est tombé."
+  },
+  {
+   "key": "case067.brennan.night.answer.demeanor",
+   "value": "Fait tourner la chaîne à son cou du pouce."
+  },
+  {
+   "key": "case067.brennan.night.question",
+   "value": "Comment avez-vous fermé le marché hier soir ?"
+  },
+  {
+   "key": "case067.brennan.title",
+   "value": "Craig Brennan — audition"
+  },
+  {
+   "key": "case067.clue.found",
+   "value": "Le porteur force le bac verrouillé avec un pied-de-biche."
+  },
+  {
+   "key": "case067.clue.send",
+   "value": "Le gérant renvoie le porteur chez lui en disant : « Je ferme. »"
+  },
+  {
+   "key": "case067.clue.set",
+   "value": "L’alarme est activée avec le code du gérant."
+  },
+  {
+   "key": "case067.clue.source.alarm",
+   "value": "Journal de l’alarme"
+  },
+  {
+   "key": "case067.clue.source.tavita",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.custody.drain",
+   "value": "Dans la grille d’égout du marché"
+  },
+  {
+   "key": "case067.custody.label",
+   "value": "Où est passée la clé du bac ?"
+  },
+  {
+   "key": "case067.custody.river",
+   "value": "Dans la rivière Maribyrnong"
+  },
+  {
+   "key": "case067.custody.scale",
+   "value": "Dans le tiroir de la balance à poisson du bureau du gérant"
+  },
+  {
+   "key": "case067.epilogue.custody.drain",
+   "value": "La grille a été ouverte ; la clé n’y était pas."
+  },
+  {
+   "key": "case067.epilogue.custody.river",
+   "value": "La clé n’était pas dans la rivière."
+  },
+  {
+   "key": "case067.epilogue.custody.scale",
+   "value": "Il a été consigné que la clé avait été retrouvée dans le tiroir de la balance."
+  },
+  {
+   "key": "case067.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; le marché a été démoli."
+  },
+  {
+   "key": "case067.epilogue.verdict.brennan",
+   "value": "Craig Brennan a été arrêté ; le dossier de 1998 a été rouvert pour « homicide volontaire ». Le contrat de prêt de Pacific Liaison Trust est entré dans le dossier de l’antenne de Footscray."
+  },
+  {
+   "key": "case067.epilogue.verdict.linh",
+   "value": "Linh Nguyen a été arrêtée ; la clé est restée dans la balance."
+  },
+  {
+   "key": "case067.epilogue.verdict.tavita",
+   "value": "Tavita Faleolo a été arrêté ; le dernier étal a été vendu."
+  },
+  {
+   "key": "case067.evidence.alarm",
+   "value": "Journal de l’alarme du marché"
+  },
+  {
+   "key": "case067.evidence.archive",
+   "value": "Le dossier de 1998"
+  },
+  {
+   "key": "case067.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case067.evidence.office",
+   "value": "Fouille du bureau du gérant"
+  },
+  {
+   "key": "case067.feedback.accident",
+   "value": "Il y a un coup à la nuque, et le bac a été verrouillé de l’extérieur."
+  },
+  {
+   "key": "case067.feedback.brennan",
+   "value": "La clé du bac est sortie du tiroir de sa balance, avec son empreinte ; c’est lui qui a renvoyé le porteur chez lui à 19.00. Le journal de l’alarme ne le met pas hors de cause : la centrale ne surveille que les portes extérieures. Le dossier de 1998 rouvert montre qui Long a reconnu sur la photo."
+  },
+  {
+   "key": "case067.feedback.linh",
+   "value": "La fille soutenait le refus de son père de vendre l’étal ; elle n’était pas au marché ce soir-là."
+  },
+  {
+   "key": "case067.feedback.tavita",
+   "value": "Le porteur a été renvoyé chez lui à 19.00 et a désactivé l’alarme le matin avec son propre code ; il n’avait pas la clé du bac."
+  },
+  {
+   "key": "case067.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case067.file.value.bureau",
+   "value": "BDA Melbourne — Antenne de Footscray"
+  },
+  {
+   "key": "case067.file.value.location",
+   "value": "Marché aux poissons de Footscray, Melbourne"
+  },
+  {
+   "key": "case067.file.value.number",
+   "value": "BDA-MEL-2030-0301"
+  },
+  {
+   "key": "case067.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case067.file.value.reporter",
+   "value": "Porteur"
+  },
+  {
+   "key": "case067.linh.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case067.linh.deflect",
+   "value": "Mon père se levait à quatre heures du matin, depuis quarante ans."
+  },
+  {
+   "key": "case067.linh.sell.answer",
+   "value": "Non. Le marché va être reconstruit, tous les étals sont rachetés ; mon père était le seul à dire non. La semaine dernière, il a retrouvé une vieille photo, de 1998, de la nuit où mon oncle est mort. « Maintenant je sais qui était là cette nuit-là », il a dit. Il n’a pas dit qui. Il gardait la photo sur lui."
+  },
+  {
+   "key": "case067.linh.sell.answer.demeanor",
+   "value": "Fait monter et descendre la fermeture de sa veste du bout des doigts."
+  },
+  {
+   "key": "case067.linh.sell.question",
+   "value": "Votre père allait-il vendre l’étal ?"
+  },
+  {
+   "key": "case067.linh.title",
+   "value": "Linh Nguyen — audition"
+  },
+  {
+   "key": "case067.method.fall",
+   "value": "Il est tombé en se penchant dans le bac"
+  },
+  {
+   "key": "case067.method.heart",
+   "value": "Son cœur s’est arrêté dans le froid"
+  },
+  {
+   "key": "case067.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case067.method.tank",
+   "value": "Il a été assommé, mis dans le bac à glace et enfermé"
+  },
+  {
+   "key": "case067.offer.subtitle",
+   "value": "MARCHÉ AUX POISSONS  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case067.offer.summary",
+   "value": "Un poissonnier de quarante ans de métier a été retrouvé dans le bac à glace de son propre étal, le couvercle cadenassé."
+  },
+  {
+   "key": "case067.offer.title",
+   "value": "DOSSIER #067"
+  },
+  {
+   "key": "case067.office.body",
+   "value": "Le bureau de Craig Brennan au marché (avec l’accord du chef d’antenne) :\n\n· Dans le tiroir de la balance à poisson, la clé du cadenas du bac ; des écailles de poisson et l’empreinte de Craig Brennan sur la clé.\n· Dans le cendrier, le coin d’une photographie brûlée ; papier photo daté de 1998.\n· Sur le bureau, le contrat de prêt de Pacific Liaison Trust : une clause de « cession de tous les étals », dernière ligne vide : « Nguyen »."
+  },
+  {
+   "key": "case067.office.title",
+   "value": "BUREAU DU GÉRANT — FOUILLE"
+  },
+  {
+   "key": "case067.person.brennan.info",
+   "value": "52 ans, gérant du marché aux poissons de Footscray."
+  },
+  {
+   "key": "case067.person.brennan.name",
+   "value": "Craig Brennan"
+  },
+  {
+   "key": "case067.person.linh.info",
+   "value": "34 ans, la fille de la victime."
+  },
+  {
+   "key": "case067.person.linh.name",
+   "value": "Linh Nguyen"
+  },
+  {
+   "key": "case067.person.tavita.info",
+   "value": "41 ans, porteur au marché ; il a trouvé le corps."
+  },
+  {
+   "key": "case067.person.tavita.name",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.report.body",
+   "value": "Le matin du 2 décembre 2030, au marché aux poissons de Footscray, le poissonnier Nguyen Van Long (68 ans) a été retrouvé mort dans le bac à glace derrière son propre étal, dans l’eau glacée. Le couvercle du bac était cadenassé.\n\nLe porteur Tavita Faleolo a trouvé le corps à 04.05, après avoir forcé le cadenas du bac. Le gérant du marché Craig Brennan a déclaré avoir activé l’alarme à 18.30. La fille de la victime, Linh Nguyen, est arrivée le matin."
+  },
+  {
+   "key": "case067.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case067.request.alarm",
+   "value": "Demander le journal de l’alarme du marché"
+  },
+  {
+   "key": "case067.request.archive",
+   "value": "Demander l’autorisation de ressortir le dossier de 1998 des archives"
+  },
+  {
+   "key": "case067.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case067.request.office",
+   "value": "Demander l’autorisation de fouiller le bureau du gérant"
+  },
+  {
+   "key": "case067.summary.evidence",
+   "value": "Le journal de l’alarme était un leurre : il ne surveillait que les portes extérieures. Le porteur et la fille ont parlé de la soirée et de la photo ; cela a fait ouvrir les archives. La fouille a trouvé la clé et le coin de la photo brûlée."
+  },
+  {
+   "key": "case067.summary.lesson",
+   "value": "L’alarme disait que personne n’était sorti. Elle avait raison."
+  },
+  {
+   "key": "case067.summary.location",
+   "value": "Marché aux poissons de Footscray — décembre 2030"
+  },
+  {
+   "key": "case067.summary.truth",
+   "value": "En 1998, le veilleur de nuit Craig Brennan, vingt ans, a mis le feu à un étal pour de l’argent ; Minh, le frère de Long, était dedans. Il a dit « panne électrique » et est devenu gérant du marché. Trente-deux ans plus tard, Long, qui refusait de vendre le dernier étal du marché, l’a reconnu sur une vieille photo. Brennan a activé l’alarme de l’intérieur, a assommé Long, l’a enfermé dans le bac à glace et a jeté la clé dans le tiroir de la balance."
+  },
+  {
+   "key": "case067.suspect.label",
+   "value": "Qui a tué Nguyen Van Long ?"
+  },
+  {
+   "key": "case067.tablet.caseLine",
+   "value": "DOSSIER #067  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case067.tavita.body",
+   "value": "Porteur au marché."
+  },
+  {
+   "key": "case067.tavita.deflect",
+   "value": "Je porte des caisses, je ne pose pas de questions."
+  },
+  {
+   "key": "case067.tavita.found.answer",
+   "value": "Oncle Long ne fermait jamais le bac à clé ; il laissait le couvercle ouvert pour que le poisson reste froid. Il était fermé ; c’est le gérant qui a la clé. Je n’ai pas pu attendre, je l’ai forcé avec un pied-de-biche. Hier soir à sept heures, le gérant m’a dit : « Rentre chez toi, je ferme » ; c’est toujours moi qui ferme."
+  },
+  {
+   "key": "case067.tavita.found.answer.demeanor",
+   "value": "Ajuste la bretelle de son tablier sur son épaule."
+  },
+  {
+   "key": "case067.tavita.found.question",
+   "value": "Pourquoi avez-vous forcé le bac ?"
+  },
+  {
+   "key": "case067.tavita.title",
+   "value": "Tavita Faleolo — audition"
+  },
+  {
+   "key": "case067.time.found",
+   "value": "04.05"
+  },
+  {
+   "key": "case067.time.send",
+   "value": "19.00"
+  },
+  {
+   "key": "case067.time.set",
+   "value": "18.30"
+  },
+  {
+   "key": "case067.title",
+   "value": "Dossier #067 — Marché aux poissons"
+  },
+  {
+   "key": "case067.verdict.accident",
+   "value": "Personne — il est tombé dans le bac"
+  },
+  {
+   "key": "case067.verdict.brennan",
+   "value": "Craig Brennan"
+  },
+  {
+   "key": "case067.verdict.linh",
+   "value": "Linh Nguyen"
+  },
+  {
+   "key": "case067.verdict.tavita",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.item.key.name",
+   "value": "Clé du cadenas du bac à glace"
+  },
+  {
+   "key": "case067.item.key.detail",
+   "value": "La clé du cadenas du couvercle du bac ; elle est sortie du tiroir de la balance à poisson du bureau du gérant."
+  },
+  {
+   "key": "case067.item.alarm.name",
+   "value": "Journal de l’alarme du marché"
+  },
+  {
+   "key": "case067.item.alarm.detail",
+   "value": "L’impression de la centrale d’alarme du marché ; « activée 18.30 », le code du gérant."
+  },
+  {
+   "key": "case067.item.lighter.name",
+   "value": "La photo de 1998"
+  },
+  {
+   "key": "case067.item.lighter.detail",
+   "value": "Une vieille photo que Long gardait ; une heure avant l’incendie, un jeune veilleur à côté de l’étal, un briquet à la main."
+  }
+ ]
+}

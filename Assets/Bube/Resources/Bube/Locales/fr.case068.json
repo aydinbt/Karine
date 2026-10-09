@@ -1,0 +1,580 @@
+{
+ "entries": [
+  {
+   "key": "case068.ainsley.body",
+   "value": "Entraîneur."
+  },
+  {
+   "key": "case068.ainsley.deflect",
+   "value": "Les chevaux ne trichent pas. Les gens, si."
+  },
+  {
+   "key": "case068.ainsley.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case068.ainsley.end.presented.bets",
+   "value": "Les comptes ne sont pas à moi. Ils ont utilisé le nom de ma fille. Mais j’étais là pour récupérer le tube, oui."
+  },
+  {
+   "key": "case068.ainsley.end.presented.float",
+   "value": "Si le tube partait au labo, j’étais fini, ma fille était finie. Je savais ce qu’il y avait dans le sang de ce cheval. J’ai dit à Owen : « Donne-le » ; il n’a pas voulu. Le maillet à fer était dans ma main. J’ai attaché le cheval au fond pour faire croire à une ruade. Les instructions venaient d’en haut ; « il ne doit pas gagner », ils ont dit, et j’y ai veillé."
+  },
+  {
+   "key": "case068.ainsley.end.question",
+   "value": "Vous avez tué Owen Pryce."
+  },
+  {
+   "key": "case068.ainsley.night.answer",
+   "value": "Chez moi. Les chevaux mangent à dix heures ; je pars à neuf. Owen est entré dans ce box, le cheval a pris peur. Ça arrive."
+  },
+  {
+   "key": "case068.ainsley.night.answer.demeanor",
+   "value": "Plisse les yeux et regarde la porte de l’écurie."
+  },
+  {
+   "key": "case068.ainsley.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case068.ainsley.title",
+   "value": "Grant Ainsley — audition"
+  },
+  {
+   "key": "case068.autopsy.body",
+   "value": "· Cause du décès : fracture du crâne ; un seul coup à la tempe gauche.\n· La forme de la plaie correspond à une marque de fer à cheval, mais son angle ne correspond pas à une ruade : il correspond au mouvement d’un outil tenu par une personne debout.\n· Pas de crin ni de crottin dans la plaie ; il y a de la rouille.\n· Heure du décès : 22.00–23.30."
+  },
+  {
+   "key": "case068.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case068.bets.body",
+   "value": "Contre Southern Liaison ces quatre derniers jours :\n\n· 412 comptes, 1,9 million de dollars au total.\n· 300 des comptes ont été ouverts depuis les trois mêmes téléphones ; l’un au nom de la fille de Grant Ainsley.\n· En cas de gain, les paiements devaient aller sur un sous-compte de Pacific Liaison Trust."
+  },
+  {
+   "key": "case068.bets.title",
+   "value": "TRANSCRIPTION DES PARIS"
+  },
+  {
+   "key": "case068.clue.blood",
+   "value": "Le commissaire prélève lui-même un échantillon du sang du cheval ; l’entraîneur est à côté de lui."
+  },
+  {
+   "key": "case068.clue.found",
+   "value": "Le palefrenier trouve le commissaire dans le box, le cheval attaché."
+  },
+  {
+   "key": "case068.clue.shout",
+   "value": "Un cri dans l’écurie, « le tube part au labo demain » ; puis une porte de van."
+  },
+  {
+   "key": "case068.clue.source.deng",
+   "value": "Deng Akol"
+  },
+  {
+   "key": "case068.clue.source.harriet",
+   "value": "Harriet Combe"
+  },
+  {
+   "key": "case068.custody.forge",
+   "value": "Dans la forge du maréchal-ferrant"
+  },
+  {
+   "key": "case068.custody.lab",
+   "value": "Au laboratoire"
+  },
+  {
+   "key": "case068.custody.label",
+   "value": "Où est passé le tube d’échantillon manquant du commissaire ?"
+  },
+  {
+   "key": "case068.custody.tube",
+   "value": "Sous la paille du van de l’entraîneur"
+  },
+  {
+   "key": "case068.deng.body",
+   "value": "Palefrenier."
+  },
+  {
+   "key": "case068.deng.deflect",
+   "value": "Je dors dans cette écurie, monsieur."
+  },
+  {
+   "key": "case068.deng.night.answer",
+   "value": "Je dors dans la pièce au-dessus du box. Vers onze heures, j’ai entendu des voix, quelqu’un a crié : « le tube part au labo demain ». Puis une porte de van. Le matin, j’ai trouvé le commissaire. Le cheval était attaché ; ce n’est pas moi qui l’ai attaché, ce cheval n’est jamais attaché la nuit."
+  },
+  {
+   "key": "case068.deng.night.answer.demeanor",
+   "value": "Entrelace ses doigts et serre."
+  },
+  {
+   "key": "case068.deng.night.question",
+   "value": "Que s’est-il passé dans l’écurie hier soir ?"
+  },
+  {
+   "key": "case068.deng.title",
+   "value": "Deng Akol — audition"
+  },
+  {
+   "key": "case068.epilogue.custody.forge",
+   "value": "Il n’y avait pas de tube dans la forge."
+  },
+  {
+   "key": "case068.epilogue.custody.lab",
+   "value": "Le tube n’est jamais arrivé au laboratoire."
+  },
+  {
+   "key": "case068.epilogue.custody.tube",
+   "value": "Il a été consigné que le tube avait été retrouvé dans le van."
+  },
+  {
+   "key": "case068.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; le cheval a couru la coupe et a perdu."
+  },
+  {
+   "key": "case068.epilogue.verdict.ainsley",
+   "value": "Grant Ainsley a été arrêté ; Southern Liaison a été retiré de la coupe. Le sous-compte de Pacific Liaison Trust a été gelé."
+  },
+  {
+   "key": "case068.epilogue.verdict.rafferty",
+   "value": "Declan Rafferty a été interrogé ; la vraie main est restée libre."
+  },
+  {
+   "key": "case068.epilogue.verdict.sione",
+   "value": "Sione Taufa a été arrêté ; le maillet est resté dans le van."
+  },
+  {
+   "key": "case068.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case068.evidence.bets",
+   "value": "Transcription des paris"
+  },
+  {
+   "key": "case068.evidence.float",
+   "value": "Fouille du van"
+  },
+  {
+   "key": "case068.evidence.syndicate",
+   "value": "Contrat du syndicat"
+  },
+  {
+   "key": "case068.feedback.accident",
+   "value": "Il n’y a pas de crin dans la plaie, l’angle correspond à un geste humain ; le cheval était attaché au fond."
+  },
+  {
+   "key": "case068.feedback.ainsley",
+   "value": "Le maillet à fer et le tube manquant du commissaire sont sortis de son van ; l’un des comptes où les paris se sont accumulés est au nom de sa fille. Le syndicat lui promettait une prime pour « suivre les instructions »."
+  },
+  {
+   "key": "case068.feedback.rafferty",
+   "value": "Le propriétaire donnait les instructions, mais il n’était pas à l’écurie cette nuit-là et le maillet n’est pas à lui."
+  },
+  {
+   "key": "case068.feedback.sione",
+   "value": "Tous les marteaux du maréchal-ferrant sont à leur place ; quelqu’un d’autre avait pris les vieux fers."
+  },
+  {
+   "key": "case068.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case068.file.value.bureau",
+   "value": "BDA Melbourne — Antenne de Footscray"
+  },
+  {
+   "key": "case068.file.value.location",
+   "value": "Écuries de Flemington, Melbourne"
+  },
+  {
+   "key": "case068.file.value.number",
+   "value": "BDA-MEL-2030-0322"
+  },
+  {
+   "key": "case068.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case068.file.value.reporter",
+   "value": "Palefrenier"
+  },
+  {
+   "key": "case068.float.body",
+   "value": "Le van à chevaux de Grant Ainsley (parking de l’écurie) :\n\n· Dans la caisse à outils, un maillet à manche court avec un vieux fer à cheval riveté sur la tête ; du sang séché et de la rouille sur le fer.\n· Sous la paille, un tube d’échantillon scellé ; sur son étiquette, les initiales du commissaire et « S. Liaison ».\n· La charnière de la porte du van fraîchement huilée."
+  },
+  {
+   "key": "case068.float.title",
+   "value": "VAN DE L’ENTRAÎNEUR — FOUILLE"
+  },
+  {
+   "key": "case068.harriet.body",
+   "value": "La vétérinaire de l’écurie."
+  },
+  {
+   "key": "case068.harriet.deflect",
+   "value": "Mon travail, c’est la santé des chevaux."
+  },
+  {
+   "key": "case068.harriet.gone",
+   "value": "Harriet Combe est partie pour Londres par le vol de midi. Son nouvel employeur a refusé un entretien."
+  },
+  {
+   "key": "case068.harriet.horse.answer",
+   "value": "J’ai regardé les fers arrière du cheval ; pas de sang, pas de poils. Et ce cheval est calme. Hier soir, le commissaire a demandé le sang du cheval ; ce n’est pas moi qui ai fait le prélèvement, il l’a fait lui-même. L’entraîneur était à côté de lui, très tendu. Demain je pars pour Londres ; une offre d’emploi."
+  },
+  {
+   "key": "case068.harriet.horse.answer.demeanor",
+   "value": "Croise les bras sur sa poitrine et regarde la porte de l’écurie."
+  },
+  {
+   "key": "case068.harriet.horse.question",
+   "value": "Le cheval a-t-il pu lui donner une ruade ?"
+  },
+  {
+   "key": "case068.harriet.title",
+   "value": "Harriet Combe — audition"
+  },
+  {
+   "key": "case068.keogh.body",
+   "value": "Jockey."
+  },
+  {
+   "key": "case068.keogh.deflect",
+   "value": "Je monte le cheval qu’on me donne."
+  },
+  {
+   "key": "case068.keogh.ride.answer",
+   "value": "Comme on me l’avait dit. Personne n’a dit « ne le laisse pas finir dans les quatre premiers » ; ils ont dit « ne le pousse pas ». Il y a une différence. Mai Pham m’a appelé la semaine dernière ; il y avait des tonnes de paris contre le cheval."
+  },
+  {
+   "key": "case068.keogh.ride.answer.demeanor",
+   "value": "Fixe les yeux au sol."
+  },
+  {
+   "key": "case068.keogh.ride.question",
+   "value": "Comment alliez-vous monter le cheval dans la coupe ?"
+  },
+  {
+   "key": "case068.keogh.title",
+   "value": "Shane Keogh — audition"
+  },
+  {
+   "key": "case068.line_bets.body",
+   "value": "Ligne des paris ouverte : comptes, mises, liens."
+  },
+  {
+   "key": "case068.line_bets.title",
+   "value": "LIGNE B — PARIS"
+  },
+  {
+   "key": "case068.line_owner.body",
+   "value": "Ligne de la propriété ouverte : contrats de syndicat, liens avec le trust."
+  },
+  {
+   "key": "case068.line_owner.title",
+   "value": "LIGNE C — PROPRIÉTÉ"
+  },
+  {
+   "key": "case068.line_stable.body",
+   "value": "Ligne de l’écurie ouverte : vans, caisses à outils, allées et venues à l’écurie."
+  },
+  {
+   "key": "case068.line_stable.title",
+   "value": "LIGNE A — ÉCURIE"
+  },
+  {
+   "key": "case068.mai.body",
+   "value": "Analyste des risques chez un bookmaker."
+  },
+  {
+   "key": "case068.mai.deflect",
+   "value": "Si les chiffres disent quelque chose, j’écoute."
+  },
+  {
+   "key": "case068.mai.money.answer",
+   "value": "Contre un favori, à quatre jours de la course, de petites mises mais depuis des centaines de comptes. C’est moi qui ai prévenu le commissaire Pryce. Il a dit : « Je vais regarder le sang du cheval. »"
+  },
+  {
+   "key": "case068.mai.money.answer.demeanor",
+   "value": "Remonte ses lunettes sur son nez."
+  },
+  {
+   "key": "case068.mai.money.question",
+   "value": "Quel genre de mouvement avez-vous vu ?"
+  },
+  {
+   "key": "case068.mai.title",
+   "value": "Mai Pham — audition"
+  },
+  {
+   "key": "case068.method.fall",
+   "value": "Il est tombé et s’est cogné la tête"
+  },
+  {
+   "key": "case068.method.kick",
+   "value": "Le cheval lui a donné une ruade"
+  },
+  {
+   "key": "case068.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case068.method.mallet",
+   "value": "Il a été frappé avec un maillet riveté à un fer à cheval"
+  },
+  {
+   "key": "case068.offer.subtitle",
+   "value": "ÉCURIE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case068.offer.summary",
+   "value": "Un commissaire des courses gît mort dans le box du favori de la coupe ; le premier rapport dit « ruade de cheval »."
+  },
+  {
+   "key": "case068.offer.title",
+   "value": "DOSSIER #068"
+  },
+  {
+   "key": "case068.person.ainsley.info",
+   "value": "49 ans, entraîneur à Flemington ; il entraîne le cheval « Southern Liaison »."
+  },
+  {
+   "key": "case068.person.ainsley.name",
+   "value": "Grant Ainsley"
+  },
+  {
+   "key": "case068.person.deng.info",
+   "value": "24 ans, palefrenier ; il a trouvé le corps."
+  },
+  {
+   "key": "case068.person.deng.name",
+   "value": "Deng Akol"
+  },
+  {
+   "key": "case068.person.harriet.info",
+   "value": "45 ans, la vétérinaire de l’écurie."
+  },
+  {
+   "key": "case068.person.harriet.name",
+   "value": "Harriet Combe"
+  },
+  {
+   "key": "case068.person.keogh.info",
+   "value": "27 ans, jockey."
+  },
+  {
+   "key": "case068.person.keogh.name",
+   "value": "Shane Keogh"
+  },
+  {
+   "key": "case068.person.mai.info",
+   "value": "31 ans, analyste des risques chez un bookmaker."
+  },
+  {
+   "key": "case068.person.mai.name",
+   "value": "Mai Pham"
+  },
+  {
+   "key": "case068.person.rafferty.info",
+   "value": "61 ans, propriétaire de chevaux ; le représentant du syndicat."
+  },
+  {
+   "key": "case068.person.rafferty.name",
+   "value": "Declan Rafferty"
+  },
+  {
+   "key": "case068.person.sione.info",
+   "value": "38 ans, maréchal-ferrant."
+  },
+  {
+   "key": "case068.person.sione.name",
+   "value": "Sione Taufa"
+  },
+  {
+   "key": "case068.rafferty.body",
+   "value": "Propriétaire de chevaux."
+  },
+  {
+   "key": "case068.rafferty.deflect",
+   "value": "Je ne fais que signer des chèques."
+  },
+  {
+   "key": "case068.rafferty.own.answer",
+   "value": "Un syndicat. Je suis le représentant. L’argent vient d’un trust ; son nom ne vous regarde pas. Ce sont eux qui ont baptisé le cheval."
+  },
+  {
+   "key": "case068.rafferty.own.answer.demeanor",
+   "value": "Redresse sa cravate sans la desserrer."
+  },
+  {
+   "key": "case068.rafferty.own.question",
+   "value": "À qui appartient vraiment le cheval ?"
+  },
+  {
+   "key": "case068.rafferty.title",
+   "value": "Declan Rafferty — audition"
+  },
+  {
+   "key": "case068.report.body",
+   "value": "Le matin du 1er novembre 2030, aux écuries de Flemington, l’inspecteur des commissaires de course Owen Pryce (44 ans) a été retrouvé mort dans le box du cheval « Southern Liaison ». Il avait une grave blessure à la tête ; le premier constat était « ruade de cheval ».\n\nLe palefrenier Deng Akol a trouvé le corps à 05.10. L’entraîneur Grant Ainsley, le propriétaire Declan Rafferty, le jockey Shane Keogh, la vétérinaire Harriet Combe et le maréchal-ferrant Sione Taufa étaient à l’écurie le matin. Mai Pham, d’un bookmaker, avait appelé plus tôt pour signaler un « mouvement inhabituel »."
+  },
+  {
+   "key": "case068.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case068.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case068.request.bets",
+   "value": "Demander la transcription des paris"
+  },
+  {
+   "key": "case068.request.float",
+   "value": "Demander l’autorisation de fouiller le van de l’entraîneur"
+  },
+  {
+   "key": "case068.request.line_bets",
+   "value": "Ouvrir la ligne des paris"
+  },
+  {
+   "key": "case068.request.line_owner",
+   "value": "Ouvrir la ligne de la propriété"
+  },
+  {
+   "key": "case068.request.line_stable",
+   "value": "Ouvrir la ligne de l’écurie"
+  },
+  {
+   "key": "case068.request.stall",
+   "value": "Demander un examen du box"
+  },
+  {
+   "key": "case068.request.syndicate",
+   "value": "Demander le contrat du syndicat"
+  },
+  {
+   "key": "case068.sione.body",
+   "value": "Maréchal-ferrant."
+  },
+  {
+   "key": "case068.sione.deflect",
+   "value": "Je cloue les fers, le reste je ne sais pas."
+  },
+  {
+   "key": "case068.sione.shoe.answer",
+   "value": "Mes marteaux sont près de la forge, mon vieux ; les six à leur place. Je garde les vieux fers, qui en veut un en prend un ; la semaine dernière, Grant en a pris deux, « pour la chance », il a dit."
+  },
+  {
+   "key": "case068.sione.shoe.answer.demeanor",
+   "value": "Tripote un clou dans la poche de son tablier."
+  },
+  {
+   "key": "case068.sione.shoe.question",
+   "value": "La marque dans la plaie ressemble à un fer à cheval, paraît-il."
+  },
+  {
+   "key": "case068.sione.title",
+   "value": "Sione Taufa — audition"
+  },
+  {
+   "key": "case068.stall.body",
+   "value": "Le box de Southern Liaison :\n\n· Du sang seulement côté porte ; le cheval était attaché au fond du box, sa longe tendue.\n· Des traces de traînée dans la paille, de la porte vers l’intérieur.\n· Le sac à échantillons du commissaire dans le coin ; une des douze cases vide, scellé brisé."
+  },
+  {
+   "key": "case068.stall.title",
+   "value": "EXAMEN DU BOX"
+  },
+  {
+   "key": "case068.summary.evidence",
+   "value": "Il fallait entendre la vétérinaire avant l’autopsie ; après, elle était partie. Deux des trois lignes étaient ouvertes à la fois : la ligne de l’écurie a donné le maillet, celle des paris le nom de la fille, celle de la propriété la prime."
+  },
+  {
+   "key": "case068.summary.lesson",
+   "value": "Le cheval n’avait pas rué. Il était seulement là."
+  },
+  {
+   "key": "case068.summary.location",
+   "value": "Écuries de Flemington — novembre 2030"
+  },
+  {
+   "key": "case068.summary.truth",
+   "value": "Le favori appartenant à Pacific Liaison Trust ne devait pas gagner la coupe. L’entraîneur Grant Ainsley a drogué le cheval ; des centaines de comptes ont parié contre lui. Le commissaire Owen Pryce a prélevé un échantillon du sang du cheval. La nuit, Ainsley a exigé le tube, ne l’a pas obtenu, l’a frappé avec le maillet à fer et a attaché le cheval au fond pour simuler une ruade."
+  },
+  {
+   "key": "case068.suspect.label",
+   "value": "Qui a tué Owen Pryce ?"
+  },
+  {
+   "key": "case068.syndicate.body",
+   "value": "Le syndicat « Southern Liaison » :\n\n· Seul associé : Pacific Liaison Trust (Melbourne). Représentant Declan Rafferty.\n· Une « prime aux résultats » pour l’entraîneur Grant Ainsley : dix pour cent si le cheval gagne, trente pour cent « si les instructions du syndicat sont suivies ».\n· Les instructions sont données oralement."
+  },
+  {
+   "key": "case068.syndicate.title",
+   "value": "CONTRAT DU SYNDICAT"
+  },
+  {
+   "key": "case068.tablet.caseLine",
+   "value": "DOSSIER #068  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case068.time.blood",
+   "value": "soir"
+  },
+  {
+   "key": "case068.time.found",
+   "value": "05.10"
+  },
+  {
+   "key": "case068.time.shout",
+   "value": "23.00"
+  },
+  {
+   "key": "case068.title",
+   "value": "Dossier #068 — Écurie"
+  },
+  {
+   "key": "case068.verdict.accident",
+   "value": "Personne — le cheval lui a donné une ruade"
+  },
+  {
+   "key": "case068.verdict.ainsley",
+   "value": "Grant Ainsley"
+  },
+  {
+   "key": "case068.verdict.rafferty",
+   "value": "Declan Rafferty"
+  },
+  {
+   "key": "case068.verdict.sione",
+   "value": "Sione Taufa"
+  },
+  {
+   "key": "case068.item.mallet.name",
+   "value": "Maillet à fer"
+  },
+  {
+   "key": "case068.item.mallet.detail",
+   "value": "Un maillet à manche court avec un vieux fer à cheval riveté sur la tête ; il est sorti de la caisse à outils du van de l’entraîneur."
+  },
+  {
+   "key": "case068.item.swab.name",
+   "value": "Tube d’échantillon manquant"
+  },
+  {
+   "key": "case068.item.swab.detail",
+   "value": "Le sac à échantillons du commissaire ; une des douze cases vide, scellé brisé."
+  },
+  {
+   "key": "case068.item.slip.name",
+   "value": "Transcription des paris"
+  },
+  {
+   "key": "case068.item.slip.detail",
+   "value": "Une transcription des paris accumulés contre le cheval quatre jours avant la coupe."
+  }
+ ]
+}
