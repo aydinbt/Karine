@@ -1,0 +1,592 @@
+{
+ "entries": [
+  {
+   "key": "case036.autopsy.body",
+   "value": "· Am rechten Hinterkopf ein einzelner Schlag mit einem schweren Gegenstand mit rundem Boden; in der Wunde Glasstaub und Wein.\n· Todeszeitpunkt: 22.00–22.30.\n· An Händen und Fingernägeln Rotwein; in seiner Tasche der Kellerschlüssel und ein kleiner Korkenzieher."
+  },
+  {
+   "key": "case036.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case036.brassard.body",
+   "value": "Transportdirektor von Maison Delorme."
+  },
+  {
+   "key": "case036.brassard.deflect",
+   "value": "Die Geschäftsbeziehungen von Maison Delorme sind vertraulich."
+  },
+  {
+   "key": "case036.brassard.sale.answer",
+   "value": "Im Namen von Maison Delorme. Nach dem bedauerlichen Vorfall mit Mercier habe ich die Privatverkäufe übernommen. Der Tod von Henri verschiebt den Verkauf, mehr nicht. Ich war den ganzen Abend in der Bibliothek; Herr Doyle ist mein Zeuge."
+  },
+  {
+   "key": "case036.brassard.sale.answer.demeanor",
+   "value": "Dreht seinen Ring mit dem Daumen."
+  },
+  {
+   "key": "case036.brassard.sale.question",
+   "value": "Haben Sie den Verkauf geleitet?"
+  },
+  {
+   "key": "case036.brassard.title",
+   "value": "Antoine Brassard — Befragung"
+  },
+  {
+   "key": "case036.caron.body",
+   "value": "Weinexperte."
+  },
+  {
+   "key": "case036.caron.bottle.answer",
+   "value": "Die zwölf Flaschen auf der Verkaufsliste. Der Korken eines 1961ers ist neu; innerhalb von sechs Monaten geöffnet und neu verkorkt. Der Wein darin ist kein 1961er, höchstens fünf Jahre alt. Ich habe es Henri um 21.45 gesagt. Er wurde kreidebleich und sagte: ‚Ich gehe in den Keller und sehe mir alle an.‘"
+  },
+  {
+   "key": "case036.caron.bottle.answer.demeanor",
+   "value": "Hebt die Augenbrauen und trommelt mit den Fingern auf den Tisch."
+  },
+  {
+   "key": "case036.caron.bottle.question",
+   "value": "Was haben Sie am Abend begutachtet?"
+  },
+  {
+   "key": "case036.caron.deflect",
+   "value": "Meine Gutachten gehören meinem Auftraggeber."
+  },
+  {
+   "key": "case036.caron.title",
+   "value": "Yves Caron — Befragung"
+  },
+  {
+   "key": "case036.caron.who.answer",
+   "value": "Der Sommelier, seit zwanzig Jahren. Henri vertraute ihm blind."
+  },
+  {
+   "key": "case036.caron.who.question",
+   "value": "Wer verwaltete den Keller?"
+  },
+  {
+   "key": "case036.cctv.event.down",
+   "value": "Kamera: Ein älterer Mann im Smoking schließt die Kellertür auf und steigt allein hinunter; die Tür fällt hinter ihm zu."
+  },
+  {
+   "key": "case036.cctv.event.pass",
+   "value": "Kamera: Ein Mann in schwarzer Weste geht mit einem Silbertablett, ohne anzuhalten, an der geschlossenen Kellertür vorbei."
+  },
+  {
+   "key": "case036.cctv.event.still",
+   "value": "Kamera: Der Flur ist lange leer; die Kellertür bleibt geschlossen und verriegelt."
+  },
+  {
+   "key": "case036.cctv.overlay",
+   "value": "CAVE-1"
+  },
+  {
+   "key": "case036.cctv.period",
+   "value": "8. Juni 2030"
+  },
+  {
+   "key": "case036.cctv.source",
+   "value": "Flurkamera"
+  },
+  {
+   "key": "case036.cellar.body",
+   "value": "Vor der Kellertür. 8. Juni 21.30 – 23.45."
+  },
+  {
+   "key": "case036.cellar.title",
+   "value": "KAMERA KELLERFLUR — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case036.clue.bell",
+   "value": "Die Glocke des Weinaufzugs läutet; die Kabine ist leer."
+  },
+  {
+   "key": "case036.clue.caron",
+   "value": "Der Experte sagt dem Hausherrn, dass der 1961er gefälscht ist."
+  },
+  {
+   "key": "case036.clue.down",
+   "value": "Der Hausherr schließt die Kellertür auf und steigt allein hinunter."
+  },
+  {
+   "key": "case036.clue.open",
+   "value": "Die Kellertür wird mit dem Ersatzschlüssel geöffnet."
+  },
+  {
+   "key": "case036.clue.pass",
+   "value": "Der Mann in schwarzer Weste geht an der geschlossenen Kellertür vorbei."
+  },
+  {
+   "key": "case036.clue.source.caron",
+   "value": "Weinexperte"
+  },
+  {
+   "key": "case036.clue.source.pinto",
+   "value": "Haushälterin"
+  },
+  {
+   "key": "case036.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case036.custody.door",
+   "value": "Durch die Tür, mit einem Nachschlüssel"
+  },
+  {
+   "key": "case036.custody.inside",
+   "value": "Gar nicht — das Opfer war allein"
+  },
+  {
+   "key": "case036.custody.label",
+   "value": "Wie kam der Täter aus dem verschlossenen Keller?"
+  },
+  {
+   "key": "case036.custody.lift",
+   "value": "Mit dem Weinaufzug in den Speisesaal"
+  },
+  {
+   "key": "case036.doyle.body",
+   "value": "Käufervertreter aus Chicago."
+  },
+  {
+   "key": "case036.doyle.buy.answer",
+   "value": "Fünf Werke im Auftrag meines Mandanten. Die Provenienzbriefe tadellos, unterschrieben von Dr. Varga. Den Versand macht Lakeshore Freight, wie immer. Ich war in der Bibliothek, mit Antoine Brassard; Wein interessiert mich nicht."
+  },
+  {
+   "key": "case036.doyle.buy.answer.demeanor",
+   "value": "Lächelt, der Blick starr."
+  },
+  {
+   "key": "case036.doyle.buy.question",
+   "value": "Was wollten Sie kaufen?"
+  },
+  {
+   "key": "case036.doyle.deflect",
+   "value": "Den Namen meines Mandanten kann ich nicht nennen."
+  },
+  {
+   "key": "case036.doyle.title",
+   "value": "Marcus Doyle — Befragung"
+  },
+  {
+   "key": "case036.epilogue.custody.door",
+   "value": "Ein Nachschlüssel wurde gesucht, nicht gefunden; die Kamera zeigte die Tür geschlossen."
+  },
+  {
+   "key": "case036.epilogue.custody.inside",
+   "value": "Dass der Keller verschlossen war, galt als Beweis für einen Unfall."
+  },
+  {
+   "key": "case036.epilogue.custody.lift",
+   "value": "Festgehalten wurde, dass der Täter den Keller über den alten Weinaufzug verließ."
+  },
+  {
+   "key": "case036.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; der Verkauf fand zwei Wochen später statt."
+  },
+  {
+   "key": "case036.epilogue.verdict.brassard",
+   "value": "Antoine Brassard wurde in Gewahrsam genommen und am nächsten Tag freigelassen; der Sommelier arbeitete weiter."
+  },
+  {
+   "key": "case036.epilogue.verdict.gaspard",
+   "value": "Gaspard de Vauclair wurde festgenommen; nach dem zweiten Weg aus dem Keller wurde nie gesucht."
+  },
+  {
+   "key": "case036.epilogue.verdict.petit",
+   "value": "Arnaud Petit wurde festgenommen. Der Verkauf wurde abgesagt. Marcus Doyle flog am nächsten Morgen nach Chicago zurück; Antoine Brassard brachte die Verkaufsakte zu Maison Delorme zurück."
+  },
+  {
+   "key": "case036.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case036.evidence.cellar",
+   "value": "Kamera Kellerflur"
+  },
+  {
+   "key": "case036.evidence.liftlog",
+   "value": "Untersuchung des Weinaufzugs"
+  },
+  {
+   "key": "case036.evidence.storage",
+   "value": "Lager des Sommeliers — Durchsuchung"
+  },
+  {
+   "key": "case036.feedback.accident",
+   "value": "Der Schlag kam von hinten, ein einziger, mit rundem Boden; am Boden der zerbrochenen Magnum ist Blut, eine aus dem Regal fallende Flasche trifft nicht so."
+  },
+  {
+   "key": "case036.feedback.brassard",
+   "value": "Der Direktor von Delorme war den ganzen Abend in der Bibliothek; der Vertreter aus Chicago und die Haushälterin bestätigen das."
+  },
+  {
+   "key": "case036.feedback.gaspard",
+   "value": "Der Sohn stritt, ging aber um 22.00 an der Tür seiner Mutter vorbei auf sein Zimmer; die Kellertür war verschlossen."
+  },
+  {
+   "key": "case036.feedback.petit",
+   "value": "Der Experte deckte die Fälschung um 21.45 auf; der Sommelier fuhr mit dem Aufzug in den Keller und wieder hinauf, die Glocke läutete um 22.17. Faser und Wein in der Kabine passen zu der Weste aus seinem Lager; im Lager sechs Jahre Fälschung."
+  },
+  {
+   "key": "case036.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case036.file.value.bureau",
+   "value": "BDS Paris — Dienststelle Belleville"
+  },
+  {
+   "key": "case036.file.value.location",
+   "value": "Fontainebleau, Schloss — Weinkeller"
+  },
+  {
+   "key": "case036.file.value.number",
+   "value": "BDP-PAR-2030-0140"
+  },
+  {
+   "key": "case036.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case036.file.value.reporter",
+   "value": "Schloss"
+  },
+  {
+   "key": "case036.gaspard.body",
+   "value": "Sohn des Opfers."
+  },
+  {
+   "key": "case036.gaspard.deflect",
+   "value": "Finanzfragen liegen bei unserem Anwalt."
+  },
+  {
+   "key": "case036.gaspard.fight.answer",
+   "value": "Wegen des Verkaufs. Das Schloss hat drei Millionen Schulden. Mein Vater sagte: ‚Wir machen diesen Verkauf mit Delorme und begleichen alles‘; ich wollte mit diesen Leuten aus Chicago keine Geschäfte machen. Um 22.00 bin ich auf mein Zimmer gegangen, an der Tür meiner Mutter vorbei."
+  },
+  {
+   "key": "case036.gaspard.fight.answer.demeanor",
+   "value": "Zupft am Ärmel seines Pullovers."
+  },
+  {
+   "key": "case036.gaspard.fight.question",
+   "value": "Sie haben mit Ihrem Vater gestritten."
+  },
+  {
+   "key": "case036.gaspard.title",
+   "value": "Gaspard de Vauclair — Befragung"
+  },
+  {
+   "key": "case036.helene.body",
+   "value": "Ehefrau des Opfers."
+  },
+  {
+   "key": "case036.helene.deflect",
+   "value": "Über die Angelegenheiten unserer Familie spreche ich nicht."
+  },
+  {
+   "key": "case036.helene.night.answer",
+   "value": "In meinem Zimmer. Gaspard ging um 22.00 durch den Flur, ich habe seine Stimme gehört. Dreißig Jahre mit Henri … Wir schliefen in getrennten Zimmern, aber zu ihm in den Keller wäre ich nicht gegangen, ich gehe nie hinunter."
+  },
+  {
+   "key": "case036.helene.night.question",
+   "value": "Wo waren Sie in der Nacht?"
+  },
+  {
+   "key": "case036.helene.title",
+   "value": "Hélène de Vauclair — Befragung"
+  },
+  {
+   "key": "case036.liftlog.body",
+   "value": "Der Handaufzug vom Keller in den Speisesaal:\n\n· Innenmaß der Kabine 70 × 60 × 90 cm. Ein durchschnittlich gebauter Erwachsener passt mit angezogenen Knien hinein; Lastgrenze 120 kg.\n· Am Kabinenboden Schleifspuren im Staub und zwei Tropfen Rotwein; auf dem Boden eine schwarze Wollfaser.\n· Auf der Kellerseite lässt sich die Kabine auch von innen nach oben ziehen, indem man mit beiden Händen an der Rolle zieht.\n· Am inneren Griff der Klappe auf der Speisesaalseite der Fingerabdruck von Arnaud Petit; der Sommelier benutzt den Aufzug täglich."
+  },
+  {
+   "key": "case036.liftlog.title",
+   "value": "UNTERSUCHUNG DES WEINAUFZUGS"
+  },
+  {
+   "key": "case036.method.fall",
+   "value": "Stürzte auf der Treppe"
+  },
+  {
+   "key": "case036.method.label",
+   "value": "Wie?"
+  },
+  {
+   "key": "case036.method.magnum",
+   "value": "Mit einer Magnumflasche auf den Kopf geschlagen"
+  },
+  {
+   "key": "case036.method.rack",
+   "value": "Ein Regal kippte um"
+  },
+  {
+   "key": "case036.offer.subtitle",
+   "value": "DER KELLER  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case036.offer.summary",
+   "value": "In Fontainebleau liegt der Besitzer eines Schlosses nach einem privaten Verkaufsabend tot in seinem verschlossenen Weinkeller. Der Schlüssel steckt in seiner Tasche."
+  },
+  {
+   "key": "case036.offer.title",
+   "value": "AKTE #036"
+  },
+  {
+   "key": "case036.person.brassard.info",
+   "value": "57 Jahre, Direktor für Transport und Privatverkäufe bei Maison Delorme."
+  },
+  {
+   "key": "case036.person.brassard.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.person.caron.info",
+   "value": "66 Jahre, Weinexperte; begutachtete die Flaschen für den Verkauf."
+  },
+  {
+   "key": "case036.person.caron.name",
+   "value": "Yves Caron"
+  },
+  {
+   "key": "case036.person.doyle.info",
+   "value": "45 Jahre, Käufervertreter aus Chicago; macht Kunstlogistik."
+  },
+  {
+   "key": "case036.person.doyle.name",
+   "value": "Marcus Doyle"
+  },
+  {
+   "key": "case036.person.gaspard.info",
+   "value": "34 Jahre, Sohn des Opfers; verwaltet die Schulden des Schlosses."
+  },
+  {
+   "key": "case036.person.gaspard.name",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.person.helene.info",
+   "value": "63 Jahre, Ehefrau des Opfers; Besitzerin des Schlosses."
+  },
+  {
+   "key": "case036.person.helene.name",
+   "value": "Hélène de Vauclair"
+  },
+  {
+   "key": "case036.person.petit.info",
+   "value": "52 Jahre, Sommelier des Schlosses; seit zwanzig Jahren für den Keller verantwortlich."
+  },
+  {
+   "key": "case036.person.petit.name",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.person.pinto.info",
+   "value": "58 Jahre, Haushälterin des Schlosses."
+  },
+  {
+   "key": "case036.person.pinto.name",
+   "value": "Rosa Pinto"
+  },
+  {
+   "key": "case036.petit.body",
+   "value": "Sommelier."
+  },
+  {
+   "key": "case036.petit.deflect",
+   "value": "Die Kellerbücher habe nicht ich, sondern Monsieur."
+  },
+  {
+   "key": "case036.petit.night.answer",
+   "value": "In der Bibliothek, Cognac für die Gäste. Um 22.03 bin ich durch den Flur gegangen, die Kamera wird mich gesehen haben; die Kellertür war zu, Monsieur war unten, ich habe nicht gestört."
+  },
+  {
+   "key": "case036.petit.night.answer.demeanor",
+   "value": "Dreht seinen silbernen Tastevin zwischen den Fingern."
+  },
+  {
+   "key": "case036.petit.night.question",
+   "value": "Wo waren Sie zwischen 22.00 und 22.30?"
+  },
+  {
+   "key": "case036.petit.night.variant0",
+   "value": "Der Aufzug? Dieser Aufzug trägt seit zwanzig Jahren nur Flaschen. Ein Mensch passt da nicht hinein. Ich war um 22.03 im Flur."
+  },
+  {
+   "key": "case036.petit.title",
+   "value": "Arnaud Petit — Befragung"
+  },
+  {
+   "key": "case036.petit_2.body",
+   "value": "Zur Durchsuchung."
+  },
+  {
+   "key": "case036.petit_2.lift.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.liftlog",
+   "value": "Meine Spuren sind jeden Tag dort. Das beweist nichts."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.storage",
+   "value": "Sechs Jahre. Niemand hat etwas gemerkt, bis dieser alte Experte am Korken roch. Nach dem Cognac bin ich mit dem Aufzug aus dem Saal hinuntergefahren, Monsieur zog an den Regalen eine Flasche nach der anderen heraus. ‚Arnaud, was ist das?‘, sagte er. Mit der Magnum in meiner Hand … Dann habe ich mich in die Kabine gezwängt und an der Rolle gezogen. Die Tür blieb die ganze Zeit verschlossen, der Schlüssel war in seiner Tasche."
+  },
+  {
+   "key": "case036.petit_2.lift.question",
+   "value": "Sie waren es, der um 22.17 mit dem Aufzug in den Saal hinauffuhr."
+  },
+  {
+   "key": "case036.petit_2.title",
+   "value": "Arnaud Petit — zweite Befragung"
+  },
+  {
+   "key": "case036.pinto.bell.answer",
+   "value": "Die Glocke des Weinaufzugs an der Wand des Speisesaals läutete um 22.17. Sie läutet, wenn der Aufzug aus dem Keller heraufkommt. Ich bin hingegangen, die Kabine war leer. Monsieur schickt manchmal eine Flasche herauf, wenn nicht … eine leere Kabine war seltsam. Ich habe es niemandem gesagt."
+  },
+  {
+   "key": "case036.pinto.bell.answer.demeanor",
+   "value": "Faltet den Zipfel ihrer Schürze und streicht ihn glatt."
+  },
+  {
+   "key": "case036.pinto.bell.question",
+   "value": "Haben Sie in der Nacht etwas gehört?"
+  },
+  {
+   "key": "case036.pinto.body",
+   "value": "Haushälterin."
+  },
+  {
+   "key": "case036.pinto.deflect",
+   "value": "Ich führe das Haus, den Rest weiß ich nicht."
+  },
+  {
+   "key": "case036.pinto.title",
+   "value": "Rosa Pinto — Befragung"
+  },
+  {
+   "key": "case036.pinto.who.answer",
+   "value": "Niemand. Die Gäste waren in der Bibliothek. Monsieur Arnaud war eine Weile nicht in der Bibliothek, ich dachte, er holt eine Flasche aus dem Keller."
+  },
+  {
+   "key": "case036.pinto.who.question",
+   "value": "Wer war im Saal, als die Glocke läutete?"
+  },
+  {
+   "key": "case036.report.body",
+   "value": "In der Nacht des 8. Juni 2030 wurde in einem Schloss bei Fontainebleau nach einem privaten Kunstverkauf der Schlossherr Henri de Vauclair (68) tot in seinem eigenen Weinkeller aufgefunden. Am Kopf eine schwere Wunde; neben ihm eine zerbrochene Magnum.\n\nDie einzige Tür des Kellers war verschlossen; der Schlüssel in der Tasche des Opfers. Die Tür wurde um 23.40 mit dem Ersatzschlüssel der Haushälterin Rosa Pinto geöffnet.\n\nIm Schloss in jener Nacht: seine Frau Hélène, sein Sohn Gaspard, der Sommelier Arnaud Petit, die Haushälterin Rosa Pinto, der Weinexperte Yves Caron, der Käufervertreter Marcus Doyle aus Chicago, Antoine Brassard von Maison Delorme."
+  },
+  {
+   "key": "case036.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case036.request.liftlog",
+   "value": "Weinaufzug zur Untersuchung schicken"
+  },
+  {
+   "key": "case036.request.storage",
+   "value": "Durchsuchungsbeschluss für das Lager von Arnaud Petit beantragen"
+  },
+  {
+   "key": "case036.storage.body",
+   "value": "Ein auf den Namen Arnaud Petit gemietetes Lager in Melun (mit Genehmigung der Dienststellenleitung):\n\n· 214 leere, künstlich gealterte Weinetiketten; große Schlossjahrgänge von 1945–1990. Kartonweise alte Korken, Tee- und Kaffeefarbe.\n· 86 echte Flaschen aus dem Schlosskeller; Korrespondenz mit einem Käufer in Luxemburg: ‚1,4 Millionen Euro in sechs Jahren‘.\n· Eine hängende schwarze Wollweste; am Kragen Glasstaub und Rotwein; ihre Fasern gleichen der Faser aus dem Aufzug."
+  },
+  {
+   "key": "case036.storage.title",
+   "value": "LAGER DES SOMMELIERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case036.summary.evidence",
+   "value": "Die Flurkamera zeigte, dass die Tür nie geöffnet wurde, die Haushälterin die um 22.17 läutende Aufzugsglocke, die Untersuchung des Aufzugs Faser und Wein in der Kabine. Die mit zwei Gründen beantragte Durchsuchung des Lagers lieferte die Fälschungen und die Weste."
+  },
+  {
+   "key": "case036.summary.lesson",
+   "value": "Ein verschlossener Raum ist nur an den bekannten Türen verschlossen. Frag nach dem Weg, den die Person, die das Haus führt, jeden Tag benutzt."
+  },
+  {
+   "key": "case036.summary.location",
+   "value": "Fontainebleau — Juni 2030"
+  },
+  {
+   "key": "case036.summary.truth",
+   "value": "Der Sommelier Arnaud Petit tauschte seit sechs Jahren die großen Weine des Schlosses gegen Fälschungen aus und verkaufte die echten. Als der Experte Yves Caron am Abend des Privatverkaufs einen 1961er als Fälschung erkannte, stieg Henri de Vauclair in den Keller hinab. In einer Pause beim Cognacservice fuhr Petit mit dem Weinaufzug aus dem Speisesaal hinunter, tötete den Hausherrn, der an den Regalen Flaschen herauszog, mit der Magnum, zwängte sich in die Kabine und zog sich an der Rolle hinauf. Die Tür blieb von Anfang bis Ende verschlossen."
+  },
+  {
+   "key": "case036.suspect.label",
+   "value": "Wer hat Henri de Vauclair getötet?"
+  },
+  {
+   "key": "case036.tablet.caseLine",
+   "value": "AKTE #036  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case036.time.bell",
+   "value": "22.17"
+  },
+  {
+   "key": "case036.time.caron",
+   "value": "21.45"
+  },
+  {
+   "key": "case036.time.down",
+   "value": "21.58"
+  },
+  {
+   "key": "case036.time.open",
+   "value": "23.40"
+  },
+  {
+   "key": "case036.time.pass",
+   "value": "22.03"
+  },
+  {
+   "key": "case036.time.still",
+   "value": "22.04–23.39"
+  },
+  {
+   "key": "case036.title",
+   "value": "Akte #036 — Der Keller"
+  },
+  {
+   "key": "case036.verdict.accident",
+   "value": "Niemand — eine Flasche fiel aus dem Regal"
+  },
+  {
+   "key": "case036.verdict.brassard",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.verdict.gaspard",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.verdict.petit",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.item.magnum.name",
+   "value": "Zerbrochene Magnumflasche"
+  },
+  {
+   "key": "case036.item.magnum.detail",
+   "value": "Auf dem Kellerboden eine am Hals zerbrochene Magnum; das Etikett datiert 1961."
+  },
+  {
+   "key": "case036.item.labels.name",
+   "value": "Leere Etiketten"
+  },
+  {
+   "key": "case036.item.labels.detail",
+   "value": "In dem vom Sommelier gemieteten Lager kartonweise künstlich gealterte leere Weinetiketten und Korken."
+  },
+  {
+   "key": "case036.item.lift.name",
+   "value": "Weinaufzug"
+  },
+  {
+   "key": "case036.item.lift.detail",
+   "value": "Alter Handaufzug vom Keller in den Speisesaal; am Kabinenboden Staubspuren und ein Weintropfen."
+  }
+ ]
+}
