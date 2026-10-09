@@ -1,0 +1,864 @@
+{
+ "entries": [
+  {
+   "key": "case017.aisha.body",
+   "value": "Avec la responsable de l’enquête interne."
+  },
+  {
+   "key": "case017.aisha.deflect",
+   "value": "Le dossier de l’enquête est confidentiel ; je ne peux pas le dire."
+  },
+  {
+   "key": "case017.aisha.met.answer",
+   "value": "Hier soir. À 22.40, dans l’escalier est du pont. Il voulait parler loin des bureaux. « Je n’ai pas écrit les lettres de transmission, il a dit. J’ai envoyé la preuve à quelqu’un. Une personne de plus vient ce soir. » Je ne l’ai pas cru. Je suis partie vingt minutes plus tard."
+  },
+  {
+   "key": "case017.aisha.met.answer.demeanor",
+   "value": "Soutient son regard."
+  },
+  {
+   "key": "case017.aisha.met.question",
+   "value": "Quand l’avez-vous vu pour la dernière fois ?"
+  },
+  {
+   "key": "case017.aisha.review.answer",
+   "value": "Vers le licenciement. La lettre de transmission de Tanner Lane semblait écrite pour protéger son ancien équipier. Je le pensais. J’ai été dure avec lui."
+  },
+  {
+   "key": "case017.aisha.review.question",
+   "value": "Vers quoi allait l’enquête sur Malcolm Reeve ?"
+  },
+  {
+   "key": "case017.aisha.title",
+   "value": "Aisha Rahman — audition"
+  },
+  {
+   "key": "case017.aisha.who.answer",
+   "value": "Il ne l’a pas dit. Il attendait un message sur son téléphone, il regardait sans cesse l’écran."
+  },
+  {
+   "key": "case017.aisha.who.question",
+   "value": "Qui devait venir ?"
+  },
+  {
+   "key": "case017.aisha_log.body",
+   "value": "10 mai 2029, véhicule immatriculé au nom d’Aisha Rahman.\n\n· 22.31 · Rotherhithe, Salter Road · vers le bassin\n· 23.08 · Rotherhithe, Lower Road · s’éloignant du bassin\n· 23.31 · Greenwich · à 400 mètres du domicile\n\nLe véhicule n’est passé devant aucun point de lecture de 23.31 jusqu’au matin."
+  },
+  {
+   "key": "case017.aisha_log.title",
+   "value": "RELEVÉ DE LECTURE DE PLAQUES — VÉHICULE D’AISHA RAHMAN"
+  },
+  {
+   "key": "case017.autopsy.body",
+   "value": "· Cause du décès : fractures multiples et hémorragie interne consécutives à une chute de hauteur.\n· Un coup distinct à l’arrière de la tête, reçu avant la chute : compatible avec un objet étroit, cylindrique et dur. De direction différente des marques d’impact sur les pierres du quai.\n· Ecchymoses récentes sur le haut des deux bras, compatibles avec des bouts de doigts.\n· Aucune marque sur les mains ou les paumes indiquant une prise sur la rambarde.\n· Pas d’alcool dans le sang.\n· Heure estimée du décès : 23.30 – 00.30."
+  },
+  {
+   "key": "case017.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case017.badge.body",
+   "value": "bube Londres, antenne de Southwark. Titulaire : Bora.\n\n· 08.52 · entrée\n· 18.40 · sortie\n\nAucune entrée par carte de 18.40 jusqu’à 08.47 le 11 mai. Registre de la sécurité de nuit : « Troisième étage vide après 21.00. »"
+  },
+  {
+   "key": "case017.badge.title",
+   "value": "REGISTRE DES ENTRÉES DE L’ANTENNE — BORA, 10 MAI"
+  },
+  {
+   "key": "case017.bank.body",
+   "value": "Demandé par : contrôle financier de bube Londres. 2023–2029, opérations choisies.\n\n· 2 à 6 jours après chaque lettre de transmission, dépôts d’espèces aux distributeurs proches de l’antenne, 41 000 £ au total.\n· Depuis 2024, tous les trois mois, un virement de « conseil » d’une société immatriculée à Berlin : Arendt Handelsgesellschaft. 118 000 € au total.\n· Titulaire du compte : Graham Holt.\n\nNote : Arendt Handelsgesellschaft apparaît comme employeur d’un témoin dans deux des six dossiers clos."
+  },
+  {
+   "key": "case017.bank.title",
+   "value": "RELEVÉ DE COMPTE — GRAHAM HOLT"
+  },
+  {
+   "key": "case017.cam.body",
+   "value": "Caméra murale d’un entrepôt au nord-est du bassin, qui voit le tablier du pont de loin et de côté. 10 mai 23.20 – 11 mai 00.10. Les images sont sombres ; les visages sont indiscernables."
+  },
+  {
+   "key": "case017.cam.title",
+   "value": "CAMÉRA MURALE DE L’ENTREPÔT — transcription du relevé"
+  },
+  {
+   "key": "case017.cctv.event.leave",
+   "value": "Caméra 03 : l’homme qui reste se penche, ramasse quelque chose, le met dans sa poche. Il marche vers la tour d’escalier ouest et disparaît."
+  },
+  {
+   "key": "case017.cctv.event.meet",
+   "value": "Caméra 03 : deux hommes au milieu du tablier du pont. L’un est appuyé à la rambarde ; le second est venu de la tour d’escalier ouest, un objet long et fin à la main."
+  },
+  {
+   "key": "case017.cctv.event.strike",
+   "value": "Caméra 03 : le nouvel arrivant lève le bras et frappe l’autre à l’arrière de la tête. Il plaque contre la rambarde l’homme qui chancelle, des deux bras, et le pousse par-dessus. Un corps tombe du tablier."
+  },
+  {
+   "key": "case017.cctv.overlay",
+   "value": "CAM 03"
+  },
+  {
+   "key": "case017.cctv.period",
+   "value": "10 mai 2029, 23.20 – 00.10"
+  },
+  {
+   "key": "case017.cctv.source",
+   "value": "Caméra murale de l’entrepôt"
+  },
+  {
+   "key": "case017.clue.aisha_in",
+   "value": "La voiture d’Aisha Rahman arrive au bassin."
+  },
+  {
+   "key": "case017.clue.aisha_out",
+   "value": "La voiture d’Aisha Rahman quitte le bassin."
+  },
+  {
+   "key": "case017.clue.badgeout",
+   "value": "Bora quitte l’antenne."
+  },
+  {
+   "key": "case017.clue.drafts",
+   "value": "Six lettres de transmission sont rédigées sur le même compte de l’accueil des dossiers."
+  },
+  {
+   "key": "case017.clue.drop",
+   "value": "Le téléphone de Reeve disparaît du réseau."
+  },
+  {
+   "key": "case017.clue.holt_in",
+   "value": "Le téléphone de Graham Holt est au bassin."
+  },
+  {
+   "key": "case017.clue.mail",
+   "value": "Le chef de l’accueil des dossiers reçoit l’enveloppe de Reeve « Pour Bora »."
+  },
+  {
+   "key": "case017.clue.sms",
+   "value": "Un message « Retrouvez-moi sur le pont » part au nom du poste 214."
+  },
+  {
+   "key": "case017.clue.source.aisha_log",
+   "value": "Relevé de plaques"
+  },
+  {
+   "key": "case017.clue.source.badge",
+   "value": "Registre des entrées de l’antenne"
+  },
+  {
+   "key": "case017.clue.source.drafts",
+   "value": "Journal des documents"
+  },
+  {
+   "key": "case017.clue.source.holt_phone",
+   "value": "Relevé de localisation de Holt"
+  },
+  {
+   "key": "case017.clue.source.mailroom",
+   "value": "Registre du courrier"
+  },
+  {
+   "key": "case017.clue.source.phone",
+   "value": "Relevé téléphonique de Reeve"
+  },
+  {
+   "key": "case017.clue.strike",
+   "value": "Sur le pont, un homme en frappe un autre et le pousse par-dessus la rambarde."
+  },
+  {
+   "key": "case017.custody.aisha",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.custody.bora",
+   "value": "Bora — le message venait de son poste"
+  },
+  {
+   "key": "case017.custody.graham",
+   "value": "Graham Holt — sous le nom de ta ligne de bureau"
+  },
+  {
+   "key": "case017.custody.label",
+   "value": "Qui a envoyé le message qui a fait venir Reeve sur le pont ?"
+  },
+  {
+   "key": "case017.custody.none",
+   "value": "Il n’y avait pas de message ; Reeve y est allé de lui-même"
+  },
+  {
+   "key": "case017.drafts.body",
+   "value": "Demandé par : informatique de bube Londres. Les six lettres de transmission de la lettre de Reeve, 2023–2029.\n\nLe premier brouillon des six a été créé sur le même compte de l’antenne : fileintake-03. Les six contiennent la même phrase : « il est recommandé de clore rapidement le dossier ». Elles ont été envoyées par e-mail à Reeve pour signature ; Reeve n’en a modifié le texte dans aucune.\n\nTitulaire du compte : Graham Holt, chef de l’accueil des dossiers.\n\nNote complémentaire : la note de transmission de Cutter’s Basin du 11 mai 07.30 a aussi été créée sur le même compte."
+  },
+  {
+   "key": "case017.drafts.title",
+   "value": "JOURNAL DES DOCUMENTS — SIX LETTRES DE TRANSMISSION"
+  },
+  {
+   "key": "case017.epilogue.custody.aisha",
+   "value": "Le téléphone d’Aisha Rahman a été examiné ; rien n’est apparu. Le véritable expéditeur du message est resté sans nom dans le dossier."
+  },
+  {
+   "key": "case017.epilogue.custody.bora",
+   "value": "L’enquête interne t’a entendu. Ton registre des entrées t’a disculpé, mais le dossier t’a été retiré ; Holt a transmis le nouveau dossier depuis son propre bureau."
+  },
+  {
+   "key": "case017.epilogue.custody.graham",
+   "value": "L’antenne a fermé la faille de la passerelle du standard la même semaine. Le poste de Bora est passé du 214 au 215 ; l’ancien numéro n’a pas été retiré de l’annuaire, mais une note a été ajoutée à côté : « Malcolm Reeve, chef de liaison du district. A répondu à son dernier message. »"
+  },
+  {
+   "key": "case017.epilogue.custody.none",
+   "value": "Le relevé téléphonique est resté non lu dans le dossier. La dernière réponse de Reeve, « Je suis là. », n’est parvenue à personne."
+  },
+  {
+   "key": "case017.epilogue.verdict.aisha",
+   "value": "Aisha Rahman a été suspendue. Graham Holt a écrit sa septième note de transmission : « il est recommandé de clore rapidement le dossier »."
+  },
+  {
+   "key": "case017.epilogue.verdict.garrett",
+   "value": "Une nouvelle accusation a été ajoutée au dossier de Garrett. Un mot de remerciement est arrivé à l’antenne de la part de l’accueil des dossiers."
+  },
+  {
+   "key": "case017.epilogue.verdict.graham",
+   "value": "Graham Holt a été arrêté pour meurtre et corruption. Les six dossiers clos ont été rouverts ; dans deux, la mauvaise personne avait été laissée libre, et dans un, un innocent a été libéré."
+  },
+  {
+   "key": "case017.epilogue.verdict.nobody",
+   "value": "La mort de Malcolm Reeve a été classée comme un suicide. L’enquête interne le concernant s’est conclue par la mention « s’est donné la mort en reconnaissant sa culpabilité »."
+  },
+  {
+   "key": "case017.evidence.aisha_log",
+   "value": "Relevé de plaques"
+  },
+  {
+   "key": "case017.evidence.letter",
+   "value": "Brouillon de lettre"
+  },
+  {
+   "key": "case017.evidence.mailroom",
+   "value": "Registre du courrier de l’antenne"
+  },
+  {
+   "key": "case017.evidence.phone",
+   "value": "Relevé téléphonique de Reeve"
+  },
+  {
+   "key": "case017.evidence.switchboard",
+   "value": "Journal du standard de l’antenne"
+  },
+  {
+   "key": "case017.feedback.aisha",
+   "value": "Aisha a rencontré Reeve et l’a accablé, mais elle a quitté le bassin à 23.08 ; la chute a eu lieu à 23.47."
+  },
+  {
+   "key": "case017.feedback.garrett",
+   "value": "Garrett a payé, mais ne savait pas qui il payait ; cette nuit-là il était en cellule et n’a envoyé personne vers Reeve."
+  },
+  {
+   "key": "case017.feedback.graham",
+   "value": "Pendant six ans, il a rédigé les lettres de transmission, il a reçu l’enveloppe de Reeve, il a appelé Reeve en utilisant ta ligne. Son téléphone était sur le pont ; le téléphone de Reeve était dans son tiroir."
+  },
+  {
+   "key": "case017.feedback.nobody",
+   "value": "Le coup à l’arrière de la tête, les ecchymoses sur les bras et l’enregistrement de la caméra désignent une poussée ; la tour d’escalier bouchait la vue du témoin."
+  },
+  {
+   "key": "case017.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case017.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case017.file.value.location",
+   "value": "Rotherhithe, Cutter’s Basin — vieille passerelle"
+  },
+  {
+   "key": "case017.file.value.number",
+   "value": "BDS-LDN-2029-0119"
+  },
+  {
+   "key": "case017.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case017.file.value.reporter",
+   "value": "Riverain"
+  },
+  {
+   "key": "case017.garrett.body",
+   "value": "Sur la lettre de Reeve."
+  },
+  {
+   "key": "case017.garrett.deflect",
+   "value": "Je n’en parlerai pas sans mon avocat."
+  },
+  {
+   "key": "case017.garrett.malcolm.answer",
+   "value": "Malcolm ? Malcolm ne m’a jamais couvert, même en patrouille. Cet homme était un règlement ambulant. Demandez à celui qui a écrit la lettre de transmission."
+  },
+  {
+   "key": "case017.garrett.malcolm.answer.demeanor",
+   "value": "Un rire bref et sec."
+  },
+  {
+   "key": "case017.garrett.malcolm.question",
+   "value": "Malcolm Reeve a-t-il signé pour vous protéger ?"
+  },
+  {
+   "key": "case017.garrett.paid.answer",
+   "value": "…On m’a donné un numéro de téléphone, il y a des années. « Si ton dossier arrive à l’antenne, appelle ; quinze cents le fait classer. » J’ai appelé. Je ne connais pas la voix, je ne connais pas le visage. En liquide, dans une poubelle. Ne me demandez pas qui est au-dessus."
+  },
+  {
+   "key": "case017.garrett.paid.answer.demeanor",
+   "value": "Baisse la voix."
+  },
+  {
+   "key": "case017.garrett.paid.question",
+   "value": "Avez-vous payé quelqu’un pour faire classer rapidement le dossier de Tanner Lane ?"
+  },
+  {
+   "key": "case017.garrett.quote",
+   "value": "« Malcolm était un règlement ambulant. »"
+  },
+  {
+   "key": "case017.garrett.title",
+   "value": "Neil Garrett — audition à la maison d’arrêt"
+  },
+  {
+   "key": "case017.graham.body",
+   "value": "Avec le chef de l’accueil des dossiers."
+  },
+  {
+   "key": "case017.graham.deflect",
+   "value": "Je ne peux pas le dire sans regarder les registres."
+  },
+  {
+   "key": "case017.graham.drafts.answer",
+   "value": "Bien sûr. Les modèles, c’est mon travail. Les chefs sont occupés ; je rédige, ils lisent et signent. Malcolm n’a jamais objecté."
+  },
+  {
+   "key": "case017.graham.drafts.answer.demeanor",
+   "value": "Détendu ; croise les bras."
+  },
+  {
+   "key": "case017.graham.drafts.question",
+   "value": "Les brouillons de six lettres de transmission ont été créés sur votre compte."
+  },
+  {
+   "key": "case017.graham.envelope.answer",
+   "value": "Je reçois cent enveloppes par jour. Je l’aurai mise dans le bac de distribution. Si elle s’est perdue, c’est le problème du service courrier."
+  },
+  {
+   "key": "case017.graham.envelope.question",
+   "value": "Vous avez reçu l’enveloppe que Reeve a envoyée à Bora."
+  },
+  {
+   "key": "case017.graham.night.answer",
+   "value": "Chez moi, à Bermondsey. Je me suis couché tôt."
+  },
+  {
+   "key": "case017.graham.night.question",
+   "value": "Où étiez-vous la nuit du 10 mai ?"
+  },
+  {
+   "key": "case017.graham.quote",
+   "value": "« Ceux qui sont au-dessus de moi sont là-bas. »"
+  },
+  {
+   "key": "case017.graham.title",
+   "value": "Graham Holt — audition"
+  },
+  {
+   "key": "case017.graham_2.body",
+   "value": "Sur le standard et le relevé de localisation."
+  },
+  {
+   "key": "case017.graham_2.sms.answer",
+   "value": "Vingt personnes à l’antenne peuvent entrer dans cette passerelle. Mon mot de passe est écrit sur mon bureau ; tout le monde le connaît."
+  },
+  {
+   "key": "case017.graham_2.sms.answer.demeanor",
+   "value": "Pour la première fois, la voix monte."
+  },
+  {
+   "key": "case017.graham_2.sms.question",
+   "value": "Le message de 23.21 a été envoyé par votre compte, au nom de la ligne de Bora, depuis les abords du pont."
+  },
+  {
+   "key": "case017.graham_2.there.answer",
+   "value": "…Malcolm m’a appelé, il a demandé pour l’enveloppe. Je suis allé parler. Je l’ai laissé debout. Il était appuyé à la rambarde, il pleurait. Le reste, c’était sa décision."
+  },
+  {
+   "key": "case017.graham_2.there.question",
+   "value": "Votre téléphone était à Cutter’s Basin entre 23.12 et 23.58."
+  },
+  {
+   "key": "case017.graham_2.title",
+   "value": "Graham Holt — seconde audition"
+  },
+  {
+   "key": "case017.graham_3.berlin.answer",
+   "value": "J’ai écrit six phrases, en six ans. L’argent venait de Berlin. Je n’ai jamais su qui l’envoyait, et je ne voulais pas le savoir. Ceux qui sont au-dessus de moi sont là-bas. Vous ne les trouverez jamais."
+  },
+  {
+   "key": "case017.graham_3.berlin.answer.demeanor",
+   "value": "Sourit pour la première fois."
+  },
+  {
+   "key": "case017.graham_3.berlin.question",
+   "value": "Qui est la société de Berlin ?"
+  },
+  {
+   "key": "case017.graham_3.body",
+   "value": "Sur le procès-verbal de perquisition."
+  },
+  {
+   "key": "case017.graham_3.bridge.answer",
+   "value": "Je voulais lui rendre l’enveloppe, non pas pour qu’il ne la lise pas, mais pour qu’il réfléchisse. « Bora saura tout demain », il a dit. La lampe était dans ma main. …Une fois. Puis la rambarde. C’est tout."
+  },
+  {
+   "key": "case017.graham_3.bridge.answer.demeanor",
+   "value": "Pose ses mains à plat sur la table."
+  },
+  {
+   "key": "case017.graham_3.bridge.question",
+   "value": "Le téléphone de Reeve est dans votre tiroir à outils."
+  },
+  {
+   "key": "case017.graham_3.title",
+   "value": "Graham Holt — troisième audition"
+  },
+  {
+   "key": "case017.holt_phone.body",
+   "value": "Ligne : Graham Holt.\n\n10 mai 2029\n· 22.10 · antenne : Bermondsey (domicile)\n· 23.12 · antenne : Rotherhithe, Cutter’s Basin\n· 23.21 · session de données · Rotherhithe, Cutter’s Basin\n· 23.58 · antenne : Rotherhithe, Lower Road\n· 00.20 · antenne : Bermondsey (domicile)"
+  },
+  {
+   "key": "case017.holt_phone.title",
+   "value": "RELEVÉ DE LOCALISATION TÉLÉPHONIQUE — GRAHAM HOLT"
+  },
+  {
+   "key": "case017.joan.body",
+   "value": "Déposition de son épouse."
+  },
+  {
+   "key": "case017.joan.deflect",
+   "value": "Malcolm l’aurait su. Pas moi."
+  },
+  {
+   "key": "case017.joan.letter.answer",
+   "value": "Une lettre. À l’inspecteur turc, celui qui a résolu le dossier de Tanner Lane. « Il doit savoir pourquoi j’ai signé ça », il a dit. Il l’a postée à l’antenne mardi matin. Le brouillon doit être sur son ordinateur."
+  },
+  {
+   "key": "case017.joan.letter.answer.demeanor",
+   "value": "Pour la première fois, la voix tremble."
+  },
+  {
+   "key": "case017.joan.letter.question",
+   "value": "Qu’écrivait-il ?"
+  },
+  {
+   "key": "case017.joan.mood.answer",
+   "value": "Il ne dormait pas. Mais ce n’était pas un homme sur le point de se tuer ; c’était un homme qui essayait de réparer quelque chose. Il écrivait la nuit dans son bureau."
+  },
+  {
+   "key": "case017.joan.mood.question",
+   "value": "Comment allait-il ces dernières semaines ?"
+  },
+  {
+   "key": "case017.joan.night.answer",
+   "value": "Il est sorti à neuf heures. « Je vois quelqu’un, puis tout sera fini », il a dit. J’ai dit : « L’enquête ? » « Non, il a dit, le début. »"
+  },
+  {
+   "key": "case017.joan.night.answer.demeanor",
+   "value": "Fait tourner son alliance sans arrêt."
+  },
+  {
+   "key": "case017.joan.night.question",
+   "value": "Qu’a fait Malcolm hier soir ?"
+  },
+  {
+   "key": "case017.joan.quote",
+   "value": "« C’était un homme qui essayait de réparer quelque chose. »"
+  },
+  {
+   "key": "case017.joan.title",
+   "value": "Joan Reeve — audition"
+  },
+  {
+   "key": "case017.letter.body",
+   "value": "Nom du fichier : « Pour Bora ». Dernier enregistrement : 7 mai 2029, 02.14.\n\n« Je n’ai pas écrit la lettre de transmission de Tanner Lane. Depuis six ans, des textes de transmission tout prêts me parviennent de l’accueil des dossiers de l’antenne ; “routine, votre signature suffit”. J’ai signé. Pas sans lire — mais sans questionner. À cause de mon passé d’équipier de Neil Garrett, personne ne me croira, je le sais.\n\nLa liste des six dossiers est jointe. Tous ont été transmis avec la phrase “il est recommandé de clore rapidement le dossier”, et tous ont été clos. Si vous regardez les journaux des documents de ces textes, vous verrez qui les a écrits. J’ai eu peur de regarder. J’ai posté l’original à l’antenne, à votre nom. »"
+  },
+  {
+   "key": "case017.letter.title",
+   "value": "BROUILLON DE LETTRE — ORDINATEUR PERSONNEL DE MALCOLM REEVE"
+  },
+  {
+   "key": "case017.mailroom.body",
+   "value": "bube Londres, antenne de Southwark, courrier entrant.\n\n· 09.12 · enveloppe, manuscrit « POUR BORA — PERSONNEL » · expéditeur : M. Reeve · n° d’entrée 0510-07\n· 09.20 · reçue pour distribution par : Graham Holt, accueil des dossiers\n\nLa colonne de distribution est vide. L’enveloppe n’est pas arrivée sur le bureau de Bora."
+  },
+  {
+   "key": "case017.mailroom.title",
+   "value": "REGISTRE DU COURRIER DE L’ANTENNE — 10 MAI"
+  },
+  {
+   "key": "case017.method.fell",
+   "value": "Il est tombé en s’appuyant sur la rambarde"
+  },
+  {
+   "key": "case017.method.jumped",
+   "value": "Il est monté sur la rambarde et a sauté"
+  },
+  {
+   "key": "case017.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case017.method.struck",
+   "value": "Il a été frappé à l’arrière de la tête et poussé par-dessus la rambarde"
+  },
+  {
+   "key": "case017.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case017.offer.subtitle",
+   "value": "LE PONT  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case017.offer.summary",
+   "value": "Le chef de liaison du district qui a signé la lettre de transmission de Tanner Lane est retrouvé mort sous une vieille passerelle de Rotherhithe. Un témoin dit « il a sauté ». Le dernier message sur son téléphone venait de ta ligne de bureau."
+  },
+  {
+   "key": "case017.offer.title",
+   "value": "DOSSIER #017"
+  },
+  {
+   "key": "case017.person.aisha.info",
+   "value": "40 ans, responsable de l’enquête interne de bube. Mène l’enquête sur Malcolm Reeve depuis avril."
+  },
+  {
+   "key": "case017.person.aisha.name",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.person.garrett.info",
+   "value": "45 ans, en détention provisoire pour le dossier de Tanner Lane ; attend son procès à la maison d’arrêt de Thamesmead."
+  },
+  {
+   "key": "case017.person.garrett.name",
+   "value": "Neil Garrett"
+  },
+  {
+   "key": "case017.person.graham.info",
+   "value": "52 ans, chef de l’accueil des dossiers à l’antenne bube de Londres. Chaque dossier transmis passe par son bureau."
+  },
+  {
+   "key": "case017.person.graham.name",
+   "value": "Graham Holt"
+  },
+  {
+   "key": "case017.person.joan.info",
+   "value": "56 ans, infirmière retraitée. L’épouse de Malcolm Reeve depuis trente ans."
+  },
+  {
+   "key": "case017.person.joan.name",
+   "value": "Joan Reeve"
+  },
+  {
+   "key": "case017.person.tommy.info",
+   "value": "63 ans, vit sur une péniche amarrée à Cutter’s Basin ; surveille l’embarcadère la nuit."
+  },
+  {
+   "key": "case017.person.tommy.name",
+   "value": "Tommy Blake"
+  },
+  {
+   "key": "case017.phone.body",
+   "value": "Ligne : Malcolm Reeve. Le téléphone lui-même a disparu ; relevé de l’opérateur.\n\n10 mai 2029\n· 21.58 · appel sortant · Aisha Rahman · 2 min\n· 23.21 · SMS entrant · expéditeur : standard de l’antenne bube de Londres, poste 214\n   « J’ai l’enveloppe. Retrouvez-moi sur le pont. Venez seul. — Bora »\n· 23.22 · SMS sortant · au même numéro · « Je suis là. »\n· 23.52 · le téléphone disparaît du réseau · dernière antenne : Rotherhithe, Cutter’s Basin\n\nLe poste 214 figure dans l’annuaire de l’antenne comme la ligne de bureau de Bora."
+  },
+  {
+   "key": "case017.phone.title",
+   "value": "RELEVÉ TÉLÉPHONIQUE — MALCOLM REEVE"
+  },
+  {
+   "key": "case017.plan.body",
+   "value": "Croquis vu du dessus d’après les mesures de l’équipe des lieux. La vieille passerelle ferroviaire qui traverse le bassin à l’horizontale ; une tour d’escalier en brique à son extrémité ouest, un escalier ouvert à son extrémité est. Au sud, le quai et les péniches amarrées, avec une vieille grue de chargement sur le quai. Au nord-est, une caméra murale d’entrepôt.\n\nLes positions données par les témoins et montrées par les relevés sont marquées sur le plan."
+  },
+  {
+   "key": "case017.plan.incident",
+   "value": "Croix : le point du tablier où la rambarde est tordue ; le corps a été trouvé sur le quai juste en dessous. Touche un repère pour tracer la zone visible depuis ce point."
+  },
+  {
+   "key": "case017.plan.marker.aisha_claim",
+   "value": "Aisha Rahman — où elle a parlé avec Reeve : escalier est, 22.40"
+  },
+  {
+   "key": "case017.plan.marker.tommy_claim",
+   "value": "Tommy Blake — où il dit qu’il était : le pont de la péniche"
+  },
+  {
+   "key": "case017.plan.marker.warehouse_cam",
+   "value": "Caméra de l’entrepôt — tablier du pont, 23.20 – 00.10"
+  },
+  {
+   "key": "case017.plan.title",
+   "value": "PLAN DES LIEUX — PASSERELLE DE CUTTER’S BASIN"
+  },
+  {
+   "key": "case017.recon.r_aisha",
+   "value": "Reeve rencontre la responsable de l’enquête interne sur le pont ; Aisha part à 23.08."
+  },
+  {
+   "key": "case017.recon.r_bridge",
+   "value": "Sur le pont, Holt frappe Reeve à la tête avec une lampe torche et le pousse par-dessus la rambarde."
+  },
+  {
+   "key": "case017.recon.r_burn",
+   "value": "Holt essaie de brûler l’enveloppe et cache le téléphone de Reeve dans son tiroir."
+  },
+  {
+   "key": "case017.recon.r_drafts",
+   "value": "Pendant six ans, les lettres de transmission sont rédigées sur le compte de l’accueil des dossiers et envoyées à Reeve pour signature."
+  },
+  {
+   "key": "case017.recon.r_letter",
+   "value": "Reeve écrit tout pour Bora et poste l’enveloppe à l’antenne."
+  },
+  {
+   "key": "case017.recon.r_mail",
+   "value": "L’enveloppe est reçue à l’antenne sous la signature de Graham Holt et n’arrive jamais à Bora."
+  },
+  {
+   "key": "case017.recon.r_sms",
+   "value": "Un message « Retrouvez-moi sur le pont » part au nom du poste de Bora ; l’expéditeur est le compte de Holt."
+  },
+  {
+   "key": "case017.report.body",
+   "value": "Le 11 mai 2029 à 05.40 à Rotherhithe, le corps d’un homme a été retrouvé sur les pierres du quai sous la vieille passerelle ferroviaire de Cutter’s Basin. Le tablier est à neuf mètres au-dessus du quai. Découvert par un riverain faisant son jogging matinal.\n\nDéfunt : Malcolm Reeve (58 ans), chef de liaison du district. Sa voiture est garée à côté de l’escalier est du pont. Son téléphone n’a pas été trouvé sur lui.\n\nNote de la patrouille : « Une enquête interne le concernant est en cours depuis avril (lettre de transmission de Tanner Lane). Il était sous pression. Forte probabilité qu’il ait sauté. »\n\nNote de transmission de l’accueil des dossiers, 11 mai 07.30 : « Mort suspecte. Les constatations sont compatibles avec un suicide. Il est recommandé de clore rapidement le dossier par la procédure ordinaire. » Signé : chef de l’accueil des dossiers."
+  },
+  {
+   "key": "case017.report.title",
+   "value": "RAPPORT D’INCIDENT ET NOTE DE TRANSMISSION"
+  },
+  {
+   "key": "case017.request.aisha_log",
+   "value": "Demander le relevé de plaques d’Aisha Rahman"
+  },
+  {
+   "key": "case017.request.badge",
+   "value": "Demander ton propre registre d’entrées à l’antenne"
+  },
+  {
+   "key": "case017.request.bank",
+   "value": "Demander le relevé de compte de Graham Holt"
+  },
+  {
+   "key": "case017.request.drafts",
+   "value": "Demander les journaux des documents des lettres de transmission"
+  },
+  {
+   "key": "case017.request.holt_phone",
+   "value": "Demander le relevé de localisation téléphonique de Graham Holt"
+  },
+  {
+   "key": "case017.request.letter",
+   "value": "Demander les brouillons de l’ordinateur personnel de Reeve"
+  },
+  {
+   "key": "case017.request.mailroom",
+   "value": "Demander le registre du courrier entrant de l’antenne"
+  },
+  {
+   "key": "case017.request.phone",
+   "value": "Demander le relevé téléphonique de Malcolm Reeve"
+  },
+  {
+   "key": "case017.request.search",
+   "value": "Demander le procès-verbal de perquisition du domicile de Graham Holt"
+  },
+  {
+   "key": "case017.request.switchboard",
+   "value": "Demander le journal des messages du standard de l’antenne"
+  },
+  {
+   "key": "case017.search.body",
+   "value": "Bermondsey, 11 mai 2029.\n\n· Dans le garage, des papiers en partie brûlés dans une poubelle métallique : un morceau d’enveloppe brune, manuscrit « …RA — PERS… » ; la moitié d’une liste de six numéros de dossier.\n· Dans le tiroir à outils, un téléphone portable éteint à l’écran brisé. Le numéro de série correspond à la ligne de Malcolm Reeve.\n· Dans le coffre de la voiture, une longue lampe torche à corps d’acier. Des cheveux et du sang au bout du corps ; envoyés pour examen.\n\nGraham Holt était présent pendant la perquisition."
+  },
+  {
+   "key": "case017.search.title",
+   "value": "PROCÈS-VERBAL DE PERQUISITION — MAISON ET GARAGE DE GRAHAM HOLT"
+  },
+  {
+   "key": "case017.summary.evidence",
+   "value": "Le plan des lieux a montré que la tour d’escalier bouchait la vue du témoin qui disait « il a sauté » ; la caméra de l’entrepôt a montré un second homme. Le brouillon de lettre de Reeve et le registre du courrier ont révélé que l’enveloppe était restée chez Holt, et le journal des documents que les six lettres de transmission étaient nées sur son compte. Le journal du standard a lié le message au compte de Holt et au pont ; le relevé de localisation et le procès-verbal de perquisition ont refermé la nuit."
+  },
+  {
+   "key": "case017.summary.lesson",
+   "value": "L’expéditeur apparent d’un message n’est pas son véritable expéditeur : demandez l’enregistrement lui-même, la session et le lieu. Et regardez aussi comment le dossier vous est parvenu — une note de transmission est aussi un témoin."
+  },
+  {
+   "key": "case017.summary.location",
+   "value": "Rotherhithe et l’antenne bube de Londres — 2023–2029"
+  },
+  {
+   "key": "case017.summary.truth",
+   "value": "Pendant six ans, le chef de l’accueil des dossiers Graham Holt a rédigé contre de l’argent des lettres de transmission et les a fait signer « pour la routine » au chef de liaison du district Malcolm Reeve ; Tanner Lane en faisait partie. Acculé par l’enquête interne, Reeve a écrit la vérité à Bora et l’a postée à l’antenne. Holt a reçu l’enveloppe. La nuit du 10 mai, il a envoyé un message par la passerelle du standard de l’antenne au nom du poste de Bora, a fait venir Reeve sur le pont, l’a frappé à l’arrière de la tête avec une lampe torche et l’a poussé par-dessus la rambarde. Le lendemain matin, il a aussi rédigé la note de transmission du dossier qui reprenait la mort de Reeve. L’argent venait d’une société de Berlin."
+  },
+  {
+   "key": "case017.suspect.label",
+   "value": "Qui est responsable de la mort de Malcolm Reeve ?"
+  },
+  {
+   "key": "case017.switchboard.body",
+   "value": "Demandé par : informatique de bube Londres. SMS envoyé depuis le poste 214 le 10 mai à 23.21.\n\n· Le message n’a pas été envoyé depuis le téléphone du bureau. La passerelle de messagerie web du standard a été utilisée ; la ligne d’envoi a été choisie comme « poste 214 ».\n· Compte connecté à la passerelle : fileintake-03 (Graham Holt).\n· Appareil utilisé pour la connexion : un téléphone portable. Point de connexion : autour de Cutter’s Basin, Rotherhithe.\n· La réponse « Je suis là. » reçue à 23.22 est marquée comme lue dans la même session.\n\nNote : la passerelle permet d’envoyer des messages au nom de n’importe quel poste. Cette faille est signalée depuis 2027."
+  },
+  {
+   "key": "case017.switchboard.title",
+   "value": "JOURNAL DU STANDARD DE L’ANTENNE — POSTE 214"
+  },
+  {
+   "key": "case017.tablet.caseLine",
+   "value": "DOSSIER #017  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case017.time.aisha_in",
+   "value": "10 mai 22.31"
+  },
+  {
+   "key": "case017.time.aisha_out",
+   "value": "10 mai 23.08"
+  },
+  {
+   "key": "case017.time.badgeout",
+   "value": "10 mai 18.40"
+  },
+  {
+   "key": "case017.time.drafts",
+   "value": "2023–2029"
+  },
+  {
+   "key": "case017.time.drop",
+   "value": "10 mai 23.52"
+  },
+  {
+   "key": "case017.time.holt_in",
+   "value": "10 mai 23.12"
+  },
+  {
+   "key": "case017.time.leave",
+   "value": "23.48"
+  },
+  {
+   "key": "case017.time.mail",
+   "value": "10 mai 09.20"
+  },
+  {
+   "key": "case017.time.meet",
+   "value": "23.44"
+  },
+  {
+   "key": "case017.time.sms",
+   "value": "10 mai 23.21"
+  },
+  {
+   "key": "case017.time.strike",
+   "value": "23.47"
+  },
+  {
+   "key": "case017.title",
+   "value": "Dossier #017 — Le Pont"
+  },
+  {
+   "key": "case017.tommy.before.answer",
+   "value": "Une portière de voiture, un peu après onze heures. Et… des voix, ou le vent. Il y a beaucoup de vent ici."
+  },
+  {
+   "key": "case017.tommy.before.question",
+   "value": "Avez-vous entendu quelque chose avant ?"
+  },
+  {
+   "key": "case017.tommy.body",
+   "value": "Avec le gardien de la péniche."
+  },
+  {
+   "key": "case017.tommy.deflect",
+   "value": "Je vous ai dit ce que j’ai vu ; le reste, je ne sais pas."
+  },
+  {
+   "key": "case017.tommy.saw.answer",
+   "value": "À minuit moins dix, je suis monté sur le pont fumer une cigarette. Il y avait un homme sur la rambarde de la passerelle, puis il est tombé. Personne avec lui, je le jure. Il a sauté."
+  },
+  {
+   "key": "case017.tommy.saw.answer.demeanor",
+   "value": "Catégorique, presque en colère."
+  },
+  {
+   "key": "case017.tommy.saw.question",
+   "value": "Qu’avez-vous vu hier soir ?"
+  },
+  {
+   "key": "case017.tommy.title",
+   "value": "Tommy Blake — audition"
+  },
+  {
+   "key": "case017.tommy_2.body",
+   "value": "Sur le plan des lieux."
+  },
+  {
+   "key": "case017.tommy_2.title",
+   "value": "Tommy Blake — seconde audition"
+  },
+  {
+   "key": "case017.tommy_2.tower.answer",
+   "value": "…La tour. Oui. J’ai vu l’homme sortir de derrière la tour au moment où il tombait. Debout sur la rambarde… je ne l’ai pas vraiment vu. J’ai cru le voir. Quand on voit une chute, on complète le reste soi-même."
+  },
+  {
+   "key": "case017.tommy_2.tower.answer.demeanor",
+   "value": "Regarde longtemps le plan."
+  },
+  {
+   "key": "case017.tommy_2.tower.question",
+   "value": "La tour d’escalier se dresse entre votre péniche et ce point de la passerelle."
+  },
+  {
+   "key": "case017.verdict.aisha",
+   "value": "Aisha Rahman"
+  },
+  {
+   "key": "case017.verdict.garrett",
+   "value": "Neil Garrett — l’a fait faire depuis la prison"
+  },
+  {
+   "key": "case017.verdict.graham",
+   "value": "Graham Holt"
+  },
+  {
+   "key": "case017.verdict.nobody",
+   "value": "Personne — Reeve a sauté"
+  },
+  {
+   "key": "case017.item.envelope.name",
+   "value": "Enveloppe brûlée"
+  },
+  {
+   "key": "case017.item.envelope.detail",
+   "value": "Des morceaux d’enveloppe à moitié brûlés dans une poubelle."
+  },
+  {
+   "key": "case017.item.phone.name",
+   "value": "Téléphone brisé"
+  },
+  {
+   "key": "case017.item.phone.detail",
+   "value": "Un téléphone éteint, l’écran éclaté."
+  },
+  {
+   "key": "case017.item.torch.name",
+   "value": "Lampe torche en acier"
+  },
+  {
+   "key": "case017.item.torch.detail",
+   "value": "Longue lampe torche en acier ; une tache sombre sur le capuchon."
+  }
+ ]
+}

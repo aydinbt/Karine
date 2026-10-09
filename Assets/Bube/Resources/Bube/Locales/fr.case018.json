@@ -1,0 +1,716 @@
+{
+ "entries": [
+  {
+   "key": "case018.app.body",
+   "value": "Compte : Jonas Keller. 13 juin 2029.\n\n· 18.00 · fin de service\n· 20.58 · usage personnel activé (hors service)\n· 21.02 · arrêt : Lindenhof 9 · « retrait — L. »\n· 21.03 · destination prévue : Wedding, adresse masquée (« adresse protégée »)\n· 21.04 · position immobile, puis l’enregistrement s’arrête"
+  },
+  {
+   "key": "case018.app.title",
+   "value": "JOURNAL DE L’APPLI DE LIVRAISON — JONAS KELLER"
+  },
+  {
+   "key": "case018.audio.body",
+   "value": "13 juin 2029, 22.05. Transcription mot à mot de l’enregistrement audio original en turc de la déposition, avant interprétation.\n\nAyten Yıldız : « Il était neuf heures dix. Le bruit venait de l’étage en dessous, du haut de l’escalier. Deux hommes. L’un a dit “Lâche ça !”, l’autre a dit quelque chose, je n’ai pas compris, c’était de l’allemand. Puis quelque chose a dévalé l’escalier. »\n\nInterprète Selin Aras (en allemand, sur l’enregistrement) : « L’étage en dessous — donc le rez-de-chaussée, oui ? Le témoin habite au premier étage. »\n\nLa réponse d’Ayten Yıldız ne figure pas sur l’enregistrement ; le procès-verbal passe à la question suivante."
+  },
+  {
+   "key": "case018.audio.title",
+   "value": "TRANSCRIPTION DE L’AUDIO ORIGINAL — AYTEN YILDIZ (TURC)"
+  },
+  {
+   "key": "case018.autopsy.body",
+   "value": "· Cause du décès : fracture des vertèbres cervicales due à une chute.\n· Ecchymoses récentes compatibles avec des bouts de doigts sur la face externe du haut des deux bras ; juste avant la chute.\n· Écorchures sur les jointures de la main droite : il a frappé quelqu’un ou quelque chose.\n· Une fibre de tissu fraîche et une tache de sang sur la rampe de l’escalier, à hauteur du palier du premier étage (note de l’équipe des lieux).\n· Heure estimée du décès : 21.05 – 21.20."
+  },
+  {
+   "key": "case018.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case018.ayten.body",
+   "value": "En turc, sans interprète."
+  },
+  {
+   "key": "case018.ayten.courier.answer",
+   "value": "Je le voyais. Il venait toujours pour cette femme, Lena. Ils s’embrassaient à la porte, parlaient à voix basse. Si son mari l’apprend, ça va barder, je me disais."
+  },
+  {
+   "key": "case018.ayten.courier.answer.demeanor",
+   "value": "Baisse la voix."
+  },
+  {
+   "key": "case018.ayten.courier.question",
+   "value": "Connaissiez-vous le jeune homme qui est mort ?"
+  },
+  {
+   "key": "case018.ayten.deflect",
+   "value": "Je ne sais pas, mon petit, je vous ai dit ce que j’ai entendu."
+  },
+  {
+   "key": "case018.ayten.floor.answer",
+   "value": "Au deuxième. J’ai déménagé en haut il y a deux ans, mon appartement du premier était humide. La gérance indique toujours mon ancien logement, je le leur ai dit tant de fois."
+  },
+  {
+   "key": "case018.ayten.floor.question",
+   "value": "À quel étage habitez-vous ?"
+  },
+  {
+   "key": "case018.ayten.heard.answer",
+   "value": "Neuf heures dix. De l’étage en dessous, en haut de l’escalier, deux voix d’hommes. L’un a crié « Lâche ça ! » Puis un fracas, dans l’escalier."
+  },
+  {
+   "key": "case018.ayten.heard.answer.demeanor",
+   "value": "Serre son chapelet."
+  },
+  {
+   "key": "case018.ayten.heard.question",
+   "value": "Qu’avez-vous entendu hier soir ?"
+  },
+  {
+   "key": "case018.ayten.quote",
+   "value": "« De l’étage en dessous, en haut de l’escalier. »"
+  },
+  {
+   "key": "case018.ayten.title",
+   "value": "Ayten Yıldız — audition"
+  },
+  {
+   "key": "case018.bin.body",
+   "value": "Lindenhof 9, cour arrière, 14 juin 2029.\n\n· Un téléphone portable à l’écran fêlé. Propriétaire enregistré : Jonas Keller.\n· Un passeport : au nom de Lena Vogt.\n· Empreintes sur la coque du téléphone et la couverture du passeport ; comparaison : concordance avec Markus Vogt.\n· Du sang sur la coque du téléphone ; celui de Jonas Keller."
+  },
+  {
+   "key": "case018.bin.title",
+   "value": "PROCÈS-VERBAL DE FOUILLE — POUBELLE DE LA COUR"
+  },
+  {
+   "key": "case018.cctv.event.back",
+   "value": "Caméra 1 : l’homme rentre dans l’immeuble par la porte de derrière."
+  },
+  {
+   "key": "case018.cctv.event.bin",
+   "value": "Caméra 1 : l’homme jette les deux objets dans la dernière poubelle et referme le couvercle."
+  },
+  {
+   "key": "case018.cctv.event.exit",
+   "value": "Caméra 1 : un homme en sweat à capuche gris sort par la porte de derrière de l’immeuble ; à la main, un téléphone et quelque chose de la taille d’un petit carnet."
+  },
+  {
+   "key": "case018.cctv.overlay",
+   "value": "CAM 1"
+  },
+  {
+   "key": "case018.cctv.period",
+   "value": "13 juin 2029, 21.00 – 21.40"
+  },
+  {
+   "key": "case018.cctv.source",
+   "value": "Caméra de la cour"
+  },
+  {
+   "key": "case018.clue.app",
+   "value": "Jonas, hors service, arrive au Lindenhof 9 : « retrait — L. »"
+  },
+  {
+   "key": "case018.clue.delete",
+   "value": "Les enregistrements de la caméra de porte sont supprimés depuis un téléphone."
+  },
+  {
+   "key": "case018.clue.door",
+   "value": "Un second homme à la porte de l’appartement Vogt."
+  },
+  {
+   "key": "case018.clue.exit",
+   "value": "Un homme en sweat à capuche gris jette un téléphone et un petit objet dans une poubelle de la cour arrière."
+  },
+  {
+   "key": "case018.clue.lena_in",
+   "value": "Lena Vogt est admise au foyer pour femmes."
+  },
+  {
+   "key": "case018.clue.shift",
+   "value": "Markus Vogt quitte son service plus tôt."
+  },
+  {
+   "key": "case018.clue.shout",
+   "value": "Cri « de l’étage en dessous » : « Lâche ça ! »"
+  },
+  {
+   "key": "case018.clue.source.app",
+   "value": "Appli de livraison"
+  },
+  {
+   "key": "case018.clue.source.audio",
+   "value": "Audio original"
+  },
+  {
+   "key": "case018.clue.source.doorcam",
+   "value": "Caméra de porte"
+  },
+  {
+   "key": "case018.clue.source.shelter",
+   "value": "Note d’admission"
+  },
+  {
+   "key": "case018.clue.source.shift",
+   "value": "Relevé de service"
+  },
+  {
+   "key": "case018.custody.first",
+   "value": "Premier étage — devant l’appartement Vogt"
+  },
+  {
+   "key": "case018.custody.ground",
+   "value": "Rez-de-chaussée — devant l’appartement Brandt"
+  },
+  {
+   "key": "case018.custody.label",
+   "value": "À quel étage la dispute a-t-elle eu lieu ?"
+  },
+  {
+   "key": "case018.custody.second",
+   "value": "Deuxième étage — devant la porte du témoin"
+  },
+  {
+   "key": "case018.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case018.doorcam.body",
+   "value": "Premier étage droite, caméra de sonnette connectée. Titulaire du compte : Markus Vogt. Les enregistrements supprimés du téléphone ont été récupérés dans la sauvegarde cloud.\n\n· 21.03 · la porte est ouverte de l’extérieur avec une clé ; un jeune homme entre, un carton plié à la main.\n· 21.09 · un second homme qui monte l’escalier entre dans le champ ; la porte est ouverte.\n· 21.10 · audio : « Lâche ça ! » — suivi de bruits de lutte, hors champ, sur le palier.\n· 21.11 · le bruit cesse ; le bruit de quelque chose de lourd qui dévale l’escalier.\n\nSuppression : 21.26, depuis le téléphone de Markus Vogt."
+  },
+  {
+   "key": "case018.doorcam.title",
+   "value": "ENREGISTREMENT CLOUD DE LA CAMÉRA DE PORTE — APPARTEMENT VOGT"
+  },
+  {
+   "key": "case018.epilogue.custody.first",
+   "value": "Une note de rectification a été ajoutée au procès-verbal d’interprétation : « l’étage en dessous » a été consigné mot à mot, avec l’étage du témoin lui-même. bube Berlin a fait une règle de transmettre les expressions relatives sans interprétation."
+  },
+  {
+   "key": "case018.epilogue.custody.ground",
+   "value": "L’affaire a été construite sur le rez-de-chaussée ; la porte d’Uwe Brandt est restée scellée pendant des semaines."
+  },
+  {
+   "key": "case018.epilogue.custody.second",
+   "value": "La déposition d’Ayten Yıldız a été lue contre sa propre porte ; la vieille femme a refusé de jamais témoigner à nouveau."
+  },
+  {
+   "key": "case018.epilogue.custody.unknown",
+   "value": "L’étage n’a pas pu être établi ; la défense a entièrement démoli la déposition du témoin."
+  },
+  {
+   "key": "case018.epilogue.verdict.lena",
+   "value": "Lena a été interrogée et son adresse protégée est entrée dans le dossier. Markus a obtenu l’adresse par son avocat, qui a lu le dossier."
+  },
+  {
+   "key": "case018.epilogue.verdict.markus",
+   "value": "Markus Vogt a été arrêté pour homicide involontaire. Une semaine plus tard, Lena a récupéré son passeport à la consigne des scellés ; elle n’a pas ouvert le carton de son frère, et l’a gardé tel quel."
+  },
+  {
+   "key": "case018.epilogue.verdict.nobody",
+   "value": "Le décès a été classé comme un accident. Le passeport de Lena s’est perdu dans une benne à ordures ; un mois plus tard, Lena est rentrée chez elle."
+  },
+  {
+   "key": "case018.epilogue.verdict.uwe",
+   "value": "Uwe Brandt a été placé en garde à vue et relâché deux jours plus tard. Markus Vogt a appris la nouvelle adresse de Lena par une notification officielle."
+  },
+  {
+   "key": "case018.evidence.app",
+   "value": "Journal de l’appli de livraison"
+  },
+  {
+   "key": "case018.evidence.audio",
+   "value": "Transcription de l’audio original"
+  },
+  {
+   "key": "case018.evidence.tenants",
+   "value": "Liste des locataires"
+  },
+  {
+   "key": "case018.evidence.translation",
+   "value": "Procès-verbal d’interprétation"
+  },
+  {
+   "key": "case018.feedback.lena",
+   "value": "Lena était au foyer pour femmes de Wedding ce soir-là ; Jonas était là pour elle."
+  },
+  {
+   "key": "case018.feedback.markus",
+   "value": "Il a quitté son service plus tôt, la caméra de porte le montre sur le palier, et le téléphone de Jonas et le passeport de Lena étaient dans la poubelle avec ses empreintes."
+  },
+  {
+   "key": "case018.feedback.nobody",
+   "value": "Les marques de prise sur ses bras, le sang sur la rampe et le cri « Lâche ça ! » désignent une lutte."
+  },
+  {
+   "key": "case018.feedback.uwe",
+   "value": "La dispute n’a pas eu lieu au rez-de-chaussée ; le procès-verbal d’interprétation avait changé « l’étage en dessous » du témoin en mauvais étage."
+  },
+  {
+   "key": "case018.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case018.file.value.bureau",
+   "value": "BDS Berlin — Antenne de Kreuzberg"
+  },
+  {
+   "key": "case018.file.value.location",
+   "value": "Kreuzberg, Lindenhof 9 — cage d’escalier"
+  },
+  {
+   "key": "case018.file.value.number",
+   "value": "BDS-BER-2029-0031"
+  },
+  {
+   "key": "case018.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case018.file.value.reporter",
+   "value": "Locataire du rez-de-chaussée"
+  },
+  {
+   "key": "case018.lena.body",
+   "value": "Au foyer pour femmes."
+  },
+  {
+   "key": "case018.lena.box.answer",
+   "value": "Mon passeport, mes papiers, quelques affaires. Markus était de service le soir, il ne rentrerait pas avant neuf heures. J’ai donné ma clé à Jonas. Ça devait prendre dix minutes."
+  },
+  {
+   "key": "case018.lena.box.answer.demeanor",
+   "value": "Serre ses mains l’une contre l’autre pour les empêcher de trembler."
+  },
+  {
+   "key": "case018.lena.box.question",
+   "value": "Qu’est-il allé chercher le soir du 13 juin ?"
+  },
+  {
+   "key": "case018.lena.deflect",
+   "value": "Je ne peux pas en parler maintenant."
+  },
+  {
+   "key": "case018.lena.jonas.answer",
+   "value": "Mon frère. J’étais une Keller. Les voisins pensaient sans doute que c’était mon amant ; c’est lui qui me prenait dans ses bras quand je pleurais à la porte."
+  },
+  {
+   "key": "case018.lena.jonas.answer.demeanor",
+   "value": "S’essuie les yeux."
+  },
+  {
+   "key": "case018.lena.jonas.question",
+   "value": "Qu’était Jonas pour vous ?"
+  },
+  {
+   "key": "case018.lena.markus.answer",
+   "value": "Non. Mais il savait que Jonas savait. « Ton frère ne peut pas te cacher de moi », il a écrit hier matin."
+  },
+  {
+   "key": "case018.lena.markus.question",
+   "value": "Markus savait-il où vous étiez partie ?"
+  },
+  {
+   "key": "case018.lena.quote",
+   "value": "« Ça devait prendre dix minutes. »"
+  },
+  {
+   "key": "case018.lena.title",
+   "value": "Lena Vogt — audition"
+  },
+  {
+   "key": "case018.markus.body",
+   "value": "Premier étage droite, l’appartement Vogt."
+  },
+  {
+   "key": "case018.markus.deflect",
+   "value": "Je n’en parlerai pas sans mon avocat."
+  },
+  {
+   "key": "case018.markus.jonas.answer",
+   "value": "Le frère de ma femme. Je le connais. Il ne venait pas souvent ; on ne s’entendait pas."
+  },
+  {
+   "key": "case018.markus.jonas.answer.demeanor",
+   "value": "Sans ciller."
+  },
+  {
+   "key": "case018.markus.jonas.question",
+   "value": "Connaissiez-vous le coursier décédé, Jonas Keller ?"
+  },
+  {
+   "key": "case018.markus.lena.answer",
+   "value": "Chez sa mère, à Spandau. Elle prend quelques jours pour se changer les idées. Ça arrive."
+  },
+  {
+   "key": "case018.markus.lena.question",
+   "value": "Où est votre femme ?"
+  },
+  {
+   "key": "case018.markus.night.answer",
+   "value": "Chez moi, toute la soirée. Je jouais avec un casque sur les oreilles, je n’ai rien entendu. Je suis sorti au bruit de l’ambulance."
+  },
+  {
+   "key": "case018.markus.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case018.markus.title",
+   "value": "Markus Vogt — audition"
+  },
+  {
+   "key": "case018.markus_2.body",
+   "value": "Sur la caméra de porte et le procès-verbal de fouille."
+  },
+  {
+   "key": "case018.markus_2.phone.answer",
+   "value": "Il allait appeler Lena, c’est comme ça que je savais. Sans le passeport, elle ne pouvait pas partir. …Je ne voulais juste pas qu’elle parte."
+  },
+  {
+   "key": "case018.markus_2.phone.answer.demeanor",
+   "value": "Enfouit son visage dans ses mains."
+  },
+  {
+   "key": "case018.markus_2.phone.question",
+   "value": "Pourquoi avez-vous jeté le téléphone et le passeport dans la poubelle ?"
+  },
+  {
+   "key": "case018.markus_2.stairs.answer",
+   "value": "Il était chez moi. Il prenait les affaires de ma femme, chez moi. « Lâche ça », j’ai dit ; je parlais du passeport. On a tiré sur le carton. Sur le palier… il est parti en arrière. Je n’ai pas poussé. J’ai tenu, j’ai lâché. Je ne sais pas."
+  },
+  {
+   "key": "case018.markus_2.stairs.answer.demeanor",
+   "value": "La voix se brise."
+  },
+  {
+   "key": "case018.markus_2.stairs.question",
+   "value": "À 21.09, vous étiez devant votre porte. C’est vous qui avez crié « Lâche ça ! »"
+  },
+  {
+   "key": "case018.markus_2.title",
+   "value": "Markus Vogt — seconde audition"
+  },
+  {
+   "key": "case018.method.fell",
+   "value": "Il est tombé dans l’escalier avec le carton"
+  },
+  {
+   "key": "case018.method.ground",
+   "value": "Il a été frappé dans une bagarre au rez-de-chaussée"
+  },
+  {
+   "key": "case018.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case018.method.pushed",
+   "value": "Il a été précipité dans l’escalier pendant une lutte sur le palier du premier étage"
+  },
+  {
+   "key": "case018.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case018.offer.subtitle",
+   "value": "PREMIER ÉTAGE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case018.offer.summary",
+   "value": "Un coursier hors service est retrouvé mort dans la cage d’escalier d’un vieil immeuble de Kreuzberg. Un témoin a entendu des cris venant du rez-de-chaussée ; l’homme du rez-de-chaussée déteste les coursiers. Le témoin a parlé en turc."
+  },
+  {
+   "key": "case018.offer.title",
+   "value": "DOSSIER #018"
+  },
+  {
+   "key": "case018.person.ayten.info",
+   "value": "68 ans, couturière retraitée. À Kreuzberg depuis 1974 ; habite au Lindenhof 9."
+  },
+  {
+   "key": "case018.person.ayten.name",
+   "value": "Ayten Yıldız"
+  },
+  {
+   "key": "case018.person.lena.info",
+   "value": "34 ans, prothésiste dentaire. L’épouse de Markus Vogt."
+  },
+  {
+   "key": "case018.person.lena.name",
+   "value": "Lena Vogt"
+  },
+  {
+   "key": "case018.person.markus.info",
+   "value": "38 ans, chef d’équipe dans un entrepôt logistique. Habite au premier étage avec sa femme."
+  },
+  {
+   "key": "case018.person.markus.name",
+   "value": "Markus Vogt"
+  },
+  {
+   "key": "case018.person.selin.info",
+   "value": "35 ans, interprète turc–allemand indépendante ; travaille sur les auditions de bube Berlin."
+  },
+  {
+   "key": "case018.person.selin.name",
+   "value": "Selin Aras"
+  },
+  {
+   "key": "case018.person.uwe.info",
+   "value": "61 ans, conducteur de tram retraité. Habite au rez-de-chaussée de l’immeuble."
+  },
+  {
+   "key": "case018.person.uwe.name",
+   "value": "Uwe Brandt"
+  },
+  {
+   "key": "case018.report.body",
+   "value": "Le 13 juin 2029 à 21.14 à Kreuzberg, le corps d’un homme a été retrouvé au pied de la cage d’escalier d’un vieil immeuble au Lindenhof 9. À côté de lui, un carton scotché, avec écrit à la main sur le dessus : « L.K. »\n\nDéfunt : Jonas Keller (29 ans), coursier. Pas en uniforme, hors service.\n\nNote de la patrouille : « Tombé dans l’escalier avec un carton lourd. Une femme âgée du deuxième étage, témoin, a dit avoir entendu des cris venant du rez-de-chaussée vers 21.10 (déposition recueillie par l’intermédiaire d’une interprète). Le locataire du rez-de-chaussée est connu pour s’être disputé avec des coursiers. »"
+  },
+  {
+   "key": "case018.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case018.request.app",
+   "value": "Demander le journal de l’appli de livraison de Jonas Keller"
+  },
+  {
+   "key": "case018.request.audio",
+   "value": "Demander la transcription de l’audio original de la déposition"
+  },
+  {
+   "key": "case018.request.bin",
+   "value": "Faire fouiller la poubelle de la cour"
+  },
+  {
+   "key": "case018.request.doorcam",
+   "value": "Demander l’enregistrement cloud de la caméra de porte de l’appartement Vogt"
+  },
+  {
+   "key": "case018.request.shelter",
+   "value": "Trouver où est Lena Vogt"
+  },
+  {
+   "key": "case018.request.shift",
+   "value": "Demander le relevé de service de Markus Vogt"
+  },
+  {
+   "key": "case018.request.tenants",
+   "value": "Demander la liste des locataires à la gérance"
+  },
+  {
+   "key": "case018.selin.below.answer",
+   "value": "Le procès-verbal disait que le témoin habitait au premier ; ils l’avaient pris dans la liste des locataires. L’étage en dessous, c’est le rez-de-chaussée. Je lui ai demandé, j’ai cru qu’elle ne répondait pas… Attendez. Et si la liste était périmée ?"
+  },
+  {
+   "key": "case018.selin.below.answer.demeanor",
+   "value": "Rougit."
+  },
+  {
+   "key": "case018.selin.below.question",
+   "value": "Ayten Yıldız a dit « l’étage en dessous » ; vous avez écrit « le rez-de-chaussée »."
+  },
+  {
+   "key": "case018.selin.body",
+   "value": "Avec l’interprète."
+  },
+  {
+   "key": "case018.selin.deflect",
+   "value": "C’est comme écrit dans le procès-verbal."
+  },
+  {
+   "key": "case018.selin.practice.answer",
+   "value": "Normalement mot à mot : « l’étage en dessous ». Cette fois, j’ai précisé, pour être claire. La pire erreur est celle qu’on fait de bonne foi."
+  },
+  {
+   "key": "case018.selin.practice.question",
+   "value": "Comment interprétez-vous les expressions relatives ?"
+  },
+  {
+   "key": "case018.selin.title",
+   "value": "Selin Aras — audition"
+  },
+  {
+   "key": "case018.shelter.body",
+   "value": "Wedding, adresse protégée. Sur demande, limité au nom et à la date d’admission.\n\nAdmise : Lena Vogt, 34 ans. Date : 11 juin 2029. Motif : violences conjugales ; mari Markus Vogt.\n\nContact d’urgence : Jonas Keller — frère.\n\nNote : ses effets personnels et ses papiers d’identité sont restés au domicile ; son frère devait les apporter le soir du 13 juin."
+  },
+  {
+   "key": "case018.shelter.title",
+   "value": "FOYER POUR FEMMES — NOTE D’ADMISSION"
+  },
+  {
+   "key": "case018.shift.body",
+   "value": "Entrepôt logistique, Tempelhof. 13 juin 2029.\n\n· 14.00 · entrée\n· 20.31 · sortie (le service finissait à 22.00 ; départ anticipé, motif : « famille »)\n\nDe l’entrepôt au Lindenhof à vélo : environ 25 minutes."
+  },
+  {
+   "key": "case018.shift.title",
+   "value": "RELEVÉ DE SERVICE — MARKUS VOGT"
+  },
+  {
+   "key": "case018.summary.evidence",
+   "value": "L’audio original a séparé l’expression relative du témoin de la lecture de l’interprète ; le récit du témoin lui-même a montré qu’elle habitait au deuxième. La sauvegarde cloud de la caméra de porte, le relevé de service et le téléphone et le passeport de la poubelle ont mené à Markus Vogt. La note d’admission a révélé que le coursier pris pour un « amant » était son frère."
+  },
+  {
+   "key": "case018.summary.lesson",
+   "value": "L’interprétation d’une déposition est une lecture : revenez à l’original si vous le pouvez. Des mots relatifs comme « l’étage en dessous » n’ont pas de sens si l’on ne sait pas où se tient celui qui parle."
+  },
+  {
+   "key": "case018.summary.location",
+   "value": "Kreuzberg, Lindenhof 9 — juin 2029"
+  },
+  {
+   "key": "case018.summary.truth",
+   "value": "Lena Vogt a fui les violences conjugales et s’est réfugiée dans un foyer pour femmes. Son frère, Jonas Keller, est allé chercher son passeport et ses affaires à une heure où Markus Vogt était de service. Markus avait quitté son service plus tôt ; il a surpris Jonas sur le palier du premier étage, ils se sont disputé le carton et le passeport, et Jonas est tombé dans l’escalier. Markus a jeté le téléphone et le passeport dans la poubelle de la cour et a supprimé les enregistrements de la caméra de porte. Le témoin, Ayten Yıldız, avait dit « de l’étage en dessous » ; l’interprète, se fiant à l’ancienne liste des locataires, l’a consigné comme « le rez-de-chaussée »."
+  },
+  {
+   "key": "case018.suspect.label",
+   "value": "Qui est responsable de la mort de Jonas Keller ?"
+  },
+  {
+   "key": "case018.tablet.caseLine",
+   "value": "DOSSIER #018  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case018.tenants.body",
+   "value": "Dernière mise à jour : mars 2027.\n\n· Rez-de-chaussée · Brandt\n· 1er gauche · Yıldız\n· 1er droite · Vogt\n· 2e gauche · libre\n· 2e droite · Hoffmann\n· 3e · Petrović / Lang\n\nNote : au-dessus du rez-de-chaussée, l’immeuble a deux appartements par étage ; la cage d’escalier est commune."
+  },
+  {
+   "key": "case018.tenants.title",
+   "value": "GÉRANCE — LISTE DES LOCATAIRES, LINDENHOF 9"
+  },
+  {
+   "key": "case018.time.app",
+   "value": "13 juin 21.02"
+  },
+  {
+   "key": "case018.time.back",
+   "value": "21.15"
+  },
+  {
+   "key": "case018.time.bin",
+   "value": "21.14"
+  },
+  {
+   "key": "case018.time.delete",
+   "value": "13 juin 21.26"
+  },
+  {
+   "key": "case018.time.door",
+   "value": "13 juin 21.09"
+  },
+  {
+   "key": "case018.time.exit",
+   "value": "21.13"
+  },
+  {
+   "key": "case018.time.lena_in",
+   "value": "11 juin"
+  },
+  {
+   "key": "case018.time.shift",
+   "value": "13 juin 20.31"
+  },
+  {
+   "key": "case018.time.shout",
+   "value": "13 juin 21.10"
+  },
+  {
+   "key": "case018.title",
+   "value": "Dossier #018 — Premier étage"
+  },
+  {
+   "key": "case018.translation.body",
+   "value": "13 juin 2029, 22.05. Déposition recueillie en turc et transcrite dans le procès-verbal allemand. Interprète : Selin Aras.\n\nTexte transcrit : « Le témoin, Ayten Yıldız, a déclaré avoir entendu vers 21.10 deux hommes se disputer bruyamment au rez-de-chaussée. Il y a eu ensuite un bruit. Le témoin n’a pas ouvert sa porte. »\n\nInformation locataire jointe au procès-verbal : « Le témoin habite au premier étage de l’immeuble. »"
+  },
+  {
+   "key": "case018.translation.title",
+   "value": "PROCÈS-VERBAL D’INTERPRÉTATION — DÉPOSITION D’AYTEN YILDIZ"
+  },
+  {
+   "key": "case018.uwe.body",
+   "value": "Locataire du rez-de-chaussée."
+  },
+  {
+   "key": "case018.uwe.couriers.answer",
+   "value": "Ils sonnent chez moi toute la journée, j’ai les colis de tout le monde. Le mois dernier, j’ai crié sur ce gars, oui. Mais crier, c’est autre chose."
+  },
+  {
+   "key": "case018.uwe.couriers.question",
+   "value": "Pourquoi vous disputiez-vous avec les coursiers ?"
+  },
+  {
+   "key": "case018.uwe.deflect",
+   "value": "Pas mes affaires ; je connais ma porte."
+  },
+  {
+   "key": "case018.uwe.night.answer",
+   "value": "La télé était allumée. Un fracas, puis plus aucun bruit. J’ai ouvert la porte, le gars était au pied de l’escalier. Une porte a claqué en haut. Je vous ai appelés."
+  },
+  {
+   "key": "case018.uwe.night.answer.demeanor",
+   "value": "Encore secoué."
+  },
+  {
+   "key": "case018.uwe.night.question",
+   "value": "Que s’est-il passé hier soir ?"
+  },
+  {
+   "key": "case018.uwe.title",
+   "value": "Uwe Brandt — audition"
+  },
+  {
+   "key": "case018.uwe.voices.answer",
+   "value": "Quelque chose d’en haut, par-dessus la télé. Pas à mon étage, ça je le sais ; c’était calme devant ma porte."
+  },
+  {
+   "key": "case018.uwe.voices.question",
+   "value": "Avez-vous entendu des cris avant le fracas ?"
+  },
+  {
+   "key": "case018.verdict.lena",
+   "value": "Lena Vogt"
+  },
+  {
+   "key": "case018.verdict.markus",
+   "value": "Markus Vogt"
+  },
+  {
+   "key": "case018.verdict.nobody",
+   "value": "Personne — il est tombé avec un carton lourd"
+  },
+  {
+   "key": "case018.verdict.uwe",
+   "value": "Uwe Brandt"
+  },
+  {
+   "key": "case018.yard.body",
+   "value": "Une caméra de magasin qui donne sur la cour arrière du Lindenhof 9. Elle couvre la porte de derrière de l’immeuble et les poubelles. 13 juin 21.00 – 21.40."
+  },
+  {
+   "key": "case018.yard.title",
+   "value": "CAMÉRA DE LA COUR — transcription du relevé"
+  },
+  {
+   "key": "case018.item.box.name",
+   "value": "Carton de déménagement"
+  },
+  {
+   "key": "case018.item.box.detail",
+   "value": "Carton de déménagement scotché, un coin écrasé."
+  },
+  {
+   "key": "case018.item.passport.name",
+   "value": "Passeport"
+  },
+  {
+   "key": "case018.item.passport.detail",
+   "value": "Un passeport fermé et taché."
+  },
+  {
+   "key": "case018.item.phone.name",
+   "value": "Téléphone"
+  },
+  {
+   "key": "case018.item.phone.detail",
+   "value": "Téléphone fêlé avec une tache de sang sur la coque."
+  }
+ ]
+}
