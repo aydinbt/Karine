@@ -36,6 +36,8 @@ MonoBehaviour:
     m_Scopes:
     - com.google.ads.mobile
     - com.google.external-dependency-manager
+    - com.google.play.games
+    - com.lupidan.apple-signin-unity
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
