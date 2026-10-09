@@ -49,7 +49,8 @@ public sealed partial class BubeApp {
  void AccountPaper() {
   var options=new System.Collections.Generic.List<KarineUI.AccountOption>();
   foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
-   if(Accounts.Provider.Supports(kind)){var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
+   // Editor'de servis yok ama düğmeler görünür kalır: ekran tasarımı denetlenebilsin, basınca "kullanılamıyor" der.
+   if(Accounts.Provider.Supports(kind)||Application.isEditor){var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
   options.Add(new KarineUI.AccountOption(null,T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();}));
   KarineUI.AccountPaper(root,T("account.tagline"),T("account.or"),options,accountNotice,
    T("account.privacy"),string.IsNullOrEmpty(config.privacyUrl)?null:(Action)OpenPrivacy);
@@ -111,7 +112,8 @@ public sealed partial class BubeApp {
   if(!string.IsNullOrEmpty(accountNotice))KarineUI.Body_(state,accountNotice,KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;
   if(!Accounts.SignedIn) {
    foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
-    if(Accounts.Provider.Supports(kind)){var k=kind;Button(KarineUI.SettingRow(body,T("account.link."+Key(k)),T("account.link.hint")),T("account.signin."+Key(k)),()=>AccountSignIn(k));}
+    // Editor'de servis yok ama düğmeler görünür kalır: ekran tasarımı denetlenebilsin, basınca "kullanılamıyor" der.
+   if(Accounts.Provider.Supports(kind)||Application.isEditor){var k=kind;Button(KarineUI.SettingRow(body,T("account.link."+Key(k)),T("account.link.hint")),T("account.signin."+Key(k)),()=>AccountSignIn(k));}
   } else Button(KarineUI.SettingRow(body,T("account.signout"),T("account.signout.hint")),T("account.signout"),AccountSignOut);
   Button(KarineUI.SettingRow(body,T("account.delete"),T(Accounts.SignedIn?"account.delete.hint":"account.delete.guestHint")),T("account.delete"),AskDeleteAccount);
   if(!string.IsNullOrEmpty(config.accountDeletionUrl))

@@ -55,6 +55,7 @@ public sealed class ScreenshotTests {
  [UnityTest] public IEnumerator Home_MatchesBaseline() => Check("Home", "home");
  [UnityTest] public IEnumerator Desk_MatchesBaseline() => Check("Desk", "desk");
  [UnityTest] public IEnumerator Settings_MatchesBaseline() => Check("SettingsPage", "settings");
+ [UnityTest] public IEnumerator Account_MatchesBaseline() => Check("AccountPaper", "account");
 
  IEnumerator Check(string screen, string name) {
   typeof(BubeApp).GetMethod(screen, Any, null, Type.EmptyTypes, null).Invoke(app, null);

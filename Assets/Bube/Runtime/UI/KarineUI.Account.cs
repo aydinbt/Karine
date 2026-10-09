@@ -29,7 +29,7 @@ public static partial class KarineUI {
   var art=Resources.Load<Texture2D>(LoginBackdropResource)??Resources.Load<Texture2D>("Bube/Art/OfficeDesk");
   if(art!=null){var back=new Image {image=art,scaleMode=ScaleMode.ScaleAndCrop,pickingMode=PickingMode.Ignore};Fill(back);screen.Add(back);}
   var shade=new VisualElement {pickingMode=PickingMode.Ignore};Fill(shade);shade.style.backgroundColor=KarineTheme.Veil(.35f);screen.Add(shade);
-  var vignette=new Image {image=Vignette(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore};Fill(vignette);screen.Add(vignette);
+  var vignette=new Image {image=Vignette(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Alpha(KarineTheme.Background,.9f)};Fill(vignette);screen.Add(vignette);
 
   // Sol: logo ve açıklama, dikeyde ortada.
   var left=new VisualElement {pickingMode=PickingMode.Ignore};left.style.position=Position.Absolute;left.style.top=0;left.style.bottom=0;
