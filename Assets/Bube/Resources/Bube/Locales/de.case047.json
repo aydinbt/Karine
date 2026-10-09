@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case047.autopsy.body",
+   "value": "· Todesursache: Unterkühlung. Kälteverbrennungen an Knien und Händen; an den Fingerkuppen Reibspuren von Metall.\n· Im Nacken eine kleine Schwellung am Schädel: Sturz oder leichter Schlag; nicht stark genug für eine Bewusstlosigkeit.\n· Todeszeit: 01.00–03.00."
+  },
+  {
+   "key": "case047.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case047.car.body",
+   "value": "Das Auto von Enzo Ferraro (mit Genehmigung der Dienststellenleitung):\n\n· Im Handschuhfach der abmontierte verchromte Innengriff des Kühlraums, zwei Schrauben und ein Schlitzschraubenzieher; am Griff Mehl und der Fingerabdruck des Opfers.\n· Im Kofferraum die Schürze des Opfers.\n· Auf seinem Telefon am 6. Oktober um 00.04 eine Nachricht an den Kontakt ‚R.‘: ‚Erledigt. Das Mehl soll Montag kommen.‘"
+  },
+  {
+   "key": "case047.car.title",
+   "value": "DAS AUTO VON ENZO FERRARO — DURCHSUCHUNG"
+  },
+  {
+   "key": "case047.cctv.event.half",
+   "value": "Kamera: Ein kräftiger Mann in weißer Kochjacke zieht den Rollladen von außen halb herunter und schlüpft darunter hinein."
+  },
+  {
+   "key": "case047.cctv.event.out",
+   "value": "Kamera: Derselbe Mann kommt allein unter dem Rollladen heraus, zieht ihn ganz herunter, schließt ab und schaut die Gasse entlang."
+  },
+  {
+   "key": "case047.cctv.event.watch",
+   "value": "Kamera: Ein schmaler junger Mann mit Schirmen über der Schulter steht gegenüber und schaut auf den geschlossenen Rollladen."
+  },
+  {
+   "key": "case047.cctv.overlay",
+   "value": "VICO-07"
+  },
+  {
+   "key": "case047.cctv.period",
+   "value": "5.–6. Oktober 2030"
+  },
+  {
+   "key": "case047.cctv.source",
+   "value": "Straßenkamera"
+  },
+  {
+   "key": "case047.clue.argue",
+   "value": "Die Partner streiten wegen des Kassenbuchs."
+  },
+  {
+   "key": "case047.clue.found",
+   "value": "Der Partner öffnet den Rollladen und findet die Leiche."
+  },
+  {
+   "key": "case047.clue.half",
+   "value": "Der kräftige Mann mit Schürze zieht den Rollladen halb herunter und geht hinein."
+  },
+  {
+   "key": "case047.clue.msg",
+   "value": "‚Erledigt. Das Mehl soll Montag kommen.‘"
+  },
+  {
+   "key": "case047.clue.out",
+   "value": "Derselbe Mann kommt allein heraus und schließt den Rollladen ab."
+  },
+  {
+   "key": "case047.clue.source.car",
+   "value": "Durchsuchung des Autos"
+  },
+  {
+   "key": "case047.clue.source.lucia",
+   "value": "Lucia Bianco"
+  },
+  {
+   "key": "case047.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case047.coldroom.body",
+   "value": "· Der innere Sicherheitsgriff abmontiert; zwei Schraubenlöcher frisch, an den Rändern Mehl.\n· Das Thermostat wurde nachts auf -18 gedreht; normale Einstellung +2. Auf dem Drehknopf mehlige Fingerabdrücke.\n· An der Innenseite der Tür Kratzspuren von Fingernägeln. Neben dem Opfer ein auf den Boden gefallenes Telefon; kein Netz."
+  },
+  {
+   "key": "case047.coldroom.title",
+   "value": "UNTERSUCHUNG DES KÜHLRAUMS"
+  },
+  {
+   "key": "case047.custody.broken",
+   "value": "Der Griff war schon kaputt"
+  },
+  {
+   "key": "case047.custody.glovebox",
+   "value": "Ins Handschuhfach des Autos des Täters"
+  },
+  {
+   "key": "case047.custody.label",
+   "value": "Wohin kam der Innengriff des Kühlraums?"
+  },
+  {
+   "key": "case047.custody.sea",
+   "value": "Ins Meer geworfen"
+  },
+  {
+   "key": "case047.enzo.body",
+   "value": "Partner."
+  },
+  {
+   "key": "case047.enzo.deflect",
+   "value": "Die Bäckerei ist auch meine, vergessen Sie das nicht."
+  },
+  {
+   "key": "case047.enzo.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case047.enzo.end.presented.car",
+   "value": "Ich habe ihm einmal in den Nacken geschlagen, er ist nur hingefallen. Ich habe ihn in den Kühlraum getragen, den Griff abgeschraubt, das Thermostat gedreht. Morgens hätte ich ihn gefunden, wir hätten Herz gesagt. Rocco sagte: ‚Wenn Ciro nicht geht, gehst du.‘ Den Griff konnte ich nicht wegwerfen. Er war der Mann meiner Schwester."
+  },
+  {
+   "key": "case047.enzo.end.presented.ledger",
+   "value": "Schulden, ja. Bei Rocco. Ciro hat das Zahlen abgelehnt, das Mehl abgelehnt, mich abgelehnt."
+  },
+  {
+   "key": "case047.enzo.end.question",
+   "value": "Sie haben den Griff abgeschraubt."
+  },
+  {
+   "key": "case047.enzo.night.answer",
+   "value": "Um 23.30, zusammen mit Lucia. Ciro war drinnen, er sagte: ‚Ich schließe ab.‘ Das hat er jede Nacht so gemacht."
+  },
+  {
+   "key": "case047.enzo.night.answer.demeanor",
+   "value": "Verschränkt die mehligen Arme vor der Brust."
+  },
+  {
+   "key": "case047.enzo.night.question",
+   "value": "Wann haben Sie gestern Abend den Laden verlassen?"
+  },
+  {
+   "key": "case047.enzo.night.variant0",
+   "value": "Den Rollladen habe ich heruntergezogen, Ciro war drinnen, ich habe ihn halb offen gelassen, damit er selbst abschließt. Dann … ich weiß nicht mehr, ob ich abgeschlossen habe."
+  },
+  {
+   "key": "case047.enzo.title",
+   "value": "Enzo Ferraro — Befragung"
+  },
+  {
+   "key": "case047.epilogue.custody.broken",
+   "value": "Die Schraubenlöcher waren frisch, an den Rändern Mehl."
+  },
+  {
+   "key": "case047.epilogue.custody.glovebox",
+   "value": "Festgehalten wurde, dass der Innengriff im Handschuhfach von Enzo Ferraro gefunden wurde."
+  },
+  {
+   "key": "case047.epilogue.custody.sea",
+   "value": "Der Griff war nicht weggeworfen worden."
+  },
+  {
+   "key": "case047.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; einen Monat später stellte der Laden auf Caruso-Mehl um."
+  },
+  {
+   "key": "case047.epilogue.verdict.enzo",
+   "value": "Enzo Ferraro wurde festgenommen. Die Nachricht ‚Das Mehl soll Montag kommen‘ und die Mehllieferungen von Caruso kamen zur Akte."
+  },
+  {
+   "key": "case047.epilogue.verdict.rocco",
+   "value": "Rocco Greco wurde festgenommen und zwei Tage später freigelassen; das Mehl kam am Montag."
+  },
+  {
+   "key": "case047.epilogue.verdict.rosaria",
+   "value": "Rosaria Amato wurde festgenommen; ihr Bruder übernahm den Laden."
+  },
+  {
+   "key": "case047.evidence.car",
+   "value": "Durchsuchung des Autos"
+  },
+  {
+   "key": "case047.evidence.coldroom",
+   "value": "Untersuchung des Kühlraums"
+  },
+  {
+   "key": "case047.evidence.ledger",
+   "value": "Kassenbuch"
+  },
+  {
+   "key": "case047.evidence.street",
+   "value": "Straßenkamera"
+  },
+  {
+   "key": "case047.feedback.accident",
+   "value": "Der Innengriff war abmontiert und das Thermostat von Hand auf -18 gedreht."
+  },
+  {
+   "key": "case047.feedback.enzo",
+   "value": "Im Handschuhfach seines Autos liegen der Innengriff des Kühlraums und die Schrauben; die Straßenkamera zeigt, wie er den Rollladen herunterzieht und allein herauskommt. Im Kassenbuch stehen seine 12.000 Euro Schulden beim Geldeintreiber."
+  },
+  {
+   "key": "case047.feedback.rocco",
+   "value": "Der Geldeintreiber war in der Nacht auf einer Hochzeit auf Ischia; die Straßenkamera zeigt, dass jemand anderes den Rollladen schloss."
+  },
+  {
+   "key": "case047.feedback.rosaria",
+   "value": "Die Witwe war in der Nacht zu Hause und rief ihren Mann an; in den Laden kam sie nicht."
+  },
+  {
+   "key": "case047.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case047.file.value.bureau",
+   "value": "BDS Neapel — Dienststelle Quartieri Spagnoli"
+  },
+  {
+   "key": "case047.file.value.location",
+   "value": "Forcella, Neapel — Pizzeria"
+  },
+  {
+   "key": "case047.file.value.number",
+   "value": "BDN-NAP-2030-0318"
+  },
+  {
+   "key": "case047.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case047.file.value.reporter",
+   "value": "Partner"
+  },
+  {
+   "key": "case047.ledger.body",
+   "value": "Unter der Kasse gefundenes Heft, von Ciro Amato handschriftlich geführt:\n\n· In den letzten drei Monaten elf mit ‚E.‘ markierte Entnahmen aus der Kasse, insgesamt 9.400 Euro.\n· Auf der letzten Seite: ‚Enzo — Schulden bei Rocco 12.000. Werden gestrichen, wenn das Mehl von Caruso kommt. NIEMALS.‘ Darunter ein dicker Strich."
+  },
+  {
+   "key": "case047.ledger.title",
+   "value": "KASSENBUCH"
+  },
+  {
+   "key": "case047.lucia.body",
+   "value": "Kellnerin."
+  },
+  {
+   "key": "case047.lucia.close.answer",
+   "value": "Um 23.30. Ciro bereitete in der Küche den Teig für morgen vor. Enzo war auch da, die beiden stritten wegen des Hefts in der Kasse. Enzo sagte: ‚Wenn wir mit Rocco reden, ist alles vorbei‘, Ciro sagte: ‚Dieses Mehl kommt nie wieder in meinen Laden.‘ Ich bin gegangen."
+  },
+  {
+   "key": "case047.lucia.close.answer.demeanor",
+   "value": "Wickelt das Band ihrer Schürze um den Finger."
+  },
+  {
+   "key": "case047.lucia.close.question",
+   "value": "Wann haben Sie gestern Abend den Laden verlassen?"
+  },
+  {
+   "key": "case047.lucia.deflect",
+   "value": "Ich kümmere mich um die Tische."
+  },
+  {
+   "key": "case047.lucia.title",
+   "value": "Lucia Bianco — Befragung"
+  },
+  {
+   "key": "case047.method.cold",
+   "value": "In den Kühlraum ohne Innengriff gesperrt"
+  },
+  {
+   "key": "case047.method.heart",
+   "value": "Herzinfarkt"
+  },
+  {
+   "key": "case047.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case047.method.trapped",
+   "value": "Die Tür fiel versehentlich zu"
+  },
+  {
+   "key": "case047.moussa.body",
+   "value": "Straßenhändler."
+  },
+  {
+   "key": "case047.moussa.deflect",
+   "value": "Ich stehe vor der Tür, was drinnen ist, weiß ich nicht."
+  },
+  {
+   "key": "case047.moussa.gone",
+   "value": "Moussa Diop fuhr morgens mit dem Zug nach Mailand, zur Saisonarbeit. Seine Nummer ist abgeschaltet."
+  },
+  {
+   "key": "case047.moussa.night.answer",
+   "value": "Ciro schließt jede Nacht selbst ab, singend. Gestern Nacht kein Gesang. Ein Kräftiger mit Schürze zog den Rollladen halb herunter, ging hinein, kam zehn Minuten später allein heraus, schloss ab. Ciro kam nicht heraus. Ich warte, dass Ciro herauskommt, weil er mir jede Nacht ein Stück gibt. Gestern nicht."
+  },
+  {
+   "key": "case047.moussa.night.answer.demeanor",
+   "value": "Rückt die Schirme auf seiner Schulter zurecht."
+  },
+  {
+   "key": "case047.moussa.night.question",
+   "value": "Wer hat in der Nacht den Rollladen geschlossen?"
+  },
+  {
+   "key": "case047.moussa.rocco.answer",
+   "value": "Der Mann mit dem Silberring. Letzten Monat kam er, Ciro hat ihn an der Tür abgewiesen, alle haben es gesehen. Aber gestern Nacht war der Mann nicht da. Ich kenne diese Gasse, wenn der Mann kommt, weiß ich es."
+  },
+  {
+   "key": "case047.moussa.rocco.question",
+   "value": "Wer im Viertel hatte Ärger mit Ciro?"
+  },
+  {
+   "key": "case047.moussa.title",
+   "value": "Moussa Diop — Befragung"
+  },
+  {
+   "key": "case047.offer.subtitle",
+   "value": "FORNO  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case047.offer.summary",
+   "value": "In Forcella wurde der Meister einer hundertjährigen Pizzeria erfroren im Kühlraum gefunden. Der Innengriff fehlt."
+  },
+  {
+   "key": "case047.offer.title",
+   "value": "AKTE #047"
+  },
+  {
+   "key": "case047.person.enzo.info",
+   "value": "44 Jahre, Partner der Pizzeria und Schwager."
+  },
+  {
+   "key": "case047.person.enzo.name",
+   "value": "Enzo Ferraro"
+  },
+  {
+   "key": "case047.person.lucia.info",
+   "value": "23 Jahre, Kellnerin."
+  },
+  {
+   "key": "case047.person.lucia.name",
+   "value": "Lucia Bianco"
+  },
+  {
+   "key": "case047.person.moussa.info",
+   "value": "29 Jahre, senegalesischer Straßenhändler, der vor der Pizzeria Feuerzeuge und Schirme verkauft."
+  },
+  {
+   "key": "case047.person.moussa.name",
+   "value": "Moussa Diop"
+  },
+  {
+   "key": "case047.person.rocco.info",
+   "value": "57 Jahre, im Viertel als ‚Geldeintreiber‘ bekannt."
+  },
+  {
+   "key": "case047.person.rocco.name",
+   "value": "Rocco Greco"
+  },
+  {
+   "key": "case047.person.rosaria.info",
+   "value": "39 Jahre, Ehefrau des Opfers; arbeitet an der Kasse."
+  },
+  {
+   "key": "case047.person.rosaria.name",
+   "value": "Rosaria Amato"
+  },
+  {
+   "key": "case047.report.body",
+   "value": "Am Morgen des 6. Oktober 2030 wurde in einer Pizzeria in Forcella der Meister und Inhaber Ciro Amato (47) tot im Kühlraum hinter der Küche gefunden.\n\nDie Leiche fand sein Partner Enzo Ferraro um 06.40, als er den Rollladen öffnete. Die Ehefrau des Opfers, Rosaria Amato, sagte, ihr Mann sei in der Nacht nicht nach Hause gekommen. In der Abendschicht arbeitete die Kellnerin Lucia Bianco. Vor dem Laden baut der senegalesische Straßenhändler Moussa Diop jede Nacht seinen Stand auf."
+  },
+  {
+   "key": "case047.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case047.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case047.request.car",
+   "value": "Durchsuchungsbeschluss für das Auto von Enzo Ferraro beantragen"
+  },
+  {
+   "key": "case047.request.coldroom",
+   "value": "Untersuchung des Kühlraums anfordern"
+  },
+  {
+   "key": "case047.request.ledger",
+   "value": "Untersuchung des Kassenbuchs anfordern"
+  },
+  {
+   "key": "case047.rocco.body",
+   "value": "Der ‚Freund‘ des Viertels."
+  },
+  {
+   "key": "case047.rocco.deflect",
+   "value": "Ich bin ein Freund, das ist alles."
+  },
+  {
+   "key": "case047.rocco.title",
+   "value": "Rocco Greco — Befragung"
+  },
+  {
+   "key": "case047.rocco.visit.answer",
+   "value": "Ciro war stur. Eine Mehlsache, eine Geschäftssache. Ich sperre niemanden in einen Kühlraum; ich war gestern Nacht auf Ischia, auf einer Hochzeit, hundert Leute haben mich gesehen. Aber Enzo … Enzo schuldet mir etwas. Das sage ich Ihnen auch noch, als Geschenk."
+  },
+  {
+   "key": "case047.rocco.visit.answer.demeanor",
+   "value": "Dreht den Ring an seinem kleinen Finger."
+  },
+  {
+   "key": "case047.rocco.visit.question",
+   "value": "Ciro Amato hat Sie an der Tür abgewiesen."
+  },
+  {
+   "key": "case047.rosaria.body",
+   "value": "Ehefrau des Opfers."
+  },
+  {
+   "key": "case047.rosaria.debt.answer",
+   "value": "Das Kassenbuch führte Ciro. Letzten Monat sagte er: ‚Enzo nimmt aus der Kasse, Rosaria, dein Bruder zahlt seine Spielschulden aus unserer Bäckerei.‘ Ich wollte es nicht glauben."
+  },
+  {
+   "key": "case047.rosaria.debt.question",
+   "value": "Wie stand es um das Geld des Ladens?"
+  },
+  {
+   "key": "case047.rosaria.deflect",
+   "value": "Ich spreche über niemanden außer Ciro."
+  },
+  {
+   "key": "case047.rosaria.home.answer",
+   "value": "Um eins in der Nacht habe ich angerufen, es war aus. Ich rief Enzo an, er sagte: ‚Ciro ist gegangen, wahrscheinlich in eine Bar.‘ Enzo ist mein Bruder. Ich dachte, er lügt nicht."
+  },
+  {
+   "key": "case047.rosaria.home.answer.demeanor",
+   "value": "Dreht einen Knopf ihrer Strickjacke."
+  },
+  {
+   "key": "case047.rosaria.home.question",
+   "value": "Was haben Sie getan, als Ihr Mann nachts nicht nach Hause kam?"
+  },
+  {
+   "key": "case047.rosaria.title",
+   "value": "Rosaria Amato — Befragung"
+  },
+  {
+   "key": "case047.street.body",
+   "value": "Vico dei Panettieri, Kamera des Ladens gegenüber der Pizzeria. 5. Oktober 23.00 – 6. Oktober 01.00."
+  },
+  {
+   "key": "case047.street.title",
+   "value": "STRASSENKAMERA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case047.summary.evidence",
+   "value": "Der Straßenhändler sah, wer den Rollladen herunterzog; die Straßenkamera bestätigte es. Die Kellnerin lieferte den Streit, die Witwe die Entnahmen aus der Kasse. Die begründete Durchsuchung fand den Griff im Handschuhfach. Die Hochzeit auf Ischia entlastete den Geldeintreiber, aber er verriet Enzo."
+  },
+  {
+   "key": "case047.summary.lesson",
+   "value": "In Neapel kommt sogar das Mehl auf jemandes Namen."
+  },
+  {
+   "key": "case047.summary.location",
+   "value": "Forcella — Oktober 2030"
+  },
+  {
+   "key": "case047.summary.truth",
+   "value": "Enzo Ferraro schuldete dem Geldeintreiber des Viertels wegen Spielschulden 12.000 Euro; die Schuld sollte gestrichen werden, wenn die Pizzeria auf Caruso-Mehl umstellte. Als sein Partner und Schwager Ciro ablehnte, zog Enzo nachts den Rollladen herunter, ging wieder hinein, schlug Ciro in den Nacken, trug ihn in den Kühlraum, schraubte den Innengriff ab und drehte das Thermostat auf -18."
+  },
+  {
+   "key": "case047.suspect.label",
+   "value": "Wer hat Ciro Amato getötet?"
+  },
+  {
+   "key": "case047.tablet.caseLine",
+   "value": "AKTE #047  /  BUBE NEAPEL — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case047.time.argue",
+   "value": "23.30"
+  },
+  {
+   "key": "case047.time.found",
+   "value": "06.40"
+  },
+  {
+   "key": "case047.time.half",
+   "value": "23.41"
+  },
+  {
+   "key": "case047.time.msg",
+   "value": "00.04"
+  },
+  {
+   "key": "case047.time.out",
+   "value": "23.53"
+  },
+  {
+   "key": "case047.time.watch",
+   "value": "00.10"
+  },
+  {
+   "key": "case047.title",
+   "value": "Akte #047 — Forno"
+  },
+  {
+   "key": "case047.verdict.accident",
+   "value": "Niemand — ein Unfall"
+  },
+  {
+   "key": "case047.verdict.enzo",
+   "value": "Enzo Ferraro"
+  },
+  {
+   "key": "case047.verdict.rocco",
+   "value": "Rocco Greco"
+  },
+  {
+   "key": "case047.verdict.rosaria",
+   "value": "Rosaria Amato"
+  },
+  {
+   "key": "case047.item.handle.name",
+   "value": "Innengriff des Kühlraums"
+  },
+  {
+   "key": "case047.item.handle.detail",
+   "value": "Ein abmontierter verchromter Türgriff mit zwei Schrauben aus dem Handschuhfach eines Autos."
+  },
+  {
+   "key": "case047.item.thermo.name",
+   "value": "Thermostat des Kühlraums"
+  },
+  {
+   "key": "case047.item.thermo.detail",
+   "value": "Das Thermostat an der Außenwand des Kühlraums; nachts auf -18 gedreht."
+  },
+  {
+   "key": "case047.item.ledger.name",
+   "value": "Kassenbuch"
+  },
+  {
+   "key": "case047.item.ledger.detail",
+   "value": "Ein kleines kariertes Heft unter der Kasse; auf der letzten Seite zwei Zahlenspalten und ein Strich."
+  }
+ ]
+}
