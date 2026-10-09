@@ -1,0 +1,400 @@
+{
+ "entries": [
+  {
+   "key": "case061.anika.body",
+   "value": "Eishockeyspielerin."
+  },
+  {
+   "key": "case061.anika.deflect",
+   "value": "Ich bin nur zum frühen Training gekommen."
+  },
+  {
+   "key": "case061.anika.found.answer",
+   "value": "Unter der Tür kam weißer Rauch hervor, meine Augen brannten. Ich wollte die Maske neben der Tür nehmen, der Haken war leer. Ich hielt den Atem an und öffnete die Tür, Gilles lag am Boden. Das Ventil hatte keinen Hebel, das habe ich später der Polizei gesagt; denn Gilles hatte mir die Hebel gezeigt und gesagt: ‚Fass die nicht an.‘"
+  },
+  {
+   "key": "case061.anika.found.answer.demeanor",
+   "value": "Hält ihren Helm mit beiden Händen auf dem Schoß."
+  },
+  {
+   "key": "case061.anika.found.question",
+   "value": "Was hast du gesehen?"
+  },
+  {
+   "key": "case061.anika.title",
+   "value": "Anika Sharma — Befragung"
+  },
+  {
+   "key": "case061.autopsy.body",
+   "value": "· Todesursache: Einatmen von Ammoniak; Lungenödem.\n· An der linken Schläfe ein kleiner, runder Schlag; zu scharf, um bei einem Sturz zu entstehen. Er atmete das Gas bewusstlos ein.\n· Todeszeit: 22.00–23.30 (in der Nacht zuvor)."
+  },
+  {
+   "key": "case061.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case061.clue.check",
+   "value": "Der Geschäftsführer trägt ins Buch ‚Ventile normal‘ ein."
+  },
+  {
+   "key": "case061.clue.found",
+   "value": "Die Spielerin sieht den Dampf, der unter der Tür hervorquillt."
+  },
+  {
+   "key": "case061.clue.note",
+   "value": "Der Eismeister trägt ins Buch ein, dass der Kompressor alt ist."
+  },
+  {
+   "key": "case061.clue.source.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.clue.source.log",
+   "value": "Wartungsbuch"
+  },
+  {
+   "key": "case061.custody.bin",
+   "value": "In den Müll der Umkleide"
+  },
+  {
+   "key": "case061.custody.drawer",
+   "value": "In die Schreibtischschublade des Geschäftsführers"
+  },
+  {
+   "key": "case061.custody.ice",
+   "value": "In den Rohrkanal unter der Eisfläche"
+  },
+  {
+   "key": "case061.custody.label",
+   "value": "Wohin kam der Ventilhebel?"
+  },
+  {
+   "key": "case061.epilogue.custody.bin",
+   "value": "Der Müll war leer."
+  },
+  {
+   "key": "case061.epilogue.custody.drawer",
+   "value": "Festgehalten wurde, dass der Ventilhebel in der Schublade des Geschäftsführers gefunden wurde."
+  },
+  {
+   "key": "case061.epilogue.custody.ice",
+   "value": "Die Kanäle wurden geöffnet; kein Hebel."
+  },
+  {
+   "key": "case061.epilogue.verdict.accident",
+   "value": "Der Tod galt als Defekt; die Eisbahn schloss für eine Woche und öffnete dann mit dem alten Kompressor."
+  },
+  {
+   "key": "case061.epilogue.verdict.anika",
+   "value": "Anika Sharma wurde verhört und verließ die Mannschaft; der Hebel blieb in der Schublade."
+  },
+  {
+   "key": "case061.epilogue.verdict.lavoie",
+   "value": "Marc-André Lavoie wurde festgenommen; die gefälschte Erneuerung wurde der Stadt gemeldet. Das ‚Programm für kommunale Infrastruktur‘ von Laurentide Réassurance kam in die Akte der Dienststelle Mile End."
+  },
+  {
+   "key": "case061.epilogue.verdict.ouellet",
+   "value": "Denis Ouellet wurde festgenommen; der alte Kompressor lief weiter."
+  },
+  {
+   "key": "case061.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case061.evidence.log",
+   "value": "Wartungsbuch"
+  },
+  {
+   "key": "case061.evidence.office",
+   "value": "Durchsuchung des Büros des Geschäftsführers"
+  },
+  {
+   "key": "case061.evidence.room",
+   "value": "Untersuchung des Kompressorraums"
+  },
+  {
+   "key": "case061.feedback.accident",
+   "value": "Der Ventilhebel war abgebaut, und die Tür war von außen abgeschlossen."
+  },
+  {
+   "key": "case061.feedback.anika",
+   "value": "Die Spielerin kam am Morgen und öffnete die Tür; der Tod trat in der Nacht zuvor ein."
+  },
+  {
+   "key": "case061.feedback.lavoie",
+   "value": "Der Ventilhebel und die fehlende Maske kamen aus seinem Büro; auf dem Hebel sein Abdruck. Die Zeile ‚normal‘ im Buch liegt innerhalb der Todeszeit, und mit Schlüssel konnten nur er und das Opfer den Raum betreten."
+  },
+  {
+   "key": "case061.feedback.ouellet",
+   "value": "Der Trainer war mit dem Opfer zerstritten, aber er hat keinen Schlüssel zum Kompressorraum und war nachts zu Hause."
+  },
+  {
+   "key": "case061.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case061.file.value.bureau",
+   "value": "BDM Montreal — Dienststelle Mile End"
+  },
+  {
+   "key": "case061.file.value.location",
+   "value": "Aréna du Parc, Mile End, Montreal"
+  },
+  {
+   "key": "case061.file.value.number",
+   "value": "BDM-MTL-2030-0206"
+  },
+  {
+   "key": "case061.file.value.offence",
+   "value": "Verdächtiger Todesfall — Gas"
+  },
+  {
+   "key": "case061.file.value.reporter",
+   "value": "Spielerin"
+  },
+  {
+   "key": "case061.lavoie.body",
+   "value": "Geschäftsführer der Eisbahn."
+  },
+  {
+   "key": "case061.lavoie.deflect",
+   "value": "Diese Eisbahn gehört dem Viertel; ich betreibe sie nur."
+  },
+  {
+   "key": "case061.lavoie.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case061.lavoie.end.decoy.log",
+   "value": "Schauen Sie ins Buch: 21.40, ‚Ventile geprüft, normal‘. Meine Unterschrift. Als ich ging, war alles an seinem Platz."
+  },
+  {
+   "key": "case061.lavoie.end.presented.office",
+   "value": "Gilles hatte das Typenschild des Kompressors gesehen, er wollte an die Stadt schreiben. Das Erneuerungsgeld … Ein Mann von Laurentide hatte gesagt: ‚Niemand schaut unter einen alten Kompressor.‘ Gilles hat geschaut. Ich schlug ihn mit dem Schlüssel, öffnete das Ventil, baute den Hebel ab, nahm die Maske. Ins Buch schrieb ich ‚normal‘. Als ich diese Zeile schrieb, zitterte meine Hand nicht einmal."
+  },
+  {
+   "key": "case061.lavoie.end.question",
+   "value": "Sie haben Gilles im Kompressorraum zurückgelassen."
+  },
+  {
+   "key": "case061.lavoie.night.answer",
+   "value": "Ich habe abends meinen Kontrollgang gemacht, wie jeden Abend. Gilles war um diese Zeit nicht da. Er war alt, vielleicht hat er das Ventil selbst geöffnet, vielleicht ein Defekt."
+  },
+  {
+   "key": "case061.lavoie.night.answer.demeanor",
+   "value": "Zieht den Reißverschluss seiner Fleecejacke bis zum Kinn hoch."
+  },
+  {
+   "key": "case061.lavoie.night.question",
+   "value": "Waren Sie gestern Nacht im Kompressorraum?"
+  },
+  {
+   "key": "case061.lavoie.title",
+   "value": "Marc-André Lavoie — Befragung"
+  },
+  {
+   "key": "case061.log.body",
+   "value": "Wartungsbuch des Kompressorraums, 5. November:\n\n· 16.00 — G. Roy: ‚Druck in der Hauptleitung hoch. Der als neues System eingebaute Kompressor ist alt, das Etikett wurde ausgetauscht. Ich sage es dem Geschäftsführer.‘\n· 21.40 — Marc-André Lavoie: ‚Ventile geprüft, normal.‘\n\nZugang zum Kompressorraum nicht per Karte, sondern per Schlüssel; Schlüssel haben der Geschäftsführer und der Eismeister."
+  },
+  {
+   "key": "case061.log.title",
+   "value": "WARTUNGSBUCH DES KOMPRESSORS"
+  },
+  {
+   "key": "case061.method.ammonia",
+   "value": "Bewusstlos geschlagen und in einen Raum mit offenem Ammoniakventil eingeschlossen"
+  },
+  {
+   "key": "case061.method.fall",
+   "value": "Er rutschte aus und schlug mit dem Kopf auf"
+  },
+  {
+   "key": "case061.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case061.method.leak",
+   "value": "Er vergiftete sich an einem spontanen Leck"
+  },
+  {
+   "key": "case061.offer.subtitle",
+   "value": "EISBAHN  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case061.offer.summary",
+   "value": "Ein Eismeister, seit dreißig Jahren im Dienst, starb im Kompressorraum der Eisbahn an Ammoniak; das Ventil hatte keinen Hebel."
+  },
+  {
+   "key": "case061.offer.title",
+   "value": "AKTE #061"
+  },
+  {
+   "key": "case061.office.body",
+   "value": "Das Büro von Marc-André Lavoie in der Eisbahn (mit Genehmigung der Dienststellenleitung):\n\n· In der unteren Schreibtischschublade der Hebel des Ablassventils; in der Aufnahme des Hebels Ammoniakrückstände, darauf der Fingerabdruck von Marc-André Lavoie.\n· Im Schrank die Notfallmaske des Kompressorraums.\n· In einem Ordner die Rechnung für die ‚Erneuerung‘ der Kühlanlage: 1,8 Millionen Dollar; versichert bei Laurentide Réassurance, ‚Programm für kommunale Infrastruktur‘."
+  },
+  {
+   "key": "case061.office.title",
+   "value": "BÜRO DES GESCHÄFTSFÜHRERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case061.ouellet.body",
+   "value": "Trainer."
+  },
+  {
+   "key": "case061.ouellet.deflect",
+   "value": "Ich bringe Kindern das Schlittschuhlaufen bei."
+  },
+  {
+   "key": "case061.ouellet.fight.answer",
+   "value": "Wegen der Eiszeiten; er gab sie immer den Erwachsenenligen. Ich habe geschrien, ja, letzte Woche vor allen. Aber gestern Nacht war ich zu Hause, ich habe eine Frau und drei Kinder. Gilles hatte mir aber etwas gesagt: ‚Die Erneuerung von Marc-André ist ein Betrug, ich schreibe an die Stadt.‘"
+  },
+  {
+   "key": "case061.ouellet.fight.answer.demeanor",
+   "value": "Wickelt die Schnur seiner Pfeife um den Finger."
+  },
+  {
+   "key": "case061.ouellet.fight.question",
+   "value": "Warum waren Sie mit Gilles zerstritten?"
+  },
+  {
+   "key": "case061.ouellet.title",
+   "value": "Denis Ouellet — Befragung"
+  },
+  {
+   "key": "case061.person.anika.info",
+   "value": "16 Jahre, Eishockeyspielerin; fand die Leiche."
+  },
+  {
+   "key": "case061.person.anika.name",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.person.lavoie.info",
+   "value": "49 Jahre, Geschäftsführer der Eisbahn des Viertels."
+  },
+  {
+   "key": "case061.person.lavoie.name",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.person.ouellet.info",
+   "value": "55 Jahre, Trainer der Jugend-Eishockeymannschaft."
+  },
+  {
+   "key": "case061.person.ouellet.name",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.report.body",
+   "value": "Am Morgen des 6. November 2030 wurde im Kompressorraum der Eisbahn Aréna du Parc in Mile End der Eismeister Gilles Roy (61) tot aufgefunden. Im Raum dichtes Ammoniak; das Ablassventil offen, ohne Hebel.\n\nDie Leiche fand die Jugendspielerin Anika Sharma um 06.10, als sie den weißen Dampf sah, der unter der Tür des Kompressorraums hervorquoll. Der Geschäftsführer der Eisbahn, Marc-André Lavoie, und Trainer Denis Ouellet kamen um 06.20."
+  },
+  {
+   "key": "case061.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case061.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case061.request.log",
+   "value": "Wartungsbuch des Kompressors anfordern"
+  },
+  {
+   "key": "case061.request.office",
+   "value": "Durchsuchungsbeschluss für das Büro des Geschäftsführers beantragen"
+  },
+  {
+   "key": "case061.request.room",
+   "value": "Untersuchung des Kompressorraums anfordern"
+  },
+  {
+   "key": "case061.room.body",
+   "value": "· Das Ablassventil ist vollständig geöffnet; der Hebel abgebaut. Ohne Hebel lässt sich das Ventil nicht von Hand schließen.\n· Die Tür ist von außen abgeschlossen. Der Haken für die Notfallmaske ist leer; die Maske ist auch nicht im Raum.\n· Das Typenschild des als ‚neu‘ erfassten Kompressors wurde abgenommen und neu vernietet; das darunterliegende Baujahr ist 1998."
+  },
+  {
+   "key": "case061.room.title",
+   "value": "UNTERSUCHUNG DES KOMPRESSORRAUMS"
+  },
+  {
+   "key": "case061.summary.evidence",
+   "value": "Das Buch war ein Köder: die Unterschrift des Geschäftsführers sagte, dass er als Letzter im Raum war, nicht, dass er unschuldig ist. Die Raumuntersuchung und der Trainer ließen die Durchsuchung zu; die Durchsuchung fand den Hebel und die Maske."
+  },
+  {
+   "key": "case061.summary.lesson",
+   "value": "Er schrieb ‚normal‘. Die Zeile von Gilles davor vergaß er zu löschen."
+  },
+  {
+   "key": "case061.summary.location",
+   "value": "Aréna du Parc — November 2030"
+  },
+  {
+   "key": "case061.summary.truth",
+   "value": "Geschäftsführer Marc-André Lavoie tat so, als habe er die Kühlanlage der Eisbahn ‚erneuert‘, und kassierte 1,8 Millionen Dollar; der eingebaute Kompressor war ein umetikettiertes Gerät von 1998. Eismeister Gilles Roy sah das Typenschild und wollte an die Stadt schreiben. Lavoie schlug ihn im Kompressorraum bewusstlos, öffnete das Ammoniakventil und baute den Hebel ab, nahm die Maske, schloss die Tür ab und schrieb ‚normal‘ ins Buch."
+  },
+  {
+   "key": "case061.suspect.label",
+   "value": "Wer hat Gilles Roy getötet?"
+  },
+  {
+   "key": "case061.tablet.caseLine",
+   "value": "AKTE #061  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case061.time.check",
+   "value": "21.40"
+  },
+  {
+   "key": "case061.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case061.time.note",
+   "value": "16.00"
+  },
+  {
+   "key": "case061.title",
+   "value": "Akte #061 — Eisbahn"
+  },
+  {
+   "key": "case061.verdict.accident",
+   "value": "Niemand — ein Defekt"
+  },
+  {
+   "key": "case061.verdict.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.verdict.lavoie",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.verdict.ouellet",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.item.valve.name",
+   "value": "Ventilhebel des Kompressors"
+  },
+  {
+   "key": "case061.item.valve.detail",
+   "value": "Der abgebaute Hebel des Ablassventils der Ammoniakleitung; kam aus der unteren Schreibtischschublade des Geschäftsführers."
+  },
+  {
+   "key": "case061.item.log.name",
+   "value": "Wartungsbuch"
+  },
+  {
+   "key": "case061.item.log.detail",
+   "value": "Das Wartungsbuch des Kompressorraums; die gestrige Zeile lautet ‚Ventile geprüft, normal‘."
+  },
+  {
+   "key": "case061.item.mask.name",
+   "value": "Haken der Gasmaske"
+  },
+  {
+   "key": "case061.item.mask.detail",
+   "value": "Der Haken für die Notfallmaske an der Tür des Kompressorraums; leer."
+  }
+ ]
+}
