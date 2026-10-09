@@ -1,0 +1,10 @@
+{
+    "name": "Bube.Crash",
+    "rootNamespace": "Bube",
+    "references": ["Bube.Runtime", "Firebase.App", "Firebase.Crashlytics"],
+    "autoReferenced": false,
+    "defineConstraints": ["KARINE_CRASHLYTICS"],
+    "versionDefines": [
+        {"name": "com.google.firebase.crashlytics", "expression": "12.0.0", "define": "KARINE_CRASHLYTICS"}
+    ]
+}

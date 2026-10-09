@@ -41,6 +41,7 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [~] **Giriş zorunlu + bulut yalnız dönüm noktasında (9 Ekim 2026).** Giriş kâğıdı seçim yapılmadan geçilmez (geri tuşu dahil); buluta yalnız kariyer belgesi, rapor/değerlendirme/rütbe/ödül anında; açılışta yalnız yeni olan yazılır. Oyunda ve cihazda görülmedi.
 - [ ] Apple/Google girişini Firebase'e bağla (`signInWithIdp` + misafiri bağlama, çakışmada hesabın kaydı açılır) — geliştirici hesapları bekleniyor.
 - [ ] Firebase konsolu: proje, anonim giriş, Firestore (eur3), kurallar, API anahtarı → `config.json` — kullanıcıda.
+- [~] **Mağaza hazırlığı (9 Ekim 2026).** Reklamları kaldır + geri yükle (Unity IAP 4.12.2), iOS ATT (önce ATT sonra UMP), oyun içi puan (3. dosyadan sonra bir kez), Crashlytics (paket gelince derlenir), bozuk kayıtta `.bak`tan dönüş, gizlilik/silme sayfası taslakları (`Docs/Legal`). EditMode 143 geçti; Android/iOS dalları başsız derlendi; Gradle/Xcode derlemesi ve cihaz denemesi yok. Kullanıcı adımları: `STORE_ACCOUNTS_CHECKLIST.md` → 9 Ekim eki.
 - [x] Oyun adı **Karine** olarak belirlendi ve `config.json`, `productName`, paket kimliği ile `about.body`'ye uygulandı. (Faz 0)
 
 - [x] **Vaka teklifi tam ekran olmaktan çıkıp masadaki gelen evrak tepsisine taşındı.** Rozet yanıp söner, oyuncu tepsiyi kendisi açar, önizlemeyi okur ve kabul eder; kabul edilmeden masada başka hiçbir şey açılmaz. Başsız **Play Mode testiyle akış uçtan uca koşturuldu ve gözlendi**.
@@ -277,8 +278,8 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Zincir: Dosya #004 → #005, haritada beşinci yuva.
 - [~] Zaman: Kasım 2027 (#004'ün Ocak 2027'sinden sonra); kaybolma gecesi 14 Kasım 2027 Pazar, bildirim 15 Kasım Pazartesi; `Case005Rules` doğrulayıcıda.
 - [~] Portreler (Aslı, Kaan, Murat, Nermin, Levent) girdi; sorgu ekranlarında galeri çekimiyle görüldü.
-- [ ] Vaka kapağı.
-- [ ] CCTV kareleri (20.11, 22.41, 23.19, 00.08) — önce iki boş zemin: Moda apartman ön kapısı ve Rıhtım otoparkı zemin katı (prompt'lar verildi); kişili kareler sonra.
+- [~] Vaka kapağı. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
+- [~] CCTV kareleri (20.11, 22.41, 23.19, 00.08) — önce iki boş zemin: Moda apartman ön kapısı ve Rıhtım otoparkı zemin katı (prompt'lar verildi); kişili kareler sonra. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
 - [ ] Dosya #005 baştan sona Play Mode oynanışı (kullanıcı).
 
 ### 4 Ekim 2026 — Dosya #006 "Son Mesaj"
@@ -286,9 +287,9 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Tasarım: `Docs/CASE006_DESIGN.md` — kayıp kişi; ilk kayboluş Defne'nin planı, 23.41 mesajı Cem'in, takip Halil'in. #005'ten ayrışsın diye kişi, meslek, usulsüzlük ve semt değişti.
 - [~] Veri ve metin: `case006.json` (24 düğüm), `tr.case006.json` (323 metin). Doğrulayıcı vakayı otomatik çözüyor; `Case006Rules` kırılma kayıtlarının soruyla açıldığını ve "eksik doğru" raporların desteklenmediğini sabitliyor. 126/126 EditMode, 25/25 PlayMode.
 - [~] Zincir: Dosya #005 → #006, haritada altıncı yuva; galeri listesinde.
-- [ ] Portreler (Buse, Halil, Onur, Cem, Defne, Sevim) — şimdilik yordamsal yer tutucu.
-- [ ] Vaka kapağı.
-- [ ] CCTV kareleri (apartman 22.38, kafe 20.49, sahil 21.51 / 22.02 / 00.06).
+- [~] Portreler (Buse, Halil, Onur, Cem, Defne, Sevim) — şimdilik yordamsal yer tutucu. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
+- [~] Vaka kapağı. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
+- [~] CCTV kareleri (apartman 22.38, kafe 20.49, sahil 21.51 / 22.02 / 00.06). — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
 - [ ] Dosya #006 baştan sona Play Mode oynanışı (kullanıcı).
 
 ### 4 Ekim 2026 — Dosya #007 "Kül Payı" ve inceleme izni
@@ -299,8 +300,8 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Tasarım: `Docs/CASE007_DESIGN.md` — şüpheli yangın; darbe Serdar'ın, yangın kasıtlı, ilk amaç sigorta.
 - [~] Veri ve metin: `case007.json` (22 düğüm, 3 izinli), `tr.case007.json` (240 metin). `Case007Rules`: zayıf dayanak reddi, desteklenen rapor, "düştü"/"delilleri örtmek" desteklenmez. 126/126 EditMode, 25/25 PlayMode.
 - [~] Zincir: Dosya #006 → #007, haritada yedinci yuva; galeri listesinde.
-- [ ] Portreler: Serdar, Melis, Erdal, Oğuz.
-- [ ] Kapak ve sokak kamerası CCTV kareleri.
+- [~] Portreler: Serdar, Melis, Erdal, Oğuz. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
+- [~] Kapak ve sokak kamerası CCTV kareleri. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
 - [ ] İzin akışı ve Dosya #007 baştan sona Play Mode oynanışı (kullanıcı).
 
 ### 4 Ekim 2026 — Dosya #008 "Kopya": olay bağlantısı, arşiv taraması, ayrılan dosya
@@ -312,7 +313,7 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Veri ve metin: `case008.json` (32 düğüm; 2 bağlantı, 1 arşiv, 1 izin), `tr.case008.json` (309 metin). `Case008Rules`. 126/126 EditMode, 25/25 PlayMode.
 - [~] Zincir: #007 → #008; bölüm seçicide her ülkeye sekizinci yuva (TR'de #008, diğerlerinde mühürlü).
 - [ ] Olay panosu (kart dizme, bağlantı türü, puansız teori) — tasarım kullanıcıdan gelince.
-- [ ] Portreler: Selim, Tolga, Aylin, Zeynep, Ferhat, Burak.
+- [~] Portreler: Selim, Tolga, Aylin, Zeynep, Ferhat, Burak. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
 - [ ] Kapak, birleştirilmiş fotoğraf görseli ve CCTV kareleri (site otoparkı, apartman girişi).
 - [ ] "Yeniden açıldı" kartı, "AYRILDI" damgası ve Dosya #008 baştan sona Play Mode oynanışı (kullanıcı).
 
@@ -323,7 +324,7 @@ Yeni kariyer açılışı: Dünya 1/Türkiye için kullanıcının seçtiği yak
 - [~] Yetki genişletildi: `grantsAuthority` + doğru rapor → kariyer kartında yetki satırı.
 - [~] Tasarım: `Docs/CASE009_DESIGN.md`. Veri: `case009.json` (30 düğüm; 3 hat, 1 izin, 1 bağlantı), `tr.case009.json` (260 metin). `Case009Rules`; doğrulayıcı yürüyüşü biten hattı kapatır. 126/126 EditMode, 25/25 PlayMode.
 - [~] Zincir: #008 → #009; her ülkeye dokuzuncu yuva.
-- [ ] Portreler: Arda, Hakan, Nesrin, Volkan, Ceren, Ali Rıza. Kapak, koridor CCTV kareleri, delil fotoğrafları.
+- [~] Portreler: Arda, Hakan, Nesrin, Volkan, Ceren, Ali Rıza. Kapak, koridor CCTV kareleri, delil fotoğrafları. — dosyası yerinde (9 Ekim 2026 sayımı: 73 kapak, 355 portre, 97 CCTV karesi, #011–#073 bulguları); oyunda gözle bakılmadı.
 - [ ] Hat yuvaları, zarf, yetki satırı ve Dosya #009 baştan sona Play Mode oynanışı (kullanıcı).
 
 ## Güncelleme kuralı

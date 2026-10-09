@@ -83,3 +83,35 @@ Servis kurulamazsa (proje bağlı değil, internet yok) oyun **yerel misafir** o
 
 ## Görünüş
 Giriş kağıdı şimdilik kit bileşenleriyle (onay formu dili) çizildi. Görünüşü ChatGPT tasarımı gelince yalnız `KarineUI.Account.cs` değişir. Marka kuralı: Apple ve Google düğmeleri kendi resmi logo/renk kurallarına uymalıdır. Bugün logo yok, yerine kilit simgesi var. Tasarımda resmi düğme görünüşü kullanılmalı.
+
+
+## 9 Ekim 2026 eki — mağazaya hazırlık
+
+**Önemli:** Seçilen servis artık Firebase ([FIREBASE_AND_KVKK.md](FIREBASE_AND_KVKK.md)). Yukarıdaki UGS adımları geçersiz. `config.json` içinde Firebase anahtarı varsa oyun UGS'yi kullanmaz.
+
+### Kodda hazır (cihazda denenmedi)
+
+| Konu | Nerede | Not |
+|---|---|---|
+| Reklamları kaldır (tek seferlik) + Satın alımları geri yükle (Apple 3.1.1) | `Assets/Bube/Purchasing/UnityStore.cs`, Ayarlar › Oyun | Unity IAP 4.12.2. Ürün kimliği `com.bubedigital.karine.noads`, tür *non-consumable*. Google'da makbuz açılışta kendiliğinden geri gelir. |
+| iOS takip izni (ATT, Apple 5.1.2) | `Assets/Plugins/iOS/KarinePlatform.mm`, `AdMobProvider` | Önce ATT, sonra Google UMP formu. Info.plist metni `Editor/IosBuildSettings.cs` içinde (İngilizce). |
+| Oyun içi puan isteme | `Platform.RequestReview`; Android `KarineReview.androidlib` | 3. dosya kapanınca bir kez. Pencereyi işletim sistemi gösterir ya da göstermez. |
+| Çökme raporu | `Assets/Bube/Crash/CrashReporting.cs` | Firebase Crashlytics paketi kurulunca kendiliğinden derlenir. |
+| Bozuk kayıttan dönüş | `BubeApp.ReadSave` | Her kayıtta `.bak` tutulur. Bozuk dosya `.corrupt` olarak kenara alınır ve yedek okunur. |
+| Gizlilik politikası ve silme sayfası **taslakları** | `Docs/Legal/privacy.html`, `Docs/Legal/delete-account.html` | TR + EN. Köşeli parantezli yerleri doldur, sonra hukukçuya okut. |
+
+### Sana kalanlar
+1. **Mağaza ürünü:** App Store Connect ve Play Console'da `com.bubedigital.karine.noads` kimlikli tek seferlik ürünü oluştur ve fiyatını belirle.
+2. **AdMob:** gerçek reklam birimi kimliklerini ver. *Privacy & messaging* bölümünde GDPR mesajını yayınla. Bu bölümdeki "IDFA explainer"ı açma; ATT'yi zaten oyun soruyor, çift pencere çıkar.
+3. **Crashlytics:** Firebase projesinde Crashlytics'i aç. Firebase Unity SDK'dan `FirebaseCrashlytics` paketini kur. `google-services.json` ve `GoogleService-Info.plist` dosyalarını ver; bunlar depoya girebilir.
+4. **Gizlilik ve silme sayfaları:** `Docs/Legal` altındaki sayfalarda adres, e-posta, tarih ve saklama süresini doldur. Hukukçuya okut, yayınla (GitHub Pages yeter). Adresleri bana ver; `config.json` içindeki `privacyUrl`, `accountDeletionUrl` ve `supportEmail` alanlarına yazarım.
+5. **Mağaza formları:**
+   - Data safety ve App Privacy: [FIREBASE_AND_KVKK.md](FIREBASE_AND_KVKK.md) dosyasındaki listeye reklam kimliği ve satın alma eklenir.
+   - IARC yaş derecelendirmesi.
+   - Mağaza görselleri ve tanıtım metinleri.
+6. **Yayın imza anahtarı (keystore):** sen üretip saklarsın. Depoya asla girmez.
+7. **Cihaz testi turu:** `Docs/PLAYTEST_001.md` dosyasına ek olarak şunlar denenecek:
+   - satın al, uygulamayı sil ve yeniden kur, geri yükle;
+   - ATT penceresi;
+   - Dosya #002'deki hesap bağlama önerisi;
+   - 3. dosyadan sonra puan penceresi.

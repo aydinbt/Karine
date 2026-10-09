@@ -623,3 +623,11 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 `FirebaseAccountProvider` (`Assets/Bube/Runtime`) `IAccountProvider`ı paketsiz gerçekler: Identity Toolkit `accounts:signUp` ile anonim kimlik, `securetoken` ile yenileme (anahtar `PlayerPrefs` `karine.firebase.refresh`), Firestore REST ile `users/{uid}/saves/{anahtar}` belgeleri (`entry` = `CloudEntry` JSON). `config.json` → `firebaseApiKey` + `firebaseProjectId` doluysa ve başka sağlayıcı takılı değilse `BubeApp` açılışta takar. Arayüze `CloudReady`/`CloudId` eklendi: bulut eşitlemesi artık `Accounts.SignedIn` yerine `CloudReady`ye bakar, misafir de buluta yazar. Misafir klasörü (`accounts/guest`) değişmedi; anonim kimlik `Accounts.Id`ye yazılmaz. Silme: belgeler → kimlik (`accounts:delete`) → yerel klasör; bir adım düşerse yerel silinmez. Kurallar: `Firebase/firestore.rules`.
 
 `DurableStore` (Runtime): iOS'ta `KarineKeychain.mm` (`__Internal`), Android'de `KarineBlockStore.androidlib` (`play-services-auth-blockstore` 16.4.0, `AndroidJavaProxy` geri çağrısı; sonuç `Pump()` ile ana döngüye — `FirebaseAccountProvider.Tick`). Editor'de boş döner.
+
+## 9 Ekim 2026 — Mağaza parçaları
+
+- **Satın alma.** `IStore` / `Store.Provider` (`Monetization.cs`, varsayılan `NoStore`). Gerçeklemesi `Bube.Purchasing` derlemesi (`UnityStore`, Unity IAP 4.x); `versionDefines` ile yalnız `com.unity.purchasing` 4.x kuruluyken derlenir. `AdGateway.SetAdsRemoved` tek bayrak olarak kalır.
+- **Platform köprüsü.** `Platform` (Runtime) iki işi yapar: `RequestTracking` (iOS ATT, `KarinePlatform.mm`) ve `RequestReview` (iOS StoreKit; Android `KarineReview.androidlib` → `play:review` 2.0.2). `AdMobProvider` UMP formundan önce ATT'yi ister. iOS çerçeveleri ve Info.plist metni `Editor/IosBuildSettings.cs` (`#if UNITY_IOS`) ile eklenir.
+- **Çökme raporu.** `Bube.Crash` derlemesi, `com.google.firebase.crashlytics` kurulunca derlenir.
+- **Kayıt okuma.** `ReadSave<T>`: bozuk dosya `.corrupt` olarak kenara alınır ve `.bak` okunur. `Save()` her yazmada `File.Replace` ile `.bak` üretir. Bulut deseni `bube-career-*.json` olduğu için `.bak` dosyaları buluta gitmez.
+- **Sağlayıcı önceliği.** `config.firebaseApiKey` doluysa `FirebaseAccountProvider`, `UgsAccountProvider`ın yerine geçer.

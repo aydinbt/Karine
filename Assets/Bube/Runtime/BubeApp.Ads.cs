@@ -49,5 +49,19 @@ public sealed partial class BubeApp {
    request.readyAtUtcTicks=DateTime.UtcNow.Ticks;Save();refresh?.Invoke();
   }));
  }
+ // Ayarlar › Oyun: tek seferlik "Reklamları kaldır" ve "Satın alımları geri yükle".
+ string storeNotice;bool storeBusy;
+ void StoreRows(VisualElement body) {
+  var price=Store.Provider.NoAdsPrice;
+  if(AdGateway.AdsRemoved)KarineUI.SettingRow(body,T("store.noads"),T("store.noads.owned"));
+  else Button(KarineUI.SettingRow(body,T("store.noads"),price==null?T("store.noads.hint"):T("store.noads.hint")+"  ·  "+price),T("store.buy"),()=>StoreCall(Store.Provider.BuyNoAds,"store.notice.bought"));
+  var restore=KarineUI.SettingRow(body,T("store.restore"),T("store.restore.hint"));
+  Button(restore,T("store.restore.action"),()=>StoreCall(Store.Provider.Restore,"store.notice.restored"));
+  if(!string.IsNullOrEmpty(storeNotice))KarineUI.Body_(restore,storeNotice,KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;
+ }
+ void StoreCall(Action<Action<string>> call,string success) {
+  if(storeBusy)return;storeBusy=true;
+  call(error=>{storeBusy=false;storeNotice=T(error??success);if(root.Q("SettingsModal")!=null)RenderSettings();});
+ }
 }
 }

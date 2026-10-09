@@ -11,7 +11,7 @@ namespace Bube {
 // eşyalar, bölüm kartı, yazıcı, yankı, epilog ve jenerik; geliştirici için efekt
 // kaydı ve kare süresi profili. `BubeApp`in parçasıdır.
 public sealed partial class BubeApp {
- const string CreditsKey="karine.credits";
+ const string CreditsKey="karine.credits";const int ReviewAfterFiles=3;
  int draftColor;
  bool reachDown;
  string echoNode;
@@ -92,6 +92,8 @@ public sealed partial class BubeApp {
  void AfterClosing(Action again) {
   var image=string.IsNullOrEmpty(game.Data.epilogueImage)?null:Resources.Load<Texture2D>(game.Data.epilogueImage);
   KarineUI.Epilogue(root,image,string.IsNullOrEmpty(game.Data.epilogueKey)?null:T(game.Data.epilogueKey),()=> {
+   // Üçüncü dosya kapanınca bir kez mağaza puanı istenir; pencereyi işletim sistemi gösterir.
+   if(!game.Career.reviewAsked && game.Career.reviewHistory.Count>=ReviewAfterFiles){game.Career.reviewAsked=true;Save();Platform.RequestReview();}
    if(game.Career.creditsSeen){again?.Invoke();return;}
    game.Career.creditsSeen=true;Save();
    KarineUI.Credits(root,new[]{T("credits.0"),T("credits.1"),T("credits.2")},again);

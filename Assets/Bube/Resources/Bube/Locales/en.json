@@ -4751,6 +4751,58 @@
   {
    "key": "account.error.failed",
    "value": "Sign-in could not be completed. Please try again."
+  },
+  {
+   "key": "store.noads",
+   "value": "Remove ads"
+  },
+  {
+   "key": "store.noads.hint",
+   "value": "One-time purchase. Interstitial and rewarded ads are removed entirely and locked lamp colours unlock."
+  },
+  {
+   "key": "store.noads.owned",
+   "value": "Purchased. No ads in the game."
+  },
+  {
+   "key": "store.buy",
+   "value": "Buy"
+  },
+  {
+   "key": "store.restore",
+   "value": "Restore purchases"
+  },
+  {
+   "key": "store.restore.hint",
+   "value": "Re-activates a purchase made earlier with the same store account."
+  },
+  {
+   "key": "store.restore.action",
+   "value": "Restore"
+  },
+  {
+   "key": "store.notice.bought",
+   "value": "Thank you. Ads have been removed."
+  },
+  {
+   "key": "store.notice.restored",
+   "value": "Your purchase has been restored."
+  },
+  {
+   "key": "store.notice.nothing",
+   "value": "No purchase to restore was found on this store account."
+  },
+  {
+   "key": "store.error.unavailable",
+   "value": "The store is unavailable right now."
+  },
+  {
+   "key": "store.error.cancelled",
+   "value": "Purchase cancelled."
+  },
+  {
+   "key": "store.error.failed",
+   "value": "The transaction could not be completed. Please try again later."
   }
  ]
 }

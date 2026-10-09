@@ -4751,6 +4751,58 @@
   {
    "key": "account.error.failed",
    "value": "Anmeldung fehlgeschlagen. Versuche es erneut."
+  },
+  {
+   "key": "store.noads",
+   "value": "Werbung entfernen"
+  },
+  {
+   "key": "store.noads.hint",
+   "value": "Einmaliger Kauf. Zwischen- und Belohnungswerbung entfällt vollständig, gesperrte Lampenfarben werden freigeschaltet."
+  },
+  {
+   "key": "store.noads.owned",
+   "value": "Gekauft. Keine Werbung im Spiel."
+  },
+  {
+   "key": "store.buy",
+   "value": "Kaufen"
+  },
+  {
+   "key": "store.restore",
+   "value": "Käufe wiederherstellen"
+  },
+  {
+   "key": "store.restore.hint",
+   "value": "Aktiviert einen früheren Kauf mit demselben Store-Konto erneut."
+  },
+  {
+   "key": "store.restore.action",
+   "value": "Wiederherstellen"
+  },
+  {
+   "key": "store.notice.bought",
+   "value": "Danke. Die Werbung wurde entfernt."
+  },
+  {
+   "key": "store.notice.restored",
+   "value": "Dein Kauf wurde wiederhergestellt."
+  },
+  {
+   "key": "store.notice.nothing",
+   "value": "Auf diesem Store-Konto wurde kein wiederherstellbarer Kauf gefunden."
+  },
+  {
+   "key": "store.error.unavailable",
+   "value": "Der Store ist gerade nicht verfügbar."
+  },
+  {
+   "key": "store.error.cancelled",
+   "value": "Kauf abgebrochen."
+  },
+  {
+   "key": "store.error.failed",
+   "value": "Der Vorgang konnte nicht abgeschlossen werden. Versuche es später erneut."
   }
  ]
 }

@@ -112,3 +112,29 @@ public static class AdGateway {
  }
 }
 }
+
+namespace Bube {
+// Mağaza satın alması: tek ürün, tek seferlik "Reklamları kaldır". Gerçek mağaza
+// `Bube.Purchasing` derlemesinde (Unity IAP); paket yoksa düğmeler "kullanılamıyor" der.
+public interface IStore {
+ bool Ready { get; }
+ // Mağazanın yerel fiyat metni ("₺49,99"); hazır değilse null.
+ string NoAdsPrice { get; }
+ // Sonuç: hata anahtarı ya da null (başarılı).
+ void BuyNoAds(System.Action<string> done);
+ // Apple zorunluluğu: önceki satın almaları geri yükle. Sonuç: hata anahtarı ya da null.
+ void Restore(System.Action<string> done);
+}
+
+public sealed class NoStore : IStore {
+ public bool Ready => false;
+ public string NoAdsPrice => null;
+ public void BuyNoAds(System.Action<string> done) => done("store.error.unavailable");
+ public void Restore(System.Action<string> done) => done("store.error.unavailable");
+}
+
+public static class Store {
+ public const string NoAdsProduct = "com.bubedigital.karine.noads";
+ public static IStore Provider = new NoStore();
+}
+}

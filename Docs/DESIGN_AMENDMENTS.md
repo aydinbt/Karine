@@ -1216,3 +1216,5 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 - Lamba kilitleri, jenerik görüldü, görülen rütbe ve oynama süresi cihazın ayar deposundan kariyer kaydına taşındı: bulutla birlikte gider, hesaba göre ayrılır. Eski değerler ilk yüklemede bir kez aktarılıp cihazdan silinir.
 - **Hesap bağlama önerisi:** misafir Dosya #002'yi kabul edince bir kez "İlerlemeni koru" kâğıdı çıkar (Daha sonra / Hesabı bağla → masa + Ayarlar › Hesap). Ayarlar › Hesap'ta Apple/Google bağlama satırları her zaman görünür.
 - **Bulut yalnız dönüm noktasında** (kullanıcı kararı): anlık iz yazılmaz; yalnız kariyer belgesi, rapor gönderilince / dosya değerlendirilince / rütbe ya da ödül değişince bir kez. Vaka içi kayıt cihazda kalır. Amaç: yeniden kurulumda sıfırdan başlamamak, KVKK'da veri en az, 10 bin oyuncuda ücretsiz kotada kalmak.
+- **Reklamları kaldır** tek seferlik üründür ve kilitli lamba renklerini de açar; Ayarlar › Oyun'da "Satın alımları geri yükle" her zaman vardır.
+- **Puan isteme** üçüncü dosya kapanınca bir kez; oyun kendi ön penceresini göstermez, doğrudan işletim sisteminin penceresini ister.

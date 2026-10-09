@@ -1,9 +1,21 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 9 Ekim 2026 (hesap, bulut kaydı, zorunlu giriş)
+**Son güncelleme:** 9 Ekim 2026 (mağaza hazırlığı)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**9 Ekim (gece, 2):** **Mağazaya hazırlık (kod).**
+- **Satın alma:** Reklamları kaldır + Satın alımları geri yükle (Unity IAP).
+- **iOS:** takip izni (ATT).
+- **Puan:** 3. dosyadan sonra oyun içi puan isteme.
+- **Çökme raporu:** Crashlytics, paket gelince derlenir.
+- **Kayıt:** bozuk kayıtta yedekten dönüş.
+- **Yasal metinler:** gizlilik ve silme sayfası taslakları `Docs/Legal`.
+- **Düzeltme:** görseller sanıldığı gibi eksik değil (73 kapak, 355 portre, 97 CCTV karesi yerinde); ROADMAP'teki eski satırlar düzeltildi.
+- **Sağlayıcı:** Firebase ayarlıysa eski UGS sağlayıcısının yerini alıyor.
+- **Sana kalanlar:** [STORE_ACCOUNTS_CHECKLIST.md](STORE_ACCOUNTS_CHECKLIST.md) → 9 Ekim eki.
+- **Doğrulama:** 143 EditMode + 28 PlayMode → `[~]`.
 
 **9 Ekim (gece):** **Hesap ve bulut kaydı tamamlandı (kod).**
 - **Giriş ekranı zorunlu:** Apple, Google ya da misafirden biri seçilmeden oyuna girilmez. Geri tuşu ekranı geçmez. Seçim bir kez yapılır.

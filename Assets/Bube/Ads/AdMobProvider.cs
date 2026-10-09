@@ -25,10 +25,11 @@ public sealed class AdMobProvider : IAdProvider {
 
  // AB/İngiltere için Google'ın izin formu (UMP). Gerekmiyorsa hiçbir şey göstermez.
  void AskGoogleConsent() {
-  ConsentInformation.Update(new ConsentRequestParameters(),updateError=> {
+  // iOS'ta önce Apple'ın takip izni (ATT), sonra Google'ın bölgesel izin formu.
+  Platform.RequestTracking(()=>ConsentInformation.Update(new ConsentRequestParameters(),updateError=> {
    if(updateError!=null){Start();return;}
    ConsentForm.LoadAndShowConsentFormIfRequired(_=>Start());
-  });
+  }));
  }
 
  void Start() {

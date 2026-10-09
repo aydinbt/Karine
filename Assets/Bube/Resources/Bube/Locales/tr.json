@@ -4751,6 +4751,58 @@
   {
    "key": "account.error.failed",
    "value": "Giriş tamamlanamadı. Tekrar dene."
+  },
+  {
+   "key": "store.noads",
+   "value": "Reklamları kaldır"
+  },
+  {
+   "key": "store.noads.hint",
+   "value": "Tek seferlik satın alma. Araya giren ve ödüllü reklamlar tamamen kalkar, kilitli lamba renkleri açılır."
+  },
+  {
+   "key": "store.noads.owned",
+   "value": "Satın alındı. Oyunda reklam yok."
+  },
+  {
+   "key": "store.buy",
+   "value": "Satın al"
+  },
+  {
+   "key": "store.restore",
+   "value": "Satın alımları geri yükle"
+  },
+  {
+   "key": "store.restore.hint",
+   "value": "Daha önce aynı mağaza hesabıyla satın aldıysan yeniden etkinleştirir."
+  },
+  {
+   "key": "store.restore.action",
+   "value": "Geri yükle"
+  },
+  {
+   "key": "store.notice.bought",
+   "value": "Teşekkürler. Reklamlar kaldırıldı."
+  },
+  {
+   "key": "store.notice.restored",
+   "value": "Satın alımın geri yüklendi."
+  },
+  {
+   "key": "store.notice.nothing",
+   "value": "Bu mağaza hesabında geri yüklenecek satın alma bulunamadı."
+  },
+  {
+   "key": "store.error.unavailable",
+   "value": "Mağaza şu an kullanılamıyor."
+  },
+  {
+   "key": "store.error.cancelled",
+   "value": "Satın alma iptal edildi."
+  },
+  {
+   "key": "store.error.failed",
+   "value": "İşlem tamamlanamadı. Daha sonra tekrar dene."
   }
  ]
 }

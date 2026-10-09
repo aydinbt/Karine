@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -57,6 +58,19 @@ public sealed partial class BubeApp {
    if(PlayerPrefs.GetInt(LampUnlockKey+i)==1 && !c.unlockedLamps.Contains(i))c.unlockedLamps.Add(i);
    PlayerPrefs.DeleteKey(LampUnlockKey+i);moved=true;}
   if(moved)PlayerPrefs.Save();
+ }
+
+ // Bozuk kayıt (yarım yazılmış, elle bozulmuş) yeni kayıtla ezilmez: ".corrupt" diye
+ // yana kaldırılır ve bir önceki sağlam kopya (".bak", her kayıtta tutulur) okunur.
+ static T ReadSave<T>(string path) where T:class {
+  if(!File.Exists(path))return null;
+  try { var value=JsonUtility.FromJson<T>(File.ReadAllText(path)); if(value!=null)return value; }
+  catch(Exception e) { Debug.LogWarning("Save is corrupt: "+e.Message); }
+  try { File.Copy(path,path+".corrupt",true); } catch {}
+  var backup=path+".bak";
+  try { if(File.Exists(backup)){var value=JsonUtility.FromJson<T>(File.ReadAllText(backup));if(value!=null){File.Copy(backup,path,true);return value;}} }
+  catch(Exception e) { Debug.LogWarning("Backup save is corrupt too: "+e.Message); }
+  return null;
  }
 
  void ReloadAccount() {

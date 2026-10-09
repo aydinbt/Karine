@@ -1,0 +1,15 @@
+{
+    "name": "Bube.Purchasing",
+    "rootNamespace": "Bube",
+    "references": [
+        "Bube.Runtime",
+        "Unity.Services.Core",
+        "UnityEngine.Purchasing",
+        "UnityEngine.Purchasing.Stores"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": ["KARINE_IAP"],
+    "versionDefines": [
+        {"name": "com.unity.purchasing", "expression": "[4.12.0,5.0.0)", "define": "KARINE_IAP"}
+    ]
+}
