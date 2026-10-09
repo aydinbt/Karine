@@ -1,0 +1,588 @@
+{
+ "entries": [
+  {
+   "key": "case044.ais.body",
+   "value": "· 23.04 das Boot dreht in den Wind, Geschwindigkeit 1,2 Knoten.\n· 23.10 Position: die Stelle, an der die Leiche gefunden wurde.\n· 23.30 Funk: kein ‚Mann über Bord‘-Ruf; erster Ruf um 23.31: ‚Wir finden einen Passagier nicht.‘"
+  },
+  {
+   "key": "case044.ais.title",
+   "value": "AIS-KURSPROTOKOLL"
+  },
+  {
+   "key": "case044.autopsy.body",
+   "value": "· Ertrinken; in der Lunge Süßwasser.\n· Am Hinterkopf ein halbmondförmiger Schlag von etwa 4 cm; vor dem Sturz ins Wasser. Er ging bewusstlos ins Wasser.\n· Blutalkohol niedrig. Todeszeit: 23.00–23.30."
+  },
+  {
+   "key": "case044.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case044.boat.body",
+   "value": "· Die Winschkurbel im Cockpitschrank: in der Naht unter dem Griff Blut des Opfers; am Griff die Fingerabdrücke von Brent Calloway, darüber abgewischt.\n· Der Querschnitt der Kurbelspitze deckt sich mit der halbmondförmigen Kopfwunde.\n· In der Innentasche der ledernen Reisetasche von Brent Calloway eine CO₂-Kartusche; im Gewinde rote Farbe von der Weste des Opfers."
+  },
+  {
+   "key": "case044.boat.title",
+   "value": "UNTERSUCHUNG VON BOOT UND TASCHE"
+  },
+  {
+   "key": "case044.calloway.body",
+   "value": "Justiziar."
+  },
+  {
+   "key": "case044.calloway.deflect",
+   "value": "Anwaltsgeheimnis."
+  },
+  {
+   "key": "case044.calloway.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case044.calloway.end.presented.boat",
+   "value": "Clint hätte am Montag alles ausgeliefert, mich auch. Vor dem Ablegen habe ich die Kartusche aus seiner Weste geschraubt und in meine Tasche gesteckt. Als wir in den Wind drehten, habe ich ihn auf dem Vorschiff mit der Winschkurbel geschlagen, er rutschte ins Wasser. Die Weste würde sich nicht aufblasen. Ich sagte ‚in der Kajüte‘. Nachts zeigt der See nichts."
+  },
+  {
+   "key": "case044.calloway.end.presented.phone",
+   "value": "Die Nachrichten fallen unter das Anwaltsgeheimnis."
+  },
+  {
+   "key": "case044.calloway.end.question",
+   "value": "Sie haben die Kartusche herausgeschraubt."
+  },
+  {
+   "key": "case044.calloway.night.answer",
+   "value": "Ich habe ihn auf dem Vorschiff gelassen und bin in die Kajüte gegangen. Clint hatte getrunken, er war unsicher auf den Beinen. Die Winschkurbel war heruntergefallen, ich habe sie zurückgelegt. Als Anwalt sage ich nicht mehr."
+  },
+  {
+   "key": "case044.calloway.night.answer.demeanor",
+   "value": "Krempelt die Hemdsärmel einzeln herunter."
+  },
+  {
+   "key": "case044.calloway.night.question",
+   "value": "Wo waren Sie, als Clint stürzte?"
+  },
+  {
+   "key": "case044.calloway.night.variant0",
+   "value": "In meiner Tasche waren Unterlagen meines Mandanten. Sie zu schützen ist meine Pflicht."
+  },
+  {
+   "key": "case044.calloway.title",
+   "value": "Brent Calloway — Befragung"
+  },
+  {
+   "key": "case044.cctv.event.board",
+   "value": "Kamera: Vor dem Ablegen geht ein Mann in marineblauer Weste mit einer ledernen Reisetasche an Bord und allein nach unten."
+  },
+  {
+   "key": "case044.cctv.event.dock",
+   "value": "Kamera: Bei der Rückkehr legt das Boot an; eine Frau in Strickjacke und ein junger Matrose im weißen Hemd rufen über das Deck."
+  },
+  {
+   "key": "case044.cctv.event.leave",
+   "value": "Kamera: Der Mann in marineblauer Weste verlässt mit derselben Tasche das Boot und eilt über den Steg davon."
+  },
+  {
+   "key": "case044.cctv.overlay",
+   "value": "PIER-4"
+  },
+  {
+   "key": "case044.cctv.period",
+   "value": "30.–31. August 2030"
+  },
+  {
+   "key": "case044.cctv.source",
+   "value": "Stegkamera"
+  },
+  {
+   "key": "case044.cho.body",
+   "value": "Rettungstaucherin."
+  },
+  {
+   "key": "case044.cho.deflect",
+   "value": "Ich habe meinen Bericht geschrieben."
+  },
+  {
+   "key": "case044.cho.title",
+   "value": "Lauren Cho — Befragung"
+  },
+  {
+   "key": "case044.cho.vest.answer",
+   "value": "Ich mache das seit fünfzehn Jahren. Diese Westen blasen sich auf, wenn sie Wasser berühren oder man an der Leine zieht. Er hat an der Leine gezogen, vielleicht kam er für einen Moment zu Bewusstsein. Aber es gibt keine Kartusche. Die Halterung ist sauber. Jemand hat sie herausgeschraubt."
+  },
+  {
+   "key": "case044.cho.vest.answer.demeanor",
+   "value": "Wringt ihr nasses Haar aus und wirft es zurück."
+  },
+  {
+   "key": "case044.cho.vest.question",
+   "value": "Was haben Sie an der Weste gesehen?"
+  },
+  {
+   "key": "case044.clue.board",
+   "value": "Der Mann in marineblauer Weste geht früh an Bord und nach unten."
+  },
+  {
+   "key": "case044.clue.dock",
+   "value": "Das Boot legt an; die Frau schreit."
+  },
+  {
+   "key": "case044.clue.leave",
+   "value": "Der Anwalt verlässt eilig mit seiner Tasche das Boot."
+  },
+  {
+   "key": "case044.clue.metal",
+   "value": "Ein metallisches Geräusch; der Anwalt legt die Winschkurbel in den Schrank."
+  },
+  {
+   "key": "case044.clue.source.mendes",
+   "value": "Matrose"
+  },
+  {
+   "key": "case044.clue.source.morrow",
+   "value": "Skipper"
+  },
+  {
+   "key": "case044.clue.turn",
+   "value": "Das Boot dreht in den Wind; das Opfer und der Anwalt gehen aufs Vorschiff."
+  },
+  {
+   "key": "case044.custody.faulty",
+   "value": "Die Weste war defekt"
+  },
+  {
+   "key": "case044.custody.label",
+   "value": "Warum blies sich die Rettungsweste nicht auf?"
+  },
+  {
+   "key": "case044.custody.never",
+   "value": "Das Opfer trug eine Weste ohne Kartusche"
+  },
+  {
+   "key": "case044.custody.removed",
+   "value": "Der Täter schraubte die Kartusche vor dem Ablegen heraus"
+  },
+  {
+   "key": "case044.diane.body",
+   "value": "Ehefrau des Opfers."
+  },
+  {
+   "key": "case044.diane.deflect",
+   "value": "Über die Geschäfte meines Mannes spricht unser Anwalt."
+  },
+  {
+   "key": "case044.diane.monday.answer",
+   "value": "Er hatte Angst. Als der Schatzmeister festgenommen wurde, und dieser Fahrer … ‚Am Montag gehe ich zu bube und erzähle alles, Diane, den Eigentümer, Neapel‘, sagte er. Er hatte es Brent gesagt; Brent sagte: ‚Ich komme mit.‘ Ich war in der Kajüte, ich war seekrank."
+  },
+  {
+   "key": "case044.diane.monday.answer.demeanor",
+   "value": "Zieht ihre Strickjacke um die Schultern."
+  },
+  {
+   "key": "case044.diane.monday.question",
+   "value": "Wie war Ihr Mann in den letzten Tagen?"
+  },
+  {
+   "key": "case044.diane.title",
+   "value": "Diane Harlan — Befragung"
+  },
+  {
+   "key": "case044.divenote.body",
+   "value": "· Die Leiche etwa drei Meilen hinter dem AIS-Kurs des Boots, an der Position von etwa 23.10.\n· Weste vollständig geschlossen; die Reißleine des Aufblasmechanismus gezogen, aber in der Halterung keine CO₂-Kartusche. Das Gewinde der Halterung sauber; die Kartusche wurde herausgeschraubt, nicht abgebrochen."
+  },
+  {
+   "key": "case044.divenote.title",
+   "value": "TAUCHERBERICHT"
+  },
+  {
+   "key": "case044.epilogue.custody.faulty",
+   "value": "Der Mechanismus war intakt, die Leine gezogen; nur die Kartusche fehlte."
+  },
+  {
+   "key": "case044.epilogue.custody.never",
+   "value": "Die Kartusche fand sich in der Tasche des Täters."
+  },
+  {
+   "key": "case044.epilogue.custody.removed",
+   "value": "Festgehalten wurde, dass die Kartusche vor dem Ablegen herausgeschraubt und in die Tasche des Täters gesteckt wurde."
+  },
+  {
+   "key": "case044.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; Lakeshore veröffentlichte eine Beileidserklärung."
+  },
+  {
+   "key": "case044.epilogue.verdict.calloway",
+   "value": "Brent Calloway wurde festgenommen. Die Nachrichten an die Nummer in Neapel kamen mit dem Namen ‚Edda‘ in die Lakeshore-Akte von bube Chicago."
+  },
+  {
+   "key": "case044.epilogue.verdict.diane",
+   "value": "Diane Harlan wurde festgenommen; der Anwalt verwaltete die Akte im Namen des ‚Erbes seiner Mandantin‘."
+  },
+  {
+   "key": "case044.epilogue.verdict.morrow",
+   "value": "Skip Morrow wurde festgenommen; das Boot wurde bis Saisonende versiegelt."
+  },
+  {
+   "key": "case044.evidence.ais",
+   "value": "AIS-Kursprotokoll"
+  },
+  {
+   "key": "case044.evidence.boat",
+   "value": "Untersuchung von Boot und Tasche"
+  },
+  {
+   "key": "case044.evidence.phone",
+   "value": "Die Nachrichten des Anwalts"
+  },
+  {
+   "key": "case044.evidence.pier",
+   "value": "Stegkamera"
+  },
+  {
+   "key": "case044.feedback.accident",
+   "value": "Der Schlag auf den Kopf erfolgte vor dem Sturz ins Wasser; die Kartusche der Weste wurde herausgeschraubt, nicht abgebrochen."
+  },
+  {
+   "key": "case044.feedback.calloway",
+   "value": "An der Winschkurbel sind sein Abdruck und das Blut des Opfers; die Kurbelspitze deckt sich mit der Wunde. Die Kartusche der Weste lag in seiner Tasche. Dass das Opfer am Montag reden wollte, hatte er am Vorabend einer Nummer in Neapel geschrieben."
+  },
+  {
+   "key": "case044.feedback.diane",
+   "value": "Die Ehefrau war Erbin, aber seekrank und in der Kajüte; aufs Vorschiff ging sie nicht."
+  },
+  {
+   "key": "case044.feedback.morrow",
+   "value": "Der Skipper stand am Ruder; er konnte es nicht verlassen, und der Matrose sah ihn achtern."
+  },
+  {
+   "key": "case044.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case044.file.value.bureau",
+   "value": "BDS Chicago — Dienststelle Pilsen"
+  },
+  {
+   "key": "case044.file.value.location",
+   "value": "Michigansee, vor Chicago"
+  },
+  {
+   "key": "case044.file.value.number",
+   "value": "BDC-CHI-2030-0280"
+  },
+  {
+   "key": "case044.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case044.file.value.reporter",
+   "value": "Marina"
+  },
+  {
+   "key": "case044.jensen.body",
+   "value": "Hafenmeister."
+  },
+  {
+   "key": "case044.jensen.deflect",
+   "value": "Die Unterlagen der Marina gehören der Firma."
+  },
+  {
+   "key": "case044.jensen.return.answer",
+   "value": "Um Mitternacht legten sie an, die Frau schrie. Der Mann, der Anwalt ist, ging mit seiner Tasche von Bord, ohne auf die Polizei zu warten: ‚Ich muss die Unterlagen im Namen meines Mandanten schützen.‘ Beim Ablegen war er auch früh mit der Tasche gekommen und nach unten gegangen. Am Steg hängt eine Kamera."
+  },
+  {
+   "key": "case044.jensen.return.answer.demeanor",
+   "value": "Nimmt seine Schiebermütze ab und hält sie in der Hand."
+  },
+  {
+   "key": "case044.jensen.return.question",
+   "value": "Was haben Sie bei der Rückkehr gesehen?"
+  },
+  {
+   "key": "case044.jensen.title",
+   "value": "Arne Jensen — Befragung"
+  },
+  {
+   "key": "case044.line_ais.body",
+   "value": "Linie für das AIS-Positionsprotokoll des Boots und die Funkaufzeichnungen der Marina geöffnet."
+  },
+  {
+   "key": "case044.line_ais.title",
+   "value": "LINIE C — DER KURS DES BOOTS"
+  },
+  {
+   "key": "case044.line_boat.body",
+   "value": "Linie für die forensische Untersuchung des Boots und der Sachen der Passagiere geöffnet."
+  },
+  {
+   "key": "case044.line_boat.title",
+   "value": "LINIE A — BOOTSUNTERSUCHUNG"
+  },
+  {
+   "key": "case044.line_phone.body",
+   "value": "Linie für die Telefonunterlagen der Personen an Bord geöffnet."
+  },
+  {
+   "key": "case044.line_phone.title",
+   "value": "LINIE B — TELEFONUNTERLAGEN"
+  },
+  {
+   "key": "case044.mendes.body",
+   "value": "Matrose."
+  },
+  {
+   "key": "case044.mendes.deck.answer",
+   "value": "Ich war an den Schoten der Fock, mit dem Rücken dazu. Es gab ein Geräusch, wie Metall. Ich drehte mich um, der Herr Anwalt legte die Winschkurbel in den Schrank. ‚Die Kurbel ist runtergefallen‘, sagte er. Ich habe nichts gefragt. Ich bin nur der Matrose."
+  },
+  {
+   "key": "case044.mendes.deck.answer.demeanor",
+   "value": "Packt das Tau auf seiner Schulter fester."
+  },
+  {
+   "key": "case044.mendes.deck.question",
+   "value": "Was haben Sie auf dem Vordeck gesehen?"
+  },
+  {
+   "key": "case044.mendes.deflect",
+   "value": "Ich ziehe an Leinen, Sir."
+  },
+  {
+   "key": "case044.mendes.title",
+   "value": "Rico Mendes — Befragung"
+  },
+  {
+   "key": "case044.method.boom",
+   "value": "Vom Baum getroffen"
+  },
+  {
+   "key": "case044.method.fall",
+   "value": "Betrunken vom Deck gefallen"
+  },
+  {
+   "key": "case044.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case044.method.winch",
+   "value": "Mit der Winschkurbel geschlagen und in den See gestoßen"
+  },
+  {
+   "key": "case044.morrow.body",
+   "value": "Skipper."
+  },
+  {
+   "key": "case044.morrow.deflect",
+   "value": "Ich führe das Boot, nicht die Gespräche."
+  },
+  {
+   "key": "case044.morrow.night.answer",
+   "value": "Am Ruder, achtern. Gegen 23.05 drehten wir in den Wind, um die Segel zu bergen, dunkel, Wellengang. Clint sagte: ‚Ich schaue mir auf dem Vorschiff etwas an‘, und Brent ging ihm nach. Als ich mich umdrehte, war nur Brent da; ‚Clint ist in der Kajüte‘, sagte er. Zwanzig Minuten später schrie Diane: ‚Clint ist weg!‘"
+  },
+  {
+   "key": "case044.morrow.night.answer.demeanor",
+   "value": "Zieht die Sonnenbrille an ihrem Band und lässt sie los."
+  },
+  {
+   "key": "case044.morrow.night.question",
+   "value": "Wo waren Sie, als er stürzte?"
+  },
+  {
+   "key": "case044.morrow.title",
+   "value": "Skip Morrow — Befragung"
+  },
+  {
+   "key": "case044.offer.subtitle",
+   "value": "DER SEE  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case044.offer.summary",
+   "value": "Der Vizepräsident von Lakeshore stürzte auf dem Michigansee von seinem eigenen Boot. Am Montag hatte er einen Termin bei bube."
+  },
+  {
+   "key": "case044.offer.title",
+   "value": "AKTE #044"
+  },
+  {
+   "key": "case044.person.calloway.info",
+   "value": "50 Jahre, Chefjustiziar von Lakeshore Freight."
+  },
+  {
+   "key": "case044.person.calloway.name",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.person.cho.info",
+   "value": "36 Jahre, Rettungstaucherin."
+  },
+  {
+   "key": "case044.person.cho.name",
+   "value": "Lauren Cho"
+  },
+  {
+   "key": "case044.person.diane.info",
+   "value": "57 Jahre, Ehefrau des Opfers."
+  },
+  {
+   "key": "case044.person.diane.name",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.person.jensen.info",
+   "value": "68 Jahre, Hafenmeister der Marina."
+  },
+  {
+   "key": "case044.person.jensen.name",
+   "value": "Arne Jensen"
+  },
+  {
+   "key": "case044.person.mendes.info",
+   "value": "24 Jahre, Matrose des Boots."
+  },
+  {
+   "key": "case044.person.mendes.name",
+   "value": "Rico Mendes"
+  },
+  {
+   "key": "case044.person.morrow.info",
+   "value": "63 Jahre, Skipper des Boots."
+  },
+  {
+   "key": "case044.person.morrow.name",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.phone.body",
+   "value": "· 29. August 22.14, Brent Calloway → nicht registrierte Nummer in Neapel: ‚C. will am Montag reden. Sag es Edda.‘\n· 29. August 22.40, Antwort: ‚Am Wochenende soll es erledigt sein.‘\n· 31. August 00.30, Brent Calloway → dieselbe Nummer: ‚Erledigt.‘"
+  },
+  {
+   "key": "case044.phone.title",
+   "value": "DIE NACHRICHTEN VON BRENT CALLOWAY"
+  },
+  {
+   "key": "case044.pier.body",
+   "value": "Steg 4. 30. August 16.00 – 31. August 01.00."
+  },
+  {
+   "key": "case044.pier.title",
+   "value": "STEGKAMERA DER MARINA — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case044.report.body",
+   "value": "In der Nacht des 30. August 2030 stürzte auf einem Boot, das von einer Segelregatta auf dem Michigansee zurückkehrte, der Vizepräsident für Unternehmensbeziehungen von Lakeshore Freight, Clint Harlan (61), über Bord. Rettungstaucher fanden die Leiche um 01.40, drei Meilen hinter dem Kurs des Boots. Er trug seine Rettungsweste, sie hatte sich nicht aufgeblasen.\n\nAn Bord: seine Ehefrau Diane Harlan, Lakeshore-Justiziar Brent Calloway, Skipper Skip Morrow, Matrose Rico Mendes. Hafenmeister Arne Jensen protokollierte die Rückkehr."
+  },
+  {
+   "key": "case044.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case044.request.ais",
+   "value": "AIS-Kursprotokoll anfordern"
+  },
+  {
+   "key": "case044.request.boat",
+   "value": "Untersuchung von Boot und Tasche anfordern"
+  },
+  {
+   "key": "case044.request.line_ais",
+   "value": "Linie Kurs des Boots öffnen"
+  },
+  {
+   "key": "case044.request.line_boat",
+   "value": "Linie Bootsuntersuchung öffnen"
+  },
+  {
+   "key": "case044.request.line_phone",
+   "value": "Linie Telefonunterlagen öffnen"
+  },
+  {
+   "key": "case044.request.phone",
+   "value": "Die Nachrichten von Brent Calloway anfordern"
+  },
+  {
+   "key": "case044.summary.evidence",
+   "value": "Die Obduktion zeigte, dass der Schlag vor dem Sturz ins Wasser erfolgte, die Taucherin, dass die Kartusche herausgeschraubt wurde, der Matrose die Winschkurbel, die Stegkamera die Tasche. Die Bootslinie lieferte Kurbel und Kartusche, die Telefonlinie die Nachrichten nach Neapel."
+  },
+  {
+   "key": "case044.summary.lesson",
+   "value": "Auf einem Boot, auf dem alle woanders hinschauen, hat der, der nie hinschaut, alles vorbereitet."
+  },
+  {
+   "key": "case044.summary.location",
+   "value": "Michigansee — August 2030"
+  },
+  {
+   "key": "case044.summary.truth",
+   "value": "Clint Harlan wollte am Montag bei bube den Eigentümer von Lakeshore und die Verbindung nach Neapel offenlegen. Firmenjustiziar Brent Calloway meldete das einer Nummer in Neapel und erhielt die Antwort ‚Am Wochenende soll es erledigt sein.‘ Vor dem Ablegen schraubte er die Kartusche aus der Weste von Harlan; als das Boot in den Wind drehte, schlug er ihn auf dem Vorschiff mit der Winschkurbel, stieß ihn in den See und sagte ‚in der Kajüte‘."
+  },
+  {
+   "key": "case044.suspect.label",
+   "value": "Wer hat Clint Harlan getötet?"
+  },
+  {
+   "key": "case044.tablet.caseLine",
+   "value": "AKTE #044  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case044.time.board",
+   "value": "16.12"
+  },
+  {
+   "key": "case044.time.dock",
+   "value": "00.05"
+  },
+  {
+   "key": "case044.time.leave",
+   "value": "00.11"
+  },
+  {
+   "key": "case044.time.metal",
+   "value": "23.08"
+  },
+  {
+   "key": "case044.time.turn",
+   "value": "23.05"
+  },
+  {
+   "key": "case044.title",
+   "value": "Akte #044 — Der See"
+  },
+  {
+   "key": "case044.verdict.accident",
+   "value": "Niemand — er fiel betrunken"
+  },
+  {
+   "key": "case044.verdict.calloway",
+   "value": "Brent Calloway"
+  },
+  {
+   "key": "case044.verdict.diane",
+   "value": "Diane Harlan"
+  },
+  {
+   "key": "case044.verdict.morrow",
+   "value": "Skip Morrow"
+  },
+  {
+   "key": "case044.item.vest.name",
+   "value": "Rettungsweste"
+  },
+  {
+   "key": "case044.item.vest.detail",
+   "value": "Die automatische Weste, die das Opfer trug; die Halterung der CO₂-Kartusche leer."
+  },
+  {
+   "key": "case044.item.winch.name",
+   "value": "Winschkurbel"
+  },
+  {
+   "key": "case044.item.winch.detail",
+   "value": "Die verchromte Winschkurbel im Cockpitschrank; unter dem Griff Blut, das jemand abzuwischen versuchte."
+  },
+  {
+   "key": "case044.item.cartridge.name",
+   "value": "CO₂-Kartusche"
+  },
+  {
+   "key": "case044.item.cartridge.detail",
+   "value": "Eine kleine Gaskartusche aus der Innentasche einer Reisetasche; im Gewinde grüne Westenfarbe."
+  }
+ ]
+}
