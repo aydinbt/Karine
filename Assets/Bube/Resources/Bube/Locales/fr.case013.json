@@ -1,0 +1,852 @@
+{
+ "entries": [
+  {
+   "key": "case013.alley.body",
+   "value": "La caméra d’un garage face au mur latéral du 14 Ashgrove Road. 22 mars 14.30 – 17.00. L’angle est large ; les visages sont petits et indiscernables."
+  },
+  {
+   "key": "case013.alley.title",
+   "value": "CAMÉRA DU GARAGE DE LA RUE LATÉRALE — relevé d’enregistrement"
+  },
+  {
+   "key": "case013.autopsy.body",
+   "value": "· Carboxyhémoglobine dans le sang : 58 %. Cause du décès : intoxication au monoxyde de carbone.\n· La couleur rouge cerise typique de la peau et des organes.\n· Aucun traumatisme ni trace de défense. Alcool 0,3 pour mille.\n· Heure estimée du décès : 23 mars 01.00 – 04.00."
+  },
+  {
+   "key": "case013.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE — MARTIN HUGHES"
+  },
+  {
+   "key": "case013.cctv.event.ladder",
+   "value": "Caméra 01 : une échelle est posée contre le mur latéral de la maison. Quelqu’un en casquette et gilet monte ; tend la main vers la petite grille du mur et y reste un moment. Le visage est indiscernable."
+  },
+  {
+   "key": "case013.cctv.event.passer",
+   "value": "Caméra 01 : un passant traverse le bout de la rue et fait signe à la personne sur l’échelle. La personne sur l’échelle hoche la tête."
+  },
+  {
+   "key": "case013.cctv.event.van",
+   "value": "Caméra 01 : une petite camionnette blanche se gare à l’entrée de la rue. Quelqu’un sort une échelle pliante par la porte arrière."
+  },
+  {
+   "key": "case013.cctv.event.van_out",
+   "value": "Caméra 01 : l’échelle est remise dans la camionnette ; la camionnette s’éloigne."
+  },
+  {
+   "key": "case013.cctv.overlay",
+   "value": "CAM 01"
+  },
+  {
+   "key": "case013.cctv.period",
+   "value": "22 mars 2029, 14.30 – 17.00"
+  },
+  {
+   "key": "case013.cctv.source",
+   "value": "Caméra du garage de la rue latérale"
+  },
+  {
+   "key": "case013.cert.body",
+   "value": "14 Ashgrove Road. Le dernier certificat du dossier du propriétaire.\n\nDate d’inspection : 14 février 2028\nValidité : 12 mois — expiré le 14 février 2029.\nAppareils : chaudière (cuisine), poêle à gaz (n° 3), plaque de cuisson.\nRésultat : sûr.\n\nIl n’y a pas de certificat plus récent dans le dossier."
+  },
+  {
+   "key": "case013.cert.title",
+   "value": "CERTIFICAT DE SÉCURITÉ GAZ — PHOTOCOPIE"
+  },
+  {
+   "key": "case013.clue.alley_ladder",
+   "value": "Quelqu’un sur une échelle atteint la grille du mur."
+  },
+  {
+   "key": "case013.clue.death",
+   "value": "Martin meurt dans sa chambre."
+  },
+  {
+   "key": "case013.clue.found",
+   "value": "Tom appelle le 999."
+  },
+  {
+   "key": "case013.clue.key_in",
+   "value": "La clé est rendue."
+  },
+  {
+   "key": "case013.clue.key_out",
+   "value": "Simon prend la clé du n° 3 : « contrôle des piles de l’alarme »."
+  },
+  {
+   "key": "case013.clue.moved",
+   "value": "Ellie quitte la maison ; Martin s’installe dans la chambre."
+  },
+  {
+   "key": "case013.clue.service",
+   "value": "L’ingénieure trouve le conduit dégagé et les alarmes en état de marche."
+  },
+  {
+   "key": "case013.clue.source.autopsy",
+   "value": "Note d’autopsie préliminaire"
+  },
+  {
+   "key": "case013.clue.source.keylog",
+   "value": "Registre des clés de l’agence"
+  },
+  {
+   "key": "case013.clue.source.messages",
+   "value": "Messages d’Ellie Ward"
+  },
+  {
+   "key": "case013.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case013.clue.source.service",
+   "value": "Rapport d’entretien gaz"
+  },
+  {
+   "key": "case013.clue.threat",
+   "value": "Ellie : « Sinon je le dis à Victor. »"
+  },
+  {
+   "key": "case013.custody.ellie",
+   "value": "Ellie Ward — elle allait dénoncer Simon"
+  },
+  {
+   "key": "case013.custody.label",
+   "value": "Qui était la vraie cible ?"
+  },
+  {
+   "key": "case013.custody.martin",
+   "value": "Martin Hughes"
+  },
+  {
+   "key": "case013.custody.none",
+   "value": "Il n’y avait pas de cible"
+  },
+  {
+   "key": "case013.custody.tom",
+   "value": "Tom Becker"
+  },
+  {
+   "key": "case013.ellie.afraid.answer",
+   "value": "J’ai écrit un message. Puis une réponse est arrivée ; quelque chose comme « ne fais pas ça ». Puis une nuit, quelqu’un a essayé ma poignée de porte. Je suis partie le lendemain matin. Je ne l’ai dit à personne, même pas à Martin."
+  },
+  {
+   "key": "case013.ellie.afraid.answer.demeanor",
+   "value": "La voix s’enroue."
+  },
+  {
+   "key": "case013.ellie.afraid.question",
+   "value": "Craigniez-vous quelqu’un ?"
+  },
+  {
+   "key": "case013.ellie.body",
+   "value": "Avec la locataire en titre de la chambre."
+  },
+  {
+   "key": "case013.ellie.deflect",
+   "value": "Je ne sais pas. J’ai déménagé."
+  },
+  {
+   "key": "case013.ellie.quote",
+   "value": "« Martin est mort ? Dans ma chambre ? »"
+  },
+  {
+   "key": "case013.ellie.rent.answer",
+   "value": "À l’agent de location. En main propre, en espèces. Je demandais des reçus ; il disait toujours « plus tard ». Il ne m’a même jamais dit le nom du propriétaire ; je l’ai appris par la mairie."
+  },
+  {
+   "key": "case013.ellie.rent.question",
+   "value": "À qui payiez-vous le loyer ?"
+  },
+  {
+   "key": "case013.ellie.room.answer",
+   "value": "Je… lui ai laissé la chambre. Martin, c’était quelqu’un avec qui je travaillais au café ; il avait été expulsé. Je partais de toute façon. On ne l’a dit à personne ; j’avais payé mon loyer, et on avait convenu qu’il me rembourserait. Martin est mort ? Dans ma chambre ?"
+  },
+  {
+   "key": "case013.ellie.room.answer.demeanor",
+   "value": "Le visage blêmit."
+  },
+  {
+   "key": "case013.ellie.room.question",
+   "value": "La chambre 3 est à votre nom. Pourquoi Martin Hughes y logeait-il ?"
+  },
+  {
+   "key": "case013.ellie.title",
+   "value": "Ellie Ward — audition"
+  },
+  {
+   "key": "case013.ellie.why.answer",
+   "value": "Des raisons personnelles."
+  },
+  {
+   "key": "case013.ellie.why.answer.demeanor",
+   "value": "Détourne le regard et glisse ses mains sous ses bras."
+  },
+  {
+   "key": "case013.ellie.why.question",
+   "value": "Pourquoi êtes-vous partie si vite ?"
+  },
+  {
+   "key": "case013.epilogue.custody.ellie",
+   "value": "Ellie Ward a témoigné au procès. La phrase de Simon, « Vous dites qu’Ellie n’était pas là ? », a été lue à partir du procès-verbal. Ellie est allée aux obsèques de Martin ; elle n’a parlé à personne."
+  },
+  {
+   "key": "case013.epilogue.custody.martin",
+   "value": "La défense a prouvé que Simon n’avait jamais connu Martin ; faute de mobile, l’accusation a été requalifiée en homicide par négligence."
+  },
+  {
+   "key": "case013.epilogue.custody.none",
+   "value": "Sans recherche de cible, le dossier est resté dans le cadre de la négligence ; pourquoi Simon était entré dans cette chambre n’a jamais été expliqué."
+  },
+  {
+   "key": "case013.epilogue.custody.tom",
+   "value": "Aucun lien n’a été trouvé entre Tom et Simon ou la chambre ; cette question a affaibli le dossier."
+  },
+  {
+   "key": "case013.epilogue.verdict.priya",
+   "value": "La licence de l’ingénieure a été suspendue pendant l’enquête, puis rétablie. Le vrai coupable n’a pas été recherché."
+  },
+  {
+   "key": "case013.epilogue.verdict.simon",
+   "value": "Simon Pryce a été arrêté pour meurtre et escroquerie. Le chiffon du conduit s’est révélé du même lot que les chiffons de nettoyage de la camionnette de l’agence."
+  },
+  {
+   "key": "case013.epilogue.verdict.undetermined",
+   "value": "Le dossier a été classé comme un accident. Harbour Lettings a confié la gestion de la maison à un autre gestionnaire."
+  },
+  {
+   "key": "case013.epilogue.verdict.victor",
+   "value": "Victor Crane a été jugé pour négligence ; le rapport de l’ingénieure a fait tomber l’accusation dès la première audience. Simon Pryce a continué à gérer trois autres maisons."
+  },
+  {
+   "key": "case013.evidence.alley",
+   "value": "Caméra de la rue latérale"
+  },
+  {
+   "key": "case013.evidence.cert",
+   "value": "Certificat gaz expiré"
+  },
+  {
+   "key": "case013.evidence.keylog",
+   "value": "Registre des clés et des visites de l’agence"
+  },
+  {
+   "key": "case013.evidence.ledger",
+   "value": "Relevé des loyers"
+  },
+  {
+   "key": "case013.evidence.service",
+   "value": "Rapport d’entretien gaz"
+  },
+  {
+   "key": "case013.feedback.priya",
+   "value": "Le rapport de Priya indique qu’elle a contrôlé le conduit de l’extérieur. Le chiffon était sec et couvert de suie seulement sur sa face intérieure ; il avait donc été placé récemment, après l’entretien."
+  },
+  {
+   "key": "case013.feedback.simon",
+   "value": "Le conduit dégagé le 9 mars était bouché par un chiffon le 23 mars. La seule personne enregistrée entrée dans la chambre entre-temps est Simon, qui a pris la clé le 22 mars ; la caméra et Tom placent quelqu’un sur l’échelle au même moment. Ellie avait menacé de le dénoncer à Victor."
+  },
+  {
+   "key": "case013.feedback.undetermined",
+   "value": "Le registre des clés, la caméra et le témoin montraient qui avait atteint le conduit l’après-midi du 22 mars."
+  },
+  {
+   "key": "case013.feedback.victor",
+   "value": "Le certificat manquant était réel, mais l’entretien avait été fait et le nouveau certificat envoyé à l’agence. D’après le relevé de Victor, personne ne vivait dans cette chambre ; il ne connaissait même pas Ellie."
+  },
+  {
+   "key": "case013.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case013.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case013.file.value.location",
+   "value": "Deptford, 14 Ashgrove Road — chambre 3"
+  },
+  {
+   "key": "case013.file.value.number",
+   "value": "BDS-LDN-2029-0063"
+  },
+  {
+   "key": "case013.file.value.offence",
+   "value": "Mort suspecte — monoxyde de carbone"
+  },
+  {
+   "key": "case013.file.value.reporter",
+   "value": "Tom Becker, locataire"
+  },
+  {
+   "key": "case013.keylog.body",
+   "value": "Feuille signée de l’armoire à clés de l’agence, 14 Ashgrove Road, mars 2029 :\n\n9 mars · prise 09.05 / rendue 12.40 · Simon Pryce · « entretien gaz — faire entrer l’ingénieure »\n22 mars · prise 15.10 / rendue 16.05 · Simon Pryce · « contrôle des piles de l’alarme du n° 3 »\n\nAucune autre visite enregistrée. La camionnette de service de l’agence transporte une échelle pliante."
+  },
+  {
+   "key": "case013.keylog.title",
+   "value": "HARBOUR LETTINGS — REGISTRE DES CLÉS ET DES VISITES"
+  },
+  {
+   "key": "case013.ledger.body",
+   "value": "Le relevé mensuel que l’agence de location envoie au propriétaire.\n\nJanvier 2029 : 1 loué · 2 loué · 3 VIDE · 4 loué · 5 loué · 6 vide\nFévrier 2029 : 1 loué · 2 loué · 3 VIDE · 4 loué · 5 loué · 6 vide\nMars 2029 : 1 loué · 2 loué · 3 VIDE · 4 loué · 5 loué · 6 vide\n\nNet mensuel : 3 120 £. Commission de l’agence déduite."
+  },
+  {
+   "key": "case013.ledger.title",
+   "value": "RELEVÉ DES LOYERS — 14 ASHGROVE ROAD (ENVOYÉ AU PROPRIÉTAIRE)"
+  },
+  {
+   "key": "case013.messages.body",
+   "value": "Échanges extraits du téléphone d’Ellie Ward avec son accord. Interlocuteur : Simon Pryce (Harbour Lettings).\n\n18 mars 19.40 · Ellie : Ça fait trois mois que je paie le loyer en main propre et pas un seul reçu. Il paraît que le propriétaire est Victor Crane. Si je lui demandais, est-ce qu’il serait au courant pour cette chambre ?\n18 mars 19.52 · Simon : S’il vous plaît, ne faites pas ça. Tout est enregistré. Parlons-en demain.\n18 mars 21.15 · Ellie : Je veux les reçus d’ici vendredi. Sinon je le dis à Victor.\n18 mars 21.16 · Simon : D’accord. Vendredi.\n\nAucun échange après cela. Ellie a quitté la maison le 20 mars."
+  },
+  {
+   "key": "case013.messages.title",
+   "value": "ELLIE WARD — MESSAGES"
+  },
+  {
+   "key": "case013.method.accident",
+   "value": "Accident — le conduit s’est bouché tout seul"
+  },
+  {
+   "key": "case013.method.blocked",
+   "value": "Le conduit a été bouché volontairement et la pile de l’alarme retirée"
+  },
+  {
+   "key": "case013.method.label",
+   "value": "Comment le monoxyde de carbone s’est-il échappé ?"
+  },
+  {
+   "key": "case013.method.neglect",
+   "value": "Négligence du propriétaire — un poêle mal entretenu"
+  },
+  {
+   "key": "case013.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case013.offer.subtitle",
+   "value": "LE LOCATAIRE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case013.offer.summary",
+   "value": "Dans une colocation à Deptford, un homme est retrouvé mort, intoxiqué par le monoxyde de carbone échappé du poêle de sa chambre. Une maison au certificat expiré, un propriétaire visé par des plaintes. Première note : négligence."
+  },
+  {
+   "key": "case013.offer.title",
+   "value": "DOSSIER #013"
+  },
+  {
+   "key": "case013.person.ellie.info",
+   "value": "26 ans, responsable d’équipe dans un café. La locataire en titre de la chambre 3 du 14 Ashgrove Road."
+  },
+  {
+   "key": "case013.person.ellie.name",
+   "value": "Ellie Ward"
+  },
+  {
+   "key": "case013.person.priya.info",
+   "value": "41 ans, ingénieure gaz agréée, indépendante."
+  },
+  {
+   "key": "case013.person.priya.name",
+   "value": "Priya Nair"
+  },
+  {
+   "key": "case013.person.simon.info",
+   "value": "35 ans, gestionnaire immobilier chez Harbour Lettings, l’agence qui gère les maisons de Crane."
+  },
+  {
+   "key": "case013.person.simon.name",
+   "value": "Simon Pryce"
+  },
+  {
+   "key": "case013.person.tom.info",
+   "value": "30 ans, coursier. Vit dans la chambre 2 de la même maison ; légèrement intoxiqué la nuit des faits."
+  },
+  {
+   "key": "case013.person.tom.name",
+   "value": "Tom Becker"
+  },
+  {
+   "key": "case013.person.victor.info",
+   "value": "63 ans, propriétaire de neuf maisons louées à Deptford et Lewisham. Ses maisons sont gérées par une agence de location."
+  },
+  {
+   "key": "case013.person.victor.name",
+   "value": "Victor Crane"
+  },
+  {
+   "key": "case013.priya.body",
+   "value": "Déposition de l’ingénieure gaz."
+  },
+  {
+   "key": "case013.priya.cert.answer",
+   "value": "À l’agence. Ce sont eux qui m’ont appelée et qui m’ont fait entrer. Le gestionnaire — il s’appelait Simon. Je n’ai jamais vu le propriétaire."
+  },
+  {
+   "key": "case013.priya.cert.question",
+   "value": "À qui avez-vous remis le certificat ?"
+  },
+  {
+   "key": "case013.priya.cloth.answer",
+   "value": "Par le vent ? Vingt centimètres à l’intérieur, bien tassé ? Non. On trouve des nids d’oiseaux, des feuilles. Un chiffon entre par la main de quelqu’un. Et à 2,8 mètres de haut ; il faut une échelle."
+  },
+  {
+   "key": "case013.priya.cloth.question",
+   "value": "Un chiffon peut-il entrer tout seul dans l’embouchure d’un conduit ?"
+  },
+  {
+   "key": "case013.priya.deflect",
+   "value": "Ce que dit mon rapport. Je ne peux pas inventer plus que ça."
+  },
+  {
+   "key": "case013.priya.quote",
+   "value": "« Un chiffon entre par la main de quelqu’un. »"
+  },
+  {
+   "key": "case013.priya.title",
+   "value": "Priya Nair — audition"
+  },
+  {
+   "key": "case013.priya.visit.answer",
+   "value": "Trois appareils, deux alarmes. Je suis montée à l’échelle et j’ai regardé moi-même le conduit du poêle ; il était dégagé, le tirage était bon. J’ai testé les alarmes ; les deux ont sonné. Ce que dit le rapport, c’est ce que j’ai vu ce jour-là."
+  },
+  {
+   "key": "case013.priya.visit.question",
+   "value": "Pouvez-vous décrire l’entretien du 9 mars ?"
+  },
+  {
+   "key": "case013.report.body",
+   "value": "À 08.40 le 23 mars 2029, Tom Becker, qui habite au 14 Ashgrove Road à Deptford, a appelé le 999 avec un violent mal de tête et des nausées. L’équipe d’intervention a constaté qu’aucune alarme gaz n’avait sonné dans la maison, mais que le taux de monoxyde de carbone dans la chambre 3, à l’étage, était très élevé.\n\nUn homme a été trouvé immobile dans son lit ; son décès a été constaté sur place. D’après la pièce d’identité dans son portefeuille, Martin Hughes (52 ans). Le poêle à gaz de la chambre était allumé et la fenêtre fermée.\n\nBecker a été transporté à l’hôpital ; son état est bon.\n\nNote de la patrouille : « On a appris que le certificat de sécurité gaz de la maison avait expiré en février et que le propriétaire avait déjà reçu deux plaintes de locataires. La négligence est la piste prioritaire. »"
+  },
+  {
+   "key": "case013.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case013.request.keylog",
+   "value": "Demander le registre des clés et des visites de l’agence"
+  },
+  {
+   "key": "case013.request.messages",
+   "value": "Demander les échanges d’Ellie Ward avec l’agent de location"
+  },
+  {
+   "key": "case013.request.scene",
+   "value": "Demander la note d’inspection des lieux"
+  },
+  {
+   "key": "case013.request.service",
+   "value": "Demander le dernier rapport d’entretien gaz de la maison"
+  },
+  {
+   "key": "case013.request.tenants",
+   "value": "Demander la liste des locataires de la maison"
+  },
+  {
+   "key": "case013.scene.body",
+   "value": "· Le poêle à gaz est en état de marche ; le brûleur est propre et le réglage de la flamme normal.\n· Dans l’embouchure du conduit du poêle sur le mur extérieur, à environ 20 cm de profondeur, un chiffon de nettoyage gris bien tassé. Le chiffon est sec ; la couche de suie n’est que sur sa face intérieure. Le conduit est entièrement obstrué par le chiffon.\n· L’alarme monoxyde de carbone de la chambre est fixée au plafond ; le compartiment à pile est vide. La pile n’a pas été retrouvée dans la chambre.\n· La fenêtre est verrouillée de l’intérieur. La porte n’est pas fermée à clé.\n· L’ouverture du conduit est sur le mur qui donne sur la rue latérale, à environ 2,8 mètres du sol."
+  },
+  {
+   "key": "case013.scene.title",
+   "value": "NOTE D’INSPECTION DES LIEUX — CHAMBRE 3"
+  },
+  {
+   "key": "case013.service.body",
+   "value": "Ingénieure agréée : Priya Nair. Adresse : 14 Ashgrove Road. Demandé par : agence de location.\n\n· Chaudière (cuisine) : entretenue, sûre.\n· Poêle à gaz (n° 3) : test de combustion effectué, tirage du conduit mesuré, ouverture du conduit contrôlée de l’extérieur — dégagée. Sûr.\n· Plaque de cuisson : sûre.\n· Alarmes CO : n° 3 et cuisine, testées avec le bouton de test, sonnent.\n\nUn nouveau certificat de sécurité gaz a été délivré (9 mars 2029 – 9 mars 2030). Une copie a été envoyée par la poste à l’agence demandeuse."
+  },
+  {
+   "key": "case013.service.title",
+   "value": "RAPPORT D’ENTRETIEN GAZ — 9 MARS 2029"
+  },
+  {
+   "key": "case013.simon.body",
+   "value": "Avec le gestionnaire immobilier de l’agence de location."
+  },
+  {
+   "key": "case013.simon.deflect",
+   "value": "Je ne peux pas répondre sans regarder le dossier."
+  },
+  {
+   "key": "case013.simon.ellie.answer",
+   "value": "C’était à propos de reçus. Il y avait un retard dans le système. Elle était en colère contre moi, et elle avait raison. On devait se voir vendredi."
+  },
+  {
+   "key": "case013.simon.ellie.answer.demeanor",
+   "value": "Garde le sourire mais se met à tapoter la table avec son stylo."
+  },
+  {
+   "key": "case013.simon.ellie.question",
+   "value": "Pouvez-vous expliquer vos échanges avec Ellie Ward ?"
+  },
+  {
+   "key": "case013.simon.house.answer",
+   "value": "Oui, avec neuf maisons. Un incident terrible. Le retard du certificat est peut-être notre faute, je l’accepte ; les papiers de l’ingénieure se sont perdus dans le courrier."
+  },
+  {
+   "key": "case013.simon.house.question",
+   "value": "Gérez-vous le 14 Ashgrove Road ?"
+  },
+  {
+   "key": "case013.simon.quote",
+   "value": "« Je n’entre pas dans les chambres. »"
+  },
+  {
+   "key": "case013.simon.title",
+   "value": "Simon Pryce — audition"
+  },
+  {
+   "key": "case013.simon.visit.answer",
+   "value": "La semaine dernière, je crois, pour regarder les parties communes. Je n’entre pas dans les chambres ; c’est l’espace privé des locataires."
+  },
+  {
+   "key": "case013.simon.visit.question",
+   "value": "Quand êtes-vous allé à la maison pour la dernière fois ?"
+  },
+  {
+   "key": "case013.simon_2.body",
+   "value": "Sur le registre des clés."
+  },
+  {
+   "key": "case013.simon_2.key.answer",
+   "value": "Ah, oui. Le contrôle des piles. La routine. J’ai regardé les alarmes et je suis reparti. Quand j’ai dit « Je n’entre pas dans les chambres », je parlais en général."
+  },
+  {
+   "key": "case013.simon_2.key.answer.demeanor",
+   "value": "Parle d’une voix rapide et plate."
+  },
+  {
+   "key": "case013.simon_2.key.question",
+   "value": "Vous étiez à la maison le 22 mars."
+  },
+  {
+   "key": "case013.simon_2.ladder.answer",
+   "value": "Pour l’alarme du plafond, oui, j’ai pris l’échelle dans la camionnette. Et alors ?"
+  },
+  {
+   "key": "case013.simon_2.ladder.question",
+   "value": "Avez-vous utilisé une échelle ce jour-là ?"
+  },
+  {
+   "key": "case013.simon_2.room3.answer",
+   "value": "On contrôle aussi les chambres vides. La sécurité. Les règles anti-incendie."
+  },
+  {
+   "key": "case013.simon_2.room3.answer.demeanor",
+   "value": "Se tait une seconde de trop."
+  },
+  {
+   "key": "case013.simon_2.room3.question",
+   "value": "Pourquoi un contrôle des piles au n° 3 ? D’après le relevé, la chambre est vide."
+  },
+  {
+   "key": "case013.simon_2.title",
+   "value": "Simon Pryce — seconde audition"
+  },
+  {
+   "key": "case013.simon_3.body",
+   "value": "Sur le relevé des loyers, la caméra et les messages."
+  },
+  {
+   "key": "case013.simon_3.flue.answer",
+   "value": "Je regardais le conduit. Il y avait eu une plainte pour un nid d’oiseau. Je n’ai rien mis dedans."
+  },
+  {
+   "key": "case013.simon_3.flue.question",
+   "value": "Que faisiez-vous sur l’échelle à l’ouverture du conduit ?"
+  },
+  {
+   "key": "case013.simon_3.rent.answer",
+   "value": "…D’accord. Je n’ai pas mis la chambre dans le relevé. Victor n’était pas au courant. Quelques chambres comme ça dans trois maisons. C’est de l’escroquerie, oui. Mais je n’ai tué personne."
+  },
+  {
+   "key": "case013.simon_3.rent.answer.demeanor",
+   "value": "Retire ses lunettes et les pose sur la table."
+  },
+  {
+   "key": "case013.simon_3.rent.question",
+   "value": "Ellie vous payait le loyer en espèces depuis trois mois. D’après le relevé, la chambre est vide."
+  },
+  {
+   "key": "case013.simon_3.slip.answer",
+   "value": "Bien sûr, la chambre d’Ellie. Ellie… Vous dites qu’Ellie n’était pas là ? Alors…"
+  },
+  {
+   "key": "case013.simon_3.slip.answer.demeanor",
+   "value": "Ne finit pas la phrase. Change de couleur."
+  },
+  {
+   "key": "case013.simon_3.slip.question",
+   "value": "Saviez-vous qui dormait dans la chambre ?"
+  },
+  {
+   "key": "case013.simon_3.title",
+   "value": "Simon Pryce — troisième audition"
+  },
+  {
+   "key": "case013.summary.evidence",
+   "value": "Le rapport de l’ingénieure du 9 mars montrait le conduit dégagé ; sur les lieux, le conduit était bouché par un chiffon. D’après le registre des clés, la seule personne enregistrée entrée dans la chambre entre-temps était Simon. La caméra et Tom plaçaient la personne sur l’échelle à ce moment-là. Le relevé des loyers et la liste des locataires ont révélé la location cachée, et les messages d’Ellie le mobile."
+  },
+  {
+   "key": "case013.summary.lesson",
+   "value": "La date d’un enregistrement prend son sens à côté de l’enregistrement suivant : regardez qui est entré dans l’intervalle où une chose laissée intacte a été abîmée. Celui qui meurt n’est pas toujours la cible."
+  },
+  {
+   "key": "case013.summary.location",
+   "value": "Deptford, 14 Ashgrove Road — 22–23 mars 2029"
+  },
+  {
+   "key": "case013.summary.truth",
+   "value": "L’agent de location Simon Pryce louait en secret des chambres qui figuraient comme vides dans les maisons de Victor Crane et empochait les loyers. Ellie Ward, locataire du n° 3, s’en est aperçue et, le 18 mars, a menacé de prévenir le propriétaire. Effrayée, Ellie est partie le 20 mars en laissant la chambre à son collègue Martin Hughes sans le dire à personne. Le 22 mars, Simon a pris la clé, retiré la pile de l’alarme et bouché de l’extérieur le conduit du poêle avec un chiffon. Il croyait qu’Ellie dormait dans la chambre. Cette nuit-là, Martin a allumé le poêle et il est mort."
+  },
+  {
+   "key": "case013.suspect.label",
+   "value": "Qui est responsable de la mort de Martin ?"
+  },
+  {
+   "key": "case013.tablet.caseLine",
+   "value": "DOSSIER #013  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case013.tenants.body",
+   "value": "La liste de la maison en colocation que l’agence de location a déclarée à la mairie. Propriétaire : Victor Crane.\n\n1 · Joe Martins · depuis septembre 2027\n2 · Tom Becker · depuis mai 2028\n3 · Ellie Ward · depuis janvier 2029\n4 · Ana Lopes · depuis novembre 2027\n5 · Rahim Uddin · depuis juin 2028\n6 · vide\n\nMartin Hughes ne figure pas sur la liste."
+  },
+  {
+   "key": "case013.tenants.title",
+   "value": "LISTE DES LOCATAIRES — 14 ASHGROVE ROAD"
+  },
+  {
+   "key": "case013.time.death",
+   "value": "23 mars 01–04"
+  },
+  {
+   "key": "case013.time.found",
+   "value": "23 mars 08.40"
+  },
+  {
+   "key": "case013.time.key_in",
+   "value": "22 mars 16.05"
+  },
+  {
+   "key": "case013.time.key_out",
+   "value": "22 mars 15.10"
+  },
+  {
+   "key": "case013.time.ladder",
+   "value": "15.24"
+  },
+  {
+   "key": "case013.time.moved",
+   "value": "20 mars"
+  },
+  {
+   "key": "case013.time.passer",
+   "value": "15.31"
+  },
+  {
+   "key": "case013.time.service",
+   "value": "9 mars"
+  },
+  {
+   "key": "case013.time.threat",
+   "value": "18 mars 21.15"
+  },
+  {
+   "key": "case013.time.van",
+   "value": "15.18"
+  },
+  {
+   "key": "case013.time.van_out",
+   "value": "16.02"
+  },
+  {
+   "key": "case013.title",
+   "value": "Dossier #013 — Le Locataire"
+  },
+  {
+   "key": "case013.tom.body",
+   "value": "Déposition du locataire hospitalisé."
+  },
+  {
+   "key": "case013.tom.deflect",
+   "value": "Je ne sais pas ; je suis sur la route presque tous les jours."
+  },
+  {
+   "key": "case013.tom.martin.answer",
+   "value": "Il était dans la maison depuis trois jours. Il s’était installé dans la chambre d’Ellie. Ellie n’a rien dit ; un matin elle est partie avec son sac, et le lendemain cet homme est arrivé. Il était poli. Il avait toujours le poêle allumé ; il était frileux."
+  },
+  {
+   "key": "case013.tom.martin.question",
+   "value": "Connaissiez-vous Martin Hughes ?"
+  },
+  {
+   "key": "case013.tom.night.answer",
+   "value": "Je suis rentré vers minuit et je me suis couché. Le matin, j’avais la tête qui éclatait ; j’avais envie de vomir. Les alarmes n’ont jamais sonné. Je me suis traîné tant bien que mal dans le couloir et j’ai appelé."
+  },
+  {
+   "key": "case013.tom.night.question",
+   "value": "Que s’est-il passé la nuit dernière ?"
+  },
+  {
+   "key": "case013.tom.quote",
+   "value": "« Les alarmes n’ont jamais sonné. »"
+  },
+  {
+   "key": "case013.tom.title",
+   "value": "Tom Becker — audition"
+  },
+  {
+   "key": "case013.tom.visit.answer",
+   "value": "Sais pas. Je travaille la journée. Un après-midi, en passant à la maison, je crois avoir vu le trousseau de l’agent de location dans l’entrée, sur la table. Je ne suis pas sûr ; je ne me souviens pas quel jour."
+  },
+  {
+   "key": "case013.tom.visit.question",
+   "value": "Qui d’autre est venu à la maison ces derniers jours ?"
+  },
+  {
+   "key": "case013.tom_2.body",
+   "value": "Sur le registre des clés."
+  },
+  {
+   "key": "case013.tom_2.day.answer",
+   "value": "Le 22 ? Attendez… Oui, jeudi. Je suis passé chez moi à midi prendre mon chargeur. Vers trois heures et demie. Il y avait une échelle contre le mur dans la rue latérale, avec quelqu’un en gilet dessus. J’ai fait signe en pensant « l’agent de location », et il a hoché la tête. Mais je n’ai pas regardé son visage."
+  },
+  {
+   "key": "case013.tom_2.day.question",
+   "value": "Où étiez-vous l’après-midi du 22 mars ?"
+  },
+  {
+   "key": "case013.tom_2.title",
+   "value": "Tom Becker — seconde audition"
+  },
+  {
+   "key": "case013.tom_2.where.answer",
+   "value": "À hauteur de la chambre d’Ellie. Celle de Martin, je veux dire. Vous savez, ce petit trou avec une grille dans le mur — en dessous."
+  },
+  {
+   "key": "case013.tom_2.where.question",
+   "value": "Où était l’échelle exactement ?"
+  },
+  {
+   "key": "case013.verdict.priya",
+   "value": "Priya Nair"
+  },
+  {
+   "key": "case013.verdict.simon",
+   "value": "Simon Pryce"
+  },
+  {
+   "key": "case013.verdict.undetermined",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case013.verdict.victor",
+   "value": "Victor Crane"
+  },
+  {
+   "key": "case013.victor.body",
+   "value": "Déposition du propriétaire."
+  },
+  {
+   "key": "case013.victor.cert.answer",
+   "value": "À ma connaissance, il a été renouvelé ! L’agence a dit « l’ingénieure est venue ». Le papier ne m’est jamais parvenu ; c’est une autre affaire. Voici la dernière copie de mon dossier ; regardez."
+  },
+  {
+   "key": "case013.victor.cert.question",
+   "value": "Pourquoi le certificat gaz n’a-t-il pas été renouvelé ?"
+  },
+  {
+   "key": "case013.victor.deflect",
+   "value": "Demandez à l’agence. Je touche mes loyers ; le reste, c’est leur travail."
+  },
+  {
+   "key": "case013.victor.house.answer",
+   "value": "Une vieille maison, six chambres. L’agence la gère ; je reçois un relevé une fois par mois, c’est tout. Des plaintes ? Les locataires se plaignent de tout."
+  },
+  {
+   "key": "case013.victor.house.answer.demeanor",
+   "value": "Regarde sa montre."
+  },
+  {
+   "key": "case013.victor.house.question",
+   "value": "Pouvez-vous nous parler du 14 Ashgrove Road ?"
+  },
+  {
+   "key": "case013.victor.quote",
+   "value": "« Les locataires se plaignent de tout. »"
+  },
+  {
+   "key": "case013.victor.room3.answer",
+   "value": "Personne. Cette chambre est vide depuis janvier. L’agence a dit qu’elle ne trouvait pas de locataire. J’aimerais bien savoir moi-même ce qu’un homme faisait là-dedans."
+  },
+  {
+   "key": "case013.victor.room3.answer.demeanor",
+   "value": "Pour la première fois, a l’air réellement surpris."
+  },
+  {
+   "key": "case013.victor.room3.question",
+   "value": "Qui vivait dans la chambre 3 ?"
+  },
+  {
+   "key": "case013.victor.title",
+   "value": "Victor Crane — audition"
+  },
+  {
+   "key": "case013.victor_2.body",
+   "value": "Sur la liste des locataires."
+  },
+  {
+   "key": "case013.victor_2.list.answer",
+   "value": "Cette liste n’est pas la mienne. Voici le relevé des loyers que l’agence m’envoie chaque mois. Le n° 3 est vide depuis janvier, sans loyer. Je n’ai pas touché un penny de cette chambre."
+  },
+  {
+   "key": "case013.victor_2.list.answer.demeanor",
+   "value": "Pose les papiers sur la table avec agacement."
+  },
+  {
+   "key": "case013.victor_2.list.question",
+   "value": "Sur la liste déclarée à la mairie, le n° 3 figure comme loué."
+  },
+  {
+   "key": "case013.victor_2.title",
+   "value": "Victor Crane — seconde audition"
+  },
+  {
+   "key": "case013.victor_2.who.answer",
+   "value": "L’agence. Le gestionnaire qui s’occupe de toutes mes maisons. Neuf maisons, dix ans. Je lui faisais confiance."
+  },
+  {
+   "key": "case013.victor_2.who.question",
+   "value": "Qui prépare le relevé ?"
+  },
+  {
+   "key": "case013.item.cloth.name",
+   "value": "Chiffon du conduit"
+  },
+  {
+   "key": "case013.item.cloth.detail",
+   "value": "Un chiffon de nettoyage gris noirci de suie d’un côté ; l’autre côté est propre."
+  },
+  {
+   "key": "case013.item.alarm.name",
+   "value": "Alarme sans pile"
+  },
+  {
+   "key": "case013.item.alarm.detail",
+   "value": "Alarme monoxyde de carbone ; le compartiment à pile est vide."
+  },
+  {
+   "key": "case013.item.fire.name",
+   "value": "Poêle à gaz"
+  },
+  {
+   "key": "case013.item.fire.detail",
+   "value": "Le vieux poêle à gaz au mur ; une tache de suie au-dessus."
+  },
+  {
+   "key": "case013.item.ledger.name",
+   "value": "Relevé des loyers"
+  },
+  {
+   "key": "case013.item.ledger.detail",
+   "value": "Le relevé mensuel des loyers ; une ligne surlignée en jaune."
+  }
+ ]
+}

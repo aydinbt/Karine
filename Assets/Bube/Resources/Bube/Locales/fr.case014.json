@@ -1,0 +1,900 @@
+{
+ "entries": [
+  {
+   "key": "case014.autopsy.body",
+   "value": "· Taux élevé de barbituriques dans le sang et 1,1 pour mille d’alcool. Cause du décès : dépression respiratoire.\n· Contenu gastrique : thé infusé mêlé de whisky ; les résidus du médicament sont le plus concentrés dans le thé.\n· Une ecchymose légère et récente au poignet droit ; compatible avec une prise ou un choc.\n· Heure estimée du décès : 1er avr. 22.00 – 2 avr. 01.00."
+  },
+  {
+   "key": "case014.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE — CLARA VOSS"
+  },
+  {
+   "key": "case014.bag.body",
+   "value": "Petit sac poubelle récupéré le 2 avril à 13.00, avant le ramassage municipal :\n\n· Deux sachets de thé usagés.\n· Une plaquette vide de barbituriques (boîte de 10) ; même numéro de lot que la boîte sur le bureau.\n· Un morceau de page de carnet froissé et déchiré. Au crayon : « …ils ont cru. Ce n’est pas le tableau que j’ai vu — pas de trou d’épingle… »\n· Un morceau d’essuie-tout, mouillé.\n\nExamen des empreintes en cours."
+  },
+  {
+   "key": "case014.bag.title",
+   "value": "POUBELLE DE LA COUR — CONTENU DU SAC"
+  },
+  {
+   "key": "case014.cctv.event.arrive",
+   "value": "Caméra 04 : un homme en long manteau et chapeau entre dans l’immeuble par la cour. Il porte une mallette fine."
+  },
+  {
+   "key": "case014.cctv.event.fox",
+   "value": "Caméra 04 : un renard tourne autour de la poubelle, puis s’éloigne."
+  },
+  {
+   "key": "case014.cctv.event.leave",
+   "value": "Caméra 04 : le même homme sort de l’immeuble. La mallette dans une main, un petit sac poubelle noué dans l’autre. Il jette le sac dans la poubelle municipale au coin de la cour et sort dans la rue."
+  },
+  {
+   "key": "case014.cctv.overlay",
+   "value": "CAM 04"
+  },
+  {
+   "key": "case014.cctv.period",
+   "value": "1er avril 2029, 20.30 – 23.30"
+  },
+  {
+   "key": "case014.cctv.source",
+   "value": "Caméra de la cour"
+  },
+  {
+   "key": "case014.clara_report.body",
+   "value": "Harrow & Finch, 20 février 2029. Objet : Edwin Marlowe, « Last Light on the Thames », huile sur toile.\n\n· Analyse des pigments (cinq prélèvements) : blanc de plomb, bleu de Prusse, pigments de terres naturelles. Compatible avec les années 1880 ; aucun pigment moderne.\n· Toile : lin tissé à la main, XIXe siècle.\n· Examen aux UV : deux anciennes zones de retouche ; un réseau de craquelures fin et régulier. Photographies jointes.\n· Coin inférieur gauche, sur le bord de la toile : un petit trou d’épingle ; probablement une ancienne marque d’accrochage d’exposition. Photographié.\n\nConclusion : l’œuvre est de Marlowe."
+  },
+  {
+   "key": "case014.clara_report.title",
+   "value": "RAPPORT D’EXPERTISE AVANT VENTE — DR CLARA VOSS"
+  },
+  {
+   "key": "case014.clue.call",
+   "value": "Clara appelle Ashby ; 6 minutes."
+  },
+  {
+   "key": "case014.clue.clara_ok",
+   "value": "Clara juge le tableau authentique ; le trou d’épingle est photographié."
+  },
+  {
+   "key": "case014.clue.gap",
+   "value": "Le tableau arrive chez l’encadreur avec deux jours de retard ; depuis l’atelier de Kemp."
+  },
+  {
+   "key": "case014.clue.hugh_fake",
+   "value": "L’œuvre examinée par Hugh se révèle être un faux."
+  },
+  {
+   "key": "case014.clue.j_claim",
+   "value": "Ashby dit qu’il était chez lui et qu’il n’a jamais rencontré Clara."
+  },
+  {
+   "key": "case014.clue.order",
+   "value": "Ashby commande une copie du Marlowe à Noah Kemp."
+  },
+  {
+   "key": "case014.clue.source.clara_report",
+   "value": "Rapport de Clara Voss"
+  },
+  {
+   "key": "case014.clue.source.cphone",
+   "value": "Téléphone de Clara"
+  },
+  {
+   "key": "case014.clue.source.entry",
+   "value": "Registre des entrées de l’immeuble"
+  },
+  {
+   "key": "case014.clue.source.framer",
+   "value": "Fiche de l’encadreur"
+  },
+  {
+   "key": "case014.clue.source.hugh_report",
+   "value": "Rapport de Hugh Linton"
+  },
+  {
+   "key": "case014.clue.source.invoice",
+   "value": "Facture de Kemp"
+  },
+  {
+   "key": "case014.clue.visit_in",
+   "value": "Ashby entre dans l’immeuble ; Clara valide."
+  },
+  {
+   "key": "case014.clue.visit_out",
+   "value": "Ashby quitte l’immeuble."
+  },
+  {
+   "key": "case014.clue.yard_leave",
+   "value": "Un homme en chapeau sort avec un sac poubelle et le jette."
+  },
+  {
+   "key": "case014.cphone.body",
+   "value": "1er avril 2029, relevés choisis :\n\n09.12 · entrant · Harrow & Finch · 4 min\n14.40 · sortant · Julian Ashby · 6 min 05 s\n15.02 · sortant · Dr Hugh Linton · sans réponse\n18.30 · entrant · Oliver Hartley · 2 min"
+  },
+  {
+   "key": "case014.cphone.title",
+   "value": "RELEVÉ TÉLÉPHONIQUE — CLARA VOSS"
+  },
+  {
+   "key": "case014.custody.auction",
+   "value": "Le tableau vendu aux enchères"
+  },
+  {
+   "key": "case014.custody.both_fake",
+   "value": "Les deux sont des faux"
+  },
+  {
+   "key": "case014.custody.both_real",
+   "value": "Les deux sont authentiques"
+  },
+  {
+   "key": "case014.custody.label",
+   "value": "Quel tableau est le faux ?"
+  },
+  {
+   "key": "case014.custody.swapped",
+   "value": "La copie substituée après la vente, pendant que l’acheteur l’avait"
+  },
+  {
+   "key": "case014.entry.body",
+   "value": "Les visiteurs s’inscrivent sur la tablette de l’accueil ; le locataire valide.\n\n13.05 · Clara Voss · carte · sortie\n15.20 · Clara Voss · carte · entrée\n21.10 · visiteur : Julian Ashby · validé par : C. Voss (3e étage)\n22.05 · sortie visiteur : Julian Ashby\n\nEntrée suivante : 2 avril 08.24, Oliver Hartley."
+  },
+  {
+   "key": "case014.entry.title",
+   "value": "PEREGRINE YARD — REGISTRE DES ENTRÉES DE L’IMMEUBLE, 1ER AVRIL"
+  },
+  {
+   "key": "case014.epilogue.custody.auction",
+   "value": "Le rapport de Clara a été écarté ; la contre-expertise a été ignorée. La maison de ventes a payé le remboursement."
+  },
+  {
+   "key": "case014.epilogue.custody.both_fake",
+   "value": "Les pigments du XIXe siècle du rapport avant vente n’ont pas pu être expliqués ; la défense l’a présenté comme une incohérence du dossier."
+  },
+  {
+   "key": "case014.epilogue.custody.both_real",
+   "value": "La copie comptée comme « authentique », le blanc de titane n’a pas pu être expliqué ; l’affaire s’est noyée dans un affrontement d’experts."
+  },
+  {
+   "key": "case014.epilogue.custody.swapped",
+   "value": "Harrow & Finch a suspendu le remboursement. Le nom de Clara Voss a été rétabli comme experte dans le catalogue ; Hugh Linton l’a lui-même demandé dans un communiqué. La signature de Noah Kemp a été retrouvée sous la traverse du châssis de la copie."
+  },
+  {
+   "key": "case014.epilogue.verdict.hugh",
+   "value": "L’accusation contre Hugh Linton s’est effondrée dès la première audience. Sa réputation de trente ans ne s’en est jamais remise."
+  },
+  {
+   "key": "case014.epilogue.verdict.julian",
+   "value": "Julian Ashby a été arrêté pour meurtre et escroquerie. Le vrai « Last Light on the Thames » a été retrouvé dans une pièce fermée à clé de sa maison de Belgravia, trou d’épingle compris."
+  },
+  {
+   "key": "case014.epilogue.verdict.rebecca",
+   "value": "Rebecca Finch a été placée en garde à vue ; ses témoins l’ont fait relâcher le lendemain. Harrow & Finch a versé les 2,4 millions et a fermé. Deux ans plus tard, Ashby a fait vendre le tableau à Genève."
+  },
+  {
+   "key": "case014.epilogue.verdict.suicide",
+   "value": "Le décès a été classé comme un suicide. Ashby a touché la garantie ; le vrai tableau a refait surface des années plus tard dans une autre vente."
+  },
+  {
+   "key": "case014.evidence.clara_report",
+   "value": "Rapport avant vente de Clara Voss"
+  },
+  {
+   "key": "case014.evidence.entry",
+   "value": "Registre des entrées de l’immeuble"
+  },
+  {
+   "key": "case014.evidence.hugh_report",
+   "value": "Rapport de Hugh Linton"
+  },
+  {
+   "key": "case014.evidence.press",
+   "value": "Coupure de presse"
+  },
+  {
+   "key": "case014.evidence.second",
+   "value": "Rapport de contre-expertise"
+  },
+  {
+   "key": "case014.feedback.hugh",
+   "value": "Le rapport de Hugh était exact ; on lui avait apporté une copie. Clara semble l’avoir appelé lui aussi, sans réussir à le joindre."
+  },
+  {
+   "key": "case014.feedback.julian",
+   "value": "Clara a examiné le vrai tableau, Hugh une copie. Ashby a commandé la copie et a gardé le tableau deux jours après la vente. Clara a remarqué la différence et l’a appelé ; Ashby est entré dans l’atelier ce soir-là et a jeté le sac poubelle en sortant. Le sac contenait la phrase arrachée du carnet."
+  },
+  {
+   "key": "case014.feedback.rebecca",
+   "value": "Rebecca était prête à sacrifier Clara ; c’est une faute morale. Mais cette nuit-là, elle dînait avec onze personnes, et le faux coulait sa propre maison."
+  },
+  {
+   "key": "case014.feedback.suicide",
+   "value": "La note était le début d’une phrase arrachée. Cet après-midi-là, Clara avait compris qu’elle ne s’était pas trompée ; le médicament dans le thé et la seconde tasse lavée désignent un invité."
+  },
+  {
+   "key": "case014.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case014.file.value.bureau",
+   "value": "BDS Londres — Antenne de Southwark"
+  },
+  {
+   "key": "case014.file.value.location",
+   "value": "Clerkenwell, Peregrine Yard — atelier du 3e étage"
+  },
+  {
+   "key": "case014.file.value.number",
+   "value": "BDS-LDN-2029-0078"
+  },
+  {
+   "key": "case014.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case014.file.value.reporter",
+   "value": "Oliver Hartley, assistant"
+  },
+  {
+   "key": "case014.framer.body",
+   "value": "Commande n° 2291 · client : Julian Ashby · « Marlowe, Thames — nouveau cadre ».\n\n14 mars · « En attente de livraison (coursier du client) » — n’est pas arrivé.\n15 mars · le client a téléphoné ; « sera apporté demain ».\n16 mars 17.40 · tableau arrivé. Coursier : « Je l’ai récupéré à l’atelier de Hackney. »\n18 mars · cadre posé, récupéré par le coursier du client.\n\nNote du personnel : « Le coursier a cité l’atelier de Noah Kemp. On connaît Kemp ; il fait de bonnes copies. »"
+  },
+  {
+   "key": "case014.framer.title",
+   "value": "BELLAMY FRAMING — FICHE DE COMMANDE"
+  },
+  {
+   "key": "case014.hugh.body",
+   "value": "Avec l’expert de l’acheteur."
+  },
+  {
+   "key": "case014.hugh.clara.answer",
+   "value": "Depuis trente ans. Je ne connaissais pas de meilleur œil. J’ai eu la nausée en rendant mon rapport ; je n’arrivais pas à croire qu’elle ait fait une telle erreur."
+  },
+  {
+   "key": "case014.hugh.clara.question",
+   "value": "Connaissiez-vous Clara Voss ?"
+  },
+  {
+   "key": "case014.hugh.deflect",
+   "value": "Je ne commente rien qui ne soit pas dans mon rapport."
+  },
+  {
+   "key": "case014.hugh.hired.answer",
+   "value": "L’acheteur. Julian Ashby. C’est la première fois qu’un acheteur m’appelle le lendemain de la livraison. « J’ai un mauvais pressentiment », a-t-il dit."
+  },
+  {
+   "key": "case014.hugh.hired.question",
+   "value": "Qui vous a mandaté ?"
+  },
+  {
+   "key": "case014.hugh.quote",
+   "value": "« La toile qu’on m’a présentée est moderne. »"
+  },
+  {
+   "key": "case014.hugh.test.answer",
+   "value": "Absolument. Le blanc de titane est incontestable. La toile qu’on m’a présentée est moderne. Je ne sais pas ce que Clara a vu ; mais si ce n’était pas ce tableau, c’est une autre affaire."
+  },
+  {
+   "key": "case014.hugh.test.answer.demeanor",
+   "value": "Retire ses lunettes et les pose sur la table."
+  },
+  {
+   "key": "case014.hugh.test.question",
+   "value": "Êtes-vous sûr de votre rapport ?"
+  },
+  {
+   "key": "case014.hugh.title",
+   "value": "Hugh Linton — audition"
+  },
+  {
+   "key": "case014.hugh_2.body",
+   "value": "Sur la contre-expertise."
+  },
+  {
+   "key": "case014.hugh_2.brought.answer",
+   "value": "Par le coursier de M. Ashby lui-même, depuis sa maison. Le cadre était neuf ; on m’a dit : « Il revient de chez l’encadreur. »"
+  },
+  {
+   "key": "case014.hugh_2.brought.question",
+   "value": "Comment le tableau vous est-il parvenu ?"
+  },
+  {
+   "key": "case014.hugh_2.same.answer",
+   "value": "…Grand Dieu. Je n’ai examiné que ce qu’on m’a présenté. Je ne l’ai pas comparé aux photographies d’avant la vente ; pourquoi l’aurais-je fait, c’était censé être le même tableau. Nous avions raison tous les deux."
+  },
+  {
+   "key": "case014.hugh_2.same.answer.demeanor",
+   "value": "Ne peut pas parler pendant un long moment."
+  },
+  {
+   "key": "case014.hugh_2.same.question",
+   "value": "Clara et vous avez-vous regardé le même tableau ?"
+  },
+  {
+   "key": "case014.hugh_2.title",
+   "value": "Hugh Linton — seconde audition"
+  },
+  {
+   "key": "case014.hugh_report.body",
+   "value": "Pour le compte de l’acheteur, 24 mars 2029. Objet : l’œuvre livrée sous le titre « Last Light on the Thames ».\n\n· Analyse des pigments (quatre prélèvements) : blanc de titane détecté. Ce pigment n’était pas commercialisé avant les années 1920.\n· Toile : lin tissé à la machine, moderne.\n· Examen aux UV : aucune zone de retouche observée. Les craquelures semblent avoir été produites artificiellement.\n\nConclusion : l’œuvre ne peut pas dater du XIXe siècle. C’est un faux."
+  },
+  {
+   "key": "case014.hugh_report.title",
+   "value": "RAPPORT D’EXPERTISE INDÉPENDANT — DR HUGH LINTON"
+  },
+  {
+   "key": "case014.invoice.body",
+   "value": "Facture n° 0117 · 3 février 2029\nClient : Julian Ashby, Belgravia\nTravail : E. Marlowe, « Last Light on the Thames » — copie décorative grandeur nature, vieillissement et craquelures compris.\nMontant : 18 000 £ · payé (virement).\n\nNote (de la main de Kemp) : « Livrer après le 14 mars — demande du client. »"
+  },
+  {
+   "key": "case014.invoice.title",
+   "value": "FACTURE — ATELIER NOAH KEMP"
+  },
+  {
+   "key": "case014.julian.body",
+   "value": "Déposition de l’acheteur."
+  },
+  {
+   "key": "case014.julian.clara.answer",
+   "value": "Non. Je l’ai vue de loin à la vente, c’est tout. Triste. La pression devait être lourde."
+  },
+  {
+   "key": "case014.julian.clara.question",
+   "value": "Avez-vous déjà rencontré Clara Voss ?"
+  },
+  {
+   "key": "case014.julian.deflect",
+   "value": "Mon avocat peut répondre à cela."
+  },
+  {
+   "key": "case014.julian.night.answer",
+   "value": "Chez moi, à Belgravia. Je me suis couché tôt."
+  },
+  {
+   "key": "case014.julian.night.question",
+   "value": "Où étiez-vous le soir du 1er avril ?"
+  },
+  {
+   "key": "case014.julian.painting.answer",
+   "value": "Le pire achat de ma vie. Je croyais qu’il était authentique ; je croyais leurs experts. Heureusement qu’il y a la garantie."
+  },
+  {
+   "key": "case014.julian.painting.answer.demeanor",
+   "value": "À l’aise ; ajuste sa montre."
+  },
+  {
+   "key": "case014.julian.painting.question",
+   "value": "Pouvez-vous nous parler du tableau ?"
+  },
+  {
+   "key": "case014.julian.quote",
+   "value": "« Heureusement qu’il y a la garantie. »"
+  },
+  {
+   "key": "case014.julian.title",
+   "value": "Julian Ashby — audition"
+  },
+  {
+   "key": "case014.julian_2.body",
+   "value": "Sur le relevé téléphonique."
+  },
+  {
+   "key": "case014.julian_2.call.answer",
+   "value": "Ah, ça. Oui, elle a appelé. Très tendue, elle avait réexaminé le tableau et disait toutes sortes d’absurdités. Je l’ai renvoyée vers mon avocat. Je n’appellerais pas ça la rencontrer."
+  },
+  {
+   "key": "case014.julian_2.call.answer.demeanor",
+   "value": "Croise les jambes."
+  },
+  {
+   "key": "case014.julian_2.call.question",
+   "value": "Clara Voss vous a appelé le 1er avril ; vous avez parlé six minutes."
+  },
+  {
+   "key": "case014.julian_2.framer.answer",
+   "value": "Chez l’encadreur. Où voulez-vous qu’il soit ?"
+  },
+  {
+   "key": "case014.julian_2.framer.question",
+   "value": "Où était le tableau pendant les deux jours qui ont suivi la vente ?"
+  },
+  {
+   "key": "case014.julian_2.title",
+   "value": "Julian Ashby — seconde audition"
+  },
+  {
+   "key": "case014.julian_3.body",
+   "value": "Sur le carnet, la facture et le registre des entrées."
+  },
+  {
+   "key": "case014.julian_3.copy.answer",
+   "value": "Pour mon salon. Tous les collectionneurs qui gardent l’original au coffre le font."
+  },
+  {
+   "key": "case014.julian_3.copy.question",
+   "value": "Vous avez commandé une copie en février. Livraison après la vente."
+  },
+  {
+   "key": "case014.julian_3.title",
+   "value": "Julian Ashby — troisième audition"
+  },
+  {
+   "key": "case014.julian_3.visit.answer",
+   "value": "…Bon. J’y suis allé. Pour qu’elle me dise ses accusations absurdes en face. On a parlé, elle s’est calmée, je suis parti. Elle était vivante."
+  },
+  {
+   "key": "case014.julian_3.visit.answer.demeanor",
+   "value": "Pour la première fois, regarde son avocat."
+  },
+  {
+   "key": "case014.julian_3.visit.question",
+   "value": "Le 1er avril à 21.10, vous étiez dans l’immeuble de Clara."
+  },
+  {
+   "key": "case014.julian_3.where.answer",
+   "value": "…"
+  },
+  {
+   "key": "case014.julian_3.where.answer.demeanor",
+   "value": "Ne répond pas. Son avocat met fin à l’audition."
+  },
+  {
+   "key": "case014.julian_3.where.question",
+   "value": "Alors, où est le vrai tableau maintenant ?"
+  },
+  {
+   "key": "case014.method.accident",
+   "value": "Accident — médicaments et alcool"
+  },
+  {
+   "key": "case014.method.label",
+   "value": "Comment Clara est-elle morte ?"
+  },
+  {
+   "key": "case014.method.poisoned",
+   "value": "Empoisonnée avec des comprimés mis dans son thé ; maquillé en suicide"
+  },
+  {
+   "key": "case014.method.suicide",
+   "value": "Elle s’est donné la mort avec des comprimés"
+  },
+  {
+   "key": "case014.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case014.noah.body",
+   "value": "Avec le peintre copiste."
+  },
+  {
+   "key": "case014.noah.deflect",
+   "value": "Je peins. Le reste, je ne sais pas."
+  },
+  {
+   "key": "case014.noah.fake.answer",
+   "value": "Quoi ? Non ! Je mets toujours mon nom au dos, toujours. Au dos de la toile, sous la traverse du châssis. Regardez, il devrait y être."
+  },
+  {
+   "key": "case014.noah.fake.answer.demeanor",
+   "value": "Se lève."
+  },
+  {
+   "key": "case014.noah.fake.question",
+   "value": "Saviez-vous que votre copie avait été vendue comme authentique ?"
+  },
+  {
+   "key": "case014.noah.order.answer",
+   "value": "Un collectionneur, début février. Il a envoyé des photographies, très détaillées ; même les craquelures. « Pour mon salon, l’original reste au coffre », a-t-il dit. Il a payé cher. Je n’ai pas trouvé de vieille toile, alors j’ai pris du lin moderne ; pour de la décoration, qui s’en soucie ?"
+  },
+  {
+   "key": "case014.noah.order.answer.demeanor",
+   "value": "Commence fièrement, puis se trouble."
+  },
+  {
+   "key": "case014.noah.order.question",
+   "value": "Qui vous a commandé la copie du Marlowe ?"
+  },
+  {
+   "key": "case014.noah.pickup.answer",
+   "value": "C’est ça qui est bizarre. Elle était prête, mais il a dit : « Attendez le 14. » Le soir du 14 mars, son coursier est venu et a laissé un tableau, « qu’il reste ici cette nuit ». Deux jours plus tard, il a pris les deux. Je n’ai même pas regardé celui qu’il avait laissé. J’aurais dû ?"
+  },
+  {
+   "key": "case014.noah.pickup.question",
+   "value": "Quand la copie a-t-elle été livrée ?"
+  },
+  {
+   "key": "case014.noah.quote",
+   "value": "« L’original reste au coffre, a-t-il dit. »"
+  },
+  {
+   "key": "case014.noah.title",
+   "value": "Noah Kemp — audition"
+  },
+  {
+   "key": "case014.notebook.body",
+   "value": "De la poudre de graphite a été appliquée sur la page blanche sous celle qui a été arrachée. Lignes lues à partir des empreintes du crayon :\n\n« 1er avril. Réserve. Le tableau retourné.\nIls ont cru que je m’étais trompée. Ce n’est pas le tableau que j’ai vu — pas de trou d’épingle, pas de retouches, des craquelures différentes.\nQuelqu’un l’a échangé. Après la vente.\nJ’ai demandé à Julian Ashby. Il vient ce soir, il a dit “Je vais t’expliquer”. »\n\nSur le papier trouvé sur les lieux, seuls les premiers mots subsistent : « Je me suis trompée. » Le reste de la feuille manque."
+  },
+  {
+   "key": "case014.notebook.title",
+   "value": "CARNET DE CLARA VOSS — PAGE LUE AU GRAPHITE"
+  },
+  {
+   "key": "case014.offer.subtitle",
+   "value": "CONTRE-EXPERTISE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case014.offer.summary",
+   "value": "Une experte de ventes aux enchères dont le tableau à un million a été déclaré faux est retrouvée morte dans son atelier. Sur son bureau, une note de quelques mots : « Je me suis trompée. » Cela ressemble à un suicide."
+  },
+  {
+   "key": "case014.offer.title",
+   "value": "DOSSIER #014"
+  },
+  {
+   "key": "case014.oliver.body",
+   "value": "Déposition de l’assistant."
+  },
+  {
+   "key": "case014.oliver.deflect",
+   "value": "Je ne sais pas. Clara ne me disait pas tout."
+  },
+  {
+   "key": "case014.oliver.found.answer",
+   "value": "La porte n’était pas fermée à clé ; Clara la fermait toujours. Elle était effondrée sur le bureau. J’ai vu ce papier, « Je me suis trompée ». Ses mains étaient froides."
+  },
+  {
+   "key": "case014.oliver.found.answer.demeanor",
+   "value": "La voix tremble."
+  },
+  {
+   "key": "case014.oliver.found.question",
+   "value": "Qu’avez-vous vu le matin ?"
+  },
+  {
+   "key": "case014.oliver.mood.answer",
+   "value": "Mal, oui. Les journaux, les coups de fil… Mais hier après-midi, quand elle est revenue de la réserve, elle était complètement différente. « J’ai trouvé quelque chose, Oliver. Je ne me suis pas trompée », a-t-elle dit. Ses yeux brillaient. Quelqu’un sur le point de se tuer ne parle pas comme ça."
+  },
+  {
+   "key": "case014.oliver.mood.question",
+   "value": "Comment allait-elle ces derniers jours ?"
+  },
+  {
+   "key": "case014.oliver.notebook.answer",
+   "value": "Elle notait tout dans son carnet. Crayon épais, en appuyant fort. Ce carnet était sur le bureau."
+  },
+  {
+   "key": "case014.oliver.notebook.question",
+   "value": "Aurait-elle noté ce qu’elle avait trouvé ?"
+  },
+  {
+   "key": "case014.oliver.quote",
+   "value": "« Je ne me suis pas trompée, a-t-elle dit. »"
+  },
+  {
+   "key": "case014.oliver.tea.answer",
+   "value": "Très rarement. Le soir, elle buvait du thé, toujours dans les mêmes tasses bleues. Il y en a deux ; quand un invité venait, elle sortait la seconde."
+  },
+  {
+   "key": "case014.oliver.tea.question",
+   "value": "Clara buvait-elle du whisky ?"
+  },
+  {
+   "key": "case014.oliver.title",
+   "value": "Oliver Hartley — audition"
+  },
+  {
+   "key": "case014.person.hugh.info",
+   "value": "61 ans, restaurateur de musée retraité, expert indépendant. Le rapport qui a déclaré le tableau faux est le sien."
+  },
+  {
+   "key": "case014.person.hugh.name",
+   "value": "Hugh Linton"
+  },
+  {
+   "key": "case014.person.julian.info",
+   "value": "49 ans, gestionnaire de fonds et collectionneur. A acheté le tableau de Marlowe en mars pour 2,4 millions de livres."
+  },
+  {
+   "key": "case014.person.julian.name",
+   "value": "Julian Ashby"
+  },
+  {
+   "key": "case014.person.noah.info",
+   "value": "29 ans, peintre avec un atelier à Hackney ; fait des copies décoratives de tableaux célèbres."
+  },
+  {
+   "key": "case014.person.noah.name",
+   "value": "Noah Kemp"
+  },
+  {
+   "key": "case014.person.oliver.info",
+   "value": "27 ans, assistant du Dr Clara Voss depuis deux ans. C’est lui qui a découvert le corps."
+  },
+  {
+   "key": "case014.person.oliver.name",
+   "value": "Oliver Hartley"
+  },
+  {
+   "key": "case014.person.rebecca.info",
+   "value": "46 ans, directrice de la maison de ventes Harrow & Finch et membre de la famille fondatrice."
+  },
+  {
+   "key": "case014.person.rebecca.name",
+   "value": "Rebecca Finch"
+  },
+  {
+   "key": "case014.press.body",
+   "value": "« UN TABLEAU PERDU DEPUIS 90 ANS EST UN FAUX »\n\n« Last Light on the Thames » d’Edwin Marlowe, vendu le mois dernier 2,4 millions de livres, a été déclaré faux. Le Dr Hugh Linton, l’expert indépendant mandaté par l’acheteur, a dit avoir trouvé du blanc de titane, un pigment qui n’était pas utilisé avant les années 1920, et une toile moderne tissée à la machine.\n\nLe Dr Clara Voss, l’experte de Harrow & Finch qui avait authentifié le tableau avant la vente, n’a pas souhaité s’exprimer. La maison de ventes a annoncé avoir « lancé une enquête interne ». Dans les milieux de l’art, on dit la carrière de Voss terminée."
+  },
+  {
+   "key": "case014.press.title",
+   "value": "COUPURE DE PRESSE — 25 MARS 2029"
+  },
+  {
+   "key": "case014.rebecca.body",
+   "value": "Déposition de la directrice des ventes."
+  },
+  {
+   "key": "case014.rebecca.clara.answer",
+   "value": "Une experte de vingt ans. Méticuleuse. Ce qui rend ce qui s’est passé d’autant plus tragique. Tout le monde peut se tromper."
+  },
+  {
+   "key": "case014.rebecca.clara.answer.demeanor",
+   "value": "Les phrases sonnent comme préparées à l’avance."
+  },
+  {
+   "key": "case014.rebecca.clara.question",
+   "value": "Comment était-ce de travailler avec Clara Voss ?"
+  },
+  {
+   "key": "case014.rebecca.deflect",
+   "value": "Veuillez vous reporter au communiqué de la maison à ce sujet."
+  },
+  {
+   "key": "case014.rebecca.last.answer",
+   "value": "Hier après-midi, à la réserve. Elle voulait réexaminer le tableau retourné ; je l’ai autorisée. Elle n’a rien dit en partant."
+  },
+  {
+   "key": "case014.rebecca.last.question",
+   "value": "Quand avez-vous vu Clara pour la dernière fois ?"
+  },
+  {
+   "key": "case014.rebecca.quote",
+   "value": "« Tout le monde peut se tromper. »"
+  },
+  {
+   "key": "case014.rebecca.sale.answer",
+   "value": "L’acheteur a demandé un remboursement au titre de notre garantie d’authenticité. Le tableau est revenu dans notre réserve la semaine dernière. Nous rembourserons les 2,4 millions ; l’assurance ne couvre pas. Une catastrophe pour la maison."
+  },
+  {
+   "key": "case014.rebecca.sale.question",
+   "value": "Quelle est la situation actuelle du tableau ?"
+  },
+  {
+   "key": "case014.rebecca.title",
+   "value": "Rebecca Finch — audition"
+  },
+  {
+   "key": "case014.rebecca_2.body",
+   "value": "Sur l’enquête interne."
+  },
+  {
+   "key": "case014.rebecca_2.night.answer",
+   "value": "Au dîner du conseil, avec onze personnes, jusqu’à minuit. Appelez qui vous voulez."
+  },
+  {
+   "key": "case014.rebecca_2.night.question",
+   "value": "Où étiez-vous le soir du 1er avril ?"
+  },
+  {
+   "key": "case014.rebecca_2.plan.answer",
+   "value": "Je vais être franche. Le conseil a décidé de faire porter la faute à Clara ; nous allions la licencier et parler d’« erreur individuelle ». J’ai écrit la lettre ; elle devait être signée vendredi. Je n’en suis pas fière."
+  },
+  {
+   "key": "case014.rebecca_2.plan.answer.demeanor",
+   "value": "Les yeux s’embuent ; les essuie aussitôt."
+  },
+  {
+   "key": "case014.rebecca_2.plan.question",
+   "value": "Qu’était exactement l’« enquête interne » ?"
+  },
+  {
+   "key": "case014.rebecca_2.title",
+   "value": "Rebecca Finch — seconde audition"
+  },
+  {
+   "key": "case014.report.body",
+   "value": "Le 2 avril 2029 à 08.30, au troisième étage d’un immeuble d’ateliers à Clerkenwell, le Dr Clara Voss (54 ans), experte en tableaux de la maison de ventes Harrow & Finch, a été retrouvée morte à son bureau. Elle a été découverte par son assistant, Oliver Hartley.\n\nSur le bureau : un verre de whisky à moitié bu, une boîte de somnifères vide et un bout de papier déchiré portant quelques mots manuscrits : « Je me suis trompée. »\n\nNote de la patrouille : « Voss avait été vivement critiquée dans la presse après qu’un tableau qu’elle avait vendu a été déclaré faux il y a une semaine. Forte suspicion de suicide. »"
+  },
+  {
+   "key": "case014.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case014.request.bag",
+   "value": "Demander le contenu de la poubelle de la cour"
+  },
+  {
+   "key": "case014.request.clara_report",
+   "value": "Demander le rapport avant vente de Clara Voss"
+  },
+  {
+   "key": "case014.request.cphone",
+   "value": "Demander le relevé téléphonique de Clara Voss"
+  },
+  {
+   "key": "case014.request.entry",
+   "value": "Demander le registre des entrées de l’immeuble"
+  },
+  {
+   "key": "case014.request.framer",
+   "value": "Demander la fiche de commande de l’encadreur"
+  },
+  {
+   "key": "case014.request.hugh_report",
+   "value": "Demander le rapport de l’expert de l’acheteur"
+  },
+  {
+   "key": "case014.request.invoice",
+   "value": "Demander la facture de Noah Kemp"
+  },
+  {
+   "key": "case014.request.notebook",
+   "value": "Demander un examen au graphite du carnet"
+  },
+  {
+   "key": "case014.request.scene",
+   "value": "Demander la note d’examen des lieux"
+  },
+  {
+   "key": "case014.request.second",
+   "value": "Demander une contre-expertise à un restaurateur indépendant"
+  },
+  {
+   "key": "case014.scene.body",
+   "value": "· Sur le bureau : verre de whisky (à moitié plein), boîte de barbituriques vide, papier déchiré (« Je me suis trompée. »). Le bord supérieur du papier est droit, le bord inférieur déchiré ; arraché du carnet posé sur le bureau.\n· La page sous celle qui a été arrachée semble vierge.\n· Sur l’étagère près de l’évier, deux tasses à thé bleues. L’une est sèche avec des résidus de thé à l’intérieur ; l’autre a été lavée et est encore mouillée.\n· La corbeille est vide ; pas de sac dedans.\n· Fenêtre fermée. Aucune trace d’effraction."
+  },
+  {
+   "key": "case014.scene.title",
+   "value": "NOTE D’EXAMEN DES LIEUX — ATELIER"
+  },
+  {
+   "key": "case014.second.body",
+   "value": "Dr Amara Osei, 2 avril 2029. Demandé par : bube Londres. Examiné : l’œuvre retournée par l’acheteur, conservée dans la réserve de Harrow & Finch. Comparé avec : les photographies UV du rapport avant vente du 20 février.\n\n· Les constatations sur les pigments et la toile de l’œuvre retournée concordent avec le rapport indépendant du 24 mars (blanc de titane ; tissage mécanique).\n· Réseau de craquelures : comparé au motif des photographies du 20 février. Aucune concordance. Le motif n’est pas naturel ; produit à la chaleur.\n· Coin inférieur gauche : le trou d’épingle de la photographie du 20 février est absent de cette œuvre. Le bord de la toile est intact.\n· Zones de retouche : les deux zones documentées le 20 février sont absentes de cette œuvre.\n\nRésultat mesuré : l’œuvre examinée n’est pas physiquement le même objet que l’œuvre photographiée le 20 février."
+  },
+  {
+   "key": "case014.second.title",
+   "value": "CONTRE-EXPERTISE — RAPPORT DU RESTAURATEUR INDÉPENDANT"
+  },
+  {
+   "key": "case014.summary.evidence",
+   "value": "Deux rapports d’expertise se contredisaient ; la contre-expertise a montré que l’œuvre retournée n’était pas le même objet que celle photographiée avant la vente. La fiche de l’encadreur et la facture de Kemp ont révélé la fenêtre de l’échange, le registre des entrées et le téléphone la soirée, et l’empreinte au graphite et le sac poubelle la phrase arrachée."
+  },
+  {
+   "key": "case014.summary.lesson",
+   "value": "Si deux mesures honnêtes divergent, peut-être ne mesurent-elles pas la même chose : vérifiez d’abord que l’objet est bien le même. Une phrase arrachée peut dire le contraire du tout."
+  },
+  {
+   "key": "case014.summary.location",
+   "value": "Clerkenwell et Mayfair — février–avril 2029"
+  },
+  {
+   "key": "case014.summary.truth",
+   "value": "Avant d’acheter le tableau de Marlowe, le collectionneur Julian Ashby en a commandé une copie exacte à Noah Kemp. Après la vente, il a gardé le tableau deux jours sous prétexte de l’encadreur, l’a échangé contre la copie, et a fait examiner la copie par Hugh Linton qui l’a déclarée « fausse » ; il comptait récupérer son argent grâce à la garantie de la vente et garder l’original. Quand Clara Voss a examiné l’œuvre retournée, elle a compris que c’était un autre tableau et a appelé Ashby. Ce soir-là, Ashby est allé à son atelier, a mis des comprimés dans son thé, a arraché la page de son carnet en n’en laissant que les premiers mots, et a jeté le reste avec les ordures."
+  },
+  {
+   "key": "case014.suspect.label",
+   "value": "Qui est responsable de la mort de Clara Voss ?"
+  },
+  {
+   "key": "case014.tablet.caseLine",
+   "value": "DOSSIER #014  /  BUBE LONDRES — SOUTHWARK"
+  },
+  {
+   "key": "case014.time.arrive",
+   "value": "21.08"
+  },
+  {
+   "key": "case014.time.call",
+   "value": "1er avr. 14.40"
+  },
+  {
+   "key": "case014.time.clara_ok",
+   "value": "20 févr."
+  },
+  {
+   "key": "case014.time.fox",
+   "value": "23.12"
+  },
+  {
+   "key": "case014.time.gap",
+   "value": "14–16 mars"
+  },
+  {
+   "key": "case014.time.hugh_fake",
+   "value": "24 mars"
+  },
+  {
+   "key": "case014.time.j_claim",
+   "value": "1er avr. soir"
+  },
+  {
+   "key": "case014.time.leave",
+   "value": "22.04"
+  },
+  {
+   "key": "case014.time.order",
+   "value": "3 févr."
+  },
+  {
+   "key": "case014.time.visit_in",
+   "value": "1er avr. 21.10"
+  },
+  {
+   "key": "case014.time.visit_out",
+   "value": "1er avr. 22.05"
+  },
+  {
+   "key": "case014.title",
+   "value": "Dossier #014 — Contre-expertise"
+  },
+  {
+   "key": "case014.verdict.hugh",
+   "value": "Hugh Linton"
+  },
+  {
+   "key": "case014.verdict.julian",
+   "value": "Julian Ashby"
+  },
+  {
+   "key": "case014.verdict.rebecca",
+   "value": "Rebecca Finch"
+  },
+  {
+   "key": "case014.verdict.suicide",
+   "value": "Personne — suicide"
+  },
+  {
+   "key": "case014.yard.body",
+   "value": "Caméra couvrant la porte sur cour de l’immeuble d’ateliers. 1er avril 20.30 – 23.30. La cour est sombre ; les visages sont indiscernables."
+  },
+  {
+   "key": "case014.yard.title",
+   "value": "CAMÉRA DE LA COUR DE PEREGRINE YARD — transcription du relevé"
+  },
+  {
+   "key": "case014.item.note.name",
+   "value": "Note déchirée"
+  },
+  {
+   "key": "case014.item.note.detail",
+   "value": "Une petite page arrachée d’un carnet ; quelques mots, illisibles."
+  },
+  {
+   "key": "case014.item.cups.name",
+   "value": "Deux tasses"
+  },
+  {
+   "key": "case014.item.cups.detail",
+   "value": "Deux tasses : l’une avec des traces de thé séchées, l’autre fraîchement lavée."
+  },
+  {
+   "key": "case014.item.graphite.name",
+   "value": "Page au graphite"
+  },
+  {
+   "key": "case014.item.graphite.detail",
+   "value": "Les empreintes de crayon de la page du dessous, révélées à la poudre de graphite."
+  },
+  {
+   "key": "case014.item.pinhole.name",
+   "value": "Trou d’épingle"
+  },
+  {
+   "key": "case014.item.pinhole.detail",
+   "value": "Un petit trou d’épingle dans le coin de la toile, visible sous lumière UV."
+  }
+ ]
+}
