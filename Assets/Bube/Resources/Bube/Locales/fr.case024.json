@@ -1,0 +1,644 @@
+{
+ "entries": [
+  {
+   "key": "case024.autopsy.body",
+   "value": "· Cause du décès : intoxication à la morphine ; taux sanguin environ dix fois la dose prescrite.\n· Cancer du pancréas avancé ; métastases au foie. Survie attendue de quelques semaines au plus.\n· Le cathéter à chambre implantable dans la poitrine relié à la pompe à morphine ; aucune autre trace d’aiguille.\n· L’écorchure au front est survenue peu avant le décès ; compatible avec une chute, pas avec un coup.\n· Aucun signe de lutte, aucun tissu étranger sous les ongles.\n· Heure du décès : 22.30–00.30."
+  },
+  {
+   "key": "case024.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case024.cctv.event.alone",
+   "value": "Caméra : un vieil homme seul dans le bureau éclairé ; à la table, il glisse un registre dans une enveloppe."
+  },
+  {
+   "key": "case024.cctv.event.look",
+   "value": "Caméra : l’homme regarde vers la caméra et lève la main ; l’image se coupe."
+  },
+  {
+   "key": "case024.cctv.event.smash",
+   "value": "Caméra : le même homme brise la fenêtre de l’intérieur avec les pincettes de cheminée ; le verre tombe dans le jardin."
+  },
+  {
+   "key": "case024.cctv.overlay",
+   "value": "GARDEN"
+  },
+  {
+   "key": "case024.cctv.period",
+   "value": "2 décembre 2029, 21.40 – 21.55"
+  },
+  {
+   "key": "case024.cctv.source",
+   "value": "Caméra du jardin"
+  },
+  {
+   "key": "case024.clue.alone",
+   "value": "Konrad, seul dans la pièce, glisse le registre dans une enveloppe."
+  },
+  {
+   "key": "case024.clue.cam",
+   "value": "La caméra du jardin est coupée avec le code de Konrad ; le coffre est ouvert avec sa combinaison."
+  },
+  {
+   "key": "case024.clue.dose",
+   "value": "Le verrou de la pompe est levé ; 14 doses supplémentaires par le bouton du patient."
+  },
+  {
+   "key": "case024.clue.notary",
+   "value": "Konrad dépose l’enveloppe et la modification de son testament chez le notaire."
+  },
+  {
+   "key": "case024.clue.show",
+   "value": "Pendant une nuit de douleur, Leon montre à Konrad le code de service de la pompe."
+  },
+  {
+   "key": "case024.clue.smash",
+   "value": "Konrad brise la fenêtre de l’intérieur avec les pincettes."
+  },
+  {
+   "key": "case024.clue.source.leon",
+   "value": "Infirmier à domicile"
+  },
+  {
+   "key": "case024.clue.source.notary",
+   "value": "Acte notarié"
+  },
+  {
+   "key": "case024.clue.source.panel",
+   "value": "Panneau domotique"
+  },
+  {
+   "key": "case024.clue.source.pump",
+   "value": "Journal de la pompe"
+  },
+  {
+   "key": "case024.custody.konrad",
+   "value": "Konrad Arendt lui-même — par le notaire"
+  },
+  {
+   "key": "case024.custody.label",
+   "value": "Qui a envoyé le registre à bube Berlin ?"
+  },
+  {
+   "key": "case024.custody.philipp",
+   "value": "Philipp Arendt — pour se venger de son père"
+  },
+  {
+   "key": "case024.custody.sabine",
+   "value": "Sabine Roth — elle l’a pris dans le coffre"
+  },
+  {
+   "key": "case024.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case024.epilogue.custody.konrad",
+   "value": "Le registre a été envoyé à bube Berlin par le mort lui-même ; l’instruction de l’enveloppe le disait."
+  },
+  {
+   "key": "case024.epilogue.custody.philipp",
+   "value": "On a cru que le fils avait fait fuiter le registre ; la défense l’a balayé comme une invention de sa part."
+  },
+  {
+   "key": "case024.epilogue.custody.sabine",
+   "value": "On a considéré que le registre venait des mains de Sabine ; la lettre de Konrad a été écartée comme une « manipulation »."
+  },
+  {
+   "key": "case024.epilogue.custody.unknown",
+   "value": "La façon dont le registre est arrivé à bube est restée ouverte ; la chaîne de preuves s’est rompue au tribunal."
+  },
+  {
+   "key": "case024.epilogue.verdict.konrad",
+   "value": "La mort de Konrad Arendt a été consignée comme un suicide. Le registre est allé au procureur ; onze dossiers classés, de Londres à Berlin, ont été rouverts. Le nom de la dernière page a été transmis à l’antenne de Tokyo."
+  },
+  {
+   "key": "case024.epilogue.verdict.leon",
+   "value": "Leon Fischer a été jugé pour meurtre. Le registre s’est perdu dans une note de bas de page d’une affaire « patient et infirmier »."
+  },
+  {
+   "key": "case024.epilogue.verdict.philipp",
+   "value": "Philipp Arendt a été inculpé du meurtre de son père. Pendant que le procès traînait, le registre a été jugé « fausse preuve » ; les paiements ont été transférés à Tokyo."
+  },
+  {
+   "key": "case024.epilogue.verdict.sabine",
+   "value": "Sabine Roth a été arrêtée ; les comptes luxembourgeois à son nom ont été gelés, le reste est resté."
+  },
+  {
+   "key": "case024.evidence.letter",
+   "value": "Lettre de Konrad Arendt"
+  },
+  {
+   "key": "case024.evidence.panel",
+   "value": "Panneau domotique"
+  },
+  {
+   "key": "case024.evidence.pump",
+   "value": "Journal de la pompe à morphine"
+  },
+  {
+   "key": "case024.evidence.tox",
+   "value": "Toxicologie"
+  },
+  {
+   "key": "case024.feedback.konrad",
+   "value": "Il a brisé lui-même la fenêtre de l’intérieur, ouvert la caméra et le coffre avec son propre code, levé le verrou de la pompe avec le code appris de Leon et s’est administré les doses supplémentaires ; pour que le registre parvienne à bube par le notaire."
+  },
+  {
+   "key": "case024.feedback.leon",
+   "value": "L’infirmier est parti à 20.04 ; le code était le sien, mais seules les empreintes de Konrad sont sur le bouton."
+  },
+  {
+   "key": "case024.feedback.philipp",
+   "value": "Le fils a été rayé du testament, mais il a quitté la maison à 21.00 ; la porte n’a pas été ouverte de la nuit et le journal de la pompe ne montre aucune autre main."
+  },
+  {
+   "key": "case024.feedback.sabine",
+   "value": "Sabine a apporté le relevé l’après-midi et elle est repartie ; elle n’était pas à la villa cette nuit-là."
+  },
+  {
+   "key": "case024.file.caseType",
+   "value": "SUSPICION DE MEURTRE"
+  },
+  {
+   "key": "case024.file.value.bureau",
+   "value": "BDS Berlin — Antenne de Kreuzberg"
+  },
+  {
+   "key": "case024.file.value.location",
+   "value": "Grunewald, villa Arendt — bureau"
+  },
+  {
+   "key": "case024.file.value.number",
+   "value": "BDS-BER-2029-0101"
+  },
+  {
+   "key": "case024.file.value.offence",
+   "value": "Suspicion de meurtre"
+  },
+  {
+   "key": "case024.file.value.reporter",
+   "value": "Gouvernante"
+  },
+  {
+   "key": "case024.garden.body",
+   "value": "Caméra couvrant la fenêtre du bureau côté jardin ; coupée à 21.55. 2 décembre 21.40 – 21.55."
+  },
+  {
+   "key": "case024.garden.title",
+   "value": "CAMÉRA DU JARDIN — transcription du relevé"
+  },
+  {
+   "key": "case024.ledger.body",
+   "value": "De la main de Konrad Arendt ; 1989–2029.\n\n· 2023–2029 · « G. H., Londres, enregistrement des dossiers » — mensuel ; note Tanner Lane.\n· 2027–2028 · « M. B., aviron, Köpenick » — par course.\n· 2028–2029 · « M. K., bube Berlin » — 3 000 € par mois.\n· 2029 · « İ. médias, Kreuzberg » — ligne éditoriale.\n· Dernière page : « Acheteur : Kisaragi Shōji, Tokyo — toutes les lignes à transférer, janvier 2030. »"
+  },
+  {
+   "key": "case024.ledger.title",
+   "value": "REGISTRE — LIGNES CHOISIES"
+  },
+  {
+   "key": "case024.leon.body",
+   "value": "Infirmier à domicile."
+  },
+  {
+   "key": "case024.leon.code.answer",
+   "value": "Avec le menu de service. Je… le lui ai montré une fois. Le mois dernier, la douleur de nuit était insupportable, il m’a appelé ; « la prochaine fois, laisse-moi le faire avant que tu arrives », il a dit. Je n’aurais pas dû."
+  },
+  {
+   "key": "case024.leon.code.answer.demeanor",
+   "value": "Pâlit."
+  },
+  {
+   "key": "case024.leon.code.question",
+   "value": "Peut-on contourner le verrou ?"
+  },
+  {
+   "key": "case024.leon.deflect",
+   "value": "Il y a le secret médical."
+  },
+  {
+   "key": "case024.leon.pump.answer",
+   "value": "Une faible dose continue, et quand la douleur augmente, une dose supplémentaire avec le bouton dans la main du patient. Verrouillé : au maximum deux doses supplémentaires par heure. Je l’ai vérifiée à huit heures du soir ; tout était normal."
+  },
+  {
+   "key": "case024.leon.pump.answer.demeanor",
+   "value": "Assuré."
+  },
+  {
+   "key": "case024.leon.pump.question",
+   "value": "Comment fonctionnait la pompe ?"
+  },
+  {
+   "key": "case024.leon.title",
+   "value": "Leon Fischer — audition"
+  },
+  {
+   "key": "case024.leon_2.body",
+   "value": "Sur le journal de la pompe."
+  },
+  {
+   "key": "case024.leon_2.code.answer",
+   "value": "Ce soir-là, je suis parti à huit heures, j’étais chez moi à Neukölln, ma copine… Ce n’est pas moi. Mais je lui ai donné le code. Ça compte pour quelque chose, non ?"
+  },
+  {
+   "key": "case024.leon_2.code.answer.demeanor",
+   "value": "Pleure."
+  },
+  {
+   "key": "case024.leon_2.code.question",
+   "value": "Le verrou a été levé avec votre code de service."
+  },
+  {
+   "key": "case024.leon_2.title",
+   "value": "Leon Fischer — seconde audition"
+  },
+  {
+   "key": "case024.letter.body",
+   "value": "« À bube Berlin,\n\nSi la mort d’un vieil homme est jugée naturelle, personne ne regarde dans son coffre. Si elle est jugée comme un meurtre, tout le monde le fait. Mon fils brûlerait le registre ; Sabine le ferait disparaître ; les hommes que j’entretenais avec de l’argent sont même parmi vous. J’ai nourri Matthias Kern ; j’ai tué Clara Weiß, pas de ma main mais de mon argent.\n\nJ’ai brisé la vitre pour que vous veniez. J’ai coupé la caméra pour que personne ne soit accusé ; pour que vous voyiez mon visage sur la dernière image. J’ai pris le code de la pompe à Leon ; ce garçon n’est responsable de rien.\n\nLe registre passe par Londres, Berlin, Rostock. Sa dernière page s’achève à Tokyo. Je suis trop vieux pour y aller.\n\nK. A. »"
+  },
+  {
+   "key": "case024.letter.title",
+   "value": "LETTRE DE KONRAD ARENDT"
+  },
+  {
+   "key": "case024.marta.body",
+   "value": "Gouvernante."
+  },
+  {
+   "key": "case024.marta.deflect",
+   "value": "Je ne me suis jamais mêlée des affaires de Monsieur."
+  },
+  {
+   "key": "case024.marta.night.answer",
+   "value": "Monsieur m’a envoyée me coucher à 21.30. « Repose-toi ce soir, Marta, demain sera une longue journée », il a dit. Pas une fois en trente ans il n’avait dit ça. Ensuite j’ai dormi ; je n’ai rien entendu."
+  },
+  {
+   "key": "case024.marta.night.answer.demeanor",
+   "value": "Serre son mouchoir."
+  },
+  {
+   "key": "case024.marta.night.question",
+   "value": "Que s’est-il passé hier soir ?"
+  },
+  {
+   "key": "case024.marta.quote",
+   "value": "« Demain sera une longue journée. »"
+  },
+  {
+   "key": "case024.marta.title",
+   "value": "Marta Nowak — audition"
+  },
+  {
+   "key": "case024.marta.visit.answer",
+   "value": "Monsieur Philipp est venu dîner ; ils ont crié ; il est parti à 21.00. Madame Sabine l’après-midi. L’infirmier Leon vient tous les soirs à 20.00, vérifie la pompe et repart."
+  },
+  {
+   "key": "case024.marta.visit.question",
+   "value": "Qui est venu à la maison ce soir-là ?"
+  },
+  {
+   "key": "case024.method.injected",
+   "value": "Quelqu’un a injecté de la morphine de l’extérieur"
+  },
+  {
+   "key": "case024.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case024.method.natural",
+   "value": "Mort naturelle due à sa maladie"
+  },
+  {
+   "key": "case024.method.pump",
+   "value": "Il a levé le verrou de la pompe et s’est administré la morphine"
+  },
+  {
+   "key": "case024.method.struck",
+   "value": "Il a été frappé à la tête au cours d’une lutte"
+  },
+  {
+   "key": "case024.notary.body",
+   "value": "Une étude notariale fictive de Charlottenburg. L’enveloppe a été déposée en personne par Konrad Arendt le 2 décembre 2029 à 18.10 ; le clerc du notaire a appelé un coursier le matin du 3 décembre.\n\nInstruction : « Si ma mort est jugée suspecte, à bube Berlin — Kreuzberg. Si elle est jugée naturelle, à détruire. »\n\nModification du testament signée le même jour : la part de Philipp Arendt à la fondation ; l’entreprise à liquider.\n\nDans l’enveloppe : un registre de quarante ans et une lettre."
+  },
+  {
+   "key": "case024.notary.title",
+   "value": "ACTE NOTARIÉ ET ENVELOPPE SCELLÉE"
+  },
+  {
+   "key": "case024.offer.subtitle",
+   "value": "LE REGISTRE  /  SUSPICION DE MEURTRE"
+  },
+  {
+   "key": "case024.offer.summary",
+   "value": "Le fondateur d’Arendt Handelsgesellschaft est retrouvé mort dans sa villa de Grunewald : une fenêtre brisée, un coffre vide, une caméra coupée. Le dossier arrive à l’antenne dans l’enveloppe scellée d’un notaire — adressée uniquement à bube Berlin."
+  },
+  {
+   "key": "case024.offer.title",
+   "value": "DOSSIER #024"
+  },
+  {
+   "key": "case024.panel.body",
+   "value": "· 21.31 · chambre de Marta Nowak : lumière éteinte.\n· 21.52 · alarme de la fenêtre du jardin : bris.\n· 21.55 · caméra du jardin coupée ; code utilisé : Konrad Arendt.\n· 21.58 · coffre ouvert ; la combinaison utilisée n’est connue que de Konrad Arendt.\n· 22.40 · serrure de la porte d’entrée en mode nuit ; aucune ouverture."
+  },
+  {
+   "key": "case024.panel.title",
+   "value": "JOURNAL DU PANNEAU DOMOTIQUE"
+  },
+  {
+   "key": "case024.person.leon.info",
+   "value": "35 ans, infirmier à domicile ; s’occupe de Konrad Arendt depuis trois mois."
+  },
+  {
+   "key": "case024.person.leon.name",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.person.marta.info",
+   "value": "61 ans, gouvernante de la villa ; trente ans aux côtés de Konrad."
+  },
+  {
+   "key": "case024.person.marta.name",
+   "value": "Marta Nowak"
+  },
+  {
+   "key": "case024.person.philipp.info",
+   "value": "43 ans, le fils de Konrad Arendt ; vice-président du conseil d’Arendt Handelsgesellschaft."
+  },
+  {
+   "key": "case024.person.philipp.name",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.person.sabine.info",
+   "value": "56 ans, directrice financière de l’entreprise ; vingt-cinq ans aux côtés de Konrad."
+  },
+  {
+   "key": "case024.person.sabine.name",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.philipp.body",
+   "value": "Le fils."
+  },
+  {
+   "key": "case024.philipp.deflect",
+   "value": "Nos avocats vous parleront."
+  },
+  {
+   "key": "case024.philipp.dinner.answer",
+   "value": "Il a dit qu’il ne me laisserait pas l’entreprise. « Je ne laisse l’entreprise à personne ; je vais la liquider », il a dit. La maladie lui avait pris la tête. Je suis parti à neuf heures ; j’étais dans un bar à Mitte jusqu’à minuit."
+  },
+  {
+   "key": "case024.philipp.dinner.answer.demeanor",
+   "value": "Contient à peine sa colère."
+  },
+  {
+   "key": "case024.philipp.dinner.question",
+   "value": "Pourquoi vous êtes-vous disputé avec votre père ?"
+  },
+  {
+   "key": "case024.philipp.safe.answer",
+   "value": "Le registre de mon père. Quarante ans. Chaque paiement, chaque « consultant ». Celui qui l’a pris, c’est quelqu’un qui a besoin de ce registre. Pas moi ; j’en ai déjà une copie… j’en avais une."
+  },
+  {
+   "key": "case024.philipp.safe.question",
+   "value": "Qu’y avait-il dans le coffre ?"
+  },
+  {
+   "key": "case024.philipp.title",
+   "value": "Philipp Arendt — audition"
+  },
+  {
+   "key": "case024.philipp_2.body",
+   "value": "Sur la modification du testament."
+  },
+  {
+   "key": "case024.philipp_2.title",
+   "value": "Philipp Arendt — seconde audition"
+  },
+  {
+   "key": "case024.philipp_2.will.answer",
+   "value": "Je le savais. Il me l’a dit au dîner. C’est pour ça que j’ai crié. Mais le tuer ? Il mourait de toute façon. J’aurais attendu quelques semaines ; les avocats auraient réglé ça. Ne pas attendre… il n’y a que lui pour faire ça."
+  },
+  {
+   "key": "case024.philipp_2.will.answer.demeanor",
+   "value": "Pour la première fois, la voix se brise."
+  },
+  {
+   "key": "case024.philipp_2.will.question",
+   "value": "Ce jour-là, votre père vous a rayé de son testament."
+  },
+  {
+   "key": "case024.pump.body",
+   "value": "Patient : Konrad Arendt. Infirmier : Leon Fischer (dernière vérification le 2 décembre à 20.04).\n\n· 22.12 · menu de service ouvert ; verrou désactivé. Code : le code de service que Leon Fischer a montré au patient en novembre.\n· 22.14–22.31 · 14 doses supplémentaires par le bouton du patient.\n· 22.33 · menu de service fermé ; verrou réactivé.\n· La pompe enregistre selon sa propre horloge ; aucun accès à distance."
+  },
+  {
+   "key": "case024.pump.title",
+   "value": "JOURNAL DE LA POMPE À MORPHINE"
+  },
+  {
+   "key": "case024.recon.r_camera",
+   "value": "Il montre son visage à la caméra et la coupe avec son propre code."
+  },
+  {
+   "key": "case024.recon.r_clara",
+   "value": "En lisant la nouvelle de la mort de Clara Weiß, Konrad dit « mon argent a tué une femme » et demande le relevé luxembourgeois."
+  },
+  {
+   "key": "case024.recon.r_code",
+   "value": "Konrad apprend de Leon le code de service de la pompe pendant une nuit de douleur."
+  },
+  {
+   "key": "case024.recon.r_dose",
+   "value": "Il lève le verrou de la pompe et s’administre les quatorze doses supplémentaires ; en tombant, il se heurte le front."
+  },
+  {
+   "key": "case024.recon.r_marta",
+   "value": "Il envoie Marta se coucher tôt et se dispute avec Philipp au dîner ; Philipp part à 21.00."
+  },
+  {
+   "key": "case024.recon.r_notary",
+   "value": "Le 2 décembre, il dépose chez le notaire le registre, la lettre et la modification de son testament ; instruction : si la mort est suspecte, à bube Berlin."
+  },
+  {
+   "key": "case024.recon.r_window",
+   "value": "Il brise la fenêtre de l’intérieur avec les pincettes, ouvre et vide le coffre, éparpille les dossiers."
+  },
+  {
+   "key": "case024.report.body",
+   "value": "Le 3 décembre 2029 à 07.10, Konrad Arendt (71 ans), fondateur d’Arendt Handelsgesellschaft, a été retrouvé mort dans le bureau de sa villa de Grunewald. Découvert par la gouvernante, Marta Nowak.\n\nLa pièce en désordre : une chaise renversée, une fenêtre du jardin brisée, une écorchure au front, des dossiers éparpillés par terre. Le coffre ouvert et vide. La caméra du jardin coupée à 21.55.\n\nNote : le dossier est parvenu à bube Berlin non par le canal habituel mais dans une enveloppe scellée qu’un notaire a envoyée à l’antenne. Sur l’enveloppe : « Si la mort de Konrad Arendt est jugée suspecte, à remettre uniquement à bube Berlin — Antenne de Kreuzberg. »"
+  },
+  {
+   "key": "case024.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case024.request.notary",
+   "value": "Demander l’enveloppe et l’acte à l’étude notariale"
+  },
+  {
+   "key": "case024.request.panel",
+   "value": "Demander le journal du panneau domotique"
+  },
+  {
+   "key": "case024.request.pump",
+   "value": "Demander le journal de la pompe à morphine"
+  },
+  {
+   "key": "case024.request.tox",
+   "value": "Demander une toxicologie et une comparaison de la chambre implantable"
+  },
+  {
+   "key": "case024.sabine.body",
+   "value": "Directrice financière."
+  },
+  {
+   "key": "case024.sabine.deflect",
+   "value": "Les informations de l’entreprise sont confidentielles."
+  },
+  {
+   "key": "case024.sabine.fear.answer",
+   "value": "Une analyste est morte à Berlin, en novembre. Quand Konrad a lu la nouvelle, il n’a pas parlé pendant une heure. Puis il m’a dit : « Mon argent a tué une femme. »"
+  },
+  {
+   "key": "case024.sabine.fear.question",
+   "value": "Y avait-il quelque chose de différent ces dernières semaines ?"
+  },
+  {
+   "key": "case024.sabine.title",
+   "value": "Sabine Roth — audition"
+  },
+  {
+   "key": "case024.sabine.visit.answer",
+   "value": "Konrad m’a appelée. Il voulait le relevé des comptes luxembourgeois, tout, depuis 2018. « Je veux tout mettre en ordre une dernière fois », il a dit. Je le lui ai donné."
+  },
+  {
+   "key": "case024.sabine.visit.answer.demeanor",
+   "value": "Assise bien droite, voix plate."
+  },
+  {
+   "key": "case024.sabine.visit.question",
+   "value": "Pourquoi êtes-vous venue l’après-midi ?"
+  },
+  {
+   "key": "case024.scene.body",
+   "value": "· Le verre de la fenêtre du jardin est dehors, sur la pelouse ; la fenêtre a été brisée de l’intérieur. Des éclats de verre sur les pincettes de cheminée en fer.\n· Le coffre a été ouvert avec la combinaison ; pas d’effraction.\n· Les dossiers éparpillés sont les rapports annuels 2027–2029 de l’entreprise ; aucun ne manque.\n· La caméra du jardin a été coupée depuis le panneau de contrôle à l’intérieur de la maison."
+  },
+  {
+   "key": "case024.scene.title",
+   "value": "EXAMEN DES LIEUX"
+  },
+  {
+   "key": "case024.summary.evidence",
+   "value": "L’examen des lieux a montré que la vitre avait été brisée de l’intérieur et que le coffre n’avait pas été forcé. Le panneau domotique a montré le propre code de Konrad pour la caméra et le coffre, et les dernières images de la caméra du jardin le montraient seul. Le journal de la pompe et la toxicologie ont prouvé que la morphine venait uniquement de son bouton ; l’acte notarié et la lettre ont expliqué pourquoi."
+  },
+  {
+   "key": "case024.summary.lesson",
+   "value": "Une scène n’est pas toujours celle d’un auteur ; parfois le mort met en scène sa propre mort comme un message. Demandez qui l’a construite, et à qui elle devait parvenir."
+  },
+  {
+   "key": "case024.summary.location",
+   "value": "Grunewald, villa Arendt — décembre 2029"
+  },
+  {
+   "key": "case024.summary.truth",
+   "value": "Quand Konrad Arendt, malade en phase terminale, a appris que son argent avait fait tuer une analyste de bube en novembre, il a décidé de livrer son registre de quarante ans ; mais il savait qu’après une mort naturelle personne ne regarderait dans son coffre, et que son fils brûlerait le registre. Le 2 décembre, il a déposé le registre chez un notaire, avec une instruction : si la mort est suspecte, à bube Berlin. Cette nuit-là, il a brisé la fenêtre de l’intérieur, vidé le coffre, montré son visage à la caméra puis l’a coupée, et, en levant le verrou de la pompe avec le code appris de son infirmier, s’est administré quatorze doses supplémentaires."
+  },
+  {
+   "key": "case024.suspect.label",
+   "value": "Qui est responsable de la mort de Konrad Arendt ?"
+  },
+  {
+   "key": "case024.tablet.caseLine",
+   "value": "DOSSIER #024  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case024.time.alone",
+   "value": "21.48"
+  },
+  {
+   "key": "case024.time.cam",
+   "value": "21.55"
+  },
+  {
+   "key": "case024.time.dose",
+   "value": "22.12–22.33"
+  },
+  {
+   "key": "case024.time.look",
+   "value": "21.54"
+  },
+  {
+   "key": "case024.time.notary",
+   "value": "2 déc. 18.10"
+  },
+  {
+   "key": "case024.time.show",
+   "value": "Nov. 2029"
+  },
+  {
+   "key": "case024.time.smash",
+   "value": "21.52"
+  },
+  {
+   "key": "case024.title",
+   "value": "Dossier #024 — Le registre"
+  },
+  {
+   "key": "case024.tox.body",
+   "value": "Toute la morphine a été administrée par la ligne de la pompe, via la chambre implantable ; la perte du réservoir correspond au taux sanguin. Aucune injection extérieure. Seules les empreintes de Konrad Arendt sur le bouton du patient."
+  },
+  {
+   "key": "case024.tox.title",
+   "value": "TOXICOLOGIE ET COMPARAISON DE LA CHAMBRE IMPLANTABLE"
+  },
+  {
+   "key": "case024.verdict.konrad",
+   "value": "Konrad Arendt — il a mis en scène sa propre mort comme un meurtre"
+  },
+  {
+   "key": "case024.verdict.leon",
+   "value": "Leon Fischer"
+  },
+  {
+   "key": "case024.verdict.philipp",
+   "value": "Philipp Arendt"
+  },
+  {
+   "key": "case024.verdict.sabine",
+   "value": "Sabine Roth"
+  },
+  {
+   "key": "case024.item.ledger.name",
+   "value": "Registre"
+  },
+  {
+   "key": "case024.item.ledger.detail",
+   "value": "Un épais et vieux registre relié de cuir."
+  },
+  {
+   "key": "case024.item.pump.name",
+   "value": "Pompe à perfusion"
+  },
+  {
+   "key": "case024.item.pump.detail",
+   "value": "Une pompe à médicament avec un bouton à main."
+  },
+  {
+   "key": "case024.item.poker.name",
+   "value": "Pincettes de cheminée"
+  },
+  {
+   "key": "case024.item.poker.detail",
+   "value": "Des pincettes de cheminée avec des éclats de verre au bout."
+  },
+  {
+   "key": "case024.item.envelope.name",
+   "value": "Enveloppe scellée"
+  },
+  {
+   "key": "case024.item.envelope.detail",
+   "value": "Une enveloppe crème scellée à la cire rouge."
+  }
+ ]
+}

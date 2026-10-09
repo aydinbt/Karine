@@ -1,0 +1,596 @@
+{
+ "entries": [
+  {
+   "key": "case023.autopsy.body",
+   "value": "· Cause du décès : strangulation au lien ; une marque de sangle tissée et plate de 1,5 cm de large sur le cou.\n· Heure du décès : 7 novembre 22.30–23.30.\n· Fibres de polyester tissé bleues dans la marque du lien.\n· Aucune blessure de défense ; par-derrière, en position assise.\n· Désordre post-mortem sur le canapé et autour ; les tiroirs ont été fouillés des heures après le décès (traces de poussière et de sang ne se recouvrent pas)."
+  },
+  {
+   "key": "case023.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case023.cctv.event.in",
+   "value": "Caméra : un homme grand, capuche sur la tête, ouvre la porte sans sonner ; la porte a été ouverte de l’intérieur. Un cordon porte-badge autour du cou."
+  },
+  {
+   "key": "case023.cctv.event.none",
+   "value": "Caméra : l’entrée est vide ; personne n’entre jusqu’à 03.00."
+  },
+  {
+   "key": "case023.cctv.event.out",
+   "value": "Caméra : le même homme sort ; rien dans les mains, pas de cordon."
+  },
+  {
+   "key": "case023.cctv.overlay",
+   "value": "DOOR"
+  },
+  {
+   "key": "case023.cctv.period",
+   "value": "7–8 novembre 2029"
+  },
+  {
+   "key": "case023.cctv.source",
+   "value": "Caméra de l’entrée"
+  },
+  {
+   "key": "case023.cell.body",
+   "value": "Demandé par : bube Berlin, avec l’accord de la cheffe d’antenne.\n\n· 7 novembre 22.31–23.26 · le téléphone de Matthias Kern sur la cellule de Friedrichshain, Krossener Straße.\n· 23.48 · Wedding.\n\nKern avait dit « J’étais chez moi à Wedding »."
+  },
+  {
+   "key": "case023.cell.title",
+   "value": "RELEVÉ DE CELLULE — MATTHIAS KERN"
+  },
+  {
+   "key": "case023.cloud.body",
+   "value": "L’ordinateur portable a été récupéré chez Kevin Schulz ; les fichiers locaux n’avaient pas été supprimés, mais la vraie trace est dans le cloud.\n\n· 7 novembre 22.51 · dernier fichier téléversé : « Arendt — source interne.docx »\n· Contenu : 3 000 € par mois depuis 2028, d’un compte luxembourgeois d’Arendt Handelsgesellschaft vers Matthias Kern ; note de Clara : « Le dossier de Holt a disparu à l’enregistrement ; des dossiers disparaissent aussi à Berlin. Ute demain. »\n· 22.53 · tentative de déconnexion depuis l’ordinateur, échouée."
+  },
+  {
+   "key": "case023.cloud.title",
+   "value": "JOURNAL DE SYNCHRONISATION CLOUD — CLARA WEISS"
+  },
+  {
+   "key": "case023.clue.burglar",
+   "value": "Kevin Schulz entre par la porte-fenêtre du balcon restée ouverte ; trouve la femme morte."
+  },
+  {
+   "key": "case023.clue.in",
+   "value": "Un homme encapuchonné avec un cordon porte-badge entre dans l’immeuble."
+  },
+  {
+   "key": "case023.clue.note",
+   "value": "Kern liste les prochains immeubles de la série de cambriolages ; celui de Clara y figure."
+  },
+  {
+   "key": "case023.clue.out",
+   "value": "Le même homme sort ; sans cordon."
+  },
+  {
+   "key": "case023.clue.source.cloud",
+   "value": "Synchronisation cloud"
+  },
+  {
+   "key": "case023.clue.source.ilse",
+   "value": "Voisine du dessous"
+  },
+  {
+   "key": "case023.clue.source.kevin",
+   "value": "Le cambrioleur"
+  },
+  {
+   "key": "case023.clue.source.series",
+   "value": "Dossier de la série de cambriolages"
+  },
+  {
+   "key": "case023.clue.upload",
+   "value": "Clara téléverse le fichier « Arendt — source interne » dans le cloud."
+  },
+  {
+   "key": "case023.clue.voice",
+   "value": "En dessous : « Donne-moi le dossier… ne va pas voir Ute demain. »"
+  },
+  {
+   "key": "case023.custody.label",
+   "value": "Que s’est-il passé dans l’appartement cette nuit-là ?"
+  },
+  {
+   "key": "case023.custody.one",
+   "value": "Un seul événement — meurtre pendant un cambriolage"
+  },
+  {
+   "key": "case023.custody.staged",
+   "value": "Le cambriolage n’a jamais eu lieu ; il a été mis en scène"
+  },
+  {
+   "key": "case023.custody.two",
+   "value": "Deux événements distincts — d’abord le meurtre, le cambriolage des heures plus tard"
+  },
+  {
+   "key": "case023.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case023.door.body",
+   "value": "La porte d’entrée de l’immeuble ; elle ne voit pas le côté des balcons. Du 7 novembre 22.00 au 8 novembre 03.00."
+  },
+  {
+   "key": "case023.door.title",
+   "value": "CAMÉRA DE L’ENTRÉE DE L’IMMEUBLE — transcription du relevé"
+  },
+  {
+   "key": "case023.epilogue.custody.one",
+   "value": "Le cambriolage et le décès ont été traités comme un seul événement ; la vraie heure est sortie du dossier."
+  },
+  {
+   "key": "case023.epilogue.custody.staged",
+   "value": "Le vrai cambriolage a été écarté ; les aveux de Schulz et l’ordinateur vendu sont restés inexpliqués."
+  },
+  {
+   "key": "case023.epilogue.custody.two",
+   "value": "Le cambriolage et le meurtre ont été consignés séparément ; le meurtre a été retiré du dossier de Schulz."
+  },
+  {
+   "key": "case023.epilogue.custody.unknown",
+   "value": "L’ordre des événements est resté ouvert."
+  },
+  {
+   "key": "case023.epilogue.verdict.kevin",
+   "value": "Kevin Schulz a été condamné pour meurtre. Matthias Kern a repris le bureau de Clara ; le dossier Arendt s’est refermé entre ses mains."
+  },
+  {
+   "key": "case023.epilogue.verdict.matthias",
+   "value": "Matthias Kern a été arrêté pour meurtre ; les paiements d’Arendt sont allés au procureur. Kevin Schulz a été jugé pour onze cambriolages, pas pour meurtre."
+  },
+  {
+   "key": "case023.epilogue.verdict.nobody",
+   "value": "Le dossier a été classé comme « décès pendant un cambriolage »."
+  },
+  {
+   "key": "case023.epilogue.verdict.ute",
+   "value": "Ute Sommer a été suspendue ; l’enquête interne de l’antenne a été confiée à Matthias Kern."
+  },
+  {
+   "key": "case023.evidence.cell",
+   "value": "Relevé de cellule de Kern"
+  },
+  {
+   "key": "case023.evidence.cloud",
+   "value": "Journal de synchronisation cloud"
+  },
+  {
+   "key": "case023.evidence.fibre",
+   "value": "Comparaison des fibres du cordon"
+  },
+  {
+   "key": "case023.evidence.series",
+   "value": "Dossier de la série de cambriolages"
+  },
+  {
+   "key": "case023.feedback.kevin",
+   "value": "Le cambrioleur est entré des heures après le décès, à 02.00 ; dans aucun des onze faits de la série il n’avait touché quelqu’un."
+  },
+  {
+   "key": "case023.feedback.matthias",
+   "value": "Le relevé de cellule et la caméra de l’entrée le placent dans l’immeuble à l’heure du décès ; la peau de Clara est sur son cordon ; il touchait de l’argent d’Arendt et savait par son propre dossier que le cambrioleur viendrait."
+  },
+  {
+   "key": "case023.feedback.nobody",
+   "value": "La marque du lien montre une strangulation ; pas un accident."
+  },
+  {
+   "key": "case023.feedback.ute",
+   "value": "Le message à la cheffe parlait de se voir le lendemain matin ; ce n’est pas elle qui était dans l’immeuble cette nuit-là."
+  },
+  {
+   "key": "case023.fibre.body",
+   "value": "Les fibres de polyester tissé bleues prélevées sur le cou ont le même tissage que les cordons porte-badge du personnel de bube Berlin. Le cordon que Matthias Kern a remplacé le 8 novembre en disant l’avoir « perdu » a été retrouvé dans la poubelle de son domicile à Wedding : le tissage déchiré, des cellules de peau de Clara Weiß dessus."
+  },
+  {
+   "key": "case023.fibre.title",
+   "value": "COMPARAISON DE FIBRES — CORDON PORTE-BADGE"
+  },
+  {
+   "key": "case023.file.caseType",
+   "value": "MEURTRE"
+  },
+  {
+   "key": "case023.file.value.bureau",
+   "value": "BDS Berlin — Antenne de Kreuzberg"
+  },
+  {
+   "key": "case023.file.value.location",
+   "value": "Friedrichshain, appartement — 3e étage"
+  },
+  {
+   "key": "case023.file.value.number",
+   "value": "BDS-BER-2029-0094"
+  },
+  {
+   "key": "case023.file.value.offence",
+   "value": "Meurtre ; cambriolage"
+  },
+  {
+   "key": "case023.file.value.reporter",
+   "value": "Ute Sommer, cheffe d’antenne"
+  },
+  {
+   "key": "case023.ilse.balcony.answer",
+   "value": "À deux heures du matin, un bruit sur le balcon. Un cambrioleur, je me suis dit ; toutes les semaines dans ce quartier. Je ne me suis toujours pas levée."
+  },
+  {
+   "key": "case023.ilse.balcony.question",
+   "value": "Autre chose ?"
+  },
+  {
+   "key": "case023.ilse.body",
+   "value": "La voisine du dessous."
+  },
+  {
+   "key": "case023.ilse.deflect",
+   "value": "Je suis une vieille femme, je dors."
+  },
+  {
+   "key": "case023.ilse.title",
+   "value": "Ilse Brück — audition"
+  },
+  {
+   "key": "case023.ilse.voices.answer",
+   "value": "À dix heures et quart, une voix d’homme en haut. Il ne criait pas, on aurait dit qu’il parlait affaires. « Donne-moi le dossier », il a dit, et « ne va pas voir Ute demain ». Puis le silence. Alors j’ai allumé la télévision."
+  },
+  {
+   "key": "case023.ilse.voices.answer.demeanor",
+   "value": "Sûre d’elle."
+  },
+  {
+   "key": "case023.ilse.voices.question",
+   "value": "Avez-vous entendu quelque chose cette nuit-là ?"
+  },
+  {
+   "key": "case023.kevin.body",
+   "value": "L’auteur de la série de cambriolages."
+  },
+  {
+   "key": "case023.kevin.dead.answer",
+   "value": "En sortant, j’ai braqué la lampe sur son visage. Ses yeux étaient ouverts. J’ai couru. Je suis cambrioleur, pas tueur. Je n’ai jamais touché personne dans aucune maison ; regardez votre dossier."
+  },
+  {
+   "key": "case023.kevin.dead.question",
+   "value": "Vous n’avez pas remarqué qu’elle était morte ?"
+  },
+  {
+   "key": "case023.kevin.deflect",
+   "value": "Je ne parlerai pas de meurtre sans mon avocat."
+  },
+  {
+   "key": "case023.kevin.night.answer",
+   "value": "Vers deux heures du matin. La porte du balcon était ouverte, laissée ouverte ; je ne l’ai même pas forcée. La femme était sur le canapé, je croyais qu’elle dormait. J’ai fouillé les tiroirs et j’ai pris l’ordinateur."
+  },
+  {
+   "key": "case023.kevin.night.answer.demeanor",
+   "value": "Parle vite."
+  },
+  {
+   "key": "case023.kevin.night.question",
+   "value": "Quand êtes-vous entré dans l’appartement de Clara Weiß ?"
+  },
+  {
+   "key": "case023.kevin.quote",
+   "value": "« La porte du balcon était ouverte ; je ne l’ai même pas forcée. »"
+  },
+  {
+   "key": "case023.kevin.title",
+   "value": "Kevin Schulz — audition"
+  },
+  {
+   "key": "case023.matthias.body",
+   "value": "Collègue d’équipe."
+  },
+  {
+   "key": "case023.matthias.deflect",
+   "value": "Clara était mon amie. Que vous me demandiez ça…"
+  },
+  {
+   "key": "case023.matthias.night.answer",
+   "value": "Chez moi, à Wedding. Je me suis couché tôt. Clara et moi, on s’est parlé pour la dernière fois l’après-midi, à l’antenne."
+  },
+  {
+   "key": "case023.matthias.night.answer.demeanor",
+   "value": "Calme, trop calme."
+  },
+  {
+   "key": "case023.matthias.night.question",
+   "value": "Où étiez-vous le soir du 7 novembre ?"
+  },
+  {
+   "key": "case023.matthias.series.answer",
+   "value": "Oui. Schulz. Il entre par les balcons, ne touche jamais personne… d’habitude. Cette fois, la femme a dû se réveiller."
+  },
+  {
+   "key": "case023.matthias.series.question",
+   "value": "La série de cambriolages, c’est votre dossier."
+  },
+  {
+   "key": "case023.matthias.title",
+   "value": "Matthias Kern — audition"
+  },
+  {
+   "key": "case023.matthias_2.body",
+   "value": "Sur le relevé de cellule et le journal du cloud."
+  },
+  {
+   "key": "case023.matthias_2.door.answer",
+   "value": "…Je ne sais pas."
+  },
+  {
+   "key": "case023.matthias_2.door.question",
+   "value": "Qui a laissé la porte du balcon ouverte ?"
+  },
+  {
+   "key": "case023.matthias_2.money.answer",
+   "value": "Du conseil. Un vieux boulot."
+  },
+  {
+   "key": "case023.matthias_2.money.question",
+   "value": "Arendt vous envoie trois mille euros chaque mois."
+  },
+  {
+   "key": "case023.matthias_2.title",
+   "value": "Matthias Kern — seconde audition"
+  },
+  {
+   "key": "case023.matthias_2.where.answer",
+   "value": "Je suis passé. Pour parler d’un dossier. Elle était vivante quand je suis parti."
+  },
+  {
+   "key": "case023.matthias_2.where.answer.demeanor",
+   "value": "Sans ciller."
+  },
+  {
+   "key": "case023.matthias_2.where.question",
+   "value": "Votre téléphone est dans la rue de Clara Weiß entre 22.31 et 23.26."
+  },
+  {
+   "key": "case023.matthias_3.body",
+   "value": "Sur le cordon porte-badge."
+  },
+  {
+   "key": "case023.matthias_3.title",
+   "value": "Matthias Kern — troisième audition"
+  },
+  {
+   "key": "case023.matthias_3.truth.answer",
+   "value": "Elle m’a donné une nuit. « Va voir Ute toi-même, sinon c’est moi qui irai. » Si j’y étais allé, mes dix ans étaient finis. J’étais derrière elle, le cordon était autour de mon cou… Ensuite, j’ai ouvert la porte du balcon. J’avais écrit moi-même le prochain immeuble de la série ; je savais que Schulz viendrait. Il viendrait, il mettrait tout sens dessus dessous, vous le trouveriez. Et vous l’avez trouvé."
+  },
+  {
+   "key": "case023.matthias_3.truth.answer.demeanor",
+   "value": "Pose les mains à plat sur la table."
+  },
+  {
+   "key": "case023.matthias_3.truth.question",
+   "value": "La peau de Clara Weiß est sur votre cordon."
+  },
+  {
+   "key": "case023.method.burglar",
+   "value": "Elle s’est réveillée et a été étranglée à mains nues par le cambrioleur"
+  },
+  {
+   "key": "case023.method.fall",
+   "value": "Elle est tombée et s’est cogné la tête"
+  },
+  {
+   "key": "case023.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case023.method.lanyard",
+   "value": "Elle a été étranglée par-derrière avec un cordon porte-badge, en position assise"
+  },
+  {
+   "key": "case023.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case023.offer.subtitle",
+   "value": "LE CAMBRIOLEUR  /  MEURTRE"
+  },
+  {
+   "key": "case023.offer.summary",
+   "value": "Une analyste de bube Berlin est retrouvée morte dans son appartement saccagé. Le même jour, le cambrioleur des balcons du quartier est arrêté en train de vendre son ordinateur portable. Le dossier semble clos."
+  },
+  {
+   "key": "case023.offer.title",
+   "value": "DOSSIER #023"
+  },
+  {
+   "key": "case023.person.ilse.info",
+   "value": "73 ans, voisine du dessous de Clara Weiß."
+  },
+  {
+   "key": "case023.person.ilse.name",
+   "value": "Ilse Brück"
+  },
+  {
+   "key": "case023.person.kevin.info",
+   "value": "29 ans, l’auteur recherché de la série de cambriolages par les balcons à Friedrichshain ; arrêté en vendant l’ordinateur portable."
+  },
+  {
+   "key": "case023.person.kevin.name",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.person.matthias.info",
+   "value": "38 ans, analyste à bube Berlin ; collègue d’équipe de Clara Weiß, chargé du dossier de la série de cambriolages."
+  },
+  {
+   "key": "case023.person.matthias.name",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.person.ute.info",
+   "value": "54 ans, cheffe de bube Berlin — Antenne de Kreuzberg."
+  },
+  {
+   "key": "case023.person.ute.name",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.report.body",
+   "value": "Le 8 novembre 2029 à 08.40 à Friedrichshain, l’analyste de bube Berlin Clara Weiß (34 ans) a été retrouvée morte sur le canapé de son appartement au troisième étage. Comme elle ne venait pas au travail, la cheffe d’antenne Ute Sommer a appelé ; faute de réponse, le gardien a ouvert la porte.\n\nL’appartement saccagé, la porte du balcon ouverte, l’ordinateur portable disparu. Note de la patrouille : « Identique à la série de cambriolages par les balcons qui dure depuis deux mois dans le quartier. Le cambrioleur a surpris Clara endormie et l’a étranglée quand elle s’est réveillée. »\n\n8 novembre, après-midi : Kevin Schulz a été arrêté en train de vendre l’ordinateur portable de Clara Weiß dans une boutique d’occasion."
+  },
+  {
+   "key": "case023.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case023.request.cell",
+   "value": "Demander le relevé de cellule de Kern"
+  },
+  {
+   "key": "case023.request.cloud",
+   "value": "Demander le journal de synchronisation cloud de Clara Weiß"
+  },
+  {
+   "key": "case023.request.fibre",
+   "value": "Demander l’ancien cordon porte-badge de Kern"
+  },
+  {
+   "key": "case023.request.series",
+   "value": "Demander le dossier de la série de cambriolages"
+  },
+  {
+   "key": "case023.series.body",
+   "value": "Titulaire du dossier : Matthias Kern, bube Berlin.\n\n· Septembre–novembre 2029 : 11 intrusions par les balcons, toutes entre 01.00 et 03.30.\n· L’auteur n’a eu de contact avec personne dans aucun des faits ; se retirait si le logement était occupé, ne touchait pas aux dormeurs.\n· Note de Kern du 30 octobre : « Prochains immeubles probables : autour de la Krossener Straße ; étages 2 à 4, appartements avec balcons sur rue. »\n\nL’appartement de Clara Weiß se trouve dans un immeuble de cette liste, au troisième étage."
+  },
+  {
+   "key": "case023.series.title",
+   "value": "DOSSIER DE LA SÉRIE DE CAMBRIOLAGES — FRIEDRICHSHAIN"
+  },
+  {
+   "key": "case023.summary.evidence",
+   "value": "L’autopsie a montré l’heure du décès et que les tiroirs avaient été fouillés des heures plus tard ; la caméra de l’entrée a montré un homme au cordon porte-badge à l’intérieur à l’heure du décès, et l’entrée vide à deux heures du matin. Le « ne va pas voir Ute demain » entendu par la voisine, le fichier sur la source interne dans le journal du cloud, le relevé de cellule et les cellules de peau sur le cordon ont refermé la chaîne."
+  },
+  {
+   "key": "case023.summary.lesson",
+   "value": "Un vrai crime est le meilleur endroit pour en cacher un autre. Avant de traiter un incident comme un seul événement, séparez-en les heures."
+  },
+  {
+   "key": "case023.summary.location",
+   "value": "Friedrichshain, Berlin — novembre 2029"
+  },
+  {
+   "key": "case023.summary.truth",
+   "value": "Depuis 2028, l’analyste de bube Berlin Matthias Kern touchait des paiements mensuels d’Arendt Handelsgesellschaft. Sa collègue Clara Weiß l’a découvert et allait voir la cheffe d’antenne. La nuit du 7 novembre, Kern est allé chez Clara, l’a étranglée avec son cordon porte-badge et a laissé la porte du balcon ouverte ; grâce à la série de cambriolages qu’il suivait lui-même, il savait que Kevin Schulz viendrait au prochain immeuble. Schulz est venu à deux heures du matin, a trouvé la femme morte, a pris l’ordinateur et s’est enfui."
+  },
+  {
+   "key": "case023.suspect.label",
+   "value": "Qui est responsable de la mort de Clara Weiß ?"
+  },
+  {
+   "key": "case023.tablet.caseLine",
+   "value": "DOSSIER #023  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case023.time.burglar",
+   "value": "8 nov. 02.00"
+  },
+  {
+   "key": "case023.time.in",
+   "value": "22.38"
+  },
+  {
+   "key": "case023.time.none",
+   "value": "02.00"
+  },
+  {
+   "key": "case023.time.note",
+   "value": "30 oct."
+  },
+  {
+   "key": "case023.time.out",
+   "value": "23.21"
+  },
+  {
+   "key": "case023.time.upload",
+   "value": "22.51"
+  },
+  {
+   "key": "case023.time.voice",
+   "value": "7 nov. 22.45"
+  },
+  {
+   "key": "case023.title",
+   "value": "Dossier #023 — Le cambrioleur"
+  },
+  {
+   "key": "case023.ute.body",
+   "value": "Cheffe d’antenne."
+  },
+  {
+   "key": "case023.ute.deflect",
+   "value": "Ce sont les affaires de l’antenne ; ça ne sort pas du bâtiment."
+  },
+  {
+   "key": "case023.ute.team.answer",
+   "value": "Matthias Kern. Elle travaillait avec lui sur le dossier Arendt ; la série de cambriolages par les balcons, c’est aussi Matthias."
+  },
+  {
+   "key": "case023.ute.team.question",
+   "value": "Qui faisait partie de son équipe ?"
+  },
+  {
+   "key": "case023.ute.title",
+   "value": "Ute Sommer — audition"
+  },
+  {
+   "key": "case023.ute.work.answer",
+   "value": "La piste de l’argent du dossier de Londres : Arendt Handelsgesellschaft. L’argent qui allait sur le compte de Holt. Le 7 novembre, Clara m’a écrit : « Il faut qu’on parle demain matin ; c’est quelqu’un de l’intérieur de l’antenne. » Elle n’est pas venue le matin."
+  },
+  {
+   "key": "case023.ute.work.answer.demeanor",
+   "value": "Voix dure, regard non."
+  },
+  {
+   "key": "case023.ute.work.question",
+   "value": "Sur quoi travaillait Clara Weiß ?"
+  },
+  {
+   "key": "case023.verdict.kevin",
+   "value": "Kevin Schulz"
+  },
+  {
+   "key": "case023.verdict.matthias",
+   "value": "Matthias Kern"
+  },
+  {
+   "key": "case023.verdict.nobody",
+   "value": "Personne — un accident pendant un cambriolage"
+  },
+  {
+   "key": "case023.verdict.ute",
+   "value": "Ute Sommer"
+  },
+  {
+   "key": "case023.item.lanyard.name",
+   "value": "Cordon porte-badge"
+  },
+  {
+   "key": "case023.item.lanyard.detail",
+   "value": "Un cordon porte-badge bleu déchiré en son milieu."
+  },
+  {
+   "key": "case023.item.laptop.name",
+   "value": "Ordinateur portable"
+  },
+  {
+   "key": "case023.item.laptop.detail",
+   "value": "Un ordinateur portable avec une étiquette de boutique d’occasion."
+  },
+  {
+   "key": "case023.item.drawers.name",
+   "value": "Appartement saccagé"
+  },
+  {
+   "key": "case023.item.drawers.detail",
+   "value": "Un appartement aux tiroirs sortis et à la porte du balcon entrouverte."
+  }
+ ]
+}
