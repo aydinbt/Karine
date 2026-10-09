@@ -1,0 +1,444 @@
+{
+ "entries": [
+  {
+   "key": "case051.autopsy.body",
+   "value": "· Cause du décès : noyade ; eau de mer dans les poumons.\n· Ecchymoses en forme de doigts au poignet gauche ; une éraflure sur la clavicule droite à hauteur de bastingage.\n· Le bouton du haut du manteau arraché. Pas d’alcool.\n· Heure du décès : 23.30–00.30."
+  },
+  {
+   "key": "case051.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case051.cabin.body",
+   "value": "La cabine de Gianni De Luca sur le ferry (avec l’accord du chef d’antenne) :\n\n· Dans le coffre à gilets de sauvetage, parmi les gilets, la tablette d’inspection de la victime dans son étui orange ; dessus, 214 photographies de trois remorqueurs de Caruso Marittima et un projet de rapport non signé.\n· L’empreinte de Gianni De Luca sur l’étui.\n· Sur la dernière page du journal de bord, la ligne « 23.45 — vent fort » ; le relevé météo de la nuit n’indique aucun vent dans la baie.\n· Sur le téléphone du capitaine à 00.12, au contact « Lorenzo C. » : « C’est fait. »"
+  },
+  {
+   "key": "case051.cabin.title",
+   "value": "CABINE DU CAPITAINE — FOUILLE"
+  },
+  {
+   "key": "case051.cctv.event.alone",
+   "value": "Caméra : une femme en manteau bleu foncé, une tablette dans un étui orange, se tient seule au bastingage arrière."
+  },
+  {
+   "key": "case051.cctv.event.back",
+   "value": "Caméra : l’homme seul au bastingage ; il retourne vers la porte du pont avec quelque chose d’orange à la main."
+  },
+  {
+   "key": "case051.cctv.event.come",
+   "value": "Caméra : un homme en chemise blanche à manches courtes sort par la porte du pont et marche vers la femme."
+  },
+  {
+   "key": "case051.cctv.overlay",
+   "value": "PRC-STERN"
+  },
+  {
+   "key": "case051.cctv.period",
+   "value": "10 octobre 2030"
+  },
+  {
+   "key": "case051.cctv.source",
+   "value": "Caméra du pont arrière"
+  },
+  {
+   "key": "case051.clue.alone",
+   "value": "La femme au manteau bleu est seule à l’arrière."
+  },
+  {
+   "key": "case051.clue.back",
+   "value": "L’homme revient avec quelque chose d’orange à la main."
+  },
+  {
+   "key": "case051.clue.board",
+   "value": "La victime tend son billet ; le capitaine dit « ne l’inscris pas »."
+  },
+  {
+   "key": "case051.clue.come",
+   "value": "L’homme en chemise blanche s’approche d’elle."
+  },
+  {
+   "key": "case051.clue.found",
+   "value": "Des pêcheurs trouvent le corps."
+  },
+  {
+   "key": "case051.clue.source.cabin",
+   "value": "Fouille de la cabine"
+  },
+  {
+   "key": "case051.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case051.clue.source.tommaso",
+   "value": "Tommaso Scotto"
+  },
+  {
+   "key": "case051.clue.text",
+   "value": "« C’est fait. »"
+  },
+  {
+   "key": "case051.custody.label",
+   "value": "Où est passée la tablette d’inspection de la victime ?"
+  },
+  {
+   "key": "case051.custody.locker",
+   "value": "Dans le coffre à gilets de sauvetage de la cabine du capitaine"
+  },
+  {
+   "key": "case051.custody.sea",
+   "value": "Elle est tombée à la mer avec la victime"
+  },
+  {
+   "key": "case051.custody.shore",
+   "value": "Quelqu’un sur le quai l’a prise"
+  },
+  {
+   "key": "case051.epilogue.custody.locker",
+   "value": "Il a été consigné que la tablette avait été retrouvée dans le coffre à gilets de sauvetage de la cabine du capitaine."
+  },
+  {
+   "key": "case051.epilogue.custody.sea",
+   "value": "La tablette n’était pas dans la mer."
+  },
+  {
+   "key": "case051.epilogue.custody.shore",
+   "value": "La tablette n’a jamais quitté le ferry."
+  },
+  {
+   "key": "case051.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; le ferry a repris la mer la nuit suivante."
+  },
+  {
+   "key": "case051.epilogue.verdict.gianni",
+   "value": "Gianni De Luca a été arrêté. Les 214 photographies de la tablette et le message à « Lorenzo C. » ont été versés au dossier Caruso de bube Napoli."
+  },
+  {
+   "key": "case051.epilogue.verdict.holm",
+   "value": "L’extradition de Birgit Holm a été demandée à la Suède ; le dossier a attendu un an."
+  },
+  {
+   "key": "case051.epilogue.verdict.tommaso",
+   "value": "Tommaso Scotto a été arrêté ; la tablette est restée dans le coffre."
+  },
+  {
+   "key": "case051.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case051.evidence.cabin",
+   "value": "Fouille de la cabine du capitaine"
+  },
+  {
+   "key": "case051.evidence.stern",
+   "value": "Caméra du pont arrière"
+  },
+  {
+   "key": "case051.feedback.accident",
+   "value": "Il y a des ecchymoses de doigts au poignet et une éraflure de bastingage sur la clavicule ; il n’y avait pas de vent cette nuit-là."
+  },
+  {
+   "key": "case051.feedback.gianni",
+   "value": "La tablette de la victime est sortie du coffre à gilets de sa cabine, avec son empreinte sur l’étui ; il a consigné un vent qui n’existait pas, a envoyé le matelot à la salle des machines et a tenu la victime hors de la liste."
+  },
+  {
+   "key": "case051.feedback.holm",
+   "value": "La passagère était dans le salon, derrière la vitre."
+  },
+  {
+   "key": "case051.feedback.tommaso",
+   "value": "Le matelot était à la salle des machines sur ordre du capitaine ; la caméra montre le capitaine en chemise blanche au bastingage."
+  },
+  {
+   "key": "case051.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case051.file.value.bureau",
+   "value": "BDS Napoli — Antenne des Quartieri Spagnoli"
+  },
+  {
+   "key": "case051.file.value.location",
+   "value": "Procida, au large de Marina Corricella"
+  },
+  {
+   "key": "case051.file.value.number",
+   "value": "BDN-NAP-2030-0336"
+  },
+  {
+   "key": "case051.file.value.offence",
+   "value": "Mort suspecte — noyade"
+  },
+  {
+   "key": "case051.file.value.reporter",
+   "value": "Pêcheur"
+  },
+  {
+   "key": "case051.gianni.body",
+   "value": "Capitaine."
+  },
+  {
+   "key": "case051.gianni.deflect",
+   "value": "En mer, c’est moi le capitaine ; je sais ce qui s’y passe."
+  },
+  {
+   "key": "case051.gianni.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case051.gianni.end.presented.cabin",
+   "value": "Les papiers des remorqueurs étaient faux, oui ; ma signature n’y est pas, mais le gendre des Caruso a dit : « Cette femme ne revient pas au port. » Je lui ai demandé la tablette ; elle n’a pas voulu la donner. Je l’ai attrapée par le poignet ; le bastingage était bas. J’ai mis la tablette dans le coffre ; je n’ai pas pu la jeter. Peut-être qu’un jour quelqu’un…"
+  },
+  {
+   "key": "case051.gianni.end.question",
+   "value": "Vous avez poussé la femme par-dessus le bastingage."
+  },
+  {
+   "key": "case051.gianni.night.answer",
+   "value": "Elle n’est pas sur la liste. Je ne regarde pas les passagers ; je regarde la mer. Il y avait du vent cette nuit-là, tout le monde était dans le salon ; c’est dans mon journal."
+  },
+  {
+   "key": "case051.gianni.night.answer.demeanor",
+   "value": "Lisse sa moustache de deux doigts."
+  },
+  {
+   "key": "case051.gianni.night.question",
+   "value": "La victime était sur votre ferry."
+  },
+  {
+   "key": "case051.gianni.night.variant0",
+   "value": "Je suis sorti à l’arrière et j’ai dit à une passagère : « Rentrez, c’est dangereux. » Elle a laissé tomber la tablette ; je l’ai ramassée, j’allais la lui rendre. Ensuite… ensuite je ne sais pas."
+  },
+  {
+   "key": "case051.gianni.title",
+   "value": "Gianni De Luca — audition"
+  },
+  {
+   "key": "case051.holm.body",
+   "value": "Passagère."
+  },
+  {
+   "key": "case051.holm.deck.answer",
+   "value": "Oui ! Une femme en manteau bleu, avec une tablette orange. Elle était à l’arrière ; j’étais dans le salon, derrière la vitre. Le capitaine en chemise blanche est sorti et s’est approché d’elle. Ils se sont dit quelque chose ; la femme a serré la tablette contre sa poitrine. Ensuite je suis retournée à mon livre. Quand j’ai relevé les yeux, le capitaine était seul. J’ai pensé que la femme était rentrée. Mais nous n’étions pas encore arrivés à l’île, n’est-ce pas ?"
+  },
+  {
+   "key": "case051.holm.deck.answer.demeanor",
+   "value": "Remonte ses lunettes par leur cordon et les met."
+  },
+  {
+   "key": "case051.holm.deck.question",
+   "value": "Y avait-il quelqu’un d’autre sur le ferry ?"
+  },
+  {
+   "key": "case051.holm.deflect",
+   "value": "Je ne suis qu’une touriste — je suis seulement venue voir l’île."
+  },
+  {
+   "key": "case051.holm.gone",
+   "value": "Birgit Holm est rentrée à Stockholm le jour même. Sa fille a écrit : « Ma mère est très ébranlée ; elle ne parlera pas. »"
+  },
+  {
+   "key": "case051.holm.title",
+   "value": "Birgit Holm — audition"
+  },
+  {
+   "key": "case051.method.jump",
+   "value": "Elle a sauté"
+  },
+  {
+   "key": "case051.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case051.method.overboard",
+   "value": "Elle a été poussée à la mer par-dessus le bastingage"
+  },
+  {
+   "key": "case051.method.slip",
+   "value": "Elle a glissé dans le vent et est tombée"
+  },
+  {
+   "key": "case051.offer.subtitle",
+   "value": "PROCIDA  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case051.offer.summary",
+   "value": "Sur le dernier ferry pour Procida, une inspectrice des navires a disparu ; au matin, on l’a retrouvée dans la mer."
+  },
+  {
+   "key": "case051.offer.title",
+   "value": "DOSSIER #051"
+  },
+  {
+   "key": "case051.person.gianni.info",
+   "value": "56 ans, capitaine du ferry de nuit sur la ligne de Procida."
+  },
+  {
+   "key": "case051.person.gianni.name",
+   "value": "Gianni De Luca"
+  },
+  {
+   "key": "case051.person.holm.info",
+   "value": "64 ans, enseignante suédoise à la retraite ; la seule passagère du ferry."
+  },
+  {
+   "key": "case051.person.holm.name",
+   "value": "Birgit Holm"
+  },
+  {
+   "key": "case051.person.tommaso.info",
+   "value": "31 ans, le matelot du ferry."
+  },
+  {
+   "key": "case051.person.tommaso.name",
+   "value": "Tommaso Scotto"
+  },
+  {
+   "key": "case051.report.body",
+   "value": "Le matin du 11 octobre 2030, au large de Marina Corricella à Procida, des pêcheurs ont trouvé le corps d’une femme dans la mer : Marta Iacono (38 ans), inspectrice des navires.\n\nLa veille au soir, la victime avait embarqué sur le ferry de 23.15 de Pozzuoli pour Procida. Le capitaine du ferry est Gianni De Luca, son matelot Tommaso Scotto. Il n’y a qu’un seul nom sur la liste des passagers : la Suédoise Birgit Holm."
+  },
+  {
+   "key": "case051.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case051.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case051.request.cabin",
+   "value": "Demander l’autorisation de fouiller la cabine du capitaine"
+  },
+  {
+   "key": "case051.stern.body",
+   "value": "Pont arrière du ferry de nuit. 10 octobre 23.15 – 00.10."
+  },
+  {
+   "key": "case051.stern.title",
+   "value": "CAMÉRA DU PONT ARRIÈRE — transcription du relevé"
+  },
+  {
+   "key": "case051.summary.evidence",
+   "value": "La passagère a tout vu depuis derrière la vitre ; si elle n’était pas interrogée après l’ouverture des images de la caméra, elle rentrait à Stockholm. Le matelot a donné la liste et le faux vent, la caméra l’homme en chemise blanche à l’arrière. Une fouille justifiée a trouvé la tablette parmi les gilets de sauvetage."
+  },
+  {
+   "key": "case051.summary.lesson",
+   "value": "Le destinataire du message : Lorenzo C. À Napoli, personne n’a demandé le nom de famille."
+  },
+  {
+   "key": "case051.summary.location",
+   "value": "Procida — octobre 2030"
+  },
+  {
+   "key": "case051.summary.truth",
+   "value": "L’inspectrice des navires Marta Iacono s’apprêtait à signaler que trois remorqueurs de Caruso Marittima naviguaient avec de faux papiers. Le propriétaire de la compagnie de ferry, gendre des Caruso, a dit au capitaine « cette femme ne revient pas au port ». Le capitaine Gianni De Luca a tenu la victime hors de la liste des passagers, a envoyé le matelot à la salle des machines, a demandé la tablette à l’arrière et, devant son refus, a poussé la victime par-dessus le bastingage."
+  },
+  {
+   "key": "case051.suspect.label",
+   "value": "Qui a tué Marta Iacono ?"
+  },
+  {
+   "key": "case051.tablet.caseLine",
+   "value": "DOSSIER #051  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case051.time.alone",
+   "value": "23.38"
+  },
+  {
+   "key": "case051.time.back",
+   "value": "23.47"
+  },
+  {
+   "key": "case051.time.board",
+   "value": "23.15"
+  },
+  {
+   "key": "case051.time.come",
+   "value": "23.44"
+  },
+  {
+   "key": "case051.time.found",
+   "value": "06.30"
+  },
+  {
+   "key": "case051.time.text",
+   "value": "00.12"
+  },
+  {
+   "key": "case051.title",
+   "value": "Dossier #051 — Procida"
+  },
+  {
+   "key": "case051.tommaso.body",
+   "value": "Matelot."
+  },
+  {
+   "key": "case051.tommaso.deflect",
+   "value": "Je lance les amarres ; c’est le capitaine qui donne les ordres."
+  },
+  {
+   "key": "case051.tommaso.list.answer",
+   "value": "Elle avait un billet ; je l’ai déchiré. Sur le quai, le capitaine a dit : « N’inscris pas cette femme, c’est une invitée de la compagnie. » Je ne l’ai pas inscrite. Pendant la traversée, le capitaine m’a envoyé à la salle des machines, il a dit : « Vérifie la pression d’huile, ne sors pas avant dix minutes. » La pression était normale."
+  },
+  {
+   "key": "case051.tommaso.list.answer.demeanor",
+   "value": "Frotte la cicatrice de son menton avec le pouce."
+  },
+  {
+   "key": "case051.tommaso.list.question",
+   "value": "Pourquoi la victime n’est-elle pas sur la liste des passagers ?"
+  },
+  {
+   "key": "case051.tommaso.log.answer",
+   "value": "Le capitaine. Toutes les heures pile. Le matin, le journal disait « 23.45 — vent fort, passagers au salon ». Il n’y avait pas de vent à cette heure-là. La mer était comme de l’huile."
+  },
+  {
+   "key": "case051.tommaso.log.question",
+   "value": "Qui écrit dans le journal de bord ?"
+  },
+  {
+   "key": "case051.tommaso.title",
+   "value": "Tommaso Scotto — audition"
+  },
+  {
+   "key": "case051.verdict.accident",
+   "value": "Personne — elle est tombée par-dessus bord"
+  },
+  {
+   "key": "case051.verdict.gianni",
+   "value": "Gianni De Luca"
+  },
+  {
+   "key": "case051.verdict.holm",
+   "value": "Birgit Holm"
+  },
+  {
+   "key": "case051.verdict.tommaso",
+   "value": "Tommaso Scotto"
+  },
+  {
+   "key": "case051.item.tablet.name",
+   "value": "Tablette étanche"
+  },
+  {
+   "key": "case051.item.tablet.detail",
+   "value": "La tablette d’inspection de la victime ; elle est sortie du coffre à gilets de sauvetage de la cabine du capitaine."
+  },
+  {
+   "key": "case051.item.rail.name",
+   "value": "Bastingage"
+  },
+  {
+   "key": "case051.item.rail.detail",
+   "value": "Une éraflure fraîche sur le dessus du bastingage du pont arrière, et un bouton de col arraché."
+  },
+  {
+   "key": "case051.item.log.name",
+   "value": "Journal de bord"
+  },
+  {
+   "key": "case051.item.log.detail",
+   "value": "La dernière page du journal de bord du ferry ; une heure mal consignée."
+  }
+ ]
+}
