@@ -1,0 +1,504 @@
+{
+ "entries": [
+  {
+   "key": "case050.amedeo.body",
+   "value": "Seilmeister."
+  },
+  {
+   "key": "case050.amedeo.deflect",
+   "value": "Fünfunddreißig Jahre, nicht ein Seil ist mir gerissen."
+  },
+  {
+   "key": "case050.amedeo.title",
+   "value": "Amedeo Pace — Befragung"
+  },
+  {
+   "key": "case050.amedeo.where.answer",
+   "value": "An der Hintertür. Nicola sagte über Headset: ‚Amedeo, Hintertür, der Lkw ist da, sofort.‘ Ich ging hin, kein Lkw. Als ich zurückkam, lag Aurelio am Boden. Die 14 wird im zweiten Akt nicht benutzt, ich stecke den Stift mit eigener Hand ein, jeden Abend."
+  },
+  {
+   "key": "case050.amedeo.where.answer.demeanor",
+   "value": "Zieht die Handschuhe aus dem Gürtel und steckt sie wieder zurück."
+  },
+  {
+   "key": "case050.amedeo.where.question",
+   "value": "Wo waren Sie, als der Sack fiel?"
+  },
+  {
+   "key": "case050.chiara.body",
+   "value": "Kostümbildnerin."
+  },
+  {
+   "key": "case050.chiara.crate.answer",
+   "value": "Die Dekorationskisten von der Tokio-Tournee. Während ich die Kostüme auspackte, klopfte Aurelio auf den Boden einer Kiste, es klang hohl. ‚Chiara, die hat zwei Böden‘, sagte er. Nicola kam: ‚Nicht anfassen, da ist eine Zollplombe drauf.‘ Am nächsten Tag war die Kiste weg."
+  },
+  {
+   "key": "case050.chiara.crate.answer.demeanor",
+   "value": "Zupft am Maßband um ihren Hals."
+  },
+  {
+   "key": "case050.chiara.crate.question",
+   "value": "Womit war Aurelio in den letzten Tagen beschäftigt?"
+  },
+  {
+   "key": "case050.chiara.deflect",
+   "value": "Ich kümmere mich um Stoffe."
+  },
+  {
+   "key": "case050.chiara.title",
+   "value": "Chiara Fontana — Befragung"
+  },
+  {
+   "key": "case050.clue.back",
+   "value": "Der Seilmeister kommt zurück; der Bariton liegt am Boden."
+  },
+  {
+   "key": "case050.clue.door",
+   "value": "Der Seilmeister ist an der Hintertür; kein Lkw."
+  },
+  {
+   "key": "case050.clue.drop",
+   "value": "Der Sandsack von Zug 14 fällt auf die Bühne."
+  },
+  {
+   "key": "case050.clue.send",
+   "value": "Der Inspizient schickt den Seilmeister ‚wegen des Lkw‘ zur Hintertür."
+  },
+  {
+   "key": "case050.clue.source.amedeo",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.clue.source.cues",
+   "value": "Headset-Protokoll"
+  },
+  {
+   "key": "case050.clue.source.pasquale",
+   "value": "Pasquale Vitale"
+  },
+  {
+   "key": "case050.clue.source.rigging",
+   "value": "Untersuchung der Obermaschinerie"
+  },
+  {
+   "key": "case050.cues.body",
+   "value": "· Stichwortbuch des Inspizienten, zweiter Akt: Zwischen ‚LX 47 — los‘ und ‚LX 48‘ wurde eine Zeile radiert; unter dem Radiergummi Bleistiftspur: ‚14‘.\n· Aufzeichnung des Headsetsystems: 20.41 Nicola Costa: ‚Amedeo, Hintertür, der Lkw ist da, sofort.‘ 20.42: Kanal still. 20.43: Aufprallgeräusch.\n· Im Buch des Pförtners am Abend kein Lkw eingetragen."
+  },
+  {
+   "key": "case050.cues.title",
+   "value": "STICHWORTBUCH UND HEADSET-PROTOKOLL"
+  },
+  {
+   "key": "case050.custody.drawer",
+   "value": "In die Schublade des Inspizientenpults"
+  },
+  {
+   "key": "case050.custody.floor",
+   "value": "Er fiel auf die Bühne"
+  },
+  {
+   "key": "case050.custody.label",
+   "value": "Wohin kam der Sicherungsstift von Zug 14?"
+  },
+  {
+   "key": "case050.custody.never",
+   "value": "Er war nie eingesteckt"
+  },
+  {
+   "key": "case050.desk.body",
+   "value": "Das Inspizientenpult und der Spind von Nicola Costa (mit Genehmigung der Dienststellenleitung):\n\n· In der Schublade des Pults, unter den Stiften, der Sicherungsstift von Zug 14; am Ring Leuchtband und Fasern eines dünnen Lederhandschuhs.\n· Im Spind dünne schwarze Lederhandschuhe; an den Handflächen Hanffasern vom Seil.\n· In einem Umschlag die Kistenliste der Tokio-Tournee von Caruso Marittima; neben drei Kisten handschriftlich von Nicola Costa: ‚doppio‘."
+  },
+  {
+   "key": "case050.desk.title",
+   "value": "INSPIZIENTENPULT — DURCHSUCHUNG"
+  },
+  {
+   "key": "case050.epilogue.custody.drawer",
+   "value": "Festgehalten wurde, dass der Sicherungsstift in der Schublade des Pults von Nicola Costa gefunden wurde."
+  },
+  {
+   "key": "case050.epilogue.custody.floor",
+   "value": "Der Stift lag nicht auf der Bühne."
+  },
+  {
+   "key": "case050.epilogue.custody.never",
+   "value": "Der Seilmeister sagte, er stecke den Stift jeden Abend ein, und der Stift fand sich in der Schublade."
+  },
+  {
+   "key": "case050.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; der Seilmeister ging in Rente."
+  },
+  {
+   "key": "case050.epilogue.verdict.amedeo",
+   "value": "Amedeo Pace wurde festgenommen und nach fünfunddreißig Jahren aus dem Theater geworfen; die Schublade wurde nie geöffnet."
+  },
+  {
+   "key": "case050.epilogue.verdict.nicola",
+   "value": "Nicola Costa wurde festgenommen. Die doppelbödigen Tourneekisten von Caruso Marittima wurden der Dienststelle Tokio gemeldet."
+  },
+  {
+   "key": "case050.epilogue.verdict.sofia",
+   "value": "Sofia Marchetti wurde festgenommen; die Tourneekisten gingen zurück zum Hafen."
+  },
+  {
+   "key": "case050.evidence.cues",
+   "value": "Stichwortbuch und Headset-Protokoll"
+  },
+  {
+   "key": "case050.evidence.desk",
+   "value": "Durchsuchung des Inspizientenpults"
+  },
+  {
+   "key": "case050.evidence.rigging",
+   "value": "Untersuchung der Obermaschinerie"
+  },
+  {
+   "key": "case050.feedback.accident",
+   "value": "Der Stift war nicht vergessen; er fand sich in der Schublade des Inspizientenpults."
+  },
+  {
+   "key": "case050.feedback.amedeo",
+   "value": "Der Seilmeister war beim Absturz an der Hintertür; der Pförtner sah ihn dort."
+  },
+  {
+   "key": "case050.feedback.nicola",
+   "value": "Der Stift von Zug 14 kam aus der Schublade seines Pults; unter der radierten Zeile im Stichwortbuch steht ‚14‘. Zwei Minuten vor dem Vorfall schickte er den Seilmeister wegen eines Lkw weg, den es nicht gab."
+  },
+  {
+   "key": "case050.feedback.sofia",
+   "value": "Die Sopranistin stand beim Absturz auf der Bühne, dem Opfer gegenüber."
+  },
+  {
+   "key": "case050.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case050.file.value.bureau",
+   "value": "BDS Neapel — Dienststelle Quartieri Spagnoli"
+  },
+  {
+   "key": "case050.file.value.location",
+   "value": "Teatro Partenope, Neapel"
+  },
+  {
+   "key": "case050.file.value.number",
+   "value": "BDN-NAP-2030-0331"
+  },
+  {
+   "key": "case050.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case050.file.value.reporter",
+   "value": "Theaterleitung"
+  },
+  {
+   "key": "case050.kenji.body",
+   "value": "Gastdirigent."
+  },
+  {
+   "key": "case050.kenji.deflect",
+   "value": "Ich war im Orchestergraben, ich hörte nur die Musik."
+  },
+  {
+   "key": "case050.kenji.gone",
+   "value": "Kenji Arai flog mit dem Morgenflug nach Tokio zurück; seine Agentur sagt, der Dirigent gebe vorerst keine Interviews."
+  },
+  {
+   "key": "case050.kenji.pit.answer",
+   "value": "Ich sehe die rechte Seitenbühne, dort ist der Platz des Seilmeisters. Zu Beginn des zweiten Akts war der Seilmeister nicht da; der Inspizient hatte ihn eine Minute vorher hinter die Bühne geschickt, über Headset, ich habe es gehört: ‚Amedeo, Hintertür, sofort.‘ Dann fiel der Sack. Morgen früh fliege ich nach Tokio."
+  },
+  {
+   "key": "case050.kenji.pit.answer.demeanor",
+   "value": "Schiebt die Brille auf der Nase hoch."
+  },
+  {
+   "key": "case050.kenji.pit.question",
+   "value": "Was haben Sie aus dem Graben gesehen?"
+  },
+  {
+   "key": "case050.kenji.title",
+   "value": "Kenji Arai — Befragung"
+  },
+  {
+   "key": "case050.method.forgot",
+   "value": "Der Seilmeister vergaß den Stift"
+  },
+  {
+   "key": "case050.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case050.method.sandbag",
+   "value": "Der Sicherungsstift wurde gezogen und der Sandsack auf ihn fallen gelassen"
+  },
+  {
+   "key": "case050.method.snap",
+   "value": "Das Seil riss von selbst"
+  },
+  {
+   "key": "case050.nicola.body",
+   "value": "Inspizient."
+  },
+  {
+   "key": "case050.nicola.deflect",
+   "value": "Was auch auf der Bühne passiert, der Vorhang geht pünktlich auf."
+  },
+  {
+   "key": "case050.nicola.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case050.nicola.end.presented.cues",
+   "value": "Eine radierte Zeile? In meinem Buch werden jeden Tag hundert Zeilen radiert."
+  },
+  {
+   "key": "case050.nicola.end.presented.desk",
+   "value": "Aurelio wollte die Kiste öffnen. Fragen Sie nicht, was in den Kisten war; ich sagte nur, welche Kiste auf welchen Lkw kommt, und der Mann der Carusos bedankte sich. Ich habe Amedeo weggeschickt, meinen Handschuh angezogen, den Stift gezogen, die Sperre gelöst. Den Stift legte ich in die Schublade meines Pults. Damit der Vorhang pünktlich aufgeht, schreibe ich alles auf; das habe ich auch aufgeschrieben, dann radiert."
+  },
+  {
+   "key": "case050.nicola.end.question",
+   "value": "Sie haben den Stift der 14 gezogen."
+  },
+  {
+   "key": "case050.nicola.night.answer",
+   "value": "Am Inspizientenpult, an meinem üblichen Platz. Amedeo hat vergessen, den Stift der 14 einzustecken; er ist alt geworden, wie oft habe ich ihn gewarnt."
+  },
+  {
+   "key": "case050.nicola.night.answer.demeanor",
+   "value": "Rückt das Headset um seinen Hals zurecht."
+  },
+  {
+   "key": "case050.nicola.night.question",
+   "value": "Wo waren Sie, als der Sack fiel?"
+  },
+  {
+   "key": "case050.nicola.night.variant0",
+   "value": "Ich habe Amedeo wegen eines Lkw zur Hintertür geschickt; ich habe eine falsche Meldung bekommen. Von meinem Pult bin ich nicht aufgestanden."
+  },
+  {
+   "key": "case050.nicola.title",
+   "value": "Nicola Costa — Befragung"
+  },
+  {
+   "key": "case050.offer.subtitle",
+   "value": "SIPARIO  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case050.offer.summary",
+   "value": "Im Teatro Partenope fiel bei der Generalprobe ein Sandsack auf einen Bariton. Der Seilmeister sagt, das Seil sei nicht in seiner Hand gewesen."
+  },
+  {
+   "key": "case050.offer.title",
+   "value": "AKTE #050"
+  },
+  {
+   "key": "case050.pasquale.body",
+   "value": "Pförtner."
+  },
+  {
+   "key": "case050.pasquale.deflect",
+   "value": "Wer durch die Tür kommt, kommt in mein Buch."
+  },
+  {
+   "key": "case050.pasquale.title",
+   "value": "Pasquale Vitale — Befragung"
+  },
+  {
+   "key": "case050.pasquale.truck.answer",
+   "value": "Nein, abends kommt kein Lkw, in meinem Buch steht keiner. Amedeo kam angerannt: ‚Wo ist der Lkw?‘ Ich sagte: ‚Welcher Lkw?‘ Er blieb nicht einmal eine Minute, er rannte zurück."
+  },
+  {
+   "key": "case050.pasquale.truck.answer.demeanor",
+   "value": "Streicht mit dem Finger die Kante seines Buchs glatt."
+  },
+  {
+   "key": "case050.pasquale.truck.question",
+   "value": "Kam während der Probe ein Lkw an die Hintertür?"
+  },
+  {
+   "key": "case050.person.amedeo.info",
+   "value": "61 Jahre, Bühnenarbeiter, zuständig für Seile und Obermaschinerie."
+  },
+  {
+   "key": "case050.person.amedeo.name",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.person.chiara.info",
+   "value": "42 Jahre, Kostümbildnerin."
+  },
+  {
+   "key": "case050.person.chiara.name",
+   "value": "Chiara Fontana"
+  },
+  {
+   "key": "case050.person.kenji.info",
+   "value": "45 Jahre, japanischer Gastdirigent."
+  },
+  {
+   "key": "case050.person.kenji.name",
+   "value": "Kenji Arai"
+  },
+  {
+   "key": "case050.person.nicola.info",
+   "value": "49 Jahre, Inspizient des Teatro Partenope."
+  },
+  {
+   "key": "case050.person.nicola.name",
+   "value": "Nicola Costa"
+  },
+  {
+   "key": "case050.person.pasquale.info",
+   "value": "70 Jahre, Pförtner am Bühneneingang."
+  },
+  {
+   "key": "case050.person.pasquale.name",
+   "value": "Pasquale Vitale"
+  },
+  {
+   "key": "case050.person.sofia.info",
+   "value": "35 Jahre, Sopranistin; ehemalige Geliebte des Opfers."
+  },
+  {
+   "key": "case050.person.sofia.name",
+   "value": "Sofia Marchetti"
+  },
+  {
+   "key": "case050.report.body",
+   "value": "Am Abend des 9. Oktober 2030 starb im Teatro Partenope während der Generalprobe von ‚Tosca‘ der Bariton Aurelio Mancini (54) unter einem fünfundzwanzig Kilo schweren Sandsack, der aus der Obermaschinerie fiel.\n\nWährend der Probe auf der Bühne und hinter den Kulissen: Inspizient Nicola Costa, Seilmeister Amedeo Pace, Sopranistin Sofia Marchetti, Kostümbildnerin Chiara Fontana. Das Orchester leitete Gastdirigent Kenji Arai. Am Bühneneingang war Pförtner Pasquale Vitale."
+  },
+  {
+   "key": "case050.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case050.request.cues",
+   "value": "Stichwortbuch und Headset-Protokoll anfordern"
+  },
+  {
+   "key": "case050.request.desk",
+   "value": "Durchsuchungsbeschluss für das Inspizientenpult beantragen"
+  },
+  {
+   "key": "case050.request.rigging",
+   "value": "Untersuchung der Obermaschinerie anfordern"
+  },
+  {
+   "key": "case050.rigging.body",
+   "value": "· Die Sperre von Seilzug 14 offen; der Sicherungsstift fehlt.\n· Ohne Stift lässt sich die Sperre mit einem einzigen Handschlag auf dem Seil lösen; der Sandsack erreicht die Bühne in etwa zwei Sekunden.\n· Zug 14 wird im zweiten Akt nie benutzt; in diesem Akt steht in der Bühnenmitte nur der Bariton.\n· Am Seil nicht die Spuren des Seilmeisters, sondern die eines dünnen Handschuhs."
+  },
+  {
+   "key": "case050.rigging.title",
+   "value": "UNTERSUCHUNG DER OBERMASCHINERIE"
+  },
+  {
+   "key": "case050.sofia.body",
+   "value": "Sopranistin."
+  },
+  {
+   "key": "case050.sofia.deflect",
+   "value": "Ich schone meine Stimme, der Rest geht mich nichts an."
+  },
+  {
+   "key": "case050.sofia.fight.answer",
+   "value": "Es ist seit einem Jahr vorbei. Jeder kennt unseren Streit, denn ich verstecke meine Streits nicht einmal auf der Bühne. Aber in dem Moment stand ich ihm gegenüber auf der Bühne. Wäre der Sack gefallen, hätte er auch auf mich fallen können. Wer es auch war, er hätte auch mich töten können."
+  },
+  {
+   "key": "case050.sofia.fight.answer.demeanor",
+   "value": "Rafft ihren Umhang über der Schulter."
+  },
+  {
+   "key": "case050.sofia.fight.question",
+   "value": "Was war zwischen Ihnen und Aurelio?"
+  },
+  {
+   "key": "case050.sofia.title",
+   "value": "Sofia Marchetti — Befragung"
+  },
+  {
+   "key": "case050.summary.evidence",
+   "value": "Der Dirigent hörte den Befehl im Headset, flog aber zurück nach Tokio, wenn vor der Untersuchung der Obermaschinerie nicht mit ihm gesprochen wurde. Der Pförtner sagte, dass es keinen Lkw gab, die Kostümbildnerin erzählte von der doppelbödigen Kiste. Die radierte Zeile im Stichwortbuch und das Headset-Protokoll öffneten die begründete Durchsuchung; der Stift lag in der Schublade."
+  },
+  {
+   "key": "case050.summary.lesson",
+   "value": "Der Vorhang ging pünktlich auf. Alles war aufgeschrieben; nur eine Zeile war radiert."
+  },
+  {
+   "key": "case050.summary.location",
+   "value": "Teatro Partenope — Oktober 2030"
+  },
+  {
+   "key": "case050.summary.truth",
+   "value": "Inspizient Nicola Costa wusste, welche der Kisten von Caruso Marittima, die die Tourneedekorationen des Theaters transportierten, doppelte Böden hatten. Als Bariton Aurelio Mancini beschloss, eine Kiste zu öffnen, schickte Costa bei der Generalprobe den Seilmeister mit einer falschen Lkw-Meldung zur Hintertür, zog seinen Handschuh an, zog den Stift von Zug 14 und löste die Sperre."
+  },
+  {
+   "key": "case050.suspect.label",
+   "value": "Wer hat Aurelio Mancini getötet?"
+  },
+  {
+   "key": "case050.tablet.caseLine",
+   "value": "AKTE #050  /  BUBE NEAPEL — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case050.time.back",
+   "value": "20.44"
+  },
+  {
+   "key": "case050.time.door",
+   "value": "20.42"
+  },
+  {
+   "key": "case050.time.drop",
+   "value": "20.43"
+  },
+  {
+   "key": "case050.time.send",
+   "value": "20.41"
+  },
+  {
+   "key": "case050.title",
+   "value": "Akte #050 — Sipario"
+  },
+  {
+   "key": "case050.verdict.accident",
+   "value": "Niemand — der Stift wurde vergessen"
+  },
+  {
+   "key": "case050.verdict.amedeo",
+   "value": "Amedeo Pace"
+  },
+  {
+   "key": "case050.verdict.nicola",
+   "value": "Nicola Costa"
+  },
+  {
+   "key": "case050.verdict.sofia",
+   "value": "Sofia Marchetti"
+  },
+  {
+   "key": "case050.item.pin.name",
+   "value": "Sicherungsstift"
+  },
+  {
+   "key": "case050.item.pin.detail",
+   "value": "Ein Stahlstift aus der Seilsperre der Obermaschinerie; er kam aus der Schublade eines Bühnenpults."
+  },
+  {
+   "key": "case050.item.sandbag.name",
+   "value": "Sandsack"
+  },
+  {
+   "key": "case050.item.sandbag.detail",
+   "value": "Ein fünfundzwanzig Kilo schwerer Sandsack aus Canvas; der Haken offen."
+  },
+  {
+   "key": "case050.item.book.name",
+   "value": "Stichwortbuch"
+  },
+  {
+   "key": "case050.item.book.detail",
+   "value": "Das Zeichenbuch des Inspizienten; auf der Seite des zweiten Akts eine radierte Zeile."
+  }
+ ]
+}
