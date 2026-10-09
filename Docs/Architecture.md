@@ -639,3 +639,7 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 ## Görselsiz kozmetikler
 
 `Cosmetics` (Runtime) seçimi `karine.cosmetic.{id}` PlayerPrefs anahtarında tutar; `Chosen(id)` önizlemeyi önceler. Renkler `KarineTheme.Cosmetic.{Screen,Ink,City,Film}`; `Film.Phosphor`, `Film.Tone`, `Paper.StampInk` ve `CityWindows` bunları okur. Açılanlar `CareerProgress.unlockedCosmetics` ("screen:2"), sayısı `CareerMark`a dahil. Ayar satırı `BubeApp.Ads.cs` → `CosmeticOptions`; önizleme `CloseSettings`te kalkar.
+
+## Satın alma (IAP 5)
+
+`Assets/Bube/Purchasing/UnityStore.cs`, `com.unity.purchasing` 5.x ile (`KARINE_IAP` tanımı `[5.0.0,)`). Akış: `UnityIAPServices.StoreController()` → `Connect` → `FetchProducts` → `FetchPurchases`; sahip olunan ürünler `Store.Grant` ile verilir, bekleyen siparişler onaylanır. Geri yükleme `RestoreTransactions` sonra `FetchPurchases`; sonuç ürünler verildikten sonra döner.

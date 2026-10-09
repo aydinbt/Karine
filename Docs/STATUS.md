@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**9 Ekim (gece, 7):** Unity IAP 4.12.2 → 5.4.3 (IAP 4 desteği 8 Haziran 2026'da bitti). `UnityStore` yeni `StoreController` arayüzüyle yeniden yazıldı; derleme ve testler temiz, satın alma cihazda test hesabıyla denenmeli.
+
 **9 Ekim (gece, 6):** Kullanıcı Unity'de gördü ve düzeltildi: giriş seçilmeden menü "Devam Et" yerine "Başla" gösteriyor; Ayarlar'da sekmeler artık kendi içinde kayıyor, "Hesap" sekmesi "Varsayılanlara dön" düğmesinin üstüne binmiyor. Düzeltme gözle görülmedi.
 
 **9 Ekim (gece, 5):** Dört görselsiz kozmetik girdi: ekran rengi, damga mürekkebi, şehir ışıkları, film tonu (Ayarlar › Görüntü, lambanın altında). Lambayla aynı kural: önizleme, sırayla reklamla açılma. Gözle görülmedi.
