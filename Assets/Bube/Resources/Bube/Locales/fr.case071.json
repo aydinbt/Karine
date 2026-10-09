@@ -1,0 +1,404 @@
+{
+ "entries": [
+  {
+   "key": "case071.autopsy.body",
+   "value": "· Cause du décès : polytraumatisme dû à une chute de hauteur.\n· De la rouille et de la peinture sur les paumes ; il a saisi la rambarde en tombant, et la rambarde lui est restée dans les mains.\n· Aucun autre coup.\n· Heure du décès : 21.00–22.00."
+  },
+  {
+   "key": "case071.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case071.bao.body",
+   "value": "Pêcheur sur la jetée."
+  },
+  {
+   "key": "case071.bao.deflect",
+   "value": "Je m’assois sur la même pierre depuis trente ans."
+  },
+  {
+   "key": "case071.bao.light.answer",
+   "value": "La lampe de lecture s’est allumée dans la galerie, comme tous les soirs. Vers neuf heures, une deuxième lumière a monté l’escalier, une lampe torche. Puis un cri. Puis la deuxième lumière est redescendue et a marché vers le bureau du capitaine de port. Je connais la démarche de Lachlan Reid ; il a toujours une radio à la main."
+  },
+  {
+   "key": "case071.bao.light.answer.demeanor",
+   "value": "Enroule sa ligne sans lever les yeux."
+  },
+  {
+   "key": "case071.bao.light.question",
+   "value": "Avez-vous vu quelque chose à la tour dans la soirée ?"
+  },
+  {
+   "key": "case071.bao.title",
+   "value": "Bao Tran-Le — audition"
+  },
+  {
+   "key": "case071.clue.found",
+   "value": "La guide trouve l’archiviste au pied de la tour."
+  },
+  {
+   "key": "case071.clue.lamp",
+   "value": "La lampe de lecture de la galerie est allumée, comme tous les soirs."
+  },
+  {
+   "key": "case071.clue.second",
+   "value": "Une deuxième lumière monte l’escalier ; puis un cri."
+  },
+  {
+   "key": "case071.clue.source.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.clue.source.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.custody.label",
+   "value": "Où est passé le dossier de l’archiviste ?"
+  },
+  {
+   "key": "case071.custody.office",
+   "value": "Dans le tiroir du capitaine de port"
+  },
+  {
+   "key": "case071.custody.sea",
+   "value": "À la mer"
+  },
+  {
+   "key": "case071.custody.tower",
+   "value": "Il est resté dans la tour"
+  },
+  {
+   "key": "case071.epilogue.custody.office",
+   "value": "Il a été consigné que le dossier avait été retrouvé dans le bureau du capitaine de port."
+  },
+  {
+   "key": "case071.epilogue.custody.sea",
+   "value": "Le dossier n’était pas dans la mer."
+  },
+  {
+   "key": "case071.epilogue.custody.tower",
+   "value": "La chemise dans la galerie était vide."
+  },
+  {
+   "key": "case071.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; le dossier a disparu."
+  },
+  {
+   "key": "case071.epilogue.verdict.bao",
+   "value": "Bao Tran-Le a été arrêté ; la jetée est restée vide."
+  },
+  {
+   "key": "case071.epilogue.verdict.lachlan",
+   "value": "Lachlan Reid a été arrêté ; les manifestes de Liaison Freight sont entrés dans le dossier de l’antenne de Footscray."
+  },
+  {
+   "key": "case071.epilogue.verdict.ruby",
+   "value": "Ruby Aldous a été arrêtée ; les boulons sont restés dans le tiroir."
+  },
+  {
+   "key": "case071.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case071.evidence.office",
+   "value": "Fouille du bureau du port"
+  },
+  {
+   "key": "case071.evidence.radio",
+   "value": "Journal radio"
+  },
+  {
+   "key": "case071.evidence.tower",
+   "value": "Examen de la tour"
+  },
+  {
+   "key": "case071.feedback.accident",
+   "value": "Les boulons n’étaient pas en place, et il y a des rayures de clé dans leurs logements."
+  },
+  {
+   "key": "case071.feedback.bao",
+   "value": "Le pêcheur était sur la jetée et vous a dit ce qu’il a vu."
+  },
+  {
+   "key": "case071.feedback.lachlan",
+   "value": "Les boulons de la rambarde et la clé qui les a desserrés étaient dans son tiroir, avec son empreinte ; la radio portative a servi à 21.40. Le journal radio ne le sauve pas : le journal ne distingue pas la portative. Le pêcheur a vu la lumière redescendre vers le bureau du port."
+  },
+  {
+   "key": "case071.feedback.ruby",
+   "value": "La guide avait une clé, mais la lumière a marché vers le bureau du port ; les boulons ne venaient pas d’elle."
+  },
+  {
+   "key": "case071.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case071.file.value.bureau",
+   "value": "BDA Melbourne — Antenne de Footscray"
+  },
+  {
+   "key": "case071.file.value.location",
+   "value": "Williamstown, Melbourne"
+  },
+  {
+   "key": "case071.file.value.number",
+   "value": "BDA-MEL-2030-0367"
+  },
+  {
+   "key": "case071.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case071.file.value.reporter",
+   "value": "Guide bénévole"
+  },
+  {
+   "key": "case071.lachlan.body",
+   "value": "Capitaine de port."
+  },
+  {
+   "key": "case071.lachlan.deflect",
+   "value": "Le port est sous ma responsabilité ; chaque lumière, chaque bruit."
+  },
+  {
+   "key": "case071.lachlan.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case071.lachlan.end.decoy.radio",
+   "value": "Le journal radio est là : j’étais sur le canal de neuf heures moins le quart jusqu’après dix heures. Ma voix ne s’interrompt jamais."
+  },
+  {
+   "key": "case071.lachlan.end.presented.office",
+   "value": "La portative était dans ma poche ; j’ai relié le canal et je suis monté en parlant tout du long. J’avais desserré les boulons l’après-midi ; il lisait accoudé à cette galerie. J’ai demandé le dossier, il n’a pas voulu le donner, il a reculé. Il y a trente ans, j’ai signé pour ces conteneurs sans regarder ; l’argent était bon. Les gens de « Liaison » appellent toujours, paient toujours."
+  },
+  {
+   "key": "case071.lachlan.end.question",
+   "value": "Vous avez fait tomber Graham de la galerie."
+  },
+  {
+   "key": "case071.lachlan.night.answer",
+   "value": "J’étais de service. Graham était vieux ; cette rambarde a cent ans."
+  },
+  {
+   "key": "case071.lachlan.night.answer.demeanor",
+   "value": "Se caresse la barbe du plat de la main."
+  },
+  {
+   "key": "case071.lachlan.night.question",
+   "value": "Où étiez-vous dans la soirée ?"
+  },
+  {
+   "key": "case071.lachlan.title",
+   "value": "Lachlan Reid — audition"
+  },
+  {
+   "key": "case071.method.faint",
+   "value": "Il est tombé à cause d’un vertige"
+  },
+  {
+   "key": "case071.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case071.method.rail",
+   "value": "Il a été poussé contre une rambarde dont les boulons avaient été desserrés"
+  },
+  {
+   "key": "case071.method.rot",
+   "value": "La rambarde pourrie a cédé toute seule"
+  },
+  {
+   "key": "case071.offer.subtitle",
+   "value": "BOULE HORAIRE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case071.offer.summary",
+   "value": "L’archiviste du port a été retrouvé au pied de la vieille tour ; la voix du capitaine de port était à la radio à cette heure-là."
+  },
+  {
+   "key": "case071.offer.title",
+   "value": "DOSSIER #071"
+  },
+  {
+   "key": "case071.office.body",
+   "value": "Le bureau de Lachlan Reid à la capitainerie (avec l’accord du chef d’antenne) :\n\n· Sur le bureau, une radio portative de rechange ; batterie presque vide, dernière utilisation 21.40, son canal relié à la radio principale.\n· Dans le tiroir, une clé plate et deux boulons de la rambarde de la galerie ; l’empreinte de Lachlan Reid sur la clé.\n· Le dossier disparu de l’archiviste : des manifestes de fret des années 1990, destinataire « Liaison Freight », signature côté port : L. Reid."
+  },
+  {
+   "key": "case071.office.title",
+   "value": "BUREAU DU PORT — FOUILLE"
+  },
+  {
+   "key": "case071.person.bao.info",
+   "value": "60 ans, pêcheur sur la jetée."
+  },
+  {
+   "key": "case071.person.bao.name",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.person.lachlan.info",
+   "value": "54 ans, capitaine du port de Williamstown."
+  },
+  {
+   "key": "case071.person.lachlan.name",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.person.ruby.info",
+   "value": "26 ans, guide bénévole au phare."
+  },
+  {
+   "key": "case071.person.ruby.name",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.radio.body",
+   "value": "Journal radio de la capitainerie de Williamstown, 21 novembre :\n\n· 20.45 – 22.10, la voix de Lachlan Reid sur le canal principal, sans interruption : trafic des navires, appels des remorqueurs.\n\nNote : le canal principal inscrit aussi dans le même journal les émissions de la radio portative de rechange de la capitainerie ; le journal ne distingue pas de quel appareil vient une émission."
+  },
+  {
+   "key": "case071.radio.title",
+   "value": "JOURNAL RADIO DU PORT"
+  },
+  {
+   "key": "case071.report.body",
+   "value": "Le matin du 22 novembre 2030, l’archiviste du port Graham Teale (71 ans) a été retrouvé mort au pied de la vieille tour de la boule horaire à Williamstown. Une partie de la rambarde de la galerie manquait.\n\nLa guide bénévole Ruby Aldous a trouvé le corps à 07.30. Le capitaine de port Lachlan Reid a déclaré : « J’étais à la radio toute la soirée. » Le pêcheur de la jetée, Bao Tran-Le, doit être entendu."
+  },
+  {
+   "key": "case071.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case071.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case071.request.office",
+   "value": "Demander l’autorisation de fouiller le bureau du capitaine de port"
+  },
+  {
+   "key": "case071.request.radio",
+   "value": "Demander le journal radio du port"
+  },
+  {
+   "key": "case071.request.tower",
+   "value": "Demander un examen de la tour"
+  },
+  {
+   "key": "case071.ruby.body",
+   "value": "Guide bénévole."
+  },
+  {
+   "key": "case071.ruby.deflect",
+   "value": "Moi, je fais juste les visites."
+  },
+  {
+   "key": "case071.ruby.gone",
+   "value": "Ruby Aldous a retiré sa déposition par l’intermédiaire de son avocat. Elle n’a jamais accepté une autre audition."
+  },
+  {
+   "key": "case071.ruby.key.answer",
+   "value": "Moi et le capitaine de port. Hier à midi, Graham m’a montré un dossier ; « Je le donne au journal demain, tout le monde verra qui c’est », a-t-il dit. Il montait à la tour le soir ; il aimait lire dans la galerie. Je… je crois que je ne veux rien dire de plus."
+  },
+  {
+   "key": "case071.ruby.key.answer.demeanor",
+   "value": "Remonte la fermeture de son coupe-vent jusqu’au menton."
+  },
+  {
+   "key": "case071.ruby.key.question",
+   "value": "Qui a les clés de la tour ?"
+  },
+  {
+   "key": "case071.ruby.title",
+   "value": "Ruby Aldous — audition"
+  },
+  {
+   "key": "case071.summary.evidence",
+   "value": "Il fallait entendre la guide avant l’examen de la tour. Le journal radio était un leurre : il ne distinguait pas la portative. Le pêcheur a vu la deuxième lumière ; la fouille a trouvé les boulons et le dossier."
+  },
+  {
+   "key": "case071.summary.lesson",
+   "value": "Sa voix était sur le canal. Lui était dans l’escalier."
+  },
+  {
+   "key": "case071.summary.location",
+   "value": "Williamstown — novembre 2030"
+  },
+  {
+   "key": "case071.summary.truth",
+   "value": "Il y a trente ans, Lachlan Reid a signé sans les regarder pour des conteneurs arrivant pour « Liaison Freight ». L’archiviste Graham Teale a trouvé les manifestes et allait les donner au journal. L’après-midi, Reid a desserré les boulons de la rambarde de la galerie ; le soir, il est monté à la tour en parlant dans la radio portative, a pris le dossier, et quand Graham a reculé, la rambarde a cédé."
+  },
+  {
+   "key": "case071.suspect.label",
+   "value": "Qui a tué Graham Teale ?"
+  },
+  {
+   "key": "case071.tablet.caseLine",
+   "value": "DOSSIER #071  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case071.time.found",
+   "value": "07.30"
+  },
+  {
+   "key": "case071.time.lamp",
+   "value": "le soir"
+  },
+  {
+   "key": "case071.time.second",
+   "value": "21.00"
+  },
+  {
+   "key": "case071.title",
+   "value": "Dossier #071 — Boule horaire"
+  },
+  {
+   "key": "case071.tower.body",
+   "value": "Tour de la boule horaire, galerie :\n\n· Les deux boulons de la section de rambarde manquante ne sont pas en place ; des rayures fraîches dans les logements, desserrés à la clé plate.\n· Dans la galerie, une lampe de lecture et une chemise vide.\n· La porte a été trouvée fermée à clé ; pas forcée."
+  },
+  {
+   "key": "case071.tower.title",
+   "value": "EXAMEN DE LA TOUR"
+  },
+  {
+   "key": "case071.verdict.accident",
+   "value": "Personne — la rambarde était pourrie"
+  },
+  {
+   "key": "case071.verdict.bao",
+   "value": "Bao Tran-Le"
+  },
+  {
+   "key": "case071.verdict.lachlan",
+   "value": "Lachlan Reid"
+  },
+  {
+   "key": "case071.verdict.ruby",
+   "value": "Ruby Aldous"
+  },
+  {
+   "key": "case071.item.radio.name",
+   "value": "Radio portative"
+  },
+  {
+   "key": "case071.item.radio.detail",
+   "value": "La radio portative de rechange de la capitainerie ; son canal relié à la radio principale."
+  },
+  {
+   "key": "case071.item.manifest.name",
+   "value": "Manifeste de fret"
+  },
+  {
+   "key": "case071.item.manifest.detail",
+   "value": "Un manifeste jauni des années 1990 ; destinataire « Liaison Freight »."
+  },
+  {
+   "key": "case071.item.rail.name",
+   "value": "Section de rambarde de la galerie"
+  },
+  {
+   "key": "case071.item.rail.detail",
+   "value": "Une section retirée de la rambarde de la galerie de la tour, ses vis fraîchement desserrées."
+  }
+ ]
+}
