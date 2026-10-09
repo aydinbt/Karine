@@ -1,0 +1,520 @@
+{
+ "entries": [
+  {
+   "key": "case040.autopsy.body",
+   "value": "· Kohlenmonoxid im Blut hoch; er lebte während des Brandes und atmete.\n· Im Blut eine hohe Dosis Zolpidem (Schlafmittel); nicht auf dem Rezept des Opfers.\n· Er versuchte nicht zu fliehen: Er stand nicht aus dem Sessel auf."
+  },
+  {
+   "key": "case040.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case040.cctv.event.glow",
+   "value": "Kamera: Hinter dem Vorderfenster des Hauses gegenüber ein orangefarbenes Licht; Rauch aus der Dachtraufe."
+  },
+  {
+   "key": "case040.cctv.event.in",
+   "value": "Kamera: Ein Mann in Arbeitsjacke aus Canvas steigt die Treppe des Hauses gegenüber hinauf und geht hinein."
+  },
+  {
+   "key": "case040.cctv.event.out",
+   "value": "Kamera: Derselbe Mann kommt schnell heraus, zieht die Tür zu und geht zu einem Pick-up."
+  },
+  {
+   "key": "case040.cctv.overlay",
+   "value": "DOOR-1"
+  },
+  {
+   "key": "case040.cctv.period",
+   "value": "18.–19. Juli 2030"
+  },
+  {
+   "key": "case040.cctv.source",
+   "value": "Türkamera"
+  },
+  {
+   "key": "case040.clue.call",
+   "value": "Die Nachbarin meldet das Feuer."
+  },
+  {
+   "key": "case040.clue.glow",
+   "value": "Orangefarbenes Licht im Fenster."
+  },
+  {
+   "key": "case040.clue.in",
+   "value": "Der Mann in Arbeitsjacke betritt das Haus gegenüber."
+  },
+  {
+   "key": "case040.clue.out",
+   "value": "Derselbe Mann kommt schnell heraus und geht zum Pick-up."
+  },
+  {
+   "key": "case040.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case040.custody.dead",
+   "value": "Die Batterie war schon leer"
+  },
+  {
+   "key": "case040.custody.label",
+   "value": "Warum schlug der Rauchmelder nicht an?"
+  },
+  {
+   "key": "case040.custody.never",
+   "value": "Der Melder war nie montiert"
+  },
+  {
+   "key": "case040.custody.removed",
+   "value": "Der Täter nahm die Batterie heraus"
+  },
+  {
+   "key": "case040.door.body",
+   "value": "Straße, gegenüberliegender Gehweg. 18.–19. Juli 22.30 – 00.30."
+  },
+  {
+   "key": "case040.door.title",
+   "value": "TÜRKAMERA DES HAUSES GEGENÜBER — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case040.duffy.body",
+   "value": "Schwiegersohn des Opfers."
+  },
+  {
+   "key": "case040.duffy.deflect",
+   "value": "Die Konten meiner Firma gehen nur mich etwas an."
+  },
+  {
+   "key": "case040.duffy.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case040.duffy.end.presented.policy",
+   "value": "Die Police? Der Vater von Megan, Familiensache. Ich habe Schulden, ja, die hat jeder."
+  },
+  {
+   "key": "case040.duffy.end.presented.prints",
+   "value": "Hundertzwanzigtausend Dollar. Die Buchmacher standen vor meiner Tür. Wenn Walt stirbt, geht die Police an Megan, und was Megan bekommt, bekomme ich. Ich habe das Mittel in seinen Whiskey getan und gewartet, bis er schlief. Ich habe die Batterie herausgenommen, die Zigarette zwischen die Zeitungen gesteckt und bin gegangen. Ich dachte, er leidet nicht, wenn er schläft."
+  },
+  {
+   "key": "case040.duffy.end.question",
+   "value": "Sie haben die Batterie aus dem Melder genommen."
+  },
+  {
+   "key": "case040.duffy.night.answer",
+   "value": "Ich habe Walt Essen gebracht und bin gegen 22.30 gegangen. Danach war ich in einer Bar in Halsted, bis Mitternacht. Wir haben einen Whiskey getrunken, das ist alles."
+  },
+  {
+   "key": "case040.duffy.night.answer.demeanor",
+   "value": "Zieht den Reißverschluss seiner Jacke auf und zu."
+  },
+  {
+   "key": "case040.duffy.night.question",
+   "value": "Wo waren Sie an dem Abend?"
+  },
+  {
+   "key": "case040.duffy.night.variant0",
+   "value": "Die Kamera? Die Uhrzeit kann falsch sein. Okay, ich bin etwas länger geblieben, wir haben das Spiel geschaut."
+  },
+  {
+   "key": "case040.duffy.title",
+   "value": "Kyle Duffy — Befragung"
+  },
+  {
+   "key": "case040.epilogue.custody.dead",
+   "value": "Die Batterie lag im Müll, sie war voll."
+  },
+  {
+   "key": "case040.epilogue.custody.never",
+   "value": "Der Melder hing an der Decke; das Batteriefach war leer."
+  },
+  {
+   "key": "case040.epilogue.custody.removed",
+   "value": "Festgehalten wurde, dass die Batterie herausgenommen und in den Küchenmüll geworfen wurde."
+  },
+  {
+   "key": "case040.epilogue.verdict.accident",
+   "value": "Der Brand galt als Unfall; die Police wurde ausgezahlt."
+  },
+  {
+   "key": "case040.epilogue.verdict.duffy",
+   "value": "Kyle Duffy wurde festgenommen. Das Notizbuch von Walt Brennan kam zur Lakeshore-Akte von bube Chicago."
+  },
+  {
+   "key": "case040.epilogue.verdict.megan",
+   "value": "Megan Brennan wurde festgenommen; die Krankenhausunterlagen entlasteten sie drei Wochen später."
+  },
+  {
+   "key": "case040.epilogue.verdict.okafor",
+   "value": "Grace Okafor wurde vernommen; die Akte war auf der falschen Spur."
+  },
+  {
+   "key": "case040.evidence.door",
+   "value": "Türkamera"
+  },
+  {
+   "key": "case040.evidence.policy",
+   "value": "Versicherungs- und Schuldenunterlagen"
+  },
+  {
+   "key": "case040.evidence.prints",
+   "value": "Analyse von Melder und Glas"
+  },
+  {
+   "key": "case040.evidence.waltbook",
+   "value": "Das Notizbuch von Walt"
+  },
+  {
+   "key": "case040.feedback.accident",
+   "value": "Das Opfer rauchte nicht, im Blut war ein nicht verschriebenes Schlafmittel, der Melder hatte keine Batterie."
+  },
+  {
+   "key": "case040.feedback.duffy",
+   "value": "Die Türkamera zeigt ihn nicht um 22.30, sondern um 23.51 beim Hinausgehen; am Batteriefach des Melders und an der Batterie ist sein Abdruck. Er hatte 120.000 Dollar Schulden und hatte zwei Tage zuvor nach einem Schlafmittel ohne Rezept gesucht."
+  },
+  {
+   "key": "case040.feedback.megan",
+   "value": "Sie war die Begünstigte, hatte aber die ganze Nacht Dienst im Krankenhaus."
+  },
+  {
+   "key": "case040.feedback.okafor",
+   "value": "Die Nachbarin meldete das Feuer und gab ihre eigene Kamera heraus; sie hat das Haus nie betreten."
+  },
+  {
+   "key": "case040.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case040.file.value.bureau",
+   "value": "BDS Chicago — Dienststelle Pilsen"
+  },
+  {
+   "key": "case040.file.value.location",
+   "value": "Bridgeport, Chicago — Wohnhaus"
+  },
+  {
+   "key": "case040.file.value.number",
+   "value": "BDC-CHI-2030-0219"
+  },
+  {
+   "key": "case040.file.value.offence",
+   "value": "Verdächtiger Todesfall / Brand"
+  },
+  {
+   "key": "case040.file.value.reporter",
+   "value": "Feuerwehr"
+  },
+  {
+   "key": "case040.line_archive.body",
+   "value": "Linie für die aus dem Haus geretteten Papiere von Walt Brennan und alte Aktenanfragen geöffnet."
+  },
+  {
+   "key": "case040.line_archive.title",
+   "value": "LINIE C — ALTES POLIZEIARCHIV DES OPFERS"
+  },
+  {
+   "key": "case040.line_fire.body",
+   "value": "Laborlinie für die Proben vom Brandort geöffnet."
+  },
+  {
+   "key": "case040.line_fire.title",
+   "value": "LINIE A — BRANDLABOR"
+  },
+  {
+   "key": "case040.line_money.body",
+   "value": "Linie für die Finanzunterlagen des Opfers und seiner Familie geöffnet."
+  },
+  {
+   "key": "case040.line_money.title",
+   "value": "LINIE B — FINANZUNTERLAGEN"
+  },
+  {
+   "key": "case040.megan.body",
+   "value": "Tochter des Opfers."
+  },
+  {
+   "key": "case040.megan.deflect",
+   "value": "Von den alten Fällen meines Vaters weiß ich nichts."
+  },
+  {
+   "key": "case040.megan.kyle.answer",
+   "value": "Kyle hat ihm an dem Abend Essen gebracht, das macht er jeden Donnerstag. Danach ist er in eine Bar gegangen, sagte er."
+  },
+  {
+   "key": "case040.megan.kyle.question",
+   "value": "Wie stand Ihr Mann zu Ihrem Vater?"
+  },
+  {
+   "key": "case040.megan.night.answer",
+   "value": "Im Krankenhaus, Nachtdienst, von 19.00 bis 07.00. Kyle rief an und sagte: ‚Das Haus deines Vaters brennt.‘ Mein Vater hat vor zwanzig Jahren mit dem Rauchen aufgehört. Und ein Schlafmittel? Ich bin Krankenschwester, ich habe ihm nie eins verschreiben lassen."
+  },
+  {
+   "key": "case040.megan.night.answer.demeanor",
+   "value": "Zieht die Ärmel ihrer Strickjacke über die Finger."
+  },
+  {
+   "key": "case040.megan.night.question",
+   "value": "Wo waren Sie in der Nacht?"
+  },
+  {
+   "key": "case040.megan.title",
+   "value": "Megan Brennan — Befragung"
+  },
+  {
+   "key": "case040.method.heart",
+   "value": "Herzinfarkt, danach der Brand"
+  },
+  {
+   "key": "case040.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case040.method.sedate",
+   "value": "Mit Schlafmittel betäubt, das Haus angezündet"
+  },
+  {
+   "key": "case040.method.smoke",
+   "value": "Seine Zigarette löste den Brand aus"
+  },
+  {
+   "key": "case040.offer.subtitle",
+   "value": "DER BRAND  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case040.offer.summary",
+   "value": "In Bridgeport starb ein pensionierter Polizeiermittler bei einem nächtlichen Brand in seinem Sessel. Seit zwanzig Jahren rauchte er nicht mehr."
+  },
+  {
+   "key": "case040.offer.title",
+   "value": "AKTE #040"
+  },
+  {
+   "key": "case040.okafor.body",
+   "value": "Nachbarin."
+  },
+  {
+   "key": "case040.okafor.deflect",
+   "value": "Ich sage nur, was ich gesehen habe."
+  },
+  {
+   "key": "case040.okafor.night.answer",
+   "value": "Es war nach zwölf, Rauchgeruch. Ich schaute aus dem Fenster, das Fenster von Walt war orange. Ich habe angerufen. Mein Enkel hat mir eine Türkamera angebracht, sie sieht die Straße; schauen Sie, was sie aufgenommen hat."
+  },
+  {
+   "key": "case040.okafor.night.answer.demeanor",
+   "value": "Nimmt die Brille von der Kette und setzt sie auf."
+  },
+  {
+   "key": "case040.okafor.night.question",
+   "value": "Was haben Sie in der Nacht gesehen?"
+  },
+  {
+   "key": "case040.okafor.title",
+   "value": "Grace Okafor — Befragung"
+  },
+  {
+   "key": "case040.okafor.walt.answer",
+   "value": "Er war pensioniert, lebte aber nicht wie ein Pensionär. In den letzten Monaten fuhr er jede Nacht mit dem Auto los und beobachtete in Pilsen Lastwagen. ‚Grace, wenn ich damit fertig bin, schreibe ich ein Buch‘, sagte er."
+  },
+  {
+   "key": "case040.okafor.walt.question",
+   "value": "Wie war Walt?"
+  },
+  {
+   "key": "case040.person.duffy.info",
+   "value": "41 Jahre, Schwiegersohn des Opfers; Bauunternehmer."
+  },
+  {
+   "key": "case040.person.duffy.name",
+   "value": "Kyle Duffy"
+  },
+  {
+   "key": "case040.person.megan.info",
+   "value": "38 Jahre, Tochter des Opfers; Krankenschwester."
+  },
+  {
+   "key": "case040.person.megan.name",
+   "value": "Megan Brennan"
+  },
+  {
+   "key": "case040.person.okafor.info",
+   "value": "70 Jahre, Nachbarin des Opfers; pensionierte Lehrerin."
+  },
+  {
+   "key": "case040.person.okafor.name",
+   "value": "Grace Okafor"
+  },
+  {
+   "key": "case040.person.ramirez.info",
+   "value": "44 Jahre, Brandermittlerin der Feuerwehr."
+  },
+  {
+   "key": "case040.person.ramirez.name",
+   "value": "Luz Ramírez"
+  },
+  {
+   "key": "case040.policy.body",
+   "value": "· Lebensversicherung von Walt Brennan über 400.000 Dollar; Begünstigte Megan Brennan.\n· Auf den Namen Kyle Duffy in drei Online-Wettkonten insgesamt 120.000 Dollar Schulden; letzte Inkassowarnung 15. Juli.\n· Suche auf dem Telefon von Kyle Duffy am 17. Juli: ‚Zolpidem ohne Rezept‘."
+  },
+  {
+   "key": "case040.policy.title",
+   "value": "LEBENSVERSICHERUNG UND SCHULDENUNTERLAGEN"
+  },
+  {
+   "key": "case040.prints.body",
+   "value": "· Am Deckel des Batteriefachs des Rauchmelders ein einziger klarer Fingerabdruck: Kyle Duffy (aus dem Register der Bauunternehmerlizenzen).\n· Die Batterie im Küchenmüll; darauf derselbe Abdruck.\n· Bodensatz im Whiskeyglas: Zolpidem, zerstoßene Tablette.\n· Zigarettenstummel: kein Speichel des Opfers."
+  },
+  {
+   "key": "case040.prints.title",
+   "value": "MELDER UND GLAS — LABOR"
+  },
+  {
+   "key": "case040.ramirez.body",
+   "value": "Brandermittlerin."
+  },
+  {
+   "key": "case040.ramirez.deflect",
+   "value": "Bevor der Bericht fertig ist, kommentiere ich nichts."
+  },
+  {
+   "key": "case040.ramirez.origin.answer",
+   "value": "Vom Beistelltisch neben dem Sessel, von einer Zigarette, von dem Zeitungsstapel daneben. Aber die Zigarette lag nicht im Aschenbecher, sondern zwischen die Zeitungen geklemmt. Der Melder hatte keine Batterie. Wir können ihn ins Labor schicken, um Abdrücke vom Batteriefach zu nehmen."
+  },
+  {
+   "key": "case040.ramirez.origin.answer.demeanor",
+   "value": "Wischt sich mit dem Handrücken den Ruß von der Wange."
+  },
+  {
+   "key": "case040.ramirez.origin.question",
+   "value": "Wo begann der Brand?"
+  },
+  {
+   "key": "case040.ramirez.title",
+   "value": "Luz Ramírez — Befragung"
+  },
+  {
+   "key": "case040.report.body",
+   "value": "In der Nacht des 19. Juli 2030 wurde bei einem Brand in einem Reihenhaus in Bridgeport der pensionierte Polizeiermittler Walt Brennan (72) tot in seinem Sessel im Wohnzimmer gefunden.\n\nDen Brand meldete um 00.21 die Nachbarin Grace Okafor. Die Feuerwehr traf um 00.29 ein. Die Tochter des Hausbesitzers, Megan Brennan, und sein Schwiegersohn Kyle Duffy wurden in derselben Nacht benachrichtigt."
+  },
+  {
+   "key": "case040.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case040.request.line_archive",
+   "value": "Archivlinie des Opfers öffnen"
+  },
+  {
+   "key": "case040.request.line_fire",
+   "value": "Linie Brandlabor öffnen"
+  },
+  {
+   "key": "case040.request.line_money",
+   "value": "Linie Finanzunterlagen öffnen"
+  },
+  {
+   "key": "case040.request.policy",
+   "value": "Versicherungs- und Schuldenunterlagen anfordern"
+  },
+  {
+   "key": "case040.request.prints",
+   "value": "Analyse von Melder und Glas anfordern"
+  },
+  {
+   "key": "case040.request.waltbook",
+   "value": "Das gerettete Notizbuch anfordern"
+  },
+  {
+   "key": "case040.summary.evidence",
+   "value": "Die Obduktion zeigte, dass das Opfer beim Brand lebte und betäubt war, die Türkamera die tatsächliche Uhrzeit, zu der der Schwiegersohn ging. Die Laborlinie lieferte den Abdruck auf der Batterie, die Finanzlinie die Schulden. Die Archivlinie lieferte nicht den Täter, sondern das Lakeshore-Notizbuch von Walt: Container 22 und ‚E.‘"
+  },
+  {
+   "key": "case040.summary.lesson",
+   "value": "Die dritte Linie hat diese Akte nicht gelöst. Aber sie kann die nächste verändern."
+  },
+  {
+   "key": "case040.summary.location",
+   "value": "Bridgeport — Juli 2030"
+  },
+  {
+   "key": "case040.summary.truth",
+   "value": "Kyle Duffy plante, seine Wettschulden von 120.000 Dollar mit der Lebensversicherung seines Schwiegervaters zu begleichen. Beim Donnerstagsessen tat er Walt Brennan ein Schlafmittel in den Whiskey, wartete, bis er schlief, nahm die Batterie aus dem Melder und steckte die Zigarette zwischen die Zeitungen. Walt wachte nie auf."
+  },
+  {
+   "key": "case040.suspect.label",
+   "value": "Wer hat Walt Brennan getötet?"
+  },
+  {
+   "key": "case040.tablet.caseLine",
+   "value": "AKTE #040  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case040.time.call",
+   "value": "00.21"
+  },
+  {
+   "key": "case040.time.glow",
+   "value": "00.14"
+  },
+  {
+   "key": "case040.time.in",
+   "value": "23.12"
+  },
+  {
+   "key": "case040.time.out",
+   "value": "23.51"
+  },
+  {
+   "key": "case040.title",
+   "value": "Akte #040 — Der Brand"
+  },
+  {
+   "key": "case040.verdict.accident",
+   "value": "Niemand — ein Unfall durch eine Zigarette"
+  },
+  {
+   "key": "case040.verdict.duffy",
+   "value": "Kyle Duffy"
+  },
+  {
+   "key": "case040.verdict.megan",
+   "value": "Megan Brennan"
+  },
+  {
+   "key": "case040.verdict.okafor",
+   "value": "Grace Okafor"
+  },
+  {
+   "key": "case040.waltbook.body",
+   "value": "Was aus dem halb verbrannten Notizblock lesbar ist:\n\n· März–Juli: Lastwagen von Lakeshore Freight, Spalten für Kennzeichen und Uhrzeit; Lager Pilsen, nachts 01.00–03.00.\n· ‚Container 22 — aus Paris. Deklaration: Maschinen.‘\n· ‚Ein alter Informant spricht von einer Tonaufnahme. Jemand berichtet an jemanden namens E.‘\n· Letzte Zeile: ‚Montag zur neuen Dienststelle in Pilsen bringen.‘"
+  },
+  {
+   "key": "case040.waltbook.title",
+   "value": "DAS NOTIZBUCH VON WALT"
+  },
+  {
+   "key": "case040.item.detector.name",
+   "value": "Rauchmelder"
+  },
+  {
+   "key": "case040.item.detector.detail",
+   "value": "Von der Decke abgenommener Melder; das Batteriefach leer, auf dem Deckel Fingerabdruckpulver."
+  },
+  {
+   "key": "case040.item.glass.name",
+   "value": "Whiskeyglas"
+  },
+  {
+   "key": "case040.item.glass.detail",
+   "value": "Das dickwandige Glas neben dem Sessel; am Boden ein ungelöster weißer Bodensatz."
+  },
+  {
+   "key": "case040.item.notebook.name",
+   "value": "Das Notizbuch von Walt"
+  },
+  {
+   "key": "case040.item.notebook.detail",
+   "value": "Halb verbrannter Spiralblock; Spalten für Kennzeichen und Uhrzeit."
+  }
+ ]
+}
