@@ -1,0 +1,688 @@
+{
+ "entries": [
+  {
+   "key": "case031.autopsy.body",
+   "value": "· Empoisonnement à la tétrodotoxine (poison du fugu) ; paralysie respiratoire.\n· Contenu gastrique : sashimi de fugu, fondue de fugu, bouillie de riz, et en dernier du saké chaud avec une nageoire grillée.\n· Apparition des symptômes (engourdissement de la langue) vers 22.05. La tétrodotoxine produit d’ordinaire des symptômes 20 à 40 minutes après l’ingestion.\n· Le taux sanguin est élevé ; compatible non avec quelques grammes de foie mais avec une substance pure."
+  },
+  {
+   "key": "case031.autopsy.title",
+   "value": "AUTOPSIE ET TOXICOLOGIE"
+  },
+  {
+   "key": "case031.bin.body",
+   "value": "Le scellé de la boîte à déchets de fugu est intact. La boîte a été ouverte et son contenu pesé :\n\n· Foie 412 g, ovaires 188 g, yeux, intestins.\n· Registre manuscrit d’Ōmura Takeshi de la même nuit : foie 410 g, ovaires 190 g.\n\nL’écart est dans la tolérance de la balance. Aucune partie toxique du poisson ne manque."
+  },
+  {
+   "key": "case031.bin.title",
+   "value": "REGISTRE DE LA BOÎTE À DÉCHETS DE LA CUISINE"
+  },
+  {
+   "key": "case031.cctv.event.enter",
+   "value": "Caméra : l’homme ouvre la porte du salon privé et entre à genoux ; il tient le plateau à deux mains, une petite flamme au-dessus de la coupe."
+  },
+  {
+   "key": "case031.cctv.event.pause",
+   "value": "Caméra : l’homme s’arrête dans le couloir, la tête penchée sur le plateau, une main dans la poche de sa veste."
+  },
+  {
+   "key": "case031.cctv.event.take",
+   "value": "Caméra : un homme en costume sombre prend un plateau avec une petite coupe à couvercle au passe-plat de la cuisine ; un instant, il tourne le dos à la caméra."
+  },
+  {
+   "key": "case031.cctv.overlay",
+   "value": "RYO-2"
+  },
+  {
+   "key": "case031.cctv.period",
+   "value": "18 avril 2030"
+  },
+  {
+   "key": "case031.cctv.source",
+   "value": "Caméra du couloir"
+  },
+  {
+   "key": "case031.clue.cancel",
+   "value": "À table, le président dit : « Il n’y aura pas de vente à Paris. »"
+  },
+  {
+   "key": "case031.clue.lab",
+   "value": "Le directeur financier fait sortir 1 mg de tétrodotoxine de la filiale."
+  },
+  {
+   "key": "case031.clue.msg",
+   "value": "« C’est fait. La vente est prête à être signée lundi. »"
+  },
+  {
+   "key": "case031.clue.numb",
+   "value": "La langue du président s’engourdit."
+  },
+  {
+   "key": "case031.clue.pause",
+   "value": "L’homme s’arrête dans le couloir, la main dans la poche de sa veste."
+  },
+  {
+   "key": "case031.clue.source.autopsy",
+   "value": "Autopsie"
+  },
+  {
+   "key": "case031.clue.source.lab",
+   "value": "Inventaire du laboratoire"
+  },
+  {
+   "key": "case031.clue.source.phone",
+   "value": "Téléphone"
+  },
+  {
+   "key": "case031.clue.source.sayuri",
+   "value": "La fille du président"
+  },
+  {
+   "key": "case031.clue.take",
+   "value": "L’homme en costume prend la coupe au passe-plat."
+  },
+  {
+   "key": "case031.corridor.body",
+   "value": "Le couloir entre le passe-plat de la cuisine et le salon privé. 18 avril 21.30 – 22.30."
+  },
+  {
+   "key": "case031.corridor.title",
+   "value": "CAMÉRA DU COULOIR DU RYŌTEI — transcription du relevé"
+  },
+  {
+   "key": "case031.cup.body",
+   "value": "· Résidu de saké au fond de la coupe de hirezake du président : tétrodotoxine, forte concentration.\n· Le pichet de la cuisine dont ce saké a été versé : propre.\n· Les nageoires grillées (quatre nageoires de la même poêle) : propres.\n· Les trois autres coupes : propres.\n\nLe poison est entré dans la coupe après qu’elle a quitté la cuisine."
+  },
+  {
+   "key": "case031.cup.title",
+   "value": "ANALYSE DE LA COUPE ET DU PICHET"
+  },
+  {
+   "key": "case031.custody.kitchen",
+   "value": "De la cuisine du ryōtei"
+  },
+  {
+   "key": "case031.custody.lab",
+   "value": "Du laboratoire pharmaceutique de l’entreprise, sous la signature du gendre"
+  },
+  {
+   "key": "case031.custody.label",
+   "value": "D’où venait le poison ?"
+  },
+  {
+   "key": "case031.custody.market",
+   "value": "Un morceau apporté du marché aux poissons"
+  },
+  {
+   "key": "case031.epilogue.custody.kitchen",
+   "value": "On a admis que le poison venait du poisson ; la cuisine a été fermée."
+  },
+  {
+   "key": "case031.epilogue.custody.lab",
+   "value": "Il a été consigné que le poison était sorti de la filiale sur autorisation de Hayashi et avait été transporté par le chauffeur."
+  },
+  {
+   "key": "case031.epilogue.custody.market",
+   "value": "On a cherché la source du poison à l’extérieur ; elle n’a pas été trouvée."
+  },
+  {
+   "key": "case031.epilogue.verdict.hayashi",
+   "value": "Hayashi Tōru a été arrêté. La vente parisienne de Kisaragi Shōji a été stoppée. Le carnet du président et la correspondance de Hayashi ont été envoyés à l’antenne bube Paris — Belleville. « E.V. » n’apparaît en toutes lettres dans aucun document."
+  },
+  {
+   "key": "case031.epilogue.verdict.ikeda",
+   "value": "Ikeda Mai a été placée en garde à vue ; le carnet du président n’a jamais été lu."
+  },
+  {
+   "key": "case031.epilogue.verdict.omura",
+   "value": "Ōmura Takeshi a été jugé pour négligence et a perdu sa licence. La vente parisienne a été signée le lundi."
+  },
+  {
+   "key": "case031.epilogue.verdict.sayuri",
+   "value": "Kisaragi Sayuri a été inculpée ; Hayashi a pris la tête de l’entreprise."
+  },
+  {
+   "key": "case031.evidence.bin",
+   "value": "Boîte à déchets de la cuisine"
+  },
+  {
+   "key": "case031.evidence.cup",
+   "value": "Analyse de la coupe et du pichet"
+  },
+  {
+   "key": "case031.evidence.lab",
+   "value": "Inventaire du laboratoire et voiture"
+  },
+  {
+   "key": "case031.evidence.phone",
+   "value": "Le téléphone de Hayashi"
+  },
+  {
+   "key": "case031.feedback.hayashi",
+   "value": "Le poison n’est que dans la coupe qu’il a allumée et servie ; son arrêt dans le couloir est filmé, il a fait sortir l’ampoule sous sa propre signature et son empreinte est sur l’ampoule brisée dans la voiture. Ce soir-là, le président a annulé la vente parisienne ; son message : « C’est fait »."
+  },
+  {
+   "key": "case031.feedback.ikeda",
+   "value": "La secrétaire avait organisé le rendez-vous du lundi ; elle était la seule à vouloir que ce rendez-vous ait lieu."
+  },
+  {
+   "key": "case031.feedback.omura",
+   "value": "Le chef a nettoyé le poisson selon les règles ; rien ne manque dans la boîte à déchets, la fondue et le pichet sont propres."
+  },
+  {
+   "key": "case031.feedback.sayuri",
+   "value": "La fille connaissait la décision de son père mais n’a pas touché la coupe ; la vente était le projet de son mari."
+  },
+  {
+   "key": "case031.file.caseType",
+   "value": "FIN DE CHAPITRE"
+  },
+  {
+   "key": "case031.file.value.bureau",
+   "value": "BDS Tokyo — Antenne de Nihonbashi"
+  },
+  {
+   "key": "case031.file.value.location",
+   "value": "Tsukiji, ryōtei — salon privé"
+  },
+  {
+   "key": "case031.file.value.number",
+   "value": "BDS-TYO-2030-0050"
+  },
+  {
+   "key": "case031.file.value.offence",
+   "value": "Mort suspecte ; empoisonnement"
+  },
+  {
+   "key": "case031.file.value.reporter",
+   "value": "Le ryōtei"
+  },
+  {
+   "key": "case031.hayashi.body",
+   "value": "Gendre ; directeur financier."
+  },
+  {
+   "key": "case031.hayashi.deflect",
+   "value": "Les finances de l’entreprise sont confidentielles."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer",
+   "value": "Mon beau-père était âgé, fatigué ces derniers mois, ses décisions changeantes. Le fugu tue quelques personnes chaque année. Nous faisions confiance au chef Ōmura ; il a donc vieilli."
+  },
+  {
+   "key": "case031.hayashi.dinner.answer.demeanor",
+   "value": "Retire ses lunettes et les essuie avec un mouchoir."
+  },
+  {
+   "key": "case031.hayashi.dinner.question",
+   "value": "Que s’est-il passé au dîner ?"
+  },
+  {
+   "key": "case031.hayashi.dinner.variant0",
+   "value": "La boîte est complète ? Alors le registre du chef est peut-être faux. Ou un autre poisson. Je n’étais pas en cuisine."
+  },
+  {
+   "key": "case031.hayashi.sake.answer",
+   "value": "Le respect. En tant que gendre. Au Japon, c’est un geste ; vous ne sauriez pas."
+  },
+  {
+   "key": "case031.hayashi.sake.question",
+   "value": "Pourquoi avez-vous servi le hirezake ?"
+  },
+  {
+   "key": "case031.hayashi.title",
+   "value": "Hayashi Tōru — audition"
+  },
+  {
+   "key": "case031.hayashi_2.body",
+   "value": "Sur les relevés."
+  },
+  {
+   "key": "case031.hayashi_2.title",
+   "value": "Hayashi Tōru — seconde audition"
+  },
+  {
+   "key": "case031.hayashi_2.vial.answer",
+   "value": "Un échantillon d’audit."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.lab",
+   "value": "Pour l’audit. Elle s’est cassée dans la voiture, par accident. Quel rapport avec mon beau-père ?"
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.notebook",
+   "value": "« Tōru ne doit pas le savoir. » …Je le savais. Il me l’avait déjà dit avant le dîner. Ça ne prouve rien."
+  },
+  {
+   "key": "case031.hayashi_2.vial.presented.phone",
+   "value": "E.V.… Je ne les ai jamais vus. Seulement des e-mails, seulement deux lettres. La maison de Paris avait tout préparé : la collection, le réseau, les virements. Mon beau-père annulait dix ans en une nuit. Vous savez ce que veut dire « Paris attend » ? Ils n’attendent pas. Dans le couloir, j’ai brisé l’ampoule dans la coupe. J’ai allumé la flamme moi-même. À table, je la lui ai tendue de ma propre main."
+  },
+  {
+   "key": "case031.hayashi_2.vial.question",
+   "value": "Vous avez signé pour l’ampoule le 17 avril."
+  },
+  {
+   "key": "case031.ikeda.body",
+   "value": "La secrétaire du président."
+  },
+  {
+   "key": "case031.ikeda.book.answer",
+   "value": "Il avait un carnet noir, il l’emportait partout. Avant le dîner, il a écrit quelque chose dans la voiture, longuement. Le carnet était dans sa poche ; il devait l’avoir sur lui en allant à l’hôpital."
+  },
+  {
+   "key": "case031.ikeda.book.question",
+   "value": "Les notes personnelles du président ?"
+  },
+  {
+   "key": "case031.ikeda.deflect",
+   "value": "La correspondance du président est confidentielle."
+  },
+  {
+   "key": "case031.ikeda.monday.answer",
+   "value": "Lundi 09.00, une réunion avec l’antenne bube de Tokyo. Il a appelé lui-même et a dit : « Nous parlerons du carnet d’un Allemand nommé Arendt. » Il n’y avait que moi qui le savais et… ce soir-là, il l’a dit au dîner. Tout le monde a entendu."
+  },
+  {
+   "key": "case031.ikeda.monday.answer.demeanor",
+   "value": "Ferme son carnet et le rouvre."
+  },
+  {
+   "key": "case031.ikeda.monday.question",
+   "value": "Qu’y avait-il dans l’agenda du président ?"
+  },
+  {
+   "key": "case031.ikeda.title",
+   "value": "Ikeda Mai — audition"
+  },
+  {
+   "key": "case031.kazue.body",
+   "value": "Okami."
+  },
+  {
+   "key": "case031.kazue.deflect",
+   "value": "Je n’entends pas les conversations de mes clients."
+  },
+  {
+   "key": "case031.kazue.pour.answer",
+   "value": "Le gendre. D’habitude, c’est moi qui sers et allume la flamme, pour que le client n’ait pas à s’en soucier. Mais ce soir-là, il a dit : « C’est la dernière soirée, je servirai mon père moi-même. » Je n’ai pas compris ce qu’il voulait dire."
+  },
+  {
+   "key": "case031.kazue.pour.answer.demeanor",
+   "value": "Lisse la manche de son kimono."
+  },
+  {
+   "key": "case031.kazue.pour.question",
+   "value": "Qui a servi le hirezake ?"
+  },
+  {
+   "key": "case031.kazue.pour.variant0",
+   "value": "Dans la coupe ? Alors laissez-moi vous dire ceci aussi : il s’est arrêté un instant dans le couloir. Je l’ai vu par l’entrebâillement de la porte, il me tournait le dos. J’ai cru qu’il cherchait des allumettes. C’est moi qui avais les allumettes."
+  },
+  {
+   "key": "case031.kazue.quote",
+   "value": "« C’est la dernière soirée, je servirai mon père moi-même. »"
+  },
+  {
+   "key": "case031.kazue.title",
+   "value": "Fujimoto Kazue — audition"
+  },
+  {
+   "key": "case031.lab.body",
+   "value": "Inventaire des étalons de recherche de la filiale pharmaceutique de Kisaragi Shōji à Kawasaki :\n\n· 17 avril · étalon de référence de tétrodotoxine, 1 mg, ampoule brune — sorti. Signature d’autorisation : Hayashi Tōru (finances). Motif : « échantillon d’audit ».\n\nVoiture de la famille Hayashi, vide-poche de la portière arrière droite : une ampoule brune au col brisé. Résidu : tétrodotoxine. L’empreinte de Hayashi Tōru sur l’ampoule."
+  },
+  {
+   "key": "case031.lab.title",
+   "value": "INVENTAIRE DU LABORATOIRE ET FOUILLE DE LA VOITURE"
+  },
+  {
+   "key": "case031.method.fugu",
+   "value": "Erreur du chef — une partie toxique du fugu"
+  },
+  {
+   "key": "case031.method.heart",
+   "value": "Insuffisance cardiaque liée à l’âge"
+  },
+  {
+   "key": "case031.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case031.method.liver",
+   "value": "Du foie ajouté à la fondue"
+  },
+  {
+   "key": "case031.method.ttx",
+   "value": "Une ampoule de tétrodotoxine pure brisée dans la coupe de hirezake"
+  },
+  {
+   "key": "case031.notebook.body",
+   "value": "Le carnet noir de Kisaragi Genzō, dernière page, 18 avril :\n\n« Je ne suis pas l’acheteur d’Arendt ; je suis l’intermédiaire. La marchandise est passée par Tokyo et est partie pour Paris. Les bols, les factures, les virements : tout est là-bas. Lundi, je donnerai tout à bube. Mon gendre Hayashi Tōru ne doit pas le savoir. J’annule la vente ce soir. »"
+  },
+  {
+   "key": "case031.notebook.title",
+   "value": "LE CARNET DU PRÉSIDENT"
+  },
+  {
+   "key": "case031.offer.subtitle",
+   "value": "KISARAGI  /  FIN DE CHAPITRE"
+  },
+  {
+   "key": "case031.offer.summary",
+   "value": "Le président de Kisaragi Shōji meurt après un dîner de fugu dans un ryōtei. Le chef est sur le point de perdre sa licence ; sa famille était à table."
+  },
+  {
+   "key": "case031.offer.title",
+   "value": "DOSSIER #031"
+  },
+  {
+   "key": "case031.omura.body",
+   "value": "Chef de fugu."
+  },
+  {
+   "key": "case031.omura.deflect",
+   "value": "Tout ce qu’il y a à dire sur ma cuisine est écrit dans ma licence."
+  },
+  {
+   "key": "case031.omura.fish.answer",
+   "value": "Je les nettoie moi-même depuis quarante ans. Foie, ovaires, yeux : tout pesé, dans la boîte fermée à clé, la boîte scellée, la mairie la ramasse le lendemain. Cette nuit-là, pareil. Faites ouvrir la boîte, pesez-la."
+  },
+  {
+   "key": "case031.omura.fish.answer.demeanor",
+   "value": "S’essuie les mains sur son tablier, encore et encore."
+  },
+  {
+   "key": "case031.omura.fish.question",
+   "value": "Avez-vous nettoyé le poisson ?"
+  },
+  {
+   "key": "case031.omura.order.answer",
+   "value": "Sashimi 21.00, fondue 21.25, bouillie 21.40, puis le hirezake : je fais griller la nageoire, je la mets dans le saké chaud, je ferme le couvercle et je la passe au passe-plat. Ce soir-là, M. Hayashi a dit : « Je l’apporte au président, je m’occupe de l’allumer. » Il l’a prise au passe-plat."
+  },
+  {
+   "key": "case031.omura.order.question",
+   "value": "Quel était l’ordre du repas ?"
+  },
+  {
+   "key": "case031.omura.title",
+   "value": "Ōmura Takeshi — audition"
+  },
+  {
+   "key": "case031.person.hayashi.info",
+   "value": "51 ans, directeur financier de Kisaragi Shōji ; le gendre du président."
+  },
+  {
+   "key": "case031.person.hayashi.name",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.person.ikeda.info",
+   "value": "36 ans, la secrétaire particulière du président."
+  },
+  {
+   "key": "case031.person.ikeda.name",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.person.kazue.info",
+   "value": "69 ans, propriétaire et hôtesse (okami) du ryōtei."
+  },
+  {
+   "key": "case031.person.kazue.name",
+   "value": "Fujimoto Kazue"
+  },
+  {
+   "key": "case031.person.omura.info",
+   "value": "64 ans, chef de fugu diplômé du ryōtei ; quarante ans dans la même cuisine."
+  },
+  {
+   "key": "case031.person.omura.name",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.person.saito.info",
+   "value": "43 ans, le chauffeur de la famille Hayashi."
+  },
+  {
+   "key": "case031.person.saito.name",
+   "value": "Saitō Gō"
+  },
+  {
+   "key": "case031.person.sayuri.info",
+   "value": "47 ans, la fille unique du président ; épouse de Hayashi, au conseil d’administration."
+  },
+  {
+   "key": "case031.person.sayuri.name",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.phone.body",
+   "value": "Examen du téléphone professionnel de Hayashi Tōru (sur mandat de perquisition) :\n\n· 18 avril 22.58 (pendant que le président était conduit à l’hôpital), message sortant, application chiffrée : « C’est fait. La vente est prête à être signée lundi. »\n· 15 avril, e-mail entrant, non signé, la dernière ligne en deux lettres seulement : « Si la vente n’est pas approuvée, Paris attend. — E.V. »\n· Trois e-mails de la même adresse en mars : Maison Delorme, Paris — « préparation du catalogue »."
+  },
+  {
+   "key": "case031.phone.title",
+   "value": "LE TÉLÉPHONE DE HAYASHI"
+  },
+  {
+   "key": "case031.recon.r_cancel",
+   "value": "À table, le président annule la vente parisienne et évoque le rendez-vous du lundi."
+  },
+  {
+   "key": "case031.recon.r_cup",
+   "value": "Le poison n’est que dans la coupe du président ; le poisson, le pichet et la boîte à déchets sont propres."
+  },
+  {
+   "key": "case031.recon.r_email",
+   "value": "15 avril : « Si la vente n’est pas approuvée, Paris attend. — E.V. »"
+  },
+  {
+   "key": "case031.recon.r_msg",
+   "value": "Pendant que le président part à l’hôpital, Hayashi écrit : « C’est fait. » Il laisse l’ampoule dans le vide-poche de la portière."
+  },
+  {
+   "key": "case031.recon.r_note",
+   "value": "Dans la voiture, le président écrit dans son carnet : « Lundi, je donnerai tout à bube ; j’annule la vente ce soir. »"
+  },
+  {
+   "key": "case031.recon.r_pour",
+   "value": "Hayashi prend le hirezake des mains de l’okami ; il s’arrête dans le couloir, brise l’ampoule dans la coupe et allume la flamme."
+  },
+  {
+   "key": "case031.recon.r_vial",
+   "value": "17 avril : Hayashi fait sortir l’ampoule de tétrodotoxine comme « échantillon d’audit » et la fait récupérer par son chauffeur."
+  },
+  {
+   "key": "case031.report.body",
+   "value": "La nuit du 18 avril 2030, dans le salon privé d’un ryōtei près de Tsukiji, Kisaragi Genzō (77 ans), président du conseil d’administration de Kisaragi Shōji, a perdu la sensibilité de la langue et n’a plus pu parler à la fin d’un dîner de fugu ; il s’est effondré à 22.40 et est mort sur le chemin de l’hôpital.\n\nÀ table : sa fille Kisaragi Sayuri, son gendre et directeur financier Hayashi Tōru, sa secrétaire Ikeda Mai. Le repas a été préparé par le chef de fugu du ryōtei, Ōmura Takeshi ; la table était tenue par l’okami, Fujimoto Kazue.\n\nPremière évaluation : intoxication au fugu ; la licence du chef a été suspendue."
+  },
+  {
+   "key": "case031.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case031.request.bin",
+   "value": "Demander l’ouverture de la boîte à déchets de la cuisine"
+  },
+  {
+   "key": "case031.request.cup",
+   "value": "Envoyer la coupe du président et le pichet à l’analyse"
+  },
+  {
+   "key": "case031.request.lab",
+   "value": "Demander l’inventaire du laboratoire et une fouille de la voiture"
+  },
+  {
+   "key": "case031.request.notebook",
+   "value": "Demander le carnet du président"
+  },
+  {
+   "key": "case031.request.phone",
+   "value": "Demander l’examen du téléphone de Hayashi Tōru"
+  },
+  {
+   "key": "case031.saito.body",
+   "value": "Le chauffeur de la famille Hayashi."
+  },
+  {
+   "key": "case031.saito.deflect",
+   "value": "Je ne fais que conduire la voiture."
+  },
+  {
+   "key": "case031.saito.door.answer",
+   "value": "Je n’ai pas vu. Mais au retour, après l’hôpital, il a mis quelque chose dans le vide-poche de la portière. Le matin, en nettoyant, un éclat de verre m’a coupé la main."
+  },
+  {
+   "key": "case031.saito.door.question",
+   "value": "Qu’y avait-il dans le paquet ?"
+  },
+  {
+   "key": "case031.saito.errand.answer",
+   "value": "Le matin, j’ai déposé M. Hayashi au bureau. À midi, il m’a envoyé chercher un paquet, au laboratoire pharmaceutique de l’entreprise à Kawasaki. Une petite boîte. « Laisse-la dans la voiture, ne la donne à personne », il a dit. Le soir, en allant au dîner, il a ouvert la boîte et a mis ce qu’il y avait dedans dans sa poche."
+  },
+  {
+   "key": "case031.saito.errand.answer.demeanor",
+   "value": "Tient sa casquette sur son genou."
+  },
+  {
+   "key": "case031.saito.errand.question",
+   "value": "Qu’avez-vous fait hier dans la journée ?"
+  },
+  {
+   "key": "case031.saito.title",
+   "value": "Saitō Gō — audition"
+  },
+  {
+   "key": "case031.sayuri.body",
+   "value": "La fille du président."
+  },
+  {
+   "key": "case031.sayuri.deflect",
+   "value": "Je ne parle pas des affaires de famille."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer",
+   "value": "Mon père allait annoncer quelque chose. Il avait changé ces derniers mois : le bol de Kamakura, les factures du pachinko, cette mort au bureau… « Il semble que je ne savais rien des choses faites en mon nom », il a dit. Au dîner, il a dit : « Il n’y aura pas de vente à Paris. » Tōru a posé son verre et n’a rien dit."
+  },
+  {
+   "key": "case031.sayuri.dinner.answer.demeanor",
+   "value": "Fait tourner son collier de perles entre ses doigts."
+  },
+  {
+   "key": "case031.sayuri.dinner.question",
+   "value": "Pourquoi ce dîner a-t-il eu lieu ?"
+  },
+  {
+   "key": "case031.sayuri.title",
+   "value": "Kisaragi Sayuri — audition"
+  },
+  {
+   "key": "case031.sayuri.toru.answer",
+   "value": "C’est son projet depuis des années. La collection d’art de l’entreprise et son « réseau logistique » devaient être cédés à une maison de vente parisienne. Tōru disait : « La signature de ton père suffit, le reste n’est que formalité. »"
+  },
+  {
+   "key": "case031.sayuri.toru.question",
+   "value": "Que pensait votre mari de la vente parisienne ?"
+  },
+  {
+   "key": "case031.summary.evidence",
+   "value": "La boîte à déchets et le pichet ont disculpé le poisson ; le poison n’était que dans la coupe. La caméra du couloir a donné l’arrêt, l’okami le service, le chauffeur le paquet, l’inventaire du laboratoire la signature, la voiture l’ampoule, et le téléphone le message « C’est fait » et E.V."
+  },
+  {
+   "key": "case031.summary.lesson",
+   "value": "À table, tous les yeux étaient sur le couteau du chef. Le poison est venu de la dernière main, la plus respectueuse en apparence."
+  },
+  {
+   "key": "case031.summary.location",
+   "value": "Tsukiji — avril 2030"
+  },
+  {
+   "key": "case031.summary.truth",
+   "value": "Kisaragi Genzō a compris que l’entreprise qu’on croyait acheteuse finale du carnet d’Arendt n’était qu’un intermédiaire, et que la marchandise, les bols et les virements partaient pour Paris. Le 18 avril, il a annulé la vente parisienne et a dit à table que lundi il dirait tout à bube. Son gendre Hayashi Tōru, averti par un e-mail signé « E.V. », a brisé dans la coupe de hirezake l’ampoule de tétrodotoxine qu’il avait fait récupérer la veille au laboratoire de l’entreprise, a allumé la flamme lui-même et a tendu la coupe à son beau-père de sa propre main."
+  },
+  {
+   "key": "case031.suspect.label",
+   "value": "Qui a tué Kisaragi Genzō ?"
+  },
+  {
+   "key": "case031.tablet.caseLine",
+   "value": "DOSSIER #031  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case031.time.cancel",
+   "value": "21.30"
+  },
+  {
+   "key": "case031.time.enter",
+   "value": "21.46"
+  },
+  {
+   "key": "case031.time.lab",
+   "value": "17 avr."
+  },
+  {
+   "key": "case031.time.msg",
+   "value": "22.58"
+  },
+  {
+   "key": "case031.time.numb",
+   "value": "22.05"
+  },
+  {
+   "key": "case031.time.pause",
+   "value": "21.45"
+  },
+  {
+   "key": "case031.time.take",
+   "value": "21.44"
+  },
+  {
+   "key": "case031.title",
+   "value": "Dossier #031 — Kisaragi"
+  },
+  {
+   "key": "case031.verdict.hayashi",
+   "value": "Hayashi Tōru"
+  },
+  {
+   "key": "case031.verdict.ikeda",
+   "value": "Ikeda Mai"
+  },
+  {
+   "key": "case031.verdict.omura",
+   "value": "Ōmura Takeshi"
+  },
+  {
+   "key": "case031.verdict.sayuri",
+   "value": "Kisaragi Sayuri"
+  },
+  {
+   "key": "case031.item.cup.name",
+   "value": "Coupe de hirezake"
+  },
+  {
+   "key": "case031.item.cup.detail",
+   "value": "La coupe en céramique à couvercle devant le président ; une nageoire de fugu grillée et du saké séché au fond."
+  },
+  {
+   "key": "case031.item.bin.name",
+   "value": "Boîte à abats scellée"
+  },
+  {
+   "key": "case031.item.bin.detail",
+   "value": "La boîte à déchets de fugu fermée à clé de la cuisine ; scellé intact, foie et ovaires pesés et consignés."
+  },
+  {
+   "key": "case031.item.vial.name",
+   "value": "Ampoule vide"
+  },
+  {
+   "key": "case031.item.vial.detail",
+   "value": "Dans le vide-poche de la portière : une mini-ampoule de laboratoire en verre brun ; son col brisé."
+  },
+  {
+   "key": "case031.item.notebook.name",
+   "value": "Le carnet du président"
+  },
+  {
+   "key": "case031.item.notebook.detail",
+   "value": "Un petit carnet relié de cuir noir ; la dernière page fraîchement écrite, le stylo appuyé fort."
+  }
+ ]
+}

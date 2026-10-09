@@ -1,0 +1,556 @@
+{
+ "entries": [
+  {
+   "key": "case032.autopsy.body",
+   "value": "· Deux coups à l’arrière gauche de la tête avec un objet lourd et anguleux. Traces d’oxyde métallique vert-brun (patine de bronze) dans la plaie.\n· Aucune blessure de défense ; elle tournait le dos.\n· Heure du décès : 12 mai 21.00–22.30."
+  },
+  {
+   "key": "case032.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case032.bastien.body",
+   "value": "Veilleur de nuit."
+  },
+  {
+   "key": "case032.bastien.deflect",
+   "value": "Moi, je surveille la porte."
+  },
+  {
+   "key": "case032.bastien.round.answer",
+   "value": "21.30, ronde au sous-sol. Le badge de Mme Benali n’était pas sur le tableau, j’ai noté : « emporté chez elle ». 22.00, deuxième ronde : le badge était à sa place. Entre les deux, en haut, la lumière était allumée dans le bureau de M. Mercier ; il travaille tard."
+  },
+  {
+   "key": "case032.bastien.round.answer.demeanor",
+   "value": "Pose son registre sur son genou."
+  },
+  {
+   "key": "case032.bastien.round.question",
+   "value": "Comment s’est passée votre ronde cette nuit-là ?"
+  },
+  {
+   "key": "case032.bastien.title",
+   "value": "Bastien Morel — audition"
+  },
+  {
+   "key": "case032.benali.body",
+   "value": "Manutentionnaire d’art."
+  },
+  {
+   "key": "case032.benali.card.answer",
+   "value": "Je suis partie à 19.00. Mon badge reste accroché au tableau, comme celui de tout le monde ; on n’a pas le droit de les emporter. Tout le monde le sait. Que vous me demandiez ça…"
+  },
+  {
+   "key": "case032.benali.card.answer.demeanor",
+   "value": "Sort ses gants de sa poche et les y renfonce."
+  },
+  {
+   "key": "case032.benali.card.question",
+   "value": "Votre badge a ouvert la réserve à 21.38."
+  },
+  {
+   "key": "case032.benali.card.variant0",
+   "value": "Le veilleur l’a dit aussi ? Cette nuit-là, la place de mon badge au tableau était vide, le matin il était revenu. Après 19.00, j’étais dans le métro ; je suis allée au café de ma sœur à Belleville, il y a une caméra."
+  },
+  {
+   "key": "case032.benali.deflect",
+   "value": "Je porte des caisses, je ne sais pas ce qu’il y a dedans."
+  },
+  {
+   "key": "case032.benali.title",
+   "value": "Inès Benali — audition"
+  },
+  {
+   "key": "case032.board.body",
+   "value": "Registre de ronde de Bastien Morel, 12 mai :\n· 21.30 · sous-sol — « Tableau : badge Benali manquant. »\n· 22.00 · sous-sol — « Tableau : complet. »\n· 22.05 · 3e étage — « Bureau de Julien Mercier allumé, porte fermée. »\n\nLe tableau est à côté de la porte de la réserve, non verrouillé. Empreintes autour du crochet vide : celles d’Inès Benali (attendues) et une empreinte brouillée, non identifiée."
+  },
+  {
+   "key": "case032.board.title",
+   "value": "REGISTRE DE RONDE DU VEILLEUR ET TABLEAU"
+  },
+  {
+   "key": "case032.cctv.event.in",
+   "value": "Caméra : une silhouette en blouse grise de manutentionnaire, col relevé, marche jusqu’à la porte de la réserve et passe un badge ; rien dans les mains."
+  },
+  {
+   "key": "case032.cctv.event.open",
+   "value": "Caméra : la porte de la réserve entrouverte, une fine lumière à l’intérieur ; le couloir vide."
+  },
+  {
+   "key": "case032.cctv.event.out",
+   "value": "Caméra : la même silhouette sort vite de la réserve, une petite boîte en bois serrée contre la poitrine, le visage détourné de la caméra."
+  },
+  {
+   "key": "case032.cctv.overlay",
+   "value": "B-02"
+  },
+  {
+   "key": "case032.cctv.period",
+   "value": "12 mai 2030"
+  },
+  {
+   "key": "case032.cctv.source",
+   "value": "Caméra du sous-sol"
+  },
+  {
+   "key": "case032.clue.back",
+   "value": "Le badge est de retour au tableau ; une lumière de bureau est allumée en haut."
+  },
+  {
+   "key": "case032.clue.in",
+   "value": "La silhouette en blouse grise passe un badge à la réserve."
+  },
+  {
+   "key": "case032.clue.lamp",
+   "value": "Veilleur : le badge de la manutentionnaire n’est pas au tableau."
+  },
+  {
+   "key": "case032.clue.msg",
+   "value": "Mathilde : « Le lot 47 vient de Kamakura. Je vais demander à Mercier. »"
+  },
+  {
+   "key": "case032.clue.out",
+   "value": "La silhouette sort de la réserve avec une petite boîte."
+  },
+  {
+   "key": "case032.clue.source.board",
+   "value": "Registre de ronde"
+  },
+  {
+   "key": "case032.clue.source.hugo",
+   "value": "Son compagnon"
+  },
+  {
+   "key": "case032.colette.body",
+   "value": "Archiviste des provenances."
+  },
+  {
+   "key": "case032.colette.deflect",
+   "value": "Les archives appartiennent à la maison de vente."
+  },
+  {
+   "key": "case032.colette.letter.answer",
+   "value": "M. Mercier l’a apportée, je l’ai classée : « Collection d’un diplomate viennois, 1998, expertise du Dr E. Varga. » Neuf lettres signées Varga sont arrivées ces dix dernières années ; toutes du département asiatique, toutes de la main de M. Mercier."
+  },
+  {
+   "key": "case032.colette.letter.answer.demeanor",
+   "value": "Tient ses lunettes par leur chaînette et les fait tourner."
+  },
+  {
+   "key": "case032.colette.letter.question",
+   "value": "La lettre de provenance du lot 47 est-elle aux archives ?"
+  },
+  {
+   "key": "case032.colette.title",
+   "value": "Colette Arnaud — audition"
+  },
+  {
+   "key": "case032.colette.woman.answer",
+   "value": "Jamais vu. Mais le mois dernier, une femme est venue aux archives, elle avait un parapluie gris, et il ne pleuvait pas. « Laissez-moi garder des copies des lettres Varga », elle a dit, et elle a laissé une carte. Seulement un numéro de téléphone sur la carte. Le numéro n’est plus attribué."
+  },
+  {
+   "key": "case032.colette.woman.question",
+   "value": "Connaissez-vous Varga ?"
+  },
+  {
+   "key": "case032.custody.copy",
+   "value": "Une copie faite à Paris"
+  },
+  {
+   "key": "case032.custody.fake",
+   "value": "Un faux fabriqué à Kamakura ; la lettre de provenance écrite à Paris"
+  },
+  {
+   "key": "case032.custody.label",
+   "value": "Qu’était le lot 47 ?"
+  },
+  {
+   "key": "case032.custody.real",
+   "value": "Un authentique bol du XVIe siècle"
+  },
+  {
+   "key": "case032.epilogue.custody.copy",
+   "value": "Le bol a été rattaché à un atelier parisien ; l’avis de Tokyo n’est jamais entré au dossier."
+  },
+  {
+   "key": "case032.epilogue.custody.fake",
+   "value": "Il a été établi que le lot 47 était un faux et que la lettre de provenance avait été écrite dans le bureau de Mercier."
+  },
+  {
+   "key": "case032.epilogue.custody.real",
+   "value": "Le lot 47 a été reconnu authentique et vendu."
+  },
+  {
+   "key": "case032.epilogue.verdict.bastien",
+   "value": "Bastien Morel a été placé en garde à vue ; le registre de ronde n’a jamais été examiné."
+  },
+  {
+   "key": "case032.epilogue.verdict.benali",
+   "value": "Inès Benali a été arrêtée ; le lot 47 a été vendu le lendemain."
+  },
+  {
+   "key": "case032.epilogue.verdict.hugo",
+   "value": "Hugo Lefèvre a été inculpé ; le message de Mathilde a été lu comme de la « jalousie »."
+  },
+  {
+   "key": "case032.epilogue.verdict.mercier",
+   "value": "Julien Mercier a été arrêté. Le lot 47 a été retiré de la vente ; les neuf lettres « Varga » ont été déclarées suspectes. La ligne d’agenda « Envoi Chicago : Lakeshore » a été notée dans le dossier de l’antenne."
+  },
+  {
+   "key": "case032.evidence.board",
+   "value": "Registre de ronde et tableau"
+  },
+  {
+   "key": "case032.evidence.letter",
+   "value": "Expertise de la lettre de provenance"
+  },
+  {
+   "key": "case032.evidence.recall",
+   "value": "Avis de rappel"
+  },
+  {
+   "key": "case032.evidence.search",
+   "value": "Perquisition du bureau du département asiatique"
+  },
+  {
+   "key": "case032.feedback.bastien",
+   "value": "Le veilleur a consigné ses rondes ; c’est lui qui a remarqué le vide au tableau des badges."
+  },
+  {
+   "key": "case032.feedback.benali",
+   "value": "Son badge a été utilisé, mais elle est partie à 19.00 ; le badge était à la portée de tous sur le tableau, et le veilleur a écrit que sa place était vide à 21.30."
+  },
+  {
+   "key": "case032.feedback.hugo",
+   "value": "Le compagnon a reçu le dernier message de la victime mais n’est pas entré dans l’immeuble ; il n’avait pas de badge."
+  },
+  {
+   "key": "case032.feedback.mercier",
+   "value": "Le sang de la victime sur le serre-livres en bronze de son bureau, ses cheveux sur la blouse grise ; la lettre du lot 47 a été écrite sur sa machine à écrire. La victime était allée l’interroger ; le badge a été pris au tableau et raccroché."
+  },
+  {
+   "key": "case032.file.caseType",
+   "value": "MEURTRE"
+  },
+  {
+   "key": "case032.file.value.bureau",
+   "value": "BDS Paris — Antenne de Belleville"
+  },
+  {
+   "key": "case032.file.value.location",
+   "value": "Paris 7e, maison de vente — réserve"
+  },
+  {
+   "key": "case032.file.value.number",
+   "value": "BDP-PAR-2030-0112"
+  },
+  {
+   "key": "case032.file.value.offence",
+   "value": "Meurtre"
+  },
+  {
+   "key": "case032.file.value.reporter",
+   "value": "Veilleur de nuit"
+  },
+  {
+   "key": "case032.hugo.body",
+   "value": "Le compagnon de la victime."
+  },
+  {
+   "key": "case032.hugo.deflect",
+   "value": "Je ne partage pas mes sources."
+  },
+  {
+   "key": "case032.hugo.msg.answer",
+   "value": "À 20.10, elle m’a écrit : « Le lot 47 vient de Kamakura. Un avis de rappel est arrivé de Tokyo, personne ne l’a lu. Je vais demander à Mercier. » Et une photo. Puis plus rien."
+  },
+  {
+   "key": "case032.hugo.msg.answer.demeanor",
+   "value": "Ne pose pas le téléphone sur la table ; en regarde l’écran."
+  },
+  {
+   "key": "case032.hugo.msg.question",
+   "value": "Que vous a dit Mathilde le dernier jour ?"
+  },
+  {
+   "key": "case032.hugo.title",
+   "value": "Hugo Lefèvre — audition"
+  },
+  {
+   "key": "case032.letter.body",
+   "value": "La lettre de provenance du lot 47 datée de « 1998 » :\n\n· Papier : papier à azurants optiques, produit après 2010. Ne peut pas être de 1998.\n· Dactylographie : machine à écrire électronique ; l’usure des caractères correspond à la machine du bureau du département asiatique.\n· Signature : « E. Varga » — la même main que la signature des huit autres lettres. Au-dessus des initiales, « E.V. » à l’encre bleue.\n\nConclusion : la lettre a été écrite dans le bureau de Julien Mercier. On n’a pas pu déterminer à qui appartient la signature."
+  },
+  {
+   "key": "case032.letter.title",
+   "value": "EXPERTISE DE LA LETTRE DE PROVENANCE"
+  },
+  {
+   "key": "case032.mercier.body",
+   "value": "Chef du département des arts asiatiques."
+  },
+  {
+   "key": "case032.mercier.deflect",
+   "value": "Les affaires de mon département regardent la maison de vente."
+  },
+  {
+   "key": "case032.mercier.lot.answer",
+   "value": "D’un intermédiaire réputé. La lettre de provenance est irréprochable. Un avis de Tokyo ne rend pas un bol faux ; mademoiselle Roux était jeune, exaltée."
+  },
+  {
+   "key": "case032.mercier.lot.question",
+   "value": "D’où vient le lot 47 ?"
+  },
+  {
+   "key": "case032.mercier.night.answer",
+   "value": "Dans mon bureau, des corrections de catalogue. Je suis parti à 21.00. Pauvre Mathilde… la discipline des badges chez les manutentionnaires est un désastre, je le dis depuis des années."
+  },
+  {
+   "key": "case032.mercier.night.answer.demeanor",
+   "value": "Descend ses lunettes de sa tête et les replie."
+  },
+  {
+   "key": "case032.mercier.night.question",
+   "value": "Où étiez-vous le soir du 12 mai ?"
+  },
+  {
+   "key": "case032.mercier.title",
+   "value": "Julien Mercier — audition"
+  },
+  {
+   "key": "case032.mercier_2.body",
+   "value": "Après la perquisition."
+  },
+  {
+   "key": "case032.mercier_2.title",
+   "value": "Julien Mercier — seconde audition"
+  },
+  {
+   "key": "case032.mercier_2.vault.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.board",
+   "value": "Pas besoin d’être manutentionnaire pour prendre un badge au tableau, c’est vrai. Mais ça ne montre pas que je l’ai pris."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.letter",
+   "value": "Le papier ? Qui sait quel papier on utilisait en 1998. Je ne connais pas Varga ; les lettres arrivent par l’intermédiaire, je ne fais que les mettre au propre."
+  },
+  {
+   "key": "case032.mercier_2.vault.presented.search",
+   "value": "…Dans mon bureau, elle a dit : « Ce bol vient de Kamakura », et elle m’a montré la photo. « Demain, je le dirai à M. Delorme », elle a dit. Elle voulait sortir le bol de la réserve pour comparer ; nous sommes descendus ensemble. J’ai pris le badge au tableau, j’ai mis la blouse ; pendant qu’elle ouvrait la boîte… le serre-livres était dans ma main. J’ai pris la photo et l’avis. J’ai seulement oublié celui qui était sur son bureau."
+  },
+  {
+   "key": "case032.mercier_2.vault.question",
+   "value": "C’est vous qui êtes entré dans la réserve à 21.38."
+  },
+  {
+   "key": "case032.method.bookend",
+   "value": "Frappée à la tête avec un serre-livres en bronze"
+  },
+  {
+   "key": "case032.method.crate",
+   "value": "Une caisse s’est renversée sur elle"
+  },
+  {
+   "key": "case032.method.fall",
+   "value": "Elle est tombée dans l’escalier de la réserve"
+  },
+  {
+   "key": "case032.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case032.offer.subtitle",
+   "value": "LOT 47  /  MEURTRE"
+  },
+  {
+   "key": "case032.offer.summary",
+   "value": "Une catalogueuse gît morte dans la réserve d’une maison de vente parisienne. La vente est demain ; le journal des badges désigne une manutentionnaire."
+  },
+  {
+   "key": "case032.offer.title",
+   "value": "DOSSIER #032"
+  },
+  {
+   "key": "case032.person.bastien.info",
+   "value": "45 ans, veilleur de nuit."
+  },
+  {
+   "key": "case032.person.bastien.name",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.person.benali.info",
+   "value": "28 ans, manutentionnaire d’art de la maison de vente ; a un badge d’accès à la réserve."
+  },
+  {
+   "key": "case032.person.benali.name",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.person.colette.info",
+   "value": "61 ans, archiviste des provenances de la maison de vente."
+  },
+  {
+   "key": "case032.person.colette.name",
+   "value": "Colette Arnaud"
+  },
+  {
+   "key": "case032.person.hugo.info",
+   "value": "33 ans, journaliste indépendant ; le compagnon de la victime."
+  },
+  {
+   "key": "case032.person.hugo.name",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.person.mercier.info",
+   "value": "54 ans, chef du département des arts asiatiques de la maison de vente Maison Delorme."
+  },
+  {
+   "key": "case032.person.mercier.name",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.recall.body",
+   "value": "Sur le bureau de la victime, un avis daté du 3 mai envoyé par l’antenne bube de Tokyo aux maisons de vente (suite au Dossier #026) :\n\n« Sept bols à thé produits dans un atelier de Kamakura et vendus comme “héritages de famille” se sont révélés être des faux. Photographies jointes. »\n\nLa troisième photographie jointe et la photographie du catalogue du lot 47 montrent le même bol : les trois mêmes coutures d’or, le même éclat sur le bord.\n\nSur l’enveloppe, la note de la victime : « De qui Mercier tient-il la lettre de provenance ? »"
+  },
+  {
+   "key": "case032.recall.title",
+   "value": "AVIS DE RAPPEL"
+  },
+  {
+   "key": "case032.report.body",
+   "value": "Le 13 mai 2030 à 07.20, la catalogueuse Mathilde Roux (31 ans) a été retrouvée morte dans la réserve du sous-sol de la maison de vente Maison Delorme, dans le 7e arrondissement. Une lourde blessure à l’arrière de la tête.\n\nLes œuvres de la vente du 14 mai attendent dans la réserve. La boîte du lot 47, un « bol à thé japonais du XVIe siècle », est à sa place ; le bol est dans sa boîte.\n\nJournal des badges de la porte de la réserve, 12 mai 21.38 et 21.52 : le badge de la manutentionnaire d’art Inès Benali."
+  },
+  {
+   "key": "case032.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case032.request.board",
+   "value": "Examiner le registre de ronde du veilleur et le tableau"
+  },
+  {
+   "key": "case032.request.letter",
+   "value": "Envoyer la lettre de provenance à l’expertise documentaire"
+  },
+  {
+   "key": "case032.request.recall",
+   "value": "Demander la correspondance sur le bureau de la victime"
+  },
+  {
+   "key": "case032.request.search",
+   "value": "Demander l’autorisation de perquisitionner le bureau de Julien Mercier"
+  },
+  {
+   "key": "case032.search.body",
+   "value": "Le bureau de Julien Mercier (avec l’accord du chef d’antenne) :\n\n· L’un des deux serre-livres en bronze de l’étagère a été fraîchement essuyé ; du sang à sa base, ADN Mathilde Roux.\n· Dans le tiroir du bureau, un cintre de blouse de manutentionnaire vide ; dans le placard, une blouse grise de manutentionnaire, un cheveu de la victime sur le col.\n· Une machine à écrire électronique ; sur son ruban, le texte de la lettre du lot 47.\n· Un agenda : « 14/5 — 20 % à E.V. après la vente du lot 47. Envoi Chicago : Lakeshore. »"
+  },
+  {
+   "key": "case032.search.title",
+   "value": "PERQUISITION DU BUREAU DU DÉPARTEMENT ASIATIQUE"
+  },
+  {
+   "key": "case032.summary.evidence",
+   "value": "Le registre de ronde du veilleur a montré que le badge n’était pas à sa place à 21.30, la caméra la silhouette en blouse grise entrant dans la réserve, l’avis sur le bureau de la victime l’identité du bol, et l’expertise de la lettre la machine à écrire de Mercier. La perquisition du bureau, ouverte sur deux motifs solides, a trouvé le serre-livres et la blouse."
+  },
+  {
+   "key": "case032.summary.lesson",
+   "value": "Un badge n’est pas la trace de celui qui le porte, mais de celui qui le prend au tableau. Demandez à la portée de qui il était."
+  },
+  {
+   "key": "case032.summary.location",
+   "value": "Paris 7e — mai 2030"
+  },
+  {
+   "key": "case032.summary.truth",
+   "value": "La catalogueuse Mathilde Roux a remarqué que l’une des photographies de l’avis de rappel de bube Tokyo était le lot 47 : un faux bol fabriqué à Kamakura. Elle a interrogé Julien Mercier, le chef du département asiatique qui avait apporté la lettre de provenance ; ils sont descendus ensemble à la réserve pour comparer. Mercier avait pris le badge d’Inès Benali au tableau des manutentionnaires et enfilé la blouse grise ; pendant que la victime ouvrait la boîte, il l’a tuée avec le serre-livres en bronze, a pris la photo et l’avis, et a raccroché le badge au tableau."
+  },
+  {
+   "key": "case032.suspect.label",
+   "value": "Qui a tué Mathilde Roux ?"
+  },
+  {
+   "key": "case032.tablet.caseLine",
+   "value": "DOSSIER #032  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case032.time.back",
+   "value": "22.00"
+  },
+  {
+   "key": "case032.time.in",
+   "value": "21.38"
+  },
+  {
+   "key": "case032.time.lamp",
+   "value": "21.30"
+  },
+  {
+   "key": "case032.time.msg",
+   "value": "20.10"
+  },
+  {
+   "key": "case032.time.open",
+   "value": "21.45"
+  },
+  {
+   "key": "case032.time.out",
+   "value": "21.52"
+  },
+  {
+   "key": "case032.title",
+   "value": "Dossier #032 — Lot 47"
+  },
+  {
+   "key": "case032.vault.body",
+   "value": "Couvre le couloir menant à la porte de la réserve. 12 mai 21.00 – 23.00."
+  },
+  {
+   "key": "case032.vault.title",
+   "value": "CAMÉRA DU COULOIR DU SOUS-SOL — transcription du relevé"
+  },
+  {
+   "key": "case032.verdict.bastien",
+   "value": "Bastien Morel"
+  },
+  {
+   "key": "case032.verdict.benali",
+   "value": "Inès Benali"
+  },
+  {
+   "key": "case032.verdict.hugo",
+   "value": "Hugo Lefèvre"
+  },
+  {
+   "key": "case032.verdict.mercier",
+   "value": "Julien Mercier"
+  },
+  {
+   "key": "case032.item.bookend.name",
+   "value": "Serre-livres en bronze"
+  },
+  {
+   "key": "case032.item.bookend.detail",
+   "value": "L’un des deux serre-livres en bronze du bureau du département asiatique ; une tache de sang essuyée à sa base."
+  },
+  {
+   "key": "case032.item.letter.name",
+   "value": "Lettre de provenance du lot 47"
+  },
+  {
+   "key": "case032.item.letter.detail",
+   "value": "Une lettre d’expert tapée sur papier ivoire et signée à l’encre bleue ; les initiales « E. V. » au-dessus de la signature."
+  },
+  {
+   "key": "case032.item.badge.name",
+   "value": "Tableau des badges"
+  },
+  {
+   "key": "case032.item.badge.detail",
+   "value": "Un tableau ouvert à l’entrée de la réserve où pendent les badges des manutentionnaires."
+  }
+ ]
+}
