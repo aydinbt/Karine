@@ -1,0 +1,548 @@
+{
+ "entries": [
+  {
+   "key": "case070.autopsy.body",
+   "value": "· Cause du décès : écrasement du thorax.\n· Pas de marques de prise aux poignets ; il était conscient en descendant et a essayé de remonter.\n· Une petite blessure ancienne à la nuque ; sans rapport.\n· Heure du décès : 23.30–00.30."
+  },
+  {
+   "key": "case070.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case070.bid.body",
+   "value": "Dossier du consortium :\n\n· Garant : Pacific Liaison Trust. Signataire autorisée « Coordinatrice régionale ».\n· Annexe : une liste de « primes de transition pour le personnel actuel du dépôt » ; en tête de liste, Paul Kerrigan, « chef d’équipe — passation sans accroc ».\n· Note de Maeve Sullivan : « le rapport retarderait l’appel d’offres. »"
+  },
+  {
+   "key": "case070.bid.title",
+   "value": "DOSSIER DE L’APPEL D’OFFRES"
+  },
+  {
+   "key": "case070.clue.found",
+   "value": "Le technicien trouve Neil sous le tram ; la fente de la clé est vide."
+  },
+  {
+   "key": "case070.clue.hiss",
+   "value": "Le veilleur entend l’air du frein se libérer, puis des pas vers le bureau."
+  },
+  {
+   "key": "case070.clue.park",
+   "value": "Le conducteur gare le tram au-dessus de la fosse et accroche la clé du frein au tableau du chef d’équipe."
+  },
+  {
+   "key": "case070.clue.source.cormac",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.clue.source.dimitri",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.clue.source.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.cormac.body",
+   "value": "Conducteur."
+  },
+  {
+   "key": "case070.cormac.deflect",
+   "value": "Moi, je conduis."
+  },
+  {
+   "key": "case070.cormac.park.answer",
+   "value": "À dix heures, au-dessus de la fosse. J’ai serré le frein et accroché la clé au tableau du chef d’équipe ; c’est la règle. Ce tram a eu du mal à s’arrêter deux fois la semaine dernière ; je l’ai dit à Neil."
+  },
+  {
+   "key": "case070.cormac.park.answer.demeanor",
+   "value": "Fait tourner sa casquette à deux mains."
+  },
+  {
+   "key": "case070.cormac.park.question",
+   "value": "Avez-vous garé le tram ?"
+  },
+  {
+   "key": "case070.cormac.title",
+   "value": "Cormac Byrne — audition"
+  },
+  {
+   "key": "case070.custody.board",
+   "value": "Retour au tableau des clés"
+  },
+  {
+   "key": "case070.custody.label",
+   "value": "Où est passée la clé du levier de frein ?"
+  },
+  {
+   "key": "case070.custody.locker",
+   "value": "Au casier du chef d’équipe"
+  },
+  {
+   "key": "case070.custody.pit",
+   "value": "Au fond de la fosse"
+  },
+  {
+   "key": "case070.dimitri.body",
+   "value": "Veilleur de nuit."
+  },
+  {
+   "key": "case070.dimitri.deflect",
+   "value": "Quarante ans sur ces rails ; je connais les bruits."
+  },
+  {
+   "key": "case070.dimitri.sound.answer",
+   "value": "Vers minuit, un frein a lâché son air ; ce sifflement, je l’ai écouté pendant quarante ans. Puis le bruit des rails. Puis des pas, vers le bureau. Il n’y avait que le chef d’équipe dans le bureau ; Paul Kerrigan a allumé la lumière, puis l’a éteinte."
+  },
+  {
+   "key": "case070.dimitri.sound.answer.demeanor",
+   "value": "Lisse sa moustache."
+  },
+  {
+   "key": "case070.dimitri.sound.question",
+   "value": "Qu’avez-vous entendu hier soir ?"
+  },
+  {
+   "key": "case070.dimitri.title",
+   "value": "Dimitri Kostas — audition"
+  },
+  {
+   "key": "case070.epilogue.custody.board",
+   "value": "Cette clé n’était pas au tableau."
+  },
+  {
+   "key": "case070.epilogue.custody.locker",
+   "value": "Il a été consigné que la clé avait été retrouvée dans le casier du chef d’équipe."
+  },
+  {
+   "key": "case070.epilogue.custody.pit",
+   "value": "Il n’y avait qu’une lampe torche et une plaquette de frein dans la fosse."
+  },
+  {
+   "key": "case070.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; les trams sont restés sur les rails."
+  },
+  {
+   "key": "case070.epilogue.verdict.kerrigan",
+   "value": "Paul Kerrigan a été arrêté ; quatorze trams ont été retirés du service. La commission d’appel d’offres a retiré la garantie de Pacific Liaison du dossier."
+  },
+  {
+   "key": "case070.epilogue.verdict.maeve",
+   "value": "Maeve Sullivan a été interrogée ; le chef d’équipe a repris le travail."
+  },
+  {
+   "key": "case070.epilogue.verdict.wiremu",
+   "value": "Wiremu Tane a été arrêté ; la clé est restée dans le casier."
+  },
+  {
+   "key": "case070.evidence.bid",
+   "value": "Dossier de l’appel d’offres"
+  },
+  {
+   "key": "case070.evidence.locker",
+   "value": "Fouille du casier"
+  },
+  {
+   "key": "case070.evidence.mail",
+   "value": "Correspondance syndicale"
+  },
+  {
+   "key": "case070.evidence.pit",
+   "value": "Examen de la fosse"
+  },
+  {
+   "key": "case070.feedback.accident",
+   "value": "La clé du levier de desserrage du frein n’était pas dans sa fente ; quelqu’un l’a insérée puis retirée."
+  },
+  {
+   "key": "case070.feedback.kerrigan",
+   "value": "La clé du frein et les pages arrachées du registre étaient dans son casier, son empreinte sur la clé ; Neil lui avait écrit pour lui dire qu’il serait là cette nuit-là. Le veilleur a entendu des pas vers le bureau après le frein."
+  },
+  {
+   "key": "case070.feedback.maeve",
+   "value": "La responsable des contrats voulait retarder le rapport, mais elle n’était pas au dépôt cette nuit-là."
+  },
+  {
+   "key": "case070.feedback.wiremu",
+   "value": "Le technicien a trouvé le corps ; la clé du frein était au tableau, puis dans le casier du chef d’équipe, pas chez lui."
+  },
+  {
+   "key": "case070.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case070.file.value.bureau",
+   "value": "BDA Melbourne — Antenne de Footscray"
+  },
+  {
+   "key": "case070.file.value.location",
+   "value": "Dépôt de tramways de Footscray, Melbourne"
+  },
+  {
+   "key": "case070.file.value.number",
+   "value": "BDA-MEL-2030-0351"
+  },
+  {
+   "key": "case070.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case070.file.value.reporter",
+   "value": "Technicien de maintenance"
+  },
+  {
+   "key": "case070.haddad.body",
+   "value": "Déléguée syndicale santé et sécurité."
+  },
+  {
+   "key": "case070.haddad.deflect",
+   "value": "Réparer un frein sur le papier, c’est facile."
+  },
+  {
+   "key": "case070.haddad.rep.answer",
+   "value": "Les freins de quatorze trams. Le registre d’entretien dit « bon état », mais les pièces n’ont jamais été remplacées. Le rapport devait aller à la commission d’appel d’offres lundi. Maeve Sullivan nous a demandé de repousser le rapport « après l’appel d’offres »."
+  },
+  {
+   "key": "case070.haddad.rep.answer.demeanor",
+   "value": "Pose son téléphone face contre la table."
+  },
+  {
+   "key": "case070.haddad.rep.question",
+   "value": "Que signalait Neil ?"
+  },
+  {
+   "key": "case070.haddad.title",
+   "value": "Rania Haddad — audition"
+  },
+  {
+   "key": "case070.kerrigan.body",
+   "value": "Chef d’équipe de nuit."
+  },
+  {
+   "key": "case070.kerrigan.deflect",
+   "value": "Tout est consigné au dépôt."
+  },
+  {
+   "key": "case070.kerrigan.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.locker",
+   "value": "J’ai pris la clé au tableau. Je voulais l’intimider, le faire sortir de la fosse, lui faire lâcher le rapport. Quand l’air est parti, le tram a roulé. Je n’ai pas pu l’arrêter. Je ne l’ai pas arrêté. J’ai arraché les pages. Mon nom était sur la liste des primes ; arriver sur cette liste m’a pris dix ans."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.mail",
+   "value": "J’ai dit : « Ne viens pas. » Il est venu. Vous connaissez la suite."
+  },
+  {
+   "key": "case070.kerrigan.end.question",
+   "value": "Vous avez desserré le frein."
+  },
+  {
+   "key": "case070.kerrigan.night.answer",
+   "value": "Au bureau, de la paperasse. Neil est descendu dans la fosse sans autorisation. Les trams sont vieux ; le frein s’est desserré tout seul."
+  },
+  {
+   "key": "case070.kerrigan.night.answer.demeanor",
+   "value": "Remonte la fermeture de son gilet."
+  },
+  {
+   "key": "case070.kerrigan.night.question",
+   "value": "Où étiez-vous à minuit ?"
+  },
+  {
+   "key": "case070.kerrigan.title",
+   "value": "Paul Kerrigan — audition"
+  },
+  {
+   "key": "case070.line_bid.body",
+   "value": "Ligne de l’appel d’offres ouverte : le consortium, les garanties, les paiements."
+  },
+  {
+   "key": "case070.line_bid.title",
+   "value": "LIGNE C — APPEL D’OFFRES"
+  },
+  {
+   "key": "case070.line_depot.body",
+   "value": "Ligne du dépôt ouverte : casiers, registres d’entretien, tableau des clés."
+  },
+  {
+   "key": "case070.line_depot.title",
+   "value": "LIGNE A — DÉPÔT"
+  },
+  {
+   "key": "case070.line_union.body",
+   "value": "Ligne du syndicat ouverte : correspondance, projets de rapport, notes de réunion."
+  },
+  {
+   "key": "case070.line_union.title",
+   "value": "LIGNE B — SYNDICAT"
+  },
+  {
+   "key": "case070.locker.body",
+   "value": "Le casier de Paul Kerrigan au dépôt :\n\n· La clé du levier de desserrage du frein du tram numéro 6 ; l’empreinte de Kerrigan dans la graisse.\n· Deux pages arrachées du registre d’entretien ; des notes « à remplacer » pour quatorze trams.\n· Le projet de rapport de Neil Ashworth, à moitié déchiré."
+  },
+  {
+   "key": "case070.locker.title",
+   "value": "CASIER DU CHEF D’ÉQUIPE — FOUILLE"
+  },
+  {
+   "key": "case070.maeve.bid.answer",
+   "value": "Parce qu’un appel d’offres, c’est un chiffre, et un rapport, c’est un gros titre. Le garant du consortium est un trust ; le trust « ne veut pas de surprises ». Ce n’est pas un mobile de meurtre, c’est une procédure commerciale."
+  },
+  {
+   "key": "case070.maeve.bid.answer.demeanor",
+   "value": "Prend ses lunettes au bout de leur chaînette et les met."
+  },
+  {
+   "key": "case070.maeve.bid.question",
+   "value": "Pourquoi vouliez-vous repousser le rapport ?"
+  },
+  {
+   "key": "case070.maeve.body",
+   "value": "Responsable des contrats à l’autorité des transports."
+  },
+  {
+   "key": "case070.maeve.deflect",
+   "value": "Un contrat, c’est un chiffre ; le reste, c’est du bruit."
+  },
+  {
+   "key": "case070.maeve.title",
+   "value": "Maeve Sullivan — audition"
+  },
+  {
+   "key": "case070.mail.body",
+   "value": "Les derniers messages de Neil Ashworth :\n\n· À Paul Kerrigan, le 14 novembre : « C’est toi qui as signé les notes “bon état” dans le registre. Ton nom sera dans le rapport de lundi. Ce soir, je jette un dernier coup d’œil aux plaquettes de frein. »\n· Réponse de Kerrigan : « Ne viens pas ce soir. Parlons. »"
+  },
+  {
+   "key": "case070.mail.title",
+   "value": "CORRESPONDANCE SYNDICALE"
+  },
+  {
+   "key": "case070.method.brake",
+   "value": "Le tram, son frein volontairement desserré, a roulé sur la victime dans la fosse"
+  },
+  {
+   "key": "case070.method.fall",
+   "value": "Il est tombé dans la fosse et a été écrasé"
+  },
+  {
+   "key": "case070.method.fault",
+   "value": "Le frein s’est desserré tout seul"
+  },
+  {
+   "key": "case070.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case070.offer.subtitle",
+   "value": "DÉPÔT  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case070.offer.summary",
+   "value": "Un délégué syndical a été retrouvé dans une fosse d’entretien, sous un tram qui avait roulé sur lui."
+  },
+  {
+   "key": "case070.offer.title",
+   "value": "DOSSIER #070"
+  },
+  {
+   "key": "case070.person.cormac.info",
+   "value": "29 ans, conducteur de tram."
+  },
+  {
+   "key": "case070.person.cormac.name",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.person.dimitri.info",
+   "value": "62 ans, conducteur à la retraite ; le veilleur de nuit du dépôt."
+  },
+  {
+   "key": "case070.person.dimitri.name",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.person.haddad.info",
+   "value": "38 ans, la déléguée santé et sécurité du syndicat."
+  },
+  {
+   "key": "case070.person.haddad.name",
+   "value": "Rania Haddad"
+  },
+  {
+   "key": "case070.person.kerrigan.info",
+   "value": "50 ans, chef d’équipe de nuit au dépôt de tramways."
+  },
+  {
+   "key": "case070.person.kerrigan.name",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.person.maeve.info",
+   "value": "55 ans, responsable des contrats à l’autorité des transports."
+  },
+  {
+   "key": "case070.person.maeve.name",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.person.wiremu.info",
+   "value": "44 ans, technicien de maintenance ; il a trouvé le corps."
+  },
+  {
+   "key": "case070.person.wiremu.name",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.pit.body",
+   "value": "La fosse numéro 6 et le tram au-dessus :\n\n· Le tram a avancé de 2,1 mètres sur sa propre voie ; le cylindre de frein est vide d’air.\n· La fente du levier de desserrage du frein est vide ; aucune clé insérée.\n· Au fond de la fosse, une lampe torche et une plaquette de frein ; la victime examinait la plaquette."
+  },
+  {
+   "key": "case070.pit.title",
+   "value": "EXAMEN DE LA FOSSE D’ENTRETIEN"
+  },
+  {
+   "key": "case070.report.body",
+   "value": "Dans la nuit du 15 novembre 2030, au dépôt de tramways de Footscray, le délégué syndical santé et sécurité Neil Ashworth (47 ans) a été retrouvé mort dans la fosse d’entretien numéro 6, sous un tram qui avait roulé sur lui.\n\nLe technicien de maintenance Wiremu Tane a trouvé le corps à 01.40. Le chef d’équipe Paul Kerrigan, Rania Haddad du syndicat, le conducteur qui a garé le tram Cormac Byrne, Maeve Sullivan de l’autorité des transports et le veilleur de nuit Dimitri Kostas doivent être entendus."
+  },
+  {
+   "key": "case070.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case070.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case070.request.bid",
+   "value": "Demander le dossier de l’appel d’offres"
+  },
+  {
+   "key": "case070.request.line_bid",
+   "value": "Ouvrir la ligne de l’appel d’offres"
+  },
+  {
+   "key": "case070.request.line_depot",
+   "value": "Ouvrir la ligne du dépôt"
+  },
+  {
+   "key": "case070.request.line_union",
+   "value": "Ouvrir la ligne du syndicat"
+  },
+  {
+   "key": "case070.request.locker",
+   "value": "Demander l’autorisation de fouiller le casier du chef d’équipe"
+  },
+  {
+   "key": "case070.request.mail",
+   "value": "Demander la correspondance syndicale"
+  },
+  {
+   "key": "case070.request.pit",
+   "value": "Demander un examen de la fosse d’entretien"
+  },
+  {
+   "key": "case070.summary.evidence",
+   "value": "Deux des trois lignes ont suffi : la ligne du dépôt a donné la clé, celle du syndicat le message « ne viens pas ». La ligne de l’appel d’offres a montré le mobile."
+  },
+  {
+   "key": "case070.summary.lesson",
+   "value": "Le registre disait que les freins étaient en bon état. C’est lui qui écrivait le registre."
+  },
+  {
+   "key": "case070.summary.location",
+   "value": "Dépôt de tramways de Footscray — novembre 2030"
+  },
+  {
+   "key": "case070.summary.truth",
+   "value": "Pendant des années, le chef d’équipe Paul Kerrigan a écrit « bon état » dans le registre d’entretien. Le consortium bien parti pour remporter l’appel d’offres l’avait mis sur sa liste de primes « passation sans accroc ». Neil Ashworth, du syndicat, allait signaler les freins. La nuit, Kerrigan a pris la clé au tableau et a desserré le frein pendant que Neil était dans la fosse."
+  },
+  {
+   "key": "case070.suspect.label",
+   "value": "Qui a tué Neil Ashworth ?"
+  },
+  {
+   "key": "case070.tablet.caseLine",
+   "value": "DOSSIER #070  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case070.time.found",
+   "value": "01.40"
+  },
+  {
+   "key": "case070.time.hiss",
+   "value": "minuit"
+  },
+  {
+   "key": "case070.time.park",
+   "value": "22.00"
+  },
+  {
+   "key": "case070.title",
+   "value": "Dossier #070 — Dépôt"
+  },
+  {
+   "key": "case070.verdict.accident",
+   "value": "Personne — le frein s’est desserré tout seul"
+  },
+  {
+   "key": "case070.verdict.kerrigan",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.verdict.maeve",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.verdict.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.wiremu.body",
+   "value": "Technicien de maintenance."
+  },
+  {
+   "key": "case070.wiremu.deflect",
+   "value": "Je descends dans cette fosse tous les jours."
+  },
+  {
+   "key": "case070.wiremu.found.answer",
+   "value": "Neil a dit qu’il regarderait les plaquettes de frein la nuit. J’ai apporté du café. Le tram avait roulé. La clé du frein n’était pas là ; cette clé reste chez le chef d’équipe, pas chez nous. Je l’ai aidé pour son rapport aussi, oui."
+  },
+  {
+   "key": "case070.wiremu.found.answer.demeanor",
+   "value": "Ouvre les mains devant lui et les regarde."
+  },
+  {
+   "key": "case070.wiremu.found.question",
+   "value": "Pourquoi êtes-vous descendu dans la fosse ?"
+  },
+  {
+   "key": "case070.wiremu.title",
+   "value": "Wiremu Tane — audition"
+  },
+  {
+   "key": "case070.item.key.name",
+   "value": "Clé du levier de frein"
+  },
+  {
+   "key": "case070.item.key.detail",
+   "value": "La clé amovible du levier de desserrage du frein du tram ; elle est sortie du casier du chef d’équipe."
+  },
+  {
+   "key": "case070.item.log.name",
+   "value": "Registre d’entretien des freins"
+  },
+  {
+   "key": "case070.item.log.detail",
+   "value": "Le registre d’entretien du dépôt ; la note « freins en bon état » à l’encre fraîche."
+  },
+  {
+   "key": "case070.item.report.name",
+   "value": "Rapport de sécurité du syndicat"
+  },
+  {
+   "key": "case070.item.report.detail",
+   "value": "Le projet de rapport préparé par la victime ; les freins de quatorze trams."
+  }
+ ]
+}
