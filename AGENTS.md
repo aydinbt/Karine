@@ -2,7 +2,7 @@
 
 ## Önce oku
 
-**Durum ve sıra:** `Docs/STATUS.md` (tek sayfa) → `Docs/PHASE_PLAN.md` (hangi iş, hangi sırayla) → `Docs/ROADMAP.md` (ayrıntılı liste).
+**Durum ve sıra:** `Docs/STATUS.md` (tek sayfa) · kullanıcının işleri: `Docs/SANA_KALANLAR.md` → `Docs/PHASE_PLAN.md` (hangi iş, hangi sırayla) → `Docs/ROADMAP.md` (ayrıntılı liste).
 **Tasarım kanonu:** `Docs/MASTER_GAME_CONTEXT.md` + `Docs/DESIGN_AMENDMENTS.md` (sonraki düzeltmeler günlüğü — yeni karar buraya yazılır).
 **Arayüz kanonu:** `Docs/UI_KIT.md` + `Docs/Reference/UI_KIT.png` — bağlayıcı tasarım sistemi. Yeni ekran yazmadan **önce** okunur; renk/punto/boşluk ekranın içine yazılmaz, `KarineTheme`den alınır, bileşen `KarineUI`den gelir.
 **Destekleyici:** `Docs/CAREER_AND_CHARACTER.md`, `Docs/VISUAL_DIRECTION.md`, `Docs/WORLD_OPENINGS.md`.
@@ -24,7 +24,7 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 ## Oturum sonu
 
-`ROADMAP.md` işaretlerini ve tarihini güncelle, `STATUS.md`'yi yenile, yeni tasarım kararını `DESIGN_AMENDMENTS.md`'ye, yeni teknik gerçeği `Architecture.md`'ye yaz. Bir aşama "Bitti ölçütü" gerçekleşmeden kapalı ilan edilmez.
+`ROADMAP.md` işaretlerini ve tarihini güncelle, kullanıcıya düşen her yeni ya da biten işi `Docs/SANA_KALANLAR.md`'ye işle (tek liste; benim işlerim oraya girmez), `STATUS.md`'yi yenile, yeni tasarım kararını `DESIGN_AMENDMENTS.md`'ye, yeni teknik gerçeği `Architecture.md`'ye yaz. Bir aşama "Bitti ölçütü" gerçekleşmeden kapalı ilan edilmez.
 
 ## Bilinen durum (25 Eylül 2026)
 
