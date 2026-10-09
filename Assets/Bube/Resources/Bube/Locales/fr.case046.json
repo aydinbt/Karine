@@ -1,0 +1,424 @@
+{
+ "entries": [
+  {
+   "key": "case046.assunta.body",
+   "value": "Voisine."
+  },
+  {
+   "key": "case046.assunta.deflect",
+   "value": "Je dis ce que je vois dans le vicolo."
+  },
+  {
+   "key": "case046.assunta.night.answer",
+   "value": "Le scooter de Gennaro. Vers onze heures du soir, il s’est arrêté devant la porte ; il a laissé le moteur tourner et il est entré. Une demi-heure plus tard, il est ressorti, il a mis quelque chose sous la selle et il est parti. Ma porte est juste en face ; je vois tout."
+  },
+  {
+   "key": "case046.assunta.night.answer.demeanor",
+   "value": "Serre sa croix dans sa paume."
+  },
+  {
+   "key": "case046.assunta.night.question",
+   "value": "Avez-vous vu quelque chose dans la nuit ?"
+  },
+  {
+   "key": "case046.assunta.tin.answer",
+   "value": "La boîte de son mari Salvatore. Il était employé au port, chez les Caruso. Avant de mourir, il lui a dit : « Nunzia, ne donne cette boîte à personne ; un jour les Caruso la voudront. » La semaine dernière, deux hommes sont venus la demander. Nunzia leur a fermé la porte au nez."
+  },
+  {
+   "key": "case046.assunta.tin.question",
+   "value": "Connaissez-vous la boîte de Nunzia ?"
+  },
+  {
+   "key": "case046.assunta.title",
+   "value": "Assunta Esposito — audition"
+  },
+  {
+   "key": "case046.autopsy.body",
+   "value": "· Pétéchies à l’intérieur des paupières et sur le visage ; ecchymoses sur la face interne du nez et des lèvres.\n· Fibres de coton dans la bouche. Le cœur fatigué pour son âge, mais pas la cause du décès.\n· Cause du décès : bouche et nez recouverts d’un objet mou. Heure du décès : 23.00–00.30."
+  },
+  {
+   "key": "case046.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case046.bank.body",
+   "value": "Le compte de Gennaro Russo :\n\n· 28 septembre : dépôt de 2 500 € en espèces.\n· Sur son téléphone, le 28 septembre, d’un numéro non enregistré : « L’autre moitié quand la boîte arrivera. — C.M. »\n· Lieu du dernier appel de ce numéro : le bureau de Caruso Marittima au port de Napoli."
+  },
+  {
+   "key": "case046.bank.title",
+   "value": "RELEVÉ BANCAIRE"
+  },
+  {
+   "key": "case046.clue.arrive",
+   "value": "Le scooter du petit-fils s’arrête devant le basso."
+  },
+  {
+   "key": "case046.clue.found",
+   "value": "La voisine trouve le corps."
+  },
+  {
+   "key": "case046.clue.leave",
+   "value": "Le scooter repart."
+  },
+  {
+   "key": "case046.clue.shout",
+   "value": "« Nonna, cinq mille euros ! » — « Mai ! »"
+  },
+  {
+   "key": "case046.clue.source.orders",
+   "value": "Journal de livraison"
+  },
+  {
+   "key": "case046.clue.source.pieter",
+   "value": "Touriste"
+  },
+  {
+   "key": "case046.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case046.custody.hidden",
+   "value": "La victime l’a mise à l’abri elle-même"
+  },
+  {
+   "key": "case046.custody.label",
+   "value": "Où est passée la boîte ?"
+  },
+  {
+   "key": "case046.custody.men",
+   "value": "Les deux hommes venus à la porte l’ont prise"
+  },
+  {
+   "key": "case046.custody.seat",
+   "value": "Sous la selle du scooter du petit-fils"
+  },
+  {
+   "key": "case046.epilogue.custody.hidden",
+   "value": "La boîte n’était pas dans le basso."
+  },
+  {
+   "key": "case046.epilogue.custody.men",
+   "value": "Les hommes n’avaient pas encore récupéré la boîte."
+  },
+  {
+   "key": "case046.epilogue.custody.seat",
+   "value": "Il a été consigné que la boîte avait été retrouvée sous la selle du scooter du petit-fils."
+  },
+  {
+   "key": "case046.epilogue.verdict.assunta",
+   "value": "Assunta Esposito a été interrogée ; le dossier a été classé comme une dispute familiale."
+  },
+  {
+   "key": "case046.epilogue.verdict.gennaro",
+   "value": "Gennaro Russo a été arrêté. Les 212 bordereaux d’expédition de Salvatore Russo sont entrés dans le dossier Caruso de bube Napoli."
+  },
+  {
+   "key": "case046.epilogue.verdict.natural",
+   "value": "Le décès a été jugé naturel ; Nunzia a été enterrée le lendemain, et la boîte a disparu."
+  },
+  {
+   "key": "case046.epilogue.verdict.pieter",
+   "value": "L’extradition de Pieter de Vries a été demandée aux Pays-Bas ; la boîte est partie au port."
+  },
+  {
+   "key": "case046.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case046.evidence.bank",
+   "value": "Relevé bancaire"
+  },
+  {
+   "key": "case046.evidence.orders",
+   "value": "Journal de l’application de livraison"
+  },
+  {
+   "key": "case046.evidence.scooter",
+   "value": "Fouille du scooter"
+  },
+  {
+   "key": "case046.feedback.assunta",
+   "value": "La voisine habite en face de la porte ; elle a trouvé le corps et a décrit ce qu’elle a vu."
+  },
+  {
+   "key": "case046.feedback.gennaro",
+   "value": "Le journal de livraison le place devant le basso de 22.48 à 23.52, la voisine à l’intérieur ; sous sa selle, la boîte ; dans sa veste, des fibres de l’oreiller. Il avait reçu de l’argent du bureau de Caruso pour la boîte."
+  },
+  {
+   "key": "case046.feedback.natural",
+   "value": "L’autopsie montre des pétéchies, des fibres dans la bouche et des ecchymoses à l’intérieur des lèvres."
+  },
+  {
+   "key": "case046.feedback.pieter",
+   "value": "Le touriste logeait à l’étage ; rien ne montre qu’il est entré dans le basso."
+  },
+  {
+   "key": "case046.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case046.file.value.bureau",
+   "value": "BDS Napoli — Antenne des Quartieri Spagnoli"
+  },
+  {
+   "key": "case046.file.value.location",
+   "value": "Quartieri Spagnoli, Napoli — basso"
+  },
+  {
+   "key": "case046.file.value.number",
+   "value": "BDN-NAP-2030-0312"
+  },
+  {
+   "key": "case046.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case046.file.value.reporter",
+   "value": "Voisine"
+  },
+  {
+   "key": "case046.gennaro.body",
+   "value": "Le petit-fils de la victime."
+  },
+  {
+   "key": "case046.gennaro.deflect",
+   "value": "Les affaires de notre famille nous regardent."
+  },
+  {
+   "key": "case046.gennaro.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case046.gennaro.end.presented.bank",
+   "value": "Cinq mille, un boulot. Du travail de livreur."
+  },
+  {
+   "key": "case046.gennaro.end.presented.scooter",
+   "value": "Les hommes m’ont donné cinq mille, ils ont dit « rapporte la boîte ». Nonna ne voulait pas la donner. Elle criait ; les voisins allaient entendre. J’ai tenu l’oreiller sur son visage, juste pour qu’elle se taise. Ensuite… elle s’est tue, pour de bon. J’ai pris la boîte. J’allais la remettre demain."
+  },
+  {
+   "key": "case046.gennaro.end.question",
+   "value": "Vous étiez dans le basso avant minuit."
+  },
+  {
+   "key": "case046.gennaro.night.answer",
+   "value": "Au travail ; je livrais des colis jusqu’à minuit. J’aimais ma Nonna. Son cœur était faible ; tout le monde le savait."
+  },
+  {
+   "key": "case046.gennaro.night.answer.demeanor",
+   "value": "Fait tourner son casque entre ses mains."
+  },
+  {
+   "key": "case046.gennaro.night.question",
+   "value": "Où étiez-vous la nuit dernière ?"
+  },
+  {
+   "key": "case046.gennaro.title",
+   "value": "Gennaro Russo — audition"
+  },
+  {
+   "key": "case046.method.fall",
+   "value": "Elle est tombée du lit"
+  },
+  {
+   "key": "case046.method.heart",
+   "value": "Une insuffisance cardiaque"
+  },
+  {
+   "key": "case046.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case046.method.pillow",
+   "value": "Elle a été étouffée avec un oreiller"
+  },
+  {
+   "key": "case046.offer.subtitle",
+   "value": "BASSO  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case046.offer.summary",
+   "value": "Dans les Quartieri Spagnoli, une dentellière de quatre-vingt-deux ans est morte dans son lit. La boîte que son mari lui avait laissée a disparu."
+  },
+  {
+   "key": "case046.offer.title",
+   "value": "DOSSIER #046"
+  },
+  {
+   "key": "case046.orders.body",
+   "value": "Le compte de livreur de Gennaro Russo, 3 octobre :\n\n· 14 livraisons entre 19.00 et 22.48.\n· 22.48–23.52 compte en « pause » ; position du scooter : Vico Lungo, devant le basso de la victime.\n· Reprise des livraisons après 23.58."
+  },
+  {
+   "key": "case046.orders.title",
+   "value": "JOURNAL DE L’APPLICATION DE LIVRAISON"
+  },
+  {
+   "key": "case046.person.assunta.info",
+   "value": "71 ans, la voisine du basso d’en face."
+  },
+  {
+   "key": "case046.person.assunta.name",
+   "value": "Assunta Esposito"
+  },
+  {
+   "key": "case046.person.gennaro.info",
+   "value": "26 ans, le petit-fils de la victime ; livreur en scooter."
+  },
+  {
+   "key": "case046.person.gennaro.name",
+   "value": "Gennaro Russo"
+  },
+  {
+   "key": "case046.person.pieter.info",
+   "value": "38 ans, touriste néerlandais logé dans l’appartement loué à l’étage."
+  },
+  {
+   "key": "case046.person.pieter.name",
+   "value": "Pieter de Vries"
+  },
+  {
+   "key": "case046.pieter.body",
+   "value": "Touriste."
+  },
+  {
+   "key": "case046.pieter.deflect",
+   "value": "Désolé — je suis seulement ici en vacances."
+  },
+  {
+   "key": "case046.pieter.gone",
+   "value": "Pieter de Vries est rentré à Amsterdam par le vol du matin. Il n’a plus pu être joint."
+  },
+  {
+   "key": "case046.pieter.heard.answer",
+   "value": "Mon plancher est son plafond. Vers 23.10, des cris ; une voix de jeune homme : « Nonna, cinq mille euros ! » La femme a dit « Mai ! » — jamais. Puis le silence. J’ai un vol demain matin. Je ne parle pas italien, mais je connais ces deux mots."
+  },
+  {
+   "key": "case046.pieter.heard.answer.demeanor",
+   "value": "Tire sur la sangle de son appareil photo."
+  },
+  {
+   "key": "case046.pieter.heard.question",
+   "value": "Avez-vous entendu quelque chose dans la nuit ?"
+  },
+  {
+   "key": "case046.pieter.title",
+   "value": "Pieter de Vries — audition"
+  },
+  {
+   "key": "case046.report.body",
+   "value": "Le matin du 4 octobre 2030, dans les Quartieri Spagnoli, la dentellière Nunzia Russo (82 ans) a été retrouvée morte dans son lit, dans un basso donnant sur la rue.\n\nSa voisine d’en face, Assunta Esposito, a trouvé le corps à 07.15 : la porte s’ouvrait à six heures chaque matin, et elle ne s’était pas ouverte. Son petit-fils Gennaro Russo a appris la nouvelle par téléphone. Le touriste néerlandais Pieter de Vries loge dans l’appartement loué à l’étage."
+  },
+  {
+   "key": "case046.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case046.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case046.request.bank",
+   "value": "Demander le relevé bancaire de Gennaro Russo"
+  },
+  {
+   "key": "case046.request.orders",
+   "value": "Demander le journal de l’application de livraison"
+  },
+  {
+   "key": "case046.request.scooter",
+   "value": "Demander l’autorisation de fouiller le scooter de Gennaro Russo"
+  },
+  {
+   "key": "case046.scooter.body",
+   "value": "Sous la selle du scooter de Gennaro Russo (avec l’accord du chef d’antenne) :\n\n· Une vieille boîte à biscuits ; à l’intérieur, 212 bordereaux d’expédition de Caruso Marittima datés de 1978–1999 ; au dos de beaucoup, des notes de la main de Salvatore Russo.\n· Sur le couvercle de la boîte, un brin du fil à dentelle de la victime.\n· Dans la poche de la veste de Gennaro Russo, des fibres de coton de l’oreiller de la victime."
+  },
+  {
+   "key": "case046.scooter.title",
+   "value": "FOUILLE DU SCOOTER"
+  },
+  {
+   "key": "case046.summary.evidence",
+   "value": "L’autopsie a montré l’étouffement, la voisine le scooter et ce qui est allé sous sa selle, le journal de livraison les heures de pause. La fouille a donné la boîte et les fibres. Le touriste avait entendu la dispute ; s’il n’était pas interrogé avant l’autopsie, il partait par le vol du matin."
+  },
+  {
+   "key": "case046.summary.lesson",
+   "value": "À Napoli, les témoins n’attendent pas. Interroge aujourd’hui ceux qui partent demain."
+  },
+  {
+   "key": "case046.summary.location",
+   "value": "Quartieri Spagnoli — octobre 2030"
+  },
+  {
+   "key": "case046.summary.truth",
+   "value": "Quelqu’un chez Caruso Marittima voulait les vieux bordereaux du port que le mari de Nunzia Russo lui avait laissés. Quand Nunzia a refusé, on a offert cinq mille euros à son petit-fils Gennaro. Pendant une pause de livraison, la nuit, Gennaro est allé au basso ; quand sa grand-mère a dit « jamais », il lui a appuyé l’oreiller sur le visage et a mis la boîte sous la selle de son scooter."
+  },
+  {
+   "key": "case046.suspect.label",
+   "value": "Qui a tué Nunzia Russo ?"
+  },
+  {
+   "key": "case046.tablet.caseLine",
+   "value": "DOSSIER #046  /  BUBE NAPOLI — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case046.time.arrive",
+   "value": "22.48"
+  },
+  {
+   "key": "case046.time.found",
+   "value": "07.15"
+  },
+  {
+   "key": "case046.time.leave",
+   "value": "23.52"
+  },
+  {
+   "key": "case046.time.shout",
+   "value": "23.10"
+  },
+  {
+   "key": "case046.title",
+   "value": "Dossier #046 — Basso"
+  },
+  {
+   "key": "case046.verdict.assunta",
+   "value": "Assunta Esposito"
+  },
+  {
+   "key": "case046.verdict.gennaro",
+   "value": "Gennaro Russo"
+  },
+  {
+   "key": "case046.verdict.natural",
+   "value": "Personne — une insuffisance cardiaque"
+  },
+  {
+   "key": "case046.verdict.pieter",
+   "value": "Pieter de Vries"
+  },
+  {
+   "key": "case046.item.pillow.name",
+   "value": "Oreiller"
+  },
+  {
+   "key": "case046.item.pillow.detail",
+   "value": "L’oreiller brodé sur le lit de la victime ; une trace de rouge à lèvres et de salive au milieu."
+  },
+  {
+   "key": "case046.item.tin.name",
+   "value": "Boîte en fer"
+  },
+  {
+   "key": "case046.item.tin.detail",
+   "value": "Une vieille boîte à biscuits tirée de sous une selle de scooter ; des bordereaux d’expédition jaunis à l’intérieur."
+  },
+  {
+   "key": "case046.item.lace.name",
+   "value": "Dentelle inachevée"
+  },
+  {
+   "key": "case046.item.lace.detail",
+   "value": "L’ouvrage au crochet sur la chaise de la victime ; le crochet encore dans la boucle."
+  }
+ ]
+}

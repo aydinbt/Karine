@@ -1,0 +1,584 @@
+{
+ "entries": [
+  {
+   "key": "case045.abrams.body",
+   "value": "Chauffeur et garde du corps."
+  },
+  {
+   "key": "case045.abrams.deflect",
+   "value": "Je conduis la voiture ; j’ouvre la portière."
+  },
+  {
+   "key": "case045.abrams.door.answer",
+   "value": "Moi. Qui que ce soit qui vienne ou qui parte, c’est moi qui ouvre. Trevor à sept heures et demie, Mme Quinn à huit heures et quart. Il y a une caméra dans le hall ; le patron l’avait fait installer. Et… hier, le patron m’a dit : « Sid, demain matin, emmène-moi à Pilsen, chez bube. » N’en parle pas aux avocats, il a dit."
+  },
+  {
+   "key": "case045.abrams.door.answer.demeanor",
+   "value": "Ajuste le fil dans son oreille."
+  },
+  {
+   "key": "case045.abrams.door.question",
+   "value": "Qui était à la porte dans la soirée ?"
+  },
+  {
+   "key": "case045.abrams.title",
+   "value": "Sid Abrams — audition"
+  },
+  {
+   "key": "case045.accounts.body",
+   "value": "· Trevor Kincaid touche une allocation mensuelle depuis un an ; pas de dettes, sa part de l’héritage est liée à une fondation.\n· 43 paiements sur les deux dernières années de Lakeshore Freight à une société de transport portuaire de Napoli ; « E. V. » dans la case d’approbation de chacun.\n· Tous les paiements ont été traités par : la direction financière."
+  },
+  {
+   "key": "case045.accounts.title",
+   "value": "COMPTES DE LA SOCIÉTÉ"
+  },
+  {
+   "key": "case045.autopsy.body",
+   "value": "· Hypoglycémie sévère ; glycémie trop basse pour être mesurée.\n· Taux d’insuline dans le sang environ cinq fois la dose normale du soir.\n· Une seule marque d’aiguille sur l’abdomen. Heure du décès : 22.30–00.30.\n· Seulement de l’eau dans le verre sur le bureau."
+  },
+  {
+   "key": "case045.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case045.cctv.event.arrive",
+   "value": "Caméra : une femme en tailleur sombre arrive de l’ascenseur avec un sac à main ; un homme en costume noir lui ouvre la porte de l’appartement."
+  },
+  {
+   "key": "case045.cctv.event.console",
+   "value": "Caméra : la même femme seule près de la console ; elle sort quelque chose de petit de son sac à main et le glisse dans la poche de sa veste."
+  },
+  {
+   "key": "case045.cctv.event.leave",
+   "value": "Caméra : la même femme monte dans l’ascenseur ; l’homme en costume noir tient la porte."
+  },
+  {
+   "key": "case045.cctv.overlay",
+   "value": "PH-LOBBY"
+  },
+  {
+   "key": "case045.cctv.period",
+   "value": "12 septembre 2030"
+  },
+  {
+   "key": "case045.cctv.source",
+   "value": "Caméra du palier de l’ascenseur"
+  },
+  {
+   "key": "case045.clue.arrive",
+   "value": "La femme en tailleur sombre arrive à l’appartement."
+  },
+  {
+   "key": "case045.clue.console",
+   "value": "La même femme sort quelque chose de petit de son sac."
+  },
+  {
+   "key": "case045.clue.dose",
+   "value": "La victime prend sa dose du soir."
+  },
+  {
+   "key": "case045.clue.fight",
+   "value": "Le fils crie sur son père et part à 19.50."
+  },
+  {
+   "key": "case045.clue.found",
+   "value": "La gouvernante trouve le corps."
+  },
+  {
+   "key": "case045.clue.leave",
+   "value": "La même femme monte dans l’ascenseur."
+  },
+  {
+   "key": "case045.clue.prep",
+   "value": "La gouvernante pose le stylo sur le bureau avec une nouvelle cartouche."
+  },
+  {
+   "key": "case045.clue.say",
+   "value": "« Dis à Edda que Napoli est prête. »"
+  },
+  {
+   "key": "case045.clue.source.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case045.clue.source.tape",
+   "value": "Enregistrement audio"
+  },
+  {
+   "key": "case045.clue.source.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.custody.label",
+   "value": "Qu’est-il arrivé à la cartouche du stylo ?"
+  },
+  {
+   "key": "case045.custody.maid",
+   "value": "La gouvernante a mis la mauvaise cartouche"
+  },
+  {
+   "key": "case045.custody.pharmacy",
+   "value": "La pharmacie a fourni la mauvaise cartouche"
+  },
+  {
+   "key": "case045.custody.swapped",
+   "value": "Le meurtrier a échangé la cartouche au bureau"
+  },
+  {
+   "key": "case045.epilogue.custody.maid",
+   "value": "La cartouche standard posée par la gouvernante a été retrouvée dans la poubelle, inutilisée."
+  },
+  {
+   "key": "case045.epilogue.custody.pharmacy",
+   "value": "La boîte de U-500 a été retirée à la pharmacie par la meurtrière elle-même."
+  },
+  {
+   "key": "case045.epilogue.custody.swapped",
+   "value": "Il a été consigné que la cartouche standard avait été retirée et remplacée par une U-500."
+  },
+  {
+   "key": "case045.epilogue.verdict.accident",
+   "value": "Le décès a été attribué à une erreur de dose ; Lakeshore a nommé un nouveau conseil d’administration."
+  },
+  {
+   "key": "case045.epilogue.verdict.ochoa",
+   "value": "Lupe Ochoa a été placée en garde à vue ; l’enregistrement audio n’a jamais été écouté."
+  },
+  {
+   "key": "case045.epilogue.verdict.quinn",
+   "value": "Marjorie Quinn a été arrêtée. Les 43 paiements de Lakeshore Freight à la société portuaire de Napoli et l’enregistrement audio ont été transmis à l’antenne des Quartieri Spagnoli de bube Napoli."
+  },
+  {
+   "key": "case045.epilogue.verdict.trevor",
+   "value": "Trevor Kincaid a été arrêté ; Quinn s’est envolée pour Napoli la semaine suivante."
+  },
+  {
+   "key": "case045.evidence.accounts",
+   "value": "Comptes de la société"
+  },
+  {
+   "key": "case045.evidence.lobby",
+   "value": "Caméra du palier de l’ascenseur"
+  },
+  {
+   "key": "case045.evidence.medlab",
+   "value": "Analyse du stylo, de la cartouche et de la pharmacie"
+  },
+  {
+   "key": "case045.evidence.tape",
+   "value": "Transcription de l’enregistrement audio"
+  },
+  {
+   "key": "case045.feedback.accident",
+   "value": "Une cartouche cinq fois plus concentrée, absente de l’ordonnance de la victime, était dans le stylo."
+  },
+  {
+   "key": "case045.feedback.ochoa",
+   "value": "La gouvernante a préparé le stylo, mais avec une cartouche standard ; la jumelle de cette cartouche est au réfrigérateur, et la cartouche retirée est dans la poubelle."
+  },
+  {
+   "key": "case045.feedback.quinn",
+   "value": "Son empreinte est sur la cartouche cinq fois plus concentrée du stylo, et elle l’a achetée elle-même ; sur l’enregistrement, après avoir appris que la victime irait à bube le lendemain, elle dit « Dis à Edda que Napoli est prête ». La gouvernante l’a vue au bureau, à côté du stylo."
+  },
+  {
+   "key": "case045.feedback.trevor",
+   "value": "Le fils a crié, mais il est parti avant la préparation du stylo ; sa part de l’héritage est liée à une fondation."
+  },
+  {
+   "key": "case045.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case045.file.value.bureau",
+   "value": "BDS Chicago — Antenne de Pilsen"
+  },
+  {
+   "key": "case045.file.value.location",
+   "value": "Gold Coast, Chicago — résidence"
+  },
+  {
+   "key": "case045.file.value.number",
+   "value": "BDC-CHI-2030-0301"
+  },
+  {
+   "key": "case045.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case045.file.value.reporter",
+   "value": "Gouvernante"
+  },
+  {
+   "key": "case045.line_med.body",
+   "value": "Une ligne a été ouverte pour le stylo à insuline, les cartouches et les registres de la pharmacie."
+  },
+  {
+   "key": "case045.line_med.title",
+   "value": "LIGNE A — EXAMEN MÉDICAL"
+  },
+  {
+   "key": "case045.line_money.body",
+   "value": "Une ligne a été ouverte pour les comptes de Lakeshore Freight et de la famille Kincaid."
+  },
+  {
+   "key": "case045.line_money.title",
+   "value": "LIGNE C — COMPTES DE LA SOCIÉTÉ"
+  },
+  {
+   "key": "case045.line_tape.body",
+   "value": "Une ligne a été ouverte pour la transcription de l’enregistreur à déclenchement vocal posé sur le bureau de la victime."
+  },
+  {
+   "key": "case045.line_tape.title",
+   "value": "LIGNE B — ENREGISTREUR DU BUREAU"
+  },
+  {
+   "key": "case045.lobby.body",
+   "value": "Palier de l’ascenseur du penthouse. 12 septembre 19.00 – 23.30."
+  },
+  {
+   "key": "case045.lobby.title",
+   "value": "CAMÉRA DU PALIER DE L’ASCENSEUR — transcription du relevé"
+  },
+  {
+   "key": "case045.medlab.body",
+   "value": "· La cartouche du stylo : insuline cinq fois concentrée (U-500) ; le stylo est réglé pour une cartouche standard (U-100). La U-500 ne figure pas sur l’ordonnance de la victime.\n· L’empreinte de Marjorie Quinn sur le verre de la cartouche.\n· Au réfrigérateur, il ne manque aucune cartouche U-100 en dehors de celle posée par la gouvernante ; dans la poubelle, une cartouche U-100, pleine, inutilisée.\n· Registre de la pharmacie : le 9 septembre, une boîte de U-500, sur une ordonnance au nom de la mère de Marjorie Quinn, a été retirée par Marjorie Quinn."
+  },
+  {
+   "key": "case045.medlab.title",
+   "value": "STYLO, CARTOUCHE ET PHARMACIE"
+  },
+  {
+   "key": "case045.method.heart",
+   "value": "Une crise cardiaque"
+  },
+  {
+   "key": "case045.method.insulin",
+   "value": "La cartouche du stylo a été remplacée par une cinq fois plus concentrée"
+  },
+  {
+   "key": "case045.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case045.method.overdose",
+   "value": "Il s’est lui-même administré une surdose"
+  },
+  {
+   "key": "case045.ochoa.body",
+   "value": "Gouvernante."
+  },
+  {
+   "key": "case045.ochoa.deflect",
+   "value": "Je tiens la maison."
+  },
+  {
+   "key": "case045.ochoa.pen.answer",
+   "value": "Il faisait lui-même sa dose du soir chaque soir à 22.00 ; je préparais le stylo sur son bureau. Je garde les cartouches au réfrigérateur et je les compte une par une. Hier soir, j’ai posé le stylo sur le bureau à 20.00 ; il y avait une nouvelle cartouche dedans, c’est moi qui l’ai mise."
+  },
+  {
+   "key": "case045.ochoa.pen.answer.demeanor",
+   "value": "Redresse le col de sa tunique."
+  },
+  {
+   "key": "case045.ochoa.pen.question",
+   "value": "Comment M. Kincaid utilisait-il son insuline ?"
+  },
+  {
+   "key": "case045.ochoa.study.answer",
+   "value": "Trevor à 19.30 ; ils ont crié, il est parti. Ensuite Mme Quinn est venue ; elle était dans la pièce avec monsieur de 20.30 à 21.30. La porte était fermée ; à un moment, monsieur a demandé de l’eau et je l’ai apportée. Mme Quinn était debout près du bureau, à côté du stylo."
+  },
+  {
+   "key": "case045.ochoa.study.question",
+   "value": "Qui est entré dans le bureau dans la soirée ?"
+  },
+  {
+   "key": "case045.ochoa.title",
+   "value": "Lupe Ochoa — audition"
+  },
+  {
+   "key": "case045.offer.subtitle",
+   "value": "LAKESHORE  /  FINALE DU CHAPITRE"
+  },
+  {
+   "key": "case045.offer.summary",
+   "value": "Le fondateur de Lakeshore Freight est mort dans son appartement de la Gold Coast. La veille, il avait appelé bube."
+  },
+  {
+   "key": "case045.offer.title",
+   "value": "DOSSIER #045"
+  },
+  {
+   "key": "case045.person.abrams.info",
+   "value": "52 ans, chauffeur et garde du corps de la victime."
+  },
+  {
+   "key": "case045.person.abrams.name",
+   "value": "Sid Abrams"
+  },
+  {
+   "key": "case045.person.ochoa.info",
+   "value": "49 ans, gouvernante de la maison de la victime."
+  },
+  {
+   "key": "case045.person.ochoa.name",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.person.quinn.info",
+   "value": "55 ans, directrice financière de Lakeshore Freight."
+  },
+  {
+   "key": "case045.person.quinn.name",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.person.trevor.info",
+   "value": "31 ans, le fils de la victime."
+  },
+  {
+   "key": "case045.person.trevor.name",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.quinn.body",
+   "value": "Directrice financière."
+  },
+  {
+   "key": "case045.quinn.deflect",
+   "value": "Les informations financières de la société sont confidentielles."
+  },
+  {
+   "key": "case045.quinn.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case045.quinn.end.presented.medlab",
+   "value": "Une empreinte ? J’ai tout touché en lui montrant les comptes."
+  },
+  {
+   "key": "case045.quinn.end.presented.tape",
+   "value": "Pendant vingt ans, j’ai porté cette société ; pas les camions, l’argent. Un matin, Walter allait aller à bube et tout leur raconter — Paris, Tokyo, Napoli, elle. Cette femme ne pardonne jamais. J’ai remplacé la cartouche du stylo par une cinq fois plus concentrée. Il l’a fait de sa propre main. Et oui, cette voix est la mienne. J’ai dit à Edda que Napoli était prête. Vous ne la trouverez pas ; elle y est déjà."
+  },
+  {
+   "key": "case045.quinn.end.question",
+   "value": "Vous avez remplacé la cartouche du stylo."
+  },
+  {
+   "key": "case045.quinn.night.answer",
+   "value": "Les comptes trimestriels. Walter était fatigué, vieux ; il était confus ces derniers jours. Je suis partie à 21.40. Je n’ai jamais touché à son insuline — pourquoi l’aurais-je fait ?"
+  },
+  {
+   "key": "case045.quinn.night.answer.demeanor",
+   "value": "Touche sa boucle d’oreille en diamant et baisse la main."
+  },
+  {
+   "key": "case045.quinn.night.question",
+   "value": "Pourquoi étiez-vous là dans la soirée ?"
+  },
+  {
+   "key": "case045.quinn.night.variant0",
+   "value": "J’ai sorti un rouge à lèvres de mon sac. Vous allez interpréter ça aussi ?"
+  },
+  {
+   "key": "case045.quinn.title",
+   "value": "Marjorie Quinn — audition"
+  },
+  {
+   "key": "case045.recon.r_buy",
+   "value": "9 septembre : Quinn retire une boîte d’insuline U-500 sur l’ordonnance de sa mère."
+  },
+  {
+   "key": "case045.recon.r_call",
+   "value": "11 septembre : Kincaid appelle bube Chicago ; il dit à son chauffeur « emmène-moi à Pilsen demain »."
+  },
+  {
+   "key": "case045.recon.r_dose",
+   "value": "21.58 : Kincaid prend sa dose du soir de sa propre main ; il meurt d’hypoglycémie dans la nuit."
+  },
+  {
+   "key": "case045.recon.r_leave",
+   "value": "21.40 : Quinn quitte le penthouse."
+  },
+  {
+   "key": "case045.recon.r_prep",
+   "value": "20.00 : La gouvernante pose le stylo sur le bureau avec une nouvelle cartouche standard."
+  },
+  {
+   "key": "case045.recon.r_swap",
+   "value": "Au bureau, Quinn remplace la cartouche du stylo par une U-500 ; en sortant, elle dit « Dis à Edda que Napoli est prête »."
+  },
+  {
+   "key": "case045.recon.r_warn",
+   "value": "20.36 : Kincaid dit à Quinn qu’il ira à Pilsen le lendemain."
+  },
+  {
+   "key": "case045.report.body",
+   "value": "Le matin du 13 septembre 2030, dans un penthouse de la Gold Coast, le fondateur de Lakeshore Freight Walter Kincaid (74 ans) a été retrouvé mort à son bureau. La victime avait un diabète de type 1 ; son stylo à insuline était sur le bureau.\n\nLa gouvernante Lupe Ochoa a trouvé le corps à 07.10. Présents dans l’appartement la veille au soir : son fils Trevor Kincaid, la directrice financière Marjorie Quinn, le chauffeur Sid Abrams, la gouvernante Lupe Ochoa."
+  },
+  {
+   "key": "case045.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case045.request.accounts",
+   "value": "Demander les comptes de la société"
+  },
+  {
+   "key": "case045.request.line_med",
+   "value": "Ouvrir la ligne examen médical"
+  },
+  {
+   "key": "case045.request.line_money",
+   "value": "Ouvrir la ligne comptes de la société"
+  },
+  {
+   "key": "case045.request.line_tape",
+   "value": "Ouvrir la ligne enregistreur"
+  },
+  {
+   "key": "case045.request.medlab",
+   "value": "Demander l’analyse du stylo, de la cartouche et de la pharmacie"
+  },
+  {
+   "key": "case045.request.tape",
+   "value": "Demander la transcription de l’enregistrement audio"
+  },
+  {
+   "key": "case045.summary.evidence",
+   "value": "La gouvernante a donné le stylo et la femme au bureau, le chauffeur le dernier projet de la victime. La ligne médicale a donné l’empreinte sur la cartouche et la pharmacie, la ligne audio les conversations de la soirée. La ligne comptes a relié 43 paiements à Napoli."
+  },
+  {
+   "key": "case045.summary.lesson",
+   "value": "Chaque camion de Chicago roulait vers le même port. Prochaine ville : Napoli."
+  },
+  {
+   "key": "case045.summary.location",
+   "value": "Gold Coast — septembre 2030"
+  },
+  {
+   "key": "case045.summary.truth",
+   "value": "Après les arrestations à Chicago, le fondateur de Lakeshore Freight Walter Kincaid a décidé de tout raconter à bube. Le soir où la directrice financière Marjorie Quinn l’a appris, elle a remplacé la cartouche du stylo à insuline préparé par la gouvernante par une cinq fois plus concentrée, et en quittant la pièce elle a dit à quelqu’un : « Dis à Edda que Napoli est prête. » Kincaid a pris sa dose du soir de sa propre main."
+  },
+  {
+   "key": "case045.suspect.label",
+   "value": "Qui a tué Walter Kincaid ?"
+  },
+  {
+   "key": "case045.tablet.caseLine",
+   "value": "DOSSIER #045  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case045.tape.body",
+   "value": "12 septembre :\n\n· 20.36 Walter Kincaid : « Marjorie, demain je vais à Pilsen. Je te conseille de te trouver un avocat. »\n· 20.37 Marjorie Quinn : « Walter, ce n’est pas à toi d’en décider. »\n· 20.51 Marjorie Quinn (au téléphone en quittant la pièce, porte entrouverte) : « Dis à Edda que Napoli est prête. Le vieux ne verra pas le matin. »\n· 21.58 Walter Kincaid, seul : « Dose du soir. » Le clic du stylo."
+  },
+  {
+   "key": "case045.tape.title",
+   "value": "TRANSCRIPTION DE L’ENREGISTREMENT AUDIO"
+  },
+  {
+   "key": "case045.time.arrive",
+   "value": "20.14"
+  },
+  {
+   "key": "case045.time.console",
+   "value": "20.52"
+  },
+  {
+   "key": "case045.time.dose",
+   "value": "21.58"
+  },
+  {
+   "key": "case045.time.fight",
+   "value": "19.30"
+  },
+  {
+   "key": "case045.time.found",
+   "value": "07.10"
+  },
+  {
+   "key": "case045.time.leave",
+   "value": "21.40"
+  },
+  {
+   "key": "case045.time.prep",
+   "value": "20.00"
+  },
+  {
+   "key": "case045.time.say",
+   "value": "20.51"
+  },
+  {
+   "key": "case045.title",
+   "value": "Dossier #045 — Lakeshore"
+  },
+  {
+   "key": "case045.trevor.body",
+   "value": "Le fils de la victime."
+  },
+  {
+   "key": "case045.trevor.deflect",
+   "value": "Je n’ai rien à voir avec la société de mon père."
+  },
+  {
+   "key": "case045.trevor.fight.answer",
+   "value": "J’ai demandé de l’argent, comme toujours. Il n’a pas voulu. « De toute façon, demain on va tout perdre, Trevor, et moi aussi », il a dit. Je n’ai pas compris ce qu’il voulait dire. Je suis parti à 19.50 ; j’étais dans un bar de Wicker Park jusqu’au matin."
+  },
+  {
+   "key": "case045.trevor.fight.answer.demeanor",
+   "value": "Remonte ses manches de chemise."
+  },
+  {
+   "key": "case045.trevor.fight.question",
+   "value": "Pourquoi avez-vous crié sur votre père ?"
+  },
+  {
+   "key": "case045.trevor.title",
+   "value": "Trevor Kincaid — audition"
+  },
+  {
+   "key": "case045.verdict.accident",
+   "value": "Personne — une erreur de dose"
+  },
+  {
+   "key": "case045.verdict.ochoa",
+   "value": "Lupe Ochoa"
+  },
+  {
+   "key": "case045.verdict.quinn",
+   "value": "Marjorie Quinn"
+  },
+  {
+   "key": "case045.verdict.trevor",
+   "value": "Trevor Kincaid"
+  },
+  {
+   "key": "case045.item.pen.name",
+   "value": "Stylo à insuline"
+  },
+  {
+   "key": "case045.item.pen.detail",
+   "value": "Le stylo sur le bureau de la victime ; l’étiquette de la cartouche à l’intérieur ne correspond pas au standard du stylo."
+  },
+  {
+   "key": "case045.item.recorder.name",
+   "value": "Enregistreur du bureau"
+  },
+  {
+   "key": "case045.item.recorder.detail",
+   "value": "Un petit enregistreur à déclenchement vocal dans le tiroir du bureau de la victime."
+  },
+  {
+   "key": "case045.item.vials.name",
+   "value": "Boîte de cartouches vide"
+  },
+  {
+   "key": "case045.item.vials.detail",
+   "value": "Une petite boîte en carton tirée de la poche latérale d’un sac à main, il manque deux cartouches."
+  }
+ ]
+}
