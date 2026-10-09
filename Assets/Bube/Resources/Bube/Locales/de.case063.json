@@ -1,0 +1,564 @@
+{
+ "entries": [
+  {
+   "key": "case063.adeyemi.body",
+   "value": "Toningenieur."
+  },
+  {
+   "key": "case063.adeyemi.deflect",
+   "value": "Meine Arbeit ist der Ton, nicht die Kabel."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer",
+   "value": "Die Tonkabel gehören mir, der Strom nicht. Beim Soundcheck steckte der Verstärker direkt in der Steckdose, ohne Adapter; das fotografiere ich jeden Abend, auf meinem Telefon. In der Pause war ich an der Bar, Zoé weiß es. Alle werden mich beschuldigen, ich weiß."
+  },
+  {
+   "key": "case063.adeyemi.rig.answer.demeanor",
+   "value": "Nimmt seine Kopfhörer vom Hals und legt sie auf den Tisch."
+  },
+  {
+   "key": "case063.adeyemi.rig.question",
+   "value": "Sind die Kabel Ihre Verantwortung?"
+  },
+  {
+   "key": "case063.adeyemi.title",
+   "value": "Tunde Adeyemi — Befragung"
+  },
+  {
+   "key": "case063.amara.body",
+   "value": "Sängerin."
+  },
+  {
+   "key": "case063.amara.deflect",
+   "value": "Ich habe gesungen."
+  },
+  {
+   "key": "case063.amara.mic.answer",
+   "value": "Mein Mikrofon. Im zweiten Set sollte ich eröffnen, aber Théo sagte: ‚Clifford soll das erste Lied singen, eine Überraschung.‘ Den Ständer schob er neben den Verstärker, ‚der Klang ist besser‘. Daran denke ich jetzt."
+  },
+  {
+   "key": "case063.amara.mic.answer.demeanor",
+   "value": "Nimmt die Spange aus ihrem Haar und steckt sie wieder hinein."
+  },
+  {
+   "key": "case063.amara.mic.question",
+   "value": "War das Ihr Mikrofon?"
+  },
+  {
+   "key": "case063.amara.title",
+   "value": "Amara Diallo — Befragung"
+  },
+  {
+   "key": "case063.autopsy.body",
+   "value": "· Todesursache: Herzrhythmusstörung infolge eines Stromschlags.\n· Eintrittsverbrennung in der linken Handfläche (Mikrofonständer), Austrittsverbrennung in der rechten Handfläche (Verstärkergriff): der Strom floss von einer Hand zur anderen, über das Herz.\n· Das Herz des Opfers war für sein Alter gesund.\n· Todeszeit: 22.41."
+  },
+  {
+   "key": "case063.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case063.backstage.body",
+   "value": "Flur hinter der Bühne, Stromverteilerkasten. 13. November 22.15 – 23.00."
+  },
+  {
+   "key": "case063.backstage.title",
+   "value": "KAMERA BACKSTAGE — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case063.cctv.event.box",
+   "value": "Kamera: Ein Mann in dunkler Jacke öffnet in der Pause den Stromkasten an der Wand und blickt über die Schulter zurück."
+  },
+  {
+   "key": "case063.cctv.event.plug",
+   "value": "Kamera: Derselbe Mann hockt sich an die Verlängerungssteckdose am Bühnenrand und steckt etwas Kleines zwischen ein dickes Kabel und die Steckdose."
+  },
+  {
+   "key": "case063.cctv.event.pocket",
+   "value": "Kamera: Nach dem Tumult hockt sich derselbe Mann wieder an dieselbe Steckdose und steckt etwas Kleines in seine Jackentasche."
+  },
+  {
+   "key": "case063.cctv.overlay",
+   "value": "SS-BACK"
+  },
+  {
+   "key": "case063.cctv.period",
+   "value": "13. November 2030"
+  },
+  {
+   "key": "case063.cctv.source",
+   "value": "Kamera Backstage"
+  },
+  {
+   "key": "case063.clue.box",
+   "value": "Der Mann in dunkler Jacke öffnet in der Pause den Stromkasten."
+  },
+  {
+   "key": "case063.clue.plug",
+   "value": "Derselbe Mann steckt etwas Kleines in die Bühnensteckdose."
+  },
+  {
+   "key": "case063.clue.pocket",
+   "value": "Nach dem Tumult hockt sich derselbe Mann an die Steckdose und steckt etwas ein."
+  },
+  {
+   "key": "case063.clue.song",
+   "value": "Clifford beugt sich zum Mikrofon und sagt: ‚Dieses Lied ist für Théo‘; er bricht zusammen."
+  },
+  {
+   "key": "case063.clue.source.nowak",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.custody.label",
+   "value": "Wohin kam der Adapter?"
+  },
+  {
+   "key": "case063.custody.safe",
+   "value": "In den Tresor des Clubbesitzers"
+  },
+  {
+   "key": "case063.custody.sound",
+   "value": "In die Schublade des Mischpults"
+  },
+  {
+   "key": "case063.custody.trash",
+   "value": "In den Müll der Bar"
+  },
+  {
+   "key": "case063.deschamps.body",
+   "value": "Pensionierter Elektriker."
+  },
+  {
+   "key": "case063.deschamps.deflect",
+   "value": "Ich bin in Rente, ich höre nur zu."
+  },
+  {
+   "key": "case063.deschamps.help.answer",
+   "value": "Vierzig Jahre Elektriker. Der Mann brach zusammen, zuerst ließ ich die Sicherung kappen, dann Herzmassage. Aber eines sage ich Ihnen: Mit einem normalen Stecker bringt dieser Verstärker niemanden um. Dazwischen muss ein Adapter mit gekappter Erdung und vertauschten Polen gewesen sein. Nachdem er gefallen war, schaute ich auf die Steckdose; da war ein Adapter. Zehn Minuten später schaute ich wieder; er war weg."
+  },
+  {
+   "key": "case063.deschamps.help.answer.demeanor",
+   "value": "Schiebt seine Bifokalbrille auf die Nasenspitze."
+  },
+  {
+   "key": "case063.deschamps.help.question",
+   "value": "Was haben Sie gesehen?"
+  },
+  {
+   "key": "case063.deschamps.title",
+   "value": "Guy Deschamps — Befragung"
+  },
+  {
+   "key": "case063.epilogue.custody.safe",
+   "value": "Festgehalten wurde, dass der Adapter im Tresor des Clubbesitzers gefunden wurde."
+  },
+  {
+   "key": "case063.epilogue.custody.sound",
+   "value": "Im Mischpult war kein Adapter."
+  },
+  {
+   "key": "case063.epilogue.custody.trash",
+   "value": "Der Müll der Bar wurde Stück für Stück durchsucht."
+  },
+  {
+   "key": "case063.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; Laurentide zahlte die zwei Millionen."
+  },
+  {
+   "key": "case063.epilogue.verdict.adeyemi",
+   "value": "Tunde Adeyemi wurde festgenommen; der Club öffnete in der folgenden Woche wieder."
+  },
+  {
+   "key": "case063.epilogue.verdict.jules",
+   "value": "Jules Baptiste wurde festgenommen; die Police wurde ausgezahlt."
+  },
+  {
+   "key": "case063.epilogue.verdict.marchand",
+   "value": "Théo Marchand wurde festgenommen; die Police wurde annulliert. Das Programm ‚Künstler als Schlüsselperson‘ von Laurentide Réassurance kam in die Akte der Dienststelle Mile End."
+  },
+  {
+   "key": "case063.evidence.backstage",
+   "value": "Kamera Backstage"
+  },
+  {
+   "key": "case063.evidence.inspect",
+   "value": "Elektroprüfbericht"
+  },
+  {
+   "key": "case063.evidence.office",
+   "value": "Durchsuchung des Büros des Clubbesitzers"
+  },
+  {
+   "key": "case063.evidence.stage",
+   "value": "Untersuchung der Bühnenelektrik"
+  },
+  {
+   "key": "case063.feedback.accident",
+   "value": "Der Stecker des Verstärkers war intakt; dazwischen wurde ein Adapter gesteckt und später entfernt."
+  },
+  {
+   "key": "case063.feedback.adeyemi",
+   "value": "Der Toningenieur war in der Pause an der Bar und hatte beim Soundcheck fotografiert, dass der Verstärker ohne Adapter angeschlossen war."
+  },
+  {
+   "key": "case063.feedback.jules",
+   "value": "Der Enkel stand auf der Bühne, und sein Erbe ist ein Kontrabass und Mietschulden."
+  },
+  {
+   "key": "case063.feedback.marchand",
+   "value": "Der Adapter kam aus seinem Tresor, mit seinem Abdruck; die Kamera zeigt ihn, wie er in der Pause etwas Kleines in die Steckdose steckt und es nach dem Tumult einsteckt. Der Elektriker sah den Adapter zuerst und bemerkte dann, dass er verschwunden war. Der Prüfbericht entlastet ihn nicht: er hatte ihn selbst unterschrieben."
+  },
+  {
+   "key": "case063.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case063.file.value.bureau",
+   "value": "BDM Montreal — Dienststelle Mile End"
+  },
+  {
+   "key": "case063.file.value.location",
+   "value": "Le Sous-Sol, Boulevard Saint-Laurent, Montreal"
+  },
+  {
+   "key": "case063.file.value.number",
+   "value": "BDM-MTL-2030-0218"
+  },
+  {
+   "key": "case063.file.value.offence",
+   "value": "Verdächtiger Todesfall — Strom"
+  },
+  {
+   "key": "case063.file.value.reporter",
+   "value": "Barkeeperin"
+  },
+  {
+   "key": "case063.inspect.body",
+   "value": "Elektrische Sicherheitsprüfung des Clubs Le Sous-Sol, 6. November 2030:\n\n· Bühnenerdung: in Ordnung.\n· Verlängerungssteckdosen: in Ordnung.\n· Notschalter: in Ordnung.\n\nDurchgeführt von: ‚Eigenprüfung‘. Unterschrift: Théo Marchand, Betriebsinhaber. Das von der Versicherung für die Police ‚Künstler als Schlüsselperson‘ verlangte Dokument."
+  },
+  {
+   "key": "case063.inspect.title",
+   "value": "ELEKTROPRÜFBERICHT"
+  },
+  {
+   "key": "case063.jules.body",
+   "value": "Enkel des Opfers."
+  },
+  {
+   "key": "case063.jules.deflect",
+   "value": "Mein Großvater hat mir beigebracht, auf der Bühne zu stehen."
+  },
+  {
+   "key": "case063.jules.grand.answer",
+   "value": "Théo hatte ihn ein Papier unterschreiben lassen, ‚Versicherung, für den Club‘, hatte er gesagt. Mein Großvater las es nicht. Letzte Woche kam ein Brief, die Police selbst; ‚zwei Millionen Dollar, Begünstigter Le Sous-Sol‘. Mein Großvater lachte nicht. ‚Am Montag rede ich mit Théo, ich nehme meine Unterschrift zurück‘, sagte er. Sein Erbe fällt an mich, ja: ein Kontrabass und Mietschulden."
+  },
+  {
+   "key": "case063.jules.grand.answer.demeanor",
+   "value": "Richtet seine lockere Krawatte zwischen den Fingern."
+  },
+  {
+   "key": "case063.jules.grand.question",
+   "value": "Warum war Ihr Großvater in den letzten Tagen unruhig?"
+  },
+  {
+   "key": "case063.jules.title",
+   "value": "Jules Baptiste — Befragung"
+  },
+  {
+   "key": "case063.marchand.body",
+   "value": "Besitzer des Clubs."
+  },
+  {
+   "key": "case063.marchand.deflect",
+   "value": "Dieser Club ist seit vierzig Jahren das Zuhause des Montrealer Jazz."
+  },
+  {
+   "key": "case063.marchand.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case063.marchand.end.decoy.inspect",
+   "value": "Der Prüfbericht liegt da: Bühnenerdung in Ordnung. Ich habe alles machen lassen. Das ist ein Unfall."
+  },
+  {
+   "key": "case063.marchand.end.presented.office",
+   "value": "Der Club ging unter. Ein Mann von Laurentide sagte: ‚Schlüsselpersonenpolice, ideal für alte Musiker‘; den Bericht unterschrieb ich selbst, der Mann sagte: ‚Reicht.‘ Clifford wollte am Montag seine Unterschrift zurücknehmen. In der Pause steckte ich den Adapter ein, schob den Ständer daneben. Im Tumult zog ich ihn heraus. Ich legte ihn in meinen Tresor, weil ich es nicht übers Herz brachte, ihn wegzuwerfen: hätte ich ihn weggeworfen, wäre es gewesen, als sei es nie passiert."
+  },
+  {
+   "key": "case063.marchand.end.question",
+   "value": "Sie haben den Adapter in die Steckdose des Verstärkers gesteckt."
+  },
+  {
+   "key": "case063.marchand.night.answer",
+   "value": "Ich bin der Besitzer, ich gehe überallhin. Aber in dem Moment stand ich ganz hinten im Saal, alle haben es gesehen. Die Kabel von Tunde … wie oft habe ich es ihm gesagt."
+  },
+  {
+   "key": "case063.marchand.night.answer.demeanor",
+   "value": "Richtet den Kragen seines Samtjacketts."
+  },
+  {
+   "key": "case063.marchand.night.question",
+   "value": "Waren Sie in der Pause hinter der Bühne?"
+  },
+  {
+   "key": "case063.marchand.title",
+   "value": "Théo Marchand — Befragung"
+  },
+  {
+   "key": "case063.method.heart",
+   "value": "Er hatte auf der Bühne einen Herzinfarkt"
+  },
+  {
+   "key": "case063.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case063.method.shock",
+   "value": "Er bekam einen Schlag von Verstärker und Mikrofon, die über einen Adapter mit gekappter Erdung unter Strom standen"
+  },
+  {
+   "key": "case063.method.wiring",
+   "value": "Die alte Verkabelung hatte einen Kurzschluss"
+  },
+  {
+   "key": "case063.nowak.body",
+   "value": "Schlagzeuger."
+  },
+  {
+   "key": "case063.nowak.deflect",
+   "value": "Ich war hinten, hinter dem Schlagzeug."
+  },
+  {
+   "key": "case063.nowak.set.answer",
+   "value": "Clifford hob seinen Bass, beugte sich zum Mikrofon und sagte: ‚Dieses Lied ist für Théo‘, im Scherz, weil der ihm Geld schuldet. Eine Hand am Ständer, die andere am Verstärker. Er gab einen Laut von sich. Ich sprang hinter dem Schlagzeug hervor. Théo stand in dem Moment hinten im Saal, am weitesten weg."
+  },
+  {
+   "key": "case063.nowak.set.answer.demeanor",
+   "value": "Legt seine Sticks nebeneinander auf sein Knie."
+  },
+  {
+   "key": "case063.nowak.set.question",
+   "value": "Was ist zu Beginn des zweiten Sets passiert?"
+  },
+  {
+   "key": "case063.nowak.title",
+   "value": "Piotr Nowak — Befragung"
+  },
+  {
+   "key": "case063.offer.subtitle",
+   "value": "LE SOUS-SOL  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case063.offer.summary",
+   "value": "Ein alter Kontrabassist starb vor siebzig Leuten beim ersten Ton des zweiten Sets an einem Stromschlag."
+  },
+  {
+   "key": "case063.offer.title",
+   "value": "AKTE #063"
+  },
+  {
+   "key": "case063.office.body",
+   "value": "Das Büro von Théo Marchand im Club und sein Tresor (mit Genehmigung der Dienststellenleitung):\n\n· Im Tresor ein Adapter mit abgeschnittenem Erdungskontakt und vertauscht angeschlossenen Polen; passt zur Spur an der Steckdose und zur Verbrennung am Stecker des Verstärkers, darauf der Fingerabdruck von Théo Marchand.\n· Auf dem Schreibtisch eine Police ‚Künstler als Schlüsselperson‘ über zwei Millionen Dollar auf Clifford Baptiste; Rückversicherung Laurentide Réassurance.\n· Lohnabrechnungen für drei unbezahlte Monate."
+  },
+  {
+   "key": "case063.office.title",
+   "value": "BÜRO DES CLUBBESITZERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case063.person.adeyemi.info",
+   "value": "39 Jahre, Toningenieur des Clubs."
+  },
+  {
+   "key": "case063.person.adeyemi.name",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.person.amara.info",
+   "value": "35 Jahre, Sängerin der Band."
+  },
+  {
+   "key": "case063.person.amara.name",
+   "value": "Amara Diallo"
+  },
+  {
+   "key": "case063.person.deschamps.info",
+   "value": "62 Jahre, pensionierter Elektriker; Stammgast des Clubs."
+  },
+  {
+   "key": "case063.person.deschamps.name",
+   "value": "Guy Deschamps"
+  },
+  {
+   "key": "case063.person.jules.info",
+   "value": "26 Jahre, Enkel des Opfers; Pianist der Band."
+  },
+  {
+   "key": "case063.person.jules.name",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.person.marchand.info",
+   "value": "48 Jahre, Besitzer des Jazzclubs."
+  },
+  {
+   "key": "case063.person.marchand.name",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.person.nowak.info",
+   "value": "44 Jahre, Schlagzeuger der Band."
+  },
+  {
+   "key": "case063.person.nowak.name",
+   "value": "Piotr Nowak"
+  },
+  {
+   "key": "case063.person.zoe.info",
+   "value": "31 Jahre, Barkeeperin."
+  },
+  {
+   "key": "case063.person.zoe.name",
+   "value": "Zoé Lambert"
+  },
+  {
+   "key": "case063.report.body",
+   "value": "In der Nacht des 13. November 2030 starb im Jazzclub Le Sous-Sol am Boulevard Saint-Laurent der Kontrabassist Clifford Baptiste (70) zu Beginn des zweiten Sets auf der Bühne an einem Stromschlag.\n\nAuf der Bühne: Pianist Jules Baptiste (der Enkel des Opfers), Schlagzeuger Piotr Nowak, Sängerin Amara Diallo. Toningenieur Tunde Adeyemi war am Mischpult, Barkeeperin Zoé Lambert an der Bar. Der Besitzer des Clubs, Théo Marchand, war im Saal. Stammgast Guy Deschamps leistete Erste Hilfe."
+  },
+  {
+   "key": "case063.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case063.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case063.request.inspect",
+   "value": "Elektroprüfbericht des Clubs anfordern"
+  },
+  {
+   "key": "case063.request.office",
+   "value": "Durchsuchungsbeschluss für das Büro des Clubbesitzers beantragen"
+  },
+  {
+   "key": "case063.request.stage",
+   "value": "Untersuchung der Bühnenelektrik anfordern"
+  },
+  {
+   "key": "case063.stage.body",
+   "value": "· Das Gehäuse des Bassverstärkers steht unter Strom: zwischen Stecker und Steckdose muss ein Adapter verwendet worden sein; die Spur an der Steckdose und die Verbrennung am Stecker zeigen es. Der Adapter ist nicht mehr da.\n· Der eigene Stecker des Verstärkers ist intakt, der Erdungskontakt vorhanden: für sich allein ungefährlich.\n· Der Mikrofonständer ist geerdet; wer Verstärker und Ständer gleichzeitig berührt, schließt den Stromkreis."
+  },
+  {
+   "key": "case063.stage.title",
+   "value": "UNTERSUCHUNG DER BÜHNENELEKTRIK"
+  },
+  {
+   "key": "case063.summary.evidence",
+   "value": "Der Prüfbericht war ein Köder: es war die eigene Unterschrift des Besitzers. Der Elektriker erzählte vom Adapter, die Barkeeperin von der Kamera, die Sängerin und der Schlagzeuger vom Ständer und vom Scherz. Die Durchsuchung fand den Adapter im Tresor."
+  },
+  {
+   "key": "case063.summary.lesson",
+   "value": "‚Dieses Lied ist für Théo.‘ Das letzte Lied war wirklich für ihn."
+  },
+  {
+   "key": "case063.summary.location",
+   "value": "Le Sous-Sol — November 2030"
+  },
+  {
+   "key": "case063.summary.truth",
+   "value": "Der Besitzer des vor dem Ruin stehenden Clubs, Théo Marchand, ließ den alten Kontrabassisten Clifford Baptiste ungelesen ein Papier unterschreiben: eine ‚Schlüsselperson‘-Police über zwei Millionen Dollar, Begünstigter der Club; den nötigen Prüfbericht unterschrieb er selbst. Clifford beschloss, seine Unterschrift zurückzunehmen. Théo steckte in der Pause einen Adapter mit gekappter Erdung in die Steckdose des Verstärkers, schob den Mikrofonständer neben den Verstärker, zog den Adapter im Tumult heraus und legte ihn in seinen Tresor."
+  },
+  {
+   "key": "case063.suspect.label",
+   "value": "Wer hat Clifford Baptiste getötet?"
+  },
+  {
+   "key": "case063.tablet.caseLine",
+   "value": "AKTE #063  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case063.time.box",
+   "value": "22.24"
+  },
+  {
+   "key": "case063.time.plug",
+   "value": "22.27"
+  },
+  {
+   "key": "case063.time.pocket",
+   "value": "22.52"
+  },
+  {
+   "key": "case063.time.song",
+   "value": "22.41"
+  },
+  {
+   "key": "case063.title",
+   "value": "Akte #063 — Le Sous-Sol"
+  },
+  {
+   "key": "case063.verdict.accident",
+   "value": "Niemand — alte Verkabelung"
+  },
+  {
+   "key": "case063.verdict.adeyemi",
+   "value": "Tunde Adeyemi"
+  },
+  {
+   "key": "case063.verdict.jules",
+   "value": "Jules Baptiste"
+  },
+  {
+   "key": "case063.verdict.marchand",
+   "value": "Théo Marchand"
+  },
+  {
+   "key": "case063.zoe.body",
+   "value": "Barkeeperin."
+  },
+  {
+   "key": "case063.zoe.deflect",
+   "value": "Ich war an der Bar, mit dem Rücken zur Bühne."
+  },
+  {
+   "key": "case063.zoe.interval.answer",
+   "value": "Tunde trank in der Pause an der Bar ein Wasser und redete mit mir, zehn Minuten. Die Band rauchte draußen. Der Chef ging hinter die Bühne; auf diesen Flur zeigt eine Kamera, er ließ sie einbauen, weil die Versicherung es verlangte. Noch etwas: Der Chef hat mir diesen Monat keinen Lohn gezahlt. Niemandem."
+  },
+  {
+   "key": "case063.zoe.interval.answer.demeanor",
+   "value": "Wickelt das Band ihrer Schürze um den Finger."
+  },
+  {
+   "key": "case063.zoe.interval.question",
+   "value": "Wer ist in der Pause wohin gegangen?"
+  },
+  {
+   "key": "case063.zoe.title",
+   "value": "Zoé Lambert — Befragung"
+  },
+  {
+   "key": "case063.item.adapter.name",
+   "value": "Adapter mit gekappter Erdung"
+  },
+  {
+   "key": "case063.item.adapter.detail",
+   "value": "Ein Steckeradapter mit abgeschnittenem Erdungskontakt und vertauscht angeschlossenen Polen; kam aus dem Tresor des Clubbesitzers."
+  },
+  {
+   "key": "case063.item.inspect.name",
+   "value": "Elektroprüfbericht"
+  },
+  {
+   "key": "case063.item.inspect.detail",
+   "value": "Der Elektroprüfbericht des Clubs von letzter Woche; ‚Bühnenerdung in Ordnung‘, Unterschrift des Clubbesitzers."
+  },
+  {
+   "key": "case063.item.plug.name",
+   "value": "Stecker des Bassverstärkers"
+  },
+  {
+   "key": "case063.item.plug.detail",
+   "value": "Der Originalstecker des Kontrabassverstärkers; ohne Adapter, Erdungskontakt intakt."
+  }
+ ]
+}
