@@ -1,0 +1,424 @@
+{
+ "entries": [
+  {
+   "key": "case046.assunta.body",
+   "value": "Nachbarin."
+  },
+  {
+   "key": "case046.assunta.deflect",
+   "value": "Ich sage, was ich im Vicolo sehe."
+  },
+  {
+   "key": "case046.assunta.night.answer",
+   "value": "Das Motorrad von Gennaro. Gegen elf Uhr nachts hielt es vor der Tür, er ließ den Motor laufen und ging hinein. Eine halbe Stunde später kam er heraus, legte etwas unter den Sitz und fuhr weg. Meine Tür ist genau gegenüber, ich sehe alles."
+  },
+  {
+   "key": "case046.assunta.night.answer.demeanor",
+   "value": "Drückt ihr Kreuz in der Handfläche zusammen."
+  },
+  {
+   "key": "case046.assunta.night.question",
+   "value": "Haben Sie in der Nacht etwas gesehen?"
+  },
+  {
+   "key": "case046.assunta.tin.answer",
+   "value": "Die Dose ihres Mannes Salvatore. Er war Schreiber im Hafen, bei den Carusos. Vor seinem Tod sagte er: ‚Nunzia, gib diese Dose niemandem, die Carusos wollen sie eines Tages.‘ Letzte Woche kamen zwei Männer und fragten. Nunzia schlug ihnen die Tür vor der Nase zu."
+  },
+  {
+   "key": "case046.assunta.tin.question",
+   "value": "Kennen Sie die Blechdose von Nunzia?"
+  },
+  {
+   "key": "case046.assunta.title",
+   "value": "Assunta Esposito — Befragung"
+  },
+  {
+   "key": "case046.autopsy.body",
+   "value": "· Punktförmige Blutungen in den Augenlidern und im Gesicht; Quetschungen an der Innenseite von Nase und Lippen.\n· Baumwollfasern im Mund. Das Herz für das Alter erschöpft, aber nicht die Todesursache.\n· Todesursache: Verschluss von Mund und Nase mit einem weichen Gegenstand. Todeszeit: 23.00–00.30."
+  },
+  {
+   "key": "case046.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case046.bank.body",
+   "value": "Das Konto von Gennaro Russo:\n\n· 28. September: 2.500 Euro Bareinzahlung.\n· Auf seinem Telefon am 28. September, von einer nicht registrierten Nummer: ‚Wenn die Dose kommt, die andere Hälfte. — C.M.‘\n· Zuletzt angerufener Ort der Nummer: das Büro von Caruso Marittima im Hafen von Neapel."
+  },
+  {
+   "key": "case046.bank.title",
+   "value": "BANKUNTERLAGEN"
+  },
+  {
+   "key": "case046.clue.arrive",
+   "value": "Das Motorrad des Enkels hält vor dem Basso."
+  },
+  {
+   "key": "case046.clue.found",
+   "value": "Die Nachbarin findet die Leiche."
+  },
+  {
+   "key": "case046.clue.leave",
+   "value": "Das Motorrad fährt wieder los."
+  },
+  {
+   "key": "case046.clue.shout",
+   "value": "‚Nonna, fünftausend Euro!‘ — ‚Mai!‘"
+  },
+  {
+   "key": "case046.clue.source.orders",
+   "value": "Kurierprotokoll"
+  },
+  {
+   "key": "case046.clue.source.pieter",
+   "value": "Tourist"
+  },
+  {
+   "key": "case046.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case046.custody.hidden",
+   "value": "Das Opfer hat sie selbst versteckt"
+  },
+  {
+   "key": "case046.custody.label",
+   "value": "Wohin kam die Blechdose?"
+  },
+  {
+   "key": "case046.custody.men",
+   "value": "Die zwei Männer an der Tür haben sie genommen"
+  },
+  {
+   "key": "case046.custody.seat",
+   "value": "Unter den Motorradsitz des Enkels"
+  },
+  {
+   "key": "case046.epilogue.custody.hidden",
+   "value": "Die Dose war nicht im Basso."
+  },
+  {
+   "key": "case046.epilogue.custody.men",
+   "value": "Die Männer hatten die Dose noch nicht bekommen."
+  },
+  {
+   "key": "case046.epilogue.custody.seat",
+   "value": "Festgehalten wurde, dass die Dose unter dem Sitz des Motorrads des Enkels gefunden wurde."
+  },
+  {
+   "key": "case046.epilogue.verdict.assunta",
+   "value": "Assunta Esposito wurde vernommen; die Akte wurde wie ein Familienstreit geschlossen."
+  },
+  {
+   "key": "case046.epilogue.verdict.gennaro",
+   "value": "Gennaro Russo wurde festgenommen. Die 212 Lieferscheine von Salvatore Russo kamen in die Caruso-Akte von bube Neapel."
+  },
+  {
+   "key": "case046.epilogue.verdict.natural",
+   "value": "Der Tod galt als natürlich; Nunzia wurde am nächsten Tag beerdigt, die Dose verschwand."
+  },
+  {
+   "key": "case046.epilogue.verdict.pieter",
+   "value": "Die Auslieferung von Pieter de Vries aus den Niederlanden wurde beantragt; die Dose ging zum Hafen."
+  },
+  {
+   "key": "case046.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case046.evidence.bank",
+   "value": "Bankunterlagen"
+  },
+  {
+   "key": "case046.evidence.orders",
+   "value": "Protokoll der Kurier-App"
+  },
+  {
+   "key": "case046.evidence.scooter",
+   "value": "Durchsuchung des Motorrads"
+  },
+  {
+   "key": "case046.feedback.assunta",
+   "value": "Die Nachbarin wohnte gegenüber der Tür; sie fand die Leiche und erzählte, was sie sah."
+  },
+  {
+   "key": "case046.feedback.gennaro",
+   "value": "Das Kurierprotokoll zeigt ihn zwischen 22.48 und 23.52 vor dem Basso, die Nachbarin drinnen; unter seinem Sitz die Dose, an seiner Jacke Fasern des Kissens. Für die Dose hatte er Geld aus dem Büro von Caruso bekommen."
+  },
+  {
+   "key": "case046.feedback.natural",
+   "value": "Die Obduktion zeigt punktförmige Blutungen, Fasern im Mund und Quetschungen an der Lippeninnenseite."
+  },
+  {
+   "key": "case046.feedback.pieter",
+   "value": "Der Tourist wohnte oben; nichts deutet darauf hin, dass er den Basso betrat."
+  },
+  {
+   "key": "case046.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case046.file.value.bureau",
+   "value": "BDS Neapel — Dienststelle Quartieri Spagnoli"
+  },
+  {
+   "key": "case046.file.value.location",
+   "value": "Quartieri Spagnoli, Neapel — Basso"
+  },
+  {
+   "key": "case046.file.value.number",
+   "value": "BDN-NAP-2030-0312"
+  },
+  {
+   "key": "case046.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case046.file.value.reporter",
+   "value": "Nachbarin"
+  },
+  {
+   "key": "case046.gennaro.body",
+   "value": "Enkel des Opfers."
+  },
+  {
+   "key": "case046.gennaro.deflect",
+   "value": "Die Angelegenheiten unserer Familie gehen nur uns etwas an."
+  },
+  {
+   "key": "case046.gennaro.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case046.gennaro.end.presented.bank",
+   "value": "Fünftausend, ein Auftrag. Ein Kurierjob."
+  },
+  {
+   "key": "case046.gennaro.end.presented.scooter",
+   "value": "Die Männer gaben mir fünftausend und sagten: ‚Bring die Dose.‘ Nonna gab sie nicht her. Sie schrie, die Nachbarn hätten es gehört. Ich hielt ihr das Kissen aufs Gesicht, nur damit sie still ist. Dann … wurde sie still, für immer. Ich nahm die Dose. Morgen wollte ich sie abgeben."
+  },
+  {
+   "key": "case046.gennaro.end.question",
+   "value": "Vor Mitternacht waren Sie im Basso."
+  },
+  {
+   "key": "case046.gennaro.night.answer",
+   "value": "Bei der Arbeit, ich habe bis Mitternacht Pakete gefahren. Ich habe meine Nonna sehr geliebt. Ihr Herz war schwach, das wusste jeder."
+  },
+  {
+   "key": "case046.gennaro.night.answer.demeanor",
+   "value": "Dreht seinen Helm zwischen den Händen."
+  },
+  {
+   "key": "case046.gennaro.night.question",
+   "value": "Wo waren Sie letzte Nacht?"
+  },
+  {
+   "key": "case046.gennaro.title",
+   "value": "Gennaro Russo — Befragung"
+  },
+  {
+   "key": "case046.method.fall",
+   "value": "Aus dem Bett gefallen"
+  },
+  {
+   "key": "case046.method.heart",
+   "value": "Herzversagen"
+  },
+  {
+   "key": "case046.method.label",
+   "value": "Wie starb sie?"
+  },
+  {
+   "key": "case046.method.pillow",
+   "value": "Mit einem Kissen erstickt"
+  },
+  {
+   "key": "case046.offer.subtitle",
+   "value": "BASSO  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case046.offer.summary",
+   "value": "In den Quartieri Spagnoli liegt eine zweiundachtzigjährige Spitzenklöpplerin tot in ihrem Bett. Die Dose, die ihr Mann hinterließ, fehlt."
+  },
+  {
+   "key": "case046.offer.title",
+   "value": "AKTE #046"
+  },
+  {
+   "key": "case046.orders.body",
+   "value": "Kurierkonto von Gennaro Russo, 3. Oktober:\n\n· Zwischen 19.00 und 22.48 14 Lieferungen.\n· Von 22.48 bis 23.52 Konto auf ‚Pause‘; Standort des Motorrads: Vico Lungo, vor dem Basso des Opfers.\n· Nach 23.58 wieder Lieferungen."
+  },
+  {
+   "key": "case046.orders.title",
+   "value": "PROTOKOLL DER KURIER-APP"
+  },
+  {
+   "key": "case046.person.assunta.info",
+   "value": "71 Jahre, Nachbarin aus dem Basso gegenüber."
+  },
+  {
+   "key": "case046.person.assunta.name",
+   "value": "Assunta Esposito"
+  },
+  {
+   "key": "case046.person.gennaro.info",
+   "value": "26 Jahre, Enkel des Opfers; Motorradkurier."
+  },
+  {
+   "key": "case046.person.gennaro.name",
+   "value": "Gennaro Russo"
+  },
+  {
+   "key": "case046.person.pieter.info",
+   "value": "38 Jahre, niederländischer Tourist in der Ferienwohnung im Stock darüber."
+  },
+  {
+   "key": "case046.person.pieter.name",
+   "value": "Pieter de Vries"
+  },
+  {
+   "key": "case046.pieter.body",
+   "value": "Tourist."
+  },
+  {
+   "key": "case046.pieter.deflect",
+   "value": "I’m sorry — ich bin nur im Urlaub."
+  },
+  {
+   "key": "case046.pieter.gone",
+   "value": "Pieter de Vries flog mit dem Morgenflug nach Amsterdam zurück. Er war nicht mehr erreichbar."
+  },
+  {
+   "key": "case046.pieter.heard.answer",
+   "value": "Mein Fußboden ist ihre Decke. Gegen 23.10 Geschrei; eine junge Männerstimme: ‚Nonna, fünftausend Euro!‘ Die Frau sagte ‚Mai!‘, niemals. Dann Stille. Morgen früh geht mein Flug, ich spreche kein Italienisch, aber diese zwei Wörter kenne ich."
+  },
+  {
+   "key": "case046.pieter.heard.answer.demeanor",
+   "value": "Zupft am Riemen seiner Kamera."
+  },
+  {
+   "key": "case046.pieter.heard.question",
+   "value": "Haben Sie in der Nacht etwas gehört?"
+  },
+  {
+   "key": "case046.pieter.title",
+   "value": "Pieter de Vries — Befragung"
+  },
+  {
+   "key": "case046.report.body",
+   "value": "Am Morgen des 4. Oktober 2030 wurde in den Quartieri Spagnoli in einem zur Gasse offenen Basso die Spitzenklöpplerin Nunzia Russo (82) tot in ihrem Bett gefunden.\n\nDie Leiche fand ihre Nachbarin von gegenüber, Assunta Esposito, um 07.15: Die Tür ging jeden Morgen um sechs auf, sie war nicht aufgegangen. Ihr Enkel Gennaro Russo erfuhr es telefonisch. In der Ferienwohnung darüber wohnt der niederländische Tourist Pieter de Vries."
+  },
+  {
+   "key": "case046.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case046.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case046.request.bank",
+   "value": "Bankunterlagen von Gennaro Russo anfordern"
+  },
+  {
+   "key": "case046.request.orders",
+   "value": "Protokoll der Kurier-App anfordern"
+  },
+  {
+   "key": "case046.request.scooter",
+   "value": "Durchsuchungsbeschluss für das Motorrad von Gennaro Russo beantragen"
+  },
+  {
+   "key": "case046.scooter.body",
+   "value": "Unter dem Sitz des Motorrads von Gennaro Russo (mit Genehmigung der Dienststellenleitung):\n\n· Eine alte Keksdose; darin 212 Lieferscheine von Caruso Marittima aus den Jahren 1978–1999; auf vielen Rückseiten handschriftliche Notizen von Salvatore Russo.\n· Am Deckel der Dose ein Stück Spitzengarn des Opfers.\n· In der Jackentasche von Gennaro Russo Baumwollfasern vom Kissen des Opfers."
+  },
+  {
+   "key": "case046.scooter.title",
+   "value": "DURCHSUCHUNG DES MOTORRADS"
+  },
+  {
+   "key": "case046.summary.evidence",
+   "value": "Die Obduktion zeigte das Ersticken, die Nachbarin das Motorrad und was unter den Sitz gelegt wurde, das Kurierprotokoll die Pausenzeiten. Die Durchsuchung lieferte die Dose und die Fasern. Der Tourist hatte den Streit gehört; wurde er vor der Obduktion nicht befragt, flog er mit dem Morgenflug davon."
+  },
+  {
+   "key": "case046.summary.lesson",
+   "value": "In Neapel wartet kein Zeuge. Frag heute, wer morgen abreist."
+  },
+  {
+   "key": "case046.summary.location",
+   "value": "Quartieri Spagnoli — Oktober 2030"
+  },
+  {
+   "key": "case046.summary.truth",
+   "value": "Jemand von Caruso Marittima wollte die alten Hafenscheine, die Nunzia Russo von ihrem Mann geblieben waren. Als Nunzia sie nicht hergab, wurden ihrem Enkel Gennaro fünftausend Euro geboten. Gennaro fuhr in der Nacht in seiner Kurierpause zum Basso, drückte seiner Großmutter, als sie ‚niemals‘ sagte, das Kissen aufs Gesicht und legte die Dose unter den Sitz seines Motorrads."
+  },
+  {
+   "key": "case046.suspect.label",
+   "value": "Wer hat Nunzia Russo getötet?"
+  },
+  {
+   "key": "case046.tablet.caseLine",
+   "value": "AKTE #046  /  BUBE NEAPEL — QUARTIERI SPAGNOLI"
+  },
+  {
+   "key": "case046.time.arrive",
+   "value": "22.48"
+  },
+  {
+   "key": "case046.time.found",
+   "value": "07.15"
+  },
+  {
+   "key": "case046.time.leave",
+   "value": "23.52"
+  },
+  {
+   "key": "case046.time.shout",
+   "value": "23.10"
+  },
+  {
+   "key": "case046.title",
+   "value": "Akte #046 — Basso"
+  },
+  {
+   "key": "case046.verdict.assunta",
+   "value": "Assunta Esposito"
+  },
+  {
+   "key": "case046.verdict.gennaro",
+   "value": "Gennaro Russo"
+  },
+  {
+   "key": "case046.verdict.natural",
+   "value": "Niemand — Herzversagen"
+  },
+  {
+   "key": "case046.verdict.pieter",
+   "value": "Pieter de Vries"
+  },
+  {
+   "key": "case046.item.pillow.name",
+   "value": "Kissen"
+  },
+  {
+   "key": "case046.item.pillow.detail",
+   "value": "Das bestickte Kissen auf dem Bett des Opfers; in der Mitte Lippenstift- und Speichelflecken."
+  },
+  {
+   "key": "case046.item.tin.name",
+   "value": "Blechdose"
+  },
+  {
+   "key": "case046.item.tin.detail",
+   "value": "Eine alte Keksdose unter einem Motorradsitz; darin vergilbte Lieferscheine."
+  },
+  {
+   "key": "case046.item.lace.name",
+   "value": "Unfertige Spitze"
+  },
+  {
+   "key": "case046.item.lace.detail",
+   "value": "Die Häkelarbeit auf dem Stuhl des Opfers; die Nadel steckt noch in der Masche."
+  }
+ ]
+}
