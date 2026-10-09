@@ -97,6 +97,8 @@
 
 **4 Ekim (akşam):** **Dosya #004 "Sessiz Kat"** veriye girdi (18 düğüm, 247 metin) ve #003'ün ardından zincire bağlandı. Doğrulayıcı vakayı baştan sona açıyor; insan eliyle oynanmadı. Portreler, kapak ve üç CCTV anının kareleri girdi; 22 ekranlık galeri çekimi alındı. Sırada kullanıcının Unity'de baştan sona oynaması var.
 
+**9 Ekim (akşam):** Dosya #002'de Selçuk sorusunu kilitleyen hata kapandı (yem sonrası bekletme tümden kalktı, doğru kayıt yanmıyor). Rapor özetindeki "Çalışman" paydası artık dosyanın tamamı. Dosya #002 zorlaştı: 23.20–23.30 kamera boşluğu ve Deniz'in 23.19'daki geri dönüşü; çözüm aynı. Hepsi `[~]`, Unity'de oynanmadı.
+
 **4 Ekim:** Kullanıcı Dosya #001 → #002 → #003'ü ve yeni arayüzü **Unity'de oynadı**; ROADMAP'teki oynanış/arayüz maddeleri `[x]`. Sorgu odasında kişi koltuğa oturuyor, masanın ön kenarı portrenin önünde; bardak ve kayıt cihazı kalktı. Pencereler sönerek kapanıyor. Gerçek kurum adı gömülü `DeskReference.png` silindi — açık içerik ihlali kalmadı. Ekran görüntüsü testleri artık batchmode'da koşuyor: **126 EditMode + 25/25 PlayMode**. `Tools/capture-screens.sh` sorgu ekranlarını toplar. Açık kalanlar: cihaz testi, reklam hesabı (kullanıcıda), yeni vakalar.
 
 **3 Ekim (akşam):** Sorgu odası ve "Kaydı öne sür" maket (`UI_INTERVIEW`) ile kuruldu; denenen kayıt o soruda tekrar listelenmez. Masada yalnız bakılmamış şeyi olan eşya yanıp söner, telefon yeni talep sayısını gösterir, "Yeni tutanak" dokunulur oldu. 128 EditMode + 22/25 PlayMode. Son hali **gözle görülmedi**.

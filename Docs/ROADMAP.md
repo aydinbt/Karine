@@ -185,6 +185,7 @@ Yeni görevlendirme ritüeli: kapalı dosya için yalnız yayımlanmış bir son
 - [x] Rapor gönderme sinematiği (`report_send.mp4`) rapor ile vaka özeti arasına girdi; GEÇ düğmesi varış filmiyle aynı yerde. **Play Mode'da gözle görülmedi.**
 - [~] Bölüm geçişinde dosya bırakılış animasyonu her yeni vakada oynuyor; daha önce yalnız dünyanın ilk dosyasında vardı. İki PlayMode testi var, ama **cihazda/Play Mode'da gözle görülmedi**.
 - [x] Dosya #002 — Son Sefer: 26 Eylül 2026'da kullanıcının verdiği senaryo vakanın yerine geçti ve eski "Kayıp Yedek" taslağı tamamen kaldırıldı. Veri yazıldı (13 düğüm, 31 soru, 170 metin anahtarı), `draft` bayrağı kalktı, doğrulayıcı vakayı baştan sona oynayıp dört sütunlu raporu gönderiyor. Geçiş, kayıt/yeniden açma, faks zamanlaması ve dokunma akışı **Play Mode'da sınanmadı**. [CASE002_DESIGN.md](CASE002_DESIGN.md) artık onaylanmış içeriğin kaydıdır.
+- [~] **Dosya #002 zorlaştı ve sorgu kilidi kalktı (9 Ekim 2026).** 23.20–23.30 kamera boşluğu (düşüş anı kayıtta yok), 23.19'da Deniz'in geri dönüşü ve yeni soru (tr/en/de); yem kayıt soruyu bekletmiyor, doğru kayıt yanıt alınmadan düşmüyor; rapor özeti dosyanın tamamını sayıyor. 145 EditMode + 28 PlayMode; Unity'de oynanmadı.
 - [ ] Kayıt dosyası sürümleme/göç ve bozuk kayıt için güvenli geri dönüş sağlanır.
 
 **Bitti ölçütü:** İkinci vaka kod değişikliği olmadan çalışır; eski Dosya #001 kaydı bozulmaz.

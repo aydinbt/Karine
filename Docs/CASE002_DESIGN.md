@@ -50,3 +50,9 @@ Yanlış kişi yazmak — fail sütununda da para sütununda da — asılsız su
 ## Üretim notu
 
 Yeni mekanik yok: Dosya #001'in sistemleri (dosya → görüşme → CCTV metin dökümü → gelen evrak → yeniden görüşme → yeni evrak → sonuç raporu) yeniden kullanılır. Yeni olan tek şey soruşturmanın yapısıdır. Selçuk, Deniz, Emre ve Kerem'in portreleri 26 Eylül 2026'da kullanıcıdan geldi ve `Resources/Bube/Characters/` altına girdi; veri içindeki portre renkleri yalnız yedek olarak duruyor.
+
+## 9 Ekim 2026 değişikliği
+
+- Büfe kamerasında 23.20–23.30 sinyal boşluğu; temas olayı yalnız ilk iki kare (iki kişi karşı karşıya). Düşüş anı kayıtta yok; yöntem adli muayene + Emre'nin ikinci ifadesiyle çözülür.
+- 23.19: sokağın üst ucunda biri yeniden görünür (`passenger_back`, yalnız Deniz'e sunulabilir). Deniz'in yeni sorusu `case002.deniz.return`: kulaklığını unuttuğunu, araca yaklaşmadığını söyler.
+- Çözüm değişmedi: fail Emre (itme), parayı alan Kerem.
