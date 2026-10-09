@@ -1,0 +1,548 @@
+{
+ "entries": [
+  {
+   "key": "case070.autopsy.body",
+   "value": "· Todesursache: Quetschung des Brustkorbs.\n· An den Handgelenken keine Haltespuren; beim Sturz war er bei Bewusstsein, er versuchte herauszukommen.\n· Im Nacken eine kleine, alte Wunde; ohne Zusammenhang.\n· Todeszeit: 23.30–00.30."
+  },
+  {
+   "key": "case070.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case070.bid.body",
+   "value": "Konsortialakte:\n\n· Bürge: Pacific Liaison Trust. Zeichnungsberechtigt: der ‚Regionalkoordinator‘.\n· Anlage: Liste der ‚Übergangsprämien für bestehendes Depotpersonal‘; an erster Stelle Paul Kerrigan, ‚Schichtleiter — reibungslose Übergabe‘.\n· Notiz von Maeve Sullivan: ‚Der Bericht verzögert die Ausschreibung.‘"
+  },
+  {
+   "key": "case070.bid.title",
+   "value": "AUSSCHREIBUNGSAKTE"
+  },
+  {
+   "key": "case070.clue.found",
+   "value": "Der Techniker findet Neil unter der Straßenbahn; der Schlüsselschlitz ist leer."
+  },
+  {
+   "key": "case070.clue.hiss",
+   "value": "Der Wächter hört, wie Bremsluft entweicht, danach Schritte Richtung Büro."
+  },
+  {
+   "key": "case070.clue.park",
+   "value": "Der Fahrer parkt die Straßenbahn über der Grube und hängt den Bremsschlüssel an die Tafel des Schichtleiters."
+  },
+  {
+   "key": "case070.clue.source.cormac",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.clue.source.dimitri",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.clue.source.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.cormac.body",
+   "value": "Fahrer."
+  },
+  {
+   "key": "case070.cormac.deflect",
+   "value": "Ich fahre nur."
+  },
+  {
+   "key": "case070.cormac.park.answer",
+   "value": "Um zehn, über der Grube. Ich zog die Bremse, hängte den Schlüssel an die Tafel des Schichtleiters; das ist die Regel. Diese Straßenbahn hatte letzte Woche zweimal Mühe anzuhalten, ich habe es Neil gesagt."
+  },
+  {
+   "key": "case070.cormac.park.answer.demeanor",
+   "value": "Dreht seine Mütze in beiden Händen."
+  },
+  {
+   "key": "case070.cormac.park.question",
+   "value": "Haben Sie die Straßenbahn geparkt?"
+  },
+  {
+   "key": "case070.cormac.title",
+   "value": "Cormac Byrne — Befragung"
+  },
+  {
+   "key": "case070.custody.board",
+   "value": "Zurück an die Schlüsseltafel"
+  },
+  {
+   "key": "case070.custody.label",
+   "value": "Wohin kam der Schlüssel des Bremshebels?"
+  },
+  {
+   "key": "case070.custody.locker",
+   "value": "In den Spind des Schichtleiters"
+  },
+  {
+   "key": "case070.custody.pit",
+   "value": "Auf den Boden der Grube"
+  },
+  {
+   "key": "case070.dimitri.body",
+   "value": "Nachtwächter."
+  },
+  {
+   "key": "case070.dimitri.deflect",
+   "value": "Vierzig Jahre auf diesen Schienen; ich kenne die Geräusche."
+  },
+  {
+   "key": "case070.dimitri.sound.answer",
+   "value": "Gegen Mitternacht entwich Bremsluft; dieses Zischen habe ich vierzig Jahre gehört. Dann ein Schienengeräusch. Dann Schritte, Richtung Büro. Im Büro war nur der Schichtleiter; Paul Kerrigan machte das Licht an, machte es aus."
+  },
+  {
+   "key": "case070.dimitri.sound.answer.demeanor",
+   "value": "Streicht sich über den Schnurrbart."
+  },
+  {
+   "key": "case070.dimitri.sound.question",
+   "value": "Was haben Sie in der Nacht gehört?"
+  },
+  {
+   "key": "case070.dimitri.title",
+   "value": "Dimitri Kostas — Befragung"
+  },
+  {
+   "key": "case070.epilogue.custody.board",
+   "value": "An der Tafel hing dieser Schlüssel nicht."
+  },
+  {
+   "key": "case070.epilogue.custody.locker",
+   "value": "Festgehalten wurde, dass der Schlüssel im Spind des Schichtleiters gefunden wurde."
+  },
+  {
+   "key": "case070.epilogue.custody.pit",
+   "value": "In der Grube lagen nur die Taschenlampe und der Bremsbelag."
+  },
+  {
+   "key": "case070.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; die Straßenbahnen blieben auf den Schienen."
+  },
+  {
+   "key": "case070.epilogue.verdict.kerrigan",
+   "value": "Paul Kerrigan wurde festgenommen; vierzehn Straßenbahnen wurden aus dem Verkehr gezogen. Die Ausschreibungskommission strich die Bürgschaft von Pacific Liaison aus der Akte."
+  },
+  {
+   "key": "case070.epilogue.verdict.maeve",
+   "value": "Maeve Sullivan wurde vernommen; der Schichtleiter kehrte an seine Arbeit zurück."
+  },
+  {
+   "key": "case070.epilogue.verdict.wiremu",
+   "value": "Wiremu Tane wurde festgenommen; der Schlüssel blieb im Spind."
+  },
+  {
+   "key": "case070.evidence.bid",
+   "value": "Ausschreibungsakte"
+  },
+  {
+   "key": "case070.evidence.locker",
+   "value": "Durchsuchung des Spinds"
+  },
+  {
+   "key": "case070.evidence.mail",
+   "value": "Gewerkschaftskorrespondenz"
+  },
+  {
+   "key": "case070.evidence.pit",
+   "value": "Untersuchung der Grube"
+  },
+  {
+   "key": "case070.feedback.accident",
+   "value": "Der Schlüssel des Bremslösehebels steckte nicht im Schlitz; jemand hat ihn eingesteckt und wieder herausgezogen."
+  },
+  {
+   "key": "case070.feedback.kerrigan",
+   "value": "Der Bremsschlüssel und die aus dem Wartungsbuch gerissenen Seiten lagen in seinem Spind, am Schlüssel sein Abdruck; Neil hatte ihm geschrieben, dass er in jener Nacht kommen würde. Der Wächter hörte nach der Bremse Schritte zum Büro."
+  },
+  {
+   "key": "case070.feedback.maeve",
+   "value": "Die Vertragsmanagerin wollte den Bericht aufschieben, war aber in jener Nacht nicht im Depot."
+  },
+  {
+   "key": "case070.feedback.wiremu",
+   "value": "Der Techniker fand die Leiche; der Bremsschlüssel war an der Tafel, dann im Spind des Schichtleiters, nicht bei ihm."
+  },
+  {
+   "key": "case070.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case070.file.value.bureau",
+   "value": "BDA Melbourne — Dienststelle Footscray"
+  },
+  {
+   "key": "case070.file.value.location",
+   "value": "Straßenbahndepot Footscray, Melbourne"
+  },
+  {
+   "key": "case070.file.value.number",
+   "value": "BDA-MEL-2030-0351"
+  },
+  {
+   "key": "case070.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case070.file.value.reporter",
+   "value": "Wartungstechniker"
+  },
+  {
+   "key": "case070.haddad.body",
+   "value": "Arbeitsschutzvertreterin der Gewerkschaft."
+  },
+  {
+   "key": "case070.haddad.deflect",
+   "value": "Eine Bremse auf dem Papier zu reparieren ist leicht."
+  },
+  {
+   "key": "case070.haddad.rep.answer",
+   "value": "Die Bremsen von vierzehn Straßenbahnen. Im Wartungsbuch steht ‚in Ordnung‘, aber die Teile wurden nie gewechselt. Der Bericht sollte am Montag an die Ausschreibungskommission gehen. Maeve Sullivan bat uns, den Bericht ‚auf nach der Ausschreibung‘ zu verschieben."
+  },
+  {
+   "key": "case070.haddad.rep.answer.demeanor",
+   "value": "Legt ihr Telefon mit dem Bildschirm nach unten auf den Tisch."
+  },
+  {
+   "key": "case070.haddad.rep.question",
+   "value": "Worüber hat Neil berichtet?"
+  },
+  {
+   "key": "case070.haddad.title",
+   "value": "Rania Haddad — Befragung"
+  },
+  {
+   "key": "case070.kerrigan.body",
+   "value": "Nachtschichtleiter."
+  },
+  {
+   "key": "case070.kerrigan.deflect",
+   "value": "Im Depot wird alles aufgezeichnet."
+  },
+  {
+   "key": "case070.kerrigan.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.locker",
+   "value": "Den Schlüssel nahm ich von der Tafel. Ich wollte ihm Angst machen, er sollte aus der Grube kommen, den Bericht lassen. Als die Luft entwich, rollte die Straßenbahn. Ich konnte sie nicht aufhalten. Ich habe sie nicht aufgehalten. Die Seiten riss ich heraus. Auf der Prämienliste stand mein Name; auf diese Liste zu kommen hat mich zehn Jahre gekostet."
+  },
+  {
+   "key": "case070.kerrigan.end.presented.mail",
+   "value": "‚Komm nicht‘, sagte ich. Er kam. Den Rest kennen Sie."
+  },
+  {
+   "key": "case070.kerrigan.end.question",
+   "value": "Sie haben die Bremse gelöst."
+  },
+  {
+   "key": "case070.kerrigan.night.answer",
+   "value": "Im Büro, Papierkram. Neil ist ohne Erlaubnis in die Grube gestiegen. Die Straßenbahnen sind alt; die Bremse hat sich von selbst gelöst."
+  },
+  {
+   "key": "case070.kerrigan.night.answer.demeanor",
+   "value": "Zieht den Reißverschluss seiner Weste zu."
+  },
+  {
+   "key": "case070.kerrigan.night.question",
+   "value": "Wo waren Sie um Mitternacht?"
+  },
+  {
+   "key": "case070.kerrigan.title",
+   "value": "Paul Kerrigan — Befragung"
+  },
+  {
+   "key": "case070.line_bid.body",
+   "value": "Ausschreibungslinie geöffnet: Konsortium, Bürgschaften, Zahlungen."
+  },
+  {
+   "key": "case070.line_bid.title",
+   "value": "LINIE C — AUSSCHREIBUNG"
+  },
+  {
+   "key": "case070.line_depot.body",
+   "value": "Depotlinie geöffnet: Spinde, Wartungsbücher, Schlüsseltafel."
+  },
+  {
+   "key": "case070.line_depot.title",
+   "value": "LINIE A — DEPOT"
+  },
+  {
+   "key": "case070.line_union.body",
+   "value": "Gewerkschaftslinie geöffnet: Korrespondenz, Berichtsentwürfe, Sitzungsnotizen."
+  },
+  {
+   "key": "case070.line_union.title",
+   "value": "LINIE B — GEWERKSCHAFT"
+  },
+  {
+   "key": "case070.locker.body",
+   "value": "Der Depotspind von Paul Kerrigan:\n\n· Der Schlüssel des Bremslösehebels von Straßenbahn Nr. 6; im Fett der Fingerabdruck von Kerrigan.\n· Zwei aus dem Wartungsbuch gerissene Seiten; die Vermerke ‚muss ersetzt werden‘ für vierzehn Straßenbahnen.\n· Der Berichtsentwurf von Neil Ashworth, zur Hälfte zerrissen."
+  },
+  {
+   "key": "case070.locker.title",
+   "value": "SPIND DES SCHICHTLEITERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case070.maeve.bid.answer",
+   "value": "Weil eine Ausschreibung eine Zahl ist, ein Bericht dagegen eine Schlagzeile. Der Bürge des Konsortiums ist eine Stiftung; die Stiftung ‚will keine Überraschungen‘. Das ist kein Mordmotiv, das ist ein Geschäftsablauf."
+  },
+  {
+   "key": "case070.maeve.bid.answer.demeanor",
+   "value": "Nimmt ihre Brille von der Kette und setzt sie auf."
+  },
+  {
+   "key": "case070.maeve.bid.question",
+   "value": "Warum wollten Sie den Bericht aufschieben?"
+  },
+  {
+   "key": "case070.maeve.body",
+   "value": "Vertragsmanagerin der Verkehrsbehörde."
+  },
+  {
+   "key": "case070.maeve.deflect",
+   "value": "Ein Vertrag ist eine Zahl, der Rest ist Lärm."
+  },
+  {
+   "key": "case070.maeve.title",
+   "value": "Maeve Sullivan — Befragung"
+  },
+  {
+   "key": "case070.mail.body",
+   "value": "Die letzte Korrespondenz von Neil Ashworth:\n\n· An Paul Kerrigan, 14. November: ‚Die Vermerke „in Ordnung“ im Buch hast du unterschrieben. Am Montag steht dein Name im Bericht. Heute Nacht sehe ich mir die Beläge ein letztes Mal an.‘\n· Antwort von Kerrigan: ‚Komm nachts nicht. Lass uns reden.‘"
+  },
+  {
+   "key": "case070.mail.title",
+   "value": "GEWERKSCHAFTSKORRESPONDENZ"
+  },
+  {
+   "key": "case070.method.brake",
+   "value": "Die absichtlich entbremste Straßenbahn rollte auf das Opfer in der Grube"
+  },
+  {
+   "key": "case070.method.fall",
+   "value": "Er fiel in die Grube und wurde zerquetscht"
+  },
+  {
+   "key": "case070.method.fault",
+   "value": "Die Bremse hat sich von selbst gelöst"
+  },
+  {
+   "key": "case070.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case070.offer.subtitle",
+   "value": "DEPOT  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case070.offer.summary",
+   "value": "Ein Gewerkschaftsvertreter wurde in einer Wartungsgrube unter einer auf ihn gerollten Straßenbahn gefunden."
+  },
+  {
+   "key": "case070.offer.title",
+   "value": "AKTE #070"
+  },
+  {
+   "key": "case070.person.cormac.info",
+   "value": "29 Jahre, Straßenbahnfahrer."
+  },
+  {
+   "key": "case070.person.cormac.name",
+   "value": "Cormac Byrne"
+  },
+  {
+   "key": "case070.person.dimitri.info",
+   "value": "62 Jahre, pensionierter Fahrer; Nachtwächter des Depots."
+  },
+  {
+   "key": "case070.person.dimitri.name",
+   "value": "Dimitri Kostas"
+  },
+  {
+   "key": "case070.person.haddad.info",
+   "value": "38 Jahre, Arbeitsschutzvertreterin der Gewerkschaft."
+  },
+  {
+   "key": "case070.person.haddad.name",
+   "value": "Rania Haddad"
+  },
+  {
+   "key": "case070.person.kerrigan.info",
+   "value": "50 Jahre, Nachtschichtleiter des Straßenbahndepots."
+  },
+  {
+   "key": "case070.person.kerrigan.name",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.person.maeve.info",
+   "value": "55 Jahre, Vertragsmanagerin der Verkehrsbehörde."
+  },
+  {
+   "key": "case070.person.maeve.name",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.person.wiremu.info",
+   "value": "44 Jahre, Wartungstechniker; fand die Leiche."
+  },
+  {
+   "key": "case070.person.wiremu.name",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.pit.body",
+   "value": "Grube Nr. 6 und die Straßenbahn darüber:\n\n· Die Straßenbahn ist auf ihrem Gleis 2,1 Meter vorgerollt; der Bremszylinder ohne Luft.\n· Der Schlitz des Bremslösehebels ist leer; kein Schlüssel steckt.\n· Am Boden der Grube eine Taschenlampe und ein Bremsbelag; das Opfer untersuchte den Belag."
+  },
+  {
+   "key": "case070.pit.title",
+   "value": "UNTERSUCHUNG DER WARTUNGSGRUBE"
+  },
+  {
+   "key": "case070.report.body",
+   "value": "In der Nacht des 15. November 2030 wurde im Straßenbahndepot Footscray der Arbeitsschutzvertreter der Gewerkschaft Neil Ashworth (47) tot in Wartungsgrube Nr. 6 gefunden, unter einer Straßenbahn, die auf ihn gerollt war.\n\nDie Leiche fand der Wartungstechniker Wiremu Tane um 01.40. Schichtleiter Paul Kerrigan, Rania Haddad von der Gewerkschaft, der Fahrer, der die Straßenbahn geparkt hatte, Cormac Byrne, Maeve Sullivan von der Verkehrsbehörde und der Nachtwächter Dimitri Kostas werden befragt."
+  },
+  {
+   "key": "case070.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case070.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case070.request.bid",
+   "value": "Ausschreibungsakte anfordern"
+  },
+  {
+   "key": "case070.request.line_bid",
+   "value": "Ausschreibungslinie öffnen"
+  },
+  {
+   "key": "case070.request.line_depot",
+   "value": "Depotlinie öffnen"
+  },
+  {
+   "key": "case070.request.line_union",
+   "value": "Gewerkschaftslinie öffnen"
+  },
+  {
+   "key": "case070.request.locker",
+   "value": "Durchsuchungsbeschluss für den Spind des Schichtleiters beantragen"
+  },
+  {
+   "key": "case070.request.mail",
+   "value": "Gewerkschaftskorrespondenz anfordern"
+  },
+  {
+   "key": "case070.request.pit",
+   "value": "Untersuchung der Wartungsgrube anfordern"
+  },
+  {
+   "key": "case070.summary.evidence",
+   "value": "Zwei von drei Linien reichten: die Depotlinie lieferte den Schlüssel, die Gewerkschaftslinie die Nachricht ‚Komm nicht‘. Die Ausschreibungslinie zeigte das Motiv."
+  },
+  {
+   "key": "case070.summary.lesson",
+   "value": "Das Buch sagte, die Bremse sei in Ordnung. Das Buch hatte er geschrieben."
+  },
+  {
+   "key": "case070.summary.location",
+   "value": "Straßenbahndepot Footscray — November 2030"
+  },
+  {
+   "key": "case070.summary.truth",
+   "value": "Der Schichtleiter Paul Kerrigan schrieb jahrelang ‚in Ordnung‘ ins Wartungsbuch. Das Konsortium, das die Ausschreibung gewinnen sollte, hatte ihn auf die Prämienliste ‚reibungslose Übergabe‘ gesetzt. Neil Ashworth von der Gewerkschaft wollte über die Bremsen berichten. Kerrigan nahm in der Nacht den Schlüssel von der Tafel und löste die Bremse, während Neil in der Grube war."
+  },
+  {
+   "key": "case070.suspect.label",
+   "value": "Wer hat Neil Ashworth getötet?"
+  },
+  {
+   "key": "case070.tablet.caseLine",
+   "value": "AKTE #070  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case070.time.found",
+   "value": "01.40"
+  },
+  {
+   "key": "case070.time.hiss",
+   "value": "nachts yarısı"
+  },
+  {
+   "key": "case070.time.park",
+   "value": "22.00"
+  },
+  {
+   "key": "case070.title",
+   "value": "Akte #070 — Depot"
+  },
+  {
+   "key": "case070.verdict.accident",
+   "value": "Niemand — die Bremse hat sich von selbst gelöst"
+  },
+  {
+   "key": "case070.verdict.kerrigan",
+   "value": "Paul Kerrigan"
+  },
+  {
+   "key": "case070.verdict.maeve",
+   "value": "Maeve Sullivan"
+  },
+  {
+   "key": "case070.verdict.wiremu",
+   "value": "Wiremu Tane"
+  },
+  {
+   "key": "case070.wiremu.body",
+   "value": "Wartungstechniker."
+  },
+  {
+   "key": "case070.wiremu.deflect",
+   "value": "In diese Grube steige ich jeden Tag."
+  },
+  {
+   "key": "case070.wiremu.found.answer",
+   "value": "Neil hatte gesagt, er sehe sich nachts die Beläge an. Ich brachte Kaffee. Die Straßenbahn war gerollt. Der Bremsschlüssel war weg; dieser Schlüssel bleibt beim Schichtleiter, nicht bei uns. Ich habe ihm auch bei seinem Bericht geholfen, ja."
+  },
+  {
+   "key": "case070.wiremu.found.answer.demeanor",
+   "value": "Öffnet die Hände vor sich und betrachtet sie."
+  },
+  {
+   "key": "case070.wiremu.found.question",
+   "value": "Warum sind Sie in die Grube gestiegen?"
+  },
+  {
+   "key": "case070.wiremu.title",
+   "value": "Wiremu Tane — Befragung"
+  },
+  {
+   "key": "case070.item.key.name",
+   "value": "Schlüssel des Bremshebels"
+  },
+  {
+   "key": "case070.item.key.detail",
+   "value": "Der abnehmbare Schlüssel des Bremslösehebels der Straßenbahn; kam aus dem Spind des Schichtleiters."
+  },
+  {
+   "key": "case070.item.log.name",
+   "value": "Bremswartungsprotokoll"
+  },
+  {
+   "key": "case070.item.log.detail",
+   "value": "Das Wartungsbuch des Depots; der Vermerk ‚Bremsen in Ordnung‘ in frischer Tinte."
+  },
+  {
+   "key": "case070.item.report.name",
+   "value": "Sicherheitsbericht der Gewerkschaft"
+  },
+  {
+   "key": "case070.item.report.detail",
+   "value": "Der vom Opfer erstellte Berichtsentwurf; die Bremsen von vierzehn Straßenbahnen."
+  }
+ ]
+}
