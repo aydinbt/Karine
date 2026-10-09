@@ -1,0 +1,636 @@
+{
+ "entries": [
+  {
+   "key": "case039.autopsy.body",
+   "value": "· An der linken Kopfseite ein tiefer, etwa 3 cm breiter Schlag mit gerader Kante; Schädelbruch. Diese Wunde zeigt eine vitale Gewebereaktion.\n· Die Quetschwunden an Brust und Beinen bluteten kaum; postmortal.\n· Todeszeitpunkt: 01.50–02.10. Das Regal wurde nach dem Tod umgeworfen."
+  },
+  {
+   "key": "case039.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case039.carter.body",
+   "value": "Wachmann."
+  },
+  {
+   "key": "case039.carter.cam.answer",
+   "value": "In der Kabine gibt es einen Bildschirm, sechzehn Kameras im Wechsel. Gegen 02.00 habe ich auf den Lkw am Tor geschaut. In den Gängen tragen alle dieselbe Weste, auf dem Bildschirm erkennt man niemanden."
+  },
+  {
+   "key": "case039.carter.cam.answer.demeanor",
+   "value": "Streicht sich mit der Handfläche über den Bart."
+  },
+  {
+   "key": "case039.carter.cam.question",
+   "value": "Haben Sie auf die Kameras geschaut?"
+  },
+  {
+   "key": "case039.carter.deflect",
+   "value": "Ich passe aufs Tor auf, nicht auf Kisten."
+  },
+  {
+   "key": "case039.carter.title",
+   "value": "Dwayne Carter — Befragung"
+  },
+  {
+   "key": "case039.cctv.event.drive",
+   "value": "Kamera: Jemand in Warnweste fährt einen Gabelstapler in den Gang; die Gabeln tief, am Fuß des Regalständers."
+  },
+  {
+   "key": "case039.cctv.event.fall",
+   "value": "Kamera: Das lange Regal neigt sich und kippt, Kisten fallen in den Gang; der Gabelstapler setzt zurück."
+  },
+  {
+   "key": "case039.cctv.event.lying",
+   "value": "Kamera: Am Ende des Gangs ein Gabelstapler; daneben liegt jemand in Warnweste regungslos am Boden."
+  },
+  {
+   "key": "case039.cctv.overlay",
+   "value": "AISLE-14"
+  },
+  {
+   "key": "case039.cctv.period",
+   "value": "12. Juli 2030"
+  },
+  {
+   "key": "case039.cctv.source",
+   "value": "Gangkamera"
+  },
+  {
+   "key": "case039.clue.call",
+   "value": "Der Schichtleiter meldet den Unfall."
+  },
+  {
+   "key": "case039.clue.fall",
+   "value": "Das Regal kippt; der Gabelstapler setzt zurück."
+  },
+  {
+   "key": "case039.clue.login",
+   "value": "Am Gabelstapler Nr. 3 wird mit der Karte SUP-01 angemeldet."
+  },
+  {
+   "key": "case039.clue.lying",
+   "value": "Neben dem Gabelstapler jemand regungslos am Boden."
+  },
+  {
+   "key": "case039.clue.source.report",
+   "value": "Vorfallsbericht"
+  },
+  {
+   "key": "case039.clue.source.telematics",
+   "value": "Telematik"
+  },
+  {
+   "key": "case039.clue.source.texts",
+   "value": "Nachrichten"
+  },
+  {
+   "key": "case039.clue.t1",
+   "value": "Luis schreibt an Novak: ‚Container 22.‘"
+  },
+  {
+   "key": "case039.clue.t2",
+   "value": "Luis schreibt an Reyes: ‚Er hat mich zum Container gerufen.‘"
+  },
+  {
+   "key": "case039.custody.fatigue",
+   "value": "Die Bolzen ermüdeten, es kippte von selbst"
+  },
+  {
+   "key": "case039.custody.hit",
+   "value": "Das Opfer fuhr mit dem Gabelstapler dagegen"
+  },
+  {
+   "key": "case039.custody.label",
+   "value": "Wie kippte das Regal?"
+  },
+  {
+   "key": "case039.custody.staged",
+   "value": "Nach dem Tod mit dem Gabelstapler umgeworfen"
+  },
+  {
+   "key": "case039.dock.body",
+   "value": "Gang 14. 12. Juli 01.30 – 02.30."
+  },
+  {
+   "key": "case039.dock.title",
+   "value": "KAMERA GANG 14 — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case039.epilogue.custody.fatigue",
+   "value": "Im Prüfbericht stand, dass die Bolzen frisch gebrochen waren."
+  },
+  {
+   "key": "case039.epilogue.custody.hit",
+   "value": "Das Opfer war zu dieser Zeit tot; am Gabelstapler war mit einer anderen Karte angemeldet worden."
+  },
+  {
+   "key": "case039.epilogue.custody.staged",
+   "value": "Festgehalten wurde, dass das Regal nach dem Tod mit der Gabel eines Gabelstaplers umgeworfen wurde."
+  },
+  {
+   "key": "case039.epilogue.verdict.accident",
+   "value": "Der Tod galt als Arbeitsunfall; Lakeshore zahlte eine Geldstrafe."
+  },
+  {
+   "key": "case039.epilogue.verdict.hector",
+   "value": "Hector Ortega wurde festgenommen; Container 22 ging am nächsten Tag auf die Reise."
+  },
+  {
+   "key": "case039.epilogue.verdict.kowalski",
+   "value": "Ray Kowalski wurde festgenommen. Container 22 wurde versiegelt: darin vierzehn Kisten von Maison Delorme, deklariert als ‚Maschinenteile‘. Die Anwälte von Lakeshore Freight standen am nächsten Morgen in der Dienststelle."
+  },
+  {
+   "key": "case039.epilogue.verdict.novak",
+   "value": "Teresa Novak wurde in Gewahrsam genommen; die Gewerkschaft rief im Lager zum Streik auf, die Akte wurde geschlossen."
+  },
+  {
+   "key": "case039.evidence.inspect",
+   "value": "Arbeitsschutzprüfung"
+  },
+  {
+   "key": "case039.evidence.monitor",
+   "value": "Protokoll der elektronischen Fußfessel"
+  },
+  {
+   "key": "case039.evidence.telematics",
+   "value": "Telematik des Gabelstaplers"
+  },
+  {
+   "key": "case039.evidence.texts",
+   "value": "Nachrichten des Opfers"
+  },
+  {
+   "key": "case039.feedback.accident",
+   "value": "Der Schlag am Kopf war zu Lebzeiten, die Quetschwunden postmortal; die Bolzen wurden seitlich abgerissen."
+  },
+  {
+   "key": "case039.feedback.hector",
+   "value": "Der Bruder hatte Schulden, aber das Fußfesselprotokoll zeigt ihn die ganze Nacht in Little Village."
+  },
+  {
+   "key": "case039.feedback.kowalski",
+   "value": "Die letzte Nachricht von Luis schreibt, dass Ray ihn zum Container rief; die Funkzelle zeigt beide am selben Ort. Nach dem Tod wurde um 02.09 mit seiner Karte am Gabelstapler angemeldet, das Regal wurde um 02.12 mit der Gabel umgeworfen."
+  },
+  {
+   "key": "case039.feedback.novak",
+   "value": "Die Gewerkschaftsvertreterin war zu dieser Zeit an Rampe 7; Luis vertraute ihr."
+  },
+  {
+   "key": "case039.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case039.file.value.bureau",
+   "value": "BDS Chicago — Dienststelle Pilsen"
+  },
+  {
+   "key": "case039.file.value.location",
+   "value": "Pilsen, Chicago — Lagerhalle"
+  },
+  {
+   "key": "case039.file.value.number",
+   "value": "BDC-CHI-2030-0207"
+  },
+  {
+   "key": "case039.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case039.file.value.reporter",
+   "value": "Lagerleitung"
+  },
+  {
+   "key": "case039.hector.body",
+   "value": "Älterer Bruder des Opfers."
+  },
+  {
+   "key": "case039.hector.debt.answer",
+   "value": "Dreitausend Dollar. Wir haben uns gestritten, letzte Woche. Aber ich töte meinen Bruder nicht. Ich trage eine Fußfessel, nach 22.00 darf ich das Haus nicht verlassen."
+  },
+  {
+   "key": "case039.hector.debt.answer.demeanor",
+   "value": "Bedeckt das Tattoo an seinem Hals mit der Hand."
+  },
+  {
+   "key": "case039.hector.debt.question",
+   "value": "Sie hatten Schulden bei Ihrem Bruder."
+  },
+  {
+   "key": "case039.hector.deflect",
+   "value": "Reden Sie mit meinem Bewährungshelfer."
+  },
+  {
+   "key": "case039.hector.title",
+   "value": "Hector Ortega — Befragung"
+  },
+  {
+   "key": "case039.inspect.body",
+   "value": "Das Regal in Gang 14:\n\n· Vier Ankerbolzen gebrochen; die Bruchflächen glänzend und frisch, keine Ermüdungsspuren. Die Bolzen wurden seitlich, auf Bodenhöhe, durch Schieben abgerissen.\n· Am Fuß des Regalständers zwei parallele Schleifspuren von Gabelstaplerzinken; die Farbe ist das Gelb von Gabelstapler Nr. 3.\n· Die Last des Regals liegt unter der Grenze. Ein Kippen von selbst ist ausgeschlossen."
+  },
+  {
+   "key": "case039.inspect.title",
+   "value": "ARBEITSSCHUTZPRÜFUNG"
+  },
+  {
+   "key": "case039.kowalski.body",
+   "value": "Schichtleiter."
+  },
+  {
+   "key": "case039.kowalski.deflect",
+   "value": "Lagerabläufe sind Sache der Firma, ich führe die Schicht."
+  },
+  {
+   "key": "case039.kowalski.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case039.kowalski.end.presented.telematics",
+   "value": "Meine Karte … Er hat die Kisten gesehen, ein Anruf genügt, und alles ist vorbei, der Job ist vorbei. Mit dem Brecheisen haben wir neben dem Container geredet, er sagte ‚bube‘. Dann … Das Regal habe ich umgeworfen, mit dem Stapler. Damit es wie ein Unfall aussieht."
+  },
+  {
+   "key": "case039.kowalski.end.presented.texts",
+   "value": "Die Nachrichten von Luis. Jeder redet über jeden."
+  },
+  {
+   "key": "case039.kowalski.end.question",
+   "value": "Um 02.11 sind Sie Gabelstapler Nr. 3 gefahren."
+  },
+  {
+   "key": "case039.kowalski.night.answer",
+   "value": "Im Büro, ich habe den Schichtbericht geschrieben. Ich hörte den Lärm und bin hingelaufen. Luis war müde, er ist mit dem Stapler gegen das Regal gefahren, das ist alles. Wie oft habe ich ihn gewarnt."
+  },
+  {
+   "key": "case039.kowalski.night.answer.demeanor",
+   "value": "Reibt sich den Nacken."
+  },
+  {
+   "key": "case039.kowalski.night.question",
+   "value": "Wo waren Sie während des Vorfalls?"
+  },
+  {
+   "key": "case039.kowalski.title",
+   "value": "Ray Kowalski — Befragung"
+  },
+  {
+   "key": "case039.lindqvist.body",
+   "value": "Prüfer."
+  },
+  {
+   "key": "case039.lindqvist.deflect",
+   "value": "Mein Prüfbericht geht über den offiziellen Weg raus."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer",
+   "value": "Seit dreißig Jahren sehe ich Regale. Dieses Regal ist nicht durch Ermüdung gekippt, sondern geschoben worden. Jemand hat die Staplergabel an den Fuß des Ständers gesetzt und die Bolzen seitlich abgerissen. Das kann nur jemand, der einen Stapler fahren kann."
+  },
+  {
+   "key": "case039.lindqvist.rack.answer.demeanor",
+   "value": "Schiebt die Brille auf der Nase hoch."
+  },
+  {
+   "key": "case039.lindqvist.rack.question",
+   "value": "Kann ein Regal von selbst kippen?"
+  },
+  {
+   "key": "case039.lindqvist.title",
+   "value": "Pete Lindqvist — Befragung"
+  },
+  {
+   "key": "case039.line_ops.body",
+   "value": "Linie für die Betriebsdaten des Lagers Pilsen von Lakeshore Freight geöffnet: Telematik der Gabelstapler, Schichtplan."
+  },
+  {
+   "key": "case039.line_ops.title",
+   "value": "LINIE A — LAGERBETRIEB"
+  },
+  {
+   "key": "case039.line_parole.body",
+   "value": "Linie für die Bewährungsakte von Hector Ortega geöffnet."
+  },
+  {
+   "key": "case039.line_parole.title",
+   "value": "LINIE C — BEWÄHRUNGSUNTERLAGEN"
+  },
+  {
+   "key": "case039.line_phone.body",
+   "value": "Linie für die Telefondaten des Opfers und der Schicht geöffnet."
+  },
+  {
+   "key": "case039.line_phone.title",
+   "value": "LINIE B — TELEFONDATEN"
+  },
+  {
+   "key": "case039.method.bar",
+   "value": "Mit einem Brecheisen auf den Kopf geschlagen, das Regal danach umgeworfen"
+  },
+  {
+   "key": "case039.method.crush",
+   "value": "Das Regal kippte auf ihn"
+  },
+  {
+   "key": "case039.method.forklift",
+   "value": "Ein Gabelstapler erfasste ihn"
+  },
+  {
+   "key": "case039.method.label",
+   "value": "Wie starb er?"
+  },
+  {
+   "key": "case039.monitor.body",
+   "value": "Hector Ortega, 11.–12. Juli: von 21.48 bis 07.10 zu Hause, Little Village. Keine Signalunterbrechung."
+  },
+  {
+   "key": "case039.monitor.title",
+   "value": "PROTOKOLL DER ELEKTRONISCHEN FUSSFESSEL"
+  },
+  {
+   "key": "case039.novak.body",
+   "value": "Gewerkschaftsvertreterin."
+  },
+  {
+   "key": "case039.novak.deflect",
+   "value": "Die Akten unserer Gewerkschaftsmitglieder sind vertraulich."
+  },
+  {
+   "key": "case039.novak.msg.answer",
+   "value": "Um 01.31 in der Nacht schrieb er mir. Am Morgen wollte er zur Gewerkschaft kommen, ich sollte einen Anwalt besorgen. Ich war an Rampe 7, hab einen Lkw entladen; ich hörte den Lärm und bin hingelaufen."
+  },
+  {
+   "key": "case039.novak.msg.answer.demeanor",
+   "value": "Wirft ihren Zopf über die Schulter nach hinten."
+  },
+  {
+   "key": "case039.novak.msg.question",
+   "value": "Hat Luis Ihnen etwas gesagt?"
+  },
+  {
+   "key": "case039.novak.title",
+   "value": "Teresa Novak — Befragung"
+  },
+  {
+   "key": "case039.offer.subtitle",
+   "value": "DAS LAGER  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case039.offer.summary",
+   "value": "Im Lager von Lakeshore Freight in Pilsen liegt ein Gabelstaplerfahrer tot unter einem umgestürzten Regal. Ein Arbeitsunfall, sagen alle."
+  },
+  {
+   "key": "case039.offer.title",
+   "value": "AKTE #039"
+  },
+  {
+   "key": "case039.person.carter.info",
+   "value": "47 Jahre, Nachtwachmann des Lagers."
+  },
+  {
+   "key": "case039.person.carter.name",
+   "value": "Dwayne Carter"
+  },
+  {
+   "key": "case039.person.hector.info",
+   "value": "35 Jahre, älterer Bruder des Opfers; auf Bewährung."
+  },
+  {
+   "key": "case039.person.hector.name",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.person.kowalski.info",
+   "value": "54 Jahre, Nachtschichtleiter im Lager Pilsen von Lakeshore Freight."
+  },
+  {
+   "key": "case039.person.kowalski.name",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.person.lindqvist.info",
+   "value": "62 Jahre, Arbeitsschutzprüfer der Stadt."
+  },
+  {
+   "key": "case039.person.lindqvist.name",
+   "value": "Pete Lindqvist"
+  },
+  {
+   "key": "case039.person.novak.info",
+   "value": "50 Jahre, Gewerkschaftsvertreterin; Gabelstaplerfahrerin."
+  },
+  {
+   "key": "case039.person.novak.name",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.person.reyes.info",
+   "value": "31 Jahre, Inventurangestellte im Lager; Freundin des Opfers."
+  },
+  {
+   "key": "case039.person.reyes.name",
+   "value": "Marisol Reyes"
+  },
+  {
+   "key": "case039.report.body",
+   "value": "In der Nacht des 12. Juli 2030 wurde im Lager von Lakeshore Freight in Chicago, Pilsen, der Gabelstaplerfahrer Luis Ortega (29) tot unter einem in Gang 14 umgestürzten Palettenregal gefunden.\n\nDer Schichtleiter meldete den Vorfall um 02.20 als Arbeitsunfall. In der Nachtschicht im Lager: Schichtleiter Ray Kowalski, Inventurangestellte Marisol Reyes, Wachmann Dwayne Carter, Gewerkschaftsvertreterin Teresa Novak. Der städtische Arbeitsschutzprüfer Pete Lindqvist kam am Morgen."
+  },
+  {
+   "key": "case039.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case039.request.inspect",
+   "value": "Prüfbericht des städtischen Arbeitsschutzes anfordern"
+  },
+  {
+   "key": "case039.request.line_ops",
+   "value": "Linie Lagerbetrieb öffnen"
+  },
+  {
+   "key": "case039.request.line_parole",
+   "value": "Linie Bewährung öffnen"
+  },
+  {
+   "key": "case039.request.line_phone",
+   "value": "Linie Telefondaten öffnen"
+  },
+  {
+   "key": "case039.request.monitor",
+   "value": "Protokoll der elektronischen Fußfessel anfordern"
+  },
+  {
+   "key": "case039.request.roster",
+   "value": "Schichtplan anfordern"
+  },
+  {
+   "key": "case039.request.telematics",
+   "value": "Telematik des Gabelstaplers anfordern"
+  },
+  {
+   "key": "case039.request.texts",
+   "value": "Nachrichten des Opfers anfordern"
+  },
+  {
+   "key": "case039.request.tower",
+   "value": "Funkzellenprotokoll anfordern"
+  },
+  {
+   "key": "case039.reyes.body",
+   "value": "Inventurangestellte."
+  },
+  {
+   "key": "case039.reyes.deflect",
+   "value": "Die Versandlisten kommen zu mir, darüber hinaus weiß ich nichts."
+  },
+  {
+   "key": "case039.reyes.labels.answer",
+   "value": "Die Kisten. Die aus Paris. Sie kleben ein Etikett ‚Maschinenteile‘ drauf, darunter Auktionsnummern. In meiner Inventur stehen sie auch als Maschinenteile. Luis sagte: ‚Ich werde es jemandem sagen.‘"
+  },
+  {
+   "key": "case039.reyes.labels.answer.demeanor",
+   "value": "Verschränkt die Arme vor der Brust und hebt das Kinn."
+  },
+  {
+   "key": "case039.reyes.labels.question",
+   "value": "Worüber sprach Luis in den letzten Tagen?"
+  },
+  {
+   "key": "case039.reyes.night.answer",
+   "value": "In der Pause um 01.30. Er tippte etwas auf seinem Telefon. Dann bin ich ins Büro zurück, zur Inventurzählung."
+  },
+  {
+   "key": "case039.reyes.night.question",
+   "value": "Wann haben Sie ihn in der Nacht zuletzt gesehen?"
+  },
+  {
+   "key": "case039.reyes.title",
+   "value": "Marisol Reyes — Befragung"
+  },
+  {
+   "key": "case039.roster.body",
+   "value": "Nachtschicht 12. Juli:\n\n· Luis Ortega — Rampe 4, Gabelstapler 3\n· Teresa Novak — Rampe 7\n· Marisol Reyes — Inventurbüro\n· Ray Kowalski — Schichtleiter; Vermerk ‚Sonderlieferung, Container 22‘\n\nContainer 22: Absender Maison Delorme, Paris. Deklaration: Maschinenteile."
+  },
+  {
+   "key": "case039.roster.title",
+   "value": "SCHICHTPLAN"
+  },
+  {
+   "key": "case039.summary.evidence",
+   "value": "Die Obduktion zeigte, dass der Schlag am Kopf zu Lebzeiten und die Quetschung nach dem Tod erfolgte; die Prüfung, dass die Bolzen durch Schieben brachen. Die Linie Betrieb lieferte die Karte am Gabelstapler, die Telefonlinie die letzten Nachrichten. Die Bewährungslinie entlastete nur den Bruder."
+  },
+  {
+   "key": "case039.summary.lesson",
+   "value": "Du kannst zwei Linien öffnen. Überleg dir vor dem Öffnen, welche die Antwort verändert."
+  },
+  {
+   "key": "case039.summary.location",
+   "value": "Pilsen — Juli 2030"
+  },
+  {
+   "key": "case039.summary.truth",
+   "value": "Der Schichtleiter Ray Kowalski etikettierte die Auktionskisten aus Paris als ‚Maschinenteile‘ um. Als der Gabelstaplerfahrer Luis Ortega schrieb, er habe Fotos gemacht und wolle zur Gewerkschaft, rief Kowalski ihn zum Container und tötete ihn mit dem Brecheisen. Zwanzig Minuten später stieg er mit seiner eigenen Karte auf den Gabelstapler, riss mit der Gabel die Bolzen des Regals ab und warf das Regal auf die Leiche."
+  },
+  {
+   "key": "case039.suspect.label",
+   "value": "Wer hat Luis Ortega getötet?"
+  },
+  {
+   "key": "case039.tablet.caseLine",
+   "value": "AKTE #039  /  BUBE CHICAGO — PILSEN"
+  },
+  {
+   "key": "case039.telematics.body",
+   "value": "Karten- und Sensorprotokoll von Gabelstapler Nr. 3:\n\n· 01.12–01.48 mit der Karte von Luis Ortega, an Rampe 4.\n· 02.09 Anmeldung: SUP-01 — Ray Kowalski.\n· 02.11 Gabelhöhe 6 cm, Vorwärtsdruck; 02.12 plötzlicher Lastverlust.\n· 02.13 Abmeldung; der Gabelstapler setzt aus Gang 14 zurück."
+  },
+  {
+   "key": "case039.telematics.title",
+   "value": "TELEMATIK DES GABELSTAPLERS — NR. 3"
+  },
+  {
+   "key": "case039.texts.body",
+   "value": "· 01.31 → Teresa Novak: ‚Ray tauscht die Etiketten der Pariser Kisten aus. Container 22. Ich habe Fotos gemacht. Morgen früh komme ich zur Gewerkschaft, ich brauche einen Anwalt.‘\n· 01.44 → Marisol Reyes: ‚Ray hat mich zum Container gerufen. Falls etwas passiert, die Fotos sind in der Cloud.‘\n· Die Fotos in der Cloud: Kisten mit doppelten Etiketten; auf einer eine Losnummer einer Pariser Auktion."
+  },
+  {
+   "key": "case039.texts.title",
+   "value": "NACHRICHTEN VON LUIS ORTEGA"
+  },
+  {
+   "key": "case039.time.call",
+   "value": "02.20"
+  },
+  {
+   "key": "case039.time.drive",
+   "value": "02.11"
+  },
+  {
+   "key": "case039.time.fall",
+   "value": "02.12"
+  },
+  {
+   "key": "case039.time.login",
+   "value": "02.09"
+  },
+  {
+   "key": "case039.time.lying",
+   "value": "02.02"
+  },
+  {
+   "key": "case039.time.t1",
+   "value": "01.31"
+  },
+  {
+   "key": "case039.time.t2",
+   "value": "01.44"
+  },
+  {
+   "key": "case039.title",
+   "value": "Akte #039 — Das Lager"
+  },
+  {
+   "key": "case039.tower.body",
+   "value": "Zelle im Lager zwischen 01.40 und 02.20:\n\n· Das Telefon von Luis Ortega nach 01.46 unbewegt; Bereich zum Entladen der Container.\n· Das Telefon von Ray Kowalski 01.45–01.58 im Entladebereich, nach 02.05 im Büro."
+  },
+  {
+   "key": "case039.tower.title",
+   "value": "FUNKZELLENPROTOKOLL"
+  },
+  {
+   "key": "case039.verdict.accident",
+   "value": "Niemand — ein Arbeitsunfall"
+  },
+  {
+   "key": "case039.verdict.hector",
+   "value": "Hector Ortega"
+  },
+  {
+   "key": "case039.verdict.kowalski",
+   "value": "Ray Kowalski"
+  },
+  {
+   "key": "case039.verdict.novak",
+   "value": "Teresa Novak"
+  },
+  {
+   "key": "case039.item.bolts.name",
+   "value": "Gebrochene Ankerbolzen"
+  },
+  {
+   "key": "case039.item.bolts.detail",
+   "value": "Die vier Bolzen, mit denen das Regal am Boden verankert war; die Bruchflächen glänzend, frisch gebrochen."
+  },
+  {
+   "key": "case039.item.bar.name",
+   "value": "Brecheisen"
+  },
+  {
+   "key": "case039.item.bar.detail",
+   "value": "An der Werkzeugwand im Entladebereich; an der Spitze ein dunkler Fleck, den jemand abzuwischen versuchte."
+  },
+  {
+   "key": "case039.item.labels.name",
+   "value": "Kiste mit doppeltem Etikett"
+  },
+  {
+   "key": "case039.item.labels.detail",
+   "value": "Auf einer Kiste schaut unter dem Etikett ‚Maschinenteile‘ ein altes Auktionslos-Etikett hervor."
+  }
+ ]
+}
