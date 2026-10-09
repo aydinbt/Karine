@@ -1,0 +1,600 @@
+{
+ "entries": [
+  {
+   "key": "case022.audit.body",
+   "value": "Audit interne de l’entreprise, ouvert à la demande de Dieter Brandt, non conclu.\n\n· 412 reçus d’amendes payées en espèces dans le carnet de Sven Ott ; 196 sont arrivés à la caisse.\n· Écart : environ 12 900 €.\n· Note de Dieter Brandt, 9 octobre : « Parlé à Sven. Lui ai donné jusqu’à la fin de la semaine. »"
+  },
+  {
+   "key": "case022.audit.title",
+   "value": "AUDIT DES AMENDES EN ESPÈCES — 2028–2029"
+  },
+  {
+   "key": "case022.autopsy.body",
+   "value": "· Cause du décès : un coup unique et violent à l’arrière de la tête ; compatible non pas avec un choc contre la barre mais avec un objet étroit à arête.\n· Coup porté par-derrière, de haut en bas ; l’agresseur plus grand que la victime, ou debout pendant que la victime était penchée.\n· Heure du décès : 23.50–00.05.\n· Fragments de plastique dans la plaie : ABS noir et dur ; compatible avec le boîtier d’un terminal portable."
+  },
+  {
+   "key": "case022.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case022.clue.audit9",
+   "value": "Brandt donne à Ott jusqu’à la fin de la semaine pour les reçus en espèces."
+  },
+  {
+   "key": "case022.clue.f1",
+   "value": "Amende pour Jannik Lorenz."
+  },
+  {
+   "key": "case022.clue.f2",
+   "value": "Amende pour Nele Hartmann."
+  },
+  {
+   "key": "case022.clue.f3",
+   "value": "Amende pour Okan Yıldız."
+  },
+  {
+   "key": "case022.clue.hit",
+   "value": "Le terminal de Brandt tombe au sol ; signal de choc sur le terminal d’Ott."
+  },
+  {
+   "key": "case022.clue.source.audit",
+   "value": "Audit des amendes en espèces"
+  },
+  {
+   "key": "case022.clue.source.fines",
+   "value": "Terminal de Brandt"
+  },
+  {
+   "key": "case022.clue.source.svenlog",
+   "value": "Terminal d’Ott"
+  },
+  {
+   "key": "case022.clue.sv1",
+   "value": "Le terminal d’Ott passe dans la dernière voiture."
+  },
+  {
+   "key": "case022.custody.label",
+   "value": "Pourquoi trois témoins ont-ils décrit trois personnes différentes ?"
+  },
+  {
+   "key": "case022.custody.liar",
+   "value": "Au moins deux des témoins mentent"
+  },
+  {
+   "key": "case022.custody.one",
+   "value": "Un seul fraudeur, vu par trois regards différents"
+  },
+  {
+   "key": "case022.custody.three",
+   "value": "Trois fraudeurs distincts — chaque témoin a décrit sa propre amende"
+  },
+  {
+   "key": "case022.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case022.epilogue.custody.liar",
+   "value": "Les témoins ont été jugés menteurs ; la déposition du témoin clé est partie à la poubelle avec les leurs."
+  },
+  {
+   "key": "case022.epilogue.custody.one",
+   "value": "On a recherché un fraudeur unique qui n’a jamais existé ; pendant des mois."
+  },
+  {
+   "key": "case022.epilogue.custody.three",
+   "value": "Les trois dépositions ne se contredisaient pas : chacun avait décrit sa propre amende. La phrase d’Okan Yıldız sur le « collègue » a été remise au dossier."
+  },
+  {
+   "key": "case022.epilogue.custody.unknown",
+   "value": "La raison des divergences entre témoins est restée ouverte."
+  },
+  {
+   "key": "case022.epilogue.verdict.jannik",
+   "value": "Jannik Lorenz a été placé en garde à vue et exclu du lycée. La semaine suivante, Sven Ott a pris son service avec son nouveau coéquipier."
+  },
+  {
+   "key": "case022.epilogue.verdict.nele",
+   "value": "Nele Hartmann a été inculpée et a perdu son emploi. L’écart des reçus en espèces n’est entré dans le dossier de personne."
+  },
+  {
+   "key": "case022.epilogue.verdict.okan",
+   "value": "Okan Yıldız a été jugé ; au tribunal, personne n’a consigné sa phrase « son collègue était là »."
+  },
+  {
+   "key": "case022.epilogue.verdict.sven",
+   "value": "Sven Ott a été arrêté pour meurtre ; un dossier distinct a été ouvert sur les amendes en espèces. Les trois passagers ont payé leurs amendes."
+  },
+  {
+   "key": "case022.evidence.audit",
+   "value": "Audit des amendes en espèces"
+  },
+  {
+   "key": "case022.evidence.fines",
+   "value": "Journal des amendes de Brandt"
+  },
+  {
+   "key": "case022.evidence.plastic",
+   "value": "Comparaison du boîtier du terminal"
+  },
+  {
+   "key": "case022.evidence.svenlog",
+   "value": "Journal de localisation d’Ott"
+  },
+  {
+   "key": "case022.feedback.jannik",
+   "value": "Le garçon a reçu son amende à 23.31 et était assis à l’avant ; l’espace vélos lui bouchait même la vue sur l’arrière."
+  },
+  {
+   "key": "case022.feedback.nele",
+   "value": "La coursière a reçu son amende à 23.39 et est restée devant l’espace vélos ; à la porte arrière, elle n’a vu qu’un gilet orange."
+  },
+  {
+   "key": "case022.feedback.okan",
+   "value": "Okan a payé poliment son amende et a dit dès le début qu’il avait vu le collègue."
+  },
+  {
+   "key": "case022.feedback.sven",
+   "value": "Le journal de localisation le place à la porte arrière à 23.48 ; le boîtier du terminal correspond à la plaie ; Brandt allait le signaler pour les reçus en espèces."
+  },
+  {
+   "key": "case022.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case022.file.value.bureau",
+   "value": "BDS Berlin — Antenne de Kreuzberg"
+  },
+  {
+   "key": "case022.file.value.location",
+   "value": "S-Bahn, ligne circulaire, dernière voiture — Ostkreuz"
+  },
+  {
+   "key": "case022.file.value.number",
+   "value": "BDS-BER-2029-0083"
+  },
+  {
+   "key": "case022.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case022.file.value.reporter",
+   "value": "Conducteur du train"
+  },
+  {
+   "key": "case022.fines.body",
+   "value": "Service de nuit du 16 au 17 octobre 2029, dernière voiture.\n\n· 23.31 · avant Treptower Park · Jannik Lorenz · sans billet, 60 €\n· 23.39 · Plänterwald · Nele Hartmann · sans billet vélo, 60 €\n· 23.47 · avant Ostkreuz · Okan Yıldız · abonnement expiré, 60 €\n· 23.49 · signal de chute du terminal ; aucune saisie ensuite.\n\nTrois témoins décrivent trois personnes différentes ; tous trois ont reçu une amende."
+  },
+  {
+   "key": "case022.fines.title",
+   "value": "JOURNAL DES AMENDES — TERMINAL DE DIETER BRANDT"
+  },
+  {
+   "key": "case022.jannik.body",
+   "value": "Le garçon en sweat à capuche."
+  },
+  {
+   "key": "case022.jannik.deflect",
+   "value": "Je ne parle pas tant que ma mère n’est pas là."
+  },
+  {
+   "key": "case022.jannik.saw.answer",
+   "value": "Le contrôleur s’est engueulé avec un gamin en sweat à capuche devant moi, avant Treptower Park. Le gamin a dit « Mon billet est sur mon téléphone », le contrôleur a mis une amende. J’avais mes écouteurs. Je n’ai pas vu l’arrière, il y a l’espace vélos."
+  },
+  {
+   "key": "case022.jannik.saw.answer.demeanor",
+   "value": "Tire sur sa capuche."
+  },
+  {
+   "key": "case022.jannik.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case022.jannik.title",
+   "value": "Jannik Lorenz — audition"
+  },
+  {
+   "key": "case022.jannik.who.answer",
+   "value": "…Oui. J’avais oublié mon billet. J’ai pris une amende, puis je me suis assis. Si je l’avais dit, on m’aurait traité de tueur."
+  },
+  {
+   "key": "case022.jannik.who.question",
+   "value": "Ce gamin en sweat à capuche, ça pourrait être vous ?"
+  },
+  {
+   "key": "case022.method.device",
+   "value": "Il a été frappé à la tête par-derrière avec un terminal portable alors qu’il était penché"
+  },
+  {
+   "key": "case022.method.fall",
+   "value": "Il est tombé quand le train a freiné"
+  },
+  {
+   "key": "case022.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case022.method.pole",
+   "value": "Il a été poussé pendant une dispute et a heurté la barre"
+  },
+  {
+   "key": "case022.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case022.nele.body",
+   "value": "La coursière à vélo."
+  },
+  {
+   "key": "case022.nele.deflect",
+   "value": "Alors parce qu’on m’a mis une amende, vous faites de moi la tueuse ?"
+  },
+  {
+   "key": "case022.nele.later.answer",
+   "value": "Un bruit sourd avant Ostkreuz. On ne voit pas par-dessus l’espace vélos, c’est trop haut. Près de la porte arrière, je n’ai vu qu’un gilet orange, le haut."
+  },
+  {
+   "key": "case022.nele.later.question",
+   "value": "Avez-vous entendu quelque chose à l’arrière ensuite ?"
+  },
+  {
+   "key": "case022.nele.saw.answer",
+   "value": "Le contrôleur s’est disputé avec une femme avec un vélo, parce qu’elle n’avait pas de billet vélo. Vers Plänterwald. La femme a dit tout ce qui lui passait par la tête. Cette femme, c’était moi, oui. Ensuite, je me suis plongée dans mon téléphone à côté de mon vélo."
+  },
+  {
+   "key": "case022.nele.saw.answer.demeanor",
+   "value": "Croise les bras."
+  },
+  {
+   "key": "case022.nele.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case022.nele.title",
+   "value": "Nele Hartmann — audition"
+  },
+  {
+   "key": "case022.offer.subtitle",
+   "value": "TRAIN DE NUIT  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case022.offer.summary",
+   "value": "À minuit, un contrôleur de la S-Bahn est retrouvé mort dans la dernière voiture. Trois passagers décrivent le fraudeur qui s’est disputé avec lui — mais trois personnes différentes."
+  },
+  {
+   "key": "case022.offer.title",
+   "value": "DOSSIER #022"
+  },
+  {
+   "key": "case022.okan.body",
+   "value": "L’homme en costume."
+  },
+  {
+   "key": "case022.okan.deflect",
+   "value": "Je rentrais juste chez moi."
+  },
+  {
+   "key": "case022.okan.quote",
+   "value": "« Évidemment que son collègue était là, ils ont dit. »"
+  },
+  {
+   "key": "case022.okan.saw.answer",
+   "value": "J’ai pris une amende aussi, je l’admets. Mon abonnement avait expiré la veille. Le contrôleur m’a parlé avant Ostkreuz, un homme poli. Après qu’il est passé plus loin, deux hommes en gilet se sont disputés près de la porte arrière. Le contrôleur et son collègue, le même gilet."
+  },
+  {
+   "key": "case022.okan.saw.answer.demeanor",
+   "value": "Retire ses lunettes et les essuie."
+  },
+  {
+   "key": "case022.okan.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case022.okan.title",
+   "value": "Okan Yıldız — audition"
+  },
+  {
+   "key": "case022.okan.who.answer",
+   "value": "Grand. Le contrôleur était penché, il ramassait quelque chose par terre ; les reçus d’amende s’étaient éparpillés. L’autre a levé l’appareil qu’il avait à la main. J’ai tourné la tête, je me suis mêlé de mes affaires. Je l’ai dit à la patrouille ; « évidemment que son collègue était là », ils ont dit."
+  },
+  {
+   "key": "case022.okan.who.question",
+   "value": "Comment était le collègue ?"
+  },
+  {
+   "key": "case022.person.jannik.info",
+   "value": "17 ans, lycéen. Sweat à capuche, écouteurs."
+  },
+  {
+   "key": "case022.person.jannik.name",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.person.nele.info",
+   "value": "31 ans, coursière à vélo. Dans le train ce soir-là avec son vélo."
+  },
+  {
+   "key": "case022.person.nele.name",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.person.okan.info",
+   "value": "52 ans, comptable à Neukölln ; né à Kreuzberg."
+  },
+  {
+   "key": "case022.person.okan.name",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.person.petra.info",
+   "value": "47 ans, cheffe de service des équipes de contrôle."
+  },
+  {
+   "key": "case022.person.petra.name",
+   "value": "Petra Lindner"
+  },
+  {
+   "key": "case022.person.sven.info",
+   "value": "44 ans, contrôleur. Coéquipier de Dieter Brandt depuis onze ans."
+  },
+  {
+   "key": "case022.person.sven.name",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.petra.body",
+   "value": "Cheffe de service."
+  },
+  {
+   "key": "case022.petra.deflect",
+   "value": "Demandez à l’avocat de l’entreprise."
+  },
+  {
+   "key": "case022.petra.device.answer",
+   "value": "Chaque amende, l’heure, l’arrêt et la position de l’appareil dans la voiture. Le terminal de Sven est revenu fêlé ; il est au magasin."
+  },
+  {
+   "key": "case022.petra.device.question",
+   "value": "Les terminaux gardent-ils des enregistrements ?"
+  },
+  {
+   "key": "case022.petra.pair.answer",
+   "value": "Onze ans. Mais le mois dernier, Dieter m’a posé des questions sur les carnets d’amendes en espèces. « Les reçus et ce qui arrive à la caisse ne concordent pas ; je sais à qui est le carnet, je vais d’abord lui parler », il a dit. Il n’a pas dit qui."
+  },
+  {
+   "key": "case022.petra.pair.question",
+   "value": "Quel genre d’équipe formaient Brandt et Ott ?"
+  },
+  {
+   "key": "case022.petra.title",
+   "value": "Petra Lindner — audition"
+  },
+  {
+   "key": "case022.plan.body",
+   "value": "Croquis vu du ciel. De gauche à droite : porte avant, rangées de sièges, un haut espace vélos sur toute la longueur du milieu, sièges arrière et porte arrière. La victime a été retrouvée devant la porte arrière.\n\nLes positions décrites par les témoins sont marquées sur le plan."
+  },
+  {
+   "key": "case022.plan.incident",
+   "value": "Croix : devant la porte arrière de la voiture, là où la victime a été retrouvée. Touche un repère pour tracer la zone visible depuis ce point."
+  },
+  {
+   "key": "case022.plan.marker.jannik_claim",
+   "value": "Jannik Lorenz — là où il dit avoir été : siège près de la porte avant"
+  },
+  {
+   "key": "case022.plan.marker.nele_claim",
+   "value": "Nele Hartmann — là où elle dit avoir été : devant l’espace vélos"
+  },
+  {
+   "key": "case022.plan.marker.okan_claim",
+   "value": "Okan Yıldız — là où il dit avoir été : siège près de la porte arrière"
+  },
+  {
+   "key": "case022.plan.title",
+   "value": "PLAN DE LA VOITURE — DERNIÈRE VOITURE"
+  },
+  {
+   "key": "case022.plastic.body",
+   "value": "Les fragments d’ABS noir tirés de la plaie ont été comparés au boîtier fêlé du terminal remis par Sven Ott : les bords cassés s’emboîtent exactement. Le sang de Dieter Brandt sur le coin du boîtier."
+  },
+  {
+   "key": "case022.plastic.title",
+   "value": "COMPARAISON SCIENTIFIQUE — BOÎTIER DU TERMINAL"
+  },
+  {
+   "key": "case022.report.body",
+   "value": "Le 17 octobre 2029 à 00.14, dans la dernière voiture de la ligne circulaire de la S-Bahn, à l’arrivée à Ostkreuz, un contrôleur a été retrouvé mort au sol : Dieter Brandt (58 ans). Un coup violent à l’arrière de la tête ; à côté de lui, une barre de maintien.\n\nNote de la patrouille : « Les trois passagers de la voiture ont décrit le fraudeur qui s’est disputé avec le contrôleur au dernier arrêt — mais trois personnes différentes : un garçon en sweat à capuche, une femme avec un vélo, un homme en costume. Les témoins se contredisent. Le fraudeur n’a pas été retrouvé. »"
+  },
+  {
+   "key": "case022.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case022.request.audit",
+   "value": "Demander l’audit des amendes en espèces"
+  },
+  {
+   "key": "case022.request.fines",
+   "value": "Demander les enregistrements du terminal de Brandt"
+  },
+  {
+   "key": "case022.request.plastic",
+   "value": "Comparer le boîtier du terminal d’Ott avec la plaie"
+  },
+  {
+   "key": "case022.request.svenlog",
+   "value": "Demander les enregistrements du terminal d’Ott"
+  },
+  {
+   "key": "case022.summary.evidence",
+   "value": "Le journal des amendes a montré que les trois témoins « contradictoires » décrivaient trois amendes distinctes. Le plan de la voiture a montré que l’espace vélos bouchait la vue de l’avant vers l’arrière, et qu’Okan Yıldız pouvait voir la porte arrière. Le journal de localisation du terminal d’Ott, l’audit et les fragments du boîtier ont complété la chaîne."
+  },
+  {
+   "key": "case022.summary.lesson",
+   "value": "Des témoins qui se contredisent ne sont pas forcément des menteurs ; ils décrivent peut-être des moments différents. La personne la plus ordinaire — « évidemment que son collègue était là » — est souvent celle qu’on interroge le moins."
+  },
+  {
+   "key": "case022.summary.location",
+   "value": "Berlin, ligne circulaire de la S-Bahn — octobre 2029"
+  },
+  {
+   "key": "case022.summary.truth",
+   "value": "Depuis deux ans, le contrôleur Sven Ott empochait la moitié des reçus d’amendes en espèces. Son coéquipier Dieter Brandt s’en est aperçu et lui a fixé un délai. La nuit du 16 octobre, Brandt a verbalisé trois fraudeurs distincts dans la dernière voiture. Avant Ostkreuz, Ott est venu dans la dernière voiture ; pendant que Brandt ramassait les reçus par terre, Ott l’a frappé par-derrière avec son terminal portable et il est retourné dans la voiture de tête."
+  },
+  {
+   "key": "case022.suspect.label",
+   "value": "Qui est responsable de la mort de Dieter Brandt ?"
+  },
+  {
+   "key": "case022.sven.body",
+   "value": "Le coéquipier de la victime."
+  },
+  {
+   "key": "case022.sven.deflect",
+   "value": "J’ai perdu mon coéquipier. Je ne veux pas en parler."
+  },
+  {
+   "key": "case022.sven.night.answer",
+   "value": "Dieter a pris la dernière voiture, moi celle de tête. Je suis descendu à Ostkreuz ; comme je n’arrivais pas à le joindre à la radio, j’ai couru vers l’arrière. Il était par terre. C’est un des fraudeurs, une de ces disputes."
+  },
+  {
+   "key": "case022.sven.night.answer.demeanor",
+   "value": "Garde les mains dans les poches."
+  },
+  {
+   "key": "case022.sven.night.question",
+   "value": "Où étiez-vous cette nuit-là ?"
+  },
+  {
+   "key": "case022.sven.terminal.answer",
+   "value": "Je l’ai fait tomber, le boîtier s’est fêlé, je l’ai remis à la cheffe de service."
+  },
+  {
+   "key": "case022.sven.terminal.question",
+   "value": "Où est votre terminal portable ?"
+  },
+  {
+   "key": "case022.sven.title",
+   "value": "Sven Ott — audition"
+  },
+  {
+   "key": "case022.sven_2.body",
+   "value": "Sur le journal de localisation et l’audit."
+  },
+  {
+   "key": "case022.sven_2.money.answer",
+   "value": "On a travaillé ensemble onze ans. Onze ans. Ma fille est à l’université, le loyer…"
+  },
+  {
+   "key": "case022.sven_2.money.question",
+   "value": "Brandt vous avait donné jusqu’à la fin de la semaine."
+  },
+  {
+   "key": "case022.sven_2.title",
+   "value": "Sven Ott — seconde audition"
+  },
+  {
+   "key": "case022.sven_2.where.answer",
+   "value": "Je suis allé lui demander quelque chose. Le barème des amendes. Je suis revenu."
+  },
+  {
+   "key": "case022.sven_2.where.answer.demeanor",
+   "value": "Hausse le ton."
+  },
+  {
+   "key": "case022.sven_2.where.question",
+   "value": "Votre terminal est à la porte arrière de la dernière voiture à 23.48."
+  },
+  {
+   "key": "case022.sven_3.body",
+   "value": "Sur la comparaison du boîtier."
+  },
+  {
+   "key": "case022.sven_3.title",
+   "value": "Sven Ott — troisième audition"
+  },
+  {
+   "key": "case022.sven_3.truth.answer",
+   "value": "Il ramassait les reçus par terre, les miens. « Je les donne à Petra lundi », il a dit, sans me regarder. Avec l’appareil dans la main… Ensuite, je suis reparti vers l’avant. Il y avait trois fraudeurs dans la voiture ; je pensais qu’ils diraient que c’était l’un d’eux."
+  },
+  {
+   "key": "case022.sven_3.truth.answer.demeanor",
+   "value": "Enfouit la tête dans ses mains."
+  },
+  {
+   "key": "case022.sven_3.truth.question",
+   "value": "Votre boîtier correspond à la plaie."
+  },
+  {
+   "key": "case022.svenlog.body",
+   "value": "Même service.\n\n· 23.20–23.44 · voiture de tête, quatre amendes.\n· 23.45 · position : dernière voiture, porte avant.\n· 23.48 · position : dernière voiture, porte arrière.\n· 23.49 · capteur de choc : choc violent ; boîtier endommagé.\n· 23.53 · position : voiture de tête.\n\nSven Ott avait dit « j’étais dans la voiture de tête »."
+  },
+  {
+   "key": "case022.svenlog.title",
+   "value": "JOURNAL DE LOCALISATION — TERMINAL DE SVEN OTT"
+  },
+  {
+   "key": "case022.tablet.caseLine",
+   "value": "DOSSIER #022  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case022.time.audit9",
+   "value": "9 oct."
+  },
+  {
+   "key": "case022.time.f1",
+   "value": "16 oct. 23.31"
+  },
+  {
+   "key": "case022.time.f2",
+   "value": "23.39"
+  },
+  {
+   "key": "case022.time.f3",
+   "value": "23.47"
+  },
+  {
+   "key": "case022.time.hit",
+   "value": "23.49"
+  },
+  {
+   "key": "case022.time.sv1",
+   "value": "23.45"
+  },
+  {
+   "key": "case022.title",
+   "value": "Dossier #022 — Train de nuit"
+  },
+  {
+   "key": "case022.verdict.jannik",
+   "value": "Jannik Lorenz"
+  },
+  {
+   "key": "case022.verdict.nele",
+   "value": "Nele Hartmann"
+  },
+  {
+   "key": "case022.verdict.okan",
+   "value": "Okan Yıldız"
+  },
+  {
+   "key": "case022.verdict.sven",
+   "value": "Sven Ott"
+  },
+  {
+   "key": "case022.item.terminal.name",
+   "value": "Terminal de contrôle"
+  },
+  {
+   "key": "case022.item.terminal.detail",
+   "value": "Un terminal portable au coin cassé."
+  },
+  {
+   "key": "case022.item.receipts.name",
+   "value": "Reçus d’amende"
+  },
+  {
+   "key": "case022.item.receipts.detail",
+   "value": "Reçus d’amende éparpillés sur le sol de la voiture."
+  }
+ ]
+}

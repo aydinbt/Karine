@@ -1,0 +1,624 @@
+{
+ "entries": [
+  {
+   "key": "case021.anja.betting.answer",
+   "value": "Lukas est venu me voir la semaine dernière. « Moritz vendait des courses, à des bookmakers. Le dopage n’était même pas le vrai problème. Je vais le dire à la fédération », il a dit. Je lui ai dit de parler d’abord à son frère. J’aurais mieux fait de me taire."
+  },
+  {
+   "key": "case021.anja.betting.answer.demeanor",
+   "value": "La voix s’enroue."
+  },
+  {
+   "key": "case021.anja.betting.question",
+   "value": "Y a-t-il eu des problèmes ces derniers jours ?"
+  },
+  {
+   "key": "case021.anja.body",
+   "value": "Entraîneuse principale."
+  },
+  {
+   "key": "case021.anja.deflect",
+   "value": "Demandez à la fédération."
+  },
+  {
+   "key": "case021.anja.night.answer",
+   "value": "Moritz, depuis sa suspension. Mais la semaine avant la sélection, Lukas sortait aussi la nuit, pour s’entraîner sur une eau calme. C’est moi qui le lui avais dit."
+  },
+  {
+   "key": "case021.anja.night.question",
+   "value": "Qui ramait la nuit ?"
+  },
+  {
+   "key": "case021.anja.title",
+   "value": "Anja Richter — audition"
+  },
+  {
+   "key": "case021.anja.twins.answer",
+   "value": "À la façon de ramer. Le coup de Lukas est plus court, depuis son opération de l’épaule gauche en 2027. Il a manqué une saison, puis il est revenu meilleur que son frère. Moritz ne l’a jamais accepté."
+  },
+  {
+   "key": "case021.anja.twins.question",
+   "value": "Comment distinguiez-vous les jumeaux ?"
+  },
+  {
+   "key": "case021.autopsy.body",
+   "value": "· Cause du décès : noyade ; il était vivant en entrant dans l’eau mais peut-être inconscient.\n· Sur la tempe droite, un coup large et plat reçu avant l’entrée dans l’eau ; compatible avec une pale d’aviron.\n· Une ancienne cicatrice chirurgicale à l’épaule gauche ; deux vis en titane à la radio.\n· La fermeture éclair de la veste remontée à l’envers, la doublure intérieure retournée à une poche.\n· Identification : identification visuelle sur place par le frère jumeau. L’ADN ne distingue pas les vrais jumeaux."
+  },
+  {
+   "key": "case021.autopsy.title",
+   "value": "NOTE D’AUTOPSIE PRÉLIMINAIRE"
+  },
+  {
+   "key": "case021.betting.body",
+   "value": "Une organisation fictive d’intégrité des paris.\n\n· Sur sept courses, des mises anormalement élevées sur la défaite du bateau de Moritz Berger.\n· Sur un compte au nom de Moritz Berger, 64 000 € au total à titre de « sponsoring » via Arendt Handelsgesellschaft.\n· Le compte est resté utilisé après la suspension."
+  },
+  {
+   "key": "case021.betting.title",
+   "value": "RAPPORT DE SURVEILLANCE DES PARIS — RÉGATES DE LA DAHME 2027–2028"
+  },
+  {
+   "key": "case021.cctv.event.launch",
+   "value": "Caméra : un rameur en veste sombre met un skiff à l’eau depuis la cale ; seul."
+  },
+  {
+   "key": "case021.cctv.event.leave",
+   "value": "Caméra : un homme marche du ponton vers la porte du club en enfilant une veste sombre ; de l’eau goutte derrière lui."
+  },
+  {
+   "key": "case021.cctv.event.wait",
+   "value": "Caméra : un second homme, de même taille, passe du bord de la cale vers le ponton ; un aviron à la main."
+  },
+  {
+   "key": "case021.cctv.overlay",
+   "value": "SLIP"
+  },
+  {
+   "key": "case021.cctv.period",
+   "value": "21 septembre 2029, 21.30 – 22.40"
+  },
+  {
+   "key": "case021.cctv.source",
+   "value": "Caméra de la cale"
+  },
+  {
+   "key": "case021.clue.bets",
+   "value": "Paris anormaux sur les courses de Moritz Berger ; paiement via Arendt."
+  },
+  {
+   "key": "case021.clue.fight",
+   "value": "Deux hommes au bout du ponton ; l’un lève quelque chose de long."
+  },
+  {
+   "key": "case021.clue.launch",
+   "value": "Un rameur descend seul la cale jusqu’à l’eau."
+  },
+  {
+   "key": "case021.clue.leave",
+   "value": "Un homme marche du ponton vers la porte du club, mouillé, en enfilant sa veste."
+  },
+  {
+   "key": "case021.clue.source.betting",
+   "value": "Rapport sur les paris"
+  },
+  {
+   "key": "case021.clue.source.medical",
+   "value": "Dossier orthopédique"
+  },
+  {
+   "key": "case021.clue.source.rolf",
+   "value": "Pêcheur de la rive opposée"
+  },
+  {
+   "key": "case021.clue.surgery",
+   "value": "Deux vis sont posées dans l’épaule gauche de Lukas Berger."
+  },
+  {
+   "key": "case021.clue.wait",
+   "value": "Un second homme de même taille passe sur le ponton avec un aviron."
+  },
+  {
+   "key": "case021.custody.both",
+   "value": "Impossible de distinguer les deux"
+  },
+  {
+   "key": "case021.custody.label",
+   "value": "Quel jumeau est mort ?"
+  },
+  {
+   "key": "case021.custody.lukas",
+   "value": "Lukas Berger — le frère aux vis dans l’épaule"
+  },
+  {
+   "key": "case021.custody.moritz",
+   "value": "Moritz Berger — le frère suspendu"
+  },
+  {
+   "key": "case021.custody.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case021.epilogue.custody.both",
+   "value": "Les vrais jumeaux ont été déclarés indiscernables ; l’affaire s’est effondrée sur l’identité incertaine."
+  },
+  {
+   "key": "case021.epilogue.custody.lukas",
+   "value": "L’état civil a été corrigé : Lukas Berger mort, Moritz Berger vivant. Pour la première fois, leur mère a pleuré ses fils séparément."
+  },
+  {
+   "key": "case021.epilogue.custody.moritz",
+   "value": "L’identification est restée telle quelle ; le jumeau survivant a continué à vivre sous le nom de son frère."
+  },
+  {
+   "key": "case021.epilogue.custody.unknown",
+   "value": "La question de l’identité est restée ouverte ; la défense s’en est servie dès le premier jour."
+  },
+  {
+   "key": "case021.epilogue.verdict.anja",
+   "value": "Anja Richter a été renvoyée. En octobre, Moritz Berger a pris sa place dans le bateau de l’équipe nationale sous le nom de « Lukas »."
+  },
+  {
+   "key": "case021.epilogue.verdict.holger",
+   "value": "La déposition de Holger Mertens a été jugée fausse et le vieil homme a quitté le club. Le dossier a été classé comme un accident."
+  },
+  {
+   "key": "case021.epilogue.verdict.nobody",
+   "value": "Le décès a été classé comme un accident. « Moritz Berger » a été enterré ; son frère a ramé pour l’équipe nationale."
+  },
+  {
+   "key": "case021.epilogue.verdict.survivor",
+   "value": "Moritz Berger a été arrêté pour meurtre. Lukas Berger a été enterré sous son propre nom ; en octobre, une place est restée vide dans le bateau de l’équipe nationale."
+  },
+  {
+   "key": "case021.evidence.betting",
+   "value": "Rapport de surveillance des paris"
+  },
+  {
+   "key": "case021.evidence.medical",
+   "value": "Dossier orthopédique"
+  },
+  {
+   "key": "case021.evidence.prints",
+   "value": "Comparaison d’empreintes digitales"
+  },
+  {
+   "key": "case021.evidence.xray",
+   "value": "Radio de l’épaule"
+  },
+  {
+   "key": "case021.feedback.anja",
+   "value": "L’entraîneuse a dit à Lukas de parler à son frère ; elle n’était pas au club cette nuit-là, et c’est elle qui a mené au dossier des vis."
+  },
+  {
+   "key": "case021.feedback.holger",
+   "value": "Holger n’a vu que le rameur descendre la cale et a deviné qui c’était ; de sa fenêtre, il ne pouvait pas voir le ponton."
+  },
+  {
+   "key": "case021.feedback.nobody",
+   "value": "Le coup à la tempe a précédé l’entrée dans l’eau ; il y a du sang et une marque d’aviron sur le ponton, et le pêcheur a vu deux hommes."
+  },
+  {
+   "key": "case021.feedback.survivor",
+   "value": "Les empreintes sont celles de Moritz, et il n’y a pas de vis dans son épaule ; sur le ponton, il a frappé son frère avec un aviron, a échangé les vestes et le matin l’a identifié sous son propre nom."
+  },
+  {
+   "key": "case021.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case021.file.value.bureau",
+   "value": "BDS Berlin — Antenne de Kreuzberg"
+  },
+  {
+   "key": "case021.file.value.location",
+   "value": "Köpenick, club d’aviron de la Dahme — ponton"
+  },
+  {
+   "key": "case021.file.value.number",
+   "value": "BDS-BER-2029-0071"
+  },
+  {
+   "key": "case021.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case021.file.value.reporter",
+   "value": "Gardien du club"
+  },
+  {
+   "key": "case021.holger.body",
+   "value": "Responsable des bateaux."
+  },
+  {
+   "key": "case021.holger.deflect",
+   "value": "Je m’occupe des bateaux, pas des gens."
+  },
+  {
+   "key": "case021.holger.saw.answer",
+   "value": "Vers 22.00, j’ai regardé par ma fenêtre : Moritz descendait le skiff par la cale, seul. Il sortait toujours la nuit, depuis la suspension. Puis je suis allé me coucher."
+  },
+  {
+   "key": "case021.holger.saw.answer.demeanor",
+   "value": "Sûr de lui."
+  },
+  {
+   "key": "case021.holger.saw.question",
+   "value": "Qu’avez-vous vu hier soir ?"
+  },
+  {
+   "key": "case021.holger.title",
+   "value": "Holger Mertens — audition"
+  },
+  {
+   "key": "case021.holger.which.answer",
+   "value": "C’est lui qui rame la nuit. Lukas, c’est un gars du matin. Je n’ai pas vu son visage ; à cette distance, personne ne peut les distinguer. Mais la nuit… c’est Moritz."
+  },
+  {
+   "key": "case021.holger.which.question",
+   "value": "Comment saviez-vous que c’était Moritz ?"
+  },
+  {
+   "key": "case021.lukas.body",
+   "value": "Le jumeau survivant."
+  },
+  {
+   "key": "case021.lukas.brother.answer",
+   "value": "Être jumeaux… on partage tout, puis l’un des deux prend tout. Moi, j’ai été sélectionné, lui suspendu. Mais c’était mon frère."
+  },
+  {
+   "key": "case021.lukas.brother.question",
+   "value": "Comment vous entendiez-vous avec votre frère ?"
+  },
+  {
+   "key": "case021.lukas.deflect",
+   "value": "Je viens de perdre mon frère. S’il vous plaît."
+  },
+  {
+   "key": "case021.lukas.night.answer",
+   "value": "Chez moi, à Adlershof. La sélection de l’équipe nationale est en octobre ; je me suis couché tôt. Moritz sortait la nuit, depuis sa suspension, pour que personne ne le voie."
+  },
+  {
+   "key": "case021.lukas.night.answer.demeanor",
+   "value": "Yeux rougis, voix plate."
+  },
+  {
+   "key": "case021.lukas.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case021.lukas.quote",
+   "value": "« Puis l’un des deux prend tout. »"
+  },
+  {
+   "key": "case021.lukas.title",
+   "value": "Lukas Berger — audition"
+  },
+  {
+   "key": "case021.lukas_2.body",
+   "value": "Sur le dossier orthopédique et la radio."
+  },
+  {
+   "key": "case021.lukas_2.jacket.answer",
+   "value": "La veste de Moritz. Sa propre veste. Comment je le saurais."
+  },
+  {
+   "key": "case021.lukas_2.jacket.question",
+   "value": "La veste du corps a été enfilée à l’envers."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer",
+   "value": "…Moritz a été opéré aussi. Dans un autre hôpital. Les dossiers doivent être mélangés."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.answer.demeanor",
+   "value": "Pour la première fois, détourne le regard."
+  },
+  {
+   "key": "case021.lukas_2.shoulder.question",
+   "value": "Lukas Berger a deux vis dans l’épaule gauche. Le corps sorti de l’eau a ces deux vis dans l’épaule. Votre épaule, non."
+  },
+  {
+   "key": "case021.lukas_2.title",
+   "value": "L’homme qui s’est identifié comme Lukas Berger — seconde audition"
+  },
+  {
+   "key": "case021.lukas_3.body",
+   "value": "Sur la comparaison d’empreintes digitales."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer",
+   "value": "J’ai attendu sur le ponton qu’il revienne. « Ne dis rien », j’ai dit. « Je vais le dire », il a dit. J’avais l’aviron à la main. Il est tombé, il ne bougeait plus. J’ai échangé les vestes, je l’ai laissé partir dans l’eau, j’ai retourné le bateau. Le matin, j’ai identifié mon propre corps."
+  },
+  {
+   "key": "case021.lukas_3.jetty.answer.demeanor",
+   "value": "Regarde ses mains."
+  },
+  {
+   "key": "case021.lukas_3.jetty.question",
+   "value": "Que s’est-il passé sur le ponton ?"
+  },
+  {
+   "key": "case021.lukas_3.name.answer",
+   "value": "…En octobre, j’allais m’asseoir dans ce bateau. Sous son nom. Personne ne l’aurait remarqué ; même notre mère nous distingue à la voix. Lukas serait allé à la fédération, et moi en prison."
+  },
+  {
+   "key": "case021.lukas_3.name.answer.demeanor",
+   "value": "Un long silence, puis une voix plate."
+  },
+  {
+   "key": "case021.lukas_3.name.question",
+   "value": "Vos empreintes sont celles de Moritz Berger. Celui qui est mort, c’est Lukas."
+  },
+  {
+   "key": "case021.lukas_3.title",
+   "value": "Moritz Berger — troisième audition"
+  },
+  {
+   "key": "case021.medical.body",
+   "value": "Un hôpital du sport fictif, Berlin. Patient : Lukas Berger, né en 2002.\n\n· Mars 2027 · épaule gauche, réparation du labrum ; deux vis en titane posées.\n· Contrôle, septembre 2028 : vis en place, aucun retrait prévu.\n\nAucun dossier dans le même hôpital pour son frère Moritz Berger."
+  },
+  {
+   "key": "case021.medical.title",
+   "value": "DOSSIER ORTHOPÉDIQUE — LUKAS BERGER"
+  },
+  {
+   "key": "case021.method.capsized",
+   "value": "Le bateau a chaviré et il s’est noyé"
+  },
+  {
+   "key": "case021.method.drunk",
+   "value": "Il est tombé à l’eau ivre"
+  },
+  {
+   "key": "case021.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case021.method.oar",
+   "value": "Il a été frappé à la tête avec un aviron sur le ponton et laissé dans l’eau ; le bateau a été retourné"
+  },
+  {
+   "key": "case021.method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "case021.offer.subtitle",
+   "value": "L’AVIRON  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case021.offer.summary",
+   "value": "Un rameur suspendu pour dopage est retrouvé mort dans l’eau près du ponton de son club, à Köpenick. Son vrai jumeau identifie le corps. Le responsable des bateaux l’a vu descendre seul à l’eau."
+  },
+  {
+   "key": "case021.offer.title",
+   "value": "DOSSIER #021"
+  },
+  {
+   "key": "case021.person.anja.info",
+   "value": "49 ans, entraîneuse principale du club d’aviron de la Dahme. Elle entraîne les jumeaux depuis leurs douze ans."
+  },
+  {
+   "key": "case021.person.anja.name",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.person.holger.info",
+   "value": "66 ans, responsable des bateaux du club ; habite au dernier étage du club-house."
+  },
+  {
+   "key": "case021.person.holger.name",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.person.lukas.info",
+   "value": "27 ans, rameur. Vrai jumeau du défunt Moritz Berger ; il a identifié le corps sur place."
+  },
+  {
+   "key": "case021.person.lukas.name",
+   "value": "Lukas Berger"
+  },
+  {
+   "key": "case021.person.rolf.info",
+   "value": "58 ans, chauffeur de bus. Pêche la nuit sur la rive opposée de la Dahme."
+  },
+  {
+   "key": "case021.person.rolf.name",
+   "value": "Rolf Kaiser"
+  },
+  {
+   "key": "case021.plan.body",
+   "value": "Croquis vu du ciel. Au nord-ouest, le club-house ; devant lui, le hangar à bateaux. À l’ouest, la cale en béton où l’on met les bateaux à l’eau ; au milieu, un ponton en bois qui avance dans la rivière. Au sud-est, la rive opposée de la Dahme.\n\nLes positions décrites par les témoins et indiquées par les relevés sont marquées sur le plan."
+  },
+  {
+   "key": "case021.plan.incident",
+   "value": "Croix : le bout du ponton ; l’équipe des lieux a trouvé du sang et une marque de pale d’aviron sur les planches. Touche un repère pour tracer la zone visible depuis ce point."
+  },
+  {
+   "key": "case021.plan.marker.holger_claim",
+   "value": "Holger Mertens — là où il dit avoir été : fenêtre du dernier étage du club-house"
+  },
+  {
+   "key": "case021.plan.marker.rolf_claim",
+   "value": "Rolf Kaiser — là où il dit avoir été : rive opposée, coin de pêche"
+  },
+  {
+   "key": "case021.plan.marker.slip_cam",
+   "value": "Caméra de la cale — rampe de mise à l’eau"
+  },
+  {
+   "key": "case021.plan.title",
+   "value": "PLAN DES LIEUX — CLUB D’AVIRON DE LA DAHME"
+  },
+  {
+   "key": "case021.prints.body",
+   "value": "Demandé par : bube Berlin. Les vrais jumeaux ont des empreintes digitales différentes.\n\n· Fiche de comparaison : empreintes de Moritz Berger tirées du dossier de dopage de 2028.\n· Empreintes de l’homme qui s’est identifié comme Lukas Berger : concordance avec la fiche de Moritz Berger.\n· Empreintes du corps sorti de l’eau : aucune concordance avec la fiche de Moritz Berger."
+  },
+  {
+   "key": "case021.prints.title",
+   "value": "COMPARAISON D’EMPREINTES DIGITALES"
+  },
+  {
+   "key": "case021.report.body",
+   "value": "Le 22 septembre 2029 à 06.20 à Köpenick, le corps d’un homme a été retrouvé dans l’eau près du ponton du club d’aviron de la Dahme ; à cent mètres, un skiff de course chaviré.\n\nLe corps a été identifié sur place par son vrai jumeau, Lukas Berger : Moritz Berger (27 ans). Il portait une veste du club brodée « M. BERGER » sur la poitrine.\n\nNote de la patrouille : « Moritz Berger a été suspendu deux ans pour dopage en 2028 et ramait seul la nuit. Le responsable des bateaux du club l’a vu descendre seul à l’eau à 22.00. Le bateau a chaviré dans le noir ; un accident. »"
+  },
+  {
+   "key": "case021.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case021.request.betting",
+   "value": "Demander le rapport de surveillance des paris"
+  },
+  {
+   "key": "case021.request.medical",
+   "value": "Demander le dossier orthopédique de Lukas Berger"
+  },
+  {
+   "key": "case021.request.prints",
+   "value": "Demander une comparaison d’empreintes digitales"
+  },
+  {
+   "key": "case021.request.xray",
+   "value": "Demander une radio de l’épaule du jumeau survivant"
+  },
+  {
+   "key": "case021.rolf.after.answer",
+   "value": "L’un d’eux est resté longtemps penché sur le ponton, occupé à quelque chose. Puis il est parti vers la porte du club en enfilant sa veste."
+  },
+  {
+   "key": "case021.rolf.after.question",
+   "value": "Que s’est-il passé ensuite ?"
+  },
+  {
+   "key": "case021.rolf.body",
+   "value": "Le pêcheur de la rive opposée."
+  },
+  {
+   "key": "case021.rolf.deflect",
+   "value": "Je pêchais, je ne sais pas le reste."
+  },
+  {
+   "key": "case021.rolf.saw.answer",
+   "value": "Un peu après dix heures, deux hommes au bout du ponton. Ils criaient, même taille, même carrure. L’un a levé quelque chose de long, comme un aviron. Puis quelque chose est tombé à l’eau, et un bateau s’est retourné. J’ai cru que c’étaient des gars ivres, je n’ai pas appelé. J’aurais dû."
+  },
+  {
+   "key": "case021.rolf.saw.answer.demeanor",
+   "value": "Baisse la tête."
+  },
+  {
+   "key": "case021.rolf.saw.question",
+   "value": "Qu’avez-vous vu hier soir ?"
+  },
+  {
+   "key": "case021.rolf.title",
+   "value": "Rolf Kaiser — audition"
+  },
+  {
+   "key": "case021.slip.body",
+   "value": "Caméra couvrant la rampe de mise à l’eau du club ; le bout du ponton est hors de son champ. 21 septembre 21.30 – 22.40."
+  },
+  {
+   "key": "case021.slip.title",
+   "value": "CAMÉRA DE LA CALE — transcription du relevé"
+  },
+  {
+   "key": "case021.summary.evidence",
+   "value": "Le plan des lieux a montré que le responsable des bateaux ne pouvait pas voir le ponton et que le pêcheur de la rive opposée le pouvait ; la caméra de la cale a saisi un second homme. Les deux vis de l’autopsie correspondaient au dossier orthopédique de Lukas ; la radio du survivant ne montrait aucune vis. La comparaison d’empreintes a relié le jumeau vivant au dossier de dopage de Moritz."
+  },
+  {
+   "key": "case021.summary.lesson",
+   "value": "Une identification est elle-même une déclaration : regardez qui l’a faite et sur quoi elle repose. Ce que l’ADN ne peut pas distinguer, le corps et les dossiers le peuvent."
+  },
+  {
+   "key": "case021.summary.location",
+   "value": "Köpenick, club d’aviron de la Dahme — septembre 2029"
+  },
+  {
+   "key": "case021.summary.truth",
+   "value": "Pendant des années, Moritz Berger a vendu des courses et touché de l’argent via Arendt ; il a été suspendu pour dopage. Son vrai jumeau Lukas a été sélectionné en équipe nationale et a décidé de dénoncer son frère à la fédération. La nuit du 21 septembre, Lukas est sorti sur l’eau pour préparer la sélection ; Moritz l’a attendu sur le ponton, l’a frappé avec un aviron à son retour, a échangé leurs vestes, a laissé son frère dans l’eau et a retourné le bateau. Le matin, il a identifié le corps portant son propre nom et a commencé à vivre comme Lukas."
+  },
+  {
+   "key": "case021.suspect.label",
+   "value": "Qui est responsable de la mort sur la Dahme ?"
+  },
+  {
+   "key": "case021.tablet.caseLine",
+   "value": "DOSSIER #021  /  BUBE BERLIN — KREUZBERG"
+  },
+  {
+   "key": "case021.time.bets",
+   "value": "2027–2028"
+  },
+  {
+   "key": "case021.time.fight",
+   "value": "21 sept. 22.10"
+  },
+  {
+   "key": "case021.time.launch",
+   "value": "21.58"
+  },
+  {
+   "key": "case021.time.leave",
+   "value": "22.24"
+  },
+  {
+   "key": "case021.time.surgery",
+   "value": "Mars 2027"
+  },
+  {
+   "key": "case021.time.wait",
+   "value": "22.03"
+  },
+  {
+   "key": "case021.title",
+   "value": "Dossier #021 — L’aviron"
+  },
+  {
+   "key": "case021.verdict.anja",
+   "value": "Anja Richter"
+  },
+  {
+   "key": "case021.verdict.holger",
+   "value": "Holger Mertens"
+  },
+  {
+   "key": "case021.verdict.nobody",
+   "value": "Personne — le bateau a chaviré dans le noir"
+  },
+  {
+   "key": "case021.verdict.survivor",
+   "value": "Le jumeau survivant — l’homme qui se faisait appeler Lukas Berger"
+  },
+  {
+   "key": "case021.xray.body",
+   "value": "Demandé par bube Berlin ; avec le consentement de l’intéressé, 23 septembre 2029.\n\nL’homme qui s’est identifié comme Lukas Berger : aucune cicatrice chirurgicale à l’épaule gauche, aucune vis, structure osseuse compatible avec une articulation jamais opérée."
+  },
+  {
+   "key": "case021.xray.title",
+   "value": "RADIO DE L’ÉPAULE — LE JUMEAU SURVIVANT"
+  },
+  {
+   "key": "case021.item.oar.name",
+   "value": "Aviron"
+  },
+  {
+   "key": "case021.item.oar.detail",
+   "value": "Un aviron de course avec une tache sombre sur la pale."
+  },
+  {
+   "key": "case021.item.jacket.name",
+   "value": "Veste d’aviron"
+  },
+  {
+   "key": "case021.item.jacket.detail",
+   "value": "Une veste d’aviron mouillée, retournée."
+  },
+  {
+   "key": "case021.item.xray.name",
+   "value": "Radio"
+  },
+  {
+   "key": "case021.item.xray.detail",
+   "value": "Deux vis métalliques dans l’articulation de l’épaule."
+  }
+ ]
+}
