@@ -5,6 +5,8 @@
 
 ## Tek cümle
 
+**9 Ekim (gece, 6):** Kullanıcı Unity'de gördü ve düzeltildi: giriş seçilmeden menü "Devam Et" yerine "Başla" gösteriyor; Ayarlar'da sekmeler artık kendi içinde kayıyor, "Hesap" sekmesi "Varsayılanlara dön" düğmesinin üstüne binmiyor. Düzeltme gözle görülmedi.
+
 **9 Ekim (gece, 5):** Dört görselsiz kozmetik girdi: ekran rengi, damga mürekkebi, şehir ışıkları, film tonu (Ayarlar › Görüntü, lambanın altında). Lambayla aynı kural: önizleme, sırayla reklamla açılma. Gözle görülmedi.
 
 **9 Ekim (gece, 4):** Gelir modeli kodlandı.

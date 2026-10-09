@@ -35,7 +35,8 @@ public sealed partial class BubeApp {
   var menu=new VisualElement();
   menu.style.width=KarineTheme.MainMenu.ColumnWidth;
   left.Add(menu);
-  if(game.State.caseAccepted) {
+  // Giriş seçilmeden menü yalnız giriş kağıdının arkasında durur; o an ilerlemeyi ima etmez.
+  if(Accounts.Chosen && game.State.caseAccepted) {
    MenuRow(menu,"folder",T("menu.row.continue"),()=>LoadThen(Desk),true);SlotLine(menu);
   } else {
    MenuRow(menu,"folder",T("menu.row.start"),()=>MaybeWorldIntro(()=>LoadThen(Desk)),true);

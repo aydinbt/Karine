@@ -86,7 +86,7 @@ public sealed partial class BubeApp {
   foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
    // Servis henüz bağlı değilse de düğme durur; basınca "kullanılamıyor" der, oyuncu misafiri seçer.
    {var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
-  options.Add(new KarineUI.AccountOption(null,T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();}));
+  options.Add(new KarineUI.AccountOption(null,T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();Home();}));
   // Logo altı: hukuk ilkeleri ("|" ile ayrılmış); ekran açıkken sırayla değişir.
   KarineUI.AccountPaper(root,T("account.tagline").Split('|'),T("account.or"),options,accountNotice,
    T("account.privacy"),string.IsNullOrEmpty(config.privacyUrl)?null:(Action)OpenPrivacy);

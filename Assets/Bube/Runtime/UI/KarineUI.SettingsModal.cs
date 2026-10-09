@@ -44,7 +44,8 @@ public static partial class KarineUI {
                                            out VisualElement tabs,out VisualElement body,out VisualElement footer) {
   var panel=ModalFrame(root,"SettingsModal","SettingsPanel","gear",title,subtitle,close);
   var columns=new VisualElement();columns.style.flexDirection=FlexDirection.Row;columns.style.flexGrow=1;columns.style.minHeight=0;panel.Add(columns);
-  tabs=new VisualElement {name="SettingsTabs"};tabs.style.width=M.TabWidth;tabs.style.flexShrink=0;
+  // Sekmeler kısa ekranda alttaki düğmelerin üstüne taşmasın: kendi içinde kayar.
+  tabs=new KarineScrollView {name="SettingsTabs"};tabs.style.minHeight=0;tabs.style.width=M.TabWidth;tabs.style.flexShrink=0;
   tabs.style.borderRightWidth=1;tabs.style.borderRightColor=KarineTheme.Border;tabs.style.paddingRight=KarineTheme.SpaceMd;columns.Add(tabs);
   var scroll=new KarineScrollView {name="SettingsBody"};scroll.style.flexGrow=1;scroll.style.minHeight=0;scroll.style.paddingLeft=KarineTheme.SpaceXl;
   scroll.contentViewport.style.overflow=Overflow.Hidden;columns.Add(scroll);body=scroll.contentContainer;
