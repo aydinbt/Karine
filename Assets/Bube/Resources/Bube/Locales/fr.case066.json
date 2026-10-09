@@ -1,0 +1,524 @@
+{
+ "entries": [
+  {
+   "key": "case066.autopsy.body",
+   "value": "· Cause du décès : privation d’oxygène ; le gaz d’extinction a fait descendre l’oxygène de la salle sous douze pour cent.\n· De la peinture de l’intérieur de la porte sur le bout de ses doigts et sous ses ongles : il a essayé d’ouvrir la porte.\n· Pas de coups, pas de drogue.\n· Heure du décès : 21.10–21.25."
+  },
+  {
+   "key": "case066.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case066.cctv.event.lamp",
+   "value": "Caméra : La lampe rouge au-dessus de la porte des archives clignote ; le couloir est vide ; la porte de la salle de réunion du fond est fermée."
+  },
+  {
+   "key": "case066.cctv.event.panel",
+   "value": "Caméra : Le même homme se tient à la porte des archives ; il la ferme de l’extérieur et tourne quelque chose de petit dans le panneau rouge à côté."
+  },
+  {
+   "key": "case066.cctv.event.walk",
+   "value": "Caméra : Un homme en costume rayé, un ordinateur portable sous le bras, marche vers une petite salle de réunion et jette un coup d’œil à la porte des archives."
+  },
+  {
+   "key": "case066.cctv.overlay",
+   "value": "TL-42"
+  },
+  {
+   "key": "case066.cctv.period",
+   "value": "25 novembre 2030"
+  },
+  {
+   "key": "case066.cctv.source",
+   "value": "Caméra du couloir"
+  },
+  {
+   "key": "case066.clue.alarm",
+   "value": "L’alarme arrive à la sécurité."
+  },
+  {
+   "key": "case066.clue.in",
+   "value": "La carte du vice-président ouvre le 42e étage."
+  },
+  {
+   "key": "case066.clue.lamp",
+   "value": "La lampe rouge des archives clignote ; le couloir est vide."
+  },
+  {
+   "key": "case066.clue.panel",
+   "value": "Le même homme ferme la porte des archives et tourne quelque chose dans le panneau rouge."
+  },
+  {
+   "key": "case066.clue.source.renaud",
+   "value": "Luc-Antoine Renaud"
+  },
+  {
+   "key": "case066.clue.walk",
+   "value": "L’homme en costume marche vers la petite salle de réunion."
+  },
+  {
+   "key": "case066.custody.desk",
+   "value": "Au bureau du technicien"
+  },
+  {
+   "key": "case066.custody.label",
+   "value": "Où est passée la clé manuelle du système à gaz ?"
+  },
+  {
+   "key": "case066.custody.panel",
+   "value": "Laissée dans le panneau"
+  },
+  {
+   "key": "case066.custody.squash",
+   "value": "Dans le sac de squash du casier de sport du vice-président"
+  },
+  {
+   "key": "case066.epilogue.custody.desk",
+   "value": "La clé du technicien était à son cou ; il n’y avait pas de deuxième clé sur son bureau."
+  },
+  {
+   "key": "case066.epilogue.custody.panel",
+   "value": "Il n’y avait pas de clé dans le panneau."
+  },
+  {
+   "key": "case066.epilogue.custody.squash",
+   "value": "Il a été consigné que la clé manuelle avait été retrouvée dans le sac de squash."
+  },
+  {
+   "key": "case066.epilogue.verdict.accident",
+   "value": "Le décès a été jugé comme un dysfonctionnement ; le dernier virement vers Melbourne est passé."
+  },
+  {
+   "key": "case066.epilogue.verdict.leduc",
+   "value": "Anne-Marie Leduc a été arrêtée ; la division des programmes spéciaux a continué de grandir."
+  },
+  {
+   "key": "case066.epilogue.verdict.obi",
+   "value": "Chidi Obi a été arrêté ; la clé est restée dans le sac de squash."
+  },
+  {
+   "key": "case066.epilogue.verdict.whitfield",
+   "value": "Graham Whitfield a été arrêté. La division « programmes spéciaux » de Laurentide Réassurance a été gelée. Les relevés du « bube International Liaison Programme » et le numéro australien ont été transmis à bube Melbourne — antenne de Footscray."
+  },
+  {
+   "key": "case066.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case066.evidence.floor",
+   "value": "Caméra du couloir du 42e étage"
+  },
+  {
+   "key": "case066.evidence.locker",
+   "value": "Fouille du casier de sport et du bureau"
+  },
+  {
+   "key": "case066.evidence.minutes",
+   "value": "Procès-verbal du conseil d’administration"
+  },
+  {
+   "key": "case066.feedback.accident",
+   "value": "Le gaz a été libéré avec la clé manuelle, la sirène désactivée et la porte verrouillée."
+  },
+  {
+   "key": "case066.feedback.leduc",
+   "value": "La directrice générale était dans la salle du conseil pendant toute la réunion, porte ouverte ; c’est elle qui lui avait demandé de présenter le rapport au conseil."
+  },
+  {
+   "key": "case066.feedback.obi",
+   "value": "La clé du technicien était à son cou, et la caméra montre un homme en costume, pas lui."
+  },
+  {
+   "key": "case066.feedback.whitfield",
+   "value": "La clé manuelle du système à gaz des programmes spéciaux est sortie de son sac de squash, avec son empreinte ; le journal des cartes le place au quarante-deuxième étage, et la caméra montre l’homme en costume fermer la porte des archives et tourner le panneau. Le procès-verbal ne le met pas hors de cause : sa caméra était coupée exactement pendant ces dix minutes."
+  },
+  {
+   "key": "case066.file.caseType",
+   "value": "MEURTRE"
+  },
+  {
+   "key": "case066.file.value.bureau",
+   "value": "BDM Montréal — Antenne du Mile End"
+  },
+  {
+   "key": "case066.file.value.location",
+   "value": "Tour Laurentide, 42e étage, Montréal"
+  },
+  {
+   "key": "case066.file.value.number",
+   "value": "BDM-MTL-2030-0235"
+  },
+  {
+   "key": "case066.file.value.offence",
+   "value": "Meurtre"
+  },
+  {
+   "key": "case066.file.value.reporter",
+   "value": "Superviseur de la sécurité"
+  },
+  {
+   "key": "case066.floor.body",
+   "value": "Couloir du 42e étage, porte des archives de données. 25 novembre 20.30 – 21.30."
+  },
+  {
+   "key": "case066.floor.title",
+   "value": "CAMÉRA DU COULOIR DU 42E ÉTAGE — transcription du relevé"
+  },
+  {
+   "key": "case066.leduc.body",
+   "value": "Directrice générale."
+  },
+  {
+   "key": "case066.leduc.deflect",
+   "value": "Cette compagnie a cent ans ; un vice-président ne la coulera pas."
+  },
+  {
+   "key": "case066.leduc.programs.answer",
+   "value": "La division de Graham : petites entreprises, infrastructures municipales, réserve agricole, garantie artiste personne clé… Depuis dix ans, la division la plus rentable de la compagnie, et je n’ai pas posé de questions. Daniel allait en poser à cette réunion. Il me l’avait dit avant ; j’ai dit : « Présente-le au conseil. » Maintenant que j’y pense, je l’ai peut-être dit à Graham aussi. Non — je le lui ai dit."
+  },
+  {
+   "key": "case066.leduc.programs.answer.demeanor",
+   "value": "Enlève ses lunettes, les plie et les pose sur la table."
+  },
+  {
+   "key": "case066.leduc.programs.question",
+   "value": "Que sont les « programmes spéciaux » ?"
+  },
+  {
+   "key": "case066.leduc.title",
+   "value": "Anne-Marie Leduc — audition"
+  },
+  {
+   "key": "case066.locker.body",
+   "value": "Le casier du club de sport de la tour de Graham Whitfield et son bureau (avec l’accord du chef d’antenne) :\n\n· Dans le sac de squash, la clé de déclenchement manuel du système d’extinction des programmes spéciaux ; l’empreinte de Graham Whitfield sur la clé.\n· Dans son bureau, quatorze ans d’ordres de paiement au « bube International Liaison Programme » ; directrice bénéficiaire : Edda Varga. Dernier ordre le 24 novembre : une agence bancaire de Footscray, Melbourne.\n· Sur son téléphone, le 25 novembre à 21.40, à un numéro non enregistré : « Montréal est fermé. » Réponse à 21.41 : « Je sais. » Le numéro est en Australie."
+  },
+  {
+   "key": "case066.locker.title",
+   "value": "CASIER DE SPORT ET BUREAU DU VICE-PRÉSIDENT — FOUILLE"
+  },
+  {
+   "key": "case066.method.fault",
+   "value": "Une panne du système a libéré le gaz"
+  },
+  {
+   "key": "case066.method.gas",
+   "value": "Le gaz d’extinction a été libéré à la main dans les archives verrouillées"
+  },
+  {
+   "key": "case066.method.heart",
+   "value": "Crise cardiaque"
+  },
+  {
+   "key": "case066.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case066.minutes.body",
+   "value": "Conseil d’administration extraordinaire de Laurentide Réassurance, 25 novembre 2030, 20.00–21.30 :\n\n· Présidence : Anne-Marie Leduc (dans la salle du conseil).\n· Participants : sept membres en visioconférence.\n· Graham Whitfield — en visioconférence, « depuis Toronto ». Connecté sans interruption 20.00–21.30 ; caméra coupée 21.05–21.15, « problème de connexion ».\n· Ordre du jour : le rapport interne de l’actuaire en chef sur les « programmes spéciaux ». Le rapport n’a pas été présenté ; l’actuaire en chef n’était pas présent."
+  },
+  {
+   "key": "case066.minutes.title",
+   "value": "PROCÈS-VERBAL DU CONSEIL D’ADMINISTRATION"
+  },
+  {
+   "key": "case066.mirela.body",
+   "value": "L’assistante de la victime."
+  },
+  {
+   "key": "case066.mirela.day.answer",
+   "value": "Il a passé toute la journée aux archives, à éplucher de vieux dossiers de polices. « Elles paient toutes le même bénéficiaire, Mirela ; le nom ressemble à une institution, mais ce n’en est pas une, c’est une femme », il a dit. Il allait le présenter à la réunion. En partant le soir, il a dit : « Whitfield est là ce soir ; il dit qu’il est à Toronto, mais j’ai vu sa voiture en bas. » Il a souri, et j’ai ri."
+  },
+  {
+   "key": "case066.mirela.day.answer.demeanor",
+   "value": "Tire la manche de son chemisier jusqu’au poignet."
+  },
+  {
+   "key": "case066.mirela.day.question",
+   "value": "Comment s’est passée la dernière journée de Daniel ?"
+  },
+  {
+   "key": "case066.mirela.deflect",
+   "value": "Je tenais son agenda."
+  },
+  {
+   "key": "case066.mirela.title",
+   "value": "Mirela Popescu — audition"
+  },
+  {
+   "key": "case066.obi.body",
+   "value": "Technicien du centre de données."
+  },
+  {
+   "key": "case066.obi.deflect",
+   "value": "Je m’occupe des serveurs, pas des gens."
+  },
+  {
+   "key": "case066.obi.gas.answer",
+   "value": "Deux façons : automatiquement quand de la fumée est détectée, ou à la main avec la clé manuelle au panneau rouge à côté de la porte. Avant un déclenchement automatique, la sirène sonne trente secondes et la porte ne se verrouille pas. Le journal dit manuel : avec la clé, porte verrouillée, sirène désactivée. Trois personnes ont une clé manuelle : moi, la sécurité et les programmes spéciaux, parce que les archives sont à eux. La mienne est à mon cou."
+  },
+  {
+   "key": "case066.obi.gas.answer.demeanor",
+   "value": "Tire l’enrouleur de son porte-badge et le relâche."
+  },
+  {
+   "key": "case066.obi.gas.question",
+   "value": "Comment le système à gaz se déclenche-t-il ?"
+  },
+  {
+   "key": "case066.obi.title",
+   "value": "Chidi Obi — audition"
+  },
+  {
+   "key": "case066.offer.subtitle",
+   "value": "LAURENTIDE  /  MEURTRE"
+  },
+  {
+   "key": "case066.offer.summary",
+   "value": "L’actuaire en chef du réassureur apparu derrière chaque police de ce chapitre est mort du gaz dans les archives de données verrouillées."
+  },
+  {
+   "key": "case066.offer.title",
+   "value": "DOSSIER #066"
+  },
+  {
+   "key": "case066.person.leduc.info",
+   "value": "60 ans, directrice générale de Laurentide Réassurance."
+  },
+  {
+   "key": "case066.person.leduc.name",
+   "value": "Anne-Marie Leduc"
+  },
+  {
+   "key": "case066.person.mirela.info",
+   "value": "29 ans, l’assistante de la victime."
+  },
+  {
+   "key": "case066.person.mirela.name",
+   "value": "Mirela Popescu"
+  },
+  {
+   "key": "case066.person.obi.info",
+   "value": "33 ans, le technicien du centre de données de l’immeuble."
+  },
+  {
+   "key": "case066.person.obi.name",
+   "value": "Chidi Obi"
+  },
+  {
+   "key": "case066.person.renaud.info",
+   "value": "50 ans, le superviseur de la sécurité de nuit de la tour."
+  },
+  {
+   "key": "case066.person.renaud.name",
+   "value": "Luc-Antoine Renaud"
+  },
+  {
+   "key": "case066.person.whitfield.info",
+   "value": "56 ans, vice-président des programmes spéciaux de Laurentide Réassurance."
+  },
+  {
+   "key": "case066.person.whitfield.name",
+   "value": "Graham Whitfield"
+  },
+  {
+   "key": "case066.recon.r_back",
+   "value": "21.15 : Sa caméra se rallume ; la réunion se termine à 21.30."
+  },
+  {
+   "key": "case066.recon.r_badge",
+   "value": "20.48 : Graham Whitfield entre au quarante-deuxième étage pour la réunion à laquelle il assistera « depuis Toronto »."
+  },
+  {
+   "key": "case066.recon.r_lock",
+   "value": "21.09 : Il ferme la porte des archives de l’extérieur et libère le gaz avec la clé manuelle."
+  },
+  {
+   "key": "case066.recon.r_msg",
+   "value": "21.40 : « Montréal est fermé. » Pour la première fois, une réponse arrive, d’Australie : « Je sais. »"
+  },
+  {
+   "key": "case066.recon.r_off",
+   "value": "21.05 : Il coupe sa caméra en invoquant un « problème de connexion »."
+  },
+  {
+   "key": "case066.recon.r_report",
+   "value": "24 novembre : L’actuaire en chef prépare le rapport sur les « programmes spéciaux » et écrit à l’antenne du Mile End."
+  },
+  {
+   "key": "case066.recon.r_room",
+   "value": "20.52 : Il ouvre la visioconférence depuis la petite salle de réunion."
+  },
+  {
+   "key": "case066.renaud.alarm.answer",
+   "value": "L’alarme est arrivée à 21.12 ; je suis monté, la porte était verrouillée, je l’ai ouverte avec ma propre clé, trop tard. Journal des cartes du 42e étage : Kovač 20.40, Whitfield 20.48, Obi depuis 19.30. La directrice générale était dans la salle du conseil porte ouverte ; je l’ai vue. Il y a une caméra dans le couloir."
+  },
+  {
+   "key": "case066.renaud.alarm.answer.demeanor",
+   "value": "Boutonne son blazer et croise les mains dans le dos."
+  },
+  {
+   "key": "case066.renaud.alarm.question",
+   "value": "Qui était à l’étage cette nuit-là ?"
+  },
+  {
+   "key": "case066.renaud.body",
+   "value": "Superviseur de la sécurité de nuit."
+  },
+  {
+   "key": "case066.renaud.deflect",
+   "value": "J’ouvre les portes et je les ferme."
+  },
+  {
+   "key": "case066.renaud.title",
+   "value": "Luc-Antoine Renaud — audition"
+  },
+  {
+   "key": "case066.report.body",
+   "value": "Dans la nuit du 25 novembre 2030, au 42e étage de la Tour Laurentide à Montréal, l’actuaire en chef de Laurentide Réassurance, Daniel Kovač (54 ans), a été retrouvé mort dans la salle des archives de données. Le gaz d’extinction de la salle avait été libéré ; la porte était verrouillée de l’extérieur.\n\nLe superviseur de la sécurité de nuit Luc-Antoine Renaud a trouvé le corps à 22.05, en répondant à l’alarme. À l’étage ce soir-là : le conseil d’administration présidé par la directrice générale Anne-Marie Leduc (la plupart des membres en visioconférence), le vice-président des programmes spéciaux Graham Whitfield et le technicien du centre de données Chidi Obi. L’assistante de la victime, Mirela Popescu, était partie à 19.00.\n\nLa veille, la victime avait écrit à bube Montréal — antenne du Mile End."
+  },
+  {
+   "key": "case066.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case066.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case066.request.locker",
+   "value": "Demander l’autorisation de fouiller le casier de sport et le bureau du vice-président"
+  },
+  {
+   "key": "case066.request.minutes",
+   "value": "Demander le procès-verbal du conseil d’administration"
+  },
+  {
+   "key": "case066.summary.evidence",
+   "value": "Le procès-verbal était un leurre : sept témoins ont vu l’écran, mais pas les dix minutes de noir. La sécurité, le technicien et l’assistante ont comblé le vide avec l’étage, la clé et la voiture. La fouille a trouvé la clé dans le sac de squash et les ordres de paiement dans le bureau."
+  },
+  {
+   "key": "case066.summary.lesson",
+   "value": "Sept personnes l’ont vu à l’écran. Aucune n’a posé de question sur la caméra coupée."
+  },
+  {
+   "key": "case066.summary.location",
+   "value": "Tour Laurentide — novembre 2030"
+  },
+  {
+   "key": "case066.summary.truth",
+   "value": "Pendant quatorze ans, la division « programmes spéciaux » de Laurentide Réassurance a réassuré des polices fausses ou gonflées, de la boulangerie du Mile End au silo, et détourné les indemnités vers le « bube International Liaison Programme » — c’est-à-dire vers Edda Varga. L’actuaire en chef Daniel Kovač allait le présenter au conseil. Le vice-président Graham Whitfield a coupé sa caméra dix minutes pendant la réunion à laquelle il assistait « depuis Toronto », a enfermé Kovač dans les archives et a libéré le gaz à la main."
+  },
+  {
+   "key": "case066.suspect.label",
+   "value": "Qui a tué Daniel Kovač ?"
+  },
+  {
+   "key": "case066.tablet.caseLine",
+   "value": "DOSSIER #066  /  BUBE MONTRÉAL — MILE END"
+  },
+  {
+   "key": "case066.time.alarm",
+   "value": "21.12"
+  },
+  {
+   "key": "case066.time.in",
+   "value": "20.48"
+  },
+  {
+   "key": "case066.time.lamp",
+   "value": "21.11"
+  },
+  {
+   "key": "case066.time.panel",
+   "value": "21.09"
+  },
+  {
+   "key": "case066.time.walk",
+   "value": "20.52"
+  },
+  {
+   "key": "case066.title",
+   "value": "Dossier #066 — Laurentide"
+  },
+  {
+   "key": "case066.verdict.accident",
+   "value": "Personne — une panne du système"
+  },
+  {
+   "key": "case066.verdict.leduc",
+   "value": "Anne-Marie Leduc"
+  },
+  {
+   "key": "case066.verdict.obi",
+   "value": "Chidi Obi"
+  },
+  {
+   "key": "case066.verdict.whitfield",
+   "value": "Graham Whitfield"
+  },
+  {
+   "key": "case066.whitfield.body",
+   "value": "Vice-président des programmes spéciaux."
+  },
+  {
+   "key": "case066.whitfield.deflect",
+   "value": "Les programmes spéciaux sont la division la plus rentable de la compagnie."
+  },
+  {
+   "key": "case066.whitfield.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case066.whitfield.end.decoy.minutes",
+   "value": "Regardez le procès-verbal : connecté de huit heures à neuf heures et demie. Sept témoins. Un homme ne peut pas être à deux endroits à la fois."
+  },
+  {
+   "key": "case066.whitfield.end.presented.locker",
+   "value": "Je n’étais pas à Toronto ; j’étais dans la petite salle de réunion du quarante-deuxième étage. J’ai coupé la caméra dix minutes. Si Daniel présentait son tableau, on saurait ce qu’était le « Liaison Programme », et à qui il appartenait. J’ai rencontré Edda il y a quinze ans à Londres ; « Tu écris la police, on fait le reste », elle a dit. Et ça a toujours été comme ça : au Mile End, au silo, dans la tempête de neige, toujours. Je lui ai écrit une dernière fois : « Montréal est fermé. » La réponse est venue de Melbourne, pour la première fois : « Je sais. »"
+  },
+  {
+   "key": "case066.whitfield.end.question",
+   "value": "Vous avez enfermé Daniel dans les archives."
+  },
+  {
+   "key": "case066.whitfield.night.answer",
+   "value": "J’étais à la réunion, une heure et demie, sept personnes m’ont vu à l’écran. Daniel travaillait trop ; seul aux archives, la nuit, une panne du système. Tragique."
+  },
+  {
+   "key": "case066.whitfield.night.answer.demeanor",
+   "value": "Redresse le nœud de sa cravate de deux doigts."
+  },
+  {
+   "key": "case066.whitfield.night.question",
+   "value": "Où étiez-vous hier soir ?"
+  },
+  {
+   "key": "case066.whitfield.title",
+   "value": "Graham Whitfield — audition"
+  },
+  {
+   "key": "case066.item.key.name",
+   "value": "Clé de déclenchement manuel du système à gaz"
+  },
+  {
+   "key": "case066.item.key.detail",
+   "value": "La clé de déclenchement manuel du système d’extinction ; elle est sortie du sac de squash du casier du club de sport du vice-président."
+  },
+  {
+   "key": "case066.item.minutes.name",
+   "value": "Procès-verbal du conseil d’administration"
+  },
+  {
+   "key": "case066.item.minutes.detail",
+   "value": "Le procès-verbal de la réunion de nuit ; le vice-président « en visioconférence, depuis Toronto », 20.00–21.30."
+  },
+  {
+   "key": "case066.item.table.name",
+   "value": "Le tableau de Kovač"
+  },
+  {
+   "key": "case066.item.table.detail",
+   "value": "Une impression tirée du bureau de l’actuaire en chef ; un seul nom se répète dans la colonne des bénéficiaires."
+  }
+ ]
+}
