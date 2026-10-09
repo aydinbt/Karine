@@ -1,0 +1,404 @@
+{
+ "entries": [
+  {
+   "key": "case067.alarm.body",
+   "value": "Alarmpaneel des Fischmarkts Footscray, 1. Dezember:\n\n· 18.30 — scharf geschaltet (Code: Craig Brennan).\n· 18.31 – 04.00 keine Ereignisse.\n· 04.02 — deaktiviert (Code: Tavita Faleolo).\n\nHinweis: Das Paneel überwacht nur die Außentüren; wer drinnen bleibt, löst den Alarm nicht aus."
+  },
+  {
+   "key": "case067.alarm.title",
+   "value": "ALARMPROTOKOLL DES MARKTS"
+  },
+  {
+   "key": "case067.archive.body",
+   "value": "Aus dem Archiv wieder geöffnete Akte (Januar 1998, als ‚elektrischer Defekt‘ geschlossen):\n\n· Bei einem nächtlichen Standbrand auf dem Markt kam Nguyen Van Minh (29) ums Leben.\n· Einziger Zeuge, der Nachtwächter Craig Brennan (20): ‚Ich habe Funken aus den Kabeln gesehen.‘\n· Im Bericht der Feuerwehr steht der Vermerk ‚Spuren von Brandbeschleuniger‘; nicht in die Akte aufgenommen.\n· Stellvertretender Leiter der Firma, die drei Monate nach dem Brand die Betriebsrechte des Markts erhielt: Craig Brennan."
+  },
+  {
+   "key": "case067.archive.reopen",
+   "value": "Die vor zweiunddreißig Jahren als ‚elektrischer Defekt‘ geschlossene Akte wurde wieder geöffnet."
+  },
+  {
+   "key": "case067.archive.title",
+   "value": "AKTE 1998 — NGUYEN VAN MINH"
+  },
+  {
+   "key": "case067.autopsy.body",
+   "value": "· Todesursache: Unterkühlung und Ertrinken; in der Lunge salziges Eiswasser.\n· Ein flacher, breiter Schlag in den Nacken; er kam bewusstlos ins Wasser.\n· Kein Abendessen im Magen; letzte Mahlzeit mittags.\n· Todeszeit: 19.00–20.00."
+  },
+  {
+   "key": "case067.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case067.brennan.body",
+   "value": "Leiter des Markts."
+  },
+  {
+   "key": "case067.brennan.deflect",
+   "value": "Ich halte diesen Markt seit dreißig Jahren am Leben."
+  },
+  {
+   "key": "case067.brennan.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case067.brennan.end.decoy.alarm",
+   "value": "Das Alarmprotokoll liegt da: um halb sieben scharf geschaltet, bis zum Morgen ging keine einzige Tür auf. Drinnen war niemand."
+  },
+  {
+   "key": "case067.brennan.end.presented.office",
+   "value": "Ich habe den Alarm von drinnen scharf geschaltet, ich bin nicht hinausgegangen. Long hielt mir das Foto vors Gesicht; 1998 hatte ich das Feuerzeug in der Hand, ja, man hatte mich bezahlt, ich dachte, der Stand sei leer. Minh war drinnen. Zweiundreißig Jahre. Ich schlug ihm in den Nacken, legte ihn in den Tank, schloss ab. Den Schlüssel warf ich in die Schublade der Waage. Das Foto habe ich verbrannt. Die Leute von Pacific Liaison sagten ‚der letzte Stand des Markts‘, nur das."
+  },
+  {
+   "key": "case067.brennan.end.question",
+   "value": "Sie haben Long in den Eistank gelegt."
+  },
+  {
+   "key": "case067.brennan.night.answer",
+   "value": "Ich schickte alle weg, schaltete den Alarm scharf, ging. Onkel Long war alt, vielleicht griff er nach etwas im Tank und fiel hinein."
+  },
+  {
+   "key": "case067.brennan.night.answer.demeanor",
+   "value": "Dreht die Kette an seinem Hals mit dem Daumen."
+  },
+  {
+   "key": "case067.brennan.night.question",
+   "value": "Wie haben Sie gestern Abend den Markt geschlossen?"
+  },
+  {
+   "key": "case067.brennan.title",
+   "value": "Craig Brennan — Befragung"
+  },
+  {
+   "key": "case067.clue.found",
+   "value": "Der Lastenträger bricht den verschlossenen Tank mit dem Brecheisen auf."
+  },
+  {
+   "key": "case067.clue.send",
+   "value": "Der Marktleiter schickt den Lastenträger mit den Worten ‚Ich schließe ab‘ nach Hause."
+  },
+  {
+   "key": "case067.clue.set",
+   "value": "Der Alarm wird mit dem Code des Marktleiters scharf geschaltet."
+  },
+  {
+   "key": "case067.clue.source.alarm",
+   "value": "Alarmprotokoll"
+  },
+  {
+   "key": "case067.clue.source.tavita",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.custody.drain",
+   "value": "In das Abflussgitter des Markts"
+  },
+  {
+   "key": "case067.custody.label",
+   "value": "Wohin kam der Schlüssel des Tanks?"
+  },
+  {
+   "key": "case067.custody.river",
+   "value": "In den Maribyrnong River"
+  },
+  {
+   "key": "case067.custody.scale",
+   "value": "In die Schublade der Fischwaage im Büro des Marktleiters"
+  },
+  {
+   "key": "case067.epilogue.custody.drain",
+   "value": "Das Gitter wurde geöffnet; kein Schlüssel."
+  },
+  {
+   "key": "case067.epilogue.custody.river",
+   "value": "Der Schlüssel war nicht im Fluss."
+  },
+  {
+   "key": "case067.epilogue.custody.scale",
+   "value": "Festgehalten wurde, dass der Schlüssel in der Schublade der Waage gefunden wurde."
+  },
+  {
+   "key": "case067.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; der Markt wurde abgerissen."
+  },
+  {
+   "key": "case067.epilogue.verdict.brennan",
+   "value": "Craig Brennan wurde festgenommen; die Akte von 1998 wurde als ‚vorsätzliche Tötung‘ wieder geöffnet. Der Kreditvertrag von Pacific Liaison Trust kam in die Akte der Dienststelle Footscray."
+  },
+  {
+   "key": "case067.epilogue.verdict.linh",
+   "value": "Linh Nguyen wurde festgenommen; der Schlüssel blieb in der Waage."
+  },
+  {
+   "key": "case067.epilogue.verdict.tavita",
+   "value": "Tavita Faleolo wurde festgenommen; der letzte Stand wurde verkauft."
+  },
+  {
+   "key": "case067.evidence.alarm",
+   "value": "Alarmprotokoll des Markts"
+  },
+  {
+   "key": "case067.evidence.archive",
+   "value": "Akte 1998"
+  },
+  {
+   "key": "case067.evidence.autopsy",
+   "value": "Obduktionsbericht"
+  },
+  {
+   "key": "case067.evidence.office",
+   "value": "Durchsuchung des Büros des Marktleiters"
+  },
+  {
+   "key": "case067.feedback.accident",
+   "value": "Am Nacken ist ein Schlag, und der Tank war von außen verschlossen."
+  },
+  {
+   "key": "case067.feedback.brennan",
+   "value": "Der Schlüssel des Tanks kam aus der Schublade seiner Waage, mit seinem Abdruck; den Lastenträger schickte er um 19.00 weg. Das Alarmprotokoll entlastet ihn nicht: das Paneel überwacht nur die Außentüren. Die wieder geöffnete Akte von 1998 zeigt, wen Long auf dem Foto erkannte."
+  },
+  {
+   "key": "case067.feedback.linh",
+   "value": "Die Tochter war bei ihrem Vater, der den Verkauf des Stands verweigerte; an jenem Abend war sie nicht auf dem Markt."
+  },
+  {
+   "key": "case067.feedback.tavita",
+   "value": "Der Lastenträger wurde um 19.00 weggeschickt und deaktivierte den Alarm am Morgen mit seinem eigenen Code; den Schlüssel des Tanks hatte er nicht."
+  },
+  {
+   "key": "case067.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case067.file.value.bureau",
+   "value": "BDA Melbourne — Dienststelle Footscray"
+  },
+  {
+   "key": "case067.file.value.location",
+   "value": "Fischmarkt Footscray, Melbourne"
+  },
+  {
+   "key": "case067.file.value.number",
+   "value": "BDA-MEL-2030-0301"
+  },
+  {
+   "key": "case067.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case067.file.value.reporter",
+   "value": "Lastenträger"
+  },
+  {
+   "key": "case067.linh.body",
+   "value": "Tochter des Opfers."
+  },
+  {
+   "key": "case067.linh.deflect",
+   "value": "Mein Vater stand vierzig Jahre lang um vier Uhr morgens auf."
+  },
+  {
+   "key": "case067.linh.sell.answer",
+   "value": "Nein. Der Markt wird neu gebaut, alle Stände werden aufgekauft; mein Vater war der Einzige, der nein sagte. Letzte Woche fand er ein altes Foto, von 1998, aus der Nacht, in der mein Onkel starb. ‚Jetzt weiß ich, wer in jener Nacht da war‘, sagte er. Wer, sagte er nicht. Das Foto trug er bei sich."
+  },
+  {
+   "key": "case067.linh.sell.answer.demeanor",
+   "value": "Schiebt den Reißverschluss ihrer Jacke mit den Fingern auf und ab."
+  },
+  {
+   "key": "case067.linh.sell.question",
+   "value": "Wollte Ihr Vater den Stand verkaufen?"
+  },
+  {
+   "key": "case067.linh.title",
+   "value": "Linh Nguyen — Befragung"
+  },
+  {
+   "key": "case067.method.fall",
+   "value": "Er fiel, als er in den Tank griff"
+  },
+  {
+   "key": "case067.method.heart",
+   "value": "In der Kälte blieb sein Herz stehen"
+  },
+  {
+   "key": "case067.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case067.method.tank",
+   "value": "Er wurde bewusstlos geschlagen, in den Eistank gelegt und eingeschlossen"
+  },
+  {
+   "key": "case067.offer.subtitle",
+   "value": "FISCHMARKT  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case067.offer.summary",
+   "value": "Ein Fischhändler, seit vierzig Jahren am Markt, wurde im Eistank seines eigenen Stands gefunden, der Deckel verschlossen."
+  },
+  {
+   "key": "case067.offer.title",
+   "value": "AKTE #067"
+  },
+  {
+   "key": "case067.office.body",
+   "value": "Das Büro von Craig Brennan auf dem Markt (mit Genehmigung der Dienststellenleitung):\n\n· In der Schublade der Fischwaage der Schlüssel des Vorhängeschlosses des Tanks; auf dem Schlüssel Fischschuppen und der Fingerabdruck von Craig Brennan.\n· Im Aschenbecher die Ecke eines verbrannten Fotos; Fotopapier von 1998.\n· Auf dem Schreibtisch der Kreditvertrag von Pacific Liaison Trust: Bedingung ‚Übernahme aller Stände‘, letzte Zeile leer: ‚Nguyen‘."
+  },
+  {
+   "key": "case067.office.title",
+   "value": "BÜRO DES MARKTLEITERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case067.person.brennan.info",
+   "value": "52 Jahre, Leiter des Fischmarkts Footscray."
+  },
+  {
+   "key": "case067.person.brennan.name",
+   "value": "Craig Brennan"
+  },
+  {
+   "key": "case067.person.linh.info",
+   "value": "34 Jahre, Tochter des Opfers."
+  },
+  {
+   "key": "case067.person.linh.name",
+   "value": "Linh Nguyen"
+  },
+  {
+   "key": "case067.person.tavita.info",
+   "value": "41 Jahre, Lastenträger auf dem Markt; fand die Leiche."
+  },
+  {
+   "key": "case067.person.tavita.name",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.report.body",
+   "value": "Am Morgen des 2. Dezember 2030 wurde auf dem Fischmarkt Footscray der Fischhändler Nguyen Van Long (68) tot im Eiswasser des Eistanks hinter seinem eigenen Stand gefunden. Der Deckel des Tanks war mit einem Vorhängeschloss verschlossen.\n\nDie Leiche fand der Lastenträger Tavita Faleolo um 04.05, als er das Schloss des Tanks aufbrach. Der Leiter des Markts, Craig Brennan, gab an, den Alarm um 18.30 scharf geschaltet zu haben. Die Tochter des Opfers, Linh Nguyen, kam am Morgen."
+  },
+  {
+   "key": "case067.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case067.request.alarm",
+   "value": "Alarmprotokoll des Markts anfordern"
+  },
+  {
+   "key": "case067.request.archive",
+   "value": "Genehmigung beantragen, die Akte von 1998 aus dem Archiv zu öffnen"
+  },
+  {
+   "key": "case067.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case067.request.office",
+   "value": "Durchsuchungsbeschluss für das Büro des Marktleiters beantragen"
+  },
+  {
+   "key": "case067.summary.evidence",
+   "value": "Das Alarmprotokoll war ein Köder: es überwachte nur die Außentüren. Der Lastenträger und die Tochter erzählten vom Abend und vom Foto; das ließ das Archiv öffnen. Die Durchsuchung fand den Schlüssel und die Ecke des verbrannten Fotos."
+  },
+  {
+   "key": "case067.summary.lesson",
+   "value": "Der Alarm sagte, dass niemand hinausging. Das stimmte."
+  },
+  {
+   "key": "case067.summary.location",
+   "value": "Fischmarkt Footscray — Dezember 2030"
+  },
+  {
+   "key": "case067.summary.truth",
+   "value": "1998 legte der zwanzigjährige Nachtwächter Craig Brennan gegen Bezahlung Feuer an einem Stand; drinnen war Minh, der Bruder von Long. Er sagte ‚elektrischer Defekt‘ und wurde Leiter des Markts. Zweiunddreißig Jahre später erkannte ihn Long, der den letzten Stand des Markts nicht verkaufte, auf einem alten Foto. Brennan schaltete den Alarm von drinnen scharf, schlug Long bewusstlos, schloss ihn im Eistank ein und warf den Schlüssel in die Schublade der Waage."
+  },
+  {
+   "key": "case067.suspect.label",
+   "value": "Wer hat Nguyen Van Long getötet?"
+  },
+  {
+   "key": "case067.tablet.caseLine",
+   "value": "AKTE #067  /  BUBE MELBOURNE — FOOTSCRAY"
+  },
+  {
+   "key": "case067.tavita.body",
+   "value": "Lastenträger auf dem Markt."
+  },
+  {
+   "key": "case067.tavita.deflect",
+   "value": "Ich trage Kisten, ich stelle keine Fragen."
+  },
+  {
+   "key": "case067.tavita.found.answer",
+   "value": "Onkel Long hat den Tank nie abgeschlossen; damit der Fisch kalt bleibt, ließ er den Deckel offen. Er war verschlossen; der Schlüssel ist beim Marktleiter. Ich konnte nicht warten, ich brach ihn mit dem Brecheisen auf. Gestern Abend um sieben sagte der Marktleiter zu mir: ‚Geh nach Hause, ich schließe ab‘; sonst schließe immer ich ab."
+  },
+  {
+   "key": "case067.tavita.found.answer.demeanor",
+   "value": "Richtet den Träger seiner Schürze auf der Schulter."
+  },
+  {
+   "key": "case067.tavita.found.question",
+   "value": "Warum haben Sie den Tank aufgebrochen?"
+  },
+  {
+   "key": "case067.tavita.title",
+   "value": "Tavita Faleolo — Befragung"
+  },
+  {
+   "key": "case067.time.found",
+   "value": "04.05"
+  },
+  {
+   "key": "case067.time.send",
+   "value": "19.00"
+  },
+  {
+   "key": "case067.time.set",
+   "value": "18.30"
+  },
+  {
+   "key": "case067.title",
+   "value": "Akte #067 — Fischmarkt"
+  },
+  {
+   "key": "case067.verdict.accident",
+   "value": "Niemand — in den Tank gefallen"
+  },
+  {
+   "key": "case067.verdict.brennan",
+   "value": "Craig Brennan"
+  },
+  {
+   "key": "case067.verdict.linh",
+   "value": "Linh Nguyen"
+  },
+  {
+   "key": "case067.verdict.tavita",
+   "value": "Tavita Faleolo"
+  },
+  {
+   "key": "case067.item.key.name",
+   "value": "Schlüssel zum Schloss des Eistanks"
+  },
+  {
+   "key": "case067.item.key.detail",
+   "value": "Der Schlüssel des Vorhängeschlosses am Tankdeckel; kam aus der Schublade der Fischwaage im Büro des Marktleiters."
+  },
+  {
+   "key": "case067.item.alarm.name",
+   "value": "Alarmprotokoll des Markts"
+  },
+  {
+   "key": "case067.item.alarm.detail",
+   "value": "Der Ausdruck des Alarmpaneels; ‚scharf 18.30‘, Code des Marktleiters."
+  },
+  {
+   "key": "case067.item.lighter.name",
+   "value": "Foto von 1998"
+  },
+  {
+   "key": "case067.item.lighter.detail",
+   "value": "Ein altes Foto, das Long aufbewahrt hatte; eine Stunde vor dem Brand neben dem Stand ein junger Wächter, ein Feuerzeug in der Hand."
+  }
+ ]
+}
