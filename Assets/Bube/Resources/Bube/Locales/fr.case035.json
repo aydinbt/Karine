@@ -1,0 +1,512 @@
+{
+ "entries": [
+  {
+   "key": "case035.autopsy.body",
+   "value": "· Décès par polytraumatisme dû au choc du train.\n· Au milieu du dos, entre les omoplates, un léger hématome de la taille d’une paume, formé avant le choc.\n· Ni alcool ni drogue dans le sang."
+  },
+  {
+   "key": "case035.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case035.benhamou.body",
+   "value": "Conducteur de métro."
+  },
+  {
+   "key": "case035.benhamou.deflect",
+   "value": "L’exploitant a des règles ; demandez-leur."
+  },
+  {
+   "key": "case035.benhamou.saw.answer",
+   "value": "Je n’ai rien pu voir, juste une ombre. J’ai freiné. Vingt-deux ans… Il y a une caméra dans la cabine, elle couvre le pare-brise. Prenez l’enregistrement si vous voulez ; moi, je ne peux pas le regarder."
+  },
+  {
+   "key": "case035.benhamou.saw.answer.demeanor",
+   "value": "Serre ses mains entre ses genoux."
+  },
+  {
+   "key": "case035.benhamou.saw.question",
+   "value": "Qu’avez-vous vu depuis la cabine ?"
+  },
+  {
+   "key": "case035.benhamou.title",
+   "value": "Karim Benhamou — audition"
+  },
+  {
+   "key": "case035.cab.body",
+   "value": "La caméra avant de la rame ; entrée sur le quai 2. 28 mai 08.13.50 – 08.14.20."
+  },
+  {
+   "key": "case035.cab.title",
+   "value": "CAMÉRA DE CABINE DE LA RAME — transcription du relevé"
+  },
+  {
+   "key": "case035.calllog.body",
+   "value": "Journal du centre d’appels, 28 mai :\n\n· 08.14.04 · appelant : le portable de Lucien Mallet · lieu : station Belleville · première phrase : « Quelqu’un est tombé sur les voies, un train arrive. »\n\nSur la caméra de cabine, le moment de la poussée est 08.14.11 ; le choc 08.14.12.\n\nL’appel a commencé sept secondes avant la chute."
+  },
+  {
+   "key": "case035.calllog.title",
+   "value": "JOURNAL DE L’APPEL D’URGENCE"
+  },
+  {
+   "key": "case035.cctv.event.back",
+   "value": "Caméra : l’homme au manteau gris recule dans la foule, le téléphone toujours à l’oreille, l’autre main levée comme pour appeler à l’aide."
+  },
+  {
+   "key": "case035.cctv.event.push",
+   "value": "Caméra : la main libre de l’homme au manteau gris est sur le dos de l’homme au sac ; l’homme au sac bascule en avant par-dessus la ligne jaune."
+  },
+  {
+   "key": "case035.cctv.event.stand",
+   "value": "Caméra : un homme avec un sac regarde son téléphone au bord du quai ; juste derrière lui, un homme en manteau gris, une main à l’oreille, tenant un téléphone."
+  },
+  {
+   "key": "case035.cctv.overlay",
+   "value": "CAB-F"
+  },
+  {
+   "key": "case035.cctv.period",
+   "value": "28 mai 2030"
+  },
+  {
+   "key": "case035.cctv.source",
+   "value": "Caméra de cabine"
+  },
+  {
+   "key": "case035.clue.call",
+   "value": "Appel d’urgence : « Quelqu’un est tombé sur les voies. »"
+  },
+  {
+   "key": "case035.clue.entry",
+   "value": "Mallet entre dans la station ; il attend sur le quai 38 minutes."
+  },
+  {
+   "key": "case035.clue.push",
+   "value": "La main de l’homme au manteau gris est sur le dos de l’homme au sac."
+  },
+  {
+   "key": "case035.clue.source.calllog",
+   "value": "Journal d’appels"
+  },
+  {
+   "key": "case035.clue.source.navigo",
+   "value": "Journal du passe"
+  },
+  {
+   "key": "case035.clue.stand",
+   "value": "L’homme au manteau gris, téléphone à l’oreille, derrière l’homme au sac."
+  },
+  {
+   "key": "case035.clue.vidal",
+   "value": "Vidal entre dans la station à son heure habituelle du matin."
+  },
+  {
+   "key": "case035.custody.after",
+   "value": "Juste après la chute"
+  },
+  {
+   "key": "case035.custody.before",
+   "value": "Sept secondes avant la chute"
+  },
+  {
+   "key": "case035.custody.label",
+   "value": "Quand l’appel d’urgence a-t-il commencé ?"
+  },
+  {
+   "key": "case035.custody.late",
+   "value": "Après l’arrêt du train"
+  },
+  {
+   "key": "case035.epilogue.custody.after",
+   "value": "L’appel a été vu comme une réaction héroïque."
+  },
+  {
+   "key": "case035.epilogue.custody.before",
+   "value": "Il a été consigné que l’appel d’urgence avait commencé avant le moment de la poussée."
+  },
+  {
+   "key": "case035.epilogue.custody.late",
+   "value": "Personne n’a regardé l’heure de l’appel."
+  },
+  {
+   "key": "case035.epilogue.verdict.accident",
+   "value": "Le décès a été classé comme accident ; la ville a remis une médaille à Lucien Mallet."
+  },
+  {
+   "key": "case035.epilogue.verdict.mallet",
+   "value": "Lucien Mallet a été arrêté ; au tribunal, il a prononcé le nom de sa fille. Les déclarations Lakeshore du sac de Vidal ont été versées à un dossier distinct."
+  },
+  {
+   "key": "case035.epilogue.verdict.royer",
+   "value": "Pascal Royer a été inculpé ; personne n’a interrogé le passager « héros »."
+  },
+  {
+   "key": "case035.evidence.cab",
+   "value": "Caméra de cabine de la rame"
+  },
+  {
+   "key": "case035.evidence.calllog",
+   "value": "Journal de l’appel d’urgence"
+  },
+  {
+   "key": "case035.evidence.navigo",
+   "value": "Journal de validation du passe"
+  },
+  {
+   "key": "case035.evidence.phone",
+   "value": "Le téléphone de Lucien Mallet"
+  },
+  {
+   "key": "case035.feedback.accident",
+   "value": "La caméra de cabine montre une main sur le dos de la victime ; le quai n’était pas bondé à ce moment-là."
+  },
+  {
+   "key": "case035.feedback.mallet",
+   "value": "Son appel d’urgence a précédé la chute de sept secondes ; la caméra de cabine montre sa main sur le dos de la victime, l’autopsie confirme l’hématome dans le dos. Il a attendu 38 minutes sur le quai et a noté les horaires de la victime pendant cinq semaines."
+  },
+  {
+   "key": "case035.feedback.royer",
+   "value": "L’associé avait à gagner à l’assurance d’associés mais n’était pas à la station."
+  },
+  {
+   "key": "case035.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case035.file.value.bureau",
+   "value": "BDS Paris — Antenne de Belleville"
+  },
+  {
+   "key": "case035.file.value.location",
+   "value": "Paris 20e, station de métro — quai 2"
+  },
+  {
+   "key": "case035.file.value.number",
+   "value": "BDP-PAR-2030-0131"
+  },
+  {
+   "key": "case035.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case035.file.value.reporter",
+   "value": "L’exploitant des transports"
+  },
+  {
+   "key": "case035.mallet.body",
+   "value": "Le passager qui a passé l’appel d’urgence."
+  },
+  {
+   "key": "case035.mallet.deflect",
+   "value": "Ça n’a rien à voir."
+  },
+  {
+   "key": "case035.mallet.help.answer",
+   "value": "Je venais d’entrer dans la station. L’homme regardait son téléphone, la foule a poussé par-derrière, il est tombé. J’ai appelé tout de suite, j’ai couru. Il n’y avait rien à faire."
+  },
+  {
+   "key": "case035.mallet.help.answer.demeanor",
+   "value": "Essaie de boutonner son manteau."
+  },
+  {
+   "key": "case035.mallet.help.question",
+   "value": "Que s’est-il passé ?"
+  },
+  {
+   "key": "case035.mallet.know.answer",
+   "value": "Non. Je ne l’avais jamais vu de ma vie."
+  },
+  {
+   "key": "case035.mallet.know.question",
+   "value": "Connaissiez-vous Rémi Vidal ?"
+  },
+  {
+   "key": "case035.mallet.know.variant0",
+   "value": "…Donc vous avez lu le nom de ma fille. Oui, je le connaissais. Nous avons été assis dans la même salle d’audience pendant onze jours. Il ne m’a pas regardé une seule fois."
+  },
+  {
+   "key": "case035.mallet.title",
+   "value": "Lucien Mallet — audition"
+  },
+  {
+   "key": "case035.mallet_2.body",
+   "value": "Sur les relevés."
+  },
+  {
+   "key": "case035.mallet_2.seven.answer",
+   "value": "Les horaires sont peut-être faux."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.calllog",
+   "value": "Sept secondes… J’ai mis le téléphone à mon oreille pour que ma main ait l’air occupée. Puis mon autre main… Personne ne pense qu’un homme qui tient un téléphone d’une main pousse de l’autre."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.navigo",
+   "value": "J’ai attendu sur le quai, oui. Je n’ai plus personne à attendre ; les matins sont longs."
+  },
+  {
+   "key": "case035.mallet_2.seven.presented.phone",
+   "value": "J’ai compté pendant cinq semaines. J’ai mesuré derrière le pilier, l’angle de la caméra. Camille avait seize ans. Cet homme prenait le même train tous les matins et allait travailler. Un matin, j’y suis allé aussi."
+  },
+  {
+   "key": "case035.mallet_2.seven.question",
+   "value": "Votre appel a commencé sept secondes avant la chute."
+  },
+  {
+   "key": "case035.mallet_2.title",
+   "value": "Lucien Mallet — seconde audition"
+  },
+  {
+   "key": "case035.method.crowd",
+   "value": "La foule l’a poussé"
+  },
+  {
+   "key": "case035.method.faint",
+   "value": "Il s’est évanoui et il est tombé"
+  },
+  {
+   "key": "case035.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case035.method.push",
+   "value": "Un homme tenant un téléphone d’une main l’a poussé sur les voies de l’autre"
+  },
+  {
+   "key": "case035.navigo.body",
+   "value": "Le passe mensuel de Lucien Mallet, 28 mai :\n\n· 07.36 · entrée station Belleville.\n\nMallet a dit : « Je venais d’entrer dans la station » ; il a attendu sur le quai 38 minutes. Sept trains sont passés sur le même quai pendant ce temps ; il n’est monté dans aucun.\n\nLe passe de Rémi Vidal : 08.11, entrée Belleville. Chaque jour ouvré depuis cinq semaines, entre 08.08 et 08.13."
+  },
+  {
+   "key": "case035.navigo.title",
+   "value": "JOURNAL DE VALIDATION DU PASSE"
+  },
+  {
+   "key": "case035.odile.body",
+   "value": "Témoin assise sur le banc."
+  },
+  {
+   "key": "case035.odile.deflect",
+   "value": "Je ne dis que ce que j’ai vu."
+  },
+  {
+   "key": "case035.odile.saw.answer",
+   "value": "Avant l’arrivée du train, ce monsieur au manteau gris était juste derrière l’homme au sac ; il n’y avait pas foule à ce moment-là. Il parlait au téléphone. Puis l’homme au sac… est tombé ou a été poussé, je ne pourrais pas le jurer sur mes yeux. Le monsieur au manteau gris a tout de suite crié « Au secours ! ». Il a crié très vite."
+  },
+  {
+   "key": "case035.odile.saw.answer.demeanor",
+   "value": "Retire ses lunettes et essuie les verres sur sa jupe."
+  },
+  {
+   "key": "case035.odile.saw.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case035.odile.title",
+   "value": "Odile Vasseur — audition"
+  },
+  {
+   "key": "case035.offer.subtitle",
+   "value": "MÉTRO  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case035.offer.summary",
+   "value": "Au métro Belleville, un homme passe sous le train du matin. Les journaux saluent comme un héros le passager qui s’est précipité le premier pour aider."
+  },
+  {
+   "key": "case035.offer.title",
+   "value": "DOSSIER #035"
+  },
+  {
+   "key": "case035.person.benhamou.info",
+   "value": "44 ans, conducteur de métro ; il conduisait la rame."
+  },
+  {
+   "key": "case035.person.benhamou.name",
+   "value": "Karim Benhamou"
+  },
+  {
+   "key": "case035.person.mallet.info",
+   "value": "58 ans, le passager qui a passé l’appel d’urgence et a rejoint la victime le premier."
+  },
+  {
+   "key": "case035.person.mallet.name",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.person.odile.info",
+   "value": "70 ans, enseignante retraitée ; elle était assise sur un banc du quai."
+  },
+  {
+   "key": "case035.person.odile.name",
+   "value": "Odile Vasseur"
+  },
+  {
+   "key": "case035.person.royer.info",
+   "value": "39 ans, l’associé de la victime dans son agence de dédouanement."
+  },
+  {
+   "key": "case035.person.royer.name",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.phone.body",
+   "value": "Le téléphone de Lucien Mallet, avec l’accord du chef d’antenne :\n\n· Dans l’application de notes, une liste depuis le 21 avril : « 08.08 / 08.11 / 08.13 / 08.09 / 08.12 … » — cinq semaines d’horaires du matin.\n· Dans les photos, des images du quai 2, du pilier et de l’angle de la caméra au plafond.\n· Dernier appel : l’appel d’urgence, 08.14.04. La dernière note avant l’appel, 08.13 : « Camille. »"
+  },
+  {
+   "key": "case035.phone.title",
+   "value": "LE TÉLÉPHONE DE LUCIEN MALLET"
+  },
+  {
+   "key": "case035.report.body",
+   "value": "Le 28 mai 2030 à 08.14, à la station de métro Belleville, le déclarant en douane Rémi Vidal (49 ans) est tombé du bord du quai sur les voies et est passé sous la rame qui arrivait.\n\nLe passager qui a passé l’appel d’urgence et a été le premier au bord du quai était Lucien Mallet ; dans sa déclaration, il a dit : « L’homme regardait son téléphone, la foule a poussé, il est tombé. » Les journaux du matin l’ont appelé « le héros du quai ».\n\nLa vue de la caméra du quai sur cet endroit est masquée par un pilier."
+  },
+  {
+   "key": "case035.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case035.request.calllog",
+   "value": "Demander le journal horaire de l’appel d’urgence"
+  },
+  {
+   "key": "case035.request.navigo",
+   "value": "Demander le journal de validation du passe de métro"
+  },
+  {
+   "key": "case035.request.phone",
+   "value": "Demander l’autorisation d’examiner le téléphone de Lucien Mallet"
+  },
+  {
+   "key": "case035.request.ruling",
+   "value": "Demander aux archives le dossier de l’accident de 2019"
+  },
+  {
+   "key": "case035.royer.bag.answer",
+   "value": "Les caisses Chicago de Delorme. Lakeshore Freight les expédie. Ils joignent une lettre d’expert à chaque caisse, toujours la même signature, Varga. La semaine dernière, Rémi a dit : « Je ne validerai pas ces lettres. »"
+  },
+  {
+   "key": "case035.royer.bag.question",
+   "value": "Qu’y avait-il dans son sac ?"
+  },
+  {
+   "key": "case035.royer.body",
+   "value": "L’associé de la victime."
+  },
+  {
+   "key": "case035.royer.deflect",
+   "value": "Les dossiers clients sont confidentiels."
+  },
+  {
+   "key": "case035.royer.partner.answer",
+   "value": "Il y a une assurance d’associés, oui ; s’il meurt, la part me revient. Je savais que vous le demanderiez. Mais personne n’aimait Rémi ; en 2019, il a eu un accident, une fille est morte, il a été acquitté. Sa famille lui a crié « assassin » au tribunal."
+  },
+  {
+   "key": "case035.royer.partner.answer.demeanor",
+   "value": "Desserre sa cravate et la resserre."
+  },
+  {
+   "key": "case035.royer.partner.question",
+   "value": "Y avait-il des problèmes dans l’association ?"
+  },
+  {
+   "key": "case035.royer.title",
+   "value": "Pascal Royer — audition"
+  },
+  {
+   "key": "case035.ruling.body",
+   "value": "Un ancien jugement tiré des archives de l’antenne :\n\n· 3 mars 2019, Bagnolet. La voiture conduite par Rémi Vidal a renversé Camille Mallet, 16 ans, sur un passage piéton ; Camille est morte.\n· Le résultat de l’éthylotest a été perdu ; Vidal a été acquitté.\n· À l’audience du verdict, le père de la jeune fille, Lucien Mallet, a été expulsé de la salle."
+  },
+  {
+   "key": "case035.ruling.title",
+   "value": "DOSSIER DE L’ACCIDENT DE 2019"
+  },
+  {
+   "key": "case035.summary.evidence",
+   "value": "Le journal d’appels a commencé avant la poussée ; la caméra de cabine a montré la main, l’autopsie l’hématome dans le dos, le journal du passe la longue attente, et l’ancien dossier d’accident le lien. Le téléphone, ouvert sur deux motifs, a donné la liste des horaires sur cinq semaines."
+  },
+  {
+   "key": "case035.summary.lesson",
+   "value": "Le premier à courir n’est pas toujours le premier à voir ; c’est parfois celui qui savait d’avance. Mettez les secondes dans l’ordre."
+  },
+  {
+   "key": "case035.summary.location",
+   "value": "Belleville — mai 2030"
+  },
+  {
+   "key": "case035.summary.truth",
+   "value": "Pendant cinq semaines, Lucien Mallet a noté les horaires du matin de Rémi Vidal, qui avait tué sa fille Camille sur un passage piéton en 2019 et avait été acquitté, et a mesuré l’angle mort du quai. Le 28 mai, il a attendu sur le quai à partir de 07.36 ; il a mis le téléphone à son oreille et lancé l’appel d’urgence, et sept secondes plus tard il a poussé Vidal devant le train de sa main libre, puis a crié à l’aide."
+  },
+  {
+   "key": "case035.suspect.label",
+   "value": "Qui est responsable de la mort de Rémi Vidal ?"
+  },
+  {
+   "key": "case035.tablet.caseLine",
+   "value": "DOSSIER #035  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case035.time.back",
+   "value": "08.14.13"
+  },
+  {
+   "key": "case035.time.call",
+   "value": "08.14.04"
+  },
+  {
+   "key": "case035.time.entry",
+   "value": "07.36"
+  },
+  {
+   "key": "case035.time.push",
+   "value": "08.14.11"
+  },
+  {
+   "key": "case035.time.stand",
+   "value": "08.14.03"
+  },
+  {
+   "key": "case035.time.vidal",
+   "value": "08.11"
+  },
+  {
+   "key": "case035.title",
+   "value": "Dossier #035 — Métro"
+  },
+  {
+   "key": "case035.verdict.accident",
+   "value": "Personne — il est tombé dans la foule"
+  },
+  {
+   "key": "case035.verdict.mallet",
+   "value": "Lucien Mallet"
+  },
+  {
+   "key": "case035.verdict.royer",
+   "value": "Pascal Royer"
+  },
+  {
+   "key": "case035.item.call.name",
+   "value": "Journal de l’appel d’urgence"
+  },
+  {
+   "key": "case035.item.call.detail",
+   "value": "Capture d’écran du centre d’appels : numéro de l’appelant, heure, lieu."
+  },
+  {
+   "key": "case035.item.card.name",
+   "value": "Passe de métro"
+  },
+  {
+   "key": "case035.item.card.detail",
+   "value": "Le passe mensuel de métro dans le portefeuille de Lucien Mallet."
+  },
+  {
+   "key": "case035.item.ruling.name",
+   "value": "Ancien jugement"
+  },
+  {
+   "key": "case035.item.ruling.detail",
+   "value": "La couverture d’un dossier d’accident de la route de 2019 qui s’est terminé par un acquittement."
+  }
+ ]
+}

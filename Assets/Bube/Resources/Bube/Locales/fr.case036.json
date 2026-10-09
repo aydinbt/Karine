@@ -1,0 +1,592 @@
+{
+ "entries": [
+  {
+   "key": "case036.autopsy.body",
+   "value": "· Un coup unique à l’arrière droit de la tête avec un objet lourd à base arrondie ; poussière de verre et vin dans la plaie.\n· Heure du décès : 22.00–22.30.\n· Vin rouge sur les mains et sous les ongles ; dans sa poche, la clé de la cave et un petit tire-bouchon."
+  },
+  {
+   "key": "case036.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case036.brassard.body",
+   "value": "Directeur des expéditions de la Maison Delorme."
+  },
+  {
+   "key": "case036.brassard.deflect",
+   "value": "Les relations d’affaires de la Maison Delorme sont confidentielles."
+  },
+  {
+   "key": "case036.brassard.sale.answer",
+   "value": "Au nom de la Maison Delorme. Après le malheureux incident de Mercier, j’ai repris les ventes privées. La mort d’Henri reporte la vente, c’est tout. J’étais à la bibliothèque toute la soirée ; M. Doyle est mon témoin."
+  },
+  {
+   "key": "case036.brassard.sale.answer.demeanor",
+   "value": "Fait tourner sa bague avec le pouce."
+  },
+  {
+   "key": "case036.brassard.sale.question",
+   "value": "Dirigiez-vous la vente ?"
+  },
+  {
+   "key": "case036.brassard.title",
+   "value": "Antoine Brassard — audition"
+  },
+  {
+   "key": "case036.caron.body",
+   "value": "Expert en vins."
+  },
+  {
+   "key": "case036.caron.bottle.answer",
+   "value": "Les douze bouteilles de la liste de vente. Un 1961 a un bouchon neuf ; ouvert depuis moins de six mois et rebouché. Le vin à l’intérieur n’est pas un 1961, il a cinq ans au plus. Je l’ai dit à Henri à 21.45. Son visage est devenu blanc ; il a dit : « Je descends à la cave les vérifier toutes. »"
+  },
+  {
+   "key": "case036.caron.bottle.answer.demeanor",
+   "value": "Hausse les sourcils et tapote la table du bout des doigts."
+  },
+  {
+   "key": "case036.caron.bottle.question",
+   "value": "Qu’avez-vous examiné ce soir ?"
+  },
+  {
+   "key": "case036.caron.deflect",
+   "value": "Mes rapports d’expertise appartiennent à mon client."
+  },
+  {
+   "key": "case036.caron.title",
+   "value": "Yves Caron — audition"
+  },
+  {
+   "key": "case036.caron.who.answer",
+   "value": "Le sommelier, depuis vingt ans. Henri lui faisait une confiance aveugle."
+  },
+  {
+   "key": "case036.caron.who.question",
+   "value": "Qui gérait la cave ?"
+  },
+  {
+   "key": "case036.cctv.event.down",
+   "value": "Caméra : un homme âgé en smoking déverrouille la porte de la cave et descend seul ; la porte se referme derrière lui."
+  },
+  {
+   "key": "case036.cctv.event.pass",
+   "value": "Caméra : un homme en gilet noir avec un plateau d’argent passe devant la porte fermée de la cave sans s’arrêter."
+  },
+  {
+   "key": "case036.cctv.event.still",
+   "value": "Caméra : le couloir reste longtemps vide ; la porte de la cave reste fermée et verrouillée."
+  },
+  {
+   "key": "case036.cctv.overlay",
+   "value": "CAVE-1"
+  },
+  {
+   "key": "case036.cctv.period",
+   "value": "8 juin 2030"
+  },
+  {
+   "key": "case036.cctv.source",
+   "value": "Caméra du couloir"
+  },
+  {
+   "key": "case036.cellar.body",
+   "value": "Devant la porte de la cave. 8 juin 21.30 – 23.45."
+  },
+  {
+   "key": "case036.cellar.title",
+   "value": "CAMÉRA DU COULOIR DE LA CAVE — transcription du relevé"
+  },
+  {
+   "key": "case036.clue.bell",
+   "value": "La sonnette du monte-plats à vin retentit ; la cabine est vide."
+  },
+  {
+   "key": "case036.clue.caron",
+   "value": "L’expert dit à l’hôte que le 1961 est un faux."
+  },
+  {
+   "key": "case036.clue.down",
+   "value": "L’hôte ouvre la porte de la cave et descend seul."
+  },
+  {
+   "key": "case036.clue.open",
+   "value": "La porte de la cave est ouverte avec le double de la clé."
+  },
+  {
+   "key": "case036.clue.pass",
+   "value": "L’homme au gilet noir passe devant la porte fermée de la cave."
+  },
+  {
+   "key": "case036.clue.source.caron",
+   "value": "Expert en vins"
+  },
+  {
+   "key": "case036.clue.source.pinto",
+   "value": "Gouvernante"
+  },
+  {
+   "key": "case036.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case036.custody.door",
+   "value": "Par la porte, avec une clé copiée"
+  },
+  {
+   "key": "case036.custody.inside",
+   "value": "Il n’est pas sorti — la victime était seule"
+  },
+  {
+   "key": "case036.custody.label",
+   "value": "Comment l’assassin est-il sorti de la cave fermée à clé ?"
+  },
+  {
+   "key": "case036.custody.lift",
+   "value": "Par le monte-plats à vin jusqu’à la salle à manger"
+  },
+  {
+   "key": "case036.doyle.body",
+   "value": "Représentant d’un acheteur de Chicago."
+  },
+  {
+   "key": "case036.doyle.buy.answer",
+   "value": "Cinq œuvres pour le compte de mon client. Les lettres de provenance sont irréprochables, signées par le Dr Varga. Lakeshore Freight se chargera de l’expédition, comme d’habitude. J’étais à la bibliothèque, avec Antoine Brassard ; le vin ne m’intéresse pas."
+  },
+  {
+   "key": "case036.doyle.buy.answer.demeanor",
+   "value": "Sourit ; le regard reste fixe."
+  },
+  {
+   "key": "case036.doyle.buy.question",
+   "value": "Qu’êtes-vous venu acheter ?"
+  },
+  {
+   "key": "case036.doyle.deflect",
+   "value": "Je ne peux pas donner le nom de mon client."
+  },
+  {
+   "key": "case036.doyle.title",
+   "value": "Marcus Doyle — audition"
+  },
+  {
+   "key": "case036.epilogue.custody.door",
+   "value": "On a cherché une clé copiée sans la trouver ; la caméra montrait la porte fermée."
+  },
+  {
+   "key": "case036.epilogue.custody.inside",
+   "value": "La cave fermée à clé a été prise comme preuve d’un accident."
+  },
+  {
+   "key": "case036.epilogue.custody.lift",
+   "value": "Il a été consigné que l’assassin avait quitté la cave par le vieux monte-plats à vin."
+  },
+  {
+   "key": "case036.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accidentel ; la vente a eu lieu deux semaines plus tard."
+  },
+  {
+   "key": "case036.epilogue.verdict.brassard",
+   "value": "Antoine Brassard a été placé en garde à vue et relâché le lendemain ; le sommelier a continué à travailler."
+  },
+  {
+   "key": "case036.epilogue.verdict.gaspard",
+   "value": "Gaspard de Vauclair a été arrêté ; on n’a jamais cherché la seconde sortie de la cave."
+  },
+  {
+   "key": "case036.epilogue.verdict.petit",
+   "value": "Arnaud Petit a été arrêté. La vente a été annulée. Marcus Doyle est rentré à Chicago le lendemain matin ; Antoine Brassard a rapporté le dossier de vente à la Maison Delorme."
+  },
+  {
+   "key": "case036.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case036.evidence.cellar",
+   "value": "Caméra du couloir de la cave"
+  },
+  {
+   "key": "case036.evidence.liftlog",
+   "value": "Examen du monte-plats à vin"
+  },
+  {
+   "key": "case036.evidence.storage",
+   "value": "Le box de stockage du sommelier — perquisition"
+  },
+  {
+   "key": "case036.feedback.accident",
+   "value": "Le coup est venu de derrière, unique et à base arrondie ; il y a du sang sur le fond du magnum brisé. Une bouteille qui tombe d’un casier ne frappe pas ainsi."
+  },
+  {
+   "key": "case036.feedback.brassard",
+   "value": "Le directeur de Delorme était à la bibliothèque toute la soirée ; le représentant de Chicago et la gouvernante le confirment."
+  },
+  {
+   "key": "case036.feedback.gaspard",
+   "value": "Le fils s’est disputé, mais à 22.00 il est passé devant la porte de sa mère pour aller dans sa chambre ; la porte de la cave était fermée à clé."
+  },
+  {
+   "key": "case036.feedback.petit",
+   "value": "L’expert a révélé la contrefaçon à 21.45 ; le sommelier est descendu à la cave et remonté par le monte-plats, et la sonnette a retenti à 22.17. La fibre et le vin dans la cabine correspondent au gilet de son box ; le box contient six ans de contrefaçon."
+  },
+  {
+   "key": "case036.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case036.file.value.bureau",
+   "value": "BDS Paris — Antenne de Belleville"
+  },
+  {
+   "key": "case036.file.value.location",
+   "value": "Fontainebleau, château — cave à vin"
+  },
+  {
+   "key": "case036.file.value.number",
+   "value": "BDP-PAR-2030-0140"
+  },
+  {
+   "key": "case036.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case036.file.value.reporter",
+   "value": "Le château"
+  },
+  {
+   "key": "case036.gaspard.body",
+   "value": "Le fils de la victime."
+  },
+  {
+   "key": "case036.gaspard.deflect",
+   "value": "Les questions financières sont chez notre avocat."
+  },
+  {
+   "key": "case036.gaspard.fight.answer",
+   "value": "À cause de la vente. Le château doit trois millions. Mon père disait : « On fait cette vente avec Delorme et on règle tout » ; moi, je ne voulais pas faire affaire avec ces hommes de Chicago. À 22.00, je suis monté dans ma chambre ; je suis passé devant la porte de ma mère."
+  },
+  {
+   "key": "case036.gaspard.fight.answer.demeanor",
+   "value": "Tire sur la manche de son pull."
+  },
+  {
+   "key": "case036.gaspard.fight.question",
+   "value": "Vous vous êtes disputé avec votre père."
+  },
+  {
+   "key": "case036.gaspard.title",
+   "value": "Gaspard de Vauclair — audition"
+  },
+  {
+   "key": "case036.helene.body",
+   "value": "L’épouse de la victime."
+  },
+  {
+   "key": "case036.helene.deflect",
+   "value": "Je ne parle pas des affaires de notre famille."
+  },
+  {
+   "key": "case036.helene.night.answer",
+   "value": "Dans ma chambre. Gaspard est passé dans le couloir à 22.00 ; j’ai entendu sa voix. Trente ans avec Henri… Nous faisions chambre à part, mais je ne descendais jamais le rejoindre à la cave, jamais."
+  },
+  {
+   "key": "case036.helene.night.question",
+   "value": "Où étiez-vous pendant la nuit ?"
+  },
+  {
+   "key": "case036.helene.title",
+   "value": "Hélène de Vauclair — audition"
+  },
+  {
+   "key": "case036.liftlog.body",
+   "value": "Le monte-plats à main reliant la cave à la salle à manger :\n\n· Intérieur de la cabine 70 × 60 × 90 cm. Un adulte de corpulence moyenne y tient genoux repliés ; charge maximale 120 kg.\n· Sur le plancher de la cabine, des traces de poussière étalées et deux gouttes de vin rouge ; au sol, une fibre de laine noire.\n· Côté cave, la cabine peut aussi être hissée de l’intérieur en tirant la corde à deux mains.\n· L’empreinte d’Arnaud Petit sur la poignée intérieure de la trappe côté salle à manger ; le sommelier utilise le monte-plats tous les jours."
+  },
+  {
+   "key": "case036.liftlog.title",
+   "value": "EXAMEN DU MONTE-PLATS À VIN"
+  },
+  {
+   "key": "case036.method.fall",
+   "value": "Il est tombé dans l’escalier"
+  },
+  {
+   "key": "case036.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case036.method.magnum",
+   "value": "Il a été frappé à la tête avec un magnum"
+  },
+  {
+   "key": "case036.method.rack",
+   "value": "Un casier s’est renversé"
+  },
+  {
+   "key": "case036.offer.subtitle",
+   "value": "LA CAVE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case036.offer.summary",
+   "value": "À Fontainebleau, le propriétaire d’un château est retrouvé mort dans sa cave à vin fermée à clé, le soir d’une vente privée. La clé est dans sa poche."
+  },
+  {
+   "key": "case036.offer.title",
+   "value": "DOSSIER #036"
+  },
+  {
+   "key": "case036.person.brassard.info",
+   "value": "57 ans, directeur des expéditions et des ventes privées de la Maison Delorme."
+  },
+  {
+   "key": "case036.person.brassard.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.person.caron.info",
+   "value": "66 ans, expert en vins ; il examinait les bouteilles pour la vente."
+  },
+  {
+   "key": "case036.person.caron.name",
+   "value": "Yves Caron"
+  },
+  {
+   "key": "case036.person.doyle.info",
+   "value": "45 ans, représentant d’un acheteur de Chicago ; travaille dans la logistique d’art."
+  },
+  {
+   "key": "case036.person.doyle.name",
+   "value": "Marcus Doyle"
+  },
+  {
+   "key": "case036.person.gaspard.info",
+   "value": "34 ans, le fils de la victime ; gère les dettes du château."
+  },
+  {
+   "key": "case036.person.gaspard.name",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.person.helene.info",
+   "value": "63 ans, l’épouse de la victime ; propriétaire du château."
+  },
+  {
+   "key": "case036.person.helene.name",
+   "value": "Hélène de Vauclair"
+  },
+  {
+   "key": "case036.person.petit.info",
+   "value": "52 ans, le sommelier du château ; responsable de la cave depuis vingt ans."
+  },
+  {
+   "key": "case036.person.petit.name",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.person.pinto.info",
+   "value": "58 ans, la gouvernante du château."
+  },
+  {
+   "key": "case036.person.pinto.name",
+   "value": "Rosa Pinto"
+  },
+  {
+   "key": "case036.petit.body",
+   "value": "Sommelier."
+  },
+  {
+   "key": "case036.petit.deflect",
+   "value": "Les registres de la cave ne sont pas chez moi, ils sont chez monsieur."
+  },
+  {
+   "key": "case036.petit.night.answer",
+   "value": "Je servais le cognac aux invités dans la bibliothèque. À 22.03, je suis passé dans le couloir, la caméra m’aura vu ; la porte de la cave était fermée, monsieur était en bas, je ne l’ai pas dérangé."
+  },
+  {
+   "key": "case036.petit.night.answer.demeanor",
+   "value": "Fait tourner son tâte-vin d’argent entre ses doigts."
+  },
+  {
+   "key": "case036.petit.night.question",
+   "value": "Où étiez-vous entre 22.00 et 22.30 ?"
+  },
+  {
+   "key": "case036.petit.night.variant0",
+   "value": "Le monte-plats ? Depuis vingt ans, ce monte-plats ne transporte que des bouteilles. Une personne n’y tiendrait pas. J’étais dans le couloir à 22.03."
+  },
+  {
+   "key": "case036.petit.title",
+   "value": "Arnaud Petit — audition"
+  },
+  {
+   "key": "case036.petit_2.body",
+   "value": "Après la perquisition."
+  },
+  {
+   "key": "case036.petit_2.lift.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.liftlog",
+   "value": "Mes empreintes y sont tous les jours. Ça ne prouve rien."
+  },
+  {
+   "key": "case036.petit_2.lift.presented.storage",
+   "value": "Six ans. Personne n’a rien remarqué, jusqu’à ce que ce vieil expert renifle le bouchon. Après le service du cognac, je suis descendu par le monte-plats de la salle à manger ; monsieur sortait les bouteilles des casiers une par une. « Arnaud, qu’est-ce que c’est ? », il a dit. Avec le magnum à la main… Ensuite je me suis glissé dans la cabine et j’ai tiré la corde. La porte est restée fermée à clé tout le temps ; la clé était dans sa poche."
+  },
+  {
+   "key": "case036.petit_2.lift.question",
+   "value": "C’est vous qui êtes monté à la salle à manger par le monte-plats à 22.17."
+  },
+  {
+   "key": "case036.petit_2.title",
+   "value": "Arnaud Petit — seconde audition"
+  },
+  {
+   "key": "case036.pinto.bell.answer",
+   "value": "La sonnette du monte-plats à vin, dans le mur de la salle à manger, a retenti à 22.17. Elle sonne quand le monte-plats remonte de la cave. J’y suis allée ; la cabine était vide. Monsieur fait parfois monter des bouteilles ; s’il ne peut pas… une cabine vide, c’était étrange. Je ne l’ai dit à personne."
+  },
+  {
+   "key": "case036.pinto.bell.answer.demeanor",
+   "value": "Plie le coin de son tablier et le lisse."
+  },
+  {
+   "key": "case036.pinto.bell.question",
+   "value": "Avez-vous entendu quelque chose pendant la nuit ?"
+  },
+  {
+   "key": "case036.pinto.body",
+   "value": "Gouvernante."
+  },
+  {
+   "key": "case036.pinto.deflect",
+   "value": "Je tiens la maison ; le reste, je ne sais pas."
+  },
+  {
+   "key": "case036.pinto.title",
+   "value": "Rosa Pinto — audition"
+  },
+  {
+   "key": "case036.pinto.who.answer",
+   "value": "Personne. Les invités étaient à la bibliothèque. M. Arnaud n’était pas à la bibliothèque pendant un moment ; j’ai cru qu’il était descendu chercher une bouteille à la cave."
+  },
+  {
+   "key": "case036.pinto.who.question",
+   "value": "Qui était dans la salle à manger quand la sonnette a retenti ?"
+  },
+  {
+   "key": "case036.report.body",
+   "value": "La nuit du 8 juin 2030, dans un château près de Fontainebleau, après une vente privée d’œuvres, le propriétaire du château Henri de Vauclair (68 ans) a été retrouvé mort dans sa propre cave à vin. Une lourde blessure à la tête ; à côté de lui, un magnum brisé.\n\nLa seule porte de la cave a été trouvée fermée à clé ; la clé dans la poche de la victime. La porte a été ouverte à 23.40 avec le double de la clé de la gouvernante Rosa Pinto.\n\nAu château cette nuit-là : son épouse Hélène, son fils Gaspard, le sommelier Arnaud Petit, la gouvernante Rosa Pinto, l’expert en vins Yves Caron, le représentant de l’acheteur de Chicago Marcus Doyle, et Antoine Brassard de la Maison Delorme."
+  },
+  {
+   "key": "case036.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case036.request.liftlog",
+   "value": "Envoyer le monte-plats à vin à l’examen"
+  },
+  {
+   "key": "case036.request.storage",
+   "value": "Demander l’autorisation de perquisitionner le box de stockage d’Arnaud Petit"
+  },
+  {
+   "key": "case036.storage.body",
+   "value": "Un box de stockage loué à Melun au nom d’Arnaud Petit (avec l’accord du chef d’antenne) :\n\n· 214 étiquettes de vin vierges et vieillies ; grands millésimes de châteaux de 1945 à 1990. Des boîtes de vieux bouchons, des teintures de thé et de café.\n· 86 bouteilles authentiques sorties de la cave du château ; une correspondance avec un acheteur au Luxembourg : « 1,4 million d’euros sur six ans ».\n· Un gilet de laine noir sur un cintre ; poussière de verre et vin rouge sur le col ; ses fibres correspondent à la fibre du monte-plats."
+  },
+  {
+   "key": "case036.storage.title",
+   "value": "LE BOX DE STOCKAGE DU SOMMELIER — PERQUISITION"
+  },
+  {
+   "key": "case036.summary.evidence",
+   "value": "La caméra du couloir a montré que la porte n’a jamais été ouverte, la gouvernante la sonnette du monte-plats à 22.17, et l’examen du monte-plats la fibre et le vin dans la cabine. La perquisition du box, ouverte sur deux motifs, a donné la contrefaçon et le gilet."
+  },
+  {
+   "key": "case036.summary.lesson",
+   "value": "Une pièce fermée à clé ne l’est qu’aux portes que vous connaissez. Demandez le chemin que la personne qui tient la maison emprunte chaque jour."
+  },
+  {
+   "key": "case036.summary.location",
+   "value": "Fontainebleau — juin 2030"
+  },
+  {
+   "key": "case036.summary.truth",
+   "value": "Depuis six ans, le sommelier Arnaud Petit remplaçait les grands vins du château par des faux et vendait les vrais. Le soir de la vente privée, quand l’expert Yves Caron a établi qu’un 1961 était faux, Henri de Vauclair est descendu à la cave. Entre deux services de cognac, Petit est descendu par le monte-plats à vin de la salle à manger, a tué son employeur avec un magnum pendant qu’il sortait les bouteilles des casiers, puis s’est glissé dans la cabine et s’est hissé par la corde. La porte est restée fermée à clé tout du long."
+  },
+  {
+   "key": "case036.suspect.label",
+   "value": "Qui a tué Henri de Vauclair ?"
+  },
+  {
+   "key": "case036.tablet.caseLine",
+   "value": "DOSSIER #036  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case036.time.bell",
+   "value": "22.17"
+  },
+  {
+   "key": "case036.time.caron",
+   "value": "21.45"
+  },
+  {
+   "key": "case036.time.down",
+   "value": "21.58"
+  },
+  {
+   "key": "case036.time.open",
+   "value": "23.40"
+  },
+  {
+   "key": "case036.time.pass",
+   "value": "22.03"
+  },
+  {
+   "key": "case036.time.still",
+   "value": "22.04–23.39"
+  },
+  {
+   "key": "case036.title",
+   "value": "Dossier #036 — La Cave"
+  },
+  {
+   "key": "case036.verdict.accident",
+   "value": "Personne — une bouteille est tombée du casier"
+  },
+  {
+   "key": "case036.verdict.brassard",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case036.verdict.gaspard",
+   "value": "Gaspard de Vauclair"
+  },
+  {
+   "key": "case036.verdict.petit",
+   "value": "Arnaud Petit"
+  },
+  {
+   "key": "case036.item.magnum.name",
+   "value": "Magnum brisé"
+  },
+  {
+   "key": "case036.item.magnum.detail",
+   "value": "Sur le sol de la cave, un magnum brisé au col ; son étiquette datée de 1961."
+  },
+  {
+   "key": "case036.item.labels.name",
+   "value": "Étiquettes vierges"
+  },
+  {
+   "key": "case036.item.labels.detail",
+   "value": "Dans le box loué par le sommelier, des boîtes d’étiquettes de vin vierges vieillies et des bouchons."
+  },
+  {
+   "key": "case036.item.lift.name",
+   "value": "Monte-plats à vin"
+  },
+  {
+   "key": "case036.item.lift.detail",
+   "value": "Le vieux monte-plats à main reliant la cave à la salle à manger ; des traces de poussière et une goutte de vin sur le plancher de la cabine."
+  }
+ ]
+}
