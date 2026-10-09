@@ -13,11 +13,10 @@ public sealed partial class BubeApp {
  const int LoadingTips=6,LoadingTerms=14;
 
  void ShowLoading() {
-  var tips=Enumerable.Range(0,LoadingTips).Select(i=>T("loading.tip."+i)).ToArray();
   System.Action<float> progress;System.Action finish;
-  var layer=KarineUI.LoadingScreen(root,T("loading.label"),tips,out progress,out finish);
-  SplashVideo(layer);var done=finish;
-  StartCoroutine(Preload(progress,()=>{done();StartCoroutine(StopSplashAfter(KarineTheme.Loading.FadeSeconds));}));
+  var layer=KarineUI.SplashScreen(root,T("loading.label"),out progress,out finish);
+  SplashVideo(layer);var done=finish;var mine=splashPlayer;
+  StartCoroutine(Preload(progress,()=>{done();StartCoroutine(StopSplashAfter(KarineTheme.Loading.FadeSeconds,mine));}));
  }
 
  // Açılış arka planı (9 Ekim 2026): yağmurlu, adsız bir şehirde lamba altında Bora;
@@ -40,7 +39,8 @@ public sealed partial class BubeApp {
   splashPlayer.errorReceived+=(p,message)=>{Debug.LogWarning("Splash video unavailable: "+message);StopSplash();};
   splashPlayer.Prepare();
  }
- IEnumerator StopSplashAfter(float seconds){yield return new WaitForSecondsRealtime(seconds+.1f);StopSplash();}
+ // Yalnız kendi oynatıcısını durdurur: üst üste açılan iki açılış birbirinin videosunu kesmesin.
+ IEnumerator StopSplashAfter(float seconds,VideoPlayer mine){yield return new WaitForSecondsRealtime(seconds+.1f);if(mine!=null && mine==splashPlayer)StopSplash();}
  void StopSplash() {
   if(splashPlayer!=null){splashPlayer.Stop();Destroy(splashPlayer);splashPlayer=null;}
   if(splashTexture!=null){splashTexture.Release();Destroy(splashTexture);splashTexture=null;}
@@ -72,7 +72,7 @@ public sealed partial class BubeApp {
    while(!request.isDone){progress((i+request.progress)/paths.Length);yield return null;}
    progress((i+1f)/paths.Length);
   }
-  while(Time.realtimeSinceStartup-started<KarineTheme.Loading.MinSeconds)yield return null;
+  while(Time.realtimeSinceStartup-started<Mathf.Max(KarineTheme.Loading.MinSeconds,KarineUI.SplashSeconds))yield return null;
   finish();
  }
 }

@@ -60,5 +60,36 @@ public static partial class KarineUI {
   finish=()=>Run(layer,L.FadeSeconds,t=>layer.style.opacity=1-t,()=>layer.RemoveFromHierarchy());
   return layer;
  }
+ // Açılış ekranı (9 Ekim 2026): video üstünde sırayla KARINE logosu, ardından Bube Games;
+ // ikisi de ortada belirir, kalır, söner. Yükleme göstergesi sağ altta küçük durur.
+ // `SplashSeconds` sıranın toplam süresidir; katman bundan önce kapanmaz.
+ public static float SplashSeconds => 2*(2*L.SplashFade+L.SplashHold)+L.SplashGap;
+ public static VisualElement SplashScreen(VisualElement root,string label,out Action<float> progress,out Action finish) {
+  var layer=new VisualElement {name="LoadingScreen"};
+  layer.style.position=Position.Absolute;layer.style.left=0;layer.style.right=0;layer.style.top=0;layer.style.bottom=0;
+  layer.style.backgroundColor=KarineTheme.Background;layer.style.alignItems=Align.Center;layer.style.justifyContent=Justify.Center;
+  layer.RegisterCallback<PointerDownEvent>(e=>e.StopPropagation());root.Add(layer);
+  var vignette=new Image {image=Vignette(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Alpha(KarineTheme.Background,.9f)};
+  vignette.style.position=Position.Absolute;vignette.style.left=0;vignette.style.right=0;vignette.style.top=0;vignette.style.bottom=0;layer.Add(vignette);
+  VisualElement Centered(){var box=new VisualElement {pickingMode=PickingMode.Ignore};box.style.position=Position.Absolute;box.style.left=0;box.style.right=0;box.style.top=0;box.style.bottom=0;
+   box.style.alignItems=Align.Center;box.style.justifyContent=Justify.Center;box.style.opacity=0;layer.Add(box);return box;}
+  var brand=Centered();KarineLogo.Hero(brand,L.SplashLogoWidth);
+  var studio=Centered();StudioMark(studio,L.SplashStudioHeight);
+  var corner=new VisualElement {pickingMode=PickingMode.Ignore};corner.style.position=Position.Absolute;corner.style.right=Length.Percent(3);corner.style.bottom=Length.Percent(5);corner.style.alignItems=Align.FlexEnd;layer.Add(corner);
+  var status=Technical(corner,label,L.LabelSize);status.style.color=KarineTheme.Secondary;status.style.letterSpacing=2;status.style.marginBottom=KarineTheme.SpaceXs;
+  var bar=new VisualElement();bar.style.width=L.CornerBarWidth;bar.style.height=L.CornerBarHeight;bar.style.backgroundColor=KarineTheme.Panel2;Round(bar,L.CornerBarHeight/2);bar.style.overflow=Overflow.Hidden;corner.Add(bar);
+  var fill=new VisualElement();fill.style.height=Length.Percent(100);fill.style.width=0;fill.style.backgroundColor=KarineTheme.Accent;bar.Add(fill);
+  float start=Time.realtimeSinceStartup,target=0,shown=0,one=2*L.SplashFade+L.SplashHold;
+  float Curve(float t)=>t<0||t>one?0:Mathf.Min(1,Mathf.Min(t/L.SplashFade,(one-t)/L.SplashFade));
+  layer.schedule.Execute(()=> {
+   float age=Time.realtimeSinceStartup-start;
+   brand.style.opacity=Curve(age);studio.style.opacity=Curve(age-one-L.SplashGap);
+   shown=Mathf.MoveTowards(shown,target,Time.unscaledDeltaTime*1.5f);
+   fill.style.width=Length.Percent(shown*100);status.text=label+"  %"+Mathf.RoundToInt(shown*100);
+  }).Every(16);
+  progress=v=>target=Mathf.Max(target,Mathf.Clamp01(v));
+  finish=()=>Run(layer,L.FadeSeconds,t=>layer.style.opacity=1-t,()=>layer.RemoveFromHierarchy());
+  return layer;
+ }
 }
 }

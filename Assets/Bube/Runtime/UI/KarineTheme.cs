@@ -254,6 +254,9 @@ public static class KarineTheme {
  public static class Loading {
   public const float MinSeconds=2.4f, TipSeconds=3.2f, TransitSeconds=3.2f, TransitTipSeconds=99f, FadeSeconds=.6f, BarWidth=42f;
   public const float VideoVeil=.45f;
+  // Açılış sırası: önce KARINE, sonra stüdyo; her biri belirir, kalır, söner. Yükleme sağ altta.
+  public const float SplashFade=.7f, SplashHold=1.6f, SplashGap=.3f;
+  public const int SplashLogoWidth=760, SplashStudioHeight=150, CornerBarWidth=220, CornerBarHeight=4;
   public const int LogoWidth=520, TipSize=18, LabelSize=14, BarHeight=6, StudioHeight=44, StudioTextSize=18;
  }
  // Gelen evrak modalı, 3 Ekim 2026 maketi (Docs/Reference/UI_INBOX_2026-10.png).
