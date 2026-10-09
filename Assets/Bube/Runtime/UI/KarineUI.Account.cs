@@ -6,7 +6,7 @@ using A = Bube.KarineTheme.Account;
 
 namespace Bube {
 // Giriş ekranı, 9 Ekim 2026 maketi (Docs/Reference/UI_LOGIN_2026-10.webp): tam ekran
-// karanlık masa; solda KARINE logosu ve tek satır açıklama, sağda ataçlı krem form
+// karanlık masa; solda KARINE logosu ve tek satır açıklama, sağda düz dosya kâğıdı
 // (Apple / Google marka düğmeleri, "veya", misafir bağlantısı, gizlilik), sağ altta
 // stüdyo imzası. Kapatma düğmesi yok: misafir seçeneği zaten "geç" demektir.
 //
@@ -45,11 +45,9 @@ public static partial class KarineUI {
   // Sağ: ataçlı form.
   var column=new VisualElement();column.style.position=Position.Absolute;column.style.top=0;column.style.bottom=0;
   column.style.left=Length.Percent(A.PaperLeft);column.style.width=Length.Percent(A.PaperWidth);column.style.justifyContent=Justify.Center;screen.Add(column);
-  var paper=new VisualElement();Stretched(paper,"Bube/UI/paper_sheet");paper.style.backgroundColor=KarineTheme.Paper.Sheet;Border(paper,KarineTheme.BorderWidth,KarineTheme.Paper.Edge);
-  paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*1.5f;paper.style.paddingTop=A.Clip*2.2f;paper.style.minHeight=A.MinHeight;paper.style.justifyContent=Justify.Center;paper.style.paddingBottom=KarineTheme.SpaceXl*1.5f;
+  var paper=new VisualElement();Stretched(paper,"Bube/UI/paper_sheet");
+  paper.style.paddingLeft=paper.style.paddingRight=KarineTheme.SpaceXl*1.5f;paper.style.paddingTop=KarineTheme.SpaceXl*2;paper.style.minHeight=A.MinHeight;paper.style.justifyContent=Justify.Center;paper.style.paddingBottom=KarineTheme.SpaceXl*1.5f;
   paper.style.rotate=new Rotate(A.PaperTilt);column.Add(paper);
-  var clip=new VisualElement {pickingMode=PickingMode.Ignore};clip.style.position=Position.Absolute;clip.style.width=A.Clip;clip.style.height=A.Clip*2;clip.style.top=-A.Clip/2;clip.style.left=A.Clip/2;
-  Stretched(clip,"Bube/UI/paperclip");paper.Add(clip);
 
   if(!string.IsNullOrEmpty(notice)){var n=Write(paper,notice,KarineTheme.Paper.Stamp,A.PrivacySize+2,Mono);n.style.unityTextAlign=TextAnchor.MiddleCenter;}
   AccountOption? guest=null;
