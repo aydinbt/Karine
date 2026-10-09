@@ -1,0 +1,992 @@
+{
+ "entries": [
+  {
+   "key": "case004.camera.body",
+   "value": "Relevé des deux caméras de la résidence Ilgın, de 01.00 à 02.30. La caméra 01 voit la porte d’entrée ; la caméra 02 voit la cour arrière et la porte de service. L’intérieur des appartements et l’escalier ne sont pas dans le cadre. La porte de service a aussi un détecteur de mouvement."
+  },
+  {
+   "key": "case004.camera.title",
+   "value": "CAMÉRAS DE L’IMMEUBLE — relevé d’enregistrement"
+  },
+  {
+   "key": "case004.cctv.event.call_time",
+   "value": "Note système : un appel d’urgence depuis l’immeuble a été enregistré."
+  },
+  {
+   "key": "case004.cctv.event.cam2_back",
+   "value": "Caméra 02 : le signal revient. La cour arrière et la porte de service paraissent vides ; dans le coin de la cour, une forme sombre au sol."
+  },
+  {
+   "key": "case004.cctv.event.cam2_lost",
+   "value": "Caméra 02 (cour arrière et porte de service) : l’image se brouille, puis le signal est perdu. L’enregistrement est noir."
+  },
+  {
+   "key": "case004.cctv.event.service_door",
+   "value": "Détecteur de la porte de service : porte ouverte, refermée 6 secondes plus tard. Cette ligne est un relevé de capteur ; il n’y a pas d’image."
+  },
+  {
+   "key": "case004.cctv.event.tolga_in",
+   "value": "Caméra 01 (porte d’entrée) : un homme arrive à pied, ouvre la porte d’entrée avec sa clé et entre. Personne ne l’accompagne. La porte se referme derrière lui."
+  },
+  {
+   "key": "case004.cctv.overlay",
+   "value": "CAM 01 / 02"
+  },
+  {
+   "key": "case004.cctv.period",
+   "value": "9 janvier 2027, 01.00 – 02.30"
+  },
+  {
+   "key": "case004.cctv.source",
+   "value": "Caméras de l’immeuble"
+  },
+  {
+   "key": "case004.cem.body",
+   "value": "Déposition d’un ancien collègue, après l’appel tardif figurant au relevé téléphonique."
+  },
+  {
+   "key": "case004.cem.call.answer",
+   "value": "Une offre d’emploi. Un poste se libérait dans mon cabinet ; je lui en ai parlé. J’ai appelé à cette heure-là parce qu’on se couche tard tous les deux. On a parlé deux minutes et on a raccroché."
+  },
+  {
+   "key": "case004.cem.call.answer.demeanor",
+   "value": "Lève deux doigts en disant « deux minutes », puis met la main dans sa poche."
+  },
+  {
+   "key": "case004.cem.call.question",
+   "value": "Pourquoi avez-vous parlé à Tolga à 01.20 du matin ?"
+  },
+  {
+   "key": "case004.cem.company.answer",
+   "value": "J’ai eu une meilleure offre. Un départ ordinaire. Je n’ai aucun problème avec la société."
+  },
+  {
+   "key": "case004.cem.company.question",
+   "value": "Pourquoi avez-vous quitté Kuzey Hat Lojistik ?"
+  },
+  {
+   "key": "case004.cem.deflect",
+   "value": "Je ne dirai rien là-dessus."
+  },
+  {
+   "key": "case004.cem.last.answer",
+   "value": "Ça fait des mois. Après mon départ de la société, on s’envoyait des messages de temps en temps, c’est tout. Je n’ai pas vu Tolga depuis des mois."
+  },
+  {
+   "key": "case004.cem.last.answer.demeanor",
+   "value": "Ne quitte pas des yeux une rayure sur le bord de la table."
+  },
+  {
+   "key": "case004.cem.last.question",
+   "value": "Quand avez-vous vu Tolga Ergin pour la dernière fois ?"
+  },
+  {
+   "key": "case004.cem.quote",
+   "value": "« Je n’ai pas vu Tolga depuis des mois. »"
+  },
+  {
+   "key": "case004.cem.title",
+   "value": "Cem Gür — audition"
+  },
+  {
+   "key": "case004.cem_follow.body",
+   "value": "Audition tenue après le rapport d’inspection des lieux."
+  },
+  {
+   "key": "case004.cem_follow.there.answer",
+   "value": "…J’y étais. D’accord. Je suis arrivé vers une heure et demie et reparti vers deux heures. Tolga était vivant, je le jure. Je ne l’ai pas dit parce que je ne voulais pas que mon nom soit mêlé à ça. Je vous dirai aussi pourquoi, mais sachez d’abord ceci : quand je suis parti, la fenêtre était fermée."
+  },
+  {
+   "key": "case004.cem_follow.there.answer.demeanor",
+   "value": "Se tait longtemps. Puis se couvre le visage des deux mains."
+  },
+  {
+   "key": "case004.cem_follow.there.decoy.phone",
+   "value": "J’ai appelé, oui ; je l’ai déjà dit. Une offre d’emploi."
+  },
+  {
+   "key": "case004.cem_follow.there.decoy.phone.demeanor",
+   "value": "Hausse les épaules, mais ne quitte pas l’enregistrement des yeux."
+  },
+  {
+   "key": "case004.cem_follow.there.question",
+   "value": "Vous avez dit ne pas avoir vu Tolga depuis des mois. La tasse sur la table porte vos empreintes."
+  },
+  {
+   "key": "case004.cem_follow.title",
+   "value": "Cem Gür — seconde audition"
+  },
+  {
+   "key": "case004.cem_follow.way.answer",
+   "value": "Par l’arrière. J’ai laissé ma voiture au parking de derrière et je suis entré par le passage de service. C’est Tolga qui voulait ça ; il disait que personne ne devait me voir. En partant, je suis ressorti par le même chemin, je suis monté dans ma voiture et je suis parti."
+  },
+  {
+   "key": "case004.cem_follow.way.question",
+   "value": "La caméra ne vous montre pas. Par où êtes-vous entré dans l’immeuble ?"
+  },
+  {
+   "key": "case004.cem_follow.who.answer",
+   "value": "Celle de Nihat Sönmez. Le directeur des opérations. Le chef de Tolga. Je ne sais pas si Tolga lui a laissé échapper quelque chose ce soir-là. Mais il m’a dit : « Nihat Bey était très attentionné aujourd’hui. »"
+  },
+  {
+   "key": "case004.cem_follow.who.question",
+   "value": "À qui appartient cette chaîne d’approbation ?"
+  },
+  {
+   "key": "case004.cem_follow.why.answer",
+   "value": "Avant de quitter la société, j’ai remarqué quelque chose dans les comptes. De petites sommes, régulières, toujours la même chaîne d’approbation. Je ne pouvais le dire à personne, alors je suis parti. Le mois dernier, Tolga m’a appelé ; il avait trouvé la même chose. Je lui ai donné les copies que j’avais. Cette nuit-là, je lui ai demandé de ne pas donner mon nom. On s’est disputés ; il a dit : « demain, j’apporte tout à la direction »."
+  },
+  {
+   "key": "case004.cem_follow.why.answer.demeanor",
+   "value": "Baisse la voix et jette un œil vers la porte."
+  },
+  {
+   "key": "case004.cem_follow.why.question",
+   "value": "De quoi avez-vous parlé avec Tolga cette nuit-là ?"
+  },
+  {
+   "key": "case004.clue.call",
+   "value": "Appel d’urgence"
+  },
+  {
+   "key": "case004.clue.call_time",
+   "value": "Appel d’urgence"
+  },
+  {
+   "key": "case004.clue.cam2_back",
+   "value": "La caméra arrière revient"
+  },
+  {
+   "key": "case004.clue.cam2_lost",
+   "value": "Le signal de la caméra arrière est perdu"
+  },
+  {
+   "key": "case004.clue.camera_cam2_back",
+   "value": "La caméra arrière revient"
+  },
+  {
+   "key": "case004.clue.camera_cam2_lost",
+   "value": "Le signal de la caméra arrière est perdu"
+  },
+  {
+   "key": "case004.clue.camera_service_door",
+   "value": "La porte de service s’ouvre et se referme (capteur)"
+  },
+  {
+   "key": "case004.clue.camera_tolga_in",
+   "value": "Un homme entre seul par la porte d’entrée"
+  },
+  {
+   "key": "case004.clue.cem_arrive_claim",
+   "value": "Dit être arrivé (passage de service)"
+  },
+  {
+   "key": "case004.clue.cem_call",
+   "value": "Appel de deux minutes avec Cem Gür"
+  },
+  {
+   "key": "case004.clue.cem_leave_claim",
+   "value": "Dit être parti"
+  },
+  {
+   "key": "case004.clue.derya_msgs",
+   "value": "Dernier message de Derya Aksoy"
+  },
+  {
+   "key": "case004.clue.device_moves",
+   "value": "Le téléphone disparu s’éloigne de l’immeuble"
+  },
+  {
+   "key": "case004.clue.device_off",
+   "value": "Le téléphone s’éteint à Ataşehir"
+  },
+  {
+   "key": "case004.clue.gulay_voices",
+   "value": "Deux voix d’hommes à l’étage (heure approximative)"
+  },
+  {
+   "key": "case004.clue.nihat_call",
+   "value": "Nihat Sönmez appelle, sans réponse"
+  },
+  {
+   "key": "case004.clue.nihat_home_claim",
+   "value": "Dit avoir quitté le bureau pour rentrer chez lui"
+  },
+  {
+   "key": "case004.clue.park_cem_in",
+   "value": "La voiture de Cem Gür entre au parking"
+  },
+  {
+   "key": "case004.clue.park_cem_out",
+   "value": "La voiture de Cem Gür sort du parking"
+  },
+  {
+   "key": "case004.clue.park_nihat_in",
+   "value": "La voiture de Nihat Sönmez entre au parking"
+  },
+  {
+   "key": "case004.clue.park_nihat_out",
+   "value": "La voiture de Nihat Sönmez sort du parking"
+  },
+  {
+   "key": "case004.clue.ride_out",
+   "value": "Course de Moda à Bostancı"
+  },
+  {
+   "key": "case004.clue.service_door",
+   "value": "La porte de service s’ouvre et se referme (capteur)"
+  },
+  {
+   "key": "case004.clue.source.device",
+   "value": "Rapport de localisation de l’appareil"
+  },
+  {
+   "key": "case004.clue.source.parking",
+   "value": "Relevé des plaques du parking"
+  },
+  {
+   "key": "case004.clue.source.phone",
+   "value": "Relevé téléphonique"
+  },
+  {
+   "key": "case004.clue.source.report",
+   "value": "Procès-verbal de constatation"
+  },
+  {
+   "key": "case004.clue.source.ride",
+   "value": "Relevé de courses"
+  },
+  {
+   "key": "case004.clue.tolga_in",
+   "value": "Un homme entre seul par la porte d’entrée"
+  },
+  {
+   "key": "case004.custody.cem",
+   "value": "Cem Gür — à cause des messages qui le nomment"
+  },
+  {
+   "key": "case004.custody.derya",
+   "value": "Derya Aksoy — pour effacer les messages"
+  },
+  {
+   "key": "case004.custody.label",
+   "value": "Qui a pris le téléphone ?"
+  },
+  {
+   "key": "case004.custody.lost",
+   "value": "Personne — il s’est perdu dans la chute"
+  },
+  {
+   "key": "case004.custody.nihat",
+   "value": "Nihat Sönmez — pour cacher la correspondance"
+  },
+  {
+   "key": "case004.derya.body",
+   "value": "Déposition de l’ancienne compagne, après les messages figurant au relevé téléphonique."
+  },
+  {
+   "key": "case004.derya.deflect",
+   "value": "Quel rapport avec Tolga ?"
+  },
+  {
+   "key": "case004.derya.messages.answer",
+   "value": "On s’est disputés, oui. On se disputait toujours. C’était personnel, un reste de la rupture. Quand j’ai écrit « tu vas le regretter », je ne voulais pas dire que j’allais faire quelque chose. On écrit des choses quand on est en colère."
+  },
+  {
+   "key": "case004.derya.messages.answer.demeanor",
+   "value": "Retourne son téléphone écran contre la table."
+  },
+  {
+   "key": "case004.derya.messages.question",
+   "value": "Pouvez-vous expliquer les messages que vous avez écrits à Tolga ce soir-là ?"
+  },
+  {
+   "key": "case004.derya.night.answer",
+   "value": "J’étais chez moi. À Moda. J’ai écrit ; il n’a pas répondu, alors je me suis couchée. Je n’y suis pas allée."
+  },
+  {
+   "key": "case004.derya.night.answer.demeanor",
+   "value": "Répond avant la fin de la question."
+  },
+  {
+   "key": "case004.derya.night.question",
+   "value": "Où étiez-vous cette nuit-là ?"
+  },
+  {
+   "key": "case004.derya.quote",
+   "value": "« On s’est disputés, oui. On se disputait toujours. »"
+  },
+  {
+   "key": "case004.derya.title",
+   "value": "Derya Aksoy — audition"
+  },
+  {
+   "key": "case004.derya.tolga.answer",
+   "value": "Je ne sais pas, on ne se parlait plus vraiment depuis des mois. Mais Tolga n’était pas du genre à se faire du mal. Il ne laissait jamais rien d’inachevé, à en devenir exaspérant."
+  },
+  {
+   "key": "case004.derya.tolga.question",
+   "value": "Comment allait Tolga ces derniers temps ?"
+  },
+  {
+   "key": "case004.derya_follow.body",
+   "value": "Audition tenue après le relevé de courses."
+  },
+  {
+   "key": "case004.derya_follow.gone",
+   "value": "Derya Aksoy est partie à l’étranger pour son travail. Son avocat a fait savoir qu’elle ne se présenterait pas à une nouvelle audition avant son retour."
+  },
+  {
+   "key": "case004.derya_follow.money.answer",
+   "value": "Il disait toujours « c’est bientôt fini ». Une fois que quelque chose serait réglé à la société, il serait tranquille. La dernière fois qu’on s’est parlé, il m’a dit : « mon chef va soit me promouvoir, soit me virer ». Je n’ai pas demandé ce qu’il voulait dire."
+  },
+  {
+   "key": "case004.derya_follow.money.question",
+   "value": "Pourquoi Tolga ne remboursait-il pas l’argent ?"
+  },
+  {
+   "key": "case004.derya_follow.title",
+   "value": "Derya Aksoy — seconde audition"
+  },
+  {
+   "key": "case004.derya_follow.where.answer",
+   "value": "D’accord. J’étais chez ma sœur. Je n’étais pas chez moi ; je ne l’ai pas dit parce que… Les messages, ce n’était pas de la jalousie. L’an dernier, j’ai prêté 60 000 livres à Tolga et il ne me les rendait pas. Cet argent, c’est ma sœur qui me l’avait donné, en plus. Cette nuit-là, je suis allée chez elle et j’ai pleuré. Je ne voulais pas vous le dire, c’est tout."
+  },
+  {
+   "key": "case004.derya_follow.where.answer.demeanor",
+   "value": "Rit un instant, puis s’essuie les yeux."
+  },
+  {
+   "key": "case004.derya_follow.where.decoy.phone",
+   "value": "Les messages, je sais ; c’est moi qui les ai écrits. Autre chose ?"
+  },
+  {
+   "key": "case004.derya_follow.where.decoy.phone.demeanor",
+   "value": "La voix se durcit."
+  },
+  {
+   "key": "case004.derya_follow.where.question",
+   "value": "Vous avez dit que vous étiez chez vous. Ce relevé dit autre chose."
+  },
+  {
+   "key": "case004.device.body",
+   "value": "Relevés de localisation réseau du téléphone disparu de Tolga Ergin, 9 janvier :\n\n01.31 – 02.20 · Şişli, aux abords de la résidence Ilgın (immobile).\n02.21 · L’appareil commence à s’éloigner de l’immeuble.\n02.25 · Liaison Şişli – Mecidiyeköy.\n02.33 · Passage du pont, rive asiatique.\n02.48 · Dernier signal : Ataşehir. Le point se trouve à environ 300 mètres de l’adresse déclarée de Nihat Sönmez. L’appareil s’éteint à cet endroit.\n\nLa vitesse de déplacement et l’itinéraire sont compatibles avec un transport en véhicule."
+  },
+  {
+   "key": "case004.device.title",
+   "value": "RAPPORT DE LOCALISATION — TÉLÉPHONE DE TOLGA ERGİN"
+  },
+  {
+   "key": "case004.epilogue.custody.cem",
+   "value": "Le domicile et le bureau de Cem Gür ont été fouillés ; le téléphone n’a pas été retrouvé. L’appareil éteint à Ataşehir n’a été la question de personne."
+  },
+  {
+   "key": "case004.epilogue.custody.derya",
+   "value": "Le domicile de Derya Aksoy a été fouillé ; le téléphone n’a pas été retrouvé. Les messages figuraient déjà au relevé téléphonique ; la fouille n’a rien apporté."
+  },
+  {
+   "key": "case004.epilogue.custody.lost",
+   "value": "La cour et les alentours ont été fouillés trois fois ; le téléphone n’a pas été retrouvé. Le relevé de localisation est resté dans le dossier sans être lu."
+  },
+  {
+   "key": "case004.epilogue.custody.nihat",
+   "value": "Le téléphone a été retrouvé chez Nihat Sönmez. La déclaration que Tolga Ergin avait préparée pour la direction s’y trouvait ; elle est devenue la première pièce du dossier de détournement."
+  },
+  {
+   "key": "case004.epilogue.verdict.cem",
+   "value": "Cem Gür a été arrêté. L’empreinte sur la tasse et son mensonge l’ont gardé trois semaines en prison ; quand le relevé du parking l’a mis hors de cause, Nihat Sönmez avait quitté le pays."
+  },
+  {
+   "key": "case004.epilogue.verdict.derya",
+   "value": "Derya Aksoy a été placée en garde à vue et ses messages ont fuité dans la presse. Le relevé de courses l’a mise hors de cause en deux jours ; mais la vraie piste du dossier s’était refroidie depuis longtemps."
+  },
+  {
+   "key": "case004.epilogue.verdict.nihat",
+   "value": "Nihat Sönmez a été arrêté pour être jugé pour menaces, destruction de preuves et deux ans de détournement. Le téléphone de Tolga Ergin a été retrouvé chez lui, éteint ; la correspondance qu’il contenait a été versée au dossier."
+  },
+  {
+   "key": "case004.epilogue.verdict.nobody",
+   "value": "Le dossier a été classé comme suicide. Kuzey Hat Lojistik a publié un rapport interne attribuant le trou dans les comptes aux « problèmes personnels de Tolga Ergin » ; le détournement n’a été découvert que des années plus tard."
+  },
+  {
+   "key": "case004.evidence.camera",
+   "value": "Relevé des caméras de l’immeuble"
+  },
+  {
+   "key": "case004.evidence.device",
+   "value": "Rapport de localisation du téléphone disparu"
+  },
+  {
+   "key": "case004.evidence.finance",
+   "value": "Examen des comptes de la société"
+  },
+  {
+   "key": "case004.evidence.parking",
+   "value": "Relevé des plaques du parking"
+  },
+  {
+   "key": "case004.evidence.scene",
+   "value": "Rapport d’inspection des lieux"
+  },
+  {
+   "key": "case004.feedback.cem",
+   "value": "Cem Gür était dans l’appartement cette nuit-là et il a menti, mais sa voiture a quitté le parking à 01.58. Sa tasse était là depuis plus d’une heure ; il était parti avant la chute."
+  },
+  {
+   "key": "case004.feedback.derya",
+   "value": "Derya Aksoy était à Bostancı cette nuit-là ; elle n’est jamais venue à Şişli. Les messages concernaient l’argent qu’elle avait prêté à Tolga."
+  },
+  {
+   "key": "case004.feedback.nihat",
+   "value": "Nihat Sönmez est entré au parking à 01.57, est monté par la porte de service à 02.03 et se trouvait dans l’appartement au moment de la chute. Le téléphone a quitté l’immeuble avec lui à 02.21."
+  },
+  {
+   "key": "case004.feedback.nobody",
+   "value": "Tolga Ergin n’était pas seul quand il est tombé : Gülay Tan a entendu deux voix d’hommes, la porte se verrouille quand on la tire de l’extérieur, et le téléphone a quitté l’immeuble dans un véhicule."
+  },
+  {
+   "key": "case004.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case004.file.value.bureau",
+   "value": "BDS — Bureau des morts suspectes"
+  },
+  {
+   "key": "case004.file.value.location",
+   "value": "Şişli, résidence Ilgın, appartement 12"
+  },
+  {
+   "key": "case004.file.value.number",
+   "value": "BDS-2027-0014"
+  },
+  {
+   "key": "case004.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case004.file.value.reporter",
+   "value": "Gülay Tan, appel de 02.17"
+  },
+  {
+   "key": "case004.finance.body",
+   "value": "Les relevés de paiement de Kuzey Hat Lojistik des deux dernières années ont été examinés.\n\nSous l’intitulé « supplément de transport », des petits paiements réguliers ont été versés à trois sous-traitants ; total : 2 840 000 TL. Les trois sociétés ont la même adresse et aucune n’a de relevé de trajet. La seconde approbation de chacun de ces paiements est celle de Nihat Sönmez.\n\nLe compte utilisateur de Tolga Ergin a téléchargé un état de ces paiements neuf fois au cours des trois dernières semaines ; le dernier téléchargement date du 8 janvier à 21.40.\n\nLes archives contiennent une courte note interne de 2025 signée Cem Gür : « Montants récurrents dans les suppléments de transport — à examiner. » Aucune suite n’a été donnée à cette note."
+  },
+  {
+   "key": "case004.finance.title",
+   "value": "EXAMEN DES COMPTES DE LA SOCIÉTÉ"
+  },
+  {
+   "key": "case004.gulay.back.answer",
+   "value": "Il y a une porte de service à l’arrière ; elle donne sur le passage commun avec l’immeuble voisin. On y accède par le parking. Il y a une caméra aussi, mais elle est toujours en panne ; on l’a dit au syndic je ne sais combien de fois."
+  },
+  {
+   "key": "case004.gulay.back.question",
+   "value": "Y a-t-il un autre accès à l’immeuble que la porte d’entrée ?"
+  },
+  {
+   "key": "case004.gulay.body",
+   "value": "Déposition de la voisine du dessous qui a passé l’appel d’urgence."
+  },
+  {
+   "key": "case004.gulay.call.answer",
+   "value": "Il y a eu un bruit, comme quelque chose qui se renverse. Puis quelque chose est passé devant la fenêtre, vers le bas. Au début, j’ai cru que le rideau était tombé. Je suis sortie sur le balcon, j’ai regardé dans la cour… J’ai appelé tout de suite."
+  },
+  {
+   "key": "case004.gulay.call.answer.demeanor",
+   "value": "Plie le mouchoir qu’elle tient, le déplie, le replie."
+  },
+  {
+   "key": "case004.gulay.call.question",
+   "value": "Pourquoi avez-vous appelé ?"
+  },
+  {
+   "key": "case004.gulay.deflect",
+   "value": "Je ne sais pas, mon petit, je ne pouvais pas en savoir autant."
+  },
+  {
+   "key": "case004.gulay.door.answer",
+   "value": "Pendant que j’étais sur le balcon, une porte a claqué en haut. Fort. Puis des pas dans l’escalier… enfin, il m’a semblé. J’étais dans un tel état."
+  },
+  {
+   "key": "case004.gulay.door.answer.demeanor",
+   "value": "La voix faiblit sur « il m’a semblé »."
+  },
+  {
+   "key": "case004.gulay.door.question",
+   "value": "Avez-vous entendu quelque chose en haut après la chute ?"
+  },
+  {
+   "key": "case004.gulay.quote",
+   "value": "« Il y avait deux hommes en haut. L’un criait. »"
+  },
+  {
+   "key": "case004.gulay.time.answer",
+   "value": "Il était plus de deux heures du matin. Je n’ai pas regardé l’heure, mais les informations étaient finies et je n’arrivais pas à dormir. Plus de deux heures ; de combien, je ne saurais dire."
+  },
+  {
+   "key": "case004.gulay.time.question",
+   "value": "À quelle heure étaient ces voix ?"
+  },
+  {
+   "key": "case004.gulay.title",
+   "value": "Gülay Tan — audition"
+  },
+  {
+   "key": "case004.gulay.tolga.answer",
+   "value": "C’était un garçon poli. Ces derniers temps, il rentrait tard ; il était fatigué. Mais il n’était pas malheureux, ne dites pas ça. La semaine dernière, il m’a porté mes sacs du marché ; il riait."
+  },
+  {
+   "key": "case004.gulay.tolga.question",
+   "value": "Quel genre de personne était Tolga Bey, pour vous ?"
+  },
+  {
+   "key": "case004.gulay.voices.answer",
+   "value": "J’ai entendu. Il y avait deux hommes. L’un criait ; l’autre parlait plus bas. La voix basse, c’était Tolga Bey, je crois ; il ne criait jamais. Je n’ai pas distingué les mots."
+  },
+  {
+   "key": "case004.gulay.voices.answer.demeanor",
+   "value": "Lève les yeux au plafond, comme si la voix y était encore."
+  },
+  {
+   "key": "case004.gulay.voices.question",
+   "value": "Avez-vous entendu quelque chose venant d’en haut avant cela ?"
+  },
+  {
+   "key": "case004.lock.body",
+   "value": "La porte de l’appartement 12 a été examinée.\n\nLa porte est équipée d’une serrure à mortaise avec pêne demi-tour. Quand on tire la porte de l’extérieur, le pêne tombe seul dans sa gâche ; la porte ne s’ouvre plus sans clé. Aucun verrou ni chaîne supplémentaire n’est installé.\n\nConclusion : que la porte ait été trouvée verrouillée ne prouve pas qu’elle l’a été de l’intérieur. La dernière personne à fermer la porte a pu se trouver hors de l’appartement.\n\nSur la face extérieure de la poignée, des traces inexploitables, étalées comme si on l’avait essuyée."
+  },
+  {
+   "key": "case004.lock.title",
+   "value": "NOTE D’EXAMEN DE LA SERRURE"
+  },
+  {
+   "key": "case004.maintenance.body",
+   "value": "Extrait du registre de maintenance du système de sécurité du syndic de la résidence Ilgın :\n\n17 décembre · Perte d’image caméra 02 ; raccordement du câble refait.\n26 décembre · Caméra 02 de nouveau coupée par intermittence ; cause : humidité, boîtier à remplacer.\n3 janvier · Caméra 02 coupée six fois au total en deux nuits. Pièce commandée.\n8 janvier · Pièce non arrivée.\n\nNote du syndic : « Le passage arrière est commun avec l’immeuble voisin ; la porte de service s’ouvre de l’intérieur côté parking. Un relevé de capteur est tenu jusqu’à la réparation de la caméra. »"
+  },
+  {
+   "key": "case004.maintenance.title",
+   "value": "REGISTRE DE MAINTENANCE DU SYNDIC"
+  },
+  {
+   "key": "case004.method.alone",
+   "value": "Tombé par accident, seul"
+  },
+  {
+   "key": "case004.method.backed",
+   "value": "A trébuché sur la table basse en reculant pendant une dispute, et il est tombé"
+  },
+  {
+   "key": "case004.method.jumped",
+   "value": "A sauté"
+  },
+  {
+   "key": "case004.method.label",
+   "value": "Comment Tolga est-il tombé ?"
+  },
+  {
+   "key": "case004.method.pushed",
+   "value": "A été poussé"
+  },
+  {
+   "key": "case004.nihat.accounts.answer",
+   "value": "Non. L’an dernier, nous sommes sortis d’un audit indépendant sans réserve. Dans la logistique, il y a de petits écarts ; ils se régularisent aussi."
+  },
+  {
+   "key": "case004.nihat.accounts.question",
+   "value": "Y a-t-il eu récemment un problème dans les comptes de la société ?"
+  },
+  {
+   "key": "case004.nihat.body",
+   "value": "Déposition du supérieur de Tolga Ergin, après l’appel et le message figurant au relevé téléphonique."
+  },
+  {
+   "key": "case004.nihat.deflect",
+   "value": "Il vaudrait mieux en parler avec l’avocat de la société."
+  },
+  {
+   "key": "case004.nihat.message.answer",
+   "value": "Le projet de budget de la nouvelle année. Je ne voulais pas qu’il fuite avant le conseil. Tolga était à la comptabilité ; c’est lui qui le verrait en premier."
+  },
+  {
+   "key": "case004.nihat.message.question",
+   "value": "Dans votre message de 23.12, vous écrivez « ne le partage avec personne ». Partager quoi ?"
+  },
+  {
+   "key": "case004.nihat.night.answer",
+   "value": "J’ai quitté le bureau vers onze heures et demie et je suis rentré. À Ataşehir. Je n’ai pas parlé à Tolga ; j’ai appelé, il n’a pas décroché."
+  },
+  {
+   "key": "case004.nihat.night.answer.demeanor",
+   "value": "Jette un œil à sa montre en finissant la phrase."
+  },
+  {
+   "key": "case004.nihat.night.question",
+   "value": "Où étiez-vous cette nuit-là ?"
+  },
+  {
+   "key": "case004.nihat.quote",
+   "value": "« Je suis rentré chez moi cette nuit-là. Je n’ai pas parlé à Tolga. »"
+  },
+  {
+   "key": "case004.nihat.title",
+   "value": "Nihat Sönmez — audition"
+  },
+  {
+   "key": "case004.nihat.tolga.answer",
+   "value": "C’était un employé méticuleux. Mais ces dernières semaines, il était tendu, renfermé. Il restait au bureau tard. Quelque chose n’allait pas ; je l’avais remarqué aussi. J’aurais dû lui demander."
+  },
+  {
+   "key": "case004.nihat.tolga.answer.demeanor",
+   "value": "Secoue la tête ; un instant, la voix se fait trop douce."
+  },
+  {
+   "key": "case004.nihat.tolga.question",
+   "value": "Comment allait Tolga ces derniers temps ?"
+  },
+  {
+   "key": "case004.nihat_follow.body",
+   "value": "Audition tenue après le relevé du parking."
+  },
+  {
+   "key": "case004.nihat_follow.car.answer",
+   "value": "Oui… j’y suis allé. Tolga n’avait pas répondu à mon message ; je m’inquiétais. Je voulais parler du budget en face. Je suis entré au parking et je suis resté dans la voiture. Puis je me suis dit que débarquer chez quelqu’un en pleine nuit, ça ne se faisait pas, alors je ne suis pas monté. J’ai changé d’avis et je suis reparti."
+  },
+  {
+   "key": "case004.nihat_follow.car.answer.demeanor",
+   "value": "Desserre sa cravate, puis la resserre."
+  },
+  {
+   "key": "case004.nihat_follow.car.decoy.phone",
+   "value": "J’ai appelé, il n’a pas décroché. Je l’ai dit à la première audition."
+  },
+  {
+   "key": "case004.nihat_follow.car.decoy.phone.demeanor",
+   "value": "Souffle avec impatience."
+  },
+  {
+   "key": "case004.nihat_follow.car.question",
+   "value": "Vous avez dit être rentré chez vous. Votre voiture est au parking de l’immeuble de Tolga à 01.57."
+  },
+  {
+   "key": "case004.nihat_follow.cem.answer",
+   "value": "Un ancien employé à nous. Il était obsédé par les comptes ; il voyait des complots partout. Franchement, on a été soulagés quand il est parti. Il était là cette nuit-là ? Tiens, ça doit être important pour vous."
+  },
+  {
+   "key": "case004.nihat_follow.cem.answer.demeanor",
+   "value": "Pour la première fois, le regard s’anime ; se penche en avant."
+  },
+  {
+   "key": "case004.nihat_follow.cem.question",
+   "value": "Connaissez-vous Cem Gür ?"
+  },
+  {
+   "key": "case004.nihat_follow.title",
+   "value": "Nihat Sönmez — seconde audition"
+  },
+  {
+   "key": "case004.nihat_follow.wait.answer",
+   "value": "J’ai réfléchi. J’ai tripoté mon téléphone. Je me suis peut-être assoupi à un moment ; j’étais fatigué. Ensuite je suis parti."
+  },
+  {
+   "key": "case004.nihat_follow.wait.question",
+   "value": "Qu’avez-vous fait pendant vingt-six minutes au parking ?"
+  },
+  {
+   "key": "case004.nihat_third.body",
+   "value": "Audition tenue après le rapport de localisation du téléphone disparu."
+  },
+  {
+   "key": "case004.nihat_third.money.answer",
+   "value": "Oui. Ça a commencé il y a deux ans pour combler un trou, puis je n’ai plus pu m’arrêter. Une fois que Tolga avait trouvé, de toute façon, c’était fini. Mais je ne l’ai pas poussé. Écrivez-le. Je ne l’ai pas poussé."
+  },
+  {
+   "key": "case004.nihat_third.money.answer.demeanor",
+   "value": "Dit la dernière phrase deux fois ; la seconde, dans un murmure."
+  },
+  {
+   "key": "case004.nihat_third.money.question",
+   "value": "Les paiements de supplément de transport ont-ils été faits avec votre approbation ?"
+  },
+  {
+   "key": "case004.nihat_third.phone.answer",
+   "value": "…Je suis monté. Par la porte de service. Tolga a ouvert ; il y avait une deuxième tasse à l’intérieur, alors j’ai compris qu’il avait parlé à quelqu’un. Je lui ai demandé de laisser tomber les dossiers. J’ai crié, oui. Je me suis avancé sur lui. Je ne l’ai pas touché. Il a reculé, reculé… la table basse. Il a trébuché. La fenêtre était ouverte. Ça n’a même pas pris une seconde."
+  },
+  {
+   "key": "case004.nihat_third.phone.answer.demeanor",
+   "value": "Ne parle pas pendant longtemps. Pose les mains à plat sur la table ; les doigts tremblent."
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.finance",
+   "value": "C’est une question comptable. Mes avocats en discuteront."
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.finance.demeanor",
+   "value": "Le visage se ferme ; la voix devient plate."
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.parking",
+   "value": "J’ai reconnu que j’étais au parking. Que voulez-vous de plus ?"
+  },
+  {
+   "key": "case004.nihat_third.phone.decoy.parking.demeanor",
+   "value": "Tapote légèrement la table."
+  },
+  {
+   "key": "case004.nihat_third.phone.question",
+   "value": "Le téléphone de Tolga quitte l’immeuble à 02.21 et s’éteint près de chez vous."
+  },
+  {
+   "key": "case004.nihat_third.title",
+   "value": "Nihat Sönmez — troisième audition"
+  },
+  {
+   "key": "case004.nihat_third.took.answer",
+   "value": "Toute la correspondance était dedans. Mon message aussi. Il était sur la table. Je l’ai pris, j’ai tiré la porte et je suis parti. J’ai descendu l’escalier et je suis monté dans la voiture. Arrivé chez moi, je l’ai éteint. Je l’ai toujours."
+  },
+  {
+   "key": "case004.nihat_third.took.question",
+   "value": "Pourquoi avez-vous pris le téléphone ?"
+  },
+  {
+   "key": "case004.offer.subtitle",
+   "value": "L’ÉTAGE SILENCIEUX  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case004.offer.summary",
+   "value": "À Şişli, un homme tombe du 6e étage d’un immeuble. La porte est verrouillée et il n’y a personne dans l’appartement ; la première équipe conclut au suicide. Mais son téléphone a disparu et il y a deux tasses sur la table. Le rapport est sur votre bureau."
+  },
+  {
+   "key": "case004.offer.title",
+   "value": "DOSSIER #004"
+  },
+  {
+   "key": "case004.parking.body",
+   "value": "Relevé de lecture des plaques du parking commun à la résidence Ilgın et à l’immeuble voisin, 9 janvier, 01.00 – 03.00 :\n\n01.36 · entrée · 34 KGR 418 · titulaire Cem Gür\n01.57 · entrée · 34 NS 2207 · titulaire Nihat Sönmez\n01.58 · sortie · 34 KGR 418 · titulaire Cem Gür\n02.23 · sortie · 34 NS 2207 · titulaire Nihat Sönmez\n\nAucune autre entrée ni sortie sur la période. La caméra du parking ne lit que la plaque ; le conducteur n’est pas visible."
+  },
+  {
+   "key": "case004.parking.title",
+   "value": "RELEVÉ DES PLAQUES DU PARKING"
+  },
+  {
+   "key": "case004.person.cem.info",
+   "value": "41 ans, conseiller financier. Jusqu’à il y a un an, il travaillait dans le même service que Tolga Ergin chez Kuzey Hat Lojistik."
+  },
+  {
+   "key": "case004.person.cem.name",
+   "value": "Cem Gür"
+  },
+  {
+   "key": "case004.person.derya.info",
+   "value": "35 ans, graphiste. Ancienne compagne de Tolga Ergin ; ils se sont séparés il y a huit mois. Vit à Moda."
+  },
+  {
+   "key": "case004.person.derya.name",
+   "value": "Derya Aksoy"
+  },
+  {
+   "key": "case004.person.gulay.info",
+   "value": "67 ans, enseignante à la retraite. Vit au 5e étage de l’immeuble, dans l’appartement juste en dessous de celui de Tolga Ergin. La personne qui a passé l’appel d’urgence."
+  },
+  {
+   "key": "case004.person.gulay.name",
+   "value": "Gülay Tan"
+  },
+  {
+   "key": "case004.person.nihat.info",
+   "value": "52 ans, directeur des opérations chez Kuzey Hat Lojistik ; le supérieur de Tolga Ergin. Vit à Ataşehir."
+  },
+  {
+   "key": "case004.person.nihat.name",
+   "value": "Nihat Sönmez"
+  },
+  {
+   "key": "case004.phone.body",
+   "value": "Relevé des appels et messages de la ligne au nom de Tolga Ergin, 8–9 janvier (contenu pour les messages uniquement).\n\n22.40 – 23.05 · 14 messages avec Derya Aksoy. Les derniers sont de Derya Aksoy : « Je te le dis pour la dernière fois. » · « Si tu ne réponds pas ce soir, je viens attendre devant ta porte. » · « Tu vas le regretter, Tolga. »\n\n23.10 · Appel entrant de Nihat Sönmez — sans réponse.\n23.12 · Message de Nihat Sönmez : « On en parle demain matin. Ne le partage avec personne. »\n\n01.20 · Appel sortant avec Cem Gür, 2 minutes 10 secondes.\n\nAprès 02.21, la ligne apparaît connectée au réseau, mais sans appel ni message. À 02.48, l’appareil s’éteint."
+  },
+  {
+   "key": "case004.phone.title",
+   "value": "RELEVÉ TÉLÉPHONIQUE — TOLGA ERGİN"
+  },
+  {
+   "key": "case004.report.body",
+   "value": "Le 9 janvier 2027, à la suite d’un appel d’urgence reçu à 02.17, des agents se sont rendus à la résidence Ilgın, à Şişli. L’appel a été passé par Gülay Tan, résidente du 5e étage.\n\nTolga Ergin (38 ans), résident de l’appartement 12 au 6e étage, a été trouvé inerte dans la cour arrière de l’immeuble ; son décès a été constaté sur place. La fenêtre du salon de l’appartement est ouverte.\n\nLa porte de l’appartement a été trouvée verrouillée ; aucune trace de forçage sur la porte ni sur la serrure. L’équipe est entrée avec le double détenu par le syndic. Il n’y avait personne dans l’appartement.\n\nDeux tasses de café sont posées sur la table du salon. La table basse devant la fenêtre est renversée. Le défunt avait sur lui son portefeuille et ses clés ; son téléphone portable n’a été retrouvé ni sur lui ni dans l’appartement.\n\nNote de la première équipe : porte verrouillée de l’intérieur, personne d’autre dans l’appartement ; l’hypothèse du suicide est examinée."
+  },
+  {
+   "key": "case004.report.title",
+   "value": "PROCÈS-VERBAL DE CONSTATATION"
+  },
+  {
+   "key": "case004.request.device",
+   "value": "Demander le relevé de localisation du téléphone disparu"
+  },
+  {
+   "key": "case004.request.finance",
+   "value": "Demander l’examen des comptes de la société"
+  },
+  {
+   "key": "case004.request.lock",
+   "value": "Demander l’examen de la porte et de la serrure"
+  },
+  {
+   "key": "case004.request.maintenance",
+   "value": "Demander le registre de maintenance des caméras"
+  },
+  {
+   "key": "case004.request.parking",
+   "value": "Demander le relevé des plaques du parking arrière"
+  },
+  {
+   "key": "case004.request.phone",
+   "value": "Demander le relevé téléphonique de Tolga Ergin"
+  },
+  {
+   "key": "case004.request.ride",
+   "value": "Demander le relevé de courses de Derya Aksoy pour cette nuit-là"
+  },
+  {
+   "key": "case004.request.scene",
+   "value": "Demander l’examen des tasses et de la fenêtre"
+  },
+  {
+   "key": "case004.ride.body",
+   "value": "Courses effectuées via une application de taxi depuis le compte de Derya Aksoy, 9 janvier :\n\n01.38 · Moda → Bostancı, Bağdat Caddesi. Arrivée 02.06.\n02.31 · Bostancı → Moda. Arrivée 02.52.\n\nL’adresse de Bostancı figure dans la note au chauffeur comme « chez ma sœur ». Aucune course en direction de Şişli."
+  },
+  {
+   "key": "case004.ride.title",
+   "value": "RELEVÉ DE COURSES — DERYA AKSOY"
+  },
+  {
+   "key": "case004.scene.body",
+   "value": "Le salon, la fenêtre et les tasses sur la table ont été examinés une seconde fois (heure de l’examen : 02.50).\n\nTasse 1 : à moitié pleine ; café et marc humides. Les empreintes appartiennent à Tolga Ergin.\nTasse 2 : vide. Le marc au fond a séché, et une auréole sèche marque le bord ; la tasse a été jugée vidée au moins une heure avant l’examen. L’empreinte relevée est connue du système : Cem Gür.\n\nAucune trace de prise, d’éraflure ni de casse sur l’appui ou le cadre de la fenêtre. La table basse renversée est juste devant la fenêtre ; son pied est pris dans le tapis. Le tapis présente un court pli montrant que la table a été traînée.\n\nAucune trace de défense ni de préhension sur les bras et les mains du défunt (information préliminaire ; rapport médico-légal attendu). La distance entre le point d’impact et la fenêtre est compatible avec une chute à la renverse plutôt qu’avec un saut."
+  },
+  {
+   "key": "case004.scene.title",
+   "value": "RAPPORT D’INSPECTION DES LIEUX"
+  },
+  {
+   "key": "case004.summary.evidence",
+   "value": "Le relevé du parking place Nihat Sönmez derrière l’immeuble au moment de la chute ; le rapport de localisation du téléphone disparu le montre quitter l’immeuble à 02.21 et s’éteindre près de chez lui. La note sur la serrure réfute la lecture « verrouillée de l’intérieur » ; le rapport sur les tasses et la sortie du parking prouvent que Cem Gür était parti avant la chute ; aucune trace de lutte sur l’appui, et la table basse est renversée."
+  },
+  {
+   "key": "case004.summary.lesson",
+   "value": "Être là cette nuit-là n’est pas la même chose qu’être là au moment de la mort. Les preuves ne mentent pas ; c’est la lecture qui les rattache à la mauvaise heure qui égare. Aucun relevé ne désignait personne à lui seul — ce sont les heures, une fois posées côte à côte."
+  },
+  {
+   "key": "case004.summary.location",
+   "value": "Şişli, résidence Ilgın — 9 janvier 2027"
+  },
+  {
+   "key": "case004.summary.truth",
+   "value": "Tolga Ergin était sur le point de révéler un détournement de deux ans dans la société où il travaillait. À 01.31, il est rentré seul. Cem Gür est arrivé à 01.36 par le parking arrière, par le passage de service dans l’angle mort ; ils ont bu un café, se sont disputés au sujet des documents, et Cem est parti à 01.58. Nihat Sönmez est entré au parking à 01.57 et est monté par la porte de service à 02.03. Pendant la dispute, il s’est avancé sur Tolga ; en reculant, Tolga a trébuché sur la table basse devant la fenêtre et il est tombé. Nihat a pris le téléphone, a tiré derrière lui la porte qui se verrouille seule et a quitté le parking à 02.23. Le téléphone s’est éteint près de chez lui à 02.48."
+  },
+  {
+   "key": "case004.suspect.label",
+   "value": "Qui était dans l’appartement au moment de la chute ?"
+  },
+  {
+   "key": "case004.tablet.caseLine",
+   "value": "DOSSIER #004  /  UNITÉ D’ENQUÊTE BUBE"
+  },
+  {
+   "key": "case004.time.call",
+   "value": "02.17"
+  },
+  {
+   "key": "case004.time.call_time",
+   "value": "02.17"
+  },
+  {
+   "key": "case004.time.cam2_back",
+   "value": "02.24"
+  },
+  {
+   "key": "case004.time.cam2_lost",
+   "value": "01.46"
+  },
+  {
+   "key": "case004.time.cem_arrive_claim",
+   "value": "01.30"
+  },
+  {
+   "key": "case004.time.cem_call",
+   "value": "01.20"
+  },
+  {
+   "key": "case004.time.cem_leave_claim",
+   "value": "01.55"
+  },
+  {
+   "key": "case004.time.derya_msgs",
+   "value": "23.05"
+  },
+  {
+   "key": "case004.time.device_moves",
+   "value": "02.21"
+  },
+  {
+   "key": "case004.time.device_off",
+   "value": "02.48"
+  },
+  {
+   "key": "case004.time.gulay_voices",
+   "value": "02.10"
+  },
+  {
+   "key": "case004.time.nihat_call",
+   "value": "23.10"
+  },
+  {
+   "key": "case004.time.nihat_home_claim",
+   "value": "23.30"
+  },
+  {
+   "key": "case004.time.park_cem_in",
+   "value": "01.36"
+  },
+  {
+   "key": "case004.time.park_cem_out",
+   "value": "01.58"
+  },
+  {
+   "key": "case004.time.park_nihat_in",
+   "value": "01.57"
+  },
+  {
+   "key": "case004.time.park_nihat_out",
+   "value": "02.23"
+  },
+  {
+   "key": "case004.time.ride_out",
+   "value": "01.38"
+  },
+  {
+   "key": "case004.time.service_door",
+   "value": "02.03"
+  },
+  {
+   "key": "case004.time.tolga_in",
+   "value": "01.31"
+  },
+  {
+   "key": "case004.title",
+   "value": "Dossier #004 — L’étage silencieux"
+  },
+  {
+   "key": "case004.verdict.cem",
+   "value": "Cem Gür"
+  },
+  {
+   "key": "case004.verdict.derya",
+   "value": "Derya Aksoy"
+  },
+  {
+   "key": "case004.verdict.nihat",
+   "value": "Nihat Sönmez"
+  },
+  {
+   "key": "case004.verdict.nobody",
+   "value": "Personne — Tolga était seul"
+  }
+ ]
+}
