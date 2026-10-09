@@ -1212,3 +1212,4 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 
 - Misafir oyuncunun kaydı Firebase anonim kimliğiyle bulutta tutulur; ad/e-posta istenmez (kullanıcı kararı: kullanıcılar tutulmalı, silme isteğinde silinmeli, mağaza ve KVKK kurallarına uyulmalı).
 - "Hesabı ve verileri sil" misafirde de bulut kaydını ve kimliği siler; ayarlarda oyuncu kimliği gösterilir ki web/e-posta silme talebinde kullanılabilsin.
+- Giriş kağıdı **zorunlu** (kullanıcı kararı): ilk açılışta Apple, Google ya da misafirden biri seçilmeden oyuna girilmez; servis bağlı olmasa da kağıt çıkar, Apple/Google düğmeleri hep görünür. Geri tuşu kağıdı geçmez, yalnız çıkış sorar. Misafir düğmesi kalır: App Store 5.1.1 hesap gerektirmeyen bir oyunda zorunlu üyeliği yasaklar; misafir de bir seçimdir ve anonim bulut kimliği açar.

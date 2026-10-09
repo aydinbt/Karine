@@ -23,8 +23,8 @@ public sealed partial class BubeApp {
    if(kind!=Accounts.Kind || (id??"")!=(Accounts.Id??"")){Accounts.Set(kind,id);ReloadAccount();}
    else if(Accounts.Provider.CloudReady)PullCloud();
    if(Accounts.Chosen)return;
-   if(!Accounts.OffersSignIn){Accounts.MarkChosen();return;}
-   // Giriş kağıdı açılış yüklemesi bittikten sonra çıkar.
+   // Giriş kağıdı zorunlu: oyuncu Apple, Google ya da misafirden birini seçmeden oyuna
+   // giremez. Açılış yüklemesi bittikten sonra çıkar; seçim bir kez yapılır, hatırlanır.
    root.schedule.Execute(()=>{ if(root.Q("LoadingScreen")==null && root.Q("AccountPaper")==null && !Accounts.Chosen)AccountPaper(); })
     .Every(300).Until(()=>Accounts.Chosen || root.Q("AccountPaper")!=null);
   });
@@ -49,8 +49,8 @@ public sealed partial class BubeApp {
  void AccountPaper() {
   var options=new System.Collections.Generic.List<KarineUI.AccountOption>();
   foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
-   // Editor'de servis yok ama düğmeler görünür kalır: ekran tasarımı denetlenebilsin, basınca "kullanılamıyor" der.
-   if(Accounts.Provider.Supports(kind)||Application.isEditor){var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
+   // Servis henüz bağlı değilse de düğme durur; basınca "kullanılamıyor" der, oyuncu misafiri seçer.
+   {var k=kind;options.Add(new KarineUI.AccountOption(Key(k),T("account.signin."+Key(k)),()=>AccountSignIn(k)));}
   options.Add(new KarineUI.AccountOption(null,T("account.guest"),()=>{Accounts.MarkChosen();root.Q("AccountPaper")?.RemoveFromHierarchy();}));
   // Logo altı: hukuk ilkeleri ("|" ile ayrılmış); ekran açıkken sırayla değişir.
   KarineUI.AccountPaper(root,T("account.tagline").Split('|'),T("account.or"),options,accountNotice,

@@ -235,6 +235,8 @@ public sealed partial class BubeApp : MonoBehaviour {
 
  void HandleEscape() {
   if(askingToQuit)return;
+  // Giriş kağıdı açıkken geri tuşu altındaki ekrana geçmez; yalnız çıkış sorulur.
+  if(root.Q("AccountPaper")!=null){AskToQuit();return;}
   var action=escapeBack;
   if(action!=null){action();return;}
   AskToQuit();
