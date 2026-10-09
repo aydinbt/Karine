@@ -226,6 +226,7 @@ public sealed partial class BubeApp : MonoBehaviour {
   if(game.StateOutcome==SaveOutcome.Migrated || game.CareerOutcome==SaveOutcome.Migrated)
    Debug.Log("Save migrated to current schema.");
   game.Career.activeCaseId=caseId;
+  AdoptDevicePrefs();
   return saveNotice;
  }
 
@@ -379,6 +380,19 @@ public sealed partial class BubeApp : MonoBehaviour {
    Debug.LogWarning("Save is from a newer schema; kept at "+aside);
    return aside;
   } catch(Exception e) { Debug.LogWarning("Save could not be set aside: "+e.Message); return null; }
+ }
+
+ // Eski sürümler bu ilerlemeyi cihazın ayar deposuna yazıyordu; ilk yüklenen kariyere
+ // bir kez taşınır ve cihazdan silinir ki başka bir hesaba ikinci kez geçmesin.
+ void AdoptDevicePrefs() {
+  var c=game.Career;bool moved=false;
+  if(PlayerPrefs.HasKey(PlayKey)){c.playSeconds=Mathf.Max(c.playSeconds,PlayerPrefs.GetFloat(PlayKey));PlayerPrefs.DeleteKey(PlayKey);moved=true;}
+  if(PlayerPrefs.HasKey(SeenRankKey)){if(string.IsNullOrEmpty(c.seenRank))c.seenRank=PlayerPrefs.GetString(SeenRankKey);PlayerPrefs.DeleteKey(SeenRankKey);moved=true;}
+  if(PlayerPrefs.HasKey(CreditsKey)){c.creditsSeen|=PlayerPrefs.GetInt(CreditsKey)==1;PlayerPrefs.DeleteKey(CreditsKey);moved=true;}
+  for(int i=0;i<KarineTheme.Scene.LampTints.Length;i++) if(PlayerPrefs.HasKey(LampUnlockKey+i)){
+   if(PlayerPrefs.GetInt(LampUnlockKey+i)==1 && !c.unlockedLamps.Contains(i))c.unlockedLamps.Add(i);
+   PlayerPrefs.DeleteKey(LampUnlockKey+i);moved=true;}
+  if(moved)PlayerPrefs.Save();
  }
 
  void Save() {

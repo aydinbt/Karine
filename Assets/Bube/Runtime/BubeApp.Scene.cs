@@ -80,9 +80,9 @@ public sealed partial class BubeApp {
  // Güven kutusu parlar; durum son görülenden farklıysa mühür gibi iner.
  void TrustBadge(VisualElement badge) {
   KarineUI.BadgeShine(badge);
-  string seen=PlayerPrefs.GetString(SeenRankKey,string.Empty),now=game.TrustStatusKey;
+  string seen=game.Career.seenRank??string.Empty,now=game.TrustStatusKey;
   if(seen==now)return;
-  PlayerPrefs.SetString(SeenRankKey,now);PlayerPrefs.Save();
+  game.Career.seenRank=now;Save();
   if(seen.Length>0)badge.schedule.Execute(()=>KarineUI.RankCeremony(root,T(now),()=>KarineUI.RankStamp(badge))).StartingIn(300);
  }
 

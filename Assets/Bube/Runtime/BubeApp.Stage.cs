@@ -11,7 +11,6 @@ public sealed partial class BubeApp {
  const string CaptionsKey="karine.captions",SpacingKey="karine.spacing",ContrastKey="karine.contrast",OneHandKey="karine.oneHand",PlayKey="karine.playSeconds";
  bool leavingRoom,heardHooked,draftCaptions,draftSpacing,draftContrast,draftOneHand;
  int draftStrength;
- float playSeconds=-1,playSaved;
 
  static bool Captions => PlayerPrefs.GetInt(CaptionsKey,1)==1;
  static bool Spacing => PlayerPrefs.GetInt(SpacingKey,0)==1;
@@ -24,9 +23,8 @@ public sealed partial class BubeApp {
   if(leavingRoom){leavingRoom=false;KarineUI.LeaveRoom(root);}
   if(Time.frameCount%30==0)KarineUI.AccessPass(root,Spacing,HighContrast);
   KarineUI.ThumbBack(root,OneHand && escapeBack!=null,escapeBack==null?null:(Action)HandleEscape,T("offer.back"));
-  if(playSeconds<0)playSeconds=PlayerPrefs.GetFloat(PlayKey,0);
-  playSeconds+=Time.unscaledDeltaTime;
-  if(playSeconds-playSaved>30){playSaved=playSeconds;PlayerPrefs.SetFloat(PlayKey,playSeconds);}
+  // Süre kariyerde birikir; diske ve buluta her olağan kayıtla birlikte gider.
+  if(game?.Career!=null)game.Career.playSeconds+=Time.unscaledDeltaTime;
  }
  void OnDestroy(){AudioDirector.Heard-=OnHeard;}
 
@@ -79,7 +77,7 @@ public sealed partial class BubeApp {
 
  // Kayıt satırı: son vaka ve oynanan süre, devam satırının altında.
  void SlotLine(VisualElement menu) {
-  float seconds=PlayerPrefs.GetFloat(PlayKey,0);
+  float seconds=game.Career.playSeconds;
   int hours=Mathf.FloorToInt(seconds/3600),minutes=Mathf.FloorToInt(seconds%3600/60);
   var line=KarineUI.Technical(menu,T(game.Data.titleKey)+"  ·  "+hours+T("slot.hours")+" "+minutes.ToString("00")+T("slot.minutes"),13);
   line.style.color=KarineTheme.Secondary;line.style.marginTop=-4;line.style.marginBottom=KarineTheme.SpaceSm;line.style.marginLeft=KarineTheme.SpaceMd;

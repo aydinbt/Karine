@@ -12,7 +12,7 @@ public sealed partial class BubeApp {
  int draftLamp;
 
  static int LampTint => Mathf.Clamp(PlayerPrefs.GetInt(LampTintKey,0),0,KarineTheme.Scene.LampTints.Length-1);
- static bool LampUnlocked(int i) => i==0 || AdGateway.AdsRemoved || PlayerPrefs.GetInt(LampUnlockKey+i,0)==1;
+ bool LampUnlocked(int i) => i==0 || AdGateway.AdsRemoved || game.Career.unlockedLamps.Contains(i);
 
  // Ana menüye oyundan dönülünce (ilk açılışta değil) araya giren reklam; menü beklemez.
  void MenuReturnAd() {
@@ -29,7 +29,7 @@ public sealed partial class BubeApp {
     if(LampUnlocked(v)){draftLamp=v;RenderSettings();return;}
     AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
      if(!granted)return;
-     PlayerPrefs.SetInt(LampUnlockKey+v,1);PlayerPrefs.Save();draftLamp=v;RenderSettings();
+     if(!game.Career.unlockedLamps.Contains(v))game.Career.unlockedLamps.Add(v);Save();draftLamp=v;RenderSettings();
     });
    });
    KarineUI.Quarter(card);

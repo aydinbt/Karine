@@ -92,8 +92,8 @@ public sealed partial class BubeApp {
  void AfterClosing(Action again) {
   var image=string.IsNullOrEmpty(game.Data.epilogueImage)?null:Resources.Load<Texture2D>(game.Data.epilogueImage);
   KarineUI.Epilogue(root,image,string.IsNullOrEmpty(game.Data.epilogueKey)?null:T(game.Data.epilogueKey),()=> {
-   if(PlayerPrefs.GetInt(CreditsKey,0)==1){again?.Invoke();return;}
-   PlayerPrefs.SetInt(CreditsKey,1);PlayerPrefs.Save();
+   if(game.Career.creditsSeen){again?.Invoke();return;}
+   game.Career.creditsSeen=true;Save();
    KarineUI.Credits(root,new[]{T("credits.0"),T("credits.1"),T("credits.2")},again);
   });
  }

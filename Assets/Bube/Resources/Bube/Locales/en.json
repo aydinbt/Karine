@@ -4581,6 +4581,30 @@
    "value": "Player ID"
   },
   {
+   "key": "account.nudge.form",
+   "value": "Records notice"
+  },
+  {
+   "key": "account.nudge.title",
+   "value": "Protect your progress"
+  },
+  {
+   "key": "account.nudge.body",
+   "value": "You've closed your first file. Your guest save is tied to this device only: if you delete the game or change phones, your career is lost. Link your Apple or Google account so your progress follows you to every device."
+  },
+  {
+   "key": "account.nudge.stamp",
+   "value": "Recommended"
+  },
+  {
+   "key": "account.nudge.later",
+   "value": "Later"
+  },
+  {
+   "key": "account.nudge.link",
+   "value": "Link account"
+  },
+  {
    "key": "account.status.google",
    "value": "Signed in with Google Play Games. Your progress is backed up to the cloud."
   },

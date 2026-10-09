@@ -74,6 +74,20 @@ public sealed partial class BubeApp {
   });
  }
 
+// Misafir Dosya #001'i bitirip #002'yi kabul edince bir kez: ilerlemesini korumak için
+ // hesap bağlaması önerilir. "Daha sonra" akışı sürdürür; "Bağla" Ayarlar › Hesap'ı açar.
+ const string LinkNudgeCase="case002";
+ void LinkNudgeThen(Action next) {
+  if(game.Data.id!=LinkNudgeCase || Accounts.SignedIn || game.Career.linkNudgeSeen){next();return;}
+  game.Career.linkNudgeSeen=true;Save();
+  KarineUI.ConfirmPaper(root,T("account.nudge.form"),T("account.nudge.title"),T("account.nudge.body"),T("account.nudge.stamp"),
+   T("account.nudge.later"),next,T("account.nudge.link"),()=>{
+    root.Q("ConfirmVeil")?.RemoveFromHierarchy();
+    // Önce masaya geçilir; ayarlar kapanınca oyuncu kabul ettiği vakanın masasında olur.
+    LoadThen(()=>{Desk();SettingsFrom(Desk);settingsTab=Array.IndexOf(SettingsTabs,"account");RenderSettings();});
+   });
+ }
+
  void AccountSignOut() {
   Accounts.Provider.SignOut();Accounts.Set(AccountKind.Guest,null);
   accountNotice=T("account.notice.signedOut");ReloadAccount();
@@ -116,8 +130,8 @@ public sealed partial class BubeApp {
   if(!string.IsNullOrEmpty(accountNotice))KarineUI.Body_(state,accountNotice,KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;
   if(!Accounts.SignedIn) {
    foreach(var kind in new[]{AccountKind.Apple,AccountKind.Google})
-    // Editor'de servis yok ama düğmeler görünür kalır: ekran tasarımı denetlenebilsin, basınca "kullanılamıyor" der.
-   if(Accounts.Provider.Supports(kind)||Application.isEditor){var k=kind;Button(KarineUI.SettingRow(body,T("account.link."+Key(k)),T("account.link.hint")),T("account.signin."+Key(k)),()=>AccountSignIn(k));}
+    // Servis henüz bağlı değilse de satır durur; basınca "kullanılamıyor" der.
+   {var k=kind;Button(KarineUI.SettingRow(body,T("account.link."+Key(k)),T("account.link.hint")),T("account.signin."+Key(k)),()=>AccountSignIn(k));}
   } else Button(KarineUI.SettingRow(body,T("account.signout"),T("account.signout.hint")),T("account.signout"),AccountSignOut);
   Button(KarineUI.SettingRow(body,T("account.delete"),T(Accounts.SignedIn?"account.delete.hint":Accounts.Provider.CloudReady?"account.delete.guestCloudHint":"account.delete.guestHint")),T("account.delete"),AskDeleteAccount);
   if(!string.IsNullOrEmpty(config.accountDeletionUrl))

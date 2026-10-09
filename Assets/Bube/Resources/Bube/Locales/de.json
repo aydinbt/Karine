@@ -4581,6 +4581,30 @@
    "value": "Spieler-ID"
   },
   {
+   "key": "account.nudge.form",
+   "value": "Aktenhinweis"
+  },
+  {
+   "key": "account.nudge.title",
+   "value": "Sichere deinen Fortschritt"
+  },
+  {
+   "key": "account.nudge.body",
+   "value": "Du hast deine erste Akte geschlossen. Dein Gastspielstand ist nur an dieses Gerät gebunden: Löschst du das Spiel oder wechselst du das Handy, ist deine Karriere verloren. Verknüpfe dein Apple- oder Google-Konto, damit dein Fortschritt dich auf jedes Gerät begleitet."
+  },
+  {
+   "key": "account.nudge.stamp",
+   "value": "Empfohlen"
+  },
+  {
+   "key": "account.nudge.later",
+   "value": "Später"
+  },
+  {
+   "key": "account.nudge.link",
+   "value": "Konto verknüpfen"
+  },
+  {
    "key": "account.status.google",
    "value": "Mit Google Play Games angemeldet. Dein Fortschritt wird in der Cloud gesichert."
   },
