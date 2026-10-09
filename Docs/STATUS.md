@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 9 Ekim 2026 (Almanca çeviri)
+**Son güncelleme:** 9 Ekim 2026 (giriş ve açılış ekranları)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**9 Ekim (akşam):** **Giriş ve açılış ekranları yeni.** Giriş: yatay maket, yazısız masa arka planı, solda logo ve dönen ifadeler, sağda düz dosya kâğıdı; Apple/Google logoları temsilî. Açılış: Gemini videosu (yağmurlu adsız şehir, Bora) üstünde sırayla KARINE ve Bube Games logoları, yükleme sağ altta; "Made with Unity" kapalı. Başsız PlayMode ekran görüntüleriyle görüldü, cihazda değil. 143 EditMode + 28 PlayMode.
 
 **9 Ekim:** **Almanca çeviri tamamlandı.** 73 dosya ve ortak arayüz, 12.833 satır; çeviri denetimi 0 sorun. Sözlük: [Translation/GLOSSARY_de.md](Translation/GLOSSARY_de.md). 143 EditMode geçiyor. Kalan diller (fr, it, es, pt-BR) kullanıcı onayı bekliyor. **Almanca metin oyunda okunmadı** → `[~]`.
 
