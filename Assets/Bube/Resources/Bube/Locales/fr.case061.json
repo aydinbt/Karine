@@ -1,0 +1,400 @@
+{
+ "entries": [
+  {
+   "key": "case061.anika.body",
+   "value": "Joueuse de hockey."
+  },
+  {
+   "key": "case061.anika.deflect",
+   "value": "Je venais juste pour l’entraînement du matin."
+  },
+  {
+   "key": "case061.anika.found.answer",
+   "value": "De la vapeur blanche sortait sous la porte ; mes yeux brûlaient. J’ai voulu prendre le masque à côté de la porte ; le crochet était vide. J’ai retenu ma respiration et j’ai ouvert la porte ; Gilles était par terre. La vanne n’avait pas de poignée ; je l’ai dit à la police après, parce que Gilles m’avait montré les poignées. « Touche pas à ça », il m’avait dit."
+  },
+  {
+   "key": "case061.anika.found.answer.demeanor",
+   "value": "Tient son casque sur ses genoux à deux mains."
+  },
+  {
+   "key": "case061.anika.found.question",
+   "value": "Qu’avez-vous vu ?"
+  },
+  {
+   "key": "case061.anika.title",
+   "value": "Anika Sharma — audition"
+  },
+  {
+   "key": "case061.autopsy.body",
+   "value": "· Cause du décès : inhalation d’ammoniac ; œdème pulmonaire.\n· Un petit coup rond sur la tempe gauche ; trop net pour venir d’une chute. Il a respiré le gaz inconscient.\n· Heure du décès : 22.00–23.30 (la veille au soir)."
+  },
+  {
+   "key": "case061.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case061.clue.check",
+   "value": "Le gérant écrit « vannes normales » dans le registre."
+  },
+  {
+   "key": "case061.clue.found",
+   "value": "La joueuse voit de la vapeur filtrer sous la porte."
+  },
+  {
+   "key": "case061.clue.note",
+   "value": "Le maître de glace écrit dans le registre que le compresseur est vieux."
+  },
+  {
+   "key": "case061.clue.source.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.clue.source.log",
+   "value": "Registre d’entretien"
+  },
+  {
+   "key": "case061.custody.bin",
+   "value": "Dans la poubelle du vestiaire"
+  },
+  {
+   "key": "case061.custody.drawer",
+   "value": "Dans le tiroir du bureau du gérant"
+  },
+  {
+   "key": "case061.custody.ice",
+   "value": "Dans le canal des tuyaux sous la patinoire"
+  },
+  {
+   "key": "case061.custody.label",
+   "value": "Où est passée la poignée de la vanne ?"
+  },
+  {
+   "key": "case061.epilogue.custody.bin",
+   "value": "La poubelle était vide."
+  },
+  {
+   "key": "case061.epilogue.custody.drawer",
+   "value": "Il a été consigné que la poignée de la vanne avait été retrouvée dans le tiroir du gérant."
+  },
+  {
+   "key": "case061.epilogue.custody.ice",
+   "value": "Les canaux ont été ouverts ; la poignée n’y était pas."
+  },
+  {
+   "key": "case061.epilogue.verdict.accident",
+   "value": "Le décès a été jugé comme une panne ; la patinoire a fermé une semaine, puis a rouvert avec le vieux compresseur."
+  },
+  {
+   "key": "case061.epilogue.verdict.anika",
+   "value": "Anika Sharma a été interrogée et a quitté l’équipe ; la poignée est restée dans le tiroir."
+  },
+  {
+   "key": "case061.epilogue.verdict.lavoie",
+   "value": "Marc-André Lavoie a été arrêté ; le faux renouvellement a été signalé à la ville. Le « programme d’infrastructures municipales » de Laurentide Réassurance est entré dans le dossier de l’antenne du Mile End."
+  },
+  {
+   "key": "case061.epilogue.verdict.ouellet",
+   "value": "Denis Ouellet a été arrêté ; le vieux compresseur a continué de tourner."
+  },
+  {
+   "key": "case061.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case061.evidence.log",
+   "value": "Registre d’entretien"
+  },
+  {
+   "key": "case061.evidence.office",
+   "value": "Fouille du bureau du gérant"
+  },
+  {
+   "key": "case061.evidence.room",
+   "value": "Examen de la salle des compresseurs"
+  },
+  {
+   "key": "case061.feedback.accident",
+   "value": "La poignée de la vanne avait été retirée et la porte était fermée à clé de l’extérieur."
+  },
+  {
+   "key": "case061.feedback.anika",
+   "value": "La joueuse est venue le matin et a ouvert la porte ; le décès a eu lieu la veille au soir."
+  },
+  {
+   "key": "case061.feedback.lavoie",
+   "value": "La poignée de la vanne et le masque manquant sont sortis de son bureau ; son empreinte est sur la poignée. La ligne « normal » du registre tombe dans l’heure du décès, et seuls lui et la victime pouvaient entrer dans la salle avec une clé."
+  },
+  {
+   "key": "case061.feedback.ouellet",
+   "value": "L’entraîneur s’était brouillé avec la victime, mais il n’a pas la clé de la salle des compresseurs et était chez lui cette nuit-là."
+  },
+  {
+   "key": "case061.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case061.file.value.bureau",
+   "value": "BDM Montréal — Antenne du Mile End"
+  },
+  {
+   "key": "case061.file.value.location",
+   "value": "Aréna du Parc, Mile End, Montréal"
+  },
+  {
+   "key": "case061.file.value.number",
+   "value": "BDM-MTL-2030-0206"
+  },
+  {
+   "key": "case061.file.value.offence",
+   "value": "Mort suspecte — gaz"
+  },
+  {
+   "key": "case061.file.value.reporter",
+   "value": "Joueuse"
+  },
+  {
+   "key": "case061.lavoie.body",
+   "value": "Gérant de la patinoire."
+  },
+  {
+   "key": "case061.lavoie.deflect",
+   "value": "Cette patinoire appartient au quartier ; je ne fais que la gérer."
+  },
+  {
+   "key": "case061.lavoie.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case061.lavoie.end.decoy.log",
+   "value": "Regardez le registre : 21.40, « vannes vérifiées, normal ». Ma signature. Quand je suis parti, tout était à sa place."
+  },
+  {
+   "key": "case061.lavoie.end.presented.office",
+   "value": "Gilles avait vu la plaque du compresseur ; il allait écrire à la ville. L’argent du renouvellement… Un homme de Laurentide avait dit : « Personne ne regarde sous un vieux compresseur. » Gilles a regardé. Je l’ai frappé avec une clé, j’ai ouvert la vanne, enlevé la poignée, pris le masque. J’ai écrit « normal » dans le registre. Ma main n’a même pas tremblé en écrivant cette ligne."
+  },
+  {
+   "key": "case061.lavoie.end.question",
+   "value": "Vous avez laissé Gilles dans la salle des compresseurs."
+  },
+  {
+   "key": "case061.lavoie.night.answer",
+   "value": "J’ai fait ma tournée de vérification du soir, comme tous les soirs. Gilles n’était pas là à cette heure-là. Il était vieux ; peut-être qu’il a ouvert la vanne lui-même, peut-être une panne."
+  },
+  {
+   "key": "case061.lavoie.night.answer.demeanor",
+   "value": "Remonte la fermeture de sa polaire jusqu’au menton."
+  },
+  {
+   "key": "case061.lavoie.night.question",
+   "value": "Êtes-vous entré dans la salle des compresseurs hier soir ?"
+  },
+  {
+   "key": "case061.lavoie.title",
+   "value": "Marc-André Lavoie — audition"
+  },
+  {
+   "key": "case061.log.body",
+   "value": "Registre d’entretien de la salle des compresseurs, 5 novembre :\n\n· 16.00 — G. Roy : « Pression de la ligne principale élevée. Le compresseur installé comme système neuf est vieux, son étiquette a été changée. Je le dirai au gérant. »\n· 21.40 — Marc-André Lavoie : « Vannes vérifiées, normal. »\n\nOn entre dans la salle des compresseurs non pas avec une carte mais avec une clé ; les clés sont chez le gérant et le maître de glace."
+  },
+  {
+   "key": "case061.log.title",
+   "value": "REGISTRE D’ENTRETIEN DES COMPRESSEURS"
+  },
+  {
+   "key": "case061.method.ammonia",
+   "value": "Il a été assommé et enfermé dans une salle avec la vanne d’ammoniac ouverte"
+  },
+  {
+   "key": "case061.method.fall",
+   "value": "Il a glissé et s’est cogné la tête"
+  },
+  {
+   "key": "case061.method.label",
+   "value": "Comment est-il mort ?"
+  },
+  {
+   "key": "case061.method.leak",
+   "value": "Il a été intoxiqué par une fuite survenue toute seule"
+  },
+  {
+   "key": "case061.offer.subtitle",
+   "value": "PATINOIRE  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case061.offer.summary",
+   "value": "Un maître de glace de trente ans de métier est mort d’ammoniac dans la salle des compresseurs de la patinoire ; la vanne n’avait pas de poignée."
+  },
+  {
+   "key": "case061.offer.title",
+   "value": "DOSSIER #061"
+  },
+  {
+   "key": "case061.office.body",
+   "value": "Le bureau de Marc-André Lavoie à la patinoire (avec l’accord du chef d’antenne) :\n\n· Dans le tiroir du bas du bureau, la poignée de la soupape de décharge ; des résidus d’ammoniac dans l’emboîtement de la poignée, l’empreinte de Marc-André Lavoie dessus.\n· Dans l’armoire, le masque d’urgence de la salle des compresseurs.\n· Dans un classeur, la facture du « renouvellement » du système de refroidissement : 1,8 million de dollars ; assuré par Laurentide Réassurance, « programme d’infrastructures municipales »."
+  },
+  {
+   "key": "case061.office.title",
+   "value": "BUREAU DU GÉRANT — FOUILLE"
+  },
+  {
+   "key": "case061.ouellet.body",
+   "value": "Entraîneur."
+  },
+  {
+   "key": "case061.ouellet.deflect",
+   "value": "J’apprends aux enfants à patiner."
+  },
+  {
+   "key": "case061.ouellet.fight.answer",
+   "value": "Pour les heures de glace ; il les donnait toujours aux ligues adultes. J’ai crié, oui, la semaine dernière devant tout le monde. Mais hier soir j’étais chez moi ; j’ai une femme et trois enfants. Gilles m’avait dit quelque chose, par contre : « Le renouvellement de Marc-André, c’est une fraude ; je vais écrire à la ville. »"
+  },
+  {
+   "key": "case061.ouellet.fight.answer.demeanor",
+   "value": "Enroule le cordon de son sifflet autour de son doigt."
+  },
+  {
+   "key": "case061.ouellet.fight.question",
+   "value": "Pourquoi vous étiez-vous brouillé avec Gilles ?"
+  },
+  {
+   "key": "case061.ouellet.title",
+   "value": "Denis Ouellet — audition"
+  },
+  {
+   "key": "case061.person.anika.info",
+   "value": "16 ans, joueuse de hockey ; elle a trouvé le corps."
+  },
+  {
+   "key": "case061.person.anika.name",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.person.lavoie.info",
+   "value": "49 ans, gérant de la patinoire du quartier."
+  },
+  {
+   "key": "case061.person.lavoie.name",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.person.ouellet.info",
+   "value": "55 ans, entraîneur de l’équipe de hockey jeunesse."
+  },
+  {
+   "key": "case061.person.ouellet.name",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.report.body",
+   "value": "Le matin du 6 novembre 2030, dans la salle des compresseurs de la patinoire Aréna du Parc au Mile End, le maître de glace Gilles Roy (61 ans) a été retrouvé mort. Forte concentration d’ammoniac dans la salle ; la soupape de décharge ouverte, sa poignée manquante.\n\nLa joueuse de l’équipe jeunesse Anika Sharma a trouvé le corps à 06.10 en voyant de la vapeur blanche filtrer sous la porte de la salle des compresseurs. Le gérant de la patinoire Marc-André Lavoie et l’entraîneur Denis Ouellet sont arrivés à 06.20."
+  },
+  {
+   "key": "case061.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case061.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case061.request.log",
+   "value": "Demander le registre d’entretien des compresseurs"
+  },
+  {
+   "key": "case061.request.office",
+   "value": "Demander l’autorisation de fouiller le bureau du gérant"
+  },
+  {
+   "key": "case061.request.room",
+   "value": "Demander un examen de la salle des compresseurs"
+  },
+  {
+   "key": "case061.room.body",
+   "value": "· La soupape de décharge est grande ouverte ; la poignée a été retirée. Sans poignée, la vanne ne peut pas être fermée à la main.\n· La porte est fermée à clé de l’extérieur. Le crochet du masque d’urgence est vide ; le masque n’est pas non plus dans la salle.\n· La plaque du compresseur enregistré comme « neuf » a été enlevée puis rivetée à nouveau ; l’année de fabrication en dessous est 1998."
+  },
+  {
+   "key": "case061.room.title",
+   "value": "EXAMEN DE LA SALLE DES COMPRESSEURS"
+  },
+  {
+   "key": "case061.summary.evidence",
+   "value": "Le registre était un leurre : la signature du gérant disait qu’il était le dernier dans la salle, pas qu’il était hors de cause. L’examen de la salle et l’entraîneur ont fait ouvrir la fouille ; la fouille a trouvé la poignée et le masque."
+  },
+  {
+   "key": "case061.summary.lesson",
+   "value": "Il a écrit « normal ». Il a oublié d’effacer la ligne de Gilles au-dessus."
+  },
+  {
+   "key": "case061.summary.location",
+   "value": "Aréna du Parc — novembre 2030"
+  },
+  {
+   "key": "case061.summary.truth",
+   "value": "Le gérant Marc-André Lavoie a fait passer le système de refroidissement de la patinoire pour « renouvelé » et a empoché 1,8 million de dollars ; le compresseur installé était un appareil de 1998 réétiqueté. Le maître de glace Gilles Roy a vu la plaque et allait écrire à la ville. Lavoie l’a assommé dans la salle des compresseurs, a ouvert la vanne d’ammoniac et en a retiré la poignée, a pris le masque, a fermé la porte à clé et a écrit « normal » dans le registre."
+  },
+  {
+   "key": "case061.suspect.label",
+   "value": "Qui a tué Gilles Roy ?"
+  },
+  {
+   "key": "case061.tablet.caseLine",
+   "value": "DOSSIER #061  /  BUBE MONTRÉAL — MILE END"
+  },
+  {
+   "key": "case061.time.check",
+   "value": "21.40"
+  },
+  {
+   "key": "case061.time.found",
+   "value": "06.10"
+  },
+  {
+   "key": "case061.time.note",
+   "value": "16.00"
+  },
+  {
+   "key": "case061.title",
+   "value": "Dossier #061 — Patinoire"
+  },
+  {
+   "key": "case061.verdict.accident",
+   "value": "Personne — une panne"
+  },
+  {
+   "key": "case061.verdict.anika",
+   "value": "Anika Sharma"
+  },
+  {
+   "key": "case061.verdict.lavoie",
+   "value": "Marc-André Lavoie"
+  },
+  {
+   "key": "case061.verdict.ouellet",
+   "value": "Denis Ouellet"
+  },
+  {
+   "key": "case061.item.valve.name",
+   "value": "Poignée de la vanne du compresseur"
+  },
+  {
+   "key": "case061.item.valve.detail",
+   "value": "La poignée retirée de la soupape de décharge de la ligne d’ammoniac ; elle est sortie du tiroir du bas du bureau du gérant."
+  },
+  {
+   "key": "case061.item.log.name",
+   "value": "Registre d’entretien"
+  },
+  {
+   "key": "case061.item.log.detail",
+   "value": "Le registre d’entretien de la salle des compresseurs ; la ligne d’hier dit « vannes vérifiées, normal »."
+  },
+  {
+   "key": "case061.item.mask.name",
+   "value": "Crochet du masque à gaz"
+  },
+  {
+   "key": "case061.item.mask.detail",
+   "value": "Le crochet du masque d’urgence sur la porte de la salle des compresseurs ; vide."
+  }
+ ]
+}

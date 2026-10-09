@@ -1,0 +1,500 @@
+{
+ "entries": [
+  {
+   "key": "case062.aisle.body",
+   "value": "Allée arrière de l’entrepôt. 9 novembre 22.30 – 23.45."
+  },
+  {
+   "key": "case062.aisle.title",
+   "value": "CAMÉRA DE L’ALLÉE ARRIÈRE — transcription du relevé"
+  },
+  {
+   "key": "case062.autopsy.body",
+   "value": "· Cause du décès : écrasement ; fractures multiples.\n· Les blessures concordent avec la chute simultanée de plusieurs barils lourds depuis le haut.\n· Dans sa main, un petit maillet en caoutchouc, serré fort.\n· Heure du décès : 23.25–23.40."
+  },
+  {
+   "key": "case062.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case062.cctv.event.lift",
+   "value": "Caméra : Un chariot élévateur avec un seul conducteur, costaud, débouche du fond de l’allée, fourches levées."
+  },
+  {
+   "key": "case062.cctv.event.rev",
+   "value": "Caméra : Le chariot recule vite ; derrière lui, de la poussière et des barils qui basculent."
+  },
+  {
+   "key": "case062.cctv.event.tap",
+   "value": "Caméra : Une femme avec un porte-bloc longe l’allée en tapant les barils un à un avec un petit maillet."
+  },
+  {
+   "key": "case062.cctv.overlay",
+   "value": "EDE-AIS"
+  },
+  {
+   "key": "case062.cctv.period",
+   "value": "9 novembre 2030"
+  },
+  {
+   "key": "case062.cctv.source",
+   "value": "Caméra de l’allée"
+  },
+  {
+   "key": "case062.clue.charge",
+   "value": "La conductrice branche son propre chariot à la recharge et s’en va."
+  },
+  {
+   "key": "case062.clue.found",
+   "value": "Le veilleur trouve l’inspectrice sous les barils."
+  },
+  {
+   "key": "case062.clue.lift",
+   "value": "Le chariot au conducteur costaud entre dans l’allée, fourches levées."
+  },
+  {
+   "key": "case062.clue.rev",
+   "value": "Le chariot recule ; les barils basculent."
+  },
+  {
+   "key": "case062.clue.source.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.clue.source.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.clue.tap",
+   "value": "L’inspectrice tape les barils un à un avec un maillet."
+  },
+  {
+   "key": "case062.count.body",
+   "value": "Relevé d’inventaire d’octobre :\n\n· Stock total : 1 200 barils, sirop de catégorie A. « Complet. »\n· Compté et signé par : le contremaître Réjean Gauthier.\n· Approuvé au nom de la coopérative : Claudette Marceau (sur la base du relevé).\n· Demande d’audit par une inspectrice : le 2 novembre, par la présidente de la coopérative."
+  },
+  {
+   "key": "case062.count.title",
+   "value": "RELEVÉ D’INVENTAIRE DE L’ENTREPÔT"
+  },
+  {
+   "key": "case062.custody.board",
+   "value": "Raccrochée au tableau des clés"
+  },
+  {
+   "key": "case062.custody.drain",
+   "value": "Dans la grille d’égout de l’entrepôt"
+  },
+  {
+   "key": "case062.custody.label",
+   "value": "Où est passée la clé du deuxième chariot ?"
+  },
+  {
+   "key": "case062.custody.visor",
+   "value": "Derrière le pare-soleil du pick-up du contremaître"
+  },
+  {
+   "key": "case062.epilogue.custody.board",
+   "value": "Cette clé n’était pas au tableau."
+  },
+  {
+   "key": "case062.epilogue.custody.drain",
+   "value": "La grille a été ouverte ; la clé n’y était pas."
+  },
+  {
+   "key": "case062.epilogue.custody.visor",
+   "value": "Il a été consigné que la clé de contact avait été retrouvée dans le pare-soleil du pick-up."
+  },
+  {
+   "key": "case062.epilogue.verdict.accident",
+   "value": "Le décès a été jugé comme un accident du travail ; le relevé d’inventaire a dit « complet » une fois de plus."
+  },
+  {
+   "key": "case062.epilogue.verdict.fortin",
+   "value": "Kayla Fortin a été arrêtée ; la rangée quatorze a été réempilée."
+  },
+  {
+   "key": "case062.epilogue.verdict.gauthier",
+   "value": "Réjean Gauthier a été arrêté ; un quart de l’entrepôt s’est avéré être de l’eau. La police « réserve agricole » de Laurentide Réassurance est entrée dans le dossier de l’antenne du Mile End."
+  },
+  {
+   "key": "case062.epilogue.verdict.tran",
+   "value": "Minh Tran a été arrêté ; la clé est restée dans le pare-soleil."
+  },
+  {
+   "key": "case062.evidence.aisle",
+   "value": "Caméra de l’allée arrière"
+  },
+  {
+   "key": "case062.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case062.evidence.count",
+   "value": "Relevé d’inventaire de l’entrepôt"
+  },
+  {
+   "key": "case062.evidence.truck",
+   "value": "Fouille du pick-up et du bureau du contremaître"
+  },
+  {
+   "key": "case062.feedback.accident",
+   "value": "Les barils ne sont pas tombés tout seuls ; ils ont été poussés par un chariot aux fourches levées."
+  },
+  {
+   "key": "case062.feedback.fortin",
+   "value": "Le chariot de la conductrice était en charge à ce moment-là ; la clé du deuxième chariot n’est pas la sienne."
+  },
+  {
+   "key": "case062.feedback.gauthier",
+   "value": "La clé du deuxième chariot est sortie de son pick-up, avec son empreinte ; le chariot de la conductrice était en charge. La caméra montre un seul conducteur costaud lever les fourches et reculer. Le relevé d’inventaire ne le met pas hors de cause : c’est lui qui l’a écrit."
+  },
+  {
+   "key": "case062.feedback.tran",
+   "value": "Le veilleur a accouru après le bruit ; il ne sait pas conduire un chariot, et la caméra ne le montre pas."
+  },
+  {
+   "key": "case062.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case062.file.value.bureau",
+   "value": "BDM Montréal — Antenne du Mile End"
+  },
+  {
+   "key": "case062.file.value.location",
+   "value": "Entrepôt des Érablières, Montréal"
+  },
+  {
+   "key": "case062.file.value.number",
+   "value": "BDM-MTL-2030-0212"
+  },
+  {
+   "key": "case062.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case062.file.value.reporter",
+   "value": "Veilleur de nuit"
+  },
+  {
+   "key": "case062.fortin.body",
+   "value": "Conductrice de chariot élévateur."
+  },
+  {
+   "key": "case062.fortin.deflect",
+   "value": "Je conduis le chariot ; je ne compte pas les barils."
+  },
+  {
+   "key": "case062.fortin.shift.answer",
+   "value": "À neuf heures, je l’ai branché à la recharge et je suis partie. La clé du deuxième chariot, c’est le contremaître qui la garde ; il ne la donne à personne. Le mois dernier, il a dit : « Les barils, c’est moi qui les empile, n’y touche pas », la rangée quatorze. J’ai demandé pourquoi ; « le classement », il a dit. Je n’ai écrasé personne. Mon chariot était en charge."
+  },
+  {
+   "key": "case062.fortin.shift.answer.demeanor",
+   "value": "Tripote la fermeture de son gilet."
+  },
+  {
+   "key": "case062.fortin.shift.question",
+   "value": "Avez-vous utilisé votre chariot ce soir ?"
+  },
+  {
+   "key": "case062.fortin.title",
+   "value": "Kayla Fortin — audition"
+  },
+  {
+   "key": "case062.gauthier.body",
+   "value": "Contremaître."
+  },
+  {
+   "key": "case062.gauthier.deflect",
+   "value": "Je dirige cet entrepôt depuis trente ans."
+  },
+  {
+   "key": "case062.gauthier.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case062.gauthier.end.decoy.count",
+   "value": "Le relevé est là : mille deux cents barils, complet. J’ai compté, la présidente a approuvé. Si je n’avais rien à me reprocher, pourquoi j’aurais tué quelqu’un ?"
+  },
+  {
+   "key": "case062.gauthier.end.presented.truck",
+   "value": "La moitié de la rangée quatorze, c’est de l’eau. Six ans, un peu chaque année. Un homme de Laurentide a dit : « Que le stock soit complet sur le papier, on s’occupe du reste » ; la prime était payée, le sirop vendu. Hélène a trouvé la rangée. J’ai pris le deuxième chariot, levé les fourches jusqu’au dernier rayon et j’ai poussé. J’ai mis la clé dans mon pick-up. Le lendemain matin, j’allais encore écrire « complet » sur l’inventaire."
+  },
+  {
+   "key": "case062.gauthier.end.question",
+   "value": "Vous avez fait basculer les barils sur Hélène."
+  },
+  {
+   "key": "case062.gauthier.night.answer",
+   "value": "J’étais au bureau, de la paperasse. J’avais dit à l’inspectrice : « Les rayons sont hauts, c’est dangereux la nuit » ; elle n’a pas écouté. À taper et taper sur les barils avec son maillet, elle a fait bouger la pile et elle a basculé."
+  },
+  {
+   "key": "case062.gauthier.night.answer.demeanor",
+   "value": "Tire sur sa moustache avec sa lèvre inférieure."
+  },
+  {
+   "key": "case062.gauthier.night.question",
+   "value": "Où étiez-vous dans l’entrepôt ce soir ?"
+  },
+  {
+   "key": "case062.gauthier.title",
+   "value": "Réjean Gauthier — audition"
+  },
+  {
+   "key": "case062.leblanc.body",
+   "value": "Le mari de la victime."
+  },
+  {
+   "key": "case062.leblanc.deflect",
+   "value": "Hélène ne ramenait pas son travail à la maison."
+  },
+  {
+   "key": "case062.leblanc.notes.answer",
+   "value": "Elle ne me racontait pas les choses, mais hier soir au dîner elle a dit : « Le contremaître ne voulait pas me laisser entrer dans l’entrepôt la nuit ; j’ai insisté. » « S’ils ont vidé la moitié des barils et les ont remplis d’eau, l’assurance est bidon aussi », elle a dit. J’ai ri. Je n’aurais pas dû rire."
+  },
+  {
+   "key": "case062.leblanc.notes.answer.demeanor",
+   "value": "Enlève ses lunettes et les garde dans sa paume."
+  },
+  {
+   "key": "case062.leblanc.notes.question",
+   "value": "Que vous a dit Hélène ces derniers jours ?"
+  },
+  {
+   "key": "case062.leblanc.title",
+   "value": "Paul Leblanc — audition"
+  },
+  {
+   "key": "case062.marceau.body",
+   "value": "Présidente de la coopérative."
+  },
+  {
+   "key": "case062.marceau.deflect",
+   "value": "La coopérative appartient à quatre cents producteurs."
+  },
+  {
+   "key": "case062.marceau.title",
+   "value": "Claudette Marceau — audition"
+  },
+  {
+   "key": "case062.marceau.why.answer",
+   "value": "Il y avait sur le marché un sirop moins cher que le nôtre, dans des barils qui ressemblaient aux nôtres. Le relevé disait « complet », mais j’ai dit à Hélène : « Tape-les un par un. » Un baril plein de sirop rend un son sourd ; l’eau, c’est différent. Ce soir elle m’a envoyé un message : « Dans la rangée quatorze, les sons ne vont pas. »"
+  },
+  {
+   "key": "case062.marceau.why.answer.demeanor",
+   "value": "Serre fort la ceinture de son gilet."
+  },
+  {
+   "key": "case062.marceau.why.question",
+   "value": "Pourquoi avez-vous fait venir l’inspectrice ?"
+  },
+  {
+   "key": "case062.method.forklift",
+   "value": "Les barils du dernier rayon ont été poussés sur elle avec un chariot élévateur"
+  },
+  {
+   "key": "case062.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case062.method.slip",
+   "value": "Elle est tombée d’un rayonnage"
+  },
+  {
+   "key": "case062.method.topple",
+   "value": "La pile qu’elle tapait a basculé"
+  },
+  {
+   "key": "case062.offer.subtitle",
+   "value": "ENTREPÔT DE SIROP  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case062.offer.summary",
+   "value": "Une inspectrice du sirop a été écrasée sous des barils qui ont basculé ; de l’eau coulait des barils éventrés."
+  },
+  {
+   "key": "case062.offer.title",
+   "value": "DOSSIER #062"
+  },
+  {
+   "key": "case062.person.fortin.info",
+   "value": "29 ans, conductrice de chariot élévateur."
+  },
+  {
+   "key": "case062.person.fortin.name",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.person.gauthier.info",
+   "value": "51 ans, contremaître de l’entrepôt de sirop d’érable."
+  },
+  {
+   "key": "case062.person.gauthier.name",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.person.leblanc.info",
+   "value": "60 ans, le mari de la victime."
+  },
+  {
+   "key": "case062.person.leblanc.name",
+   "value": "Paul Leblanc"
+  },
+  {
+   "key": "case062.person.marceau.info",
+   "value": "63 ans, présidente de la coopérative de producteurs."
+  },
+  {
+   "key": "case062.person.marceau.name",
+   "value": "Claudette Marceau"
+  },
+  {
+   "key": "case062.person.tran.info",
+   "value": "46 ans, le veilleur de nuit de l’entrepôt."
+  },
+  {
+   "key": "case062.person.tran.name",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.report.body",
+   "value": "Dans la nuit du 9 novembre 2030, à l’Entrepôt des Érablières au nord de Montréal, l’inspectrice du classement du sirop Hélène Côté (58 ans) a été retrouvée morte sous une pile de barils tombés d’un rayonnage haut. De l’eau coulait de deux barils éventrés.\n\nLe veilleur de nuit Minh Tran a trouvé le corps à 23.40 en entendant le bruit. À l’entrepôt ce soir-là : le contremaître Réjean Gauthier, la conductrice de chariot Kayla Fortin. La présidente de la coopérative Claudette Marceau et le mari de la victime, Paul Leblanc, sont arrivés dans la nuit."
+  },
+  {
+   "key": "case062.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case062.request.autopsy",
+   "value": "Demander le rapport d’autopsie"
+  },
+  {
+   "key": "case062.request.count",
+   "value": "Demander le relevé d’inventaire de l’entrepôt"
+  },
+  {
+   "key": "case062.request.truck",
+   "value": "Demander l’autorisation de fouiller le pick-up et le bureau du contremaître"
+  },
+  {
+   "key": "case062.summary.evidence",
+   "value": "Le relevé était un leurre : la signature ne mettait pas le contremaître hors de cause, elle montrait à qui appartenait le faux. Le veilleur, la conductrice et la caméra ont mené au chariot ; la présidente et le mari au mobile. La fouille a trouvé la clé dans le pare-soleil."
+  },
+  {
+   "key": "case062.summary.lesson",
+   "value": "Le relevé était complet. Les barils, non."
+  },
+  {
+   "key": "case062.summary.location",
+   "value": "Entrepôt des Érablières — novembre 2030"
+  },
+  {
+   "key": "case062.summary.truth",
+   "value": "Pendant six ans, le contremaître Réjean Gauthier a vendu le sirop des barils de la rangée quatorze et les a remplis d’eau colorée ; il écrivait lui-même le relevé d’inventaire comme « complet », et les primes d’assurance étaient payées comme sur un vrai stock. L’inspectrice Hélène Côté, appelée par la coopérative, a trouvé la rangée en tapant les barils avec un maillet. Gauthier a pris le deuxième chariot, a poussé sur elle les barils du dernier rayon et a glissé la clé dans son pick-up."
+  },
+  {
+   "key": "case062.suspect.label",
+   "value": "Qui a tué Hélène Côté ?"
+  },
+  {
+   "key": "case062.tablet.caseLine",
+   "value": "DOSSIER #062  /  BUBE MONTRÉAL — MILE END"
+  },
+  {
+   "key": "case062.time.charge",
+   "value": "21.00"
+  },
+  {
+   "key": "case062.time.found",
+   "value": "23.40"
+  },
+  {
+   "key": "case062.time.lift",
+   "value": "23.27"
+  },
+  {
+   "key": "case062.time.rev",
+   "value": "23.29"
+  },
+  {
+   "key": "case062.time.tap",
+   "value": "23.12"
+  },
+  {
+   "key": "case062.title",
+   "value": "Dossier #062 — Entrepôt de sirop"
+  },
+  {
+   "key": "case062.tran.body",
+   "value": "Veilleur de nuit."
+  },
+  {
+   "key": "case062.tran.deflect",
+   "value": "La nuit, je suis au portail."
+  },
+  {
+   "key": "case062.tran.noise.answer",
+   "value": "Vers 23.30, le bruit d’un chariot, puis un énorme fracas. J’ai couru ; le chariot de Kayla était à sa place, en charge. Le deuxième chariot était au bout de l’allée, sans clé de contact. Il y a une caméra dans l’entrepôt tournée vers l’allée arrière ; je ne regarde pas l’écran, elle enregistre."
+  },
+  {
+   "key": "case062.tran.noise.answer.demeanor",
+   "value": "Redresse ses lunettes à deux mains."
+  },
+  {
+   "key": "case062.tran.noise.question",
+   "value": "Qu’avez-vous entendu pendant la nuit ?"
+  },
+  {
+   "key": "case062.tran.title",
+   "value": "Minh Tran — audition"
+  },
+  {
+   "key": "case062.truck.body",
+   "value": "Le pick-up de Réjean Gauthier et son bureau à l’entrepôt (avec l’accord du chef d’antenne) :\n\n· Derrière le pare-soleil du pick-up, la clé de contact du deuxième chariot ; l’empreinte de Réjean Gauthier et du sirop sur la clé.\n· Dans l’armoire du bureau, des bidons de liquide colorant et des couvercles de barils de sirop vides.\n· Sur son téléphone, à un numéro chez Laurentide Réassurance, le 9 novembre à 23.52 : « L’inspectrice ne posera pas de problème. »"
+  },
+  {
+   "key": "case062.truck.title",
+   "value": "PICK-UP ET BUREAU DU CONTREMAÎTRE — FOUILLE"
+  },
+  {
+   "key": "case062.verdict.accident",
+   "value": "Personne — la pile a basculé"
+  },
+  {
+   "key": "case062.verdict.fortin",
+   "value": "Kayla Fortin"
+  },
+  {
+   "key": "case062.verdict.gauthier",
+   "value": "Réjean Gauthier"
+  },
+  {
+   "key": "case062.verdict.tran",
+   "value": "Minh Tran"
+  },
+  {
+   "key": "case062.item.barrel.name",
+   "value": "Baril rempli d’eau"
+  },
+  {
+   "key": "case062.item.barrel.detail",
+   "value": "Un baril de sirop éventré ; le liquide dedans est de l’eau colorée, avec seulement un doigt de sirop dessus."
+  },
+  {
+   "key": "case062.item.count.name",
+   "value": "Relevé d’inventaire"
+  },
+  {
+   "key": "case062.item.count.detail",
+   "value": "Le relevé mensuel de l’entrepôt ; « 1 200 barils, complet », la signature du contremaître."
+  },
+  {
+   "key": "case062.item.key.name",
+   "value": "Clé de contact du chariot"
+  },
+  {
+   "key": "case062.item.key.detail",
+   "value": "La clé de contact du deuxième chariot ; elle est sortie de derrière le pare-soleil du pick-up du contremaître."
+  }
+ ]
+}
