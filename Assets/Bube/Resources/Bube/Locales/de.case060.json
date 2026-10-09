@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case060.alley.body",
+   "value": "Gasse hinter der Bäckerei. 3. November 22.45 – 23.59."
+  },
+  {
+   "key": "case060.alley.title",
+   "value": "KAMERA SEITENGASSE — Aufzeichnungsprotokoll"
+  },
+  {
+   "key": "case060.autopsy.body",
+   "value": "· Todesursache: Schädelbruch.\n· Am Hinterkopf eine lange, geradkantige Schlagspur; darin Holzsplitter und Mehl. Passt nicht zum Sturz auf den Steinboden: es gibt eine zweite, leichtere Wunde, die vom Sturz stammt.\n· Kein Alkohol im Blut.\n· Todeszeit: 23.00–23.40."
+  },
+  {
+   "key": "case060.autopsy.title",
+   "value": "OBDUKTIONSBERICHT"
+  },
+  {
+   "key": "case060.bouchard.body",
+   "value": "Versicherungsgutachterin."
+  },
+  {
+   "key": "case060.bouchard.deflect",
+   "value": "Ich schaue mir Policen an."
+  },
+  {
+   "key": "case060.bouchard.policy.answer",
+   "value": "Für die Bäckerei wurde eine ‚Schlüsselperson‘-Deckung hinzugefügt: Stirbt der Besitzer, erhält der Betrieb 2,4 Millionen Dollar. Begünstigter ist der Betrieb; der neue Teilhaber des Betriebs ist eine Firma, die der Geschäftsführer gegründet hat. Auf dem Nachtrag steht die Unterschrift von Herrn Klein, aber beim Unterschriftenvergleich passte sie für mich nicht. Die Rückversicherung dieser Police liegt bei Laurentide; warum Laurentide solche ‚Kleinbetrieb‘-Policen in den letzten zwei Jahren vervielfacht hat, frage ich mich auch."
+  },
+  {
+   "key": "case060.bouchard.policy.answer.demeanor",
+   "value": "Nimmt ihr Ausweisband vom Hals und legt es auf den Tisch."
+  },
+  {
+   "key": "case060.bouchard.policy.question",
+   "value": "Was hat sich vor zwei Monaten an der Police geändert?"
+  },
+  {
+   "key": "case060.bouchard.title",
+   "value": "Nadia Bouchard — Befragung"
+  },
+  {
+   "key": "case060.cctv.event.back",
+   "value": "Kamera: Derselbe Mann kehrt acht Minuten später in die Seitengasse zurück und schließt die Hintertür mit einem Schlüssel auf."
+  },
+  {
+   "key": "case060.cctv.event.out",
+   "value": "Kamera: Ein Mann in Steppweste geht durch die Seitengasse auf die Straße und entfernt sich."
+  },
+  {
+   "key": "case060.cctv.event.sack",
+   "value": "Kamera: Der Mann kommt mit etwas Langem, in einen Sack gewickelt, aus der Hintertür und geht zum Holzstapel."
+  },
+  {
+   "key": "case060.cctv.overlay",
+   "value": "MTL-ALY"
+  },
+  {
+   "key": "case060.cctv.period",
+   "value": "3. November 2030"
+  },
+  {
+   "key": "case060.cctv.source",
+   "value": "Kamera des Ladens gegenüber"
+  },
+  {
+   "key": "case060.clock.body",
+   "value": "Stempeluhrprotokoll der Bäckerei, 3. November:\n\n· Sophie Gagnon — Eingang 07.00, Ausgang 22.00.\n· Yan Tremblay — Eingang 09.12, Ausgang 23.05.\n· Dmitri Volkov — Eingang 00.14.\n· Mordecai Klein stempelt nicht.\n\nDie Hintertür hat keine Stempeluhr."
+  },
+  {
+   "key": "case060.clock.title",
+   "value": "STEMPELUHRPROTOKOLL"
+  },
+  {
+   "key": "case060.clue.back",
+   "value": "Derselbe Mann kehrt zurück und schließt die Hintertür auf."
+  },
+  {
+   "key": "case060.clue.deliv",
+   "value": "Holz wird geliefert."
+  },
+  {
+   "key": "case060.clue.found",
+   "value": "Der Nachtbäcker findet Mordecai."
+  },
+  {
+   "key": "case060.clue.out",
+   "value": "Der Mann in der Weste geht von der Gasse auf die Straße."
+  },
+  {
+   "key": "case060.clue.sack",
+   "value": "Der Mann geht mit etwas Langem in einem Sack zum Holzstapel."
+  },
+  {
+   "key": "case060.clue.source.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.clue.source.luc",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.custody.ash",
+   "value": "Er wurde im Holzofen verbrannt"
+  },
+  {
+   "key": "case060.custody.label",
+   "value": "Wohin kam der Brotschieber?"
+  },
+  {
+   "key": "case060.custody.river",
+   "value": "Er wurde in den Fluss geworfen"
+  },
+  {
+   "key": "case060.custody.woodpile",
+   "value": "Er wurde im Holzstapel versteckt"
+  },
+  {
+   "key": "case060.dmitri.body",
+   "value": "Nachtbäcker."
+  },
+  {
+   "key": "case060.dmitri.deflect",
+   "value": "Ich mache Teig, nachts."
+  },
+  {
+   "key": "case060.dmitri.found.answer",
+   "value": "Ich kam durch die Hintertür, wie jede Nacht. Der Ofen brannte lichterloh; Mordecai überlässt den Ofen niemandem, aber heute Nacht hatte er es getan. Er lag am Boden. Ein Schieber fehlte, das fiel mir auf, weil ich die Schieber zähle. Die Hintertür war abgeschlossen; einen Schlüssel haben nur ich, Mordecai und der Geschäftsführer."
+  },
+  {
+   "key": "case060.dmitri.found.answer.demeanor",
+   "value": "Klopft sich mit beiden Händen das Mehl von der Schürze."
+  },
+  {
+   "key": "case060.dmitri.found.question",
+   "value": "Wie haben Sie Mordecai gefunden?"
+  },
+  {
+   "key": "case060.dmitri.title",
+   "value": "Dmitri Volkov — Befragung"
+  },
+  {
+   "key": "case060.epilogue.custody.ash",
+   "value": "Festgehalten wurde, dass der Schieber in der Asche des Ofens verbrannt wurde."
+  },
+  {
+   "key": "case060.epilogue.custody.river",
+   "value": "Der Metallring des Schiebers kam aus der Asche des Ofens."
+  },
+  {
+   "key": "case060.epilogue.custody.woodpile",
+   "value": "Der Holzstapel wurde Scheit für Scheit abgetragen; der Schieber war nicht dort, nur der Sack hatte eine Weile dort gelegen."
+  },
+  {
+   "key": "case060.epilogue.verdict.accident",
+   "value": "Der Tod galt als Unfall; die Police wurde ausgezahlt."
+  },
+  {
+   "key": "case060.epilogue.verdict.dmitri",
+   "value": "Dmitri Volkov wurde festgenommen; die Bäckerei schloss."
+  },
+  {
+   "key": "case060.epilogue.verdict.rivka",
+   "value": "Rivka Klein wurde festgenommen; der Weg für die 2,4 Millionen Dollar war frei."
+  },
+  {
+   "key": "case060.epilogue.verdict.tremblay",
+   "value": "Yan Tremblay wurde festgenommen; der gefälschte Nachtrag wurde annulliert. Die Nummer bei Laurentide Réassurance kam in die Akte der Dienststelle Mile End."
+  },
+  {
+   "key": "case060.evidence.alley",
+   "value": "Kamera Seitengasse"
+  },
+  {
+   "key": "case060.evidence.clock",
+   "value": "Stempeluhrprotokoll"
+  },
+  {
+   "key": "case060.evidence.home",
+   "value": "Durchsuchung von Haus und Auto des Geschäftsführers"
+  },
+  {
+   "key": "case060.evidence.oven",
+   "value": "Untersuchung des Ofens"
+  },
+  {
+   "key": "case060.feedback.accident",
+   "value": "Der Boden war trocken, die erste Wunde am Hinterkopf stammt von einem geradkantigen Werkzeug."
+  },
+  {
+   "key": "case060.feedback.dmitri",
+   "value": "Der Nachtbäcker stempelte eine halbe Stunde nach dem Tod ein; die Kamera zeigt nicht ihn, sondern einen Mann in Weste."
+  },
+  {
+   "key": "case060.feedback.rivka",
+   "value": "Die Tochter ist Erbin, aber in jener Nacht war sie in Toronto; die Bäckerei wollte sie ohnehin verkaufen."
+  },
+  {
+   "key": "case060.feedback.tremblay",
+   "value": "Das Blut des Opfers und die Fasern des Schiebers im Sack in seinem Kofferraum; acht Minuten nachdem er ausgestempelt hatte, nahm ihn die Kamera auf, wie er die Hintertür aufschloss. Die Stempelkarte zeigt nur, dass er zur Tür hinausging, nicht, dass er nach Hause fuhr."
+  },
+  {
+   "key": "case060.file.caseType",
+   "value": "VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case060.file.value.bureau",
+   "value": "BDM Montreal — Dienststelle Mile End"
+  },
+  {
+   "key": "case060.file.value.location",
+   "value": "Bagels Clark, Mile End, Montreal"
+  },
+  {
+   "key": "case060.file.value.number",
+   "value": "BDM-MTL-2030-0201"
+  },
+  {
+   "key": "case060.file.value.offence",
+   "value": "Verdächtiger Todesfall"
+  },
+  {
+   "key": "case060.file.value.reporter",
+   "value": "Nachtbäcker"
+  },
+  {
+   "key": "case060.gagnon.argue.answer",
+   "value": "Ich ging um zehn. Davor haben sich Mordecai und der Geschäftsführer im Hinterzimmer angeschrien. Mordecai sagte: ‚Diese Police habe ich nicht unterschrieben, das ist nicht meine Unterschrift.‘ Der Geschäftsführer sagte: ‚Zu Ihrem Besten.‘ Ich setzte meine Kopfhörer auf."
+  },
+  {
+   "key": "case060.gagnon.argue.answer.demeanor",
+   "value": "Zupft an den Kordeln ihrer Kapuze."
+  },
+  {
+   "key": "case060.gagnon.argue.question",
+   "value": "Was ist am Abend in der Bäckerei passiert?"
+  },
+  {
+   "key": "case060.gagnon.body",
+   "value": "Kassiererin."
+  },
+  {
+   "key": "case060.gagnon.deflect",
+   "value": "Ich bin an der Kasse, tagsüber."
+  },
+  {
+   "key": "case060.gagnon.title",
+   "value": "Sophie Gagnon — Befragung"
+  },
+  {
+   "key": "case060.home.body",
+   "value": "Das Haus und das Auto von Yan Tremblay (mit Genehmigung der Dienststellenleitung):\n\n· Im Kofferraum ein mit Mehl und Holzrinde verschmutzter Sack; im Sack das Blut des Opfers und Holzfasern vom Stiel des Schiebers.\n· Auf dem Schreibtisch im Haus vierzehn Übungskopien der Unterschrift von Mordecai Klein.\n· Auf seinem Telefon am 1. November an eine Nummer bei Laurentide Réassurance: ‚Der Alte geht am Montag zum Anwalt.‘ Antwort: ‚Die Police hält.‘"
+  },
+  {
+   "key": "case060.home.title",
+   "value": "HAUS UND AUTO DES GESCHÄFTSFÜHRERS — DURCHSUCHUNG"
+  },
+  {
+   "key": "case060.luc.alley.answer",
+   "value": "Um 22.30 habe ich das Holz abgeladen. Am Anfang der Gasse hängt eine Kamera, nicht von der Stadt, sondern vom Laden gegenüber; sie zeigt auf die Seitengasse. Ich habe nichts gesehen; aber morgens merkte ich, dass jemand vor Mitternacht im Holzstapel gewühlt hatte, meine Ordnung war durcheinander."
+  },
+  {
+   "key": "case060.luc.alley.answer.demeanor",
+   "value": "Kratzt sich unter der Mütze an der Stirn."
+  },
+  {
+   "key": "case060.luc.alley.question",
+   "value": "Was haben Sie bei der Lieferung in der Seitengasse gesehen?"
+  },
+  {
+   "key": "case060.luc.body",
+   "value": "Holzlieferant."
+  },
+  {
+   "key": "case060.luc.deflect",
+   "value": "Ich bringe das Holz und gehe."
+  },
+  {
+   "key": "case060.luc.title",
+   "value": "Luc Pelletier — Befragung"
+  },
+  {
+   "key": "case060.method.faint",
+   "value": "Er wurde in der Hitze des Ofens ohnmächtig"
+  },
+  {
+   "key": "case060.method.label",
+   "value": "Wie ist er gestorben?"
+  },
+  {
+   "key": "case060.method.peel",
+   "value": "Mit dem Brotschieber auf den Hinterkopf geschlagen"
+  },
+  {
+   "key": "case060.method.slip",
+   "value": "Er rutschte auf nassem Boden aus und stürzte"
+  },
+  {
+   "key": "case060.offer.subtitle",
+   "value": "BAGELBÄCKEREI  /  VERDÄCHTIGER TODESFALL"
+  },
+  {
+   "key": "case060.offer.summary",
+   "value": "Der Besitzer einer siebzig Jahre alten Bagelbäckerei wurde vor dem Holzofen tot aufgefunden; die Bäckerei war vor zwei Monaten auf das Zehnfache versichert worden."
+  },
+  {
+   "key": "case060.offer.title",
+   "value": "AKTE #060"
+  },
+  {
+   "key": "case060.oven.body",
+   "value": "· Der Steinboden vor dem Ofen ist nicht von Mehl und Wasser bedeckt, sondern trocken: nichts, worauf man ausrutschen könnte.\n· An der Wand fehlt einer der Schieber; am Haken vier Schieber, in der Staubspur fünf.\n· In der Asche des Holzofens wurde nachts etwas verbrannt: verkohltes Holz und ein Metallring."
+  },
+  {
+   "key": "case060.oven.title",
+   "value": "UNTERSUCHUNG DES OFENS"
+  },
+  {
+   "key": "case060.person.bouchard.info",
+   "value": "37 Jahre, Versicherungsgutachterin von Laurentide Réassurance."
+  },
+  {
+   "key": "case060.person.bouchard.name",
+   "value": "Nadia Bouchard"
+  },
+  {
+   "key": "case060.person.dmitri.info",
+   "value": "52 Jahre, Nachtbäcker; fand die Leiche."
+  },
+  {
+   "key": "case060.person.dmitri.name",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.person.gagnon.info",
+   "value": "24 Jahre, Kassiererin."
+  },
+  {
+   "key": "case060.person.gagnon.name",
+   "value": "Sophie Gagnon"
+  },
+  {
+   "key": "case060.person.luc.info",
+   "value": "58 Jahre, Holzlieferant."
+  },
+  {
+   "key": "case060.person.luc.name",
+   "value": "Luc Pelletier"
+  },
+  {
+   "key": "case060.person.rivka.info",
+   "value": "40 Jahre, Tochter des Opfers."
+  },
+  {
+   "key": "case060.person.rivka.name",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.person.tremblay.info",
+   "value": "44 Jahre, Geschäftsführer der Bäckerei."
+  },
+  {
+   "key": "case060.person.tremblay.name",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.report.body",
+   "value": "In der Nacht des 3. November 2030 wurde in der Bäckerei Bagels Clark in Mile End der Besitzer Mordecai Klein (78) vor dem Holzofen tot auf dem Steinboden aufgefunden. Am Hinterkopf eine Wunde.\n\nDie Leiche fand der Nachtbäcker Dmitri Volkov um 00.15, als er zur Schicht kam. Am Abend in der Bäckerei: Geschäftsführer Yan Tremblay, Kassiererin Sophie Gagnon; Holzlieferant Luc Pelletier lieferte um 22.30. Die Tochter des Opfers, Rivka Klein, und die Versicherungsgutachterin Nadia Bouchard kamen am Morgen."
+  },
+  {
+   "key": "case060.report.title",
+   "value": "VORFALLSBERICHT"
+  },
+  {
+   "key": "case060.request.autopsy",
+   "value": "Obduktionsbericht anfordern"
+  },
+  {
+   "key": "case060.request.clock",
+   "value": "Stempeluhrprotokolle anfordern"
+  },
+  {
+   "key": "case060.request.home",
+   "value": "Durchsuchungsbeschluss für Haus und Auto des Geschäftsführers beantragen"
+  },
+  {
+   "key": "case060.request.oven",
+   "value": "Untersuchung des Ofens anfordern"
+  },
+  {
+   "key": "case060.rivka.body",
+   "value": "Tochter des Opfers."
+  },
+  {
+   "key": "case060.rivka.deflect",
+   "value": "Mein Vater kannte nichts außer dieser Bäckerei."
+  },
+  {
+   "key": "case060.rivka.title",
+   "value": "Rivka Klein — Befragung"
+  },
+  {
+   "key": "case060.rivka.will.answer",
+   "value": "Mir; aber ich lebe in Toronto, ich wollte die Bäckerei nicht, ich wollte sie verkaufen, alle wussten das. Mein Vater sagte gestern am Telefon: ‚Yan versucht, mich etwas unterschreiben zu lassen, am Montag gehe ich zum Anwalt.‘ Gestern Nacht war ich in Toronto, morgens kam ich mit dem ersten Flug."
+  },
+  {
+   "key": "case060.rivka.will.answer.demeanor",
+   "value": "Richtet mit den Fingern den Kragen ihres Mantels."
+  },
+  {
+   "key": "case060.rivka.will.question",
+   "value": "Wem wollte Ihr Vater die Bäckerei hinterlassen?"
+  },
+  {
+   "key": "case060.summary.evidence",
+   "value": "Der Bäcker, die Kassiererin und die Gutachterin erzählten von der Nacht und der Police. Die Stempelkarte war ein Köder: sie zeigte den Ausgang, nicht den Heimweg. Die Kamera zeigte die Rückkehr; die Durchsuchung fand den Sack und die Unterschriftsübungen."
+  },
+  {
+   "key": "case060.summary.lesson",
+   "value": "Die Karte sagte die Wahrheit; nur die Hälfte der Geschichte."
+  },
+  {
+   "key": "case060.summary.location",
+   "value": "Mile End — November 2030"
+  },
+  {
+   "key": "case060.summary.truth",
+   "value": "Geschäftsführer Yan Tremblay fälschte die Unterschrift des Besitzers Mordecai Klein, ließ der Bäckerei eine ‚Schlüsselperson‘-Deckung über 2,4 Millionen hinzufügen und band den Begünstigten an seine eigene Firma. Mordecai bemerkte die Fälschung und beschloss, zum Anwalt zu gehen. Yan stempelte aus, kehrte acht Minuten später durch die Hintertür zurück, schlug Mordecai mit dem Schieber, legte ihn vor den Ofen und verbrannte den Schieber im Ofen."
+  },
+  {
+   "key": "case060.suspect.label",
+   "value": "Wer hat Mordecai Klein getötet?"
+  },
+  {
+   "key": "case060.tablet.caseLine",
+   "value": "AKTE #060  /  BUBE MONTREAL — MILE END"
+  },
+  {
+   "key": "case060.time.back",
+   "value": "23.14"
+  },
+  {
+   "key": "case060.time.deliv",
+   "value": "22.30"
+  },
+  {
+   "key": "case060.time.found",
+   "value": "00.15"
+  },
+  {
+   "key": "case060.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case060.time.sack",
+   "value": "23.37"
+  },
+  {
+   "key": "case060.title",
+   "value": "Akte #060 — Bagelbäckerei"
+  },
+  {
+   "key": "case060.tremblay.body",
+   "value": "Geschäftsführer der Bäckerei."
+  },
+  {
+   "key": "case060.tremblay.deflect",
+   "value": "Ich habe die Bäckerei am Leben gehalten, fünfzehn Jahre lang."
+  },
+  {
+   "key": "case060.tremblay.end.answer",
+   "value": "Nein."
+  },
+  {
+   "key": "case060.tremblay.end.decoy.clock",
+   "value": "Schauen Sie auf meine Karte: 23.05 Ausgang. Sie sagen, der Tod war um halb zwölf. Um diese Zeit war ich unterwegs."
+  },
+  {
+   "key": "case060.tremblay.end.presented.home",
+   "value": "Am Montag wollte er zum Anwalt; der Nachtrag wäre als Fälschung aufgeflogen, und ich auch. Ich stempelte aus, ging bis zum Anfang der Gasse, kehrte um. Ich schlug mit dem Schieber zu. Ich legte ihn vor den Ofen, der Schieber kam in den Ofen. Der Mann bei Laurentide hatte gesagt: ‚Die Police hält, niemand fragt nach.‘ Sie haben nachgefragt."
+  },
+  {
+   "key": "case060.tremblay.end.question",
+   "value": "Sie haben Mordecai mit dem Schieber geschlagen."
+  },
+  {
+   "key": "case060.tremblay.night.answer",
+   "value": "Ich habe ausgestempelt und bin nach Hause gefahren. Mordecai stand am Ofen, er war alt, er konnte sich kaum noch auf den Beinen halten. Er ist ausgerutscht, ganz klar."
+  },
+  {
+   "key": "case060.tremblay.night.answer.demeanor",
+   "value": "Öffnet und schließt den Reißverschluss seiner Weste."
+  },
+  {
+   "key": "case060.tremblay.night.question",
+   "value": "Wann haben Sie gestern Nacht die Bäckerei verlassen?"
+  },
+  {
+   "key": "case060.tremblay.title",
+   "value": "Yan Tremblay — Befragung"
+  },
+  {
+   "key": "case060.verdict.accident",
+   "value": "Niemand — er ist ausgerutscht"
+  },
+  {
+   "key": "case060.verdict.dmitri",
+   "value": "Dmitri Volkov"
+  },
+  {
+   "key": "case060.verdict.rivka",
+   "value": "Rivka Klein"
+  },
+  {
+   "key": "case060.verdict.tremblay",
+   "value": "Yan Tremblay"
+  },
+  {
+   "key": "case060.item.peel.name",
+   "value": "Zwinge des Brotschiebers"
+  },
+  {
+   "key": "case060.item.peel.detail",
+   "value": "Der Metallring eines langen hölzernen Bagelschiebers; kam aus der Asche des Holzofens."
+  },
+  {
+   "key": "case060.item.policy.name",
+   "value": "Nachtrag zur Versicherungspolice"
+  },
+  {
+   "key": "case060.item.policy.detail",
+   "value": "Der Nachtrag zur Police der Bäckerei von vor zwei Monaten; ‚Schlüsselperson‘-Deckung, Begünstigter eine Firma."
+  },
+  {
+   "key": "case060.item.clock.name",
+   "value": "Stempelkarte"
+  },
+  {
+   "key": "case060.item.clock.detail",
+   "value": "Die Stempelkarte des Geschäftsführers; Stempel ‚23.05 Ausgang‘."
+  }
+ ]
+}
