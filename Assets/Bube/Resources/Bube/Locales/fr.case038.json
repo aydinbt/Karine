@@ -1,0 +1,544 @@
+{
+ "entries": [
+  {
+   "key": "case038.antoine.body",
+   "value": "Directeur des expéditions."
+  },
+  {
+   "key": "case038.antoine.deflect",
+   "value": "Les informations d’expédition appartiennent à nos clients."
+  },
+  {
+   "key": "case038.antoine.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case038.antoine.end.presented.search",
+   "value": "Quarante ans, et Auguste allait tout arrêter en un lundi. Paris, Tokyo, Lakeshore. Cette femme nous disait : « La marchandise ne disparaît pas, elle change de place. » Et moi… j’ai mis l’huile sur la paire du dessus, j’ai pris le stylo dans sa poche. Je savais qu’en soulevant le bol il se toucherait la lèvre. J’ai écrit à Chicago. Vous ne la trouverez pas."
+  },
+  {
+   "key": "case038.antoine.end.question",
+   "value": "Le stylo était dans votre sac."
+  },
+  {
+   "key": "case038.antoine.night.answer",
+   "value": "Un instant. Pour chercher un catalogue. Quand Auguste s’est effondré, j’ai été le premier à courir chercher le stylo ; il n’était pas dans sa veste. Il l’a peut-être laissé chez lui."
+  },
+  {
+   "key": "case038.antoine.night.answer.demeanor",
+   "value": "Fait tourner sa bague avec le pouce."
+  },
+  {
+   "key": "case038.antoine.night.question",
+   "value": "Étiez-vous dans l’arrière-salle avant la vente ?"
+  },
+  {
+   "key": "case038.antoine.night.variant0",
+   "value": "Lundi ? Auguste « fermait » quelque chose tous les mois. Je suis à ses côtés depuis quarante ans."
+  },
+  {
+   "key": "case038.antoine.title",
+   "value": "Antoine Brassard — audition"
+  },
+  {
+   "key": "case038.autopsy.body",
+   "value": "· Choc anaphylactique ; gonflement sévère de la gorge et de la langue.\n· Résidu d’huile de noix sur le bout des doigts de la main droite et au coin de la lèvre.\n· Estomac vide ; dernier repas quatre heures plus tôt. L’allergène n’est pas passé par la bouche mais du gant à la lèvre."
+  },
+  {
+   "key": "case038.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case038.back.body",
+   "value": "Le plateau des gants et le portemanteau. 21 juin 18.00 – 19.20."
+  },
+  {
+   "key": "case038.back.title",
+   "value": "CAMÉRA DE L’ARRIÈRE-SALLE — transcription du relevé"
+  },
+  {
+   "key": "case038.cctv.event.coat",
+   "value": "Caméra : le même homme glisse la main dans la poche d’une veste suspendue au portemanteau, puis sort."
+  },
+  {
+   "key": "case038.cctv.event.lay",
+   "value": "Caméra : une jeune femme en veste de travail dispose des paires de gants blancs sur le plateau et sort."
+  },
+  {
+   "key": "case038.cctv.event.tray",
+   "value": "Caméra : un homme grand en costume croisé sombre est seul dans la pièce ; il se penche sur le plateau des gants, une main dans sa veste."
+  },
+  {
+   "key": "case038.cctv.overlay",
+   "value": "SALLE-B"
+  },
+  {
+   "key": "case038.cctv.period",
+   "value": "21 juin 2030"
+  },
+  {
+   "key": "case038.cctv.source",
+   "value": "Caméra de l’arrière-salle"
+  },
+  {
+   "key": "case038.celine.body",
+   "value": "La fille de la victime."
+  },
+  {
+   "key": "case038.celine.deflect",
+   "value": "Parlez à notre avocat des affaires de mon père."
+  },
+  {
+   "key": "case038.celine.title",
+   "value": "Céline Delorme — audition"
+  },
+  {
+   "key": "case038.celine.will.answer",
+   "value": "Pas la maison ; ses dettes. La moitié de la maison de vente est sous l’eau. J’étais au premier rang pendant toute la vente ; je ne suis jamais entrée dans l’arrière-salle. La dernière semaine, mon père parlait toujours avec Antoine porte fermée ; j’ai entendu des cris."
+  },
+  {
+   "key": "case038.celine.will.answer.demeanor",
+   "value": "Lève le menton ; la voix reste égale."
+  },
+  {
+   "key": "case038.celine.will.question",
+   "value": "La succession de votre père vous revient."
+  },
+  {
+   "key": "case038.clue.check",
+   "value": "L’assistante vérifie que le stylo est dans la poche de la veste."
+  },
+  {
+   "key": "case038.clue.coat",
+   "value": "Le même homme glisse la main dans la poche de la veste suspendue."
+  },
+  {
+   "key": "case038.clue.fall",
+   "value": "Delorme soulève le bol, se touche la lèvre, s’effondre."
+  },
+  {
+   "key": "case038.clue.lay",
+   "value": "Les gants sont disposés sur le plateau."
+  },
+  {
+   "key": "case038.clue.msg",
+   "value": "Message à Chicago : « Paris est fermé. »"
+  },
+  {
+   "key": "case038.clue.source.faure",
+   "value": "Commissaire-priseur"
+  },
+  {
+   "key": "case038.clue.source.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.clue.source.search",
+   "value": "Perquisition"
+  },
+  {
+   "key": "case038.clue.tray",
+   "value": "L’homme grand se penche sur le plateau."
+  },
+  {
+   "key": "case038.custody.home",
+   "value": "La victime l’a laissé chez elle"
+  },
+  {
+   "key": "case038.custody.label",
+   "value": "Où est passé le stylo d’adrénaline ?"
+  },
+  {
+   "key": "case038.custody.lost",
+   "value": "Il est tombé et s’est perdu dans l’agitation"
+  },
+  {
+   "key": "case038.custody.taken",
+   "value": "L’assassin l’a pris dans la veste avant la vente"
+  },
+  {
+   "key": "case038.epilogue.custody.home",
+   "value": "L’assistante avait vu le stylo dans la poche à 17.30."
+  },
+  {
+   "key": "case038.epilogue.custody.lost",
+   "value": "On a fouillé la salle de vente, mais le stylo était ailleurs."
+  },
+  {
+   "key": "case038.epilogue.custody.taken",
+   "value": "Il a été consigné que le stylo avait été pris dans la veste à 18.43 et retrouvé dans le sac de l’assassin."
+  },
+  {
+   "key": "case038.epilogue.verdict.accident",
+   "value": "Le décès a été jugé comme une malheureuse crise allergique ; l’envoi Lakeshore a suivi son chemin."
+  },
+  {
+   "key": "case038.epilogue.verdict.antoine",
+   "value": "Antoine Brassard a été arrêté. Les manifestes Lakeshore mènent à un entrepôt de Pilsen, à Chicago ; chaque lettre de provenance porte la signature du Dr E. Varga. L’affaire a été transmise à l’antenne bube Chicago — Pilsen."
+  },
+  {
+   "key": "case038.epilogue.verdict.celine",
+   "value": "Céline Delorme a été arrêtée ; le numéro de Chicago n’a jamais été appelé."
+  },
+  {
+   "key": "case038.epilogue.verdict.lopes",
+   "value": "Carla Lopes a été placée en garde à vue ; Brassard était dans le vol pour Chicago le lendemain matin."
+  },
+  {
+   "key": "case038.evidence.autopsy",
+   "value": "Rapport d’autopsie"
+  },
+  {
+   "key": "case038.evidence.back",
+   "value": "Caméra de l’arrière-salle"
+  },
+  {
+   "key": "case038.evidence.glovelab",
+   "value": "Analyse des gants"
+  },
+  {
+   "key": "case038.evidence.search",
+   "value": "Sac et voiture d’Antoine Brassard — perquisition"
+  },
+  {
+   "key": "case038.faure.body",
+   "value": "Commissaire-priseur."
+  },
+  {
+   "key": "case038.faure.deflect",
+   "value": "J’abats le marteau ; les papiers ne me regardent pas."
+  },
+  {
+   "key": "case038.faure.rostrum.answer",
+   "value": "Auguste a soulevé le bol avec ses gants et l’a montré à la salle. Il s’est gratté le nez, s’est touché la lèvre, une vieille habitude. Une minute plus tard, il ne respirait plus. Antoine a été le premier à courir ; il a dit : « Son stylo est dans sa veste, je vais le chercher », il est allé à l’arrière-salle et il est revenu les mains vides."
+  },
+  {
+   "key": "case038.faure.rostrum.answer.demeanor",
+   "value": "Descend ses lunettes de sa tête et les remonte."
+  },
+  {
+   "key": "case038.faure.rostrum.question",
+   "value": "Qu’avez-vous vu depuis la tribune ?"
+  },
+  {
+   "key": "case038.faure.title",
+   "value": "Martin Faure — audition"
+  },
+  {
+   "key": "case038.feedback.accident",
+   "value": "L’huile n’est que sur le gant droit du président, à l’intérieur ; les onze autres paires sont propres. Et le stylo a quitté sa poche."
+  },
+  {
+   "key": "case038.feedback.antoine",
+   "value": "La caméra de l’arrière-salle montre l’homme penché sur le plateau à 18.41 et la main dans la poche de la veste suspendue à 18.43 ; l’huile n’est que sur la paire du président, à l’intérieur. Le stylo et l’huile de noix sont dans son sac ; il était l’une des deux personnes à connaître le rendez-vous du lundi."
+  },
+  {
+   "key": "case038.feedback.celine",
+   "value": "L’héritière était au premier rang et n’est pas entrée dans l’arrière-salle ; la succession n’est faite que de dettes."
+  },
+  {
+   "key": "case038.feedback.lopes",
+   "value": "Elle a disposé les gants à partir d’un paquet scellé ; l’huile a été appliquée après, à 18.41."
+  },
+  {
+   "key": "case038.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case038.file.value.bureau",
+   "value": "BDS Paris — Antenne de Belleville"
+  },
+  {
+   "key": "case038.file.value.location",
+   "value": "Paris 8e, salle des ventes"
+  },
+  {
+   "key": "case038.file.value.number",
+   "value": "BDP-PAR-2030-0163"
+  },
+  {
+   "key": "case038.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case038.file.value.reporter",
+   "value": "La maison de vente"
+  },
+  {
+   "key": "case038.glovelab.body",
+   "value": "Les gants de coton blancs retirés des mains de la victime :\n\n· Huile de noix abondante sur trois bouts de doigts du gant droit ; à l’intérieur, pas à l’extérieur. L’huile a été appliquée avant que le gant soit enfilé.\n· Gant gauche propre.\n· Les onze autres paires du plateau propres. La paire huilée était sur le dessus du plateau ; selon la règle de la maison de vente, la paire du dessus revient au président."
+  },
+  {
+   "key": "case038.glovelab.title",
+   "value": "ANALYSE DES GANTS"
+  },
+  {
+   "key": "case038.lopes.body",
+   "value": "Assistante de manipulation des œuvres."
+  },
+  {
+   "key": "case038.lopes.coat.answer",
+   "value": "Dans l’arrière-salle, au portemanteau. Avant une vente, il sort sans sa veste, en gilet. Son stylo était dans la poche ; j’ai vérifié à 17.30, je vérifie avant chaque vente."
+  },
+  {
+   "key": "case038.lopes.coat.question",
+   "value": "Où avait-il suspendu sa veste ?"
+  },
+  {
+   "key": "case038.lopes.deflect",
+   "value": "Je porte les œuvres ; je ne connais rien aux ventes."
+  },
+  {
+   "key": "case038.lopes.title",
+   "value": "Carla Lopes — audition"
+  },
+  {
+   "key": "case038.lopes.tray.answer",
+   "value": "À 18.05, à partir d’un paquet neuf et scellé. La paire de M. Delorme est toujours sur le dessus ; tout le monde le sait. Je ne suis pas retournée dans la pièce ensuite ; je disposais les œuvres dans la salle de vente."
+  },
+  {
+   "key": "case038.lopes.tray.answer.demeanor",
+   "value": "Touche sans cesse les gants dans sa poche de poitrine."
+  },
+  {
+   "key": "case038.lopes.tray.question",
+   "value": "Avez-vous préparé les gants ?"
+  },
+  {
+   "key": "case038.method.bowl",
+   "value": "On a enduit le bol d’huile"
+  },
+  {
+   "key": "case038.method.food",
+   "value": "On a mis des cacahuètes dans sa nourriture"
+  },
+  {
+   "key": "case038.method.glove",
+   "value": "On a enduit l’intérieur du gant d’huile de noix et pris le stylo d’adrénaline"
+  },
+  {
+   "key": "case038.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case038.morel.body",
+   "value": "Avocat de la famille."
+  },
+  {
+   "key": "case038.morel.deflect",
+   "value": "Les affaires de mon client sont couvertes par le secret professionnel."
+  },
+  {
+   "key": "case038.morel.monday.answer",
+   "value": "Auguste m’a fait venir. « Je ferme le service des expéditions ; je donne tous les dossiers Lakeshore à bube », il a dit. Il y avait un nom : Varga. J’ai demandé qui c’était ; il a dit : « Lundi. » Seuls Antoine et moi le savions ; Auguste l’a dit lui-même à Antoine."
+  },
+  {
+   "key": "case038.morel.monday.answer.demeanor",
+   "value": "Retire ses lunettes et les essuie."
+  },
+  {
+   "key": "case038.morel.monday.question",
+   "value": "Vous aviez un rendez-vous lundi."
+  },
+  {
+   "key": "case038.morel.title",
+   "value": "Vincent Morel — audition"
+  },
+  {
+   "key": "case038.offer.subtitle",
+   "value": "DELORME  /  FIN DE CHAPITRE"
+  },
+  {
+   "key": "case038.offer.summary",
+   "value": "À la vente annuelle de la Maison Delorme, Auguste Delorme s’est effondré à côté de la tribune. Son stylo d’adrénaline n’était pas dans sa poche."
+  },
+  {
+   "key": "case038.offer.title",
+   "value": "DOSSIER #038"
+  },
+  {
+   "key": "case038.person.antoine.info",
+   "value": "57 ans, directeur des expéditions et des ventes privées de la Maison Delorme (du Dossier #036)."
+  },
+  {
+   "key": "case038.person.antoine.name",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.person.celine.info",
+   "value": "38 ans, la fille de la victime ; directrice générale adjointe de la maison de vente."
+  },
+  {
+   "key": "case038.person.celine.name",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.person.faure.info",
+   "value": "60 ans, commissaire-priseur ; il tenait le marteau ce soir-là."
+  },
+  {
+   "key": "case038.person.faure.name",
+   "value": "Martin Faure"
+  },
+  {
+   "key": "case038.person.lopes.info",
+   "value": "29 ans, assistante de manipulation des œuvres ; elle prépare les gants."
+  },
+  {
+   "key": "case038.person.lopes.name",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.person.morel.info",
+   "value": "52 ans, l’avocat de la famille Delorme."
+  },
+  {
+   "key": "case038.person.morel.name",
+   "value": "Vincent Morel"
+  },
+  {
+   "key": "case038.recon.r_bowl",
+   "value": "19.12 : Delorme soulève le bol et se touche la lèvre ; Brassard part en courant en disant « Je vais chercher le stylo » et revient les mains vides."
+  },
+  {
+   "key": "case038.recon.r_check",
+   "value": "17.30 : l’assistante voit le stylo dans la poche de la veste ; à 18.05, elle dispose les gants."
+  },
+  {
+   "key": "case038.recon.r_chicago",
+   "value": "19.30 : message à « E.V. » à Chicago : « Paris est fermé. La marchandise est en route. »"
+  },
+  {
+   "key": "case038.recon.r_monday",
+   "value": "Delorme dit à Brassard que lundi il donnera tous les dossiers Lakeshore à bube."
+  },
+  {
+   "key": "case038.recon.r_oil",
+   "value": "19 juin : Brassard achète un flacon d’huile de noix."
+  },
+  {
+   "key": "case038.recon.r_pen",
+   "value": "18.43 : il prend le stylo d’adrénaline dans la veste suspendue."
+  },
+  {
+   "key": "case038.recon.r_tray",
+   "value": "18.41 : Brassard est seul dans l’arrière-salle ; il enduit d’huile le gant droit de la paire du dessus."
+  },
+  {
+   "key": "case038.report.body",
+   "value": "Le soir du 21 juin 2030, à la salle des ventes de la Maison Delorme dans le 8e arrondissement de Paris, à 19.12 pendant la vente, Auguste Delorme (71 ans) s’est effondré à côté de la tribune ; il est mort sur le chemin de l’hôpital.\n\nSa grave allergie aux cacahuètes et aux noix était connue de sa famille et de son personnel. Il portait toujours son stylo d’adrénaline dans la poche intérieure de sa veste ; le stylo n’a pas été retrouvé.\n\nPrésents dans l’arrière-salle et la salle de vente : Céline Delorme, Antoine Brassard, le commissaire-priseur Martin Faure, l’assistante Carla Lopes, l’avocat Vincent Morel."
+  },
+  {
+   "key": "case038.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case038.request.glovelab",
+   "value": "Envoyer les gants à l’analyse"
+  },
+  {
+   "key": "case038.request.search",
+   "value": "Demander un mandat de perquisition pour la serviette et la voiture d’Antoine Brassard"
+  },
+  {
+   "key": "case038.search.body",
+   "value": "Avec l’accord du chef d’antenne :\n\n· Dans la serviette d’Antoine Brassard, un stylo d’adrénaline inutilisé ; « A. Delorme » sur l’étiquette d’ordonnance.\n· Dans le même sac, un petit flacon d’huile de noix avec compte-gouttes ; une facture de fournitures de restauration au nom de Brassard, 19 juin.\n· Dans la boîte à gants de la voiture, des manifestes de Lakeshore Freight : l’adresse d’un entrepôt à Pilsen, Chicago ; la lettre de provenance de chaque envoi signée « Dr E. Varga ».\n· Sur le téléphone, à 19.30, un message à un numéro de Chicago enregistré sous « E.V. » : « Paris est fermé. La marchandise est en route. »"
+  },
+  {
+   "key": "case038.search.title",
+   "value": "SERVIETTE ET VOITURE D’ANTOINE BRASSARD — PERQUISITION"
+  },
+  {
+   "key": "case038.summary.evidence",
+   "value": "L’autopsie a montré que l’allergène était passé par le gant, l’analyse des gants que l’huile n’était qu’à l’intérieur de cette paire, et la caméra de l’arrière-salle l’homme au plateau et la veste. La perquisition, ouverte sur deux motifs, a donné le stylo, l’huile et les manifestes à destination de Chicago."
+  },
+  {
+   "key": "case038.summary.lesson",
+   "value": "Toutes les routes de Paris se rejoignaient à une seule table. La marchandise a changé de place : Chicago."
+  },
+  {
+   "key": "case038.summary.location",
+   "value": "Paris — juin 2030"
+  },
+  {
+   "key": "case038.summary.truth",
+   "value": "Antoine Brassard, directeur des expéditions de la Maison Delorme, a appris qu’Auguste Delorme, son employeur depuis quarante ans, donnerait lundi tous les dossiers Lakeshore à bube. Le soir de la vente, dans l’arrière-salle, il a enduit d’huile de noix l’intérieur de la paire de gants du dessus réservée au président et a pris le stylo d’adrénaline dans la veste suspendue. Delorme s’est touché la lèvre en montrant le bol ; Brassard a fait semblant de courir chercher le stylo."
+  },
+  {
+   "key": "case038.suspect.label",
+   "value": "Qui a tué Auguste Delorme ?"
+  },
+  {
+   "key": "case038.tablet.caseLine",
+   "value": "DOSSIER #038  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case038.time.check",
+   "value": "17.30"
+  },
+  {
+   "key": "case038.time.coat",
+   "value": "18.43"
+  },
+  {
+   "key": "case038.time.fall",
+   "value": "19.12"
+  },
+  {
+   "key": "case038.time.lay",
+   "value": "18.05"
+  },
+  {
+   "key": "case038.time.msg",
+   "value": "19.30"
+  },
+  {
+   "key": "case038.time.tray",
+   "value": "18.41"
+  },
+  {
+   "key": "case038.title",
+   "value": "Dossier #038 — Delorme"
+  },
+  {
+   "key": "case038.verdict.accident",
+   "value": "Personne — il y avait un allergène dans la salle"
+  },
+  {
+   "key": "case038.verdict.antoine",
+   "value": "Antoine Brassard"
+  },
+  {
+   "key": "case038.verdict.celine",
+   "value": "Céline Delorme"
+  },
+  {
+   "key": "case038.verdict.lopes",
+   "value": "Carla Lopes"
+  },
+  {
+   "key": "case038.item.gloves.name",
+   "value": "Gants blancs de manipulation"
+  },
+  {
+   "key": "case038.item.gloves.detail",
+   "value": "Des gants de coton retirés des mains de la victime ; une tache d’huile au bout des doigts du gant droit."
+  },
+  {
+   "key": "case038.item.pen.name",
+   "value": "Stylo d’adrénaline"
+  },
+  {
+   "key": "case038.item.pen.detail",
+   "value": "Un auto-injecteur trouvé lors de la perquisition ; une étiquette d’ordonnance au nom de la victime, inutilisé."
+  },
+  {
+   "key": "case038.item.manifest.name",
+   "value": "Manifeste de Chicago"
+  },
+  {
+   "key": "case038.item.manifest.detail",
+   "value": "Un document d’expédition de Lakeshore Freight ; l’adresse d’un entrepôt à Chicago et une lettre de provenance signée « Dr E. Varga »."
+  }
+ ]
+}

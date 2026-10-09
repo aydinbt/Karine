@@ -1,0 +1,536 @@
+{
+ "entries": [
+  {
+   "key": "case037.aubert.body",
+   "value": "Veilleur de nuit."
+  },
+  {
+   "key": "case037.aubert.car.answer",
+   "value": "La berline de M. Lenoir. À la ronde de 21.30, elle était encore là ; je me suis dit : « Il est parti en taxi, il reprendra la voiture demain matin. » À la ronde suivante, elle n’y était plus."
+  },
+  {
+   "key": "case037.aubert.car.answer.demeanor",
+   "value": "Fait tourner sa lampe torche dans sa paume."
+  },
+  {
+   "key": "case037.aubert.car.question",
+   "value": "Qu’avez-vous vu dans la cour ?"
+  },
+  {
+   "key": "case037.aubert.deflect",
+   "value": "Je surveille la porte ; je n’entre pas dans les bureaux."
+  },
+  {
+   "key": "case037.aubert.light.answer",
+   "value": "À 21.30, la lumière de l’atelier était éteinte. À 23.10, elle était allumée, et la presse ronronnait."
+  },
+  {
+   "key": "case037.aubert.light.question",
+   "value": "Une lumière dans l’atelier ?"
+  },
+  {
+   "key": "case037.aubert.title",
+   "value": "Serge Aubert — audition"
+  },
+  {
+   "key": "case037.autopsy.body",
+   "value": "· Les marques de brûlure sur la paume sont superficielles et post-mortem ; aucune réaction vitale dans les tissus.\n· Os hyoïde fracturé ; une marque horizontale en bande plate d’environ 2 cm de large sur le cou.\n· Cause du décès : strangulation. Heure du décès : 20.45–21.15."
+  },
+  {
+   "key": "case037.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case037.badges.body",
+   "value": "14 juin :\n\n· Clémence Roux — sortie 19.40\n· Fatou Diallo — sortie 20.02\n· Baptiste Lenoir — sortie 20.10\n· Lina Haddad — aucune sortie enregistrée\n\nLa porte de l’escalier de service ne nécessite pas de badge ; elle s’ouvre de l’intérieur."
+  },
+  {
+   "key": "case037.badges.title",
+   "value": "JOURNAUX DES BADGES D’ENTRÉE"
+  },
+  {
+   "key": "case037.cctv.event.car",
+   "value": "Caméra : la cour est vide ; une berline sombre est garée sous le lampadaire."
+  },
+  {
+   "key": "case037.cctv.event.leave",
+   "value": "Caméra : les phares de la même berline s’allument ; la voiture sort par le portail."
+  },
+  {
+   "key": "case037.cctv.event.walk",
+   "value": "Caméra : un homme en costume sombre sort à pied par le portail des véhicules en parlant au téléphone."
+  },
+  {
+   "key": "case037.cctv.overlay",
+   "value": "COUR-1"
+  },
+  {
+   "key": "case037.cctv.period",
+   "value": "14 juin 2030"
+  },
+  {
+   "key": "case037.cctv.source",
+   "value": "Caméra de la cour"
+  },
+  {
+   "key": "case037.clemence.body",
+   "value": "Styliste en chef."
+  },
+  {
+   "key": "case037.clemence.deflect",
+   "value": "Je parle de la collection, pas des comptes."
+  },
+  {
+   "key": "case037.clemence.fight.answer",
+   "value": "Elle avait coupé un tissu à contre-fil ; j’ai crié. J’en ai honte. Je suis partie à 19.40 et j’étais à un dîner à Bastille ; les six personnes à table sont témoins."
+  },
+  {
+   "key": "case037.clemence.fight.answer.demeanor",
+   "value": "Tripote la pelote à épingles à son poignet."
+  },
+  {
+   "key": "case037.clemence.fight.question",
+   "value": "Vous vous êtes disputée avec Lina à midi."
+  },
+  {
+   "key": "case037.clemence.licence.answer",
+   "value": "Baptiste. Il a mis mes modèles sur des filles japonaises sans même me demander. Pourquoi les paiements passent par une société nommée Delorme, je ne sais pas non plus."
+  },
+  {
+   "key": "case037.clemence.licence.question",
+   "value": "Qui gère la licence de Tokyo ?"
+  },
+  {
+   "key": "case037.clemence.title",
+   "value": "Clémence Roux — audition"
+  },
+  {
+   "key": "case037.clue.dout",
+   "value": "Fatou Diallo part ; Lina reste."
+  },
+  {
+   "key": "case037.clue.found",
+   "value": "Le veilleur trouve le corps."
+  },
+  {
+   "key": "case037.clue.leave",
+   "value": "La berline quitte la cour."
+  },
+  {
+   "key": "case037.clue.msg",
+   "value": "Le dernier message de Lina : « Les factures sont doublées. »"
+  },
+  {
+   "key": "case037.clue.on",
+   "value": "La presse est allumée depuis un téléphone."
+  },
+  {
+   "key": "case037.clue.source.badges",
+   "value": "Journaux des badges"
+  },
+  {
+   "key": "case037.clue.source.diallo",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.clue.source.presslog",
+   "value": "Journal d’alimentation"
+  },
+  {
+   "key": "case037.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case037.clue.walk",
+   "value": "L’homme en costume quitte la cour à pied ; la voiture reste."
+  },
+  {
+   "key": "case037.court.body",
+   "value": "La cour de l’immeuble. 14 juin 20.00 – 23.15."
+  },
+  {
+   "key": "case037.court.title",
+   "value": "CAMÉRA DE LA COUR — transcription du relevé"
+  },
+  {
+   "key": "case037.custody.fault",
+   "value": "Elle s’est allumée seule à cause d’une panne"
+  },
+  {
+   "key": "case037.custody.forgot",
+   "value": "La victime l’a laissée allumée elle-même"
+  },
+  {
+   "key": "case037.custody.label",
+   "value": "Pourquoi la presse était-elle allumée ?"
+  },
+  {
+   "key": "case037.custody.staged",
+   "value": "Elle a été allumée par téléphone après la mort"
+  },
+  {
+   "key": "case037.diallo.body",
+   "value": "Couturière."
+  },
+  {
+   "key": "case037.diallo.deflect",
+   "value": "Je couds ; je ne vois pas les papiers."
+  },
+  {
+   "key": "case037.diallo.msg.answer",
+   "value": "Quand je suis partie à 20.02, elle a dit : « Vas-y, moi je reste, je vais montrer quelque chose à quelqu’un. » À 20.31, elle m’a écrit : « J’avais raison. Les factures sont doublées. Je te raconte demain. » Il n’y a pas eu de lendemain."
+  },
+  {
+   "key": "case037.diallo.msg.answer.demeanor",
+   "value": "Tient à deux mains le mètre ruban autour de son cou."
+  },
+  {
+   "key": "case037.diallo.msg.question",
+   "value": "Lina vous a-t-elle dit quelque chose ?"
+  },
+  {
+   "key": "case037.diallo.title",
+   "value": "Fatou Diallo — audition"
+  },
+  {
+   "key": "case037.diallo.who.answer",
+   "value": "Elle ne l’a pas dit. Mais toute la semaine, elle photocopiait les dossiers de licence et les rangeait dans son casier."
+  },
+  {
+   "key": "case037.diallo.who.question",
+   "value": "À qui allait-elle le montrer ?"
+  },
+  {
+   "key": "case037.epilogue.custody.fault",
+   "value": "Le journal a montré que la prise avait été allumée manuellement."
+  },
+  {
+   "key": "case037.epilogue.custody.forgot",
+   "value": "Le journal indique 21.41 ; la victime était déjà morte."
+  },
+  {
+   "key": "case037.epilogue.custody.staged",
+   "value": "Il a été consigné que la presse avait été allumée à distance après la mort, pour mettre en scène les lieux."
+  },
+  {
+   "key": "case037.epilogue.verdict.accident",
+   "value": "Le décès a été jugé accident du travail ; la maison a versé une indemnité."
+  },
+  {
+   "key": "case037.epilogue.verdict.aubert",
+   "value": "Serge Aubert a été placé en garde à vue ; le dossier de licence n’a jamais été ouvert."
+  },
+  {
+   "key": "case037.epilogue.verdict.clemence",
+   "value": "Clémence Roux a été arrêtée ; les factures sont restées dans le casier."
+  },
+  {
+   "key": "case037.epilogue.verdict.lenoir",
+   "value": "Baptiste Lenoir a été arrêté. Les factures ont été rattachées à la Maison Delorme et à l’agence de Tokyo. Le message à Antoine Brassard est entré au dossier ; Brassard a refusé de faire une déposition."
+  },
+  {
+   "key": "case037.evidence.court",
+   "value": "Caméra de la cour"
+  },
+  {
+   "key": "case037.evidence.locker",
+   "value": "Le casier de la victime"
+  },
+  {
+   "key": "case037.evidence.presslog",
+   "value": "Journal d’alimentation de la presse"
+  },
+  {
+   "key": "case037.evidence.search",
+   "value": "Bureau et téléphone de Baptiste Lenoir — perquisition"
+  },
+  {
+   "key": "case037.feedback.accident",
+   "value": "Les brûlures sont post-mortem ; le décès est dû à une strangulation, et la presse a été allumée une demi-heure après la mort."
+  },
+  {
+   "key": "case037.feedback.aubert",
+   "value": "Les heures de ronde du veilleur ne contredisent pas le journal de la presse ; il n’a accès ni à l’application de la prise ni aux factures."
+  },
+  {
+   "key": "case037.feedback.clemence",
+   "value": "La styliste a crié à midi mais est partie à 19.40 ; six personnes dînaient avec elle à Bastille."
+  },
+  {
+   "key": "case037.feedback.lenoir",
+   "value": "Il a badgé et est parti à pied, mais sa voiture est restée dans la cour jusqu’à 21.54 ; la presse a été allumée depuis son téléphone à 21.41, une demi-heure après la mort. Le cutter de son bureau porte la gaine du câble ; la victime avait trouvé les doubles factures qu’il préparait."
+  },
+  {
+   "key": "case037.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case037.file.value.bureau",
+   "value": "BDS Paris — Antenne de Belleville"
+  },
+  {
+   "key": "case037.file.value.location",
+   "value": "Le Marais, atelier de couture"
+  },
+  {
+   "key": "case037.file.value.number",
+   "value": "BDP-PAR-2030-0151"
+  },
+  {
+   "key": "case037.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case037.file.value.reporter",
+   "value": "Veilleur de nuit"
+  },
+  {
+   "key": "case037.lenoir.body",
+   "value": "Directeur des licences."
+  },
+  {
+   "key": "case037.lenoir.deflect",
+   "value": "Les contrats de licence sont soumis à une clause de confidentialité."
+  },
+  {
+   "key": "case037.lenoir.end.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case037.lenoir.end.presented.badges",
+   "value": "J’ai badgé, oui. C’est tout."
+  },
+  {
+   "key": "case037.lenoir.end.presented.locker",
+   "value": "Les photocopies d’une couturière. Qu’est-ce qu’elles prouvent ?"
+  },
+  {
+   "key": "case037.lenoir.end.presented.search",
+   "value": "Delorme payait, Tokyo recevait, et je prenais ma part entre les deux. Lina a mis les deux factures côte à côte et a dit : « Je porte ça à la police. » Elle avait le mètre ruban à la main… Ensuite j’ai coupé le câble de la presse, je l’ai mis dans sa paume et j’ai allumé la prise depuis mon téléphone. J’ai écrit à Brassard, parce qu’il demande."
+  },
+  {
+   "key": "case037.lenoir.end.question",
+   "value": "Lina vous a montré les factures."
+  },
+  {
+   "key": "case037.lenoir.night.answer",
+   "value": "À 20.10, j’ai badgé, je suis sorti, j’ai marché. La caméra le montrera. J’ai laissé ma voiture ; j’avais bu du vin."
+  },
+  {
+   "key": "case037.lenoir.night.answer.demeanor",
+   "value": "Ajuste sa pochette."
+  },
+  {
+   "key": "case037.lenoir.night.question",
+   "value": "Où étiez-vous dans la soirée ?"
+  },
+  {
+   "key": "case037.lenoir.night.variant0",
+   "value": "Je suis revenu chercher ma voiture plus tard, oui. Par l’escalier de service ? Je suis monté à mon bureau chercher un dossier ; je ne suis pas entré dans l’atelier."
+  },
+  {
+   "key": "case037.lenoir.title",
+   "value": "Baptiste Lenoir — audition"
+  },
+  {
+   "key": "case037.locker.body",
+   "value": "Dans le casier d’atelier de Lina Haddad :\n\n· Des photocopies des factures de la licence de Tokyo : deux factures distinctes pour la même collection ; l’une à la Maison Lévrier pour 180 000 €, l’autre à un compte de la Maison Delorme pour 410 000 €. Dans le coin de la seconde, une approbation « E. V. » à l’encre bleue.\n· Préparées par : le directeur des licences Baptiste Lenoir.\n· Un pense-bête : « Demander à B. L. ? »"
+  },
+  {
+   "key": "case037.locker.title",
+   "value": "LE CASIER DE LA VICTIME"
+  },
+  {
+   "key": "case037.method.fall",
+   "value": "Elle est tombée et s’est cogné la tête"
+  },
+  {
+   "key": "case037.method.label",
+   "value": "Comment est-elle morte ?"
+  },
+  {
+   "key": "case037.method.shock",
+   "value": "Électrocutée par la presse à vapeur"
+  },
+  {
+   "key": "case037.method.strangle",
+   "value": "Étranglée avec un mètre ruban de couturière"
+  },
+  {
+   "key": "case037.offer.subtitle",
+   "value": "L’ATELIER  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case037.offer.summary",
+   "value": "Dans le Marais, une jeune couturière gît morte devant une presse à vapeur d’une maison de couture. La presse a été allumée après sa mort."
+  },
+  {
+   "key": "case037.offer.title",
+   "value": "DOSSIER #037"
+  },
+  {
+   "key": "case037.person.aubert.info",
+   "value": "61 ans, le veilleur de nuit de l’immeuble."
+  },
+  {
+   "key": "case037.person.aubert.name",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.person.clemence.info",
+   "value": "41 ans, styliste en chef de la Maison Lévrier."
+  },
+  {
+   "key": "case037.person.clemence.name",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.person.diallo.info",
+   "value": "36 ans, couturière de l’atelier ; l’amie la plus proche de la victime."
+  },
+  {
+   "key": "case037.person.diallo.name",
+   "value": "Fatou Diallo"
+  },
+  {
+   "key": "case037.person.lenoir.info",
+   "value": "49 ans, directeur des licences et des accords internationaux de la maison."
+  },
+  {
+   "key": "case037.person.lenoir.name",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.presslog.body",
+   "value": "Journal extrait de la prise connectée de la presse :\n\n· 19.52 éteinte (fin de journée)\n· 21.41 allumée\n· Courant continu à partir de 21.41 ; à 21.43, un court-circuit n’a pas fait sauter le fusible, un seul fil dénudé.\n\nL’application de la prise est liée au compte du chef d’atelier ; allumée manuellement depuis un téléphone."
+  },
+  {
+   "key": "case037.presslog.title",
+   "value": "PRESSE À VAPEUR — JOURNAL D’ALIMENTATION"
+  },
+  {
+   "key": "case037.report.body",
+   "value": "La nuit du 14 juin 2030, à l’atelier de la Maison Lévrier dans le Marais, la couturière Lina Haddad (27 ans) a été retrouvée morte devant une presse à vapeur. La presse était allumée ; le câble de la presse dans sa main.\n\nLe veilleur de nuit Serge Aubert a trouvé le corps lors de sa ronde de 23.10. L’atelier ferme à 20.00 ; ceux qui sont entrés et sortis avec un badge ce soir-là : Clémence Roux, Baptiste Lenoir, Fatou Diallo."
+  },
+  {
+   "key": "case037.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case037.request.locker",
+   "value": "Ouvrir le casier de la victime"
+  },
+  {
+   "key": "case037.request.presslog",
+   "value": "Demander le journal de la prise connectée de la presse"
+  },
+  {
+   "key": "case037.request.search",
+   "value": "Demander un mandat de perquisition pour le bureau et le téléphone de Baptiste Lenoir"
+  },
+  {
+   "key": "case037.search.body",
+   "value": "Avec l’accord du chef d’antenne :\n\n· Sur le téléphone de Baptiste Lenoir, l’application de la prise de l’atelier a été ouverte à 21.41 ; le compte est partagé par le chef d’atelier.\n· Dans le tiroir du bureau, un cutter ; sur la lame, des fragments de la gaine grise du câble de la presse.\n· Un brouillon d’e-mail supprimé, 20.38 : « Lina, viens qu’on parle, je suis dans mon bureau. »\n· Message à Brassard à 22.06 : « Problème réglé. Les factures de Tokyo sont propres. »"
+  },
+  {
+   "key": "case037.search.title",
+   "value": "BUREAU ET TÉLÉPHONE DE BAPTISTE LENOIR — PERQUISITION"
+  },
+  {
+   "key": "case037.summary.evidence",
+   "value": "L’autopsie a montré que les brûlures étaient post-mortem, le journal de la prise que la presse avait été allumée une demi-heure après la mort, et la caméra de la cour et le veilleur que la voiture était restée jusqu’à 21.54. La perquisition, ouverte sur deux motifs, a donné le cutter, le téléphone et le message à Brassard."
+  },
+  {
+   "key": "case037.summary.lesson",
+   "value": "Si le journal de la machine ne correspond pas à l’heure du corps, cherchez la personne qui a mis la scène en place."
+  },
+  {
+   "key": "case037.summary.location",
+   "value": "Le Marais — juin 2030"
+  },
+  {
+   "key": "case037.summary.truth",
+   "value": "Baptiste Lenoir, directeur des licences de la Maison Lévrier, faisait tourner la licence de Tokyo sur deux factures et faisait passer la différence par un compte de la Maison Delorme. Quand la couturière Lina Haddad a mis les deux factures côte à côte, Lenoir a badgé comme s’il partait, est revenu par l’escalier de service et l’a étranglée avec le mètre ruban. Il a coupé le câble de la presse, l’a mis dans sa paume et a allumé la prise depuis son téléphone à 21.41."
+  },
+  {
+   "key": "case037.suspect.label",
+   "value": "Qui a tué Lina Haddad ?"
+  },
+  {
+   "key": "case037.tablet.caseLine",
+   "value": "DOSSIER #037  /  BUBE PARIS — BELLEVILLE"
+  },
+  {
+   "key": "case037.time.car",
+   "value": "20.10–21.53"
+  },
+  {
+   "key": "case037.time.dout",
+   "value": "20.02"
+  },
+  {
+   "key": "case037.time.found",
+   "value": "23.10"
+  },
+  {
+   "key": "case037.time.leave",
+   "value": "21.54"
+  },
+  {
+   "key": "case037.time.msg",
+   "value": "20.31"
+  },
+  {
+   "key": "case037.time.on",
+   "value": "21.41"
+  },
+  {
+   "key": "case037.time.walk",
+   "value": "20.10"
+  },
+  {
+   "key": "case037.title",
+   "value": "Dossier #037 — L’Atelier"
+  },
+  {
+   "key": "case037.verdict.accident",
+   "value": "Personne — électrocutée par la presse"
+  },
+  {
+   "key": "case037.verdict.aubert",
+   "value": "Serge Aubert"
+  },
+  {
+   "key": "case037.verdict.clemence",
+   "value": "Clémence Roux"
+  },
+  {
+   "key": "case037.verdict.lenoir",
+   "value": "Baptiste Lenoir"
+  },
+  {
+   "key": "case037.item.press.name",
+   "value": "Presse à vapeur"
+  },
+  {
+   "key": "case037.item.press.detail",
+   "value": "La presse à vapeur industrielle de l’atelier ; la gaine de son câble dénudée au couteau."
+  },
+  {
+   "key": "case037.item.tape.name",
+   "value": "Mètre ruban de couturière"
+  },
+  {
+   "key": "case037.item.tape.detail",
+   "value": "Un mètre ruban en tissu trouvé sous la table de la victime ; une partie étirée et froissée au milieu."
+  },
+  {
+   "key": "case037.item.invoices.name",
+   "value": "Factures de licence"
+  },
+  {
+   "key": "case037.item.invoices.detail",
+   "value": "Des photocopies rangées dans le casier de la victime : des factures de la licence de Tokyo, deux lettres manuscrites dans leurs coins."
+  }
+ ]
+}
