@@ -1258,3 +1258,11 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 ## Görselsiz kozmetikler (9 Ekim 2026)
 
 **Kullanıcı:** "1. maddedeki dördünü sırayla yap" → görselsiz kozmetikler. Ekran rengi, damga mürekkebi, şehir ışıkları ve film tonu eklendi; her biri 4 renk, ilki varsayılan. Lambanın kuralı aynen geçerli: önizleme, sırayla açılma, her açılış bir ödüllü reklam, reklamları kaldıran oyuncuya hepsi açık. Yalnız görünüm; oyun durumunu kodlamaz. Önizleme ekran yeniden çizilince görünür (lamba gibi canlı değil).
+
+## Doğru ama dayanaksız rapor = "şans tuttu" (9 Ekim 2026)
+
+**Kullanıcı:** "oyun olduğu için şansını denedi ve tuttu diyebiliriz ve başarılı sayılması gerekmez mi?" Karar: kişi ve yöntem doğru, ama dayanağı gösteren kaynak açılmamışsa değerlendirme `lucky`. Başarılı sayılır (sıradaki dosya, seri, yeniden açma gerekmez), güven desteklenmiş raporun yarısı kadar artar. Faks "Sonuç doğru; ancak dosyada dayanağı yok" der ve satırlarda desteksiz iddiaları gösterir. Yanlış yöntemle doğru kişi hâlâ `incomplete`.
+
+## Jenerik yeri (9 Ekim 2026)
+
+Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir kez; son satır "Devamı gelecek." Hakkında penceresinden yapım ve font satırları kalktı.
