@@ -1,0 +1,620 @@
+{
+ "entries": [
+  {
+   "key": "case028.autopsy.body",
+   "value": "· Décès dû à une crise d’asthme sévère. Signes nets de crise dans les voies respiratoires.\n· Aucune trace dans son sang du médicament qu’utilisait la victime : l’inhalateur n’a rien fait pendant la crise.\n· Heure du décès : 22.50–23.20.\n· La ventilation de la pièce coupée ; résidus de fumée de cigarette et de brouillard de neige carbonique."
+  },
+  {
+   "key": "case028.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case028.backdoor.body",
+   "value": "Le photographe people Gotō Ryū photographiait la porte de service arrière de l’immeuble depuis l’autre côté de la rue. Les trois images qu’il a remises au dossier :\n\n· 23.08 · Un homme en costume sort par la porte arrière et allume une cigarette ; visage en partie visible. Note du photographe : « Kanda, seul, tendu ».\n· 23.11 · Le même homme rentre par la porte du hall.\n· 23.14 · L’homme lève le bras et regarde son bouton de manchette ; une manche n’en a pas."
+  },
+  {
+   "key": "case028.backdoor.title",
+   "value": "LES IMAGES DU PHOTOGRAPHE"
+  },
+  {
+   "key": "case028.cctv.event.in",
+   "value": "Caméra : un homme en costume sombre marche vers la salle au bout du couloir en jetant un regard par-dessus son épaule."
+  },
+  {
+   "key": "case028.cctv.event.out",
+   "value": "Caméra : le même homme ne va pas vers l’ascenseur mais vers l’escalier de secours ; une main dans la poche."
+  },
+  {
+   "key": "case028.cctv.event.shut",
+   "value": "Caméra : le couloir est vide ; la porte de la dernière salle est fermée, une lumière colorée clignote dessous."
+  },
+  {
+   "key": "case028.cctv.overlay",
+   "value": "6F-C"
+  },
+  {
+   "key": "case028.cctv.period",
+   "value": "3 mars 2030"
+  },
+  {
+   "key": "case028.cctv.source",
+   "value": "Caméra du couloir"
+  },
+  {
+   "key": "case028.clue.fog",
+   "value": "En 606, la neige carbonique est allumée et la ventilation coupée."
+  },
+  {
+   "key": "case028.clue.in",
+   "value": "L’homme en costume entre dans la dernière salle."
+  },
+  {
+   "key": "case028.clue.lobby",
+   "value": "Le manager descend l’escalier de secours jusqu’au hall."
+  },
+  {
+   "key": "case028.clue.out",
+   "value": "L’homme marche vers l’escalier de secours."
+  },
+  {
+   "key": "case028.clue.remote",
+   "value": "Une demande « Kanda » à distance vers 601, suivie d’un enregistrement vieux d’un an."
+  },
+  {
+   "key": "case028.clue.solo",
+   "value": "Mio reste seule en 606."
+  },
+  {
+   "key": "case028.clue.source.miki",
+   "value": "Responsable du fan-club"
+  },
+  {
+   "key": "case028.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case028.clue.source.syslog",
+   "value": "Journal du système"
+  },
+  {
+   "key": "case028.corridor.body",
+   "value": "La seule caméra couvrant le couloir ; elle ne voit pas l’intérieur des salles. 3 mars 22.30 – 23.45."
+  },
+  {
+   "key": "case028.corridor.title",
+   "value": "CAMÉRA DU COULOIR DU 6E ÉTAGE — transcription du relevé"
+  },
+  {
+   "key": "case028.cuff.body",
+   "value": "Sur le palier du 6e étage de l’escalier de secours, un bouton de manchette en onyx noir. Son pendant est à la manche gauche de Kanda Shūji.\n\nDans la poubelle du palier, une cartouche d’inhalateur vidée avec un point de correcteur ; l’empreinte de Kanda dessus."
+  },
+  {
+   "key": "case028.cuff.title",
+   "value": "FOUILLE DE L’ESCALIER DE SECOURS"
+  },
+  {
+   "key": "case028.custody.label",
+   "value": "Quel était l’alibi du manager ?"
+  },
+  {
+   "key": "case028.custody.live",
+   "value": "Il chantait vraiment en 601"
+  },
+  {
+   "key": "case028.custody.none",
+   "value": "Il n’avait pas d’alibi"
+  },
+  {
+   "key": "case028.custody.remote",
+   "value": "Une demande à distance et un vieil enregistrement"
+  },
+  {
+   "key": "case028.epilogue.custody.live",
+   "value": "La chanson « en direct » du manager a été acceptée comme alibi."
+  },
+  {
+   "key": "case028.epilogue.custody.none",
+   "value": "L’alibi du manager n’a jamais été examiné."
+  },
+  {
+   "key": "case028.epilogue.custody.remote",
+   "value": "Il a été consigné que l’alibi du manager reposait sur une demande à distance et un enregistrement vieux d’un an."
+  },
+  {
+   "key": "case028.epilogue.verdict.accident",
+   "value": "Le décès a été classé comme une malheureuse crise ; l’agence a signé le contrat parisien avec une autre membre."
+  },
+  {
+   "key": "case028.epilogue.verdict.haru",
+   "value": "Inoue Haru a été inculpé ; l’alibi à distance du manager n’a jamais été remis en question."
+  },
+  {
+   "key": "case028.epilogue.verdict.kanda",
+   "value": "Kanda Shūji a été arrêté. Une note a été ajoutée au dossier : le fonds qui avait racheté la dette de l’agence était lié à Kisaragi Shōji ; le contrat parisien a été annulé."
+  },
+  {
+   "key": "case028.epilogue.verdict.nana",
+   "value": "Kobayashi Nana a été placée en garde à vue ; le groupe s’est séparé."
+  },
+  {
+   "key": "case028.evidence.backdoor",
+   "value": "Les images du photographe"
+  },
+  {
+   "key": "case028.evidence.cuff",
+   "value": "Fouille de l’escalier de secours"
+  },
+  {
+   "key": "case028.evidence.inhalerlab",
+   "value": "Examen de l’inhalateur"
+  },
+  {
+   "key": "case028.evidence.syslog",
+   "value": "Journal du système de karaoké"
+  },
+  {
+   "key": "case028.feedback.accident",
+   "value": "Il n’y avait pas de médicament dans l’inhalateur, et la ventilation et la neige carbonique ont été actionnées depuis l’intérieur de la salle ; quelqu’un a préparé la crise."
+  },
+  {
+   "key": "case028.feedback.haru",
+   "value": "Le parolier s’est disputé dans le couloir mais il est sorti avant 23.00 ; la crise est venue après la coupure de la ventilation."
+  },
+  {
+   "key": "case028.feedback.kanda",
+   "value": "Le journal du système montre que la chanson « en direct » de 601 était une demande à distance et un enregistrement vieux d’un an, et que son téléphone était connecté depuis 606 ; le couloir, l’escalier, le bouton de manchette et les cartouches vides le placent dans la salle au moment de la crise."
+  },
+  {
+   "key": "case028.feedback.nana",
+   "value": "La colocataire connaissait l’inhalateur, mais c’est l’agence qui fournissait les cartouches ; après 22.30, elle était en 601."
+  },
+  {
+   "key": "case028.file.caseType",
+   "value": "MORT SUSPECTE"
+  },
+  {
+   "key": "case028.file.value.bureau",
+   "value": "BDS Tokyo — Antenne de Nihonbashi"
+  },
+  {
+   "key": "case028.file.value.location",
+   "value": "Shinjuku, immeuble de karaoké — 6e étage"
+  },
+  {
+   "key": "case028.file.value.number",
+   "value": "BDS-TYO-2030-0027"
+  },
+  {
+   "key": "case028.file.value.offence",
+   "value": "Mort suspecte"
+  },
+  {
+   "key": "case028.file.value.reporter",
+   "value": "Superviseur de l’établissement"
+  },
+  {
+   "key": "case028.goto.body",
+   "value": "Photographe."
+  },
+  {
+   "key": "case028.goto.deflect",
+   "value": "Je ne livre pas mes sources."
+  },
+  {
+   "key": "case028.goto.title",
+   "value": "Gotō Ryū — audition"
+  },
+  {
+   "key": "case028.goto.why.answer",
+   "value": "Quelqu’un m’a appelé : « Mio quitte le groupe ce soir ; attends à la porte arrière de l’immeuble. » Qui a appelé, je ne sais pas ; le numéro était masqué. Un tuyau ne reste pas chez moi ; je le vends."
+  },
+  {
+   "key": "case028.goto.why.question",
+   "value": "Pourquoi attendiez-vous ce soir-là ?"
+  },
+  {
+   "key": "case028.haru.body",
+   "value": "Parolier."
+  },
+  {
+   "key": "case028.haru.deflect",
+   "value": "Je ne veux pas parler du passé."
+  },
+  {
+   "key": "case028.haru.fight.answer",
+   "value": "Dans le couloir, vers onze heures. Ils voulaient donner une chanson que j’ai écrite à la pub de cette marque ; Mio a dit « moi non plus je ne veux pas ». Ensuite je suis sorti fumer une cigarette. Quand la porte s’est fermée, elle parlait encore."
+  },
+  {
+   "key": "case028.haru.fight.answer.demeanor",
+   "value": "Ne lève pas les yeux de la table."
+  },
+  {
+   "key": "case028.haru.fight.question",
+   "value": "Vous êtes-vous disputé avec Mio ?"
+  },
+  {
+   "key": "case028.haru.title",
+   "value": "Inoue Haru — audition"
+  },
+  {
+   "key": "case028.inhalerlab.body",
+   "value": "La cartouche de l’inhalateur dans la main de la victime est vide : seulement du gaz propulseur, aucun médicament. Un petit point blanc de correcteur sur la cartouche.\n\nDans l’armoire à pharmacie de l’agence, dans le tiroir du bureau de Kanda Shūji, trois autres cartouches vides avec le même point et deux cartouches pleines de l’ordonnance de la victime."
+  },
+  {
+   "key": "case028.inhalerlab.title",
+   "value": "EXAMEN DE L’INHALATEUR"
+  },
+  {
+   "key": "case028.kanda.body",
+   "value": "Manager."
+  },
+  {
+   "key": "case028.kanda.deflect",
+   "value": "Les contrats sont confidentiels."
+  },
+  {
+   "key": "case028.kanda.title",
+   "value": "Kanda Shūji — audition"
+  },
+  {
+   "key": "case028.kanda.where.answer",
+   "value": "Dans l’autre salle du sixième étage, avec les filles. J’ai chanté pour Reina ; il y a même un enregistrement. Regardez, vous pouvez le voir vous-même dans le système : une demande depuis mon téléphone à 22.58, ma voix à 23.04."
+  },
+  {
+   "key": "case028.kanda.where.answer.demeanor",
+   "value": "Pose son téléphone face contre la table."
+  },
+  {
+   "key": "case028.kanda.where.question",
+   "value": "Où étiez-vous entre 22.30 et 23.30 ?"
+  },
+  {
+   "key": "case028.kanda.where.variant0",
+   "value": "Une demande à distance ? C’est comme ça que l’appli fonctionne ; on l’envoie aussi depuis l’intérieur de la salle. J’étais là ; les filles vous le diront."
+  },
+  {
+   "key": "case028.kanda_2.606.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.cuff",
+   "value": "…Le contrat parisien était le dernier souffle de la société. Le fonds qui avait racheté notre dette a dit : « Si Mio ne signe pas, tout est fini. » Je suis entré pour parler, j’ai allumé la neige carbonique, coupé la ventilation ; l’inhalateur était dans ma poche, j’ai pris le plein. La crise est venue vite. J’ai fermé la porte."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.inhalerlab",
+   "value": "J’achète les cartouches ; l’assurance l’exige. Quelqu’un a pu les mélanger."
+  },
+  {
+   "key": "case028.kanda_2.606.presented.syslog",
+   "value": "Un vieil enregistrement… J’ai trouvé cet enregistrement sur les téléphones des filles. « Au cas où on aurait besoin de la voix de quelqu’un. » Mais je ne l’ai pas touchée."
+  },
+  {
+   "key": "case028.kanda_2.606.question",
+   "value": "À 22.52, vous êtes entré en 606."
+  },
+  {
+   "key": "case028.kanda_2.body",
+   "value": "Sur les relevés."
+  },
+  {
+   "key": "case028.kanda_2.title",
+   "value": "Kanda Shūji — seconde audition"
+  },
+  {
+   "key": "case028.method.asthma",
+   "value": "Une crise déclenchée par la neige carbonique et la ventilation coupée ; l’inhalateur remplacé par une cartouche vide"
+  },
+  {
+   "key": "case028.method.drug",
+   "value": "On a mis quelque chose dans sa boisson"
+  },
+  {
+   "key": "case028.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case028.method.natural",
+   "value": "Une crise spontanée"
+  },
+  {
+   "key": "case028.method.smother",
+   "value": "Elle a été étouffée"
+  },
+  {
+   "key": "case028.miki.body",
+   "value": "Responsable du fan-club."
+  },
+  {
+   "key": "case028.miki.deflect",
+   "value": "Affaires du fan-club."
+  },
+  {
+   "key": "case028.miki.lift.answer",
+   "value": "J’attendais dans le hall ; j’avais apporté un cadeau à Mio. Vers 23.10, M. Kanda est descendu par l’escalier de secours jusqu’au hall en rajustant sa veste ; il a été surpris de me voir. « L’ascenseur est en panne », il a dit. L’ascenseur marchait."
+  },
+  {
+   "key": "case028.miki.lift.question",
+   "value": "Étiez-vous dans l’immeuble ?"
+  },
+  {
+   "key": "case028.miki.title",
+   "value": "Tsuda Miki — audition"
+  },
+  {
+   "key": "case028.nana.body",
+   "value": "Colocataire."
+  },
+  {
+   "key": "case028.nana.deflect",
+   "value": "Demandez à l’agence pour les affaires du groupe."
+  },
+  {
+   "key": "case028.nana.inhaler.answer",
+   "value": "Elle l’avait toujours sur elle. La semaine dernière, une « nouvelle cartouche » est arrivée ; c’est l’agence qui l’a envoyée. Notre manager achète lui-même nos médicaments ; l’assurance le veut comme ça."
+  },
+  {
+   "key": "case028.nana.inhaler.answer.demeanor",
+   "value": "Tient le sac sur ses genoux à deux mains."
+  },
+  {
+   "key": "case028.nana.inhaler.question",
+   "value": "L’asthme de Mio ?"
+  },
+  {
+   "key": "case028.nana.paris.answer",
+   "value": "Un contrat pour la marque à Paris. Mio ne voulait pas signer ; elle disait « je veux quitter le groupe et écrire ». Elle et le manager se sont crié dessus ce jour-là."
+  },
+  {
+   "key": "case028.nana.paris.question",
+   "value": "Quelque chose avait-il changé récemment ?"
+  },
+  {
+   "key": "case028.nana.title",
+   "value": "Kobayashi Nana — audition"
+  },
+  {
+   "key": "case028.offer.subtitle",
+   "value": "KARAOKÉ  /  MORT SUSPECTE"
+  },
+  {
+   "key": "case028.offer.summary",
+   "value": "À Shinjuku, une idole est retrouvée morte dans la salle de karaoké où elle était restée seule au milieu d’une fête d’anniversaire. Premier constat : asthme."
+  },
+  {
+   "key": "case028.offer.title",
+   "value": "DOSSIER #028"
+  },
+  {
+   "key": "case028.person.goto.info",
+   "value": "40 ans, photographe people ; attendait en face de l’immeuble."
+  },
+  {
+   "key": "case028.person.goto.name",
+   "value": "Gotō Ryū"
+  },
+  {
+   "key": "case028.person.haru.info",
+   "value": "27 ans, le parolier du groupe ; l’ex-petit ami de la victime."
+  },
+  {
+   "key": "case028.person.haru.name",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.person.kanda.info",
+   "value": "46 ans, le manager du groupe ; propriétaire de l’agence."
+  },
+  {
+   "key": "case028.person.kanda.name",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.person.miki.info",
+   "value": "35 ans, responsable du fan-club ; au premier rang de chaque concert de la victime."
+  },
+  {
+   "key": "case028.person.miki.name",
+   "value": "Tsuda Miki"
+  },
+  {
+   "key": "case028.person.nana.info",
+   "value": "22 ans, la deuxième chanteuse du groupe ; habite la même maison que la victime."
+  },
+  {
+   "key": "case028.person.nana.name",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.person.reina.info",
+   "value": "20 ans, la plus jeune membre du groupe ; c’était son anniversaire ce soir-là."
+  },
+  {
+   "key": "case028.person.reina.name",
+   "value": "Mizuno Reina"
+  },
+  {
+   "key": "case028.person.yamato.info",
+   "value": "31 ans, superviseur de nuit de l’établissement de karaoké."
+  },
+  {
+   "key": "case028.person.yamato.name",
+   "value": "Endō Yamato"
+  },
+  {
+   "key": "case028.reina.body",
+   "value": "La fille dont c’était l’anniversaire."
+  },
+  {
+   "key": "case028.reina.deflect",
+   "value": "Il faudrait demander à mon manager."
+  },
+  {
+   "key": "case028.reina.party.answer",
+   "value": "C’était mon jour… Mio était celle qui nous faisait le plus rire. Puis elle a dit « je vais répéter une chanson ». Ensuite on est passées dans l’autre salle. C’est tout."
+  },
+  {
+   "key": "case028.reina.party.question",
+   "value": "Comment s’est passée la fête ?"
+  },
+  {
+   "key": "case028.reina.title",
+   "value": "Mizuno Reina — audition"
+  },
+  {
+   "key": "case028.report.body",
+   "value": "Le 3 mars 2030 à 23.40, Aikawa Mio (23 ans), membre d’un groupe d’idoles, a été retrouvée morte dans une salle privée au 6e étage d’un immeuble de karaoké de Shinjuku. Le groupe fêtait l’anniversaire de Reina ; à 22.30, Mio est restée seule dans la salle en disant « je vais répéter une chanson ».\n\nPremier constat : crise d’asthme. Inhalateur à la main.\n\nPersonnes présentes dans la salle et venues dans l’immeuble ce soir-là : Kobayashi Nana, Mizuno Reina, le manager Kanda Shūji, le parolier Inoue Haru, la responsable du fan-club Tsuda Miki ; le superviseur de l’établissement Endō Yamato."
+  },
+  {
+   "key": "case028.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case028.request.backdoor",
+   "value": "Demander les images au photographe d’en face"
+  },
+  {
+   "key": "case028.request.cuff",
+   "value": "Fouiller l’escalier de secours"
+  },
+  {
+   "key": "case028.request.inhalerlab",
+   "value": "Envoyer l’inhalateur à l’examen"
+  },
+  {
+   "key": "case028.request.syslog",
+   "value": "Demander le journal des demandes et des enregistrements du système"
+  },
+  {
+   "key": "case028.summary.evidence",
+   "value": "La caméra du couloir a donné son entrée, le journal du système le fait que la chanson « en direct » était à distance et vieille d’un an, l’examen de l’inhalateur la cartouche échangée, et l’escalier de secours le bouton de manchette et la dernière cartouche."
+  },
+  {
+   "key": "case028.summary.lesson",
+   "value": "Un enregistrement prouve le moment où il a été enregistré, pas celui où il a été diffusé."
+  },
+  {
+   "key": "case028.summary.location",
+   "value": "Shinjuku — mars 2030"
+  },
+  {
+   "key": "case028.summary.truth",
+   "value": "La dette de l’agence était passée à un fonds lié à Kisaragi Shōji, et le fonds avait fait de la signature d’Aikawa Mio avec une marque de mode parisienne une condition. Quand Mio a voulu quitter le groupe, le manager Kanda Shūji est entré à 22.52 dans la salle où elle était seule ; il a allumé la neige carbonique, coupé la ventilation et pris l’inhalateur plein, lui laissant une cartouche sans médicament. Pour se faire un alibi, il a envoyé depuis son téléphone une demande de chanson à distance vers la salle de la fête et fait diffuser l’enregistrement de l’anniversaire de l’année précédente."
+  },
+  {
+   "key": "case028.suspect.label",
+   "value": "Qui est responsable de la mort d’Aikawa Mio ?"
+  },
+  {
+   "key": "case028.syslog.body",
+   "value": "Salle de la fête (601) :\n· 22.58 · demande — source : APPLI (à distance), compte : Kanda Shūji\n· 23.04 · diffusé : « enregistrement micro » — fichier créé : 3 mars 2029, même salle, l’anniversaire de l’année précédente\n\nDernière salle (606) :\n· 22.31 · demande, depuis la salle\n· 22.55 · effet neige carbonique et ventilation coupée — depuis l’intérieur de la salle\n\nAux mêmes heures, le téléphone de Kanda était connecté au Wi-Fi de l’immeuble par le point d’accès de 606."
+  },
+  {
+   "key": "case028.syslog.title",
+   "value": "JOURNAL DU SYSTÈME DE KARAOKÉ — 6E ÉTAGE"
+  },
+  {
+   "key": "case028.tablet.caseLine",
+   "value": "DOSSIER #028  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case028.time.fog",
+   "value": "22.55"
+  },
+  {
+   "key": "case028.time.in",
+   "value": "22.52"
+  },
+  {
+   "key": "case028.time.lobby",
+   "value": "23.10"
+  },
+  {
+   "key": "case028.time.out",
+   "value": "23.06"
+  },
+  {
+   "key": "case028.time.remote",
+   "value": "22.58"
+  },
+  {
+   "key": "case028.time.shut",
+   "value": "22.53"
+  },
+  {
+   "key": "case028.time.solo",
+   "value": "22.30"
+  },
+  {
+   "key": "case028.title",
+   "value": "Dossier #028 — Karaoké"
+  },
+  {
+   "key": "case028.verdict.accident",
+   "value": "Personne — une crise d’asthme spontanée"
+  },
+  {
+   "key": "case028.verdict.haru",
+   "value": "Inoue Haru"
+  },
+  {
+   "key": "case028.verdict.kanda",
+   "value": "Kanda Shūji"
+  },
+  {
+   "key": "case028.verdict.nana",
+   "value": "Kobayashi Nana"
+  },
+  {
+   "key": "case028.yamato.body",
+   "value": "Superviseur de l’établissement."
+  },
+  {
+   "key": "case028.yamato.deflect",
+   "value": "Je ne peux pas donner d’informations sur les clients."
+  },
+  {
+   "key": "case028.yamato.stairs.answer",
+   "value": "L’alarme de la porte de l’escalier de secours a sonné une fois à 23.07. Les fumeurs l’ouvrent tout le temps ; je la coupe."
+  },
+  {
+   "key": "case028.yamato.stairs.question",
+   "value": "Quelque chose a-t-il attiré votre attention vers cette heure-là ?"
+  },
+  {
+   "key": "case028.yamato.system.answer",
+   "value": "Chaque demande, la source de la demande, les enregistrements micro de la salle si vous voulez. Les demandes peuvent venir de l’appli ; pas besoin d’être dans l’immeuble, le code de la salle suffit. Je peux vous donner les journaux."
+  },
+  {
+   "key": "case028.yamato.system.question",
+   "value": "Qu’enregistre le système des salles ?"
+  },
+  {
+   "key": "case028.yamato.title",
+   "value": "Endō Yamato — audition"
+  },
+  {
+   "key": "case028.item.inhaler.name",
+   "value": "Inhalateur vide"
+  },
+  {
+   "key": "case028.item.inhaler.detail",
+   "value": "L’inhalateur pour l’asthme de la victime ; la cartouche retirée et une vide mise à sa place."
+  },
+  {
+   "key": "case028.item.remote.name",
+   "value": "Télécommande de karaoké"
+  },
+  {
+   "key": "case028.item.remote.detail",
+   "value": "La tablette de chansons de la salle ; dans son historique, deux demandes sont venues à distance de l’appli."
+  },
+  {
+   "key": "case028.item.cuff.name",
+   "value": "Bouton de manchette"
+  },
+  {
+   "key": "case028.item.cuff.detail",
+   "value": "Un bouton de manchette en onyx noir trouvé devant la cage d’ascenseur."
+  }
+ ]
+}

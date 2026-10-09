@@ -1,0 +1,496 @@
+{
+ "entries": [
+  {
+   "key": "case027.autopsy.body",
+   "value": "· Strangulation ; avec une sangle fine et rigide. Fibre de tissu rouge sous les ongles.\n· Température rectale 31 °C. À température ambiante normale, cela fait deux heures ; mais l’heure du décès ne peut être fixée sans connaître les conditions de la réserve où il a été trouvé.\n· Estomac : boulette de riz et thé vert, mangés au plus une heure avant."
+  },
+  {
+   "key": "case027.autopsy.title",
+   "value": "RAPPORT D’AUTOPSIE"
+  },
+  {
+   "key": "case027.cctv.event.back",
+   "value": "Caméra : la caissière revient au comptoir en rajustant son gilet ; le plateau est plein. Elle se penche derrière le comptoir."
+  },
+  {
+   "key": "case027.cctv.event.empty",
+   "value": "Caméra : le comptoir est vide ; au bout de la rangée, une seule machine est allumée."
+  },
+  {
+   "key": "case027.cctv.event.go",
+   "value": "Caméra : la caissière va du comptoir à la porte de la réserve, un plateau vide à la main."
+  },
+  {
+   "key": "case027.cctv.overlay",
+   "value": "CAM-03"
+  },
+  {
+   "key": "case027.cctv.period",
+   "value": "14 février 2030"
+  },
+  {
+   "key": "case027.cctv.source",
+   "value": "Caméra de la salle"
+  },
+  {
+   "key": "case027.clue.back",
+   "value": "La caissière revient au comptoir avec un plateau plein et se penche derrière."
+  },
+  {
+   "key": "case027.clue.close",
+   "value": "La salle ferme ; la caissière, l’habitué et le comptable restent à l’intérieur."
+  },
+  {
+   "key": "case027.clue.cold",
+   "value": "La climatisation de la réserve est réglée en continu sur 14 °C."
+  },
+  {
+   "key": "case027.clue.found",
+   "value": "Le gérant trouve le corps dans la réserve glacée."
+  },
+  {
+   "key": "case027.clue.go",
+   "value": "La caissière va à la réserve avec un plateau vide."
+  },
+  {
+   "key": "case027.clue.jackpot",
+   "value": "Jackpot sur la machine 114 ; l’appel pour le lot reste sans réponse au comptoir."
+  },
+  {
+   "key": "case027.clue.source.counter114",
+   "value": "Compteur de la machine"
+  },
+  {
+   "key": "case027.clue.source.hideo",
+   "value": "Gérant"
+  },
+  {
+   "key": "case027.clue.source.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "case027.clue.source.thermo",
+   "value": "Journal de la climatisation"
+  },
+  {
+   "key": "case027.counter.body",
+   "value": "Caméra couvrant le comptoir et la rangée 110–120. 14 février 01.00 – 06.00. La caméra saute des images ; l’horodatage est cassé, seul le numéro d’image reste."
+  },
+  {
+   "key": "case027.counter.title",
+   "value": "CAMÉRA AU PLAFOND DE LA SALLE — transcription du relevé"
+  },
+  {
+   "key": "case027.counter114.body",
+   "value": "Journal interne de la machine (nombre de billes à la minute) :\n\n· 01.10–04.28 jeu ininterrompu\n· Jackpot : 02.47\n· Juste après le jackpot, le joueur a appuyé sur le bouton « appel lot » : 02.48. Réponse du comptoir : 03.09 ; la caissière qui a apporté le lot : Takeda Yuki.\n\nRapproché de la séquence d’images de la caméra : image 2214 ≈ 02.49, image 2371 ≈ 03.08."
+  },
+  {
+   "key": "case027.counter114.title",
+   "value": "COMPTEUR DE LA MACHINE 114"
+  },
+  {
+   "key": "case027.custody.cold",
+   "value": "02.00–03.30 — la climatisation a masqué l’heure du décès"
+  },
+  {
+   "key": "case027.custody.dawn",
+   "value": "04.00–06.00 — la première estimation du médecin"
+  },
+  {
+   "key": "case027.custody.label",
+   "value": "Quand le décès a-t-il eu lieu ?"
+  },
+  {
+   "key": "case027.custody.midnight",
+   "value": "Avant 01.00"
+  },
+  {
+   "key": "case027.epilogue.custody.cold",
+   "value": "L’heure du décès a été consignée en tenant compte de la réserve refroidie à 14 °C."
+  },
+  {
+   "key": "case027.epilogue.custody.dawn",
+   "value": "Le décès a été placé vers le matin ; à cette heure-là, seul le gérant était dans la salle."
+  },
+  {
+   "key": "case027.epilogue.custody.midnight",
+   "value": "Le décès a été placé avant la fermeture ; le contenu de l’estomac ne le confirme pas."
+  },
+  {
+   "key": "case027.epilogue.verdict.hideo",
+   "value": "Arai Hideo a été placé en garde à vue ; les factures de lots n’ont jamais été examinées."
+  },
+  {
+   "key": "case027.epilogue.verdict.sato",
+   "value": "Satō Minoru a été inculpé ; le journal du compteur l’a ensuite disculpé, et le dossier est revenu."
+  },
+  {
+   "key": "case027.epilogue.verdict.yuki",
+   "value": "Takeda Yuki a avoué. L’écart des factures a été remonté jusqu’à la filiale de Kisaragi ; on n’a plus jamais revu le coursier."
+  },
+  {
+   "key": "case027.evidence.counter114",
+   "value": "Compteur de la machine"
+  },
+  {
+   "key": "case027.evidence.ledger",
+   "value": "Factures de lots"
+  },
+  {
+   "key": "case027.evidence.thermo",
+   "value": "Journal de la climatisation de la réserve"
+  },
+  {
+   "key": "case027.evidence.tray",
+   "value": "Fouille derrière le comptoir"
+  },
+  {
+   "key": "case027.feedback.hideo",
+   "value": "Le gérant est arrivé à six heures ; l’estimation des « deux heures » l’accusait, mais la réserve froide ramène l’heure du décès au milieu de la nuit."
+  },
+  {
+   "key": "case027.feedback.sato",
+   "value": "La machine de l’habitué a été en jeu ininterrompu entre 01.10 et 04.28 ; il attendait le lot de son jackpot."
+  },
+  {
+   "key": "case027.feedback.yuki",
+   "value": "Le journal de la climatisation ramène l’heure du décès entre 02.00 et 03.30 ; dans cette fenêtre, la caméra montre la caissière allant à la réserve, et le compteur de la machine fixe son absence à 20 minutes. La fibre sous les ongles vient de la sangle de son cordon porte-badge."
+  },
+  {
+   "key": "case027.file.caseType",
+   "value": "MEURTRE"
+  },
+  {
+   "key": "case027.file.value.bureau",
+   "value": "BDS Tokyo — Antenne de Nihonbashi"
+  },
+  {
+   "key": "case027.file.value.location",
+   "value": "Nihonbashi, salle de pachinko — réserve des lots"
+  },
+  {
+   "key": "case027.file.value.number",
+   "value": "BDS-TYO-2030-0019"
+  },
+  {
+   "key": "case027.file.value.offence",
+   "value": "Homicide volontaire"
+  },
+  {
+   "key": "case027.file.value.reporter",
+   "value": "Gérant de la salle"
+  },
+  {
+   "key": "case027.hideo.body",
+   "value": "Gérant de la salle."
+  },
+  {
+   "key": "case027.hideo.debt.answer",
+   "value": "Les factures de lots du siège. « Les lots n’arrivent pas mais les factures, si », il disait. Il me l’a dit, et moi… avec mes propres dettes, je ne voulais pas d’ennuis."
+  },
+  {
+   "key": "case027.hideo.debt.question",
+   "value": "De quoi s’occupait M. Ueno ?"
+  },
+  {
+   "key": "case027.hideo.deflect",
+   "value": "Affaires internes de l’entreprise."
+  },
+  {
+   "key": "case027.hideo.morning.answer",
+   "value": "Je suis venu à six heures. La réserve était glacée ; quand j’ai ouvert la porte, mon souffle a fait de la buée. Ueno était par terre. Je l’ai touché ; il était encore souple."
+  },
+  {
+   "key": "case027.hideo.morning.answer.demeanor",
+   "value": "Respire longuement entre les mots."
+  },
+  {
+   "key": "case027.hideo.morning.question",
+   "value": "Comment l’avez-vous trouvé le matin ?"
+  },
+  {
+   "key": "case027.hideo.title",
+   "value": "Arai Hideo — audition"
+  },
+  {
+   "key": "case027.ledger.body",
+   "value": "Sur le bureau de la victime, douze factures marquées d’une note jaune. Fournisseur : une filiale de Kisaragi Shōji. Entre la quantité de lots facturée et les lots entrés dans la réserve, un écart mensuel de 9 millions de yens.\n\nL’écart part en espèces dans l’enveloppe de remise quotidienne de la caissière, et un coursier la récupère chaque matin. Signatures de remise des huit derniers mois : Takeda Yuki.\n\nBrouillon d’e-mail de la victime, non envoyé : « Je le signale au siège demain. La caissière devrait le savoir aussi. »"
+  },
+  {
+   "key": "case027.ledger.title",
+   "value": "FACTURES DE LOTS"
+  },
+  {
+   "key": "case027.method.cord",
+   "value": "Il a été étranglé avec le câble du climatiseur"
+  },
+  {
+   "key": "case027.method.hands",
+   "value": "Il a été étranglé à mains nues"
+  },
+  {
+   "key": "case027.method.label",
+   "value": "Comment ?"
+  },
+  {
+   "key": "case027.method.strap",
+   "value": "Il a été étranglé avec la sangle d’un cordon porte-badge"
+  },
+  {
+   "key": "case027.offer.subtitle",
+   "value": "PACHINKO  /  MEURTRE"
+  },
+  {
+   "key": "case027.offer.summary",
+   "value": "Dans la réserve d’une salle de pachinko fermée, le comptable a été étranglé. Le médecin dit deux heures ; à cette heure-là, seul le gérant est dans la salle."
+  },
+  {
+   "key": "case027.offer.title",
+   "value": "DOSSIER #027"
+  },
+  {
+   "key": "case027.person.hideo.info",
+   "value": "52 ans, gérant de jour de la salle ; cherche un second emploi pour rembourser sa dette."
+  },
+  {
+   "key": "case027.person.hideo.name",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.person.sato.info",
+   "value": "66 ans, chauffeur de bus retraité ; joue chaque nuit sur la même machine, la 114."
+  },
+  {
+   "key": "case027.person.sato.name",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.person.yuki.info",
+   "value": "29 ans, caissière de nuit de la salle ; s’occupe de l’échange des jetons et des lots."
+  },
+  {
+   "key": "case027.person.yuki.name",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.report.body",
+   "value": "Le 14 février 2030 à 06.05, le comptable de la salle Ueno Sōta (38 ans) a été retrouvé mort dans la réserve des lots d’une salle de pachinko de Nihonbashi. Le gérant Arai Hideo l’a trouvé en venant le matin ouvrir la caisse.\n\nDes marques de strangulation au cou. La salle a fermé à 01.00 ; seuls la caissière de nuit Takeda Yuki et l’habitué Satō Minoru, autorisé à jouer après la fermeture « jusqu’à la fin du comptage », sont restés à l’intérieur. Tous deux étaient dans la salle jusqu’à 04.30.\n\nLe médecin appelé : « Le corps peut encore être considéré comme chaud ; deux heures au plus. »"
+  },
+  {
+   "key": "case027.report.title",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "case027.request.counter114",
+   "value": "Demander le compteur de la machine 114"
+  },
+  {
+   "key": "case027.request.ledger",
+   "value": "Examiner les factures sur le bureau de la victime"
+  },
+  {
+   "key": "case027.request.thermo",
+   "value": "Demander le journal du panneau de climatisation de la réserve"
+  },
+  {
+   "key": "case027.request.tray",
+   "value": "Demander une fouille derrière le comptoir"
+  },
+  {
+   "key": "case027.sato.body",
+   "value": "L’habitué."
+  },
+  {
+   "key": "case027.sato.deflect",
+   "value": "Je joue ; je ne me mêle de rien."
+  },
+  {
+   "key": "case027.sato.machine.answer",
+   "value": "Je jouais sur la 114. À un moment, la petite caissière a quitté le comptoir et elle est allée au fond ; le plateau était vide. Ça n’a pas duré longtemps. Quand ? Je ne regarde pas l’horloge, je regarde la machine."
+  },
+  {
+   "key": "case027.sato.machine.question",
+   "value": "Qu’avez-vous vu dans la nuit ?"
+  },
+  {
+   "key": "case027.sato.title",
+   "value": "Satō Minoru — audition"
+  },
+  {
+   "key": "case027.summary.evidence",
+   "value": "L’estimation des « deux heures » du médecin a été faite sans savoir que la réserve était froide. Le journal de la climatisation a montré le réglage modifié à 02.51, le compteur de la machine a donné leurs heures aux images de la caméra, et la sangle déchirée derrière le comptoir correspondait à la fibre sous les ongles."
+  },
+  {
+   "key": "case027.summary.lesson",
+   "value": "La température n’est pas une horloge mais une condition. Pour chaque constatation qui donne une heure de décès, interrogez son environnement."
+  },
+  {
+   "key": "case027.summary.location",
+   "value": "Nihonbashi — février 2030"
+  },
+  {
+   "key": "case027.summary.truth",
+   "value": "Le comptable de la salle Ueno Sōta a découvert que les factures de lots de la filiale de Kisaragi Shōji faisaient passer 9 millions de yens par mois en espèces par l’enveloppe de la caissière, et allait le signaler au siège. La caissière de nuit Takeda Yuki, qui signait les enveloppes, est entrée dans la réserve à 02.49 avec un plateau vide, l’a étranglé avec la sangle de son cordon porte-badge et a réglé la climatisation sur 14 °C pour retarder l’heure du décès."
+  },
+  {
+   "key": "case027.suspect.label",
+   "value": "Qui a tué Ueno Sōta ?"
+  },
+  {
+   "key": "case027.tablet.caseLine",
+   "value": "DOSSIER #027  /  BUBE TOKYO — NIHONBASHI"
+  },
+  {
+   "key": "case027.thermo.body",
+   "value": "Historique du panneau de climatisation de la réserve :\n\n· 02.51 · mode : CONTINU, cible 14 °C, ventilation au maximum\n· 05.58 · capteur de porte ouvert\n\nLe réglage de la climatisation a été modifié à 02.51. Dans ces conditions, une température rectale de 31 °C correspond non pas à deux mais à trois ou quatre heures : décès entre 02.00 et 03.30."
+  },
+  {
+   "key": "case027.thermo.title",
+   "value": "JOURNAL DE LA CLIMATISATION DE LA RÉSERVE"
+  },
+  {
+   "key": "case027.time.back",
+   "value": "image 2371"
+  },
+  {
+   "key": "case027.time.close",
+   "value": "01.00"
+  },
+  {
+   "key": "case027.time.cold",
+   "value": "02.51"
+  },
+  {
+   "key": "case027.time.empty",
+   "value": "image 2290"
+  },
+  {
+   "key": "case027.time.found",
+   "value": "06.05"
+  },
+  {
+   "key": "case027.time.go",
+   "value": "image 2214"
+  },
+  {
+   "key": "case027.time.jackpot",
+   "value": "02.47"
+  },
+  {
+   "key": "case027.title",
+   "value": "Dossier #027 — Pachinko"
+  },
+  {
+   "key": "case027.tray.body",
+   "value": "Dans le plateau à lots sous le comptoir, 180 jetons et une pince de cordon porte-badge cassée ; la sangle en tissu rouge de la pince est déchirée.\n\nLa fibre de la sangle est la même que la fibre rouge sous les ongles d’Ueno Sōta.\n\nLes cordons de la salle à sangle en tissu rouge ne sont remis qu’aux caissiers : au service de nuit, la seule caissière était Takeda Yuki."
+  },
+  {
+   "key": "case027.tray.title",
+   "value": "FOUILLE DERRIÈRE LE COMPTOIR"
+  },
+  {
+   "key": "case027.verdict.hideo",
+   "value": "Arai Hideo"
+  },
+  {
+   "key": "case027.verdict.sato",
+   "value": "Satō Minoru"
+  },
+  {
+   "key": "case027.verdict.yuki",
+   "value": "Takeda Yuki"
+  },
+  {
+   "key": "case027.yuki.badge.answer",
+   "value": "Dans mon sac."
+  },
+  {
+   "key": "case027.yuki.badge.question",
+   "value": "Où est votre cordon porte-badge ?"
+  },
+  {
+   "key": "case027.yuki.body",
+   "value": "Caissière de nuit."
+  },
+  {
+   "key": "case027.yuki.deflect",
+   "value": "Personne ne me demande rien sur la caisse."
+  },
+  {
+   "key": "case027.yuki.night.answer",
+   "value": "Le comptage après la fermeture. M. Ueno était dans la réserve avec les factures ; à deux heures il a dit « Vas-y », mais M. Satō jouait, alors j’ai attendu. On est partis à quatre heures et demie ; M. Ueno était vivant à ce moment-là, sa lumière était allumée."
+  },
+  {
+   "key": "case027.yuki.night.answer.demeanor",
+   "value": "Enroule le cordon autour de son doigt."
+  },
+  {
+   "key": "case027.yuki.night.question",
+   "value": "Qu’avez-vous fait dans la nuit ?"
+  },
+  {
+   "key": "case027.yuki.night.variant0",
+   "value": "La réserve était froide ? Je ne suis jamais entrée dans la réserve. M. Ueno avait toujours chaud ; il allumait toujours la climatisation lui-même. Je suis partie à quatre heures et demie."
+  },
+  {
+   "key": "case027.yuki.quote",
+   "value": "« On est partis à quatre heures et demie ; sa lumière était allumée. »"
+  },
+  {
+   "key": "case027.yuki.title",
+   "value": "Takeda Yuki — audition"
+  },
+  {
+   "key": "case027.yuki_2.body",
+   "value": "Sur les relevés."
+  },
+  {
+   "key": "case027.yuki_2.title",
+   "value": "Takeda Yuki — seconde audition"
+  },
+  {
+   "key": "case027.yuki_2.when.answer",
+   "value": "Non."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.counter114",
+   "value": "M. Satō a eu le jackpot ; je devais lui apporter son lot, j’étais en retard. C’est tout."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.ledger",
+   "value": "Je signe les enveloppes, oui. Le coursier les récupère ; je ne pose pas de questions. Mais ça n’a rien à voir avec M. Ueno ; je ne suis pas entrée dans la réserve."
+  },
+  {
+   "key": "case027.yuki_2.when.presented.tray",
+   "value": "La sangle… Je ne voulais pas le tuer. Il allait donner les factures au siège ; c’est moi qui signe les enveloppes, c’est moi qui serais allée en prison, pas eux. Je suis allée parler. Il a crié. La sangle autour de son cou… ensuite j’ai allumé la climatisation. J’avais lu sur internet que si ça reste froid, on dirait que la mort est plus tardive."
+  },
+  {
+   "key": "case027.yuki_2.when.question",
+   "value": "À trois heures, vous étiez dans la réserve."
+  },
+  {
+   "key": "case027.item.thermo.name",
+   "value": "Thermostat de la réserve"
+  },
+  {
+   "key": "case027.item.thermo.detail",
+   "value": "Le panneau de climatisation de la réserve des lots ; réglé sur 14 °C en mode « continu »."
+  },
+  {
+   "key": "case027.item.tray.name",
+   "value": "Plateau à lots"
+  },
+  {
+   "key": "case027.item.tray.detail",
+   "value": "Le plateau en plastique derrière le comptoir ; dedans, 180 jetons et une pince de cordon de caissier cassée."
+  },
+  {
+   "key": "case027.item.ledger.name",
+   "value": "Factures de lots"
+  },
+  {
+   "key": "case027.item.ledger.detail",
+   "value": "Douze factures sur le bureau de la victime, marquées d’un post-it jaune."
+  }
+ ]
+}
