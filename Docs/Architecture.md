@@ -643,3 +643,9 @@ Kariyer ekranına üçüncü sekme **Sicil** (`BubeApp.CareerRecord.cs`): faks g
 ## Satın alma (IAP 5)
 
 `Assets/Bube/Purchasing/UnityStore.cs`, `com.unity.purchasing` 5.x ile (`KARINE_IAP` tanımı `[5.0.0,)`). Akış: `UnityIAPServices.StoreController()` → `Connect` → `FetchProducts` → `FetchPurchases`; sahip olunan ürünler `Store.Grant` ile verilir, bekleyen siparişler onaylanır. Geri yükleme `RestoreTransactions` sonra `FetchPurchases`; sonuç ürünler verildikten sonra döner.
+
+
+## Denenen kayıt ve kapsam (9 Ekim 2026)
+
+- `Investigation.SourceTried`: sorunun doğru kaydı (`presentedSourceIds`), yalnız gerçekten yanıt alındıysa düşer; `triedSources` içindeki eski izler yok sayılır. `BubeApp.Interview` bekletilen soruda (`!CanAskQuestion`) hiçbir kaydı işaretlemez.
+- `Coverage.Of(game, whole)`: `whole:true` rapor özetinde dosyanın tüm kaynak, soru ve çizelge satırlarını payda yapar.

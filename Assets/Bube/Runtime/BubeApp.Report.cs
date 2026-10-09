@@ -206,7 +206,7 @@ public sealed partial class BubeApp {
   bool reviewed=game.Career.reviewHistory.Any(r=>r.caseId==game.Data.id);
   KarineUI.SummarySources(card,T("summary.sources").TrimStart('⌕',' '),sourceNames,T(reviewed?"summary.faxAvailable":"summary.faxLater"));
   // Oyuncunun kendi çalışması: sayılar sonuç söylemez, yalnız neye baktığını gösterir.
-  var work=Coverage.Of(game);
+  var work=Coverage.Of(game,whole:true);
   KarineUI.RecordHeading(card,T("summary.work"));
   KarineUI.RecordRow(card,T("guidance.coverage.sources"),work.SourcesOpen+" / "+work.SourcesAvailable,null,"");
   KarineUI.RecordRow(card,T("guidance.coverage.questions"),work.QuestionsAsked+" / "+work.QuestionsAvailable,null,"");

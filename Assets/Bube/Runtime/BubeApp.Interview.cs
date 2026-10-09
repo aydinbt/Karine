@@ -219,6 +219,8 @@ public sealed partial class BubeApp {
   KarineUI.InterviewPaper(preview,source!=null?T(source.titleKey):CompactReportSourceLabel(sourceId),null,out var body);
   InterviewSourceBody(body,sourceId);
   Action send=()=>{
+   // Soru yem kayıttan sonra bekletiliyorsa hiçbir kayıt yanmaz; kişi şimdilik savuşturur.
+   if(!game.CanAskQuestion(node,active)){InterviewPage(node,active,2,node.deflectAnswerKey ?? "interview.unrelatedSource",sourceId,false);return;}
    game.MarkSourceTried(node,active,sourceId);Save();
    var decoy=game.DecoyAnswerKey(active,sourceId);
    if(decoy!=null){game.HoldAfterDecoy(node,active);Save();InterviewPage(node,active,2,decoy,sourceId,false);return;}

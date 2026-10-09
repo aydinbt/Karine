@@ -11,7 +11,9 @@ namespace Bube {
 public struct Coverage {
  public int SourcesOpen, SourcesAvailable, QuestionsAsked, QuestionsAvailable, CluesPinned, CluesAvailable;
 
- public static Coverage Of(Investigation game) {
+ // whole: rapor gittikten sonra payda dosyanın tamamıdır (artık ipucu değil, karne);
+ // soruşturma sürerken yalnız bugüne dek açılmış olan sayılır ki gizli soru sayısı sızmasın.
+ public static Coverage Of(Investigation game, bool whole = false) {
   var data = game.Data;
   var state = game.State;
   var coverage = new Coverage();
@@ -19,17 +21,17 @@ public struct Coverage {
   foreach (var node in data.nodes ?? new Node[0]) {
    bool open = state.read.Contains(node.id);
    // Açılmış bir kaynak kapanmaz; "erişilebilir" olmayı bugünün kapısına sorar.
-   if (open || game.Available(node)) coverage.SourcesAvailable++;
+   if (whole || open || game.Available(node)) coverage.SourcesAvailable++;
    if (open) coverage.SourcesOpen++;
    foreach (var question in node.questions ?? new Question[0]) {
     bool asked = state.asked.Contains(question.id);
-    if (asked || game.QuestionAvailable(node, question)) coverage.QuestionsAvailable++;
+    if (whole || asked || game.QuestionAvailable(node, question)) coverage.QuestionsAvailable++;
     if (asked) coverage.QuestionsAsked++;
    }
   }
 
   foreach (var clue in data.timelineClues ?? new TimelineClue[0]) {
-   if (!game.TimelineAvailable(clue)) continue;
+   if (!whole && !game.TimelineAvailable(clue)) continue;
    coverage.CluesAvailable++;
    if (state.timelinePinned.Contains(clue.id)) coverage.CluesPinned++;
   }

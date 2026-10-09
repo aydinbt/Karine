@@ -318,8 +318,11 @@ public sealed partial class Investigation {
  public bool SourceAlreadyPresented(Node n,Question q,string sourceId) => State.interviewTurns.Any(t=>t.nodeId==n.id && t.questionId==q.id && t.sourceId==sourceId);
  // Bu soruda bir kez öne sürülen kayıt (tutsa da tutmasa da) o soruda bir daha listelenmez.
  // Kişi bazında değil soru bazında: aynı kayıt aynı kişinin başka sorusunda gerekebilir.
+ // Doğru kayıt ise yalnız gerçekten yanıt alındıysa düşer: tutan kayıt soruyu kapatır,
+ // kapatmadıysa (soru bekletiliyordu) yanmış sayılmaz — yoksa soru kayıtsız kalıp kilitlenir.
  public bool SourceTried(Node n,Question q,string sourceId) =>
-  SourceAlreadyPresented(n,q,sourceId) || (State.triedSources ?? new List<string>()).Contains(n.id+"/"+q.id+"/"+sourceId);
+  SourceAlreadyPresented(n,q,sourceId) || !(QuestionNeedsSource(q) && SourceMatchesQuestion(q,sourceId)) &&
+  (State.triedSources ?? new List<string>()).Contains(n.id+"/"+q.id+"/"+sourceId);
  public void MarkSourceTried(Node n,Question q,string sourceId) {
   State.triedSources ??= new List<string>();
   var key=n.id+"/"+q.id+"/"+sourceId;if(!State.triedSources.Contains(key))State.triedSources.Add(key);

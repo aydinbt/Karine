@@ -1266,3 +1266,8 @@ Kullanıcı kararı: oyunun başında yalnız Bora'nın göreve hazırlanış fi
 ## Jenerik yeri (9 Ekim 2026)
 
 Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir kez; son satır "Devamı gelecek." Hakkında penceresinden yapım ve font satırları kalktı.
+
+## 9 Ekim 2026 — Doğru kayıt yanmaz; rapor özeti dosyanın tamamını sayar
+
+- Yem kayıttan sonra soru kısa süre bekletilir. Bu sırada sunulan doğru kayıt artık "denendi" diye listeden düşmez; kişi yalnız savuşturur. Daha önce Dosya #002'de Selçuk'un "Araç yanında sizinle duran kişi kimdi?" sorusu, doğru iki CCTV kaydı bekleme sırasında yandığı için kayıtsız kalıp kilitleniyordu. Eski kayıtlar kendiliğinden onarılır.
+- Rapor özetindeki "Çalışman" sayaçlarının paydası, rapor gönderildikten sonra dosyanın tamamıdır. Soruşturma sürerken ipucu ekranı yine yalnız açılmış olanı sayar ki gizli soru sayısı sızmasın.
