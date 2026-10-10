@@ -30,7 +30,8 @@ Shader "Hidden/Karine/Crt" {
    v2f vert (appdata_img v) { v2f o; o.pos = UnityObjectToClipPos(v.vertex); o.uv = v.texcoord; return o; }
    fixed4 frag (v2f i) : SV_Target {
     float2 c = i.uv * 2 - 1;
-    c *= 1 + _Curve * dot(c, c);
+    // Köşe tam kenara oturacak kadar küçültülür: hiçbir arayüz ögesi ekran dışına itilmez.
+    c *= (1 + _Curve * dot(c, c)) / (1 + 2 * _Curve);
     float2 uv = (c + 1) * 0.5;
     if (uv.x < 0 || uv.y < 0 || uv.x > 1 || uv.y > 1) return fixed4(0, 0, 0, 1);
     float2 shift = float2(_Chroma, 0);

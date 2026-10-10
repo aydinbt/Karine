@@ -95,7 +95,7 @@ public sealed class CrtPass : MonoBehaviour {
   var size = new Vector2(Screen.width, Screen.height);
   var uv = new Vector2(screen.x / size.x, screen.y / size.y) * 2f - Vector2.one;
   float curve = material != null ? material.GetFloat("_Curve") : 0f;
-  uv *= 1f + curve * uv.sqrMagnitude;
+  uv *= (1f + curve * uv.sqrMagnitude) / (1f + 2f * curve);
   uv = (uv + Vector2.one) * .5f;
   if (uv.x < 0 || uv.y < 0 || uv.x > 1 || uv.y > 1) return new Vector2(float.NaN, float.NaN);
   return new Vector2(uv.x * size.x, uv.y * size.y);
