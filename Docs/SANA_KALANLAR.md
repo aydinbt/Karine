@@ -14,15 +14,15 @@ Ayrıntılı tıklama adımları bağlantılı belgelerdedir.
 ## 1. Hesaplar ve konsollar (yayından önce)
 
 ### Firebase — [FIREBASE_AND_KVKK.md](FIREBASE_AND_KVKK.md)
-- [ ] Proje oluştur (ör. `karine`).
-- [ ] *Authentication › Anonymous* aç.
-- [ ] Firestore'u production modunda, `eur3` ya da `europe-west3` bölgesinde kur.
-- [ ] `Firebase/firestore.rules` içeriğini yapıştır ve **Publish** et (`config/live` okuma izni dahil).
-- [ ] Web uygulaması ekle; **Web API Key** ve **Project ID**'yi bana ver. Ben `config.json`'a yazarım.
+- [x] Proje oluştur (ör. `karine`). (10 Ekim 2026)
+- [x] *Authentication › Anonymous* aç. (10 Ekim 2026)
+- [x] Firestore'u production modunda, `eur3` ya da `europe-west3` bölgesinde kur. (10 Ekim 2026)
+- [x] `Firebase/firestore.rules` içeriğini yapıştır ve **Publish** et (`config/live` okuma izni dahil). (10 Ekim 2026)
+- [x] Web uygulaması ekle; **Web API Key** ve **Project ID**'yi bana ver. Ben `config.json`'a yazarım. (10 Ekim 2026)
 - [ ] (Önerilir) API anahtarını üç API ile kısıtla: Identity Toolkit, Token Service, Cloud Firestore.
 - [ ] (Önerilir) Blaze planına geç ve 5 $/ay bütçe uyarısı koy.
 - [ ] (Önerilir) Hareketsiz anonim hesapların otomatik silinmesini aç (Identity Platform).
-- [ ] Firestore'da `config` koleksiyonu altında `live` belgesini oluştur. Şimdilik boş kalabilir.
+- [x] Firestore'da `config` koleksiyonu altında `live` belgesini oluştur. Şimdilik boş kalabilir. (10 Ekim 2026)
 - [ ] Crashlytics'i aç. `google-services.json` ve `GoogleService-Info.plist` dosyalarını bana ver.
 
 ### Google Play Console — [STORE_ACCOUNTS_CHECKLIST.md](STORE_ACCOUNTS_CHECKLIST.md)
