@@ -376,6 +376,11 @@ public sealed partial class BubeApp {
   header.style.backgroundColor=KarineTheme.Alpha(KarineTheme.GlassDeep,.94f);header.style.borderBottomWidth=1;header.style.borderBottomColor=KarineTheme.Border;
   header.style.flexDirection=FlexDirection.Row;header.style.alignItems=Align.Center;
   header.style.paddingLeft=KarineTheme.SpaceLg;header.style.paddingRight=KarineTheme.SpaceMd;stage.Add(header);
+  // Sahne ekranı kaplarken kenarları kırpılır; şerit sahnenin görünen kısmının tepesine oturur.
+  stage.RegisterCallback<GeometryChangedEvent>(_=>{
+   var s=stage.layout;float l=Mathf.Max(0,-s.x),t=Mathf.Max(0,-s.y);
+   header.style.left=l;header.style.top=t;header.style.width=Mathf.Min(s.width,root.layout.width);
+  });
   KarineUI.OfficeBrand(header,T("desk.menu"),Home);
   // Dosya kabul edilmeden üst şerit dosya numarasını ve yerini söylemez (8 Ekim 2026).
   if(game.State.caseAccepted)KarineUI.OfficeTitle(header,T(game.Data.titleKey),string.IsNullOrEmpty(game.Data.summary?.locationKey)?null:T(game.Data.summary.locationKey));
