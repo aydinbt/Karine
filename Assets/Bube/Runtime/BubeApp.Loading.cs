@@ -49,14 +49,18 @@ public sealed partial class BubeApp {
  // Oyun içi geçiş yüklemesi: hedef ekran altta kurulur, üstünde katman
  // terim/hukuk ipuçlarıyla `Loading.TransitSeconds` kalır ve söner. Masaya
  // girişte, yeni vaka kabulünde ve görüşme odasına girerken çıkar.
+ // Katman önce kurulur ve kökün dışında (panel kökünde) durur: hedef ekran bir kare
+ // sonra altında kurulur, böylece masa yükleme katmanından önce bir an bile görünmez
+ // ve `root.Clear()` katmanı silmez.
  void LoadThen(System.Action next) {
-  next();
   var tips=Enumerable.Range(0,LoadingTerms).Select(i=>T("loading.term."+i)).Concat(Enumerable.Range(0,LoadingTips).Select(i=>T("loading.tip."+i))).ToArray();
   System.Action<float> progress;System.Action finish;
-  KarineUI.LoadingScreen(root,T("loading.label"),tips,out progress,out finish,KarineTheme.Loading.TransitTipSeconds);
-  StartCoroutine(Transit(progress,finish));
+  KarineUI.LoadingScreen(root.parent ?? root,T("loading.label"),tips,out progress,out finish,KarineTheme.Loading.TransitTipSeconds);
+  StartCoroutine(Transit(progress,finish,next));
  }
- IEnumerator Transit(System.Action<float> progress,System.Action finish) {
+ IEnumerator Transit(System.Action<float> progress,System.Action finish,System.Action next) {
+  yield return null;
+  next();
   float started=Time.realtimeSinceStartup,length=KarineTheme.Loading.TransitSeconds;
   while(Time.realtimeSinceStartup-started<length){progress((Time.realtimeSinceStartup-started)/length);yield return null;}
   progress(1);yield return new WaitForSecondsRealtime(.25f);finish();

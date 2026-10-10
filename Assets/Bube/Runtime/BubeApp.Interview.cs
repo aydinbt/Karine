@@ -19,7 +19,7 @@ public sealed partial class BubeApp {
   if(active!=null && !string.IsNullOrEmpty(active.topicKey))selectedInterviewTopic=active.topicKey;
   bool enteringRoom=SceneManager.GetActiveScene().name!="InterviewScene";
   // Odaya girerken siyah geçişin ardından yükleme katmanı ve terim ipucu.
-  if(enteringRoom && !enteringInterview){enteringInterview=true;try{LoadThen(()=>InterviewPage(node,active,phase,answerKey,sourceId,sourceAccepted));}finally{enteringInterview=false;}return;}
+  if(enteringRoom && !enteringInterview){LoadThen(()=>{enteringInterview=true;try{InterviewPage(node,active,phase,answerKey,sourceId,sourceAccepted);}finally{enteringInterview=false;}});return;}
   if(enteringRoom)showingInterviewHistory=false;
   EnsureScene("InterviewScene");
   showingInterviewList=false;
