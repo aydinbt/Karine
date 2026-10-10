@@ -20,7 +20,7 @@ Oyun gerçek bir soruşturma, hukuk ya da güvenlik eğitimi yerine geçmez.
 
 ## 3. Hesap ve kayıt
 
-Oyun, ilerlemeni rastgele bir oyuncu kimliğiyle bulutta saklar. İstersen Apple ya da Google hesabını bağlayabilirsin. Kimliğinin ve cihazının güvenliğinden sen sorumlusun.
+Oyun, ilerlemeni rastgele bir oyuncu kimliğiyle bulutta saklar. Kimliğinin ve cihazının güvenliğinden sen sorumlusun.
 
 Hesabını istediğin an Ayarlar › Hesap'tan silebilirsin. Ayrıntılar [Gizlilik Politikası](https://bubegames.com/karine/gizlilik)'ndadır.
 
@@ -62,70 +62,3 @@ Bu koşullar Bube Games ile senin aranda yapılmıştır, Apple ile değil. Oyun
 ## 10. İletişim
 
 Sorular ve destek için: support@bubegames.com
-
----
-
-# Karine — Terms of Use
-
-Last updated: [DATE]
-Bube Games, [ADDRESS]
-Contact: support@bubegames.com
-
-By downloading or playing Karine you agree to these terms. If you do not agree, please do not use the game.
-
-## 1. The game and your licence
-
-We grant you a personal, non-commercial, non-transferable, non-exclusive licence to play Karine.
-
-The game's text, art, music, code and the name "Karine" belong to Bube Games or its licensors. You may not copy, sell, reverse-engineer or distribute modified versions of the game.
-
-## 2. Fiction
-
-Karine is a work of fiction. Its people, institutions, companies and events are imaginary. Any resemblance to real persons or organisations is coincidental.
-
-The game is not a substitute for real investigative, legal or security training.
-
-## 3. Account and save
-
-The game stores your progress in the cloud under a random player ID. You may link an Apple or Google account. You are responsible for the security of your device and account.
-
-You can delete your account at any time under Settings › Account. See the [Privacy Policy](https://bubegames.com/karine/gizlilik) for details.
-
-## 4. Purchases and ads
-
-The game is free and shows ads. Optional one-time purchases:
-
-- **Remove ads:** turns off mandatory ads.
-- **Permanent priority:** removes waiting times.
-
-Payment is handled by the Apple App Store or Google Play. Refunds follow that store's policies. You can use your purchases on a new device with "Restore purchases" on the same store account.
-
-Rewarded ads only grant cosmetics (such as a lamp colour) or shorter waits. They never grant clues, evidence or any advantage in an investigation.
-
-Purchased or unlocked content has no monetary value, cannot be exchanged for cash and is not transferable.
-
-## 5. Conduct
-
-Do not use cheats or automation, or use the game in a way that harms our servers. We may suspend the cloud save of accounts that seriously breach these terms.
-
-## 6. Changes and end of service
-
-We may update the game and change or discontinue cases, features or online services. If we shut down online services, we will announce it in the game at least 30 days in advance. Your on-device progress will keep working.
-
-## 7. Liability
-
-The game is provided "as is". To the extent permitted by law, we do not guarantee that it will be uninterrupted or error-free, and we are not liable for indirect damages.
-
-Your statutory consumer rights are not affected.
-
-## 8. Governing law
-
-These terms are governed by the laws of the Republic of Turkey. Mandatory consumer protection laws of your country of residence still apply. [TO BE REVIEWED BY COUNSEL]
-
-## 9. Apple users
-
-These terms are between you and Bube Games, not Apple. Apple is not responsible for the game or its support. Apple and its subsidiaries are third-party beneficiaries of these terms.
-
-## 10. Contact
-
-Questions and support: support@bubegames.com
