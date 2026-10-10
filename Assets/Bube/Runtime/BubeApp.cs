@@ -149,6 +149,9 @@ public sealed partial class BubeApp : MonoBehaviour {
   instance=this;
   DontDestroyOnLoad(gameObject);
   config=Load<GameConfig>("Bube/config");
+  // Firebase anahtarı depoda değil: yerel `firebase.local.json` (git dışı) varsa oradan okunur.
+  var secrets=Resources.Load<TextAsset>("Bube/firebase.local");
+  if(secrets!=null)JsonUtility.FromJsonOverwrite(secrets.text,config);
   language=Languages.Current();
   locale=LocaleLoader.LoadPlayable(language);KarineUI.TextCulture=new System.Globalization.CultureInfo(language);
   canonLocale=language==Languages.Canon?locale:LocaleLoader.Load(Languages.Canon);

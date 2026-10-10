@@ -58,3 +58,7 @@ keystore.properties
 # Oyun içi ekran görüntüleri (Tools/capture-screens.sh) — yerel
 Docs/Screenshots/
 Portraits_in/
+
+# Firebase anahtarı yalnız yerelde (bkz. Docs/FIREBASE_AND_KVKK.md)
+Assets/Bube/Resources/Bube/firebase.local.json
+Assets/Bube/Resources/Bube/firebase.local.json.meta

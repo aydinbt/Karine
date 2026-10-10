@@ -101,3 +101,13 @@ Kurallar dosyasında (`Firebase/firestore.rules`) `config/live` herkese okunur, 
 - Bir vakada kilit bulundu → `pausedCases` ve duyuru; düzeltme yayına girince ikisini sil.
 - Bir sürüm kayıtları bozuyor → düzeltilmiş sürümü yayınla, sonra `minVersion`'ı ona yükselt.
 - Kod değişikliği her zaman mağazadan gider; bu belge kodu değiştirmez.
+
+## API anahtarı depoda değil (10 Ekim 2026)
+
+`config.json`'daki `firebaseApiKey` boş kalır. Anahtar `Assets/Bube/Resources/Bube/firebase.local.json` dosyasındadır; dosya `.gitignore`'dadır ve `BubeApp.Awake` onu `config`'in üstüne yazar. Yeni bir makinede bu dosya elle oluşturulur:
+
+```json
+{ "firebaseApiKey": "AIza...", "firebaseProjectId": "bubegames-karine" }
+```
+
+Dosya yoksa oyun bulutsuz (yalnız cihazda) çalışır. Derlenen oyunun içinde anahtar yine bulunur; bu Firebase'de olağandır, güvenlik `Firebase/firestore.rules` ve Cloud Console'daki API kısıtlamasıyla sağlanır.
