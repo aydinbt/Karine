@@ -16,7 +16,9 @@ Türkiye'de yaşayan oyuncular için ayrıntılı bilgi [KVKK Aydınlatma Metni]
 |---|---|
 | Rastgele oyuncu kimliği (kimliğine bağlı değildir) | Kaydının sana ait kalması |
 | Kariyer kaydı: kapanan dosyalar, rütbe, güven puanı, açılan ödüller, oynama süresi | Oyunu silip yeniden kurduğunda ya da telefon değiştirdiğinde ilerlemenin geri gelmesi |
+| Apple ya da Google ile giriş yaparsan, o hizmetin verdiği hesap kimliği (adın ve e-postan bize gelmez) | Kaydını başka cihaza taşımak |
 | Bağlantı sırasında IP adresi ve teknik kayıtlar | Hizmetin güvenli çalışması |
+| Çökme raporları: cihaz modeli, işletim sistemi sürümü, hata kaydı | Hataları bulup düzeltmek |
 | Reklam kimliği ve reklam etkileşimleri | Reklam göstermek; izin verirsen kişiselleştirmek |
 | Satın alma makbuzu | "Reklamları kaldır" ve "Kalıcı öncelik" satın alımlarını tanımak ve geri yüklemek |
 
@@ -30,14 +32,18 @@ Vakaların içindeki ayrıntılar (ne okuduğun, kime ne sorduğun, notların) y
 
 Oyun silinip yeniden kurulduğunda kimliğin geri gelsin diye cihazın güvenli deposunda kısa bir anahtar tutulur (iOS Anahtar Zinciri, Android Google Block Store).
 
-Oyunda analiz aracı yoktur. Bildirimler cihazın kendisinde zamanlanır; bunun için sunucuya veri gönderilmez.
+Oyunda pazarlama ya da davranış analizi aracı yoktur. Bildirimler cihazın kendisinde zamanlanır; bunun için sunucuya veri gönderilmez.
 
 ## Kullandığımız hizmetler
 
 Verileri satmayız. Yalnız hizmeti sağlayan şu şirketlerle paylaşılır:
 
-- **Google:** Firebase (anonim kimlik, bulut kaydı, uzaktan oyun ayarları) ve AdMob (reklam ve izin formu)
+- **Google:** Firebase (kimlik, bulut kaydı, uzaktan oyun ayarları, çökme raporu — Crashlytics), AdMob (reklam ve izin formu), Google Play Oyun Hizmetleri (Google ile giriş)
+- **Apple:** Apple ile giriş
+- **Unity Technologies:** Unity In-App Purchasing (satın almaların mağazayla doğrulanması) ve Unity Gaming Services (hesap ve bulut kaydı altyapısı)
 - **Apple ve Google:** uygulama mağazaları ve satın almalar
+
+Bu listedeki bazı hizmetler her sürümde ya da her platformda etkin olmayabilir; etkin olmayan bir hizmete veri gönderilmez.
 
 Bu hizmetlerin sunucuları yaşadığın ülkenin dışında, AB'de ve ABD'de bulunabilir.
 

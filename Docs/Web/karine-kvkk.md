@@ -16,7 +16,9 @@ E-posta: support@bubegames.com
 |---|---|---|
 | Rastgele oyuncu kimliği | Kaydını sana ait tutmak | Sözleşmenin kurulması ve ifası (m.5/2-c) |
 | Kariyer kaydı: kapanan dosyalar, rütbe, güven puanı, açılan ödüller, oynama süresi | Yeniden kurulumda ve telefon değişiminde ilerlemenin geri gelmesi | Sözleşmenin kurulması ve ifası (m.5/2-c) |
+| Apple ya da Google ile girişte, o hizmetin verdiği hesap kimliği | Kaydını başka cihaza taşımak | Sözleşmenin kurulması ve ifası (m.5/2-c) |
 | IP adresi ve bağlantı kayıtları | Hizmetin güvenliği | Meşru menfaat (m.5/2-f) |
+| Çökme raporu: cihaz modeli, işletim sistemi sürümü, hata kaydı | Hataların giderilmesi | Meşru menfaat (m.5/2-f) |
 | Reklam kimliği ve reklam etkileşimleri — kişiselleştirilmemiş reklam | Reklam göstermek | Meşru menfaat (m.5/2-f) |
 | Reklam kimliği — kişiselleştirilmiş reklam | Reklamı ilgi alanına göre seçmek | Açık rıza (m.5/1) |
 | Satın alma makbuzu | Satın alımları tanımak ve geri yüklemek | Sözleşmenin kurulması ve ifası (m.5/2-c) |
@@ -31,8 +33,12 @@ Veriler, oyunu kullandığında uygulama aracılığıyla otomatik yollarla topl
 
 Kişisel verilerin yalnız hizmetin sağlanması için şu alıcılara aktarılır:
 
-- **Google LLC / Google Ireland Ltd.:** Firebase (kimlik, bulut kaydı, uzaktan ayarlar) ve AdMob (reklam)
+- **Google LLC / Google Ireland Ltd.:** Firebase (kimlik, bulut kaydı, uzaktan ayarlar, Crashlytics çökme raporu), AdMob (reklam), Google Play Oyun Hizmetleri (giriş)
+- **Apple Inc.:** Apple ile giriş
+- **Unity Technologies:** Unity In-App Purchasing ve Unity Gaming Services (hesap ve bulut kaydı altyapısı)
 - **Apple Inc. ve Google LLC:** uygulama mağazaları ve satın almalar
+
+Bu hizmetlerden bazıları her sürümde ya da platformda etkin olmayabilir; etkin olmayan hizmete veri aktarılmaz.
 
 Bu hizmetlerin sunucuları yurt dışında (AB ve ABD) bulunabilir. Yurt dışına aktarım KVKK m.9'a uygun olarak [STANDART SÖZLEŞME / DİĞER — HUKUKÇU DOLDURACAK] ile yapılır.
 

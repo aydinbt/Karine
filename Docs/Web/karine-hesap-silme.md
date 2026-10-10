@@ -20,7 +20,7 @@ Talebin en geç 30 gün içinde sonuçlanır.
 ## Ne silinir
 
 - Buluttaki kariyer kaydın: kapanan dosyalar, rütbe, ödüller, oynama süresi
-- Oyuncu kimliğin (Firebase'deki anonim hesap)
+- Oyuncu kimliğin ve varsa ona bağlı Apple/Google giriş bağlantısı
 - Telefondaki oyun ilerlemen ve cihazın güvenli deposundaki anahtar
 
 ## Ne kalır
