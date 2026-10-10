@@ -5,11 +5,18 @@ using UnityEngine;
 
 namespace Bube {
 // AdMob gerçeklemesi. Ne zaman gösterileceğine `AdGateway` karar verir; burası
-// yalnız yükler ve gösterir. Kimlikler bugün Google'ın herkese açık **test**
-// kimlikleri; gerçek hesap açılınca yalnız aşağıdaki iki satır değişir.
+// yalnız yükler ve gösterir. Yayın derlemesi gerçek birimleri (platforma göre) kullanır;
+// geliştirme derlemesi ve Editor Google'ın test birimlerini: kendi gerçek reklamına
+// tıklamak AdMob hesabını kapattırabilir. Uygulama kimlikleri GoogleMobileAdsSettings'tedir.
 public sealed class AdMobProvider : IAdProvider {
- const string InterstitialId = "ca-app-pub-3940256099942544/1033173712"; // test
- const string RewardedId     = "ca-app-pub-3940256099942544/5224354917"; // test
+ const string TestInterstitial="ca-app-pub-3940256099942544/1033173712",TestRewarded="ca-app-pub-3940256099942544/5224354917";
+#if UNITY_IOS
+ const string LiveInterstitial="ca-app-pub-7630097524526316/1817857936",LiveRewarded="ca-app-pub-7630097524526316/6718830822";
+#else
+ const string LiveInterstitial="ca-app-pub-7630097524526316/2430075333",LiveRewarded="ca-app-pub-7630097524526316/8031912492";
+#endif
+ static string InterstitialId=>Debug.isDebugBuild?TestInterstitial:LiveInterstitial;
+ static string RewardedId=>Debug.isDebugBuild?TestRewarded:LiveRewarded;
 
  InterstitialAd interstitial;
  RewardedAd rewarded;
