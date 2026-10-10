@@ -58,7 +58,7 @@ Metinler hazır: [Web/README.md](Web/README.md) (hangi dosya hangi adres). Site 
 - [x] Destek e-postası: `support@bubegames.com` (10 Ekim 2026).
 - [ ] Gizlilik ve koşulları hukukçuya okut: KVKK yurt dışı aktarımı (m.9), hukuki sebep (m.5/2-c), VERBİS, uygulanacak hukuk.
 - [ ] Dört sayfayı yayınla: `/karine`, `/karine/gizlilik`, `/karine/kosullar`, `/karine/hesap-silme`.
-- [ ] Yayınlanınca haber ver; `privacyUrl`, `accountDeletionUrl`, `supportEmail`'i `config.json`'a ben yazarım.
+- [ ] Yayınlanınca haber ver; `privacyUrl` ve `accountDeletionUrl`'yi `config.json`'a ben yazarım (`supportEmail` yazıldı).
 
 ## 3. Mağaza formları ve görselleri
 
