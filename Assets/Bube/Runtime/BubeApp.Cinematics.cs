@@ -27,6 +27,15 @@ public sealed partial class BubeApp {
  // dünyadaki sonraki her dosya bu çizilmiş bırakılışla gelir, böylece bölüm
  // geçişi hiçbir zaman sessiz olmuyor. Kabul edilmiş bir vakaya dönerken
  // animasyon oynamaz — bırakılış yalnız gelen dosyanın anıdır.
+ // Menüden "Başla": bekleyen dünya filmi varsa geçişi film yapar; yoksa önce yükleme
+ // katmanı iner, bırakılış onun altında hazırlanır ve katman kalkınca oynar. Böylece
+ // masa yükleme ekranından önce görünmez (10 Ekim 2026).
+ void StartFromMenu() {
+  bool film=(config.worldIntros ?? new WorldIntro[0]).Any(w=>w.firstCaseId==game.Data.id && !game.Career.seenWorldIntros.Contains(w.id));
+  if(film){MaybeWorldIntro(Desk);return;}
+  LoadThen(()=>NewCaseArrival(Desk));
+ }
+
  void NewCaseArrival(Action after) {
   if(game.State.caseAccepted || game.Career.retired){after();return;}
   StartCoroutine(FirstDeskArrival(after));
@@ -261,6 +270,7 @@ public sealed partial class BubeApp {
   else folder.style.display=DisplayStyle.None;
   // Dosyanın numarası ve adı burada yazılmaz: oyuncu dosyayı kabul edince açılış
   // dizisi (saat kartı, mekân, başlık) onları zaten söylüyor; iki kez görünüyordu.
+  while(transitLoading)yield return null;
   float elapsed=0;bool landed=false;
   while(elapsed<(welcome?2.1f:.7f)) {
    elapsed+=Time.unscaledDeltaTime;

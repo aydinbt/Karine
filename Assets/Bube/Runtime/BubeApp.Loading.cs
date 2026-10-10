@@ -58,12 +58,15 @@ public sealed partial class BubeApp {
   KarineUI.LoadingScreen(root.parent ?? root,T("loading.label"),tips,out progress,out finish,KarineTheme.Loading.TransitTipSeconds);
   StartCoroutine(Transit(progress,finish,next));
  }
+ // Geçiş katmanı ekrandayken true; altında hazırlanan animasyonlar onu bekler.
+ bool transitLoading;
  IEnumerator Transit(System.Action<float> progress,System.Action finish,System.Action next) {
+  transitLoading=true;
   yield return null;
   next();
   float started=Time.realtimeSinceStartup,length=KarineTheme.Loading.TransitSeconds;
   while(Time.realtimeSinceStartup-started<length){progress((Time.realtimeSinceStartup-started)/length);yield return null;}
-  progress(1);yield return new WaitForSecondsRealtime(.25f);finish();
+  progress(1);yield return new WaitForSecondsRealtime(.25f);finish();transitLoading=false;
  }
 
  IEnumerator Preload(System.Action<float> progress,System.Action finish) {

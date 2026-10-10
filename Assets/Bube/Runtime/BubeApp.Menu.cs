@@ -39,7 +39,7 @@ public sealed partial class BubeApp {
   if(Accounts.Chosen && game.State.caseAccepted) {
    MenuRow(menu,"folder",T("menu.row.continue"),()=>LoadThen(Desk),true);SlotLine(menu);
   } else {
-   MenuRow(menu,"folder",T("menu.row.start"),()=>MaybeWorldIntro(()=>LoadThen(Desk)),true);
+   MenuRow(menu,"folder",T("menu.row.start"),StartFromMenu,true);
   }
   MenuRow(menu,"document",T("menu.row.chapters"),WorldPage,false);
   MenuRow(menu,"chart",T("menu.row.career"),StatisticsPage,false);
