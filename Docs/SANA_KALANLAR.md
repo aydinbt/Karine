@@ -43,7 +43,7 @@ Ayrıntılı tıklama adımları bağlantılı belgelerdedir.
 
 ### AdMob
 - [x] Hesap, iki uygulama ve dört reklam birimi; kimlikler oyunda (10 Ekim 2026).
-- [ ] *Privacy & messaging* bölümünde GDPR mesajını yayınla. "IDFA explainer"ı **açma**.
+- [x] GDPR (Avrupa düzenlemeleri) mesajı yayınlandı (10 Ekim 2026). IDFA açıklaması kapalı kalacak.
 
 ### Yayın imza anahtarı
 - [ ] Android keystore'u sen üret ve parolasını sakla. Depoya asla girmez.
