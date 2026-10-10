@@ -42,7 +42,7 @@ Ayrıntılı tıklama adımları bağlantılı belgelerdedir.
 - [ ] Apple girişinde hesap silinince belirteç iptali (revoke) gerekiyor. Sunucu işlevinin nasıl yapılacağına birlikte karar verelim.
 
 ### AdMob
-- [ ] Hesabı ve uygulamayı oluştur. Gerçek **interstitial** ve **rewarded** birim kimliklerini bana ver; şu an test kimlikleri var.
+- [x] Hesap, iki uygulama ve dört reklam birimi; kimlikler oyunda (10 Ekim 2026).
 - [ ] *Privacy & messaging* bölümünde GDPR mesajını yayınla. "IDFA explainer"ı **açma**.
 
 ### Yayın imza anahtarı
