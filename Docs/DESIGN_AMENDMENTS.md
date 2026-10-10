@@ -1278,3 +1278,7 @@ Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir ke
 - **Kör nokta:** Büfe kamerasının sinyali 23.20–23.30 arasında kesiliyor. Temas olayı artık yalnız iki kişinin karşı karşıya durduğu ilk iki kareyi gösteriyor; düşüş anı kayıtta yok. Nasıl düştüğü (itme mi, yumruk mu, kendiliğinden mi) yalnız adli muayene ve Emre'nin ikinci ifadesiyle çözülüyor.
 - **Deniz gerçek şüpheli:** 23.19'da sokağın üst ucunda biri yeniden görünüyor (yüz seçilmiyor). Deniz bunu ancak kayıt önüne konunca kabul ediyor ("kulaklığımı unutmuştum, yaklaşmadım"); ilk görüşmedeki "arkama bakmadım" sözüyle çelişiyor, oyunda etiketlenmiyor.
 - Çözüm aynı: Emre itti, Kerem parayı aldı. Deniz geri bildirimi ve sonu tr/en/de güncellendi.
+
+## 10 Ekim 2026 — Fransızca
+
+- Fransızca tam çeviri girdi. Ton: resmî *vous*, saatler noktalı (23.15), « » tırnak ve ’ kesme. Şube adları "Antenne de …", rapor "RAPPORT D’INCIDENT", ifade başlıkları "— audition". Hüküm veren sözcükler (mensonge, vérité, coupable, innocent, caché, peur…) hiçbir satırda kullanılmaz; ayrıntı `Translation/GLOSSARY_fr.md`.

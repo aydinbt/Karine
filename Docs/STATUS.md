@@ -1,9 +1,11 @@
 # Karine — durum özeti
 
-**Son güncelleme:** 9 Ekim 2026 (mağaza hazırlığı)
+**Son güncelleme:** 10 Ekim 2026 (Fransızca çeviri)
 **Bu dosya:** projeye bakan herkesin ilk okuyacağı tek sayfa. Ayrıntı için [ROADMAP.md](ROADMAP.md), kanıt için [AUDIT_2026-09-25.md](AUDIT_2026-09-25.md), ileri plan için [PHASE_PLAN.md](PHASE_PLAN.md).
 
 ## Tek cümle
+
+**10 Ekim:** **Fransızca çeviri tamamlandı.** 73 dosya ve ortak arayüz, 12.934 satır; çeviri denetimi 0 sorun, 0 eksik. Sözlük: [Translation/GLOSSARY_fr.md](Translation/GLOSSARY_fr.md). `fr.json` geldiği için dil seçicide Français artık görünüyor; geçici `fr.account.json` kaldırıldı (anahtarları `fr.json`da). Menü duyurusuna `notice_fr` eklendi. 147 EditMode geçiyor. Kalan diller (it, es, pt-BR) kullanıcı onayı bekliyor. **Fransızca metin oyunda okunmadı** → `[~]`.
 
 **9 Ekim (gece, 7):** Unity IAP 4.12.2 → 5.4.3 (IAP 4 desteği 8 Haziran 2026'da bitti). `UnityStore` yeni `StoreController` arayüzüyle yeniden yazıldı; derleme ve testler temiz, satın alma cihazda test hesabıyla denenmeli.
 

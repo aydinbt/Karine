@@ -10,7 +10,7 @@ namespace Bube {
 // belgesi: config/live. Alanlar (hepsi metin, hepsi isteğe bağlı):
 //   minVersion     — bundan eski sürüm "güncelle" kâğıdı görür (ör. "1.0.3")
 //   pausedCases    — virgülle ayrılmış vaka kimlikleri; düzeltme gelene dek açılmaz
-//   notice_tr / notice_en / notice_de — ana menüde tek satırlık duyuru
+//   notice_tr / notice_en / notice_de / notice_fr — ana menüde tek satırlık duyuru
 //   storeUrl_android / storeUrl_ios — güncelle düğmesinin gideceği mağaza sayfası
 // Ağ yoksa son okunan değerler kullanılır; hiç okunmadıysa hiçbir şey kapanmaz.
 public static class RemoteSettings {
@@ -23,7 +23,7 @@ public static class RemoteSettings {
  public static bool CasePaused(string caseId) => !string.IsNullOrEmpty(caseId) &&
   (current.pausedCases ?? "").Split(',').Select(s => s.Trim()).Contains(caseId);
  public static string Notice(string language) {
-  var text = language == "tr" ? current.notice_tr : language == "de" ? current.notice_de : current.notice_en;
+  var text = language == "tr" ? current.notice_tr : language == "de" ? current.notice_de : language == "fr" ? current.notice_fr : current.notice_en;
   return string.IsNullOrWhiteSpace(text) ? current.notice_en ?? "" : text;
  }
  public static string StoreUrl {
@@ -62,7 +62,7 @@ public static class RemoteSettings {
   if (f == null) return new Snapshot();
   return new Snapshot {
    minVersion = f.minVersion?.stringValue, pausedCases = f.pausedCases?.stringValue,
-   notice_tr = f.notice_tr?.stringValue, notice_en = f.notice_en?.stringValue, notice_de = f.notice_de?.stringValue,
+   notice_tr = f.notice_tr?.stringValue, notice_en = f.notice_en?.stringValue, notice_de = f.notice_de?.stringValue, notice_fr = f.notice_fr?.stringValue,
    storeUrl_android = f.storeUrl_android?.stringValue, storeUrl_ios = f.storeUrl_ios?.stringValue,
   };
  }
@@ -79,9 +79,9 @@ public static class RemoteSettings {
  }
  static int[] Parts(string v) => (v ?? "").Split('.').Select(p => int.TryParse(new string(p.TakeWhile(char.IsDigit).ToArray()), out var n) ? n : 0).ToArray();
 
- [Serializable] public class Snapshot { public string minVersion, pausedCases, notice_tr, notice_en, notice_de, storeUrl_android, storeUrl_ios; }
+ [Serializable] public class Snapshot { public string minVersion, pausedCases, notice_tr, notice_en, notice_de, notice_fr, storeUrl_android, storeUrl_ios; }
  [Serializable] class Doc { public Fields fields; }
- [Serializable] class Fields { public Value minVersion, pausedCases, notice_tr, notice_en, notice_de, storeUrl_android, storeUrl_ios; }
+ [Serializable] class Fields { public Value minVersion, pausedCases, notice_tr, notice_en, notice_de, notice_fr, storeUrl_android, storeUrl_ios; }
  [Serializable] class Value { public string stringValue; }
 }
 }

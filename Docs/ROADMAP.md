@@ -1,6 +1,6 @@
 # Karine — geliştirme yol haritası
 
-**Son durum:** 7 Ekim 2026 (sorgu akışı ayıklandı, CCTV videosu kalmadı — #011–#073 oynanmadı)
+**Son durum:** 10 Ekim 2026 (Fransızca çeviri tamam; sorgu akışı ayıklandı, CCTV videosu kalmadı — #011–#073 oynanmadı)
 **Tek sayfalık durum:** `Docs/STATUS.md`  
 **Sıra ve gerekçe:** `Docs/PHASE_PLAN.md`  
 **Denetim ve kanıt:** `Docs/AUDIT_2026-09-25.md`  
@@ -673,6 +673,7 @@ Kullanıcı kararı: "Japonya dahil bütün dünyaları ve vakaların senaryosun
 - [~] Kariyer ekranı **Sicil** sekmesi: güven seyri, kademe değişimleri, ülke karnesi.
 - [~] İngilizce çeviri: 12.755 satır (ortak + 73 vaka), denetim 0 sorun; sözlük `Translation/GLOSSARY_en.md`. Oyunda okunmadı.
 - [~] Almanca çeviri (9 Ekim 2026): 12.833 satır (ortak + 73 vaka), denetim 0 sorun; sözlük `Translation/GLOSSARY_de.md`. Oyunda okunmadı.
+- [~] Fransızca çeviri (10 Ekim 2026): 12.934 satır (ortak + 73 vaka), denetim 0 sorun / 0 eksik; sözlük `Translation/GLOSSARY_fr.md`; `notice_fr` uzaktan ayara eklendi. Oyunda okunmadı.
 - [ ] Giriş ekranı Apple/Google logoları **temsilî** (9 Ekim 2026, kodla çizildi): mağazaya göndermeden önce resmî dosyalarla değiştir — `Bube/Art/Icons/apple.png` (beyaz), `google.png` (dört renkli G). Giriş ekranının yatay maketi `[~]`, Unity'de görülmedi.
 - [~] Açılış videosu (`splash_loop.mp4`) yükleme ekranının arka planında; başsız PlayMode ekran görüntüsünde oynadığı görüldü, cihazda denenmedi (9 Ekim 2026).
 - [ ] Çeviriler: fr, it, es, pt-BR — her biri tüm satırlar, denetim 0 sorun. (Kullanıcı onayı bekleniyor.)

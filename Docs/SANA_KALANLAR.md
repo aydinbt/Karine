@@ -1,6 +1,6 @@
 # Sana kalanlar — tek liste
 
-Son güncelleme: **9 Ekim 2026**
+Son güncelleme: **10 Ekim 2026**
 
 Bu dosya, **yalnız senin yapabileceğin** işlerin tek listesidir: hesap açmak, sözleşme kabul etmek, para ödemek, cihazda oynamak, karar vermek. Benim yapabileceğim işler burada yer almaz; onlar `ROADMAP.md`'dedir. Her oturum sonunda bu dosya güncellenir. Bir iş bitince satırı silinmez, işaretlenir:
 
@@ -80,6 +80,8 @@ Ayrıntılı tıklama adımları bağlantılı belgelerdedir.
 
 Kodda `[~]` duran ve ancak gözle `[x]` olabilecek maddeler:
 
+- [ ] **Dosya #001'i Fransızca oyna** (Ayarlar → Français): düğme/sekme taşması ve okunuş.
+
 - [ ] **Dosya #002** (9 Ekim değişikliği), şu üçü kontrol edilecek:
   - 23.20–23.30 sinyal boşluğu görünüyor mu,
   - Deniz'in 23.19 sorusu açılıyor mu,
@@ -131,7 +133,8 @@ Kodda `[~]` duran ve ancak gözle `[x]` olabilecek maddeler:
 
 ## 7. Karar bekleyenler
 
-- [ ] **Çeviri:** tr/en/de tamam. Fransızca, İtalyanca, İspanyolca ve Portekizce (BR) bekliyor. "Fransızcaya başla" dersen başlarım.
+- [x] **Fransızca** tamam (10 Ekim 2026).
+- [ ] **Çeviri:** tr/en/de/fr tamam. İtalyanca, İspanyolca ve Portekizce (BR) bekliyor. "İtalyancaya başla" dersen başlarım.
 - [ ] **Türkiye #001–#010 anlatı denetimi:** öneri kartı açık; tıklarsan ayrı oturumda başlar.
 - [ ] **Olay panosu** tasarımı (ROADMAP, Dosya #008): tasarımı sen vereceksin.
 - [ ] **Uzaktan indirilen içerik** (yeni vakaları mağaza onayı olmadan göndermek): düzenli vaka yayını planı olursa konuşalım.

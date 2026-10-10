@@ -92,7 +92,7 @@ Firestore konsolunda *Start collection* → `config`, belge kimliği `live`. Ala
 |---|---|---|
 | `minVersion` | `1.0.3` | Daha eski sürüm "Güncelleme gerekli" kâğıdı görür, oyuna girilmez. |
 | `pausedCases` | `case002,case014` | Bu vakalar teklif edilmez; açık olan masaya girmez, kayıt korunur. |
-| `notice_tr`, `notice_en`, `notice_de` | `Dosya #002 düzeltmesi yolda.` | Ana menüde tek satır duyuru. |
+| `notice_tr`, `notice_en`, `notice_de`, `notice_fr` | `Dosya #002 düzeltmesi yolda.` | Ana menüde tek satır duyuru. |
 | `storeUrl_android`, `storeUrl_ios` | mağaza sayfası | "Mağazaya git" düğmesi. Android boşsa paket kimliğinden üretilir; iOS'ta App Store bağlantısı yazılmalı. |
 
 Kurallar dosyasında (`Firebase/firestore.rules`) `config/live` herkese okunur, kimse yazamaz; yalnız konsoldan değiştirilir. Kuralları yeniden **Publish** etmeyi unutma.

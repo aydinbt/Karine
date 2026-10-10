@@ -1,0 +1,5068 @@
+{
+ "entries": [
+  {
+   "key": "career.board.countries",
+   "value": "PAYS"
+  },
+  {
+   "key": "career.board.cases",
+   "value": "TOTAL DES DOSSIERS"
+  },
+  {
+   "key": "career.board.progress",
+   "value": "PROGRESSION DE CARRIÈRE"
+  },
+  {
+   "key": "career.board.done",
+   "value": "DOSSIERS CLOS"
+  },
+  {
+   "key": "career.board.failed",
+   "value": "FAUSSES ACCUSATIONS"
+  },
+  {
+   "key": "career.board.pending",
+   "value": "ÉVALUATION EN ATTENTE"
+  },
+  {
+   "key": "career.board.results",
+   "value": "RÉSULTATS DES DOSSIERS"
+  },
+  {
+   "key": "career.board.countryProgress",
+   "value": "PROGRESSION PAR PAYS"
+  },
+  {
+   "key": "career.board.total",
+   "value": "TOTAL"
+  },
+  {
+   "key": "career.board.unit",
+   "value": "DOSSIERS"
+  },
+  {
+   "key": "intro.skip",
+   "value": "PASSER"
+  },
+  {
+   "key": "intro.firstFile",
+   "value": "PREMIÈRE AFFECTATION"
+  },
+  {
+   "key": "intro.newFile",
+   "value": "NOUVELLE AFFECTATION"
+  },
+  {
+   "key": "world01.country",
+   "value": "Türkiye"
+  },
+  {
+   "key": "intro.world02.city",
+   "value": "Londres — antenne de Southwark"
+  },
+  {
+   "key": "intro.world01.city",
+   "value": "ISTANBUL · BEŞİKTAŞ"
+  },
+  {
+   "key": "desk",
+   "value": "Bureau d’enquête"
+  },
+  {
+   "key": "bora",
+   "value": "Bora • 27 ans • né à Istanbul\nDépartement bube • Unité d’enquête internationale"
+  },
+  {
+   "key": "inbox",
+   "value": "Courrier entrant : un nouveau dossier vous attend."
+  },
+  {
+   "key": "closed",
+   "value": "Rapport envoyé. Évaluation en attente."
+  },
+  {
+   "key": "back.desk",
+   "value": "Retour au bureau"
+  },
+  {
+   "key": "back.file",
+   "value": "Retour au dossier"
+  },
+  {
+   "key": "conclude",
+   "value": "Rapport final"
+  },
+  {
+   "key": "continue",
+   "value": "De nouveaux enregistrements ou de nouvelles auditions peuvent s’ouvrir. Vous pouvez aussi rédiger le rapport final avec ce que vous avez."
+  },
+  {
+   "key": "conclude.prompt",
+   "value": "Prépare le rapport définitif que Bora enverra à l’unité. Pour la personne, la méthode et la preuve choisies, montre l’enregistrement sur lequel chacune repose."
+  },
+  {
+   "key": "result",
+   "value": "Évaluation"
+  },
+  {
+   "key": "close",
+   "value": "Fermer le dossier et retourner au bureau"
+  },
+  {
+   "key": "save.failed",
+   "value": "La progression n’a pas pu être enregistrée. Vérifiez l’espace de stockage."
+  },
+  {
+   "key": "save.fromFuture",
+   "value": "Une ancienne sauvegarde a été trouvée, mais elle appartient à une version plus récente et n’a pas pu être lue. Elle n’a pas été supprimée ; elle est conservée à côté. L’enquête a recommencé depuis le début."
+  },
+  {
+   "key": "kind.document",
+   "value": "Document"
+  },
+  {
+   "key": "kind.interview",
+   "value": "Audition"
+  },
+  {
+   "key": "kind.cctv",
+   "value": "Enregistrement caméra"
+  },
+  {
+   "key": "kind.bps",
+   "value": "Fiche BDS"
+  },
+  {
+   "key": "case.title",
+   "value": "DOSSIER #001 — Porte ouverte"
+  },
+  {
+   "key": "report.title",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "report.body",
+   "value": "Le plaignant, Mert Aydın, a signalé qu’en rentrant chez lui le soir, son ordinateur portable, sa montre et l’argent liquide qu’il gardait dans un tiroir avaient disparu. Il déclare avoir fermé la porte à clé en partant le matin. Le premier examen n’a relevé aucune trace d’effraction sur la porte d’entrée ; la manière dont on est entré dans l’appartement n’a pas pu être établie. Le pot de fleurs à côté de la porte a été vérifié ; aucune clé ne s’y trouvait. La facture de l’ordinateur présentée par Mert indique le numéro de série LQ7B-024861. Ni le moment ni l’auteur de la disparition des objets n’ont encore été établis. Il a été jugé utile d’entendre les personnes de l’immeuble et d’examiner l’enregistrement de l’entrée."
+  },
+  {
+   "key": "mert.title",
+   "value": "Mert Aydın — Première déposition"
+  },
+  {
+   "key": "mert.body",
+   "value": "Le plaignant, Mert Aydın, déclare être parti de chez lui le matin et n’avoir pas retrouvé certaines de ses affaires à son retour le soir. Il dit avoir fermé la porte à clé. L’audition peut apporter des détails sur les clés de l’appartement et ses déplacements ce jour-là."
+  },
+  {
+   "key": "elif.title",
+   "value": "Elif Demir — Première déposition"
+  },
+  {
+   "key": "elif.body",
+   "value": "Première audition d’Elif Demir, ancienne compagne de Mert Aydın. On peut l’interroger sur leur relation, les affaires restées dans l’appartement et le jour des faits."
+  },
+  {
+   "key": "hasan.title",
+   "value": "Hasan Kaya — Première déposition"
+  },
+  {
+   "key": "hasan.body",
+   "value": "Première audition de Hasan Kaya, voisin de palier de Mert Aydın. Il raconte avec ses propres mots ce qu’il a vu dans l’immeuble et ses contacts passés avec Mert."
+  },
+  {
+   "key": "camera.title",
+   "value": "Entrée de l’immeuble — Relevé d’enregistrement"
+  },
+  {
+   "key": "camera.body",
+   "value": "La caméra 01 filme l’entrée commune de l’immeuble. Le relevé ci-dessous liste les passages observés et l’état du signal. Qui est entré ou sorti pendant un intervalle sans enregistrement ne peut pas être établi par cette caméra."
+  },
+  {
+   "key": "elif_follow.title",
+   "value": "Elif Demir — Après l’enregistrement"
+  },
+  {
+   "key": "elif_follow.body",
+   "value": "Elif Demir peut être entendue de nouveau au sujet de l’enregistrement de l’entrée obtenu après la première audition. La ligne présentée et la réponse donnée sont consignées au procès-verbal."
+  },
+  {
+   "key": "bps.title",
+   "value": "Fiche de correspondance d’objet"
+  },
+  {
+   "key": "bps.body",
+   "value": "Le numéro de série LQ7B-024861 figurant sur la facture jointe à la plainte correspond à celui d’un appareil déposé le jour des faits à 14.10 chez un revendeur d’électronique d’occasion à Beşiktaş. Le reçu du commerce a été établi au nom de Hasan Kaya.\n\nUne vérification de l’appareil et du reçu peut être demandée."
+  },
+  {
+   "key": "recovery.title",
+   "value": "Rapport d’identification d’objet"
+  },
+  {
+   "key": "recovery.body",
+   "value": "OBJET DE L’EXAMEN — L’ordinateur portable signalé disparu par Mert Aydın.\n\nLe numéro de série figurant sur la facture jointe à la plainte est LQ7B-024861. Les registres de dépôt du revendeur d’électronique d’occasion de Beşiktaş pour le jour des faits ont été examinés. Le numéro de série de l’appareil déposé à 14.10 correspond à la facture. Le reçu a été établi au nom de Hasan Kaya ; une copie a été versée au dossier. L’appareil a été placé sous scellés.\n\nCe rapport établit que l’appareil retrouvé correspond à la facture et que le commerce a enregistré un dépôt au nom de Hasan Kaya. Il ne montre pas directement comment l’appareil a été sorti de l’appartement de Mert. Aucun élément nouveau sur la montre et l’argent liquide disparus."
+  },
+  {
+   "key": "hasan_follow.title",
+   "value": "Hasan Kaya — Audition de suivi"
+  },
+  {
+   "key": "hasan_follow.body",
+   "value": "Hasan Kaya peut être entendu de nouveau sur les dépositions antérieures et les nouveaux enregistrements. Ses réponses sont consignées séparément selon la source qui lui est présentée."
+  },
+  {
+   "key": "verdict.hasan",
+   "value": "Hasan Kaya"
+  },
+  {
+   "key": "verdict.elif",
+   "value": "Elif Demir"
+  },
+  {
+   "key": "feedback.hasan",
+   "value": "Le reçu de dépôt établi au nom de Hasan correspond au numéro de série de l’ordinateur disparu. La déposition de suivi renseigne sur l’usage de la clé. Le mensonge d’Elif a révélé une visite qu’elle avait tue ; il n’a pas prouvé qu’elle avait commis le vol.\n\nUne déposition n’est pas une preuve. Un mensonge non plus n’est pas une preuve de culpabilité."
+  },
+  {
+   "key": "feedback.elif",
+   "value": "La première déposition d’Elif est contredite par l’enregistrement de la caméra. Mais cela ne montre pas qu’elle a volé les affaires. Réexaminez le numéro de série de l’ordinateur et le reçu établi au nom de Hasan."
+  },
+  {
+   "key": "home.title",
+   "value": "UNITÉ D’ENQUÊTE"
+  },
+  {
+   "key": "home.subtitle",
+   "value": "Istanbul · Beşiktaş"
+  },
+  {
+   "key": "home.eyebrow",
+   "value": "UN NOUVEAU DOSSIER VOUS ATTEND"
+  },
+  {
+   "key": "home.description",
+   "value": "Écoutez les dépositions. Comparez les enregistrements. Fondez votre décision sur les preuves."
+  },
+  {
+   "key": "home.closed",
+   "value": "Retour au bureau  →"
+  },
+  {
+   "key": "home.new",
+   "value": "Nouvelle partie"
+  },
+  {
+   "key": "home.profile",
+   "value": "ENQUÊTEUR"
+  },
+  {
+   "key": "home.status",
+   "value": "Département bube / Unité d’enquête"
+  },
+  {
+   "key": "home.footer",
+   "value": "UNE DÉPOSITION N’EST PAS UNE PREUVE."
+  },
+  {
+   "key": "restart.form",
+   "value": "Formulaire 7-B · Demande de destruction"
+  },
+  {
+   "key": "restart.stamp",
+   "value": "Détruire"
+  },
+  {
+   "key": "quit.form",
+   "value": "Formulaire 4-C · Fin de session"
+  },
+  {
+   "key": "quit.stamp",
+   "value": "Attention"
+  },
+  {
+   "key": "restart.title",
+   "value": "Commencer une nouvelle enquête"
+  },
+  {
+   "key": "restart.body",
+   "value": "Toute la progression de carrière sur cet appareil sera remise à zéro : dossier ouvert, archives et confiance du département."
+  },
+  {
+   "key": "restart.confirm",
+   "value": "Réinitialiser et commencer"
+  },
+  {
+   "key": "restart.cancel",
+   "value": "Annuler"
+  },
+  {
+   "key": "desk.title",
+   "value": "LE BUREAU DE BORA"
+  },
+  {
+   "key": "desk.subtitle",
+   "value": "Courrier entrant et enquête en cours"
+  },
+  {
+   "key": "desk.inbox",
+   "value": "Courrier entrant"
+  },
+  {
+   "key": "desk.menu",
+   "value": "Menu"
+  },
+  {
+   "key": "desk.inbox.new",
+   "value": "Nouveau document"
+  },
+  {
+   "key": "desk.tablet.title",
+   "value": "CCTV"
+  },
+  {
+   "key": "desk.tablet.standby",
+   "value": "En veille"
+  },
+  {
+   "key": "desk.case.info",
+   "value": "Beşiktaş · Cambriolage · Premier examen en attente"
+  },
+  {
+   "key": "desk.closed",
+   "value": "Rapport envoyé. Évaluation en attente."
+  },
+  {
+   "key": "desk.open",
+   "value": "Ouvrir le dossier  →"
+  },
+  {
+   "key": "desk.notes",
+   "value": "NOTE DE BUREAU"
+  },
+  {
+   "key": "desk.notes.body",
+   "value": "Les dépositions peuvent orienter. Vérifiez les enregistrements et les constatations matérielles."
+  },
+  {
+   "key": "back.home",
+   "value": "Retour à l’écran principal"
+  },
+  {
+   "key": "file.kicker",
+   "value": "DOSSIER D’ENQUÊTE / 001"
+  },
+  {
+   "key": "file.subtitle",
+   "value": "Examinez les éléments trouvés dans l’ordre de votre choix. Une information nouvelle peut ouvrir de nouvelles auditions."
+  },
+  {
+   "key": "file.reference",
+   "value": "Département bube · Unité d’enquête internationale"
+  },
+  {
+   "key": "desk.terminal",
+   "value": "Terminal des fiches"
+  },
+  {
+   "key": "desk.none",
+   "value": "Aucune fiche ouverte pour l’instant. Examinez les autres informations du dossier."
+  },
+  {
+   "key": "conclude.suspect",
+   "value": "Suspect"
+  },
+  {
+   "key": "conclude.method",
+   "value": "Avec quoi / comment ?"
+  },
+  {
+   "key": "conclude.evidence",
+   "value": "Preuve décisive"
+  },
+  {
+   "key": "conclude.confirm.title",
+   "value": "CONFIRMEZ-VOUS CETTE ACTION ?"
+  },
+  {
+   "key": "conclude.confirm.body",
+   "value": "La décision envoyée est définitive."
+  },
+  {
+   "key": "conclude.confirm.cancel",
+   "value": "ANNULER"
+  },
+  {
+   "key": "conclude.confirm.send",
+   "value": "CONFIRMER"
+  },
+  {
+   "key": "conclude.submit",
+   "value": "Envoyer le rapport"
+  },
+  {
+   "key": "result.accepted",
+   "value": "CONCLUSION ACCEPTÉE"
+  },
+  {
+   "key": "result.returned",
+   "value": "CONCLUSION RENVOYÉE"
+  },
+  {
+   "key": "feedback.correct",
+   "value": "Rapport remis. Examen du département en attente."
+  },
+  {
+   "key": "feedback.returned",
+   "value": "Rapport remis. Examen du département en attente."
+  },
+  {
+   "key": "method.spare",
+   "value": "Avec la clé de secours"
+  },
+  {
+   "key": "method.forced",
+   "value": "En forçant la porte"
+  },
+  {
+   "key": "method.open",
+   "value": "Porte laissée ouverte"
+  },
+  {
+   "key": "method.unknown",
+   "value": "Indéterminé"
+  },
+  {
+   "key": "evidence.report",
+   "value": "Rapport d’incident"
+  },
+  {
+   "key": "evidence.camera",
+   "value": "Relevé de la caméra de l’immeuble"
+  },
+  {
+   "key": "evidence.elif_follow",
+   "value": "Déposition de suivi d’Elif"
+  },
+  {
+   "key": "evidence.mert_follow",
+   "value": "Déposition de suivi de Mert"
+  },
+  {
+   "key": "evidence.hasan_follow",
+   "value": "Déposition de suivi de Hasan"
+  },
+  {
+   "key": "evidence.recovery",
+   "value": "Rapport d’identification d’objet"
+  },
+  {
+   "key": "mert_follow.title",
+   "value": "Mert Aydın — Audition de suivi"
+  },
+  {
+   "key": "mert_follow.body",
+   "value": "Le premier examen des lieux n’a relevé aucune trace d’effraction sur la porte. De nouvelles questions peuvent être posées à Mert Aydın sur le pot de fleurs et les clés de l’appartement."
+  },
+  {
+   "key": "cctv.header",
+   "value": "BDS // ARCHIVES DES CAMÉRAS DE SURVEILLANCE"
+  },
+  {
+   "key": "cctv.source.building",
+   "value": "CAMÉRA 01 · ENTRÉE DE L’IMMEUBLE"
+  },
+  {
+   "key": "cctv.overlay.case001",
+   "value": "CAMÉRA 01  ·  DEVANT L’IMMEUBLE"
+  },
+  {
+   "key": "cctv.overlay.rec",
+   "value": "REC"
+  },
+  {
+   "key": "cctv.period.case001",
+   "value": "INTERVALLE EXAMINÉ 08.00–18.00"
+  },
+  {
+   "key": "cctv.signal",
+   "value": "● SIGNAL BON"
+  },
+  {
+   "key": "cctv.review",
+   "value": "Examiner les enregistrements"
+  },
+  {
+   "key": "cctv.complete",
+   "value": "EXAMEN TERMINÉ"
+  },
+  {
+   "key": "cctv.cameras",
+   "value": "Caméras"
+  },
+  {
+   "key": "cctv.total",
+   "value": "Total"
+  },
+  {
+   "key": "cctv.records",
+   "value": "entrées"
+  },
+  {
+   "key": "cctv.clarifyShort",
+   "value": "Réanalyser"
+  },
+  {
+   "key": "cctv.clarify",
+   "value": "Réanalyser cette ligne"
+  },
+  {
+   "key": "cctv.watch",
+   "value": "Voir"
+  },
+  {
+   "key": "cctv.videoClose",
+   "value": "Retour au relevé"
+  },
+  {
+   "key": "cctv.videoReplay",
+   "value": "Rembobiner"
+  },
+  {
+   "key": "cctv.videoPlay",
+   "value": "Lire"
+  },
+  {
+   "key": "cctv.videoPause",
+   "value": "Pause"
+  },
+  {
+   "key": "cctv.videoStep",
+   "value": "Image ›"
+  },
+  {
+   "key": "cctv.videoStepUnavailable",
+   "value": "L’avance image par image n’est pas disponible sur cet appareil."
+  },
+  {
+   "key": "cctv.videoLoading",
+   "value": "Préparation de l’enregistrement…"
+  },
+  {
+   "key": "cctv.videoUnavailable",
+   "value": "Les images n’ont pas pu s’ouvrir ; le relevé reste disponible."
+  },
+  {
+   "key": "cctv.event.mert_out",
+   "value": "08.27 — Un homme a quitté l’immeuble."
+  },
+  {
+   "key": "cctv.event.elif_in",
+   "value": "11.48 — Une femme est entrée dans l’immeuble."
+  },
+  {
+   "key": "cctv.event.elif_out",
+   "value": "12.16 — La même personne a quitté l’immeuble."
+  },
+  {
+   "key": "cctv.event.weak",
+   "value": "12.31 — SIGNAL AFFAIBLI"
+  },
+  {
+   "key": "cctv.glitch.weak",
+   "value": "12.3_ — SIGNAL AFF#IBLI"
+  },
+  {
+   "key": "cctv.event.lost",
+   "value": "12.37 — SIGNAL PERDU"
+  },
+  {
+   "key": "cctv.glitch.lost",
+   "value": "12.3_ — SIGNAL P#RDU"
+  },
+  {
+   "key": "cctv.event.gap",
+   "value": "12.37–13.08 — [ AUCUN ENREGISTREMENT ]"
+  },
+  {
+   "key": "cctv.event.restored",
+   "value": "13.08 — SIGNAL RÉTABLI"
+  },
+  {
+   "key": "cctv.event.mert_in",
+   "value": "17.54 — Un homme est entré dans l’immeuble."
+  },
+  {
+   "key": "home.brandLocation",
+   "value": "DÉPARTEMENT bube · ISTANBUL"
+  },
+  {
+   "key": "desk.brandLocation",
+   "value": "DÉPARTEMENT bube / ISTANBUL · BEŞİKTAŞ"
+  },
+  {
+   "key": "desk.location",
+   "value": "BEŞİKTAŞ / ISTANBUL"
+  },
+  {
+   "key": "file.previous",
+   "value": "← Précédent"
+  },
+  {
+   "key": "file.next",
+   "value": "Suivant →"
+  },
+  {
+   "key": "file.caseType",
+   "value": "DOSSIER D’ENQUÊTE"
+  },
+  {
+   "key": "file.stamp",
+   "value": "DÉPARTEMENT bube\nISTANBUL"
+  },
+  {
+   "key": "file.meta.number",
+   "value": "N° d’incident"
+  },
+  {
+   "key": "file.value.number",
+   "value": "001-26"
+  },
+  {
+   "key": "file.meta.location",
+   "value": "Lieu des faits"
+  },
+  {
+   "key": "file.value.location",
+   "value": "Beşiktaş / Istanbul"
+  },
+  {
+   "key": "file.meta.offence",
+   "value": "NATURE DE L’INFRACTION"
+  },
+  {
+   "key": "file.meta.bureau",
+   "value": "BUREAU"
+  },
+  {
+   "key": "file.meta.reporter",
+   "value": "Signalé par"
+  },
+  {
+   "key": "file.value.reporter",
+   "value": "Mert Aydın"
+  },
+  {
+   "key": "file.imageCaption",
+   "value": "Lieux / Beşiktaş — dessin d’illustration"
+  },
+  {
+   "key": "file.visuals",
+   "value": "IMAGES DES LIEUX"
+  },
+  {
+   "key": "file.emptyVisual",
+   "value": "Ce dossier ne contient aucune image."
+  },
+  {
+   "key": "file.emptyInterview",
+   "value": "Aucune déposition consignée pour l’instant."
+  },
+  {
+   "key": "file.emptyEvidence",
+   "value": "Aucune pièce à conviction ajoutée pour l’instant."
+  },
+  {
+   "key": "file.tab.report",
+   "value": "RAPPORT D’INCIDENT"
+  },
+  {
+   "key": "file.tab.interview",
+   "value": "DÉPOSITIONS"
+  },
+  {
+   "key": "file.tab.evidence",
+   "value": "PREUVES"
+  },
+  {
+   "key": "file.tab.visual",
+   "value": "IMAGES"
+  },
+  {
+   "key": "interview.request",
+   "value": "Demander une déposition"
+  },
+  {
+   "key": "interview.pending",
+   "value": "Déposition en cours…"
+  },
+  {
+   "key": "interview.waitHint",
+   "value": "La déposition apparaîtra dans cette liste une fois terminée. Vous pouvez retourner au bureau."
+  },
+  {
+   "key": "person.mert.name",
+   "value": "Mert Aydın"
+  },
+  {
+   "key": "person.mert.info",
+   "value": "Victime · Habitant de Beşiktaş"
+  },
+  {
+   "key": "person.elif.name",
+   "value": "Elif Demir"
+  },
+  {
+   "key": "person.elif.info",
+   "value": "28 ans · Graphiste · Ancienne compagne de Mert"
+  },
+  {
+   "key": "person.hasan.name",
+   "value": "Hasan Kaya"
+  },
+  {
+   "key": "person.hasan.info",
+   "value": "Voisin · Appartement d’en face"
+  },
+  {
+   "key": "mert.day.question",
+   "value": "Quand êtes-vous parti de chez vous, et quand êtes-vous rentré ?"
+  },
+  {
+   "key": "mert.day.answer",
+   "value": "Je suis parti vers huit heures et demie ; quand je suis rentré du travail et que j’ai ouvert la porte, il faisait presque nuit. D’abord j’ai cru que tout était à sa place. Quand j’ai vu que l’ordinateur n’était pas sur le bureau, j’ai cherché ma montre, puis le tiroir."
+  },
+  {
+   "key": "mert.key.question",
+   "value": "Qui d’autre avait une clé de l’appartement ?"
+  },
+  {
+   "key": "mert.key.answer",
+   "value": "J’avais ma clé sur moi. Elif en avait une aussi ; je ne l’avais pas récupérée après notre séparation. Je ne me souviens pas d’avoir donné une clé à quelqu’un d’autre."
+  },
+  {
+   "key": "mert.neighbor.question",
+   "value": "Un voisin a-t-il pu voir quelque chose ?"
+  },
+  {
+   "key": "mert.neighbor.answer",
+   "value": "Hasan habite en face. Je ne sais pas s’il était dans l’immeuble dans la journée ; mais s’il a vu un mouvement à l’entrée, il pourra vous le dire."
+  },
+  {
+   "key": "elif.relationship.question",
+   "value": "Quelle est votre relation avec Mert ?"
+  },
+  {
+   "key": "elif.relationship.answer",
+   "value": "Nous nous sommes séparés il y a quelques jours. Une partie de mes affaires était restée chez lui ; on n’avait même pas parlé du moment où je viendrais les prendre. En ce moment, on ne se voit presque plus."
+  },
+  {
+   "key": "elif.visit.question",
+   "value": "Êtes-vous allée chez Mert ce jour-là ?"
+  },
+  {
+   "key": "elif.visit.answer",
+   "value": "Non. Je ne suis pas allée chez Mert ce jour-là."
+  },
+  {
+   "key": "hasan.sighting.question",
+   "value": "Qui avez-vous vu dans l’immeuble ce jour-là ?"
+  },
+  {
+   "key": "hasan.sighting.answer",
+   "value": "Vers midi, une femme sortait de l’immeuble. Je l’ai vue du haut de l’escalier ; on ne s’est pas arrêtés pour parler."
+  },
+  {
+   "key": "hasan.camera.question",
+   "value": "Existe-t-il un enregistrement qui pourrait le confirmer ?"
+  },
+  {
+   "key": "hasan.camera.answer",
+   "value": "Il y a une caméra à la porte d’entrée. Je n’ai pas regardé l’heure ; si vous voulez vérifier le passage, il y a peut-être un enregistrement là-bas."
+  },
+  {
+   "key": "hasan.where.question",
+   "value": "Êtes-vous entré chez Mert ce jour-là ?"
+  },
+  {
+   "key": "hasan.where.answer",
+   "value": "Non. Je ne suis pas entré chez Mert ce jour-là."
+  },
+  {
+   "key": "elif_follow.footage.question",
+   "value": "Où étiez-vous vers midi ce jour-là ?"
+  },
+  {
+   "key": "elif_follow.footage.answer.demeanor",
+   "value": "Ses épaules s’affaissent. Retire sa main de la table et la serre sur ses genoux."
+  },
+  {
+   "key": "elif_follow.footage.answer",
+   "value": "Oui, je suis entrée dans l’immeuble. J’ai pris le reste de mes affaires sans le dire à Mert. En sortant, j’ai laissé la clé de l’appartement dans le pot de fleurs à côté de la porte."
+  },
+  {
+   "key": "elif_follow.why.question",
+   "value": "Pourquoi ne l’avez-vous pas dit lors de la première audition ?"
+  },
+  {
+   "key": "elif_follow.why.answer",
+   "value": "Je suis entrée chez lui sans prévenir. Quand j’ai appris le cambriolage, j’ai cru que si je le disais, tous les regards se tourneraient vers moi. Alors j’ai menti ; ce n’est pas moi qui ai volé ses affaires."
+  },
+  {
+   "key": "mert_follow.spare.question",
+   "value": "Gardiez-vous autrefois la clé de secours dans le pot de fleurs ?"
+  },
+  {
+   "key": "mert_follow.spare.answer",
+   "value": "Avant, je laissais parfois ma propre clé de secours dans le pot de fleurs. Le mois dernier, je me suis retrouvé à la porte ; Hasan m’a aidé. J’ai sorti la clé du pot devant lui. Ensuite j’ai repris cette clé ; la copie d’Elif était une autre. Je ne peux pas dire si Hasan savait qu’il trouverait une clé dans le pot ce jour-là."
+  },
+  {
+   "key": "hasan_follow.spare.question",
+   "value": "Saviez-vous où Mert gardait sa clé de secours ?"
+  },
+  {
+   "key": "hasan_follow.spare.answer",
+   "value": "Mert s’est retrouvé à la porte une fois, je l’ai aidé. Je n’ai pas fait attention à l’endroit d’où il a sorti la clé. Et comment vous en concluez qu’il y avait une clé ce jour-là ?"
+  },
+  {
+   "key": "hasan_follow.gap.question",
+   "value": "Où étiez-vous vers une heure de l’après-midi ?"
+  },
+  {
+   "key": "hasan_follow.gap.answer.demeanor",
+   "value": "Mains sur la table, paumes ouvertes. Répond sans bouger."
+  },
+  {
+   "key": "hasan_follow.gap.answer",
+   "value": "J’étais chez moi. Seul ; je ne peux désigner personne pour le confirmer. Que la caméra n’ait pas marché, ça ne me concerne pas."
+  },
+  {
+   "key": "interview.opening",
+   "value": "L’audition a commencé. Choisissez votre question."
+  },
+  {
+   "key": "interview.finished",
+   "value": "Pas d’autre question pour le moment."
+  },
+  {
+   "key": "interview.done",
+   "value": "Le procès-verbal d’audition a été ajouté au dossier."
+  },
+  {
+   "key": "interview.back",
+   "value": "Terminer l’audition · Retour au bureau"
+  },
+  {
+   "key": "interview.asked",
+   "value": "Posée"
+  },
+  {
+   "key": "interview.identity",
+   "value": "IDENTITÉ"
+  },
+  {
+   "key": "home.start",
+   "value": "Commencer"
+  },
+  {
+   "key": "home.briefing",
+   "value": "Un nouveau dossier vous attend"
+  },
+  {
+   "key": "home.casePending",
+   "value": "Le premier dossier sur le bureau d’enquête de Bora n’a pas encore été accepté."
+  },
+  {
+   "key": "home.caseActive",
+   "value": "L’enquête du Dossier #001 est en cours."
+  },
+  {
+   "key": "home.caseClosed",
+   "value": "Le Dossier #001 est clos."
+  },
+  {
+   "key": "home.tagline",
+   "value": "TROUVE LA VÉRITÉ TOI-MÊME"
+  },
+  {
+   "key": "home.location",
+   "value": "ISTANBUL / BEŞİKTAŞ"
+  },
+  {
+   "key": "offer.kicker",
+   "value": "COURRIER ENTRANT"
+  },
+  {
+   "key": "offer.title",
+   "value": "NOUVEAU DOSSIER"
+  },
+  {
+   "key": "offer.subtitle",
+   "value": "DOSSIER D’ENQUÊTE"
+  },
+  {
+   "key": "offer.summary",
+   "value": "Le dossier a été transmis à votre unité. Dès que vous l’acceptez, le premier rapport arrive sur votre bureau."
+  },
+  {
+   "key": "offer.accept",
+   "value": "Accepter le dossier"
+  },
+  {
+   "key": "offer.back",
+   "value": "Retour à l’écran principal"
+  },
+  {
+   "key": "interview.bora",
+   "value": "BORA"
+  },
+  {
+   "key": "interview.ask",
+   "value": "Poser la question"
+  },
+  {
+   "key": "interview.listen",
+   "value": "Écouter la réponse"
+  },
+  {
+   "key": "interview.next",
+   "value": "Continuer"
+  },
+  {
+   "key": "interview.choose",
+   "value": "Choisissez une question."
+  },
+  {
+   "key": "interview.noNewInfo",
+   "value": "Rien d’autre à demander pour l’instant."
+  },
+  {
+   "key": "mert.lock.question",
+   "value": "Êtes-vous sûr d’avoir fermé la porte à clé en partant ?"
+  },
+  {
+   "key": "mert.lock.answer",
+   "value": "Je me souviens d’avoir tourné la clé en tirant la porte. Le soir, la porte était normale ; je n’ai vu ni casse ni rayure. Ce n’est peut-être rien, mais le silence à l’intérieur m’a paru étrange."
+  },
+  {
+   "key": "elif.contact.question",
+   "value": "Avez-vous parlé à Mert ce jour-là ?"
+  },
+  {
+   "key": "elif.contact.answer",
+   "value": "Non. Depuis la séparation, nos conversations ne finissaient jamais simplement ; je n’avais pas envie de l’appeler."
+  },
+  {
+   "key": "hasan.time.question",
+   "value": "Vers quelle heure avez-vous vu cette femme ?"
+  },
+  {
+   "key": "hasan.time.answer",
+   "value": "C’était vers l’heure du déjeuner. Je ne regardais pas mon téléphone ; si je vous donnais une heure précise, je l’inventerais."
+  },
+  {
+   "key": "elif_follow.items.question",
+   "value": "Quelles affaires avez-vous prises dans l’appartement ?"
+  },
+  {
+   "key": "elif_follow.items.answer",
+   "value": "Mes vêtements et mes livres. Je me souviens que l’ordinateur était sur le bureau, mais je ne peux pas dire précisément combien de temps je suis restée dans la pièce. Je n’ai touché ni à sa montre ni à son argent."
+  },
+  {
+   "key": "mert_follow.neighbor.question",
+   "value": "Êtes-vous proche de Hasan ?"
+  },
+  {
+   "key": "mert_follow.neighbor.answer",
+   "value": "Hasan et moi, on n’est pas proches au-delà du voisinage. Il m’a aidé le mois dernier quand je me suis retrouvé à la porte ; à part ça, on se parle peu."
+  },
+  {
+   "key": "hasan_follow.sale.question",
+   "value": "L’un des objets disparus est-il passé entre vos mains ?"
+  },
+  {
+   "key": "hasan_follow.sale.answer.demeanor",
+   "value": "Prend le reçu, en redresse le bord, le repose. Sa voix ne change pas."
+  },
+  {
+   "key": "hasan_follow.sale.answer",
+   "value": "C’est moi qui ai apporté l’ordinateur au commerce ; le nom sur le reçu est le mien. Je ne vais pas expliquer ici comment l’appareil est arrivé chez moi. Le reçu ne montre que le dépôt ; je n’admets pas être entré chez Mert."
+  },
+  {
+   "key": "desk.folderTarget",
+   "value": "OUVRIR LE DOSSIER"
+  },
+  {
+   "key": "desk.interviewTarget",
+   "value": "DEMANDES D’AUDITION"
+  },
+  {
+   "key": "desk.tabletTarget",
+   "value": "TABLETTE / ENREGISTREMENTS"
+  },
+  {
+   "key": "tablet.interviews",
+   "value": "DEMANDES D’AUDITION"
+  },
+  {
+   "key": "tablet.investigations",
+   "value": "DEMANDES D’EXAMEN"
+  },
+  {
+   "key": "tablet.tab.interviews",
+   "value": "AUDITIONS"
+  },
+  {
+   "key": "tablet.tab.investigations",
+   "value": "EXAMENS"
+  },
+  {
+   "key": "tablet.investigationHelp",
+   "value": "Envoyez d’ici les demandes d’examen liées à ce dossier."
+  },
+  {
+   "key": "tablet.noInvestigations",
+   "value": "Aucun examen ne peut être demandé pour l’instant."
+  },
+  {
+   "key": "tablet.investigationAvailable",
+   "value": "Demande possible"
+  },
+  {
+   "key": "tablet.investigationPending",
+   "value": "Examen en cours"
+  },
+  {
+   "key": "tablet.investigationArrived",
+   "value": "Le rapport est arrivé au Courrier entrant"
+  },
+  {
+   "key": "tablet.investigationFiled",
+   "value": "Rapport versé au dossier"
+  },
+  {
+   "key": "tablet.records",
+   "value": "ARCHIVES"
+  },
+  {
+   "key": "tablet.caseLine",
+   "value": "UNITÉ D’ENQUÊTE BUBE"
+  },
+  {
+   "key": "tablet.interviewHelp",
+   "value": "Choisis la personne à entendre."
+  },
+  {
+   "key": "tablet.recordHelp",
+   "value": "Choisis un enregistrement accessible et examine-le."
+  },
+  {
+   "key": "tablet.openInterview",
+   "value": "OUVRIR L’AUDITION  ›"
+  },
+  {
+   "key": "tablet.openRecord",
+   "value": "OUVRIR L’ENREGISTREMENT  ›"
+  },
+  {
+   "key": "menu.settings",
+   "value": "Réglages"
+  },
+  {
+   "key": "menu.stats",
+   "value": "Statistiques"
+  },
+  {
+   "key": "menu.exit",
+   "value": "Quitter"
+  },
+  {
+   "key": "settings.textSpeed",
+   "value": "Texte des dialogues"
+  },
+  {
+   "key": "settings.instant",
+   "value": "Afficher d’un coup"
+  },
+  {
+   "key": "settings.normal",
+   "value": "Machine à écrire"
+  },
+  {
+   "key": "stats.case",
+   "value": "Dossier"
+  },
+  {
+   "key": "stats.documents",
+   "value": "Documents examinés"
+  },
+  {
+   "key": "stats.questions",
+   "value": "Questions posées"
+  },
+  {
+   "key": "stats.status",
+   "value": "État"
+  },
+  {
+   "key": "cctv.scanning",
+   "value": "Analyse de l’enregistrement…"
+  },
+  {
+   "key": "cctv.syncing",
+   "value": "ANALYSE…"
+  },
+  {
+   "key": "cctv.signal.weak",
+   "value": "● SIGNAL FAIBLE"
+  },
+  {
+   "key": "cctv.signal.lost",
+   "value": "● PAS DE SIGNAL"
+  },
+  {
+   "key": "cctv.signal.restored",
+   "value": "● SIGNAL RÉTABLI"
+  },
+  {
+   "key": "cctv.system",
+   "value": "Système du Département bube"
+  },
+  {
+   "key": "cctv.archive",
+   "value": "Archives des caméras de surveillance"
+  },
+  {
+   "key": "cctv.archiveHint",
+   "value": "Examine les relevés des caméras."
+  },
+  {
+   "key": "cctv.closeArchive",
+   "value": "Fermer les archives"
+  },
+  {
+   "key": "cctv.back",
+   "value": "‹  Retour au bureau"
+  },
+  {
+   "key": "cctv.transcript",
+   "value": "RELEVÉ  /  FLUX TEXTE"
+  },
+  {
+   "key": "cctv.signalTitle",
+   "value": "ÉTAT DU SIGNAL"
+  },
+  {
+   "key": "cctv.textOnly",
+   "value": "Ces archives ne contiennent pas d’images. Examine les intervalles d’enregistrement et les coupures de signal."
+  },
+  {
+   "key": "menu.about",
+   "value": "À propos"
+  },
+  {
+   "key": "about.body",
+   "value": "Karine est un jeu d’enquête qui suit les dossiers de Bora, enquêteur international du Département bube, aux quatre coins du monde. Examine les dossiers, les auditions et les enregistrements à ton rythme ; justifie ta conclusion par des preuves."
+  },
+  {
+   "key": "interview.noStatement",
+   "value": "Pas encore de déposition au dossier."
+  },
+  {
+   "key": "interview.status.unrequested",
+   "value": "Pas encore demandée"
+  },
+  {
+   "key": "interview.status.ready",
+   "value": "● Prêt pour l’audition"
+  },
+  {
+   "key": "interview.status.complete",
+   "value": "● Entendu"
+  },
+  {
+   "key": "interview.begin",
+   "value": "COMMENCER L’AUDITION  ›"
+  },
+  {
+   "key": "interview.resume",
+   "value": "REPRENDRE L’AUDITION  ›"
+  },
+  {
+   "key": "interview.quote.mert",
+   "value": "Je suis parti vers huit heures et demie…"
+  },
+  {
+   "key": "interview.quote.elif",
+   "value": "Je ne suis pas allée chez Mert."
+  },
+  {
+   "key": "interview.quote.hasan",
+   "value": "J’ai vu une femme vers midi."
+  },
+  {
+   "key": "conclude.desk",
+   "value": "RAPPORT FINAL  →"
+  },
+  {
+   "key": "conclude.tab",
+   "value": "RAPPORT FINAL"
+  },
+  {
+   "key": "verdict.mert",
+   "value": "Mert Aydın"
+  },
+  {
+   "key": "feedback.mert",
+   "value": "Le plaignant ne peut pas non plus être tenu à l’écart de l’enquête. Évaluez séparément les éléments de ce dossier."
+  },
+  {
+   "key": "result.unsolved",
+   "value": "RAPPORT REMIS · ÉVALUATION EN ATTENTE"
+  },
+  {
+   "key": "result.solved",
+   "value": "RAPPORT REMIS · ÉVALUATION EN ATTENTE"
+  },
+  {
+   "key": "result.reported",
+   "value": "Conclusion rapportée"
+  },
+  {
+   "key": "result.trust",
+   "value": "Confiance de l’unité"
+  },
+  {
+   "key": "result.trustLoss",
+   "value": "La confiance a changé après l’évaluation du département."
+  },
+  {
+   "key": "result.trustNoRepeat",
+   "value": "La même évaluation n’a pas entraîné de nouvelle perte de confiance."
+  },
+  {
+   "key": "result.revisit",
+   "value": "Ce dossier a été envoyé et clos. Le résultat sera notifié par fax du département."
+  },
+  {
+   "key": "result.summary",
+   "value": "CHAPITRE TERMINÉ"
+  },
+  {
+   "key": "result.summaryOpen",
+   "value": "Ouvrir le résumé du chapitre"
+  },
+  {
+   "key": "result.truth",
+   "value": "Que s’est-il vraiment passé ?"
+  },
+  {
+   "key": "result.evidence",
+   "value": "Qu’est-ce qui a étayé la décision ?"
+  },
+  {
+   "key": "result.lesson",
+   "value": "La leçon du dossier"
+  },
+  {
+   "key": "result.continue",
+   "value": "Nouvelle affectation"
+  },
+  {
+   "key": "result.status",
+   "value": "Le rapport d’enquête a été envoyé à l’unité compétente. Ce dossier est clos ; l’évaluation arrivera plus tard par fax."
+  },
+  {
+   "key": "result.noVerdictYet",
+   "value": "À ce stade, on ne dit pas si le rapport est juste."
+  },
+  {
+   "key": "inbox.faxNotice",
+   "value": "NOUVEAU FAX"
+  },
+  {
+   "key": "inbox.faxNotice.detail",
+   "value": "Un fax du département a été déposé sur votre bureau."
+  },
+  {
+   "key": "inbox.notice.open",
+   "value": "VOIR"
+  },
+  {
+   "key": "inbox.faxTitle",
+   "value": "ÉVALUATION DU DÉPARTEMENT"
+  },
+  {
+   "key": "inbox.faxSuccess",
+   "value": "Rapport validé. La décision d’enquête a été acceptée."
+  },
+  {
+   "key": "inbox.faxFailure",
+   "value": "Rapport non validé. La décision d’enquête a été jugée erronée."
+  },
+  {
+   "key": "inbox.faxPending",
+   "value": "L’unité compétente a examiné votre conclusion et ses fondements."
+  },
+  {
+   "key": "career.retired",
+   "value": "La confiance de l’unité est épuisée. La carrière d’enquêteur de Bora a pris fin."
+  },
+  {
+   "key": "career.retiredTitle",
+   "value": "FIN DE CARRIÈRE"
+  },
+  {
+   "key": "next.pending",
+   "value": "Ce dossier est clos. La prochaine affectation n’est pas encore prête ; vous pourrez l’examiner quand l’évaluation du département arrivera au Courrier entrant."
+  },
+  {
+   "key": "next.assignment",
+   "value": "NOUVELLE AFFECTATION"
+  },
+  {
+   "key": "next.assignment.sender",
+   "value": "De : Département bube · antenne d’Istanbul / Beşiktaş"
+  },
+  {
+   "key": "next.assignment.body",
+   "value": "Le dossier d’enquête précédent a été clos. Le nouveau dossier ci-dessous a été transmis à votre unité. Vous pourrez commencer l’enquête en ouvrant le dossier et en acceptant la mission. L’évaluation du dossier précédent est envoyée par un fax séparé."
+  },
+  {
+   "key": "next.assignment.open",
+   "value": "Ouvrir le dossier"
+  },
+  {
+   "key": "inbox.faxOpen",
+   "value": "Lire le fax"
+  },
+  {
+   "key": "summary.stamp",
+   "value": "Rapport envoyé"
+  },
+  {
+   "key": "summary.title",
+   "value": "Résumé du rapport"
+  },
+  {
+   "key": "case.closedStamp",
+   "value": "CLOS"
+  },
+  {
+   "key": "next.openFax",
+   "value": "Ouvrir le fax d’évaluation"
+  },
+  {
+   "key": "next.waitingFax",
+   "value": "Évaluation en attente…"
+  },
+  {
+   "key": "next.openAssignment",
+   "value": "Ouvrir la nouvelle mission"
+  },
+  {
+   "key": "desk.reviewed",
+   "value": "L’évaluation est arrivée."
+  },
+  {
+   "key": "summary.brand",
+   "value": "Département bube\nantenne d’Istanbul · Beşiktaş"
+  },
+  {
+   "key": "summary.report",
+   "value": "▣  RÉSUMÉ DU RAPPORT"
+  },
+  {
+   "key": "summary.subject",
+   "value": "Dossier"
+  },
+  {
+   "key": "summary.status",
+   "value": "État du dossier"
+  },
+  {
+   "key": "summary.sent",
+   "value": "Clos"
+  },
+  {
+   "key": "summary.investigator",
+   "value": "Responsable"
+  },
+  {
+   "key": "summary.bora",
+   "value": "Inspecteur Bora"
+  },
+  {
+   "key": "summary.sentAt",
+   "value": "Envoyé le"
+  },
+  {
+   "key": "summary.sources",
+   "value": "⌕  SOURCES EXAMINÉES"
+  },
+  {
+   "key": "summary.noSources",
+   "value": "Aucune source supplémentaire consignée."
+  },
+  {
+   "key": "summary.reviewPending",
+   "value": "EN COURS D’EXAMEN"
+  },
+  {
+   "key": "summary.unknownDate",
+   "value": "Non consigné"
+  },
+  {
+   "key": "fax.reviewHeading",
+   "value": "ÉVALUATION DU RAPPORT ENVOYÉ"
+  },
+  {
+   "key": "fax.supported",
+   "value": "Étayé"
+  },
+  {
+   "key": "fax.unsupported",
+   "value": "Non étayé"
+  },
+  {
+   "key": "summary.reviewReceived",
+   "value": "ÉVALUATION TERMINÉE"
+  },
+  {
+   "key": "summary.faxLater",
+   "value": "L’évaluation sera notifiée par fax."
+  },
+  {
+   "key": "summary.faxAvailable",
+   "value": "Détails dans le fax du Courrier entrant"
+  },
+  {
+   "key": "career.bora",
+   "value": "BORA · DOSSIER DU PERSONNEL"
+  },
+  {
+   "key": "career.rank.investigator",
+   "value": "Enquêteur · Département bube"
+  },
+  {
+   "key": "career.record",
+   "value": "Dossiers évalués"
+  },
+  {
+   "key": "career.pending",
+   "value": "En cours d’examen"
+  },
+  {
+   "key": "career.trust",
+   "value": "CONFIANCE DU DÉPARTEMENT"
+  },
+  {
+   "key": "career.openRecord",
+   "value": "Ouvrir le dossier du personnel"
+  },
+  {
+   "key": "career.ended",
+   "value": "Votre mission d’enquête active a pris fin."
+  },
+  {
+   "key": "career.endedTitle",
+   "value": "FIN DE LA MISSION D’ENQUÊTE"
+  },
+  {
+   "key": "career.status.high",
+   "value": "CONFIANCE ÉLEVÉE"
+  },
+  {
+   "key": "career.status.reliable",
+   "value": "FIABLE"
+  },
+  {
+   "key": "career.status.monitored",
+   "value": "SOUS SURVEILLANCE"
+  },
+  {
+   "key": "career.status.review",
+   "value": "EXAMEN DES PERFORMANCES"
+  },
+  {
+   "key": "career.status.risk",
+   "value": "RISQUE DE RÉVOCATION"
+  },
+  {
+   "key": "career.probation.start",
+   "value": "La confiance de l’unité est épuisée. Bora est affecté à un poste de bureau sous surveillance dans la même unité. S’il clôt le prochain dossier avec un rapport motivé, il reprendra l’enquête active."
+  },
+  {
+   "key": "career.probation.end",
+   "value": "La surveillance est levée. Bora reprend l’enquête active."
+  },
+  {
+   "key": "career.status.probation",
+   "value": "POSTE DE BUREAU SOUS SURVEILLANCE"
+  },
+  {
+   "key": "career.tab.profile",
+   "value": "Bora"
+  },
+  {
+   "key": "career.profile.title",
+   "value": "Enquêteur"
+  },
+  {
+   "key": "career.profile.identity",
+   "value": "Identité"
+  },
+  {
+   "key": "career.profile.identityValue",
+   "value": "Bora · 27 ans · né à Istanbul"
+  },
+  {
+   "key": "career.profile.role",
+   "value": "Fonction"
+  },
+  {
+   "key": "career.profile.roleValue",
+   "value": "Département bube · Unité d’enquête internationale"
+  },
+  {
+   "key": "career.profile.post",
+   "value": "Affectation actuelle"
+  },
+  {
+   "key": "career.profile.standing",
+   "value": "Confiance de l’unité"
+  },
+  {
+   "key": "career.profile.bio",
+   "value": "Après quelques années de police de terrain, Bora a rejoint l’unité d’enquête du Département bube. Ses premiers dossiers ont été clos à Istanbul ; l’unité l’envoie désormais de pays en pays, sur les affaires que les équipes locales n’ont pas résolues. Calme et observateur, il ne dit jamais à personne « vous mentez » : il pose ce qui a été dit à côté des enregistrements. Il n’écrit une conclusion que lorsqu’il peut la justifier par des preuves."
+  },
+  {
+   "key": "career.rules.title",
+   "value": "Comment fonctionne la confiance"
+  },
+  {
+   "key": "career.rules.intro",
+   "value": "La confiance de l’unité va de 0 à 100 ; une carrière commence à {0}. Chaque rapport est évalué par fax et modifie la confiance. Sur un dossier difficile, un rapport juste rapporte plus et une erreur coûte moins."
+  },
+  {
+   "key": "career.rules.supported",
+   "value": "Rapport juste et motivé"
+  },
+  {
+   "key": "career.rules.incomplete",
+   "value": "Bonne personne, motivation insuffisante"
+  },
+  {
+   "key": "career.rules.false",
+   "value": "Accusation infondée"
+  },
+  {
+   "key": "career.rules.level1",
+   "value": "Facile"
+  },
+  {
+   "key": "career.rules.level2",
+   "value": "Moyen"
+  },
+  {
+   "key": "career.rules.level3",
+   "value": "Difficile"
+  },
+  {
+   "key": "career.rules.streak",
+   "value": "Série"
+  },
+  {
+   "key": "career.rules.streakValue",
+   "value": "+{1} chacun à partir du {0}e rapport juste d’affilée · actuellement {2}"
+  },
+  {
+   "key": "career.rules.difficulty",
+   "value": "Difficulté de ce dossier"
+  },
+  {
+   "key": "career.rules.probation",
+   "value": "Si la confiance tombe à 0, la carrière ne s’arrête pas : Bora passe à un poste de bureau sous surveillance au même endroit, avec une confiance de {0}. S’il clôt le dossier suivant de façon motivée, il reprend sa mission avec au moins {1} de confiance."
+  },
+  {
+   "key": "career.rules.statuses",
+   "value": "Niveaux : 80+ confiance élevée · 60+ fiable · 40+ sous surveillance · 20+ en examen · en dessous, à risque."
+  },
+  {
+   "key": "career.status.ended",
+   "value": "MISSION D’ENQUÊTE ACTIVE TERMINÉE"
+  },
+  {
+   "key": "career.evaluation.supported",
+   "value": "La conclusion présentée et ses fondements ont été jugés recevables."
+  },
+  {
+   "key": "career.evaluation.incomplete",
+   "value": "La motivation de l’enquête a été jugée insuffisante."
+  },
+  {
+   "key": "career.evaluation.falseAccusation",
+   "value": "L’accusation portée contre la personne désignée n’a pas pu être vérifiée."
+  },
+  {
+   "key": "career.supportedCount",
+   "value": "Jugés recevables"
+  },
+  {
+   "key": "career.incompleteCount",
+   "value": "Motivation insuffisante"
+  },
+  {
+   "key": "career.falseCount",
+   "value": "Fausse accusation"
+  },
+  {
+   "key": "file.transcript",
+   "value": "PROCÈS-VERBAL D’AUDITION"
+  },
+  {
+   "key": "file.noTranscript",
+   "value": "Aucun échange questions-réponses n’est encore consigné pour cette audition."
+  },
+  {
+   "key": "file.newTranscript",
+   "value": "• NOUVEAU PROCÈS-VERBAL"
+  },
+  {
+   "key": "request.recovery",
+   "value": "Demander une recherche d’objet par numéro de série"
+  },
+  {
+   "key": "inbox.newDocument",
+   "value": "NOUVEAU DOCUMENT"
+  },
+  {
+   "key": "inbox.newDocument.detail",
+   "value": "Un nouveau rapport a été envoyé sur votre bureau."
+  },
+  {
+   "key": "inbox.title",
+   "value": "COURRIER ENTRANT"
+  },
+  {
+   "key": "inbox.pendingDocument",
+   "value": "Demande d’examen envoyée. Le rapport est en préparation."
+  },
+  {
+   "key": "inbox.receiveDocument",
+   "value": "Verser le rapport au dossier"
+  },
+  {
+   "key": "inbox.empty",
+   "value": "Aucun nouveau document."
+  },
+  {
+   "key": "inbox.reportReady",
+   "value": "Le rapport d’identification d’objet a été remis."
+  },
+  {
+   "key": "inbox.brand",
+   "value": "Département bube  /  Istanbul · Beşiktaş"
+  },
+  {
+   "key": "inbox.filter.all",
+   "value": "Tout"
+  },
+  {
+   "key": "inbox.filter.unread",
+   "value": "Nouveau"
+  },
+  {
+   "key": "inbox.filter.archive",
+   "value": "Lu"
+  },
+  {
+   "key": "inbox.status.new",
+   "value": "Nouveau document"
+  },
+  {
+   "key": "inbox.status.pending",
+   "value": "En préparation"
+  },
+  {
+   "key": "inbox.status.filed",
+   "value": "Versé au dossier"
+  },
+  {
+   "key": "inbox.noItems",
+   "value": "Aucun document ici."
+  },
+  {
+   "key": "inbox.emptyHelp",
+   "value": "Les nouveaux rapports et courriers du département apparaissent dans ce bac à leur arrivée."
+  },
+  {
+   "key": "inbox.faxSealed",
+   "value": "Une évaluation du département est arrivée. Ouvrez le fax pour en voir le contenu."
+  },
+  {
+   "key": "inbox.openFile",
+   "value": "Ouvrir dans le dossier"
+  },
+  {
+   "key": "file.tab.timeline",
+   "value": "CHRONOLOGIE"
+  },
+  {
+   "key": "file.tab.compare",
+   "value": "COMPARER"
+  },
+  {
+   "key": "compare.title",
+   "value": "COMPARER LES SOURCES"
+  },
+  {
+   "key": "compare.back",
+   "value": "RETOUR AU DOSSIER"
+  },
+  {
+   "key": "compare.choose",
+   "value": "CHOISIR UNE SOURCE"
+  },
+  {
+   "key": "compare.empty",
+   "value": "Choisis la source à examiner sur cette page."
+  },
+  {
+   "key": "compare.noSources",
+   "value": "Aucune source examinée pour l’instant."
+  },
+  {
+   "key": "timeline.title",
+   "value": "CHRONOLOGIE"
+  },
+  {
+   "key": "timeline.help",
+   "value": "Ajoute toi-même ici les heures entendues et vues dans les enregistrements. C’est à toi d’évaluer le lien entre les sources."
+  },
+  {
+   "key": "timeline.pinned",
+   "value": "MA CHRONOLOGIE"
+  },
+  {
+   "key": "timeline.available",
+   "value": "AJOUTER DEPUIS LES SOURCES"
+  },
+  {
+   "key": "timeline.empty",
+   "value": "Tu n’as encore ajouté aucune heure."
+  },
+  {
+   "key": "timeline.noCandidates",
+   "value": "Examine les dépositions et les enregistrements pour trouver de nouvelles heures."
+  },
+  {
+   "key": "timeline.add",
+   "value": "AJOUTER"
+  },
+  {
+   "key": "timeline.remove",
+   "value": "RETIRER"
+  },
+  {
+   "key": "timeline.time.about0830",
+   "value": "~08.30"
+  },
+  {
+   "key": "timeline.time.about1800",
+   "value": "~18.00"
+  },
+  {
+   "key": "timeline.time.noon",
+   "value": "Midi"
+  },
+  {
+   "key": "timeline.time.0827",
+   "value": "08.27"
+  },
+  {
+   "key": "timeline.time.1148",
+   "value": "11.48"
+  },
+  {
+   "key": "timeline.time.1216",
+   "value": "12.16"
+  },
+  {
+   "key": "timeline.time.gap",
+   "value": "12.37–13.08"
+  },
+  {
+   "key": "timeline.time.1754",
+   "value": "17.54"
+  },
+  {
+   "key": "timeline.clue.mertOut",
+   "value": "Je suis parti vers huit heures et demie."
+  },
+  {
+   "key": "timeline.clue.mertReturn",
+   "value": "Je suis rentré vers six heures du soir."
+  },
+  {
+   "key": "timeline.clue.hasanNoon",
+   "value": "J’ai vu une femme vers midi."
+  },
+  {
+   "key": "timeline.clue.cameraManOut",
+   "value": "Un homme a quitté l’immeuble."
+  },
+  {
+   "key": "timeline.clue.cameraWomanIn",
+   "value": "Une femme est entrée dans l’immeuble."
+  },
+  {
+   "key": "timeline.clue.cameraWomanOut",
+   "value": "La même personne a quitté l’immeuble."
+  },
+  {
+   "key": "timeline.clue.cameraGap",
+   "value": "Aucun enregistrement pour cet intervalle."
+  },
+  {
+   "key": "timeline.clue.cameraManIn",
+   "value": "Un homme est entré dans l’immeuble."
+  },
+  {
+   "key": "interview.chooseSource",
+   "value": "Quel enregistrement ou document vas-tu présenter ?"
+  },
+  {
+   "key": "interview.cancelSource",
+   "value": "‹  Annuler · Retour aux questions"
+  },
+  {
+   "key": "interview.selectedSource",
+   "value": "Source choisie"
+  },
+  {
+   "key": "interview.questions",
+   "value": "Questions"
+  },
+  {
+   "key": "interview.history",
+   "value": "Historique"
+  },
+  {
+   "key": "interview.noSource",
+   "value": "Tu n’as encore aucun enregistrement à présenter."
+  },
+  {
+   "key": "interview.present",
+   "value": "Présenter"
+  },
+  {
+   "key": "interview.presentSource",
+   "value": "Présenter l’enregistrement"
+  },
+  {
+   "key": "interview.presented",
+   "value": "Présenté :"
+  },
+  {
+   "key": "interview.unrelatedSource",
+   "value": "Que voulez-vous que je dise de cet enregistrement ?"
+  },
+  {
+   "key": "conclude.source",
+   "value": "Enregistrement présenté"
+  },
+  {
+   "key": "conclude.chooseSource",
+   "value": "Choisir un document, une déposition ou un enregistrement"
+  },
+  {
+   "key": "conclude.sourceUnknown",
+   "value": "Aucune source indiquée"
+  },
+  {
+   "key": "elif_follow.footage.entryAnswer.demeanor",
+   "value": "Hoche la tête en entendant l’heure. Les yeux restent sur l’écran, la voix est plate."
+  },
+  {
+   "key": "elif_follow.footage.entryAnswer",
+   "value": "Oui, la personne entrée dans l’immeuble à 11.48, c’était moi. J’ai pris quelques affaires sans prévenir Mert. En sortant, j’ai laissé sa clé, que j’avais encore, dans le pot de fleurs à côté de sa porte."
+  },
+  {
+   "key": "elif_follow.footage.exitAnswer.demeanor",
+   "value": "Parle vite, comme si la phrase était prête d’avance. À la fin, prend une grande inspiration."
+  },
+  {
+   "key": "elif_follow.footage.exitAnswer",
+   "value": "Oui, celle qui est sortie à 12.16, c’était moi aussi. J’avais mes propres vêtements et mes livres. Je n’ai pas emporté la clé de Mert ; je l’ai laissée dans le pot de fleurs à côté de sa porte."
+  },
+  {
+   "key": "interview.status.followup",
+   "value": "Audition possible avec une nouvelle source"
+  },
+  {
+   "key": "interview.referenceCard",
+   "value": "ENREGISTREMENT EN MAIN"
+  },
+  {
+   "key": "interview.openPresented",
+   "value": "LIRE L’ENREGISTREMENT PRÉSENTÉ"
+  },
+  {
+   "key": "interview.openReference",
+   "value": "LIRE L’ENREGISTREMENT CHOISI"
+  },
+  {
+   "key": "hasan_follow.mertStatement.question",
+   "value": "Pouvez-vous raconter le jour où vous avez croisé Mert devant sa porte ?"
+  },
+  {
+   "key": "hasan_follow.mertStatement.answer.demeanor",
+   "value": "Se penche légèrement en avant en parlant. Après la phrase, ne vous quitte pas des yeux."
+  },
+  {
+   "key": "hasan_follow.mertStatement.answer",
+   "value": "D’accord. J’étais devant la porte ; Mert s’est penché et a tripoté le pot de fleurs, donc s’il a pris la clé là, je l’ai vu. Mais une chose vue il y a un mois ne prouve pas que je suis entré chez lui ce jour-là."
+  },
+  {
+   "key": "mert.items.question",
+   "value": "Comment avez-vous remarqué la disparition des objets ?"
+  },
+  {
+   "key": "mert.items.answer",
+   "value": "L’ordinateur portable est normalement sur le bureau ; il n’y était pas. Je range ma montre dans le tiroir ; l’argent était dans le même tiroir. D’abord j’ai cru que je les avais peut-être déplacés moi-même, puis j’ai compris que les trois avaient disparu d’un coup. J’ai aussi remis la facture de l’ordinateur pour l’examen."
+  },
+  {
+   "key": "mert.breakup.question",
+   "value": "Pourquoi n’avez-vous pas récupéré la clé d’Elif ?"
+  },
+  {
+   "key": "mert.breakup.answer",
+   "value": "On devait convenir d’un jour pour qu’elle vienne chercher ses affaires, mais on n’a jamais fixé de date. J’ai aussi repoussé le moment de demander la clé. Après la séparation, je n’avais pas envie de rouvrir le sujet entre nous."
+  },
+  {
+   "key": "elif.remaining.question",
+   "value": "Restait-il des affaires à vous chez Mert ?"
+  },
+  {
+   "key": "elif.remaining.answer",
+   "value": "Quelques vêtements, deux ou trois livres. Je ne voulais pas qu’on se dispute encore pour ça. Avec Mert, on n’avait pas décidé quand je viendrais les prendre."
+  },
+  {
+   "key": "elif.avoid.question",
+   "value": "Pourquoi n’avez-vous pas parlé du tout à Mert ce jour-là ?"
+  },
+  {
+   "key": "elif.avoid.answer",
+   "value": "Chaque conversation revenait à la séparation. S’il vous plaît, n’y voyez pas le signe d’autre chose ; je vous ai dit que je n’étais pas allée chez lui."
+  },
+  {
+   "key": "hasan.recognition.question",
+   "value": "Comment avez-vous reconnu la femme que vous avez vue ?"
+  },
+  {
+   "key": "hasan.recognition.answer",
+   "value": "Je l’avais vue plusieurs fois avec Mert. Je ne connaissais pas son nom. J’ai pensé que la femme qui sortait par la porte de l’immeuble lui ressemblait ; je n’ai vu son visage qu’un instant."
+  },
+  {
+   "key": "hasan.help.question",
+   "value": "Voyiez-vous souvent Mert auparavant ?"
+  },
+  {
+   "key": "hasan.help.answer",
+   "value": "On est voisins, on se salue quand on se croise. Il s’est retrouvé à la porte une fois ; je suis resté avec lui et je l’ai aidé. Ensuite chacun est rentré chez soi."
+  },
+  {
+   "key": "elif_follow.keyPlace.question",
+   "value": "Pourquoi n’avez-vous pas rendu la clé à Mert en main propre ?"
+  },
+  {
+   "key": "elif_follow.keyPlace.answer",
+   "value": "Je ne voulais plus garder la clé, et je ne voulais pas non plus me retrouver face à lui. Le pot de fleurs, c’était l’endroit où Mert mettait autrefois une clé de secours. Je ne sais pas qui y a regardé après moi."
+  },
+  {
+   "key": "elif_follow.call.question",
+   "value": "Avez-vous appelé Mert en apprenant le cambriolage ?"
+  },
+  {
+   "key": "elif_follow.call.answer",
+   "value": "Non. J’ai pensé que si je me taisais, je resterais en dehors de tout ça ; je vois maintenant que j’ai fait l’inverse."
+  },
+  {
+   "key": "mert_follow.known.question",
+   "value": "Qui d’autre pouvait savoir où se trouvait la clé du pot de fleurs ?"
+  },
+  {
+   "key": "mert_follow.known.answer",
+   "value": "Elif le savait ; je le lui avais dit autrefois. Hasan m’a aussi vu prendre la clé dans le pot le jour où je suis resté à la porte. Je ne sais pas qui d’autre l’a vu."
+  },
+  {
+   "key": "interview.topic.other",
+   "value": "AUTRES QUESTIONS"
+  },
+  {
+   "key": "interview.topic.day",
+   "value": "LE JOUR DES FAITS"
+  },
+  {
+   "key": "interview.topic.home",
+   "value": "LOGEMENT ET CLÉ"
+  },
+  {
+   "key": "interview.topic.relationships",
+   "value": "RELATIONS"
+  },
+  {
+   "key": "interview.topic.observations",
+   "value": "OBSERVATIONS"
+  },
+  {
+   "key": "interview.topic.records",
+   "value": "ENREGISTREMENTS"
+  },
+  {
+   "key": "interview.topic.neighbors",
+   "value": "VOISINAGE"
+  },
+  {
+   "key": "interview.topic.belongings",
+   "value": "AFFAIRES"
+  },
+  {
+   "key": "interview.topic.explanation",
+   "value": "EXPLICATIONS"
+  },
+  {
+   "key": "file.tab.search",
+   "value": "PARCOURIR LE DOSSIER"
+  },
+  {
+   "key": "search.kind",
+   "value": "Type d’enregistrement"
+  },
+  {
+   "key": "search.person",
+   "value": "Personne"
+  },
+  {
+   "key": "search.recentTitle",
+   "value": "Recherches récentes"
+  },
+  {
+   "key": "search.remove",
+   "value": "Supprimer la recherche"
+  },
+  {
+   "key": "search.title",
+   "value": "PARCOURIR LE DOSSIER"
+  },
+  {
+   "key": "search.help",
+   "value": "Toutes les lignes consignées. Filtre par type et par personne."
+  },
+  {
+   "key": "search.count",
+   "value": "Résultats"
+  },
+  {
+   "key": "search.everyone",
+   "value": "Tout le monde"
+  },
+  {
+   "key": "search.empty",
+   "value": "Aucun enregistrement ne correspond à ces filtres."
+  },
+  {
+   "key": "search.open",
+   "value": "Ouvrir"
+  },
+  {
+   "key": "archive.screen",
+   "value": "Archives"
+  },
+  {
+   "key": "archive.plate",
+   "value": "Dossiers clos"
+  },
+  {
+   "key": "archive.reportAt",
+   "value": "Rapport"
+  },
+  {
+   "key": "archive.stamp.approved",
+   "value": "Approuvé"
+  },
+  {
+   "key": "archive.reportAndReview",
+   "value": "Rapport et évaluation"
+  },
+  {
+   "key": "archive.transcript",
+   "value": "Procès-verbal d’audition"
+  },
+  {
+   "key": "archive.presented",
+   "value": "Présenté :"
+  },
+  {
+   "key": "archive.date",
+   "value": "Date"
+  },
+  {
+   "key": "archive.menu",
+   "value": "Archives des dossiers"
+  },
+  {
+   "key": "archive.kicker",
+   "value": "DÉPARTEMENT BUBE · DOSSIERS CLOS"
+  },
+  {
+   "key": "archive.title",
+   "value": "ARCHIVES DES DOSSIERS"
+  },
+  {
+   "key": "archive.count",
+   "value": "Dossiers clos"
+  },
+  {
+   "key": "archive.empty",
+   "value": "Aucun dossier clos pour l’instant."
+  },
+  {
+   "key": "archive.report",
+   "value": "Rapport envoyé"
+  },
+  {
+   "key": "archive.sources",
+   "value": "Sources"
+  },
+  {
+   "key": "archive.reviewed",
+   "value": "Évaluation du département reçue. Elle peut être comparée au rapport envoyé."
+  },
+  {
+   "key": "archive.pendingReview",
+   "value": "L’évaluation du département n’est pas encore arrivée."
+  },
+  {
+   "key": "archive.back",
+   "value": "Retour aux archives"
+  },
+  {
+   "key": "archive.fax",
+   "value": "Évaluation"
+  },
+  {
+   "key": "conclude.sourceHelp",
+   "value": "Dans ce formulaire, tu formules trois affirmations distinctes : qui est responsable, comment les faits se sont produits et quelle preuve est décisive. Sous chaque affirmation, choisis le document lu, la déposition recueillie ou la ligne d’enregistrement examinée qui, selon toi, la soutient. Le premier rapport d’incident ne consigne que la plainte initiale. Un rapport envoyé ne peut pas être retiré ; le dossier se ferme."
+  },
+  {
+   "key": "conclude.suspectSource",
+   "value": "Quelle source relie cette personne aux faits ?"
+  },
+  {
+   "key": "conclude.methodSource",
+   "value": "Quelle information soutient la méthode choisie ?"
+  },
+  {
+   "key": "conclude.evidenceSource",
+   "value": "Quel document ou enregistrement confirme la preuve choisie ?"
+  },
+  {
+   "key": "conclude.custody",
+   "value": "Qui porte la seconde responsabilité dans les faits ?"
+  },
+  {
+   "key": "conclude.custodySource",
+   "value": "Quelle source relie cette personne à cette partie des faits ?"
+  },
+  {
+   "key": "conclude.previewTitle",
+   "value": "RAPPORT À ENVOYER"
+  },
+  {
+   "key": "conclude.unselected",
+   "value": "Non choisi"
+  },
+  {
+   "key": "terminal.title",
+   "value": "Fiches BDS"
+  },
+  {
+   "key": "terminal.noRecords",
+   "value": "Aucune fiche accessible n’est encore liée à ce dossier."
+  },
+  {
+   "key": "fax.explainIntro",
+   "value": "L’unité a examiné la personne désignée, la méthode et la preuve décisive, chacune séparément avec la source que vous avez présentée. Une décision « non étayé » ci-dessous signifie que la source choisie ne confirme pas cette affirmation. Le dossier est clos."
+  },
+  {
+   "key": "fax.submittedSource",
+   "value": "Source présentée"
+  },
+  {
+   "key": "fax.closing",
+   "value": "Cette évaluation porte sur le rapport tel qu’envoyé. Sans information nouvelle, le rapport ne peut pas être modifié ; la décision a été inscrite au dossier du personnel."
+  },
+  {
+   "key": "fax.reason.supported",
+   "value": "La source présentée a été retenue comme fondement de cette affirmation."
+  },
+  {
+   "key": "fax.reason.suspect.report",
+   "value": "Le premier rapport d’incident consigne la plainte pour disparition et l’état initial des lieux. Il ne contient aucun constat indépendant établissant que la personne désignée a pris les objets."
+  },
+  {
+   "key": "fax.reason.method.report",
+   "value": "L’absence de trace d’effraction ne suffit pas à déterminer le mode d’entrée utilisé. Le premier rapport d’incident ne confirme pas cette méthode."
+  },
+  {
+   "key": "fax.reason.evidence.report",
+   "value": "Le premier rapport d’incident liste les objets déclarés disparus. Il ne peut pas remplacer un constat ultérieur établissant entre quelles mains l’objet est passé."
+  },
+  {
+   "key": "fax.reason.suspect.other",
+   "value": "La source présentée n’a pas établi de lien suffisant entre la personne désignée et l’acte. Cette affirmation n’a pas pu être confirmée sur ce fondement."
+  },
+  {
+   "key": "fax.reason.method.other",
+   "value": "La source présentée n’a pas suffisamment établi la méthode indiquée."
+  },
+  {
+   "key": "fax.reason.evidence.other",
+   "value": "La source présentée n’a pas suffisamment confirmé le caractère décisif de la preuve choisie."
+  },
+  {
+   "key": "interview.tryAnotherSource",
+   "value": "CHOISIR UN AUTRE ENREGISTREMENT"
+  },
+  {
+   "key": "conclude.step.send",
+   "value": "Envoyer"
+  },
+  {
+   "key": "conclude.basis",
+   "value": "Fondement"
+  },
+  {
+   "key": "conclude.basisSource",
+   "value": "Source du fondement"
+  },
+  {
+   "key": "conclude.sourcePlaceholder",
+   "value": "Choisir un document, une déposition ou un enregistrement"
+  },
+  {
+   "key": "conclude.yourNote",
+   "value": "Ta note"
+  },
+  {
+   "key": "conclude.stepHelp",
+   "value": "Choisis ton affirmation, puis l’enregistrement que tu présenteras comme fondement."
+  },
+  {
+   "key": "conclude.reviewHelp",
+   "value": "Vérifie ton rapport. Une fois envoyé, le dossier se ferme définitivement ; l’évaluation du département arrive plus tard."
+  },
+  {
+   "key": "conclude.previous",
+   "value": "Précédent"
+  },
+  {
+   "key": "conclude.next",
+   "value": "Continuer"
+  },
+  {
+   "key": "conclude.openSource",
+   "value": "Lire le fondement"
+  },
+  {
+   "key": "conclude.filter.all",
+   "value": "Tout"
+  },
+  {
+   "key": "conclude.filter.documents",
+   "value": "Documents"
+  },
+  {
+   "key": "conclude.filter.interviews",
+   "value": "Dépositions"
+  },
+  {
+   "key": "conclude.filter.cctv",
+   "value": "CCTV"
+  },
+  {
+   "key": "conclude.sourceCount",
+   "value": "sources"
+  },
+  {
+   "key": "conclude.noMatches",
+   "value": "Aucune source ne correspond à cette recherche et à ce filtre."
+  },
+  {
+   "key": "elif_follow.footage.decoy.gap.demeanor",
+   "value": "Fait tourner l’élastique à son poignet en parlant. La voix monte au milieu de la phrase."
+  },
+  {
+   "key": "elif_follow.footage.decoy.key.demeanor",
+   "value": "Reste un moment silencieuse. Puis vous regarde droit dans les yeux, sans détourner le regard."
+  },
+  {
+   "key": "elif_follow.footage.decoy.key",
+   "value": "Je n’ai pas rendu la clé. Je ne voulais pas la rendre, non plus. Je sais que le dire joue contre moi ; malgré tout, je n’ai pas ouvert cette porte."
+  },
+  {
+   "key": "elif_follow.footage.decoy.sighting.demeanor",
+   "value": "Se penche sur la feuille, lit la ligne deux fois. Ses mains tremblent."
+  },
+  {
+   "key": "elif_follow.footage.decoy.sighting",
+   "value": "Si le voisin m’a vue, il ne s’est pas trompé. Cette semaine-là, je suis allée jusqu’à cet immeuble, jusqu’à la porte. Je n’ai pas sonné, j’ai fait demi-tour. Vous n’êtes pas obligé de me croire."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.elifIn.demeanor",
+   "value": "Ne regarde même pas l’écran. Répète sur le même ton plat."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.neighbor.demeanor",
+   "value": "Frotte le bord de la table avec le pouce. La voix ralentit."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.gap.demeanor",
+   "value": "Porte la main à la nuque, la redescend. Voix plate."
+  },
+  {
+   "key": "elif_follow.footage.decoy.time.demeanor",
+   "value": "Un rire bref et sec. Repousse sa chaise sans se lever."
+  },
+  {
+   "key": "elif_follow.footage.decoy.time",
+   "value": "Il dit « vers l’heure du déjeuner ». Moi aussi, j’étais là vers l’heure du déjeuner. Je n’ai pas noté l’heure ; si je l’avais fait, je serais plus crédible ?"
+  },
+  {
+   "key": "elif_follow.footage.decoy.recognition.demeanor",
+   "value": "Le visage rougit. Avale presque la fin de la phrase."
+  },
+  {
+   "key": "elif_follow.footage.decoy.recognition",
+   "value": "Il ne me connaît peut-être pas, mais la personne qu’il décrit me ressemble. Je le dis moi-même, avant que vous ne le demandiez."
+  },
+  {
+   "key": "elif_follow.footage.decoy.breakup.demeanor",
+   "value": "Baisse les yeux vers la table. Parle après un long silence."
+  },
+  {
+   "key": "elif_follow.footage.decoy.breakup",
+   "value": "On devait parler de mes affaires, on n’y est jamais arrivés. C’est pour ça que j’étais là ce jour-là aussi, pour parler. Personne n’a ouvert la porte."
+  },
+  {
+   "key": "elif_follow.footage.decoy.known.demeanor",
+   "value": "S’adosse à la chaise. Pour la première fois, parle sans se presser."
+  },
+  {
+   "key": "elif_follow.footage.decoy.known",
+   "value": "Je connaissais le pot de fleurs. J’ai vécu un an dans cet appartement ; ce serait bizarre que je ne le sache pas. Vous avez en face de vous quelqu’un qui savait, voilà le problème."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.elifOut.demeanor",
+   "value": "Regarde les images attentivement, puis hausse les épaules."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.recovery.demeanor",
+   "value": "Lit le rapport longuement. La voix s’enroue un peu pendant la réponse."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.known.demeanor",
+   "value": "Un sourire las. S’affale dans son siège."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.gap.demeanor",
+   "value": "Croise les bras, puis les décroise. Le regard reste sur la table."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifIn.demeanor",
+   "value": "Répète la même phrase, avec la même insistance, pour la troisième fois."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifIn",
+   "value": "C’est elle qui est entrée. Moi, ce jour-là, je n’ai même pas passé ma porte. Si vous voulez que je le redise, je le redis."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.spare.demeanor",
+   "value": "En parlant du placard, agite la main vers la porte. Paraît détendu."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.spare",
+   "value": "Il a pris la clé dans le pot, d’accord. Moi, je n’ai ni clé ni affaires à lui. Je vais vous simplifier les choses : il y a un carton dans le placard, plein de livres."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor.demeanor",
+   "value": "En décrivant le palier, trace un cercle du doigt sur la table."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor",
+   "value": "Il y a dix appartements dans cet immeuble. La plupart vivent seuls comme moi, et toutes les portes donnent sur le même palier."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor.demeanor",
+   "value": "Le dit sans ciller. Puis regarde la fenêtre."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor",
+   "value": "On n’est pas proches. On n’a pas parlé longtemps à la porte non plus. Si on a parlé, je ne m’en souviens pas."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.known.demeanor",
+   "value": "Un demi-sourire. Les mains restent immobiles sur la table."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.known",
+   "value": "Savoir, c’est une chose ; entrer, c’en est une autre. Mais figurer sur la liste de ceux qui savaient, ça vous assoit sur cette chaise, ça je l’ai appris."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifIn.demeanor",
+   "value": "Tourne un peu l’écran vers lui de la main. Le regarde longuement."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifIn",
+   "value": "C’est elle qu’on voit sur l’enregistrement. Vous, vous m’interrogez sur le jour de la porte. S’il y a quelque chose qui relie les deux, ce n’est pas chez moi."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.recovery.demeanor",
+   "value": "La voix baisse en parlant des problèmes d’argent. Ne termine pas."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.recovery",
+   "value": "Je connais ce magasin, j’y ai déjà eu affaire. Ce n’est pas de ça qu’on a parlé à la porte ; il a évoqué des problèmes d’argent, c’est tout."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.spare.demeanor",
+   "value": "S’arrête un instant en entendant la date. Puis parle distinctement."
+  },
+  {
+   "key": "hasan_follow.gap.decoy.followNeighbor.demeanor",
+   "value": "S’interrompt au milieu de la phrase et recommence."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifOut.demeanor",
+   "value": "Demande à revoir les images. La seconde fois, dit la même chose."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.elifOut",
+   "value": "Elle portait quelque chose, je n’ai pas vu quoi. Ce serait facile de me mettre sur le dos une chose que je n’ai pas vue, je m’en rends compte."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor2.demeanor",
+   "value": "Un bref silence. Puis répond en haussant les épaules."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.neighbor2",
+   "value": "On n’est pas proches. Si on l’était, il m’aurait peut-être confié quelque chose, et j’aurais quelque chose entre les mains. Ce n’est pas le cas."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.known.demeanor",
+   "value": "Se penche en avant et détache chaque mot."
+  },
+  {
+   "key": "hasan_follow.sale.decoy.known",
+   "value": "Vous confondez la clé et les affaires. Si dix personnes savaient où elle était, celle qui a pris les affaires peut être n’importe laquelle. Ce n’est pas moi."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor2.demeanor",
+   "value": "Hésite. La fin de la phrase sort comme une question."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.neighbor2",
+   "value": "Il a pensé que j’avais peut-être vu quelque chose. Même si c’est le cas, je ne peux pas dire avec certitude si j’étais dans l’immeuble ce jour-là. Je confonds les jours, ces temps-ci."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifOut.demeanor",
+   "value": "Ne regarde pas l’enregistrement. La réponse était prête."
+  },
+  {
+   "key": "hasan_follow.mertStatement.decoy.elifOut",
+   "value": "Vous me montrez sa sortie et vous m’interrogez sur le jour de la porte. On parle de la même personne, mais pas du même jour."
+  },
+  {
+   "key": "mert.deflect",
+   "value": "Je ne sais pas ce que vous attendez que je dise en me montrant ça. Je vous ai raconté ce que je sais."
+  },
+  {
+   "key": "elif.deflect",
+   "value": "Si vous faites un lien entre ça et moi, dites-moi lequel. Moi, je ne le vois pas."
+  },
+  {
+   "key": "hasan.deflect",
+   "value": "Je ne vois pas le rapport avec moi. Si vous avez autre chose à demander, demandez."
+  },
+  {
+   "key": "menu.tagline",
+   "value": "UNE HISTOIRE D’ENQUÊTE"
+  },
+  {
+   "key": "world.state.ongoing",
+   "value": "EN COURS"
+  },
+  {
+   "key": "world.state.closed",
+   "value": "CLOS"
+  },
+  {
+   "key": "world.slot.lockedBody",
+   "value": "Ce dossier n’est pas encore accessible. Terminez les affaires précédentes."
+  },
+  {
+   "key": "world.country.cases",
+   "value": "AFFAIRES"
+  },
+  {
+   "key": "world.browser.file",
+   "value": "DOSSIER"
+  },
+  {
+   "key": "menu.identity.unitLabel",
+   "value": "Unité"
+  },
+  {
+   "key": "menu.identity.locationLabel",
+   "value": "Lieu"
+  },
+  {
+   "key": "menu.row.continue",
+   "value": "Continuer"
+  },
+  {
+   "key": "menu.row.start",
+   "value": "Commencer"
+  },
+  {
+   "key": "menu.row.newCareer",
+   "value": "NOUVELLE CARRIÈRE"
+  },
+  {
+   "key": "menu.row.settings",
+   "value": "Réglages"
+  },
+  {
+   "key": "menu.row.career",
+   "value": "Carrière"
+  },
+  {
+   "key": "menu.identity.name",
+   "value": "Bora"
+  },
+  {
+   "key": "menu.identity.role",
+   "value": "Enquêteur"
+  },
+  {
+   "key": "menu.identity.unit",
+   "value": "Département bube"
+  },
+  {
+   "key": "menu.identity.location",
+   "value": "antenne d’Istanbul / Beşiktaş"
+  },
+  {
+   "key": "menu.row.quit",
+   "value": "QUITTER"
+  },
+  {
+   "key": "settings.music",
+   "value": "Musique"
+  },
+  {
+   "key": "settings.sfx",
+   "value": "Effets sonores"
+  },
+  {
+   "key": "settings.sound.off",
+   "value": "Coupé"
+  },
+  {
+   "key": "settings.sound.full",
+   "value": "Plein"
+  },
+  {
+   "key": "quit.title",
+   "value": "Quitter le jeu ?"
+  },
+  {
+   "key": "quit.body",
+   "value": "L’enquête est enregistrée ; tu pourras reprendre là où tu t’es arrêté."
+  },
+  {
+   "key": "quit.cancel",
+   "value": "Annuler"
+  },
+  {
+   "key": "quit.confirm",
+   "value": "Quitter"
+  },
+  {
+   "key": "chain.end.title",
+   "value": "Aucun nouveau dossier sur le bureau"
+  },
+  {
+   "key": "chain.end.detail",
+   "value": "Les dossiers que tu as clos sont aux archives. Quand une nouvelle affectation arrivera, le bac du courrier entrant te préviendra."
+  },
+  {
+   "key": "chain.end.action",
+   "value": "Voir la carrière"
+  },
+  {
+   "key": "guidance.screen",
+   "value": "Rappel"
+  },
+  {
+   "key": "retry.screen",
+   "value": "Dossier"
+  },
+  {
+   "key": "retry.stamp",
+   "value": "Rouvert"
+  },
+  {
+   "key": "guidance.title",
+   "value": "Rappel de méthode"
+  },
+  {
+   "key": "guidance.body",
+   "value": "Ce qui suit concerne le métier lui-même, pas l’affaire. La décision reste la tienne."
+  },
+  {
+   "key": "guidance.method.1",
+   "value": "Tu ne peux confronter une affirmation qu’à un enregistrement où la personne est nommée. Si elle n’y est pas nommée, l’enregistrement ne la concerne pas."
+  },
+  {
+   "key": "guidance.method.2",
+   "value": "Ouvrir une source en rend une nouvelle accessible ; personne ne te dit laquelle regarder."
+  },
+  {
+   "key": "guidance.method.3",
+   "value": "Chaque ligne ajoutée à la chronologie a une source. Une ligne sans source n’est pas une affirmation."
+  },
+  {
+   "key": "guidance.method.4",
+   "value": "Chaque volet de la conclusion envoyée doit tenir avec son fondement."
+  },
+  {
+   "key": "guidance.coverage.title",
+   "value": "La mesure de ton propre travail"
+  },
+  {
+   "key": "guidance.coverage.sources",
+   "value": "Sources accessibles"
+  },
+  {
+   "key": "guidance.coverage.questions",
+   "value": "Questions possibles"
+  },
+  {
+   "key": "guidance.coverage.clues",
+   "value": "Lignes dans la chronologie"
+  },
+  {
+   "key": "guidance.coverage.complete",
+   "value": "Tu as ouvert chaque source accessible et posé chaque question."
+  },
+  {
+   "key": "guidance.watch",
+   "value": "Ouvrir le rappel"
+  },
+  {
+   "key": "guidance.unavailable",
+   "value": "Aucune publicité à afficher pour l’instant."
+  },
+  {
+   "key": "settings.notify.hint",
+   "value": "Si un dossier attend sur ton bureau, tu es prévenu une fois le lendemain et une fois trois jours plus tard."
+  },
+  {
+   "key": "settings.notify",
+   "value": "Notifications de rappel"
+  },
+  {
+   "key": "notify.new.2",
+   "value": "Le nouveau dossier attend toujours sur ton bureau."
+  },
+  {
+   "key": "notify.new.1",
+   "value": "Un nouveau dossier est dans ton bac de courrier."
+  },
+  {
+   "key": "notify.fax.2",
+   "value": "Des papiers non lus t’attendent sur ton bureau."
+  },
+  {
+   "key": "notify.fax.1",
+   "value": "Un fax concernant ton rapport est peut-être arrivé."
+  },
+  {
+   "key": "notify.open.2",
+   "value": "Le dossier attend toujours ta conclusion."
+  },
+  {
+   "key": "notify.open.1",
+   "value": "Un dossier est resté ouvert sur ton bureau."
+  },
+  {
+   "key": "notify.title",
+   "value": "Karine"
+  },
+  {
+   "key": "summary.work",
+   "value": "Ton travail"
+  },
+  {
+   "key": "guidance.desk",
+   "value": "Mon travail"
+  },
+  {
+   "key": "retry.title",
+   "value": "Rouvrir le dossier"
+  },
+  {
+   "key": "retry.watch",
+   "value": "Rouvrir le dossier (pub)"
+  },
+  {
+   "key": "retry.done",
+   "value": "Le dossier a été rouvert. Les champs du rapport ont été vidés ; rien de ce que tu as rassemblé n’a été supprimé. Les points de confiance perdus avec ce fax ont été rendus."
+  },
+  {
+   "key": "retry.keptRecord",
+   "value": "La trace de l’évaluation n’est pas effacée : ce fax reste dans l’historique de carrière, marqué comme rouvert."
+  },
+  {
+   "key": "retry.unavailable",
+   "value": "Ce dossier ne peut pas être rouvert."
+  },
+  {
+   "key": "retry.recordNote",
+   "value": "Le dossier a été rouvert après cette évaluation ; les points de confiance ont été rendus."
+  },
+  {
+   "key": "retry.recordShort",
+   "value": "rouvert"
+  },
+  {
+   "key": "menu.row.chapters",
+   "value": "Affaires"
+  },
+  {
+   "key": "world.page.title",
+   "value": "AFFAIRES"
+  },
+  {
+   "key": "world.cases",
+   "value": "Affaires"
+  },
+  {
+   "key": "world.progress",
+   "value": "PROGRESSION DES DOSSIERS DU PAYS"
+  },
+  {
+   "key": "world.open",
+   "value": "Voir les affaires"
+  },
+  {
+   "key": "world.completedCases",
+   "value": "Affaires terminées"
+  },
+  {
+   "key": "world.state.completed",
+   "value": "TERMINÉ"
+  },
+  {
+   "key": "world.state.active",
+   "value": "OUVERT"
+  },
+  {
+   "key": "world.state.locked",
+   "value": "VERROUILLÉ"
+  },
+  {
+   "key": "world.slot.sealed",
+   "value": "Dossier pas encore ouvert"
+  },
+  {
+   "key": "world.locked.hint",
+   "value": "Ce pays s’ouvre quand les dossiers du pays précédent sont clos."
+  },
+  {
+   "key": "world.slot.lockedHint",
+   "value": "Ce dossier s’ouvre quand le dossier suivant est clos."
+  },
+  {
+   "key": "world.slot.unwritten",
+   "value": "Ce dossier n’a pas encore été écrit."
+  },
+  {
+   "key": "world.back",
+   "value": "Retour au menu"
+  },
+  {
+   "key": "world.tr.name",
+   "value": "Türkiye"
+  },
+  {
+   "key": "world.tr.city",
+   "value": "Istanbul"
+  },
+  {
+   "key": "world.tr.description",
+   "value": "Beyoğlu et alentours : la première affectation, les premiers témoins, la première porte qui se ferme."
+  },
+  {
+   "key": "world.tr.case003",
+   "value": "Appartement 5/3"
+  },
+  {
+   "key": "world.tr.case004",
+   "value": "Fausse identité"
+  },
+  {
+   "key": "world.tr.case005",
+   "value": "L’ombre du port"
+  },
+  {
+   "key": "world.tr.case006",
+   "value": "Train de nuit"
+  },
+  {
+   "key": "world.tr.case007",
+   "value": "Le dernier témoin"
+  },
+  {
+   "key": "world.uk.name",
+   "value": "Royaume-Uni"
+  },
+  {
+   "key": "world.uk.city",
+   "value": "Londres"
+  },
+  {
+   "key": "world.uk.description",
+   "value": "Les dossiers du Royaume-Uni ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.de.name",
+   "value": "Allemagne"
+  },
+  {
+   "key": "world.de.city",
+   "value": "Berlin"
+  },
+  {
+   "key": "world.de.description",
+   "value": "Les dossiers d’Allemagne ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.jp.name",
+   "value": "Japon"
+  },
+  {
+   "key": "world.jp.city",
+   "value": "Tokyo"
+  },
+  {
+   "key": "world.jp.description",
+   "value": "Les dossiers du Japon ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.fr.name",
+   "value": "France"
+  },
+  {
+   "key": "world.fr.city",
+   "value": "Paris"
+  },
+  {
+   "key": "world.fr.description",
+   "value": "Les dossiers de France ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.us.name",
+   "value": "États-Unis"
+  },
+  {
+   "key": "world.us.city",
+   "value": "Chicago"
+  },
+  {
+   "key": "world.us.description",
+   "value": "Les dossiers des États-Unis ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.it.name",
+   "value": "Italie"
+  },
+  {
+   "key": "world.it.city",
+   "value": "Naples"
+  },
+  {
+   "key": "world.it.description",
+   "value": "Les dossiers d’Italie ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.es.name",
+   "value": "Espagne"
+  },
+  {
+   "key": "world.es.city",
+   "value": "Séville"
+  },
+  {
+   "key": "world.es.description",
+   "value": "Les dossiers d’Espagne ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.ca.name",
+   "value": "Canada"
+  },
+  {
+   "key": "world.ca.city",
+   "value": "Montréal"
+  },
+  {
+   "key": "world.ca.description",
+   "value": "Les dossiers du Canada ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.au.name",
+   "value": "Australie"
+  },
+  {
+   "key": "world.au.city",
+   "value": "Melbourne"
+  },
+  {
+   "key": "world.au.description",
+   "value": "Les dossiers d’Australie ne sont pas encore ouverts."
+  },
+  {
+   "key": "world.state.unwritten",
+   "value": "NON ÉCRIT"
+  },
+  {
+   "key": "world.browser.subtitle",
+   "value": "Choisis un pays, examine les enquêtes. Chaque affaire, une nouvelle vérité, une nouvelle piste."
+  },
+  {
+   "key": "world.browser.previous",
+   "value": "Affaires précédentes"
+  },
+  {
+   "key": "world.browser.next",
+   "value": "Affaires suivantes"
+  },
+  {
+   "key": "world.browser.prev",
+   "value": "Pays précédents"
+  },
+  {
+   "key": "world.browser.case",
+   "value": "AFFAIRE"
+  },
+  {
+   "key": "desk.view.evidence",
+   "value": "Examen des preuves"
+  },
+  {
+   "key": "desk.view.phone",
+   "value": "Téléphone · Audition"
+  },
+  {
+   "key": "desk.view.cctv",
+   "value": "Archives CCTV"
+  },
+  {
+   "key": "desk.view.activeCase",
+   "value": "AFFAIRE EN COURS"
+  },
+  {
+   "key": "desk.view.file",
+   "value": "Dossier"
+  },
+  {
+   "key": "desk.view.people",
+   "value": "Personnes"
+  },
+  {
+   "key": "desk.view.clues",
+   "value": "Preuves"
+  },
+  {
+   "key": "desk.view.documents",
+   "value": "Documents"
+  },
+  {
+   "key": "desk.view.folder",
+   "value": "Ouvrir le dossier"
+  },
+  {
+   "key": "file.department",
+   "value": "Département\nbube"
+  },
+  {
+   "key": "file.relatedPeople",
+   "value": "PERSONNES CONCERNÉES"
+  },
+  {
+   "key": "world.browser.progress",
+   "value": "PROGRESSION GÉNÉRALE"
+  },
+  {
+   "key": "world.browser.worlds",
+   "value": "Monde"
+  },
+  {
+   "key": "settings.tab.general",
+   "value": "Général"
+  },
+  {
+   "key": "settings.tab.general.hint",
+   "value": "Expérience de jeu"
+  },
+  {
+   "key": "settings.tab.play",
+   "value": "Jouabilité"
+  },
+  {
+   "key": "settings.tab.play.hint",
+   "value": "Préférences de jeu"
+  },
+  {
+   "key": "settings.subtitle",
+   "value": "Personnalise ton expérience de jeu."
+  },
+  {
+   "key": "settings.text.hint",
+   "value": "Comment afficher les dialogues des personnages ?"
+  },
+  {
+   "key": "settings.instant.hint",
+   "value": "Le texte apparaît directement."
+  },
+  {
+   "key": "settings.normal.hint",
+   "value": "Le texte apparaît au fil de la frappe."
+  },
+  {
+   "key": "settings.music.hint",
+   "value": "Règle le volume de la musique de fond."
+  },
+  {
+   "key": "settings.sfx.hint",
+   "value": "Règle le volume des sons des boutons et du bureau."
+  },
+  {
+   "key": "settings.reset.hint",
+   "value": "Tous les réglages sont réinitialisés."
+  },
+  {
+   "key": "settings.save.hint",
+   "value": "Les réglages sont appliqués."
+  },
+  {
+   "key": "settings.reset",
+   "value": "Valeurs par défaut"
+  },
+  {
+   "key": "settings.save",
+   "value": "Enregistrer"
+  },
+  {
+   "key": "settings.fps",
+   "value": "Fréquence d’images"
+  },
+  {
+   "key": "settings.fps.hint",
+   "value": "Un choix entre fluidité et batterie. Une fréquence que l’écran ne gère pas est plafonnée au maximum de l’appareil."
+  },
+  {
+   "key": "settings.fps.30",
+   "value": "30 ips"
+  },
+  {
+   "key": "settings.fps.30.hint",
+   "value": "Le moins de batterie et de chauffe."
+  },
+  {
+   "key": "settings.fps.60",
+   "value": "60 ips"
+  },
+  {
+   "key": "settings.fps.60.hint",
+   "value": "Fluide ; recommandé."
+  },
+  {
+   "key": "settings.fps.120",
+   "value": "120 ips"
+  },
+  {
+   "key": "settings.fps.120.hint",
+   "value": "Pour les écrans à haute fréquence ; consomme plus de batterie."
+  },
+  {
+   "key": "settings.fx",
+   "value": "Intensité des effets"
+  },
+  {
+   "key": "settings.fx.hint",
+   "value": "Grain de film, pluie, phares, parasites CCTV et marques de papier. Ne change pas la jouabilité."
+  },
+  {
+   "key": "settings.fx.off",
+   "value": "Coupé"
+  },
+  {
+   "key": "settings.fx.off.hint",
+   "value": "Seuls les mouvements d’interface restent."
+  },
+  {
+   "key": "settings.fx.light",
+   "value": "Léger"
+  },
+  {
+   "key": "settings.fx.light.hint",
+   "value": "Demi-intensité, moins de particules."
+  },
+  {
+   "key": "settings.fx.full",
+   "value": "Plein"
+  },
+  {
+   "key": "settings.fx.full.hint",
+   "value": "Tous les effets d’ambiance."
+  },
+  {
+   "key": "settings.haptics",
+   "value": "Vibration"
+  },
+  {
+   "key": "settings.haptics.hint",
+   "value": "Brève vibration pour les tampons, les fax, la présentation d’un enregistrement et les tournes de page."
+  },
+  {
+   "key": "report.stamp",
+   "value": "ENVOYÉ"
+  },
+  {
+   "key": "settings.motion",
+   "value": "Réduire les animations"
+  },
+  {
+   "key": "settings.motion.hint",
+   "value": "Désactive les mouvements du dossier, de la tablette et des boutons."
+  },
+  {
+   "key": "interview.swipeHint",
+   "value": "Tu peux aussi faire glisser l’enregistrement du doigt vers la personne en face."
+  },
+  {
+   "key": "file.relatedItems",
+   "value": "OBJETS CONCERNÉS"
+  },
+  {
+   "key": "tablet.interviewHint",
+   "value": "Choisis la personne à entendre."
+  },
+  {
+   "key": "tablet.investigationHint",
+   "value": "Choisis l’examen à demander."
+  },
+  {
+   "key": "career.tab.general",
+   "value": "Vue d’ensemble"
+  },
+  {
+   "key": "career.tab.history",
+   "value": "Historique des affaires"
+  },
+  {
+   "key": "career.overall",
+   "value": "Progression générale"
+  },
+  {
+   "key": "career.worldsDone",
+   "value": "Mondes terminés"
+  },
+  {
+   "key": "career.casesDone",
+   "value": "Affaires closes"
+  },
+  {
+   "key": "career.overallShort",
+   "value": "Progression générale"
+  },
+  {
+   "key": "career.caseStats",
+   "value": "Statistiques des affaires"
+  },
+  {
+   "key": "career.totalCases",
+   "value": "Total des affaires"
+  },
+  {
+   "key": "career.topWorlds",
+   "value": "Mondes les plus actifs"
+  },
+  {
+   "key": "career.noHistory",
+   "value": "Aucun dossier évalué pour l’instant."
+  },
+  {
+   "key": "file.tab.notebook",
+   "value": "CARNET"
+  },
+  {
+   "key": "notebook.title",
+   "value": "Carnet"
+  },
+  {
+   "key": "notebook.help",
+   "value": "Sur l’écran de comparaison, place deux sources côte à côte et inscris ici ton propre jugement. Les phrases que tu touches dans les documents sont aussi soulignées et rassemblées ici. Le carnet ne contient que tes notes ; personne ne te dit si elles sont justes ou fausses."
+  },
+  {
+   "key": "notebook.pairs",
+   "value": "Paires de sources"
+  },
+  {
+   "key": "notebook.noPairs",
+   "value": "Tu n’as encore inscrit aucune paire."
+  },
+  {
+   "key": "notebook.lines",
+   "value": "Lignes soulignées"
+  },
+  {
+   "key": "notebook.noLines",
+   "value": "Tu n’as encore souligné aucune ligne."
+  },
+  {
+   "key": "notebook.open",
+   "value": "COMPARER"
+  },
+  {
+   "key": "notebook.write",
+   "value": "Inscrire au carnet :"
+  },
+  {
+   "key": "notebook.mark.conflict",
+   "value": "DIVERGE"
+  },
+  {
+   "key": "notebook.mark.agree",
+   "value": "CONCORDE"
+  },
+  {
+   "key": "notebook.mark.question",
+   "value": "À DEMANDER"
+  },
+  {
+   "key": "notebook.markHelp",
+   "value": "Touche une phrase pour la souligner et l’ajouter au carnet."
+  },
+  {
+   "key": "fax.epilogue",
+   "value": "Ce qu’est devenu le dossier"
+  },
+  {
+   "key": "fax.reason.custody.report",
+   "value": "Le premier rapport d’incident consigne l’état initial des lieux. Il ne contient aucun constat indépendant sur ce que la personne désignée a fait sur place."
+  },
+  {
+   "key": "fax.reason.custody.other",
+   "value": "La source présentée n’a pas établi de lien suffisant entre la personne désignée et cette responsabilité."
+  },
+  {
+   "key": "interview.status.gone",
+   "value": "Plus disponible"
+  },
+  {
+   "key": "interview.goneNote",
+   "value": "La personne ne se présente plus aux auditions. Comme elle n’a pas été entendue plus tôt, aucune déposition d’elle ne figure au dossier."
+  },
+  {
+   "key": "career.epilogue",
+   "value": "Suites"
+  },
+  {
+   "key": "settings.textScale",
+   "value": "TAILLE DU TEXTE"
+  },
+  {
+   "key": "settings.textScale.hint",
+   "value": "La taille du texte à l’écran."
+  },
+  {
+   "key": "settings.textScale.0",
+   "value": "Normale"
+  },
+  {
+   "key": "settings.textScale.0.hint",
+   "value": "Taille par défaut."
+  },
+  {
+   "key": "settings.textScale.1",
+   "value": "Grande"
+  },
+  {
+   "key": "settings.textScale.1.hint",
+   "value": "Quinze pour cent plus grand."
+  },
+  {
+   "key": "settings.textScale.2",
+   "value": "Très grande"
+  },
+  {
+   "key": "settings.textScale.2.hint",
+   "value": "Trente pour cent plus grand ; certaines lignes peuvent se décaler."
+  },
+  {
+   "key": "settings.shapes",
+   "value": "Formes de repère"
+  },
+  {
+   "key": "settings.shapes.hint",
+   "value": "Les repères distingués par la couleur reçoivent aussi une forme (▲ ● ■)."
+  },
+  {
+   "key": "settings.ash",
+   "value": "Fumée du cendrier"
+  },
+  {
+   "key": "settings.ash.hint",
+   "value": "Un mince filet de fumée s’élève du bureau. Ambiance uniquement."
+  },
+  {
+   "key": "settings.crt",
+   "value": "Écran CRT (expérimental)"
+  },
+  {
+   "key": "settings.crt.hint",
+   "value": "Donne à l’écran une légère courbure et des lignes de balayage. Peut ralentir certains appareils."
+  },
+  {
+   "key": "settings.devMeter",
+   "value": "Compteur d’images"
+  },
+  {
+   "key": "settings.devMeter.hint",
+   "value": "Affiche les ips dans le coin en version de développement."
+  },
+  {
+   "key": "cctv.frameBack",
+   "value": "‹ IMAGE"
+  },
+  {
+   "key": "terminal.connecting",
+   "value": "CONNEXION"
+  },
+  {
+   "key": "case.closed",
+   "value": "DOSSIER CLOS"
+  },
+  {
+   "key": "ink.draw",
+   "value": "Dessiner"
+  },
+  {
+   "key": "ink.clear",
+   "value": "Effacer"
+  },
+  {
+   "key": "cctv.compare",
+   "value": "Épingler l’image dans le coin"
+  },
+  {
+   "key": "search.recent",
+   "value": "RÉCENT :"
+  },
+  {
+   "key": "slot.hours",
+   "value": " h"
+  },
+  {
+   "key": "slot.minutes",
+   "value": " min"
+  },
+  {
+   "key": "settings.captions",
+   "value": "Sous-titres sonores"
+  },
+  {
+   "key": "settings.captions.hint",
+   "value": "Les sons lointains s’affichent aussi en texte en bas de l’écran."
+  },
+  {
+   "key": "settings.spacing",
+   "value": "Espacement large"
+  },
+  {
+   "key": "settings.spacing.hint",
+   "value": "L’espacement des lettres et des mots s’élargit ; la lecture est plus facile."
+  },
+  {
+   "key": "settings.contrast",
+   "value": "Contraste élevé"
+  },
+  {
+   "key": "settings.contrast.hint",
+   "value": "La couleur du texte ressort davantage sur le fond."
+  },
+  {
+   "key": "settings.oneHand",
+   "value": "À une main"
+  },
+  {
+   "key": "settings.oneHand.hint",
+   "value": "Le bouton retour apparaît aussi en bas à droite."
+  },
+  {
+   "key": "settings.hapticStrength.0",
+   "value": "Légère"
+  },
+  {
+   "key": "settings.hapticStrength.1",
+   "value": "Moyenne"
+  },
+  {
+   "key": "settings.hapticStrength.2",
+   "value": "Forte"
+  },
+  {
+   "key": "settings.hapticStrength.hint",
+   "value": "Force de la vibration."
+  },
+  {
+   "key": "settings.devLab",
+   "value": "LABORATOIRE D’EFFETS"
+  },
+  {
+   "key": "caption.amb_siren",
+   "value": "sirène au loin"
+  },
+  {
+   "key": "caption.amb_dog",
+   "value": "un chien aboie au loin"
+  },
+  {
+   "key": "caption.amb_radio",
+   "value": "grésillement de radio dans le couloir"
+  },
+  {
+   "key": "caption.amb_phone",
+   "value": "un téléphone sonne dans une autre pièce"
+  },
+  {
+   "key": "caption.amb_typing",
+   "value": "machine à écrire dans la pièce voisine"
+  },
+  {
+   "key": "caption.amb_thunder",
+   "value": "le tonnerre gronde"
+  },
+  {
+   "key": "caption.amb_steps",
+   "value": "des pas dans le couloir"
+  },
+  {
+   "key": "caption.amb_car",
+   "value": "une voiture passe dehors"
+  },
+  {
+   "key": "settings.color.0",
+   "value": "Couleur : normale"
+  },
+  {
+   "key": "settings.color.1",
+   "value": "Protanopie"
+  },
+  {
+   "key": "settings.color.2",
+   "value": "Deutéranopie"
+  },
+  {
+   "key": "settings.color.3",
+   "value": "Tritanopie"
+  },
+  {
+   "key": "settings.color.hint",
+   "value": "Les écarts de couleur sont déplacés vers les canaux visibles. S’applique à tout l’écran, images comprises."
+  },
+  {
+   "key": "credits.0",
+   "value": "KARINE"
+  },
+  {
+   "key": "credits.1",
+   "value": "Un jeu Bube Digital"
+  },
+  {
+   "key": "credits.2",
+   "value": "Merci d’avoir joué."
+  },
+  {
+   "key": "caption.amb_steps_tile",
+   "value": "des pas dans le couloir"
+  },
+  {
+   "key": "settings.lamp.0",
+   "value": "Lampe : chaude"
+  },
+  {
+   "key": "settings.lamp.1",
+   "value": "Lampe : banquier verte"
+  },
+  {
+   "key": "settings.lamp.2",
+   "value": "Lampe : fluorescente"
+  },
+  {
+   "key": "settings.lamp.3",
+   "value": "Lampe : ambre"
+  },
+  {
+   "key": "settings.lamp.4",
+   "value": "Lampe : néon rouge"
+  },
+  {
+   "key": "settings.lamp.5",
+   "value": "Lampe : violet de nuit"
+  },
+  {
+   "key": "settings.lamp.hint",
+   "value": "La couleur de la lampe de bureau. Apparence uniquement."
+  },
+  {
+   "key": "settings.lamp.next",
+   "value": "Suivante · aperçu"
+  },
+  {
+   "key": "settings.lamp.later",
+   "value": "Verrouillée · aperçu"
+  },
+  {
+   "key": "settings.lamp.order",
+   "value": "Aperçu. Cette couleur se débloque dans l’ordre ; « {0} » d’abord."
+  },
+  {
+   "key": "settings.lamp.preview",
+   "value": "Aperçu"
+  },
+  {
+   "key": "settings.lamp.preview.hint",
+   "value": "Voici l’aspect de la lampe de bureau. Débloque-la pour la garder."
+  },
+  {
+   "key": "settings.lamp.unlock",
+   "value": "Débloquer avec une pub"
+  },
+  {
+   "key": "settings.lamp.locked",
+   "value": "Débloque-la en regardant une courte pub. Apparence uniquement."
+  },
+  {
+   "key": "ads.skipWait",
+   "value": "Regarder une pub, l’obtenir tout de suite"
+  },
+  {
+   "key": "settings.tab.sound",
+   "value": "Son"
+  },
+  {
+   "key": "settings.tab.sound.hint",
+   "value": "Musique et effets"
+  },
+  {
+   "key": "settings.tab.display",
+   "value": "Affichage"
+  },
+  {
+   "key": "settings.tab.display.hint",
+   "value": "Effets et écran"
+  },
+  {
+   "key": "settings.tab.access",
+   "value": "Accessibilité"
+  },
+  {
+   "key": "settings.tab.access.hint",
+   "value": "Lecture et commandes"
+  },
+  {
+   "key": "settings.colorFilter",
+   "value": "Filtre de couleur"
+  },
+  {
+   "key": "settings.lampTint",
+   "value": "Couleur de la lampe"
+  },
+  {
+   "key": "settings.hapticPower",
+   "value": "Force de la vibration"
+  },
+  {
+   "key": "settings.career",
+   "value": "Carrière"
+  },
+  {
+   "key": "settings.career.hint",
+   "value": "Supprime la carrière enregistrée et recommence à zéro."
+  },
+  {
+   "key": "loading.label",
+   "value": "CHARGEMENT"
+  },
+  {
+   "key": "loading.tip.0",
+   "value": "Tu ne peux présenter un enregistrement à quelqu’un que si son nom y figure."
+  },
+  {
+   "key": "loading.tip.1",
+   "value": "Une déposition peut ouvrir une nouvelle source ; y aller dépend de toi. Ouvre toi-même les dossiers sur le bureau."
+  },
+  {
+   "key": "loading.tip.2",
+   "value": "Quand tu envoies ton rapport, fonde ta conclusion sur les preuves rassemblées."
+  },
+  {
+   "key": "loading.tip.3",
+   "value": "Tu peux changer la taille du texte, l’intensité des effets et le son dans Réglages."
+  },
+  {
+   "key": "loading.tip.4",
+   "value": "Joue avec un casque : la pluie, les pas dans le couloir et le téléphone font aussi partie de la pièce."
+  },
+  {
+   "key": "loading.tip.5",
+   "value": "Ne te presse pas. Avant qu’un dossier ne se ferme, tu peux reconsidérer la même question avec d’autres enregistrements."
+  },
+  {
+   "key": "loading.term.0",
+   "value": "Déposition : ce qu’une personne déclare de sa propre bouche. Tant qu’aucune preuve ne l’étaye, ce n’est qu’une affirmation."
+  },
+  {
+   "key": "loading.term.1",
+   "value": "Preuve : un enregistrement ou un objet concret qui atteste d’un fait. Quand elle contredit une déposition, c’est la preuve qui pèse."
+  },
+  {
+   "key": "loading.term.2",
+   "value": "Présomption d’innocence : chacun est présumé innocent tant que sa culpabilité n’est pas prouvée. Le soupçon seul n’est pas une conclusion."
+  },
+  {
+   "key": "loading.term.3",
+   "value": "Le doute profite à l’accusé : si les preuves n’établissent pas clairement une conclusion, la décision n’est pas prise contre la personne accusée."
+  },
+  {
+   "key": "loading.term.4",
+   "value": "Chronologie : ordonner les faits par heure rend visibles les vides entre les dépositions."
+  },
+  {
+   "key": "loading.term.5",
+   "value": "Témoin oculaire : personne qui a vu les faits de ses propres yeux. Un témoin indirect rapporte ce qu’il a entendu d’autrui."
+  },
+  {
+   "key": "loading.term.6",
+   "value": "Contre-interrogatoire : éprouver une déposition en la confrontant à un autre enregistrement. Tu ne peux présenter un enregistrement que si la personne y est nommée."
+  },
+  {
+   "key": "loading.term.7",
+   "value": "Chaîne de conservation : la trace de qui a détenu une preuve depuis sa découverte jusqu’à son entrée au dossier."
+  },
+  {
+   "key": "loading.term.8",
+   "value": "Conclusion motivée : un rapport doit répondre non seulement à « qui », mais aussi à « sur quelle preuve »."
+  },
+  {
+   "key": "loading.term.9",
+   "value": "Une accusation injuste coûte plus cher qu’un rapport incomplet. Si tu n’es pas sûr, élargis les preuves."
+  },
+  {
+   "key": "loading.term.10",
+   "value": "Alibi : l’affirmation que la personne était ailleurs au moment des faits. Tant qu’il n’est pas vérifié, c’est une déposition."
+  },
+  {
+   "key": "loading.term.11",
+   "value": "Procès-verbal : la trace écrite officielle d’une audition ou d’un acte. Ce qui a été dit peut être comparé à ce qui a été écrit."
+  },
+  {
+   "key": "loading.term.12",
+   "value": "Un enregistrement vidéo ne montre pas tout : les angles morts et les coupures de signal sont aussi des informations."
+  },
+  {
+   "key": "loading.term.13",
+   "value": "Lieu des faits : l’endroit où le crime a été commis ou où ses traces ont été trouvées. Les lieux mentionnés dans les enregistrements se lisent par rapport à lui."
+  },
+  {
+   "key": "about.subtitle",
+   "value": "À propos du jeu et de ses créateurs."
+  },
+  {
+   "key": "about.version",
+   "value": "VERSION"
+  },
+  {
+   "key": "about.madeBy",
+   "value": "UNE PRODUCTION"
+  },
+  {
+   "key": "about.credits",
+   "value": "Crédits"
+  },
+  {
+   "key": "about.credit.studio",
+   "value": "Production"
+  },
+  {
+   "key": "about.credit.fonts",
+   "value": "Polices"
+  },
+  {
+   "key": "about.credit.fonts.detail",
+   "value": "Bebas Neue (titres), Chakra Petch (textes). SIL Open Font License."
+  },
+  {
+   "key": "about.links",
+   "value": "Liens"
+  },
+  {
+   "key": "about.rights",
+   "value": "Tous droits réservés."
+  },
+  {
+   "key": "about.link.privacy",
+   "value": "Politique de confidentialité"
+  },
+  {
+   "key": "about.link.privacy.hint",
+   "value": "Découvre comment tes données sont traitées."
+  },
+  {
+   "key": "about.link.feedback",
+   "value": "Avis"
+  },
+  {
+   "key": "about.link.feedback.hint",
+   "value": "Partage tes impressions et suggestions avec nous."
+  },
+  {
+   "key": "inbox.unreadCount",
+   "value": "{0} documents non lus"
+  },
+  {
+   "key": "inbox.fresh",
+   "value": "Nouveau"
+  },
+  {
+   "key": "inbox.back",
+   "value": "Retour"
+  },
+  {
+   "key": "offer.unit",
+   "value": "Unité d’enquête"
+  },
+  {
+   "key": "offer.place",
+   "value": "Lieu"
+  },
+  {
+   "key": "offer.state",
+   "value": "État"
+  },
+  {
+   "key": "offer.accept.hint",
+   "value": "Le premier rapport arrive sur ton bureau."
+  },
+  {
+   "key": "file.folder.report",
+   "value": "Rapport"
+  },
+  {
+   "key": "file.folder.evidence",
+   "value": "Preuves"
+  },
+  {
+   "key": "file.folder.interview",
+   "value": "Auditions"
+  },
+  {
+   "key": "file.folder.timeline",
+   "value": "Chronologie"
+  },
+  {
+   "key": "file.unit",
+   "value": "Unité d’enquête"
+  },
+  {
+   "key": "file.interviewTitle",
+   "value": "Procès-verbal d’audition"
+  },
+  {
+   "key": "file.row.interview",
+   "value": "Procès-verbal d’audition"
+  },
+  {
+   "key": "file.row.evidence",
+   "value": "Document"
+  },
+  {
+   "key": "file.meta.speaker",
+   "value": "Personne entendue"
+  },
+  {
+   "key": "interview.presentedStamp",
+   "value": "Présenté"
+  },
+  {
+   "key": "timeline.listTitle",
+   "value": "Chronologie des faits"
+  },
+  {
+   "key": "timeline.addTitle",
+   "value": "Événements à ajouter"
+  },
+  {
+   "key": "timeline.addHelp",
+   "value": "C’est toi qui ajoutes à ta chronologie les heures mentionnées dans les sources."
+  },
+  {
+   "key": "file.folder.visual",
+   "value": "Images"
+  },
+  {
+   "key": "file.folder.compare",
+   "value": "Comparer"
+  },
+  {
+   "key": "file.folder.search",
+   "value": "Parcourir le dossier"
+  },
+  {
+   "key": "file.folder.conclude",
+   "value": "Conclusion"
+  },
+  {
+   "key": "requests.waiting",
+   "value": "En attente"
+  },
+  {
+   "key": "requests.waitTitle",
+   "value": "Audition en attente"
+  },
+  {
+   "key": "requests.waitText",
+   "value": "Demande transmise. On contacte la personne."
+  },
+  {
+   "key": "requests.lastStatement",
+   "value": "Dernière déposition"
+  },
+  {
+   "key": "requests.note",
+   "value": "Note"
+  },
+  {
+   "key": "requests.docHeading",
+   "value": "Demande d’examen"
+  },
+  {
+   "key": "requests.description",
+   "value": "Description"
+  },
+  {
+   "key": "requests.status",
+   "value": "État"
+  },
+  {
+   "key": "requests.result",
+   "value": "Résultat"
+  },
+  {
+   "key": "requests.resultText",
+   "value": "Arrive au Courrier entrant"
+  },
+  {
+   "key": "requests.openReport",
+   "value": "Ouvrir le rapport"
+  },
+  {
+   "key": "requests.docWaitTitle",
+   "value": "Examen en cours"
+  },
+  {
+   "key": "requests.docWaitText",
+   "value": "Quand le rapport sera prêt, il arrivera au Courrier entrant."
+  },
+  {
+   "key": "career.backToCareer",
+   "value": "Retour à la carrière"
+  },
+  {
+   "key": "career.evaluatedAt",
+   "value": "Évaluation"
+  },
+  {
+   "key": "career.stamp.verified",
+   "value": "Rapport validé"
+  },
+  {
+   "key": "career.stamp.rejected",
+   "value": "Rapport rejeté"
+  },
+  {
+   "key": "career.sentReport",
+   "value": "Rapport envoyé"
+  },
+  {
+   "key": "career.basis",
+   "value": "Fondement"
+  },
+  {
+   "key": "career.trustState",
+   "value": "État de la confiance"
+  },
+  {
+   "key": "career.recordTitle",
+   "value": "Dossier de carrière"
+  },
+  {
+   "key": "intro.welcome.body",
+   "value": "Bora, bienvenue dans l’unité. Le premier dossier sur ton bureau est désormais le tien. Lis les enregistrements toi-même, pose les questions nécessaires et rédige ta décision avec ses motifs. Quand tu enverras ton rapport, notre évaluation arrivera par fax. Bon courage."
+  },
+  {
+   "key": "intro.welcome.sign",
+   "value": "— Directeur du Département"
+  },
+  {
+   "key": "fax.screen",
+   "value": "Évaluation"
+  },
+  {
+   "key": "fax.from",
+   "value": "De : Commission d’évaluation"
+  },
+  {
+   "key": "fax.col.topic",
+   "value": "Objet"
+  },
+  {
+   "key": "fax.col.detail",
+   "value": "Dans le rapport"
+  },
+  {
+   "key": "fax.col.verdict",
+   "value": "Évaluation"
+  },
+  {
+   "key": "fax.seal",
+   "value": "Commission d’évaluation"
+  },
+  {
+   "key": "tablet.warrantDenied",
+   "value": "Fondements supplémentaires requis"
+  },
+  {
+   "key": "requests.warrantHeading",
+   "value": "Demande d’autorisation d’examen"
+  },
+  {
+   "key": "requests.warrantHelp",
+   "value": "Cette zone ne peut pas être examinée sans autorisation. Motive ta demande avec des fondements choisis parmi les sources lues dans le dossier."
+  },
+  {
+   "key": "requests.warrantBasis",
+   "value": "Sources invoquées"
+  },
+  {
+   "key": "requests.warrantBasisHelp",
+   "value": "Choisis {0} sources."
+  },
+  {
+   "key": "requests.warrantChoose",
+   "value": "Choisis encore {0} fondements"
+  },
+  {
+   "key": "requests.warrantSend",
+   "value": "Envoyer la demande"
+  },
+  {
+   "key": "requests.warrantWaitTitle",
+   "value": "Demande en cours d’examen"
+  },
+  {
+   "key": "requests.warrantWaitText",
+   "value": "Le résultat arrivera au Courrier entrant."
+  },
+  {
+   "key": "requests.warrantDeniedTitle",
+   "value": "Fondements supplémentaires requis"
+  },
+  {
+   "key": "requests.warrantDeniedText",
+   "value": "La demande n’a pas été approuvée sur les fondements présentés. Tu peux la renvoyer avec d’autres sources."
+  },
+  {
+   "key": "file.reopenedStamp",
+   "value": "ROUVERT"
+  },
+  {
+   "key": "archive.stamp.cold",
+   "value": "AFFAIRE NON RÉSOLUE"
+  },
+  {
+   "key": "requests.linkHeading",
+   "value": "DEMANDE DE RAPPROCHEMENT"
+  },
+  {
+   "key": "requests.linkHelp",
+   "value": "Tu demandes que deux fiches d’incident soient réunies dans le même dossier d’enquête. La demande est évaluée sur les fondements que tu choisis."
+  },
+  {
+   "key": "requests.linkBasis",
+   "value": "Fondements du rapprochement"
+  },
+  {
+   "key": "requests.linkSend",
+   "value": "Envoyer la demande de rapprochement"
+  },
+  {
+   "key": "requests.linkWaitTitle",
+   "value": "Demande de rapprochement en cours d’examen"
+  },
+  {
+   "key": "requests.linkWaitText",
+   "value": "Les fondements sont en cours d’examen. Le résultat arrivera au courrier entrant."
+  },
+  {
+   "key": "requests.linkDeniedTitle",
+   "value": "Incidents non réunis"
+  },
+  {
+   "key": "requests.linkDeniedText",
+   "value": "Les fondements choisis n’ont pas été jugés suffisants pour traiter les deux incidents dans le même dossier. Tu peux refaire la demande avec d’autres fondements."
+  },
+  {
+   "key": "requests.archiveHeading",
+   "value": "DEMANDE DE RECHERCHE D’ARCHIVES"
+  },
+  {
+   "key": "requests.archiveHelp",
+   "value": "Tu demandes une recherche dans les anciennes fiches. Elle se limite à la période et au lieu désignés par les fondements choisis."
+  },
+  {
+   "key": "requests.archiveBasis",
+   "value": "Fondements de la recherche"
+  },
+  {
+   "key": "requests.archiveSend",
+   "value": "Envoyer la demande de recherche"
+  },
+  {
+   "key": "requests.archiveWaitTitle",
+   "value": "Recherche dans les archives"
+  },
+  {
+   "key": "requests.archiveWaitText",
+   "value": "Les anciennes fiches sont examinées à la main. Le résultat arrivera au courrier entrant."
+  },
+  {
+   "key": "requests.archiveDeniedTitle",
+   "value": "Aucune fiche trouvée"
+  },
+  {
+   "key": "requests.archiveDeniedText",
+   "value": "La recherche n’a pas pu être resserrée avec les fondements choisis ; aucune fiche correspondante. Tu peux refaire la demande avec d’autres fondements."
+  },
+  {
+   "key": "tablet.lineActive",
+   "value": "Piste ouverte"
+  },
+  {
+   "key": "tablet.lineClosed",
+   "value": "Piste fermée"
+  },
+  {
+   "key": "requests.lineHeading",
+   "value": "PISTE D’ENQUÊTE"
+  },
+  {
+   "key": "requests.lineHelp",
+   "value": "Tu demandes l’attribution de moyens du département à cette piste. Si elle s’ouvre, tu pourras demander un par un les enregistrements qui en dépendent. Le nombre de pistes ouvertes en même temps est limité."
+  },
+  {
+   "key": "requests.lineBasis",
+   "value": "Fondements de la piste"
+  },
+  {
+   "key": "requests.lineSend",
+   "value": "Ouvrir la piste"
+  },
+  {
+   "key": "requests.lineWaitTitle",
+   "value": "Piste en cours d’examen"
+  },
+  {
+   "key": "requests.lineWaitText",
+   "value": "Attribution des moyens en attente. Le résultat arrivera au courrier entrant."
+  },
+  {
+   "key": "requests.lineDeniedTitle",
+   "value": "Piste non ouverte"
+  },
+  {
+   "key": "requests.lineDeniedText",
+   "value": "Les fondements choisis n’ont pas été jugés suffisants pour attribuer des moyens à cette piste. Tu peux refaire la demande avec d’autres fondements."
+  },
+  {
+   "key": "requests.lineSlots",
+   "value": "Pistes ouvertes"
+  },
+  {
+   "key": "requests.lineSlotsValue",
+   "value": "{0} / {1}"
+  },
+  {
+   "key": "requests.lineOpenTitle",
+   "value": "Piste ouverte"
+  },
+  {
+   "key": "requests.lineOpenText",
+   "value": "Tu peux demander les enregistrements de cette piste. Si tu la fermes, ceux déjà reçus restent au dossier ; aucun nouveau ne pourra être demandé."
+  },
+  {
+   "key": "requests.lineClose",
+   "value": "Fermer la piste"
+  },
+  {
+   "key": "requests.lineClosedTitle",
+   "value": "Piste fermée"
+  },
+  {
+   "key": "requests.lineClosedText",
+   "value": "Les enregistrements de cette piste restent au dossier. La rouvrir oblige à attendre une nouvelle attribution de moyens."
+  },
+  {
+   "key": "requests.lineReopen",
+   "value": "Rouvrir la piste"
+  },
+  {
+   "key": "requests.lineFull",
+   "value": "Limite de pistes atteinte"
+  },
+  {
+   "key": "requests.lineFullTitle",
+   "value": "Limite de pistes atteinte"
+  },
+  {
+   "key": "requests.lineFullText",
+   "value": "Pour ouvrir une nouvelle piste, tu dois en fermer une."
+  },
+  {
+   "key": "envelope.confidential",
+   "value": "CONFIDENTIEL"
+  },
+  {
+   "key": "career.authority",
+   "value": "Niveau d’habilitation"
+  },
+  {
+   "key": "career.authorityExpanded",
+   "value": "ÉLARGI"
+  },
+  {
+   "key": "recon.heading",
+   "value": "Reconstitution des faits"
+  },
+  {
+   "key": "recon.help",
+   "value": "Range les cartes dans l’ordre où les faits se sont produits et relie chaque carte à l’enregistrement sur lequel elle repose. Déduis toi-même les heures des enregistrements."
+  },
+  {
+   "key": "recon.pool",
+   "value": "Cartes non placées"
+  },
+  {
+   "key": "recon.noSource",
+   "value": "Aucune source reliée — touche la carte"
+  },
+  {
+   "key": "recon.sourceHeading",
+   "value": "Relier une source"
+  },
+  {
+   "key": "recon.sourceHelp",
+   "value": "Choisis l’enregistrement qui montre que cette carte a eu lieu."
+  },
+  {
+   "key": "recon.summary",
+   "value": "{0} cartes placées"
+  },
+  {
+   "key": "recon.fax.supported",
+   "value": "L’ordre des faits et leurs fondements concordent avec les enregistrements."
+  },
+  {
+   "key": "recon.fax.unsupported",
+   "value": "L’ordre des faits ou leurs fondements ne concordent pas avec les enregistrements."
+  },
+  {
+   "key": "finale.morning",
+   "value": "Le lendemain matin."
+  },
+  {
+   "key": "finale.call.1",
+   "value": "— Bora ?"
+  },
+  {
+   "key": "finale.call.2",
+   "value": "— Oui."
+  },
+  {
+   "key": "finale.call.3",
+   "value": "— L’évaluation du dossier Kor est terminée."
+  },
+  {
+   "key": "finale.call.4",
+   "value": "— Je vous écoute."
+  },
+  {
+   "key": "finale.call.5",
+   "value": "— Il faut que tu viennes."
+  },
+  {
+   "key": "finale.personnel",
+   "value": "ÉVALUATION DU PERSONNEL — BORA"
+  },
+  {
+   "key": "finale.personnelBody",
+   "value": "Les prérogatives d’enquête ont été élargies. L’évaluation multi-incidents, les demandes d’examen indépendantes et l’accès entre dossiers ont été approuvés. Une nouvelle affectation a été jugée appropriée."
+  },
+  {
+   "key": "finale.program",
+   "value": "PROGRAMME DE LIAISON INTERNATIONALE"
+  },
+  {
+   "key": "finale.closeFile",
+   "value": "Fermer le document"
+  },
+  {
+   "key": "finale.complete",
+   "value": "{0} TERMINÉ"
+  },
+  {
+   "key": "finale.sealed",
+   "value": "SCELLÉ"
+  },
+  {
+   "key": "finale.state.approved",
+   "value": "Approuvé"
+  },
+  {
+   "key": "finale.state.reviewed",
+   "value": "Évalué"
+  },
+  {
+   "key": "finale.state.none",
+   "value": "—"
+  },
+  {
+   "key": "finale.country.tr",
+   "value": "TÜRKİYE"
+  },
+  {
+   "key": "finale.country.uk",
+   "value": "ROYAUME-UNI"
+  },
+  {
+   "key": "finale.progress.tr",
+   "value": "10 / 10"
+  },
+  {
+   "key": "finale.file.011",
+   "value": "DOSSIER 011"
+  },
+  {
+   "key": "requests.scopeHeading",
+   "value": "Élargir le périmètre du dossier"
+  },
+  {
+   "key": "requests.scopeHelp",
+   "value": "Si tu penses qu’un autre incident est lié à ce dossier, tu demandes officiellement son inclusion. La demande est évaluée sur les fondements que tu choisis."
+  },
+  {
+   "key": "requests.scopeBasis",
+   "value": "Fondements du périmètre"
+  },
+  {
+   "key": "requests.scopeSend",
+   "value": "Envoyer la demande de périmètre"
+  },
+  {
+   "key": "requests.scopeWaitTitle",
+   "value": "Demande de périmètre en cours d’examen"
+  },
+  {
+   "key": "requests.scopeWaitText",
+   "value": "Les fondements sont en cours d’examen. Le résultat arrivera au courrier entrant."
+  },
+  {
+   "key": "requests.scopeDeniedTitle",
+   "value": "Incident non inclus dans le dossier"
+  },
+  {
+   "key": "requests.scopeDeniedText",
+   "value": "Les fondements choisis n’ont pas été jugés suffisants pour inclure l’incident dans ce dossier. Tu peux refaire la demande avec d’autres fondements."
+  },
+  {
+   "key": "finale.uk.call.3",
+   "value": "— L’évaluation du dossier du Pont est terminée."
+  },
+  {
+   "key": "finale.uk.call.5",
+   "value": "— Berlin te demande. La piste de l’argent s’arrête là-bas."
+  },
+  {
+   "key": "finale.uk.personnelBody",
+   "value": "La mission à l’antenne du Royaume-Uni a été menée à bien. L’enquête qui a conduit à la réouverture de six dossiers clos a été approuvée. La piste de l’argent menant à Berlin, l’affectation a été transférée à l’antenne bube de Berlin."
+  },
+  {
+   "key": "finale.progress.uk",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.de",
+   "value": "ALLEMAGNE"
+  },
+  {
+   "key": "finale.file.018",
+   "value": "DOSSIER 018"
+  },
+  {
+   "key": "intro.world03.city",
+   "value": "Berlin — antenne de Kreuzberg"
+  },
+  {
+   "key": "finale.de.call.3",
+   "value": "— L’évaluation du dossier du Registre est terminée."
+  },
+  {
+   "key": "finale.de.call.5",
+   "value": "— La dernière page désigne Tokyo. Ton avion part demain matin."
+  },
+  {
+   "key": "finale.de.personnelBody",
+   "value": "La mission à l’antenne d’Allemagne a été menée à bien. Le registre Arendt a été admis comme preuve, et des dossiers clos à Londres et à Berlin ont été rouverts. Le dernier destinataire du registre se trouvant à Tokyo, l’affectation a été transférée à l’antenne bube de Tokyo."
+  },
+  {
+   "key": "finale.progress.de",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.jp",
+   "value": "JAPON"
+  },
+  {
+   "key": "finale.file.025",
+   "value": "DOSSIER 025"
+  },
+  {
+   "key": "intro.world04.city",
+   "value": "Tokyo — antenne de Nihonbashi"
+  },
+  {
+   "key": "finale.jp.call.3",
+   "value": "— L’évaluation du dossier Kisaragi est terminée."
+  },
+  {
+   "key": "finale.jp.call.5",
+   "value": "— Il y a une vente aux enchères à Paris. Au catalogue, un bol de Kamakura."
+  },
+  {
+   "key": "finale.jp.personnelBody",
+   "value": "La mission à l’antenne du Japon a été menée à bien. Le rôle de Kisaragi Shōji dans le registre Arendt a été documenté comme celui d’un intermédiaire, et les dossiers clos à Tokyo ont été réévalués. La piste des biens et des virements menant à Paris, l’affectation a été confiée à l’antenne bube de Paris — Belleville."
+  },
+  {
+   "key": "finale.progress.jp",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.fr",
+   "value": "FRANCE"
+  },
+  {
+   "key": "finale.file.032",
+   "value": "DOSSIER 032"
+  },
+  {
+   "key": "intro.world05.city",
+   "value": "Paris — antenne de Belleville"
+  },
+  {
+   "key": "finale.fr.call.3",
+   "value": "— L’évaluation du dossier Delorme est terminée."
+  },
+  {
+   "key": "finale.fr.call.5",
+   "value": "— Il y a un entrepôt à Chicago, à Pilsen. Sur la porte, il est écrit Lakeshore."
+  },
+  {
+   "key": "finale.fr.personnelBody",
+   "value": "La mission à l’antenne de France a été menée à bien. Le rôle du service d’expédition de la Maison Delorme dans le registre Arendt a été documenté ; les dossiers du Lot 47, de Fontainebleau et du Marais ont été rattachés à la même chaîne. Les manifestes de Lakeshore Freight et les lettres de provenance signées par Dr. E. Varga menant à Chicago, l’affectation a été confiée à l’antenne bube de Chicago — Pilsen."
+  },
+  {
+   "key": "finale.progress.fr",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.us",
+   "value": "ÉTATS-UNIS"
+  },
+  {
+   "key": "finale.file.039",
+   "value": "DOSSIER 039"
+  },
+  {
+   "key": "intro.world06.city",
+   "value": "Chicago — antenne de Pilsen"
+  },
+  {
+   "key": "finale.us.call.3",
+   "value": "— L’évaluation du dossier Lakeshore est terminée."
+  },
+  {
+   "key": "finale.us.call.5",
+   "value": "— À Naples, sur le port, il y a une entreprise familiale. Un nom revient dans un enregistrement audio : Edda."
+  },
+  {
+   "key": "finale.us.personnelBody",
+   "value": "La mission à l’antenne des États-Unis a été menée à bien. Le rôle de Lakeshore Freight dans le registre Arendt a été documenté comme intermédiaire de transport et de blanchiment ; les dossiers de Pilsen, Bridgeport, du Loop et de Gold Coast ont été rattachés à la même chaîne. Les paiements et les expéditions menant au port de Naples, l’affectation a été confiée à l’antenne bube de Naples — Quartieri Spagnoli."
+  },
+  {
+   "key": "finale.progress.us",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.it",
+   "value": "ITALIE"
+  },
+  {
+   "key": "finale.file.046",
+   "value": "DOSSIER 046"
+  },
+  {
+   "key": "intro.world07.city",
+   "value": "Naples — antenne des Quartieri Spagnoli"
+  },
+  {
+   "key": "finale.it.call.3",
+   "value": "— L’évaluation du dossier Caruso est terminée."
+  },
+  {
+   "key": "finale.it.call.5",
+   "value": "— Il y a une fondation à Séville. Le nom d’une consultante figure sur la liste des administrateurs. Et un numéro espagnol qui ne répond pas."
+  },
+  {
+   "key": "finale.it.personnelBody",
+   "value": "La mission à l’antenne d’Italie a été menée à bien. Le rôle de Caruso Marittima dans le registre Arendt a été documenté comme intermédiaire portuaire, d’expédition et de faux documents ; les dossiers des Quartieri Spagnoli, de Forcella, de Montesanto, de San Gregorio Armeno, de Procida et du port ont été rattachés à la même chaîne. Les messages et les expéditions menant en Espagne, l’affectation a été confiée à l’antenne bube de Séville — Triana."
+  },
+  {
+   "key": "finale.progress.it",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.es",
+   "value": "ESPAGNE"
+  },
+  {
+   "key": "finale.file.053",
+   "value": "DOSSIER 053"
+  },
+  {
+   "key": "intro.world08.city",
+   "value": "Séville — antenne de Triana"
+  },
+  {
+   "key": "finale.es.call.3",
+   "value": "— L’évaluation du dossier Santa Ana est terminée."
+  },
+  {
+   "key": "finale.es.call.5",
+   "value": "— Il y a une société de réassurance à Montréal. Le nom du bénéficiaire ressemble beaucoup au nôtre. Vous l’avez remarqué aussi, n’est-ce pas ?"
+  },
+  {
+   "key": "finale.es.personnelBody",
+   "value": "La mission à l’antenne d’Espagne a été menée à bien. Les dons, ventes et honoraires de conseil versés par la Fundación Santa Ana depuis 1989 ont été documentés à travers les dossiers de Triana, du Guadalquivir, de la coopérative et des archives ; la consultante enregistrée a été identifiée comme Dr. Edda Varga. Les paiements menant à Montréal, l’affectation a été confiée à l’antenne bube de Montréal — Mile End."
+  },
+  {
+   "key": "finale.progress.es",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.ca",
+   "value": "CANADA"
+  },
+  {
+   "key": "finale.file.060",
+   "value": "DOSSIER 060"
+  },
+  {
+   "key": "intro.world09.city",
+   "value": "Montréal — antenne du Mile End"
+  },
+  {
+   "key": "finale.ca.call.3",
+   "value": "— L’évaluation du dossier Laurentide est terminée."
+  },
+  {
+   "key": "finale.ca.call.5",
+   "value": "— Pour la première fois, une réponse est venue de Melbourne. Un seul mot. L’antenne de Footscray vous attend."
+  },
+  {
+   "key": "finale.ca.personnelBody",
+   "value": "La mission à l’antenne du Canada a été menée à bien. Les polices de la branche « programmes spéciaux » de Laurentide Réassurance dans les dossiers du Mile End, de l’Aréna du Parc, de l’Entrepôt des Érablières, du Sous-Sol, de la rue Waverly et du Silo Lemoyne ont été documentées ; le bénéficiaire des indemnités a été identifié comme le « Programme de liaison internationale bube », dirigé par Edda Varga. Le dernier transfert menant en Australie, l’affectation a été confiée à l’antenne bube de Melbourne — Footscray."
+  },
+  {
+   "key": "finale.progress.ca",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.au",
+   "value": "AUSTRALIE"
+  },
+  {
+   "key": "finale.file.067",
+   "value": "DOSSIER 067"
+  },
+  {
+   "key": "intro.world10.city",
+   "value": "Melbourne — antenne de Footscray"
+  },
+  {
+   "key": "finale.au.call.1",
+   "value": "(Le téléphone ne sonne pas.)"
+  },
+  {
+   "key": "finale.au.call.2",
+   "value": "(Tu décroches. La ligne est ouverte ; il n’y a personne au bout.)"
+  },
+  {
+   "key": "finale.au.call.3",
+   "value": "— L’évaluation du dossier Liaison est terminée."
+  },
+  {
+   "key": "finale.au.call.4",
+   "value": "(Un long silence. Puis la ligne coupe.)"
+  },
+  {
+   "key": "finale.au.call.5",
+   "value": "(Sur le bureau, une enveloppe vide au cachet de Budapest. Expéditeur : E. V.)"
+  },
+  {
+   "key": "finale.au.personnelBody",
+   "value": "La mission à l’antenne d’Australie a été menée à bien. Le rôle du Pacific Liaison Trust dans les dossiers du marché aux poissons de Footscray, des écuries de Flemington, de la marina de Maribyrnong, de l’appel d’offres du tramway, du port de Williamstown et de Hopkins Street a été documenté ; le dossier fondateur du « Programme de liaison internationale », daté de 1989, a été transmis aux antennes de neuf pays. Le lieu où se trouve la directrice Dr. Edda Varga n’a pas pu être établi. Le dossier reste ouvert."
+  },
+  {
+   "key": "finale.progress.au",
+   "value": "7 / 7"
+  },
+  {
+   "key": "finale.country.archive",
+   "value": "ARCHIVES"
+  },
+  {
+   "key": "finale.file.end",
+   "value": "DOSSIER OUVERT"
+  },
+  {
+   "key": "settings.language",
+   "value": "Langue"
+  },
+  {
+   "key": "settings.language.hint",
+   "value": "La langue des textes du jeu. Les lignes non traduites s’affichent en anglais."
+  },
+  {
+   "key": "career.tab.record",
+   "value": "Dossier"
+  },
+  {
+   "key": "career.record.curve",
+   "value": "Évolution de la confiance"
+  },
+  {
+   "key": "career.record.start",
+   "value": "Début"
+  },
+  {
+   "key": "career.record.now",
+   "value": "Maintenant"
+  },
+  {
+   "key": "career.record.lowest",
+   "value": "Minimum"
+  },
+  {
+   "key": "career.record.highest",
+   "value": "Maximum"
+  },
+  {
+   "key": "career.record.ranks",
+   "value": "Changements de niveau"
+  },
+  {
+   "key": "career.record.began",
+   "value": "À l’entrée en fonction"
+  },
+  {
+   "key": "career.record.noChange",
+   "value": "Le niveau n’a pas encore changé."
+  },
+  {
+   "key": "career.record.countries",
+   "value": "Bilan par pays"
+  },
+  {
+   "key": "settings.tab.account",
+   "value": "Compte"
+  },
+  {
+   "key": "settings.tab.account.hint",
+   "value": "Connexion, sauvegardes et confidentialité"
+  },
+  {
+   "key": "settings.account.status",
+   "value": "État du compte"
+  },
+  {
+   "key": "account.status.guest",
+   "value": "Tu joues en tant qu’invité. Ta progression reste uniquement sur cet appareil ; elle est perdue si l’application est supprimée."
+  },
+  {
+   "key": "account.status.guestCloud",
+   "value": "Tu joues en tant qu’invité. Ta progression est conservée sur cet appareil et dans le cloud sous un identifiant de joueur aléatoire ; ni ton nom ni ton e-mail ne sont demandés."
+  },
+  {
+   "key": "account.delete.guestCloudHint",
+   "value": "Ta sauvegarde cloud, ton identifiant de joueur et ta progression sur cet appareil sont définitivement supprimés."
+  },
+  {
+   "key": "account.delete.guestCloudBody",
+   "value": "Ta sauvegarde cloud, ton identifiant de joueur et toute ta progression sur cet appareil seront définitivement supprimés. Cette action est irréversible."
+  },
+  {
+   "key": "account.playerId",
+   "value": "Identifiant de joueur"
+  },
+  {
+   "key": "account.nudge.form",
+   "value": "Avis de sauvegarde"
+  },
+  {
+   "key": "account.nudge.title",
+   "value": "Protège ta progression"
+  },
+  {
+   "key": "account.nudge.body",
+   "value": "Tu as clos ton premier dossier. Ta sauvegarde d’invité n’est liée qu’à cet appareil : si tu supprimes le jeu ou changes de téléphone, ta carrière est perdue. Associe ton compte Apple ou Google pour que ta progression te suive sur tous tes appareils."
+  },
+  {
+   "key": "account.nudge.stamp",
+   "value": "Recommandé"
+  },
+  {
+   "key": "account.nudge.later",
+   "value": "Plus tard"
+  },
+  {
+   "key": "account.nudge.link",
+   "value": "Associer le compte"
+  },
+  {
+   "key": "account.status.google",
+   "value": "Connecté avec Google Play Jeux. Ta progression est sauvegardée dans le cloud."
+  },
+  {
+   "key": "account.status.apple",
+   "value": "Connecté avec Apple. Ta progression est sauvegardée dans le cloud."
+  },
+  {
+   "key": "account.title",
+   "value": "Registre d’enquête"
+  },
+  {
+   "key": "account.body",
+   "value": "Connecte-toi pour protéger ta progression et la reprendre sur un autre appareil. La connexion n’est pas obligatoire : en invité, tu joues au jeu entier et tu pourras associer un compte plus tard dans Réglages › Compte."
+  },
+  {
+   "key": "account.tagline",
+   "value": "Chaque présomption est une trace. Chaque trace mène-t-elle à la vérité ?|Le doute est un commencement. Pas un verdict.|Chaque preuve dit quelque chose. Aucune ne dit tout à elle seule.|La vérité se tient derrière ce qui se voit.|Une présomption n’est pas un verdict. C’est toi qui révèles la vérité."
+  },
+  {
+   "key": "account.or",
+   "value": "ou"
+  },
+  {
+   "key": "account.signin.google",
+   "value": "Se connecter avec Google"
+  },
+  {
+   "key": "account.signin.apple",
+   "value": "Se connecter avec Apple"
+  },
+  {
+   "key": "account.guest",
+   "value": "Continuer en invité"
+  },
+  {
+   "key": "account.link.google",
+   "value": "Associer un compte Google"
+  },
+  {
+   "key": "account.link.apple",
+   "value": "Associer un compte Apple"
+  },
+  {
+   "key": "account.link.hint",
+   "value": "Ta progression d’invité passe sur ce compte et est sauvegardée dans le cloud."
+  },
+  {
+   "key": "account.signout",
+   "value": "Se déconnecter"
+  },
+  {
+   "key": "account.signout.hint",
+   "value": "Ton compte et ta sauvegarde cloud restent ; cet appareil repasse en mode invité."
+  },
+  {
+   "key": "account.delete",
+   "value": "Supprimer le compte et les données"
+  },
+  {
+   "key": "account.delete.hint",
+   "value": "Ton compte, ta sauvegarde cloud et ta progression sur cet appareil sont définitivement supprimés."
+  },
+  {
+   "key": "account.delete.guestHint",
+   "value": "Ta progression d’invité sur cet appareil est définitivement supprimée."
+  },
+  {
+   "key": "account.delete.form",
+   "value": "Formulaire 99 · Destruction des données"
+  },
+  {
+   "key": "account.delete.title",
+   "value": "Tout supprimer ?"
+  },
+  {
+   "key": "account.delete.body",
+   "value": "Ton compte, ta sauvegarde cloud et toute ta progression sur cet appareil seront définitivement supprimés. Cette action est irréversible."
+  },
+  {
+   "key": "account.delete.guestBody",
+   "value": "Toute ta progression sur cet appareil sera définitivement supprimée. Cette action est irréversible."
+  },
+  {
+   "key": "account.delete.stamp",
+   "value": "DÉTRUIRE"
+  },
+  {
+   "key": "account.delete.confirm",
+   "value": "Supprimer définitivement"
+  },
+  {
+   "key": "account.delete.cancel",
+   "value": "Annuler"
+  },
+  {
+   "key": "account.deletionPage",
+   "value": "Demande de suppression en ligne"
+  },
+  {
+   "key": "account.deletionPage.hint",
+   "value": "Si tu ne peux pas ouvrir l’application, tu peux supprimer ton compte depuis cette page."
+  },
+  {
+   "key": "account.privacy",
+   "value": "Politique de confidentialité"
+  },
+  {
+   "key": "account.privacy.hint",
+   "value": "Quelles données nous gardons et pourquoi. Aucune donnée personnelle n’est vendue."
+  },
+  {
+   "key": "account.open",
+   "value": "Ouvrir"
+  },
+  {
+   "key": "account.notice.signedIn",
+   "value": "Connecté."
+  },
+  {
+   "key": "account.notice.signedOut",
+   "value": "Déconnecté. Tu joues en tant qu’invité."
+  },
+  {
+   "key": "account.notice.deleted",
+   "value": "Données supprimées."
+  },
+  {
+   "key": "account.notice.existing",
+   "value": "Ce compte avait déjà une sauvegarde ; elle a été chargée. Ta progression d’invité reste sur cet appareil."
+  },
+  {
+   "key": "account.error.unavailable",
+   "value": "La connexion n’est pas disponible sur cet appareil pour l’instant."
+  },
+  {
+   "key": "account.error.offline",
+   "value": "Impossible de joindre le serveur. Vérifie ta connexion et réessaie."
+  },
+  {
+   "key": "account.error.cancelled",
+   "value": "Connexion annulée."
+  },
+  {
+   "key": "account.error.failed",
+   "value": "La connexion n’a pas abouti. Réessaie."
+  },
+  {
+   "key": "store.noads",
+   "value": "Supprimer les pubs"
+  },
+  {
+   "key": "store.noads.hint",
+   "value": "Achat unique. Les pubs interstitielles et avec récompense disparaissent entièrement, et les couleurs de lampe verrouillées se débloquent."
+  },
+  {
+   "key": "store.noads.owned",
+   "value": "Acheté. Aucune pub dans le jeu."
+  },
+  {
+   "key": "notify.ready",
+   "value": "Un examen que tu as demandé est revenu."
+  },
+  {
+   "key": "store.priority.owned",
+   "value": "Acheté. Les examens arrivent sans attente."
+  },
+  {
+   "key": "store.priority.hint",
+   "value": "Les examens soumis à autorisation arrivent sans attente."
+  },
+  {
+   "key": "store.priority",
+   "value": "Priorité permanente"
+  },
+  {
+   "key": "ads.priority.free",
+   "value": "Prioriser · {0} étapes"
+  },
+  {
+   "key": "ads.priority",
+   "value": "Prioriser · {0} pubs"
+  },
+  {
+   "key": "store.buy",
+   "value": "Acheter"
+  },
+  {
+   "key": "store.restore",
+   "value": "Restaurer les achats"
+  },
+  {
+   "key": "store.restore.hint",
+   "value": "Réactive un achat fait auparavant avec le même compte de boutique."
+  },
+  {
+   "key": "store.restore.action",
+   "value": "Restaurer"
+  },
+  {
+   "key": "store.notice.bought",
+   "value": "Merci. Les pubs ont été supprimées."
+  },
+  {
+   "key": "store.notice.restored",
+   "value": "Ton achat a été restauré."
+  },
+  {
+   "key": "store.notice.nothing",
+   "value": "Aucun achat à restaurer sur ce compte de boutique."
+  },
+  {
+   "key": "store.error.unavailable",
+   "value": "La boutique est indisponible pour l’instant."
+  },
+  {
+   "key": "store.error.cancelled",
+   "value": "Achat annulé."
+  },
+  {
+   "key": "store.error.failed",
+   "value": "La transaction n’a pas abouti. Réessaie plus tard."
+  },
+  {
+   "key": "settings.cosmetic.preview.hint",
+   "value": "Voici l’aspect une fois l’écran redessiné. Débloque-le pour le garder."
+  },
+  {
+   "key": "settings.cosmetic.screen",
+   "value": "Couleur de l’écran"
+  },
+  {
+   "key": "settings.cosmetic.screen.hint",
+   "value": "La couleur du texte sur l’écran de l’ordinateur. Apparence uniquement."
+  },
+  {
+   "key": "settings.cosmetic.screen.0",
+   "value": "Blanc phosphore"
+  },
+  {
+   "key": "settings.cosmetic.screen.1",
+   "value": "Phosphore vert"
+  },
+  {
+   "key": "settings.cosmetic.screen.2",
+   "value": "Ambre"
+  },
+  {
+   "key": "settings.cosmetic.screen.3",
+   "value": "Bleu glacier"
+  },
+  {
+   "key": "settings.cosmetic.ink",
+   "value": "Encre des tampons"
+  },
+  {
+   "key": "settings.cosmetic.ink.hint",
+   "value": "L’encre des tampons des dossiers. Apparence uniquement."
+  },
+  {
+   "key": "settings.cosmetic.ink.0",
+   "value": "Rouge"
+  },
+  {
+   "key": "settings.cosmetic.ink.1",
+   "value": "Bleu marine"
+  },
+  {
+   "key": "settings.cosmetic.ink.2",
+   "value": "Noir"
+  },
+  {
+   "key": "settings.cosmetic.ink.3",
+   "value": "Vert"
+  },
+  {
+   "key": "settings.cosmetic.city",
+   "value": "Lumières de la ville"
+  },
+  {
+   "key": "settings.cosmetic.city.hint",
+   "value": "Les lumières de la ville nocturne derrière la fenêtre. Apparence uniquement."
+  },
+  {
+   "key": "settings.cosmetic.city.0",
+   "value": "Chaudes"
+  },
+  {
+   "key": "settings.cosmetic.city.1",
+   "value": "Sodium"
+  },
+  {
+   "key": "settings.cosmetic.city.2",
+   "value": "Froides"
+  },
+  {
+   "key": "settings.cosmetic.city.3",
+   "value": "Rose néon"
+  },
+  {
+   "key": "settings.cosmetic.film",
+   "value": "Teinte de film"
+  },
+  {
+   "key": "settings.cosmetic.film.hint",
+   "value": "La légère teinte de film sur l’écran. Apparence uniquement."
+  },
+  {
+   "key": "settings.cosmetic.film.0",
+   "value": "Sépia"
+  },
+  {
+   "key": "settings.cosmetic.film.1",
+   "value": "Bleu nuit"
+  },
+  {
+   "key": "settings.cosmetic.film.2",
+   "value": "Noir et blanc"
+  },
+  {
+   "key": "settings.cosmetic.film.3",
+   "value": "Bordeaux"
+  },
+  {
+   "key": "career.evaluation.lucky",
+   "value": "La conclusion est juste, mais le dossier ne l’étaye pas. La chance a tenu, cette fois."
+  },
+  {
+   "key": "career.rules.lucky",
+   "value": "Bonne conclusion, sans fondement"
+  },
+  {
+   "key": "credits.3",
+   "value": "À suivre."
+  },
+  {
+   "key": "update.form",
+   "value": "AVIS DE VERSION"
+  },
+  {
+   "key": "update.title",
+   "value": "Mise à jour requise"
+  },
+  {
+   "key": "update.body",
+   "value": "Cette version n’est plus prise en charge. Tes sauvegardes sont en sécurité ; mets le jeu à jour depuis la boutique pour continuer."
+  },
+  {
+   "key": "update.stamp",
+   "value": "METTRE À JOUR"
+  },
+  {
+   "key": "update.quit",
+   "value": "Quitter"
+  },
+  {
+   "key": "update.confirm",
+   "value": "Aller à la boutique"
+  },
+  {
+   "key": "paused.form",
+   "value": "AVIS DE DOSSIER"
+  },
+  {
+   "key": "paused.title",
+   "value": "Dossier temporairement fermé"
+  },
+  {
+   "key": "paused.body",
+   "value": "Une correction de ce dossier est en préparation. Ta progression est enregistrée ; tu reprendras là où tu t’es arrêté quand la mise à jour arrivera."
+  },
+  {
+   "key": "paused.stamp",
+   "value": "EN ATTENTE"
+  },
+  {
+   "key": "paused.back",
+   "value": "Menu principal"
+  },
+  {
+   "key": "paused.chapters",
+   "value": "Chapitres"
+  }
+ ]
+}
