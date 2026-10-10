@@ -16,13 +16,15 @@ public static partial class KarineUI {
   row.style.marginBottom=KarineTheme.SpaceMd;parent.Add(row);
   foreach(var tab in tabs) {
    var button=new Button(Sounded(tab.click)) {name="CareerTab"};
-   button.style.width=B.TabWidth;button.style.height=B.TabHeight;button.style.marginLeft=0;button.style.marginTop=0;button.style.marginBottom=0;
+   // Sekmeler satırı paylaşır: dar ekranda küçülür, hiçbiri dışarı taşmaz.
+   button.style.flexBasis=B.TabWidth;button.style.flexShrink=1;button.style.minWidth=0;button.style.height=B.TabHeight;button.style.marginLeft=0;button.style.marginTop=0;button.style.marginBottom=0;
    button.style.marginRight=KarineTheme.SpaceXs;
    Unskin(button,tab.selected?KarineTheme.Alpha(KarineTheme.Background,.92f):KarineTheme.Alpha(KarineTheme.Panel,.92f));
    Border(button,KarineTheme.BorderWidth,KarineTheme.Border);Round(button,KarineTheme.Radius);
    if(tab.selected){button.style.borderBottomWidth=3;button.style.borderBottomColor=KarineTheme.Accent;}
    var text=Write(button,tab.label.ToUpper(TextCulture),tab.selected?KarineTheme.Accent:KarineTheme.Secondary,B.TabSize,Heading);
    text.style.marginBottom=0;text.style.letterSpacing=1;text.style.unityTextAlign=TextAnchor.MiddleCenter;text.style.flexGrow=1;
+   text.style.whiteSpace=WhiteSpace.NoWrap;text.style.overflow=Overflow.Hidden;text.style.textOverflow=TextOverflow.Ellipsis;
    row.Add(button);
   }
   return row;

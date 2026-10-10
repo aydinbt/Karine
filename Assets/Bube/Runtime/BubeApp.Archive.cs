@@ -9,8 +9,9 @@ namespace Bube {
 // `BubeApp` tek bir MonoBehaviour'dur; bu dosya onun bir parçasıdır.
 public sealed partial class BubeApp {
  void ArchiveBar(string subtitle,Action redraw) {
-  Back(Desk);root.Clear();KarineUI.InboxScene(root);
-  KarineUI.DossierBar(root,T("back.desk"),T("archive.screen"),subtitle,Desk,out var tools);
+  // Arşiv kariyer sayfasından açılır; geri oraya döner, masaya değil.
+  Back(StatisticsPage);root.Clear();KarineUI.InboxScene(root);
+  KarineUI.DossierBar(root,T("menu.row.career"),T("archive.screen"),subtitle,StatisticsPage,out var tools);
   KarineUI.DossierTool(tools,"gear",T("menu.row.settings"),()=>SettingsFrom(redraw));
  }
  void ArchivePage() {
