@@ -1,7 +1,7 @@
 # Karine — hesabını ve verilerini sil
 
 Geliştirici: Bube Digital
-İletişim: [E-POSTA]
+İletişim: support@bubegames.com
 
 ## 1. Oyunun içinden (hemen)
 
@@ -11,7 +11,7 @@ Geliştirici: Bube Digital
 
 ## 2. Oyuna erişemiyorsan (e-postayla)
 
-[E-POSTA] adresine "Karine hesap silme" konulu bir e-posta gönder.
+support@bubegames.com adresine "Karine hesap silme" konulu bir e-posta gönder.
 
 Biliyorsan, Ayarlar › Hesap'ta görünen oyuncu kimliğini de ekle. Senden ad ya da e-posta almadığımız için kimlik olmadan hesabı bulamayabiliriz.
 
@@ -36,7 +36,7 @@ Google sunucularındaki teknik kayıtlar en fazla [N] gün içinde kendiliğinde
 # Karine — delete your account and data
 
 Developer: Bube Digital
-Contact: [EMAIL]
+Contact: support@bubegames.com
 
 ## 1. In the game (immediate)
 
@@ -46,7 +46,7 @@ Contact: [EMAIL]
 
 ## 2. If you cannot open the game (by email)
 
-Email [EMAIL] with the subject "Karine account deletion".
+Email support@bubegames.com with the subject "Karine account deletion".
 
 Include the player ID shown in Settings › Account if you have it. We don't collect your name or email, so without the ID we may not be able to find your account.
 

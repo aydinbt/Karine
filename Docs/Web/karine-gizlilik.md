@@ -2,7 +2,7 @@
 
 Son güncelleme: [TARİH]
 Veri sorumlusu: Bube Digital, [ADRES]
-İletişim: [E-POSTA]
+İletişim: support@bubegames.com
 
 ## Kısaca
 
@@ -53,7 +53,7 @@ KVKK m.11 kapsamında, AB'deysen GDPR kapsamında şu hakların vardır:
 
 **Oyunun içinden silme:** Ayarlar › Hesap › "Hesabı ve verileri sil". Buluttaki kaydın, oyuncu kimliğin ve telefondaki ilerlemen hemen ve kalıcı olarak silinir.
 
-**Oyuna erişemiyorsan:** [hesap silme sayfasındaki](https://bubegames.com/karine/hesap-silme) adımları izle ya da [E-POSTA] adresine yaz. Talebini en geç 30 gün içinde sonuçlandırırız.
+**Oyuna erişemiyorsan:** [hesap silme sayfasındaki](https://bubegames.com/karine/hesap-silme) adımları izle ya da support@bubegames.com adresine yaz. Talebini en geç 30 gün içinde sonuçlandırırız.
 
 Kişiselleştirilmiş reklam iznini, cihaz ayarlarından ya da oyundaki izin formundan istediğin zaman geri alabilirsin.
 
@@ -71,7 +71,7 @@ Bu metni güncellersek üstteki tarih değişir. Önemli değişiklikleri oyunun
 
 Last updated: [DATE]
 Controller: Bube Digital, [ADDRESS]
-Contact: [EMAIL]
+Contact: support@bubegames.com
 
 ## In short
 
@@ -114,7 +114,7 @@ Your career save and player ID are kept until you delete them.
 
 **In the game:** Settings › Account › "Delete account and data". Your cloud save, player ID and on-device progress are deleted immediately and permanently.
 
-**If you cannot open the game:** follow the steps on the [account deletion page](https://bubegames.com/karine/hesap-silme) or email [EMAIL]. We complete requests within 30 days.
+**If you cannot open the game:** follow the steps on the [account deletion page](https://bubegames.com/karine/hesap-silme) or email support@bubegames.com. We complete requests within 30 days.
 
 You may withdraw consent for personalised ads at any time, in your device settings or in the in-game consent form.
 

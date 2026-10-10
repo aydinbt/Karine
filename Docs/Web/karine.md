@@ -41,7 +41,7 @@ Karine, oyuncu güdümlü bir soruşturma oyunu. Kimse sana sıradaki adımı s�
 - Gizlilik Politikası → /karine/gizlilik
 - Kullanım Koşulları → /karine/kosullar
 - Hesap ve veri silme → /karine/hesap-silme
-- Destek: [E-POSTA]
+- Destek: support@bubegames.com
 
 © [YIL] Bube Digital. Karine bir kurgudur; kişiler, kurumlar ve olaylar hayal ürünüdür.
 

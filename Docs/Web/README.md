@@ -12,7 +12,7 @@ Bu klasör yalnız **metin** içerir; tasarım sitede yapılır. Her dosya bir s
 Her sayfada Türkçe ve İngilizce metin var. İkisini aynı sayfada (üstte dil düğmesi) ya da
 `/karine/en/privacy` gibi ayrı adreste yayınlayabilirsin; mağaza incelemesi İngilizceyi okuyabilmeli.
 
-**Doldurulacak yerler** köşeli parantezlidir: `[E-POSTA]`, `[ADRES]`, `[TARİH]`, `[N]`.
+**Doldurulacak yerler** köşeli parantezlidir: `[ADRES]`, `[TARİH]`, `[N]`.
 Gizlilik ve koşullar metni yayından önce bir hukukçuya okutulmalı (KVKK m.9 yurt dışı aktarım, VERBİS).
 
 **Taşıma notu:** Squarespace'ten başka bir sunucuya geçerken adresler **aynı kalmalı**; mağazalar ve oyun

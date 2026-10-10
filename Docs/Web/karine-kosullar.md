@@ -2,7 +2,7 @@
 
 Son güncelleme: [TARİH]
 Bube Digital, [ADRES]
-İletişim: [E-POSTA]
+İletişim: support@bubegames.com
 
 Karine'yi indirip oynayarak bu koşulları kabul etmiş olursun. Kabul etmiyorsan lütfen oyunu kullanma.
 
@@ -61,7 +61,7 @@ Bu koşullar Bube Digital ile senin aranda yapılmıştır, Apple ile değil. Oy
 
 ## 10. İletişim
 
-Sorular ve destek için: [E-POSTA]
+Sorular ve destek için: support@bubegames.com
 
 ---
 
@@ -69,7 +69,7 @@ Sorular ve destek için: [E-POSTA]
 
 Last updated: [DATE]
 Bube Digital, [ADDRESS]
-Contact: [EMAIL]
+Contact: support@bubegames.com
 
 By downloading or playing Karine you agree to these terms. If you do not agree, please do not use the game.
 
@@ -128,4 +128,4 @@ These terms are between you and Bube Digital, not Apple. Apple is not responsibl
 
 ## 10. Contact
 
-Questions and support: [EMAIL]
+Questions and support: support@bubegames.com
