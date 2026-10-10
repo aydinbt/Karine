@@ -50,23 +50,15 @@ Ayrıntılı tıklama adımları bağlantılı belgelerdedir.
 
 ---
 
-## 2. Hukuk ve web sayfaları
+## 2. Hukuk ve web sayfaları — `bubegames.com/karine/...`
 
-- [ ] `Docs/Legal/privacy.html` ve `Docs/Legal/delete-account.html` dosyalarındaki köşeli parantezli yerleri doldur:
-  - adres
-  - e-posta
-  - tarih
-  - saklama süresi
-- [ ] Bu iki sayfayı hukukçuya okut. Şu sorular sorulmalı:
-  - KVKK yurt dışı aktarımı (m.9)
-  - Hukuki sebep (m.5/2-c)
-  - VERBİS
-- [ ] Sayfaları yayınla (GitHub Pages yeter). Üç bilgiyi bana ver, `config.json`'a yazarım:
-  - `privacyUrl`
-  - `accountDeletionUrl`
-  - `supportEmail`
+Metinler hazır: [Web/README.md](Web/README.md) (hangi dosya hangi adres). Site Squarespace'te kurulur, sonra taşınır; adresler değişmemeli.
 
----
+- [ ] Köşeli parantezli yerleri doldur: `[E-POSTA]`, `[ADRES]`, `[TARİH]`, `[N]` (saklama süresi).
+- [ ] Destek e-postasını aç (ör. `destek@bubegames.com`).
+- [ ] Gizlilik ve koşulları hukukçuya okut: KVKK yurt dışı aktarımı (m.9), hukuki sebep (m.5/2-c), VERBİS, uygulanacak hukuk.
+- [ ] Dört sayfayı yayınla: `/karine`, `/karine/gizlilik`, `/karine/kosullar`, `/karine/hesap-silme`.
+- [ ] Yayınlanınca haber ver; `privacyUrl`, `accountDeletionUrl`, `supportEmail`'i `config.json`'a ben yazarım.
 
 ## 3. Mağaza formları ve görselleri
 
