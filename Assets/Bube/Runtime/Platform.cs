@@ -27,7 +27,7 @@ public static class Platform {
   try {
    using (var player = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
    using (var activity = player.GetStatic<AndroidJavaObject>("currentActivity"))
-   using (var bridge = new AndroidJavaClass("com.bubedigital.karine.review.ReviewBridge"))
+   using (var bridge = new AndroidJavaClass("com.bubegames.karine.review.ReviewBridge"))
     bridge.CallStatic("request", activity);
   } catch (Exception e) { Debug.LogWarning("In-app review unavailable: " + e.Message); }
  }

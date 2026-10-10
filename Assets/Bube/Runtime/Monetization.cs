@@ -134,8 +134,8 @@ public sealed class NoStore : IStore {
 }
 
 public static class Store {
- public const string NoAdsProduct = "com.bubedigital.karine.noads";
- public const string PriorityProduct = "com.bubedigital.karine.priority";
+ public const string NoAdsProduct = "com.bubegames.karine.noads";
+ public const string PriorityProduct = "com.bubegames.karine.priority";
  public static IStore Provider = new NoStore();
  // Makbuzu gelen ürünün etkisi tek yerde.
  public static void Grant(string product) {

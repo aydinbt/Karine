@@ -30,7 +30,7 @@ public static class DurableStore {
  public static void Write(string key, string value) => KarineKeychainWrite(key, value);
  public static void Delete(string key) => KarineKeychainDelete(key);
 #elif UNITY_ANDROID && !UNITY_EDITOR
- const string Bridge = "com.bubedigital.karine.blockstore.BlockStoreBridge";
+ const string Bridge = "com.bubegames.karine.blockstore.BlockStoreBridge";
  sealed class Callback : AndroidJavaProxy {
   readonly Action<string> then;
   public Callback(Action<string> then) : base(Bridge + "$Callback") { this.then = then; }

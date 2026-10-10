@@ -164,7 +164,7 @@ Rapor gönderildiğinde bırakılışın tersi oynuyor: Bora evrakı kaşeler, d
 
 - **Oyun adı:** Karine — 25 Eylül 2026'da karara bağlandı ([NAMING.md](NAMING.md)).
 - **Stüdyo:** bubeGames · **Oyun içi kurum:** bube Departman / BDS (değişmedi, kurmaca kurum adıdır).
-- **Paket kimliği:** `com.bubedigital.karine` · **Depo:** `github.com/aydinbt/Karine`
+- **Paket kimliği:** `com.bubegames.karine` · **Depo:** `github.com/aydinbt/Karine`
 
 ## Şu an nerede
 
@@ -195,7 +195,7 @@ Rapor gönderildiğinde bırakılışın tersi oynuyor: Bora evrakı kaşeler, d
 ## Faz 0'da yapılanlar (25 Eylül 2026)
 
 - [x] Oyun adı **Karine**; `config.json` `title`, `productName`, `about.body` güncellendi.
-- [x] `applicationIdentifier` = `com.bubedigital.karine` (Android / iPhone / Standalone).
+- [x] `applicationIdentifier` = `com.bubegames.karine` (Android / iPhone / Standalone).
 - [x] `scriptingBackend` = **IL2CPP**; API seviyesi .NET Standard 2.1. *(ARM64-only Android ile Mono desteklenmiyordu.)*
 - [x] `AndroidTargetSdkVersion` = **35** olarak sabitlendi (önceden 0 = Automatic).
 - [x] `com.unity.test-framework` 1.4.6 eklendi.

@@ -27,7 +27,7 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 - [x] **İsim kararı: Karine.** `config.json` `title`, `productName`, `about.body` güncellendi. Oyun içi kurmaca kurum adı `bube Departman` / `BDS` bilinçli olarak korundu ([DESIGN_AMENDMENTS.md](DESIGN_AMENDMENTS.md)).
 - [x] **Depo izlemeye alındı.** `github.com/aydinbt/Karine`, `main` dalı; `.mp4` ve `.ttf` **Git LFS**'te (7 nesne, 17 MB). Çalışma klasörü `bubeGame/karine-mobile`.
-- [x] **Mobil derleme engelleri kapandı.** `applicationIdentifier` = `com.bubedigital.karine`; `scriptingBackend` = IL2CPP; API seviyesi .NET Standard 2.1; `AndroidTargetSdkVersion` = 35.
+- [x] **Mobil derleme engelleri kapandı.** `applicationIdentifier` = `com.bubegames.karine`; `scriptingBackend` = IL2CPP; API seviyesi .NET Standard 2.1; `AndroidTargetSdkVersion` = 35.
 - [x] **Unity Test Framework** 1.4.6 eklendi.
 - [x] **Assembly tanımları:** `Bube.Runtime`, `Bube.Editor`, `Bube.Tests.EditMode` — üçü de sıfır CS hatasıyla derleniyor.
 - [x] **EditMode testleri Editor'da koşturuldu ve geçti** (`BUBE VALIDATION PASSED`).
@@ -55,7 +55,7 @@ Bundan sonra `ROADMAP.md`'de ve burada:
 
 **Neden:** Dosya #001 bugüne kadar **bir kez bile** baştan sona oynanmadı. M1 ve M2'nin bitiş ölçütleri tek tek bu adıma bağlı. Bu faz bitene kadar hiçbir yeni özellik başlamamalı.
 
-- [x] **Mobil derleme ayarları** Faz 0'da bitti: `com.bubedigital.karine`, IL2CPP, `AndroidTargetSdkVersion` 35.
+- [x] **Mobil derleme ayarları** Faz 0'da bitti: `com.bubegames.karine`, IL2CPP, `AndroidTargetSdkVersion` 35.
   - **Keystore maddesi Faz 5'e taşındı.** Cihaza geliştirme derlemesi kurmak için özel keystore gerekmez — Unity hata ayıklama anahtarıyla imzalar. Kendi keystore'u yalnız mağaza sürümü için gerekir ve parolası kullanıcıya aittir.
 - [~] **Perf düzeltmeleri (Play Mode'a girmeden önce)** — kodlandı, üç assembly sıfır hata/uyarı ile derlendi, **Play Mode'da gözlenmedi:**
   - [~] `AvailableAssignment()` sonucu vaka kimliği başına önbelleğe alındı — kare başına tam vaka JSON'u ayrıştırması kalktı.

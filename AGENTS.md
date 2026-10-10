@@ -28,7 +28,7 @@ Bir maddeyi `[x]` yapmak için "derleniyor" veya "içerik doğrulaması geçti" 
 
 ## Bilinen durum (25 Eylül 2026)
 
-**Faz 0 bitti.** Oyun adı **Karine** (`Docs/NAMING.md`); depo `github.com/aydinbt/Karine`, çalışma klasörü `bubeGame/karine-mobile`; paket kimliği `com.bubedigital.karine`; IL2CPP + Android target SDK 35; `com.unity.test-framework` ve üç asmdef kurulu; EditMode testleri Editor'da koşturuldu ve geçti.
+**Faz 0 bitti.** Oyun adı **Karine** (`Docs/NAMING.md`); depo `github.com/aydinbt/Karine`, çalışma klasörü `bubeGame/karine-mobile`; paket kimliği `com.bubegames.karine`; IL2CPP + Android target SDK 35; `com.unity.test-framework` ve üç asmdef kurulu; EditMode testleri Editor'da koşturuldu ve geçti.
 
 **Faz 1 bitti.** İçerik doğrulayıcı `Assets/Bube/Editor/Validation/` altında dokuz dosyaya ayrıldı (`ContentValidator` orkestratör, vakaya özel iddialar `Case001Rules`/`Case002Rules` içinde, kanca sözlüğüyle bağlanıyor); ilk hatada durmak yerine `ValidationReport` tüm bulguları topluyor. 51 test (46 EditMode + 5 PlayMode) tek komutla koşuyor ve geçiyor. Ayrıntı: `Docs/Architecture.md` → "İçerik doğrulama".
 

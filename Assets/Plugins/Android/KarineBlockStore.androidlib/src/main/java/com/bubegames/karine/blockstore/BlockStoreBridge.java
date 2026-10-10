@@ -1,4 +1,4 @@
-package com.bubedigital.karine.blockstore;
+package com.bubegames.karine.blockstore;
 
 import android.content.Context;
 import com.google.android.gms.auth.blockstore.Blockstore;

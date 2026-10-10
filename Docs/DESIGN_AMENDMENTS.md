@@ -1282,3 +1282,7 @@ Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir ke
 ## 10 Ekim 2026 — Fransızca
 
 - Fransızca tam çeviri girdi. Ton: resmî *vous*, saatler noktalı (23.15), « » tırnak ve ’ kesme. Şube adları "Antenne de …", rapor "RAPPORT D’INCIDENT", ifade başlıkları "— audition". Hüküm veren sözcükler (mensonge, vérité, coupable, innocent, caché, peur…) hiçbir satırda kullanılmaz; ayrıntı `Translation/GLOSSARY_fr.md`.
+
+## 10 Ekim 2026 — Geliştirici adı ve paket kimliği
+
+Geliştirici **Bube Games**'tir ("Bube Digital" diye bir şirket yok). Paket kimliği yayından önce `com.bubedigital.karine` → `com.bubegames.karine` oldu; mağaza ürünleri `com.bubegames.karine.noads` / `.priority`. Yukarıdaki eski kayıtlarda geçen eski kimlik tarihsel olarak bırakıldı.

@@ -5,7 +5,7 @@
 // iPhone'da yeniden kurulumda aynı misafir döner. iCloud Keychain'e gitmez.
 static NSMutableDictionary* KarineQuery(const char* key) {
     return [@{ (__bridge id)kSecClass: (__bridge id)kSecClassGenericPassword,
-               (__bridge id)kSecAttrService: @"com.bubedigital.karine",
+               (__bridge id)kSecAttrService: @"com.bubegames.karine",
                (__bridge id)kSecAttrAccount: [NSString stringWithUTF8String:key] } mutableCopy];
 }
 

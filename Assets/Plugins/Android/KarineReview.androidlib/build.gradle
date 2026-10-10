@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.bubedigital.karine.review'
+    namespace 'com.bubegames.karine.review'
     compileSdk 35
     defaultConfig { minSdk 25 }
     compileOptions {

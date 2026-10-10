@@ -1,4 +1,4 @@
-package com.bubedigital.karine.review;
+package com.bubegames.karine.review;
 
 import android.app.Activity;
 import com.google.android.gms.tasks.OnCompleteListener;

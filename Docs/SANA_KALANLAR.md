@@ -26,15 +26,15 @@ Ayrıntılı tıklama adımları bağlantılı belgelerdedir.
 - [ ] Crashlytics'i aç. `google-services.json` ve `GoogleService-Info.plist` dosyalarını bana ver.
 
 ### Google Play Console — [STORE_ACCOUNTS_CHECKLIST.md](STORE_ACCOUNTS_CHECKLIST.md)
-- [ ] Geliştirici hesabı (tek seferlik ücret) ve `com.bubedigital.karine` uygulaması.
+- [ ] Geliştirici hesabı (tek seferlik ücret) ve `com.bubegames.karine` uygulaması.
 - [ ] Tek seferlik iki ürün oluştur ve fiyatlarını belirle:
-  - `com.bubedigital.karine.noads`
-  - `com.bubedigital.karine.priority`
+  - `com.bubegames.karine.noads`
+  - `com.bubegames.karine.priority`
 - [ ] Test kullanıcıları ve *Internal testing* kanalı.
 - [ ] Google girişi için Play Games Services ve OAuth istemcisi. Bunu Firebase'e bağlamayı ben yazacağım (`ROADMAP`: Apple/Google girişi).
 
 ### Apple Developer / App Store Connect
-- [ ] Geliştirici hesabı (yıllık ücret) ve `com.bubedigital.karine` App ID'si.
+- [ ] Geliştirici hesabı (yıllık ücret) ve `com.bubegames.karine` App ID'si.
 - [ ] *Sign in with Apple* yeteneğini aç.
 - [ ] Aynı iki tek seferlik ürünü oluştur.
 - [ ] TestFlight.
@@ -56,7 +56,7 @@ Metinler hazır: [Web/README.md](Web/README.md) (hangi dosya hangi adres). Site 
 
 - [ ] Köşeli parantezli yerleri doldur: `[ADRES]`, `[TARİH]`, `[N]` (saklama süresi).
 - [x] Destek e-postası: `support@bubegames.com` (10 Ekim 2026).
-- [ ] Gizlilik ve koşulları hukukçuya okut: KVKK yurt dışı aktarımı (m.9), hukuki sebep (m.5/2-c), VERBİS, uygulanacak hukuk.
+- [ ] **(Sonraya bırakıldı, 10 Ekim 2026)** `[ADRES]` ve KVKK: veri sorumlusu gerçek kişi olarak sen; adres satırına ne yazılacağına hukukçuyla karar ver. Gizlilik ve koşulları hukukçuya okut: KVKK yurt dışı aktarımı (m.9), hukuki sebep (m.5/2-c), VERBİS, uygulanacak hukuk.
 - [ ] Dört sayfayı yayınla: `/karine`, `/karine/gizlilik`, `/karine/kosullar`, `/karine/hesap-silme`.
 - [ ] Yayınlanınca haber ver; `privacyUrl` ve `accountDeletionUrl`'yi `config.json`'a ben yazarım (`supportEmail` yazıldı).
 

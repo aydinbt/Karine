@@ -26,7 +26,7 @@
 Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ayrıntı: `AUDIT_2026-09-25.md` A1–A3.
 
 - [x] Depo git'e alındı ve `github.com/aydinbt/Karine`'e bağlandı; video/font dosyaları Git LFS'te. (Faz 0)
-- [x] `applicationIdentifier` = `com.bubedigital.karine` (Android/iPhone/Standalone). (Faz 0)
+- [x] `applicationIdentifier` = `com.bubegames.karine` (Android/iPhone/Standalone). (Faz 0)
 - [x] `scriptingBackend` = IL2CPP (Android/iPhone/Standalone); API seviyesi .NET Standard 2.1. (Faz 0)
 - [x] `AndroidTargetSdkVersion` = 35 olarak sabitlendi. (Faz 0)
 - [ ] Android keystore yok → imzalı **mağaza** sürümü üretilemez. *(Faz 5'e taşındı: cihaza geliştirme derlemesi kurmak için gerekmiyor, Unity hata ayıklama anahtarıyla imzalar. Keystore dosyaları `.gitignore`'da; parola kullanıcıya ait.)*
@@ -43,7 +43,7 @@ Bu maddeler hiçbir aşamanın içinde değildi ama **hepsini bloke ediyor**. Ay
 - [ ] Firebase konsolu: proje, anonim giriş, Firestore (eur3), kurallar, API anahtarı → `config.json` — kullanıcıda.
 - [~] **Mağaza hazırlığı (9 Ekim 2026).** Reklamları kaldır + geri yükle (Unity IAP 5.4.3, 9 Ekim gecesi 4.12.2den yükseltildi), iOS ATT (önce ATT sonra UMP), oyun içi puan (3. dosyadan sonra bir kez), Crashlytics (paket gelince derlenir), bozuk kayıtta `.bak`tan dönüş, gizlilik/silme sayfası taslakları (`Docs/Legal`). EditMode 143 geçti; Android/iOS dalları başsız derlendi; Gradle/Xcode derlemesi ve cihaz denemesi yok. Kullanıcı adımları: `STORE_ACCOUNTS_CHECKLIST.md` → 9 Ekim eki.
 - [~] **Geri dönüş ve çalışma görünürlüğü (9 Ekim 2026).** Masada "Çalışmam" düğmesi (reklamsız yöntem hatırlatması ve kapsama sayıları), vaka özetinde "Çalışman" bölümü, yerel hatırlatma bildirimleri (com.unity.mobile.notifications 2.4.0; ertesi gün ve 3 gün sonra, yalnız masada bekleyen bir şey varsa; izin ilk özet ekranında bir kez; Ayarlar › Oyun anahtarı). EditMode 143; Android/iOS dalları başsız derlendi; cihazda denenmedi.
-- [~] **Gelir modeli (9 Ekim 2026).** İzin gerektiren incelemeler (arama izni, hat, arşiv, bağlantı) 20–30 dk sürüyor; her ödüllü reklam 10 dk düşüyor (2–3 reklam). Sonuç gelince bildirim. "Kalıcı öncelik" tek seferlik ürünü (`com.bubedigital.karine.priority`). Lamba rengi 4 → 6, önizlemeli ve sırayla açılır. Bütün ülkeler ücretsiz. EditMode 144; cihazda denenmedi.
+- [~] **Gelir modeli (9 Ekim 2026).** İzin gerektiren incelemeler (arama izni, hat, arşiv, bağlantı) 20–30 dk sürüyor; her ödüllü reklam 10 dk düşüyor (2–3 reklam). Sonuç gelince bildirim. "Kalıcı öncelik" tek seferlik ürünü (`com.bubegames.karine.priority`). Lamba rengi 4 → 6, önizlemeli ve sırayla açılır. Bütün ülkeler ücretsiz. EditMode 144; cihazda denenmedi.
 - [~] **Görselsiz kozmetikler (9 Ekim 2026).** Ekran rengi, damga mürekkebi, şehir ışıkları, film tonu; her biri 4 renk, lamba kuralıyla (önizleme, sırayla ödüllü reklamla açılma, reklamsıza hepsi açık). Açılanlar kariyer belgesinde `unlockedCosmetics`. tr/en/de. EditMode 144, Android/iOS derlemesi temiz; gözle görülmedi.
 - [x] Oyun adı **Karine** olarak belirlendi ve `config.json`, `productName`, paket kimliği ile `about.body`'ye uygulandı. (Faz 0)
 
