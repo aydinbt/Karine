@@ -1,7 +1,7 @@
 # Karine — Kullanım Koşulları
 
 Son güncelleme: [TARİH]
-Bube Digital, [ADRES]
+Bube Games, [ADRES]
 İletişim: support@bubegames.com
 
 Karine'yi indirip oynayarak bu koşulları kabul etmiş olursun. Kabul etmiyorsan lütfen oyunu kullanma.
@@ -10,7 +10,7 @@ Karine'yi indirip oynayarak bu koşulları kabul etmiş olursun. Kabul etmiyorsa
 
 Karine'yi kişisel ve ticari olmayan kullanım için oynaman için sana devredilemez, münhasır olmayan bir lisans veriyoruz.
 
-Oyunun metinleri, görselleri, müzikleri, kodu ve "Karine" adı Bube Digital'e ya da lisans verenlerine aittir. Oyunu kopyalayamaz, satamaz, kaynak kodunu çözemez ya da değiştirilmiş sürümünü dağıtamazsın.
+Oyunun metinleri, görselleri, müzikleri, kodu ve "Karine" adı Bube Games'e ya da lisans verenlerine aittir. Oyunu kopyalayamaz, satamaz, kaynak kodunu çözemez ya da değiştirilmiş sürümünü dağıtamazsın.
 
 ## 2. Kurgu
 
@@ -57,7 +57,7 @@ Bu koşullara Türkiye Cumhuriyeti hukuku uygulanır. Tüketici uyuşmazlıklar�
 
 ## 9. Apple kullanıcıları için
 
-Bu koşullar Bube Digital ile senin aranda yapılmıştır, Apple ile değil. Oyun ve desteği konusunda Apple sorumlu değildir. Apple ve bağlı şirketleri, bu koşulların lehtar üçüncü tarafıdır.
+Bu koşullar Bube Games ile senin aranda yapılmıştır, Apple ile değil. Oyun ve desteği konusunda Apple sorumlu değildir. Apple ve bağlı şirketleri, bu koşulların lehtar üçüncü tarafıdır.
 
 ## 10. İletişim
 
@@ -68,7 +68,7 @@ Sorular ve destek için: support@bubegames.com
 # Karine — Terms of Use
 
 Last updated: [DATE]
-Bube Digital, [ADDRESS]
+Bube Games, [ADDRESS]
 Contact: support@bubegames.com
 
 By downloading or playing Karine you agree to these terms. If you do not agree, please do not use the game.
@@ -77,7 +77,7 @@ By downloading or playing Karine you agree to these terms. If you do not agree, 
 
 We grant you a personal, non-commercial, non-transferable, non-exclusive licence to play Karine.
 
-The game's text, art, music, code and the name "Karine" belong to Bube Digital or its licensors. You may not copy, sell, reverse-engineer or distribute modified versions of the game.
+The game's text, art, music, code and the name "Karine" belong to Bube Games or its licensors. You may not copy, sell, reverse-engineer or distribute modified versions of the game.
 
 ## 2. Fiction
 
@@ -124,7 +124,7 @@ These terms are governed by the laws of the Republic of Turkey. Mandatory consum
 
 ## 9. Apple users
 
-These terms are between you and Bube Digital, not Apple. Apple is not responsible for the game or its support. Apple and its subsidiaries are third-party beneficiaries of these terms.
+These terms are between you and Bube Games, not Apple. Apple is not responsible for the game or its support. Apple and its subsidiaries are third-party beneficiaries of these terms.
 
 ## 10. Contact
 

@@ -46,7 +46,7 @@ Kod: `Assets/Bube/Runtime/FirebaseAccountProvider.cs` (SDK yok, REST + `UnityWeb
 |---|---|
 | Veri en aza indirme | Yalnız rastgele oyuncu kimliği ve oyun kaydı. Ad, e-posta ve konum yok. Firebase sunucu tarafında IP adresini işler; bu metinde yazılmalı. |
 | Hukuki sebep | Oyun kaydını cihazlar ve kurulumlar arasında korumak, "sözleşmenin ifası" (KVKK m.5/2-c) kapsamında değerlendirilebilir. Bunu hukukçu teyit etmeli. |
-| Aydınlatma yükümlülüğü (m.10) | Gizlilik metninde şunlar yazmalı: veri sorumlusu (Bube Digital), işlenen veri, amaç, hukuki sebep, aktarılan taraf (Google/Firebase) ve başvuru yolu. **Metin henüz yazılmadı.** |
+| Aydınlatma yükümlülüğü (m.10) | Gizlilik metninde şunlar yazmalı: veri sorumlusu (Bube Games), işlenen veri, amaç, hukuki sebep, aktarılan taraf (Google/Firebase) ve başvuru yolu. **Metin henüz yazılmadı.** |
 | Silme hakkı (m.7, m.11) | Uygulama içinden tek adımla siliniyor; web ve e-posta yolu `accountDeletionUrl` ve `supportEmail` ile sağlanacak. |
 | Yurt dışına aktarım (m.9, 2024 değişikliği) | Firebase sunucuları yurt dışında. Standart sözleşme imzalanıp 5 iş günü içinde Kurul'a bildirilmesi ya da başka bir uygun güvence gerekebilir. **Hukukçuya sorulmalı.** |
 | Saklama süresi | Oyuncu silene kadar. Ek olarak hareketsiz anonim hesapların otomatik silinmesi önerilir (7. adım). |

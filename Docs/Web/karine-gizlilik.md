@@ -1,7 +1,7 @@
 # Karine — Gizlilik Politikası ve KVKK Aydınlatma Metni
 
 Son güncelleme: [TARİH]
-Veri sorumlusu: Bube Digital, [ADRES]
+Veri sorumlusu: Bube Games, [ADRES]
 İletişim: support@bubegames.com
 
 ## Kısaca
@@ -70,7 +70,7 @@ Bu metni güncellersek üstteki tarih değişir. Önemli değişiklikleri oyunun
 # Karine — Privacy Policy
 
 Last updated: [DATE]
-Controller: Bube Digital, [ADDRESS]
+Controller: Bube Games, [ADDRESS]
 Contact: support@bubegames.com
 
 ## In short

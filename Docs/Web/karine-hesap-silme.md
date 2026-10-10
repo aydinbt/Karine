@@ -1,6 +1,6 @@
 # Karine — hesabını ve verilerini sil
 
-Geliştirici: Bube Digital
+Geliştirici: Bube Games
 İletişim: support@bubegames.com
 
 ## 1. Oyunun içinden (hemen)
@@ -35,7 +35,7 @@ Google sunucularındaki teknik kayıtlar en fazla [N] gün içinde kendiliğinde
 
 # Karine — delete your account and data
 
-Developer: Bube Digital
+Developer: Bube Games
 Contact: support@bubegames.com
 
 ## 1. In the game (immediate)

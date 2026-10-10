@@ -43,7 +43,7 @@ Karine, oyuncu güdümlü bir soruşturma oyunu. Kimse sana sıradaki adımı s�
 - Hesap ve veri silme → /karine/hesap-silme
 - Destek: support@bubegames.com
 
-© [YIL] Bube Digital. Karine bir kurgudur; kişiler, kurumlar ve olaylar hayal ürünüdür.
+© [YIL] Bube Games. Karine bir kurgudur; kişiler, kurumlar ve olaylar hayal ürünüdür.
 
 ## Önerilen görseller (oyunun kendi varlıklarından)
 
@@ -78,4 +78,4 @@ Your career starts in Istanbul and takes you to cities around the world, each wi
 - Cloud save: your progress follows you to a new phone
 - Free; ads can be removed with an optional purchase
 
-© [YEAR] Bube Digital. Karine is a work of fiction; its people, institutions and events are imaginary.
+© [YEAR] Bube Games. Karine is a work of fiction; its people, institutions and events are imaginary.
