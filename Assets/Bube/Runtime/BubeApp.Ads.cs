@@ -35,15 +35,22 @@ public sealed partial class BubeApp {
    KarineUI.Swatch(card,KarineTheme.Scene.LampTints[v]);
    KarineUI.Quarter(card);
   }
-  if(LampUnlocked(draftLamp))return;
   int next=NextLamp();
-  if(draftLamp!=next){KarineUI.Body_(control,string.Format(T("settings.lamp.order"),T("settings.lamp."+next)),KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;return;}
-  var unlock=KarineUI.SettingRow(control,T("settings.lamp.preview"),T("settings.lamp.preview.hint"));
-  if(!AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))return;
-  Button(unlock,T("settings.lamp.unlock"),()=>AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
-   if(!granted)return;
-   if(!game.Career.unlockedLamps.Contains(next))game.Career.unlockedLamps.Add(next);Save();RenderSettings();
-  }));
+  PreviewRow(control,"lamp",T("settings.lamp."+draftLamp),KarineTheme.Scene.LampTints[draftLamp],LampUnlocked(draftLamp),draftLamp==next,
+   string.Format(T("settings.lamp.order"),next<0?"":T("settings.lamp."+next)),()=> {
+    if(!game.Career.unlockedLamps.Contains(next))game.Career.unlockedLamps.Add(next);Save();RenderSettings();
+   });
+ }
+ // Seçili rengin satırı: "Önizle" örnek görüntüyü açar. Kilitliyse ve sıradakiyse pencerede
+ // "Reklamla aç" vardır; sıradaki değilse önce hangi rengin açılacağı yazar.
+ void PreviewRow(VisualElement control,string id,string name,Color color,bool open,bool isNext,string orderNote,Action granted) {
+  var row=KarineUI.SettingRow(control,T("settings.lamp.preview"),T("settings.preview.hint"));
+  Button(row,T("settings.preview.open"),()=> {
+   bool canUnlock=!open && isNext && AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu);
+   string note=open?null:isNext?T(id=="lamp"?"settings.lamp.preview.hint":"settings.cosmetic.preview.hint"):orderNote;
+   KarineUI.CosmeticPreview(root,T("settings.lamp.preview")+" · "+name,id,color,T("case.closedStamp"),T("settings.preview.close"),
+    T("settings.lamp.unlock"),canUnlock?()=>AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,ok=>{if(ok)granted();}):(Action)null,note);
+  });
  }
  // Masadaki lambaya geçici renk; ayarlar kapanınca kayıtlı renge döner.
  void PreviewLamp(int i) {
@@ -74,16 +81,12 @@ public sealed partial class BubeApp {
    KarineUI.Swatch(card,colors[v]);
    KarineUI.Quarter(card);
   }
-  if(CosmeticUnlocked(id,draft))return;
   int next=NextCosmetic(id);
-  if(draft!=next){KarineUI.Body_(control,string.Format(T("settings.lamp.order"),T("settings.cosmetic."+id+"."+next)),KarineTheme.SettingsModal.RowHintSize).style.color=KarineTheme.Secondary;return;}
-  var unlock=KarineUI.SettingRow(control,T("settings.lamp.preview"),T("settings.cosmetic.preview.hint"));
-  if(!AdGateway.MayShow(AdPlacement.RewardedCosmetic,AdMoment.Menu))return;
-  Button(unlock,T("settings.lamp.unlock"),()=>AdGateway.Request(AdPlacement.RewardedCosmetic,AdMoment.Menu,granted=> {
-   if(!granted)return;
-   var key=id+":"+next;
-   if(!game.Career.unlockedCosmetics.Contains(key))game.Career.unlockedCosmetics.Add(key);Save();RenderSettings();
-  }));
+  PreviewRow(control,id,T("settings.cosmetic."+id+"."+draft),colors[draft],CosmeticUnlocked(id,draft),draft==next,
+   string.Format(T("settings.lamp.order"),next<0?"":T("settings.cosmetic."+id+"."+next)),()=> {
+    var key=id+":"+next;
+    if(!game.Career.unlockedCosmetics.Contains(key))game.Career.unlockedCosmetics.Add(key);Save();RenderSettings();
+   });
  }
  void LoadCosmeticDrafts(){draftCosmetic.Clear();Cosmetics.EndPreview();}
  void SaveCosmeticDrafts(){foreach(var p in draftCosmetic)Cosmetics.Save(p.Key,CosmeticUnlocked(p.Key,p.Value)?p.Value:0);}
