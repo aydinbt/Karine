@@ -56,7 +56,7 @@ public static partial class KarineUI {
   for(int i=0;i<count;i++) {
    var w=new VisualElement {pickingMode=PickingMode.Ignore};
    w.style.position=Position.Absolute;w.style.left=Length.Percent(4+(float)random.NextDouble()*90);w.style.top=Length.Percent(45+(float)random.NextDouble()*45);
-   w.style.width=3;w.style.height=4;w.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Cosmetic.City[Cosmetics.Chosen("city")],.35f*Fx.Amount);
+   w.style.width=3;w.style.height=4;w.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Cosmetic.City[0],.35f*Fx.Amount);
    w.style.opacity=random.NextDouble()<.5?1:0;city.Add(w);lights[i]=w;
   }
   if(count==0)return;

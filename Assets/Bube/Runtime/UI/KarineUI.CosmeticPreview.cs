@@ -41,25 +41,17 @@ public static partial class KarineUI {
   Fill(desk);view.Add(desk);
   switch(id) {
    case "lamp": {
-    // Lambanın ışık havuzu, masadakinden biraz güçlü: renk farkı küçük görüntüde de seçilsin.
-    var pool=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Alpha(color,.55f)};
-    OfficePlace(pool,new Rect(52,0,56,90));view.Add(pool);
+    // Masa geceye karartılır, lambanın ışık havuzu oyundakiyle aynı yerde ama güçlü çizilir:
+    // açık tonlu renkler (yeşil banker, floresan, kehribar) aydınlık resmin üstünde seçilmiyordu.
+    var dark=new VisualElement {pickingMode=PickingMode.Ignore};Fill(dark);dark.style.backgroundColor=KarineTheme.Veil(.62f);view.Add(dark);
+    var pool=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=KarineTheme.Alpha(color,.85f)};
+    OfficePlace(pool,KarineTheme.Office.Atmosphere.LightPool);view.Add(pool);
+    var core=new Image {image=Glow(),scaleMode=ScaleMode.StretchToFill,pickingMode=PickingMode.Ignore,tintColor=color};
+    var r=KarineTheme.Office.Atmosphere.LightPool;OfficePlace(core,new Rect(r.x+r.width*.25f,r.y+r.height*.2f,r.width*.5f,r.height*.5f));view.Add(core);
     break;
    }
    case "film": {
     var tone=new VisualElement {pickingMode=PickingMode.Ignore};Fill(tone);tone.style.backgroundColor=KarineTheme.Alpha(color,.45f);view.Add(tone);
-    break;
-   }
-   case "city": {
-    // Gece şehri: koyu pencere ve içinde yanan ışıklar.
-    var night=new VisualElement {pickingMode=PickingMode.Ignore};OfficePlace(night,new Rect(10,10,80,80));
-    night.style.backgroundColor=KarineTheme.Alpha(KarineTheme.Background,.92f);Border(night,6,KarineTheme.Panel2);view.Add(night);
-    var rng=new System.Random(7);
-    for(int i=0;i<60;i++) {
-     var w=new VisualElement {pickingMode=PickingMode.Ignore};w.style.position=Position.Absolute;
-     w.style.left=Length.Percent(rng.Next(3,95));w.style.top=Length.Percent(rng.Next(30,95));w.style.width=6;w.style.height=8;
-     w.style.backgroundColor=KarineTheme.Alpha(color,.5f+(float)rng.NextDouble()*.5f);night.Add(w);
-    }
     break;
    }
    case "screen": {

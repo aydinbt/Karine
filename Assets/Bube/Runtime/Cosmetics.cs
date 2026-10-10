@@ -2,11 +2,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Bube {
-// Görselsiz kozmetikler: ekran fosforu, damga mürekkebi, şehir ışıkları, film tonu.
+// Görselsiz kozmetikler: ekran fosforu, damga mürekkebi, film tonu.
+// Şehir ışıkları seçeneği 10 Ekim 2026'da kaldırıldı; pencere hep varsayılan renkte yanar.
 // Seçim cihazda (PlayerPrefs), açılanlar kariyer belgesinde ("screen:2"). Önizleme,
 // ayarlar açıkken seçimi geçici olarak ezer; ayarlar kapanınca kalkar.
 public static class Cosmetics {
- public static readonly string[] Ids={"screen","ink","city","film"};
+ public static readonly string[] Ids={"screen","ink","film"};
  static readonly Dictionary<string,int> preview=new Dictionary<string,int>();
  const string Key="karine.cosmetic.";
 
