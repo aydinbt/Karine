@@ -8,7 +8,7 @@ Bube Games, [ADRES]
 
 Karine senden adını, e-postanı, telefonunu ya da konumunu istemez. İlerlemeni korumak için yalnız rastgele bir oyuncu kimliği ve kariyer kaydın tutulur. Hepsini istediğin an oyunun içinden silebilirsin.
 
-Türkiye'de yaşayan oyuncular için ayrıntılı bilgi [KVKK Aydınlatma Metni](https://bubegames.com/karine/kvkk)'ndedir.
+Türkiye'de yaşayan oyuncular için ayrıntılı bilgi [KVKK Aydınlatma Metni](https://bubegames.com/tr/karine/personal-data)'ndedir.
 
 ## Hangi verileri işliyoruz
 
@@ -57,7 +57,7 @@ Kariyer kaydın ve oyuncu kimliğin, sen silene kadar saklanır.
 
 **Oyunun içinden:** Ayarlar › Hesap › "Hesabı ve verileri sil". Buluttaki kaydın, oyuncu kimliğin ve telefondaki ilerlemen hemen ve kalıcı olarak silinir.
 
-**Oyuna erişemiyorsan:** [hesap silme sayfasındaki](https://bubegames.com/karine/hesap-silme) adımları izle ya da support@bubegames.com adresine yaz. Talebini en geç 30 gün içinde sonuçlandırırız.
+**Oyuna erişemiyorsan:** [hesap silme sayfasındaki](https://bubegames.com/tr/karine/account-deletion) adımları izle ya da support@bubegames.com adresine yaz. Talebini en geç 30 gün içinde sonuçlandırırız.
 
 Kişiselleştirilmiş reklam iznini cihaz ayarlarından ya da oyundaki izin formundan istediğin zaman geri alabilirsin.
 

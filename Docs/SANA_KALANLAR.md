@@ -57,8 +57,9 @@ Metinler hazır: [Web/README.md](Web/README.md) (hangi dosya hangi adres). Site 
 - [ ] Köşeli parantezli yerleri doldur: `[ADRES]`, `[TARİH]`, `[N]` (saklama süresi).
 - [x] Destek e-postası: `support@bubegames.com` (10 Ekim 2026).
 - [ ] **(Sonraya bırakıldı, 10 Ekim 2026)** `[ADRES]` ve KVKK: veri sorumlusu gerçek kişi olarak sen; adres satırına ne yazılacağına hukukçuyla karar ver. Gizlilik ve koşulları hukukçuya okut: KVKK yurt dışı aktarımı (m.9), hukuki sebep (m.5/2-c), VERBİS, uygulanacak hukuk.
-- [ ] Dört sayfayı yayınla: `/karine`, `/karine/gizlilik`, `/karine/kosullar`, `/karine/hesap-silme`.
-- [ ] Yayınlanınca haber ver; `privacyUrl` ve `accountDeletionUrl`'yi `config.json`'a ben yazarım (`supportEmail` yazıldı).
+- [x] Sayfalar yayında (11 Ekim 2026): `/{dil}/karine/privacy`, `/terms`, `/account-deletion`, `/personal-data` (KVKK); tr/en/de/fr açılıyor. Mağazaya İngilizce adres yazılır: `bubegames.com/en/karine/privacy` ve `/en/karine/account-deletion`.
+- [x] Oyun içi bağlantılar `config.json`'da; oyuncunun diline göre açılır.
+- [ ] Unity'de Ayarlar › Hesap'tan gizlilik ve hesap silme bağlantılarına dokunup doğru dilde açıldığını gör.
 
 ## 3. Mağaza formları ve görselleri
 

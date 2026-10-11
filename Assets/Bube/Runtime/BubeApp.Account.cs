@@ -155,8 +155,10 @@ public sealed partial class BubeApp {
   else if(root.Q("SettingsModal")!=null)RenderSettings();
  }
 
- void OpenPrivacy(){ if(!string.IsNullOrEmpty(config.privacyUrl))Application.OpenURL(config.privacyUrl); }
- void OpenDeletionPage(){ if(!string.IsNullOrEmpty(config.accountDeletionUrl))Application.OpenURL(config.accountDeletionUrl); }
+ // Site sayfaları dile göre: adresteki {lang} oyunun o anki diliyle değişir (bubegames.com/tr/..., /en/...).
+ void OpenSite(string url){ if(!string.IsNullOrEmpty(url))Application.OpenURL(url.Replace("{lang}",language)); }
+ void OpenPrivacy()=>OpenSite(config.privacyUrl);
+ void OpenDeletionPage()=>OpenSite(config.accountDeletionUrl);
  void OpenSupport(){ if(!string.IsNullOrEmpty(config.supportEmail))Application.OpenURL("mailto:"+config.supportEmail); }
 
  void AccountSettings(VisualElement body) {

@@ -22,7 +22,7 @@ Oyun gerçek bir soruşturma, hukuk ya da güvenlik eğitimi yerine geçmez.
 
 Oyun, ilerlemeni rastgele bir oyuncu kimliğiyle bulutta saklar. Destekleniyorsa Apple ya da Google hesabını bağlayabilirsin. Kimliğinin ve cihazının güvenliğinden sen sorumlusun.
 
-Hesabını istediğin an Ayarlar › Hesap'tan silebilirsin. Ayrıntılar [Gizlilik Politikası](https://bubegames.com/karine/gizlilik)'ndadır.
+Hesabını istediğin an Ayarlar › Hesap'tan silebilirsin. Ayrıntılar [Gizlilik Politikası](https://bubegames.com/tr/karine/privacy)'ndadır.
 
 ## 4. Satın almalar ve reklamlar
 

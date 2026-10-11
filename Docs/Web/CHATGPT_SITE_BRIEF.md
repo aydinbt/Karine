@@ -30,7 +30,7 @@ Ayrıca oyundan **3–4 ekran görüntüsü** ekle (Unity Game penceresinde 16:9
 
 ## Brif metni (kopyala → ChatGPT'ye yapıştır)
 
-> **Proje:** Bube Games stüdyosunun web sitesi, ilk oyunu **KARINE** için. Adres `bubegames.com`; oyun sayfası `bubegames.com/karine`; yasal sayfalar `bubegames.com/karine/gizlilik`, `/karine/kosullar`, `/karine/hesap-silme`. Site Squarespace'te kurulacak, ileride başka bir sunucuya taşınacak; o yüzden tasarım sade HTML/CSS ile yeniden yapılabilir olmalı, ağır animasyon ya da özel eklenti gerektirmemeli.
+> **Proje:** Bube Games stüdyosunun web sitesi, ilk oyunu **KARINE** için. Adres `bubegames.com`; oyun sayfası `bubegames.com/karine`; yasal sayfalar `bubegames.com/tr/karine/privacy`, `/tr/karine/terms`, `/tr/karine/account-deletion`. Site Squarespace'te kurulacak, ileride başka bir sunucuya taşınacak; o yüzden tasarım sade HTML/CSS ile yeniden yapılabilir olmalı, ağır animasyon ya da özel eklenti gerektirmemeli.
 >
 > **Oyun:** KARINE, iOS ve Android için oyuncu güdümlü bir dedektif oyunu. Oyuncu, gece bir masada dosyaları açar; tutanakları, mesaj dökümlerini, kamera karelerini ve ifadeleri karşılaştırır, tanıkları sorgular ve gerekçeli rapor yazar. Kimse sıradaki adımı söylemez, kimin yalan söylediği işaretlenmez. Kariyer İstanbul'da başlar, dünyanın 10 şehrine uzanır. Dedektifin adı Bora.
 >
