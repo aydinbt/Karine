@@ -5,7 +5,7 @@
 
 ## Tek cümle
 
-**15 Ekim:** **Kademeli ipucu reklamı** kodlandı: Çalışmam ekranında "Takıldım — ipucu"; her reklam bir kademe açar (1 tür, 2 yer, 3 karşılaştırılacak kişi+kayıt), fail/yalan/çelişki söylenmez, #001'de yok. İngilizce mağaza metni `STORE_LISTING.md`. EditMode 150/150 geçti → `[~]`. **Paylaşılabilir kapanış kartı** kodlandı: doğru kapanan dosyanın faksında "Kartı paylaş"; spoiler'sız kart PNG olarak telefonun paylaşma penceresine gider. PlayMode'da `Account_MatchesBaseline` (giriş ekranı görüntü karşılaştırması, fark 0.052 > 0.04) düşüyor; bu işle ilgisiz, referans görüntü yenilenmeli.
+**15 Ekim:** **Kademeli ipucu reklamı** kodlandı: Çalışmam ekranında "Takıldım — ipucu"; her reklam bir kademe açar (1 tür, 2 yer, 3 karşılaştırılacak kişi+kayıt), fail/yalan/çelişki söylenmez, #001'de yok. İngilizce mağaza metni `STORE_LISTING.md`. EditMode 150/150 geçti → `[~]`. **Paylaşılabilir kapanış kartı** kodlandı: doğru kapanan dosyanın faksında "Kartı paylaş"; spoiler'sız kart PNG olarak telefonun paylaşma penceresine gider. Giriş ekranının görüntü testi referansı yenilendi.
 
 **10 Ekim:** **Fransızca çeviri tamamlandı.** 73 dosya ve ortak arayüz, 12.934 satır; çeviri denetimi 0 sorun, 0 eksik. Sözlük: [Translation/GLOSSARY_fr.md](Translation/GLOSSARY_fr.md). `fr.json` geldiği için dil seçicide Français artık görünüyor; geçici `fr.account.json` kaldırıldı (anahtarları `fr.json`da). Menü duyurusuna `notice_fr` eklendi. 147 EditMode geçiyor. Kalan diller (it, es, pt-BR) kullanıcı onayı bekliyor. **Fransızca metin oyunda okunmadı** → `[~]`.
 

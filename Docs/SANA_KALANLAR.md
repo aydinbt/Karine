@@ -141,5 +141,4 @@ Kodda `[~]` duran ve ancak gözle `[x]` olabilecek maddeler:
 
 - [ ] Unity'de bir dosyayı doğru kapat → faks ekranında **Kartı paylaş** → kart açılıyor mu, kapak/numara/ad/damga düzgün mü bak. **Paylaş**'a basınca Console'da kartın dosya yolu yazar; o PNG'yi açıp kartın düzgün kesildiğine bak.
 - [ ] Telefonda (cihaz testinde): Paylaş'a basınca sistemin paylaşma penceresi açılıyor mu, görsel ve yazı gidiyor mu.
-- [ ] Giriş ekranının görüntü testi referansı eskimiş (`Account_MatchesBaseline`): ekran değiştiyse yeni görüntüyü referans yapmamı söyle.
 
