@@ -1286,3 +1286,10 @@ Jenerik ilk dosyadan sonra değil, son dosyanın bölüm finalinden sonra bir ke
 ## 10 Ekim 2026 — Geliştirici adı ve paket kimliği
 
 Geliştirici **Bube Games**'tir ("Bube Digital" diye bir şirket yok). Paket kimliği yayından önce `com.bubedigital.karine` → `com.bubegames.karine` oldu; mağaza ürünleri `com.bubegames.karine.noads` / `.priority`. Yukarıdaki eski kayıtlarda geçen eski kimlik tarihsel olarak bırakıldı.
+
+## 15 Ekim 2026 — Yayın öncesi özellik kararları
+
+- **Kademeli ipucu (ödüllü reklam):** üç kademe. (1) "Bu dosyada açmadığın bir kaynak var." (2) Yeri gösterir: "Kurye kaydını tekrar oku." (3) Karşılaştırılacak ikiliyi söyler, sonucu söylemez: "Kapıcının ifadesini 21.40 kaydıyla karşılaştır." Hiçbir kademe faili, yalanı ya da çelişkiyi adlandırmaz; Dosya #001'de ipucu yok. Metin elle yazılmaz, açılmamış kaynak ve sorulmamış sorudan (Çalışmam verisi) türetilir.
+- **Paylaşılabilir kapanış kartı:** rapor sonrası spoiler'sız görsel (kapak, süre, değerlendirme, rütbe).
+- **Yapılmayacaklar:** ayrı olay panosu (dosya içindeki olay çizelgesi bu işi görüyor), haftalık dosya, oyuncu defteri (yatayda klavye), puan tablosu, enerji/can (güven sistemi yeterli).
+- **Mağaza metni:** tek dil, İngilizce.
