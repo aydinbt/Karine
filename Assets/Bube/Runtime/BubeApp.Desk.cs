@@ -327,9 +327,39 @@ public sealed partial class BubeApp {
    KarineUI.GuidanceMeter(side,"people",T("guidance.coverage.questions"),coverage.QuestionsAsked,coverage.QuestionsAvailable);
    KarineUI.GuidanceMeter(side,"pin",T("guidance.coverage.clues"),coverage.CluesPinned,coverage.CluesAvailable);
   }
+  if(!coverage.Complete && Hints.Allowed(game))HintBlock(side,back);
   var spacer=new VisualElement();spacer.style.flexGrow=1;side.Add(spacer);
   KarineUI.InterviewAction(side,null,T("offer.back"),back);
  }
+
+ // Kademeli ipucu: her ödüllü reklam bir kademe açar. Oyuncu yeni bir şey okuyunca
+ // ya da sorunca kademe sıfırlanır; ipucu o anki çalışmaya göre yeniden seçilir.
+ string hintCase;int hintProgress=-1,hintTier;
+ void HintBlock(VisualElement side,Action back) {
+  int progress=game.State.read.Count+game.State.asked.Count;
+  if(hintCase!=game.Data.id || hintProgress!=progress){hintCase=game.Data.id;hintProgress=progress;hintTier=0;}
+  if(hintTier>0) {
+   var hint=Hints.For(game,hintTier);
+   if(!hint.Empty)KarineUI.GuidanceText(side,HintText(hint),KarineTheme.Guidance.IntroSize).style.whiteSpace=WhiteSpace.Normal;
+  }
+  if(hintTier>=Hints.MaxTier || Hints.For(game,hintTier+1).Tier<=hintTier)return;
+  bool offer=AdGateway.RewardEarnedWithoutAd(AdPlacement.RewardedHint) || AdGateway.MayShow(AdPlacement.RewardedHint,AdMoment.Investigation);
+  if(!offer)return;
+  KarineUI.InterviewAction(side,"info",T(hintTier==0?"hint.action":"hint.more"),()=>
+   AdGateway.Request(AdPlacement.RewardedHint,AdMoment.Investigation,granted=>{
+    if(granted)hintTier++;else hintNotice=true;
+    GuidancePage(back);
+   }));
+  if(hintNotice){hintNotice=false;KarineUI.GuidanceText(side,T("guidance.unavailable"),KarineTheme.Guidance.IntroSize);}
+ }
+ bool hintNotice;
+ string HintText(Hint hint) {
+  var node=game.Data.nodes.First(n=>n.id==hint.NodeId);
+  if(hint.Tier==1)return T(locale.Has("hint.kind."+hint.Kind)?"hint.kind."+hint.Kind:"hint.kind.other");
+  if(hint.Tier==3)return string.Format(T("hint.compare"),HintName(node),HintName(game.Data.nodes.First(n=>n.id==hint.SourceId.Split('#')[0])));
+  return string.Format(T(hint.Kind=="question"?"hint.ask":"hint.read"),HintName(node));
+ }
+ string HintName(Node node)=>T(!string.IsNullOrEmpty(node.personNameKey)?node.personNameKey:node.titleKey);
 
  // Dosyanın akıbeti: raporun gerçek dünyada neye yol açtığı. Oyuncunun yazdığı kişi ve
  // ikinci sorumluluk için vaka verisinden gelir; yanlış suçlamanın bedeli de burada görünür.

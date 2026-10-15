@@ -5075,6 +5075,46 @@
   {
    "key": "paused.chapters",
    "value": "Chapitres"
+  },
+  {
+   "key": "hint.action",
+   "value": "Je bloque — indice (pub)"
+  },
+  {
+   "key": "hint.more",
+   "value": "Un peu plus (pub)"
+  },
+  {
+   "key": "hint.kind.document",
+   "value": "Un document sur votre bureau n’a pas encore été ouvert."
+  },
+  {
+   "key": "hint.kind.interview",
+   "value": "Il reste quelqu’un que vous n’avez pas entendu."
+  },
+  {
+   "key": "hint.kind.cctv",
+   "value": "Il reste un enregistrement de caméra que vous n’avez pas regardé."
+  },
+  {
+   "key": "hint.kind.question",
+   "value": "Il vous reste une question à poser à quelqu’un."
+  },
+  {
+   "key": "hint.kind.other",
+   "value": "Il reste une source que vous n’avez pas ouverte."
+  },
+  {
+   "key": "hint.read",
+   "value": "« {0} » — pas encore ouvert."
+  },
+  {
+   "key": "hint.ask",
+   "value": "Une question reste à poser lors de l’audition de {0}."
+  },
+  {
+   "key": "hint.compare",
+   "value": "Lors de l’audition de {0}, pensez à l’enregistrement que vous avez : « {1} »."
   }
  ]
 }

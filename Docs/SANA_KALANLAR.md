@@ -131,3 +131,8 @@ Kodda `[~]` duran ve ancak gözle `[x]` olabilecek maddeler:
 - [ ] **Türkiye #001–#010 anlatı denetimi:** öneri kartı açık; tıklarsan ayrı oturumda başlar.
 - [ ] **Olay panosu** tasarımı (ROADMAP, Dosya #008): tasarımı sen vereceksin.
 - [ ] **Uzaktan indirilen içerik** (yeni vakaları mağaza onayı olmadan göndermek): düzenli vaka yayını planı olursa konuşalım.
+
+## İpucu reklamı (15 Ekim 2026)
+
+- [ ] Unity'de Dosya #002'yi aç, masadaki **Çalışmam** düğmesine bas; "Takıldım — ipucu" düğmesiyle üç kademeyi sırayla gör (geliştirme derlemesinde test reklamı çıkar). Metinlerin sana bir şeyi fazla söyleyip söylemediğine bak.
+- [ ] Mağaza ekran görüntülerini Unity'den al (Cmd+Shift+4), `STORE_LISTING.md`'deki 6 yazıyla. Çerçeveyi kendimiz yapacağız.

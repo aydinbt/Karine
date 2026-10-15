@@ -5075,6 +5075,46 @@
   {
    "key": "paused.chapters",
    "value": "Bölümler"
+  },
+  {
+   "key": "hint.action",
+   "value": "Takıldım — ipucu (reklam)"
+  },
+  {
+   "key": "hint.more",
+   "value": "Biraz daha (reklam)"
+  },
+  {
+   "key": "hint.kind.document",
+   "value": "Masada henüz açmadığın bir belge var."
+  },
+  {
+   "key": "hint.kind.interview",
+   "value": "Henüz görüşmediğin biri var."
+  },
+  {
+   "key": "hint.kind.cctv",
+   "value": "Henüz izlemediğin bir kamera kaydı var."
+  },
+  {
+   "key": "hint.kind.question",
+   "value": "Birine sorabileceğin bir soru daha var."
+  },
+  {
+   "key": "hint.kind.other",
+   "value": "Henüz açmadığın bir kaynak var."
+  },
+  {
+   "key": "hint.read",
+   "value": "«{0}» — henüz açmadın."
+  },
+  {
+   "key": "hint.ask",
+   "value": "{0} ile görüşmende sorulmamış bir soru var."
+  },
+  {
+   "key": "hint.compare",
+   "value": "{0} ile görüşürken elindeki «{1}» kaydını düşün."
   }
  ]
 }

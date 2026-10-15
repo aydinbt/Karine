@@ -5075,6 +5075,46 @@
   {
    "key": "paused.chapters",
    "value": "Chapters"
+  },
+  {
+   "key": "hint.action",
+   "value": "I'm stuck — hint (ad)"
+  },
+  {
+   "key": "hint.more",
+   "value": "A little more (ad)"
+  },
+  {
+   "key": "hint.kind.document",
+   "value": "There is a document on your desk you haven't opened."
+  },
+  {
+   "key": "hint.kind.interview",
+   "value": "There is someone you haven't interviewed yet."
+  },
+  {
+   "key": "hint.kind.cctv",
+   "value": "There is camera footage you haven't watched."
+  },
+  {
+   "key": "hint.kind.question",
+   "value": "There is still a question you can ask someone."
+  },
+  {
+   "key": "hint.kind.other",
+   "value": "There is a source you haven't opened yet."
+  },
+  {
+   "key": "hint.read",
+   "value": "“{0}” — you haven't opened it yet."
+  },
+  {
+   "key": "hint.ask",
+   "value": "There is an unasked question in your interview with {0}."
+  },
+  {
+   "key": "hint.compare",
+   "value": "When you talk to {0}, think about the record you hold: “{1}”."
   }
  ]
 }

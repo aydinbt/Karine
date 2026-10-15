@@ -5075,6 +5075,46 @@
   {
    "key": "paused.chapters",
    "value": "Kapitel"
+  },
+  {
+   "key": "hint.action",
+   "value": "Ich hänge fest — Hinweis (Werbung)"
+  },
+  {
+   "key": "hint.more",
+   "value": "Etwas mehr (Werbung)"
+  },
+  {
+   "key": "hint.kind.document",
+   "value": "Auf Ihrem Schreibtisch liegt ein Dokument, das Sie noch nicht geöffnet haben."
+  },
+  {
+   "key": "hint.kind.interview",
+   "value": "Es gibt jemanden, den Sie noch nicht befragt haben."
+  },
+  {
+   "key": "hint.kind.cctv",
+   "value": "Es gibt eine Kameraaufnahme, die Sie noch nicht gesehen haben."
+  },
+  {
+   "key": "hint.kind.question",
+   "value": "Sie können noch jemandem eine Frage stellen."
+  },
+  {
+   "key": "hint.kind.other",
+   "value": "Es gibt eine Quelle, die Sie noch nicht geöffnet haben."
+  },
+  {
+   "key": "hint.read",
+   "value": "„{0}“ – noch nicht geöffnet."
+  },
+  {
+   "key": "hint.ask",
+   "value": "In Ihrer Befragung von {0} ist eine Frage noch offen."
+  },
+  {
+   "key": "hint.compare",
+   "value": "Denken Sie bei {0} an die Aufzeichnung, die Sie haben: „{1}“."
   }
  ]
 }

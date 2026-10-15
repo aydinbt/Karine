@@ -15,6 +15,7 @@ public enum AdPlacement {
  MenuReturn,        // oyundan ana menüye dönerken
  RewardedCosmetic,  // ödüllü: masa için görünüm (lamba rengi); oynanışa dokunmaz
  RewardedSkipWait,  // ödüllü: uzun bir bekleyişi atla (talep, faks); yalnız bekleme uzunsa
+ RewardedHint,      // ödüllü: kademeli ipucu (Hints); oyuncu Çalışmam ekranında kendisi ister
 }
 
 // Oyunun hangi anında olduğumuz. Reklam kararı "hangi ekran" değil "hangi an"
@@ -87,6 +88,8 @@ public static class AdGateway {
    case AdPlacement.MenuReturn: return Seasoned && moment == AdMoment.Menu;
    case AdPlacement.RewardedCosmetic: return moment == AdMoment.Menu;
    case AdPlacement.RewardedSkipWait: return moment == AdMoment.Waiting;
+   // Soruşturmanın içinde tek reklam: oyuncunun kendisinin istediği ipucu.
+   case AdPlacement.RewardedHint: return moment == AdMoment.Investigation;
    case AdPlacement.RewardedRetry:
    case AdPlacement.RewardedGuidance: return moment == AdMoment.ReportRejected;
    default: return false;
