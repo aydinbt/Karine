@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.bubegames.karine.share'
+    compileSdk 35
+    defaultConfig { minSdk 25 }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+}

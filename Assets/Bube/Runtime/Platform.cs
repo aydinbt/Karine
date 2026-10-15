@@ -7,13 +7,15 @@ using AOT;
 
 namespace Bube {
 
-// İşletim sistemine özgü iki çağrı: iOS reklam takip izni (ATT) ve oyun içi puan isteme.
+// İşletim sistemine özgü çağrılar: iOS reklam takip izni (ATT), oyun içi puan isteme, paylaşma.
 // Editor'de ve diğer platformlarda: takip "izin yok" sayılmaz, sorulmadan geçilir; puan yok.
 public static class Platform {
 #if UNITY_IOS && !UNITY_EDITOR
  delegate void TrackingCallback(int status);
  [DllImport("__Internal")] static extern void KarineRequestTracking(TrackingCallback callback);
  [DllImport("__Internal")] static extern void KarineRequestReview();
+ [DllImport("__Internal")] static extern void KarineShare(string path, string text);
+ public static void Share(string path, string text) => KarineShare(path, text);
  static Action trackingDone;
  [MonoPInvokeCallback(typeof(TrackingCallback))]
  static void OnTracking(int status) { var done = trackingDone; trackingDone = null; done?.Invoke(); }
@@ -23,6 +25,14 @@ public static class Platform {
  public static void RequestReview() => KarineRequestReview();
 #elif UNITY_ANDROID && !UNITY_EDITOR
  public static void RequestTracking(Action done) => done();
+ public static void Share(string path, string text) {
+  try {
+   using (var player = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+   using (var activity = player.GetStatic<AndroidJavaObject>("currentActivity"))
+   using (var bridge = new AndroidJavaClass("com.bubegames.karine.share.ShareBridge"))
+    bridge.CallStatic("share", activity, path, text);
+  } catch (Exception e) { Debug.LogWarning("Share unavailable: " + e.Message); }
+ }
  public static void RequestReview() {
   try {
    using (var player = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
@@ -34,6 +44,8 @@ public static class Platform {
 #else
  public static void RequestTracking(Action done) => done();
  public static void RequestReview() {}
+ // Editor'de paylaşma penceresi yok: kartın yolu yazılır, dosya açılıp bakılabilir.
+ public static void Share(string path, string text) => Debug.Log("Share card: " + path + "\n" + text);
 #endif
 }
 }

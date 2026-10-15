@@ -136,3 +136,10 @@ Kodda `[~]` duran ve ancak gözle `[x]` olabilecek maddeler:
 
 - [ ] Unity'de Dosya #002'yi aç, masadaki **Çalışmam** düğmesine bas; "Takıldım — ipucu" düğmesiyle üç kademeyi sırayla gör (geliştirme derlemesinde test reklamı çıkar). Metinlerin sana bir şeyi fazla söyleyip söylemediğine bak.
 - [ ] Mağaza ekran görüntülerini Unity'den al (Cmd+Shift+4), `STORE_LISTING.md`'deki 6 yazıyla. Çerçeveyi kendimiz yapacağız.
+
+## Kapanış kartı (15 Ekim 2026)
+
+- [ ] Unity'de bir dosyayı doğru kapat → faks ekranında **Kartı paylaş** → kart açılıyor mu, kapak/numara/ad/damga düzgün mü bak. **Paylaş**'a basınca Console'da kartın dosya yolu yazar; o PNG'yi açıp kartın düzgün kesildiğine bak.
+- [ ] Telefonda (cihaz testinde): Paylaş'a basınca sistemin paylaşma penceresi açılıyor mu, görsel ve yazı gidiyor mu.
+- [ ] Giriş ekranının görüntü testi referansı eskimiş (`Account_MatchesBaseline`): ekran değiştiyse yeni görüntüyü referans yapmamı söyle.
+

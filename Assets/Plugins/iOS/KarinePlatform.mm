@@ -30,4 +30,22 @@ void KarineRequestReview() {
     }
     [SKStoreReviewController requestReview];
 }
+
+// Kapanış kartı: sistemin paylaşma penceresi. iPad'de pencere ekranın ortasından açılır.
+void KarineShare(const char* path, const char* text) {
+    NSString* file = [NSString stringWithUTF8String:path];
+    NSString* caption = [NSString stringWithUTF8String:text];
+    NSMutableArray* items = [NSMutableArray arrayWithObject:caption];
+    UIImage* image = [UIImage imageWithContentsOfFile:file];
+    if (image) [items insertObject:image atIndex:0];
+    UIViewController* top = UIApplication.sharedApplication.keyWindow.rootViewController;
+    while (top.presentedViewController) top = top.presentedViewController;
+    UIActivityViewController* sheet = [[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:nil];
+    if (sheet.popoverPresentationController) {
+        sheet.popoverPresentationController.sourceView = top.view;
+        sheet.popoverPresentationController.sourceRect = CGRectMake(CGRectGetMidX(top.view.bounds), CGRectGetMidY(top.view.bounds), 0, 0);
+        sheet.popoverPresentationController.permittedArrowDirections = 0;
+    }
+    [top presentViewController:sheet animated:YES completion:nil];
+}
 }

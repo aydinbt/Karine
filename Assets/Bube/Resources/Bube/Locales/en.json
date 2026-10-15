@@ -5115,6 +5115,22 @@
   {
    "key": "hint.compare",
    "value": "When you talk to {0}, think about the record you hold: “{1}”."
+  },
+  {
+   "key": "share.open",
+   "value": "Share the card"
+  },
+  {
+   "key": "share.action",
+   "value": "Share"
+  },
+  {
+   "key": "share.close",
+   "value": "Close"
+  },
+  {
+   "key": "share.text",
+   "value": "{0} “{1}” closed. Karine — bubegames.com/karine"
   }
  ]
 }

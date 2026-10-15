@@ -1290,6 +1290,6 @@ Geliştirici **Bube Games**'tir ("Bube Digital" diye bir şirket yok). Paket kim
 ## 15 Ekim 2026 — Yayın öncesi özellik kararları
 
 - **Kademeli ipucu (ödüllü reklam):** üç kademe. (1) "Bu dosyada açmadığın bir kaynak var." (2) Yeri gösterir: "Kurye kaydını tekrar oku." (3) Karşılaştırılacak ikiliyi söyler, sonucu söylemez: "Kapıcının ifadesini 21.40 kaydıyla karşılaştır." Hiçbir kademe faili, yalanı ya da çelişkiyi adlandırmaz; Dosya #001'de ipucu yok. Metin elle yazılmaz, açılmamış kaynak ve sorulmamış sorudan (Çalışmam verisi) türetilir.
-- **Paylaşılabilir kapanış kartı:** rapor sonrası spoiler'sız görsel (kapak, süre, değerlendirme, rütbe).
+- **Paylaşılabilir kapanış kartı:** rapor sonrası spoiler'sız görsel. Uygulanan hâli: 4:5 dikey kart — kapak, dosya numarası ve adı, KAPANDI damgası, faks değerlendirme başlığı, güven durumu, KARINE logosu, `bubegames.com/karine`. Süre ve rütbe kartta yok (oyunda süre ölçülmüyor). Fail, yöntem, kanıt yazılmaz. Yalnız doğru kapanan dosyada, faks ekranındaki bağlantıyla.
 - **Yapılmayacaklar:** ayrı olay panosu (dosya içindeki olay çizelgesi bu işi görüyor), haftalık dosya, oyuncu defteri (yatayda klavye), puan tablosu, enerji/can (güven sistemi yeterli).
 - **Mağaza metni:** tek dil, İngilizce.
